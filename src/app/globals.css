@@ -7,9 +7,21 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: "Geist", "Geist Fallback", ui-sans-serif, system-ui, sans-serif;
-  --font-mono: "Geist Mono", "Geist Mono Fallback", ui-monospace, monospace;
+  --font-sans:
+    "Noto IKEA Latin", "Noto Ikea SC", "Noto Sans SC", "Noto Sans", Roboto,
+    "Open Sans", system-ui, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, monospace;
   --font-heading: var(--font-sans);
+  --color-ikea-yellow: #ffdb00;
+  --color-ikea-blue: #0058a3;
+  --color-ikea-red: #cc0008;
+  --color-ikea-orange: #ca5008;
+  --color-ikea-beige: #f5deb3;
+  --color-ikea-black: #111111;
+  --color-ikea-gray-100: #f5f5f5;
+  --color-ikea-gray-150: #dfdfdf;
+  --color-ikea-gray-200: #e5e7eb;
+  --color-ikea-muted: #484848;
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
@@ -49,82 +61,195 @@
 }
 
 :root {
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
-  --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.556 0 0);
-  --chart-3: oklch(0.439 0 0);
-  --chart-4: oklch(0.371 0 0);
-  --chart-5: oklch(0.269 0 0);
+  --background: #ffffff;
+  --foreground: #111111;
+  --card: #ffffff;
+  --card-foreground: #111111;
+  --popover: #ffffff;
+  --popover-foreground: #111111;
+  --primary: #0058a3;
+  --primary-foreground: #ffffff;
+  --secondary: #f5f5f5;
+  --secondary-foreground: #111111;
+  --muted: #f5f5f5;
+  --muted-foreground: #484848;
+  --accent: #ffdb00;
+  --accent-foreground: #111111;
+  --destructive: #cc0008;
+  --border: #e5e7eb;
+  --input: #e5e7eb;
+  --ring: #0058a3;
+  --chart-1: #0058a3;
+  --chart-2: #ffdb00;
+  --chart-3: #cc0008;
+  --chart-4: #ca5008;
+  --chart-5: #f5deb3;
   --radius: 0.625rem;
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
+  --sidebar: #ffffff;
+  --sidebar-foreground: #111111;
+  --sidebar-primary: #0058a3;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #f5f5f5;
+  --sidebar-accent-foreground: #111111;
+  --sidebar-border: #e5e7eb;
+  --sidebar-ring: #0058a3;
 }
 
 .dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.205 0 0);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.205 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.922 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.985 0 0);
-  --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.556 0 0);
-  --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.556 0 0);
-  --chart-3: oklch(0.439 0 0);
-  --chart-4: oklch(0.371 0 0);
-  --chart-5: oklch(0.269 0 0);
-  --sidebar: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.556 0 0);
+  --background: #111111;
+  --foreground: #ffffff;
+  --card: #1a1a1a;
+  --card-foreground: #ffffff;
+  --popover: #1a1a1a;
+  --popover-foreground: #ffffff;
+  --primary: #ffffff;
+  --primary-foreground: #111111;
+  --secondary: #262626;
+  --secondary-foreground: #ffffff;
+  --muted: #262626;
+  --muted-foreground: #a3a3a3;
+  --accent: #ffdb00;
+  --accent-foreground: #111111;
+  --destructive: #cc0008;
+  --border: #333333;
+  --input: #333333;
+  --ring: #a3a3a3;
+  --chart-1: #0058a3;
+  --chart-2: #ffdb00;
+  --chart-3: #cc0008;
+  --chart-4: #ca5008;
+  --chart-5: #f5deb3;
+  --sidebar: #1a1a1a;
+  --sidebar-foreground: #ffffff;
+  --sidebar-primary: #ffffff;
+  --sidebar-primary-foreground: #111111;
+  --sidebar-accent: #262626;
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: #333333;
+  --sidebar-ring: #a3a3a3;
 }
 
 @layer base {
   * {
-    @apply border-border outline-ring/50;
+    border-color: var(--border);
   }
-  body {
-    @apply bg-background text-foreground;
-  }
+
   html {
-    @apply font-sans;
+    font-size: 16px;
+  }
+
+  body {
+    margin: 0;
+    font-size: 14px;
+    line-height: 21px;
+    color: #111111;
+    background-color: #ffffff;
+    font-family:
+      "Noto IKEA Latin", "Noto Ikea SC", "Noto Sans SC", "Noto Sans", Roboto,
+      "Open Sans", -apple-system, sans-serif;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  button {
+    cursor: pointer;
+  }
+}
+
+@layer utilities {
+  .max-w-page {
+    max-width: 1440px;
+    min-width: 1100px;
+    margin-inline: auto;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  .font-ikea {
+    font-family:
+      "Noto IKEA Latin", "Noto Ikea SC", "Noto Sans SC", "Noto Sans", Roboto,
+      "Open Sans", -apple-system, sans-serif;
+  }
+
+  .i-pill {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    border-radius: 9999px;
+    font-weight: 700;
+    transition:
+      background-color 0.2s ease,
+      color 0.2s ease,
+      border-color 0.2s ease;
+  }
+
+  .i-pill--small {
+    height: 40px;
+    padding: 0 20px;
+    font-size: 14px;
+    border: 1px solid #dfdfdf;
+    background: #ffffff;
+    color: #111111;
+  }
+
+  .i-pill--active {
+    background: #111111;
+    border-color: #111111;
+    color: #ffffff;
+  }
+
+  .i-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border-radius: 64px;
+    font-weight: 700;
+    line-height: 1;
+    transition: background-color 0.2s ease;
+  }
+
+  .i-btn--small {
+    height: 40px;
+    padding: 0 20px;
+    font-size: 12px;
+  }
+
+  .i-btn--xsmall {
+    height: 32px;
+    padding: 0 12px;
+    font-size: 12px;
+  }
+
+  .i-btn--primary {
+    background: #0058a3;
+    color: #ffffff;
+  }
+
+  .i-btn--primary:hover {
+    background: #004b8a;
+  }
+
+  .i-btn--emphasised {
+    background: #ffdb00;
+    color: #111111;
+  }
+
+  .ellipsis {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
   }
 }
