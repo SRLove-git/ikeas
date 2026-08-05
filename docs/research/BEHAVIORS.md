@@ -35,15 +35,16 @@ Verified via Playwright automation (desktop 1440x900 and mobile 390x844).
 
 ## Ranking section
 
-- Header rows per category: "热销榜" label (14px) + category name (18px bold) + 30x30 nav button.
+- **CORRECTED 2026-08-05:** The live section is a horizontally scrollable strip of 10 category panels (397px each, brown header + 3-product column), NOT pill-switched content. Arrow buttons scroll the strip. (Earlier observation of pills was stale.)
+- Header per panel: `热销榜` + category name in white on `#807151`; padding 20px 24px; height 97px.
 - Categories: 食品储存与收纳, 抽屉和隔板, 杯子和马克杯, 抹布及海绵清洁刷, 斗柜, 烹饪准备用具, 浴室储物盒和篮子, 落地灯, 碗, 弹簧床垫 (+ more).
 - Product cards: image 100x100 (s3 images), name, price ¥ (12 products per category visible).
-- Desktop: horizontally scrollable category pills with arrow buttons (`i-scrollbar-arrow__button`); content switches per category.
+- Desktop: horizontal scroll of panels with arrow buttons (`i-scrollbar-arrow__button`).
 
 ## Product inspiration (发现更多家居灵感)
 
 - Tab bar `.inspiration-feeds__tabs.sticky` — sticky at top:0, z-index 20 (sticks when section scrolls under it).
-- Tabs: `i-pill i-pill--small i-tabs__item` — 全部 卧室 客厅 厨房 书房 浴室 阳台 儿童房 户外 餐厅 门厅 电竞 新品; active tab = `i-pill--active` (black bg, white text).
+- Tabs: `i-pill i-pill--small i-tabs__item` — 全部 卧室 客厅 厨房 书房 浴室 阳台 儿童房 户外 餐厅 门厅 电竞 新品; active tab = `i-pill--active` (bg #f5f5f5 + 2px #111 border, NOT black bg — corrected 2026-08-05).
 - Clicking a tab swaps the product grid content (client-side; e.g. 卧室 shows bedroom products).
 - Products: name + price + tag chips (新品/热卖/即将下架) + add-to-cart icon button (`cartin-button`, 32px).
 - "加载更多内容" button loads more products.
