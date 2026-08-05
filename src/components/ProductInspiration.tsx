@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import { CartBagIcon } from "@/components/icons";
 import type { FeedProduct } from "@/data/homepage";
 
@@ -83,27 +84,46 @@ export function ProductInspiration({
 function ProductPinCard({ product }: { product: FeedProduct }) {
   const [showTooltip, setShowTooltip] = useState(false);
 
+  const tagStyle = product.tagStyle
+    ? Object.fromEntries(
+        product.tagStyle
+          .split(";")
+          .map((pair) => pair.split(":").map((part) => part.trim()))
+          .filter(([key, value]) => key && value)
+          .map(([key, value]) => {
+            const camel = key.replace(/-([a-z])/g, (_, c) => c.toUpperCase());
+            return [camel, value];
+          }),
+      )
+    : undefined;
+
   return (
     <div
       className="i-waterfall-container__column__item group relative aspect-square overflow-visible"
       onMouseEnter={() => setShowTooltip(true)}
       onMouseLeave={() => setShowTooltip(false)}
     >
-      <div className="i-aspect-ratio-box i-aspect-ratio-box--standard h-full w-full overflow-hidden bg-ikea-gray-100">
-        {product.image ? (
-          // eslint-disable-next-line @next/next/no-img-element
-          <img
-            src={product.image}
-            alt={product.title ?? ""}
-            className="h-full w-full object-cover"
-            loading="lazy"
-          />
-        ) : (
-          <div className="flex h-full w-full items-center justify-center">
-            <div className="h-16 w-16 rounded-full bg-ikea-gray-150/70" />
-          </div>
-        )}
-      </div>
+      <Link
+        href={product.href ?? "#"}
+        className="block h-full w-full"
+        aria-label={product.title ?? "产品"}
+      >
+        <div className="i-aspect-ratio-box i-aspect-ratio-box--standard h-full w-full overflow-hidden bg-ikea-gray-100">
+          {product.image ? (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img
+              src={product.image}
+              alt={product.title ?? ""}
+              className="h-full w-full object-cover"
+              loading="lazy"
+            />
+          ) : (
+            <div className="flex h-full w-full items-center justify-center">
+              <div className="h-16 w-16 rounded-full bg-ikea-gray-150/70" />
+            </div>
+          )}
+        </div>
+      </Link>
 
       <button
         type="button"
@@ -134,25 +154,19 @@ function ProductPinCard({ product }: { product: FeedProduct }) {
                 <span
                   key={tag}
                   className="i-product-tag inline-block px-1 py-0.5 text-[10px] font-bold leading-[10px]"
-                  style={
-                    product.tagStyle
-                      ? Object.fromEntries(
-                          product.tagStyle
-                            .split(";")
-                            .map((pair) => pair.split(":").map((part) => part.trim()))
-                            .filter(([k, v]) => k && v),
-                        )
-                      : { backgroundColor: "#ca5008", color: "#ffffff" }
-                  }
+                  style={tagStyle ?? { backgroundColor: "#ca5008", color: "#ffffff" }}
                 >
                   {tag}
                 </span>
               ))}
             </div>
           ) : null}
-          <p className="text-xs font-bold leading-[18px] text-ikea-black">
+          <Link
+            href={product.href ?? "#"}
+            className="text-xs font-bold leading-[18px] text-ikea-black hover:underline"
+          >
             {product.title}
-          </p>
+          </Link>
           {product.desc ? (
             <p className="mt-0.5 text-xs leading-[18px] text-ikea-muted">
               {product.desc}
