@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useState } from "react";
 import {
   CartIcon,
   HeartIcon,
@@ -23,16 +23,17 @@ export function Header({
   const [openMenu, setOpenMenu] = useState<string | null>(null);
   const [openAppPromo, setOpenAppPromo] = useState(false);
   const [hintIndex, setHintIndex] = useState(0);
-  const barRef = useRef<HTMLSpanElement>(null);
   const [bar, setBar] = useState({ width: 0, left: 0, opacity: 0 });
 
   const moveActiveBar = (item: HTMLLIElement) => {
-    const rect = item.getBoundingClientRect();
-    const ul = item.parentElement?.getBoundingClientRect();
-    if (!ul) return;
+    const label = item.querySelector(".menu-label") ?? item;
+    const rect = label.getBoundingClientRect();
+    const top = document.querySelector(".header_container_top");
+    if (!top) return;
+    const topRect = top.getBoundingClientRect();
     setBar({
       width: rect.width,
-      left: rect.left - ul.left,
+      left: rect.left - topRect.left,
       opacity: 1,
     });
   };
@@ -129,7 +130,6 @@ export function Header({
                   onMouseLeave={hideActiveBar}
                 >
                   <span
-                    ref={barRef}
                     className="active-bar"
                     style={{
                       width: bar.width,

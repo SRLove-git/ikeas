@@ -263,3 +263,92 @@
   object-fit: cover;
   object-position: center;
 }
+
+/* === Clone component alignment fixes === */
+
+/* Search icon inside the header search bar */
+.search-input {
+  position: relative;
+}
+
+.search-input__icon {
+  position: absolute;
+  left: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #111111;
+}
+
+/* Header action pills (登录宜家账号 / 我的个人档案 / 我的收藏 / 购物袋) */
+.header-action-btn {
+  align-items: center;
+  background: #ffffff;
+  border-radius: 24px;
+  display: flex;
+  height: 48px;
+  justify-content: center;
+  min-width: 48px;
+  padding: 10px;
+  vertical-align: middle;
+}
+
+.header-action-btn:hover {
+  background: #cccccc;
+  cursor: pointer;
+}
+
+.header-action-btn > span {
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.header-action-btn--login {
+  padding: 10px;
+}
+
+/* Notice-bar message icon (info circle + text) */
+.message-icon {
+  display: inline-block;
+  margin: 0 6px 6px 0;
+  vertical-align: middle;
+  transform: translateY(2px);
+}
+
+/* Language switch separator */
+.lang-separator {
+  margin: 0 4px;
+}
+
+/* Mega menu layer: anchor below the 134px header */
+.mega-menu-layer {
+  position: absolute;
+  top: 133.5px;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+/* App-promo QR panel close button */
+.detail-info__close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.detail-info__close button {
+  align-items: center;
+  background: #f5f5f5;
+  border: none;
+  border-radius: 64px;
+  color: #111111;
+  display: flex;
+  font-size: 18px;
+  height: 32px;
+  justify-content: center;
+  width: 32px;
+}
+
+/* Menu labels follow the original's hover underline behavior */
+.menu-label {
+  cursor: pointer;
+}
