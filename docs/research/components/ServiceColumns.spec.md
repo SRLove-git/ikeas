@@ -40,7 +40,14 @@ section.pub-columns.three-columns (flex row)
    Link: `/cn/zh/h5page/?url=https://store-companion.ikea.cn/kitchen?channel=kitchen_IRW%20M2&cl_sr=IR`
 
 ## Assets
-- No images on the live site (gray placeholder boxes) — render a 232px-tall `#f5f5f5` block per column.
+- Real images (extracted from CMS payload):
+  1. `public/images/cms/8b766d590aa74599957006b42a5d6ffd.jpg` (宜家全屋设计)
+  2. `public/images/cms/fadeb411053d49f18472baf81ffec5a4.jpg` (宜家对公业务)
+  3. `public/images/cms/293f4299997441d79e57236ccad79b55.jpg` (宜家厨房)
+- Image area: 413.33 x 232.48 (16:9-ish, aspect-ratio box), `object-fit: cover`, background `#f5f5f5` while loading.
+
+## Data
+- Import `serviceColumns` from `src/data/homepage.ts` (title/caption, ctaHref, backgroundImage).
 
 ## Responsive Behavior
 - Desktop (1440px): 3 columns, 413.33px each, 20px gap.

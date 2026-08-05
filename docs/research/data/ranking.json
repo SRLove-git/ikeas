@@ -1,0 +1,600 @@
+{
+  "panelCount": 10,
+  "pillBar": {
+    "html": "<!--v-if--><!--v-if-->",
+    "visible": 0
+  },
+  "panels": [
+    {
+      "category": "热销榜",
+      "title": "食品储存与收纳",
+      "headerBg": "rgb(128, 113, 81)",
+      "headerColor": "rgb(255, 255, 255)",
+      "headerHeight": "97px",
+      "navArrow": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\" width=\"1em\" height=\"1em\" style=\"font-size: 18px;\"><path fill-rule=\"evenodd\" d=\"m20.0008 12.0001-8-8.001-1.4143 1.414L16.1727 11H4v2h12.1723l-5.5868 5.5866 1.4141 1.4142 8.0012-8.0007z\" clip-rule=\"evenodd\"></path></svg>",
+      "productCount": 3,
+      "products": [
+        {
+          "image": "https://file.app.ikea.cn/cn/zh/images/products/pruta-pu-ta-fu-gai-shi-pin-he-dan-zi-se__1383827_pe962688_s3.jpg?x-oss-process=image/quality,q_90/interlace,1/resize,w_100",
+          "imgW": 100,
+          "imgH": 100,
+          "rankIcon": "https://static.web.ikea.cn/content/u/20211221/b4f6c5106c054e9887ae2fc311dd5d08.png",
+          "texts": [
+            "PRUTA 普塔¥3.99¥ 3.99",
+            "PRUTA 普塔",
+            "¥3.99¥ 3.99",
+            "¥3.99",
+            "¥3",
+            "¥",
+            "3",
+            ".99"
+          ]
+        },
+        {
+          "image": "https://file.app.ikea.cn/cn/zh/images/products/pruta-pu-ta-fu-gai-shi-pin-he-lan-se__1383825_pe962687_s3.jpg?x-oss-process=image/quality,q_90/interlace,1/resize,w_100",
+          "imgW": 100,
+          "imgH": 100,
+          "rankIcon": "https://static.web.ikea.cn/content/u/20211221/bdd79438744b45519e3913dff60ff5fb.png",
+          "texts": [
+            "PRUTA 普塔¥7.99¥ 7.99",
+            "PRUTA 普塔",
+            "¥7.99¥ 7.99",
+            "¥7.99",
+            "¥7",
+            "¥",
+            "7",
+            ".99"
+          ]
+        },
+        {
+          "image": "https://file.app.ikea.cn/cn/zh/images/products/istad-ai-si-ta-mi-feng-dai-tu-an-lan-se__1080640_pe858405_s3.jpg?x-oss-process=image/quality,q_90/interlace,1/resize,w_100",
+          "imgW": 100,
+          "imgH": 100,
+          "rankIcon": "https://static.web.ikea.cn/content/u/20211221/80635e45659a4826ba044edff9cae215.png",
+          "texts": [
+            "ISTAD 艾斯塔¥14.99¥ 14.99",
+            "ISTAD 艾斯塔",
+            "¥14.99¥ 14.99",
+            "¥14.99",
+            "¥14",
+            "¥",
+            "14",
+            ".99"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "热销榜",
+      "title": "抽屉和隔板",
+      "headerBg": "rgb(128, 125, 117)",
+      "headerColor": "rgb(255, 255, 255)",
+      "headerHeight": "97px",
+      "navArrow": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\" width=\"1em\" height=\"1em\" style=\"font-size: 18px;\"><path fill-rule=\"evenodd\" d=\"m20.0008 12.0001-8-8.001-1.4143 1.414L16.1727 11H4v2h12.1723l-5.5868 5.5866 1.4141 1.4142 8.0012-8.0007z\" clip-rule=\"evenodd\"></path></svg>",
+      "productCount": 3,
+      "products": [
+        {
+          "image": "https://file.app.ikea.cn/cn/zh/images/products/uppdatera-wu-pu-dao-la-he-zi-bai-se__1215004_pe911802_s3.jpg?x-oss-process=image/quality,q_90/interlace,1/resize,w_100",
+          "imgW": 100,
+          "imgH": 100,
+          "rankIcon": "https://static.web.ikea.cn/content/u/20211221/b4f6c5106c054e9887ae2fc311dd5d08.png",
+          "texts": [
+            "UPPDATERA 乌普道拉¥14.99¥ 14.99",
+            "UPPDATERA 乌普道拉",
+            "¥14.99¥ 14.99",
+            "¥14.99",
+            "¥14",
+            "¥",
+            "14",
+            ".99"
+          ]
+        },
+        {
+          "image": "https://file.app.ikea.cn/cn/zh/images/products/ostbit-ao-bi-te-pan-zi-jia-zhu__0406313_pe569286_s3.jpg?x-oss-process=image/quality,q_90/interlace,1/resize,w_100",
+          "imgW": 100,
+          "imgH": 100,
+          "rankIcon": "https://static.web.ikea.cn/content/u/20211221/bdd79438744b45519e3913dff60ff5fb.png",
+          "texts": [
+            "OSTBIT 奥比特¥9.99¥ 9.99",
+            "OSTBIT 奥比特",
+            "¥9.99¥ 9.99",
+            "¥9.99",
+            "¥9",
+            "¥",
+            "9",
+            ".99"
+          ]
+        },
+        {
+          "image": "https://file.app.ikea.cn/cn/zh/images/products/variera-wa-rui-la-chou-ti-dian-tou-ming__0626880_pe693058_s3.jpg?x-oss-process=image/quality,q_90/interlace,1/resize,w_100",
+          "imgW": 100,
+          "imgH": 100,
+          "rankIcon": "https://static.web.ikea.cn/content/u/20211221/80635e45659a4826ba044edff9cae215.png",
+          "texts": [
+            "VARIERA 瓦瑞拉¥24.99¥ 24.99",
+            "VARIERA 瓦瑞拉",
+            "¥24.99¥ 24.99",
+            "¥24.99",
+            "¥24",
+            "¥",
+            "24",
+            ".99"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "热销榜",
+      "title": "杯子和马克杯",
+      "headerBg": "rgb(128, 127, 127)",
+      "headerColor": "rgb(255, 255, 255)",
+      "headerHeight": "97px",
+      "navArrow": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\" width=\"1em\" height=\"1em\" style=\"font-size: 18px;\"><path fill-rule=\"evenodd\" d=\"m20.0008 12.0001-8-8.001-1.4143 1.414L16.1727 11H4v2h12.1723l-5.5868 5.5866 1.4141 1.4142 8.0012-8.0007z\" clip-rule=\"evenodd\"></path></svg>",
+      "productCount": 3,
+      "products": [
+        {
+          "image": "https://file.app.ikea.cn/cn/zh/images/products/faergrik-fa-ge-li-ke-da-bei-shen-qing-se__0711070_pe727945_s3.jpg?x-oss-process=image/quality,q_90/interlace,1/resize,w_100",
+          "imgW": 100,
+          "imgH": 100,
+          "rankIcon": "https://static.web.ikea.cn/content/u/20211221/b4f6c5106c054e9887ae2fc311dd5d08.png",
+          "texts": [
+            "FÄRGRIK 法格里克¥5.99¥ 5.99",
+            "FÄRGRIK 法格里克",
+            "¥5.99¥ 5.99",
+            "¥5.99",
+            "¥5",
+            "¥",
+            "5",
+            ".99"
+          ]
+        },
+        {
+          "image": "https://file.app.ikea.cn/cn/zh/images/products/tobisfisk-tuo-bi-fei-si-ke-da-bei-tu-an-mi-huang-se__1397582_pe967647_s3.jpg?x-oss-process=image/quality,q_90/interlace,1/resize,w_100",
+          "imgW": 100,
+          "imgH": 100,
+          "rankIcon": "https://static.web.ikea.cn/content/u/20211221/bdd79438744b45519e3913dff60ff5fb.png",
+          "texts": [
+            "TOBISFISK 托比菲斯克¥14.99¥ 14.99",
+            "TOBISFISK 托比菲斯克",
+            "¥14.99¥ 14.99",
+            "¥14.99",
+            "¥14",
+            "¥",
+            "14",
+            ".99"
+          ]
+        },
+        {
+          "image": "https://file.app.ikea.cn/cn/zh/images/products/faergklar-fa-li-ke-luo-da-bei-dai-you-guang-ze-mi-huang-se__1010305_pe828022_s3.jpg?x-oss-process=image/quality,q_90/interlace,1/resize,w_100",
+          "imgW": 100,
+          "imgH": 100,
+          "rankIcon": "https://static.web.ikea.cn/content/u/20211221/80635e45659a4826ba044edff9cae215.png",
+          "texts": [
+            "FÄRGKLAR 法利克洛¥9.99¥ 9.99",
+            "FÄRGKLAR 法利克洛",
+            "¥9.99¥ 9.99",
+            "¥9.99",
+            "¥9",
+            "¥",
+            "9",
+            ".99"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "热销榜",
+      "title": "抹布及海绵清洁刷",
+      "headerBg": "rgb(128, 127, 115)",
+      "headerColor": "rgb(255, 255, 255)",
+      "headerHeight": "97px",
+      "navArrow": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\" width=\"1em\" height=\"1em\" style=\"font-size: 18px;\"><path fill-rule=\"evenodd\" d=\"m20.0008 12.0001-8-8.001-1.4143 1.414L16.1727 11H4v2h12.1723l-5.5868 5.5866 1.4141 1.4142 8.0012-8.0007z\" clip-rule=\"evenodd\"></path></svg>",
+      "productCount": 3,
+      "products": [
+        {
+          "image": "https://file.app.ikea.cn/cn/zh/images/products/antagen-an-da-gen-xi-wan-shua-bai-se__1119403_pe873496_s3.jpg?x-oss-process=image/quality,q_90/interlace,1/resize,w_100",
+          "imgW": 100,
+          "imgH": 100,
+          "rankIcon": "https://static.web.ikea.cn/content/u/20211221/b4f6c5106c054e9887ae2fc311dd5d08.png",
+          "texts": [
+            "ANTAGEN 安达根¥1.99¥ 1.99",
+            "ANTAGEN 安达根",
+            "¥1.99¥ 1.99",
+            "¥1.99",
+            "¥1",
+            "¥",
+            "1",
+            ".99"
+          ]
+        },
+        {
+          "image": "https://file.app.ikea.cn/cn/zh/images/products/rinnig-lin-ni-ge-qing-ji-shou-tao-chun-huang-se-hui-bai__1267316_pe928459_s3.jpg?x-oss-process=image/quality,q_90/interlace,1/resize,w_100",
+          "imgW": 100,
+          "imgH": 100,
+          "rankIcon": "https://static.web.ikea.cn/content/u/20211221/bdd79438744b45519e3913dff60ff5fb.png",
+          "texts": [
+            "RINNIG 林妮格¥7.99¥ 7.99",
+            "RINNIG 林妮格",
+            "¥7.99¥ 7.99",
+            "¥7.99",
+            "¥7",
+            "¥",
+            "7",
+            ".99"
+          ]
+        },
+        {
+          "image": "https://file.app.ikea.cn/cn/zh/images/products/pepprig-pei-pu-li-ge-bai-ji-bu-lu-se-lan-se-huang-se__1232066_pe916380_s3.jpg?x-oss-process=image/quality,q_90/interlace,1/resize,w_100",
+          "imgW": 100,
+          "imgH": 100,
+          "rankIcon": "https://static.web.ikea.cn/content/u/20211221/80635e45659a4826ba044edff9cae215.png",
+          "texts": [
+            "PEPPRIG 佩普里格¥4.99¥ 4.99",
+            "PEPPRIG 佩普里格",
+            "¥4.99¥ 4.99",
+            "¥4.99",
+            "¥4",
+            "¥",
+            "4",
+            ".99"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "热销榜",
+      "title": "斗柜",
+      "headerBg": "rgb(128, 117, 109)",
+      "headerColor": "rgb(255, 255, 255)",
+      "headerHeight": "97px",
+      "navArrow": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\" width=\"1em\" height=\"1em\" style=\"font-size: 18px;\"><path fill-rule=\"evenodd\" d=\"m20.0008 12.0001-8-8.001-1.4143 1.414L16.1727 11H4v2h12.1723l-5.5868 5.5866 1.4141 1.4142 8.0012-8.0007z\" clip-rule=\"evenodd\"></path></svg>",
+      "productCount": 3,
+      "products": [
+        {
+          "image": "https://file.app.ikea.cn/cn/zh/images/products/malm-ma-er-mu-si-dou-chou-ti-gui-bai-se__0484879_pe621344_s3.jpg?x-oss-process=image/quality,q_90/interlace,1/resize,w_100",
+          "imgW": 100,
+          "imgH": 100,
+          "rankIcon": "https://static.web.ikea.cn/content/u/20211221/b4f6c5106c054e9887ae2fc311dd5d08.png",
+          "texts": [
+            "MALM 马尔姆¥779.00¥ 779.00",
+            "MALM 马尔姆",
+            "¥779.00¥ 779.00",
+            "¥779.00",
+            "¥779",
+            "¥",
+            "779",
+            ".00"
+          ]
+        },
+        {
+          "image": "https://file.app.ikea.cn/cn/zh/images/products/malm-ma-er-mu-liang-dou-chou-ti-gui-bai-se__0626822_pe693007_s3.jpg?x-oss-process=image/quality,q_90/interlace,1/resize,w_100",
+          "imgW": 100,
+          "imgH": 100,
+          "rankIcon": "https://static.web.ikea.cn/content/u/20211221/bdd79438744b45519e3913dff60ff5fb.png",
+          "texts": [
+            "MALM 马尔姆¥249.00¥ 249.00",
+            "MALM 马尔姆",
+            "¥249.00¥ 249.00",
+            "¥249.00",
+            "¥249",
+            "¥",
+            "249",
+            ".00"
+          ]
+        },
+        {
+          "image": "https://file.app.ikea.cn/cn/zh/images/products/malm-ma-er-mu-liu-dou-chou-ti-gui-bai-se__0484891_pe621335_s3.jpg?x-oss-process=image/quality,q_90/interlace,1/resize,w_100",
+          "imgW": 100,
+          "imgH": 100,
+          "rankIcon": "https://static.web.ikea.cn/content/u/20211221/80635e45659a4826ba044edff9cae215.png",
+          "texts": [
+            "MALM 马尔姆¥1,079.00¥ 1079.00",
+            "MALM 马尔姆",
+            "¥1,079.00¥ 1079.00",
+            "¥1,079.00",
+            "¥1,079",
+            "¥",
+            "1,079",
+            ".00"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "热销榜",
+      "title": "烹饪准备用具",
+      "headerBg": "rgb(128, 104, 70)",
+      "headerColor": "rgb(255, 255, 255)",
+      "headerHeight": "97px",
+      "navArrow": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\" width=\"1em\" height=\"1em\" style=\"font-size: 18px;\"><path fill-rule=\"evenodd\" d=\"m20.0008 12.0001-8-8.001-1.4143 1.414L16.1727 11H4v2h12.1723l-5.5868 5.5866 1.4141 1.4142 8.0012-8.0007z\" clip-rule=\"evenodd\"></path></svg>",
+      "productCount": 3,
+      "products": [
+        {
+          "image": "https://file.app.ikea.cn/cn/zh/images/products/manoega-mo-nuo-jia-jian-dao-bu-xiu-gang-hei-se__1215197_pe911911_s3.jpg?x-oss-process=style/small",
+          "imgW": 0,
+          "imgH": 0,
+          "rankIcon": "https://static.web.ikea.cn/content/u/20211221/b4f6c5106c054e9887ae2fc311dd5d08.png",
+          "texts": [
+            "MÅNÖGA 莫诺加¥2.99¥ 2.99",
+            "MÅNÖGA 莫诺加",
+            "¥2.99¥ 2.99",
+            "¥2.99",
+            "¥2",
+            "¥",
+            "2",
+            ".99"
+          ]
+        },
+        {
+          "image": "https://file.app.ikea.cn/cn/zh/images/products/uppfylld-wu-pu-fei-er-de-lou-dou-chun-huang-se__1121867_pe874386_s3.jpg?x-oss-process=style/small",
+          "imgW": 0,
+          "imgH": 0,
+          "rankIcon": "https://static.web.ikea.cn/content/u/20211221/bdd79438744b45519e3913dff60ff5fb.png",
+          "texts": [
+            "UPPFYLLD 乌普菲尔德¥3.99¥ 3.99",
+            "UPPFYLLD 乌普菲尔德",
+            "¥3.99¥ 3.99",
+            "¥3.99",
+            "¥3",
+            "¥",
+            "3",
+            ".99"
+          ]
+        },
+        {
+          "image": "https://file.app.ikea.cn/cn/zh/images/products/svaerdfisk-si-wei-fei-jian-dao-2-jian-tao-bu-xiu-gang-hui-se-hui-lan-se__1215203_pe911915_s3.jpg?x-oss-process=style/small",
+          "imgW": 0,
+          "imgH": 0,
+          "rankIcon": "https://static.web.ikea.cn/content/u/20211221/80635e45659a4826ba044edff9cae215.png",
+          "texts": [
+            "SVÄRDFISK 斯维菲¥9.99¥ 9.99",
+            "SVÄRDFISK 斯维菲",
+            "¥9.99¥ 9.99",
+            "¥9.99",
+            "¥9",
+            "¥",
+            "9",
+            ".99"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "热销榜",
+      "title": "浴室储物盒和篮子",
+      "headerBg": "rgb(128, 125, 116)",
+      "headerColor": "rgb(255, 255, 255)",
+      "headerHeight": "97px",
+      "navArrow": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\" width=\"1em\" height=\"1em\" style=\"font-size: 18px;\"><path fill-rule=\"evenodd\" d=\"m20.0008 12.0001-8-8.001-1.4143 1.414L16.1727 11H4v2h12.1723l-5.5868 5.5866 1.4141 1.4142 8.0012-8.0007z\" clip-rule=\"evenodd\"></path></svg>",
+      "productCount": 3,
+      "products": [
+        {
+          "image": "https://file.app.ikea.cn/cn/zh/images/products/nojig-nuo-yi-ge-shou-na-he-su-liao-mi-huang-se__0954145_pe804497_s3.jpg?x-oss-process=style/small",
+          "imgW": 0,
+          "imgH": 0,
+          "rankIcon": "https://static.web.ikea.cn/content/u/20211221/b4f6c5106c054e9887ae2fc311dd5d08.png",
+          "texts": [
+            "NOJIG 诺伊格¥2.99¥ 2.99",
+            "NOJIG 诺伊格",
+            "¥2.99¥ 2.99",
+            "¥2.99",
+            "¥2",
+            "¥",
+            "2",
+            ".99"
+          ]
+        },
+        {
+          "image": "https://file.app.ikea.cn/cn/zh/images/products/ranen-lao-na-en-lan-zi__1122213_pe874548_s3.jpg?x-oss-process=style/small",
+          "imgW": 0,
+          "imgH": 0,
+          "rankIcon": "https://static.web.ikea.cn/content/u/20211221/bdd79438744b45519e3913dff60ff5fb.png",
+          "texts": [
+            "RÅNEN 劳纳恩¥9.99¥ 9.99",
+            "RÅNEN 劳纳恩",
+            "¥9.99¥ 9.99",
+            "¥9.99",
+            "¥9",
+            "¥",
+            "9",
+            ".99"
+          ]
+        },
+        {
+          "image": "https://file.app.ikea.cn/cn/zh/images/products/klippkaktus-ke-li-qia-ke-ke-zhuan-dong-zhi-wu-pan__1243264_pe920533_s3.jpg?x-oss-process=style/small",
+          "imgW": 0,
+          "imgH": 0,
+          "rankIcon": "https://static.web.ikea.cn/content/u/20211221/80635e45659a4826ba044edff9cae215.png",
+          "texts": [
+            "KLIPPKAKTUS 克里卡克¥39.99¥ 39.99",
+            "KLIPPKAKTUS 克里卡克",
+            "¥39.99¥ 39.99",
+            "¥39.99",
+            "¥39",
+            "¥",
+            "39",
+            ".99"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "热销榜",
+      "title": "落地灯",
+      "headerBg": "rgb(128, 117, 105)",
+      "headerColor": "rgb(255, 255, 255)",
+      "headerHeight": "97px",
+      "navArrow": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\" width=\"1em\" height=\"1em\" style=\"font-size: 18px;\"><path fill-rule=\"evenodd\" d=\"m20.0008 12.0001-8-8.001-1.4143 1.414L16.1727 11H4v2h12.1723l-5.5868 5.5866 1.4141 1.4142 8.0012-8.0007z\" clip-rule=\"evenodd\"></path></svg>",
+      "productCount": 3,
+      "products": [
+        {
+          "image": "https://file.app.ikea.cn/cn/zh/images/products/ikea-ps-2026-luo-di-deng-lan-se__1418670_pe976685_s3.jpg?x-oss-process=style/small",
+          "imgW": 0,
+          "imgH": 0,
+          "rankIcon": "https://static.web.ikea.cn/content/u/20211221/b4f6c5106c054e9887ae2fc311dd5d08.png",
+          "texts": [
+            "IKEA PS 2026¥299.00¥ 299.00",
+            "IKEA PS 2026",
+            "¥299.00¥ 299.00",
+            "¥299.00",
+            "¥299",
+            "¥",
+            "299",
+            ".00"
+          ]
+        },
+        {
+          "image": "https://file.app.ikea.cn/cn/zh/images/products/tagarp-te-jia-pu-luo-di-deng-hei-se-bai-se__0810840_pe771436_s3.jpg?x-oss-process=style/small",
+          "imgW": 0,
+          "imgH": 0,
+          "rankIcon": "https://static.web.ikea.cn/content/u/20211221/bdd79438744b45519e3913dff60ff5fb.png",
+          "texts": [
+            "TÅGARP 特佳普¥79.99¥ 79.99",
+            "TÅGARP 特佳普",
+            "¥79.99¥ 79.99",
+            "¥79.99",
+            "¥79",
+            "¥",
+            "79",
+            ".99"
+          ]
+        },
+        {
+          "image": "https://file.app.ikea.cn/cn/zh/images/products/roedflik-luo-de-fu-li-luo-di-deng-yue-du-deng-hui-lu-se__1232722_pe916583_s3.jpg?x-oss-process=style/small",
+          "imgW": 0,
+          "imgH": 0,
+          "rankIcon": "https://static.web.ikea.cn/content/u/20211221/80635e45659a4826ba044edff9cae215.png",
+          "texts": [
+            "RÖDFLIK 洛德弗利¥199.00¥ 199.00",
+            "RÖDFLIK 洛德弗利",
+            "¥199.00¥ 199.00",
+            "¥199.00",
+            "¥199",
+            "¥",
+            "199",
+            ".00"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "热销榜",
+      "title": "碗",
+      "headerBg": "rgb(85, 96, 128)",
+      "headerColor": "rgb(255, 255, 255)",
+      "headerHeight": "97px",
+      "navArrow": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\" width=\"1em\" height=\"1em\" style=\"font-size: 18px;\"><path fill-rule=\"evenodd\" d=\"m20.0008 12.0001-8-8.001-1.4143 1.414L16.1727 11H4v2h12.1723l-5.5868 5.5866 1.4141 1.4142 8.0012-8.0007z\" clip-rule=\"evenodd\"></path></svg>",
+      "productCount": 3,
+      "products": [
+        {
+          "image": "https://file.app.ikea.cn/cn/zh/images/products/oftast-ao-fu-ta-wan-bai-se__0712208_pe728639_s3.jpg?x-oss-process=style/small",
+          "imgW": 0,
+          "imgH": 0,
+          "rankIcon": "https://static.web.ikea.cn/content/u/20211221/b4f6c5106c054e9887ae2fc311dd5d08.png",
+          "texts": [
+            "OFTAST 奥夫塔¥3.99¥ 3.99",
+            "OFTAST 奥夫塔",
+            "¥3.99¥ 3.99",
+            "¥3.99",
+            "¥3",
+            "¥",
+            "3",
+            ".99"
+          ]
+        },
+        {
+          "image": "https://file.app.ikea.cn/cn/zh/images/products/oftast-ao-fu-ta-fan-wan-bai-se__0678078_pe719131_s3.jpg?x-oss-process=style/small",
+          "imgW": 0,
+          "imgH": 0,
+          "rankIcon": "https://static.web.ikea.cn/content/u/20211221/bdd79438744b45519e3913dff60ff5fb.png",
+          "texts": [
+            "OFTAST 奥夫塔¥3.99¥ 3.99",
+            "OFTAST 奥夫塔",
+            "¥3.99¥ 3.99",
+            "¥3.99",
+            "¥3",
+            "¥",
+            "3",
+            ".99"
+          ]
+        },
+        {
+          "image": "https://file.app.ikea.cn/cn/zh/images/products/faergklar-fa-li-ke-luo-wan-qian-lan-se__1358950_pe953998_s3.jpg?x-oss-process=style/small",
+          "imgW": 0,
+          "imgH": 0,
+          "rankIcon": "https://static.web.ikea.cn/content/u/20211221/80635e45659a4826ba044edff9cae215.png",
+          "texts": [
+            "FÄRGKLAR 法利克洛¥12.99¥ 12.99",
+            "FÄRGKLAR 法利克洛",
+            "¥12.99¥ 12.99",
+            "¥12.99",
+            "¥12",
+            "¥",
+            "12",
+            ".99"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "热销榜",
+      "title": "弹簧床垫",
+      "headerBg": "rgb(126, 126, 128)",
+      "headerColor": "rgb(255, 255, 255)",
+      "headerHeight": "97px",
+      "navArrow": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\" width=\"1em\" height=\"1em\" style=\"font-size: 18px;\"><path fill-rule=\"evenodd\" d=\"m20.0008 12.0001-8-8.001-1.4143 1.414L16.1727 11H4v2h12.1723l-5.5868 5.5866 1.4141 1.4142 8.0012-8.0007z\" clip-rule=\"evenodd\"></path></svg>",
+      "productCount": 3,
+      "products": [
+        {
+          "image": "https://file.app.ikea.cn/cn/zh/images/products/valevag-wa-le-wo-ge-dai-zhuang-dan-huang-chuang-dian-chao-ying-qian-lan-se__1150857_pe884903_s3.jpg?x-oss-process=style/small",
+          "imgW": 0,
+          "imgH": 0,
+          "rankIcon": "https://static.web.ikea.cn/content/u/20211221/b4f6c5106c054e9887ae2fc311dd5d08.png",
+          "texts": [
+            "VALEVÅG 瓦勒沃格¥1,799.00¥ 1799.00",
+            "VALEVÅG 瓦勒沃格",
+            "¥1,799.00¥ 1799.00",
+            "¥1,799.00",
+            "¥1,799",
+            "¥",
+            "1,799",
+            ".00"
+          ]
+        },
+        {
+          "image": "https://file.app.ikea.cn/cn/zh/images/products/vagstranda-wo-si-tang-dai-zhuang-dan-huang-chuang-dian-chao-ying-qian-lan-se__1150860_pe884902_s3.jpg?x-oss-process=style/small",
+          "imgW": 0,
+          "imgH": 0,
+          "rankIcon": "https://static.web.ikea.cn/content/u/20211221/bdd79438744b45519e3913dff60ff5fb.png",
+          "texts": [
+            "VÅGSTRANDA 沃斯棠¥2,999.00¥ 2999.00",
+            "VÅGSTRANDA 沃斯棠",
+            "¥2,999.00¥ 2999.00",
+            "¥2,999.00",
+            "¥2,999",
+            "¥",
+            "2,999",
+            ".00"
+          ]
+        },
+        {
+          "image": "https://file.app.ikea.cn/cn/zh/images/products/vesteroey-wei-si-te-lu-yi-dai-zhuang-dan-huang-chuang-dian-jia-ying-qian-lan-se__1150852_pe884907_s3.jpg?x-oss-process=style/small",
+          "imgW": 0,
+          "imgH": 0,
+          "rankIcon": "https://static.web.ikea.cn/content/u/20211221/80635e45659a4826ba044edff9cae215.png",
+          "texts": [
+            "VESTERÖY 韦斯特吕伊¥1,499.00¥ 1499.00",
+            "VESTERÖY 韦斯特吕伊",
+            "¥1,499.00¥ 1499.00",
+            "¥1,499.00",
+            "¥1,499",
+            "¥",
+            "1,499",
+            ".00"
+          ]
+        }
+      ]
+    }
+  ],
+  "visiblePanel": "食品储存与收纳"
+}

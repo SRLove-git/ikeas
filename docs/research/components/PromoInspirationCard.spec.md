@@ -63,8 +63,15 @@ section.pub-inspiration-card.is-standard
 3. 更低价格 / 超150款精选好物，给生活更多 → /cn/zh/personalize-channel/NewLowerPriceChannel/?topProductIds=20440654
 
 ## Assets
-- No images on live site — 413px gray (#f5f5f5) placeholder blocks.
+- Card 1 (大减价): `public/images/cms/16e5cdaf32cd4a70a14d18499668afab.png` (1200x1200)
+- Card 2 (探索当季新品): `public/images/cms/73f2e7bf70f740ff97ceab1c4f1e4616.jpg` (960x960)
+- Card 3 (更低价格): `public/images/cms/7cec16a1a55d4522a39e9c289c30dbad.jpg`
+- Image area is a 1:1 square (aspect-ratio box), `object-fit: cover`.
 - Icons: `ChevronRightIcon` or `ArrowRightIcon` from `src/components/icons.tsx` for the circle button.
+
+## Data
+- Import `promoCardItems` from `src/data/homepage.ts` (each item: title, description, href, image, backgroundColor, textColor). This component renders the FIRST promo block (大减价/探索当季新品/更低价格).
+- A second instance renders `inspirationTipsItems` (为有序生活设计/为孩子设计/为小空间设计, all on `#acd6f2` blue backgrounds with images) — make the component reusable via an `items` prop.
 
 ## Responsive Behavior
 - Desktop: 3 columns × 413px, 20px gap.

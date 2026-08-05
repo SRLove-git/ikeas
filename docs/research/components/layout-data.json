@@ -1,0 +1,4620 @@
+{
+ "notifications": {
+  "en": {
+   "h5": {
+    "appPromotion": {
+     "default": {
+      "isShow": [
+       "ShallowReactive",
+       {
+        "data": [
+         "ShallowReactive",
+         {
+          "32fb5c3298a35e532c8926a270d0698d": 4
+         }
+        ],
+        "state": [
+         "Reactive",
+         {
+          "$snuxt-i18n-meta": 1712,
+          "$slocale": 1713,
+          "$sisMobile": 16,
+          "$sdeviceId": 31,
+          "$slayout": 1714,
+          "$sglobalPromptContext": 1715,
+          "$ssurveyContext": 1720,
+          "$scustomerServiceConfig": 1728,
+          "$spageInfo": 1729,
+          "$sauth": 1730
+         }
+        ],
+        "once": [
+         "Set"
+        ],
+        "_errors": [
+         "ShallowReactive",
+         {
+          "32fb5c3298a35e532c8926a270d0698d": 70
+         }
+        ],
+        "serverRendered": {
+         "data": 2,
+         "state": 1710,
+         "once": 1731,
+         "_errors": 1732,
+         "serverRendered": 66,
+         "path": 1734,
+         "pinia": 1735
+        },
+        "path": "/cn/zh/",
+        "pinia": [
+         "Reactive",
+         {
+          "ab-test": 1737,
+          "layouts": 1740,
+          "lead-bag": 1742,
+          "shopping-bag": 1744
+         }
+        ]
+       }
+      ],
+      "clickUrl": "",
+      "buttonText": "",
+      "buttonBgColor": "",
+      "backgroundImage": ""
+     },
+     "campaign": {
+      "isShow": [
+       "ShallowReactive",
+       {
+        "data": [
+         "ShallowReactive",
+         {
+          "32fb5c3298a35e532c8926a270d0698d": 4
+         }
+        ],
+        "state": [
+         "Reactive",
+         {
+          "$snuxt-i18n-meta": 1712,
+          "$slocale": 1713,
+          "$sisMobile": 16,
+          "$sdeviceId": 31,
+          "$slayout": 1714,
+          "$sglobalPromptContext": 1715,
+          "$ssurveyContext": 1720,
+          "$scustomerServiceConfig": 1728,
+          "$spageInfo": 1729,
+          "$sauth": 1730
+         }
+        ],
+        "once": [
+         "Set"
+        ],
+        "_errors": [
+         "ShallowReactive",
+         {
+          "32fb5c3298a35e532c8926a270d0698d": 70
+         }
+        ],
+        "serverRendered": {
+         "data": 2,
+         "state": 1710,
+         "once": 1731,
+         "_errors": 1732,
+         "serverRendered": 66,
+         "path": 1734,
+         "pinia": 1735
+        },
+        "path": "/cn/zh/",
+        "pinia": [
+         "Reactive",
+         {
+          "ab-test": 1737,
+          "layouts": 1740,
+          "lead-bag": 1742,
+          "shopping-bag": 1744
+         }
+        ]
+       }
+      ],
+      "clickUrl": "",
+      "buttonText": "",
+      "buttonBgColor": "",
+      "backgroundImage": ""
+     }
+    },
+    "notification": {
+     "default": {},
+     "homepage": {},
+     "shoppingBag": {}
+    }
+   },
+   "pc": {
+    "default": {
+     "bgColor": "#111111",
+     "language": {
+      "isShow": {
+       "data": [
+        "ShallowReactive",
+        {
+         "32fb5c3298a35e532c8926a270d0698d": {
+          "platform": 5,
+          "content": 6,
+          "layout": 609
+         }
+        }
+       ],
+       "state": [
+        "Reactive",
+        {
+         "$snuxt-i18n-meta": {},
+         "$slocale": "zh",
+         "$sisMobile": false,
+         "$sdeviceId": "",
+         "$slayout": {
+          "showHeader": 66,
+          "showFooter": 66,
+          "showMobileTabs": 16,
+          "showMobileNav": 16,
+          "showPCNav": 66,
+          "headerOptions": 66,
+          "footerOptions": 66,
+          "mobileNavOptions": 16,
+          "activeMobileNav": 31,
+          "headerSticky": 16
+         },
+         "$sglobalPromptContext": {
+          "platform": 1716,
+          "pageType": 1717,
+          "dismissedIds": 1718,
+          "prompts": 1719
+         },
+         "$ssurveyContext": {
+          "pageType": 1721,
+          "hasSurvey": 16,
+          "isFulfilled": 16,
+          "surveyMetadataConfig": 1722,
+          "surveyMetadata": 70,
+          "contentPosition": 1723,
+          "activeContent": 70,
+          "lastContentId": 70,
+          "contentStack": 1724,
+          "nextStep": 70,
+          "hiddenKey": 1725,
+          "visibilityChangeKey": 1726,
+          "surveyIndicator": 1727
+         },
+         "$scustomerServiceConfig": {
+          "showIcon": 66,
+          "chatbotDom": 70,
+          "configId": 31,
+          "message": 31,
+          "trace": 70
+         },
+         "$spageInfo": {},
+         "$sauth": {
+          "accessToken": 70,
+          "refreshToken": 70,
+          "userProfile": 70
+         }
+        }
+       ],
+       "once": [
+        "Set"
+       ],
+       "_errors": [
+        "ShallowReactive",
+        {
+         "32fb5c3298a35e532c8926a270d0698d": null
+        }
+       ],
+       "serverRendered": {
+        "data": [
+         "ShallowReactive",
+         3
+        ],
+        "state": [
+         "Reactive",
+         1711
+        ],
+        "once": [
+         "Set"
+        ],
+        "_errors": [
+         "ShallowReactive",
+         1733
+        ],
+        "serverRendered": {
+         "data": 2,
+         "state": 1710,
+         "once": 1731,
+         "_errors": 1732,
+         "serverRendered": 66,
+         "path": 1734,
+         "pinia": 1735
+        },
+        "path": "/cn/zh/",
+        "pinia": [
+         "Reactive",
+         1736
+        ]
+       },
+       "path": "/cn/zh/",
+       "pinia": [
+        "Reactive",
+        {
+         "ab-test": {
+          "config": 1738,
+          "pending": 16,
+          "queue": 1739
+         },
+         "layouts": {
+          "customServiceTipsShow": 16,
+          "customServiceTipsShowTime": 1741,
+          "customServiceTips": 31
+         },
+         "lead-bag": {
+          "leads": 1743,
+          "pending": 16
+         },
+         "shopping-bag": {
+          "shoppingBagItems": 1745,
+          "pending": 16
+         }
+        }
+       ]
+      }
+     },
+     "closeable": [
+      "ShallowReactive",
+      {
+       "data": [
+        "ShallowReactive",
+        {
+         "32fb5c3298a35e532c8926a270d0698d": {
+          "platform": 5,
+          "content": 6,
+          "layout": 609
+         }
+        }
+       ],
+       "state": [
+        "Reactive",
+        {
+         "$snuxt-i18n-meta": {},
+         "$slocale": "zh",
+         "$sisMobile": false,
+         "$sdeviceId": "",
+         "$slayout": {
+          "showHeader": 66,
+          "showFooter": 66,
+          "showMobileTabs": 16,
+          "showMobileNav": 16,
+          "showPCNav": 66,
+          "headerOptions": 66,
+          "footerOptions": 66,
+          "mobileNavOptions": 16,
+          "activeMobileNav": 31,
+          "headerSticky": 16
+         },
+         "$sglobalPromptContext": {
+          "platform": 1716,
+          "pageType": 1717,
+          "dismissedIds": 1718,
+          "prompts": 1719
+         },
+         "$ssurveyContext": {
+          "pageType": 1721,
+          "hasSurvey": 16,
+          "isFulfilled": 16,
+          "surveyMetadataConfig": 1722,
+          "surveyMetadata": 70,
+          "contentPosition": 1723,
+          "activeContent": 70,
+          "lastContentId": 70,
+          "contentStack": 1724,
+          "nextStep": 70,
+          "hiddenKey": 1725,
+          "visibilityChangeKey": 1726,
+          "surveyIndicator": 1727
+         },
+         "$scustomerServiceConfig": {
+          "showIcon": 66,
+          "chatbotDom": 70,
+          "configId": 31,
+          "message": 31,
+          "trace": 70
+         },
+         "$spageInfo": {},
+         "$sauth": {
+          "accessToken": 70,
+          "refreshToken": 70,
+          "userProfile": 70
+         }
+        }
+       ],
+       "once": [
+        "Set"
+       ],
+       "_errors": [
+        "ShallowReactive",
+        {
+         "32fb5c3298a35e532c8926a270d0698d": null
+        }
+       ],
+       "serverRendered": {
+        "data": [
+         "ShallowReactive",
+         3
+        ],
+        "state": [
+         "Reactive",
+         1711
+        ],
+        "once": [
+         "Set"
+        ],
+        "_errors": [
+         "ShallowReactive",
+         1733
+        ],
+        "serverRendered": {
+         "data": 2,
+         "state": 1710,
+         "once": 1731,
+         "_errors": 1732,
+         "serverRendered": 66,
+         "path": 1734,
+         "pinia": 1735
+        },
+        "path": "/cn/zh/",
+        "pinia": [
+         "Reactive",
+         1736
+        ]
+       },
+       "path": "/cn/zh/",
+       "pinia": [
+        "Reactive",
+        {
+         "ab-test": {
+          "config": 1738,
+          "pending": 16,
+          "queue": 1739
+         },
+         "layouts": {
+          "customServiceTipsShow": 16,
+          "customServiceTipsShowTime": 1741,
+          "customServiceTips": 31
+         },
+         "lead-bag": {
+          "leads": 1743,
+          "pending": 16
+         },
+         "shopping-bag": {
+          "shoppingBagItems": 1745,
+          "pending": 16
+         }
+        }
+       ]
+      }
+     ],
+     "textColor": "#ffffff",
+     "appPromotion": {
+      "desc": "Get APP",
+      "isShow": {
+       "data": [
+        "ShallowReactive",
+        {
+         "32fb5c3298a35e532c8926a270d0698d": {
+          "platform": 5,
+          "content": 6,
+          "layout": 609
+         }
+        }
+       ],
+       "state": [
+        "Reactive",
+        {
+         "$snuxt-i18n-meta": {},
+         "$slocale": "zh",
+         "$sisMobile": false,
+         "$sdeviceId": "",
+         "$slayout": {
+          "showHeader": 66,
+          "showFooter": 66,
+          "showMobileTabs": 16,
+          "showMobileNav": 16,
+          "showPCNav": 66,
+          "headerOptions": 66,
+          "footerOptions": 66,
+          "mobileNavOptions": 16,
+          "activeMobileNav": 31,
+          "headerSticky": 16
+         },
+         "$sglobalPromptContext": {
+          "platform": 1716,
+          "pageType": 1717,
+          "dismissedIds": 1718,
+          "prompts": 1719
+         },
+         "$ssurveyContext": {
+          "pageType": 1721,
+          "hasSurvey": 16,
+          "isFulfilled": 16,
+          "surveyMetadataConfig": 1722,
+          "surveyMetadata": 70,
+          "contentPosition": 1723,
+          "activeContent": 70,
+          "lastContentId": 70,
+          "contentStack": 1724,
+          "nextStep": 70,
+          "hiddenKey": 1725,
+          "visibilityChangeKey": 1726,
+          "surveyIndicator": 1727
+         },
+         "$scustomerServiceConfig": {
+          "showIcon": 66,
+          "chatbotDom": 70,
+          "configId": 31,
+          "message": 31,
+          "trace": 70
+         },
+         "$spageInfo": {},
+         "$sauth": {
+          "accessToken": 70,
+          "refreshToken": 70,
+          "userProfile": 70
+         }
+        }
+       ],
+       "once": [
+        "Set"
+       ],
+       "_errors": [
+        "ShallowReactive",
+        {
+         "32fb5c3298a35e532c8926a270d0698d": null
+        }
+       ],
+       "serverRendered": {
+        "data": [
+         "ShallowReactive",
+         3
+        ],
+        "state": [
+         "Reactive",
+         1711
+        ],
+        "once": [
+         "Set"
+        ],
+        "_errors": [
+         "ShallowReactive",
+         1733
+        ],
+        "serverRendered": {
+         "data": 2,
+         "state": 1710,
+         "once": 1731,
+         "_errors": 1732,
+         "serverRendered": 66,
+         "path": 1734,
+         "pinia": 1735
+        },
+        "path": "/cn/zh/",
+        "pinia": [
+         "Reactive",
+         1736
+        ]
+       },
+       "path": "/cn/zh/",
+       "pinia": [
+        "Reactive",
+        {
+         "ab-test": {
+          "config": 1738,
+          "pending": 16,
+          "queue": 1739
+         },
+         "layouts": {
+          "customServiceTipsShow": 16,
+          "customServiceTipsShowTime": 1741,
+          "customServiceTips": 31
+         },
+         "lead-bag": {
+          "leads": 1743,
+          "pending": 16
+         },
+         "shopping-bag": {
+          "shoppingBagItems": 1745,
+          "pending": 16
+         }
+        }
+       ]
+      },
+      "iconType": "w-qr-code",
+      "qrCodeUrl": "https://static.web.ikea.cn/static/images/header/apppromotion/qrCode/20210303.png",
+      "descDetail": "Download APP to Enjoy IKEA anywhere！"
+     },
+     "notification": [
+      {
+       "url": "/cn/en/customer-service/services/delivery/",
+       "isShow": [
+        "ShallowReactive",
+        {
+         "data": [
+          "ShallowReactive",
+          3
+         ],
+         "state": [
+          "Reactive",
+          1711
+         ],
+         "once": [
+          "Set"
+         ],
+         "_errors": [
+          "ShallowReactive",
+          1733
+         ],
+         "serverRendered": true,
+         "path": "/cn/zh/",
+         "pinia": [
+          "Reactive",
+          1736
+         ]
+        }
+       ],
+       "endTime": "2999-12-17 15:00:00",
+       "message": "Delivery service",
+       "startTime": "2020-12-17 15:00:00",
+       "iconTypeId": "w-shipping-truck",
+       "iconComponentName": "InformationCircleIcon"
+      },
+      {
+       "url": "https://datayi.cn/oVQ0pRL",
+       "isShow": {
+        "data": [
+         "ShallowReactive",
+         {
+          "32fb5c3298a35e532c8926a270d0698d": 4
+         }
+        ],
+        "state": [
+         "Reactive",
+         {
+          "$snuxt-i18n-meta": 1712,
+          "$slocale": 1713,
+          "$sisMobile": 16,
+          "$sdeviceId": 31,
+          "$slayout": 1714,
+          "$sglobalPromptContext": 1715,
+          "$ssurveyContext": 1720,
+          "$scustomerServiceConfig": 1728,
+          "$spageInfo": 1729,
+          "$sauth": 1730
+         }
+        ],
+        "once": [
+         "Set"
+        ],
+        "_errors": [
+         "ShallowReactive",
+         {
+          "32fb5c3298a35e532c8926a270d0698d": 70
+         }
+        ],
+        "serverRendered": {
+         "data": 2,
+         "state": 1710,
+         "once": 1731,
+         "_errors": 1732,
+         "serverRendered": 66,
+         "path": 1734,
+         "pinia": 1735
+        },
+        "path": "/cn/zh/",
+        "pinia": [
+         "Reactive",
+         {
+          "ab-test": 1737,
+          "layouts": 1740,
+          "lead-bag": 1742,
+          "shopping-bag": 1744
+         }
+        ]
+       },
+       "message": "Download IKEA APP, the latest offers are all around you",
+       "iconType": "",
+       "startTime": "2020-12-17 15:00:00"
+      }
+     ]
+    },
+    "homepage": {},
+    "shoppingBag": {}
+   }
+  },
+  "zh": {
+   "h5": {
+    "appPromotion": {
+     "default": {
+      "isShow": [
+       "ShallowReactive",
+       {
+        "data": [
+         "ShallowReactive",
+         {
+          "32fb5c3298a35e532c8926a270d0698d": 4
+         }
+        ],
+        "state": [
+         "Reactive",
+         {
+          "$snuxt-i18n-meta": 1712,
+          "$slocale": 1713,
+          "$sisMobile": 16,
+          "$sdeviceId": 31,
+          "$slayout": 1714,
+          "$sglobalPromptContext": 1715,
+          "$ssurveyContext": 1720,
+          "$scustomerServiceConfig": 1728,
+          "$spageInfo": 1729,
+          "$sauth": 1730
+         }
+        ],
+        "once": [
+         "Set"
+        ],
+        "_errors": [
+         "ShallowReactive",
+         {
+          "32fb5c3298a35e532c8926a270d0698d": 70
+         }
+        ],
+        "serverRendered": {
+         "data": 2,
+         "state": 1710,
+         "once": 1731,
+         "_errors": 1732,
+         "serverRendered": 66,
+         "path": 1734,
+         "pinia": 1735
+        },
+        "path": "/cn/zh/",
+        "pinia": [
+         "Reactive",
+         {
+          "ab-test": 1737,
+          "layouts": 1740,
+          "lead-bag": 1742,
+          "shopping-bag": 1744
+         }
+        ]
+       }
+      ],
+      "clickUrl": "https://datayi.cn/oVQ0pRL",
+      "textColor": "#fff",
+      "buttonText": "立即前往宜家APP",
+      "buttonBgColor": "#0058a3",
+      "backgroundImage": "https://static.web.ikea.cn/static/images/h5/activity/app-promotion-image.png"
+     },
+     "campaign": {
+      "isShow": [
+       "ShallowReactive",
+       {
+        "data": [
+         "ShallowReactive",
+         {
+          "32fb5c3298a35e532c8926a270d0698d": 4
+         }
+        ],
+        "state": [
+         "Reactive",
+         {
+          "$snuxt-i18n-meta": 1712,
+          "$slocale": 1713,
+          "$sisMobile": 16,
+          "$sdeviceId": 31,
+          "$slayout": 1714,
+          "$sglobalPromptContext": 1715,
+          "$ssurveyContext": 1720,
+          "$scustomerServiceConfig": 1728,
+          "$spageInfo": 1729,
+          "$sauth": 1730
+         }
+        ],
+        "once": [
+         "Set"
+        ],
+        "_errors": [
+         "ShallowReactive",
+         {
+          "32fb5c3298a35e532c8926a270d0698d": 70
+         }
+        ],
+        "serverRendered": {
+         "data": 2,
+         "state": 1710,
+         "once": 1731,
+         "_errors": 1732,
+         "serverRendered": 66,
+         "path": 1734,
+         "pinia": 1735
+        },
+        "path": "/cn/zh/",
+        "pinia": [
+         "Reactive",
+         {
+          "ab-test": 1737,
+          "layouts": 1740,
+          "lead-bag": 1742,
+          "shopping-bag": 1744
+         }
+        ]
+       }
+      ],
+      "clickUrl": "https://datayi.cn/oVQ0pRL",
+      "textColor": "#fff",
+      "buttonText": "立即前往宜家APP",
+      "buttonBgColor": "#111111",
+      "backgroundImage": "https://static.web.ikea.cn/static/images/h5/home/appDownloadBg.png"
+     }
+    },
+    "notification": {
+     "default": {},
+     "homepage": {
+      "bgColor": "#111111",
+      "content": [
+       {
+        "url": "",
+        "isShow": {
+         "data": [
+          "ShallowReactive",
+          3
+         ],
+         "state": [
+          "Reactive",
+          1711
+         ],
+         "once": [
+          "Set"
+         ],
+         "_errors": [
+          "ShallowReactive",
+          1733
+         ],
+         "serverRendered": true,
+         "path": "/cn/zh/",
+         "pinia": [
+          "Reactive",
+          1736
+         ]
+        },
+        "endTime": "2026-06-16 10:00:00",
+        "message": "系统维护中，暂无法绑定和查询购物卡，请稍后再试",
+        "startTime": "2026-06-16 09:00:00",
+        "iconComponentName": "InformationCircleIcon"
+       },
+       {
+        "url": "https://www.ikea.cn/cn/zh/landing-page/8e76bbd12f634c62bbac91972d4bc04f/",
+        "isShow": {
+         "data": [
+          "ShallowReactive",
+          3
+         ],
+         "state": [
+          "Reactive",
+          1711
+         ],
+         "once": [
+          "Set"
+         ],
+         "_errors": [
+          "ShallowReactive",
+          1733
+         ],
+         "serverRendered": true,
+         "path": "/cn/zh/",
+         "pinia": [
+          "Reactive",
+          1736
+         ]
+        },
+        "endTime": "2027-07-29 23:59:59",
+        "message": "无锡商场发票事宜沟通",
+        "startTime": "2026-07-29 09:00:00",
+        "iconComponentName": "InformationCircleIcon"
+       },
+       {
+        "url": "https://www.ikea.cn/cn/zh/customer-service/services/delivery/",
+        "isShow": {
+         "data": [
+          "ShallowReactive",
+          3
+         ],
+         "state": [
+          "Reactive",
+          1711
+         ],
+         "once": [
+          "Set"
+         ],
+         "_errors": [
+          "ShallowReactive",
+          1733
+         ],
+         "serverRendered": true,
+         "path": "/cn/zh/",
+         "pinia": [
+          "Reactive",
+          1736
+         ]
+        },
+        "endTime": "2026-07-03 00:00:00",
+        "message": "无论线上还是门店下单，我们都为你送货到家。",
+        "startTime": "2026-06-30 08:00:00",
+        "iconComponentName": "DeliveryTruckIcon"
+       },
+       {
+        "url": "https://www.ikea.cn/cn/zh/customer-service/product-support/recalls/yi-jia-zai-zhong-guo-zhao-hui-bu-fen-pi-ci-ae-ba-xin-gen-lin-yu-yi-pub076c4a6a",
+        "isShow": {
+         "data": [
+          "ShallowReactive",
+          3
+         ],
+         "state": [
+          "Reactive",
+          1711
+         ],
+         "once": [
+          "Set"
+         ],
+         "_errors": [
+          "ShallowReactive",
+          1733
+         ],
+         "serverRendered": true,
+         "path": "/cn/zh/",
+         "pinia": [
+          "Reactive",
+          1736
+         ]
+        },
+        "endTime": "2027-03-20 00:00:00",
+        "message": "宜家在中国召回部分批次BÄSINGEN 巴辛根 淋浴椅",
+        "startTime": "2026-07-03 00:00:00",
+        "iconComponentName": "InformationCircleIcon"
+       },
+       {
+        "url": "https://datayi.cn/oVQ0pRL",
+        "isShow": [
+         "ShallowReactive",
+         {
+          "data": 2,
+          "state": 1710,
+          "once": 1731,
+          "_errors": 1732,
+          "serverRendered": 66,
+          "path": 1734,
+          "pinia": 1735
+         }
+        ],
+        "message": "下载APP即时获取优惠信息, 随时随地都能宜家",
+        "iconType": "",
+        "startTime": "2020-12-17 15:00:00"
+       }
+      ],
+      "closeable": [
+       "ShallowReactive",
+       {
+        "data": [
+         "ShallowReactive",
+         {
+          "32fb5c3298a35e532c8926a270d0698d": 4
+         }
+        ],
+        "state": [
+         "Reactive",
+         {
+          "$snuxt-i18n-meta": 1712,
+          "$slocale": 1713,
+          "$sisMobile": 16,
+          "$sdeviceId": 31,
+          "$slayout": 1714,
+          "$sglobalPromptContext": 1715,
+          "$ssurveyContext": 1720,
+          "$scustomerServiceConfig": 1728,
+          "$spageInfo": 1729,
+          "$sauth": 1730
+         }
+        ],
+        "once": [
+         "Set"
+        ],
+        "_errors": [
+         "ShallowReactive",
+         {
+          "32fb5c3298a35e532c8926a270d0698d": 70
+         }
+        ],
+        "serverRendered": {
+         "data": 2,
+         "state": 1710,
+         "once": 1731,
+         "_errors": 1732,
+         "serverRendered": 66,
+         "path": 1734,
+         "pinia": 1735
+        },
+        "path": "/cn/zh/",
+        "pinia": [
+         "Reactive",
+         {
+          "ab-test": 1737,
+          "layouts": 1740,
+          "lead-bag": 1742,
+          "shopping-bag": 1744
+         }
+        ]
+       }
+      ],
+      "textColor": "#ffffff"
+     },
+     "shoppingBag": {
+      "bgColor": "#111111",
+      "content": [
+       {
+        "url": "https://www.ikea.cn/cn/zh/landing-page/9969a7c424dd419ea3f6218f7a4df189/",
+        "isShow": {
+         "data": [
+          "ShallowReactive",
+          3
+         ],
+         "state": [
+          "Reactive",
+          1711
+         ],
+         "once": [
+          "Set"
+         ],
+         "_errors": [
+          "ShallowReactive",
+          1733
+         ],
+         "serverRendered": true,
+         "path": "/cn/zh/",
+         "pinia": [
+          "Reactive",
+          1736
+         ]
+        },
+        "endTime": "2025-07-08 23:59:59",
+        "message": "关于宜家小件商品配送费用结构调整的说明",
+        "startTime": "2025-06-24 00:00:00",
+        "iconComponentName": "InformationCircleIcon"
+       },
+       {
+        "url": "https://www.ikea.cn/cn/zh/landing-page/8e76bbd12f634c62bbac91972d4bc04f/",
+        "isShow": {
+         "data": [
+          "ShallowReactive",
+          3
+         ],
+         "state": [
+          "Reactive",
+          1711
+         ],
+         "once": [
+          "Set"
+         ],
+         "_errors": [
+          "ShallowReactive",
+          1733
+         ],
+         "serverRendered": true,
+         "path": "/cn/zh/",
+         "pinia": [
+          "Reactive",
+          1736
+         ]
+        },
+        "endTime": "2027-07-29 23:59:59",
+        "message": "无锡商场发票事宜沟通",
+        "startTime": "2026-07-29 09:00:00",
+        "iconComponentName": "InformationCircleIcon"
+       },
+       {
+        "url": "https://www.ikea.cn/cn/zh/customer-service/services/delivery/",
+        "isShow": {
+         "data": [
+          "ShallowReactive",
+          3
+         ],
+         "state": [
+          "Reactive",
+          1711
+         ],
+         "once": [
+          "Set"
+         ],
+         "_errors": [
+          "ShallowReactive",
+          1733
+         ],
+         "serverRendered": true,
+         "path": "/cn/zh/",
+         "pinia": [
+          "Reactive",
+          1736
+         ]
+        },
+        "endTime": "2026-07-03 00:00:00",
+        "message": "无论线上还是门店下单，我们都为你送货到家。",
+        "startTime": "2026-06-30 08:00:00",
+        "iconComponentName": "DeliveryTruckIcon"
+       },
+       {
+        "url": "https://www.ikea.cn/cn/zh/customer-service/product-support/recalls/yi-jia-zai-zhong-guo-zhao-hui-bu-fen-pi-ci-ae-ba-xin-gen-lin-yu-yi-pub076c4a6a",
+        "isShow": {
+         "data": [
+          "ShallowReactive",
+          3
+         ],
+         "state": [
+          "Reactive",
+          1711
+         ],
+         "once": [
+          "Set"
+         ],
+         "_errors": [
+          "ShallowReactive",
+          1733
+         ],
+         "serverRendered": true,
+         "path": "/cn/zh/",
+         "pinia": [
+          "Reactive",
+          1736
+         ]
+        },
+        "endTime": "2027-03-20 00:00:00",
+        "message": "宜家在中国召回部分批次BÄSINGEN 巴辛根 淋浴椅",
+        "startTime": "2026-07-03 08:00:00",
+        "iconComponentName": "InformationCircleIcon"
+       },
+       {
+        "url": "https://datayi.cn/oVQ0pRL",
+        "isShow": [
+         "ShallowReactive",
+         {
+          "data": 2,
+          "state": 1710,
+          "once": 1731,
+          "_errors": 1732,
+          "serverRendered": 66,
+          "path": 1734,
+          "pinia": 1735
+         }
+        ],
+        "message": "下载APP即时获取优惠信息, 随时随地都能宜家",
+        "iconType": "",
+        "startTime": "2020-12-17 15:00:00"
+       },
+       {
+        "url": "",
+        "isShow": {
+         "data": [
+          "ShallowReactive",
+          3
+         ],
+         "state": [
+          "Reactive",
+          1711
+         ],
+         "once": [
+          "Set"
+         ],
+         "_errors": [
+          "ShallowReactive",
+          1733
+         ],
+         "serverRendered": true,
+         "path": "/cn/zh/",
+         "pinia": [
+          "Reactive",
+          1736
+         ]
+        },
+        "endTime": "2025-09-17 04:00:00",
+        "message": "系统升级中，部分用户可能无法进行订单结算，请稍后再试",
+        "startTime": "2025-09-17 03:00:00",
+        "iconComponentName": "InformationCircleIcon"
+       }
+      ],
+      "textColor": "#ffffff"
+     }
+    }
+   },
+   "pc": {
+    "default": {
+     "bgColor": "#111111",
+     "language": {
+      "isShow": {
+       "data": [
+        "ShallowReactive",
+        {
+         "32fb5c3298a35e532c8926a270d0698d": {
+          "platform": 5,
+          "content": 6,
+          "layout": 609
+         }
+        }
+       ],
+       "state": [
+        "Reactive",
+        {
+         "$snuxt-i18n-meta": {},
+         "$slocale": "zh",
+         "$sisMobile": false,
+         "$sdeviceId": "",
+         "$slayout": {
+          "showHeader": 66,
+          "showFooter": 66,
+          "showMobileTabs": 16,
+          "showMobileNav": 16,
+          "showPCNav": 66,
+          "headerOptions": 66,
+          "footerOptions": 66,
+          "mobileNavOptions": 16,
+          "activeMobileNav": 31,
+          "headerSticky": 16
+         },
+         "$sglobalPromptContext": {
+          "platform": 1716,
+          "pageType": 1717,
+          "dismissedIds": 1718,
+          "prompts": 1719
+         },
+         "$ssurveyContext": {
+          "pageType": 1721,
+          "hasSurvey": 16,
+          "isFulfilled": 16,
+          "surveyMetadataConfig": 1722,
+          "surveyMetadata": 70,
+          "contentPosition": 1723,
+          "activeContent": 70,
+          "lastContentId": 70,
+          "contentStack": 1724,
+          "nextStep": 70,
+          "hiddenKey": 1725,
+          "visibilityChangeKey": 1726,
+          "surveyIndicator": 1727
+         },
+         "$scustomerServiceConfig": {
+          "showIcon": 66,
+          "chatbotDom": 70,
+          "configId": 31,
+          "message": 31,
+          "trace": 70
+         },
+         "$spageInfo": {},
+         "$sauth": {
+          "accessToken": 70,
+          "refreshToken": 70,
+          "userProfile": 70
+         }
+        }
+       ],
+       "once": [
+        "Set"
+       ],
+       "_errors": [
+        "ShallowReactive",
+        {
+         "32fb5c3298a35e532c8926a270d0698d": null
+        }
+       ],
+       "serverRendered": {
+        "data": [
+         "ShallowReactive",
+         3
+        ],
+        "state": [
+         "Reactive",
+         1711
+        ],
+        "once": [
+         "Set"
+        ],
+        "_errors": [
+         "ShallowReactive",
+         1733
+        ],
+        "serverRendered": {
+         "data": 2,
+         "state": 1710,
+         "once": 1731,
+         "_errors": 1732,
+         "serverRendered": 66,
+         "path": 1734,
+         "pinia": 1735
+        },
+        "path": "/cn/zh/",
+        "pinia": [
+         "Reactive",
+         1736
+        ]
+       },
+       "path": "/cn/zh/",
+       "pinia": [
+        "Reactive",
+        {
+         "ab-test": {
+          "config": 1738,
+          "pending": 16,
+          "queue": 1739
+         },
+         "layouts": {
+          "customServiceTipsShow": 16,
+          "customServiceTipsShowTime": 1741,
+          "customServiceTips": 31
+         },
+         "lead-bag": {
+          "leads": 1743,
+          "pending": 16
+         },
+         "shopping-bag": {
+          "shoppingBagItems": 1745,
+          "pending": 16
+         }
+        }
+       ]
+      }
+     },
+     "closeable": [
+      "ShallowReactive",
+      {
+       "data": [
+        "ShallowReactive",
+        {
+         "32fb5c3298a35e532c8926a270d0698d": {
+          "platform": 5,
+          "content": 6,
+          "layout": 609
+         }
+        }
+       ],
+       "state": [
+        "Reactive",
+        {
+         "$snuxt-i18n-meta": {},
+         "$slocale": "zh",
+         "$sisMobile": false,
+         "$sdeviceId": "",
+         "$slayout": {
+          "showHeader": 66,
+          "showFooter": 66,
+          "showMobileTabs": 16,
+          "showMobileNav": 16,
+          "showPCNav": 66,
+          "headerOptions": 66,
+          "footerOptions": 66,
+          "mobileNavOptions": 16,
+          "activeMobileNav": 31,
+          "headerSticky": 16
+         },
+         "$sglobalPromptContext": {
+          "platform": 1716,
+          "pageType": 1717,
+          "dismissedIds": 1718,
+          "prompts": 1719
+         },
+         "$ssurveyContext": {
+          "pageType": 1721,
+          "hasSurvey": 16,
+          "isFulfilled": 16,
+          "surveyMetadataConfig": 1722,
+          "surveyMetadata": 70,
+          "contentPosition": 1723,
+          "activeContent": 70,
+          "lastContentId": 70,
+          "contentStack": 1724,
+          "nextStep": 70,
+          "hiddenKey": 1725,
+          "visibilityChangeKey": 1726,
+          "surveyIndicator": 1727
+         },
+         "$scustomerServiceConfig": {
+          "showIcon": 66,
+          "chatbotDom": 70,
+          "configId": 31,
+          "message": 31,
+          "trace": 70
+         },
+         "$spageInfo": {},
+         "$sauth": {
+          "accessToken": 70,
+          "refreshToken": 70,
+          "userProfile": 70
+         }
+        }
+       ],
+       "once": [
+        "Set"
+       ],
+       "_errors": [
+        "ShallowReactive",
+        {
+         "32fb5c3298a35e532c8926a270d0698d": null
+        }
+       ],
+       "serverRendered": {
+        "data": [
+         "ShallowReactive",
+         3
+        ],
+        "state": [
+         "Reactive",
+         1711
+        ],
+        "once": [
+         "Set"
+        ],
+        "_errors": [
+         "ShallowReactive",
+         1733
+        ],
+        "serverRendered": {
+         "data": 2,
+         "state": 1710,
+         "once": 1731,
+         "_errors": 1732,
+         "serverRendered": 66,
+         "path": 1734,
+         "pinia": 1735
+        },
+        "path": "/cn/zh/",
+        "pinia": [
+         "Reactive",
+         1736
+        ]
+       },
+       "path": "/cn/zh/",
+       "pinia": [
+        "Reactive",
+        {
+         "ab-test": {
+          "config": 1738,
+          "pending": 16,
+          "queue": 1739
+         },
+         "layouts": {
+          "customServiceTipsShow": 16,
+          "customServiceTipsShowTime": 1741,
+          "customServiceTips": 31
+         },
+         "lead-bag": {
+          "leads": 1743,
+          "pending": 16
+         },
+         "shopping-bag": {
+          "shoppingBagItems": 1745,
+          "pending": 16
+         }
+        }
+       ]
+      }
+     ],
+     "textColor": "#ffffff",
+     "appPromotion": {
+      "desc": "下载APP",
+      "isShow": {
+       "data": [
+        "ShallowReactive",
+        {
+         "32fb5c3298a35e532c8926a270d0698d": {
+          "platform": 5,
+          "content": 6,
+          "layout": 609
+         }
+        }
+       ],
+       "state": [
+        "Reactive",
+        {
+         "$snuxt-i18n-meta": {},
+         "$slocale": "zh",
+         "$sisMobile": false,
+         "$sdeviceId": "",
+         "$slayout": {
+          "showHeader": 66,
+          "showFooter": 66,
+          "showMobileTabs": 16,
+          "showMobileNav": 16,
+          "showPCNav": 66,
+          "headerOptions": 66,
+          "footerOptions": 66,
+          "mobileNavOptions": 16,
+          "activeMobileNav": 31,
+          "headerSticky": 16
+         },
+         "$sglobalPromptContext": {
+          "platform": 1716,
+          "pageType": 1717,
+          "dismissedIds": 1718,
+          "prompts": 1719
+         },
+         "$ssurveyContext": {
+          "pageType": 1721,
+          "hasSurvey": 16,
+          "isFulfilled": 16,
+          "surveyMetadataConfig": 1722,
+          "surveyMetadata": 70,
+          "contentPosition": 1723,
+          "activeContent": 70,
+          "lastContentId": 70,
+          "contentStack": 1724,
+          "nextStep": 70,
+          "hiddenKey": 1725,
+          "visibilityChangeKey": 1726,
+          "surveyIndicator": 1727
+         },
+         "$scustomerServiceConfig": {
+          "showIcon": 66,
+          "chatbotDom": 70,
+          "configId": 31,
+          "message": 31,
+          "trace": 70
+         },
+         "$spageInfo": {},
+         "$sauth": {
+          "accessToken": 70,
+          "refreshToken": 70,
+          "userProfile": 70
+         }
+        }
+       ],
+       "once": [
+        "Set"
+       ],
+       "_errors": [
+        "ShallowReactive",
+        {
+         "32fb5c3298a35e532c8926a270d0698d": null
+        }
+       ],
+       "serverRendered": {
+        "data": [
+         "ShallowReactive",
+         3
+        ],
+        "state": [
+         "Reactive",
+         1711
+        ],
+        "once": [
+         "Set"
+        ],
+        "_errors": [
+         "ShallowReactive",
+         1733
+        ],
+        "serverRendered": {
+         "data": 2,
+         "state": 1710,
+         "once": 1731,
+         "_errors": 1732,
+         "serverRendered": 66,
+         "path": 1734,
+         "pinia": 1735
+        },
+        "path": "/cn/zh/",
+        "pinia": [
+         "Reactive",
+         1736
+        ]
+       },
+       "path": "/cn/zh/",
+       "pinia": [
+        "Reactive",
+        {
+         "ab-test": {
+          "config": 1738,
+          "pending": 16,
+          "queue": 1739
+         },
+         "layouts": {
+          "customServiceTipsShow": 16,
+          "customServiceTipsShowTime": 1741,
+          "customServiceTips": 31
+         },
+         "lead-bag": {
+          "leads": 1743,
+          "pending": 16
+         },
+         "shopping-bag": {
+          "shoppingBagItems": 1745,
+          "pending": 16
+         }
+        }
+       ]
+      },
+      "iconType": "w-qr-code",
+      "qrCodeUrl": "https://static.web.ikea.cn/static/images/header/apppromotion/qrCode/20210303.png",
+      "descDetail": "扫码下载宜家APP 随时随地都能宜家！"
+     },
+     "notification": [
+      {
+       "url": "",
+       "isShow": [
+        "ShallowReactive",
+        {
+         "data": [
+          "ShallowReactive",
+          3
+         ],
+         "state": [
+          "Reactive",
+          1711
+         ],
+         "once": [
+          "Set"
+         ],
+         "_errors": [
+          "ShallowReactive",
+          1733
+         ],
+         "serverRendered": true,
+         "path": "/cn/zh/",
+         "pinia": [
+          "Reactive",
+          1736
+         ]
+        }
+       ],
+       "endTime": "2026-05-11 06:00:00",
+       "message": "系统升级中，无法进行订单结算、取消、查询，请稍后再试~",
+       "startTime": "2026-05-11 00:00:00",
+       "iconComponentName": "InformationCircleIcon",
+       "link": ""
+      },
+      {
+       "url": "https://www.ikea.cn/cn/zh/landing-page/8e76bbd12f634c62bbac91972d4bc04f/",
+       "isShow": {
+        "data": [
+         "ShallowReactive",
+         {
+          "32fb5c3298a35e532c8926a270d0698d": 4
+         }
+        ],
+        "state": [
+         "Reactive",
+         {
+          "$snuxt-i18n-meta": 1712,
+          "$slocale": 1713,
+          "$sisMobile": 16,
+          "$sdeviceId": 31,
+          "$slayout": 1714,
+          "$sglobalPromptContext": 1715,
+          "$ssurveyContext": 1720,
+          "$scustomerServiceConfig": 1728,
+          "$spageInfo": 1729,
+          "$sauth": 1730
+         }
+        ],
+        "once": [
+         "Set"
+        ],
+        "_errors": [
+         "ShallowReactive",
+         {
+          "32fb5c3298a35e532c8926a270d0698d": 70
+         }
+        ],
+        "serverRendered": {
+         "data": 2,
+         "state": 1710,
+         "once": 1731,
+         "_errors": 1732,
+         "serverRendered": 66,
+         "path": 1734,
+         "pinia": 1735
+        },
+        "path": "/cn/zh/",
+        "pinia": [
+         "Reactive",
+         {
+          "ab-test": 1737,
+          "layouts": 1740,
+          "lead-bag": 1742,
+          "shopping-bag": 1744
+         }
+        ]
+       },
+       "endTime": "2027-07-29 23:59:59",
+       "message": "无锡商场发票事宜沟通",
+       "startTime": "2026-07-29 09:00:00",
+       "iconComponentName": "InformationCircleIcon",
+       "link": "https://www.ikea.cn/cn/zh/landing-page/8e76bbd12f634c62bbac91972d4bc04f/"
+      },
+      {
+       "url": "",
+       "isShow": [
+        "ShallowReactive",
+        {
+         "data": [
+          "ShallowReactive",
+          3
+         ],
+         "state": [
+          "Reactive",
+          1711
+         ],
+         "once": [
+          "Set"
+         ],
+         "_errors": [
+          "ShallowReactive",
+          1733
+         ],
+         "serverRendered": true,
+         "path": "/cn/zh/",
+         "pinia": [
+          "Reactive",
+          1736
+         ]
+        }
+       ],
+       "endTime": "2026-06-16 10:00:00",
+       "message": "系统维护中，暂无法绑定和查询购物卡，请稍后再试",
+       "startTime": "2026-06-16 09:00:00",
+       "iconComponentName": "InformationCircleIcon",
+       "link": ""
+      },
+      {
+       "url": "https://www.ikea.cn/cn/zh/customer-service/invoice-information-pub47c1dbca",
+       "isShow": [
+        "ShallowReactive",
+        {
+         "data": [
+          "ShallowReactive",
+          3
+         ],
+         "state": [
+          "Reactive",
+          1711
+         ],
+         "once": [
+          "Set"
+         ],
+         "_errors": [
+          "ShallowReactive",
+          1733
+         ],
+         "serverRendered": true,
+         "path": "/cn/zh/",
+         "pinia": [
+          "Reactive",
+          1736
+         ]
+        }
+       ],
+       "endTime": "2026-05-02",
+       "message": "关于宜家7家停运商场的发票相关事宜通知",
+       "startTime": "2026-01-08 00:00:00",
+       "iconComponentName": "InformationCircleIcon",
+       "link": "https://www.ikea.cn/cn/zh/customer-service/invoice-information-pub47c1dbca"
+      },
+      {
+       "url": "https://www.ikea.cn/cn/zh/customer-service/services/delivery/",
+       "isShow": [
+        "ShallowReactive",
+        {
+         "data": [
+          "ShallowReactive",
+          3
+         ],
+         "state": [
+          "Reactive",
+          1711
+         ],
+         "once": [
+          "Set"
+         ],
+         "_errors": [
+          "ShallowReactive",
+          1733
+         ],
+         "serverRendered": true,
+         "path": "/cn/zh/",
+         "pinia": [
+          "Reactive",
+          1736
+         ]
+        }
+       ],
+       "endTime": "2026-07-03 00:00:00",
+       "message": "无论线上还是门店下单，我们都为你送货到家",
+       "startTime": "2026-06-30 08:00:00",
+       "iconComponentName": "DeliveryTruckIcon",
+       "link": "https://www.ikea.cn/cn/zh/customer-service/services/delivery/"
+      },
+      {
+       "url": "https://www.ikea.cn/cn/zh/customer-service/product-support/recalls/yi-jia-zai-zhong-guo-zhao-hui-bu-fen-pi-ci-ae-ba-xin-gen-lin-yu-yi-pub076c4a6a",
+       "isShow": {
+        "data": [
+         "ShallowReactive",
+         {
+          "32fb5c3298a35e532c8926a270d0698d": 4
+         }
+        ],
+        "state": [
+         "Reactive",
+         {
+          "$snuxt-i18n-meta": 1712,
+          "$slocale": 1713,
+          "$sisMobile": 16,
+          "$sdeviceId": 31,
+          "$slayout": 1714,
+          "$sglobalPromptContext": 1715,
+          "$ssurveyContext": 1720,
+          "$scustomerServiceConfig": 1728,
+          "$spageInfo": 1729,
+          "$sauth": 1730
+         }
+        ],
+        "once": [
+         "Set"
+        ],
+        "_errors": [
+         "ShallowReactive",
+         {
+          "32fb5c3298a35e532c8926a270d0698d": 70
+         }
+        ],
+        "serverRendered": {
+         "data": 2,
+         "state": 1710,
+         "once": 1731,
+         "_errors": 1732,
+         "serverRendered": 66,
+         "path": 1734,
+         "pinia": 1735
+        },
+        "path": "/cn/zh/",
+        "pinia": [
+         "Reactive",
+         {
+          "ab-test": 1737,
+          "layouts": 1740,
+          "lead-bag": 1742,
+          "shopping-bag": 1744
+         }
+        ]
+       },
+       "endTime": "2027-03-20 00:00:00",
+       "message": "宜家在中国召回部分批次BÄSINGEN 巴辛根 淋浴椅",
+       "startTime": "2026-07-03 08:00:00",
+       "iconComponentName": "InformationCircleIcon",
+       "link": "https://www.ikea.cn/cn/zh/customer-service/product-support/recalls/yi-jia-zai-zhong-guo-zhao-hui-bu-fen-pi-ci-ae-ba-xin-gen-lin-yu-yi-pub076c4a6a"
+      },
+      {
+       "url": "https://datayi.cn/oVQ0pRL",
+       "isShow": [
+        "ShallowReactive",
+        {
+         "data": [
+          "ShallowReactive",
+          3
+         ],
+         "state": [
+          "Reactive",
+          1711
+         ],
+         "once": [
+          "Set"
+         ],
+         "_errors": [
+          "ShallowReactive",
+          1733
+         ],
+         "serverRendered": true,
+         "path": "/cn/zh/",
+         "pinia": [
+          "Reactive",
+          1736
+         ]
+        }
+       ],
+       "message": "下载APP即时获取优惠信息, 随时随地都能宜家",
+       "iconType": "",
+       "startTime": "2020-12-17 15:00:00"
+      },
+      {
+       "url": "",
+       "isShow": [
+        "ShallowReactive",
+        {
+         "data": [
+          "ShallowReactive",
+          3
+         ],
+         "state": [
+          "Reactive",
+          1711
+         ],
+         "once": [
+          "Set"
+         ],
+         "_errors": [
+          "ShallowReactive",
+          1733
+         ],
+         "serverRendered": true,
+         "path": "/cn/zh/",
+         "pinia": [
+          "Reactive",
+          1736
+         ]
+        }
+       ],
+       "endTime": "2025-09-17 04:00:00",
+       "message": "系统升级中，部分用户可能无法进行订单结算，请稍后再试",
+       "startTime": "2025-09-17 03:00:00",
+       "iconComponentName": "InformationCircleIcon",
+       "link": ""
+      }
+     ]
+    },
+    "homepage": {},
+    "shoppingBag": {}
+   }
+  }
+ },
+ "menus": {
+  "footer": [
+   {
+    "id": "useful-links",
+    "set": [
+     {
+      "link": "https://res.app.ikea.cn/page/app_download.html?utm_source=dynamic_ikea_m2",
+      "title": "宜家家居APP"
+     },
+     {
+      "link": "/cn/zh/stores/",
+      "title": "本地商场"
+     },
+     {
+      "link": "/cn/zh/planners/",
+      "title": "在线设计工具"
+     },
+     {
+      "link": "/cn/zh/ikea-family/",
+      "title": "宜家俱乐部"
+     },
+     {
+      "link": "/cn/zh/ikea-business/",
+      "title": "宜家对公业务"
+     },
+     {
+      "link": "/landing-page/23f07ce063c141f682fdb2e7bc541c7f/",
+      "title": "瑞典美食"
+     },
+     {
+      "link": "/cn/zh/as-is-online/",
+      "title": "循环市集"
+     },
+     {
+      "link": "/cn/zh/customer-service/services/buy-back/",
+      "title": "回购与再售"
+     }
+    ],
+    "title": "常用链接"
+   },
+   {
+    "id": "customer-service",
+    "set": [
+     {
+      "link": "/cn/zh/safety-at-home/",
+      "title": "居家安全"
+     },
+     {
+      "link": "/cn/zh/customer-service",
+      "title": "客户服务"
+     },
+     {
+      "link": "/cn/zh/customer-service/contact-us/",
+      "title": "联系我们"
+     },
+     {
+      "link": "/cn/zh/customer-service/chaxunhuoyunfanwei-pub38a5df41",
+      "title": "网上商城配送范围"
+     },
+     {
+      "link": "/cn/zh/customer-service/faq/",
+      "title": "常见问题"
+     },
+     {
+      "link": "/cn/zh/customer-service/returns-claims/return-policy/",
+      "title": "退货政策"
+     },
+     {
+      "link": "/cn/zh/customer-service/returns-claims/guarantee/",
+      "title": "品质保证"
+     },
+     {
+      "link": "/cn/zh/customer-service/product-support/buying-guides/",
+      "title": "购物指南"
+     },
+     {
+      "link": "/cn/zh/ikea-business/gift-card/yi-jia-li-pin-ka-pubc1d4f328",
+      "title": "宜家礼品卡"
+     }
+    ],
+    "title": "客户服务"
+   },
+   {
+    "id": "about-us",
+    "set": [
+     {
+      "link": "/cn/zh/this-is-ikea/",
+      "title": "这就是宜家"
+     },
+     {
+      "link": "/cn/zh/this-is-ikea/work-with-us/",
+      "title": "加入我们"
+     },
+     {
+      "link": "/cn/zh/this-is-ikea/sustainable-everyday/",
+      "title": "可持续的日常生活"
+     },
+     {
+      "link": "/cn/zh/this-is-ikea/climate-environment/",
+      "title": "气候与环境"
+     },
+     {
+      "link": "/cn/zh/this-is-ikea/community-engagement/",
+      "title": "社区参与"
+     },
+     {
+      "link": "/cn/zh/life-at-home/",
+      "title": "居家生活"
+     },
+     {
+      "link": "/cn/zh/apps/survey/anytime/",
+      "title": "意见反馈"
+     }
+    ],
+    "title": "关于宜家"
+   },
+   {
+    "id": "newsroom",
+    "set": [
+     {
+      "link": "/cn/zh/newsroom/",
+      "title": "新闻室"
+     },
+     {
+      "link": "/cn/zh/newsroom/media-info-pubc4254c10",
+      "title": "新闻联络"
+     },
+     {
+      "link": "/cn/zh/customer-service/product-support/recalls/",
+      "title": "商品召回"
+     },
+     {
+      "link": "/cn/zh/customer-service/creating-safer-homes-together-pub3ca57330",
+      "title": "牢牢固定！"
+     }
+    ],
+    "title": "宜家新闻"
+   }
+  ],
+  "header": [
+   {
+    "id": "rooms",
+    "set": [
+     {
+      "link": "/cn/zh/campaigns/3d-zhan3-jian1-quan2-xin1-shang4-xian4-pub1b2e4b70",
+      "image": "https://www.ikea.cn/images/b3/71/b37126d66ec75c2bf7dd94729b3f841d.jpg?f=xxxs",
+      "title": "3D房间"
+     },
+     {
+      "link": "/cn/zh/rooms/bedroom/",
+      "image": "https://www.ikea.cn/images/89/ad/89adafe52568320ef7019da4882276c9.jpg",
+      "title": "卧室"
+     },
+     {
+      "link": "/cn/zh/rooms/living-room/",
+      "image": "https://www.ikea.cn/images/2a/4d/2a4d3184fe750dbcc98f3c50bcff754a.jpg?f=xxl",
+      "title": "客厅"
+     },
+     {
+      "link": "/cn/zh/rooms/kitchen/",
+      "image": "https://www.ikea.cn/images/33/1a/331ad308b3b0a5fa4f02f7a3f14917d6.jpg?f=xxl",
+      "title": "厨房"
+     },
+     {
+      "link": "/cn/zh/rooms/dining/",
+      "image": "https://www.ikea.cn/images/5e/0f/5e0fcaa1062d50a8dc55f3b834b13663.jpg?f=xxl",
+      "title": "餐厅"
+     },
+     {
+      "link": "/cn/zh/rooms/childrens-room/",
+      "image": "https://res.app.ikea.cn/content/u/20220303/789418578adf4e9ebd12e9a5c46924ed.jpg",
+      "title": "儿童房"
+     },
+     {
+      "link": "/cn/zh/rooms/bathroom/",
+      "image": "https://www.ikea.cn/images/37/be/37bed2081933c8c61f7a00efc3ed8ad0.jpg?f=xxl",
+      "title": "浴室"
+     },
+     {
+      "link": "/cn/zh/rooms/home-office/",
+      "image": "https://www.ikea.cn/images/10/c2/10c26dc3961664e6e144aadb835e17ed.jpg",
+      "title": "书房和办公室"
+     },
+     {
+      "link": "/cn/zh/rooms/hallway/",
+      "image": "https://www.ikea.cn/images/27/a1/27a10da68fff2495142a03d5dad50d52.jpg?f=xxl",
+      "title": "门厅"
+     },
+     {
+      "link": "/cn/zh/rooms/outdoor/",
+      "image": "https://www.ikea.cn/images/29/7b/297beddd6136021f1d74ac73c4418b21.jpg?f=xxl",
+      "title": "户外"
+     },
+     {
+      "link": "/cn/zh/rooms/balcony/",
+      "image": "https://res.app.ikea.cn/content/u/20220303/af4de0fe6bcc4b73bc4b1136b147de59.jpg",
+      "title": "阳台"
+     },
+     {
+      "link": "/cn/zh/ikea-business/",
+      "image": "https://www.ikea.cn/images/f8/98/f898c59b5c34a8e13bde8d31f2acec22.jpg?f=xxl",
+      "title": "宜家对公业务"
+     }
+    ],
+    "title": "房间",
+    "components": [
+     {
+      "id": "inspiration-content-container",
+      "type": "pub-columns",
+      "model": {
+       "type": "three-columns",
+       "content": {
+        "elements": [
+         {
+          "type": 154,
+          "content": 867
+         },
+         {
+          "type": 154,
+          "content": 886
+         },
+         {
+          "type": 154,
+          "content": 905
+         }
+        ]
+       }
+      }
+     }
+    ]
+   },
+   {
+    "id": "campaigns",
+    "set": [
+     {
+      "link": "/cn/zh/campaigns/wo3-men2-de-chao1-zhi2-di1-jia4-pub8b08af40",
+      "image": "https://res.app.ikea.cn/content/u/20211224/3a792d34cd694736be7b33978ecfbdbb.jpg",
+      "title": "低价优选"
+     },
+     {
+      "link": "/cn/zh/offers/family-offers/",
+      "image": "https://www.ikea.cn/images/17/c1/17c179ccac4f179f858ad546a768f995.jpg?f=xxxxl",
+      "title": "会员特惠"
+     }
+    ],
+    "title": "活动和特惠",
+    "components": [
+     {
+      "id": "campaigns-content-container",
+      "type": "pub-columns",
+      "model": {
+       "type": "two-columns",
+       "content": {
+        "elements": [
+         {
+          "type": 154,
+          "content": 938
+         },
+         {
+          "type": 154,
+          "content": 946
+         }
+        ]
+       }
+      }
+     }
+    ]
+   },
+   {
+    "id": "services",
+    "set": [
+     {
+      "link": "https://wrd.family.ikea.cn/wrd?channel=EC_Channel&cl_sr=IRW_homepage_2nd_Anniversary",
+      "image": "https://www.ikea.cn/images/a6/18/a6182b12628b72a0850e517229cd3a76.jpg?f=xxxs",
+      "title": "全屋设计"
+     },
+     {
+      "link": "https://store-companion.ikea.cn/kitchen?channel=kitchen_IRW%20M2&cl_sr=IRW%20M2",
+      "image": "https://res.app.ikea.cn/content/u/20240604/a8c49680e0b8428780dea98bfacaf758.jpg",
+      "title": "厨房设计"
+     },
+     {
+      "link": "/cn/zh/ikea-business/",
+      "image": "https://www.ikea.cn/images/f8/98/f898c59b5c34a8e13bde8d31f2acec22.jpg?f=xxl",
+      "title": "对公业务"
+     },
+     {
+      "link": "/cn/zh/sofa-swatch/entrance/",
+      "image": "https://res.app.ikea.cn/content/u/20211229/5ef542a2aa864f46877f7780f97152b1.jpg",
+      "title": "免费订购沙发套小样"
+     },
+     {
+      "link": "/cn/zh/customer-service/",
+      "image": "https://www.ikea.cn/images/de/c3/dec37856397f2927c583998d6870b1bc.jpg",
+      "title": "更多客户服务"
+     }
+    ],
+    "title": "设计和服务",
+    "components": [
+     {
+      "id": "services-content-container",
+      "type": "pub-columns",
+      "model": {
+       "type": "three-columns",
+       "content": {
+        "elements": [
+         {
+          "type": 154,
+          "content": 984
+         },
+         {
+          "type": 154,
+          "content": 1024
+         },
+         {
+          "type": 154,
+          "content": 1047
+         }
+        ]
+       }
+      },
+      "settings": {
+       "traceId": "services-content-container-b:leads_landing_new:new"
+      }
+     }
+    ]
+   },
+   {
+    "id": "inspiration",
+    "set": [
+     {
+      "link": "/cn/zh/ideas/home-furnishings/ ",
+      "image": "https://www.ikea.cn/images/5b/5c/5b5ca11b424c85fc3523fab46da10baf.jpg",
+      "title": "家装示例"
+     },
+     {
+      "link": "/cn/zh/rooms/bedroom/gallery/",
+      "image": "https://www.ikea.cn/images/42/a9/42a92a5914df77b7cbb9f00c33bef5d8.jpg?f=xxl",
+      "title": "卧室灵感"
+     },
+     {
+      "link": "/cn/zh/rooms/living-room/gallery/",
+      "image": "https://www.ikea.cn/images/44/d9/44d95580446faf39b4f83e0b523dac04.jpg?f=xxl",
+      "title": "客厅灵感"
+     },
+     {
+      "link": "/cn/zh/rooms/kitchen/gallery/",
+      "image": "https://www.ikea.cn/images/7c/20/7c2079f15f75cc483226ca6da9ae770f.jpg?f=xxl",
+      "title": "厨房灵感"
+     },
+     {
+      "link": "/cn/zh/rooms/dining/gallery/",
+      "image": "https://www.ikea.cn/images/3e/a1/3ea16c092e5826f04bc052d3a3bb7854.jpg?f=xxxs",
+      "title": "餐厅灵感"
+     },
+     {
+      "link": "/cn/zh/rooms/childrens-room/gallery/",
+      "image": "https://res.app.ikea.cn/content/u/20220303/4aef0d7d296d41a89d0a009fbdc31eee.jpg",
+      "title": "儿童房灵感"
+     },
+     {
+      "link": "/cn/zh/rooms/home-office/gallery/",
+      "image": "https://www.ikea.cn/images/96/cc/96cca7b9862aa2b9b8f8b73ac03755b8.jpg?f=xxl",
+      "title": "家庭办公灵感"
+     },
+     {
+      "link": "/cn/zh/rooms/bathroom/gallery/",
+      "image": "https://www.ikea.cn/images/00/c1/00c14f57b4c54a79294aea16d8bcc9e9.jpg?f=xxl",
+      "title": "浴室灵感"
+     },
+     {
+      "link": "/cn/zh/rooms/hallway/gallery/",
+      "image": "https://www.ikea.cn/images/fc/40/fc407a21abe40c316be7d3add4a2a9b9.jpg?f=xxl",
+      "title": "门厅灵感"
+     },
+     {
+      "link": "/cn/zh/rooms/outdoor/gallery/",
+      "image": "https://www.ikea.cn/images/7d/45/7d45001e82044dccb3fcd44af30fc003.jpg?f=xxxs",
+      "title": "户外灵感"
+     },
+     {
+      "link": "/cn/zh/campaigns/digital-spa/",
+      "image": "https://www.ikea.cn/images/1d/fa/1dfa71c29b736e921ba568d8dcbcb80a.jpg?f=xxxxl",
+      "title": "线上SPA"
+     }
+    ],
+    "title": "家居灵感",
+    "components": [
+     {
+      "id": "inspiration-content-container",
+      "type": "pub-columns",
+      "model": {
+       "type": "three-columns",
+       "content": {
+        "elements": [
+         {
+          "type": 154,
+          "content": 1120
+         },
+         {
+          "type": 154,
+          "content": 1148
+         }
+        ]
+       }
+      }
+     }
+    ]
+   },
+   {
+    "id": "new",
+    "set": [
+     {
+      "link": "/cn/zh/new/the-vardande-collection-pub8cb96036",
+      "image": "https://res.app.ikea.cn/content/u/20220815/ebdfee64d0cf4d348923a3767b397dc0.jpg",
+      "title": "VÅRDANDE 沃当德 系列"
+     },
+     {
+      "link": "/cn/zh/new/invite-fresh-new-candle-scents-into-your-home-pubdee696a0",
+      "image": "https://res.app.ikea.cn/content/u/20220815/b76fc8d38b78405e9b1aab2c35332cd6.jpg",
+      "title": "全新家居香氛"
+     },
+     {
+      "link": "/cn/zh/new/",
+      "image": "https://www.ikea.cn/images/ff/ee/ffee6cf5fdc5515f0843737728fbd689.jpg?f=xxxs",
+      "title": "查看所有新品"
+     }
+    ],
+    "title": "新品",
+    "components": [
+     {
+      "id": "new-content-container",
+      "type": "pub-columns",
+      "model": {
+       "type": "two-columns",
+       "content": {
+        "elements": [
+         {
+          "type": 154,
+          "content": 1196
+         },
+         {
+          "type": 154,
+          "content": 1210
+         }
+        ]
+       }
+      }
+     }
+    ]
+   },
+   {
+    "id": "ikeabusiness",
+    "set": [],
+    "title": "对公业务",
+    "components": [
+     {
+      "id": "new-content-container",
+      "type": "pub-columns",
+      "model": {
+       "type": "three-columns",
+       "content": {
+        "elements": [
+         {
+          "type": 154,
+          "content": 1232,
+          "traceMetadata": 1254
+         }
+        ]
+       }
+      }
+     }
+    ]
+   }
+  ],
+  "websiteInfo": [
+   {
+    "link": "/cn/zh/customer-service/privacy-policy/",
+    "title": "隐私政策"
+   },
+   {
+    "link": "/cn/zh/customer-service/responsible-disclosure/",
+    "title": "缺陷披露政策"
+   },
+   {
+    "link": "/cn/zh/customer-service/terms-conditions/",
+    "title": "使用条款"
+   },
+   {
+    "link": "http://wap.scjgj.sh.gov.cn/businessCheck/verifKey.do?showType=extShow&serial=9031000020201009152727000006515377-SAIC_SHOW_310000-20171225174146649464&signData=MEYCIQCQ6EcZWCYLIVvzB2ETNsySqMpSAJLyxjWaUtQPwoD06QIhAM16wanL2YEC5jmShE1u+Tjld4w4G3vQCpfGo0njeQcY",
+    "title": "上海工商"
+   },
+   {
+    "link": "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010402001069",
+    "title": "沪公网安备 31010402001069号"
+   },
+   {
+    "link": "https://beian.miit.gov.cn/#/Integrated/recordQuery",
+    "title": "沪ICP 备17055232 号"
+   },
+   {
+    "link": "https://beian.cac.gov.cn/api/static/fileUpload/principalOrithm/additional/user_345f5b47-b205-4c29-90fb-c8d505ca399c_1e9c4c5d-ac83-4f0f-8bef-b641982984f1.pdf",
+    "title": "宜家AI购物助手算法 网信算备310104755117001240013号"
+   },
+   {
+    "link": "https://beian.cac.gov.cn/api/static/fileUpload/principalOrithm/additional/user_345f5b47-b205-4c29-90fb-c8d505ca399c_e1c8f1a7-592e-4b2e-8ec3-f128e6b1946c.pdf",
+    "title": "宜家智能搜索生成合成算法 网信算备310104755117001250025号"
+   }
+  ],
+  "appPromotion": {
+   "desc": "下载APP",
+   "isShow": {
+    "data": [
+     "ShallowReactive",
+     {
+      "32fb5c3298a35e532c8926a270d0698d": {
+       "platform": "PC_WEB",
+       "content": {
+        "id": "cn--zh--4f927afc44f811eb82cf5def96d20a8e",
+        "key": "cn--zh--4f927afc44f811eb82cf5def96d20a8e",
+        "name": "宜家首页",
+        "title": "宜家家居官网-宜家电商-提供客厅，卧室，厨房，各类家居灵感和产品解决方案- IKEA",
+        "metadata": [
+         {
+          "type": 12,
+          "value": 13
+         },
+         {
+          "type": 15,
+          "value": 16
+         },
+         {
+          "type": 18,
+          "value": 19
+         },
+         {
+          "type": 21,
+          "value": 22
+         },
+         {
+          "type": 24,
+          "value": 25
+         },
+         {
+          "type": 27,
+          "value": 28
+         },
+         {
+          "type": 30,
+          "value": 31
+         },
+         {
+          "type": 33,
+          "value": 34
+         },
+         {
+          "type": 36,
+          "value": 37
+         },
+         {
+          "type": 44,
+          "image": 45
+         },
+         {
+          "type": 44,
+          "image": 50
+         }
+        ],
+        "model": {
+         "poster": "https://file.app.ikea.cn/cms/u/20240920/3afcaa758f78493ca39c4506670dab5f.jpg"
+        },
+        "components": [
+         {
+          "id": 55,
+          "type": 56,
+          "settings": 57,
+          "model": 59
+         },
+         {
+          "id": 98,
+          "type": 99,
+          "settings": 100,
+          "model": 102
+         },
+         {
+          "id": 146,
+          "type": 147,
+          "settings": 148,
+          "model": 150
+         },
+         {
+          "id": 198,
+          "type": 199,
+          "settings": 200,
+          "model": 202
+         },
+         {
+          "id": 219,
+          "type": 220,
+          "settings": 221,
+          "model": 223
+         },
+         {
+          "id": 349,
+          "type": 99,
+          "settings": 350,
+          "model": 352
+         },
+         {
+          "id": 392,
+          "type": 393,
+          "settings": 394,
+          "model": 396
+         },
+         {
+          "id": 421,
+          "type": 220,
+          "settings": 422,
+          "model": 424
+         },
+         {
+          "id": 491,
+          "type": 492,
+          "settings": 493,
+          "model": 495
+         },
+         {
+          "id": 498,
+          "type": 499,
+          "settings": 500,
+          "model": 502
+         },
+         {
+          "id": 539,
+          "type": 540,
+          "settings": 541,
+          "model": 543
+         },
+         {
+          "id": 552,
+          "type": 553,
+          "settings": 554,
+          "model": 556
+         }
+        ],
+        "settings": {},
+        "traceId": "宜家首页--家，多点暖意",
+        "cacheable": [
+         "ShallowReactive",
+         1
+        ]
+       },
+       "layout": {
+        "notifications": {
+         "en": {
+          "h5": 612,
+          "pc": 620
+         },
+         "zh": {
+          "h5": 642,
+          "pc": 690
+         }
+        },
+        "menus": {
+         "footer": [
+          717,
+          745,
+          775,
+          800
+         ],
+         "header": [
+          817,
+          918,
+          956,
+          1066,
+          1173,
+          1223
+         ],
+         "websiteInfo": [
+          1257,
+          1260,
+          1263,
+          1266,
+          1269,
+          1272,
+          1275,
+          1278
+         ],
+         "appPromotion": {
+          "desc": 694,
+          "isShow": 66,
+          "iconType": 625,
+          "qrCodeUrl": 1282,
+          "descDetail": 1283,
+          "appDownloadUrl": 31
+         }
+        },
+        "resources": {
+         "new": {
+          "contents": 1286
+         },
+         "rooms": {
+          "contents": 1303
+         },
+         "campaigns": {
+          "contents": 1319
+         },
+         "inspiration": {
+          "contents": 1328
+         },
+         "catalog_ba001": {
+          "contents": 1370
+         },
+         "catalog_bc001": {
+          "contents": 1390
+         },
+         "catalog_bm001": {
+          "contents": 1404
+         },
+         "catalog_de001": {
+          "contents": 1418
+         },
+         "catalog_fu001": {
+          "contents": 1432
+         },
+         "catalog_fu002": {
+          "contents": 1446
+         },
+         "catalog_fu004": {
+          "contents": 1460
+         },
+         "catalog_he001": {
+          "contents": 1474
+         },
+         "catalog_hi001": {
+          "contents": 1488
+         },
+         "catalog_hs001": {
+          "contents": 1502
+         },
+         "catalog_ka001": {
+          "contents": 1516
+         },
+         "catalog_ka003": {
+          "contents": 1530
+         },
+         "catalog_kt001": {
+          "contents": 1544
+         },
+         "catalog_lc001": {
+          "contents": 1558
+         },
+         "catalog_li001": {
+          "contents": 1572
+         },
+         "catalog_od001": {
+          "contents": 1586
+         },
+         "catalog_pp001": {
+          "contents": 1600
+         },
+         "catalog_rm001": {
+          "contents": 1614
+         },
+         "catalog_ss001": {
+          "contents": 1628
+         },
+         "catalog_st001": {
+          "contents": 1640
+         },
+         "catalog_st006": {
+          "contents": 1654
+         },
+         "catalog_tl001": {
+          "contents": 1668
+         },
+         "catalog_wt001": {
+          "contents": 1682
+         },
+         "catalog_700291": {
+          "contents": 1696
+         }
+        }
+       }
+      }
+     }
+    ],
+    "state": [
+     "Reactive",
+     {
+      "$snuxt-i18n-meta": {},
+      "$slocale": "zh",
+      "$sisMobile": [
+       "ShallowReactive",
+       {
+        "data": [
+         "ShallowReactive",
+         3
+        ],
+        "state": [
+         "Reactive",
+         1711
+        ],
+        "once": [
+         "Set"
+        ],
+        "_errors": [
+         "ShallowReactive",
+         1733
+        ],
+        "serverRendered": {
+         "data": 2,
+         "state": 1710,
+         "once": 1731,
+         "_errors": 1732,
+         "serverRendered": 66,
+         "path": 1734,
+         "pinia": 1735
+        },
+        "path": "/cn/zh/",
+        "pinia": [
+         "Reactive",
+         1736
+        ]
+       }
+      ],
+      "$sdeviceId": "",
+      "$slayout": {
+       "showHeader": {
+        "data": [
+         "ShallowReactive",
+         3
+        ],
+        "state": [
+         "Reactive",
+         1711
+        ],
+        "once": [
+         "Set"
+        ],
+        "_errors": [
+         "ShallowReactive",
+         1733
+        ],
+        "serverRendered": {
+         "data": 2,
+         "state": 1710,
+         "once": 1731,
+         "_errors": 1732,
+         "serverRendered": 66,
+         "path": 1734,
+         "pinia": 1735
+        },
+        "path": "/cn/zh/",
+        "pinia": [
+         "Reactive",
+         1736
+        ]
+       },
+       "showFooter": {
+        "data": [
+         "ShallowReactive",
+         3
+        ],
+        "state": [
+         "Reactive",
+         1711
+        ],
+        "once": [
+         "Set"
+        ],
+        "_errors": [
+         "ShallowReactive",
+         1733
+        ],
+        "serverRendered": {
+         "data": 2,
+         "state": 1710,
+         "once": 1731,
+         "_errors": 1732,
+         "serverRendered": 66,
+         "path": 1734,
+         "pinia": 1735
+        },
+        "path": "/cn/zh/",
+        "pinia": [
+         "Reactive",
+         1736
+        ]
+       },
+       "showMobileTabs": [
+        "ShallowReactive",
+        {
+         "data": 2,
+         "state": 1710,
+         "once": 1731,
+         "_errors": 1732,
+         "serverRendered": 66,
+         "path": 1734,
+         "pinia": 1735
+        }
+       ],
+       "showMobileNav": [
+        "ShallowReactive",
+        {
+         "data": 2,
+         "state": 1710,
+         "once": 1731,
+         "_errors": 1732,
+         "serverRendered": 66,
+         "path": 1734,
+         "pinia": 1735
+        }
+       ],
+       "showPCNav": {
+        "data": [
+         "ShallowReactive",
+         3
+        ],
+        "state": [
+         "Reactive",
+         1711
+        ],
+        "once": [
+         "Set"
+        ],
+        "_errors": [
+         "ShallowReactive",
+         1733
+        ],
+        "serverRendered": {
+         "data": 2,
+         "state": 1710,
+         "once": 1731,
+         "_errors": 1732,
+         "serverRendered": 66,
+         "path": 1734,
+         "pinia": 1735
+        },
+        "path": "/cn/zh/",
+        "pinia": [
+         "Reactive",
+         1736
+        ]
+       },
+       "headerOptions": {
+        "data": [
+         "ShallowReactive",
+         3
+        ],
+        "state": [
+         "Reactive",
+         1711
+        ],
+        "once": [
+         "Set"
+        ],
+        "_errors": [
+         "ShallowReactive",
+         1733
+        ],
+        "serverRendered": {
+         "data": 2,
+         "state": 1710,
+         "once": 1731,
+         "_errors": 1732,
+         "serverRendered": 66,
+         "path": 1734,
+         "pinia": 1735
+        },
+        "path": "/cn/zh/",
+        "pinia": [
+         "Reactive",
+         1736
+        ]
+       },
+       "footerOptions": {
+        "data": [
+         "ShallowReactive",
+         3
+        ],
+        "state": [
+         "Reactive",
+         1711
+        ],
+        "once": [
+         "Set"
+        ],
+        "_errors": [
+         "ShallowReactive",
+         1733
+        ],
+        "serverRendered": {
+         "data": 2,
+         "state": 1710,
+         "once": 1731,
+         "_errors": 1732,
+         "serverRendered": 66,
+         "path": 1734,
+         "pinia": 1735
+        },
+        "path": "/cn/zh/",
+        "pinia": [
+         "Reactive",
+         1736
+        ]
+       },
+       "mobileNavOptions": [
+        "ShallowReactive",
+        {
+         "data": 2,
+         "state": 1710,
+         "once": 1731,
+         "_errors": 1732,
+         "serverRendered": 66,
+         "path": 1734,
+         "pinia": 1735
+        }
+       ],
+       "activeMobileNav": "",
+       "headerSticky": [
+        "ShallowReactive",
+        {
+         "data": 2,
+         "state": 1710,
+         "once": 1731,
+         "_errors": 1732,
+         "serverRendered": 66,
+         "path": 1734,
+         "pinia": 1735
+        }
+       ]
+      },
+      "$sglobalPromptContext": {
+       "platform": "unknown",
+       "pageType": "HOME_PAGE",
+       "dismissedIds": [],
+       "prompts": []
+      },
+      "$ssurveyContext": {
+       "pageType": {
+        "data": [
+         "ShallowReactive",
+         3
+        ],
+        "state": [
+         "Reactive",
+         1711
+        ],
+        "once": [
+         "Set"
+        ],
+        "_errors": [
+         "ShallowReactive",
+         1733
+        ],
+        "serverRendered": {
+         "data": 2,
+         "state": 1710,
+         "once": 1731,
+         "_errors": 1732,
+         "serverRendered": 66,
+         "path": 1734,
+         "pinia": 1735
+        },
+        "path": "/cn/zh/",
+        "pinia": [
+         "Reactive",
+         1736
+        ]
+       },
+       "hasSurvey": [
+        "ShallowReactive",
+        {
+         "data": 2,
+         "state": 1710,
+         "once": 1731,
+         "_errors": 1732,
+         "serverRendered": 66,
+         "path": 1734,
+         "pinia": 1735
+        }
+       ],
+       "isFulfilled": [
+        "ShallowReactive",
+        {
+         "data": 2,
+         "state": 1710,
+         "once": 1731,
+         "_errors": 1732,
+         "serverRendered": 66,
+         "path": 1734,
+         "pinia": 1735
+        }
+       ],
+       "surveyMetadataConfig": [],
+       "surveyMetadata": null,
+       "contentPosition": "bottom-left",
+       "activeContent": null,
+       "lastContentId": null,
+       "contentStack": [],
+       "nextStep": null,
+       "hiddenKey": "hidden",
+       "visibilityChangeKey": "visibilityChange",
+       "surveyIndicator": "not_show"
+      },
+      "$scustomerServiceConfig": {
+       "showIcon": {
+        "data": [
+         "ShallowReactive",
+         3
+        ],
+        "state": [
+         "Reactive",
+         1711
+        ],
+        "once": [
+         "Set"
+        ],
+        "_errors": [
+         "ShallowReactive",
+         1733
+        ],
+        "serverRendered": {
+         "data": 2,
+         "state": 1710,
+         "once": 1731,
+         "_errors": 1732,
+         "serverRendered": 66,
+         "path": 1734,
+         "pinia": 1735
+        },
+        "path": "/cn/zh/",
+        "pinia": [
+         "Reactive",
+         1736
+        ]
+       },
+       "chatbotDom": null,
+       "configId": "",
+       "message": "",
+       "trace": null
+      },
+      "$spageInfo": {},
+      "$sauth": {
+       "accessToken": null,
+       "refreshToken": null,
+       "userProfile": null
+      }
+     }
+    ],
+    "once": [
+     "Set"
+    ],
+    "_errors": [
+     "ShallowReactive",
+     {
+      "32fb5c3298a35e532c8926a270d0698d": null
+     }
+    ],
+    "serverRendered": {
+     "data": [
+      "ShallowReactive",
+      {
+       "32fb5c3298a35e532c8926a270d0698d": {
+        "platform": "PC_WEB",
+        "content": {
+         "id": 7,
+         "key": 7,
+         "name": 8,
+         "title": 9,
+         "metadata": 10,
+         "model": 52,
+         "components": 53,
+         "settings": 607,
+         "traceId": 608,
+         "cacheable": 16
+        },
+        "layout": {
+         "notifications": 610,
+         "menus": 715,
+         "resources": 1284
+        }
+       }
+      }
+     ],
+     "state": [
+      "Reactive",
+      {
+       "$snuxt-i18n-meta": {},
+       "$slocale": "zh",
+       "$sisMobile": [
+        "ShallowReactive",
+        {
+         "data": 2,
+         "state": 1710,
+         "once": 1731,
+         "_errors": 1732,
+         "serverRendered": 66,
+         "path": 1734,
+         "pinia": 1735
+        }
+       ],
+       "$sdeviceId": "",
+       "$slayout": {
+        "showHeader": {
+         "data": 2,
+         "state": 1710,
+         "once": 1731,
+         "_errors": 1732,
+         "serverRendered": 66,
+         "path": 1734,
+         "pinia": 1735
+        },
+        "showFooter": {
+         "data": 2,
+         "state": 1710,
+         "once": 1731,
+         "_errors": 1732,
+         "serverRendered": 66,
+         "path": 1734,
+         "pinia": 1735
+        },
+        "showMobileTabs": [
+         "ShallowReactive",
+         1
+        ],
+        "showMobileNav": [
+         "ShallowReactive",
+         1
+        ],
+        "showPCNav": {
+         "data": 2,
+         "state": 1710,
+         "once": 1731,
+         "_errors": 1732,
+         "serverRendered": 66,
+         "path": 1734,
+         "pinia": 1735
+        },
+        "headerOptions": {
+         "data": 2,
+         "state": 1710,
+         "once": 1731,
+         "_errors": 1732,
+         "serverRendered": 66,
+         "path": 1734,
+         "pinia": 1735
+        },
+        "footerOptions": {
+         "data": 2,
+         "state": 1710,
+         "once": 1731,
+         "_errors": 1732,
+         "serverRendered": 66,
+         "path": 1734,
+         "pinia": 1735
+        },
+        "mobileNavOptions": [
+         "ShallowReactive",
+         1
+        ],
+        "activeMobileNav": "",
+        "headerSticky": [
+         "ShallowReactive",
+         1
+        ]
+       },
+       "$sglobalPromptContext": {
+        "platform": "unknown",
+        "pageType": "HOME_PAGE",
+        "dismissedIds": [],
+        "prompts": []
+       },
+       "$ssurveyContext": {
+        "pageType": {
+         "data": 2,
+         "state": 1710,
+         "once": 1731,
+         "_errors": 1732,
+         "serverRendered": 66,
+         "path": 1734,
+         "pinia": 1735
+        },
+        "hasSurvey": [
+         "ShallowReactive",
+         1
+        ],
+        "isFulfilled": [
+         "ShallowReactive",
+         1
+        ],
+        "surveyMetadataConfig": [],
+        "surveyMetadata": null,
+        "contentPosition": "bottom-left",
+        "activeContent": null,
+        "lastContentId": null,
+        "contentStack": [],
+        "nextStep": null,
+        "hiddenKey": "hidden",
+        "visibilityChangeKey": "visibilityChange",
+        "surveyIndicator": "not_show"
+       },
+       "$scustomerServiceConfig": {
+        "showIcon": {
+         "data": 2,
+         "state": 1710,
+         "once": 1731,
+         "_errors": 1732,
+         "serverRendered": 66,
+         "path": 1734,
+         "pinia": 1735
+        },
+        "chatbotDom": null,
+        "configId": "",
+        "message": "",
+        "trace": null
+       },
+       "$spageInfo": {},
+       "$sauth": {
+        "accessToken": null,
+        "refreshToken": null,
+        "userProfile": null
+       }
+      }
+     ],
+     "once": [
+      "Set"
+     ],
+     "_errors": [
+      "ShallowReactive",
+      {
+       "32fb5c3298a35e532c8926a270d0698d": null
+      }
+     ],
+     "serverRendered": {
+      "data": [
+       "ShallowReactive",
+       {
+        "32fb5c3298a35e532c8926a270d0698d": {
+         "platform": 5,
+         "content": 6,
+         "layout": 609
+        }
+       }
+      ],
+      "state": [
+       "Reactive",
+       {
+        "$snuxt-i18n-meta": {},
+        "$slocale": "zh",
+        "$sisMobile": false,
+        "$sdeviceId": "",
+        "$slayout": {
+         "showHeader": 66,
+         "showFooter": 66,
+         "showMobileTabs": 16,
+         "showMobileNav": 16,
+         "showPCNav": 66,
+         "headerOptions": 66,
+         "footerOptions": 66,
+         "mobileNavOptions": 16,
+         "activeMobileNav": 31,
+         "headerSticky": 16
+        },
+        "$sglobalPromptContext": {
+         "platform": 1716,
+         "pageType": 1717,
+         "dismissedIds": 1718,
+         "prompts": 1719
+        },
+        "$ssurveyContext": {
+         "pageType": 1721,
+         "hasSurvey": 16,
+         "isFulfilled": 16,
+         "surveyMetadataConfig": 1722,
+         "surveyMetadata": 70,
+         "contentPosition": 1723,
+         "activeContent": 70,
+         "lastContentId": 70,
+         "contentStack": 1724,
+         "nextStep": 70,
+         "hiddenKey": 1725,
+         "visibilityChangeKey": 1726,
+         "surveyIndicator": 1727
+        },
+        "$scustomerServiceConfig": {
+         "showIcon": 66,
+         "chatbotDom": 70,
+         "configId": 31,
+         "message": 31,
+         "trace": 70
+        },
+        "$spageInfo": {},
+        "$sauth": {
+         "accessToken": 70,
+         "refreshToken": 70,
+         "userProfile": 70
+        }
+       }
+      ],
+      "once": [
+       "Set"
+      ],
+      "_errors": [
+       "ShallowReactive",
+       {
+        "32fb5c3298a35e532c8926a270d0698d": null
+       }
+      ],
+      "serverRendered": {
+       "data": [
+        "ShallowReactive",
+        3
+       ],
+       "state": [
+        "Reactive",
+        1711
+       ],
+       "once": [
+        "Set"
+       ],
+       "_errors": [
+        "ShallowReactive",
+        1733
+       ],
+       "serverRendered": {
+        "data": 2,
+        "state": 1710,
+        "once": 1731,
+        "_errors": 1732,
+        "serverRendered": 66,
+        "path": 1734,
+        "pinia": 1735
+       },
+       "path": "/cn/zh/",
+       "pinia": [
+        "Reactive",
+        1736
+       ]
+      },
+      "path": "/cn/zh/",
+      "pinia": [
+       "Reactive",
+       {
+        "ab-test": {
+         "config": 1738,
+         "pending": 16,
+         "queue": 1739
+        },
+        "layouts": {
+         "customServiceTipsShow": 16,
+         "customServiceTipsShowTime": 1741,
+         "customServiceTips": 31
+        },
+        "lead-bag": {
+         "leads": 1743,
+         "pending": 16
+        },
+        "shopping-bag": {
+         "shoppingBagItems": 1745,
+         "pending": 16
+        }
+       }
+      ]
+     },
+     "path": "/cn/zh/",
+     "pinia": [
+      "Reactive",
+      {
+       "ab-test": {
+        "config": {},
+        "pending": [
+         "ShallowReactive",
+         1
+        ],
+        "queue": []
+       },
+       "layouts": {
+        "customServiceTipsShow": [
+         "ShallowReactive",
+         1
+        ],
+        "customServiceTipsShowTime": 40000,
+        "customServiceTips": ""
+       },
+       "lead-bag": {
+        "leads": [],
+        "pending": [
+         "ShallowReactive",
+         1
+        ]
+       },
+       "shopping-bag": {
+        "shoppingBagItems": [],
+        "pending": [
+         "ShallowReactive",
+         1
+        ]
+       }
+      }
+     ]
+    },
+    "path": "/cn/zh/",
+    "pinia": [
+     "Reactive",
+     {
+      "ab-test": {
+       "config": {},
+       "pending": [
+        "ShallowReactive",
+        {
+         "data": 2,
+         "state": 1710,
+         "once": 1731,
+         "_errors": 1732,
+         "serverRendered": 66,
+         "path": 1734,
+         "pinia": 1735
+        }
+       ],
+       "queue": []
+      },
+      "layouts": {
+       "customServiceTipsShow": [
+        "ShallowReactive",
+        {
+         "data": 2,
+         "state": 1710,
+         "once": 1731,
+         "_errors": 1732,
+         "serverRendered": 66,
+         "path": 1734,
+         "pinia": 1735
+        }
+       ],
+       "customServiceTipsShowTime": 40000,
+       "customServiceTips": ""
+      },
+      "lead-bag": {
+       "leads": [],
+       "pending": [
+        "ShallowReactive",
+        {
+         "data": 2,
+         "state": 1710,
+         "once": 1731,
+         "_errors": 1732,
+         "serverRendered": 66,
+         "path": 1734,
+         "pinia": 1735
+        }
+       ]
+      },
+      "shopping-bag": {
+       "shoppingBagItems": [],
+       "pending": [
+        "ShallowReactive",
+        {
+         "data": 2,
+         "state": 1710,
+         "once": 1731,
+         "_errors": 1732,
+         "serverRendered": 66,
+         "path": 1734,
+         "pinia": 1735
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "iconType": "w-qr-code",
+   "qrCodeUrl": "https://ikeacn-static-test.oss-cn-shanghai.aliyuncs.com/static/images/header/apppromotion/qrCode/20210303.png",
+   "descDetail": "扫码下载宜家APP<br>随时随地都能宜家！",
+   "appDownloadUrl": ""
+  }
+ },
+ "resources": {
+  "new": {
+   "contents": [
+    {
+     "id": "new-content",
+     "type": "inspiration-cards",
+     "model": {
+      "mode": "carousel",
+      "links": {
+       "elements": [
+        {
+         "alt": "",
+         "link": {
+          "url": 1295,
+          "openInNewWindow": 401
+         },
+         "image": {
+          "url": 1297,
+          "width": 1298,
+          "height": 1299
+         },
+         "title": "探索当季新品",
+         "textColor": "#fff",
+         "backgroundColor": "#CA5008"
+        }
+       ]
+      },
+      "title": "",
+      "interval": 5000
+     }
+    }
+   ]
+  },
+  "rooms": {
+   "contents": [
+    {
+     "id": "xxx",
+     "type": "inspiration-cards",
+     "model": {
+      "mode": "carousel",
+      "links": {
+       "elements": [
+        {
+         "alt": "",
+         "link": {
+          "url": 31,
+          "openInNewWindow": 401
+         },
+         "image": {
+          "url": 955,
+          "width": 1298,
+          "height": 1299
+         },
+         "title": "",
+         "textColor": "",
+         "backgroundColor": "#ffffff"
+        }
+       ]
+      },
+      "title": "",
+      "interval": 5000
+     }
+    },
+    {
+     "id": "xxx",
+     "alt": "",
+     "link": {
+      "url": "",
+      "openInNewWindow": "NO"
+     },
+     "type": "image-with-caption",
+     "image": {
+      "url": "https://res.app.ikea.cn/content/u/20221229/4549c4d336a44249a86c8d0fe149ffff.jpg",
+      "type": "IMAGE",
+      "width": [
+       "ShallowReactive",
+       {
+        "data": [
+         "ShallowReactive",
+         3
+        ],
+        "state": [
+         "Reactive",
+         1711
+        ],
+        "once": [
+         "Set"
+        ],
+        "_errors": [
+         "ShallowReactive",
+         1733
+        ],
+        "serverRendered": {
+         "data": 2,
+         "state": 1710,
+         "once": 1731,
+         "_errors": 1732,
+         "serverRendered": 66,
+         "path": 1734,
+         "pinia": 1735
+        },
+        "path": "/cn/zh/",
+        "pinia": [
+         "Reactive",
+         1736
+        ]
+       }
+      ],
+      "height": "cn--zh--4f927afc44f811eb82cf5def96d20a8e"
+     },
+     "caption": ""
+    }
+   ]
+  },
+  "campaigns": {
+   "contents": [
+    {
+     "id": "xxx",
+     "type": "inspiration-cards",
+     "model": {
+      "mode": "carousel",
+      "links": {
+       "elements": [
+        {
+         "alt": "",
+         "link": {
+          "url": 31,
+          "openInNewWindow": 401
+         },
+         "image": {
+          "url": 955,
+          "width": 1298,
+          "height": 1299
+         },
+         "title": "",
+         "textColor": "",
+         "backgroundColor": ""
+        }
+       ]
+      },
+      "title": "",
+      "interval": 5000
+     }
+    }
+   ]
+  },
+  "inspiration": {
+   "contents": [
+    {
+     "id": "xxx",
+     "type": "inspiration-cards",
+     "model": {
+      "mode": "carousel",
+      "links": {
+       "elements": [
+        {
+         "alt": "我的艺术展",
+         "link": {
+          "url": 1336,
+          "openInNewWindow": 401
+         },
+         "image": {
+          "url": 1338,
+          "width": 1298,
+          "height": 1299
+         },
+         "title": "我的艺术展",
+         "textColor": "#fff",
+         "description": "灵感来源于充斥着多元个人色彩的街头艺术和城市文化",
+         "backgroundColor": "#000"
+        },
+        {
+         "alt": "成就美好日常生活的小习惯",
+         "link": {
+          "url": 1344,
+          "openInNewWindow": 401
+         },
+         "image": {
+          "url": 1346,
+          "width": 1298,
+          "height": 1299
+         },
+         "title": "成就美好日常生活的小习惯",
+         "textColor": "#fff",
+         "description": "在生活的琐碎中，培养一些小习惯，让健康与快乐悄然而至",
+         "backgroundColor": "#000"
+        },
+        {
+         "alt": "礼物挑选指南",
+         "link": {
+          "url": 1351,
+          "openInNewWindow": 401
+         },
+         "image": {
+          "url": 1353,
+          "width": 1298,
+          "height": 1299
+         },
+         "title": "礼物挑选指南",
+         "textColor": "#fff",
+         "description": "饱含心意的礼物融化彼此的距离，留下永恒美好回忆",
+         "backgroundColor": "#000"
+        },
+        {
+         "alt": "线下探店",
+         "link": {
+          "url": 1358,
+          "openInNewWindow": 401
+         },
+         "image": {
+          "url": 1360,
+          "width": 1298,
+          "height": 1299
+         },
+         "title": "线下探店",
+         "textColor": "#fff",
+         "description": "在南京商场全新客厅储物部，发现收纳的更多可能",
+         "backgroundColor": "#000"
+        }
+       ]
+      },
+      "title": "",
+      "interval": 5000
+     }
+    },
+    {
+     "id": "inspiration-idea",
+     "alt": "搭配灵感",
+     "link": {
+      "url": "/cn/zh/ideas/",
+      "openInNewWindow": "NO"
+     },
+     "type": "image-with-caption",
+     "image": {
+      "url": "https://res.app.ikea.cn/content/u/20221128/9355c716fb054068b02a10f35b8c69cb.png",
+      "type": "IMAGE",
+      "width": [
+       "ShallowReactive",
+       {
+        "data": [
+         "ShallowReactive",
+         3
+        ],
+        "state": [
+         "Reactive",
+         1711
+        ],
+        "once": [
+         "Set"
+        ],
+        "_errors": [
+         "ShallowReactive",
+         1733
+        ],
+        "serverRendered": {
+         "data": 2,
+         "state": 1710,
+         "once": 1731,
+         "_errors": 1732,
+         "serverRendered": 66,
+         "path": 1734,
+         "pinia": 1735
+        },
+        "path": "/cn/zh/",
+        "pinia": [
+         "Reactive",
+         1736
+        ]
+       }
+      ],
+      "height": "cn--zh--4f927afc44f811eb82cf5def96d20a8e"
+     },
+     "caption": ""
+    }
+   ]
+  },
+  "catalog_ba001": {
+   "contents": [
+    {
+     "id": "xxx",
+     "type": "product-ranking-list",
+     "model": {
+      "rankingIds": [
+       "THIRD_CATALOG_10658_SALES_QUANTITY",
+       "FOURTH_CATALOG_20601_SALES_QUANTITY",
+       "THIRD_CATALOG_46079_SALES_QUANTITY"
+      ]
+     }
+    },
+    {
+     "id": "xxx",
+     "type": "link-list",
+     "model": {
+      "links": {
+       "elements": [
+        {
+         "link": "/cn/zh/apps/room-ranking",
+         "image": {
+          "url": 31,
+          "width": 1385,
+          "height": 1386
+         },
+         "title": "查看宜家热销榜"
+        }
+       ]
+      },
+      "layout": "list",
+      "variant": "card-center",
+      "listLabel": ""
+     }
+    }
+   ]
+  },
+  "catalog_bc001": {
+   "contents": [
+    {
+     "id": "xxx",
+     "type": "product-ranking-list",
+     "model": {
+      "rankingIds": [
+       "FOURTH_CATALOG_18740_SALES_QUANTITY",
+       "FOURTH_CATALOG_45782_SALES_QUANTITY",
+       "FOURTH_CATALOG_20474_SALES_QUANTITY"
+      ]
+     }
+    },
+    {
+     "id": "xxx",
+     "type": "link-list",
+     "model": {
+      "links": {
+       "elements": [
+        {
+         "link": "/cn/zh/apps/room-ranking",
+         "image": {
+          "url": 31,
+          "width": 1385,
+          "height": 1386
+         },
+         "title": "查看宜家热销榜"
+        }
+       ]
+      },
+      "layout": "list",
+      "variant": "card-center",
+      "listLabel": ""
+     }
+    }
+   ]
+  },
+  "catalog_bm001": {
+   "contents": [
+    {
+     "id": "xxx",
+     "type": "product-ranking-list",
+     "model": {
+      "rankingIds": [
+       "THIRD_CATALOG_16284_SALES_QUANTITY",
+       "THIRD_CATALOG_24828_SALES_QUANTITY",
+       "THIRD_CATALOG_20656_SALES_QUANTITY"
+      ]
+     }
+    },
+    {
+     "id": "xxx",
+     "type": "link-list",
+     "model": {
+      "links": {
+       "elements": [
+        {
+         "link": "/cn/zh/apps/room-ranking",
+         "image": {
+          "url": 31,
+          "width": 1385,
+          "height": 1386
+         },
+         "title": "查看宜家热销榜"
+        }
+       ]
+      },
+      "layout": "list",
+      "variant": "card-center",
+      "listLabel": ""
+     }
+    }
+   ]
+  },
+  "catalog_de001": {
+   "contents": [
+    {
+     "id": "xxx",
+     "type": "product-ranking-list",
+     "model": {
+      "rankingIds": [
+       "THIRD_CATALOG_18746_SALES_QUANTITY",
+       "THIRD_CATALOG_10783_SALES_QUANTITY",
+       "THIRD_CATALOG_10776_SALES_QUANTITY"
+      ]
+     }
+    },
+    {
+     "id": "xxx",
+     "type": "link-list",
+     "model": {
+      "links": {
+       "elements": [
+        {
+         "link": "/cn/zh/apps/room-ranking",
+         "image": {
+          "url": 31,
+          "width": 1385,
+          "height": 1386
+         },
+         "title": "查看宜家热销榜"
+        }
+       ]
+      },
+      "layout": "list",
+      "variant": "card-center",
+      "listLabel": ""
+     }
+    }
+   ]
+  },
+  "catalog_fu001": {
+   "contents": [
+    {
+     "id": "xxx",
+     "type": "product-ranking-list",
+     "model": {
+      "rankingIds": [
+       "THIRD_CATALOG_48005_SALES_QUANTITY",
+       "THIRD_CATALOG_10810_SALES_QUANTITY",
+       "FOURTH_CATALOG_10670_SALES_QUANTITY"
+      ]
+     }
+    },
+    {
+     "id": "xxx",
+     "type": "link-list",
+     "model": {
+      "links": {
+       "elements": [
+        {
+         "link": "/cn/zh/apps/room-ranking",
+         "image": {
+          "url": 31,
+          "width": 1385,
+          "height": 1386
+         },
+         "title": "查看宜家热销榜"
+        }
+       ]
+      },
+      "layout": "list",
+      "variant": "card-center",
+      "listLabel": ""
+     }
+    }
+   ]
+  },
+  "catalog_fu002": {
+   "contents": [
+    {
+     "id": "xxx",
+     "type": "product-ranking-list",
+     "model": {
+      "rankingIds": [
+       "FOURTH_CATALOG_10664_SALES_QUANTITY",
+       "FOURTH_CATALOG_20926_SALES_QUANTITY",
+       "FOURTH_CATALOG_20927_SALES_QUANTITY"
+      ]
+     }
+    },
+    {
+     "id": "xxx",
+     "type": "link-list",
+     "model": {
+      "links": {
+       "elements": [
+        {
+         "link": "/cn/zh/apps/room-ranking",
+         "image": {
+          "url": 31,
+          "width": 1385,
+          "height": 1386
+         },
+         "title": "查看宜家热销榜"
+        }
+       ]
+      },
+      "layout": "list",
+      "variant": "card-center",
+      "listLabel": ""
+     }
+    }
+   ]
+  },
+  "catalog_fu004": {
+   "contents": [
+    {
+     "id": "xxx",
+     "type": "product-ranking-list",
+     "model": {
+      "rankingIds": [
+       "FOURTH_CATALOG_11811_SALES_QUANTITY",
+       "FOURTH_CATALOG_11845_SALES_QUANTITY",
+       "FOURTH_CATALOG_18623_SALES_QUANTITY"
+      ]
+     }
+    },
+    {
+     "id": "xxx",
+     "type": "link-list",
+     "model": {
+      "links": {
+       "elements": [
+        {
+         "link": "/cn/zh/apps/room-ranking",
+         "image": {
+          "url": 31,
+          "width": 1385,
+          "height": 1386
+         },
+         "title": "查看宜家热销榜"
+        }
+       ]
+      },
+      "layout": "list",
+      "variant": "card-center",
+      "listLabel": ""
+     }
+    }
+   ]
+  },
+  "catalog_he001": {
+   "contents": [
+    {
+     "id": "xxx",
+     "type": "product-ranking-list",
+     "model": {
+      "rankingIds": [
+       "THIRD_CATALOG_10765_SALES_QUANTITY",
+       "THIRD_CATALOG_41068_SALES_QUANTITY",
+       "THIRD_CATALOG_41070_SALES_QUANTITY"
+      ]
+     }
+    },
+    {
+     "id": "xxx",
+     "type": "link-list",
+     "model": {
+      "links": {
+       "elements": [
+        {
+         "link": "/cn/zh/apps/room-ranking",
+         "image": {
+          "url": 31,
+          "width": 1385,
+          "height": 1386
+         },
+         "title": "查看宜家热销榜"
+        }
+       ]
+      },
+      "layout": "list",
+      "variant": "card-center",
+      "listLabel": ""
+     }
+    }
+   ]
+  },
+  "catalog_hi001": {
+   "contents": [
+    {
+     "id": "xxx",
+     "type": "product-ranking-list",
+     "model": {
+      "rankingIds": [
+       "THIRD_CATALOG_49768_SALES_QUANTITY",
+       "THIRD_CATALOG_16293_SALES_QUANTITY",
+       "THIRD_CATALOG_16257_SALES_QUANTITY"
+      ]
+     }
+    },
+    {
+     "id": "xxx",
+     "type": "link-list",
+     "model": {
+      "links": {
+       "elements": [
+        {
+         "link": "/cn/zh/apps/room-ranking",
+         "image": {
+          "url": 31,
+          "width": 1385,
+          "height": 1386
+         },
+         "title": "查看宜家热销榜"
+        }
+       ]
+      },
+      "layout": "list",
+      "variant": "card-center",
+      "listLabel": ""
+     }
+    }
+   ]
+  },
+  "catalog_hs001": {
+   "contents": [
+    {
+     "id": "xxx",
+     "type": "product-ranking-list",
+     "model": {
+      "rankingIds": [
+       "FOURTH_CATALOG_20514_SALES_QUANTITY",
+       "THIRD_CATALOG_36814_SALES_QUANTITY",
+       "THIRD_CATALOG_36815_SALES_QUANTITY"
+      ]
+     }
+    },
+    {
+     "id": "xxx",
+     "type": "link-list",
+     "model": {
+      "links": {
+       "elements": [
+        {
+         "link": "/cn/zh/apps/room-ranking",
+         "image": {
+          "url": 31,
+          "width": 1385,
+          "height": 1386
+         },
+         "title": "查看宜家热销榜"
+        }
+       ]
+      },
+      "layout": "list",
+      "variant": "card-center",
+      "listLabel": ""
+     }
+    }
+   ]
+  },
+  "catalog_ka001": {
+   "contents": [
+    {
+     "id": "xxx",
+     "type": "product-ranking-list",
+     "model": {
+      "rankingIds": [
+       "THIRD_CATALOG_10471_SALES_QUANTITY",
+       "THIRD_CATALOG_20677_SALES_QUANTITY",
+       "THIRD_CATALOG_24257_SALES_QUANTITY"
+      ]
+     }
+    },
+    {
+     "id": "xxx",
+     "type": "link-list",
+     "model": {
+      "links": {
+       "elements": [
+        {
+         "link": "/cn/zh/apps/room-ranking",
+         "image": {
+          "url": 31,
+          "width": 1385,
+          "height": 1386
+         },
+         "title": "查看宜家热销榜"
+        }
+       ]
+      },
+      "layout": "list",
+      "variant": "card-center",
+      "listLabel": ""
+     }
+    }
+   ]
+  },
+  "catalog_ka003": {
+   "contents": [
+    {
+     "id": "xxx",
+     "type": "product-ranking-list",
+     "model": {
+      "rankingIds": [
+       "FOURTH_CATALOG_23598_SALES_QUANTITY",
+       "FOURTH_CATALOG_23611_SALES_QUANTITY",
+       "FOURTH_CATALOG_23615_SALES_QUANTITY"
+      ]
+     }
+    },
+    {
+     "id": "xxx",
+     "type": "link-list",
+     "model": {
+      "links": {
+       "elements": [
+        {
+         "link": "/cn/zh/apps/room-ranking",
+         "image": {
+          "url": 31,
+          "width": 1385,
+          "height": 1386
+         },
+         "title": "查看宜家热销榜"
+        }
+       ]
+      },
+      "layout": "list",
+      "variant": "card-center",
+      "listLabel": ""
+     }
+    }
+   ]
+  },
+  "catalog_kt001": {
+   "contents": [
+    {
+     "id": "xxx",
+     "type": "product-ranking-list",
+     "model": {
+      "rankingIds": [
+       "THIRD_CATALOG_20624_SALES_QUANTITY",
+       "SECONDARY_CATALOG_15937_SALES_QUANTITY",
+       "THIRD_CATALOG_18864_SALES_QUANTITY"
+      ]
+     }
+    },
+    {
+     "id": "xxx",
+     "type": "link-list",
+     "model": {
+      "links": {
+       "elements": [
+        {
+         "link": "/cn/zh/apps/room-ranking",
+         "image": {
+          "url": 31,
+          "width": 1385,
+          "height": 1386
+         },
+         "title": "查看宜家热销榜"
+        }
+       ]
+      },
+      "layout": "list",
+      "variant": "card-center",
+      "listLabel": ""
+     }
+    }
+   ]
+  },
+  "catalog_lc001": {
+   "contents": [
+    {
+     "id": "xxx",
+     "type": "product-ranking-list",
+     "model": {
+      "rankingIds": [
+       "THIRD_CATALOG_55004_SALES_QUANTITY",
+       "THIRD_CATALOG_700194_SALES_QUANTITY",
+       "THIRD_CATALOG_16214_SALES_QUANTITY"
+      ]
+     }
+    },
+    {
+     "id": "xxx",
+     "type": "link-list",
+     "model": {
+      "links": {
+       "elements": [
+        {
+         "link": "/cn/zh/apps/room-ranking",
+         "image": {
+          "url": 31,
+          "width": 1385,
+          "height": 1386
+         },
+         "title": "查看宜家热销榜"
+        }
+       ]
+      },
+      "layout": "list",
+      "variant": "card-center",
+      "listLabel": ""
+     }
+    }
+   ]
+  },
+  "catalog_li001": {
+   "contents": [
+    {
+     "id": "xxx",
+     "type": "product-ranking-list",
+     "model": {
+      "rankingIds": [
+       "THIRD_CATALOG_10732_SALES_QUANTITY",
+       "THIRD_CATALOG_10731_SALES_QUANTITY",
+       "THIRD_CATALOG_18750_SALES_QUANTITY"
+      ]
+     }
+    },
+    {
+     "id": "xxx",
+     "type": "link-list",
+     "model": {
+      "links": {
+       "elements": [
+        {
+         "link": "/cn/zh/apps/room-ranking",
+         "image": {
+          "url": 31,
+          "width": 1385,
+          "height": 1386
+         },
+         "title": "查看宜家热销榜"
+        }
+       ]
+      },
+      "layout": "list",
+      "variant": "card-center",
+      "listLabel": ""
+     }
+    }
+   ]
+  },
+  "catalog_od001": {
+   "contents": [
+    {
+     "id": "xxx",
+     "type": "product-ranking-list",
+     "model": {
+      "rankingIds": [
+       "THIRD_CATALOG_42924_SALES_QUANTITY",
+       "THIRD_CATALOG_10779_SALES_QUANTITY",
+       "FOURTH_CATALOG_37899_SALES_QUANTITY"
+      ]
+     }
+    },
+    {
+     "id": "xxx",
+     "type": "link-list",
+     "model": {
+      "links": {
+       "elements": [
+        {
+         "link": "/cn/zh/apps/room-ranking",
+         "image": {
+          "url": 31,
+          "width": 1385,
+          "height": 1386
+         },
+         "title": "查看宜家热销榜"
+        }
+       ]
+      },
+      "layout": "list",
+      "variant": "card-center",
+      "listLabel": ""
+     }
+    }
+   ]
+  },
+  "catalog_pp001": {
+   "contents": [
+    {
+     "id": "xxx",
+     "type": "product-ranking-list",
+     "model": {
+      "rankingIds": [
+       "THIRD_CATALOG_10778_SALES_QUANTITY",
+       "THIRD_CATALOG_20492_SALES_QUANTITY",
+       "THIRD_CATALOG_30436_SALES_QUANTITY"
+      ]
+     }
+    },
+    {
+     "id": "xxx",
+     "type": "link-list",
+     "model": {
+      "links": {
+       "elements": [
+        {
+         "link": "/cn/zh/apps/room-ranking",
+         "image": {
+          "url": 31,
+          "width": 1385,
+          "height": 1386
+         },
+         "title": "查看宜家热销榜"
+        }
+       ]
+      },
+      "layout": "list",
+      "variant": "card-center",
+      "listLabel": ""
+     }
+    }
+   ]
+  },
+  "catalog_rm001": {
+   "contents": [
+    {
+     "id": "xxx",
+     "type": "product-ranking-list",
+     "model": {
+      "rankingIds": [
+       "THIRD_CATALOG_10692_SALES_QUANTITY",
+       "THIRD_CATALOG_10698_SALES_QUANTITY",
+       "THIRD_CATALOG_20519_SALES_QUANTITY"
+      ]
+     }
+    },
+    {
+     "id": "xxx",
+     "type": "link-list",
+     "model": {
+      "links": {
+       "elements": [
+        {
+         "link": "/cn/zh/apps/room-ranking",
+         "image": {
+          "url": 31,
+          "width": 1385,
+          "height": 1386
+         },
+         "title": "查看宜家热销榜"
+        }
+       ]
+      },
+      "layout": "list",
+      "variant": "card-center",
+      "listLabel": ""
+     }
+    }
+   ]
+  },
+  "catalog_ss001": {
+   "contents": [
+    {
+     "id": "xxx",
+     "type": "product-ranking-list",
+     "model": {
+      "rankingIds": [
+       "THIRD_CATALOG_10779_SALES_QUANTITY",
+       "THIRD_CATALOG_20493_SALES_QUANTITY",
+       "THIRD_CATALOG_30436_SALES_QUANTITY"
+      ]
+     }
+    },
+    {
+     "id": "xxx",
+     "type": "link-list",
+     "model": {
+      "links": {
+       "elements": [
+        {
+         "link": "/cn/zh/apps/room-ranking",
+         "image": {
+          "url": 31,
+          "width": 1385,
+          "height": 1386
+         },
+         "title": "查看宜家热销榜"
+        }
+       ]
+      },
+      "layout": "list",
+      "variant": "card-center",
+      "listLabel": ""
+     }
+    }
+   ]
+  },
+  "catalog_st001": {
+   "contents": [
+    {
+     "id": "xxx",
+     "type": "product-ranking-list",
+     "model": {
+      "rankingIds": [
+       "FOURTH_CATALOG_10565_SALES_QUANTITY",
+       "THIRD_CATALOG_10451_SALES_QUANTITY",
+       "THIRD_CATALOG_10382_SALES_QUANTITY"
+      ]
+     }
+    },
+    {
+     "id": "xxx",
+     "type": "link-list",
+     "model": {
+      "links": {
+       "elements": [
+        {
+         "link": "/cn/zh/apps/room-ranking",
+         "image": {
+          "url": 31,
+          "width": 1385,
+          "height": 1386
+         },
+         "title": "查看宜家热销榜"
+        }
+       ]
+      },
+      "layout": "list",
+      "variant": "card-center",
+      "listLabel": ""
+     }
+    }
+   ]
+  },
+  "catalog_st006": {
+   "contents": [
+    {
+     "id": "xxx",
+     "type": "product-ranking-list",
+     "model": {
+      "rankingIds": [
+       "FOURTH_CATALOG_47394_SALES_QUANTITY",
+       "FOURTH_CATALOG_47395_SALES_QUANTITY",
+       "FOURTH_CATALOG_47396_SALES_QUANTITY"
+      ]
+     }
+    },
+    {
+     "id": "xxx",
+     "type": "link-list",
+     "model": {
+      "links": {
+       "elements": [
+        {
+         "link": "/cn/zh/apps/room-ranking",
+         "image": {
+          "url": 31,
+          "width": 1385,
+          "height": 1386
+         },
+         "title": "查看宜家热销榜"
+        }
+       ]
+      },
+      "layout": "list",
+      "variant": "card-center",
+      "listLabel": ""
+     }
+    }
+   ]
+  },
+  "catalog_tl001": {
+   "contents": [
+    {
+     "id": "xxx",
+     "type": "product-ranking-list",
+     "model": {
+      "rankingIds": [
+       "THIRD_CATALOG_10651_SALES_QUANTITY",
+       "THIRD_CATALOG_20529_SALES_QUANTITY",
+       "THIRD_CATALOG_20533_SALES_QUANTITY"
+      ]
+     }
+    },
+    {
+     "id": "xxx",
+     "type": "link-list",
+     "model": {
+      "links": {
+       "elements": [
+        {
+         "link": "/cn/zh/apps/room-ranking",
+         "image": {
+          "url": 31,
+          "width": 1385,
+          "height": 1386
+         },
+         "title": "查看宜家热销榜"
+        }
+       ]
+      },
+      "layout": "list",
+      "variant": "card-center",
+      "listLabel": ""
+     }
+    }
+   ]
+  },
+  "catalog_wt001": {
+   "contents": [
+    {
+     "id": "xxx",
+     "type": "product-ranking-list",
+     "model": {
+      "rankingIds": [
+       "THIRD_CATALOG_49157_SALES_QUANTITY",
+       "THIRD_CATALOG_49156_SALES_QUANTITY",
+       "THIRD_CATALOG_14973_SALES_QUANTITY"
+      ]
+     }
+    },
+    {
+     "id": "xxx",
+     "type": "link-list",
+     "model": {
+      "links": {
+       "elements": [
+        {
+         "link": "/cn/zh/apps/room-ranking",
+         "image": {
+          "url": 31,
+          "width": 1385,
+          "height": 1386
+         },
+         "title": "查看宜家热销榜"
+        }
+       ]
+      },
+      "layout": "list",
+      "variant": "card-center",
+      "listLabel": ""
+     }
+    }
+   ]
+  },
+  "catalog_700291": {
+   "contents": [
+    {
+     "id": "xxx",
+     "type": "product-ranking-list",
+     "model": {
+      "rankingIds": [
+       "THIRD_CATALOG_20653_SALES_QUANTITY",
+       "THIRD_CATALOG_20651_SALES_QUANTITY",
+       "THIRD_CATALOG_47067_SALES_QUANTITY"
+      ]
+     }
+    },
+    {
+     "id": "xxx",
+     "type": "link-list",
+     "model": {
+      "links": {
+       "elements": [
+        {
+         "link": "/cn/zh/appsroom-ranking/all/",
+         "image": {
+          "url": 31,
+          "width": 1385,
+          "height": 1386
+         },
+         "title": "查看宜家热销榜"
+        }
+       ]
+      },
+      "layout": "list",
+      "variant": "card-center",
+      "listLabel": ""
+     }
+    }
+   ]
+  }
+ }
+}

@@ -228,3 +228,55 @@ export function HamburgerIcon(props: IconProps) {
     </svg>
   );
 }
+
+export function HomeIcon(props: IconProps) {
+  return (
+    <svg {...baseProps(props)}>
+      <path
+        fillRule="evenodd"
+        d="M12 3.5 2.5 11.6l1.24 1.57L5 11.9V20h5v-5h4v5h5v-8.1l1.26 1.27L21.5 11.6 12 3.5zM7 18v-7.7l5-3.9 5 3.9V18h-3v-5h-4v5H7z"
+        clipRule="evenodd"
+      ></path>
+    </svg>
+  );
+}
+
+export function CategoryIcon(props: IconProps) {
+  return (
+    <svg {...baseProps(props)}>
+      <path d="M4 4h7v7H4V4zm2 2v3h3V6H6zm7-2h7v7h-7V4zm2 2v3h3V6h-3zM4 13h7v7H4v-7zm2 2v3h3v-3H6zm7-2h7v7h-7v-7zm2 2v3h3v-3h-3z"></path>
+    </svg>
+  );
+}
+
+export function CompassIcon(props: IconProps) {
+  return (
+    <svg {...baseProps(props)}>
+      <path
+        fillRule="evenodd"
+        d="M12 2C6.4771 2 2 6.4771 2 12c0 5.5228 4.4771 10 10 10 5.5228 0 10-4.4772 10-10 0-5.5229-4.4772-10-10-10zM4 12c0-4.4183 3.5817-8 8-8s8 3.5817 8 8-3.5817 8-8 8-8-3.5817-8-8zm12.5-4.5-2.1 5.9-5.9 2.1 2.1-5.9 5.9-2.1zM12 13.2 13.2 12 12 10.8 10.8 12 12 13.2z"
+        clipRule="evenodd"
+      ></path>
+    </svg>
+  );
+}
+
+export function ChevronUpIcon(props: IconProps) {
+  return (
+    <svg {...baseProps(props)}>
+      <path d="M12 8.59 18.41 15l1.41-1.41L12 5.76 4.18 13.59 5.59 15 12 8.59z"></path>
+    </svg>
+  );
+}
+
+export function GlobeIcon(props: IconProps) {
+  return (
+    <svg {...baseProps(props)}>
+      <path
+        fillRule="evenodd"
+        d="M12 2C6.4771 2 2 6.4771 2 12c0 5.5228 4.4771 10 10 10 5.5228 0 10-4.4772 10-10 0-5.5229-4.4772-10-10-10zM4 12c0 1.1022.1416 2.1691.4073 3.1849A7.9946 7.9946 0 0 1 6.2737 9.03 7.9977 7.9977 0 0 1 11.7 4.0552 8.0018 8.0018 0 0 1 20 12h-2c-1.2 0-2 .8-2 2v2.5h-1.25V20c-2.85 0-5.35-1.45-6.87-3.66L7.5 17.5c.2667-.5117.5-1.0184.7-1.52l-1.1-1.1c-.3205.6838-.5443 1.3909-.67 2.11A8.0637 8.0637 0 0 1 4 12zm6 0 2-4 2 4-2 4-2-4z"
+        clipRule="evenodd"
+      ></path>
+    </svg>
+  );
+}

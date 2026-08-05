@@ -29,18 +29,19 @@ const STYLE_PROPS = [
   'borderCollapse', 'listStyle',
 ];
 
+const WALK_SCRIPT = `
+const STYLE_PROPS = ${JSON.stringify(STYLE_PROPS)};
 function extractStyles(element) {
   const cs = getComputedStyle(element);
   const styles = {};
   for (const p of STYLE_PROPS) {
     const v = cs[p];
-    if (v && v !== 'none' && v !== 'normal' && v !== 'auto' && v !== '0px' && v !== 'rgba(0, 0, 0, 0)' && v !== '0s ease 0s' && !(p === 'fontFamily' && v === 'none')) {
+    if (v && v !== 'none' && v !== 'normal' && v !== 'auto' && v !== '0px' && v !== 'rgba(0, 0, 0, 0)' && v !== '0s ease 0s') {
       styles[p] = v;
     }
   }
   return styles;
 }
-
 function walk(element, depth) {
   if (!element || depth > 6) return null;
   const children = [...element.children];
@@ -48,7 +49,7 @@ function walk(element, depth) {
   return {
     tag: element.tagName.toLowerCase(),
     id: element.id || undefined,
-    classes: (element.className?.toString() || '').split(/\s+/).filter(Boolean).slice(0, 8).join(' ') || undefined,
+    classes: (element.className?.toString() || '').split(/\\s+/).filter(Boolean).slice(0, 8).join(' ') || undefined,
     attrs: (() => {
       const out = {};
       for (const a of element.attributes || []) {
@@ -71,6 +72,7 @@ function walk(element, depth) {
     children: children.slice(0, 24).map((c) => walk(c, depth + 1)).filter(Boolean),
   };
 }
+`;
 
 async function openPage(browser, viewport, mobile) {
   const ctx = await browser.newContext({
@@ -136,10 +138,54 @@ async function main() {
       const box = await locator.boundingBox();
       if (!box) throw new Error(`No bounding box for ${selector}`);
       await page.screenshot({ path: `${outBase}-${name}.png`, clip: { x: box.x, y: box.y, width: box.width, height: box.height } });
-      const data = await locator.evaluate((el) => JSON.stringify(walk(el, 0)));
+      const data = await locator.evaluate(
+        (el, code) => {
+          eval(code);
+          return JSON.stringify(walk(el, 0));
+        },
+        WALK_SCRIPT
+      );
       fs.mkdirSync(path.dirname(`${outBase}-${name}.json`), { recursive: true });
       fs.writeFileSync(`${outBase}-${name}.json`, JSON.stringify(JSON.parse(data), null, 2));
       console.log(`SAVED ${outBase}-${name}.png (+json) box=${JSON.stringify(box)}`);
+      await ctx.close();
+    } else if (cmd === 'multi') {
+      // args: multi <url> <outDir> <mobile|desktop> <json-file-with-selector-list>
+      const outDir = arg2;
+      const mobile = arg3 === 'mobile';
+      const listPath = arg4;
+      const items = JSON.parse(fs.readFileSync(listPath, 'utf8'));
+      const { ctx, page } = await openPage(browser, mobile ? devices['iPhone 13'].viewport : { width: 1440, height: 900 }, mobile);
+      await page.goto(url, { waitUntil: 'networkidle', timeout: 60000 });
+      await page.waitForTimeout(3000);
+      await dismissOverlays(page);
+      await page.waitForTimeout(800);
+      fs.mkdirSync(outDir, { recursive: true });
+      for (const item of items) {
+        try {
+          const locator = page.locator(item.selector).nth(item.nth ?? 0);
+          await locator.scrollIntoViewIfNeeded({ timeout: 15000 });
+          await page.waitForTimeout(600);
+          const box = await locator.boundingBox();
+          if (!box) {
+            console.log(`SKIP ${item.name}: no box for ${item.selector}`);
+            continue;
+          }
+          const safe = `${outDir}/${item.name}-${mobile ? 'mobile' : 'desktop'}`;
+          await page.screenshot({ path: `${safe}.png`, clip: { x: Math.max(0, box.x), y: Math.max(0, box.y), width: box.width, height: box.height } });
+          const data = await locator.evaluate(
+            (el, code) => {
+              eval(code);
+              return JSON.stringify(walk(el, 0));
+            },
+            WALK_SCRIPT
+          );
+          fs.writeFileSync(`${safe}.json`, JSON.stringify(JSON.parse(data), null, 2));
+          console.log(`SAVED ${safe}.png (+json) box=${JSON.stringify(box)}`);
+        } catch (e) {
+          console.log(`FAIL ${item.name}: ${e.message}`);
+        }
+      }
       await ctx.close();
     } else {
       console.error(`Unknown command ${cmd}`);

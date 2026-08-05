@@ -13,6 +13,7 @@ export interface HeroSlide {
   id: string;
   image: string;
   imageAlt?: string;
+  alt?: string;
   title?: string;
   subtitle?: string;
   cta?: { label: string; href: string };
@@ -26,6 +27,10 @@ export interface PromoTile {
   ctaLabel?: string;
   ctaHref?: string;
   badge?: string;
+  image?: string;
+  backgroundColor?: string;
+  textColor?: string;
+  href?: string;
 }
 
 export interface ServiceColumnCard {
@@ -36,11 +41,26 @@ export interface ServiceColumnCard {
   backgroundImage?: string;
 }
 
+export interface FeedProduct {
+  productId?: string;
+  left: string;
+  top: string;
+  href?: string;
+  tooltipPosition?: string;
+  title?: string;
+  desc?: string;
+  price?: string;
+  tags: string[];
+  tagStyle?: string;
+  image?: string;
+}
+
 export interface RankingProduct {
   name: string;
   price: string;
   originalPrice?: string;
   image: string;
+  icon?: string;
   badge?: string;
   href?: string;
 }
@@ -48,6 +68,7 @@ export interface RankingProduct {
 export interface RankingCategory {
   id: string;
   name: string;
+  backgroundColor?: string;
   products: RankingProduct[];
 }
 

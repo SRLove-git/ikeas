@@ -1,0 +1,4734 @@
+{
+ "static": {
+  "tag": "div",
+  "classes": "nav-header",
+  "childCount": 2,
+  "children": [
+   {
+    "tag": "div",
+    "classes": "nav-header_container",
+    "childCount": 1,
+    "children": [
+     {
+      "tag": "div",
+      "classes": "move-hover",
+      "childCount": 1,
+      "children": [
+       {
+        "tag": "div",
+        "classes": "header_container_top",
+        "childCount": 2,
+        "children": [
+         {
+          "tag": "div",
+          "classes": "header_container_top_content",
+          "childCount": 1,
+          "children": [
+           {
+            "tag": "div",
+            "classes": "header_container_top_content__inner",
+            "childCount": 3,
+            "children": [
+             {
+              "tag": "div",
+              "classes": "header_container_left",
+              "childCount": 1,
+              "children": [
+               {
+                "tag": "div",
+                "classes": "header_container_center",
+                "childCount": 1,
+                "children": [
+                 {
+                  "tag": "div",
+                  "classes": "header_container_center_Logo",
+                  "childCount": 1,
+                  "children": [
+                   {
+                    "tag": "img",
+                    "classes": "disable-event",
+                    "src": "https://static.web.ikea.cn/static/images/headerImages/logo.svg",
+                    "alt": "",
+                    "style": {
+                     "fontSize": "14px",
+                     "fontWeight": "400",
+                     "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                     "lineHeight": "21px",
+                     "color": "rgb(17, 17, 17)",
+                     "width": "100px",
+                     "height": "40px",
+                     "maxWidth": "100%",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "borderColor": "rgb(229, 231, 235)",
+                     "borderTopColor": "rgb(229, 231, 235)",
+                     "borderBottomColor": "rgb(229, 231, 235)",
+                     "overflow": "clip",
+                     "overflowX": "clip",
+                     "overflowY": "clip",
+                     "position": "static",
+                     "opacity": "1",
+                     "transition": "all",
+                     "cursor": "pointer",
+                     "objectFit": "cover",
+                     "objectPosition": "50% 50%",
+                     "textOverflow": "clip",
+                     "flex": "0 1 auto",
+                     "order": "0",
+                     "verticalAlign": "middle"
+                    },
+                    "childCount": 0,
+                    "children": []
+                   }
+                  ]
+                 }
+                ]
+               }
+              ]
+             },
+             {
+              "tag": "div",
+              "classes": "search-bar-container",
+              "childCount": 1,
+              "children": [
+               {
+                "tag": "div",
+                "classes": "search-input",
+                "childCount": 1,
+                "children": [
+                 {
+                  "tag": "div",
+                  "classes": "s-header",
+                  "childCount": 3,
+                  "children": [
+                   {
+                    "tag": "input",
+                    "classes": "s-input",
+                    "style": {
+                     "fontSize": "13px",
+                     "fontWeight": "700",
+                     "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                     "lineHeight": "21px",
+                     "color": "rgb(17, 17, 17)",
+                     "backgroundColor": "rgb(245, 245, 245)",
+                     "paddingRight": "5px",
+                     "paddingLeft": "52px",
+                     "width": "773.797px",
+                     "height": "40px",
+                     "display": "inline-block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "borderRadius": "24px",
+                     "borderWidth": "1px",
+                     "borderStyle": "solid",
+                     "borderColor": "rgb(245, 245, 245)",
+                     "borderTopColor": "rgb(245, 245, 245)",
+                     "borderBottomColor": "rgb(245, 245, 245)",
+                     "overflow": "clip",
+                     "overflowX": "clip",
+                     "overflowY": "clip",
+                     "position": "static",
+                     "opacity": "1",
+                     "transition": "all",
+                     "cursor": "text",
+                     "objectFit": "fill",
+                     "objectPosition": "50% 50%",
+                     "textOverflow": "ellipsis",
+                     "flex": "0 1 auto",
+                     "order": "0",
+                     "verticalAlign": "baseline"
+                    },
+                    "childCount": 0,
+                    "children": []
+                   },
+                   {
+                    "tag": "svg",
+                    "childCount": 1,
+                    "children": [
+                     {
+                      "tag": "path",
+                      "style": {
+                       "fontSize": "14px",
+                       "fontWeight": "400",
+                       "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                       "lineHeight": "21px",
+                       "color": "rgb(17, 17, 17)",
+                       "display": "block",
+                       "flexDirection": "row",
+                       "flexWrap": "nowrap",
+                       "borderStyle": "solid",
+                       "borderColor": "rgb(229, 231, 235)",
+                       "borderTopColor": "rgb(229, 231, 235)",
+                       "borderBottomColor": "rgb(229, 231, 235)",
+                       "position": "static",
+                       "opacity": "1",
+                       "transition": "all",
+                       "objectFit": "fill",
+                       "objectPosition": "50% 50%",
+                       "textOverflow": "clip",
+                       "flex": "0 1 auto",
+                       "order": "0",
+                       "verticalAlign": "baseline"
+                      },
+                      "childCount": 0,
+                      "children": []
+                     }
+                    ]
+                   },
+                   {
+                    "tag": "div",
+                    "classes": "s-header-notice",
+                    "childCount": 1,
+                    "children": [
+                     {
+                      "tag": "div",
+                      "classes": "i-notice",
+                      "childCount": 1,
+                      "children": []
+                     }
+                    ]
+                   }
+                  ]
+                 }
+                ]
+               }
+              ]
+             },
+             {
+              "tag": "div",
+              "classes": "header_container_right",
+              "childCount": 1,
+              "children": [
+               {
+                "tag": "div",
+                "classes": "header_container_right_img",
+                "childCount": 4,
+                "children": [
+                 {
+                  "tag": "span",
+                  "classes": "i-tooltip i-tooltip--bottom",
+                  "childCount": 1,
+                  "children": [
+                   {
+                    "tag": "span",
+                    "classes": "i-tooltip__custom-trigger-wrapper",
+                    "childCount": 2,
+                    "children": [
+                     {
+                      "tag": "div",
+                      "childCount": 1,
+                      "children": []
+                     },
+                     {
+                      "tag": "div",
+                      "classes": "i-tooltip__body",
+                      "childCount": 1,
+                      "children": []
+                     }
+                    ]
+                   }
+                  ]
+                 },
+                 {
+                  "tag": "span",
+                  "classes": "i-tooltip i-tooltip--bottom",
+                  "childCount": 1,
+                  "children": [
+                   {
+                    "tag": "span",
+                    "classes": "i-tooltip__custom-trigger-wrapper",
+                    "childCount": 2,
+                    "children": [
+                     {
+                      "tag": "div",
+                      "childCount": 1,
+                      "children": []
+                     },
+                     {
+                      "tag": "div",
+                      "classes": "i-tooltip__body",
+                      "childCount": 1,
+                      "children": []
+                     }
+                    ]
+                   }
+                  ]
+                 },
+                 {
+                  "tag": "span",
+                  "classes": "i-tooltip i-tooltip--bottom",
+                  "childCount": 1,
+                  "children": [
+                   {
+                    "tag": "span",
+                    "classes": "i-tooltip__custom-trigger-wrapper",
+                    "childCount": 2,
+                    "children": [
+                     {
+                      "tag": "div",
+                      "childCount": 1,
+                      "children": []
+                     },
+                     {
+                      "tag": "div",
+                      "classes": "i-tooltip__body",
+                      "childCount": 1,
+                      "children": []
+                     }
+                    ]
+                   }
+                  ]
+                 },
+                 {
+                  "tag": "span",
+                  "classes": "i-tooltip i-tooltip--bottom",
+                  "childCount": 1,
+                  "children": [
+                   {
+                    "tag": "span",
+                    "classes": "i-tooltip__custom-trigger-wrapper",
+                    "childCount": 2,
+                    "children": [
+                     {
+                      "tag": "div",
+                      "childCount": 1,
+                      "children": []
+                     },
+                     {
+                      "tag": "div",
+                      "classes": "i-tooltip__body",
+                      "childCount": 1,
+                      "children": []
+                     }
+                    ]
+                   }
+                  ]
+                 }
+                ]
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "tag": "div",
+          "classes": "header_container_menu_content",
+          "childCount": 1,
+          "children": [
+           {
+            "tag": "ul",
+            "classes": "header_container_center_ul",
+            "style": {
+             "fontSize": "14px",
+             "fontWeight": "400",
+             "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+             "lineHeight": "21px",
+             "color": "rgb(17, 17, 17)",
+             "marginLeft": "10px",
+             "width": "672.312px",
+             "height": "24px",
+             "display": "flex",
+             "flexDirection": "row",
+             "justifyContent": "center",
+             "alignItems": "center",
+             "flexWrap": "nowrap",
+             "borderStyle": "solid",
+             "borderColor": "rgb(229, 231, 235)",
+             "borderTopColor": "rgb(229, 231, 235)",
+             "borderBottomColor": "rgb(229, 231, 235)",
+             "position": "static",
+             "opacity": "1",
+             "transition": "all",
+             "objectFit": "fill",
+             "objectPosition": "50% 50%",
+             "textOverflow": "clip",
+             "flex": "0 1 auto",
+             "order": "0",
+             "verticalAlign": "middle"
+            },
+            "childCount": 9,
+            "children": [
+             {
+              "tag": "span",
+              "classes": "active-bar",
+              "style": {
+               "fontSize": "14px",
+               "fontWeight": "400",
+               "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+               "lineHeight": "21px",
+               "color": "rgb(17, 17, 17)",
+               "backgroundColor": "rgb(0, 88, 163)",
+               "height": "3px",
+               "display": "block",
+               "flexDirection": "row",
+               "flexWrap": "nowrap",
+               "borderStyle": "solid",
+               "borderColor": "rgb(229, 231, 235)",
+               "borderTopColor": "rgb(229, 231, 235)",
+               "borderBottomColor": "rgb(229, 231, 235)",
+               "position": "absolute",
+               "top": "130.5px",
+               "right": "1440px",
+               "zIndex": "2",
+               "opacity": "0",
+               "transform": "matrix(1, 0, 0, 1, 0, 0)",
+               "transition": "width 0.55s, transform 0.55s, opacity 0.35s",
+               "objectFit": "fill",
+               "objectPosition": "50% 50%",
+               "textOverflow": "clip",
+               "flex": "0 1 auto",
+               "order": "0",
+               "verticalAlign": "baseline"
+              },
+              "childCount": 0,
+              "children": []
+             },
+             {
+              "tag": "li",
+              "childCount": 1,
+              "children": [
+               {
+                "tag": "span",
+                "childCount": 1,
+                "children": [
+                 {
+                  "tag": "span",
+                  "classes": "new_feature_mark",
+                  "style": {
+                   "fontSize": "14px",
+                   "fontWeight": "700",
+                   "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                   "lineHeight": "24px",
+                   "color": "rgb(17, 17, 17)",
+                   "textTransform": "capitalize",
+                   "marginLeft": "-7px",
+                   "display": "inline",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "borderStyle": "solid",
+                   "borderColor": "rgb(229, 231, 235)",
+                   "borderTopColor": "rgb(229, 231, 235)",
+                   "borderBottomColor": "rgb(229, 231, 235)",
+                   "position": "relative",
+                   "opacity": "1",
+                   "transition": "all",
+                   "cursor": "pointer",
+                   "objectFit": "fill",
+                   "objectPosition": "50% 50%",
+                   "whiteSpace": "nowrap",
+                   "textOverflow": "clip",
+                   "flex": "0 1 auto",
+                   "order": "0",
+                   "verticalAlign": "baseline"
+                  },
+                  "childCount": 0,
+                  "children": []
+                 }
+                ]
+               }
+              ]
+             },
+             {
+              "tag": "li",
+              "childCount": 1,
+              "children": [
+               {
+                "tag": "span",
+                "text": "房间",
+                "style": {
+                 "fontSize": "14px",
+                 "fontWeight": "700",
+                 "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                 "lineHeight": "24px",
+                 "color": "rgb(17, 17, 17)",
+                 "textTransform": "capitalize",
+                 "marginLeft": "-7px",
+                 "display": "inline",
+                 "flexDirection": "row",
+                 "flexWrap": "nowrap",
+                 "borderStyle": "solid",
+                 "borderColor": "rgb(229, 231, 235)",
+                 "borderTopColor": "rgb(229, 231, 235)",
+                 "borderBottomColor": "rgb(229, 231, 235)",
+                 "position": "relative",
+                 "opacity": "1",
+                 "transition": "all",
+                 "cursor": "pointer",
+                 "objectFit": "fill",
+                 "objectPosition": "50% 50%",
+                 "whiteSpace": "nowrap",
+                 "textOverflow": "clip",
+                 "flex": "0 1 auto",
+                 "order": "0",
+                 "verticalAlign": "baseline"
+                },
+                "childCount": 0,
+                "children": []
+               }
+              ]
+             },
+             {
+              "tag": "li",
+              "childCount": 1,
+              "children": [
+               {
+                "tag": "span",
+                "text": "活动和特惠",
+                "style": {
+                 "fontSize": "14px",
+                 "fontWeight": "700",
+                 "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                 "lineHeight": "24px",
+                 "color": "rgb(17, 17, 17)",
+                 "textTransform": "capitalize",
+                 "marginLeft": "-7px",
+                 "display": "inline",
+                 "flexDirection": "row",
+                 "flexWrap": "nowrap",
+                 "borderStyle": "solid",
+                 "borderColor": "rgb(229, 231, 235)",
+                 "borderTopColor": "rgb(229, 231, 235)",
+                 "borderBottomColor": "rgb(229, 231, 235)",
+                 "position": "relative",
+                 "opacity": "1",
+                 "transition": "all",
+                 "cursor": "pointer",
+                 "objectFit": "fill",
+                 "objectPosition": "50% 50%",
+                 "whiteSpace": "nowrap",
+                 "textOverflow": "clip",
+                 "flex": "0 1 auto",
+                 "order": "0",
+                 "verticalAlign": "baseline"
+                },
+                "childCount": 0,
+                "children": []
+               }
+              ]
+             },
+             {
+              "tag": "li",
+              "childCount": 1,
+              "children": [
+               {
+                "tag": "span",
+                "text": "设计和服务",
+                "style": {
+                 "fontSize": "14px",
+                 "fontWeight": "700",
+                 "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                 "lineHeight": "24px",
+                 "color": "rgb(17, 17, 17)",
+                 "textTransform": "capitalize",
+                 "marginLeft": "-7px",
+                 "display": "inline",
+                 "flexDirection": "row",
+                 "flexWrap": "nowrap",
+                 "borderStyle": "solid",
+                 "borderColor": "rgb(229, 231, 235)",
+                 "borderTopColor": "rgb(229, 231, 235)",
+                 "borderBottomColor": "rgb(229, 231, 235)",
+                 "position": "relative",
+                 "opacity": "1",
+                 "transition": "all",
+                 "cursor": "pointer",
+                 "objectFit": "fill",
+                 "objectPosition": "50% 50%",
+                 "whiteSpace": "nowrap",
+                 "textOverflow": "clip",
+                 "flex": "0 1 auto",
+                 "order": "0",
+                 "verticalAlign": "baseline"
+                },
+                "childCount": 0,
+                "children": []
+               }
+              ]
+             },
+             {
+              "tag": "li",
+              "childCount": 1,
+              "children": [
+               {
+                "tag": "span",
+                "text": "家居灵感",
+                "style": {
+                 "fontSize": "14px",
+                 "fontWeight": "700",
+                 "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                 "lineHeight": "24px",
+                 "color": "rgb(17, 17, 17)",
+                 "textTransform": "capitalize",
+                 "marginLeft": "-7px",
+                 "display": "inline",
+                 "flexDirection": "row",
+                 "flexWrap": "nowrap",
+                 "borderStyle": "solid",
+                 "borderColor": "rgb(229, 231, 235)",
+                 "borderTopColor": "rgb(229, 231, 235)",
+                 "borderBottomColor": "rgb(229, 231, 235)",
+                 "position": "relative",
+                 "opacity": "1",
+                 "transition": "all",
+                 "cursor": "pointer",
+                 "objectFit": "fill",
+                 "objectPosition": "50% 50%",
+                 "whiteSpace": "nowrap",
+                 "textOverflow": "clip",
+                 "flex": "0 1 auto",
+                 "order": "0",
+                 "verticalAlign": "baseline"
+                },
+                "childCount": 0,
+                "children": []
+               }
+              ]
+             },
+             {
+              "tag": "li",
+              "childCount": 1,
+              "children": [
+               {
+                "tag": "span",
+                "text": "新品",
+                "style": {
+                 "fontSize": "14px",
+                 "fontWeight": "700",
+                 "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                 "lineHeight": "24px",
+                 "color": "rgb(17, 17, 17)",
+                 "textTransform": "capitalize",
+                 "marginLeft": "-7px",
+                 "display": "inline",
+                 "flexDirection": "row",
+                 "flexWrap": "nowrap",
+                 "borderStyle": "solid",
+                 "borderColor": "rgb(229, 231, 235)",
+                 "borderTopColor": "rgb(229, 231, 235)",
+                 "borderBottomColor": "rgb(229, 231, 235)",
+                 "position": "relative",
+                 "opacity": "1",
+                 "transition": "all",
+                 "cursor": "pointer",
+                 "objectFit": "fill",
+                 "objectPosition": "50% 50%",
+                 "whiteSpace": "nowrap",
+                 "textOverflow": "clip",
+                 "flex": "0 1 auto",
+                 "order": "0",
+                 "verticalAlign": "baseline"
+                },
+                "childCount": 0,
+                "children": []
+               }
+              ]
+             },
+             {
+              "tag": "li",
+              "childCount": 1,
+              "children": [
+               {
+                "tag": "span",
+                "text": "对公业务",
+                "style": {
+                 "fontSize": "14px",
+                 "fontWeight": "700",
+                 "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                 "lineHeight": "24px",
+                 "color": "rgb(17, 17, 17)",
+                 "textTransform": "capitalize",
+                 "marginLeft": "-7px",
+                 "display": "inline",
+                 "flexDirection": "row",
+                 "flexWrap": "nowrap",
+                 "borderStyle": "solid",
+                 "borderColor": "rgb(229, 231, 235)",
+                 "borderTopColor": "rgb(229, 231, 235)",
+                 "borderBottomColor": "rgb(229, 231, 235)",
+                 "position": "relative",
+                 "opacity": "1",
+                 "transition": "all",
+                 "cursor": "pointer",
+                 "objectFit": "fill",
+                 "objectPosition": "50% 50%",
+                 "whiteSpace": "nowrap",
+                 "textOverflow": "clip",
+                 "flex": "0 1 auto",
+                 "order": "0",
+                 "verticalAlign": "baseline"
+                },
+                "childCount": 0,
+                "children": []
+               }
+              ]
+             },
+             {
+              "tag": "li",
+              "childCount": 1,
+              "children": [
+               {
+                "tag": "div",
+                "classes": "nav-header-message-app-promotion",
+                "childCount": 1,
+                "children": [
+                 {
+                  "tag": "div",
+                  "classes": "basic-content",
+                  "childCount": 2,
+                  "children": [
+                   {
+                    "tag": "div",
+                    "classes": "basic-title",
+                    "childCount": 1,
+                    "children": [
+                     {
+                      "tag": "span",
+                      "text": "下载APP",
+                      "style": {
+                       "fontSize": "13px",
+                       "fontWeight": "700",
+                       "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                       "lineHeight": "20px",
+                       "color": "rgb(17, 17, 17)",
+                       "textTransform": "capitalize",
+                       "marginLeft": "-7px",
+                       "width": "51.3125px",
+                       "height": "20px",
+                       "display": "block",
+                       "flexDirection": "row",
+                       "flexWrap": "nowrap",
+                       "borderStyle": "solid",
+                       "borderColor": "rgb(229, 231, 235)",
+                       "borderTopColor": "rgb(229, 231, 235)",
+                       "borderBottomColor": "rgb(229, 231, 235)",
+                       "position": "relative",
+                       "opacity": "1",
+                       "transition": "all",
+                       "cursor": "pointer",
+                       "objectFit": "fill",
+                       "objectPosition": "50% 50%",
+                       "whiteSpace": "nowrap",
+                       "textOverflow": "clip",
+                       "flex": "0 1 auto",
+                       "order": "0",
+                       "verticalAlign": "baseline"
+                      },
+                      "childCount": 0,
+                      "children": []
+                     }
+                    ]
+                   },
+                   {
+                    "tag": "div",
+                    "classes": "detail-info-container",
+                    "childCount": 1,
+                    "children": [
+                     {
+                      "tag": "div",
+                      "classes": "detail-info",
+                      "childCount": 3,
+                      "children": []
+                     }
+                    ]
+                   }
+                  ]
+                 }
+                ]
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tag": "div",
+    "classes": "nav-header-mask",
+    "style": {
+     "fontSize": "14px",
+     "fontWeight": "400",
+     "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+     "lineHeight": "21px",
+     "color": "rgb(17, 17, 17)",
+     "backgroundColor": "rgba(17, 17, 17, 0.4)",
+     "width": "100%",
+     "height": "900px",
+     "flexDirection": "row",
+     "flexWrap": "nowrap",
+     "borderStyle": "solid",
+     "borderColor": "rgb(229, 231, 235)",
+     "borderTopColor": "rgb(229, 231, 235)",
+     "borderBottomColor": "rgb(229, 231, 235)",
+     "overflow": "hidden",
+     "overflowX": "hidden",
+     "overflowY": "hidden",
+     "position": "fixed",
+     "zIndex": "1001",
+     "opacity": "1",
+     "transition": "all",
+     "objectFit": "fill",
+     "objectPosition": "50% 50%",
+     "textOverflow": "clip",
+     "flex": "0 1 auto",
+     "order": "0",
+     "verticalAlign": "baseline"
+    },
+    "childCount": 0,
+    "children": []
+   }
+  ]
+ },
+ "hoverMenu": {
+  "panel": {
+   "tag": "div",
+   "classes": "header_container_bottom",
+   "childCount": 1,
+   "children": [
+    {
+     "tag": "div",
+     "classes": "header_container_bottom_content",
+     "childCount": 1,
+     "children": [
+      {
+       "tag": "div",
+       "classes": "nav-header-card-container",
+       "style": {
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+        "lineHeight": "21px",
+        "color": "rgb(17, 17, 17)",
+        "paddingRight": "80px",
+        "paddingLeft": "80px",
+        "width": "1440px",
+        "height": "720px",
+        "maxWidth": "1440px",
+        "minWidth": "1000px",
+        "display": "block",
+        "flexDirection": "row",
+        "flexWrap": "nowrap",
+        "borderStyle": "solid",
+        "borderColor": "rgb(229, 231, 235)",
+        "borderTopColor": "rgb(229, 231, 235)",
+        "borderBottomColor": "rgb(229, 231, 235)",
+        "position": "static",
+        "opacity": "1",
+        "transition": "all",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%",
+        "textOverflow": "clip",
+        "flex": "0 1 auto",
+        "order": "0",
+        "verticalAlign": "baseline"
+       },
+       "childCount": 7,
+       "children": [
+        {
+         "tag": "div",
+         "classes": "nav-header-category",
+         "childCount": 1,
+         "children": [
+          {
+           "tag": "div",
+           "classes": "nav-header-category-box",
+           "childCount": 2,
+           "children": [
+            {
+             "tag": "div",
+             "classes": "main-list",
+             "childCount": 1,
+             "children": [
+              {
+               "tag": "ul",
+               "classes": "category-list",
+               "style": {
+                "fontSize": "14px",
+                "fontWeight": "400",
+                "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                "lineHeight": "21px",
+                "color": "rgb(17, 17, 17)",
+                "paddingRight": "20px",
+                "marginRight": "-20px",
+                "width": "179px",
+                "height": "699px",
+                "display": "block",
+                "flexDirection": "row",
+                "flexWrap": "nowrap",
+                "borderStyle": "solid",
+                "borderColor": "rgb(229, 231, 235)",
+                "borderTopColor": "rgb(229, 231, 235)",
+                "borderBottomColor": "rgb(229, 231, 235)",
+                "position": "static",
+                "opacity": "1",
+                "transition": "all",
+                "objectFit": "fill",
+                "objectPosition": "50% 50%",
+                "textOverflow": "clip",
+                "flex": "0 1 auto",
+                "order": "0",
+                "verticalAlign": "baseline"
+               },
+               "childCount": 23,
+               "children": [
+                {
+                 "tag": "li",
+                 "childCount": 1,
+                 "children": [
+                  {
+                   "tag": "a",
+                   "classes": "active name",
+                   "text": "沙发和扶手椅",
+                   "href": null,
+                   "style": {
+                    "fontSize": "14px",
+                    "fontWeight": "700",
+                    "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                    "lineHeight": "21px",
+                    "color": "rgb(0, 88, 163)",
+                    "width": "84px",
+                    "height": "21px",
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "borderStyle": "solid",
+                    "borderColor": "rgb(229, 231, 235)",
+                    "borderTopColor": "rgb(229, 231, 235)",
+                    "borderBottomColor": "rgb(229, 231, 235)",
+                    "position": "relative",
+                    "opacity": "1",
+                    "transition": "all",
+                    "cursor": "pointer",
+                    "objectFit": "fill",
+                    "objectPosition": "50% 50%",
+                    "textOverflow": "clip",
+                    "flex": "0 1 auto",
+                    "order": "0",
+                    "verticalAlign": "baseline"
+                   },
+                   "childCount": 0,
+                   "children": []
+                  }
+                 ]
+                },
+                {
+                 "tag": "li",
+                 "childCount": 1,
+                 "children": [
+                  {
+                   "tag": "a",
+                   "classes": "name",
+                   "text": "桌子和椅子",
+                   "href": null,
+                   "style": {
+                    "fontSize": "14px",
+                    "fontWeight": "700",
+                    "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                    "lineHeight": "21px",
+                    "color": "rgb(17, 17, 17)",
+                    "width": "70px",
+                    "height": "21px",
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "borderStyle": "solid",
+                    "borderColor": "rgb(229, 231, 235)",
+                    "borderTopColor": "rgb(229, 231, 235)",
+                    "borderBottomColor": "rgb(229, 231, 235)",
+                    "position": "relative",
+                    "opacity": "1",
+                    "transition": "all",
+                    "cursor": "pointer",
+                    "objectFit": "fill",
+                    "objectPosition": "50% 50%",
+                    "textOverflow": "clip",
+                    "flex": "0 1 auto",
+                    "order": "0",
+                    "verticalAlign": "baseline"
+                   },
+                   "childCount": 0,
+                   "children": []
+                  }
+                 ]
+                },
+                {
+                 "tag": "li",
+                 "childCount": 1,
+                 "children": [
+                  {
+                   "tag": "a",
+                   "classes": "name",
+                   "text": "书桌和书桌椅",
+                   "href": null,
+                   "style": {
+                    "fontSize": "14px",
+                    "fontWeight": "700",
+                    "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                    "lineHeight": "21px",
+                    "color": "rgb(17, 17, 17)",
+                    "width": "84px",
+                    "height": "21px",
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "borderStyle": "solid",
+                    "borderColor": "rgb(229, 231, 235)",
+                    "borderTopColor": "rgb(229, 231, 235)",
+                    "borderBottomColor": "rgb(229, 231, 235)",
+                    "position": "relative",
+                    "opacity": "1",
+                    "transition": "all",
+                    "cursor": "pointer",
+                    "objectFit": "fill",
+                    "objectPosition": "50% 50%",
+                    "textOverflow": "clip",
+                    "flex": "0 1 auto",
+                    "order": "0",
+                    "verticalAlign": "baseline"
+                   },
+                   "childCount": 0,
+                   "children": []
+                  }
+                 ]
+                },
+                {
+                 "tag": "li",
+                 "childCount": 1,
+                 "children": [
+                  {
+                   "tag": "a",
+                   "classes": "name",
+                   "text": "储物家具",
+                   "href": null,
+                   "style": {
+                    "fontSize": "14px",
+                    "fontWeight": "700",
+                    "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                    "lineHeight": "21px",
+                    "color": "rgb(17, 17, 17)",
+                    "width": "56px",
+                    "height": "21px",
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "borderStyle": "solid",
+                    "borderColor": "rgb(229, 231, 235)",
+                    "borderTopColor": "rgb(229, 231, 235)",
+                    "borderBottomColor": "rgb(229, 231, 235)",
+                    "position": "relative",
+                    "opacity": "1",
+                    "transition": "all",
+                    "cursor": "pointer",
+                    "objectFit": "fill",
+                    "objectPosition": "50% 50%",
+                    "textOverflow": "clip",
+                    "flex": "0 1 auto",
+                    "order": "0",
+                    "verticalAlign": "baseline"
+                   },
+                   "childCount": 0,
+                   "children": []
+                  }
+                 ]
+                },
+                {
+                 "tag": "li",
+                 "childCount": 1,
+                 "children": [
+                  {
+                   "tag": "a",
+                   "classes": "name",
+                   "text": "储物收纳用品",
+                   "href": null,
+                   "style": {
+                    "fontSize": "14px",
+                    "fontWeight": "700",
+                    "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                    "lineHeight": "21px",
+                    "color": "rgb(17, 17, 17)",
+                    "width": "84px",
+                    "height": "21px",
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "borderStyle": "solid",
+                    "borderColor": "rgb(229, 231, 235)",
+                    "borderTopColor": "rgb(229, 231, 235)",
+                    "borderBottomColor": "rgb(229, 231, 235)",
+                    "position": "relative",
+                    "opacity": "1",
+                    "transition": "all",
+                    "cursor": "pointer",
+                    "objectFit": "fill",
+                    "objectPosition": "50% 50%",
+                    "textOverflow": "clip",
+                    "flex": "0 1 auto",
+                    "order": "0",
+                    "verticalAlign": "baseline"
+                   },
+                   "childCount": 0,
+                   "children": []
+                  }
+                 ]
+                },
+                {
+                 "tag": "li",
+                 "childCount": 1,
+                 "children": [
+                  {
+                   "tag": "a",
+                   "classes": "name",
+                   "text": "床和床垫",
+                   "href": null,
+                   "style": {
+                    "fontSize": "14px",
+                    "fontWeight": "700",
+                    "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                    "lineHeight": "21px",
+                    "color": "rgb(17, 17, 17)",
+                    "width": "56px",
+                    "height": "21px",
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "borderStyle": "solid",
+                    "borderColor": "rgb(229, 231, 235)",
+                    "borderTopColor": "rgb(229, 231, 235)",
+                    "borderBottomColor": "rgb(229, 231, 235)",
+                    "position": "relative",
+                    "opacity": "1",
+                    "transition": "all",
+                    "cursor": "pointer",
+                    "objectFit": "fill",
+                    "objectPosition": "50% 50%",
+                    "textOverflow": "clip",
+                    "flex": "0 1 auto",
+                    "order": "0",
+                    "verticalAlign": "baseline"
+                   },
+                   "childCount": 0,
+                   "children": []
+                  }
+                 ]
+                },
+                {
+                 "tag": "li",
+                 "childCount": 1,
+                 "children": [
+                  {
+                   "tag": "a",
+                   "classes": "name",
+                   "text": "纺织品",
+                   "href": null,
+                   "style": {
+                    "fontSize": "14px",
+                    "fontWeight": "700",
+                    "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                    "lineHeight": "21px",
+                    "color": "rgb(17, 17, 17)",
+                    "width": "42px",
+                    "height": "21px",
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "borderStyle": "solid",
+                    "borderColor": "rgb(229, 231, 235)",
+                    "borderTopColor": "rgb(229, 231, 235)",
+                    "borderBottomColor": "rgb(229, 231, 235)",
+                    "position": "relative",
+                    "opacity": "1",
+                    "transition": "all",
+                    "cursor": "pointer",
+                    "objectFit": "fill",
+                    "objectPosition": "50% 50%",
+                    "textOverflow": "clip",
+                    "flex": "0 1 auto",
+                    "order": "0",
+                    "verticalAlign": "baseline"
+                   },
+                   "childCount": 0,
+                   "children": []
+                  }
+                 ]
+                },
+                {
+                 "tag": "li",
+                 "childCount": 1,
+                 "children": [
+                  {
+                   "tag": "a",
+                   "classes": "name",
+                   "text": "窗帘和卷帘",
+                   "href": null,
+                   "style": {
+                    "fontSize": "14px",
+                    "fontWeight": "700",
+                    "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                    "lineHeight": "21px",
+                    "color": "rgb(17, 17, 17)",
+                    "width": "70px",
+                    "height": "21px",
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "borderStyle": "solid",
+                    "borderColor": "rgb(229, 231, 235)",
+                    "borderTopColor": "rgb(229, 231, 235)",
+                    "borderBottomColor": "rgb(229, 231, 235)",
+                    "position": "relative",
+                    "opacity": "1",
+                    "transition": "all",
+                    "cursor": "pointer",
+                    "objectFit": "fill",
+                    "objectPosition": "50% 50%",
+                    "textOverflow": "clip",
+                    "flex": "0 1 auto",
+                    "order": "0",
+                    "verticalAlign": "baseline"
+                   },
+                   "childCount": 0,
+                   "children": []
+                  }
+                 ]
+                },
+                {
+                 "tag": "li",
+                 "childCount": 1,
+                 "children": [
+                  {
+                   "tag": "a",
+                   "classes": "name",
+                   "text": "婴儿和儿童",
+                   "href": null,
+                   "style": {
+                    "fontSize": "14px",
+                    "fontWeight": "700",
+                    "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                    "lineHeight": "21px",
+                    "color": "rgb(17, 17, 17)",
+                    "width": "70px",
+                    "height": "21px",
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "borderStyle": "solid",
+                    "borderColor": "rgb(229, 231, 235)",
+                    "borderTopColor": "rgb(229, 231, 235)",
+                    "borderBottomColor": "rgb(229, 231, 235)",
+                    "position": "relative",
+                    "opacity": "1",
+                    "transition": "all",
+                    "cursor": "pointer",
+                    "objectFit": "fill",
+                    "objectPosition": "50% 50%",
+                    "textOverflow": "clip",
+                    "flex": "0 1 auto",
+                    "order": "0",
+                    "verticalAlign": "baseline"
+                   },
+                   "childCount": 0,
+                   "children": []
+                  }
+                 ]
+                },
+                {
+                 "tag": "li",
+                 "childCount": 1,
+                 "children": [
+                  {
+                   "tag": "a",
+                   "classes": "name",
+                   "text": "餐具和厨具",
+                   "href": null,
+                   "style": {
+                    "fontSize": "14px",
+                    "fontWeight": "700",
+                    "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                    "lineHeight": "21px",
+                    "color": "rgb(17, 17, 17)",
+                    "width": "70px",
+                    "height": "21px",
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "borderStyle": "solid",
+                    "borderColor": "rgb(229, 231, 235)",
+                    "borderTopColor": "rgb(229, 231, 235)",
+                    "borderBottomColor": "rgb(229, 231, 235)",
+                    "position": "relative",
+                    "opacity": "1",
+                    "transition": "all",
+                    "cursor": "pointer",
+                    "objectFit": "fill",
+                    "objectPosition": "50% 50%",
+                    "textOverflow": "clip",
+                    "flex": "0 1 auto",
+                    "order": "0",
+                    "verticalAlign": "baseline"
+                   },
+                   "childCount": 0,
+                   "children": []
+                  }
+                 ]
+                },
+                {
+                 "tag": "li",
+                 "childCount": 1,
+                 "children": [
+                  {
+                   "tag": "a",
+                   "classes": "name",
+                   "text": "整体厨房和电器",
+                   "href": null,
+                   "style": {
+                    "fontSize": "14px",
+                    "fontWeight": "700",
+                    "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                    "lineHeight": "21px",
+                    "color": "rgb(17, 17, 17)",
+                    "width": "98px",
+                    "height": "21px",
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "borderStyle": "solid",
+                    "borderColor": "rgb(229, 231, 235)",
+                    "borderTopColor": "rgb(229, 231, 235)",
+                    "borderBottomColor": "rgb(229, 231, 235)",
+                    "position": "relative",
+                    "opacity": "1",
+                    "transition": "all",
+                    "cursor": "pointer",
+                    "objectFit": "fill",
+                    "objectPosition": "50% 50%",
+                    "textOverflow": "clip",
+                    "flex": "0 1 auto",
+                    "order": "0",
+                    "verticalAlign": "baseline"
+                   },
+                   "childCount": 0,
+                   "children": []
+                  }
+                 ]
+                },
+                {
+                 "tag": "li",
+                 "childCount": 1,
+                 "children": [
+                  {
+                   "tag": "a",
+                   "classes": "name",
+                   "text": "浴室家具和收纳",
+                   "href": null,
+                   "style": {
+                    "fontSize": "14px",
+                    "fontWeight": "700",
+                    "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                    "lineHeight": "21px",
+                    "color": "rgb(17, 17, 17)",
+                    "width": "98px",
+                    "height": "21px",
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "borderStyle": "solid",
+                    "borderColor": "rgb(229, 231, 235)",
+                    "borderTopColor": "rgb(229, 231, 235)",
+                    "borderBottomColor": "rgb(229, 231, 235)",
+                    "position": "relative",
+                    "opacity": "1",
+                    "transition": "all",
+                    "cursor": "pointer",
+                    "objectFit": "fill",
+                    "objectPosition": "50% 50%",
+                    "textOverflow": "clip",
+                    "flex": "0 1 auto",
+                    "order": "0",
+                    "verticalAlign": "baseline"
+                   },
+                   "childCount": 0,
+                   "children": []
+                  }
+                 ]
+                },
+                {
+                 "tag": "li",
+                 "childCount": 1,
+                 "children": [
+                  {
+                   "tag": "a",
+                   "classes": "name",
+                   "text": "灯具照明",
+                   "href": null,
+                   "style": {
+                    "fontSize": "14px",
+                    "fontWeight": "700",
+                    "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                    "lineHeight": "21px",
+                    "color": "rgb(17, 17, 17)",
+                    "width": "56px",
+                    "height": "21px",
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "borderStyle": "solid",
+                    "borderColor": "rgb(229, 231, 235)",
+                    "borderTopColor": "rgb(229, 231, 235)",
+                    "borderBottomColor": "rgb(229, 231, 235)",
+                    "position": "relative",
+                    "opacity": "1",
+                    "transition": "all",
+                    "cursor": "pointer",
+                    "objectFit": "fill",
+                    "objectPosition": "50% 50%",
+                    "textOverflow": "clip",
+                    "flex": "0 1 auto",
+                    "order": "0",
+                    "verticalAlign": "baseline"
+                   },
+                   "childCount": 0,
+                   "children": []
+                  }
+                 ]
+                },
+                {
+                 "tag": "li",
+                 "childCount": 1,
+                 "children": [
+                  {
+                   "tag": "a",
+                   "classes": "name",
+                   "text": "装饰品",
+                   "href": null,
+                   "style": {
+                    "fontSize": "14px",
+                    "fontWeight": "700",
+                    "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                    "lineHeight": "21px",
+                    "color": "rgb(17, 17, 17)",
+                    "width": "42px",
+                    "height": "21px",
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "borderStyle": "solid",
+                    "borderColor": "rgb(229, 231, 235)",
+                    "borderTopColor": "rgb(229, 231, 235)",
+                    "borderBottomColor": "rgb(229, 231, 235)",
+                    "position": "relative",
+                    "opacity": "1",
+                    "transition": "all",
+                    "cursor": "pointer",
+                    "objectFit": "fill",
+                    "objectPosition": "50% 50%",
+                    "textOverflow": "clip",
+                    "flex": "0 1 auto",
+                    "order": "0",
+                    "verticalAlign": "baseline"
+                   },
+                   "childCount": 0,
+                   "children": []
+                  }
+                 ]
+                },
+                {
+                 "tag": "li",
+                 "childCount": 1,
+                 "children": [
+                  {
+                   "tag": "a",
+                   "classes": "name",
+                   "text": "清洁及晾晒用品",
+                   "href": null,
+                   "style": {
+                    "fontSize": "14px",
+                    "fontWeight": "700",
+                    "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                    "lineHeight": "21px",
+                    "color": "rgb(17, 17, 17)",
+                    "width": "98px",
+                    "height": "21px",
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "borderStyle": "solid",
+                    "borderColor": "rgb(229, 231, 235)",
+                    "borderTopColor": "rgb(229, 231, 235)",
+                    "borderBottomColor": "rgb(229, 231, 235)",
+                    "position": "relative",
+                    "opacity": "1",
+                    "transition": "all",
+                    "cursor": "pointer",
+                    "objectFit": "fill",
+                    "objectPosition": "50% 50%",
+                    "textOverflow": "clip",
+                    "flex": "0 1 auto",
+                    "order": "0",
+                    "verticalAlign": "baseline"
+                   },
+                   "childCount": 0,
+                   "children": []
+                  }
+                 ]
+                },
+                {
+                 "tag": "li",
+                 "childCount": 1,
+                 "children": [
+                  {
+                   "tag": "a",
+                   "classes": "name",
+                   "text": "智能家居",
+                   "href": null,
+                   "style": {
+                    "fontSize": "14px",
+                    "fontWeight": "700",
+                    "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                    "lineHeight": "21px",
+                    "color": "rgb(17, 17, 17)",
+                    "width": "56px",
+                    "height": "21px",
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "borderStyle": "solid",
+                    "borderColor": "rgb(229, 231, 235)",
+                    "borderTopColor": "rgb(229, 231, 235)",
+                    "borderBottomColor": "rgb(229, 231, 235)",
+                    "position": "relative",
+                    "opacity": "1",
+                    "transition": "all",
+                    "cursor": "pointer",
+                    "objectFit": "fill",
+                    "objectPosition": "50% 50%",
+                    "textOverflow": "clip",
+                    "flex": "0 1 auto",
+                    "order": "0",
+                    "verticalAlign": "baseline"
+                   },
+                   "childCount": 0,
+                   "children": []
+                  }
+                 ]
+                },
+                {
+                 "tag": "li",
+                 "childCount": 1,
+                 "children": [
+                  {
+                   "tag": "a",
+                   "classes": "name",
+                   "text": "家用电子产品",
+                   "href": null,
+                   "style": {
+                    "fontSize": "14px",
+                    "fontWeight": "700",
+                    "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                    "lineHeight": "21px",
+                    "color": "rgb(17, 17, 17)",
+                    "width": "84px",
+                    "height": "21px",
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "borderStyle": "solid",
+                    "borderColor": "rgb(229, 231, 235)",
+                    "borderTopColor": "rgb(229, 231, 235)",
+                    "borderBottomColor": "rgb(229, 231, 235)",
+                    "position": "relative",
+                    "opacity": "1",
+                    "transition": "all",
+                    "cursor": "pointer",
+                    "objectFit": "fill",
+                    "objectPosition": "50% 50%",
+                    "textOverflow": "clip",
+                    "flex": "0 1 auto",
+                    "order": "0",
+                    "verticalAlign": "baseline"
+                   },
+                   "childCount": 0,
+                   "children": []
+                  }
+                 ]
+                },
+                {
+                 "tag": "li",
+                 "childCount": 1,
+                 "children": [
+                  {
+                   "tag": "a",
+                   "classes": "name",
+                   "text": "户外产品",
+                   "href": null,
+                   "style": {
+                    "fontSize": "14px",
+                    "fontWeight": "700",
+                    "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                    "lineHeight": "21px",
+                    "color": "rgb(17, 17, 17)",
+                    "width": "56px",
+                    "height": "21px",
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "borderStyle": "solid",
+                    "borderColor": "rgb(229, 231, 235)",
+                    "borderTopColor": "rgb(229, 231, 235)",
+                    "borderBottomColor": "rgb(229, 231, 235)",
+                    "position": "relative",
+                    "opacity": "1",
+                    "transition": "all",
+                    "cursor": "pointer",
+                    "objectFit": "fill",
+                    "objectPosition": "50% 50%",
+                    "textOverflow": "clip",
+                    "flex": "0 1 auto",
+                    "order": "0",
+                    "verticalAlign": "baseline"
+                   },
+                   "childCount": 0,
+                   "children": []
+                  }
+                 ]
+                },
+                {
+                 "tag": "li",
+                 "childCount": 1,
+                 "children": [
+                  {
+                   "tag": "a",
+                   "classes": "name",
+                   "text": "花盆和植物",
+                   "href": null,
+                   "style": {
+                    "fontSize": "14px",
+                    "fontWeight": "700",
+                    "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                    "lineHeight": "21px",
+                    "color": "rgb(17, 17, 17)",
+                    "width": "70px",
+                    "height": "21px",
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "borderStyle": "solid",
+                    "borderColor": "rgb(229, 231, 235)",
+                    "borderTopColor": "rgb(229, 231, 235)",
+                    "borderBottomColor": "rgb(229, 231, 235)",
+                    "position": "relative",
+                    "opacity": "1",
+                    "transition": "all",
+                    "cursor": "pointer",
+                    "objectFit": "fill",
+                    "objectPosition": "50% 50%",
+                    "textOverflow": "clip",
+                    "flex": "0 1 auto",
+                    "order": "0",
+                    "verticalAlign": "baseline"
+                   },
+                   "childCount": 0,
+                   "children": []
+                  }
+                 ]
+                },
+                {
+                 "tag": "li",
+                 "childCount": 1,
+                 "children": [
+                  {
+                   "tag": "a",
+                   "classes": "name",
+                   "text": "家居修缮",
+                   "href": null,
+                   "style": {
+                    "fontSize": "14px",
+                    "fontWeight": "700",
+                    "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                    "lineHeight": "21px",
+                    "color": "rgb(17, 17, 17)",
+                    "width": "56px",
+                    "height": "21px",
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "borderStyle": "solid",
+                    "borderColor": "rgb(229, 231, 235)",
+                    "borderTopColor": "rgb(229, 231, 235)",
+                    "borderBottomColor": "rgb(229, 231, 235)",
+                    "position": "relative",
+                    "opacity": "1",
+                    "transition": "all",
+                    "cursor": "pointer",
+                    "objectFit": "fill",
+                    "objectPosition": "50% 50%",
+                    "textOverflow": "clip",
+                    "flex": "0 1 auto",
+                    "order": "0",
+                    "verticalAlign": "baseline"
+                   },
+                   "childCount": 0,
+                   "children": []
+                  }
+                 ]
+                },
+                {
+                 "tag": "li",
+                 "childCount": 1,
+                 "children": [
+                  {
+                   "tag": "a",
+                   "classes": "name",
+                   "text": "瑞典美食屋",
+                   "href": null,
+                   "style": {
+                    "fontSize": "14px",
+                    "fontWeight": "700",
+                    "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                    "lineHeight": "21px",
+                    "color": "rgb(17, 17, 17)",
+                    "width": "70px",
+                    "height": "21px",
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "borderStyle": "solid",
+                    "borderColor": "rgb(229, 231, 235)",
+                    "borderTopColor": "rgb(229, 231, 235)",
+                    "borderBottomColor": "rgb(229, 231, 235)",
+                    "position": "relative",
+                    "opacity": "1",
+                    "transition": "all",
+                    "cursor": "pointer",
+                    "objectFit": "fill",
+                    "objectPosition": "50% 50%",
+                    "textOverflow": "clip",
+                    "flex": "0 1 auto",
+                    "order": "0",
+                    "verticalAlign": "baseline"
+                   },
+                   "childCount": 0,
+                   "children": []
+                  }
+                 ]
+                },
+                {
+                 "tag": "li",
+                 "childCount": 1,
+                 "children": [
+                  {
+                   "tag": "a",
+                   "classes": "name",
+                   "text": "季节节日",
+                   "href": null,
+                   "style": {
+                    "fontSize": "14px",
+                    "fontWeight": "700",
+                    "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                    "lineHeight": "21px",
+                    "color": "rgb(17, 17, 17)",
+                    "width": "56px",
+                    "height": "21px",
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "borderStyle": "solid",
+                    "borderColor": "rgb(229, 231, 235)",
+                    "borderTopColor": "rgb(229, 231, 235)",
+                    "borderBottomColor": "rgb(229, 231, 235)",
+                    "position": "relative",
+                    "opacity": "1",
+                    "transition": "all",
+                    "cursor": "pointer",
+                    "objectFit": "fill",
+                    "objectPosition": "50% 50%",
+                    "textOverflow": "clip",
+                    "flex": "0 1 auto",
+                    "order": "0",
+                    "verticalAlign": "baseline"
+                   },
+                   "childCount": 0,
+                   "children": []
+                  }
+                 ]
+                },
+                {
+                 "tag": "li",
+                 "childCount": 1,
+                 "children": [
+                  {
+                   "tag": "a",
+                   "classes": "name",
+                   "text": "宠物用品",
+                   "href": null,
+                   "style": {
+                    "fontSize": "14px",
+                    "fontWeight": "700",
+                    "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                    "lineHeight": "21px",
+                    "color": "rgb(17, 17, 17)",
+                    "width": "56px",
+                    "height": "21px",
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "borderStyle": "solid",
+                    "borderColor": "rgb(229, 231, 235)",
+                    "borderTopColor": "rgb(229, 231, 235)",
+                    "borderBottomColor": "rgb(229, 231, 235)",
+                    "position": "relative",
+                    "opacity": "1",
+                    "transition": "all",
+                    "cursor": "pointer",
+                    "objectFit": "fill",
+                    "objectPosition": "50% 50%",
+                    "textOverflow": "clip",
+                    "flex": "0 1 auto",
+                    "order": "0",
+                    "verticalAlign": "baseline"
+                   },
+                   "childCount": 0,
+                   "children": []
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "tag": "div",
+             "classes": "sub-list",
+             "style": {
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+              "lineHeight": "21px",
+              "color": "rgb(17, 17, 17)",
+              "marginRight": "-18px",
+              "width": "1138px",
+              "height": "699px",
+              "display": "flex",
+              "flexDirection": "row",
+              "alignItems": "flex-start",
+              "flexWrap": "wrap",
+              "borderStyle": "solid",
+              "borderColor": "rgb(229, 231, 235)",
+              "borderTopColor": "rgb(229, 231, 235)",
+              "borderBottomColor": "rgb(229, 231, 235)",
+              "overflow": "hidden auto",
+              "overflowX": "hidden",
+              "position": "relative",
+              "opacity": "1",
+              "transition": "all",
+              "objectFit": "fill",
+              "objectPosition": "50% 50%",
+              "textOverflow": "clip",
+              "flex": "1 1 0%",
+              "order": "0",
+              "verticalAlign": "baseline"
+             },
+             "childCount": 10,
+             "children": [
+              {
+               "tag": "a",
+               "classes": "sub-title",
+               "text": "沙发和扶手椅",
+               "href": "https://www.ikea.cn/cn/zh/cat/sha-fa-he-fu-shou-yi-700640/",
+               "style": {
+                "fontSize": "14px",
+                "fontWeight": "700",
+                "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                "lineHeight": "21px",
+                "color": "rgb(17, 17, 17)",
+                "paddingTop": "10px",
+                "paddingLeft": "40px",
+                "width": "1138px",
+                "height": "31px",
+                "display": "block",
+                "flexDirection": "row",
+                "flexWrap": "nowrap",
+                "borderStyle": "solid",
+                "borderColor": "rgb(229, 231, 235)",
+                "borderTopColor": "rgb(229, 231, 235)",
+                "borderBottomColor": "rgb(229, 231, 235)",
+                "position": "relative",
+                "opacity": "1",
+                "transition": "all",
+                "cursor": "pointer",
+                "objectFit": "fill",
+                "objectPosition": "50% 50%",
+                "textOverflow": "clip",
+                "flex": "0 1 auto",
+                "order": "0",
+                "verticalAlign": "baseline"
+               },
+               "childCount": 0,
+               "children": []
+              },
+              {
+               "tag": "div",
+               "classes": "sub-list-li",
+               "childCount": 1,
+               "children": [
+                {
+                 "tag": "a",
+                 "classes": "category-box",
+                 "href": "https://www.ikea.cn/cn/zh/cat/sha-fa-fu003/",
+                 "childCount": 2,
+                 "children": [
+                  {
+                   "tag": "div",
+                   "classes": "img-bg",
+                   "childCount": 1,
+                   "children": [
+                    {
+                     "tag": "img",
+                     "src": "https://file.app.ikea.cn/cn/zh/range-categorisation/images/product/sofas-fu003.jpeg?x-oss-process=style/small",
+                     "alt": "沙发",
+                     "style": {
+                      "fontSize": "14px",
+                      "fontWeight": "400",
+                      "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                      "lineHeight": "52px",
+                      "color": "rgb(17, 17, 17)",
+                      "width": "64px",
+                      "height": "64px",
+                      "maxWidth": "100%",
+                      "display": "block",
+                      "flexDirection": "row",
+                      "flexWrap": "nowrap",
+                      "borderColor": "rgb(229, 231, 235)",
+                      "borderTopColor": "rgb(229, 231, 235)",
+                      "borderBottomColor": "rgb(229, 231, 235)",
+                      "overflow": "clip",
+                      "overflowX": "clip",
+                      "overflowY": "clip",
+                      "position": "absolute",
+                      "opacity": "1",
+                      "transition": "all",
+                      "cursor": "pointer",
+                      "objectFit": "cover",
+                      "objectPosition": "50% 50%",
+                      "mixBlendMode": "darken",
+                      "textOverflow": "clip",
+                      "flex": "0 1 auto",
+                      "order": "0",
+                      "verticalAlign": "middle"
+                     },
+                     "childCount": 0,
+                     "children": []
+                    }
+                   ]
+                  },
+                  {
+                   "tag": "div",
+                   "classes": "category-box-name",
+                   "text": "沙发",
+                   "style": {
+                    "fontSize": "14px",
+                    "fontWeight": "400",
+                    "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                    "lineHeight": "21px",
+                    "color": "rgb(17, 17, 17)",
+                    "width": "28px",
+                    "height": "21px",
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "borderStyle": "solid",
+                    "borderColor": "rgb(229, 231, 235)",
+                    "borderTopColor": "rgb(229, 231, 235)",
+                    "borderBottomColor": "rgb(229, 231, 235)",
+                    "position": "static",
+                    "opacity": "1",
+                    "transition": "all",
+                    "cursor": "pointer",
+                    "objectFit": "fill",
+                    "objectPosition": "50% 50%",
+                    "textOverflow": "clip",
+                    "flex": "0 1 auto",
+                    "order": "0",
+                    "verticalAlign": "baseline"
+                   },
+                   "childCount": 0,
+                   "children": []
+                  }
+                 ]
+                }
+               ]
+              },
+              {
+               "tag": "div",
+               "classes": "sub-list-li",
+               "childCount": 1,
+               "children": [
+                {
+                 "tag": "a",
+                 "classes": "category-box",
+                 "href": "https://www.ikea.cn/cn/zh/cat/sha-fa-chuang-10663/",
+                 "childCount": 2,
+                 "children": [
+                  {
+                   "tag": "div",
+                   "classes": "img-bg",
+                   "childCount": 1,
+                   "children": [
+                    {
+                     "tag": "img",
+                     "src": "https://file.app.ikea.cn/cn/zh/range-categorisation/images/product/sofa-beds-10663.jpeg?x-oss-process=style/small",
+                     "alt": "沙发床",
+                     "style": {
+                      "fontSize": "14px",
+                      "fontWeight": "400",
+                      "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                      "lineHeight": "52px",
+                      "color": "rgb(17, 17, 17)",
+                      "width": "64px",
+                      "height": "64px",
+                      "maxWidth": "100%",
+                      "display": "block",
+                      "flexDirection": "row",
+                      "flexWrap": "nowrap",
+                      "borderColor": "rgb(229, 231, 235)",
+                      "borderTopColor": "rgb(229, 231, 235)",
+                      "borderBottomColor": "rgb(229, 231, 235)",
+                      "overflow": "clip",
+                      "overflowX": "clip",
+                      "overflowY": "clip",
+                      "position": "absolute",
+                      "opacity": "1",
+                      "transition": "all",
+                      "cursor": "pointer",
+                      "objectFit": "cover",
+                      "objectPosition": "50% 50%",
+                      "mixBlendMode": "darken",
+                      "textOverflow": "clip",
+                      "flex": "0 1 auto",
+                      "order": "0",
+                      "verticalAlign": "middle"
+                     },
+                     "childCount": 0,
+                     "children": []
+                    }
+                   ]
+                  },
+                  {
+                   "tag": "div",
+                   "classes": "category-box-name",
+                   "text": "沙发床",
+                   "style": {
+                    "fontSize": "14px",
+                    "fontWeight": "400",
+                    "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                    "lineHeight": "21px",
+                    "color": "rgb(17, 17, 17)",
+                    "width": "42px",
+                    "height": "21px",
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "borderStyle": "solid",
+                    "borderColor": "rgb(229, 231, 235)",
+                    "borderTopColor": "rgb(229, 231, 235)",
+                    "borderBottomColor": "rgb(229, 231, 235)",
+                    "position": "static",
+                    "opacity": "1",
+                    "transition": "all",
+                    "cursor": "pointer",
+                    "objectFit": "fill",
+                    "objectPosition": "50% 50%",
+                    "textOverflow": "clip",
+                    "flex": "0 1 auto",
+                    "order": "0",
+                    "verticalAlign": "baseline"
+                   },
+                   "childCount": 0,
+                   "children": []
+                  }
+                 ]
+                }
+               ]
+              },
+              {
+               "tag": "div",
+               "classes": "sub-list-li",
+               "childCount": 1,
+               "children": [
+                {
+                 "tag": "a",
+                 "classes": "category-box",
+                 "href": "https://www.ikea.cn/cn/zh/cat/fu-shou-yi-he-gui-fei-yi-fu006/",
+                 "childCount": 2,
+                 "children": [
+                  {
+                   "tag": "div",
+                   "classes": "img-bg",
+                   "childCount": 1,
+                   "children": [
+                    {
+                     "tag": "img",
+                     "src": "https://file.app.ikea.cn/cn/zh/range-categorisation/images/product/armchairs-chaise-longues-fu006.jpeg?x-oss-process=style/small",
+                     "alt": "扶手椅",
+                     "style": {
+                      "fontSize": "14px",
+                      "fontWeight": "400",
+                      "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                      "lineHeight": "52px",
+                      "color": "rgb(17, 17, 17)",
+                      "width": "64px",
+                      "height": "64px",
+                      "maxWidth": "100%",
+                      "display": "block",
+                      "flexDirection": "row",
+                      "flexWrap": "nowrap",
+                      "borderColor": "rgb(229, 231, 235)",
+                      "borderTopColor": "rgb(229, 231, 235)",
+                      "borderBottomColor": "rgb(229, 231, 235)",
+                      "overflow": "clip",
+                      "overflowX": "clip",
+                      "overflowY": "clip",
+                      "position": "absolute",
+                      "opacity": "1",
+                      "transition": "all",
+                      "cursor": "pointer",
+                      "objectFit": "cover",
+                      "objectPosition": "50% 50%",
+                      "mixBlendMode": "darken",
+                      "textOverflow": "clip",
+                      "flex": "0 1 auto",
+                      "order": "0",
+                      "verticalAlign": "middle"
+                     },
+                     "childCount": 0,
+                     "children": []
+                    }
+                   ]
+                  },
+                  {
+                   "tag": "div",
+                   "classes": "category-box-name",
+                   "text": "扶手椅",
+                   "style": {
+                    "fontSize": "14px",
+                    "fontWeight": "400",
+                    "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                    "lineHeight": "21px",
+                    "color": "rgb(17, 17, 17)",
+                    "width": "42px",
+                    "height": "21px",
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "borderStyle": "solid",
+                    "borderColor": "rgb(229, 231, 235)",
+                    "borderTopColor": "rgb(229, 231, 235)",
+                    "borderBottomColor": "rgb(229, 231, 235)",
+                    "position": "static",
+                    "opacity": "1",
+                    "transition": "all",
+                    "cursor": "pointer",
+                    "objectFit": "fill",
+                    "objectPosition": "50% 50%",
+                    "textOverflow": "clip",
+                    "flex": "0 1 auto",
+                    "order": "0",
+                    "verticalAlign": "baseline"
+                   },
+                   "childCount": 0,
+                   "children": []
+                  }
+                 ]
+                }
+               ]
+              },
+              {
+               "tag": "div",
+               "classes": "sub-list-li",
+               "childCount": 1,
+               "children": [
+                {
+                 "tag": "a",
+                 "classes": "category-box",
+                 "href": "https://www.ikea.cn/cn/zh/cat/gui-fei-yi-57527/",
+                 "childCount": 2,
+                 "children": [
+                  {
+                   "tag": "div",
+                   "classes": "img-bg",
+                   "childCount": 1,
+                   "children": [
+                    {
+                     "tag": "img",
+                     "src": "https://file.app.ikea.cn/cn/zh/range-categorisation/images/product/chaise-longues-57527.jpeg?x-oss-process=style/small",
+                     "alt": "贵妃椅",
+                     "style": {
+                      "fontSize": "14px",
+                      "fontWeight": "400",
+                      "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                      "lineHeight": "52px",
+                      "color": "rgb(17, 17, 17)",
+                      "width": "64px",
+                      "height": "64px",
+                      "maxWidth": "100%",
+                      "display": "block",
+                      "flexDirection": "row",
+                      "flexWrap": "nowrap",
+                      "borderColor": "rgb(229, 231, 235)",
+                      "borderTopColor": "rgb(229, 231, 235)",
+                      "borderBottomColor": "rgb(229, 231, 235)",
+                      "overflow": "clip",
+                      "overflowX": "clip",
+                      "overflowY": "clip",
+                      "position": "absolute",
+                      "opacity": "1",
+                      "transition": "all",
+                      "cursor": "pointer",
+                      "objectFit": "cover",
+                      "objectPosition": "50% 50%",
+                      "mixBlendMode": "darken",
+                      "textOverflow": "clip",
+                      "flex": "0 1 auto",
+                      "order": "0",
+                      "verticalAlign": "middle"
+                     },
+                     "childCount": 0,
+                     "children": []
+                    }
+                   ]
+                  },
+                  {
+                   "tag": "div",
+                   "classes": "category-box-name",
+                   "text": "贵妃椅",
+                   "style": {
+                    "fontSize": "14px",
+                    "fontWeight": "400",
+                    "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                    "lineHeight": "21px",
+                    "color": "rgb(17, 17, 17)",
+                    "width": "42px",
+                    "height": "21px",
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "borderStyle": "solid",
+                    "borderColor": "rgb(229, 231, 235)",
+                    "borderTopColor": "rgb(229, 231, 235)",
+                    "borderBottomColor": "rgb(229, 231, 235)",
+                    "position": "static",
+                    "opacity": "1",
+                    "transition": "all",
+                    "cursor": "pointer",
+                    "objectFit": "fill",
+                    "objectPosition": "50% 50%",
+                    "textOverflow": "clip",
+                    "flex": "0 1 auto",
+                    "order": "0",
+                    "verticalAlign": "baseline"
+                   },
+                   "childCount": 0,
+                   "children": []
+                  }
+                 ]
+                }
+               ]
+              },
+              {
+               "tag": "div",
+               "classes": "sub-list-li",
+               "childCount": 1,
+               "children": [
+                {
+                 "tag": "a",
+                 "classes": "category-box",
+                 "href": "https://www.ikea.cn/cn/zh/cat/sha-fa-jiao-deng-20926/",
+                 "childCount": 2,
+                 "children": [
+                  {
+                   "tag": "div",
+                   "classes": "img-bg",
+                   "childCount": 1,
+                   "children": [
+                    {
+                     "tag": "img",
+                     "src": "https://file.app.ikea.cn/cn/zh/range-categorisation/images/product/ottomans-footstools-pouffes-20926.jpeg?x-oss-process=style/small",
+                     "alt": "脚凳",
+                     "style": {
+                      "fontSize": "14px",
+                      "fontWeight": "400",
+                      "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                      "lineHeight": "52px",
+                      "color": "rgb(17, 17, 17)",
+                      "width": "64px",
+                      "height": "64px",
+                      "maxWidth": "100%",
+                      "display": "block",
+                      "flexDirection": "row",
+                      "flexWrap": "nowrap",
+                      "borderColor": "rgb(229, 231, 235)",
+                      "borderTopColor": "rgb(229, 231, 235)",
+                      "borderBottomColor": "rgb(229, 231, 235)",
+                      "overflow": "clip",
+                      "overflowX": "clip",
+                      "overflowY": "clip",
+                      "position": "absolute",
+                      "opacity": "1",
+                      "transition": "all",
+                      "cursor": "pointer",
+                      "objectFit": "cover",
+                      "objectPosition": "50% 50%",
+                      "mixBlendMode": "darken",
+                      "textOverflow": "clip",
+                      "flex": "0 1 auto",
+                      "order": "0",
+                      "verticalAlign": "middle"
+                     },
+                     "childCount": 0,
+                     "children": []
+                    }
+                   ]
+                  },
+                  {
+                   "tag": "div",
+                   "classes": "category-box-name",
+                   "text": "脚凳",
+                   "style": {
+                    "fontSize": "14px",
+                    "fontWeight": "400",
+                    "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                    "lineHeight": "21px",
+                    "color": "rgb(17, 17, 17)",
+                    "width": "28px",
+                    "height": "21px",
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "borderStyle": "solid",
+                    "borderColor": "rgb(229, 231, 235)",
+                    "borderTopColor": "rgb(229, 231, 235)",
+                    "borderBottomColor": "rgb(229, 231, 235)",
+                    "position": "static",
+                    "opacity": "1",
+                    "transition": "all",
+                    "cursor": "pointer",
+                    "objectFit": "fill",
+                    "objectPosition": "50% 50%",
+                    "textOverflow": "clip",
+                    "flex": "0 1 auto",
+                    "order": "0",
+                    "verticalAlign": "baseline"
+                   },
+                   "childCount": 0,
+                   "children": []
+                  }
+                 ]
+                }
+               ]
+              },
+              {
+               "tag": "div",
+               "classes": "sub-list-li",
+               "childCount": 1,
+               "children": [
+                {
+                 "tag": "a",
+                 "classes": "category-box",
+                 "href": "https://www.ikea.cn/cn/zh/cat/sha-fa-kao-dian-57536/",
+                 "childCount": 2,
+                 "children": [
+                  {
+                   "tag": "div",
+                   "classes": "img-bg",
+                   "childCount": 1,
+                   "children": [
+                    {
+                     "tag": "img",
+                     "src": "https://file.app.ikea.cn/cn/zh/range-categorisation/images/product/sofa-armchair-cushions-headrests-57536.jpeg?x-oss-process=style/small",
+                     "alt": "座垫和头枕",
+                     "style": {
+                      "fontSize": "14px",
+                      "fontWeight": "400",
+                      "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                      "lineHeight": "52px",
+                      "color": "rgb(17, 17, 17)",
+                      "width": "64px",
+                      "height": "64px",
+                      "maxWidth": "100%",
+                      "display": "block",
+                      "flexDirection": "row",
+                      "flexWrap": "nowrap",
+                      "borderColor": "rgb(229, 231, 235)",
+                      "borderTopColor": "rgb(229, 231, 235)",
+                      "borderBottomColor": "rgb(229, 231, 235)",
+                      "overflow": "clip",
+                      "overflowX": "clip",
+                      "overflowY": "clip",
+                      "position": "absolute",
+                      "opacity": "1",
+                      "transition": "all",
+                      "cursor": "pointer",
+                      "objectFit": "cover",
+                      "objectPosition": "50% 50%",
+                      "mixBlendMode": "darken",
+                      "textOverflow": "clip",
+                      "flex": "0 1 auto",
+                      "order": "0",
+                      "verticalAlign": "middle"
+                     },
+                     "childCount": 0,
+                     "children": []
+                    }
+                   ]
+                  },
+                  {
+                   "tag": "div",
+                   "classes": "category-box-name",
+                   "text": "座垫和头枕",
+                   "style": {
+                    "fontSize": "14px",
+                    "fontWeight": "400",
+                    "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                    "lineHeight": "21px",
+                    "color": "rgb(17, 17, 17)",
+                    "width": "70px",
+                    "height": "21px",
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "borderStyle": "solid",
+                    "borderColor": "rgb(229, 231, 235)",
+                    "borderTopColor": "rgb(229, 231, 235)",
+                    "borderBottomColor": "rgb(229, 231, 235)",
+                    "position": "static",
+                    "opacity": "1",
+                    "transition": "all",
+                    "cursor": "pointer",
+                    "objectFit": "fill",
+                    "objectPosition": "50% 50%",
+                    "textOverflow": "clip",
+                    "flex": "0 1 auto",
+                    "order": "0",
+                    "verticalAlign": "baseline"
+                   },
+                   "childCount": 0,
+                   "children": []
+                  }
+                 ]
+                }
+               ]
+              },
+              {
+               "tag": "div",
+               "classes": "sub-list-li",
+               "childCount": 1,
+               "children": [
+                {
+                 "tag": "a",
+                 "classes": "category-box",
+                 "href": "https://www.ikea.cn/cn/zh/cat/sha-fa-tao-he-fu-shou-yi-tao-10664/",
+                 "childCount": 2,
+                 "children": [
+                  {
+                   "tag": "div",
+                   "classes": "img-bg",
+                   "childCount": 1,
+                   "children": [
+                    {
+                     "tag": "img",
+                     "src": "https://file.app.ikea.cn/global/assets/range-categorisation/images/product/sofa-armchair-covers-10664.jpeg?x-oss-process=style/small",
+                     "alt": "沙发套和扶手椅套",
+                     "style": {
+                      "fontSize": "14px",
+                      "fontWeight": "400",
+                      "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                      "lineHeight": "52px",
+                      "color": "rgb(17, 17, 17)",
+                      "width": "64px",
+                      "height": "64px",
+                      "maxWidth": "100%",
+                      "display": "block",
+                      "flexDirection": "row",
+                      "flexWrap": "nowrap",
+                      "borderColor": "rgb(229, 231, 235)",
+                      "borderTopColor": "rgb(229, 231, 235)",
+                      "borderBottomColor": "rgb(229, 231, 235)",
+                      "overflow": "clip",
+                      "overflowX": "clip",
+                      "overflowY": "clip",
+                      "position": "absolute",
+                      "opacity": "1",
+                      "transition": "all",
+                      "cursor": "pointer",
+                      "objectFit": "cover",
+                      "objectPosition": "50% 50%",
+                      "mixBlendMode": "darken",
+                      "textOverflow": "clip",
+                      "flex": "0 1 auto",
+                      "order": "0",
+                      "verticalAlign": "middle"
+                     },
+                     "childCount": 0,
+                     "children": []
+                    }
+                   ]
+                  },
+                  {
+                   "tag": "div",
+                   "classes": "category-box-name",
+                   "text": "沙发套和扶手椅套",
+                   "style": {
+                    "fontSize": "14px",
+                    "fontWeight": "400",
+                    "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                    "lineHeight": "21px",
+                    "color": "rgb(17, 17, 17)",
+                    "width": "112px",
+                    "height": "21px",
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "borderStyle": "solid",
+                    "borderColor": "rgb(229, 231, 235)",
+                    "borderTopColor": "rgb(229, 231, 235)",
+                    "borderBottomColor": "rgb(229, 231, 235)",
+                    "position": "static",
+                    "opacity": "1",
+                    "transition": "all",
+                    "cursor": "pointer",
+                    "objectFit": "fill",
+                    "objectPosition": "50% 50%",
+                    "textOverflow": "clip",
+                    "flex": "0 1 auto",
+                    "order": "0",
+                    "verticalAlign": "baseline"
+                   },
+                   "childCount": 0,
+                   "children": []
+                  }
+                 ]
+                }
+               ]
+              },
+              {
+               "tag": "div",
+               "classes": "sub-list-li",
+               "childCount": 1,
+               "children": [
+                {
+                 "tag": "a",
+                 "classes": "category-box",
+                 "href": "https://www.ikea.cn/cn/zh/cat/sha-fa-he-fu-shou-yi-zhi-tui-31785/",
+                 "childCount": 2,
+                 "children": [
+                  {
+                   "tag": "div",
+                   "classes": "img-bg",
+                   "childCount": 1,
+                   "children": [
+                    {
+                     "tag": "img",
+                     "src": "https://file.app.ikea.cn/global/assets/range-categorisation/images/product/sofa-armchair-legs-31785.jpeg?x-oss-process=style/small",
+                     "alt": "沙发和扶手椅支腿",
+                     "style": {
+                      "fontSize": "14px",
+                      "fontWeight": "400",
+                      "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                      "lineHeight": "52px",
+                      "color": "rgb(17, 17, 17)",
+                      "width": "64px",
+                      "height": "64px",
+                      "maxWidth": "100%",
+                      "display": "block",
+                      "flexDirection": "row",
+                      "flexWrap": "nowrap",
+                      "borderColor": "rgb(229, 231, 235)",
+                      "borderTopColor": "rgb(229, 231, 235)",
+                      "borderBottomColor": "rgb(229, 231, 235)",
+                      "overflow": "clip",
+                      "overflowX": "clip",
+                      "overflowY": "clip",
+                      "position": "absolute",
+                      "opacity": "1",
+                      "transition": "all",
+                      "cursor": "pointer",
+                      "objectFit": "cover",
+                      "objectPosition": "50% 50%",
+                      "mixBlendMode": "darken",
+                      "textOverflow": "clip",
+                      "flex": "0 1 auto",
+                      "order": "0",
+                      "verticalAlign": "middle"
+                     },
+                     "childCount": 0,
+                     "children": []
+                    }
+                   ]
+                  },
+                  {
+                   "tag": "div",
+                   "classes": "category-box-name",
+                   "text": "沙发和扶手椅支腿",
+                   "style": {
+                    "fontSize": "14px",
+                    "fontWeight": "400",
+                    "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                    "lineHeight": "21px",
+                    "color": "rgb(17, 17, 17)",
+                    "width": "112px",
+                    "height": "21px",
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "borderStyle": "solid",
+                    "borderColor": "rgb(229, 231, 235)",
+                    "borderTopColor": "rgb(229, 231, 235)",
+                    "borderBottomColor": "rgb(229, 231, 235)",
+                    "position": "static",
+                    "opacity": "1",
+                    "transition": "all",
+                    "cursor": "pointer",
+                    "objectFit": "fill",
+                    "objectPosition": "50% 50%",
+                    "textOverflow": "clip",
+                    "flex": "0 1 auto",
+                    "order": "0",
+                    "verticalAlign": "baseline"
+                   },
+                   "childCount": 0,
+                   "children": []
+                  }
+                 ]
+                }
+               ]
+              },
+              {
+               "tag": "div",
+               "classes": "sub-list-li",
+               "childCount": 1,
+               "children": [
+                {
+                 "tag": "a",
+                 "classes": "category-box",
+                 "href": "https://www.ikea.cn/cn/zh/cat/zi-you-zu-he-sha-fa-31786/",
+                 "childCount": 2,
+                 "children": [
+                  {
+                   "tag": "div",
+                   "classes": "img-bg",
+                   "childCount": 1,
+                   "children": [
+                    {
+                     "tag": "img",
+                     "src": "https://file.app.ikea.cn/global/assets/range-categorisation/images/product/modular-sofas-31786.jpeg?x-oss-process=style/small",
+                     "alt": "模块沙发",
+                     "style": {
+                      "fontSize": "14px",
+                      "fontWeight": "400",
+                      "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                      "lineHeight": "52px",
+                      "color": "rgb(17, 17, 17)",
+                      "width": "64px",
+                      "height": "64px",
+                      "maxWidth": "100%",
+                      "display": "block",
+                      "flexDirection": "row",
+                      "flexWrap": "nowrap",
+                      "borderColor": "rgb(229, 231, 235)",
+                      "borderTopColor": "rgb(229, 231, 235)",
+                      "borderBottomColor": "rgb(229, 231, 235)",
+                      "overflow": "clip",
+                      "overflowX": "clip",
+                      "overflowY": "clip",
+                      "position": "absolute",
+                      "opacity": "1",
+                      "transition": "all",
+                      "cursor": "pointer",
+                      "objectFit": "cover",
+                      "objectPosition": "50% 50%",
+                      "mixBlendMode": "darken",
+                      "textOverflow": "clip",
+                      "flex": "0 1 auto",
+                      "order": "0",
+                      "verticalAlign": "middle"
+                     },
+                     "childCount": 0,
+                     "children": []
+                    }
+                   ]
+                  },
+                  {
+                   "tag": "div",
+                   "classes": "category-box-name",
+                   "text": "模块沙发",
+                   "style": {
+                    "fontSize": "14px",
+                    "fontWeight": "400",
+                    "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                    "lineHeight": "21px",
+                    "color": "rgb(17, 17, 17)",
+                    "width": "56px",
+                    "height": "21px",
+                    "display": "block",
+                    "flexDirection": "row",
+                    "flexWrap": "nowrap",
+                    "borderStyle": "solid",
+                    "borderColor": "rgb(229, 231, 235)",
+                    "borderTopColor": "rgb(229, 231, 235)",
+                    "borderBottomColor": "rgb(229, 231, 235)",
+                    "position": "static",
+                    "opacity": "1",
+                    "transition": "all",
+                    "cursor": "pointer",
+                    "objectFit": "fill",
+                    "objectPosition": "50% 50%",
+                    "textOverflow": "clip",
+                    "flex": "0 1 auto",
+                    "order": "0",
+                    "verticalAlign": "baseline"
+                   },
+                   "childCount": 0,
+                   "children": []
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "tag": "div",
+         "classes": "nav-header-card-li",
+         "childCount": 2,
+         "children": [
+          {
+           "tag": "div",
+           "classes": "card-container__menu hasAdResource",
+           "childCount": 1,
+           "children": [
+            {
+             "tag": "div",
+             "classes": "component",
+             "childCount": 1,
+             "children": [
+              {
+               "tag": "div",
+               "classes": "pub-columns three-columns",
+               "childCount": 3,
+               "children": [
+                {
+                 "tag": "div",
+                 "classes": "pub-columns__item",
+                 "childCount": 1,
+                 "children": [
+                  {
+                   "tag": "div",
+                   "classes": "pub-columns__content",
+                   "childCount": 4,
+                   "children": [
+                    {
+                     "tag": "div",
+                     "id": "undefined-0-0",
+                     "classes": "image-text-card component-wrapper",
+                     "childCount": 1,
+                     "children": [
+                      {
+                       "tag": "a",
+                       "classes": "image-text-card_link",
+                       "href": "/cn/zh/rooms/bedroom/",
+                       "childCount": 2,
+                       "children": []
+                      }
+                     ]
+                    },
+                    {
+                     "tag": "div",
+                     "id": "undefined-0-1",
+                     "classes": "image-text-card component-wrapper",
+                     "childCount": 1,
+                     "children": [
+                      {
+                       "tag": "a",
+                       "classes": "image-text-card_link",
+                       "href": "/cn/zh/rooms/dining/",
+                       "childCount": 2,
+                       "children": []
+                      }
+                     ]
+                    },
+                    {
+                     "tag": "div",
+                     "id": "undefined-0-2",
+                     "classes": "image-text-card component-wrapper",
+                     "childCount": 1,
+                     "children": [
+                      {
+                       "tag": "a",
+                       "classes": "image-text-card_link",
+                       "href": "/cn/zh/rooms/home-office/",
+                       "childCount": 2,
+                       "children": []
+                      }
+                     ]
+                    },
+                    {
+                     "tag": "div",
+                     "id": "undefined-0-3",
+                     "classes": "image-text-card component-wrapper",
+                     "childCount": 1,
+                     "children": [
+                      {
+                       "tag": "a",
+                       "classes": "image-text-card_link",
+                       "href": "/cn/zh/rooms/hallway/",
+                       "childCount": 2,
+                       "children": []
+                      }
+                     ]
+                    }
+                   ]
+                  }
+                 ]
+                },
+                {
+                 "tag": "div",
+                 "classes": "pub-columns__item",
+                 "childCount": 1,
+                 "children": [
+                  {
+                   "tag": "div",
+                   "classes": "pub-columns__content",
+                   "childCount": 4,
+                   "children": [
+                    {
+                     "tag": "div",
+                     "id": "undefined-1-0",
+                     "classes": "image-text-card component-wrapper",
+                     "childCount": 1,
+                     "children": [
+                      {
+                       "tag": "a",
+                       "classes": "image-text-card_link",
+                       "href": "/cn/zh/rooms/living-room/",
+                       "childCount": 2,
+                       "children": []
+                      }
+                     ]
+                    },
+                    {
+                     "tag": "div",
+                     "id": "undefined-1-1",
+                     "classes": "image-text-card component-wrapper",
+                     "childCount": 1,
+                     "children": [
+                      {
+                       "tag": "a",
+                       "classes": "image-text-card_link",
+                       "href": "/cn/zh/rooms/childrens-room/",
+                       "childCount": 2,
+                       "children": []
+                      }
+                     ]
+                    },
+                    {
+                     "tag": "div",
+                     "id": "undefined-1-2",
+                     "classes": "image-text-card component-wrapper",
+                     "childCount": 1,
+                     "children": [
+                      {
+                       "tag": "a",
+                       "classes": "image-text-card_link",
+                       "href": "/cn/zh/rooms/balcony/",
+                       "childCount": 2,
+                       "children": []
+                      }
+                     ]
+                    },
+                    {
+                     "tag": "div",
+                     "id": "undefined-1-3",
+                     "classes": "image-text-card component-wrapper",
+                     "childCount": 1,
+                     "children": [
+                      {
+                       "tag": "a",
+                       "classes": "image-text-card_link",
+                       "href": "/cn/zh/ikea-business/",
+                       "childCount": 2,
+                       "children": []
+                      }
+                     ]
+                    }
+                   ]
+                  }
+                 ]
+                },
+                {
+                 "tag": "div",
+                 "classes": "pub-columns__item",
+                 "childCount": 1,
+                 "children": [
+                  {
+                   "tag": "div",
+                   "classes": "pub-columns__content",
+                   "childCount": 3,
+                   "children": [
+                    {
+                     "tag": "div",
+                     "id": "undefined-2-0",
+                     "classes": "image-text-card component-wrapper",
+                     "childCount": 1,
+                     "children": [
+                      {
+                       "tag": "a",
+                       "classes": "image-text-card_link",
+                       "href": "/cn/zh/rooms/kitchen/",
+                       "childCount": 2,
+                       "children": []
+                      }
+                     ]
+                    },
+                    {
+                     "tag": "div",
+                     "id": "undefined-2-1",
+                     "classes": "image-text-card component-wrapper",
+                     "childCount": 1,
+                     "children": [
+                      {
+                       "tag": "a",
+                       "classes": "image-text-card_link",
+                       "href": "/cn/zh/rooms/bathroom/",
+                       "childCount": 2,
+                       "children": []
+                      }
+                     ]
+                    },
+                    {
+                     "tag": "div",
+                     "id": "undefined-2-2",
+                     "classes": "image-text-card component-wrapper",
+                     "childCount": 1,
+                     "children": [
+                      {
+                       "tag": "a",
+                       "classes": "image-text-card_link",
+                       "href": "/cn/zh/rooms/outdoor/",
+                       "childCount": 2,
+                       "children": []
+                      }
+                     ]
+                    }
+                   ]
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "tag": "div",
+           "classes": "card-container__resource",
+           "childCount": 1,
+           "children": [
+            {
+             "tag": "div",
+             "classes": "navigation-advertisements-page",
+             "childCount": 2,
+             "children": [
+              {
+               "tag": "div",
+               "classes": "inspiration-cards",
+               "childCount": 1,
+               "children": [
+                {
+                 "tag": "div",
+                 "classes": "i-carousel i-carousel--only-one-slide",
+                 "childCount": 1,
+                 "children": [
+                  {
+                   "tag": "div",
+                   "classes": "swiper swiper-initialized swiper-horizontal swiper-pointer-events i-carousel__swiper i-carousel__swiper--scrollbar-draggable i-carousel__swiper--pagination i-carousel__swiper--pagination-bar",
+                   "childCount": 3,
+                   "children": [
+                    {
+                     "tag": "div",
+                     "classes": "swiper-wrapper",
+                     "childCount": 1,
+                     "children": [
+                      {
+                       "tag": "div",
+                       "classes": "swiper-slide",
+                       "childCount": 1,
+                       "children": []
+                      }
+                     ]
+                    },
+                    {
+                     "tag": "div",
+                     "classes": "swiper-scrollbar",
+                     "style": {
+                      "fontSize": "14px",
+                      "fontWeight": "400",
+                      "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                      "lineHeight": "21px",
+                      "color": "rgb(17, 17, 17)",
+                      "backgroundColor": "rgb(223, 223, 223)",
+                      "width": "98%",
+                      "height": "2px",
+                      "flexDirection": "row",
+                      "flexWrap": "nowrap",
+                      "borderRadius": "2px",
+                      "borderStyle": "solid",
+                      "borderColor": "rgb(229, 231, 235)",
+                      "borderTopColor": "rgb(229, 231, 235)",
+                      "borderBottomColor": "rgb(229, 231, 235)",
+                      "position": "absolute",
+                      "bottom": "3px",
+                      "left": "1%",
+                      "zIndex": "5",
+                      "opacity": "1",
+                      "transition": "height 0.2s",
+                      "cursor": "grab",
+                      "objectFit": "fill",
+                      "objectPosition": "50% 50%",
+                      "textOverflow": "clip",
+                      "flex": "0 1 auto",
+                      "order": "0",
+                      "verticalAlign": "baseline"
+                     },
+                     "childCount": 0,
+                     "children": []
+                    },
+                    {
+                     "tag": "div",
+                     "classes": "swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal",
+                     "style": {
+                      "fontSize": "14px",
+                      "fontWeight": "400",
+                      "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                      "lineHeight": "21px",
+                      "color": "rgb(17, 17, 17)",
+                      "width": "100%",
+                      "flexDirection": "row",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "flexWrap": "nowrap",
+                      "borderStyle": "solid",
+                      "borderColor": "rgb(229, 231, 235)",
+                      "borderTopColor": "rgb(229, 231, 235)",
+                      "borderBottomColor": "rgb(229, 231, 235)",
+                      "position": "absolute",
+                      "zIndex": "10",
+                      "opacity": "1",
+                      "transition": "opacity 0.3s",
+                      "objectFit": "fill",
+                      "objectPosition": "50% 50%",
+                      "textOverflow": "clip",
+                      "flex": "0 1 auto",
+                      "order": "0",
+                      "verticalAlign": "baseline"
+                     },
+                     "childCount": 0,
+                     "children": []
+                    }
+                   ]
+                  }
+                 ]
+                }
+               ]
+              },
+              {
+               "tag": "div",
+               "classes": "pub-image",
+               "childCount": 1,
+               "children": [
+                {
+                 "tag": "a",
+                 "href": "",
+                 "childCount": 1,
+                 "children": [
+                  {
+                   "tag": "div",
+                   "classes": "i-aspect-ratio-box i-aspect-ratio-box--standard",
+                   "childCount": 2,
+                   "children": [
+                    {
+                     "tag": "div",
+                     "classes": "i-image",
+                     "style": {
+                      "fontSize": "14px",
+                      "fontWeight": "400",
+                      "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                      "lineHeight": "21px",
+                      "width": "100%",
+                      "height": "100%",
+                      "display": "block",
+                      "flexDirection": "row",
+                      "flexWrap": "nowrap",
+                      "borderStyle": "solid",
+                      "borderColor": "rgb(229, 231, 235)",
+                      "borderTopColor": "rgb(229, 231, 235)",
+                      "borderBottomColor": "rgb(229, 231, 235)",
+                      "position": "absolute",
+                      "opacity": "1",
+                      "transition": "all",
+                      "cursor": "pointer",
+                      "objectFit": "cover",
+                      "objectPosition": "50% 50%",
+                      "textOverflow": "clip",
+                      "flex": "0 1 auto",
+                      "order": "0",
+                      "verticalAlign": "baseline"
+                     },
+                     "childCount": 0,
+                     "children": []
+                    },
+                    {
+                     "tag": "div",
+                     "classes": "pub-shoppable-image",
+                     "style": {
+                      "fontSize": "14px",
+                      "fontWeight": "400",
+                      "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                      "lineHeight": "21px",
+                      "color": "rgb(17, 17, 17)",
+                      "width": "100%",
+                      "height": "100%",
+                      "display": "block",
+                      "flexDirection": "row",
+                      "flexWrap": "nowrap",
+                      "borderStyle": "solid",
+                      "borderColor": "rgb(229, 231, 235)",
+                      "borderTopColor": "rgb(229, 231, 235)",
+                      "borderBottomColor": "rgb(229, 231, 235)",
+                      "position": "absolute",
+                      "zIndex": "5",
+                      "opacity": "1",
+                      "transition": "all",
+                      "cursor": "pointer",
+                      "objectFit": "fill",
+                      "objectPosition": "50% 50%",
+                      "textOverflow": "clip",
+                      "flex": "0 1 auto",
+                      "order": "0",
+                      "verticalAlign": "baseline"
+                     },
+                     "childCount": 0,
+                     "children": []
+                    }
+                   ]
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "tag": "div",
+         "classes": "nav-header-card-li",
+         "childCount": 2,
+         "children": [
+          {
+           "tag": "div",
+           "classes": "card-container__menu hasAdResource",
+           "childCount": 1,
+           "children": [
+            {
+             "tag": "div",
+             "classes": "component",
+             "childCount": 1,
+             "children": [
+              {
+               "tag": "div",
+               "classes": "pub-columns two-columns",
+               "childCount": 2,
+               "children": [
+                {
+                 "tag": "div",
+                 "classes": "pub-columns__item",
+                 "childCount": 1,
+                 "children": [
+                  {
+                   "tag": "div",
+                   "classes": "pub-columns__content",
+                   "childCount": 1,
+                   "children": [
+                    {
+                     "tag": "div",
+                     "id": "undefined-0-0",
+                     "classes": "pub-image component-wrapper",
+                     "childCount": 1,
+                     "children": [
+                      {
+                       "tag": "a",
+                       "href": "/cn/zh/campaigns/wo3-men2-de-chao1-zhi2-di1-jia4-pub8b08af40",
+                       "childCount": 1,
+                       "children": []
+                      }
+                     ]
+                    }
+                   ]
+                  }
+                 ]
+                },
+                {
+                 "tag": "div",
+                 "classes": "pub-columns__item",
+                 "childCount": 1,
+                 "children": [
+                  {
+                   "tag": "div",
+                   "classes": "pub-columns__content",
+                   "childCount": 2,
+                   "children": [
+                    {
+                     "tag": "div",
+                     "id": "undefined-1-0",
+                     "classes": "pub-image component-wrapper",
+                     "childCount": 1,
+                     "children": [
+                      {
+                       "tag": "a",
+                       "href": "/cn/zh/campaigns/new-lower-price-pubff11f9fb",
+                       "childCount": 1,
+                       "children": []
+                      }
+                     ]
+                    },
+                    {
+                     "tag": "div",
+                     "id": "undefined-1-1",
+                     "classes": "pub-image component-wrapper",
+                     "childCount": 1,
+                     "children": [
+                      {
+                       "tag": "a",
+                       "href": "",
+                       "childCount": 1,
+                       "children": []
+                      }
+                     ]
+                    }
+                   ]
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "tag": "div",
+           "classes": "card-container__resource",
+           "childCount": 1,
+           "children": [
+            {
+             "tag": "div",
+             "classes": "navigation-advertisements-page",
+             "childCount": 1,
+             "children": [
+              {
+               "tag": "div",
+               "classes": "inspiration-cards",
+               "childCount": 1,
+               "children": [
+                {
+                 "tag": "div",
+                 "classes": "i-carousel i-carousel--only-one-slide",
+                 "childCount": 1,
+                 "children": [
+                  {
+                   "tag": "div",
+                   "classes": "swiper swiper-initialized swiper-horizontal swiper-pointer-events i-carousel__swiper i-carousel__swiper--scrollbar-draggable i-carousel__swiper--pagination i-carousel__swiper--pagination-bar",
+                   "childCount": 3,
+                   "children": [
+                    {
+                     "tag": "div",
+                     "classes": "swiper-wrapper",
+                     "childCount": 1,
+                     "children": [
+                      {
+                       "tag": "div",
+                       "classes": "swiper-slide",
+                       "childCount": 1,
+                       "children": []
+                      }
+                     ]
+                    },
+                    {
+                     "tag": "div",
+                     "classes": "swiper-scrollbar",
+                     "style": {
+                      "fontSize": "14px",
+                      "fontWeight": "400",
+                      "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                      "lineHeight": "21px",
+                      "color": "rgb(17, 17, 17)",
+                      "backgroundColor": "rgb(223, 223, 223)",
+                      "width": "98%",
+                      "height": "2px",
+                      "flexDirection": "row",
+                      "flexWrap": "nowrap",
+                      "borderRadius": "2px",
+                      "borderStyle": "solid",
+                      "borderColor": "rgb(229, 231, 235)",
+                      "borderTopColor": "rgb(229, 231, 235)",
+                      "borderBottomColor": "rgb(229, 231, 235)",
+                      "position": "absolute",
+                      "bottom": "3px",
+                      "left": "1%",
+                      "zIndex": "5",
+                      "opacity": "1",
+                      "transition": "height 0.2s",
+                      "cursor": "grab",
+                      "objectFit": "fill",
+                      "objectPosition": "50% 50%",
+                      "textOverflow": "clip",
+                      "flex": "0 1 auto",
+                      "order": "0",
+                      "verticalAlign": "baseline"
+                     },
+                     "childCount": 0,
+                     "children": []
+                    },
+                    {
+                     "tag": "div",
+                     "classes": "swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal",
+                     "style": {
+                      "fontSize": "14px",
+                      "fontWeight": "400",
+                      "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                      "lineHeight": "21px",
+                      "color": "rgb(17, 17, 17)",
+                      "width": "100%",
+                      "flexDirection": "row",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "flexWrap": "nowrap",
+                      "borderStyle": "solid",
+                      "borderColor": "rgb(229, 231, 235)",
+                      "borderTopColor": "rgb(229, 231, 235)",
+                      "borderBottomColor": "rgb(229, 231, 235)",
+                      "position": "absolute",
+                      "zIndex": "10",
+                      "opacity": "1",
+                      "transition": "opacity 0.3s",
+                      "objectFit": "fill",
+                      "objectPosition": "50% 50%",
+                      "textOverflow": "clip",
+                      "flex": "0 1 auto",
+                      "order": "0",
+                      "verticalAlign": "baseline"
+                     },
+                     "childCount": 0,
+                     "children": []
+                    }
+                   ]
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "tag": "div",
+         "classes": "nav-header-card-li",
+         "childCount": 1,
+         "children": [
+          {
+           "tag": "div",
+           "classes": "card-container__menu",
+           "childCount": 1,
+           "children": [
+            {
+             "tag": "div",
+             "classes": "component",
+             "childCount": 1,
+             "children": [
+              {
+               "tag": "div",
+               "classes": "pub-columns three-columns",
+               "childCount": 3,
+               "children": [
+                {
+                 "tag": "div",
+                 "classes": "pub-columns__item",
+                 "childCount": 1,
+                 "children": [
+                  {
+                   "tag": "div",
+                   "classes": "pub-columns__content",
+                   "childCount": 4,
+                   "children": [
+                    {
+                     "tag": "div",
+                     "id": "undefined-0-0",
+                     "classes": "pub-text component-wrapper",
+                     "childCount": 1,
+                     "children": [
+                      {
+                       "tag": "h2",
+                       "childCount": 1,
+                       "children": []
+                      }
+                     ]
+                    },
+                    {
+                     "tag": "div",
+                     "id": "undefined-0-1",
+                     "classes": "pub-text component-wrapper",
+                     "childCount": 1,
+                     "children": [
+                      {
+                       "tag": "span",
+                       "text": "使用宜家设计工具，随心打造个性设计",
+                       "style": {
+                        "fontSize": "14px",
+                        "fontWeight": "400",
+                        "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                        "lineHeight": "21px",
+                        "color": "rgb(118, 118, 118)",
+                        "display": "inline",
+                        "flexDirection": "row",
+                        "flexWrap": "nowrap",
+                        "borderStyle": "solid",
+                        "borderColor": "rgb(229, 231, 235)",
+                        "borderTopColor": "rgb(229, 231, 235)",
+                        "borderBottomColor": "rgb(229, 231, 235)",
+                        "position": "static",
+                        "opacity": "1",
+                        "transition": "all",
+                        "objectFit": "fill",
+                        "objectPosition": "50% 50%",
+                        "textOverflow": "clip",
+                        "flex": "0 1 auto",
+                        "order": "0",
+                        "verticalAlign": "baseline"
+                       },
+                       "childCount": 0,
+                       "children": []
+                      }
+                     ]
+                    },
+                    {
+                     "tag": "div",
+                     "id": "undefined-0-2",
+                     "classes": "link-list component-wrapper",
+                     "childCount": 4,
+                     "children": [
+                      {
+                       "tag": "div",
+                       "classes": "link-list-thumbnails-item",
+                       "childCount": 1,
+                       "children": []
+                      },
+                      {
+                       "tag": "div",
+                       "classes": "link-list-thumbnails-item",
+                       "childCount": 1,
+                       "children": []
+                      },
+                      {
+                       "tag": "div",
+                       "classes": "link-list-thumbnails-item",
+                       "childCount": 1,
+                       "children": []
+                      },
+                      {
+                       "tag": "div",
+                       "classes": "link-list-thumbnails-item",
+                       "childCount": 1,
+                       "children": []
+                      }
+                     ]
+                    },
+                    {
+                     "tag": "div",
+                     "id": "undefined-0-3",
+                     "classes": "link-list component-wrapper",
+                     "childCount": 1,
+                     "children": [
+                      {
+                       "tag": "div",
+                       "classes": "link-list-list-item",
+                       "childCount": 1,
+                       "children": []
+                      }
+                     ]
+                    }
+                   ]
+                  }
+                 ]
+                },
+                {
+                 "tag": "div",
+                 "classes": "pub-columns__item",
+                 "childCount": 1,
+                 "children": [
+                  {
+                   "tag": "div",
+                   "classes": "pub-columns__content",
+                   "style": {
+                    "fontSize": "14px",
+                    "fontWeight": "400",
+                    "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                    "lineHeight": "21px",
+                    "color": "rgb(17, 17, 17)",
+                    "display": "block",
+                    "flexDirection": "column",
+                    "flexWrap": "nowrap",
+                    "borderStyle": "solid",
+                    "borderColor": "rgb(229, 231, 235)",
+                    "borderTopColor": "rgb(229, 231, 235)",
+                    "borderBottomColor": "rgb(229, 231, 235)",
+                    "position": "static",
+                    "opacity": "1",
+                    "transition": "all",
+                    "objectFit": "fill",
+                    "objectPosition": "50% 50%",
+                    "textOverflow": "clip",
+                    "flex": "0 1 auto",
+                    "order": "0",
+                    "verticalAlign": "baseline"
+                   },
+                   "childCount": 5,
+                   "children": [
+                    {
+                     "tag": "div",
+                     "id": "undefined-1-0",
+                     "classes": "pub-text component-wrapper",
+                     "childCount": 1,
+                     "children": [
+                      {
+                       "tag": "h2",
+                       "childCount": 1,
+                       "children": []
+                      }
+                     ]
+                    },
+                    {
+                     "tag": "div",
+                     "id": "undefined-1-1",
+                     "classes": "pub-text component-wrapper",
+                     "childCount": 1,
+                     "children": [
+                      {
+                       "tag": "span",
+                       "text": "一对一设计服务，开启你的设计理想家之旅",
+                       "style": {
+                        "fontSize": "14px",
+                        "fontWeight": "400",
+                        "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                        "lineHeight": "21px",
+                        "color": "rgb(118, 118, 118)",
+                        "display": "inline",
+                        "flexDirection": "row",
+                        "flexWrap": "nowrap",
+                        "borderStyle": "solid",
+                        "borderColor": "rgb(229, 231, 235)",
+                        "borderTopColor": "rgb(229, 231, 235)",
+                        "borderBottomColor": "rgb(229, 231, 235)",
+                        "position": "static",
+                        "opacity": "1",
+                        "transition": "all",
+                        "objectFit": "fill",
+                        "objectPosition": "50% 50%",
+                        "textOverflow": "clip",
+                        "flex": "0 1 auto",
+                        "order": "0",
+                        "verticalAlign": "baseline"
+                       },
+                       "childCount": 0,
+                       "children": []
+                      }
+                     ]
+                    },
+                    {
+                     "tag": "div",
+                     "id": "undefined-1-2",
+                     "classes": "pub-image component-wrapper",
+                     "childCount": 1,
+                     "children": [
+                      {
+                       "tag": "a",
+                       "href": "https://store-companion.ikea.cn/design-leads/wrd.html?channel=EC_website&cl_sr=IRW_homepage_3nd_Anniversary&design_version=non_GPC_case&source=NEW_WEB",
+                       "childCount": 1,
+                       "children": []
+                      }
+                     ]
+                    },
+                    {
+                     "tag": "div",
+                     "id": "undefined-1-3",
+                     "classes": "pub-image component-wrapper",
+                     "childCount": 1,
+                     "children": [
+                      {
+                       "tag": "a",
+                       "href": "https://store-companion.ikea.cn/design-leads/kitchen.html?channel=kitchen_IRW+M2&cl_sr=IRW+M2&source=NEW_WEB",
+                       "childCount": 1,
+                       "children": []
+                      }
+                     ]
+                    },
+                    {
+                     "tag": "div",
+                     "id": "undefined-1-4",
+                     "classes": "pub-image component-wrapper",
+                     "childCount": 1,
+                     "children": [
+                      {
+                       "tag": "a",
+                       "href": "https://store-companion.ikea.cn/design-leads/hfc.html?channel=EC_website&cl_sr=HFC_header",
+                       "childCount": 1,
+                       "children": []
+                      }
+                     ]
+                    }
+                   ]
+                  }
+                 ]
+                },
+                {
+                 "tag": "div",
+                 "classes": "pub-columns__item",
+                 "childCount": 1,
+                 "children": [
+                  {
+                   "tag": "div",
+                   "classes": "pub-columns__content",
+                   "childCount": 4,
+                   "children": [
+                    {
+                     "tag": "div",
+                     "id": "undefined-2-0",
+                     "classes": "pub-text component-wrapper",
+                     "childCount": 1,
+                     "children": [
+                      {
+                       "tag": "h2",
+                       "childCount": 1,
+                       "children": []
+                      }
+                     ]
+                    },
+                    {
+                     "tag": "div",
+                     "id": "undefined-2-1",
+                     "classes": "pub-text component-wrapper",
+                     "childCount": 1,
+                     "children": [
+                      {
+                       "tag": "span",
+                       "text": "我们提供一系列服务，让你的生活更加简便",
+                       "style": {
+                        "fontSize": "14px",
+                        "fontWeight": "400",
+                        "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                        "lineHeight": "21px",
+                        "color": "rgb(118, 118, 118)",
+                        "display": "inline",
+                        "flexDirection": "row",
+                        "flexWrap": "nowrap",
+                        "borderStyle": "solid",
+                        "borderColor": "rgb(229, 231, 235)",
+                        "borderTopColor": "rgb(229, 231, 235)",
+                        "borderBottomColor": "rgb(229, 231, 235)",
+                        "position": "static",
+                        "opacity": "1",
+                        "transition": "all",
+                        "objectFit": "fill",
+                        "objectPosition": "50% 50%",
+                        "textOverflow": "clip",
+                        "flex": "0 1 auto",
+                        "order": "0",
+                        "verticalAlign": "baseline"
+                       },
+                       "childCount": 0,
+                       "children": []
+                      }
+                     ]
+                    },
+                    {
+                     "tag": "div",
+                     "id": "undefined-2-2",
+                     "classes": "pub-image component-wrapper",
+                     "childCount": 1,
+                     "children": [
+                      {
+                       "tag": "a",
+                       "href": "https://www.ikea.cn/cn/zh/ikea-business/",
+                       "childCount": 1,
+                       "children": []
+                      }
+                     ]
+                    },
+                    {
+                     "tag": "div",
+                     "id": "undefined-2-3",
+                     "classes": "link-list component-wrapper",
+                     "childCount": 2,
+                     "children": [
+                      {
+                       "tag": "div",
+                       "classes": "link-list-list-item",
+                       "childCount": 1,
+                       "children": []
+                      },
+                      {
+                       "tag": "div",
+                       "classes": "link-list-list-item",
+                       "childCount": 1,
+                       "children": []
+                      }
+                     ]
+                    }
+                   ]
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "tag": "div",
+         "classes": "nav-header-card-li",
+         "childCount": 2,
+         "children": [
+          {
+           "tag": "div",
+           "classes": "card-container__menu hasAdResource",
+           "childCount": 1,
+           "children": [
+            {
+             "tag": "div",
+             "classes": "component",
+             "childCount": 1,
+             "children": [
+              {
+               "tag": "div",
+               "classes": "pub-columns two-columns",
+               "childCount": 2,
+               "children": [
+                {
+                 "tag": "div",
+                 "classes": "pub-columns__item",
+                 "childCount": 1,
+                 "children": [
+                  {
+                   "tag": "div",
+                   "classes": "pub-columns__content",
+                   "style": {
+                    "fontSize": "14px",
+                    "fontWeight": "400",
+                    "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                    "lineHeight": "21px",
+                    "color": "rgb(17, 17, 17)",
+                    "display": "block",
+                    "flexDirection": "column",
+                    "flexWrap": "nowrap",
+                    "borderStyle": "solid",
+                    "borderColor": "rgb(229, 231, 235)",
+                    "borderTopColor": "rgb(229, 231, 235)",
+                    "borderBottomColor": "rgb(229, 231, 235)",
+                    "position": "static",
+                    "opacity": "1",
+                    "transition": "all",
+                    "objectFit": "fill",
+                    "objectPosition": "50% 50%",
+                    "textOverflow": "clip",
+                    "flex": "0 1 auto",
+                    "order": "0",
+                    "verticalAlign": "baseline"
+                   },
+                   "childCount": 6,
+                   "children": [
+                    {
+                     "tag": "div",
+                     "id": "undefined-0-0",
+                     "classes": "image-text-card component-wrapper",
+                     "childCount": 1,
+                     "children": [
+                      {
+                       "tag": "a",
+                       "classes": "image-text-card_link",
+                       "href": "/cn/zh/rooms/bedroom/gallery/",
+                       "childCount": 2,
+                       "children": []
+                      }
+                     ]
+                    },
+                    {
+                     "tag": "div",
+                     "id": "undefined-0-1",
+                     "classes": "image-text-card component-wrapper",
+                     "childCount": 1,
+                     "children": [
+                      {
+                       "tag": "a",
+                       "classes": "image-text-card_link",
+                       "href": "/cn/zh/rooms/dining/gallery/",
+                       "childCount": 2,
+                       "children": []
+                      }
+                     ]
+                    },
+                    {
+                     "tag": "div",
+                     "id": "undefined-0-2",
+                     "classes": "image-text-card component-wrapper",
+                     "childCount": 1,
+                     "children": [
+                      {
+                       "tag": "a",
+                       "classes": "image-text-card_link",
+                       "href": "/cn/zh/rooms/home-office/gallery/",
+                       "childCount": 2,
+                       "children": []
+                      }
+                     ]
+                    },
+                    {
+                     "tag": "div",
+                     "id": "undefined-0-3",
+                     "classes": "image-text-card component-wrapper",
+                     "childCount": 1,
+                     "children": [
+                      {
+                       "tag": "a",
+                       "classes": "image-text-card_link",
+                       "href": "/cn/zh/rooms/living-room/gallery/",
+                       "childCount": 2,
+                       "children": []
+                      }
+                     ]
+                    },
+                    {
+                     "tag": "div",
+                     "id": "undefined-0-4",
+                     "classes": "image-text-card component-wrapper",
+                     "childCount": 1,
+                     "children": [
+                      {
+                       "tag": "a",
+                       "classes": "image-text-card_link",
+                       "href": "/cn/zh/rooms/childrens-room/gallery/",
+                       "childCount": 2,
+                       "children": []
+                      }
+                     ]
+                    },
+                    {
+                     "tag": "div",
+                     "id": "undefined-0-5",
+                     "classes": "image-text-card component-wrapper",
+                     "childCount": 1,
+                     "children": [
+                      {
+                       "tag": "a",
+                       "classes": "image-text-card_link",
+                       "href": "/cn/zh/rooms/hallway/gallery/",
+                       "childCount": 2,
+                       "children": []
+                      }
+                     ]
+                    }
+                   ]
+                  }
+                 ]
+                },
+                {
+                 "tag": "div",
+                 "classes": "pub-columns__item",
+                 "childCount": 1,
+                 "children": [
+                  {
+                   "tag": "div",
+                   "classes": "pub-columns__content",
+                   "style": {
+                    "fontSize": "14px",
+                    "fontWeight": "400",
+                    "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                    "lineHeight": "21px",
+                    "color": "rgb(17, 17, 17)",
+                    "display": "block",
+                    "flexDirection": "column",
+                    "flexWrap": "nowrap",
+                    "borderStyle": "solid",
+                    "borderColor": "rgb(229, 231, 235)",
+                    "borderTopColor": "rgb(229, 231, 235)",
+                    "borderBottomColor": "rgb(229, 231, 235)",
+                    "position": "static",
+                    "opacity": "1",
+                    "transition": "all",
+                    "objectFit": "fill",
+                    "objectPosition": "50% 50%",
+                    "textOverflow": "clip",
+                    "flex": "0 1 auto",
+                    "order": "0",
+                    "verticalAlign": "baseline"
+                   },
+                   "childCount": 5,
+                   "children": [
+                    {
+                     "tag": "div",
+                     "id": "undefined-1-0",
+                     "classes": "image-text-card component-wrapper",
+                     "childCount": 1,
+                     "children": [
+                      {
+                       "tag": "a",
+                       "classes": "image-text-card_link",
+                       "href": "/cn/zh/rooms/kitchen/gallery/",
+                       "childCount": 2,
+                       "children": []
+                      }
+                     ]
+                    },
+                    {
+                     "tag": "div",
+                     "id": "undefined-1-1",
+                     "classes": "image-text-card component-wrapper",
+                     "childCount": 1,
+                     "children": [
+                      {
+                       "tag": "a",
+                       "classes": "image-text-card_link",
+                       "href": "/cn/zh/rooms/bathroom/gallery/",
+                       "childCount": 2,
+                       "children": []
+                      }
+                     ]
+                    },
+                    {
+                     "tag": "div",
+                     "id": "undefined-1-2",
+                     "classes": "image-text-card component-wrapper",
+                     "childCount": 1,
+                     "children": [
+                      {
+                       "tag": "a",
+                       "classes": "image-text-card_link",
+                       "href": "/cn/zh/rooms/outdoor/gallery/",
+                       "childCount": 2,
+                       "children": []
+                      }
+                     ]
+                    },
+                    {
+                     "tag": "div",
+                     "id": "undefined-1-3",
+                     "classes": "image-text-card component-wrapper",
+                     "childCount": 1,
+                     "children": [
+                      {
+                       "tag": "a",
+                       "classes": "image-text-card_link",
+                       "href": "/cn/zh/ideas/ikea-plus-you/",
+                       "childCount": 2,
+                       "children": []
+                      }
+                     ]
+                    },
+                    {
+                     "tag": "div",
+                     "id": "undefined-1-4",
+                     "classes": "image-text-card component-wrapper",
+                     "childCount": 1,
+                     "children": [
+                      {
+                       "tag": "a",
+                       "classes": "image-text-card_link",
+                       "href": "/cn/zh/ideas/rooms-inspiration/",
+                       "childCount": 2,
+                       "children": []
+                      }
+                     ]
+                    }
+                   ]
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "tag": "div",
+           "classes": "card-container__resource",
+           "childCount": 1,
+           "children": [
+            {
+             "tag": "div",
+             "classes": "navigation-advertisements-page",
+             "childCount": 2,
+             "children": [
+              {
+               "tag": "div",
+               "classes": "inspiration-cards",
+               "childCount": 1,
+               "children": [
+                {
+                 "tag": "div",
+                 "classes": "i-carousel",
+                 "childCount": 1,
+                 "children": [
+                  {
+                   "tag": "div",
+                   "classes": "swiper swiper-initialized swiper-horizontal swiper-pointer-events i-carousel__swiper i-carousel__swiper--scrollbar-draggable i-carousel__swiper--pagination i-carousel__swiper--pagination-bar",
+                   "childCount": 3,
+                   "children": [
+                    {
+                     "tag": "div",
+                     "classes": "swiper-wrapper",
+                     "childCount": 4,
+                     "children": [
+                      {
+                       "tag": "div",
+                       "classes": "swiper-slide",
+                       "childCount": 1,
+                       "children": []
+                      },
+                      {
+                       "tag": "div",
+                       "classes": "swiper-slide",
+                       "childCount": 1,
+                       "children": []
+                      },
+                      {
+                       "tag": "div",
+                       "classes": "swiper-slide",
+                       "childCount": 1,
+                       "children": []
+                      },
+                      {
+                       "tag": "div",
+                       "classes": "swiper-slide",
+                       "childCount": 1,
+                       "children": []
+                      }
+                     ]
+                    },
+                    {
+                     "tag": "div",
+                     "classes": "swiper-scrollbar",
+                     "style": {
+                      "fontSize": "14px",
+                      "fontWeight": "400",
+                      "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                      "lineHeight": "21px",
+                      "color": "rgb(17, 17, 17)",
+                      "backgroundColor": "rgb(223, 223, 223)",
+                      "width": "98%",
+                      "height": "2px",
+                      "flexDirection": "row",
+                      "flexWrap": "nowrap",
+                      "borderRadius": "2px",
+                      "borderStyle": "solid",
+                      "borderColor": "rgb(229, 231, 235)",
+                      "borderTopColor": "rgb(229, 231, 235)",
+                      "borderBottomColor": "rgb(229, 231, 235)",
+                      "position": "absolute",
+                      "bottom": "3px",
+                      "left": "1%",
+                      "zIndex": "5",
+                      "opacity": "1",
+                      "transition": "height 0.2s",
+                      "cursor": "grab",
+                      "objectFit": "fill",
+                      "objectPosition": "50% 50%",
+                      "textOverflow": "clip",
+                      "flex": "0 1 auto",
+                      "order": "0",
+                      "verticalAlign": "baseline"
+                     },
+                     "childCount": 0,
+                     "children": []
+                    },
+                    {
+                     "tag": "div",
+                     "classes": "swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal",
+                     "style": {
+                      "fontSize": "14px",
+                      "fontWeight": "400",
+                      "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                      "lineHeight": "21px",
+                      "color": "rgb(17, 17, 17)",
+                      "width": "100%",
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "flexWrap": "nowrap",
+                      "borderStyle": "solid",
+                      "borderColor": "rgb(229, 231, 235)",
+                      "borderTopColor": "rgb(229, 231, 235)",
+                      "borderBottomColor": "rgb(229, 231, 235)",
+                      "position": "absolute",
+                      "zIndex": "10",
+                      "opacity": "1",
+                      "transition": "opacity 0.3s",
+                      "objectFit": "fill",
+                      "objectPosition": "50% 50%",
+                      "textOverflow": "clip",
+                      "flex": "0 1 auto",
+                      "order": "0",
+                      "verticalAlign": "baseline"
+                     },
+                     "childCount": 0,
+                     "children": []
+                    }
+                   ]
+                  }
+                 ]
+                }
+               ]
+              },
+              {
+               "tag": "div",
+               "classes": "pub-image",
+               "childCount": 1,
+               "children": [
+                {
+                 "tag": "a",
+                 "href": "/cn/zh/ideas/",
+                 "childCount": 1,
+                 "children": [
+                  {
+                   "tag": "div",
+                   "classes": "i-aspect-ratio-box i-aspect-ratio-box--standard",
+                   "childCount": 2,
+                   "children": [
+                    {
+                     "tag": "div",
+                     "classes": "i-image",
+                     "style": {
+                      "fontSize": "14px",
+                      "fontWeight": "400",
+                      "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                      "lineHeight": "21px",
+                      "width": "100%",
+                      "height": "100%",
+                      "display": "block",
+                      "flexDirection": "row",
+                      "flexWrap": "nowrap",
+                      "borderStyle": "solid",
+                      "borderColor": "rgb(229, 231, 235)",
+                      "borderTopColor": "rgb(229, 231, 235)",
+                      "borderBottomColor": "rgb(229, 231, 235)",
+                      "position": "absolute",
+                      "opacity": "1",
+                      "transition": "all",
+                      "cursor": "pointer",
+                      "objectFit": "cover",
+                      "objectPosition": "50% 50%",
+                      "textOverflow": "clip",
+                      "flex": "0 1 auto",
+                      "order": "0",
+                      "verticalAlign": "baseline"
+                     },
+                     "childCount": 0,
+                     "children": []
+                    },
+                    {
+                     "tag": "div",
+                     "classes": "pub-shoppable-image",
+                     "style": {
+                      "fontSize": "14px",
+                      "fontWeight": "400",
+                      "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                      "lineHeight": "21px",
+                      "color": "rgb(17, 17, 17)",
+                      "width": "100%",
+                      "height": "100%",
+                      "display": "block",
+                      "flexDirection": "row",
+                      "flexWrap": "nowrap",
+                      "borderStyle": "solid",
+                      "borderColor": "rgb(229, 231, 235)",
+                      "borderTopColor": "rgb(229, 231, 235)",
+                      "borderBottomColor": "rgb(229, 231, 235)",
+                      "position": "absolute",
+                      "zIndex": "5",
+                      "opacity": "1",
+                      "transition": "all",
+                      "cursor": "pointer",
+                      "objectFit": "fill",
+                      "objectPosition": "50% 50%",
+                      "textOverflow": "clip",
+                      "flex": "0 1 auto",
+                      "order": "0",
+                      "verticalAlign": "baseline"
+                     },
+                     "childCount": 0,
+                     "children": []
+                    }
+                   ]
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "tag": "div",
+         "classes": "nav-header-card-li",
+         "childCount": 2,
+         "children": [
+          {
+           "tag": "div",
+           "classes": "card-container__menu hasAdResource",
+           "childCount": 1,
+           "children": [
+            {
+             "tag": "div",
+             "classes": "component",
+             "childCount": 1,
+             "children": [
+              {
+               "tag": "div",
+               "classes": "pub-columns two-columns",
+               "childCount": 2,
+               "children": [
+                {
+                 "tag": "div",
+                 "classes": "pub-columns__item",
+                 "childCount": 1,
+                 "children": [
+                  {
+                   "tag": "div",
+                   "classes": "pub-columns__content",
+                   "childCount": 2,
+                   "children": [
+                    {
+                     "tag": "div",
+                     "id": "undefined-0-0",
+                     "classes": "pub-image component-wrapper",
+                     "childCount": 1,
+                     "children": [
+                      {
+                       "tag": "a",
+                       "href": "/cn/zh/new/meet-the-ikea-ps-2026-collection-pubf28e636c",
+                       "childCount": 1,
+                       "children": []
+                      }
+                     ]
+                    },
+                    {
+                     "tag": "div",
+                     "id": "undefined-0-1",
+                     "classes": "pub-image component-wrapper",
+                     "childCount": 1,
+                     "children": [
+                      {
+                       "tag": "a",
+                       "href": "/cn/zh/rooms/bedroom/LASTARE-serie-pub03fdc74e",
+                       "childCount": 1,
+                       "children": []
+                      }
+                     ]
+                    }
+                   ]
+                  }
+                 ]
+                },
+                {
+                 "tag": "div",
+                 "classes": "pub-columns__item",
+                 "childCount": 1,
+                 "children": [
+                  {
+                   "tag": "div",
+                   "classes": "pub-columns__content",
+                   "childCount": 2,
+                   "children": [
+                    {
+                     "tag": "div",
+                     "id": "undefined-1-0",
+                     "classes": "pub-image component-wrapper",
+                     "childCount": 1,
+                     "children": [
+                      {
+                       "tag": "a",
+                       "href": "/cn/zh/rooms/living-room/-ae-li-le-sai-te--puba9cf4fd8",
+                       "childCount": 1,
+                       "children": []
+                      }
+                     ]
+                    },
+                    {
+                     "tag": "div",
+                     "id": "undefined-1-1",
+                     "classes": "pub-image component-wrapper",
+                     "childCount": 1,
+                     "children": [
+                      {
+                       "tag": "a",
+                       "href": "/cn/zh/new/let-your-home-come-out-and-play-pubc28e2323",
+                       "childCount": 1,
+                       "children": []
+                      }
+                     ]
+                    }
+                   ]
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "tag": "div",
+           "classes": "card-container__resource",
+           "childCount": 1,
+           "children": [
+            {
+             "tag": "div",
+             "classes": "navigation-advertisements-page",
+             "childCount": 1,
+             "children": [
+              {
+               "tag": "div",
+               "classes": "inspiration-cards",
+               "childCount": 1,
+               "children": [
+                {
+                 "tag": "div",
+                 "classes": "i-carousel i-carousel--only-one-slide",
+                 "childCount": 1,
+                 "children": [
+                  {
+                   "tag": "div",
+                   "classes": "swiper swiper-initialized swiper-horizontal swiper-pointer-events i-carousel__swiper i-carousel__swiper--scrollbar-draggable i-carousel__swiper--pagination i-carousel__swiper--pagination-bar",
+                   "childCount": 3,
+                   "children": [
+                    {
+                     "tag": "div",
+                     "classes": "swiper-wrapper",
+                     "childCount": 1,
+                     "children": [
+                      {
+                       "tag": "div",
+                       "classes": "swiper-slide",
+                       "childCount": 1,
+                       "children": []
+                      }
+                     ]
+                    },
+                    {
+                     "tag": "div",
+                     "classes": "swiper-scrollbar",
+                     "style": {
+                      "fontSize": "14px",
+                      "fontWeight": "400",
+                      "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                      "lineHeight": "21px",
+                      "color": "rgb(17, 17, 17)",
+                      "backgroundColor": "rgb(223, 223, 223)",
+                      "width": "98%",
+                      "height": "2px",
+                      "flexDirection": "row",
+                      "flexWrap": "nowrap",
+                      "borderRadius": "2px",
+                      "borderStyle": "solid",
+                      "borderColor": "rgb(229, 231, 235)",
+                      "borderTopColor": "rgb(229, 231, 235)",
+                      "borderBottomColor": "rgb(229, 231, 235)",
+                      "position": "absolute",
+                      "bottom": "3px",
+                      "left": "1%",
+                      "zIndex": "5",
+                      "opacity": "1",
+                      "transition": "height 0.2s",
+                      "cursor": "grab",
+                      "objectFit": "fill",
+                      "objectPosition": "50% 50%",
+                      "textOverflow": "clip",
+                      "flex": "0 1 auto",
+                      "order": "0",
+                      "verticalAlign": "baseline"
+                     },
+                     "childCount": 0,
+                     "children": []
+                    },
+                    {
+                     "tag": "div",
+                     "classes": "swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal",
+                     "style": {
+                      "fontSize": "14px",
+                      "fontWeight": "400",
+                      "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                      "lineHeight": "21px",
+                      "color": "rgb(17, 17, 17)",
+                      "width": "100%",
+                      "flexDirection": "row",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "flexWrap": "nowrap",
+                      "borderStyle": "solid",
+                      "borderColor": "rgb(229, 231, 235)",
+                      "borderTopColor": "rgb(229, 231, 235)",
+                      "borderBottomColor": "rgb(229, 231, 235)",
+                      "position": "absolute",
+                      "zIndex": "10",
+                      "opacity": "1",
+                      "transition": "opacity 0.3s",
+                      "objectFit": "fill",
+                      "objectPosition": "50% 50%",
+                      "textOverflow": "clip",
+                      "flex": "0 1 auto",
+                      "order": "0",
+                      "verticalAlign": "baseline"
+                     },
+                     "childCount": 0,
+                     "children": []
+                    }
+                   ]
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "tag": "div",
+         "classes": "nav-header-card-li",
+         "childCount": 1,
+         "children": [
+          {
+           "tag": "div",
+           "classes": "card-container__menu",
+           "childCount": 1,
+           "children": [
+            {
+             "tag": "div",
+             "classes": "component",
+             "childCount": 1,
+             "children": [
+              {
+               "tag": "div",
+               "classes": "pub-columns one-columns",
+               "childCount": 1,
+               "children": [
+                {
+                 "tag": "div",
+                 "classes": "pub-columns__item",
+                 "childCount": 1,
+                 "children": [
+                  {
+                   "tag": "div",
+                   "classes": "pub-columns__content",
+                   "childCount": 1,
+                   "children": [
+                    {
+                     "tag": "div",
+                     "id": "undefined-0-0",
+                     "classes": "link-list component-wrapper",
+                     "style": {
+                      "fontSize": "14px",
+                      "fontWeight": "400",
+                      "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+                      "lineHeight": "21px",
+                      "color": "rgb(17, 17, 17)",
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "flexWrap": "wrap",
+                      "borderStyle": "solid",
+                      "borderColor": "rgb(229, 231, 235)",
+                      "borderTopColor": "rgb(229, 231, 235)",
+                      "borderBottomColor": "rgb(229, 231, 235)",
+                      "position": "static",
+                      "opacity": "1",
+                      "transition": "all",
+                      "objectFit": "fill",
+                      "objectPosition": "50% 50%",
+                      "textOverflow": "clip",
+                      "flex": "0 1 auto",
+                      "order": "0",
+                      "verticalAlign": "baseline"
+                     },
+                     "childCount": 6,
+                     "children": [
+                      {
+                       "tag": "div",
+                       "classes": "link-list-list-item",
+                       "childCount": 1,
+                       "children": []
+                      },
+                      {
+                       "tag": "div",
+                       "classes": "link-list-list-item",
+                       "childCount": 1,
+                       "children": []
+                      },
+                      {
+                       "tag": "div",
+                       "classes": "link-list-list-item",
+                       "childCount": 1,
+                       "children": []
+                      },
+                      {
+                       "tag": "div",
+                       "classes": "link-list-list-item",
+                       "childCount": 1,
+                       "children": []
+                      },
+                      {
+                       "tag": "div",
+                       "classes": "link-list-list-item",
+                       "childCount": 1,
+                       "children": []
+                      },
+                      {
+                       "tag": "div",
+                       "classes": "link-list-list-item",
+                       "childCount": 1,
+                       "children": []
+                      }
+                     ]
+                    }
+                   ]
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "maskStyle": ""
+ },
+ "hoverDownload": {
+  "tag": "div",
+  "classes": "detail-info-container",
+  "childCount": 1,
+  "children": [
+   {
+    "tag": "div",
+    "classes": "detail-info",
+    "childCount": 3,
+    "children": [
+     {
+      "tag": "button",
+      "classes": "i-btn i-btn--xsmall i-btn--icon-primary-inverse detailInfo__close",
+      "childCount": 1,
+      "children": [
+       {
+        "tag": "span",
+        "classes": "i-btn__inner",
+        "childCount": 2,
+        "children": [
+         {
+          "tag": "svg",
+          "childCount": 1,
+          "children": [
+           {
+            "tag": "path",
+            "style": {
+             "fontSize": "24px",
+             "fontWeight": "700",
+             "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+             "lineHeight": "24px",
+             "color": "rgb(17, 17, 17)",
+             "display": "inline",
+             "flexDirection": "row",
+             "flexWrap": "nowrap",
+             "borderStyle": "solid",
+             "borderColor": "rgb(229, 231, 235)",
+             "borderTopColor": "rgb(229, 231, 235)",
+             "borderBottomColor": "rgb(229, 231, 235)",
+             "position": "static",
+             "opacity": "1",
+             "transition": "all",
+             "cursor": "pointer",
+             "objectFit": "fill",
+             "objectPosition": "50% 50%",
+             "whiteSpace": "nowrap",
+             "textOverflow": "clip",
+             "flex": "0 1 auto",
+             "order": "0",
+             "verticalAlign": "baseline"
+            },
+            "childCount": 0,
+            "children": []
+           }
+          ]
+         },
+         {
+          "tag": "span",
+          "classes": "i-btn__label",
+          "childCount": 1,
+          "children": [
+           {
+            "tag": "div",
+            "style": {
+             "fontSize": "12px",
+             "fontWeight": "700",
+             "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+             "lineHeight": "16px",
+             "color": "rgb(17, 17, 17)",
+             "width": "1px",
+             "display": "block",
+             "flexDirection": "row",
+             "flexWrap": "nowrap",
+             "borderStyle": "solid",
+             "borderColor": "rgb(229, 231, 235)",
+             "borderTopColor": "rgb(229, 231, 235)",
+             "borderBottomColor": "rgb(229, 231, 235)",
+             "position": "static",
+             "opacity": "1",
+             "transition": "all",
+             "cursor": "pointer",
+             "objectFit": "fill",
+             "objectPosition": "50% 50%",
+             "whiteSpace": "nowrap",
+             "textOverflow": "clip",
+             "flex": "0 1 auto",
+             "order": "0",
+             "verticalAlign": "baseline"
+            },
+            "childCount": 0,
+            "children": []
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "tag": "img",
+      "classes": "bottom-image",
+      "src": "https://ikeacn-static-test.oss-cn-shanghai.aliyuncs.com/static/images/header/apppromotion/qrCode/20210303.png",
+      "alt": "",
+      "style": {
+       "fontSize": "14px",
+       "fontWeight": "700",
+       "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+       "lineHeight": "24px",
+       "color": "rgb(17, 17, 17)",
+       "width": "74px",
+       "height": "74px",
+       "maxWidth": "100%",
+       "display": "block",
+       "flexDirection": "row",
+       "flexWrap": "nowrap",
+       "borderColor": "rgb(229, 231, 235)",
+       "borderTopColor": "rgb(229, 231, 235)",
+       "borderBottomColor": "rgb(229, 231, 235)",
+       "overflow": "clip",
+       "overflowX": "clip",
+       "overflowY": "clip",
+       "position": "static",
+       "opacity": "1",
+       "transition": "all",
+       "cursor": "default",
+       "objectFit": "contain",
+       "objectPosition": "50% 50%",
+       "whiteSpace": "nowrap",
+       "textOverflow": "clip",
+       "flex": "0 1 auto",
+       "order": "0",
+       "verticalAlign": "middle"
+      },
+      "childCount": 0,
+      "children": []
+     },
+     {
+      "tag": "div",
+      "classes": "detail-desc",
+      "childCount": 1,
+      "children": [
+       {
+        "tag": "br",
+        "style": {
+         "fontSize": "14px",
+         "fontWeight": "400",
+         "fontFamily": "\"Noto IKEA Latin\", \"Noto Ikea SC\", \"Noto Sans\", Roboto, \"Open Sans\", -apple-system, sans-serif",
+         "lineHeight": "21px",
+         "color": "rgb(17, 17, 17)",
+         "display": "inline",
+         "flexDirection": "row",
+         "flexWrap": "nowrap",
+         "borderStyle": "solid",
+         "borderColor": "rgb(229, 231, 235)",
+         "borderTopColor": "rgb(229, 231, 235)",
+         "borderBottomColor": "rgb(229, 231, 235)",
+         "position": "static",
+         "opacity": "1",
+         "transition": "all",
+         "cursor": "default",
+         "objectFit": "fill",
+         "objectPosition": "50% 50%",
+         "whiteSpace": "nowrap",
+         "textOverflow": "clip",
+         "flex": "0 1 auto",
+         "order": "0",
+         "verticalAlign": "baseline"
+        },
+        "childCount": 0,
+        "children": []
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -10,7 +10,8 @@
 ```ts
 interface VisualPillSliderProps {
   title: string;
-  items: { label: string; href: string; color?: string; textColor?: string; isCta?: boolean }[];
+  items: PillSliderItem[];
+  cta?: { label: string; href: string; color: string; textColor: string };
 }
 ```
 
@@ -82,7 +83,9 @@ section.pub-visual-pill-slider
 6. CTA: 更多可持续创意 (color #37b886, text #111) → /cn/zh/ideas/tips-for-more-sustainable-living/
 
 ## Assets
-- No real images on the live site — gray placeholder blocks.
+- Room images (3:4, 540x720) in `public/images/cms/` — see `roomPillItems` in `src/data/homepage.ts` (客厅 8a16e18e, 卧室 08e5eef3, 厨房 d58b4759, 餐厅 91b2200b, 儿童 d5e30e5b, 浴室 89fdc21a, 书房和办公 6ffc66e5, 门厅 aa909c61, 户外 742f2b87, 阳台 a0c36cd3).
+- Sustainability images (900x1200) — see `sustainabilityPillItems` (节约能源 f2e0305a, 节约水源 a67e4e9c, 可持续饮食 ce1cc52f, 减少浪费 85e7c4d6, 延长家具使用寿命 ed9aff1a).
+- Use the `roomPillItems` + `roomPillCta` and `sustainabilityPillItems` + `sustainabilityPillCta` data exports.
 - Icons: `ChevronLeftIcon`, `ChevronRightIcon` from `src/components/icons.tsx`.
 
 ## Responsive Behavior
