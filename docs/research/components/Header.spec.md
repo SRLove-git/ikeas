@@ -81,7 +81,7 @@ div.i-layout__header (position relative, zIndex 900)
 
 ### .s-header-notice (rotating hint overlay)
 - position: absolute; left: 0; top: 7px; height: 30px; paddingLeft: 55px; fontSize: 13px; fontWeight: 700; color: #111
-- Vertical autoplay carousel of search hints (~3s); hints: 沙发, 床垫, 书桌 (real sample hints)
+- Vertical autoplay carousel of search hints (~3s); hints (verbatim from live site): 深盘 / 食品盒 / 靠垫套
 
 ### .header_container_right
 - width: 239px; height: 48px; whiteSpace: nowrap

@@ -34,8 +34,8 @@ div.mb-8.lg:mb-12 (margin-bottom 48px desktop)
 - position: absolute; bottom: 0; left: 50% (translateX(-50%)); zIndex 10
 
 ### .swiper-pagination-bullet
-- width: 8px; height: 8px; borderRadius: 50%; backgroundColor: #dfdfdf; margin: 0 6px
-- Active: backgroundColor: #111111; width: 24px; borderRadius: 4px (pill)
+- width: 5px; height: 5px; borderRadius: 50%; backgroundColor: #dfdfdf; margin: 0 6px
+- Active (.swiper-pagination-bullet-active): backgroundColor: #111111 (verified live)
 
 ### .swiper-scrollbar
 - height: 2px; backgroundColor: #dfdfdf; width: 98%; position: absolute; bottom: 8px
@@ -49,33 +49,33 @@ div.mb-8.lg:mb-12 (margin-bottom 48px desktop)
 ## States & Behaviors
 
 ### Autoplay
-- **Trigger:** time-driven, ~4.5s interval (observed active slide advances within 4.5s)
+- **Trigger:** time-driven, 5000ms interval (`inter-time="5000"` attribute on the carousel; slide advance observed within ~4.5-5s)
 - **Transition:** slides slide horizontally (600px per slide), loop-enabled (duplicate slides)
 - **Implementation approach:** client component with `setInterval` + translateX on a flex track, or a lightweight `swiper`-like hook. Loop: duplicate first/last slides or reset without animation.
 
 ### Pagination click
 - **Trigger:** click a bullet → jump to that slide
-- Active dot: #dfdfdf → #111111 pill (width 8px → 24px)
+- Active dot: #dfdfdf → #111111 (5px circle)
 
 ## Per-State Content
 ### Slide 1
-- Image: `public/images/cms/1d81c6bf2ed31570b7.jpg` (2592x1080)
-- Link: `/cn/zh/landing-page/23f07ce063c141f682fdb2e7bc541c7f/`
-### Slide 2
-- Image: `public/images/cms/d99bb35dc7b490a48.jpg` (2880x1199)
+- Image: `public/images/cms/f542ce7fc67d4d9d99bb35dc7b490a48.jpg` (2880x1199)
 - Link: `/cn/zh/campaigns/hopeful-summer-pub72b864f3`
-### Slide 3
-- Image: `public/images/cms/0bf80639fd4d738d1.jpg` (2880x1199)
+### Slide 2
+- Image: `public/images/cms/da3aab9e81d54880bf80639fd4d738d1.jpg` (2880x1199)
 - Link: `/cn/zh/personalize-channel/LimitedTimeDiscountsChannel/?topProductIds=90407137`
-### Slide 4
-- Image: `public/images/cms/b9da50d5a6ed2aa1c.png` (1728x720)
+### Slide 3
+- Image: `public/images/cms/ce9846584ee74e6b9da50d5a6ed2aa1c.png` (1728x720)
 - Link: `/cn/zh/h5page/?url=https://store-companion.ikea.cn/design-leads/wrd.html?channel=EC_website&cl_sr=cn_activity_page`
+### Slide 4
+- Image: `public/images/cms/1b23af63650e4a9d81c6bf2ed31570b7.jpg` (2592x1080)
+- Link: `/cn/zh/landing-page/23f07ce063c141f682fdb2e7bc541c7f/`
 
 ## Assets
-- `public/images/cms/1d81c6bf2ed31570b7.jpg`
-- `public/images/cms/d99bb35dc7b490a48.jpg`
-- `public/images/cms/0bf80639fd4d738d1.jpg`
-- `public/images/cms/b9da50d5a6ed2aa1c.png`
+- `public/images/cms/f542ce7fc67d4d9d99bb35dc7b490a48.jpg`
+- `public/images/cms/da3aab9e81d54880bf80639fd4d738d1.jpg`
+- `public/images/cms/ce9846584ee74e6b9da50d5a6ed2aa1c.png`
+- `public/images/cms/1b23af63650e4a9d81c6bf2ed31570b7.jpg`
 - Icons: `ChevronLeftIcon`, `ChevronRightIcon`
 
 ## Responsive Behavior
