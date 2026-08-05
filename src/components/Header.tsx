@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import {
   CartIcon,
   HeartIcon,
@@ -24,6 +24,14 @@ export function Header({
   const [openAppPromo, setOpenAppPromo] = useState(false);
   const [hintIndex, setHintIndex] = useState(0);
   const [bar, setBar] = useState({ width: 0, left: 0, opacity: 0 });
+
+  useEffect(() => {
+    if (searchHints.length < 2) return;
+    const id = window.setInterval(() => {
+      setHintIndex((current) => (current + 1) % searchHints.length);
+    }, 3000);
+    return () => window.clearInterval(id);
+  }, [searchHints.length]);
 
   const moveActiveBar = (item: HTMLLIElement) => {
     const label = item.querySelector(".menu-label") ?? item;
@@ -73,14 +81,14 @@ export function Header({
                       />
                       <div className="s-header-notice">
                         <div className="i-notice">
-                          {searchHints.map((hint, index) => (
-                            <p
-                              key={hint}
-                              className={index === hintIndex ? "show" : ""}
-                            >
-                              {hint}
-                            </p>
-                          ))}
+                          <div
+                            className="i-notice-hints"
+                            style={{ transform: `translateY(-${hintIndex * 30}px)` }}
+                          >
+                            {searchHints.map((hint) => (
+                              <p key={hint}>{hint}</p>
+                            ))}
+                          </div>
                         </div>
                       </div>
                     </div>

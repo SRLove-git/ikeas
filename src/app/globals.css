@@ -279,6 +279,25 @@
   color: #111111;
 }
 
+/* Rotating search hints (深盘 / 食品盒 / 靠垫套) */
+.s-header-notice .i-notice {
+  height: 30px;
+  overflow: hidden;
+}
+
+.i-notice-hints {
+  transition: transform 0.4s ease;
+}
+
+.i-notice-hints p {
+  height: 30px;
+  line-height: 30px;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 /* Header action pills (登录宜家账号 / 我的个人档案 / 我的收藏 / 购物袋) */
 .header-action-btn {
   align-items: center;
