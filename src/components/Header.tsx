@@ -7,18 +7,17 @@ import {
   SearchIcon,
   UserIcon,
 } from "@/components/icons";
-import { MegaMenu, type MegaMenuCategory } from "@/components/MegaMenu";
+import { MegaMenu } from "@/components/MegaMenu";
 import { menuPanels } from "@/data/menu-panels";
+import { categories as allCategories } from "@/data/categories";
 
 interface HeaderProps {
   menuItems: { label: string; href: string; hasMegaMenu?: boolean }[];
-  megaMenuCategories: MegaMenuCategory[];
   searchHints: string[];
 }
 
 export function Header({
   menuItems,
-  megaMenuCategories,
   searchHints,
 }: HeaderProps) {
   const [openMenu, setOpenMenu] = useState<string | null>(null);
@@ -210,7 +209,7 @@ export function Header({
               className="mega-menu-layer"
               onMouseLeave={() => setOpenMenu(null)}
             >
-              <MegaMenu categories={megaMenuCategories} />
+              <MegaMenu categories={allCategories} />
             </div>
           ) : null}
           {activePanel ? (

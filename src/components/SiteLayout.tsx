@@ -5,7 +5,6 @@ import {
   footerFeaturedCards,
   footerLinkGroups,
   legalBar,
-  megaMenuCategories,
   navMenuItems,
   searchHints,
   socialIcons,
@@ -18,7 +17,6 @@ export function SiteLayout({ children }: { children: React.ReactNode }) {
         <div className="i-layout">
           <Header
             menuItems={navMenuItems}
-            megaMenuCategories={megaMenuCategories}
             searchHints={searchHints}
           />
           {children}

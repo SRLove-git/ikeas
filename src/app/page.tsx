@@ -19,7 +19,6 @@ import {
   heroSlides,
   inspirationTipsItems,
   legalBar,
-  megaMenuCategories,
   navMenuItems,
   noticeMessages,
   promoCardItems,
@@ -44,7 +43,6 @@ export default function Home() {
           <NoticeBar items={noticeMessages} />
           <Header
             menuItems={navMenuItems}
-            megaMenuCategories={megaMenuCategories}
             searchHints={searchHints}
           />
           <div className="i-layout__body">
