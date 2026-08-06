@@ -371,12 +371,3 @@
 .menu-label {
   cursor: pointer;
 }
-
-/* Page dim mask: hidden by default, shown only while the mega menu is open */
-.nav-header .nav-header-mask {
-  display: none;
-}
-
-.nav-header .nav-header-mask.show {
-  display: block;
-}

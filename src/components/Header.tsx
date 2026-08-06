@@ -240,7 +240,6 @@ export function Header({
               </div>
             </div>
           ) : null}
-          <div className={`nav-header-mask ${openMenu || openPanel ? "show" : ""}`} />
         </div>
       </div>
     </div>
