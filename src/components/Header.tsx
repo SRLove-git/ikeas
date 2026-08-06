@@ -8,6 +8,7 @@ import {
   UserIcon,
 } from "@/components/icons";
 import { MegaMenu, type MegaMenuCategory } from "@/components/MegaMenu";
+import { menuPanels } from "@/data/menu-panels";
 
 interface HeaderProps {
   menuItems: { label: string; href: string; hasMegaMenu?: boolean }[];
@@ -21,6 +22,7 @@ export function Header({
   searchHints,
 }: HeaderProps) {
   const [openMenu, setOpenMenu] = useState<string | null>(null);
+  const [openPanel, setOpenPanel] = useState<string | null>(null);
   const [openAppPromo, setOpenAppPromo] = useState(false);
   const [hintIndex, setHintIndex] = useState(0);
   const [bar, setBar] = useState({ width: 0, left: 0, opacity: 0 });
@@ -47,6 +49,8 @@ export function Header({
   };
 
   const hideActiveBar = () => setBar((prev) => ({ ...prev, opacity: 0 }));
+
+  const activePanel = menuPanels.find((panel) => panel.label === openPanel);
 
   return (
     <div className="i-layout__header">
@@ -149,11 +153,16 @@ export function Header({
                     <li
                       key={item.label}
                       onMouseEnter={(event) => {
+                        const panel = menuPanels.find((p) => p.label === item.label);
                         setOpenMenu(item.hasMegaMenu ? item.label : null);
+                        setOpenPanel(panel ? panel.label : null);
                         moveActiveBar(event.currentTarget);
                       }}
+                      onMouseLeave={() => setOpenPanel(null)}
                     >
-                      <span className="menu-label">{item.label}</span>
+                      <a href={menuPanels.find((p) => p.label === item.label)?.href ?? item.href ?? "#"} className="menu-label">
+                        {item.label}
+                      </a>
                       {item.label === "所有商品" ? (
                         <span className="new_feature_mark" />
                       ) : null}
@@ -204,7 +213,35 @@ export function Header({
               <MegaMenu categories={megaMenuCategories} />
             </div>
           ) : null}
-          <div className={`nav-header-mask ${openMenu ? "show" : ""}`} />
+          {activePanel ? (
+            <div
+              className="mega-menu-layer"
+              onMouseLeave={() => setOpenPanel(null)}
+            >
+              <div className="header_container_bottom">
+                <div className="max-w-page mx-auto flex flex-wrap gap-x-16 gap-y-8 px-10 py-8">
+                  {activePanel.blocks.map((block) => (
+                    <div key={block.title} className="min-w-[200px]">
+                      <h3 className="mb-3 text-sm font-bold">{block.title}</h3>
+                      <ul className="space-y-2">
+                        {block.links.map((link) => (
+                          <li key={link.href}>
+                            <a
+                              href={link.href}
+                              className="text-sm text-ikea-muted transition-colors hover:text-ikea-black"
+                            >
+                              {link.label}
+                            </a>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          ) : null}
+          <div className={`nav-header-mask ${openMenu || openPanel ? "show" : ""}`} />
         </div>
       </div>
     </div>

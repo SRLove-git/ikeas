@@ -4,6 +4,7 @@ import {
   InstallationIcon,
   TruckIcon,
 } from "@/components/icons";
+import Link from "next/link";
 import type { AssuranceItem } from "@/types";
 
 interface ServicesSectionProps {
@@ -45,14 +46,14 @@ export function ServicesSection({ assurances }: ServicesSectionProps) {
         })}
       </div>
       <div className="pub-button-link is-bolder">
-        <a
-          href="/cn/zh/customer-service/services/"
+        <Link
+          href="/cn/zh/landing-page/cn--zh--9bdb3af1c07611e8affa0d09be91682d"
           className="i-btn i-btn--small i-btn--secondary"
         >
           <span className="i-btn__inner">
             <span className="i-btn__label">查看所有服务</span>
           </span>
-        </a>
+        </Link>
       </div>
     </div>
   );

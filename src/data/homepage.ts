@@ -455,7 +455,7 @@ export const serviceColumns: ServiceColumnCard[] = [
   {
     "title": "宜家全屋设计 | 1对1专业服务，为您打造理想的家",
     "description": "",
-    "ctaHref": "/cn/zh/h5page/?url=https://store-companion.ikea.cn/design-leads/wrd.html?channel=EC_website",
+    "ctaHref": "/cn/zh/customer-service/services/kitchen-planning/",
     "backgroundImage": "/images/cms/8b766d590aa74599957006b42a5d6ffd.jpg"
   },
   {
@@ -467,7 +467,7 @@ export const serviceColumns: ServiceColumnCard[] = [
   {
     "title": "宜家厨房 | 专业品质，厨房焕新，最快3天",
     "description": "",
-    "ctaHref": "/cn/zh/h5page/?url=https://store-companion.ikea.cn/kitchen?channel=kitchen_IRW%20M2&cl_sr=IRW%20M2",
+    "ctaHref": "/cn/zh/customer-service/services/kitchen-installation/",
     "backgroundImage": "/images/cms/293f4299997441d79e57236ccad79b55.jpg"
   }
 ];

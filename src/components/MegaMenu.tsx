@@ -1,4 +1,5 @@
 import { ChevronRightIcon } from "@/components/icons";
+import Link from "next/link";
 
 export interface MegaMenuCategory {
   name: string;
@@ -72,11 +73,11 @@ export function MegaMenu({ categories }: MegaMenuProps) {
                   </div>
                 </div>
                 <div className="pub-image">
-                  <a href="/cn/zh/ideas/">
+                  <Link href="/cn/zh/ideas/rooms-inspiration/">
                     <div className="i-aspect-ratio-box i-aspect-ratio-box--standard">
                       <ChevronRightIcon width={24} height={24} />
                     </div>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
