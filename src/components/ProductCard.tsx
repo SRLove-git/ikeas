@@ -52,6 +52,11 @@ export function ProductCard({ product }: ProductCardProps) {
         ) : null}
         <p className="mt-1.5 text-sm text-ikea-black">
           {formatPrice(product.price)}
+          {product.originalPrice != null ? (
+            <span className="ml-2 text-xs text-ikea-muted line-through">
+              {formatPrice(product.originalPrice)}
+            </span>
+          ) : null}
         </p>
       </div>
     </Link>

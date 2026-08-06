@@ -1,5 +1,6 @@
 import {
   catalogCategories,
+  channelCategories,
   type CatalogCategory,
   type CatalogProduct,
 } from "@/data/catalog";
@@ -14,10 +15,10 @@ export interface ProductMatch {
   category: CatalogCategory;
 }
 
-const allProducts = catalogCategories.flatMap((c) => c.products);
+const allCollections: CatalogCategory[] = [...catalogCategories, ...channelCategories];
 
 const categoryBySlug = new Map<string, CategoryMatch>();
-for (const category of catalogCategories) {
+for (const category of allCollections) {
   categoryBySlug.set(category.slug, { category });
   for (const sub of category.subs) {
     categoryBySlug.set(sub.slug, { category, sub });
@@ -25,7 +26,7 @@ for (const category of catalogCategories) {
 }
 
 const productBySlug = new Map<string, ProductMatch>();
-for (const category of catalogCategories) {
+for (const category of allCollections) {
   for (const product of category.products) {
     productBySlug.set(product.slug, { product, category });
   }
@@ -45,4 +46,11 @@ export function formatPrice(price: number | null): string {
     minimumFractionDigits: price % 1 === 0 ? 0 : 2,
     maximumFractionDigits: 2,
   })}`;
+}
+
+export function getCollectionHref(category: CatalogCategory): string {
+  if (category.url.startsWith("/cn/zh/personalize-channel/")) {
+    return category.url;
+  }
+  return `/cn/zh/cat/${category.slug}`;
 }

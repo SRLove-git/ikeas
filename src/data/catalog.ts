@@ -12,6 +12,7 @@ export interface CatalogProduct {
   productType?: string;
   designText?: string;
   price: number | null;
+  originalPrice?: number | null;
   image: string | null;
   labels: CatalogLabel[];
   detail: {
@@ -14917,6 +14918,6353 @@ export const catalogCategories: CatalogCategory[] = [
      "materials": [],
      "care": [],
      "description": null
+    }
+   }
+  ]
+ }
+];
+
+export const channelCategories: CatalogCategory[] = [
+ {
+  "id": "channel-limitedtimediscounts",
+  "name": "限时特惠",
+  "slug": "LimitedTimeDiscountsChannel",
+  "url": "/cn/zh/personalize-channel/LimitedTimeDiscountsChannel",
+  "image": null,
+  "subs": [],
+  "products": [
+   {
+    "id": "10585553",
+    "slug": "naesselklocka-nai-se-ke-luo-bei-tao-he-zhen-tao-shen-hui-lu-se-duo-se-10585553",
+    "name": "NÄSSELKLOCKA 奈瑟克洛",
+    "productType": "被套和枕套",
+    "designText": "深灰绿色/多色",
+    "price": 129,
+    "originalPrice": 149,
+    "image": "/images/products/10585553.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "即将下架",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#111111"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/10585553.jpg",
+      "/images/products/10585553-1.jpg",
+      "/images/products/10585553-2.jpg"
+     ],
+     "benefits": [
+      " | fix_score_strategy:0.15",
+      "光滑柔软，贴肤吸湿"
+     ],
+     "dimension": "150x200/50x80 厘米",
+     "materials": [],
+     "care": [],
+     "description": "被套和枕套, 150x200/50x80 厘米"
+    }
+   },
+   {
+    "id": "20530230",
+    "slug": "staell-si-duo-er-si-men-xie-gui-xiang-mu-tie-mian-20530230",
+    "name": "STÄLL 斯多尔",
+    "productType": "四门鞋柜",
+    "designText": "橡木贴面",
+    "price": 699,
+    "originalPrice": 1299,
+    "image": "/images/products/20530230.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "即将下架",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#111111"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/20530230.jpg",
+      "/images/products/20530230-1.jpg",
+      "/images/products/20530230-2.jpg"
+     ],
+     "benefits": [
+      " | fix_score_strategy:0.15"
+     ],
+     "dimension": "96x17x90 厘米",
+     "materials": [],
+     "care": [],
+     "description": "四门鞋柜, 96x17x90 厘米"
+    }
+   },
+   {
+    "id": "90227438",
+    "slug": "moppe-mo-pei-xiao-xing-chou-ti-gui-hua-mu-xiao-he-ban-90227438",
+    "name": "MOPPE 莫培",
+    "productType": "小型抽屉柜",
+    "designText": "桦木胶合板",
+    "price": 129,
+    "originalPrice": 249,
+    "image": "/images/products/90227438.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "即将下架",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#111111"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/90227438.jpg",
+      "/images/products/90227438-1.jpg",
+      "/images/products/90227438-2.jpg"
+     ],
+     "benefits": [
+      " | fix_score_strategy:0.15"
+     ],
+     "dimension": "42x18x32 厘米",
+     "materials": [],
+     "care": [],
+     "description": "小型抽屉柜, 42x18x32 厘米"
+    }
+   },
+   {
+    "id": "30572088",
+    "slug": "skogstundra-si-gu-tong-de-hua-ping-lu-se-30572088",
+    "name": "SKOGSTUNDRA 斯古通德",
+    "productType": "花瓶",
+    "designText": "绿色",
+    "price": 59.99,
+    "originalPrice": 99.99,
+    "image": "/images/products/30572088.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "即将下架",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#111111"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/30572088.jpg",
+      "/images/products/30572088-1.jpg"
+     ],
+     "benefits": [
+      " | fix_score_strategy:0.15"
+     ],
+     "dimension": "15 厘米",
+     "materials": [],
+     "care": [],
+     "description": "花瓶, 15 厘米"
+    }
+   },
+   {
+    "id": "60587719",
+    "slug": "guttane-gu-te-ta-bian-zhuo-xiang-mu-60587719",
+    "name": "GUTTANE 古特塔",
+    "productType": "边桌",
+    "designText": "橡木",
+    "price": 599,
+    "originalPrice": 799,
+    "image": "/images/products/60587719.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "即将下架",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#111111"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/60587719.jpg",
+      "/images/products/60587719-1.jpg",
+      "/images/products/60587719-2.jpg"
+     ],
+     "benefits": [
+      " | fix_score_strategy:0.15"
+     ],
+     "dimension": "58x39 厘米",
+     "materials": [],
+     "care": [],
+     "description": "边桌, 58x39 厘米"
+    }
+   },
+   {
+    "id": "80597524",
+    "slug": "skuggstubb-si-ku-si-tuo-bei-duo-se-he-se-lu-se-80597524",
+    "name": "SKUGGSTUBB 斯库斯托",
+    "productType": "杯",
+    "designText": "多色 褐色/绿色",
+    "price": 29.99,
+    "originalPrice": 39.99,
+    "image": "/images/products/80597524.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "即将下架",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#111111"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/80597524.jpg",
+      "/images/products/80597524-1.jpg",
+      "/images/products/80597524-2.jpg"
+     ],
+     "benefits": [
+      " | fix_score_strategy:0.15",
+      "高硼硅耐热玻璃材质"
+     ],
+     "dimension": "41 厘升",
+     "materials": [],
+     "care": [],
+     "description": "杯, 41 厘升"
+    }
+   },
+   {
+    "id": "90266986",
+    "slug": "harte-ha-er-te-led-gong-zuo-deng-hei-se-yin-se-90266986",
+    "name": "HÅRTE 哈尔特",
+    "productType": "LED工作灯",
+    "designText": "黑色/银色",
+    "price": 54.99,
+    "originalPrice": 99.99,
+    "image": "/images/products/90266986.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "即将下架",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#111111"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/90266986.jpg",
+      "/images/products/90266986-1.jpg",
+      "/images/products/90266986-2.jpg"
+     ],
+     "benefits": [
+      " | fix_score_strategy:0.15"
+     ],
+     "dimension": null,
+     "materials": [],
+     "care": [],
+     "description": "LED工作灯"
+    }
+   },
+   {
+    "id": "00591615",
+    "slug": "spetsboj-si-bei-zi-bo-tai-deng-ke-diao-guang-de-lu-se-00591615",
+    "name": "SPETSBOJ 斯贝兹伯",
+    "productType": "台灯",
+    "designText": "可调光的/绿色",
+    "price": 29.99,
+    "originalPrice": 49.99,
+    "image": "/images/products/00591615.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "即将下架",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#111111"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/00591615.jpg",
+      "/images/products/00591615-1.jpg",
+      "/images/products/00591615-2.jpg"
+     ],
+     "benefits": [
+      " | fix_score_strategy:0.15"
+     ],
+     "dimension": "22 厘米",
+     "materials": [],
+     "care": [],
+     "description": "台灯, 22 厘米"
+    }
+   },
+   {
+    "id": "20529477",
+    "slug": "pinntorp-ping-tuo-pu-yi-zi-zhao-qian-he-se-qi-20529477",
+    "name": "PINNTORP 平托普",
+    "productType": "椅子",
+    "designText": "着浅褐色漆",
+    "price": 149,
+    "originalPrice": 299,
+    "image": "/images/products/20529477.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "即将下架",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#111111"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/20529477.jpg",
+      "/images/products/20529477-1.jpg",
+      "/images/products/20529477-2.jpg"
+     ],
+     "benefits": [
+      " | fix_score_strategy:0.15"
+     ],
+     "dimension": null,
+     "materials": [],
+     "care": [],
+     "description": "椅子"
+    }
+   },
+   {
+    "id": "90658183",
+    "slug": "ringmussla-ling-mu-si-liang-liang-gan-chuang-pin-tao-zhuang-lan-se-ji-he-tu-an-90658183",
+    "name": "RINGMUSSLA 灵慕丝凉",
+    "productType": "凉感床品套装",
+    "designText": "蓝色/几何图案",
+    "price": 262.65,
+    "originalPrice": 309,
+    "image": "/images/products/90658183.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "热卖",
+      "backgroundColor": "#E00751",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/90658183.jpg",
+      "/images/products/90658183-1.jpg",
+      "/images/products/90658183-2.jpg"
+     ],
+     "benefits": [
+      " | fix_score_strategy:0.15",
+      "凉席含凉感枕套，功能 3in1"
+     ],
+     "dimension": "180x200/50x80 厘米",
+     "materials": [],
+     "care": [],
+     "description": "凉感床品套装, 180x200/50x80 厘米"
+    }
+   },
+   {
+    "id": "30658181",
+    "slug": "ringmussla-ling-mu-si-liang-liang-gan-chuang-pin-tao-zhuang-hui-se-ji-he-tu-an-30658181",
+    "name": "RINGMUSSLA 灵慕丝凉",
+    "productType": "凉感床品套装",
+    "designText": "灰色/几何图案",
+    "price": 262.65,
+    "originalPrice": 309,
+    "image": "/images/products/30658181.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "热卖",
+      "backgroundColor": "#E00751",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/30658181.jpg",
+      "/images/products/30658181-1.jpg",
+      "/images/products/30658181-2.jpg"
+     ],
+     "benefits": [
+      " | fix_score_strategy:0.15",
+      "凉席含凉感枕套，功能 3in1"
+     ],
+     "dimension": "180x200/50x80 厘米",
+     "materials": [],
+     "care": [],
+     "description": "凉感床品套装, 180x200/50x80 厘米"
+    }
+   },
+   {
+    "id": "10658182",
+    "slug": "ringmussla-ling-mu-si-liang-liang-gan-chuang-pin-tao-zhuang-lan-se-ji-he-tu-an-10658182",
+    "name": "RINGMUSSLA 灵慕丝凉",
+    "productType": "凉感床品套装",
+    "designText": "蓝色/几何图案",
+    "price": 228.65,
+    "originalPrice": 269,
+    "image": "/images/products/10658182.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "凉感混纺面料",
+      "backgroundColor": "#FFFFFF",
+      "textColor": "#0A8A00"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/10658182.jpg",
+      "/images/products/10658182-1.jpg",
+      "/images/products/10658182-2.jpg"
+     ],
+     "benefits": [
+      " | fix_score_strategy:0.15",
+      "凉席含凉感枕套，功能 3in1"
+     ],
+     "dimension": "150x200/50x80 厘米",
+     "materials": [],
+     "care": [],
+     "description": "凉感床品套装, 150x200/50x80 厘米"
+    }
+   },
+   {
+    "id": "00552874",
+    "slug": "lenda-lun-da-chuang-lian-fu-xi-dai-2-fu-shen-hui-se-dai-da-zhe-dai-00552874",
+    "name": "LENDA 伦达",
+    "productType": "窗帘附系带，2幅",
+    "designText": "深灰色/带打褶带",
+    "price": 169,
+    "originalPrice": 199,
+    "image": "/images/products/00552874.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "即将下架",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#111111"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/00552874.jpg",
+      "/images/products/00552874-1.jpg"
+     ],
+     "benefits": [],
+     "dimension": "140x250 厘米",
+     "materials": [],
+     "care": [],
+     "description": "窗帘附系带，2幅, 140x250 厘米"
+    }
+   },
+   {
+    "id": "00580909",
+    "slug": "hemlagad-he-mu-la-qia-de-dai-gai-guo-bu-nian-tu-ceng-hei-se-00580909",
+    "name": "HEMLAGAD 赫姆拉卡德",
+    "productType": "带盖锅",
+    "designText": "不粘涂层 黑色",
+    "price": 229,
+    "originalPrice": 299,
+    "image": "/images/products/00580909.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "即将下架",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#111111"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/00580909.jpg",
+      "/images/products/00580909-1.jpg"
+     ],
+     "benefits": [
+      "陶瓷不粘涂层，炖煮不易糊锅"
+     ],
+     "dimension": "5 公升",
+     "materials": [],
+     "care": [],
+     "description": "带盖锅, 5 公升"
+    }
+   },
+   {
+    "id": "10372537",
+    "slug": "songesand-song-ye-sang-de-chuang-chu-wu-he-liang-jian-tao-bai-se-10372537",
+    "name": "SONGESAND 松耶桑德",
+    "productType": "床储物盒，两件套",
+    "designText": "白色",
+    "price": 400,
+    "originalPrice": 500,
+    "image": "/images/products/10372537.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "安全材料，严格把关",
+      "backgroundColor": "#FFFFFF",
+      "textColor": "#0A8A00"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/10372537.jpg",
+      "/images/products/10372537-1.jpg"
+     ],
+     "benefits": [],
+     "dimension": "200 厘米",
+     "materials": [],
+     "care": [],
+     "description": "床储物盒，两件套, 200 厘米"
+    }
+   },
+   {
+    "id": "40477199",
+    "slug": "faergklar-fa-li-ke-luo-wan-wu-guang-ze-qian-qing-lu-se-40477199",
+    "name": "FÄRGKLAR 法利克洛",
+    "productType": "碗",
+    "designText": "无光泽 浅青绿色",
+    "price": 29.99,
+    "originalPrice": 39.99,
+    "image": "/images/products/40477199.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "即将下架",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#111111"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/40477199.jpg",
+      "/images/products/40477199-1.jpg"
+     ],
+     "benefits": [],
+     "dimension": "16 厘米",
+     "materials": [],
+     "care": [],
+     "description": "碗, 16 厘米"
+    }
+   },
+   {
+    "id": "00504307",
+    "slug": "aepplaryd-ai-pu-lu-san-ren-sha-fa-you-pa-hong-he-se-00504307",
+    "name": "ÄPPLARYD 艾普吕",
+    "productType": "三人沙发",
+    "designText": "尤帕 红褐色",
+    "price": 3999,
+    "originalPrice": 4999,
+    "image": "/images/products/00504307.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/00504307.jpg",
+      "/images/products/00504307-1.jpg",
+      "/images/products/00504307-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": null,
+     "materials": [],
+     "care": [],
+     "description": "三人沙发"
+    }
+   },
+   {
+    "id": "10494591",
+    "slug": "ekeroe-yi-ke-er-dan-ren-sha-fa-fu-shou-yi-bang-si-ta-hei-se-10494591",
+    "name": "EKERÖ 伊克尔",
+    "productType": "单人沙发/扶手椅",
+    "designText": "邦斯塔 黑色",
+    "price": 999,
+    "originalPrice": 1299,
+    "image": "/images/products/10494591.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/10494591.jpg",
+      "/images/products/10494591-1.jpg",
+      "/images/products/10494591-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": null,
+     "materials": [],
+     "care": [],
+     "description": "单人沙发/扶手椅"
+    }
+   },
+   {
+    "id": "90320342",
+    "slug": "kullaberg-le-wei-zhuan-yi-song-mu-hei-se-90320342",
+    "name": "KULLABERG 乐维",
+    "productType": "转椅",
+    "designText": "松木/黑色",
+    "price": 299,
+    "originalPrice": 499,
+    "image": "/images/products/90320342.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "即将下架",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#111111"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/90320342.jpg",
+      "/images/products/90320342-1.jpg",
+      "/images/products/90320342-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": null,
+     "materials": [],
+     "care": [],
+     "description": "转椅"
+    }
+   },
+   {
+    "id": "60458816",
+    "slug": "idanaes-yi-da-nai-chuang-tou-zhuo-shen-he-se-zhao-se-60458816",
+    "name": "IDANÄS 宜达奈",
+    "productType": "床头桌",
+    "designText": "深褐色 着色",
+    "price": 799,
+    "originalPrice": 999,
+    "image": "/images/products/60458816.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "即将下架",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#111111"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/60458816.jpg",
+      "/images/products/60458816-1.jpg"
+     ],
+     "benefits": [],
+     "dimension": "47x40 厘米",
+     "materials": [],
+     "care": [],
+     "description": "床头桌, 47x40 厘米"
+    }
+   },
+   {
+    "id": "20465277",
+    "slug": "len-lai-en-chuang-li-bai-se-20465277",
+    "name": "LEN 莱恩",
+    "productType": "床笠",
+    "designText": "白色",
+    "price": 45.99,
+    "originalPrice": 59.99,
+    "image": "/images/products/20465277.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "即将下架",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#111111"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/20465277.jpg",
+      "/images/products/20465277-1.jpg"
+     ],
+     "benefits": [],
+     "dimension": "80x165 厘米",
+     "materials": [],
+     "care": [],
+     "description": "床笠, 80x165 厘米"
+    }
+   },
+   {
+    "id": "00479416",
+    "slug": "faergklar-fa-li-ke-luo-can-pan-wu-guang-ze-shen-hui-se-00479416",
+    "name": "FÄRGKLAR 法利克洛",
+    "productType": "餐盘",
+    "designText": "无光泽 深灰色",
+    "price": 29.99,
+    "originalPrice": 39.99,
+    "image": "/images/products/00479416.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "即将下架",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#111111"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/00479416.jpg",
+      "/images/products/00479416-1.jpg"
+     ],
+     "benefits": [],
+     "dimension": "20 厘米",
+     "materials": [],
+     "care": [],
+     "description": "餐盘, 20 厘米"
+    }
+   },
+   {
+    "id": "10427629",
+    "slug": "edsbruk-ai-de-bu-lu-ke-hua-kuang-hei-qi-10427629",
+    "name": "EDSBRUK 艾德布鲁克",
+    "productType": "画框",
+    "designText": "黑漆",
+    "price": 59.99,
+    "originalPrice": 99.99,
+    "image": "/images/products/10427629.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "即将下架",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#111111"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/10427629.jpg",
+      "/images/products/10427629-1.jpg"
+     ],
+     "benefits": [
+      "20寸"
+     ],
+     "dimension": "40x50 厘米",
+     "materials": [],
+     "care": [],
+     "description": "画框, 40x50 厘米"
+    }
+   },
+   {
+    "id": "70519942",
+    "slug": "vimmern-lai-mo-en-chu-fang-long-tou-shou-chi-pen-tou-bu-xiu-gang-se-70519942",
+    "name": "VIMMERN 莱莫恩",
+    "productType": "厨房龙头/手持喷头",
+    "designText": "不锈钢色",
+    "price": 999,
+    "originalPrice": 1499,
+    "image": "/images/products/70519942.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "即将下架",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#111111"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/70519942.jpg",
+      "/images/products/70519942-1.jpg"
+     ],
+     "benefits": [],
+     "dimension": null,
+     "materials": [],
+     "care": [],
+     "description": "厨房龙头/手持喷头"
+    }
+   },
+   {
+    "id": "70548987",
+    "slug": "glesgroee-ge-lei-ge-rui-chuang-lian-2-fu-hui-se-dai-da-zhe-dai-70548987",
+    "name": "GLESGRÖE 格雷格瑞",
+    "productType": "窗帘，2幅",
+    "designText": "灰色/带打褶带",
+    "price": 149,
+    "originalPrice": 199,
+    "image": "/images/products/70548987.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "即将下架",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#111111"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/70548987.jpg",
+      "/images/products/70548987-1.jpg",
+      "/images/products/70548987-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "145x250 厘米",
+     "materials": [],
+     "care": [],
+     "description": "窗帘，2幅, 145x250 厘米"
+    }
+   },
+   {
+    "id": "30515168",
+    "slug": "jakobsfors-jie-ke-fu-si-cha-ji-shen-he-se-zhao-se-xiang-mu-tie-mian-30515168",
+    "name": "JAKOBSFORS 杰克福斯",
+    "productType": "茶几",
+    "designText": "深褐色 着色橡木贴面",
+    "price": 599,
+    "originalPrice": 799,
+    "image": "/images/products/30515168.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "即将下架",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#111111"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/30515168.jpg",
+      "/images/products/30515168-1.jpg",
+      "/images/products/30515168-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "80 厘米",
+     "materials": [],
+     "care": [],
+     "description": "茶几, 80 厘米"
+    }
+   },
+   {
+    "id": "80481793",
+    "slug": "bjoerkberget-bi-yue-bo-ge-zhuan-yi-yi-de-ku-la-mi-huang-se-80481793",
+    "name": "BJÖRKBERGET 比约伯格",
+    "productType": "转椅",
+    "designText": "伊德库拉 米黄色",
+    "price": 399,
+    "originalPrice": 499,
+    "image": "/images/products/80481793.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "热卖",
+      "backgroundColor": "#E00751",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/80481793.jpg",
+      "/images/products/80481793-1.jpg",
+      "/images/products/80481793-2.jpg"
+     ],
+     "benefits": [
+      "舒适实用，百搭多能"
+     ],
+     "dimension": null,
+     "materials": [],
+     "care": [],
+     "description": "转椅"
+    }
+   },
+   {
+    "id": "80417306",
+    "slug": "yngvar-yi-ge-wa-ba-tai-deng-mei-hei-se-80417306",
+    "name": "YNGVAR 伊格瓦",
+    "productType": "吧台凳",
+    "designText": "煤黑色",
+    "price": 699,
+    "originalPrice": 899,
+    "image": "/images/products/80417306.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "即将下架",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#111111"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/80417306.jpg",
+      "/images/products/80417306-1.jpg",
+      "/images/products/80417306-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "75 厘米",
+     "materials": [],
+     "care": [],
+     "description": "吧台凳, 75 厘米"
+    }
+   },
+   {
+    "id": "20350139",
+    "slug": "begavning-bi-gao-ning-dai-di-zuo-bo-li-zhao-20350139",
+    "name": "BEGÅVNING 比高宁",
+    "productType": "带底座玻璃罩",
+    "designText": "",
+    "price": 59.99,
+    "originalPrice": 79.99,
+    "image": "/images/products/20350139.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "即将下架",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#111111"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/20350139.jpg",
+      "/images/products/20350139-1.jpg",
+      "/images/products/20350139-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "26 厘米",
+     "materials": [],
+     "care": [],
+     "description": "带底座玻璃罩, 26 厘米"
+    }
+   },
+   {
+    "id": "40610141",
+    "slug": "dvala-dai-fu-la-chuang-li-fen-hong-se-40610141",
+    "name": "DVALA 代芙拉",
+    "productType": "床笠",
+    "designText": "粉红色",
+    "price": 44.99,
+    "originalPrice": 69.99,
+    "image": "/images/products/40610141.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "即将下架",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#111111"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/40610141.jpg",
+      "/images/products/40610141-1.jpg",
+      "/images/products/40610141-2.jpg"
+     ],
+     "benefits": [
+      "柔软透气吸湿贴身"
+     ],
+     "dimension": "120x200 厘米",
+     "materials": [],
+     "care": [],
+     "description": "床笠, 120x200 厘米"
+    }
+   },
+   {
+    "id": "20585543",
+    "slug": "naesselklocka-nai-se-ke-luo-bei-tao-he-2-ge-zhen-tao-shen-hui-lu-se-duo-se-20585543",
+    "name": "NÄSSELKLOCKA 奈瑟克洛",
+    "productType": "被套和2个枕套",
+    "designText": "深灰绿色/多色",
+    "price": 199,
+    "originalPrice": 299,
+    "image": "/images/products/20585543.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "即将下架",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#111111"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/20585543.jpg",
+      "/images/products/20585543-1.jpg",
+      "/images/products/20585543-2.jpg"
+     ],
+     "benefits": [
+      " | fix_score_strategy:0.15",
+      "光滑柔软，贴肤吸湿"
+     ],
+     "dimension": "240x220/50x80 厘米",
+     "materials": [],
+     "care": [],
+     "description": "被套和2个枕套, 240x220/50x80 厘米"
+    }
+   },
+   {
+    "id": "60551640",
+    "slug": "aftonsparv-ai-dun-si-pa-5-jian-tao-zhi-ou-wan-ju-duo-se-60551640",
+    "name": "AFTONSPARV 艾顿斯帕",
+    "productType": "5件套指偶玩具",
+    "designText": "多色",
+    "price": 29.99,
+    "originalPrice": 59.99,
+    "image": "/images/products/60551640.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "热卖",
+      "backgroundColor": "#E00751",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/60551640.jpg",
+      "/images/products/60551640-1.jpg",
+      "/images/products/60551640-2.jpg"
+     ],
+     "benefits": [
+      " | fix_score_strategy:0.15",
+      "前往探索宇宙吧!"
+     ],
+     "dimension": null,
+     "materials": [],
+     "care": [],
+     "description": "5件套指偶玩具"
+    }
+   },
+   {
+    "id": "80585540",
+    "slug": "naesselklocka-nai-se-ke-luo-bei-tao-he-2-ge-zhen-tao-shen-hui-lu-se-duo-se-80585540",
+    "name": "NÄSSELKLOCKA 奈瑟克洛",
+    "productType": "被套和2个枕套",
+    "designText": "深灰绿色/多色",
+    "price": 149,
+    "originalPrice": 249,
+    "image": "/images/products/80585540.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "即将下架",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#111111"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/80585540.jpg",
+      "/images/products/80585540-1.jpg",
+      "/images/products/80585540-2.jpg"
+     ],
+     "benefits": [
+      " | fix_score_strategy:0.15",
+      "光滑柔软，贴肤吸湿"
+     ],
+     "dimension": "200x230/50x80 厘米",
+     "materials": [],
+     "care": [],
+     "description": "被套和2个枕套, 200x230/50x80 厘米"
+    }
+   },
+   {
+    "id": "20551543",
+    "slug": "aftonsparv-ai-dun-si-pa-mao-rong-wan-ju-dai-yu-hang-fu-xiong-20551543",
+    "name": "AFTONSPARV 艾顿斯帕",
+    "productType": "毛绒玩具带宇航服",
+    "designText": "熊",
+    "price": 49.99,
+    "originalPrice": 79.99,
+    "image": "/images/products/20551543.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "即将下架",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#111111"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/20551543.jpg",
+      "/images/products/20551543-1.jpg",
+      "/images/products/20551543-2.jpg"
+     ],
+     "benefits": [
+      " | fix_score_strategy:0.15",
+      "前往探索宇宙吧!"
+     ],
+     "dimension": "28 厘米",
+     "materials": [],
+     "care": [],
+     "description": "毛绒玩具带宇航服, 28 厘米"
+    }
+   },
+   {
+    "id": "20587721",
+    "slug": "guttane-gu-te-ta-cha-ji-xiang-mu-20587721",
+    "name": "GUTTANE 古特塔",
+    "productType": "茶几",
+    "designText": "橡木",
+    "price": 999,
+    "originalPrice": 1299,
+    "image": "/images/products/20587721.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "即将下架",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#111111"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/20587721.jpg",
+      "/images/products/20587721-1.jpg",
+      "/images/products/20587721-2.jpg"
+     ],
+     "benefits": [
+      " | fix_score_strategy:0.15"
+     ],
+     "dimension": "116x39 厘米",
+     "materials": [],
+     "care": [],
+     "description": "茶几, 116x39 厘米"
+    }
+   },
+   {
+    "id": "30605164",
+    "slug": "tanebro-ta-nai-bo-bian-zhuo-shi-nei-hu-wai-qian-huang-se-30605164",
+    "name": "TÅNEBRO 塔耐伯",
+    "productType": "边桌",
+    "designText": "室内/户外/浅黄色",
+    "price": 79.99,
+    "originalPrice": 149,
+    "image": "/images/products/30605164.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "即将下架",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#111111"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/30605164.jpg",
+      "/images/products/30605164-1.jpg",
+      "/images/products/30605164-2.jpg"
+     ],
+     "benefits": [
+      " | fix_score_strategy:0.15"
+     ],
+     "dimension": "46 厘米",
+     "materials": [],
+     "care": [],
+     "description": "边桌, 46 厘米"
+    }
+   },
+   {
+    "id": "39240834",
+    "slug": "poaeng-bo-ang-dan-ren-sha-fa-fu-shou-yi-he-se-ji-ni-sa-hei-se-39240834",
+    "name": "POÄNG 波昂",
+    "productType": "单人沙发/扶手椅",
+    "designText": "褐色/基尼萨 黑色",
+    "price": 449,
+    "originalPrice": 499,
+    "image": "/images/products/39240834.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "即将下架",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#111111"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/39240834.jpg",
+      "/images/products/39240834-1.jpg",
+      "/images/products/39240834-2.jpg"
+     ],
+     "benefits": [
+      " | fix_score_strategy:0.15"
+     ],
+     "dimension": null,
+     "materials": [],
+     "care": [],
+     "description": "单人沙发/扶手椅"
+    }
+   },
+   {
+    "id": "09240798",
+    "slug": "poaeng-bo-ang-dan-ren-sha-fa-fu-shou-yi-he-se-ji-ni-sa-dan-mi-se-09240798",
+    "name": "POÄNG 波昂",
+    "productType": "单人沙发/扶手椅",
+    "designText": "褐色/基尼萨 淡米色",
+    "price": 449,
+    "originalPrice": 499,
+    "image": "/images/products/09240798.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "即将下架",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#111111"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/09240798.jpg",
+      "/images/products/09240798-1.jpg",
+      "/images/products/09240798-2.jpg"
+     ],
+     "benefits": [
+      " | fix_score_strategy:0.15"
+     ],
+     "dimension": null,
+     "materials": [],
+     "care": [],
+     "description": "单人沙发/扶手椅"
+    }
+   },
+   {
+    "id": "30525643",
+    "slug": "istad-ai-si-ta-mi-feng-dai-tu-an-hei-se-huang-se-30525643",
+    "name": "ISTAD 艾斯塔",
+    "productType": "密封袋",
+    "designText": "图案/黑色 黄色",
+    "price": 9.99,
+    "originalPrice": 14.99,
+    "image": "/images/products/30525643.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "即将下架",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#111111"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/30525643.jpg",
+      "/images/products/30525643-1.jpg"
+     ],
+     "benefits": [
+      " | fix_score_strategy:0.15",
+      "食品级PE材质，密封保鲜"
+     ],
+     "dimension": "1/0.4 公升",
+     "materials": [],
+     "care": [],
+     "description": "密封袋, 1/0.4 公升"
+    }
+   },
+   {
+    "id": "70610187",
+    "slug": "droena-de-luo-na-he-hei-se-tu-an-70610187",
+    "name": "DRÖNA 德洛纳",
+    "productType": "盒",
+    "designText": "黑色/图案",
+    "price": 15.99,
+    "originalPrice": 29.99,
+    "image": "/images/products/70610187.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "即将下架",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#111111"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/70610187.jpg",
+      "/images/products/70610187-1.jpg",
+      "/images/products/70610187-2.jpg"
+     ],
+     "benefits": [
+      " | fix_score_strategy:0.15"
+     ],
+     "dimension": "33x38x33 厘米",
+     "materials": [],
+     "care": [],
+     "description": "盒, 33x38x33 厘米"
+    }
+   },
+   {
+    "id": "70476344",
+    "slug": "nereby-nai-rui-bi-gua-gan-hua-mu-70476344",
+    "name": "NEREBY 奈瑞比",
+    "productType": "挂杆",
+    "designText": "桦木",
+    "price": 19.99,
+    "originalPrice": 29.99,
+    "image": "/images/products/70476344.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "实木",
+      "backgroundColor": "#FFFFFF",
+      "textColor": "#0A8A00"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/70476344.jpg",
+      "/images/products/70476344-1.jpg",
+      "/images/products/70476344-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "60 厘米",
+     "materials": [],
+     "care": [],
+     "description": "挂杆, 60 厘米"
+    }
+   },
+   {
+    "id": "60580906",
+    "slug": "hemlagad-he-mu-la-qia-de-dai-gai-guo-bu-nian-tu-ceng-hei-se-60580906",
+    "name": "HEMLAGAD 赫姆拉卡德",
+    "productType": "带盖锅",
+    "designText": "不粘涂层 黑色",
+    "price": 199,
+    "originalPrice": 249,
+    "image": "/images/products/60580906.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "即将下架",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#111111"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/60580906.jpg",
+      "/images/products/60580906-1.jpg"
+     ],
+     "benefits": [
+      "陶瓷不粘涂层，炖煮不易糊锅"
+     ],
+     "dimension": "3 公升",
+     "materials": [],
+     "care": [],
+     "description": "带盖锅, 3 公升"
+    }
+   },
+   {
+    "id": "70502927",
+    "slug": "gradvis-ge-la-wei-si-zhuang-shi-yong-hua-pen-shi-nei-hu-wai-hui-se-70502927",
+    "name": "GRADVIS 格拉维斯",
+    "productType": "装饰用花盆",
+    "designText": "室内/户外 灰色",
+    "price": 14.99,
+    "originalPrice": 24.99,
+    "image": "/images/products/70502927.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "即将下架",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#111111"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/70502927.jpg",
+      "/images/products/70502927-1.jpg"
+     ],
+     "benefits": [],
+     "dimension": "9 厘米",
+     "materials": [],
+     "care": [],
+     "description": "装饰用花盆, 9 厘米"
+    }
+   },
+   {
+    "id": "20488797",
+    "slug": "delsjoen-dai-er-huan-chu-fang-hun-he-xing-shui-long-tou-hei-se-la-si-jin-shu-20488797",
+    "name": "DELSJÖN 黛尔欢",
+    "productType": "厨房混合型水龙头",
+    "designText": "黑色拉丝金属",
+    "price": 499,
+    "originalPrice": 699,
+    "image": "/images/products/20488797.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "即将下架",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#111111"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/20488797.jpg",
+      "/images/products/20488797-1.jpg"
+     ],
+     "benefits": [
+      "节水"
+     ],
+     "dimension": null,
+     "materials": [],
+     "care": [],
+     "description": "厨房混合型水龙头"
+    }
+   },
+   {
+    "id": "00566913",
+    "slug": "regnskur-lei-en-si-ku-diao-deng-zhao-tuo-yuan-xing-tian-lan-se-00566913",
+    "name": "REGNSKUR 雷恩斯库",
+    "productType": "吊灯罩",
+    "designText": "椭圆形 天蓝色",
+    "price": 79.99,
+    "originalPrice": 99.99,
+    "image": "/images/products/00566913.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "即将下架",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#111111"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/00566913.jpg",
+      "/images/products/00566913-1.jpg",
+      "/images/products/00566913-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "52 厘米",
+     "materials": [],
+     "care": [],
+     "description": "吊灯罩, 52 厘米"
+    }
+   },
+   {
+    "id": "10424942",
+    "slug": "fotingen-fu-luo-ting-gen-yu-yong-tuo-pan-10424942",
+    "name": "FOTINGEN 弗洛廷根",
+    "productType": "浴用托盘",
+    "designText": "",
+    "price": 799,
+    "originalPrice": 1299,
+    "image": "/images/products/10424942.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "即将下架",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#111111"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/10424942.jpg",
+      "/images/products/10424942-1.jpg"
+     ],
+     "benefits": [],
+     "dimension": "90x90 厘米",
+     "materials": [],
+     "care": [],
+     "description": "浴用托盘, 90x90 厘米"
+    }
+   },
+   {
+    "id": "50480629",
+    "slug": "himmelsoe-xi-mei-se-liang-ting-shen-hui-se-mi-hui-se-50480629",
+    "name": "HIMMELSÖ 希梅瑟",
+    "productType": "凉亭",
+    "designText": "深灰色/米灰色",
+    "price": 999,
+    "originalPrice": 1799,
+    "image": "/images/products/50480629.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "即将下架",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#111111"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/50480629.jpg",
+      "/images/products/50480629-1.jpg"
+     ],
+     "benefits": [],
+     "dimension": "300x300 厘米",
+     "materials": [],
+     "care": [],
+     "description": "凉亭, 300x300 厘米"
+    }
+   },
+   {
+    "id": "00341693",
+    "slug": "tollsjoen-tuo-er-xun-chu-fang-long-tou-shou-chi-pen-tou-hei-se-pao-guang-jin-shu-00341693",
+    "name": "TOLLSJÖN 托尔逊",
+    "productType": "厨房龙头/手持喷头",
+    "designText": "黑色 抛光金属",
+    "price": 999,
+    "originalPrice": 1699,
+    "image": "/images/products/00341693.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "即将下架",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#111111"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/00341693.jpg",
+      "/images/products/00341693-1.jpg",
+      "/images/products/00341693-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": null,
+     "materials": [],
+     "care": [],
+     "description": "厨房龙头/手持喷头"
+    }
+   },
+   {
+    "id": "60548186",
+    "slug": "fejka-fei-qia-ren-zao-pen-zai-zhi-wu-shi-nei-hu-wai-kentia-palm-60548186",
+    "name": "FEJKA 菲卡",
+    "productType": "人造盆栽植物",
+    "designText": "室内/户外 Kentia palm",
+    "price": 249,
+    "originalPrice": 449,
+    "image": "/images/products/60548186.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "即将下架",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#111111"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/60548186.jpg",
+      "/images/products/60548186-1.jpg"
+     ],
+     "benefits": [],
+     "dimension": "23 厘米",
+     "materials": [],
+     "care": [],
+     "description": "人造盆栽植物, 23 厘米"
+    }
+   },
+   {
+    "id": "20478048",
+    "slug": "delsjoen-dai-er-huan-chu-fang-hun-he-xing-shui-long-tou-huang-tong-se-20478048",
+    "name": "DELSJÖN 黛尔欢",
+    "productType": "厨房混合型水龙头",
+    "designText": "黄铜色",
+    "price": 499,
+    "originalPrice": 699,
+    "image": "/images/products/20478048.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "即将下架",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#111111"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/20478048.jpg",
+      "/images/products/20478048-1.jpg",
+      "/images/products/20478048-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": null,
+     "materials": [],
+     "care": [],
+     "description": "厨房混合型水龙头"
+    }
+   },
+   {
+    "id": "00442376",
+    "slug": "glypen-ge-lu-peng-hun-he-xing-shui-long-tou-bu-xiu-gang-se-00442376",
+    "name": "GLYPEN 格吕彭",
+    "productType": "混合型水龙头",
+    "designText": "不锈钢色",
+    "price": 229,
+    "originalPrice": 399,
+    "image": "/images/products/00442376.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "即将下架",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#111111"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/00442376.jpg",
+      "/images/products/00442376-1.jpg",
+      "/images/products/00442376-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": null,
+     "materials": [],
+     "care": [],
+     "description": "混合型水龙头"
+    }
+   },
+   {
+    "id": "60459137",
+    "slug": "almaroed-a-ma-luo-jing-zi-hei-se-60459137",
+    "name": "ALMARÖD 阿马洛",
+    "productType": "镜子",
+    "designText": "黑色",
+    "price": 299,
+    "originalPrice": 599,
+    "image": "/images/products/60459137.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "即将下架",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#111111"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/60459137.jpg",
+      "/images/products/60459137-1.jpg",
+      "/images/products/60459137-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "80 厘米",
+     "materials": [],
+     "care": [],
+     "description": "镜子, 80 厘米"
+    }
+   },
+   {
+    "id": "20479217",
+    "slug": "vaestanhed-wei-tan-he-hua-kuang-hei-se-20479217",
+    "name": "VÄSTANHED 维坦赫",
+    "productType": "画框",
+    "designText": "黑色",
+    "price": 29.99,
+    "originalPrice": 49.99,
+    "image": "/images/products/20479217.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "即将下架",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#111111"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/20479217.jpg",
+      "/images/products/20479217-1.jpg"
+     ],
+     "benefits": [
+      "使用衬纸可放置7寸图片"
+     ],
+     "dimension": "20x25 厘米",
+     "materials": [],
+     "care": [],
+     "description": "画框, 20x25 厘米"
+    }
+   },
+   {
+    "id": "70477678",
+    "slug": "hauga-hao-jia-shu-zhuo-bai-se-70477678",
+    "name": "HAUGA 豪嘉",
+    "productType": "书桌",
+    "designText": "白色",
+    "price": 499,
+    "originalPrice": 599,
+    "image": "/images/products/70477678.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/70477678.jpg",
+      "/images/products/70477678-1.jpg",
+      "/images/products/70477678-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "100x45 厘米",
+     "materials": [],
+     "care": [],
+     "description": "书桌, 100x45 厘米"
+    }
+   },
+   {
+    "id": "80166124",
+    "slug": "koncis-kang-ji-si-kai-guan-dao-bu-xiu-gang-80166124",
+    "name": "KONCIS 康吉思",
+    "productType": "开罐刀",
+    "designText": "不锈钢",
+    "price": 19.99,
+    "originalPrice": 29.99,
+    "image": "/images/products/80166124.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "即将下架",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#111111"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/80166124.jpg"
+     ],
+     "benefits": [],
+     "dimension": null,
+     "materials": [],
+     "care": [],
+     "description": "开罐刀"
+    }
+   },
+   {
+    "id": "30540832",
+    "slug": "filmis-fei-er-mi-si-zhong-wen-du-ji-nao-ling-hui-se-30540832",
+    "name": "FILMIS 菲尔米斯",
+    "productType": "钟/温度计/闹铃",
+    "designText": "灰色",
+    "price": 59.99,
+    "originalPrice": 69.99,
+    "image": "/images/products/30540832.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "即将下架",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#111111"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/30540832.jpg",
+      "/images/products/30540832-1.jpg"
+     ],
+     "benefits": [],
+     "dimension": "16.5x9 厘米",
+     "materials": [],
+     "care": [],
+     "description": "钟/温度计/闹铃, 16.5x9 厘米"
+    }
+   },
+   {
+    "id": "10540828",
+    "slug": "filmis-fei-er-mi-si-zhong-wen-du-ji-nao-ling-hei-se-10540828",
+    "name": "FILMIS 菲尔米斯",
+    "productType": "钟/温度计/闹铃",
+    "designText": "黑色",
+    "price": 59.99,
+    "originalPrice": 69.99,
+    "image": "/images/products/10540828.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "即将下架",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#111111"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/10540828.jpg",
+      "/images/products/10540828-1.jpg"
+     ],
+     "benefits": [],
+     "dimension": "16.5x9 厘米",
+     "materials": [],
+     "care": [],
+     "description": "钟/温度计/闹铃, 16.5x9 厘米"
+    }
+   },
+   {
+    "id": "00529483",
+    "slug": "pinntorp-ping-tuo-pu-yi-zi-zhao-qian-he-se-qi-kai-tuo-zi-ran-se-00529483",
+    "name": "PINNTORP 平托普",
+    "productType": "椅子",
+    "designText": "着浅褐色漆/凯托 自然色",
+    "price": 279,
+    "originalPrice": 349,
+    "image": "/images/products/00529483.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "即将下架",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#111111"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/00529483.jpg",
+      "/images/products/00529483-1.jpg",
+      "/images/products/00529483-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": null,
+     "materials": [],
+     "care": [],
+     "description": "椅子"
+    }
+   },
+   {
+    "id": "40449187",
+    "slug": "klockren-ke-luo-ke-lun-lu-wan-40449187",
+    "name": "KLOCKREN 克洛克伦",
+    "productType": "滤碗",
+    "designText": "",
+    "price": 59.99,
+    "originalPrice": 79.99,
+    "image": "/images/products/40449187.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "即将下架",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#111111"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/40449187.jpg",
+      "/images/products/40449187-1.jpg",
+      "/images/products/40449187-2.jpg"
+     ],
+     "benefits": [
+      "耐高温硅胶，多功能可折叠"
+     ],
+     "dimension": "5.0 公升",
+     "materials": [],
+     "care": [],
+     "description": "滤碗, 5.0 公升"
+    }
+   },
+   {
+    "id": "80514152",
+    "slug": "idanaes-yi-da-nai-shu-zhuo-he-se-80514152",
+    "name": "IDANÄS 宜达奈",
+    "productType": "书桌",
+    "designText": "褐色",
+    "price": 2999,
+    "originalPrice": 3499,
+    "image": "/images/products/80514152.jpg",
+    "labels": [
+     {
+      "text": "大减价",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#000000"
+     },
+     {
+      "text": "即将下架",
+      "backgroundColor": "#FFDB00",
+      "textColor": "#111111"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/80514152.jpg",
+      "/images/products/80514152-1.jpg",
+      "/images/products/80514152-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "152x70 厘米",
+     "materials": [],
+     "care": [],
+     "description": "书桌, 152x70 厘米"
+    }
+   }
+  ]
+ },
+ {
+  "id": "channel-newarrivals",
+  "name": "新品",
+  "slug": "NewArrivalsChannel",
+  "url": "/cn/zh/personalize-channel/NewArrivalsChannel",
+  "image": null,
+  "subs": [],
+  "products": [
+   {
+    "id": "20628774",
+    "slug": "kompishaeng-kang-bi-shang-kao-dian-mi-huang-se-20628774",
+    "name": "KOMPISHÄNG 康比尚",
+    "productType": "靠垫",
+    "designText": "米黄色",
+    "price": 149,
+    "originalPrice": null,
+    "image": "/images/products/20628774.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     },
+     {
+      "text": "限定款",
+      "backgroundColor": "#111111",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/20628774.jpg",
+      "/images/products/20628774-1.jpg",
+      "/images/products/20628774-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "68x60 厘米",
+     "materials": [],
+     "care": [],
+     "description": "靠垫, 68x60 厘米"
+    }
+   },
+   {
+    "id": "10477332",
+    "slug": "billy-bi-li-shu-jia-hei-se-fang-xiang-mu-10477332",
+    "name": "BILLY 毕利",
+    "productType": "书架",
+    "designText": "黑色 仿橡木",
+    "price": 249,
+    "originalPrice": null,
+    "image": "/images/products/10477332.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/10477332.jpg",
+      "/images/products/10477332-1.jpg",
+      "/images/products/10477332-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "40x28x106 厘米",
+     "materials": [],
+     "care": [],
+     "description": "书架, 40x28x106 厘米"
+    }
+   },
+   {
+    "id": "70562092",
+    "slug": "kallax-qia-lai-ke-dian-shi-gui-hei-he-se-70562092",
+    "name": "KALLAX 卡莱克",
+    "productType": "电视柜",
+    "designText": "黑褐色",
+    "price": 599,
+    "originalPrice": null,
+    "image": "/images/products/70562092.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/70562092.jpg",
+      "/images/products/70562092-1.jpg",
+      "/images/products/70562092-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "147x60 厘米",
+     "materials": [],
+     "care": [],
+     "description": "电视柜, 147x60 厘米"
+    }
+   },
+   {
+    "id": "00161644",
+    "slug": "ikea-365-hjaelte-ikea-365-ha-te-guo-chan-bu-xiu-gang-hei-se-00161644",
+    "name": "IKEA 365+ HJÄLTE IKEA 365+ 哈特",
+    "productType": "锅铲",
+    "designText": "不锈钢/黑色",
+    "price": 19.99,
+    "originalPrice": null,
+    "image": "/images/products/00161644.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     },
+     {
+      "text": "热卖",
+      "backgroundColor": "#E00751",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/00161644.jpg",
+      "/images/products/00161644-1.jpg",
+      "/images/products/00161644-2.jpg"
+     ],
+     "benefits": [
+      "耐热材质，适用带有不粘涂层"
+     ],
+     "dimension": null,
+     "materials": [],
+     "care": [],
+     "description": "锅铲"
+    }
+   },
+   {
+    "id": "30488985",
+    "slug": "spantad-si-pan-ta-de-zhen-kong-mi-feng-dai-dan-hui-se-30488985",
+    "name": "SPANTAD 斯潘塔德",
+    "productType": "真空密封袋",
+    "designText": "淡灰色",
+    "price": 19.99,
+    "originalPrice": null,
+    "image": "/images/products/30488985.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/30488985.jpg"
+     ],
+     "benefits": [],
+     "dimension": "67x100 厘米 2 个",
+     "materials": [],
+     "care": [],
+     "description": "真空密封袋, 67x100 厘米 2 个"
+    }
+   },
+   {
+    "id": "40474600",
+    "slug": "taeting-tai-ting-lan-ba-jiao-ye-zi-ran-se-40474600",
+    "name": "TÄTING 泰廷",
+    "productType": "篮",
+    "designText": "芭蕉叶/自然色",
+    "price": 99.99,
+    "originalPrice": null,
+    "image": "/images/products/40474600.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/40474600.jpg",
+      "/images/products/40474600-1.jpg",
+      "/images/products/40474600-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "35x25x25 厘米",
+     "materials": [],
+     "care": [],
+     "description": "篮, 35x25x25 厘米"
+    }
+   },
+   {
+    "id": "19483668",
+    "slug": "billy-bi-li-oxberg-ao-ke-bo-shu-gui-dai-men-fu-jia-jian-19483668",
+    "name": "BILLY 毕利 / OXBERG 奥克伯",
+    "productType": "书柜，带门/附加件",
+    "designText": "",
+    "price": 1049,
+    "originalPrice": null,
+    "image": "/images/products/19483668.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/19483668.jpg",
+      "/images/products/19483668-1.jpg",
+      "/images/products/19483668-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": null,
+     "materials": [],
+     "care": [],
+     "description": "书柜，带门/附加件"
+    }
+   },
+   {
+    "id": "39484389",
+    "slug": "billy-bi-li-hoegbo-he-ge-bo-shu-gui-dai-bo-li-men-hei-se-fang-xiang-mu-39484389",
+    "name": "BILLY 毕利 / HÖGBO 赫格伯",
+    "productType": "书柜，带玻璃门",
+    "designText": "黑色 仿橡木",
+    "price": 899,
+    "originalPrice": null,
+    "image": "/images/products/39484389.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/39484389.jpg",
+      "/images/products/39484389-1.jpg"
+     ],
+     "benefits": [],
+     "dimension": "80x30x202 厘米",
+     "materials": [],
+     "care": [],
+     "description": "书柜，带玻璃门, 80x30x202 厘米"
+    }
+   },
+   {
+    "id": "49484082",
+    "slug": "billy-bi-li-hoegbo-he-ge-bo-dai-bo-li-men-shu-gui-zu-he-49484082",
+    "name": "BILLY 毕利 / HÖGBO 赫格伯",
+    "productType": "带玻璃门书柜组合",
+    "designText": "",
+    "price": 1897,
+    "originalPrice": null,
+    "image": "/images/products/49484082.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/49484082.jpg",
+      "/images/products/49484082-1.jpg",
+      "/images/products/49484082-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": null,
+     "materials": [],
+     "care": [],
+     "description": "带玻璃门书柜组合"
+    }
+   },
+   {
+    "id": "29483615",
+    "slug": "billy-bi-li-oxberg-ao-ke-bo-shu-gui-dai-men-29483615",
+    "name": "BILLY 毕利 / OXBERG 奥克伯",
+    "productType": "书柜，带门",
+    "designText": "",
+    "price": 599,
+    "originalPrice": null,
+    "image": "/images/products/29483615.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/29483615.jpg",
+      "/images/products/29483615-1.jpg",
+      "/images/products/29483615-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": null,
+     "materials": [],
+     "care": [],
+     "description": "书柜，带门"
+    }
+   },
+   {
+    "id": "60640458",
+    "slug": "glamberget-ge-lang-bei-li-ke-yan-chang-xing-chuang-song-mu-60640458",
+    "name": "GLAMBERGET 格朗贝里",
+    "productType": "可延长型床",
+    "designText": "松木",
+    "price": 1299,
+    "originalPrice": null,
+    "image": "/images/products/60640458.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     },
+     {
+      "text": "安全材料，严格把关",
+      "backgroundColor": "#FFFFFF",
+      "textColor": "#0A8A00"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/60640458.jpg",
+      "/images/products/60640458-1.jpg",
+      "/images/products/60640458-2.jpg"
+     ],
+     "benefits": [
+      "实木框架，持久耐用"
+     ],
+     "dimension": "80-160x200 厘米",
+     "materials": [],
+     "care": [],
+     "description": "可延长型床, 80-160x200 厘米"
+    }
+   },
+   {
+    "id": "80608198",
+    "slug": "gullaberg-gu-la-bei-li-chuang-chu-wu-he-liang-jian-tao-bai-se-80608198",
+    "name": "GULLABERG 古拉贝利",
+    "productType": "床储物盒，两件套",
+    "designText": "白色",
+    "price": 500,
+    "originalPrice": null,
+    "image": "/images/products/80608198.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/80608198.jpg"
+     ],
+     "benefits": [],
+     "dimension": "200 厘米",
+     "materials": [],
+     "care": [],
+     "description": "床储物盒，两件套, 200 厘米"
+    }
+   },
+   {
+    "id": "00624588",
+    "slug": "mursenap-mo-xi-na-pu-kao-dian-mi-huang-se-bai-se-xiu-hua-00624588",
+    "name": "MURSENAP 莫西纳普",
+    "productType": "靠垫",
+    "designText": "米黄色 白色/绣花",
+    "price": 99.99,
+    "originalPrice": null,
+    "image": "/images/products/00624588.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/00624588.jpg",
+      "/images/products/00624588-1.jpg",
+      "/images/products/00624588-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "40x58 厘米",
+     "materials": [],
+     "care": [],
+     "description": "靠垫, 40x58 厘米"
+    }
+   },
+   {
+    "id": "10630334",
+    "slug": "guldspett-gu-si-bai-ren-zao-hua-zhi-zhi-an-shu-lu-se-10630334",
+    "name": "GULDSPETT 古斯拜",
+    "productType": "人造花",
+    "designText": "纸制/桉树 绿色",
+    "price": 20,
+    "originalPrice": null,
+    "image": "/images/products/10630334.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/10630334.jpg",
+      "/images/products/10630334-1.jpg",
+      "/images/products/10630334-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "50 厘米",
+     "materials": [],
+     "care": [],
+     "description": "人造花, 50 厘米"
+    }
+   },
+   {
+    "id": "60621068",
+    "slug": "ikea-ps-2026-bian-zhuo-shen-hong-se-60621068",
+    "name": "IKEA PS 2026",
+    "productType": "边桌",
+    "designText": "深红色",
+    "price": 299,
+    "originalPrice": null,
+    "image": "/images/products/60621068.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/60621068.jpg",
+      "/images/products/60621068-1.jpg",
+      "/images/products/60621068-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "50x40 厘米",
+     "materials": [],
+     "care": [],
+     "description": "边桌, 50x40 厘米"
+    }
+   },
+   {
+    "id": "89616387",
+    "slug": "metod-mi-duo-maximera-ma-si-mai-qian-ru-shi-jia-dian-gao-gui-bai-se-wu-pu-luo-ya-guang-shen-mi-se-89616387",
+    "name": "METOD 米多 / MAXIMERA 马斯麦",
+    "productType": "嵌入式家电高柜",
+    "designText": "白色/乌普洛 哑光深米色",
+    "price": 3375,
+    "originalPrice": null,
+    "image": "/images/products/89616387.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/89616387.jpg",
+      "/images/products/89616387-1.jpg"
+     ],
+     "benefits": [],
+     "dimension": "60x60x200 厘米",
+     "materials": [],
+     "care": [],
+     "description": "嵌入式家电高柜, 60x60x200 厘米"
+    }
+   },
+   {
+    "id": "90621726",
+    "slug": "langnaebb-long-nai-bu-zhi-wu-jia-shi-nei-hu-wai-bai-se-90621726",
+    "name": "LÅNGNÄBB 隆奈布",
+    "productType": "植物架",
+    "designText": "室内/户外/白色",
+    "price": 19.99,
+    "originalPrice": null,
+    "image": "/images/products/90621726.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/90621726.jpg",
+      "/images/products/90621726-1.jpg",
+      "/images/products/90621726-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "26 厘米",
+     "materials": [],
+     "care": [],
+     "description": "植物架, 26 厘米"
+    }
+   },
+   {
+    "id": "69647771",
+    "slug": "ikea-ps-2026-zhuo-zi-he-liang-zhe-die-yi-song-mu-lan-se-hei-se-hong-se-69647771",
+    "name": "IKEA PS 2026",
+    "productType": "桌子和两折叠椅",
+    "designText": "松木/蓝色/黑色 红色",
+    "price": 2297,
+    "originalPrice": null,
+    "image": "/images/products/69647771.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/69647771.jpg",
+      "/images/products/69647771-1.jpg",
+      "/images/products/69647771-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "70x70 厘米",
+     "materials": [],
+     "care": [],
+     "description": "桌子和两折叠椅, 70x70 厘米"
+    }
+   },
+   {
+    "id": "80607801",
+    "slug": "vaederfisk-wa-de-fei-si-tuo-pan-duo-se-80607801",
+    "name": "VÄDERFISK 瓦德菲斯",
+    "productType": "托盘",
+    "designText": "多色",
+    "price": 59.99,
+    "originalPrice": null,
+    "image": "/images/products/80607801.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/80607801.jpg",
+      "/images/products/80607801-1.jpg",
+      "/images/products/80607801-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "38 厘米",
+     "materials": [],
+     "care": [],
+     "description": "托盘, 38 厘米"
+    }
+   },
+   {
+    "id": "99627583",
+    "slug": "saltsjoebaden-sa-er-huo-bo-deng-jiao-deng-fu-li-tu-na-dan-mi-se-99627583",
+    "name": "SALTSJÖBADEN 萨尔霍伯登",
+    "productType": "脚凳",
+    "designText": "弗里图那 淡米色",
+    "price": 899,
+    "originalPrice": null,
+    "image": "/images/products/99627583.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/99627583.jpg",
+      "/images/products/99627583-1.jpg",
+      "/images/products/99627583-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": null,
+     "materials": [],
+     "care": [],
+     "description": "脚凳"
+    }
+   },
+   {
+    "id": "70633495",
+    "slug": "grejig-ge-lei-yi-ge-bi-shi-chu-wu-dai-lan-se-70633495",
+    "name": "GREJIG 格雷伊格",
+    "productType": "壁式储物袋",
+    "designText": "蓝色",
+    "price": 39.99,
+    "originalPrice": null,
+    "image": "/images/products/70633495.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     },
+     {
+      "text": "限定款",
+      "backgroundColor": "#111111",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/70633495.jpg",
+      "/images/products/70633495-1.jpg"
+     ],
+     "benefits": [],
+     "dimension": "58x17x28 厘米",
+     "materials": [],
+     "care": [],
+     "description": "壁式储物袋, 58x17x28 厘米"
+    }
+   },
+   {
+    "id": "29613315",
+    "slug": "lastare-la-si-ta-er-chu-wu-zu-he-bai-se-29613315",
+    "name": "LASTARE 拉思塔尔",
+    "productType": "储物组合",
+    "designText": "白色",
+    "price": 790,
+    "originalPrice": null,
+    "image": "/images/products/29613315.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/29613315.jpg",
+      "/images/products/29613315-1.jpg"
+     ],
+     "benefits": [],
+     "dimension": "60x42x201 厘米",
+     "materials": [],
+     "care": [],
+     "description": "储物组合, 60x42x201 厘米"
+    }
+   },
+   {
+    "id": "40631501",
+    "slug": "sanela-sang-ni-la-chuang-lian-2-fu-shen-lan-se-dai-da-zhe-dai-40631501",
+    "name": "SANELA 桑尼拉",
+    "productType": "窗帘，2幅",
+    "designText": "深蓝色/带打褶带",
+    "price": 399,
+    "originalPrice": null,
+    "image": "/images/products/40631501.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/40631501.jpg",
+      "/images/products/40631501-1.jpg",
+      "/images/products/40631501-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "140x280 厘米",
+     "materials": [],
+     "care": [],
+     "description": "窗帘，2幅, 140x280 厘米"
+    }
+   },
+   {
+    "id": "39614296",
+    "slug": "lillesaeter-li-le-sai-te-wu-ren-sha-fa-a-si-wo-hui-bai-39614296",
+    "name": "LILLESÄTER 利乐塞特",
+    "productType": "五人沙发",
+    "designText": "阿斯沃 灰白",
+    "price": 5999,
+    "originalPrice": null,
+    "image": "/images/products/39614296.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/39614296.jpg",
+      "/images/products/39614296-1.jpg",
+      "/images/products/39614296-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": null,
+     "materials": [],
+     "care": [],
+     "description": "五人沙发"
+    }
+   },
+   {
+    "id": "90631805",
+    "slug": "hoestagille-he-si-ta-ji-er-tuo-pan-duo-se-90631805",
+    "name": "HÖSTAGILLE 赫斯塔吉尔",
+    "productType": "托盘",
+    "designText": "多色",
+    "price": 19.99,
+    "originalPrice": null,
+    "image": "/images/products/90631805.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     },
+     {
+      "text": "限定款",
+      "backgroundColor": "#111111",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/90631805.jpg"
+     ],
+     "benefits": [],
+     "dimension": "20x28 厘米",
+     "materials": [],
+     "care": [],
+     "description": "托盘, 20x28 厘米"
+    }
+   },
+   {
+    "id": "69622332",
+    "slug": "soederhamn-suo-de-han-6-ren-zhuan-jiao-sha-fa-qi-lin-shen-lan-se-69622332",
+    "name": "SÖDERHAMN 索德汉",
+    "productType": "6人转角沙发",
+    "designText": "其林 深蓝色",
+    "price": 7498,
+    "originalPrice": null,
+    "image": "/images/products/69622332.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/69622332.jpg",
+      "/images/products/69622332-1.jpg",
+      "/images/products/69622332-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": null,
+     "materials": [],
+     "care": [],
+     "description": "6人转角沙发"
+    }
+   },
+   {
+    "id": "99590344",
+    "slug": "strandmon-si-jia-meng-kao-bei-yi-dai-jiao-deng-su-wei-ken-lan-se-mi-huang-se-99590344",
+    "name": "STRANDMON 斯佳蒙",
+    "productType": "靠背椅带脚凳",
+    "designText": "苏维肯 蓝色/米黄色",
+    "price": 1898,
+    "originalPrice": null,
+    "image": "/images/products/99590344.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/99590344.jpg",
+      "/images/products/99590344-1.jpg",
+      "/images/products/99590344-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": null,
+     "materials": [],
+     "care": [],
+     "description": "靠背椅带脚凳"
+    }
+   },
+   {
+    "id": "69627527",
+    "slug": "saltsjoebaden-sa-er-huo-bo-deng-san-ren-sha-fa-tuo-ni-lu-de-hui-se-69627527",
+    "name": "SALTSJÖBADEN 萨尔霍伯登",
+    "productType": "三人沙发",
+    "designText": "托尼鲁德 灰色",
+    "price": 2099,
+    "originalPrice": null,
+    "image": "/images/products/69627527.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/69627527.jpg",
+      "/images/products/69627527-1.jpg",
+      "/images/products/69627527-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": null,
+     "materials": [],
+     "care": [],
+     "description": "三人沙发"
+    }
+   },
+   {
+    "id": "50619594",
+    "slug": "tofsand-tuo-fu-sang-de-bing-bao-fen-hong-se-cheng-se-50619594",
+    "name": "TOFSAND 托福桑德",
+    "productType": "冰包",
+    "designText": "粉红色/橙色",
+    "price": 49.99,
+    "originalPrice": null,
+    "image": "/images/products/50619594.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     },
+     {
+      "text": "限定款",
+      "backgroundColor": "#111111",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/50619594.jpg",
+      "/images/products/50619594-1.jpg",
+      "/images/products/50619594-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "26x19x19 厘米",
+     "materials": [],
+     "care": [],
+     "description": "冰包, 26x19x19 厘米"
+    }
+   },
+   {
+    "id": "80613576",
+    "slug": "ikea-ps-2026-led-bian-xi-shi-deng-ju-dian-chi-cao-zuo-ke-diao-guang-de-lan-se-qian-huang-80613576",
+    "name": "IKEA PS 2026",
+    "productType": "LED便携式灯具",
+    "designText": "电池操作 可调光的/蓝色 浅黄",
+    "price": 199,
+    "originalPrice": null,
+    "image": "/images/products/80613576.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/80613576.jpg",
+      "/images/products/80613576-1.jpg",
+      "/images/products/80613576-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "22 厘米",
+     "materials": [],
+     "care": [],
+     "description": "LED便携式灯具, 22 厘米"
+    }
+   },
+   {
+    "id": "20161582",
+    "slug": "ikea-365-hjaelte-ikea-365-ha-te-chu-yong-nie-zi-bu-xiu-gang-hei-se-20161582",
+    "name": "IKEA 365+ HJÄLTE IKEA 365+ 哈特",
+    "productType": "厨用镊子",
+    "designText": "不锈钢/黑色",
+    "price": 29.99,
+    "originalPrice": null,
+    "image": "/images/products/20161582.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/20161582.jpg",
+      "/images/products/20161582-1.jpg",
+      "/images/products/20161582-2.jpg"
+     ],
+     "benefits": [
+      "耐高温材质，易于抓握"
+     ],
+     "dimension": null,
+     "materials": [],
+     "care": [],
+     "description": "厨用镊子"
+    }
+   },
+   {
+    "id": "00618691",
+    "slug": "stensnultra-si-tan-na-jia-qie-cai-qi-hei-se-hui-lan-se-tou-ming-00618691",
+    "name": "STENSNULTRA 斯坦纳加",
+    "productType": "切菜器",
+    "designText": "黑色 灰蓝色/透明",
+    "price": 39.99,
+    "originalPrice": null,
+    "image": "/images/products/00618691.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/00618691.jpg",
+      "/images/products/00618691-1.jpg",
+      "/images/products/00618691-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": null,
+     "materials": [],
+     "care": [],
+     "description": "切菜器"
+    }
+   },
+   {
+    "id": "60569923",
+    "slug": "skadis-si-kao-di-si-jia-zi-hei-se-60569923",
+    "name": "SKÅDIS 斯考迪斯",
+    "productType": "夹子",
+    "designText": "黑色",
+    "price": 10,
+    "originalPrice": null,
+    "image": "/images/products/60569923.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/60569923.jpg",
+      "/images/products/60569923-1.jpg"
+     ],
+     "benefits": [],
+     "dimension": null,
+     "materials": [],
+     "care": [],
+     "description": "夹子"
+    }
+   },
+   {
+    "id": "60586593",
+    "slug": "brokspirea-bu-lu-si-pi-zhuang-shi-yong-hua-pen-qian-lu-60586593",
+    "name": "BROKSPIREA 布鲁斯匹",
+    "productType": "装饰用花盆",
+    "designText": "浅绿",
+    "price": 19.99,
+    "originalPrice": null,
+    "image": "/images/products/60586593.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/60586593.jpg",
+      "/images/products/60586593-1.jpg",
+      "/images/products/60586593-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "9 厘米",
+     "materials": [],
+     "care": [],
+     "description": "装饰用花盆, 9 厘米"
+    }
+   },
+   {
+    "id": "80596954",
+    "slug": "gaerdesgard-jia-de-si-jia-fu-gai-chu-wu-he-zi-ran-se-80596954",
+    "name": "GÄRDESGÅRD 嘉德斯加",
+    "productType": "附盖储物盒",
+    "designText": "自然色",
+    "price": 39.99,
+    "originalPrice": null,
+    "image": "/images/products/80596954.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/80596954.jpg",
+      "/images/products/80596954-1.jpg",
+      "/images/products/80596954-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "25x35x16 厘米",
+     "materials": [],
+     "care": [],
+     "description": "附盖储物盒, 25x35x16 厘米"
+    }
+   },
+   {
+    "id": "70626051",
+    "slug": "haerlir-ha-le-er-bei-tao-he-2-ge-zhen-tao-bai-se-liang-fen-se-hua-hui-tu-an-70626051",
+    "name": "HÄRLIR 哈勒尔",
+    "productType": "被套和2个枕套",
+    "designText": "白色 亮粉色/花卉图案",
+    "price": 149,
+    "originalPrice": null,
+    "image": "/images/products/70626051.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     },
+     {
+      "text": "棉/莱赛尔混纺",
+      "backgroundColor": "#FFFFFF",
+      "textColor": "#0A8A00"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/70626051.jpg",
+      "/images/products/70626051-1.jpg",
+      "/images/products/70626051-2.jpg"
+     ],
+     "benefits": [
+      "柔软透气光滑耐用"
+     ],
+     "dimension": "200x230/50x80 厘米",
+     "materials": [],
+     "care": [],
+     "description": "被套和2个枕套, 200x230/50x80 厘米"
+    }
+   },
+   {
+    "id": "80477338",
+    "slug": "billy-bi-li-shu-jia-hei-se-fang-xiang-mu-80477338",
+    "name": "BILLY 毕利",
+    "productType": "书架",
+    "designText": "黑色 仿橡木",
+    "price": 399,
+    "originalPrice": null,
+    "image": "/images/products/80477338.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/80477338.jpg",
+      "/images/products/80477338-1.jpg",
+      "/images/products/80477338-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "80x28x106 厘米",
+     "materials": [],
+     "care": [],
+     "description": "书架, 80x28x106 厘米"
+    }
+   },
+   {
+    "id": "50606049",
+    "slug": "sunnersta-su-na-si-sheng-ju-liang-cheng-se-50606049",
+    "name": "SUNNERSTA 苏纳思",
+    "productType": "盛具",
+    "designText": "亮橙色",
+    "price": 4.99,
+    "originalPrice": null,
+    "image": "/images/products/50606049.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/50606049.jpg",
+      "/images/products/50606049-1.jpg",
+      "/images/products/50606049-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "12x11 厘米",
+     "materials": [],
+     "care": [],
+     "description": "盛具, 12x11 厘米"
+    }
+   },
+   {
+    "id": "70613789",
+    "slug": "harmynta-ha-mu-ming-da-die-bai-se-70613789",
+    "name": "HARMYNTA 哈姆明达",
+    "productType": "碟",
+    "designText": "白色",
+    "price": 29.99,
+    "originalPrice": null,
+    "image": "/images/products/70613789.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/70613789.jpg",
+      "/images/products/70613789-1.jpg",
+      "/images/products/70613789-2.jpg"
+     ],
+     "benefits": [
+      "轻盈灵巧，握感舒适"
+     ],
+     "dimension": "25 厘米",
+     "materials": [],
+     "care": [],
+     "description": "碟, 25 厘米"
+    }
+   },
+   {
+    "id": "20617412",
+    "slug": "tofsand-tuo-fu-sang-de-xiao-yuan-zha-zhu-tuo-duo-se-20617412",
+    "name": "TOFSAND 托福桑德",
+    "productType": "小圆蜡烛托",
+    "designText": "多色",
+    "price": 19.99,
+    "originalPrice": null,
+    "image": "/images/products/20617412.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     },
+     {
+      "text": "限定款",
+      "backgroundColor": "#111111",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/20617412.jpg",
+      "/images/products/20617412-1.jpg",
+      "/images/products/20617412-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "4 厘米",
+     "materials": [],
+     "care": [],
+     "description": "小圆蜡烛托, 4 厘米"
+    }
+   },
+   {
+    "id": "50613785",
+    "slug": "harmynta-ha-mu-ming-da-shang-cai-wan-bai-se-50613785",
+    "name": "HARMYNTA 哈姆明达",
+    "productType": "上菜碗",
+    "designText": "白色",
+    "price": 39.99,
+    "originalPrice": null,
+    "image": "/images/products/50613785.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/50613785.jpg",
+      "/images/products/50613785-1.jpg",
+      "/images/products/50613785-2.jpg"
+     ],
+     "benefits": [
+      "轻盈灵巧，握感舒适"
+     ],
+     "dimension": "21 厘米",
+     "materials": [],
+     "care": [],
+     "description": "上菜碗, 21 厘米"
+    }
+   },
+   {
+    "id": "00617644",
+    "slug": "tofsand-tuo-fu-sang-de-can-jin-zhi-fen-hong-se-00617644",
+    "name": "TOFSAND 托福桑德",
+    "productType": "餐巾纸",
+    "designText": "粉红色",
+    "price": 14.99,
+    "originalPrice": null,
+    "image": "/images/products/00617644.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     },
+     {
+      "text": "限定款",
+      "backgroundColor": "#111111",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/00617644.jpg"
+     ],
+     "benefits": [],
+     "dimension": "33x33 厘米",
+     "materials": [],
+     "care": [],
+     "description": "餐巾纸, 33x33 厘米"
+    }
+   },
+   {
+    "id": "30617647",
+    "slug": "tofsand-tuo-fu-sang-de-zhuo-bu-dan-fen-hong-se-30617647",
+    "name": "TOFSAND 托福桑德",
+    "productType": "桌布",
+    "designText": "淡粉红色",
+    "price": 59.99,
+    "originalPrice": null,
+    "image": "/images/products/30617647.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     },
+     {
+      "text": "限定款",
+      "backgroundColor": "#111111",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/30617647.jpg",
+      "/images/products/30617647-1.jpg",
+      "/images/products/30617647-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "145x240 厘米",
+     "materials": [],
+     "care": [],
+     "description": "桌布, 145x240 厘米"
+    }
+   },
+   {
+    "id": "80619620",
+    "slug": "tofsand-tuo-fu-sang-de-zhu-xing-zhu-deng-zhao-shi-nei-hu-wai-bai-se-80619620",
+    "name": "TOFSAND 托福桑德",
+    "productType": "柱形烛灯罩，室内/户外",
+    "designText": "白色",
+    "price": 79.99,
+    "originalPrice": null,
+    "image": "/images/products/80619620.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     },
+     {
+      "text": "限定款",
+      "backgroundColor": "#111111",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/80619620.jpg",
+      "/images/products/80619620-1.jpg",
+      "/images/products/80619620-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "44 厘米",
+     "materials": [],
+     "care": [],
+     "description": "柱形烛灯罩，室内/户外, 44 厘米"
+    }
+   },
+   {
+    "id": "50562088",
+    "slug": "kallax-qia-lai-ke-dian-shi-gui-bai-se-50562088",
+    "name": "KALLAX 卡莱克",
+    "productType": "电视柜",
+    "designText": "白色",
+    "price": 499,
+    "originalPrice": null,
+    "image": "/images/products/50562088.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/50562088.jpg",
+      "/images/products/50562088-1.jpg",
+      "/images/products/50562088-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "147x60 厘米",
+     "materials": [],
+     "care": [],
+     "description": "电视柜, 147x60 厘米"
+    }
+   },
+   {
+    "id": "90616918",
+    "slug": "uppfylld-wu-pu-fei-er-de-zhi-bang-bing-he-qian-qing-lu-se-90616918",
+    "name": "UPPFYLLD 乌普菲尔德",
+    "productType": "制棒冰盒",
+    "designText": "浅青绿色",
+    "price": 19.99,
+    "originalPrice": null,
+    "image": "/images/products/90616918.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/90616918.jpg",
+      "/images/products/90616918-1.jpg"
+     ],
+     "benefits": [],
+     "dimension": null,
+     "materials": [],
+     "care": [],
+     "description": "制棒冰盒"
+    }
+   },
+   {
+    "id": "80601776",
+    "slug": "laerbro-lai-bu-luo-jing-zi-80601776",
+    "name": "LÄRBRO 莱步洛",
+    "productType": "镜子",
+    "designText": "",
+    "price": 149,
+    "originalPrice": null,
+    "image": "/images/products/80601776.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/80601776.jpg",
+      "/images/products/80601776-1.jpg",
+      "/images/products/80601776-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "48x120 厘米",
+     "materials": [],
+     "care": [],
+     "description": "镜子, 48x120 厘米"
+    }
+   },
+   {
+    "id": "49494552",
+    "slug": "billy-bi-li-hoegbo-he-ge-bo-dai-bo-li-men-shu-gui-zu-he-hei-se-fang-xiang-mu-hei-se-49494552",
+    "name": "BILLY 毕利 / HÖGBO 赫格伯",
+    "productType": "带玻璃门书柜组合",
+    "designText": "黑色 仿橡木/黑色",
+    "price": 699,
+    "originalPrice": null,
+    "image": "/images/products/49494552.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/49494552.jpg",
+      "/images/products/49494552-1.jpg"
+     ],
+     "benefits": [],
+     "dimension": "40x30x202 厘米",
+     "materials": [],
+     "care": [],
+     "description": "带玻璃门书柜组合, 40x30x202 厘米"
+    }
+   },
+   {
+    "id": "79483651",
+    "slug": "billy-bi-li-oxberg-ao-ke-bo-shu-gui-dai-bo-li-men-fu-jia-jian-hei-se-fang-xiang-mu-79483651",
+    "name": "BILLY 毕利 / OXBERG 奥克伯",
+    "productType": "书柜，带玻璃门/附加件",
+    "designText": "黑色 仿橡木",
+    "price": 749,
+    "originalPrice": null,
+    "image": "/images/products/79483651.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/79483651.jpg",
+      "/images/products/79483651-1.jpg",
+      "/images/products/79483651-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "40x30x237 厘米",
+     "materials": [],
+     "care": [],
+     "description": "书柜，带玻璃门/附加件, 40x30x237 厘米"
+    }
+   },
+   {
+    "id": "09484079",
+    "slug": "billy-bi-li-hoegbo-he-ge-bo-shu-gui-dai-bo-li-men-hei-se-fang-xiang-mu-09484079",
+    "name": "BILLY 毕利 / HÖGBO 赫格伯",
+    "productType": "书柜，带玻璃门",
+    "designText": "黑色 仿橡木",
+    "price": 1099,
+    "originalPrice": null,
+    "image": "/images/products/09484079.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/09484079.jpg",
+      "/images/products/09484079-1.jpg",
+      "/images/products/09484079-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "80x30x202 厘米",
+     "materials": [],
+     "care": [],
+     "description": "书柜，带玻璃门, 80x30x202 厘米"
+    }
+   },
+   {
+    "id": "69483623",
+    "slug": "billy-bi-li-oxberg-ao-ke-bo-dai-men-shu-gui-69483623",
+    "name": "BILLY 毕利 / OXBERG 奥克伯",
+    "productType": "带门书柜",
+    "designText": "",
+    "price": 349,
+    "originalPrice": null,
+    "image": "/images/products/69483623.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/69483623.jpg",
+      "/images/products/69483623-1.jpg",
+      "/images/products/69483623-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": null,
+     "materials": [],
+     "care": [],
+     "description": "带门书柜"
+    }
+   },
+   {
+    "id": "49621687",
+    "slug": "rullerum-lu-le-lu-mu-san-ren-sha-fa-pei-liang-zhang-dian-dong-tang-yi-ge-lan-bang-si-ta-jin-zong-se-49621687",
+    "name": "RULLERUM 鲁勒鲁姆",
+    "productType": "三人沙发，配两张电动躺椅",
+    "designText": "哥兰/邦斯塔 金棕色",
+    "price": 7999,
+    "originalPrice": 9999,
+    "image": "/images/products/49621687.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     },
+     {
+      "text": "热卖",
+      "backgroundColor": "#E00751",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/49621687.jpg",
+      "/images/products/49621687-1.jpg",
+      "/images/products/49621687-2.jpg"
+     ],
+     "benefits": [
+      "接触面头层牛皮"
+     ],
+     "dimension": null,
+     "materials": [],
+     "care": [],
+     "description": "三人沙发，配两张电动躺椅"
+    }
+   },
+   {
+    "id": "49483780",
+    "slug": "billy-bi-li-shu-gui-zhuan-jiao-zu-he-dai-fu-jia-jian-49483780",
+    "name": "BILLY 毕利",
+    "productType": "书柜转角组合，带附加件",
+    "designText": "",
+    "price": 1847,
+    "originalPrice": null,
+    "image": "/images/products/49483780.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/49483780.jpg",
+      "/images/products/49483780-1.jpg",
+      "/images/products/49483780-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": null,
+     "materials": [],
+     "care": [],
+     "description": "书柜转角组合，带附加件"
+    }
+   },
+   {
+    "id": "49557907",
+    "slug": "kallax-qia-lai-ke-dian-shi-gui-dai-di-jia-hei-he-se-49557907",
+    "name": "KALLAX 卡莱克",
+    "productType": "电视柜带底架",
+    "designText": "黑褐色",
+    "price": 749,
+    "originalPrice": null,
+    "image": "/images/products/49557907.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/49557907.jpg",
+      "/images/products/49557907-1.jpg",
+      "/images/products/49557907-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "147x39x78 厘米",
+     "materials": [],
+     "care": [],
+     "description": "电视柜带底架, 147x39x78 厘米"
+    }
+   },
+   {
+    "id": "19569445",
+    "slug": "kallax-qia-lai-ke-dian-shi-ji-zu-he-gui-fang-bai-se-xiang-mu-wen-19569445",
+    "name": "KALLAX 卡莱克",
+    "productType": "电视机组合柜",
+    "designText": "仿白色橡木纹",
+    "price": 1019,
+    "originalPrice": null,
+    "image": "/images/products/19569445.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/19569445.jpg",
+      "/images/products/19569445-1.jpg"
+     ],
+     "benefits": [],
+     "dimension": "147x39x60 厘米",
+     "materials": [],
+     "care": [],
+     "description": "电视机组合柜, 147x39x60 厘米"
+    }
+   },
+   {
+    "id": "50624755",
+    "slug": "aengsfraeken-an-si-fu-ken-yi-zi-dian-hong-he-se-shi-nei-hu-wai-50624755",
+    "name": "ÄNGSFRÄKEN 安斯夫肯",
+    "productType": "椅子垫",
+    "designText": "红褐色/室内/户外",
+    "price": 19.99,
+    "originalPrice": null,
+    "image": "/images/products/50624755.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/50624755.jpg",
+      "/images/products/50624755-1.jpg"
+     ],
+     "benefits": [],
+     "dimension": "36 厘米",
+     "materials": [],
+     "care": [],
+     "description": "椅子垫, 36 厘米"
+    }
+   },
+   {
+    "id": "40477335",
+    "slug": "billy-bi-li-shu-jia-hei-se-fang-xiang-mu-40477335",
+    "name": "BILLY 毕利",
+    "productType": "书架",
+    "designText": "黑色 仿橡木",
+    "price": 399,
+    "originalPrice": null,
+    "image": "/images/products/40477335.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/40477335.jpg",
+      "/images/products/40477335-1.jpg",
+      "/images/products/40477335-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "40x28x202 厘米",
+     "materials": [],
+     "care": [],
+     "description": "书架, 40x28x202 厘米"
+    }
+   },
+   {
+    "id": "20612264",
+    "slug": "purrpingla-pu-ping-la-xuan-gua-chu-wu-jian-6-ge-fang-zhi-pin-mi-huang-se-20612264",
+    "name": "PURRPINGLA 普平拉",
+    "productType": "悬挂储物件，6格",
+    "designText": "纺织品/米黄色",
+    "price": 99.99,
+    "originalPrice": null,
+    "image": "/images/products/20612264.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/20612264.jpg",
+      "/images/products/20612264-1.jpg",
+      "/images/products/20612264-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "22x34x80 厘米",
+     "materials": [],
+     "care": [],
+     "description": "悬挂储物件，6格, 22x34x80 厘米"
+    }
+   },
+   {
+    "id": "19393106",
+    "slug": "uppsnofsad-wu-pu-nuo-sa-fu-gai-chu-wu-he-hei-se-19393106",
+    "name": "UPPSNOFSAD 乌普诺萨",
+    "productType": "附盖储物盒",
+    "designText": "黑色",
+    "price": 6.99,
+    "originalPrice": null,
+    "image": "/images/products/19393106.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/19393106.jpg",
+      "/images/products/19393106-1.jpg",
+      "/images/products/19393106-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "25x17x12 厘米/3.5 公升",
+     "materials": [],
+     "care": [],
+     "description": "附盖储物盒, 25x17x12 厘米/3.5 公升"
+    }
+   },
+   {
+    "id": "79483646",
+    "slug": "billy-bi-li-oxberg-ao-ke-bo-dai-ban-bo-li-men-shu-gui-hei-se-fang-xiang-mu-79483646",
+    "name": "BILLY 毕利 / OXBERG 奥克伯",
+    "productType": "带板/玻璃门书柜",
+    "designText": "黑色 仿橡木",
+    "price": 549,
+    "originalPrice": null,
+    "image": "/images/products/79483646.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/79483646.jpg",
+      "/images/products/79483646-1.jpg",
+      "/images/products/79483646-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "40x30x202 厘米",
+     "materials": [],
+     "care": [],
+     "description": "带板/玻璃门书柜, 40x30x202 厘米"
+    }
+   },
+   {
+    "id": "20619675",
+    "slug": "tofsand-tuo-fu-sang-de-ye-can-lan-duo-se-20619675",
+    "name": "TOFSAND 托福桑德",
+    "productType": "野餐篮",
+    "designText": "多色",
+    "price": 69.99,
+    "originalPrice": null,
+    "image": "/images/products/20619675.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     },
+     {
+      "text": "限定款",
+      "backgroundColor": "#111111",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/20619675.jpg",
+      "/images/products/20619675-1.jpg",
+      "/images/products/20619675-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "40x28x21 厘米",
+     "materials": [],
+     "care": [],
+     "description": "野餐篮, 40x28x21 厘米"
+    }
+   },
+   {
+    "id": "20620339",
+    "slug": "uppfylld-wu-pu-fei-er-de-bing-qi-lin-shao-qian-qing-lu-se-20620339",
+    "name": "UPPFYLLD 乌普菲尔德",
+    "productType": "冰淇淋勺",
+    "designText": "浅青绿色",
+    "price": 9.99,
+    "originalPrice": null,
+    "image": "/images/products/20620339.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/20620339.jpg",
+      "/images/products/20620339-1.jpg"
+     ],
+     "benefits": [],
+     "dimension": null,
+     "materials": [],
+     "care": [],
+     "description": "冰淇淋勺"
+    }
+   },
+   {
+    "id": "70580326",
+    "slug": "senapsmott-sai-na-mo-te-gao-zhen-dai-liang-shuang-bu-liao-70580326",
+    "name": "SENAPSMOTT 塞那莫特",
+    "productType": "高枕",
+    "designText": "带凉爽布料",
+    "price": 199,
+    "originalPrice": null,
+    "image": "/images/products/70580326.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     },
+     {
+      "text": "四季可用，凉爽睡眠",
+      "backgroundColor": "#FFFFFF",
+      "textColor": "#0A8A00"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/70580326.jpg",
+      "/images/products/70580326-1.jpg",
+      "/images/products/70580326-2.jpg"
+     ],
+     "benefits": [
+      "易热人群的选择"
+     ],
+     "dimension": "50x80 厘米",
+     "materials": [],
+     "care": [],
+     "description": "高枕, 50x80 厘米"
+    }
+   },
+   {
+    "id": "19621684",
+    "slug": "rullerum-lu-le-lu-mu-4-ren-sha-fa-pei-2-zhang-dian-dong-tang-yi-ge-lan-bang-si-ta-mi-huang-se-19621684",
+    "name": "RULLERUM 鲁勒鲁姆",
+    "productType": "4人沙发，配2张电动躺椅",
+    "designText": "哥兰/邦斯塔 米黄色",
+    "price": 9999,
+    "originalPrice": 11999,
+    "image": "/images/products/19621684.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/19621684.jpg",
+      "/images/products/19621684-1.jpg",
+      "/images/products/19621684-2.jpg"
+     ],
+     "benefits": [
+      "接触面头层牛皮"
+     ],
+     "dimension": null,
+     "materials": [],
+     "care": [],
+     "description": "4人沙发，配2张电动躺椅"
+    }
+   },
+   {
+    "id": "69602876",
+    "slug": "lastare-la-si-ta-er-yi-gui-zu-he-bai-se-69602876",
+    "name": "LASTARE 拉思塔尔",
+    "productType": "衣柜组合",
+    "designText": "白色",
+    "price": 755,
+    "originalPrice": null,
+    "image": "/images/products/69602876.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/69602876.jpg",
+      "/images/products/69602876-1.jpg",
+      "/images/products/69602876-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "80x62x201 厘米",
+     "materials": [],
+     "care": [],
+     "description": "衣柜组合, 80x62x201 厘米"
+    }
+   },
+   {
+    "id": "30613183",
+    "slug": "strandmon-si-jia-meng-chu-wu-jiao-deng-tuo-ma-da-hong-he-se-30613183",
+    "name": "STRANDMON 斯佳蒙",
+    "productType": "储物脚凳",
+    "designText": "托马达 红褐色",
+    "price": 399,
+    "originalPrice": null,
+    "image": "/images/products/30613183.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/30613183.jpg",
+      "/images/products/30613183-1.jpg",
+      "/images/products/30613183-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": null,
+     "materials": [],
+     "care": [],
+     "description": "储物脚凳"
+    }
+   },
+   {
+    "id": "90632287",
+    "slug": "holmoearna-huo-er-mo-na-jing-zi-xin-xing-90632287",
+    "name": "HOLMÖARNA 霍尔默纳",
+    "productType": "镜子",
+    "designText": "心形",
+    "price": 34.99,
+    "originalPrice": null,
+    "image": "/images/products/90632287.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/90632287.jpg",
+      "/images/products/90632287-1.jpg",
+      "/images/products/90632287-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "27x27 厘米",
+     "materials": [],
+     "care": [],
+     "description": "镜子, 27x27 厘米"
+    }
+   },
+   {
+    "id": "99603959",
+    "slug": "altarliden-a-ta-li-deng-wang-lan-fu-la-chu-shi-gua-gan-bai-se-99603959",
+    "name": "ALTARLIDEN 阿塔利登",
+    "productType": "网篮附拉出式挂杆",
+    "designText": "白色",
+    "price": 70,
+    "originalPrice": null,
+    "image": "/images/products/99603959.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/99603959.jpg"
+     ],
+     "benefits": [],
+     "dimension": "60x62 厘米",
+     "materials": [],
+     "care": [],
+     "description": "网篮附拉出式挂杆, 60x62 厘米"
+    }
+   },
+   {
+    "id": "30613814",
+    "slug": "variera-wa-rui-la-can-ju-pan-ke-diao-jie-30613814",
+    "name": "VARIERA 瓦瑞拉",
+    "productType": "餐具盘",
+    "designText": "可调节",
+    "price": 19.99,
+    "originalPrice": null,
+    "image": "/images/products/30613814.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/30613814.jpg",
+      "/images/products/30613814-1.jpg"
+     ],
+     "benefits": [
+      "可伸缩至30-52cm"
+     ],
+     "dimension": "30-52x47 厘米",
+     "materials": [],
+     "care": [],
+     "description": "餐具盘, 30-52x47 厘米"
+    }
+   },
+   {
+    "id": "59625604",
+    "slug": "poaeng-bo-ang-jiao-deng-hua-mu-tie-mian-ge-lan-hei-se-59625604",
+    "name": "POÄNG 波昂",
+    "productType": "脚凳",
+    "designText": "桦木贴面/哥兰 黑色",
+    "price": 599,
+    "originalPrice": null,
+    "image": "/images/products/59625604.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/59625604.jpg",
+      "/images/products/59625604-1.jpg",
+      "/images/products/59625604-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": null,
+     "materials": [],
+     "care": [],
+     "description": "脚凳"
+    }
+   },
+   {
+    "id": "50623162",
+    "slug": "stavbjoernbaer-si-da-bi-ao-ba-yu-lian-mi-se-bai-se-50623162",
+    "name": "STAVBJÖRNBÄR 斯达比奥巴",
+    "productType": "浴帘",
+    "designText": "米色/白色",
+    "price": 79.99,
+    "originalPrice": null,
+    "image": "/images/products/50623162.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     },
+     {
+      "text": "100%聚酯纤维",
+      "backgroundColor": "#FFFFFF",
+      "textColor": "#0A8A00"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/50623162.jpg",
+      "/images/products/50623162-1.jpg"
+     ],
+     "benefits": [
+      "柔软耐用，可机洗"
+     ],
+     "dimension": "180x200 厘米",
+     "materials": [],
+     "care": [],
+     "description": "浴帘, 180x200 厘米"
+    }
+   },
+   {
+    "id": "49618449",
+    "slug": "alhult-a-hu-te-nordmansskaer-nuo-man-si-qia-yi-zhuo-er-yi-hei-se-zong-se-bomstad-bang-si-ta-hei-se-hei-se-49618449",
+    "name": "ÅLHULT 阿胡特 / NORDMANSSKÄR 诺曼斯卡",
+    "productType": "一桌二椅",
+    "designText": "黑色/棕色/BOMSTAD 邦斯塔 黑色 黑色",
+    "price": 1397,
+    "originalPrice": null,
+    "image": "/images/products/49618449.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/49618449.jpg",
+      "/images/products/49618449-1.jpg",
+      "/images/products/49618449-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "80x74 厘米",
+     "materials": [],
+     "care": [],
+     "description": "一桌二椅, 80x74 厘米"
+    }
+   },
+   {
+    "id": "20631738",
+    "slug": "barndroem-ba-en-de-lu-mu-bei-tao-he-zhen-tao-xin-xing-tu-an-bai-se-hong-se-20631738",
+    "name": "BARNDRÖM 巴恩德吕姆",
+    "productType": "被套和枕套",
+    "designText": "心形图案/白色 红色",
+    "price": 129,
+    "originalPrice": null,
+    "image": "/images/products/20631738.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/20631738.jpg",
+      "/images/products/20631738-1.jpg",
+      "/images/products/20631738-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "150x200/50x80 厘米",
+     "materials": [],
+     "care": [],
+     "description": "被套和枕套, 150x200/50x80 厘米"
+    }
+   },
+   {
+    "id": "70624090",
+    "slug": "roernicka-luo-ni-qia-chuang-lian-gou-hei-se-70624090",
+    "name": "RÖRNICKA 洛尼卡",
+    "productType": "窗帘钩",
+    "designText": "黑色",
+    "price": 19.99,
+    "originalPrice": null,
+    "image": "/images/products/70624090.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/70624090.jpg",
+      "/images/products/70624090-1.jpg"
+     ],
+     "benefits": [],
+     "dimension": null,
+     "materials": [],
+     "care": [],
+     "description": "窗帘钩"
+    }
+   },
+   {
+    "id": "49627401",
+    "slug": "metod-mi-duo-bi-gui-dai-ge-ban-bai-se-shi-dan-sang-de-qian-lu-49627401",
+    "name": "METOD 米多",
+    "productType": "壁柜带搁板",
+    "designText": "白色/史丹桑德 浅绿",
+    "price": 525,
+    "originalPrice": null,
+    "image": "/images/products/49627401.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/49627401.jpg",
+      "/images/products/49627401-1.jpg"
+     ],
+     "benefits": [],
+     "dimension": "45x37x80 厘米",
+     "materials": [],
+     "care": [],
+     "description": "壁柜带搁板, 45x37x80 厘米"
+    }
+   },
+   {
+    "id": "19630315",
+    "slug": "pax-pa-ke-si-mehamn-ma-han-mu-yi-gui-dai-tui-la-men-bai-se-lu-bai-se-bai-se-19630315",
+    "name": "PAX 帕克思 / MEHAMN 马汉姆",
+    "productType": "衣柜，带推拉门",
+    "designText": "白色 铝/白色 白色",
+    "price": 4720,
+    "originalPrice": null,
+    "image": "/images/products/19630315.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/19630315.jpg",
+      "/images/products/19630315-1.jpg",
+      "/images/products/19630315-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "170x66x236 厘米",
+     "materials": [],
+     "care": [],
+     "description": "衣柜，带推拉门, 170x66x236 厘米"
+    }
+   },
+   {
+    "id": "60617392",
+    "slug": "tidvatten-ti-wa-dun-hua-ping-fen-hong-se-60617392",
+    "name": "TIDVATTEN 提瓦顿",
+    "productType": "花瓶",
+    "designText": "粉红色",
+    "price": 24.99,
+    "originalPrice": null,
+    "image": "/images/products/60617392.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     },
+     {
+      "text": "限定款",
+      "backgroundColor": "#111111",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/60617392.jpg",
+      "/images/products/60617392-1.jpg",
+      "/images/products/60617392-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "17 厘米",
+     "materials": [],
+     "care": [],
+     "description": "花瓶, 17 厘米"
+    }
+   },
+   {
+    "id": "80619842",
+    "slug": "kvastspirea-ke-wa-si-pi-zhuang-shi-yong-hua-pen-shi-nei-hu-wai-fen-hong-se-80619842",
+    "name": "KVASTSPIREA 克瓦思皮",
+    "productType": "装饰用花盆",
+    "designText": "室内/户外 粉红色",
+    "price": 12.99,
+    "originalPrice": null,
+    "image": "/images/products/80619842.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     },
+     {
+      "text": "限定款",
+      "backgroundColor": "#111111",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/80619842.jpg"
+     ],
+     "benefits": [],
+     "dimension": "12 厘米",
+     "materials": [],
+     "care": [],
+     "description": "装饰用花盆, 12 厘米"
+    }
+   },
+   {
+    "id": "10626351",
+    "slug": "metod-mi-duo-ge-ban-bao-hu-dian-gua-yong-yu-shui-cao-gui-10626351",
+    "name": "METOD 米多",
+    "productType": "搁板保护垫",
+    "designText": "适用于水槽柜",
+    "price": 170,
+    "originalPrice": null,
+    "image": "/images/products/10626351.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/10626351.jpg",
+      "/images/products/10626351-1.jpg"
+     ],
+     "benefits": [],
+     "dimension": "128 厘米",
+     "materials": [],
+     "care": [],
+     "description": "搁板保护垫, 128 厘米"
+    }
+   },
+   {
+    "id": "59483727",
+    "slug": "billy-bi-li-dai-fu-jia-jian-shu-gui-zu-he-59483727",
+    "name": "BILLY 毕利",
+    "productType": "带附加件书柜组合",
+    "designText": "",
+    "price": 1497,
+    "originalPrice": null,
+    "image": "/images/products/59483727.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/59483727.jpg",
+      "/images/products/59483727-1.jpg",
+      "/images/products/59483727-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": null,
+     "materials": [],
+     "care": [],
+     "description": "带附加件书柜组合"
+    }
+   },
+   {
+    "id": "39621683",
+    "slug": "rullerum-lu-le-lu-mu-san-ren-sha-fa-pei-liang-zhang-dian-dong-tang-yi-ge-lan-bang-si-ta-mi-huang-se-39621683",
+    "name": "RULLERUM 鲁勒鲁姆",
+    "productType": "三人沙发，配两张电动躺椅",
+    "designText": "哥兰/邦斯塔 米黄色",
+    "price": 7999,
+    "originalPrice": 9999,
+    "image": "/images/products/39621683.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     },
+     {
+      "text": "热卖",
+      "backgroundColor": "#E00751",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/39621683.jpg",
+      "/images/products/39621683-1.jpg",
+      "/images/products/39621683-2.jpg"
+     ],
+     "benefits": [
+      "接触面头层牛皮"
+     ],
+     "dimension": null,
+     "materials": [],
+     "care": [],
+     "description": "三人沙发，配两张电动躺椅"
+    }
+   },
+   {
+    "id": "30602387",
+    "slug": "graesrotsfly-ge-lei-luo-fu-liang-bei-30602387",
+    "name": "GRÄSROTSFLY 格雷洛夫",
+    "productType": "凉被",
+    "designText": "",
+    "price": 149,
+    "originalPrice": null,
+    "image": "/images/products/30602387.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     },
+     {
+      "text": "莱赛尔面料",
+      "backgroundColor": "#FFFFFF",
+      "textColor": "#0A8A00"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/30602387.jpg",
+      "/images/products/30602387-1.jpg",
+      "/images/products/30602387-2.jpg"
+     ],
+     "benefits": [
+      "粘胶纤维，赋能体温均衡"
+     ],
+     "dimension": "150x200 厘米",
+     "materials": [],
+     "care": [],
+     "description": "凉被, 150x200 厘米"
+    }
+   },
+   {
+    "id": "59597738",
+    "slug": "besta-bei-da-bi-gui-zu-he-bai-se-fu-ta-er-bai-se-59597738",
+    "name": "BESTÅ 贝达",
+    "productType": "壁柜组合",
+    "designText": "白色/夫塔尔 白色",
+    "price": 1710,
+    "originalPrice": null,
+    "image": "/images/products/59597738.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/59597738.jpg",
+      "/images/products/59597738-1.jpg"
+     ],
+     "benefits": [],
+     "dimension": "180x42x64 厘米",
+     "materials": [],
+     "care": [],
+     "description": "壁柜组合, 180x42x64 厘米"
+    }
+   },
+   {
+    "id": "99615702",
+    "slug": "metod-mi-duo-maximera-ma-si-mai-qian-ru-shi-jia-dian-gao-gui-bai-se-bo-de-bi-hui-bai-99615702",
+    "name": "METOD 米多 / MAXIMERA 马斯麦",
+    "productType": "嵌入式家电高柜",
+    "designText": "白色/伯德比 灰白",
+    "price": 1735,
+    "originalPrice": null,
+    "image": "/images/products/99615702.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/99615702.jpg",
+      "/images/products/99615702-1.jpg"
+     ],
+     "benefits": [],
+     "dimension": "60x60x200 厘米",
+     "materials": [],
+     "care": [],
+     "description": "嵌入式家电高柜, 60x60x200 厘米"
+    }
+   },
+   {
+    "id": "29621607",
+    "slug": "soederhamn-suo-de-han-san-ren-zuo-qi-lin-mi-huang-se-29621607",
+    "name": "SÖDERHAMN 索德汉",
+    "productType": "三人座",
+    "designText": "其林 米黄色",
+    "price": 2399,
+    "originalPrice": null,
+    "image": "/images/products/29621607.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/29621607.jpg",
+      "/images/products/29621607-1.jpg",
+      "/images/products/29621607-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": null,
+     "materials": [],
+     "care": [],
+     "description": "三人座"
+    }
+   },
+   {
+    "id": "50597889",
+    "slug": "foersaeljare-fu-sa-li-ya-can-bian-gui-shen-mi-se-mu-tou-dan-mi-se-50597889",
+    "name": "FÖRSÄLJARE 弗撒里雅",
+    "productType": "餐边柜",
+    "designText": "深米色 木头/淡米色",
+    "price": 1499,
+    "originalPrice": null,
+    "image": "/images/products/50597889.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/50597889.jpg",
+      "/images/products/50597889-1.jpg",
+      "/images/products/50597889-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "140x46x78 厘米",
+     "materials": [],
+     "care": [],
+     "description": "餐边柜, 140x46x78 厘米"
+    }
+   },
+   {
+    "id": "39613678",
+    "slug": "metod-mi-duo-maximera-ma-si-mai-qian-ru-shi-jia-dian-di-gui-bai-se-hai-si-tuo-mi-huang-se-39613678",
+    "name": "METOD 米多 / MAXIMERA 马斯麦",
+    "productType": "嵌入式家电底柜",
+    "designText": "白色/海思托 米黄色",
+    "price": 1200,
+    "originalPrice": null,
+    "image": "/images/products/39613678.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/39613678.jpg",
+      "/images/products/39613678-1.jpg"
+     ],
+     "benefits": [],
+     "dimension": "60x60x80 厘米",
+     "materials": [],
+     "care": [],
+     "description": "嵌入式家电底柜, 60x60x80 厘米"
+    }
+   },
+   {
+    "id": "90629968",
+    "slug": "enudden-an-nu-deng-wei-sheng-zhi-juan-jia-bai-se-90629968",
+    "name": "ENUDDEN 安努登",
+    "productType": "卫生纸卷架",
+    "designText": "白色",
+    "price": 19.99,
+    "originalPrice": null,
+    "image": "/images/products/90629968.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/90629968.jpg"
+     ],
+     "benefits": [],
+     "dimension": "9x13x8 厘米",
+     "materials": [],
+     "care": [],
+     "description": "卫生纸卷架, 9x13x8 厘米"
+    }
+   },
+   {
+    "id": "40611372",
+    "slug": "murvel-mu-wo-er-xie-ba-zi-hui-se-40611372",
+    "name": "MURVEL 穆沃尔",
+    "productType": "鞋拔子",
+    "designText": "灰色",
+    "price": 5.99,
+    "originalPrice": null,
+    "image": "/images/products/40611372.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/40611372.jpg",
+      "/images/products/40611372-1.jpg"
+     ],
+     "benefits": [],
+     "dimension": "61 厘米",
+     "materials": [],
+     "care": [],
+     "description": "鞋拔子, 61 厘米"
+    }
+   },
+   {
+    "id": "59640379",
+    "slug": "norberg-nuo-bo-ge-vihals-wei-ha-si-zhuo-zi-he-1-ba-yi-zi-bai-se-ji-ni-sa-dan-hui-se-59640379",
+    "name": "NORBERG 诺伯格 / VIHALS 维哈斯",
+    "productType": "桌子和1把椅子",
+    "designText": "白色/基尼萨 淡灰色",
+    "price": 398.99,
+    "originalPrice": null,
+    "image": "/images/products/59640379.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/59640379.jpg",
+      "/images/products/59640379-1.jpg",
+      "/images/products/59640379-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "74 厘米",
+     "materials": [],
+     "care": [],
+     "description": "桌子和1把椅子, 74 厘米"
+    }
+   },
+   {
+    "id": "60613501",
+    "slug": "gennaker-yi-ya-nei-ke-tai-deng-bai-se-60613501",
+    "name": "GENNAKER 伊亚内克",
+    "productType": "台灯",
+    "designText": "白色",
+    "price": 39.99,
+    "originalPrice": null,
+    "image": "/images/products/60613501.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/60613501.jpg",
+      "/images/products/60613501-1.jpg",
+      "/images/products/60613501-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": null,
+     "materials": [],
+     "care": [],
+     "description": "台灯"
+    }
+   },
+   {
+    "id": "20599465",
+    "slug": "kaerrnocka-xie-nuo-qia-xi-ding-deng-bai-se-20599465",
+    "name": "KÄRRNOCKA 谢诺卡",
+    "productType": "吸顶灯",
+    "designText": "白色",
+    "price": 99.99,
+    "originalPrice": null,
+    "image": "/images/products/20599465.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/20599465.jpg",
+      "/images/products/20599465-1.jpg",
+      "/images/products/20599465-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "37 厘米",
+     "materials": [],
+     "care": [],
+     "description": "吸顶灯, 37 厘米"
+    }
+   },
+   {
+    "id": "20608549",
+    "slug": "ikea-ps-2026-led-bian-xi-shi-deng-ju-dian-chi-cao-zuo-ke-diao-guang-de-hong-se-qian-lan-se-20608549",
+    "name": "IKEA PS 2026",
+    "productType": "LED便携式灯具",
+    "designText": "电池操作 可调光的/红色 浅蓝色",
+    "price": 199,
+    "originalPrice": null,
+    "image": "/images/products/20608549.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/20608549.jpg",
+      "/images/products/20608549-1.jpg",
+      "/images/products/20608549-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "22 厘米",
+     "materials": [],
+     "care": [],
+     "description": "LED便携式灯具, 22 厘米"
+    }
+   },
+   {
+    "id": "59620343",
+    "slug": "uppakra-wu-bo-qia-3-ren-sha-fa-a-si-wo-hui-bai-59620343",
+    "name": "UPPÅKRA 乌波卡",
+    "productType": "3人沙发",
+    "designText": "阿斯沃 灰白",
+    "price": 5000,
+    "originalPrice": null,
+    "image": "/images/products/59620343.jpg",
+    "labels": [
+     {
+      "text": "新品",
+      "backgroundColor": "#CA5008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/59620343.jpg",
+      "/images/products/59620343-1.jpg",
+      "/images/products/59620343-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": null,
+     "materials": [],
+     "care": [],
+     "description": "3人沙发"
+    }
+   }
+  ]
+ },
+ {
+  "id": "channel-newlowerprice",
+  "name": "更低价格",
+  "slug": "NewLowerPriceChannel",
+  "url": "/cn/zh/personalize-channel/NewLowerPriceChannel",
+  "image": null,
+  "subs": [],
+  "products": [
+   {
+    "id": "20440654",
+    "slug": "kalas-qia-la-si-shao-duo-se-20440654",
+    "name": "KALAS 卡拉斯",
+    "productType": "勺",
+    "designText": "多色",
+    "price": 2.99,
+    "originalPrice": 4.99,
+    "image": "/images/products/20440654.jpg",
+    "labels": [
+     {
+      "text": "更低价格",
+      "backgroundColor": "#CC0008",
+      "textColor": "#FFFFFF"
+     },
+     {
+      "text": "不添加双酚A",
+      "backgroundColor": "#FFFFFF",
+      "textColor": "#0A8A00"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/20440654.jpg",
+      "/images/products/20440654-1.jpg",
+      "/images/products/20440654-2.jpg"
+     ],
+     "benefits": [
+      "多巴胺配色，光滑无毛刺"
+     ],
+     "dimension": null,
+     "materials": [],
+     "care": [],
+     "description": "勺"
+    }
+   },
+   {
+    "id": "50561036",
+    "slug": "lisabo-li-sa-bo-yi-zi-hei-se-ta-mi-la-hei-hui-50561036",
+    "name": "LISABO 利萨伯",
+    "productType": "椅子",
+    "designText": "黑色/塔米拉 黑/灰",
+    "price": 399,
+    "originalPrice": 499,
+    "image": "/images/products/50561036.jpg",
+    "labels": [
+     {
+      "text": "更低价格",
+      "backgroundColor": "#CC0008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/50561036.jpg",
+      "/images/products/50561036-1.jpg",
+      "/images/products/50561036-2.jpg"
+     ],
+     "benefits": [
+      "木质风格 手工质感"
+     ],
+     "dimension": null,
+     "materials": [],
+     "care": [],
+     "description": "椅子"
+    }
+   },
+   {
+    "id": "90538925",
+    "slug": "taellasen-tai-luo-sen-ruan-bao-chuang-jia-ku-si-da-hui-lu-se-90538925",
+    "name": "TÄLLÅSEN 泰洛森",
+    "productType": "软包床架",
+    "designText": "库斯达 灰绿色",
+    "price": 1199,
+    "originalPrice": 1699,
+    "image": "/images/products/90538925.jpg",
+    "labels": [
+     {
+      "text": "更低价格",
+      "backgroundColor": "#CC0008",
+      "textColor": "#FFFFFF"
+     },
+     {
+      "text": "金属框架，持久耐用",
+      "backgroundColor": "#FFFFFF",
+      "textColor": "#0A8A00"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/90538925.jpg",
+      "/images/products/90538925-1.jpg",
+      "/images/products/90538925-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "150x200 厘米",
+     "materials": [],
+     "care": [],
+     "description": "软包床架, 150x200 厘米"
+    }
+   },
+   {
+    "id": "20284385",
+    "slug": "stabil-si-ta-bi-er-zheng-ti-bu-xiu-gang-20284385",
+    "name": "STABIL 斯塔比尔",
+    "productType": "蒸屉",
+    "designText": "不锈钢",
+    "price": 79.99,
+    "originalPrice": 99.99,
+    "image": "/images/products/20284385.jpg",
+    "labels": [
+     {
+      "text": "更低价格",
+      "backgroundColor": "#CC0008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/20284385.jpg"
+     ],
+     "benefits": [
+      "蒸孔分布均匀，有助蒸汽循环"
+     ],
+     "dimension": "10 公升",
+     "materials": [],
+     "care": [],
+     "description": "蒸屉, 10 公升"
+    }
+   },
+   {
+    "id": "50561041",
+    "slug": "lisabo-li-sa-bo-yi-zi-bai-zha-mu-ta-mi-la-bai-se-hei-se-50561041",
+    "name": "LISABO 利萨伯",
+    "productType": "椅子",
+    "designText": "白蜡木/塔米拉 白色/黑色",
+    "price": 399,
+    "originalPrice": 499,
+    "image": "/images/products/50561041.jpg",
+    "labels": [
+     {
+      "text": "更低价格",
+      "backgroundColor": "#CC0008",
+      "textColor": "#FFFFFF"
+     },
+     {
+      "text": "热卖",
+      "backgroundColor": "#E00751",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/50561041.jpg",
+      "/images/products/50561041-1.jpg",
+      "/images/products/50561041-2.jpg"
+     ],
+     "benefits": [
+      "木质风格 手工质感"
+     ],
+     "dimension": null,
+     "materials": [],
+     "care": [],
+     "description": "椅子"
+    }
+   },
+   {
+    "id": "10457230",
+    "slug": "lisabo-li-sa-bo-yi-zi-hei-se-10457230",
+    "name": "LISABO 利萨伯",
+    "productType": "椅子",
+    "designText": "黑色",
+    "price": 299,
+    "originalPrice": 399,
+    "image": "/images/products/10457230.jpg",
+    "labels": [
+     {
+      "text": "更低价格",
+      "backgroundColor": "#CC0008",
+      "textColor": "#FFFFFF"
+     },
+     {
+      "text": "热卖",
+      "backgroundColor": "#E00751",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/10457230.jpg",
+      "/images/products/10457230-1.jpg",
+      "/images/products/10457230-2.jpg"
+     ],
+     "benefits": [
+      "木质风格 手工质感"
+     ],
+     "dimension": null,
+     "materials": [],
+     "care": [],
+     "description": "椅子"
+    }
+   },
+   {
+    "id": "30564776",
+    "slug": "taellasen-tai-luo-sen-ruan-bao-chuang-jia-ku-si-da-dan-mi-se-30564776",
+    "name": "TÄLLÅSEN 泰洛森",
+    "productType": "软包床架",
+    "designText": "库斯达 淡米色",
+    "price": 1199,
+    "originalPrice": 1699,
+    "image": "/images/products/30564776.jpg",
+    "labels": [
+     {
+      "text": "更低价格",
+      "backgroundColor": "#CC0008",
+      "textColor": "#FFFFFF"
+     },
+     {
+      "text": "金属框架，持久耐用",
+      "backgroundColor": "#FFFFFF",
+      "textColor": "#0A8A00"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/30564776.jpg",
+      "/images/products/30564776-1.jpg",
+      "/images/products/30564776-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "150x200 厘米",
+     "materials": [],
+     "care": [],
+     "description": "软包床架, 150x200 厘米"
+    }
+   },
+   {
+    "id": "50316064",
+    "slug": "sockerbit-suo-ke-bi-fu-gai-chu-wu-he-bai-se-50316064",
+    "name": "SOCKERBIT 索克比",
+    "productType": "附盖储物盒",
+    "designText": "白色",
+    "price": 24.99,
+    "originalPrice": 29.99,
+    "image": "/images/products/50316064.jpg",
+    "labels": [
+     {
+      "text": "更低价格",
+      "backgroundColor": "#CC0008",
+      "textColor": "#FFFFFF"
+     },
+     {
+      "text": "热卖",
+      "backgroundColor": "#E00751",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/50316064.jpg",
+      "/images/products/50316064-1.jpg",
+      "/images/products/50316064-2.jpg"
+     ],
+     "benefits": [
+      "有颜有料，装下凌乱更从容"
+     ],
+     "dimension": "38x25x15 厘米",
+     "materials": [],
+     "care": [],
+     "description": "附盖储物盒, 38x25x15 厘米"
+    }
+   },
+   {
+    "id": "10594232",
+    "slug": "rullerum-lu-le-lu-mu-shuang-ren-sha-fa-pei-dian-dong-tang-yi-ge-lan-bang-si-ta-jin-zong-se-10594232",
+    "name": "RULLERUM 鲁勒鲁姆",
+    "productType": "双人沙发，配电动躺椅",
+    "designText": "哥兰/邦斯塔 金棕色",
+    "price": 5999,
+    "originalPrice": 7999,
+    "image": "/images/products/10594232.jpg",
+    "labels": [
+     {
+      "text": "更低价格",
+      "backgroundColor": "#CC0008",
+      "textColor": "#FFFFFF"
+     },
+     {
+      "text": "热卖",
+      "backgroundColor": "#E00751",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/10594232.jpg",
+      "/images/products/10594232-1.jpg",
+      "/images/products/10594232-2.jpg"
+     ],
+     "benefits": [
+      "接触面真皮，双电动躺椅"
+     ],
+     "dimension": null,
+     "materials": [],
+     "care": [],
+     "description": "双人沙发，配电动躺椅"
+    }
+   },
+   {
+    "id": "60590929",
+    "slug": "sanela-sang-ni-la-dian-tao-shen-qing-hui-se-60590929",
+    "name": "SANELA 桑尼拉",
+    "productType": "垫套",
+    "designText": "深青灰色",
+    "price": 39.99,
+    "originalPrice": 59.99,
+    "image": "/images/products/60590929.jpg",
+    "labels": [
+     {
+      "text": "更低价格",
+      "backgroundColor": "#CC0008",
+      "textColor": "#FFFFFF"
+     },
+     {
+      "text": "热卖",
+      "backgroundColor": "#E00751",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/60590929.jpg",
+      "/images/products/60590929-1.jpg",
+      "/images/products/60590929-2.jpg"
+     ],
+     "benefits": [
+      "纯棉丝绒，多色多尺寸"
+     ],
+     "dimension": "50x50 厘米",
+     "materials": [],
+     "care": [],
+     "description": "垫套, 50x50 厘米"
+    }
+   },
+   {
+    "id": "70564779",
+    "slug": "taellasen-tai-luo-sen-ruan-bao-chuang-jia-ku-si-da-dan-mi-se-70564779",
+    "name": "TÄLLÅSEN 泰洛森",
+    "productType": "软包床架",
+    "designText": "库斯达 淡米色",
+    "price": 1399,
+    "originalPrice": 1899,
+    "image": "/images/products/70564779.jpg",
+    "labels": [
+     {
+      "text": "更低价格",
+      "backgroundColor": "#CC0008",
+      "textColor": "#FFFFFF"
+     },
+     {
+      "text": "金属框架，持久耐用",
+      "backgroundColor": "#FFFFFF",
+      "textColor": "#0A8A00"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/70564779.jpg",
+      "/images/products/70564779-1.jpg",
+      "/images/products/70564779-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "180x200 厘米",
+     "materials": [],
+     "care": [],
+     "description": "软包床架, 180x200 厘米"
+    }
+   },
+   {
+    "id": "70591768",
+    "slug": "raskog-la-si-ke-shou-tui-che-hui-lu-se-70591768",
+    "name": "RÅSKOG 拉斯克",
+    "productType": "手推车",
+    "designText": "灰绿色",
+    "price": 149,
+    "originalPrice": 169,
+    "image": "/images/products/70591768.jpg",
+    "labels": [
+     {
+      "text": "更低价格",
+      "backgroundColor": "#CC0008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/70591768.jpg",
+      "/images/products/70591768-1.jpg",
+      "/images/products/70591768-2.jpg"
+     ],
+     "benefits": [
+      "整车可承重12kg 很牢固！"
+     ],
+     "dimension": "28x38x61 厘米",
+     "materials": [],
+     "care": [],
+     "description": "手推车, 28x38x61 厘米"
+    }
+   },
+   {
+    "id": "90538930",
+    "slug": "taellasen-tai-luo-sen-ruan-bao-chuang-jia-ku-si-da-hui-lu-se-90538930",
+    "name": "TÄLLÅSEN 泰洛森",
+    "productType": "软包床架",
+    "designText": "库斯达 灰绿色",
+    "price": 1399,
+    "originalPrice": 1899,
+    "image": "/images/products/90538930.jpg",
+    "labels": [
+     {
+      "text": "更低价格",
+      "backgroundColor": "#CC0008",
+      "textColor": "#FFFFFF"
+     },
+     {
+      "text": "金属框架，持久耐用",
+      "backgroundColor": "#FFFFFF",
+      "textColor": "#0A8A00"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/90538930.jpg",
+      "/images/products/90538930-1.jpg",
+      "/images/products/90538930-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "180x200 厘米",
+     "materials": [],
+     "care": [],
+     "description": "软包床架, 180x200 厘米"
+    }
+   },
+   {
+    "id": "40488391",
+    "slug": "celebrera-se-le-bu-lie-da-diao-wei-guan-3-jian-tao-bo-li-40488391",
+    "name": "CELEBRERA 瑟勒布列达",
+    "productType": "调味罐3件套",
+    "designText": "玻璃",
+    "price": 24.99,
+    "originalPrice": 29.99,
+    "image": "/images/products/40488391.jpg",
+    "labels": [
+     {
+      "text": "更低价格",
+      "backgroundColor": "#CC0008",
+      "textColor": "#FFFFFF"
+     },
+     {
+      "text": "热卖",
+      "backgroundColor": "#E00751",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/40488391.jpg",
+      "/images/products/40488391-1.jpg",
+      "/images/products/40488391-2.jpg"
+     ],
+     "benefits": [
+      "瓶身玻璃材质，不易吸附异味"
+     ],
+     "dimension": null,
+     "materials": [],
+     "care": [],
+     "description": "调味罐3件套"
+    }
+   },
+   {
+    "id": "10591667",
+    "slug": "raskog-la-si-ke-shou-tui-che-mi-se-huang-se-10591667",
+    "name": "RÅSKOG 拉斯克",
+    "productType": "手推车",
+    "designText": "米色-黄色",
+    "price": 179,
+    "originalPrice": 249,
+    "image": "/images/products/10591667.jpg",
+    "labels": [
+     {
+      "text": "更低价格",
+      "backgroundColor": "#CC0008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/10591667.jpg",
+      "/images/products/10591667-1.jpg",
+      "/images/products/10591667-2.jpg"
+     ],
+     "benefits": [
+      "一按即可锁住，更省心！"
+     ],
+     "dimension": "35x45x77 厘米",
+     "materials": [],
+     "care": [],
+     "description": "手推车, 35x45x77 厘米"
+    }
+   },
+   {
+    "id": "00590913",
+    "slug": "sanela-sang-ni-la-dian-tao-mi-se-huang-se-00590913",
+    "name": "SANELA 桑尼拉",
+    "productType": "垫套",
+    "designText": "米色-黄色",
+    "price": 39.99,
+    "originalPrice": 59.99,
+    "image": "/images/products/00590913.jpg",
+    "labels": [
+     {
+      "text": "更低价格",
+      "backgroundColor": "#CC0008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/00590913.jpg",
+      "/images/products/00590913-1.jpg",
+      "/images/products/00590913-2.jpg"
+     ],
+     "benefits": [
+      "纯棉丝绒，多色多尺寸"
+     ],
+     "dimension": "50x50 厘米",
+     "materials": [],
+     "care": [],
+     "description": "垫套, 50x50 厘米"
+    }
+   },
+   {
+    "id": "30591770",
+    "slug": "raskog-la-si-ke-shou-tui-che-mi-se-huang-se-30591770",
+    "name": "RÅSKOG 拉斯克",
+    "productType": "手推车",
+    "designText": "米色-黄色",
+    "price": 149,
+    "originalPrice": 169,
+    "image": "/images/products/30591770.jpg",
+    "labels": [
+     {
+      "text": "更低价格",
+      "backgroundColor": "#CC0008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/30591770.jpg",
+      "/images/products/30591770-1.jpg",
+      "/images/products/30591770-2.jpg"
+     ],
+     "benefits": [
+      "尺寸mini，储物不打折"
+     ],
+     "dimension": "28x38x61 厘米",
+     "materials": [],
+     "care": [],
+     "description": "手推车, 28x38x61 厘米"
+    }
+   },
+   {
+    "id": "10609530",
+    "slug": "stensund-shi-dan-sang-de-zhuan-jiao-di-gui-men-2-jian-qian-lu-10609530",
+    "name": "STENSUND 史丹桑德",
+    "productType": "转角底柜门2件",
+    "designText": "浅绿",
+    "price": 300,
+    "originalPrice": 370,
+    "image": "/images/products/10609530.jpg",
+    "labels": [
+     {
+      "text": "更低价格",
+      "backgroundColor": "#CC0008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/10609530.jpg",
+      "/images/products/10609530-1.jpg",
+      "/images/products/10609530-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "25x70 厘米",
+     "materials": [],
+     "care": [],
+     "description": "转角底柜门2件, 25x70 厘米"
+    }
+   },
+   {
+    "id": "80457236",
+    "slug": "lisabo-li-sa-bo-yi-zi-bai-zha-mu-80457236",
+    "name": "LISABO 利萨伯",
+    "productType": "椅子",
+    "designText": "白蜡木",
+    "price": 299,
+    "originalPrice": 399,
+    "image": "/images/products/80457236.jpg",
+    "labels": [
+     {
+      "text": "更低价格",
+      "backgroundColor": "#CC0008",
+      "textColor": "#FFFFFF"
+     },
+     {
+      "text": "热卖",
+      "backgroundColor": "#E00751",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/80457236.jpg",
+      "/images/products/80457236-1.jpg",
+      "/images/products/80457236-2.jpg"
+     ],
+     "benefits": [
+      "木质风格 手工质感"
+     ],
+     "dimension": null,
+     "materials": [],
+     "care": [],
+     "description": "椅子"
+    }
+   },
+   {
+    "id": "00451709",
+    "slug": "stensund-shi-dan-sang-de-huan-xing-shi-bian-tiao-qian-tiao-bai-se-00451709",
+    "name": "STENSUND 史丹桑德",
+    "productType": "环形饰边条/嵌条",
+    "designText": "白色",
+    "price": 190,
+    "originalPrice": 230,
+    "image": "/images/products/00451709.jpg",
+    "labels": [
+     {
+      "text": "更低价格",
+      "backgroundColor": "#CC0008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/00451709.jpg",
+      "/images/products/00451709-1.jpg",
+      "/images/products/00451709-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "221x3 厘米",
+     "materials": [],
+     "care": [],
+     "description": "环形饰边条/嵌条, 221x3 厘米"
+    }
+   },
+   {
+    "id": "30470396",
+    "slug": "vagstranda-wo-si-tang-dai-zhuang-dan-huang-chuang-dian-jia-ying-qian-lan-se-30470396",
+    "name": "VÅGSTRANDA 沃斯棠",
+    "productType": "袋装弹簧床垫",
+    "designText": "加硬/浅蓝色",
+    "price": 1499,
+    "originalPrice": 1999,
+    "image": "/images/products/30470396.jpg",
+    "labels": [
+     {
+      "text": "更低价格",
+      "backgroundColor": "#CC0008",
+      "textColor": "#FFFFFF"
+     },
+     {
+      "text": "波浪床垫，工学专效设计",
+      "backgroundColor": "#FFFFFF",
+      "textColor": "#0A8A00"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/30470396.jpg",
+      "/images/products/30470396-1.jpg",
+      "/images/products/30470396-2.jpg"
+     ],
+     "benefits": [
+      "舒适分区，创新S型支撑层"
+     ],
+     "dimension": "90x200 厘米",
+     "materials": [],
+     "care": [],
+     "description": "袋装弹簧床垫, 90x200 厘米"
+    }
+   },
+   {
+    "id": "80589883",
+    "slug": "sanela-sang-ni-la-chuang-lian-2-fu-mi-se-huang-se-dai-da-zhe-dai-80589883",
+    "name": "SANELA 桑尼拉",
+    "productType": "窗帘，2幅",
+    "designText": "米色-黄色/带打褶带",
+    "price": 399,
+    "originalPrice": 499,
+    "image": "/images/products/80589883.jpg",
+    "labels": [
+     {
+      "text": "更低价格",
+      "backgroundColor": "#CC0008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/80589883.jpg",
+      "/images/products/80589883-1.jpg",
+      "/images/products/80589883-2.jpg"
+     ],
+     "benefits": [
+      "100%棉丝绒，奢华厚实"
+     ],
+     "dimension": "140x250 厘米",
+     "materials": [],
+     "care": [],
+     "description": "窗帘，2幅, 140x250 厘米"
+    }
+   },
+   {
+    "id": "20594236",
+    "slug": "rullerum-lu-le-lu-mu-shuang-ren-sha-fa-pei-dian-dong-tang-yi-ge-lan-bang-si-ta-mi-huang-se-20594236",
+    "name": "RULLERUM 鲁勒鲁姆",
+    "productType": "双人沙发，配电动躺椅",
+    "designText": "哥兰/邦斯塔 米黄色",
+    "price": 5999,
+    "originalPrice": 7999,
+    "image": "/images/products/20594236.jpg",
+    "labels": [
+     {
+      "text": "更低价格",
+      "backgroundColor": "#CC0008",
+      "textColor": "#FFFFFF"
+     },
+     {
+      "text": "热卖",
+      "backgroundColor": "#E00751",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/20594236.jpg",
+      "/images/products/20594236-1.jpg",
+      "/images/products/20594236-2.jpg"
+     ],
+     "benefits": [
+      "接触面真皮，双电动躺椅"
+     ],
+     "dimension": null,
+     "materials": [],
+     "care": [],
+     "description": "双人沙发，配电动躺椅"
+    }
+   },
+   {
+    "id": "30503924",
+    "slug": "hemmafixare-han-ma-fei-sa-chu-wu-he-zhi-wu-tiao-xing-tu-an-bai-se-hui-se-30503924",
+    "name": "HEMMAFIXARE 汉玛菲萨",
+    "productType": "储物盒",
+    "designText": "织物 条形图案/白色/灰色",
+    "price": 69.99,
+    "originalPrice": 79.99,
+    "image": "/images/products/30503924.jpg",
+    "labels": [
+     {
+      "text": "更低价格",
+      "backgroundColor": "#CC0008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/30503924.jpg",
+      "/images/products/30503924-1.jpg"
+     ],
+     "benefits": [
+      "框架支撑，收纳有序"
+     ],
+     "dimension": "34x51x19 厘米",
+     "materials": [],
+     "care": [],
+     "description": "储物盒, 34x51x19 厘米"
+    }
+   },
+   {
+    "id": "20591407",
+    "slug": "sanela-sang-ni-la-chuang-lian-2-fu-shen-lan-se-dai-da-zhe-dai-20591407",
+    "name": "SANELA 桑尼拉",
+    "productType": "窗帘，2幅",
+    "designText": "深蓝色/带打褶带",
+    "price": 399,
+    "originalPrice": 499,
+    "image": "/images/products/20591407.jpg",
+    "labels": [
+     {
+      "text": "更低价格",
+      "backgroundColor": "#CC0008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/20591407.jpg",
+      "/images/products/20591407-1.jpg",
+      "/images/products/20591407-2.jpg"
+     ],
+     "benefits": [
+      "100%棉丝绒，奢华厚实"
+     ],
+     "dimension": "140x250 厘米",
+     "materials": [],
+     "care": [],
+     "description": "窗帘，2幅, 140x250 厘米"
+    }
+   },
+   {
+    "id": "00526187",
+    "slug": "stensund-shi-dan-sang-de-huan-xing-shi-bian-tiao-qian-tiao-qian-lu-00526187",
+    "name": "STENSUND 史丹桑德",
+    "productType": "环形饰边条/嵌条",
+    "designText": "浅绿",
+    "price": 190,
+    "originalPrice": 230,
+    "image": "/images/products/00526187.jpg",
+    "labels": [
+     {
+      "text": "更低价格",
+      "backgroundColor": "#CC0008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/00526187.jpg",
+      "/images/products/00526187-1.jpg",
+      "/images/products/00526187-2.jpg"
+     ],
+     "benefits": [],
+     "dimension": "221x3 厘米",
+     "materials": [],
+     "care": [],
+     "description": "环形饰边条/嵌条, 221x3 厘米"
+    }
+   },
+   {
+    "id": "40591133",
+    "slug": "sanela-sang-ni-la-dian-tao-shen-qing-hui-se-40591133",
+    "name": "SANELA 桑尼拉",
+    "productType": "垫套",
+    "designText": "深青灰色",
+    "price": 59.99,
+    "originalPrice": 79.99,
+    "image": "/images/products/40591133.jpg",
+    "labels": [
+     {
+      "text": "更低价格",
+      "backgroundColor": "#CC0008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/40591133.jpg",
+      "/images/products/40591133-1.jpg",
+      "/images/products/40591133-2.jpg"
+     ],
+     "benefits": [
+      "纯棉丝绒，多色多尺寸"
+     ],
+     "dimension": "65x65 厘米",
+     "materials": [],
+     "care": [],
+     "description": "垫套, 65x65 厘米"
+    }
+   },
+   {
+    "id": "10590922",
+    "slug": "sanela-sang-ni-la-dian-tao-liang-fen-se-10590922",
+    "name": "SANELA 桑尼拉",
+    "productType": "垫套",
+    "designText": "亮粉色",
+    "price": 39.99,
+    "originalPrice": 59.99,
+    "image": "/images/products/10590922.jpg",
+    "labels": [
+     {
+      "text": "更低价格",
+      "backgroundColor": "#CC0008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/10590922.jpg",
+      "/images/products/10590922-1.jpg",
+      "/images/products/10590922-2.jpg"
+     ],
+     "benefits": [
+      "纯棉丝绒，多色多尺寸"
+     ],
+     "dimension": "50x50 厘米",
+     "materials": [],
+     "care": [],
+     "description": "垫套, 50x50 厘米"
+    }
+   },
+   {
+    "id": "80591131",
+    "slug": "sanela-sang-ni-la-dian-tao-mi-se-huang-se-80591131",
+    "name": "SANELA 桑尼拉",
+    "productType": "垫套",
+    "designText": "米色-黄色",
+    "price": 59.99,
+    "originalPrice": 79.99,
+    "image": "/images/products/80591131.jpg",
+    "labels": [
+     {
+      "text": "更低价格",
+      "backgroundColor": "#CC0008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/80591131.jpg",
+      "/images/products/80591131-1.jpg",
+      "/images/products/80591131-2.jpg"
+     ],
+     "benefits": [
+      "纯棉丝绒，多色多尺寸"
+     ],
+     "dimension": "65x65 厘米",
+     "materials": [],
+     "care": [],
+     "description": "垫套, 65x65 厘米"
+    }
+   },
+   {
+    "id": "60586786",
+    "slug": "raskog-la-si-ke-shou-tui-che-hei-se-60586786",
+    "name": "RÅSKOG 拉斯克",
+    "productType": "手推车",
+    "designText": "黑色",
+    "price": 179,
+    "originalPrice": 249,
+    "image": "/images/products/60586786.jpg",
+    "labels": [
+     {
+      "text": "更低价格",
+      "backgroundColor": "#CC0008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/60586786.jpg",
+      "/images/products/60586786-1.jpg",
+      "/images/products/60586786-2.jpg"
+     ],
+     "benefits": [
+      "整车最大可承重18kg"
+     ],
+     "dimension": "35x45x77 厘米",
+     "materials": [],
+     "care": [],
+     "description": "手推车, 35x45x77 厘米"
+    }
+   },
+   {
+    "id": "10591894",
+    "slug": "sanela-sang-ni-la-dian-tao-qian-fen-se-10591894",
+    "name": "SANELA 桑尼拉",
+    "productType": "垫套",
+    "designText": "浅粉色",
+    "price": 39.99,
+    "originalPrice": 59.99,
+    "image": "/images/products/10591894.jpg",
+    "labels": [
+     {
+      "text": "更低价格",
+      "backgroundColor": "#CC0008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/10591894.jpg",
+      "/images/products/10591894-1.jpg",
+      "/images/products/10591894-2.jpg"
+     ],
+     "benefits": [
+      "100%棉丝绒，多色多尺寸"
+     ],
+     "dimension": "50x50 厘米",
+     "materials": [],
+     "care": [],
+     "description": "垫套, 50x50 厘米"
+    }
+   },
+   {
+    "id": "90163525",
+    "slug": "stabil-si-ta-bi-er-zheng-ti-bu-xiu-gang-90163525",
+    "name": "STABIL 斯塔比尔",
+    "productType": "蒸屉",
+    "designText": "不锈钢",
+    "price": 39.99,
+    "originalPrice": 49.99,
+    "image": "/images/products/90163525.jpg",
+    "labels": [
+     {
+      "text": "更低价格",
+      "backgroundColor": "#CC0008",
+      "textColor": "#FFFFFF"
+     },
+     {
+      "text": "热卖",
+      "backgroundColor": "#E00751",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/90163525.jpg"
+     ],
+     "benefits": [
+      "蒸孔分布均匀，有助蒸汽循环"
+     ],
+     "dimension": "5 公升",
+     "materials": [],
+     "care": [],
+     "description": "蒸屉, 5 公升"
+    }
+   },
+   {
+    "id": "50591137",
+    "slug": "sanela-sang-ni-la-dian-tao-dan-mi-se-50591137",
+    "name": "SANELA 桑尼拉",
+    "productType": "垫套",
+    "designText": "淡米色",
+    "price": 59.99,
+    "originalPrice": 79.99,
+    "image": "/images/products/50591137.jpg",
+    "labels": [
+     {
+      "text": "更低价格",
+      "backgroundColor": "#CC0008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/50591137.jpg",
+      "/images/products/50591137-1.jpg",
+      "/images/products/50591137-2.jpg"
+     ],
+     "benefits": [
+      "100%棉丝绒，多色多尺寸"
+     ],
+     "dimension": "65x65 厘米",
+     "materials": [],
+     "care": [],
+     "description": "垫套, 65x65 厘米"
+    }
+   },
+   {
+    "id": "80574018",
+    "slug": "pokal-bo-ke-er-bei-zi-qian-lan-se-80574018",
+    "name": "POKAL 博克尔",
+    "productType": "杯子",
+    "designText": "浅蓝色",
+    "price": 7.99,
+    "originalPrice": 9.99,
+    "image": "/images/products/80574018.jpg",
+    "labels": [
+     {
+      "text": "更低价格",
+      "backgroundColor": "#CC0008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/80574018.jpg",
+      "/images/products/80574018-1.jpg"
+     ],
+     "benefits": [
+      "钢化玻璃制成，冷热饮皆宜"
+     ],
+     "dimension": "35 厘升",
+     "materials": [],
+     "care": [],
+     "description": "杯子, 35 厘升"
+    }
+   },
+   {
+    "id": "90578092",
+    "slug": "slattis-si-luo-ti-dian-zi-zhong-dai-shi-du-ji-wen-du-ji-bai-se-90578092",
+    "name": "SLÅTTIS 斯洛缇",
+    "productType": "电子钟带湿度计/温度计",
+    "designText": "白色",
+    "price": 39.99,
+    "originalPrice": 49.99,
+    "image": "/images/products/90578092.jpg",
+    "labels": [
+     {
+      "text": "更低价格",
+      "backgroundColor": "#CC0008",
+      "textColor": "#FFFFFF"
+     },
+     {
+      "text": "热卖",
+      "backgroundColor": "#E00751",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/90578092.jpg",
+      "/images/products/90578092-1.jpg",
+      "/images/products/90578092-2.jpg"
+     ],
+     "benefits": [
+      "同时显示时间、温度、湿度"
+     ],
+     "dimension": "8x12 厘米",
+     "materials": [],
+     "care": [],
+     "description": "电子钟带湿度计/温度计, 8x12 厘米"
+    }
+   },
+   {
+    "id": "60586791",
+    "slug": "raskog-la-si-ke-shou-tui-che-hei-se-60586791",
+    "name": "RÅSKOG 拉斯克",
+    "productType": "手推车",
+    "designText": "黑色",
+    "price": 149,
+    "originalPrice": 169,
+    "image": "/images/products/60586791.jpg",
+    "labels": [
+     {
+      "text": "更低价格",
+      "backgroundColor": "#CC0008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/60586791.jpg",
+      "/images/products/60586791-1.jpg",
+      "/images/products/60586791-2.jpg"
+     ],
+     "benefits": [
+      "轮子可锁住 更方便！"
+     ],
+     "dimension": "28x38x61 厘米",
+     "materials": [],
+     "care": [],
+     "description": "手推车, 28x38x61 厘米"
+    }
+   },
+   {
+    "id": "80428705",
+    "slug": "storavan-si-dao-wen-ce-suo-yong-shua-bai-se-hei-se-80428705",
+    "name": "STORAVAN 斯道温",
+    "productType": "厕所用刷",
+    "designText": "白色/黑色",
+    "price": 19.99,
+    "originalPrice": 29.99,
+    "image": "/images/products/80428705.jpg",
+    "labels": [
+     {
+      "text": "更低价格",
+      "backgroundColor": "#CC0008",
+      "textColor": "#FFFFFF"
+     },
+     {
+      "text": "热卖",
+      "backgroundColor": "#E00751",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/80428705.jpg"
+     ],
+     "benefits": [
+      "刷头可替换"
+     ],
+     "dimension": null,
+     "materials": [],
+     "care": [],
+     "description": "厕所用刷"
+    }
+   },
+   {
+    "id": "30591666",
+    "slug": "raskog-la-si-ke-shou-tui-che-hui-lu-se-30591666",
+    "name": "RÅSKOG 拉斯克",
+    "productType": "手推车",
+    "designText": "灰绿色",
+    "price": 179,
+    "originalPrice": 249,
+    "image": "/images/products/30591666.jpg",
+    "labels": [
+     {
+      "text": "更低价格",
+      "backgroundColor": "#CC0008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/30591666.jpg",
+      "/images/products/30591666-1.jpg",
+      "/images/products/30591666-2.jpg"
+     ],
+     "benefits": [
+      "金属材质，能锁住的万向轮"
+     ],
+     "dimension": "35x45x77 厘米",
+     "materials": [],
+     "care": [],
+     "description": "手推车, 35x45x77 厘米"
+    }
+   },
+   {
+    "id": "00589877",
+    "slug": "sanela-sang-ni-la-chuang-lian-2-fu-dan-mi-se-dai-da-zhe-dai-00589877",
+    "name": "SANELA 桑尼拉",
+    "productType": "窗帘，2幅",
+    "designText": "淡米色/带打褶带",
+    "price": 399,
+    "originalPrice": 499,
+    "image": "/images/products/00589877.jpg",
+    "labels": [
+     {
+      "text": "更低价格",
+      "backgroundColor": "#CC0008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/00589877.jpg",
+      "/images/products/00589877-1.jpg",
+      "/images/products/00589877-2.jpg"
+     ],
+     "benefits": [
+      "100%棉丝绒，奢华厚实"
+     ],
+     "dimension": "140x250 厘米",
+     "materials": [],
+     "care": [],
+     "description": "窗帘，2幅, 140x250 厘米"
+    }
+   },
+   {
+    "id": "40608143",
+    "slug": "bollsidan-bo-xi-dang-zuo-zhan-liang-yong-shi-ban-gong-zhuo-dian-dong-bai-se-40608143",
+    "name": "BOLLSIDAN 波席当",
+    "productType": "坐/站两用式办公桌",
+    "designText": "电动/白色",
+    "price": 1799,
+    "originalPrice": 1999,
+    "image": "/images/products/40608143.jpg",
+    "labels": [
+     {
+      "text": "更低价格",
+      "backgroundColor": "#CC0008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/40608143.jpg",
+      "/images/products/40608143-1.jpg",
+      "/images/products/40608143-2.jpg"
+     ],
+     "benefits": [
+      "结实耐用，宽敞整洁"
+     ],
+     "dimension": "160x70 厘米",
+     "materials": [],
+     "care": [],
+     "description": "坐/站两用式办公桌, 160x70 厘米"
+    }
+   },
+   {
+    "id": "60608142",
+    "slug": "bollsidan-bo-xi-dang-zuo-zhan-liang-yong-shi-ban-gong-zhuo-dian-dong-hu-tao-mu-wen-hei-se-60608142",
+    "name": "BOLLSIDAN 波席当",
+    "productType": "坐/站两用式办公桌",
+    "designText": "电动 胡桃木纹/黑色",
+    "price": 1799,
+    "originalPrice": 1999,
+    "image": "/images/products/60608142.jpg",
+    "labels": [
+     {
+      "text": "更低价格",
+      "backgroundColor": "#CC0008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/60608142.jpg",
+      "/images/products/60608142-1.jpg",
+      "/images/products/60608142-2.jpg"
+     ],
+     "benefits": [
+      "电动升降，密胺贴面"
+     ],
+     "dimension": "160x70 厘米",
+     "materials": [],
+     "care": [],
+     "description": "坐/站两用式办公桌, 160x70 厘米"
+    }
+   },
+   {
+    "id": "00591502",
+    "slug": "solhetta-suo-hai-ta-led-deng-pao-e14-470-liu-ming-qiu-xing-ru-bai-se-00591502",
+    "name": "SOLHETTA 索海塔",
+    "productType": "LED灯泡 E14 470流明",
+    "designText": "球形 乳白色",
+    "price": 14.99,
+    "originalPrice": 19.99,
+    "image": "/images/products/00591502.jpg",
+    "labels": [
+     {
+      "text": "更低价格",
+      "backgroundColor": "#CC0008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/00591502.jpg",
+      "/images/products/00591502-1.jpg",
+      "/images/products/00591502-2.jpg"
+     ],
+     "benefits": [
+      "节能耐用无闪烁"
+     ],
+     "dimension": "4000 开尔文",
+     "materials": [],
+     "care": [],
+     "description": "LED灯泡 E14 470流明, 4000 开尔文"
+    }
+   },
+   {
+    "id": "40613743",
+    "slug": "bollsidan-bo-xi-dang-zuo-zhan-liang-yong-shi-ban-gong-zhuo-dian-dong-fang-bai-se-xiang-mu-wen-bai-se-40613743",
+    "name": "BOLLSIDAN 波席当",
+    "productType": "坐/站两用式办公桌",
+    "designText": "电动 仿白色橡木纹/白色",
+    "price": 1799,
+    "originalPrice": 1999,
+    "image": "/images/products/40613743.jpg",
+    "labels": [
+     {
+      "text": "更低价格",
+      "backgroundColor": "#CC0008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/40613743.jpg",
+      "/images/products/40613743-1.jpg",
+      "/images/products/40613743-2.jpg"
+     ],
+     "benefits": [
+      "经久耐用，桌面宽敞"
+     ],
+     "dimension": "160x70 厘米",
+     "materials": [],
+     "care": [],
+     "description": "坐/站两用式办公桌, 160x70 厘米"
+    }
+   },
+   {
+    "id": "20444685",
+    "slug": "sockerbit-suo-ke-bi-fu-gai-chu-wu-he-fen-hong-se-20444685",
+    "name": "SOCKERBIT 索克比",
+    "productType": "附盖储物盒",
+    "designText": "粉红色",
+    "price": 24.99,
+    "originalPrice": 29.99,
+    "image": "/images/products/20444685.jpg",
+    "labels": [
+     {
+      "text": "更低价格",
+      "backgroundColor": "#CC0008",
+      "textColor": "#FFFFFF"
+     }
+    ],
+    "detail": {
+     "images": [
+      "/images/products/20444685.jpg",
+      "/images/products/20444685-1.jpg",
+      "/images/products/20444685-2.jpg"
+     ],
+     "benefits": [
+      "有颜有料，实力收纳超能打"
+     ],
+     "dimension": "38x25x15 厘米",
+     "materials": [],
+     "care": [],
+     "description": "附盖储物盒, 38x25x15 厘米"
     }
    }
   ]

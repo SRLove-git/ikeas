@@ -1,13 +1,17 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { catalogCategories } from "@/data/catalog";
-import { findProductBySlug, formatPrice } from "@/lib/catalog";
+import { catalogCategories, channelCategories } from "@/data/catalog";
+import {
+  findProductBySlug,
+  formatPrice,
+  getCollectionHref,
+} from "@/lib/catalog";
 import { ProductGallery } from "@/components/ProductGallery";
 
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return catalogCategories.flatMap((category) =>
+  return [...catalogCategories, ...channelCategories].flatMap((category) =>
     category.products.map((product) => ({ slug: product.slug })),
   );
 }
@@ -37,10 +41,7 @@ export default async function ProductPage({
             所有商品
           </Link>
           <span>/</span>
-          <Link
-            href={`/cn/zh/cat/${category.slug}`}
-            className="hover:text-ikea-black"
-          >
+          <Link href={getCollectionHref(category)} className="hover:text-ikea-black">
             {category.name}
           </Link>
           <span>/</span>
