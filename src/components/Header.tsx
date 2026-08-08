@@ -156,14 +156,23 @@ export function Header({
                           <div className="i-tooltip__body">我的收藏</div>
                         </span>
                       </span>
-                      <span className="i-tooltip i-tooltip--bottom">
-                        <span className="i-tooltip__custom-trigger-wrapper">
-                          <div className="header-action-btn">
-                            <CartIcon width={24} height={24} />
-                          </div>
-                          <div className="i-tooltip__body">购物袋</div>
-                        </span>
-                      </span>
+                          <span className="i-tooltip i-tooltip--bottom">
+                            <span className="i-tooltip__custom-trigger-wrapper">
+                              <button
+                                type="button"
+                                className="header-action-btn"
+                                aria-label="购物袋"
+                                onClick={() =>
+                                  window.dispatchEvent(
+                                    new CustomEvent("ikea:open-cart"),
+                                  )
+                                }
+                              >
+                                <CartIcon width={24} height={24} />
+                              </button>
+                              <div className="i-tooltip__body">购物袋</div>
+                            </span>
+                          </span>
                     </div>
                   </div>
                 </div>

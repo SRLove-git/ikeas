@@ -1,6 +1,7 @@
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { FloatingWidgets } from "@/components/FloatingWidgets";
+import { CartDrawer } from "@/components/CartDrawer";
 import {
   footerFeaturedCards,
   footerLinkGroups,
@@ -27,6 +28,7 @@ export function SiteLayout({ children }: { children: React.ReactNode }) {
             legal={legalBar}
           />
           <FloatingWidgets />
+          <CartDrawer />
         </div>
       </div>
     </main>

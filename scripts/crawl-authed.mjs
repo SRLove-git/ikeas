@@ -42,23 +42,16 @@ const page = await browser.newPage();
 await page.goto(LOGIN_URL, { waitUntil: "domcontentloaded", timeout: 60000 });
 console.log(">> 请在打开的 Chrome 窗口里登录宜家(或直接导航到其他页面)…");
 
-// Wait for the user to sign in (leave the login page / store an auth token).
+// Wait for the user to sign in. A real login navigates away from the login
+// page; a guest/anonymous token alone is not enough.
 const deadline = Date.now() + 20 * 60 * 1000;
 let loggedIn = false;
 while (Date.now() < deadline) {
   try {
     const state = await page.evaluate(() => {
-      if (!window.location.pathname.includes("/profile/login")) return "navigated";
-      let authKey = false;
-      try {
-        for (let i = 0; i < localStorage.length; i++) {
-          const key = localStorage.key(i) ?? "";
-          if (/token|auth|user|access/i.test(key)) authKey = true;
-        }
-      } catch {
-        /* ignore */
-      }
-      return authKey ? "authed" : null;
+      const p = window.location.pathname;
+      if (!p.includes("/profile/login") && !p.includes("/login")) return "navigated";
+      return null;
     });
     if (state) {
       loggedIn = true;

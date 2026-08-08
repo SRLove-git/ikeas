@@ -1,5 +1,6 @@
 import { Footer } from "@/components/Footer";
 import { FloatingWidgets } from "@/components/FloatingWidgets";
+import { CartDrawer } from "@/components/CartDrawer";
 import { Header } from "@/components/Header";
 import { HeroCarousel } from "@/components/HeroCarousel";
 import { InspirationTipsCard } from "@/components/InspirationTipsCard";
@@ -81,6 +82,7 @@ export default function Home() {
             legal={legalBar}
           />
           <FloatingWidgets />
+          <CartDrawer />
         </div>
       </div>
     </main>

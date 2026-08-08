@@ -50,9 +50,10 @@ export default function ProfilePage() {
 
           <div className="mt-10 grid gap-4 md:grid-cols-3">
             {[
-              ["我的订单", "查看历史订单", "/cn/zh/search/products?q=沙发"],
-              ["我的收藏", "喜欢的商品", "/cn/zh/cat/cha-ji-10716/"],
+              ["我的订单", "查看历史订单", "/cn/zh/profile/my-orders/"],
+              ["我的收藏", "喜欢的商品", "/cn/zh/wishlist/"],
               ["宜家俱乐部", "会员权益与优惠", "/cn/zh/ikea-family/"],
+              ["商品对比", "比较心仪商品", "/cn/zh/compare/"],
             ].map(([title, desc, href]) => (
               <Link
                 key={title}
