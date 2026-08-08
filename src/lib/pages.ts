@@ -2,12 +2,8 @@ import { contentPages, contentPagesByUrl } from "@/data/pages-index";
 import type { ContentPageData } from "@/data/pages-types";
 
 export function findContentPage(url: string): ContentPageData | undefined {
-  const normalized = url.endsWith("/") ? url : `${url}/`;
-  return (
-    contentPagesByUrl.get(normalized) ??
-    contentPagesByUrl.get(url) ??
-    contentPagesByUrl.get(url.replace(/\/$/, ""))
-  );
+  const key = url.replace(/\/+$/, "");
+  return contentPagesByUrl.get(key);
 }
 
 export function pagesByFamily(family: string): ContentPageData[] {

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import type { ContentBlock } from "@/data/pages-types";
+import type { ContentBlock, ContentBlockItem } from "@/data/pages-types";
 import { SiteImage } from "@/components/SiteImage";
 
 function isInternal(href: string) {
@@ -33,6 +33,15 @@ interface Item {
   image?: string | null;
   text?: string;
   href?: string;
+  title?: string;
+  backgroundColor?: string | null;
+}
+
+const PLACEHOLDER_TITLES = new Set(["alt for image", "名称"]);
+
+function cleanTitle(title: string | null | undefined): string {
+  const t = (title ?? "").trim();
+  return PLACEHOLDER_TITLES.has(t) ? "" : t;
 }
 
 /** Pair images/texts/links into card-like items for galleries and lists. */
@@ -146,6 +155,27 @@ function TextBlock({ block }: { block: ContentBlock }) {
 }
 
 function ColumnsBlock({ block }: { block: ContentBlock }) {
+  const items = block.items ?? [];
+  if (items.length > 0) {
+    return (
+      <div className="grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-4">
+        {items.map((item, i) => (
+          <BlockLink key={i} href={item.href ?? "#"} className="group">
+              <SiteImage
+                src={item.image}
+                alt={cleanTitle(item.title)}
+                className="aspect-[4/3] w-full"
+              />
+            {cleanTitle(item.title) ? (
+              <p className="mt-2 text-sm font-bold group-hover:underline">
+                {cleanTitle(item.title)}
+              </p>
+            ) : null}
+          </BlockLink>
+        ))}
+      </div>
+    );
+  }
   const n = Math.max(1, Math.min(4, block.texts.length || block.images.length || 2));
   const columns = Array.from({ length: n }, (_, i) => ({
     text: block.texts[i] ?? null,
@@ -183,11 +213,40 @@ function ColumnsBlock({ block }: { block: ContentBlock }) {
 }
 
 function GalleryBlock({ block }: { block: ContentBlock }) {
-  const items = pairItems(block);
-  if (items.length === 0) return null;
+  const items = block.items ?? [];
+  if (items.length > 0) {
+    return (
+      <div>
+        {block.title ? <h2 className="mb-4 text-xl font-bold">{block.title}</h2> : null}
+        {block.texts[0] ? (
+          <p className="mb-5 max-w-2xl text-sm leading-6 text-ikea-muted">
+            {block.texts[0]}
+          </p>
+        ) : null}
+        <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
+          {items.map((item, i) => (
+            <BlockLink key={i} href={item.href ?? "#"} className="group">
+              <SiteImage
+                src={item.image}
+                alt={cleanTitle(item.title)}
+                className="aspect-square w-full transition-transform duration-300 group-hover:scale-105"
+              />
+              {cleanTitle(item.title) ? (
+                <p className="mt-2 line-clamp-2 text-sm font-bold group-hover:underline">
+                  {cleanTitle(item.title)}
+                </p>
+              ) : null}
+            </BlockLink>
+          ))}
+        </div>
+      </div>
+    );
+  }
+  const paired = pairItems(block);
+  if (paired.length === 0) return null;
   return (
     <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
-      {items.map((item, i) => (
+      {paired.map((item, i) => (
         <div key={i} className="group overflow-hidden bg-ikea-gray-100">
           {item.image ? (
             <SiteImage
@@ -336,7 +395,7 @@ function VideoLinkBlock({ block }: { block: ContentBlock }) {
 }
 
 function BannerBlock({ block }: { block: ContentBlock }) {
-  const image = block.images[0] ?? null;
+  const image = (block.items ?? [])[0]?.image ?? block.images[0] ?? null;
   const link = block.links[0] ?? null;
   return (
     <section className="relative overflow-hidden bg-ikea-gray-100">
@@ -363,6 +422,95 @@ function BannerBlock({ block }: { block: ContentBlock }) {
         ) : null}
       </div>
     </section>
+  );
+}
+
+function PillSliderBlock({ block }: { block: ContentBlock }) {
+  const raw = block.items ?? [];
+  const items: (ContentBlockItem | Item)[] =
+    raw.length > 0 ? raw : pairItems(block);
+  if (items.length === 0) return null;
+  return (
+    <div>
+      {block.title ? <h2 className="mb-5 text-xl font-bold">{block.title}</h2> : null}
+      <div className="no-scrollbar -mx-5 flex gap-4 overflow-x-auto px-5 pb-2">
+        {items.map((item, i) => (
+          <BlockLink key={i} href={item.href ?? "#"} className="group w-32 shrink-0">
+            <div
+              className="overflow-hidden rounded-full border-4 border-transparent transition-colors group-hover:border-ikea-blue"
+              style={{ backgroundColor: item.backgroundColor ?? "#f5f5f5" }}
+            >
+              <SiteImage
+                src={item.image}
+                alt={item.title ?? item.text ?? ""}
+                className="aspect-square w-full rounded-full"
+              />
+            </div>
+            {item.title ? (
+              <p className="mt-2 text-center text-xs font-bold group-hover:underline">
+                {item.title}
+              </p>
+            ) : null}
+          </BlockLink>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function RankingBlock({ block }: { block: ContentBlock }) {
+  return (
+    <section className="bg-ikea-gray-100 px-6 py-8">
+      <div className="flex items-center justify-between">
+        <h2 className="text-lg font-bold lg:text-xl">
+          {block.title ?? block.texts[0] ?? "热销榜单"}
+        </h2>
+        <BlockLink
+          href={block.links[0]?.href ?? "/cn/zh/all-products/"}
+          className="text-sm font-bold text-ikea-blue hover:underline"
+        >
+          {block.links[0]?.text || "查看完整榜单"}
+        </BlockLink>
+      </div>
+      <div className="mt-6 grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-5">
+        {["#1", "#2", "#3", "#4", "#5"].map((rank, i) => (
+          <div
+            key={rank}
+            className="flex aspect-square flex-col items-center justify-center text-white"
+            style={{ backgroundColor: ["#5AA58A", "#5097BF", "#D4973B", "#A36C9F", "#B84A4A"][i] }}
+          >
+            <span className="text-2xl font-bold">{rank}</span>
+            <span className="mt-1 text-xs opacity-90">卧室热销</span>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+function ImageWithTextBoxBlock({ block }: { block: ContentBlock }) {
+  const item = (block.items ?? [])[0];
+  const image = item?.image ?? block.images[0] ?? null;
+  const title = item?.title ?? block.title;
+  const link = item?.href ?? block.links[0]?.href ?? null;
+  return (
+    <BlockLink href={link ?? "#"} className="group relative block">
+      <SiteImage
+        src={image}
+        alt={title ?? ""}
+        className="aspect-[16/9] w-full"
+      />
+      <div className="absolute bottom-0 left-0 m-5 max-w-xs bg-white p-4 shadow-md">
+        {title ? (
+          <h3 className="text-base font-bold group-hover:underline">{title}</h3>
+        ) : null}
+        {item?.text || block.texts[0] ? (
+          <p className="mt-1 text-xs leading-5 text-ikea-muted">
+            {item?.text || block.texts[0]}
+          </p>
+        ) : null}
+      </div>
+    </BlockLink>
   );
 }
 
@@ -479,6 +627,27 @@ function PlannerBlock({ block }: { block: ContentBlock }) {
 }
 
 function GenericBlock({ block }: { block: ContentBlock }) {
+  const items = block.items ?? [];
+  if (items.length > 0) {
+    return (
+      <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
+        {items.map((item, i) => (
+          <BlockLink key={i} href={item.href ?? "#"} className="group">
+            <SiteImage
+              src={item.image}
+              alt={item.title}
+              className="aspect-[4/3] w-full"
+            />
+            {item.title ? (
+              <p className="mt-2 text-sm font-bold group-hover:underline">
+                {item.title}
+              </p>
+            ) : null}
+          </BlockLink>
+        ))}
+      </div>
+    );
+  }
   const image = block.images[0] ?? null;
   return (
     <div className="flex flex-col gap-4">
@@ -548,9 +717,14 @@ export function ContentBlocks({ blocks }: { blocks: ContentBlock[] }) {
           case "pub-expandable-area":
             return <ExpandableBlock key={i} block={block} />;
           case "pub-visual-pill-slider":
+            return <PillSliderBlock key={i} block={block} />;
           case "pub-visual-navigation":
           case "anchor-navigation":
             return <PillNavBlock key={i} block={block} />;
+          case "ranking":
+            return <RankingBlock key={i} block={block} />;
+          case "pub-image-with-text-box":
+            return <ImageWithTextBoxBlock key={i} block={block} />;
           case "pub-assurances":
             return <AssurancesBlock key={i} block={block} />;
           case "pub-planner":

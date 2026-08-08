@@ -3,12 +3,21 @@ export interface ContentBlockLink {
   text: string;
 }
 
+export interface ContentBlockItem {
+  title: string;
+  text: string;
+  image: string | null;
+  href: string | null;
+  backgroundColor?: string | null;
+}
+
 export interface ContentBlock {
   type: string;
   title: string | null;
   texts: string[];
   images: string[];
   links: ContentBlockLink[];
+  items?: ContentBlockItem[];
   settings: Record<string, unknown> | null;
 }
 

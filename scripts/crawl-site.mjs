@@ -207,14 +207,89 @@ function extractBlock(comp) {
           ? m.heading
           : null;
   const { texts, images, links } = walkModel(m);
+  const items = extractBlockItems(m);
   return {
     type,
     title: title ? title.slice(0, 200) : null,
     texts: texts.slice(0, 6),
     images: images.slice(0, 5),
     links: links.slice(0, 6),
+    items: items.slice(0, 24),
     settings: settings && Object.keys(settings).length ? settings : null,
   };
+}
+
+function normalizeHref(url) {
+  if (!url || typeof url !== "string") return null;
+  if (/^ikea:\/\//.test(url)) return null;
+  if (/^https?:\/\//.test(url)) {
+    const m = url.match(/^https?:\/\/www\.ikea\.cn(\/.*)/);
+    return m ? m[1] : url;
+  }
+  if (url.startsWith("/")) {
+    return url.startsWith("/cn/") ? url : `/cn/zh${url}`;
+  }
+  return null;
+}
+
+/** Collect paired image/title/link items from a component model. */
+function extractBlockItems(model) {
+  const items = [];
+  const seen = new Set();
+  const walk = (node, depth) => {
+    if (!node || typeof node !== "object" || depth > 7) return;
+    if (Array.isArray(node)) {
+      node.forEach((n) => walk(n, depth + 1));
+      return;
+    }
+    const linkUrl =
+      typeof node.link === "string"
+        ? node.link
+        : typeof node.link?.url === "string"
+          ? node.link.url
+          : typeof node.href === "string"
+            ? node.href
+            : null;
+    const imageUrl =
+      typeof node.image === "string"
+        ? node.image
+        : typeof node.image?.url === "string"
+          ? node.image.url
+          : null;
+    const title =
+      [node.title, node.subtitle, node.textBoxHeader, node.alt, node.name]
+        .find(
+          (v) =>
+            typeof v === "string" && v.trim().length > 0 && v.trim() !== "名称",
+        ) ?? "";
+    if ((linkUrl || imageUrl) && (title || imageUrl)) {
+      const href = normalizeHref(linkUrl);
+      const item = {
+        title: String(title).slice(0, 200),
+        text:
+          (typeof node.subtitle === "string"
+            ? node.subtitle
+            : typeof node.description === "string"
+              ? node.description
+              : "")?.slice(0, 300) ?? "",
+        image: imageUrl,
+        href,
+        backgroundColor:
+          typeof node.backgroundColor === "string" ? node.backgroundColor : null,
+      };
+      const key = `${item.image}|${item.href}|${item.title}`;
+      if (!seen.has(key)) {
+        seen.add(key);
+        items.push(item);
+      }
+      return;
+    }
+    for (const value of Object.values(node)) {
+      walk(value, depth + 1);
+    }
+  };
+  walk(model, 0);
+  return items;
 }
 
 function extractContentPage(root, url) {
@@ -485,6 +560,49 @@ async function crawlLinkList(file) {
   console.log("link list done:", done, "/", urls.length);
 }
 
+// -------------------------------------------- re-extract existing pages
+
+async function crawlReblocks() {
+  const pagesDir = path.join(repoRoot, "docs", "research", "data", "pages");
+  if (!fs.existsSync(pagesDir)) {
+    console.log("no content pages to re-extract");
+    return;
+  }
+  const urls = [];
+  for (const f of fs.readdirSync(pagesDir)) {
+    if (!f.endsWith(".json")) continue;
+    try {
+      const page = JSON.parse(fs.readFileSync(path.join(pagesDir, f), "utf8"));
+      if (page.url) urls.push(page.url);
+    } catch {
+      /* skip corrupt file */
+    }
+  }
+  console.log("re-extracting", urls.length, "content pages…");
+
+  let done = 0;
+  let ok = 0;
+  await mapLimit(urls, CONCURRENCY, async (url) => {
+    const data = await fetchPagePayload(url);
+    let page = null;
+    if (data) {
+      page = extractContentPage(data.root, url);
+      if (page.blocks.length === 0 && !page.title) page = null;
+    }
+    if (page) {
+      fs.writeFileSync(
+        path.join(pagesDir, safeName(url) + ".json"),
+        JSON.stringify(page, null, 1),
+      );
+      ok++;
+    }
+    done++;
+    if (done % 200 === 0) console.log(`  reblocks ${done}/${urls.length} ok=${ok}`);
+  });
+  console.log("reblocks done:", done, "ok:", ok);
+  aggregatePages();
+}
+
 // --------------------------------------------------------------- products
 
 function extractProduct(raw) {
@@ -655,6 +773,8 @@ if (mode === "--content") {
   await crawlLinkList(process.argv[3]);
   aggregatePages();
   aggregateCatalogs();
+} else if (mode === "--reblocks") {
+  await crawlReblocks();
 } else if (mode === "--finalize") {
   aggregatePages();
   aggregateCatalogs();

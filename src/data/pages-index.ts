@@ -30,6 +30,7 @@ const legacyContentPages: ContentPageData[] = legacyPages.map((page) => ({
     texts: section.text ? [section.text] : [],
     images: section.image ? [section.image] : [],
     links: [],
+    items: [],
     settings: null,
   })),
 }));
@@ -56,11 +57,12 @@ const crawledPages: ContentPageData[] = [
 // New crawl wins; legacy pages fill the gaps (e.g. landing pages).
 const byUrl = new Map<string, ContentPageData>();
 for (const page of [...crawledPages, ...legacyContentPages]) {
-  if (!byUrl.has(page.url)) byUrl.set(page.url, page);
+  const key = page.url.replace(/\/$/, "");
+  if (!byUrl.has(key)) byUrl.set(key, page);
 }
 
 export const contentPages: ContentPageData[] = [...byUrl.values()];
 
 export const contentPagesByUrl = new Map(
-  contentPages.map((page) => [page.url, page]),
+  contentPages.map((page) => [page.url.replace(/\/$/, ""), page]),
 );
