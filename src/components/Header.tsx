@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import {
   CartIcon,
@@ -25,6 +26,7 @@ export function Header({
   const [openAppPromo, setOpenAppPromo] = useState(false);
   const [hintIndex, setHintIndex] = useState(0);
   const [bar, setBar] = useState({ width: 0, left: 0, opacity: 0 });
+  const [query, setQuery] = useState("");
 
   useEffect(() => {
     if (searchHints.length < 2) return;
@@ -74,13 +76,24 @@ export function Header({
                     </div>
                   </div>
                   <div className="search-bar-container">
-                    <div className="search-input">
+                    <form
+                      className="search-input"
+                      role="search"
+                      onSubmit={(event) => {
+                        event.preventDefault();
+                        const q = query.trim();
+                        if (q) {
+                          window.location.href = `/cn/zh/search/products?q=${encodeURIComponent(q)}`;
+                        }
+                      }}
+                    >
                       <SearchIcon className="search-input__icon" width={24} height={24} />
                       <input
                         className="s-input"
                         type="text"
-                        placeholder=""
                         aria-label="搜索"
+                        value={query}
+                        onChange={(event) => setQuery(event.target.value)}
                       />
                       <div className="s-header-notice">
                         <div className="i-notice">
@@ -94,16 +107,19 @@ export function Header({
                           </div>
                         </div>
                       </div>
-                    </div>
+                    </form>
                   </div>
                   <div className="header_container_right">
                     <div className="header_container_right_img">
                       <span className="i-tooltip i-tooltip--bottom">
                         <span className="i-tooltip__custom-trigger-wrapper">
-                          <div className="header-action-btn header-action-btn--login">
+                          <Link
+                            href="/cn/zh/profile/login/"
+                            className="header-action-btn header-action-btn--login"
+                          >
                             <UserIcon width={24} height={24} />
                             <span>登录宜家账号</span>
-                          </div>
+                          </Link>
                           <div className="i-tooltip__body">登录宜家账号</div>
                         </span>
                       </span>
