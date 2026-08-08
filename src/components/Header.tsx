@@ -200,7 +200,6 @@ export function Header({
                         setOpenPanel(panel ? panel.label : null);
                         moveActiveBar(event.currentTarget);
                       }}
-                      onMouseLeave={() => setOpenPanel(null)}
                     >
                       <a href={menuPanels.find((p) => p.label === item.label)?.href ?? item.href ?? "#"} className="menu-label">
                         {item.label}
