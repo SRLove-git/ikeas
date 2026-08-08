@@ -338,28 +338,44 @@ function GalleryBlock({ block }: { block: ContentBlock }) {
 }
 
 function ProductGridBlock({ block }: { block: ContentBlock }) {
-  const items = pairItems(block, 24);
+  const raw = block.items ?? [];
+  const items: (ContentBlockItem | Item)[] =
+    raw.length > 0 ? raw : pairItems(block, 24);
   if (items.length === 0) return null;
   return (
-    <div className="grid grid-cols-2 gap-x-4 gap-y-8 md:grid-cols-3 lg:grid-cols-4">
-      {items.map((item, i) => (
-        <BlockLink key={i} href={item.href ?? "#"} className="group">
-          <div className="overflow-hidden bg-ikea-gray-100">
-            {item.image ? (
-              <SiteImage
-                src={item.image}
-                alt={item.text ?? ""}
-                className="aspect-square w-full transition-transform duration-300 group-hover:scale-105"
-              />
-            ) : (
-              <div className="aspect-square w-full" />
-            )}
-          </div>
-          {item.text ? (
-            <p className="mt-2 line-clamp-2 text-sm text-ikea-black">{item.text}</p>
-          ) : null}
-        </BlockLink>
-      ))}
+    <div>
+      {block.title ? (
+        <h2 className="mb-5 text-xl font-bold">{block.title}</h2>
+      ) : null}
+      <div className="grid grid-cols-2 gap-x-4 gap-y-8 md:grid-cols-3 lg:grid-cols-4">
+        {items.map((item, i) => (
+          <BlockLink key={i} href={item.href ?? "#"} className="group">
+            <div className="overflow-hidden bg-ikea-gray-100">
+              {item.image ? (
+                <SiteImage
+                  src={item.image}
+                  alt={item.title ?? item.text ?? ""}
+                  className="aspect-square w-full transition-transform duration-300 group-hover:scale-105"
+                />
+              ) : (
+                <div className="aspect-square w-full" />
+              )}
+            </div>
+            {item.title ? (
+              <p className="mt-2 line-clamp-2 text-sm text-ikea-black">
+                {item.title}
+              </p>
+            ) : item.text ? (
+              <p className="mt-2 line-clamp-2 text-sm text-ikea-black">
+                {item.text}
+              </p>
+            ) : null}
+            {item.title && item.text ? (
+              <p className="mt-0.5 text-sm font-bold">{item.text}</p>
+            ) : null}
+          </BlockLink>
+        ))}
+      </div>
     </div>
   );
 }

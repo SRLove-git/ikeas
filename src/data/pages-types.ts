@@ -26,6 +26,7 @@ export interface ContentBlock {
   links: ContentBlockLink[];
   items?: ContentBlockItem[];
   columns?: ContentColumn[];
+  productIds?: string[];
   settings: Record<string, unknown> | null;
 }
 

@@ -247,6 +247,10 @@ function extractBlock(comp) {
   const { texts, images, links } = walkModel(m);
   const items = extractBlockItems(m);
   const columns = type === "pub-columns" ? extractColumns(m) : undefined;
+  const productIds =
+    ["pub-product-shelf", "pub-product-list", "product-list"].includes(type)
+      ? (m?.products?.productIds ?? []).slice(0, 12)
+      : [];
   return {
     type,
     title: title ? stripHtml(title).slice(0, 200) || null : null,
@@ -255,6 +259,7 @@ function extractBlock(comp) {
     links: links.slice(0, 6),
     items: items.slice(0, 24),
     columns,
+    productIds,
     settings: settings && Object.keys(settings).length ? settings : null,
   };
 }
@@ -338,7 +343,13 @@ function extractBlockItems(model) {
           (v) =>
             typeof v === "string" && v.trim().length > 0 && v.trim() !== "名称",
         ) ?? "";
-    if ((linkUrl || imageUrl) && (title || imageUrl)) {
+    const hasChildren =
+      Array.isArray(node.content?.elements) || Array.isArray(node.elements);
+    if (
+      !hasChildren &&
+      (linkUrl || imageUrl) &&
+      (title || imageUrl)
+    ) {
       const href = normalizeHref(linkUrl);
       const item = {
         title: String(title).slice(0, 200),
@@ -366,6 +377,67 @@ function extractBlockItems(model) {
   };
   walk(model, 0);
   return items;
+}
+
+/** Fetch product summaries for product-shelf blocks and attach them as items. */
+async function enrichPage(page) {
+  const ids = new Set();
+  for (const b of page.blocks ?? []) {
+    for (const id of b.productIds ?? []) ids.add(String(id));
+  }
+  if (ids.size === 0) return;
+
+  const summaries = [];
+  const arr = [...ids];
+  for (let i = 0; i < arr.length; i += 8) {
+    try {
+      const res = await fetchWithRetry(
+        `${API_BASE}/content/products?ids=${arr.slice(i, i + 8).join(",")}`,
+        {
+          headers: {
+            ...HEADERS,
+            "X-Client-Platform": "PcWeb",
+            Referer: "https://www.ikea.cn/",
+          },
+        },
+      );
+      if (res) {
+        const data = await res.json();
+        if (Array.isArray(data)) summaries.push(...data);
+      }
+    } catch {
+      /* skip failed batch */
+    }
+  }
+  const byId = new Map();
+  for (const p of summaries) {
+    const id = String(p.id ?? "");
+    byId.set(id, p);
+    byId.set(id.replace(/^s/, ""), p);
+    if (p.globalId) byId.set(String(p.globalId), p);
+  }
+  for (const b of page.blocks ?? []) {
+    if (!(b.productIds ?? []).length) continue;
+    const items = (b.productIds ?? [])
+      .map((id) => byId.get(String(id)) ?? byId.get(String(id).replace(/^s/, "")))
+      .filter(Boolean)
+      .map((p) => ({
+        title: p.name ?? "",
+        text:
+          p.price?.regularPrice != null
+            ? `¥${p.price.regularPrice.toLocaleString("zh-CN")}`
+            : "",
+        image:
+          (typeof p.image === "string"
+            ? p.image
+            : p.image?.url ?? p.previewImage) ?? null,
+        href:
+          normalizeHref(p.url) ??
+          (p.seoSlug ? `/cn/zh/p/${p.seoSlug}-${String(p.id).replace(/^s/, "")}/` : null),
+      }));
+    b.items = [...(b.items ?? []), ...items].slice(0, 12);
+    delete b.productIds;
+  }
 }
 
 function extractContentPage(root, url) {
@@ -506,6 +578,7 @@ async function crawlContent() {
       if (page.blocks.length === 0 && !page.title) page = null;
     }
     if (page) {
+      await enrichPage(page);
       fs.writeFileSync(
         path.join(pagesDir, safeName(url) + ".json"),
         JSON.stringify(page, null, 1),
@@ -576,6 +649,7 @@ async function crawlGaps() {
       if (page.blocks.length === 0 && !page.title) page = null;
     }
     if (page) {
+      await enrichPage(page);
       fs.writeFileSync(
         path.join(pagesDir, safeName(url) + ".json"),
         JSON.stringify(page, null, 1),
@@ -623,6 +697,7 @@ async function crawlLinkList(file) {
       if (page.blocks.length === 0 && !page.title) page = null;
     }
     if (page) {
+      await enrichPage(page);
       fs.writeFileSync(
         path.join(pagesDir, safeName(url) + ".json"),
         JSON.stringify(page, null, 1),
@@ -666,6 +741,7 @@ async function crawlReblocks() {
       if (page.blocks.length === 0 && !page.title) page = null;
     }
     if (page) {
+      await enrichPage(page);
       fs.writeFileSync(
         path.join(pagesDir, safeName(url) + ".json"),
         JSON.stringify(page, null, 1),
