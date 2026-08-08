@@ -3,11 +3,11 @@ import type { ContentPageData } from "@/data/pages-types";
 
 export function findContentPage(url: string): ContentPageData | undefined {
   const key = url.replace(/\/+$/, "");
-  return contentPagesByUrl.get(key);
+  return contentPagesByUrl().get(key);
 }
 
 export function pagesByFamily(family: string): ContentPageData[] {
-  return contentPages.filter((page) => page.family === family);
+  return contentPages().filter((page) => page.family === family);
 }
 
 function segments(url: string): string[] {
@@ -52,6 +52,14 @@ export function familyLabel(family: string): string {
       return "设计和服务";
     case "landing":
       return "页面";
+    case "galleries":
+      return "房间灵感图库";
+    case "business":
+      return "宜家对公业务";
+    case "services":
+      return "客户服务";
+    case "rooms-articles":
+      return "房间文章";
     case "offers":
       return "特惠";
     case "ikea-family":
@@ -67,23 +75,29 @@ export function familyHomeUrl(family: string): string {
   return first?.url ?? "/";
 }
 
-const SPECIFIC_ROUTE_PREFIXES = [
-  "/cn/zh/rooms/",
-  "/cn/zh/ideas/",
-  "/cn/zh/campaigns/",
-  "/cn/zh/new/",
-  "/cn/zh/planners/",
-  "/cn/zh/landing-page/",
-  "/cn/zh/personalize-channel/",
-  "/cn/zh/ikea-business/",
-  "/cn/zh/cat/",
-  "/cn/zh/p/",
-  "/cn/zh/all-products/",
+// Families handled by dedicated routes up to the given path depth
+// (counting all segments including "cn" and "zh"). Deeper URLs fall to the
+// generic catch-all route so article sub-pages never 404.
+const SPECIFIC_ROUTE_DEPTHS: [string, number][] = [
+  ["/cn/zh/rooms/", Infinity],
+  ["/cn/zh/ideas/", 4],
+  ["/cn/zh/campaigns/", 4],
+  ["/cn/zh/new/", 4],
+  ["/cn/zh/planners/", 4],
+  ["/cn/zh/landing-page/", 4],
+  ["/cn/zh/personalize-channel/", 4],
+  ["/cn/zh/ikea-business/", Infinity],
+  ["/cn/zh/cat/", Infinity],
+  ["/cn/zh/p/", Infinity],
+  ["/cn/zh/all-products/", 3],
 ];
 
 /** True when a more specific route already handles this URL. */
 export function isHandledBySpecificRoute(url: string): boolean {
   if (url === "/cn/zh" || url === "/cn/zh/") return true;
   if (url.startsWith("/cn/zh/customer-service/services/")) return true;
-  return SPECIFIC_ROUTE_PREFIXES.some((prefix) => url.startsWith(prefix));
+  const depth = url.split("/").filter(Boolean).length;
+  return SPECIFIC_ROUTE_DEPTHS.some(
+    ([prefix, maxDepth]) => url.startsWith(prefix) && depth <= maxDepth,
+  );
 }

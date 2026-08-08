@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import "./ikea-components.css";
 import { AuthProvider } from "@/lib/auth";
+import { getSettings } from "@/lib/admin-store";
 
 const notoIkeaLatin = localFont({
   src: [
@@ -48,15 +49,16 @@ const notoIkeaSc = localFont({
   display: "swap",
 });
 
-export const metadata: Metadata = {
-  title:
-    "宜家家居官网-家 给生活更多-宜家电商-提供客厅，卧室，厨房，各类家居灵感和产品解决方案- IKEA",
-  description:
-    "宜家家居官网-家 给生活更多-宜家电商-提供客厅，卧室，厨房，各类家居灵感和产品解决方案- IKEA",
-  icons: {
-    icon: "/seo/favicon.ico",
-  },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const settings = getSettings();
+  return {
+    title: settings.siteName,
+    description: settings.siteDescription,
+    icons: {
+      icon: "/seo/favicon.ico",
+    },
+  };
+}
 
 export default function RootLayout({
   children,

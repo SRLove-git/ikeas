@@ -285,8 +285,41 @@ function ColumnsBlock({ block }: { block: ContentBlock }) {
   );
 }
 
-function GalleryBlock({ block }: { block: ContentBlock }) {
+function GalleryBlock({
+  block,
+  index = 0,
+}: {
+  block: ContentBlock;
+  index?: number;
+}) {
   const items = block.items ?? [];
+  const hasLongText = block.texts.some((t) => t.length > 80);
+  const singleImage = items.filter((i) => i.image).length === 1;
+  if (block.title && hasLongText && singleImage) {
+    const item = items.find((i) => i.image) ?? items[0];
+    const imageLeft = index % 2 === 1;
+    return (
+      <section className="grid items-center gap-8 md:grid-cols-2">
+        <div
+          className={imageLeft ? "md:order-1" : "md:order-2"}
+        >
+          {item?.image ? (
+            <SiteImage
+              src={item.image}
+              alt={block.title}
+              className="aspect-[4/3] w-full"
+            />
+          ) : null}
+        </div>
+        <div className={imageLeft ? "md:order-2" : "md:order-1"}>
+          <h2 className="text-xl font-bold leading-8">{block.title}</h2>
+          <p className="mt-3 text-sm leading-7 text-ikea-muted">
+            {block.texts.find((t) => t.length > 80) ?? block.texts[0] ?? ""}
+          </p>
+        </div>
+      </section>
+    );
+  }
   if (items.length > 0) {
     return (
       <div>
@@ -841,7 +874,7 @@ export function ContentBlocks({ blocks }: { blocks: ContentBlock[] }) {
           case "pub-columns":
             return <ColumnsBlock key={i} block={block} />;
           case "pub-curated-gallery":
-            return <GalleryBlock key={i} block={block} />;
+            return <GalleryBlock key={i} block={block} index={i} />;
           case "pub-product-shelf":
           case "pub-product-list":
           case "product-list":
