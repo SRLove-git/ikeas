@@ -1,0 +1,427 @@
+{
+ "url": "/cn/zh/new/zhao4-liang4-sheng1-huo2-pubc6811ab0",
+ "family": "new",
+ "id": "cn--zh--c6811ab0443411eb82cf5def96d20a8e",
+ "title": "照亮生活 ",
+ "name": "照亮生活 --不同灯具照顾你的不同需求",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "照亮生活"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>不同灯具照顾你的不同需求</h2>\n<p>每个房间都需要多种照明组合。例如，在清洁的时候，需要吸顶灯照亮整个房间。而在阅读的时候，又需要工作台灯提供定向照明。有时候，我们又需要吊灯或台灯营造氛围，令房间看起来更舒适，更温暖。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/cat/li002",
+    "NO",
+    "ikea://content/plp?catalogId=li002",
+    "{\"objectId_var\":\"li002\",\"objectType_var\":\"plp\"}",
+    "button",
+    "查看更多灯具"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/li002",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p><a href=\"#de6ee900-4438-11eb-879f-b70cbccae37a\">可充电式台灯 </a>| <a href=\"#f47091c0-44cb-11eb-913d-7966186258a4\">工作台灯</a> | <a href=\"#01945e90-44cc-11eb-913d-7966186258a4\">吸顶灯</a> | <a href=\"#0c8b1230-44cc-11eb-913d-7966186258a4\">枝形灯和吊灯</a></p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>可充电式台灯</h2>\n<p>方便移动的可充电式台灯，内置LED光源，三档可调光，方便移动，适应不同场景的照明需求。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/00/74/0074d62a10c5ffb24c53578f8cdc22e2.gif"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/00/74/0074d62a10c5ffb24c53578f8cdc22e2.gif",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "/p/30490035?artType=ART",
+    "NO",
+    "ikea://content/pip?id=30490035&type=ART",
+    "{\"objectId_var\":\"30490035\",\"objectType_var\":\"product\"}",
+    "pub-image"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/8b/66/8b66817ee754178e23ea46dceb81910d.jpg",
+    "https://file.app.ikea.cn/images/b0/3b/b03b5ce1164347bd958f0e323b57ec25.gif",
+    "https://file.app.ikea.cn/images/68/c4/68c466fce698ba90d08ce67ea32cfa1d.gif"
+   ],
+   "links": [
+    {
+     "href": "/p/30490035?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/8b/66/8b66817ee754178e23ea46dceb81910d.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/b0/3b/b03b5ce1164347bd958f0e323b57ec25.gif",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/68/c4/68c466fce698ba90d08ce67ea32cfa1d.gif",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "10490036",
+    "30490035",
+    "90490037",
+    "00500154"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/cat/10732",
+    "NO",
+    "ikea://content/plp?catalogId=10732",
+    "{\"objectId_var\":\"10732\",\"objectType_var\":\"plp\"}",
+    "button",
+    "更多台灯"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/10732",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>工作台灯</h2>\n<p>无论工作还是读书，离不开一盏好灯的陪伴，宜家为你提供经过国家认证的A/AA级照度工作台灯，适合读写、办公时使用，合适的光线让你事半功倍。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-video-link",
+   "title": null,
+   "texts": [
+    "https://v.youku.com/v_show/id_XNDc4MTI5MDAyMA==.html?spm=a2hzp.8253869.0.0",
+    "<p>国家认证的A/AA级照度工作台灯</p>",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "https://v.youku.com/v_show/id_XNDc4MTI5MDAyMA==.html?spm=a2hzp.8253869.0.0",
+     "text": "\n<p>国家认证的A/AA级照度工作台灯</p>\n"
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/ff/4b/ff4b8567df433514e7690c1c423e630d.gif",
+    "https://file.app.ikea.cn/images/34/c2/34c26492f926a1921b8493d0df0592ad.gif"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/ff/4b/ff4b8567df433514e7690c1c423e630d.gif",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/34/c2/34c26492f926a1921b8493d0df0592ad.gif",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "/p/70482905?artType=ART",
+    "NO",
+    "ikea://content/pip?id=70482905&type=ART",
+    "{\"objectId_var\":\"70482905\",\"objectType_var\":\"product\"}",
+    "pub-image"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/cd/b7/cdb7834affd27d3e01221a65c59eaae6.jpg",
+    "https://file.app.ikea.cn/images/74/e1/74e16a8c55c5970148b51579c296a683.jpg"
+   ],
+   "links": [
+    {
+     "href": "/p/70482905?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/cd/b7/cdb7834affd27d3e01221a65c59eaae6.jpg",
+     "text": ""
+    },
+    {
+     "href": "/p/70482905?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "/p/50490039?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/74/e1/74e16a8c55c5970148b51579c296a683.jpg",
+     "text": ""
+    },
+    {
+     "href": "/p/50490039?artType=ART",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "70482905",
+    "50490039",
+    "70490038"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/cat/20502",
+    "NO",
+    "ikea://content/plp?catalogId=20502",
+    "{\"objectId_var\":\"20502\",\"objectType_var\":\"plp\"}",
+    "button",
+    "更多工作台灯"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/20502",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>吸顶灯</h2>\n<p>百搭的吸顶灯，适合不同风格的装修，亮度、色温可调节，让灯光随心情变化。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-video-link",
+   "title": null,
+   "texts": [
+    "https://v.youku.com/v_show/id_XNTAyMDQ1MzU4NA==.html",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "https://v.youku.com/v_show/id_XNTAyMDQ1MzU4NA==.html",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "/p/00490895?artType=ART",
+    "NO"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/6f/54/6f54ebe97a43bf14156dfed909d3d336.gif",
+    "https://file.app.ikea.cn/images/81/28/812884290031650e0821400b3cbfb790.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/6f/54/6f54ebe97a43bf14156dfed909d3d336.gif",
+     "text": ""
+    },
+    {
+     "href": "/p/00490895?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/81/28/812884290031650e0821400b3cbfb790.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "00490895",
+    "80490896",
+    "00490032",
+    "60490034",
+    "60466492"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/cat/18750",
+    "NO",
+    "ikea://content/plp?catalogId=18750",
+    "{\"objectId_var\":\"18750\",\"objectType_var\":\"plp\"}",
+    "button",
+    "更多吸顶灯"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/18750",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>枝形灯和吊灯</h2>\n<p>有时，换下灯具就能让家中感觉焕然一新，具有设计感的灯具为家居生活增添亮点，这些兼顾简洁造型与实用功能的灯具，难道不让你心动吗？</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "/p/60490897?artType=ART",
+    "NO",
+    "ikea://content/pip?id=60490897&type=ART",
+    "{\"objectId_var\":\"60490897\",\"objectType_var\":\"product\"}",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/7f/d0/7fd05bd32286bb22f7b135535d32a12c.jpg"
+   ],
+   "links": [
+    {
+     "href": "/p/60490897?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/7f/d0/7fd05bd32286bb22f7b135535d32a12c.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "00487591",
+    "40490898",
+    "60490897"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

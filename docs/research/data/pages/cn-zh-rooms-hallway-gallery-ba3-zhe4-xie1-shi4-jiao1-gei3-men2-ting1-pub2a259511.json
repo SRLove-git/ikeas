@@ -1,0 +1,45 @@
+{
+ "url": "/cn/zh/rooms/hallway/gallery/ba3-zhe4-xie1-shi4-jiao1-gei3-men2-ting1-pub2a259511",
+ "family": "rooms",
+ "id": "cn--zh--2a2595117ba011e89da1853a21975ebe",
+ "title": "把这些事交给门厅！",
+ "name": "20191-rmha03a_PF_CT",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "把这些事交给门厅！",
+   "texts": [
+    "用宜家 HEMNES 汉尼斯 储物单元和 PINNIG 佩尼格 衣帽架来整理你的门厅。这两款产品拥有一体式长凳和鞋履收纳搁板，可以将你的杂物与鞋履归置整齐。",
+    "<p>这里放满了你需要和不需要的各种东西，而且钥匙（几乎）总能在这里找到。成功的秘诀？储物、收纳和展示的妙招&mdash;&mdash;其中最重要的是展示。</p>",
+    "把这些事交给门厅！",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/0e/0c/0e0c20d40493b0badf0e7caa2eaacfda.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/0e/0c/0e0c20d40493b0badf0e7caa2eaacfda.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "50382209",
+    "20329794",
+    "70416312",
+    "40249961",
+    "s09240326"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

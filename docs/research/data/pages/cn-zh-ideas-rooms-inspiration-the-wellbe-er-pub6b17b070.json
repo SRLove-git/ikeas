@@ -1,0 +1,80 @@
+{
+ "url": "/cn/zh/ideas/rooms-inspiration/the-wellbe-er-pub6b17b070",
+ "family": "ideas",
+ "id": "cn--zh--6b17b070f59c11eb909ec36c6e99b004",
+ "title": "家，因你而生",
+ "name": "探索“善行家”",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--fa85a2822e2d11ebbe205953a0920f61",
+    "/rooms/outdoor/gallery/a-calm-oasis-in-the-middle-of-the-city-pubfa85a282",
+    "page",
+    "绿意盎然的阳台",
+    "在为你的小阳台寻找布置灵感吗？参考这些简单小贴士，既节省空间，又环保可持续，让你的户外空间更加生机勃勃。巧妙灵感尽在宜家。",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Foutdoor%2Fgallery%2Fa-calm-oasis-in-the-middle-of-the-city-pubfa85a282&key=cn--zh--fa85a2822e2d11ebbe205953a0920f61"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/f0/ec/f0ec228f32798bf48d0af18963178822.jpg",
+    "https://file.app.ikea.cn/images/33/c6/33c6949fd9a8d81adf95e7af9d3a8cb6.jpg",
+    "https://file.app.ikea.cn/images/de/d9/ded9edf5e7e53d0c4a79ceafe6cd22fc.jpg",
+    "https://file.app.ikea.cn/images/b3/fa/b3fa8a967e7f0bb9f3c80bad2a3a6772.jpg",
+    "https://file.app.ikea.cn/images/70/19/7019438f3b3e1f92a38fda3022a858e8.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/f0/ec/f0ec228f32798bf48d0af18963178822.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/33/c6/33c6949fd9a8d81adf95e7af9d3a8cb6.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/de/d9/ded9edf5e7e53d0c4a79ceafe6cd22fc.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/b3/fa/b3fa8a967e7f0bb9f3c80bad2a3a6772.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/70/19/7019438f3b3e1f92a38fda3022a858e8.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/a2/98/a298d389a265a10c85c3cbde88a8b8a1.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Page List-"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/ideas/rooms-inspiration/",
+    "NO",
+    "ikea://cms/page-compatible-web?key=cn--zh--5c9c98e0819c11eba0b5e76645244728&url=%2Fideas%2Frooms-inspiration%2F",
+    "{\"objectId_var\":\"/ideas/rooms-inspiration/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "更多家居灵感"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/ideas/rooms-inspiration/",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Link - button or text-"
+   }
+  }
+ ]
+}

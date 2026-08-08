@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/bedroom/gallery/woshi-pub3dbc1581",
+ "family": "rooms",
+ "id": "cn--zh--3dbc1581cf7111e78e0a0bf79e0fa98f",
+ "title": "静谧的卧室，实惠的价格",
+ "name": "20172-cosl02a_PF_CT_SEO",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "静谧的卧室，实惠的价格",
+   "texts": [
+    "卧室内为白色砖墙和木质地板，里面放着一张白色/浅灰色双人床。",
+    "静谧的卧室，实惠的价格",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/d0/34/d034d1914cc39b581e4eae17e2e5eabf.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/d0/34/d034d1914cc39b581e4eae17e2e5eabf.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s59198594",
+    "50355748",
+    "00358481",
+    "20309079",
+    "10320138"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

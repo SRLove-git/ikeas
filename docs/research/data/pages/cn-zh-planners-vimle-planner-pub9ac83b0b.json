@@ -1,0 +1,157 @@
+{
+ "url": "/cn/zh/planners/vimle-planner-pub9ac83b0b",
+ "family": "planners",
+ "id": "cn--zh--9ac83b0bc45411e79d02ffe879bc5c80",
+ "title": "VIMLE维姆勒 设计工具",
+ "name": "VIMLE维姆勒 设计工具_SEO",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "VIMLE维姆勒 设计工具",
+   "texts": [
+    "VIMLE维姆勒",
+    "VIMLE维姆勒 设计工具",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/fe/6d/fe6db76d6dbf1776f4294b5a4914ab12.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/fe/6d/fe6db76d6dbf1776f4294b5a4914ab12.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "点击进入VIMLE 维姆勒 在线设计软件",
+    "/planner/vimle-planner/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fplanner%2Fvimle-planner%2F&key=",
+    "{\"objectId_var\":\"/planner/vimle-planner/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "IMAGE"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/cd/5e/cd5e50e77ce450361192b22d45bedd3b.jpg"
+   ],
+   "links": [
+    {
+     "href": "/planner/vimle-planner/",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/cd/5e/cd5e50e77ce450361192b22d45bedd3b.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p><strong>VIMLE维姆勒--为你设计，由你设计</strong></p>\n<p>最适合你家客厅的沙发应该长什么样子?VIMLE维姆勒 帮你打造梦想沙发! 还需要更多空间收纳吗?就用<a href=\"https://www.ikea.cn/cn/zh/planner/vimle-planner/\">VIMLE维姆勒 设计软件</a>亲手打造最实用的收纳组件吧!</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/planner/vimle-planner/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fplanner%2Fvimle-planner%2F&key=",
+    "{\"objectId_var\":\"/planner/vimle-planner/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "设计你的沙发组合"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/planner/vimle-planner/",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2><strong>更多设计工具</strong></h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--1de79c9bc45211e79d02ffe879bc5c80",
+    "/planners/vallentuna-planner-pub1de79c9b",
+    "page",
+    "VALLENTUNA 瓦伦图 设计工具",
+    "你喜欢把脚抬高还是盘腿坐？你的沙发需要适合全家使用，还是仅用作个人空间？无论你喜欢怎样的休闲放松方式，都可以使用我们的VALLENTUNA 瓦伦图 设计工具打造最合适的沙发。添加并摆放组件，根据个人喜好打造任意大小、色彩和舒适度的沙发。",
+    "ikea://cms/page-compatible-web?url=%2Fplanners%2Fvallentuna-planner-pub1de79c9b&key=cn--zh--1de79c9bc45211e79d02ffe879bc5c80"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/9a/ca/9acac633b7e43590a57e722720124b85.jpg",
+    "https://file.app.ikea.cn/images/b9/1b/b91bd490cd4bb56e8877df39c88e27f8.jpg",
+    "https://file.app.ikea.cn/images/e5/90/e590c1dacf468d7da6649f5970cdecdf.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/9a/ca/9acac633b7e43590a57e722720124b85.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/b9/1b/b91bd490cd4bb56e8877df39c88e27f8.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/e5/90/e590c1dacf468d7da6649f5970cdecdf.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/planners/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fplanners%2F&key=",
+    "{\"objectId_var\":\"/planners/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "返回查看所有基本设计工具"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/planners/",
+     "text": ""
+    }
+   ],
+   "settings": null
+  }
+ ]
+}

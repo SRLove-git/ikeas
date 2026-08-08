@@ -1,0 +1,107 @@
+{
+ "url": "/cn/zh/planners/kitchen-planner-pub0b6ca70b",
+ "family": "planners",
+ "id": "cn--zh--0b6ca70bc36611e796b935f60bf025b7",
+ "title": "厨房设计工具",
+ "name": "厨房设计工具",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "厨房设计工具",
+   "texts": [
+    "厨房",
+    "<p>使用我们简单易用的<a href=\"http://kitchenplanner.ikea.com/cn/UI/Pages/VPUI.htm\">厨房设计工具</a>（仅支持PC端使用），充分利用厨房空间，避免常见设计错误。<br /><strong>查看3D图像</strong>，随心尝试尽可能多的设计，与此同时，你还可以获得一份详细的产品列表。然后你可以选择保存或打印你的设计图，前往当地的宜家商场或拨打我们的电话，了解如何把你的设计变成现实。请注意，出于安全原因，我们不能在宜家商场从你的个人存储设备下载信息，如U盘或硬盘。<strong>设计梦想厨房时需要帮助吗？</strong><strong><a href=\"https://www.ikea.cn/cn/zh/rooms/kitchen/how-to-plan-buy/chufang-pub2016b3c1\" target=\"_blank\">前往</a>我们的厨房购物指南。</strong></p>",
+    "厨房设计工具",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/89/af/89af55025efed937826ed00b7ffd7c4c.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/89/af/89af55025efed937826ed00b7ffd7c4c.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/h5page/?url=http%3A%2F%2Fkitchenplanner.ikea.com%2Fcn%2FUI%2FPages%2FVPUI.htm",
+    "NO",
+    "ikea://default-module/H5?url=http%3A%2F%2Fkitchenplanner.ikea.com%2Fcn%2FUI%2FPages%2FVPUI.htm",
+    "{\"objectId_var\":\"http://kitchenplanner.ikea.com/cn/UI/Pages/VPUI.htm\",\"objectType_var\":\"default-module/H5\"}",
+    "button",
+    "开始设计"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/h5page/?url=http%3A%2F%2Fkitchenplanner.ikea.com%2Fcn%2FUI%2FPages%2FVPUI.htm",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h4><strong>更多设计工具</strong></h4>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--c20df511c36411e796b935f60bf025b7",
+    "/planners/office-planner-pubc20df511",
+    "page",
+    "办公室设计工具",
+    "使用我们的办公室设计工具，轻松打造符合人体工程学的高效办公室。",
+    "ikea://cms/page-compatible-web?url=%2Fplanners%2Foffice-planner-pubc20df511&key=cn--zh--c20df511c36411e796b935f60bf025b7"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/d4/e6/d4e6ac9b7a197a9f0e2faae0fa0068cb.jpg",
+    "https://file.app.ikea.cn/images/b3/c7/b3c7173dc4e92883ba89e590922d990e.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/d4/e6/d4e6ac9b7a197a9f0e2faae0fa0068cb.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/b3/c7/b3c7173dc4e92883ba89e590922d990e.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/planners/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fplanners%2F&key=",
+    "{\"objectId_var\":\"/planners/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "返回查看所有基本设计工具"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/planners/",
+     "text": ""
+    }
+   ],
+   "settings": null
+  }
+ ]
+}

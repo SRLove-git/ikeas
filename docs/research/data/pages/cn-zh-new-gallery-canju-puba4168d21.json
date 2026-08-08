@@ -1,0 +1,104 @@
+{
+ "url": "/cn/zh/new/gallery/canju-puba4168d21",
+ "family": "new",
+ "id": "cn--zh--a4168d21be1911e6aed145c38a17d2d9",
+ "title": "打造时尚餐桌",
+ "name": "201731_nwvm13a_PESAL9_EZ_SEO",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "打造时尚餐桌",
+   "texts": [
+    "瓷碗和瓷碟印有灵动的青绿色水彩图案，旁边是配套的餐巾纸。",
+    "<p>使用 BEHAGA 比哈格 餐具系列，让你的餐桌更显时尚。碗、碟和餐盘，以及配套的餐巾纸都印有时尚彩绘图案。</p>",
+    "打造时尚餐桌",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/f3/a8/f3a845b96eb9e4d95f795e22a24aa89f.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/f3/a8/f3a845b96eb9e4d95f795e22a24aa89f.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "一只饰有青绿色灵动水彩图案的陶瓷碟。",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "70318905"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/de/48/de480a79f6c377d2a6d7cc459703f61d.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/de/48/de480a79f6c377d2a6d7cc459703f61d.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>BEHAGA 比哈格 餐盘印有灵动的水彩图案，为你的餐桌增添独特的艺术气息。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "一只饰有青绿色灵动水彩图案的陶瓷碗。",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "60318901"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/f1/26/f1265740dae0e078baae02797cae38f3.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/f1/26/f1265740dae0e078baae02797cae38f3.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>BEHAGA 比哈格 瓷碗以时尚为灵感，为餐桌增添彩绘元素。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "70318905",
+    "60318901",
+    "20334267",
+    "20318903"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

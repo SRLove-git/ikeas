@@ -1,0 +1,558 @@
+{
+ "url": "/cn/zh/campaigns/geng4-duo1-shui4-mian2-fang1-an4-pub98b17a81",
+ "family": "campaigns",
+ "id": "cn--zh--98b17a813c0211e9b0c149764341d832",
+ "title": "更多睡眠方案",
+ "name": "bedroom stories_pc",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "更多睡眠方案"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/e8/3b/e83bbc89d62c73272913690053927d96.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/e8/3b/e83bbc89d62c73272913690053927d96.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "/p/70330219?artType=ART",
+    "NO",
+    "ikea://content/pip?id=70330219&type=ART",
+    "{\"objectId_var\":\"70330219\",\"objectType_var\":\"product\"}",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/e9/75/e9753c2c6e1e733cdb6b5654b22ceac8.jpg"
+   ],
+   "links": [
+    {
+     "href": "/p/70330219?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/e9/75/e9753c2c6e1e733cdb6b5654b22ceac8.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "50271598",
+    "70271516"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "/p/90298237?artType=ART",
+    "NO",
+    "ikea://content/pip?id=90298237&type=ART",
+    "{\"objectId_var\":\"90298237\",\"objectType_var\":\"product\"}",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/b8/55/b855dcd9acc799dca0a7cda0038e8fa0.jpg"
+   ],
+   "links": [
+    {
+     "href": "/p/90298237?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/b8/55/b855dcd9acc799dca0a7cda0038e8fa0.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "10352978",
+    "90352979"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "/p/10388982?artType=ART",
+    "NO",
+    "ikea://content/pip?id=10388982&type=ART",
+    "{\"objectId_var\":\"10388982\",\"objectType_var\":\"product\"}",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/d6/44/d644d46ce6dd816d88dfa4793cfd2682.jpg"
+   ],
+   "links": [
+    {
+     "href": "/p/10388982?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/d6/44/d644d46ce6dd816d88dfa4793cfd2682.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "60356988",
+    "40386651"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "/p/30420820?artType=ART",
+    "NO",
+    "ikea://content/pip?id=30420820&type=ART",
+    "{\"objectId_var\":\"30420820\",\"objectType_var\":\"product\"}",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/f9/86/f9865ab3b0815c34d530d33e8a21615a.jpg"
+   ],
+   "links": [
+    {
+     "href": "/p/30420820?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/f9/86/f9865ab3b0815c34d530d33e8a21615a.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "/p/60372691?artType=ART",
+    "NO",
+    "ikea://content/pip?id=60372691&type=ART",
+    "{\"objectId_var\":\"60372691\",\"objectType_var\":\"product\"}",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/84/8d/848d1191221894422ba7a7359ffbeb73.jpg"
+   ],
+   "links": [
+    {
+     "href": "/p/60372691?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/84/8d/848d1191221894422ba7a7359ffbeb73.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "/customer-service/returns-claims/guarantee/chuangdianpinzhibaozheng-pub47442310",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fcustomer-service%2Freturns-claims%2Fguarantee%2Fchuangdianpinzhibaozheng-pub47442310&key=cn--zh--47442310d0e711e78be631fdb97194e0",
+    "{\"objectId_var\":\"/customer-service/returns-claims/guarantee/chuangdianpinzhibaozheng-pub47442310\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/f4/b7/f4b7636db7993765825b7d5bd30eddaa.jpg"
+   ],
+   "links": [
+    {
+     "href": "/customer-service/returns-claims/guarantee/chuangdianpinzhibaozheng-pub47442310",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/f4/b7/f4b7636db7993765825b7d5bd30eddaa.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "20389844",
+    "30373282",
+    "90255544"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "/p/39198217?artType=SPR",
+    "NO",
+    "ikea://content/pip?id=39198217&type=SPR",
+    "{\"objectId_var\":\"39198217\",\"objectType_var\":\"product\"}",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/1c/ef/1cefc022cedd24b40a2258a22f2cb26f.jpg"
+   ],
+   "links": [
+    {
+     "href": "/p/39198217?artType=SPR",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/1c/ef/1cefc022cedd24b40a2258a22f2cb26f.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "/p/30371952?artType=ART",
+    "NO",
+    "ikea://content/pip?id=30371952&type=ART",
+    "{\"objectId_var\":\"30371952\",\"objectType_var\":\"product\"}",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/b4/f9/b4f99bed9dcd6d64f86503fb969040d4.jpg"
+   ],
+   "links": [
+    {
+     "href": "/p/30371952?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/b4/f9/b4f99bed9dcd6d64f86503fb969040d4.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "/p/20348108?artType=ART",
+    "NO",
+    "ikea://content/pip?id=20348108&type=ART",
+    "{\"objectId_var\":\"20348108\",\"objectType_var\":\"product\"}",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/83/ac/83ac6ca41875693e1ec508725f8a3fa3.jpg"
+   ],
+   "links": [
+    {
+     "href": "/p/20348108?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/83/ac/83ac6ca41875693e1ec508725f8a3fa3.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "/p/00319630?artType=ART",
+    "NO",
+    "ikea://content/pip?id=00319630&type=ART",
+    "{\"objectId_var\":\"00319630\",\"objectType_var\":\"product\"}",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/b9/01/b90191ade38085ae1041f22a36a099c3.jpg"
+   ],
+   "links": [
+    {
+     "href": "/p/00319630?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/b9/01/b90191ade38085ae1041f22a36a099c3.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "50330362"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "/p/10199284?artType=ART",
+    "NO",
+    "ikea://content/pip?id=10199284&type=ART",
+    "{\"objectId_var\":\"10199284\",\"objectType_var\":\"product\"}",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/5e/6c/5e6c51ef410d25d9fc93914e86d8a670.jpg"
+   ],
+   "links": [
+    {
+     "href": "/p/10199284?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/5e/6c/5e6c51ef410d25d9fc93914e86d8a670.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "60418081",
+    "10199284"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "/p/70171927?artType=ART",
+    "NO",
+    "ikea://content/pip?id=70171927&type=ART",
+    "{\"objectId_var\":\"70171927\",\"objectType_var\":\"product\"}",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/34/e6/34e659e4ec68efa104a3205180035e7e.jpg"
+   ],
+   "links": [
+    {
+     "href": "/p/70171927?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/34/e6/34e659e4ec68efa104a3205180035e7e.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "50382209",
+    "40412546"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "/p/60245877?artType=ART",
+    "NO",
+    "ikea://content/pip?id=60245877&type=ART",
+    "{\"objectId_var\":\"60245877\",\"objectType_var\":\"product\"}",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/83/5d/835df82e77dfcf081411920555f1e521.jpg"
+   ],
+   "links": [
+    {
+     "href": "/p/60245877?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/83/5d/835df82e77dfcf081411920555f1e521.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "/p/80250250?artType=ART",
+    "NO",
+    "ikea://content/pip?id=80250250&type=ART",
+    "{\"objectId_var\":\"80250250\",\"objectType_var\":\"product\"}",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/88/b7/88b7eda757c107334c06ada5dcb7c9e7.jpg"
+   ],
+   "links": [
+    {
+     "href": "/p/80250250?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/88/b7/88b7eda757c107334c06ada5dcb7c9e7.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "60294981",
+    "70395791"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h3><strong>发现更多</strong></h3>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--1a0dc4713fd311e9b0c149764341d832",
+    "page",
+    "cn--zh--c38119e1ec8a11e887aaa1ac09e9bf48",
+    "/campaigns/ren2-qi4-shang1-pin3-bang3-pubc38119e1",
+    "人气商品榜",
+    "热销产品推荐"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/59/ee/59ee109a6b61949e0249ea5ac4247f5e.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/59/ee/59ee109a6b61949e0249ea5ac4247f5e.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-visual-navigation",
+   "title": null,
+   "texts": [],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/rooms/bedroom/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fbedroom%2F&key=",
+    "{\"objectId_var\":\"/rooms/bedroom/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "返回卧室"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/rooms/bedroom/",
+     "text": ""
+    }
+   ],
+   "settings": null
+  }
+ ]
+}

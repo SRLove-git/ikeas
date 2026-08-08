@@ -1,0 +1,119 @@
+{
+ "url": "/cn/zh/rooms/living-room/gallery/shi4-he2-xiao3-jia1-ting2-de24-xiao3-shi2-ke4-ting1-pubd600eb71",
+ "family": "rooms",
+ "id": "cn--zh--d600eb719d8011e9a6d14535ebfeabf1",
+ "title": "适合小家庭的24小时客厅",
+ "name": "20202_rmli01a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "适合小家庭的24小时客厅"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "客厅摆放着深灰色转角沙发床、蓝色图案地毯和独立式搁架单元，搁架单元后方留有空间。",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "s19297567"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/5e/f2/5ef28482d28d8b35af7ae52bc99f76a0.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/5e/f2/5ef28482d28d8b35af7ae52bc99f76a0.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>走进一间功能多样的客厅。一张沙发床和一件可用作房间隔板的巧妙储物装置，便可使家满足全家人全天候的使用需求。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "两个搁架单元用作房间隔板，同时提供大量储物空间。搁架单元后方可以看到一张儿童床。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "30275861"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/26/59/2659a5650cbaf30050c2e9443f7fba08.jpg",
+    "https://file.app.ikea.cn/images/dd/12/dd12585ec77f31869f79d6034742bd99.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/26/59/2659a5650cbaf30050c2e9443f7fba08.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/dd/12/dd12585ec77f31869f79d6034742bd99.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "窗户旁边是狭长的墙面，正适合安装 IDÅSEN 伊朵森 四门高柜，因为这款产品也较为狭长。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "30360977"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/b3/11/b311c2c05459892da092032f8d07f6f5.jpg",
+    "https://file.app.ikea.cn/images/61/21/6121a8c6d7047b57953edd95a0a2095b.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/b3/11/b311c2c05459892da092032f8d07f6f5.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/61/21/6121a8c6d7047b57953edd95a0a2095b.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s19297567",
+    "30275861",
+    "s59287203",
+    "30411991",
+    "20295925"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

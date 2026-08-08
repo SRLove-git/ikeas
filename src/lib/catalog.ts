@@ -4,6 +4,9 @@ import {
   type CatalogCategory,
   type CatalogProduct,
 } from "@/data/catalog";
+import { productsBySlug, productsById } from "@/data/products-index";
+import { catalogPages } from "@/lib/catalog-pages";
+import type { ProductData } from "@/data/pages-types";
 
 export interface CategoryMatch {
   category: CatalogCategory;
@@ -11,8 +14,8 @@ export interface CategoryMatch {
 }
 
 export interface ProductMatch {
-  product: CatalogProduct;
-  category: CatalogCategory;
+  product: CatalogProduct | ProductData;
+  category: { name: string; href: string } | null;
 }
 
 const allCollections: CatalogCategory[] = [...catalogCategories, ...channelCategories];
@@ -25,22 +28,55 @@ for (const category of allCollections) {
   }
 }
 
-const productBySlug = new Map<string, ProductMatch>();
+const productBySlug = new Map<string, { product: CatalogProduct; category: CatalogCategory }>();
 for (const category of allCollections) {
   for (const product of category.products) {
     productBySlug.set(product.slug, { product, category });
   }
 }
 
-export const productSlugsWithDetails = new Set(productBySlug.keys());
-
 export function findCategoryBySlug(slug: string): CategoryMatch | undefined {
   return categoryBySlug.get(slug);
 }
 
 export function findProductBySlug(slug: string): ProductMatch | undefined {
-  return productBySlug.get(slug);
+  const match = productBySlug.get(slug);
+  if (match) {
+    return {
+      product: match.product,
+      category: {
+        name: match.category.name,
+        href: getCollectionHref(match.category),
+      },
+    };
+  }
+  const product = productsBySlug.get(slug);
+  if (product) {
+    return { product, category: findCategoryNameForProductId(product.id) };
+  }
+  return undefined;
 }
+
+export function findCategoryNameForProductId(
+  id: string,
+): { name: string; href: string } | null {
+  for (const page of catalogPages) {
+    if (page.products.some((p) => p.id === id)) {
+      return { name: page.name, href: page.url };
+    }
+  }
+  for (const category of allCollections) {
+    if (category.products.some((p) => String(p.id) === id)) {
+      return { name: category.name, href: getCollectionHref(category) };
+    }
+  }
+  return null;
+}
+
+export const productSlugsWithDetails = new Set([
+  ...productBySlug.keys(),
+  ...productsBySlug.keys(),
+]);
 
 export function formatPrice(price: number | null): string {
   if (price === null || Number.isNaN(price)) return "";

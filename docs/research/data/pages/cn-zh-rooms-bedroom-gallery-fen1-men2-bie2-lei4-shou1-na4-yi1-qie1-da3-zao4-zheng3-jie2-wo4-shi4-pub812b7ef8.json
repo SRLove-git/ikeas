@@ -1,0 +1,338 @@
+{
+ "url": "/cn/zh/rooms/bedroom/gallery/fen1-men2-bie2-lei4-shou1-na4-yi1-qie1-da3-zao4-zheng3-jie2-wo4-shi4-pub812b7ef8",
+ "family": "rooms",
+ "id": "cn--zh--812b7ef82b0e11eb86af0d269f4be91a",
+ "title": "分门别类收纳一切，打造整洁卧室",
+ "name": "66214_bend03a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "分门别类收纳一切，打造整洁卧室",
+   "texts": [
+    "一间小卧室，里面有一个木床架，一个整齐收纳衣服的衣柜，以及摆放着盒子和植物的搁架。",
+    "<p>这间卧室表明，即使空间有限，也能保持温馨舒适，井井有条。只需要一些巧妙的储物方案、节省空间的家具，就能拥有一个平静和谐的卧室&mdash;&mdash;而且还不用花大价钱。</p>",
+    "分门别类收纳一切，打造整洁卧室",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/dc/2b/dc2b4c4f7ac5b7cb86b22814e12494fb.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/dc/2b/dc2b4c4f7ac5b7cb86b22814e12494fb.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Hero-分门别类收纳一切，打造整洁卧室"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "衣物收纳更轻松",
+   "texts": [
+    "/cat/47394",
+    "NO",
+    "ikea://content/plp?catalogId=47394",
+    "{\"objectId_var\":\"47394\",\"objectType_var\":\"plp\"}",
+    "所有物件各得其位，所有衣物整齐收纳在视线之外，卧室看上去井井有条，晚上自然睡得更香。这个衣柜系统易于固定到墙上，空间充裕，方便你整理所有的衣服和鞋子。",
+    "衣物收纳更轻松"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/2c5ef270297e6af5/original/PH177014-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/47394",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/2c5ef270297e6af5/original/PH177014-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Curated Gallery-衣物收纳更轻松"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "轻松增添搁板",
+   "texts": [
+    "/cat/41278",
+    "NO",
+    "ikea://content/plp?catalogId=41278",
+    "{\"objectId_var\":\"41278\",\"objectType_var\":\"plp\"}",
+    "这个储物件共有七格，非常适合作为T恤的新家！悬挂在衣柜里，无须钻孔，瞬间获得额外的储物空间。",
+    "轻松增添搁板"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/6878c36e464ccc78/original/PH177015-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/41278",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/6878c36e464ccc78/original/PH177015-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Curated Gallery-轻松增添搁板"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "轻松增添多一个衣柜",
+   "texts": [
+    "/cat/10455",
+    "NO",
+    "ikea://content/plp?catalogId=10455",
+    "{\"objectId_var\":\"10455\",\"objectType_var\":\"plp\"}",
+    "组合抽屉柜和挂衣杆，就能轻松打造一个额外的衣柜。你还可以用来悬挂那些不想立即清洗的衣服，挂起来晾晒一下，第二天便能继续穿，这样不仅让衣服更耐穿，还可以节水节能。",
+    "轻松增添多一个衣柜"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/4232a61e9b7928c4/original/PH177016-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/10455",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/4232a61e9b7928c4/original/PH177016-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Curated Gallery-轻松增添多一个衣柜"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "出色的通用设计",
+   "texts": [
+    "/cat/bm003",
+    "NO",
+    "ikea://content/plp?catalogId=bm003",
+    "{\"objectId_var\":\"bm003\",\"objectType_var\":\"plp\"}",
+    "这款床架外形紧凑，尤其适合狭小空间。把它放置在窗户和倾斜的天花板下都可以。",
+    "出色的通用设计"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/1544397c3c15df/original/PH177017-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/bm003",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/1544397c3c15df/original/PH177017-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Curated Gallery-出色的通用设计"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "小巧的床边桌",
+   "texts": [
+    "/cat/16305",
+    "NO",
+    "ikea://content/plp?catalogId=16305",
+    "{\"objectId_var\":\"16305\",\"objectType_var\":\"plp\"}",
+    "没有足够空间摆放一张固定的床边桌？那就换上一个壁式图片架。你可以在上面摆放一盏阅读灯、一个闹钟、其他小物件，还有一本睡前阅读的书。",
+    "小巧的床边桌"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/3695ab3e9cda09e7/original/PH177018-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/16305",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/3695ab3e9cda09e7/original/PH177018-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Curated Gallery-小巧的床边桌"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "依偎在柔软的床上，舒适入睡",
+   "texts": [
+    "/cat/10701",
+    "NO",
+    "ikea://content/plp?catalogId=10701",
+    "{\"objectId_var\":\"10701\",\"objectType_var\":\"plp\"}",
+    "黑暗无光、温馨舒适的卧室能让你一整夜睡得更香。遮光卷帘可以为你遮挡阳光或路灯，避免被刺眼的光线干扰睡眠。另外再添置一些柔软亲肤的床用纺织品，依偎其中，畅享舒适。譬如这款被套和枕套，由来自更可持续来源的100%棉花制成，十分环保。",
+    "依偎在柔软的床上，舒适入睡"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/777b03f6d80405d5/original/PH177019-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/10701",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/777b03f6d80405d5/original/PH177019-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Curated Gallery-依偎在柔软的床上，舒适入睡"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "晚上是床，白天是沙发",
+   "texts": [
+    "/cat/10659",
+    "NO",
+    "ikea://content/plp?catalogId=10659",
+    "{\"objectId_var\":\"10659\",\"objectType_var\":\"plp\"}",
+    "这款床架用途灵活，可为卧室打造一个阅读角或日间沙发。靠墙摆放几个靠垫，旁边再放一张茶几，大功告成！",
+    "晚上是床，白天是沙发"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/9c426f3b67ab28a/original/PH177020-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/10659",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/9c426f3b67ab28a/original/PH177020-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Curated Gallery-晚上是床，白天是沙发"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "为你提供所需一切，打造梦想中的卧室",
+   "texts": [
+    "/cat/fu001",
+    "NO",
+    "ikea://content/plp?catalogId=fu001",
+    "{\"objectId_var\":\"fu001\",\"objectType_var\":\"plp\"}",
+    "受到启发？这里有你需要的所有产品，用巧妙的储物和节省空间的产品，打造温馨舒舒适的卧室。",
+    "为你提供所需一切，打造梦想中的卧室"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/fu001",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Product Shelf-为你提供所需一切，打造梦想中的卧室"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "利用照明营造温馨氛围",
+   "texts": [
+    "/cat/li001",
+    "NO",
+    "ikea://content/plp?catalogId=li001",
+    "{\"objectId_var\":\"li001\",\"objectType_var\":\"plp\"}",
+    "利用照明营造温馨氛围",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/li001",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Product Shelf-利用照明营造温馨氛围"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "整齐储物，轻松查找",
+   "texts": [
+    "/cat/st001",
+    "NO",
+    "ikea://content/plp?catalogId=st001",
+    "{\"objectId_var\":\"st001\",\"objectType_var\":\"plp\"}",
+    "整齐储物，轻松查找",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/st001",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Product Shelf-整齐储物，轻松查找"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "一系列柔软的纺织品，助你一夜安睡",
+   "texts": [
+    "/cat/tl001",
+    "NO",
+    "ikea://content/plp?catalogId=tl001",
+    "{\"objectId_var\":\"tl001\",\"objectType_var\":\"plp\"}",
+    "一系列柔软的纺织品，助你一夜安睡",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/tl001",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Product Shelf-一系列柔软的纺织品，助你一夜安睡"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "小细节带来大不同",
+   "texts": [
+    "/cat/de001",
+    "NO",
+    "ikea://content/plp?catalogId=de001",
+    "{\"objectId_var\":\"de001\",\"objectType_var\":\"plp\"}",
+    "小细节带来大不同",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/de001",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Product Shelf-小细节带来大不同"
+   }
+  }
+ ]
+}

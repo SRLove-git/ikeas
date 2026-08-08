@@ -1,0 +1,124 @@
+{
+ "url": "/cn/zh/rooms/childrens-room/gallery/shu3-yu2-ni3-wo3-de-kong1-jian1-pub64dd3470",
+ "family": "rooms",
+ "id": "cn--zh--64dd34702d5511ea9ccfc58ee28d9610",
+ "title": "属于你我的空间",
+ "name": "20204_rmch01a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "属于你我的空间"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "儿童房里摆放着白色衣柜和抽屉柜、两个可加长型床架、绿色地毯和蓝色壁柜。",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "s19326428"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/cb/4c/cb4ccc70b44fb4689a66e305a1085254.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/cb/4c/cb4ccc70b44fb4689a66e305a1085254.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>共享儿童房应该设有专门的游戏和独处空间，我们可以保证一起住的兄弟姐妹也喜欢富有个性的家具！SLÄKT 斯莱克 床架有多种颜色，而且采用可加长设计，能够长久陪伴孩子一起成长。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "两个 SLÄKT 斯莱克 床架，配有不同床头板：一块白色，一块桦木色。两个床架上都摆放着彩色床上用品。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "s19326428"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/36/51/36516834d5242309e6418a29e52e2025.jpg",
+    "https://file.app.ikea.cn/images/56/0b/560ba229a3ce954e1c17739823a42141.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/36/51/36516834d5242309e6418a29e52e2025.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/56/0b/560ba229a3ce954e1c17739823a42141.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "GODISHUS 古迪胡斯 抽屉柜和 GODISHUS 古迪胡斯 衣柜，衣柜拉钮上贴着绿色或红色贴纸。前面摆放着一张儿童床。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "50422494"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/28/34/28345f27e7c5c68d48c8cc1f81bb293f.jpg",
+    "https://file.app.ikea.cn/images/ab/bc/abbca809848e9860d512f22a2f03d626.jpg",
+    "https://file.app.ikea.cn/images/19/fa/19fa1087417ca24666a39c1a581c62fa.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/28/34/28345f27e7c5c68d48c8cc1f81bb293f.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/ab/bc/abbca809848e9860d512f22a2f03d626.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/19/fa/19fa1087417ca24666a39c1a581c62fa.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s19326428",
+    "s69326609",
+    "50422494",
+    "80433486",
+    "s39276724"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

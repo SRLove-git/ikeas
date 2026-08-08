@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/kitchen/gallery/chufang-pub5ffe9b01",
+ "family": "rooms",
+ "id": "cn--zh--5ffe9b01cf8911e78e0a0bf79e0fa98f",
+ "title": "专为你的空间和预算定制",
+ "name": "20182-come02a_PF_SEO_CT_QA",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "专为你的空间和预算定制",
+   "texts": [
+    "在开放式厨房、餐厅和客厅的中央，使用 ASKERSUND 阿斯克松 白蜡木柜门和开放式储物装置，打造一间斯堪的纳维亚风情的现代厨房。",
+    "专为你的空间和预算定制",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/ad/08/ad083f14ab8a1e477dfd8c3be6024a31.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/ad/08/ad083f14ab8a1e477dfd8c3be6024a31.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "10331783",
+    "70222234",
+    "30337618",
+    "70341637",
+    "s99157389"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

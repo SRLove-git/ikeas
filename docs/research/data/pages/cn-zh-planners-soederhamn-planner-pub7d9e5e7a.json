@@ -1,0 +1,112 @@
+{
+ "url": "/cn/zh/planners/soederhamn-planner-pub7d9e5e7a",
+ "family": "planners",
+ "id": "cn--zh--7d9e5e7ac45311e79d02ffe879bc5c80",
+ "title": "SÖDERHAMN 索德汉设计工具",
+ "name": "SÖDERHAMN索德汉设计工具_SEO",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "SÖDERHAMN 索德汉设计工具",
+   "texts": [
+    "SÖDERHAMN 索德汉",
+    "<p><strong>动手设计你想要的组合</strong></p>\n<p>S&Ouml;DERHAMN沙发让你拥有自己的组合，使用<a href=\"https://www.ikea.cn/cn/zh/planner/soderhamn-planner/\" target=\"_blank\">S&Ouml;DERHAMN 索德汉设计工具</a>来规划适合你的style的沙发吧！</p>",
+    "SÖDERHAMN 索德汉设计工具",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/a8/74/a8740f0e054b5e1d1b5be16505b12a03.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/a8/74/a8740f0e054b5e1d1b5be16505b12a03.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/planner/soderhamn-planner/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fplanner%2Fsoderhamn-planner%2F&key=",
+    "{\"objectId_var\":\"/planner/soderhamn-planner/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "开始设计"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/planner/soderhamn-planner/",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2><strong>更多设计工具</strong></h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--1de79c9bc45211e79d02ffe879bc5c80",
+    "/planners/vallentuna-planner-pub1de79c9b",
+    "page",
+    "VALLENTUNA 瓦伦图 设计工具",
+    "你喜欢把脚抬高还是盘腿坐？你的沙发需要适合全家使用，还是仅用作个人空间？无论你喜欢怎样的休闲放松方式，都可以使用我们的VALLENTUNA 瓦伦图 设计工具打造最合适的沙发。添加并摆放组件，根据个人喜好打造任意大小、色彩和舒适度的沙发。",
+    "ikea://cms/page-compatible-web?url=%2Fplanners%2Fvallentuna-planner-pub1de79c9b&key=cn--zh--1de79c9bc45211e79d02ffe879bc5c80"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/9a/ca/9acac633b7e43590a57e722720124b85.jpg",
+    "https://file.app.ikea.cn/images/fe/6d/fe6db76d6dbf1776f4294b5a4914ab12.jpg",
+    "https://file.app.ikea.cn/images/e5/90/e590c1dacf468d7da6649f5970cdecdf.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/9a/ca/9acac633b7e43590a57e722720124b85.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/fe/6d/fe6db76d6dbf1776f4294b5a4914ab12.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/e5/90/e590c1dacf468d7da6649f5970cdecdf.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/planners/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fplanners%2F&key=",
+    "{\"objectId_var\":\"/planners/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "返回查看所有基本设计工具"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/planners/",
+     "text": ""
+    }
+   ],
+   "settings": null
+  }
+ ]
+}

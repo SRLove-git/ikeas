@@ -1,0 +1,80 @@
+{
+ "url": "/cn/zh/ideas/rooms-inspiration/togethernist-pub1f559da0",
+ "family": "ideas",
+ "id": "cn--zh--1f559da0f59c11eb909ec36c6e99b004",
+ "title": "家，因你而生",
+ "name": "探索“共享家”",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--41c549712b1811eb86af0d269f4be91a",
+    "/rooms/dining/gallery/tong1-tou4-ming2-liang4-de-yong4-can1-qu1-yi1-qi3-yu2-kuai4-xiao1-mo2-shi2-guang1-pub41c54971",
+    "page",
+    "通透明亮的用餐区，一起愉快消磨时光",
+    "在环保材质打造的用餐区，搭配巧妙搁板和其他灵活的家具方案，和亲朋好友围坐在一起，享受愉快聚餐。获取灵感。",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fdining%2Fgallery%2Ftong1-tou4-ming2-liang4-de-yong4-can1-qu1-yi1-qi3-yu2-kuai4-xiao1-mo2-shi2-guang1-pub41c54971&key=cn--zh--41c549712b1811eb86af0d269f4be91a"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/24/9b/249bb8113b077dec0853e642c35b5ee0.jpg",
+    "https://file.app.ikea.cn/images/65/7c/657cfa8f4d5a802697a687123f7cbac2.jpg",
+    "https://file.app.ikea.cn/images/c4/91/c4911f2265f97cafc1e38ad7839f2b26.jpg",
+    "https://file.app.ikea.cn/images/34/4a/344a72ef1aea0418fd788a633c804614.jpg",
+    "https://file.app.ikea.cn/images/04/d3/04d392ffcd855db85a5373f188230c66.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/24/9b/249bb8113b077dec0853e642c35b5ee0.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/65/7c/657cfa8f4d5a802697a687123f7cbac2.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/c4/91/c4911f2265f97cafc1e38ad7839f2b26.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/34/4a/344a72ef1aea0418fd788a633c804614.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/04/d3/04d392ffcd855db85a5373f188230c66.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/32/e8/32e8b9893a3ea99d6a4fc9f11b497aaa.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Page List-"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/ideas/rooms-inspiration/",
+    "NO",
+    "ikea://cms/page-compatible-web?key=cn--zh--5c9c98e0819c11eba0b5e76645244728&url=%2Fideas%2Frooms-inspiration%2F",
+    "{\"objectId_var\":\"/ideas/rooms-inspiration/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "更多家居灵感"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/ideas/rooms-inspiration/",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Link - button or text-"
+   }
+  }
+ ]
+}

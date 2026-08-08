@@ -1,0 +1,107 @@
+{
+ "url": "/cn/zh/planners/byod-planner-pubd57af98b",
+ "family": "planners",
+ "id": "cn--zh--d57af98bc45511e79d02ffe879bc5c80",
+ "title": "BYOD书桌设计工具",
+ "name": "书桌设计工具",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "BYOD书桌设计工具",
+   "texts": [
+    "书桌设计",
+    "<p><strong>自己设计书桌</strong></p>\n<p>如何激发你的创造力？我们为你提供了一款<a href=\"https://www.ikea.cn/cn/zh/planner/byod-planner/\">书桌设计工具</a>，可用来组合桌面和桌腿，帮助你打造一个能坐下来做喜爱之事的空间。</p>",
+    "BYOD书桌设计工具",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/b3/c7/b3c7173dc4e92883ba89e590922d990e.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/b3/c7/b3c7173dc4e92883ba89e590922d990e.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/planner/byod-planner/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fplanner%2Fbyod-planner%2F&key=",
+    "{\"objectId_var\":\"/planner/byod-planner/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "开始设计"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/planner/byod-planner/",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2><strong>更多设计工具</strong></h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--c20df511c36411e796b935f60bf025b7",
+    "/planners/office-planner-pubc20df511",
+    "page",
+    "办公室设计工具",
+    "使用我们的办公室设计工具，轻松打造符合人体工程学的高效办公室。",
+    "ikea://cms/page-compatible-web?url=%2Fplanners%2Foffice-planner-pubc20df511&key=cn--zh--c20df511c36411e796b935f60bf025b7"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/d4/e6/d4e6ac9b7a197a9f0e2faae0fa0068cb.jpg",
+    "https://file.app.ikea.cn/images/ae/4b/ae4bdce8eb55fdae12d467916a118885.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/d4/e6/d4e6ac9b7a197a9f0e2faae0fa0068cb.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/ae/4b/ae4bdce8eb55fdae12d467916a118885.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/planners/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fplanners%2F&key=",
+    "{\"objectId_var\":\"/planners/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "返回查看所有基本设计工具"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/planners/",
+     "text": ""
+    }
+   ],
+   "settings": null
+  }
+ ]
+}

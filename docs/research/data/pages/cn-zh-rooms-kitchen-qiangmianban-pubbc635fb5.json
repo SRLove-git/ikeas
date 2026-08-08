@@ -1,0 +1,317 @@
+{
+ "url": "/cn/zh/rooms/kitchen/qiangmianban-pubbc635fb5",
+ "family": "rooms",
+ "id": "cn--zh--bc635fb5c81f11e788b1d985fdb76ee8",
+ "title": "墙面板",
+ "name": "厨房产品 - 墙面板_SEO",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "墙面板",
+   "texts": [
+    "<p><strong>为每一面增添个性元素</strong></p>\n<p>我们的挡水板易于清洁，在你准备晚餐时，可防止食物汁液和残渣弄脏墙壁。有多种不同材质、图案和颜色可选，为你的厨房营造更加时尚的风格。其中一些款式甚至双面可用！如需更个性的挡水板，你也可以选择定做。</p>\n<p><strong>查看所有墙面板：</strong></p>\n<p><a href=\"https://www.ikea.cn/cn/zh/cat/qiang-mian-ban-19121/\">墙面板</a></p>",
+    "墙面板",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/41/d2/41d2a44db3912795f917ed39c1ea3f53.png"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/41/d2/41d2a44db3912795f917ed39c1ea3f53.png",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "/rooms/kitchen/gallery/chufang-pub6a8765e1",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fkitchen%2Fgallery%2Fchufang-pub6a8765e1&key=cn--zh--6a8765e1cf6e11e78e0a0bf79e0fa98f",
+    "{\"objectId_var\":\"/rooms/kitchen/gallery/chufang-pub6a8765e1\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/8c/0a/8c0a60b877bd57faa33fac082cbdb52b.jpg"
+   ],
+   "links": [
+    {
+     "href": "/rooms/kitchen/gallery/chufang-pub6a8765e1",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/8c/0a/8c0a60b877bd57faa33fac082cbdb52b.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2><strong>为你的厨房带来一股大胆绘画的感觉</strong></h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "60321989",
+    "40335124"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "/rooms/kitchen/gallery/chufang-pube307c961",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fkitchen%2Fgallery%2Fchufang-pube307c961&key=cn--zh--e307c961cf6e11e78e0a0bf79e0fa98f",
+    "{\"objectId_var\":\"/rooms/kitchen/gallery/chufang-pube307c961\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/5d/59/5d598557872e917bdc70bb2fd178eb47.jpg"
+   ],
+   "links": [
+    {
+     "href": "/rooms/kitchen/gallery/chufang-pube307c961",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/5d/59/5d598557872e917bdc70bb2fd178eb47.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2><strong>清新舒爽的绿色厨房</strong></h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "80335122",
+    "10322566"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/rooms/kitchen/gallery/chufang-pub3197c501",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fkitchen%2Fgallery%2Fchufang-pub3197c501&key=cn--zh--3197c501233c11e8a87b9f51602dde40",
+    "{\"objectId_var\":\"/rooms/kitchen/gallery/chufang-pub3197c501\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "查看更多厨房灵感"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/rooms/kitchen/gallery/chufang-pub3197c501",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/cat/19121",
+    "NO",
+    "ikea://content/plp?catalogId=19121",
+    "{\"objectId_var\":\"19121\",\"objectType_var\":\"plp\"}",
+    "button",
+    "查看所有墙面板"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/19121",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2><strong>我们的厨房服务</strong></h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "/h5page/?url=http%3A%2F%2Fpage.campaign.impdigital.cn%2Fikea%2Fchat",
+    "NO",
+    "ikea://default-module/H5?url=http%3A%2F%2Fpage.campaign.impdigital.cn%2Fikea%2Fchat",
+    "{\"objectId_var\":\"http://page.campaign.impdigital.cn/ikea/chat\",\"objectType_var\":\"default-module/H5\"}",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/12/9b/129bc618776b8f0cea397c1f893bf51c.png"
+   ],
+   "links": [
+    {
+     "href": "/h5page/?url=http%3A%2F%2Fpage.campaign.impdigital.cn%2Fikea%2Fchat",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/12/9b/129bc618776b8f0cea397c1f893bf51c.png",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "/h5page/?url=http%3A%2F%2Ft.cn%2FRXiQ95y",
+    "NO",
+    "ikea://default-module/H5?url=http%3A%2F%2Ft.cn%2FRXiQ95y",
+    "{\"objectId_var\":\"http://t.cn/RXiQ95y\",\"objectType_var\":\"default-module/H5\"}",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/7a/b5/7ab51629bea64e81569ea3945bfea591.png"
+   ],
+   "links": [
+    {
+     "href": "/h5page/?url=http%3A%2F%2Ft.cn%2FRXiQ95y",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/7a/b5/7ab51629bea64e81569ea3945bfea591.png",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--81a9d5c1c46d11e79d02ffe879bc5c80",
+    "/rooms/kitchen/how-to/fuwu-pub81a9d5c1",
+    "page",
+    "厨房服务",
+    "打造梦想厨房，尽在宜家家居\n\n你是否正考虑购买一个全新的厨房，且需要一些帮助呢？在此页面，你可以找到所有你需要的宜家厨房服务信息。从测量房间到安装配件，我们有一系列服务可供选择。向下滚动，查看我们能够如何帮助你打造梦想中的厨房。",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fkitchen%2Fhow-to%2Ffuwu-pub81a9d5c1&key=cn--zh--81a9d5c1c46d11e79d02ffe879bc5c80"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/87/56/87568e5c94a68ffc2e67a7f34a7b186d.jpg",
+    "https://file.app.ikea.cn/images/3a/cd/3acd9818ed7c440286c79f9b37d17020.jpeg",
+    "https://file.app.ikea.cn/images/3d/f8/3df823e83d08716228f531ce5374b7e3.jpg",
+    "https://file.app.ikea.cn/images/0c/a3/0ca3bb4b4ae6b84161b762046c1fd0ef.jpeg",
+    "https://file.app.ikea.cn/cms/u/20250121/79be509be9074bad9ddd19a6a14778b3.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/87/56/87568e5c94a68ffc2e67a7f34a7b186d.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/3a/cd/3acd9818ed7c440286c79f9b37d17020.jpeg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/3d/f8/3df823e83d08716228f531ce5374b7e3.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/0c/a3/0ca3bb4b4ae6b84161b762046c1fd0ef.jpeg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20250121/79be509be9074bad9ddd19a6a14778b3.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "/h5page/?url=https%3A%2F%2Fonlinecatalogueasia.ikea.com%2FCN%2Fzh%2FIn-Store_Range_Brochure_Kitchen_Metod%2Fpages%2F1%3Ficid%3Dilp%257Ccn%257Cwebsite_revamp%257C201709120509034020_11",
+    "NO",
+    "ikea://default-module/H5?url=https%3A%2F%2Fonlinecatalogueasia.ikea.com%2FCN%2Fzh%2FIn-Store_Range_Brochure_Kitchen_Metod%2Fpages%2F1%3Ficid%3Dilp%257Ccn%257Cwebsite_revamp%257C201709120509034020_11",
+    "{\"objectId_var\":\"https://onlinecatalogueasia.ikea.com/CN/zh/In-Store_Range_Brochure_Kitchen_Metod/pages/1?icid=ilp%7Ccn%7Cwebsite_revamp%7C201709120509034020_11\",\"objectType_var\":\"default-module/H5\"}",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/73/0b/730b574ea40b3905724b3deecb7845a5.jpg"
+   ],
+   "links": [
+    {
+     "href": "/h5page/?url=https%3A%2F%2Fonlinecatalogueasia.ikea.com%2FCN%2Fzh%2FIn-Store_Range_Brochure_Kitchen_Metod%2Fpages%2F1%3Ficid%3Dilp%257Ccn%257Cwebsite_revamp%257C201709120509034020_11",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/73/0b/730b574ea40b3905724b3deecb7845a5.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p><a href=\"https://onlinecatalogueasia.ikea.com/CN/zh/In-Store_Range_Brochure_Kitchen_Metod/pages/1?icid=ilp%7Ccn%7Cwebsite_revamp%7C201709120509034020_11\" target=\"_blank\">点击在线浏览 2018《厨房》手册</a></p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "button",
+    "返回厨房的主页",
+    "secondary"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

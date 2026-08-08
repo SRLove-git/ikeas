@@ -1,0 +1,91 @@
+{
+ "url": "/cn/zh/planners/eket-planner-pub4c02ddd0",
+ "family": "planners",
+ "id": "cn--zh--4c02ddd0c45511e79d02ffe879bc5c80",
+ "title": "EKET 伊克特 设计软件",
+ "name": "EKET 伊克特 设计工具 - 客厅_SEO",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "EKET 伊克特 设计软件",
+   "texts": [
+    "EKET 伊克特 设计软件",
+    "<p><strong>定制你的 EKET伊克特 储物组件</strong></p>\n<p><a href=\"https://www.ikea.cn/cn/zh/rooms/living-room/eket-storage-unit-pub0f37ef11\" target=\"_blank\">EKET伊克特 储物组件</a>是你发挥创意的好帮手!一起来体验 EKET伊克特 的灵活变化，为家打造一个完美实用的储物组合。</p>",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/b7/8a/b78a3345cff0201194a2e963f7f477b8.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/b7/8a/b78a3345cff0201194a2e963f7f477b8.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2><strong>更多设计工具</strong></h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--0d6e5791bbb511e8b91c9de9aebb40ed",
+    "/planners/platsa-planner-pub0d6e5791",
+    "page",
+    "PLATSA 普拉萨 设计工具",
+    "使用PLATSA 普拉萨 设计工具，根据你的需要量身设计家居储物方案。",
+    "ikea://cms/page-compatible-web?url=%2Fplanners%2Fplatsa-planner-pub0d6e5791&key=cn--zh--0d6e5791bbb511e8b91c9de9aebb40ed"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/08/fc/08fcdb383e50282ae4f7b268321f7874.png",
+    "https://file.app.ikea.cn/images/94/04/9404d09fd878ef0205e130ad9fe1b68e.jpg",
+    "https://file.app.ikea.cn/images/0a/be/0abe569b4520b7288bc27d6d7b5316e6.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/08/fc/08fcdb383e50282ae4f7b268321f7874.png",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/94/04/9404d09fd878ef0205e130ad9fe1b68e.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/0a/be/0abe569b4520b7288bc27d6d7b5316e6.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/planners/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fplanners%2F&key=",
+    "{\"objectId_var\":\"/planners/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "返回查看所有基本设计工具"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/planners/",
+     "text": ""
+    }
+   ],
+   "settings": null
+  }
+ ]
+}

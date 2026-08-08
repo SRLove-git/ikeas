@@ -1,0 +1,108 @@
+{
+ "url": "/cn/zh/cat/zhi-neng-zhao-ming-tao-jian-36815",
+ "id": "zhi-neng-zhao-ming-tao-jian-36815",
+ "name": "智能照明套件",
+ "description": "巧妙地升级家中的照明！我们的一款智能照明产品套件能助你轻松升级。运用这款套件，你将可用遥控器随心选择照明方案，或者运用动态感应器点亮灯光。准备好为你的家打造个性化照明系统了吗？点击此处，探索了解我们产品系列的详情！",
+ "total": 6,
+ "products": [
+  {
+   "id": "19561760",
+   "name": "YTBERG 于特贝 / TRÅDFRI 特鲁菲",
+   "price": 509.95,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/ytberg-yu-te-bei-tradfri-te-lu-fei-zhao-ming-tao-zhuang-bai-se__1231670_pe916017_s4.jpg",
+   "productType": "照明套装",
+   "designText": "白色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "ytberg-yu-te-bei-tradfri-te-lu-fei-zhao-ming-tao-zhuang-bai-se"
+  },
+  {
+   "id": "99561493",
+   "name": "TVÄRDRAG 法德拉 / TRÅDFRI 特鲁菲",
+   "price": 549.95,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/tvaerdrag-fa-de-la-tradfri-te-lu-fei-zhao-ming-tao-zhuang-hei-se__1231674_pe916019_s4.jpg",
+   "productType": "照明套装",
+   "designText": "黑色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "tvaerdrag-fa-de-la-tradfri-te-lu-fei-zhao-ming-tao-zhuang-hei-se"
+  },
+  {
+   "id": "09561402",
+   "name": "TVÄRDRAG 法德拉 / TRÅDFRI 特鲁菲",
+   "price": 389.97,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/tvaerdrag-fa-de-la-tradfri-te-lu-fei-zhao-ming-tao-zhuang-hei-se__1267804_pe928491_s4.jpg",
+   "productType": "照明套装",
+   "designText": "黑色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "tvaerdrag-fa-de-la-tradfri-te-lu-fei-zhao-ming-tao-zhuang-hei-se"
+  },
+  {
+   "id": "39561603",
+   "name": "YTBERG 于特贝 / TRÅDFRI 特鲁菲",
+   "price": 369.97,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/ytberg-yu-te-bei-tradfri-te-lu-fei-zhao-ming-tao-zhuang-hei-se__1267766_pe928480_s4.jpg",
+   "productType": "照明套装",
+   "designText": "黑色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "ytberg-yu-te-bei-tradfri-te-lu-fei-zhao-ming-tao-zhuang-hei-se"
+  },
+  {
+   "id": "09561671",
+   "name": "YTBERG 于特贝 / TRÅDFRI 特鲁菲",
+   "price": 369.97,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/ytberg-yu-te-bei-tradfri-te-lu-fei-zhao-ming-tao-zhuang-bai-se__1267767_pe928481_s4.jpg",
+   "productType": "照明套装",
+   "designText": "白色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "ytberg-yu-te-bei-tradfri-te-lu-fei-zhao-ming-tao-zhuang-bai-se"
+  },
+  {
+   "id": "09561727",
+   "name": "YTBERG 于特贝 / TRÅDFRI 特鲁菲",
+   "price": 509.95,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/ytberg-yu-te-bei-tradfri-te-lu-fei-zhao-ming-tao-zhuang-hei-se__1303962_pe938532_s4.jpg",
+   "productType": "照明套装",
+   "designText": "黑色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "ytberg-yu-te-bei-tradfri-te-lu-fei-zhao-ming-tao-zhuang-hei-se"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "19561760",
+   "type": "SPR",
+   "fullId": "s19561760"
+  },
+  {
+   "id": "99561493",
+   "type": "SPR",
+   "fullId": "s99561493"
+  },
+  {
+   "id": "09561402",
+   "type": "SPR",
+   "fullId": "s09561402"
+  },
+  {
+   "id": "39561603",
+   "type": "SPR",
+   "fullId": "s39561603"
+  },
+  {
+   "id": "09561671",
+   "type": "SPR",
+   "fullId": "s09561671"
+  },
+  {
+   "id": "09561727",
+   "type": "SPR",
+   "fullId": "s09561727"
+  }
+ ]
+}

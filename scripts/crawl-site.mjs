@@ -33,7 +33,7 @@ const HEADERS = {
   Accept: "text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8",
   "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
 };
-const CONCURRENCY = 16;
+const CONCURRENCY = 8;
 const RETRIES = 2;
 const LIMIT = process.env.LIMIT ? Number(process.env.LIMIT) : null;
 
@@ -120,7 +120,8 @@ function parseNuxtPayload(payload) {
 }
 
 async function fetchPagePayload(url) {
-  const res = await fetchWithRetry(SITE + url, { headers: HEADERS });
+  const withSlash = url.endsWith("/") ? url : `${url}/`;
+  const res = await fetchWithRetry(SITE + withSlash, { headers: HEADERS });
   if (!res) return null;
   const html = await res.text();
   const m = html.match(
@@ -218,8 +219,12 @@ function extractBlock(comp) {
 function extractContentPage(root, url) {
   const dataArr = root.data ?? [];
   const data = dataArr[0] ?? dataArr;
-  const firstKey = typeof data === "object" && data ? Object.keys(data)[0] : null;
-  const page = firstKey ? data[firstKey] : null;
+  const dataKeys = typeof data === "object" && data ? Object.keys(data) : [];
+  const contentKey =
+    dataKeys.find((k) => data[k] && (data[k].content || data[k].components)) ??
+    dataKeys[0] ??
+    null;
+  const page = contentKey ? data[contentKey] : null;
   const content = page?.content ?? {};
   const components = Array.isArray(content.components) ? content.components : [];
   const blocks = components.map(extractBlock).filter((b) => b.type);
@@ -250,8 +255,12 @@ function extractContentPage(root, url) {
 function extractCatalogPage(root, url) {
   const dataArr = root.data ?? [];
   const data = dataArr[0] ?? dataArr;
-  const firstKey = typeof data === "object" && data ? Object.keys(data)[0] : null;
-  const page = firstKey ? data[firstKey] : null;
+  const dataKeys = typeof data === "object" && data ? Object.keys(data) : [];
+  const contentKey =
+    dataKeys.find((k) => data[k] && (data[k].content || data[k].components)) ??
+    dataKeys[0] ??
+    null;
+  const page = contentKey ? data[contentKey] : null;
   const content = page?.content ?? {};
   const products = content.products ?? {};
   const summaries = Array.isArray(products.productSummaries)
@@ -376,6 +385,73 @@ async function crawlContent() {
   console.log("cat pages done:", catDone);
 }
 
+// ------------------------------------------------------- crawl missing URLs
+
+async function crawlGaps() {
+  const aliveFile = path.join(repoRoot, "docs", "research", "data", "gaps-alive.json");
+  const missingFile = path.join(repoRoot, "docs", "research", "data", "coverage-missing.json");
+  const alive = fs.existsSync(aliveFile) ? JSON.parse(fs.readFileSync(aliveFile, "utf8")) : null;
+  if (!alive && !fs.existsSync(missingFile)) {
+    console.log("no gap lists — run scripts/classify-missing.mjs first");
+    return;
+  }
+  const missing = alive
+    ? { targeted: alive }
+    : JSON.parse(fs.readFileSync(missingFile, "utf8"));
+
+  const pagesDir = path.join(repoRoot, "docs", "research", "data", "pages");
+  const catDir = path.join(repoRoot, "docs", "research", "data", "catalog");
+  fs.mkdirSync(pagesDir, { recursive: true });
+  fs.mkdirSync(catDir, { recursive: true });
+
+  const contentTargets = [];
+  const catTargets = [];
+  for (const [fam, urls] of Object.entries(missing)) {
+    if (fam === "p") continue;
+    for (const u of urls) {
+      const clean = u.replace(/\/$/, "");
+      if (fam === "cat" || clean.startsWith("/cn/zh/cat/")) catTargets.push(clean);
+      else contentTargets.push(clean);
+    }
+  }
+
+  let done = 0;
+  await mapLimit(contentTargets, CONCURRENCY, async (url) => {
+    const data = await fetchPagePayload(url);
+    let page = null;
+    if (data) {
+      page = extractContentPage(data.root, url);
+      if (page.blocks.length === 0 && !page.title) page = null;
+    }
+    if (page) {
+      fs.writeFileSync(
+        path.join(pagesDir, safeName(url) + ".json"),
+        JSON.stringify(page, null, 1),
+      );
+    }
+    done++;
+    if (done % 100 === 0) console.log(`  gaps content ${done}/${contentTargets.length}`);
+  });
+  console.log("gaps content done:", done);
+
+  let catDone = 0;
+  await mapLimit(catTargets, CONCURRENCY, async (url) => {
+    const data = await fetchPagePayload(url);
+    if (data) {
+      const page = extractCatalogPage(data.root, url);
+      if (page.name || page.products.length) {
+        fs.writeFileSync(
+          path.join(catDir, safeName(url) + ".json"),
+          JSON.stringify(page, null, 1),
+        );
+      }
+    }
+    catDone++;
+    if (catDone % 100 === 0) console.log(`  gaps cat ${catDone}/${catTargets.length}`);
+  });
+  console.log("gaps cat done:", catDone);
+}
+
 // --------------------------------------------------------------- products
 
 function extractProduct(raw) {
@@ -443,11 +519,9 @@ async function crawlProducts() {
   const targets = LIMIT ? productUrls.slice(0, LIMIT) : productUrls;
   console.log("product urls:", targets.length);
 
-  const productsDir = path.join(repoRoot, "docs", "research", "data", "products");
-  fs.mkdirSync(productsDir, { recursive: true });
-
   let done = 0;
   let failed = 0;
+  const products = new Map();
   await mapLimit(targets, CONCURRENCY, async (url) => {
     // Product details are extracted from the server-rendered page payload
     // (the detail API returns 400 for many valid products).
@@ -458,8 +532,12 @@ async function crawlProducts() {
     }
     const dataArr = data.root.data ?? [];
     const page = dataArr[0] ?? dataArr;
-    const firstKey = typeof page === "object" && page ? Object.keys(page)[0] : null;
-    const content = firstKey ? page[firstKey]?.content ?? {} : {};
+    const dataKeys = typeof page === "object" && page ? Object.keys(page) : [];
+    const contentKey =
+      dataKeys.find((k) => page[k] && (page[k].content || page[k].components)) ??
+      dataKeys[0] ??
+      null;
+    const content = contentKey ? page[contentKey]?.content ?? {} : {};
     const product = extractProduct(content.product ?? {});
     if (!product.id) {
       failed++;
@@ -467,14 +545,12 @@ async function crawlProducts() {
     }
     product.name = product.name || content.name || "";
     product.slug = url.split("/").filter(Boolean).at(-1) ?? "";
-    fs.writeFileSync(
-      path.join(productsDir, `${product.id}.json`),
-      JSON.stringify(product, null, 1),
-    );
+    products.set(product.slug, product);
     done++;
     if (done % 500 === 0) console.log(`  products ${done}/${targets.length} fail=${failed}`);
   });
   console.log("products done:", done, "failed:", failed);
+  writeProductsParts(products);
 }
 
 // ------------------------------------------------------------ aggregation
@@ -513,27 +589,16 @@ function aggregateCatalogs() {
   console.log("catalog pages:", pages.length);
 }
 
-function aggregateProducts() {
-  const productsDir = path.join(repoRoot, "docs", "research", "data", "products");
+function writeProductsParts(productsMap) {
   const outDir = path.join(repoRoot, "src", "data");
-  if (!fs.existsSync(productsDir)) {
-    console.log("no product data yet — run --products first");
-    return;
-  }
-  const files = fs.readdirSync(productsDir).filter((f) => f.endsWith(".json"));
-  const bySlug = new Map();
-  for (const f of files) {
-    const p = JSON.parse(fs.readFileSync(path.join(productsDir, f), "utf8"));
-    if (!p.slug || bySlug.has(p.slug)) continue;
-    bySlug.set(p.slug, p);
-  }
-  const products = [...bySlug.values()];
+  fs.mkdirSync(path.join(outDir, "products"), { recursive: true });
+  const products = [...productsMap.values()];
   const PARTS = 6;
   const chunk = Math.ceil(products.length / PARTS);
   for (let i = 0; i < PARTS; i++) {
     const slice = products.slice(i * chunk, (i + 1) * chunk);
     fs.writeFileSync(
-      path.join(outDir, `products-part-${i + 1}.json`),
+      path.join(outDir, "products", `products-part-${i + 1}.json`),
       JSON.stringify(slice, null, 0),
     );
   }
@@ -549,11 +614,13 @@ if (mode === "--content") {
   aggregateCatalogs();
 } else if (mode === "--products") {
   await crawlProducts();
-  aggregateProducts();
+} else if (mode === "--gaps") {
+  await crawlGaps();
+  aggregatePages();
+  aggregateCatalogs();
 } else if (mode === "--finalize") {
   aggregatePages();
   aggregateCatalogs();
-  aggregateProducts();
 } else {
   console.log("unknown mode", mode);
 }

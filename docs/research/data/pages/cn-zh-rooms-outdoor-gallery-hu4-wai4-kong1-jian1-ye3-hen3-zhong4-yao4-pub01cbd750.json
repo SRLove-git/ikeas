@@ -1,0 +1,124 @@
+{
+ "url": "/cn/zh/rooms/outdoor/gallery/hu4-wai4-kong1-jian1-ye3-hen3-zhong4-yao4-pub01cbd750",
+ "family": "rooms",
+ "id": "cn--zh--01cbd7500f8311ea9be0efb138516c0e",
+ "title": "户外空间也很重要",
+ "name": "20203_rmod01a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "户外空间也很重要"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "木质平台上的户外空间内摆放着带米色阳伞、灰色户外家具、绿色树木，还有一只灰色/橙色的猫。",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "80420629"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/d3/ae/d3aeea33f0baab0f5bd40a9ebba598a9.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/d3/ae/d3aeea33f0baab0f5bd40a9ebba598a9.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>天气较暖时，我们会在户外度过更多时光。用我们全新的优质户外家具 BONDHOLMEN 邦德荷蒙 系列，把你的户外空间变得和家中其他空间一样舒适又时尚。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "两个储物柜和一个绿色搁架单元、多个灰色花盆、洒水壶和一些绿色植物。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "40450350"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/33/f7/33f71f53355bc5d0545d1c940de58287.jpg",
+    "https://file.app.ikea.cn/images/92/f0/92f0c9a3cb3ccfe9b84bd6749c354eb0.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/33/f7/33f71f53355bc5d0545d1c940de58287.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/92/f0/92f0c9a3cb3ccfe9b84bd6749c354eb0.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "户外用餐区摆放着一张灰色桌子和四把灰色椅子，边上摆放着一把巨大的米色阳伞。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "s49320566"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/5a/87/5a8723f4ce922360923a9ff82ec4cf14.jpg",
+    "https://file.app.ikea.cn/images/0a/9b/0a9b1f1cf523613a74740f4f6ff164bf.jpg",
+    "https://file.app.ikea.cn/images/0a/02/0a02b2d7f5f259caaf9e6bdcdabac1af.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/5a/87/5a8723f4ce922360923a9ff82ec4cf14.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/0a/9b/0a9b1f1cf523613a74740f4f6ff164bf.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/0a/02/0a02b2d7f5f259caaf9e6bdcdabac1af.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "80420629",
+    "30420660",
+    "70420663",
+    "90420577",
+    "60420673"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

@@ -70,9 +70,29 @@
 - `npm run build` — 全站预渲染构建
 - `npm run lint` / `npm run typecheck` — 静态检查
 - `node scripts/crawl-site.mjs --content` — 重新抓取内容页样本(不下载图片)
+- `node scripts/crawl-site.mjs --products` — 全量抓取商品页(SSR,不下载图片)
+- `node scripts/crawl-site.mjs --gaps` — 补抓 coverage 核对出的缺口
+- `node scripts/check-coverage.mjs` — 用 sitemap 对比数据层,输出各路由族覆盖率
+- `node scripts/classify-missing.mjs` / `node scripts/verify-product-gaps.mjs` — 区分原站死链与可抓缺口
 
 ## 已知边界
 
-- 原站约 15% 的商品 URL 已失效(返回“维护中”页面),克隆同样不收录这些商品。
-- 商品详情样例(~679)覆盖主目录;系列页商品卡片在无详情时仅展示、不可点击。
+- 原站 sitemap 中约 13-15% 的商品 URL 已失效(返回“维护中”/404),克隆同样不收录;
+  内容页缺口(约 400)也全部是原站死链或空壳页。
+- 分类页中约 32 个 series/collection URL 在原站无任何商品数据,克隆按未收录处理。
+- 交互性(搜索、购物袋、登录、规划工具)为前端演示占位,需后端接入。
+
+## 覆盖率核对结果(2026-08-08)
+
+对 sitemap 全部 27,200 个 URL 与克隆数据层逐条比对:
+
+| 路由族 | sitemap | 已复刻 | 缺口 | 缺口性质 |
+|---|---|---|---|---|
+| 商品 p | 22,986 | ~19,900 | ~3,100 | 原站“维护中”死链 |
+| 分类 cat | 1,205 | 1,163 | 42 | 32 个空壳页 + 10 个死链 |
+| 内容页(CMS) | ~2,900 | ~2,500 | ~400 | 原站 404 死链 |
+| 设计工具 | 44 | 30 | 14 | 重定向/死链 |
+
+内容页与分类页的缺口经逐 URL 探测,全部是原站自身已失效的页面;
+商品缺口经复核脚本分类为 dead(维护页)或 retryable(可补抓)。
 - 交互性(搜索、购物袋、登录、规划工具)为前端演示占位,需后端接入。

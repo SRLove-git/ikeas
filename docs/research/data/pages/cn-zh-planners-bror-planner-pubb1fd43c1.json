@@ -1,0 +1,102 @@
+{
+ "url": "/cn/zh/planners/bror-planner-pubb1fd43c1",
+ "family": "planners",
+ "id": "cn--zh--b1fd43c1bbb511e8b91c9de9aebb40ed",
+ "title": "BROR 巴拉设计工具",
+ "name": "BROR 巴拉设计工具_PC",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "BROR 巴拉设计工具",
+   "texts": [
+    "这款 BROR 巴拉 搁架单元采用黑色涂粉末漆镀锌钢制成，共分为三个部分，专为承载重物而设计。",
+    "<p>名副其实的重载储物系列</p>\n<p>使用 BROR 巴拉，从此和车库内杂乱的箱子和四处散落的工具说再见。它可能是迄今为止我们打造的最强大、最坚固、最实用的储物系列，它的搁板可以承载各种东西，甚至可以放几袋混凝土（我们正是这样测试的）。BROR 巴拉 重载储物系列可在其承载范围内储存任何重物&mdash;&mdash;唯一不沉重的是它的价格。查看 <strong><a href=\"https://www.ikea.cn/cn/zh/planner/bror-planner/\" target=\"_blank\">BROR 设计工具</a></strong></p>",
+    "BROR 巴拉设计工具",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/cf/ff/cfff3a106fcc428944e405b7943ddefd.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/cf/ff/cfff3a106fcc428944e405b7943ddefd.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/planner/bror-planner/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fplanner%2Fbror-planner%2F&key=",
+    "{\"objectId_var\":\"/planner/bror-planner/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "开始设计"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/planner/bror-planner/",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--d6479c6bc36511e796b935f60bf025b7",
+    "/planners/algot-planner-pubd6479c6b",
+    "page",
+    "JONAXEL 尤纳赛尔 设计工具",
+    "使用我们的 JONAXEL 尤纳赛尔 设计工具，为房间设计储物空间方案。",
+    "ikea://cms/page-compatible-web?url=%2Fplanners%2Falgot-planner-pubd6479c6b&key=cn--zh--d6479c6bc36511e796b935f60bf025b7"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/0a/be/0abe569b4520b7288bc27d6d7b5316e6.jpg",
+    "https://file.app.ikea.cn/images/88/90/889041c6ed39f59997c709780591546d.jpg",
+    "https://file.app.ikea.cn/images/08/fc/08fcdb383e50282ae4f7b268321f7874.png"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/0a/be/0abe569b4520b7288bc27d6d7b5316e6.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/88/90/889041c6ed39f59997c709780591546d.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/08/fc/08fcdb383e50282ae4f7b268321f7874.png",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/planners/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fplanners%2F&key=",
+    "{\"objectId_var\":\"/planners/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "查看所有基本设计工具"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/planners/",
+     "text": ""
+    }
+   ],
+   "settings": null
+  }
+ ]
+}

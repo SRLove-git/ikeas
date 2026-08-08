@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/living-room/gallery/keting-pubecd5a281",
+ "family": "rooms",
+ "id": "cn--zh--ecd5a281cf7011e78e0a0bf79e0fa98f",
+ "title": "可以躺卧的舒适沙发",
+ "name": "20172-cols01a_PF_CT_SEO_QA",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "可以躺卧的舒适沙发",
+   "texts": [
+    "墙面为绿色的客厅内放着一张现代风灰绿色带脚凳三人沙发。",
+    "可以躺卧的舒适沙发",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/05/30/0530f4a8221a3dbc73ed00298ec6e079.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/05/30/0530f4a8221a3dbc73ed00298ec6e079.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s29184032",
+    "s59184002",
+    "s19187682",
+    "s29896890",
+    "30322240"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

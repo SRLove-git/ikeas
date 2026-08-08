@@ -4,17 +4,20 @@ import { catalogCategories, channelCategories } from "@/data/catalog";
 import {
   findProductBySlug,
   formatPrice,
-  getCollectionHref,
 } from "@/lib/catalog";
 import { ProductGallery } from "@/components/ProductGallery";
 import { SiteLayout } from "@/components/SiteLayout";
+import { allProducts } from "@/data/products-index";
 
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return [...catalogCategories, ...channelCategories].flatMap((category) =>
-    category.products.map((product) => ({ slug: product.slug })),
-  );
+  const slugs = new Set<string>();
+  for (const category of [...catalogCategories, ...channelCategories]) {
+    for (const product of category.products) slugs.add(product.slug);
+  }
+  for (const product of allProducts) slugs.add(product.slug);
+  return [...slugs].map((slug) => ({ slug }));
 }
 
 export default async function ProductPage({
@@ -43,9 +46,15 @@ export default async function ProductPage({
             所有商品
           </Link>
           <span>/</span>
-          <Link href={getCollectionHref(category)} className="hover:text-ikea-black">
-            {category.name}
-          </Link>
+          {category ? (
+            <Link href={category.href} className="hover:text-ikea-black">
+              {category.name}
+            </Link>
+          ) : (
+            <Link href="/cn/zh/all-products" className="hover:text-ikea-black">
+              所有商品
+            </Link>
+          )}
           <span>/</span>
           <span className="text-ikea-black">{product.name}</span>
         </nav>
