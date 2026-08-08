@@ -2,6 +2,9 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
+import { useAuth } from "@/lib/auth";
+import { apiJson } from "@/lib/api";
 
 type LoginTab = "sms" | "password";
 
@@ -9,6 +12,55 @@ export default function LoginPage() {
   const [tab, setTab] = useState<LoginTab>("sms");
   const [agreed, setAgreed] = useState(false);
   const [submitted, setSubmitted] = useState(false);
+  const [phone, setPhone] = useState("");
+  const [code, setCode] = useState("");
+  const [password, setPassword] = useState("");
+  const [account, setAccount] = useState("");
+  const [error, setError] = useState<string | null>(null);
+  const [notice, setNotice] = useState<string | null>(null);
+  const [submitting, setSubmitting] = useState(false);
+  const { login } = useAuth();
+  const router = useRouter();
+
+  const sendCode = async () => {
+    setError(null);
+    setNotice(null);
+    try {
+      const data = await apiJson<{ message: string; devCode?: string }>(
+        "/auth/sms/send",
+        { method: "POST", body: JSON.stringify({ phone }) },
+      );
+      setNotice(
+        data.devCode
+          ? `${data.message}（演示环境验证码：${data.devCode}）`
+          : data.message,
+      );
+    } catch (ex) {
+      setError(ex instanceof Error ? ex.message : "验证码发送失败");
+    }
+  };
+
+  const submit = async () => {
+    if (!agreed) {
+      setError("请先阅读并同意隐私政策和使用条款");
+      return;
+    }
+    setError(null);
+    setSubmitting(true);
+    try {
+      if (tab === "sms") {
+        await login({ mode: "sms", phone: phone.trim(), code: code.trim() });
+      } else {
+        await login({ mode: "password", account: account.trim(), password });
+      }
+      setSubmitted(true);
+      setTimeout(() => router.replace("/cn/zh/profile/"), 500);
+    } catch (ex) {
+      setError(ex instanceof Error ? ex.message : "登录失败，请稍后重试");
+    } finally {
+      setSubmitting(false);
+    }
+  };
 
   return (
     <main className="font-ikea flex min-h-screen flex-col bg-white text-ikea-black">
@@ -73,6 +125,8 @@ export default function LoginPage() {
                   <input
                     type="text"
                     placeholder="请输入手机号"
+                    value={phone}
+                    onChange={(event) => setPhone(event.target.value)}
                     className="h-11 w-full border border-ikea-gray-200 px-4 text-sm outline-none transition-colors focus:border-ikea-blue"
                   />
                 </label>
@@ -82,11 +136,14 @@ export default function LoginPage() {
                     <input
                       type="text"
                       placeholder="验证码"
+                      value={code}
+                      onChange={(event) => setCode(event.target.value)}
                       className="h-11 w-full border border-ikea-gray-200 px-4 text-sm outline-none transition-colors focus:border-ikea-blue"
                     />
                   </label>
                   <button
                     type="button"
+                    onClick={sendCode}
                     className="mt-[26px] h-11 shrink-0 border border-ikea-gray-200 px-5 text-xs font-bold text-ikea-blue hover:border-ikea-blue"
                   >
                     获取验证码
@@ -100,6 +157,8 @@ export default function LoginPage() {
                   <input
                     type="text"
                     placeholder="邮箱/手机号"
+                    value={account}
+                    onChange={(event) => setAccount(event.target.value)}
                     className="h-11 w-full border border-ikea-gray-200 px-4 text-sm outline-none transition-colors focus:border-ikea-blue"
                   />
                 </label>
@@ -108,6 +167,11 @@ export default function LoginPage() {
                   <input
                     type="password"
                     placeholder="密码"
+                    value={password}
+                    onChange={(event) => setPassword(event.target.value)}
+                    onKeyDown={(event) => {
+                      if (event.key === "Enter") submit();
+                    }}
                     className="h-11 w-full border border-ikea-gray-200 px-4 text-sm outline-none transition-colors focus:border-ikea-blue"
                   />
                 </label>
@@ -146,18 +210,38 @@ export default function LoginPage() {
 
             <button
               type="button"
-              disabled={!agreed}
-              onClick={() => setSubmitted(true)}
+              disabled={submitting}
+              onClick={submit}
               className="i-btn i-btn--primary mt-6 h-11 w-full text-sm font-bold text-white disabled:cursor-not-allowed disabled:opacity-40"
             >
-              <span className="i-btn__label">{tab === "sms" ? "登录 / 注册" : "登录"}</span>
+              <span className="i-btn__label">
+                {submitting
+                  ? "请稍候…"
+                  : tab === "sms"
+                    ? "登录 / 注册"
+                    : "登录"}
+              </span>
             </button>
 
             {submitted ? (
               <p className="mt-4 rounded bg-ikea-gray-100 px-4 py-3 text-center text-xs text-ikea-muted">
-                演示环境:登录功能待接入后端后开放
+                登录成功,正在进入我的个人档案…
               </p>
             ) : null}
+            {error ? (
+              <p className="mt-4 rounded bg-red-50 px-4 py-3 text-center text-xs text-red-600">
+                {error}
+              </p>
+            ) : null}
+            {notice ? (
+              <p className="mt-4 rounded bg-ikea-gray-100 px-4 py-3 text-center text-xs text-ikea-muted">
+                {notice}
+              </p>
+            ) : null}
+
+            <p className="mt-3 text-center text-xs text-ikea-muted">
+              演示账号：demo@ikea.cn（或 13800138000），密码 123456
+            </p>
 
             <div className="mt-8">
               <div className="flex items-center gap-4">

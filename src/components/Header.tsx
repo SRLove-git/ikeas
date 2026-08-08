@@ -11,6 +11,7 @@ import {
 import { MegaMenu } from "@/components/MegaMenu";
 import { menuPanels } from "@/data/menu-panels";
 import { categories as allCategories } from "@/data/categories";
+import { useAuth } from "@/lib/auth";
 
 interface HeaderProps {
   menuItems: { label: string; href: string; hasMegaMenu?: boolean }[];
@@ -27,6 +28,7 @@ export function Header({
   const [hintIndex, setHintIndex] = useState(0);
   const [bar, setBar] = useState({ width: 0, left: 0, opacity: 0 });
   const [query, setQuery] = useState("");
+  const { user } = useAuth();
 
   useEffect(() => {
     if (searchHints.length < 2) return;
@@ -113,21 +115,36 @@ export function Header({
                     <div className="header_container_right_img">
                       <span className="i-tooltip i-tooltip--bottom">
                         <span className="i-tooltip__custom-trigger-wrapper">
-                          <Link
-                            href="/cn/zh/profile/login/"
-                            className="header-action-btn header-action-btn--login"
-                          >
-                            <UserIcon width={24} height={24} />
-                            <span>登录宜家账号</span>
-                          </Link>
+                          {user ? (
+                            <Link
+                              href="/cn/zh/profile/"
+                              className="header-action-btn header-action-btn--login"
+                            >
+                              <span className="flex h-6 w-6 items-center justify-center rounded-full bg-ikea-blue text-xs font-bold text-white">
+                                {user.name.slice(-1)}
+                              </span>
+                              <span>{user.name}</span>
+                            </Link>
+                          ) : (
+                            <Link
+                              href="/cn/zh/profile/login/"
+                              className="header-action-btn header-action-btn--login"
+                            >
+                              <UserIcon width={24} height={24} />
+                              <span>登录宜家账号</span>
+                            </Link>
+                          )}
                           <div className="i-tooltip__body">登录宜家账号</div>
                         </span>
                       </span>
                       <span className="i-tooltip i-tooltip--bottom">
                         <span className="i-tooltip__custom-trigger-wrapper">
-                          <div className="header-action-btn">
+                          <Link
+                            href={user ? "/cn/zh/profile/" : "/cn/zh/profile/login/"}
+                            className="header-action-btn"
+                          >
                             <UserIcon width={24} height={24} />
-                          </div>
+                          </Link>
                           <div className="i-tooltip__body">我的个人档案</div>
                         </span>
                       </span>

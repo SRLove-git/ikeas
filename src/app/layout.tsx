@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import "./ikea-components.css";
+import { AuthProvider } from "@/lib/auth";
 
 const notoIkeaLatin = localFont({
   src: [
@@ -67,7 +68,9 @@ export default function RootLayout({
       lang="zh-CN"
       className={`${notoIkeaLatin.variable} ${notoIkeaSc.variable} h-full antialiased`}
     >
-      <body className="font-ikea min-h-full flex flex-col">{children}</body>
+      <body className="font-ikea min-h-full flex flex-col">
+        <AuthProvider>{children}</AuthProvider>
+      </body>
     </html>
   );
 }
