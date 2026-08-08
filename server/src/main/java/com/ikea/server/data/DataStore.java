@@ -19,10 +19,14 @@ import java.io.UncheckedIOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
+import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
+import java.util.Set;
+import java.util.HashSet;
+import java.util.Collection;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 import org.springframework.core.io.support.ResourcePatternResolver;
@@ -54,6 +58,7 @@ public class DataStore {
   private final Map<String, Product> productBySlug = new LinkedHashMap<>();
   private final Map<String, Product> productById = new LinkedHashMap<>();
   private final Map<String, CategoryRef> productCategoryById = new LinkedHashMap<>();
+  private final Map<String, Set<String>> productCategoryNames = new HashMap<>();
   private final Map<String, CatalogPage> catalogPageBySlug = new LinkedHashMap<>();
   private final Map<String, CatalogPage> catalogPageByUrl = new LinkedHashMap<>();
   private final Map<String, ContentPage> contentPageByUrl = new LinkedHashMap<>();
@@ -186,7 +191,10 @@ public class DataStore {
       return source;
     }
     String q = query.toLowerCase(Locale.ROOT);
-    return source.stream().filter(product -> matches(product, q)).toList();
+    return source.stream()
+        .filter(product -> matches(product, q))
+        .map(this::enriched)
+        .toList();
   }
 
   public List<ContentPage> searchContentPages(String query, int limit) {
@@ -284,6 +292,11 @@ public class DataStore {
           String id = product.path("id").asText(null);
           if (id != null && !id.isEmpty()) {
             productCategoryById.putIfAbsent(id, ref);
+            if (page.name() != null && !page.name().isBlank()) {
+              productCategoryNames
+                  .computeIfAbsent(id, ignored -> new HashSet<>())
+                  .add(page.name());
+            }
           }
         }
       }
@@ -305,6 +318,13 @@ public class DataStore {
       if (category.products() != null) {
         for (Product product : category.products()) {
           indexProduct(product, ref);
+          if (product.id() != null
+              && category.name() != null
+              && !category.name().isBlank()) {
+            productCategoryNames
+                .computeIfAbsent(product.id(), ignored -> new HashSet<>())
+                .add(category.name());
+          }
         }
       }
     }
@@ -358,11 +378,43 @@ public class DataStore {
 
   // ------------------------------------------------------------ helpers
 
-  private static boolean matches(Product product, String q) {
-    return contains(product.name(), q)
+  private boolean matches(Product product, String q) {
+    if (contains(product.name(), q)
         || contains(product.designText(), q)
         || contains(product.productType(), q)
-        || contains(product.id(), q);
+        || contains(product.id(), q)) {
+      return true;
+    }
+    Set<String> names = productCategoryNames.get(product.id());
+    if (names == null) {
+      return false;
+    }
+    for (String name : names) {
+      if (contains(name, q)) {
+        return true;
+      }
+    }
+    return false;
+  }
+
+  /** Returns a copy carrying category names (used by search responses). */
+  private Product enriched(Product product) {
+    Collection<String> names = productCategoryNames.get(product.id());
+    if (names == null || names.isEmpty()) {
+      return product;
+    }
+    return new Product(
+        product.id(),
+        product.slug(),
+        product.name(),
+        product.productType(),
+        product.designText(),
+        product.price(),
+        product.originalPrice(),
+        product.image(),
+        product.labels(),
+        product.detail(),
+        List.copyOf(names));
   }
 
   private static boolean contains(String value, String q) {

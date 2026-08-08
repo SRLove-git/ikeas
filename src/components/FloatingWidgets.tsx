@@ -3,11 +3,22 @@
 import { useEffect, useState } from "react";
 import { ChatIcon, CloseIcon } from "@/components/icons";
 import { ArrowUp } from "lucide-react";
+import { API_BASE } from "@/lib/api";
+
+interface ChatMessage {
+  role: "user" | "bot";
+  text: string;
+}
 
 export function FloatingWidgets() {
   const [showCookieBar, setShowCookieBar] = useState(true);
   const [showChat, setShowChat] = useState(false);
   const [showBackTop, setShowBackTop] = useState(false);
+  const [chatMessages, setChatMessages] = useState<ChatMessage[]>([
+    { role: "bot", text: "你好！小宜随时恭候，请问有什么可以帮你的？" },
+  ]);
+  const [chatInput, setChatInput] = useState("");
+  const [sendingChat, setSendingChat] = useState(false);
 
   useEffect(() => {
     const onScroll = () => setShowBackTop(window.scrollY > 400);
@@ -17,6 +28,34 @@ export function FloatingWidgets() {
   }, []);
 
   const backToTop = () => window.scrollTo({ top: 0, behavior: "smooth" });
+
+  const sendChat = async (event: React.FormEvent) => {
+    event.preventDefault();
+    const text = chatInput.trim();
+    if (!text || sendingChat) return;
+    setChatMessages((current) => [...current, { role: "user", text }]);
+    setChatInput("");
+    setSendingChat(true);
+    try {
+      const res = await fetch(`${API_BASE}/api/v1/chat/messages`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ message: text }),
+      });
+      const data = await res.json();
+      setChatMessages((current) => [
+        ...current,
+        { role: "bot", text: data.reply ?? "抱歉，我暂时无法回答这个问题。" },
+      ]);
+    } catch {
+      setChatMessages((current) => [
+        ...current,
+        { role: "bot", text: "网络异常，请稍后再试。" },
+      ]);
+    } finally {
+      setSendingChat(false);
+    }
+  };
 
   return (
     <>
@@ -69,15 +108,35 @@ export function FloatingWidgets() {
             </button>
           </div>
           <div className="flex flex-1 flex-col gap-3 overflow-y-auto p-4">
-            <div className="max-w-[220px] rounded-lg rounded-tl-none bg-ikea-gray-100 p-3 text-sm text-ikea-black">
-              你好！小宜随时恭候，请问有什么可以帮你的？
-            </div>
+            {chatMessages.map((chat, index) => (
+              <div
+                key={index}
+                className={
+                  chat.role === "user"
+                    ? "max-w-[220px] self-end rounded-lg rounded-tr-none bg-ikea-blue p-3 text-sm text-white"
+                    : "max-w-[220px] rounded-lg rounded-tl-none bg-ikea-gray-100 p-3 text-sm text-ikea-black"
+                }
+              >
+                {chat.text}
+              </div>
+            ))}
           </div>
           <div className="border-t border-ikea-gray-200 p-3">
-            <input
-              className="w-full rounded-full border border-ikea-gray-200 px-4 py-2 text-sm outline-none focus:border-ikea-blue"
-              placeholder="请输入您的问题"
-            />
+            <form onSubmit={sendChat} className="flex gap-2">
+              <input
+                value={chatInput}
+                onChange={(event) => setChatInput(event.target.value)}
+                className="w-full rounded-full border border-ikea-gray-200 px-4 py-2 text-sm outline-none focus:border-ikea-blue"
+                placeholder="请输入您的问题"
+              />
+              <button
+                type="submit"
+                disabled={sendingChat || !chatInput.trim()}
+                className="i-btn i-btn--small i-btn--primary shrink-0 rounded-full disabled:opacity-50"
+              >
+                <span className="i-btn__label">发送</span>
+              </button>
+            </form>
           </div>
         </div>
       ) : null}

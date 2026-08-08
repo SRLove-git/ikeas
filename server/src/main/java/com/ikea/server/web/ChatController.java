@@ -1,0 +1,45 @@
+package com.ikea.server.web;
+
+import java.util.Locale;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+/** Simple canned customer-service chat used by the floating chat widget. */
+@RestController
+@RequestMapping("/api/v1/chat")
+public class ChatController {
+
+  public record ChatMessage(String message) {}
+
+  public record ChatReply(String reply) {}
+
+  @PostMapping("/messages")
+  public ChatReply reply(@RequestBody ChatMessage message) {
+    String text = message.message() == null ? "" : message.message().toLowerCase(Locale.ROOT);
+    String reply;
+    if (text.contains("配送") || text.contains("快递") || text.contains("物流")) {
+      reply =
+          "订单通常会在 3-7 个工作日内送达。您可以在「我的订单」中查看物流进度，或致电 400-800-2345 查询。";
+    } else if (text.contains("退货") || text.contains("退换")) {
+      reply =
+          "自提货之日起 365 天内，保持商品全新、未拆封且不影响二次销售，即可凭购物凭证办理退货退款。";
+    } else if (text.contains("门店") || text.contains("商场") || text.contains("地址")) {
+      reply =
+          "您可以在「宜家门店」页面查看全国商场的地址、营业时间和服务项目，建议出发前确认当日营业安排。";
+    } else if (text.contains("会员") || text.contains("宜家俱乐部")) {
+      reply =
+          "宜家俱乐部会员可享专属优惠、生日礼遇和免费活动。登录账号后即可查看会员权益。";
+    } else if (text.contains("价格") || text.contains("优惠") || text.contains("折扣")) {
+      reply =
+          "我们努力以更低价格提供好产品。您可以在「活动和特惠」页面查看当前优惠活动。";
+    } else if (text.contains("你好") || text.contains("在吗") || text.contains("hi")) {
+      reply = "你好！我是小宜，很高兴为你服务。你可以问我配送、退货、门店或会员相关的问题。";
+    } else {
+      reply =
+          "收到！我是小宜，目前可以回答配送、退货、门店、会员和优惠相关的问题。你也可以拨打 400-800-2345 联系人工客服。";
+    }
+    return new ChatReply(reply);
+  }
+}

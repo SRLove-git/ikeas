@@ -18,4 +18,5 @@ public record Product(
     BigDecimal originalPrice,
     String image,
     List<JsonNode> labels,
-    JsonNode detail) {}
+    JsonNode detail,
+    List<String> categoryNames) {}

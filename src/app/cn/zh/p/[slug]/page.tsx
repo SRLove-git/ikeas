@@ -6,6 +6,7 @@ import {
   formatPrice,
 } from "@/lib/catalog";
 import { ProductGallery } from "@/components/ProductGallery";
+import { ProductActions } from "@/components/ProductActions";
 import { SiteLayout } from "@/components/SiteLayout";
 import { allProducts } from "@/data/products-index";
 
@@ -89,24 +90,7 @@ export default async function ProductPage({
               {formatPrice(product.price)}
             </p>
 
-            <div className="mt-6 flex flex-col gap-3 sm:flex-row">
-              <button
-                type="button"
-                className="i-btn i-btn--small i-btn--primary h-11 px-8 text-sm"
-              >
-                <span className="i-btn__inner">
-                  <span className="i-btn__label">加入购物袋</span>
-                </span>
-              </button>
-              <button
-                type="button"
-                className="i-btn i-btn--small h-11 border border-ikea-black bg-white px-8 text-sm text-ikea-black"
-              >
-                <span className="i-btn__inner">
-                  <span className="i-btn__label">加入收藏</span>
-                </span>
-              </button>
-            </div>
+            <ProductActions productId={product.id} />
 
             {detail && detail.benefits.length > 0 ? (
               <ul className="mt-8 space-y-2">

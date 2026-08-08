@@ -4,6 +4,17 @@ import { SiteImage } from "@/components/SiteImage";
 import { allProducts } from "@/data/products-index";
 import { formatPrice } from "@/lib/catalog";
 import { catalogPages } from "@/lib/catalog-pages";
+import { API_BASE } from "@/lib/api";
+
+interface SearchResult {
+  id: string;
+  slug: string;
+  name: string;
+  productType: string | null;
+  price: number | null;
+  image: string | null;
+  labels: { text: string; backgroundColor?: string | null; textColor?: string | null }[];
+}
 
 /** productId -> Chinese category names (from crawled category pages) */
 const categoryNamesById = new Map<string, Set<string>>();
@@ -19,6 +30,21 @@ for (const page of catalogPages) {
 
 export const dynamic = "force-dynamic";
 
+/** Search the Spring Boot backend; returns null when it is unreachable. */
+async function searchBackend(keyword: string): Promise<SearchResult[] | null> {
+  try {
+    const res = await fetch(
+      `${API_BASE}/api/v1/products?q=${encodeURIComponent(keyword)}&page=0&size=100`,
+      { cache: "no-store" },
+    );
+    if (!res.ok) return null;
+    const data = await res.json();
+    return Array.isArray(data.items) ? data.items : null;
+  } catch {
+    return null;
+  }
+}
+
 export default async function SearchProductsPage({
   searchParams,
 }: {
@@ -27,19 +53,21 @@ export default async function SearchProductsPage({
   const { q = "" } = await searchParams;
   const keyword = q.trim().toLowerCase();
 
-  const results = keyword
-    ? allProducts.filter((product) => {
-        const fields = [
-          product.name,
-          product.productType,
-          product.designText,
-          ...(categoryNamesById.get(product.id) ?? []),
-        ];
-        return fields
-          .filter(Boolean)
-          .some((field) => String(field).toLowerCase().includes(keyword));
-      })
-    : [];
+  const backendResults = keyword ? await searchBackend(keyword) : null;
+  const results: SearchResult[] =
+    keyword && backendResults === null
+      ? allProducts.filter((product) => {
+          const fields = [
+            product.name,
+            product.productType,
+            product.designText,
+            ...(categoryNamesById.get(product.id) ?? []),
+          ];
+          return fields
+            .filter(Boolean)
+            .some((field) => String(field).toLowerCase().includes(keyword));
+        })
+      : (backendResults ?? []);
 
   return (
     <SiteLayout>

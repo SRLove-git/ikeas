@@ -38,20 +38,22 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
   useEffect(() => {
     let cancelled = false;
-    if (!getToken()) {
-      setReady(true);
-      return;
-    }
-    apiJson<User>("/auth/me")
-      .then((me) => {
-        if (!cancelled) setUser(me);
-      })
-      .catch(() => {
-        setToken(null);
-      })
-      .finally(() => {
+    const restore = async () => {
+      await Promise.resolve();
+      if (!getToken()) {
         if (!cancelled) setReady(true);
-      });
+        return;
+      }
+      try {
+        const me = await apiJson<User>("/auth/me");
+        if (!cancelled) setUser(me);
+      } catch {
+        setToken(null);
+      } finally {
+        if (!cancelled) setReady(true);
+      }
+    };
+    void restore();
     return () => {
       cancelled = true;
     };

@@ -83,6 +83,20 @@ Point it at a URL, run `/clone-website`, and your AI agent will inspect the site
 - **Tailwind CSS v4** — oklch design tokens
 - **Lucide React** — default icons (replaced by extracted SVGs during cloning)
 
+## Backend (`server/`)
+
+The `server/` folder contains a **Java 21 + Spring Boot 3.5** REST backend that
+serves the same crawled data (categories, products, content pages, homepage,
+menus) through a JSON API and can optionally serve the `public/` assets.
+
+```bash
+cd server && ./mvnw spring-boot:run   # http://localhost:8080/api/v1/health
+```
+
+See [server/README.md](server/README.md) for the API reference and
+configuration. Data is exported from `src/data/` via
+`node scripts/export-server-data.mjs`.
+
 ## How It Works
 
 The `/clone-website` skill runs a multi-phase pipeline:
