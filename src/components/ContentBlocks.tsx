@@ -39,8 +39,45 @@ interface Item {
 
 const PLACEHOLDER_TITLES = new Set(["alt for image", "名称"]);
 
+function cleanText(text: string | null | undefined): string {
+  const entities: Record<string, string> = {
+    nbsp: " ", amp: "&", lt: "<", gt: ">", quot: '"', apos: "'",
+    ldquo: "\u201C", rdquo: "\u201D", lsquo: "\u2018", rsquo: "\u2019",
+    hellip: "\u2026", mdash: "\u2014", ndash: "\u2013",
+    bull: "\u2022", middot: "\u00B7", times: "\u00D7", divide: "\u00F7",
+    raquo: "\u00BB", laquo: "\u00AB", copy: "\u00A9", reg: "\u00AE",
+    deg: "\u00B0", plusmn: "\u00B1", frac12: "\u00BD", frac14: "\u00BC",
+    frac34: "\u00BE", eacute: "\u00E9", egrave: "\u00E8", uuml: "\u00FC",
+    ouml: "\u00F6", auml: "\u00E4", aring: "\u00E5", oslash: "\u00F8",
+    ccedil: "\u00E7", szlig: "\u00DF", euro: "\u20AC", pound: "\u00A3",
+    yen: "\u00A5", cent: "\u00A2", scaron: "\u0161", Scaron: "\u0160",
+    oacute: "\u00F3", Oacute: "\u00D3", aacute: "\u00E1", Aacute: "\u00C1",
+    iacute: "\u00ED", Iacute: "\u00CD", uacute: "\u00FA", Uacute: "\u00DA",
+    ntilde: "\u00F1", Ntilde: "\u00D1", agrave: "\u00E0", Agrave: "\u00C0",
+    acirc: "\u00E2", ecirc: "\u00EA", icirc: "\u00EE", ocirc: "\u00F4",
+    ucirc: "\u00FB", yacute: "\u00FD", Yacute: "\u00DD",
+    oelig: "\u0153", OElig: "\u0152", yuml: "\u00FF", Yuml: "\u0178",
+    radic: "\u221A", zwnj: "\u200C", zwj: "\u200D", rsaquo: "\u203A",
+    lsaquo: "\u2039", rarr: "\u2192", larr: "\u2190", uarr: "\u2191",
+    darr: "\u2193", harr: "\u2194", sdot: "\u22C5", infin: "\u221E",
+    ne: "\u2260", le: "\u2264", ge: "\u2265", sup2: "\u00B2", sup3: "\u00B3",
+  };
+  return (text ?? "")
+    .replace(/&#x([0-9a-f]+);/gi, (_, hex) =>
+      String.fromCharCode(parseInt(hex, 16)),
+    )
+    .replace(/&#(\d+);/g, (_, num) => String.fromCharCode(Number(num)))
+    .replace(/&([a-z]+);/gi, (match, name) => entities[name.toLowerCase()] ?? match)
+    .replace(/<br\s*\/?\s*>/gi, "\n")
+    .replace(/<[^>]+>/g, "")
+    .replace(/<[^>]*$/g, "")
+    .replace(/>/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 function cleanTitle(title: string | null | undefined): string {
-  const t = (title ?? "").trim();
+  const t = cleanText(title);
   return PLACEHOLDER_TITLES.has(t) ? "" : t;
 }
 
@@ -674,9 +711,19 @@ function GenericBlock({ block }: { block: ContentBlock }) {
 }
 
 export function ContentBlocks({ blocks }: { blocks: ContentBlock[] }) {
+  const cleanedBlocks = blocks.map((block) => ({
+    ...block,
+    title: cleanTitle(block.title) || null,
+    texts: block.texts.map((t) => cleanText(t)).filter(Boolean),
+    items: (block.items ?? []).map((item) => ({
+      ...item,
+      title: cleanTitle(item.title),
+      text: cleanText(item.text),
+    })),
+  }));
   return (
     <div className="space-y-10">
-      {blocks.map((block, i) => {
+      {cleanedBlocks.map((block, i) => {
         switch (block.type) {
           case "pub-hero":
           case "pub-standardised-hero":

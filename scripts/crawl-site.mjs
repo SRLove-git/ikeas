@@ -140,6 +140,48 @@ async function fetchPagePayload(url) {
 
 const IMG_EXT = /\.(jpe?g|png|webp|svg|gif|avif|bmp)(\?|$)/i;
 
+const HTML_ENTITIES = {
+  nbsp: " ", amp: "&", lt: "<", gt: ">", quot: '"', apos: "'",
+  ldquo: "\u201C", rdquo: "\u201D", lsquo: "\u2018", rsquo: "\u2019",
+  hellip: "\u2026", mdash: "\u2014", ndash: "\u2013",
+  bull: "\u2022", middot: "\u00B7", times: "\u00D7", divide: "\u00F7",
+  raquo: "\u00BB", laquo: "\u00AB", copy: "\u00A9", reg: "\u00AE",
+  deg: "\u00B0", plusmn: "\u00B1", frac12: "\u00BD", frac14: "\u00BC",
+  frac34: "\u00BE", eacute: "\u00E9", egrave: "\u00E8", uuml: "\u00FC",
+  ouml: "\u00F6", auml: "\u00E4", aring: "\u00E5", oslash: "\u00F8",
+  ccedil: "\u00E7", szlig: "\u00DF", euro: "\u20AC", pound: "\u00A3",
+  yen: "\u00A5", cent: "\u00A2", scaron: "\u0161", Scaron: "\u0160",
+  oacute: "\u00F3", Oacute: "\u00D3", aacute: "\u00E1", Aacute: "\u00C1",
+  iacute: "\u00ED", Iacute: "\u00CD", uacute: "\u00FA", Uacute: "\u00DA",
+  ntilde: "\u00F1", Ntilde: "\u00D1", agrave: "\u00E0", Agrave: "\u00C0",
+  acirc: "\u00E2", ecirc: "\u00EA", icirc: "\u00EE", ocirc: "\u00F4",
+  ucirc: "\u00FB", yacute: "\u00FD", Yacute: "\u00DD", szlig: "\u00DF",
+  oelig: "\u0153", OElig: "\u0152", yuml: "\u00FF", Yuml: "\u0178",
+  radic: "\u221A", zwnj: "\u200C", zwj: "\u200D", rsaquo: "\u203A",
+  lsaquo: "\u2039", rarr: "\u2192", larr: "\u2190", uarr: "\u2191",
+  darr: "\u2193", harr: "\u2194", sdot: "\u22C5", infin: "\u221E",
+  ne: "\u2260", le: "\u2264", ge: "\u2265", sup2: "\u00B2", sup3: "\u00B3",
+};
+
+function decodeEntities(text) {
+  return String(text ?? "")
+    .replace(/&#x([0-9a-f]+);/gi, (_, hex) =>
+      String.fromCharCode(parseInt(hex, 16)),
+    )
+    .replace(/&#(\d+);/g, (_, num) => String.fromCharCode(Number(num)))
+    .replace(/&([a-z]+);/gi, (match, name) => HTML_ENTITIES[name.toLowerCase()] ?? match);
+}
+
+function stripHtml(text) {
+  return decodeEntities(text)
+    .replace(/<br\s*\/?\s*>/gi, "\n")
+    .replace(/<[^>]+>/g, "")
+    .replace(/<[^>]*$/g, "")
+    .replace(/>/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 function walkModel(model) {
   const texts = [];
   const images = [];
@@ -157,7 +199,8 @@ function walkModel(model) {
         images.push(s);
       } else if (s.length >= 2 && texts.length < 10) {
         seen.add(s);
-        texts.push(s.slice(0, 600));
+        const cleaned = stripHtml(s).slice(0, 600);
+        if (cleaned) texts.push(cleaned);
       }
       return;
     }
@@ -199,18 +242,13 @@ function extractBlock(comp) {
   const { type, settings, model } = comp;
   const m = model ?? {};
   const title =
-    typeof m.title === "string"
-      ? m.title
-      : typeof m.name === "string"
-        ? m.name
-        : typeof m.heading === "string"
-          ? m.heading
-          : null;
+    [m.title, m.name, m.heading]
+      .find((v) => typeof v === "string" && stripHtml(v).length > 0) ?? null;
   const { texts, images, links } = walkModel(m);
   const items = extractBlockItems(m);
   return {
     type,
-    title: title ? title.slice(0, 200) : null,
+    title: title ? stripHtml(title).slice(0, 200) || null : null,
     texts: texts.slice(0, 6),
     images: images.slice(0, 5),
     links: links.slice(0, 6),
@@ -603,6 +641,56 @@ async function crawlReblocks() {
   aggregatePages();
 }
 
+// ------------------------------------------------ local data cleanup pass
+
+async function cleanData() {
+  const pagesDir = path.join(repoRoot, "docs", "research", "data", "pages");
+  if (!fs.existsSync(pagesDir)) return;
+  let changed = 0;
+  for (const f of fs.readdirSync(pagesDir)) {
+    if (!f.endsWith(".json")) continue;
+    const file = path.join(pagesDir, f);
+    const page = JSON.parse(fs.readFileSync(file, "utf8"));
+    let dirty = false;
+    for (const b of page.blocks ?? []) {
+      if (typeof b.title === "string") {
+        const cleaned = stripHtml(b.title);
+        if (cleaned !== b.title) {
+          b.title = cleaned;
+          dirty = true;
+        }
+      }
+      b.texts = (b.texts ?? []).map((t) => {
+        const cleaned = stripHtml(t);
+        if (cleaned !== t) dirty = true;
+        return cleaned;
+      });
+      for (const item of b.items ?? []) {
+        if (typeof item.title === "string") {
+          const cleaned = stripHtml(item.title);
+          if (cleaned !== item.title) {
+            item.title = cleaned;
+            dirty = true;
+          }
+        }
+        if (typeof item.text === "string") {
+          const cleaned = stripHtml(item.text);
+          if (cleaned !== item.text) {
+            item.text = cleaned;
+            dirty = true;
+          }
+        }
+      }
+    }
+    if (dirty) {
+      fs.writeFileSync(file, JSON.stringify(page, null, 1));
+      changed++;
+    }
+  }
+  console.log("cleaned pages:", changed);
+  aggregatePages();
+}
+
 // --------------------------------------------------------------- products
 
 function extractProduct(raw) {
@@ -775,6 +863,8 @@ if (mode === "--content") {
   aggregateCatalogs();
 } else if (mode === "--reblocks") {
   await crawlReblocks();
+} else if (mode === "--cleandata") {
+  await cleanData();
 } else if (mode === "--finalize") {
   aggregatePages();
   aggregateCatalogs();
