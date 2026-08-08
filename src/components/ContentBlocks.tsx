@@ -192,6 +192,42 @@ function TextBlock({ block }: { block: ContentBlock }) {
 }
 
 function ColumnsBlock({ block }: { block: ContentBlock }) {
+  const columns = block.columns ?? [];
+  if (columns.length > 0) {
+    return (
+      <div className="grid gap-10 md:grid-cols-2">
+        {columns.map((column, i) => (
+          <div key={i} className="flex flex-col">
+            {column.heading ? (
+              <h3 className="text-lg font-bold">{column.heading}</h3>
+            ) : null}
+            {column.image ? (
+              <div className="mt-3 overflow-hidden">
+                <SiteImage
+                  src={column.image}
+                  alt={column.heading ?? ""}
+                  className="aspect-[16/9] w-full"
+                />
+              </div>
+            ) : null}
+            {column.text ? (
+              <p className="mt-3 text-sm leading-6 text-ikea-muted">{column.text}</p>
+            ) : null}
+            {column.href ? (
+              <div className="mt-4">
+                <BlockLink
+                  href={column.href}
+                  className="i-btn i-btn--small i-btn--primary inline-flex h-9 items-center px-5 text-xs font-bold text-white"
+                >
+                  了解详情
+                </BlockLink>
+              </div>
+            ) : null}
+          </div>
+        ))}
+      </div>
+    );
+  }
   const items = block.items ?? [];
   if (items.length > 0) {
     return (
@@ -214,7 +250,7 @@ function ColumnsBlock({ block }: { block: ContentBlock }) {
     );
   }
   const n = Math.max(1, Math.min(4, block.texts.length || block.images.length || 2));
-  const columns = Array.from({ length: n }, (_, i) => ({
+  const fallbackColumns = Array.from({ length: n }, (_, i) => ({
     text: block.texts[i] ?? null,
     image: block.images[i] ?? null,
     link: block.links[i] ?? null,
@@ -225,7 +261,7 @@ function ColumnsBlock({ block }: { block: ContentBlock }) {
         n === 1 ? "grid-cols-1" : n === 2 ? "md:grid-cols-2" : "md:grid-cols-3"
       }`}
     >
-      {columns.map((col, i) => (
+      {fallbackColumns.map((col, i) => (
         <div key={i} className="flex flex-col gap-3">
           {col.image ? (
             <SiteImage
@@ -331,13 +367,23 @@ function ProductGridBlock({ block }: { block: ContentBlock }) {
 function ButtonLinkBlock({ block }: { block: ContentBlock }) {
   const link = block.links[0];
   if (!link?.href) return null;
+  const candidates = block.texts
+    .map((t) => cleanText(t))
+    .filter(
+      (t) =>
+        t.length > 0 &&
+        t.length < 30 &&
+        !/^(\/|https?:|ikea:|[{])/.test(t),
+    );
+  const label =
+    link.text || candidates.at(-1) || block.title || "了解更多";
   return (
     <div className="flex justify-center">
       <BlockLink
         href={link.href}
         className="i-btn i-btn--primary inline-flex h-10 items-center px-6 text-xs font-bold text-white"
       >
-        {link.text || block.title || "了解更多"}
+        {label}
       </BlockLink>
     </div>
   );
@@ -370,11 +416,41 @@ function PageTitleBlock({ block }: { block: ContentBlock }) {
 }
 
 function PageListBlock({ block }: { block: ContentBlock }) {
-  const items = pairItems(block);
-  if (items.length === 0) return null;
+  const items = block.items ?? [];
+  if (items.length > 0 && items.some((item) => item.image)) {
+    return (
+      <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+        {items.map((item, i) => (
+          <BlockLink key={i} href={item.href ?? "#"} className="group block">
+            <div className="overflow-hidden bg-ikea-gray-100">
+              <SiteImage
+                src={item.image}
+                alt={item.title}
+                className="aspect-[16/9] w-full transition-transform duration-300 group-hover:scale-105"
+              />
+            </div>
+            <div className="mt-3 flex items-center justify-between gap-3">
+              <span className="text-sm font-bold leading-5 group-hover:underline">
+                {item.title}
+              </span>
+              <svg
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                className="h-4 w-4 shrink-0 text-ikea-muted transition-colors group-hover:text-ikea-blue"
+              >
+                <path d="m20 12-8-8-1.4 1.4L16.2 11H4v2h12.2l-5.6 5.6L12 20z" />
+              </svg>
+            </div>
+          </BlockLink>
+        ))}
+      </div>
+    );
+  }
+  const paired = pairItems(block);
+  if (paired.length === 0) return null;
   return (
     <div className="grid gap-4 md:grid-cols-2">
-      {items.map((item, i) => (
+      {paired.map((item, i) => (
         <BlockLink
           key={i}
           href={item.href ?? "#"}
@@ -624,22 +700,34 @@ function PillNavBlock({ block }: { block: ContentBlock }) {
 }
 
 function AssurancesBlock({ block }: { block: ContentBlock }) {
-  const items = pairItems(block, 4);
+  const raw = block.items ?? [];
+  const items: (ContentBlockItem | Item)[] =
+    raw.length > 0 ? raw : pairItems(block, 4);
   if (items.length === 0) return null;
   return (
     <div className="grid grid-cols-2 gap-6 md:grid-cols-4">
       {items.map((item, i) => (
-        <div key={i} className="flex flex-col items-center gap-2 text-center">
-          {item.image ? (
-            <SiteImage
-              src={item.image}
-              alt=""
-              className="h-12 w-12"
-              imgClassName="h-full object-contain"
-            />
-          ) : null}
-          <p className="text-xs font-bold">{item.text || block.texts[i] || block.title}</p>
-        </div>
+        <BlockLink key={i} href={item.href ?? "#"} className="group">
+          <div className="flex flex-col items-center gap-2 text-center">
+            {item.image ? (
+              <SiteImage
+                src={item.image}
+                alt=""
+                className="h-12 w-12"
+                imgClassName="h-full object-contain"
+              />
+            ) : (
+              <span className="flex h-12 w-12 items-center justify-center rounded-full bg-ikea-gray-100 text-ikea-blue">
+                <svg viewBox="0 0 24 24" fill="currentColor" className="h-6 w-6">
+                  <path d="M12 2 4 5v6c0 5.5 3.4 9.7 8 11 4.6-1.3 8-5.5 8-11V5zm0 2.1L18 6.8v4.2c0 4.2-2.5 7.6-6 8.9-3.5-1.3-6-4.7-6-8.9V6.8zM11 7h2v6h-2zm0 7h2v2h-2z" />
+                </svg>
+              </span>
+            )}
+            <p className="text-xs font-bold group-hover:underline">
+              {cleanTitle(item.title) || cleanText(item.text) || block.texts[i] || block.title}
+            </p>
+          </div>
+        </BlockLink>
       ))}
     </div>
   );

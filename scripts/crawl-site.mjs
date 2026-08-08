@@ -246,6 +246,7 @@ function extractBlock(comp) {
       .find((v) => typeof v === "string" && stripHtml(v).length > 0) ?? null;
   const { texts, images, links } = walkModel(m);
   const items = extractBlockItems(m);
+  const columns = type === "pub-columns" ? extractColumns(m) : undefined;
   return {
     type,
     title: title ? stripHtml(title).slice(0, 200) || null : null,
@@ -253,8 +254,45 @@ function extractBlock(comp) {
     images: images.slice(0, 5),
     links: links.slice(0, 6),
     items: items.slice(0, 24),
+    columns,
     settings: settings && Object.keys(settings).length ? settings : null,
   };
+}
+
+/** Extract structured columns for pub-columns blocks (heading/image/text/button). */
+function extractColumns(model) {
+  const content = model?.content ?? model;
+  const elems = Array.isArray(content?.elements) ? content.elements : [content];
+  const columns = [];
+  for (const col of elems) {
+    const nodes = Array.isArray(col?.content) ? col.content : [];
+    const column = {
+      heading: null,
+      text: null,
+      image: null,
+      href: null,
+    };
+    for (const node of nodes) {
+      const type = node?.type;
+      const text = stripHtml(node?.text ?? node?.content ?? "");
+      if (type === "pub-text" || type === "text") {
+        if (/h2|h3|strong/i.test(node?.text ?? "")) {
+          if (!column.heading) column.heading = text;
+        } else if (!column.text) {
+          column.text = text;
+        }
+      } else if (type === "pub-image" || type === "image-text-card") {
+        column.image = node?.image?.url ?? null;
+        const href = normalizeHref(node?.link?.url);
+        if (href) column.href = href;
+      } else if (type === "pub-button-link" || type === "button-link") {
+        const href = normalizeHref(node?.link?.url ?? node?.url);
+        if (href) column.href = href;
+      }
+    }
+    if (column.heading || column.text || column.image) columns.push(column);
+  }
+  return columns.slice(0, 4);
 }
 
 function normalizeHref(url) {

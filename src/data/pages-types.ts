@@ -11,6 +11,13 @@ export interface ContentBlockItem {
   backgroundColor?: string | null;
 }
 
+export interface ContentColumn {
+  heading: string | null;
+  text: string | null;
+  image: string | null;
+  href: string | null;
+}
+
 export interface ContentBlock {
   type: string;
   title: string | null;
@@ -18,6 +25,7 @@ export interface ContentBlock {
   images: string[];
   links: ContentBlockLink[];
   items?: ContentBlockItem[];
+  columns?: ContentColumn[];
   settings: Record<string, unknown> | null;
 }
 
