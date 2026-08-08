@@ -6,6 +6,7 @@
 //   node scripts/crawl-site.mjs --content   # CMS + cat + planners pages
 //   node scripts/crawl-site.mjs --products  # all product details via API
 //   node scripts/crawl-site.mjs --finalize  # aggregate already-crawled data
+//   node scripts/crawl-site.mjs --links <json>  # crawl an explicit URL list
 //
 // Outputs:
 //   docs/research/data/pages/<safe>.json      raw normalized page payloads
@@ -452,6 +453,38 @@ async function crawlGaps() {
   console.log("gaps cat done:", catDone);
 }
 
+// -------------------------------------------------------- crawl URL list
+
+async function crawlLinkList(file) {
+  const urls = JSON.parse(fs.readFileSync(file, "utf8"));
+  const pagesDir = path.join(repoRoot, "docs", "research", "data", "pages");
+  const catDir = path.join(repoRoot, "docs", "research", "data", "catalog");
+  fs.mkdirSync(pagesDir, { recursive: true });
+  fs.mkdirSync(catDir, { recursive: true });
+
+  let done = 0;
+  await mapLimit(urls, CONCURRENCY, async (raw) => {
+    const url = raw.replace(/\/$/, "");
+    const data = await fetchPagePayload(url);
+    let page = null;
+    if (data) {
+      page = extractContentPage(data.root, url);
+      if (page.blocks.length === 0 && !page.title) page = null;
+    }
+    if (page) {
+      fs.writeFileSync(
+        path.join(pagesDir, safeName(url) + ".json"),
+        JSON.stringify(page, null, 1),
+      );
+      console.log("OK", url, "|", (page.title || "").slice(0, 40));
+    } else {
+      console.log("SKIP", url);
+    }
+    done++;
+  });
+  console.log("link list done:", done, "/", urls.length);
+}
+
 // --------------------------------------------------------------- products
 
 function extractProduct(raw) {
@@ -616,6 +649,10 @@ if (mode === "--content") {
   await crawlProducts();
 } else if (mode === "--gaps") {
   await crawlGaps();
+  aggregatePages();
+  aggregateCatalogs();
+} else if (mode === "--links") {
+  await crawlLinkList(process.argv[3]);
   aggregatePages();
   aggregateCatalogs();
 } else if (mode === "--finalize") {

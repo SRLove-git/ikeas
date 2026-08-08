@@ -1,0 +1,23 @@
+{
+ "url": "/cn/zh/landing-page/8e76bbd12f634c62bbac91972d4bc04f",
+ "family": "landing-page",
+ "id": "8e76bbd12f634c62bbac91972d4bc04f",
+ "title": "无锡商场发票事宜沟通内容",
+ "name": "无锡商场发票事宜沟通内容",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "rich-text",
+   "title": null,
+   "texts": [
+    "<p><span style=\"font-size: 10.0pt; color: black;\">尊敬的顾客，</span></p>\n<p><span style=\"font-size: 10.0pt; color: black;\">我们遗憾地通知您，由于</span><span style=\"font-size: 10.0pt; color: black;\">2026年8月1日起宜家暂不保留宜家无锡商场线下票据服务点。如有任何票据类需求，会员消费订单依然可在APP或小程序申请自助开票。如有问题，可以联系宜家（远程）支持与服务中心。</span></p>",
+    "#FFFFFF"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-富文本 Text-"
+   }
+  }
+ ]
+}

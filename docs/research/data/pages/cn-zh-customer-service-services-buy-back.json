@@ -1,0 +1,288 @@
+{
+ "url": "/cn/zh/customer-service/services/buy-back",
+ "family": "customer-service",
+ "id": "cn--zh--530d371e1098446eb5f17403eb1b1d48",
+ "title": "宜家回购与再售服务",
+ "name": "IKEA Buyback",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "rich-text",
+   "title": null,
+   "texts": [
+    "<h1 style=\"text-align: center;\"><span style=\"color: #37b886;\">回购与再售服务 轻松焕新生活</span></h1>",
+    "#FFFFFF"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-富文本 Text-"
+   }
+  },
+  {
+   "type": "pub-banner",
+   "title": null,
+   "texts": [
+    "https://file.app.ikea.cn/cms/u/20251027/86980482c9e246d798172dafa64bd76e.mp4",
+    "VIDEO",
+    "YES",
+    "hosted",
+    "image-text-landscape",
+    "<p style=\"border: 0px solid var(--un-default-border-color,#e5e7eb);\"><span style=\"color: #ffffff;\">我们希望帮助大家一起过上更可持续的居家生活。通过回购与再售服务，你可以将宜家旧家具* 卖给我们。我们将通过循环市集为你的旧家具找到新家。</span></p>\n<h5 style=\"font-size: 12px; border: 0px solid var(--un-default-border-color,#e5e7eb);\"><span style=\"color: #ffffff;\">*回购家具仅限部分品类，详情请咨询店内员工。</span><br style=\"border: 0px solid var(--un-default-border-color,#e5e7eb);\" /><span style=\"color: #ffffff;\">只需在线获取旧家具的回购报价，将其带回宜家，可换取等值的宜家退换卡。</span></h5>"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20251027/2bb7e3ea37ea4cf5a01164d3a31f9366.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20251027/86980482c9e246d798172dafa64bd76e.mp4",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20251027/86980482c9e246d798172dafa64bd76e.mp4",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-媒体色块组合 Banner-"
+   }
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-分割线 Horizontal Line-"
+   }
+  },
+  {
+   "type": "anchor-navigation",
+   "title": null,
+   "texts": [
+    "TEXT",
+    "YES",
+    "服务流程",
+    "ed39281afca348999f36ba2c38fc2567",
+    "回购条件",
+    "aa55a9f4a68241a1ba2403be1a55eeb3"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-页面导航-"
+   }
+  },
+  {
+   "type": "rich-text",
+   "title": null,
+   "texts": [
+    "<h2><span style=\"color: #ffffff; background-color: #37b886;\">&nbsp;回购流程&nbsp;</span></h2>\n<p><span style=\"font-size: 10.0pt;\">回购操作两步走（线上申请</span><span style=\"font-size: 10.0pt;\"> + 到店办理）</span><span style=\"font-size: 10.0pt;\">​</span></p>\n<p><strong><span style=\"font-size: 10.0pt;\">1.APP 端申请（在家就能办）</span></strong><strong><span style=\"font-size: 10.0pt;\">​</span></strong></p>\n<p><span style=\"font-size: 10.0pt;\">① 打开宜家</span><span style=\"font-size: 10.0pt;\"> APP / 小程序，进入【回购服务】版块；② 选择需回购的产品，按要求上传照片（至少 6 张：需包含正面、侧面、整体外观，及宜家标识、产品货号、原始小票等细节）；③ 等待系统评估成色并自动生成初步报价（结果将通过短信 + APP 推送通知您）；④ 若接受报价，获取【回购预约号】",
+    "#FFFFFF"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-富文本 Text-"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/apps/buyback-home",
+    "NO",
+    "ikea://buyback/quotation-home",
+    "{\"objectType_var\":\"buyback-home\"}",
+    "button",
+    "立即在线获取估价"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/apps/buyback-home",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-按钮 Link-button or text-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2><span style=\"background-color: #37b886;\"><strong>&nbsp;<span style=\"color: #ffffff;\">宜家回购哪些二手宜家家具？</span></strong></span></h2>\n<h5><strong>* 详情以APP系统更新的产品为准</strong></h5>\n<p><span style=\"font-size: 10.0pt;\">我们的目的是将您的二手宜家产品找到新家，我们希望确保其他顾客购买的回购产品是可以正常使用的。</span><span style=\"font-size: 10.0pt;\">​</span></p>\n<p><strong><span style=\"font-size: 10.0pt;\">您的二手宜家家具须同时符合以下要求，方可享受回购服务：</span></strong><strong><span style=\"font-size: 10.0pt;\">​</span></strong></p>\n<ul>\n<li><span style=\"font-size: 10.0pt;\"> </span><span style=\"font-size: 10.0pt;\">须为宜家产品， 且为回购可行的产品，</span><span style=\"font-size: 10.0pt;\""
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "两把桦木餐椅靠在厨房窗户旁的一张小巧的桦木餐桌旁。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "<h3><strong>宜家回购的二手家具</strong></h3>\n<p>此处列出了符合回购条件的具体产品，包括以下类别：</p>\n<ul>\n<li><span style=\"font-size: 10.0pt;\"> </span><span style=\"font-size: 10.0pt;\">茶几、边桌、扶手椅、脚凳、沙发</span><span style=\"font-size: 10.0pt;\">​</span></li>\n<li><span style=\"font-size: 10.0pt;\"> </span><span style=\"font-size: 10.0pt;\">书架、置物架、展示柜等储物家具</span><span style=\"font-size: 10.0pt;\">​</span></li>\n<li><span style=\"font-size: 10.0pt;\"> </span><span style=\"font-size: 10.0pt;\">办公桌、办公椅、抽屉柜等办公储物家具</span><span style=\"font-size: 10.0pt;\">​</span></li>\n<li><span style=\"font-size: 10.0pt;\"> </span><span style=\"font-size: 10.0pt;\">餐桌、餐椅"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20241105/4d486b2898be419cab86bfb2dd058562.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20241105/6916ad1efe514a42beaf2070a3d9af19.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20241105/4d486b2898be419cab86bfb2dd058562.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20241105/6916ad1efe514a42beaf2070a3d9af19.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Columns-"
+   }
+  },
+  {
+   "type": "pub-banner",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "image-text-landscape",
+    "<p><span style=\"color: #1e1e1e;\">宜家致力于为更多家庭提供触手可及的可持续生活方式，推出更优质、更实惠和更巧妙的产品及解决方案，让可持续的生活成为常态。</span></p>",
+    "点滴行动 美好地球",
+    "NO",
+    "#111111"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20250814/ec431335b2d54412b2dc484158363f47.jpg",
+    "https://file.app.ikea.cn/cms/u/20250814/ec431335b2d54412b2dc484158363f47.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20250814/ec431335b2d54412b2dc484158363f47.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20250814/ec431335b2d54412b2dc484158363f47.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/product-guides/sustainable-products/sustainable-living-pub4155615b",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Banner-"
+   }
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Horizontal Line-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2><strong>常见问题</strong></h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-expandable-area",
+   "title": null,
+   "texts": [
+    "哪些宜家商场参与回购与再售服务？",
+    "column",
+    "<p>下列宜家商场可提供回购与再售服务：</p>\n<p><strong>天津</strong></p>\n<ul>\n<li>天津东丽商场</li>\n</ul>\n<p><strong>北京</strong></p>\n<ul>\n<li>北京西红门商场</li>\n&nbsp;\n<li>北京四元桥商场</li>\n</ul>\n<p><strong>上海</strong></p>\n<ul>\n<li>上海徐汇商场<br /><br /></li>\n<li>上海北蔡商场<br /><br /></li>\n<li>上海临空商场</li>\n</ul>\n<p><strong>浙江</strong></p>\n<ul>\n<li>杭州商场</li>\n</ul>\n<p><strong>湖北</strong></p>\n<ul>\n<li>武汉商场</li>\n</ul>\n<p><strong>四川</strong></p>\n<ul>\n<li>成都成华商场<br /><br /></li>\n<li>成都高新商场</li>\n</ul>\n<p><strong>陕西</strong></p>\n<ul>\n<li>西安未央&amp;雁塔商场</li>\n</ul>\n<p><strong>广东</strong></p>\n<ul>\n<li>佛山商场<br /><br /></li>\n<li>广州天河商场<br /><br /></li>",
+    "pub-text",
+    "哪些宜家商场参与回购和再售活动？"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Expandable Area-"
+   }
+  },
+  {
+   "type": "pub-expandable-area",
+   "title": null,
+   "texts": [
+    "我可以在哪里购买二手宜家家具？",
+    "column",
+    "<p>你可以到距离最近的宜家商场的<span data-teams=\"true\"><span class=\"ui-provider a b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak\" dir=\"ltr\">循环市集</span></span>购买二手宜家家具。</p>",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Expandable Area-"
+   }
+  },
+  {
+   "type": "pub-expandable-area",
+   "title": null,
+   "texts": [
+    "如果我将二手家具带到宜家商场后宜家不接受，该如何处理？",
+    "column",
+    "<p>如果你带来的二手宜家产品不符合回购条件，你可以选择让我们代为回收，或者让我们按照<a data-type=\"page\" data-id=\"8d90a8305fe411e8b1ae898ac7c3a9fa\">零废弃物填埋政策</a>进行处理。</p>",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Expandable Area-"
+   }
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--ikea-family",
+    "/ikea-family/",
+    "section",
+    "IKEA Family 宜家俱乐部",
+    "宜家俱乐部会员卡整体介绍，包括会员专享、包含内容、附近的本地宜家活动、宜家俱乐部产品链接。",
+    "ikea://cms/page-compatible-web?url=%2Fikea-family%2F&key=cn--zh--0d3155c1b3e111e79a5eff486d94c77f"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/de/c3/dec30d3154d1c972cb84502605e33ec8.jpg",
+    "https://file.app.ikea.cn/images/ec/45/ec4577661e4980cc7c020fbbe9a7b2ef.jpeg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/de/c3/dec30d3154d1c972cb84502605e33ec8.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/ec/45/ec4577661e4980cc7c020fbbe9a7b2ef.jpeg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Page List-"
+   }
+  }
+ ]
+}

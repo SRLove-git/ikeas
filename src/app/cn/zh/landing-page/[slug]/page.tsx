@@ -6,9 +6,11 @@ import { SiteLayout } from "@/components/SiteLayout";
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return pagesByFamily("landing").map((page) => ({
-    slug: page.url.split("/").filter(Boolean).at(-1) ?? "",
-  }));
+  const slugs = new Set<string>();
+  for (const page of [...pagesByFamily("landing"), ...pagesByFamily("landing-page")]) {
+    slugs.add(page.url.split("/").filter(Boolean).at(-1) ?? "");
+  }
+  return [...slugs].map((slug) => ({ slug }));
 }
 
 export default async function LandingPage({

@@ -445,7 +445,7 @@ export const inspirationTipsItems: PromoTile[] = [
   {
     "title": "为小空间设计",
     "description": "七合一的房间设计",
-    "href": "/cn/zh/ideas/rooms-inspiration/your-first-own-home-with-room-for-everyone-you-know-pub",
+    "href": "/cn/zh/ideas/rooms-inspiration/a-small-kitchen-made-big-with-space-saving-ideas-pub995d19f6/",
     "image": "/images/cms/92e06f3953b8490f8eedffcbd09a564b.png",
     "backgroundColor": "#acd6f2"
   }
@@ -4654,7 +4654,7 @@ export const footerLinkGroups: FooterLinkGroup[] = [
       },
       {
         "label": "宜家礼品卡",
-        "href": "/cn/zh/ikea-business/gift-card/yi-jia-li-pin-ka-pubc1d4f328"
+        "href": "/cn/zh/customer-service/services/lipinka-pubf2366e21/"
       }
     ]
   },
@@ -4728,9 +4728,9 @@ export const socialIcons = [
 export const legalBar = {
   edition: '© Inter IKEA Systems B.V. 1999-2026',
   links: [
-    { label: '隐私政策', href: '/cn/zh/privacy-policy/' },
-    { label: '缺陷披露政策', href: '/cn/zh/this-is-ikea/responsible-disclosure/' },
-    { label: '使用条款', href: '/cn/zh/terms-and-conditions/' },
+    { label: '隐私政策', href: '/cn/zh/customer-service/privacy-policy/' },
+    { label: '缺陷披露政策', href: '/cn/zh/customer-service/responsible-disclosure/' },
+    { label: '使用条款', href: '/cn/zh/customer-service/terms-conditions/' },
     { label: '沪ICP备XXXXXXXX号', href: '#' },
   ],
 };

@@ -10,25 +10,29 @@ export function generateStaticParams() {
     .filter(
       (page) =>
         page.url.startsWith("/cn/zh/customer-service/services/") &&
-        page.url.split("/").filter(Boolean).length === 5,
+        page.url.split("/").filter(Boolean).length > 5,
     )
     .map((page) => ({
-      slug: page.url.split("/").filter(Boolean).at(-1) ?? "",
+      slug: page.url
+        .replace("/cn/zh/customer-service/services/", "")
+        .replace(/\/+$/, "")
+        .split("/"),
     }));
 }
 
-export default async function ServicePage({
+export default async function ServiceSubPage({
   params,
 }: {
-  params: Promise<{ slug: string }>;
+  params: Promise<{ slug: string[] }>;
 }) {
   const { slug } = await params;
-  const page = findContentPage(`/cn/zh/customer-service/services/${slug}/`);
+  const url = `/cn/zh/customer-service/services/${slug.join("/")}`;
+  const page = findContentPage(url);
   if (!page) notFound();
 
   return (
     <SiteLayout>
-      <ContentPage page={page} parentLabel="客户服务" parentHref="/cn/zh/landing-page/cn--zh--9bdb3af1c07611e8affa0d09be91682d" />
+      <ContentPage page={page} parentLabel="客户服务" parentHref="/cn/zh/customer-service/services/" />
     </SiteLayout>
   );
 }
