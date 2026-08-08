@@ -9,6 +9,7 @@ import {
   UserIcon,
 } from "@/components/icons";
 import { MegaMenu } from "@/components/MegaMenu";
+import { MenuPanel } from "@/components/MenuPanel";
 import { menuPanels } from "@/data/menu-panels";
 import { categories as allCategories } from "@/data/categories";
 import { useAuth } from "@/lib/auth";
@@ -259,27 +260,7 @@ export function Header({
               className="mega-menu-layer"
               onMouseLeave={() => setOpenPanel(null)}
             >
-              <div className="header_container_bottom">
-                <div className="max-w-page mx-auto flex flex-wrap gap-x-16 gap-y-8 px-10 py-8">
-                  {activePanel.blocks.map((block) => (
-                    <div key={block.title} className="min-w-[200px]">
-                      <h3 className="mb-3 text-sm font-bold">{block.title}</h3>
-                      <ul className="space-y-2">
-                        {block.links.map((link) => (
-                          <li key={link.href}>
-                            <a
-                              href={link.href}
-                              className="text-sm text-ikea-muted transition-colors hover:text-ikea-black"
-                            >
-                              {link.label}
-                            </a>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  ))}
-                </div>
-              </div>
+              <MenuPanel panel={activePanel} />
             </div>
           ) : null}
         </div>
