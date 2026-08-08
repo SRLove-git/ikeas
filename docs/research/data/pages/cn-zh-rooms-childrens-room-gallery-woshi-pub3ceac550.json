@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/childrens-room/gallery/woshi-pub3ceac550",
+ "family": "rooms",
+ "id": "cn--zh--3ceac550cf7d11e78e0a0bf79e0fa98f",
+ "title": "激发创意的宁静绿洲",
+ "name": "20181-coch01a_PF_SEO_CT_QA",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "激发创意的宁静绿洲",
+   "texts": [
+    "一间白色的儿童卧室，地上放着五颜六色的积木。",
+    "激发创意的宁静绿洲",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/14/d6/14d6b474b12a6526c1732498193910d2.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/14/d6/14d6b474b12a6526c1732498193910d2.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s39240339",
+    "20368832",
+    "70388314",
+    "10196351",
+    "70265370"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

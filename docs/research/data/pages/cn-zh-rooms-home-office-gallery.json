@@ -1,0 +1,70 @@
+{
+ "url": "/cn/zh/rooms/home-office/gallery",
+ "family": "rooms",
+ "id": "cn--zh--3cccb061bb5946868a822cf89e5e4946",
+ "title": "为工作、学习和爱好布置一个理想的角落",
+ "name": "702611_woga01a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-standardised-hero",
+   "title": "工作、学习和爱好布置图库",
+   "texts": [
+    "工作、学习和爱好布置图库"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Standardised Hero-工作、学习和爱好布置图库"
+   }
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--eeec101949e258468c4a2cfc35b8173c",
+    "/rooms/home-office/gallery/a-shared-teens-room-built-for-two-pubc769f488",
+    "page",
+    "青少年共享卧室设计创意",
+    "青少年共享卧室设计创意营造一个孩子们可以一起学习、成长和放松的空间——彼此陪伴，又互不打扰。",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fhome-office%2Fgallery%2Fa-shared-teens-room-built-for-two-pubc769f488&key=cn--zh--eeec101949e258468c4a2cfc35b8173c"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/content/u/20251021/7142D975-EBD4-4FBB-84785A8D7F33223F.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20250710/c2d670cbeec84a78a51f347f5e45058f.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content/u/20250409/199D57E4-52FC-4B93-A6DB1D3CD66FFB38.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content/u/20250106/02B5908D-365F-422B-8CEBFE1E81E23132.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content/u/20250116/38E070A5-EE38-49DD-A168C8498183E4FC.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/content/u/20251021/7142D975-EBD4-4FBB-84785A8D7F33223F.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20250710/c2d670cbeec84a78a51f347f5e45058f.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20250409/199D57E4-52FC-4B93-A6DB1D3CD66FFB38.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20250106/02B5908D-365F-422B-8CEBFE1E81E23132.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20250116/38E070A5-EE38-49DD-A168C8498183E4FC.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20240925/29CBF56F-27C0-4257-ADFC9E36EE09DD45.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-页面列表 Page List-"
+   }
+  }
+ ]
+}

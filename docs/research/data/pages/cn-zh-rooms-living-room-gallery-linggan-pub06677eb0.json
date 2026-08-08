@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/living-room/gallery/linggan-pub06677eb0",
+ "family": "rooms",
+ "id": "cn--zh--06677eb0cf8711e78e0a0bf79e0fa98f",
+ "title": "小空间，大舒适",
+ "name": "20182-cols04a_PF_CT_SEO_QA",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "小空间，大舒适",
+   "texts": [
+    "蓝色和白色小客厅中央摆放着传统的 FÄRLÖV 法乐福 白色双人沙发，敞开门的阳台。",
+    "小空间，大舒适",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/ef/0a/ef0a47a743600976711246dec93b25a5.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/ef/0a/ef0a47a743600976711246dec93b25a5.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s49192639",
+    "s29191706",
+    "s29192664",
+    "70158134",
+    "80363172"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

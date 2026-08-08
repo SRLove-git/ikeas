@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/outdoor/gallery/yangtai-pubd70f0371",
+ "family": "rooms",
+ "id": "cn--zh--d70f0371e63511e7a19a1b4caad12135",
+ "title": "把你的餐厅搬到户外",
+ "name": "20183-cood07a_PF_CT_SEO",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "把你的餐厅搬到户外",
+   "texts": [
+    "小阳台上摆放着矮桌、阳伞和 SOLLERÖN 索勒伦 棕色/米色现代户外双人沙发。",
+    "把你的餐厅搬到户外",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/58/d2/58d2b452c3eb99178550fb98b2899051.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/58/d2/58d2b452c3eb99178550fb98b2899051.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s39264943",
+    "s09267622",
+    "10312911",
+    "30296986",
+    "30298792"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

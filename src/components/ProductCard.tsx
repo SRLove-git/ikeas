@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { CatalogProduct } from "@/data/catalog";
 import { formatPrice } from "@/lib/catalog";
+import { SiteImage } from "@/components/SiteImage";
 
 interface ProductCardProps {
   product: CatalogProduct;
@@ -14,19 +15,11 @@ export function ProductCard({ product }: ProductCardProps) {
       href={`/cn/zh/p/${product.slug}`}
       className="group flex flex-col"
     >
-      <div className="relative aspect-square w-full overflow-hidden bg-ikea-gray-100">
-        {product.image ? (
-          // eslint-disable-next-line @next/next/no-img-element
-          <img
-            src={product.image}
-            alt={product.name}
-            loading="lazy"
-            className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
-          />
-        ) : (
-          <div className="flex h-full w-full items-center justify-center bg-ikea-gray-100" />
-        )}
-      </div>
+      <SiteImage
+        src={product.image}
+        alt={product.name}
+        className="aspect-square w-full transition-transform duration-300 group-hover:scale-105"
+      />
       <div className="flex flex-col pt-3">
         {product.labels.length > 0 ? (
           <div className="mb-1.5 flex flex-wrap gap-1">

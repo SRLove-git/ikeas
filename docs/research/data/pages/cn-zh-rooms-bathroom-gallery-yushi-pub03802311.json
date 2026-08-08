@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/bathroom/gallery/yushi-pub03802311",
+ "family": "rooms",
+ "id": "cn--zh--03802311cb9e11e78e0a0bf79e0fa98f",
+ "title": "一间井然有序的浴室。",
+ "name": "20174-coba04a_EZ_AD_SEO",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "一间井然有序的浴室。",
+   "texts": [
+    "灰白色调的浴室，带有白色的盥洗台和橱柜。",
+    "一间井然有序的浴室。",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/73/ad/73ad1b63192a9f03bcb4108e8f803631.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/73/ad/73ad1b63192a9f03bcb4108e8f803631.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s09187866",
+    "50262117",
+    "40250073",
+    "80344070",
+    "40265164"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

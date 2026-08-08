@@ -1,0 +1,603 @@
+{
+ "url": "/cn/zh/ikea-business",
+ "family": "ikea-business",
+ "id": "cn--zh--376f6bc15bc54ddba0ea1a8217bc6939",
+ "title": "宜家对公业务",
+ "name": "宜家对公业务 FY24",
+ "hero": "https://file.app.ikea.cn/cms/u/20230922/2c598d198cb341c0bc4f5074b37654e9.jpg",
+ "blocks": [
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "two-columns",
+    "column",
+    "<p style=\"line-height: 26px;\"><strong><span style=\"font-size: 24.0pt;\">宜家对公业务</span></strong><strong><br /></strong><strong><span style=\"font-size: 16.5pt;\">IKEA for Business</span></strong></p>",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Columns-"
+   }
+  },
+  {
+   "type": "anchor-navigation",
+   "title": null,
+   "texts": [
+    "IMAGE_TEXT",
+    "YES",
+    "业务介绍",
+    "IMAGE",
+    "0e359e35a36042a4b20e7b8329bcf3aa",
+    "3D云展间"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20260407/bd6830775f2649a89061c8febd3703ea.png?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260407/be38666ec8024d0696994114260af890.png?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260407/a3ec991a5317436cb6371d48377adae9.png?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260407/6c030b316df54d0597cadc969cd1bb34.png?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260407/eba19334222b425f95b0468fbebcd156.png?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260407/bd6830775f2649a89061c8febd3703ea.png?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260407/be38666ec8024d0696994114260af890.png?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260407/a3ec991a5317436cb6371d48377adae9.png?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260407/6c030b316df54d0597cadc969cd1bb34.png?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260407/eba19334222b425f95b0468fbebcd156.png?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260407/636228ef846e4ed68e707e1ef52f078a.png?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-页面导航-"
+   }
+  },
+  {
+   "type": "pub-inspiration-card",
+   "title": null,
+   "texts": [
+    "045e5a2a-9a8d-11ea-8543-6bbb72ceb2d5",
+    "/landing-page/cn--zh--db8b3381455d43a2997e7567aa3668d5?productIds=&topProductFullIds=&assemblyProductFullIds=&utm_source=&utm_medium=&utm_campaign=&utm_content=&utm_term=&web_new=",
+    "NO",
+    "ikea://cms/landing-page-popup?key=cn--zh--db8b3381455d43a2997e7567aa3668d5",
+    "{\"objectId_var\":\"cn--zh--db8b3381455d43a2997e7567aa3668d5\",\"objectType_var\":\"cms_h5_page\"}",
+    "IMAGE"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20260408/31938d44a96e45a7901ea2b4d18ba713.png?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260408/f03c230a9e4a4f89aa6051218748710e.png?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260408/aaa4be2f3dcb4896a3c2678894a0ef8f.png?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260608/f25644fbe76240e3b5d615c48cd56db1.png?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/landing-page/cn--zh--db8b3381455d43a2997e7567aa3668d5?productIds=&topProductFullIds=&assemblyProductFullIds=&utm_source=&utm_medium=&utm_campaign=&utm_content=&utm_term=&web_new=",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260408/31938d44a96e45a7901ea2b4d18ba713.png?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/landing-page/cn--zh--826b2633ecd24b81b26bc0f6c74a47cb?productIds=&topProductFullIds=&assemblyProductFullIds=&utm_source=&utm_medium=&utm_campaign=&utm_content=&utm_term=&web_new=",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260408/f03c230a9e4a4f89aa6051218748710e.png?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/landing-page/cn--zh--922524e85f3244acafa07630e5c1f185?productIds=&topProductFullIds=&assemblyProductFullIds=&utm_source=&utm_medium=&utm_campaign=&utm_content=&utm_term=&web_new=",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260408/aaa4be2f3dcb4896a3c2678894a0ef8f.png?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Inspiration Cards-"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "two-columns",
+    "column",
+    "<h1><span style=\"color: #000000;\">全新设计体验</span></h1>\n<p>超越实体展厅边界，深度诠释宜家在办公场景解决方案领域的专业优势与独特价值。扫码云逛展，为您的办公空间注入更多灵感与启发。</p>",
+    "pub-text",
+    "NO",
+    "pub-image"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20260407/0a10aa41d9c94e17b5225179442ff5ad.gif"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260407/0a10aa41d9c94e17b5225179442ff5ad.gif",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-分栏内容 Columns-"
+   }
+  },
+  {
+   "type": "pub-banner",
+   "title": null,
+   "texts": [
+    "image-text-landscape",
+    "IMAGE",
+    "wide",
+    "<p style=\"line-height: 26px;\">我们会根据你的业务需求提供相关知识、折扣和各种福利，助力你的业务发展。六大会员权益，从&ldquo;新&rdquo;出发，竭诚让您享更好的权益和更省心的服务！​</p>\n<ul>\n<li style=\"line-height: 26px;\">新会员礼：新人专享0元购指定商品​</li>\n<li style=\"line-height: 26px;\">满额返券：满额返现金券，最高得2500元。​</li>\n<li style=\"line-height: 26px;\">送货优惠：仅企业会员享有，多买多优惠​</li>\n</ul>",
+    "加入宜家企业会员",
+    "NO"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20260408/5f2eeb71fa484435a454d0a28b41af95.png?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260408/5f2eeb71fa484435a454d0a28b41af95.png?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/landing-page/5c84c33b5c95414bacf5f529c9d6a960?productIds=&topProductFullIds=&assemblyProductFullIds=&utm_source=&utm_medium=&utm_campaign=&utm_content=&utm_term=&web_new=",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-媒体色块组合 Banner-"
+   }
+  },
+  {
+   "type": "rich-text",
+   "title": null,
+   "texts": [
+    "<h2>商业空间家具和家居设计灵感</h2>\n<p>无论什么类型的空间，我们都可以效劳。</p>",
+    "#FFFFFF"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-富文本 Text-"
+   }
+  },
+  {
+   "type": "pub-visual-pill-slider",
+   "title": null,
+   "texts": [
+    "一只手正在调节GLYPEN 格吕彭 厨房水龙头的水流大小，水龙头采用不锈钢制成，旁边放着TÅRTSMET 托米特 洗盘刷",
+    "/ikea-business/office-furnishings/",
+    "NO",
+    "ikea://cms/page-compatible-web?key=cn--zh--69d6e580f13311ec9d6f4bd6f6930962&url=%2Fikea-business%2Foffice-furnishings%2F",
+    "{\"objectId_var\":\"/ikea-business/office-furnishings/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "IMAGE"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20250827/f1f7a0d4f3034be382a4ae14ec2f61e0.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20241115/93bcbe1b2a6a40eab6c24bd3c3e73d72.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20241115/226a4eacba9f4a59a7daa5014c561258.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20241115/364c0a31dd1f4d868dfbf3b393d8f008.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20241115/66b3502475934d3ca997263cf7d8f684.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/ikea-business/office-furnishings/",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20250827/f1f7a0d4f3034be382a4ae14ec2f61e0.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/ikea-business/hospitality-furnishings/yi-jia-dui-gong-ye-wu-min-su-jiu-dian-pub88e3927e",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20241115/93bcbe1b2a6a40eab6c24bd3c3e73d72.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/ikea-business/restaurant-cafe-furnishings/can-yin-ji-gou-pub45ff42de",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20241115/226a4eacba9f4a59a7daa5014c561258.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Visual Pill Slider-"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "用有序桌面唤回灵感",
+   "texts": [
+    "/cat/10573",
+    "NO",
+    "ikea://content/plp?catalogId=10573",
+    "{\"objectId_var\":\"10573\",\"objectType_var\":\"plp\"}",
+    "把桌上的零散物件分别安放，减少干扰与分心的情况，在有条理的环境里，思路也自然变得清晰。",
+    "用有序桌面唤回灵感"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/content/u/20251021/297A4CB8-EAA7-4153-B1AA947B7221FFF1.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content/u/20251021/28D6F071-7427-4EA9-9C0A08BFF762A801.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content/u/20251218/D0451E15-FB63-4345-A4EC6798CAD6AC70.jpg?x-oss-process=style/medium",
+    "https://static.web.ikea.cn/content/u/20221223/567e236843c446ce9388ebfcf7d7deb6.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content/u/20251021/85A83858-D651-4887-BD0DD1C422DD11EA.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/cat/10573",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20251021/297A4CB8-EAA7-4153-B1AA947B7221FFF1.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20251021/28D6F071-7427-4EA9-9C0A08BFF762A801.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20251218/D0451E15-FB63-4345-A4EC6798CAD6AC70.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://static.web.ikea.cn/content/u/20221223/567e236843c446ce9388ebfcf7d7deb6.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20251021/85A83858-D651-4887-BD0DD1C422DD11EA.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-栅格合集 Curated Gallery-用有序桌面唤回灵感"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "/cat/10573",
+    "NO",
+    "ikea://content/plp?catalogId=10573",
+    "{\"objectId_var\":\"10573\",\"objectType_var\":\"plp\"}",
+    "MANUAL_INPUT",
+    "80347177"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/10573",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Product Shelf-办公桌"
+   }
+  },
+  {
+   "type": "pub-visual-pill-slider",
+   "title": null,
+   "texts": [
+    "一只手正在调节GLYPEN 格吕彭 厨房水龙头的水流大小，水龙头采用不锈钢制成，旁边放着TÅRTSMET 托米特 洗盘刷",
+    "/cat/20652",
+    "NO",
+    "ikea://content/plp?catalogId=20652",
+    "{\"objectId_var\":\"20652\",\"objectType_var\":\"plp\"}",
+    "IMAGE"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20251205/3c4c215ef113476c89964eba84300239.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20251205/9ec8ec5000be42fb90acd5647873acdb.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20251205/065f25ab73e94972a4c956cbc63fd058.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20251205/a76507a5cf0a4aae8efd7194b73d7c12.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/cat/20652",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20251205/3c4c215ef113476c89964eba84300239.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/cat/20649",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20251205/9ec8ec5000be42fb90acd5647873acdb.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/cat/10385",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20251205/065f25ab73e94972a4c956cbc63fd058.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-带按钮图片列表 Visual Pill Slider-"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "为您推荐符合各种业务需求的百搭产品",
+   "texts": [
+    "/cat/10573",
+    "NO",
+    "ikea://content/plp?catalogId=10573",
+    "{\"objectId_var\":\"10573\",\"objectType_var\":\"plp\"}",
+    "为您推荐符合各种业务需求的百搭产品",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/10573",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Product Shelf-办公桌"
+   }
+  },
+  {
+   "type": "pub-banner",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "image-text-landscape",
+    "<p>真实还原每张图纸，所见即所得。无论你是店铺开业，公司翻新，学校教育机构等等，宜家都可以帮您一站式解决设计采购等要求。</p>",
+    "真实案例参考",
+    "/ikea-business/ben-di-shi-ji-an-li-pubab418f94",
+    "NO"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20250827/7fed886e73b141a5bfb30487f535cadd.jpg",
+    "https://file.app.ikea.cn/cms/u/20250827/7fed886e73b141a5bfb30487f535cadd.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20250827/7fed886e73b141a5bfb30487f535cadd.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20250827/7fed886e73b141a5bfb30487f535cadd.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/ikea-business/ben-di-shi-ji-an-li-pubab418f94",
+     "text": ""
+    },
+    {
+     "href": "/ikea-business/ben-di-shi-ji-an-li-pubab418f94",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Banner-"
+   }
+  },
+  {
+   "type": "pub-inspiration-card",
+   "title": null,
+   "texts": [
+    "045e5a2a-9a8d-11ea-8543-6bbb72ceb2d5",
+    "/h5page/?url=https%3A%2F%2Fwww.ikea.cn%2Faddon-app%2Fspace%2Fplatform%2Flatest%2Fcn%2Fzh%2F%23%2Froom%2Fworkspace",
+    "NO",
+    "ikea://default-module/H5?url=https%3A%2F%2Fwww.ikea.cn%2Faddon-app%2Fspace%2Fplatform%2Flatest%2Fcn%2Fzh%2F%23%2Froom%2Fworkspace",
+    "{\"objectId_var\":\"https://www.ikea.cn/addon-app/space/platform/latest/cn/zh/#/room/workspace\",\"objectType_var\":\"default-module/H5\"}",
+    "IMAGE"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20251205/3c775d0744414761a45a2645e89c182c.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20251205/fa236bc8d4484cc2bd9cbbaea26877f9.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20251205/2c7ec00e7f24439fb4fed3bcb5344606.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/h5page/?url=https%3A%2F%2Fwww.ikea.cn%2Faddon-app%2Fspace%2Fplatform%2Flatest%2Fcn%2Fzh%2F%23%2Froom%2Fworkspace",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20251205/3c775d0744414761a45a2645e89c182c.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/h5page/?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fdesign-leads%2Fib.html%3Fchannel%3DIRW%2BM2%26cl_sr%3DIB_IRW%2BM2",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20251205/fa236bc8d4484cc2bd9cbbaea26877f9.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/landing-page/5c84c33b5c95414bacf5f529c9d6a960",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20251205/2c7ec00e7f24439fb4fed3bcb5344606.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-富媒体卡片列表 Inspiration Cards-"
+   }
+  },
+  {
+   "type": "pub-visual-pill-slider",
+   "title": null,
+   "texts": [
+    "一只手正在调节GLYPEN 格吕彭 厨房水龙头的水流大小，水龙头采用不锈钢制成，旁边放着TÅRTSMET 托米特 洗盘刷",
+    "NO",
+    "IMAGE",
+    "hosted",
+    "background",
+    "black"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20260408/2c4ed762eb924aa7be85ba414d4c4ff0.png?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260408/f83667fc3ca843df949346abd9ba0bc0.png?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260408/425c9c282c1a4222a5a902a6971be964.png?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260408/7f691a1554dd45b3b74ba6a740a8d946.png?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260408/66038d4c2751498a9009e3fa6a3a3773.png?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260408/2c4ed762eb924aa7be85ba414d4c4ff0.png?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260408/f83667fc3ca843df949346abd9ba0bc0.png?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260408/425c9c282c1a4222a5a902a6971be964.png?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260408/7f691a1554dd45b3b74ba6a740a8d946.png?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260408/66038d4c2751498a9009e3fa6a3a3773.png?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260408/1fc416a7e4c54919b666da8a7ed0ebac.png?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-带按钮图片列表 Visual Pill Slider-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>联系我们</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-banner",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "wide",
+    "image-text-landscape",
+    "<p style=\"line-height: 36px;\"><span style=\"color: #000000;\"><strong>&nbsp;联系 <a style=\"color: #000000;\" href=\"https://www.ikea.cn/cn/zh/customer-service/contact-us/yewubu-pub27a85880\">&nbsp; &lt; 本地商场的对公业务部 &gt;&nbsp;&nbsp;</a></strong></span></p>\n<p style=\"line-height: 36px;\"><strong>企业采购热线：400 800 2345</strong></p>",
+    "联系宜家对公业务部",
+    "NO"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20241205/e9d254e837644a00ab061244f2d8b3d1.jpg",
+    "https://file.app.ikea.cn/cms/u/20241205/e9d254e837644a00ab061244f2d8b3d1.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20241205/e9d254e837644a00ab061244f2d8b3d1.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20241205/e9d254e837644a00ab061244f2d8b3d1.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/h5page/?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fib%3Fchannel%3DIRW%20M2%26cl_sr%3DIB_IRW%20M2",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Banner-联系CN"
+   }
+  },
+  {
+   "type": "rich-text",
+   "title": null,
+   "texts": [
+    "<h1 style=\"line-height: 16px;\"><span data-teams=\"true\">宜家对公业务手册</span></h1>\n<p><span data-teams=\"true\">想分享给身边的同事吗？请在此下载手册，了解宜家对公业务合作场景、商业灵感和案例、产品推荐以及合作流程等更多内容。</span></p>",
+    "#FFFFFF"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-富文本 Text-"
+   }
+  },
+  {
+   "type": "pub-pdf-list",
+   "title": null,
+   "texts": [
+    "https://file.app.ikea.cn/cms/u/20260717/8351eb96a5054790980320f3b2f24aa2.pdf",
+    "宜家对公业务手册 2026.pdf",
+    "点击下载 宜家对公业务手册",
+    "#ffffff"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260717/8351eb96a5054790980320f3b2f24aa2.pdf",
+     "text": "宜家对公业务手册 2026.pdf"
+    }
+   ],
+   "settings": {
+    "traceId": "cms-PDF文件列表 PDF List-"
+   }
+  },
+  {
+   "type": "bottom-navigation",
+   "title": null,
+   "texts": [
+    "single-button",
+    "YES",
+    "/h5page/?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fdesign-leads%2Fib.html%3Fchannel%3DIRW%2BM2%26cl_sr%3DIB_IRW%2BM2",
+    "NO",
+    "ikea://default-module/H5?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fdesign-leads%2Fib.html%3Fchannel%3DIRW%2BM2%26cl_sr%3DIB_IRW%2BM2",
+    "{\"objectId_var\":\"https://store-companion.ikea.cn/design-leads/ib.html?channel=IRW+M2&cl_sr=IB_IRW+M2\",\"objectType_var\":\"default-module/H5\"}"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/h5page/?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fdesign-leads%2Fib.html%3Fchannel%3DIRW%2BM2%26cl_sr%3DIB_IRW%2BM2",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-底部导航-"
+   }
+  }
+ ]
+}

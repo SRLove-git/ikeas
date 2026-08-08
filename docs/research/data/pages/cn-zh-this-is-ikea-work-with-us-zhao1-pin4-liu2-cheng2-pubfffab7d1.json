@@ -1,0 +1,230 @@
+{
+ "url": "/cn/zh/this-is-ikea/work-with-us/zhao1-pin4-liu2-cheng2-pubfffab7d1",
+ "family": "this-is-ikea",
+ "id": "cn--zh--fffab7d1957a11e8a3645f5b86ee3939",
+ "title": "招聘流程",
+ "name": "M20192_Recruitment_process_CT",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "招聘流程",
+   "texts": [
+    "宜家有多个不同的职能部门，因此我们有一套特殊的招聘流程，帮助我们找到合适的员工，也帮你找到合适的工作。",
+    "<p>宜家有一套特殊的招聘流程，帮助我们找到合适的员工，也帮你找到合适的工作。如果发现有你感兴趣的职位，请提交申请，你将会在30天内收到回复。如果双方都有意向，接下来会安排面试。对于一些职位，我们会邀请你参与行为、认知能力或专业技能测试。接下来便是进行另外几项面试，其中包括与你未来的经理面对面交流。如果双方一致同意你是这一职位的合适人选，你将收到我们的录用通知，其中包含各项条款和细则。</p>",
+    "招聘流程",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/8b/43/8b431642628accf554e24d214cd3b755.png"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/8b/43/8b431642628accf554e24d214cd3b755.png",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Hero-招聘流程"
+   }
+  },
+  {
+   "type": "pub-quote",
+   "title": null,
+   "texts": [
+    "整个招聘流程中，我们会将结果与反馈及时通知候选人。"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Quote-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>我们相信每个人都有自身独一无二的价值。了解在宜家工作是怎样的体验，查看我们的招聘岗位。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/h5page/?url=https%3A%2F%2Fjobs.ikeachina.cn%2F",
+    "NO",
+    "ikea://default-module/H5?url=https%3A%2F%2Fjobs.ikeachina.cn%2F",
+    "{\"objectId_var\":\"https://jobs.ikeachina.cn/\",\"objectType_var\":\"default-module/H5\"}",
+    "button",
+    "搜索招聘岗位"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/h5page/?url=https%3A%2F%2Fjobs.ikeachina.cn%2F",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Link - button or text-"
+   }
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Horizontal Line-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>工作领域</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-expandable-area",
+   "title": null,
+   "texts": [
+    "行政管理与支持服务",
+    "column",
+    "<h3>行政管理与支持服务</h3>\n<p>你要准备好迎接一切挑战。你要负责做好跟踪记录。你要乐于帮助每个人，辅助他们把工作做得更好，更快。并尽量保持一切井然有序，避免出现问题和麻烦。你要负责制定活动计划，管理客人名单。你应擅长行政管理，确保办公室、流程和组织能有序运营。谢谢！</p>",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Expandable Area-"
+   }
+  },
+  {
+   "type": "pub-expandable-area",
+   "title": null,
+   "texts": [
+    "业务及消费者观察和分析",
+    "column",
+    "<h3>业务及消费者观察和分析</h3>\n<p>需要帮助宜家员工更好地做出决策。从大数据中获得深刻见解。分析业务及消费者，让宜家员工依据事实做出决策。提前洞察未来趋势。深入理解消费者行为和家居生活。然后将所有理论付诸实践，为宜家消费者创造更加美好的日常生活。</p>",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Expandable Area-"
+   }
+  },
+  {
+   "type": "pub-expandable-area",
+   "title": null,
+   "texts": [
+    "业务开发",
+    "column",
+    "<h3>业务开发</h3>\n<p>你应乐于寻求创新方法来改进宜家价值链的各个环节。让宜家走进更多人的生活。你应乐于参与各类项目、计划、接触点和流程，以创造长期价值。帮助宜家成长。带领宜家业务取得更好的发展。</p>",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Expandable Area-"
+   }
+  },
+  {
+   "type": "pub-expandable-area",
+   "title": null,
+   "texts": [
+    "顾客关系",
+    "column",
+    "<h3>顾客关系</h3>\n<p>你要擅长与人打交道。在顾客与宜家接触的每个节点上，包括商场、电话、网络和家，你都要能预测顾客的需求和想法。你负责提供服务，收集反馈，纠正错误。你要与顾客建立密切的关系，让他们知道，自己在宜家有一位好朋友。想要结交一些朋友吗？</p>",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Expandable Area-"
+   }
+  },
+  {
+   "type": "pub-expandable-area",
+   "title": null,
+   "texts": [
+    "设计与产品开发",
+    "column",
+    "<h3>设计与产品开发</h3>\n<p>你负责开发能够让人们的生活变得更美好的产品和解决方案。你要带领员工、团结员工，将虚拟的设计变成实实在在的产品，让产品从车间送到顾客手上，满足他们的切实需求。你要以民主设计为指导，并从中寻找灵感。宜家的民主设计理念旨在设计出外形美观、功能实用、质量上乘、价格实惠的可持续产品。</p>",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Expandable Area-"
+   }
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Horizontal Line-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h3>你还可能喜欢</h3>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--b2c269a1958311e8a3645f5b86ee3939",
+    "/this-is-ikea/work-with-us/zhe-jiu-shi-yi-jia-yu-wo-men-he-zuo-duo-zhong-cheng-chang-tu-jing--pubb2c269a1",
+    "page",
+    "多种成长途径",
+    "在宜家，我们提供非凡的工作和学习机会。在此了解更多信息！",
+    "ikea://cms/page-compatible-web?url=%2Fthis-is-ikea%2Fwork-with-us%2Fzhe-jiu-shi-yi-jia-yu-wo-men-he-zuo-duo-zhong-cheng-chang-tu-jing--pubb2c269a1&key=cn--zh--b2c269a1958311e8a3645f5b86ee3939"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/67/88/6788a68e5475fe33c49a53f5f963afd3.jpg",
+    "https://file.app.ikea.cn/images/8f/8b/8f8b8141adda8f27b42a2c636bf89a58.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/67/88/6788a68e5475fe33c49a53f5f963afd3.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/8f/8b/8f8b8141adda8f27b42a2c636bf89a58.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Page List-"
+   }
+  }
+ ]
+}

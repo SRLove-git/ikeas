@@ -1,0 +1,251 @@
+{
+ "url": "/cn/zh/rooms/dining/gallery/ru2-he2-da3-zao4-bei3-ou1-chuan2-tong3-feng1-ge2-can1-ting1-pub865ac761",
+ "family": "rooms",
+ "id": "cn--zh--865ac76108e511e9a342e77718ae4be2",
+ "title": "如何打造北欧传统风格餐厅",
+ "name": "如何打造北欧传统风格餐厅_PC",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "如何打造北欧传统风格餐厅",
+   "texts": [
+    "如何打造北欧传统风格餐厅",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/a0/d7/a0d73fece2a1e74e202e8b41f0703c6a.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/a0/d7/a0d73fece2a1e74e202e8b41f0703c6a.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/d8/26/d826153ba6551fe3f02b35f10a7fbc1a.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/d8/26/d826153ba6551fe3f02b35f10a7fbc1a.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-video-link",
+   "title": null,
+   "texts": [
+    "https://v.youku.com/v_show/id_XMzgwMDAwMzI5Ng==.html?spm=a1z3jc.11711052.0.0&isextonly=1",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "https://v.youku.com/v_show/id_XMzgwMDAwMzI5Ng==.html?spm=a1z3jc.11711052.0.0&isextonly=1",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "/p/70164559?artType=ART",
+    "NO",
+    "ikea://content/pip?id=70164559&type=ART",
+    "{\"objectId_var\":\"70164559\",\"objectType_var\":\"product\"}",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/c1/f6/c1f6e824be767018816a589df5e801c4.jpg"
+   ],
+   "links": [
+    {
+     "href": "/p/70164559?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/c1/f6/c1f6e824be767018816a589df5e801c4.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "/p/70297446?artType=ART",
+    "NO",
+    "ikea://content/pip?id=70297446&type=ART",
+    "{\"objectId_var\":\"70297446\",\"objectType_var\":\"product\"}",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/f5/d6/f5d65b6f69bbda97ad0309bc21d9b478.jpg"
+   ],
+   "links": [
+    {
+     "href": "/p/70297446?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/f5/d6/f5d65b6f69bbda97ad0309bc21d9b478.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "/p/00339732?artType=ART",
+    "NO",
+    "ikea://content/pip?id=00339732&type=ART",
+    "{\"objectId_var\":\"00339732\",\"objectType_var\":\"product\"}",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/32/6c/326c1169d2229d4932112c5a83f186f0.jpg"
+   ],
+   "links": [
+    {
+     "href": "/p/00339732?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/32/6c/326c1169d2229d4932112c5a83f186f0.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "/p/80396361?artType=ART",
+    "NO",
+    "ikea://content/pip?id=80396361&type=ART",
+    "{\"objectId_var\":\"80396361\",\"objectType_var\":\"product\"}",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/40/1b/401bafe6a0dae78d86b4ad8dedd548b4.jpg"
+   ],
+   "links": [
+    {
+     "href": "/p/80396361?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/40/1b/401bafe6a0dae78d86b4ad8dedd548b4.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h4><strong>推荐产品</strong></h4>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "70164559",
+    "10413496",
+    "00339732",
+    "70395772",
+    "80396361"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h4><strong>更多宜家说设计</strong></h4>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--7a89d4a108ca11e9a342e77718ae4be2",
+    "/rooms/living-room/gallery/ke4-ting1-chu3-wu4-xiao3-miao4-zhao1-pub7a89d4a1",
+    "page",
+    "客厅储物小妙招",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fliving-room%2Fgallery%2Fke4-ting1-chu3-wu4-xiao3-miao4-zhao1-pub7a89d4a1&key=cn--zh--7a89d4a108ca11e9a342e77718ae4be2",
+    "{\"objectId_var\":\"/rooms/living-room/gallery/ke4-ting1-chu3-wu4-xiao3-miao4-zhao1-pub7a89d4a1\",\"objectType_var\":\"cms/page-compatible-web\"}"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/9f/b5/9fb5276acaaff2cb1138f98873df42b8.jpg",
+    "https://file.app.ikea.cn/images/18/47/1847ea15bd348b242e5b0c7092768cd7.jpg",
+    "https://file.app.ikea.cn/images/42/6d/426da0efd1ffbd04224f08e9b6b695cd.jpg",
+    "https://file.app.ikea.cn/images/26/18/2618fc871ba6d26018d111237973e98b.jpg",
+    "https://file.app.ikea.cn/images/a2/72/a272fbd6aa32044a34ec3de636406b2f.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/9f/b5/9fb5276acaaff2cb1138f98873df42b8.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/18/47/1847ea15bd348b242e5b0c7092768cd7.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/42/6d/426da0efd1ffbd04224f08e9b6b695cd.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/26/18/2618fc871ba6d26018d111237973e98b.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/a2/72/a272fbd6aa32044a34ec3de636406b2f.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-visual-navigation",
+   "title": null,
+   "texts": [],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

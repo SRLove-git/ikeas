@@ -1,0 +1,149 @@
+{
+ "url": "/cn/zh/this-is-ikea/community-engagement/sustainable-pubed851851",
+ "family": "this-is-ikea",
+ "id": "cn--zh--ed851851ae3211e7bee763967dcf9290",
+ "title": "可持续的家居生活 ",
+ "name": "可持续的家居生活 - 首页",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "可持续的家居生活 ",
+   "texts": [
+    "可持续的家居生活  - LED照明设备 节能家电 隐藏式垃圾分类解决方案 节水龙头",
+    "可持续的家居生活",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/cd/99/cd99969184a463c6ce2cd8514e38e766.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/cd/99/cd99969184a463c6ce2cd8514e38e766.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Hero-可持续的家居生活 "
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h3><strong>足不出户，就能带来改变</strong></h3>\n<p>宜家提供众多产品和解决方案，以帮助顾客节水省电，减少浪费，节省费用，过上更加健康的生活。它们看似微不足道，但却有着不可忽视的妙处&mdash;&mdash;它们都为整体增色。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--58a397d1afe411e7b23503ef832e0d7f",
+    "/this-is-ikea/community-engagement/save-pub58a397d1",
+    "page",
+    "节能",
+    "全新LED照明设备有助于节约能源，它们采用令人激动的新颖设计，具有更好的照明效果，对环境的影响也较小，使用寿命长达20年，远胜于老式白炽灯。",
+    "ikea://cms/page-compatible-web?url=%2Fthis-is-ikea%2Fcommunity-engagement%2Fsave-pub58a397d1&key=cn--zh--58a397d1afe411e7b23503ef832e0d7f"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/3f/ea/3feafaf03879d6cdafa4f27a9881ef74.jpg",
+    "https://file.app.ikea.cn/images/dd/f2/ddf2444f6e84f6f0a14517759b3a27af.jpg",
+    "https://file.app.ikea.cn/images/b8/8c/b88c904ad2ddc9297a46023dd3e533a3.jpg",
+    "https://file.app.ikea.cn/images/87/25/87253eb0bc0dc1771004de32d6d94b29.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/3f/ea/3feafaf03879d6cdafa4f27a9881ef74.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/dd/f2/ddf2444f6e84f6f0a14517759b3a27af.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/b8/8c/b88c904ad2ddc9297a46023dd3e533a3.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/87/25/87253eb0bc0dc1771004de32d6d94b29.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Page List-"
+   }
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Horizontal Line-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h4><strong>你可能也想看</strong></h4>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--021d01b1ae3311e7bee763967dcf9290",
+    "/this-is-ikea/community-engagement/jieneng-pub021d01b1",
+    "page",
+    "能源与资源",
+    "宜家长期以来一直坚持用更少的资源制造更多产品。这是宜家传统的一部分。我们正在利用这种思维方式带来积极变化：我们变废为宝，以负责任的方式采购原材料，逐渐转向使用可再生能源。",
+    "ikea://cms/page-compatible-web?url=%2Fthis-is-ikea%2Fcommunity-engagement%2Fjieneng-pub021d01b1&key=cn--zh--021d01b1ae3311e7bee763967dcf9290"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/ae/3c/ae3cf7eb9ca138f9156a15c08a327460.jpg",
+    "https://file.app.ikea.cn/images/ee/b8/eeb81aa208d3cca87dc6782aeed7ccc0.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/ae/3c/ae3cf7eb9ca138f9156a15c08a327460.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/ee/b8/eeb81aa208d3cca87dc6782aeed7ccc0.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Page List-"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "button",
+    "返回宜于人类 宜于地球",
+    "secondary"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Link - button or text-"
+   }
+  }
+ ]
+}

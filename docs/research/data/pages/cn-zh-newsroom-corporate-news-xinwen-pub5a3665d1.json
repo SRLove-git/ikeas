@@ -1,0 +1,158 @@
+{
+ "url": "/cn/zh/newsroom/corporate-news/xinwen-pub5a3665d1",
+ "family": "newsroom",
+ "id": "cn--zh--5a3665d1bed711e79dfda9ee7bcb674b",
+ "title": "综合新闻",
+ "name": "新闻室 - 综合新闻_SEO",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "综合新闻",
+   "texts": [
+    "综合新闻",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/34/18/34182fc4ce17828b4c54319e3fc7a85d.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/34/18/34182fc4ce17828b4c54319e3fc7a85d.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "d5bd2880c38741ac96bcd5a5fe542c36"
+   }
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--b6b7fe006ffa11ea970327e5a8d4f02c",
+    "/customer-service/product-support/recalls/gang-hua-bo-li-bei-shuo-ming-pubb6b7fe00",
+    "page",
+    "钢化玻璃杯说明",
+    "ikea://cms/page-compatible-web?url=%2Fcustomer-service%2Fproduct-support%2Frecalls%2Fgang-hua-bo-li-bei-shuo-ming-pubb6b7fe00&key=cn--zh--b6b7fe006ffa11ea970327e5a8d4f02c",
+    "{\"objectId_var\":\"/customer-service/product-support/recalls/gang-hua-bo-li-bei-shuo-ming-pubb6b7fe00\",\"objectType_var\":\"cms/page-compatible-web\"}"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20220509/2040564f81ac441b839382dbe5f360a9.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/images/84/d5/84d5850b58ffe38546378d48c573b78b.jpg",
+    "https://file.app.ikea.cn/images/2e/d4/2ed486c7370fc87fe221142e1e890de3.jpg",
+    "https://file.app.ikea.cn/images/f9/22/f922b63b1325e3ad30dce4da80178510.jpg",
+    "https://file.app.ikea.cn/images/72/dd/72ddf50ac95a48a3ff0cadb484b11e0f.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220509/2040564f81ac441b839382dbe5f360a9.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/84/d5/84d5850b58ffe38546378d48c573b78b.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/2e/d4/2ed486c7370fc87fe221142e1e890de3.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/f9/22/f922b63b1325e3ad30dce4da80178510.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/72/dd/72ddf50ac95a48a3ff0cadb484b11e0f.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/59/ea/59ea1a866ec29c234269848f941bf38b.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "129f5c085f764da99a2a816fdc805ff9"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/this-is-ikea/newsroom/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fthis-is-ikea%2Fnewsroom%2F&key=cn--zh--65094071b3e411e79a5eff486d94c77f",
+    "{\"objectId_var\":\"/this-is-ikea/newsroom/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "返回宜家新闻室"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/this-is-ikea/newsroom/",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "0cb2889c70f94cf8856eb31f96388747"
+   }
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "0f932dbbc5ed4499badaee8037ccf20d"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h4><strong>你可能会想看</strong></h4>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "4437e5b4d5034d71a8443b440f163975"
+   }
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--6c47b97cbed911e79dfda9ee7bcb674b",
+    "/newsroom/range-news/ikeanews-pub6c47b97c",
+    "page",
+    "产品资讯新闻",
+    "一个买了很多宜家产品的女人",
+    "ikea://cms/page-compatible-web?url=%2Fnewsroom%2Frange-news%2Fikeanews-pub6c47b97c&key=cn--zh--6c47b97cbed911e79dfda9ee7bcb674b"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/72/31/723130e01c79442f6771cfe57062c1da.jpg",
+    "https://file.app.ikea.cn/images/aa/61/aa6120dcedca27cc037861a2ec8b2252.jpg",
+    "https://file.app.ikea.cn/images/a4/63/a46327c1dda3b7b5247dc369f6999ecf.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/72/31/723130e01c79442f6771cfe57062c1da.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/aa/61/aa6120dcedca27cc037861a2ec8b2252.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/a4/63/a46327c1dda3b7b5247dc369f6999ecf.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "2bdebe2bb6b24e59851b0d596d70d706"
+   }
+  }
+ ]
+}

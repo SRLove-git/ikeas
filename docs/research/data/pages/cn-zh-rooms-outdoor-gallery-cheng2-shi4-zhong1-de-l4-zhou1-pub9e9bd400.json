@@ -1,0 +1,151 @@
+{
+ "url": "/cn/zh/rooms/outdoor/gallery/cheng2-shi4-zhong1-de-l4-zhou1-pub9e9bd400",
+ "family": "rooms",
+ "id": "cn--zh--9e9bd4009f1a11eabac1c3b4429adc99",
+ "title": "城市中的绿洲",
+ "name": "20211_rmod01a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "城市中的绿洲"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "一个铺了地板饰面的露台，摆满绿色植物，悬挂着LED灯串，还有一张户外桌子和两张椅子。",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "90095428"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/e9/3d/e93d2ecfe1784f72410499da0748c3a9.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/e9/3d/e93d2ecfe1784f72410499da0748c3a9.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>在郁郁葱葱的绿植和自家种植的蔬菜中，享受难得的休闲时光。使用可折叠的户外家具，如T&Auml;RN&Ouml; 塔尔诺 椅子，腾出更多户外空间，用来摆放你喜欢的其他物品。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "摆满绿植的露台，洋槐木/黑色的户外桌椅，黄色的休闲毯和一个竹制的盘子。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "70095429"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/0d/e4/0de4d6010986be29e8cbfe161d57ea31.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/0d/e4/0de4d6010986be29e8cbfe161d57ea31.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "两个带塑料框架罩的搁架单元，其中一个已打开，搁架上摆放着小巧的植物盆栽。最上面的搁架摆放着植物。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "s99291745"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/7e/14/7e14153cdd04191c5fe64df2db50f121.jpg",
+    "https://file.app.ikea.cn/images/e2/e6/e2e64ffee6c31714f900a32566428838.jpg",
+    "https://file.app.ikea.cn/images/d6/e4/d6e42b80149c28a886ab09d65eb8ffa7.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/7e/14/7e14153cdd04191c5fe64df2db50f121.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/e2/e6/e2e64ffee6c31714f900a32566428838.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/d6/e4/d6e42b80149c28a886ab09d65eb8ffa7.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "灯笼形状的黑色LED灯悬挂在墙壁的挂钩上，发出温暖、柔和的光线。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "40394439"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/c6/1a/c61afed9da42586ba53deaecebd30595.jpg",
+    "https://file.app.ikea.cn/images/47/45/4745a865e26fc9f7fce79619e587edfb.jpg",
+    "https://file.app.ikea.cn/images/5d/d8/5dd818eb8f48b6c7c47efcb9b4d78334.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/c6/1a/c61afed9da42586ba53deaecebd30595.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/47/45/4745a865e26fc9f7fce79619e587edfb.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/5d/d8/5dd818eb8f48b6c7c47efcb9b4d78334.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "70095429",
+    "90095428",
+    "90234226",
+    "00278578",
+    "80430204"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "url": "/cn/zh/rooms/bathroom/gallery/yushi-pub74626d71",
+ "family": "rooms",
+ "id": "cn--zh--74626d71210911e8a87b9f51602dde40",
+ "title": "浴室",
+ "name": "浴室灵感_SEO",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "浴室"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Page Title-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h3><strong>找到一间浴室，让你的晨间时光清新愉悦</strong></h3>\n<p>欢迎来到浴室展示区，在这里你能看到各种浴室设计，风格与尺寸各异，价格也很实惠。我们已经为你搭配好产品，所以你在家也可轻松打造相同风格。寻找你喜爱的浴室，不论是匆忙时刻还是彻底放松，都将无比合适。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--25fe8901a9f511e8a3645f5b86ee3939",
+    "/rooms/bathroom/gallery/zheng3-jie2-you3-xu4-de-feng1-bi4-shi4-chu3-wu4-yu4-shi4-pub25fe8901",
+    "page",
+    "整洁有序的封闭式储物浴室",
+    "走进这间小型浴室，不禁感叹宜家 HEMNES 汉尼斯 开放式储物系列的功能十分强大。探索玻璃储物柜、洗脸池柜、储物式长凳及其他更多产品。",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fbathroom%2Fgallery%2Fzheng3-jie2-you3-xu4-de-feng1-bi4-shi4-chu3-wu4-yu4-shi4-pub25fe8901&key=cn--zh--25fe8901a9f511e8a3645f5b86ee3939"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/55/2b/552b2411b55309c957a66a38fcebf231.jpg",
+    "https://file.app.ikea.cn/images/76/a8/76a8c195393ceaf3e03fe30cf52cdb82.jpg",
+    "https://file.app.ikea.cn/images/0e/eb/0eeb2d275c4fbc66a2e1af5a37c0aa2d.jpg",
+    "https://file.app.ikea.cn/images/89/5f/895f7768de8ee7007e3ef37e01beae61.jpg",
+    "https://file.app.ikea.cn/images/e6/63/e66320388ea2750d8352fdb9a968e5d5.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/55/2b/552b2411b55309c957a66a38fcebf231.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/76/a8/76a8c195393ceaf3e03fe30cf52cdb82.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/0e/eb/0eeb2d275c4fbc66a2e1af5a37c0aa2d.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/89/5f/895f7768de8ee7007e3ef37e01beae61.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/e6/63/e66320388ea2750d8352fdb9a968e5d5.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/17/16/17169e8778bdb447e936ca300daaad90.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Page List-"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "button",
+    "返回所有房间灵感",
+    "secondary"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Link - button or text-"
+   }
+  }
+ ]
+}

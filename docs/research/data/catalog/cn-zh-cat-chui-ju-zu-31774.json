@@ -1,0 +1,92 @@
+{
+ "url": "/cn/zh/cat/chui-ju-zu-31774",
+ "id": "chui-ju-zu-31774",
+ "name": "炊具组",
+ "description": "选购宜家深锅和平底锅套件。我们的厨具套件中包含玻璃盖子、易抓握手柄和有助你测量锅内液体的带刻度内配件。宜家所有厨具均由不锈钢和铝等高品质耐用材质制成。",
+ "total": 5,
+ "products": [
+  {
+   "id": "30207400",
+   "name": "ANNONS 阿纳斯",
+   "price": 79.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/annons-a-na-si-chui-ju-5-jian-tao-bo-li-bu-xiu-gang__43510_pe139263_s4.jpg",
+   "productType": "炊具5件套",
+   "designText": "玻璃/不锈钢",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "annons-a-na-si-chui-ju-5-jian-tao-bo-li-bu-xiu-gang"
+  },
+  {
+   "id": "60484330",
+   "name": "IKEA 365+",
+   "price": 249,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/ikea-365-chui-ju-6-jian-tao-bu-xiu-gang__1006151_pe825738_s4.jpg",
+   "productType": "炊具，6件套",
+   "designText": "不锈钢",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "ikea-365-chui-ju-6-jian-tao-bu-xiu-gang"
+  },
+  {
+   "id": "00560591",
+   "name": "SLÄTROCKA 斯莱洛卡",
+   "price": 299,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/slaetrocka-si-lai-luo-qia-ke-chai-xie-shou-bing-chui-ju-tao-jian-bu-xiu-gang__1196055_pe902718_s4.jpg",
+   "productType": "可拆卸手柄炊具套件",
+   "designText": "不锈钢",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "slaetrocka-si-lai-luo-qia-ke-chai-xie-shou-bing-chui-ju-tao-jian-bu-xiu-gang"
+  },
+  {
+   "id": "50580105",
+   "name": "HEMKOMST 海考特",
+   "price": 599,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/hemkomst-hai-kao-te-chui-ju-7-jian-tao-bu-xiu-gang__1257047_pe925726_s4.jpg",
+   "productType": "炊具7件套",
+   "designText": "不锈钢",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "hemkomst-hai-kao-te-chui-ju-7-jian-tao-bu-xiu-gang"
+  },
+  {
+   "id": "70610559",
+   "name": "GULDÖRING 古多灵",
+   "price": 499,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/guldoering-gu-duo-ling-chui-ju-8-jian-tao-bu-nian-tu-ceng-bu-xiu-gang-hei-hui-se__1513223_pe1010633_s4.jpg",
+   "productType": "炊具8件套",
+   "designText": "不粘涂层 不锈钢/黑灰色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "guldoering-gu-duo-ling-chui-ju-8-jian-tao-bu-nian-tu-ceng-bu-xiu-gang-hei-hui-se"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "30207400",
+   "type": "ART",
+   "fullId": "30207400"
+  },
+  {
+   "id": "60484330",
+   "type": "ART",
+   "fullId": "60484330"
+  },
+  {
+   "id": "00560591",
+   "type": "ART",
+   "fullId": "00560591"
+  },
+  {
+   "id": "50580105",
+   "type": "ART",
+   "fullId": "50580105"
+  },
+  {
+   "id": "70610559",
+   "type": "ART",
+   "fullId": "70610559"
+  }
+ ]
+}

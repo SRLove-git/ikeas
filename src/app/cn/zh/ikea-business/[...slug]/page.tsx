@@ -1,19 +1,17 @@
 import { notFound } from "next/navigation";
-import { findContentPage, pagesByFamily } from "@/lib/pages";
+import { findContentPage, pagesDeeper } from "@/lib/pages";
 import { ContentPage } from "@/components/ContentPage";
 import { SiteLayout } from "@/components/SiteLayout";
 
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return pagesByFamily("business")
-    .filter((page) => page.url !== "/cn/zh/ikea-business/")
-    .map((page) => ({
-      slug: page.url
-        .replace("/cn/zh/ikea-business/", "")
-        .replace(/\/+$/, "")
-        .split("/"),
-    }));
+  return pagesDeeper("ikea-business", 1).map((page) => ({
+    slug: page.url
+      .replace("/cn/zh/ikea-business/", "")
+      .replace(/\/+$/, "")
+      .split("/"),
+  }));
 }
 
 export default async function BusinessSubPage({

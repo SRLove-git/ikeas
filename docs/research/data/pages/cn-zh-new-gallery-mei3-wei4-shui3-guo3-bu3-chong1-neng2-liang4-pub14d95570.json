@@ -1,0 +1,56 @@
+{
+ "url": "/cn/zh/new/gallery/mei3-wei4-shui3-guo3-bu3-chong1-neng2-liang4-pub14d95570",
+ "family": "new",
+ "id": "cn--zh--14d9557054b611ea8431739eedab49cb",
+ "title": "美味水果，补充能量",
+ "name": "662041_nwna16a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "美味水果，补充能量",
+   "texts": [
+    "黄色热带水果风味和红色草莓混合风味的两杯FRUKTSTUND 福露昔 预拌奶昔摆放在桌子上，周边摆满绿植。",
+    "<p>宜家为你甄选健康美食，让天然而美味的水果、浆果和蔬菜成为日常膳食中的一部分。全新的FRUKTSTUND 福露昔 预拌奶昔混合配料充分均衡了各类营养，提供多种天然纤维。不含人工成分，尤其适合在早餐或下午茶时饮用，为身体补充能量。</p>",
+    "美味水果，补充能量",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/45/02/4502720841bff9e5151d8fe0a0382dfb.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/45/02/4502720841bff9e5151d8fe0a0382dfb.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "解冻即饮",
+   "texts": [
+    "/cat/fb001",
+    "NO",
+    "ikea://content/plp?catalogId=fb001",
+    "{\"objectId_var\":\"fb001\",\"objectType_var\":\"plp\"}",
+    "FRUKTSTUND 福露昔 预拌奶昔混合配料制作方法十分简单。你只需解冻配料颗粒，加水搅拌，就能变成美味的奶昔，无需使用搅拌机。",
+    "解冻即饮"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/4ebed3dcc0c9f4aa/original/PH168505-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/fb001",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/4ebed3dcc0c9f4aa/original/PH168505-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  }
+ ]
+}

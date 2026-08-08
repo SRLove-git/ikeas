@@ -1,0 +1,124 @@
+{
+ "url": "/cn/zh/rooms/hallway/gallery/chu3-wu4-chuang4-yi4-geng4-shang4-yi1-ceng2-lou2-pubf49e96a0",
+ "family": "rooms",
+ "id": "cn--zh--f49e96a00f6c11ea9be0efb138516c0e",
+ "title": "储物创意更上一层楼",
+ "name": "20203_rmha04a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "储物创意更上一层楼"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "小门厅配有高墙，挂衣杆和托架垂直安装在墙面上，打造出存放衣物和鞋子的空间。",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "80451507"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/12/fa/12fa84610c9df6819813d6a66402e439.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/12/fa/12fa84610c9df6819813d6a66402e439.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>借助巧妙的物件和创意，你可以轻松将小门厅转变成一个储物空间充裕的场所，比如你可以试试垂直储物，充分利用墙面！</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "两根挂衣杆安装在墙面上。一根靠近天花板，挂着放有衣物的衣服储藏袋，另一根则高度较低，易于挂取衣物。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "50370876"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/58/af/58af6bfef40225a6472c46b007abfd34.jpg",
+    "https://file.app.ikea.cn/images/c2/fa/c2fa88642ae5a814d36dbc9f36bcce7e.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/58/af/58af6bfef40225a6472c46b007abfd34.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/c2/fa/c2fa88642ae5a814d36dbc9f36bcce7e.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "黑色储物脚凳置于地面之上。盖子置于一边，东西存储在脚凳内部。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "40266682"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/bc/5d/bc5d50604abfae4d294dfc976133e33d.jpg",
+    "https://file.app.ikea.cn/images/86/b8/86b8c7727413df23aa27d421d4d6b3f0.jpg",
+    "https://file.app.ikea.cn/images/5d/cf/5dcfdd89ca9d45f136f9a8448d7415ac.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/bc/5d/bc5d50604abfae4d294dfc976133e33d.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/86/b8/86b8c7727413df23aa27d421d4d6b3f0.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/5d/cf/5dcfdd89ca9d45f136f9a8448d7415ac.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "80451507",
+    "30179435",
+    "50370876",
+    "s99898536",
+    "40266682"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

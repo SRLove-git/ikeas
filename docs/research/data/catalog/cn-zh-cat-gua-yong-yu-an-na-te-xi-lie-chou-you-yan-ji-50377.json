@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/cat/gua-yong-yu-an-na-te-xi-lie-chou-you-yan-ji-50377",
+ "id": "gua-yong-yu-an-na-te-xi-lie-chou-you-yan-ji-50377",
+ "name": "适用于安纳特系列 抽油烟机",
+ "description": "适用于安纳特系列 抽油烟机",
+ "total": 2,
+ "products": [
+  {
+   "id": "00528855",
+   "name": "NYTTIG TUB 125 耐迪 TUB 125",
+   "price": 250,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/nyttig-tub-125-nai-di-tub-125-feng-shan-ruan-guan__0755146_pe748282_s4.jpg",
+   "productType": "风扇软管",
+   "designText": "",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "nyttig-tub-125-nai-di-tub-125-feng-shan-ruan-guan"
+  },
+  {
+   "id": "00528860",
+   "name": "NYTTIG FIL 500 耐迪 FIL 500",
+   "price": 200,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/nyttig-fil-500-nai-di-fil-500-chou-you-yan-ji-lu-wang__0754957_pe748200_s4.jpg",
+   "productType": "抽油烟机滤网",
+   "designText": "",
+   "measureText": "2 件",
+   "url": null,
+   "seoSlug": "nyttig-fil-500-nai-di-fil-500-chou-you-yan-ji-lu-wang"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "00528855",
+   "type": "ART",
+   "fullId": "00528855"
+  },
+  {
+   "id": "00528860",
+   "type": "ART",
+   "fullId": "00528860"
+  }
+ ]
+}

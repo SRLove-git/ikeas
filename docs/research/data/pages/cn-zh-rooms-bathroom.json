@@ -1,0 +1,681 @@
+{
+ "url": "/cn/zh/rooms/bathroom",
+ "family": "rooms",
+ "id": "cn--zh--d7826ea2b5a24338ade5ee651e760cdf",
+ "title": "浴室",
+ "name": "浴室家具 - 首页_PM_SEO_spring update",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "浴室"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "64a8a6a0f74c4fc1a85eecaeafbc9cd8"
+   }
+  },
+  {
+   "type": "pub-visual-navigation",
+   "title": null,
+   "texts": [
+    "small",
+    "/cat/700450",
+    "NO",
+    "ikea://content/plp?catalogId=700450",
+    "{\"objectId_var\":\"700450\",\"objectType_var\":\"plp\"}",
+    "浴室家具"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20220325/bb498612c716497381e28427a4a0974f.PNG",
+    "https://file.app.ikea.cn/cms/u/20230824/460f35643c1f41c7bcb4eb1367596d69.webp",
+    "https://file.app.ikea.cn/cms/u/20240326/adedd08539da4c5bb3826baf60a1edee.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220325/f0f84c6204d246109f925e8cab78b2a4.PNG",
+    "https://file.app.ikea.cn/cms/u/20240326/54f0c56997c3450d9bbe4cadec016f88.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/cat/700450",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220325/bb498612c716497381e28427a4a0974f.PNG",
+     "text": ""
+    },
+    {
+     "href": "/cat/20804",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20230824/460f35643c1f41c7bcb4eb1367596d69.webp",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=浴室推车",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20240326/adedd08539da4c5bb3826baf60a1edee.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "2ee3a3c166b942f3ad15c9116e22184a"
+   }
+  },
+  {
+   "type": "anchor-navigation",
+   "title": null,
+   "texts": [
+    "BUTTON",
+    "YES",
+    "当季推荐",
+    "dea25e74c6da422eb37a4ad6a3e757f0",
+    "低价好物",
+    "672dbea2f64d4eebaea26dd12c6de7a3"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-页面导航-"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "TÄNNFORSEN 坦弗森 系列",
+   "texts": [
+    "/cat/700456",
+    "NO",
+    "ikea://content/plp?catalogId=700456",
+    "{\"objectId_var\":\"700456\",\"objectType_var\":\"plp\"}",
+    "TÄNNFORSEN 坦弗森 系列包括带阻尼柜门的浴室用柜、带抽屉洗脸池柜等。经典浅色饰面搭配充裕储物空间和精致工艺，打造历久弥新的现代卫浴。",
+    "TÄNNFORSEN 坦弗森 系列"
+   ],
+   "images": [
+    "https://static.web.ikea.cn/content/u/20260325/7fafad612ad6439b82e9b95e6dff185f.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260325/469a9c0489774a0989559af43b46ab31.jpg?x-oss-process=style/medium",
+    "https://static.web.ikea.cn/content/u/20260326/40509b393ed04c80b8b28aa86fb7407a.jpg?x-oss-process=style/medium",
+    "https://static.web.ikea.cn/content/u/20260325/b50893e49b6b4f058eb591bd14a87dad.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260325/6f4283d2af634b08973d226c7c900de9.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/cat/700456",
+     "text": ""
+    },
+    {
+     "href": "https://static.web.ikea.cn/content/u/20260325/7fafad612ad6439b82e9b95e6dff185f.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/inspiration/detail/fb88f926-ccbb-48a4-a156-f8121e23224c?type=IMAGE",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260325/469a9c0489774a0989559af43b46ab31.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://static.web.ikea.cn/content/u/20260326/40509b393ed04c80b8b28aa86fb7407a.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://static.web.ikea.cn/content/u/20260325/b50893e49b6b4f058eb591bd14a87dad.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "672dbea2f64d4eebaea26dd12c6de7a3"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "NO",
+    "MANUAL_INPUT",
+    "99516028",
+    "50535486",
+    "29521226",
+    "90535489"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "8f79c6a8c0da4785805f9b23877b682b"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "打造高品质的舒适卫浴环境",
+   "texts": [
+    "/cat/700453",
+    "NO",
+    "ikea://content/plp?catalogId=700453",
+    "{\"objectId_var\":\"700453\",\"objectType_var\":\"plp\"}",
+    "ÄNGSJÖN 安雪恩浴室系列，以温润原木风格呈现，设计简约自然，适配各类储物需求，享受 10 年质保，为你营造高品质卫浴空间。",
+    "打造高品质的舒适卫浴环境"
+   ],
+   "images": [
+    "https://static.web.ikea.cn/content/u/20260325/700df2086e01481181e1f060b7c2bee0.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260325/c1188715eef746278047714fde569b37.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260325/bd136dc86669418e91bb97e1ff4293ae.jpg?x-oss-process=style/medium",
+    "https://static.web.ikea.cn/content/u/20260326/19135876ac494a0880aa9e6980752ce6.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260325/69f9c5fc67ed4e83a09ad2ff0abb98ec.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/cat/700453",
+     "text": ""
+    },
+    {
+     "href": "https://static.web.ikea.cn/content/u/20260325/700df2086e01481181e1f060b7c2bee0.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260325/c1188715eef746278047714fde569b37.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260325/bd136dc86669418e91bb97e1ff4293ae.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://static.web.ikea.cn/content/u/20260326/19135876ac494a0880aa9e6980752ce6.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260325/69f9c5fc67ed4e83a09ad2ff0abb98ec.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Curated Gallery-GODMORGON"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "NO",
+    "搭配推荐，让你的浴室更加舒适宜人。",
+    "MANUAL_INPUT",
+    "59516068",
+    "89525735",
+    "79516067"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "8f79c6a8c0da4785805f9b23877b682b"
+   }
+  },
+  {
+   "type": "rich-text",
+   "title": null,
+   "texts": [
+    "<p>10年品质保证包含浴室洗脸池、镜柜、混合水龙头。<a href=\"https://www.ikea.cn/cn/zh/customer-service/returns-claims/guarantee/yushi-pub84374700\">了解详情&rarr;</a></p>",
+    "#FFFFFF"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-富文本 Text-"
+   }
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Horizontal Line-"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "BÄSINGEN 巴辛根 系列产品",
+   "texts": [
+    "/landing-page/cn--zh--480b864601c04f93a2e568135a2f3080&folderId",
+    "NO",
+    "ikea://cms/landing-page?key=cn--zh--480b864601c04f93a2e568135a2f3080%26folderId&sdk-router-delegate__navigateWithModal=true",
+    "{\"objectId_var\":\"cn--zh--480b864601c04f93a2e568135a2f3080&folderId\",\"objectType_var\":\"cms_h5_page\"}",
+    "BÄSINGEN 巴辛根系列，防滑扶手设计，全家安心适用；收纳牢固便捷，深灰色简约百搭，打造舒适安心的浴室空间。",
+    "BÄSINGEN 巴辛根 系列产品"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/landing-page/cn--zh--480b864601c04f93a2e568135a2f3080&folderId",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20250409/6c1d31bfffd04e38845a67cbaf08fee9.mp4",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-栅格合集-BÄSINGEN 巴辛根 系列产品"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "NO",
+    "MANUAL_INPUT",
+    "70595969",
+    "90595992",
+    "30595754",
+    "20595981"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "9d6f243a9bd4459ca127a7411f6e2535"
+   }
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Horizontal Line-"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "浴室热销产品",
+   "texts": [
+    "/apps/room-ranking?rankId=bathroom",
+    "NO",
+    "ikea://content/all-ranking?roomId=bathroom",
+    "{\"objectId_var\":\"bathroom\",\"objectType_var\":\"all_ranking\"}",
+    "浴室热销产品",
+    "vertical_new"
+   ],
+   "images": [
+    "https://static.web.ikea.cn/content/u/20230726/4b9f6df7475848ba889d099ddaca32c6.jpg?x-oss-process=style/medium",
+    "https://static.web.ikea.cn/content/u/20251210/6ce81f5041b44b5cb0ff55fa00fca441.jpg",
+    "https://static.web.ikea.cn/content/u/20251210/9e5cc23e5b6b4103a63a406b3b23a739.jpg",
+    "https://static.web.ikea.cn/content/u/20251009/18387e33fd5a40789cbcadfb0aedfcda.jpg",
+    "https://static.web.ikea.cn/content/u/20251009/844f69d1d33842cfa1e571dfc20ea60b.jpg"
+   ],
+   "links": [
+    {
+     "href": "/apps/room-ranking?rankId=bathroom",
+     "text": ""
+    },
+    {
+     "href": "/inspiration/detail/44a027e8-8d8d-45d6-a5a0-c5b7698538e7?type=IMAGE",
+     "text": ""
+    },
+    {
+     "href": "https://static.web.ikea.cn/content/u/20230726/4b9f6df7475848ba889d099ddaca32c6.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/inspiration/detail/5e2f0b0f-ce16-45dc-b3e6-64cc08035537?type=IMAGE",
+     "text": ""
+    },
+    {
+     "href": "https://static.web.ikea.cn/content/u/20251210/6ce81f5041b44b5cb0ff55fa00fca441.jpg",
+     "text": ""
+    },
+    {
+     "href": "/inspiration/detail/3b1901c8-2343-456d-b9a4-02c4d3521947?type=IMAGE",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "fdf1372357304dbe856194be1523cb08"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "/cn/zh/campaigns/hui-sheng-huo-qing-jie-yong-pin-pub7ff00470",
+    "NO",
+    "ikea://cms/page-compatible-web?key=cn--zh--7ff00470bc7f409da7b4232cfebc8eaf&url=%2Fcn%2Fzh%2Fcampaigns%2Fhui-sheng-huo-qing-jie-yong-pin-pub7ff00470",
+    "{\"objectId_var\":\"/cn/zh/campaigns/hui-sheng-huo-qing-jie-yong-pin-pub7ff00470\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "小预算也能畅享洁净家居生活！",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cn/zh/campaigns/hui-sheng-huo-qing-jie-yong-pin-pub7ff00470",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "fb9a64cfa64643d7a6c377f672edef0e"
+   }
+  },
+  {
+   "type": "pub-visual-pill-slider",
+   "title": null,
+   "texts": [
+    "一只手正在调节GLYPEN 格吕彭 厨房水龙头的水流大小，水龙头采用不锈钢制成，旁边放着TÅRTSMET 托米特 洗盘刷",
+    "/search/products?q=TISKEN",
+    "NO",
+    "ikea://default-module/search?query=TISKEN%20",
+    "{\"objectId_var\":\"TISKEN \",\"objectType_var\":\"search_result\"}",
+    "TISKEN 提斯科恩"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20221208/bd9f5107d96f4a99853bebf21be38b7a.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20221208/ee244ecff6ef4442832784e93248e380.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20221208/6eb33e5e1f26424caab183733d2a1343.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20221208/8661173ba1d944528494d6adc67b81e9.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/search/products?q=TISKEN ",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20221208/bd9f5107d96f4a99853bebf21be38b7a.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=VESKEN",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20221208/ee244ecff6ef4442832784e93248e380.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=BROGRUND ",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20221208/6eb33e5e1f26424caab183733d2a1343.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "fcf9b0d33b484eaea952682fecdb8f81"
+   }
+  },
+  {
+   "type": "pub-banner",
+   "title": null,
+   "texts": [
+    "image-text-landscape",
+    "https://video.app.ikea.cn/801dfea7f12871f0b16e5017e1f80102/dc0952bd01a34ff0afb24cffcc4e58cc-b8e323e49a85e60d61e685cd33c6e07a-sd.m3u8?auth_key=1786155245-99ffff32304642c19f92c1151086a1be-0-1b7b9f4b84b1da44c16d5741c0832eae",
+    "VIDEO",
+    "801dfea7f12871f0b16e5017e1f80102",
+    "YES",
+    "hosted"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20260114/280bcdd057594193a0ebf994477d6f04.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://video.app.ikea.cn/801dfea7f12871f0b16e5017e1f80102/dc0952bd01a34ff0afb24cffcc4e58cc-b8e323e49a85e60d61e685cd33c6e07a-sd.m3u8?auth_key=1786155245-99ffff32304642c19f92c1151086a1be-0-1b7b9f4b84b1da44c16d5741c0832eae",
+     "text": ""
+    },
+    {
+     "href": "/new/want-to-increase-your-water-awareness-track-your-showers-and-reduce-water-use-the-easy-way-puba6c62147",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-媒体色块组合 Banner-"
+   }
+  },
+  {
+   "type": "pub-inspiration-card",
+   "title": null,
+   "texts": [
+    "2e88e070-24cd-11eb-81f7-2da7173593f2",
+    "/campaigns/mian-da-kong-geng-zi-you-qing-song-shou-na-bu-fei-li-pub5a5ed8df",
+    "NO",
+    "ikea://cms/page-compatible-web?key=cn--zh--5a5ed8df33594cda8c78dd3929d085c2&url=%2Fcampaigns%2Fmian-da-kong-geng-zi-you-qing-song-shou-na-bu-fei-li-pub5a5ed8df",
+    "{\"objectId_var\":\"/campaigns/mian-da-kong-geng-zi-you-qing-song-shou-na-bu-fei-li-pub5a5ed8df\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "IMAGE"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20260624/f7f40b4fcb0340cfbc078ea65aa57f42.png?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260202/f0e8c3728ba64938baac04891681e3e8.gif",
+    "https://file.app.ikea.cn/cms/u/20250714/2b11d2dc159442ca942d810380c0a8bf.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20250701/fcff7a3dc44b48d29c037807148df488.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/campaigns/mian-da-kong-geng-zi-you-qing-song-shou-na-bu-fei-li-pub5a5ed8df",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260624/f7f40b4fcb0340cfbc078ea65aa57f42.png?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/rooms/bathroom/how-to/mian-da-kong-geng-zi-you-qing-song-shou-na-bu-fei-li-pub480b8646",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260202/f0e8c3728ba64938baac04891681e3e8.gif",
+     "text": ""
+    },
+    {
+     "href": "/rooms/bathroom/yu-shi-gui-xuan-gou-zhi-nan-pub26993323",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20250714/2b11d2dc159442ca942d810380c0a8bf.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "7b8bcbeacad042f39029f4f217c9a372"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "two-columns",
+    "column",
+    "/search/products?q=坦弗森",
+    "NO",
+    "ikea://default-module/search?query=%E5%9D%A6%E5%BC%97%E6%A3%AE",
+    "{\"objectId_var\":\"坦弗森\",\"objectType_var\":\"search_result\"}"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20240703/eaaa45b23c3446a1ae48c65ace3706d7.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20240703/1c913f1979ca49169f20951d5344582b.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20240703/ff31a342bf244206aee5b3ae7eaa61b8.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/search/products?q=坦弗森",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20240703/eaaa45b23c3446a1ae48c65ace3706d7.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=安雪恩",
+     "text": ""
+    },
+    {
+     "href": "/h5page/?url=https%3A%2F%2Ffile.app.ikea.cn%2Fcms%2Fu%2F20240509%2F5a354d85476942f5b44d100f83768ead.pdf",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=坦弗森",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20240703/1c913f1979ca49169f20951d5344582b.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Columns-"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "two-columns",
+    "column",
+    "/cat/700457",
+    "NO",
+    "ikea://content/plp?catalogId=700457",
+    "{\"objectId_var\":\"700457\",\"objectType_var\":\"plp\"}"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20240703/f2dadc720e9548efad0ba810b356135b.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20240703/68f59e629c7643ce990dc3abeec60570.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20240703/73f4650943d74771ba7313b1c71ae28a.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/cat/700457",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20240703/f2dadc720e9548efad0ba810b356135b.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/cat/700457",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20240703/68f59e629c7643ce990dc3abeec60570.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/cat/700457",
+     "text": ""
+    },
+    {
+     "href": "/cat/700491",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Columns-"
+   }
+  },
+  {
+   "type": "pub-banner",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "wide",
+    "image-text-landscape",
+    "<p><span style=\"color: #ffffff;\">如何规划和设计您的梦想浴室？使用浴室规划工具为您的房间和预算找到最佳解决方案。&nbsp;</span></p>",
+    "浴室设计工具，全新上线",
+    "NO"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20240326/fe3e34a9d7254fc1a47e3edfd8eba021.jpg",
+    "https://file.app.ikea.cn/cms/u/20240326/fe3e34a9d7254fc1a47e3edfd8eba021.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20240326/fe3e34a9d7254fc1a47e3edfd8eba021.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20240326/fe3e34a9d7254fc1a47e3edfd8eba021.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/h5page/?url=https%3A%2F%2Fwww.ikea.cn%2Fcn%2Fzh%2Fplanners%2Fbathroom-planner%2F",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "0acf40fec0db47949d4b777f5754ca8b"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-assurances",
+   "title": null,
+   "texts": [
+    "/customer-service/services/delivery/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fcustomer-service%2Fservices%2Fdelivery%2F&key=",
+    "{\"objectId_var\":\"/customer-service/services/delivery/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "送货服务",
+    "shipping-truck"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/customer-service/services/delivery/",
+     "text": ""
+    },
+    {
+     "href": "/customer-service/services/kitchen-installation/",
+     "text": ""
+    },
+    {
+     "href": "/customer-service/services/kitchen-planning/",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "301dd2021f8f4ec7bb5b6438fb273dce"
+   }
+  },
+  {
+   "type": "inspirations",
+   "title": "更多浴室灵感",
+   "texts": [
+    "IMAGE_ONLY",
+    "更多浴室灵感",
+    "WATERFALL",
+    "NO",
+    "ALL",
+    "TAGS_INPUT"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-灵感图-更多浴室灵感"
+   }
+  }
+ ]
+}

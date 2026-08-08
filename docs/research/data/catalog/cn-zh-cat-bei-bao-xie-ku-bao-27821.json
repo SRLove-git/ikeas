@@ -1,0 +1,76 @@
+{
+ "url": "/cn/zh/cat/bei-bao-xie-ku-bao-27821",
+ "id": "bei-bao-xie-ku-bao-27821",
+ "name": "背包/斜挎包",
+ "description": "无论是日常通勤，还是周末度假需要旅行背包，我们的背包和斜挎包都可随时为你提供帮助。其中重量较轻的款式可以折叠至很小的尺寸，所以无论你什么时候突然想去购物，都可以派上用场。",
+ "total": 4,
+ "products": [
+  {
+   "id": "10586369",
+   "name": "KLOTPIL 克洛特皮尔",
+   "price": 149,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/klotpil-ke-luo-te-pi-er-bing-bao__1353715_pe952294_s4.jpg",
+   "productType": "冰包",
+   "designText": "",
+   "measureText": "38x24x40 厘米",
+   "url": null,
+   "seoSlug": "klotpil-ke-luo-te-pi-er-bing-bao"
+  },
+  {
+   "id": "00604043",
+   "name": "VÄRLDENS 维尔登斯",
+   "price": 199,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/vaerldens-wei-er-deng-si-bei-bao-hei-se__1381706_pe961896_s4.jpg",
+   "productType": "背包",
+   "designText": "黑色",
+   "measureText": "31x15x49 厘米/26 公升",
+   "url": null,
+   "seoSlug": "vaerldens-wei-er-deng-si-bei-bao-hei-se"
+  },
+  {
+   "id": "10517677",
+   "name": "SKYNKE 辛恩格",
+   "price": 7.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/skynke-xin-en-ge-shou-ti-dai-tiao-wen-hei-se-bai-se__1045804_pe842720_s4.jpg",
+   "productType": "手提袋",
+   "designText": "条纹/黑色 白色",
+   "measureText": "45x36 厘米",
+   "url": null,
+   "seoSlug": "skynke-xin-en-ge-shou-ti-dai-tiao-wen-hei-se-bai-se"
+  },
+  {
+   "id": "70432500",
+   "name": "RENSARE 雷恩萨瑞",
+   "price": 9.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/rensare-lei-en-sa-rui-dai-fang-ge-tu-an-hei-se__0810364_pe771287_s4.jpg",
+   "productType": "袋",
+   "designText": "方格图案/黑色",
+   "measureText": "30x40 厘米/8 公升",
+   "url": null,
+   "seoSlug": "rensare-lei-en-sa-rui-dai-fang-ge-tu-an-hei-se"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "10586369",
+   "type": "ART",
+   "fullId": "10586369"
+  },
+  {
+   "id": "00604043",
+   "type": "ART",
+   "fullId": "00604043"
+  },
+  {
+   "id": "10517677",
+   "type": "ART",
+   "fullId": "10517677"
+  },
+  {
+   "id": "70432500",
+   "type": "ART",
+   "fullId": "70432500"
+  }
+ ]
+}

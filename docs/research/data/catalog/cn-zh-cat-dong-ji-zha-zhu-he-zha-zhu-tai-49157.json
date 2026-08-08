@@ -1,0 +1,76 @@
+{
+ "url": "/cn/zh/cat/dong-ji-zha-zhu-he-zha-zhu-tai-49157",
+ "id": "dong-ji-zha-zhu-he-zha-zhu-tai-49157",
+ "name": "冬季蜡烛和蜡烛台",
+ "description": "冬季蜡烛和蜡烛台",
+ "total": 4,
+ "products": [
+  {
+   "id": "50156112",
+   "name": "BORRBY 鲍比",
+   "price": 39.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/borrby-bao-bi-kuo-xing-zha-zhu-deng-zhao-shi-nei-hu-wai-hei-se__1513961_pe1010757_s4.jpg",
+   "productType": "阔形蜡烛灯罩",
+   "designText": "室内/户外 黑色",
+   "measureText": "28 厘米",
+   "url": null,
+   "seoSlug": "borrby-bao-bi-kuo-xing-zha-zhu-deng-zhao-shi-nei-hu-wai-hei-se"
+  },
+  {
+   "id": "20603858",
+   "name": "VINTERFINT 云芬特",
+   "price": 149,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/vinterfint-yun-fen-te-zhu-tai-4-tou-hong-se__1325550_pe943940_s4.jpg",
+   "productType": "烛台",
+   "designText": "4头 红色",
+   "measureText": "29 厘米",
+   "url": null,
+   "seoSlug": "vinterfint-yun-fen-te-zhu-tai-4-tou-hong-se"
+  },
+  {
+   "id": "00603859",
+   "name": "VINTERFINT 云芬特",
+   "price": 39.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/vinterfint-yun-fen-te-zhu-tai-4-tou-bai-se__1436228_pe984115_s4.jpg",
+   "productType": "烛台",
+   "designText": "4头 白色",
+   "measureText": "4 厘米",
+   "url": null,
+   "seoSlug": "vinterfint-yun-fen-te-zhu-tai-4-tou-bai-se"
+  },
+  {
+   "id": "30604697",
+   "name": "VINTERFINT 云芬特",
+   "price": 24.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/vinterfint-yun-fen-te-xiao-yuan-zha-zhu-tuo-mao-bo-li-bai-se__1441270_pe986283_s4.jpg",
+   "productType": "小圆蜡烛托",
+   "designText": "毛玻璃 白色",
+   "measureText": "7 厘米",
+   "url": null,
+   "seoSlug": "vinterfint-yun-fen-te-xiao-yuan-zha-zhu-tuo-mao-bo-li-bai-se"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "50156112",
+   "type": "ART",
+   "fullId": "50156112"
+  },
+  {
+   "id": "20603858",
+   "type": "ART",
+   "fullId": "20603858"
+  },
+  {
+   "id": "00603859",
+   "type": "ART",
+   "fullId": "00603859"
+  },
+  {
+   "id": "30604697",
+   "type": "ART",
+   "fullId": "30604697"
+  }
+ ]
+}

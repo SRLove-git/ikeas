@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/kitchen/gallery/chufang-pub04369a11",
+ "family": "rooms",
+ "id": "cn--zh--04369a11e63211e7a19a1b4caad12135",
+ "title": "和谐的小型生活空间",
+ "name": "20183-codi02a_PF_CT_SEO",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "和谐的小型生活空间",
+   "texts": [
+    "米色、绿色和白色小型厨房里摆放着 MELLTORP 麦托 白色桌子和两把 TEODORES 帝奥多斯 可叠放椅子。",
+    "和谐的小型生活空间",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/14/b8/14b898119e12cf951b144de8a0d1af92.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/14/b8/14b898119e12cf951b144de8a0d1af92.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "70350938",
+    "60318232",
+    "s79246377",
+    "10336262",
+    "30184050"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

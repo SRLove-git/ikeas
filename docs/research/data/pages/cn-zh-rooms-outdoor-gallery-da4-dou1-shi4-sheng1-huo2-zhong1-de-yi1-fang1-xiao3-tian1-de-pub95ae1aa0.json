@@ -1,0 +1,124 @@
+{
+ "url": "/cn/zh/rooms/outdoor/gallery/da4-dou1-shi4-sheng1-huo2-zhong1-de-yi1-fang1-xiao3-tian1-de-pub95ae1aa0",
+ "family": "rooms",
+ "id": "cn--zh--95ae1aa0101e11ea9be0efb138516c0e",
+ "title": "大都市生活中的一方小天地",
+ "name": " 20203_rmod03a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "大都市生活中的一方小天地"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "小阳台上摆放着许多香草与植物、红色凳子、白色阳伞、两把椅子和可折叠桌子。",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "20424574"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/09/93/09938802fad007bb5620f907718ee2d4.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/09/93/09938802fad007bb5620f907718ee2d4.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>郁郁葱葱的户外绿洲可以让你在奔忙之余放松身心，恢复精力。接下来我们将向你展示，如何轻松根据你的需求，打造一处私密又令人愉悦的户外空间。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "桌椅折叠后放在一旁，在阳台地板上腾出摆放瑜伽垫的空间。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "00424570"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/ee/3a/ee3a662d3ab2697887bd7f2f2ceb1cf1.jpg",
+    "https://file.app.ikea.cn/images/c6/48/c648d4801e6158148e78b1137c8d117a.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/ee/3a/ee3a662d3ab2697887bd7f2f2ceb1cf1.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/c6/48/c648d4801e6158148e78b1137c8d117a.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "红色 TRANARÖ 特拉纳瑞 凳子/边桌摆放在 TÄRNÖ 塔尔诺 桌椅旁，有来客时可提供额外座椅。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "10411421"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/c4/22/c42273062465fd48cc67e744faf1d0e5.jpg",
+    "https://file.app.ikea.cn/images/60/1c/601c19d0eea4faca3f0f81ffdef70ac0.jpg",
+    "https://file.app.ikea.cn/images/d9/a3/d9a313add3d6fe41dc47842bb31718c5.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/c4/22/c42273062465fd48cc67e744faf1d0e5.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/60/1c/601c19d0eea4faca3f0f81ffdef70ac0.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/d9/a3/d9a313add3d6fe41dc47842bb31718c5.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "20424574",
+    "00424570",
+    "10411421",
+    "00278578",
+    "s29219324"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

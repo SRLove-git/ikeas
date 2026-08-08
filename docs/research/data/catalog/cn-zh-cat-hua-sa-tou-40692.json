@@ -1,0 +1,92 @@
+{
+ "url": "/cn/zh/cat/hua-sa-tou-40692",
+ "id": "hua-sa-tou-40692",
+ "name": "花洒头",
+ "description": "无论你是清晨冲个凉，精神抖擞地开启新一天；还是舒舒服服地洗个澡，惬意地为一天收尾，淋浴都是让人放松身心的理想方式。选用我们的顶喷花洒，你可随心选择是来次气雾喷淋、按摩喷淋，亦或是其他淋浴模式。在线浏览或前往宜家商场选购吧。",
+ "total": 5,
+ "products": [
+  {
+   "id": "90342551",
+   "name": "BROGRUND 布鲁格隆德",
+   "price": 129,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/brogrund-bu-lu-ge-long-de-wu-zhong-pen-sa-mo-shi-shou-chi-hua-sa-du-ge__0754998_pe748201_s4.jpg",
+   "productType": "五种喷洒模式手持花洒",
+   "designText": "镀铬",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "brogrund-bu-lu-ge-long-de-wu-zhong-pen-sa-mo-shi-shou-chi-hua-sa-du-ge"
+  },
+  {
+   "id": "10342630",
+   "name": "LILLREVET 利勒耶夫",
+   "price": 24.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/lillrevet-li-le-ye-fu-dan-pen-sa-mo-shi-shou-chi-hua-sa-bai-se__0755000_pe748203_s4.jpg",
+   "productType": "单喷洒模式手持花洒",
+   "designText": "白色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "lillrevet-li-le-ye-fu-dan-pen-sa-mo-shi-shou-chi-hua-sa-bai-se"
+  },
+  {
+   "id": "00349651",
+   "name": "VALLAMOSSE 瓦拉莫瑟",
+   "price": 49.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/vallamosse-wa-la-mo-se-dan-pen-sa-mo-shi-shou-chi-hua-sa-du-ge__0755001_pe748207_s4.jpg",
+   "productType": "单喷洒模式手持花洒",
+   "designText": "镀铬",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "vallamosse-wa-la-mo-se-dan-pen-sa-mo-shi-shou-chi-hua-sa-du-ge"
+  },
+  {
+   "id": "20342597",
+   "name": "KOLSJÖN 库勒逊",
+   "price": 99.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/kolsjoen-ku-le-xun-lin-yu-guan-du-ge__0755436_pe748415_s4.jpg",
+   "productType": "淋浴管",
+   "designText": "镀铬",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "kolsjoen-ku-le-xun-lin-yu-guan-du-ge"
+  },
+  {
+   "id": "50390563",
+   "name": "LILLREVET 利勒耶夫",
+   "price": 49.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/lillrevet-li-le-ye-fu-lin-yu-guan-bai-se__0755437_pe748414_s4.jpg",
+   "productType": "淋浴管",
+   "designText": "白色",
+   "measureText": "150 厘米",
+   "url": null,
+   "seoSlug": "lillrevet-li-le-ye-fu-lin-yu-guan-bai-se"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "90342551",
+   "type": "ART",
+   "fullId": "90342551"
+  },
+  {
+   "id": "10342630",
+   "type": "ART",
+   "fullId": "10342630"
+  },
+  {
+   "id": "00349651",
+   "type": "ART",
+   "fullId": "00349651"
+  },
+  {
+   "id": "20342597",
+   "type": "ART",
+   "fullId": "20342597"
+  },
+  {
+   "id": "50390563",
+   "type": "ART",
+   "fullId": "50390563"
+  }
+ ]
+}

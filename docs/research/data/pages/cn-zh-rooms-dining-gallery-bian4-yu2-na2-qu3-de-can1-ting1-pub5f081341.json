@@ -1,0 +1,45 @@
+{
+ "url": "/cn/zh/rooms/dining/gallery/bian4-yu2-na2-qu3-de-can1-ting1-pub5f081341",
+ "family": "rooms",
+ "id": "cn--zh--5f08134101f911e9aeb03d6b81950a38",
+ "title": "便于拿取的餐厅",
+ "name": "20193_rmdi03a_PF",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "便于拿取的餐厅",
+   "texts": [
+    "利用轻巧的 TINGBY 新贝 白色餐桌、JANINGE 延宁 黄色椅子，搭配由 ALGOT 艾格特 搁板组成的易于清洁、拿取餐具的开放式食品柜，打造出专属于你的共享餐厅。",
+    "<p>打造共享用餐空间时，需要运用开放思维：开放式储物搁板、带轮推车和轻巧的家具，令你可以轻松拿取所需物品、完成清洁整理、随时随地举办派对。</p>",
+    "便于拿取的餐厅",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/f2/c7/f2c77829e7ca5956daeac5b86ed84ebe.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/f2/c7/f2c77829e7ca5956daeac5b86ed84ebe.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s69285468",
+    "40246081",
+    "20348924",
+    "40333851",
+    "10363137"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

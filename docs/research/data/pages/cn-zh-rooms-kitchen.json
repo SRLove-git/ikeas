@@ -1,0 +1,838 @@
+{
+ "url": "/cn/zh/rooms/kitchen",
+ "family": "rooms",
+ "id": "cn--zh--f001a8a06fd44018b379fd8243880453",
+ "title": "厨房",
+ "name": "厨房家具 - 首页 L4 24th update",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "厨房"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "47f2bae9469e41c895fc2c2cfed4987b"
+   }
+  },
+  {
+   "type": "pub-visual-navigation",
+   "title": null,
+   "texts": [
+    "small",
+    "/cat/ka003",
+    "NO",
+    "ikea://content/plp?catalogId=ka003",
+    "{\"objectId_var\":\"ka003\",\"objectType_var\":\"plp\"}",
+    "IMAGE"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20260724/dbcecb85a52341279a6d8cfc56ff82ac.png?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260724/4610e7c68b5a43509f46d2b8b284ab85.png?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260724/6f5637f01980471796f0a01fd3f2645e.png?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260724/6a9bee939b9f4c9684b1ad1ed56cde5c.png?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260724/4114df07033440a69d17a2cca122ac6a.png?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/cat/ka003",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260724/dbcecb85a52341279a6d8cfc56ff82ac.png?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/cat/24264",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260724/4610e7c68b5a43509f46d2b8b284ab85.png?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/cat/24255",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260724/6f5637f01980471796f0a01fd3f2645e.png?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "category:kitchen_room_page:new"
+   }
+  },
+  {
+   "type": "rich-text",
+   "title": null,
+   "texts": [
+    "<h2 class=\"hri-teaser__title\" style=\"font-size: 1.5rem; background-color: #ffffff;\">简单4步，打造你的梦想厨房</h2>\n<p>从款式、饰面到材质，您都可以自由发现和搭配，逐步塑造心中的理想厨房。让每一个想法都被看见，让每一处细节都更贴合您的生活方式，打造一个真正属于您的、像您的故事一样独特的宜家厨房。</p>",
+    "#FFFFFF"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-富文本 Text-"
+   }
+  },
+  {
+   "type": "anchor-navigation",
+   "title": null,
+   "texts": [
+    "TEXT",
+    "YES",
+    "第一步选择风格",
+    "f6de6039cda24ce29c07b859c5f5f248",
+    "第二步测量",
+    "IMAGE"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-页面导航-"
+   }
+  },
+  {
+   "type": "rich-text",
+   "title": null,
+   "texts": [
+    "<h2><strong>第一步 找到你的风格</strong></h2>\n<p><span style=\"color: #484848; background-color: #ffffff;\">选择您喜欢的风格，从传统到乡村风再到现代厨房的风格，以及您对颜色、材料和功能的偏好。</span></p>",
+    "#FFFFFF"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-富文本 Text-"
+   }
+  },
+  {
+   "type": "video",
+   "title": null,
+   "texts": [
+    "https://video.app.ikea.cn/307c7fb58b0e71f194725420848c0102/cac086da757547a29c2c8906161fa683-134369b0f7ae143f27dfb493dbbe3712-sd.m3u8?auth_key=1786153587-78ea31b470404ee8ad56d86e0c0d6557-0-37a1a0cc6e0204c880ba543d81178ba8",
+    "hosted",
+    "wide",
+    "307c7fb58b0e71f194725420848c0102",
+    "YES",
+    "IMAGE"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20260729/c7fbec2458fd4ef0a0f2122269f2fa01.png?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://video.app.ikea.cn/307c7fb58b0e71f194725420848c0102/cac086da757547a29c2c8906161fa683-134369b0f7ae143f27dfb493dbbe3712-sd.m3u8?auth_key=1786153587-78ea31b470404ee8ad56d86e0c0d6557-0-37a1a0cc6e0204c880ba543d81178ba8",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260729/c7fbec2458fd4ef0a0f2122269f2fa01.png?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-视频-"
+   }
+  },
+  {
+   "type": "image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "/landing-page/cn--zh--f2540d3bb00111e7b23503ef832e0d7f?productIds=&topProductFullIds=&assemblyProductFullIds=&utm_source=&utm_medium=&utm_campaign=&utm_content=&utm_term=&web_new=",
+    "NO",
+    "ikea://cms/landing-page-popup?key=cn--zh--f2540d3bb00111e7b23503ef832e0d7f",
+    "{\"objectId_var\":\"cn--zh--f2540d3bb00111e7b23503ef832e0d7f\",\"objectType_var\":\"cms_h5_page\"}"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20260729/5f9ed9540a4d44f1b762bc32d09c38ff.png?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/landing-page/cn--zh--f2540d3bb00111e7b23503ef832e0d7f?productIds=&topProductFullIds=&assemblyProductFullIds=&utm_source=&utm_medium=&utm_campaign=&utm_content=&utm_term=&web_new=",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260729/5f9ed9540a4d44f1b762bc32d09c38ff.png?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-图片-"
+   }
+  },
+  {
+   "type": "image-text-cards",
+   "title": "更多厨房风格",
+   "texts": [
+    "SMALL",
+    "更多厨房风格",
+    "/landing-page/cn--zh--85efc8d07cc111ed9c76bf78eff7c5b5?productIds=&topProductFullIds=&assemblyProductFullIds=&utm_source=&utm_medium=&utm_campaign=&utm_content=&utm_term=&web_new=",
+    "IMAGE",
+    "温馨的传统厨房",
+    "ikea://cms/landing-page-popup?key=cn--zh--85efc8d07cc111ed9c76bf78eff7c5b5"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20260730/5f82539c375049908e4ade5010516ec7.png?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260730/a2e697a8e3d44a2d94cc7883b7fc832a.png?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260730/04526cbf2dc14925ac5e54231bb55bed.png?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260730/07cc8668a05f4b1590e7b82ba34b84ef.png?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260730/5911ead7cf354e668393675b1e3c6ed9.png?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260730/5f82539c375049908e4ade5010516ec7.png?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260730/a2e697a8e3d44a2d94cc7883b7fc832a.png?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260730/04526cbf2dc14925ac5e54231bb55bed.png?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260730/07cc8668a05f4b1590e7b82ba34b84ef.png?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260730/5911ead7cf354e668393675b1e3c6ed9.png?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260730/57091bcbe9fc442c9726f89f990b5209.png?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-图文卡片-更多厨房风格"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "第二步 测量你的空间",
+   "texts": [
+    "/h5page/?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fdesign-leads%2Fkitchen.html%3Fchannel%3Dkitchen_IRW%20M2%26cl_sr%3DIRW%20M2%26source%3DNEW_WEB",
+    "NO",
+    "ikea://default-module/H5?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fdesign-leads%2Fkitchen.html%3Fchannel%3Dkitchen_IRW%20M2%26cl_sr%3DIRW%20M2%26source%3DNEW_WEB",
+    "{\"objectId_var\":\"https://store-companion.ikea.cn/design-leads/kitchen.html?channel=kitchen_IRW M2&cl_sr=IRW M2&source=NEW_WEB\",\"objectType_var\":\"default-module/H5\"}",
+    "装修新厨房前请确认墙体、插座、管线等各项尺寸。嫌自行测量麻烦？可预约专业测量服务，全程交由我们处理，省心便捷。",
+    "第二步 测量你的空间"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20260728/80f4a677910e480d966f57cc42ec5746.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/h5page/?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fdesign-leads%2Fkitchen.html%3Fchannel%3Dkitchen_IRW%20M2%26cl_sr%3DIRW%20M2%26source%3DNEW_WEB",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260728/80f4a677910e480d966f57cc42ec5746.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-栅格合集 Curated Gallery-第二步 测量你的空间"
+   }
+  },
+  {
+   "type": "rich-text",
+   "title": null,
+   "texts": [
+    "<h2 style=\"line-height: 20px;\">厨房3天焕新</h2>\n<p style=\"line-height: 12px;\">最快3天，一站式服务。</p>",
+    "#FFFFFF"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-富文本 Text-"
+   }
+  },
+  {
+   "type": "video",
+   "title": null,
+   "texts": [
+    "https://video.app.ikea.cn/40750d638b1071f180ef5017f1f80102/9d9326e796994194ac0bac296fec8bd8-f2da922b5cc84f9d37fe05675818c9fd-sd.m3u8?auth_key=1786155602-650db4ebafa34b01aaa309fb0b58ce62-0-56416f5c94f397aba1ee44e49669a0d1",
+    "hosted",
+    "wide",
+    "40750d638b1071f180ef5017f1f80102",
+    "YES",
+    "IMAGE"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20260729/fa07377726834f0296bc79a6a280d8b5.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://video.app.ikea.cn/40750d638b1071f180ef5017f1f80102/9d9326e796994194ac0bac296fec8bd8-f2da922b5cc84f9d37fe05675818c9fd-sd.m3u8?auth_key=1786155602-650db4ebafa34b01aaa309fb0b58ce62-0-56416f5c94f397aba1ee44e49669a0d1",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260729/fa07377726834f0296bc79a6a280d8b5.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-视频-"
+   }
+  },
+  {
+   "type": "rich-text",
+   "title": null,
+   "texts": [
+    "<h2 style=\"line-height: 24px;\">第三步 设计和计划</h2>\n<p style=\"line-height: 24px;\"><span style=\"color: #484848; background-color: #ffffff;\">花点时间想象一下您理想的厨房会是什么样子。您可以开始尝试使用我们的在线工具进行组合，或者如果您愿意，可以与我们的专家进行免费预约。设计您梦想中的厨房比看起来更容易！</span></p>",
+    "#FFFFFF"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-富文本 Text-"
+   }
+  },
+  {
+   "type": "pub-inspiration-card",
+   "title": null,
+   "texts": [
+    "045e5a2a-9a8d-11ea-8543-6bbb72ceb2d5",
+    "/h5page/?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fdesign-leads%2Fkitchen.html%3Fchannel%3Dkitchen_IRW%20M2%26cl_sr%3DIRW%20M2%26source%3DNEW_WEB",
+    "NO",
+    "ikea://default-module/H5?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fdesign-leads%2Fkitchen.html%3Fchannel%3Dkitchen_IRW%20M2%26cl_sr%3DIRW%20M2%26source%3DNEW_WEB",
+    "{\"objectId_var\":\"https://store-companion.ikea.cn/design-leads/kitchen.html?channel=kitchen_IRW M2&cl_sr=IRW M2&source=NEW_WEB\",\"objectType_var\":\"default-module/H5\"}",
+    "IMAGE"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20260728/9c79c5928cf4407b88e099f5f79a0f60.png?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260728/9d622e5d59994a08b5f015f7155ee510.png?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260728/1dca4942e17f4e0d831f41c8f4803ca5.png?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260728/a08e4c18626f4717931e7a41fd397ae7.png?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260728/312dc94716ad4ddbb75c4a5e6b9dc3d8.png?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/h5page/?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fdesign-leads%2Fkitchen.html%3Fchannel%3Dkitchen_IRW%20M2%26cl_sr%3DIRW%20M2%26source%3DNEW_WEB",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260728/9c79c5928cf4407b88e099f5f79a0f60.png?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/h5page/?url=https%3A%2F%2Fkitchen.web.ikea.cn%2Fkitchen-offline",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260728/9d622e5d59994a08b5f015f7155ee510.png?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/landing-page/cn--zh--56b12ffbb39e4a84a226bb179c08eb37?productIds=&topProductFullIds=&assemblyProductFullIds=&utm_source=&utm_medium=&utm_campaign=&utm_content=&utm_term=&web_new=",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260728/1dca4942e17f4e0d831f41c8f4803ca5.png?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-富媒体卡片列表 Inspiration Cards-"
+   }
+  },
+  {
+   "type": "rich-text",
+   "title": null,
+   "texts": [
+    "<h2 style=\"line-height: 8px;\">体验厨房3D实际案例</h2>",
+    "#FFFFFF"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-富文本 Text-"
+   }
+  },
+  {
+   "type": "pub-banner",
+   "title": null,
+   "texts": [
+    "image-text-landscape",
+    "https://video.app.ikea.cn/1077b0cb872771f1ab926732b78e0102/5591c14c141c4ef89e6bf79d37ec30a4-314ab0a09a4631861a3e4debb886c3f4-sd.m3u8?auth_key=1786155602-ae29abf20c1e4f98b1ba63e9c2f8e8df-0-cc0dd53e6278e39508dd481391fd2525",
+    "VIDEO",
+    "wide",
+    "1077b0cb872771f1ab926732b78e0102",
+    "YES"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20260724/ca4d7c1cdc074aa59f5a09e2e2472860.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://video.app.ikea.cn/1077b0cb872771f1ab926732b78e0102/5591c14c141c4ef89e6bf79d37ec30a4-314ab0a09a4631861a3e4debb886c3f4-sd.m3u8?auth_key=1786155602-ae29abf20c1e4f98b1ba63e9c2f8e8df-0-cc0dd53e6278e39508dd481391fd2525",
+     "text": ""
+    },
+    {
+     "href": "/h5page/?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fdesign-leads%2Findex.html%3Fchannel%3Dkitchen_IRW%2BM2%26cl_sr%3DIRW%2BM2",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-媒体色块组合 Banner-"
+   }
+  },
+  {
+   "type": "rich-text",
+   "title": null,
+   "texts": [
+    "<h2 style=\"line-height: 24px;\">第四步 安装并享受您的新厨房</h2>\n<p style=\"line-height: 24px;\">您可以自己完成，我们也乐意效劳。</p>",
+    "#FFFFFF"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-富文本 Text-"
+   }
+  },
+  {
+   "type": "pub-assurances",
+   "title": null,
+   "texts": [
+    "customer-service/services/removal-recycling/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=customer-service%2Fservices%2Fremoval-recycling%2F",
+    "{\"objectId_var\":\"customer-service/services/removal-recycling/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "旧厨房拆除服务",
+    "TakeBackIcon"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/customer-service/services/delivery/",
+     "text": ""
+    },
+    {
+     "href": "/customer-service/services/kitchen-installation/",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-服务列表 Assurance-"
+   }
+  },
+  {
+   "type": "rich-text",
+   "title": null,
+   "texts": [
+    "#FFFFFF"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-富文本 Text-"
+   }
+  },
+  {
+   "type": "pub-inspiration-card",
+   "title": null,
+   "texts": [
+    "045e5a2a-9a8d-11ea-8543-6bbb72ceb2d5",
+    "/landing-page/cn--zh--c05393f081b211f0b492a9d5e45efea3?productIds=&topProductFullIds=&assemblyProductFullIds=&utm_source=&utm_medium=&utm_campaign=&utm_content=&utm_term=&web_new=",
+    "NO",
+    "ikea://cms/landing-page-popup?key=cn--zh--c05393f081b211f0b492a9d5e45efea3",
+    "{\"objectId_var\":\"cn--zh--c05393f081b211f0b492a9d5e45efea3\",\"objectType_var\":\"cms_h5_page\"}",
+    "IMAGE"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20260715/5916ea6ba90d415ead49a53a3aacef46.png?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260720/715cd81d88024101be2d1badb7e59274.png?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260715/d521671a191647bfba8b201d31cedcf5.png?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/landing-page/cn--zh--c05393f081b211f0b492a9d5e45efea3?productIds=&topProductFullIds=&assemblyProductFullIds=&utm_source=&utm_medium=&utm_campaign=&utm_content=&utm_term=&web_new=",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260715/5916ea6ba90d415ead49a53a3aacef46.png?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/landing-page/cn--zh--a620126a1a1e41f9a32f50290e7d01f2?productIds=&topProductFullIds=&assemblyProductFullIds=&utm_source=&utm_medium=&utm_campaign=&utm_content=&utm_term=&web_new=",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260720/715cd81d88024101be2d1badb7e59274.png?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260715/d521671a191647bfba8b201d31cedcf5.png?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-富媒体卡片列表 Inspiration Cards-"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "灵活储物，给厨房腾出更多空间",
+   "texts": [
+    "/cat/10471",
+    "NO",
+    "ikea://content/plp?catalogId=10471",
+    "{\"objectId_var\":\"10471\",\"objectType_var\":\"plp\"}",
+    "抽屉已经塞满，搁架也已满载，工作台面也腾不出空间。这时，有了一个带脚轮手推车就不用担心，无论是宽敞或狭小的厨房都适用。",
+    "灵活储物，给厨房腾出更多空间"
+   ],
+   "images": [
+    "https://static.web.ikea.cn/content/u/20260409/265932e79ed045eba33a05ce1a66ae32.jpg?x-oss-process=style/medium",
+    "https://static.web.ikea.cn/content/u/20260409/e39f3647a95d406684b258e5a2f815de.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/cat/10471",
+     "text": ""
+    },
+    {
+     "href": "https://static.web.ikea.cn/content/u/20260409/265932e79ed045eba33a05ce1a66ae32.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://static.web.ikea.cn/content/u/20260409/e39f3647a95d406684b258e5a2f815de.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "bestsellers:kitchen_room_page:new"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h3>专业配件，优化空间</h3>\n<p>专业又贴心的内配和墙面解决方案，优化你的厨房空间。让厨房变得更宽敞，使用更便利。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "why:kitchen_room_page:new"
+   }
+  },
+  {
+   "type": "pub-visual-pill-slider",
+   "title": null,
+   "texts": [
+    "一只手按下白色台灯的开关，台灯放在浅蓝色桌面上",
+    "/cat/20676",
+    "NO",
+    "ikea://content/plp?catalogId=20676",
+    "{\"objectId_var\":\"20676\",\"objectType_var\":\"plp\"}",
+    "IMAGE"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20260309/b5e3483f8988435d918aa2546ffdddb1.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260309/d8a165345cc046de9e7fc0766972ba02.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260309/2eeef17513a34ec886a6d820fdd0ddab.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220318/482d6cd1c0984ce5b22f06dbccf833bf.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220317/d8f06e525df94ea5bd6535b284e96919.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/cat/20676",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260309/b5e3483f8988435d918aa2546ffdddb1.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=瓦瑞拉",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260309/d8a165345cc046de9e7fc0766972ba02.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/cat/700171",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260309/2eeef17513a34ec886a6d820fdd0ddab.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "why:kitchen_room_page:new"
+   }
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "70602984",
+    "30613814",
+    "60602263",
+    "70623726",
+    "00600709"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Product List-"
+   }
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "20521947",
+    "80574018",
+    "00574017",
+    "90163525",
+    "40488391"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Product List-"
+   }
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Horizontal Line-"
+   }
+  },
+  {
+   "type": "pub-banner",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "image-text-landscape",
+    "<p><span style=\"font-size: inherit;\">冰箱在日常使用时很容易就变得杂乱无章，常常会出现奇怪的神秘盒子和不必要的食物浪费。这里有一些简单的技巧，可以帮助你提升整理能力，并释放冰箱的有效空间。</span></p>",
+    "整理冰箱的简单方法",
+    "/rooms/kitchen/how-to/easy-ways-to-organise-your-fridge-pub70cd3e1c",
+    "NO"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20220831/e71c9934dbb4409085e1617320a24e1b.jpg",
+    "https://file.app.ikea.cn/cms/u/20260713/c4c2141a44c741d2adffec59cbe3a547.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220831/e71c9934dbb4409085e1617320a24e1b.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260713/c4c2141a44c741d2adffec59cbe3a547.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/rooms/kitchen/how-to/easy-ways-to-organise-your-fridge-pub70cd3e1c",
+     "text": ""
+    },
+    {
+     "href": "/rooms/kitchen/how-to/easy-ways-to-organise-your-fridge-pub70cd3e1c",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Banner-"
+   }
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Horizontal Line-"
+   }
+  },
+  {
+   "type": "pub-inspiration-card",
+   "title": null,
+   "texts": [
+    "7bf818f0-24cb-11eb-8c7c-590a4922a88e",
+    "/rooms/kitchen/how-to/how-do-i-make-a-small-kitchen-look-bigger-pubbbac1b0d",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fkitchen%2Fhow-to%2Fhow-do-i-make-a-small-kitchen-look-bigger-pubbbac1b0d&key=cn--zh--996d65309f1f11eea8ce9da632bc7fcf",
+    "{\"objectId_var\":\"/rooms/kitchen/how-to/how-do-i-make-a-small-kitchen-look-bigger-pubbbac1b0d\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "IMAGE"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20260713/162bcb6732df45dba968c0b21f6c2ad7.png?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260713/b75bf25d336d4dab98d2732e84c08510.png?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260713/3d2b01a047294258972e5f78f2e60b28.png?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/rooms/kitchen/how-to/how-do-i-make-a-small-kitchen-look-bigger-pubbbac1b0d",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260713/162bcb6732df45dba968c0b21f6c2ad7.png?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/rooms/kitchen/how-to/a-quick-hop-for-your-kitchen-a-big-leap-for-family-mealtimes-pub3757af7e",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260713/b75bf25d336d4dab98d2732e84c08510.png?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/rooms/kitchen/how-to/maximising-kitchen-space-for-more-room-to-cook-pub3e30690c",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260713/3d2b01a047294258972e5f78f2e60b28.png?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "tips:kitchen_room_page:new"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h3>厨房经典系列</h3>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "classic:kitchen_room_page:new"
+   }
+  },
+  {
+   "type": "pub-visual-navigation",
+   "title": null,
+   "texts": [
+    "normal",
+    "/cat/ka005",
+    "NO",
+    "ikea://content/plp?catalogId=ka005",
+    "{\"objectId_var\":\"ka005\",\"objectType_var\":\"plp\"}",
+    "IMAGE"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20240903/a180a6a4a3b043ed97254ae7bd19161c.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220323/027d564ca0234de98d381426836f6e2c.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220323/759a28dff479442b8d08a4392227b320.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220323/199e5c1b867549b49a6b99f8e3f69c33.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/cat/ka005",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20240903/a180a6a4a3b043ed97254ae7bd19161c.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=安纳特",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220323/027d564ca0234de98d381426836f6e2c.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/cat/48977",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220323/759a28dff479442b8d08a4392227b320.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "classic:kitchen_room_page:new"
+   }
+  },
+  {
+   "type": "pub-visual-pill-slider",
+   "title": null,
+   "texts": [
+    "一只手正在调节GLYPEN 格吕彭 厨房水龙头的水流大小，水龙头采用不锈钢制成，旁边放着TÅRTSMET 托米特 洗盘刷",
+    "/ideas/tips-for-more-sustainable-living/quick-tricks-to-save-energy-at-home-pubad783f90",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fideas%2Ftips-for-more-sustainable-living%2Fquick-tricks-to-save-energy-at-home-pubad783f90",
+    "{\"objectId_var\":\"/ideas/tips-for-more-sustainable-living/quick-tricks-to-save-energy-at-home-pubad783f90\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "IMAGE"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20250808/f2e0305a320d491e867041cf021305b0.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20250808/a67e4e9ca0e944ee913ae927fd91d6c6.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20250808/ce1cc52f6a0c476eb7a09a39735c5334.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20250808/85e7c4d664674f5ba43351e424a3a339.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20250422/ed9aff1aa0b0475fa51994e57d6e3531.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/ideas/tips-for-more-sustainable-living/quick-tricks-to-save-energy-at-home-pubad783f90",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20250808/f2e0305a320d491e867041cf021305b0.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/ideas/tips-for-more-sustainable-living/smart-solutions-to-save-water-at-home-pubfdfe8c45",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20250808/a67e4e9ca0e944ee913ae927fd91d6c6.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/ideas/tips-for-more-sustainable-living/easy-wins-to-eating-more-sustainably-pubdbfa9a20",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20250808/ce1cc52f6a0c476eb7a09a39735c5334.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-带按钮图片列表 Visual Pill Slider-"
+   }
+  },
+  {
+   "type": "inspirations",
+   "title": null,
+   "texts": [
+    "IMAGE_ONLY",
+    "WATERFALL",
+    "NO",
+    "PGC",
+    "TAGS_INPUT",
+    "1d5b9cf31d3d3fb58e3704313ff71739"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-灵感图-"
+   }
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/cat/patrull-pa-te-lu-xi-lie-08265",
+ "id": "patrull-pa-te-lu-xi-lie-08265",
+ "name": "\"帕特鲁\"系列",
+ "description": "每个人都需要家居小帮手。宜家 PATRULL 帕特鲁 系列可以助你预防擦伤、刮伤，以及其他更可怕的安全事故。虽然我们并不希望发生这类事故，但也需要提前预防。查看我们的 PATRULL 帕特鲁 系列，了解闩锁、膨胀螺拴、保险杠、垫子等产品，使家居环境更加安全。",
+ "total": 2,
+ "products": [
+  {
+   "id": "30175606",
+   "name": "PATRULL 帕特鲁",
+   "price": 39.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/patrull-pa-te-lu-an-quan-men-dang-bai-se__0710894_pe727826_s4.jpg",
+   "productType": "安全门挡",
+   "designText": "白色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "patrull-pa-te-lu-an-quan-men-dang-bai-se"
+  },
+  {
+   "id": "60599557",
+   "name": "PATRULL 帕特鲁",
+   "price": 19.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/patrull-pa-te-lu-an-quan-cha-tou-bai-se__0755347_pe748380_s4.jpg",
+   "productType": "安全插头",
+   "designText": "白色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "patrull-pa-te-lu-an-quan-cha-tou-bai-se"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "30175606",
+   "type": "ART",
+   "fullId": "30175606"
+  },
+  {
+   "id": "60599557",
+   "type": "ART",
+   "fullId": "60599557"
+  }
+ ]
+}

@@ -1,0 +1,124 @@
+{
+ "url": "/cn/zh/rooms/bedroom/gallery/zhen1-zheng4-yi3-tian1-ran2-cai2-zhi4-da3-zao4-de-wo4-shi4-pub7c31acf1",
+ "family": "rooms",
+ "id": "cn--zh--7c31acf17af411e9b3b69fb6954ae5b1",
+ "title": "真正以天然材质打造的卧室",
+ "name": "20201_rmbe05a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "真正以天然材质打造的卧室"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "明亮的卧室里选用了多种天然材料，如藤条和竹子。床的附近有一扇大大的玻璃门，门外是户外区域。",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "s99288187"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/07/6f/076fe5a69649770bb5349647b4b8b571.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/07/6f/076fe5a69649770bb5349647b4b8b571.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>温馨时尚的外观，舒适怡人的氛围，可持续的选择——选用以天然材料打造的家具可谓益处良多！</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "一张配有藤条床头板、白色被套及枕套的床。竹制吊灯悬挂在床的两边。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "90318551"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/42/60/42608c49d7bc99bf4f9a7579d8c0c1fd.jpg",
+    "https://file.app.ikea.cn/images/25/40/254080d5f368eba5fff4f039992eddf1.jpg",
+    "https://file.app.ikea.cn/images/5a/11/5a114b36f2ec43e1e6140801a587e7b4.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/42/60/42608c49d7bc99bf4f9a7579d8c0c1fd.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/25/40/254080d5f368eba5fff4f039992eddf1.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/5a/11/5a114b36f2ec43e1e6140801a587e7b4.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "BUSKBO 布克伯 藤椅配白色靠垫、深灰色和白色窗帘、长椅、绿色植物和灰色地毯。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "s79299016"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/08/c8/08c8ee1ab9422ca1679c97ee51177f73.jpg",
+    "https://file.app.ikea.cn/images/40/4e/404ee3bfa68ff02051d4a938ecd4a0b9.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/08/c8/08c8ee1ab9422ca1679c97ee51177f73.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/40/4e/404ee3bfa68ff02051d4a938ecd4a0b9.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s99288187",
+    "s79299016",
+    "60428990",
+    "80404479",
+    "90318551"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

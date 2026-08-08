@@ -1,14 +1,16 @@
 import { notFound } from "next/navigation";
-import { findContentPage, pagesByFamily } from "@/lib/pages";
+import { findContentPage, pagesAtDepth } from "@/lib/pages";
 import { ContentPage } from "@/components/ContentPage";
 import { SiteLayout } from "@/components/SiteLayout";
 
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return pagesByFamily("services").map((page) => ({
-    slug: page.url.split("/").filter(Boolean).at(-1) ?? "",
-  }));
+  return pagesAtDepth("customer-service", 4)
+    .filter((page) => page.url.startsWith("/cn/zh/customer-service/services/"))
+    .map((page) => ({
+      slug: page.url.split("/").filter(Boolean).at(-1) ?? "",
+    }));
 }
 
 export default async function ServicePage({

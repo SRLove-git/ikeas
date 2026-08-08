@@ -1,0 +1,92 @@
+{
+ "url": "/cn/zh/cat/bao-wen-ping-20620",
+ "id": "bao-wen-ping-20620",
+ "name": "保温瓶",
+ "description": "希望外出时饮料保持合适的温度？我们有不同尺寸的保温瓶，可以为你的冷热饮料保温。从不同风格款式和尺寸的保温瓶及保温壶中找到最适合你的那款。",
+ "total": 5,
+ "products": [
+  {
+   "id": "50360231",
+   "name": "UNDERLÄTTA 昂德拉塔",
+   "price": 149,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/underlaetta-ang-de-la-ta-bao-wen-ping-hei-se__0587054_pe672381_s4.jpg",
+   "productType": "保温瓶",
+   "designText": "黑色",
+   "measureText": "1.2 公升",
+   "url": null,
+   "seoSlug": "underlaetta-ang-de-la-ta-bao-wen-ping-hei-se"
+  },
+  {
+   "id": "30163463",
+   "name": "SLUKA 斯鲁卡",
+   "price": 99.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/sluka-si-lu-qia-bao-wen-ping-bu-xiu-gang__0713345_pe729451_s4.jpg",
+   "productType": "保温瓶",
+   "designText": "不锈钢",
+   "measureText": "1.8 公升",
+   "url": null,
+   "seoSlug": "sluka-si-lu-qia-bao-wen-ping-bu-xiu-gang"
+  },
+  {
+   "id": "30541351",
+   "name": "TAGGÖGA 塔格加",
+   "price": 79.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/taggoega-ta-ge-jia-bao-wen-ping-hui-bai__1157036_pe887440_s4.jpg",
+   "productType": "保温瓶",
+   "designText": "灰白",
+   "measureText": "1.6 公升",
+   "url": null,
+   "seoSlug": "taggoega-ta-ge-jia-bao-wen-ping-hui-bai"
+  },
+  {
+   "id": "00288370",
+   "name": "EFTERFRÅGAD 伊特弗加",
+   "price": 59.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/efterfragad-yi-te-fu-jia-zhen-kong-shi-wu-guan-bu-xiu-gang__0712766_pe729003_s4.jpg",
+   "productType": "真空食物罐",
+   "designText": "不锈钢",
+   "measureText": "0.5 公升",
+   "url": null,
+   "seoSlug": "efterfragad-yi-te-fu-jia-zhen-kong-shi-wu-guan-bu-xiu-gang"
+  },
+  {
+   "id": "50353891",
+   "name": "BEHÖVD 比胡德",
+   "price": 39.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/behoevd-bi-hu-de-bao-wen-ping-qian-lu-mi-huang-se__0498600_pe629671_s4.jpg",
+   "productType": "保温瓶",
+   "designText": "浅绿/米黄色",
+   "measureText": "1 公升",
+   "url": null,
+   "seoSlug": "behoevd-bi-hu-de-bao-wen-ping-qian-lu-mi-huang-se"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "50360231",
+   "type": "ART",
+   "fullId": "50360231"
+  },
+  {
+   "id": "30163463",
+   "type": "ART",
+   "fullId": "30163463"
+  },
+  {
+   "id": "30541351",
+   "type": "ART",
+   "fullId": "30541351"
+  },
+  {
+   "id": "00288370",
+   "type": "ART",
+   "fullId": "00288370"
+  },
+  {
+   "id": "50353891",
+   "type": "ART",
+   "fullId": "50353891"
+  }
+ ]
+}

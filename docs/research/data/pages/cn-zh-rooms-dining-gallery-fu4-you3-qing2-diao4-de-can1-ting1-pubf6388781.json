@@ -1,0 +1,146 @@
+{
+ "url": "/cn/zh/rooms/dining/gallery/fu4-you3-qing2-diao4-de-can1-ting1-pubf6388781",
+ "family": "rooms",
+ "id": "cn--zh--f63887819e2111e9a6d14535ebfeabf1",
+ "title": "富有情调的餐厅",
+ "name": "20202_rmdi01a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "富有情调的餐厅"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "色彩缤纷的小家里放置着黄色的椅子和白色的桌子。窗帘、地毯、沙发和厨房柜门图案各异。",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "s19011777"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/c0/90/c0904b21709e035bec410439600fe23a.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/c0/90/c0904b21709e035bec410439600fe23a.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>吃燕麦早餐，在晚上复习备考或与朋友聚会到深夜？无论什么情况，这间餐厅都能满足你的需求。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "白色桌子，黄色椅子，一个大型白色抽屉柜和一个推到白色桌子旁的小型附脚轮抽屉柜。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "s29301700"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/98/70/987001e1a24afafce7c0cd71b2b9306d.jpg",
+    "https://file.app.ikea.cn/images/e2/94/e294305eb53e043af1b833eb6438b34d.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/98/70/987001e1a24afafce7c0cd71b2b9306d.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/e2/94/e294305eb53e043af1b833eb6438b34d.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "白色的桌子，黄色的椅子，白色的墙砖上安装着一盏黑色的壁灯。冰淇淋盛放在桌子上的粉色碗中。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "90326023"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/a5/fe/a5fe565eef92edb16d7c4c79b23122e2.jpg",
+    "https://file.app.ikea.cn/images/07/96/0796ec02237e133d770093215ea2e269.jpg",
+    "https://file.app.ikea.cn/images/11/6b/116bd27420082f31a61e11bd716d40e0.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/a5/fe/a5fe565eef92edb16d7c4c79b23122e2.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/07/96/0796ec02237e133d770093215ea2e269.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/11/6b/116bd27420082f31a61e11bd716d40e0.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "两扇窗户上，白色的卷帘半垂着。窗户前摆放着绿色植物，植物后方有一盏白色的台灯。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "20242282"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/0e/23/0e23c2ea880005a259c61d2af7169dfd.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/0e/23/0e23c2ea880005a259c61d2af7169dfd.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s19011777",
+    "s29301700",
+    "s49304199",
+    "s89284632",
+    "s99248870"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

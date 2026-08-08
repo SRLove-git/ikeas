@@ -1,0 +1,124 @@
+{
+ "url": "/cn/zh/rooms/kitchen/gallery/xing3-mu4-er2-jian3-yue1-pubef0201a0",
+ "family": "rooms",
+ "id": "cn--zh--ef0201a0110b11ea9be0efb138516c0e",
+ "title": "醒目而简约",
+ "name": "20203_rmme01a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "醒目而简约"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "高光泽深红褐色调的厨房，饰有六边形图案的地板，带电线的裸灯泡从天花板上垂下。",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "50428293"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/f6/2f/f62fb5623b70b7b6791569fe4a514cdd.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/f6/2f/f62fb5623b70b7b6791569fe4a514cdd.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>虽然简约，但却非常引人注目、极具表现力。想忠于自己的风格？那就选择既能彰显个性，同时又不失巧妙功能和可持续性的厨房吧。封闭式储物装置能帮你搞定这一切！</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "厨房里设有高光泽抽屉、深红褐色的门以及炭黑色的 TUTEMO 图特莫 开放式橱柜，橱柜上摆放着玻璃罐。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "00349825"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/5f/dd/5fdd1149583e4b5c32d4ed4fb07a4e8d.jpg",
+    "https://file.app.ikea.cn/images/03/76/0376a98a183b02ed5a27fdee6d9af9b5.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/5f/dd/5fdd1149583e4b5c32d4ed4fb07a4e8d.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/03/76/0376a98a183b02ed5a27fdee6d9af9b5.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "拉丝黑色金属 GAMLESJÖN 甘勒逊 厨房龙头搭配黑色水槽，呈现出醒目而协调的外观效果。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "20341673"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/4c/43/4c43e6f3271be7c2de658d59661607ac.jpg",
+    "https://file.app.ikea.cn/images/cc/f0/ccf0a082f6cc3f6aaa61fc1c996fbd62.jpg",
+    "https://file.app.ikea.cn/images/da/42/da42f193d9d8d9855ea2bfe4c99d5013.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/4c/43/4c43e6f3271be7c2de658d59661607ac.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/cc/f0/ccf0a082f6cc3f6aaa61fc1c996fbd62.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/da/42/da42f193d9d8d9855ea2bfe4c99d5013.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "50428293",
+    "10409017",
+    "10431669",
+    "50342478",
+    "20341673"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

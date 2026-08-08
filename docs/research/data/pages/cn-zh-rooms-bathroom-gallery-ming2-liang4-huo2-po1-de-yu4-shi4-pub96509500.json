@@ -1,0 +1,124 @@
+{
+ "url": "/cn/zh/rooms/bathroom/gallery/ming2-liang4-huo2-po1-de-yu4-shi4-pub96509500",
+ "family": "rooms",
+ "id": "cn--zh--96509500215d11ea9ccfc58ee28d9610",
+ "title": "明亮活泼的浴室",
+ "name": "20204_rmba04a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "明亮活泼的浴室"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "粉色和青绿色浴室配有白色洗脸池和壁柜、粉色浴室地垫和青绿色浴帘。",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "s89292825"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/a8/cd/a8cdce7381ce9f063862fe1275d35559.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/a8/cd/a8cdce7381ce9f063862fe1275d35559.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>巧妙灵活的储物创意、生动活泼的色彩和你与伴侣的专属空间——这个浴室会让你绽放笑颜！</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "白色洗脸池柜的两个抽屉打开着。里面是烟灰色透明储物盒，用于收纳化妆品等。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "10400267"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/b3/5a/b35a1bbfd44f7e66f3c696a75f072ea4.jpg",
+    "https://file.app.ikea.cn/images/56/d2/56d260227d093fccf3f5100255000298.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/b3/5a/b35a1bbfd44f7e66f3c696a75f072ea4.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/56/d2/56d260227d093fccf3f5100255000298.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "窗户下的墙上安装着 BROGRUND 布鲁格隆德 不锈钢毛巾杆，上面挂着绿色和粉色的编织条纹毛巾。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "20439405"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/4d/75/4d75042c1359e2c73b0a28a87f36b79f.jpg",
+    "https://file.app.ikea.cn/images/ea/6c/ea6cf351fd3eb645bdafe79955a537f2.jpg",
+    "https://file.app.ikea.cn/images/cf/fd/cffdd197389ceed68d0aa0fc23b0abab.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/4d/75/4d75042c1359e2c73b0a28a87f36b79f.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/ea/6c/ea6cf351fd3eb645bdafe79955a537f2.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/cf/fd/cffdd197389ceed68d0aa0fc23b0abab.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s89292825",
+    "90342546",
+    "80342542",
+    "90328526",
+    "60342595"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

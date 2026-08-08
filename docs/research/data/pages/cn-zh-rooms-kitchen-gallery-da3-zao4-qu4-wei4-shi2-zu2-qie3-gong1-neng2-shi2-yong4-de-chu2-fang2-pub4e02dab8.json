@@ -1,0 +1,65 @@
+{
+ "url": "/cn/zh/rooms/kitchen/gallery/da3-zao4-qu4-wei4-shi2-zu2-qie3-gong1-neng2-shi2-yong4-de-chu2-fang2-pub4e02dab8",
+ "family": "rooms",
+ "id": "cn--zh--4e02dab87ee211eabb7339551ead3a94",
+ "title": "打造趣味十足且功能实用的厨房",
+ "name": "662041_mend20a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "打造趣味十足且功能实用的厨房",
+   "texts": [
+    "厨房的一个小角落，白色橱柜配有黑板柜门，上面还写着留言信息。",
+    "<p>在厨房发挥你的无限创意！VEDDINGE 维丁格 白色柜门搭配UDDEVALLA 伍德拉 黑板柜门，打造充满个性的厨房空间。黑板既可以展示你的艺术创作，也可以记录购物清单。</p>",
+    "打造趣味十足且功能实用的厨房",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/e7/75/e7758b4abeae57ca00463a3048d8e294.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/e7/75/e7758b4abeae57ca00463a3048d8e294.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/cat/23613",
+    "NO",
+    "ikea://content/plp?catalogId=23613",
+    "{\"objectId_var\":\"23613\",\"objectType_var\":\"plp\"}",
+    "button",
+    "查看所有厨房柜门"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/23613",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "10345676",
+    "20205430",
+    "40348895",
+    "60335651",
+    "00455161"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/bathroom/gallery/yushi-pubde400111",
+ "family": "rooms",
+ "id": "cn--zh--de400111cb9d11e78e0a0bf79e0fa98f",
+ "title": "你的小空间专家",
+ "name": "20174-coba02a_PF_CT_SEO_QA",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "你的小空间专家",
+   "texts": [
+    "白色、绿色和黑色的浴室内，放着带有开放式和封闭式储物装置的白色水槽柜。",
+    "你的小空间专家",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/14/1c/141c5863779dc90886a0001d017f60bb.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/14/1c/141c5863779dc90886a0001d017f60bb.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s79188122",
+    "50262117",
+    "10210328",
+    "40178987",
+    "60082521"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

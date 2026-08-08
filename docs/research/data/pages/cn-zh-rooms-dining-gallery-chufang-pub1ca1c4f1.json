@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/dining/gallery/chufang-pub1ca1c4f1",
+ "family": "rooms",
+ "id": "cn--zh--1ca1c4f1109711e8b1909545c9aebdf1",
+ "title": "聚在一起，长久相伴",
+ "name": "20184-codi02a_PF_CT_SEO",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "聚在一起，长久相伴",
+   "texts": [
+    "米色和黑色餐厅的中央，摆放着以相思木制成的 SKOGSTA 斯古塔 餐桌，周围有几把黑色椅子。",
+    "聚在一起，长久相伴",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/72/fc/72fcf1057099e52480e3db0cd471138b.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/72/fc/72fcf1057099e52480e3db0cd471138b.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "90382716",
+    "10362680",
+    "90363652",
+    "80362691",
+    "70253536"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

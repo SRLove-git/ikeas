@@ -1,0 +1,76 @@
+{
+ "url": "/cn/zh/cat/yuan-xing-di-tan-20543",
+ "id": "yuan-xing-di-tan-20543",
+ "name": "宜家地毯-圆形地毯",
+ "description": "访问宜家，查看款式丰富的高品质圆形地毯，有多种风格、尺寸、材质和颜色供你选择。选购平织地毯、长绒地毯、东方地毯和更多产品。我们提供各种地毯，从门垫到适用于沙发或扶手椅的大地毯，应有尽有。",
+ "total": 4,
+ "products": [
+  {
+   "id": "10508418",
+   "name": "VINDEBÄK 文德拜",
+   "price": 249,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/vindebaek-wen-de-bai-chang-rong-di-tan-shen-lu-se__0994152_pe820883_s4.jpg",
+   "productType": "长绒地毯",
+   "designText": "深绿色",
+   "measureText": "130 厘米",
+   "url": null,
+   "seoSlug": "vindebaek-wen-de-bai-chang-rong-di-tan-shen-lu-se"
+  },
+  {
+   "id": "80426805",
+   "name": "STOENSE 斯托恩瑟",
+   "price": 399,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/stoense-si-tuo-en-se-duan-rong-di-tan-hui-bai__0622593_pe690629_s4.jpg",
+   "productType": "短绒地毯",
+   "designText": "灰白",
+   "measureText": "130 厘米",
+   "url": null,
+   "seoSlug": "stoense-si-tuo-en-se-duan-rong-di-tan-hui-bai"
+  },
+  {
+   "id": "10573121",
+   "name": "FULLMAKT 弗马克特",
+   "price": 399,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/fullmakt-fu-ma-ke-te-ping-zhi-di-tan-shi-nei-hu-wai-mi-huang-se-hun-he-wu__1239379_pe918860_s4.jpg",
+   "productType": "平织地毯，室内/户外",
+   "designText": "米黄色/混合物",
+   "measureText": "130 厘米",
+   "url": null,
+   "seoSlug": "fullmakt-fu-ma-ke-te-ping-zhi-di-tan-shi-nei-hu-wai-mi-huang-se-hun-he-wu"
+  },
+  {
+   "id": "60426830",
+   "name": "STOENSE 斯托恩瑟",
+   "price": 399,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/stoense-si-tuo-en-se-duan-rong-di-tan-zhong-hui-se__0622587_pe690625_s4.jpg",
+   "productType": "短绒地毯",
+   "designText": "中灰色",
+   "measureText": "130 厘米",
+   "url": null,
+   "seoSlug": "stoense-si-tuo-en-se-duan-rong-di-tan-zhong-hui-se"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "10508418",
+   "type": "ART",
+   "fullId": "10508418"
+  },
+  {
+   "id": "80426805",
+   "type": "ART",
+   "fullId": "80426805"
+  },
+  {
+   "id": "10573121",
+   "type": "ART",
+   "fullId": "10573121"
+  },
+  {
+   "id": "60426830",
+   "type": "ART",
+   "fullId": "60426830"
+  }
+ ]
+}

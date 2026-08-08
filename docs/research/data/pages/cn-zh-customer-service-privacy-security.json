@@ -1,0 +1,50 @@
+{
+ "url": "/cn/zh/customer-service/privacy-security",
+ "family": "customer-service",
+ "id": "cn--zh--e1f27ff6-7ce6-11eb-9439-0242ac130002",
+ "title": "隐私和安全",
+ "name": "Privacy & security ",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "隐私和安全"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>我们认为每位在线顾客都应获得宾至如归的感受。因此，宜家正致力于设定相关标准，以明确如何保护每位顾客及其个人信息的安全，并确保顾客的个人信息始终得到合理地管理。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--customer-service--privacy-policy",
+    "/customer-service/privacy-policy/",
+    "section",
+    "隐私政策",
+    "宜家顾客个人信息政策, 个人信息,政策,注意事项,隐私政策",
+    "https://file.app.ikea.cn/cms/u/20230413/f4cf6da8243245a390bb88336cbc83a8.mp4"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20230413/f4cf6da8243245a390bb88336cbc83a8.mp4",
+     "text": ""
+    }
+   ],
+   "settings": null
+  }
+ ]
+}

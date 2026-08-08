@@ -1,0 +1,108 @@
+{
+ "url": "/cn/zh/cat/pokal-bo-ke-er-xi-lie-11910",
+ "id": "pokal-bo-ke-er-xi-lie-11910",
+ "name": "\"博克尔\"系列",
+ "description": "查看我们的 POKAL 博克尔 马克杯、玻璃杯和盛具系列。该系列采用经典设计风格，有多种尺寸、颜色和材质可选——尽情混搭吧！前往宜家官网，寻找创意灵感，了解如何优雅享用冷热饮品。",
+ "total": 6,
+ "products": [
+  {
+   "id": "60623185",
+   "name": "POKAL 博克尔",
+   "price": 7.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/pokal-bo-ke-er-bei-zi-tou-ming-bo-li__0713251_pe729361_s4.jpg",
+   "productType": "杯子",
+   "designText": "透明玻璃",
+   "measureText": "35 厘升",
+   "url": null,
+   "seoSlug": "pokal-bo-ke-er-bei-zi-tou-ming-bo-li"
+  },
+  {
+   "id": "80574018",
+   "name": "POKAL 博克尔",
+   "price": 9.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/pokal-bo-ke-er-bei-zi-qian-lan-se__1257587_pe925901_s4.jpg",
+   "productType": "杯子",
+   "designText": "浅蓝色",
+   "measureText": "35 厘升",
+   "url": null,
+   "seoSlug": "pokal-bo-ke-er-bei-zi-qian-lan-se"
+  },
+  {
+   "id": "20623111",
+   "name": "POKAL 博克尔",
+   "price": 7.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/pokal-bo-ke-er-bei-zi-hui-se__1489990_pe1004034_s4.jpg",
+   "productType": "杯子",
+   "designText": "灰色",
+   "measureText": "35 厘升",
+   "url": null,
+   "seoSlug": "pokal-bo-ke-er-bei-zi-hui-se"
+  },
+  {
+   "id": "60621817",
+   "name": "POKAL 博克尔",
+   "price": 4.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/pokal-bo-ke-er-bei-zi-tou-ming-bo-li__1468546_pe996183_s4.jpg",
+   "productType": "杯子",
+   "designText": "透明玻璃",
+   "measureText": "27 厘升",
+   "url": null,
+   "seoSlug": "pokal-bo-ke-er-bei-zi-tou-ming-bo-li"
+  },
+  {
+   "id": "00581490",
+   "name": "POKAL 博克尔",
+   "price": 2.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/pokal-bo-ke-er-nong-suo-ka-pei-bei-tou-ming-bo-li__1335438_pe947073_s4.jpg",
+   "productType": "浓缩咖啡杯",
+   "designText": "透明玻璃",
+   "measureText": "10 厘升",
+   "url": null,
+   "seoSlug": "pokal-bo-ke-er-nong-suo-ka-pei-bei-tou-ming-bo-li"
+  },
+  {
+   "id": "60137849",
+   "name": "POKAL 博克尔",
+   "price": 9.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/pokal-bo-ke-er-lie-xing-jiu-bei-tou-ming-bo-li__0712795_pe729065_s4.jpg",
+   "productType": "烈性酒杯",
+   "designText": "透明玻璃",
+   "measureText": "5 厘升",
+   "url": null,
+   "seoSlug": "pokal-bo-ke-er-lie-xing-jiu-bei-tou-ming-bo-li"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "60623185",
+   "type": "ART",
+   "fullId": "60623185"
+  },
+  {
+   "id": "80574018",
+   "type": "ART",
+   "fullId": "80574018"
+  },
+  {
+   "id": "20623111",
+   "type": "ART",
+   "fullId": "20623111"
+  },
+  {
+   "id": "60621817",
+   "type": "ART",
+   "fullId": "60621817"
+  },
+  {
+   "id": "00581490",
+   "type": "ART",
+   "fullId": "00581490"
+  },
+  {
+   "id": "60137849",
+   "type": "ART",
+   "fullId": "60137849"
+  }
+ ]
+}

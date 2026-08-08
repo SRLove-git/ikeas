@@ -1,0 +1,179 @@
+{
+ "url": "/cn/zh/rooms/dining/how-to",
+ "family": "rooms",
+ "id": "cn--zh--ea6222e428fd41e68fbb6d9954e24d57",
+ "title": "餐厅创意图库",
+ "name": "702621_htga04a",
+ "hero": "https://file.app.ikea.cn/content/u/20250326/111FB4BB-F1CD-4D76-B4E0F02D1AC6A235.jpg",
+ "blocks": [
+  {
+   "type": "pub-standardised-hero",
+   "title": "餐厅布置小窍门和创意",
+   "texts": [
+    "<p>寻找可以充分利用空间筹办聚会的餐厅布置创意或方法？从小型用餐区规划和漂亮的餐桌布置方案，到选择合适的玻璃杯来分装饮品，以及在有限的预算内筹办娱乐活动，你都可以从下面这些实用小窍门中获取灵感。</p>",
+    "餐厅布置小窍门和创意"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Standardised Hero-餐厅布置小窍门和创意"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p><strong><a href=\"#71591c20-db3f-11eb-a3c8-e1742b5649c2\">布置和装饰餐桌</a> | <a href=\"#2a2bfac0-db3f-11eb-a3c8-e1742b5649c2\">充分利用空间</a></strong></p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-分割线 Horizontal Line-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>布置和装饰餐桌</h2>\n<p>无论是日常用餐还是特殊场合，餐桌布置都有助于营造合适的氛围。探索一些简单的布置技巧和创意灵感，为每一次的用餐时光增添多一点仪式感。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--170dcd107f5a11f0b492a9d5e45efea3",
+    "/rooms/dining/how-to/how-to-create-a-festive-table-setting-pubb33bca06",
+    "page",
+    "适合各类庆典的餐桌布置灵感",
+    "从惬意早午餐到热闹派对，探索四种充满灵感启发的餐桌布置方案，为各式聚会增添魅力、温馨感与热情氛围。",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fdining%2Fhow-to%2Fhow-to-create-a-festive-table-setting-pubb33bca06&key=cn--zh--170dcd107f5a11f0b492a9d5e45efea3"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/content/u/20250703/1F0F4451-8148-41EE-AD0B6C7C4507C368.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20251020/e778df0170b74e8d95f71f15a0d15b9d.webp",
+    "https://file.app.ikea.cn/cms/u/20251020/f324d23b610a4a2fa6dc9d78d262437a.webp",
+    "https://file.app.ikea.cn/content/u/20250106/8E43C97A-4632-470C-91D96B7B8D2C5BB9.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content/u/20250116/857F3E08-41C2-4F4F-B7D6413C3678DDD6.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/content/u/20250703/1F0F4451-8148-41EE-AD0B6C7C4507C368.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20251020/e778df0170b74e8d95f71f15a0d15b9d.webp",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20251020/f324d23b610a4a2fa6dc9d78d262437a.webp",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20250106/8E43C97A-4632-470C-91D96B7B8D2C5BB9.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20250116/857F3E08-41C2-4F4F-B7D6413C3678DDD6.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20240925/B72F471B-3B8D-4539-8261AC1C0F2739FF.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-页面列表 Page List-"
+   }
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-分割线 Horizontal Line-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>充分利用空间</h2>\n<p>无论用餐区空间大或小，都同样蕴藏丰富潜力。探索一些巧妙的解决方案和节省空间的创意，既能保留个性风格，又能充分发掘用餐区的潜力。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--328fbb30cdc011efa054d77051af7d67",
+    "/rooms/dining/how-to/ru2-he2-she4-ji4-yi1-ge4-duo1-gong1-neng2-yong4-can1-qu1-pub0722746b",
+    "page",
+    "如何打造一个多功能用餐区",
+    "想为家规划一个多功能用餐区吗？以下这些储物、餐桌、照明等方面的建议可帮助你实现心愿。现在就来看看吧。",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fdining%2Fhow-to%2Fru2-he2-she4-ji4-yi1-ge4-duo1-gong1-neng2-yong4-can1-qu1-pub0722746b&key=cn--zh--328fbb30cdc011efa054d77051af7d67"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/content/u/20250116/F05C1DE6-790B-46D8-8CB39FC83AD94244.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content-space/barn-images/86404E59-A0DB-45CF-B7D8A118DB2F6616/main-v1.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/images/70/49/7049933a4b74faddebccb83b55732681.jpg",
+    "https://file.app.ikea.cn/images/e0/1f/e01f85feb422f6909611783681c3e1db.jpg",
+    "https://file.app.ikea.cn/images/02/6f/026f0392372976ec801892eeb4dce1d6.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/content/u/20250116/F05C1DE6-790B-46D8-8CB39FC83AD94244.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content-space/barn-images/86404E59-A0DB-45CF-B7D8A118DB2F6616/main-v1.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/70/49/7049933a4b74faddebccb83b55732681.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/e0/1f/e01f85feb422f6909611783681c3e1db.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/02/6f/026f0392372976ec801892eeb4dce1d6.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/8f/33/8f33d2b520571cac4d1e4b37f0b5ee88.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-页面列表 Page List-"
+   }
+  }
+ ]
+}

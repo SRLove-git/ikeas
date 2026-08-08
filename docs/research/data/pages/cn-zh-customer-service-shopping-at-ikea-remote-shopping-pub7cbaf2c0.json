@@ -1,0 +1,94 @@
+{
+ "url": "/cn/zh/customer-service/shopping-at-ikea/remote-shopping-pub7cbaf2c0",
+ "family": "customer-service",
+ "id": "cn--zh--7cbaf2c0337c11eb9af911710621ec0d",
+ "title": "宜家远程购物",
+ "name": "宜家远程购物服务",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "宜家远程购物"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>既要看款式，又忙着看尺寸和布局？ <br />你还在为置办大件家具、 或者和设计师商量设计方案， 在家和宜家之间来回奔波吗？</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/a1/6d/a16dbe975b91b29c84311d1adabde3ff.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/a1/6d/a16dbe975b91b29c84311d1adabde3ff.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "<h2>零接触远程下单，<br />一对一服务</h2>\n<p>宜家远程购物服务，实现更大范围精准覆盖&mdash;&mdash;包括现有店铺所在23个城市以及物流可达的100多个地区。您无需多次往返线下商场，即可远程打造你的梦想家。</p>\n<p>点击预约按钮，留下您的信息，<strong>24小时内</strong>就会有专人联系您，帮助你完成家具或家居产品的一站式购物！</p>",
+    "pub-text",
+    "/h5page/?url=https%3A%2F%2Fstore-companion.ikea.cn%2Frs%3Fchannel%3Decchannel%26cl_sr%3Drs_irw",
+    "YES",
+    "ikea://default-module/H5?url=https%3A%2F%2Fstore-companion.ikea.cn%2Frs%3Fchannel%3Decchannel%26cl_sr%3Drs_irw"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/41/5c/415c71881029e3f24000ef24eed708f4.jpg"
+   ],
+   "links": [
+    {
+     "href": "/h5page/?url=https%3A%2F%2Fstore-companion.ikea.cn%2Frs%3Fchannel%3Decchannel%26cl_sr%3Drs_irw",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/41/5c/415c71881029e3f24000ef24eed708f4.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/customer-service/services/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fcustomer-service%2Fservices%2F&key=",
+    "{\"objectId_var\":\"/customer-service/services/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "了解更多服务信息"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/customer-service/services/",
+     "text": ""
+    }
+   ],
+   "settings": null
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "url": "/cn/zh/rooms/outdoor/gallery/xia4-tian1-de-hu4-wai4-can1-ting1-pub3eb9cff1",
+ "family": "rooms",
+ "id": "cn--zh--3eb9cff1292e11e98e3dd53ddd62671b",
+ "title": "夏天的户外餐厅",
+ "name": "20194_rmod02a_CT",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "夏天的户外餐厅",
+   "texts": [
+    "宜家 KOLBJÖRN 科比约恩 米白色搁架单元在室内和户外均可使用。它包含两层搁板，可叠放组合成更高的单元。",
+    "<p>将你的露台或户外区域变成第二间餐厅。有了可折叠桌椅和可叠放 KOLBJ&Ouml;RN 科比约恩 搁架单元，你就能存放工具和餐具，还有足够空间伸展四肢，沐浴阳光！</p>",
+    "夏天的户外餐厅",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/d5/fc/d5fca3fa41d1b040ab58264099d47e64.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/d5/fc/d5fca3fa41d1b040ab58264099d47e64.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "60409294",
+    "30409295",
+    "80311828",
+    "80311833",
+    "70418170"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

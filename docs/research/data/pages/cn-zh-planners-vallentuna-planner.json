@@ -1,0 +1,51 @@
+{
+ "url": "/cn/zh/planners/vallentuna-planner",
+ "family": "planners",
+ "id": "cn--zh--906d6a3c1edd4c0ea6bf2aa40fcc4d35",
+ "title": "宜家VALLENTUNA 瓦伦图 设计工具 - IKEA",
+ "name": "宜家VALLENTUNA 瓦伦图 设计工具",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "宜家VALLENTUNA 瓦伦图 设计工具"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Page Title-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>使用 VALLENTUNA 瓦伦图 设计工具，仅需几步就可以打造你心仪的沙发。根据你的需求和预想，将所有的元素组合在一起，无论时沙发床还是座椅元素，一切都看起来如此和谐美妙。赶快尝试一下吧！</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-planner",
+   "title": null,
+   "texts": [
+    "IFRAME_EMBED",
+    "ALL",
+    "https://www.ikea.cn/addon-app/sofas/vallentuna/web/latest/cn/zh/#",
+    "VALLENTUNA_IPEX",
+    "YES",
+    "37"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Planner Tool-"
+   }
+  }
+ ]
+}

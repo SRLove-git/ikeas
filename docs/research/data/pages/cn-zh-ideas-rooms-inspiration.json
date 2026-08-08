@@ -1,0 +1,168 @@
+{
+ "url": "/cn/zh/ideas/rooms-inspiration",
+ "family": "ideas",
+ "id": "cn--zh--5c9c98e0819c11eba0b5e76645244728",
+ "title": "不同房间的不同灵感",
+ "name": "Rooms inspiration landing page",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "不同房间的不同灵感"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "42033ba4bae54bbb913205e2a0d8bb39"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>在实际场景中探索我们的产品</h2>\n<p>看看家中各个空间的宜家产品，寻找创意灵感和布置技巧：</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "32f5150f5a394675b78e44816c71292f"
+   }
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--rooms--living-room--gallery",
+    "/rooms/living-room/gallery/",
+    "section",
+    "客厅灵感图库",
+    "希望寻找一些不错的客厅创意？探索我们的图库，不论空间大小，都能为你提供客厅创意和灵感。点击此处查看详情。",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fliving-room%2Fgallery%2F&key=cn--zh--e191d280da4a11efaea8c79124a56c60"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20251104/b26062c62d2041dc8be4c18b07e194ef.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20251104/d557eca93be74f8a88f9007a12da607f.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content/u/20250326/20D76D8A-2A40-4519-A33AAD7BF299C23F.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content/u/20250409/EB10948B-7346-4391-A8E17CBD8F19A710.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content/u/20250409/5928F516-996C-4ED0-91466112BE02A88D.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20251104/b26062c62d2041dc8be4c18b07e194ef.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20251104/d557eca93be74f8a88f9007a12da607f.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20250326/20D76D8A-2A40-4519-A33AAD7BF299C23F.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20250409/EB10948B-7346-4391-A8E17CBD8F19A710.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20250409/5928F516-996C-4ED0-91466112BE02A88D.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20231012/a4b3420133ff433b801a0ad65087f8bf.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "1272d547d4b4410f889d01686634d4bb"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>针对家中每个房间提供的巧妙提示和技巧</h2>\n<p>了解有关的装备、提示和DIY创意，掌握组合和打造舒适空间的妙招</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "d7e0096d00da4305aaec46797cca0b1f"
+   }
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--rooms--living-room--how-to",
+    "/rooms/living-room/how-to/",
+    "section",
+    "如何布置客厅",
+    "正在寻找灵感和创意，以提升客厅及家居环境？宜家指南可以帮助你轻松规划布置，购买产品。点击了解详情。",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fliving-room%2Fhow-to%2F&key=cn--zh--bcec82006a9111ea9e22bf68fd53fc44"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20231012/e2d868fa470c4a62a90ff151b665c621.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20251104/2eb4be16eed346b099e05a8b4a0ffd43.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220401/3dbfcbdd809a4b16a3797184a82a99d3.png?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/images/47/3e/473e53cddf92b4c479a8d414ef966e0f.jpg",
+    "https://file.app.ikea.cn/images/60/06/60065443a52666f77e50ac902e146195.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20231012/e2d868fa470c4a62a90ff151b665c621.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20251104/2eb4be16eed346b099e05a8b4a0ffd43.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220401/3dbfcbdd809a4b16a3797184a82a99d3.png?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/47/3e/473e53cddf92b4c479a8d414ef966e0f.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/60/06/60065443a52666f77e50ac902e146195.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260211/128a14ce116b4d73bafba48b64427ebe.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "e910d215617e4db3bc1e1b13c2666886"
+   }
+  },
+  {
+   "type": "pub-assurances",
+   "title": null,
+   "texts": [
+    "/h5page/?url=https%3A%2F%2Fwrd.family.ikea.cn%2Fwrd%3Fitm_campaign%3Dwinter%26itm_element%3Dcozy-winter-offer%26itm_content%3Dbanner2%26_ga%3D2.111010055.388670503.1626934308-227562780.1626934308",
+    "NO",
+    "ikea://default-module/H5?url=https%3A%2F%2Fwrd.family.ikea.cn%2Fwrd%3Fitm_campaign%3Dwinter%26itm_element%3Dcozy-winter-offer%26itm_content%3Dbanner2%26_ga%3D2.111010055.388670503.1626934308-227562780.1626934308",
+    "{\"objectId_var\":\"https://wrd.family.ikea.cn/wrd?itm_campaign=winter&itm_element=cozy-winter-offer&itm_content=banner2&_ga=2.111010055.388670503.1626934308-227562780.1626934308\",\"objectType_var\":\"default-module/H5\"}",
+    "全屋设计",
+    "planning-consultation"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/h5page/?url=https%3A%2F%2Fwrd.family.ikea.cn%2Fwrd%3Fitm_campaign%3Dwinter%26itm_element%3Dcozy-winter-offer%26itm_content%3Dbanner2%26_ga%3D2.111010055.388670503.1626934308-227562780.1626934308",
+     "text": ""
+    },
+    {
+     "href": "/planners/",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "800117f98b704b9c82f9718a3d1579b5"
+   }
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/bedroom/gallery/woshi-pubdd2cf0d1",
+ "family": "rooms",
+ "id": "cn--zh--dd2cf0d1cf7611e78e0a0bf79e0fa98f",
+ "title": "所有物品都已整齐收纳完毕，可以睡个好觉了",
+ "name": "20173-cosl01a_PF_CT_SEO_QA",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "所有物品都已整齐收纳完毕，可以睡个好觉了",
+   "texts": [
+    "宽敞的卧室采用外露砖墙设计，里面放着一张白色的带抽屉床，挂着灰色窗帘，地上铺着黄麻毯。",
+    "所有物品都已整齐收纳完毕，可以睡个好觉了",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/99/b0/99b022123c5eb9034097859b814f9f7a.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/99/b0/99b022123c5eb9034097859b814f9f7a.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "80349850",
+    "s19021286",
+    "60334067",
+    "70320098",
+    "10298397"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

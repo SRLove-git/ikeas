@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/living-room/gallery/chuang-pubda0cf5b1",
+ "family": "rooms",
+ "id": "cn--zh--da0cf5b1cf8211e78e0a0bf79e0fa98f",
+ "title": "合三为一",
+ "name": "20182-cobe01a_PF_CT_SEO_QA",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "合三为一",
+   "texts": [
+    "一间黄色和紫色的单间公寓，里面放着一张实用的松木 UTÅKER 于托克 沙发床，可以用作沙发、单人床、双人床或者成对的单人床。在背景中可以看见 IVAR 伊娃 木质储物件和灰色钢制储物单元。",
+    "合三为一",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/d4/dc/d4dca3e9a2fc658c3599bc694c8de681.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/d4/dc/d4dca3e9a2fc658c3599bc694c8de681.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s49227832",
+    "50346867",
+    "10233607",
+    "s89183708",
+    "70325519"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

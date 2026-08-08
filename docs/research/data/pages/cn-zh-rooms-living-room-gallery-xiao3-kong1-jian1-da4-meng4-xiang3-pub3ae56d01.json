@@ -1,0 +1,45 @@
+{
+ "url": "/cn/zh/rooms/living-room/gallery/xiao3-kong1-jian1-da4-meng4-xiang3-pub3ae56d01",
+ "family": "rooms",
+ "id": "cn--zh--3ae56d017ba311e89da1853a21975ebe",
+ "title": "小空间，大梦想",
+ "name": "20191-rmli06a_PF_CT",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "小空间，大梦想",
+   "texts": [
+    "宜家为小型生活空间精心设计家具，从沙发床、可调节灯具到紧凑的储物柜，能够满足大小不同的空间需求及灵活的生活方式。",
+    "<p>我们的公寓面积越来越小，我们对生活的热情却从不减退。这个24小时生活空间里住着一位刚从时装学校毕业的学生。他尽可能地利用这间房间，以满足自己的布料收纳需求，从而为未来努力。</p>",
+    "小空间，大梦想",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/99/31/9931da811f82d625d16d1c5ff32542f0.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/99/31/9931da811f82d625d16d1c5ff32542f0.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s99192627",
+    "30352901",
+    "60346616",
+    "90320342",
+    "40158135"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

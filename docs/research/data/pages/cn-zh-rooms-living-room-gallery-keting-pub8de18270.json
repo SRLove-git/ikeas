@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/living-room/gallery/keting-pub8de18270",
+ "family": "rooms",
+ "id": "cn--zh--8de18270cf7111e78e0a0bf79e0fa98f",
+ "title": "轻松一步，实现从社交到卧具",
+ "name": "20172-cosl03b_PF_CT_SEO_QA",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "轻松一步，实现从社交到卧具",
+   "texts": [
+    "斯堪的那维亚风格的现代公寓，深蓝色的墙壁，松木的沙发床。",
+    "轻松一步，实现从社交到卧具",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/1c/e9/1ce904b640b620d4f5b6cee0f2daa9a0.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/1c/e9/1ce904b640b620d4f5b6cee0f2daa9a0.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "50336383",
+    "10353063",
+    "60353065",
+    "50214999",
+    "20285257"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

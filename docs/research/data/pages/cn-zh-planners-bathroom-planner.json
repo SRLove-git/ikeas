@@ -1,0 +1,27 @@
+{
+ "url": "/cn/zh/planners/bathroom-planner",
+ "family": "planners",
+ "id": "cn--zh--62ef9f13943a4361b64cb2cf4e6b88be",
+ "title": "未命名",
+ "name": "宜家浴室设计工具",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-planner",
+   "title": null,
+   "texts": [
+    "IFRAME_EMBED",
+    "ALL",
+    "https://www.ikea.cn/addon-app/space/platform/latest/cn/zh/",
+    "Bathroom_IPEX",
+    "NO",
+    "#/open/{configurationId}"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Planner Tool-"
+   }
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "url": "/cn/zh/cat/zheng-li-shou-na-dai-47441",
+ "id": "zheng-li-shou-na-dai-47441",
+ "name": "整理收纳袋",
+ "description": "整理收纳袋",
+ "total": 4,
+ "products": [
+  {
+   "id": "70432500",
+   "name": "RENSARE 雷恩萨瑞",
+   "price": 9.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/rensare-lei-en-sa-rui-dai-fang-ge-tu-an-hei-se__0810364_pe771287_s4.jpg",
+   "productType": "袋",
+   "designText": "方格图案/黑色",
+   "measureText": "30x40 厘米/8 公升",
+   "url": null,
+   "seoSlug": "rensare-lei-en-sa-rui-dai-fang-ge-tu-an-hei-se"
+  },
+  {
+   "id": "40432506",
+   "name": "RENSARE 雷恩萨瑞",
+   "price": 29.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/rensare-lei-en-sa-rui-yi-lei-shou-na-dai-3-jian-tao-fang-ge-tu-an-hui-se-hei-se__0810360_pe771286_s4.jpg",
+   "productType": "衣类收纳袋，3件套",
+   "designText": "方格图案/灰色 黑色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "rensare-lei-en-sa-rui-yi-lei-shou-na-dai-3-jian-tao-fang-ge-tu-an-hui-se-hei-se"
+  },
+  {
+   "id": "10522382",
+   "name": "PÄRKLA 派克拉",
+   "price": 4.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/paerkla-pai-ke-la-xie-dai__1045872_pe842745_s4.jpg",
+   "productType": "鞋袋",
+   "designText": "",
+   "measureText": "48x22 厘米",
+   "url": null,
+   "seoSlug": "paerkla-pai-ke-la-xie-dai"
+  },
+  {
+   "id": "40482030",
+   "name": "RENSARE 雷恩萨瑞",
+   "price": 14.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/rensare-lei-en-sa-rui-fang-shui-dai__0976287_pe813135_s4.jpg",
+   "productType": "防水袋",
+   "designText": "",
+   "measureText": "16x12x24 厘米/2.5 公升",
+   "url": null,
+   "seoSlug": "rensare-lei-en-sa-rui-fang-shui-dai"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "70432500",
+   "type": "ART",
+   "fullId": "70432500"
+  },
+  {
+   "id": "40432506",
+   "type": "ART",
+   "fullId": "40432506"
+  },
+  {
+   "id": "10522382",
+   "type": "ART",
+   "fullId": "10522382"
+  },
+  {
+   "id": "40482030",
+   "type": "ART",
+   "fullId": "40482030"
+  }
+ ]
+}

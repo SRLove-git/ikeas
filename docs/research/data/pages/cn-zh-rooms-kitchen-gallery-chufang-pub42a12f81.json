@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/kitchen/gallery/chufang-pub42a12f81",
+ "family": "rooms",
+ "id": "cn--zh--42a12f81cf8111e78e0a0bf79e0fa98f",
+ "title": "充满创意的厨房",
+ "name": "20181-come01a_PF_CT_SEO_AD_QA",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "充满创意的厨房",
+   "texts": [
+    "小型黑色和白色厨房内带有黑板门，门上写有信息。",
+    "充满创意的厨房",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/7a/ad/7aada1cd25c00bc0ed5a85a8f9c11b37.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/7a/ad/7aada1cd25c00bc0ed5a85a8f9c11b37.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "10345681",
+    "30348928",
+    "40335652",
+    "70341637",
+    "s99157389"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

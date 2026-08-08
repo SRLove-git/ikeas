@@ -1,0 +1,76 @@
+{
+ "url": "/cn/zh/cat/te-shu-bo-li-qi-min-22663",
+ "id": "te-shu-bo-li-qi-min-22663",
+ "name": "特殊玻璃器皿",
+ "description": "查看我们的鸡尾酒和特色饮品专用玻璃杯产品系列。这些专用玻璃器皿将以单只或成对形式出售。但是如果你要举办盛大的派对或是大型烧烤活动，一些款式也有方便的四件或六件装。",
+ "total": 4,
+ "products": [
+  {
+   "id": "40179604",
+   "name": "MJÖD 米约德",
+   "price": 12.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/mjoed-mi-yue-de-pi-jiu-bei-tou-ming-bo-li__0525765_pe644916_s4.jpg",
+   "productType": "啤酒杯",
+   "designText": "透明玻璃",
+   "measureText": "60 厘升",
+   "url": null,
+   "seoSlug": "mjoed-mi-yue-de-pi-jiu-bei-tou-ming-bo-li"
+  },
+  {
+   "id": "90242033",
+   "name": "LODRÄT 罗兰特",
+   "price": 12.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/lodraet-luo-lan-te-pi-jiu-bei-tou-ming-bo-li__0712433_pe728846_s4.jpg",
+   "productType": "啤酒杯",
+   "designText": "透明玻璃",
+   "measureText": "50 厘升",
+   "url": null,
+   "seoSlug": "lodraet-luo-lan-te-pi-jiu-bei-tou-ming-bo-li"
+  },
+  {
+   "id": "30597526",
+   "name": "HUMLAFISK 哈姆拉菲斯",
+   "price": 19.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/humlafisk-ha-mu-la-fei-si-lie-xing-jiu-bei-tou-ming-bo-li__1361993_pe954826_s4.jpg",
+   "productType": "烈性酒杯",
+   "designText": "透明玻璃",
+   "measureText": "3 厘升",
+   "url": null,
+   "seoSlug": "humlafisk-ha-mu-la-fei-si-lie-xing-jiu-bei-tou-ming-bo-li"
+  },
+  {
+   "id": "60137849",
+   "name": "POKAL 博克尔",
+   "price": 9.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/pokal-bo-ke-er-lie-xing-jiu-bei-tou-ming-bo-li__0712795_pe729065_s4.jpg",
+   "productType": "烈性酒杯",
+   "designText": "透明玻璃",
+   "measureText": "5 厘升",
+   "url": null,
+   "seoSlug": "pokal-bo-ke-er-lie-xing-jiu-bei-tou-ming-bo-li"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "40179604",
+   "type": "ART",
+   "fullId": "40179604"
+  },
+  {
+   "id": "90242033",
+   "type": "ART",
+   "fullId": "90242033"
+  },
+  {
+   "id": "30597526",
+   "type": "ART",
+   "fullId": "30597526"
+  },
+  {
+   "id": "60137849",
+   "type": "ART",
+   "fullId": "60137849"
+  }
+ ]
+}

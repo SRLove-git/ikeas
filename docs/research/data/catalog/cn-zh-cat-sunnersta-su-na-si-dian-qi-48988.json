@@ -1,0 +1,92 @@
+{
+ "url": "/cn/zh/cat/sunnersta-su-na-si-dian-qi-48988",
+ "id": "sunnersta-su-na-si-dian-qi-48988",
+ "name": "宜家SUNNERSTA 苏纳思 电器-SUNNERSTA 苏纳思 单元式厨房",
+ "description": "宜家苏纳思系列电器满足你需要的所有基本需求。是您的理想选择。",
+ "total": 5,
+ "products": [
+  {
+   "id": "60497016",
+   "name": "TILLREDA 提瑞达",
+   "price": 799,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/tillreda-ti-rui-da-bing-xiang-du-li-shi-bai-se__1249070_pe923332_s4.jpg",
+   "productType": "冰箱",
+   "designText": "独立式/白色",
+   "measureText": "43 公升",
+   "url": null,
+   "seoSlug": "tillreda-ti-rui-da-bing-xiang-du-li-shi-bai-se"
+  },
+  {
+   "id": "50496951",
+   "name": "LAGAN 拉根",
+   "price": 1499,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/lagan-la-gen-bing-xiang-dai-san-xing-ji-shi-du-li-shi-bai-se__0755791_pe748600_s4.jpg",
+   "productType": "冰箱",
+   "designText": "带三星级室/独立式 白色",
+   "measureText": "97/16 公升",
+   "url": null,
+   "seoSlug": "lagan-la-gen-bing-xiang-dai-san-xing-ji-shi-du-li-shi-bai-se"
+  },
+  {
+   "id": "40493364",
+   "name": "TILLREDA 提瑞达",
+   "price": 449,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/tillreda-ti-rui-da-wei-bo-lu-bai-se__0912596_pe783444_s4.jpg",
+   "productType": "微波炉",
+   "designText": "白色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "tillreda-ti-rui-da-wei-bo-lu-bai-se"
+  },
+  {
+   "id": "80493512",
+   "name": "TILLREDA 提瑞达",
+   "price": 299,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/tillreda-ti-rui-da-bian-xi-dian-ci-lu-dan-qu-bai-se__0965512_pe809593_s4.jpg",
+   "productType": "便携电磁炉",
+   "designText": "单区 白色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "tillreda-ti-rui-da-bian-xi-dian-ci-lu-dan-qu-bai-se"
+  },
+  {
+   "id": "50497446",
+   "name": "TILLREDA 提瑞达",
+   "price": 99.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/tillreda-ti-rui-da-wei-bo-lu-tuo-jia__0237340_pe376720_s4.jpg",
+   "productType": "微波炉托架",
+   "designText": "",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "tillreda-ti-rui-da-wei-bo-lu-tuo-jia"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "60497016",
+   "type": "ART",
+   "fullId": "60497016"
+  },
+  {
+   "id": "50496951",
+   "type": "ART",
+   "fullId": "50496951"
+  },
+  {
+   "id": "40493364",
+   "type": "ART",
+   "fullId": "40493364"
+  },
+  {
+   "id": "80493512",
+   "type": "ART",
+   "fullId": "80493512"
+  },
+  {
+   "id": "50497446",
+   "type": "ART",
+   "fullId": "50497446"
+  }
+ ]
+}

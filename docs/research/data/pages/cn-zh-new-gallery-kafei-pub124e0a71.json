@@ -1,0 +1,109 @@
+{
+ "url": "/cn/zh/new/gallery/kafei-pub124e0a71",
+ "family": "new",
+ "id": "cn--zh--124e0a716d3811e78335af86be45a0c2",
+ "title": "带有社会使命的咖啡",
+ "name": "201821_nwvm16a_EZ_SEO",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "带有社会使命的咖啡",
+   "texts": [
+    "选取乌干达白尼罗河地区100%阿拉比卡咖啡豆制成的全新特别版 PÅTÅR 巴塔尔 咖啡，中度烘焙通过了UTZ认证，美味天然，中度烘焙，带有清新的果香。获得宜家个体手工艺者计划支持。",
+    "<p>欢迎品尝全新烹制的 P&Aring;T&Aring;R 巴塔尔 咖啡！宜家现推出来自乌干达白尼罗河地区的特别版本，单一产地，100%阿拉比卡咖啡豆烘培咖啡粉，这款产品获得了当地宜家的社会企业计划支持。</p>",
+    "带有社会使命的咖啡",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/08/73/08737a22cf3c8f2746016dbb7d993b74.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/08/73/08737a22cf3c8f2746016dbb7d993b74.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "选取乌干达100%阿拉比卡咖啡豆制作的 PÅTÅR 巴塔尔 咖啡，中度烘焙是宜家个体手工艺者计划的成果。该计划为咖啡种植农提供经济上的长期规划协助，让他们可以从长远角度考虑，在适当的时机采摘咖啡果，从而最大程度地提升品质。",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/e3/82/e3825f0952b0e6808cf2bb809e8d0d5c.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/e3/82/e3825f0952b0e6808cf2bb809e8d0d5c.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "选取乌干达白尼罗河地区100%阿拉比卡咖啡豆制作的全新特别版 PÅTÅR 巴塔尔 咖啡，中度烘焙，获得宜家个体手工艺者计划支持，旨在为白尼罗河地区数千名小规模咖啡种植农争取经济独立。",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/6f/be/6fbe18d60843c5f3e29fd088858ffb79.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/6f/be/6fbe18d60843c5f3e29fd088858ffb79.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>该项目通过改善农业技术、提升商业技能，为该地区数千名小规模咖啡种植农争取经济独立。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/this-is-ikea/community-engagement/patar-pub8c5caa00",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fthis-is-ikea%2Fcommunity-engagement%2Fpatar-pub8c5caa00&key=cn--zh--8c5caa0081bb11e794ad637361eaaf4d",
+    "{\"objectId_var\":\"/this-is-ikea/community-engagement/patar-pub8c5caa00\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "了解 PÅTÅR 巴塔尔 咖啡背后的故事"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/this-is-ikea/community-engagement/patar-pub8c5caa00",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "30324239"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

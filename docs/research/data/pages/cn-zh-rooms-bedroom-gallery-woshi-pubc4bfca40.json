@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/bedroom/gallery/woshi-pubc4bfca40",
+ "family": "rooms",
+ "id": "cn--zh--c4bfca40cf7b11e78e0a0bf79e0fa98f",
+ "title": "风格时尚。储物空间充足。",
+ "name": "20174-cost02a_PF_CT_SEO_QA",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "风格时尚。储物空间充足。",
+   "texts": [
+    "泥粉色和浅灰色的传统风格卧室内并排放着两个白色衣柜。",
+    "风格时尚。储物空间充足。",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/74/77/7477ee565bedfa2a8336bed515384a0e.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/74/77/7477ee565bedfa2a8336bed515384a0e.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s59095987",
+    "s99157662",
+    "80294980",
+    "40298999",
+    "20329893"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "url": "/cn/zh/customer-service/services/about-kitchen-services-pubdaf4bdea",
+ "family": "customer-service",
+ "id": "cn--zh--daf4bdeaaf2611e7b23503ef832e0d7f",
+ "title": "关于宜家厨房服务",
+ "name": "关于宜家厨房服务",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "关于宜家厨房服务"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "608df2140d0d49a09398ca21e04cc06c"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<ol>\n<li><strong>如何购买宜家厨房，如何安排送货及组装？ 完成宜家厨房需要多长时间？</strong><br />\n<p>我们考虑到不同顾客的需求，为您准备了两套方案供您选择：</p>\n<p><br /><strong>选择一：自助测量设计厨房，享受设计师乐趣，最低价格的解决方案</strong> <br />第1步：顾客按照宜家提供的设计标准、测量标准以及施工标准自行测量。测量内容须包含宜家需要的测量尺寸。<br />第2步：可以登陆宜家网站下载设计软件并了解厨房购买流程。需要时可以拨打客服热线寻求帮助。<br />第3步：顾客到宜家商场购买厨房并签订服务合同，同时提供自测图和设计方案（软件存档）。宜家员工根据方案进行必要核对。<br />第4步：顾客到商场送货处办理送货和安装橱柜服务，第三方服务商由专人负责受理。</p>\n<p><strong>选择二: 全方位服务，轻松惬意</strong><br />第1步：顾客在线上或前往线下宜家商场和宜家签订服务合同并交纳测量费用，会员设计免费。<br />第2步：宜家人员上门进行一次测量并出水电位改造图及设计方案，顾客以此进行施工。<br />第3步：施工完毕后通知宜家人员上门进行二次测量后确认方案。<br />第4步：顾客到宜家商场或在线上进行购买。<br />在您完成厨房购买并办理送货安装之后，我们将会在两周左右完成"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "0c8a246ae9094b4da20b1e7b51712dae"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/customer-service/faq/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fcustomer-service%2Ffaq%2F&key=",
+    "{\"objectId_var\":\"/customer-service/faq/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "返回常见问题"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/customer-service/faq/",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "9d3cab7f4cab409f83d18d13f1189a6b"
+   }
+  }
+ ]
+}

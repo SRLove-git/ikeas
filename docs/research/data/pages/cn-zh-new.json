@@ -1,0 +1,551 @@
+{
+ "url": "/cn/zh/new",
+ "family": "new",
+ "id": "cn--zh--c390541056eb4ee18be44989b23c582f",
+ "title": "宜家新品",
+ "name": "探索当季新品",
+ "hero": "https://file.app.ikea.cn/cms/u/20241115/1fd389b10efd41f5a081d18a729158b9.jpg",
+ "blocks": [
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>&nbsp;</p>\n<p style=\"line-height: 26px;\"><strong><span style=\"color: #ca5008;\"><span style=\"font-size: 36pt;\">当季新品</span></span></strong></p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "页面标题-App"
+   }
+  },
+  {
+   "type": "pub-banner",
+   "title": null,
+   "texts": [
+    "image-text-landscape",
+    "IMAGE",
+    "standard",
+    "hosted",
+    "<p><span style=\"color: #ffffff;\">SOLUPPG&Aring;NG 索尔乌普攻（在瑞典语中意为&ldquo;朝阳&rdquo;）系列包含丰富的户外用品，风格简约、易于使用且充满设计巧思。你可以带上它们轻松出门，享受美好的户外时光。</span></p>",
+    "轻松出门, 感受大自然的意趣"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20260401/161378f237874162b768c18fb897bca0.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260401/161378f237874162b768c18fb897bca0.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/new/the-soluppgang-collection-lets-you-get-a-little-nature-pub7f91bd14",
+     "text": ""
+    },
+    {
+     "href": "/new/the-soluppgang-collection-lets-you-get-a-little-nature-pub7f91bd14",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-媒体色块组合 Banner-"
+   }
+  },
+  {
+   "type": "pub-inspiration-card",
+   "title": null,
+   "texts": [
+    "/rooms/bedroom/LASTARE-serie-pub03fdc74e",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fbedroom%2FLASTARE-serie-pub03fdc74e&key=cn--zh--03fdc74e2d7c4808a8bd74127da710ca",
+    "{\"objectId_var\":\"/rooms/bedroom/LASTARE-serie-pub03fdc74e\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "IMAGE",
+    "hosted"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20260401/6a04ce556d8442b689cc80eb8e98a372.gif",
+    "https://file.app.ikea.cn/cms/u/20260401/0d0655b9168c4211b5690be285a37b08.png?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260126/38b54ec2b6ea49b38bf11abd10b8db3f.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260104/fcec3700e88740cf871deb5c7a332eab.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/rooms/bedroom/LASTARE-serie-pub03fdc74e",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260401/6a04ce556d8442b689cc80eb8e98a372.gif",
+     "text": ""
+    },
+    {
+     "href": "/new/seasonal-textile-pub2fe7fbf2",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260401/0d0655b9168c4211b5690be285a37b08.png?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/new/let-your-home-come-out-and-play-pubc28e2323",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260126/38b54ec2b6ea49b38bf11abd10b8db3f.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "系列新品 web"
+   }
+  },
+  {
+   "type": "product-list",
+   "title": null,
+   "texts": [
+    "ONE_LINE",
+    "MANUAL_INPUT",
+    "90618489",
+    "00625494",
+    "10626426",
+    "00618484"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "商品列表-新品推荐"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/search/products?q=新品",
+    "NO",
+    "ikea://default-module/search?query=%E6%96%B0%E5%93%81",
+    "{\"objectId_var\":\"新品\",\"objectType_var\":\"search_result\"}",
+    "button",
+    "浏览所有新品"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/search/products?q=新品",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "button-新品目录 web"
+   }
+  },
+  {
+   "type": "rich-text",
+   "title": null,
+   "texts": [
+    "#FFFFFF"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-富文本 Text-"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "惊艳单品，为你的客厅添彩",
+   "texts": [
+    "/landing-page/cn--zh--f13d0f5bed52490b8193fb91a5f55028",
+    "NO",
+    "ikea://cms/landing-page?key=cn--zh--f13d0f5bed52490b8193fb91a5f55028&sdk-router-delegate__navigateWithModal=true",
+    "{\"objectId_var\":\"cn--zh--f13d0f5bed52490b8193fb91a5f55028\",\"objectType_var\":\"cms_h5_page\"}",
+    "别出心裁的家具设计、质地柔软的纺织面料以及富有艺术气息的配件装饰——这一季，你只管敞开大门，尽情拍摄与展示。",
+    "惊艳单品，为你的客厅添彩"
+   ],
+   "images": [
+    "https://static.web.ikea.cn/content/u/20260312/1628d99063d64113b4fb45b38b0251aa.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content/u/20251127/F81AE50A-78DD-4BC7-B911F3EF6A49421C.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content/u/20251127/B00E868D-55F2-455B-B2B47BBC42BECFB7.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content/u/20251127/4337C3C4-CDB1-4C6B-B6424A9E4309B926.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content/u/20251127/F050B1E0-D1D0-41A9-92B24A2616375346.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/landing-page/cn--zh--f13d0f5bed52490b8193fb91a5f55028",
+     "text": ""
+    },
+    {
+     "href": "https://static.web.ikea.cn/content/u/20260312/1628d99063d64113b4fb45b38b0251aa.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20251127/F81AE50A-78DD-4BC7-B911F3EF6A49421C.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20251127/B00E868D-55F2-455B-B2B47BBC42BECFB7.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20251127/4337C3C4-CDB1-4C6B-B6424A9E4309B926.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20251127/F050B1E0-D1D0-41A9-92B24A2616375346.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-栅格合集 Curated Gallery-你的客厅迎来专属的惊艳时刻"
+   }
+  },
+  {
+   "type": "rich-text",
+   "title": null,
+   "texts": [
+    "#FFFFFF"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-富文本 Text-"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "搭出更有风格的卧室",
+   "texts": [
+    "/landing-page/cn--zh--2fe7fbf2af004853875f17f92dedc7ac",
+    "NO",
+    "ikea://cms/landing-page?key=cn--zh--2fe7fbf2af004853875f17f92dedc7ac&sdk-router-delegate__navigateWithModal=true",
+    "{\"objectId_var\":\"cn--zh--2fe7fbf2af004853875f17f92dedc7ac\",\"objectType_var\":\"cms_h5_page\"}",
+    "确保你的卧室时刻准备着迎接你的到来，无论小憩片刻还是拍摄美照，都无可挑剔。花卉图案与几何元素交相辉映，各种色彩出其不意地组合搭配。从四处收集卧室布置创意，到形成充满灵感的个性风格，原来如此简单。",
+    "搭出更有风格的卧室"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/content/u/20251128/01C50174-C83C-44FC-95B2EBF81B9A31FE.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content/u/20251127/861DE1CC-FC95-4C45-BEE78A512E804977.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content/u/20251127/7C55D751-CF97-47FD-B315309101811E91.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content/u/20251127/FD92326A-40F2-4C92-B845885D063CF389.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content/u/20251127/00F4C655-0672-427E-A9203328B0F2246B.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/landing-page/cn--zh--2fe7fbf2af004853875f17f92dedc7ac",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20251128/01C50174-C83C-44FC-95B2EBF81B9A31FE.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20251127/861DE1CC-FC95-4C45-BEE78A512E804977.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20251127/7C55D751-CF97-47FD-B315309101811E91.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20251127/FD92326A-40F2-4C92-B845885D063CF389.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20251127/00F4C655-0672-427E-A9203328B0F2246B.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-栅格合集 Curated Gallery-卧室检查：通过"
+   }
+  },
+  {
+   "type": "rich-text",
+   "title": null,
+   "texts": [
+    "#FFFFFF"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-富文本 Text-"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "告别基础色调",
+   "texts": [
+    "/search/products?q=粉色",
+    "NO",
+    "ikea://default-module/search?query=%E7%B2%89%E8%89%B2",
+    "{\"objectId_var\":\"粉色\",\"objectType_var\":\"search_result\"}",
+    "质感温暖，活力四溢，宜家新品为你的日常生活注入蓬勃的能量与生机。粉色的被套、休闲毯、靠垫……或者是一个粉色的蓝牙音箱——如果你不清楚如何界定粉色的使用范围，我们有个好消息：没有这样的限制。",
+    "告别基础色调"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/content/u/20251127/CC7F3608-4444-475C-BE49E4B30F60F227.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content/u/20251127/87CCB25E-2173-41E7-87535FC20FDDC9D7.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content/u/20251127/DBD7C8D3-3568-46BE-A055AFA0175BF6EA.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content/u/20251127/19CBEC66-1990-4B53-9860CF34D58B7DC0.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content/u/20251128/069B5653-ED38-4E13-909FC3CB64BD2C01.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/search/products?q=粉色",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20251127/CC7F3608-4444-475C-BE49E4B30F60F227.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20251127/87CCB25E-2173-41E7-87535FC20FDDC9D7.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20251127/DBD7C8D3-3568-46BE-A055AFA0175BF6EA.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20251127/19CBEC66-1990-4B53-9860CF34D58B7DC0.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20251128/069B5653-ED38-4E13-909FC3CB64BD2C01.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-栅格合集 Curated Gallery-告别基础色调"
+   }
+  },
+  {
+   "type": "rich-text",
+   "title": null,
+   "texts": [
+    "#FFFFFF"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-富文本 Text-"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "大自然是最好的调味料",
+   "texts": [
+    "/cat/42924",
+    "NO",
+    "ikea://content/plp?catalogId=42924",
+    "{\"objectId_var\":\"42924\",\"objectType_var\":\"plp\"}",
+    "露天烹饪总有种独特魅力—— 烟熏的香气、共享美食的温暖，还有欢声笑语。SOLUPPGÅNG 索尔乌普攻 系列为你准备好了一切所需：从耐用的餐具和实用的厨房用巾，到坚固的铸铁碳烤炉。",
+    "大自然是最好的调味料"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/content/u/20251128/F6990F88-C0FA-4762-9D376D74CF5522DA.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content/u/20251128/BC5762D2-6F97-455B-82E1AACC1D05C039.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content/u/20251128/CA17E9CC-6AF8-438C-AFE70EB2E61EF979.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content/u/20251128/7551115D-DDEC-4976-9362294EE30335F8.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content/u/20251128/202DA5FB-E6D8-4C19-92AFD2346360B902.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/cat/42924",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20251128/F6990F88-C0FA-4762-9D376D74CF5522DA.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20251128/BC5762D2-6F97-455B-82E1AACC1D05C039.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20251128/CA17E9CC-6AF8-438C-AFE70EB2E61EF979.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20251128/7551115D-DDEC-4976-9362294EE30335F8.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20251128/202DA5FB-E6D8-4C19-92AFD2346360B902.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-栅格合集 Curated Gallery-大自然是最好的调味料"
+   }
+  },
+  {
+   "type": "rich-text",
+   "title": null,
+   "texts": [
+    "#FFFFFF"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-富文本 Text-"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "简洁工业风的餐桌椅",
+   "texts": [
+    "/landing-page/cn--zh--b17d1057acba484599aca261dc062de0",
+    "NO",
+    "ikea://cms/landing-page?key=cn--zh--b17d1057acba484599aca261dc062de0&sdk-router-delegate__navigateWithModal=true",
+    "{\"objectId_var\":\"cn--zh--b17d1057acba484599aca261dc062de0\",\"objectType_var\":\"cms_h5_page\"}",
+    "简洁金属底架搭配实木桌面/靠背，木材纹理清晰可见，为GRÖTÅN 格若通 餐桌椅赋予了传统而简约的外观。椅子的软包座面坐起来十分舒适。",
+    "简洁工业风的餐桌椅"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/content/u/20251021/4B9CA78E-7737-4FB2-A5FC9664DE068C4C.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content/u/20251021/0C2D8402-2DCD-49FA-81E05D33CEDED1A5.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/landing-page/cn--zh--b17d1057acba484599aca261dc062de0",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20251021/4B9CA78E-7737-4FB2-A5FC9664DE068C4C.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20251021/0C2D8402-2DCD-49FA-81E05D33CEDED1A5.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-栅格合集 Curated Gallery-简洁工业风的餐桌椅"
+   }
+  },
+  {
+   "type": "rich-text",
+   "title": null,
+   "texts": [
+    "#FFFFFF"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-富文本 Text-"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "给餐桌添一抹亮色",
+   "texts": [
+    "/landing-page/cn--zh--9fc88899c4994e26a3065cd9036125fb",
+    "NO",
+    "ikea://cms/landing-page?key=cn--zh--9fc88899c4994e26a3065cd9036125fb&sdk-router-delegate__navigateWithModal=true",
+    "{\"objectId_var\":\"cn--zh--9fc88899c4994e26a3065cd9036125fb\",\"objectType_var\":\"cms_h5_page\"}",
+    "轻松焕新餐桌的理想餐具！FÄRGKLAR 法利克洛 餐具组合的设计简洁明了，可出色搭配其他餐具。提供两种款式选择：质朴风格的哑光釉面以及现代风格的亮光表面。",
+    "给餐桌添一抹亮色"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/content/u/20251220/C9044759-BB5D-4C69-8D0B245502347BE4.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content/u/20251021/0C2D8402-2DCD-49FA-81E05D33CEDED1A5.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/landing-page/cn--zh--9fc88899c4994e26a3065cd9036125fb",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20251220/C9044759-BB5D-4C69-8D0B245502347BE4.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20251021/0C2D8402-2DCD-49FA-81E05D33CEDED1A5.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-栅格合集 Curated Gallery-简洁工业风的餐桌椅"
+   }
+  },
+  {
+   "type": "rich-text",
+   "title": null,
+   "texts": [
+    "#FFFFFF"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-富文本 Text-"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "全新厨房门板",
+   "texts": [
+    "/rooms/kitchen/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fkitchen%2F&key=cn--zh--f001a8a06fd44018b379fd8243880453",
+    "{\"objectId_var\":\"/rooms/kitchen/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "ASPUDDEN 阿斯普登 门板采用优雅纤薄的框架，提升了简约风格，营造出隽永而质朴的格调。浅灰色饰面为厨房营造宁静而温馨的氛围。",
+    "全新厨房门板"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/content/u/20251021/9EFCC175-AB40-41DB-9ED493827FFE78CE.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/rooms/kitchen/",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20251021/9EFCC175-AB40-41DB-9ED493827FFE78CE.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-栅格合集 Curated Gallery-简洁工业风的餐桌椅"
+   }
+  },
+  {
+   "type": "rich-text",
+   "title": null,
+   "texts": [
+    "#FFFFFF"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-富文本 Text-"
+   }
+  },
+  {
+   "type": "inspirations",
+   "title": "按场景选购",
+   "texts": [
+    "IMAGE_ONLY",
+    "按场景选购",
+    "WATERFALL",
+    "NO",
+    "浏览我们的新品图库, 你可以点击场景选购！",
+    "PGC"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "瀑布流"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h3>&nbsp;&nbsp;</h3>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  }
+ ]
+}

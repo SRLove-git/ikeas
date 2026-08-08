@@ -1,0 +1,59 @@
+{
+ "url": "/cn/zh/ideas/meishi-pub26c4dbd1",
+ "family": "ideas",
+ "id": "cn--zh--26c4dbd10e4411e78db30b1068c9b7fc",
+ "title": "香草蒜泥蛋黄酱",
+ "name": "201642_idde03a_Recipe_Herb_Aioli_STSTU1_EZ_SEO",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "香草蒜泥蛋黄酱",
+   "texts": [
+    "香草蒜泥蛋黄酱",
+    "<p><strong>份量：</strong>4-6</p>",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/1a/21/1a21d969c21de60d15afeffe28306a0c.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/1a/21/1a21d969c21de60d15afeffe28306a0c.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p><strong>你需要什么：</strong></p><p>4分升菜籽油<br />2个蛋黄<br />1汤匙白葡萄酒醋<br />2茶匙第戎芥末酱<br />3-4个蒜瓣，精细切碎或研磨<br />盐<br />胡椒</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p><strong>制作方法：</strong></p><p>1.确保所有原料均处于室温状态。这样可以避免蒜泥蛋黄酱分离。</p><p>2.将蛋黄、醋和芥末酱搅拌均匀，并慢慢加入油，先加入几滴，然后再慢慢倒入。</p><p>3.一边搅拌一边加入蒜，按口味添加盐和胡椒。如果蒜泥蛋黄酱太过浓稠，可以加入几滴水稀释。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p><strong>其他建议：</strong></p><p>可以提前一天准备蒜泥蛋黄酱。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

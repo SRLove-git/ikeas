@@ -1,0 +1,124 @@
+{
+ "url": "/cn/zh/cat/sha-fa-chuang-chuang-dian-20857",
+ "id": "sha-fa-chuang-chuang-dian-20857",
+ "name": "床垫选择",
+ "description": "如果你正在寻找睡眠床垫，你定能在这里找到适合搭配家中沙发床的理想之选。喜欢硬一些还是软一些的睡眠床垫？厚的还是薄的？宜家有许多款式可供选择。量好尺寸后，查看我们的产品，找到适合你家沙发床的睡眠床垫。",
+ "total": 7,
+ "products": [
+  {
+   "id": "00535889",
+   "name": "NYHAMN 努汉姆",
+   "price": 1200,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/nyhamn-nu-han-mu-dai-zhuang-dan-huang-chuang-dian__1099396_pe865704_s4.jpg",
+   "productType": "袋装弹簧床垫",
+   "designText": "",
+   "measureText": "140x200 厘米",
+   "url": null,
+   "seoSlug": "nyhamn-nu-han-mu-dai-zhuang-dan-huang-chuang-dian"
+  },
+  {
+   "id": "40160713",
+   "name": "LYCKSELE MURBO 利克赛 莫尔伯",
+   "price": 1100,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/lycksele-murbo-li-ke-sai-mo-er-bo-chuang-dian__0729219_pe736791_s4.jpg",
+   "productType": "床垫",
+   "designText": "",
+   "measureText": "140x188 厘米",
+   "url": null,
+   "seoSlug": "lycksele-murbo-li-ke-sai-mo-er-bo-chuang-dian"
+  },
+  {
+   "id": "00341495",
+   "name": "NYHAMN 努汉姆",
+   "price": 700,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/nyhamn-nu-han-mu-hai-mian-chuang-dian-ying-xing__0729225_pe736800_s4.jpg",
+   "productType": "海绵床垫",
+   "designText": "硬型",
+   "measureText": "140x200 厘米",
+   "url": null,
+   "seoSlug": "nyhamn-nu-han-mu-hai-mian-chuang-dian-ying-xing"
+  },
+  {
+   "id": "80160711",
+   "name": "LYCKSELE LÖVÅS 利克赛 洛瓦斯",
+   "price": 600,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/lycksele-loevas-li-ke-sai-luo-wa-si-chuang-dian__0729217_pe736790_s4.jpg",
+   "productType": "床垫",
+   "designText": "",
+   "measureText": "140x188 厘米",
+   "url": null,
+   "seoSlug": "lycksele-loevas-li-ke-sai-luo-wa-si-chuang-dian"
+  },
+  {
+   "id": "79444320",
+   "name": "KLAGSHAMN 克拉善",
+   "price": 500,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/klagshamn-ke-la-shan-kao-dian-si-ke-te-bo-shen-hui-se__1055721_pe848065_s4.jpg",
+   "productType": "靠垫",
+   "designText": "斯科特伯 深灰色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "klagshamn-ke-la-shan-kao-dian-si-ke-te-bo-shen-hui-se"
+  },
+  {
+   "id": "20513768",
+   "name": "KLAGSHAMN 克拉善",
+   "price": 350,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/klagshamn-ke-la-shan-chuang-ru__1055723_pe848066_s4.jpg",
+   "productType": "床褥",
+   "designText": "",
+   "measureText": "140x200 厘米",
+   "url": null,
+   "seoSlug": "klagshamn-ke-la-shan-chuang-ru"
+  },
+  {
+   "id": "60160712",
+   "name": "LYCKSELE LÖVÅS 利克赛 洛瓦斯",
+   "price": 400,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/lycksele-loevas-li-ke-sai-luo-wa-si-chuang-dian__0729218_pe736787_s4.jpg",
+   "productType": "床垫",
+   "designText": "",
+   "measureText": "80x188 厘米",
+   "url": null,
+   "seoSlug": "lycksele-loevas-li-ke-sai-luo-wa-si-chuang-dian"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "00535889",
+   "type": "ART",
+   "fullId": "00535889"
+  },
+  {
+   "id": "40160713",
+   "type": "ART",
+   "fullId": "40160713"
+  },
+  {
+   "id": "00341495",
+   "type": "ART",
+   "fullId": "00341495"
+  },
+  {
+   "id": "80160711",
+   "type": "ART",
+   "fullId": "80160711"
+  },
+  {
+   "id": "79444320",
+   "type": "SPR",
+   "fullId": "s79444320"
+  },
+  {
+   "id": "20513768",
+   "type": "ART",
+   "fullId": "20513768"
+  },
+  {
+   "id": "60160712",
+   "type": "ART",
+   "fullId": "60160712"
+  }
+ ]
+}

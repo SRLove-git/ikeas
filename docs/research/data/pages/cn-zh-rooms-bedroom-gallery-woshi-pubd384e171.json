@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/bedroom/gallery/woshi-pubd384e171",
+ "family": "rooms",
+ "id": "cn--zh--d384e171cf6f11e78e0a0bf79e0fa98f",
+ "title": "简易优雅的开放式衣柜",
+ "name": "20171-cost02a_PF_CT_SEO_QA",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "简易优雅的开放式衣柜",
+   "texts": [
+    "中等大小的卧室内放着全高开放式储物装置，包括白色搁板、挂衣杆、抽屉和展示架立柱。",
+    "简易优雅的开放式衣柜",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/46/13/46132b65b22724dd38823d87d8b4fc9e.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/46/13/46132b65b22724dd38823d87d8b4fc9e.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s49161591",
+    "s49199462",
+    "10288685",
+    "30277394",
+    "00172218"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

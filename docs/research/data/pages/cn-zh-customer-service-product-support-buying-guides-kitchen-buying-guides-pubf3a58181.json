@@ -1,0 +1,204 @@
+{
+ "url": "/cn/zh/customer-service/product-support/buying-guides/kitchen-buying-guides-pubf3a58181",
+ "family": "customer-service",
+ "id": "cn--zh--f3a58181bbcd11e8b91c9de9aebb40ed",
+ "title": "厨房",
+ "name": "厨房_PC",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "厨房",
+   "texts": [
+    "厨房",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/e0/dd/e0dd9c30b2305ba6809722557bd57890.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/e0/dd/e0dd9c30b2305ba6809722557bd57890.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Hero-厨房"
+   }
+  },
+  {
+   "type": "pub-pdf-list",
+   "title": null,
+   "texts": [
+    "https://www.ikea.cn/files/pdf/39/60/3960e104/enhet_buying_guide_a4.pdf",
+    "ENHET 安纳特 厨房系列购物指南"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "https://www.ikea.cn/files/pdf/39/60/3960e104/enhet_buying_guide_a4.pdf",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Pdf List-"
+   }
+  },
+  {
+   "type": "pub-pdf-list",
+   "title": null,
+   "texts": [
+    "https://www.ikea.cn/files/pdf/ee/9d/ee9d7a6f/ikea_kitchen_buying_guide.pdf",
+    "宜家厨房系列购物指南"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "https://www.ikea.cn/files/pdf/ee/9d/ee9d7a6f/ikea_kitchen_buying_guide.pdf",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Pdf List-"
+   }
+  },
+  {
+   "type": "pub-pdf-list",
+   "title": null,
+   "texts": [
+    "https://www.ikea.cn/files/pdf/3d/63/3d63c951/ikea_kitchen_metod_guarantee_brochure_a5.pdf",
+    "宜家厨房品质保证详情"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "https://www.ikea.cn/files/pdf/3d/63/3d63c951/ikea_kitchen_metod_guarantee_brochure_a5.pdf",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Pdf List-"
+   }
+  },
+  {
+   "type": "pub-pdf-list",
+   "title": null,
+   "texts": [
+    "https://file.app.ikea.cn/cms/u/20221115/9330ae095dcc4acba1eaa738957ddd52.pdf",
+    "kitchen_compressed.pdf",
+    "厨房家居指南"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20221115/9330ae095dcc4acba1eaa738957ddd52.pdf",
+     "text": "kitchen_compressed.pdf"
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Pdf List-"
+   }
+  },
+  {
+   "type": "pub-pdf-list",
+   "title": null,
+   "texts": [
+    "https://file.app.ikea.cn/cms/u/20240930/2693335247944c26bbe4de45efd3c26a.pdf",
+    "IKEA_kitchens_bg_cover_zh_CN.pdf",
+    "宜家厨房购物指南"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20240930/2693335247944c26bbe4de45efd3c26a.pdf",
+     "text": "IKEA_kitchens_bg_cover_zh_CN.pdf"
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Pdf List-"
+   }
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "card"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Page List-"
+   }
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--471a91d1bbd211e8b91c9de9aebb40ed",
+    "/customer-service/product-support/buying-guides/bathroom-buying-guides-pub471a91d1",
+    "page",
+    "浴室",
+    "浴室购物指南",
+    "ikea://cms/page-compatible-web?url=%2Fcustomer-service%2Fproduct-support%2Fbuying-guides%2Fbathroom-buying-guides-pub471a91d1&key=cn--zh--471a91d1bbd211e8b91c9de9aebb40ed"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/c5/4a/c54a05c673f4c31471b9972c83ddb185.jpg",
+    "https://file.app.ikea.cn/images/d2/51/d251eec8facfcce761d74a3cec1659f7.jpg",
+    "https://file.app.ikea.cn/images/1b/e0/1be0d2c10f09606df1699427432ee05e.png",
+    "https://file.app.ikea.cn/images/ef/9e/ef9e038a9a6f94a17f485686bc374d8d.jpg",
+    "https://file.app.ikea.cn/images/91/f9/91f92016a4737322a69b730761edf121.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/c5/4a/c54a05c673f4c31471b9972c83ddb185.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/d2/51/d251eec8facfcce761d74a3cec1659f7.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/1b/e0/1be0d2c10f09606df1699427432ee05e.png",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/ef/9e/ef9e038a9a6f94a17f485686bc374d8d.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/91/f9/91f92016a4737322a69b730761edf121.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/a9/6d/a96d4948381c581db9834b2af766dfb2.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Page List-"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/customer-service/product-support/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fcustomer-service%2Fproduct-support%2F&key=cn--zh--6c21e731bbeb11e8affa0d09be91682d",
+    "{\"objectId_var\":\"/customer-service/product-support/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "返回产品介绍"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/customer-service/product-support/",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Link - button or text-"
+   }
+  }
+ ]
+}

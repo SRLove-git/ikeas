@@ -1,0 +1,134 @@
+{
+ "url": "/cn/zh/new/gallery/qing1-song1-huan4-xin1-shu1-shi4-zhai2-jia1-pub45bbb760",
+ "family": "new",
+ "id": "cn--zh--45bbb7605fb911ea8431739eedab49cb",
+ "title": "轻松焕新，舒适宅家",
+ "name": "662042_nwna04a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "轻松焕新，舒适宅家",
+   "texts": [
+    "一个深色头发的女人靠在阳台椅子上放松。她穿了一件粉色衬衫和牛仔裤。",
+    "<p>越来越多人选择宅家度过炎热的暑假。下面这些创意可以帮助你轻松焕新家居环境，享受更愉快舒适的暑假宅家生活。</p>",
+    "轻松焕新，舒适宅家",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/37/eb/37eb943f951e368cb2828ae995c2d157.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/37/eb/37eb943f951e368cb2828ae995c2d157.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "以实惠价格焕新庭院",
+   "texts": [
+    "/cat/od003",
+    "NO",
+    "ikea://content/plp?catalogId=od003",
+    "{\"objectId_var\":\"od003\",\"objectType_var\":\"plp\"}",
+    "一抹热带风情令户外空间焕然一新！易于搬动的家具搭配色彩缤纷的户外照明灯具和有趣的纺织品。",
+    "以实惠价格焕新庭院"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/24196fc18455e3db/original/PH168980-crop002.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/od003",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/24196fc18455e3db/original/PH168980-crop002.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "在运动中惬意放松",
+   "texts": [
+    "/cat/24847",
+    "NO",
+    "ikea://content/plp?catalogId=24847",
+    "{\"objectId_var\":\"24847\",\"objectType_var\":\"plp\"}",
+    "不如和邻居或好友来一场乒乓球赛？说不定你还能因此结识新的朋友。玩累了，就坐在阳伞下的椅子上，喝一杯冰凉的柠檬水，放松一下。",
+    "在运动中惬意放松"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/24d01108c72e4c6e/original/PH168989-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/24847",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/24d01108c72e4c6e/original/PH168989-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "迷人灯具，点亮生活",
+   "texts": [
+    "/cat/14972",
+    "NO",
+    "ikea://content/plp?catalogId=14972",
+    "{\"objectId_var\":\"14972\",\"objectType_var\":\"plp\"}",
+    "选择太阳能电池板供电的灯具，将阳光转化为电能，既节省能源，又能减少对环境的影响。这些彩色吊灯不需要电线或插座，可以摆放在户外的任意角落。",
+    "迷人灯具，点亮生活"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/7745120fef534fc4/original/PH168984-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/14972",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/7745120fef534fc4/original/PH168984-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "装饰餐桌，营造氛围",
+   "texts": [
+    "/cat/kt001",
+    "NO",
+    "ikea://content/plp?catalogId=kt001",
+    "{\"objectId_var\":\"kt001\",\"objectType_var\":\"plp\"}",
+    "分享美食最容易拉近人与人之间的距离。今年夏天简单一点，邀请三五好友一起吃顿晚餐。每个人以自己最喜爱的度假目的地为灵感，制作当地的特色美食，这样，足不出户，也能来一趟诱人的舌尖之旅。",
+    "装饰餐桌，营造氛围"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/296f21c42660f905/original/PH167053-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/kt001",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/296f21c42660f905/original/PH167053-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  }
+ ]
+}

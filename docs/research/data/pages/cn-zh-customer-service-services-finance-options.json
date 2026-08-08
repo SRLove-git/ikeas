@@ -1,0 +1,160 @@
+{
+ "url": "/cn/zh/customer-service/services/finance-options",
+ "family": "customer-service",
+ "id": "cn--zh--acf6e0c1c07411e8affa0d09be91682d",
+ "title": "付款方式",
+ "name": "付款方式_PC",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "付款方式"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Page Title-"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/59/47/5947ab883e8d6259ba136f4ca77e9fb6.png"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/59/47/5947ab883e8d6259ba136f4ca77e9fb6.png",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Columns-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>在宜家商场，你可以用喜欢的方式付款。我们接受现金、有银联、VISA和MASTER标记的储蓄卡、借记卡及信用卡和支票等。详情请咨询当地宜家商场。</p>\n<p>宜家网上商城接受支付宝，微信，及银联支付。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/customer-service/contact-us/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fcustomer-service%2Fcontact-us%2F&key=cn--zh--15792f4130ca11e7b43ee50629564225",
+    "{\"objectId_var\":\"/customer-service/contact-us/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "联系我们"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/customer-service/contact-us/",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Link - button or text-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2><strong>我们的服务</strong></h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-assurances",
+   "title": null,
+   "texts": [
+    "/customer-service/services/delivery/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fcustomer-service%2Fservices%2Fdelivery%2F&key=",
+    "{\"objectId_var\":\"/customer-service/services/delivery/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "送货服务",
+    "shipping-truck"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/customer-service/services/delivery/",
+     "text": ""
+    },
+    {
+     "href": "/customer-service/services/assembly/",
+     "text": ""
+    },
+    {
+     "href": "/customer-service/services/kitchen-planning/",
+     "text": ""
+    },
+    {
+     "href": "/customer-service/services/kitchen-installation/",
+     "text": ""
+    },
+    {
+     "href": "/customer-service/services/removal-recycling/",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Assurances-"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/customer-service/services/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fcustomer-service%2Fservices%2F&key=cn--zh--9bdb3af1c07611e8affa0d09be91682d",
+    "{\"objectId_var\":\"/customer-service/services/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "查看更多服务"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/customer-service/services/",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Link - button or text-"
+   }
+  },
+  {
+   "type": "pub-visual-navigation",
+   "title": null,
+   "texts": [],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Visual Navigation-"
+   }
+  }
+ ]
+}

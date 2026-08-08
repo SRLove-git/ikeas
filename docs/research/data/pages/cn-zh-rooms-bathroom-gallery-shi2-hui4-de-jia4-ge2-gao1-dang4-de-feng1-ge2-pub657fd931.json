@@ -1,0 +1,124 @@
+{
+ "url": "/cn/zh/rooms/bathroom/gallery/shi2-hui4-de-jia4-ge2-gao1-dang4-de-feng1-ge2-pub657fd931",
+ "family": "rooms",
+ "id": "cn--zh--657fd9319bee11e9a6d14535ebfeabf1",
+ "title": "实惠的价格，高档的风格",
+ "name": "20202_rmba01b",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "实惠的价格，高档的风格"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "小型浴室配淋浴、白色家具、白色瓷砖、深蓝色墙面、粉色浴室地垫、镜柜和蓝色毛巾。",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "s39293832"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/9c/bb/9cbb454a4dd37bc2f90374038ca68cda.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/9c/bb/9cbb454a4dd37bc2f90374038ca68cda.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>需要获得如何为小型浴室内的物品创造收纳空间的灵感和建议？我们将教你如何充分利用有限的空间。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "白色洗脸池柜内放有毛巾，地板上铺有粉色浴室地垫，柜子侧边放有深蓝色毛巾。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "s39293832"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/fc/09/fc09725ac2a1575259893824b4eceb8a.jpg",
+    "https://file.app.ikea.cn/images/9d/4d/9d4d6f18c5352f62366ec9e185bfe26d.jpg",
+    "https://file.app.ikea.cn/images/61/42/6142ddf0425e939c00ba72e89944fbb0.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/fc/09/fc09725ac2a1575259893824b4eceb8a.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/9d/4d/9d4d6f18c5352f62366ec9e185bfe26d.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/61/42/6142ddf0425e939c00ba72e89944fbb0.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "小型白色柜子的柜门敞开着，里面放有厕纸。柜子顶部放有透明的罐子和一个海草手工编织附盖储物盒。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "50318176"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/0c/8b/0c8b69a8704516cd9772800d65b974cc.jpg",
+    "https://file.app.ikea.cn/images/c0/44/c044b72bfe9f70e6f6b8c068dd415bab.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/0c/8b/0c8b69a8704516cd9772800d65b974cc.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/c0/44/c044b72bfe9f70e6f6b8c068dd415bab.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s39293832",
+    "70351933",
+    "10230227",
+    "10318178",
+    "50318176"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

@@ -1,0 +1,144 @@
+{
+ "url": "/cn/zh/rooms/living-room/how-to/rou-he-se-cai---huan-xiang-xin-chun-pubf04c78e0",
+ "family": "rooms",
+ "id": "cn--zh--f04c78e0114211ecaacdbbca13c4b88f",
+ "title": "柔和色彩，焕享新春",
+ "name": "632231_liht01a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "柔和色彩，焕享新春",
+   "texts": [
+    "风格现代、色彩柔和的客厅里，一位年轻女性坐在一个大的淡蓝色沙发上，沙发上放着各种靠垫。",
+    "<p>春天的到来让万物焕发新机。你可以将自己打扮一新，也可以焕新你的家居布置。用柔和的色彩和个性的单品打造焕然一新的春季风格，让你的客厅时尚起来。</p>",
+    "柔和色彩，焕享新春",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/90/36/9036d0b9b72029f4dbc26d32787cebbd.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/90/36/9036d0b9b72029f4dbc26d32787cebbd.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "9fd387947d734ba89bca65b84f8f111e"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "照出你的时尚品味",
+   "texts": [
+    "/cat/20489",
+    "NO",
+    "ikea://content/plp?catalogId=20489",
+    "{\"objectId_var\":\"20489\",\"objectType_var\":\"plp\"}",
+    "放上一面带镜框的时尚镜子。不仅能让空间看起来更大更明亮，还能帮你检查自己的造型。",
+    "照出你的时尚品味"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/692a625a448f1297/original/PH183372-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/20489",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/692a625a448f1297/original/PH183372-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "aa0e9ef0a93847328fde9864972fff9e"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "挑选个性单品",
+   "texts": [
+    "/cat/li002",
+    "NO",
+    "ikea://content/plp?catalogId=li002",
+    "{\"objectId_var\":\"li002\",\"objectType_var\":\"plp\"}",
+    "选择一个带艺术图案的靠垫和一盏抽象形状的灯。这些物品给这个房间营造独特而前卫的个性。",
+    "挑选个性单品"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/33c5176581d07c8a/original/PH183370-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/li002",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/33c5176581d07c8a/original/PH183370-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "932b5bc7d6954f29b1e3bc9689e8c8b6"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "营造柔和光线",
+   "texts": [
+    "/cat/10700",
+    "NO",
+    "ikea://content/plp?catalogId=10700",
+    "{\"objectId_var\":\"10700\",\"objectType_var\":\"plp\"}",
+    "是时候换上更轻薄的窗帘，比如这种透明窗帘，可以过滤阳光，增强房间的氛围。",
+    "营造柔和光线"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/50c0f6fe11bc2649/original/PH183373-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/10700",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/50c0f6fe11bc2649/original/PH183373-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "144b6d0bd36c45008176886cf9883e19"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "柔和色彩焕新家居",
+   "texts": [
+    "/cat/de001",
+    "NO",
+    "ikea://content/plp?catalogId=de001",
+    "{\"objectId_var\":\"de001\",\"objectType_var\":\"plp\"}",
+    "绿色的花瓶和碗本身就很美观，能为你的客厅带来一种清新感。",
+    "柔和色彩焕新家居"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/550c929c68039c6e/original/PH183301-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/de001",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/550c929c68039c6e/original/PH183301-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "ae365d635c8b4ebab9d1fdbdd1741ac7"
+   }
+  }
+ ]
+}

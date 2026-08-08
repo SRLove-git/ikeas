@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/bedroom/gallery/woshi-pub922b11a1",
+ "family": "rooms",
+ "id": "cn--zh--922b11a1d41411e78e0a0bf79e0fa98f",
+ "title": "平衡而舒适的小居室",
+ "name": "20182-cols01a_PF_CT_SEO_QA",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "平衡而舒适的小居室",
+   "texts": [
+    "开放式的小型卧室装饰的非常温馨",
+    "平衡而舒适的小居室",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/ae/46/ae460573d272d81a83c8dc602f5128b7.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/ae/46/ae460573d272d81a83c8dc602f5128b7.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s99239818",
+    "80342486",
+    "50346867",
+    "60353065",
+    "s69189117"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

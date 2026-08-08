@@ -1,0 +1,60 @@
+{
+ "url": "/cn/zh/ikea-business/gallery/ling4-ren2-nan2-wang4-de-can1-guan3-pub83846f00",
+ "family": "ikea-business",
+ "id": "cn--zh--83846f009a7f11ea85436bbb72ceb2d5",
+ "title": "令人难忘的餐馆",
+ "name": "662041_ibnd15a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "令人难忘的餐馆",
+   "texts": [
+    "在一间小餐馆里，摆放着白色的NORRÅKER 诺鲁克 桦木吧台和吧台凳，竹制吊灯，里面坐着一些顾客。",
+    "<p>巧妙高效地优化空间设计，同时确保顾客获得愉快的体验。毕竟，要让顾客成为常客，不仅要有美味佳肴，还需要有良好的氛围。</p>",
+    "令人难忘的餐馆",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/13/4a/134a8b88a881cdccf3861f0d7e4d60b8.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/13/4a/134a8b88a881cdccf3861f0d7e4d60b8.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "The products to get the look",
+   "texts": [
+    "/cat/19145",
+    "NO",
+    "ikea://content/plp?catalogId=19145",
+    "{\"objectId_var\":\"19145\",\"objectType_var\":\"plp\"}",
+    "The products to get the look",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/19145",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>声明</h2>\n<p>此解决方案包含一系列家用和非家用产品。请确认所购产品可在你的空间内发挥预期用途，并符合有关标准。如需了解该系列的更多信息，请联系宜家对公业务部。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

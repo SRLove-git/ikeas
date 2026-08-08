@@ -1,0 +1,124 @@
+{
+ "url": "/cn/zh/cat/gan-hua-he-xiang-xun-58412",
+ "id": "gan-hua-he-xiang-xun-58412",
+ "name": "",
+ "description": null,
+ "total": 7,
+ "products": [
+  {
+   "id": "00609583",
+   "name": "FRÖFINK 弗略菲",
+   "price": 5.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/froefink-fu-lue-fei-xiang-wei-hun-he-zhi-wu-fen-se-hua-duo-fen-hong-se__1437270_pe984410_s4.jpg",
+   "productType": "香味混合植物",
+   "designText": "粉色花朵 粉红色",
+   "measureText": "60 克",
+   "url": null,
+   "seoSlug": "froefink-fu-lue-fei-xiang-wei-hun-he-zhi-wu-fen-se-hua-duo-fen-hong-se"
+  },
+  {
+   "id": "20609596",
+   "name": "FRÖFINK 弗略菲",
+   "price": 5.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/froefink-fu-lue-fei-xiang-wei-hun-he-zhi-wu-tao-zi-cheng-se__1437264_pe984409_s4.jpg",
+   "productType": "香味混合植物",
+   "designText": "桃子 橙色",
+   "measureText": "60 克",
+   "url": null,
+   "seoSlug": "froefink-fu-lue-fei-xiang-wei-hun-he-zhi-wu-tao-zi-cheng-se"
+  },
+  {
+   "id": "80609602",
+   "name": "FRÖFINK 弗略菲",
+   "price": 5.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/froefink-fu-lue-fei-xiang-wei-hun-he-zhi-wu-tan-xiang-he-guang-huo-xiang-he-se__1437274_pe984413_s4.jpg",
+   "productType": "香味混合植物",
+   "designText": "檀香和广藿香 褐色",
+   "measureText": "60 克",
+   "url": null,
+   "seoSlug": "froefink-fu-lue-fei-xiang-wei-hun-he-zhi-wu-tan-xiang-he-guang-huo-xiang-he-se"
+  },
+  {
+   "id": "60609599",
+   "name": "FRÖFINK 弗略菲",
+   "price": 5.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/froefink-fu-lue-fei-xiang-wei-hun-he-zhi-wu-gan-ju-hua-huang-se__1437260_pe984406_s4.jpg",
+   "productType": "香味混合植物",
+   "designText": "柑橘花 黄色",
+   "measureText": "60 克",
+   "url": null,
+   "seoSlug": "froefink-fu-lue-fei-xiang-wei-hun-he-zhi-wu-gan-ju-hua-huang-se"
+  },
+  {
+   "id": "30513174",
+   "name": "KROPPSVARM 克洛旺",
+   "price": 5.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/kroppsvarm-ke-luo-wang-xiang-dai-xun-yi-cao__1091051_pe862280_s4.jpg",
+   "productType": "香袋",
+   "designText": "薰衣草",
+   "measureText": "10 克",
+   "url": null,
+   "seoSlug": "kroppsvarm-ke-luo-wang-xiang-dai-xun-yi-cao"
+  },
+  {
+   "id": "60502758",
+   "name": "LUGNARE 卢纳勒",
+   "price": 5.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/lugnare-lu-na-le-xiang-wei-hun-he-zhi-wu-mo-li-hua-fen-hong-se__1060597_pe850067_s4.jpg",
+   "productType": "香味混合植物",
+   "designText": "茉莉花/粉红色",
+   "measureText": "90 克",
+   "url": null,
+   "seoSlug": "lugnare-lu-na-le-xiang-wei-hun-he-zhi-wu-mo-li-hua-fen-hong-se"
+  },
+  {
+   "id": "90609606",
+   "name": "FRÖFINK 弗略菲",
+   "price": 5.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/froefink-fu-lue-fei-xiang-wei-hun-he-zhi-wu-xiang-cao-mi-huang-se__1437311_pe984414_s4.jpg",
+   "productType": "香味混合植物",
+   "designText": "香草 米黄色",
+   "measureText": "60 克",
+   "url": null,
+   "seoSlug": "froefink-fu-lue-fei-xiang-wei-hun-he-zhi-wu-xiang-cao-mi-huang-se"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "00609583",
+   "type": "ART",
+   "fullId": "00609583"
+  },
+  {
+   "id": "20609596",
+   "type": "ART",
+   "fullId": "20609596"
+  },
+  {
+   "id": "80609602",
+   "type": "ART",
+   "fullId": "80609602"
+  },
+  {
+   "id": "60609599",
+   "type": "ART",
+   "fullId": "60609599"
+  },
+  {
+   "id": "30513174",
+   "type": "ART",
+   "fullId": "30513174"
+  },
+  {
+   "id": "60502758",
+   "type": "ART",
+   "fullId": "60502758"
+  },
+  {
+   "id": "90609606",
+   "type": "ART",
+   "fullId": "90609606"
+  }
+ ]
+}

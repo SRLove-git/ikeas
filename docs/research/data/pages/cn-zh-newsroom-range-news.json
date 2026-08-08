@@ -1,0 +1,40 @@
+{
+ "url": "/cn/zh/newsroom/range-news",
+ "family": "newsroom",
+ "id": "cn--zh--7318a3c186fb11ebbe0871d4e55f27bf",
+ "title": "产品系列资讯",
+ "name": "产品系列资讯",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "产品系列资讯"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-banner",
+   "title": null,
+   "texts": [
+    "text-landscape",
+    "<p>如有任何媒体咨询事宜，请与我们联系。</p>\n<p>电子邮件：IKEA.China.Media@ikea.com</p>",
+    "联系宜家中国的媒体关系团队",
+    "#FFFFFF",
+    "/this-is-ikea/newsroom/ikeanews-pubc4254c10",
+    "NO"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/this-is-ikea/newsroom/ikeanews-pubc4254c10",
+     "text": ""
+    }
+   ],
+   "settings": null
+  }
+ ]
+}

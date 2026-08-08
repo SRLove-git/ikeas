@@ -1,0 +1,156 @@
+{
+ "url": "/cn/zh/campaigns/dui-huan-liu-cheng-pub14ca10ab",
+ "family": "campaigns",
+ "id": "cn--zh--14ca10ab551b495e97781c37088165f9",
+ "title": "有奖问卷调研",
+ "name": "有奖问卷调研",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h1 style=\"text-align: center;\">有奖问卷调研</h1>\n<p>&nbsp;</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "e8f26efb2e4b4e9c9fc92febc46b7ee4"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/h5page/?url=https%3A%2F%2Fsurveys2.ipsos.cn%2FmrIWeb%2FmrIWeb.dll%3FI.Project%3DS22020658%26id%3Dopenid%26i.user5%3D1",
+    "NO",
+    "ikea://default-module/H5?url=https%3A%2F%2Fsurveys2.ipsos.cn%2FmrIWeb%2FmrIWeb.dll%3FI.Project%3DS22020658%26id%3Dopenid%26i.user5%3D1",
+    "{\"objectId_var\":\"https://surveys2.ipsos.cn/mrIWeb/mrIWeb.dll?I.Project=S22020658&id=openid&i.user5=1\",\"objectType_var\":\"default-module/H5\"}",
+    "button",
+    "立即参与"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/h5page/?url=https%3A%2F%2Fsurveys2.ipsos.cn%2FmrIWeb%2FmrIWeb.dll%3FI.Project%3DS22020658%26id%3Dopenid%26i.user5%3D1",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "4c50cce687304801ab40e31a6aa71edf"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>活动细则<br />&nbsp;</h2>\n<p><strong>限时有奖问卷活动：顾客完成问卷后，线上领电子券，购买全场商品金额满249，即可用此电子券至高减免9.9元。</strong></p>\n<p><strong>活动规则：</strong></p>\n<ul>\n<li>全场商品实付金额(不含运费或服务费)满249元，即可使用价值9.9元的电子代金券1张.&nbsp;</li>\n<li>活动期间每个ID限领1张券。</li>\n<li>活动期间每笔订单限使用1张券。</li>\n<li>不可与其他优惠活动同享;</li>\n</ul>\n<p><strong>活动时间：</strong></p>\n<ul>\n<li>领券时间: 2022/06/24 00:00-2022/07/01 23:59</li>\n<li>使用时间: 2022/06/24 00:00-2022/07/31 23:59</li>\n</ul>\n<p><strong>使用渠道</strong>：宜家官网/宜家APP/宜家家居小程序商城</p>\n<p><strong>领券方式</strong>：打开宜家家居官网/宜家家居APP/宜家家居小程序商城，进入活动页面，完成问卷，即可领取9.9元代金券1张。每个渠道限500份。</p>\n<p>仅当宜家俱乐部会员购买才可享受。</p>\n<p>如顾客存在违规行为（包括但不限于"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "6777bac642504ad29cbcb8042b1b2e7c"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>如何兑换优惠券：</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "9b27273de269465d9372a49be5956d8a"
+   }
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "无限灵感，为你的家打造舒适空间",
+    "NO",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20230829/88e9a0fbd16748fb9d366fc8f11fdd62.png?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20230829/88e9a0fbd16748fb9d366fc8f11fdd62.png?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Image(video)-"
+   }
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "无限灵感，为你的家打造舒适空间",
+    "NO",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20230829/b324ee0beaeb425bbcccfb1d60674a22.png?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20230829/b324ee0beaeb425bbcccfb1d60674a22.png?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Image(video)-"
+   }
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "无限灵感，为你的家打造舒适空间",
+    "NO",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20230829/bca00618299f47a680bd392a6ea71431.png?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20230829/bca00618299f47a680bd392a6ea71431.png?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Image(video)-"
+   }
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "无限灵感，为你的家打造舒适空间",
+    "NO",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20230829/0a688e7dc77e4c618ff1b0e8271d4a3b.png?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20230829/0a688e7dc77e4c618ff1b0e8271d4a3b.png?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Image(video)-"
+   }
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "url": "/cn/zh/customer-service/terms-conditions",
+ "family": "customer-service",
+ "id": "cn--zh--35431331b7fc11e8b91c9de9aebb40ed",
+ "title": "使用条款",
+ "name": "使用条款_PC",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "使用条款"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Page Title-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>最近更新日期：<span style=\"background-color: #ffffff;\"><span style=\"background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\">20</span><span style=\"background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\">24</span><span style=\"background-image: initial; background-position: initial; background-size: initial; background-re"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  }
+ ]
+}

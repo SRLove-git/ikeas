@@ -1,0 +1,76 @@
+{
+ "url": "/cn/zh/cat/yu-shi-xi-ding-deng-700215",
+ "id": "yu-shi-xi-ding-deng-700215",
+ "name": "浴室吸顶灯",
+ "description": "浴室吸顶灯",
+ "total": 4,
+ "products": [
+  {
+   "id": "40489809",
+   "name": "KABOMBA 卡邦巴",
+   "price": 299,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/kabomba-qia-bang-ba-led-xi-ding-deng-wu-guang-ze-hei-se__0990155_pe818782_s4.jpg",
+   "productType": "LED吸顶灯",
+   "designText": "无光泽/黑色",
+   "measureText": "36 厘米",
+   "url": null,
+   "seoSlug": "kabomba-qia-bang-ba-led-xi-ding-deng-wu-guang-ze-hei-se"
+  },
+  {
+   "id": "10431645",
+   "name": "FRIHULT 弗利荷",
+   "price": 199,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/frihult-fu-li-he-xi-ding-deng-bu-xiu-gang-se__0689518_pe723012_s4.jpg",
+   "productType": "吸顶灯",
+   "designText": "不锈钢色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "frihult-fu-li-he-xi-ding-deng-bu-xiu-gang-se"
+  },
+  {
+   "id": "50431610",
+   "name": "FRIHULT 弗利荷",
+   "price": 149,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/frihult-fu-li-he-xi-ding-deng-bi-deng-bu-xiu-gang-se__0689509_pe723006_s4.jpg",
+   "productType": "吸顶灯/壁灯",
+   "designText": "不锈钢色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "frihult-fu-li-he-xi-ding-deng-bi-deng-bu-xiu-gang-se"
+  },
+  {
+   "id": "00526031",
+   "name": "BARLAST 巴勒思",
+   "price": 39.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/barlast-ba-le-si-led-ding-bi-deng-bai-se__0772861_pe756185_s4.jpg",
+   "productType": "LED顶/壁灯",
+   "designText": "白色",
+   "measureText": "25 厘米",
+   "url": null,
+   "seoSlug": "barlast-ba-le-si-led-ding-bi-deng-bai-se"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "40489809",
+   "type": "ART",
+   "fullId": "40489809"
+  },
+  {
+   "id": "10431645",
+   "type": "ART",
+   "fullId": "10431645"
+  },
+  {
+   "id": "50431610",
+   "type": "ART",
+   "fullId": "50431610"
+  },
+  {
+   "id": "00526031",
+   "type": "ART",
+   "fullId": "00526031"
+  }
+ ]
+}

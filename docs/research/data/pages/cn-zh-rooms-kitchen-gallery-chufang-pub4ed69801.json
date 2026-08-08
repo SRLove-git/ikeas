@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/kitchen/gallery/chufang-pub4ed69801",
+ "family": "rooms",
+ "id": "cn--zh--4ed69801109811e8b1909545c9aebdf1",
+ "title": "经典外观，永不过时",
+ "name": "20184-come03a_PF_CT_SEO",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "经典外观，永不过时",
+   "texts": [
+    "灰色和白色小型传统厨房配有灰色和黑色 LERHYTTAN 雷尔休坦 玻璃柜门。",
+    "经典外观，永不过时",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/21/ae/21ae5876b8cb752dccb7e634cb5a799a.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/21/ae/21ae5876b8cb752dccb7e634cb5a799a.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "40352707",
+    "40356003",
+    "30352722",
+    "50347536",
+    "40347527"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

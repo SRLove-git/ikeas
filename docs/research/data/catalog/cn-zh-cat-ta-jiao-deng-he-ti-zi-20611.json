@@ -1,0 +1,124 @@
+{
+ "url": "/cn/zh/cat/ta-jiao-deng-he-ti-zi-20611",
+ "id": "ta-jiao-deng-he-ti-zi-20611",
+ "name": "踏脚凳和梯子",
+ "description": "我们有时都需借助外物增高。利用我们的踏脚凳增高。查看我们的梯子系列。你可以借助它们够到橱柜的顶部，把它们用作临时的椅子，孩子踩在上面可以够到操作台面，做你得力的小助手。",
+ "total": 7,
+ "products": [
+  {
+   "id": "50225592",
+   "name": "BEKVÄM 贝卡姆",
+   "price": 129,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/bekvaem-bei-qia-mu-ta-jiao-deng-bai-yang__0728262_pe736144_s4.jpg",
+   "productType": "踏脚凳",
+   "designText": "白杨",
+   "measureText": "50 厘米",
+   "url": null,
+   "seoSlug": "bekvaem-bei-qia-mu-ta-jiao-deng-bai-yang"
+  },
+  {
+   "id": "00600709",
+   "name": "HADDARP 哈达尔普",
+   "price": 99.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/haddarp-ha-da-er-pu-ta-jiao-deng-4-bian-cheng-se__1394310_pe966481_s4.jpg",
+   "productType": "踏脚凳",
+   "designText": "4边 橙色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "haddarp-ha-da-er-pu-ta-jiao-deng-4-bian-cheng-se"
+  },
+  {
+   "id": "30595754",
+   "name": "BÄSINGEN 巴辛根",
+   "price": 199,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/baesingen-ba-xin-gen-ta-jiao-deng-dai-fu-shou-2-jie-mei-hei-se__1386024_pe963590_s4.jpg",
+   "productType": "踏脚凳带扶手，2阶",
+   "designText": "煤黑色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "baesingen-ba-xin-gen-ta-jiao-deng-dai-fu-shou-2-jie-mei-hei-se"
+  },
+  {
+   "id": "70190412",
+   "name": "BEKVÄM 贝卡姆",
+   "price": 299,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/bekvaem-bei-qia-mu-ta-jiao-deng-shan-mao-ju__0728267_pe736148_s4.jpg",
+   "productType": "踏脚凳",
+   "designText": "山毛榉",
+   "measureText": "63 厘米",
+   "url": null,
+   "seoSlug": "bekvaem-bei-qia-mu-ta-jiao-deng-shan-mao-ju"
+  },
+  {
+   "id": "00595755",
+   "name": "BÄSINGEN 巴辛根",
+   "price": 149,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/baesingen-ba-xin-gen-ta-jiao-deng-dai-fu-shou-mei-hei-se__1386022_pe963592_s4.jpg",
+   "productType": "踏脚凳带扶手",
+   "designText": "煤黑色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "baesingen-ba-xin-gen-ta-jiao-deng-dai-fu-shou-mei-hei-se"
+  },
+  {
+   "id": "40586018",
+   "name": "HADDARP 哈达尔普",
+   "price": 99.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/haddarp-ha-da-er-pu-ta-jiao-deng-4-bian-hei-hui-se__1419033_pe976790_s4.jpg",
+   "productType": "踏脚凳",
+   "designText": "4边 黑灰色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "haddarp-ha-da-er-pu-ta-jiao-deng-4-bian-hei-hui-se"
+  },
+  {
+   "id": "70178896",
+   "name": "BEKVÄM 贝卡姆",
+   "price": 149,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/bekvaem-bei-qia-mu-ta-jiao-deng-bai-se__0122140_pe278505_s4.jpg",
+   "productType": "踏脚凳",
+   "designText": "白色",
+   "measureText": "50 厘米",
+   "url": null,
+   "seoSlug": "bekvaem-bei-qia-mu-ta-jiao-deng-bai-se"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "50225592",
+   "type": "ART",
+   "fullId": "50225592"
+  },
+  {
+   "id": "00600709",
+   "type": "ART",
+   "fullId": "00600709"
+  },
+  {
+   "id": "30595754",
+   "type": "ART",
+   "fullId": "30595754"
+  },
+  {
+   "id": "70190412",
+   "type": "ART",
+   "fullId": "70190412"
+  },
+  {
+   "id": "00595755",
+   "type": "ART",
+   "fullId": "00595755"
+  },
+  {
+   "id": "40586018",
+   "type": "ART",
+   "fullId": "40586018"
+  },
+  {
+   "id": "70178896",
+   "type": "ART",
+   "fullId": "70178896"
+  }
+ ]
+}

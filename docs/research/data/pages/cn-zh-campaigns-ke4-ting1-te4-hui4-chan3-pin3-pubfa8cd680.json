@@ -1,0 +1,80 @@
+{
+ "url": "/cn/zh/campaigns/ke4-ting1-te4-hui4-chan3-pin3-pubfa8cd680",
+ "family": "campaigns",
+ "id": "cn--zh--fa8cd6807b3111ebbf58a38a02d586b9",
+ "title": "客厅特惠产品",
+ "name": "客厅特惠产品",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "客厅特惠产品"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "20252879",
+    "30441785",
+    "s59149594",
+    "s69149876",
+    "s49336082"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s29184447",
+    "s79047151",
+    "s89047155",
+    "s99046438",
+    "s49184432"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s59184436",
+    "s79184440",
+    "s19184438",
+    "s09214214",
+    "s39184442"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s49279425",
+    "s19320742",
+    "s19320775",
+    "s19320756",
+    "s89331308"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

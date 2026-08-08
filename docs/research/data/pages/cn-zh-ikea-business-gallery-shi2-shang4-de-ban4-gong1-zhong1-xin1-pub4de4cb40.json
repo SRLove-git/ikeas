@@ -1,0 +1,107 @@
+{
+ "url": "/cn/zh/ikea-business/gallery/shi2-shang4-de-ban4-gong1-zhong1-xin1-pub4de4cb40",
+ "family": "ikea-business",
+ "id": "cn--zh--4de4cb409a8111ea85436bbb72ceb2d5",
+ "title": "时尚的办公中心",
+ "name": "662041_ibnd16a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "时尚的办公中心",
+   "texts": [
+    "一个办公空间，设有可调节的凳子、坐/站两用式办公、储物装置、吊灯、各种物品和绿色植物。",
+    "<p>为你的初创公司规划一个适合协作、能够激发创意的空间。灵活的家具和巧妙的储物装置有助你的团队集思广益，或在这里展示产品，为顾客提供支持服务，还能吸引访客前来参观。多样用途，融合为一。</p>",
+    "时尚的办公中心",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/2b/9b/2b9b40351163222e7ddd52996d86f91d.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/2b/9b/2b9b40351163222e7ddd52996d86f91d.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "可调节桌椅，贴合身体",
+   "texts": [
+    "/cat/47423",
+    "NO",
+    "ikea://content/plp?catalogId=47423",
+    "{\"objectId_var\":\"47423\",\"objectType_var\":\"plp\"}",
+    "对于初创公司来说，一张多用途的办公桌很重要。挑选一款坐/站两用式办公桌，用来日常办公或举办简短的临时会议。添置可调节的凳子，以便匹配办公桌的高度，结束头脑风暴会议后，坐在上面，休息一下。",
+    "可调节桌椅，贴合身体"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/02063d6d2395b63c/original/PH155770.png"
+   ],
+   "links": [
+    {
+     "href": "/cat/47423",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/02063d6d2395b63c/original/PH155770.png",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "安全又方便的储物",
+   "texts": [
+    "/cat/47084",
+    "NO",
+    "ikea://content/plp?catalogId=47084",
+    "{\"objectId_var\":\"47084\",\"objectType_var\":\"plp\"}",
+    "图中的团队用一块黑板来记下开会期间提出的各种想法和笔记。另外，如果你的办公室同时也是陈列室时，记得挑选可上锁的储物装置，以便安全保管所有产品原型。这些储物单元提供NFC锁功能选项，开合更轻松安全。",
+    "安全又方便的储物"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/06855a07771a1ac4/original/PH155537.png"
+   ],
+   "links": [
+    {
+     "href": "/cat/47084",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/06855a07771a1ac4/original/PH155537.png",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "The products to get the look",
+   "texts": [
+    "The products to get the look",
+    "MANUAL_INPUT",
+    "s49280990",
+    "70367458",
+    "80379347",
+    "30360982"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>声明</h2>\n<p>此解决方案包含一系列家用和非家用产品。请确认所购产品可在你的空间内发挥预期用途，并符合有关标准。如需了解该系列的更多信息，请联系宜家对公业务部。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

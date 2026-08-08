@@ -1,0 +1,766 @@
+{
+ "url": "/cn/zh/campaigns/1m2-real-life-pub9ee3ff60",
+ "family": "campaigns",
+ "id": "cn--zh--9ee3ff609ce811ebbf58a38a02d586b9",
+ "title": "一平方改造案例",
+ "name": "一平方改造案例",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "一平方改造案例"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-visual-pill-slider",
+   "title": null,
+   "texts": [
+    "朱微微 – 生活博主",
+    "/h5page/?url=%23248d3f20-9cf1-11eb-ae2f-8d76980dd164",
+    "NO",
+    "ikea://default-module/H5?url=%23248d3f20-9cf1-11eb-ae2f-8d76980dd164",
+    "{\"objectId_var\":\"#248d3f20-9cf1-11eb-ae2f-8d76980dd164\",\"objectType_var\":\"default-module/H5\"}",
+    "朱微微"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/52/67/52672fc61d5fb63e795d70f2a0392bc2.jpg",
+    "https://file.app.ikea.cn/images/5d/47/5d472f843caea86ef780c054a0308d59.jpg",
+    "https://file.app.ikea.cn/images/54/e9/54e9fac3538814bd77a8d02835f53e27.jpg",
+    "https://file.app.ikea.cn/images/92/a1/92a1a46b9372168f102ff2642e6a0e1a.jpg",
+    "https://file.app.ikea.cn/images/bb/42/bb42d85989ee1c7a868bab55461a8fc5.jpg"
+   ],
+   "links": [
+    {
+     "href": "/h5page/?url=%23248d3f20-9cf1-11eb-ae2f-8d76980dd164",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/52/67/52672fc61d5fb63e795d70f2a0392bc2.jpg",
+     "text": ""
+    },
+    {
+     "href": "/h5page/?url=%23190a7820-9cf1-11eb-ae2f-8d76980dd164",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/5d/47/5d472f843caea86ef780c054a0308d59.jpg",
+     "text": ""
+    },
+    {
+     "href": "/h5page/?url=%232cbcbc70-9cf1-11eb-ae2f-8d76980dd164",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/54/e9/54e9fac3538814bd77a8d02835f53e27.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>一人一狗的少女心客房</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "<p>热情好客的北京姑娘带着她的小柴一起生活在二环胡同里。原本为朋友准备的客房也因为疫情逐渐变成了杂物间，如今想要让这个空间重现如家的舒适，其实只需要一点小小的改造，就能搞定。</p>",
+    "pub-text"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/10/85/1085d172ed5da2bce765bcf5f3cee2b5.jpg",
+    "https://file.app.ikea.cn/images/78/8d/788d1e1edc881df2789ab6e7842ceced.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/10/85/1085d172ed5da2bce765bcf5f3cee2b5.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/78/8d/788d1e1edc881df2789ab6e7842ceced.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-video-link",
+   "title": null,
+   "texts": [
+    "https://v.youku.com/v_show/id_XNTEyMzQ4ODU4NA==.html",
+    "<p>▲ 点击观看视频，感受小改动的大变化！</p>",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "https://v.youku.com/v_show/id_XNTEyMzQ4ODU4NA==.html",
+     "text": "\n<p>▲ 点击观看视频，感受小改动的大变化！</p>\n"
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "更多改造后细节",
+   "texts": [
+    "更多改造后细节",
+    "/p/40415074?artType=ART",
+    "NO",
+    "ikea://content/pip?id=40415074&type=ART",
+    "{\"objectId_var\":\"40415074\",\"objectType_var\":\"product\"}",
+    "/p/30491501?artType=ART"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/31/82/3182e32f60a8c43e3c3a7e5d627ba644.jpg",
+    "https://file.app.ikea.cn/images/f9/5b/f95b1cb0208565b50af001d045c7b433.jpg",
+    "https://file.app.ikea.cn/images/5e/24/5e24940ec589153570292caae2c11569.jpg",
+    "https://file.app.ikea.cn/images/6d/1e/6d1e74c657e5cc602607b933e5f1c13e.jpg",
+    "https://file.app.ikea.cn/images/14/a9/14a9cc887db052d1642383af6c153cb4.jpg"
+   ],
+   "links": [
+    {
+     "href": "/p/40415074?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/31/82/3182e32f60a8c43e3c3a7e5d627ba644.jpg",
+     "text": ""
+    },
+    {
+     "href": "/p/30491501?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/f9/5b/f95b1cb0208565b50af001d045c7b433.jpg",
+     "text": ""
+    },
+    {
+     "href": "/p/20348066?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/5e/24/5e24940ec589153570292caae2c11569.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "相关宜家产品",
+   "texts": [
+    "/cat/19037",
+    "NO",
+    "ikea://content/plp?catalogId=19037",
+    "{\"objectId_var\":\"19037\",\"objectType_var\":\"plp\"}",
+    "相关宜家产品",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/19037",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>是厨房操作间，也是厨具陈列馆</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "<p>暖暖下午茶创始人的厨房满满都是各种烘培器具，杯杯盏盏盏占据了厨房操作空间，而这一平方的小改动，就让厨房用的了，放得下。</p>",
+    "pub-text"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/12/70/1270835455e897dfab2c27357d0c0f81.jpg",
+    "https://file.app.ikea.cn/images/c3/f6/c3f671c9582d915b6f99680c46a8b93e.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/12/70/1270835455e897dfab2c27357d0c0f81.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/c3/f6/c3f671c9582d915b6f99680c46a8b93e.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-video-link",
+   "title": null,
+   "texts": [
+    "https://v.youku.com/v_show/id_XNTEzODMyODE0MA==.html",
+    "<p>▲ 点击观看视频，感受小改动的大变化！</p>",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "https://v.youku.com/v_show/id_XNTEzODMyODE0MA==.html",
+     "text": "\n<p>▲ 点击观看视频，感受小改动的大变化！</p>\n"
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "更多改造后细节",
+   "texts": [
+    "更多改造后细节",
+    "/p/50497446?artType=ART",
+    "NO",
+    "ikea://content/pip?id=50497446&type=ART",
+    "{\"objectId_var\":\"50497446\",\"objectType_var\":\"product\"}",
+    "/p/20176376?artType=ART"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/a6/e3/a6e3fdcbf24a51636ddfa02d606147f6.jpg",
+    "https://file.app.ikea.cn/images/6e/8e/6e8e3f4d106e6bcde480affbe5e2494a.jpg",
+    "https://file.app.ikea.cn/images/d0/d0/d0d06bc52903170da9e996033ce307d6.jpg",
+    "https://file.app.ikea.cn/images/73/1a/731ac28fd82b82092303ddd71aea4d15.jpg",
+    "https://file.app.ikea.cn/images/c1/9f/c19f5457d8b16beb0c75e442f7bdb2a8.jpg"
+   ],
+   "links": [
+    {
+     "href": "/p/50497446?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/a6/e3/a6e3fdcbf24a51636ddfa02d606147f6.jpg",
+     "text": ""
+    },
+    {
+     "href": "/p/20176376?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/6e/8e/6e8e3f4d106e6bcde480affbe5e2494a.jpg",
+     "text": ""
+    },
+    {
+     "href": "/p/59338429?artType=SPR",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/d0/d0/d0d06bc52903170da9e996033ce307d6.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "相关宜家产品",
+   "texts": [
+    "/cat/47394",
+    "NO",
+    "ikea://content/plp?catalogId=47394",
+    "{\"objectId_var\":\"47394\",\"objectType_var\":\"plp\"}",
+    "相关宜家产品",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/47394",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>小情侣双人在线无压力</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "<p>需要修图的摄影师和需要上分的电竞选手想要同时在线，竟然成了难题。但这可难不倒我们，几件小物就能轻松置办出双人工位，让行动轻松，感情浓厚。</p>",
+    "pub-text"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/ab/96/ab96823a2d5ab29647cd67ab7006d07d.jpg",
+    "https://file.app.ikea.cn/images/0f/cf/0fcfeb6b96c766335b479be04d643f41.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/ab/96/ab96823a2d5ab29647cd67ab7006d07d.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/0f/cf/0fcfeb6b96c766335b479be04d643f41.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-video-link",
+   "title": null,
+   "texts": [
+    "https://v.youku.com/v_show/id_XNTEzODMzMjg3Ng==.html",
+    "<p>▲ 点击观看视频，感受小改动的大变化！</p>",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "https://v.youku.com/v_show/id_XNTEzODMzMjg3Ng==.html",
+     "text": "\n<p>▲ 点击观看视频，感受小改动的大变化！</p>\n"
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "更多改造后细节",
+   "texts": [
+    "更多改造后细节",
+    "/cat/37813",
+    "NO",
+    "ikea://content/plp?catalogId=37813",
+    "{\"objectId_var\":\"37813\",\"objectType_var\":\"plp\"}",
+    "/p/69216696?artType=SPR"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/bc/1f/bc1f0346c1a9776c2453dae2e44edcc8.jpg",
+    "https://file.app.ikea.cn/images/c7/1e/c71e650ed0281fa336cb93bfe891121d.jpg",
+    "https://file.app.ikea.cn/images/17/82/1782f513e7cb472a02b710e68662cab6.jpg",
+    "https://file.app.ikea.cn/images/70/22/70226ef3443f157ae9375583ce2ab2a0.jpg",
+    "https://file.app.ikea.cn/images/5f/0e/5f0ebe0429a6a3ff452532dc6f40e135.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/37813",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/bc/1f/bc1f0346c1a9776c2453dae2e44edcc8.jpg",
+     "text": ""
+    },
+    {
+     "href": "/p/69216696?artType=SPR",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/c7/1e/c71e650ed0281fa336cb93bfe891121d.jpg",
+     "text": ""
+    },
+    {
+     "href": "/p/40503848?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/17/82/1782f513e7cb472a02b710e68662cab6.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "相关宜家产品",
+   "texts": [
+    "/search/products?q=电竞",
+    "NO",
+    "ikea://default-module/search?query=%E7%94%B5%E7%AB%9E",
+    "{\"objectId_var\":\"电竞\",\"objectType_var\":\"search_result\"}",
+    "相关宜家产品",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/search/products?q=电竞",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>双人健身直播角</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "<p>没有功能分区的客厅略显杂乱，而无趣的视觉风格也并不适合居家直播。不过有我们将轻便器材收纳上墙，空出靠阳台一侧的位置作为固定运动区，灵活的杂物收纳整洁空间，点亮视觉。</p>",
+    "pub-text"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/d7/79/d779ccb1a7098848d21d9218038c28bb.jpg",
+    "https://file.app.ikea.cn/images/0a/ea/0aeae25c8440113645d77d6b42618665.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/d7/79/d779ccb1a7098848d21d9218038c28bb.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/0a/ea/0aeae25c8440113645d77d6b42618665.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-video-link",
+   "title": null,
+   "texts": [
+    "https://v.youku.com/v_show/id_XNTEzODMyOTYwNA==.html",
+    "<p>▲ 点击观看视频，感受小改动的大变化！</p>",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "https://v.youku.com/v_show/id_XNTEzODMyOTYwNA==.html",
+     "text": "\n<p>▲ 点击观看视频，感受小改动的大变化！</p>\n"
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "更多改造后细节",
+   "texts": [
+    "更多改造后细节",
+    "/p/90443140?artType=ART",
+    "NO",
+    "ikea://content/pip?id=90443140&type=ART",
+    "{\"objectId_var\":\"90443140\",\"objectType_var\":\"product\"}",
+    "/p/60347178?artType=ART"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/24/95/2495d74e164eec5acecd5242b3b7bc0a.jpg",
+    "https://file.app.ikea.cn/images/c6/ab/c6ab76fe43f7f4654bb198f811d4d655.jpg",
+    "https://file.app.ikea.cn/images/58/91/5891c5bd33720b3f2c4c12d0bc143422.jpg",
+    "https://file.app.ikea.cn/images/bb/5c/bb5ce6dc4dde87341f5828e602fb0db6.jpg",
+    "https://file.app.ikea.cn/images/1c/bb/1cbb482c4fe826f6caac41d93f97b1cb.jpg"
+   ],
+   "links": [
+    {
+     "href": "/p/90443140?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/24/95/2495d74e164eec5acecd5242b3b7bc0a.jpg",
+     "text": ""
+    },
+    {
+     "href": "/p/60347178?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/c6/ab/c6ab76fe43f7f4654bb198f811d4d655.jpg",
+     "text": ""
+    },
+    {
+     "href": "/p/00440971?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/58/91/5891c5bd33720b3f2c4c12d0bc143422.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "相关宜家产品",
+   "texts": [
+    "/cat/st002",
+    "NO",
+    "ikea://content/plp?catalogId=st002",
+    "{\"objectId_var\":\"st002\",\"objectType_var\":\"plp\"}",
+    "相关宜家产品",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/st002",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>居家办公带娃两不误的斜杠妈妈</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "<p>客厅被孩子的玩具侵占，凌乱的背景没法进行拍摄工作。小小改造就能拓展收纳空间，营造温馨氛围，在这里既能带娃，也不影响工作。</p>",
+    "pub-text"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/70/f4/70f4c1f27057c0a8e14a682ad0645fca.jpg",
+    "https://file.app.ikea.cn/images/6f/24/6f24ca2fb4bc0b448ed3d05a0f0014aa.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/70/f4/70f4c1f27057c0a8e14a682ad0645fca.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/6f/24/6f24ca2fb4bc0b448ed3d05a0f0014aa.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-video-link",
+   "title": null,
+   "texts": [
+    "https://v.youku.com/v_show/id_XNTEzODMzNDAwMA==.html",
+    "<p>▲ 点击观看视频，感受小改动的大变化！</p>",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "https://v.youku.com/v_show/id_XNTEzODMzNDAwMA==.html",
+     "text": "\n<p>▲ 点击观看视频，感受小改动的大变化！</p>\n"
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "更多改造后细节",
+   "texts": [
+    "更多改造后细节",
+    "/cat/27534",
+    "NO",
+    "ikea://content/plp?catalogId=27534",
+    "{\"objectId_var\":\"27534\",\"objectType_var\":\"plp\"}",
+    "/p/70296965?artType=ART"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/53/f5/53f59e079a03f13410f88638d5077653.jpg",
+    "https://file.app.ikea.cn/images/ff/8a/ff8aa8d864e95e3e50729b9925d4455f.jpg",
+    "https://file.app.ikea.cn/images/b1/bf/b1bf2ab481e790c8e65fd905eaedaa1b.jpg",
+    "https://file.app.ikea.cn/images/bc/fc/bcfcf9ead5f0c66339f1df40adb2d5d1.jpg",
+    "https://file.app.ikea.cn/images/ad/a2/ada2473c5bd09d2bf42ef70730763bf5.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/27534",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/53/f5/53f59e079a03f13410f88638d5077653.jpg",
+     "text": ""
+    },
+    {
+     "href": "/cat/27534",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/ff/8a/ff8aa8d864e95e3e50729b9925d4455f.jpg",
+     "text": ""
+    },
+    {
+     "href": "/p/70296965?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/b1/bf/b1bf2ab481e790c8e65fd905eaedaa1b.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "相关产品",
+   "texts": [
+    "/cat/27534",
+    "NO",
+    "ikea://content/plp?catalogId=27534",
+    "{\"objectId_var\":\"27534\",\"objectType_var\":\"plp\"}",
+    "相关产品",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/27534",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>探索更多</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-banner",
+   "title": null,
+   "texts": [
+    "image-text-landscape",
+    "从“一平方”开始，创造家居梦想",
+    "IMAGE",
+    "<p>关于家的改变？谁说非要大而全！</p>\n<p>这次，我们一起忘记规则和结构，将家解构成一个个小方块。以每个平方的小小改变为起点，焕新我们的活力新家。</p>",
+    "我的“一平方”",
+    "/campaigns/1m2-pub32d85ae0"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/e9/f1/e9f1b21d140d3760d6e589e29d01dc40.gif"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/e9/f1/e9f1b21d140d3760d6e589e29d01dc40.gif",
+     "text": ""
+    },
+    {
+     "href": "/campaigns/1m2-pub32d85ae0",
+     "text": ""
+    },
+    {
+     "href": "/campaigns/1m2-pub32d85ae0",
+     "text": ""
+    }
+   ],
+   "settings": null
+  }
+ ]
+}

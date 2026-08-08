@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/living-room/gallery/shafa-pubff79fb71",
+ "family": "rooms",
+ "id": "cn--zh--ff79fb71cf7f11e78e0a0bf79e0fa98f",
+ "title": "座椅变躺椅，只需三十秒",
+ "name": "20181-cols06a_PF_CT_SEO",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "座椅变躺椅，只需三十秒",
+   "texts": [
+    "客厅内摆着一张深灰黑色的小沙发，墙壁为深红色，后墙设有搁板。",
+    "座椅变躺椅，只需三十秒",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/d0/fb/d0fb26f5614a8250442faaf737f30285.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/d0/fb/d0fb26f5614a8250442faaf737f30285.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "80361494",
+    "90322242",
+    "80278579",
+    "40331767",
+    "40263476"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

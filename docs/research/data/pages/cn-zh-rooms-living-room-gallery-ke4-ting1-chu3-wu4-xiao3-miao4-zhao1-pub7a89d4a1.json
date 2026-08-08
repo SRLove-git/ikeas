@@ -1,0 +1,217 @@
+{
+ "url": "/cn/zh/rooms/living-room/gallery/ke4-ting1-chu3-wu4-xiao3-miao4-zhao1-pub7a89d4a1",
+ "family": "rooms",
+ "id": "cn--zh--7a89d4a108ca11e9a342e77718ae4be2",
+ "title": "客厅储物小妙招",
+ "name": "客厅储物小妙招_PC",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "客厅储物小妙招",
+   "texts": [
+    "客厅储物小妙招",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/84/dd/84dd628c0102c7074fbae72e9a966697.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/84/dd/84dd628c0102c7074fbae72e9a966697.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/cc/50/cc503f645c479ccf6af3e1c92b440aea.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/cc/50/cc503f645c479ccf6af3e1c92b440aea.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-video-link",
+   "title": null,
+   "texts": [
+    "https://v.youku.com/v_show/id_XMzg5NjU1NzE4MA==.html?spm=a2h3j.8428770.3416059.1",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "https://v.youku.com/v_show/id_XMzg5NjU1NzE4MA==.html?spm=a2h3j.8428770.3416059.1",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/66/24/66246f2caf22a772b40b87aa2343ce7c.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/66/24/66246f2caf22a772b40b87aa2343ce7c.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "/p/50177727?artType=ART",
+    "NO",
+    "ikea://content/pip?id=50177727&type=ART",
+    "{\"objectId_var\":\"50177727\",\"objectType_var\":\"product\"}",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/5e/d4/5ed4091153f549dcaa7e4bf36ab9639c.jpg"
+   ],
+   "links": [
+    {
+     "href": "/p/50177727?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/5e/d4/5ed4091153f549dcaa7e4bf36ab9639c.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "/p/90280204?artType=ART",
+    "NO",
+    "ikea://content/pip?id=90280204&type=ART",
+    "{\"objectId_var\":\"90280204\",\"objectType_var\":\"product\"}",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/73/73/73737f4f604b046f03c8470e9a233a9e.jpg"
+   ],
+   "links": [
+    {
+     "href": "/p/90280204?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/73/73/73737f4f604b046f03c8470e9a233a9e.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h4><strong>推荐产品</strong></h4>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "80412115",
+    "30348546",
+    "30360227",
+    "70163215",
+    "50213551"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h4><strong>更多宜家说设计</strong></h4>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--5a0dfe3108da11e9a342e77718ae4be2",
+    "/rooms/living-room/gallery/zai4-ke4-ting1-shou1-na4-he2-yin3-cang2-wan2-ju4-pub5a0dfe31",
+    "page",
+    "在客厅收纳和隐藏玩具",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fliving-room%2Fgallery%2Fzai4-ke4-ting1-shou1-na4-he2-yin3-cang2-wan2-ju4-pub5a0dfe31&key=cn--zh--5a0dfe3108da11e9a342e77718ae4be2",
+    "{\"objectId_var\":\"/rooms/living-room/gallery/zai4-ke4-ting1-shou1-na4-he2-yin3-cang2-wan2-ju4-pub5a0dfe31\",\"objectType_var\":\"cms/page-compatible-web\"}"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/18/47/1847ea15bd348b242e5b0c7092768cd7.jpg",
+    "https://file.app.ikea.cn/images/42/6d/426da0efd1ffbd04224f08e9b6b695cd.jpg",
+    "https://file.app.ikea.cn/images/26/18/2618fc871ba6d26018d111237973e98b.jpg",
+    "https://file.app.ikea.cn/images/c7/cc/c7cc6fa35b192dfec1a17fd55577ae86.jpg",
+    "https://file.app.ikea.cn/images/a2/72/a272fbd6aa32044a34ec3de636406b2f.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/18/47/1847ea15bd348b242e5b0c7092768cd7.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/42/6d/426da0efd1ffbd04224f08e9b6b695cd.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/26/18/2618fc871ba6d26018d111237973e98b.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/c7/cc/c7cc6fa35b192dfec1a17fd55577ae86.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/a2/72/a272fbd6aa32044a34ec3de636406b2f.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-visual-navigation",
+   "title": null,
+   "texts": [],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

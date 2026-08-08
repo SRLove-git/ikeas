@@ -1,0 +1,45 @@
+{
+ "url": "/cn/zh/rooms/kitchen/gallery/jia1-de-xin1-zang4-pubbb885ce1",
+ "family": "rooms",
+ "id": "cn--zh--bb885ce17ba011e89da1853a21975ebe",
+ "title": "家的心脏",
+ "name": "20191-rmme01a_PF_CT",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "家的心脏",
+   "texts": [
+    "将宜家 VADHOLMA 瓦德侯玛 厨房岛台、储物柜和开放式储物搁板与 LERHYTTAN 雷尔休坦 柜门进行搭配，可在打造田园风格厨房布局的同时，也增添些许现代气息。",
+    "<p>厨房是家的心脏。此处的家具需要满足家中的各项活动需求：烹饪、社交、写作业，还要存放所有烹饪用具。（以及为宠物留下空间！）</p>",
+    "家的心脏",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/7f/22/7f22c564226ee6a747ee75fb52ce301f.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/7f/22/7f22c564226ee6a747ee75fb52ce301f.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "10355972",
+    "70356006",
+    "30347523",
+    "00347529",
+    "50335623"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

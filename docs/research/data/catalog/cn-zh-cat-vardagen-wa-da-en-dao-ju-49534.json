@@ -1,0 +1,76 @@
+{
+ "url": "/cn/zh/cat/vardagen-wa-da-en-dao-ju-49534",
+ "id": "vardagen-wa-da-en-dao-ju-49534",
+ "name": "VARDAGEN 瓦达恩 刀具",
+ "description": "VARDAGEN 瓦达恩 刀具",
+ "total": 4,
+ "products": [
+  {
+   "id": "90602474",
+   "name": "VARDAGEN 瓦达恩",
+   "price": 179,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/vardagen-wa-da-en-dao-ju-3-jian-tao-bu-xiu-gang-hu-tao-mu__1399102_pe968251_s4.jpg",
+   "productType": "刀具3件套",
+   "designText": "不锈钢/胡桃木",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "vardagen-wa-da-en-dao-ju-3-jian-tao-bu-xiu-gang-hu-tao-mu"
+  },
+  {
+   "id": "80602479",
+   "name": "VARDAGEN 瓦达恩",
+   "price": 69.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/vardagen-wa-da-en-cai-dao-bu-xiu-gang-hu-tao-mu__1399099_pe968250_s4.jpg",
+   "productType": "菜刀",
+   "designText": "不锈钢/胡桃木",
+   "measureText": "20 厘米",
+   "url": null,
+   "seoSlug": "vardagen-wa-da-en-cai-dao-bu-xiu-gang-hu-tao-mu"
+  },
+  {
+   "id": "90602469",
+   "name": "VARDAGEN 瓦达恩",
+   "price": 69.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/vardagen-wa-da-en-duo-yong-dao-bu-xiu-gang-hu-tao-mu__1399106_pe968253_s4.jpg",
+   "productType": "多用刀",
+   "designText": "不锈钢/胡桃木",
+   "measureText": "16 厘米",
+   "url": null,
+   "seoSlug": "vardagen-wa-da-en-duo-yong-dao-bu-xiu-gang-hu-tao-mu"
+  },
+  {
+   "id": "20602482",
+   "name": "VARDAGEN 瓦达恩",
+   "price": 49.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/vardagen-wa-da-en-xue-pi-dao-bu-xiu-gang-hu-tao-mu__1399103_pe968252_s4.jpg",
+   "productType": "削皮刀",
+   "designText": "不锈钢/胡桃木",
+   "measureText": "9 厘米",
+   "url": null,
+   "seoSlug": "vardagen-wa-da-en-xue-pi-dao-bu-xiu-gang-hu-tao-mu"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "90602474",
+   "type": "ART",
+   "fullId": "90602474"
+  },
+  {
+   "id": "80602479",
+   "type": "ART",
+   "fullId": "80602479"
+  },
+  {
+   "id": "90602469",
+   "type": "ART",
+   "fullId": "90602469"
+  },
+  {
+   "id": "20602482",
+   "type": "ART",
+   "fullId": "20602482"
+  }
+ ]
+}

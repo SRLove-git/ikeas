@@ -1,0 +1,80 @@
+{
+ "url": "/cn/zh/ideas/rooms-inspiration/transformer-pubbdd87e30",
+ "family": "ideas",
+ "id": "cn--zh--bdd87e30f59b11eb909ec36c6e99b004",
+ "title": "家，因你而生",
+ "name": "探索\"全能家\"",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--894aea109b7111eba0c4db92bea137db",
+    "/rooms/living-room/how-to/shuang1-zhong4-gong1-neng2-jia1-ju4-rang4-ni3-de-ke4-ting1-chuang4-yi4-meng4-xiang3-cheng2-zhen1-pub894aea10",
+    "page",
+    "双重功能家具让你的客厅创意梦想成真",
+    "正在寻找帮助你充分利用客厅空间的客厅创意？不妨试试将客厅隔成多个区域，并选择多功能的家具。了解更多。",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fliving-room%2Fhow-to%2Fshuang1-zhong4-gong1-neng2-jia1-ju4-rang4-ni3-de-ke4-ting1-chuang4-yi4-meng4-xiang3-cheng2-zhen1-pub894aea10&key=cn--zh--894aea109b7111eba0c4db92bea137db"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/49/14/491405ed4d6a9447165ec408145e7c60.jpg",
+    "https://file.app.ikea.cn/images/c1/10/c110864da88666025ee6d02a759e5717.jpg",
+    "https://file.app.ikea.cn/images/47/e6/47e6dba36a50c4b8e28c81bea6ce3b08.jpg",
+    "https://file.app.ikea.cn/images/65/38/65384f468874665333d0ed3c5207e743.jpg",
+    "https://file.app.ikea.cn/images/02/43/0243102e82b5d9473ee5ffa26a84e895.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/49/14/491405ed4d6a9447165ec408145e7c60.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/c1/10/c110864da88666025ee6d02a759e5717.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/47/e6/47e6dba36a50c4b8e28c81bea6ce3b08.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/65/38/65384f468874665333d0ed3c5207e743.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/02/43/0243102e82b5d9473ee5ffa26a84e895.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/7e/76/7e76755e32da4bcc70bc3a0784ac099d.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Page List-"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/ideas/rooms-inspiration/",
+    "NO",
+    "ikea://cms/page-compatible-web?key=cn--zh--5c9c98e0819c11eba0b5e76645244728&url=%2Fideas%2Frooms-inspiration%2F",
+    "{\"objectId_var\":\"/ideas/rooms-inspiration/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "更多家居灵感"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/ideas/rooms-inspiration/",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Link - button or text-"
+   }
+  }
+ ]
+}

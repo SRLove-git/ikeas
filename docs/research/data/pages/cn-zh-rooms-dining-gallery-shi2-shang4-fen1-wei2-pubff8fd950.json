@@ -1,0 +1,124 @@
+{
+ "url": "/cn/zh/rooms/dining/gallery/shi2-shang4-fen1-wei2-pubff8fd950",
+ "family": "rooms",
+ "id": "cn--zh--ff8fd9502d3711ea9ccfc58ee28d9610",
+ "title": "时尚氛围",
+ "name": "20204_rmdi02a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "时尚氛围"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "几何图案地毯上摆放着黑色/深褐色桌子和灰色椅子。上空有一盏3枝镀铬吊灯。",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "10420152"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/6e/f3/6ef3f92a4e379b4f94390f3e9b8acc51.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/6e/f3/6ef3f92a4e379b4f94390f3e9b8acc51.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>走进一间从多方面看都很奢华但布置花费不多的餐厅。现代照明灯具、时尚储物家具和伸缩型餐桌，如 VANGSTA 望斯塔，会让你和来吃晚餐的客人都惊叹不已！</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "黑色/深褐色桌子、灰色椅子、几何图案地毯、白色/镀铬吊灯和浅灰色沙发。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "50341025"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/f3/dd/f3dd639633d643bc7f3ec34fb424432e.jpg",
+    "https://file.app.ikea.cn/images/2e/09/2e092e674bae3331d0d296d2d317bd0e.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/f3/dd/f3dd639633d643bc7f3ec34fb424432e.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/2e/09/2e092e674bae3331d0d296d2d317bd0e.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "两个 IVAR 伊娃 灰色壁柜，柜子上放着蜡烛、书、装饰品和镀铬台灯。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "40033763"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/62/dc/62dc1e112fb40ab1599a71e0c609ecee.jpg",
+    "https://file.app.ikea.cn/images/a5/b0/a5b020808576d8f603b2bdd3e9c0e10f.jpg",
+    "https://file.app.ikea.cn/images/5f/56/5f563ee94308b32824ef1fed999d73a8.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/62/dc/62dc1e112fb40ab1599a71e0c609ecee.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/a5/b0/a5b020808576d8f603b2bdd3e9c0e10f.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/5f/56/5f563ee94308b32824ef1fed999d73a8.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "10420152",
+    "50341025",
+    "50214678",
+    "s59277930",
+    "20446095"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

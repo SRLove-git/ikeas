@@ -1,0 +1,168 @@
+{
+ "url": "/cn/zh/ideas/home-furnishings",
+ "family": "ideas",
+ "id": "cn--zh--a98f83e3e2fd46df90237f6f1add56b7",
+ "title": "集合各种风格和空间大小的完整家居装饰图库",
+ "name": "642341_hmec01a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "家装示例"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Page Title-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>这些家居方案涵盖了各种类型，空间有大有小，有经济实惠的，也有注重可持续性的，有精致舒适的，也有侧重智能科技的，每一个都是居住者心目中理想的家。欢迎浏览参观，从中获取灵感。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-banner",
+   "title": null,
+   "texts": [
+    "image-text-landscape",
+    "一群人在用餐区。一些人围坐在四张白色的MELLTORP 麦托 桌子旁，上方是三盏BUNKEFLO 邦克夫洛 吊灯。",
+    "IMAGE",
+    "<p>这个共享之家的很多地方都是发挥创意的舞台。这一切都归结于多功能空间和以隐私、更平衡的生活和友情为中心的团体精神。</p>",
+    "隐私又有趣的共享家园",
+    "#FFFFFF"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/67/c2/67c24ed78b3411d983c326526e09c850.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/67/c2/67c24ed78b3411d983c326526e09c850.jpg",
+     "text": ""
+    },
+    {
+     "href": "/ideas/home-furnishings/yin3-si1-you4-you3-qu4-de5-gong4-xiang3-jia1-yuan2-pub261fc473",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Banner-"
+   }
+  },
+  {
+   "type": "pub-visual-pill-slider",
+   "title": null,
+   "texts": [
+    "一瓶种子和两个褐色的KLARBÄR 克拉白 室内/室外花盆带托盘，其中一个花盆里种着番茄。",
+    "/ideas/home-furnishings/zai4-shi4-nei4-he2-hu4-wai4-zhong3-zhi2-wu4-pubeea048ac",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fideas%2Fhome-furnishings%2Fzai4-shi4-nei4-he2-hu4-wai4-zhong3-zhi2-wu4-pubeea048ac&key=cn--zh--2f5e3a8059c411ed9a0b156f49cf51ef",
+    "{\"objectId_var\":\"/ideas/home-furnishings/zai4-shi4-nei4-he2-hu4-wai4-zhong3-zhi2-wu4-pubeea048ac\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "室内种植植物"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/a7/5d/a75d4b952b3abc79ea2fbd7e555b4c48.jpg",
+    "https://file.app.ikea.cn/images/c1/cc/c1cc5c5ddecd2e0e6e108ee8244b9a48.jpg",
+    "https://file.app.ikea.cn/images/a4/e6/a4e6c2eea97ce1f0f29909173c92b6de.jpg"
+   ],
+   "links": [
+    {
+     "href": "/ideas/home-furnishings/zai4-shi4-nei4-he2-hu4-wai4-zhong3-zhi2-wu4-pubeea048ac",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/a7/5d/a75d4b952b3abc79ea2fbd7e555b4c48.jpg",
+     "text": ""
+    },
+    {
+     "href": "/ideas/home-furnishings/cong2-tu3-rang3-dao4-can1-pan2-peng1-ren4-ri4-chang2-mei3-shi2-de5-chu2-fang2-pub0ebb44f2",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/c1/cc/c1cc5c5ddecd2e0e6e108ee8244b9a48.jpg",
+     "text": ""
+    },
+    {
+     "href": "/ideas/home-furnishings/tian2-mi4-de5-di4-fang1-gong4-xiang3-jia1-ting2-zhong1-de5-yin3-si1-kong1-jian1-puba8f6c5ee",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/a4/e6/a4e6c2eea97ce1f0f29909173c92b6de.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Visual Pill Slider-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>参观其他家庭</h2>\n<p>从色彩缤纷的都市住所到多代同堂的大家庭公寓：探索这些家庭并从中汲取丰富灵感。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--28d0eda05b4711ed9a0b156f49cf51ef",
+    "/ideas/home-furnishings/lets-get-creative-a-welcoming-apartment-puba2b948f9",
+    "page",
+    "时尚怡人的家居布置技巧和创意",
+    "美学优先还是儿童友好优先？看看这间公寓，它在为儿童带来欢乐和美观时尚之间实现了完美的平衡。",
+    "ikea://cms/page-compatible-web?url=%2Fideas%2Fhome-furnishings%2Flets-get-creative-a-welcoming-apartment-puba2b948f9&key=cn--zh--28d0eda05b4711ed9a0b156f49cf51ef"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/81/cd/81cd89387684d87ef3873f5c079c6f69.jpg",
+    "https://file.app.ikea.cn/images/1a/ca/1aca949f8d7a55b1a86da4f52a7413ba.jpg",
+    "https://file.app.ikea.cn/images/b4/21/b4215932bf54df31dd6659b90962056e.jpg",
+    "https://file.app.ikea.cn/images/5a/e6/5ae6062f343fbc5d434159de03c2b394.jpg",
+    "https://file.app.ikea.cn/images/6f/53/6f53411b7930d67da99cc0b5f242f2a7.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/81/cd/81cd89387684d87ef3873f5c079c6f69.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/1a/ca/1aca949f8d7a55b1a86da4f52a7413ba.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/b4/21/b4215932bf54df31dd6659b90962056e.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/5a/e6/5ae6062f343fbc5d434159de03c2b394.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/6f/53/6f53411b7930d67da99cc0b5f242f2a7.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/0d/63/0d63a5b7645933505081f2f7798c0ffe.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Page List-"
+   }
+  }
+ ]
+}

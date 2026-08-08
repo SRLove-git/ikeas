@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/bedroom/gallery/woshi-pubb5efdfa1",
+ "family": "rooms",
+ "id": "cn--zh--b5efdfa1cf7111e78e0a0bf79e0fa98f",
+ "title": "精巧的衣柜让你早晨不再忙乱",
+ "name": "20172-cost01a_PF_CT_SEO_QA",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "精巧的衣柜让你早晨不再忙乱",
+   "texts": [
+    "传统装饰的卧室带有灰白条纹的壁纸，粉红色的地板和白色的玻璃衣柜。",
+    "精巧的衣柜让你早晨不再忙乱",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/e9/23/e92340f0c4b58c49a2b6b4ff3a08752f.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/e9/23/e92340f0c4b58c49a2b6b4ff3a08752f.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s29171039",
+    "10357481",
+    "70298399",
+    "s59198607",
+    "s99129589"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

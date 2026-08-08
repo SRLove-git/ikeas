@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/childrens-room/gallery/woshi-pub57a54601",
+ "family": "rooms",
+ "id": "cn--zh--57a54601cf7211e78e0a0bf79e0fa98f",
+ "title": "适合两人居住，可容纳三人过夜",
+ "name": "20173-cocy02a_PF_CT_SEO_QA",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "适合两人居住，可容纳三人过夜",
+   "texts": [
+    "蓝色、绿色和白色的儿童卧室内放着一张银色双层床和一张拉出式床。",
+    "适合两人居住，可容纳三人过夜",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/87/22/8722be17d29f2e0104497b15bd1d739f.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/87/22/8722be17d29f2e0104497b15bd1d739f.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "50120632",
+    "00266504",
+    "70247989",
+    "40354278",
+    "70325034"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

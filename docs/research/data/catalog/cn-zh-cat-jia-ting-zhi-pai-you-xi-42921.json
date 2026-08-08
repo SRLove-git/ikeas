@@ -1,0 +1,76 @@
+{
+ "url": "/cn/zh/cat/jia-ting-zhi-pai-you-xi-42921",
+ "id": "jia-ting-zhi-pai-you-xi-42921",
+ "name": "家庭/纸牌游戏",
+ "description": "有人愿意加入我们的游戏之夜吗？我们设计出了一系列适合孩子的拼图、地板游戏和卡片游戏。这些游戏不仅趣味十足，还有助于培养逻辑思维和社交技能。在线浏览或前往宜家商场，选购儿童卡片游戏。",
+ "total": 4,
+ "products": [
+  {
+   "id": "60597290",
+   "name": "FJÄLLVRÅK 菲尔洛克",
+   "price": 99.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/fjaellvrak-fei-er-luo-ke-dui-die__1371164_pe959026_s4.jpg",
+   "productType": "堆叠",
+   "designText": "",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "fjaellvrak-fei-er-luo-ke-dui-die"
+  },
+  {
+   "id": "00597288",
+   "name": "FJÄLLVRÅK 菲尔洛克",
+   "price": 49.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/fjaellvrak-fei-er-luo-ke-pin-tu__1371166_pe959027_s4.jpg",
+   "productType": "拼图",
+   "designText": "",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "fjaellvrak-fei-er-luo-ke-pin-tu"
+  },
+  {
+   "id": "40552160",
+   "name": "UNDERHÅLLA 翁德霍拉",
+   "price": 7.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/underhalla-weng-de-huo-la-zi-mu-shu-zi-fu-hao-qia-pian__1137258_pe879609_s4.jpg",
+   "productType": "字母数字符号卡片",
+   "designText": "",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "underhalla-weng-de-huo-la-zi-mu-shu-zi-fu-hao-qia-pian"
+  },
+  {
+   "id": "90597284",
+   "name": "FJÄLLVRÅK 菲尔洛克",
+   "price": 39.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/fjaellvrak-fei-er-luo-ke-duo-mi-nuo__1371168_pe959028_s4.jpg",
+   "productType": "多米诺",
+   "designText": "",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "fjaellvrak-fei-er-luo-ke-duo-mi-nuo"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "60597290",
+   "type": "ART",
+   "fullId": "60597290"
+  },
+  {
+   "id": "00597288",
+   "type": "ART",
+   "fullId": "00597288"
+  },
+  {
+   "id": "40552160",
+   "type": "ART",
+   "fullId": "40552160"
+  },
+  {
+   "id": "90597284",
+   "type": "ART",
+   "fullId": "90597284"
+  }
+ ]
+}

@@ -1,0 +1,124 @@
+{
+ "url": "/cn/zh/new/mei3-miao4-de-yang2-mao2-pub9aff77e0",
+ "family": "new",
+ "id": "cn--zh--9aff77e0c9fb11eb80ee03286bef7e80",
+ "title": "美妙的羊毛",
+ "name": "622221_nwns06a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "美妙的羊毛",
+   "texts": [
+    "一张带有彩色纱线的米白色SVÄRDBORG 斯瓦德波 地毯挂在白墙上；前面是另一张SVÄRDBORG 斯瓦德波 地毯。",
+    "<p>现在人们在家的时间越来越长，家里自然也需要更多一些&ldquo;柔软&rdquo;享受。本季，我们采用一向以柔软著称的美妙羊毛为主题，推出了两款全新手工地毯。采用100%羊毛制成，由熟练工匠手工编织而成，每一块地毯都各有特色。</p>",
+    "美妙的羊毛",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/b1/d9/b1d93611aadff8163b79b0635483899c.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/b1/d9/b1d93611aadff8163b79b0635483899c.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "各有特色的手工地毯",
+   "texts": [
+    "/cat/39267",
+    "NO",
+    "ikea://content/plp?catalogId=39267",
+    "{\"objectId_var\":\"39267\",\"objectType_var\":\"plp\"}",
+    "这款新地毯表面充满鹅卵石般的触感，手工添加的中性色调纱线穿梭其中。由熟练工匠手工织成，每一块地毯都有着别具特色的美感。",
+    "各有特色的手工地毯"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/5e9cd9ed966e80de/original/PH181225-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/39267",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/5e9cd9ed966e80de/original/PH181225-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "探索了解本季新品",
+   "texts": [
+    "/cat/new-products",
+    "NO",
+    "ikea://content/plp?catalogId=new-products",
+    "{\"objectId_var\":\"new-products\",\"objectType_var\":\"plp\"}",
+    "舒适新款家居产品，打造温暖的家。",
+    "探索了解本季新品"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/new-products",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-banner",
+   "title": null,
+   "texts": [
+    "image-text-portrait",
+    "带多色传统图案的VAMDRUP 万德鲁 平织地毯叠放在另一张VAMDRUP 万德鲁 地毯上。",
+    "Maria Vinka",
+    "IMAGE",
+    "10507881",
+    "羊毛有很不错的着色效果，搭配大号图案，看上去充满魅力，新颖时尚。"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/7bb2dea6aa242aa2/original/PH181283-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/7bb2dea6aa242aa2/original/PH181283-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": " 致敬北欧手工艺",
+   "texts": [
+    "/cat/39267",
+    "NO",
+    "ikea://content/plp?catalogId=39267",
+    "{\"objectId_var\":\"39267\",\"objectType_var\":\"plp\"}",
+    "这款新地毯的灵感来自传统编织图案“Munkabälte”，旨在致敬斯堪的纳维亚的手工艺。采用100%羊毛制成，天然耐用。将它铺在地板上，增添柔软触感，感受传统工艺的韵味。",
+    "致敬北欧手工艺"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/625dc75e16ba68f/original/PH181282-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/39267",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/625dc75e16ba68f/original/PH181282-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  }
+ ]
+}

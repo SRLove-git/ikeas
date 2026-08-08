@@ -1,0 +1,129 @@
+{
+ "url": "/cn/zh/rooms/dining/gallery/ge4-xing4-hua4-can1-ting1-pub92350eb0",
+ "family": "rooms",
+ "id": "cn--zh--92350eb083c811eaa8ebe1c0c65b9498",
+ "title": "个性化餐厅",
+ "name": "20204_rmdi01a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "个性化餐厅"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "一间传统风格的餐厅中，放着一张黑色桌子、几个浅米色柜子、几把黑/白扶手椅和一块条纹地毯。",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "s39325220"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/8a/b8/8ab844c8d140b7b57b27823f70edbe70.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/8a/b8/8ab844c8d140b7b57b27823f70edbe70.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>伸缩型餐桌、装饰照明和舒适的座椅帮助你打造出一间温馨的餐厅，让亲朋好友都倍感自在。不必担心食物或饮料会洒到放了靠垫的SAKARIAS 萨克利亚 椅上，因为靠垫垫套可以拆下机洗。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "一个柜门敞开的浅米色柜子，柜内放着深灰色餐具，柜顶立着一盏黄铜/白色台灯。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "10436997"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/f7/20/f7206f0f23bd3b0404d9653c8a476f0f.jpg",
+    "https://file.app.ikea.cn/images/8f/4d/8f4d1fb99cd77678b39af42c1f2e2bd3.jpg",
+    "https://file.app.ikea.cn/images/64/34/6434188c876eab88a3c67f893e5fd014.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/f7/20/f7206f0f23bd3b0404d9653c8a476f0f.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/8f/4d/8f4d1fb99cd77678b39af42c1f2e2bd3.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/64/34/6434188c876eab88a3c67f893e5fd014.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "一把少年书桌椅立于桌旁。下方铺着一张黑/白条纹STOCKHOLM 斯德哥尔摩 短绒地毯，上面还撒落着一些蛋糕碎屑。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "90103254"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/ce/d2/ced2efb9c0cd4bce15fb1019f76c0a24.jpg",
+    "https://file.app.ikea.cn/images/68/26/682695151c3bd0427d35a6bb4945b770.jpg",
+    "https://file.app.ikea.cn/images/d2/51/d251ea18600a60eaa6a96cb7cd649a64.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/ce/d2/ced2efb9c0cd4bce15fb1019f76c0a24.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/68/26/682695151c3bd0427d35a6bb4945b770.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/d2/51/d251ea18600a60eaa6a96cb7cd649a64.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s39325220",
+    "90222407",
+    "10436997",
+    "80436994",
+    "60217822"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

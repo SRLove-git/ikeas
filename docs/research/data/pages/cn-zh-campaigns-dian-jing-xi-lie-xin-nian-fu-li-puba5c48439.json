@@ -1,0 +1,183 @@
+{
+ "url": "/cn/zh/campaigns/dian-jing-xi-lie---xin-nian-fu-li-puba5c48439",
+ "family": "campaigns",
+ "id": "cn--zh--a5c484396beb46aab7b9604fa714a3bb",
+ "title": "电竞系列 新年福利",
+ "name": "电竞系列 新年福利",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-curated-gallery",
+   "title": "2022.1.27-2.21 会员购买电竞系列产品，畅享3倍积分！",
+   "texts": [
+    "/search/products?group=电竞产品会员活动",
+    "NO",
+    "ikea://default-module/search-product-group?group=%E7%94%B5%E7%AB%9E%E4%BA%A7%E5%93%81%E4%BC%9A%E5%91%98%E6%B4%BB%E5%8A%A8",
+    "{\"objectId_var\":\"电竞产品会员活动\",\"objectType_var\":\"default-module/search-product-group\"}",
+    "一间精心布置的电竞房可以让你的装备以及你的竞技实力获得最佳发挥。拥有良好支撑的椅子、可调式桌子和丰富多样的配件，助你保持最佳游戏状态。",
+    "2022.1.27-2.21 会员购买电竞系列产品，畅享3倍积分！"
+   ],
+   "images": [
+    "https://res.app.ikea.cn/content/u/20220117/6554807d20654aa19aacd923cb61b3f5.jpg?x-oss-process=style/medium",
+    "https://res.app.ikea.cn/content/u/20220120/6157eee5a42f42b98687f0b3445dc7db.jpg?x-oss-process=style/medium",
+    "https://res.app.ikea.cn/content/u/20220120/661d862e28864ca4b394913cec905cb1.jpg?x-oss-process=style/medium",
+    "https://res.app.ikea.cn/content/u/20220117/8442b43818e04d33a615bd9ba37cfc33.jpg?x-oss-process=style/medium",
+    "https://res.app.ikea.cn/content/u/20220117/451e3bd48a694ba1899cdea5b0aec18d.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/search/products?group=电竞产品会员活动",
+     "text": ""
+    },
+    {
+     "href": "https://res.app.ikea.cn/content/u/20220117/6554807d20654aa19aacd923cb61b3f5.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://res.app.ikea.cn/content/u/20220120/6157eee5a42f42b98687f0b3445dc7db.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://res.app.ikea.cn/content/u/20220120/661d862e28864ca4b394913cec905cb1.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/",
+     "text": ""
+    },
+    {
+     "href": "https://res.app.ikea.cn/content/u/20220117/8442b43818e04d33a615bd9ba37cfc33.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "f9eadb2f2c1740cbbfc7f3f7cd487d8c"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "电竞椅推荐",
+   "texts": [
+    "/cat/47067",
+    "NO",
+    "ikea://content/plp?catalogId=47067",
+    "{\"objectId_var\":\"47067\",\"objectType_var\":\"plp\"}",
+    "会员下单享3倍积分",
+    "电竞椅推荐"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/47067",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "8ecf32d7bad74a9b85426a2966a2213e"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "电竞桌推荐",
+   "texts": [
+    "/cat/47070",
+    "NO",
+    "ikea://content/plp?catalogId=47070",
+    "{\"objectId_var\":\"47070\",\"objectType_var\":\"plp\"}",
+    "会员下单享3倍积分",
+    "电竞桌推荐"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/47070",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "976723a8a7a24e4f883ad389661e0135"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "电竞配件推荐",
+   "texts": [
+    "/cat/55397",
+    "NO",
+    "ikea://content/plp?catalogId=55397",
+    "{\"objectId_var\":\"55397\",\"objectType_var\":\"plp\"}",
+    "会员下单享3倍积分",
+    "电竞配件推荐"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/55397",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "f3713eca2580439f9e2ea5efdeac5601"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "two-columns",
+    "column",
+    "<h2>活动细则</h2>\n<p>&middot; 活动规则: 会员购买指定电竞系列产品产品，享会员3倍会员积分;&nbsp;</p>\n<p>&middot; 活动时间：2022.1.27 - 2022.2.21 ;</p>\n<p>&middot; 使用渠道：宜家官网/宜家APP/宜家家居小程序商城/上海徐汇商场小程序商城 ;</p>\n<p>&middot; 如果参加活动的产品发生部分退货，且未退货的金额不满足满减条件时，宜家有权向顾客收取等值金额 ;</p>\n<p>&middot; 仅当宜家俱乐部会员购买才可享受;</p>\n<p>&middot; 食品类/服务类/处理类产品不参加活动 ;</p>\n<p>&middot; 如顾客存在违规行为（包括但不限于恶意套取、虚假交易等违反诚实守信原则的行为），宜家有权取消与该顾客的交易或其活动参与资格，并撤销相关违规交易和礼品，必要时追究该顾客的法律责任;</p>\n<p>&middot; &nbsp;同一客户只能使用一个宜家帐户参加本次活动。无论谁使用类似或相同的信息，包括但不限于以下: 宜家账号、微信ID、收件人姓名、送货地址、联系人、IP地址，出现任意一项相同信息都将被视为同一客户。客户首次参加活动的结果有效，否则无效。</p>",
+    "pub-text",
+    "/search/products?group=电竞产品会员活动",
+    "NO"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/search/products?group=电竞产品会员活动",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "36d0a2ca2e764bc8af0a0dafb7fb0995"
+   }
+  },
+  {
+   "type": "pub-inspiration-card",
+   "title": null,
+   "texts": [
+    "/campaigns/ikea-family-offer-pub23fe3210",
+    "NO",
+    "ikea://cms/page-compatible-web?key=cn--zh--23fe3210a3e211ebbf58a38a02d586b9&url=%2Fcampaigns%2Fikea-family-offer-pub23fe3210",
+    "{\"objectId_var\":\"/campaigns/ikea-family-offer-pub23fe3210\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "会员特惠",
+    "returns-icon"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20220117/491e9cf8b4894269a3c2bd47496ed7ae.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220121/ca6c43c9ec2347f9a0d70f8780a1c13b.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/campaigns/ikea-family-offer-pub23fe3210",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220117/491e9cf8b4894269a3c2bd47496ed7ae.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/new/a-better-gaming-experience-by-ikea-and-rog-pub389940b0",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220121/ca6c43c9ec2347f9a0d70f8780a1c13b.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "fb79f6e8f29d4188882bbaaa4aaab0e3"
+   }
+  }
+ ]
+}

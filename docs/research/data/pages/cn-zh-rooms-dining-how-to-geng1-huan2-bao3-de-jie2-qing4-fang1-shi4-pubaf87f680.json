@@ -1,0 +1,168 @@
+{
+ "url": "/cn/zh/rooms/dining/how-to/geng1-huan2-bao3-de-jie2-qing4-fang1-shi4-pubaf87f680",
+ "family": "rooms",
+ "id": "cn--zh--af87f6808b0611eba9449756fed14773",
+ "title": "更环保的节庆方式",
+ "name": "672211_tykt21a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "更环保的节庆方式",
+   "texts": [
+    "一张温馨的节日餐桌上点缀着天然纤维和牧草装饰品。",
+    "<p>这是一年中最令人期待的时刻：你可以与亲朋好友欢聚庆祝，尽情放松身心，甚至在布置家中的节日装饰时还能为环保做点小贡献。一起庆祝佳节到来吧！</p>",
+    "更环保的节庆方式",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/2a/41/2a4134abdc2a5648286c5e55d7e963df.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/2a/41/2a4134abdc2a5648286c5e55d7e963df.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "41b1d6ff07e14eebaca51d213328a36b"
+   }
+  },
+  {
+   "type": "pub-banner",
+   "title": null,
+   "texts": [
+    "image-text-portrait",
+    "自然装饰品随意摆放着，包括带干草和浆果的枝条、整颗香料和烘干的柳橙片。",
+    "IMAGE",
+    "<p>寻觅而来的松果、干草枝，甚至包括烘干的柳橙片：只需发挥一点巧妙创意，你就能将大自然带到餐桌上。告别塑料制品。</p>",
+    "装饰自然元素",
+    "#FFFFFF"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/4c/43/4c4315594f5304a0150060dd220cfbfd.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/4c/43/4c4315594f5304a0150060dd220cfbfd.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "92cdf2086a1e4c4895228b9254f8c1c5"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "简朴的纸张包装",
+   "texts": [
+    "/cat/25227",
+    "NO",
+    "ikea://content/plp?catalogId=25227&tagId=25228",
+    "{\"objectId_var\":\"25227\",\"objectType_var\":\"plp\"}",
+    "每一年，人们都要购买、使用和丢弃数以百万卷的礼品包装。糟糕的是，这些贴膜或闪闪发光的包装无法回收利用，只能被送到垃圾填埋场。你知道吗？GIVANDE 吉万达 礼品包装和GIVANDE 吉万达 装饰带都是采用普通纸张制成，并且不添加氯漂白剂。更理想的是，温暖的自然色调几乎可以与任何物品和谐搭配。",
+    "简朴的纸张包装"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/74357f0cdaffb01e/original/PH178340-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/25227",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/74357f0cdaffb01e/original/PH178340-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "c5005f49fc45414cad0d762292c2dcd7"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "干脆不用纸张！",
+   "texts": [
+    "/cat/10655",
+    "NO",
+    "ikea://content/plp?catalogId=10655&tagId=14349",
+    "{\"objectId_var\":\"10655\",\"objectType_var\":\"plp\"}",
+    "还有其他好点子吗？使用天然布料来包装礼品，例如亚麻布。你听说过“风吕敷”吗？这是一种日本布料包扎技艺，传承至今已有数千年历史。包装纸很容易撕裂或起褶，布料包装则可以保存并重复使用。",
+    "干脆不用纸张！"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/4310611bbd275d9f/original/PH178342-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/10655",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/4310611bbd275d9f/original/PH178342-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "e33f443f58ac42af801fe76ca1f8a943"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "是时候布置餐桌了",
+   "texts": [
+    "/cat/20538",
+    "NO",
+    "ikea://content/plp?catalogId=20538",
+    "{\"objectId_var\":\"20538\",\"objectType_var\":\"plp\"}",
+    "交换礼物感觉棒极了，不过最棒的还是与最亲近的人分享美味佳肴，难道不是吗？竹子或水草等天然纤维制成的餐垫为这张餐桌增添了美丽的触感，而可重复使用的布料餐巾纸则可以用来替代一次性纸制品。",
+    "是时候布置餐桌了"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/6c7d9e0d90f0e294/original/PH178341-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/20538",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/6c7d9e0d90f0e294/original/PH178341-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "4c059b8c72e64d299b643fb87ac881b5"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "调暗灯光，点亮蜡烛",
+   "texts": [
+    "/cat/10760",
+    "NO",
+    "ikea://content/plp?catalogId=10760&tagId=10782",
+    "{\"objectId_var\":\"10760\",\"objectType_var\":\"plp\"}",
+    "如果少了柔和摇曳的烛光，这场聚餐是不是就没那么特别了？与许多用石蜡制成的蜡烛不同，JUBLA 尤布拉 蜡烛的制作原料是100%硬脂，这是化石或有限资源的可再生替代品。",
+    "调暗灯光，点亮蜡烛"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/449cc9c5f85362f8/original/PH178366-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/10760",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/449cc9c5f85362f8/original/PH178366-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "85d872eb719843a1b85cf19357c66931"
+   }
+  }
+ ]
+}

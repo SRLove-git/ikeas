@@ -1,0 +1,48 @@
+{
+ "url": "/cn/zh/customer-service/track-manage-order",
+ "family": "customer-service",
+ "id": "cn--zh--a96ed4f0b13811ebbc01ad7c0ed99f62",
+ "title": "订单管理和跟踪",
+ "name": "订单管理和跟踪",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "订单管理和跟踪"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Page Title-"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "<h2>跟踪订单</h2>\n<p>正在等待从宜家购买的产品送货上门？我们会根据你选择的送货服务日期和时间段，提前一个小时与你联系；</p>\n<p>你也可以前往&rdquo;我的订单&rdquo;页面查询网上订单物流信息。</p>",
+    "pub-text",
+    "/profile/order",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fprofile%2Forder&key="
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/profile/order",
+     "text": ""
+    },
+    {
+     "href": "/profile/order",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Columns"
+   }
+  }
+ ]
+}

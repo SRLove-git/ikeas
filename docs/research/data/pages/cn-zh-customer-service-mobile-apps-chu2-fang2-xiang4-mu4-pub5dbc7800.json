@@ -1,0 +1,49 @@
+{
+ "url": "/cn/zh/customer-service/mobile-apps/chu2-fang2-xiang4-mu4-pub5dbc7800",
+ "family": "customer-service",
+ "id": "cn--zh--5dbc7800483211ecb4174dc42281690a",
+ "title": "厨房项目",
+ "name": "厨房项目 -APP",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "厨房项目",
+   "texts": [
+    "<p>我们仔细斟酌每一处细节，帮助开发商打造功能实用、设计出色同时价格亲民的厨房方案，且享有25年品质保证。</p>",
+    "厨房项目",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/50/77/50773ece03ca8aef4d53f4bdad6d1bd8.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/50/77/50773ece03ca8aef4d53f4bdad6d1bd8.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/h5page/?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fib%3Fchannel%3DAPP%26cl_sr%3DIB_APP",
+    "NO",
+    "ikea://default-module/H5?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fib%3Fchannel%3DAPP%26cl_sr%3DIB_APP",
+    "{\"objectId_var\":\"https://store-companion.ikea.cn/ib?channel=APP&cl_sr=IB_APP\",\"objectType_var\":\"default-module/H5\"}",
+    "button",
+    "联系宜家对公业务部"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/h5page/?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fib%3Fchannel%3DAPP%26cl_sr%3DIB_APP",
+     "text": ""
+    }
+   ],
+   "settings": null
+  }
+ ]
+}

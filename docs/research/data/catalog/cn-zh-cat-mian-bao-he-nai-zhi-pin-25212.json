@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/cat/mian-bao-he-nai-zhi-pin-25212",
+ "id": "mian-bao-he-nai-zhi-pin-25212",
+ "name": "面包和奶制品",
+ "description": "你有没有品尝过我们美味的瑞典咸脆饼？酥脆夹心，在上面加一片奶酪或其他任何你喜欢的东西会更加美味。如果你想吃北欧零食，过来尝一尝我们的咸脆饼，还有更多美味的瑞典食品等你挑选。",
+ "total": 2,
+ "products": [
+  {
+   "id": "30148514",
+   "name": "KNÄCKEBRÖD RÅG",
+   "price": 24.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/knaeckebroed-rag-hei-mai-bo-cui-bing__0090069_pe223510_s4.jpg",
+   "productType": "黑麦薄脆饼",
+   "designText": "",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "knaeckebroed-rag-hei-mai-bo-cui-bing"
+  },
+  {
+   "id": "20118942",
+   "name": "KNÄCKEBRÖD FLERKORN",
+   "price": 24.9,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/knaeckebroed-flerkorn-hun-he-gu-wu-bo-cui-bing__1111640_pe870839_s4.jpg",
+   "productType": "混合谷物薄脆饼",
+   "designText": "",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "knaeckebroed-flerkorn-hun-he-gu-wu-bo-cui-bing"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "30148514",
+   "type": "ART",
+   "fullId": "30148514"
+  },
+  {
+   "id": "20118942",
+   "type": "ART",
+   "fullId": "20118942"
+  }
+ ]
+}

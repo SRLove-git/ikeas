@@ -1,0 +1,319 @@
+{
+ "url": "/cn/zh/ikea-business/gallery/nan2-jing1-wan4-ke1-ban4-gong1-shi4-pub46f18950",
+ "family": "ikea-business",
+ "id": "cn--zh--46f1895032fa11ec87511d1904e6e1dd",
+ "title": "南京都荟天地城办公室",
+ "name": "办公环境 - 南京都荟天地城办公室",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "南京都荟天地城办公室"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-标题-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>宜家专业打造商业办公空间，赋予清晰的功能分区，支持所有办公需求。可调节办公桌，提升办公效率；舒适座椅保障员工身心健康。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>办公空间</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/14/63/14634be8b66fab654e9b933bb98b4652.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/14/63/14634be8b66fab654e9b933bb98b4652.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-媒体商品组合 image(Video)-"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/21/62/21621f96850d845b1da81888e643d31c.jpg",
+    "https://file.app.ikea.cn/images/d2/e8/d2e8a84d11058f73b259b324b8252be4.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/21/62/21621f96850d845b1da81888e643d31c.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/d2/e8/d2e8a84d11058f73b259b324b8252be4.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-分栏内容 Columns-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>经理办公室</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/2b/d3/2bd3396dac7f76393ca04c2630dda9a2.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/2b/d3/2bd3396dac7f76393ca04c2630dda9a2.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-媒体商品组合 image(Video)-"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/c2/28/c2289e35de3484ae46613456fe6fcbb6.jpg",
+    "https://file.app.ikea.cn/images/ab/43/ab430b412da0d7d94178735359916de2.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/c2/28/c2289e35de3484ae46613456fe6fcbb6.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/ab/43/ab430b412da0d7d94178735359916de2.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-分栏内容 Columns-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>多功能收纳区</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/81/11/81115280abeb580060daa96372a9cb3a.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/81/11/81115280abeb580060daa96372a9cb3a.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-媒体商品组合 image(Video)-"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/94/3f/943fa12b1c73707e23ea1a6e1fc22574.jpg",
+    "https://file.app.ikea.cn/images/94/04/9404bdd2eda5ad0bb38018318796b079.jpg",
+    "https://file.app.ikea.cn/images/97/a7/97a722dff989b9546ce9b87f14deca84.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/94/3f/943fa12b1c73707e23ea1a6e1fc22574.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/94/04/9404bdd2eda5ad0bb38018318796b079.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/97/a7/97a722dff989b9546ce9b87f14deca84.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-分栏内容 Columns-"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/dc/17/dc17066d778d742a8ae0893847d1fcb1.jpg",
+    "https://file.app.ikea.cn/images/14/16/1416c337909fd5827602e47f04bf2efd.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/dc/17/dc17066d778d742a8ae0893847d1fcb1.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/14/16/1416c337909fd5827602e47f04bf2efd.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-分栏内容 Columns-"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/2a/8e/2a8e28f046a39be63f7094ec9c0723d3.jpg",
+    "https://file.app.ikea.cn/images/23/f2/23f276e1f30f541addd088b94548a184.jpg",
+    "https://file.app.ikea.cn/images/ee/7d/ee7dd1ea2c03d3dcd441d959818fc9e1.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/2a/8e/2a8e28f046a39be63f7094ec9c0723d3.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/23/f2/23f276e1f30f541addd088b94548a184.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/ee/7d/ee7dd1ea2c03d3dcd441d959818fc9e1.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-分栏内容 Columns-"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "相关产品",
+   "texts": [
+    "/ikea-business/office-furnishings/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fikea-business%2Foffice-furnishings%2F&key=",
+    "{\"objectId_var\":\"/ikea-business/office-furnishings/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "相关产品",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/ikea-business/office-furnishings/",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Product Shelf-相关产品"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/h5page/?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fib%3Fchannel%3DIRW%2520M2%26cl_sr%3DIB_IRW%2520M2",
+    "NO",
+    "ikea://default-module/H5?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fib%3Fchannel%3DIRW%2520M2%26cl_sr%3DIB_IRW%2520M2",
+    "{\"objectId_var\":\"https://store-companion.ikea.cn/ib?channel=IRW%20M2&cl_sr=IB_IRW%20M2\",\"objectType_var\":\"default-module/H5\"}",
+    "button",
+    "联系宜家对公业务部"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/h5page/?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fib%3Fchannel%3DIRW%2520M2%26cl_sr%3DIB_IRW%2520M2",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-按钮 Link-button or text-"
+   }
+  }
+ ]
+}

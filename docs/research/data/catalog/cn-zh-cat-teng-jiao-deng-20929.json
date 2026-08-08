@@ -1,0 +1,108 @@
+{
+ "url": "/cn/zh/cat/teng-jiao-deng-20929",
+ "id": "teng-jiao-deng-20929",
+ "name": "藤脚凳和矮凳",
+ "description": "用藤条脚凳，为你的休闲时光增添一丝户外气息。我们的大多数藤条脚凳主要采用藤条、香蕉叶等可再生材料制作而成。它们既是可持续产品，又能在客人意外到来时提供优质的额外座椅。在线浏览或前往宜家商场，找到适合你的藤条箱式凳。",
+ "total": 6,
+ "products": [
+  {
+   "id": "80442966",
+   "name": "GAMLEHULT 加姆胡特",
+   "price": 499,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/gamlehult-jia-mu-hu-te-chu-wu-jiao-deng-teng-tiao-mei-hei-se__0672903_pe716940_s4.jpg",
+   "productType": "储物脚凳",
+   "designText": "藤条/煤黑色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "gamlehult-jia-mu-hu-te-chu-wu-jiao-deng-teng-tiao-mei-hei-se"
+  },
+  {
+   "id": "40158135",
+   "name": "ALSEDA 阿西达",
+   "price": 199,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/alseda-a-xi-da-deng-ba-jiao-xian-wei__24302_pe089431_s4.jpg",
+   "productType": "凳",
+   "designText": "芭蕉纤维",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "alseda-a-xi-da-deng-ba-jiao-xian-wei"
+  },
+  {
+   "id": "30624266",
+   "name": "IKEA PS 2026",
+   "price": 999,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/ikea-ps-2026-chu-wu-jiao-deng-teng-tiao-hong-he-se__1576443_pe1032489_s4.jpg",
+   "productType": "储物脚凳",
+   "designText": "藤条 红褐色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "ikea-ps-2026-chu-wu-jiao-deng-teng-tiao-hong-he-se"
+  },
+  {
+   "id": "49563159",
+   "name": "FRYKSÅS 弗莱萨",
+   "price": 599,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/fryksas-fu-lai-sa-jiao-deng-teng-tiao-lai-sai-en-zi-ran-se__1303430_pe938375_s4.jpg",
+   "productType": "脚凳",
+   "designText": "藤条 莱塞恩/自然色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "fryksas-fu-lai-sa-jiao-deng-teng-tiao-lai-sai-en-zi-ran-se"
+  },
+  {
+   "id": "70512667",
+   "name": "TOLKNING 托克宁",
+   "price": 399,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/tolkning-tuo-ke-ning-dai-chu-wu-ai-deng-shou-gong-zhi-zuo-teng-tiao__1098697_pe865490_s4.jpg",
+   "productType": "带储物矮凳",
+   "designText": "手工制作 藤条",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "tolkning-tuo-ke-ning-dai-chu-wu-ai-deng-shou-gong-zhi-zuo-teng-tiao"
+  },
+  {
+   "id": "60574095",
+   "name": "FRYKSÅS 弗莱萨",
+   "price": 499,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/fryksas-fu-lai-sa-jiao-deng-teng-tiao__1288295_pe934146_s4.jpg",
+   "productType": "脚凳",
+   "designText": "藤条",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "fryksas-fu-lai-sa-jiao-deng-teng-tiao"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "80442966",
+   "type": "ART",
+   "fullId": "80442966"
+  },
+  {
+   "id": "40158135",
+   "type": "ART",
+   "fullId": "40158135"
+  },
+  {
+   "id": "30624266",
+   "type": "ART",
+   "fullId": "30624266"
+  },
+  {
+   "id": "49563159",
+   "type": "SPR",
+   "fullId": "s49563159"
+  },
+  {
+   "id": "70512667",
+   "type": "ART",
+   "fullId": "70512667"
+  },
+  {
+   "id": "60574095",
+   "type": "ART",
+   "fullId": "60574095"
+  }
+ ]
+}

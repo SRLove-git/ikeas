@@ -1,0 +1,60 @@
+{
+ "url": "/cn/zh/cat/nordkisa-nuo-de-xi-sa-xi-lie-46366",
+ "id": "nordkisa-nuo-de-xi-sa-xi-lie-46366",
+ "name": "NORDKISA 诺德希萨 系列",
+ "description": "NORDKISA 诺德希萨 系列包括两款竹制衣柜和两款竹制床边桌。不过，可别被它们的名字骗了。本系列产品功能实用百变，你可以自行决定它们的用途和摆放位置。点击此处查看所有单品，获取使用灵感。",
+ "total": 3,
+ "products": [
+  {
+   "id": "10439477",
+   "name": "NORDKISA 诺德希萨",
+   "price": 1299,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/nordkisa-nuo-de-xi-sa-kai-fang-shi-yi-gui-dai-hua-men-zhu__0756080_pe748763_s4.jpg",
+   "productType": "开放式衣柜，带滑门",
+   "designText": "竹",
+   "measureText": "120x123 厘米",
+   "url": null,
+   "seoSlug": "nordkisa-nuo-de-xi-sa-kai-fang-shi-yi-gui-dai-hua-men-zhu"
+  },
+  {
+   "id": "00439473",
+   "name": "NORDKISA 诺德希萨",
+   "price": 599,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/nordkisa-nuo-de-xi-sa-shu-zhuang-tai-zhu__0756073_pe748752_s4.jpg",
+   "productType": "梳妆台",
+   "designText": "竹",
+   "measureText": "76x47 厘米",
+   "url": null,
+   "seoSlug": "nordkisa-nuo-de-xi-sa-shu-zhuang-tai-zhu"
+  },
+  {
+   "id": "80439469",
+   "name": "NORDKISA 诺德希萨",
+   "price": 1499,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/nordkisa-nuo-de-xi-sa-kai-fang-shi-yi-gui-dai-hua-men-zhu__0756084_pe748766_s4.jpg",
+   "productType": "开放式衣柜，带滑门",
+   "designText": "竹",
+   "measureText": "120x186 厘米",
+   "url": null,
+   "seoSlug": "nordkisa-nuo-de-xi-sa-kai-fang-shi-yi-gui-dai-hua-men-zhu"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "10439477",
+   "type": "ART",
+   "fullId": "10439477"
+  },
+  {
+   "id": "00439473",
+   "type": "ART",
+   "fullId": "00439473"
+  },
+  {
+   "id": "80439469",
+   "type": "ART",
+   "fullId": "80439469"
+  }
+ ]
+}

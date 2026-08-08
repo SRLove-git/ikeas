@@ -1,0 +1,142 @@
+{
+ "url": "/cn/zh/ideas/ji4-suan4-ni3-de-hu4-wai4-mian4-ji1-pubac32b190",
+ "family": "ideas",
+ "id": "cn--zh--ac32b19094e011ea8c9a0f966cc14718",
+ "title": "计算你的户外面积",
+ "name": "202044_idod04a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "计算你的户外面积",
+   "texts": [
+    "户外木纹地板一角，地板上摆放着带白色软垫的户外沙发，沙发上有一本书。",
+    "<p>运用不同材料和颜色的户外地板饰面系列，快速打造个性化外观。这些地板饰面可扣合拼接，助你轻松完成户外地板装饰。</p>",
+    "计算你的户外面积",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/19/ff/19ffbcbf89d72785e31bcd7c6d3e1968.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/19/ff/19ffbcbf89d72785e31bcd7c6d3e1968.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "完美贴合户外空间的木地板上摆放着一株种在金属花盆里的盆栽植物，后面为白色墙面。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "90234226"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/d1/cf/d1cf527c377e82b56c89c636927a9954.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/d1/cf/d1cf527c377e82b56c89c636927a9954.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "阳台上摆放着一张白色塑料户外椅和一张红色户外用桌，旁边有一盆植物，阳台地面铺有印花地板饰面。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "s49320401"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/b3/2f/b32f4b27328d820a7bc03a9afd7471ac.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/b3/2f/b32f4b27328d820a7bc03a9afd7471ac.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "铺有深褐色木板条的地面上方，一双手正拿着仿草坪的地板饰面。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "50313131"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/a5/0c/a50c8f7d4b715f2a9c2895430aedcd0d.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/a5/0c/a50c8f7d4b715f2a9c2895430aedcd0d.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "<h2>打造个性化的户外地板</h2>\n<p>M&Auml;LLSTEN 梅斯田 是全新的马拉喀什风格地板饰面系列，采用耐风雨石瓷制成，适合组合搭配不同色彩和材料的RUNNEN 鲁恩 地板饰面，打造别具一格的创意风格。</p>",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s49320401",
+    "90234226",
+    "50313131",
+    "90238111"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/cat/21957",
+    "NO",
+    "ikea://content/plp?catalogId=21957",
+    "{\"objectId_var\":\"21957\",\"objectType_var\":\"plp\"}",
+    "button",
+    "查看所有户外地板系列"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/21957",
+     "text": ""
+    }
+   ],
+   "settings": null
+  }
+ ]
+}

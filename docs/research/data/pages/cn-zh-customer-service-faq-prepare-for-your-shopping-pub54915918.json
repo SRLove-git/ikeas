@@ -1,0 +1,50 @@
+{
+ "url": "/cn/zh/customer-service/faq/prepare-for-your-shopping-pub54915918",
+ "family": "customer-service",
+ "id": "cn--zh--54915918af2211e7b23503ef832e0d7f",
+ "title": "购物准备",
+ "name": "my page-购物准备",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "购物准备"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p><strong>1. 如何注册宜家官方网站账户？</strong><br />你需要通过手机号码和邮箱地址注册宜家官方网站帐户。原宜家上海地区网上商城内注册的帐户无法在官网直接使用，请重新注册。部分原有宜家官网帐户由于长期未使用现已失效，烦请重新注册。在注册时请填写正确的常用邮箱地址，宜家将通过邮件的形式发送宜家网上商城订单电子收银条至注册邮箱。</p>\n<p><strong>2. 宜家官方网站帐户密码忘记了怎么办？</strong><br />请先登陆宜家官网桌面版 <a href=\"http://www.ikea.cn \">www.ikea.cn </a>（注意不是手机版），进入&ldquo;登录&rdquo;页面，选择&ldquo;忘记密码&rdquo;。根据网页的提示信息，选择通过注册时填写的邮箱地址或者手机短信的形式，获取临时密码。在重新登陆后需要你即刻修改新密码。为了你的账户安全，请勿将验证短信或者邮件转发给他人。如需任何支持，请联系宜家在线客服。</p>\n<p><strong>3. 宜家网上商城产品价格和线下实体商场产品价格一样吗？</strong><br />宜家网上商城的产品价格，与线下商场产品价格基本保持一致。如果发生价格不同（例如不同促销活动期间会有价格差异），你在网上购物时请以宜家网上商城显示的实际价格为准。</p>\n<p><strong>4. 如果在"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/customer-service/faq/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fcustomer-service%2Ffaq%2F&key=cn--zh--c2cec211ae3111e7bee763967dcf9290",
+    "{\"objectId_var\":\"/customer-service/faq/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "返回常见问题"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/customer-service/faq/",
+     "text": ""
+    }
+   ],
+   "settings": null
+  }
+ ]
+}

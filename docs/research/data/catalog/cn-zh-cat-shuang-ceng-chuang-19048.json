@@ -1,0 +1,60 @@
+{
+ "url": "/cn/zh/cat/shuang-ceng-chuang-19048",
+ "id": "shuang-ceng-chuang-19048",
+ "name": "双层床",
+ "description": "访问宜家，查看精心设计的双层床和床架，又多种造型和尺寸供你选择。我们提供金属和木质双层床及床架。双层床不仅更加有趣，而且可以帮助你节省空间。没人睡在下铺时，你可以轻松地将其变成一张沙发。",
+ "total": 3,
+ "products": [
+  {
+   "id": "70619932",
+   "name": "VITVAL 维特瓦尔",
+   "price": 1999,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/vitval-wei-te-wa-er-shuang-ceng-chuang-jia-bai-se-dan-hui-se__1458000_pe992847_s4.jpg",
+   "productType": "双层床架",
+   "designText": "白色/淡灰色",
+   "measureText": "90x200 厘米",
+   "url": null,
+   "seoSlug": "vitval-wei-te-wa-er-shuang-ceng-chuang-jia-bai-se-dan-hui-se"
+  },
+  {
+   "id": "80619941",
+   "name": "MYDAL 麦达",
+   "price": 2499,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/mydal-mai-da-shuang-ceng-chuang-jia-song-mu__1458029_pe992853_s4.jpg",
+   "productType": "双层床架",
+   "designText": "松木",
+   "measureText": "90x200 厘米",
+   "url": null,
+   "seoSlug": "mydal-mai-da-shuang-ceng-chuang-jia-song-mu"
+  },
+  {
+   "id": "30619934",
+   "name": "TUFFING 图芬格",
+   "price": 999,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/tuffing-tu-fen-ge-shuang-ceng-chuang-jia-shen-hui-se__1458020_pe992851_s4.jpg",
+   "productType": "双层床架",
+   "designText": "深灰色",
+   "measureText": "90x200 厘米",
+   "url": null,
+   "seoSlug": "tuffing-tu-fen-ge-shuang-ceng-chuang-jia-shen-hui-se"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "70619932",
+   "type": "ART",
+   "fullId": "70619932"
+  },
+  {
+   "id": "80619941",
+   "type": "ART",
+   "fullId": "80619941"
+  },
+  {
+   "id": "30619934",
+   "type": "ART",
+   "fullId": "30619934"
+  }
+ ]
+}

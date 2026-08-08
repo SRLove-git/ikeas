@@ -1,0 +1,639 @@
+{
+ "url": "/cn/zh/customer-service/faq",
+ "family": "customer-service",
+ "id": "cn--zh--4e64251056d911eba2a3bb2fcf9648f3",
+ "title": "常见问题",
+ "name": "常见问题 - ODY",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "常见问题",
+   "texts": [
+    "常见问题",
+    "<p><strong>最常见问题</strong></p>",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20231205/363903dd3cb8416594507e485c2e42f5.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20231205/363903dd3cb8416594507e485c2e42f5.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Hero-常见问题"
+   }
+  },
+  {
+   "type": "pub-expandable-area",
+   "title": null,
+   "texts": [
+    "1. 如何查询网上配送范围和运费？",
+    "column",
+    "<p>1. 如何查询网上配送范围和运费？</p>\n<p>目前，我们为全国306个城市范围提供快递包裹配送和货车配送服务。你可以添加商品至购物车以后可以通过输入具体地址和邮政编码，查看线上购物配送范围和运费。<br />送货服务信息和收费标准请浏览<a href=\"https://www.ikea.cn/cn/zh/customer-service/services/delivery/\">送货服务</a>页面了解详情。</p>",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Expandable Area-"
+   }
+  },
+  {
+   "type": "pub-expandable-area",
+   "title": null,
+   "texts": [
+    "2. 如何预约组装服务？",
+    "column",
+    "<p>2. 如何预约组装服务？</p>\n<p>在配送范围内的地区我们都提供家具组装服务。</p>\n<p>宜家提供以下两种有偿组装服务：<br /><strong>&rdquo;万师傅&rdquo;平台组装服务：</strong> 先完成商品付款，然后用微信扫描二维码自助预约组装服务。</p>\n<p><strong>宜家有偿组装服务：</strong>将商品加入购物车后，在购物车页面点击选择预定宜家有偿组装服务，请先完成商品付款。宜家客服将根据您选择组装的商品，与您确认具体组装价格、组装时间。<br />组装服务信息和收费标准请浏览<a href=\"https://www.ikea.cn/cn/zh/customer-service/services/assembly/\" target=\"_blank\" rel=\"noopener\">组装服务</a>页面了解详情。</p>",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Expandable Area-"
+   }
+  },
+  {
+   "type": "pub-expandable-area",
+   "title": null,
+   "texts": [
+    "3. 如何查询订单物流配送状态？",
+    "column",
+    "<p>3. 如何查询订单物流配送状态？</p>\n<p>宜家会根据你选择的送货服务日期和时间段提前与你联系&hellip;&hellip;确保货物按时抵达。您可以登录微信小程序&ldquo;宜家俱乐部&rdquo; 查询具体的送货信息。如果您是在线购物您可以在&rdquo;我的订单&rdquo;页面通过自助查询到货情况，或联系我们宜家在线客服查询配送状态。</p>",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Expandable Area-"
+   }
+  },
+  {
+   "type": "pub-expandable-area",
+   "title": null,
+   "texts": [
+    "4. 如何获取发票？",
+    "column",
+    "<p>4. 如何获取发票？</p>\n<p><span style=\"font-size: inherit;\">宜家网上商城购物的：完成网上订单支付后，你会通过注册时填写的邮箱获得网上订单电子收银条。通过扫描电子收银条上的二维码，自助在线填写开票信息、申请开具数电票(普通发票)，数电票（专用发票）。对于数电票（专用发票），待审核无误后，系统会在您订单成功支付后的15天后发送到您填写的电子邮箱。</span></p>\n<p>&nbsp;</p>\n<p><span style=\"font-size: inherit;\">在宜家商场购物的：</span></p>\n<p><span style=\"font-size: inherit;\">（1）你可以通过手机扫描小票下方的二维码，自助在线填写开票信息、申请开具数电票(普通发票)，数电票（专用发票）。</span></p>\n<p><span style=\"font-size: inherit;\">（2）宜家会员可在APP/官网/小程序上&ldquo;我的订单&rdquo;中，选择线下商场订单，选择需要开票的订单，点击更多-申请发票，自助在线填写开票信息、申请开具数电票(普通发票)，数电票（专用发票）。</span></p>",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Expandable Area-"
+   }
+  },
+  {
+   "type": "pub-expandable-area",
+   "title": null,
+   "texts": [
+    "5. 如何查询网上商城产品库存？",
+    "column",
+    "<p>5. 如何查询网上商城产品库存？</p>\n<p>将商品加入购物车输入地址和邮编之后，网页上会显示商品的库存信息。如遇&ldquo;暂时缺货&rdquo;可能是您购买的商品在该区域暂时缺货，您可以在产品详情页查询实体商场库存后至商场购买，或者加入心愿单后续购买。</p>",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Expandable Area-"
+   }
+  },
+  {
+   "type": "pub-expandable-area",
+   "title": null,
+   "texts": [
+    "6. 如何退换货？",
+    "column",
+    "<p>6. 如何退换货？</p>\n<p><a href=\"https://www.ikea.cn/cn/zh/customer-service/returns-claims/return-policy/\">退货政策</a></p>",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Expandable Area-"
+   }
+  },
+  {
+   "type": "pub-expandable-area",
+   "title": null,
+   "texts": [
+    "7. 如何联系宜家网上商城客服？",
+    "column",
+    "<p>7. 如何联系宜家网上商城客服？</p>\n<p>您可以通过点击页面右下角的客服对话框开始对话，或拨打400-800-2345客服热线。<br />电话人工服务时间为周一至周日09:00-18:00<br />在线客服人工服务时间为周一至周日09:00-22:00</p>",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Expandable Area"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2><strong>购物准备</strong></h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-expandable-area",
+   "title": null,
+   "texts": [
+    "1. 宜家网上商城产品价格和线下实体商场产品价格一样吗？",
+    "column",
+    "<p>1. 宜家网上商城产品价格和线下实体商场产品价格一样吗？</p>\n<p>宜家网上商城的产品价格，与线下商场产品价格基本保持一致。如果发生价格不同（例如不同促销活动期间会有价格差异），你在网上购物时请以宜家网上商城显示的实际价格为准。</p>",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Expandable Area-"
+   }
+  },
+  {
+   "type": "pub-expandable-area",
+   "title": null,
+   "texts": [
+    "2. 如果在购物中发生缺货怎么办？",
+    "column",
+    "<p>2. 如果在购物中发生缺货怎么办？</p>\n<p>为了保证目录中产品的供应，我们在网页上展示所有可以销售的库存。如果你在购物车输入地址和邮编之后显示&ldquo;暂时缺货&rdquo;可能是您购买的商品在该区域暂时缺货，您可以在产品详情页查询实体商场库存后至商场购买，或者加入心愿单后续购买。</p>",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Expandable Area-"
+   }
+  },
+  {
+   "type": "pub-expandable-area",
+   "title": null,
+   "texts": [
+    "3. 如何查询网上商城产品库存？",
+    "column",
+    "<p>3. 如何查询网上商城产品库存？</p>\n<p>将商品加入购物车输入地址和邮编之后，网页上会显示商品的库存信息。如遇&ldquo;暂时缺货&rdquo;可能是您购买的商品在该区域暂时缺货，您可以在产品详情页查询实体商场库存后至商场购买，或者加入心愿单后续购买。<strong>请注意，由于库存实时变动，库存数据可能有所延迟，请以结算页面显示得库存为准。</strong></p>",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Expandable Area-"
+   }
+  },
+  {
+   "type": "pub-expandable-area",
+   "title": null,
+   "texts": [
+    "4. 商品提供哪些品质保证？",
+    "column",
+    "<p>4. 商品提供哪些品质保证？</p>\n<p>品质保证是针对每件产品的侧面描述。宜家在遵守各地法律法规要求的产品品质保证年限基础上，对部分产品提供5年、10年、15年或25年的品质保证。你可以在产品详情页面了解相关质保年限，或者浏览<a href=\"https://www.ikea.cn/cn/zh/customer-service/returns-claims/guarantee/\" target=\"_blank\" rel=\"noopener\">品质保证</a>页面获取更多信息。</p>",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Expandable Area-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2><strong>在线支付</strong></h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-expandable-area",
+   "title": null,
+   "texts": [
+    "1. 宜家支持哪些支付方式？",
+    "column",
+    "<p>1. 宜家支持哪些支付方式？</p>\n<p>宜家线下实体商场接受现金，支付宝，微信支付，有银联、VISA和MASTER标记的储蓄卡及信用卡，Apple Pay苹果支付，同城转账支票，及宜家购物卡和退换卡。 宜家网上商城接受支付宝，微信，及银联支付。</p>",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Expandable Area-"
+   }
+  },
+  {
+   "type": "pub-expandable-area",
+   "title": null,
+   "texts": [
+    "2. 如果超出了在线支付额度怎么办？",
+    "column",
+    "<p>2. 如果超出了在线支付额度怎么办？</p>\n<p>普通银行卡（储蓄卡/信用卡），支付宝，或微信支付设置均有支付上限，超过支付限额你将无法支付。你可以拨打相关银行支付卡，支付宝，或微信支付的服务电话，提高支付限额或将钱款分批存入支付平台进行支付。</p>",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Expandable Area-"
+   }
+  },
+  {
+   "type": "pub-expandable-area",
+   "title": null,
+   "texts": [
+    "3. 如果支付过程中出现页面错误怎么办？",
+    "column",
+    "<p>3. 如果支付过程中出现页面错误怎么办？ </p>\n<p>常见页面错误类型及处理办法：</p>\n<p>&bull; 你的银行卡尚未开通网上银行支付功能，建议你到当地营业厅开通网上银行；</p>\n<p>&bull; 所用银行卡超出该银行支持地域范围，请你更换银行卡试试；</p>\n<p>&bull; 银行卡已过期、作废、挂失或者余额不足等，建议你咨询你的开户行；</p>\n<p>&bull; 银行系统数据传输可能出现异常，建议你刷新页面或者稍后重启电脑；</p>\n<p>&bull; 部分银行设置有支付金额限制，如限制支付金额不能超过1500，超过1500的订单则无法支付成功，你可以联系发卡银行详细了解；</p>\n<p>&bull; 如遇活动高峰期导致付款不成功，建议你重新打开页面进行支付。</p>",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Expandable Area-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2><strong>送装服务</strong></h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-expandable-area",
+   "title": null,
+   "texts": [
+    "1. 如何查询网上配送范围和运费？",
+    "column",
+    "<p>1. 如何查询网上配送范围和运费？</p>\n<p>目前，我们为全国306个城市范围提供快递包裹配送和货车配送服务。你可以添加商品至购物车以后可以通过输入具体地址和邮政编码，查看线上购物配送范围和运费。</p>\n<p>送货服务信息和收费标准请浏览<a style=\"background-color: #ffffff;\" href=\"https://www.ikea.cn/cn/zh/customer-service/services/delivery/\" target=\"_blank\" rel=\"noopener\">送货服务</a>页面了解详情。</p>",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Expandable Area-"
+   }
+  },
+  {
+   "type": "pub-expandable-area",
+   "title": null,
+   "texts": [
+    "2. 如何预约组装服务？",
+    "column",
+    "<p>2. 如何预约组装服务？</p>\n<p>在配送范围内的地区我们都提供家具组装服务。<br />宜家提供以下两种有偿组装服务：</p>\n<p><strong>&rdquo;万师傅&rdquo;平台组装服务：</strong> 先完成商品付款，然后用微信扫描二维码自助预约组装服务。</p>\n<p><strong>宜家有偿组装服务：</strong>将商品加入购物车后，在购物车页面点击选择预定宜家有偿组装服务，请先完成商品付款。宜家客服将根据您选择组装的商品，与您确认具体组装价格、组装时间。<br />组装服务信息和收费标准请浏览<a href=\"https://www.ikea.cn/cn/zh/customer-service/services/assembly/\" target=\"_blank\" rel=\"noopener\">组装服务</a>页面了解详情。</p>",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Expandable Area-"
+   }
+  },
+  {
+   "type": "pub-expandable-area",
+   "title": null,
+   "texts": [
+    "3. 可以修改送货或组装服务时间吗？",
+    "column",
+    "<p>3. 可以修改送货或组装服务时间吗？</p>\n<p>我们希望在原定服务时间内，你可以配合收货，检查商品的运输或者组装完成情况。如果您因为个人原因改变原定送货、组装日期，请在原定送货、组装时间前一日提出，并应在原定送货、组装时间往后七日之内再次选择并完成您的服务，具体日期以宜家客服和您联系后商定的日期为准。</p>",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Expandable Area-"
+   }
+  },
+  {
+   "type": "pub-expandable-area",
+   "title": null,
+   "texts": [
+    "4. 如何取消送货？",
+    "column",
+    "<p>4.如何取消送货？</p>\n<p><strong>在宜家官网/宜家APP/宜家微信小程序购买：</strong>您可以在发货前进入&ldquo;我的订单&rdquo;进行取消操作，如已发货，请在原定送货日期前一日联系在线客服或拨打4008002345服务热线。</p>\n<p><strong>在宜家商场购买：</strong>您可以在原定送货日期前一日在联系宜家在线客服或拨打客服热线4008002345取消送货服务。</p>",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Expandable Area-"
+   }
+  },
+  {
+   "type": "pub-expandable-area",
+   "title": null,
+   "texts": [
+    "5. 如何查询订单物流配送状态？",
+    "column",
+    "<p>5. 如何查询订单物流配送状态？</p>\n<p>宜家会根据你选择的送货服务日期和时间段提前与你联系&hellip;&hellip;确保货物按时抵达。您可以登录微信小程序&ldquo;宜家俱乐部&rdquo; 查询具体的送货信息。如果您是在线购物您可以在&rdquo;我的订单&rdquo;页面通过自助查询到货情况，或联系我们宜家在线客服查询配送状态。</p>",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Expandable Area-"
+   }
+  },
+  {
+   "type": "pub-expandable-area",
+   "title": null,
+   "texts": [
+    "6. 如果商品少送、错送，或者破损了怎么办？",
+    "column",
+    "<p>6. 如果商品少送、错送，或者破损了怎么办？</p>\n<p>很抱歉发生这样的情况。请你在宜家送货签收单上注明情况后，及时联系宜家在线客服或拨打客服热线4008002345，告知订单信息、送货联系方式，以及少送、错送的商品信息。经核实宜家会及时安排二次送货，或适合的售后服务。</p>",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Expandable Area-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2><strong>开票信息</strong></h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-expandable-area",
+   "title": null,
+   "texts": [
+    "1. 宜家提供哪些开票类型？",
+    "column",
+    "<p>1. 宜家提供哪些开票类型？</p>\n<p>宜家商场和网上商城提供发票类型有：&ldquo;电子增值税普通发票&rdquo;和&ldquo;增值税专用发票&rdquo;。&nbsp;</p>\n<p>注意事项：1）一个订单对应一张发票。2）仅提供完整的产品明细发票。3）发票金额不能高于订单实际支付金额。4）使用优惠券和礼品卡支付的金额不开具发票。</p>",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Expandable Area-"
+   }
+  },
+  {
+   "type": "pub-expandable-area",
+   "title": null,
+   "texts": [
+    "2. 送货、组装等产品服务，可以开具发票吗？",
+    "column",
+    "<p>2. 送货、组装等产品服务，可以开具发票吗？</p>\n<p>送货、组装等各类服务产品，以明细的形式与家具产品开具在同一张发票内。</p>",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Expandable Area-"
+   }
+  },
+  {
+   "type": "pub-expandable-area",
+   "title": null,
+   "texts": [
+    "3. 如何获取发票？",
+    "column",
+    "<p>3. 如何获取发票？</p>\n<p><span style=\"font-size: inherit;\">宜家网上商城购物的：完成网上订单支付后，你会通过注册时填写的邮箱获得网上订单电子收银条。通过扫描电子收银条上的二维码，自助在线填写开票信息、申请开具数电票(普通发票)，数电票（专用发票）。对于数电票（专用发票），待审核无误后，系统会在您订单成功支付后的15天后发送到您填写的电子邮箱。</span></p>\n<p>&nbsp;</p>\n<p><span style=\"font-size: inherit;\">在宜家商场购物的：</span></p>\n<p><span style=\"font-size: inherit;\">（1）你可以通过手机扫描小票下方的二维码，自助在线填写开票信息、申请开具数电票(普通发票)，数电票（专用发票）。</span></p>\n<p><span style=\"font-size: inherit;\">（2）宜家会员可在APP/官网/小程序上&ldquo;我的订单&rdquo;中，选择线下商场订单，选择需要开票的订单，点击更多-申请发票，自助在线填写开票信息、申请开具数电票(普通发票)，数电票（专用发票）。</span></p>",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Expandable Area-"
+   }
+  },
+  {
+   "type": "pub-expandable-area",
+   "title": null,
+   "texts": [
+    "4. 发票开具信息有误怎么办？",
+    "column",
+    "<p>4. 发票开具信息有误怎么办？</p>\n<p><span data-teams=\"true\">你在收到发票后如果发现因宜家原因所致票据抬头、内容或金额错误，请在自开票日期起30日内联系客服人员为你安排办理换发票事宜。</span></p>",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Expandable Area-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2><strong>售后服务</strong></h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-expandable-area",
+   "title": null,
+   "texts": [
+    "1. 如何退换货？",
+    "column",
+    "<p>1. 购买的商品不合适，可以退换吗？</p>\n<p><span style=\"background-color: #ffffff;\"><span style=\"background-color: #ffffff;\">您可在60天内退货（宜家俱乐部会员可在365天内），有完好的货品、原始购物凭证（例如商场提供的纸质小票、宜家会员俱乐部中的订单编号等）和发票（如已开具），我们将按照您购物时的支付方式退款，银行卡退款请携带原始签购单和银行卡。</span>很抱歉：食品、家用电器商品、购买前单独签署协议的特殊定制产品，以及被切割、裁剪和油漆过的产品，不适用于宜家退货政策。<span style=\"background-color: #ffffff;\">以上退货政策仅适用中国大陆的宜家商场及宜家官网，宜家官方APP和小程序及电商商城所购买的货品。</span></span></p>\n<p>温馨提示：</p>\n<p>&bull;<span style=\"background-color: #ffffff;\">&ldquo;完好的货品&rdquo; 指货品未受损、无污渍、未变形、未经洗涤且无使用痕迹等。食品、家用电器商品、购买前单独签署协议的特殊定制产品，以及被切割、裁剪和油漆过的产品，不在无忧退换货范围之内。</span><br />&bull; 建议您保留好包裹配送时的包装，以方便产品",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Expandable Area-"
+   }
+  },
+  {
+   "type": "pub-expandable-area",
+   "title": null,
+   "texts": [
+    "2. 退货需要承担退货运费吗？",
+    "column",
+    "<p>2. 退货需要承担退货运费吗？</p>\n<p>顾客联系宜家在线客服申请退货服务，且需要宜家提供上门收货服务的，产品将退还至指定宜家退货商场。如果退货原因属于顾客个人改变主意，顾客需要承担相应的退货运输费用。如果是因为宜家产品质量问题，或其他因宜家原因导致的，退货运费由宜家承担。</p>",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Expandable Area-"
+   }
+  },
+  {
+   "type": "pub-expandable-area",
+   "title": null,
+   "texts": [
+    "3. 我还未收到货品，如何取消订单？",
+    "column",
+    "<p>3.我还未收到货品，如何取消订单？</p>\n<p><strong>在宜家官网/宜家APP/宜家微信小程序购买：</strong>您可以在发货前进入&ldquo;我的订单&rdquo;进行取消操作，如已发货，请在原定送货日期前一日联系在线客服或拨打4008002345服务热线。</p>\n<p><strong>在宜家商场购买：</strong>您可以在原定送货日期前一日在联系宜家在线客服或拨打客服热线4008002345取消送货服务。</p>",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Expandable Area-"
+   }
+  },
+  {
+   "type": "pub-expandable-area",
+   "title": null,
+   "texts": [
+    "4. 如何查询退款状态？",
+    "column",
+    "<p>4. 如何查询退款状态？</p>\n<p>宜家收到退货产品并确认无误后，将在7个工作日内，按照你的原支付方式完成退款操作。你可以通过原支付方式服务平台查询退款进度。</p>",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Expandable Area-"
+   }
+  },
+  {
+   "type": "pub-expandable-area",
+   "title": null,
+   "texts": [
+    "5. 购买的商品出现质量问题怎么办？",
+    "column",
+    "<p>5. 购买的商品出现质量问题怎么办？</p>\n<p>如果你购买的产品产生质量问题，你可以带着有问题的产品或部件至当地商场退换处， 凭你的购物凭证（收银条或发票）享受相应的售后服务。对于大件产品，或者你不方便去商场的，你可以联系宜家在线客服，或者拨打客服热线400-800-2345进行处理。 在质保期内，宜家为发生质量问题的产品提供免费的售后服务。</p>",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Expandable Area-"
+   }
+  },
+  {
+   "type": "pub-expandable-area",
+   "title": null,
+   "texts": [
+    "6. 在哪里可以找到商品召回信息？",
+    "column",
+    "<p>6. 在哪里可以找到商品召回信息？</p>\n<p>如果发生产品召回的情况，宜家会第一时间在官方网站上公布具体信息和处理方法。你也可以通过点击宜家网上商城主页下方&ldquo;新闻室&rdquo; 的 &rdquo;&nbsp;商品召回&rdquo; ，了解具体产品召回内容。</p>",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Expandable Area-"
+   }
+  },
+  {
+   "type": "pub-expandable-area",
+   "title": null,
+   "texts": [
+    "7. 如何联系宜家网上商城客服？",
+    "column",
+    "<p>7. 如何联系宜家网上商城客服？</p>\n<p>您可以通过页面右下角的客服对话框开始对话，或拨打400-800-2345客服热线。<br />电话人工服务时间为周一至周日09:00-18:00<br />在线客服人工服务时间为周一至周日09:00-22:00</p>",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Expandable Area"
+   }
+  },
+  {
+   "type": "pub-expandable-area",
+   "title": null,
+   "texts": [
+    "8.如何反馈宜家网上商城的投诉与建议？",
+    "column",
+    "<p>8.如何反馈宜家网上商城的投诉与建议？</p>\n<p>如果您对宜家的商品和服务不满意，或有任何宝贵的意见和建议，我们会认真听取，以及受理相应的投诉。您可以通过以下方式联系我们：</p>\n<p>- 邮箱：cs.cnikea.cn@ikea.com；<br />- 在线客服（点击页面右侧悬浮的客服对话框）；<br />- 宜家服务热线：400-800-2345。</p>\n<p>感谢您的支持和理解！</p>",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Expandable Area-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2><strong>找不到你的问题回答？请联系我们</strong></h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "在线客服",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "<p><strong>在线客服</strong></p>\n<p>在常见问题中没有找到答案？<br />在线客服时间：周一-周日：09:00-22:00<br />点击在线客服悬浮标志，开始对话。</p>"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/d0/10/d010b21e374ba1d35613a7e3a4642cba.png",
+    "https://file.app.ikea.cn/images/d6/46/d6469bb15389a4b27178222ad87c3a14.png",
+    "https://file.app.ikea.cn/images/10/66/1066c76c8f8564e115aa89f149a7f1b2.png"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/d0/10/d010b21e374ba1d35613a7e3a4642cba.png",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/d6/46/d6469bb15389a4b27178222ad87c3a14.png",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/10/66/1066c76c8f8564e115aa89f149a7f1b2.png",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Columns"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/customer-service/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fcustomer-service%2F&key=",
+    "{\"objectId_var\":\"/customer-service/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "返回客户服务"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/customer-service/",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Link - button or text-"
+   }
+  }
+ ]
+}

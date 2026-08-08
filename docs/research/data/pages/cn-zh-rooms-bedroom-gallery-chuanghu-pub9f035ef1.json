@@ -1,0 +1,95 @@
+{
+ "url": "/cn/zh/rooms/bedroom/gallery/chuanghu-pub9f035ef1",
+ "family": "rooms",
+ "id": "cn--zh--9f035ef1571811e8aa2e13b447cdda5f",
+ "title": "窗户装饰",
+ "name": "窗户灵感_PC_SEO",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "窗户装饰",
+   "texts": [
+    "<p><strong>让我们在层层窗帘装饰的空间中放松身心</strong></p>\n<p>在窗户上挂上不同类型的窗帘，层层堆叠，让窗户看起来更温馨，并成为一道可以随时变换的风景。窗帘不仅美观，而且实用&mdash;&mdash;窗帘可以随意拉动，帮助调节光线、声音、温度和私密性。用这些窗帘为你打造一个工作日也能放松自己的空间。</p>",
+    "窗户装饰",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/af/c2/afc2215438bc39689bef755abfe691df.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/af/c2/afc2215438bc39689bef755abfe691df.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--292f1dc1571a11e8aa2e13b447cdda5f",
+    "/rooms/living-room/gallery/chuanglian-pub292f1dc1",
+    "page",
+    "用三层窗帘调节工作日氛围",
+    "窗帘装饰",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fliving-room%2Fgallery%2Fchuanglian-pub292f1dc1&key=cn--zh--292f1dc1571a11e8aa2e13b447cdda5f"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/73/e0/73e0804e259393515611ec04a6193764.jpg",
+    "https://file.app.ikea.cn/images/1c/28/1c28fa5b66113a20beaf0f14a22beef8.jpg",
+    "https://file.app.ikea.cn/images/dc/a0/dca0726660921b1d7f06f244377397e3.jpg",
+    "https://file.app.ikea.cn/images/cc/fe/ccfebd0b626799e44b6e3d15aca9d0bb.jpg",
+    "https://file.app.ikea.cn/images/ec/5e/ec5e61eb1f282ecf4612d5dc76220f18.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/73/e0/73e0804e259393515611ec04a6193764.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/1c/28/1c28fa5b66113a20beaf0f14a22beef8.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/dc/a0/dca0726660921b1d7f06f244377397e3.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/cc/fe/ccfebd0b626799e44b6e3d15aca9d0bb.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/ec/5e/ec5e61eb1f282ecf4612d5dc76220f18.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/af/c2/afc2215438bc39689bef755abfe691df.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/rooms-inspiration/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Frooms-inspiration%2F&key=",
+    "{\"objectId_var\":\"/rooms-inspiration/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "返回所有房间灵感"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/rooms-inspiration/",
+     "text": ""
+    }
+   ],
+   "settings": null
+  }
+ ]
+}

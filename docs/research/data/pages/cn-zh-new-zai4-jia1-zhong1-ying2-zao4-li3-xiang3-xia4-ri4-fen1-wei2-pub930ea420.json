@@ -1,0 +1,157 @@
+{
+ "url": "/cn/zh/new/zai4-jia1-zhong1-ying2-zao4-li3-xiang3-xia4-ri4-fen1-wei2-pub930ea420",
+ "family": "new",
+ "id": "cn--zh--930ea42046e811ec923139855628f007",
+ "title": "营造理想夏日氛围的新创意",
+ "name": "622241_nwns02a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "在家中营造理想夏日氛围"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "c8ea58124526416488375c5d5e237cb5"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>在家中举办聚会，尽情享受难得的仲夏之夜。用引人注目的餐具摆好餐桌，点上几支蜡烛，再播放你挚爱的音乐。就是这么简单。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "867ec80d30914274a4183bf1af170c70"
+   }
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "NO",
+    "https://file.app.ikea.cn/cms/u/20220420/346a2b10124744bfbed3caea814fb425.mp4",
+    "VIDEO",
+    "hosted",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220420/346a2b10124744bfbed3caea814fb425.mp4",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "f930cfc5aa8543058caaa0339f905487"
+   }
+  },
+  {
+   "type": "pub-video-link",
+   "title": null,
+   "texts": [
+    "https://youtu.be/TazfL2Gqd7w",
+    "MANUAL_INPU"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "https://youtu.be/TazfL2Gqd7w",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "2785ce21b68649e2872d398d2bbcc311"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "用餐具打开话题",
+   "texts": [
+    "/cat/18860",
+    "NO",
+    "ikea://content/plp?catalogId=18860",
+    "{\"objectId_var\":\"18860\",\"objectType_var\":\"plp\"}",
+    "在餐桌上摆放美观的陶瓷盘子和玻璃器皿，将休闲的夏日聚会变成别具仪式感的时刻。简约质朴的设计，一定会成为客人的话题之一。",
+    "用餐具打开话题"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/58bf8222bbc323ff/original/PH185058.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/18860",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/58bf8222bbc323ff/original/PH185058.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "5bf02079c5bf45a4b595fd5b617bd68a"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "晴天雨天都能享受美妙音乐",
+   "texts": [
+    "/cat/46193",
+    "NO",
+    "ikea://content/plp?catalogId=46193",
+    "{\"objectId_var\":\"46193\",\"objectType_var\":\"plp\"}",
+    "这个新款户外蓝牙音箱台灯令夏日夜晚更特别——只需轻按一下，就能播放你挚爱的Spotify歌曲。另外，由于它采用了防水设计，所以即使在毛毛雨天气下使用也不用担心会损坏。",
+    "晴天雨天都能享受美妙音乐"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/c552d9c21af26c2/original/PH185052.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/46193",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/c552d9c21af26c2/original/PH185052.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "71b8136fb4ec42fba7a35d484882a50a"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "提升心情",
+   "texts": [
+    "/cat/10783",
+    "NO",
+    "ikea://content/plp?catalogId=10783",
+    "{\"objectId_var\":\"10783\",\"objectType_var\":\"plp\"}",
+    "用宜家新款香味烛为你的夜晚营造美好氛围。这些香味烛的清新芳香以大自然为灵感，搭配了漂亮的陶瓷罐和玻璃罐包装。",
+    "提升心情"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/dbc3db9de2c41c4/original/PH185063.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/10783",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/dbc3db9de2c41c4/original/PH185063.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "447edcfba9f54d909e99d374224f70ea"
+   }
+  }
+ ]
+}

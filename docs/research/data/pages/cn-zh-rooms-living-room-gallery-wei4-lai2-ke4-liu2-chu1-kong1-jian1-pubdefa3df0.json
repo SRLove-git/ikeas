@@ -1,0 +1,146 @@
+{
+ "url": "/cn/zh/rooms/living-room/gallery/wei4-lai2-ke4-liu2-chu1-kong1-jian1-pubdefa3df0",
+ "family": "rooms",
+ "id": "cn--zh--defa3df00f7a11ea9be0efb138516c0e",
+ "title": "为来客留出空间",
+ "name": "20203_rmli05a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "为来客留出空间"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "客厅里摆放着 VALLENTUNA 瓦伦图 模块沙发床、灰色大号地毯、灰色和黄色储物柜及玻璃吊灯。",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "s59279444"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/07/14/0714fafd898bd9c00e415eb9595d1c1a.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/07/14/0714fafd898bd9c00e415eb9595d1c1a.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>打造一间适合招待来客的客厅并非难事，你只需要为留宿过夜的来客准备 VALLENTUNA 瓦伦图 沙发床、遮光窗帘及储物空间就好了。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "客厅里摆放着两张用作床的绿色 VALLENTUNA 瓦伦图 沙发床。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "s69277492"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/09/e1/09e1db5ba44ec35496358e999331ed91.jpg",
+    "https://file.app.ikea.cn/images/e2/bf/e2bfc86877ca753332eedb790c340894.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/09/e1/09e1db5ba44ec35496358e999331ed91.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/e2/bf/e2bfc86877ca753332eedb790c340894.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "壁装黄色与炭黑色 EKET 伊克特 储物柜，深度不一，其中一些配有柜门和抽屉。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "00373721"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/bd/f8/bdf8661811d944bd3db061b0805d0186.jpg",
+    "https://file.app.ikea.cn/images/03/76/0376950ab532f3183d3aae5e8e9c9ec2.jpg",
+    "https://file.app.ikea.cn/images/78/68/78689713be0432833819d3fae37fd7a7.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/bd/f8/bdf8661811d944bd3db061b0805d0186.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/03/76/0376950ab532f3183d3aae5e8e9c9ec2.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/78/68/78689713be0432833819d3fae37fd7a7.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "灰色边桌和放着钥匙、智能手机的网格碗，手机正在用 LILLHULT 利尔胡特 布艺表面电线充电。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "60409623"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/9c/33/9c33d251b1d6c98ec3ea8757287362f1.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/9c/33/9c33d251b1d6c98ec3ea8757287362f1.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s69277492",
+    "s59279444",
+    "s09279413",
+    "s69279434",
+    "40334558"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

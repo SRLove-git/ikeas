@@ -1,0 +1,59 @@
+{
+ "url": "/cn/zh/ideas/meishi-pub99913101",
+ "family": "ideas",
+ "id": "cn--zh--999131010e3e11e78db30b1068c9b7fc",
+ "title": "奶酪球",
+ "name": "201642_idde03a_Recipe_Cheese_Balls_STSTU1_EZ_SEO",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "奶酪球",
+   "texts": [
+    "奶酪球",
+    "<p><strong>份量：</strong>20个球。</p>",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/33/c6/33c6e67a6d445a73c4fb548e2c550cb5.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/33/c6/33c6e67a6d445a73c4fb548e2c550cb5.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p><strong>你需要什么：</strong></p><p>200克奶油芝士<br />2.5分升帕玛森奶酪末<br />半个柠檬的皮<br />盐<br />胡椒<br />切碎的欧芹</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p><strong>制作方法：</strong></p><p>1.将帕玛森奶酪末和奶油芝士混合均匀。</p><p>2.添加柠檬皮，按口味添加盐和胡椒。</p><p>3.将混合物放入冰箱中冷藏至少30分钟。冷却完成后，将混合物揉搓成一个个的小球。</p><p>4.将奶酪球放在欧芹碎中滚动。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p><strong>其他建议：</strong></p><p>你可以提前一天准备奶酪混合物，但是务必在当天完成滚动的步骤。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/cat/gua-yong-yumetod-mi-duo-xi-lie-de-xi-wan-ji-50387",
+ "id": "gua-yong-yumetod-mi-duo-xi-lie-de-xi-wan-ji-50387",
+ "name": "适用于METOD米多系列的洗碗机",
+ "description": "适用于METOD米多系列的洗碗机",
+ "total": 2,
+ "products": [
+  {
+   "id": "40509001",
+   "name": "LAGAN 拉根",
+   "price": 2799,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/lagan-la-gen-qian-ru-shi-xi-wan-ji__1079971_pe857834_s4.jpg",
+   "productType": "嵌入式洗碗机",
+   "designText": "",
+   "measureText": "45 厘米",
+   "url": null,
+   "seoSlug": "lagan-la-gen-qian-ru-shi-xi-wan-ji"
+  },
+  {
+   "id": "80518193",
+   "name": "VÅGLIG 威格利",
+   "price": 100,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/vaglig-wei-ge-li-qian-ban-lian-jie-gui-dao__0869973_pe781552_s4.jpg",
+   "productType": "前板连接轨道",
+   "designText": "",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "vaglig-wei-ge-li-qian-ban-lian-jie-gui-dao"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "40509001",
+   "type": "ART",
+   "fullId": "40509001"
+  },
+  {
+   "id": "80518193",
+   "type": "ART",
+   "fullId": "80518193"
+  }
+ ]
+}

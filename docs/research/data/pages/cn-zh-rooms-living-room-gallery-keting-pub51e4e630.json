@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/living-room/gallery/keting-pub51e4e630",
+ "family": "rooms",
+ "id": "cn--zh--51e4e630cf6d11e78e0a0bf79e0fa98f",
+ "title": "用现代的风格相聚",
+ "name": "20171-cols01a_EZ_SEO",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "用现代的风格相聚",
+   "texts": [
+    "一间中型客厅，浅粉色的转角沙发，白色的储物桌和壁柜。",
+    "用现代的风格相聚",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/a6/66/a6664e4c1b033e3b8939d371f2017bf1.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/a6/66/a6664e4c1b033e3b8939d371f2017bf1.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s19151287",
+    "s69900951",
+    "30322240",
+    "40295929",
+    "50332115"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

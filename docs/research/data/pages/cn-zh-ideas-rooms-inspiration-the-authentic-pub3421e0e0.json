@@ -1,0 +1,80 @@
+{
+ "url": "/cn/zh/ideas/rooms-inspiration/the-authentic-pub3421e0e0",
+ "family": "ideas",
+ "id": "cn--zh--3421e0e0f50111eb909ec36c6e99b004",
+ "title": "家，因你而生",
+ "name": "探索”收藏家“",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--39376c609dbf11eba0b3f1d579c5214d",
+    "/rooms/living-room/how-to/xiu4-chu1-xin1-ai4-hao3-wu4-de5-ge4-miao4-zhao1-pub39376c60",
+    "page",
+    "秀出心爱好物的5个妙招",
+    "不想占用太多空间或花费太多预算，但又想展示出你的心爱好物？宜家为你提供一些展示妙招。查看更多。",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fliving-room%2Fhow-to%2Fxiu4-chu1-xin1-ai4-hao3-wu4-de5-ge4-miao4-zhao1-pub39376c60&key=cn--zh--39376c609dbf11eba0b3f1d579c5214d"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/2c/81/2c81040b561c06c4ffec87d0db43a198.jpg",
+    "https://file.app.ikea.cn/images/84/6d/846d7d4108071b297d1d7b32d912b73f.jpg",
+    "https://file.app.ikea.cn/images/21/c1/21c1dd39c50b3f02f8804480f7a297d8.jpg",
+    "https://file.app.ikea.cn/images/bb/8b/bb8b945d97a36e481242566594041c2c.jpg",
+    "https://file.app.ikea.cn/images/49/d1/49d18da4b514e02964e21034bb6b860f.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/2c/81/2c81040b561c06c4ffec87d0db43a198.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/84/6d/846d7d4108071b297d1d7b32d912b73f.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/21/c1/21c1dd39c50b3f02f8804480f7a297d8.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/bb/8b/bb8b945d97a36e481242566594041c2c.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/49/d1/49d18da4b514e02964e21034bb6b860f.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/42/91/4291d82fd259ca40feb5456f5180591f.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Page List-"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/ideas/rooms-inspiration/",
+    "NO",
+    "ikea://cms/page-compatible-web?key=cn--zh--5c9c98e0819c11eba0b5e76645244728&url=%2Fideas%2Frooms-inspiration%2F",
+    "{\"objectId_var\":\"/ideas/rooms-inspiration/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "更多家居灵感"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/ideas/rooms-inspiration/",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Link - button or text-"
+   }
+  }
+ ]
+}

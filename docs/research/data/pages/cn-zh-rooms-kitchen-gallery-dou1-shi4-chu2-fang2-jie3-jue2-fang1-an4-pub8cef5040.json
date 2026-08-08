@@ -1,0 +1,124 @@
+{
+ "url": "/cn/zh/rooms/kitchen/gallery/dou1-shi4-chu2-fang2-jie3-jue2-fang1-an4-pub8cef5040",
+ "family": "rooms",
+ "id": "cn--zh--8cef5040853b11eaa8ebe1c0c65b9498",
+ "title": "都市厨房解决方案",
+ "name": "20211_rmme03a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "都市厨房解决方案"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "一间炭黑色/灰色转角厨房，一个黑色吧台凳、一个黑色手推车、一块条纹地毯和装着新鲜香草的黑色盛具。",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "s99338234"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/df/2c/df2c06f51d412574bef39a5226d753ce.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/df/2c/df2c06f51d412574bef39a5226d753ce.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>城市居所往往空间狭小、结构复杂，但这并不会改变我们对经优化利用的（并且时尚！）厨用空间的需求。灵活的ENHET 安纳特 厨房可以有效利用大多数角落，同时让你充分展现自己的个人风格。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "灰色的操作台面上，放着一台黑/白便携电磁炉、一口不锈钢锅、一块砧板以及一些西兰花。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "00331627"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/68/4d/684d5fa5e89fe011a48cee4f529887f5.jpg",
+    "https://file.app.ikea.cn/images/55/6f/556ffb28a65ebe8c4e65bbaddbdd64b8.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/68/4d/684d5fa5e89fe011a48cee4f529887f5.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/55/6f/556ffb28a65ebe8c4e65bbaddbdd64b8.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "一张米色沙发、一块黄麻毯、一个灰色操作台面、一个黑色吧台凳、一台放在平板支架上的平板电脑，以及一株种在花盆里的番茄植株。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "60155602"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/1e/2b/1e2b7b942231c6532f24b2554e890aae.jpg",
+    "https://file.app.ikea.cn/images/ae/74/ae7456f3a2a531efaddd8dd8e52b3d69.jpg",
+    "https://file.app.ikea.cn/images/5c/d6/5cd6a523bbae8f35388b3b64cb9f0ba0.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/1e/2b/1e2b7b942231c6532f24b2554e890aae.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/ae/74/ae7456f3a2a531efaddd8dd8e52b3d69.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/5c/d6/5cd6a523bbae8f35388b3b64cb9f0ba0.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s99338234",
+    "00331627",
+    "50486792",
+    "s79322470",
+    "00347510"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

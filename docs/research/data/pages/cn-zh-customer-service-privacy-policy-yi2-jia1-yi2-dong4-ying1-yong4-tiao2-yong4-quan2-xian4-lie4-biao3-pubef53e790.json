@@ -1,0 +1,22 @@
+{
+ "url": "/cn/zh/customer-service/privacy-policy/yi2-jia1-yi2-dong4-ying1-yong4-tiao2-yong4-quan2-xian4-lie4-biao3-pubef53e790",
+ "family": "customer-service",
+ "id": "cn--zh--ef53e790fef811eb909ec36c6e99b004",
+ "title": "宜家移动应用调用权限列表",
+ "name": "宜家移动应用调用权限列表",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h3 style=\"text-align: center;\">宜家移动应用调用权限列表</h3>\n<p>&nbsp; &nbsp; &nbsp; &nbsp; 为保障宜家移动应用（&ldquo;IKEA宜家家居&rdquo;App）稳定运行并实现相关基础或附加产品功能，我们或我们接入的第三方软件开发工具包可能需要调用您的设备权限。详细权限和使用目的如下：</p>\n<p>1. &nbsp; &nbsp; android. permission. INTERNET（访问网络权限）：实现应用程序联网</p>\n<p>2. &nbsp; &nbsp;android. permission. ACCESS_NETWORK_STATE（获取网络状态权限）：监控网络变化，提示用户当前网络环境</p>\n<p>3. &nbsp; &nbsp;android. permission. ACCESS_WIFI_STATE（获取WiFi状态权限）：监控网络变化，提示用户当前网络环境</p>\n<p>4. &nbsp; &nbsp;android. permission. WAKE_LOCK（唤醒锁定权限）：保持屏幕唤醒</p>\n<p>5. &nbsp; &nbsp;android. permission. VIBRATE（使用振动权限）：实现手机振动</p>\n<p>6. &nbsp; &nbsp;andro"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "e0b84d8a1a004ad3a2c8448ac7d94d10"
+   }
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "url": "/cn/zh/rooms/kitchen/how-to-plan-buy",
+ "family": "rooms",
+ "id": "cn--zh--df3ec2f0680c11ea8a5b6b5199926a9e",
+ "title": "厨房选购小贴士",
+ "name": "厨房——如何选购",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "厨房选购小贴士"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--2016b3c1b34a11e7b23503ef832e0d7f",
+    "/rooms/kitchen/how-to/chufang-pub2016b3c1",
+    "page",
+    "厨房订购指南",
+    "本选购厨房4步指南将帮助你打造梦想中的厨房。从测量和设计，到订购和安装，该指南在你厨房选购历程中的每一步都将给予你指引。当然，如果你不能或不想全程亲力亲为也毫无问题，我们的测量、设计、付款、送货和安装服务就是为了让你的生活更加便捷而生。",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fkitchen%2Fhow-to%2Fchufang-pub2016b3c1&key=cn--zh--2016b3c1b34a11e7b23503ef832e0d7f"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/3d/f8/3df823e83d08716228f531ce5374b7e3.jpg",
+    "https://file.app.ikea.cn/images/0c/a3/0ca3bb4b4ae6b84161b762046c1fd0ef.jpeg",
+    "https://file.app.ikea.cn/images/87/56/87568e5c94a68ffc2e67a7f34a7b186d.jpg",
+    "https://file.app.ikea.cn/images/3a/cd/3acd9818ed7c440286c79f9b37d17020.jpeg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/3d/f8/3df823e83d08716228f531ce5374b7e3.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/0c/a3/0ca3bb4b4ae6b84161b762046c1fd0ef.jpeg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/87/56/87568e5c94a68ffc2e67a7f34a7b186d.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/3a/cd/3acd9818ed7c440286c79f9b37d17020.jpeg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/rooms/kitchen/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fkitchen%2F&key=",
+    "{\"objectId_var\":\"/rooms/kitchen/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "返回厨房"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/rooms/kitchen/",
+     "text": ""
+    }
+   ],
+   "settings": null
+  }
+ ]
+}

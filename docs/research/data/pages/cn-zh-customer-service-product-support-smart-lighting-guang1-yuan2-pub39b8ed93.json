@@ -1,0 +1,368 @@
+{
+ "url": "/cn/zh/customer-service/product-support/smart-lighting/guang1-yuan2-pub39b8ed93",
+ "family": "customer-service",
+ "id": "cn--zh--39b8ed93e54e11e78b3245bc3a806c96",
+ "title": "光源",
+ "name": "智能照明产品故障排除 - 光源",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "光源",
+   "texts": [
+    "<p><strong>故障排除：</strong></p>\n<p><a href=\"https://www.ikea.cn/cn/zh/customer-service/trdfri-te4-lu3-fei1-ying1-yong4-cheng2-xu4-yu3-wang3-guan1-pub7aa79e20\">TR&Aring;DFRI 特鲁菲 应用程序与网关</a>&nbsp; |&nbsp; <a href=\"https://www.ikea.cn/cn/zh/customer-service/guang1-yuan2-pub39b8ed93\">光源</a>&nbsp; |&nbsp; <a href=\"https://www.ikea.cn/cn/zh/customer-service/kong4-zhi4-zhuang1-zhi4-pubc74b6197\">控制装置</a></p>",
+    "光源",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/25/38/2538c493bd104a21d6efff4a82d323a8.png"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/25/38/2538c493bd104a21d6efff4a82d323a8.png",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2><strong>添加和同步</strong></h2>\n<h4><strong>如何让灯泡重新同步<br /></strong></h4>\n<p>如果使用主电源开关（墙壁开关或灯具开关）控制一组相连灯泡中的一部分时，可能会出现光源不同步情况。例如，使用主电源开关将一组灯泡中的一只关闭，并将其他灯泡打开，下次再使用主电源开关打开这组灯泡时，之前单独关闭的那只灯泡将不再同步。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-video-link",
+   "title": null,
+   "texts": [
+    "https://v.youku.com/v_show/id_XMzEyMTM1OTg5Ng==.html?spm=a2hww.20027244.m_250036.5~5!2~5~5!2~5~5~A",
+    "<p>如何同步灯泡</p>",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "https://v.youku.com/v_show/id_XMzEyMTM1OTg5Ng==.html?spm=a2hww.20027244.m_250036.5~5!2~5~5!2~5~5~A",
+     "text": "\n<p>如何同步灯泡</p>\n"
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h4><strong>如何同步开关功能</strong></h4>\n<p>如光源变得不同步，按住遥控器开关按钮并保持至少3秒，光源将恢复默认设置（亮度100%，2700K）；也可调高所有光源的亮度至100%。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-video-link",
+   "title": null,
+   "texts": [
+    "https://v.youku.com/v_show/id_XMzEyMTM0MDI5Mg==.html?spm=a2hww.20027244.m_250036.5~5!2~5~5!2~5~5~A",
+    "<p>如何同步开关功能</p>",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "https://v.youku.com/v_show/id_XMzEyMTM0MDI5Mg==.html?spm=a2hww.20027244.m_250036.5~5!2~5~5!2~5~5~A",
+     "text": "\n<p>如何同步开关功能</p>\n"
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h4><strong>如何同步亮度</strong></h4>\n<p>如果光源不同步、亮度不一致，按住遥控器亮度增加按钮，或使用无线调光器调高所有光源的亮度，直至所有光源亮度一致并恢复同步。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-video-link",
+   "title": null,
+   "texts": [
+    "https://v.youku.com/v_show/id_XMzEyMTM0MzAwOA==.html?spm=a2hww.20027244.m_250036.5~5!2~5~5!2~5~5~A",
+    "<p>如何同步亮度</p>",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "https://v.youku.com/v_show/id_XMzEyMTM0MzAwOA==.html?spm=a2hww.20027244.m_250036.5~5!2~5~5!2~5~5~A",
+     "text": "\n<p>如何同步亮度</p>\n"
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h4><strong>如何同步色温</strong></h4>\n<p>如果光源变得不同步、色温不一致，按住遥控器开关按钮并保持至少3秒，即可恢复同步。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-video-link",
+   "title": null,
+   "texts": [
+    "https://v.youku.com/v_show/id_XMzEyMTM0NDYwNA==.html?spm=a2hww.20027244.m_250036.5~5!2~5~5!2~5~5~A",
+    "<p>如何同步色温</p>",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "https://v.youku.com/v_show/id_XMzEyMTM0NDYwNA==.html?spm=a2hww.20027244.m_250036.5~5!2~5~5!2~5~5~A",
+     "text": "\n<p>如何同步色温</p>\n"
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h4><strong>添加和同步的相关问题：</strong></h4>\n<p><strong>套装中的灯泡与我家里的插座不匹配。有其他套装或灯泡吗？</strong><br />有，TR&Aring;DFRI 特鲁菲 LED灯泡有五种单独出售的类型，你可以从中挑选，包括：暖白光乳白色大灯座型(E26、E27)、白色光谱乳白色小灯座型(E12、E14、E17)、白色光谱乳白色大灯座型(E26、E27)、白色光谱透明大灯座型(E26、E27)以及白色光谱GU10。我们还有四种内含最常用灯泡的预装套装供你选择。访问ikea.cn或宜家商场，查看全部产品。</p>\n<p><strong>我将多个灯泡连接到了动态感应器上，现在它们不同步了。我如何让他们再次同步？</strong><br />如需让灯泡重新同步，你需要关闭所有连接的光源，再重新打开它们。</p>\n<p><strong>我安装了一个白色光谱灯泡，但要如何用无线调光器更改颜色？</strong><br />你无法使用无线调光器更换颜色。你需要将灯泡与遥控器配对，才能更换颜色。</p>\n<p><strong>我无法将光源添加到 TR&Aring;DFRI 特鲁菲 系统上。</strong><br /><a href=\"https://www.ikea.cn/cn/zh/customer-service/kai1-shi3-shi"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2><strong>电源和重置</strong></h2>\n<h4><strong>恢复到默认配置</strong></h4>\n<p>你可以将宜家智能照明产品恢复默认设置（出厂设置。）<br /><strong>光源：</strong>切换主开关6次。<br /><strong>遥控器/无线调光器/动态感应器：</strong>5秒钟内连续4次按下配对按钮。<br /><strong>网关：</strong>打开并移除网关盖子。将大头针推进网关顶部的小孔中，保持至少5秒，直至所有LED灯停止闪烁。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-video-link",
+   "title": null,
+   "texts": [
+    "https://v.youku.com/v_show/id_XMzEyMTM2NTIwNA==.html?spm=a2hww.20027244.m_250036.5~5!2~5~5!2~5~5~A",
+    "<p>如何重置 TR&Aring;DFRI 特鲁菲 遥控器</p>",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "https://v.youku.com/v_show/id_XMzEyMTM2NTIwNA==.html?spm=a2hww.20027244.m_250036.5~5!2~5~5!2~5~5~A",
+     "text": "\n<p>如何重置 TR&Aring;DFRI 特鲁菲 遥控器</p>\n"
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-video-link",
+   "title": null,
+   "texts": [
+    "https://v.youku.com/v_show/id_XMzEyMzU4ODE2MA==.html?spm=a2hww.20027244.m_250036.5~5!2~5~5!2~5~5~A",
+    "<p>如何重置 TR&Aring;DFRI 特鲁菲 调光器</p>",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "https://v.youku.com/v_show/id_XMzEyMzU4ODE2MA==.html?spm=a2hww.20027244.m_250036.5~5!2~5~5!2~5~5~A",
+     "text": "\n<p>如何重置 TR&Aring;DFRI 特鲁菲 调光器</p>\n"
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-video-link",
+   "title": null,
+   "texts": [
+    "https://v.youku.com/v_show/id_XMzEyMzU5MTIyNA==.html?spm=a2hww.20027244.m_250036.5~5!2~5~5!2~5~5~A",
+    "<p>如何重置 TR&Aring;DFRI 特鲁菲 网关</p>",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "https://v.youku.com/v_show/id_XMzEyMzU5MTIyNA==.html?spm=a2hww.20027244.m_250036.5~5!2~5~5!2~5~5~A",
+     "text": "\n<p>如何重置 TR&Aring;DFRI 特鲁菲 网关</p>\n"
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h4><strong>电源和重置的相关问题：</strong>&nbsp;</h4>\n<p><strong>如果其中一个 TR&Aring;DFRI 特鲁菲 LED灯泡损坏，系统会出现什么情况？<br /></strong>其他灯泡仍将正常工作。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/customer-service/product-support/smart-lighting/zhi4-neng2-zhao4-ming2-chan3-pin3-gu4-zhang4-pai2-chu2-pub480afb00",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fcustomer-service%2Fproduct-support%2Fsmart-lighting%2Fzhi4-neng2-zhao4-ming2-chan3-pin3-gu4-zhang4-pai2-chu2-pub480afb00&key=cn--zh--480afb00e4a711e78b3245bc3a806c96",
+    "{\"objectId_var\":\"/customer-service/product-support/smart-lighting/zhi4-neng2-zhao4-ming2-chan3-pin3-gu4-zhang4-pai2-chu2-pub480afb00\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "更多智能照明产品的故障排除方法"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/customer-service/product-support/smart-lighting/zhi4-neng2-zhao4-ming2-chan3-pin3-gu4-zhang4-pai2-chu2-pub480afb00",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h4><strong>需要更多帮助吗？</strong></h4>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "/customer-service/product-support/smart-lighting/kai1-shi3-shi3-yong4-zhi4-neng2-zhao4-ming2-chan3-pin3-pub46cc1851",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fcustomer-service%2Fproduct-support%2Fsmart-lighting%2Fkai1-shi3-shi3-yong4-zhi4-neng2-zhao4-ming2-chan3-pin3-pub46cc1851&key=cn--zh--46cc1851e52911e78b3245bc3a806c96",
+    "{\"objectId_var\":\"/customer-service/product-support/smart-lighting/kai1-shi3-shi3-yong4-zhi4-neng2-zhao4-ming2-chan3-pin3-pub46cc1851\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/3e/63/3e63c5c09a5ff7821a530b034784a3f6.png"
+   ],
+   "links": [
+    {
+     "href": "/customer-service/product-support/smart-lighting/kai1-shi3-shi3-yong4-zhi4-neng2-zhao4-ming2-chan3-pin3-pub46cc1851",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/3e/63/3e63c5c09a5ff7821a530b034784a3f6.png",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p><strong>开始<br /></strong>添加灯泡、照明壁灯、照明门，并开始使用 TR&Aring;DFRI 特鲁菲 应用程序。<br /><a href=\"https://www.ikea.cn/cn/zh/customer-service/kai1-shi3-shi3-yong4-zhi4-neng2-zhao4-ming2-chan3-pin3-pub46cc1851\">开始使用宜家智能照明产品</a></p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "/customer-service/product-support/smart-lighting/zhi-neng-zhao-ming-pub81a7870c",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fcustomer-service%2Fproduct-support%2Fsmart-lighting%2Fzhi-neng-zhao-ming-pub81a7870c&key=cn--zh--81a7870ce54a11e78b3245bc3a806c96",
+    "{\"objectId_var\":\"/customer-service/product-support/smart-lighting/zhi-neng-zhao-ming-pub81a7870c\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/a6/09/a609b8a6399e5215284328455b81d14a.png"
+   ],
+   "links": [
+    {
+     "href": "/customer-service/product-support/smart-lighting/zhi-neng-zhao-ming-pub81a7870c",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/a6/09/a609b8a6399e5215284328455b81d14a.png",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p><strong>使用方法</strong><br />了解如何调节明暗、改变色温和设置定时器等。<br /><a href=\"https://www.ikea.cn/cn/zh/customer-service/zhi-neng-zhao-ming-pub81a7870c\">了解如何使用宜家智能照明产品</a></p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/de/97/de97bff470832c1a7c34ae7e80f20f88.png"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/de/97/de97bff470832c1a7c34ae7e80f20f88.png",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p><strong>智能照明产品</strong><br />探索更多宜家智能照明产品，包括启动套件、单独光源和遥控器等。<br /><a href=\"https://www.ikea.cn/cn/zh/rooms/deng-pub320bd09c\">查看所有宜家智能照明产品</a></p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

@@ -1,0 +1,258 @@
+{
+ "url": "/cn/zh/ikea-business/gallery/chong1-man3-shu1-xiang1-qi4-xi1-de-ka1-fei1-guan3-pubd453a468",
+ "family": "ikea-business",
+ "id": "cn--zh--d453a468ba9b11eab2cec3aae701d0ac",
+ "title": "充满书香气息的温馨咖啡馆",
+ "name": "662121_ibnd02a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "充满书香气息的咖啡馆",
+   "texts": [
+    "摆放着各种家具的咖啡馆，书架上陈列着大量的书籍，安装聚光灯，旁边还有一张深绿色天鹅绒扶手椅。",
+    "<p class=\"p1\">无论客人匆忙地来喝一杯玛奇朵咖啡，还是午后前来购物，给他们营造美妙的氛围是关键。将书本和杯子展示出来，作为美观的装饰，激发顾客的购物欲望，或是吸引他们坐下来喝杯咖啡。</p>",
+    "充满书香气息的咖啡馆",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/7c/41/7c410eb1e3d15df1cf972b32c594d926.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/7c/41/7c410eb1e3d15df1cf972b32c594d926.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Hero-充满书香气息的咖啡馆"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "出色融合各种光线",
+   "texts": [
+    "/cat/li001",
+    "NO",
+    "ikea://content/plp?catalogId=li001",
+    "{\"objectId_var\":\"li001\",\"objectType_var\":\"plp\"}",
+    "巧妙运用照明——自然光、定向光和可调光都可以提升空间的温馨感。",
+    "出色融合各种光线"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/32ae772d834a9c16/original/PH172813-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/li001",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/32ae772d834a9c16/original/PH172813-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Curated Gallery-出色融合各种光线"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "美观的包装，令人难以抵挡",
+   "texts": [
+    "/cat/16043",
+    "NO",
+    "ikea://content/plp?catalogId=16043",
+    "{\"objectId_var\":\"16043\",\"objectType_var\":\"plp\"}",
+    "用透明的罐子和托盘来陈列摆放各种糖果、纸杯蛋糕、饼干和健康的零食，看上去如此诱人，令人难以抗拒，忍不住每样都想来一点！",
+    "美观的包装，令人难以抵挡"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/4c8f3b359a066116/original/PH173023-crop002.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/16043",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/4c8f3b359a066116/original/PH173023-crop002.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Curated Gallery-美观的包装，令人难以抵挡"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "出色的凳子设计带给顾客更多舒适感受",
+   "texts": [
+    "TROLLBERGET 特罗贝里特 坐/站两用式支撑椅让你坐着也能活动一下身体！有了这张椅子，顾客在咖啡馆休息时，不用刻意也能保持健康姿势。",
+    "出色的凳子设计带给顾客更多舒适感受",
+    "s79323926",
+    "80388257",
+    "60329792",
+    "窗户上放着书，旁边有两张深色的方形桌子，一张带有灰色枕头的长凳和两张黑色的坐/站两用式支撑椅。"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/4ba76d87fd2b2c/original/PH173292-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/4ba76d87fd2b2c/original/PH173292-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Curated Gallery-出色的凳子设计带给顾客更多舒适感受"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "充分利用各个角落的挂钩",
+   "texts": [
+    "/cat/st006",
+    "NO",
+    "ikea://content/plp?catalogId=st006",
+    "{\"objectId_var\":\"st006\",\"objectType_var\":\"plp\"}",
+    "带挂钩的壁架既时尚又实用，可悬挂各种外套、手袋和配饰。如果需要更多挂钩，就再多安装两个或更多壁架，并排在一起。",
+    "充分利用各个角落的挂钩"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/34ca9d9328990e36/original/PH173292-crop002.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/st006",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/34ca9d9328990e36/original/PH173292-crop002.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Curated Gallery-充分利用各个角落的挂钩"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "坚固实用的桌子",
+   "texts": [
+    "/cat/19141",
+    "NO",
+    "ikea://content/plp?catalogId=19141",
+    "{\"objectId_var\":\"19141\",\"objectType_var\":\"plp\"}",
+    "你可以在这张桌子上读书、吃饭或者和朋友聚会聊天。这张桌子坚固耐用，易于移动，耐碰撞，防污渍，可使用多年。另外，桌子底下有挂钩，方便挂放外套和手袋。",
+    "坚固实用的桌子"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/179083d333643e92/original/PH173019-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/19141",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/179083d333643e92/original/PH173019-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Curated Gallery-坚固实用的桌子"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "可以移动的储物空间",
+   "texts": [
+    "/cat/fu005",
+    "NO",
+    "ikea://content/plp?catalogId=fu005",
+    "{\"objectId_var\":\"fu005\",\"objectType_var\":\"plp\"}",
+    "在狭窄的空间中使用手推车尤其方便，可以轻松移动到需要的地方。把BROR 巴拉 推车变成一个迷你的图书馆，展示各种畅销新书，或用作额外的储物空间。",
+    "可以移动的储物空间"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/22bf5b7ec588631e/original/PH173021-crop002.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/fu005",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/22bf5b7ec588631e/original/PH173021-crop002.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Curated Gallery-可以移动的储物空间"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "谐美统一的照明灯",
+   "texts": [
+    "/cat/18750",
+    "NO",
+    "ikea://content/plp?catalogId=18750",
+    "{\"objectId_var\":\"18750\",\"objectType_var\":\"plp\"}",
+    "简洁大号设计，富有表现力，HEKTAR 赫克塔 灯灵感源自旧式剧院，在你做各种活动时，为你提供明亮的光线，同时在咖啡馆内营造统一的质朴外观。",
+    "谐美统一的照明灯"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/576fa0a18b9d86e6/original/PH173018-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/18750",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/576fa0a18b9d86e6/original/PH173018-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Curated Gallery-谐美统一的照明灯"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "方案中包含的产品",
+   "texts": [
+    "方案中包含的产品",
+    "MANUAL_INPUT",
+    "20452294",
+    "80417636",
+    "80334919",
+    "90374330"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Product Shelf-方案中包含的产品"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "10069763",
+    "s59286251",
+    "40125550",
+    "80359844",
+    "00329790"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Product Shelf-"
+   }
+  }
+ ]
+}

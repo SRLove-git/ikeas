@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/living-room/gallery/woshi-pub65d918b0",
+ "family": "rooms",
+ "id": "cn--zh--65d918b0cf7111e78e0a0bf79e0fa98f",
+ "title": "轻松一步，实现从社交到卧具",
+ "name": "20172-cosl03a_PF_CT_SEO_QA",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "轻松一步，实现从社交到卧具",
+   "texts": [
+    "斯堪的那维亚风格的现代公寓，深蓝色的墙壁，松木的床/沙发床。",
+    "轻松一步，实现从社交到卧具",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/b8/18/b818a28fcaec88416e95b33ab5800ae6.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/b8/18/b818a28fcaec88416e95b33ab5800ae6.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "50336383",
+    "10219611",
+    "10353063",
+    "60353065",
+    "50214999"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

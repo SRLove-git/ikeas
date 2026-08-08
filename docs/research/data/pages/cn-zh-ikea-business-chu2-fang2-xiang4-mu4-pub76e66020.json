@@ -1,0 +1,125 @@
+{
+ "url": "/cn/zh/ikea-business/chu2-fang2-xiang4-mu4-pub76e66020",
+ "family": "ikea-business",
+ "id": "cn--zh--76e6602042a111ecac7cb1b215a3638e",
+ "title": "厨房项目",
+ "name": "厨房项目",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "厨房项目",
+   "texts": [
+    "<p>我们仔细斟酌每一处细节，帮助开发商打造功能实用、设计出色同时价格亲民的厨房方案，且享有25年品质保证。</p>",
+    "厨房项目",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/50/77/50773ece03ca8aef4d53f4bdad6d1bd8.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/50/77/50773ece03ca8aef4d53f4bdad6d1bd8.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/h5page/?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fib%3Fchannel%3DIRW%2520M2%26cl_sr%3DIB_IRW%2520M2",
+    "NO",
+    "ikea://default-module/H5?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fib%3Fchannel%3DIRW%2520M2%26cl_sr%3DIB_IRW%2520M2",
+    "{\"objectId_var\":\"https://store-companion.ikea.cn/ib?channel=IRW%20M2&cl_sr=IB_IRW%20M2\",\"objectType_var\":\"default-module/H5\"}",
+    "button",
+    "联系宜家对公业务部"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/h5page/?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fib%3Fchannel%3DIRW%2520M2%26cl_sr%3DIB_IRW%2520M2",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>厨房灵感</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--49b73f987cd011eb8f6045c16cf25e76",
+    "/rooms/kitchen/gallery/ji2-jian3-chu2-fang2-zhu2-yun4-you1-ran2-pub49b73f98",
+    "page",
+    "极简厨房，竹韵悠然",
+    "在为你的厨房寻找一些设计和储物灵感吗？这间时尚现代的厨房配有竹质家具，可以为你带来创意灵感。获取灵感。",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fkitchen%2Fgallery%2Fji2-jian3-chu2-fang2-zhu2-yun4-you1-ran2-pub49b73f98&key=cn--zh--49b73f987cd011eb8f6045c16cf25e76"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/a2/98/a298d389a265a10c85c3cbde88a8b8a1.jpg",
+    "https://file.app.ikea.cn/images/26/eb/26ebd3e0561dce98456c05443461f94a.jpg",
+    "https://file.app.ikea.cn/images/92/91/929149dbe7d1cbdd54b72c5481be4143.jpg",
+    "https://file.app.ikea.cn/images/c4/91/c4911f2265f97cafc1e38ad7839f2b26.jpg",
+    "https://file.app.ikea.cn/images/de/d9/ded9edf5e7e53d0c4a79ceafe6cd22fc.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/a2/98/a298d389a265a10c85c3cbde88a8b8a1.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/26/eb/26ebd3e0561dce98456c05443461f94a.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/92/91/929149dbe7d1cbdd54b72c5481be4143.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/c4/91/c4911f2265f97cafc1e38ad7839f2b26.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/de/d9/ded9edf5e7e53d0c4a79ceafe6cd22fc.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/5a/a2/5aa228a14291c318e698b2f5d5dfdc88.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/ikea-business/gallery/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fikea-business%2Fgallery%2F&key=",
+    "{\"objectId_var\":\"/ikea-business/gallery/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "查看更多灵感"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/ikea-business/gallery/",
+     "text": ""
+    }
+   ],
+   "settings": null
+  }
+ ]
+}

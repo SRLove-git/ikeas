@@ -1,0 +1,412 @@
+{
+ "url": "/cn/zh/cat/qing-ji-liang-shai-lc001",
+ "id": "qing-ji-liang-shai-lc001",
+ "name": "宜家清洁及晾晒用品-日常用品-生活用品-IKEA",
+ "description": "前往宜家，探索我们的洗衣产品系列和杂物间家具，获得家居设计灵感。将刚洗完的衣物整齐地摆放在篮子里，会令人心情愉悦。我们认为保持一切井井有条，会令原本枯燥的整理、洗衣、烘干和折叠工作变得更加轻松愉悦。",
+ "total": 233,
+ "products": [
+  {
+   "id": "00611114",
+   "name": "FRAKTA 弗拉塔",
+   "price": 5,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/frakta-fu-la-ta-bian-zhi-dai-da-lan-se__1409200_pe972162_s4.jpg",
+   "productType": "编织袋，大",
+   "designText": "蓝色",
+   "measureText": "55x37x35 厘米/71 公升",
+   "url": null,
+   "seoSlug": "frakta-fu-la-ta-bian-zhi-dai-da-lan-se"
+  },
+  {
+   "id": "50353688",
+   "name": "SNABBAKAT 斯纳博卡",
+   "price": 4.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/snabbakat-si-na-bo-qia-hai-mian-ca-fen-hong-se-cheng-se__0611177_pe685385_s4.jpg",
+   "productType": "海绵擦",
+   "designText": "粉红色/橙色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "snabbakat-si-na-bo-qia-hai-mian-ca-fen-hong-se-cheng-se"
+  },
+  {
+   "id": "70180875",
+   "name": "SAMLA 萨姆拉",
+   "price": 19.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/samla-sa-mu-la-chu-wu-he-11-22-sheng-cha-jian-tou-ming__0710849_pe727799_s4.jpg",
+   "productType": "储物盒11/22升插件",
+   "designText": "透明",
+   "measureText": "37x25x12 厘米",
+   "url": null,
+   "seoSlug": "samla-sa-mu-la-chu-wu-he-1-1-22-sheng-cha-jian-tou-ming"
+  },
+  {
+   "id": "90595398",
+   "name": "STENTRAPPA 斯丹拉帕",
+   "price": 99.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/stentrappa-si-dan-la-pa-ta-ban-shi-la-ji-tong-mei-hei-se__1432726_pe982870_s4.jpg",
+   "productType": "踏板式垃圾桶",
+   "designText": "煤黑色",
+   "measureText": "9 公升",
+   "url": null,
+   "seoSlug": "stentrappa-si-dan-la-pa-ta-ban-shi-la-ji-tong-mei-hei-se"
+  },
+  {
+   "id": "70567297",
+   "name": "LJUNGAN 尤恩加恩",
+   "price": 249,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/ljungan-you-en-jia-en-xi-yi-dai__1185405_pe898388_s4.jpg",
+   "productType": "洗衣袋",
+   "designText": "",
+   "measureText": "40x50 厘米",
+   "url": null,
+   "seoSlug": "ljungan-you-en-jia-en-xi-yi-dai"
+  },
+  {
+   "id": "00612774",
+   "name": "FNISS 芬尼斯",
+   "price": 6.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/fniss-fen-ni-si-la-ji-tong-tian-lan-se__1407187_pe971427_s4.jpg",
+   "productType": "垃圾桶",
+   "designText": "天蓝色",
+   "measureText": "6.8 公升",
+   "url": null,
+   "seoSlug": "fniss-fen-ni-si-la-ji-tong-tian-lan-se"
+  },
+  {
+   "id": "40567642",
+   "name": "PEPPRIG 佩普里格",
+   "price": 9.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/pepprig-pei-pu-li-ge-qing-ji-ca-ti-huan-zhuang-lu-se__1232054_pe916371_s4.jpg",
+   "productType": "清洁擦替换装",
+   "designText": "绿色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "pepprig-pei-pu-li-ge-qing-ji-ca-ti-huan-zhuang-lu-se"
+  },
+  {
+   "id": "40527095",
+   "name": "PEPPRIG 佩普里格",
+   "price": 19.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/pepprig-pei-pu-li-ge-di-ban-qing-ji-gua-ban__1121039_pe874087_s4.jpg",
+   "productType": "地板清洁刮板",
+   "designText": "",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "pepprig-pei-pu-li-ge-di-ban-qing-ji-gua-ban"
+  },
+  {
+   "id": "60342576",
+   "name": "LAGT 拉哥特",
+   "price": 49.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/lagt-la-ge-te-tang-yi-ban-tao-hui-se__0738566_pe741487_s4.jpg",
+   "productType": "烫衣板套",
+   "designText": "灰色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "lagt-la-ge-te-tang-yi-ban-tao-hui-se"
+  },
+  {
+   "id": "69386486",
+   "name": "BOAXEL 博阿克塞",
+   "price": 1050,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/boaxel-bo-a-ke-sai-xi-yi-zu-he-bai-se__0901551_pe782715_s4.jpg",
+   "productType": "洗衣组合",
+   "designText": "白色",
+   "measureText": "227x40x101 厘米",
+   "url": null,
+   "seoSlug": "boaxel-bo-a-ke-sai-xi-yi-zu-he-bai-se"
+  },
+  {
+   "id": "50595404",
+   "name": "TURRIDNING 图瑞宁",
+   "price": 79.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/turridning-tu-rui-ning-ta-ban-shi-la-ji-tong-bai-se-mei-hei-se__1432740_pe982875_s4.jpg",
+   "productType": "踏板式垃圾桶",
+   "designText": "白色/煤黑色",
+   "measureText": "9 公升",
+   "url": null,
+   "seoSlug": "turridning-tu-rui-ning-ta-ban-shi-la-ji-tong-bai-se-mei-hei-se"
+  },
+  {
+   "id": "29332400",
+   "name": "BOAXEL 博阿克塞",
+   "price": 1050,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/boaxel-bo-a-ke-sai-xi-yi-zu-he-bai-se__0802035_pe770084_s4.jpg",
+   "productType": "洗衣组合",
+   "designText": "白色",
+   "measureText": "165x40x201 厘米",
+   "url": null,
+   "seoSlug": "boaxel-bo-a-ke-sai-xi-yi-zu-he-bai-se"
+  },
+  {
+   "id": "30364372",
+   "name": "KLUNKA 弗伦伽",
+   "price": 69.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/klunka-fu-lun-jia-xi-yi-dai-bai-se-hei-se__0711257_pe728095_s4.jpg",
+   "productType": "洗衣袋",
+   "designText": "白色/黑色",
+   "measureText": "60 公升",
+   "url": null,
+   "seoSlug": "klunka-fu-lun-jia-xi-yi-dai-bai-se-hei-se"
+  },
+  {
+   "id": "69437278",
+   "name": "JOSTEIN 约斯坦",
+   "price": 1008,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/jostein-yue-si-tan-ge-jia-dai-gua-yi-gan-shi-nei-hu-wai-jin-shu-si-bai-se__1112346_pe871143_s4.jpg",
+   "productType": "搁架带挂衣杆",
+   "designText": "室内/户外/金属丝 白色",
+   "measureText": "61x166/270x180 厘米",
+   "url": null,
+   "seoSlug": "jostein-yue-si-tan-ge-jia-dai-gua-yi-gan-shi-nei-hu-wai-jin-shu-si-bai-se"
+  },
+  {
+   "id": "70271494",
+   "name": "DRAGAN 德里根",
+   "price": 59.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/dragan-de-li-gen-zao-ye-qi-zhu__0711732_pe728417_s4.jpg",
+   "productType": "皂液器",
+   "designText": "竹",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "dragan-de-li-gen-zao-ye-qi-zhu"
+  },
+  {
+   "id": "50567632",
+   "name": "PEPPRIG 佩普里格",
+   "price": 29.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/pepprig-pei-pu-li-ge-ping-ban-tuo-ba-tou-hui-se__1232175_pe916452_s4.jpg",
+   "productType": "平板拖把头",
+   "designText": "灰色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "pepprig-pei-pu-li-ge-ping-ban-tuo-ba-tou-hui-se"
+  },
+  {
+   "id": "70567749",
+   "name": "SLIBB 斯利波",
+   "price": 5.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/slibb-si-li-bo-shai-yi-jia-lu-se__1232092_pe916406_s4.jpg",
+   "productType": "晒衣夹",
+   "designText": "绿色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "slibb-si-li-bo-shai-yi-jia-lu-se"
+  },
+  {
+   "id": "80569856",
+   "name": "SLIBB 斯利波",
+   "price": 9.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/slibb-si-li-bo-xi-yi-dai-liang-jian-tao-bai-se-hui-se__1232162_pe916445_s4.jpg",
+   "productType": "洗衣袋，两件套",
+   "designText": "白色/灰色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "slibb-si-li-bo-xi-yi-dai-liang-jian-tao-bai-se-hui-se"
+  },
+  {
+   "id": "50503980",
+   "name": "GÖRSNYGG 约诗诺",
+   "price": 29.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/goersnygg-yue-shi-nuo-dai-lan-se__1021481_pe832324_s4.jpg",
+   "productType": "袋",
+   "designText": "蓝色",
+   "measureText": "40x30x60 厘米/72 公升",
+   "url": null,
+   "seoSlug": "goersnygg-yue-shi-nuo-dai-lan-se"
+  },
+  {
+   "id": "20176951",
+   "name": "FLUNDRA 夫伦加",
+   "price": 19.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/flundra-fu-lun-jia-can-ju-lu-gan-jia-bai-se__0712687_pe728972_s4.jpg",
+   "productType": "餐具滤干架",
+   "designText": "白色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "flundra-fu-lun-jia-can-ju-lu-gan-jia-bai-se"
+  },
+  {
+   "id": "70422855",
+   "name": "MJÖSA 米约萨",
+   "price": 299,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/mjoesa-mi-yue-sa-ta-ban-shi-la-ji-tong-shen-hui-se__0711137_pe728005_s4.jpg",
+   "productType": "踏板式垃圾桶",
+   "designText": "深灰色",
+   "measureText": "30 公升",
+   "url": null,
+   "seoSlug": "mjoesa-mi-yue-sa-ta-ban-shi-la-ji-tong-shen-hui-se"
+  },
+  {
+   "id": "80473868",
+   "name": "VÄLVÅRDAD 微勒沃达德",
+   "price": 29.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/vaelvardad-wei-le-wo-da-de-gan-wan-jia-bu-xiu-gang__0957083_pe804911_s4.jpg",
+   "productType": "干碗架",
+   "designText": "不锈钢",
+   "measureText": "13x32 厘米",
+   "url": null,
+   "seoSlug": "vaelvardad-wei-le-wo-da-de-gan-wan-jia-bu-xiu-gang"
+  },
+  {
+   "id": "00567724",
+   "name": "SLIBB 斯利波",
+   "price": 29.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/slibb-si-li-bo-ruan-zhi-xi-yi-lan-lu-se__1232113_pe916410_s4.jpg",
+   "productType": "软质洗衣篮",
+   "designText": "绿色",
+   "measureText": "24 公升",
+   "url": null,
+   "seoSlug": "slibb-si-li-bo-ruan-zhi-xi-yi-lan-lu-se"
+  },
+  {
+   "id": "20595392",
+   "name": "GÅNGSKYFFEL 冈许弗",
+   "price": 199,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/gangskyffel-gang-xu-fu-ta-ban-shi-la-ji-tong-hui-lu-se__1432734_pe982873_s4.jpg",
+   "productType": "踏板式垃圾桶",
+   "designText": "灰绿色",
+   "measureText": "18 公升",
+   "url": null,
+   "seoSlug": "gangskyffel-gang-xu-fu-ta-ban-shi-la-ji-tong-hui-lu-se"
+  },
+  {
+   "id": "00567620",
+   "name": "PEPPRIG 佩普里格",
+   "price": 79.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/pepprig-pei-pu-li-ge-qing-ji-tong-fu-gong-ju-shou-na-he-lu-se__1232045_pe916360_s4.jpg",
+   "productType": "清洁桶附工具收纳盒",
+   "designText": "绿色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "pepprig-pei-pu-li-ge-qing-ji-tong-fu-gong-ju-shou-na-he-lu-se"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "00611114",
+   "type": "ART",
+   "fullId": "00611114"
+  },
+  {
+   "id": "50353688",
+   "type": "ART",
+   "fullId": "50353688"
+  },
+  {
+   "id": "70180875",
+   "type": "ART",
+   "fullId": "70180875"
+  },
+  {
+   "id": "90595398",
+   "type": "ART",
+   "fullId": "90595398"
+  },
+  {
+   "id": "70567297",
+   "type": "ART",
+   "fullId": "70567297"
+  },
+  {
+   "id": "00612774",
+   "type": "ART",
+   "fullId": "00612774"
+  },
+  {
+   "id": "40567642",
+   "type": "ART",
+   "fullId": "40567642"
+  },
+  {
+   "id": "40527095",
+   "type": "ART",
+   "fullId": "40527095"
+  },
+  {
+   "id": "60342576",
+   "type": "ART",
+   "fullId": "60342576"
+  },
+  {
+   "id": "69386486",
+   "type": "SPR",
+   "fullId": "s69386486"
+  },
+  {
+   "id": "50595404",
+   "type": "ART",
+   "fullId": "50595404"
+  },
+  {
+   "id": "29332400",
+   "type": "SPR",
+   "fullId": "s29332400"
+  },
+  {
+   "id": "30364372",
+   "type": "ART",
+   "fullId": "30364372"
+  },
+  {
+   "id": "69437278",
+   "type": "SPR",
+   "fullId": "s69437278"
+  },
+  {
+   "id": "70271494",
+   "type": "ART",
+   "fullId": "70271494"
+  },
+  {
+   "id": "50567632",
+   "type": "ART",
+   "fullId": "50567632"
+  },
+  {
+   "id": "70567749",
+   "type": "ART",
+   "fullId": "70567749"
+  },
+  {
+   "id": "80569856",
+   "type": "ART",
+   "fullId": "80569856"
+  },
+  {
+   "id": "50503980",
+   "type": "ART",
+   "fullId": "50503980"
+  },
+  {
+   "id": "20176951",
+   "type": "ART",
+   "fullId": "20176951"
+  },
+  {
+   "id": "70422855",
+   "type": "ART",
+   "fullId": "70422855"
+  },
+  {
+   "id": "80473868",
+   "type": "ART",
+   "fullId": "80473868"
+  },
+  {
+   "id": "00567724",
+   "type": "ART",
+   "fullId": "00567724"
+  },
+  {
+   "id": "20595392",
+   "type": "ART",
+   "fullId": "20595392"
+  },
+  {
+   "id": "00567620",
+   "type": "ART",
+   "fullId": "00567620"
+  }
+ ]
+}

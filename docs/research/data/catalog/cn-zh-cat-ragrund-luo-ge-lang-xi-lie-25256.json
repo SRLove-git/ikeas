@@ -1,0 +1,76 @@
+{
+ "url": "/cn/zh/cat/ragrund-luo-ge-lang-xi-lie-25256",
+ "id": "ragrund-luo-ge-lang-xi-lie-25256",
+ "name": "RÅGRUND 罗格朗 系列",
+ "description": "想要打造清新自然的浴室？不妨看看我们竹子材质的 RÅGRUND 罗格朗 系列。这一系列的细节设计也十分用心。椅子还可以作为毛巾架和搁架；镜子上带有拉钮，适合挂一些首饰；三角形搁架单元非常适合放在拐角处或洗脸池下方。",
+ "total": 4,
+ "products": [
+  {
+   "id": "60253075",
+   "name": "RÅGRUND 罗格朗",
+   "price": 299,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/ragrund-luo-ge-lang-zuo-yi-fu-mao-jin-jia-zhu__0739453_pe741743_s4.jpg",
+   "productType": "坐椅附毛巾架",
+   "designText": "竹",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "ragrund-luo-ge-lang-zuo-yi-fu-mao-jin-jia-zhu"
+  },
+  {
+   "id": "60549421",
+   "name": "RÅGRUND 罗格朗",
+   "price": 299,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/ragrund-luo-ge-lang-ge-jia-dan-yuan-zhu__1195943_pe902655_s4.jpg",
+   "productType": "搁架单元",
+   "designText": "竹",
+   "measureText": "37x37x104 厘米",
+   "url": null,
+   "seoSlug": "ragrund-luo-ge-lang-ge-jia-dan-yuan-zhu"
+  },
+  {
+   "id": "10253068",
+   "name": "RÅGRUND 罗格朗",
+   "price": 299,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/ragrund-luo-ge-lang-ge-jia-dan-yuan-zhu__0721634_pe733311_s4.jpg",
+   "productType": "搁架单元",
+   "designText": "竹",
+   "measureText": "33 厘米",
+   "url": null,
+   "seoSlug": "ragrund-luo-ge-lang-ge-jia-dan-yuan-zhu"
+  },
+  {
+   "id": "40549417",
+   "name": "RÅGRUND 罗格朗",
+   "price": 399,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/ragrund-luo-ge-lang-chang-deng-zhu__1195964_pe902668_s4.jpg",
+   "productType": "长凳",
+   "designText": "竹",
+   "measureText": "78x37 厘米",
+   "url": null,
+   "seoSlug": "ragrund-luo-ge-lang-chang-deng-zhu"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "60253075",
+   "type": "ART",
+   "fullId": "60253075"
+  },
+  {
+   "id": "60549421",
+   "type": "ART",
+   "fullId": "60549421"
+  },
+  {
+   "id": "10253068",
+   "type": "ART",
+   "fullId": "10253068"
+  },
+  {
+   "id": "40549417",
+   "type": "ART",
+   "fullId": "40549417"
+  }
+ ]
+}

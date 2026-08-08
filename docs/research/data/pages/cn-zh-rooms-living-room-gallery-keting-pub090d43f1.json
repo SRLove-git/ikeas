@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/living-room/gallery/keting-pub090d43f1",
+ "family": "rooms",
+ "id": "cn--zh--090d43f1cf7f11e78e0a0bf79e0fa98f",
+ "title": "粗犷又温馨的工业风",
+ "name": "20181-cold02a_PF_SEO_CT_QA",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "粗犷又温馨的工业风",
+   "texts": [
+    "改造的仓储式大楼内，客厅配有搁架单元以及黑色金属与木质电视柜。",
+    "粗犷又温馨的工业风",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/8a/48/8a4894348a5d10518f081b4388ae61d5.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/8a/48/8a4894348a5d10518f081b4388ae61d5.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "90342198",
+    "30339293",
+    "s29206915",
+    "50340380",
+    "60373493"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

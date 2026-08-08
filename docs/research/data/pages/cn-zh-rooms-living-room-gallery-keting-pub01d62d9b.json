@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/living-room/gallery/keting-pub01d62d9b",
+ "family": "rooms",
+ "id": "cn--zh--01d62d9bef8211e7a19a1b4caad12135",
+ "title": "打造宁静的休息空间",
+ "name": "20183-cols06a_PF_CT_SEO",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "打造宁静的休息空间",
+   "texts": [
+    "灰色和橙色小型客厅里摆放着 KLIPPAN 克利帕 KABUSA 卡布萨 深灰色双人沙发。",
+    "打造宁静的休息空间",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/c3/23/c323733ce2691487d456a31cd47907d1.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/c3/23/c323733ce2691487d456a31cd47907d1.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s49010615",
+    "00340387",
+    "30320849",
+    "80328678",
+    "60362946"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

@@ -1,0 +1,128 @@
+{
+ "url": "/cn/zh/new/zai4-jia1-ying2-zao4-qin1-mi4-shu1-shi4-de-jiao3-luo4-pub7159c190",
+ "family": "new",
+ "id": "cn--zh--7159c190c9ea11eb80ee03286bef7e80",
+ "title": "在家营造亲密舒适的角落",
+ "name": "622221_nwns05a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "在家营造亲密舒适的角落",
+   "texts": [
+    "在一个质朴的工业风格空间里，有一张红棕色ÄPPLARYD 艾普吕 沙发，墙上挂着一张SVÄRDBORG 斯瓦德波 地毯。",
+    "<p>随着我们放慢生活的脚步，迎接即将到来的节日季节，在家里打造一个放松的角落自然必不可少。要营造舒适宁静的氛围，你需要一些外观轻巧的家具、吸音窗帘和舒缓的蜡烛。</p>",
+    "在家营造亲密舒适的角落",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/42/40/424093ee2908011f2834a55596ff5695.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/42/40/424093ee2908011f2834a55596ff5695.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "简约时尚的座椅",
+   "texts": [
+    "/cat/fu003",
+    "NO",
+    "ikea://content/plp?catalogId=fu003",
+    "{\"objectId_var\":\"fu003\",\"objectType_var\":\"plp\"}",
+    "全新ÄPPLARYD 艾普吕 沙发能在你的客厅打造一个宁静角落。舒适的软垫和别具触感的垫套，非常适合夜晚在家里消磨时光。钢制支腿令整张沙发看上去更简约轻巧。",
+    "简约时尚的座椅"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/4ca9f5d5ca0417eb/original/PH181181-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/fu003",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/4ca9f5d5ca0417eb/original/PH181181-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "添置宜家新品，焕新家居",
+   "texts": [
+    "/cat/new-products",
+    "NO",
+    "ikea://content/plp?catalogId=new-products",
+    "{\"objectId_var\":\"new-products\",\"objectType_var\":\"plp\"}",
+    "添置舒适的家居配件，迎接新的季节。",
+    "添置宜家新品，焕新家居"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/new-products",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "别具触感的隔音窗帘",
+   "texts": [
+    "/cat/10700",
+    "NO",
+    "ikea://content/plp?catalogId=10700",
+    "{\"objectId_var\":\"10700\",\"objectType_var\":\"plp\"}",
+    "每个人总会在某些时候，想要一个安静的角落，享受独处的时光。宜家首款吸音窗帘GUNNLAUG 古劳格 可以隔绝嘈杂的声音。轻巧的布料由雪尼尔纱材料制成，还能过滤光线。",
+    "别具触感的隔音窗帘"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/7c46e75a9f9748ba/original/PH181216-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/10700",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/7c46e75a9f9748ba/original/PH181216-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "多感官的舒缓享受",
+   "texts": [
+    "/cat/10783",
+    "NO",
+    "ikea://content/plp?catalogId=10783",
+    "{\"objectId_var\":\"10783\",\"objectType_var\":\"plp\"}",
+    "当你舒适地蜷缩在床上或沙发看书，这款由Ilse Crawford设计的篝火香味烛将让你仿佛置身于大自然中。深沉的木香营造出亲密舒缓的氛围，让你在家尽情放松。",
+    "多感官的舒缓享受"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/5243c0ec3f3557ba/original/PH181256-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/10783",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/5243c0ec3f3557ba/original/PH181256-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  }
+ ]
+}

@@ -1,0 +1,280 @@
+{
+ "url": "/cn/zh/this-is-ikea/newsroom/data-pubf9845421",
+ "family": "this-is-ikea",
+ "id": "cn--zh--f9845421bfbe11e79dfda9ee7bcb674b",
+ "title": "IKEA® 2016年数据大盘点",
+ "name": "宜家集锦 2016 - 宜家详细信息和数据",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "IKEA® 2016年数据大盘点",
+   "texts": [
+    "全球信息图",
+    "IKEA® 2016年数据大盘点",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/36/5b/365b92ff8bf59c1c0b449eb00a522e92.png"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/36/5b/365b92ff8bf59c1c0b449eb00a522e92.png",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Hero-IKEA® 2016年数据大盘点"
+   }
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "全球商城分布",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/1f/fa/1ffadb076577e4bbbfe894f7e8f2c1db.gif"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/1f/fa/1ffadb076577e4bbbfe894f7e8f2c1db.gif",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Image(video)-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2><strong>宜家全球商场分布：</strong></h2>\n<p><strong>54&nbsp;</strong>北美商场,<strong>&nbsp;271&nbsp;</strong>欧洲商场, <br /><strong>44&nbsp;</strong>亚洲商场,&nbsp;<strong>9&nbsp;</strong>澳大利亚商场,&nbsp;<br /><strong>10&nbsp;</strong>中东和北非商场, <strong>1&nbsp;</strong>加勒比海地区商场&nbsp;</p>\n<p><strong>*</strong>黄色代表2016年新开宜家商场<br /><strong>*</strong>玫红色代表在新的国家开设新的宜家商场：摩洛哥</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Horizontal Line-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2><strong>全球产品信息与数据</strong></h2>\n<p>宜家业务年度（2015年9月&mdash;&mdash;2016年8月）</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "IKEA® 全球宜家商场",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "<p><strong>IKEA&reg; 全球宜家商场</strong></p>\n<p>&nbsp; &nbsp;2013: 345&nbsp; &nbsp;<br />&nbsp; 2014: 361&nbsp; <br />2015: 375</p>"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/a3/f1/a3f1f2f77dbc8708863448e582853d67.jpg",
+    "https://file.app.ikea.cn/images/d1/f3/d1f3ec5ec7363fa0aebc831f419ee28e.jpg",
+    "https://file.app.ikea.cn/images/d2/2c/d22cb470fd21c9b9c7777775de929659.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/a3/f1/a3f1f2f77dbc8708863448e582853d67.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/d1/f3/d1f3ec5ec7363fa0aebc831f419ee28e.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/d2/2c/d22cb470fd21c9b9c7777775de929659.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Columns-"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "IKEA® 零售销售额，单位：十亿欧元",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "<p><strong>IKEA&reg; 零售销售额，单位：十亿欧元</strong></p>\n<p>2013: 29.3<br />2014: 30.1<br />2015: 33.8</p>"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/4c/fd/4cfde393f24e00da791643d0b6873996.jpg",
+    "https://file.app.ikea.cn/images/8c/5a/8c5a5a2ca6770639f608abca1c3e25b2.jpg",
+    "https://file.app.ikea.cn/images/d3/d7/d3d7e5713e2e7fc28302d66c15ec4f59.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/4c/fd/4cfde393f24e00da791643d0b6873996.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/8c/5a/8c5a5a2ca6770639f608abca1c3e25b2.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/d3/d7/d3d7e5713e2e7fc28302d66c15ec4f59.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Columns-"
+   }
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IKEA FOUNDATION",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/e1/13/e1139298024988df6d41a454689b10af.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/e1/13/e1139298024988df6d41a454689b10af.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Image(video)-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>IKEA Foundation是宜家集团所有者INGKA Foundation旗下的慈善机构。IKEA Foundation致力于为世界上最贫困社区的儿童和年轻人提供更好的机会，具体表现在为儿童提供生活中最基本的四个元素：一个家；健康的人生起点；优质的教育；以及稳定的家庭收入。IKEA Foundation还积极帮助这些社区应对气候变化带来的影响。</p>\n<p>*2015年数据</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IKEA® Foundation捐赠额，单位：百万欧元*",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/27/4c/274c62c947bcc6db3d03fc6ff38697d1.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/27/4c/274c62c947bcc6db3d03fc6ff38697d1.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Image(video)-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p><strong>IKEA&reg; Foundation捐赠额，单位：百万欧元*<br /></strong>伙伴 49*&nbsp;<br />国家和地区 46*</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Horizontal Line-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>阅读更多2016年宜家集锦的内容</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--eee0eda1c9a311e788b1d985fdb76ee8",
+    "/this-is-ikea/newsroom/swedish-pubeee0eda1",
+    "page",
+    "瑞典特色无国界",
+    "起初我在申请进入瑞典阿姆霍特的宜家工作时，对瑞典文化并没有多少了解。但在宜家总部担任了五年的文案编辑后，我也多少受到了一些瑞典特色的熏陶。它属于瑞典呢，还是宜家？在瑞典阿姆霍特的宜家工作的美国人Ginny，分享她对瑞典文化的个人感悟。",
+    "ikea://cms/page-compatible-web?url=%2Fthis-is-ikea%2Fnewsroom%2Fswedish-pubeee0eda1&key=cn--zh--eee0eda1c9a311e788b1d985fdb76ee8"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/08/30/083013467bc58153a43b3b0e672a6d20.jpeg",
+    "https://file.app.ikea.cn/images/f1/8c/f18cf9b373c18ad7dfde5f57e95b374b.jpeg",
+    "https://file.app.ikea.cn/images/13/ca/13ca62b94cd682493dc2a7918108851d.jpeg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/08/30/083013467bc58153a43b3b0e672a6d20.jpeg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/f1/8c/f18cf9b373c18ad7dfde5f57e95b374b.jpeg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/13/ca/13ca62b94cd682493dc2a7918108851d.jpeg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Page List-"
+   }
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "url": "/cn/zh/cat/wu-fang-te-li-ge-te-xi-lie-37584",
+ "id": "wu-fang-te-li-ge-te-xi-lie-37584",
+ "name": "乌方特里格特系列",
+ "description": "运用 OFANTLIGT 乌方特里格特 系列产品，以经济实惠的方式装点家中吧。OFANTLIGT 乌方特里格特 花瓶和装饰碗旨在激发你的创意灵感，并为你的日常生活增添幸福感。插上一束花，或一束植物枝条装饰，或者就将 OFANTLIGT 乌方特里格特 系列产品本身作为装饰。随心挑选与你风格吻合的实惠装饰品吧。",
+ "total": 4,
+ "products": [
+  {
+   "id": "80319018",
+   "name": "OFANTLIGT 乌方特里格特",
+   "price": 29.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/ofantligt-wu-fang-te-li-ge-te-can-pan-bai-se__0712361_pe728780_s4.jpg",
+   "productType": "餐盘",
+   "designText": "白色",
+   "measureText": "22 厘米",
+   "url": null,
+   "seoSlug": "ofantligt-wu-fang-te-li-ge-te-can-pan-bai-se"
+  },
+  {
+   "id": "40319020",
+   "name": "OFANTLIGT 乌方特里格特",
+   "price": 39.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/ofantligt-wu-fang-te-li-ge-te-shen-pan-bai-se__0712375_pe728794_s4.jpg",
+   "productType": "深盘",
+   "designText": "白色",
+   "measureText": "24 厘米",
+   "url": null,
+   "seoSlug": "ofantligt-wu-fang-te-li-ge-te-shen-pan-bai-se"
+  },
+  {
+   "id": "30319025",
+   "name": "OFANTLIGT 乌方特里格特",
+   "price": 29.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/ofantligt-wu-fang-te-li-ge-te-wan-bai-se__0712200_pe728653_s4.jpg",
+   "productType": "碗",
+   "designText": "白色",
+   "measureText": "13 厘米",
+   "url": null,
+   "seoSlug": "ofantligt-wu-fang-te-li-ge-te-wan-bai-se"
+  },
+  {
+   "id": "20319021",
+   "name": "OFANTLIGT 乌方特里格特",
+   "price": 39.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/ofantligt-wu-fang-te-li-ge-te-da-bei-bai-se__0711053_pe727928_s4.jpg",
+   "productType": "大杯",
+   "designText": "白色",
+   "measureText": "31 厘升",
+   "url": null,
+   "seoSlug": "ofantligt-wu-fang-te-li-ge-te-da-bei-bai-se"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "80319018",
+   "type": "ART",
+   "fullId": "80319018"
+  },
+  {
+   "id": "40319020",
+   "type": "ART",
+   "fullId": "40319020"
+  },
+  {
+   "id": "30319025",
+   "type": "ART",
+   "fullId": "30319025"
+  },
+  {
+   "id": "20319021",
+   "type": "ART",
+   "fullId": "20319021"
+  }
+ ]
+}

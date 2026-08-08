@@ -1,0 +1,209 @@
+{
+ "url": "/cn/zh/campaigns/klippan-ke4-li4-pa4-pub3bd2cda0",
+ "family": "campaigns",
+ "id": "cn--zh--3bd2cda069a611ea9cff159d0f695a29",
+ "title": "KLIPPAN 克利帕",
+ "name": "KLIPPAN 克利帕",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "KLIPPAN 克利帕"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT",
+    "s49010615"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/b4/a7/b4a7ce89700d76656f1e992f08773c61.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/b4/a7/b4a7ce89700d76656f1e992f08773c61.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "<p>我们在1980年代推出了 KLIPPAN 克利帕 沙发，如今它仍然是顾客的最爱。这款沙发坐感舒适，适合各种场所，并且有多种颜色的沙发套供你选择，堪称现代感十足的经典之作！</p>\n<p><a href=\"https://www.ikea.cn/cn/zh/customer-service/returns-claims/guarantee/keting-pub34d338d0\">享有10年品质保证</a></p>",
+    "pub-text",
+    "/h5page/?url=%23d4cab210-69a7-11ea-88d1-47ce42232d19",
+    "NO",
+    "ikea://default-module/H5?url=%23d4cab210-69a7-11ea-88d1-47ce42232d19"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/f1/87/f187141bb1bf976822825b1514908cd6.jpg"
+   ],
+   "links": [
+    {
+     "href": "/h5page/?url=%23d4cab210-69a7-11ea-88d1-47ce42232d19",
+     "text": ""
+    },
+    {
+     "href": "/h5page/?url=%23d061d9b0-69a7-11ea-88d1-47ce42232d19",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/f1/87/f187141bb1bf976822825b1514908cd6.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2><strong>所有颜色</strong></h2>\n<p><strong><a href=\"#2a4d9090-69a8-11ea-88d1-47ce42232d19\">基本颜色</a></strong> | <a href=\"#c91ce6a0-69ab-11ea-b558-43094bf9edda\">定制颜色</a> | <a href=\"#38954e80-69a9-11ea-88d1-47ce42232d19\">仿皮沙发</a></p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s49010615",
+    "s09284626",
+    "s89251778",
+    "s69284633"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h3><strong>定制颜色</strong></h3>\n<p>*定制款沙发的发货周期为8天。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s19318616",
+    "s09318612",
+    "s49319582",
+    "s49320731",
+    "s69320730"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h3><strong>仿皮沙发</strong></h3>\n<p>BOMSTAD 邦斯塔 固定式垫套采用耐磨材料制成，模仿皮革的外观和质感。所用材料包括聚酯纤维和棉，涂层采用了聚氨酯材料，可起到保护作用。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "10399315",
+    "00399325"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2><strong>沙发套</strong></h2>\n<p>*以下产品是额外的沙发套。沙发须另购。</p>\n<p><strong><a href=\"#46d5cb60-69a8-11ea-88d1-47ce42232d19\">基本款</a></strong>&nbsp;| <a href=\"#6186dfc0-69a9-11ea-88d1-47ce42232d19\">定制款</a></p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "00425621",
+    "00278856",
+    "80425636",
+    "70398723"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h3><strong>定制款</strong></h3>\n<p>*定制款沙发的发货周期为8天。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "00439901",
+    "50439908",
+    "00439920",
+    "80472411",
+    "40439918"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

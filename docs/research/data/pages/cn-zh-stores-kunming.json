@@ -1,0 +1,747 @@
+{
+ "url": "/cn/zh/stores/kunming",
+ "family": "stores",
+ "id": "cn--zh--0f9c9470eea011eb909ec36c6e99b004",
+ "title": "昆明商场",
+ "name": "昆明商场",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "昆明商场"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "f6f74c7b24274e73b34418f5a11648be"
+   }
+  },
+  {
+   "type": "anchor-navigation",
+   "title": null,
+   "texts": [
+    "TEXT",
+    "YES",
+    "宜家俱乐部",
+    "87981b7a24ef47b7a4ccc2ce290270fb",
+    "商场信息",
+    "b01826280aec4b79934f0a12b423986b"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "bbe0e573087746db92f5bc341dd36435"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2><strong>IKEA Family 宜家俱乐部</strong></h2>\n<p>&nbsp;宜家俱乐部向所有人开放，而且可以免费加入。马上在线加入或前往本地商场注册成为会员，开始享受所有会员专享优惠和益处。扫码关注&ldquo;宜家俱乐部&rdquo;微信服务号，不错过最新会员活动和家居灵感。每次去宜家购物时一定要记得刷会员卡，<strong>退货时间将从60天延长至365天</strong>，也可以随时获得最新优惠和相关信息。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "宜家俱乐部"
+   }
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "无限灵感，为你的家打造舒适空间",
+    "NO",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "SORT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20260728/a22028cfa83e4463a112e71f64a8f2c0.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260728/a22028cfa83e4463a112e71f64a8f2c0.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-媒体商品组合 image(Video)-"
+   }
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "无限灵感，为你的家打造舒适空间",
+    "NO",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "SORT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20250923/e3509cf5b4404146b3bfc63b6d27ac16.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20250923/e3509cf5b4404146b3bfc63b6d27ac16.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-媒体商品组合 image(Video)-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2><strong>商场信息</strong></h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "商场信息"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p><strong><span style=\"font-family: 'Noto IKEA Simplified Chinese',sans-serif;\">营业时间</span></strong></p>\n<p><span style=\"font-family: 'Noto IKEA Simplified Chinese',sans-serif;\">商场营业时间 （含瑞典特色食品屋、瑞典风味小餐馆）：周一至周日<span lang=\"EN-US\">10:00-21:00<br /></span>瑞典风味餐厅：周一至周日<span lang=\"EN-US\"> 11:00-20:00</span></span><span lang=\"EN-US\" style=\"font-family: 'Noto IKEA Simplified Chinese',sans-serif;\"><br /></span><span style=\"font-family: 'Noto IKEA Simplified Chinese',sans-serif;\">荟聚营业时间<span lang=\"EN-US\">&nbsp;10:00-22:00<br /></span>宜家家居<span lang=\"EN-US\">APP&nbsp; 00:00-24:00</span></span></p>\n<p>儿童乐"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "5b580aed9c224c76b88c7a0d5114beb3"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "two-columns",
+    "column",
+    "NO",
+    "请输入您所需要的文本信息",
+    "pub-image",
+    "IMAGE"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20250310/c95331c71fcd499e83f9e23f8c119c11.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20250310/c95331c71fcd499e83f9e23f8c119c11.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-分栏内容-"
+   }
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "aef00b653701406fa9e6ffd2d0f4bec7"
+   }
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "无限灵感，为你的家打造舒适空间",
+    "NO",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20260513/f408b556fef342cc9f302a9f10d8c29f.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260513/f408b556fef342cc9f302a9f10d8c29f.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Image(video)-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2><strong>商场活动</strong></h2>\n<p>* 活动仅限昆明商场实体店，不包括其他线上线下商场</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "商场活动"
+   }
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "无限灵感，为你的家打造舒适空间",
+    "NO",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "SORT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20260728/0849ba66dfc14edd8e530c21daa57fe2.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260728/0849ba66dfc14edd8e530c21daa57fe2.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-媒体商品组合 image(Video)-"
+   }
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "无限灵感，为你的家打造舒适空间",
+    "NO",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "SORT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20260728/7ed9dceda0ee4344b6a47c0402e34bbb.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260728/7ed9dceda0ee4344b6a47c0402e34bbb.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-媒体商品组合 image(Video)-"
+   }
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "无限灵感，为你的家打造舒适空间",
+    "NO",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "SORT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20260715/c010f71ed3364a15829cca613081e0a4.png?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260715/c010f71ed3364a15829cca613081e0a4.png?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-媒体商品组合 image(Video)-"
+   }
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "无限灵感，为你的家打造舒适空间",
+    "NO",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20240719/14c3b9f7a22a4481be6fc32dc6832821.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20240719/14c3b9f7a22a4481be6fc32dc6832821.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Image(video)-"
+   }
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "无限灵感，为你的家打造舒适空间",
+    "NO",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20221027/400635b01ead42d38544f37a39d839da.png?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20221027/400635b01ead42d38544f37a39d839da.png?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Image(video)-"
+   }
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "无限灵感，为你的家打造舒适空间",
+    "NO",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20240423/d9a0162339c846c8acb8bc844bef6cdc.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20240423/d9a0162339c846c8acb8bc844bef6cdc.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Image(video)-"
+   }
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "无限灵感，为你的家打造舒适空间",
+    "NO",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20250303/595dce688153461bbf64a06b5c69aaf7.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20250303/595dce688153461bbf64a06b5c69aaf7.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Image(video)-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>商场美食</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p><strong>--- 瑞典风味餐厅 ---</strong></p>\n<p>*图片仅供参考，以实物为准。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20260330/9a3cb43b434647b8a57444484c60cabf.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260330/9a3cb43b434647b8a57444484c60cabf.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "415aee7501244f28ad2458294f47c3f3"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "two-columns",
+    "column",
+    "NO",
+    "请输入您所需要的文本信息",
+    "pub-image",
+    "IMAGE"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20260330/496b8b1a9d264f27bb4b0a6bc8e3e684.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260330/21531a9b6cf0441f9ecbac002939d310.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260330/1ba89d1e4b0941b2be0fb2a294713fd0.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260330/bcf9b64eea9b4358947c563b2f475ced.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260330/4892f4fb5c774681b8327e476924f39e.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260330/496b8b1a9d264f27bb4b0a6bc8e3e684.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260330/21531a9b6cf0441f9ecbac002939d310.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260330/1ba89d1e4b0941b2be0fb2a294713fd0.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260330/bcf9b64eea9b4358947c563b2f475ced.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260330/4892f4fb5c774681b8327e476924f39e.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260330/fb143264667245f49c43d3092dca3ca5.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Columns-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p><strong>--- 瑞典特色食品屋 ---</strong></p>\n<p>*图片仅供参考，以实物为准。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "two-columns",
+    "column",
+    "NO",
+    "请输入您所需要的文本信息",
+    "pub-image",
+    "IMAGE"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20260511/aae03ee9926f41769960ea144769f84d.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260511/e109492ebde7461a8d85036216ddeb7d.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260511/4d16eb5997ba4fbfb250d2963fb53a75.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260511/64ddb69107624bc6a191d5490d223a22.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260511/aae03ee9926f41769960ea144769f84d.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260511/e109492ebde7461a8d85036216ddeb7d.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260511/4d16eb5997ba4fbfb250d2963fb53a75.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260511/64ddb69107624bc6a191d5490d223a22.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Columns-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p><strong>--- 瑞典风味小餐馆 ---</strong></p>\n<p>*图片仅供参考，以实物为准。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "two-columns",
+    "column",
+    "NO",
+    "请输入您所需要的文本信息",
+    "pub-image",
+    "IMAGE"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20260511/046b0bd46a1740b096a512f7e245db44.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260511/d3f5255f5b7e4e63a8a87ea9e0d54072.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260511/95672e5551a047aea356610073014da4.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260511/0879a7d2645a43d5a0a51a91ec2ea0f4.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260511/046b0bd46a1740b096a512f7e245db44.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260511/d3f5255f5b7e4e63a8a87ea9e0d54072.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260511/95672e5551a047aea356610073014da4.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260511/0879a7d2645a43d5a0a51a91ec2ea0f4.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Columns-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>可持续发展行动</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "无限灵感，为你的家打造舒适空间",
+    "NO",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20241209/0e73025e46f0427099974ac791b087af.png?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20241209/0e73025e46f0427099974ac791b087af.png?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Image(video)-"
+   }
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "0389852703b14881aaf866a397f323f6"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2><strong>宜家对公业务</strong></h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "宜家对公业务部"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h3>设计服务</h3>\n<p>宜家对公业务部可以为您提供办公空间、样板房、商铺、餐厅、咖啡馆、培训机构、酒店设计服务，为您合理规划商业空间、帮您挑选实用、美观又超值的家具和装饰品，让您省心放心。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "497b08e5d3f8478ba4c336bf4d82148f"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>宜家昆明商场对公业务部</h2>\n<p>电话：19808810208</p>\n<p>邮箱：yula.yuan@ingka.ikea.com</p>\n<p>地址：宜家昆明商场2楼办公家具区</p>\n<p>办公时间：10:00-18:00</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "d19ce55fbcce48a4bbe3d5feef587626"
+   }
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "无限灵感，为你的家打造舒适空间",
+    "NO",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "SORT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20251119/3f668b6fe3304d13958fcf35122ee55c.png?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20251119/3f668b6fe3304d13958fcf35122ee55c.png?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-媒体商品组合 image(Video)-"
+   }
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "无限灵感，为你的家打造舒适空间",
+    "NO",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "SORT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20251119/ff904f76217a485895e462c76ceb9a1f.png?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20251119/ff904f76217a485895e462c76ceb9a1f.png?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-媒体商品组合 image(Video)-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>宜家全屋设计</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "d19ce55fbcce48a4bbe3d5feef587626"
+   }
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "无限灵感，为你的家打造舒适空间",
+    "NO",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "SORT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20250407/f5417214416e4a7b9d8351a5841a566c.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20250407/f5417214416e4a7b9d8351a5841a566c.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-媒体商品组合-"
+   }
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "NO",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20240529/9476c5b930d4427a8a4c96e039a372e7.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20240529/9476c5b930d4427a8a4c96e039a372e7.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Image(video)-"
+   }
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "NO",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20231012/0db41b0805954b3ba04f4ee9ad1acff4.png?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20231012/0db41b0805954b3ba04f4ee9ad1acff4.png?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "1c79a2709c5a441eb09a36c8a7850069"
+   }
+  }
+ ]
+}

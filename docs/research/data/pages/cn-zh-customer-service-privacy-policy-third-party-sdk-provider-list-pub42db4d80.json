@@ -1,0 +1,80 @@
+{
+ "url": "/cn/zh/customer-service/privacy-policy/third-party-sdk-provider-list-pub42db4d80",
+ "family": "customer-service",
+ "id": "cn--zh--42db4d80a7c011ebbf58a38a02d586b9",
+ "title": "第三方SDK提供商目录",
+ "name": "第三方SDK提供商目录",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "第三方SDK提供商目录"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "a0b6c5318513473f97e3f64624d1cb1c"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 为保障我们线上渠道的产品或服务稳定运行或实现相关功能，我们在宜家移动应用程序（&ldquo;App&rdquo;）、宜家官网、微信小程序中接入了第三方的软件开发工具包（以下简称 &ldquo;SDK&rdquo;），其中部分SDK会根据相关业务、功能目的收集您的必要个人信息。我们会对第三方提供的该等SDK进行安全评估，以保护您的个人信息安全。以下是此类SDK的具体信息：</p>\n<div id=\"gtx-trans\" style=\"position: absolute; left: 24px; top: -20px;\">\n<div class=\"gtx-trans-icon\">&nbsp;</div>\n</div>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "39f7fbc493cf4b84b7e12a1d5b7c4872"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h3><strong>官网</strong></h3>\n<p>GIO Web JS SDK<br />用途：分析官网用户的使用情况<br />收集个人信息类型：Cookies，IP地址<br />提供方：北京易数科技有限公司<br />第三方SDK隐私政策链接：https://accounts.growingio.com/privacy</p>\n<p>&nbsp;</p>\n<h3><strong>App Android端</strong></h3>\n<p><strong>极光推送(JPush)</strong></p>\n<p>用途：移动应用程序(App)内消息推送</p>\n<p>收集个人信息类型：设备标识信息（如IMEI、IDFA、Android ID、MAC地址、OAID），设备类型，设备版本，系统版本，手机样式，硬件相关信息，地理位置信息，网络设备制造商，IP地址，WiFi信息</p>\n<p>提供方：深圳市和讯华谷信息技术有限公司</p>\n<p>第三方SDK隐私政策链接：https://www.jiguang.cn/license/privacy</p>\n<p>&nbsp;</p>\n<p><strong>GIO移动端 SDK</strong></p>\n<p>用途：分析收集移动应用程序(App)用户的使用情况</p>\n<p>收集个人信息类型：设备标识信息（如IMEI、IDFA、"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "28c5a29abb9b4c51af24dfafd8e65498"
+   }
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#121212"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "ec320c9072b44cb383d5263a85e5c724"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/customer-service/privacy-policy/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fcustomer-service%2Fprivacy-policy%2F&key=",
+    "{\"objectId_var\":\"/customer-service/privacy-policy/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "返回隐私政策"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/customer-service/privacy-policy/",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "dbc194e325e84472899b5f87058731fc"
+   }
+  }
+ ]
+}

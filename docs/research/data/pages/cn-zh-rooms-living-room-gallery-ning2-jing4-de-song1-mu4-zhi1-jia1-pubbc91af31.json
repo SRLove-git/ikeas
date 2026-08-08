@@ -1,0 +1,45 @@
+{
+ "url": "/cn/zh/rooms/living-room/gallery/ning2-jing4-de-song1-mu4-zhi1-jia1-pubbc91af31",
+ "family": "rooms",
+ "id": "cn--zh--bc91af317ba311e89da1853a21975ebe",
+ "title": "宁静的松木之家",
+ "name": "20191-rmli10a_PF_CT",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "宁静的松木之家",
+   "texts": [
+    "全新的 HEMNES 汉尼斯 家具系列包括储物柜、桌子和搁架，均以新鲜、光滑的松木制成。在客厅里感受大自然的气息。",
+    "<p>无论在户外还是室内，都可以亲近大自然。柔软的纺织品、柔和的色彩，还有茶几、储物柜等家具选用的天然材料，共同在客厅营造出宁静的氛围。这就是家的感觉。</p>",
+    "宁静的松木之家",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/eb/e2/ebe21725b71f58f63aa5f08869dd5380.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/eb/e2/ebe21725b71f58f63aa5f08869dd5380.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "70413506",
+    "30413527",
+    "10413496",
+    "s09255761",
+    "70394517"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

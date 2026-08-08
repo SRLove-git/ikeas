@@ -1,0 +1,101 @@
+{
+ "url": "/cn/zh/this-is-ikea/community-engagement/better-pub7d14642f",
+ "family": "this-is-ikea",
+ "id": "cn--zh--7d14642fb3cf11e7b23503ef832e0d7f",
+ "title": "创造更好的解决方案 ",
+ "name": "创造更好的解决方案 ",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "创造更好的解决方案 ",
+   "texts": [
+    "两名女工正在检查一块采用100%回收废弃物制造的炭黑色门前挡板。",
+    "创造更好的解决方案",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/82/2a/822ad09acb9b29522f32a847bdbc1df7.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/82/2a/822ad09acb9b29522f32a847bdbc1df7.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h3>创造更好的解决方案</h3>\n<p>宜家会不断对现有解决方案提出质疑。我们努力寻找更便捷的家具组装方式、更高的生产效率以及更加便于运输的包装方式，从而为顾客节省时间和金钱。</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p><a href=\"https://www.ikea.cn/cn/zh/cat/-16256/\">aaaaa</a></p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "30283861"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--11a60021625611e68ac7d5cf3f2bbed1",
+    "/ideas/fanxin-pub11a60021",
+    "page",
+    "斯堪的纳维亚风格公寓翻新，打造适合两个人的空间",
+    "Anikó和Robert翻新了他们位于匈牙利的公寓，打造更适合他们的空间",
+    "ikea://cms/page-compatible-web?url=%2Fideas%2Ffanxin-pub11a60021&key=cn--zh--11a60021625611e68ac7d5cf3f2bbed1"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/2a/5d/2a5dc838c6b774318c024c81bdf9aeb8.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/2a/5d/2a5dc838c6b774318c024c81bdf9aeb8.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT",
+    "30283861"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/61/56/615638ee21e3510d83aa88ae36b9adcc.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/61/56/615638ee21e3510d83aa88ae36b9adcc.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>dfsdfsdf</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

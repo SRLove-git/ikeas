@@ -1,0 +1,150 @@
+{
+ "url": "/cn/zh/customer-service/product-support/recalls",
+ "family": "customer-service",
+ "id": "cn--zh--7a305cecbed911e79dfda9ee7bcb674b",
+ "title": "商品召回信息",
+ "name": "召回信息",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "商品召回信息"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "42b87ef2261940a0a051b24c2f2eefa6"
+   }
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--076c4a6a2e99489ebbb1f63ff089d4e5",
+    "/customer-service/product-support/recalls/yi-jia-zai-zhong-guo-zhao-hui-bu-fen-pi-ci-ae-ba-xin-gen-lin-yu-yi-pub076c4a6a",
+    "page",
+    "宜家在中国召回部分批次BÄSINGEN 巴辛根 淋浴椅",
+    "ikea://cms/page-compatible-web?url=%2Fcustomer-service%2Fproduct-support%2Frecalls%2Fyi-jia-zai-zhong-guo-zhao-hui-bu-fen-pi-ci-ae-ba-xin-gen-lin-yu-yi-pub076c4a6a&key=cn--zh--076c4a6a2e99489ebbb1f63ff089d4e5",
+    "{\"objectId_var\":\"/customer-service/product-support/recalls/yi-jia-zai-zhong-guo-zhao-hui-bu-fen-pi-ci-ae-ba-xin-gen-lin-yu-yi-pub076c4a6a\",\"objectType_var\":\"cms/page-compatible-web\"}"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20260317/cfd6cda206fd46ceb0813df93e142f9e.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20251111/2bb0a20d4d1540e98a393bb207e5d0a9.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20250611/3cccb4659f7c47239cf048103bd5a1ee.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20240716/dce4e60130ea4ecba13261ba88f3e691.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20240109/c4aca4d1be4a4b038055e11ea4fe2076.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260317/cfd6cda206fd46ceb0813df93e142f9e.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20251111/2bb0a20d4d1540e98a393bb207e5d0a9.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20250611/3cccb4659f7c47239cf048103bd5a1ee.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20240716/dce4e60130ea4ecba13261ba88f3e691.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20240109/c4aca4d1be4a4b038055e11ea4fe2076.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20230321/4b7e8264daa74dd88e4ad594f7daa15d.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "f8e207a835414f22a76ed0eafb02b428"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/this-is-ikea/newsroom/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fthis-is-ikea%2Fnewsroom%2F&key=",
+    "{\"objectId_var\":\"/this-is-ikea/newsroom/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "返回宜家新闻室"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/this-is-ikea/newsroom/",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "d8290897345e48299690ea9928b6eab4"
+   }
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "2d9e726bb4d044e09d5898ce8978dbb3"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h4><strong>你可能会想看</strong></h4>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "5f47e817ff2543c799f22703fe4c6124"
+   }
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--5a3665d1bed711e79dfda9ee7bcb674b",
+    "/newsroom/corporate-news/xinwen-pub5a3665d1",
+    "page",
+    "综合新闻",
+    "ikea://cms/page-compatible-web?url=%2Fnewsroom%2Fcorporate-news%2Fxinwen-pub5a3665d1&key=cn--zh--5a3665d1bed711e79dfda9ee7bcb674b",
+    "{\"objectId_var\":\"/newsroom/corporate-news/xinwen-pub5a3665d1\",\"objectType_var\":\"cms/page-compatible-web\"}"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/34/18/34182fc4ce17828b4c54319e3fc7a85d.jpg",
+    "https://file.app.ikea.cn/images/72/31/723130e01c79442f6771cfe57062c1da.jpg",
+    "https://file.app.ikea.cn/images/0a/30/0a30abb1c2e6ce71a7217eb7013aa5b4.jpeg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/34/18/34182fc4ce17828b4c54319e3fc7a85d.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/72/31/723130e01c79442f6771cfe57062c1da.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/0a/30/0a30abb1c2e6ce71a7217eb7013aa5b4.jpeg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "67967b8718594ee2a132ff1100d06b4d"
+   }
+  }
+ ]
+}

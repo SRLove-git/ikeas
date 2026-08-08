@@ -1,0 +1,530 @@
+{
+ "url": "/cn/zh/rooms/balcony",
+ "family": "rooms",
+ "id": "cn--zh--80bbba01f21d11e8b34e1d2cf9bd527f",
+ "title": "阳台",
+ "name": "阳台",
+ "hero": "https://file.app.ikea.cn/cms/u/20230727/448bed5df9d64e178df40d7cb0e41826.jpg",
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "阳台"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Page Title-"
+   }
+  },
+  {
+   "type": "pub-visual-navigation",
+   "title": null,
+   "texts": [
+    "/cat/700350",
+    "NO",
+    "ikea://content/plp?catalogId=700350",
+    "{\"objectId_var\":\"700350\",\"objectType_var\":\"plp\"}",
+    "名称",
+    "户外座椅"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20230803/7a7fb679e2574959ae28256ebaf25d6a.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20230727/a85ce1674ace496097263f5b31dcef81.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20230727/53746975622849d6b2103f383845552d.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20230727/4d54428c43284b3e802eb7d4823b9f80.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20230727/376936c7cde343138a0bd912eb030976.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/cat/700350",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20230803/7a7fb679e2574959ae28256ebaf25d6a.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/cat/59249",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20230727/a85ce1674ace496097263f5b31dcef81.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/cat/21958",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20230727/53746975622849d6b2103f383845552d.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "3229760780f5435d838a7184838f102b"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "f1a79d2d7a7145cea1b22e25043c550a"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "每个阳台都有无限的潜力",
+   "texts": [
+    "/rooms/balcony/gallery/",
+    "NO",
+    "ikea://cms/page-compatible-web?key=cn--zh--b0ffa9ac62534483bf00154eb8af015f&url=%2Frooms%2Fbalcony%2Fgallery%2F",
+    "{\"objectId_var\":\"/rooms/balcony/gallery/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "阳台空间小，也不能阻碍你把它打造成最爱的角落。灵活的家具、折叠椅和巧妙的储物方案，帮你打造一个舒适惬意的阳台，集休息、用餐和放松于一体。",
+    "每个阳台都有无限的潜力"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20250327/9d604c7a127342999bba137942c29896.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20250327/a51f69e8c3074b95a4db21d885c8c681.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content-hub/f96ef328-1efa-4dd7-befb-0fa4910a9d15/19f7028e-53c2-407a-b795-b6c67f0d363c.jpeg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20250327/1298b892425646198aa63c6aadbfa67d.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20250327/d0d787dd0d8f437a9e14c436a60c6670.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/rooms/balcony/gallery/",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20250327/9d604c7a127342999bba137942c29896.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20250327/a51f69e8c3074b95a4db21d885c8c681.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content-hub/f96ef328-1efa-4dd7-befb-0fa4910a9d15/19f7028e-53c2-407a-b795-b6c67f0d363c.jpeg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20250327/1298b892425646198aa63c6aadbfa67d.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20250327/d0d787dd0d8f437a9e14c436a60c6670.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "c8a908f06acc454d810517d70b62765e"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "阳台推荐产品",
+   "texts": [
+    "/search/products?q=阳台",
+    "NO",
+    "ikea://default-module/search?query=%E9%98%B3%E5%8F%B0",
+    "{\"objectId_var\":\"阳台\",\"objectType_var\":\"search_result\"}",
+    "阳台虽小，却可以用来做很多。清洗晾晒、休闲放空、学习工作......",
+    "阳台推荐产品"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/search/products?q=阳台",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "6e979e3100fe496c9f6bf1a4cb1af637"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "利用阳台储物，打造额外的杂物间",
+   "texts": [
+    "/cat/700332",
+    "NO",
+    "ikea://content/plp?catalogId=700332",
+    "{\"objectId_var\":\"700332\",\"objectType_var\":\"plp\"}",
+    "家里没有空间存放多余的洗漱用品？有了这个储物方案，不妨把阳台变成一个储物间，存放洗衣用品等物品。",
+    "利用阳台储物，打造额外的杂物间"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20250327/9a39d5ea47b84aec9b511f86083a0db8.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20250327/a4101d972bf34438898599345676dd3c.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/cat/700332",
+     "text": ""
+    },
+    {
+     "href": "/inspiration/detail/ADB1C022-D430-450E-B344F616D700AB9F?type=IMAGE",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20250327/9a39d5ea47b84aec9b511f86083a0db8.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/inspiration/detail/5A0B4458-60A1-4A87-929D0AF1E4922D75?type=IMAGE",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20250327/a4101d972bf34438898599345676dd3c.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "c8a908f06acc454d810517d70b62765e"
+   }
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "99436932",
+    "09437262",
+    "19437167",
+    "89437239",
+    "50421215"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Product List-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>更多阳台布置灵感</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "6c25ef14b6c84c5db9e13797feef3b36"
+   }
+  },
+  {
+   "type": "pub-visual-pill-slider",
+   "title": null,
+   "texts": [
+    "/rooms/outdoor/how-to/a-balcony-design-for-smart-double-use-pub4c33cfd0",
+    "NO",
+    "ikea://cms/page-compatible-web?key=cn--zh--4c33cfd0ac0511eb83048b66903001b1&url=%2Frooms%2Foutdoor%2Fhow-to%2Fa-balcony-design-for-smart-double-use-pub4c33cfd0",
+    "{\"objectId_var\":\"/rooms/outdoor/how-to/a-balcony-design-for-smart-double-use-pub4c33cfd0\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "名称",
+    "灵活多用"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20230804/f5b9673a725145e782b783581ff5dda0.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20230803/1291b75e48c840deaa93ccc136fda9e5.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20230804/722e05c3698b4bd3aa7b39aad5e21a8c.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20230804/be5c89717813410fa5ee00e87c44c4b7.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20230803/855f1a86784a4f28aba2a9114bd36cbb.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/rooms/outdoor/how-to/a-balcony-design-for-smart-double-use-pub4c33cfd0",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20230804/f5b9673a725145e782b783581ff5dda0.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/rooms/outdoor/gallery/xiao-yang-tai-ye-neng-meng-xiang-cheng-zhen-pubbec0c5f0",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20230803/1291b75e48c840deaa93ccc136fda9e5.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/rooms/outdoor/gallery/ru2-he2-ding4-zhi4-xi3-yi1-fang2-kong1-jian1-jie3-jue2-fang1-an4-pub1bd363a0",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20230804/722e05c3698b4bd3aa7b39aad5e21a8c.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Visual Pill Slider-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>规划你的阳台储物</h2>\n<p>了解我们强大的储物系列产品，助你充分开发阳台空间的储物潜能：</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "6c25ef14b6c84c5db9e13797feef3b36"
+   }
+  },
+  {
+   "type": "pub-inspiration-card",
+   "title": null,
+   "texts": [
+    "045e5a2a-9a8d-11ea-8543-6bbb72ceb2d5",
+    "/cat/700331",
+    "NO",
+    "ikea://content/plp?catalogId=700331",
+    "{\"objectId_var\":\"700331\",\"objectType_var\":\"plp\"}",
+    "JOSTEIN 约斯坦系列"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20230804/89e72b453a584a2ab8e5b64e6fd3c3af.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20230804/35c354d679ae483887e63aeb36b879d0.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20230804/e9238680b065476293df973201b2491c.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20230804/c6a8ac2de2f347fbb8dd3bb4253d8bd2.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/cat/700331",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20230804/89e72b453a584a2ab8e5b64e6fd3c3af.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=BOAXEL 组合",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20230804/35c354d679ae483887e63aeb36b879d0.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=ENHET 洗衣",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20230804/e9238680b065476293df973201b2491c.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Inspiration Cards-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>更多适合阳台的产品系列</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "6c25ef14b6c84c5db9e13797feef3b36"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "/search/products?q=NÄMMARÖ",
+    "NO",
+    "ikea://default-module/search?query=N%C3%84MMAR%C3%96",
+    "{\"objectId_var\":\"NÄMMARÖ\",\"objectType_var\":\"search_result\"}",
+    "pub-image"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20230803/fe13a238dec041ccb227fee6d4c774e8.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20230803/40a1cb3a416d4358886b5ca18c24628d.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20230803/f4d4c163b9b4492e9ee7f5c83d1fb170.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/search/products?q=NÄMMARÖ",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20230803/fe13a238dec041ccb227fee6d4c774e8.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=SEGERÖN",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20230803/40a1cb3a416d4358886b5ca18c24628d.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=TÄRNÖ",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20230803/f4d4c163b9b4492e9ee7f5c83d1fb170.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "c456cf34fb094a128d5ae37253c4399c"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "/search/products?q=RUNNEN",
+    "NO",
+    "ikea://default-module/search?query=RUNNEN",
+    "{\"objectId_var\":\"RUNNEN\",\"objectType_var\":\"search_result\"}",
+    "pub-image"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20230803/feb8ab66264747cdbf215ac0ae058811.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20230803/d149db59b42e421098aeb042ad06b9f1.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20230809/74c2942658fd4c5480b90dd6ed2c82b7.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/search/products?q=RUNNEN",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20230803/feb8ab66264747cdbf215ac0ae058811.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=KOLBJÖRN",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20230803/d149db59b42e421098aeb042ad06b9f1.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/cat/700331",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20230809/74c2942658fd4c5480b90dd6ed2c82b7.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "fa2fcd5115a3482fba066d776b705a8f"
+   }
+  },
+  {
+   "type": "pub-visual-pill-slider",
+   "title": null,
+   "texts": [
+    "一只手正在调节GLYPEN 格吕彭 厨房水龙头的水流大小，水龙头采用不锈钢制成，旁边放着TÅRTSMET 托米特 洗盘刷",
+    "/ideas/tips-for-more-sustainable-living/quick-tricks-to-save-energy-at-home-pubad783f90",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fideas%2Ftips-for-more-sustainable-living%2Fquick-tricks-to-save-energy-at-home-pubad783f90",
+    "{\"objectId_var\":\"/ideas/tips-for-more-sustainable-living/quick-tricks-to-save-energy-at-home-pubad783f90\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "IMAGE"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20250808/f2e0305a320d491e867041cf021305b0.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20250808/a67e4e9ca0e944ee913ae927fd91d6c6.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20250808/ce1cc52f6a0c476eb7a09a39735c5334.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20250808/85e7c4d664674f5ba43351e424a3a339.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20250422/ed9aff1aa0b0475fa51994e57d6e3531.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/ideas/tips-for-more-sustainable-living/quick-tricks-to-save-energy-at-home-pubad783f90",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20250808/f2e0305a320d491e867041cf021305b0.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/ideas/tips-for-more-sustainable-living/smart-solutions-to-save-water-at-home-pubfdfe8c45",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20250808/a67e4e9ca0e944ee913ae927fd91d6c6.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/ideas/tips-for-more-sustainable-living/easy-wins-to-eating-more-sustainably-pubdbfa9a20",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20250808/ce1cc52f6a0c476eb7a09a39735c5334.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-带按钮图片列表 Visual Pill Slider-"
+   }
+  },
+  {
+   "type": "inspirations",
+   "title": "更多阳台灵感",
+   "texts": [
+    "IMAGE_ONLY",
+    "更多阳台灵感",
+    "WATERFALL",
+    "ALL",
+    "TAGS_INPUT",
+    "6d46ef480d2434a8b8b7db7ee4c595c2"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cdb151de035b46aeadee92250916a385"
+   }
+  },
+  {
+   "type": "pub-assurances",
+   "title": null,
+   "texts": [
+    "/customer-service/services/delivery/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fcustomer-service%2Fservices%2Fdelivery%2F&key=",
+    "{\"objectId_var\":\"/customer-service/services/delivery/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "送货服务",
+    "shipping-truck"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/customer-service/services/delivery/",
+     "text": ""
+    },
+    {
+     "href": "/customer-service/services/assembly/",
+     "text": ""
+    },
+    {
+     "href": "/customer-service/services/kitchen-planning/",
+     "text": ""
+    },
+    {
+     "href": "/customer-service/returns-claims/return-policy/",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "1f01939718564cc3938367b3afbe70cb"
+   }
+  }
+ ]
+}

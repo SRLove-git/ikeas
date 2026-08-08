@@ -1,0 +1,124 @@
+{
+ "url": "/cn/zh/rooms/bedroom/gallery/yu3-xian4-dai4-da4-dou1-hui4-you1-ya3-rong2-he2-de-chuan2-tong3-zhu4-zhai2-pub013143d1",
+ "family": "rooms",
+ "id": "cn--zh--013143d19caa11e9a6d14535ebfeabf1",
+ "title": "与现代大都会优雅融合的传统住宅",
+ "name": "20202_rmbe03a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "与现代大都会优雅融合的传统住宅"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "传统风格的房间中放置着典雅的坐卧两用床。白天，额外的靠垫为后背提供支撑。",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "s09186126"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/4f/b4/4fb4b93f77ce935f6a3d7e789716e31c.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/4f/b4/4fb4b93f77ce935f6a3d7e789716e31c.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>我们将教你如何在可用面积很小的情况下，打造宽敞舒适的家。HEMNES 汉尼斯 坐卧两用床白天可充当厨房沙发，晚上则化身为舒适的床，不论何时都能彰显传统外观的风采。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "一张 INGATORP 英格托 黑色伸缩型餐桌展开着，桌子周围摆放着 KYRRE 叙勒 凳子，充当额外的座椅。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "80217072"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/d8/34/d834f190877091752b5ff2c345b8ff0f.jpg",
+    "https://file.app.ikea.cn/images/52/db/52dbe2ad10e15de5cfda6c2e30afda22.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/d8/34/d834f190877091752b5ff2c345b8ff0f.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/52/db/52dbe2ad10e15de5cfda6c2e30afda22.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "宜家 HOPPVALS 霍普沃 灰色六边形百叶帘遮挡着半边窗户，有助于日夜遮挡光线。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "80386423"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/20/11/2011fd64ca1dd15fb851ac1a76d810f1.jpg",
+    "https://file.app.ikea.cn/images/23/a6/23a6efed048564769d9c5fa72b065ce9.jpg",
+    "https://file.app.ikea.cn/images/a3/d0/a3d0bf2e7f693cc110cef723d27425d6.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/20/11/2011fd64ca1dd15fb851ac1a76d810f1.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/23/a6/23a6efed048564769d9c5fa72b065ce9.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/a3/d0/a3d0bf2e7f693cc110cef723d27425d6.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s09186126",
+    "20200456",
+    "90374274",
+    "80217072",
+    "20343224"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

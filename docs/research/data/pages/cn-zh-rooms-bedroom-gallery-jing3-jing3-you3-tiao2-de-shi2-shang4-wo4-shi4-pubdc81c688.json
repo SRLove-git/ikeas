@@ -1,0 +1,172 @@
+{
+ "url": "/cn/zh/rooms/bedroom/gallery/jing3-jing3-you3-tiao2-de-shi2-shang4-wo4-shi4-pubdc81c688",
+ "family": "rooms",
+ "id": "cn--zh--dc81c6882b0711eb86af0d269f4be91a",
+ "title": "小巧、整洁又时尚的卧室",
+ "name": "66234_bend01a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "井井有条的时尚卧室",
+   "texts": [
+    "卧室内有一张带储物功能和床头板的白色BRIMNES 百灵 床，配有几何图案装饰的床用织品。",
+    "<p>这间小卧室告诉我们，即使空间有限也不成问题。一张多用途床、巧妙的储物和节省空间的梳妆区，就能拥有一个平静整洁又好看的卧室。</p>",
+    "井井有条的时尚卧室",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/3b/f4/3bf4d4a04ab60076040ad36f593b65cf.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/3b/f4/3bf4d4a04ab60076040ad36f593b65cf.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Hero-井井有条的时尚卧室"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "不只是床，也是床头桌和储物柜",
+   "texts": [
+    "/cat/25205",
+    "NO",
+    "ikea://content/plp?catalogId=25205",
+    "{\"objectId_var\":\"25205\",\"objectType_var\":\"plp\"}",
+    "这张舒适的床架在床头板处设有搁板，用来摆放书籍，便于睡前轻松取阅。而床下方的抽屉则能充分利用空间，非常适合收纳毛毯和过季衣物。",
+    "不只是床，也是床头桌和储物柜"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/24e556ee8cab4d6a/original/PH176777-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/25205",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/24e556ee8cab4d6a/original/PH176777-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Curated Gallery-不只是床，也是床头桌和储物柜"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "衣物收纳更轻松",
+   "texts": [
+    "/cat/18125",
+    "NO",
+    "ikea://content/plp?catalogId=18125",
+    "{\"objectId_var\":\"18125\",\"objectType_var\":\"plp\"}",
+    "所有物件各得其位，所有衣物整齐收纳在视线之外，卧室看上去井井有条，晚上自然睡得更香。这款衣柜和抽屉柜可出色整理收纳你的所有衣服。另外，选择同一风格的家具，保持和谐一致的外观，有助营造平和的卧室氛围。",
+    "衣物收纳更轻松"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/34777bb3cf287ccc/original/PH176779-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/18125",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/34777bb3cf287ccc/original/PH176779-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Curated Gallery-衣物收纳更轻松"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "把衣服挂出来",
+   "texts": [
+    "/cat/37894",
+    "NO",
+    "ikea://content/plp?catalogId=37894",
+    "{\"objectId_var\":\"37894\",\"objectType_var\":\"plp\"}",
+    "有了开放式搁架，你就能将难以利用的狭窄角落改造成一个衣物和配饰存放区。添置一根挂衣杆，将衣服挂起来，方便随时拿取穿着。开放式空间有利于通风和晾干衣物，而不必频繁清洗，不仅能让衣服更耐穿，还可以节水节能。",
+    "把衣服挂出来"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/47752e9d9c64dc2f/original/PH176780-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/37894",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/47752e9d9c64dc2f/original/PH176780-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Curated Gallery-把衣服挂出来"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "如果墙壁会说话，他们会说：看起来不错！",
+   "texts": [
+    "/cat/48951",
+    "NO",
+    "ikea://content/plp?catalogId=48951",
+    "{\"objectId_var\":\"48951\",\"objectType_var\":\"plp\"}",
+    "打造一个不占地的梳妆区。一面镜子、一盏壁灯，再加上一个壁架带搁板，用来放各种梳妆打扮用品，轻松收拾妥当出门。易于固定的挂钩，非常适合用来挂放手表和当天要穿的衬衫。",
+    "如果墙壁会说话，他们会说：看起来不错！"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/21fa468e7e9af719/original/PH176781-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/48951",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/21fa468e7e9af719/original/PH176781-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Curated Gallery-如果墙壁会说话，他们会说：看起来不错！"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "展示和存放物品",
+   "texts": [
+    "/cat/37896",
+    "NO",
+    "ikea://content/plp?catalogId=37896",
+    "{\"objectId_var\":\"37896\",\"objectType_var\":\"plp\"}",
+    "心爱之物摆放在开放式搁架单元上，添置射灯，出色照亮映衬。至于不那么美观的物品，比如袜子、电线和小玩意儿，则通通放入储物盒里，再放到搁板上，保持整洁的外观。",
+    "展示和存放物品"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/27dae9e53bd4eed4/original/PH176782-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/37896",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/27dae9e53bd4eed4/original/PH176782-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Curated Gallery-展示和存放物品"
+   }
+  }
+ ]
+}

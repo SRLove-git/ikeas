@@ -1,0 +1,412 @@
+{
+ "url": "/cn/zh/cat/nao-zhong-10786",
+ "id": "nao-zhong-10786",
+ "name": "宜家闹钟-时钟",
+ "description": "查看我们的闹钟产品系列。宜家提供多种风格的闹钟，包括复古风格闹钟、带五分钟贪睡功能的数字闹钟，后者非常适合总想多睡几分钟的赖床爱好者。如果想要准确把握时间，闹钟是一个不错的解决方案。",
+ "total": 28,
+ "products": [
+  {
+   "id": "10620467",
+   "name": "RÖDBENA 瑞德贝纳",
+   "price": 39.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/roedbena-rui-de-bei-na-nao-zhong-dai-shi-du-ji-wen-du-ji__1510571_pe1009952_s4.jpg",
+   "productType": "闹钟带湿度计/温度计",
+   "designText": "",
+   "measureText": "10x11x5 厘米",
+   "url": null,
+   "seoSlug": "roedbena-rui-de-bei-na-nao-zhong-dai-shi-du-ji-wen-du-ji"
+  },
+  {
+   "id": "90620473",
+   "name": "LJUNGPIPARE 永皮帕勒",
+   "price": 14.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/ljungpipare-yong-pi-pa-le-shi-zhong-ding-shi-qi-bai-se__1510573_pe1009958_s4.jpg",
+   "productType": "时钟/定时器",
+   "designText": "白色",
+   "measureText": "8x7 厘米",
+   "url": null,
+   "seoSlug": "ljungpipare-yong-pi-pa-le-shi-zhong-ding-shi-qi-bai-se"
+  },
+  {
+   "id": "20620462",
+   "name": "KORTLINJE 阔特林涅",
+   "price": 149,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/kortlinje-kuo-te-lin-nie-nao-zhong-dai-shi-du-ji-wen-du-ji-hong-se__1510577_pe1009954_s4.jpg",
+   "productType": "闹钟带湿度计/温度计",
+   "designText": "红色",
+   "measureText": "18x6x7 厘米",
+   "url": null,
+   "seoSlug": "kortlinje-kuo-te-lin-nie-nao-zhong-dai-shi-du-ji-wen-du-ji-hong-se"
+  },
+  {
+   "id": "30620466",
+   "name": "ÖRNVRÅK 恩福偌克",
+   "price": 39.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/oernvrak-en-fu-ruo-ke-dian-zi-zhong-dai-shi-du-ji-wen-du-ji-bai-se__1553411_pe1023643_s4.jpg",
+   "productType": "电子钟带湿度计/温度计",
+   "designText": "白色",
+   "measureText": "8x3 厘米",
+   "url": null,
+   "seoSlug": "oernvrak-en-fu-ruo-ke-dian-zi-zhong-dai-shi-du-ji-wen-du-ji-bai-se"
+  },
+  {
+   "id": "30620471",
+   "name": "RÖDSTRÄFSE 略斯莱瑟",
+   "price": 69.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/roedstraefse-lue-si-lai-se-nao-zhong-dai-shi-du-ji-wen-du-ji-mi-huang-se__1510572_pe1009953_s4.jpg",
+   "productType": "闹钟带湿度计/温度计",
+   "designText": "米黄色",
+   "measureText": "17x8x6 厘米",
+   "url": null,
+   "seoSlug": "roedstraefse-lue-si-lai-se-nao-zhong-dai-shi-du-ji-wen-du-ji-mi-huang-se"
+  },
+  {
+   "id": "50590454",
+   "name": "KLOCKIS 库克斯",
+   "price": 24.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/klockis-ku-ke-si-zhong-wen-du-ji-nao-ling-ji-shi-qi-bai-se__0637382_pe698266_s4.jpg",
+   "productType": "钟/温度计/闹铃/计时器",
+   "designText": "白色",
+   "measureText": "7x7 厘米",
+   "url": null,
+   "seoSlug": "klockis-ku-ke-si-zhong-wen-du-ji-nao-ling-ji-shi-qi-bai-se"
+  },
+  {
+   "id": "50619706",
+   "name": "KÄRRSÅNGARE 卡桑嘉尔",
+   "price": 39.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/kaerrsangare-qia-sang-jia-er-nao-zhong-lan-se__1482583_pe1001082_s4.jpg",
+   "productType": "闹钟",
+   "designText": "蓝色",
+   "measureText": "11x7x11 厘米",
+   "url": null,
+   "seoSlug": "kaerrsangare-qia-sang-jia-er-nao-zhong-lan-se"
+  },
+  {
+   "id": "30422541",
+   "name": "FILMIS 菲尔米斯",
+   "price": 69.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/filmis-fei-er-mi-si-zhong-wen-du-ji-nao-ling-bai-se__0645190_pe703316_s4.jpg",
+   "productType": "钟/温度计/闹铃",
+   "designText": "白色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "filmis-fei-er-mi-si-zhong-wen-du-ji-nao-ling-bai-se"
+  },
+  {
+   "id": "50621813",
+   "name": "KUPONG 库邦",
+   "price": 7.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/kupong-ku-bang-nao-zhong-hei-se__1470087_pe996793_s4.jpg",
+   "productType": "闹钟",
+   "designText": "黑色",
+   "measureText": "7x6 厘米",
+   "url": null,
+   "seoSlug": "kupong-ku-bang-nao-zhong-hei-se"
+  },
+  {
+   "id": "10620472",
+   "name": "RÖDSTRÄFSE 略斯莱瑟",
+   "price": 69.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/roedstraefse-lue-si-lai-se-nao-zhong-dai-shi-du-ji-wen-du-ji-huang-se__1510574_pe1009955_s4.jpg",
+   "productType": "闹钟带湿度计/温度计",
+   "designText": "黄色",
+   "measureText": "17x8x6 厘米",
+   "url": null,
+   "seoSlug": "roedstraefse-lue-si-lai-se-nao-zhong-dai-shi-du-ji-wen-du-ji-huang-se"
+  },
+  {
+   "id": "90620449",
+   "name": "FLODKRÄFTA 弗洛克莱夫",
+   "price": 29.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/flodkraefta-fu-luo-ke-lai-fu-zhong-lu-se-fen-hong-se__1482584_pe1001086_s4.jpg",
+   "productType": "钟",
+   "designText": "绿色/粉红色",
+   "measureText": "8x15x4 厘米",
+   "url": null,
+   "seoSlug": "flodkraefta-fu-luo-ke-lai-fu-zhong-lu-se-fen-hong-se"
+  },
+  {
+   "id": "00620463",
+   "name": "LJUNGPIPARE 永皮帕勒",
+   "price": 14.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/ljungpipare-yong-pi-pa-le-shi-zhong-ding-shi-qi-lu-se__1510570_pe1009951_s4.jpg",
+   "productType": "时钟/定时器",
+   "designText": "绿色",
+   "measureText": "8x7 厘米",
+   "url": null,
+   "seoSlug": "ljungpipare-yong-pi-pa-le-shi-zhong-ding-shi-qi-lu-se"
+  },
+  {
+   "id": "30499130",
+   "name": "NOLLNING 诺宁",
+   "price": 79.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/nollning-nuo-ning-zhong-wen-du-ji-nao-ling-bai-se__0982244_pe815588_s4.jpg",
+   "productType": "钟/温度计/闹铃",
+   "designText": "白色",
+   "measureText": "18x8 厘米",
+   "url": null,
+   "seoSlug": "nollning-nuo-ning-zhong-wen-du-ji-nao-ling-bai-se"
+  },
+  {
+   "id": "90578092",
+   "name": "SLÅTTIS 斯洛缇",
+   "price": 49.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/slattis-si-luo-ti-dian-zi-zhong-dai-shi-du-ji-wen-du-ji-bai-se__0487640_pe622658_s4.jpg",
+   "productType": "电子钟带湿度计/温度计",
+   "designText": "白色",
+   "measureText": "8x12 厘米",
+   "url": null,
+   "seoSlug": "slattis-si-luo-ti-dian-zi-zhong-dai-shi-du-ji-wen-du-ji-bai-se"
+  },
+  {
+   "id": "70511012",
+   "name": "BONDTOLVAN 奔德托",
+   "price": 59.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/bondtolvan-ben-de-tuo-nao-zhong-mo-ni-qian-fen-se__1038506_pe839707_s4.jpg",
+   "productType": "闹钟",
+   "designText": "模拟/浅粉色",
+   "measureText": "8x9 厘米",
+   "url": null,
+   "seoSlug": "bondtolvan-ben-de-tuo-nao-zhong-mo-ni-qian-fen-se"
+  },
+  {
+   "id": "30620447",
+   "name": "LÖVGRODA 略弗格君达",
+   "price": 39.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/loevgroda-lue-fu-ge-jun-da-zhong-hei-se__1482582_pe1001081_s4.jpg",
+   "productType": "钟",
+   "designText": "黑色",
+   "measureText": "22x20x4 厘米",
+   "url": null,
+   "seoSlug": "loevgroda-lue-fu-ge-jun-da-zhong-hei-se"
+  },
+  {
+   "id": "70592126",
+   "name": "KUPONG 库邦",
+   "price": 7.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/kupong-ku-bang-nao-zhong-liang-lan-se__1357320_pe953515_s4.jpg",
+   "productType": "闹钟",
+   "designText": "亮蓝色",
+   "measureText": "7x6 厘米",
+   "url": null,
+   "seoSlug": "kupong-ku-bang-nao-zhong-liang-lan-se"
+  },
+  {
+   "id": "30540832",
+   "name": "FILMIS 菲尔米斯",
+   "price": 69.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/filmis-fei-er-mi-si-zhong-wen-du-ji-nao-ling-hui-se__0588934_pe673259_s4.jpg",
+   "productType": "钟/温度计/闹铃",
+   "designText": "灰色",
+   "measureText": "16.5x9 厘米",
+   "url": null,
+   "seoSlug": "filmis-fei-er-mi-si-zhong-wen-du-ji-nao-ling-hui-se"
+  },
+  {
+   "id": "60540840",
+   "name": "PLIRA 葡莉拉",
+   "price": 39.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/plira-pu-li-la-nao-zhong-tian-lan-se__0898243_pe784752_s4.jpg",
+   "productType": "闹钟",
+   "designText": "天蓝色",
+   "measureText": "10 厘米",
+   "url": null,
+   "seoSlug": "plira-pu-li-la-nao-zhong-tian-lan-se"
+  },
+  {
+   "id": "20592124",
+   "name": "TJINGA 汀芽",
+   "price": 19.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/tjinga-ting-ya-nao-zhong-qian-huang-se__1357334_pe953522_s4.jpg",
+   "productType": "闹钟",
+   "designText": "浅黄色",
+   "measureText": "8x8 厘米",
+   "url": null,
+   "seoSlug": "tjinga-ting-ya-nao-zhong-qian-huang-se"
+  },
+  {
+   "id": "30620452",
+   "name": "FLODKRÄFTA 弗洛克莱夫",
+   "price": 29.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/flodkraefta-fu-luo-ke-lai-fu-zhong-ruan-mu-bai-se__1481170_pe1000443_s4.jpg",
+   "productType": "钟",
+   "designText": "软木 白色",
+   "measureText": "8x15x4 厘米",
+   "url": null,
+   "seoSlug": "flodkraefta-fu-luo-ke-lai-fu-zhong-ruan-mu-bai-se"
+  },
+  {
+   "id": "20592807",
+   "name": "KLOCKIS 库克斯",
+   "price": 24.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/klockis-ku-ke-si-zhong-wen-du-ji-nao-ling-ji-shi-qi-lan-se__0772969_pe756158_s4.jpg",
+   "productType": "钟/温度计/闹铃/计时器",
+   "designText": "蓝色",
+   "measureText": "7x7 厘米",
+   "url": null,
+   "seoSlug": "klockis-ku-ke-si-zhong-wen-du-ji-nao-ling-ji-shi-qi-lan-se"
+  },
+  {
+   "id": "10620448",
+   "name": "ÖKENMARSVIN 欧肯玛文",
+   "price": 24.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/oekenmarsvin-ou-ken-ma-wen-nao-zhong-huang-se__1482581_pe1001080_s4.jpg",
+   "productType": "闹钟",
+   "designText": "黄色",
+   "measureText": "11x6x9 厘米",
+   "url": null,
+   "seoSlug": "oekenmarsvin-ou-ken-ma-wen-nao-zhong-huang-se"
+  },
+  {
+   "id": "70540477",
+   "name": "DEKAD 德卡",
+   "price": 29.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/dekad-de-qia-nao-zhong-bai-se__0371398_pe551456_s4.jpg",
+   "productType": "闹钟",
+   "designText": "白色",
+   "measureText": "10 厘米",
+   "url": null,
+   "seoSlug": "dekad-de-qia-nao-zhong-bai-se"
+  },
+  {
+   "id": "60619701",
+   "name": "KÄRRSÅNGARE 卡桑嘉尔",
+   "price": 39.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/kaerrsangare-qia-sang-jia-er-nao-zhong-hei-se__1482585_pe1001084_s4.jpg",
+   "productType": "闹钟",
+   "designText": "黑色",
+   "measureText": "11x7x11 厘米",
+   "url": null,
+   "seoSlug": "kaerrsangare-qia-sang-jia-er-nao-zhong-hei-se"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "10620467",
+   "type": "ART",
+   "fullId": "10620467"
+  },
+  {
+   "id": "90620473",
+   "type": "ART",
+   "fullId": "90620473"
+  },
+  {
+   "id": "20620462",
+   "type": "ART",
+   "fullId": "20620462"
+  },
+  {
+   "id": "30620466",
+   "type": "ART",
+   "fullId": "30620466"
+  },
+  {
+   "id": "30620471",
+   "type": "ART",
+   "fullId": "30620471"
+  },
+  {
+   "id": "50590454",
+   "type": "ART",
+   "fullId": "50590454"
+  },
+  {
+   "id": "50619706",
+   "type": "ART",
+   "fullId": "50619706"
+  },
+  {
+   "id": "30422541",
+   "type": "ART",
+   "fullId": "30422541"
+  },
+  {
+   "id": "50621813",
+   "type": "ART",
+   "fullId": "50621813"
+  },
+  {
+   "id": "10620472",
+   "type": "ART",
+   "fullId": "10620472"
+  },
+  {
+   "id": "90620449",
+   "type": "ART",
+   "fullId": "90620449"
+  },
+  {
+   "id": "00620463",
+   "type": "ART",
+   "fullId": "00620463"
+  },
+  {
+   "id": "30499130",
+   "type": "ART",
+   "fullId": "30499130"
+  },
+  {
+   "id": "90578092",
+   "type": "ART",
+   "fullId": "90578092"
+  },
+  {
+   "id": "70511012",
+   "type": "ART",
+   "fullId": "70511012"
+  },
+  {
+   "id": "30620447",
+   "type": "ART",
+   "fullId": "30620447"
+  },
+  {
+   "id": "70592126",
+   "type": "ART",
+   "fullId": "70592126"
+  },
+  {
+   "id": "30540832",
+   "type": "ART",
+   "fullId": "30540832"
+  },
+  {
+   "id": "60540840",
+   "type": "ART",
+   "fullId": "60540840"
+  },
+  {
+   "id": "20592124",
+   "type": "ART",
+   "fullId": "20592124"
+  },
+  {
+   "id": "30620452",
+   "type": "ART",
+   "fullId": "30620452"
+  },
+  {
+   "id": "20592807",
+   "type": "ART",
+   "fullId": "20592807"
+  },
+  {
+   "id": "10620448",
+   "type": "ART",
+   "fullId": "10620448"
+  },
+  {
+   "id": "70540477",
+   "type": "ART",
+   "fullId": "70540477"
+  },
+  {
+   "id": "60619701",
+   "type": "ART",
+   "fullId": "60619701"
+  }
+ ]
+}

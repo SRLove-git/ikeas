@@ -1,0 +1,66 @@
+{
+ "url": "/cn/zh/rooms/kitchen/how-to/mei3-wei4-duo1-zhi1-de-su4-shi2-han4-bao3-pub178de7e0",
+ "family": "rooms",
+ "id": "cn--zh--178de7e04e9d11eb9a3b53965577f08f",
+ "title": "美味多汁的素食汉堡",
+ "name": "662141_kiht02a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "美味多汁的素食汉堡",
+   "texts": [
+    "汉堡，使用VÄRLDSKLOK 瓦勒克罗 素碎肉，搭配黄瓜、红洋葱、生菜、番茄、豆芽和蛋黄酱。",
+    "<p>这款美味汉堡采用素碎肉，加入新鲜的墨西哥青椒、红洋葱和蒜蓉蛋黄酱等提味。马上享用美味点心！</p>",
+    "美味多汁的素食汉堡",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/c5/ee/c5ee7027731f276064ec6506e2d86224.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/c5/ee/c5ee7027731f276064ec6506e2d86224.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>份量：4人份 | 准备时间：20分钟</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "<h2>材料：</h2>\n<p>600克V&Auml;RLDSKLOK 瓦勒克罗 素碎肉</p>\n<p>2茶匙熏制辣椒粉</p>\n<p>半茶匙盐</p>\n<p>2撮黑胡椒</p>\n<p>煎制使用菜籽油</p>\n<p> </p>\n<h2>汉堡馅推荐：</h2>\n<p>生菜叶</p>\n<p>新鲜的墨西哥青椒</p>\n<p>豆芽</p>\n<p>红洋葱</p>\n<p>蒜蓉蛋黄酱</p>\n<p>新鲜黄瓜</p>\n<p>西红柿片</p>",
+    "pub-text",
+    "<h2>制作步骤：</h2>\n<ol>\n<li>把冰冻的碎肉铺在一张大浅盘上，解冻30分钟左右。不需要完全达到室温。</li>\n<li>混合所有材料。用冷水打湿双手（避免粘手），做出四个汉堡肉饼的形状。</li>\n<li>肉饼用菜籽油中火煎2-3分钟，直到两面都变硬。</li>\n<li>加热汉堡面包，然后在汉堡里加上你喜欢的调味酱料。</li>\n</ol>\n<p> </p>\n<h2>食用时搭配：</h2>\n<p>4 个汉堡面包</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "购买食材",
+   "texts": [
+    "购买食材",
+    "MANUAL_INPUT",
+    "70506195",
+    "20405542"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

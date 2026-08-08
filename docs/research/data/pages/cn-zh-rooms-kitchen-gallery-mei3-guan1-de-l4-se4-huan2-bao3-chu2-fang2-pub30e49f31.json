@@ -1,0 +1,146 @@
+{
+ "url": "/cn/zh/rooms/kitchen/gallery/mei3-guan1-de-l4-se4-huan2-bao3-chu2-fang2-pub30e49f31",
+ "family": "rooms",
+ "id": "cn--zh--30e49f319e3711e9a6d14535ebfeabf1",
+ "title": "美观的绿色环保厨房",
+ "name": "20202_rmme01a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "美观的绿色环保厨房"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "灰绿色的厨房、木制餐桌、黑色椅子、黑色吊灯和许多挂在挂杆上的香草。",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "90435545"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/9b/68/9b687ce893a0e9843fdb3d5aba3aa120.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/9b/68/9b687ce893a0e9843fdb3d5aba3aa120.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>BODARP 博达尔普 厨房采用回收材料、节水感应龙头和高能效电磁灶，可令生活方式更环保。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "壁挂式橱柜带灰绿色柜门，表面光滑实用、防潮抗污。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "90435545"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/a6/84/a68454503d6c489d960fc84d7c31a8ed.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/a6/84/a68454503d6c489d960fc84d7c31a8ed.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "厨房配备不锈钢色厨房混合型水龙头，侧面带感应器，水正从中流出来。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "90359495"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/73/2d/732d1eab93a49bd431092464516f98ab.jpg",
+    "https://file.app.ikea.cn/images/6a/b2/6ab2a13573f332178721c471e639c4e8.jpg",
+    "https://file.app.ikea.cn/images/91/f4/91f4099f63e9420d37ce5c17b63a2a9f.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/73/2d/732d1eab93a49bd431092464516f98ab.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/6a/b2/6ab2a13573f332178721c471e639c4e8.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/91/f4/91f4099f63e9420d37ce5c17b63a2a9f.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "灰绿色厨房内饰有不锈钢壁挂式墙格网，墙格网上摆放着种有不同香草和蔬菜的花盆。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "80334919"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/26/36/2636a13e97f0ab793115cfdad71f69e9.jpg",
+    "https://file.app.ikea.cn/images/f0/f2/f0f2e406d86b33899100ae14c1c5722f.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/26/36/2636a13e97f0ab793115cfdad71f69e9.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/f0/f2/f0f2e406d86b33899100ae14c1c5722f.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "90435545",
+    "50397201",
+    "70338418",
+    "s29157477",
+    "90359495"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

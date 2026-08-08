@@ -1,0 +1,104 @@
+{
+ "url": "/cn/zh/ideas/you3-shi2-hou4-mei2-you3-shen2-me-neng2-da3-po4-ni3-de-ping2-heng2-pub2519fe40",
+ "family": "ideas",
+ "id": "cn--zh--2519fe407fda11eaac98b7a1124d65fd",
+ "title": "有时候，没有什么能打破你的平衡",
+ "name": "20211_ipil07a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "有时候，没有什么能打破你的平衡",
+   "texts": [
+    "一个小女孩正偷偷从一间风格现代的卧室中溜出，她的妈妈躺在一张 MALM 马尔姆床上，脸上是小女孩刚刚画上的猫胡子。",
+    "<p>午睡的作用不可小觑，因此大可不必因为打个小盹就怪自己懒惰。专家一直有强调，午睡10分钟就已足够帮你恢复元气。有了白天的精力补充，你就更能游刃有余，就算是之前的工作被意外推翻重头再来也难不倒你。</p>",
+    "有时候，没有什么能打破你的平衡",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/e0/72/e0723d9f26ea1203cb2599f187addcfd.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/e0/72/e0723d9f26ea1203cb2599f187addcfd.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "一位粉红色头发的女士枕着一个黄色GURLI 格尔利 枕头在床上睡着了，身上还盖着与枕头颜色配套的羽绒被。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "00474701"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/f3/2b/f32b1f9181cd9533f38930553e0b19d3.jpg",
+    "https://file.app.ikea.cn/images/6f/59/6f5958ad62a3f47deacba92fa8e3b0f4.jpg",
+    "https://file.app.ikea.cn/images/4c/92/4c9206553a34277f77457af9a1203a83.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/f3/2b/f32b1f9181cd9533f38930553e0b19d3.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/6f/59/6f5958ad62a3f47deacba92fa8e3b0f4.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/4c/92/4c9206553a34277f77457af9a1203a83.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "一间阳光充足的明亮卧室中，一张白色的MALM 马尔姆 床上覆盖着亮黄色的床罩，中间有几个HANNELISE 汉尼利塞 枕头。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "s19175976"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/1f/82/1f825828bc7e4a02165bf737b7b84868.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/1f/82/1f825828bc7e4a02165bf737b7b84868.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/new/gallery/wei4-zi4-ji3-zhao3-dao4-ping2-heng2-pub6de58600",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fnew%2Fgallery%2Fwei4-zi4-ji3-zhao3-dao4-ping2-heng2-pub6de58600&key=cn--zh--6de586007fdd11eaac98b7a1124d65fd",
+    "{\"objectId_var\":\"/new/gallery/wei4-zi4-ji3-zhao3-dao4-ping2-heng2-pub6de58600\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "发掘新思路，在日常中寻求平衡"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/new/gallery/wei4-zi4-ji3-zhao3-dao4-ping2-heng2-pub6de58600",
+     "text": ""
+    }
+   ],
+   "settings": null
+  }
+ ]
+}

@@ -1,0 +1,192 @@
+{
+ "url": "/cn/zh/rooms/outdoor/how-to/throw-a-kids-party-on-the-go-pub15e41290",
+ "family": "rooms",
+ "id": "cn--zh--15e412903cad11ecb35b03751c722a4e",
+ "title": "即刻举办儿童派对",
+ "name": "632233_odht02a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "随时随地，举办儿童派对"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "c8dd9c0efe7a46d0bd12d917509b6b01"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>将少年派对搬到户外，在清新空气中举办各种新鲜活动！用地毯和靠垫装点野餐派对，用节日罐子里或烤肉扦上的预制食品招待客人，共度欢聚时光。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "2f35de869cdf4827803e2f22a2aec961"
+   }
+  },
+  {
+   "type": "pub-video-link",
+   "title": null,
+   "texts": [
+    "https://youtu.be/RWP5EWsQ_mg",
+    "MANUAL_INPU"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "https://youtu.be/RWP5EWsQ_mg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "3f24c344d0c34bbebfcaf1e1b0423982"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "舒适出游",
+   "texts": [
+    "/cat/od001",
+    "NO",
+    "ikea://content/plp?catalogId=od001",
+    "{\"objectId_var\":\"od001\",\"objectType_var\":\"plp\"}",
+    "带上户外靠垫和地毯，营造舒适的派对环境，令所有客人放松愉悦。大洗衣袋和小推车也能帮助运送物品。",
+    "舒适出游"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/3f5599f50d19a85f/original/PH183083-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/od001",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/3f5599f50d19a85f/original/PH183083-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "79c0e9117ca8499b9565ce567d5f6548"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "提升户外格调",
+   "texts": [
+    "/cat/17893",
+    "NO",
+    "ikea://content/plp?catalogId=17893",
+    "{\"objectId_var\":\"17893\",\"objectType_var\":\"plp\"}",
+    "户外靠垫有助于提升聚会的舒适度和格调。可以带上可机洗的夏季风格条纹靠垫。",
+    "提升户外格调"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/87eb513b71dbf7/original/PH183165.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/17893",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/87eb513b71dbf7/original/PH183165.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "64b5e3d9b4964ffea3a8e80b7aa762cc"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "随时随地，享用烤肉串",
+   "texts": [
+    "/cat/53254",
+    "NO",
+    "ikea://content/plp?catalogId=53254",
+    "{\"objectId_var\":\"53254\",\"objectType_var\":\"plp\"}",
+    "用植物蛋白肉丸、蔬菜和奶酪制作节日烤肉串。这种便捷食品适合在野餐时享用。",
+    "随时随地，享用烤肉串"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/4462eaa4d937b7b8/original/PH182908.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/53254",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/4462eaa4d937b7b8/original/PH182908.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "76941a5e31174f37a22d303e3bb10876"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "玻璃罐中的甜点",
+   "texts": [
+    "/cat/15950",
+    "NO",
+    "ikea://content/plp?catalogId=15950",
+    "{\"objectId_var\":\"15950\",\"objectType_var\":\"plp\"}",
+    "可以准备一些意式奶冻放在玻璃罐中。既精致美观，又能轻松招待客人。",
+    "玻璃罐中的甜点"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/696dd6ce761f1a16/original/PH182909.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/15950",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/696dd6ce761f1a16/original/PH182909.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cfdb369db1b847818131e8d814ba1d65"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "地面游戏",
+   "texts": [
+    "/cat/18734",
+    "NO",
+    "ikea://content/plp?catalogId=18734",
+    "{\"objectId_var\":\"18734\",\"objectType_var\":\"plp\"}",
+    "充分利用户外空间，举行绘画比赛或创意休闲活动。多色粉笔非常适合孩子们在街头进行自我表达。",
+    "地面游戏"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/74f6cd51c91bcdde/original/PH182910.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/18734",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/74f6cd51c91bcdde/original/PH182910.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "c02be7ed115d46dcbb5dc8cff2e3f73d"
+   }
+  }
+ ]
+}

@@ -1,0 +1,220 @@
+{
+ "url": "/cn/zh/rooms/outdoor/how-to/ji4-suan4-ni3-de-hu4-wai4-mian4-ji1-pub1fd9904a",
+ "family": "rooms",
+ "id": "cn--zh--1fd9904a2a3411eba074c7458a464fec",
+ "title": "计算你的户外面积",
+ "name": "For ODY testing image with text component",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "计算你的户外面积",
+   "texts": [
+    "户外木纹地板一角，地板上摆放着带白色软垫的户外沙发，沙发上有一本书。",
+    "<p>运用不同材料和颜色的户外地板饰面系列，快速打造个性化外观。这些地板饰面可扣合拼接，助你轻松完成户外地板装饰。</p>",
+    "计算你的户外面积",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/93/bb/93bb072c195a0b83b446312789676e4c.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/93/bb/93bb072c195a0b83b446312789676e4c.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "完美贴合户外空间的木地板上摆放着一株种在金属花盆里的盆栽植物，后面为白色墙面。",
+    "IMAGE",
+    "30234229",
+    "<h2>1.计算户外空间面积</h2>\n<p>将户外区域的长度乘以宽度，计算出你的户外面积。例如，宽3m×长5m=15 m<sup>2</sup>。计算出需从总面积中减去的区域面积，例如柱子或墙角。例如，墙角宽0.5m×长1.0m=0.5 m²。那么减去多余区域后的正确面积就是：15 m² &ndash; 0.5 m² = 14.5 m²。</p>",
+    "MANUAL_INPUT",
+    "30313132"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/14929cf538afaa27/original/PE386853-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/14929cf538afaa27/original/PE386853-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "阳台上摆放着一张白色塑料户外椅和一张红色户外用桌，旁边有一盆植物，阳台地面铺有印花地板饰面。",
+    "IMAGE",
+    "s29320402",
+    "30279722",
+    "<h2>2.计算所需的地板饰面件数</h2>\n<p>将总面积除以0.81后取整（以确保地板饰面数量足够）例如，14.5m<sup>2</sup>÷0.81=17.90。将结果取整，所以你一共需要18件。</p>",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/2336f24a54306710/original/PE760965-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/2336f24a54306710/original/PE760965-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "铺有深褐色木板条的地面上方，一双手正拿着仿草坪的地板饰面。",
+    "IMAGE",
+    "30313132",
+    "30238114",
+    "<h2>使用现成的计算结果</h2>\n<p>当你计算出空间总面积后，可以利用以下现成方案，了解铺满整个空间所需要的地板饰面件数。</p>\n<p>较常见的情况如下：</p>\n<p>2 m<sup>2</sup>需要3件</p>\n<p>5 m<sup>2</sup>需要7件</p>\n<p>7 m<sup>2</sup>需要9件</p>\n<p>10m<sup>2</sup>需要13件</p>\n<p>12m<sup>2</sup>需要15件</p>\n<p>18m<sup>2</sup>需要23件</p>\n<p>20m<sup>2</sup>需要25件</p>\n<p>25m<sup>2</sup>需要31件</p>\n<p>30m<sup>2</sup>需要37件</p>",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/1a320809df070607/original/PE717147-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/1a320809df070607/original/PE717147-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "Create your personal outdoor flooring",
+   "texts": [
+    "/cat/21957",
+    "NO",
+    "ikea://content/plp?catalogId=21957",
+    "{\"objectId_var\":\"21957\",\"objectType_var\":\"plp\"}",
+    "You can even combine MÄLLSTEN, the new Marrakesh-style floor decking in weatherproof porcelain, with RUNNEN in different colours and materials to enhance the unique look.",
+    "Create your personal outdoor flooring"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/21957",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-inspiration-card",
+   "title": null,
+   "texts": [
+    "1fd9903a-2a34-11eb-a074-c7458a464fec",
+    "/rooms/outdoor/how-to/ru2-he2-bu4-zhi4-kuan1-chang3-de-hu4-wai4-kong1-jian1-pub116edf40",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Foutdoor%2Fhow-to%2Fru2-he2-bu4-zhi4-kuan1-chang3-de-hu4-wai4-kong1-jian1-pub116edf40&key=cn--zh--116edf4082e211ea85436bbb72ceb2d5",
+    "{\"objectId_var\":\"/rooms/outdoor/how-to/ru2-he2-bu4-zhi4-kuan1-chang3-de-hu4-wai4-kong1-jian1-pub116edf40\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "如何布置宽敞的户外空间"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/b6/00/b6001e9dfe741fa0ac664421acf5208e.jpg",
+    "https://file.app.ikea.cn/images/f1/b1/f1b11c19d89eee3471ba106ae60b70c5.jpg",
+    "https://file.app.ikea.cn/images/5f/b0/5fb0009251b06df192f6faecc9e61ab2.jpg"
+   ],
+   "links": [
+    {
+     "href": "/rooms/outdoor/how-to/ru2-he2-bu4-zhi4-kuan1-chang3-de-hu4-wai4-kong1-jian1-pub116edf40",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/b6/00/b6001e9dfe741fa0ac664421acf5208e.jpg",
+     "text": ""
+    },
+    {
+     "href": "/rooms/outdoor/how-to/ru2-he2-bu4-zhi4-jin3-cou4-de-hu4-wai4-kong1-jian1-pubddd07f30",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/f1/b1/f1b11c19d89eee3471ba106ae60b70c5.jpg",
+     "text": ""
+    },
+    {
+     "href": "/rooms/outdoor/how-to/ru2-he2-wei2-hu4-hu4-wai4-jia1-ju4-pubcbfb69e0",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/5f/b0/5fb0009251b06df192f6faecc9e61ab2.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/ideas/grow-chart-pub2626ff01",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fideas%2Fgrow-chart-pub2626ff01&key=cn--zh--2626ff01ad6911e685d35710ed934164",
+    "{\"objectId_var\":\"/ideas/grow-chart-pub2626ff01\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "Primary button view more"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/ideas/grow-chart-pub2626ff01",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/new/gallery/bangzhu-pubce716f40",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fnew%2Fgallery%2Fbangzhu-pubce716f40&key=cn--zh--ce716f4028bd11e7a70d0b039ae2a3e6",
+    "{\"objectId_var\":\"/new/gallery/bangzhu-pubce716f40\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "Secondary button view more"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/new/gallery/bangzhu-pubce716f40",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/this-is-ikea/sustainable-everyday/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fthis-is-ikea%2Fsustainable-everyday%2F&key=",
+    "{\"objectId_var\":\"/this-is-ikea/sustainable-everyday/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "text-link",
+    "Text button view more"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/this-is-ikea/sustainable-everyday/",
+     "text": ""
+    }
+   ],
+   "settings": null
+  }
+ ]
+}

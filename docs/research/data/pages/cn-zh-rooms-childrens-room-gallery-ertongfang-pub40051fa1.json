@@ -1,0 +1,96 @@
+{
+ "url": "/cn/zh/rooms/childrens-room/gallery/ertongfang-pub40051fa1",
+ "family": "rooms",
+ "id": "cn--zh--40051fa1210911e8a87b9f51602dde40",
+ "title": "儿童房",
+ "name": "儿童房灵感_SEO",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "儿童房"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Page Title-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h3><strong>找到你最喜爱的梦幻空间</strong></h3>\n<p>在我们的儿童展示区，你可以浏览家具、玩具、储物件及其他产品组合。它们有不同款式和大小，并且价格实惠。我们已经为你搭配好产品，所以你在家也可轻松再现此处看到的布置。我们根据儿童年龄对产品进行了分组，帮助你更加轻松地找到所需的东西。四处看看，寻找合适的儿童解决方案，把家打造成最适合成长的地方。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--88353351ab8811e8a3645f5b86ee3939",
+    "/rooms/childrens-room/gallery/liang3-zhang1-shi4-nei4-ma3-xi4-tuan2-ru4-chang3-quan4-pub88353351",
+    "page",
+    "两张室内马戏团入场券",
+    "探索这间马戏团主题儿童房，里面摆满了趣味十足的宜家 LUSTIG 鲁斯帝 和 FLISAT 福丽萨特 系列玩具和家具。",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fchildrens-room%2Fgallery%2Fliang3-zhang1-shi4-nei4-ma3-xi4-tuan2-ru4-chang3-quan4-pub88353351&key=cn--zh--88353351ab8811e8a3645f5b86ee3939"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/21/a4/21a425097c60a1f244161b285e9f4fe6.jpg",
+    "https://file.app.ikea.cn/images/82/5d/825dee62fc0882008017c67ab9cf9fb0.jpg",
+    "https://file.app.ikea.cn/images/b6/4b/b64b8d50c3473279bb4509b420d37e60.jpg",
+    "https://file.app.ikea.cn/images/51/52/51527fdfa376118557b8e916ea970287.jpg",
+    "https://file.app.ikea.cn/images/d3/73/d373343dc89332919323547db06521d9.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/21/a4/21a425097c60a1f244161b285e9f4fe6.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/82/5d/825dee62fc0882008017c67ab9cf9fb0.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/b6/4b/b64b8d50c3473279bb4509b420d37e60.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/51/52/51527fdfa376118557b8e916ea970287.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/d3/73/d373343dc89332919323547db06521d9.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/55/24/5524c214cbae6655cfa2b6099e8e64ba.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Page List-"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "button",
+    "返回所有房间灵感",
+    "secondary"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Link - button or text-"
+   }
+  }
+ ]
+}

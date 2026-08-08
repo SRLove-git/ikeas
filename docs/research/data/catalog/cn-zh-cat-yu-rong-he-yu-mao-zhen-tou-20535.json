@@ -1,0 +1,76 @@
+{
+ "url": "/cn/zh/cat/yu-rong-he-yu-mao-zhen-tou-20535",
+ "id": "yu-rong-he-yu-mao-zhen-tou-20535",
+ "name": "羽绒和羽毛枕头",
+ "description": "把松软的鸭毛和鸭绒枕在头下。我们的鸭毛枕头有较软和较硬两种款式，以根据你的睡眠习惯提供所需的支撑。浏览我们的精选羽绒枕头系列，所有枕头均可高温机洗以杀死尘螨。",
+ "total": 4,
+ "products": [
+  {
+   "id": "90571585",
+   "name": "BERGVEN 巴利文",
+   "price": 399,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/bergven-ba-li-wen-gao-zhen__0789228_pe763866_s4.jpg",
+   "productType": "高枕",
+   "designText": "",
+   "measureText": "50x80 厘米",
+   "url": null,
+   "seoSlug": "bergven-ba-li-wen-gao-zhen"
+  },
+  {
+   "id": "70587139",
+   "name": "PILSPINNARE 皮斯宾纳",
+   "price": 99.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/pilspinnare-pi-si-bin-na-di-zhen__1300769_pe937182_s4.jpg",
+   "productType": "低枕",
+   "designText": "",
+   "measureText": "50x80 厘米",
+   "url": null,
+   "seoSlug": "pilspinnare-pi-si-bin-na-di-zhen"
+  },
+  {
+   "id": "50547149",
+   "name": "GULKAVLE 古卡夫乐",
+   "price": 299,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/gulkavle-gu-qia-fu-le-gao-zhen__0789265_pe763892_s4.jpg",
+   "productType": "高枕",
+   "designText": "",
+   "measureText": "50x80 厘米",
+   "url": null,
+   "seoSlug": "gulkavle-gu-qia-fu-le-gao-zhen"
+  },
+  {
+   "id": "30587117",
+   "name": "PILSPINNARE 皮斯宾纳",
+   "price": 129,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/pilspinnare-pi-si-bin-na-gao-zhen__1300769_pe937182_s4.jpg",
+   "productType": "高枕",
+   "designText": "",
+   "measureText": "50x80 厘米",
+   "url": null,
+   "seoSlug": "pilspinnare-pi-si-bin-na-gao-zhen"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "90571585",
+   "type": "ART",
+   "fullId": "90571585"
+  },
+  {
+   "id": "70587139",
+   "type": "ART",
+   "fullId": "70587139"
+  },
+  {
+   "id": "50547149",
+   "type": "ART",
+   "fullId": "50547149"
+  },
+  {
+   "id": "30587117",
+   "type": "ART",
+   "fullId": "30587117"
+  }
+ ]
+}

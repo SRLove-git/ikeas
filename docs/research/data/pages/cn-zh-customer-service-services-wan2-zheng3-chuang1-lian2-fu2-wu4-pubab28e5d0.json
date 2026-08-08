@@ -1,0 +1,114 @@
+{
+ "url": "/cn/zh/customer-service/services/wan2-zheng3-chuang1-lian2-fu2-wu4-pubab28e5d0",
+ "family": "customer-service",
+ "id": "cn--zh--ab28e5d013ea11e9a342e77718ae4be2",
+ "title": "窗帘安装服务",
+ "name": "窗帘安装服务_PC",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "窗帘安装服务"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Page Title-"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20220816/be24ee0915874f2c9e6a9c7015f6bb2d.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220816/be24ee0915874f2c9e6a9c7015f6bb2d.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Columns-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>测量定制和安装的完整窗帘服务可以为您节约时间和精力。您只需挑选适合您的布料款式，宜家指定服务商为您提供后续加工以及安装服务。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>根据不同款式和尺寸有不同的收费，请参考以下服务项目和收费信息：</p>\n<p><strong>窗帘测量：</strong> 50元/窗<br /><strong>窗帘杆/轨道安装：</strong> 100元起/窗（限4.5m以下）<br /><strong>布料定制窗帘：</strong>49元起/幅（窗帘式样：吊带式、隐形吊带式、插针式、夹式、铁圈式）<br /><strong>成品窗帘改高拼宽：</strong>39元/两片</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h4><strong>布料加工服务：</strong></h4>\n<p>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>购物袋：</strong>29元/个（布袋尺寸：40*44厘米）<br />-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>靠垫套(拉链式)：</strong>29元/个（靠垫套尺寸：40*65厘米，50*50厘米，或者65*65厘米）<br />-&nbsp;&nbsp;&nbsp;<strong>&nbsp;&nbsp; 桌布：</strong>29元/个（长度不超过2.5米）<br />-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>桌旗：</strong>29元/个（长度不超过1.4米）</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h4><strong>注意事项：</strong></h4>\n<p>* 对于有宜家商场的城市的顾客，也可致电宜家线上客服预定窗帘测量与窗帘杆安装服务。<br />* 窗帘裁剪、布料加工详情请到线下商场纺织品部或布料加工柜台咨询。<br />* 所有定制窗帘的成品尺寸会将缩水的余量预留在底部，默认为10厘米。<br />* 选择成品窗帘改高服务，将随包返回大于30厘米的裁剪余料。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/customer-service/returns-claims/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fcustomer-service%2Freturns-claims%2F&key=",
+    "{\"objectId_var\":\"/customer-service/returns-claims/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "返回售后服务"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/customer-service/returns-claims/",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Link - button or text-"
+   }
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "url": "/cn/zh/planners/norsborg-planner",
+ "family": "planners",
+ "id": "cn--zh--6c5c4a974b9a482291d3e48c02970474",
+ "title": "宜家NORSBORG 诺斯伯 沙发设计工具 - IKEA",
+ "name": "宜家NORSBORG 诺斯伯 沙发设计工具",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "宜家NORSBORG 诺斯伯 沙发设计工具"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Page Title-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>发挥创意用 NORSBORG 诺斯伯 设计工具来设计你的新沙发吧！你可以轻松组合不同尺寸、颜色或者组件，玩转工具直到设计出满意的沙发为止。赶快来试试吧！</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-planner",
+   "title": null,
+   "texts": [
+    "IFRAME_EMBED",
+    "ALL",
+    "https://www.ikea.cn/addon-app/norsborg/m2/latest/cn/zh/#",
+    "YES"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Planner Tool-"
+   }
+  }
+ ]
+}

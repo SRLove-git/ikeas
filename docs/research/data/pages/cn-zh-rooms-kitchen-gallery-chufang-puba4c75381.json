@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/kitchen/gallery/chufang-puba4c75381",
+ "family": "rooms",
+ "id": "cn--zh--a4c75381109811e8b1909545c9aebdf1",
+ "title": "品质厨房，厨艺大展",
+ "name": "20184-come05a_PF_CT_SEO",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "品质厨房，厨艺大展",
+   "texts": [
+    "棕色和灰色小型厨房里贴着传统墙纸，配有 GREVSTA 格斯达 不锈钢抽屉前板。",
+    "品质厨房，厨艺大展",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/bc/f7/bcf7fdde50e803869eebb36853e6e664.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/bc/f7/bcf7fdde50e803869eebb36853e6e664.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "80347525",
+    "50335623",
+    "s69157913",
+    "70341656",
+    "30334926"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

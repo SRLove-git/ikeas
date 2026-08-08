@@ -1,0 +1,93 @@
+{
+ "url": "/cn/zh/new/gallery/qu4-wei4-zhao4-ming2-pub47548e51",
+ "family": "new",
+ "id": "cn--zh--47548e51207f11e98e3dd53ddd62671b",
+ "title": "趣味照明",
+ "name": "20194_nwvm53a_PF_CT",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "趣味照明",
+   "texts": [
+    "一个孩子在 TROLLBO 特洛博 蓝色塑料吊灯下摆弄玩偶。吊灯形似杂技团帐篷，能为日常生活增添趣味。",
+    "<p>TROLLBO 特洛博 吊灯形似杂技团帐篷，用它照亮孩子的房间吧。这款吊灯不仅充满趣味，而且具有更可持续特性，使用的塑料均由回收PET瓶制成。</p>",
+    "趣味照明",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/ff/ba/ffba9b7df6da830f4c73b3ddbf0ab657.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/ff/ba/ffba9b7df6da830f4c73b3ddbf0ab657.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "TROLLBO 特洛博 吊灯让你仿佛置身马戏团内。特写：本款吊灯形似蓝色帐篷，采用回收PET塑料制成。",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "80346875",
+    "90356736"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/63/74/6374de2cb0ed6d6e90ef5b35f5123ee9.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/63/74/6374de2cb0ed6d6e90ef5b35f5123ee9.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>TROLLBO 特洛博 吊灯顶部还饰有旗帜，像杂技团帐篷一样。这些电线装饰可根据个人心情移除或添加。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/this-is-ikea/sustainable-everyday/xuan3-ze2-cai2-liao4-da4-qi3-ye4-yao4-jian1-fu4-geng4-da4-de-ze2-ren4-pub47a5ba42",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fthis-is-ikea%2Fsustainable-everyday%2Fxuan3-ze2-cai2-liao4-da4-qi3-ye4-yao4-jian1-fu4-geng4-da4-de-ze2-ren4-pub47a5ba42&key=cn--zh--47a5ba425db411e8a9be013720f0d281",
+    "{\"objectId_var\":\"/this-is-ikea/sustainable-everyday/xuan3-ze2-cai2-liao4-da4-qi3-ye4-yao4-jian1-fu4-geng4-da4-de-ze2-ren4-pub47a5ba42\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "了解更多有关我们如何使用回收材料的信息"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/this-is-ikea/sustainable-everyday/xuan3-ze2-cai2-liao4-da4-qi3-ye4-yao4-jian1-fu4-geng4-da4-de-ze2-ren4-pub47a5ba42",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "80346875",
+    "90356736"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

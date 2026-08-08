@@ -1,0 +1,424 @@
+{
+ "url": "/cn/zh/rooms/childrens-room/wei-bu-tong-jie-duan-hai-zi-men-she-ji-de-xue-xi-jiao-pub7e6ea468",
+ "family": "rooms",
+ "id": "cn--zh--7e6ea468194f42b2990a9cdcf2fd7285",
+ "title": "为不同阶段孩子们设计的学习角",
+ "name": "children_study",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-visual-navigation",
+   "title": null,
+   "texts": [
+    "small",
+    "/cat/18768",
+    "NO",
+    "ikea://content/plp?catalogId=18768",
+    "{\"objectId_var\":\"18768\",\"objectType_var\":\"plp\"}",
+    "儿童桌"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20220124/e5a8593ab5344268a86dc82e942ae140.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220124/83af6ec988d2462da1dea9dc69957058.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220124/bdbbd54ccbf8426989421528de3a63b6.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220124/943f46fde5e6424289e1f08bd5117971.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220124/ffca17569cff4251a20b1753a3c31d57.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/cat/18768",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220124/e5a8593ab5344268a86dc82e942ae140.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/cat/18769",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220124/83af6ec988d2462da1dea9dc69957058.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/cat/24714",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220124/bdbbd54ccbf8426989421528de3a63b6.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "092e65a8b17e4d2385fad41816467ff1"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2><span style=\"color: #ca5008;\">全新学习桌椅系列</span></h2>\n<p>舒适的学习空间，是孩子们独立学习的重要保障。色彩明亮、设计时尚的学习桌椅，可灵活搭配各种家居风格。我们的儿童书桌椅还具备多种巧妙功能，可灵活调节的高度，人体工学的巧妙设计，让孩子们舒适落座。搭配多功能性的学习用品，是孩子们沉浸式学习的好帮手！</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "64b4bca4f9434fb085a6ad42bad07793"
+   }
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "无限灵感，为你的家打造舒适空间",
+    "NO",
+    "https://file.app.ikea.cn/cms/u/20221116/50872b6c1f3b4b18934ae5b66144940b.mp4",
+    "VIDEO",
+    "YES",
+    "hosted"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20220715/bc76fbbdf1b24b3bb13fbcd78f9dd154.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20221116/50872b6c1f3b4b18934ae5b66144940b.mp4",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "0eaaaf44243042ea8042321283cd5321"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "书桌椅组合",
+   "texts": [
+    "/cat/53249",
+    "NO",
+    "ikea://content/plp?catalogId=53249",
+    "{\"objectId_var\":\"53249\",\"objectType_var\":\"plp\"}",
+    "书桌椅组合",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/53249",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "620894632ee44cc5b62a8f08c2f21acc"
+   }
+  },
+  {
+   "type": "pub-banner",
+   "title": null,
+   "texts": [
+    "https://file.app.ikea.cn/cms/u/20220630/185b646b223b4ebaa4672e77fcb6df5a.mp4",
+    "VIDEO",
+    "portrait",
+    "YES",
+    "hosted",
+    "image-text-portrait"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20220701/12183f8576664b22bd9ea34d9d05c3c5.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220630/185b646b223b4ebaa4672e77fcb6df5a.mp4",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220630/185b646b223b4ebaa4672e77fcb6df5a.mp4",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "c8e6dc88fb21482a93c10723d2f15e31"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "多种尺寸颜色可选",
+   "texts": [
+    "/cat/24714",
+    "NO",
+    "ikea://content/plp?catalogId=24714",
+    "{\"objectId_var\":\"24714\",\"objectType_var\":\"plp\"}",
+    "多种尺寸颜色可选",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/24714",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "420829d04ca2464a91d8bd1ee4076570"
+   }
+  },
+  {
+   "type": "pub-banner",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "square",
+    "embed",
+    "image-text-portrait",
+    "<p>牢固的椅子可以陪伴孩子很多年，全新儿童书桌椅椅座的深度和靠背的高度都可以调整，适合身高115cm至185cm的孩子。也可以让孩子在学习和游戏期间更加舒适。<br /><br />脚轮带有负载敏感设计，当体重20公斤或更重的孩子坐下时，会将椅子固定在原位，坐着的人起身时，又会自动释放。</p>",
+    "GUNRIK 古里克 儿童扶手椅"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20220630/2acddf0c029c440980e24d972242ce10.jpg",
+    "https://file.app.ikea.cn/cms/u/20220630/2acddf0c029c440980e24d972242ce10.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220630/2acddf0c029c440980e24d972242ce10.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220630/2acddf0c029c440980e24d972242ce10.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "c8e6dc88fb21482a93c10723d2f15e31"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "/cat/20653",
+    "NO",
+    "ikea://content/plp?catalogId=20653",
+    "{\"objectId_var\":\"20653\",\"objectType_var\":\"plp\"}",
+    "MANUAL_INPUT",
+    "80527871"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/20653",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "420829d04ca2464a91d8bd1ee4076570"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>&nbsp;</h2>\n<h2>其他儿童桌椅系列</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "93e9fd73423d48209584ffa606a61d85"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "two-columns",
+    "column",
+    "NO",
+    "pub-image",
+    "IMAGE",
+    "button"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20220526/5061d8a36a774064bb8701db56b9daa8.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220526/17ca83b39c4540fc9259d1f4bb5fbdf2.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220526/bbe07aa529b24efcb85f998606ef50e7.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220526/5061d8a36a774064bb8701db56b9daa8.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=SUNDVIK 桑维",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220526/17ca83b39c4540fc9259d1f4bb5fbdf2.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=MAMMUT 玛莫特",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220526/bbe07aa529b24efcb85f998606ef50e7.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "68af89e070e44d869d61e0e43cb05202"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "NO",
+    "MANUAL_INPUT",
+    "70391873",
+    "69488588",
+    "20528500",
+    "s19245106"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "4d598b704f524c49893f434f18dc8e85"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/cat/20649",
+    "NO",
+    "ikea://content/plp?catalogId=20649",
+    "{\"objectId_var\":\"20649\",\"objectType_var\":\"plp\"}",
+    "button",
+    "查看更多书桌和电脑桌"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/20649",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Link - button or text-"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "/cat/18769",
+    "NO",
+    "ikea://content/plp?catalogId=18769",
+    "{\"objectId_var\":\"18769\",\"objectType_var\":\"plp\"}",
+    "MANUAL_INPUT",
+    "00296780"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/18769",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "46de835cba254e8f9ebf14e07d20b911"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-visual-pill-slider",
+   "title": null,
+   "texts": [
+    "一只手正在调节GLYPEN 格吕彭 厨房水龙头的水流大小，水龙头采用不锈钢制成，旁边放着TÅRTSMET 托米特 洗盘刷",
+    "/cat/24711",
+    "NO",
+    "ikea://content/plp?catalogId=24711",
+    "{\"objectId_var\":\"24711\",\"objectType_var\":\"plp\"}",
+    "学习配件"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20220630/a73bc774db3844cda6f4a09983237398.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220630/83918ad81cc44778bef74c446b5e0307.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220630/390e50a2e61a4b978fd5532233df1f36.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220630/c20746eeb68149db9cdc77bb1663446d.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220630/22e0f5e74afa4742bbc487a5e1d7020e.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/cat/24711",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220630/a73bc774db3844cda6f4a09983237398.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/cat/10551",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220630/83918ad81cc44778bef74c446b5e0307.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/cat/20502",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220630/390e50a2e61a4b978fd5532233df1f36.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Visual Pill Slider-"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "NO",
+    "MANUAL_INPUT",
+    "50534019",
+    "30536458",
+    "30528509",
+    "50528508"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "d478c9d31a7144a19a70ab8cc97dec4c"
+   }
+  },
+  {
+   "type": "inspirations",
+   "title": "更多儿童学习工具灵感",
+   "texts": [
+    "IMAGE_PRODUCTS",
+    "更多儿童学习工具灵感",
+    "WATERFALL",
+    "PGC",
+    "TAGS_INPUT",
+    "db9875051607328c884d2a8d370e37c9"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-灵感图-更多儿童学习工具灵感"
+   }
+  }
+ ]
+}

@@ -1,0 +1,248 @@
+{
+ "url": "/cn/zh/rooms/living-room/how-to/wan4-shi4-ju4-bei4-de-chu3-wu4-qiang2-bi4-pubf5496770",
+ "family": "rooms",
+ "id": "cn--zh--f549677096ce11eb93fdafa889a7933e",
+ "title": "万事俱备的储物墙壁",
+ "name": "672211_liht09a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "NO"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20260622/effa90ff3f344a61958df11c986132c8.gif"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260622/effa90ff3f344a61958df11c986132c8.gif",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-图片-"
+   }
+  },
+  {
+   "type": "pub-hero",
+   "title": "万事俱备的储物墙壁",
+   "texts": [
+    "客厅里有一个米灰色的BESTÅ 贝达 储物组合，在墙壁上提供开放式和封闭式储物空间，还有一张沙发、一台电视机和一个工作台。",
+    "<p>搁架不仅仅能储物，也可以兼作多功能空间。通过合理的组合搭配，你还可以添置一个工作台，摆放电视机和音箱，结合其他所需的储物收纳件，满足自己的储物需求。这是充分利用空间的理想方式。</p>",
+    "万事俱备的储物墙壁",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/37/bd/37bdc8b64b7b928587800c05236d8362.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/37/bd/37bdc8b64b7b928587800c05236d8362.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-图片文本组合 Hero-万事俱备的储物墙壁"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "你喜欢哪种储物风格？",
+   "texts": [
+    "/cat/46053",
+    "NO",
+    "ikea://content/plp?catalogId=46053",
+    "{\"objectId_var\":\"46053\",\"objectType_var\":\"plp\"}",
+    "展示心爱好物，其他则统统藏在视线之外。这个储物方案可同时满足你的开放式和封闭式储物需求。你只需再添加喜欢的装饰柜门或玻璃柜门就可以。",
+    "你喜欢哪种储物风格？"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/28533fe6ac98ac56/original/PH178372-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/46053",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/28533fe6ac98ac56/original/PH178372-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-栅格合集 Curated Gallery-你喜欢哪种储物风格？"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "用储物盒保持内部整洁",
+   "texts": [
+    "/cat/10550",
+    "NO",
+    "ikea://content/plp?catalogId=10550",
+    "{\"objectId_var\":\"10550\",\"objectType_var\":\"plp\"}",
+    "即使这些储物盒收纳在柜门之内，但一想到打开柜门就能看到井井有条的一切，心情也会变好。结实的附盖储物盒帮助你整齐收纳一切物品，同时阻隔灰尘，保持物品洁净。",
+    "用储物盒保持内部整洁"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/2b755215c28e6c6f/original/PH178373-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/10550",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/2b755215c28e6c6f/original/PH178373-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-栅格合集 Curated Gallery-用储物盒保持内部整洁"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "添置一个匹配的工作台",
+   "texts": [
+    "/cat/20651",
+    "NO",
+    "ikea://content/plp?catalogId=20651",
+    "{\"objectId_var\":\"20651\",\"objectType_var\":\"plp\"}",
+    "在全屋组合设计中添置一张小小的书桌，轻松打造你的居家办公区。这样既不会占用太多空间，也能与整体的外观融为一体，更重要的是，你所需的办公用品都近在手边。",
+    "添置一个匹配的工作台"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/1bc0023ecf960a4/original/PH178374-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/20651",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/1bc0023ecf960a4/original/PH178374-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-栅格合集 Curated Gallery-添置一个匹配的工作台"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "抽屉储物件让生活更轻松",
+   "texts": [
+    "/cat/10573",
+    "NO",
+    "ikea://content/plp?catalogId=10573",
+    "{\"objectId_var\":\"10573\",\"objectType_var\":\"plp\"}",
+    "减少翻找物品的时间，能节省不少时间。尤其是各种细小物件，一不小心就变得凌乱不堪。为你的抽屉添置一些收纳件和储物盒，告别杂乱。",
+    "抽屉储物件让生活更轻松"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/2c8cb5f49b72254f/original/PH178375-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/10573",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/2c8cb5f49b72254f/original/PH178375-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-栅格合集 Curated Gallery-抽屉储物件让生活更轻松"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "美观的个性储物",
+   "texts": [
+    "/cat/10550",
+    "NO",
+    "ikea://content/plp?catalogId=10550",
+    "{\"objectId_var\":\"10550\",\"objectType_var\":\"plp\"}",
+    "精心布置的盒子和装饰品不仅方便你存放各式小物件，而且能形成美观的摆饰。根据房间风格搭配不同的纹理和颜色，打造雅致的布置。",
+    "美观的个性储物"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/5d9da2fd2261f1a3/original/PH178376-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/10550",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/5d9da2fd2261f1a3/original/PH178376-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-栅格合集 Curated Gallery-美观的个性储物"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "协调统一的色彩",
+   "texts": [
+    "/cat/10659",
+    "NO",
+    "ikea://content/plp?catalogId=10659",
+    "{\"objectId_var\":\"10659\",\"objectType_var\":\"plp\"}",
+    "当你需要在同一个小空间里工作、放松、社交和吃饭时，选择合适的颜色，可以将各个活动区域统一起来。当然这并不意味着必须用同一色调，重点是保持协调谐美的配色。",
+    "协调统一的色彩"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/494bc84c1013897a/original/PH178281-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/10659",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/494bc84c1013897a/original/PH178281-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-栅格合集 Curated Gallery-协调统一的色彩"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "用灯具增添个性",
+   "texts": [
+    "/cat/li002",
+    "NO",
+    "ikea://content/plp?catalogId=li002",
+    "{\"objectId_var\":\"li002\",\"objectType_var\":\"plp\"}",
+    "灯的作用不仅仅是提供实用功能和营造氛围，一盏美观的装饰灯还能出色点缀房间，令人眼前一亮。",
+    "用灯具增添个性"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/68647986dd57e1b/original/PH178395-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/li002",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/68647986dd57e1b/original/PH178395-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-栅格合集 Curated Gallery-用灯具增添个性"
+   }
+  }
+ ]
+}

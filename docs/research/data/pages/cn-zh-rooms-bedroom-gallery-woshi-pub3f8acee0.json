@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/bedroom/gallery/woshi-pub3f8acee0",
+ "family": "rooms",
+ "id": "cn--zh--3f8acee0d4ff11e78e0a0bf79e0fa98f",
+ "title": "抽屉越多，杂乱越少。",
+ "name": "20181-cobe04a_PF_CT_SEO_QA",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "抽屉越多，杂乱越少。",
+   "texts": [
+    "蓝色、灰色和白色卧室中并排放着两个 VISTHUS 韦斯特胡斯抽屉柜。",
+    "抽屉越多，杂乱越少。",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/18/e3/18e3663ea483ba5808e536232ff472f2.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/18/e3/18e3663ea483ba5808e536232ff472f2.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s79157984",
+    "80246079",
+    "80179433",
+    "s29230048",
+    "10288685"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

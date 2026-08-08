@@ -1,0 +1,70 @@
+{
+ "url": "/cn/zh/rooms/kitchen/gallery",
+ "family": "rooms",
+ "id": "cn--zh--8999a10276fd46dfb5b565ed11a32ef9",
+ "title": "厨房灵感图库",
+ "name": "662541_kiga01c",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "厨房图库"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-标题-"
+   }
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "/landing-page/cn--zh--e9d6538404cb4dd6bb5a8e9f744c6920?productIds=&topProductFullIds=&assemblyProductFullIds=&utm_source=&utm_medium=&utm_campaign=&utm_content=&utm_term=&web_new=",
+    "external",
+    "IMAGE",
+    "亮白高光门板塑造简约现代质感的厨房",
+    "ikea://cms/landing-page-popup?key=cn--zh--e9d6538404cb4dd6bb5a8e9f744c6920",
+    "{\"objectId_var\":\"cn--zh--e9d6538404cb4dd6bb5a8e9f744c6920\",\"objectType_var\":\"cms_h5_page\"}"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20260722/b87810a79f7d47f898d829c58e9802b0.png?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260722/01220d4e4c1d4ad49cfcd4713b80fc13.png?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260722/990fde2570984922b5b30a8d9973e9ff.png?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260722/d53eebeda31343fdb6194f7a6c4a48d3.png?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260722/e5d7d53a7cea49a8b831b3695e77b9ae.png?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260722/b87810a79f7d47f898d829c58e9802b0.png?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260722/01220d4e4c1d4ad49cfcd4713b80fc13.png?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260722/990fde2570984922b5b30a8d9973e9ff.png?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260722/d53eebeda31343fdb6194f7a6c4a48d3.png?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260722/e5d7d53a7cea49a8b831b3695e77b9ae.png?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20250711/fe437e6c14d144eea7df09ccdc8477b6.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-页面列表 Page List-"
+   }
+  }
+ ]
+}

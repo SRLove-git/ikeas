@@ -1,0 +1,124 @@
+{
+ "url": "/cn/zh/cat/jiao-ban-wan-20669",
+ "id": "jiao-ban-wan-20669",
+ "name": "搅拌碗",
+ "description": "需要混合搅拌一些东西？那来看看我们的精选搅拌碗吧！可购买单件或两件套，有带盖和不带盖可选，设有实用碗嘴，方便倒出混合物。提供多种尺寸和风格款式，可在烹饪时避免泼溅。",
+ "total": 7,
+ "products": [
+  {
+   "id": "40179699",
+   "name": "BLANDA BLANK 布朗达 布兰科",
+   "price": 39.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/blanda-blank-bu-lang-da-bu-lan-ke-shang-cai-yong-wan-bu-xiu-gang__1245291_pe921567_s4.jpg",
+   "productType": "上菜用碗",
+   "designText": "不锈钢",
+   "measureText": "28 厘米",
+   "url": null,
+   "seoSlug": "blanda-blank-bu-lang-da-bu-lan-ke-shang-cai-yong-wan-bu-xiu-gang"
+  },
+  {
+   "id": "30421792",
+   "name": "VISPAD 维斯伯",
+   "price": 39.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/vispad-wei-si-bo-jiao-ban-wan-2-jian-tao-bai-se__0711811_pe728490_s4.jpg",
+   "productType": "搅拌碗，2件套",
+   "designText": "白色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "vispad-wei-si-bo-jiao-ban-wan-2-jian-tao-bai-se"
+  },
+  {
+   "id": "20510840",
+   "name": "FIKADAGS 费加道格",
+   "price": 9.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/fikadags-fei-jia-dao-ge-jiao-ban-wan-bai-se__1015846_pe842353_s4.jpg",
+   "productType": "搅拌碗",
+   "designText": "白色",
+   "measureText": "2.2 公升",
+   "url": null,
+   "seoSlug": "fikadags-fei-jia-dao-ge-jiao-ban-wan-bai-se"
+  },
+  {
+   "id": "20586161",
+   "name": "VARDAGEN 瓦达恩",
+   "price": 49.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/vardagen-wa-da-en-jiao-ban-wan-bu-xiu-gang__1300280_pe937073_s4.jpg",
+   "productType": "搅拌碗",
+   "designText": "不锈钢",
+   "measureText": "4 公升",
+   "url": null,
+   "seoSlug": "vardagen-wa-da-en-jiao-ban-wan-bu-xiu-gang"
+  },
+  {
+   "id": "90607438",
+   "name": "PONNYFISK 彭尼菲斯",
+   "price": 9.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/ponnyfisk-peng-ni-fei-si-jiao-ban-wan-dan-lan-hui-se__1433037_pe983032_s4.jpg",
+   "productType": "搅拌碗",
+   "designText": "淡蓝灰色",
+   "measureText": "1 公升",
+   "url": null,
+   "seoSlug": "ponnyfisk-peng-ni-fei-si-jiao-ban-wan-dan-lan-hui-se"
+  },
+  {
+   "id": "30166051",
+   "name": "BLANDA BLANK 布朗达 布兰科",
+   "price": 19.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/blanda-blank-bu-lang-da-bu-lan-ke-shang-cai-yong-wan-bu-xiu-gang__1245284_pe921561_s4.jpg",
+   "productType": "上菜用碗",
+   "designText": "不锈钢",
+   "measureText": "20 厘米",
+   "url": null,
+   "seoSlug": "blanda-blank-bu-lang-da-bu-lan-ke-shang-cai-yong-wan-bu-xiu-gang"
+  },
+  {
+   "id": "50289249",
+   "name": "VARDAGEN 瓦达恩",
+   "price": 29.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/vardagen-wa-da-en-wan-tou-ming-bo-li__0712939_pe729151_s4.jpg",
+   "productType": "碗",
+   "designText": "透明玻璃",
+   "measureText": "26 厘米",
+   "url": null,
+   "seoSlug": "vardagen-wa-da-en-wan-tou-ming-bo-li"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "40179699",
+   "type": "ART",
+   "fullId": "40179699"
+  },
+  {
+   "id": "30421792",
+   "type": "ART",
+   "fullId": "30421792"
+  },
+  {
+   "id": "20510840",
+   "type": "ART",
+   "fullId": "20510840"
+  },
+  {
+   "id": "20586161",
+   "type": "ART",
+   "fullId": "20586161"
+  },
+  {
+   "id": "90607438",
+   "type": "ART",
+   "fullId": "90607438"
+  },
+  {
+   "id": "30166051",
+   "type": "ART",
+   "fullId": "30166051"
+  },
+  {
+   "id": "50289249",
+   "type": "ART",
+   "fullId": "50289249"
+  }
+ ]
+}

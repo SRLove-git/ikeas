@@ -1,0 +1,204 @@
+{
+ "url": "/cn/zh/customer-service/services/store-service-pub8e830e11",
+ "family": "customer-service",
+ "id": "cn--zh--8e830e1130ca11e7b43ee50629564225",
+ "title": "商场服务",
+ "name": "商场服务",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "商场服务",
+   "texts": [
+    "<p><strong>看看宜家为了您购物方便提供了哪些服务</strong></p>",
+    "商场服务",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/6b/c3/6bc35821893be92699911ad3ce89c09f.jpeg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/6b/c3/6bc35821893be92699911ad3ce89c09f.jpeg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Hero-商场服务"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "送货服务",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "<p><strong>送货服务</strong></p>\n<p>宜家产品多为平板包装，您可以很容易自己带回家。只需支付合理费用，我们可以为您安排送货。<a href=\"https://www.ikea.cn/cn/zh/product-guides/daitihuo-pubd9e24805\">查看详情</a></p>"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/f2/2f/f22f2b1bd43b4c0e89abe526e86df36d.png",
+    "https://file.app.ikea.cn/cms/u/20230905/07e2e6df4a5a4ef0b0be7c082ae0f8ed.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20230905/525d0e50e7da49a685385d04e76304a2.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/f2/2f/f22f2b1bd43b4c0e89abe526e86df36d.png",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20230905/07e2e6df4a5a4ef0b0be7c082ae0f8ed.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20230905/525d0e50e7da49a685385d04e76304a2.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Columns-"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "<p><strong>安装服务</strong></p>\n<p>选择此服务将为您节省时间和精力。在我们和我们的服务供应商共同努力下，我们将确保提供给您的安装服务是按照您的设计图纸和既定的安装标准进行的。</p>\n<p><a href=\"https://www.ikea.cn/cn/zh/customer-service/services/assembly/\">查看详情</a></p>",
+    "pub-text"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20230905/2386ae87746e4e3983fba0b5cecc6b21.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20230905/aeba76dc2834466586bed8d343c3a489.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/images/0c/89/0c89c0eac08fc0d6f081de67dcc83f16.png"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20230905/2386ae87746e4e3983fba0b5cecc6b21.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20230905/aeba76dc2834466586bed8d343c3a489.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/0c/89/0c89c0eac08fc0d6f081de67dcc83f16.png",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Columns-"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "旧家具运送服务",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "<p><strong>旧家具拆运服务</strong></p>\n<p>在把新床垫或沙发送至您家时，我们会同时拆运走您对应的旧产品。</p>\n<p><a href=\"https://www.ikea.cn/cn/zh/customer-service/services/removal-recycling/\">查看详情</a></p>"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20230905/2353c9f4a5a647e1aeb412aeb1f9271d.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/images/ac/55/ac55b4b7f5ca07850d55b7269f4965c0.png",
+    "https://file.app.ikea.cn/cms/u/20230905/701b81d3ee8242dfa92aa7c2bb8b4045.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20230905/2353c9f4a5a647e1aeb412aeb1f9271d.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/ac/55/ac55b4b7f5ca07850d55b7269f4965c0.png",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20230905/701b81d3ee8242dfa92aa7c2bb8b4045.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Columns-"
+   }
+  },
+  {
+   "type": "pub-expandable-area",
+   "title": null,
+   "texts": [
+    "继续查看其他 7 项服务",
+    "column",
+    "<p><strong>查询库存</strong></p>\n<p>您可以在宜家网站上查询各个商场的产品库存状态，浏览产品详情页并选择您的本地商场即可。</p>\n<p><strong>顾客服务热线</strong></p>\n<p>在您访问宜家商场前，您可拨打顾客服务热线：400-800-2345（语音自助服务时间：7*24小时全天服务，人工服务时间：周一 -周日：09:00-18:00），了解商场内产品的存货情况、营业时间、商场活动、交通线路、付款方式和售后服务等。</p>\n<p><strong>旧厨房拆除服务</strong></p>\n<p>您是不是想在宜家买一套崭新的厨房？<br />那家里旧的厨房怎么办? 不用担心！宜家能为您提供专业的旧厨房拆除服务，让您轻松把新厨房接回家。</p>\n<p><strong>付款方式</strong></p>\n<p>宜家线下实体商场接受现金，支付宝，微信支付，有银联、VISA和MASTER标记的储蓄卡及信用卡，Apple Pay苹果支付，同城转账支票，及宜家购物卡和退换卡。 宜家网上商城接受支付宝，微信，及银联支付。</p>\n<p><strong>儿童乐园</strong></p>\n<p>我们在商场入口处为孩子们开设了免费的由专人看护的儿童乐园。您可以放心将孩子留在这里玩耍，然后安心去购物。（儿童入园细则，请咨询当地宜家商场内的服务人员）</p>\n",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Expandable Area-"
+   }
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--customer-service--contact-us",
+    "/customer-service/contact-us/",
+    "section",
+    "联系我们",
+    "ikea://cms/page-compatible-web?url=%2Fcustomer-service%2Fcontact-us%2F&key=cn--zh--231b6bb7044d4bcfa960b606e8b064c8",
+    "{\"objectId_var\":\"/customer-service/contact-us/\",\"objectType_var\":\"cms/page-compatible-web\"}"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/ec/45/ec4577661e4980cc7c020fbbe9a7b2ef.jpeg",
+    "https://file.app.ikea.cn/images/e6/80/e680efa872093ecae097c9d24fbf0db2.jpg",
+    "https://file.app.ikea.cn/cms/u/20220727/d7d5baa18adf45a2805507c831603005.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/ec/45/ec4577661e4980cc7c020fbbe9a7b2ef.jpeg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/e6/80/e680efa872093ecae097c9d24fbf0db2.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220727/d7d5baa18adf45a2805507c831603005.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Page List-"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/customer-service/services/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fcustomer-service%2Fservices%2F&key=cn--zh--9bdb3af1c07611e8affa0d09be91682d",
+    "{\"objectId_var\":\"/customer-service/services/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "查看更多服务"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/customer-service/services/",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Link - button or text-"
+   }
+  }
+ ]
+}

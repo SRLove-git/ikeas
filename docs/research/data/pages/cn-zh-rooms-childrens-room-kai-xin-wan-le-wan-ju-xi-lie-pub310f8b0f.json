@@ -1,0 +1,406 @@
+{
+ "url": "/cn/zh/rooms/childrens-room/kai-xin-wan-le-----wan-ju-xi-lie-pub310f8b0f",
+ "family": "rooms",
+ "id": "310f8b0fb23a49c6b924415021ccd7f0",
+ "title": "儿童—开心玩乐",
+ "name": "children_play",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "开心玩乐"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "161ea383a25047a18065b7feb871363c"
+   }
+  },
+  {
+   "type": "pub-visual-navigation",
+   "title": null,
+   "texts": [
+    "normal",
+    "/cat/18740",
+    "NO",
+    "ikea://content/plp?catalogId=18740",
+    "{\"objectId_var\":\"18740\",\"objectType_var\":\"plp\"}",
+    "毛绒玩具"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20220107/754dbb5c23c54eddabb5ae88334b64f4.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220107/a686c42e4aad453a8e4ccd463559f95c.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220107/d56d8c7f79734e45a7c2a20a19686942.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/cat/18740",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220107/754dbb5c23c54eddabb5ae88334b64f4.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/cat/18734",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220107/a686c42e4aad453a8e4ccd463559f95c.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/cat/18716",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220107/d56d8c7f79734e45a7c2a20a19686942.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "5fec759ef6f546d9a22411e1d06ce32e"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "毛茸茸，软绵绵的好朋友",
+   "texts": [
+    "/rooms/childrens-room/soft-toy-pub86c5036d",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fchildrens-room%2Fsoft-toy-pub86c5036d&key=cn--zh--86c5036d47224c0dbd72ccdb83e952af",
+    "{\"objectId_var\":\"/rooms/childrens-room/soft-toy-pub86c5036d\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "柔软舒服的毛绒玩具是拥抱、安慰和倾听孩子的好伙伴，还会陪伴他们玩耍和恶作剧。 即使是成年人也无法拒绝一个随时拥抱你的大熊。你也可以邀请他们来你的聚会，他们会盛装出席，啜饮着饮料，聊那些说不完的话... 接下来，你想邀请哪位毛伙伴参加你的茶话会？",
+    "毛茸茸，软绵绵的好朋友"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/content-hub/f96ef328-1efa-4dd7-befb-0fa4910a9d15/fc0d235e-42cb-4624-8da8-190607424125.jpeg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20230713/bdfd4b0f6b454364a56230c5d9234db3.jpg?x-oss-process=style/medium",
+    "https://static.web.ikea.cn/content/u/20241217/d03ff69ee93b415c98c5ac676254a7e2.jpg",
+    "https://file.app.ikea.cn/content-hub/f96ef328-1efa-4dd7-befb-0fa4910a9d15/c207023a-c264-4c25-b311-ac61d21d011f.jpeg?x-oss-process=style/medium",
+    "https://content-service-oss.aidesign.ingka-internal.cn/content-hub/f96ef328-1efa-4dd7-befb-0fa4910a9d15/a162b75a-30be-4ee0-b043-c10d7ab2166a.jpeg"
+   ],
+   "links": [
+    {
+     "href": "/rooms/childrens-room/soft-toy-pub86c5036d",
+     "text": ""
+    },
+    {
+     "href": "/inspiration/detail/0F9D8E88-3B0A-442B-858172C61E5E12B4?type=IMAGE",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content-hub/f96ef328-1efa-4dd7-befb-0fa4910a9d15/fc0d235e-42cb-4624-8da8-190607424125.jpeg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/p/30402840?artType=art",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20230713/bdfd4b0f6b454364a56230c5d9234db3.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/inspiration/detail/2a21f45c-ef2e-4ed6-a160-2ea79ec8e4db?type=IMAGE",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Curated Gallery-毛茸茸，软绵绵的好朋友"
+   }
+  },
+  {
+   "type": "product-list",
+   "title": "哪位可以成为你的好朋友？",
+   "texts": [
+    "哪位可以成为你的好朋友？",
+    "WATERFALL",
+    "MANUAL_INPUT",
+    "10221317",
+    "00522108",
+    "10522117"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-商品列表-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>一边玩，一边学</h2>\n<p>在高科技时代，木制玩具可能看起来有点复古，但良好的质量和天然耐用的材料永远不会过时。我们的玩具为您的孩子带来数小时的游戏乐趣。它还将帮助孩子们发展精细运动技能和逻辑思维等能力。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "two-columns",
+    "column",
+    "/p/70506685?artType=art",
+    "NO",
+    "ikea://content/pip?id=70506685&type=art",
+    "{\"objectId_var\":\"70506685\",\"objectType_var\":\"product\"}"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20230713/e16a60dacfee4780b613f986d67b276a.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20230718/d46c6ee2a6724e9c921439cb058d80fe.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/p/70506685?artType=art",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20230713/e16a60dacfee4780b613f986d67b276a.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/p/40552160?artType=art",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20230718/d46c6ee2a6724e9c921439cb058d80fe.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Columns-"
+   }
+  },
+  {
+   "type": "product-list",
+   "title": "更多益智玩具",
+   "texts": [
+    "更多益智玩具",
+    "WATERFALL",
+    "MANUAL_INPUT",
+    "00330067",
+    "80472500",
+    "70495352"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-商品列表-"
+   }
+  },
+  {
+   "type": "pub-inspiration-card",
+   "title": null,
+   "texts": [
+    "045e5a2a-9a8d-11ea-8543-6bbb72ceb2d5",
+    "/search/products?q=布洛凡格",
+    "NO",
+    "ikea://default-module/search?query=%E5%B8%83%E6%B4%9B%E5%87%A1%E6%A0%BC",
+    "{\"objectId_var\":\"布洛凡格\",\"objectType_var\":\"search_result\"}",
+    "奇妙海洋世界"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20221101/fb8601d97e0040589134770b0c1c44ca.webp",
+    "https://file.app.ikea.cn/cms/u/20221101/910eed0eda8d4532a6164df76d2e383c.webp",
+    "https://file.app.ikea.cn/cms/u/20221101/ff519f4a7e124a1a9449626153f24f4e.webp",
+    "https://file.app.ikea.cn/cms/u/20221101/b72372f460584f1984aebba3e18b273a.webp",
+    "https://file.app.ikea.cn/cms/u/20221101/4f0fc82a3c8f42f7989c8eb2ef52d2e9.webp"
+   ],
+   "links": [
+    {
+     "href": "/search/products?q=布洛凡格",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20221101/fb8601d97e0040589134770b0c1c44ca.webp",
+     "text": ""
+    },
+    {
+     "href": "/cat/18735",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20221101/910eed0eda8d4532a6164df76d2e383c.webp",
+     "text": ""
+    },
+    {
+     "href": "/cat/18738",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20221101/ff519f4a7e124a1a9449626153f24f4e.webp",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Inspiration Cards-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h3>婴儿玩具</h3>\n<p>宜家的婴儿玩具旨在帮助宝宝锻炼视力和运动技能等。当然也为他们提供许多乐趣。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-visual-pill-slider",
+   "title": null,
+   "texts": [
+    "一只手正在调节GLYPEN 格吕彭 厨房水龙头的水流大小，水龙头采用不锈钢制成，旁边放着TÅRTSMET 托米特 洗盘刷",
+    "/cat/18716",
+    "NO",
+    "ikea://content/plp?catalogId=18716",
+    "{\"objectId_var\":\"18716\",\"objectType_var\":\"plp\"}",
+    "初生婴儿玩具"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20220107/39157c4c19b04f70ba1328d1a4ced514.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220107/2574ce66addd4f6ab27f8ae937363f12.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/cat/18716",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220107/39157c4c19b04f70ba1328d1a4ced514.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://www.ikea.cn/cn/zh/campaigns/yi-zhi-lei-xiao-wan-ju-pub5aab0007",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220107/2574ce66addd4f6ab27f8ae937363f12.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "de088f944fcc4a11ab874f13c6b95955"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/cat/wan-ju-he-wan-shua-18734",
+    "NO",
+    "ikea://content/plp?catalogId=wan-ju-he-wan-shua-18734",
+    "{\"objectId_var\":\"wan-ju-he-wan-shua-18734\",\"objectType_var\":\"plp\"}",
+    "text",
+    "查看所有玩具和玩耍产品"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/wan-ju-he-wan-shua-18734",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "7230745f42b0427e998b0de644eeb7a2"
+   }
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "3c793b8eef2149f88f7170f5b31affa6"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h3>让孩子更舒服的玩耍</h3>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "504ee23928a14eebbea88cdcd8cd3802"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "two-columns",
+    "column",
+    "孩子的专属桌椅",
+    "/cat/18769",
+    "NO",
+    "ikea://content/plp?catalogId=18769"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20220114/61ceacc7f1f245a79b3f89c299df2fde.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220114/03f1e8f7e53546a1b4d2ee8e2c00fb45.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/cat/18769",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220114/61ceacc7f1f245a79b3f89c299df2fde.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/cat/20474",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220114/03f1e8f7e53546a1b4d2ee8e2c00fb45.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "ec5557bc6c2b4ecb8b54ff96cf4c12e6"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "57ec305fb79743be9fb493e1d51fbca4"
+   }
+  },
+  {
+   "type": "inspirations",
+   "title": "更多家具和家居布置灵感",
+   "texts": [
+    "IMAGE_ONLY",
+    "更多家具和家居布置灵感",
+    "WATERFALL",
+    "TAGS_INPUT",
+    "5814ecb318393f9b87076d09f3d60947",
+    "82a3b8ee4c6b39119d47b91057bd7f2f"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-灵感图-"
+   }
+  }
+ ]
+}

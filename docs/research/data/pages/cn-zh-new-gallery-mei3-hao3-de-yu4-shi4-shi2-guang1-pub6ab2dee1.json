@@ -1,0 +1,122 @@
+{
+ "url": "/cn/zh/new/gallery/mei3-hao3-de-yu4-shi4-shi2-guang1-pub6ab2dee1",
+ "family": "new",
+ "id": "cn--zh--6ab2dee1f24611e8a9372125447c8d7c",
+ "title": "美好的浴室时光",
+ "name": "20193_nwvm42a_PF",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "美好的浴室时光",
+   "texts": [
+    "使用无需钻孔的宜家 TISKEN 提斯科恩 带吸盘毛巾架在浴室内挂毛巾。可伸缩的白色挂架最大承重量可达3公斤。瓷砖上还装有其他 TISKEN 提斯科恩 配件，如挂钩和篮子。",
+    "<p>本月新品可提升你的浴室品质&mdash;&mdash;吸盘设计令精巧的配件又增添了全新功能，与此同时，我们最新推出的毛巾可为浴室注入源自20世纪60年代的复古氛围。</p>\n<p>无需在瓷砖上打孔，即可充分利用浴室空间&mdash;&mdash;宜家新款 TISKEN 提斯科恩 浴室配件包含从牙刷架到挂钩等各类实用产品。</p>",
+    "美好的浴室时光",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/0e/45/0e45585ee58e7e60be465343e16504d1.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/0e/45/0e45585ee58e7e60be465343e16504d1.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "利用宜家 TISKEN 提斯科恩 带吸盘手持花洒托架，轻松乐享淋浴。这款固定在瓷砖上的白色塑料托架无需钻孔，可搭配任意一款手持花洒。",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "90400305"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/37/3f/373f7a2b8956c57c9ef0ddad88fb042b.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/37/3f/373f7a2b8956c57c9ef0ddad88fb042b.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>TISKEN 提斯科恩 手持花洒托架无需在瓷砖上钻孔，即可通过吸盘固定在墙上。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "使用宜家 SANDVILAN 桑德维兰 印有复古花卉图案的浴巾擦干身体。以深蓝色和绿色为背景颜色的浴巾，在瓷砖地映衬之下，展现着浅蓝色大型花卉图案。它采用来自更可持续来源的100%棉制成。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "60430479"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/60/4d/604d1ff5d31f18e951723fd4358f637e.jpg",
+    "https://file.app.ikea.cn/images/53/15/5315c537a4b80ef1c85f848066a20c96.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/60/4d/604d1ff5d31f18e951723fd4358f637e.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/53/15/5315c537a4b80ef1c85f848066a20c96.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/this-is-ikea/sustainable-everyday/quan2-mian4-cai3-yong4-ke3-chi2-xu4-mian2-hua1-pub7f285ad1",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fthis-is-ikea%2Fsustainable-everyday%2Fquan2-mian4-cai3-yong4-ke3-chi2-xu4-mian2-hua1-pub7f285ad1&key=cn--zh--7f285ad16a4c11e880763bb85d270ddb",
+    "{\"objectId_var\":\"/this-is-ikea/sustainable-everyday/quan2-mian4-cai3-yong4-ke3-chi2-xu4-mian2-hua1-pub7f285ad1\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "了解更多有关可持续来源棉花的信息"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/this-is-ikea/sustainable-everyday/quan2-mian4-cai3-yong4-ke3-chi2-xu4-mian2-hua1-pub7f285ad1",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "00381274",
+    "90400305",
+    "20381254",
+    "50381295",
+    "20381287"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

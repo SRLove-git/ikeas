@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/kitchen/gallery/chufang-pube307c961",
+ "family": "rooms",
+ "id": "cn--zh--e307c961cf6e11e78e0a0bf79e0fa98f",
+ "title": "清新舒爽的绿色厨房",
+ "name": "20171-come07a_PF_CT_SEO_QA",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "清新舒爽的绿色厨房",
+   "texts": [
+    "一间中型的厨房，配有浅绿色高光泽柜门、带不锈钢把手的抽屉和家电，还有青绿色云朵图案的墙面板。",
+    "清新舒爽的绿色厨房",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/f9/d8/f9d80c00491af8313c9955fd2238b3a8.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/f9/d8/f9d80c00491af8313c9955fd2238b3a8.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "10322566",
+    "80335122",
+    "70222234",
+    "20222236",
+    "s49157481"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

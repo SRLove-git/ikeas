@@ -1,0 +1,181 @@
+{
+ "url": "/cn/zh/rooms/kitchen/how-to/ru2-he2-yin3-cang2-za2-luan4-zhan3-shi4-jia1-pin3-pub647eecc0",
+ "family": "rooms",
+ "id": "cn--zh--647eecc0024911eb8f55a95c629ffbef",
+ "title": "如何隐藏杂乱，展示佳品",
+ "name": "612131_htgal06a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "如何隐藏杂乱，展示佳品",
+   "texts": [
+    "SINARP 希纳普 厨房，配一张桌子和若干椅子，墙上悬挂着HULTARP 胡尔塔普 挂杆和挂钩。",
+    "<p>出色的储物方案提供大量的存储空间，既有隐蔽位置，又有开放格局，存取十分方便。</p>",
+    "如何隐藏杂乱，展示佳品",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/42/91/4291d82fd259ca40feb5456f5180591f.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/42/91/4291d82fd259ca40feb5456f5180591f.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Hero-如何隐藏杂乱，展示佳品"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "完美隐藏",
+   "texts": [
+    "/cat/24257",
+    "NO",
+    "ikea://content/plp?catalogId=24257",
+    "{\"objectId_var\":\"24257\",\"objectType_var\":\"plp\"}",
+    "放眼过去，一切井井有条，整洁有序，令人倍感舒心。",
+    "完美隐藏"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/933b3827ea9c3be/original/PH175650.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/24257",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/933b3827ea9c3be/original/PH175650.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Curated Gallery-完美隐藏"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "存取便捷",
+   "texts": [
+    "/cat/st006",
+    "NO",
+    "ikea://content/plp?catalogId=st006",
+    "{\"objectId_var\":\"st006\",\"objectType_var\":\"plp\"}",
+    "把经常使用的东西或者喜爱的物件放到看得见的地方。既方便存取，又令人赏心悦目。",
+    "存取便捷"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/7646f7e37205f8ff/original/PH175649.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/st006",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/7646f7e37205f8ff/original/PH175649.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Curated Gallery-存取便捷"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "美味时时在线",
+   "texts": [
+    "/cat/20676",
+    "NO",
+    "ikea://content/plp?catalogId=20676",
+    "{\"objectId_var\":\"20676\",\"objectType_var\":\"plp\"}",
+    "小创意将烹饪必需品收纳在触手可及的位置。",
+    "美味时时在线"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/6052146246dbdfd1/original/PH175605.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/20676",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/6052146246dbdfd1/original/PH175605.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Curated Gallery-美味时时在线"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "盒子、盘子或两者兼顾的设计",
+   "texts": [
+    "/cat/24984",
+    "NO",
+    "ikea://content/plp?catalogId=24984",
+    "{\"objectId_var\":\"24984\",\"objectType_var\":\"plp\"}",
+    "小创意将调味品收纳在触手可及的位置。",
+    "盒子、盘子或两者兼顾的设计"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/4f3a5a42bd1d081e/original/PH175666.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/24984",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/4f3a5a42bd1d081e/original/PH175666.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Curated Gallery-盒子、盘子或两者兼顾的设计"
+   }
+  },
+  {
+   "type": "pub-inspiration-card",
+   "title": null,
+   "texts": [
+    "c94611a0-024a-11eb-a9cf-4f0a64051f2d",
+    "/rooms/living-room/how-to/bao3-liu2-zeng4-song4-zhan3-shi4-pub1f866570",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fliving-room%2Fhow-to%2Fbao3-liu2-zeng4-song4-zhan3-shi4-pub1f866570&key=cn--zh--1f86657001d711eb8f55a95c629ffbef",
+    "{\"objectId_var\":\"/rooms/living-room/how-to/bao3-liu2-zeng4-song4-zhan3-shi4-pub1f866570\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "保留，赠送，展示"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/a0/52/a052df179f4d0986a9514d96d28e85c4.jpg",
+    "https://file.app.ikea.cn/images/01/97/0197e8e480c2c5afded6061c3e3a14e9.jpg"
+   ],
+   "links": [
+    {
+     "href": "/rooms/living-room/how-to/bao3-liu2-zeng4-song4-zhan3-shi4-pub1f866570",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/a0/52/a052df179f4d0986a9514d96d28e85c4.jpg",
+     "text": ""
+    },
+    {
+     "href": "/rooms/bathroom/how-to/ru2-he2-shi3-xi3-yi1-geng4-qing1-song1-pub66a466d0",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/01/97/0197e8e480c2c5afded6061c3e3a14e9.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Inspiration Cards-"
+   }
+  }
+ ]
+}

@@ -1,0 +1,913 @@
+{
+ "url": "/cn/zh/rooms/living-room",
+ "family": "rooms",
+ "id": "cn--zh--4abffec0b6d411eabbed81e62a091133",
+ "title": "客厅",
+ "name": "客厅",
+ "hero": "https://file.app.ikea.cn/cms/u/20240711/dfeac01bb0f948c89cf3299a805c923a.jpg",
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "客厅"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Page Title-"
+   }
+  },
+  {
+   "type": "pub-visual-navigation",
+   "title": null,
+   "texts": [
+    "small",
+    "/cat/fu003",
+    "NO",
+    "ikea://content/plp?catalogId=fu003",
+    "{\"objectId_var\":\"fu003\",\"objectType_var\":\"plp\"}",
+    "沙发"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/global/assets/navigation/images/sofas-fu003.jpeg?imwidth=300",
+    "https://file.app.ikea.cn/global/assets/navigation/images/sofa-beds-10663.jpeg?imwidth=300",
+    "https://file.app.ikea.cn/global/assets/navigation/images/armchairs-chaise-longues-fu006.jpeg?imwidth=300",
+    "https://file.app.ikea.cn/global/assets/navigation/images/coffee-side-tables-10705.jpeg?imwidth=300",
+    "https://file.app.ikea.cn/global/assets/navigation/images/tv-media-furniture-10475.jpeg?imwidth=300"
+   ],
+   "links": [
+    {
+     "href": "/cat/fu003",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/global/assets/navigation/images/sofas-fu003.jpeg?imwidth=300",
+     "text": ""
+    },
+    {
+     "href": "/cat/10663",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/global/assets/navigation/images/sofa-beds-10663.jpeg?imwidth=300",
+     "text": ""
+    },
+    {
+     "href": "/cat/fu006",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/global/assets/navigation/images/armchairs-chaise-longues-fu006.jpeg?imwidth=300",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "Visual navigation-Web"
+   }
+  },
+  {
+   "type": "anchor-navigation",
+   "title": null,
+   "texts": [
+    "BUTTON",
+    "YES",
+    "当季推荐",
+    "f0cf55fc25a4489b9ab895308c8ff6c6",
+    "家居灵感",
+    "2d6270b1d69d4695a043e5b8f63e00c9"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "页面导航 web"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p style=\"line-height: 8px;\">&nbsp; &nbsp;</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "展示与收纳之间找到平衡",
+   "texts": [
+    "/rooms/living-room/gallery/",
+    "NO",
+    "ikea://cms/page-compatible-web?key=cn--zh--e191d280da4a11efaea8c79124a56c60&url=%2Frooms%2Fliving-room%2Fgallery%2F",
+    "{\"objectId_var\":\"/rooms/living-room/gallery/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "储物方式会随着家庭生活的变化不断调整。当不再需要把一切收得严严实实，是时候让喜爱的装饰品回归视野，让收纳与展示同时实现。",
+    "展示与收纳之间找到平衡"
+   ],
+   "images": [
+    "https://static.web.ikea.cn/content/u/20260729/ed525d4e1b2b4b6c9539d1067b6b70f4.jpg?x-oss-process=style/medium",
+    "https://static.web.ikea.cn/content/u/20260728/065e98a6f2dc4814a3689d60a469241e.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/rooms/living-room/gallery/",
+     "text": ""
+    },
+    {
+     "href": "/inspiration/detail/3e8b99df-a669-4b8e-a229-8299af12281f",
+     "text": ""
+    },
+    {
+     "href": "https://static.web.ikea.cn/content/u/20260729/ed525d4e1b2b4b6c9539d1067b6b70f4.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/inspiration/detail/3e8b99df-a669-4b8e-a229-8299af12281f",
+     "text": ""
+    },
+    {
+     "href": "https://static.web.ikea.cn/content/u/20260728/065e98a6f2dc4814a3689d60a469241e.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Curated Gallery-新品展示柜"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "/new/living room-news-pubf13d0f5b",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fnew%2Fliving+room-news-pubf13d0f5b&key=cn--zh--f13d0f5bed52490b8193fb91a5f55028",
+    "{\"objectId_var\":\"/new/living room-news-pubf13d0f5b\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "当季推荐产品",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/new/living room-news-pubf13d0f5b",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Product Shelf-当季推荐产品"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p style=\"line-height: 8px;\">&nbsp; &nbsp;</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "舒适地坐着休息，或躺着睡觉",
+   "texts": [
+    "/landing-page/cn--zh--45891ff86eab45408741d068364bc5f5",
+    "NO",
+    "ikea://cms/landing-page?key=cn--zh--45891ff86eab45408741d068364bc5f5&sdk-router-delegate__navigateWithModal=true",
+    "{\"objectId_var\":\"cn--zh--45891ff86eab45408741d068364bc5f5\",\"objectType_var\":\"cms_h5_page\"}",
+    "你可以轻松地将客厅变为卧室或客房，睡个好觉后再将其恢复原样。",
+    "舒适地坐着休息，或躺着睡觉"
+   ],
+   "images": [
+    "https://static.web.ikea.cn/content/u/20260729/f8a851dc13014b2bbed8fa8dde242f47.jpg?x-oss-process=style/medium",
+    "https://static.web.ikea.cn/content/u/20260729/0f9b2a4970eb44ed92bf303dbd9744d1.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/landing-page/cn--zh--45891ff86eab45408741d068364bc5f5",
+     "text": ""
+    },
+    {
+     "href": "/inspiration/detail/062dfc10-5075-4c91-8e2e-049a302b53d9",
+     "text": ""
+    },
+    {
+     "href": "https://static.web.ikea.cn/content/u/20260729/f8a851dc13014b2bbed8fa8dde242f47.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/inspiration/detail/4cef443e-6d1e-4a4d-b69d-44881669a942",
+     "text": ""
+    },
+    {
+     "href": "https://static.web.ikea.cn/content/u/20260729/0f9b2a4970eb44ed92bf303dbd9744d1.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Curated Gallery- 休闲沙发 扶手椅"
+   }
+  },
+  {
+   "type": "pub-banner",
+   "title": null,
+   "texts": [
+    "image-text-landscape",
+    "IMAGE",
+    "<p>造型感单椅、层叠式小推车...IKEA PS 2026 系列用更有辨识度的线条和轮廓，为客厅增添更多趣味。</p>",
+    "个性单品布置客厅休闲区",
+    "/new/meet-the-ikea-ps-2026-collection-pubf28e636c",
+    "NO"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20260729/800620f7c5e140df80be8a2190337f63.png?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260729/800620f7c5e140df80be8a2190337f63.png?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/new/meet-the-ikea-ps-2026-collection-pubf28e636c",
+     "text": ""
+    },
+    {
+     "href": "/new/meet-the-ikea-ps-2026-collection-pubf28e636c",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-媒体色块组合 Banner-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p style=\"line-height: 8px;\"><span style=\"color: #ca0008;\">&nbsp;&nbsp;</span></p>\n<h2><span style=\"color: #ca0008;\">更低价格的客厅好物推荐&nbsp;</span></h2>\n<p>通过大批量生产和智能设计，IKEA把高品质变得更实惠。现在，用更少的预算，为你的客厅增添更多缤纷的生活细节。</p>\n<p style=\"line-height: 24px;\">&nbsp;</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "/new/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fnew%2F&key=cn--zh--c390541056eb4ee18be44989b23c582f",
+    "{\"objectId_var\":\"/new/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "MANUAL_INPUT",
+    "70570836"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/new/",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Product Shelf-更低价格客厅"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p style=\"line-height: 8px;\">&nbsp; &nbsp;</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "换上温暖的日常",
+   "texts": [
+    "/cat/10659",
+    "NO",
+    "ikea://content/plp?catalogId=10659",
+    "{\"objectId_var\":\"10659\",\"objectType_var\":\"plp\"}",
+    "柔软触感随心搭配，让家每个角落都舒适温馨，换上好心情，也让朋友忍不住多停留一会儿。",
+    "换上温暖的日常"
+   ],
+   "images": [
+    "https://static.web.ikea.cn/content/u/20260729/43cd99c9723241fcb94d249a5ce28f11.jpg?x-oss-process=style/medium",
+    "https://static.web.ikea.cn/content/u/20260729/a09f76dfe49242d296a9a6c1a63bd8b8.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/cat/10659",
+     "text": ""
+    },
+    {
+     "href": "/inspiration/detail/7c2454f1-38d6-4ef7-b950-dc8e69c566e8?type=IMAGE",
+     "text": ""
+    },
+    {
+     "href": "https://static.web.ikea.cn/content/u/20260729/43cd99c9723241fcb94d249a5ce28f11.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/inspiration/detail/c8fcbade-1f38-4d7a-b4aa-a37a0658a6dd",
+     "text": ""
+    },
+    {
+     "href": "https://static.web.ikea.cn/content/u/20260729/a09f76dfe49242d296a9a6c1a63bd8b8.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Curated Gallery-纺织品搭配"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "/new/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fnew%2F&key=cn--zh--c390541056eb4ee18be44989b23c582f",
+    "{\"objectId_var\":\"/new/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "当季纺织新品",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/new/",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Product Shelf-当季纺织新品"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/new/living+room-news-pubf13d0f5b",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fnew%2Fliving%2Broom-news-pubf13d0f5b&key=cn--zh--f13d0f5bed52490b8193fb91a5f55028",
+    "{\"objectId_var\":\"/new/living+room-news-pubf13d0f5b\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "查看更多客厅新品"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/new/living+room-news-pubf13d0f5b",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Link - button or text-"
+   }
+  },
+  {
+   "type": "ranking",
+   "title": null,
+   "texts": [
+    "全部榜单",
+    "DARK",
+    "10661,10705,10776,st002,10475,lt001",
+    "LIGHT",
+    "#2a4e4c",
+    "#868859"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-排行榜-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h3>&nbsp;</h3>\n<h2>客厅布置指南和案例</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-inspiration-card",
+   "title": null,
+   "texts": [
+    "ce0093c0-2803-11ec-b6c6-e528438a58ca",
+    "/rooms/living-room/gallery/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fliving-room%2Fgallery%2F&key=cn--zh--e191d280da4a11efaea8c79124a56c60",
+    "{\"objectId_var\":\"/rooms/living-room/gallery/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "查看所有客厅布置建议"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20240301/30a118e5bc954484912574b4ddf49bd6.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260623/e101e90a67b34127ad332336958d9ca6.png?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260623/bffb72d47bee4f0f84feaf63d2df6863.png?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260713/ec6acef0654a4dcbad2227f9433ffbe6.png?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260713/cc0cde34b58b49a2b6accaf1a425d025.png?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/rooms/living-room/gallery/",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20240301/30a118e5bc954484912574b4ddf49bd6.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/rooms/living-room/how-to/wan4-shi4-ju4-bei4-de-chu3-wu4-qiang2-bi4-pubf5496770",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260623/e101e90a67b34127ad332336958d9ca6.png?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/rooms/living-room/how-to/qiao3-yong4-qiang2-mian4-zhi4-zao4-geng1-duo1-kong1-jian1-pub75f91ca0",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260623/bffb72d47bee4f0f84feaf63d2df6863.png?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "客厅布置指南和案例"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "/new/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fnew%2F&key=cn--zh--c390541056eb4ee18be44989b23c582f",
+    "{\"objectId_var\":\"/new/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "用一些装饰品灵活搭配你的客厅",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/new/",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Product Shelf-灵活搭配你的客厅"
+   }
+  },
+  {
+   "type": "pub-visual-pill-slider",
+   "title": null,
+   "texts": [
+    "/rooms/living-room/gallery",
+    "NO",
+    "ikea://cms/page-compatible-web?key=cn--zh--9cece5707a1b11ed9c76bf78eff7c5b5&url=%2Frooms%2Fliving-room%2Fgallery",
+    "{\"objectId_var\":\"/rooms/living-room/gallery\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "returns-icon",
+    "return-policy"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20240301/4e48889b7eb44c5aa62206bbb675b781.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20240301/deeb80325c014b0f8e9e8d93650a88e8.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20240301/64eecec1222048b4bd7c013aa34e1f2d.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20230209/178b8a3557a441d3aec29a967defc316.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220707/96e361174bc649b99f7ef3ba9cf49a2f.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/rooms/living-room/gallery",
+     "text": ""
+    },
+    {
+     "href": "/rooms/living-room/gallery/a-retro-living-room-with-lots-of-storage-pub8951a12a",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20240301/4e48889b7eb44c5aa62206bbb675b781.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/rooms/living-room/gallery/an-extra-small-scandi-living-room-that-is-big-on-playfulness-and-style-pubaa3e7cd1",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20240301/deeb80325c014b0f8e9e8d93650a88e8.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/rooms/living-room/gallery/a-small-living-space-with-a-balance-of-class-and-comfort-puba709d960",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Visual Pill Slider-"
+   }
+  },
+  {
+   "type": "pub-banner",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "image-text-landscape",
+    "<p>直接换沙发略有困难？考虑用一款新的沙发套，再搭配一些装饰，解锁全新风格的客厅吧！</p>",
+    "更换沙发套，让沙发陪伴你更久",
+    "/rooms/living-room/geng-duo-sha-fa-tao-sui-xin-da-pei--pub0304c110",
+    "NO"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20260113/6cf51c8e6ae149b9ad8b8451425f742b.jpg",
+    "https://file.app.ikea.cn/cms/u/20260113/6cf51c8e6ae149b9ad8b8451425f742b.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260113/6cf51c8e6ae149b9ad8b8451425f742b.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260113/6cf51c8e6ae149b9ad8b8451425f742b.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/rooms/living-room/geng-duo-sha-fa-tao-sui-xin-da-pei--pub0304c110",
+     "text": ""
+    },
+    {
+     "href": "/landing-page/cn--zh--0304c11059004efab4e801867ddb4fe4",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "更换沙发套 可持续"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>&nbsp;</h2>\n<h2>搭配和谐的客厅家具系列</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "15f70bd1e91349ab8fc396f08613b917"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "/rooms/living-room/--pub8620104b",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fliving-room%2F--pub8620104b&key=cn--zh--8620104b9e8a47fd9b8a79a3f48ee594",
+    "{\"objectId_var\":\"/rooms/living-room/--pub8620104b\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "pub-image"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/cf/29/cf29298fcab981bcf8e8e1ef76224498.jpg",
+    "https://file.app.ikea.cn/images/74/e9/74e9eebf29b5fd76f16d028856beb19b.jpg",
+    "https://file.app.ikea.cn/images/46/f8/46f876e193883a6a15c02d276dbb61a4.jpg"
+   ],
+   "links": [
+    {
+     "href": "/rooms/living-room/--pub8620104b",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/cf/29/cf29298fcab981bcf8e8e1ef76224498.jpg",
+     "text": ""
+    },
+    {
+     "href": "/cat/07488",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/74/e9/74e9eebf29b5fd76f16d028856beb19b.jpg",
+     "text": ""
+    },
+    {
+     "href": "/cat/07472",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/46/f8/46f876e193883a6a15c02d276dbb61a4.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "columns 搭配和谐的客厅家具系列-1 官网"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "/cat/22178",
+    "NO",
+    "ikea://content/plp?catalogId=22178",
+    "{\"objectId_var\":\"22178\",\"objectType_var\":\"plp\"}",
+    "pub-image"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20231017/14551d38652f4b8399e33031c9072551.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20231017/ea212e8fb9d543b3a8b8d10085a0f143.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20231017/bf6066db1dba49b69501da81896a0d1c.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/cat/22178",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20231017/14551d38652f4b8399e33031c9072551.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/cat/29996",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20231017/ea212e8fb9d543b3a8b8d10085a0f143.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/cat/48960",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20231017/bf6066db1dba49b69501da81896a0d1c.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "columns 搭配和谐的客厅家具系列 2 官网"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "BILLY 毕利 系列。",
+    "/rooms/living-room/-bi-li-xi-lie-pub9884df03",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fliving-room%2F-bi-li-xi-lie-pub9884df03&key=cn--zh--9884df037ddd4bae906a2e158bd398f2",
+    "{\"objectId_var\":\"/rooms/living-room/-bi-li-xi-lie-pub9884df03\",\"objectType_var\":\"cms/page-compatible-web\"}"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/c3/eb/c3eb55894e5452c36d65b551e937a4ba.jpg",
+    "https://file.app.ikea.cn/images/40/3c/403c0248039570ab40bd57d8c4e70ac3.jpg",
+    "https://file.app.ikea.cn/images/20/b5/20b5a801aab45e0e804965b20eb14ec2.jpg"
+   ],
+   "links": [
+    {
+     "href": "/rooms/living-room/-bi-li-xi-lie-pub9884df03",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/c3/eb/c3eb55894e5452c36d65b551e937a4ba.jpg",
+     "text": ""
+    },
+    {
+     "href": "/rooms/living-room/-a-bei-da-chu-wu-fang-an-pub20b3bbcc",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/40/3c/403c0248039570ab40bd57d8c4e70ac3.jpg",
+     "text": ""
+    },
+    {
+     "href": "/cat/27534",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/20/b5/20b5a801aab45e0e804965b20eb14ec2.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "columns 搭配和谐的客厅家具系列-3 官网"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>&nbsp;</h2>\n<h2>客厅选购指南</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "15f70bd1e91349ab8fc396f08613b917"
+   }
+  },
+  {
+   "type": "pub-inspiration-card",
+   "title": null,
+   "texts": [
+    "3b1a98a0-b7af-11ea-b979-cb6f17084ebf",
+    "/rooms/living-room/how-to/ru2-he2-xuan3-ze2-he2-shi4-de-sha1-fa1-pubed2c3c10",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fliving-room%2Fhow-to%2Fru2-he2-xuan3-ze2-he2-shi4-de-sha1-fa1-pubed2c3c10&key=cn--zh--ed2c3c10678211ea9e22bf68fd53fc44",
+    "{\"objectId_var\":\"/rooms/living-room/how-to/ru2-he2-xuan3-ze2-he2-shi4-de-sha1-fa1-pubed2c3c10\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "获取建议挑选合适的沙发"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/07/8a/078a29e66584a8762392f3868131c875.jpg",
+    "https://file.app.ikea.cn/images/45/f3/45f36765370f2a4e825c5f1bb3a90d6a.jpg",
+    "https://file.app.ikea.cn/images/4c/05/4c0593792e00138aaeb3940d4aca2580.jpg"
+   ],
+   "links": [
+    {
+     "href": "/rooms/living-room/how-to/ru2-he2-xuan3-ze2-he2-shi4-de-sha1-fa1-pubed2c3c10",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/07/8a/078a29e66584a8762392f3868131c875.jpg",
+     "text": ""
+    },
+    {
+     "href": "/rooms/living-room/how-to/ru2-he2-bao3-chi2-jia1-ting2-ke4-ting1-zheng3-jie2-you3-xu4-pubd8efd960",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/45/f3/45f36765370f2a4e825c5f1bb3a90d6a.jpg",
+     "text": ""
+    },
+    {
+     "href": "/rooms/living-room/how-to/",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/4c/05/4c0593792e00138aaeb3940d4aca2580.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "客厅选购指南"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>&nbsp;</h2>\n<h2>服务和质保</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "7a2bc912054945138b269b9d5e0641b1"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "/customer-service/returns-claims/guarantee/keting-pub34d338d0",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fcustomer-service%2Freturns-claims%2Fguarantee%2Fketing-pub34d338d0&key=cn--zh--34d338d0afec11e7b23503ef832e0d7f",
+    "{\"objectId_var\":\"/customer-service/returns-claims/guarantee/keting-pub34d338d0\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "pub-image"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/24/1c/241c302d9c64c58127ff6983a09f5a88.jpg",
+    "https://file.app.ikea.cn/images/20/92/2092ac7e7be7e79f90d9b96e1b70097b.jpg",
+    "https://file.app.ikea.cn/images/9d/eb/9deb0c0d9d6b5e33c8ca9334366666b2.jpg"
+   ],
+   "links": [
+    {
+     "href": "/customer-service/returns-claims/guarantee/keting-pub34d338d0",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/24/1c/241c302d9c64c58127ff6983a09f5a88.jpg",
+     "text": ""
+    },
+    {
+     "href": "/planners/",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/20/92/2092ac7e7be7e79f90d9b96e1b70097b.jpg",
+     "text": ""
+    },
+    {
+     "href": "/h5page/?url=https%3A%2F%2Fpage.campaign.impdigital.cn%2Fikea%2Fstudy%2Findex.html%3Fchannel%3Dweixin%26type%3D0%26direct%3Dtrue",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/9d/eb/9deb0c0d9d6b5e33c8ca9334366666b2.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "服务和质保"
+   }
+  },
+  {
+   "type": "pub-assurances",
+   "title": null,
+   "texts": [
+    "/customer-service/services/delivery/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fcustomer-service%2Fservices%2Fdelivery%2F&key=cn--zh--ff7f9330c9b011ebbbfb39c810ab3bdb",
+    "{\"objectId_var\":\"/customer-service/services/delivery/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "送货服务",
+    "shipping-truck"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/customer-service/services/delivery/",
+     "text": ""
+    },
+    {
+     "href": "/customer-service/services/assembly/",
+     "text": ""
+    },
+    {
+     "href": "/customer-service/services/removal-recycling/",
+     "text": ""
+    },
+    {
+     "href": "/customer-service/services/buy-back/",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "服务"
+   }
+  },
+  {
+   "type": "pub-banner",
+   "title": null,
+   "texts": [
+    "text-landscape",
+    "IMAGE",
+    "<p>请确保使用随附的墙壁安装件，正确固定好大件、较高或较重的家具，以防家具倾倒。进一步了解更多潜在的家居风险因素以及如何避免事故发生。</p>",
+    "请务必将家具牢牢固定到墙上",
+    "NO",
+    "#111111"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/rooms/bedroom/how-to/que4-bao3-jia1-ju4-bu4-fan1-dao4-pubb52df5c0",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Banner-牢牢固定"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p style=\"line-height: 8px;\">&nbsp; &nbsp;&nbsp;</p>\n<h2>更多客厅灵感</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "15f70bd1e91349ab8fc396f08613b917"
+   }
+  },
+  {
+   "type": "inspirations",
+   "title": null,
+   "texts": [
+    "IMAGE_ONLY",
+    "WATERFALL",
+    "TAGS_INPUT",
+    "eba75fee3114318da7003bf8ca036577",
+    "NO",
+    "ABD19DBF-B40E-4530-98A87F1B0E6A6869"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "灵感"
+   }
+  }
+ ]
+}

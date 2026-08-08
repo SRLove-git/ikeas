@@ -1,0 +1,370 @@
+{
+ "url": "/cn/zh/ikea-business/gallery/zhang3-sha1-soho-xiang4-mu4-pubdf8b19d0",
+ "family": "ikea-business",
+ "id": "cn--zh--df8b19d0323a11ec87511d1904e6e1dd",
+ "title": "长沙荟聚之光项目",
+ "name": "地产项目 - 长沙荟聚之光",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "长沙荟聚之光项目",
+   "texts": [
+    "共享空间",
+    "<p>无论是商务公寓，或是出租房，宜家对公业务带来专业的空间设计，功能实用又经久耐用的产品方案以及社区共享空间的生活新概念，满足不同预算需求，帮助地产项目客户获得租客及顾客的喜爱，提高楼盘商业价值。</p>",
+    "长沙荟聚之光项目",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/fe/e2/fee2b63c06b9bd35f5e00b4224896572.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/fe/e2/fee2b63c06b9bd35f5e00b4224896572.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-图片文本组合 Hero-长沙荟聚之光项目"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/h5page/?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fib%3Fchannel%3DIRW%2520M2%26cl_sr%3DIB_IRW%2520M2",
+    "NO",
+    "ikea://default-module/H5?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fib%3Fchannel%3DIRW%2520M2%26cl_sr%3DIB_IRW%2520M2",
+    "{\"objectId_var\":\"https://store-companion.ikea.cn/ib?channel=IRW%20M2&cl_sr=IB_IRW%20M2\",\"objectType_var\":\"default-module/H5\"}",
+    "button",
+    "联系宜家对公业务部"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/h5page/?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fib%3Fchannel%3DIRW%2520M2%26cl_sr%3DIB_IRW%2520M2",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-按钮 Link-button or text-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>居住空间设计</p>\n<h2><strong>45m<sup>2</sup>公寓户型</strong></h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/55/18/5518df8bb4c186bb5ef29d1703980eb0.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/55/18/5518df8bb4c186bb5ef29d1703980eb0.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-媒体商品组合 image(Video)-"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/c0/96/c096b5be5ba0e88134e34831771590e9.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/c0/96/c096b5be5ba0e88134e34831771590e9.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-分栏内容 Columns-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>居住空间设计</p>\n<h2>55m<sup>2</sup>公寓户型</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/12/ab/12ab1c836443da603f849eee3c487c59.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/12/ab/12ab1c836443da603f849eee3c487c59.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-媒体商品组合 image(Video)-"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/21/55/2155f7558700d78ec4d33bc168e9feec.jpg",
+    "https://file.app.ikea.cn/images/c3/8e/c38e2541d9c903a8cf191339d9758b98.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/21/55/2155f7558700d78ec4d33bc168e9feec.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/c3/8e/c38e2541d9c903a8cf191339d9758b98.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-分栏内容 Columns-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>居住空间设计</p>\n<h2>75m<sup>2</sup>公寓户型</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/55/e4/55e43c661490a6555395da257ae1f440.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/55/e4/55e43c661490a6555395da257ae1f440.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-媒体商品组合 image(Video)-"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/ab/80/ab80be683d78369480fc0ce37ace1834.jpg",
+    "https://file.app.ikea.cn/images/d7/6b/d76bce19ee523f715b1171985c4dfd42.jpg",
+    "https://file.app.ikea.cn/images/c2/8b/c28b5f6c3124028b24cd5e955677f9c0.jpg",
+    "https://file.app.ikea.cn/images/35/ae/35aee734fab3b41bb91aea6aba7907ca.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/ab/80/ab80be683d78369480fc0ce37ace1834.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/d7/6b/d76bce19ee523f715b1171985c4dfd42.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/c2/8b/c28b5f6c3124028b24cd5e955677f9c0.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/35/ae/35aee734fab3b41bb91aea6aba7907ca.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-分栏内容 Columns-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>共享空间设计</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "column",
+    "NO"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/f2/5d/f25d4d5aef5c7d58ca8cee0fff77aee1.jpg",
+    "https://file.app.ikea.cn/images/fe/e2/fee2b63c06b9bd35f5e00b4224896572.jpg",
+    "https://file.app.ikea.cn/images/1d/a5/1da56c1dfd92db899901f265f970446d.jpg",
+    "https://file.app.ikea.cn/images/9a/e7/9ae73e5e68a2896aa367184aaf368bfa.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/f2/5d/f25d4d5aef5c7d58ca8cee0fff77aee1.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/fe/e2/fee2b63c06b9bd35f5e00b4224896572.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/1d/a5/1da56c1dfd92db899901f265f970446d.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/9a/e7/9ae73e5e68a2896aa367184aaf368bfa.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-分栏内容 Columns-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>商务洽谈空间设计</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/34/d3/34d3fbc5e1f70ffb3092679447f4fbb5.jpg",
+    "https://file.app.ikea.cn/images/78/50/785077833547f98d937c8d2b9fea3439.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/34/d3/34d3fbc5e1f70ffb3092679447f4fbb5.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/78/50/785077833547f98d937c8d2b9fea3439.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-分栏内容 Columns-"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/ikea-business/hospitality/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fikea-business%2Fhospitality%2F&key=",
+    "{\"objectId_var\":\"/ikea-business/hospitality/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "更多项目案例"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/ikea-business/hospitality/",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-按钮 Link-button or text-"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/h5page/?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fib%3Fchannel%3DIRW%2520M2%26cl_sr%3DIB_IRW%2520M2",
+    "NO",
+    "ikea://default-module/H5?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fib%3Fchannel%3DIRW%2520M2%26cl_sr%3DIB_IRW%2520M2",
+    "{\"objectId_var\":\"https://store-companion.ikea.cn/ib?channel=IRW%20M2&cl_sr=IB_IRW%20M2\",\"objectType_var\":\"default-module/H5\"}",
+    "button",
+    "联系宜家对公业务部"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/h5page/?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fib%3Fchannel%3DIRW%2520M2%26cl_sr%3DIB_IRW%2520M2",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-按钮 Link-button or text-"
+   }
+  }
+ ]
+}

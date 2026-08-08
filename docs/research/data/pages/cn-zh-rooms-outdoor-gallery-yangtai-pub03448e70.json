@@ -1,0 +1,42 @@
+{
+ "url": "/cn/zh/rooms/outdoor/gallery/yangtai-pub03448e70",
+ "family": "rooms",
+ "id": "cn--zh--03448e70d45611e78e0a0bf79e0fa98f",
+ "title": "在专属于你的户外休息区放松",
+ "name": "20143-cood07a_PF_CT_SEO_QA",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "在专属于你的户外休息区放松",
+   "texts": [
+    "阳台上放着塑料矮椅、圆形托盘桌和悬挂式花盆，均为白色",
+    "在专属于你的户外休息区放松",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/f2/62/f262330816860842137dcbe33ccf1dcd.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/f2/62/f262330816860842137dcbe33ccf1dcd.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "60193034",
+    "50178835",
+    "30238114"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

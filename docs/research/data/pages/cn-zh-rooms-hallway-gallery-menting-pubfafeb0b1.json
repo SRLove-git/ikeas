@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/hallway/gallery/menting-pubfafeb0b1",
+ "family": "rooms",
+ "id": "cn--zh--fafeb0b1cf7811e78e0a0bf79e0fa98f",
+ "title": "打造干净简洁的入口",
+ "name": "20174-coha01a_PF_CT_SEO_QA",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "打造干净简洁的入口",
+   "texts": [
+    "深灰色的开放式门厅内放着白色的储物单元和大衣挂钩。",
+    "打造干净简洁的入口",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/d2/e2/d2e26b7747302af96891004b61ffcb42.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/d2/e2/d2e26b7747302af96891004b61ffcb42.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "80334759",
+    "90334754",
+    "90216246",
+    "50289579",
+    "30341149"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

@@ -1,0 +1,297 @@
+{
+ "url": "/cn/zh/customer-service/returns-claims/guarantee",
+ "family": "customer-service",
+ "id": "cn--zh--b0fdcb71ae3211e7bee763967dcf9290",
+ "title": "品质保证",
+ "name": "品质保证",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "品质保证"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Page Title-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>我们对产品质量非常有信心，许多产品都涵盖在质保范围内，以下是我们的品质保证列表。</p>\n<p><strong>重要提示：</strong><br />宜家产品的品质保证从产品购买之日起开始生效。进行索赔时，顾客需提供原始购买凭证。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "anchor-navigation",
+   "title": null,
+   "texts": [
+    "TEXT",
+    "YES",
+    "卧室产品",
+    "3ad1ccb1893847d396cb61bd7cfbca08",
+    "浴室产品",
+    "bd84cddd602b4c06992c9bfefb8f8cf1"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-页面导航-电脑"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "two-columns",
+    "column",
+    "NO",
+    "请输入您所需要的文本信息",
+    "pub-image",
+    "IMAGE"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20260429/e787bfdf21a040719909e3e8007f018a.png?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260429/e787bfdf21a040719909e3e8007f018a.png?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/customer-service/returns-claims/guarantee/chuangdianpinzhibaozheng-pub47442310",
+     "text": ""
+    },
+    {
+     "href": "/customer-service/returns-claims/guarantee/pax-komplement-pub43414e20",
+     "text": ""
+    },
+    {
+     "href": "/customer-service/returns-claims/guarantee/-si-ji-ta-hua-men-pin-zhi-bao-zheng-pube3d3221e",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-分栏内容 Columns-"
+   }
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Horizontal Line-"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "two-columns",
+    "column",
+    "cn--zh--84374700afeb11e7b23503ef832e0d7f",
+    "NO",
+    "ikea://cms/page-compatible-web?url=cn--zh--84374700afeb11e7b23503ef832e0d7f&key=cn--zh--a10486bdf0fd11e7ad0cfd2918498b1e",
+    "{\"objectId_var\":\"cn--zh--84374700afeb11e7b23503ef832e0d7f\",\"objectType_var\":\"cms/page-compatible-web\"}"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20250121/258a8ad0c87d46d2a7024c6c65bfe163.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20250121/258a8ad0c87d46d2a7024c6c65bfe163.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/customer-service/returns-claims/guarantee/yushi-pub84374700",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Columns-"
+   }
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Horizontal Line-"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "two-columns",
+    "column",
+    "NO",
+    "请输入您所需要的文本信息",
+    "pub-image",
+    "IMAGE"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20220708/15b4f83593e74491bdcc64ffa03c52a8.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220708/15b4f83593e74491bdcc64ffa03c52a8.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/customer-service/returns-claims/guarantee/keting-pub34d338d0",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Columns-"
+   }
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Horizontal Line-"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "two-columns",
+    "column",
+    "NO",
+    "请输入您所需要的文本信息",
+    "pub-image",
+    "IMAGE"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20250121/a2383db7b0dd4a3ea53597224f1fb514.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20250121/a2383db7b0dd4a3ea53597224f1fb514.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/customer-service/returns-claims/guarantee/chufang-pubf2540d3b",
+     "text": ""
+    },
+    {
+     "href": "/customer-service/returns-claims/guarantee/ikea-pubf5ce25c6",
+     "text": ""
+    },
+    {
+     "href": "/customer-service/returns-claims/guarantee/ikea-pubc57cd6da",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Columns-"
+   }
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Horizontal Line-"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "two-columns",
+    "column",
+    "NO",
+    "请输入您所需要的文本信息",
+    "pub-image",
+    "IMAGE"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20220708/83d34641ec034e03b8da77ceeae5efd0.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220708/83d34641ec034e03b8da77ceeae5efd0.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/customer-service/returns-claims/guarantee/bangong-pub5a4ae7cf",
+     "text": ""
+    },
+    {
+     "href": "/customer-service/returns-claims/guarantee/ikea-pub1fd94ced",
+     "text": ""
+    },
+    {
+     "href": "/customer-service/returns-claims/guarantee/ikea-pub358c5dd8",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Columns-"
+   }
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Horizontal Line-"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/customer-service/product-support/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fcustomer-service%2Fproduct-support%2F&key=cn--zh--6c21e731bbeb11e8affa0d09be91682d",
+    "{\"objectId_var\":\"/customer-service/product-support/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "返回产品介绍"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/customer-service/product-support/",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "6771f43adfd64aae9f890887b55df2f7"
+   }
+  }
+ ]
+}

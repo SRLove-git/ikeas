@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/bathroom/gallery/yushi-pub49118b41",
+ "family": "rooms",
+ "id": "cn--zh--49118b41cb9d11e78e0a0bf79e0fa98f",
+ "title": "为你的早晨增加一点浪漫",
+ "name": "20171-coba01a_PF_CT_SEO_QA",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "为你的早晨增加一点浪漫",
+   "texts": [
+    "一间白色调的小浴室，带有墙角柜、洗手盆和镜子。",
+    "为你的早晨增加一点浪漫",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/db/f1/dbf1d92b33d2c293a7827ababe8b0514.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/db/f1/dbf1d92b33d2c293a7827ababe8b0514.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s39020974",
+    "s39020399",
+    "90268004",
+    "30262123",
+    "80324798"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

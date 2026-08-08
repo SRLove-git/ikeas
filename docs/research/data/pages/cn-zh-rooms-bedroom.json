@@ -1,0 +1,848 @@
+{
+ "url": "/cn/zh/rooms/bedroom",
+ "family": "rooms",
+ "id": "cn--zh--1378a3e0309011ecb7fbd5c58b04ea72",
+ "title": "卧室",
+ "name": "卧室",
+ "hero": "https://file.app.ikea.cn/cms/u/20240925/7e8d6d66ab9a42de8a8eecf9fd6d492f.jpg",
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "卧室"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Page Title-"
+   }
+  },
+  {
+   "type": "pub-visual-navigation",
+   "title": null,
+   "texts": [
+    "small",
+    "/cat/54992",
+    "NO",
+    "ikea://content/plp?catalogId=54992",
+    "{\"objectId_var\":\"54992\",\"objectType_var\":\"plp\"}",
+    "卧室家具组合"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20220210/001b2973ec1e4f3c8475413a0c767d1a.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/global/assets/navigation/images/beds-bm003.jpeg?imwidth=300",
+    "https://file.app.ikea.cn/global/assets/navigation/images/mattresses-bm002.jpeg?imwidth=300",
+    "https://file.app.ikea.cn/global/assets/navigation/images/bedside-tables-20656.jpeg?imwidth=300",
+    "https://file.app.ikea.cn/global/assets/navigation/images/wardrobes-19053.jpeg?imwidth=300"
+   ],
+   "links": [
+    {
+     "href": "/cat/54992",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220210/001b2973ec1e4f3c8475413a0c767d1a.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/cat/bm003",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/global/assets/navigation/images/beds-bm003.jpeg?imwidth=300",
+     "text": ""
+    },
+    {
+     "href": "/cat/bm002",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/global/assets/navigation/images/mattresses-bm002.jpeg?imwidth=300",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "8cadcaec5dcd46c38d94cd0d7ec40295"
+   }
+  },
+  {
+   "type": "anchor-navigation",
+   "title": null,
+   "texts": [
+    "BUTTON",
+    "YES",
+    "当季推荐",
+    "fb86fa9aa35748bd9cd2753c662dd56f",
+    "舒适睡眠",
+    "a3d7cebc17f94c70b954587543fd3b3a"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "458d7b52818b44389ea1a93a05fa2564"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p style=\"line-height: 8px;\">&nbsp; &nbsp;</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "夏日好眠，从选择床品开始",
+   "texts": [
+    "/new/seasonal-textile-pub2fe7fbf2",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fnew%2Fseasonal-textile-pub2fe7fbf2&key=cn--zh--2fe7fbf2af004853875f17f92dedc7ac",
+    "{\"objectId_var\":\"/new/seasonal-textile-pub2fe7fbf2\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "欢迎选购我们的全新纺织品，感受触觉和视觉的双重舒适，让你的卧室在这个夏日活力满满！",
+    "夏日好眠，从选择床品开始"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/content/u/20251128/01C50174-C83C-44FC-95B2EBF81B9A31FE.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content/u/20251127/7C55D751-CF97-47FD-B315309101811E91.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/new/seasonal-textile-pub2fe7fbf2",
+     "text": ""
+    },
+    {
+     "href": "/inspiration/detail/01C50174-C83C-44FC-95B2EBF81B9A31FE",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20251128/01C50174-C83C-44FC-95B2EBF81B9A31FE.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20251127/7C55D751-CF97-47FD-B315309101811E91.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-栅格合集 Curated Gallery-夏日好眠，从选择床品开始"
+   }
+  },
+  {
+   "type": "pub-banner",
+   "title": null,
+   "texts": [
+    "https://file.app.ikea.cn/cms/u/20240513/5ae586a840834b7cb6174a7ca6e02cf4.mp4",
+    "VIDEO",
+    "standard",
+    "YES",
+    "hosted",
+    "image-text-landscape"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20240513/20ba318432444dea9b1cc81eaedb0be0.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20240513/5ae586a840834b7cb6174a7ca6e02cf4.mp4",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20240513/5ae586a840834b7cb6174a7ca6e02cf4.mp4",
+     "text": ""
+    },
+    {
+     "href": "/landing-page/cn--zh--8add75da958b421f94d31b0ee4429f9b",
+     "text": ""
+    },
+    {
+     "href": "/rooms/bedroom/yi-jia-shu-kuo-liang-gan-shui-mian-jing-xuan-shang-pin-pub8add75da",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Banner-"
+   }
+  },
+  {
+   "type": "pub-visual-pill-slider",
+   "title": null,
+   "texts": [
+    "/rooms/bedroom/gallery/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fbedroom%2Fgallery%2F&key=cn--zh--d00cdc10f49c11e985666330b3f1e3b3",
+    "{\"objectId_var\":\"/rooms/bedroom/gallery/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "名称",
+    "ikea://cms/landing-page?key=cn--zh--d00cdc10f49c11e985666330b3f1e3b3"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20250205/dd2c14c6ba514aae885948d14bdc75a5.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20250205/a1f1e0108b68475eb236a1ee6291dd9f.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20250205/cf07f338b8c4449db244ac2f8012c507.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20241130/18795f8f4d87430e94a66f0ae8600e9e.avif",
+    "https://file.app.ikea.cn/cms/u/20241130/48744a8ddace45fabc971ea2c49a880d.avif"
+   ],
+   "links": [
+    {
+     "href": "/rooms/bedroom/gallery/",
+     "text": ""
+    },
+    {
+     "href": "/rooms/bedroom/gallery/a-modern-eclectic-bedroom-with-space-for-your-dreams-pubd70320b6",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20250205/dd2c14c6ba514aae885948d14bdc75a5.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/rooms/bedroom/gallery/feeling-good-in-a-modern-vintage-style-bedroom-pub756bc26a",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20250205/a1f1e0108b68475eb236a1ee6291dd9f.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/rooms/bedroom/gallery/a-vibrant-graphic-style-bedroom-that-works-as-hard-as-you-pub3f9d9511",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Visual Pill Slider-"
+   }
+  },
+  {
+   "type": "pub-banner",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "standard",
+    "YES",
+    "embed",
+    "image-text-landscape",
+    "<p>选择你心仪的色彩、图案和材质，搭配出理想中的个性卧室！</p>"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20250428/ca8f6a9e4bd44d709b7e591a5ac00eec.gif",
+    "https://file.app.ikea.cn/cms/u/20240513/20ba318432444dea9b1cc81eaedb0be0.jpg",
+    "https://file.app.ikea.cn/cms/u/20260210/fd5872d98c734a2680f674d0e4012240.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20250428/ca8f6a9e4bd44d709b7e591a5ac00eec.gif",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260210/fd5872d98c734a2680f674d0e4012240.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/rooms/bedroom/bu-tong-feng-ge-de-fang-zhi-pin-pubdbad037d",
+     "text": ""
+    },
+    {
+     "href": "/rooms/bedroom/bu-tong-feng-ge-de-fang-zhi-pin-pubdbad037d",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Banner-"
+   }
+  },
+  {
+   "type": "ranking",
+   "title": " 卧室热销产品",
+   "texts": [
+    "卧室热销产品",
+    "TOP",
+    "#ffffff",
+    "bm002,20529,20533,bm003,19053",
+    "/apps/ranking?rankId=bedroom",
+    "LIGHT"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-排行榜- 卧室热销产品"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p style=\"line-height: 8px;\">&nbsp; &nbsp;</p>\n<h1>发现舒适睡眠的秘诀</h1>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-image-with-text-box",
+   "title": null,
+   "texts": [
+    "alt for image",
+    "/landing-page/cn--zh--59a18495d76e45f3a6fc7d76578e30fd",
+    "NO",
+    "ikea://cms/page-compatible-web?key=cn--zh--59a18495d76e45f3a6fc7d76578e30fd&url=%2Flanding-page%2Fcn--zh--59a18495d76e45f3a6fc7d76578e30fd",
+    "{\"objectId_var\":\"/landing-page/cn--zh--59a18495d76e45f3a6fc7d76578e30fd\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "IMAGE"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20250921/e1b7adb7fab944aa82603917301901bb.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/landing-page/cn--zh--59a18495d76e45f3a6fc7d76578e30fd",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20250921/e1b7adb7fab944aa82603917301901bb.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "8a45119e79c644c286dab2492ff32f0f"
+   }
+  },
+  {
+   "type": "pub-visual-pill-slider",
+   "title": null,
+   "texts": [
+    "/rooms/bedroom/mattress-pubffaa4347",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fbedroom%2Fmattress-pubffaa4347",
+    "{\"objectId_var\":\"/rooms/bedroom/mattress-pubffaa4347\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "名称",
+    "IMAGE"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20241116/95c3fe93f2284a288f74347894612e32.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20241116/c290f409c6264c4fa38b10f3139deb7d.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20241116/4dea25ad1ce64104b00a012de0ab0b5a.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20241116/0c8bb74df94744c58b0567f18d9c2904.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20241116/fc2b87096c514f71ba67c20744bc5421.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/rooms/bedroom/mattress-pubffaa4347",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20241116/95c3fe93f2284a288f74347894612e32.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/rooms/bedroom/bei-zi-pubba7c3a50",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20241116/c290f409c6264c4fa38b10f3139deb7d.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/rooms/bedroom/zhen-tou-pillow-pub0d582aa4",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20241116/4dea25ad1ce64104b00a012de0ab0b5a.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Visual Pill Slider-"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/rooms/bedroom/how-to/",
+    "NO",
+    "ikea://cms/page-compatible-web?key=cn--zh--709735002f4511ed94136b963246cf0e&url=%2Frooms%2Fbedroom%2Fhow-to%2F",
+    "{\"objectId_var\":\"/rooms/bedroom/how-to/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "更多卧室家居指南"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/rooms/bedroom/how-to/",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Link - button or text-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p style=\"line-height: 8px;\">&nbsp; &nbsp;&nbsp;</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-banner",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "portrait",
+    "YES",
+    "embed",
+    "image-text-portrait",
+    "square"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20221018/4c7da9526b7e48eb87ff1743cbafbf6b.jpg",
+    "https://file.app.ikea.cn/cms/u/20221018/4c7da9526b7e48eb87ff1743cbafbf6b.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20221018/4c7da9526b7e48eb87ff1743cbafbf6b.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20221018/4c7da9526b7e48eb87ff1743cbafbf6b.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/cat/54992",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Banner-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>更多卧室家具系列</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-visual-pill-slider",
+   "title": null,
+   "texts": [
+    "/cn/zh/rooms/bedroom/-bu-wa-la-pub22fcdca6",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fcn%2Fzh%2Frooms%2Fbedroom%2F-bu-wa-la-pub22fcdca6",
+    "{\"objectId_var\":\"/cn/zh/rooms/bedroom/-bu-wa-la-pub22fcdca6\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "为\"小预算\"设计",
+    "returns-icon"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20230607/17e05fcdb9854a6c8489c8ef13c1a9dc.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20221018/ef4ba8b6588844f59c26d669cf3d0863.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20221018/76513e6d9e8949c595efa063e34bac0d.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20221018/2eb2c58f16784d1894e10fa66fe8e386.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/cn/zh/rooms/bedroom/-bu-wa-la-pub22fcdca6",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20230607/17e05fcdb9854a6c8489c8ef13c1a9dc.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=HAUGA 豪嘉",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20221018/ef4ba8b6588844f59c26d669cf3d0863.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/cat/19086",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20221018/76513e6d9e8949c595efa063e34bac0d.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Visual Pill Slider-"
+   }
+  },
+  {
+   "type": "pub-banner",
+   "title": null,
+   "texts": [
+    "https://file.app.ikea.cn/cms/u/20250206/d4f01befa56a45f583423afd01ba1830.mp4",
+    "VIDEO",
+    "square",
+    "YES",
+    "hosted",
+    "image-text-portrait"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20220531/f34e35bb1acf42aca002b05b43bea0b3.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20250206/d4f01befa56a45f583423afd01ba1830.mp4",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20250206/d4f01befa56a45f583423afd01ba1830.mp4",
+     "text": ""
+    },
+    {
+     "href": "/rooms/bedroom/how-to/pax-guide-pubb7ab1574",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "3fbe46614d384750ac0a3a216b91e33c"
+   }
+  },
+  {
+   "type": "pub-banner",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "image-text-landscape",
+    "<p>甲醛释放量严格把关，安心之选。</p>",
+    "测试过的 安心材质",
+    "/product-guides/sustainable-products/jia-quan-yan-ge-ba-guan-pub6885dd9f",
+    "NO"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20260121/07d60c8133df4e6399d0014bc99c9823.jpg",
+    "https://file.app.ikea.cn/cms/u/20260121/07d60c8133df4e6399d0014bc99c9823.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260121/07d60c8133df4e6399d0014bc99c9823.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260121/07d60c8133df4e6399d0014bc99c9823.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/product-guides/sustainable-products/jia-quan-yan-ge-ba-guan-pub6885dd9f",
+     "text": ""
+    },
+    {
+     "href": "/landing-page/cn--zh--6885dd9fef2f4a37b0417dfac9b93a1d",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-媒体色块组合 Banner-"
+   }
+  },
+  {
+   "type": "pub-visual-pill-slider",
+   "title": null,
+   "texts": [
+    "/cat/37894",
+    "NO",
+    "ikea://content/plp?catalogId=37894",
+    "{\"objectId_var\":\"37894\",\"objectType_var\":\"plp\"}",
+    "PLATSA 普拉萨 模块化储物",
+    "returns-icon"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20220531/97fe31dd5dbc4dedb731e020dbd70890.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220531/8397bb2c552344b5bcf6523437e251c7.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220531/27268739bc1d4a5e9295d256df403db8.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220531/4c1e28056aba4cd7b05177cdaccaf479.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220531/3813a9efb69b4131b915362eb29d3670.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/cat/37894",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220531/97fe31dd5dbc4dedb731e020dbd70890.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/cat/49140",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220531/8397bb2c552344b5bcf6523437e251c7.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/cat/45730",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220531/27268739bc1d4a5e9295d256df403db8.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "f436a147ef2249b49da98a986ca6684c"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "分类收纳好帮手",
+   "texts": [
+    "/cat/10452",
+    "NO",
+    "ikea://content/plp?catalogId=10452",
+    "{\"objectId_var\":\"10452\",\"objectType_var\":\"plp\"}",
+    "我们的衣物收纳产品可以帮助你充分利用衣柜或抽屉空间。",
+    "分类收纳好帮手"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/10452",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "bedroom_small price"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p style=\"line-height: 8px;\">&nbsp;&nbsp;</p>\n<h2>打造理想卧室的指南</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-inspiration-card",
+   "title": null,
+   "texts": [
+    "4b09ec60-30b8-11ec-a2b2-1d0cad088736",
+    "/rooms/bedroom/gallery/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fbedroom%2Fgallery%2F&key=cn--zh--d00cdc10f49c11e985666330b3f1e3b3",
+    "{\"objectId_var\":\"/rooms/bedroom/gallery/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "50471719"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20241130/ad7fafea7fb946eaa30f8506c3daa59a.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260623/21574f2bf8c5471cbb0d2867c60ed894.png?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260623/0872a2e4089b4901a3127c7567e0e93e.png?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260623/c4b8ee26e58e4645b1cf05184870d81a.png?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260713/f81cc20adca045689b1313a1785d8f78.png?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/rooms/bedroom/gallery/",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20241130/ad7fafea7fb946eaa30f8506c3daa59a.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/rooms/bedroom/how-to/how-to-fold-a-fitted-sheet-and-other-handy-tips-to-help-organise-your-linen-closet-pub5f4511a9",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260623/21574f2bf8c5471cbb0d2867c60ed894.png?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/rooms/bedroom/how-to/walk-in-wardrobe-ideas-tips-and-inspiration-pub23f91d41",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260623/0872a2e4089b4901a3127c7567e0e93e.png?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "卧室布置灵感和建议"
+   }
+  },
+  {
+   "type": "pub-banner",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "wide",
+    "image-text-landscape",
+    "<p>家对你来说是独一无二的&mdash;&mdash;你的室内设计风格也同样如此。家可以宁静、和谐，也可以不拘一格或多元混合。一起探索宜家风格页面，发现能够表达你个人风格的创意、灵感和技巧。</p>",
+    "发现专属于你的家居风格",
+    "/ideas/styles/"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20250225/17a9c8810e904b65b4b3b62a1f15a9a5.jpg",
+    "https://file.app.ikea.cn/cms/u/20250225/17a9c8810e904b65b4b3b62a1f15a9a5.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20250225/17a9c8810e904b65b4b3b62a1f15a9a5.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20250225/17a9c8810e904b65b4b3b62a1f15a9a5.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/ideas/styles/",
+     "text": ""
+    },
+    {
+     "href": "/ideas/styles/",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Banner-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>&nbsp; &nbsp;</p>\n<h2>我们的服务和质保</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "1b41c2a81a7941cbb829f347cdafa42e"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "two-columns",
+    "column",
+    "NO",
+    "请输入您所需要的文本信息",
+    "pub-image",
+    "IMAGE"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20220413/bdd04e6395364b5e891df3db54463d1b.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220413/fcf5a06fb5924693a6c2d3c99f3547c0.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220413/0fa9917ea91942fc8d210c94606560be.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220413/bdd04e6395364b5e891df3db54463d1b.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220413/fcf5a06fb5924693a6c2d3c99f3547c0.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220413/0fa9917ea91942fc8d210c94606560be.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "1458cd2bb15a4220953ac78222ee6982"
+   }
+  },
+  {
+   "type": "pub-assurances",
+   "title": null,
+   "texts": [
+    "/customer-service/services/delivery/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fcustomer-service%2Fservices%2Fdelivery%2F&key=",
+    "{\"objectId_var\":\"/customer-service/services/delivery/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "送货服务",
+    "shipping-truck"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/customer-service/services/delivery/",
+     "text": ""
+    },
+    {
+     "href": "/customer-service/services/assembly/",
+     "text": ""
+    },
+    {
+     "href": "/customer-service/returns-claims/return-policy/",
+     "text": ""
+    },
+    {
+     "href": "/customer-service/services/buy-back/",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "3bf3913192094e708d83ce272cddbb8e"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p style=\"line-height: 8px;\">&nbsp;</p>\n<h2>探索更多</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "1b41c2a81a7941cbb829f347cdafa42e"
+   }
+  },
+  {
+   "type": "inspirations",
+   "title": null,
+   "texts": [
+    "IMAGE_ONLY",
+    "WATERFALL",
+    "PGC",
+    "TAGS_INPUT",
+    "065a7eb1fa61390fa0e5e6f9f970c49d",
+    "fc01e307d2da36769ec209ab139c3b2a"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "024a159e2cd34f4db1198da7b111adb3"
+   }
+  },
+  {
+   "type": "float-icon",
+   "title": null,
+   "texts": [
+    "ikea://default-module/H5?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fdesign-leads%2Fwrd.html%3Fchannel%3DEC_website%26cl_sr%3DIRW_homepage_3nd"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20240801/aacd06d12a384e63be4e5bf2860b3569.gif"
+   ],
+   "links": [],
+   "settings": {
+    "traceId": "cms-浮层按钮-"
+   }
+  }
+ ]
+}

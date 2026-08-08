@@ -1,0 +1,967 @@
+{
+ "url": "/cn/zh/campaigns/Summer-pub1808ce00",
+ "family": "campaigns",
+ "id": "cn--zh--1808ce00f4c3425dbf2c6c5c68522a18",
+ "title": "夏日家居灵感",
+ "name": "夏日小改变 生活大梦想",
+ "hero": "https://file.app.ikea.cn/cms/u/20220604/44356069b18c423cb2459289a3dbd6e1.jpg",
+ "blocks": [
+  {
+   "type": "image",
+   "title": null,
+   "texts": [
+    "NO"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20220406/0ce144a411d942e3bac69fe988e3761f.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220406/0ce144a411d942e3bac69fe988e3761f.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "大图-夏日小改变 生活大梦想"
+   }
+  },
+  {
+   "type": "pub-banner",
+   "title": null,
+   "texts": [
+    "https://file.app.ikea.cn/cms/u/20220406/85869fdeb7ab4365b90d80e1cf77d9c8.mp4",
+    "VIDEO",
+    "portrait",
+    "hosted",
+    "image-text-portrait",
+    "<p>有时候，我们的生活也需要一些&ldquo;梦幻&rdquo;。</p>\n<p>夏季将至，你只需要做一点简单的改变，便能收获全新面貌的居所，一起迎接美好夏日的到来吧！</p>"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220406/85869fdeb7ab4365b90d80e1cf77d9c8.mp4",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220406/85869fdeb7ab4365b90d80e1cf77d9c8.mp4",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "banner-夏日小改变 生活大梦想"
+   }
+  },
+  {
+   "type": "pub-visual-pill-slider",
+   "title": null,
+   "texts": [
+    "一只手正在调节GLYPEN 格吕彭 厨房水龙头的水流大小，水龙头采用不锈钢制成，旁边放着TÅRTSMET 托米特 洗盘刷",
+    "/h5page/?url=%234107702f344545ca94d41236d8eb5881",
+    "NO",
+    "ikea://default-module/H5?url=%234107702f344545ca94d41236d8eb5881",
+    "{\"objectId_var\":\"#4107702f344545ca94d41236d8eb5881\",\"objectType_var\":\"default-module/H5\"}",
+    "清凉安睡"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20220406/d30ea46ba92a48afa9407d5d4d2cffab.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220406/7cbe5efa16fb4d0c828d9801cb117ac4.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220406/8bd372592cf245508bb6ce642ca7dc27.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220406/02b31296421e49339f2c8caa94deb3f8.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220406/3872923ab2c44daa9b8f38de8477d4d7.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/h5page/?url=%234107702f344545ca94d41236d8eb5881",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220406/d30ea46ba92a48afa9407d5d4d2cffab.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/h5page/?url=%23d03a86882aa54a19acd4350efe60554c",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220406/7cbe5efa16fb4d0c828d9801cb117ac4.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/h5page/?url=%23f2e81a23816a453782f6fe1e9d841b2f",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220406/8bd372592cf245508bb6ce642ca7dc27.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "visualpillslider-分类导航-web"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "two-columns",
+    "column",
+    "<h2>唤醒夏日之家</h2>\n<p>初夏已至，我们更需要良好的休息和整洁的空间，让身体和心灵焕然一新。</p>",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "columns-唤醒夏日之家"
+   }
+  },
+  {
+   "type": "anchor-navigation",
+   "title": null,
+   "texts": [
+    "YES",
+    "清凉安睡",
+    "4107702f344545ca94d41236d8eb5881",
+    "静谧时光",
+    "d03a86882aa54a19acd4350efe60554c",
+    "自如收纳"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "43f6ffaac40e45e79fdd99bea156f577"
+   }
+  },
+  {
+   "type": "image",
+   "title": null,
+   "texts": [
+    "NO"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20220407/d709c8f881ed48fc845450cff4840dc3.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220407/d709c8f881ed48fc845450cff4840dc3.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "大图-分隔栏"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "明艳的夏日氛围",
+   "texts": [
+    "/cat/10651",
+    "NO",
+    "ikea://content/plp?catalogId=10651",
+    "{\"objectId_var\":\"10651\",\"objectType_var\":\"plp\"}",
+    "贝壳和珊瑚的印花，明艳的条纹和马戏图案，亚麻的优雅质感......营造清新明快的夏日氛围，给卧室增添更多的浪漫气息。",
+    "明艳的夏日氛围"
+   ],
+   "images": [
+    "https://res.app.ikea.cn/content/u/20220412/8c7e6fbc23d74f9591c877a5ff0e0f46.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220406/0a469807a24447e2af4a1d3e3ee75c45.jpg?x-oss-process=style/medium",
+    "https://res.app.ikea.cn/content/u/20220412/ea03321a1e894568883f5e3c61f5d264.jpg?x-oss-process=style/medium",
+    "https://res.app.ikea.cn/content/u/20220412/f170aa3f79ad4c3a9236ee6a61a5ac6c.jpg?x-oss-process=style/medium",
+    "https://res.app.ikea.cn/content/u/20220412/da8b38e6cc0649e18aba8fa67d60b2fb.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/cat/10651",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=VITPYROLA",
+     "text": ""
+    },
+    {
+     "href": "https://res.app.ikea.cn/content/u/20220412/8c7e6fbc23d74f9591c877a5ff0e0f46.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=NÄSSELKLOCKA",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220406/0a469807a24447e2af4a1d3e3ee75c45.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=DYTÅG",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "curatedgalley-明艳的夏日氛围"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "NO",
+    "MANUAL_INPUT",
+    "00520977",
+    "50523558",
+    "20423193",
+    "20518884"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "productshelf-被套枕套"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "清凉安睡",
+   "texts": [
+    "/cat/tl004",
+    "NO",
+    "ikea://content/plp?catalogId=tl004",
+    "{\"objectId_var\":\"tl004\",\"objectType_var\":\"plp\"}",
+    "用清爽的床上用品，迎接炎炎夏日，即使温度不断攀升，也可以获得一夜好眠。",
+    "清凉安睡"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/imported/20210824/48ec6d42c229f1c7320d2a94a7d89142d4acb4fb.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220412/1fc5756c2ff04631ac0034ad8764a4cf.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220413/7397d2dcdca84535b397d78a6e0189aa.jpg?x-oss-process=style/medium",
+    "https://res.app.ikea.cn/content/u/20220412/390412cc1fcb493caf19b6f5f5e743d9.jpg?x-oss-process=style/medium",
+    "https://res.app.ikea.cn/content/u/20220412/6d51998fb9bb424ebce3264e68aadf26.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/cat/tl004",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/imported/20210824/48ec6d42c229f1c7320d2a94a7d89142d4acb4fb.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/p/80446097?artType=art",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220412/1fc5756c2ff04631ac0034ad8764a4cf.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/p/80446097?artType=art",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220413/7397d2dcdca84535b397d78a6e0189aa.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "curatedgalley-清凉安睡"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "NO",
+    "柔软舒适的薄被和凉感材质的枕头，有助于散发热量，让你远离潮湿粘腻，营造良好的睡眠环境。",
+    "MANUAL_INPUT",
+    "80446097",
+    "20503019",
+    "10519577"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "productshelf-薄被和枕头"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "静谧时光",
+   "texts": [
+    "/search/products?q=藤编",
+    "NO",
+    "ikea://default-module/search?query=%E8%97%A4%E7%BC%96",
+    "{\"objectId_var\":\"藤编\",\"objectType_var\":\"search_result\"}",
+    "待在家中，亦能享受洒落一室的阳光。用藤编家具布置夏日的家，感受来自大自然的清凉质感，开启悠然自得的午后。",
+    "静谧时光"
+   ],
+   "images": [
+    "https://res.app.ikea.cn/content/u/20220325/8c39a6f3758a4a64beebec24ebd76100.png?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220421/dd7f1de5a91e42218a3ff118d4d211b5.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220421/81e3d37f27bf4840825e6ab56c568fe4.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220421/fe061218ce7147ab8cf97217ea34d864.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220421/6b58327f33b14213a669ef499111526e.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/search/products?q=藤编",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=TOLKNING",
+     "text": ""
+    },
+    {
+     "href": "https://res.app.ikea.cn/content/u/20220325/8c39a6f3758a4a64beebec24ebd76100.png?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=TOLKNING",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220421/dd7f1de5a91e42218a3ff118d4d211b5.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=TOLKNING",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "curatedgalley-静谧时光"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "/search/products?q=休闲家具",
+    "NO",
+    "ikea://default-module/search?query=%E4%BC%91%E9%97%B2%E5%AE%B6%E5%85%B7",
+    "{\"objectId_var\":\"休闲家具\",\"objectType_var\":\"search_result\"}",
+    "打开冷气，将身体窝进舒适透气的藤椅里，双脚搁在草编脚凳上，夏日饮品在边桌就位......让夏日的燥热一扫而空",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/search/products?q=休闲家具",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "productshelf-更多休闲家具"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "加点情调",
+   "texts": [
+    "/home-furnishing-accessories-pub6d63f230",
+    "NO",
+    "ikea://cms/page-compatible-web?key=cn--zh--6d63f2301c2f11ec9bee63c95ae04e1c&url=%2Fhome-furnishing-accessories-pub6d63f230",
+    "{\"objectId_var\":\"/home-furnishing-accessories-pub6d63f230\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "夜晚来临，打开身旁的落地灯，暖光带来温馨氛围，搭配艺术画和香薰等小物，营造全方位感官享受。",
+    "加点情调"
+   ],
+   "images": [
+    "https://res.app.ikea.cn/content/u/20220412/463b85b2742d44a8b80985b2650ffca4.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220421/3540031fe50d46d2abe92718349b5881.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220406/438832ff993d42038e1e1946c1cb41b6.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220421/215a5e648f4e4c91a9a6d9af083e3b37.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220421/4073d21e1cae4a5cb3247cf06dfad184.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/home-furnishing-accessories-pub6d63f230",
+     "text": ""
+    },
+    {
+     "href": "/p/00459710?artType=art",
+     "text": ""
+    },
+    {
+     "href": "https://res.app.ikea.cn/content/u/20220412/463b85b2742d44a8b80985b2650ffca4.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=REGNSKUR",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220421/3540031fe50d46d2abe92718349b5881.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=knoppang",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "curatedgalley-加点情调"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "点亮夏夜",
+   "texts": [
+    "/cat/li002",
+    "NO",
+    "ikea://content/plp?catalogId=li002",
+    "{\"objectId_var\":\"li002\",\"objectType_var\":\"plp\"}",
+    "点亮夏夜",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/li002",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "productshelf-点亮夏夜"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "小点缀，大不同",
+   "texts": [
+    "/cat/de001",
+    "NO",
+    "ikea://content/plp?catalogId=de001",
+    "{\"objectId_var\":\"de001\",\"objectType_var\":\"plp\"}",
+    "小点缀，大不同",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/de001",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "productshelf-小点缀，大不同-web"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "自如收纳",
+   "texts": [
+    "/rooms/hallway/",
+    "NO",
+    "ikea://cms/page-compatible-web?key=cn--zh--5a43a59025af11ecb579e70c31db7f05&url=%2Frooms%2Fhallway%2F",
+    "{\"objectId_var\":\"/rooms/hallway/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "每个季节，你的生活习惯可能都不一样，收纳布局也将随之而变。我们的收纳用品让家的每个角落都焕然一新。",
+    "自如收纳"
+   ],
+   "images": [
+    "https://res.app.ikea.cn/content/u/20220412/60730818d46145c98cd21a46f067cf8b.jpg?x-oss-process=style/medium",
+    "https://res.app.ikea.cn/content/u/20220412/10867d01c0244852b8a25edb1dad5666.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/rooms/hallway/",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=MACKAPÄR",
+     "text": ""
+    },
+    {
+     "href": "https://res.app.ikea.cn/content/u/20220412/60730818d46145c98cd21a46f067cf8b.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=MACKAPÄR",
+     "text": ""
+    },
+    {
+     "href": "https://res.app.ikea.cn/content/u/20220412/10867d01c0244852b8a25edb1dad5666.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "curatedgalley-自如收纳"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "/cat/st005",
+    "NO",
+    "ikea://content/plp?catalogId=st005",
+    "{\"objectId_var\":\"st005\",\"objectType_var\":\"plp\"}",
+    "头顶骄阳，夏日出门防晒必不可少。防晒衣和遮阳帽挂在衣帽架上，一目了然，将墨镜、遮阳伞和防晒霜等物品放在门厅中，方便你出门时使用。",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/st005",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "productshelf-鞋柜和衣帽架"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "墙面收纳",
+   "texts": [
+    "/cat/st006",
+    "NO",
+    "ikea://content/plp?catalogId=st006",
+    "{\"objectId_var\":\"st006\",\"objectType_var\":\"plp\"}",
+    "这些产品适用家中任意角落——开放式的EKET 伊克特可以随意组合，展示收纳；NEREBY 奈瑞比 挂杆整齐悬挂你的爱用好物；门后的洞洞板是日程表和小物件的好去处。",
+    "墙面收纳"
+   ],
+   "images": [
+    "https://res.app.ikea.cn/content/u/20220413/8a0a7a60baa9476a99b60163d6ad3e8a.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220407/1b7c1b4d3caf4921bc60b388594e216b.jpg?x-oss-process=style/medium",
+    "https://res.app.ikea.cn/content/u/20220421/999989fd16534bf78ac58ac8ad1bf80f.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220407/4377969be8ba49c6aa63ba6acee5dc21.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220407/747306ded92d4b9fb9b46fca871ab087.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/cat/st006",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=EKET",
+     "text": ""
+    },
+    {
+     "href": "https://res.app.ikea.cn/content/u/20220413/8a0a7a60baa9476a99b60163d6ad3e8a.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=EKET",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220407/1b7c1b4d3caf4921bc60b388594e216b.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=NEREBY",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "curatedgalley-墙面收纳"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "/cat/10550",
+    "NO",
+    "ikea://content/plp?catalogId=10550",
+    "{\"objectId_var\":\"10550\",\"objectType_var\":\"plp\"}",
+    "过季衣物，新鲜蔬果，清洁工具......用这些灵活的收纳产品让各类物品各得其所",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/10550",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "productshelf-更多小型储物产品"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "夏日盛宴",
+   "texts": [
+    "/dining/how-to/mei3-guan1-de-ji1-chu3-can1-zhuo1-bu4-zhi4-pubb505ffc0",
+    "NO",
+    "ikea://cms/page-compatible-web?key=cn--zh--b505ffc09ddb11eba0b3f1d579c5214d&url=%2Fdining%2Fhow-to%2Fmei3-guan1-de-ji1-chu3-can1-zhuo1-bu4-zhi4-pubb505ffc0",
+    "{\"objectId_var\":\"/dining/how-to/mei3-guan1-de-ji1-chu3-can1-zhuo1-bu4-zhi4-pubb505ffc0\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "明媚的夏日，餐桌也跟着活泼起来。一起用多彩的餐具和玻璃器皿打造活力又清爽的用餐体验。",
+    "夏日盛宴"
+   ],
+   "images": [
+    "https://res.app.ikea.cn/content/u/20220325/a010f77c80d548b3820d18ddb3b073a8.png?x-oss-process=style/medium",
+    "https://res.app.ikea.cn/content/u/20220325/8f2b203062424f7dad4637d820b793b6.png?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/dining/how-to/mei3-guan1-de-ji1-chu3-can1-zhuo1-bu4-zhi4-pubb505ffc0",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=ANLEDNING",
+     "text": ""
+    },
+    {
+     "href": "https://res.app.ikea.cn/content/u/20220325/a010f77c80d548b3820d18ddb3b073a8.png?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=OMBONAD",
+     "text": ""
+    },
+    {
+     "href": "https://res.app.ikea.cn/content/u/20220325/8f2b203062424f7dad4637d820b793b6.png?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "curatedgalley-夏日盛宴"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "焕新餐桌",
+   "texts": [
+    "/cat/18860",
+    "NO",
+    "ikea://content/plp?catalogId=18860",
+    "{\"objectId_var\":\"18860\",\"objectType_var\":\"plp\"}",
+    "焕新餐桌",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/18860",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "productshelf-焕新餐桌"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "“无限续杯”的快乐",
+   "texts": [
+    "/cat/18868",
+    "NO",
+    "ikea://content/plp?catalogId=18868",
+    "{\"objectId_var\":\"18868\",\"objectType_var\":\"plp\"}",
+    "大容量饮料罐，装下清凉冷饮，只需打开龙头，就能获得无限续杯的畅爽。",
+    "“无限续杯”的快乐"
+   ],
+   "images": [
+    "https://res.app.ikea.cn/content/u/20220412/bbb1f2065bc1414eb492f274738124d8.jpg?x-oss-process=style/medium",
+    "https://res.app.ikea.cn/content/u/20220412/f4d5417f56524ccd9bb4f67f57dba669.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/cat/18868",
+     "text": ""
+    },
+    {
+     "href": "/p/60452640?artType=art",
+     "text": ""
+    },
+    {
+     "href": "https://res.app.ikea.cn/content/u/20220412/bbb1f2065bc1414eb492f274738124d8.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/p/10362406?artType=art",
+     "text": ""
+    },
+    {
+     "href": "https://res.app.ikea.cn/content/u/20220412/f4d5417f56524ccd9bb4f67f57dba669.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "curatedgalley-“无限续杯”的快乐"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "/cat/10550",
+    "NO",
+    "ikea://content/plp?catalogId=10550",
+    "{\"objectId_var\":\"10550\",\"objectType_var\":\"plp\"}",
+    "清凉夏日从冰饮开始！剔透的玻璃杯是果汁和汽水的绝佳搭配，由里到外迅速“降温”。",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/10550",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "productshelf-玻璃杯"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "拥抱户外阳光",
+   "texts": [
+    "/cat/ss001",
+    "NO",
+    "ikea://content/plp?catalogId=ss001",
+    "{\"objectId_var\":\"ss001\",\"objectType_var\":\"plp\"}",
+    "走出户外，夏天属于每个沉浸其中的人。你可以在阳台上聆听夏夜蝉鸣，或是和朋友们来一次BBQ……别错过这欢乐又精彩的季节！",
+    "拥抱户外阳光"
+   ],
+   "images": [
+    "https://res.app.ikea.cn/content/u/20220412/1e5ef6c5b0e842468b6843a3a46fc6bd.jpg?x-oss-process=style/medium",
+    "https://res.app.ikea.cn/content/u/20220325/6aa8ed2f43ec482f8220beab0a72c1ff.png?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/cat/ss001",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=SOMMARFLÄDER",
+     "text": ""
+    },
+    {
+     "href": "https://res.app.ikea.cn/content/u/20220412/1e5ef6c5b0e842468b6843a3a46fc6bd.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=SOMMARFLÄDER",
+     "text": ""
+    },
+    {
+     "href": "https://res.app.ikea.cn/content/u/20220325/6aa8ed2f43ec482f8220beab0a72c1ff.png?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "curatedgalley-拥抱户外阳光-web"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "/search/products?q=SOMMARFLÄDER",
+    "NO",
+    "ikea://default-module/search?query=SOMMARFL%C3%84DER",
+    "{\"objectId_var\":\"SOMMARFLÄDER\",\"objectType_var\":\"search_result\"}",
+    "帮助你创造和留存美好夏日回忆的托盘、餐巾纸和桌布。设计灵感来自英国海滨小镇。尤其适合野餐、海滩度假或举办花园派对时使用！",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/search/products?q=SOMMARFLÄDER",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "productshelf-索夫拉得系列"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "阳台绿洲",
+   "texts": [
+    "/rooms/outdoor/gallery/xiao-yang-tai-ye-neng-meng-xiang-cheng-zhen-pubbec0c5f0",
+    "NO",
+    "ikea://cms/page-compatible-web?key=cn--zh--05bb06e0c9ec11eb80ee03286bef7e80&url=%2Frooms%2Foutdoor%2Fgallery%2Fxiao-yang-tai-ye-neng-meng-xiang-cheng-zhen-pubbec0c5f0",
+    "{\"objectId_var\":\"/rooms/outdoor/gallery/xiao-yang-tai-ye-neng-meng-xiang-cheng-zhen-pubbec0c5f0\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "利用有限的空间，让阳台变成绿意盎然的“小森林”，做一次深呼吸！当夜幕降临，灯光亮起，你也能继续享受宁静夏夜。",
+    "阳台绿洲"
+   ],
+   "images": [
+    "https://res.app.ikea.cn/content/u/20220421/2e17006ffbb14f9d9fb43d75f6d104e5.jpg?x-oss-process=style/medium",
+    "https://res.app.ikea.cn/content/u/20220412/ec4d2bf6679a482a9f333ec0b19f39d7.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/rooms/outdoor/gallery/xiao-yang-tai-ye-neng-meng-xiang-cheng-zhen-pubbec0c5f0",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=FEJAN",
+     "text": ""
+    },
+    {
+     "href": "https://res.app.ikea.cn/content/u/20220421/2e17006ffbb14f9d9fb43d75f6d104e5.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=solvinden",
+     "text": ""
+    },
+    {
+     "href": "https://res.app.ikea.cn/content/u/20220412/ec4d2bf6679a482a9f333ec0b19f39d7.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "curatedgalley-阳台绿洲"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "/cat/od003",
+    "NO",
+    "ikea://content/plp?catalogId=od003",
+    "{\"objectId_var\":\"od003\",\"objectType_var\":\"plp\"}",
+    "简单易收纳的户外家具，小阳台也适用",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/od003",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "productshelf-更多户外家具"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "/cat/31787",
+    "NO",
+    "ikea://content/plp?catalogId=31787",
+    "{\"objectId_var\":\"31787\",\"objectType_var\":\"plp\"}",
+    "栽下植物，拥抱夏日里一片郁郁葱葱的绿洲",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/31787",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "productshelf-花盆和种植"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "乐趣野餐",
+   "texts": [
+    "/cat/42924",
+    "NO",
+    "ikea://content/plp?catalogId=42924",
+    "{\"objectId_var\":\"42924\",\"objectType_var\":\"plp\"}",
+    "将食物和饮料装满提包，带上轻便的野餐用品，和好朋友开启一场户外野餐派对！",
+    "乐趣野餐"
+   ],
+   "images": [
+    "https://res.app.ikea.cn/content/u/20220413/0d96d0d1e3b743ef8d9fb9468cd14c09.jpg?x-oss-process=style/medium",
+    "https://res.app.ikea.cn/content/u/20220413/65947d2ffff748a183be237fde1a7cbb.jpg?x-oss-process=style/medium",
+    "https://res.app.ikea.cn/content/u/20220413/ae29534e62ec448486dcef12dd07e61a.jpg?x-oss-process=style/medium",
+    "https://res.app.ikea.cn/content/u/20220325/427065a1341644a596812d8613d868a8.png?x-oss-process=style/medium",
+    "https://res.app.ikea.cn/content/u/20220413/f4ad1c14f5734c3c806526b21a8c200c.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/cat/42924",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=SKYNKE",
+     "text": ""
+    },
+    {
+     "href": "https://res.app.ikea.cn/content/u/20220413/0d96d0d1e3b743ef8d9fb9468cd14c09.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/p/80285240?artType=art",
+     "text": ""
+    },
+    {
+     "href": "https://res.app.ikea.cn/content/u/20220413/65947d2ffff748a183be237fde1a7cbb.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=GRILLTIDER",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "curatedgalley-乐趣野餐"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "NO",
+    "MANUAL_INPUT",
+    "90161989",
+    "10165547",
+    "50478259",
+    "30530239"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "productshelf-野餐用品"
+   }
+  },
+  {
+   "type": "pub-banner",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "portrait",
+    "image-text-landscape",
+    "99285810",
+    "09305662",
+    "10457579"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20220407/f3bd279d042a4c629c1bc7c04ae7f39c.jpg",
+    "https://res.app.ikea.cn/content/u/20220301/ad8c6157242d416d80a2122e94c4b90a.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220407/f3bd279d042a4c629c1bc7c04ae7f39c.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://res.app.ikea.cn/content/u/20220301/ad8c6157242d416d80a2122e94c4b90a.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/campaigns/my-first-home-pubad41700e",
+     "text": ""
+    },
+    {
+     "href": "/campaigns/my-first-home-pubad41700e",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "banner-开启夏日新生活"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>&nbsp;&nbsp;</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "057980d24c0d487f81cf9e7f3990fe68"
+   }
+  }
+ ]
+}

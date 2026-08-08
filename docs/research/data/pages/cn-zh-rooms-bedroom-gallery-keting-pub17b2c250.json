@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/bedroom/gallery/keting-pub17b2c250",
+ "family": "rooms",
+ "id": "cn--zh--17b2c2500ff711e8b1909545c9aebdf1",
+ "title": "空间有限，选择无限",
+ "name": "20184-cobe03a_PF_CT_SEO",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "空间有限，选择无限",
+   "texts": [
+    "蓝色和白色单间公寓里摆放着白色 PLATSA 普拉萨 衣柜，位于卧室/客厅区域。",
+    "空间有限，选择无限",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/81/ef/81efa3db7fa05bd9d91ffe0af36b51ca.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/81/ef/81efa3db7fa05bd9d91ffe0af36b51ca.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s09248370",
+    "70158134",
+    "90340383",
+    "20329893",
+    "10264892"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

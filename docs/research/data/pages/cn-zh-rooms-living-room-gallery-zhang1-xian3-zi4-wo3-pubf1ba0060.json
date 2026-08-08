@@ -1,0 +1,124 @@
+{
+ "url": "/cn/zh/rooms/living-room/gallery/zhang1-xian3-zi4-wo3-pubf1ba0060",
+ "family": "rooms",
+ "id": "cn--zh--f1ba00600d1311ea9be0efb138516c0e",
+ "title": "彰显自我",
+ "name": "20203_rmli02a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "彰显自我"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "客厅里挂着棕粉色窗帘，摆放着红色/白色地毯、灰色沙发和红色高光柜门壁装储物柜。",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "s19305567"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/97/40/974003cd1eb69b4e804c948dafaca955.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/97/40/974003cd1eb69b4e804c948dafaca955.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>在你的客厅，忠实展现你的风格，表达你的个性！你只要选好颜色、材料和装饰品，大功就告成了。（储物柜可以帮你隐藏不符合你风格的东西！）</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "白色 BESTÅ 贝达 储物柜组合配备深红褐色高光柜门，安装在窗户下的墙壁上。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "<p>壁装储物柜便于你打造时尚简约的外观。（而且它没有支腿，底部除尘更加轻松！）</p>"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/f0/5f/f05fdcd9c005551e224edc0a5021976c.jpg",
+    "https://file.app.ikea.cn/images/53/02/5302568dbc3d0fefb82e2dff74e38f6a.jpg",
+    "https://file.app.ikea.cn/images/51/1b/511b862210674961cad1b628898ff781.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/f0/5f/f05fdcd9c005551e224edc0a5021976c.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/53/02/5302568dbc3d0fefb82e2dff74e38f6a.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/51/1b/511b862210674961cad1b628898ff781.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "浅棕粉色 LEJONGAP 利永卡普 窗帘饰有红色装饰带，挂在窗旁，方便阳光透过，带来优美光线。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "70453719"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/2a/c8/2ac8fa7e0521ab839e792e9dc08c8853.jpg",
+    "https://file.app.ikea.cn/images/f8/9b/f89b5ae6d66b73ddb2546e5331dc2dd8.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/2a/c8/2ac8fa7e0521ab839e792e9dc08c8853.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/f8/9b/f89b5ae6d66b73ddb2546e5331dc2dd8.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s19305567",
+    "00452624",
+    "s29221713",
+    "s09285843",
+    "90344507"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

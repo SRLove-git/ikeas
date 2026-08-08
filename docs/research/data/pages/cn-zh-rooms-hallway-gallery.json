@@ -1,0 +1,71 @@
+{
+ "url": "/cn/zh/rooms/hallway/gallery",
+ "family": "rooms",
+ "id": "cn--zh--0b8d2f89dda1485db0947098b2b533de",
+ "title": "门厅灵感图库",
+ "name": "702621_haga01a",
+ "hero": "https://file.app.ikea.cn/content/u/20250409/EB10948B-7346-4391-A8E17CBD8F19A710.jpg",
+ "blocks": [
+  {
+   "type": "pub-standardised-hero",
+   "title": "温馨的门厅设计，营造回家仪式感",
+   "texts": [
+    "<p>门厅的设计决定了家居的整体格调。不管是狭窄的走廊，还是宽敞的入户空间，都值得拥有巧妙的解决方案和彰显个性的风格。我们的门厅设计方案结合了巧妙的布局、风格协调的家具和深思熟虑的细节，你可以从中找到想要的灵感，充分挖掘门厅的每一寸空间。</p>\n<p>浏览门厅样板间并寻找设计灵感，帮助你从前门开始打造温馨、有序、时尚的空间。</p>",
+    "温馨的门厅设计，营造回家仪式感"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Standardised Hero-温馨的门厅设计，营造回家仪式感"
+   }
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--b18b1160567c11f08062dfb5f86dd454",
+    "/rooms/hallway/gallery/kid-friendly-hallway-ideas-that-work-for-all-ages-pubf157fb40",
+    "page",
+    "儿童友好型小门厅的巧妙创意",
+    "儿童友好的门厅必然显得幼稚吗？当然不是，巧妙、坚固而且有趣才是重点。看看这些适合小空间的巧妙创意吧！",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fhallway%2Fgallery%2Fkid-friendly-hallway-ideas-that-work-for-all-ages-pubf157fb40&key=cn--zh--b18b1160567c11f08062dfb5f86dd454"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/content/u/20250703/9A5D39E9-AE4A-49C9-817A5BAF6CF7FD92.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content/u/20250703/B3FE5343-C870-4475-B9B19BB449B2FA53.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20251103/5cd7b68787e54a728c203ed26970f28f.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content/u/20250106/F70A02F4-EC2A-4570-81ED76D7CB610304.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content/u/20241023/E6D7B57B-9C46-43BE-B9DA1049B1B5323D.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/content/u/20250703/9A5D39E9-AE4A-49C9-817A5BAF6CF7FD92.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20250703/B3FE5343-C870-4475-B9B19BB449B2FA53.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20251103/5cd7b68787e54a728c203ed26970f28f.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20250106/F70A02F4-EC2A-4570-81ED76D7CB610304.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20241023/E6D7B57B-9C46-43BE-B9DA1049B1B5323D.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/145b69d715a93770/original/PH199354.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-页面列表 Page List-"
+   }
+  }
+ ]
+}

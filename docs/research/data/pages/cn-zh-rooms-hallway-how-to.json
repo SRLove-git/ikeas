@@ -1,0 +1,83 @@
+{
+ "url": "/cn/zh/rooms/hallway/how-to",
+ "family": "rooms",
+ "id": "cn--zh--5e82325dbbf545cc8c88b7396a17c812",
+ "title": "门厅建议图库",
+ "name": "662621_htga05a",
+ "hero": "https://www.ikea.cn/images/b7/38/b7381587664c7dd8304e89588b959092.jpg",
+ "blocks": [
+  {
+   "type": "pub-standardised-hero",
+   "title": "门厅布置技巧和创意",
+   "texts": [
+    "<p>需要一些门厅布置创意？从装饰到储物，下面这些小窍门可助你将家的入口打造成一处温馨宜人的空间，将全家人的外套、帽子、雨伞等物品收纳整齐。</p>",
+    "门厅布置技巧和创意"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Standardised Hero-门厅布置技巧和创意"
+   }
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-分割线 Horizontal Line-"
+   }
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--e175c6f0832b11f0a918e9948df5d548",
+    "/rooms/hallway/how-to/how-to-furnish-a-family-hallway-pub8653b3e2",
+    "page",
+    "如何布置家居门厅",
+    "如何在门厅为全家人分配储物空间。",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fhallway%2Fhow-to%2Fhow-to-furnish-a-family-hallway-pub8653b3e2&key=cn--zh--e175c6f0832b11f0a918e9948df5d548"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/content/u/20250703/03E1C943-3A24-4F19-9A3487D580381B58.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/ext/ingkadam/m/b28c1899c142b8d/original/PH195078.jpg",
+    "https://file.app.ikea.cn/images/77/67/77670d75e5fbaf451873c0124719dec7.jpg",
+    "https://file.app.ikea.cn/images/86/d3/86d35c94a107b1c99fda41cfdf26c651.jpg",
+    "https://file.app.ikea.cn/images/f2/62/f26284fd96d41012425e9e8a6d0d283c.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/content/u/20250703/03E1C943-3A24-4F19-9A3487D580381B58.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/b28c1899c142b8d/original/PH195078.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/77/67/77670d75e5fbaf451873c0124719dec7.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/86/d3/86d35c94a107b1c99fda41cfdf26c651.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/f2/62/f26284fd96d41012425e9e8a6d0d283c.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/fd/21/fd213e8c4e9de67046b107b79927ed69.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-页面列表 Page List-"
+   }
+  }
+ ]
+}

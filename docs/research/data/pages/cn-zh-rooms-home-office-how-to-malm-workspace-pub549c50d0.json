@@ -1,0 +1,213 @@
+{
+ "url": "/cn/zh/rooms/home-office/how-to/malm-workspace-pub549c50d0",
+ "family": "rooms",
+ "id": "cn--zh--549c50d02ca111ecb7fbd5c58b04ea72",
+ "title": "MALM 马尔姆系列 办公家具",
+ "name": "MALM 马尔姆系列 办公家具",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "MALM 马尔姆系列 办公家具"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-video-link",
+   "title": null,
+   "texts": [
+    "https://v.youku.com/v_show/id_XNTgxNDE1OTkwNA==.html",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "https://v.youku.com/v_show/id_XNTgxNDE1OTkwNA==.html",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "简洁百搭，功能强大",
+   "texts": [
+    "MALM 马尔姆书桌设计简洁，每个侧面都十分精致，可以独立放置，或靠墙使用，线缆可整齐地隐藏在里面。搭配同系列的其他产品，营造协调外观。",
+    "简洁百搭，功能强大",
+    "20361152",
+    "30402996",
+    "90329875",
+    "90321619"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/443df2450851a61c/original/PH165496.jpg",
+    "https://file.app.ikea.cn/ext/ingkadam/m/522879abc5033280/original/PH173345-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/443df2450851a61c/original/PH165496.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/522879abc5033280/original/PH173345-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "MALM 马尔姆 办公桌",
+   "texts": [
+    "/cat/20649",
+    "NO",
+    "ikea://content/plp?catalogId=20649",
+    "{\"objectId_var\":\"20649\",\"objectType_var\":\"plp\"}",
+    "MALM 马尔姆 办公桌",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/20649",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "<p><strong>灵活放置</strong></p>\n<p>可根据自己的需要将储物单元安装在右侧或左侧；背面也经过表面处理，适合放在屋子中间。</p>",
+    "pub-text"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/3d/11/3d113e1f943fb4e5490466312981f789.jpg",
+    "https://file.app.ikea.cn/images/7d/3b/7d3b9bb3d1c54d11c79626ab021886ef.jpg",
+    "https://file.app.ikea.cn/images/04/27/0427b2a3980c273a97e28850cfd33ce1.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/3d/11/3d113e1f943fb4e5490466312981f789.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/7d/3b/7d3b9bb3d1c54d11c79626ab021886ef.jpg",
+     "text": ""
+    },
+    {
+     "href": "/cat/07468",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/04/27/0427b2a3980c273a97e28850cfd33ce1.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-assurances",
+   "title": null,
+   "texts": [
+    "/customer-service/services/delivery/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fcustomer-service%2Fservices%2Fdelivery%2F&key=",
+    "{\"objectId_var\":\"/customer-service/services/delivery/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "送货服务",
+    "shipping-truck"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/customer-service/services/delivery/",
+     "text": ""
+    },
+    {
+     "href": "/customer-service/services/assembly/",
+     "text": ""
+    },
+    {
+     "href": "/customer-service/services/kitchen-planning/",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "更多配件",
+   "texts": [
+    "/rooms/home-office/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fhome-office%2F&key=",
+    "{\"objectId_var\":\"/rooms/home-office/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "更多配件",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/rooms/home-office/",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "MALM 马尔姆 系列",
+   "texts": [
+    "/cat/07468",
+    "NO",
+    "ikea://content/plp?catalogId=07468",
+    "{\"objectId_var\":\"07468\",\"objectType_var\":\"plp\"}",
+    "正在寻找设计简约的现代卧室家具？那么欢迎你来看看我们的马尔姆MALM系列。这一系列充满巧妙创意，比如床下储物件、兼具床边桌功能的抽屉柜等等。我们提供多种木质贴面和白色贴面，你可以选择最中意的一款。",
+    "MALM 马尔姆 系列"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/7f1ae6d0536fb037/original/PH162738-crop001.jpg",
+    "https://file.app.ikea.cn/ext/ingkadam/m/74deaa0c99353211/original/PH162737.jpg",
+    "https://file.app.ikea.cn/ext/ingkadam/m/667977e9aaeb640f/original/PH162733-crop002.jpg",
+    "https://file.app.ikea.cn/ext/ingkadam/m/319b1f83e3eab1e5/original/PH171696.jpg",
+    "https://file.app.ikea.cn/ext/ingkadam/m/15d2bfb49367c08c/original/PH173101.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/07468",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/7f1ae6d0536fb037/original/PH162738-crop001.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/74deaa0c99353211/original/PH162737.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/667977e9aaeb640f/original/PH162733-crop002.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/319b1f83e3eab1e5/original/PH171696.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/15d2bfb49367c08c/original/PH173101.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  }
+ ]
+}

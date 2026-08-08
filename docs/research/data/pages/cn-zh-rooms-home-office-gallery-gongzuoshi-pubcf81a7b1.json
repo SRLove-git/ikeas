@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/home-office/gallery/gongzuoshi-pubcf81a7b1",
+ "family": "rooms",
+ "id": "cn--zh--cf81a7b1cf7a11e78e0a0bf79e0fa98f",
+ "title": "满足个性化需求的工作空间",
+ "name": "20174-cooh01a_PF_CT_SEO_AD_QA",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "满足个性化需求的工作空间",
+   "texts": [
+    "中性配色的起居室内设有米色和白色的家庭工作室。",
+    "满足个性化需求的工作空间",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/2f/6b/2f6bbccc3c878bc19541532d1fc6655e.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/2f/6b/2f6bbccc3c878bc19541532d1fc6655e.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s69214225",
+    "s59175012",
+    "90251046",
+    "70221687",
+    "20354043"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

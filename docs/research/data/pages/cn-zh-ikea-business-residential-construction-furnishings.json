@@ -1,0 +1,254 @@
+{
+ "url": "/cn/zh/ikea-business/residential-construction-furnishings",
+ "family": "ikea-business",
+ "id": "cn--zh--a77cde40c75811ebab31995a372cd031",
+ "title": "住宅建设",
+ "name": "住宅建设(B-CRM + Network)",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "<h1>住宅建设</h1>\n<p>&nbsp;</p>\n<p>我们仔细斟酌每一处细节，帮助开发商和建筑公司打造功能实用、设计出色同时价格亲民的住宅或房间方案。我们为各类建筑、改造、新建和试点单位设计各类大小项目。我们可以帮助你改造你的家或创建装修项目，提升家居价值。</p>\n<p>你也可以联系我们的对公业务团队，获取一对一的专业服务 ：</p>",
+    "pub-text",
+    "/h5page/?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fib%3Fchannel%3DIRW%2520M2%26cl_sr%3DIB_IRW%2520M2",
+    "NO",
+    "ikea://default-module/H5?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fib%3Fchannel%3DIRW%2520M2%26cl_sr%3DIB_IRW%2520M2"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/58/c5/58c552885e29b652cdb771e82c482f13.jpg"
+   ],
+   "links": [
+    {
+     "href": "/h5page/?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fib%3Fchannel%3DIRW%2520M2%26cl_sr%3DIB_IRW%2520M2",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/58/c5/58c552885e29b652cdb771e82c482f13.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "0bac88f1f180490bb96d78b68aa54d90"
+   }
+  },
+  {
+   "type": "pub-visual-pill-slider",
+   "title": null,
+   "texts": [
+    "厨房",
+    "/rooms/kitchen/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fkitchen%2F&key=",
+    "{\"objectId_var\":\"/rooms/kitchen/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "image"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/30/da/30da74b14f6def324e6c598882b17da8.jpg",
+    "https://file.app.ikea.cn/images/3b/15/3b154ee089bf050367a24c4e92036223.png",
+    "https://file.app.ikea.cn/images/d7/3e/d73e25c17be03e9cdbaa0a901faf1ec1.png",
+    "https://file.app.ikea.cn/images/47/3f/473fdbfecd42225a7fdcf2bf6f3ef751.png",
+    "https://file.app.ikea.cn/images/68/d3/68d3f179869d5fc51993fd79b338a9d1.png"
+   ],
+   "links": [
+    {
+     "href": "/rooms/kitchen/",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/30/da/30da74b14f6def324e6c598882b17da8.jpg",
+     "text": ""
+    },
+    {
+     "href": "/rooms/living-room/",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/3b/15/3b154ee089bf050367a24c4e92036223.png",
+     "text": ""
+    },
+    {
+     "href": "/rooms/bathroom/",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/d7/3e/d73e25c17be03e9cdbaa0a901faf1ec1.png",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "91b6d45e4f6144b4877798cbab5fd780"
+   }
+  },
+  {
+   "type": "pub-banner",
+   "title": null,
+   "texts": [
+    "image-text-landscape",
+    "美丽的日落景观",
+    "IMAGE",
+    "<p><span style=\"color: #ffffff;\">可持续发展是宜家最重要的支柱之一，我们将环保工作融入不同产品的开发中，对产品的外观、质量、功能和价格进行了全方位的考量。&nbsp;</span></p>",
+    "爱护环境",
+    "/h5page/?url=%23"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/dd/66/dd666ccaf22baffb8add5e7cc1be889a.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/dd/66/dd666ccaf22baffb8add5e7cc1be889a.jpg",
+     "text": ""
+    },
+    {
+     "href": "/h5page/?url=%23",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "dc7e3cb48497434ea07a866449bc88c2"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "为你的项目寻找灵感",
+   "texts": [
+    "/ideas/rooms-inspiration/",
+    "NO",
+    "ikea://cms/page-compatible-web?key=cn--zh--5c9c98e0819c11eba0b5e76645244728&url=%2Fideas%2Frooms-inspiration%2F",
+    "{\"objectId_var\":\"/ideas/rooms-inspiration/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "为你的项目寻找灵感",
+    "30274442"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/6daccd596e0f3967/original/PH177136-crop001.jpg",
+    "https://file.app.ikea.cn/images/93/de/93de77e0ccf189112ddd172824f9512c.png",
+    "https://file.app.ikea.cn/ext/ingkadam/m/5b20bb2ed5cb675d/original/PH171500-crop001.jpg",
+    "https://file.app.ikea.cn/images/fe/db/fedb33155c0ad414cc7d165df1c598b5.png",
+    "https://file.app.ikea.cn/ext/ingkadam/m/536d0011b7fb0052/original/PH171559-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/ideas/rooms-inspiration/",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/6daccd596e0f3967/original/PH177136-crop001.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/93/de/93de77e0ccf189112ddd172824f9512c.png",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/5b20bb2ed5cb675d/original/PH171500-crop001.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/fe/db/fedb33155c0ad414cc7d165df1c598b5.png",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/536d0011b7fb0052/original/PH171559-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "04a96fab2f0548579770a831359b7aa6"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>为你所需的任何房间提供合适的储物方案</h2>\n<p>查看所有厨房和储物系列，优化你的空间布置。  </p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "acc3b563792248f48dd7c811feca4413"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "METOD 米多 厨房",
+    "/cat/23598",
+    "NO",
+    "ikea://content/plp?catalogId=23598",
+    "{\"objectId_var\":\"23598\",\"objectType_var\":\"plp\"}"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/46/06/4606aeb876855bea142ca34d0d7a4adb.jpg",
+    "https://file.app.ikea.cn/images/c2/a3/c2a3cb0a93ad949de3416a8e09a2deb9.jpg",
+    "https://file.app.ikea.cn/images/ff/ff/ffff8bfb199c5a6775c87f1a751a60b8.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/23598",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/46/06/4606aeb876855bea142ca34d0d7a4adb.jpg",
+     "text": ""
+    },
+    {
+     "href": "/cat/19106",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/c2/a3/c2a3cb0a93ad949de3416a8e09a2deb9.jpg",
+     "text": ""
+    },
+    {
+     "href": "/cat/15287",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/ff/ff/ffff8bfb199c5a6775c87f1a751a60b8.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "bfd567ba2023455b81e2c7bca06dd982"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>此解决方案包含一系列家用和非家用产品。请确认所购产品可在你的空间内发挥预期用途，并符合有关标准。如需了解该系列的更多信息，请联系宜家对公业务部&nbsp;</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "2262359d734a43bab3cce238a2ade93a"
+   }
+  },
+  {
+   "type": "pub-banner",
+   "title": null,
+   "texts": [
+    "text-landscape",
+    "IMAGE",
+    "<p>作为企业客户，你可以亲自动手，但也可以让我们代劳。从设计到交付再到组装，整个购买流程都有宜家在你左右。</p>",
+    "联系宜家对公业务部",
+    "NO",
+    "#111111"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/h5page/?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fib%3Fchannel%3DIRW%2520M2%26cl_sr%3DIB_IRW%2520M2",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Banner-"
+   }
+  }
+ ]
+}

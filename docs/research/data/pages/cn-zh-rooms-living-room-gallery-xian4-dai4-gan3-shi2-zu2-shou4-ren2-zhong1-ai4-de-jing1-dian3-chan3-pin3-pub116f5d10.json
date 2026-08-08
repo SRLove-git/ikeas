@@ -1,0 +1,129 @@
+{
+ "url": "/cn/zh/rooms/living-room/gallery/xian4-dai4-gan3-shi2-zu2-shou4-ren2-zhong1-ai4-de-jing1-dian3-chan3-pin3-pub116f5d10",
+ "family": "rooms",
+ "id": "cn--zh--116f5d100d0511ea9be0efb138516c0e",
+ "title": "现代感十足、受人钟爱的经典产品",
+ "name": "20203_rmli01a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "现代感十足、受人钟爱的经典产品"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "客厅摆放着两张犬牙图案靠背椅、绿色地毯、竹质吊灯和圆茶几。",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "20456956"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/a9/4b/a94bfde1c0c7f52b27e0b88cd4ae9294.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/a9/4b/a94bfde1c0c7f52b27e0b88cd4ae9294.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>传统风格，现代气息——这间客厅采用经典的设计和典雅的图案，搭配流行色彩与受人喜爱的最新家具。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "圆形的镜子、深蓝绿色的储物柜，以及摆放在玻璃罩和展示盒里的小件装饰品。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "30454358"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/40/3a/403ad4727edafbb3f01b52d5e8af0eae.jpg",
+    "https://file.app.ikea.cn/images/01/ea/01ea80e24b23446b613579a7d08232a7.jpg",
+    "https://file.app.ikea.cn/images/32/40/32400fd82da6febb3c77c5ac4afa0426.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/40/3a/403ad4727edafbb3f01b52d5e8af0eae.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/01/ea/01ea80e24b23446b613579a7d08232a7.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/32/40/32400fd82da6febb3c77c5ac4afa0426.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "两张犬牙图案 STRANDMON 斯佳蒙 靠背椅，中间摆放着一张灰色的 STRANDMON 斯佳蒙 儿童扶手椅。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "70392542"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/2d/4e/2d4ea454651aaa070e96fa917667ba47.jpg",
+    "https://file.app.ikea.cn/images/b7/fb/b7fb846e3f600ff6a4fd42d263c434fd.jpg",
+    "https://file.app.ikea.cn/images/f6/4b/f64bc5252b43ffe46d04c9a86eef5e8d.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/2d/4e/2d4ea454651aaa070e96fa917667ba47.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/b7/fb/b7fb846e3f600ff6a4fd42d263c434fd.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/f6/4b/f64bc5252b43ffe46d04c9a86eef5e8d.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "20456956",
+    "90456967",
+    "40415465",
+    "80415468",
+    "40383737"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

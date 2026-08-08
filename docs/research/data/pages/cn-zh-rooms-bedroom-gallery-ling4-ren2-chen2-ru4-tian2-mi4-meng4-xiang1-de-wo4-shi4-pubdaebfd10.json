@@ -1,0 +1,124 @@
+{
+ "url": "/cn/zh/rooms/bedroom/gallery/ling4-ren2-chen2-ru4-tian2-mi4-meng4-xiang1-de-wo4-shi4-pubdaebfd10",
+ "family": "rooms",
+ "id": "cn--zh--daebfd10104811ea9be0efb138516c0e",
+ "title": "令人沉入甜蜜梦乡的卧室",
+ "name": "20202_rmbe02a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "令人沉入甜蜜梦乡的卧室"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "一间传统和谐的卧室，配有米色 HAUGA 豪嘉 床、白色扶手椅和蓝绿色书桌。",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "30446354"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/65/62/65621c826819d0a98c1771de01bc3256.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/65/62/65621c826819d0a98c1771de01bc3256.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>走进这间卧室，远离喧嚣烦扰，感受和谐与舒适的美好，尽情放松身心、恢复活力，获得优质睡眠。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "宜家 HAUGA 豪嘉 米色软垫床配有条纹被套和枕套以及两盏安装于上方墙面的黑色壁灯。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "30446354"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/f3/cc/f3cc9fccbc4fcf474f8215380ad1f104.jpg",
+    "https://file.app.ikea.cn/images/fc/0f/fc0fa7cb6e4a80e8a9ec374ec6504903.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/f3/cc/f3cc9fccbc4fcf474f8215380ad1f104.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/fc/0f/fc0fa7cb6e4a80e8a9ec374ec6504903.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "传统风格的卧室中，HEMNES 汉尼斯 白色八斗抽屉柜位于窗户之下，一旁是 HAUGA 豪嘉 床。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "40374281"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/56/6d/566d39ba4a2eb0b80e123a8de2c46fdf.jpg",
+    "https://file.app.ikea.cn/images/a8/d2/a8d2b5fff8027c34be1b491ada8b3a70.jpg",
+    "https://file.app.ikea.cn/images/24/3e/243eed8651eb33b3b4bece2c672ee223.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/56/6d/566d39ba4a2eb0b80e123a8de2c46fdf.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/a8/d2/a8d2b5fff8027c34be1b491ada8b3a70.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/24/3e/243eed8651eb33b3b4bece2c672ee223.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "30446354",
+    "50374271",
+    "40374281",
+    "20442827",
+    "s49191705"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "url": "/cn/zh/rooms/dining/gallery",
+ "family": "rooms",
+ "id": "cn--zh--4b40bd1fd6cd419985c05b8b92e44bae",
+ "title": "餐厅灵感",
+ "name": "702621_diga01a",
+ "hero": "https://file.app.ikea.cn/content/u/20250409/5928F516-996C-4ED0-91466112BE02A88D.jpg",
+ "blocks": [
+  {
+   "type": "pub-standardised-hero",
+   "title": "满足日常生活所需的用餐区布置灵感",
+   "texts": [
+    "<p>想寻找能够满足你日常需求的用餐区布置灵感？宜家样板间布置旨在激发你的灵感——从适用小空间的巧妙解决方案，到可用来举办大型聚会的用餐区，一应俱全。</p>\n<p>浏览我们丰富多样的用餐区布置，各式设计有助你探索心仪的风格与布局。简约、灵活，又充满了丰富可能。</p>",
+    "满足日常生活所需的用餐区布置灵感"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Standardised Hero-满足日常生活所需的用餐区布置灵感"
+   }
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--a9231cf07da211f0b492a9d5e45efea3",
+    "/rooms/dining/gallery/versatile-dining-room-ideas-for-meals-and-moments-together-pubcedc88ba",
+    "page",
+    "每时每刻，畅享用餐时光",
+    "从安静的早餐到热闹的晚餐，ROSENTORP 罗森托 系列灵活应对你一天的生活节奏——其设计优雅，用途灵活，可随时从容接待更多宾客。",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fdining%2Fgallery%2Fversatile-dining-room-ideas-for-meals-and-moments-together-pubcedc88ba&key=cn--zh--a9231cf07da211f0b492a9d5e45efea3"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/content/u/20250703/F44DFFCC-4303-4672-A0B3D5551708DF1C.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20251020/a8c93ea9a3de4503ba1b67ca1c1a754f.webp",
+    "https://file.app.ikea.cn/cms/u/20251020/6060cf3efd5c489db64432e8558aa2a1.webp",
+    "https://file.app.ikea.cn/cms/u/20251020/f9ae7444cad14e608a584b817868997c.webp",
+    "https://file.app.ikea.cn/cms/u/20251020/56eb6ae5c9c54c16bffebec79adfe60c.webp"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/content/u/20250703/F44DFFCC-4303-4672-A0B3D5551708DF1C.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20251020/a8c93ea9a3de4503ba1b67ca1c1a754f.webp",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20251020/6060cf3efd5c489db64432e8558aa2a1.webp",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20251020/f9ae7444cad14e608a584b817868997c.webp",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20251020/56eb6ae5c9c54c16bffebec79adfe60c.webp",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20251020/b46ee3b14129457d8f2f1b3edf04be6e.webp",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-页面列表 Page List-"
+   }
+  }
+ ]
+}

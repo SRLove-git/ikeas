@@ -1,0 +1,60 @@
+{
+ "url": "/cn/zh/cat/koncis-kang-ji-si-xi-lie-07685",
+ "id": "koncis-kang-ji-si-xi-lie-07685",
+ "name": "\"康吉思\"系列",
+ "description": "一些非常实用的烹饪厨具不含线绳，如压蒜器、土豆泥捣具和开罐刀。查看我们的 KONCIS 康吉思 系列烹饪工具及设备，寻找不锈钢厨具，借助它们烹饪喜爱的美食。",
+ "total": 3,
+ "products": [
+  {
+   "id": "80166124",
+   "name": "KONCIS 康吉思",
+   "price": 29.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/koncis-kang-ji-si-kai-guan-dao-bu-xiu-gang__0713018_pe729197_s4.jpg",
+   "productType": "开罐刀",
+   "designText": "不锈钢",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "koncis-kang-ji-si-kai-guan-dao-bu-xiu-gang"
+  },
+  {
+   "id": "30174536",
+   "name": "KONCIS 康吉思",
+   "price": 69.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/koncis-kang-ji-si-kao-pan-bu-xiu-gang__0710705_pe727719_s4.jpg",
+   "productType": "烤盘",
+   "designText": "不锈钢",
+   "measureText": "26x20 厘米",
+   "url": null,
+   "seoSlug": "koncis-kang-ji-si-kao-pan-bu-xiu-gang"
+  },
+  {
+   "id": "60173564",
+   "name": "KONCIS 康吉思",
+   "price": 24.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/koncis-kang-ji-si-ya-suan-qi-bu-xiu-gang__0713019_pe729198_s4.jpg",
+   "productType": "压蒜器",
+   "designText": "不锈钢",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "koncis-kang-ji-si-ya-suan-qi-bu-xiu-gang"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "80166124",
+   "type": "ART",
+   "fullId": "80166124"
+  },
+  {
+   "id": "30174536",
+   "type": "ART",
+   "fullId": "30174536"
+  },
+  {
+   "id": "60173564",
+   "type": "ART",
+   "fullId": "60173564"
+  }
+ ]
+}

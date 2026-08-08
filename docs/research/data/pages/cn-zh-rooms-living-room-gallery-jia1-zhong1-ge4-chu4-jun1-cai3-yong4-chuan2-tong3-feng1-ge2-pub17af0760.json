@@ -1,0 +1,124 @@
+{
+ "url": "/cn/zh/rooms/living-room/gallery/jia1-zhong1-ge4-chu4-jun1-cai3-yong4-chuan2-tong3-feng1-ge2-pub17af0760",
+ "family": "rooms",
+ "id": "cn--zh--17af07600f6d11ea9be0efb138516c0e",
+ "title": "家中各处均采用传统风格",
+ "name": "20203_rmli03a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "家中各处均采用传统风格"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "传统客厅里摆放着白色沙发、黄麻毯、两张灰色茶几、灰色电视柜和两把藤条扶手椅。",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "00414203"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/2a/5a/2a5abd5e0d4a12d20129d72bf5350558.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/2a/5a/2a5abd5e0d4a12d20129d72bf5350558.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>如果你想要一个明亮、传统、协调的家，喜欢在家中运用斯堪的纳维亚设计与简约利落的线条，那么 HAVSTA 海思塔 系列正适合你。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "客厅里配有灰色的 HAVSTA 海思塔 附踢脚板电视柜和两个灰色的 HAVSTA 海思塔 茶几，二者营造出了一种协调统一的风格。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "20415206"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/d8/4f/d84f7b246370e1d907f834bb6b56925c.jpg",
+    "https://file.app.ikea.cn/images/e2/0e/e20e41f3098bfc9c9e4c85ddc8fa0f37.jpg",
+    "https://file.app.ikea.cn/images/d9/fd/d9fdc8be6926b06a96b30dc3a305bff1.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/d8/4f/d84f7b246370e1d907f834bb6b56925c.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/e2/0e/e20e41f3098bfc9c9e4c85ddc8fa0f37.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/d9/fd/d9fdc8be6926b06a96b30dc3a305bff1.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "NORDVIKEN 诺德维肯 伸缩型餐桌和椅子，摆放着早餐。温暖的光线从上方的吊灯中投射下来。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "90368715"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/c4/90/c490a4b9774249245ac033ad02ead30d.jpg",
+    "https://file.app.ikea.cn/images/a0/6e/a06e4e1265ec250c0a2539e4414eeac8.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/c4/90/c490a4b9774249245ac033ad02ead30d.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/a0/6e/a06e4e1265ec250c0a2539e4414eeac8.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "00414203",
+    "20415206",
+    "s89254786",
+    "s79299016",
+    "00388633"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

@@ -1,0 +1,712 @@
+{
+ "url": "/cn/zh/campaigns/home-furnishing-accessories-pub6d63f230",
+ "family": "campaigns",
+ "id": "cn--zh--6d63f2301c2f11ec9bee63c95ae04e1c",
+ "title": "家居用品",
+ "name": "家居用品",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "家居用品"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "b799463d69a744a59492b8ebdbed4541"
+   }
+  },
+  {
+   "type": "pub-visual-navigation",
+   "title": null,
+   "texts": [
+    "large",
+    "/cat/tl001",
+    "NO",
+    "ikea://content/plp?catalogId=tl001",
+    "{\"objectId_var\":\"tl001\",\"objectType_var\":\"plp\"}",
+    "纺织品"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20220704/064ee3a5cb21493c84ea2a39eeb711fc.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220704/0d73fc4bb8b045bfbed8a27e70f12c49.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220704/9aaf3b072e3a4c37a662ca4f0d324bd7.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220704/9808ad9cf87845bb8e9ce043cf03c907.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220704/43c8d1be56464cb0aee66e4229d3d060.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/cat/tl001",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220704/064ee3a5cb21493c84ea2a39eeb711fc.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/cat/st007",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220704/0d73fc4bb8b045bfbed8a27e70f12c49.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/cat/de001",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220704/9aaf3b072e3a4c37a662ca4f0d324bd7.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Visual Navigation-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>让家换一种风格也许不那么麻烦！换一些实用又好看的小物件，就能让家完全变一种风格。我们希望为家里添置更多有能量的色彩，通过这些家居布置带来更多快乐与生机。你可以重新粉刷墙壁、家具，抑或是借助这些迷人的饰品为室内增色添彩。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2><span style=\"color: #b96ad9;\">&middot; <span style=\"color: #000000;\">紫色</span></span><span style=\"color: #000000;\">在</span>家居设计中的魅力&nbsp;</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": null,
+   "texts": [
+    "NO",
+    "深紫色可以营造出沉稳、宁静的氛围，适合用于卧室或书房；而浅紫色则能为空间增添一丝浪漫和柔和的氛围，适合用于客厅或餐厅。总的来说，紫色在家居设计中可以带来一种独特的高贵与优雅。",
+    "vertical_new",
+    "/inspiration/detail/ee47c0c3-7794-499c-9a20-d5abd10baea4?type=IMAGE",
+    "ikea://ins/ins-detail?id=ee47c0c3-7794-499c-9a20-d5abd10baea4&type=IMAGE",
+    "{\"objectId_var\":\"ee47c0c3-7794-499c-9a20-d5abd10baea4\",\"objectType_var\":\"inspiration\"}"
+   ],
+   "images": [
+    "https://res.app.ikea.cn/content/u/20240206/48c5260154b749b3bc6b9ea71ff3a6d1.jpg?x-oss-process=style%2Fmedium",
+    "https://res.app.ikea.cn/content/u/20240206/77e648f98cb64091b56ff1525249cb0f.jpg?x-oss-process=style%2Fmedium",
+    "https://res.app.ikea.cn/content/u/20240206/809cee49cec44a2f93ee4f54538a7a4e.jpg?x-oss-process=style%2Fmedium",
+    "https://res.app.ikea.cn/content/u/20240206/348029795c7b4187b91fcc116acc4bc5.jpg?x-oss-process=style%2Fmedium",
+    "https://res.app.ikea.cn/content/u/20240206/a87ab8b452a04e0bb0efab58ab33417c.jpg?x-oss-process=style%2Fmedium"
+   ],
+   "links": [
+    {
+     "href": "/inspiration/detail/ee47c0c3-7794-499c-9a20-d5abd10baea4?type=IMAGE",
+     "text": ""
+    },
+    {
+     "href": "https://res.app.ikea.cn/content/u/20240206/48c5260154b749b3bc6b9ea71ff3a6d1.jpg?x-oss-process=style%2Fmedium",
+     "text": ""
+    },
+    {
+     "href": "/inspiration/detail/99f6b943-9135-4164-bfcb-ebf52b6cfcc1?type=IMAGE",
+     "text": ""
+    },
+    {
+     "href": "https://res.app.ikea.cn/content/u/20240206/77e648f98cb64091b56ff1525249cb0f.jpg?x-oss-process=style%2Fmedium",
+     "text": ""
+    },
+    {
+     "href": "/inspiration/detail/38a0f121-8d6e-4ccd-a4e4-61829a95d4e0?type=IMAGE",
+     "text": ""
+    },
+    {
+     "href": "https://res.app.ikea.cn/content/u/20240206/809cee49cec44a2f93ee4f54538a7a4e.jpg?x-oss-process=style%2Fmedium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Curated Gallery-"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "NO",
+    "MANUAL_INPUT",
+    "70529192",
+    "50569508",
+    "40502151",
+    "60502763"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Product Shelf-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h3><span style=\"background-color: #cc0008; color: #ffffff;\">&nbsp;更低价格&nbsp;</span></h3>\n<p><span style=\"color: #000000;\">通过大规模生产、智能设计和平板包装，我们能够降低成本，同时保持产品的高品质水准。这样，我们就能够持续提供价格实惠的产品，而不需要在品质上做出任何妥协。请在下方查看更多低价产品。</span></p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "two-columns",
+    "column",
+    "/p/00547019?artType=art",
+    "NO",
+    "ikea://content/pip?id=00547019&type=art",
+    "{\"objectId_var\":\"00547019\",\"objectType_var\":\"product\"}"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20240220/f888086bbe0e4501ae57affe413b1056.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20240122/10dd2aafdb5c478b9fd41766c977967c.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/p/00547019?artType=art",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20240220/f888086bbe0e4501ae57affe413b1056.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/p/60258916?artType=art",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20240122/10dd2aafdb5c478b9fd41766c977967c.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Columns-"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/landing-page/f5e4d940ff3647bbb418e8dca125a63b&folderId=a5e49c37dd7305c94127a8a7a53992b7",
+    "NO",
+    "ikea://cms/landing-page?key=f5e4d940ff3647bbb418e8dca125a63b%26folderId%3Da5e49c37dd7305c94127a8a7a53992b7&sdk-router-delegate__navigateWithModal=true",
+    "{\"objectId_var\":\"f5e4d940ff3647bbb418e8dca125a63b&folderId=a5e49c37dd7305c94127a8a7a53992b7\",\"objectType_var\":\"cms_h5_page\"}",
+    "text",
+    "查看更多更低价格产品→"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/landing-page/f5e4d940ff3647bbb418e8dca125a63b&folderId=a5e49c37dd7305c94127a8a7a53992b7",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Link - button or text-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2 style=\"line-height: 24px;\"><span style=\"color: #7faf94;\"><span style=\"color: #2dc26b;\">&middot; <span style=\"color: #000000;\">绿色</span></span><span style=\"color: #000000;\">和黑色的和谐共存</span></span></h2>\n<p>黑色通常被视为神秘、沉稳和高雅的颜色，而绿色则代表着生机、平静和和谐。这两种颜色搭配在一起营造出一种富有层次感的氛围，黑色可以为空间增添一些现代感和深度，而绿色则为空间带来清新和舒适的感觉。这种搭配可以让家居生活更具有个性和时尚感，同时也能营造出宁静舒适的氛围。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": null,
+   "texts": [
+    "NO",
+    "vertical_new",
+    "/inspiration/detail/bbe98390-c710-479b-be48-41339fd7d4af?type=IMAGE",
+    "ikea://ins/ins-detail?id=bbe98390-c710-479b-be48-41339fd7d4af&type=IMAGE",
+    "{\"objectId_var\":\"bbe98390-c710-479b-be48-41339fd7d4af\",\"objectType_var\":\"inspiration\"}",
+    "30499234"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20240207/5b2c445e8f52457cbb0abeef1d92f508.jpg?x-oss-process=style/medium",
+    "https://res.app.ikea.cn/content/u/20240207/3fe532600bb64d1cbe020776dc900f9a.jpg?x-oss-process=style%2Fmedium",
+    "https://file.app.ikea.cn/cms/u/20240220/c088b101ac824bf2b56729de94307fc7.gif",
+    "https://file.app.ikea.cn/cms/u/20240207/eb4828a9e8f14615b2993581155a763e.jpg?x-oss-process=style/medium",
+    "https://res.app.ikea.cn/content/u/20240221/be9c8001caf446d4b464d859fcf9ad41.jpg?x-oss-process=style%2Fmedium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20240207/5b2c445e8f52457cbb0abeef1d92f508.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/inspiration/detail/bbe98390-c710-479b-be48-41339fd7d4af?type=IMAGE",
+     "text": ""
+    },
+    {
+     "href": "https://res.app.ikea.cn/content/u/20240207/3fe532600bb64d1cbe020776dc900f9a.jpg?x-oss-process=style%2Fmedium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20240220/c088b101ac824bf2b56729de94307fc7.gif",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20240207/eb4828a9e8f14615b2993581155a763e.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/inspiration/detail/f7422f11-6083-4efc-b98e-15f5fb5e6486?type=IMAGE",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Curated Gallery-"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "NO",
+    "MANUAL_INPUT",
+    "10565022",
+    "00571127",
+    "30571135",
+    "20569500"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Product Shelf-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2 style=\"line-height: 24px;\"><span style=\"color: #7faf94;\"><span style=\"color: #ffd2af;\">&middot; <span style=\"color: #000000;\">杏色</span></span><span style=\"color: #000000;\">粉色的柔美家居氛围</span></span></h2>\n<p>杏色和粉色可以为空间带来温馨、柔和的氛围。可以考虑作为墙面涂料或壁纸的选择，也可以在家居配饰中加入这两种颜色，比如花瓶、装饰画、台灯等，以营造出柔美的氛围。在运用这两种颜色时，可以考虑采用不同深浅、明度对比较大的搭配，以增加空间的层次感和视觉效果。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": null,
+   "texts": [
+    "NO",
+    "vertical_new",
+    "/p/60511809?artType=art",
+    "ikea://content/pip?id=60511809&type=art",
+    "{\"objectId_var\":\"60511809\",\"objectType_var\":\"product\"}",
+    "/inspiration/detail/d722bf1c-00a5-4659-a128-592229a0dbe3?type=IMAGE"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20240207/46579956f075438f9e5cdbb8dc9b6e17.jpg?x-oss-process=style/medium",
+    "https://res.app.ikea.cn/content/u/20240221/f9ed49e281434d07bd7287158e927ab8.jpg?x-oss-process=style%2Fmedium",
+    "https://res.app.ikea.cn/content/u/20240221/bc172862d0b445a69bfbf02157ee4784.jpg?x-oss-process=style%2Fmedium",
+    "https://res.app.ikea.cn/content/u/20240221/847f28af559c4e8fac192da0905c685d.jpg?x-oss-process=style%2Fmedium",
+    "https://res.app.ikea.cn/content/u/20240221/329f6d2de6b04debb8d0a70bd6f3323c.jpg?x-oss-process=style%2Fmedium"
+   ],
+   "links": [
+    {
+     "href": "/p/60511809?artType=art",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20240207/46579956f075438f9e5cdbb8dc9b6e17.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/inspiration/detail/d722bf1c-00a5-4659-a128-592229a0dbe3?type=IMAGE",
+     "text": ""
+    },
+    {
+     "href": "https://res.app.ikea.cn/content/u/20240221/f9ed49e281434d07bd7287158e927ab8.jpg?x-oss-process=style%2Fmedium",
+     "text": ""
+    },
+    {
+     "href": "/inspiration/detail/10b3b915-c4c8-4998-8841-651eb0428094?type=IMAGE",
+     "text": ""
+    },
+    {
+     "href": "https://res.app.ikea.cn/content/u/20240221/bc172862d0b445a69bfbf02157ee4784.jpg?x-oss-process=style%2Fmedium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Curated Gallery-"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "NO",
+    "MANUAL_INPUT",
+    "60511809",
+    "20513631",
+    "70511012",
+    "40404985"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Product Shelf-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2 style=\"line-height: 24px;\"><span style=\"color: #fbeeb8;\">&middot;</span> 明亮鲜艳、充满活力的热带风格</h2>\n<p>温暖的中性色被添加到蓝色的基调中，就像金色的沙丘与大海相遇。可以让居室更加生动有趣，让人感受到一种轻松愉悦的氛围。比如在客厅、卧室或书房中运用这种颜色的窗帘、家具或软装饰品。也可以通过地毯、沙发垫和装饰画等小件物品来点缀空间，营造出清新宜人的居家环境。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": null,
+   "texts": [
+    "NO",
+    "vertical_new",
+    "/p/90542951?artType=art",
+    "ikea://content/pip?id=90542951&type=art",
+    "{\"objectId_var\":\"90542951\",\"objectType_var\":\"product\"}",
+    "一间洗衣房，JONAXEL 尤纳赛尔 白色搁架单元上放着毛巾和衣物，旁边是一台洗衣机。"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20240207/bc72b4c48e5d4ad4805a73fe737bf604.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20240207/9f3cd4ba7bcc435aaec78cf3465174b2.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20240207/8b1253d2727c412fab6694c1bbbd86b6.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20240207/c07d8fdd51394d8683e0ae7d109501cc.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20240207/f1755c40d1de43a1855bd7dce1d9fff5.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20240207/bc72b4c48e5d4ad4805a73fe737bf604.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/p/90542951?artType=art",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20240207/9f3cd4ba7bcc435aaec78cf3465174b2.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20240207/8b1253d2727c412fab6694c1bbbd86b6.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20240207/c07d8fdd51394d8683e0ae7d109501cc.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/p/50543293?artType=art",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Curated Gallery-"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "NO",
+    "MANUAL_INPUT",
+    "90542951",
+    "50560782",
+    "40571012",
+    "10562660"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Product Shelf-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2 style=\"line-height: 24px;\"><span style=\"color: #c2e0f4;\">&middot; </span>海洋般多彩的蓝色</h2>\n<p style=\"color: rgba(0, 0, 0, 0.85); font-size: 14px; background-color: #ffffff;\">海洋般多彩的蓝色在奶油色和白色的背景下，让人感觉轻盈清爽，再诱人不过了！这种风格下，家是一个平静、舒缓的地方，让您放松、充电和迷失在自己的思绪中。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": null,
+   "texts": [
+    "NO",
+    "vertical_new",
+    "/p/20571800?artType=art",
+    "ikea://content/pip?id=20571800&type=art",
+    "{\"objectId_var\":\"20571800\",\"objectType_var\":\"product\"}",
+    "IMAGE"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20240221/d5c9d37f41564023848bd8ad6cb15c04.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20240221/66d6efa3884244029fe875a455403c52.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20240221/004134d9ec0148df89cd95717ab15e76.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20240221/f69c17b8525b4df6b93e6de72b309c34.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20240221/5bb50bb84a4a4207b2a4665ece9b2838.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/p/20571800?artType=art",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20240221/d5c9d37f41564023848bd8ad6cb15c04.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/p/60571803?artType=art",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20240221/66d6efa3884244029fe875a455403c52.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/p/40392652?artType=art",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20240221/004134d9ec0148df89cd95717ab15e76.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Curated Gallery-"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "NO",
+    "MANUAL_INPUT",
+    "60571803",
+    "20573601",
+    "20571800",
+    "40392652"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Product Shelf-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2 style=\"line-height: 24px;\"><span style=\"color: #000000;\"><span style=\"color: #b89b7b;\">&middot;</span> 中性原木色</span></h2>\n<p style=\"line-height: 24px;\">实用又优雅的颜色，依然是近些年家居色彩趋势之一。原木色家具通常具有自然、质朴的特点，它们可以与其他颜色和材质相互搭配，创造出和谐统一的空间氛围。总的来说，对于喜欢宁静的人，原木色家具在家居设计中的运用可以让居住者感受到更多的温馨和放松。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "two-columns",
+    "column",
+    "/p/80420040?artType=art",
+    "NO",
+    "ikea://content/pip?id=80420040&type=art",
+    "{\"objectId_var\":\"80420040\",\"objectType_var\":\"product\"}"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20240220/8e375419e2d2490baeae5c7f9b3682b3.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20240220/5bc3394f0259416fb96eb5b8c6d1e6b3.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/p/80420040?artType=art",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20240220/8e375419e2d2490baeae5c7f9b3682b3.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/p/00394945?artType=art",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20240220/5bc3394f0259416fb96eb5b8c6d1e6b3.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Columns-"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "NO",
+    "MANUAL_INPUT",
+    "80420040",
+    "40549417",
+    "10549857",
+    "00549419"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Product Shelf-"
+   }
+  },
+  {
+   "type": "pub-visual-pill-slider",
+   "title": null,
+   "texts": [
+    "一只手正在调节GLYPEN 格吕彭 厨房水龙头的水流大小，水龙头采用不锈钢制成，旁边放着TÅRTSMET 托米特 洗盘刷",
+    "/cat/tl002",
+    "NO",
+    "ikea://content/plp?catalogId=tl002",
+    "{\"objectId_var\":\"tl002\",\"objectType_var\":\"plp\"}",
+    "窗帘"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20240220/1070f52944854177b6faea99600e9117.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20240220/df6aca4032804b1badc1332278d6009c.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20240220/611addf921f248bfa335469d21800df6.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20240220/9d0fa5c1506a472ea39a4631aa355517.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20240220/7266104620c64149992c6d68b8b01a9d.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/cat/tl002",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20240220/1070f52944854177b6faea99600e9117.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/cat/10550",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20240220/df6aca4032804b1badc1332278d6009c.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/cat/de001",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20240220/611addf921f248bfa335469d21800df6.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Visual Pill Slider-"
+   }
+  },
+  {
+   "type": "pub-banner",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "standard",
+    "image-text-landscape",
+    "<p>精选低于30元好物，满足你的日常所需。</p>",
+    "低价优选",
+    "NO"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20240220/1a5491a6ce2e431b85d4a07454e8f7c0.jpg",
+    "https://file.app.ikea.cn/cms/u/20240220/1a5491a6ce2e431b85d4a07454e8f7c0.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20240220/1a5491a6ce2e431b85d4a07454e8f7c0.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20240220/1a5491a6ce2e431b85d4a07454e8f7c0.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/cn/zh/campaigns/wo3-men2-de-chao1-zhi2-di1-jia4-pub8b08af40",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Banner-"
+   }
+  },
+  {
+   "type": "inspirations",
+   "title": "更多装饰灵感",
+   "texts": [
+    "IMAGE_PRODUCTS",
+    "更多装饰灵感",
+    "WATERFALL",
+    "PGC",
+    "TAGS_INPUT",
+    "337ab29f007f3cdcbe75428a6ec1e160"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "26abed39b21c4a65bedf241d7f0879c9"
+   }
+  }
+ ]
+}

@@ -1,0 +1,118 @@
+{
+ "url": "/cn/zh/new/gallery/rang4-qian3-lan2-se4-ban4-ni3-han1-ran2-ru4-meng4-pub6b95b3b1",
+ "family": "new",
+ "id": "cn--zh--6b95b3b1207b11e98e3dd53ddd62671b",
+ "title": "让浅蓝色伴你酣然入梦",
+ "name": "20194_nwvm51a_CT",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "让浅蓝色伴你酣然入梦",
+   "texts": [
+    "一位女士凝视着床上的婴儿，宝宝身上盖着蓝白相间的 GULSPARV 古尔斯帕尔夫 婴儿纺织品。背景是饰有条纹图案的 GULSPARV 古尔斯帕尔夫 地毯。",
+    "<p>利用我们的全新纺织品，为宝宝打造一个温馨安全的幻境。</p>\n<p>GULSPARV 古尔斯帕尔夫 婴儿纺织品系列采用优美的传统风格，包含被套、地毯、毯子和窗帘等产品。</p>",
+    "让浅蓝色伴你酣然入梦",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/3e/4b/3e4bc1771d53127a303ca1bbdfe9d3a4.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/3e/4b/3e4bc1771d53127a303ca1bbdfe9d3a4.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "特写：GULSPARV 古尔斯帕尔夫 奶油色及白色婴儿毯饰有针织图案，并采用弧形边缘设计。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "40427109"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/e7/71/e771578e333089ac32807c73d60407bd.jpg",
+    "https://file.app.ikea.cn/images/47/7b/477ba038c8359bac07e161abb5b505f8.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/e7/71/e771578e333089ac32807c73d60407bd.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/47/7b/477ba038c8359bac07e161abb5b505f8.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "特写：一个婴儿正抓着采用100%棉制成的 GULSPARV 古尔斯帕尔夫 被套，这款白色被套上饰有处于生长阶段的蓝莓图案。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "20427068"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/9d/54/9d54261fb77a97fa8d25b4e29ae99d2d.jpg",
+    "https://file.app.ikea.cn/images/90/80/9080271ef89e08b14560480c19199c5e.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/9d/54/9d54261fb77a97fa8d25b4e29ae99d2d.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/90/80/9080271ef89e08b14560480c19199c5e.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/this-is-ikea/sustainable-everyday/quan2-mian4-cai3-yong4-ke3-chi2-xu4-mian2-hua1-pub7f285ad1",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fthis-is-ikea%2Fsustainable-everyday%2Fquan2-mian4-cai3-yong4-ke3-chi2-xu4-mian2-hua1-pub7f285ad1&key=cn--zh--7f285ad16a4c11e880763bb85d270ddb",
+    "{\"objectId_var\":\"/this-is-ikea/sustainable-everyday/quan2-mian4-cai3-yong4-ke3-chi2-xu4-mian2-hua1-pub7f285ad1\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "了解更多有关可持续来源棉花的信息"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/this-is-ikea/sustainable-everyday/quan2-mian4-cai3-yong4-ke3-chi2-xu4-mian2-hua1-pub7f285ad1",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "40427109",
+    "10427064",
+    "20427068",
+    "70427099"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

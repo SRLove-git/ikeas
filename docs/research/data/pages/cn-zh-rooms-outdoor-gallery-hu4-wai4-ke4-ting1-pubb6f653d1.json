@@ -1,0 +1,45 @@
+{
+ "url": "/cn/zh/rooms/outdoor/gallery/hu4-wai4-ke4-ting1-pubb6f653d1",
+ "family": "rooms",
+ "id": "cn--zh--b6f653d101f611e9aeb03d6b81950a38",
+ "title": "户外客厅",
+ "name": "20193_rmod10a_PF",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "户外客厅",
+   "texts": [
+    "宜家 KUNGSHOLMEN 昆索曼 模块式户外座椅家具系列坐感舒适，令人感觉仿佛仍置身于客厅。组合搭配色彩明亮的浴巾、植物和纸灯，打造全天候户外风格。",
+    "<p>想一整天都待在户外？没问题。专为户外打造的沙发、躺椅和灯具经久耐用，即使在户外也能获得客厅般舒适享受。来到户外，沐浴阳光，小坐一下吧。</p>",
+    "户外客厅",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/e6/ef/e6efc9273ba46520eb0f2b8c6ea44f07.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/e6/ef/e6efc9273ba46520eb0f2b8c6ea44f07.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s59258272",
+    "40270033",
+    "00312327",
+    "s89287560",
+    "20411388"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

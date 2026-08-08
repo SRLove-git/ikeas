@@ -1,0 +1,184 @@
+{
+ "url": "/cn/zh/ikea-business/gallery/ge4-xing4-dian4-pu4-an4-li4-pub542288a0",
+ "family": "ikea-business",
+ "id": "cn--zh--542288a0331211ec87511d1904e6e1dd",
+ "title": "美甲店案例",
+ "name": "个性店铺 - 美甲店案例",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "美甲店案例"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-标题-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>想要以独特的理念和风格表现产品和服务背后的意义？欢迎来到宜家！宜家有众多产品适合任何设计理念和风格，可满足从简约的瑜伽会所到时尚前卫的理发店等各类设计需求。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/85/d5/85d57cbb7ba37231659813eb9eb06aa2.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/85/d5/85d57cbb7ba37231659813eb9eb06aa2.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-媒体商品组合 image(Video)-"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/73/54/7354213e36e548e07ad73cd537bdf420.jpg",
+    "https://file.app.ikea.cn/images/aa/68/aa683d4e4869f3b368f68197f60c3010.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/73/54/7354213e36e548e07ad73cd537bdf420.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/aa/68/aa683d4e4869f3b368f68197f60c3010.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-分栏内容 Columns-"
+   }
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/90/8e/908ee0037c768467ab6b99a829edfc7e.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/90/8e/908ee0037c768467ab6b99a829edfc7e.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-媒体商品组合 image(Video)-"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/1b/93/1b939c13f21f530bdc22b900f717e756.jpg",
+    "https://file.app.ikea.cn/images/52/6c/526ced6fe9e7f5c16d850d30903f5c40.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/1b/93/1b939c13f21f530bdc22b900f717e756.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/52/6c/526ced6fe9e7f5c16d850d30903f5c40.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-分栏内容 Columns-"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "相关产品",
+   "texts": [
+    "/ikea-business/retail-furnishings",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fikea-business%2Fretail-furnishings&key=",
+    "{\"objectId_var\":\"/ikea-business/retail-furnishings\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "相关产品",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/ikea-business/retail-furnishings",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Product Shelf-相关产品"
+   }
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-分割线 Horizontal Line-"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/ikea-business/retail/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fikea-business%2Fretail%2F&key=",
+    "{\"objectId_var\":\"/ikea-business/retail/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "更多零售店铺案例"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/ikea-business/retail/",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-按钮 Link-button or text-"
+   }
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "url": "/cn/zh/cat/knoxhult-nuo-ke-hu-shui-cao-he-shui-long-tou-48979",
+ "id": "knoxhult-nuo-ke-hu-shui-cao-he-shui-long-tou-48979",
+ "name": "宜家KNOXHULT 诺克胡 水槽和水龙头-KNOXHULT 诺克胡 单元式厨房",
+ "description": "宜家KNOXHULT 诺克胡 水槽和水龙头能节水节能，帮助你减少账单开支。拥有品质保证，可使用多年。",
+ "total": 3,
+ "products": [
+  {
+   "id": "49157495",
+   "name": "BOHOLMEN 巴霍曼",
+   "price": 449,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/boholmen-ba-huo-man-qian-ru-shi-shui-cao-dai-1-ge-cao-bu-xiu-gang__0754413_pe747915_s4.jpg",
+   "productType": "嵌入式水槽，带1个槽",
+   "designText": "不锈钢",
+   "measureText": "45 厘米",
+   "url": null,
+   "seoSlug": "boholmen-ba-huo-man-qian-ru-shi-shui-cao-dai-1-ge-cao-bu-xiu-gang"
+  },
+  {
+   "id": "39158004",
+   "name": "FYNDIG 芬蒂格",
+   "price": 279,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/fyndig-fen-di-ge-qian-ru-shi-shui-cao-dai-1-ge-cao-bu-xiu-gang__0754464_pe747928_s4.jpg",
+   "productType": "嵌入式水槽，带1个槽",
+   "designText": "不锈钢",
+   "measureText": "46x40 厘米",
+   "url": null,
+   "seoSlug": "fyndig-fen-di-ge-qian-ru-shi-shui-cao-dai-1-ge-cao-bu-xiu-gang"
+  },
+  {
+   "id": "39157504",
+   "name": "BOHOLMEN 巴霍曼",
+   "price": 379,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/boholmen-ba-huo-man-qian-ru-shi-shui-cao-dai-1-ge-cao-bu-xiu-gang__0754415_pe747916_s4.jpg",
+   "productType": "嵌入式水槽，带1个槽",
+   "designText": "不锈钢",
+   "measureText": "47x30 厘米",
+   "url": null,
+   "seoSlug": "boholmen-ba-huo-man-qian-ru-shi-shui-cao-dai-1-ge-cao-bu-xiu-gang"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "49157495",
+   "type": "SPR",
+   "fullId": "s49157495"
+  },
+  {
+   "id": "39158004",
+   "type": "SPR",
+   "fullId": "s39158004"
+  },
+  {
+   "id": "39157504",
+   "type": "SPR",
+   "fullId": "s39157504"
+  }
+ ]
+}

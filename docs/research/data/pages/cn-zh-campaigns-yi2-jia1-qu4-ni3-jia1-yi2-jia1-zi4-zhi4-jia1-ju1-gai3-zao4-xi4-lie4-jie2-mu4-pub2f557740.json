@@ -1,0 +1,694 @@
+{
+ "url": "/cn/zh/campaigns/yi2-jia1-qu4-ni3-jia1-yi2-jia1-zi4-zhi4-jia1-ju1-gai3-zao4-xi4-lie4-jie2-mu4-pub2f557740",
+ "family": "campaigns",
+ "id": "cn--zh--2f557740fe6e11eb909ec36c6e99b004",
+ "title": "第六期 打破常规，何不让家“野”一点",
+ "name": "宜家去你家 -第六期",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "打破常规，何不让家“野”一点"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "5c9f26e3277f4b6685362cea75e21e58"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>由宜家设计师走进真实家庭，针对不同屋主的需求，用可持续的人性化设计，<strong>为屋主们化解生活中的困扰</strong>，创造理想的家~</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "ecbd6ab260b14baba93901f9fbe2cfba"
+   }
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/66/38/663824911f85a823cfbe8d659088b890.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/66/38/663824911f85a823cfbe8d659088b890.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "dd3a71a70da84f50bcaef30c150c17fa"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>林导是一个热爱电竞游戏的媒体工作者，元元是一个热爱冒险和旅行的金融从业人员。年轻的他们有着各自的爱好，享受着共享而独立的生活。</p>\n<p>然而家中父母置办的传统家具，不仅风格古板，而且笨重、占空间，大大影响了布局的合理规划，难免限制了年轻人的个性。</p>\n<p><strong>面对这样的家，怎样玩出新鲜感？</strong></p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "da08617891fb420cb8cbe6c803d3c5ba"
+   }
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "db75dc209fa24a5da83c1b1e1821c4b3"
+   }
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "NO",
+    "https://file.app.ikea.cn/cms/u/20221213/b136d662ab5148b38e8661164eeb9e6f.mp4",
+    "VIDEO",
+    "hosted",
+    "*宜家全屋设计不含硬装服务及定制家具，具体服务流程和产品价格以各地商场和实际购买情况为准。",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20221213/b136d662ab5148b38e8661164eeb9e6f.mp4",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Image(video)-"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "<h2>他们的诉求</h2>\n<p><strong>打造更适合自己的个性新家</strong>，让家更野一点；</p>\n<p><strong>兼顾独立与共处的需求</strong>，打造有爱空间。</p>\n<p>这次改造，宜家设计师嘉辉和Yvonne跳脱传统思路，大胆重整布局，挑选更符合他们需求与审美的家具进行搭配，营造多样性空间，来适应他们的生活方式。组合灵活的模块化家具，大面积运用了元元喜欢的橙色进行撞色处理，还为林导全面升级了电竞房，带他们发现了家的更多可能。</p>",
+    "pub-text"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/06/53/06532cc8924421c49a7b9644e17d7348.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/06/53/06532cc8924421c49a7b9644e17d7348.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "eec2273cc4804ed592fd433bfb195a54"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>客厅改造 | <a href=\"#e1262310-fe6f-11eb-8f7e-a9f573dd2c5f\">阳台改造</a> | <a href=\"#e71944f0-fe6f-11eb-8f7e-a9f573dd2c5f\">餐厅改造 </a>| <a href=\"#e8afc370-fe6f-11eb-8f7e-a9f573dd2c5f\">书房改造</a></p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "544aa5c39dc84d239d801fb5e3abc207"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/09/fb/09fb5f64e73c3c8fcefa97c5881e5104.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/09/fb/09fb5f64e73c3c8fcefa97c5881e5104.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "90936606d5214ab786ecb5710b3553a8"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "<h3>收纳空间有限杂乱沉闷</h3>\n<p>客厅的空间虽大，但受老旧的家具与格格不入的沙发布垫影响，沉闷而缺乏生机。狭窄的电视柜储物空间有限，远远不能应对收纳需求，大大小小的模型车、爱藏品只能委身于台面上，拥挤不堪，略显杂乱。</p>",
+    "pub-text"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/e5/c7/e5c7767059d0c8edca972e43a6fbd8e4.jpg",
+    "https://file.app.ikea.cn/images/93/af/93af13627e39aa75e6de118e9f7764f2.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/e5/c7/e5c7767059d0c8edca972e43a6fbd8e4.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/93/af/93af13627e39aa75e6de118e9f7764f2.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "20c1dc300341457d8476159c4851ad4c"
+   }
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/eb/d1/ebd1a940c0856874025bbf6cbc0e9b10.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/eb/d1/ebd1a940c0856874025bbf6cbc0e9b10.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "f89dae5dcaba43da843d4e953d3ee19d"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>在客厅的两侧墙面，以储物组合打造出收纳与展示的空间。客厅中间，由高颜值的沙发撑起颜值C位，沙发套还可以拆卸清洗，易于打理。巧将单人沙发与双人沙发错位摆布，配合两种可移动的边桌，轻松营造出双重休闲空间。让他们可以背对背和谐共处，更好地专注于自己的世界。</p>\n<p>这个&ldquo;改头换面&rdquo;的客厅，如今担当起了更多的职责：娱乐、健身、阅读、会客&hellip;都不在话下。储物组合上陈列着大大小小的旅行回忆，元元也更爱在这里驻足，回味旅行的美好了。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "43885f595ac5411bb2ba1cf9ef105b9b"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "推荐商品",
+   "texts": [
+    "推荐商品",
+    "MANUAL_INPUT",
+    "70349445",
+    "00342193",
+    "s59318704",
+    "s59436439"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "13b80c35156c4b52806c9b8df8b28522"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p><a href=\"#ba480880-fe6f-11eb-8f7e-a9f573dd2c5f\">客厅改造</a> | 阳台改造 | <a href=\"#e71944f0-fe6f-11eb-8f7e-a9f573dd2c5f\">餐厅改造 </a>| <a href=\"#e8afc370-fe6f-11eb-8f7e-a9f573dd2c5f\">书房改造</a></p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "d72a88ebe98042f999af822e1f574ddb"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/df/c9/dfc987b8c8346733c26ec3834e48d45c.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/df/c9/dfc987b8c8346733c26ec3834e48d45c.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "f94f14cccd614b0991fd1d35bc962604"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "<p>原先的阳台只零零散散摆了些绿植，宽敞的空间没能得到充分的利用，着实可惜。怎样才能给这块区域增添活力呢？</p>",
+    "pub-text"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/77/01/770113a8bdfed4b303f530472787561f.jpg",
+    "https://file.app.ikea.cn/images/13/8c/138c994aa481493220576378101a77d8.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/77/01/770113a8bdfed4b303f530472787561f.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/13/8c/138c994aa481493220576378101a77d8.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "4e9061f1cd514a1ba9f604b81570b099"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "推荐商品",
+   "texts": [
+    "推荐商品",
+    "MANUAL_INPUT",
+    "60495197",
+    "60426340",
+    "00165128",
+    "00361761"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "f189c9d98506447f83d4a57d48eb65ff"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p><a href=\"#ba480880-fe6f-11eb-8f7e-a9f573dd2c5f\">客厅改造</a> | <a href=\"#e1262310-fe6f-11eb-8f7e-a9f573dd2c5f\">阳台改造</a> | 餐厅改造 | <a href=\"#e8afc370-fe6f-11eb-8f7e-a9f573dd2c5f\">书房改造</a></p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "53dad9fc7e8b44d08e1dded36e814c18"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/69/d7/69d721e8e5287614fa292778f9e47b59.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/69/d7/69d721e8e5287614fa292778f9e47b59.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "88b077bd75eb46a9a3cfdddd6517f6cc"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "<p>林导和元元日常的用餐需求并不高，并且喜欢围坐在茶几吃饭，因此餐厅也成了常常被忽略的存在。在深入了解后，发现他们更希望能拥有一个迷你工作室，能变成林导盘弄模型车的据点，也能变成元元捣鼓烘焙、手工的场所。</p>",
+    "pub-text"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/86/91/8691075e7471d59ad37d0ada4dac3328.jpg",
+    "https://file.app.ikea.cn/images/34/3f/343f01f1818ec62eeced1a467e6314a5.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/86/91/8691075e7471d59ad37d0ada4dac3328.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/34/3f/343f01f1818ec62eeced1a467e6314a5.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "30c18577dd6f4e8ea688a534ff4e34bd"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "推荐商品",
+   "texts": [
+    "推荐商品",
+    "MANUAL_INPUT",
+    "s19417107",
+    "s69304202",
+    "00341971",
+    "80377211"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "7de99e5b0f5349408a9fbd9cce767325"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p><a href=\"#ba480880-fe6f-11eb-8f7e-a9f573dd2c5f\">客厅改造</a> | <a href=\"#e1262310-fe6f-11eb-8f7e-a9f573dd2c5f\">阳台改造</a> | <a href=\"#e71944f0-fe6f-11eb-8f7e-a9f573dd2c5f\">餐厅改造</a> | 书房改造</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "6648296bd84b434abe6b208b2ea1dc17"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/4d/85/4d856e28f5ced72f042384741a95aebe.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/4d/85/4d856e28f5ced72f042384741a95aebe.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "50563a64f3184eb3b8467aa7dd53745c"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "<p>仅放了一张书桌和一个储物柜的书房，虽空旷却不实用。书桌被大屏电脑占据，加上各色摆件，桌面显得更为拥挤。而元元游历世界搜集的纪念品们都被封印在左手边的储物柜里，&ldquo;不见天日&rdquo;。</p>",
+    "pub-text"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/1d/16/1d163a93b820a82bcf78fcb8e152f9c8.jpg",
+    "https://file.app.ikea.cn/images/9e/e1/9ee1be2f6fdbcf4e5e648fb836f34f06.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/1d/16/1d163a93b820a82bcf78fcb8e152f9c8.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/9e/e1/9ee1be2f6fdbcf4e5e648fb836f34f06.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "fa00f6084bc84118998490c2c438453f"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "林导终于拥有了酷炫的电竞区",
+   "texts": [
+    "戴上耳机，便可以沉浸入游戏中，热血沸腾。而一旁的元元也能不受影响，坐在书桌边或是飘窗旁，看书、追剧、整理旅行攻略，悠然自得。",
+    "林导终于拥有了酷炫的电竞区",
+    "1_L"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/25/d3/25d3093c97014c3823ce09f38ff64cc7.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/25/d3/25d3093c97014c3823ce09f38ff64cc7.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "68266b47ddf74ad0adbf6f81ed7d8bc1"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "可调节高度的电竞桌椅相搭配",
+   "texts": [
+    "为颈椎不好的林导带来无微不至的照顾，缓解疲惫，时刻保持绝佳的竞技状态。",
+    "可调节高度的电竞桌椅相搭配",
+    "1_R"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/af/a7/afa78cb295f754ae2bd702e9b59442f8.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/af/a7/afa78cb295f754ae2bd702e9b59442f8.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "e60236ac9b1f4500880be9c8cf893159"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "可移动抽屉柜、水杯架、耳机架、展示洞洞板…",
+   "texts": [
+    "由宜家与ROG联合打造的好物们是绝佳拍档，构建出一所电竞爱好者梦寐以求的玩乐空间。",
+    "可移动抽屉柜、水杯架、耳机架、展示洞洞板…",
+    "1_L"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/02/50/0250743da3f0420918ca84b6f4b6d0d1.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/02/50/0250743da3f0420918ca84b6f4b6d0d1.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "463858b3ed354b66ae94b151443d0faa"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "书房不仅要舒适，氛围感也要拉满",
+   "texts": [
+    "多彩灯光随心变，演绎出“五彩斑斓的黑”。即使在白天，拉上窗帘，打开灯光，也能秒变酷炫风，沉浸在酣畅淋漓的电竞游戏之中。而一边的暖黄色灯光则陪伴着元元追剧。",
+    "书房不仅要舒适，氛围感也要拉满",
+    "1_R"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/cc/62/cc623dda3497b3941b4e504c509ac7b4.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/cc/62/cc623dda3497b3941b4e504c509ac7b4.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "e91748b4f59d41f895aeb3131d4b5137"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "推荐商品",
+   "texts": [
+    "推荐商品",
+    "MANUAL_INPUT",
+    "s29307641",
+    "10373711",
+    "s69282667",
+    "s29282259"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "b753b1bab8104c5a827949b8b936e448"
+   }
+  },
+  {
+   "type": "pub-inspiration-card",
+   "title": null,
+   "texts": [
+    "ce107010-fe73-11eb-8f7e-a9f573dd2c5f",
+    "/campaigns/yi2-jia1-qu4-ni3-jia1-pubd6ecba90",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fcampaigns%2Fyi2-jia1-qu4-ni3-jia1-pubd6ecba90&key=cn--zh--d6ecba90c29b11ebbbfb39c810ab3bdb",
+    "{\"objectId_var\":\"/campaigns/yi2-jia1-qu4-ni3-jia1-pubd6ecba90\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "第5期──  爆改工作室，Hold住职场和家庭带娃更轻松！"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/85/05/8505116eb562e9831a4a22b265bb2d7c.jpg",
+    "https://file.app.ikea.cn/images/fa/9b/fa9b28e018b61fb294c09ef4727ae00e.jpg",
+    "https://file.app.ikea.cn/images/4b/7c/4b7c6dd599511716161226373c062c33.jpg",
+    "https://file.app.ikea.cn/images/ed/66/ed66301711a69c1e1a40bf053f681f1f.jpg",
+    "https://file.app.ikea.cn/images/1d/1b/1d1b0d632e3e05f475d1180498432e63.jpg"
+   ],
+   "links": [
+    {
+     "href": "/campaigns/yi2-jia1-qu4-ni3-jia1-pubd6ecba90",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/85/05/8505116eb562e9831a4a22b265bb2d7c.jpg",
+     "text": ""
+    },
+    {
+     "href": "/campaigns/yi2-jia1-qu4-ni3-jia1-yi2-jia1-zi4-zhi4-de-jia1-ju1-gai3-zao4-xi4-lie4-jie2-mu4-pub4df85870",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/fa/9b/fa9b28e018b61fb294c09ef4727ae00e.jpg",
+     "text": ""
+    },
+    {
+     "href": "/campaigns/yi2-jia1-qu4-ni3-jia1-pub0bfbd820",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/4b/7c/4b7c6dd599511716161226373c062c33.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "fec7308b344e433dadfaf27993383cb9"
+   }
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "c81ee283d8234990aa99efa87b55ccaf"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>宜家全屋设计</h2>\n<p>专业设计，1对1服务，不论大家小家，都能变成理想的家！</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "b92a9e01c9d84bb8bc5f1abe0f2b1fe2"
+   }
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "/h5page/?url=https%3A%2F%2Fwrd.family.ikea.cn%2Fwrd%3Fchannel%3DOA-Club-Article%26cl_sr%3DOA-Club-Article",
+    "NO",
+    "ikea://default-module/H5?url=https%3A%2F%2Fwrd.family.ikea.cn%2Fwrd%3Fchannel%3DOA-Club-Article%26cl_sr%3DOA-Club-Article",
+    "{\"objectId_var\":\"https://wrd.family.ikea.cn/wrd?channel=OA-Club-Article&cl_sr=OA-Club-Article\",\"objectType_var\":\"default-module/H5\"}",
+    "IMAGE",
+    "点击了解详情 / 预约"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/60/51/60518531c4ac24d939b3cc07fbe8b79a.jpg"
+   ],
+   "links": [
+    {
+     "href": "/h5page/?url=https%3A%2F%2Fwrd.family.ikea.cn%2Fwrd%3Fchannel%3DOA-Club-Article%26cl_sr%3DOA-Club-Article",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/60/51/60518531c4ac24d939b3cc07fbe8b79a.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "d4fb028ca7434a71b8296c74375c1795"
+   }
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "1577c52390694f03a9a4dbb2b6490d10"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/campaigns/ikea-design-stories-pubc770f5d0",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fcampaigns%2Fikea-design-stories-pubc770f5d0&key=cn--zh--c770f5d0102711eb80c3eda0f6efe0f0",
+    "{\"objectId_var\":\"/campaigns/ikea-design-stories-pubc770f5d0\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "查看更多往期内容"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/campaigns/ikea-design-stories-pubc770f5d0",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "49becbec2fc1490189b4ce2b8d10cfe9"
+   }
+  }
+ ]
+}

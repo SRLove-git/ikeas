@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/cat/xiang-xun-gua-jian-58411",
+ "id": "xiang-xun-gua-jian-58411",
+ "name": "",
+ "description": null,
+ "total": 2,
+ "products": [
+  {
+   "id": "30513174",
+   "name": "KROPPSVARM 克洛旺",
+   "price": 5.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/kroppsvarm-ke-luo-wang-xiang-dai-xun-yi-cao__1091051_pe862280_s4.jpg",
+   "productType": "香袋",
+   "designText": "薰衣草",
+   "measureText": "10 克",
+   "url": null,
+   "seoSlug": "kroppsvarm-ke-luo-wang-xiang-dai-xun-yi-cao"
+  },
+  {
+   "id": "90619139",
+   "name": "HÄRMHÖK 霍姆约特",
+   "price": 5.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/haermhoek-huo-mu-yue-te-xun-yi-cao-dai-bai-se-dan-zi-se__1485603_pe1002054_s4.jpg",
+   "productType": "薰衣草袋",
+   "designText": "白色/淡紫色",
+   "measureText": "7 克",
+   "url": null,
+   "seoSlug": "haermhoek-huo-mu-yue-te-xun-yi-cao-dai-bai-se-dan-zi-se"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "30513174",
+   "type": "ART",
+   "fullId": "30513174"
+  },
+  {
+   "id": "90619139",
+   "type": "ART",
+   "fullId": "90619139"
+  }
+ ]
+}

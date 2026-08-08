@@ -1,0 +1,338 @@
+{
+ "url": "/cn/zh/new/gallery/bjoerksta-pub49ae5fa0",
+ "family": "new",
+ "id": "cn--zh--49ae5fa02f9111eb858f7102a1fab542",
+ "title": "用经典画作，为房间增添格调！",
+ "name": "BJÖRKSTA 约纳斯塔 挂画系列",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "用经典画作，为房间增添格调！"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": null,
+   "texts": [
+    "今年冬季，我们为广大艺术爱好者们准备了一份”大礼”——多位艺术大师们广受喜爱的经典之作。不用花大价钱，只需轻松装裱，就能用这些名画装点你的家！",
+    "/p/69384859?artType=SPR",
+    "NO",
+    "ikea://content/pip?id=69384859&type=SPR",
+    "{\"objectId_var\":\"69384859\",\"objectType_var\":\"product\"}",
+    "/p/49384742?artType=SPR"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/da/74/da747e734ec39fb9319a609698d0325f.jpg",
+    "https://file.app.ikea.cn/images/94/74/94745ba98880722d26d1798cf678decf.jpg",
+    "https://file.app.ikea.cn/images/bf/d4/bfd458f984dfecedcab3739a95d60c77.jpg",
+    "https://file.app.ikea.cn/images/77/11/7711340a6b05d8f7e1d720e67353f7c8.jpg",
+    "https://file.app.ikea.cn/images/0a/9b/0a9bf0c25a501885ff8a5cb8d5ce03f7.jpg"
+   ],
+   "links": [
+    {
+     "href": "/p/69384859?artType=SPR",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/da/74/da747e734ec39fb9319a609698d0325f.jpg",
+     "text": ""
+    },
+    {
+     "href": "/p/49384742?artType=SPR",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/94/74/94745ba98880722d26d1798cf678decf.jpg",
+     "text": ""
+    },
+    {
+     "href": "/p/79384811?artType=SPR",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/bf/d4/bfd458f984dfecedcab3739a95d60c77.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>你一定见过&ldquo;她们&rdquo;!</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "/p/49384742?artType=SPR",
+    "NO",
+    "ikea://content/pip?id=49384742&type=SPR",
+    "{\"objectId_var\":\"49384742\",\"objectType_var\":\"product\"}",
+    "pub-image"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/c3/a5/c3a572fb4b6e1c93b81417d6b1ca6628.jpg"
+   ],
+   "links": [
+    {
+     "href": "/p/49384742?artType=SPR",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/c3/a5/c3a572fb4b6e1c93b81417d6b1ca6628.jpg",
+     "text": ""
+    },
+    {
+     "href": "/p/49384742?artType=SPR",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "/p/19384734?artType=SPR",
+    "NO",
+    "ikea://content/pip?id=19384734&type=SPR",
+    "{\"objectId_var\":\"19384734\",\"objectType_var\":\"product\"}",
+    "pub-image"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/f0/d9/f0d9fb02828f7c1f11e85b1f1a4233ee.jpg"
+   ],
+   "links": [
+    {
+     "href": "/p/19384734?artType=SPR",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/f0/d9/f0d9fb02828f7c1f11e85b1f1a4233ee.jpg",
+     "text": ""
+    },
+    {
+     "href": "/p/19384734?artType=SPR",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "/p/79384811?artType=SPR",
+    "NO",
+    "ikea://content/pip?id=79384811&type=SPR",
+    "{\"objectId_var\":\"79384811\",\"objectType_var\":\"product\"}",
+    "pub-image"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/de/03/de0337ff2494da2a26d9ab37dc65db5e.jpg"
+   ],
+   "links": [
+    {
+     "href": "/p/79384811?artType=SPR",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/de/03/de0337ff2494da2a26d9ab37dc65db5e.jpg",
+     "text": ""
+    },
+    {
+     "href": "/p/79384811?artType=SPR",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "/p/49384638?artType=SPR",
+    "NO",
+    "ikea://content/pip?id=49384638&type=SPR",
+    "{\"objectId_var\":\"49384638\",\"objectType_var\":\"product\"}",
+    "pub-image"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/c1/89/c189d47d469dc344cd349d9cf30a5b1c.jpg"
+   ],
+   "links": [
+    {
+     "href": "/p/49384638?artType=SPR",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/c1/89/c189d47d469dc344cd349d9cf30a5b1c.jpg",
+     "text": ""
+    },
+    {
+     "href": "/p/49384638?artType=SPR",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "/p/69384859?artType=SPR",
+    "NO",
+    "ikea://content/pip?id=69384859&type=SPR",
+    "{\"objectId_var\":\"69384859\",\"objectType_var\":\"product\"}",
+    "pub-image"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/ef/4e/ef4e835ef3ae1901f8778feabf621f6c.jpg"
+   ],
+   "links": [
+    {
+     "href": "/p/69384859?artType=SPR",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/ef/4e/ef4e835ef3ae1901f8778feabf621f6c.jpg",
+     "text": ""
+    },
+    {
+     "href": "/p/69384859?artType=SPR",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "/p/69384982?artType=SPR",
+    "NO",
+    "ikea://content/pip?id=69384982&type=SPR",
+    "{\"objectId_var\":\"69384982\",\"objectType_var\":\"product\"}",
+    "pub-image"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/de/32/de32c52964f55893f458d585a65b2c95.jpg"
+   ],
+   "links": [
+    {
+     "href": "/p/69384982?artType=SPR",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/de/32/de32c52964f55893f458d585a65b2c95.jpg",
+     "text": ""
+    },
+    {
+     "href": "/p/69384982?artType=SPR",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>*我们的图片采用卷筒包装，部分产品由于尺寸较长无法使用包裹快递送货。建议在购买其它大件家具时一同加购，以节省运费。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "打造个性墙面装饰",
+   "texts": [
+    "/cat/10757",
+    "NO",
+    "ikea://content/plp?catalogId=10757",
+    "{\"objectId_var\":\"10757\",\"objectType_var\":\"plp\"}",
+    "利用诸如 BJÖRKSTA 约纳斯塔 这类大号画框和图片，你可以为整个房间增添格调，打造出充满个性的装饰美感。体现你个性和装饰风格的艺术作品！",
+    "打造个性墙面装饰"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/6702001841a8a1a4/original/PH173353-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/10757",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/6702001841a8a1a4/original/PH173353-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-inspiration-card",
+   "title": null,
+   "texts": [
+    "fd87e3b0-2fa6-11eb-bd36-d5a11fc16c99",
+    "/rooms/living-room/how-to/tan4-suo3-jia1-zhuang1-ru2-he2-qing1-song1-da3-zao4-qiang2-mian4-hua4-lang2-pub3231bd60",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fliving-room%2Fhow-to%2Ftan4-suo3-jia1-zhuang1-ru2-he2-qing1-song1-da3-zao4-qiang2-mian4-hua4-lang2-pub3231bd60&key=cn--zh--3231bd60646011ea9e22bf68fd53fc44",
+    "{\"objectId_var\":\"/rooms/living-room/how-to/tan4-suo3-jia1-zhuang1-ru2-he2-qing1-song1-da3-zao4-qiang2-mian4-hua4-lang2-pub3231bd60\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "探索家装：如何轻松打造墙面画廊"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/ff/dc/ffdc1893d33d1854a0f803a35d2ed0fd.jpg"
+   ],
+   "links": [
+    {
+     "href": "/rooms/living-room/how-to/tan4-suo3-jia1-zhuang1-ru2-he2-qing1-song1-da3-zao4-qiang2-mian4-hua4-lang2-pub3231bd60",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/ff/dc/ffdc1893d33d1854a0f803a35d2ed0fd.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  }
+ ]
+}

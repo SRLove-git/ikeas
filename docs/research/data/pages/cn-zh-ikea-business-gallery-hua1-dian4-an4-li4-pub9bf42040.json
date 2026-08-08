@@ -1,0 +1,165 @@
+{
+ "url": "/cn/zh/ikea-business/gallery/hua1-dian4-an4-li4-pub9bf42040",
+ "family": "ikea-business",
+ "id": "cn--zh--9bf42040438d11ecac7cb1b215a3638e",
+ "title": "花店案例",
+ "name": "个性化店铺  - 花店案例",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "花店案例"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-标题-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>想要以独特的理念和风格表现产品和服务背后的意义？欢迎来到宜家！宜家有众多产品适合任何设计理念和风格，可满足从简约的瑜伽会所到时尚前卫的理发店等各类设计需求。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/61/65/616512865a89a89b0213174133490c40.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/61/65/616512865a89a89b0213174133490c40.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-媒体商品组合 image(Video)-"
+   }
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/40/eb/40eb34d6bbb92bde7821e189eab5be6f.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/40/eb/40eb34d6bbb92bde7821e189eab5be6f.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-媒体商品组合 image(Video)-"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/87/ab/87ab5ba6ad4c86c75623a90fa3b9afa7.jpg",
+    "https://file.app.ikea.cn/images/fa/8f/fa8fbdc77414e9d4dbfa30c6568326cc.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/87/ab/87ab5ba6ad4c86c75623a90fa3b9afa7.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/fa/8f/fa8fbdc77414e9d4dbfa30c6568326cc.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-分栏内容 Columns-"
+   }
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/1f/2b/1f2b90f7a910a4476419cf563188441f.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/1f/2b/1f2b90f7a910a4476419cf563188441f.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-媒体商品组合 image(Video)-"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "相关产品",
+   "texts": [
+    "/rooms/outdoor/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Foutdoor%2F&key=",
+    "{\"objectId_var\":\"/rooms/outdoor/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "相关产品",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/rooms/outdoor/",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Product Shelf-相关产品"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/ikea-business/retail/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fikea-business%2Fretail%2F&key=",
+    "{\"objectId_var\":\"/ikea-business/retail/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "更多零售店铺案例"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/ikea-business/retail/",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-按钮 Link-button or text-"
+   }
+  }
+ ]
+}

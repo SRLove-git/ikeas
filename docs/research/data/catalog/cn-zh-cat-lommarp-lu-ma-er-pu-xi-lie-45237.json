@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/cat/lommarp-lu-ma-er-pu-xi-lie-45237",
+ "id": "lommarp-lu-ma-er-pu-xi-lie-45237",
+ "name": "LOMMARP 鲁马尔普 系列",
+ "description": "点击此处查看 LOMMARP 鲁马尔普 客厅储物系列产品，外观经典优美，细节精致到位。经典的外观不禁令人追忆起注重朴素简约风格的过往时光，同时又不失充满现代风格的细节和功能。",
+ "total": 2,
+ "products": [
+  {
+   "id": "60415469",
+   "name": "LOMMARP 鲁马尔普",
+   "price": 3499,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/lommarp-lu-ma-er-pu-gui-zi-shen-lan-lu-se__0739327_pe741692_s4.jpg",
+   "productType": "柜子",
+   "designText": "深蓝绿色",
+   "measureText": "102x101 厘米",
+   "url": null,
+   "seoSlug": "lommarp-lu-ma-er-pu-gui-zi-shen-lan-lu-se"
+  },
+  {
+   "id": "90415161",
+   "name": "LOMMARP 鲁马尔普",
+   "price": 3999,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/lommarp-lu-ma-er-pu-bo-li-men-chu-gui-shen-lan-lu-se__0739331_pe741694_s4.jpg",
+   "productType": "玻璃门橱柜",
+   "designText": "深蓝绿色",
+   "measureText": "86x199 厘米",
+   "url": null,
+   "seoSlug": "lommarp-lu-ma-er-pu-bo-li-men-chu-gui-shen-lan-lu-se"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "60415469",
+   "type": "ART",
+   "fullId": "60415469"
+  },
+  {
+   "id": "90415161",
+   "type": "ART",
+   "fullId": "90415161"
+  }
+ ]
+}

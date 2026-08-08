@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/hallway/gallery/menting-pub6a0b3991",
+ "family": "rooms",
+ "id": "cn--zh--6a0b3991cf8511e78e0a0bf79e0fa98f",
+ "title": "鞋子、钥匙和硬币的藏身之所",
+ "name": "20182-coha01a_EZ_SEO",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "鞋子、钥匙和硬币的藏身之所",
+   "texts": [
+    "一间白色调门厅，旁边有白色的传统鞋柜和一排悬挂的外套。",
+    "鞋子、钥匙和硬币的藏身之所",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/70/09/7009b35b940b73041dc3c1c5fd0bb09f.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/70/09/7009b35b940b73041dc3c1c5fd0bb09f.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "00169560",
+    "00362690",
+    "80294980",
+    "70340039",
+    "s69230051"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

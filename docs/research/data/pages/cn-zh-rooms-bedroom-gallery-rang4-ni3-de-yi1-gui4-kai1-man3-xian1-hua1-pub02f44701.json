@@ -1,0 +1,45 @@
+{
+ "url": "/cn/zh/rooms/bedroom/gallery/rang4-ni3-de-yi1-gui4-kai1-man3-xian1-hua1-pub02f44701",
+ "family": "rooms",
+ "id": "cn--zh--02f44701fded11e8a8c8e16fdaf0d8e9",
+ "title": "让你的衣柜开满鲜花",
+ "name": "20193_rmbe02a_PF",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "让你的衣柜开满鲜花",
+   "texts": [
+    "利用带全新 FLORNES 夫伦斯 深灰色花卉图案衣柜门的宜家 PAX 帕克思 衣柜，装点你的卧室。利用淡粉色、柔和的灰色和如粉末般细腻的白色色调，打造轻松惬意的居住氛围。",
+    "<p>淡彩色、冷灰色，外加衣柜门上精致的花卉图案，打造出轻松宜人的卧室氛围。</p>",
+    "让你的衣柜开满鲜花",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/fc/70/fc707c70991afdd46bda17f5d860d98b.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/fc/70/fc707c70991afdd46bda17f5d860d98b.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s79276492",
+    "10355670",
+    "80347530",
+    "90344668",
+    "s59198396"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "url": "/cn/zh/rooms/bedroom/gallery/quan2-fang1-wei4-wu3-xing1-wo4-shi4-pub1d50e811",
+ "family": "rooms",
+ "id": "cn--zh--1d50e811252511e98e3dd53ddd62671b",
+ "title": "全方位五星卧室",
+ "name": "20194_rmbe06a_CT",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "全方位五星卧室",
+   "texts": [
+    "宜家 HOMMELVIK 霍莫尔维科 米黄色沙发床配有布料装饰的床头板，因此你可以大胆地将它放置在卧室中央。",
+    "<p>在能与酒店媲美的舒适床上入睡。HOMMELVIK 霍莫尔维科 欧式床用天然纤维编织而成，你可以将它放在房间中央，创造愉悦舒适的睡眠环境。</p>",
+    "全方位五星卧室",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/8e/ce/8ece7768bc2cb7a7b58b341a744c6fb1.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/8e/ce/8ece7768bc2cb7a7b58b341a744c6fb1.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s79228217",
+    "70407360",
+    "30298396",
+    "s99157577",
+    "90320097"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

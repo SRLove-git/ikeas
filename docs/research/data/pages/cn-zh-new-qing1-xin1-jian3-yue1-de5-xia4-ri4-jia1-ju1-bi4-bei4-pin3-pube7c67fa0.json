@@ -1,0 +1,154 @@
+{
+ "url": "/cn/zh/new/qing1-xin1-jian3-yue1-de5-xia4-ri4-jia1-ju1-bi4-bei4-pin3-pube7c67fa0",
+ "family": "new",
+ "id": "cn--zh--e7c67fa0462611ec92ab5bec070214dd",
+ "title": "清新简约的夏日家居配件灵感",
+ "name": "622241_nwns01a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "清新简约的夏日家居必备品"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "62d238efb63e4424a96c97dec762d298"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>拉起窗帘，打开窗户，呼吸全新季节的新鲜空气。用舒适透气的床上用品和充满清新自然气息的香味烛，享受无忧无虑的惬意时光。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "da04799628a7442aadd876a4b3f2441f"
+   }
+  },
+  {
+   "type": "pub-video-link",
+   "title": null,
+   "texts": [
+    "https://youtu.be/STtcH6qqXow",
+    "MANUAL_INPU"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "https://youtu.be/STtcH6qqXow",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "259f53568ddb4813bc71ac41c553f51b"
+   }
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "NO",
+    "https://file.app.ikea.cn/cms/u/20220420/6709454f7f8b4aaf9f962081065c8543.mp4",
+    "VIDEO",
+    "wide",
+    "hosted",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220420/6709454f7f8b4aaf9f962081065c8543.mp4",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "fa7b074daeac4d69ada2b2ecc67f1222"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "自然清香，沁人心脾",
+   "texts": [
+    "/cat/10783",
+    "NO",
+    "ikea://content/plp?catalogId=10783",
+    "{\"objectId_var\":\"10783\",\"objectType_var\":\"plp\"}",
+    "这款名为HEDERSAM 赫德尚 香味烛装于由Ilse Crawford设计的精美罐子中，散发着淡淡的清香，充满清新的自然气息。",
+    "自然清香，沁人心脾"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/5386806a4132d7cb/original/PH185136.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/10783",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/5386806a4132d7cb/original/PH185136.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "45f170ebcd5640d694186ebae72e369e"
+   }
+  },
+  {
+   "type": "pub-banner",
+   "title": null,
+   "texts": [
+    "image-text-portrait",
+    "粉色大理石表面上摆放着白色的ADLAD 阿拉德 和绿色的HEDERSAM 赫德尚 香味烛，烛光形成了花朵形状的阴影。",
+    "Ilse Crawford",
+    "IMAGE",
+    "气味能影响我们的心情；通过改变房间的气味，你可以换个心情，获得抚慰，提振精神，感受内心的触动。",
+    "#FFFFF"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/dbc3db9de2c41c4/original/PH185063.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/dbc3db9de2c41c4/original/PH185063.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "22852de8c3964ad2b04691f4ea781f50"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "四季皆宜的舒适床上用品",
+   "texts": [
+    "/cat/10651",
+    "NO",
+    "ikea://content/plp?catalogId=10651",
+    "{\"objectId_var\":\"10651\",\"objectType_var\":\"plp\"}",
+    "这款100%亚麻被套充满休闲的观感，尤其适合躺在床上享受慵懒的早晨。亚麻面料透气性佳，可排走多余热量，冬暖夏凉，四季皆宜。",
+    "四季皆宜的舒适床上用品"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/57cdf85d1e73d053/original/PH185044.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/10651",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/57cdf85d1e73d053/original/PH185044.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "2fec3be6649341efa139f2dfdf3a9ff4"
+   }
+  }
+ ]
+}

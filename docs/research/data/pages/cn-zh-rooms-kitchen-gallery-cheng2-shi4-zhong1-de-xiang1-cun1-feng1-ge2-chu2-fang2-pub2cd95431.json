@@ -1,0 +1,45 @@
+{
+ "url": "/cn/zh/rooms/kitchen/gallery/cheng2-shi4-zhong1-de-xiang1-cun1-feng1-ge2-chu2-fang2-pub2cd95431",
+ "family": "rooms",
+ "id": "cn--zh--2cd95431ab9411e8a3645f5b86ee3939",
+ "title": "城市中的乡村风格厨房",
+ "name": "20192-rmme01a_PF_CT",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "城市中的乡村风格厨房",
+   "texts": [
+    "宜家 TORNVIKEN 托恩维肯 厨房系列提供封闭式和开放式的白色厨房储物搁板和储物柜，有多种尺寸可选，能满足你的烹饪需求。",
+    "<p>这间厨房虽然属于传统风格，但却具备现代化功能。时尚的玻璃橱柜可提供大量的储物空间，满足你的设宴需求，同时还能让你享受烹饪乐趣。</p>",
+    "城市中的乡村风格厨房",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/3a/9e/3a9e3eb11dc0f310671014137f080592.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/3a/9e/3a9e3eb11dc0f310671014137f080592.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "60273728",
+    "20273749",
+    "90348789",
+    "90369437",
+    "10371057"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

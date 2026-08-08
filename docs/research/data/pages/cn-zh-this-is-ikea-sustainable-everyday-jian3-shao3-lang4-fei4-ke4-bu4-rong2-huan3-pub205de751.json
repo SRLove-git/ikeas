@@ -1,0 +1,96 @@
+{
+ "url": "/cn/zh/this-is-ikea/sustainable-everyday/jian3-shao3-lang4-fei4-ke4-bu4-rong2-huan3-pub205de751",
+ "family": "this-is-ikea",
+ "id": "cn--zh--205de7511d8d11e98e3dd53ddd62671b",
+ "title": "减少浪费，刻不容缓",
+ "name": "20194_sssn15a_CT",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "减少浪费，刻不容缓",
+   "texts": [
+    "戴着手环的男孩用 VARIERA 瓦瑞拉 回收系统回收香蕉皮。",
+    "<p>回收以及最大程度地减少浪费是重要的环保方式。这也许听上去很难做到，令人心生畏惧，但有些其实是每个人都力所能及的事情，例如在家里设置回收站，并且根据实际需求使用物品。制定每周的食谱，将剩菜存放在冰箱里，第二天午饭食用。这样一来便能够节约地球资源。</p>",
+    "减少浪费，刻不容缓",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/18/a1/18a19a1c3042d1ac0d5f615c441369ff.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/18/a1/18a19a1c3042d1ac0d5f615c441369ff.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "一只抽屉里安装着 VARIERA 瓦瑞拉 回收系统，正在清空并回收一只罐头里的食物。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "40246104"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/97/86/9786a7070a4ead0b96da3da5e5b403fb.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/97/86/9786a7070a4ead0b96da3da5e5b403fb.jpg",
+     "text": ""
+    },
+    {
+     "href": "/this-is-ikea/about-us/nu3-li4-shi2-xian4-ling2-fei4-qi4-wu4-mai4-xiang4-geng4-mei3-hao3-de-ming2-tian1-pub8d90a830",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p><em><strong>你知道吗？</strong></em></p>\n<p>每年供全球人类食用的食物中，约有1/3遭丢弃或浪费。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "电磁炉上放着一口炖锅，锅里倒入了 IKEA 365+ 食品盒中的番茄沙司。",
+    "pub-image",
+    "https://file.app.ikea.cn/images/93/c2/93c23c4c69d4321ee4d33bbf0d7b37c2.tif",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/93/c2/93c23c4c69d4321ee4d33bbf0d7b37c2.tif",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p><em><strong>你知道吗？</strong></em></p>\n<p>将肉类和奶制品从你的菜单中剔除，是最简单有效的减少个人对环境造成不利影响的方式。最新研究显示，这样可减少食物中高达73%的碳足迹。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

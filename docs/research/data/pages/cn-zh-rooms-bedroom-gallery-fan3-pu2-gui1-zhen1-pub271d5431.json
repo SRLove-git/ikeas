@@ -1,0 +1,146 @@
+{
+ "url": "/cn/zh/rooms/bedroom/gallery/fan3-pu2-gui1-zhen1-pub271d5431",
+ "family": "rooms",
+ "id": "cn--zh--271d54317ba311e9b3b69fb6954ae5b1",
+ "title": "返璞归真",
+ "name": "20201_rmbe12a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "返璞归真"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "卧室配有铝制床架和藤制床头板，衣柜配有磨砂玻璃门和米色吊灯。",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "s29300277"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/2a/c4/2ac4eb016a614523bafac43446dc71c7.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/2a/c4/2ac4eb016a614523bafac43446dc71c7.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>一起来看看这间俏皮可爱的卧室。天然材料、灰粉色调和黑色撞色设计，会给你带来强烈的视觉冲击。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "白色衣柜带格纹图案和毛玻璃柜门、柜灯和白色挂衣架。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "20332254"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/d2/b4/d2b47365488fcc693c4c90c8303a19d2.jpg",
+    "https://file.app.ikea.cn/images/e8/67/e8679f80846253eaf2b70d4bde63e631.jpg",
+    "https://file.app.ikea.cn/images/8a/41/8a411b5fa7a2d1c5ac0168c573cd1e68.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/d2/b4/d2b47365488fcc693c4c90c8303a19d2.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/e8/67/e8679f80846253eaf2b70d4bde63e631.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/8a/41/8a411b5fa7a2d1c5ac0168c573cd1e68.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "卧室中有带藤条床头板的床、深灰色花盆、黑色壁灯、白色床用纺织品和米色靠垫。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "s99287550"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/e4/79/e47948cde42b466262a817cbccc74afe.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/e4/79/e47948cde42b466262a817cbccc74afe.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "带有白色细节的竹质书桌、黑色壁灯、圆形镜子和深灰色会议椅。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "s79046038"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/cb/c8/cbc88e3fbf17ef136446e6a4d014eac1.jpg",
+    "https://file.app.ikea.cn/images/06/ba/06ba852021cf439957cb2101061eb8fe.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/cb/c8/cbc88e3fbf17ef136446e6a4d014eac1.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/06/ba/06ba852021cf439957cb2101061eb8fe.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s29300277",
+    "s99287550",
+    "50363649",
+    "s79046038",
+    "s19174972"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

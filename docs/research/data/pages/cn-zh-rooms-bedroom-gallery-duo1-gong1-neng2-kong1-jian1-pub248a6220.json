@@ -1,0 +1,175 @@
+{
+ "url": "/cn/zh/rooms/bedroom/gallery/duo1-gong1-neng2-kong1-jian1-pub248a6220",
+ "family": "rooms",
+ "id": "cn--zh--248a6220531c11ea8431739eedab49cb",
+ "title": "多功能空间",
+ "name": "662031_bend02a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "多功能空间",
+   "texts": [
+    "采光充足的一居室公寓内，放着白色的PLATSA 普拉萨 储物组合和床架、黑色的LISABO 利萨伯 桌子和RÖNNINGE 瑞宁 椅子。",
+    "<p>卧室、餐厅和客厅&mdash;&mdash;空间虽小，功能俱全！PLATSA 普拉萨 可定制家具系列可以帮你实现。</p>",
+    "多功能空间",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/f4/a8/f4a81356b307610a7b4820e0d5f66ed8.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/f4/a8/f4a81356b307610a7b4820e0d5f66ed8.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "用储物家具展示你的好品味",
+   "texts": [
+    "/cat/20618",
+    "NO",
+    "ikea://content/plp?catalogId=20618",
+    "{\"objectId_var\":\"20618\",\"objectType_var\":\"plp\"}",
+    "BUMERANG 布梅朗 实木衣架能为你的开放式衣柜增添质感。",
+    "用储物家具展示你的好品味"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/4d59461070e0241/original/PH168082-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/20618",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/4d59461070e0241/original/PH168082-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "围住睡床，安心舒适",
+   "texts": [
+    "/cat/10700",
+    "NO",
+    "ikea://content/plp?catalogId=10700",
+    "{\"objectId_var\":\"10700\",\"objectType_var\":\"plp\"}",
+    "在床四周挂上一圈窗帘，能营造出别样的舒适。白天，窗帘可以保护你的隐私，夜晚，则能帮你放松入睡。",
+    "围住睡床，安心舒适"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/238df5ba73dc721c/original/PH168141-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/10700",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/238df5ba73dc721c/original/PH168141-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "再多穿一天",
+   "texts": [
+    "/cat/20617",
+    "NO",
+    "ikea://content/plp?catalogId=20617",
+    "{\"objectId_var\":\"20617\",\"objectType_var\":\"plp\"}",
+    "穿过的衣物还不必清洗？带圆把手的壁架是挂衣物的好地方。",
+    "再多穿一天"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/626c64b0b9e60360/original/PH168142-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/20617",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/626c64b0b9e60360/original/PH168142-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "衣服太多，但空间有限？",
+   "texts": [
+    "/cat/37894",
+    "NO",
+    "ikea://content/plp?catalogId=37894",
+    "{\"objectId_var\":\"37894\",\"objectType_var\":\"plp\"}",
+    "可定制的PLATSA 普拉萨 储物方案，让小空间也能发挥大作用。",
+    "衣服太多，但空间有限？"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/52737adb41693c29/original/PH168143-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/37894",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/52737adb41693c29/original/PH168143-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "待办事项和注意事项统统记录",
+   "texts": [
+    "/cat/10574",
+    "NO",
+    "ikea://content/plp?catalogId=10574",
+    "{\"objectId_var\":\"10574\",\"objectType_var\":\"plp\"}",
+    "你喜欢的艺术作品搭配一块时尚的记事板，可用来记录待办事项和注意事项，同时为你的室内风格锦上添花。",
+    "待办事项和注意事项统统记录"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/75adbb052994a6f/original/PH168144-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/10574",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/75adbb052994a6f/original/PH168144-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s89326463",
+    "s59324385",
+    "50334303",
+    "20334314",
+    "60340389"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

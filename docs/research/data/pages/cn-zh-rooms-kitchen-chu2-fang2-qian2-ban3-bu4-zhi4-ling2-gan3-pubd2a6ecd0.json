@@ -1,0 +1,70 @@
+{
+ "url": "/cn/zh/rooms/kitchen/chu2-fang2-qian2-ban3-bu4-zhi4-ling2-gan3-pubd2a6ecd0",
+ "family": "rooms",
+ "id": "cn--zh--d2a6ecd08a1611ea85436bbb72ceb2d5",
+ "title": "厨房前板的布置灵感",
+ "name": "662511_meki01a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "厨房前板布置灵感"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Page Title-"
+   }
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--e1145880f5a511ee9a552df90ae1dfc2",
+    "/rooms/kitchen/havstorp-deep-green-kitchen-guide-pub247f6178",
+    "page",
+    "深绿色HAVSTORP 海思托 厨房前板的迷人之处",
+    "选择光滑的深绿色HAVSTORP 海思托 厨房前板，搭配天然材料，营造出富有个性、和谐宁静的风格。",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fkitchen%2Fhavstorp-deep-green-kitchen-guide-pub247f6178&key=cn--zh--e1145880f5a511ee9a552df90ae1dfc2"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/850a0bf6b500284/original/PH199548.jpg",
+    "https://file.app.ikea.cn/images/cf/7d/cf7d34c3d728ff4fd86abbfc993dfc46.jpg",
+    "https://file.app.ikea.cn/images/bc/aa/bcaaefe8d88a83fa846ea69502b3d1e7.jpg",
+    "https://file.app.ikea.cn/images/e1/4d/e14dd90734be37a2950b19c6bd8ca9d2.jpg",
+    "https://file.app.ikea.cn/images/9d/74/9d742d317c0f1a0b3310c451823e8466.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/850a0bf6b500284/original/PH199548.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/cf/7d/cf7d34c3d728ff4fd86abbfc993dfc46.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/bc/aa/bcaaefe8d88a83fa846ea69502b3d1e7.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/e1/4d/e14dd90734be37a2950b19c6bd8ca9d2.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/9d/74/9d742d317c0f1a0b3310c451823e8466.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/10/8b/108bf5639460b5316fb37b5fdff3bcfb.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Page List-"
+   }
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/bedroom/gallery/woshi-pub5af2cab1",
+ "family": "rooms",
+ "id": "cn--zh--5af2cab1cf6f11e78e0a0bf79e0fa98f",
+ "title": "美容觉，到处都美美的",
+ "name": "20171-cosl04a_PF_CT_SEO_AD_QA",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "美容觉，到处都美美的",
+   "texts": [
+    "一间中型卧室，配有深灰色的沙发床、黑褐色床头桌和黑色的床头灯。",
+    "美容觉，到处都美美的",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/27/cf/27cf40b2d896ac2a96d94d75d59559be.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/27/cf/27cf40b2d896ac2a96d94d75d59559be.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "50354089",
+    "40351500",
+    "50213867",
+    "s69127855",
+    "80262875"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

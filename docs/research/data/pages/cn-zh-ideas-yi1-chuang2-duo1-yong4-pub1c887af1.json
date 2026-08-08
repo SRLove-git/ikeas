@@ -1,0 +1,123 @@
+{
+ "url": "/cn/zh/ideas/yi1-chuang2-duo1-yong4-pub1c887af1",
+ "family": "ideas",
+ "id": "cn--zh--1c887af16d9211e9ba9b41b1b0482960",
+ "title": "一床多用",
+ "name": "201944_idid03a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "一床多用",
+   "texts": [
+    "大床上摆有色彩缤纷的靠垫和一盘象棋。床上用品存放在下方的储物盒中。",
+    "<p>对许多家庭而言，<a href=\"https://www.ikea.cn/cn/zh/cat/chuang-bm003/\">床</a>是一件极为重要的家具，它不仅是晚上睡觉的地方，还能满足全天生活所需。若家中的空间有限，便可发挥床的巨大价值，将其用作全天的活动场所。</p>",
+    "一床多用",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/58/62/586264b033977970b8d7b20c1d92a62e.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/58/62/586264b033977970b8d7b20c1d92a62e.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "大床上方的挂帘将床从中间分成两部分，一部分用作办公区域。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "s69268893"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/4f/ec/4fec7536ac07d0a2ea0a7cd30cd2e05b.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/4f/ec/4fec7536ac07d0a2ea0a7cd30cd2e05b.jpg",
+     "text": ""
+    },
+    {
+     "href": "/cat/20656",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "大床上摆有色彩缤纷的靠垫和一盘象棋。床边是一张托盘桌，上面放着茶点。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "80370163"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/82/bc/82bc6b8dacd30bfabec677c04739f522.jpg",
+    "https://file.app.ikea.cn/images/49/34/49341643673399258847e3cf7f2134d2.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/82/bc/82bc6b8dacd30bfabec677c04739f522.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/49/34/49341643673399258847e3cf7f2134d2.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/ideas/ru2-he2-yi3-shi2-shang4-you1-ya3-zhi1-zi1-pin3-wei4-ling2-shi2-pubc460e251",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fideas%2Fru2-he2-yi3-shi2-shang4-you1-ya3-zhi1-zi1-pin3-wei4-ling2-shi2-pubc460e251&key=cn--zh--c460e25156d411e9a9f773d4a30a9b7f",
+    "{\"objectId_var\":\"/ideas/ru2-he2-yi3-shi2-shang4-you1-ya3-zhi1-zi1-pin3-wei4-ling2-shi2-pubc460e251\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "text-link",
+    "了解如何以时尚优雅之姿品味零食"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/ideas/ru2-he2-yi3-shi2-shang4-you1-ya3-zhi1-zi1-pin3-wei4-ling2-shi2-pubc460e251",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p><em>我们乐意看到顾客运用我们的产品发挥创意。尽情发挥吧！但是请注意，经过微调或改造的宜家产品将丧失其原有功能，或无法进行二次销售，因此，你将不再享有宜家的商业保证及退货权利。</em></p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p><strong>制作人</strong><br />室内设计师： Chiara Effroi Lutteri<br />摄影师： M&aring;ns Jensen<br />撰稿人： Henrik Annemark</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

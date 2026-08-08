@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/home-office/gallery/bangongshi-pub7d76d251",
+ "family": "rooms",
+ "id": "cn--zh--7d76d251d4f311e78e0a0bf79e0fa98f",
+ "title": "激发创意的空间",
+ "name": "20154-cooh20a_PF_CT_SEO",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "激发创意的空间",
+   "texts": [
+    "家庭办公室内有一张可调节高度的白色办公桌，搭配一把黑色站立支撑椅，以及灰色和绿色的抽屉单元。",
+    "激发创意的空间",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/50/88/5088d0054e5490aac2c77dd90e5be697.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/50/88/5088d0054e5490aac2c77dd90e5be697.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s99084963",
+    "20296128",
+    "00341971",
+    "00148704",
+    "40203958"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

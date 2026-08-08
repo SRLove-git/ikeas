@@ -1,0 +1,199 @@
+{
+ "url": "/cn/zh/campaigns/guan1-ai4-you4-er2-cheng2-zhang3-pai2-jie3-fu4-mu3-fan2-you1-pubcdd5c870",
+ "family": "campaigns",
+ "id": "cn--zh--cdd5c870596911eba2a3bb2fcf9648f3",
+ "title": "让孩子“吃”得安全",
+ "name": "让孩子“吃”得安全",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2><span style=\"background-color: #37b886; color: #ffffff;\">&nbsp;让孩子&ldquo;吃&rdquo;得安全&nbsp;</span></h2>\n<p>从初尝第一勺胡萝卜泥到自信宣告&ldquo;我可以自己吃饭！&rdquo;，我们的儿童餐具伴随宝宝共同成长&mdash;&mdash;让日常用餐变成轻松自在的美好时光。</p>\n<p>经权威机构*认可的实验室测试，符合国标GB4806食品接触材料及制品标准，在孩子0岁时便可使用，健康放心。造型可爱，功能实用，有助于吸引孩子学习独立用餐。</p>\n<h5><br />*国际实验室认可合作组织（ ILAC）成员，如CNAS，UKAS，HKLAS，SWEDAC等。</h5>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": null,
+   "texts": [
+    "NO",
+    "vertical_new",
+    "IMAGE",
+    "30596819",
+    "70607142",
+    "50596818"
+   ],
+   "images": [
+    "https://static.web.ikea.cn/content/u/20260127/78bdf263b8894dbcbeab48d17aa61079.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260127/41decf2a3e2e45898691ec41b4ac5a97.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://static.web.ikea.cn/content/u/20260127/78bdf263b8894dbcbeab48d17aa61079.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260127/41decf2a3e2e45898691ec41b4ac5a97.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-栅格合集 Curated Gallery-"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "<h2 id=\"品质恒久可靠的不锈钢材质\"><strong>品质恒久可靠的不锈钢材质</strong></h2>",
+    "pub-text",
+    "/search/products?q=kanonkul",
+    "NO",
+    "ikea://default-module/search?query=kanonkul"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/42/5f/425ff3649f0ddaafaee55a10374c0204.jpg",
+    "https://file.app.ikea.cn/images/b9/d6/b9d6c186df6ad83ca68e67ce647ba7d2.gif"
+   ],
+   "links": [
+    {
+     "href": "/search/products?q=kanonkul",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/42/5f/425ff3649f0ddaafaee55a10374c0204.jpg",
+     "text": ""
+    },
+    {
+     "href": "/p/40491020?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/b9/d6/b9d6c186df6ad83ca68e67ce647ba7d2.gif",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Columns-"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "<h2 id=\"混搭材质满足不同需求\"><strong>混搭材质满足不同需求</strong></h2>",
+    "pub-text",
+    "/p/20491021?artType=ART",
+    "NO",
+    "ikea://content/pip?id=20491021&type=ART"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/2c/e0/2ce0520ba0213425b4cdc5d47589395a.gif",
+    "https://file.app.ikea.cn/images/7a/59/7a59db77033affd04537df4383ddb94b.jpg"
+   ],
+   "links": [
+    {
+     "href": "/p/20491021?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/2c/e0/2ce0520ba0213425b4cdc5d47589395a.gif",
+     "text": ""
+    },
+    {
+     "href": "/p/80491023?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/7a/59/7a59db77033affd04537df4383ddb94b.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Columns-"
+   }
+  },
+  {
+   "type": "product-list",
+   "title": null,
+   "texts": [
+    "WATERFALL",
+    "MANUAL_INPUT",
+    "50596818",
+    "70596817",
+    "30596819",
+    "10601666"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-商品列表-"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "<h4><strong>感谢你们所有</strong><strong>的</strong><strong>帮助！&nbsp; </strong></h4>\n<p>如果你和孩子们一起吃过饭，你会发现食物可能会跑到让人意想不到的地方。我们也想帮助改善这点。为此，我们邀请了众多妈妈、爸爸、阿姨、叔叔及未来的爷爷奶奶们贡献他们的宝贵意见，帮助我们开发出品质卓越的宝宝餐具。我们从中提炼出很多意见和想法，经过磨合和调整，最终自豪地呈现了一系列出色的产品，既能够达到我们对质量的严格要求，又能满足父母对宝宝餐具的高度期望。因此，奖励一下自己吧 &ndash; 大家提出的宝贵意见都非常棒！</p>",
+    "pub-text"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/09/63/0963d22f443dee01c1f13afe2f8cfdfd.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/09/63/0963d22f443dee01c1f13afe2f8cfdfd.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Columns-"
+   }
+  },
+  {
+   "type": "pub-banner",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "image-text-landscape",
+    "<p><span style=\"color: #1e1e1e;\">宜家致力于为更多家庭提供触手可及的可持续生活方式，推出更优质、更实惠和更巧妙的产品及解决方案，让可持续的生活成为常态。</span></p>",
+    "点滴行动 美好地球",
+    "NO",
+    "#111111"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20250814/ec431335b2d54412b2dc484158363f47.jpg",
+    "https://file.app.ikea.cn/cms/u/20250814/ec431335b2d54412b2dc484158363f47.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20250814/ec431335b2d54412b2dc484158363f47.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20250814/ec431335b2d54412b2dc484158363f47.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/product-guides/sustainable-products/sustainable-living-pub4155615b",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Banner-"
+   }
+  }
+ ]
+}

@@ -1,0 +1,108 @@
+{
+ "url": "/cn/zh/cat/wu-xian-chong-dian-yong-pin-pei-jian-41069",
+ "id": "wu-xian-chong-dian-yong-pin-pei-jian-41069",
+ "name": "无线充电用品/配件",
+ "description": "你的手机和平板电脑功能强大、小巧便携。但没电时，却无法发挥任何作用。所以，不妨看看我们推荐的产品系列，灵活运用线缆、无线充电器、充电站等设备，让电子设备全天保持电力满格。",
+ "total": 6,
+ "products": [
+  {
+   "id": "80644177",
+   "name": "VÄSTMÄRKE 维马克",
+   "price": 99.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/vaestmaerke-wei-ma-ke-wu-xian-chong-dian-tai-zuo__1435811_pe983948_s4.jpg",
+   "productType": "无线充电台座",
+   "designText": "",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "vaestmaerke-wei-ma-ke-wu-xian-chong-dian-tai-zuo"
+  },
+  {
+   "id": "00644181",
+   "name": "VÄSTMÄRKE 维马克",
+   "price": 199,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/vaestmaerke-wei-ma-ke-wu-xian-chong-dian-qi-dai-zhao-ming__1435814_pe983950_s4.jpg",
+   "productType": "无线充电器带照明",
+   "designText": "",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "vaestmaerke-wei-ma-ke-wu-xian-chong-dian-qi-dai-zhao-ming"
+  },
+  {
+   "id": "40644179",
+   "name": "VÄSTMÄRKE 维马克",
+   "price": 49.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/vaestmaerke-wei-ma-ke-wu-xian-chong-dian-qi__1435813_pe983949_s4.jpg",
+   "productType": "无线充电器",
+   "designText": "",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "vaestmaerke-wei-ma-ke-wu-xian-chong-dian-qi"
+  },
+  {
+   "id": "10478063",
+   "name": "NORDMÄRKE 诺德马克",
+   "price": 99.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/nordmaerke-nuo-de-ma-ke-wu-xian-chong-dian-qi-hei-se-ruan-mu__0663534_pe712422_s4.jpg",
+   "productType": "无线充电器",
+   "designText": "黑色/软木",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "nordmaerke-nuo-de-ma-ke-wu-xian-chong-dian-qi-hei-se-ruan-mu"
+  },
+  {
+   "id": "20447052",
+   "name": "LIVBOJ 利夫博艺",
+   "price": 39.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/livboj-li-fu-bo-yi-wu-xian-chong-dian-qi-hei-se__0716064_pe730680_s4.jpg",
+   "productType": "无线充电器",
+   "designText": "黑色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "livboj-li-fu-bo-yi-wu-xian-chong-dian-qi-hei-se"
+  },
+  {
+   "id": "00478068",
+   "name": "NORDMÄRKE 诺德马克",
+   "price": 99.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/nordmaerke-nuo-de-ma-ke-wu-xian-chong-dian-qi-bai-se-ruan-mu__0663527_pe712415_s4.jpg",
+   "productType": "无线充电器",
+   "designText": "白色/软木",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "nordmaerke-nuo-de-ma-ke-wu-xian-chong-dian-qi-bai-se-ruan-mu"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "80644177",
+   "type": "ART",
+   "fullId": "80644177"
+  },
+  {
+   "id": "00644181",
+   "type": "ART",
+   "fullId": "00644181"
+  },
+  {
+   "id": "40644179",
+   "type": "ART",
+   "fullId": "40644179"
+  },
+  {
+   "id": "10478063",
+   "type": "ART",
+   "fullId": "10478063"
+  },
+  {
+   "id": "20447052",
+   "type": "ART",
+   "fullId": "20447052"
+  },
+  {
+   "id": "00478068",
+   "type": "ART",
+   "fullId": "00478068"
+  }
+ ]
+}

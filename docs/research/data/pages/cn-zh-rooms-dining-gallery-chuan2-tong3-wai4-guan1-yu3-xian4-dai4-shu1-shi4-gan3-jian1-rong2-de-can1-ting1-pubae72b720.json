@@ -1,0 +1,123 @@
+{
+ "url": "/cn/zh/rooms/dining/gallery/chuan2-tong3-wai4-guan1-yu3-xian4-dai4-shu1-shi4-gan3-jian1-rong2-de-can1-ting1-pubae72b720",
+ "family": "rooms",
+ "id": "cn--zh--ae72b7209e4f11ea85436bbb72ceb2d5",
+ "title": "传统外观与现代舒适感兼容的餐厅",
+ "name": "682041_dind01a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "传统外观与现代舒适感兼容的餐厅",
+   "texts": [
+    "餐厅里放着黑色桌椅，铺着黄麻地毯，悬挂黑色吊灯，还有带推拉门的储物组合。",
+    "<p class=\"p1\">不论是众人欢聚，还是一人独享，都能充分利用你的餐厅空间。NORDVIKEN 诺德维肯 餐桌可伸缩，配套的NORDVIKEN 诺德维肯 餐椅即使久坐也非常舒适。</p>",
+    "传统外观与现代舒适感兼容的餐厅",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/16/36/1636411bc3275fd86436a2f60eaa4283.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/16/36/1636411bc3275fd86436a2f60eaa4283.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "再多一个也不怕",
+   "texts": [
+    "/cat/19145",
+    "NO",
+    "ikea://content/plp?catalogId=19145",
+    "{\"objectId_var\":\"19145\",\"objectType_var\":\"plp\"}",
+    "晚餐有很多客人？不必担心，交给NORDVIKEN 诺德维肯 搞定，一个人就可轻松展开餐桌！",
+    "再多一个也不怕"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/7f1f7c4baceecb3d/original/PH163608-crop002.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/19145",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/7f1f7c4baceecb3d/original/PH163608-crop002.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "巧妙的上菜空间",
+   "texts": [
+    "/cat/16246",
+    "NO",
+    "ikea://content/plp?catalogId=16246",
+    "{\"objectId_var\":\"16246\",\"objectType_var\":\"plp\"}",
+    "在餐厅窗旁放上一张长几，有客人的时候可以提供额外的上菜空间。HAVSTA 海思塔 带宽敞的台面，可以放饼干和餐盘，窗台可以摆放饮品。",
+    "巧妙的上菜空间"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/3b5372b126de9108/original/PH163609-crop002.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/16246",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/3b5372b126de9108/original/PH163609-crop002.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "定制照明",
+   "texts": [
+    "/cat/li001",
+    "NO",
+    "ikea://content/plp?catalogId=li001",
+    "{\"objectId_var\":\"li001\",\"objectType_var\":\"plp\"}",
+    "使用SKENINGE 怀宁格 灯轨，轻松在餐厅打造个性化的照明组合&mdash;&mdash;只需在灯轨上组合安装你喜欢的射灯和吊灯，将照明调节到需要的方向，彰显定制格调。",
+    "定制照明"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/3065e2b2057c92e7/original/PH163610-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/li001",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/3065e2b2057c92e7/original/PH163610-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "包含产品",
+   "texts": [
+    "包含产品",
+    "MANUAL_INPUT",
+    "20368714",
+    "40369109",
+    "s19220846",
+    "s39265914"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

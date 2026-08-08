@@ -1,0 +1,71 @@
+{
+ "url": "/cn/zh/rooms/bathroom/gallery",
+ "family": "rooms",
+ "id": "cn--zh--15074ee060d8496fbdc5579ec1591b97",
+ "title": "浴室布置灵感",
+ "name": "702621_baga01a",
+ "hero": "https://file.app.ikea.cn/content/u/20250326/20D76D8A-2A40-4519-A33AAD7BF299C23F.jpg",
+ "blocks": [
+  {
+   "type": "pub-standardised-hero",
+   "title": "兼顾美观性和实用性的浴室设计灵感",
+   "texts": [
+    "<p>浏览我们的浴室图库，探索集优雅格调与巧妙设计于一身的创意解决方案。无论你梦想拥有一个类似水疗会所的私密港湾，还是注重充分利用小空间，都可以在这里找到喜欢的房间样式，帮助你打造既实用又有个性的浴室。</p>\n<p>从利落的收纳巧思到治愈系配色，探索能满足你日常所需并彰显你个人风格的浴室设计灵感。</p>",
+    "兼顾美观性和实用性的浴室设计灵感"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Standardised Hero-兼顾美观性和实用性的浴室设计灵感"
+   }
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--07755a3dc41853ed832b8979d7cdbbe8",
+    "/rooms/bathroom/gallery/shared-bathroom-design-ideas-that-work-for-all-ages-pubee8c2069",
+    "page",
+    "适合全家使用的共享浴室创意",
+    "探索共享浴室的设计理念：和谐平衡功能与舒适度，轻松满足带孩子的家庭、老人以及其他人的需求。",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fbathroom%2Fgallery%2Fshared-bathroom-design-ideas-that-work-for-all-ages-pubee8c2069&key=cn--zh--07755a3dc41853ed832b8979d7cdbbe8"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/content/u/20251021/D0D9439E-1F95-4BD5-95F47A6CAD2366EA.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content/u/20250703/152E199E-5BCA-478D-8B0E9B5C09E3411C.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content/u/20250703/722BCF38-10A2-4729-BAA8F9D6B67EE02A.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content/u/20250116/960CE4F6-9D30-4A24-9C79CC20E7AC20A8.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content/u/20250116/86C3C286-D5F1-4A43-955F29CCCF3E2290.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/content/u/20251021/D0D9439E-1F95-4BD5-95F47A6CAD2366EA.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20250703/152E199E-5BCA-478D-8B0E9B5C09E3411C.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20250703/722BCF38-10A2-4729-BAA8F9D6B67EE02A.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20250116/960CE4F6-9D30-4A24-9C79CC20E7AC20A8.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20250116/86C3C286-D5F1-4A43-955F29CCCF3E2290.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/f4/92/f492c240a29dffea1486246d3df0a812.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-页面列表 Page List-"
+   }
+  }
+ ]
+}

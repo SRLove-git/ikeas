@@ -1,0 +1,45 @@
+{
+ "url": "/cn/zh/rooms/bedroom/gallery/da3-zao4-ni3-de-wo4-shi4-chu3-wu4-kong1-jian1-pub19fc7941",
+ "family": "rooms",
+ "id": "cn--zh--19fc7941249e11e98e3dd53ddd62671b",
+ "title": "打造你的卧室储物空间",
+ "name": "20194_rmbe04a_CT",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "打造你的卧室储物空间",
+   "texts": [
+    "宜家 PLATSA 普拉萨 衣柜系列提供了充足的储物机会。使用它储存衣物和其他物品。不同形状的单元让你能够根据自家建筑结构充分利用空间。",
+    "<p>小公寓越来越多，我们需要更巧妙的储物方式。在你的床上方和四周分隔出一些空间，量身定制一个衣柜。高箱气压床可以存放家用物品，甚至吸尘器！</p>",
+    "打造你的卧室储物空间",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/ef/04/ef04e030218636cb1107ac54eb2349c5.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/ef/04/ef04e030218636cb1107ac54eb2349c5.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s29248369",
+    "80322855",
+    "20404806",
+    "50282177",
+    "10334753"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

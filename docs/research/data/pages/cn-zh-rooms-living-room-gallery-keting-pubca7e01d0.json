@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/living-room/gallery/keting-pubca7e01d0",
+ "family": "rooms",
+ "id": "cn--zh--ca7e01d0cf6d11e78e0a0bf79e0fa98f",
+ "title": "一个舒适的角落，无限的可能",
+ "name": "20171-cols04a_EZ_SEO",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "一个舒适的角落，无限的可能",
+   "texts": [
+    "一间小型客厅，米黄色和绿色的三人转角沙发床，绿色的座椅组件和储物桌，灰白的长绒地毯，米黄色垫子。",
+    "一个舒适的角落，无限的可能",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/d1/60/d16076471b0d198cbee4719210a189b4.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/d1/60/d16076471b0d198cbee4719210a189b4.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s39161290",
+    "s79149791",
+    "30322240",
+    "10328672",
+    "60334604"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

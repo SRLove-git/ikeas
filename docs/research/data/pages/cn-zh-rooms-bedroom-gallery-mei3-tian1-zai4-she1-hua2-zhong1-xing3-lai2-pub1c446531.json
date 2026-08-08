@@ -1,0 +1,124 @@
+{
+ "url": "/cn/zh/rooms/bedroom/gallery/mei3-tian1-zai4-she1-hua2-zhong1-xing3-lai2-pub1c446531",
+ "family": "rooms",
+ "id": "cn--zh--1c4465317b0811e9b3b69fb6954ae5b1",
+ "title": "每天在奢华中醒来",
+ "name": "20201_rmbe09a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "每天在奢华中醒来"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "卧室配有床架和黑褐色衣柜、白色梳妆台和浅棕红色床上纺织品。",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "s79300171"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/9f/6b/9f6b9fee6bb05ec6a335b5deca4f3d5e.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/9f/6b/9f6b9fee6bb05ec6a335b5deca4f3d5e.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>色彩协调的家具、柔和的墙壁颜色和纺织品、时尚的灯具和专用化妆区令，使这间奢华而实惠的卧室更上一个档次！</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "卧室里有黑褐色的衣柜带抽屉、白色梳妆台、粉色墙壁和灰色地毯。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "80246300"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/cc/fa/ccfa561f3cc6ebe69aaf09222258a88b.jpg",
+    "https://file.app.ikea.cn/images/b5/fa/b5fa89ba186ad3c5aa509d79c71ebe02.jpg",
+    "https://file.app.ikea.cn/images/7a/c1/7ac173ecac3535fde1a041db876ede67.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/cc/fa/ccfa561f3cc6ebe69aaf09222258a88b.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/b5/fa/b5fa89ba186ad3c5aa509d79c71ebe02.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/7a/c1/7ac173ecac3535fde1a041db876ede67.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "黑褐色床架和床边桌，浅棕红色床用纺织品和白色壁灯。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "00357938"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/fe/d0/fed0036290746e9991f4ffa9c05ef4c6.jpg",
+    "https://file.app.ikea.cn/images/84/d7/84d73735de0896672806af3466f09e3b.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/fe/d0/fed0036290746e9991f4ffa9c05ef4c6.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/84/d7/84d73735de0896672806af3466f09e3b.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s79300171",
+    "80225411",
+    "s09130479",
+    "10203610",
+    "60403579"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

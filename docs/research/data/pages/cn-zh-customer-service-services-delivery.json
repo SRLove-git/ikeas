@@ -1,0 +1,123 @@
+{
+ "url": "/cn/zh/customer-service/services/delivery",
+ "family": "customer-service",
+ "id": "cn--zh--83017841c06d11e8affa0d09be91682d",
+ "title": "送货服务",
+ "name": "送货服务_PC",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "送货服务"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "b1782f2d6d2046609d415e66ec04453a"
+   }
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "embed",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20230905/b3adedd890fd49f9bc1a33be708a1bef.gif"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20230905/b3adedd890fd49f9bc1a33be708a1bef.gif",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "a3aa37395f394ffeb4a67db7a1a116b7"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p><span style=\"font-size: 10.0pt;\">我们的大多数产品都采用平板包装，且可轻松放入你的车中。但是，如果你希望我们送货上门，可以预订我们的供应商提供的送货服务。我们将在您指定的日期送货上门。</span></p>\n<p><strong><span style=\"font-size: 10.0pt;\">为什么宜家要收取运费？</span></strong></p>\n<p style=\"text-align: center;\"><a href=\"https://www.ikea.cn/cn/zh/this-is-ikea/about-us/\"><strong><span style=\"font-size: 10.0pt;\">宜家致力于以更低的价格向大众提供更优质的产品。</span></strong></a></p>\n<p><span style=\"font-size: 10.0pt;\">除了通过大产量降低成本，我们在包装、运输过程中采用平板包装，更进一步压低了我们的产品价格。这一理念从采购原材料开始，直到产品在线上线下销售贯彻始终，也正因为如此&hellip;&hellip;</span></p>\n<p style=\"text-align: center;\"><strong><span style=\"font-size: 12.0pt;\">您所看到的产"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2><strong>我们的服务</strong></h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "2d20d0fd4ea1400ba69bd3c01c8047a2"
+   }
+  },
+  {
+   "type": "pub-assurances",
+   "title": null,
+   "texts": [
+    "/customer-service/services/assembly/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fcustomer-service%2Fservices%2Fassembly%2F&key=",
+    "{\"objectId_var\":\"/customer-service/services/assembly/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "组装服务",
+    "assembly"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/customer-service/services/assembly/",
+     "text": ""
+    },
+    {
+     "href": "/customer-service/services/kitchen-planning/",
+     "text": ""
+    },
+    {
+     "href": "/customer-service/services/kitchen-installation/",
+     "text": ""
+    },
+    {
+     "href": "/customer-service/services/removal-recycling/",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "5a93cdd8204d41e0b70c91e43e0da64c"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/customer-service/services/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fcustomer-service%2Fservices%2F&key=cn--zh--9bdb3af1c07611e8affa0d09be91682d",
+    "{\"objectId_var\":\"/customer-service/services/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "查看更多服务"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/customer-service/services/",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "c235766a6e24464097b8c8ec3ab028d9"
+   }
+  }
+ ]
+}

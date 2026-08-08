@@ -1,0 +1,56 @@
+{
+ "url": "/cn/zh/newsroom/corporate-news/ikeanews-pub8217b0b1",
+ "family": "newsroom",
+ "id": "cn--zh--8217b0b1d3ed11e78be631fdb97194e0",
+ "title": "宜家北京五棵松订货中心来了",
+ "name": "宜家北京五棵松订货中心来了_2017-01-15",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "宜家北京五棵松订货中心来了"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "b58e76eae03a472dab98283555884ca9"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>2017-01-15 09:00</p>\n<p>经过近一年的筹备工作，宜家北京五棵松订货中心终于来到北京消费者的身边，于2017年1月14日开始试运营了！作为订购自提门店，宜家北京五棵松订货中心和宜家北京四元桥、西红门商场一起，以更灵活的形式，让消费者无论身处何地，以何种方式都能享受到宜家的商品和服务。</p>\n<p><a href=\"http://www.ikea.com/ms/zh_CN/img/about_ikea/press_room/wukesong.pdf\">点击查看新闻详情</a></p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "bd062cc8cee44252abfd5b51cd89ab2e"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/this-is-ikea/newsroom/xinwen-pub5a3665d1",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fthis-is-ikea%2Fnewsroom%2Fxinwen-pub5a3665d1&key=cn--zh--5a3665d1bed711e79dfda9ee7bcb674b",
+    "{\"objectId_var\":\"/this-is-ikea/newsroom/xinwen-pub5a3665d1\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "返回综合新闻"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/this-is-ikea/newsroom/xinwen-pub5a3665d1",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "d6c69671b51641c68a4b5bedb5c93e30"
+   }
+  }
+ ]
+}

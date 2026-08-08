@@ -1,0 +1,69 @@
+{
+ "url": "/cn/zh/customer-service/product-support/recalls/lattjo-pub8fabe22b",
+ "family": "customer-service",
+ "id": "cn--zh--8fabe22bb7cb11e79a5eff486d94c77f",
+ "title": "由于存在窒息或颈部受伤的风险，宜家现召回 LATTJO 拉特奥 蝙蝠斗篷 ",
+ "name": "产品召回_由于存在窒息或颈部受伤的风险，宜家现召回 LATTJO 拉特奥蝙蝠斗篷_2016-04-06",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "由于存在窒息或颈部受伤的风险，宜家现召回 LATTJO 拉特奥 蝙蝠斗篷"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "LATTJO 拉特奥蝙蝠斗篷",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/37/49/374981564810010ab5c3f759c01fd54e.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/37/49/374981564810010ab5c3f759c01fd54e.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>2016-04-06 13:30</p>\n<p><strong>宜家恳请已购买 LATTJO 拉特奥 蝙蝠斗篷的顾客立即让孩子停止使用该产品并退回至任何一处宜家商场，宜家将进行全额退款。</strong></p>\n<p>宜家共收到三例顾客报告，表示孩子在使用该产品后颈部出现了勒痕及刮痕。因此，宜家现召回 LATTJO 拉特奥 蝙蝠斗篷。在这几例事件中，系在儿童颈部的斗篷粘得太牢，难以取下。</p>\n<p>宜家并未收到顾客受伤的报告，但为杜绝窒息或颈部受伤的风险，宜家现召回这款产品。</p>\n<p>LATTJO 拉特奥 蝙蝠斗篷自2015年11月起在全部宜家市场出售。</p>\n<p>顾客将 LATTJO 拉特奥 蝙蝠斗篷退回任何一处宜家商场即可获得全额退款。无需提供购买凭证（收据）。更多信息，请登录www.IKEA.cn或拨打宜家客服电话400-800-2345。</p>\n<p>对于因此可能给您带来的不便，我们深表歉意。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/customer-service/product-support/recalls/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fcustomer-service%2Fproduct-support%2Frecalls%2F&key=cn--zh--7a305cecbed911e79dfda9ee7bcb674b",
+    "{\"objectId_var\":\"/customer-service/product-support/recalls/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "返回产品召回新闻"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/customer-service/product-support/recalls/",
+     "text": ""
+    }
+   ],
+   "settings": null
+  }
+ ]
+}

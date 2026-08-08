@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/living-room/gallery/keting-pub079eb651",
+ "family": "rooms",
+ "id": "cn--zh--079eb651109a11e8b1909545c9aebdf1",
+ "title": "乐享惬意漫长的午后时光",
+ "name": "20184-cols04a_PF_CT_SEO",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "乐享惬意漫长的午后时光",
+   "texts": [
+    "在黑色、红色和蓝色客厅里，靠窗摆放着舒适的红色 KIVIK 奇维 三人沙发，带贵妃椅。",
+    "乐享惬意漫长的午后时光",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/8d/6f/8d6fface168cec4e192923a94a48cf9c.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/8d/6f/8d6fface168cec4e192923a94a48cf9c.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s19252960",
+    "s39208320",
+    "20346864",
+    "60385617",
+    "50349899"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

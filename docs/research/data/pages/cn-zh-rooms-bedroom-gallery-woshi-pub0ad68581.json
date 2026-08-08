@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/bedroom/gallery/woshi-pub0ad68581",
+ "family": "rooms",
+ "id": "cn--zh--0ad68581cf6f11e78e0a0bf79e0fa98f",
+ "title": "从长沙发到双人床",
+ "name": "20171-cosl02a_PF_CT_SEO_QA",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "从长沙发到双人床",
+   "texts": [
+    "一间小型卧室，带有黑色金属的坐用两用床，黑色咖啡桌和红色的八斗柜。",
+    "从长沙发到双人床",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/e3/b1/e3b18c701e9e9101bda675fddd7af527.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/e3/b1/e3b18c701e9e9101bda675fddd7af527.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s59130052",
+    "00355699",
+    "10353058",
+    "80201684",
+    "10314123"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "url": "/cn/zh/rooms/bathroom/gallery/da3-zao4-mi2-ni3-xi3-yi1-fang2-pub69d48f21",
+ "family": "rooms",
+ "id": "cn--zh--69d48f217b9d11e89da1853a21975ebe",
+ "title": "打造迷你洗衣房",
+ "name": "20191-rmba01a_PF_CT",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "打造迷你洗衣房",
+   "texts": [
+    "将宜家 ALGOT 艾格特 墙面挂条/搁架 与 LILLÅNGEN 利兰根 洗脸池搭配使用，即便空间狭小，也可以在浴室中隔出洗衣空间。",
+    "<p>两扇小门后，藏着一块功能齐全的洗衣空间，恰好塞进了这间小浴室。最棒的是什么？只要关上门，就不必去操心衣服的事情了。</p>",
+    "打造迷你洗衣房",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/0e/e9/0ee9bfbfc351ff2d66f729c2d23ff2b6.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/0e/e9/0ee9bfbfc351ff2d66f729c2d23ff2b6.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s29188054",
+    "80281379",
+    "90210334",
+    "20228511",
+    "80285631"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

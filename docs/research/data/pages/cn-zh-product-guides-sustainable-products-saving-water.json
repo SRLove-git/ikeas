@@ -1,0 +1,525 @@
+{
+ "url": "/cn/zh/product-guides/sustainable-products/saving-water",
+ "family": "product-guides",
+ "id": "cn--zh--50ae34f7345a466c8a9d7dd5e4cfd482",
+ "title": "在家节约用水的几个简单方法",
+ "name": "602331_sssh02a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "如何在家节约用水",
+   "texts": [
+    "BOHOLMEN 巴霍曼 圆形嵌入式水槽上安装了带手动喷雾器的VIMMERN 莱莫恩 不锈钢厨房混合型水龙头，水槽边缘有绿色叶子。",
+    "<p>通过重新审视家庭生活习惯，你每天可以节约很多水。这样一来，珍贵的淡水还有你的钱都不会白白流失。</p>",
+    "如何在家节约用水",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/49/3f/493ff9c7296120763b2c5c0d6111cd66.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/49/3f/493ff9c7296120763b2c5c0d6111cd66.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Hero-如何在家节约用水"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "如何在浴室减少用水量",
+   "texts": [
+    "/cat/20725",
+    "NO",
+    "ikea://content/plp?catalogId=20725",
+    "{\"objectId_var\":\"20725\",\"objectType_var\":\"plp\"}",
+    "相比标准洗脸池水龙头，在水流量为5.7升/分钟的情况下，ÅBÄCKEN 阿贝肯 喷雾水嘴在喷雾模式下可以减少95%的用水量，在喷淋模式下可以减少66%的用水量。",
+    "如何在浴室减少用水量"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/1a/e6/1ae6d284ab7cac2980790ffb8997ba64.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/20725",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/1a/e6/1ae6d284ab7cac2980790ffb8997ba64.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Curated Gallery-如何在浴室减少用水量"
+   }
+  },
+  {
+   "type": "pub-visual-callout",
+   "title": "宜家的水龙头和花洒带有内置起泡器。这会使得水与空气混合，从而能用较少的水保持良好的流动。",
+   "texts": [
+    "IMAGE",
+    "did-you-know-sustainability",
+    "宜家的水龙头和花洒带有内置起泡器。这会使得水与空气混合，从而能用较少的水保持良好的流动。",
+    "铺有白色瓷砖的米色墙壁前，从BROGRUND 布鲁格隆德 手持花洒落下的水珠滴在一个人的脸上。",
+    "right"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/f2/3c/f23c0a181ef55f990c5c24b5a28ec89e.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/f2/3c/f23c0a181ef55f990c5c24b5a28ec89e.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Visual callout-"
+   }
+  },
+  {
+   "type": "pub-banner",
+   "title": null,
+   "texts": [
+    "image-text-portrait",
+    "在窗户和白色瓷砖墙前，水槽旁边的厨房工作台上，有一个白色洗涤盆里装着蔬菜。",
+    "IMAGE",
+    "<p>大多数洗涤任务可能都不需要装满一整个水槽的水。你可以在水槽中放一个小盆，用这个盆来接水进行洗涤，从而减少用水量。</p>",
+    "如何在厨房减少用水量",
+    "#FFFFFF"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/b0/bc/b0bc83f4f3fad63e2a608031239a5bd3.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/b0/bc/b0bc83f4f3fad63e2a608031239a5bd3.jpg",
+     "text": ""
+    },
+    {
+     "href": "/cat/24262",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Banner-"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "有助于节水的产品",
+   "texts": [
+    "如果你想减少家中的用水量，宜家产品系列可以给你提供一些新鲜的创意。",
+    "有助于节水的产品",
+    "MANUAL_INPUT",
+    "10342545",
+    "90359495",
+    "00423354"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Product Shelf-有助于节水的产品"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "按需提供冷水",
+   "texts": [
+    "/cat/18871",
+    "NO",
+    "ikea://content/plp?catalogId=18871",
+    "{\"objectId_var\":\"18871\",\"objectType_var\":\"plp\"}",
+    "如果你放一壶水在冰箱里冷藏，就不需要打开水龙头等待水冷却。毕竟，那样只会让优质的水白白流进下水道。",
+    "按需提供冷水"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/1d/9e/1d9eeb72ea70005780adc9433ed4848b.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/18871",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/1d/9e/1d9eeb72ea70005780adc9433ed4848b.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Curated Gallery-按需提供冷水"
+   }
+  },
+  {
+   "type": "pub-visual-pill-slider",
+   "title": null,
+   "texts": [
+    "/product-guides/sustainable-products/saving-energy/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fproduct-guides%2Fsustainable-products%2Fsaving-energy%2F&key=cn--zh--2c634170610011edabe055cab0ff17b7",
+    "{\"objectId_var\":\"/product-guides/sustainable-products/saving-energy/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "名称",
+    "节约能源"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20230828/47c84fa44c534e46abfa317eb4872521.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/images/06/ca/06ca675190da892b8dd449647de6cf37.jpg",
+    "https://file.app.ikea.cn/images/cf/2a/cf2a27520c2f51db0bf91f51ece6afbb.jpg",
+    "https://file.app.ikea.cn/images/d4/eb/d4eb8a5dd1724409205b29c06fb08bed.jpg",
+    "https://file.app.ikea.cn/images/f2/71/f271022b09912fe124fa775f2ed29b70.jpg"
+   ],
+   "links": [
+    {
+     "href": "/product-guides/sustainable-products/saving-energy/",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20230828/47c84fa44c534e46abfa317eb4872521.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/product-guides/sustainable-products/reducing-waste",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/06/ca/06ca675190da892b8dd449647de6cf37.jpg",
+     "text": ""
+    },
+    {
+     "href": "/product-guides/sustainable-products/reusable-products",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/cf/2a/cf2a27520c2f51db0bf91f51ece6afbb.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Visual Pill Slider-"
+   }
+  },
+  {
+   "type": "anchor-navigation",
+   "title": null,
+   "texts": [
+    "TEXT",
+    "YES",
+    "健康环保",
+    "c630ed56f3a04781965eba437609ff7c",
+    "天然材质",
+    "42ba7708f6e24e7284c08baf6e470f2b"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-页面导航-"
+   }
+  },
+  {
+   "type": "product-list",
+   "title": "不添加双酚A",
+   "texts": [
+    "不添加双酚A",
+    "SIX_GRIDS",
+    "MANUAL_INPUT",
+    "00213884",
+    "00378672",
+    "00517908"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-商品列表-不添加双酚A"
+   }
+  },
+  {
+   "type": "product-list",
+   "title": "不添加铅",
+   "texts": [
+    "不添加铅",
+    "SIX_GRIDS",
+    "MANUAL_INPUT",
+    "00212002",
+    "00460351",
+    "20415447"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-商品列表-不添加铅"
+   }
+  },
+  {
+   "type": "product-list",
+   "title": "实木",
+   "texts": [
+    "实木",
+    "SIX_GRIDS",
+    "MANUAL_INPUT",
+    "50292398",
+    "10353063",
+    "30340381"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-商品列表-实木"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/landing-page/252c6b94ba4f44fd9a15c84ea5534d80",
+    "NO",
+    "ikea://cms/page-compatible-web?key=252c6b94ba4f44fd9a15c84ea5534d80&url=%2Flanding-page%2F252c6b94ba4f44fd9a15c84ea5534d80",
+    "{\"objectId_var\":\"/landing-page/252c6b94ba4f44fd9a15c84ea5534d80\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "查看更多产品"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/landing-page/252c6b94ba4f44fd9a15c84ea5534d80",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Link - button or text-"
+   }
+  },
+  {
+   "type": "product-list",
+   "title": "棉",
+   "texts": [
+    "SIX_GRIDS",
+    "MANUAL_INPUT",
+    "00456957",
+    "70190186",
+    "30429566",
+    "70372836"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-商品列表-棉"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/landing-page/a4339afa86364d7ca7926eea1ed0f889",
+    "NO",
+    "ikea://cms/page-compatible-web?key=a4339afa86364d7ca7926eea1ed0f889&url=%2Flanding-page%2Fa4339afa86364d7ca7926eea1ed0f889",
+    "{\"objectId_var\":\"/landing-page/a4339afa86364d7ca7926eea1ed0f889\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "查看更多产品"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/landing-page/a4339afa86364d7ca7926eea1ed0f889",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Link - button or text-"
+   }
+  },
+  {
+   "type": "product-list",
+   "title": "竹子",
+   "texts": [
+    "竹子",
+    "SIX_GRIDS",
+    "MANUAL_INPUT",
+    "70506751",
+    "10500323",
+    "30500322"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-商品列表-竹子"
+   }
+  },
+  {
+   "type": "product-list",
+   "title": "羊毛",
+   "texts": [
+    "羊毛",
+    "SIX_GRIDS",
+    "MANUAL_INPUT",
+    "20506975",
+    "60506153",
+    "90506972"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-商品列表-羊毛"
+   }
+  },
+  {
+   "type": "product-list",
+   "title": "节能",
+   "texts": [
+    "节能",
+    "SIX_GRIDS",
+    "MANUAL_INPUT",
+    "00459710",
+    "10526243",
+    "30478123"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-商品列表-节能"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/landing-page/7833c5b78598431abfa1607bcea02f6d",
+    "NO",
+    "ikea://cms/page-compatible-web?key=7833c5b78598431abfa1607bcea02f6d&url=%2Flanding-page%2F7833c5b78598431abfa1607bcea02f6d",
+    "{\"objectId_var\":\"/landing-page/7833c5b78598431abfa1607bcea02f6d\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "查看更多产品"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/landing-page/7833c5b78598431abfa1607bcea02f6d",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Link - button or text-"
+   }
+  },
+  {
+   "type": "product-list",
+   "title": "节水",
+   "texts": [
+    "节水",
+    "SIX_GRIDS",
+    "MANUAL_INPUT",
+    "00400319",
+    "10281293",
+    "10343088"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-商品列表-节水"
+   }
+  },
+  {
+   "type": "product-list",
+   "title": "可充电",
+   "texts": [
+    "可充电",
+    "SIX_GRIDS",
+    "MANUAL_INPUT",
+    "70509815",
+    "70509820",
+    "50551075"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-商品列表-可充电"
+   }
+  },
+  {
+   "type": "product-list",
+   "title": "使用更长久",
+   "texts": [
+    "使用更长久",
+    "SIX_GRIDS",
+    "MANUAL_INPUT",
+    "80431152",
+    "00461987",
+    "00461992"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-商品列表-使用更长久"
+   }
+  },
+  {
+   "type": "product-list",
+   "title": "循环利用",
+   "texts": [
+    "循环利用",
+    "SIX_GRIDS",
+    "MANUAL_INPUT",
+    "00480014",
+    "00525687",
+    "30160964"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-商品列表-循环利用"
+   }
+  },
+  {
+   "type": "product-list",
+   "title": "健康办公",
+   "texts": [
+    "健康办公",
+    "SIX_GRIDS",
+    "MANUAL_INPUT",
+    "10447972",
+    "50496946",
+    "70500160"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-商品列表-健康办公"
+   }
+  },
+  {
+   "type": "product-list",
+   "title": "安全材质",
+   "texts": [
+    "安全材质",
+    "SIX_GRIDS",
+    "MANUAL_INPUT",
+    "10193324",
+    "10477619",
+    "20193272"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-商品列表-安全材质"
+   }
+  },
+  {
+   "type": "product-list",
+   "title": "安全玩耍",
+   "texts": [
+    "安全玩耍",
+    "SIX_GRIDS",
+    "MANUAL_INPUT",
+    "10372641",
+    "00167839",
+    "00427818"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-商品列表-安全玩耍"
+   }
+  }
+ ]
+}

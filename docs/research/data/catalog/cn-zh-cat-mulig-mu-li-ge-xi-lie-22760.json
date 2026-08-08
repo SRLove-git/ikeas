@@ -1,0 +1,60 @@
+{
+ "url": "/cn/zh/cat/mulig-mu-li-ge-xi-lie-22760",
+ "id": "mulig-mu-li-ge-xi-lie-22760",
+ "name": "\"穆利格\"系列",
+ "description": "想要寻找一款能够整理、存储和晾干衣物且物美价廉的基础单品？不妨看看我们的 MULIG 穆利格 衣物储藏件。即便是在浴室等潮湿的地方也可以使用。除此之外，还有挂衣杆和落地式晾衣架，以及多功能搁架单元。",
+ "total": 3,
+ "products": [
+  {
+   "id": "80179433",
+   "name": "MULIG 穆利格",
+   "price": 69.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/mulig-mu-li-ge-shai-yi-jia-bai-se__0710723_pe727744_s4.jpg",
+   "productType": "晒衣架",
+   "designText": "白色",
+   "measureText": "99x152 厘米",
+   "url": null,
+   "seoSlug": "mulig-mu-li-ge-shai-yi-jia-bai-se"
+  },
+  {
+   "id": "10179436",
+   "name": "MULIG 穆利格",
+   "price": 29.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/mulig-mu-li-ge-gua-yi-gan-bai-se__0710698_pe727732_s4.jpg",
+   "productType": "挂衣杆",
+   "designText": "白色",
+   "measureText": "60-90 厘米",
+   "url": null,
+   "seoSlug": "mulig-mu-li-ge-gua-yi-gan-bai-se"
+  },
+  {
+   "id": "30228756",
+   "name": "MULIG 穆利格",
+   "price": 149,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/mulig-mu-li-ge-liang-yi-jia-shi-nei-hu-wai-bai-se__0710880_pe727820_s4.jpg",
+   "productType": "晾衣架，室内/户外",
+   "designText": "白色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "mulig-mu-li-ge-liang-yi-jia-shi-nei-hu-wai-bai-se"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "80179433",
+   "type": "ART",
+   "fullId": "80179433"
+  },
+  {
+   "id": "10179436",
+   "type": "ART",
+   "fullId": "10179436"
+  },
+  {
+   "id": "30228756",
+   "type": "ART",
+   "fullId": "30228756"
+  }
+ ]
+}

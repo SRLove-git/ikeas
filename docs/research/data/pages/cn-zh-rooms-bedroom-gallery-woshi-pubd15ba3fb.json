@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/bedroom/gallery/woshi-pubd15ba3fb",
+ "family": "rooms",
+ "id": "cn--zh--d15ba3fbef9c11e7a19a1b4caad12135",
+ "title": "助你入眠",
+ "name": "20183-cobe03a_PF_CT_SEO",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "助你入眠",
+   "texts": [
+    "米色、蓝色和白色传统卧室里贴有花朵图案墙纸，并且摆放着 SONGESAND 松耶桑德 白色床、床边桌和抽屉柜。",
+    "助你入眠",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/b6/89/b6898863ab6c33d6108bbf2255bcbc03.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/b6/89/b6898863ab6c33d6108bbf2255bcbc03.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s49241215",
+    "70347352",
+    "20367446",
+    "30366781",
+    "s99129363"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

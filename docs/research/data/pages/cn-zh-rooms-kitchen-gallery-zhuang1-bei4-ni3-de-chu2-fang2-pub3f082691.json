@@ -1,0 +1,45 @@
+{
+ "url": "/cn/zh/rooms/kitchen/gallery/zhuang1-bei4-ni3-de-chu2-fang2-pub3f082691",
+ "family": "rooms",
+ "id": "cn--zh--3f0826917ba111e89da1853a21975ebe",
+ "title": "装备你的厨房",
+ "name": "20191-rmme06a_PF_CT",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "装备你的厨房",
+   "texts": [
+    "在你的小厨房里摆放宜家 MELLTORP 麦托 白色桌子和 SUNNERSTA 苏纳思 独立橱柜系列中实用灵活的家具。",
+    "<p>谁说地面空间不足，就肯定无法拥有一间巧妙的厨房？这间厨房虽小，却五脏俱全。（别忘了还有便携电磁炉。）</p>",
+    "装备你的厨房",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/d8/03/d803197ccf9a4e7f42bdef6550d1abfb.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/d8/03/d803197ccf9a4e7f42bdef6550d1abfb.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "90303291",
+    "60335316",
+    "50334954",
+    "50173989",
+    "s49217060"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

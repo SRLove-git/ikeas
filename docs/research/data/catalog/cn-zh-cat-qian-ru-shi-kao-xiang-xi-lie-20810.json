@@ -1,0 +1,60 @@
+{
+ "url": "/cn/zh/cat/qian-ru-shi-kao-xiang-xi-lie-20810",
+ "id": "qian-ru-shi-kao-xiang-xi-lie-20810",
+ "name": "宜家烤箱和组合烤箱-厨房电器",
+ "description": "无论是吃速冻披萨、制作蛋奶酥、即将承办宴席，还是初为人父/母、热爱地球的人，亦或是烘烤大师，总有一款宜家烤箱适合你。所有烤箱均功能多样，配件齐全，可以让烹饪更加轻松有趣，无论选择哪款均可。开始烹饪吧。",
+ "total": 3,
+ "products": [
+  {
+   "id": "10547957",
+   "name": "LAGAN 拉根",
+   "price": 1799,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/lagan-la-gen-kao-xiang-bu-xiu-gang__1116869_pe872613_s4.jpg",
+   "productType": "烤箱",
+   "designText": "不锈钢",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "lagan-la-gen-kao-xiang-bu-xiu-gang"
+  },
+  {
+   "id": "80508250",
+   "name": "MATÄLSKARE 莫特艾斯卡尔",
+   "price": 3799,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/mataelskare-mo-te-ai-si-qia-er-qiang-zhi-feng-kao-xiang-ikea-300-bu-xiu-gang__0754910_pe748167_s4.jpg",
+   "productType": "强制风烤箱",
+   "designText": "IKEA 300 不锈钢",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "mataelskare-mo-te-ai-si-qia-er-qiang-zhi-feng-kao-xiang-ikea-300-bu-xiu-gang"
+  },
+  {
+   "id": "40508233",
+   "name": "ANRÄTTA 安拉塔",
+   "price": 3799,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/anraetta-an-la-ta-qiang-zhi-feng-kao-xiang-ikea-500-bu-xiu-gang__0754876_pe748158_s4.jpg",
+   "productType": "强制风烤箱",
+   "designText": "IKEA 500 不锈钢",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "anraetta-an-la-ta-qiang-zhi-feng-kao-xiang-ikea-500-bu-xiu-gang"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "10547957",
+   "type": "ART",
+   "fullId": "10547957"
+  },
+  {
+   "id": "80508250",
+   "type": "ART",
+   "fullId": "80508250"
+  },
+  {
+   "id": "40508233",
+   "type": "ART",
+   "fullId": "40508233"
+  }
+ ]
+}

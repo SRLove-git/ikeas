@@ -1,0 +1,76 @@
+{
+ "url": "/cn/zh/cat/voerda-wo-er-da-xi-lie-29420",
+ "id": "voerda-wo-er-da-xi-lie-29420",
+ "name": "VÖRDA 沃尔达 系列",
+ "description": "当你在厨房忙碌时，锋利的刀具要握得更紧一点才行。使用 VÖRDA 沃尔达 易抓握刀具，让食物准备工作更加安全。采用优质不锈钢刀身与便于抓握和控制的刀柄，无论是主厨还是烹饪菜鸟都会感到得心应手。",
+ "total": 4,
+ "products": [
+  {
+   "id": "30289245",
+   "name": "VÖRDA 沃尔达",
+   "price": 49.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/voerda-wo-er-da-shu-cai-dao-hei-se__0710385_pe727513_s4.jpg",
+   "productType": "蔬菜刀",
+   "designText": "黑色",
+   "measureText": "16 厘米",
+   "url": null,
+   "seoSlug": "voerda-wo-er-da-shu-cai-dao-hei-se"
+  },
+  {
+   "id": "80289163",
+   "name": "VÖRDA 沃尔达",
+   "price": 79.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/voerda-wo-er-da-cai-dao-hei-se__0710371_pe727523_s4.jpg",
+   "productType": "菜刀",
+   "designText": "黑色",
+   "measureText": "18 厘米",
+   "url": null,
+   "seoSlug": "voerda-wo-er-da-cai-dao-hei-se"
+  },
+  {
+   "id": "40289160",
+   "name": "VÖRDA 沃尔达",
+   "price": 99.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/voerda-wo-er-da-qie-rou-dao-hei-se__0710383_pe727511_s4.jpg",
+   "productType": "切肉刀",
+   "designText": "黑色",
+   "measureText": "19 厘米",
+   "url": null,
+   "seoSlug": "voerda-wo-er-da-qie-rou-dao-hei-se"
+  },
+  {
+   "id": "90289247",
+   "name": "VÖRDA 沃尔达",
+   "price": 39.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/voerda-wo-er-da-duo-yong-tu-dao-hei-se__0710376_pe727504_s4.jpg",
+   "productType": "多用途刀",
+   "designText": "黑色",
+   "measureText": "14 厘米",
+   "url": null,
+   "seoSlug": "voerda-wo-er-da-duo-yong-tu-dao-hei-se"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "30289245",
+   "type": "ART",
+   "fullId": "30289245"
+  },
+  {
+   "id": "80289163",
+   "type": "ART",
+   "fullId": "80289163"
+  },
+  {
+   "id": "40289160",
+   "type": "ART",
+   "fullId": "40289160"
+  },
+  {
+   "id": "90289247",
+   "type": "ART",
+   "fullId": "90289247"
+  }
+ ]
+}

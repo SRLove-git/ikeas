@@ -1,0 +1,96 @@
+{
+ "url": "/cn/zh/new/gallery/wei4-zhi2-wu4-da3-zao4-zi4-ran2-zhi1-jia1-pubd08e8931",
+ "family": "new",
+ "id": "cn--zh--d08e8931207711e98e3dd53ddd62671b",
+ "title": "为植物打造自然之家",
+ "name": "20194_nwvm48a_CT",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "为植物打造自然之家",
+   "texts": [
+    "用于摆放植物的长凳上展示着 KAFFEBÖNA 卡布纳 圆形花盆，这款花盆采用金黄色竹子手工编织而成，可装点你的植物。",
+    "<p>利用 KAFFEB&Ouml;NA 卡布纳 花盆把自然带回家，这款花盆采用竹子手工编织而成，充满轻盈之感，可与各类家居装饰和谐搭配。</p>\n<p>提供两种尺寸可选，是散发着自然气息的花草植物之家。</p>",
+    "为植物打造自然之家",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/93/3c/933c5419223aa1a990b2a46b0e1cfb44.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/93/3c/933c5419223aa1a990b2a46b0e1cfb44.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "特写：KAFFEBÖNA 卡布纳 花盆采用浅金色竹条手工编织而成，每一件都独具特色。",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "20423621",
+    "60428768"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/b3/84/b3846501e7031bb07b5fbe0c1d43b550.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/b3/84/b3846501e7031bb07b5fbe0c1d43b550.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>竹子是一种天然材料，生长在种植园内。它生长快速并且可再生，因此成为我们的可持续之选。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/this-is-ikea/sustainable-everyday/xuan3-ze2-cai2-liao4-da4-qi3-ye4-yao4-jian1-fu4-geng4-da4-de-ze2-ren4-pub47a5ba42",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fthis-is-ikea%2Fsustainable-everyday%2Fxuan3-ze2-cai2-liao4-da4-qi3-ye4-yao4-jian1-fu4-geng4-da4-de-ze2-ren4-pub47a5ba42&key=cn--zh--47a5ba425db411e8a9be013720f0d281",
+    "{\"objectId_var\":\"/this-is-ikea/sustainable-everyday/xuan3-ze2-cai2-liao4-da4-qi3-ye4-yao4-jian1-fu4-geng4-da4-de-ze2-ren4-pub47a5ba42\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "了解更多有关采用竹子作为产品原料的信息"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/this-is-ikea/sustainable-everyday/xuan3-ze2-cai2-liao4-da4-qi3-ye4-yao4-jian1-fu4-geng4-da4-de-ze2-ren4-pub47a5ba42",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "70423614",
+    "20423621",
+    "60428768",
+    "50421729",
+    "80423618"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

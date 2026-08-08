@@ -1,0 +1,141 @@
+{
+ "url": "/cn/zh/rooms/dining/gallery/wen1-xin1-you3-ai4-de-ju4-hui4-pub61da4f40",
+ "family": "rooms",
+ "id": "cn--zh--61da4f409e5411eabac1c3b4429adc99",
+ "title": "温馨有爱的聚会",
+ "name": "20211_rmdi04a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "温馨有爱的聚会"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "在餐厅里，有几张金褐色的皮革椅子、一张黑色的伸缩型餐桌、一盏黑色枝形吊灯和一个白色的玻璃门柜。",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "50404824"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/2a/3d/2a3ded0049e161359d14e8d76a541f67.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/2a/3d/2a3ded0049e161359d14e8d76a541f67.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>一顿家常饭菜，一张宽敞的桌子和舒适的椅子，各种温暖怡人的布料、材质和家具。一起来看看如何打造一个出色的聚会空间，招待亲朋好友。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "一张黑色的伸缩型餐桌、两张金褐色皮革椅子、一张深褐色长凳、绿色的窗帘，还有一张地毯，上面是充满东方情调的图案。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "70359991"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/25/a1/25a148da598e6f749abfb58e62d2c945.jpg",
+    "https://file.app.ikea.cn/images/22/ed/22edf2bf79cccd68697a410d6c5b4297.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/25/a1/25a148da598e6f749abfb58e62d2c945.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/22/ed/22edf2bf79cccd68697a410d6c5b4297.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "一张黑色餐桌，搭配水风信子制成的餐垫，白色的盘子、盛着汤的玻璃碗和折叠的厨房用巾。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "10342913"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/60/45/60454d6a27c9cd317fc291789cec0b7d.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/60/45/60454d6a27c9cd317fc291789cec0b7d.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "两个白色玻璃门柜，配内置照明，其中摆放着储物盒、装饰品和餐具。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "s69265917"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/b0/00/b00012115b54aa264de9ac6999a7cce4.jpg",
+    "https://file.app.ikea.cn/images/b0/f1/b0f1463705f19423819d98f6da4a80fe.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/b0/00/b00012115b54aa264de9ac6999a7cce4.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/b0/f1/b0f1463705f19423819d98f6da4a80fe.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "50404824",
+    "70359991",
+    "s69265917",
+    "70342571",
+    "40340762"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

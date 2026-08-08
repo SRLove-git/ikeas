@@ -1,0 +1,264 @@
+{
+ "url": "/cn/zh/rooms/kitchen/gallery/chu2-fang2-zhi1-bao3-pubfaa7c7b6",
+ "family": "rooms",
+ "id": "cn--zh--faa7c7b67cd511eb8f6045c16cf25e76",
+ "title": "厨房之宝",
+ "name": "64221_rmme02a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "厨房之宝",
+   "texts": [
+    "简约风格厨房，搭配高光白色和青绿色的柜门，砧板上放着水果，搅拌机里同样装着水果。",
+    "<p>干净的白色线条搭配一抹青绿色，为厨房注入精致而清新的生机活力。巧妙的储物方案搭配简约的细节设计和功能实用的照明，轻松打造一个风格时尚又收纳有序的厨房，你一定会由此爱上烹饪时光。</p>",
+    "厨房之宝",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/26/eb/26ebd3e0561dce98456c05443461f94a.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/26/eb/26ebd3e0561dce98456c05443461f94a.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Hero-厨房之宝"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "趣味十足又充满活力的厨房",
+   "texts": [
+    "/cat/23598",
+    "NO",
+    "ikea://content/plp?catalogId=23598",
+    "{\"objectId_var\":\"23598\",\"objectType_var\":\"plp\"}",
+    "这些高光泽柜门为你的厨房注入时尚气息。满目清新的浅青绿色，每天早晨都带给你好心情。",
+    "趣味十足又充满活力的厨房"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/3bf99477a5bed9d7/original/PH177683-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/23598",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/3bf99477a5bed9d7/original/PH177683-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Curated Gallery-趣味十足又充满活力的厨房"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "厨房抽屉不再杂乱",
+   "texts": [
+    "/cat/24255",
+    "NO",
+    "ikea://content/plp?catalogId=24255",
+    "{\"objectId_var\":\"24255\",\"objectType_var\":\"plp\"}",
+    "当你需要削土豆的时候，削皮刀就在手边。这些餐具盘帮助你一目了然地看到所有厨用器具和工具。尺寸正好契合厨房抽屉。",
+    "厨房抽屉不再杂乱"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/5152611a543f86c3/original/PH177684-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/24255",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/5152611a543f86c3/original/PH177684-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Curated Gallery-厨房抽屉不再杂乱"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "欢迎来到美食中心",
+   "texts": [
+    "/cat/23613",
+    "NO",
+    "ikea://content/plp?catalogId=23613",
+    "{\"objectId_var\":\"23613\",\"objectType_var\":\"plp\"}",
+    "“顶天立地式”储物设计充分利用厨房的每一寸空间。食品储藏柜搭配抽屉，可以腾出更多储物空间。藏在柜门后，呈现干净简约的厨房外观。",
+    "欢迎来到美食中心"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/57/77/5777be589de21be4db3ab29964500570.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/23613",
+     "text": ""
+    },
+    {
+     "href": "/p/10274240?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/57/77/5777be589de21be4db3ab29964500570.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Curated Gallery-欢迎来到美食中心"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "时尚精致的水槽",
+   "texts": [
+    "/cat/24261",
+    "NO",
+    "ikea://content/plp?catalogId=24261",
+    "{\"objectId_var\":\"24261\",\"objectType_var\":\"plp\"}",
+    "一个好看的水槽会让厨房更吸引人，你是否也这样认为？这款带传感器的智能水龙头令洗碗变得更有趣。而且我们的所有水龙头都带有一个小装置，可以将空气与水流混合，减少用水量，省钱又环保。",
+    "时尚精致的水槽"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/62adedbe4e15396b/original/PH177686-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/24261",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/62adedbe4e15396b/original/PH177686-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Curated Gallery-时尚精致的水槽"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "照亮厨房",
+   "texts": [
+    "/cat/16282",
+    "NO",
+    "ikea://content/plp?catalogId=16282",
+    "{\"objectId_var\":\"16282\",\"objectType_var\":\"plp\"}",
+    "打造高效舒适厨房的秘密武器？所需之处皆有照明。厨房操作台照明便于更好地查看工作台面，同时营造温馨氛围。带传感器的厨房抽屉照明让抽屉一目了然，方便找物。",
+    "照亮厨房"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/16b605d7e78eba49/original/PH177687-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/16282",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/16b605d7e78eba49/original/PH177687-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Curated Gallery-照亮厨房"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "为你提供所需一切，打造梦想中的厨房",
+   "texts": [
+    "/cat/ka001",
+    "NO",
+    "ikea://content/plp?catalogId=ka001",
+    "{\"objectId_var\":\"ka001\",\"objectType_var\":\"plp\"}",
+    "喜欢图片中的布置吗？这里有你需要的所有产品，供你打造充满活力感的清爽厨房，所有物品都各得其位。",
+    "为你提供所需一切，打造梦想中的厨房"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/ka001",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Product Shelf-为你提供所需一切，打造梦想中的厨房"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "每样物品各归其位，方便取放",
+   "texts": [
+    "/cat/24255",
+    "NO",
+    "ikea://content/plp?catalogId=24255",
+    "{\"objectId_var\":\"24255\",\"objectType_var\":\"plp\"}",
+    "每样物品各归其位，方便取放",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/24255",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Product Shelf-每样物品各归其位，方便取放"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "用照明营造氛围，并助你效率加倍",
+   "texts": [
+    "/cat/li001",
+    "NO",
+    "ikea://content/plp?catalogId=li001",
+    "{\"objectId_var\":\"li001\",\"objectType_var\":\"plp\"}",
+    "用照明营造氛围，并助你效率加倍",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/li001",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Product Shelf-用照明营造氛围，并助你效率加倍"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "经典餐具和厨具",
+   "texts": [
+    "/cat/kt001",
+    "NO",
+    "ikea://content/plp?catalogId=kt001",
+    "{\"objectId_var\":\"kt001\",\"objectType_var\":\"plp\"}",
+    "经典餐具和厨具",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/kt001",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Product Shelf-经典餐具和厨具"
+   }
+  }
+ ]
+}

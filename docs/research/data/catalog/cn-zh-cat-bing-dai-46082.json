@@ -1,0 +1,60 @@
+{
+ "url": "/cn/zh/cat/bing-dai-46082",
+ "id": "bing-dai-46082",
+ "name": "冰袋",
+ "description": "这个夏季，让我们随身携带美味甜点。是时候使用这些便利的冷藏袋了，袋子配有提手，易于随身携带。无论是野餐、滨海度假，还是户外聚会，均非常适用。想象一下，无需排长队就可以乐享美食的美好情景吧。",
+ "total": 3,
+ "products": [
+  {
+   "id": "10586369",
+   "name": "KLOTPIL 克洛特皮尔",
+   "price": 149,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/klotpil-ke-luo-te-pi-er-bing-bao__1353715_pe952294_s4.jpg",
+   "productType": "冰包",
+   "designText": "",
+   "measureText": "38x24x40 厘米",
+   "url": null,
+   "seoSlug": "klotpil-ke-luo-te-pi-er-bing-bao"
+  },
+  {
+   "id": "50619594",
+   "name": "TOFSAND 托福桑德",
+   "price": 49.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/tofsand-tuo-fu-sang-de-bing-bao-fen-hong-se-cheng-se__1481284_pe1000481_s4.jpg",
+   "productType": "冰包",
+   "designText": "粉红色/橙色",
+   "measureText": "26x19x19 厘米",
+   "url": null,
+   "seoSlug": "tofsand-tuo-fu-sang-de-bing-bao-fen-hong-se-cheng-se"
+  },
+  {
+   "id": "30448070",
+   "name": "FRAKTA 弗拉塔",
+   "price": 19.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/frakta-fu-la-ta-bing-dai-lan-se__0783599_pe761538_s4.jpg",
+   "productType": "冰袋",
+   "designText": "蓝色",
+   "measureText": "38x40 厘米",
+   "url": null,
+   "seoSlug": "frakta-fu-la-ta-bing-dai-lan-se"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "10586369",
+   "type": "ART",
+   "fullId": "10586369"
+  },
+  {
+   "id": "50619594",
+   "type": "ART",
+   "fullId": "50619594"
+  },
+  {
+   "id": "30448070",
+   "type": "ART",
+   "fullId": "30448070"
+  }
+ ]
+}

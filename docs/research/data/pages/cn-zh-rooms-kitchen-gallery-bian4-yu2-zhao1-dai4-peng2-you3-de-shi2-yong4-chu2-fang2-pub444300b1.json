@@ -1,0 +1,45 @@
+{
+ "url": "/cn/zh/rooms/kitchen/gallery/bian4-yu2-zhao1-dai4-peng2-you3-de-shi2-yong4-chu2-fang2-pub444300b1",
+ "family": "rooms",
+ "id": "cn--zh--444300b1020311e9aeb03d6b81950a38",
+ "title": "便于招待朋友的实用厨房",
+ "name": "20193_rmme03a_PF",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "便于招待朋友的实用厨房",
+   "texts": [
+    "利用宜家 VOXTORP 沃托普 深褐色厨房柜门，打造时尚现代的厨房。胡桃木纹让每扇柜门都独具特色。",
+    "<p>整洁有序的厨房可以让你尽情享受美食，招呼朋友，不再手忙脚乱。无论是烹饪还是厨房设计，都可以大胆发挥。</p>",
+    "便于招待朋友的实用厨房",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/04/ec/04ec2c53a135594e3b3271af74450740.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/04/ec/04ec2c53a135594e3b3271af74450740.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "10327408",
+    "40335652",
+    "10247181",
+    "70341656",
+    "90364227"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

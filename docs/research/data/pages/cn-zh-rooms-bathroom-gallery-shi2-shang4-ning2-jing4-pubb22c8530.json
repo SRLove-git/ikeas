@@ -1,0 +1,146 @@
+{
+ "url": "/cn/zh/rooms/bathroom/gallery/shi2-shang4-ning2-jing4-pubb22c8530",
+ "family": "rooms",
+ "id": "cn--zh--b22c85300c5f11ea9be0efb138516c0e",
+ "title": "时尚宁静",
+ "name": "20203_rmba03a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "时尚宁静"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "白色浴室配有两个洗脸池柜、两面镜子带照明、浅灰色浴室地垫和灰色毛巾。",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "00281104"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/20/2b/202bfb7d4acb31a5c3a76909fad49c34.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/20/2b/202bfb7d4acb31a5c3a76909fad49c34.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>触手可及的储物装置有助于打造顺畅无阻的浴室流程，增强使用者的幸福感。我们将为你介绍如何在不牺牲时尚品味的前提下打造井然有序的浴室。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "洗脸池柜配有大理石效果的台面。抽屉敞开，内有 GODMORGON 古德莫 储物盒能够帮助收纳化妆品。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "90400273"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/46/ba/46bab91ce316b33cad4bb953b3836f09.jpg",
+    "https://file.app.ikea.cn/images/10/57/1057cc2fe38a20eae554fe2a4242ebe5.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/46/ba/46bab91ce316b33cad4bb953b3836f09.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/10/57/1057cc2fe38a20eae554fe2a4242ebe5.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "GODMORGON 古德莫 高柜固定在两面浴室镜子之间的墙面上。柜门敞开，搁板上放有产品。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "40281098"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/39/de/39de33c4bbb4c1bd1a229ef6fa9d92b8.jpg",
+    "https://file.app.ikea.cn/images/1b/eb/1beb8d44d767f31a87d0207abb050d60.jpg",
+    "https://file.app.ikea.cn/images/69/0b/690b7b10d2d5c07f5ec623f6f63129b6.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/39/de/39de33c4bbb4c1bd1a229ef6fa9d92b8.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/1b/eb/1beb8d44d767f31a87d0207abb050d60.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/69/0b/690b7b10d2d5c07f5ec623f6f63129b6.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "一位女孩手持 TRÅDFRI 特鲁菲 遥控以控制配有 TRÅDFRI 特鲁菲 LED灯泡的吸顶射灯，这款灯具能够调节灯光明暗。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "30443124"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/6c/61/6c618500b5cd411ec601b976bef937da.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/6c/61/6c618500b5cd411ec601b976bef937da.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "00281104",
+    "40180805",
+    "60343081",
+    "40281098",
+    "70248125"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

@@ -1,0 +1,130 @@
+{
+ "url": "/cn/zh/stores/shenzhen/shen1-zhen4-shang1-chang3-quan2-wu1-she4-ji4-fu2-wu4-pub095b7730",
+ "family": "stores",
+ "id": "cn--zh--095b773017ff11ea9abdb1458c865916",
+ "title": "深圳商场 - 全屋设计服务",
+ "name": "深圳商场 - 全屋设计服务",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "深圳商场 - 全屋设计服务"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/75/c3/75c3b192faf81411a40ff532fd468960.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/75/c3/75c3b192faf81411a40ff532fd468960.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/72/b7/72b79a3cb9d50e336fcb898c6039a6ca.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/72/b7/72b79a3cb9d50e336fcb898c6039a6ca.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/0d/d0/0dd04050866341d683ddc9537a94aea2.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/0d/d0/0dd04050866341d683ddc9537a94aea2.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/98/e9/98e9879a5158eedc9fefad8e4265f1bd.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/98/e9/98e9879a5158eedc9fefad8e4265f1bd.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/fc/ed/fced2da77a2d9e06f831d247c7d386e0.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/fc/ed/fced2da77a2d9e06f831d247c7d386e0.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/stores/shenzhen/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fstores%2Fshenzhen%2F&key=",
+    "{\"objectId_var\":\"/stores/shenzhen/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "返回深圳商场首页"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/stores/shenzhen/",
+     "text": ""
+    }
+   ],
+   "settings": null
+  }
+ ]
+}

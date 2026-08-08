@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/kitchen/gallery/chufang-pubffb11201",
+ "family": "rooms",
+ "id": "cn--zh--ffb11201cf7411e78e0a0bf79e0fa98f",
+ "title": "时尚食品柜",
+ "name": "20173-come05a_PF_CT_SEO_QA",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "时尚食品柜",
+   "texts": [
+    "两个镀锌搁架单元靠着白色墙壁放置，背后是深灰色的厨房。",
+    "时尚食品柜",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/fb/25/fb2533fa1f15127426d3d7e2e174afd2.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/fb/25/fb2533fa1f15127426d3d7e2e174afd2.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s69187547",
+    "00337846",
+    "90342481",
+    "20335691",
+    "40334662"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "url": "/cn/zh/cat/ledzhao-ming-tiao-57542",
+ "id": "ledzhao-ming-tiao-57542",
+ "name": "",
+ "description": null,
+ "total": 4,
+ "products": [
+  {
+   "id": "60530539",
+   "name": "VATTENSTEN 瓦滕斯登",
+   "price": 29.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/vattensten-wa-teng-si-deng-led-zhao-ming-tiao-bai-se__1107921_pe869230_s4.jpg",
+   "productType": "LED照明条",
+   "designText": "白色",
+   "measureText": "1 米",
+   "url": null,
+   "seoSlug": "vattensten-wa-teng-si-deng-led-zhao-ming-tiao-bai-se"
+  },
+  {
+   "id": "30530588",
+   "name": "VATTENSTEN 瓦滕斯登",
+   "price": 59.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/vattensten-wa-teng-si-deng-led-zhao-ming-tiao-duo-se__1107914_pe869229_s4.jpg",
+   "productType": "LED照明条",
+   "designText": "多色",
+   "measureText": "1 米",
+   "url": null,
+   "seoSlug": "vattensten-wa-teng-si-deng-led-zhao-ming-tiao-duo-se"
+  },
+  {
+   "id": "90609705",
+   "name": "KABBLEKA 卡布列卡",
+   "price": 79.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/kabbleka-qia-bu-lie-qia-led-zhao-ming-tiao-fu-usb-jie-kou-ke-diao-guang-de__1456863_pe992520_s4.jpg",
+   "productType": "LED照明条，附USB接口",
+   "designText": "可调光的",
+   "measureText": "3 米",
+   "url": null,
+   "seoSlug": "kabbleka-qia-bu-lie-qia-led-zhao-ming-tiao-fu-u-sb-jie-kou-ke-diao-guang-de"
+  },
+  {
+   "id": "80609715",
+   "name": "KABBLEKA 卡布列卡",
+   "price": 99.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/kabbleka-qia-bu-lie-qia-led-zhao-ming-tiao-fu-usb-jie-kou-yan-se-ke-diao-jie__1453782_pe991398_s4.jpg",
+   "productType": "LED照明条，附USB接口",
+   "designText": "颜色可调节",
+   "measureText": "3 米",
+   "url": null,
+   "seoSlug": "kabbleka-qia-bu-lie-qia-led-zhao-ming-tiao-fu-u-sb-jie-kou-yan-se-ke-diao-jie"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "60530539",
+   "type": "ART",
+   "fullId": "60530539"
+  },
+  {
+   "id": "30530588",
+   "type": "ART",
+   "fullId": "30530588"
+  },
+  {
+   "id": "90609705",
+   "type": "ART",
+   "fullId": "90609705"
+  },
+  {
+   "id": "80609715",
+   "type": "ART",
+   "fullId": "80609715"
+  }
+ ]
+}

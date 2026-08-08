@@ -1,0 +1,45 @@
+{
+ "url": "/cn/zh/rooms/bathroom/gallery/qing1-song1-yu2-yue4-de-xi3-yi1-liu2-cheng2-pub9e0a8801",
+ "family": "rooms",
+ "id": "cn--zh--9e0a880123d411e98e3dd53ddd62671b",
+ "title": "轻松愉悦的洗衣流程",
+ "name": "20194_rmba02a_CT",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "轻松愉悦的洗衣流程",
+   "texts": [
+    "宜家 ALGOT 艾格特 系列包括深网格搁板、晾晒衣物的挂杆和 KUGGIS 库吉斯 塑料箱，帮你解决洗衣问题。",
+    "<p>创造一个全家都能照做的洗衣流程。如果你的浴室和洗衣房在同一个房间，充分利用每一个小空间，放置搁板、储物盒和洗衣袋。</p>",
+    "轻松愉悦的洗衣流程",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/40/8a/408aaa9dc0c4873a223c7d2b677667c9.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/40/8a/408aaa9dc0c4873a223c7d2b677667c9.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s79303103",
+    "s89884361",
+    "60343081",
+    "60147513",
+    "80404479"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/dining/gallery/canting-pub8006cc41",
+ "family": "rooms",
+ "id": "cn--zh--8006cc41cf7211e78e0a0bf79e0fa98f",
+ "title": "可根据客人数目调整的时尚空间",
+ "name": "20173-codi01a_PF_CT_SEO_QA",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "可根据客人数目调整的时尚空间",
+   "texts": [
+    "浅蓝色餐厅内放着高光泽白色桌子和蓝色塑料椅。",
+    "可根据客人数目调整的时尚空间",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/50/52/50520252998301ba1b35b1e69c57f1fd.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/50/52/50520252998301ba1b35b1e69c57f1fd.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "10334705",
+    "50334727",
+    "50327760",
+    "20304920",
+    "50322116"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

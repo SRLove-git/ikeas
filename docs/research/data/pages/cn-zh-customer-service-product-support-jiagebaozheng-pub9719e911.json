@@ -1,0 +1,64 @@
+{
+ "url": "/cn/zh/customer-service/product-support/jiagebaozheng-pub9719e911",
+ "family": "customer-service",
+ "id": "cn--zh--9719e911bbe611e8affa0d09be91682d",
+ "title": "价格保证",
+ "name": "价格保证_PC",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "价格保证",
+   "texts": [
+    "价格保证",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/a0/1a/a01a4341ee168d328f9829677efae559.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/a0/1a/a01a4341ee168d328f9829677efae559.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Hero-价格保证"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>宜家网站上的产品价格适用于你在宜家商场购买或在网上商城购买的产品。</p>\n<p>2020宜家《家居指南》上标注的价格有效期截止至2020年7月31日。但是请注意，如果零售税变化，或者出现超出我们控制的其他变动，我们保留对价格做出相应调整的权利。（请注意，有些产品可能会出现大小和颜色的细微差别。）</p>\n<p>送货、组装和安装等客户服务各自单独收费。我们尽力确保本网站上的信息在任何时候都准确无误。与此同时，对于任何可能产生的产品变动，我们深表歉意。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/customer-service/product-support/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fcustomer-service%2Fproduct-support%2F&key=cn--zh--6c21e731bbeb11e8affa0d09be91682d",
+    "{\"objectId_var\":\"/customer-service/product-support/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "返回产品介绍"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/customer-service/product-support/",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Link - button or text-"
+   }
+  }
+ ]
+}

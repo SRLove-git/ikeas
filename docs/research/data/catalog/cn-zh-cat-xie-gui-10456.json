@@ -1,0 +1,412 @@
+{
+ "url": "/cn/zh/cat/xie-gui-10456",
+ "id": "xie-gui-10456",
+ "name": "鞋柜",
+ "description": "宜家能为你提供适配的鞋履储存解决方案。我们提供多种风格、颜色和尺寸的鞋履收纳家具、鞋柜和鞋履储物柜，适合放在家中任何角落。腾出空间，保持门厅整洁，确保可以在所需之时找到心爱的鞋子。",
+ "total": 38,
+ "products": [
+  {
+   "id": "80397308",
+   "name": "TRONES 强尼思",
+   "price": 199,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/trones-qiang-ni-si-xie-gui-chu-cang-bai-se__0710711_pe727734_s4.jpg",
+   "productType": "鞋柜/储藏",
+   "designText": "白色",
+   "measureText": "52x18x39 厘米",
+   "url": null,
+   "seoSlug": "trones-qiang-ni-si-xie-gui-chu-cang-bai-se"
+  },
+  {
+   "id": "90508914",
+   "name": "KLEPPSTAD 克勒普斯塔",
+   "price": 499,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/kleppstad-ke-le-pu-si-ta-xie-gui-chu-cang-bai-se__1005444_pe825460_s4.jpg",
+   "productType": "鞋柜/储藏",
+   "designText": "白色",
+   "measureText": "80x35x117 厘米",
+   "url": null,
+   "seoSlug": "kleppstad-ke-le-pu-si-ta-xie-gui-chu-cang-bai-se"
+  },
+  {
+   "id": "40530267",
+   "name": "STÄLL 斯多尔",
+   "price": 499,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/staell-si-duo-er-si-men-xie-gui-bai-se__1126561_pe875781_s4.jpg",
+   "productType": "四门鞋柜",
+   "designText": "白色",
+   "measureText": "96x17x90 厘米",
+   "url": null,
+   "seoSlug": "staell-si-duo-er-si-men-xie-gui-bai-se"
+  },
+  {
+   "id": "20530230",
+   "name": "STÄLL 斯多尔",
+   "price": 1299,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/staell-si-duo-er-si-men-xie-gui-xiang-mu-tie-mian__1126558_pe875778_s4.jpg",
+   "productType": "四门鞋柜",
+   "designText": "橡木贴面",
+   "measureText": "96x17x90 厘米",
+   "url": null,
+   "seoSlug": "staell-si-duo-er-si-men-xie-gui-xiang-mu-tie-mian"
+  },
+  {
+   "id": "10527879",
+   "name": "VITBERGET 维特贝里特",
+   "price": 799,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/vitberget-wei-te-bei-li-te-xie-gui-chu-cang-bai-se__1043275_pe841699_s4.jpg",
+   "productType": "鞋柜/储藏",
+   "designText": "白色",
+   "measureText": "105x40x107 厘米",
+   "url": null,
+   "seoSlug": "vitberget-wei-te-bei-li-te-xie-gui-chu-cang-bai-se"
+  },
+  {
+   "id": "90530260",
+   "name": "BISSA 比萨",
+   "price": 299,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/bissa-bi-sa-san-men-xie-gui-bai-se__1126565_pe875785_s4.jpg",
+   "productType": "三门鞋柜",
+   "designText": "白色",
+   "measureText": "49x28x135 厘米",
+   "url": null,
+   "seoSlug": "bissa-bi-sa-san-men-xie-gui-bai-se"
+  },
+  {
+   "id": "00267607",
+   "name": "BRUSALI 布鲁萨里",
+   "price": 699,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/brusali-bu-lu-sa-li-san-men-xie-gui-he-se__0710744_pe727762_s4.jpg",
+   "productType": "三门鞋柜",
+   "designText": "褐色",
+   "measureText": "61x30x130 厘米",
+   "url": null,
+   "seoSlug": "brusali-bu-lu-sa-li-san-men-xie-gui-he-se"
+  },
+  {
+   "id": "10530264",
+   "name": "STÄLL 斯多尔",
+   "price": 699,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/staell-si-duo-er-san-men-xie-gui-bai-se__1126559_pe875779_s4.jpg",
+   "productType": "三门鞋柜",
+   "designText": "白色",
+   "measureText": "79x29x148 厘米",
+   "url": null,
+   "seoSlug": "staell-si-duo-er-san-men-xie-gui-bai-se"
+  },
+  {
+   "id": "80334759",
+   "name": "MACKAPÄR 马凯帕",
+   "price": 699,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/mackapaer-ma-kai-pa-xie-gui-chu-cang-bai-se__0710722_pe727743_s4.jpg",
+   "productType": "鞋柜/储藏",
+   "designText": "白色",
+   "measureText": "80x35x102 厘米",
+   "url": null,
+   "seoSlug": "mackapaer-ma-kai-pa-xie-gui-chu-cang-bai-se"
+  },
+  {
+   "id": "49614903",
+   "name": "VASSKÄR 瓦斯夏",
+   "price": 199.98,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/vasskaer-wa-si-xia-men-ting-jia-ju-2-jian-tao-zhu__1470046_pe996787_s4.jpg",
+   "productType": "门厅家具，2件套",
+   "designText": "竹",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "vasskaer-wa-si-xia-men-ting-jia-ju-2-jian-tao-zhu"
+  },
+  {
+   "id": "80544489",
+   "name": "MACKAPÄR 马凯帕",
+   "price": 499,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/mackapaer-ma-kai-pa-hua-men-chu-wu-shi-chang-deng-bai-se__1189550_pe899907_s4.jpg",
+   "productType": "滑门储物式长凳",
+   "designText": "白色",
+   "measureText": "100x37x52 厘米",
+   "url": null,
+   "seoSlug": "mackapaer-ma-kai-pa-hua-men-chu-wu-shi-chang-deng-bai-se"
+  },
+  {
+   "id": "80530227",
+   "name": "STÄLL 斯多尔",
+   "price": 1499,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/staell-si-duo-er-san-men-xie-gui-xiang-mu-tie-mian__1292549_pe935048_s4.jpg",
+   "productType": "三门鞋柜",
+   "designText": "橡木贴面",
+   "measureText": "79x29x148 厘米",
+   "url": null,
+   "seoSlug": "staell-si-duo-er-san-men-xie-gui-xiang-mu-tie-mian"
+  },
+  {
+   "id": "70587709",
+   "name": "GULLABERG 古拉贝利",
+   "price": 799,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/gullaberg-gu-la-bei-li-si-men-xie-gui-bai-se__1384132_pe962850_s4.jpg",
+   "productType": "四门鞋柜",
+   "designText": "白色",
+   "measureText": "105x22x107 厘米",
+   "url": null,
+   "seoSlug": "gullaberg-gu-la-bei-li-si-men-xie-gui-bai-se"
+  },
+  {
+   "id": "50530257",
+   "name": "BISSA 比萨",
+   "price": 249,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/bissa-bi-sa-shuang-men-xie-gui-bai-se__1126569_pe875786_s4.jpg",
+   "productType": "双门鞋柜",
+   "designText": "白色",
+   "measureText": "49x28x93 厘米",
+   "url": null,
+   "seoSlug": "bissa-bi-sa-shuang-men-xie-gui-bai-se"
+  },
+  {
+   "id": "90530222",
+   "name": "BISSA 比萨",
+   "price": 299,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/bissa-bi-sa-san-men-xie-gui-fang-xiang-mu__1470178_pe996820_s4.jpg",
+   "productType": "三门鞋柜",
+   "designText": "仿橡木",
+   "measureText": "49x28x135 厘米",
+   "url": null,
+   "seoSlug": "bissa-bi-sa-san-men-xie-gui-fang-xiang-mu"
+  },
+  {
+   "id": "69527839",
+   "name": "MACKAPÄR 马凯帕 / BAGGMUCK 贝格马克",
+   "price": 487.98,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/mackapaer-ma-kai-pa-baggmuck-bei-ge-ma-ke-men-ting-jia-ju-4-jian-tao-bai-se-hui-se__1369124_pe958034_s4.jpg",
+   "productType": "门厅家具，4件套",
+   "designText": "白色/灰色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "mackapaer-ma-kai-pa-baggmuck-bei-ge-ma-ke-men-ting-jia-ju-4-jian-tao-bai-se-hui-se"
+  },
+  {
+   "id": "30397315",
+   "name": "TRONES 强尼思",
+   "price": 199,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/trones-qiang-ni-si-xie-gui-chu-cang-hei-se__0710712_pe727733_s4.jpg",
+   "productType": "鞋柜/储藏",
+   "designText": "黑色",
+   "measureText": "52x18x39 厘米",
+   "url": null,
+   "seoSlug": "trones-qiang-ni-si-xie-gui-chu-cang-hei-se"
+  },
+  {
+   "id": "60587696",
+   "name": "GULLABERG 古拉贝利",
+   "price": 999,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/gullaberg-gu-la-bei-li-shuang-men-xie-gui-bai-se__1384131_pe962849_s4.jpg",
+   "productType": "双门鞋柜",
+   "designText": "白色",
+   "measureText": "88x30x122 厘米",
+   "url": null,
+   "seoSlug": "gullaberg-gu-la-bei-li-shuang-men-xie-gui-bai-se"
+  },
+  {
+   "id": "89576169",
+   "name": "NIPÅSEN 尼坡森 / BAGGMUCK 贝格马克",
+   "price": 637.98,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/nipasen-ni-po-sen-baggmuck-bei-ge-ma-ke-men-ting-jia-ju-4-jian-tao-hei-se-hui-se__1369142_pe958050_s4.jpg",
+   "productType": "门厅家具，4件套",
+   "designText": "黑色/灰色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "nipasen-ni-po-sen-baggmuck-bei-ge-ma-ke-men-ting-jia-ju-4-jian-tao-hei-se-hui-se"
+  },
+  {
+   "id": "50530219",
+   "name": "BISSA 比萨",
+   "price": 249,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/bissa-bi-sa-shuang-men-xie-gui-fang-xiang-mu__1470182_pe996821_s4.jpg",
+   "productType": "双门鞋柜",
+   "designText": "仿橡木",
+   "measureText": "49x28x93 厘米",
+   "url": null,
+   "seoSlug": "bissa-bi-sa-shuang-men-xie-gui-fang-xiang-mu"
+  },
+  {
+   "id": "99618003",
+   "name": "GREJIG 格雷伊格",
+   "price": 199.95,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/grejig-ge-lei-yi-ge-men-ting-jia-ju-5-jian-tao-hui-se__1500546_pe1007014_s4.jpg",
+   "productType": "门厅家具，5件套",
+   "designText": "灰色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "grejig-ge-lei-yi-ge-men-ting-jia-ju-5-jian-tao-hui-se"
+  },
+  {
+   "id": "99527890",
+   "name": "MACKAPÄR 马凯帕 / VIHALS 维哈斯",
+   "price": 1756.98,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/mackapaer-ma-kai-pa-vihals-wei-ha-si-men-ting-jia-ju-5-jian-tao-bai-se__1369136_pe958044_s4.jpg",
+   "productType": "门厅家具，5件套",
+   "designText": "白色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "mackapaer-ma-kai-pa-vihals-wei-ha-si-men-ting-jia-ju-5-jian-tao-bai-se"
+  },
+  {
+   "id": "19527931",
+   "name": "STÄLL 斯多尔 / NORDLI 诺德里",
+   "price": 1298,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/staell-si-duo-er-nordli-nuo-de-li-men-ting-jia-ju-2-jian-tao-bai-se__1369138_pe958046_s4.jpg",
+   "productType": "门厅家具，2件套",
+   "designText": "白色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "staell-si-duo-er-nordli-nuo-de-li-men-ting-jia-ju-2-jian-tao-bai-se"
+  },
+  {
+   "id": "39622625",
+   "name": "GREJIG 格雷伊格",
+   "price": 199.95,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/grejig-ge-lei-yi-ge-men-ting-jia-ju-5-jian-tao-lan-se__1516073_pe1011732_s4.jpg",
+   "productType": "门厅家具，5件套",
+   "designText": "蓝色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "grejig-ge-lei-yi-ge-men-ting-jia-ju-5-jian-tao-lan-se"
+  },
+  {
+   "id": "89527904",
+   "name": "GREÅKER 格利克 / NIPÅSEN 尼坡森",
+   "price": 1317.98,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/greaker-ge-li-ke-nipasen-ni-po-sen-men-ting-jia-ju-4-jian-tao-bai-se-hei-se__1369137_pe958045_s4.jpg",
+   "productType": "门厅家具，4件套",
+   "designText": "白色/黑色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "greaker-ge-li-ke-nipasen-ni-po-sen-men-ting-jia-ju-4-jian-tao-bai-se-hei-se"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "80397308",
+   "type": "ART",
+   "fullId": "80397308"
+  },
+  {
+   "id": "90508914",
+   "type": "ART",
+   "fullId": "90508914"
+  },
+  {
+   "id": "40530267",
+   "type": "ART",
+   "fullId": "40530267"
+  },
+  {
+   "id": "20530230",
+   "type": "ART",
+   "fullId": "20530230"
+  },
+  {
+   "id": "10527879",
+   "type": "ART",
+   "fullId": "10527879"
+  },
+  {
+   "id": "90530260",
+   "type": "ART",
+   "fullId": "90530260"
+  },
+  {
+   "id": "00267607",
+   "type": "ART",
+   "fullId": "00267607"
+  },
+  {
+   "id": "10530264",
+   "type": "ART",
+   "fullId": "10530264"
+  },
+  {
+   "id": "80334759",
+   "type": "ART",
+   "fullId": "80334759"
+  },
+  {
+   "id": "49614903",
+   "type": "SPR",
+   "fullId": "s49614903"
+  },
+  {
+   "id": "80544489",
+   "type": "ART",
+   "fullId": "80544489"
+  },
+  {
+   "id": "80530227",
+   "type": "ART",
+   "fullId": "80530227"
+  },
+  {
+   "id": "70587709",
+   "type": "ART",
+   "fullId": "70587709"
+  },
+  {
+   "id": "50530257",
+   "type": "ART",
+   "fullId": "50530257"
+  },
+  {
+   "id": "90530222",
+   "type": "ART",
+   "fullId": "90530222"
+  },
+  {
+   "id": "69527839",
+   "type": "SPR",
+   "fullId": "s69527839"
+  },
+  {
+   "id": "30397315",
+   "type": "ART",
+   "fullId": "30397315"
+  },
+  {
+   "id": "60587696",
+   "type": "ART",
+   "fullId": "60587696"
+  },
+  {
+   "id": "89576169",
+   "type": "SPR",
+   "fullId": "s89576169"
+  },
+  {
+   "id": "50530219",
+   "type": "ART",
+   "fullId": "50530219"
+  },
+  {
+   "id": "99618003",
+   "type": "SPR",
+   "fullId": "s99618003"
+  },
+  {
+   "id": "99527890",
+   "type": "SPR",
+   "fullId": "s99527890"
+  },
+  {
+   "id": "19527931",
+   "type": "SPR",
+   "fullId": "s19527931"
+  },
+  {
+   "id": "39622625",
+   "type": "SPR",
+   "fullId": "s39622625"
+  },
+  {
+   "id": "89527904",
+   "type": "SPR",
+   "fullId": "s89527904"
+  }
+ ]
+}

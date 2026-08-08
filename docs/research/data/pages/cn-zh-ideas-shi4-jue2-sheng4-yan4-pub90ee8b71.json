@@ -1,0 +1,84 @@
+{
+ "url": "/cn/zh/ideas/shi4-jue2-sheng4-yan4-pub90ee8b71",
+ "family": "ideas",
+ "id": "cn--zh--90ee8b719cca11e9a6d14535ebfeabf1",
+ "title": "视觉盛宴",
+ "name": "202021_idip11a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "视觉盛宴",
+   "texts": [
+    "餐桌上摆放着一人份的餐食，布置方式充满艺术气息，色彩、形状、材料和谐统一。",
+    "<p>无论你是花了很长时间自己烹饪，还是决定叫外卖，混搭你最喜欢的餐具和其他珍贵单品，能让食物更美味。</p>",
+    "视觉盛宴",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/02/1f/021fb0d8f3e1c8637f723723c1f1e61a.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/02/1f/021fb0d8f3e1c8637f723723c1f1e61a.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "餐桌上摆放着一人份的甜点，布置方式充满艺术气息，色彩、形状、材料和谐统一。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "00342862"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/d0/c2/d0c23fd80fd78cdb9695c7e4a4a5b901.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/d0/c2/d0c23fd80fd78cdb9695c7e4a4a5b901.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "餐桌上摆放着一人份的餐食，布置方式充满艺术气息，色彩、形状、装饰和谐统一。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "60289183"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/1f/0f/1f0fbb6d455e332542997f186228b292.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/1f/0f/1f0fbb6d455e332542997f186228b292.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p><em>我们乐意看到顾客运用我们的产品发挥创意。尽情发挥吧！但是请注意，经过微调或改造的宜家产品将丧失其原有功能，或无法进行二次销售，因此，你将不再享有宜家的商业保证及退货权利。</em></p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

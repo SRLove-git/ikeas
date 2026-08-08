@@ -1,0 +1,89 @@
+{
+ "url": "/cn/zh/customer-service/returns-claims/guarantee/shafa-pubbacb3f8c",
+ "family": "customer-service",
+ "id": "cn--zh--bacb3f8cf05811e7ad0cfd2918498b1e",
+ "title": "沙发和扶手椅品质保证 ",
+ "name": "沙发和扶手椅品质保证 ",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "沙发和扶手椅品质保证 ",
+   "texts": [
+    "IMAGE",
+    "沙发和扶手椅品质保证",
+    "side"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20240927/f02f5ad8bd0f4d46a93ef0d174f7380d.gif"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20240927/f02f5ad8bd0f4d46a93ef0d174f7380d.gif",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "da50d4e1a0ff41758d9cdece71e4ff9a"
+   }
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "无限灵感，为你的家打造舒适空间",
+    "NO",
+    "IMAGE",
+    "art,50395773",
+    "art,10505716",
+    "art,10434309"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/f4/0f/f40fc0c74a2f92bd9eeb30a06016ca5a.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/f4/0f/f40fc0c74a2f92bd9eeb30a06016ca5a.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Image(video)-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>家居日常生活对沙发要求很高。我们的沙发和扶手椅系列符合严格的宜家品质和耐用性标准及家居使用的标准。这意味着我们为您提供的十年品质保证涵盖沙发框架和沙发垫在材料和工艺方面的缺陷。</p>\n<p><strong>本品质保证有效期多久？</strong><br />沙发的品质保证自购买之日起十年有效。须提供原始购买凭证。</p>\n<p><strong>本品质保证涵盖哪些产品？</strong><br />本品质保证仅适用于家庭使用的情况，在材料和工艺方面的缺陷:</p>\n<p>&bull; 框架<br />&bull; 坐垫和靠垫</p>\n<p><strong>10年品质保证涵盖下列产品：</strong><br />EKTORP 爱克托 沙发系列，GR&Ouml;NLID 格罗恩里德 沙发系列，HEMLINGBY 汉林比 双人沙发，KIVIK 奇维 沙发系列，KLIPPAN 克利帕 双人沙发，LANDSKRONA 兰德克纳 沙发系列，LIDHULT 利胡特 沙发系列，Omt&auml;nksam 沃姆安克萨姆 系列，SLATORP 思拉托 三人沙发，Stocksund 斯托桑 座椅系列，STRANDMON 斯佳蒙 靠背椅系列，S&Ouml;DERHAMN 索德汉 座椅系列，Vallentuna 瓦伦图 座椅系列，VIMLE 维姆勒 沙发系列，GREVLUNDA 格雷夫隆达 三人沙"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "56c86c5779db44399c4cbf8fbd325a5a"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/customer-service/returns-claims/guarantee/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fcustomer-service%2Freturns-claims%2Fguarantee%2F&key=",
+    "{\"objectId_var\":\"/customer-service/returns-claims/guarantee/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "返回客厅的产品品质保证"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/customer-service/returns-claims/guarantee/",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "39d7aa16509442b589eb402ab7ac78ad"
+   }
+  }
+ ]
+}

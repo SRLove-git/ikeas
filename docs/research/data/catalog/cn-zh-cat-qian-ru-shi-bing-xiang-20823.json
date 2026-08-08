@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/cat/qian-ru-shi-bing-xiang-20823",
+ "id": "qian-ru-shi-bing-xiang-20823",
+ "name": "",
+ "description": null,
+ "total": 2,
+ "products": [
+  {
+   "id": "00509017",
+   "name": "SUPERKALL 苏普考",
+   "price": 5999,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/superkall-su-pu-kao-bing-xiang-wu-shuang-bai-se-ji-cheng-de__1009013_pe828824_s4.jpg",
+   "productType": "冰箱",
+   "designText": "无霜/白色 集成的",
+   "measureText": "180/68 公升",
+   "url": null,
+   "seoSlug": "superkall-su-pu-kao-bing-xiang-wu-shuang-bai-se-ji-cheng-de"
+  },
+  {
+   "id": "40628867",
+   "name": "ÖVERNÄS 欧维纳斯",
+   "price": 3999,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/oevernaes-ou-wei-na-si-bing-xiang-ikea-700-ji-cheng-de__1522515_pe1013660_s4.jpg",
+   "productType": "冰箱",
+   "designText": "IKEA 700 集成的",
+   "measureText": "193/74 公升",
+   "url": null,
+   "seoSlug": "oevernaes-ou-wei-na-si-bing-xiang-ikea-700-ji-cheng-de"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "00509017",
+   "type": "ART",
+   "fullId": "00509017"
+  },
+  {
+   "id": "40628867",
+   "type": "ART",
+   "fullId": "40628867"
+  }
+ ]
+}

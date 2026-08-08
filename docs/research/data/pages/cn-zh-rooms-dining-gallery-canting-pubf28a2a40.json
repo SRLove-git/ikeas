@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/dining/gallery/canting-pubf28a2a40",
+ "family": "rooms",
+ "id": "cn--zh--f28a2a40109611e8b1909545c9aebdf1",
+ "title": "让日常生活更舒适",
+ "name": "20184-codi01a_PF_CT_SEO",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "让日常生活更舒适",
+   "texts": [
+    "在开放式生活空间里，米色、黑色和白色用餐区摆放着 HENRIKSDAL 亨利克 白色软垫椅和 EKEDALEN 伊克多兰 深棕色伸缩型餐桌。",
+    "让日常生活更舒适",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/03/83/0383f33da07b4e972d99cc753ebd4dec.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/03/83/0383f33da07b4e972d99cc753ebd4dec.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s89221588",
+    "50340808",
+    "40394514",
+    "80394550",
+    "70346588"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

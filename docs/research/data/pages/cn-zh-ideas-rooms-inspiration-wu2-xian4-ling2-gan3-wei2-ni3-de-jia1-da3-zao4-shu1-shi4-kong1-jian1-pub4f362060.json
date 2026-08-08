@@ -1,0 +1,432 @@
+{
+ "url": "/cn/zh/ideas/rooms-inspiration/wu2-xian4-ling2-gan3-wei2-ni3-de-jia1-da3-zao4-shu1-shi4-kong1-jian1-pub4f362060",
+ "family": "ideas",
+ "id": "cn--zh--4f362060fb4311eb909ec36c6e99b004",
+ "title": "自由设计你的家",
+ "name": "自由设计你的家",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "自由设计你的家"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "自由设计你的 家",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/a6/45/a645f8b1f38ac4d01484602560edf2ca.png"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/a6/45/a645f8b1f38ac4d01484602560edf2ca.png",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>在线设计工具</h2>\n<p>查看我们为你提供的针对不同房间的灵感创意、巧妙提示及技巧</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>卧室搭配设计</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "Link to bed configurator.",
+    "/h5page/?url=https%3A%2F%2Fwww.ikea.cn%2Faddon-app%2Fcompletesleep%2Fconfigurator%2Fm2%2Flatest%2Fcn%2Fzh%2F",
+    "NO",
+    "ikea://default-module/H5?url=https%3A%2F%2Fwww.ikea.cn%2Faddon-app%2Fcompletesleep%2Fconfigurator%2Fm2%2Flatest%2Fcn%2Fzh%2F",
+    "{\"objectId_var\":\"https://www.ikea.cn/addon-app/completesleep/configurator/m2/latest/cn/zh/\",\"objectType_var\":\"default-module/H5\"}"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/d1/33/d1337b36686e2bc8532ba48f78ca7ed8.jpeg",
+    "https://file.app.ikea.cn/images/52/10/5210295dc0dfd314b45742d7eed5e6de.jpeg"
+   ],
+   "links": [
+    {
+     "href": "/h5page/?url=https%3A%2F%2Fwww.ikea.cn%2Faddon-app%2Fcompletesleep%2Fconfigurator%2Fm2%2Flatest%2Fcn%2Fzh%2F",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/d1/33/d1337b36686e2bc8532ba48f78ca7ed8.jpeg",
+     "text": ""
+    },
+    {
+     "href": "/h5page/?url=https%3A%2F%2Fwww.ikea.cn%2Faddon-app%2Fcompletesleep%2Fneedmap%2Fm2%2Flatest%2Fcn%2Fzh%2F",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/52/10/5210295dc0dfd314b45742d7eed5e6de.jpeg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>储物家具与设计</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "Link to the KALLAX planner.",
+    "/h5page/?url=https%3A%2F%2Fwww.ikea.cn%2Faddon-app%2Fkallax%2Flatest%2F%23%2Fm2%2Fcn%2Fzh%2F",
+    "NO",
+    "ikea://default-module/H5?url=https%3A%2F%2Fwww.ikea.cn%2Faddon-app%2Fkallax%2Flatest%2F%23%2Fm2%2Fcn%2Fzh%2F",
+    "{\"objectId_var\":\"https://www.ikea.cn/addon-app/kallax/latest/#/m2/cn/zh/\",\"objectType_var\":\"default-module/H5\"}"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/65/85/6585f6353a1867d2d214c8d405c3177a.jpeg",
+    "https://file.app.ikea.cn/images/ba/b8/bab8c654be8cdb8ecc2ce7a591270d01.jpeg",
+    "https://file.app.ikea.cn/images/ab/5d/ab5d4686a1e093e3df647ce39dd8ffa1.jpeg"
+   ],
+   "links": [
+    {
+     "href": "/h5page/?url=https%3A%2F%2Fwww.ikea.cn%2Faddon-app%2Fkallax%2Flatest%2F%23%2Fm2%2Fcn%2Fzh%2F",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/65/85/6585f6353a1867d2d214c8d405c3177a.jpeg",
+     "text": ""
+    },
+    {
+     "href": "/planner/besta-planner/",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/ba/b8/bab8c654be8cdb8ecc2ce7a591270d01.jpeg",
+     "text": ""
+    },
+    {
+     "href": "/planner/eket-planner/",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/ab/5d/ab5d4686a1e093e3df647ce39dd8ffa1.jpeg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "PAX 帕克思",
+    "/planner/pax-planner/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fplanner%2Fpax-planner%2F&key=",
+    "{\"objectId_var\":\"/planner/pax-planner/\",\"objectType_var\":\"cms/page-compatible-web\"}"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/e9/85/e985daf776e1d9849506316523517bbb.jpeg",
+    "https://file.app.ikea.cn/images/7f/4a/7f4a74a0e34dd60b838cd04cc9b4ccb7.jpeg",
+    "https://file.app.ikea.cn/images/f3/46/f346b9f9586a89a17a811daa5b73996c.jpeg"
+   ],
+   "links": [
+    {
+     "href": "/planner/pax-planner/",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/e9/85/e985daf776e1d9849506316523517bbb.jpeg",
+     "text": ""
+    },
+    {
+     "href": "/planner/smastad-planner/",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/7f/4a/7f4a74a0e34dd60b838cd04cc9b4ccb7.jpeg",
+     "text": ""
+    },
+    {
+     "href": "/planner/boaxel-planner/",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/f3/46/f346b9f9586a89a17a811daa5b73996c.jpeg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>客厅和餐厅</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "SÖDERHAMN 索德汉",
+    "/planner/soderhamn-planner/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fplanner%2Fsoderhamn-planner%2F&key=",
+    "{\"objectId_var\":\"/planner/soderhamn-planner/\",\"objectType_var\":\"cms/page-compatible-web\"}"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/bb/9a/bb9ad8c611ac438720207fb0f74a2901.jpeg",
+    "https://file.app.ikea.cn/images/1f/fc/1ffc4ec260e0ffe6d49e7530e52008a2.jpeg",
+    "https://file.app.ikea.cn/images/a2/c5/a2c5b9941860c9edbbed867e30d85d54.jpeg"
+   ],
+   "links": [
+    {
+     "href": "/planner/soderhamn-planner/",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/bb/9a/bb9ad8c611ac438720207fb0f74a2901.jpeg",
+     "text": ""
+    },
+    {
+     "href": "/planner/build-your-own-dining-chair-planner/",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/1f/fc/1ffc4ec260e0ffe6d49e7530e52008a2.jpeg",
+     "text": ""
+    },
+    {
+     "href": "/h5page/?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fkitchen%3Fchannel%3Dkitchen_IRW%2520M2%26cl_sr%3DIRW%2520M2",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/a2/c5/a2c5b9941860c9edbbed867e30d85d54.jpeg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>成套家具，打造和谐风格</h2>\n<p>查看我们的成套系列家具，轻松为你的家营造统一风格</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "HEMNES 汉尼斯 系列采用实木材质，经久耐用，随着岁月流逝更显精美雅致。",
+    "/cat/11731",
+    "NO",
+    "ikea://content/plp?catalogId=11731",
+    "{\"objectId_var\":\"11731\",\"objectType_var\":\"plp\"}"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/03/ad/03ad293a06fc352f3694ecf711b8616e.jpeg",
+    "https://file.app.ikea.cn/images/4a/88/4a88fc4981f7a8571e8147c35618458a.jpeg",
+    "https://file.app.ikea.cn/images/7e/9a/7e9af9ede394691c6bd3690569e04343.jpeg"
+   ],
+   "links": [
+    {
+     "href": "/cat/11731",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/03/ad/03ad293a06fc352f3694ecf711b8616e.jpeg",
+     "text": ""
+    },
+    {
+     "href": "/cat/07468",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/4a/88/4a88fc4981f7a8571e8147c35618458a.jpeg",
+     "text": ""
+    },
+    {
+     "href": "/cat/19086",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/7e/9a/7e9af9ede394691c6bd3690569e04343.jpeg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "SÖDERHAMN 索德汉 沙发简约又舒适，还可自由组合的高颜值沙发。",
+    "/cat/22178",
+    "NO",
+    "ikea://content/plp?catalogId=22178",
+    "{\"objectId_var\":\"22178\",\"objectType_var\":\"plp\"}"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/54/cd/54cd905a85fa25699dc449704a6020f1.jpeg",
+    "https://file.app.ikea.cn/images/bc/9f/bc9f7b083882f88a31c8c652a6f864b8.jpeg",
+    "https://file.app.ikea.cn/images/40/11/4011260162cd46c4621d71784f706f31.jpeg"
+   ],
+   "links": [
+    {
+     "href": "/cat/22178",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/54/cd/54cd905a85fa25699dc449704a6020f1.jpeg",
+     "text": ""
+    },
+    {
+     "href": "/cat/27534",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/bc/9f/bc9f7b083882f88a31c8c652a6f864b8.jpeg",
+     "text": ""
+    },
+    {
+     "href": "/cat/28102",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/40/11/4011260162cd46c4621d71784f706f31.jpeg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>宜家设计服务</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "/threedHome/view/?id=3",
+    "external",
+    "查看宜家3D样板间",
+    "ikea://cms/page-compatible-web?url=%2FthreedHome%2Fview%2F%3Fid%3D3&key=",
+    "{\"objectId_var\":\"/threedHome/view/?id=3\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "/h5page/?url=https%3A%2F%2Fwrd.family.ikea.cn%2Fwrd%3F"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/17/99/1799592aab73ca570d343e6753b55fc1.png",
+    "https://file.app.ikea.cn/images/3c/f4/3cf4f905f5bcac46b04714a55afa1903.png",
+    "https://file.app.ikea.cn/images/48/3f/483f70a93a6c773d3717a1b04438a2fb.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/17/99/1799592aab73ca570d343e6753b55fc1.png",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/3c/f4/3cf4f905f5bcac46b04714a55afa1903.png",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/48/3f/483f70a93a6c773d3717a1b04438a2fb.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-inspiration-card",
+   "title": null,
+   "texts": [
+    "67e8dd10-0713-11ec-bd00-13a18bc4fec2",
+    "/planners/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fplanners%2F&key=",
+    "{\"objectId_var\":\"/planners/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "查看更多在线设计工具，自由定义你的家"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/52/c0/52c002733756c59239fefe6147821251.png"
+   ],
+   "links": [
+    {
+     "href": "/planners/",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/52/c0/52c002733756c59239fefe6147821251.png",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/ideas/rooms-inspiration/wu2-xian4-ling2-gan3-wei2-ni3-de-jia1-da3-zao4-shu1-shi4-kong1-jian1-pub70cb0fc0",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fideas%2Frooms-inspiration%2Fwu2-xian4-ling2-gan3-wei2-ni3-de-jia1-da3-zao4-shu1-shi4-kong1-jian1-pub70cb0fc0&key=cn--zh--70cb0fc0fab611eb909ec36c6e99b004",
+    "{\"objectId_var\":\"/ideas/rooms-inspiration/wu2-xian4-ling2-gan3-wei2-ni3-de-jia1-da3-zao4-shu1-shi4-kong1-jian1-pub70cb0fc0\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "无限灵感，为你的家打造舒适空间"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/ideas/rooms-inspiration/wu2-xian4-ling2-gan3-wei2-ni3-de-jia1-da3-zao4-shu1-shi4-kong1-jian1-pub70cb0fc0",
+     "text": ""
+    }
+   ],
+   "settings": null
+  }
+ ]
+}

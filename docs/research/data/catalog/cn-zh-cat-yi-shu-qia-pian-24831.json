@@ -1,0 +1,60 @@
+{
+ "url": "/cn/zh/cat/yi-shu-qia-pian-24831",
+ "id": "yi-shu-qia-pian-24831",
+ "name": "宜家艺术卡片-图片和框架",
+ "description": "即便是几张工艺卡片也会使人印象深刻。我们的装饰卡片尺寸与明信片相仿，鲜艳抢眼的设计可以为房间提升格调。挑选自己最喜欢的卡片加以展示，打造个性十足的家。这些卡片刚好可以放进我们的拼贴画框。",
+ "total": 3,
+ "products": [
+  {
+   "id": "30623498",
+   "name": "VÄXBO 韦斯伯",
+   "price": 39.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/vaexbo-wei-si-bo-gong-yi-qia-pian-dong-wu-hua-xiang__1483342_pe1001245_s4.jpg",
+   "productType": "工艺卡片",
+   "designText": "动物画像",
+   "measureText": "13x18 厘米",
+   "url": null,
+   "seoSlug": "vaexbo-wei-si-bo-gong-yi-qia-pian-dong-wu-hua-xiang"
+  },
+  {
+   "id": "00583743",
+   "name": "VÄXBO 韦斯伯",
+   "price": 29.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/vaexbo-wei-si-bo-gong-yi-qia-pian-lai-zi-da-zi-ran-de-xing-zhuang__1286217_pe933497_s4.jpg",
+   "productType": "工艺卡片",
+   "designText": "来自大自然的形状",
+   "measureText": "13x18 厘米",
+   "url": null,
+   "seoSlug": "vaexbo-wei-si-bo-gong-yi-qia-pian-lai-zi-da-zi-ran-de-xing-zhuang"
+  },
+  {
+   "id": "30602405",
+   "name": "VÄXBO 韦斯伯",
+   "price": 29.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/vaexbo-wei-si-bo-gong-yi-qia-pian-ye-sheng-cao-ben-zhi-wu__1385613_pe963373_s4.jpg",
+   "productType": "工艺卡片",
+   "designText": "野生草本植物",
+   "measureText": "13x18 厘米",
+   "url": null,
+   "seoSlug": "vaexbo-wei-si-bo-gong-yi-qia-pian-ye-sheng-cao-ben-zhi-wu"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "30623498",
+   "type": "ART",
+   "fullId": "30623498"
+  },
+  {
+   "id": "00583743",
+   "type": "ART",
+   "fullId": "00583743"
+  },
+  {
+   "id": "30602405",
+   "type": "ART",
+   "fullId": "30602405"
+  }
+ ]
+}

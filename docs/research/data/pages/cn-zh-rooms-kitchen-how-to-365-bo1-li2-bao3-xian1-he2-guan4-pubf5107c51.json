@@ -1,0 +1,106 @@
+{
+ "url": "/cn/zh/rooms/kitchen/how-to/365-bo1-li2-bao3-xian1-he2-guan4-pubf5107c51",
+ "family": "rooms",
+ "id": "cn--zh--f5107c51100511e9a342e77718ae4be2",
+ "title": "365+玻璃保鲜盒/罐",
+ "name": "烹饪 - 365+保鲜盒 玻璃",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "365+玻璃保鲜盒/罐"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/47/7e/477e68c960ead0feaa3a4dd6d34e09e5.gif"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/47/7e/477e68c960ead0feaa3a4dd6d34e09e5.gif",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/d1/76/d1766548df15753e9d29406139d3c2b5.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/d1/76/d1766548df15753e9d29406139d3c2b5.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>附盖玻璃保鲜盒</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s49269092",
+    "s79269095",
+    "s19269084",
+    "s89269090",
+    "s19269121"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2><strong>玻璃保鲜盒单品</strong></h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "80359194",
+    "10359197",
+    "80359207",
+    "00359211",
+    "10359201"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

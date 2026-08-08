@@ -1,0 +1,55 @@
+{
+ "url": "/cn/zh/customer-service/guanzhu-pubb46a3040",
+ "family": "customer-service",
+ "id": "cn--zh--b46a3040b89711e79a5eff486d94c77f",
+ "title": "把宜家带在身边",
+ "name": "把宜家带在身边",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "把宜家带在身边"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>扫码关注宜家的公众号和<a href=\"http://weibo.com/p/1006061785749160\" target=\"_blank\">微博</a>，更多家居灵感和优惠资讯触手可及。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/b3/eb/b3eb275d682241ed5089a768b62d3f5d.jpg",
+    "https://file.app.ikea.cn/images/06/13/0613e2a63a51cddb14b9172661219fe8.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/b3/eb/b3eb275d682241ed5089a768b62d3f5d.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/06/13/0613e2a63a51cddb14b9172661219fe8.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  }
+ ]
+}

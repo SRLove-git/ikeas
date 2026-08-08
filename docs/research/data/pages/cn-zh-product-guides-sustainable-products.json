@@ -1,0 +1,521 @@
+{
+ "url": "/cn/zh/product-guides/sustainable-products",
+ "family": "product-guides",
+ "id": "cn--zh--a98958f85f204ce5a6ad0876059ef952",
+ "title": "实现更可持续生活的简单指南",
+ "name": "602331_sssh01a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "实现更可持续生活的指南",
+   "texts": [
+    "带储物柜的绿色搁架上放着回收箱，搁架靠在灰色的墙上，旁边的架子上挂着手提袋。",
+    "<p>减少浪费、节省能源和节约用水，以及维护好现有的家具，这些方法都有助于保护资源，甚至可以节省家庭开支。日常生活中的一些小行动都可以发挥作用。这里有一些想法可以帮助你开始行动。</p>",
+    "实现更可持续生活的指南",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/45/f0/45f01c5c85a13578727d9d0c0edfcb42.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/45/f0/45f01c5c85a13578727d9d0c0edfcb42.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Hero-实现更可持续生活的指南"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "如何在居家生活中节约能源",
+   "texts": [
+    "/product-guides/sustainable-products/saving-energy",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fproduct-guides%2Fsustainable-products%2Fsaving-energy&key=cn--zh--2c634170610011edabe055cab0ff17b7",
+    "{\"objectId_var\":\"/product-guides/sustainable-products/saving-energy\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "能源开支通常是每个家庭的主要开支。幸运的是，有一些简单的做法可以提高能源使用效率，有时还可以降低能源成本。",
+    "如何在居家生活中节约能源"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/fd/87/fd875d987f2ab1a64b722d07d7aabd0c.jpg"
+   ],
+   "links": [
+    {
+     "href": "/product-guides/sustainable-products/saving-energy",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/fd/87/fd875d987f2ab1a64b722d07d7aabd0c.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Curated Gallery-如何在居家生活中节约能源"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "如何管理家中的废弃物",
+   "texts": [
+    "/product-guides/sustainable-products/reducing-waste",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fproduct-guides%2Fsustainable-products%2Freducing-waste&key=cn--zh--afb76fd0638811edabe055cab0ff17b7",
+    "{\"objectId_var\":\"/product-guides/sustainable-products/reducing-waste\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "生活中产生一定量的废弃物是难免的。但是有一些方法可以减少家中产生的废弃物，这有助于节省资源，同时让你的家井然有序。",
+    "如何管理家中的废弃物"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/99/4f/994f336a00ab51d784b9f79c8a3a6c55.jpg"
+   ],
+   "links": [
+    {
+     "href": "/product-guides/sustainable-products/reducing-waste",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/99/4f/994f336a00ab51d784b9f79c8a3a6c55.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Curated Gallery-如何管理家中的废弃物"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "如何在家节约用水",
+   "texts": [
+    "/product-guides/sustainable-products/saving-water",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fproduct-guides%2Fsustainable-products%2Fsaving-water&key=cn--zh--28f83cf060f311edabe055cab0ff17b7",
+    "{\"objectId_var\":\"/product-guides/sustainable-products/saving-water\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "在许多地区，淡水是一种稀缺资源。你可以借助一些简单的家用产品并调整生活习惯，来减少用水浪费。",
+    "如何在家节约用水"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/ec/e7/ece75b7b932d57f2e1c74bf7342f6157.jpg"
+   ],
+   "links": [
+    {
+     "href": "/product-guides/sustainable-products/saving-water",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/ec/e7/ece75b7b932d57f2e1c74bf7342f6157.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Curated Gallery-如何在家节约用水"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "如何延长家具的使用寿命",
+   "texts": [
+    "/product-guides/sustainable-products/make-furniture-live-longer",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fproduct-guides%2Fsustainable-products%2Fmake-furniture-live-longer&key=cn--zh--1a7db980619211edabe055cab0ff17b7",
+    "{\"objectId_var\":\"/product-guides/sustainable-products/make-furniture-live-longer\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "你确定那件家具不能再用了吗？本指南介绍如何延长现有家具的使用寿命并实现家具价值的最大化。",
+    "如何延长家具的使用寿命"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/84/be/84bef7e854603c9a2b2aa4040565a3a7.jpg"
+   ],
+   "links": [
+    {
+     "href": "/product-guides/sustainable-products/make-furniture-live-longer",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/84/be/84bef7e854603c9a2b2aa4040565a3a7.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Curated Gallery-如何延长家具的使用寿命"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "如何减少消耗并提高重复利用率",
+   "texts": [
+    "/product-guides/sustainable-products/reusable-products",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fproduct-guides%2Fsustainable-products%2Freusable-products&key=cn--zh--cc5a3c4063f011edabe055cab0ff17b7",
+    "{\"objectId_var\":\"/product-guides/sustainable-products/reusable-products\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "许多一次性产品通常都有可重复使用的替代品。这些替代品更经济，而且可以减少浪费。",
+    "如何减少消耗并提高重复利用率"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/96/93/9693925d5dbaf2dec7ab5e2be02d6da4.jpg"
+   ],
+   "links": [
+    {
+     "href": "/product-guides/sustainable-products/reusable-products",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/96/93/9693925d5dbaf2dec7ab5e2be02d6da4.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Curated Gallery-如何减少消耗并提高重复利用率"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "如何转向更可持续的饮食方式",
+   "texts": [
+    "/product-guides/sustainable-products/sustainable-food",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fproduct-guides%2Fsustainable-products%2Fsustainable-food&key=cn--zh--d5849090637d11edabe055cab0ff17b7",
+    "{\"objectId_var\":\"/product-guides/sustainable-products/sustainable-food\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "你所选择的食物关系重大。幸运的是，明智的食物选择也可以是美味的选择！",
+    "如何转向更可持续的饮食方式"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/c4/f4/c4f4da42dc51fdf502480019c5aabdfb.jpg"
+   ],
+   "links": [
+    {
+     "href": "/product-guides/sustainable-products/sustainable-food",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/c4/f4/c4f4da42dc51fdf502480019c5aabdfb.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Curated Gallery-如何转向更可持续的饮食方式"
+   }
+  },
+  {
+   "type": "anchor-navigation",
+   "title": null,
+   "texts": [
+    "TEXT",
+    "YES",
+    "健康环保",
+    "f433582a9d6a4319824765d29e5e9c45",
+    "天然材质",
+    "e91e7562ea3d4a31a8780ee666184218"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-页面导航-"
+   }
+  },
+  {
+   "type": "product-list",
+   "title": "不添加双酚A",
+   "texts": [
+    "不添加双酚A",
+    "SIX_GRIDS",
+    "MANUAL_INPUT",
+    "00213884",
+    "00378672",
+    "00517908"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-商品列表-不添加双酚A"
+   }
+  },
+  {
+   "type": "product-list",
+   "title": "不添加铅",
+   "texts": [
+    "不添加铅",
+    "SIX_GRIDS",
+    "MANUAL_INPUT",
+    "00212002",
+    "00460351",
+    "20415447"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-商品列表-不添加铅"
+   }
+  },
+  {
+   "type": "product-list",
+   "title": "实木",
+   "texts": [
+    "实木",
+    "SIX_GRIDS",
+    "MANUAL_INPUT",
+    "50292398",
+    "10353063",
+    "30340381"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-商品列表-实木"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/landing-page/252c6b94ba4f44fd9a15c84ea5534d80",
+    "NO",
+    "ikea://cms/page-compatible-web?key=252c6b94ba4f44fd9a15c84ea5534d80&url=%2Flanding-page%2F252c6b94ba4f44fd9a15c84ea5534d80",
+    "{\"objectId_var\":\"/landing-page/252c6b94ba4f44fd9a15c84ea5534d80\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "查看更多产品"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/landing-page/252c6b94ba4f44fd9a15c84ea5534d80",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Link - button or text-"
+   }
+  },
+  {
+   "type": "product-list",
+   "title": "棉",
+   "texts": [
+    "SIX_GRIDS",
+    "MANUAL_INPUT",
+    "00456957",
+    "70190186",
+    "30429566",
+    "70372836"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-商品列表-棉"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/landing-page/a4339afa86364d7ca7926eea1ed0f889",
+    "NO",
+    "ikea://cms/page-compatible-web?key=a4339afa86364d7ca7926eea1ed0f889&url=%2Flanding-page%2Fa4339afa86364d7ca7926eea1ed0f889",
+    "{\"objectId_var\":\"/landing-page/a4339afa86364d7ca7926eea1ed0f889\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "查看更多产品"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/landing-page/a4339afa86364d7ca7926eea1ed0f889",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Link - button or text-"
+   }
+  },
+  {
+   "type": "product-list",
+   "title": "竹子",
+   "texts": [
+    "竹子",
+    "SIX_GRIDS",
+    "MANUAL_INPUT",
+    "70506751",
+    "10500323",
+    "30500322"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-商品列表-竹子"
+   }
+  },
+  {
+   "type": "product-list",
+   "title": "羊毛",
+   "texts": [
+    "羊毛",
+    "SIX_GRIDS",
+    "MANUAL_INPUT",
+    "20506975",
+    "60506153",
+    "90506972"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-商品列表-羊毛"
+   }
+  },
+  {
+   "type": "product-list",
+   "title": "节能",
+   "texts": [
+    "节能",
+    "SIX_GRIDS",
+    "MANUAL_INPUT",
+    "00459710",
+    "10526243",
+    "30478123"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-商品列表-节能"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/landing-page/7833c5b78598431abfa1607bcea02f6d",
+    "NO",
+    "ikea://cms/page-compatible-web?key=7833c5b78598431abfa1607bcea02f6d&url=%2Flanding-page%2F7833c5b78598431abfa1607bcea02f6d",
+    "{\"objectId_var\":\"/landing-page/7833c5b78598431abfa1607bcea02f6d\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "查看更多产品"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/landing-page/7833c5b78598431abfa1607bcea02f6d",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Link - button or text-"
+   }
+  },
+  {
+   "type": "product-list",
+   "title": "节水",
+   "texts": [
+    "节水",
+    "SIX_GRIDS",
+    "MANUAL_INPUT",
+    "00400319",
+    "10281293",
+    "10343088"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-商品列表-节水"
+   }
+  },
+  {
+   "type": "product-list",
+   "title": "可充电",
+   "texts": [
+    "可充电",
+    "SIX_GRIDS",
+    "MANUAL_INPUT",
+    "70509815",
+    "70509820",
+    "50551075"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-商品列表-可充电"
+   }
+  },
+  {
+   "type": "product-list",
+   "title": "使用更长久",
+   "texts": [
+    "使用更长久",
+    "SIX_GRIDS",
+    "MANUAL_INPUT",
+    "80431152",
+    "00461987",
+    "00461992"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-商品列表-使用更长久"
+   }
+  },
+  {
+   "type": "product-list",
+   "title": "循环利用",
+   "texts": [
+    "循环利用",
+    "SIX_GRIDS",
+    "MANUAL_INPUT",
+    "00480014",
+    "00525687",
+    "30160964"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-商品列表-循环利用"
+   }
+  },
+  {
+   "type": "product-list",
+   "title": "健康办公",
+   "texts": [
+    "健康办公",
+    "SIX_GRIDS",
+    "MANUAL_INPUT",
+    "10447972",
+    "50496946",
+    "70500160"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-商品列表-健康办公"
+   }
+  },
+  {
+   "type": "product-list",
+   "title": "安全材质",
+   "texts": [
+    "安全材质",
+    "SIX_GRIDS",
+    "MANUAL_INPUT",
+    "10193324",
+    "10477619",
+    "20193272"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-商品列表-安全材质"
+   }
+  },
+  {
+   "type": "product-list",
+   "title": "安全玩耍",
+   "texts": [
+    "安全玩耍",
+    "SIX_GRIDS",
+    "MANUAL_INPUT",
+    "10372641",
+    "00167839",
+    "00427818"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-商品列表-安全玩耍"
+   }
+  }
+ ]
+}

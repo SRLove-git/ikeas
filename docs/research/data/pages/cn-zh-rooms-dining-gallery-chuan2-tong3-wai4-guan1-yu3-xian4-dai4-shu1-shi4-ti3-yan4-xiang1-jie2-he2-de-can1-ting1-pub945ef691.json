@@ -1,0 +1,124 @@
+{
+ "url": "/cn/zh/rooms/dining/gallery/chuan2-tong3-wai4-guan1-yu3-xian4-dai4-shu1-shi4-ti3-yan4-xiang1-jie2-he2-de-can1-ting1-pub945ef691",
+ "family": "rooms",
+ "id": "cn--zh--945ef6917bfb11e982f8b702b57e021a",
+ "title": "传统外观与现代舒适体验相结合的餐厅",
+ "name": "20201_rmdi01a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "传统外观与现代舒适体验相结合的餐厅"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "餐厅里配有黑色桌椅、黄麻毯、黑色吊灯和带滑门的灰色储物组合。",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "20368714"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/56/b3/56b32fc440f996d74cc1a20279039468.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/56/b3/56b32fc440f996d74cc1a20279039468.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>无论是和很多人一起用餐，还是独自用餐，你都可以充分利用餐厅空间。NORDVIKEN 诺德维肯 餐桌可伸展，NORDVIKEN 诺德维肯 椅子十分舒适，适合久坐。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "餐厅里摆放着展开的餐桌和黑色椅子。餐桌已经做好了晚餐的布置，餐桌上方挂着两盏吊灯。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "20368714"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/7f/01/7f01398baa4983b4110bc7397909549d.jpg",
+    "https://file.app.ikea.cn/images/2e/16/2e16a162cc284825095d683dd8d1dfdf.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/7f/01/7f01398baa4983b4110bc7397909549d.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/2e/16/2e16a162cc284825095d683dd8d1dfdf.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "一张配有米色座垫的厨房用凳，背面配有米色和白色的装饰软垫。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "10120634"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/f2/83/f2830c135dd7a76e9f848498cf9c9318.jpg",
+    "https://file.app.ikea.cn/images/14/ce/14ce2693b7d883c1acdf67066f209127.jpg",
+    "https://file.app.ikea.cn/images/f6/e1/f6e1ab673ce6122aff6777b91f43ab0b.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/f2/83/f2830c135dd7a76e9f848498cf9c9318.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/14/ce/14ce2693b7d883c1acdf67066f209127.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/f6/e1/f6e1ab673ce6122aff6777b91f43ab0b.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "20368714",
+    "40369109",
+    "s19220846",
+    "s39265914",
+    "60422549"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

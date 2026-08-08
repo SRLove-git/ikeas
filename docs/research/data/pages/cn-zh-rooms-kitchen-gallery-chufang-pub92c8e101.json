@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/kitchen/gallery/chufang-pub92c8e101",
+ "family": "rooms",
+ "id": "cn--zh--92c8e101cf6e11e78e0a0bf79e0fa98f",
+ "title": "少量花销即可轻松打造的迷你厨房",
+ "name": "20171-come05a_PF_CT_SEO_QA",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "少量花销即可轻松打造的迷你厨房",
+   "texts": [
+    "一间白色的迷你厨房，配有便携式刀具和一个小冰箱。再加上手推车和壁架，以增加额外的储存空间。",
+    "少量花销即可轻松打造的迷你厨房",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/d4/3d/d43dc5a0526507922ebadf24559a82d9.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/d4/3d/d43dc5a0526507922ebadf24559a82d9.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "90303291",
+    "50303721",
+    "00173760",
+    "60335316",
+    "30303736"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

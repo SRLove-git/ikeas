@@ -7,6 +7,7 @@ import {
   getCollectionHref,
 } from "@/lib/catalog";
 import { ProductGallery } from "@/components/ProductGallery";
+import { SiteLayout } from "@/components/SiteLayout";
 
 export const dynamicParams = false;
 
@@ -30,7 +31,8 @@ export default async function ProductPage({
   const spec = [product.productType, product.designText].filter(Boolean).join(", ");
 
   return (
-    <main className="font-ikea min-h-screen bg-white text-ikea-black">
+    <SiteLayout>
+    <div className="font-ikea min-h-screen bg-white text-ikea-black">
       <div className="max-w-page mx-auto px-5 py-8 lg:px-10">
         <nav className="mb-6 flex flex-wrap items-center gap-2 text-sm text-ikea-muted">
           <Link href="/" className="hover:text-ikea-black">
@@ -151,6 +153,7 @@ export default async function ProductPage({
           </div>
         ) : null}
       </div>
-    </main>
+    </div>
+    </SiteLayout>
   );
 }

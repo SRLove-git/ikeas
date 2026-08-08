@@ -1,0 +1,45 @@
+{
+ "url": "/cn/zh/rooms/childrens-room/gallery/er2-tong2-you2-le4-yuan2-pub76c265e1",
+ "family": "rooms",
+ "id": "cn--zh--76c265e1fe1511e8a8c8e16fdaf0d8e9",
+ "title": "儿童游乐园",
+ "name": "20193_rmch01a_PF",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "儿童游乐园",
+   "texts": [
+    "走进这间彩色儿童卧室，里面摆放着 CIRKUSTÄLT 勒克斯塔 红白条纹帐篷，并搭配光滑的 STUVA 斯多瓦 白色储物式长凳，用于玩具收纳，保持房间整洁有序。",
+    "<p>STUVA 斯多瓦 是一款储物单元，可以帮助实现孩子的幻想。可用作书桌、游戏天地或收纳毛绒玩具的储物空间！还有许多其他产品也能助你轻松整理物品。</p>",
+    "儿童游乐园",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/36/09/3609f1b4a8f948fd765badfe67f02972.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/36/09/3609f1b4a8f948fd765badfe67f02972.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s99253135",
+    "20365367",
+    "s39227757",
+    "40417940",
+    "30417950"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

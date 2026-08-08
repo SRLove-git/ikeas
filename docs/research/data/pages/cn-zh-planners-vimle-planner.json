@@ -1,0 +1,27 @@
+{
+ "url": "/cn/zh/planners/vimle-planner",
+ "family": "planners",
+ "id": "cn--zh--a66999b4ddf442d1a4bb40b249b0a35c",
+ "title": "宜家VIMLE 维姆勒 沙发设计工具 - IKEA",
+ "name": "宜家VIMLE 维姆勒 沙发设计工具",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-planner",
+   "title": null,
+   "texts": [
+    "IFRAME_EMBED",
+    "ALL",
+    "https://www.ikea.cn/addon-app/sofas/vimle/web/latest/cn/zh/#",
+    "VIMLE_IPEX",
+    "NO",
+    "38"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Planner Tool-"
+   }
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/bathroom/gallery/yushi-pub9f5c8971",
+ "family": "rooms",
+ "id": "cn--zh--9f5c8971e63011e7a19a1b4caad12135",
+ "title": "方便所有人使用的共享空间",
+ "name": "20183-coba01a_PF_CT_SEO",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "方便所有人使用的共享空间",
+   "texts": [
+    "深灰色小型浴室里摆放着 GODMORGON 古德莫 柜子、TOLKEN 托尔肯 台面和 KATTEVIK 水槽。",
+    "方便所有人使用的共享空间",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/e6/8d/e68d4aa63ec4fc3fdad185bc8fe8b0bd.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/e6/8d/e68d4aa63ec4fc3fdad185bc8fe8b0bd.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s69247004",
+    "10349839",
+    "90343094",
+    "50392246",
+    "80344452"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

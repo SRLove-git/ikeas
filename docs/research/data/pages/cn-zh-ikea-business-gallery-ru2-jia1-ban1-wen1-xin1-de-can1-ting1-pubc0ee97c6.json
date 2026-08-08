@@ -1,0 +1,110 @@
+{
+ "url": "/cn/zh/ikea-business/gallery/ru2-jia1-ban1-wen1-xin1-de-can1-ting1-pubc0ee97c6",
+ "family": "ikea-business",
+ "id": "cn--zh--c0ee97c675be11ebb91fd119e96f59c1",
+ "title": "如家般温馨的餐厅",
+ "name": "64221_rmbh01a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-curated-gallery",
+   "title": "再来一杯？",
+   "texts": [
+    "/cat/10410",
+    "NO",
+    "ikea://content/plp?catalogId=10410",
+    "{\"objectId_var\":\"10410\",\"objectType_var\":\"plp\"}",
+    "这款推拉门柜子里放着玻璃杯、蜡烛、餐巾和其他一些零碎物件，日常用品近在手边。在上面放上一盏灯、一些植物和菜单牌，更能营造出家的温馨感。",
+    "再来一杯？"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/331cbca47c32030a/original/PH177635-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/10410",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/331cbca47c32030a/original/PH177635-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-栅格合集 Curated Gallery-再来一杯？"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "万能墙面",
+   "texts": [
+    "/cat/42076",
+    "NO",
+    "ikea://content/plp?catalogId=42076",
+    "{\"objectId_var\":\"42076\",\"objectType_var\":\"plp\"}",
+    "不妨组合一组酒架，打造一面彰显个性的风格墙。它同时也是实用的储物空间。",
+    "万能墙面"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/7820a67fa7c03cb9/original/PH177636-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/42076",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/7820a67fa7c03cb9/original/PH177636-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-栅格合集 Curated Gallery-万能墙面"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "用经典风格打造宜人餐桌",
+   "texts": [
+    "/cat/kt001",
+    "NO",
+    "ikea://content/plp?catalogId=kt001",
+    "{\"objectId_var\":\"kt001\",\"objectType_var\":\"plp\"}",
+    "用经典风格打造宜人餐桌",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/kt001",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Product Shelf-用经典风格打造宜人餐桌"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "小细节带来大不同",
+   "texts": [
+    "/cat/de001",
+    "NO",
+    "ikea://content/plp?catalogId=de001",
+    "{\"objectId_var\":\"de001\",\"objectType_var\":\"plp\"}",
+    "小细节带来大不同",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/de001",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Product Shelf-小细节带来大不同"
+   }
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "url": "/cn/zh/cat/yu-he-hai-chan-pin-25214",
+ "id": "yu-he-hai-chan-pin-25214",
+ "name": "鱼和海产品",
+ "description": "鱼和海产品",
+ "total": 1,
+ "products": [
+  {
+   "id": "30101031",
+   "name": "SILL DILL",
+   "price": 18.9,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/sill-dill-shi-luo-an-zhi-fei-yu__0443155_pe594171_s4.jpg",
+   "productType": "莳萝腌制鲱鱼",
+   "designText": "",
+   "measureText": "250 克",
+   "url": null,
+   "seoSlug": "sill-dill-shi-luo-an-zhi-fei-yu"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "30101031",
+   "type": "ART",
+   "fullId": "30101031"
+  }
+ ]
+}

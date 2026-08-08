@@ -1,0 +1,438 @@
+{
+ "url": "/cn/zh/rooms/kitchen/how-to/sheji-pube9604f11",
+ "family": "rooms",
+ "id": "cn--zh--e9604f11c38111e796b935f60bf025b7",
+ "title": "如何设计厨房",
+ "name": "如何设计厨房_SEO",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "如何设计厨房",
+   "texts": [
+    "<p><strong>梦想和设计</strong></p>\n<p>设计你的厨房，将你的创意和梦想付诸实践。你需要考虑很多问题，比如冰箱放在哪儿，或者需要多少抽屉。因此我们提供了工具和视频，可以帮助你选定理想的设计。如果你需要获取专业意见，我们的厨房设计师可以通过网络、或在店内为你提供全程协助。</p>",
+    "如何设计厨房",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/7b/76/7b76019f8052b4dcc976de84ac2b00c8.png"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/7b/76/7b76019f8052b4dcc976de84ac2b00c8.png",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Hero-如何设计厨房"
+   }
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Horizontal Line-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2><strong>测量</strong></h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-video-link",
+   "title": null,
+   "texts": [
+    "https://v.youku.com/v_show/id_XMjY1MzMxMzk0MA==.html?spm=a2hww.20027244.m_250036.5~5!2~5~5!2~5~5~A",
+    "<p><a href=\"../rooms/preview-8a4ee751c46411e79d02ffe879bc5c80\">观看视频，了解我们如何向你提供测量服务！</a></p>",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "https://v.youku.com/v_show/id_XMjY1MzMxMzk0MA==.html?spm=a2hww.20027244.m_250036.5~5!2~5~5!2~5~5~A",
+     "text": "\n<p><a href=\"../rooms/preview-8a4ee751c46411e79d02ffe879bc5c80\">观看视频，了解我们如何向你提供测量服务！</a></p>\n"
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Video (link)-"
+   }
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Horizontal Line-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2><strong>选择产品</strong></h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/31/91/31911ec2477c643b18e62e2584747264.png"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/31/91/31911ec2477c643b18e62e2584747264.png",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Image(video)-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>没有这些产品，你的厨房就不算完整。查看你已经拥有的产品：<a href=\"../rooms/chu2-fang2-chu2-gui4-he2-qian2-ban3-48b0e0a1c37911e796b935f60bf025b7\">储物柜和门</a>、<a href=\"../rooms/chu2-fang2-cao1-zuo4-tai2-mian4-f26b7e12c6c411e788b1d985fdb76ee8\">操作台面</a>、<a href=\"../rooms/preview-c6080628c51111e79d02ffe879bc5c80\">家电</a>、<a href=\"../rooms/mi3-duo1-chu2-fang2-long2-tou2-he2-shui3-cao2-de64f178c6bf11e788b1d985fdb76ee8\">水槽和水龙头</a>、<a href=\"../rooms/chu2-fang2-nei4-zhi4-zhao4-ming2-f78f257dc51811e79d02ffe879bc5c80\">厨房照明</a>、<a href=\"../rooms/chu2-fang2-nei4-pei4-jian4-080687dcc50a11e79d02ffe879bc5c80\">内部配件</a>。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Horizontal Line-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2><strong>开始设计</strong></h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-video-link",
+   "title": null,
+   "texts": [
+    "https://v.youku.com/v_show/id_XMjY1MzMzNDAyMA==.html?spm=a2hww.20027244.m_250036.5~5!2~5~5!2~5~5~A",
+    "<p>开始实现你梦想中的厨房。使用宜家家居设计3D工具开始设计你的厨房。</p>",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "https://v.youku.com/v_show/id_XMjY1MzMzNDAyMA==.html?spm=a2hww.20027244.m_250036.5~5!2~5~5!2~5~5~A",
+     "text": "\n<p>开始实现你梦想中的厨房。使用宜家家居设计3D工具开始设计你的厨房。</p>\n"
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Video (link)-"
+   }
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Horizontal Line-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2><strong>检查你的设计和订单</strong></h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-video-link",
+   "title": null,
+   "texts": [
+    "https://v.youku.com/v_show/id_XMjY1MzMxOTI5Mg==.html?spm=a2hww.20027244.m_250036.5~5!2~5~5!2~5~5~A",
+    "<p>你可前往商场、访问网站或者给我们打电话，通过任何合适的方式来订购厨房服务。<br />电话：400-800-2345</p>",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "https://v.youku.com/v_show/id_XMjY1MzMxOTI5Mg==.html?spm=a2hww.20027244.m_250036.5~5!2~5~5!2~5~5~A",
+     "text": "\n<p>你可前往商场、访问网站或者给我们打电话，通过任何合适的方式来订购厨房服务。<br />电话：400-800-2345</p>\n"
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Video (link)-"
+   }
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Horizontal Line-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2><strong>选择服务</strong></h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/2c/e1/2ce1d52e00c763ba26b9b9e33e9b9373.png"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/2c/e1/2ce1d52e00c763ba26b9b9e33e9b9373.png",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Image(video)-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>宜家厨房的设计独具匠心，让你能够自行安装，但我们也能随时为你提供协助，点击查看<a href=\"https://www.ikea.cn/cn/zh/customer-service/wo3-men2-de-fu2-wu4-pub8e830e11\">所有服务</a>。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Horizontal Line-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2><strong>送货</strong></h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/c9/54/c9540d2c20b2cabe8b64d54fea39ca9e.png"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/c9/54/c9540d2c20b2cabe8b64d54fea39ca9e.png",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Image(video)-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>如果你自己无法将厨房带回家，那也不是问题，我们提供专业又礼貌的服务，竭尽所能在您最方便的时间把货送到您家。我们不仅可以送到门口，更能将家具搬到您指定的房间内。<br /><br /><strong>主要特色：</strong><br />&bull; 选择送货时段。<br />&bull; 商场主要市场区送货区域内0-3日可送达。<br />&bull; 可在非工作时间送货。<br />&bull; 商场主要市场区（不仅限于工作日）一周送货至少六天。<br />&bull; 商品可送至指定房间。<br />&bull; 可在运输柜台预约送货。<br />&bull; 仅收取合理费用。<br /><br />欲知更多详情，请联系<a href=\"https://www.ikea.cn/cn/zh/stores/\">当地商场</a>。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Horizontal Line-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2><strong>安装</strong></h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-video-link",
+   "title": null,
+   "texts": [
+    "https://v.youku.com/v_show/id_XMjY1MzMwOTcwNA==.html?spm=a2hww.20027244.m_250036.5~5!2~5~5!2~5~5~A",
+    "<p>有了宜家提供的厨房安装服务，安装新厨房方便省时，您完全无需操心。从头至尾的全包服务，包括橱柜门、抽屉面板、内置件、工作台、燃气和电器设备，甚至厨房水槽等所有物品的组装和安装。我们以最高行业标准安装您的厨房。所有包装均拆除并以保证环境可持续性的方式处理。<br /><br /><strong>主要特色：</strong><br />&bull; 所有橱柜的组装和安装。<br />&bull; 安装台面，包括水槽和炉灶的开孔。<br />&bull; 安装并连接水槽、水龙头和下水管。<br />&bull; 安装并连接宜家电气和燃气设备。<br />&bull; 安装并连接宜家操作台灯具<br />&bull; 安装侧板、把手和内置件（搁板、抽屉等）。<br />&bull; 带走所有包装（除非顾客希望保留）。<br />&bull; 我们保证安装人员技术精湛，安装效果一流。<br />&bull; 仅收取合理费用。<br />*不含橱柜改装，&ldquo;吧台&rdquo;安装，水电煤的连接装置或插口的安装/移动。<br /><br />欲知更多详情，请联系<a href=\"https://www.ikea.cn/cn/zh/stores/\">当地商场</a>。</p>",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "https://v.youku.com/v_show/id_XMjY1MzMwOTcwNA==.html?spm=a2hww.20027244.m_250036.5~5!2~5~5!2~5~5~A",
+     "text": "\n<p>有了宜家提供的厨房安装服务，安装新厨房方便省时，您完全无需操心。从头至尾的全包服务，包括橱柜门、抽屉面板、内置件、工作台、燃气和电器设备，甚至厨房水槽等所有物品的组装和安装。我们以最高行业标准安装您的厨房。所有包装均拆除并以保证环境"
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Video (link)-"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "button",
+    "返回厨房的主页",
+    "secondary"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Link - button or text-"
+   }
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Horizontal Line-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h4><strong>你可能也想看</strong></h4>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--2016b3c1b34a11e7b23503ef832e0d7f",
+    "/rooms/kitchen/how-to/chufang-pub2016b3c1",
+    "page",
+    "厨房订购指南",
+    "本选购厨房4步指南将帮助你打造梦想中的厨房。从测量和设计，到订购和安装，该指南在你厨房选购历程中的每一步都将给予你指引。当然，如果你不能或不想全程亲力亲为也毫无问题，我们的测量、设计、付款、送货和安装服务就是为了让你的生活更加便捷而生。",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fkitchen%2Fhow-to%2Fchufang-pub2016b3c1&key=cn--zh--2016b3c1b34a11e7b23503ef832e0d7f"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/3d/f8/3df823e83d08716228f531ce5374b7e3.jpg",
+    "https://file.app.ikea.cn/images/cc/30/cc30c1dab23df69af5fb44c506071997.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/3d/f8/3df823e83d08716228f531ce5374b7e3.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/cc/30/cc30c1dab23df69af5fb44c506071997.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Page List-"
+   }
+  }
+ ]
+}

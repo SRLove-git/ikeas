@@ -1,0 +1,121 @@
+{
+ "url": "/cn/zh/this-is-ikea/about-us/tong2-yi1-pin3-pai2-duo1-jia1-gong1-si1-pub07af8e71",
+ "family": "this-is-ikea",
+ "id": "cn--zh--07af8e7164c911e880763bb85d270ddb",
+ "title": "同一品牌，多家公司",
+ "name": "M20191_One_brand_PF_CT",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "同一品牌，多家公司",
+   "texts": [
+    "宜家是一个业务遍及全球的知名品牌，有很大一部分宜家产品都是用木材打造的。",
+    "<p>宜家品牌代表着我们的一言一行，并所有宜家零售商和其他宜家企业紧密联系在一起。</p>\n<p>把我们的产品传递给大众是一项挑战，因此我们采取了一种叫做&ldquo;特许经营&rdquo;的商业模式。特许经营制度让我们得以在保护宜家理念的同时实现国际化扩张。Inter IKEA Systems B.V.是宜家特许经营授权商，它不断发展宜家理念，确保其在所有市场贯彻落实。特许经营商负责运营日常零售业务，并为此支付特许费。</p>",
+    "同一品牌，多家公司",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/b8/9e/b89ec5783ad8db673f99abdd6f6e5444.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/b8/9e/b89ec5783ad8db673f99abdd6f6e5444.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2><strong>我们的特许经营制度</strong></h2>\n<p>Inter IKEA Systems B.V.是宜家理念的所有者和宜家在全球的特许经营授权商，同时也委任其他宜家企业来负责开发产品系列，管理产品供应和企业沟通事宜。我们与宜家特许经营商共同努力改进和发展宜家，让宜家与人们的生活更紧密地联系在一起，赋予人们更多灵感。</p>\n<h2><strong>宜家特许经营商</strong></h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "宜家是一个品牌，但它由许多不同的公司和特许经销商构成。",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/d3/e2/d3e232e017443f15ae2c56e89461c9ea.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/d3/e2/d3e232e017443f15ae2c56e89461c9ea.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p><em>上述清单简单列举了在一个或个市场经营宜家零售业务的公司或集团。上面列出的公司或集团名并不代表这些特许经营商与Inter IKEA Systems B.V.签署特许经营协议时使用的公司法定名称。</em></p>\n<p><em>*INGKA指英格卡控股公司及其控制的实体。</em></p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>你还可能喜欢</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--ad29a98164bf11e880763bb85d270ddb",
+    "/this-is-ikea/about-us/our-heritage-pubad29a981",
+    "page",
+    "我们的历史",
+    "二十世纪40年代，在瑞典的一个小镇，一位富有创业精神的年轻人希望为世界各地的人们创造更美好的生活，宜家就此诞生。在此处了解完整的故事。",
+    "ikea://cms/page-compatible-web?url=%2Fthis-is-ikea%2Fabout-us%2Four-heritage-pubad29a981&key=cn--zh--ad29a98164bf11e880763bb85d270ddb"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/558f842846a6fa1b/webimage-PX000263-crop002.png",
+    "https://file.app.ikea.cn/images/2f/b6/2fb651423076bae77560e92553b9ec5f.jpg",
+    "https://file.app.ikea.cn/images/1b/59/1b590a58b69c0d8e284a4a6c49436de3.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/558f842846a6fa1b/webimage-PX000263-crop002.png",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/2f/b6/2fb651423076bae77560e92553b9ec5f.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/1b/59/1b590a58b69c0d8e284a4a6c49436de3.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  }
+ ]
+}

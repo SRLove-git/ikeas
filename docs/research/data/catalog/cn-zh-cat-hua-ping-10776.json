@@ -1,0 +1,412 @@
+{
+ "url": "/cn/zh/cat/hua-ping-10776",
+ "id": "hua-ping-10776",
+ "name": "宜家花瓶-花瓶和碗",
+ "description": "查看我们的花瓶和装饰花瓶套装产品系列。你可以从多种尺寸和风格的花瓶中选择一款，如透明玻璃花瓶和染色玻璃花瓶等，既适合搭配单支植物，也可以插放花束。找到适合个人风格的颜色和设计。",
+ "total": 91,
+ "products": [
+  {
+   "id": "80338578",
+   "name": "VILJESTARK 维利斯塔",
+   "price": 3.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/viljestark-wei-li-si-ta-hua-ping-tou-ming-bo-li__0640433_pe699813_s4.jpg",
+   "productType": "花瓶",
+   "designText": "透明玻璃",
+   "measureText": "17 厘米",
+   "url": null,
+   "seoSlug": "viljestark-wei-li-si-ta-hua-ping-tou-ming-bo-li"
+  },
+  {
+   "id": "50637734",
+   "name": "GLANSGRAN 格兰斯朗",
+   "price": 99.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/glansgran-ge-lan-si-lang-hua-ping-qian-lu__1513285_pe1010726_s4.jpg",
+   "productType": "花瓶",
+   "designText": "浅绿",
+   "measureText": "23 厘米",
+   "url": null,
+   "seoSlug": "glansgran-ge-lan-si-lang-hua-ping-qian-lu"
+  },
+  {
+   "id": "50610541",
+   "name": "PÅSKÖTRÄD 帕斯卡莱",
+   "price": 49.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/paskoetraed-pa-si-qia-lai-hua-ping-bo-li-qian-he-se__1432547_pe982830_s4.jpg",
+   "productType": "花瓶",
+   "designText": "玻璃/浅褐色",
+   "measureText": "20 厘米",
+   "url": null,
+   "seoSlug": "paskoetraed-pa-si-qia-lai-hua-ping-bo-li-qian-he-se"
+  },
+  {
+   "id": "30572088",
+   "name": "SKOGSTUNDRA 斯古通德",
+   "price": 99.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/skogstundra-si-gu-tong-de-hua-ping-lu-se__1205906_pe907279_s4.jpg",
+   "productType": "花瓶",
+   "designText": "绿色",
+   "measureText": "15 厘米",
+   "url": null,
+   "seoSlug": "skogstundra-si-gu-tong-de-hua-ping-lu-se"
+  },
+  {
+   "id": "30630578",
+   "name": "PÄRLHÄGG 派尔海格",
+   "price": 79.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/paerlhaegg-pai-er-hai-ge-hua-ping-hong-he-se__1515346_pe1011375_s4.jpg",
+   "productType": "花瓶",
+   "designText": "红褐色",
+   "measureText": "22 厘米",
+   "url": null,
+   "seoSlug": "paerlhaegg-pai-er-hai-ge-hua-ping-hong-he-se"
+  },
+  {
+   "id": "50572087",
+   "name": "SKOGSTUNDRA 斯古通德",
+   "price": 149,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/skogstundra-si-gu-tong-de-hua-ping-hei-se__1205908_pe907281_s4.jpg",
+   "productType": "花瓶",
+   "designText": "黑色",
+   "measureText": "27 厘米",
+   "url": null,
+   "seoSlug": "skogstundra-si-gu-tong-de-hua-ping-hei-se"
+  },
+  {
+   "id": "70559551",
+   "name": "KOPPARBJÖRK 蔻帕布约",
+   "price": 79.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/kopparbjoerk-kou-pa-bu-yue-hua-ping-chun-huang-se__1190218_pe904950_s4.jpg",
+   "productType": "花瓶",
+   "designText": "纯黄色",
+   "measureText": "21 厘米",
+   "url": null,
+   "seoSlug": "kopparbjoerk-kou-pa-bu-yue-hua-ping-chun-huang-se"
+  },
+  {
+   "id": "40632789",
+   "name": "ROSENMÅS 罗森摩斯",
+   "price": 24.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/rosenmas-luo-sen-mo-si-hua-ping-lu-se__1463824_pe994537_s4.jpg",
+   "productType": "花瓶",
+   "designText": "绿色",
+   "measureText": "18 厘米",
+   "url": null,
+   "seoSlug": "rosenmas-luo-sen-mo-si-hua-ping-lu-se"
+  },
+  {
+   "id": "10637726",
+   "name": "PÄRLHÄGG 派尔海格",
+   "price": 29.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/paerlhaegg-pai-er-hai-ge-hua-ping-dan-fen-hong-se__1514346_pe1010998_s4.jpg",
+   "productType": "花瓶",
+   "designText": "淡粉红色",
+   "measureText": "14 厘米",
+   "url": null,
+   "seoSlug": "paerlhaegg-pai-er-hai-ge-hua-ping-dan-fen-hong-se"
+  },
+  {
+   "id": "00537671",
+   "name": "RÄFFELBJÖRK 拉弗比约",
+   "price": 199,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/raeffelbjoerk-la-fu-bi-yue-hua-ping-zhen-zhu-mu-se__1115553_pe872281_s4.jpg",
+   "productType": "花瓶",
+   "designText": "珍珠母色",
+   "measureText": "20 厘米",
+   "url": null,
+   "seoSlug": "raeffelbjoerk-la-fu-bi-yue-hua-ping-zhen-zhu-mu-se"
+  },
+  {
+   "id": "10442192",
+   "name": "TONSÄTTA 通赛塔",
+   "price": 79.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/tonsaetta-tong-sai-ta-hua-ping-lan-se__0704342_pe725333_s4.jpg",
+   "productType": "花瓶",
+   "designText": "蓝色",
+   "measureText": "21 厘米",
+   "url": null,
+   "seoSlug": "tonsaetta-tong-sai-ta-hua-ping-lan-se"
+  },
+  {
+   "id": "80611940",
+   "name": "DOFTRIPS 多夫利普",
+   "price": 79.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/doftrips-duo-fu-li-pu-hua-ping-3-jian-tao-duo-se__1507633_pe1009370_s4.jpg",
+   "productType": "花瓶，3件套",
+   "designText": "多色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "doftrips-duo-fu-li-pu-hua-ping-3-jian-tao-duo-se"
+  },
+  {
+   "id": "10618558",
+   "name": "IKEA PS 2026",
+   "price": 249,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/ikea-ps-2026-hua-ping-bo-li-lan-se-lu-se__1477282_pe999152_s4.jpg",
+   "productType": "花瓶",
+   "designText": "玻璃/蓝色/绿色",
+   "measureText": "38 厘米",
+   "url": null,
+   "seoSlug": "ikea-ps-2026-hua-ping-bo-li-lan-se-lu-se"
+  },
+  {
+   "id": "00583719",
+   "name": "KÄLLARHALS 凯拉哈斯",
+   "price": 69.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/kaellarhals-kai-la-ha-si-hua-ping-cheng-se__1311528_pe940024_s4.jpg",
+   "productType": "花瓶",
+   "designText": "橙色",
+   "measureText": "26 厘米",
+   "url": null,
+   "seoSlug": "kaellarhals-kai-la-ha-si-hua-ping-cheng-se"
+  },
+  {
+   "id": "40392652",
+   "name": "PEPPARKORN 佩帕科恩",
+   "price": 59.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/pepparkorn-pei-pa-ke-en-hua-ping-hui-se__0577477_pe668909_s4.jpg",
+   "productType": "花瓶",
+   "designText": "灰色",
+   "measureText": "17 厘米",
+   "url": null,
+   "seoSlug": "pepparkorn-pei-pa-ke-en-hua-ping-hui-se"
+  },
+  {
+   "id": "00607305",
+   "name": "BLODBJÖRK 布鲁比约",
+   "price": 149,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/blodbjoerk-bu-lu-bi-yue-hua-ping-tiao-xing-tu-an-bai-se-huang-se__1394051_pe966386_s4.jpg",
+   "productType": "花瓶",
+   "designText": "条形图案 白色/黄色",
+   "measureText": "25 厘米",
+   "url": null,
+   "seoSlug": "blodbjoerk-bu-lu-bi-yue-hua-ping-tiao-xing-tu-an-bai-se-huang-se"
+  },
+  {
+   "id": "80590495",
+   "name": "STOCKHOLM 2025 斯德哥尔摩 2025",
+   "price": 199,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/stockholm-2025-si-de-ge-er-mo-2025-hua-ping-hei-se__1359447_pe954182_s4.jpg",
+   "productType": "花瓶",
+   "designText": "黑色",
+   "measureText": "32 厘米",
+   "url": null,
+   "seoSlug": "stockholm-2025-si-de-ge-er-mo-2025-hua-ping-hei-se"
+  },
+  {
+   "id": "00612378",
+   "name": "DOFTRIPS 多夫利普",
+   "price": 69.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/doftrips-duo-fu-li-pu-hua-ping-tou-ming-bo-li__1461319_pe994155_s4.jpg",
+   "productType": "花瓶",
+   "designText": "透明玻璃",
+   "measureText": "18 厘米",
+   "url": null,
+   "seoSlug": "doftrips-duo-fu-li-pu-hua-ping-tou-ming-bo-li"
+  },
+  {
+   "id": "50611041",
+   "name": "BERGKÖRSBÄR 贝雪斯拜",
+   "price": 29.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/bergkoersbaer-bei-xue-si-bai-hua-ping-bo-li-lu-se__1450811_pe990432_s4.jpg",
+   "productType": "花瓶",
+   "designText": "玻璃/绿色",
+   "measureText": "20 厘米",
+   "url": null,
+   "seoSlug": "bergkoersbaer-bei-xue-si-bai-hua-ping-bo-li-lu-se"
+  },
+  {
+   "id": "10601628",
+   "name": "MÄVINN 马维宁",
+   "price": 249,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/maevinn-ma-wei-ning-hua-ping-lu-se__1382336_pe962259_s4.jpg",
+   "productType": "花瓶",
+   "designText": "绿色",
+   "measureText": "19 厘米",
+   "url": null,
+   "seoSlug": "maevinn-ma-wei-ning-hua-ping-lu-se"
+  },
+  {
+   "id": "70637728",
+   "name": "BLODBJÖRK 布鲁比约",
+   "price": 99.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/blodbjoerk-bu-lu-bi-yue-hua-ping-mi-huang-se__1527445_pe1014164_s4.jpg",
+   "productType": "花瓶",
+   "designText": "米黄色",
+   "measureText": "25 厘米",
+   "url": null,
+   "seoSlug": "blodbjoerk-bu-lu-bi-yue-hua-ping-mi-huang-se"
+  },
+  {
+   "id": "00511954",
+   "name": "KONSTFULL 孔思福",
+   "price": 99.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/konstfull-kong-si-fu-hua-ping-lu-he-se__1030420_pe836274_s4.jpg",
+   "productType": "花瓶",
+   "designText": "绿褐色",
+   "measureText": "16 厘米",
+   "url": null,
+   "seoSlug": "konstfull-kong-si-fu-hua-ping-lu-he-se"
+  },
+  {
+   "id": "60637743",
+   "name": "KORNSPARV 科斯帕夫",
+   "price": 29.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/kornsparv-ke-si-pa-fu-hua-ping-lu-se__1514296_pe1011012_s4.jpg",
+   "productType": "花瓶",
+   "designText": "绿色",
+   "measureText": "12 厘米",
+   "url": null,
+   "seoSlug": "kornsparv-ke-si-pa-fu-hua-ping-lu-se"
+  },
+  {
+   "id": "10309782",
+   "name": "BEGÄRLIG 贝加利",
+   "price": 149,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/begaerlig-bei-jia-li-hua-ping-tou-ming-bo-li__0637227_pe698196_s4.jpg",
+   "productType": "花瓶",
+   "designText": "透明玻璃",
+   "measureText": "29 厘米",
+   "url": null,
+   "seoSlug": "begaerlig-bei-jia-li-hua-ping-tou-ming-bo-li"
+  },
+  {
+   "id": "80637737",
+   "name": "FRÖVÄXT 弗洛维希",
+   "price": 29.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/froevaext-fu-luo-wei-xi-hua-ping-huang-se__1513249_pe1010721_s4.jpg",
+   "productType": "花瓶",
+   "designText": "黄色",
+   "measureText": "14 厘米",
+   "url": null,
+   "seoSlug": "froevaext-fu-luo-wei-xi-hua-ping-huang-se"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "80338578",
+   "type": "ART",
+   "fullId": "80338578"
+  },
+  {
+   "id": "50637734",
+   "type": "ART",
+   "fullId": "50637734"
+  },
+  {
+   "id": "50610541",
+   "type": "ART",
+   "fullId": "50610541"
+  },
+  {
+   "id": "30572088",
+   "type": "ART",
+   "fullId": "30572088"
+  },
+  {
+   "id": "30630578",
+   "type": "ART",
+   "fullId": "30630578"
+  },
+  {
+   "id": "50572087",
+   "type": "ART",
+   "fullId": "50572087"
+  },
+  {
+   "id": "70559551",
+   "type": "ART",
+   "fullId": "70559551"
+  },
+  {
+   "id": "40632789",
+   "type": "ART",
+   "fullId": "40632789"
+  },
+  {
+   "id": "10637726",
+   "type": "ART",
+   "fullId": "10637726"
+  },
+  {
+   "id": "00537671",
+   "type": "ART",
+   "fullId": "00537671"
+  },
+  {
+   "id": "10442192",
+   "type": "ART",
+   "fullId": "10442192"
+  },
+  {
+   "id": "80611940",
+   "type": "ART",
+   "fullId": "80611940"
+  },
+  {
+   "id": "10618558",
+   "type": "ART",
+   "fullId": "10618558"
+  },
+  {
+   "id": "00583719",
+   "type": "ART",
+   "fullId": "00583719"
+  },
+  {
+   "id": "40392652",
+   "type": "ART",
+   "fullId": "40392652"
+  },
+  {
+   "id": "00607305",
+   "type": "ART",
+   "fullId": "00607305"
+  },
+  {
+   "id": "80590495",
+   "type": "ART",
+   "fullId": "80590495"
+  },
+  {
+   "id": "00612378",
+   "type": "ART",
+   "fullId": "00612378"
+  },
+  {
+   "id": "50611041",
+   "type": "ART",
+   "fullId": "50611041"
+  },
+  {
+   "id": "10601628",
+   "type": "ART",
+   "fullId": "10601628"
+  },
+  {
+   "id": "70637728",
+   "type": "ART",
+   "fullId": "70637728"
+  },
+  {
+   "id": "00511954",
+   "type": "ART",
+   "fullId": "00511954"
+  },
+  {
+   "id": "60637743",
+   "type": "ART",
+   "fullId": "60637743"
+  },
+  {
+   "id": "10309782",
+   "type": "ART",
+   "fullId": "10309782"
+  },
+  {
+   "id": "80637737",
+   "type": "ART",
+   "fullId": "80637737"
+  }
+ ]
+}

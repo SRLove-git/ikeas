@@ -1,0 +1,146 @@
+{
+ "url": "/cn/zh/rooms/bedroom/gallery/shu1-shi4-de-wo4-shi4-pubc5697384",
+ "family": "rooms",
+ "id": "cn--zh--c569738481ef11e99e348f0915c0164b",
+ "title": "舒适的卧室",
+ "name": "20201_rmbe04a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "舒适的卧室"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "这间昏暗而舒适的卧室里布满了绿色和蓝色的纺织品，同时还配有吸音饰板和舒适的地毯。",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "60446376"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/48/43/4843208e3164b348c16b0b125875ddf7.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/48/43/4843208e3164b348c16b0b125875ddf7.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>柔软的纺织品，舒适的地毯，以及精心设计的照明，这间宁静的蓝色调房间，一定能够让你在踏进房间的那一刻放松下来。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "卧室整体为蓝色，窗边摆有一张床，上面配有深绿色和蓝色纺织品。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "00432933"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/07/6b/076b472dcf8d77930835d90a5645cb82.jpg",
+    "https://file.app.ikea.cn/images/1b/39/1b39d41f76a0ce2edea2a0046860e9dc.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/07/6b/076b472dcf8d77930835d90a5645cb82.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/1b/39/1b39d41f76a0ce2edea2a0046860e9dc.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "摆着闹钟和装饰品的黑色桌子靠床而立，床上覆有深绿色床用纺织品。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "70446743"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/72/d8/72d888febf9b20451f49ef02612e26ac.jpg",
+    "https://file.app.ikea.cn/images/3f/50/3f5075e47cfa933852b71114a199fd9a.jpg",
+    "https://file.app.ikea.cn/images/64/e3/64e398ef5cff9d5e420d3ca029e2dfa8.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/72/d8/72d888febf9b20451f49ef02612e26ac.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/3f/50/3f5075e47cfa933852b71114a199fd9a.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/64/e3/64e398ef5cff9d5e420d3ca029e2dfa8.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "蓝绿色卧室中，灰色吸音饰板安装在天花板上，悬挂在床周围。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "00427366"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/ef/eb/efeb2edf456ad63a9313e584a982a536.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/ef/eb/efeb2edf456ad63a9313e584a982a536.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "60446376",
+    "80362945",
+    "70303428",
+    "00432933",
+    "90423627"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

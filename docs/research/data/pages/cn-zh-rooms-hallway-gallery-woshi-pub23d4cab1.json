@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/hallway/gallery/woshi-pub23d4cab1",
+ "family": "rooms",
+ "id": "cn--zh--23d4cab1cf7911e78e0a0bf79e0fa98f",
+ "title": "为你提供便利。为儿童提供便利。",
+ "name": "20174-coha02a_PF_CT_SEO_QA",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "为你提供便利。为儿童提供便利。",
+   "texts": [
+    "亮黄色和白色的盥洗室内放着白色衣架和鞋架。",
+    "为你提供便利。为儿童提供便利。",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/87/64/8764a2390c35e3708d57a8b0214b88f3.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/87/64/8764a2390c35e3708d57a8b0214b88f3.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "60334760",
+    "20334757",
+    "s79217068",
+    "60297003",
+    "10320322"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

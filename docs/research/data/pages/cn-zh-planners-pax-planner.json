@@ -1,0 +1,39 @@
+{
+ "url": "/cn/zh/planners/pax-planner",
+ "family": "planners",
+ "id": "cn--zh--81ef1d745997408e8323222d3514cc87",
+ "title": "宜家PAX 帕克思 衣柜设计工具 - IKEA",
+ "name": "宜家PAX 帕克思 衣柜设计工具",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-planner",
+   "title": null,
+   "texts": [
+    "IFRAME_EMBED",
+    "ALL",
+    "https://www.ikea.cn/addon-app/storageone/pax/web/latest/?range=pax&uiPlatform=web&locale=zh-CN#/",
+    "PAX_IPEX",
+    "小技巧：完成设计后点击添加至购物袋，以后可在“我的”-“我的设计方案“页面中查看或编辑设计方案。在宜家商场或线上设计工具中输入6位字符代码也可以重新打开设计。",
+    "完成设计后建议加购，方案将自动保存到“我的设计方案”"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20230214/03a2fddac95e4187934e644e26a39be1.png?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20230214/916387708ad143b48831cdb04c9d4cc8.png?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20230214/03a2fddac95e4187934e644e26a39be1.png?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20230214/916387708ad143b48831cdb04c9d4cc8.png?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Planner Tool-"
+   }
+  }
+ ]
+}

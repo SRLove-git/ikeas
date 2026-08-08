@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/outdoor/gallery/yangtai-pub03b1d251",
+ "family": "rooms",
+ "id": "cn--zh--03b1d251e63511e7a19a1b4caad12135",
+ "title": "一小片天堂",
+ "name": "20183-cood05a_PF_CT_SEO",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "一小片天堂",
+   "texts": [
+    "小阳台上摆放着矮桌、阳伞和 SOLLERÖN 索勒伦 棕色/米色现代户外双人沙发。",
+    "一小片天堂",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/1b/ee/1bee98986cb87029252c604cacdab36d.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/1b/ee/1bee98986cb87029252c604cacdab36d.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s59252374",
+    "50392741",
+    "s09267622",
+    "30313132",
+    "50258672"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

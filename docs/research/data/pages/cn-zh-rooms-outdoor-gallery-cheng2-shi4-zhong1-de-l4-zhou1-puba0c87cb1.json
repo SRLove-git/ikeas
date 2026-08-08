@@ -1,0 +1,45 @@
+{
+ "url": "/cn/zh/rooms/outdoor/gallery/cheng2-shi4-zhong1-de-l4-zhou1-puba0c87cb1",
+ "family": "rooms",
+ "id": "cn--zh--a0c87cb1284c11e98e3dd53ddd62671b",
+ "title": "城市中的绿洲",
+ "name": "20194_rmod01a_CT",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "城市中的绿洲",
+   "texts": [
+    "宜家 BRUSEN 布鲁森 红色三人户外沙发采用涂粉末漆钢制成，结实耐用，易于护理。搭配椅垫和装饰靠垫，倍加舒适。",
+    "<p>邀请朋友到你的阳台上体验真实的户外！绿植再加上舒适的座椅和精巧的储物解决方案，使这里成为整个夏天消磨时光的好去处。</p>",
+    "城市中的绿洲",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/0c/d7/0cd7d8c2256bc7a898f22c31cc6f2586.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/0c/d7/0cd7d8c2256bc7a898f22c31cc6f2586.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "70424147",
+    "80336466",
+    "50339206",
+    "s79287565",
+    "30428326"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

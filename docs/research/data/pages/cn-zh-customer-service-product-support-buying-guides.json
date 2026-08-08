@@ -1,0 +1,310 @@
+{
+ "url": "/cn/zh/customer-service/product-support/buying-guides",
+ "family": "customer-service",
+ "id": "cn--zh--4580be8f519e11eb9b83edc5ef64e38c",
+ "title": "购物指南",
+ "name": "购物指南_PC (without draft)",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "购物指南",
+   "texts": [
+    "购物指南",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/eb/a2/eba2adbf34bdae223d016232921d9e52.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/eb/a2/eba2adbf34bdae223d016232921d9e52.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "97084c65a54545fc963987726265abe0"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>购物指南可以帮助你计划、购买和打造最流行的家具系统。你需要安装Adobe Acrobat Reader，才能查看这些购物指南。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "0bf573cf0b9b41a187e0442635f60fdd"
+   }
+  },
+  {
+   "type": "anchor-navigation",
+   "title": null,
+   "texts": [
+    "TEXT",
+    "YES",
+    "厨房",
+    "2bf4e70370e94e91bcc39846e6a70922",
+    "浴室",
+    "42738d3d7205492f955f1d9fb7635f34"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-页面导航-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>厨房</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "e4ff8d90794946efbaed80df314c72f5"
+   }
+  },
+  {
+   "type": "pub-pdf-list",
+   "title": null,
+   "texts": [
+    "ANGSJON_buying_guide_CN.pdf",
+    "PDF"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-PDF文件列表 PDF List-"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "<p><a href=\"https://file.app.ikea.cn/cms/u/20240930/2693335247944c26bbe4de45efd3c26a.pdf\">宜家厨房购物指南</a></p>",
+    "pub-text"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20240903/f7494a8523a44bd7ac8acbee3f4f8aaa.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20240903/f7494a8523a44bd7ac8acbee3f4f8aaa.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "厨房指南"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>浴室</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "b2c552cc7ef64483941c1c9823c06ca6"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "<p><a href=\"https://file.app.ikea.cn/cms/u/20240509/5a354d85476942f5b44d100f83768ead.pdf\">&Auml;NGSJ&Ouml;N 安雪恩 浴室用品系列购物指南(PDF)</a></p>\n<p><a href=\"https://file.app.ikea.cn/cms/u/20240509/4a796f4aa06545b6ae3119c53724c4b0.pdf\">HAVB&Auml;CK 哈弗贝克 浴室家具系列购物指南(PDF)</a></p>\n<p><a href=\"https://file.app.ikea.cn/cms/u/20240509/709b88f3ad3a4b1085ad42db7114e0cc.pdf\">T&Auml;NNFORSEN 坦弗森 浴室用品系列购物指南(PDF)</a></p>",
+    "pub-text"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20241030/11954931a8624afba3eaf84dadca5ba7.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20241030/11954931a8624afba3eaf84dadca5ba7.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "浴室-PC"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>客厅</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "e7edf80b442d466d85df9dc3f8b056a8"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "<p><a href=\"https://file.app.ikea.cn/cms/u/20260202/6261d910fc544a4ea9f1231021e36822.pdf\">BEST&Aring; 贝达 储物系列购物指南(PDF)</a></p>",
+    "pub-text"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/08/28/082897b3a37e65acd23ec5265779df59.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/08/28/082897b3a37e65acd23ec5265779df59.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "9bfcb18c295f410490fa73dfb8f303e6"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>户外</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "719561a455964215bebd4c87b376601e"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "two-columns",
+    "column",
+    "NO",
+    "请输入您所需要的文本信息",
+    "pub-image",
+    "IMAGE"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20230503/48760c8c98374d8380e39b133644a588.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20230503/48760c8c98374d8380e39b133644a588.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Columns-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>专业办公室</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "1c5472c5f3ca4f02bf3685e80e6e9a70"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "<p><a href=\"https://file.app.ikea.cn/cms/u/20240923/d621bddd670d46069a72f433ab1d7b3a.pdf\">办公室手册（PDF）</a></p>\n<p><a href=\"https://file.app.ikea.cn/cms/u/20221115/33a18d65c10348da8d6ee08ce5e24f00.pdf?_ga=2.248484231.1436773137.1668383330-888435848.1667959892\">办公空间家居指南（PDF）</a></p>\n<p><a href=\"https://file.app.ikea.cn/cms/u/20240912/a6cd2240c5df4b2e97b7cff4184ed0b1.pdf\">居家座椅、儿童椅、办公椅购物指南（PDF)</a></p>\n<p><a href=\"https://file.app.ikea.cn/cms/u/20230901/06c8be2ba18c4a159afc3e2e6cb27c3b.pdf\">专业办公场所购物指南（PDF）</a></p>\n<p><a href=\"https://file.app.ikea.cn/cms/u/20250905/7c94502492df469487b04424b2bf0e04.p",
+    "pub-text"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/34/8b/348ba2d55f7f9ad803645dd80a10d617.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/34/8b/348ba2d55f7f9ad803645dd80a10d617.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "01a3bc63507043b590a1360183c0c4ce"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>洗衣和清洁用品</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "two-columns",
+    "column",
+    "NO",
+    "请输入您所需要的文本信息",
+    "pub-image",
+    "IMAGE"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20221130/d623ad1820934229808244cf94d64168.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20221130/d623ad1820934229808244cf94d64168.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Columns-"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/customer-service/product-support/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fcustomer-service%2Fproduct-support%2F&key=",
+    "{\"objectId_var\":\"/customer-service/product-support/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "返回产品介绍"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/customer-service/product-support/",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "43a22217b8034679b7e2129c155029eb"
+   }
+  }
+ ]
+}

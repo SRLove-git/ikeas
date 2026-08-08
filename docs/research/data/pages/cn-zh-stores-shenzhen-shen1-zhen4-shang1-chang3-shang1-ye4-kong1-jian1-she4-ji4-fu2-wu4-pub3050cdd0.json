@@ -1,0 +1,112 @@
+{
+ "url": "/cn/zh/stores/shenzhen/shen1-zhen4-shang1-chang3-shang1-ye4-kong1-jian1-she4-ji4-fu2-wu4-pub3050cdd0",
+ "family": "stores",
+ "id": "cn--zh--3050cdd0180011ea9abdb1458c865916",
+ "title": "深圳商场 - 商业空间设计服务",
+ "name": "深圳商场 - 商业空间设计服务",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "深圳商场 - 商业空间设计服务"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/8b/1e/8b1e17bb75107f47148cd547d773bc53.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/8b/1e/8b1e17bb75107f47148cd547d773bc53.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/f2/a6/f2a6c7e31d075d84b0d957a122f25724.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/f2/a6/f2a6c7e31d075d84b0d957a122f25724.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/09/c0/09c08faeb9cba37bb2b600888cae24bd.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/09/c0/09c08faeb9cba37bb2b600888cae24bd.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/81/a3/81a32a2061a623d2ea30965262412491.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/81/a3/81a32a2061a623d2ea30965262412491.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/stores/shenzhen/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fstores%2Fshenzhen%2F&key=",
+    "{\"objectId_var\":\"/stores/shenzhen/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "返回深圳商场首页"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/stores/shenzhen/",
+     "text": ""
+    }
+   ],
+   "settings": null
+  }
+ ]
+}

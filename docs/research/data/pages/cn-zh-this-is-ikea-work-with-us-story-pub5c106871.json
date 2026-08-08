@@ -1,0 +1,116 @@
+{
+ "url": "/cn/zh/this-is-ikea/work-with-us/story-pub5c106871",
+ "family": "this-is-ikea",
+ "id": "cn--zh--5c106871ae2d11e7bee763967dcf9290",
+ "title": "宜家员工故事",
+ "name": "宜家员工故事",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "宜家员工故事",
+   "texts": [
+    "宜家员工的故事",
+    "<p><strong>每一件产品的背后都有一个员工故事</strong></p>\n<p>我们鼓励员工追随自己的热情，尝试新的角色，或在喜欢的岗位上不断成长。只需了解宜家员工的几个故事，你将会发现每一次旅程都很独特，而且收获颇丰。你的宜家之旅将会怎样？</p>",
+    "宜家员工故事",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/b1/a8/b1a811001b8bdef2b4bbd82917fb8f76.png"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/b1/a8/b1a811001b8bdef2b4bbd82917fb8f76.png",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--fbe35290d3e511e78be631fdb97194e0",
+    "/this-is-ikea/work-with-us/employees-pubfbe35290",
+    "page",
+    "Sunny Wei",
+    "松江DC/CDC分拨中心经理，配送服务供应商\n\n“我看到大家互相关心。”",
+    "ikea://cms/page-compatible-web?url=%2Fthis-is-ikea%2Fwork-with-us%2Femployees-pubfbe35290&key=cn--zh--fbe35290d3e511e78be631fdb97194e0"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/29/3f/293f0fa3743c5a18e9c62e51b0c53d42.png",
+    "https://file.app.ikea.cn/images/f1/df/f1df316109811d2d9050dde908a5a65e.png",
+    "https://file.app.ikea.cn/images/ba/0b/ba0b8e9e46beeb77906c9d508355760b.png",
+    "https://file.app.ikea.cn/images/be/61/be61a55a3e527af88c8ba18e2224a21c.png",
+    "https://file.app.ikea.cn/images/cc/4e/cc4e171f2f7906da4808a940f40509e3.png"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/29/3f/293f0fa3743c5a18e9c62e51b0c53d42.png",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/f1/df/f1df316109811d2d9050dde908a5a65e.png",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/ba/0b/ba0b8e9e46beeb77906c9d508355760b.png",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/be/61/be61a55a3e527af88c8ba18e2224a21c.png",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/cc/4e/cc4e171f2f7906da4808a940f40509e3.png",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/e6/f5/e6f5905c4a6977dea0687fb413926d80.png",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/this-is-ikea/work-with-us/working-pubcbeeacf0",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fthis-is-ikea%2Fwork-with-us%2Fworking-pubcbeeacf0&key=cn--zh--cbeeacf01b8011e7baddc741687cd5e5",
+    "{\"objectId_var\":\"/this-is-ikea/work-with-us/working-pubcbeeacf0\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "返回工作在宜家"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/this-is-ikea/work-with-us/working-pubcbeeacf0",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/h5page/?url=https%3A%2F%2Fww8.ikea.com%2Fext%2Fjob%2Fsearch%2Fexternal%2Fcn%2Fzh%2Fhome",
+    "YES",
+    "ikea://default-module/H5?url=https%3A%2F%2Fww8.ikea.com%2Fext%2Fjob%2Fsearch%2Fexternal%2Fcn%2Fzh%2Fhome",
+    "{\"objectId_var\":\"https://ww8.ikea.com/ext/job/search/external/cn/zh/home\",\"objectType_var\":\"default-module/H5\"}",
+    "button",
+    "查看招聘岗位"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/h5page/?url=https%3A%2F%2Fww8.ikea.com%2Fext%2Fjob%2Fsearch%2Fexternal%2Fcn%2Fzh%2Fhome",
+     "text": ""
+    }
+   ],
+   "settings": null
+  }
+ ]
+}

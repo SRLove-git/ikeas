@@ -1,0 +1,60 @@
+{
+ "url": "/cn/zh/cat/kvarnvik-qia-en-wei-ke-xi-lie-21173",
+ "id": "kvarnvik-qia-en-wei-ke-xi-lie-21173",
+ "name": "KVARNVIK 卡恩维克 系列",
+ "description": "为鞋子、衣物和重要的文件找一个新家吧。前往宜家官网，查看价格实惠的 KVARNVIK 卡恩维克 储物盒。这些储物盒采用80%回收纸制成，外层是编织纸绳，有多种造型和尺寸可选，可以收纳从杂志到围巾等一切物品。",
+ "total": 3,
+ "products": [
+  {
+   "id": "90412879",
+   "name": "KVARNVIK 卡恩维克",
+   "price": 79.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/kvarnvik-qia-en-wei-ke-fu-gai-chu-wu-he-hui-se__0713100_pe729249_s4.jpg",
+   "productType": "附盖储物盒",
+   "designText": "灰色",
+   "measureText": "25x35x20 厘米",
+   "url": null,
+   "seoSlug": "kvarnvik-qia-en-wei-ke-fu-gai-chu-wu-he-hui-se"
+  },
+  {
+   "id": "50412876",
+   "name": "KVARNVIK 卡恩维克",
+   "price": 49.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/kvarnvik-qia-en-wei-ke-fu-gai-chu-wu-he-hui-se__0713118_pe729267_s4.jpg",
+   "productType": "附盖储物盒",
+   "designText": "灰色",
+   "measureText": "18x25x15 厘米",
+   "url": null,
+   "seoSlug": "kvarnvik-qia-en-wei-ke-fu-gai-chu-wu-he-hui-se"
+  },
+  {
+   "id": "90466952",
+   "name": "KVARNVIK 卡恩维克",
+   "price": 99.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/kvarnvik-qia-en-wei-ke-fu-gai-chu-wu-he-hui-se__0802187_pe768401_s4.jpg",
+   "productType": "附盖储物盒",
+   "designText": "灰色",
+   "measureText": "32x35x32 厘米",
+   "url": null,
+   "seoSlug": "kvarnvik-qia-en-wei-ke-fu-gai-chu-wu-he-hui-se"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "90412879",
+   "type": "ART",
+   "fullId": "90412879"
+  },
+  {
+   "id": "50412876",
+   "type": "ART",
+   "fullId": "50412876"
+  },
+  {
+   "id": "90466952",
+   "type": "ART",
+   "fullId": "90466952"
+  }
+ ]
+}

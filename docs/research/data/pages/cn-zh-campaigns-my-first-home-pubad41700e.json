@@ -1,0 +1,1153 @@
+{
+ "url": "/cn/zh/campaigns/my-first-home-pubad41700e",
+ "family": "campaigns",
+ "id": "cn--zh--ad41700eeede4a2ea30ec592ca0696a4",
+ "title": "我的新生活",
+ "name": "夏日小改变 开启新生活",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "image",
+   "title": null,
+   "texts": [
+    "NO"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20220413/1b46bc62e93741e68aed952500cf5cc8.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220413/1b46bc62e93741e68aed952500cf5cc8.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "大图-toppicture"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "two-columns",
+    "column",
+    "<h1>夏日小改变<br />开启我的新生活</h1>",
+    "pub-text",
+    "NO",
+    "<p>夏天总是让人充满期待。</p>\n<p>无论你是即将毕业的社会新人，还是家有小朋友的爸爸妈妈，一起来为即将到来的夏日改造，开启属于自己的新生活！</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "columns-夏日小改变 开启我的新生活\""
+   }
+  },
+  {
+   "type": "pub-visual-pill-slider",
+   "title": null,
+   "texts": [
+    "一只手正在调节GLYPEN 格吕彭 厨房水龙头的水流大小，水龙头采用不锈钢制成，旁边放着TÅRTSMET 托米特 洗盘刷",
+    "/h5page/?url=%23bad3ce01b653457e93224fa2fc4259cc",
+    "NO",
+    "ikea://default-module/H5?url=%23bad3ce01b653457e93224fa2fc4259cc",
+    "{\"objectId_var\":\"#bad3ce01b653457e93224fa2fc4259cc\",\"objectType_var\":\"default-module/H5\"}",
+    "多用途客厅"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20220408/3b0cb110199043b0879ac11dddf52667.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220408/c2546a99cdc54cfa8c5988b25dfbfb64.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220408/28ce5ff1bb78416e91d3031113210cdb.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220408/13504c6ab20c4397aafd86e45b1c0d60.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220408/f5cdcba44dea4eb6b11673d579438e35.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/h5page/?url=%23bad3ce01b653457e93224fa2fc4259cc",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220408/3b0cb110199043b0879ac11dddf52667.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/h5page/?url=%2366dca66b65c84753837dce9dde87c998",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220408/c2546a99cdc54cfa8c5988b25dfbfb64.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/h5page/?url=%23318203bf6dc84b498ea7b926a77b455a",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220408/28ce5ff1bb78416e91d3031113210cdb.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "visualpillslider-分类导航"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "two-columns",
+    "column",
+    "<h3>我的新天地</h3>\n<p>离开学校，你是社会新鲜人！</p>\n<p>在展开下一场探险之前，不妨将自己的小天地精心打造一番。无论未来有多少挑战与奇遇，这里永远是你安心的避风港。</p>",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "text-我的新天地"
+   }
+  },
+  {
+   "type": "anchor-navigation",
+   "title": null,
+   "texts": [
+    "YES",
+    "多用途客厅",
+    "bad3ce01b653457e93224fa2fc4259cc",
+    "睡好每一天",
+    "66dca66b65c84753837dce9dde87c998",
+    "办公和休闲"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "页面导航"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "多用途的客厅",
+   "texts": [
+    "/rooms/living-room/",
+    "NO",
+    "ikea://cms/page-compatible-web?key=cn--zh--4abffec0b6d411eabbed81e62a091133&url=%2Frooms%2Fliving-room%2F",
+    "{\"objectId_var\":\"/rooms/living-room/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "展示墙、休息室还是聚会厅？外形简洁利落的沙发和易于移动的轻便家具相结合，只要稍稍布置，你就可以在客厅尽情放松，或是邀请好朋友。",
+    "多用途的客厅"
+   ],
+   "images": [
+    "https://res.app.ikea.cn/content/u/20220301/ad8c6157242d416d80a2122e94c4b90a.jpg?x-oss-process=style/medium",
+    "https://res.app.ikea.cn/content/u/20220413/8a0a7a60baa9476a99b60163d6ad3e8a.jpg?x-oss-process=style/medium",
+    "https://res.app.ikea.cn/content/u/20220413/377616378382440b9fe4ac13ad28bb23.jpg?x-oss-process=style/medium",
+    "https://res.app.ikea.cn/content/u/20220413/5d4f37a060c943fcad075e3495c6ecf9.jpg?x-oss-process=style/medium",
+    "https://res.app.ikea.cn/content/u/20220413/fcc5aa5da0324c768d0abf9bc879cf4a.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/rooms/living-room/",
+     "text": ""
+    },
+    {
+     "href": "/rooms/living-room/gallery/ning-jing-shi-shang-de-jia-ting-ke-ting-pubc4c65070",
+     "text": ""
+    },
+    {
+     "href": "https://res.app.ikea.cn/content/u/20220301/ad8c6157242d416d80a2122e94c4b90a.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=EKET",
+     "text": ""
+    },
+    {
+     "href": "https://res.app.ikea.cn/content/u/20220413/8a0a7a60baa9476a99b60163d6ad3e8a.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/p/10476479?artType=art",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "curatedgalley-多用途的客厅"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "/cat/10705",
+    "NO",
+    "ikea://content/plp?catalogId=10705",
+    "{\"objectId_var\":\"10705\",\"objectType_var\":\"plp\"}",
+    "空间不够充裕？不妨使用模块化家具和灵活的推车边桌，利用每一寸空间，而且不显拥挤。",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/10705",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "product shelf-更多茶几和边桌"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "颜值和舒适兼顾",
+   "texts": [
+    "/cat/fu003",
+    "NO",
+    "ikea://content/plp?catalogId=fu003",
+    "{\"objectId_var\":\"fu003\",\"objectType_var\":\"plp\"}",
+    "坐感舒适的沙发，贴合你的坐卧身形，带给你放松体验，边桌摆放茶杯与书籍，尽享闲适氛围。",
+    "颜值和舒适兼顾"
+   ],
+   "images": [
+    "https://res.app.ikea.cn/content/u/20220413/fd46d11ceb26433999b036b3f26211bd.jpg?x-oss-process=style/medium",
+    "https://res.app.ikea.cn/content/u/20220413/d16e072a594c4bf08af9433f968b1770.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/cat/fu003",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=VIMLE",
+     "text": ""
+    },
+    {
+     "href": "https://res.app.ikea.cn/content/u/20220413/fd46d11ceb26433999b036b3f26211bd.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=ÄPPLARYD",
+     "text": ""
+    },
+    {
+     "href": "https://res.app.ikea.cn/content/u/20220413/d16e072a594c4bf08af9433f968b1770.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "curatedgalley-颜值和舒适兼顾"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "你的专属“舒适区”",
+   "texts": [
+    "/cat/fu006",
+    "NO",
+    "ikea://content/plp?catalogId=fu006",
+    "{\"objectId_var\":\"fu006\",\"objectType_var\":\"plp\"}",
+    "放不下大沙发？扶手椅也一样能给你舒适的体验。",
+    "你的专属“舒适区”"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/fu006",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "productshelf-你的专属“舒适区”"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "储物和展示兼顾",
+   "texts": [
+    "/cat/st001",
+    "NO",
+    "ikea://content/plp?catalogId=st001",
+    "{\"objectId_var\":\"st001\",\"objectType_var\":\"plp\"}",
+    "在打造灵活的储物方案，享受被心爱之物包围的感觉，同时让杂乱远离视线。",
+    "储物和展示兼顾"
+   ],
+   "images": [
+    "https://res.app.ikea.cn/content/u/20220413/32e842ea655d48fcb903afdb00d5c5a1.jpg?x-oss-process=style/medium",
+    "https://res.app.ikea.cn/content/u/20220413/d9addd3bf9394656acdc6bde23c26c2b.jpg?x-oss-process=style/medium",
+    "https://res.app.ikea.cn/content/u/20220413/c4639dc5ebdf48a68580b0123e81581e.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220407/cb0fac50efcf4b3591f2d74f6fd4a2aa.jpg?x-oss-process=style/medium",
+    "https://res.app.ikea.cn/content/u/20220413/25b79866a40b48f683b39786ec145154.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/cat/st001",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=KALLAX",
+     "text": ""
+    },
+    {
+     "href": "https://res.app.ikea.cn/content/u/20220413/32e842ea655d48fcb903afdb00d5c5a1.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/cat/46053",
+     "text": ""
+    },
+    {
+     "href": "https://res.app.ikea.cn/content/u/20220413/d9addd3bf9394656acdc6bde23c26c2b.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=ekenabben",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "curatedgalley-储物和展示兼顾-web"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "/cat/st003",
+    "NO",
+    "ikea://content/plp?catalogId=st003",
+    "{\"objectId_var\":\"st003\",\"objectType_var\":\"plp\"}",
+    "MANUAL_INPUT",
+    "80471727"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/st003",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "productshelf-搁架单元"
+   }
+  },
+  {
+   "type": "pub-inspiration-card",
+   "title": null,
+   "texts": [
+    "/rooms/living-room/gallery/ning-jing-shi-shang-de-jia-ting-ke-ting-pubc4c65070",
+    "NO",
+    "ikea://cms/page-compatible-web?key=cn--zh--c4c6507011fa11ec9f1b0bf476b290af&url=%2Frooms%2Fliving-room%2Fgallery%2Fning-jing-shi-shang-de-jia-ting-ke-ting-pubc4c65070",
+    "{\"objectId_var\":\"/rooms/living-room/gallery/ning-jing-shi-shang-de-jia-ting-ke-ting-pubc4c65070\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "宁静时尚的家庭客厅",
+    "returns-icon"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20220503/68b2458d50d242b4a2511d869ec2ed1f.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220413/d6f41846d0e9488caa9b1d911bc586db.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220413/3fcff58fede24c48a1e8498c66cee8e3.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220413/ab0441ded7f64ff683a64ca8b98d47b5.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/rooms/living-room/gallery/ning-jing-shi-shang-de-jia-ting-ke-ting-pubc4c65070",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220503/68b2458d50d242b4a2511d869ec2ed1f.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://www.ikea.cn/cn/zh/rooms/living-room/gallery/rang-ni-de-xin-ying-shou-de-ke-ting-pub2f3957c0",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220413/d6f41846d0e9488caa9b1d911bc586db.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://www.ikea.cn/cn/zh/rooms/living-room/how-to/xiu4-chu1-xin1-ai4-hao3-wu4-de5-ge4-miao4-zhao1-pub39376c60",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220413/3fcff58fede24c48a1e8498c66cee8e3.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "inspirationcard-探索更多客厅灵感"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "睡好每一天 ",
+   "texts": [
+    "/rooms/bedroom/",
+    "NO",
+    "ikea://cms/page-compatible-web?key=cn--zh--1378a3e0309011ecb7fbd5c58b04ea72&url=%2Frooms%2Fbedroom%2F",
+    "{\"objectId_var\":\"/rooms/bedroom/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "充分的睡眠，是迎接挑战的第一步。你不仅需要“装”满美梦的睡床，也少不了强大收纳家具的帮衬，在整洁舒适卧室里开始新一天。",
+    "睡好每一天"
+   ],
+   "images": [
+    "https://res.app.ikea.cn/content/u/20220413/bfd89d9b93a243bead6b8092cf8d4715.jpg?x-oss-process=style/medium",
+    "https://res.app.ikea.cn/content/u/20220302/9d1a1452db5746a5bc1195169f351c8d.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/rooms/bedroom/",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=IDANÄS",
+     "text": ""
+    },
+    {
+     "href": "https://res.app.ikea.cn/content/u/20220413/bfd89d9b93a243bead6b8092cf8d4715.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=KLEPPSTAD",
+     "text": ""
+    },
+    {
+     "href": "https://res.app.ikea.cn/content/u/20220302/9d1a1452db5746a5bc1195169f351c8d.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "curatedgalley-睡好每一天 "
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "NO",
+    "MANUAL_INPUT",
+    "30458894",
+    "70458811",
+    "00424363",
+    "70481374"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "productshelf-床垫床架"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "更从容的早晨",
+   "texts": [
+    "/search/products?q=卧室储物",
+    "NO",
+    "ikea://default-module/search?query=%E5%8D%A7%E5%AE%A4%E5%82%A8%E7%89%A9",
+    "{\"objectId_var\":\"卧室储物\",\"objectType_var\":\"search_result\"}",
+    "卧室储物空间有限，但它们能帮你保持整洁，开放式的衣架和衣柜组合让拿取衣物更加方便，床底储物柜可以充分利用床下空间。",
+    "更从容的早晨"
+   ],
+   "images": [
+    "https://res.app.ikea.cn/content/u/20220413/bbafb1fea1f04995856c7ac1cc3e0f15.jpg?x-oss-process=style/medium",
+    "https://res.app.ikea.cn/content/u/20220325/6c40abb2320c4465b9e1967445f74f51.png?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/search/products?q=卧室储物",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=PLATSA",
+     "text": ""
+    },
+    {
+     "href": "https://res.app.ikea.cn/content/u/20220413/bbafb1fea1f04995856c7ac1cc3e0f15.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/cat/st005",
+     "text": ""
+    },
+    {
+     "href": "https://res.app.ikea.cn/content/u/20220325/6c40abb2320c4465b9e1967445f74f51.png?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "curatedgalley-更从容的早晨"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "/cat/43631",
+    "NO",
+    "ikea://content/plp?catalogId=43631",
+    "{\"objectId_var\":\"43631\",\"objectType_var\":\"plp\"}",
+    "浏览我们尺寸和风格各异的衣物储物产品，找到适合你的衣服和空间的最佳储物解决方案。",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/43631",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "productshelf-更多独立衣柜"
+   }
+  },
+  {
+   "type": "pub-inspiration-card",
+   "title": null,
+   "texts": [
+    "/rooms/bedroom/gallery/ning2-jing4-you3-xu4-de5-xiao3-wo4-shi4-pubd9bdace0",
+    "NO",
+    "ikea://cms/page-compatible-web?key=cn--zh--d9bdace0478d11ec923139855628f007&url=%2Frooms%2Fbedroom%2Fgallery%2Fning2-jing4-you3-xu4-de5-xiao3-wo4-shi4-pubd9bdace0",
+    "{\"objectId_var\":\"/rooms/bedroom/gallery/ning2-jing4-you3-xu4-de5-xiao3-wo4-shi4-pubd9bdace0\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "宁静有序的小卧室",
+    "returns-icon"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20220413/253065be816b45c789c1354159be11df.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220413/17711fc0abac46deaed02a8cb34ee169.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220413/e3dab7ed17fc4cb79beab83f71148683.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220413/801d0d79ed794e269ba90e2512ca0249.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220413/f23f1994b75049a7b15a3a4546c06680.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/rooms/bedroom/gallery/ning2-jing4-you3-xu4-de5-xiao3-wo4-shi4-pubd9bdace0",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220413/253065be816b45c789c1354159be11df.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/rooms/bedroom/gallery/man-yi-chuang-yi-feng-ge-de-wo-shi---man-zu-shao-nian-men-quan-tian-hou-de-xu-qiu-pub40d9ddb0",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220413/17711fc0abac46deaed02a8cb34ee169.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/rooms/bedroom/how-to/ru-he-tiao-xuan-zhen-zheng-kuo-he-ni-de-chuang-dian-pub35904700",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220413/e3dab7ed17fc4cb79beab83f71148683.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "inspirationcard-探索更多卧室灵感"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "轻松地规划出办公空间",
+   "texts": [
+    "/rooms/home-office/",
+    "NO",
+    "ikea://cms/page-compatible-web?key=cn--zh--3b6b6560ba9c11eab2cec3aae701d0ac&url=%2Frooms%2Fhome-office%2F",
+    "{\"objectId_var\":\"/rooms/home-office/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "即使没有专门的书房，也能在家里植入一个“办公室”。不论大小，只要规划得当，都能打造成功能强大又兼具个性的空间，认真工作，尽情享乐！",
+    "轻松地规划出办公空间"
+   ],
+   "images": [
+    "https://res.app.ikea.cn/content/u/20220413/79b954100cfe48999815d12fd569de78.jpg?x-oss-process=style/medium",
+    "https://res.app.ikea.cn/content/u/20220413/18363da3c0ea4cd38c634dc9c99b7f67.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/rooms/home-office/",
+     "text": ""
+    },
+    {
+     "href": "/rooms/home-office/gallery/",
+     "text": ""
+    },
+    {
+     "href": "https://res.app.ikea.cn/content/u/20220413/79b954100cfe48999815d12fd569de78.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/rooms/home-office/gallery/",
+     "text": ""
+    },
+    {
+     "href": "https://res.app.ikea.cn/content/u/20220413/18363da3c0ea4cd38c634dc9c99b7f67.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "f31686b608714de0a301a9abacbf74e5"
+   }
+  },
+  {
+   "type": "pub-inspiration-card",
+   "title": null,
+   "texts": [
+    "045e5a2a-9a8d-11ea-8543-6bbb72ceb2d5",
+    "/rooms/home-office/how-to/zai4-ke4-ting1-shu1-shu1-fu2-fu2-di4-gong1-zuo4-pube7382660",
+    "NO",
+    "ikea://cms/page-compatible-web?key=cn--zh--e73826608ae611eba9449756fed14773&url=%2Frooms%2Fhome-office%2Fhow-to%2Fzai4-ke4-ting1-shu1-shu1-fu2-fu2-di4-gong1-zuo4-pube7382660",
+    "{\"objectId_var\":\"/rooms/home-office/how-to/zai4-ke4-ting1-shu1-shu1-fu2-fu2-di4-gong1-zuo4-pube7382660\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "在客厅舒舒服服地工作"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20220413/fae19444c20a4075b075f3f9aa4ec962.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220413/4663be17683c43b1a845da1d49b22ee1.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220413/0cb5a7ba30374cbba0ce31e48ee715c7.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220413/2d24f90f10154165ae4983c77a06bad8.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220413/5b01f868b47e433d8a60b46f3132e447.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/rooms/home-office/how-to/zai4-ke4-ting1-shu1-shu1-fu2-fu2-di4-gong1-zuo4-pube7382660",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220413/fae19444c20a4075b075f3f9aa4ec962.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/rooms/bedroom/how-to/ru2-he2-da3-zao4-ke3-qing1-song1-qie1-huan4-ban4-gong1-xiu1-xi1-mo2-shi4-de-wo4-shi4-gong1-zuo4-qu1-pub34310320",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220413/4663be17683c43b1a845da1d49b22ee1.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/rooms/home-office/how-to/4-quick-and-easy-room-divider-ideas-pub8440ac90",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220413/0cb5a7ba30374cbba0ce31e48ee715c7.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "inspirationcard-探索更多居家办公灵感"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "冲浪、挑战、胜利！",
+   "texts": [
+    "/cat/55002",
+    "NO",
+    "ikea://content/plp?catalogId=55002",
+    "{\"objectId_var\":\"55002\",\"objectType_var\":\"plp\"}",
+    "终于有机会打造自己的专属电竞房——精心布置的沉浸式空间，能让你出色发挥实力，也能保证长时间的舒适自在。",
+    "冲浪、挑战、胜利！"
+   ],
+   "images": [
+    "https://res.app.ikea.cn/content/u/20220413/5fae2878ec3b45469eb3c81d01756329.jpg?x-oss-process=style/medium",
+    "https://res.app.ikea.cn/content/u/20220413/e2455f1c891c42ff8a8ef97cf0deeeb6.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/cat/55002",
+     "text": ""
+    },
+    {
+     "href": "/cat/55002",
+     "text": ""
+    },
+    {
+     "href": "https://res.app.ikea.cn/content/u/20220413/5fae2878ec3b45469eb3c81d01756329.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/cat/55002",
+     "text": ""
+    },
+    {
+     "href": "https://res.app.ikea.cn/content/u/20220413/e2455f1c891c42ff8a8ef97cf0deeeb6.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "curatedgalley-冲浪、挑战、胜利！"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "/cat/56516",
+    "NO",
+    "ikea://content/plp?catalogId=56516",
+    "{\"objectId_var\":\"56516\",\"objectType_var\":\"plp\"}",
+    "拥有良好支撑的椅子、可调式桌子可以助他们保持游戏状态，让竞技实力得到最佳发挥。",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/56516",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "productshelf-更多电竞桌椅组合"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "two-columns",
+    "column",
+    "<h2>客厅娱乐方案</h2>\n<p>喜欢窝在沙发上玩喜欢的游戏？我们新推出了适合客厅的主机游戏方案。巧妙搭配的储物单元可以充分利用垂直储物空间收纳游戏盘、手柄等配件，保持客厅的干净整洁。</p>",
+    "pub-text",
+    "/search/products?q=视听储物组合",
+    "NO"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20220408/9b667d98f7af40af8f2e3a9984ca5cda.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220408/8e1e86164462487e8229836c0ba97564.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/search/products?q=视听储物组合",
+     "text": ""
+    },
+    {
+     "href": "/p/69488022?artType=spr",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220408/9b667d98f7af40af8f2e3a9984ca5cda.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/p/99488025?artType=spr",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220408/8e1e86164462487e8229836c0ba97564.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "columns-客厅娱乐方案"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "更灵活的家",
+   "texts": [
+    "/cat/st007",
+    "NO",
+    "ikea://content/plp?catalogId=st007",
+    "{\"objectId_var\":\"st007\",\"objectType_var\":\"plp\"}",
+    "年轻的生活总是充满了变化，你可能常常搬家，也可能经常改变房间格局。比起占地较大的收纳家具，可移动的小型储物产品或许更适合你。",
+    "更灵活的家"
+   ],
+   "images": [
+    "https://res.app.ikea.cn/content/u/20220413/2e0c483b49d34653acfcf4f8a64ce5b5.jpg?x-oss-process=style/medium",
+    "https://res.app.ikea.cn/content/u/20220413/46af8f1427dd4d64b112343f97a32192.jpg?x-oss-process=style/medium",
+    "https://res.app.ikea.cn/content/u/20220413/e4f82e4c1955404f9ac76c3c3d020590.jpg?x-oss-process=style/medium",
+    "https://res.app.ikea.cn/content/u/20220413/b0798767c2ae44b6ace231d7fcbf3894.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220408/4e840606890b467fbc06c83609141431.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/cat/st007",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=SKÅDIS",
+     "text": ""
+    },
+    {
+     "href": "https://res.app.ikea.cn/content/u/20220413/2e0c483b49d34653acfcf4f8a64ce5b5.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=TISKEN",
+     "text": ""
+    },
+    {
+     "href": "https://res.app.ikea.cn/content/u/20220413/46af8f1427dd4d64b112343f97a32192.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=推车",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "curatedgalley-更灵活的家"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "/cat/43631",
+    "NO",
+    "ikea://content/plp?catalogId=43631",
+    "{\"objectId_var\":\"43631\",\"objectType_var\":\"plp\"}",
+    "MANUAL_INPUT",
+    "30177257"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/43631",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "productshelf-储物盒等可移动的小型储物产品"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "免打孔，更自由",
+   "texts": [
+    "/search/products?q=吸盘",
+    "NO",
+    "ikea://default-module/search?query=%E5%90%B8%E7%9B%98",
+    "{\"objectId_var\":\"吸盘\",\"objectType_var\":\"search_result\"}",
+    "GLÖMSTA 伦斯塔 和 TISKEN 提斯科恩，可用于玻璃、瓷砖和镜面等光滑表面，吸附力强，充分利用垂直收纳空间。也可取下后重复再使用，不会在墙面留下痕迹。",
+    "免打孔，更自由"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/imported/20210824/81cb302c86bb377fe47adfcf59e7d9cd4dc86c03.jpg?x-oss-process=style/medium",
+    "https://res.app.ikea.cn/content/u/20220413/dd42248bc7074f76bdfd412cc5b94fe8.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/search/products?q=吸盘",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=VESKEN",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/imported/20210824/81cb302c86bb377fe47adfcf59e7d9cd4dc86c03.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=TISKEN",
+     "text": ""
+    },
+    {
+     "href": "https://res.app.ikea.cn/content/u/20220413/dd42248bc7074f76bdfd412cc5b94fe8.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "columns-免打孔，更自由"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "/cat/43631",
+    "NO",
+    "ikea://content/plp?catalogId=43631",
+    "{\"objectId_var\":\"43631\",\"objectType_var\":\"plp\"}",
+    "MANUAL_INPUT",
+    "20381254"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/43631",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "productshelf-GLÖMSTA 伦斯塔 和 TISKEN 提斯科恩"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "你的移动储物站",
+   "texts": [
+    "/cat/fu005",
+    "NO",
+    "ikea://content/plp?catalogId=fu005",
+    "{\"objectId_var\":\"fu005\",\"objectType_var\":\"plp\"}",
+    "体积小，可移动，哪里需要去哪里",
+    "你的移动储物站"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/fu005",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "productshelf-你的移动储物站"
+   }
+  },
+  {
+   "type": "pub-inspiration-card",
+   "title": null,
+   "texts": [
+    "045e5a2a-9a8d-11ea-8543-6bbb72ceb2d5",
+    "/ideas/home-furnishings/dui-hua-she-ji-shi-%EF%BC%9A-xiao-hu-xing-ru-he-qiao-miao-chu-wu-pubd0945850",
+    "NO",
+    "ikea://cms/page-compatible-web?key=cn--zh--d0945850c53a11eb929fff34060b2457&url=%2Fideas%2Fhome-furnishings%2Fdui-hua-she-ji-shi-%25EF%25BC%259A-xiao-hu-xing-ru-he-qiao-miao-chu-wu-pubd0945850",
+    "{\"objectId_var\":\"/ideas/home-furnishings/dui-hua-she-ji-shi-%EF%BC%9A-xiao-hu-xing-ru-he-qiao-miao-chu-wu-pubd0945850\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "小户型如何巧妙储物"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20220413/8f353cb7f44f4956ace1e774220080e3.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220413/18a942804f0f4f7eb55f2f7b31a9ff2f.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220413/18c295f685a845c79573ee2788b114f2.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220413/3026956a14904ab6b77157f008264032.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/ideas/home-furnishings/dui-hua-she-ji-shi-%EF%BC%9A-xiao-hu-xing-ru-he-qiao-miao-chu-wu-pubd0945850",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220413/8f353cb7f44f4956ace1e774220080e3.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/rooms/hallway/how-to/7-ge4-jia1-ju1-shou1-na4-chuang4-yi4-ling2-mei3-ri4-sheng1-huo2-geng1-qing1-song1-shun4-chang4-pub344d5670",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220413/18a942804f0f4f7eb55f2f7b31a9ff2f.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/rooms/hallway/how-to/fang1-bian4-chu1-hang2-de-chu3-wu4-chan3-pin3-pub8ce899b0",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220413/18c295f685a845c79573ee2788b114f2.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "inspirationcard-探索更多储物灵感"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "玩乐在一起",
+   "texts": [
+    "/rooms/childrens-room/",
+    "NO",
+    "ikea://cms/page-compatible-web?key=cn--zh--a6e23d7e910645a4836ff8562e84adee&url=%2Frooms%2Fchildrens-room%2F",
+    "{\"objectId_var\":\"/rooms/childrens-room/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "假期即将来临！这是孩子们最期盼的时刻，为他们布置梦想中的“游乐场”，开启欢乐的家庭时光。",
+    "玩乐在一起"
+   ],
+   "images": [
+    "https://res.app.ikea.cn/content/u/20220413/8762dd4e850842549aa0551ec3c1edfe.jpg?x-oss-process=style/medium",
+    "https://res.app.ikea.cn/content/u/20220413/6224066d93fc4a32bd24bd21e2443f1f.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/rooms/childrens-room/",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=MÅLA",
+     "text": ""
+    },
+    {
+     "href": "https://res.app.ikea.cn/content/u/20220413/8762dd4e850842549aa0551ec3c1edfe.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=BYGGLEK",
+     "text": ""
+    },
+    {
+     "href": "https://res.app.ikea.cn/content/u/20220413/6224066d93fc4a32bd24bd21e2443f1f.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "f31686b608714de0a301a9abacbf74e5"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "玩具王国",
+   "texts": [
+    "/cat/18734",
+    "NO",
+    "ikea://content/plp?catalogId=18734",
+    "{\"objectId_var\":\"18734\",\"objectType_var\":\"plp\"}",
+    "玩不仅仅只是放松，还可以帮助孩子激发创造力，更好地成长或学习。暑期将至，给他们打造一个游玩的小天地，尽情投入乐趣中吧。",
+    "玩具王国"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/18734",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "productshelf-玩具王国"
+   }
+  },
+  {
+   "type": "pub-inspiration-card",
+   "title": null,
+   "texts": [
+    "/rooms/childrens-room/gallery/a-bedroom-thats-a-feast-for-the-imagination-pub89e66120",
+    "NO",
+    "ikea://cms/page-compatible-web?key=cn--zh--89e6612047a711ecb9f30bb46217901d&url=%2Frooms%2Fchildrens-room%2Fgallery%2Fa-bedroom-thats-a-feast-for-the-imagination-pub89e66120",
+    "{\"objectId_var\":\"/rooms/childrens-room/gallery/a-bedroom-thats-a-feast-for-the-imagination-pub89e66120\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "童趣卧室，激发无限想象力",
+    "returns-icon"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20220413/c9bb30f7eb95423e9f6c5024a39c261f.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220413/5a4eb2ab5b8c4d0389048168dfe0fd12.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220413/9842e60eb1de4684ac22ed8cf01b2b57.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220413/199da53a88d14fcbb201f878fceb541a.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/rooms/childrens-room/gallery/a-bedroom-thats-a-feast-for-the-imagination-pub89e66120",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220413/c9bb30f7eb95423e9f6c5024a39c261f.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/rooms/childrens-room/gallery/er4-ren2-tong2-zhu4-kai1-xin1-wan2-le4-pubb04f20f0",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220413/5a4eb2ab5b8c4d0389048168dfe0fd12.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/rooms/childrens-room/how-to/hao-hao-xue-xi---ye-yao-hao-hao-wan-shua-pubb3d89bd0",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220413/9842e60eb1de4684ac22ed8cf01b2b57.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "inspirationcard-探索更多儿童房灵感"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "two-columns",
+    "column",
+    "<h2>安全无忧</h2>\n<p>孩子在玩时往往会忽视安全问题。打造一个安全的家居环境，可以放心地让他们玩耍，我们的安全产品专为此而设计。</p>",
+    "pub-text",
+    "NO",
+    "pub-button-link"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20220408/28052e8228c54c9584dce6eb5a507e6e.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220408/98e085fd957e4ec9ab9b64a005499a6c.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/p/00349024?artType=art",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220408/28052e8228c54c9584dce6eb5a507e6e.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/p/70213526?artType=art",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220408/98e085fd957e4ec9ab9b64a005499a6c.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "columns-安全无忧"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "NO",
+    "MANUAL_INPUT",
+    "00349024",
+    "30443812",
+    "70213526",
+    "20339868"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "productshelf-儿童安全产品"
+   }
+  },
+  {
+   "type": "pub-banner",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "portrait",
+    "image-text-landscape",
+    "<p>从小处入手，享受美好夏日时光。</p>",
+    "更多夏日“小改变”",
+    "/campaigns/Summer-pub1808ce00"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20220407/f3bd279d042a4c629c1bc7c04ae7f39c.jpg",
+    "https://file.app.ikea.cn/cms/u/20220407/f3bd279d042a4c629c1bc7c04ae7f39c.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220407/f3bd279d042a4c629c1bc7c04ae7f39c.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220407/f3bd279d042a4c629c1bc7c04ae7f39c.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/campaigns/Summer-pub1808ce00",
+     "text": ""
+    },
+    {
+     "href": "/campaigns/Summer-pub1808ce00",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "banner-更多夏日“小改变”"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>&nbsp;&nbsp;</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "057980d24c0d487f81cf9e7f3990fe68"
+   }
+  }
+ ]
+}

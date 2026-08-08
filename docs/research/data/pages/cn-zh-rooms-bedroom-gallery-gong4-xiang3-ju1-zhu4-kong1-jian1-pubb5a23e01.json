@@ -1,0 +1,45 @@
+{
+ "url": "/cn/zh/rooms/bedroom/gallery/gong4-xiang3-ju1-zhu4-kong1-jian1-pubb5a23e01",
+ "family": "rooms",
+ "id": "cn--zh--b5a23e01fdef11e8a8c8e16fdaf0d8e9",
+ "title": "共享居住空间",
+ "name": "20193_rmbe05a_PF",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "共享居住空间",
+   "texts": [
+    "宜家 FLOTTEBO 弗罗特博 深灰色沙发床和 NORDMELA 诺德梅拉 蓝色梳妆台储物单元，将这间现代时尚的一居室公寓打造成适宜合住的空间。",
+    "<p>由于空间越变越小，价格越来越高，因此我们开始选择合住。凭借巧妙的储物解决方案和创新的衣物收纳方式，我们让截然不同的人们有了合住的可能。</p>",
+    "共享居住空间",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/04/7d/047d444943bf866fec9fc4d83357ce3e.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/04/7d/047d444943bf866fec9fc4d83357ce3e.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "40421664",
+    "80421657",
+    "s49222226",
+    "00340387",
+    "s49184432"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

@@ -1,0 +1,146 @@
+{
+ "url": "/cn/zh/rooms/bedroom/gallery/qiao3-miao4-yi1-gui4-pubb20ae470",
+ "family": "rooms",
+ "id": "cn--zh--b20ae470256e11ea9ccfc58ee28d9610",
+ "title": "巧妙衣柜",
+ "name": "20204_rmbe04a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "巧妙衣柜"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "卧室配有内置衣柜解决方案、白色床架、白色抽屉柜和两把深灰色脚凳。",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "s89331520"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/d1/41/d141cc1a3afa6bd41378655f8623d63a.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/d1/41/d141cc1a3afa6bd41378655f8623d63a.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>还有什么比根据你的空间和需求定制的衣柜更加精美的产品呢？AURDAL 奥尔达尔 衣柜组合优雅、灵活且实惠，确保你（和你的衣服）得到你所需的个性化储物空间。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "卧室里有一张梳妆台、一个床架和一个 MALM 马尔姆 抽屉柜，地板上铺着一块灰色的大地毯。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "s49009481"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/0a/85/0a850e80a47bddf558f642922b4a656f.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/0a/85/0a850e80a47bddf558f642922b4a656f.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "一张床，旁边放着白色抽屉柜。顶部放着一株绿色植物、几本书和一盏白色台灯。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "60403584"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/93/2d/932d96b8ef4c10745a15d25547797bc5.jpg",
+    "https://file.app.ikea.cn/images/00/31/003194b9a17fd685742cffc056c78cbc.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/93/2d/932d96b8ef4c10745a15d25547797bc5.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/00/31/003194b9a17fd685742cffc056c78cbc.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "一个由搁板和挂杆组成的衣柜解决方案。几件衣服挂在木衣架上，还有几件则放在搁板上。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "30238543"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/b9/54/b954f510e936b976364fd30326e40892.jpg",
+    "https://file.app.ikea.cn/images/01/e6/01e60304623e8e0131e32670eb3ef834.jpg",
+    "https://file.app.ikea.cn/images/70/b3/70b3a72e4c808485c843c22a6b1b3291.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/b9/54/b954f510e936b976364fd30326e40892.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/01/e6/01e60304623e8e0131e32670eb3ef834.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/70/b3/70b3a72e4c808485c843c22a6b1b3291.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s89331520",
+    "s49009481",
+    "60403584",
+    "s69318317",
+    "90340038"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

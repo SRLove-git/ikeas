@@ -1,0 +1,51 @@
+{
+ "url": "/cn/zh/planners/build-your-own-dining-chair-planner",
+ "family": "planners",
+ "id": "cn--zh--4a63ea0ea4784880a5e3c58762dbf047",
+ "title": "宜家适用于餐厅的餐椅设计工具 - IKEA",
+ "name": "宜家适用于餐厅的餐椅设计工具",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "宜家适用于餐厅的餐椅设计工具"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Page Title-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>借助这款简易的专属餐椅设计工具，将各种形状、材料及颜色进行混搭，打造个性餐椅。尽情享受吧！</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-planner",
+   "title": null,
+   "texts": [
+    "IFRAME_EMBED",
+    "ALL",
+    "https://www.ikea.cn/addon-app/build-your-own-dining-chair/m2/latest/cn/zh/#",
+    "BYODC_IPEX",
+    "YES",
+    "25"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Planner Tool-"
+   }
+  }
+ ]
+}

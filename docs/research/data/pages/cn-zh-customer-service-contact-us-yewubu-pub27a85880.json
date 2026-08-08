@@ -1,0 +1,78 @@
+{
+ "url": "/cn/zh/customer-service/contact-us/yewubu-pub27a85880",
+ "family": "customer-service",
+ "id": "cn--zh--27a85880d57a11e7b7e1cbfcbd4b7f10",
+ "title": "联系宜家对公业务部",
+ "name": "宜家对公业务部的联系方式",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "联系宜家对公业务部"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "c88bdd92479842a094b36f5310346d9b"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/apps/ikea-business/store-contact?storeId=549",
+    "NO",
+    "ikea://ikea-business/store-contact?storeId=549",
+    "{\"objectType_var\":\"store-contact\"}",
+    "button",
+    "添加企业微信 1v1快速咨询"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/apps/ikea-business/store-contact?storeId=549",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Link - button or text-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<table style=\"width: 99.8718%; height: 4873.16px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 33.9844px;\">\n<td style=\"width: 35.8709%; height: 33.9844px;\">\n<h2 style=\"text-align: left;\">网上商城</h2>\n</td>\n<td style=\"width: 31.7947%; text-align: center; height: 33.9844px;\">\n<h2>&nbsp;</h2>\n</td>\n<td style=\"width: 32.3382%; height: 33.9844px;\">&nbsp;</td>\n</tr>\n<tr style=\"height: 116.25px;\">\n<td style=\"width: 35.8709%; height: 116.25px;\">\n<div>联系电话：18006172262</div>\n<div>设计联系电话：18006172262&nbsp;</div>\n</td>\n<td style=\"width: 31.7947%; height: 116.25px;\">\n<p>服务时间：周一 - 周日：09:00 &ndash; 18:00</p>\n<h2 styl"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "7c52cec3f471401b82572d23ef837a04"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/ikea-business/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fikea-business%2F&key=cn--zh--3c468b61b3b811e7b23503ef832e0d7f",
+    "{\"objectId_var\":\"/ikea-business/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "返回宜家对公业务部主页"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/ikea-business/",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "1e32921048f741cfb6e51258496e01a8"
+   }
+  }
+ ]
+}

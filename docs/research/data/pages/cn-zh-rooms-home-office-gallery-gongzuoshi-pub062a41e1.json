@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/home-office/gallery/gongzuoshi-pub062a41e1",
+ "family": "rooms",
+ "id": "cn--zh--062a41e1cf7711e78e0a0bf79e0fa98f",
+ "title": "没有卧室？无需担心。",
+ "name": "20173-cost01a_PF_CT_SEO_QA",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "没有卧室？无需担心。",
+   "texts": [
+    "深灰色开放式工作室的角落放着一张床，由房间隔板隔开。",
+    "没有卧室？无需担心。",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/55/91/55915ec023bf6829b6529145f2a7d1d2.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/55/91/55915ec023bf6829b6529145f2a7d1d2.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "40335416",
+    "s19021286",
+    "80349850",
+    "s59135752",
+    "90322242"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

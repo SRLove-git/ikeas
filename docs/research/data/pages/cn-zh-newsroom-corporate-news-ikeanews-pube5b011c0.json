@@ -1,0 +1,56 @@
+{
+ "url": "/cn/zh/newsroom/corporate-news/ikeanews-pube5b011c0",
+ "family": "newsroom",
+ "id": "cn--zh--e5b011c0b4ae11e79a5eff486d94c77f",
+ "title": "宜家推出增强现实 App 消费者足不出户就可构建梦想之家",
+ "name": "综合新闻_宜家推出增强现实 App 消费者足不出户就可构建梦想之家_2017-09-10",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "宜家推出增强现实 App 消费者足不出户就可构建梦想之家"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "88a62e1fb4fe4fb48f085280997c5e00"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>2017-09-10 16:00&nbsp;</p>\n<p>还没有时间去宜家商场探索 2018 宜家新品？在新沙发到家之前不知道摆放它的客厅会是什么样子？以后这些烦恼将不再是问题。今天，宜家宣布增强现实手机应用&mdash;&mdash;IKEA PLACE将在全新 iOS 11 系统发布之际，与广大消费者见面。消费者足不出户就可以看到各种宜家产品摆放在自己家中的样子，从而更加自信地做出购物决定。</p>\n<p><br />附件<br /><a href=\"http://www.ikea.com/ms/zh_CN/about_ikea/newsroom/PDF/IKEA_PLACE_APP.pdf\">点击查看新闻详情</a></p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "48c34dd74c964557be6dad64d6fd0fd2"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/this-is-ikea/newsroom/xinwen-pub5a3665d1",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fthis-is-ikea%2Fnewsroom%2Fxinwen-pub5a3665d1&key=cn--zh--5a3665d1bed711e79dfda9ee7bcb674b",
+    "{\"objectId_var\":\"/this-is-ikea/newsroom/xinwen-pub5a3665d1\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "返回综合新闻"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/this-is-ikea/newsroom/xinwen-pub5a3665d1",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "c392eb85a2274049a6b8e0a6025e8132"
+   }
+  }
+ ]
+}

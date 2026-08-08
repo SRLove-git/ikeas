@@ -1,0 +1,326 @@
+{
+ "url": "/cn/zh/customer-service",
+ "family": "customer-service",
+ "id": "cn--zh--99f62410dec911eb909ec36c6e99b004",
+ "title": "客户服务",
+ "name": "客户服务_SEO (1)",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "客户服务"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Page Title-"
+   }
+  },
+  {
+   "type": "pub-visual-navigation",
+   "title": null,
+   "texts": [
+    "/customer-service/track-manage-order/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fcustomer-service%2Ftrack-manage-order%2F&key=",
+    "{\"objectId_var\":\"/customer-service/track-manage-order/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "订单跟踪和管理",
+    "/customer-service/services/"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/95/9e/959e6d9416a7a3c8387b595a16f5d963.png",
+    "https://file.app.ikea.cn/images/4f/65/4f6515cb518002fdd849d2ec92328e33.png",
+    "https://file.app.ikea.cn/images/4e/f7/4ef7e853d3121ca16d8b62a880373e99.png",
+    "https://file.app.ikea.cn/images/81/fe/81feacd9e4138f539e52806fc9eeced8.png",
+    "https://file.app.ikea.cn/images/10/f3/10f30275f13605e2da057fbca4f3a8d6.png"
+   ],
+   "links": [
+    {
+     "href": "/customer-service/track-manage-order/",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/95/9e/959e6d9416a7a3c8387b595a16f5d963.png",
+     "text": ""
+    },
+    {
+     "href": "/customer-service/services/",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/4f/65/4f6515cb518002fdd849d2ec92328e33.png",
+     "text": ""
+    },
+    {
+     "href": "/customer-service/product-support/",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/4e/f7/4ef7e853d3121ca16d8b62a880373e99.png",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Visual Navigation-"
+   }
+  },
+  {
+   "type": "pub-assurances",
+   "title": null,
+   "texts": [
+    "/customer-service/services/kitchen-planning/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fcustomer-service%2Fservices%2Fkitchen-planning%2F&key=",
+    "{\"objectId_var\":\"/customer-service/services/kitchen-planning/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "设计服务",
+    "PencilIcon"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/customer-service/services/kitchen-planning/",
+     "text": ""
+    },
+    {
+     "href": "/customer-service/services/delivery/",
+     "text": ""
+    },
+    {
+     "href": "/customer-service/services/assembly/",
+     "text": ""
+    },
+    {
+     "href": "/customer-service/returns-claims/return-policy/",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Assurances-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2><strong>常见问题</strong></h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-expandable-area",
+   "title": null,
+   "texts": [
+    "1. 如何查询网上配送范围和运费？",
+    "column",
+    "<p>1. 如何查询网上配送范围和运费？</p>\n<p>目前，我们为全国306个城市范围提供快递包裹配送和货车配送服务。你可以添加商品至购物车以后可以通过输入具体地址和邮政编码，查看线上购物配送范围和运费。<br />送货服务信息和收费标准请浏览<a href=\"https://www.ikea.cn/cn/zh/customer-service/services/delivery/\">送货服务</a>页面了解详情。</p>",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Expandable Area-"
+   }
+  },
+  {
+   "type": "pub-expandable-area",
+   "title": null,
+   "texts": [
+    "2. 如何预约组装服务？",
+    "column",
+    "<p>2. 如何预约组装服务？</p>\n<p>在配送范围内的地区我们都提供家具组装服务。</p>\n<p>宜家提供以下两种有偿组装服务：<br /><strong>&rdquo;万师傅&rdquo;平台组装服务：</strong> 先完成商品付款，然后用微信扫描二维码自助预约组装服务。</p>\n<p><strong>宜家有偿组装服务：</strong>将商品加入购物车后，在购物车页面点击选择预定宜家有偿组装服务，请先完成商品付款。宜家客服将根据您选择组装的商品，与您确认具体组装价格、组装时间。<br />组装服务信息和收费标准请浏览<a href=\"https://www.ikea.cn/cn/zh/customer-service/services/assembly/\" target=\"_blank\" rel=\"noopener\">组装服务</a>页面了解详情。</p>",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Expandable Area-"
+   }
+  },
+  {
+   "type": "pub-expandable-area",
+   "title": null,
+   "texts": [
+    "3. 如何查询订单物流配送状态？",
+    "column",
+    "<p>3. 如何查询订单物流配送状态？</p>\n<p>宜家会根据你选择的送货服务日期和时间段提前与你联系&hellip;&hellip;确保货物按时抵达。您可以登录微信小程序&ldquo;宜家俱乐部&rdquo; 查询具体的送货信息。如果您是在线购物您可以在&rdquo;我的订单&rdquo;页面通过自助查询到货情况，或联系我们宜家在线客服查询配送状态。</p>",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Expandable Area-"
+   }
+  },
+  {
+   "type": "pub-expandable-area",
+   "title": null,
+   "texts": [
+    "4. 如何获取发票？",
+    "column",
+    "<p>4. 如何获取发票？</p>\n<p>宜家网上商城购物的：完成网上订单支付后，你会通过注册时填写的邮箱获得网上订单电子收银条。通过扫描电子收银条上的二维码，自助在线填写开票信息、申请开具电子增值税普通发票，或者增值税专用发票。对于增值税专用发票，待审核无误后，宜家将于下单后15天之后单独开具并快递寄出。</p>\n<p>在宜家商场购物的：你可以通过扫描收银条上二维码自助申请开具电子增值税普通发票。或者携带必要的开票资料，和收银条一起至原购物商场发票台，申请开具增值税专用发票。</p>",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Expandable Area-"
+   }
+  },
+  {
+   "type": "pub-expandable-area",
+   "title": null,
+   "texts": [
+    "5. 如何查询网上商城产品库存？",
+    "column",
+    "<p>5. 如何查询网上商城产品库存？</p>\n<p>将商品加入购物车输入地址和邮编之后，网页上会显示商品的库存信息。如遇&ldquo;暂时缺货&rdquo;可能是您购买的商品在该区域暂时缺货，您可以在产品详情页查询实体商场库存后至商场购买，或者加入心愿单后续购买。</p>",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Expandable Area-"
+   }
+  },
+  {
+   "type": "pub-expandable-area",
+   "title": null,
+   "texts": [
+    "6. 如何退换货？",
+    "column",
+    "<p>6. 如何退换货？</p>\n<p><a href=\"https://www.ikea.cn/cn/zh/customer-service/returns-claims/return-policy/\">退货政策</a></p>",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Expandable Area-"
+   }
+  },
+  {
+   "type": "pub-expandable-area",
+   "title": null,
+   "texts": [
+    "7. 如何联系宜家网上商城客服？",
+    "column",
+    "<p>7. 如何联系宜家网上商城客服？</p>\n<p>您可以通过点击&ldquo;在线客服&rdquo;小黄人标志开始对话，或拨打400-800-2345客服热线。<br />电话人工服务时间为周一至周日09:00-18:00<br />在线客服人工服务时间为周一至周日09:00-22:00</p>",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Expandable Area"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>联系我们</h2>\n<p>敬请提问或咨询，我们将竭诚为您服务。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/customer-service/contact-us/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fcustomer-service%2Fcontact-us%2F&key=",
+    "{\"objectId_var\":\"/customer-service/contact-us/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "联系我们"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/customer-service/contact-us/",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Link - button or text-"
+   }
+  },
+  {
+   "type": "pub-banner",
+   "title": null,
+   "texts": [
+    "image-text-landscape",
+    "IMAGE",
+    "<p>访问本地商场，获得家居灵感。我们热烈欢迎您浏览我们的产品以及房间搭配，尝一尝美味的食物。</p>",
+    "寻找您附近的宜家",
+    "/stores/",
+    "NO"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/96/3b/963b218afb1bf007ea3ad982105116fa.png"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/96/3b/963b218afb1bf007ea3ad982105116fa.png",
+     "text": ""
+    },
+    {
+     "href": "/stores/",
+     "text": ""
+    },
+    {
+     "href": "/stores/",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Banner-"
+   }
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--customer-service--services",
+    "/customer-service/services/",
+    "section",
+    "我们的服务",
+    "ikea://cms/page-compatible-web?url=%2Fcustomer-service%2Fservices%2F&key=cn--zh--9bdb3af1c07611e8affa0d09be91682d",
+    "{\"objectId_var\":\"/customer-service/services/\",\"objectType_var\":\"cms/page-compatible-web\"}"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/17/33/1733aab9682fb11f3617c26d3a71d2ed.png",
+    "https://file.app.ikea.cn/images/f0/08/f00831ab8b0125399b9805fbe1808056.png",
+    "https://file.app.ikea.cn/images/10/f3/10f30275f13605e2da057fbca4f3a8d6.png",
+    "https://file.app.ikea.cn/images/8a/65/8a653d65afa3f1eebf0d91beabb6be8c.png"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/17/33/1733aab9682fb11f3617c26d3a71d2ed.png",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/f0/08/f00831ab8b0125399b9805fbe1808056.png",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/10/f3/10f30275f13605e2da057fbca4f3a8d6.png",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/8a/65/8a653d65afa3f1eebf0d91beabb6be8c.png",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Page List-"
+   }
+  }
+ ]
+}

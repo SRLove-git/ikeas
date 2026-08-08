@@ -32,6 +32,8 @@ for (const category of allCollections) {
   }
 }
 
+export const productSlugsWithDetails = new Set(productBySlug.keys());
+
 export function findCategoryBySlug(slug: string): CategoryMatch | undefined {
   return categoryBySlug.get(slug);
 }

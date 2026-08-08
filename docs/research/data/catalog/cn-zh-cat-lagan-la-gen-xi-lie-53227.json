@@ -1,0 +1,108 @@
+{
+ "url": "/cn/zh/cat/lagan-la-gen-xi-lie-53227",
+ "id": "lagan-la-gen-xi-lie-53227",
+ "name": "LAGAN 拉根 系列",
+ "description": "LAGAN 拉根 系列",
+ "total": 6,
+ "products": [
+  {
+   "id": "40509001",
+   "name": "LAGAN 拉根",
+   "price": 2799,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/lagan-la-gen-qian-ru-shi-xi-wan-ji__1079971_pe857834_s4.jpg",
+   "productType": "嵌入式洗碗机",
+   "designText": "",
+   "measureText": "45 厘米",
+   "url": null,
+   "seoSlug": "lagan-la-gen-qian-ru-shi-xi-wan-ji"
+  },
+  {
+   "id": "70609495",
+   "name": "LAGAN 拉根",
+   "price": 999,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/lagan-la-gen-nei-zhi-wei-bo-lu-hei-se__1412015_pe973487_s4.jpg",
+   "productType": "内置微波炉",
+   "designText": "黑色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "lagan-la-gen-nei-zhi-wei-bo-lu-hei-se"
+  },
+  {
+   "id": "10547957",
+   "name": "LAGAN 拉根",
+   "price": 1799,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/lagan-la-gen-kao-xiang-bu-xiu-gang__1116869_pe872613_s4.jpg",
+   "productType": "烤箱",
+   "designText": "不锈钢",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "lagan-la-gen-kao-xiang-bu-xiu-gang"
+  },
+  {
+   "id": "00173760",
+   "name": "LAGAN 拉根",
+   "price": 199,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/lagan-la-gen-chu-fang-yong-dan-gan-hun-he-xing-shui-long-tou-du-ge__0756697_pe749049_s4.jpg",
+   "productType": "厨房用单杆混合型水龙头",
+   "designText": "镀铬",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "lagan-la-gen-chu-fang-yong-dan-gan-hun-he-xing-shui-long-tou-du-ge"
+  },
+  {
+   "id": "70571299",
+   "name": "LAGAN 拉根",
+   "price": 1999,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/lagan-la-gen-bing-xiang-du-li-shi-bai-se__1292724_pe935086_s4.jpg",
+   "productType": "冰箱",
+   "designText": "独立式/白色",
+   "measureText": "197/65 公升",
+   "url": null,
+   "seoSlug": "lagan-la-gen-bing-xiang-du-li-shi-bai-se"
+  },
+  {
+   "id": "50496951",
+   "name": "LAGAN 拉根",
+   "price": 1499,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/lagan-la-gen-bing-xiang-dai-san-xing-ji-shi-du-li-shi-bai-se__0755791_pe748600_s4.jpg",
+   "productType": "冰箱",
+   "designText": "带三星级室/独立式 白色",
+   "measureText": "97/16 公升",
+   "url": null,
+   "seoSlug": "lagan-la-gen-bing-xiang-dai-san-xing-ji-shi-du-li-shi-bai-se"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "40509001",
+   "type": "ART",
+   "fullId": "40509001"
+  },
+  {
+   "id": "70609495",
+   "type": "ART",
+   "fullId": "70609495"
+  },
+  {
+   "id": "10547957",
+   "type": "ART",
+   "fullId": "10547957"
+  },
+  {
+   "id": "00173760",
+   "type": "ART",
+   "fullId": "00173760"
+  },
+  {
+   "id": "70571299",
+   "type": "ART",
+   "fullId": "70571299"
+  },
+  {
+   "id": "50496951",
+   "type": "ART",
+   "fullId": "50496951"
+  }
+ ]
+}

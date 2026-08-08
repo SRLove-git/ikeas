@@ -1,0 +1,146 @@
+{
+ "url": "/cn/zh/rooms/home-office/gallery/ji1-fa1-ni3-de-chuang4-zao4-li4-pub59c9c4c0",
+ "family": "rooms",
+ "id": "cn--zh--59c9c4c00f7f11ea9be0efb138516c0e",
+ "title": "激发你的创造力",
+ "name": "20203_rmoh01a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "激发你的创造力"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "房间里摆放着书桌、白色转椅和椅凳、绿色植物和植物架，以及绿色靠背椅。",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "s19324815"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/85/e5/85e5101bb9675b4ef8332df12326fcde.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/85/e5/85e5101bb9675b4ef8332df12326fcde.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>一个启发灵感、激发创造力的空间，摆放着符合人体工程学的家具，如 SKARSTA 斯卡斯塔 升降桌，助你提高效率。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "LIDKULLEN 里德库伦 椅凳，边上放着调高的坐/站两用书桌。透明地板保护垫可保护地板不受刮擦。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "00418376"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/b0/be/b0bebb56d808474cede815e6655c62ed.jpg",
+    "https://file.app.ikea.cn/images/e1/c1/e1c10dd81e53ede86168a67bbe0b3b96.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/b0/be/b0bebb56d808474cede815e6655c62ed.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/e1/c1/e1c10dd81e53ede86168a67bbe0b3b96.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "带有脚轮的手推车顶层搁板上是一个晚餐场景。它被推到了相机旁边用于拍照。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "00452619"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/3e/20/3e20eab089b5a88b20860d051d500784.jpg",
+    "https://file.app.ikea.cn/images/44/03/4403635f80c2f2b0075f7b782d830dcc.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/3e/20/3e20eab089b5a88b20860d051d500784.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/44/03/4403635f80c2f2b0075f7b782d830dcc.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "墙上挂着两个 VISBÄCK 维贝可 竹质图片架和食物图片，白色壁灯洒下美妙的光线，笼罩在图片架和食物图片上。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "00423028"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/d3/63/d3639361b87490b9255958339623bf08.jpg",
+    "https://file.app.ikea.cn/images/d0/84/d084294f20cda95be2ab1f58c0def3fa.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/d3/63/d3639361b87490b9255958339623bf08.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/d0/84/d084294f20cda95be2ab1f58c0def3fa.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s19324815",
+    "00418376",
+    "s09252480",
+    "20446241",
+    "00452619"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

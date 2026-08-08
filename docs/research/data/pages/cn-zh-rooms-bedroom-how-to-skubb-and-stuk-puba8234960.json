@@ -1,0 +1,359 @@
+{
+ "url": "/cn/zh/rooms/bedroom/how-to/skubb-and-stuk-puba8234960",
+ "family": "rooms",
+ "id": "cn--zh--a82349605cf111eabd70abd87dc39e2e",
+ "title": "衣物储藏",
+ "name": "storage organiser",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2><strong>想要征服这一团混乱吗？</strong></h2>\n<p>&nbsp; &nbsp; &nbsp; 那就分类吧。有了衣服储藏件，你可以充分利用你的衣柜和抽屉，再小的东西你都能知道放在那里。无论你有任何不可思议的需求或品味，我们都能为你找到与之相匹配的储物盒，你可以任性地使用你的衣柜了。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "/p/00348128?artType=ART",
+    "YES"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/a4/96/a4969325e132f022bd24d9ef034f613b.gif",
+    "https://file.app.ikea.cn/images/85/6f/856fe6fc80c44bc7439e203bbc0fd061.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/a4/96/a4969325e132f022bd24d9ef034f613b.gif",
+     "text": ""
+    },
+    {
+     "href": "/p/00348128?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/85/6f/856fe6fc80c44bc7439e203bbc0fd061.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "衣物储藏"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "/p/80245881?artType=ART",
+    "YES",
+    "ikea://content/pip?id=80245881&type=ART",
+    "{\"objectId_var\":\"80245881\",\"objectType_var\":\"product\"}",
+    "pub-image"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/1d/e0/1de0f83320c2ab82febbac479990df45.jpg",
+    "https://file.app.ikea.cn/images/62/ee/62ee236e68bf6adb7b7dc688ad2e165b.jpg",
+    "https://file.app.ikea.cn/images/b9/63/b9637c040fd596dac5e7c32f066561df.jpg"
+   ],
+   "links": [
+    {
+     "href": "/p/80245881?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/1d/e0/1de0f83320c2ab82febbac479990df45.jpg",
+     "text": ""
+    },
+    {
+     "href": "/p/90185594?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/62/ee/62ee236e68bf6adb7b7dc688ad2e165b.jpg",
+     "text": ""
+    },
+    {
+     "href": "/p/50290361?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/b9/63/b9637c040fd596dac5e7c32f066561df.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "/p/80186396?artType=ART",
+    "YES",
+    "ikea://content/pip?id=80186396&type=ART",
+    "{\"objectId_var\":\"80186396\",\"objectType_var\":\"product\"}",
+    "pub-image"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/fe/5e/fe5ed2b50a6f77b89896ad33d88bcabd.jpg",
+    "https://file.app.ikea.cn/images/b4/3a/b43adea452441f7707df4d0a687c4f1c.jpg"
+   ],
+   "links": [
+    {
+     "href": "/p/80186396?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/fe/5e/fe5ed2b50a6f77b89896ad33d88bcabd.jpg",
+     "text": ""
+    },
+    {
+     "href": "/p/40250855?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/b4/3a/b43adea452441f7707df4d0a687c4f1c.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-expandable-area",
+   "title": null,
+   "texts": [
+    "SKUBB 思库布 系列",
+    "column",
+    "pub-product-list",
+    "MANUAL_INPUT",
+    "90428516",
+    "60245877"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "30179464",
+    "10186390",
+    "20428553",
+    "40290371"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "<h4>STUK 斯图克 系列</h4>\n<h2><strong>来看看 PLATSA 普拉萨 的好朋友</strong></h2>\n<p>&nbsp; &nbsp; &nbsp; <strong><a href=\"https://www.ikea.cn/cn/zh/cat/platsa-pu-la-sa-zu-he-37897/\" target=\"_blank\">PLATSA 普拉萨</a></strong> 和 STUK 斯图克 非常适合配套使用：它们一个负责给你宽敞的衣柜和储物柜，一个负责帮助你隔开储物空间，归整物品。它们都非常灵活，并且价格实惠，可以真正解决你的问题。如果你想把 STUK 斯图克 放在家中其他储物柜里使用，别担心：PLATSA 普拉萨 仍然可以独当一面。</p>",
+    "pub-text",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/ed/c8/edc8d799e1caf59410ef2c0ffcbfdf58.gif"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/ed/c8/edc8d799e1caf59410ef2c0ffcbfdf58.gif",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "/p/80375679?artType=ART",
+    "YES",
+    "ikea://content/pip?id=80375679&type=ART",
+    "{\"objectId_var\":\"80375679\",\"objectType_var\":\"product\"}",
+    "pub-image"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/5b/dd/5bddd8bcab7f27a98a033c735bab73fc.jpg",
+    "https://file.app.ikea.cn/images/5a/f7/5af7a8c80ee64f09ea451f01405fbfc7.jpg",
+    "https://file.app.ikea.cn/images/6c/40/6c4004dce09d0276b6d833cf9af5a0e7.jpg"
+   ],
+   "links": [
+    {
+     "href": "/p/80375679?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/5b/dd/5bddd8bcab7f27a98a033c735bab73fc.jpg",
+     "text": ""
+    },
+    {
+     "href": "/p/00370869?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/5a/f7/5af7a8c80ee64f09ea451f01405fbfc7.jpg",
+     "text": ""
+    },
+    {
+     "href": "/p/70417217?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/6c/40/6c4004dce09d0276b6d833cf9af5a0e7.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "00370893",
+    "20309574",
+    "30309578",
+    "60421031",
+    "40417214"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "/p/80309566?artType=ART",
+    "YES",
+    "ikea://content/pip?id=80309566&type=ART",
+    "{\"objectId_var\":\"80309566\",\"objectType_var\":\"product\"}",
+    "pub-image"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/7a/4a/7a4aa875bcb8e63caedad77fcda9ea6f.jpg",
+    "https://file.app.ikea.cn/images/55/2a/552ae3c046e0d2d13dbffb15d2f974b7.jpg"
+   ],
+   "links": [
+    {
+     "href": "/p/80309566?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/7a/4a/7a4aa875bcb8e63caedad77fcda9ea6f.jpg",
+     "text": ""
+    },
+    {
+     "href": "/p/90364005?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/55/2a/552ae3c046e0d2d13dbffb15d2f974b7.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "20309550",
+    "40309587",
+    "80309566",
+    "90309556"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "/rooms/chuwu-pub056051f9",
+    "YES",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fchuwu-pub056051f9&key=",
+    "{\"objectId_var\":\"/rooms/chuwu-pub056051f9\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "pub-button-link"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/rooms/chuwu-pub056051f9",
+     "text": ""
+    },
+    {
+     "href": "/ideas/tags/chu3-wu4-pubd14c90b0",
+     "text": ""
+    },
+    {
+     "href": "/rooms/bedroom/pax-series-pub9c63ad51",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--83017841c06d11e8affa0d09be91682d",
+    "/customer-service/services/delivery/",
+    "page",
+    "送货服务",
+    "我们的大多数产品都采用平板包装，且可轻松放入你的车中。但是，如果你希望我们送货上门，可以预订我们提供的一系列送货服务。",
+    "ikea://cms/page-compatible-web?url=%2Fcustomer-service%2Fservices%2Fdelivery%2F&key=cn--zh--83017841c06d11e8affa0d09be91682d"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20230905/b3adedd890fd49f9bc1a33be708a1bef.gif"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20230905/b3adedd890fd49f9bc1a33be708a1bef.gif",
+     "text": ""
+    }
+   ],
+   "settings": null
+  }
+ ]
+}

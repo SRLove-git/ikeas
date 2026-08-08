@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/bathroom/gallery/yushi-pub42dab101",
+ "family": "rooms",
+ "id": "cn--zh--42dab1010ff611e8b1909545c9aebdf1",
+ "title": "让你拥有更多意想不到的空间",
+ "name": "20184-coba01a_PF_CT_SEO",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "让你拥有更多意想不到的空间",
+   "texts": [
+    "狭小的浴室里装饰着绿色墙砖和灰色地板砖，配有白色 LILLÅNGEN 利兰根 壁柜和洗脸池柜。",
+    "让你拥有更多意想不到的空间",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/15/54/15546f7ee8634411f8056f5a50a69112.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/15/54/15546f7ee8634411f8056f5a50a69112.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "90396638",
+    "s29155379",
+    "80281379",
+    "80294980",
+    "90318179"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "url": "/cn/zh/planners/byod-planner",
+ "family": "planners",
+ "id": "cn--zh--938f978aa2064ad3ab49254f3cd43813",
+ "title": "宜家书桌设计工具 - IKEA",
+ "name": "宜家书桌设计工具",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-planner",
+   "title": null,
+   "texts": [
+    "IFRAME_EMBED",
+    "ALL",
+    "https://www.ikea.cn/addon-app/space/platform/latest/cn/zh/#/configure/build-your-own-desk",
+    "BYOD_IPEX",
+    "NO",
+    "23"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Planner Tool-"
+   }
+  }
+ ]
+}

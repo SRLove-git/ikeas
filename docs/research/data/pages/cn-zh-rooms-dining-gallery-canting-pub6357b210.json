@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/dining/gallery/canting-pub6357b210",
+ "family": "rooms",
+ "id": "cn--zh--6357b210cf7e11e78e0a0bf79e0fa98f",
+ "title": "聚在一起，尽享舒适",
+ "name": "20181-codi03a_PF_CT_SEO_QA",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "聚在一起，尽享舒适",
+   "texts": [
+    "深蓝色房间内摆放着 EKEDALEN 伊克多兰餐桌和椅子，后面的厨房隐约可见。",
+    "聚在一起，尽享舒适",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/17/36/1736c7642f44c7fa6039598e9772de2f.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/17/36/1736c7642f44c7fa6039598e9772de2f.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "40341016",
+    "50340808",
+    "s79217723",
+    "s29207123",
+    "50337858"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

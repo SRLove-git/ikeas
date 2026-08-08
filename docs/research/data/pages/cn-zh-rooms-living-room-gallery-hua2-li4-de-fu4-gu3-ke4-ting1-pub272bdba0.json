@@ -1,0 +1,260 @@
+{
+ "url": "/cn/zh/rooms/living-room/gallery/hua2-li4-de-fu4-gu3-ke4-ting1-pub272bdba0",
+ "family": "rooms",
+ "id": "cn--zh--272bdba0cdc111eb80b7af50d28c5018",
+ "title": "华丽的复古客厅",
+ "name": "64222_rmli02a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "华丽的复古客厅",
+   "texts": [
+    "一间复古风格的客厅，有一张绿色天鹅绒LANDSKRONA 兰德克纳 沙发，两张扶手椅和两张脚凳，中间是一张茶几。",
+    "<p>这个客厅柔软舒适，充满奢华天鹅绒与丰富的特色细节，集众多优点于一身。更重要的是，它绝非徒有其表。各种精心制作的家具，让一切看上去井然有序，而且全家人都能在这里获得各自所需的空间。</p>",
+    "华丽的复古客厅",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/db/92/db928468a360dd7bbbb2e91a52b2a4a7.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/db/92/db928468a360dd7bbbb2e91a52b2a4a7.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Hero-华丽的复古客厅"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "舒适的绿色天鹅绒",
+   "texts": [
+    "/cat/fu003",
+    "NO",
+    "ikea://content/plp?catalogId=fu003",
+    "{\"objectId_var\":\"fu003\",\"objectType_var\":\"plp\"}",
+    "这款沙发配有深绿色天鹅绒垫套，散发古典气息，是客厅里的瞩目焦点。添置你喜欢的靠垫，增添你的个性风格，在这里一个人惬意休息，或享受和家人的相聚时光。",
+    "舒适的绿色天鹅绒"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/f08a43505ec70/original/PH181384-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/fu003",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/f08a43505ec70/original/PH181384-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Curated Gallery-舒适的绿色天鹅绒"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "定制储物，整齐收纳",
+   "texts": [
+    "/cat/46053",
+    "NO",
+    "ikea://content/plp?catalogId=46053",
+    "{\"objectId_var\":\"46053\",\"objectType_var\":\"plp\"}",
+    "这个储物组合有助你以不同的方式，充分利用墙壁空间。对于想展示出来的物品，可以放在开放式储物空间，并添加集成照明，突显每件物品的迷人风采。而图书、电子产品和学校作业之类的物品则可以收藏在优雅的木制柜门后面，保持外观整洁。",
+    "定制储物，整齐收纳"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/2c2cd1e556fe84b9/original/PH181385-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/46053",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/2c2cd1e556fe84b9/original/PH181385-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Curated Gallery-定制储物，整齐收纳"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "时尚座椅",
+   "texts": [
+    "/cat/fu002",
+    "NO",
+    "ikea://content/plp?catalogId=fu002",
+    "{\"objectId_var\":\"fu002\",\"objectType_var\":\"plp\"}",
+    "这款绿色椅子设计美观，圆形的碗状座椅别具特色，可搭配不同风格的桌子。给椅子添加椅子垫，这样无论是坐在上面工作或是和朋友一起吃早午餐，都更舒适自在。",
+    "时尚座椅"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/62a4eb62d98ee08e/original/PH181386-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/fu002",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/62a4eb62d98ee08e/original/PH181386-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Curated Gallery-时尚座椅"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "餐厅好帮手",
+   "texts": [
+    "/cat/10412",
+    "NO",
+    "ikea://content/plp?catalogId=10412",
+    "{\"objectId_var\":\"10412\",\"objectType_var\":\"plp\"}",
+    "需要额外的空间来存放餐具？有了这个餐边柜，你就能确保各种餐具近在手边。无把手的光滑柜门和温暖的木材质地，谐美搭配餐桌。",
+    "餐厅好帮手"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/615a670631f61107/original/PH181387-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/10412",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/615a670631f61107/original/PH181387-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Curated Gallery-餐厅好帮手"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "愉悦心情的绿植",
+   "texts": [
+    "/cat/20494",
+    "NO",
+    "ikea://content/plp?catalogId=20494",
+    "{\"objectId_var\":\"20494\",\"objectType_var\":\"plp\"}",
+    "想随时保持愉快心情？在客厅摆放一些美丽的植物，既有益于健康，也有助于营造静谧的气氛。这款支架可以用来抬高植物，以便室内的植物吸收更多阳光。",
+    "愉悦心情的绿植"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/30f4585283a1c171/original/PH181388-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/20494",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/30f4585283a1c171/original/PH181388-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Curated Gallery-愉悦心情的绿植"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "梦想客厅触手可及",
+   "texts": [
+    "/cat/fu001",
+    "NO",
+    "ikea://content/plp?catalogId=fu001",
+    "{\"objectId_var\":\"fu001\",\"objectType_var\":\"plp\"}",
+    "需要启发？这里有你需要的所有产品，供你打造一个华丽的客厅，秀出你的个性风采。",
+    "梦想客厅触手可及"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/fu001",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Product Shelf-梦想客厅触手可及"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "利用照明营造温馨氛围",
+   "texts": [
+    "/cat/li001",
+    "NO",
+    "ikea://content/plp?catalogId=li001",
+    "{\"objectId_var\":\"li001\",\"objectType_var\":\"plp\"}",
+    "利用照明营造温馨氛围",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/li001",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Product Shelf-利用照明营造温馨氛围"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "混搭纺织品，营造和谐外观",
+   "texts": [
+    "/cat/tl001",
+    "NO",
+    "ikea://content/plp?catalogId=tl001",
+    "{\"objectId_var\":\"tl001\",\"objectType_var\":\"plp\"}",
+    "混搭纺织品，营造和谐外观",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/tl001",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Product Shelf-混搭纺织品，营造和谐外观"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "小细节带来大不同",
+   "texts": [
+    "/cat/de001",
+    "NO",
+    "ikea://content/plp?catalogId=de001",
+    "{\"objectId_var\":\"de001\",\"objectType_var\":\"plp\"}",
+    "小细节带来大不同",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/de001",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Product Shelf-小细节带来大不同"
+   }
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "url": "/cn/zh/rooms/kitchen/gallery/bo1-dian3-zhuang1-shi4-jin3-shan4-jin3-mei3-pub4ecd1401",
+ "family": "rooms",
+ "id": "cn--zh--4ecd140101fc11e9aeb03d6b81950a38",
+ "title": "波点装饰，尽善尽美",
+ "name": "20193_rmme01a_PF",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "波点装饰，尽善尽美",
+   "texts": [
+    "宜家 METOD 米多 厨房还可进一步定制打造，与 YTTERBYN 约特布恩 柜门搭配，其图案经典有趣，包括黑白条纹和波点等。",
+    "<p>在日常活动场所展现自我。从波点到网格，再到纯黑色，你可以随心所欲地自由混搭图案，打造时尚个性的厨房。</p>",
+    "波点装饰，尽善尽美",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/63/bd/63bde30db337cb6174cda78afbe46a6e.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/63/bd/63bde30db337cb6174cda78afbe46a6e.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "40408728",
+    "40337849",
+    "70338423",
+    "50409015",
+    "s59157640"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

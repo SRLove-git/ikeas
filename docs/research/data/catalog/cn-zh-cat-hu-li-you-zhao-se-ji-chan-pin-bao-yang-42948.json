@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/cat/hu-li-you-zhao-se-ji-chan-pin-bao-yang-42948",
+ "id": "hu-li-you-zhao-se-ji-chan-pin-bao-yang-42948",
+ "name": "护理油/着色剂/产品保养",
+ "description": "浏览我们的护理产品和配件系列，其中包括蜂蜡、护理油、自粘胶地板保护垫、皮革护理套件、地毯吸尘器和纺织品清洁剂。我们提供多款可助你保护家具表面的产品，令其更加耐碰撞、耐刮擦、抗泼溅物和凹痕。",
+ "total": 2,
+ "products": [
+  {
+   "id": "00573230",
+   "name": "TRIXIG 缇克西",
+   "price": 9.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/trixig-ti-ke-xi-you-qi-shua-3-jian-tao__0710247_pe727425_s4.jpg",
+   "productType": "油漆刷，3件套",
+   "designText": "",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "trixig-ti-ke-xi-you-qi-shua-3-jian-tao"
+  },
+  {
+   "id": "50581100",
+   "name": "TRIXIG 缇克西",
+   "price": 6.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/trixig-ti-ke-xi-qing-ji-mo-bu__1394096_pe966396_s4.jpg",
+   "productType": "清洁抹布",
+   "designText": "",
+   "measureText": "18x20 厘米",
+   "url": null,
+   "seoSlug": "trixig-ti-ke-xi-qing-ji-mo-bu"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "00573230",
+   "type": "ART",
+   "fullId": "00573230"
+  },
+  {
+   "id": "50581100",
+   "type": "ART",
+   "fullId": "50581100"
+  }
+ ]
+}

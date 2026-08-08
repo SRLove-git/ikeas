@@ -1,0 +1,124 @@
+{
+ "url": "/cn/zh/rooms/living-room/gallery/yong4-ai4-bu4-zhi4-jia1-pub9743b1a0",
+ "family": "rooms",
+ "id": "cn--zh--9743b1a09f1f11eabac1c3b4429adc99",
+ "title": "用爱布置家",
+ "name": "20211_rmli05a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "用爱布置家"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "在客厅有一张米色沙发床、一张藤制/竹制椅子、一个电视柜、一张深灰色地毯、一个黑色挂钟和黑色灯具。",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "00431716"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/ee/28/ee282557a69ea46d97081eec55adbae4.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/ee/28/ee282557a69ea46d97081eec55adbae4.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>大多数时候，人们都希望能尽量提升家居环境的实用性。但追求实用性的同时，不代表要牺牲美观。一起来看看如何优化利用客厅的每一寸空间，同时彰显你的个性风采。灵活实用的沙发床也可以如此美观，是不是很意外？</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "一个配黑色把手的白色电视柜、一台黑色电视机、一个黑色音箱、一张灰色地毯，以及不同尺寸的裱框图片。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "00291674"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/81/43/8143369db7d0868588ef7e7053fad27d.jpg",
+    "https://file.app.ikea.cn/images/3b/64/3b6441b04708ee73b06c61c7f9e8a2cc.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/81/43/8143369db7d0868588ef7e7053fad27d.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/3b/64/3b6441b04708ee73b06c61c7f9e8a2cc.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "一个立式的白色/木制书架，上面摆放着书本；窗户配了白色的窗帘和遮盖一半窗户的白色遮光卷帘。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "10396859"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/31/56/3156d04f0ff831960e034513f023c52c.jpg",
+    "https://file.app.ikea.cn/images/64/05/640541226d207f2440cef2650598bab9.jpg",
+    "https://file.app.ikea.cn/images/84/44/8444cea9b4111b1cb42764bd04746d37.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/31/56/3156d04f0ff831960e034513f023c52c.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/64/05/640541226d207f2440cef2650598bab9.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/84/44/8444cea9b4111b1cb42764bd04746d37.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "00431716",
+    "00291674",
+    "80294503",
+    "60245844",
+    "50058376"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

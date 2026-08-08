@@ -1,0 +1,81 @@
+{
+ "url": "/cn/zh/customer-service/services/lipinka-pubf2366e21",
+ "family": "customer-service",
+ "id": "cn--zh--f2366e21599611e8aa2e13b447cdda5f",
+ "title": "宜家礼品卡",
+ "name": "客户服务_宜家礼品卡_PC_SEO",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "宜家购物卡"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "c4a124a78bc1483a9e1225121e083cb8"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "two-columns",
+    "column",
+    "NO",
+    "<h3 style=\"text-align: center;\">宜家礼品卡</h3>",
+    "pub-text",
+    "IMAGE"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20220518/021326dd0949448180a94cecede20ab6.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220519/88b93eca802b49e8938a30b4b19efe16.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220518/da8374810bf446e0a48f48dd34c22b12.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220519/bbaccf71d8ab497da9c8c0d0f79e6c8f.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220518/021326dd0949448180a94cecede20ab6.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/profile/login?redirect_uri=%2Factivity%2FgiftCardBalanceCheck",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220519/88b93eca802b49e8938a30b4b19efe16.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/apps/gift-card/balance",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220518/da8374810bf446e0a48f48dd34c22b12.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220519/bbaccf71d8ab497da9c8c0d0f79e6c8f.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "f5af4a3c5ecf46e189b672826985ac91"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>宜家（中国）投资有限公司<br />宜家（中国） 客服中心 ：400-800-2345</p>\n<p><strong>宜家礼品卡使用规则：</strong><br />此卡使用范围仅限于中国大陆的宜家商场。<br />此卡需充值后使用，自最近一次充值之日起，三年内有效。<br />此卡只在充值时开具普通发票，使用此卡消费时，不再开具发票。<br />此卡不记名，不挂失，不找零，不兑换现金。<br />使用此卡购买的商品如需退货，货款将退还至相同类型的购物卡内。</p>\n<p><strong>宜家退换货卡使用规则：</strong><br />此卡使用范围仅限于中国大陆的宜家商场。<br />此卡需充值后使用，自最近一次充值之日起，三年内有效。<br />使用此卡消费时，不再开具发票。此卡不记名，不挂失，不找零，不兑换现金。<br />如需查询卡内余额，可登录宜家官网ikea.cn或下载IKEA APP。<br />使用此卡购买的商品如需退货，货款将退还至相同类型的购物卡内。</p>\n<p><strong>注意事项：</strong><br />为了保护你的利益，请勿在未使用前刮开背面涂层部分。<br />如需了解更多相关信息，请见宜家商场公示的&ldquo;购物卡章程&rdquo;或咨询宜家（中国）客服中心。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "7e870ed4aaa8451a8b8f2f86022a87fc"
+   }
+  }
+ ]
+}

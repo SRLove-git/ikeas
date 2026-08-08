@@ -1,0 +1,118 @@
+{
+ "url": "/cn/zh/rooms/living-room/how-to/ru2-he2-da3-zao4-shi4-nei4-sheng1-ri4-qi2-miao4-tan4-xian3-zhi1-l3-pub87e5dba0",
+ "family": "rooms",
+ "id": "cn--zh--87e5dba0912f11ea85436bbb72ceb2d5",
+ "title": "如何打造室内生日奇妙探险之旅",
+ "name": "662041_beht19a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "如何打造室内生日奇妙探险之旅",
+   "texts": [
+    "GRACIÖS 格拉希思 地毯上摆放着各种包装精美的礼物和拆封的礼品与玩具，等待孩子探索发现。",
+    "<p>这是孩子的重要一刻！即使待在家中，也不影响你来一次激动人心的冒险之旅。为全天的不同环节分别设置相应场景，把生日聚会变成充满冒险的奇趣旅程。</p>",
+    "如何打造室内生日奇妙探险之旅",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/46/f1/46f1212a8840b8132ece30abec35dbd3.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/46/f1/46f1212a8840b8132ece30abec35dbd3.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "清晨海滩",
+   "texts": [
+    "/cat/tl003",
+    "NO",
+    "ikea://content/plp?catalogId=tl003",
+    "{\"objectId_var\":\"tl003\",\"objectType_var\":\"plp\"}",
+    "生日快乐！全家人聚在水边开始一天的探险。检查清单：不要把洗澡水和饮品搞混了。当心鲨鱼。早饭后记得刷牙。",
+    "清晨海滩"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/7ce8d8dc26bea3a8/original/PH169234-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/tl003",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/7ce8d8dc26bea3a8/original/PH169234-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "林中狩猎",
+   "texts": [
+    "/cat/18774",
+    "NO",
+    "ikea://content/plp?catalogId=18774",
+    "{\"objectId_var\":\"18774\",\"objectType_var\":\"plp\"}",
+    "一瞬之间你被热带森林所环绕。成为第一个在未知土地上铺设铁路的人——也许还有一些惊喜礼物在等你。（丛林捕食者可能需要午休，但也不要放松警惕。）",
+    "林中狩猎"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/6af2830b52bb17d7/original/PH168912-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/18774",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/6af2830b52bb17d7/original/PH168912-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "篝火晚会",
+   "texts": [
+    "/cat/14349",
+    "NO",
+    "ikea://content/plp?catalogId=14349",
+    "{\"objectId_var\":\"14349\",\"objectType_var\":\"plp\"}",
+    "傍晚时分来到草原上的营地，时髦条纹和波点面料覆盖的营地充满童趣。经历了兴奋的一天，是时候放松一下。还有什么比在温暖的灯串打造的篝火旁吃棉花糖更好的放松方式呢？",
+    "篝火晚会"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/4652220a83eadea9/original/PH168913-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/14349",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/4652220a83eadea9/original/PH168913-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>宜家期待看到顾客发挥自己的创意。放手去做！但请注意，更改或调整宜家产品，使其不能再次出售或用于原用途，即意味放弃宜家商业品质保证和你的退货权利。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

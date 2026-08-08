@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/outdoor/gallery/yangtai-pub128053e1",
+ "family": "rooms",
+ "id": "cn--zh--128053e1cf7611e78e0a0bf79e0fa98f",
+ "title": "整装待发",
+ "name": "20173-cood04a_PF_CT_SEO_AD_QA",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "整装待发",
+   "texts": [
+    "露台上放着一张木质桌子，桌子周围摆放着六张带靠垫的木质椅子，桌子后放着黑色的烤炉。",
+    "整装待发",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/8f/29/8f2952a5bfd358fab6d9bf3521a1618b.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/8f/29/8f2952a5bfd358fab6d9bf3521a1618b.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s19156464",
+    "s79133399",
+    "70234208",
+    "00290679",
+    "70314691"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

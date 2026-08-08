@@ -1,0 +1,141 @@
+{
+ "url": "/cn/zh/rooms/outdoor/gallery/hu4-wai4-jie2-ri4-ju4-hui4-pub9ac5bd50",
+ "family": "rooms",
+ "id": "cn--zh--9ac5bd502d2d11ea9ccfc58ee28d9610",
+ "title": "户外节日聚会",
+ "name": "20204_rmod02a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "户外节日聚会"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "宽敞的露台上有灰色桌子和扶手椅、巨大的阳伞、圆形吊灯和木质地板饰面。",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "80420629"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/49/cf/49cf6aa2a5aba1209a6c92cb9c721ead.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/49/cf/49cf6aa2a5aba1209a6c92cb9c721ead.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>我们的 BONDHOLMEN 邦德荷蒙 系列提供多种不同的户外家具，可以打造美观协调的露台，无论宽敞的用餐区还是舒适放松的休闲角都不在话下。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "黑色不锈钢碳烤炉和推车，里面摆放着厨用器具、碗、附盖垃圾桶、香草和油。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "s39281834"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/8e/4a/8e4a043a63572def7c21e0ef77e62160.jpg",
+    "https://file.app.ikea.cn/images/1f/0b/1f0b47d3713740c79e56d091bbf8a848.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/8e/4a/8e4a043a63572def7c21e0ef77e62160.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/1f/0b/1f0b47d3713740c79e56d091bbf8a848.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "黑色灯串和圆形吊灯挂在打开的阳伞下，散发出温暖舒适的光线。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "50390822"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/76/17/761707eb6f7fc00317d69fdec6dcae68.jpg",
+    "https://file.app.ikea.cn/images/1d/9e/1d9e7e3e3191799c64c0b1986472d301.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/76/17/761707eb6f7fc00317d69fdec6dcae68.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/1d/9e/1d9e7e3e3191799c64c0b1986472d301.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "黑色/不锈钢带脚轮推车上摆放着餐具、毛巾和其他物品，边上有一张餐桌。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "s49931802"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/d6/60/d660634b064d9e38a5a72064ea4c8b4a.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/d6/60/d660634b064d9e38a5a72064ea4c8b4a.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "80420629",
+    "20445312",
+    "10420562",
+    "s69320829",
+    "s39281834"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

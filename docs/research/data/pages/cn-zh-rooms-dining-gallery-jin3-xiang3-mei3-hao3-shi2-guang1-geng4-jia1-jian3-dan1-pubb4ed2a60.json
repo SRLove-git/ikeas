@@ -1,0 +1,124 @@
+{
+ "url": "/cn/zh/rooms/dining/gallery/jin3-xiang3-mei3-hao3-shi2-guang1-geng4-jia1-jian3-dan1-pubb4ed2a60",
+ "family": "rooms",
+ "id": "cn--zh--b4ed2a600f5511ea9be0efb138516c0e",
+ "title": "尽享美好时光，更加简单",
+ "name": "20203_rmdi02a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "尽享美好时光，更加简单"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "一家人在餐厅中。妈妈和两个孩子坐在餐桌旁，爸爸将碗拿到餐桌。",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "10422504"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/de/43/de4310160e620d3f8d9cad22e4690f13.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/de/43/de4310160e620d3f8d9cad22e4690f13.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>美好的晚餐时光像微风拂过餐厅，并不止步于餐厅，而是传播得更远、延续得更久。餐厅配有玩乐空间，巧妙的储物解决方案还能解决家人的储物需求。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "白色餐桌，桌上有家庭晚餐剩下的饭菜。餐桌旁是一把白色高脚椅。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "10417456"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/8f/e5/8fe5758905cdad74fb750f385f0817d0.jpg",
+    "https://file.app.ikea.cn/images/12/1e/121ec28f06d100311da9e37098d5cbb0.jpg",
+    "https://file.app.ikea.cn/images/86/a6/86a630f6afac6c9c38170afbc88aeabe.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/8f/e5/8fe5758905cdad74fb750f385f0817d0.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/12/1e/121ec28f06d100311da9e37098d5cbb0.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/86/a6/86a630f6afac6c9c38170afbc88aeabe.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "白色桦木 EKET 伊克特 带支腿橱柜组合。不同的储物盒和装饰架放置在搁板和柜顶上。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "s49221038"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/b5/7e/b57e7c798500578f3f0291e1e11bcf29.jpg",
+    "https://file.app.ikea.cn/images/22/04/220484144767ca38c7e0e95e80460309.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/b5/7e/b57e7c798500578f3f0291e1e11bcf29.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/22/04/220484144767ca38c7e0e95e80460309.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "10422504",
+    "10417456",
+    "90253535",
+    "s09252593",
+    "s49221038"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

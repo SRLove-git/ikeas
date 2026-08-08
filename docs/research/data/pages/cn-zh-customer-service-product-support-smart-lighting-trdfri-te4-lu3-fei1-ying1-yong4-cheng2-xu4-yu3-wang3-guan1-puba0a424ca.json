@@ -1,0 +1,317 @@
+{
+ "url": "/cn/zh/customer-service/product-support/smart-lighting/trdfri-te4-lu3-fei1-ying1-yong4-cheng2-xu4-yu3-wang3-guan1-puba0a424ca",
+ "family": "customer-service",
+ "id": "cn--zh--a0a424cae4a811e78b3245bc3a806c96",
+ "title": "TRÅDFRI 特鲁菲 应用程序与网关",
+ "name": "智能照明产品使用方法 - TRÅDFRI 特鲁菲 应用程序与网关",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "TRÅDFRI 特鲁菲 应用程序与网关",
+   "texts": [
+    "<p><strong>智能照明产品使用方法:&nbsp;</strong></p>\n<p><a href=\"https://www.ikea.cn/cn/zh/customer-service/trdfri-te4-lu3-fei1-ying1-yong4-cheng2-xu4-yu3-wang3-guan1-puba0a424ca\">TR&Aring;DFRI 特鲁菲 应用程序与网关</a>&nbsp; |&nbsp; <a href=\"https://www.ikea.cn/cn/zh/customer-service/deng1-guang1-kong4-zhi4-pub0834e998\">灯光控制</a>&nbsp; |&nbsp; <a href=\"https://www.ikea.cn/cn/zh/customer-service/an1-quan2-pub6243ff99\">安全</a> |&nbsp; <a href=\"https://www.ikea.cn/cn/zh/customer-service/jian1-rong2-xing4-pub165edef7\">兼容性</a></p>",
+    "TRÅDFRI 特鲁菲 应用程序与网关",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/fc/bc/fcbc80b90e8809bdc5b59c04ff5a9860.png"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/fc/bc/fcbc80b90e8809bdc5b59c04ff5a9860.png",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h4><strong>如何营造氛围</strong></h4>\n<p>照明氛围是指一系列颜色和亮度参数，你可以通过这些参数调节灯光。比如，在客厅吃晚餐时可以使用较柔和的光线，工作时则可调节为较明亮/冷色调的光线。</p>\n<p>你可以预先设置好各种氛围，然后用 TR&Aring;DFRI 特鲁菲 应用程序来控制。比如，为看电视设定一种灯光氛围，为惬意的晚餐设定另外一种灯光氛围。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-video-link",
+   "title": null,
+   "texts": [
+    "https://v.youku.com/v_show/id_XMzEyMzU3NjM1Mg==.html?spm=a2hww.20027244.m_250036.5~5!2~5~5!2~5~5~A",
+    "<p>观看视频，了解如何使用 TR&Aring;DFRI 特鲁菲 应用程序营造并管理灯光氛围。</p>",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "https://v.youku.com/v_show/id_XMzEyMzU3NjM1Mg==.html?spm=a2hww.20027244.m_250036.5~5!2~5~5!2~5~5~A",
+     "text": "\n<p>观看视频，了解如何使用 TR&Aring;DFRI 特鲁菲 应用程序营造并管理灯光氛围。</p>\n"
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h4><strong>营造氛围的相关问题：</strong></h4>\n<p><strong>什么是智能照明氛围？<br /></strong>照明氛围是指一系列颜色和亮度参数，你可以通过这些参数调节灯光。同一组灯泡可以营造出多种不同的氛围。比如，在客厅吃晚餐时可以使用较柔和的光线，工作时则可调节为较明亮/冷色调的光线。</p>\n<p><strong>我可以改变氛围设置吗？<br /></strong>你无法更改宜家默认氛围，但是可以添加并更改你自己的氛围设置。</p>\n<p><strong>可以在 TR&Aring;DFRI 特鲁菲 应用程序中创建多少个组别和氛围？</strong><br />TR&Aring;DFRI 特鲁菲 应用程序中可以创建的氛围或组别没有数量限制。但最多可以在 TR&Aring;DFRI 特鲁菲 网关上连接100部设备，在每一个组别中，最多可添加10个光源和1个输入设备（遥控器和无线调光器等）。这样说来，如果一个人在一个组别中连接的设备达到了数量上限(11)，那么最多只能设置9个组别。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h4><strong>如何设置定时器</strong></h4>\n<p>设置起床灯光，根据日程表开关灯光，或者设置定时器，这样即使在你离开时，灯也可以打开。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-video-link",
+   "title": null,
+   "texts": [
+    "https://v.youku.com/v_show/id_XMzEyMzU4MDk1Ng==.html?spm=a2hww.20027244.m_250036.5~5!2~5~5!2~5~5~A",
+    "<p>观看视频，了解如何使用 TR&Aring;DFRI 特鲁菲 应用程序设置定时器。</p>",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "https://v.youku.com/v_show/id_XMzEyMzU4MDk1Ng==.html?spm=a2hww.20027244.m_250036.5~5!2~5~5!2~5~5~A",
+     "text": "\n<p>观看视频，了解如何使用 TR&Aring;DFRI 特鲁菲 应用程序设置定时器。</p>\n"
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h4><strong>相关视频：</strong></h4>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-video-link",
+   "title": null,
+   "texts": [
+    "https://v.youku.com/v_show/id_XMzEyMzU4MzkxMg==.html?spm=a2hww.20027244.m_250036.5~5!2~5~5!2~5~5~A",
+    "<p>如何设置外出定时器</p>",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "https://v.youku.com/v_show/id_XMzEyMzU4MzkxMg==.html?spm=a2hww.20027244.m_250036.5~5!2~5~5!2~5~5~A",
+     "text": "\n<p>如何设置外出定时器</p>\n"
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-video-link",
+   "title": null,
+   "texts": [
+    "https://v.youku.com/v_show/id_XMzEyMzU4NjE2MA.html?spm=a2hww.20027244.m_250036.5~5!2~5~5!2~5~5~A",
+    "<p>如何设置开关定时器</p>",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "https://v.youku.com/v_show/id_XMzEyMzU4NjE2MA.html?spm=a2hww.20027244.m_250036.5~5!2~5~5!2~5~5~A",
+     "text": "\n<p>如何设置开关定时器</p>\n"
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h4><strong>设置定时器的相关问题：</strong></h4>\n<p><strong>TR&Aring;DFRI 特鲁菲 能在早晨叫我起床吗？<br /></strong>可以，设置&ldquo;唤醒点亮&rdquo;定时器后，它就能叫你起床了。灯会从你设定时间的前30分钟开始慢慢亮起。在这段时间内，灯光会从暖光变成明亮的光线。<strong><br /></strong></p>\n<p><strong>什么是定时器，我该如何设置定时器？</strong><br />TR&Aring;DFRI 特鲁菲 应用程序中有三种定时器：&ldquo;唤醒点亮&rdquo;定时器用来设置叫你起床的灯光；&ldquo;外出&rdquo;定时器用来设置光源开关，就好像你在家一样；还有&ldquo;开关&rdquo;定时器，用来在需要时开关光源。<br />你可以观看短片，了解如何设置定时器：<a href=\"https://www.ikea.cn/cn/zh/customer-service/trdfri-te4-lu3-fei1-ying1-yong4-cheng2-xu4-yu3-wang3-guan1-puba0a424ca\">TR&Aring;DFRI 特鲁菲 应用程序与网关</a></p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h4><strong>TR&Aring;DFRI 特鲁菲 应用程序与网关的常见问题：</strong>&nbsp;</h4>\n<p><strong>使用 TR&Aring;DFRI 特鲁菲 应用程序需要付费吗？<br /></strong>不需要，你可以免费下载 TR&Aring;DFRI 特鲁菲 应用程序。<br /><a href=\"https://itunes.apple.com/cn/app/ikea-tr%C3%A5dfri/id1195836071?mt=8\">下载 TR&Aring;DFRI 特鲁菲 应用程序（iOS版）</a></p>\n<p><strong>如何才能更改应用程序上的预设语言？</strong><br />打开设置页面（主页右上角的齿轮图标）。然后找到语言设置选项，选择你需要的语言。</p>\n<p><strong>我在哪儿可以找到 TR&Aring;DFRI 特鲁菲 应用程序的版本号？</strong><br />你可以在 TR&Aring;DFRI 特鲁菲 应用程序中&ldquo;清除所有设置&rdquo;下的&ldquo;设置&rdquo;页面底部找到版本号。<br />在App Store和Google Play中的&ldquo;版本&rdquo;选项中可以找到版本号。</p>\n<p><strong>多少位家庭成员可以同时通过 TR&Aring"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/customer-service/product-support/smart-lighting/zhi-neng-zhao-ming-pub81a7870c",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fcustomer-service%2Fproduct-support%2Fsmart-lighting%2Fzhi-neng-zhao-ming-pub81a7870c&key=cn--zh--81a7870ce54a11e78b3245bc3a806c96",
+    "{\"objectId_var\":\"/customer-service/product-support/smart-lighting/zhi-neng-zhao-ming-pub81a7870c\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "了解更多智能照明的使用方法"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/customer-service/product-support/smart-lighting/zhi-neng-zhao-ming-pub81a7870c",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h4><strong>需要更多帮助吗？</strong></h4>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "/customer-service/product-support/smart-lighting/kai1-shi3-shi3-yong4-zhi4-neng2-zhao4-ming2-chan3-pin3-pub46cc1851",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fcustomer-service%2Fproduct-support%2Fsmart-lighting%2Fkai1-shi3-shi3-yong4-zhi4-neng2-zhao4-ming2-chan3-pin3-pub46cc1851&key=cn--zh--46cc1851e52911e78b3245bc3a806c96",
+    "{\"objectId_var\":\"/customer-service/product-support/smart-lighting/kai1-shi3-shi3-yong4-zhi4-neng2-zhao4-ming2-chan3-pin3-pub46cc1851\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/3e/63/3e63c5c09a5ff7821a530b034784a3f6.png"
+   ],
+   "links": [
+    {
+     "href": "/customer-service/product-support/smart-lighting/kai1-shi3-shi3-yong4-zhi4-neng2-zhao4-ming2-chan3-pin3-pub46cc1851",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/3e/63/3e63c5c09a5ff7821a530b034784a3f6.png",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p><strong>开始</strong><br />添加灯泡、照明壁灯、照明门，并开始使用 TR&Aring;DFRI 特鲁菲 应用程序。<br /><a href=\"https://www.ikea.cn/cn/zh/customer-service/kai1-shi3-shi3-yong4-zhi4-neng2-zhao4-ming2-chan3-pin3-pub46cc1851\">开始使用宜家智能照明产品</a></p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "/customer-service/product-support/smart-lighting/zhi4-neng2-zhao4-ming2-chan3-pin3-gu4-zhang4-pai2-chu2-pub480afb00",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fcustomer-service%2Fproduct-support%2Fsmart-lighting%2Fzhi4-neng2-zhao4-ming2-chan3-pin3-gu4-zhang4-pai2-chu2-pub480afb00&key=cn--zh--480afb00e4a711e78b3245bc3a806c96",
+    "{\"objectId_var\":\"/customer-service/product-support/smart-lighting/zhi4-neng2-zhao4-ming2-chan3-pin3-gu4-zhang4-pai2-chu2-pub480afb00\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/a9/21/a92122367daec3dbd983cc112ce37f3f.png"
+   ],
+   "links": [
+    {
+     "href": "/customer-service/product-support/smart-lighting/zhi4-neng2-zhao4-ming2-chan3-pin3-gu4-zhang4-pai2-chu2-pub480afb00",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/a9/21/a92122367daec3dbd983cc112ce37f3f.png",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p><strong>故障排除</strong><br />使用智能照明产品时遇到了问题，都可以在这里找到如何解决常见的问题。<br /><a href=\"https://www.ikea.cn/cn/zh/customer-service/zhi4-neng2-zhao4-ming2-chan3-pin3-gu4-zhang4-pai2-chu2-pub480afb00\">获取有关宜家智能照明产品的帮助</a></p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/de/97/de97bff470832c1a7c34ae7e80f20f88.png"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/de/97/de97bff470832c1a7c34ae7e80f20f88.png",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p><strong>智能照明产品</strong><br />探索更多宜家智能照明产品，包括启动套件、单独光源和遥控器等。<br /><a href=\"https://www.ikea.cn/cn/zh/rooms/deng-pub320bd09c\">查看所有宜家智能照明产品</a></p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

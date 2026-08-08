@@ -1,0 +1,146 @@
+{
+ "url": "/cn/zh/rooms/dining/gallery/ji2-shi3-yu4-suan4-you3-xian4-ni3-ye3-ke3-yi3-da3-zao4-pei4-tao4-qi2-quan2-de-can1-ting1-pub156e1421",
+ "family": "rooms",
+ "id": "cn--zh--156e14217c5911e982f8b702b57e021a",
+ "title": "即使预算有限，你也可以打造配套齐全的餐厅",
+ "name": "20201_rmdi03a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "即使预算有限，你也可以打造配套齐全的餐厅"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "餐厅里配有白色桌子、红色椅子、灰色沙发、橱柜和珊瑚色搁架单元。",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "60416138"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/72/19/7219a8f5f04cd3ae7969ae076084d9af.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/72/19/7219a8f5f04cd3ae7969ae076084d9af.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>即使空间有限，你也可以通过这种方式打造生动活泼、充满个性、宽敞明亮的用餐区。伸缩型餐桌可以在你需要的时候释放更多地面空间，在与朋友相聚时提供更多座位。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "红色椅子、白色桌子和绘有黑白正方形图案的地毯。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "80443904"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/53/32/533207ba5dd1a19b646218b7910836b5.jpg",
+    "https://file.app.ikea.cn/images/16/83/1683dd249d172a4344534002f1bc7126.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/53/32/533207ba5dd1a19b646218b7910836b5.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/16/83/1683dd249d172a4344534002f1bc7126.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "带抽屉的 IVAR 伊娃 搁架单元、白色墙搁架、白色窗帘和绿色植物台座",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "s89309722"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/50/4c/504ca5895e4df43a8a6210aab3f0a20c.jpg",
+    "https://file.app.ikea.cn/images/02/fe/02fe428ed467ae5564e9d98b866606c7.jpg",
+    "https://file.app.ikea.cn/images/17/ca/17ca4b9ea4f9a4900b0fd289e8a1a6ba.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/50/4c/504ca5895e4df43a8a6210aab3f0a20c.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/02/fe/02fe428ed467ae5564e9d98b866606c7.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/17/ca/17ca4b9ea4f9a4900b0fd289e8a1a6ba.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "一张白色的桌子、一个长凳和一张灰色的沙发。把靠背的背部用作长凳的靠背。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "s29277026"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/21/7c/217c75a71bc79380e79828e1a4fab63c.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/21/7c/217c75a71bc79380e79828e1a4fab63c.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "60416138",
+    "80443904",
+    "s89309722",
+    "s29277026",
+    "10439458"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

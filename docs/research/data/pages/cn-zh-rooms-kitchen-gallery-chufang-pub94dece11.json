@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/kitchen/gallery/chufang-pub94dece11",
+ "family": "rooms",
+ "id": "cn--zh--94dece11cf8111e78e0a0bf79e0fa98f",
+ "title": "从内而外，整洁明亮",
+ "name": "20181-come03a_PF_CT_SEO_QA",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "从内而外，整洁明亮",
+   "texts": [
+    "白色厨房配有封闭式玻璃门。",
+    "从内而外，整洁明亮",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/b6/4a/b64af60c31b1342b449cce2a5009a0c8.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/b6/4a/b64af60c31b1342b449cce2a5009a0c8.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "10273924",
+    "20273749",
+    "30347537",
+    "20347528",
+    "60335689"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

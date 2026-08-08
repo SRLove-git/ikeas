@@ -1,0 +1,266 @@
+{
+ "url": "/cn/zh/rooms/hallway",
+ "family": "rooms",
+ "id": "cn--zh--8501d77511404f7dab6625064308a5ad",
+ "title": "门厅灵感、家具等设计元素",
+ "name": "702621_dpha01a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-standardised-hero",
+   "title": "门厅：借助巧妙的储物方案营造温馨的入口通道",
+   "texts": [
+    "一个家庭门厅，后面有PAX 帕克思/GULLABERG 古拉贝利 衣柜和一扇窗户。物品随处可见，但仍井然有序。",
+    "<p>门厅不只是一个走廊通道，更是家的第一印象，是日常收纳的重要空间。我们提供丰富多样、实用又时尚的门厅解决方案，可以帮助你营造一个温馨的入户空间，并保持门厅整洁有序。从设计巧妙的鞋柜和衣帽架，到精致的装饰镜和舒适的长凳，我们提供各种必需之物，可助你充分利用空间、增强功能性，并为你的家居带来雅致的格调。利用这些富有启发性的创意，让每次进出家门都轻松自在。</p>",
+    "IMAGE",
+    "90580641",
+    "70372836",
+    "80347530"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/content/u/20250703/1B93F161-669E-4224-9574F65135AE304A.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/content/u/20250703/1B93F161-669E-4224-9574F65135AE304A.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Standardised Hero-门厅：借助巧妙的储物方案营造温馨的入口通道"
+   }
+  },
+  {
+   "type": "pub-visual-navigation",
+   "title": null,
+   "texts": [],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-图文列表 Visual Navigation-"
+   }
+  },
+  {
+   "type": "pub-visual-pill-slider",
+   "title": null,
+   "texts": [
+    "一个光线充足的宽敞门厅，有白色的墙壁，右侧靠墙有灰色木制KALLSÖ 凯尔索 储物单元，后面是一扇窗户。",
+    "/rooms/hallway/gallery/all-natural-family-hallway-ideas-pubbbbda7d2",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fhallway%2Fgallery%2Fall-natural-family-hallway-ideas-pubbbbda7d2&key=cn--zh--71e47780574a11f08062dfb5f86dd454",
+    "{\"objectId_var\":\"/rooms/hallway/gallery/all-natural-family-hallway-ideas-pubbbbda7d2\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "70190412"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/content/u/20250703/2560C599-BD9D-45CD-A2C3DB025F235EB6.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content/u/20250703/78C1DB8A-89DA-4BA3-812B2F87AE64A969.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content/u/20250409/EB10948B-7346-4391-A8E17CBD8F19A710.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content/u/20250106/1870F73A-3EFC-42F5-898BCFDEE5323159.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content/u/20250703/D3FE36D7-5649-450D-89435883A8AB95B6.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/rooms/hallway/gallery/all-natural-family-hallway-ideas-pubbbbda7d2",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20250703/2560C599-BD9D-45CD-A2C3DB025F235EB6.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/rooms/hallway/gallery/kid-friendly-hallway-ideas-that-work-for-all-ages-pubf157fb40",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20250703/78C1DB8A-89DA-4BA3-812B2F87AE64A969.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/rooms/hallway/gallery/hallway-decorating-ideas-for-lasting-first-impressions-pub452174ad",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20250409/EB10948B-7346-4391-A8E17CBD8F19A710.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-带按钮图片列表 Visual Pill Slider-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>用风格统一的储物系列打造和谐门厅</h2>\n<p>你可以选择同一系列的家具，让各个储物设计风格统一。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "PLATSA 普拉萨 系列。",
+    "/cat/37894",
+    "NO",
+    "ikea://content/plp?catalogId=37894",
+    "{\"objectId_var\":\"37894\",\"objectType_var\":\"plp\"}"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/content-hub/f96ef328-1efa-4dd7-befb-0fa4910a9d15/4213eff6-1bdf-4c9a-b67f-c80ec72a7a7b.jpeg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content-space/barn-images/8AC78264-8A6D-427F-9FA1814C4E9BE93D/main-v1.JPG",
+    "https://res.app.ikea.cn/content/u/20230608/b7353e3c8a664d18a9083d81727969bb.png?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/cat/37894",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content-hub/f96ef328-1efa-4dd7-befb-0fa4910a9d15/4213eff6-1bdf-4c9a-b67f-c80ec72a7a7b.jpeg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content-space/barn-images/8AC78264-8A6D-427F-9FA1814C4E9BE93D/main-v1.JPG",
+     "text": ""
+    },
+    {
+     "href": "https://res.app.ikea.cn/content/u/20230608/b7353e3c8a664d18a9083d81727969bb.png?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-分栏内容 Columns-"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "HEMNES 汉尼斯 门厅系列。",
+    "/cat/58618",
+    "NO",
+    "ikea://content/plp?catalogId=58618",
+    "{\"objectId_var\":\"58618\",\"objectType_var\":\"plp\"}"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/content-space/barn-images/C82E0622-090C-47C1-9612FB43EADB7DD3/main-v1.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content-space/barn-images/80A1F804-A09D-48BC-9683A3C9E2BA92F1/main-v1.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content-space/barn-images/EBE3A0C7-359C-4FE5-B9526D625EBC54B4/main-v1.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/cat/58618",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content-space/barn-images/C82E0622-090C-47C1-9612FB43EADB7DD3/main-v1.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/cat/48956",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content-space/barn-images/80A1F804-A09D-48BC-9683A3C9E2BA92F1/main-v1.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/cat/45730",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content-space/barn-images/EBE3A0C7-359C-4FE5-B9526D625EBC54B4/main-v1.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-分栏内容 Columns-"
+   }
+  },
+  {
+   "type": "pub-inspiration-card",
+   "title": null,
+   "texts": [
+    "a785d120-0149-11ef-b6ca-63c91e2eedb2",
+    "/rooms/hallway/how-to",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fhallway%2Fhow-to&key=",
+    "{\"objectId_var\":\"/rooms/hallway/how-to\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "90329875"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/content-hub/f96ef328-1efa-4dd7-befb-0fa4910a9d15/47ac4d5e-8abe-4a1f-abb5-7c0e860c69f6.jpeg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content/u/20250703/03E1C943-3A24-4F19-9A3487D580381B58.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content-hub/f96ef328-1efa-4dd7-befb-0fa4910a9d15/085f37ae-c6be-4879-8309-fc906a9395db.jpeg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content-space/barn-images/BEF28533-54B3-45A4-B58893FDD7B59C92/main-v1.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content-hub/f96ef328-1efa-4dd7-befb-0fa4910a9d15/b33e7511-3c95-40b1-91e5-976943d1dad7.jpeg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/rooms/hallway/how-to",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content-hub/f96ef328-1efa-4dd7-befb-0fa4910a9d15/47ac4d5e-8abe-4a1f-abb5-7c0e860c69f6.jpeg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/rooms/hallway/how-to/how-to-furnish-a-family-hallway-pub8653b3e2",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20250703/03E1C943-3A24-4F19-9A3487D580381B58.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/rooms/hallway/how-to/easy-hallway-closet-ideas-pub2e53828d",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content-hub/f96ef328-1efa-4dd7-befb-0fa4910a9d15/085f37ae-c6be-4879-8309-fc906a9395db.jpeg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-富媒体卡片列表 Inspiration Cards-"
+   }
+  },
+  {
+   "type": "pub-assurances",
+   "title": null,
+   "texts": [
+    "/customer-service/services/assembly",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fcustomer-service%2Fservices%2Fassembly&key=",
+    "{\"objectId_var\":\"/customer-service/services/assembly\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "组装服务",
+    "assembly"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/customer-service/services/assembly",
+     "text": ""
+    },
+    {
+     "href": "/h5page/?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fdesign-leads%2Fwrd.html%3Fchannel%3DEC_website%26cl_sr%3DIRW_homepage_3nd_Anniversary%26design_version%3Dnon_GPC_case%26source%3DNEW_WEB",
+     "text": ""
+    },
+    {
+     "href": "/customer-service/payment-options",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-服务列表 Assurance-"
+   }
+  }
+ ]
+}

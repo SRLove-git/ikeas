@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/living-room/gallery/chuanglian-pubfcc498c1",
+ "family": "rooms",
+ "id": "cn--zh--fcc498c1572111e8aa2e13b447cdda5f",
+ "title": "你的放松之处不仅可以叠放枕头",
+ "name": "201731_cowt06a_PC_SEO",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "你的放松之处不仅可以叠放枕头",
+   "texts": [
+    "<p>客厅有一扇大窗户，内设三层窗帘装饰的舒适座位区。一层灰色卷帘防止屏幕反射光线，一层白色纱帘可让日光透进来，还有一层蓝色窗帘用来保护隐私。</p>",
+    "你的放松之处不仅可以叠放枕头",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/ec/5e/ec5e61eb1f282ecf4612d5dc76220f18.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/ec/5e/ec5e61eb1f282ecf4612d5dc76220f18.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "90321105",
+    "70171927",
+    "50314611",
+    "s29929584",
+    "40219898"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

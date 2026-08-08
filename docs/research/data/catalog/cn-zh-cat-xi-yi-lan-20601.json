@@ -1,0 +1,380 @@
+{
+ "url": "/cn/zh/cat/xi-yi-lan-20601",
+ "id": "xi-yi-lan-20601",
+ "name": "洗衣篮",
+ "description": "我们明白，洗衣服对大多数人而言不是一件趣事，但合适的洗衣篮可以让这项工作变得更加轻松。快来浏览我们的产品系列，从手工编织篮、带盖洗衣篮到带轮洗衣篮应有尽有，助你轻松往返于不同房间。",
+ "total": 23,
+ "products": [
+  {
+   "id": "10553608",
+   "name": "JÄLL 加尔",
+   "price": 24.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/jaell-jia-er-dai-jia-xi-yi-yong-dai-bai-se__1195672_pe902553_s4.jpg",
+   "productType": "带架洗衣用袋",
+   "designText": "白色",
+   "measureText": "50 公升",
+   "url": null,
+   "seoSlug": "jaell-jia-er-dai-jia-xi-yi-yong-dai-bai-se"
+  },
+  {
+   "id": "00632258",
+   "name": "PÄRKLA 派克拉",
+   "price": 9.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/paerkla-pai-ke-la-xi-yi-dai-bai-se__1501865_pe1007483_s4.jpg",
+   "productType": "洗衣袋",
+   "designText": "白色",
+   "measureText": "70 公升",
+   "url": null,
+   "seoSlug": "paerkla-pai-ke-la-xi-yi-dai-bai-se"
+  },
+  {
+   "id": "10567766",
+   "name": "SLIBB 斯利波",
+   "price": 29.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/slibb-si-li-bo-ruan-zhi-xi-yi-lan-lan-se__1232115_pe916412_s4.jpg",
+   "productType": "软质洗衣篮",
+   "designText": "蓝色",
+   "measureText": "24 公升",
+   "url": null,
+   "seoSlug": "slibb-si-li-bo-ruan-zhi-xi-yi-lan-lan-se"
+  },
+  {
+   "id": "40583699",
+   "name": "TORKIS 托吉斯",
+   "price": 49.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/torkis-tuo-ji-si-xi-yi-lan-shi-nei-wai-dan-lan__1263440_pe927307_s4.jpg",
+   "productType": "洗衣篮，室内/外",
+   "designText": "淡蓝",
+   "measureText": "35 公升",
+   "url": null,
+   "seoSlug": "torkis-tuo-ji-si-xi-yi-lan-shi-nei-wai-dan-lan"
+  },
+  {
+   "id": "50612724",
+   "name": "SLIBB 斯利波",
+   "price": 39.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/slibb-si-li-bo-xi-yi-lan-bai-se__1465311_pe995057_s4.jpg",
+   "productType": "洗衣篮",
+   "designText": "白色",
+   "measureText": "38 公升",
+   "url": null,
+   "seoSlug": "slibb-si-li-bo-xi-yi-lan-bai-se"
+  },
+  {
+   "id": "50512625",
+   "name": "TOLKNING 托克宁",
+   "price": 499,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/tolkning-tuo-ke-ning-dai-jiao-lun-xi-yi-lan-shou-gong-zhi-zuo-liu-shu__1098695_pe865488_s4.jpg",
+   "productType": "带脚轮洗衣篮",
+   "designText": "手工制作 柳树",
+   "measureText": "31 公升",
+   "url": null,
+   "seoSlug": "tolkning-tuo-ke-ning-dai-jiao-lun-xi-yi-lan-shou-gong-zhi-zuo-liu-shu"
+  },
+  {
+   "id": "50615143",
+   "name": "MÄVINN 马维宁",
+   "price": 199,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/maevinn-ma-wei-ning-xi-yi-lan-huang-ma-mian__1429002_pe981729_s4.jpg",
+   "productType": "洗衣篮",
+   "designText": "黄麻/棉",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "maevinn-ma-wei-ning-xi-yi-lan-huang-ma-mian"
+  },
+  {
+   "id": "80493833",
+   "name": "PURRPINGLA 普平拉",
+   "price": 149,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/purrpingla-pu-ping-la-xi-yi-dai-mi-huang-se__0954079_pe803161_s4.jpg",
+   "productType": "洗衣袋",
+   "designText": "米黄色",
+   "measureText": "100 公升",
+   "url": null,
+   "seoSlug": "purrpingla-pu-ping-la-xi-yi-dai-mi-huang-se"
+  },
+  {
+   "id": "80512619",
+   "name": "TOLKNING 托克宁",
+   "price": 249,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/tolkning-tuo-ke-ning-xi-yi-lan-shou-gong-zhi-zuo-liu-shu__1098694_pe865487_s4.jpg",
+   "productType": "洗衣篮",
+   "designText": "手工制作 柳树",
+   "measureText": "40 公升",
+   "url": null,
+   "seoSlug": "tolkning-tuo-ke-ning-xi-yi-lan-shou-gong-zhi-zuo-liu-shu"
+  },
+  {
+   "id": "70567297",
+   "name": "LJUNGAN 尤恩加恩",
+   "price": 249,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/ljungan-you-en-jia-en-xi-yi-dai__1185405_pe898388_s4.jpg",
+   "productType": "洗衣袋",
+   "designText": "",
+   "measureText": "40x50 厘米",
+   "url": null,
+   "seoSlug": "ljungan-you-en-jia-en-xi-yi-dai"
+  },
+  {
+   "id": "00618728",
+   "name": "ENHET 安纳特",
+   "price": 299,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/enhet-an-na-te-fu-jiao-lun-xi-yi-dai-bai-se__1440241_pe985657_s4.jpg",
+   "productType": "附脚轮洗衣袋",
+   "designText": "白色",
+   "measureText": "80 公升",
+   "url": null,
+   "seoSlug": "enhet-an-na-te-fu-jiao-lun-xi-yi-dai-bai-se"
+  },
+  {
+   "id": "50503584",
+   "name": "SALUDING 萨鲁丁",
+   "price": 299,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/saluding-sa-lu-ding-xi-yi-lan-shou-gong-zhi-zuo-zhu__1025991_pe834285_s4.jpg",
+   "productType": "洗衣篮",
+   "designText": "手工制作 竹",
+   "measureText": "50 公升",
+   "url": null,
+   "seoSlug": "saluding-sa-lu-ding-xi-yi-lan-shou-gong-zhi-zuo-zhu"
+  },
+  {
+   "id": "40522050",
+   "name": "FYLLEN 菲伦",
+   "price": 79.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/fyllen-fei-lun-xi-yi-lan-bai-se__0711295_pe728133_s4.jpg",
+   "productType": "洗衣篮",
+   "designText": "白色",
+   "measureText": "79 公升",
+   "url": null,
+   "seoSlug": "fyllen-fei-lun-xi-yi-lan-bai-se"
+  },
+  {
+   "id": "20609407",
+   "name": "PURRPINGLA 普平拉",
+   "price": 149,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/purrpingla-pu-ping-la-dai-jia-xi-yi-yong-dai-mi-huang-se__1465309_pe995059_s4.jpg",
+   "productType": "带架洗衣用袋",
+   "designText": "米黄色",
+   "measureText": "42 公升",
+   "url": null,
+   "seoSlug": "purrpingla-pu-ping-la-dai-jia-xi-yi-yong-dai-mi-huang-se"
+  },
+  {
+   "id": "30364372",
+   "name": "KLUNKA 弗伦伽",
+   "price": 69.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/klunka-fu-lun-jia-xi-yi-dai-bai-se-hei-se__0711257_pe728095_s4.jpg",
+   "productType": "洗衣袋",
+   "designText": "白色/黑色",
+   "measureText": "60 公升",
+   "url": null,
+   "seoSlug": "klunka-fu-lun-jia-xi-yi-dai-bai-se-hei-se"
+  },
+  {
+   "id": "50224045",
+   "name": "SKUBB 思库布",
+   "price": 49.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/skubb-si-ku-bu-dai-jia-xi-yi-yong-dai-hei-se__0711255_pe728093_s4.jpg",
+   "productType": "带架洗衣用袋",
+   "designText": "黑色",
+   "measureText": "80 公升",
+   "url": null,
+   "seoSlug": "skubb-si-ku-bu-dai-jia-xi-yi-yong-dai-hei-se"
+  },
+  {
+   "id": "90161989",
+   "name": "FRAKTA 弗拉塔",
+   "price": 19.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/frakta-fu-la-ta-yong-yu-tui-che-de-lu-xing-xiang-lan-se__0711261_pe728099_s4.jpg",
+   "productType": "用于推车的旅行箱",
+   "designText": "蓝色",
+   "measureText": "73x35x30 厘米 76 公升",
+   "url": null,
+   "seoSlug": "frakta-fu-la-ta-yong-yu-tui-che-de-lu-xing-xiang-lan-se"
+  },
+  {
+   "id": "90187753",
+   "name": "DIMPA 迪姆帕",
+   "price": 19.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/dimpa-di-mu-pa-chu-wu-dai-tou-ming__0711229_pe728074_s4.jpg",
+   "productType": "储物袋",
+   "designText": "透明",
+   "measureText": "65x22x65 厘米",
+   "url": null,
+   "seoSlug": "dimpa-di-mu-pa-chu-wu-dai-tou-ming"
+  },
+  {
+   "id": "80473694",
+   "name": "KNALLA 克纳拉",
+   "price": 19.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/knalla-ke-na-la-dai-hei-se-bai-se__0815749_pe773033_s4.jpg",
+   "productType": "袋",
+   "designText": "黑色/白色",
+   "measureText": "40x25x47 厘米/47 公升",
+   "url": null,
+   "seoSlug": "knalla-ke-na-la-dai-hei-se-bai-se"
+  },
+  {
+   "id": "00567724",
+   "name": "SLIBB 斯利波",
+   "price": 29.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/slibb-si-li-bo-ruan-zhi-xi-yi-lan-lu-se__1232113_pe916410_s4.jpg",
+   "productType": "软质洗衣篮",
+   "designText": "绿色",
+   "measureText": "24 公升",
+   "url": null,
+   "seoSlug": "slibb-si-li-bo-ruan-zhi-xi-yi-lan-lu-se"
+  },
+  {
+   "id": "20618727",
+   "name": "ENHET 安纳特",
+   "price": 299,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/enhet-an-na-te-fu-jiao-lun-xi-yi-dai-mei-hei-se__1440244_pe985658_s4.jpg",
+   "productType": "附脚轮洗衣袋",
+   "designText": "煤黑色",
+   "measureText": "80 公升",
+   "url": null,
+   "seoSlug": "enhet-an-na-te-fu-jiao-lun-xi-yi-dai-mei-hei-se"
+  },
+  {
+   "id": "80583697",
+   "name": "TORKIS 托吉斯",
+   "price": 49.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/torkis-tuo-ji-si-xi-yi-lan-shi-nei-wai-huang-se__1263455_pe927322_s4.jpg",
+   "productType": "洗衣篮，室内/外",
+   "designText": "黄色",
+   "measureText": "35 公升",
+   "url": null,
+   "seoSlug": "torkis-tuo-ji-si-xi-yi-lan-shi-nei-wai-huang-se"
+  },
+  {
+   "id": "70579163",
+   "name": "TORKIS 托吉斯",
+   "price": 49.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/torkis-tuo-ji-si-xi-yi-lan-shi-nei-wai-lu-se__1263445_pe927312_s4.jpg",
+   "productType": "洗衣篮，室内/外",
+   "designText": "绿色",
+   "measureText": "35 公升",
+   "url": null,
+   "seoSlug": "torkis-tuo-ji-si-xi-yi-lan-shi-nei-wai-lu-se"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "10553608",
+   "type": "ART",
+   "fullId": "10553608"
+  },
+  {
+   "id": "00632258",
+   "type": "ART",
+   "fullId": "00632258"
+  },
+  {
+   "id": "10567766",
+   "type": "ART",
+   "fullId": "10567766"
+  },
+  {
+   "id": "40583699",
+   "type": "ART",
+   "fullId": "40583699"
+  },
+  {
+   "id": "50612724",
+   "type": "ART",
+   "fullId": "50612724"
+  },
+  {
+   "id": "50512625",
+   "type": "ART",
+   "fullId": "50512625"
+  },
+  {
+   "id": "50615143",
+   "type": "ART",
+   "fullId": "50615143"
+  },
+  {
+   "id": "80493833",
+   "type": "ART",
+   "fullId": "80493833"
+  },
+  {
+   "id": "80512619",
+   "type": "ART",
+   "fullId": "80512619"
+  },
+  {
+   "id": "70567297",
+   "type": "ART",
+   "fullId": "70567297"
+  },
+  {
+   "id": "00618728",
+   "type": "ART",
+   "fullId": "00618728"
+  },
+  {
+   "id": "50503584",
+   "type": "ART",
+   "fullId": "50503584"
+  },
+  {
+   "id": "40522050",
+   "type": "ART",
+   "fullId": "40522050"
+  },
+  {
+   "id": "20609407",
+   "type": "ART",
+   "fullId": "20609407"
+  },
+  {
+   "id": "30364372",
+   "type": "ART",
+   "fullId": "30364372"
+  },
+  {
+   "id": "50224045",
+   "type": "ART",
+   "fullId": "50224045"
+  },
+  {
+   "id": "90161989",
+   "type": "ART",
+   "fullId": "90161989"
+  },
+  {
+   "id": "90187753",
+   "type": "ART",
+   "fullId": "90187753"
+  },
+  {
+   "id": "80473694",
+   "type": "ART",
+   "fullId": "80473694"
+  },
+  {
+   "id": "00567724",
+   "type": "ART",
+   "fullId": "00567724"
+  },
+  {
+   "id": "20618727",
+   "type": "ART",
+   "fullId": "20618727"
+  },
+  {
+   "id": "80583697",
+   "type": "ART",
+   "fullId": "80583697"
+  },
+  {
+   "id": "70579163",
+   "type": "ART",
+   "fullId": "70579163"
+  }
+ ]
+}

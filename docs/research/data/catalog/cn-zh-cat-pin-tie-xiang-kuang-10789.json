@@ -1,0 +1,124 @@
+{
+ "url": "/cn/zh/cat/pin-tie-xiang-kuang-10789",
+ "id": "pin-tie-xiang-kuang-10789",
+ "name": "宜家拼贴相框-图片和框架",
+ "description": "墙面画框可不止是点睛之笔。无论是呈现沙滩美景的巨大画框，还是展示肖像画的小画框，都是你追求美的起点。它们可以唤醒记忆，让你想象自己身在别处，或助你欣赏艺术作品。查看我们的产品，找到一件（或几件）梦寐以求的画框。",
+ "total": 7,
+ "products": [
+  {
+   "id": "20256622",
+   "name": "VÄXBO 韦斯伯",
+   "price": 69.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/vaexbo-wei-si-bo-8-ge-pin-tie-xiang-kuang-bai-se__0638570_pe699013_s4.jpg",
+   "productType": "8格拼贴相框",
+   "designText": "白色",
+   "measureText": "13x18 厘米",
+   "url": null,
+   "seoSlug": "vaexbo-wei-si-bo-8-ge-pin-tie-xiang-kuang-bai-se"
+  },
+  {
+   "id": "50553710",
+   "name": "RÖDALM 略达姆",
+   "price": 99.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/roedalm-lue-da-mu-9-tu-hua-kuang-hei-se__1251598_pe924270_s4.jpg",
+   "productType": "9图画框",
+   "designText": "黑色",
+   "measureText": "46x61 厘米",
+   "url": null,
+   "seoSlug": "roedalm-lue-da-mu-9-tu-hua-kuang-hei-se"
+  },
+  {
+   "id": "30622069",
+   "name": "VÄXBO 韦斯伯",
+   "price": 69.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/vaexbo-wei-si-bo-8-ge-pin-tie-xiang-kuang-lu-se__1508316_pe1009492_s4.jpg",
+   "productType": "8格拼贴相框",
+   "designText": "绿色",
+   "measureText": "13x18 厘米",
+   "url": null,
+   "seoSlug": "vaexbo-wei-si-bo-8-ge-pin-tie-xiang-kuang-lu-se"
+  },
+  {
+   "id": "80553723",
+   "name": "RÖDALM 略达姆",
+   "price": 79.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/roedalm-lue-da-mu-3-zhang-tu-pian-hua-kuang-hei-se__1251528_pe924246_s4.jpg",
+   "productType": "3张图片画框",
+   "designText": "黑色",
+   "measureText": "55x28 厘米",
+   "url": null,
+   "seoSlug": "roedalm-lue-da-mu-3-zhang-tu-pian-hua-kuang-hei-se"
+  },
+  {
+   "id": "90382844",
+   "name": "ALFTA 艾尔福塔",
+   "price": 29.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/alfta-ai-er-fu-ta-kuang-jia-yong-zi-nian-gua-gou-bai-se__0816266_pe777955_s4.jpg",
+   "productType": "框架用自粘挂钩",
+   "designText": "白色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "alfta-ai-er-fu-ta-kuang-jia-yong-zi-nian-gua-gou-bai-se"
+  },
+  {
+   "id": "50451783",
+   "name": "ALFTA 艾尔福塔",
+   "price": 19.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/alfta-ai-er-fu-ta-shuang-mian-xiao__0816267_pe777951_s4.jpg",
+   "productType": "双面胶",
+   "designText": "",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "alfta-ai-er-fu-ta-shuang-mian-xiao"
+  },
+  {
+   "id": "10553726",
+   "name": "RÖDALM 略达姆",
+   "price": 79.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/roedalm-lue-da-mu-3-zhang-tu-pian-hua-kuang-bai-se__1251530_pe924248_s4.jpg",
+   "productType": "3张图片画框",
+   "designText": "白色",
+   "measureText": "55x28 厘米",
+   "url": null,
+   "seoSlug": "roedalm-lue-da-mu-3-zhang-tu-pian-hua-kuang-bai-se"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "20256622",
+   "type": "ART",
+   "fullId": "20256622"
+  },
+  {
+   "id": "50553710",
+   "type": "ART",
+   "fullId": "50553710"
+  },
+  {
+   "id": "30622069",
+   "type": "ART",
+   "fullId": "30622069"
+  },
+  {
+   "id": "80553723",
+   "type": "ART",
+   "fullId": "80553723"
+  },
+  {
+   "id": "90382844",
+   "type": "ART",
+   "fullId": "90382844"
+  },
+  {
+   "id": "50451783",
+   "type": "ART",
+   "fullId": "50451783"
+  },
+  {
+   "id": "10553726",
+   "type": "ART",
+   "fullId": "10553726"
+  }
+ ]
+}

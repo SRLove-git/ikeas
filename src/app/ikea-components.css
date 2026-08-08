@@ -792,7 +792,7 @@ button.swiper-pagination-bullet{-webkit-appearance:none;-moz-appearance:none;app
 @media screen and (max-width:688px) {
 .pub-image-with-text-box__content .pub-image-with-text-box__icon{color:rgb(var(--colour-text-and-icon-1,17,17,17));font-size:24px;line-height:24px}
 }
-.pub-inspiration-card{margin:0}
+.pub-inspiration-card{margin:0 0 32px}
 .pub-inspiration-card h2{color:rgb(var(--colour-text-and-icon-1,17,17,17));font-size:24px;font-weight:700;line-height:36px;margin-bottom:24px}
 .pub-inspiration-card.is-compact .desc-operation{display:none}
 .pub-inspiration-card.is-compact .pub-inspiration-card__desc{bottom:0;margin:30px;padding:24px;position:absolute;width:calc(100% - 60px)}
@@ -814,6 +814,9 @@ button.swiper-pagination-bullet{-webkit-appearance:none;-moz-appearance:none;app
 .pub-inspiration-card__desc .desc-btn{align-items:center;background-color:#fff;border-radius:50%;color:#111;display:flex;font-size:24px;height:40px;justify-content:center;width:40px}
 @media screen and (max-width:768px) {
 .pub-inspiration-card{margin:30px 20px}
+}
+@media screen and (min-width:1024px) {
+.pub-inspiration-card{margin:0 0 48px}
 }
 @media screen and (max-width:768px) {
 .pub-inspiration-card h2{font-size:18px;line-height:27px;margin-bottom:16px}

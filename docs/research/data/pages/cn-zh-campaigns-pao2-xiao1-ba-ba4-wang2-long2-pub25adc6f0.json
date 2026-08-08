@@ -1,0 +1,447 @@
+{
+ "url": "/cn/zh/campaigns/pao2-xiao1-ba-ba4-wang2-long2-pub25adc6f0",
+ "family": "campaigns",
+ "id": "cn--zh--25adc6f0cfb411ea816c49357fd38bea",
+ "title": "咆哮吧，霸王龙！",
+ "name": "咆哮吧，霸王龙！",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "咆哮吧，霸王龙！"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>充满趣味和冒险精神的全新J&Auml;TTELIK 耶特里克 系列，让孩子们可以在自己的房间里拥有一方小小的恐龙世界。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/7b/1b/7b1bd22d5c56aa2ea1a0cbd08a9fc62b.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/7b/1b/7b1bd22d5c56aa2ea1a0cbd08a9fc62b.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "40471197",
+    "30471206",
+    "00471203",
+    "70471209"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2><strong>重返侏罗纪，一起探险吧！</strong></h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "bawanglong1",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/96/33/9633b4236f40a32e342a07a84660302c.gif"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/96/33/9633b4236f40a32e342a07a84660302c.gif",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "bawanglong2",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/5d/f8/5df843d43786364139bc161fe2833c0d.gif"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/5d/f8/5df843d43786364139bc161fe2833c0d.gif",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "<h2><strong>你认识它们吗？</strong></h2>",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "/p/00471203?artType=ART",
+    "NO",
+    "ikea://content/pip?id=00471203&type=ART",
+    "{\"objectId_var\":\"00471203\",\"objectType_var\":\"product\"}",
+    "pub-image"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/d1/57/d157eba1a98611f7270b3dcdcdec2bd8.jpg",
+    "https://file.app.ikea.cn/images/74/85/7485fd230cd97118b80c5e0765526f98.jpg"
+   ],
+   "links": [
+    {
+     "href": "/p/00471203?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/d1/57/d157eba1a98611f7270b3dcdcdec2bd8.jpg",
+     "text": ""
+    },
+    {
+     "href": "/p/00471203?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "/p/40471197?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/74/85/7485fd230cd97118b80c5e0765526f98.jpg",
+     "text": ""
+    },
+    {
+     "href": "/p/40471197?artType=ART",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "/p/70471191?artType=ART",
+    "NO",
+    "ikea://content/pip?id=70471191&type=ART",
+    "{\"objectId_var\":\"70471191\",\"objectType_var\":\"product\"}",
+    "pub-image"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/35/1c/351c4346f40a0513f7bf73ce3e07114f.jpg",
+    "https://file.app.ikea.cn/images/0b/bd/0bbd3ea237638a5f98e6d6bf14ddc9aa.jpg"
+   ],
+   "links": [
+    {
+     "href": "/p/70471191?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/35/1c/351c4346f40a0513f7bf73ce3e07114f.jpg",
+     "text": ""
+    },
+    {
+     "href": "/p/70471191?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "/p/20471216?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/0b/bd/0bbd3ea237638a5f98e6d6bf14ddc9aa.jpg",
+     "text": ""
+    },
+    {
+     "href": "/p/20471216?artType=ART",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "/p/10471212?artType=ART",
+    "NO",
+    "ikea://content/pip?id=10471212&type=ART",
+    "{\"objectId_var\":\"10471212\",\"objectType_var\":\"product\"}",
+    "pub-image"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/32/fa/32fa8aab4790c6c339f58d45416c828e.gif",
+    "https://file.app.ikea.cn/images/4a/00/4a006e4b4b6de186572a714c707827e4.jpg"
+   ],
+   "links": [
+    {
+     "href": "/p/10471212?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/32/fa/32fa8aab4790c6c339f58d45416c828e.gif",
+     "text": ""
+    },
+    {
+     "href": "/p/10471212?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "/p/60471219?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/4a/00/4a006e4b4b6de186572a714c707827e4.jpg",
+     "text": ""
+    },
+    {
+     "href": "/p/60471219?artType=ART",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "70471209",
+    "30471206",
+    "30471188",
+    "90471185"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/cat/18740",
+    "NO",
+    "ikea://content/plp?catalogId=18740",
+    "{\"objectId_var\":\"18740\",\"objectType_var\":\"plp\"}",
+    "button",
+    "查看更多毛绒玩具"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/18740",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "<h2><strong>和剑龙一起入睡</strong></h2>",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/be/51/be51c72408345719c8d7fb2ed89d0c3d.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/be/51/be51c72408345719c8d7fb2ed89d0c3d.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "80464128",
+    "00464146",
+    "70464119",
+    "60464110",
+    "90464175"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/cat/18776",
+    "NO",
+    "ikea://content/plp?catalogId=18776",
+    "{\"objectId_var\":\"18776\",\"objectType_var\":\"plp\"}",
+    "button",
+    "查看更多儿童床上用品"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/18776",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "<h2><strong>追随迅猛龙的脚步</strong></h2>",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/10/81/10813e1e38f1356afbacf60cf1c58069.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/10/81/10813e1e38f1356afbacf60cf1c58069.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "20464169",
+    "60464172",
+    "70464195",
+    "70479984",
+    "30464164"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/cat/18730",
+    "NO",
+    "ikea://content/plp?catalogId=18730",
+    "{\"objectId_var\":\"18730\",\"objectType_var\":\"plp\"}",
+    "button",
+    "查看更多儿童纺织品"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/18730",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2><strong>你可能还想看</strong></h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--rooms--childrens-room",
+    "/rooms/childrens-room/",
+    "section",
+    "想象一下，孩子的房间里都是他们喜欢的家具、床上用品、玩具等等。浏览宜家网站，探索婴儿房和儿童房的产品及设计建议。",
+    "儿童房",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fchildrens-room%2F&key=cn--zh--a6e23d7e910645a4836ff8562e84adee"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20250707/88aad0529abb4f019d5b932c394d493c.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20250707/88aad0529abb4f019d5b932c394d493c.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": null
+  }
+ ]
+}

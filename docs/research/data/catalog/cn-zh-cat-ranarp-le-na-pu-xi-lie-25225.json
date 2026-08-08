@@ -1,0 +1,60 @@
+{
+ "url": "/cn/zh/cat/ranarp-le-na-pu-xi-lie-25225",
+ "id": "ranarp-le-na-pu-xi-lie-25225",
+ "name": "RANARP 勒纳普 系列",
+ "description": "查看 RANARP 勒纳普 复古照明系列，为房间打造经典实用的照明方案。我们的复古台灯的设计灵感源自风格传统的包布线绳。多数采用可调节灯头，可以随心调节灯光。访问宜家官网，了解如何在家中营造复古照明效果。",
+ "total": 3,
+ "products": [
+  {
+   "id": "90231317",
+   "name": "RANARP 勒纳普",
+   "price": 199,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/ranarp-le-na-pu-gong-zuo-deng-hui-bai__0610455_pe685514_s4.jpg",
+   "productType": "工作灯",
+   "designText": "灰白",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "ranarp-le-na-pu-gong-zuo-deng-hui-bai"
+  },
+  {
+   "id": "00390971",
+   "name": "RANARP 勒纳普",
+   "price": 199,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/ranarp-le-na-pu-diao-deng-hui-bai__0613060_pe686150_s4.jpg",
+   "productType": "吊灯",
+   "designText": "灰白",
+   "measureText": "38 厘米",
+   "url": null,
+   "seoSlug": "ranarp-le-na-pu-diao-deng-hui-bai"
+  },
+  {
+   "id": "70231323",
+   "name": "RANARP 勒纳普",
+   "price": 149,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/ranarp-le-na-pu-qiang-mian-jia-shi-she-deng-hui-bai__0606605_pe682409_s4.jpg",
+   "productType": "墙面夹式射灯",
+   "designText": "灰白",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "ranarp-le-na-pu-qiang-mian-jia-shi-she-deng-hui-bai"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "90231317",
+   "type": "ART",
+   "fullId": "90231317"
+  },
+  {
+   "id": "00390971",
+   "type": "ART",
+   "fullId": "00390971"
+  },
+  {
+   "id": "70231323",
+   "type": "ART",
+   "fullId": "70231323"
+  }
+ ]
+}

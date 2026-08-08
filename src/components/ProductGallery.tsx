@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { SiteImage } from "@/components/SiteImage";
 
 interface ProductGalleryProps {
   images: (string | null)[];
@@ -12,20 +13,17 @@ export function ProductGallery({ images, name }: ProductGalleryProps) {
   const valid = images.filter((img): img is string => Boolean(img));
 
   if (valid.length === 0) {
-    return <div className="aspect-square w-full bg-ikea-gray-100" />;
+    return <SiteImage src={null} alt={name} className="aspect-square w-full" />;
   }
 
   return (
     <div className="flex flex-col">
-      <div className="relative aspect-square w-full overflow-hidden bg-ikea-gray-100">
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          key={valid[active]}
-          src={valid[active]}
-          alt={name}
-          className="h-full w-full object-cover"
-        />
-      </div>
+      <SiteImage
+        key={valid[active]}
+        src={valid[active]}
+        alt={name}
+        className="aspect-square w-full"
+      />
       {valid.length > 1 ? (
         <div className="mt-3 flex gap-2 overflow-x-auto no-scrollbar">
           {valid.map((img, index) => (
@@ -40,8 +38,7 @@ export function ProductGallery({ images, name }: ProductGalleryProps) {
               }`}
               onClick={() => setActive(index)}
             >
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={img} alt="" className="h-full w-full object-cover" />
+              <SiteImage src={img} alt="" className="h-full w-full" />
             </button>
           ))}
         </div>

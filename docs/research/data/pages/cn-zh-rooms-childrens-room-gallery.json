@@ -1,0 +1,71 @@
+{
+ "url": "/cn/zh/rooms/childrens-room/gallery",
+ "family": "rooms",
+ "id": "cn--zh--ab3e92413c3a4c24a7320f8f5af0c90b",
+ "title": "儿童房灵感图库",
+ "name": "702621_chga01a",
+ "hero": "https://file.app.ikea.cn/content/u/20250409/EB5A039E-D09F-4E3B-AD5A14C924C1D181.jpg",
+ "blocks": [
+  {
+   "type": "pub-standardised-hero",
+   "title": "满足各阶段成长需求的儿童房设计灵感",
+   "texts": [
+    "<p>从婴儿的第一次小睡，到青少年的创意天地，儿童房的设计都应该与孩子的成长节奏保持一致。在宜家，你会找到集合了巧妙储物、活泼风格与实用功能的儿童房布置创意，轻松打造一个安全、有趣、适应孩子成长步伐的理想空间。</p>\n<p>探索儿童卧室设计灵感和装饰创意，让你的家居空间更好地满足不同年龄、不同个性孩子的需要。</p>",
+    "满足各阶段成长需求的儿童房设计灵感"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Standardised Hero-满足各阶段成长需求的儿童房设计灵感"
+   }
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--bbf226d6d3545c0291462f5ef5857af3",
+    "/rooms/childrens-room/gallery/one-shared-childrens-bedroom-multiple-worlds-puba434d1c3",
+    "page",
+    "房间隔断打造灵活的儿童共享卧室",
+    "寻找儿童共享卧室创意？TROFAST 舒法特 隔断将这个房间划分为两个空间，还灵活的解决了棘手的储物挑战！",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fchildrens-room%2Fgallery%2Fone-shared-childrens-bedroom-multiple-worlds-puba434d1c3&key=cn--zh--bbf226d6d3545c0291462f5ef5857af3"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/content/u/20251021/74981E09-5276-4D8C-91CD65D84368FDF7.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content/u/20250703/EA7B14C3-5694-43BA-B0258E037DB09043.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20250708/76b91ac2fafb4755bc25fe5b47e1777f.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content/u/20241217/8168356D-7B72-4C11-BADE30EB353AA51E.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content/u/20241217/737283D0-18CF-4A19-840E3415DD54E42A.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/content/u/20251021/74981E09-5276-4D8C-91CD65D84368FDF7.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20250703/EA7B14C3-5694-43BA-B0258E037DB09043.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20250708/76b91ac2fafb4755bc25fe5b47e1777f.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20241217/8168356D-7B72-4C11-BADE30EB353AA51E.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20241217/737283D0-18CF-4A19-840E3415DD54E42A.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20241023/D5DC7903-3C68-4B8B-B8B544BB9C3F1671.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-页面列表-"
+   }
+  }
+ ]
+}

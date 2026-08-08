@@ -1,12 +1,12 @@
 import { notFound } from "next/navigation";
-import { findContentPage, pagesByFamily } from "@/lib/pages";
+import { findContentPage, pagesDeeper } from "@/lib/pages";
 import { ContentPage } from "@/components/ContentPage";
 import { SiteLayout } from "@/components/SiteLayout";
 
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return pagesByFamily("rooms-articles").map((page) => ({
+  return pagesDeeper("rooms", 2).map((page) => ({
     slug: page.url
       .replace("/cn/zh/rooms/", "")
       .replace(/\/+$/, "")

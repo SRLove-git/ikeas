@@ -1,0 +1,280 @@
+{
+ "url": "/cn/zh/stores/qingdao/yi2-jia1-qing1-dao3-shang1-chang3-pub8d5cfa4d",
+ "family": "stores",
+ "id": "cn--zh--8d5cfa4dcc8c11ea816c49357fd38bea",
+ "title": "宜家青岛商场",
+ "name": "App_QD_PC",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "宜家青岛商场"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/6a/a4/6aa413487b5741d3b37872c08751141c.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/6a/a4/6aa413487b5741d3b37872c08751141c.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "/h5page/?url=https%3A%2F%2Fdatayi.cn%2FoVxWRNd",
+    "NO",
+    "ikea://default-module/H5?url=https%3A%2F%2Fdatayi.cn%2FoVxWRNd",
+    "{\"objectId_var\":\"https://datayi.cn/oVxWRNd\",\"objectType_var\":\"default-module/H5\"}",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/e3/d5/e3d5d5056edf91cbf13ac574df60fb51.jpg"
+   ],
+   "links": [
+    {
+     "href": "/h5page/?url=https%3A%2F%2Fdatayi.cn%2FoVxWRNd",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/e3/d5/e3d5d5056edf91cbf13ac574df60fb51.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/a3/42/a3429924625aa8521f59170bbbafd16d.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/a3/42/a3429924625aa8521f59170bbbafd16d.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "/h5page/?url=https%3A%2F%2Fstatic.family.ikea.cn%2F%23%2FaccountRegister1%3FstoreCode%3D549",
+    "NO",
+    "ikea://default-module/H5?url=https%3A%2F%2Fstatic.family.ikea.cn%2F%23%2FaccountRegister1%3FstoreCode%3D549",
+    "{\"objectId_var\":\"https://static.family.ikea.cn/#/accountRegister1?storeCode=549\",\"objectType_var\":\"default-module/H5\"}",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/ba/6f/ba6f6935de153d4d46311986fe5891b6.jpg"
+   ],
+   "links": [
+    {
+     "href": "/h5page/?url=https%3A%2F%2Fstatic.family.ikea.cn%2F%23%2FaccountRegister1%3FstoreCode%3D549",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/ba/6f/ba6f6935de153d4d46311986fe5891b6.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/f6/cb/f6cb35087281d6eb59dcd840dc530320.jpg",
+    "https://file.app.ikea.cn/images/19/3d/193d5b72fa350885d648435084b0be8b.jpg",
+    "https://file.app.ikea.cn/images/1e/3a/1e3aa6bc9b02da63d302abace23cc9da.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/f6/cb/f6cb35087281d6eb59dcd840dc530320.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/19/3d/193d5b72fa350885d648435084b0be8b.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/1e/3a/1e3aa6bc9b02da63d302abace23cc9da.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/bf/a3/bfa3889089d454957a305f9d0a3ca6b5.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/bf/a3/bfa3889089d454957a305f9d0a3ca6b5.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "/h5page/?url=https%3A%2F%2Fdatayi.cn%2FoVxWRNd",
+    "NO",
+    "ikea://default-module/H5?url=https%3A%2F%2Fdatayi.cn%2FoVxWRNd",
+    "{\"objectId_var\":\"https://datayi.cn/oVxWRNd\",\"objectType_var\":\"default-module/H5\"}",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/64/5f/645fef292ba313a0a077d4c664d82fcb.jpg"
+   ],
+   "links": [
+    {
+     "href": "/h5page/?url=https%3A%2F%2Fdatayi.cn%2FoVxWRNd",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/64/5f/645fef292ba313a0a077d4c664d82fcb.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/cc/f6/ccf6598e80e7debe15ad355e38078bf1.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/cc/f6/ccf6598e80e7debe15ad355e38078bf1.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/5b/eb/5beb1223374bdb3f0f65370d2b09b4a8.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/5b/eb/5beb1223374bdb3f0f65370d2b09b4a8.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/31/c3/31c3412e6a88f397b6df240ab09d9a0f.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/31/c3/31c3412e6a88f397b6df240ab09d9a0f.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/36/76/3676fef8708e801c7627b7e8977c9acb.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/36/76/3676fef8708e801c7627b7e8977c9acb.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "/h5page/?url=https%3A%2F%2Fdatayi.cn%2FoVxWRNd",
+    "NO",
+    "ikea://default-module/H5?url=https%3A%2F%2Fdatayi.cn%2FoVxWRNd",
+    "{\"objectId_var\":\"https://datayi.cn/oVxWRNd\",\"objectType_var\":\"default-module/H5\"}",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/e3/d5/e3d5d5056edf91cbf13ac574df60fb51.jpg"
+   ],
+   "links": [
+    {
+     "href": "/h5page/?url=https%3A%2F%2Fdatayi.cn%2FoVxWRNd",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/e3/d5/e3d5d5056edf91cbf13ac574df60fb51.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/living-room/gallery/keting-pubc763d311",
+ "family": "rooms",
+ "id": "cn--zh--c763d311cf7911e78e0a0bf79e0fa98f",
+ "title": "优雅、时尚、可持续",
+ "name": "20174-cold03a_PF_CT_SEO_AD_QA",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "优雅、时尚、可持续",
+   "texts": [
+    "深棕色、黑色和白色的客厅墙壁上装有竹质搁板。",
+    "优雅、时尚、可持续",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/16/2d/162d46d376d83fd69d4db01544de843e.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/16/2d/162d46d376d83fd69d4db01544de843e.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s39184461",
+    "70325519",
+    "70320098",
+    "s39031703",
+    "00213313"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

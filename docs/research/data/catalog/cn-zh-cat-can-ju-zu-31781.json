@@ -1,0 +1,124 @@
+{
+ "url": "/cn/zh/cat/can-ju-zu-31781",
+ "id": "can-ju-zu-31781",
+ "name": "餐具组",
+ "description": "正在为浪漫晚餐寻找理想的盘子？还是只想要一些在忙碌的工作日早上使用的实用型盘子？无论哪种情况，我们都有能够满足你需求与风格的餐具组合。从盘子、碗到餐具组合，宜家应有尽有。在线探索我们的产品系列吧。",
+ "total": 7,
+ "products": [
+  {
+   "id": "90621359",
+   "name": "IKEA 365+",
+   "price": 499,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/ikea-365-can-ju-18-jian-bai-se__1514214_pe1010883_s4.jpg",
+   "productType": "餐具18件",
+   "designText": "白色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "ikea-365-can-ju-1-8-jian-bai-se"
+  },
+  {
+   "id": "70614294",
+   "name": "SPJUTLILJA 斯尤利亚",
+   "price": 49.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/spjutlilja-si-you-li-ya-can-ju-3-jian-tao-duo-se__1467213_pe995702_s4.jpg",
+   "productType": "餐具3件套",
+   "designText": "多色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "spjutlilja-si-you-li-ya-can-ju-3-jian-tao-duo-se"
+  },
+  {
+   "id": "40277355",
+   "name": "VÄRDERA 瓦德拉",
+   "price": 349,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/vaerdera-wa-de-la-can-ju-18-jian-bai-se__0712801_pe729021_s4.jpg",
+   "productType": "餐具18件",
+   "designText": "白色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "vaerdera-wa-de-la-can-ju-1-8-jian-bai-se"
+  },
+  {
+   "id": "10582781",
+   "name": "MOSSMAL 莫斯玛",
+   "price": 29.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/mossmal-mo-si-ma-pan-zi-wan-3-jian-tao-bo-dian-tu-an-qian-lu__1343638_pe949603_s4.jpg",
+   "productType": "盘子/碗3件套",
+   "designText": "波点图案/浅绿",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "mossmal-mo-si-ma-pan-zi-wan-3-jian-tao-bo-dian-tu-an-qian-lu"
+  },
+  {
+   "id": "00572438",
+   "name": "FÄRGKLAR 法利克洛",
+   "price": 199,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/faergklar-fa-li-ke-luo-can-ju-10-jian-wu-guang-ze-lu-se__1214584_pe911671_s4.jpg",
+   "productType": "餐具10件",
+   "designText": "无光泽 绿色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "faergklar-fa-li-ke-luo-can-ju-1-0-jian-wu-guang-ze-lu-se"
+  },
+  {
+   "id": "80572439",
+   "name": "FÄRGKLAR 法利克洛",
+   "price": 199,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/faergklar-fa-li-ke-luo-can-ju-10-jian-wu-guang-ze-dan-hui-se__1214585_pe911672_s4.jpg",
+   "productType": "餐具10件",
+   "designText": "无光泽 淡灰色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "faergklar-fa-li-ke-luo-can-ju-1-0-jian-wu-guang-ze-dan-hui-se"
+  },
+  {
+   "id": "40572441",
+   "name": "FÄRGKLAR 法利克洛",
+   "price": 199,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/faergklar-fa-li-ke-luo-can-ju-10-jian-wu-guang-ze-qian-qing-lu-se__1214586_pe911673_s4.jpg",
+   "productType": "餐具10件",
+   "designText": "无光泽 浅青绿色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "faergklar-fa-li-ke-luo-can-ju-1-0-jian-wu-guang-ze-qian-qing-lu-se"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "90621359",
+   "type": "ART",
+   "fullId": "90621359"
+  },
+  {
+   "id": "70614294",
+   "type": "ART",
+   "fullId": "70614294"
+  },
+  {
+   "id": "40277355",
+   "type": "ART",
+   "fullId": "40277355"
+  },
+  {
+   "id": "10582781",
+   "type": "ART",
+   "fullId": "10582781"
+  },
+  {
+   "id": "00572438",
+   "type": "ART",
+   "fullId": "00572438"
+  },
+  {
+   "id": "80572439",
+   "type": "ART",
+   "fullId": "80572439"
+  },
+  {
+   "id": "40572441",
+   "type": "ART",
+   "fullId": "40572441"
+  }
+ ]
+}

@@ -1,0 +1,466 @@
+{
+ "url": "/cn/zh/rooms/bedroom/how-to/woshijiaju-pube4079f89",
+ "family": "rooms",
+ "id": "cn--zh--e4079f895cf111eabd70abd87dc39e2e",
+ "title": "卧室家具系列",
+ "name": "卧室家具 - 系列_SEO",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "卧室家具系列",
+   "texts": [
+    "卧室家具系列",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/33/4f/334f3962cc9d28a05c5f65e823b04624.png"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/33/4f/334f3962cc9d28a05c5f65e823b04624.png",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "52a2847ba66f43f99a645bb1e8a4dfaa"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "/customer-service/mobile-apps/man3-zu2-bu4-tong2-ju1-shi4-xu1-qiu2-de-ling2-huo2-chu3-wu4-xi4-lie4-pub634e7900/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fcustomer-service%2Fmobile-apps%2Fman3-zu2-bu4-tong2-ju1-shi4-xu1-qiu2-de-ling2-huo2-chu3-wu4-xi4-lie4-pub634e7900%2F&key=",
+    "{\"objectId_var\":\"/customer-service/mobile-apps/man3-zu2-bu4-tong2-ju1-shi4-xu1-qiu2-de-ling2-huo2-chu3-wu4-xi4-lie4-pub634e7900/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "pub-image"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/8b/17/8b17bde3fba0d193742e0dc6428303cc.png",
+    "https://file.app.ikea.cn/images/15/f0/15f0c9c055f98ea429f86db9ca214b3e.png",
+    "https://file.app.ikea.cn/images/a6/81/a681bfadd86506d72bcde4414b31300a.png"
+   ],
+   "links": [
+    {
+     "href": "/customer-service/mobile-apps/man3-zu2-bu4-tong2-ju1-shi4-xu1-qiu2-de-ling2-huo2-chu3-wu4-xi4-lie4-pub634e7900/",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/8b/17/8b17bde3fba0d193742e0dc6428303cc.png",
+     "text": ""
+    },
+    {
+     "href": "/rooms/childrens-room/gallery/yi1-jian1-ge4-xing4-shi2-zu2-de-er2-tong2-fang2-pub9b57c646/",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/15/f0/15f0c9c055f98ea429f86db9ca214b3e.png",
+     "text": ""
+    },
+    {
+     "href": "/cat/35766",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/a6/81/a681bfadd86506d72bcde4414b31300a.png",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "4116b6e446b24409a2d2da82119a3ade"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "/rooms/bedroom/pax-series-pub9c63ad51",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fbedroom%2Fpax-series-pub9c63ad51&key=",
+    "{\"objectId_var\":\"/rooms/bedroom/pax-series-pub9c63ad51\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "pub-image"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/37/56/3756d814eeacaa85c7127e95c03b9efa.png",
+    "https://file.app.ikea.cn/cms/u/20220210/01f714cd232b4e0c9c6b55545bf0a19d.png?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/images/1d/fb/1dfb3105f94cc9934e1c3547beb9d882.jpg"
+   ],
+   "links": [
+    {
+     "href": "/rooms/bedroom/pax-series-pub9c63ad51",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/37/56/3756d814eeacaa85c7127e95c03b9efa.png",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=SOLLEFTEÅ",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220210/01f714cd232b4e0c9c6b55545bf0a19d.png?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/cat/37894",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/1d/fb/1dfb3105f94cc9934e1c3547beb9d882.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "0bcdb0f6b4e642cbb2d7a835c414b89f"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "/search/products?q=MUSKEN",
+    "NO",
+    "ikea://default-module/search?query=MUSKEN",
+    "{\"objectId_var\":\"MUSKEN\",\"objectType_var\":\"search_result\"}",
+    "pub-image"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/2e/f5/2ef51dba49bac84f46e1d1bd9f4df6c1.jpg",
+    "https://file.app.ikea.cn/images/e8/ea/e8ea2a736ea9d2fd529fd843ee8e9543.jpg",
+    "https://file.app.ikea.cn/images/b7/6d/b76d8ca61bd95780d204835633c404c3.jpg"
+   ],
+   "links": [
+    {
+     "href": "/search/products?q=MUSKEN",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/2e/f5/2ef51dba49bac84f46e1d1bd9f4df6c1.jpg",
+     "text": ""
+    },
+    {
+     "href": "/cat/25035",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/e8/ea/e8ea2a736ea9d2fd529fd843ee8e9543.jpg",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=TARVA 塔瓦",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/b7/6d/b76d8ca61bd95780d204835633c404c3.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "e2cb68410775446bb393f40a07e3d91a"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "/cat/07468",
+    "NO",
+    "ikea://content/plp?catalogId=07468",
+    "{\"objectId_var\":\"07468\",\"objectType_var\":\"plp\"}",
+    "pub-image"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/3a/ae/3aae939d1c0c7857d92dad5eef777fb0.jpg",
+    "https://file.app.ikea.cn/images/e0/b4/e0b4a64f74123e48d3ff42d138af85f2.jpg",
+    "https://file.app.ikea.cn/images/e2/59/e25968fbac97ca9b73c9c2f4c106541d.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/07468",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/3a/ae/3aae939d1c0c7857d92dad5eef777fb0.jpg",
+     "text": ""
+    },
+    {
+     "href": "/cat/11731",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/e0/b4/e0b4a64f74123e48d3ff42d138af85f2.jpg",
+     "text": ""
+    },
+    {
+     "href": "/cat/12555",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/e2/59/e25968fbac97ca9b73c9c2f4c106541d.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cd170eeb10cd4b26b07b9bd30afd445b"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "/cat/18125",
+    "NO",
+    "ikea://content/plp?catalogId=18125",
+    "{\"objectId_var\":\"18125\",\"objectType_var\":\"plp\"}",
+    "pub-image"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/bd/79/bd793e316cf4aa78789e4c35fde58402.jpg",
+    "https://file.app.ikea.cn/images/0f/e1/0fe14bd892f7458f61376938b34a00c4.png",
+    "https://file.app.ikea.cn/images/a0/c8/a0c82696609e824cf2faf96ea4188803.png"
+   ],
+   "links": [
+    {
+     "href": "/cat/18125",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/bd/79/bd793e316cf4aa78789e4c35fde58402.jpg",
+     "text": ""
+    },
+    {
+     "href": "/cat/34964",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/0f/e1/0fe14bd892f7458f61376938b34a00c4.png",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=IKEA PS",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/a0/c8/a0c82696609e824cf2faf96ea4188803.png",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "b08bc2ce154542dd93602b6b2cd01ec4"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "/cat/30126",
+    "NO",
+    "ikea://content/plp?catalogId=30126",
+    "{\"objectId_var\":\"30126\",\"objectType_var\":\"plp\"}",
+    "pub-image"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/09/cb/09cbefad6418e687ce0d836bf09918b0.jpg",
+    "https://file.app.ikea.cn/images/a6/5d/a65df3898be9602d288e3607cecdacb3.jpg",
+    "https://file.app.ikea.cn/images/21/26/2126c3db09a09b6c9f434eda66dbd681.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/30126",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/09/cb/09cbefad6418e687ce0d836bf09918b0.jpg",
+     "text": ""
+    },
+    {
+     "href": "/cat/12566",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/a6/5d/a65df3898be9602d288e3607cecdacb3.jpg",
+     "text": ""
+    },
+    {
+     "href": "/cat/25225",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/21/26/2126c3db09a09b6c9f434eda66dbd681.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "97b5845701ee4720b3a8c4d97446021b"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "/cat/12553",
+    "NO",
+    "ikea://content/plp?catalogId=12553",
+    "{\"objectId_var\":\"12553\",\"objectType_var\":\"plp\"}",
+    "pub-image"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/d8/96/d8968ccd50d7b9ae5b574d1f530b6e93.jpg",
+    "https://file.app.ikea.cn/images/cc/1c/cc1c855e49b8a5b9297c58a93ff28fd5.jpg",
+    "https://file.app.ikea.cn/images/75/1d/751d0d482a399a80b0adc8b4a8970918.png"
+   ],
+   "links": [
+    {
+     "href": "/cat/12553",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/d8/96/d8968ccd50d7b9ae5b574d1f530b6e93.jpg",
+     "text": ""
+    },
+    {
+     "href": "/cat/12562",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/cc/1c/cc1c855e49b8a5b9297c58a93ff28fd5.jpg",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=AVSIKTLIG",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/75/1d/751d0d482a399a80b0adc8b4a8970918.png",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "e90710499e4d4005890774ad86efc8d5"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "/cat/25253",
+    "NO",
+    "ikea://content/plp?catalogId=25253",
+    "{\"objectId_var\":\"25253\",\"objectType_var\":\"plp\"}",
+    "pub-image"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/7f/d4/7fd4094e9b2e3cdd3745b532a607f7f1.jpg",
+    "https://file.app.ikea.cn/images/05/dc/05dc95ace2d32d29eb1bc6d774fb6566.jpg",
+    "https://file.app.ikea.cn/images/88/fa/88fa0ed165bf32371b419f0c7bb27728.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/25253",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/7f/d4/7fd4094e9b2e3cdd3745b532a607f7f1.jpg",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=FUBBLA",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/05/dc/05dc95ace2d32d29eb1bc6d774fb6566.jpg",
+     "text": ""
+    },
+    {
+     "href": "/cat/38980",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/88/fa/88fa0ed165bf32371b419f0c7bb27728.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "aca16d98bb6f49fb9600df9092cbe6a5"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "/cat/38608",
+    "NO",
+    "ikea://content/plp?catalogId=38608",
+    "{\"objectId_var\":\"38608\",\"objectType_var\":\"plp\"}",
+    "pub-image"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/34/8c/348c2a5fed3fe73a114f4faefe5e0273.jpg",
+    "https://file.app.ikea.cn/images/48/e6/48e6892fd8df0dc79fadcfbe0a19af1f.jpg",
+    "https://file.app.ikea.cn/images/ba/83/ba835fbe036c0af21c1fbdee07d167e8.png"
+   ],
+   "links": [
+    {
+     "href": "/cat/38608",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/34/8c/348c2a5fed3fe73a114f4faefe5e0273.jpg",
+     "text": ""
+    },
+    {
+     "href": "/cat/27571",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/48/e6/48e6892fd8df0dc79fadcfbe0a19af1f.jpg",
+     "text": ""
+    },
+    {
+     "href": "/cat/37119",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/ba/83/ba835fbe036c0af21c1fbdee07d167e8.png",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "dfc8ae2d0cfe47deb9c226e61b0a0f7b"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/rooms/bedroom/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fbedroom%2F&key=",
+    "{\"objectId_var\":\"/rooms/bedroom/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "返回卧室家具"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/rooms/bedroom/",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "41daff2c30a542e29f66b4b3b781ca70"
+   }
+  }
+ ]
+}

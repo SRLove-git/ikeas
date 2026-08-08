@@ -1,0 +1,124 @@
+{
+ "url": "/cn/zh/cat/kong-qi-jing-hua-qi-56472",
+ "id": "kong-qi-jing-hua-qi-56472",
+ "name": "",
+ "description": null,
+ "total": 7,
+ "products": [
+  {
+   "id": "50501962",
+   "name": "STARKVIND 斯达文",
+   "price": 999,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/starkvind-si-da-wen-kong-qi-jing-hua-qi-hei-se-zhi-neng__0978609_pe814182_s4.jpg",
+   "productType": "空气净化器",
+   "designText": "黑色/智能",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "starkvind-si-da-wen-kong-qi-jing-hua-qi-hei-se-zhi-neng"
+  },
+  {
+   "id": "40501953",
+   "name": "STARKVIND 斯达文",
+   "price": 1299,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/starkvind-si-da-wen-dai-you-kong-qi-jing-hua-qi-de-zhuo-zi-zhao-se-xiang-mu-tie-mian-shen-he-se-zhi-neng__1040331_pe840839_s4.jpg",
+   "productType": "带有空气净化器的桌子",
+   "designText": "着色橡木贴面/深褐色 智能",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "starkvind-si-da-wen-dai-you-kong-qi-jing-hua-qi-de-zhuo-zi-zhao-se-xiang-mu-tie-mian-shen-he-se-zhi-neng"
+  },
+  {
+   "id": "00493610",
+   "name": "STARKVIND 斯达文",
+   "price": 99.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/starkvind-si-da-wen-ke-li-wu-lu-wang__0978621_pe814185_s4.jpg",
+   "productType": "颗粒物滤网",
+   "designText": "",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "starkvind-si-da-wen-ke-li-wu-lu-wang"
+  },
+  {
+   "id": "09471227",
+   "name": "STARKVIND 斯达文",
+   "price": 199.98,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/starkvind-si-da-wen-2-jian-tao-guo-lu-tao-zhuang__1052016_pe845881_s4.jpg",
+   "productType": "2件套过滤套装",
+   "designText": "",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "starkvind-si-da-wen-2-jian-tao-guo-lu-tao-zhuang"
+  },
+  {
+   "id": "20493609",
+   "name": "STARKVIND 斯达文",
+   "price": 99.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/starkvind-si-da-wen-huo-xing-tan-lu-wang__0978617_pe814184_s4.jpg",
+   "productType": "活性炭滤网",
+   "designText": "",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "starkvind-si-da-wen-huo-xing-tan-lu-wang"
+  },
+  {
+   "id": "80461950",
+   "name": "STARKVIND 斯达文",
+   "price": 999,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/starkvind-si-da-wen-kong-qi-jing-hua-qi-bai-se-zhi-neng__0978611_pe814183_s4.jpg",
+   "productType": "空气净化器",
+   "designText": "白色/智能",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "starkvind-si-da-wen-kong-qi-jing-hua-qi-bai-se-zhi-neng"
+  },
+  {
+   "id": "30461976",
+   "name": "STARKVIND 斯达文",
+   "price": 1299,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/starkvind-si-da-wen-dai-you-kong-qi-jing-hua-qi-de-zhuo-zi-zhao-se-xiang-mu-tie-mian-bai-se-zhi-neng__0978608_pe814181_s4.jpg",
+   "productType": "带有空气净化器的桌子",
+   "designText": "着色橡木贴面/白色 智能",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "starkvind-si-da-wen-dai-you-kong-qi-jing-hua-qi-de-zhuo-zi-zhao-se-xiang-mu-tie-mian-bai-se-zhi-neng"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "50501962",
+   "type": "ART",
+   "fullId": "50501962"
+  },
+  {
+   "id": "40501953",
+   "type": "ART",
+   "fullId": "40501953"
+  },
+  {
+   "id": "00493610",
+   "type": "ART",
+   "fullId": "00493610"
+  },
+  {
+   "id": "09471227",
+   "type": "SPR",
+   "fullId": "s09471227"
+  },
+  {
+   "id": "20493609",
+   "type": "ART",
+   "fullId": "20493609"
+  },
+  {
+   "id": "80461950",
+   "type": "ART",
+   "fullId": "80461950"
+  },
+  {
+   "id": "30461976",
+   "type": "ART",
+   "fullId": "30461976"
+  }
+ ]
+}

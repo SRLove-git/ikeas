@@ -1,0 +1,138 @@
+{
+ "url": "/cn/zh/this-is-ikea/sustainable-everyday/zu2-bu4-chu1-hu4-jiu4-neng2-jie2-sheng3-kai1-zhi1-bao3-hu4-de-qiu2-pub7b284681",
+ "family": "this-is-ikea",
+ "id": "cn--zh--7b2846811e1e11e98e3dd53ddd62671b",
+ "title": "足不出户，就能节省开支，保护地球",
+ "name": "20194_sssn14a_CT",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "足不出户，就能节省开支，保护地球",
+   "texts": [
+    "大理石风格的 KUNGSBACKA 孔巴卡 黑色厨房，里面摆有厨用器具和新鲜草本植物。",
+    "<p>无论是让衣服自然晾干，用高速电磁炉烹饪，还是使用节能卷帘，小细节都能创造大不同。宜家提供多种产品和解决方案，助你打造更可持续的家。因为我们的目标很简单，就是激励更多人追求更可持续的生活方式，并提供简单实惠的产品来帮助他们实现这一目标。</p>",
+    "足不出户，就能节省开支，保护地球",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/28/0a/280a45e74458f37a2d71d207af604792.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/28/0a/280a45e74458f37a2d71d207af604792.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Hero-足不出户，就能节省开支，保护地球"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "戴着手环的男士正在用 TILLREDA 提瑞达 便携电磁炉烹制素食餐，食材里有红椒和青椒。",
+    "pub-image",
+    "https://file.app.ikea.cn/images/f0/32/f0328f46f4bfb4f6001e71ab07b57b35.tif",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/f0/32/f0328f46f4bfb4f6001e71ab07b57b35.tif",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Columns-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p><em><strong>你知道吗？</strong></em></p>\n<p>电磁炉比电陶炉或红外炉的加热速度快50%左右，而且更加节能。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "一位男士正在地下室里使用 MULIG 穆利格 晾衣架晾晒衣服。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "50228755"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/a7/8b/a78b421dca48f23e82f76f01c693bc42.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/a7/8b/a78b421dca48f23e82f76f01c693bc42.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Columns-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p><em><strong>你知道吗？</strong></em></p>\n<ul>\n<li>滚筒烘干机是最耗电的家电之一<br /><br /></li>\n<li>过度洗涤衣物不仅费水费电，还会缩短衣物的寿命。相反，试着把衣服晾晒起来，接触新鲜空气，让它们少受一次磨损吧。</li>\n</ul>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "穿着毛衣的小女孩在卷帘后向窗外望。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "80386423"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/de/51/de5194a6f68c79858ca16567ab31a0cd.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/de/51/de5194a6f68c79858ca16567ab31a0cd.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Columns-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p><em><strong>你知道吗？</strong></em></p>\n<p>在黄昏时刻拉上窗帘，就可减少约10%因窗户造成的热量损失。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  }
+ ]
+}

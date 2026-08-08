@@ -1,0 +1,124 @@
+{
+ "url": "/cn/zh/rooms/living-room/gallery/ling2-huo2-shi2-shang4-de-xin1-yi2-zhi1-xuan3-pubb08490d0",
+ "family": "rooms",
+ "id": "cn--zh--b08490d0200311eaa59ac372838685b7",
+ "title": "灵活时尚的心仪之选",
+ "name": "20204_rmli02a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "灵活时尚的心仪之选"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "客厅里摆放着橙色沙发和贵妃椅、灰色橱柜组合、彩色地毯和绿色托盘桌。",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "s09305817"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/c8/60/c86057be4ea3dab81e1b9f805ec71120.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/c8/60/c86057be4ea3dab81e1b9f805ec71120.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>灵活的客厅家具，如 SÖDERHAMN 索德汉 沙发，深受许多人喜爱并不奇怪。因此，当它以全新的现代风格重新出现在人们面前时，就变的格外引人注目！</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "橙色四人沙发和贵妃椅、绿色托盘桌、两张粉色/绿色/蓝色地毯和两盏白色落地灯。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "s09305817"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/e1/d2/e1d222974a35a1688be4d73bae636e3e.jpg",
+    "https://file.app.ikea.cn/images/6f/3a/6f3a5053bda9f92965c8138ca32bb854.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/e1/d2/e1d222974a35a1688be4d73bae636e3e.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/6f/3a/6f3a5053bda9f92965c8138ca32bb854.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "两把橙色贵妃椅放在一起，拼成一张宽敞的坐卧两用床，上面还放着蓝色休闲毯和花朵图案的软垫。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "s19305609"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/46/08/4608f0033bf376af7da88fe52e08bf93.jpg",
+    "https://file.app.ikea.cn/images/c7/ea/c7ea11ec52dc373b0eb36e81c0ccb016.jpg",
+    "https://file.app.ikea.cn/images/be/85/be854f25804a2d9624bc1cf8c58cee31.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/46/08/4608f0033bf376af7da88fe52e08bf93.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/c7/ea/c7ea11ec52dc373b0eb36e81c0ccb016.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/be/85/be854f25804a2d9624bc1cf8c58cee31.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s09305817",
+    "s19305609",
+    "s59191026",
+    "s39286394",
+    "s49191041"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

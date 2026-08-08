@@ -1,0 +1,129 @@
+{
+ "url": "/cn/zh/rooms/childrens-room/gallery/you2-xi4-yu3-xiu1-xi1-de-kong1-jian1-pub08d61bd0",
+ "family": "rooms",
+ "id": "cn--zh--08d61bd02d4e11ea9ccfc58ee28d9610",
+ "title": "游戏与休息的空间",
+ "name": "20204_rmcb01a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "游戏与休息的空间"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "儿童房里摆放着白色婴儿床、黄色地毯、白色衣柜、绿色儿童小推车和蝴蝶造型壁灯。",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "s89253169"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/ab/fd/abfd8caf3c2662fdf4fab4d1b2e8f5dd.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/ab/fd/abfd8caf3c2662fdf4fab4d1b2e8f5dd.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>舒适的小睡和一夜好眠能够让孩子精力充沛地玩乐！STUVA 斯多瓦/FRITIDS 福利蒂德斯 婴儿床舒适实用，抽屉非常适合收纳玩具。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "白色婴儿床和彩色带图案床上用品、蝴蝶造型壁灯、黄色地毯和壁式储物装置中的玩具。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "30462551"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/17/9a/179acde0d8594322c93ec28a8848fa26.jpg",
+    "https://file.app.ikea.cn/images/a7/8a/a78abc783fb4cc4f846c8d3adc4b254b.jpg",
+    "https://file.app.ikea.cn/images/17/55/175570bfeb2fd8e1eacbae667974d378.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/17/9a/179acde0d8594322c93ec28a8848fa26.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/a7/8a/a78abc783fb4cc4f846c8d3adc4b254b.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/17/55/175570bfeb2fd8e1eacbae667974d378.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "白色 TROFAST 舒法特 架子、不同大小的绿色和白色储物盒、绿色儿童游戏垫、两幅画和黄色地毯。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "95685100"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/d8/38/d8384bf08c5820290795d140fb129c80.jpg",
+    "https://file.app.ikea.cn/images/51/86/5186b3515938dec94ed8e0fadfb64042.jpg",
+    "https://file.app.ikea.cn/images/11/22/112284df2dac80f377227050337cd65e.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/d8/38/d8384bf08c5820290795d140fb129c80.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/51/86/5186b3515938dec94ed8e0fadfb64042.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/11/22/112284df2dac80f377227050337cd65e.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s89253169",
+    "s39252756",
+    "s99252621",
+    "30462551",
+    "10462571"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

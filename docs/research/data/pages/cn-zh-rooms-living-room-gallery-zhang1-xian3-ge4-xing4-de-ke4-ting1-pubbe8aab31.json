@@ -1,0 +1,124 @@
+{
+ "url": "/cn/zh/rooms/living-room/gallery/zhang1-xian3-ge4-xing4-de-ke4-ting1-pubbe8aab31",
+ "family": "rooms",
+ "id": "cn--zh--be8aab319d8911e9a6d14535ebfeabf1",
+ "title": "彰显个性的客厅",
+ "name": "20202_rmli03a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "彰显个性的客厅"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "以白色和红色装饰的客厅兼具现代和传统风格，两张 EKTORP 爱克托 沙发相对摆放其间。",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "s69129208"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/dd/ac/ddac2734024076bca93d546c48dce224.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/dd/ac/ddac2734024076bca93d546c48dce224.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>打造你的理想客厅，让功能与个性结合、传统与现代碰撞。EKTORP 爱克托 沙发拥有理想的中性外观，风格百搭。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "以红色和白色装饰的客厅内摆有白色带玻璃门储物。上面放着绿色植物。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "s39265971"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/05/25/0525c786f56afb75a6d85f863ca2dcb5.jpg",
+    "https://file.app.ikea.cn/images/88/65/8865a50edf715a351fe250ec9a15cc51.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/05/25/0525c786f56afb75a6d85f863ca2dcb5.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/88/65/8865a50edf715a351fe250ec9a15cc51.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "黑色画框与其他画框组合，在 EKTORP 爱克托 白色沙发后方打造出一面照片墙。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "20427624"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/22/f0/22f099c6405d795a766211e9643b0610.jpg",
+    "https://file.app.ikea.cn/images/37/11/371107088160732a7d939db656abcb7e.jpg",
+    "https://file.app.ikea.cn/images/e7/12/e712bdad994e9649f9f320aa4c58f39c.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/22/f0/22f099c6405d795a766211e9643b0610.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/37/11/371107088160732a7d939db656abcb7e.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/e7/12/e712bdad994e9649f9f320aa4c58f39c.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s69129208",
+    "40433247",
+    "s39265971",
+    "30411991",
+    "90452587"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

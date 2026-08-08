@@ -1,0 +1,124 @@
+{
+ "url": "/cn/zh/rooms/kitchen/gallery/jing4-hua4-shen1-xin1-de-l4-se4-chu2-fang2-pub20ec5e81",
+ "family": "rooms",
+ "id": "cn--zh--20ec5e817d2e11e98875f375eaff13d3",
+ "title": "净化身心的绿色厨房",
+ "name": "20201_rmme01a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "净化身心的绿色厨房"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "铺着白色瓷砖的深绿色厨房配有玻璃柜门和黄铜色混合型水龙头，图片墙上挂着各种各样的画框。",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "80444531"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/c3/90/c3901feba0b6de2494001ee424d2ac4d.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/c3/90/c3901feba0b6de2494001ee424d2ac4d.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>这间厨房空间宽敞，可以激发灵感，给你一个全新的开始。自己种植食材，烹饪清爽的食物，暂时忘记繁忙的城市生活。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "铺着白色瓷砖的绿色厨房配有黄铜色混合型水龙头、白瓷水槽、象牙白和金色洒水壶。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "50370126"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/61/78/61782a58277f6345fdf5a0971e579cc7.jpg",
+    "https://file.app.ikea.cn/images/58/01/5801b324d78967575d178854d3b80c72.jpg",
+    "https://file.app.ikea.cn/images/cd/7d/cd7db6a6e032f24892eab045fa77100e.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/61/78/61782a58277f6345fdf5a0971e579cc7.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/58/01/5801b324d78967575d178854d3b80c72.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/cd/7d/cd7db6a6e032f24892eab045fa77100e.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "绿色厨房的玻璃门柜里放着白色盘子。下方一个打开的抽屉展示着里面的照明灯。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "80444550"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/51/fa/51fab11ad887199a87ed4b2f835fc02c.jpg",
+    "https://file.app.ikea.cn/images/40/4b/404b776981a69da8aa504ed4a22e4abc.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/51/fa/51fab11ad887199a87ed4b2f835fc02c.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/40/4b/404b776981a69da8aa504ed4a22e4abc.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "80444531",
+    "90347515",
+    "20347514",
+    "40347508",
+    "70202207"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

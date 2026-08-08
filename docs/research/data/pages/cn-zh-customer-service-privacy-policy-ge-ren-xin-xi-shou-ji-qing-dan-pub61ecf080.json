@@ -1,0 +1,34 @@
+{
+ "url": "/cn/zh/customer-service/privacy-policy/ge-ren-xin-xi-shou-ji-qing-dan-pub61ecf080",
+ "family": "customer-service",
+ "id": "cn--zh--61ecf080b26745afb1a7765118a313fc",
+ "title": "个人信息收集清单",
+ "name": "个人信息收集清单",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h3 style=\"text-align: center;\">个人信息收集清单</h3>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "e587b97d0758498daa420b7c58020661"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p style=\"line-height: 24px;\">为提供相应的产品或服务，并保障系统安全稳定运行，我们可能会收集您的以下个人信息：&nbsp;</p>\n<p style=\"line-height: 24px;\"><br /><strong>1.用户基本信息：&nbsp;</strong><br />信息名称：收货人姓名&nbsp;<br />使用目的：为您提供线上渠道购买、结算商品或服务；为您提供物流、配送或安装服务&nbsp;<br />使用场景：线上购物下单；配送安装&nbsp;<br />&nbsp;<br />信息名称：收货地址&nbsp;<br />使用目的：为您提供线上渠道购买、结算商品或服务；为您提供物流、配送或安装服务&nbsp;<br />使用场景：线上购物下单；配送安装 &nbsp;<br />&nbsp;<br />信息名称：手机号码&nbsp;<br />使用目的：注册、登陆宜家账号；为您提供线上渠道购买、结算商品或服务；为您提供物流、配送或安装服务；为您提供售前咨询，售后退换货申请等服务&nbsp;<br />使用场景：注册、登陆宜家账号；线上购物下单；配送安装；客服与售后&nbsp;<br />&nbsp;<br />信息名称：电子邮箱&nbsp;<br />使用目的：登陆宜家账号；为您发送电子版增值税发票；为您提供售前咨询，售后退换货申请等服"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "text-Android"
+   }
+  }
+ ]
+}

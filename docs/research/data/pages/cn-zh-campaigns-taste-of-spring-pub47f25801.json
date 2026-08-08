@@ -1,0 +1,780 @@
+{
+ "url": "/cn/zh/campaigns/taste-of-spring-pub47f25801",
+ "family": "campaigns",
+ "id": "cn--zh--47f258018a6411ecb695f1e199484f3c",
+ "title": "焕新正当时——从春日美味开始",
+ "name": "焕新正当时——从春日美味开始",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "image",
+   "title": null,
+   "texts": [
+    "/p/60480544?artType=art",
+    "NO",
+    "ikea://content/pip?id=60480544&type=art",
+    "{\"objectId_var\":\"60480544\",\"objectType_var\":\"product\"}"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20220223/933e9bf6e499415b972e9e03ad3100d4.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/p/60480544?artType=art",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220223/933e9bf6e499415b972e9e03ad3100d4.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "焕新正当时_从春日美味开始_Topbanner"
+   }
+  },
+  {
+   "type": "rich-text",
+   "title": null,
+   "texts": [
+    "<p>平日里忙碌的工作，总让我们忽略了生活。天气渐渐转暖，何不抽出一点时间，和亲朋好友一起享用健康美味，度过轻松闲适的春日！</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "焕新正当时_从春日美味开始_Text_Intro"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "two-columns",
+    "column",
+    "<h1>焕新正当时<br />从春日美味开始</h1>",
+    "pub-text",
+    "NO",
+    "<p>&nbsp;</p>\n<p>平日里忙碌的工作，总让我们忽略了生活。天气渐渐转暖，何不抽出一点时间，和亲朋好友一起享用健康美味，度过轻松闲适的春日！</p>"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20220211/1663be3724724b7d8f543494c73de850.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/p/60480544?artType=art",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220211/1663be3724724b7d8f543494c73de850.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "焕新正当时_从春日美味开始_Introtext&banner_web"
+   }
+  },
+  {
+   "type": "anchor-navigation",
+   "title": null,
+   "texts": [
+    "YES",
+    "春日美味",
+    "33530a38e78d488b9ecda609503c5d6d",
+    "春意餐桌",
+    "708654d770fd4a6abb1b78080b5a8385",
+    "闲暇时光"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "焕新正当时_从春日美味开始_页面导航"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "a1c1ac227cbf4a1e9b1d018fb7b2c62b"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "把春天的味道装入瓶中",
+   "texts": [
+    "/cat/15937",
+    "NO",
+    "ikea://content/plp?catalogId=15937",
+    "{\"objectId_var\":\"15937\",\"objectType_var\":\"plp\"}",
+    "许多时令果蔬都会在初春上市，何不捕捉这些春天的味道，制作时令美食？自制一份沙拉或蔬果汁，原汁原味，更加清爽健康。",
+    "把春天的味道装入瓶中"
+   ],
+   "images": [
+    "https://res.app.ikea.cn/content/u/20220211/a32021f59123482c8e02dd864710ac75.jpg?x-oss-process=style/medium",
+    "https://res.app.ikea.cn/content/u/20220211/1b472abea7c84970b5ebc5ab0870ba94.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/cat/15937",
+     "text": ""
+    },
+    {
+     "href": "https://res.app.ikea.cn/content/u/20220211/a32021f59123482c8e02dd864710ac75.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://res.app.ikea.cn/content/u/20220211/1b472abea7c84970b5ebc5ab0870ba94.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "从春日美味开始_把春天的味道装入瓶中_Curated Gallery"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "留住新鲜滋味",
+   "texts": [
+    "新鲜蔬果很容易流失风味，不如将它们放在透气的篮筐和网袋里，自然通风，保持新鮮。既赏心悦目，同时又方便拿取。",
+    "留住新鲜滋味",
+    "MANUAL_INPUT",
+    "80520087",
+    "60476815",
+    "70372836"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "从春日美味开始_留住新鲜滋味_Product Shelf"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "巧妙处理食物",
+   "texts": [
+    "/cat/15934",
+    "NO",
+    "ikea://content/plp?catalogId=15934",
+    "{\"objectId_var\":\"15934\",\"objectType_var\":\"plp\"}",
+    "将蔬果切成小块，这样食用或加工都方便，这块竹砧板拥有“双脚”，可以轻松将水果撇到碗中，台面也不会因为汁液而乱糟糟的。",
+    "巧妙处理食物"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/5a6b2e68d88aed9a/original/PH182986.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/15934",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/5a6b2e68d88aed9a/original/PH182986.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "从春日美味开始_巧妙处理食物_Curated Gallery"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "NO",
+    "MANUAL_INPUT",
+    "10512811",
+    "70331474",
+    "40423371",
+    "40294717"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "从春日美味开始_巧妙处理食物_Product Shelf"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "自制健康饮品",
+   "texts": [
+    "/cat/18868",
+    "NO",
+    "ikea://content/plp?catalogId=18868",
+    "{\"objectId_var\":\"18868\",\"objectType_var\":\"plp\"}",
+    "自制饮品很简单，即刻便能享受。带盖的玻璃器皿方便储存，更赏心悦目。",
+    "自制健康饮品"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/64b3cdf3ca769104/original/PH178607.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/18868",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/64b3cdf3ca769104/original/PH178607.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "从春日美味开始_自制健康饮品_Curated Gallery"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "NO",
+    "MANUAL_INPUT",
+    "50515412",
+    "60515416",
+    "30278360",
+    "30279722"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "从春日美味开始_自制健康饮品_Product Shelf"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "分享清新滋味",
+   "texts": [
+    "饮品味道如何？不如给亲朋好也端上一杯。玻璃杯是分享的好选择，透明的材质更能衬托果汁的美丽色彩。",
+    "分享清新滋味",
+    "60452640",
+    "80343297",
+    "20137846",
+    "1_L"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/6d36a80e75bb82e9/original/PH179630-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/6d36a80e75bb82e9/original/PH179630-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "从春日美味开始_分享清新滋味_Curated Gallery"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "NO",
+    "MANUAL_INPUT",
+    "60452640",
+    "40286915",
+    "30474648",
+    "60216304"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "从春日美味开始_分享清新滋味_Product Shelf"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "轻松招待友人",
+   "texts": [
+    "/cat/16043",
+    "NO",
+    "ikea://content/plp?catalogId=16043",
+    "{\"objectId_var\":\"16043\",\"objectType_var\":\"plp\"}",
+    "有了蔬果汁，或许你还想搭配几块甜点，把它们全部放进托盘里，你就不需要来回厨房多次了，尤其是在朋友到访的时候。",
+    "轻松招待友人"
+   ],
+   "images": [
+    "https://res.app.ikea.cn/content/u/20220223/f9e941f3613a4528931f65fe8cb86ca7.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/cat/16043",
+     "text": ""
+    },
+    {
+     "href": "/cat/16043",
+     "text": ""
+    },
+    {
+     "href": "https://res.app.ikea.cn/content/u/20220223/f9e941f3613a4528931f65fe8cb86ca7.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "从春日美味开始_轻松招待友人_Curated Gallery"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "NO",
+    "MANUAL_INPUT",
+    "10470509",
+    "70240073",
+    "60473322",
+    "70279843"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "从春日美味开始_轻松招待友人_Product Shelf"
+   }
+  },
+  {
+   "type": "image",
+   "title": null,
+   "texts": [
+    "NO"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20220215/76c550238ea24ab38c7407120bee20db.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220215/76c550238ea24ab38c7407120bee20db.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "焕新正当时_从春意餐桌开始_banner"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "dacd30e41b254e91a38e016666c181c8"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "让春天洒满你的餐桌",
+   "texts": [
+    "/cat/18860",
+    "NO",
+    "ikea://content/plp?catalogId=18860",
+    "{\"objectId_var\":\"18860\",\"objectType_var\":\"plp\"}",
+    "用餐时间到！即便是简单的家宴，我们也可以在日常中拥抱新改变。布置餐具，点缀鲜花，为餐桌增添一丝春天气息，陪伴你享用美食佳肴。",
+    "让春天洒满你的餐桌"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/6822626bdbbb579e/original/PH183038-crop001.jpg",
+    "https://file.app.ikea.cn/ext/ingkadam/m/30e12017c4df28a7/original/PH178139.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/18860",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/6822626bdbbb579e/original/PH183038-crop001.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/30e12017c4df28a7/original/PH178139.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "从春意餐桌开始_让春天洒满你的餐桌_Curated Gallery"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "成套餐具，轻松搭配",
+   "texts": [
+    "/search/products?q=FÄRGKLAR",
+    "NO",
+    "ikea://default-module/search?query=F%C3%84RGKLAR",
+    "{\"objectId_var\":\"FÄRGKLAR\",\"objectType_var\":\"search_result\"}",
+    "FÄRGKLAR 法利克洛 是布置不同用餐场合的理想餐具，既适合日常一人食，也适合亲朋好友的聚会，清新简约的设计轻松让餐桌焕然一新，也可自由搭配其他风格的餐具。",
+    "成套餐具，轻松搭配"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/search/products?q=FÄRGKLAR",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "从春意餐桌开始_成套餐具轻松搭配_Product Shelf"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "点睛之笔",
+   "texts": [
+    "/cat/20560",
+    "NO",
+    "ikea://content/plp?catalogId=20560",
+    "{\"objectId_var\":\"20560\",\"objectType_var\":\"plp\"}",
+    "除了餐盘布置，餐巾纸也能为春日餐桌画龙点睛。挑选带有纹饰或色彩明快的餐巾纸，搭配设计独特的纸巾架，实用又美观。",
+    "点睛之笔"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/34278c7b6897936e/original/PH176582.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/20560",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/34278c7b6897936e/original/PH176582.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "从春意餐桌开始_点睛之笔_Curated Gallery"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "NO",
+    "MANUAL_INPUT",
+    "50515921",
+    "00515933",
+    "60515949",
+    "20515946"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "从春意餐桌开始_点睛之笔_Product Shelf"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "鲜花盛开处",
+   "texts": [
+    "/cat/10769",
+    "NO",
+    "ikea://content/plp?catalogId=10769",
+    "{\"objectId_var\":\"10769\",\"objectType_var\":\"plp\"}",
+    "利用自然元素营造春日气息。简单质朴的花瓶，插放一些美丽的花朵，就能点亮餐桌，焕发新生机。",
+    "鲜花盛开处"
+   ],
+   "images": [
+    "https://res.app.ikea.cn/content/u/20220211/8e44b86ddb3640369614f35990ad4faf.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/cat/10769",
+     "text": ""
+    },
+    {
+     "href": "https://res.app.ikea.cn/content/u/20220211/8e44b86ddb3640369614f35990ad4faf.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "从春意餐桌开始_鲜花盛开处_Curated Gallery"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "NO",
+    "MANUAL_INPUT",
+    "40511966",
+    "90191632",
+    "20511967",
+    "80409740"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "从春意餐桌开始_鲜花盛开处_Product Shelf"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "点亮用餐时光",
+   "texts": [
+    "/cat/li002",
+    "NO",
+    "ikea://content/plp?catalogId=li002",
+    "{\"objectId_var\":\"li002\",\"objectType_var\":\"plp\"}",
+    "在餐桌上方布置吊灯，并在餐厅各角增设小台灯和LED蜡烛，灯光的点缀将让用餐时光更温馨放松。",
+    "点亮用餐时光"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/7ec8c78d6224c86a/original/PH178317-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/li002",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/7ec8c78d6224c86a/original/PH178317-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "从春意餐桌开始_点亮用餐时光_Curated Gallery"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "NO",
+    "MANUAL_INPUT",
+    "70513558",
+    "00342193",
+    "70361767",
+    "20488392"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "从春意餐桌开始_点亮用餐时光_Product Shelf"
+   }
+  },
+  {
+   "type": "image",
+   "title": null,
+   "texts": [
+    "NO"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20220215/74f4272c959540fa924c2cc70e6fe3e6.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220215/74f4272c959540fa924c2cc70e6fe3e6.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "焕新正当时_从闲暇时光开始_banner"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "917ff8fef5be482392d24990151fbf25"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "尽情享受春日闲暇",
+   "texts": [
+    "享受春日时光，从一套新的餐桌椅开始。除去早中晚餐，你有没有发现餐桌还可以用来做很多事？譬如说快速切换至工作模式，在家也能有一处倍感舒适的办公空间。",
+    "尽情享受春日闲暇",
+    "30457314",
+    "80365717",
+    "00507462",
+    "80400754"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/af8ddcd6d4321fb/original/PH164333-crop002.jpg",
+    "https://res.app.ikea.cn/content/u/20220223/a90429a28506483195ae879dde23602c.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/af8ddcd6d4321fb/original/PH164333-crop002.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://res.app.ikea.cn/content/u/20220223/a90429a28506483195ae879dde23602c.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "从闲暇时光开始_尽情享受春日闲暇_Curated Gallery"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "适合更多用途的餐桌",
+   "texts": [
+    "/cat/21825",
+    "NO",
+    "ikea://content/plp?catalogId=21825",
+    "{\"objectId_var\":\"21825\",\"objectType_var\":\"plp\"}",
+    "适合更多用途的餐桌",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/21825",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "从闲暇时光开始_餐桌_Product Shelf"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "更舒适的餐椅",
+   "texts": [
+    "/cat/25219",
+    "NO",
+    "ikea://content/plp?catalogId=25219",
+    "{\"objectId_var\":\"25219\",\"objectType_var\":\"plp\"}",
+    "更舒适的餐椅",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/25219",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "从闲暇时光开始_餐椅_Product Shelf"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "放松与充电",
+   "texts": [
+    "/cat/16044",
+    "NO",
+    "ikea://content/plp?catalogId=16044",
+    "{\"objectId_var\":\"16044\",\"objectType_var\":\"plp\"}",
+    "埋头工作中，时不时也需要来口咖啡放松一下。往法压壶里加入咖啡和热水，稍许片刻，轻轻压下顶部，就能喝到醇香的咖啡了。",
+    "放松与充电"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/2bb42bf0e3b8de5/original/PH181696.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/16044",
+     "text": ""
+    },
+    {
+     "href": "/cat/16044",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/2bb42bf0e3b8de5/original/PH181696.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "从闲暇时光开始_放松与充电_Curated Gallery"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "NO",
+    "MANUAL_INPUT",
+    "80241388",
+    "50457153",
+    "10362821",
+    "70301165"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "从闲暇时光开始_放松与充电_Product Shelf"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "随时随地享用",
+   "texts": [
+    "/cat/20620",
+    "NO",
+    "ikea://content/plp?catalogId=20620",
+    "{\"objectId_var\":\"20620\",\"objectType_var\":\"plp\"}",
+    "如果温度变化不大，就能一直品尝到仿佛是新鲜出炉的茶饮。用保温瓶盛装饮品，让你随时随地畅饮咖啡或热茶！",
+    "随时随地享用"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/470547e38219f1b9/original/PH178608.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/20620",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/470547e38219f1b9/original/PH178608.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "从闲暇时光开始_随时随地享用_Curated Gallery"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "NO",
+    "MANUAL_INPUT",
+    "50353891",
+    "30163217",
+    "30360227",
+    "30163463"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "从闲暇时光开始_随时随地享用_Product Shelf"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/new/",
+    "NO",
+    "ikea://cms/page-compatible-web?key=cn--zh--6707d8c01dac11ebbe93bdf5884caef7&url=%2Fnew%2F",
+    "{\"objectId_var\":\"/new/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "探索更多春日新品"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/new/",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "焕新正当时_从春日美味开始_button_探索更多春日新品"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "b60a1b27454646bfb45da731e9014449"
+   }
+  }
+ ]
+}

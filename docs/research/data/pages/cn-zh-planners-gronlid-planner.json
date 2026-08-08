@@ -1,0 +1,51 @@
+{
+ "url": "/cn/zh/planners/gronlid-planner",
+ "family": "planners",
+ "id": "cn--zh--264f4e02ef6f43d399c9ed1923122e4a",
+ "title": "宜家GRÖNLID 格罗恩里德 沙发设计工具 - IKEA",
+ "name": "宜家GRÖNLID 格罗恩里德 沙发设计工具",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "宜家GRÖNLID 格罗恩里德 沙发设计工具"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Page Title-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>GR&Ouml;NLID 格罗恩里德 设计工具将帮助你和你的家人朋友一起打造尤为舒适的沙发。将舒适的座椅元素以美丽且吸引人的方式组装在一起，再为沙发套选择喜欢的颜色，来吧！</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-planner",
+   "title": null,
+   "texts": [
+    "IFRAME_EMBED",
+    "ALL",
+    "https://www.ikea.cn/addon-app/sofas/gronlid/web/latest/cn/zh/#",
+    "GRONLID_IPEX",
+    "YES",
+    "28"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Planner Tool-"
+   }
+  }
+ ]
+}

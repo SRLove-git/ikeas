@@ -1,0 +1,194 @@
+{
+ "url": "/cn/zh/this-is-ikea/design/design-pub2818dbf1",
+ "family": "this-is-ikea",
+ "id": "cn--zh--2818dbf1b56d11e79a5eff486d94c77f",
+ "title": "民主设计",
+ "name": "民主设计",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "民主设计",
+   "texts": [
+    "台灯设计",
+    "<p><strong>为每个人而设计</strong></p>\n<p>我们认为优秀的设计应该是美观、实用、优质、可持续和低价的完美结合。我们称之为&ldquo;民主设计&rdquo;，因为我们相信卓越的家居用品是人人都应享有的。</p>",
+    "民主设计",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/23/1c/231c25f96b3dcb1dc2f6b8bea6f32b45.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/23/1c/231c25f96b3dcb1dc2f6b8bea6f32b45.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Hero-民主设计"
+   }
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "LISABO 利萨伯 系列 白蜡木贴面茶几",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "80365717"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/f0/c2/f0c2fce03c2e009f80ace81fc3bd790e.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/f0/c2/f0c2fce03c2e009f80ace81fc3bd790e.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Image(video)-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p><a href=\"https://www.ikea.cn/cn/zh/cat/lisabo-30662/\" target=\"_blank\">查看LISABO 利萨伯 系列</a></p>\n<p>宜家 LISABO 利萨伯 系列曾荣获国际知名的红点设计大奖，对此我们深感自豪。略倾斜的圆润边缘呈现出手工制作的效果，我们在白蜡木贴面上涂了一层哑光清漆，令家具保持天然的木质外观。</p>\n<p><em>设计师Knut Hagberg和Marianne Hagberg表示：&ldquo;LISABO 利萨伯 的设计理念是打造出独特的木质质感，流畅的外观，以及结实、易于组装的结构。&rdquo;</em></p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2><strong>阅读更多民主设计内容</strong></h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--6583c259b57e11e79a5eff486d94c77f",
+    "/this-is-ikea/design/family-pub6583c259",
+    "page",
+    "家居生活",
+    "家居生活和儿童安全",
+    "ikea://cms/page-compatible-web?url=%2Fthis-is-ikea%2Fdesign%2Ffamily-pub6583c259&key=cn--zh--6583c259b57e11e79a5eff486d94c77f"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/87/6b/876bbfd45a65855e944c5eb8a840c92c.jpg",
+    "https://file.app.ikea.cn/images/92/e8/92e87e53ae3016fc205fa21b35338488.jpg",
+    "https://file.app.ikea.cn/images/18/a8/18a8552bce6c1e35b7924ae4924f0814.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/87/6b/876bbfd45a65855e944c5eb8a840c92c.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/92/e8/92e87e53ae3016fc205fa21b35338488.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/18/a8/18a8552bce6c1e35b7924ae4924f0814.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Page List-"
+   }
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Horizontal Line-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h4><strong>你可能对以下内容也感兴趣</strong></h4>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--6ffc7f40b57111e79a5eff486d94c77f",
+    "/this-is-ikea/about-us/about-ikea-pub6ffc7f40",
+    "page",
+    "关于宜家集团",
+    "自1982年以来，宜家集团就一直由一个基金会所有。建立这种所有权结构是为了确保我们的长期独立性。了解更多我们所从事的事业",
+    "ikea://cms/page-compatible-web?url=%2Fthis-is-ikea%2Fabout-us%2Fabout-ikea-pub6ffc7f40&key=cn--zh--6ffc7f40b57111e79a5eff486d94c77f"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/e9/ab/e9abe52a005fdef36beb8af5d32943f4.jpg",
+    "https://file.app.ikea.cn/images/fa/31/fa31760bc31a32e5c47a75f756937cd7.png",
+    "https://file.app.ikea.cn/images/d7/9e/d79ef07d2c5ff1269890fed1292a0f1b.jpg",
+    "https://file.app.ikea.cn/images/d0/4e/d04edb3c129ceb0a62ea58f4dcc93f27.png",
+    "https://file.app.ikea.cn/images/ee/ba/eebaf7458473ed9a5b77d1f156503eae.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/e9/ab/e9abe52a005fdef36beb8af5d32943f4.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/fa/31/fa31760bc31a32e5c47a75f756937cd7.png",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/d7/9e/d79ef07d2c5ff1269890fed1292a0f1b.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/d0/4e/d04edb3c129ceb0a62ea58f4dcc93f27.png",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/ee/ba/eebaf7458473ed9a5b77d1f156503eae.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Page List-"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "button",
+    "返回这就是宜家",
+    "secondary"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Link - button or text-"
+   }
+  }
+ ]
+}

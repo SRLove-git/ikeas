@@ -1,0 +1,60 @@
+{
+ "url": "/cn/zh/cat/chuang-lian-xian-18894",
+ "id": "chuang-lian-xian-18894",
+ "name": "窗帘线",
+ "description": "想在家里安装窗帘？查看我们精心设计、经久耐用、价格实惠的窗帘线，既适用于网帘，也适用于厚实的窗帘。选择用带挂钩或夹子的窗帘线悬挂窗帘——这两种解决方案都非常方便！",
+ "total": 3,
+ "products": [
+  {
+   "id": "30172797",
+   "name": "DIGNITET 迪里特",
+   "price": 59.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/dignitet-di-li-te-chuang-lian-gua-xian-bu-xiu-gang__0893873_pe569541_s4.jpg",
+   "productType": "窗帘挂线",
+   "designText": "不锈钢",
+   "measureText": "500 厘米",
+   "url": null,
+   "seoSlug": "dignitet-di-li-te-chuang-lian-gua-xian-bu-xiu-gang"
+  },
+  {
+   "id": "60212202",
+   "name": "RIKTIG 瑞克迪",
+   "price": 20,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/riktig-rui-ke-di-chuang-lian-gou-dai-jia__0603451_pe680816_s4.jpg",
+   "productType": "窗帘钩带夹",
+   "designText": "",
+   "measureText": "24 件",
+   "url": null,
+   "seoSlug": "riktig-rui-ke-di-chuang-lian-gou-dai-jia"
+  },
+  {
+   "id": "50172796",
+   "name": "DIGNITET 迪里特",
+   "price": 19.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/dignitet-di-li-te-zhuan-jiao-ling-jian-bu-xiu-gang__36089_pe126980_s4.jpg",
+   "productType": "转角零件",
+   "designText": "不锈钢",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "dignitet-di-li-te-zhuan-jiao-ling-jian-bu-xiu-gang"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "30172797",
+   "type": "ART",
+   "fullId": "30172797"
+  },
+  {
+   "id": "60212202",
+   "type": "ART",
+   "fullId": "60212202"
+  },
+  {
+   "id": "50172796",
+   "type": "ART",
+   "fullId": "50172796"
+  }
+ ]
+}

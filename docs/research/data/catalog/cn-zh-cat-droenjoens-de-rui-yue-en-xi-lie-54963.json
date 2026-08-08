@@ -1,0 +1,124 @@
+{
+ "url": "/cn/zh/cat/droenjoens-de-rui-yue-en-xi-lie-54963",
+ "id": "droenjoens-de-rui-yue-en-xi-lie-54963",
+ "name": "宜家德瑞约恩DRÖNJÖNS系列办公家具配件 - IKEA",
+ "description": "宜家德瑞约恩DRÖNJÖNS系列办公家具配件",
+ "total": 7,
+ "products": [
+  {
+   "id": "00515495",
+   "name": "DRÖNJÖNS 德瑞约恩",
+   "price": 79.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/droenjoens-de-rui-yue-en-chu-wu-he-bai-se__1029021_pe835625_s4.jpg",
+   "productType": "储物盒",
+   "designText": "白色",
+   "measureText": "33x37x33 厘米",
+   "url": null,
+   "seoSlug": "droenjoens-de-rui-yue-en-chu-wu-he-bai-se"
+  },
+  {
+   "id": "80494880",
+   "name": "DRÖNJÖNS 德瑞约恩",
+   "price": 7.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/droenjoens-de-rui-yue-en-bi-tong-bai-se__0994330_pe822795_s4.jpg",
+   "productType": "笔筒",
+   "designText": "白色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "droenjoens-de-rui-yue-en-bi-tong-bai-se"
+  },
+  {
+   "id": "10596801",
+   "name": "DRÖNJÖNS 德瑞约恩",
+   "price": 29.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/droenjoens-de-rui-yue-en-bi-dian-zhi-jia-bai-se__1382964_pe962408_s4.jpg",
+   "productType": "笔电支架",
+   "designText": "白色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "droenjoens-de-rui-yue-en-bi-dian-zhi-jia-bai-se"
+  },
+  {
+   "id": "80428828",
+   "name": "DRÖNJÖNS 德瑞约恩",
+   "price": 79.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/droenjoens-de-rui-yue-en-ban-gong-zhuo-shou-na-jian-bai-se__0669938_pe715478_s4.jpg",
+   "productType": "办公桌收纳件",
+   "designText": "白色",
+   "measureText": "25x20 厘米",
+   "url": null,
+   "seoSlug": "droenjoens-de-rui-yue-en-ban-gong-zhuo-shou-na-jian-bai-se"
+  },
+  {
+   "id": "80439695",
+   "name": "DRÖNJÖNS 德瑞约恩",
+   "price": 49.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/droenjoens-de-rui-yue-en-wen-jian-he-bai-se__0669948_pe715486_s4.jpg",
+   "productType": "文件盒",
+   "designText": "白色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "droenjoens-de-rui-yue-en-wen-jian-he-bai-se"
+  },
+  {
+   "id": "40428825",
+   "name": "DRÖNJÖNS 德瑞约恩",
+   "price": 49.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/droenjoens-de-rui-yue-en-xin-pan-bai-se__0669940_pe715479_s4.jpg",
+   "productType": "信盘",
+   "designText": "白色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "droenjoens-de-rui-yue-en-xin-pan-bai-se"
+  },
+  {
+   "id": "40460108",
+   "name": "DRÖNJÖNS 德瑞约恩",
+   "price": 29.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/droenjoens-de-rui-yue-en-fei-zhi-lou-bai-se__0778785_pe759132_s4.jpg",
+   "productType": "废纸篓",
+   "designText": "白色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "droenjoens-de-rui-yue-en-fei-zhi-lou-bai-se"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "00515495",
+   "type": "ART",
+   "fullId": "00515495"
+  },
+  {
+   "id": "80494880",
+   "type": "ART",
+   "fullId": "80494880"
+  },
+  {
+   "id": "10596801",
+   "type": "ART",
+   "fullId": "10596801"
+  },
+  {
+   "id": "80428828",
+   "type": "ART",
+   "fullId": "80428828"
+  },
+  {
+   "id": "80439695",
+   "type": "ART",
+   "fullId": "80439695"
+  },
+  {
+   "id": "40428825",
+   "type": "ART",
+   "fullId": "40428825"
+  },
+  {
+   "id": "40460108",
+   "type": "ART",
+   "fullId": "40460108"
+  }
+ ]
+}

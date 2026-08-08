@@ -1,0 +1,149 @@
+{
+ "url": "/cn/zh/rooms/bedroom/gallery/wo4-shi4-de-ping2-heng2-pub80309910",
+ "family": "rooms",
+ "id": "cn--zh--80309910530211ea8431739eedab49cb",
+ "title": "卧室的平衡",
+ "name": "662031_bend01a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "卧室的平衡",
+   "texts": [
+    "灰白色调的卧室里配有开放式衣柜、浅灰色的窗帘和深灰色的地毯。",
+    "<p>开启身心平衡的新一天，第一步应当是从一个宁静的卧室中醒来。让宜家教你如何打造一个整洁的卧室，巧妙结合充足的储物空间和专属的个人风格。</p>",
+    "卧室的平衡",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/e4/74/e474c4a746fb4068f1cf2b0ae4bd4eab.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/e4/74/e474c4a746fb4068f1cf2b0ae4bd4eab.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "不仅仅是一夜好眠",
+   "texts": [
+    "/cat/25205",
+    "NO",
+    "ikea://content/plp?catalogId=25205",
+    "{\"objectId_var\":\"25205\",\"objectType_var\":\"plp\"}",
+    "大抽屉、开放式搁架和宽敞的长凳，PLATSA 普拉萨 床架带给你的不仅仅是一夜好眠。",
+    "不仅仅是一夜好眠"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/1948cd768120d43c/original/PH168329-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/25205",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/1948cd768120d43c/original/PH168329-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "优化和定制你的衣柜",
+   "texts": [
+    "/cat/37894",
+    "NO",
+    "ikea://content/plp?catalogId=37894",
+    "{\"objectId_var\":\"37894\",\"objectType_var\":\"plp\"}",
+    "有了PLATSA 普拉萨 衣柜和LÄTTHET 莱特赫特 可伸缩挂衣杆，就可以根据需要和季节轻松定制你的衣柜。",
+    "优化和定制你的衣柜"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/18452253768f16b2/original/PH168080-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/37894",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/18452253768f16b2/original/PH168080-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "坚固时尚、移动方便",
+   "texts": [
+    "/cat/st005",
+    "NO",
+    "ikea://content/plp?catalogId=st005",
+    "{\"objectId_var\":\"st005\",\"objectType_var\":\"plp\"}",
+    "TURBO 特伯 带脚轮晒衣架是收纳冬季外套和大衣的好地方。",
+    "坚固时尚、移动方便"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/594758fcd437edb6/original/PH168081-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/st005",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/594758fcd437edb6/original/PH168081-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "不占空间，又能整洁收纳",
+   "texts": [
+    "/cat/37900",
+    "NO",
+    "ikea://content/plp?catalogId=37900",
+    "{\"objectId_var\":\"37900\",\"objectType_var\":\"plp\"}",
+    "SKÅDIS 斯考迪斯 小钉板和配件可以存放你的衣物护理用品，而且不会占用太多空间。",
+    "不占空间，又能整洁收纳"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/6a8361ea581ecba0/original/PH168331-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/37900",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/6a8361ea581ecba0/original/PH168331-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s29324320",
+    "s09324335",
+    "s49325371",
+    "20334314",
+    "s09302913"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

@@ -1,0 +1,99 @@
+{
+ "url": "/cn/zh/new/gallery/qiao3-yong4-fang3-zhi1-pubd3346811",
+ "family": "new",
+ "id": "cn--zh--d334681165d411e99a659713b4f2e36b",
+ "title": "巧用纺织",
+ "name": "20201_nwvm54a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "巧用纺织",
+   "texts": [
+    "特写：KLARASTINA 克拉斯缇 窗帘的白色背景上饰有黑色波点图案。",
+    "<p>本月，我们将推出能让你拥有好心情的家用纺织品。全新的垫套和窗帘既有多色像素图案，也有单色几何设计，可让家中显得明亮。</p>",
+    "巧用纺织",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/9a/9c/9a9c730da2b0592e06618f153514e8b7.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/9a/9c/9a9c730da2b0592e06618f153514e8b7.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "KLOCKRANKA 克洛克朗卡 垫套采用多色像素图案设计，而 STRÄVKLINT 斯特莱克林特 垫套则呈现出醒目的渐变效果。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "40443835"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/00/a3/00a3843ca7745353567af39ac61d6dce.jpg",
+    "https://file.app.ikea.cn/images/26/1f/261f52cdde06d13ff2584cfff0bc6306.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/00/a3/00a3843ca7745353567af39ac61d6dce.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/26/1f/261f52cdde06d13ff2584cfff0bc6306.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "悬挂 KLARASTINA 克拉斯缇 窗帘，其白色背景上饰有黑色波点图案。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "80443697"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/d8/8a/d88aeeb7e86a1e82fe49c2c96d56257b.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/d8/8a/d88aeeb7e86a1e82fe49c2c96d56257b.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/this-is-ikea/sustainable-everyday/quan2-mian4-cai3-yong4-ke3-chi2-xu4-mian2-hua1-pub7f285ad1",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fthis-is-ikea%2Fsustainable-everyday%2Fquan2-mian4-cai3-yong4-ke3-chi2-xu4-mian2-hua1-pub7f285ad1&key=cn--zh--7f285ad16a4c11e880763bb85d270ddb",
+    "{\"objectId_var\":\"/this-is-ikea/sustainable-everyday/quan2-mian4-cai3-yong4-ke3-chi2-xu4-mian2-hua1-pub7f285ad1\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "了解更多有关可持续来源棉花的信息"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/this-is-ikea/sustainable-everyday/quan2-mian4-cai3-yong4-ke3-chi2-xu4-mian2-hua1-pub7f285ad1",
+     "text": ""
+    }
+   ],
+   "settings": null
+  }
+ ]
+}

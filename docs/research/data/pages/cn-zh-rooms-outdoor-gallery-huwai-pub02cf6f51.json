@@ -1,0 +1,88 @@
+{
+ "url": "/cn/zh/rooms/outdoor/gallery/huwai-pub02cf6f51",
+ "family": "rooms",
+ "id": "cn--zh--02cf6f51234311e8a87b9f51602dde40",
+ "title": "户外（阳台）",
+ "name": "户外灵感_SEO",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "户外（阳台）"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h3><strong>你想在哪里度过每天的休闲时光？</strong></h3>\n<p>在我们的阳台展示区，你可以浏览椅子、桌子、搁架单元、储物件及其他产品组合。它们有不同款式和大小，并且价格实惠。我们已经为你搭配好产品，所以你在家也可轻松再现此处看到的布置。不妨现在就去看看，寻找适合摆放在阳台，并且可方便开展休闲、用餐、储物、园艺及其他活动的家具。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--cbbc74a164af11e8b5e4e546dfc8d580",
+    "/rooms/outdoor/gallery/yangtai-pubcbbc74a1",
+    "page",
+    "在软绵绵的座椅中沐浴阳光",
+    "用 HAVSTEN 霍夫斯田 模块式米色室内/户外沙发布置阳台，在阳光下享受更舒适的休闲时光。",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Foutdoor%2Fgallery%2Fyangtai-pubcbbc74a1&key=cn--zh--cbbc74a164af11e8b5e4e546dfc8d580"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/ac/72/ac72d93050de91f2181fa09a83bfde82.jpg",
+    "https://file.app.ikea.cn/images/e3/2f/e32f5c15adfa6cac4ba617eb7a4a55ef.jpg",
+    "https://file.app.ikea.cn/images/19/d5/19d5b2bc509dcf0a3ee91ca3b89d7464.jpg",
+    "https://file.app.ikea.cn/images/89/0a/890ad31eb20e83dd2c7f827b63aba7a0.jpg",
+    "https://file.app.ikea.cn/images/03/f9/03f940e674cede94916bb480a7355de5.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/ac/72/ac72d93050de91f2181fa09a83bfde82.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/e3/2f/e32f5c15adfa6cac4ba617eb7a4a55ef.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/19/d5/19d5b2bc509dcf0a3ee91ca3b89d7464.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/89/0a/890ad31eb20e83dd2c7f827b63aba7a0.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/03/f9/03f940e674cede94916bb480a7355de5.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/66/3f/663ff7cc92dc39069321bf9d8973b286.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "button",
+    "返回所有房间灵感",
+    "secondary"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

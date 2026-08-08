@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/living-room/gallery/chuanglian-pube737f681",
+ "family": "rooms",
+ "id": "cn--zh--e737f681571e11e8aa2e13b447cdda5f",
+ "title": "轻轻为房间一角拉上窗帘",
+ "name": "201731_cowt02a_PC_SEO",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "轻轻为房间一角拉上窗帘",
+   "texts": [
+    "<p>层叠的窗帘能够让你根据自己的喜好调节光线、声音、温度和风格。只需简单地拉动窗帘，就能实现你想要的私密或开放程度。 喜欢这样的窗帘组合？</p>",
+    "轻轻为房间一角拉上窗帘",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/1c/28/1c28fa5b66113a20beaf0f14a22beef8.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/1c/28/1c28fa5b66113a20beaf0f14a22beef8.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "10280910",
+    "90284198",
+    "20299099",
+    "50299154",
+    "70299092"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

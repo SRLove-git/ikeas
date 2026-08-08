@@ -1,0 +1,45 @@
+{
+ "url": "/cn/zh/rooms/hallway/gallery/yin3-cang2-de-men2-ting1-pub53562e49",
+ "family": "rooms",
+ "id": "cn--zh--53562e4902af11e9aeb03d6b81950a38",
+ "title": "隐藏的门厅",
+ "name": "20192_rmbe03a_PF",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "隐藏的门厅",
+   "texts": [
+    "小门厅里摆放着用于存储衣物的宜家 PAX 帕克思 衣柜，带 KIRKENES 科克尼斯 软木滑门。这款产品便于家庭展示其孩子的创意之作。",
+    "<p>这些滑门可滑动打开，能为狭窄的门厅节省空间。让低垂的吊灯照亮孩子的艺术作品。走进这户人家，了解他们的收纳窍门！</p>",
+    "隐藏的门厅",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/cd/d7/cdd757ea3e6e1458e4362b446abb2617.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/cd/d7/cdd757ea3e6e1458e4362b446abb2617.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s99276504",
+    "s09276551",
+    "40249961",
+    "60334760",
+    "50289579"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

@@ -1,0 +1,123 @@
+{
+ "url": "/cn/zh/rooms/kitchen/gallery/shi4-he2-she4-jiao1-huo2-dong4-de-chu2-fang2-pubd70ccdf0",
+ "family": "rooms",
+ "id": "cn--zh--d70ccdf09f1d11eabac1c3b4429adc99",
+ "title": "适合社交活动的厨房",
+ "name": "20211_rmsk02a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "适合社交活动的厨房"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "配白色/深褐色柜门和抽屉的简约厨房，以及带有白色大理石纹台面的厨房多用桌。",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/72/75/72752801161eedf14fcaf8aa045c7532.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/72/75/72752801161eedf14fcaf8aa045c7532.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>烹饪、用餐、社交和放松&mdash;&mdash;厨房也可以摇身变成开展社交活动的实用空间，除了平日吃早餐，也可以举办热闹的节日聚会！</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "白色大理石纹工作台面、黑色水龙头、深灰色抽屉前板，以及放着面粉和面团的木制砧板。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "20341692"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/a1/9f/a19fb2b42a15e52968ced236f5027304.jpg",
+    "https://file.app.ikea.cn/images/a6/30/a630faa872e88991f059824dec5e1c0e.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/a1/9f/a19fb2b42a15e52968ced236f5027304.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/a6/30/a630faa872e88991f059824dec5e1c0e.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "两盏圆筒形的黑色/玻璃吊灯悬挂在白色大理石纹工作台面上方，一个黑色水龙头和一个白色水槽。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "60430771"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/ec/35/ec3527cd1828a9959ac8af4cebd0e450.jpg",
+    "https://file.app.ikea.cn/images/c1/c0/c1c0082f5b77df2f0acf5d4205135449.jpg",
+    "https://file.app.ikea.cn/images/8e/34/8e3430f61da2b5beae6f1786e8742cfa.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/ec/35/ec3527cd1828a9959ac8af4cebd0e450.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/c1/c0/c1c0082f5b77df2f0acf5d4205135449.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/8e/34/8e3430f61da2b5beae6f1786e8742cfa.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "30426054",
+    "40466105",
+    "50335208",
+    "10395001",
+    "20316046"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

@@ -1,0 +1,140 @@
+{
+ "url": "/cn/zh/cat/ping-di-shen-guo-20635",
+ "id": "ping-di-shen-guo-20635",
+ "name": "烧锅",
+ "description": "查看我们的优质烧锅。我们的烧锅有多种功能、尺寸、材质和设计风格，可以丰富你的厨具和创意灵感，助你尝试制作新美食。你准备用新烧锅做的第一道菜是什么？",
+ "total": 8,
+ "products": [
+  {
+   "id": "50484236",
+   "name": "IKEA 365+",
+   "price": 79.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/ikea-365-chang-bing-dai-gai-guo-bu-xiu-gang__1006179_pe825764_s4.jpg",
+   "productType": "长柄带盖锅",
+   "designText": "不锈钢",
+   "measureText": "2.0 公升",
+   "url": null,
+   "seoSlug": "ikea-365-chang-bing-dai-gai-guo-bu-xiu-gang"
+  },
+  {
+   "id": "40602513",
+   "name": "KLIPPFISK 克利菲斯",
+   "price": 179,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/klippfisk-ke-li-fei-si-chang-bing-dai-gai-guo-bu-nian-tu-ceng-bo-li-mu-tou-lan-hei-se__1399002_pe968227_s4.jpg",
+   "productType": "长柄带盖锅",
+   "designText": "不粘涂层 玻璃/木头 蓝黑色",
+   "measureText": "2.3 公升",
+   "url": null,
+   "seoSlug": "klippfisk-ke-li-fei-si-chang-bing-dai-gai-guo-bu-nian-tu-ceng-bo-li-mu-tou-lan-hei-se"
+  },
+  {
+   "id": "60463728",
+   "name": "MIDDAGSMAT 米达莫",
+   "price": 49.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/middagsmat-mi-da-mo-chang-bing-dai-gai-guo-tou-ming-bo-li-bu-xiu-gang__1196027_pe902695_s4.jpg",
+   "productType": "长柄带盖锅",
+   "designText": "透明玻璃/不锈钢",
+   "measureText": "2 公升",
+   "url": null,
+   "seoSlug": "middagsmat-mi-da-mo-chang-bing-dai-gai-guo-tou-ming-bo-li-bu-xiu-gang"
+  },
+  {
+   "id": "40560669",
+   "name": "VARDAGEN 瓦达恩",
+   "price": 599,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/vardagen-wa-da-en-fu-gai-tun-guo-tang-ci-zhu-tie-wu-guang-ze-hei-se__1196070_pe902731_s4.jpg",
+   "productType": "附盖炖锅",
+   "designText": "搪瓷铸铁 无光泽/黑色",
+   "measureText": "5 公升",
+   "url": null,
+   "seoSlug": "vardagen-wa-da-en-fu-gai-tun-guo-tang-ci-zhu-tie-wu-guang-ze-hei-se"
+  },
+  {
+   "id": "00517569",
+   "name": "FINMAT 费茂特",
+   "price": 399,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/finmat-fei-mao-te-chang-bing-dai-gai-guo-tong-bu-xiu-gang__1104954_pe867990_s4.jpg",
+   "productType": "长柄带盖锅",
+   "designText": "铜/不锈钢",
+   "measureText": "1.5 公升",
+   "url": null,
+   "seoSlug": "finmat-fei-mao-te-chang-bing-dai-gai-guo-tong-bu-xiu-gang"
+  },
+  {
+   "id": "80597604",
+   "name": "MANGOFISK 曼古菲斯",
+   "price": 129,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/mangofisk-man-gu-fei-si-chang-bing-dai-gai-guo-bu-nian-tu-ceng-lu-se__1407329_pe971500_s4.jpg",
+   "productType": "长柄带盖锅",
+   "designText": "不粘涂层/绿色",
+   "measureText": "2.3 公升",
+   "url": null,
+   "seoSlug": "mangofisk-man-gu-fei-si-chang-bing-dai-gai-guo-bu-nian-tu-ceng-lu-se"
+  },
+  {
+   "id": "20513160",
+   "name": "HEMKOMST 海考特",
+   "price": 129,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/hemkomst-hai-kao-te-chang-bing-dai-gai-guo-bu-xiu-gang-bo-li__1083758_pe859089_s4.jpg",
+   "productType": "长柄带盖锅",
+   "designText": "不锈钢/玻璃",
+   "measureText": "2 公升",
+   "url": null,
+   "seoSlug": "hemkomst-hai-kao-te-chang-bing-dai-gai-guo-bu-xiu-gang-bo-li"
+  },
+  {
+   "id": "80625329",
+   "name": "IKEA 365+",
+   "price": 69.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/ikea-365-chang-bing-dai-gai-guo-bu-xiu-gang__1515252_pe1011339_s4.jpg",
+   "productType": "长柄带盖锅",
+   "designText": "不锈钢",
+   "measureText": "1 公升",
+   "url": null,
+   "seoSlug": "ikea-365-chang-bing-dai-gai-guo-bu-xiu-gang"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "50484236",
+   "type": "ART",
+   "fullId": "50484236"
+  },
+  {
+   "id": "40602513",
+   "type": "ART",
+   "fullId": "40602513"
+  },
+  {
+   "id": "60463728",
+   "type": "ART",
+   "fullId": "60463728"
+  },
+  {
+   "id": "40560669",
+   "type": "ART",
+   "fullId": "40560669"
+  },
+  {
+   "id": "00517569",
+   "type": "ART",
+   "fullId": "00517569"
+  },
+  {
+   "id": "80597604",
+   "type": "ART",
+   "fullId": "80597604"
+  },
+  {
+   "id": "20513160",
+   "type": "ART",
+   "fullId": "20513160"
+  },
+  {
+   "id": "80625329",
+   "type": "ART",
+   "fullId": "80625329"
+  }
+ ]
+}

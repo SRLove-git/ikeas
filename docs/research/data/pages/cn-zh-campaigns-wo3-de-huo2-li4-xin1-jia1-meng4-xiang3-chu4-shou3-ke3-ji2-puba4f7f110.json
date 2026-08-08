@@ -1,0 +1,1231 @@
+{
+ "url": "/cn/zh/campaigns/wo3-de-huo2-li4-xin1-jia1-meng4-xiang3-chu4-shou3-ke3-ji2-puba4f7f110",
+ "family": "campaigns",
+ "id": "cn--zh--a4f7f1107af911ebbf58a38a02d586b9",
+ "title": "我的活力新家 梦想触手可及",
+ "name": "我的活力新家",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "我的活力新家 梦想触手可及"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "<h2>让家重新焕发活力</h2>\n<p>家是一个充满能量的地方，能给我们带来新鲜活力。对大部分人来说，春天是给家里带来改变的好时机。无论是给家来个大大的翻新，还是购置小小的家装，都能令我们活力充沛。</p>",
+    "pub-text"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-video-link",
+   "title": null,
+   "texts": [
+    "https://v.youku.com/v_show/id_XNTExOTIwMzMwMA==.html",
+    "<p>▴ 点击观看视频，感受小改动的大变化！</p>",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "https://v.youku.com/v_show/id_XNTExOTIwMzMwMA==.html",
+     "text": "\n<p>▴ 点击观看视频，感受小改动的大变化！</p>\n"
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "是时候和宜家一起，让生活焕然一新！",
+   "texts": [
+    "/new/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fnew%2F&key=",
+    "{\"objectId_var\":\"/new/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "是时候和宜家一起，让生活焕然一新！",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/new/",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "/h5page/?url=%23f0972c40-7b3e-11eb-a3c2-afdc24edcc13",
+    "NO",
+    "ikea://default-module/H5?url=%23f0972c40-7b3e-11eb-a3c2-afdc24edcc13",
+    "{\"objectId_var\":\"#f0972c40-7b3e-11eb-a3c2-afdc24edcc13\",\"objectType_var\":\"default-module/H5\"}",
+    "pub-image"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/9f/3b/9f3bc22ff63153fcb3b1365387c267ed.gif",
+    "https://file.app.ikea.cn/images/07/1e/071e0d631a3ea5797b39ed6c97bcd451.jpg"
+   ],
+   "links": [
+    {
+     "href": "/h5page/?url=%23f0972c40-7b3e-11eb-a3c2-afdc24edcc13",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/9f/3b/9f3bc22ff63153fcb3b1365387c267ed.gif",
+     "text": ""
+    },
+    {
+     "href": "/h5page/?url=%23e7bc7330-7be0-11eb-84a1-1966380d6490",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/07/1e/071e0d631a3ea5797b39ed6c97bcd451.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>焕新家居灵感</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p><strong>客厅</strong> | <a href=\"#bf6b6380-7be7-11eb-84a1-1966380d6490\">卧室</a> | <a href=\"#c9b44af0-7be7-11eb-84a1-1966380d6490\">儿童房</a> | <a href=\"#ccf87970-7be7-11eb-84a1-1966380d6490\">餐厅储物 </a>| <a href=\"#cfbb1be0-7be7-11eb-84a1-1966380d6490\">厨房</a> | <a href=\"#d24e22d0-7be7-11eb-84a1-1966380d6490\">浴室</a> | <a href=\"#d52bee60-7be7-11eb-84a1-1966380d6490\">宜家去你家</a> | <a href=\"#d8d2fd60-7be7-11eb-84a1-1966380d6490\">设计服务</a></p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "<h2>够&ldquo;装&rdquo;的客厅</h2>",
+    "pub-text",
+    "/cat/10475",
+    "NO",
+    "ikea://content/plp?catalogId=10475"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/10475",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "/cat/46053",
+    "NO",
+    "ikea://content/plp?catalogId=46053",
+    "{\"objectId_var\":\"46053\",\"objectType_var\":\"plp\"}",
+    "pub-image"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/45/8c/458cbd1834b868dc9927ecf5723ff29f.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/46053",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/45/8c/458cbd1834b868dc9927ecf5723ff29f.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "/p/39185955?artType=SPR",
+    "NO",
+    "ikea://content/pip?id=39185955&type=SPR",
+    "{\"objectId_var\":\"39185955\",\"objectType_var\":\"product\"}",
+    "pub-image"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/80/46/8046bec268c0784d91a1de71f053c8c3.jpg",
+    "https://file.app.ikea.cn/images/49/76/49765a19cfc0ca1461e8b54c05b95b9b.jpg",
+    "https://file.app.ikea.cn/images/ea/1a/ea1a34eef7df45876b6ce8ad7babda61.jpg"
+   ],
+   "links": [
+    {
+     "href": "/p/39185955?artType=SPR",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/80/46/8046bec268c0784d91a1de71f053c8c3.jpg",
+     "text": ""
+    },
+    {
+     "href": "/p/89187141?artType=SPR",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/49/76/49765a19cfc0ca1461e8b54c05b95b9b.jpg",
+     "text": ""
+    },
+    {
+     "href": "/p/59299036?artType=SPR",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/ea/1a/ea1a34eef7df45876b6ce8ad7babda61.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "各种风格和价位的电视柜",
+   "texts": [
+    "/cat/10475",
+    "NO",
+    "ikea://content/plp?catalogId=10475",
+    "{\"objectId_var\":\"10475\",\"objectType_var\":\"plp\"}",
+    "各种风格和价位的电视柜",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/10475",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "<h2>更多储物家具系列</h2>",
+    "pub-text",
+    "/cat/st002",
+    "NO",
+    "ikea://content/plp?catalogId=st002"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/st002",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "/cat/27534",
+    "NO",
+    "ikea://content/plp?catalogId=27534",
+    "{\"objectId_var\":\"27534\",\"objectType_var\":\"plp\"}",
+    "pub-image"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/71/c7/71c74e41ea71397c1beb7ee176b1dac0.jpg",
+    "https://file.app.ikea.cn/images/1e/c3/1ec311e66aaba775aa4f3d69cb0a53db.jpg",
+    "https://file.app.ikea.cn/images/08/98/0898b82a1c195cfd9ed3a7c0ada02830.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/27534",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/71/c7/71c74e41ea71397c1beb7ee176b1dac0.jpg",
+     "text": ""
+    },
+    {
+     "href": "/cat/28102",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/1e/c3/1ec311e66aaba775aa4f3d69cb0a53db.jpg",
+     "text": ""
+    },
+    {
+     "href": "/cat/10456",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/08/98/0898b82a1c195cfd9ed3a7c0ada02830.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "更灵活地利用家中空间",
+   "texts": [
+    "/cat/st002",
+    "NO",
+    "ikea://content/plp?catalogId=st002",
+    "{\"objectId_var\":\"st002\",\"objectType_var\":\"plp\"}",
+    "更灵活地利用家中空间",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/st002",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p><a href=\"#f97204c0-7b3e-11eb-a3c2-afdc24edcc13\">客厅</a> | <strong>卧室</strong> | <a href=\"#c9b44af0-7be7-11eb-84a1-1966380d6490\">儿童房</a> | <a href=\"#ccf87970-7be7-11eb-84a1-1966380d6490\">餐厅储物 </a>| <a href=\"#cfbb1be0-7be7-11eb-84a1-1966380d6490\">厨房</a> | <a href=\"#d24e22d0-7be7-11eb-84a1-1966380d6490\">浴室</a> | <a href=\"#d52bee60-7be7-11eb-84a1-1966380d6490\">宜家去你家</a> | <a href=\"#d8d2fd60-7be7-11eb-84a1-1966380d6490\">设计服务</a></p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "<h2>卧室</h2>",
+    "pub-text",
+    "/rooms/bedroom/gallery/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fbedroom%2Fgallery%2F&key="
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/rooms/bedroom/gallery/",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "/cat/48958",
+    "NO",
+    "ikea://content/plp?catalogId=48958",
+    "{\"objectId_var\":\"48958\",\"objectType_var\":\"plp\"}",
+    "pub-image"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/e3/a2/e3a2883ad7e319ad19967eef2942b7e6.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/48958",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/e3/a2/e3a2883ad7e319ad19967eef2942b7e6.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "/cat/24337",
+    "NO",
+    "ikea://content/plp?catalogId=24337",
+    "{\"objectId_var\":\"24337\",\"objectType_var\":\"plp\"}",
+    "pub-image"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/cf/73/cf7374fcb1ae298e6ac569aedc173bb9.gif",
+    "https://file.app.ikea.cn/images/e9/c4/e9c47a962a7a1d40d5a593bd09871144.gif",
+    "https://file.app.ikea.cn/images/70/72/70729dcaa9432db025945c6fd7bd0499.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/24337",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/cf/73/cf7374fcb1ae298e6ac569aedc173bb9.gif",
+     "text": ""
+    },
+    {
+     "href": "/campaigns/selected-item-pub8695a6ea/",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/e9/c4/e9c47a962a7a1d40d5a593bd09871144.gif",
+     "text": ""
+    },
+    {
+     "href": "/cat/45732",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/70/72/70729dcaa9432db025945c6fd7bd0499.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s99246593",
+    "s39324942",
+    "70378683",
+    "s19388157",
+    "s19336272"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "/cat/46052",
+    "NO",
+    "ikea://content/plp?catalogId=46052",
+    "{\"objectId_var\":\"46052\",\"objectType_var\":\"plp\"}",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/85/07/85078a1b29c207b0f4d0fb8d68bff7b8.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/46052",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/85/07/85078a1b29c207b0f4d0fb8d68bff7b8.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p><a href=\"#f97204c0-7b3e-11eb-a3c2-afdc24edcc13\">客厅</a> | <a href=\"#bf6b6380-7be7-11eb-84a1-1966380d6490\">卧室</a> | <strong>儿童房</strong> | <a href=\"#ccf87970-7be7-11eb-84a1-1966380d6490\">餐厅储物 </a>| <a href=\"#cfbb1be0-7be7-11eb-84a1-1966380d6490\">厨房</a> | <a href=\"#d24e22d0-7be7-11eb-84a1-1966380d6490\">浴室</a> | <a href=\"#d52bee60-7be7-11eb-84a1-1966380d6490\">宜家去你家</a> | <a href=\"#d8d2fd60-7be7-11eb-84a1-1966380d6490\">设计服务</a></p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2><strong>儿童房</strong></h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "/rooms/childrens-room/gallery/yi1-jian1-ge4-xing4-shi2-zu2-de-er2-tong2-fang2-pub9b57c646/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fchildrens-room%2Fgallery%2Fyi1-jian1-ge4-xing4-shi2-zu2-de-er2-tong2-fang2-pub9b57c646%2F&key=",
+    "{\"objectId_var\":\"/rooms/childrens-room/gallery/yi1-jian1-ge4-xing4-shi2-zu2-de-er2-tong2-fang2-pub9b57c646/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "pub-image"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/d5/26/d5266d9ee4d0316a581de8cb8d766b95.jpg",
+    "https://file.app.ikea.cn/images/9f/e9/9fe9f8f019a1780e15463c0951c36740.jpg"
+   ],
+   "links": [
+    {
+     "href": "/rooms/childrens-room/gallery/yi1-jian1-ge4-xing4-shi2-zu2-de-er2-tong2-fang2-pub9b57c646/",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/d5/26/d5266d9ee4d0316a581de8cb8d766b95.jpg",
+     "text": ""
+    },
+    {
+     "href": "/cat/19027",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/9f/e9/9fe9f8f019a1780e15463c0951c36740.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p><a href=\"#f97204c0-7b3e-11eb-a3c2-afdc24edcc13\">客厅</a> | <a href=\"#bf6b6380-7be7-11eb-84a1-1966380d6490\">卧室</a> | <a href=\"#c9b44af0-7be7-11eb-84a1-1966380d6490\">儿童房</a> | <strong>餐厅储物</strong> | <a href=\"#cfbb1be0-7be7-11eb-84a1-1966380d6490\">厨房</a> | <a href=\"#d24e22d0-7be7-11eb-84a1-1966380d6490\">浴室</a> | <a href=\"#d52bee60-7be7-11eb-84a1-1966380d6490\">宜家去你家</a> | <a href=\"#d8d2fd60-7be7-11eb-84a1-1966380d6490\">设计服务</a></p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "<h2><strong>餐厅储物</strong></h2>",
+    "pub-text",
+    "/cat/30454",
+    "NO",
+    "ikea://content/plp?catalogId=30454"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/30454",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "/cat/48958",
+    "NO",
+    "ikea://content/plp?catalogId=48958",
+    "{\"objectId_var\":\"48958\",\"objectType_var\":\"plp\"}",
+    "pub-image"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/60/c8/60c8b3b1bf64eed36a21a34bf7f613e8.jpg",
+    "https://file.app.ikea.cn/images/36/11/3611bb897728d1a9018247ec2775c709.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/48958",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/60/c8/60c8b3b1bf64eed36a21a34bf7f613e8.jpg",
+     "text": ""
+    },
+    {
+     "href": "/cat/27534",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/36/11/3611bb897728d1a9018247ec2775c709.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "70422394",
+    "20407292",
+    "s39208037",
+    "s49384068",
+    "80423883"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p><a href=\"#f97204c0-7b3e-11eb-a3c2-afdc24edcc13\">客厅</a> | <a href=\"#bf6b6380-7be7-11eb-84a1-1966380d6490\">卧室</a> | <a href=\"#c9b44af0-7be7-11eb-84a1-1966380d6490\">儿童房</a> | <a href=\"#ccf87970-7be7-11eb-84a1-1966380d6490\">餐厅储物 </a>| <strong>厨房</strong> | <a href=\"#d24e22d0-7be7-11eb-84a1-1966380d6490\">浴室</a> | <a href=\"#d52bee60-7be7-11eb-84a1-1966380d6490\">宜家去你家</a> | <a href=\"#d8d2fd60-7be7-11eb-84a1-1966380d6490\">设计服务</a></p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "<h2>厨房</h2>",
+    "pub-text",
+    "/rooms/kitchen/gallery/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fkitchen%2Fgallery%2F&key="
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/rooms/kitchen/gallery/",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "/cat/24984",
+    "NO",
+    "ikea://content/plp?catalogId=24984",
+    "{\"objectId_var\":\"24984\",\"objectType_var\":\"plp\"}",
+    "pub-image"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/ac/68/ac684611fdb4683751df0c05741e57d5.jpg",
+    "https://file.app.ikea.cn/images/7a/0e/7a0e3f10fef8f1d8d99580794511a58c.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/24984",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/ac/68/ac684611fdb4683751df0c05741e57d5.jpg",
+     "text": ""
+    },
+    {
+     "href": "/cat/20676",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/7a/0e/7a0e3f10fef8f1d8d99580794511a58c.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "30177257",
+    "70177726",
+    "30315796",
+    "30271132",
+    "70372836"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p><a href=\"#f97204c0-7b3e-11eb-a3c2-afdc24edcc13\">客厅</a> | <a href=\"#bf6b6380-7be7-11eb-84a1-1966380d6490\">卧室</a> | <a href=\"#c9b44af0-7be7-11eb-84a1-1966380d6490\">儿童房</a> | <a href=\"#ccf87970-7be7-11eb-84a1-1966380d6490\">餐厅储物 </a>| <a href=\"#cfbb1be0-7be7-11eb-84a1-1966380d6490\">厨房</a> | <strong>浴室</strong> | <a href=\"#d52bee60-7be7-11eb-84a1-1966380d6490\">宜家去你家</a> | <a href=\"#d8d2fd60-7be7-11eb-84a1-1966380d6490\">设计服务</a></p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "<h2>浴室</h2>",
+    "pub-text",
+    "/rooms/bathroom/gallery/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fbathroom%2Fgallery%2F&key="
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/rooms/bathroom/gallery/",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "/cat/10555",
+    "NO",
+    "ikea://content/plp?catalogId=10555",
+    "{\"objectId_var\":\"10555\",\"objectType_var\":\"plp\"}",
+    "pub-image"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/bb/14/bb14b0b662098c904d2a6dbafb00d257.jpg",
+    "https://file.app.ikea.cn/images/f8/75/f875aeb252a213bddb343df90c70e32e.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/10555",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/bb/14/bb14b0b662098c904d2a6dbafb00d257.jpg",
+     "text": ""
+    },
+    {
+     "href": "/cat/fu005",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/f8/75/f875aeb252a213bddb343df90c70e32e.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "70400274",
+    "30400271",
+    "90400268",
+    "20394015",
+    "50453881"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p><a href=\"#f97204c0-7b3e-11eb-a3c2-afdc24edcc13\">客厅</a> | <a href=\"#bf6b6380-7be7-11eb-84a1-1966380d6490\">卧室</a> | <a href=\"#c9b44af0-7be7-11eb-84a1-1966380d6490\">儿童房</a> | <a href=\"#ccf87970-7be7-11eb-84a1-1966380d6490\">餐厅储物 </a>| <a href=\"#cfbb1be0-7be7-11eb-84a1-1966380d6490\">厨房</a> | <a href=\"#d24e22d0-7be7-11eb-84a1-1966380d6490\">浴室</a> | <strong>宜家去你家</strong> | <a href=\"#d8d2fd60-7be7-11eb-84a1-1966380d6490\">设计服务</a></p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>宜家自制家居改造系列节目《宜家去你家》</h2>\n<p>由宜家设计师走进真实家庭，针对不同屋主的需求，用可持续的人性化设计，为屋主们化解生活中的困扰，创造理想的家！</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "/campaigns/ikea-design-stories-pubc770f5d0",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fcampaigns%2Fikea-design-stories-pubc770f5d0&key=cn--zh--c770f5d0102711eb80c3eda0f6efe0f0",
+    "{\"objectId_var\":\"/campaigns/ikea-design-stories-pubc770f5d0\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "IMAGE",
+    "更新至第3期：90后小夫妻新家改造"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/0a/e6/0ae6fcbc62da6c08a8dc95d677930567.jpg"
+   ],
+   "links": [
+    {
+     "href": "/campaigns/ikea-design-stories-pubc770f5d0",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/0a/e6/0ae6fcbc62da6c08a8dc95d677930567.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/campaigns/ikea-design-stories-pubc770f5d0",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fcampaigns%2Fikea-design-stories-pubc770f5d0&key=cn--zh--c770f5d0102711eb80c3eda0f6efe0f0",
+    "{\"objectId_var\":\"/campaigns/ikea-design-stories-pubc770f5d0\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "点击观看"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/campaigns/ikea-design-stories-pubc770f5d0",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p><a href=\"#f97204c0-7b3e-11eb-a3c2-afdc24edcc13\">客厅</a> | <a href=\"#bf6b6380-7be7-11eb-84a1-1966380d6490\">卧室</a> | <a href=\"#c9b44af0-7be7-11eb-84a1-1966380d6490\">儿童房</a> | <a href=\"#ccf87970-7be7-11eb-84a1-1966380d6490\">餐厅储物 </a>| <a href=\"#cfbb1be0-7be7-11eb-84a1-1966380d6490\">厨房</a> | <a href=\"#d24e22d0-7be7-11eb-84a1-1966380d6490\">浴室</a> | <a href=\"#d52bee60-7be7-11eb-84a1-1966380d6490\">宜家去你家</a> | <strong>设计服务</strong></p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-inspiration-card",
+   "title": null,
+   "texts": [
+    "b185cb20-7bd8-11eb-84a1-1966380d6490",
+    "/h5page/?url=https%3A%2F%2Fkefu.csc.ikea.cn%2Fwebim%2Fim.html%3FconfigId%3D4ddd4cac-0db9-42c0-907b-2ef3c9b6dd9a%26_ga%3D2.253765576.1540860464.1611136946-1670664661.1611136946",
+    "NO",
+    "ikea://default-module/H5?url=https%3A%2F%2Fkefu.csc.ikea.cn%2Fwebim%2Fim.html%3FconfigId%3D4ddd4cac-0db9-42c0-907b-2ef3c9b6dd9a%26_ga%3D2.253765576.1540860464.1611136946-1670664661.1611136946",
+    "{\"objectId_var\":\"https://kefu.csc.ikea.cn/webim/im.html?configId=4ddd4cac-0db9-42c0-907b-2ef3c9b6dd9a&_ga=2.253765576.1540860464.1611136946-1670664661.1611136946\",\"objectType_var\":\"default-module/H5\"}",
+    "零接触远程下单，一对一服务"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/05/20/05204500586cf1e33bf4a3e26c3ff84f.jpg",
+    "https://file.app.ikea.cn/images/e5/e8/e5e812e9bba83720b38d1f0bc8af3c17.jpg",
+    "https://file.app.ikea.cn/images/64/4c/644c78717a4fcd964176632a26240f2f.jpg"
+   ],
+   "links": [
+    {
+     "href": "/h5page/?url=https%3A%2F%2Fkefu.csc.ikea.cn%2Fwebim%2Fim.html%3FconfigId%3D4ddd4cac-0db9-42c0-907b-2ef3c9b6dd9a%26_ga%3D2.253765576.1540860464.1611136946-1670664661.1611136946",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/05/20/05204500586cf1e33bf4a3e26c3ff84f.jpg",
+     "text": ""
+    },
+    {
+     "href": "/h5page/?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fkitchen%3Fchannel%3Dkitchen_IRW%2520M2%26cl_sr%3DIRW%2520M2",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/e5/e8/e5e812e9bba83720b38d1f0bc8af3c17.jpg",
+     "text": ""
+    },
+    {
+     "href": "/h5page/?url=https%3A%2F%2Fwrd.family.ikea.cn%2Fwrd%3Fchannel%3DEC_Channel%26cl_sr%3DIRW_homepage_2nd_Anniversary",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/64/4c/644c78717a4fcd964176632a26240f2f.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "/h5page/?url=%2335af6cd0-7b3e-11eb-a3c2-afdc24edcc13",
+    "NO",
+    "ikea://default-module/H5?url=%2335af6cd0-7b3e-11eb-a3c2-afdc24edcc13",
+    "{\"objectId_var\":\"#35af6cd0-7b3e-11eb-a3c2-afdc24edcc13\",\"objectType_var\":\"default-module/H5\"}",
+    "pub-image"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/8b/29/8b29ec96ffb2c4c99a5ce853edeb15d9.jpg",
+    "https://file.app.ikea.cn/images/61/4f/614fe702c0484a57567f206daf4c82fb.gif"
+   ],
+   "links": [
+    {
+     "href": "/h5page/?url=%2335af6cd0-7b3e-11eb-a3c2-afdc24edcc13",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/8b/29/8b29ec96ffb2c4c99a5ce853edeb15d9.jpg",
+     "text": ""
+    },
+    {
+     "href": "/h5page/?url=%237513c4e0-7be1-11eb-84a1-1966380d6490",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/61/4f/614fe702c0484a57567f206daf4c82fb.gif",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p><strong>&nbsp;焕新第1招：收纳</strong> | <a href=\"#2ed7f9a0-7be7-11eb-84a1-1966380d6490\">焕新第2步：装饰</a> | <a href=\"#36da9a90-7be7-11eb-84a1-1966380d6490\">焕新第3步：清理</a></p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>焕新第1招：收纳</h2>\n<p>把家清理一新后，将换季衣物进行整理收纳，分门别类，使大件小件各有其所，我们每次在挑选行头的时候都能从容不迫。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-inspiration-card",
+   "title": null,
+   "texts": [
+    "8f4d06a0-7be1-11eb-84a1-1966380d6490",
+    "/rooms/hallway/gallery/yi1-jian1-hao3-de-men2-ting1-rang4-chu1-men2-geng4-fang1-bian4-pub1bf4ebf6",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fhallway%2Fgallery%2Fyi1-jian1-hao3-de-men2-ting1-rang4-chu1-men2-geng4-fang1-bian4-pub1bf4ebf6&key=cn--zh--1bf4ebf6138b11ebaee0a9c3c2399012",
+    "{\"objectId_var\":\"/rooms/hallway/gallery/yi1-jian1-hao3-de-men2-ting1-rang4-chu1-men2-geng4-fang1-bian4-pub1bf4ebf6\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "一间好的门厅让出门更方便"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/6e/73/6e731e1e08dd652078d14802ab3fabe0.jpg",
+    "https://file.app.ikea.cn/images/ce/de/cede62bc2583da0e59e4ad513636aff8.jpg",
+    "https://file.app.ikea.cn/images/67/0e/670e811892586f423faf1cfaf29778d4.jpg",
+    "https://file.app.ikea.cn/images/9a/44/9a44364bd71466248944dfed2f3036a7.jpg",
+    "https://file.app.ikea.cn/images/db/5b/db5b615a66d281a76219575911211271.jpg"
+   ],
+   "links": [
+    {
+     "href": "/rooms/hallway/gallery/yi1-jian1-hao3-de-men2-ting1-rang4-chu1-men2-geng4-fang1-bian4-pub1bf4ebf6",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/6e/73/6e731e1e08dd652078d14802ab3fabe0.jpg",
+     "text": ""
+    },
+    {
+     "href": "/rooms/bedroom/gallery/ru2-he2-da3-zao4-chong1-zu2-chu3-wu4-kong1-jian1-an1-jing4-wo4-shi4-fen1-wei2-pubc1896560",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/ce/de/cede62bc2583da0e59e4ad513636aff8.jpg",
+     "text": ""
+    },
+    {
+     "href": "/rooms/hallway/gallery/xiao3-xiao3-men2-ting1-qiao3-miao4-chu3-wu4-pub187c15b1",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/67/0e/670e811892586f423faf1cfaf29778d4.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>&nbsp;<a href=\"#7513c4e0-7be1-11eb-84a1-1966380d6490\">焕新第1招：收纳</a> | <strong>焕新第2步：装饰</strong> | <a href=\"#36da9a90-7be7-11eb-84a1-1966380d6490\">焕新第3步：清理</a></p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>焕新第2步：装饰</h2>\n<p>给家换上春天的样子，好心情自然萌生。换上色彩明亮又质地轻盈的纺织品（窗帘/床单/被套）或家居装饰，家里瞬间就明快起来。淘汰掉旧绒毛地毯，换上天然材质的新地毯，让好心情从脚底蔓延到心头。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-inspiration-card",
+   "title": null,
+   "texts": [
+    "b5ae3e20-7be3-11eb-84a1-1966380d6490",
+    "/rooms/home-office/how-to/ru2-he2-bu4-zhi4-jia1-ting2-ban4-gong1-shi4-pubbf7c0790",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fhome-office%2Fhow-to%2Fru2-he2-bu4-zhi4-jia1-ting2-ban4-gong1-shi4-pubbf7c0790&key=cn--zh--bf7c0790234e11eba3f4df5fa7694a5c",
+    "{\"objectId_var\":\"/rooms/home-office/how-to/ru2-he2-bu4-zhi4-jia1-ting2-ban4-gong1-shi4-pubbf7c0790\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "如何规划家庭办公室"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/93/80/938033b2c0f0131ec1030aadc4cd0e79.jpg",
+    "https://file.app.ikea.cn/images/31/bf/31bfdd3ad2c63f73b23af92281aa2a71.jpg",
+    "https://file.app.ikea.cn/images/a7/21/a721c7507575c540fecdf6cea984999c.jpg",
+    "https://file.app.ikea.cn/images/a3/1b/a31ba2a8a2fe1e2eca1b7f388f9fd6ff.jpg",
+    "https://file.app.ikea.cn/images/63/79/63797ac29b1723cc6684a452abdc1098.jpg"
+   ],
+   "links": [
+    {
+     "href": "/rooms/home-office/how-to/ru2-he2-bu4-zhi4-jia1-ting2-ban4-gong1-shi4-pubbf7c0790",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/93/80/938033b2c0f0131ec1030aadc4cd0e79.jpg",
+     "text": ""
+    },
+    {
+     "href": "/rooms/living-room/how-to/ru2-he2-zai4-zhuang1-shi4-zhong1-yun4-yong4-jing4-zi-pubfe4b2550",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/31/bf/31bfdd3ad2c63f73b23af92281aa2a71.jpg",
+     "text": ""
+    },
+    {
+     "href": "/rooms/living-room/how-to/ru2-he2-wei4-ni3-de-pai4-dui4-tian1-jia1-ge4-xing4-yuan2-su4-pub7c379f90",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/a7/21/a721c7507575c540fecdf6cea984999c.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "70490788",
+    "70496219",
+    "10395317",
+    "40466308",
+    "80490801"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>&nbsp;<a href=\"#7513c4e0-7be1-11eb-84a1-1966380d6490\">焕新第1招：收纳</a> | <a href=\"#2ed7f9a0-7be7-11eb-84a1-1966380d6490\">焕新第2步：装饰</a> | <strong>焕新第3步：清理</strong></p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>焕新第3步：清理</h2>\n<p>养成好习惯，日常生活更健康轻松。焕新家里当然少不了大扫除环节，用宜家清洁系列让家更加清洁卫生，容易过敏的春季，更需要多给自己和家人一些防患于未然的关心和保护。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "<h2>清洁用品</h2>",
+    "pub-text",
+    "/search/products/?group=%E6%B8%85%E6%B4%81%E7%94%A8%E5%93%81",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fsearch%2Fproducts%2F%3Fgroup%3D%25E6%25B8%2585%25E6%25B4%2581%25E7%2594%25A8%25E5%2593%2581&key="
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/33/69/33696f97dc8d1e8aec29c18d5e4a7caa.jpg",
+    "https://file.app.ikea.cn/images/e7/e0/e7e04af6501706c4ad7c34d6e2d70648.jpg"
+   ],
+   "links": [
+    {
+     "href": "/search/products/?group=%E6%B8%85%E6%B4%81%E7%94%A8%E5%93%81",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/33/69/33696f97dc8d1e8aec29c18d5e4a7caa.jpg",
+     "text": ""
+    },
+    {
+     "href": "/search/products/?group=%E6%B4%97%E8%A1%A3%E6%99%BE%E6%99%92%E7%94%A8%E5%93%81",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/e7/e0/e7e04af6501706c4ad7c34d6e2d70648.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "90482443",
+    "20482007",
+    "50482440",
+    "10491031",
+    "90491027"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>发现更多惊喜</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "焕新特惠，限时直降",
+    "/campaigns/chun1-ri4-te4-hui4-xian4-shi2-zhi2-jiang4-pubd24b8690",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fcampaigns%2Fchun1-ri4-te4-hui4-xian4-shi2-zhi2-jiang4-pubd24b8690&key=cn--zh--d24b8690611311ebb05727f226d82905",
+    "{\"objectId_var\":\"/campaigns/chun1-ri4-te4-hui4-xian4-shi2-zhi2-jiang4-pubd24b8690\",\"objectType_var\":\"cms/page-compatible-web\"}"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/d8/15/d815f5fdc9b711dade7f98870b1afe0d.jpg",
+    "https://file.app.ikea.cn/images/ce/27/ce2790ed6bd7382e04155eb501212391.jpg"
+   ],
+   "links": [
+    {
+     "href": "/campaigns/chun1-ri4-te4-hui4-xian4-shi2-zhi2-jiang4-pubd24b8690",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/d8/15/d815f5fdc9b711dade7f98870b1afe0d.jpg",
+     "text": ""
+    },
+    {
+     "href": "/new/",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/ce/27/ce2790ed6bd7382e04155eb501212391.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  }
+ ]
+}

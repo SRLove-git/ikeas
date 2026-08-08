@@ -1,0 +1,69 @@
+{
+ "url": "/cn/zh/customer-service/product-support/recalls/lattjo-pub52e8a84a",
+ "family": "customer-service",
+ "id": "cn--zh--52e8a84ab7cc11e79a5eff486d94c77f",
+ "title": "宜家召回存在窒息风险的 LATTJO 拉特奥 鼓棒和 LATTJO 拉特奥 舌鼓",
+ "name": "产品召回_宜家召回存在窒息风险的 LATTJO 拉特奥 鼓棒和 LATTJO 拉特奥 舌鼓_2016-01-14",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "宜家召回存在窒息风险的 LATTJO 拉特奥 鼓棒和 LATTJO 拉特奥 舌鼓"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "LATTJO 拉特奥鼓棒或 LATTJO 拉特奥舌鼓",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/d8/1e/d81e7771340475ae02ff5e26d97f4232.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/d8/1e/d81e7771340475ae02ff5e26d97f4232.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>2016-01-14 08:00</p>\n<p><strong>宜家诚意提醒凡购买过 LATTJO 拉特奥 鼓棒或 LATTJO 拉特奥 舌鼓的顾客立即把产品移至远离儿童的地方并退回任何一处宜家商场，届时宜家将进行全额退款。</strong></p>\n<p>此次召回为宜家自发采取的预警措施，原因在于宜家收到了六份来自商场员工的报告，报告中提出鼓棒前端的橡胶球会脱落或没有拧紧。松动的橡胶球会引起幼童的注意，最坏的情况下，可能会导致儿童窒息。但目前尚未收到任何类似事故报告。</p>\n<p>经过测试和认证，产品符合适用的玩具安全标准。但是，在随后的调查中，我们发现了安全标准尚未涉及的风险。尽管已经通过认证的测试，但是为了避免出现任何意外事故，宜家自发采取了预警措施，决定召回 LATTJO 拉特奥 鼓棒和 LATTJO 拉特奥 舌鼓。</p>\n<p>LATTJO 拉特奥 鼓棒和 LATTJO 拉特奥 舌鼓自2015年11月1日起开始在所有宜家市场出售。</p>\n<p>无需购买凭证（收据）即可获得全额退款。更多信息，请登www.IKEA.cn,或拨打宜家顾客服务热线400-800-2345。</p>\n<p>对于因此可能给您带来的不便，我们深表歉意。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/customer-service/product-support/recalls/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fcustomer-service%2Fproduct-support%2Frecalls%2F&key=cn--zh--7a305cecbed911e79dfda9ee7bcb674b",
+    "{\"objectId_var\":\"/customer-service/product-support/recalls/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "返回产品召回新闻"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/customer-service/product-support/recalls/",
+     "text": ""
+    }
+   ],
+   "settings": null
+  }
+ ]
+}

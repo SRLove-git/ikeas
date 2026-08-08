@@ -1,0 +1,124 @@
+{
+ "url": "/cn/zh/cat/can-guan-yi-zi-19144",
+ "id": "can-guan-yi-zi-19144",
+ "name": "咖啡馆椅子",
+ "description": "两人餐桌？十人派对？无论多少人坐在桌边，我们的小餐馆餐椅都能成为舒适稳固的座椅。查看我们的产品系列，从户外餐椅到室内酒吧凳应有尽有。毕竟，坐在椅子上的人越多，利润越高，对吧？",
+ "total": 7,
+ "products": [
+  {
+   "id": "20590945",
+   "name": "STOCKHOLM 2025 斯德哥尔摩 2025",
+   "price": 1799,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/stockholm-2025-si-de-ge-er-mo-2025-yi-zi-shen-he-se__1370457_pe958722_s4.jpg",
+   "productType": "椅子",
+   "designText": "深褐色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "stockholm-2025-si-de-ge-er-mo-2025-yi-zi-shen-he-se"
+  },
+  {
+   "id": "90430864",
+   "name": "RÖNNINGE 瑞宁",
+   "price": 699,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/roenninge-rui-ning-yi-zi-hei-se__0642096_pe700892_s4.jpg",
+   "productType": "椅子",
+   "designText": "黑色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "roenninge-rui-ning-yi-zi-hei-se"
+  },
+  {
+   "id": "60417637",
+   "name": "YNGVAR 伊格瓦",
+   "price": 999,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/yngvar-yi-ge-wa-yi-zi-mei-hei-se__0714279_pe730013_s4.jpg",
+   "productType": "椅子",
+   "designText": "煤黑色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "yngvar-yi-ge-wa-yi-zi-mei-hei-se"
+  },
+  {
+   "id": "80417306",
+   "name": "YNGVAR 伊格瓦",
+   "price": 899,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/yngvar-yi-ge-wa-ba-tai-deng-mei-hei-se__0714270_pe729999_s4.jpg",
+   "productType": "吧台凳",
+   "designText": "煤黑色",
+   "measureText": "75 厘米",
+   "url": null,
+   "seoSlug": "yngvar-yi-ge-wa-ba-tai-deng-mei-hei-se"
+  },
+  {
+   "id": "89503192",
+   "name": "LÄKTARE 莱科塔",
+   "price": 499,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/laektare-lai-ke-ta-hui-yi-yi-hua-mu-tie-mian-bai-se__1188525_pe899485_s4.jpg",
+   "productType": "会议椅",
+   "designText": "桦木贴面/白色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "laektare-lai-ke-ta-hui-yi-yi-hua-mu-tie-mian-bai-se"
+  },
+  {
+   "id": "50246090",
+   "name": "JANINGE 延宁",
+   "price": 1299,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/janinge-yan-ning-ba-tai-deng-bai-se__0728069_pe736042_s4.jpg",
+   "productType": "吧台凳",
+   "designText": "白色",
+   "measureText": "76 厘米",
+   "url": null,
+   "seoSlug": "janinge-yan-ning-ba-tai-deng-bai-se"
+  },
+  {
+   "id": "80400754",
+   "name": "RÖNNINGE 瑞宁",
+   "price": 699,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/roenninge-rui-ning-yi-zi-hua-mu__0642047_pe700849_s4.jpg",
+   "productType": "椅子",
+   "designText": "桦木",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "roenninge-rui-ning-yi-zi-hua-mu"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "20590945",
+   "type": "ART",
+   "fullId": "20590945"
+  },
+  {
+   "id": "90430864",
+   "type": "ART",
+   "fullId": "90430864"
+  },
+  {
+   "id": "60417637",
+   "type": "ART",
+   "fullId": "60417637"
+  },
+  {
+   "id": "80417306",
+   "type": "ART",
+   "fullId": "80417306"
+  },
+  {
+   "id": "89503192",
+   "type": "SPR",
+   "fullId": "s89503192"
+  },
+  {
+   "id": "50246090",
+   "type": "ART",
+   "fullId": "50246090"
+  },
+  {
+   "id": "80400754",
+   "type": "ART",
+   "fullId": "80400754"
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "url": "/cn/zh/ikea-business/gallery/ying2-jie1-quan2-xin1-de-yi1-tian1-pub84938320",
+ "family": "ikea-business",
+ "id": "cn--zh--849383209a8111ea85436bbb72ceb2d5",
+ "title": "迎接全新的一天",
+ "name": "662041_ibnd18a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "迎接全新的一天",
+   "texts": [
+    "一间充满米色、黑色和白色调的时尚咖啡馆，配有白色的NORRÅKER 诺鲁克 桦木桌子和黑色的镀铬椅子。",
+    "<p>需要一些外观时尚、功能实用的咖啡馆家具？宜家SVENBERTIL 思伯帝 镀铬椅子是理想的选择：配有扶手设计，可倒挂在桌子上，便于轻松清洁桌底。新的一天从别具格调的时尚咖啡馆开始。</p>",
+    "迎接全新的一天",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/aa/ec/aaec214b1a25100c9a2bf8c56a232414.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/aa/ec/aaec214b1a25100c9a2bf8c56a232414.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "The products to get the look",
+   "texts": [
+    "/cat/19145",
+    "NO",
+    "ikea://content/plp?catalogId=19145",
+    "{\"objectId_var\":\"19145\",\"objectType_var\":\"plp\"}",
+    "The products to get the look",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/19145",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>声明</h2>\n<p>此解决方案包含一系列家用和非家用产品。请确认所购产品可在你的空间内发挥预期用途，并符合有关标准。如需了解该系列的更多信息，请联系宜家对公业务部。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

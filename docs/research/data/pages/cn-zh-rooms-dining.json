@@ -1,0 +1,676 @@
+{
+ "url": "/cn/zh/rooms/dining",
+ "family": "rooms",
+ "id": "cn--zh--6ea926a8a60346b589905040963cae53",
+ "title": "餐厅",
+ "name": "HFB08-餐厅dining room page",
+ "hero": "https://file.app.ikea.cn/cms/u/20260506/425ad2fb84d941bca44b056951a99cba.jpg",
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "餐厅"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Page Title-"
+   }
+  },
+  {
+   "type": "pub-visual-navigation",
+   "title": null,
+   "texts": [
+    "small",
+    "/cat/19145",
+    "NO",
+    "ikea://content/plp?catalogId=19145",
+    "{\"objectId_var\":\"19145\",\"objectType_var\":\"plp\"}",
+    "餐桌椅组合"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/global/assets/navigation/images/dining-sets-19145.jpeg?imwidth=400",
+    "https://file.app.ikea.cn/global/assets/navigation/images/dining-tables-21825.jpeg?imwidth=400",
+    "https://file.app.ikea.cn/global/assets/navigation/images/dining-chairs-25219.jpeg?imwidth=400",
+    "https://file.app.ikea.cn/cms/u/20230323/846dfd7903eb447daf6e33ce6ba04f67.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20230629/0958498c7e2840dd98848ea50d1b6d1e.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/cat/19145",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/global/assets/navigation/images/dining-sets-19145.jpeg?imwidth=400",
+     "text": ""
+    },
+    {
+     "href": "/cat/21825",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/global/assets/navigation/images/dining-tables-21825.jpeg?imwidth=400",
+     "text": ""
+    },
+    {
+     "href": "/cat/25219",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/global/assets/navigation/images/dining-chairs-25219.jpeg?imwidth=400",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "品类导航栏-椅垫"
+   }
+  },
+  {
+   "type": "anchor-navigation",
+   "title": null,
+   "texts": [
+    "BUTTON",
+    "YES",
+    "当季推荐",
+    "26b72594be3247bc9558cc9b09ece1f4",
+    "更低价格",
+    "e26e05a0d8994b09b12428226d1618c3"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "页面导航栏"
+   }
+  },
+  {
+   "type": "rich-text",
+   "title": null,
+   "texts": [
+    "#FFFFFF"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-富文本 Text-"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "感受全新设计的餐桌的美",
+   "texts": [
+    "NO",
+    "TRÖDEN 特鲁登 系列推出了全新的陶瓷桌面餐桌。高压陶瓷桌面坚固耐用，耐刮擦、防污渍、耐冷又耐热。",
+    "感受全新设计的餐桌的美",
+    "horizontal",
+    "https://video.app.ikea.cn/20c97e72f28171f0bfc44531959d0102/efd98a1b6b5740f1a7083ef403fc938e-10076396a0696efb52baa6c3378efb16-sd.m3u8?auth_key=1786152646-6bc7eb89e14f47dba37964bf98ddf85d-0-f7eb6758dba5f256b8dde54708ce8182",
+    "VIDEO"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20260116/07b005c8e70643f3b75a78b09c8eab39.jpg",
+    "https://file.app.ikea.cn/cms/u/20251015/1ef7a47b77824bc499b4c4f04c545676.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260116/deb4b816cc7345fe9593738fad29137f.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260116/6b850b51bffd41e7b9a7eb194ddba31e.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260116/776bbf60000c4de4a0f1d6d76552e875.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://video.app.ikea.cn/20c97e72f28171f0bfc44531959d0102/efd98a1b6b5740f1a7083ef403fc938e-10076396a0696efb52baa6c3378efb16-sd.m3u8?auth_key=1786152646-6bc7eb89e14f47dba37964bf98ddf85d-0-f7eb6758dba5f256b8dde54708ce8182",
+     "text": ""
+    },
+    {
+     "href": "/new/living room-news-pubb17d1057",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20251015/1ef7a47b77824bc499b4c4f04c545676.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/p/30594033?artType=art",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260116/deb4b816cc7345fe9593738fad29137f.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260116/6b850b51bffd41e7b9a7eb194ddba31e.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "HAUGA Gallery"
+   }
+  },
+  {
+   "type": "product-list",
+   "title": null,
+   "texts": [
+    "ONE_LINE",
+    "MANUAL_INPUT",
+    "50622756",
+    "30617567",
+    "50617566",
+    "20608243"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-商品列表 Pruduct list/shelf-"
+   }
+  },
+  {
+   "type": "rich-text",
+   "title": null,
+   "texts": [
+    "#FFFFFF"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-富文本 Text-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2><span style=\"color: #ca0008;\">更低价格的餐厅好物推荐&nbsp;</span></h2>\n<p>通过大批量生产和智能设计，把高品质变得更实惠。现在，用更少的预算，为你的餐厅增添更多缤纷的生活细节。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-更低价格"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": null,
+   "texts": [
+    "NO",
+    "horizontal",
+    "/inspiration/detail/797ce61e-6e20-4686-ac4e-b0f0e079de0f?type=IMAGE",
+    "ikea://ins/ins-detail?id=797ce61e-6e20-4686-ac4e-b0f0e079de0f&type=IMAGE",
+    "{\"objectId_var\":\"797ce61e-6e20-4686-ac4e-b0f0e079de0f\",\"objectType_var\":\"inspiration\"}",
+    "IMAGE"
+   ],
+   "images": [
+    "https://static.web.ikea.cn/content/u/20251020/27037afdf9aa4bfe81b84c970513c65f.jpg?x-oss-process=style/medium",
+    "https://static.web.ikea.cn/content/u/20251020/45823324aef14419a0f3f046b3c8b404.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/inspiration/detail/797ce61e-6e20-4686-ac4e-b0f0e079de0f?type=IMAGE",
+     "text": ""
+    },
+    {
+     "href": "https://static.web.ikea.cn/content/u/20251020/27037afdf9aa4bfe81b84c970513c65f.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/inspiration/detail/cd05d03d-6748-4b2c-a174-1088390554a5?type=IMAGE",
+     "text": ""
+    },
+    {
+     "href": "https://static.web.ikea.cn/content/u/20251020/45823324aef14419a0f3f046b3c8b404.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-栅格合集 Curated Gallery-"
+   }
+  },
+  {
+   "type": "product-list",
+   "title": null,
+   "texts": [
+    "ONE_LINE",
+    "MANUAL_INPUT",
+    "80457236",
+    "29385530",
+    "10457230",
+    "99385536"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-商品列表 Pruduct list/shelf-"
+   }
+  },
+  {
+   "type": "pub-visual-pill-slider",
+   "title": null,
+   "texts": [
+    "/rooms/dining/gallery/a-cool-sophisticated-dining-space-for-a-modest-budget-pub443bbf64",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fdining%2Fgallery%2Fa-cool-sophisticated-dining-space-for-a-modest-budget-pub443bbf64&key=cn--zh--fe58f090b38411eda4b13d2450728a5e",
+    "{\"objectId_var\":\"/rooms/dining/gallery/a-cool-sophisticated-dining-space-for-a-modest-budget-pub443bbf64\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "IMAGE",
+    "hosted"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20250123/f95d1603004f4ad0890d97e034fe46fa.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20250123/afb1913b7870497693cb72b5237f03e4.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20250123/6348aba908164467ab66443726ca1288.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20250123/53abf3d4578c4da5a9c5782adc04448d.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20250123/59f7b18532c2492abac6003525d9e33d.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/rooms/dining/gallery/a-cool-sophisticated-dining-space-for-a-modest-budget-pub443bbf64",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20250123/f95d1603004f4ad0890d97e034fe46fa.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/rooms/dining/gallery/a-small-cottage-style-dining-room-for-the-whole-family-pub571237d9",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20250123/afb1913b7870497693cb72b5237f03e4.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/rooms/dining/gallery/small-but-big-on-charm-a-modern-farmhouse-dining-room-pubb93841c0",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20250123/6348aba908164467ab66443726ca1288.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "餐厅案例"
+   }
+  },
+  {
+   "type": "rich-text",
+   "title": null,
+   "texts": [
+    "#FFFFFF"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-富文本 Text-"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "多样餐桌选择，满足您的需求",
+   "texts": [
+    "/cat/21825",
+    "NO",
+    "ikea://content/plp?catalogId=21825",
+    "{\"objectId_var\":\"21825\",\"objectType_var\":\"plp\"}",
+    "您倾向于传统还是现代风格？是两人、四人还是六人的餐桌？无论是聚餐、喝茶还是工作，餐桌都是家庭情感联结的核心。总有一款餐桌，能完美契合您的生活方式。",
+    "多样餐桌选择，满足您的需求"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20251016/22b776a3922b4c4e80b276c8b673c719.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/21825",
+     "text": ""
+    },
+    {
+     "href": "/p/80365802?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20251016/eb192e8a54b64955ada90f30f5369875.mp4",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "餐桌 Gallery"
+   }
+  },
+  {
+   "type": "product-list",
+   "title": null,
+   "texts": [
+    "ONE_LINE",
+    "MANUAL_INPUT",
+    "09420394",
+    "69578517",
+    "10529468",
+    "20600794"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-商品列表 Pruduct list/shelf-"
+   }
+  },
+  {
+   "type": "rich-text",
+   "title": null,
+   "texts": [
+    "#FFFFFF"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-富文本 Text-"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "灵活用餐，尽享可伸缩餐桌的便利",
+   "texts": [
+    "/cat/21829",
+    "NO",
+    "ikea://content/plp?catalogId=21829",
+    "{\"objectId_var\":\"21829\",\"objectType_var\":\"plp\"}",
+    "无论是聚会还是日常用餐，可伸缩餐桌都能轻松应对多种场景需求。设计巧妙，延展后可容纳更多人，收缩后则节省空间，让您的用餐体验更加灵活自在。",
+    "灵活用餐，尽享可伸缩餐桌的便利"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20260506/bc55ba12d65f4d95a30ba038a1d430e4.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/21829",
+     "text": ""
+    },
+    {
+     "href": "/p/80587493?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://video.app.ikea.cn/008c4e1748ff71f1818c5017f1f80102/b85a7b7d70bd4ca3b6b26902e2039708-1cb4e5e9d5ecfa8dc549cdff0c2e39f9-sd.m3u8?auth_key=1786152646-7df328cf1baf4f4887cec8a33107137d-0-dfc681637b87f6d8e8503a4bc90af229",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "伸缩餐桌 Gallery"
+   }
+  },
+  {
+   "type": "product-list",
+   "title": null,
+   "texts": [
+    "ONE_LINE",
+    "MANUAL_INPUT",
+    "20594057",
+    "50600735",
+    "30568265",
+    "20589904"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-商品列表 Pruduct list/shelf-"
+   }
+  },
+  {
+   "type": "rich-text",
+   "title": null,
+   "texts": [
+    "#FFFFFF"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-富文本 Text-"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": " 兼具美观与舒适的宜家餐椅餐凳",
+   "texts": [
+    "/cat/25220",
+    "NO",
+    "ikea://content/plp?catalogId=25220",
+    "{\"objectId_var\":\"25220\",\"objectType_var\":\"plp\"}",
+    "餐椅餐凳不仅要看起来美观，还要坐起来舒适。宜家餐椅设计比例适中，坐起来舒适，即使久坐也不觉疲惫。宜家提供多样选择，方便与您现有的家具完美搭配，助您打造温馨的用餐环境。",
+    "兼具美观与舒适的宜家餐椅餐凳"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/content/u/20250703/FEE18C9D-4B0D-4E9E-922CD2685F0AB447.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content-hub/f96ef328-1efa-4dd7-befb-0fa4910a9d15/755b9b95-744f-4774-982a-f20840d52b88.jpeg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/cat/25220",
+     "text": ""
+    },
+    {
+     "href": "/inspiration/detail/FEE18C9D-4B0D-4E9E-922CD2685F0AB447?type=IMAGE",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20250703/FEE18C9D-4B0D-4E9E-922CD2685F0AB447.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/inspiration/detail/212BF9E4-28C4-4C86-B7BB44C28A57D457?type=IMAGE",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content-hub/f96ef328-1efa-4dd7-befb-0fa4910a9d15/755b9b95-744f-4774-982a-f20840d52b88.jpeg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "餐椅 Gallery"
+   }
+  },
+  {
+   "type": "product-list",
+   "title": null,
+   "texts": [
+    "ONE_LINE",
+    "MANUAL_INPUT",
+    "20605428",
+    "00530622",
+    "80566749",
+    "20587504"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-商品列表 Pruduct list/shelf-"
+   }
+  },
+  {
+   "type": "ranking",
+   "title": null,
+   "texts": [
+    "全部榜单",
+    "DARK",
+    "TOP",
+    "21826,21827,21829,25220,22659",
+    "LIGHT",
+    "#ab2429"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "餐厅-排行榜"
+   }
+  },
+  {
+   "type": "rich-text",
+   "title": null,
+   "texts": [
+    "#FFFFFF"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-富文本 Text-"
+   }
+  },
+  {
+   "type": "pub-inspiration-card",
+   "title": null,
+   "texts": [
+    "045e5a2a-9a8d-11ea-8543-6bbb72ceb2d5",
+    "/rooms/dining/how-to/3-style-ideas-for-dining-table-settings-pub91836ad5",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fdining%2Fhow-to%2F3-style-ideas-for-dining-table-settings-pub91836ad5&key=cn--zh--d6629550ebac11ec87428b4a67bbbf1f",
+    "{\"objectId_var\":\"/rooms/dining/how-to/3-style-ideas-for-dining-table-settings-pub91836ad5\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "IMAGE"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20250806/fa143e6b76774799b44a3d37d40eaa5a.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20251017/68d549440ffa4bd5b98bc76dd9322b78.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20250806/684a88f0d0c94f0f9f929cf1df81b74c.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20250806/bd063297ada543ef9878544fba056235.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20250806/0dd0d67606234a22afd34919cccbe550.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/rooms/dining/how-to/3-style-ideas-for-dining-table-settings-pub91836ad5",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20250806/fa143e6b76774799b44a3d37d40eaa5a.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/rooms/kitchen/gallery/5-ideas-to-make-everyday-dinner-feel-special-pubd7f43f7a",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20251017/68d549440ffa4bd5b98bc76dd9322b78.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/rooms/kitchen/gallery/5-ideas-to-make-everyday-dinner-feel-special-pubd7f43f7a",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20250806/684a88f0d0c94f0f9f929cf1df81b74c.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-富媒体卡片列表 Inspiration Cards-轻松厨房小妙招"
+   }
+  },
+  {
+   "type": "product-list",
+   "title": "价格实惠的日常餐具",
+   "texts": [
+    "价格实惠的日常餐具",
+    "WATERFALL",
+    "MANUAL_INPUT",
+    "60258916",
+    "20318941",
+    "70429946"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-商品列表 Pruduct list/shelf-价格实惠的日常餐具"
+   }
+  },
+  {
+   "type": "pub-banner",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "image-text-landscape",
+    "<p><span style=\"color: #000000;\">如何通过简单的方法延长餐厅家具的使用寿命，确保多年使用仍保持时尚的外观和实用的功能。</span></p>",
+    "如何延长餐厅家具的使用寿命",
+    "/rooms/dining/how-to/how-to-prolong-the-life-of-your-dining-furniture-puba153ea79",
+    "NO"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20260127/7eb3c52876e34783ba1e6b644be0dddd.jpg",
+    "https://file.app.ikea.cn/cms/u/20260127/7eb3c52876e34783ba1e6b644be0dddd.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260127/7eb3c52876e34783ba1e6b644be0dddd.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260127/7eb3c52876e34783ba1e6b644be0dddd.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/rooms/dining/how-to/how-to-prolong-the-life-of-your-dining-furniture-puba153ea79",
+     "text": ""
+    },
+    {
+     "href": "/landing-page/cn--zh--d215cb60088d11f0acc5490d2dfab7fa",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-媒体色块组合 Banner-"
+   }
+  },
+  {
+   "type": "pub-assurances",
+   "title": null,
+   "texts": [
+    "/customer-service/services/delivery/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fcustomer-service%2Fservices%2Fdelivery%2F&key=",
+    "{\"objectId_var\":\"/customer-service/services/delivery/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "送货服务",
+    "shipping-truck"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/customer-service/services/delivery/",
+     "text": ""
+    },
+    {
+     "href": "/customer-service/services/assembly/",
+     "text": ""
+    },
+    {
+     "href": "/customer-service/returns-claims/return-policy/",
+     "text": ""
+    },
+    {
+     "href": "/customer-service/services/buy-back/",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "IKEA service"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>探索更多灵感</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "inspirations",
+   "title": null,
+   "texts": [
+    "IMAGE_ONLY",
+    "WATERFALL",
+    "TAGS_INPUT",
+    "ad57ea1951873157aff2beedc7f217ae",
+    "NO",
+    "ABD19DBF-B40E-4530-98A87F1B0E6A6869"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "餐桌更多灵感"
+   }
+  }
+ ]
+}

@@ -1,0 +1,277 @@
+{
+ "url": "/cn/zh/rooms/kitchen/gallery/an-organised-kitchen-at-the-heart-of-your-home-pub579e2560",
+ "family": "rooms",
+ "id": "cn--zh--579e25604c4111ec8fdebf1854c5cb57",
+ "title": "易于保持整洁的大厨房布置创意",
+ "name": "64223_rmme01a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "整洁有序的厨房，也是家的中心",
+   "texts": [
+    "一间宽敞明亮的厨房，配有橡木VEDHAMN 韦德哈姆 前板，包括存放玻璃器皿和餐具的玻璃门柜。",
+    "<p>如果家里每个人都喜欢去厨房，那么令厨房轻松保持整洁有序的方式会倍受欢迎。查看这些巧妙的厨房布置方法，了解如何将厨房用品整齐归类收纳，或者以独特的风格展示出来。</p>",
+    "整洁有序的厨房，也是家的中心",
+    "norma"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/e4/2d/e42de032571eeb7061b5c7152d1fba74.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/e4/2d/e42de032571eeb7061b5c7152d1fba74.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "e496ec6971b1466b84e6da6403151f3b"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "经典美观，历久弥新",
+   "texts": [
+    "/cat/23613",
+    "NO",
+    "ikea://content/plp?catalogId=23613",
+    "{\"objectId_var\":\"23613\",\"objectType_var\":\"plp\"}",
+    "暖调木质家具总是能带来温馨舒适之感，这间厨房的橱柜前板也不例外。涂清漆实心橡木框架搭配橡木贴面板，辅以大量精巧的细节，营造出一种工艺感。还有哪些优点？橱柜前板随着时间的推移会更加美观耐看。",
+    "经典美观，历久弥新"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/1dd22cba44e72f0a/original/PH183417.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/23613",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/1dd22cba44e72f0a/original/PH183417.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "2beb1dce2c9f4bb4a9ecb21d9a806b76"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "集成照明，照亮你的典藏器具",
+   "texts": [
+    "/cat/50002",
+    "NO",
+    "ikea://content/plp?catalogId=50002",
+    "{\"objectId_var\":\"50002\",\"objectType_var\":\"plp\"}",
+    "这些玻璃门橱柜是摆放玻璃器具的理想之选，可以将你最喜欢的藏品收纳整齐，不仅美观而且别有格调。集成照明增添个性风格，令所有物品一目了然。",
+    "集成照明，照亮你的典藏器具"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/1fcdfab275220501/original/PH183418.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/50002",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/1fcdfab275220501/original/PH183418.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "bafa2376f70d46e685986006636a188b"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "冰箱取物更方便",
+   "texts": [
+    "/cat/49968",
+    "NO",
+    "ikea://content/plp?catalogId=49968",
+    "{\"objectId_var\":\"49968\",\"objectType_var\":\"plp\"}",
+    "是时候清理冰箱里藏匿的所有食物了。这款旋转搁板非常方便，即使是放在冰箱最里面的小罐子，也保证能看见并且拿到。只需使用吸盘将它贴放在冰箱搁板上，就可以旋转取物了。",
+    "冰箱取物更方便"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/1b9cc7aca08ed6a3/original/PH183419.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/49968",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/1b9cc7aca08ed6a3/original/PH183419.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "49d5dacc87624eec902c08ee89dcea40"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "充分利用食物储存空间",
+   "texts": [
+    "/cat/49117",
+    "NO",
+    "ikea://content/plp?catalogId=49117",
+    "{\"objectId_var\":\"49117\",\"objectType_var\":\"plp\"}",
+    "一个井井有条的拉出式食品柜有助于厨房事务保持有条不紊。这些食品盒有多种尺寸可选，即使很难处理的食品形状也能轻松存放，而且还方便控制食物的储备量，全面减少浪费。",
+    "充分利用食物储存空间"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/2a66487534ede802/original/PH183421.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/49117",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/2a66487534ede802/original/PH183421.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "9ba7db13f5574021bf051c6eddd78a5f"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "厨房垃圾分类更简单",
+   "texts": [
+    "/cat/24259",
+    "NO",
+    "ikea://content/plp?catalogId=24259",
+    "{\"objectId_var\":\"24259\",\"objectType_var\":\"plp\"}",
+    "有了这个拉出式厨房垃圾桶，厨房垃圾的回收和分类变得轻而易举。所有回收物和废弃物存放在一起，遮挡起来，并且近在手边，方便随时放入空罐子等可回收物，为保护地球贡献自己的力量。",
+    "厨房垃圾分类更简单"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/d39902c1355b4ea/original/PH183423.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/24259",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/d39902c1355b4ea/original/PH183423.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "a745f60d7a7745d7b92dbd165c22886e"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "尝试用这些产品来打造你心仪的整洁厨房",
+   "texts": [
+    "/cat/ka005",
+    "NO",
+    "ikea://content/plp?catalogId=ka005",
+    "{\"objectId_var\":\"ka005\",\"objectType_var\":\"plp\"}",
+    "需要启发？有了下面的产品，你就能打造一个拥有巧妙储物空间的温馨厨房，轻松方便地烹饪、用餐和社交。",
+    "尝试用这些产品来打造你心仪的整洁厨房"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/ka005",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "93ce9c3689d64ba0a1b7b3b6fb0785ca"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "专为你和你的空间而设计的家电",
+   "texts": [
+    "/cat/50382",
+    "NO",
+    "ikea://content/plp?catalogId=50382",
+    "{\"objectId_var\":\"50382\",\"objectType_var\":\"plp\"}",
+    "精选能出色搭配宜家厨房的必备设计，它们不仅功能实用，而且外观时尚——在不牺牲品质的前提下，提供优惠的价格。家电提供5年免费品质保证。",
+    "专为你和你的空间而设计的家电"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/50382",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cae27c8b74f442258c0095b0100e584a"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "各式各样的储物盛具",
+   "texts": [
+    "/cat/15937",
+    "NO",
+    "ikea://content/plp?catalogId=15937",
+    "{\"objectId_var\":\"15937\",\"objectType_var\":\"plp\"}",
+    "各式各样的储物盛具",
+    "MANUAL_INPU"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/15937",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "e1a0a555ca844caeb93055aa4c99a9b8"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "永不过时的餐具和玻璃器皿",
+   "texts": [
+    "/cat/kt001",
+    "NO",
+    "ikea://content/plp?catalogId=kt001",
+    "{\"objectId_var\":\"kt001\",\"objectType_var\":\"plp\"}",
+    "永不过时的餐具和玻璃器皿",
+    "MANUAL_INPU"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/kt001",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "37b297a0ad264919a17ddf222a5486ea"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "无论大小，都大有作为",
+   "texts": [
+    "无论大小，都大有作为",
+    "MANUAL_INPU",
+    "40430772",
+    "60416138",
+    "40280843",
+    "50277393"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "0766580f4cd044d29792680c5eb61202"
+   }
+  }
+ ]
+}

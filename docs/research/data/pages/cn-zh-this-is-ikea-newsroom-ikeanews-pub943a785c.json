@@ -1,0 +1,123 @@
+{
+ "url": "/cn/zh/this-is-ikea/newsroom/ikeanews-pub943a785c",
+ "family": "this-is-ikea",
+ "id": "cn--zh--943a785cbed911e79dfda9ee7bcb674b",
+ "title": "可持续发展新闻",
+ "name": "新闻室 - 可持续发展",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "可持续发展新闻",
+   "texts": [
+    "平原上有四个风力发电机",
+    "可持续发展新闻",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/2d/fd/2dfdf79dd11d2d3fbd32e2143159061b.png"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/2d/fd/2dfdf79dd11d2d3fbd32e2143159061b.png",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--4aee508ab4b211e79a5eff486d94c77f",
+    "/this-is-ikea/newsroom/ikeanews-pub4aee508a",
+    "page",
+    "可持续发展",
+    "宜家 可持续发展及报告",
+    "ikea://cms/page-compatible-web?url=%2Fthis-is-ikea%2Fnewsroom%2Fikeanews-pub4aee508a&key=cn--zh--4aee508ab4b211e79a5eff486d94c77f"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/7c/1c/7c1c8e06e437873bff7c6cbb441cd528.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/7c/1c/7c1c8e06e437873bff7c6cbb441cd528.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/this-is-ikea/newsroom/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fthis-is-ikea%2Fnewsroom%2F&key=cn--zh--65094071b3e411e79a5eff486d94c77f",
+    "{\"objectId_var\":\"/this-is-ikea/newsroom/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "返回宜家新闻室"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/this-is-ikea/newsroom/",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h4><strong>你可能会想看</strong></h4>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--5a3665d1bed711e79dfda9ee7bcb674b",
+    "/newsroom/corporate-news/xinwen-pub5a3665d1",
+    "page",
+    "综合新闻",
+    "ikea://cms/page-compatible-web?url=%2Fnewsroom%2Fcorporate-news%2Fxinwen-pub5a3665d1&key=cn--zh--5a3665d1bed711e79dfda9ee7bcb674b",
+    "{\"objectId_var\":\"/newsroom/corporate-news/xinwen-pub5a3665d1\",\"objectType_var\":\"cms/page-compatible-web\"}"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/34/18/34182fc4ce17828b4c54319e3fc7a85d.jpg",
+    "https://file.app.ikea.cn/images/72/31/723130e01c79442f6771cfe57062c1da.jpg",
+    "https://file.app.ikea.cn/images/d1/5b/d15b65f798003aecccaa5908f977b172.jpeg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/34/18/34182fc4ce17828b4c54319e3fc7a85d.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/72/31/723130e01c79442f6771cfe57062c1da.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/d1/5b/d15b65f798003aecccaa5908f977b172.jpeg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  }
+ ]
+}

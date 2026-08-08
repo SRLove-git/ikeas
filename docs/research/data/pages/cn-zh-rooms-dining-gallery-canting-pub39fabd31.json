@@ -1,0 +1,88 @@
+{
+ "url": "/cn/zh/rooms/dining/gallery/canting-pub39fabd31",
+ "family": "rooms",
+ "id": "cn--zh--39fabd31227211e8a87b9f51602dde40",
+ "title": "餐厅",
+ "name": "餐厅灵感_SEO",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "餐厅"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h3><strong>&nbsp;找到符合你品味的用餐空间&nbsp;</strong></h3>\n<p>欢迎来到餐厅家具展示区，这里的餐厅组合种类繁多，风格不一，大小各异，价格也很实惠。我们已经为你搭配好产品，所以你在家也可轻松再现此处看到的布置。四处看看，找到一款餐厅家具，让你的家人充分享受在餐桌边的时光。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--54b69e01ab8e11e8a3645f5b86ee3939",
+    "/rooms/dining/gallery/chun2-zheng4-de-si1-kan1-de-na4-wei2-ya4-feng1-ge2-can1-ting1-pub54b69e01",
+    "page",
+    "纯正的斯堪的纳维亚风格餐厅",
+    "如果你的家庭既喜欢在室内用餐，也喜欢在户外野餐，不妨看看这间面积虽小却十分灵活多变的餐厅：宜家 YPPERLIG 伊波利 椅子专为室内和户外使用设计。",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fdining%2Fgallery%2Fchun2-zheng4-de-si1-kan1-de-na4-wei2-ya4-feng1-ge2-can1-ting1-pub54b69e01&key=cn--zh--54b69e01ab8e11e8a3645f5b86ee3939"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/ed/09/ed0975087a01e66f2e4c0a160c63390f.jpg",
+    "https://file.app.ikea.cn/images/7b/2d/7b2da402c1d050cc9e5c6090bbbc7e50.jpg",
+    "https://file.app.ikea.cn/images/d3/95/d395b25f5cd8d1537b232cba3d64851f.jpg",
+    "https://file.app.ikea.cn/images/65/1d/651d7138b4ed77cdc6a938ceb9fd30e4.jpg",
+    "https://file.app.ikea.cn/images/55/5f/555f00620f5c7519c72a92b48c01ac21.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/ed/09/ed0975087a01e66f2e4c0a160c63390f.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/7b/2d/7b2da402c1d050cc9e5c6090bbbc7e50.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/d3/95/d395b25f5cd8d1537b232cba3d64851f.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/65/1d/651d7138b4ed77cdc6a938ceb9fd30e4.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/55/5f/555f00620f5c7519c72a92b48c01ac21.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/64/5d/645d6c4f6146a878f578264f9668b297.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "button",
+    "返回所有房间灵感",
+    "secondary"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

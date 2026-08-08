@@ -1,0 +1,60 @@
+{
+ "url": "/cn/zh/cat/voxnan-wo-si-nan-xi-lie-37815",
+ "id": "voxnan-wo-si-nan-xi-lie-37815",
+ "name": "VOXNAN 沃斯南 系列",
+ "description": "VOXNAN 沃斯南 系列提供镀铬不锈钢浴室套件。浏览此系列，寻找你翻新浴室所需的物品吧——无论是水龙头、毛巾杆还是其他物件，应有尽有。虽然没有皂液顶喷花洒，但提供手持花洒和淋浴收纳架。",
+ "total": 3,
+ "products": [
+  {
+   "id": "50328590",
+   "name": "VOXNAN 沃斯南",
+   "price": 69.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/voxnan-wo-si-nan-lin-yu-shou-na-jia-du-ge__0710464_pe727565_s4.jpg",
+   "productType": "淋浴收纳架",
+   "designText": "镀铬",
+   "measureText": "25x6 厘米",
+   "url": null,
+   "seoSlug": "voxnan-wo-si-nan-lin-yu-shou-na-jia-du-ge"
+  },
+  {
+   "id": "60533260",
+   "name": "VOXNAN 沃斯南",
+   "price": 599,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/voxnan-wo-si-nan-xi-lian-chi-long-tou-du-ge__0755175_pe748302_s4.jpg",
+   "productType": "洗脸池龙头",
+   "designText": "镀铬",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "voxnan-wo-si-nan-xi-lian-chi-long-tou-du-ge"
+  },
+  {
+   "id": "10533168",
+   "name": "VOXNAN 沃斯南",
+   "price": 699,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/voxnan-wo-si-nan-xi-lian-chi-long-tou-gao-du-ge__0755174_pe748301_s4.jpg",
+   "productType": "洗脸池龙头，高",
+   "designText": "镀铬",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "voxnan-wo-si-nan-xi-lian-chi-long-tou-gao-du-ge"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "50328590",
+   "type": "ART",
+   "fullId": "50328590"
+  },
+  {
+   "id": "60533260",
+   "type": "ART",
+   "fullId": "60533260"
+  },
+  {
+   "id": "10533168",
+   "type": "ART",
+   "fullId": "10533168"
+  }
+ ]
+}

@@ -1,0 +1,124 @@
+{
+ "url": "/cn/zh/cat/roenninge-rui-ning-xi-lie-54966",
+ "id": "roenninge-rui-ning-xi-lie-54966",
+ "name": "RÖNNINGE 瑞宁系列",
+ "description": "RÖNNINGE 瑞宁系列",
+ "total": 7,
+ "products": [
+  {
+   "id": "79297239",
+   "name": "NORRÅKER 诺鲁克 / RÖNNINGE 瑞宁",
+   "price": 4295,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/norraker-nuo-lu-ke-roenninge-rui-ning-yi-zhuo-si-yi-hua-mu-hei-se__0721856_pe733391_s4.jpg",
+   "productType": "一桌四椅",
+   "designText": "桦木/黑色",
+   "measureText": "125x74 厘米",
+   "url": null,
+   "seoSlug": "norraker-nuo-lu-ke-roenninge-rui-ning-yi-zhuo-si-yi-hua-mu-hei-se"
+  },
+  {
+   "id": "90430864",
+   "name": "RÖNNINGE 瑞宁",
+   "price": 699,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/roenninge-rui-ning-yi-zi-hei-se__0642096_pe700892_s4.jpg",
+   "productType": "椅子",
+   "designText": "黑色",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "roenninge-rui-ning-yi-zi-hei-se"
+  },
+  {
+   "id": "80400754",
+   "name": "RÖNNINGE 瑞宁",
+   "price": 699,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/roenninge-rui-ning-yi-zi-hua-mu__0642047_pe700849_s4.jpg",
+   "productType": "椅子",
+   "designText": "桦木",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "roenninge-rui-ning-yi-zi-hua-mu"
+  },
+  {
+   "id": "99568606",
+   "name": "LISABO 利萨伯 / RÖNNINGE 瑞宁",
+   "price": 4095,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/lisabo-li-sa-bo-roenninge-rui-ning-yi-zhuo-si-yi-hei-se-hei-se__1325776_pe944015_s4.jpg",
+   "productType": "一桌四椅",
+   "designText": "黑色/黑色",
+   "measureText": "105 厘米",
+   "url": null,
+   "seoSlug": "lisabo-li-sa-bo-roenninge-rui-ning-yi-zhuo-si-yi-hei-se-hei-se"
+  },
+  {
+   "id": "99297238",
+   "name": "NORRÅKER 诺鲁克 / RÖNNINGE 瑞宁",
+   "price": 4295,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/norraker-nuo-lu-ke-roenninge-rui-ning-yi-zhuo-si-yi-hua-mu-hua-mu__0721855_pe733390_s4.jpg",
+   "productType": "一桌四椅",
+   "designText": "桦木/桦木",
+   "measureText": "125x74 厘米",
+   "url": null,
+   "seoSlug": "norraker-nuo-lu-ke-roenninge-rui-ning-yi-zhuo-si-yi-hua-mu-hua-mu"
+  },
+  {
+   "id": "79442608",
+   "name": "NORDEN 诺顿 / RÖNNINGE 瑞宁",
+   "price": 2897,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/norden-nuo-dun-roenninge-rui-ning-yi-zhuo-er-yi-hua-mu-hua-mu__1051004_pe844954_s4.jpg",
+   "productType": "一桌二椅",
+   "designText": "桦木/桦木",
+   "measureText": "26/89/152 厘米",
+   "url": null,
+   "seoSlug": "norden-nuo-dun-roenninge-rui-ning-yi-zhuo-er-yi-hua-mu-hua-mu"
+  },
+  {
+   "id": "29297128",
+   "name": "STENSELE 思丹塞 / RÖNNINGE 瑞宁",
+   "price": 2397,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/stensele-si-dan-sai-roenninge-rui-ning-yi-zhuo-er-yi-mei-hei-se-mei-hei-se-hua-mu__0680422_pe719844_s4.jpg",
+   "productType": "一桌二椅",
+   "designText": "煤黑色/煤黑色 桦木",
+   "measureText": "70 厘米",
+   "url": null,
+   "seoSlug": "stensele-si-dan-sai-roenninge-rui-ning-yi-zhuo-er-yi-mei-hei-se-mei-hei-se-hua-mu"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "79297239",
+   "type": "SPR",
+   "fullId": "s79297239"
+  },
+  {
+   "id": "90430864",
+   "type": "ART",
+   "fullId": "90430864"
+  },
+  {
+   "id": "80400754",
+   "type": "ART",
+   "fullId": "80400754"
+  },
+  {
+   "id": "99568606",
+   "type": "SPR",
+   "fullId": "s99568606"
+  },
+  {
+   "id": "99297238",
+   "type": "SPR",
+   "fullId": "s99297238"
+  },
+  {
+   "id": "79442608",
+   "type": "SPR",
+   "fullId": "s79442608"
+  },
+  {
+   "id": "29297128",
+   "type": "SPR",
+   "fullId": "s29297128"
+  }
+ ]
+}

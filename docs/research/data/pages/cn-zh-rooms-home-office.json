@@ -1,0 +1,897 @@
+{
+ "url": "/cn/zh/rooms/home-office",
+ "family": "rooms",
+ "id": "cn--zh--3b6b6560ba9c11eab2cec3aae701d0ac",
+ "title": "书房和办公室",
+ "name": "书房和办公",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "书房和办公室"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Page Title-"
+   }
+  },
+  {
+   "type": "pub-visual-navigation",
+   "title": null,
+   "texts": [
+    "/cat/20649",
+    "NO",
+    "ikea://content/plp?catalogId=20649",
+    "{\"objectId_var\":\"20649\",\"objectType_var\":\"plp\"}",
+    "书桌和办公桌",
+    "#ffffff"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/global/assets/navigation/images/desks-computer-desks-20649.jpeg?imwidth=400",
+    "https://file.app.ikea.cn/global/assets/navigation/images/desk-chairs-20652.jpeg?imwidth=400",
+    "https://file.app.ikea.cn/global/assets/navigation/images/drawer-units-10711.jpeg?imwidth=400",
+    "https://file.app.ikea.cn/global/assets/navigation/images/storage-units-cabinets-10385.jpeg?imwidth=400",
+    "https://file.app.ikea.cn/global/assets/navigation/images/bookcases-10382.jpeg?imwidth=400"
+   ],
+   "links": [
+    {
+     "href": "/cat/20649",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/global/assets/navigation/images/desks-computer-desks-20649.jpeg?imwidth=400",
+     "text": ""
+    },
+    {
+     "href": "/cat/20652",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/global/assets/navigation/images/desk-chairs-20652.jpeg?imwidth=400",
+     "text": ""
+    },
+    {
+     "href": "/cat/10711",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/global/assets/navigation/images/drawer-units-10711.jpeg?imwidth=400",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "0562bbd849334278b72e2cd7cb92b5b3"
+   }
+  },
+  {
+   "type": "anchor-navigation",
+   "title": null,
+   "texts": [
+    "BUTTON",
+    "YES",
+    "当季推荐",
+    "ac46f0c208ae4e8b98364f01143234ae",
+    "布置灵感",
+    "73837e51cd0347db9f3ef7c77c2ac85b"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "642b85dc80fe4d0e9506485636aa4018"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "小空间，大作用！ ",
+   "texts": [
+    "/rooms/home-office/gallery/",
+    "NO",
+    "ikea://cms/page-compatible-web?key=cn--zh--271c0aa0190711f0a5e2633fb51e48f4&url=%2Frooms%2Fhome-office%2Fgallery%2F",
+    "{\"objectId_var\":\"/rooms/home-office/gallery/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "这款拉出式桌子造型紧凑，可轻松摆放在任何狭小角落里，展开后可满足你的各种创意项目和爱好需求。 小巧便携，需要用时又能提供宽敞桌面！",
+    "小空间，大作用！"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20260724/68d3f993beff463f81559109e28093d3.jpg",
+    "https://static.web.ikea.cn/content/u/20250912/54c68a20799344eca240a4336507bb1b.jpg"
+   ],
+   "links": [
+    {
+     "href": "/rooms/home-office/gallery/",
+     "text": ""
+    },
+    {
+     "href": "/inspiration/detail/8514724a-56b1-41e0-aad4-bf2e83be388b?type=IMAGE",
+     "text": ""
+    },
+    {
+     "href": "https://video.app.ikea.cn/5042c5ab86ff71f1a25f6732b68e0102/f7724d8662df4df09db0f1393be78bca-97e037d3f604c79eeae774f8db610ddf-sd.m3u8?auth_key=1786154622-c17fd7b428404a35a33122e2452e3df8-0-aed306605f2896844dc2f895c31c6ac2",
+     "text": ""
+    },
+    {
+     "href": "/inspiration/detail/9cc83ae8-45bd-47c7-85a9-f33136841773?type=IMAGE",
+     "text": ""
+    },
+    {
+     "href": "https://static.web.ikea.cn/content/u/20250912/54c68a20799344eca240a4336507bb1b.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "ac46f0c208ae4e8b98364f01143234ae"
+   }
+  },
+  {
+   "type": "product-list",
+   "title": null,
+   "texts": [
+    "WATERFALL",
+    "MANUAL_INPUT",
+    "00590791",
+    "50597083",
+    "70636427",
+    "50619805"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-商品列表 Pruduct list/shelf-"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "小空间，大作用！ ",
+   "texts": [
+    "/cat/10711",
+    "NO",
+    "ikea://content/plp?catalogId=10711",
+    "{\"objectId_var\":\"10711\",\"objectType_var\":\"plp\"}",
+    "这款拉出式桌子造型紧凑，可轻松摆放在任何狭小角落里，展开后可满足你的各种创意项目和爱好需求。 小巧便携，需要用时又能提供宽敞桌面！",
+    "小空间，大作用！"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20260724/ba4f9975714445619daa63b1b8b0634d.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260724/858b0ef799d4402d8e26ad5745722b82.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/cat/10711",
+     "text": ""
+    },
+    {
+     "href": "/inspiration/detail/8514724a-56b1-41e0-aad4-bf2e83be388b?type=IMAGE",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260724/ba4f9975714445619daa63b1b8b0634d.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/inspiration/detail/9cc83ae8-45bd-47c7-85a9-f33136841773?type=IMAGE",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260724/858b0ef799d4402d8e26ad5745722b82.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "ac46f0c208ae4e8b98364f01143234ae"
+   }
+  },
+  {
+   "type": "product-list",
+   "title": null,
+   "texts": [
+    "ONE_LINE",
+    "MANUAL_INPUT",
+    "00625026",
+    "80619903",
+    "50625024",
+    "89628031"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-商品列表 Pruduct list/shelf-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p style=\"line-height: 8px;\">&nbsp;&nbsp;</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "让学习办公游刃有余",
+   "texts": [
+    "NO",
+    "打破久坐僵局，唤醒办公活力，提升专注力，灵感随时迸发。",
+    "让学习办公游刃有余",
+    "horizontal",
+    "/inspiration/detail/774a8b7e-440a-456c-a048-4ee3a67465d7?type=IMAGE",
+    "ikea://ins/ins-detail?id=774a8b7e-440a-456c-a048-4ee3a67465d7&type=IMAGE"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20250902/97fccf62a6b24e958546a6727bc91329.jpg"
+   ],
+   "links": [
+    {
+     "href": "/inspiration/detail/774a8b7e-440a-456c-a048-4ee3a67465d7?type=IMAGE",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20250902/a4b9f329b07c4b85883b3a34e18fd1a4.mp4",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Curated Gallery-小件商品"
+   }
+  },
+  {
+   "type": "rich-text",
+   "title": null,
+   "texts": [
+    "<p style=\"border: 0px solid #e5e7eb; background-color: #ffffff;\"><span style=\"color: #ffffff; background-color: #37b886;\"><strong><span style=\"color: #000000;\"><span style=\"color: #ffffff;\">&nbsp; 站坐交替 舒适办公 &nbsp;</span></span></strong></span></p>\n<h5 style=\"border: 0px solid #e5e7eb; background-color: #ffffff;\"><span style=\"color: #000000;\"><strong>BOLLSIDAN 波席当</strong> 坐/站两用式办公桌 </span>人体工学设计，桌面顺畅升降： 可在72-117cm之间调节，打破久坐僵局，唤醒办公活力。经权威机构* 认可的实验室测试，宜家家具有害物质限量均符合国标GB18584-2024*要求，让你用得更放心。<br />* 国际实验室认可合作组织（ILAC）成员，如CNAS，UKAS，HKLAS，SWEDAC等。<br />* 《家具中有害物质限量》</h5>",
+    "#FFFFFF"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-富文本 Text-"
+   }
+  },
+  {
+   "type": "product-list",
+   "title": null,
+   "texts": [
+    "ONE_LINE",
+    "MANUAL_INPUT",
+    "40608143",
+    "40613743",
+    "60608142",
+    "80588794"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-商品列表 Pruduct list/shelf-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2 style=\"line-height: 18px;\">光影变奏，点亮家的氛围感</h2>\n<p style=\"line-height: 24px;\">灯光不只是照明，更是情绪的调色师。选一款合适的灯，让家中夜晚变得温暖又有故事，再搭配一些办公配件，家庭办公的氛围悄悄提升。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "product-list",
+   "title": null,
+   "texts": [
+    "ONE_LINE",
+    "MANUAL_INPUT",
+    "20582709",
+    "20611373",
+    "40586952",
+    "60168529"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-商品列表 Pruduct list/shelf-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p style=\"line-height: 8px;\">&nbsp;&nbsp;</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>MITTZON 米特丛 <strong>系列&nbsp;</strong></h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "NO",
+    "https://file.app.ikea.cn/cms/u/20240328/e9c816d776fc40d885404975ad48f9bb.mp4",
+    "VIDEO",
+    "wide",
+    "hosted",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20240328/e9c816d776fc40d885404975ad48f9bb.mp4",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Image(video)-"
+   }
+  },
+  {
+   "type": "pub-visual-pill-slider",
+   "title": null,
+   "texts": [
+    "一只手正在调节GLYPEN 格吕彭 厨房水龙头的水流大小，水龙头采用不锈钢制成，旁边放着TÅRTSMET 托米特 洗盘刷",
+    "/cat/700538",
+    "NO",
+    "ikea://content/plp?catalogId=700538",
+    "{\"objectId_var\":\"700538\",\"objectType_var\":\"plp\"}",
+    "查看全系列"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20240328/7961ce6e1b0f47c7820d14428de89673.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20240328/c01976701c784ac8a9f802151411cfc4.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20240328/39483450d0a64307a65fdbccf7567dcc.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20240328/34113cf606ff4107b4de23b0ab4873a4.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20240328/f03f52f1c8c94209bd750b1f23b4507e.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/cat/700538",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20240328/7961ce6e1b0f47c7820d14428de89673.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/cat/700542",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20240328/c01976701c784ac8a9f802151411cfc4.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/cat/700541",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20240328/39483450d0a64307a65fdbccf7567dcc.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Visual Pill Slider-"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "NO",
+    "无论你是需要团队合作，或是布置个人工作室，MITTZON 米特丛 都可以帮助你灵活创建适合的解决方案。",
+    "MANUAL_INPUT",
+    "49525855",
+    "59525845",
+    "59526595"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Product Shelf-"
+   }
+  },
+  {
+   "type": "ranking",
+   "title": null,
+   "texts": [
+    "DARK",
+    "20651,20652,10711,24830,20502",
+    "LIGHT",
+    "#98694f",
+    "#333a32",
+    "#D4973B"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-排行榜-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p style=\"line-height: 8px;\">&nbsp;&nbsp;</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-banner",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "standard",
+    "image-text-landscape",
+    "wide",
+    "<p><span style=\"color: #f1f1f1;\">想要将你的电竞体验提升至更高级别？</span></p>\n<p><span style=\"color: #f1f1f1;\">无论你喜欢时尚现代的外观还是舒适质朴的氛围，这些电竞房设计都可帮助你打造个性化的游戏天地。这些创意将舒适度、功能性和风格巧妙融合，可为你带来丰富灵感。</span></p>",
+    "适合不同空间和预算的电竞房布置创意"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20240301/2ef08e29e4064ccab9817e1cb3360a36.jpg",
+    "https://file.app.ikea.cn/cms/u/20240301/2ef08e29e4064ccab9817e1cb3360a36.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20240301/2ef08e29e4064ccab9817e1cb3360a36.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20240301/2ef08e29e4064ccab9817e1cb3360a36.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/rooms/home-office/gallery/gaming-room-ideas-for-any-room-style-and-budget-pub43addd24",
+     "text": ""
+    },
+    {
+     "href": "/rooms/home-office/gallery/gaming-room-ideas-for-any-room-style-and-budget-pub43addd24",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Banner-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p style=\"line-height: 8px;\">&nbsp;</p>\n<h2>家庭办公空间案例</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-visual-pill-slider",
+   "title": null,
+   "texts": [
+    "一只手正在调节GLYPEN 格吕彭 厨房水龙头的水流大小，水龙头采用不锈钢制成，旁边放着TÅRTSMET 托米特 洗盘刷",
+    "/rooms/home-office/gallery/a-coordinated-brown-wood-dream-of-a-home-workspace-pub69a54a17",
+    "NO",
+    "ikea://cms/page-compatible-web?key=cn--zh--07d163703e6711ed85a2ad3e40f058e2&url=%2Frooms%2Fhome-office%2Fgallery%2Fa-coordinated-brown-wood-dream-of-a-home-workspace-pub69a54a17",
+    "{\"objectId_var\":\"/rooms/home-office/gallery/a-coordinated-brown-wood-dream-of-a-home-workspace-pub69a54a17\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "和谐的木质风格"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20230217/9749c3456ecf42db8e759aaadd4aea8e.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20230217/825f98929dfb493dae763cb87290ac51.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20230217/f69b433a29064d8eb3e5544aea223992.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20230217/61bba3fbd5814c57b59a4f8c28d4ae66.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20230217/9f4e6188b05e4c26a526a55c9c8f6d0f.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/rooms/home-office/gallery/a-coordinated-brown-wood-dream-of-a-home-workspace-pub69a54a17",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20230217/9749c3456ecf42db8e759aaadd4aea8e.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/rooms/home-office/gallery/zai4-jia1-ban4-gong1-ye3-yao4-jian1-gu4-shi2-shang4-feng1-ge2-pub4e6d71af",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20230217/825f98929dfb493dae763cb87290ac51.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/rooms/home-office/gallery/their-room-their-way-pub778978a0",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20230217/f69b433a29064d8eb3e5544aea223992.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Visual Pill Slider-"
+   }
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "一把高品质办公椅，跃升办公品质",
+   "texts": [
+    "/cat/20654",
+    "NO",
+    "ikea://content/plp?catalogId=20654",
+    "{\"objectId_var\":\"20654\",\"objectType_var\":\"plp\"}",
+    "希望提升家中的办公环境？首先可以看看你的座位。毕竟，大部分的工作时间都花在这里。一把符合人体工学的高品质座椅能为你的身体提供所需的支撑，极大提升舒适的办公体验。",
+    "一把高品质办公椅，跃升办公品质"
+   ],
+   "images": [
+    "https://static.web.ikea.cn/content/u/20221208/0fdc0427eff84c25be4da14c9c00c1d8.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/cat/20654",
+     "text": ""
+    },
+    {
+     "href": "/inspiration/detail/9e9ce557-130e-478f-8d2c-4a8354bb6ce3?type=IMAGE",
+     "text": ""
+    },
+    {
+     "href": "https://static.web.ikea.cn/content/u/20221208/0fdc0427eff84c25be4da14c9c00c1d8.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "6ba7166bc8a742ada055073843d9ca5a"
+   }
+  },
+  {
+   "type": "product-list",
+   "title": null,
+   "texts": [
+    "ONE_LINE",
+    "MANUAL_INPUT",
+    "00587524",
+    "89584027",
+    "99584927",
+    "29563645"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-商品列表 Pruduct list/shelf-"
+   }
+  },
+  {
+   "type": "pub-inspiration-card",
+   "title": null,
+   "texts": [
+    "14a66740-2805-11ec-a4d5-995acb3aacb8",
+    "/rooms/home-office/how-to/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fhome-office%2Fhow-to%2F&key=cn--zh--8a3f5d901cbc11eb91530549d89e85dc",
+    "{\"objectId_var\":\"/rooms/home-office/how-to/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "查看更多家庭办公建议"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/62/8b/628b1be06bdb926f6d864856e300722b.jpg",
+    "https://file.app.ikea.cn/cms/u/20220927/018bb3ddab61499c9a06e9e571ab5c5e.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/images/3d/a5/3da5f899ee8d4a57bab219534f0b694d.jpg",
+    "https://file.app.ikea.cn/images/d7/7e/d77ef9c9ba4de23e1c097cd4709fce54.jpg",
+    "https://file.app.ikea.cn/images/7b/e4/7be414a761e8f87054f721fbb026e767.jpg"
+   ],
+   "links": [
+    {
+     "href": "/rooms/home-office/how-to/",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/62/8b/628b1be06bdb926f6d864856e300722b.jpg",
+     "text": ""
+    },
+    {
+     "href": "/rooms/living-room/how-to/how-to-create-three-workspaces-in-one-room-pubdbc0170c",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220927/018bb3ddab61499c9a06e9e571ab5c5e.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/ikea-business/gallery/ru2-he2-da3-zao4-fu2-he2-ren2-ti3-gong1-xue2-de-shu1-shi4-ban4-gong1-kong1-jian1-pub475f7190",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/3d/a5/3da5f899ee8d4a57bab219534f0b694d.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "a24e09bf2a93416982939b48dc9e182f"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>倍受欢迎的学习/办公家具系列</h2>\n<p>在合适的地方摆放正确的家具，可以把一份工作变成一种享受，把一个新的爱好变成一生的热爱。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "656e043702464d7895ca4956d2113e95"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "ALEX 阿来斯 系列。",
+    "/cat/47147",
+    "NO",
+    "ikea://content/plp?catalogId=47147",
+    "{\"objectId_var\":\"47147\",\"objectType_var\":\"plp\"}"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/b6/e5/b6e59921c7821747afa23655cd43e1ec.jpg",
+    "https://file.app.ikea.cn/images/f9/6e/f96e86da7a5286a28a77dd1a9e886584.jpg",
+    "https://file.app.ikea.cn/images/0b/d0/0bd0cc72ae8967b736b9b40a423fb138.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/47147",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/b6/e5/b6e59921c7821747afa23655cd43e1ec.jpg",
+     "text": ""
+    },
+    {
+     "href": "/cat/47424",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/f9/6e/f96e86da7a5286a28a77dd1a9e886584.jpg",
+     "text": ""
+    },
+    {
+     "href": "/cat/17499",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/0b/d0/0bd0cc72ae8967b736b9b40a423fb138.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "60df49a3b0764390a4b738e3c389e66c"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "/cat/700538",
+    "NO",
+    "ikea://content/plp?catalogId=700538",
+    "{\"objectId_var\":\"700538\",\"objectType_var\":\"plp\"}",
+    "pub-image"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20240910/c6b7615a15d243d896791428d1574ab7.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/images/5f/8b/5f8b6b17541a5065bd490731f5697eb8.jpg",
+    "https://file.app.ikea.cn/images/b9/b6/b9b6ee723c713624a7e962ab79f6a9b2.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/700538",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20240910/c6b7615a15d243d896791428d1574ab7.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/cat/58616",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/5f/8b/5f8b6b17541a5065bd490731f5697eb8.jpg",
+     "text": ""
+    },
+    {
+     "href": "/cat/37813",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/b9/b6/b9b6ee723c713624a7e962ab79f6a9b2.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "b20073b3557448c2b92907f8fce22361"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>了解如何快速布置健康的学习/办公空间</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-inspiration-card",
+   "title": null,
+   "texts": [
+    "6020f570-baae-11ea-8048-33e120fcc665",
+    "/rooms/home-office/how-to/sit-stand-desks-are-key-to-an-ergonomic-office-design-pub46e5ab4e",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fhome-office%2Fhow-to%2Fsit-stand-desks-are-key-to-an-ergonomic-office-design-pub46e5ab4e&key=cn--zh--035c53961d9d5de891468028f02e8040",
+    "{\"objectId_var\":\"/rooms/home-office/how-to/sit-stand-desks-are-key-to-an-ergonomic-office-design-pub46e5ab4e\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "IMAGE"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20260720/4c03d23107cb40f7abb52bad424448ed.png?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260720/d3e9092be0564159a274d0fe70191480.png?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/images/b2/53/b2537cd91db5c9b153b7db4723e4597d.jpg"
+   ],
+   "links": [
+    {
+     "href": "/rooms/home-office/how-to/sit-stand-desks-are-key-to-an-ergonomic-office-design-pub46e5ab4e",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260720/4c03d23107cb40f7abb52bad424448ed.png?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/rooms/home-office/how-to/how-to-get-back-onto-schedule-without-leaving-your-home-pubff226b98",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260720/d3e9092be0564159a274d0fe70191480.png?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/rooms/home-office/--pub273d63e6",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/b2/53/b2537cd91db5c9b153b7db4723e4597d.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "4ff0d4dd824d4148ab89bab3f279bcc5"
+   }
+  },
+  {
+   "type": "pub-visual-pill-slider",
+   "title": null,
+   "texts": [
+    "一只手正在调节GLYPEN 格吕彭 厨房水龙头的水流大小，水龙头采用不锈钢制成，旁边放着TÅRTSMET 托米特 洗盘刷",
+    "/ideas/tips-for-more-sustainable-living/quick-tricks-to-save-energy-at-home-pubad783f90",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fideas%2Ftips-for-more-sustainable-living%2Fquick-tricks-to-save-energy-at-home-pubad783f90",
+    "{\"objectId_var\":\"/ideas/tips-for-more-sustainable-living/quick-tricks-to-save-energy-at-home-pubad783f90\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "IMAGE"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20250808/f2e0305a320d491e867041cf021305b0.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20250808/a67e4e9ca0e944ee913ae927fd91d6c6.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20250808/ce1cc52f6a0c476eb7a09a39735c5334.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20250808/85e7c4d664674f5ba43351e424a3a339.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20250422/ed9aff1aa0b0475fa51994e57d6e3531.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/ideas/tips-for-more-sustainable-living/quick-tricks-to-save-energy-at-home-pubad783f90",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20250808/f2e0305a320d491e867041cf021305b0.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/ideas/tips-for-more-sustainable-living/smart-solutions-to-save-water-at-home-pubfdfe8c45",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20250808/a67e4e9ca0e944ee913ae927fd91d6c6.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/ideas/tips-for-more-sustainable-living/easy-wins-to-eating-more-sustainably-pubdbfa9a20",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20250808/ce1cc52f6a0c476eb7a09a39735c5334.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-带按钮图片列表 Visual Pill Slider-"
+   }
+  },
+  {
+   "type": "pub-assurances",
+   "title": null,
+   "texts": [
+    "/customer-service/services/delivery/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fcustomer-service%2Fservices%2Fdelivery%2F&key=",
+    "{\"objectId_var\":\"/customer-service/services/delivery/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "送货服务",
+    "shipping-truck"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/customer-service/services/delivery/",
+     "text": ""
+    },
+    {
+     "href": "/customer-service/services/assembly/",
+     "text": ""
+    },
+    {
+     "href": "/customer-service/returns-claims/return-policy/",
+     "text": ""
+    },
+    {
+     "href": "/customer-service/services/buy-back/",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "23a573e938c644829320831bdefa4097"
+   }
+  },
+  {
+   "type": "inspirations",
+   "title": "更多家庭办公灵感",
+   "texts": [
+    "IMAGE_ONLY",
+    "更多家庭办公灵感",
+    "WATERFALL",
+    "TAGS_INPUT",
+    "db9875051607328c884d2a8d370e37c9",
+    "c8b6b5b0-eaa1-4e31-92b0-84c48b248c49"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "72407509dc7543b09cb38a9e45801505"
+   }
+  }
+ ]
+}

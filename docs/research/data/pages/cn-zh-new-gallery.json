@@ -1,0 +1,70 @@
+{
+ "url": "/cn/zh/new/gallery",
+ "family": "new",
+ "id": "cn--zh--540f2870117811ec9f1b0bf476b290af",
+ "title": "探索最新设计创意",
+ "name": "662222_nwga01a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "探索最新设计创意"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "36486b36dc8a4570a8089548756040e4"
+   }
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--e7c67fa0462611ec92ab5bec070214dd",
+    "/new/qing1-xin1-jian3-yue1-de5-xia4-ri4-jia1-ju1-bi4-bei4-pin3-pube7c67fa0",
+    "page",
+    "清新简约的夏日家居配件灵感",
+    "购买舒适透气的床上用品和以自然为灵感的清新香味烛，为家居增添一抹夏日气息。立即选购新一季的家居用品。",
+    "ikea://cms/page-compatible-web?url=%2Fnew%2Fqing1-xin1-jian3-yue1-de5-xia4-ri4-jia1-ju1-bi4-bei4-pin3-pube7c67fa0&key=cn--zh--e7c67fa0462611ec92ab5bec070214dd"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/32/a6/32a69216b2aa54086a854bc51afba4fb.jpg",
+    "https://file.app.ikea.cn/images/7a/26/7a26ec6359c0236b4ce623a7aba7b3fd.jpg",
+    "https://file.app.ikea.cn/images/10/89/1089690d2513d876958802104176125f.jpg",
+    "https://file.app.ikea.cn/images/8c/b5/8cb5f33734e0b4601e5f630ee9c51265.jpg",
+    "https://file.app.ikea.cn/images/c7/25/c7253adbcdb5d8633aa28c0999e98149.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/32/a6/32a69216b2aa54086a854bc51afba4fb.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/7a/26/7a26ec6359c0236b4ce623a7aba7b3fd.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/10/89/1089690d2513d876958802104176125f.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/8c/b5/8cb5f33734e0b4601e5f630ee9c51265.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/c7/25/c7253adbcdb5d8633aa28c0999e98149.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220321/d7f9fc2446fb438ca9d441dd831434a4.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "7de0806eec3240c889623158d54b1ad9"
+   }
+  }
+ ]
+}

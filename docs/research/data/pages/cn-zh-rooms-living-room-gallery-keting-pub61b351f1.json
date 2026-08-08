@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/living-room/gallery/keting-pub61b351f1",
+ "family": "rooms",
+ "id": "cn--zh--61b351f1109a11e8b1909545c9aebdf1",
+ "title": "打造更加简约明快、功能实用的客厅",
+ "name": "20184-cols06a_PF_CT_SEO",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "打造更加简约明快、功能实用的客厅",
+   "texts": [
+    "带有大窗户的简约装饰的米色、蓝色和灰色客厅里有深灰色DELAKTIG 迪拉提沙发和边桌",
+    "打造更加简约明快、功能实用的客厅",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/ec/96/ec9658fee73a8ccd522123656887ecfd.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/ec/96/ec9658fee73a8ccd522123656887ecfd.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s59259672",
+    "s79265441",
+    "90353078",
+    "80392650",
+    "10396581"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

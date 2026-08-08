@@ -1,0 +1,282 @@
+{
+ "url": "/cn/zh/campaigns/suo-you-yi-gui-she-ji-ruan-jian-pub76e14b92",
+ "family": "campaigns",
+ "id": "cn--zh--76e14b92bf8c4ce7aa2e3b56025af2ab",
+ "title": "所有衣柜设计软件",
+ "name": "所有衣柜设计软件",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "所有衣柜设计软件"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "f8ec9a9b359143a68d101e515745828b"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h4>使用宜家设计工具，让你的梦想变成现实。在购买之前，设计你的梦想卧室。使用简单易用的宜家设计工具，玩转色彩、风格、尺寸和配置，随心打造个性设计。</h4>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "c18eed3d0e3e4e3f858ff87dc693f96b"
+   }
+  },
+  {
+   "type": "pub-video-link",
+   "title": null,
+   "texts": [
+    "https://v.youku.com/v_show/id_XNTgwNTg1ODU2MA==.html",
+    "MANUAL_INPUT",
+    "NO"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "https://v.youku.com/v_show/id_XNTgwNTg1ODU2MA==.html",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "6bda307310634063bf02352682a32be4"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "two-columns",
+    "column",
+    "<p>PAX 帕克思 设计工具，设计既灵活又可定制的衣柜储物系列。</p>",
+    "pub-text",
+    "/planners/pax-planner/?layout=headless",
+    "NO"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20220215/07c4cedb83814b198aab47f192a21cb3.gif"
+   ],
+   "links": [
+    {
+     "href": "/planners/pax-planner/?layout=headless",
+     "text": ""
+    },
+    {
+     "href": "/planners/pax-planner/?layout=headless",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220215/07c4cedb83814b198aab47f192a21cb3.gif",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "065de709953a4b8c91ec9de3f01b7fa4"
+   }
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "02c196c426864f68bf16014a72836fe8"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>模块化储物家具</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "c18eed3d0e3e4e3f858ff87dc693f96b"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "two-columns",
+    "column",
+    "/planners/platsa-planner/?layout=headless",
+    "NO",
+    "ikea://planners/platsa-planner",
+    "{\"objectId_var\":\"platsa-planner\",\"objectType_var\":\"planners\"}"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20220215/f36c76e52e6741ec8e689a2d8d63baa7.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220215/54630c5e2de94b45826a909122e30fdc.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/planners/platsa-planner/?layout=headless",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220215/f36c76e52e6741ec8e689a2d8d63baa7.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220215/f36c76e52e6741ec8e689a2d8d63baa7.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/planners/platsa-planner/?layout=headless",
+     "text": ""
+    },
+    {
+     "href": "/planners/smastad-planner/?layout=headless",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220215/54630c5e2de94b45826a909122e30fdc.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "fa5928dd42bd4a178a7360a5bf23c591"
+   }
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "4541a94a9d7b46c79ccf2ca0f18236cd"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>开放式储物家具</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "c18eed3d0e3e4e3f858ff87dc693f96b"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "two-columns",
+    "column",
+    "/planners/elvarli-planner/?layout=headless",
+    "NO",
+    "ikea://planners/elvarli-planner",
+    "{\"objectId_var\":\"elvarli-planner\",\"objectType_var\":\"planners\"}"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20220215/0f8b5700afc04a199930a1a99604a853.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220215/09e2e9f094e149869a8a2408fd49361b.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20220215/258ab493fd7a49caa1ab2c70aa31f4db.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "/planners/elvarli-planner/?layout=headless",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220215/0f8b5700afc04a199930a1a99604a853.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/planners/elvarli-planner/?layout=headless",
+     "text": ""
+    },
+    {
+     "href": "/planners/jonaxel-planner/?layout=headless",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220215/09e2e9f094e149869a8a2408fd49361b.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "/planners/jonaxel-planner/?layout=headless",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "efd8aca5f4a24040a20dbdf2da8efee3"
+   }
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "f3d28631731d4b31aed637086b439fb3"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "two-columns",
+    "column",
+    "NO",
+    "请输入您所需要的文本信息",
+    "pub-image",
+    "IMAGE"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20220216/5275dcab55614012b70c77e0df3982f1.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220216/5275dcab55614012b70c77e0df3982f1.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "a86cc3b4500d4c04bd71223b05397dac"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "two-columns",
+    "column",
+    "<p>我们不想你为了设计梦想的家而倍感困扰。宜家专业人员将为你提供帮助。</p>",
+    "pub-text",
+    "/h5page/?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fdesign-leads%2Fwrd.html%3Fchannel%3DEC_website%26cl_sr%3DIRW_homepage_3nd%26design_version%3Dnon_GPC_case%26source%3DNEW_WEB",
+    "NO"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/h5page/?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fdesign-leads%2Fwrd.html%3Fchannel%3DEC_website%26cl_sr%3DIRW_homepage_3nd%26design_version%3Dnon_GPC_case%26source%3DNEW_WEB",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "6d76067558554ee0b0b076966334e6a5"
+   }
+  }
+ ]
+}

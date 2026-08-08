@@ -1,0 +1,146 @@
+{
+ "url": "/cn/zh/rooms/kitchen/gallery/jia1-ting2-de-zhong1-xin1-pub7c49af61",
+ "family": "rooms",
+ "id": "cn--zh--7c49af617c8111e982f8b702b57e021a",
+ "title": "家庭的中心",
+ "name": "20201_rmme03a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "家庭的中心"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "厨房配有白色和浅色仿白蜡木柜门、两盏吊灯、一张白色桌子和几把黑色椅子。",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "s49372635"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/4b/69/4b692483c3b0bceca884d68662de9a26.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/4b/69/4b692483c3b0bceca884d68662de9a26.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>深入了解这个厨房如何为每位家庭成员提供专属储物空间！该解决方案拥有极富创意的个性化外观，而且可以适应不断变化的需求——无论是家庭成员增多，还是学习伙伴或客人来访，都能轻松应对。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "厨房配有白色和浅色仿白蜡木柜门、两根不锈钢挂杆和一把白色洒水壶。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "70331855"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/cc/ff/ccffc405d5345a128bc82b20e3d233b0.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/cc/ff/ccffc405d5345a128bc82b20e3d233b0.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "厨房里打开的白色抽屉内陈列着塑料食品盒、厨用器具和彩色的厨房用品。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "s59276822"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/6b/02/6b0289ca44cf42a0dccc06fafec63a6e.jpg",
+    "https://file.app.ikea.cn/images/46/ec/46ecbce8d7787f5574d067684b16be98.jpg",
+    "https://file.app.ikea.cn/images/d9/44/d9448f1928a445e9abc9015713725244.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/6b/02/6b0289ca44cf42a0dccc06fafec63a6e.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/46/ec/46ecbce8d7787f5574d067684b16be98.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/d9/44/d9448f1928a445e9abc9015713725244.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "厨房配有白色加长餐桌、红色和黑色椅子、黄色/白色地毯和两盏黑色吊灯。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "70340807"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/38/1a/381abb5136c57907d1e25f56a77d083b.jpg",
+    "https://file.app.ikea.cn/images/e4/57/e457717e5340c53caf8628b6357bfdb3.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/38/1a/381abb5136c57907d1e25f56a77d083b.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/e4/57/e457717e5340c53caf8628b6357bfdb3.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "70331855",
+    "s49372635",
+    "80339790",
+    "30342479",
+    "00409013"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

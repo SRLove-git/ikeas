@@ -1,0 +1,108 @@
+{
+ "url": "/cn/zh/rooms/bedroom/how-to/qing1-xin1-chun1-zhuang1-pub37feb070",
+ "family": "rooms",
+ "id": "cn--zh--37feb070f98b11eaaa91d1cedffc82a8",
+ "title": "清新春装",
+ "name": "632131_beht01a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "清新春装",
+   "texts": [
+    "明亮而整洁的卧室充满春的气息，窗边悬挂BRITNA 布里特纳 遮光窗帘，室内摆放着一张IDANÄS 宜达奈 双人床，床上铺设KRANSKRAGE 克兰拉齐 被套组合。",
+    "<p>春季已悄然来临，是时候给卧室换个新装了。不妨考虑选用轻盈的床上用品和纺织品，搭配清爽柔和的淡色调，营造春日气息。换装，比你想象的更简单。</p>",
+    "清新春装",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/21/99/2199c9f3662d051c11188ea0235084e4.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/21/99/2199c9f3662d051c11188ea0235084e4.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "更轻盈的床上用品，更惬意的睡眠体验",
+   "texts": [
+    "/cat/tl004",
+    "NO",
+    "ikea://content/plp?catalogId=tl004",
+    "{\"objectId_var\":\"tl004\",\"objectType_var\":\"plp\"}",
+    "随着季节的更替，是时候换上轻盈的被子和床上用品了。这会让你的床变得更加清爽舒适，为卧室增添一抹宜人的春日气息。",
+    "更轻盈的床上用品，更惬意的睡眠体验"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/69134d88d2b7eba/original/PH175896.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/tl004",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/69134d88d2b7eba/original/PH175896.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "添一些靠垫，多一点舒适",
+   "texts": [
+    "/cat/10659",
+    "NO",
+    "ikea://content/plp?catalogId=10659",
+    "{\"objectId_var\":\"10659\",\"objectType_var\":\"plp\"}",
+    "在床上添一些靠垫，就能体验到豪华酒店般的“高级”舒适感。非常适合坐在床上阅读或享受慵懒的早间时光。",
+    "添一些靠垫，多一点舒适"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/75ffcf4b667e3b34/original/PH175888.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/10659",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/75ffcf4b667e3b34/original/PH175888.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "随意调节光线",
+   "texts": [
+    "/cat/10700",
+    "NO",
+    "ikea://content/plp?catalogId=10700",
+    "{\"objectId_var\":\"10700\",\"objectType_var\":\"plp\"}",
+    "现在傍晚和清晨的光照变得强烈了一些，那么遮光窗帘就派上用场了，特别是当你想多睡几分钟的时候。不妨选购颜色较浅的窗帘，营造时尚的春日格调。",
+    "随意调节光线"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/77d358c9b6dfb8a9/original/PH175885.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/10700",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/77d358c9b6dfb8a9/original/PH175885.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "url": "/cn/zh/rooms/living-room/gallery/ren2-ren2-dou1-ai4-ivar-yi1-wa2-pubdc567761",
+ "family": "rooms",
+ "id": "cn--zh--dc5677617ba311e89da1853a21975ebe",
+ "title": "人人都爱 IVAR 伊娃",
+ "name": "20191-rmli11a_PF_CT",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "人人都爱 IVAR 伊娃",
+   "texts": [
+    "运用宜家 IVAR 伊娃 家具储物系列来规划你的客厅。该系统的浅色松木搁板可调节，以匹配不同的储物盒高度。",
+    "<p>50年来，IVAR 伊娃 始终是家庭里的好伙伴，帮助顾客把家里每个角落收纳整齐。这个五口之家也不例外。如果一定要说有例外的话，就是他们得努力避免让玩具占据整间客厅！</p>",
+    "人人都爱 IVAR 伊娃",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/d3/bd/d3bd11fd825e62e55505baff87048cee.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/d3/bd/d3bd11fd825e62e55505baff87048cee.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s29249991",
+    "s29206915",
+    "90353498",
+    "90353064",
+    "00411997"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

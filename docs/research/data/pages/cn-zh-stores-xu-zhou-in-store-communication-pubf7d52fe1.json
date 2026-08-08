@@ -1,0 +1,106 @@
+{
+ "url": "/cn/zh/stores/xu-zhou/in-store-communication-pubf7d52fe1",
+ "family": "stores",
+ "id": "cn--zh--f7d52fe1a9fb11e9863f07c37ec6982d",
+ "title": "徐州商场的店内导览",
+ "name": "徐州商场 - 店内沟通",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "徐州商场的店内导览"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "/stores/xu-zhou/new-vistor-pubee08d56c",
+    "external",
+    "我是新访客",
+    "ikea://cms/page-compatible-web?url=%2Fstores%2Fxu-zhou%2Fnew-vistor-pubee08d56c&key=",
+    "{\"objectId_var\":\"/stores/xu-zhou/new-vistor-pubee08d56c\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "/stores/xu-zhou/ikea-family-pubefc1bbf1"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/3e/bf/3ebffa57ff7e3c5c34a65a7bfd95a0ba.png",
+    "https://file.app.ikea.cn/images/46/80/4680068f9af9aaa88060107d6b4a9bad.png",
+    "https://file.app.ikea.cn/images/da/c4/dac4f8c6fc7466df012625a874280ce5.png",
+    "https://file.app.ikea.cn/images/dc/df/dcdfd7c52cba69a680c207ba54e9779a.png",
+    "https://file.app.ikea.cn/images/35/1c/351c247227f3254e9637a530813c919c.png"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/3e/bf/3ebffa57ff7e3c5c34a65a7bfd95a0ba.png",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/46/80/4680068f9af9aaa88060107d6b4a9bad.png",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/da/c4/dac4f8c6fc7466df012625a874280ce5.png",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/dc/df/dcdfd7c52cba69a680c207ba54e9779a.png",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/35/1c/351c247227f3254e9637a530813c919c.png",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/e9/fb/e9fb8b0ed0d86a7323e866ad2053e91b.png",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2><strong>宜家徐州商场</strong></h2>\n<h4><strong>营业时间</strong></h4>\n<p>商场：早10:00 &ndash; 晚9:00<br />餐厅：早9:00 &ndash; 晚8:30<br />(早餐自早上9:00 供应至10:00)</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--15792f4130ca11e7b43ee50629564225",
+    "/customer-service/contact-us/",
+    "page",
+    "联系我们",
+    "ikea://cms/page-compatible-web?url=%2Fcustomer-service%2Fcontact-us%2F&key=cn--zh--15792f4130ca11e7b43ee50629564225",
+    "{\"objectId_var\":\"/customer-service/contact-us/\",\"objectType_var\":\"cms/page-compatible-web\"}"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/ec/45/ec4577661e4980cc7c020fbbe9a7b2ef.jpeg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/ec/45/ec4577661e4980cc7c020fbbe9a7b2ef.jpeg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-visual-navigation",
+   "title": null,
+   "texts": [],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

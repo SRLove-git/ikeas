@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/bathroom/gallery/yushi-pub98572a11",
+ "family": "rooms",
+ "id": "cn--zh--98572a11cb9e11e78e0a0bf79e0fa98f",
+ "title": "空间虽小，但却井然有序",
+ "name": "20181-coba02a_PF_CT_SEO_QA",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "空间虽小，但却井然有序",
+   "texts": [
+    "一间带有倾斜天花板的棕色和白色小浴室中，装着棕色带抽屉的水槽柜。",
+    "空间虽小，但却井然有序",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/b8/52/b8523db969fc6841b69ad5e7251b2f89.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/b8/52/b8523db969fc6841b69ad5e7251b2f89.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s39184871",
+    "40343082",
+    "40178987",
+    "80171432",
+    "90228579"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

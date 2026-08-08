@@ -1,0 +1,95 @@
+{
+ "url": "/cn/zh/this-is-ikea/community-engagement/yi4-yu2-ren2-lei4-yi4-yu2-de-qiu2-pub0e31c731",
+ "family": "this-is-ikea",
+ "id": "cn--zh--0e31c731363511e8904a5bcf3e778638",
+ "title": "益于人类　益于地球",
+ "name": "益于人类　益于地球",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "益于人类　益于地球",
+   "texts": [
+    "益于人类　益于地球",
+    "<p>不管是现在还是未来，宜家都希望对人类和地球产生积极的影响。这就意味着与供应商共同创造公平的工作环境，更明智地利用地球资源，激励我们的客户过上更可持续性的家居生活。&nbsp;</p>\n<p>阅读以下的精彩故事，你可以了解更多宜家为此目标做出的巨大努力。加入我们的旅程，共同创造一个更美好、更可持续性的日常生活。</p>",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/a3/f3/a3f3da86bb97c9795e2dfe1d84f3c7cb.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/a3/f3/a3f3da86bb97c9795e2dfe1d84f3c7cb.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--f299e010f83311e6bec7afd71086149f",
+    "/this-is-ikea/community-engagement/jieneng-pubf299e010",
+    "page",
+    "宜家正在全力打造一个更可持续的未来",
+    "ikea://cms/page-compatible-web?url=%2Fthis-is-ikea%2Fcommunity-engagement%2Fjieneng-pubf299e010&key=cn--zh--f299e010f83311e6bec7afd71086149f",
+    "{\"objectId_var\":\"/this-is-ikea/community-engagement/jieneng-pubf299e010\",\"objectType_var\":\"cms/page-compatible-web\"}"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/01/91/0191c8c900241125293d4614e8334ff5.png",
+    "https://file.app.ikea.cn/images/e8/69/e8693cca323b1b5500e4bc8b8bd96814.jpg",
+    "https://file.app.ikea.cn/images/97/71/9771ea7506d25c01293c66fcb74ef33e.jpg",
+    "https://file.app.ikea.cn/images/1f/16/1f162771c8306dc95539f4470b609ffd.jpg",
+    "https://file.app.ikea.cn/images/db/c9/dbc9e1105b519505e831755a362ce4e2.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/01/91/0191c8c900241125293d4614e8334ff5.png",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/e8/69/e8693cca323b1b5500e4bc8b8bd96814.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/97/71/9771ea7506d25c01293c66fcb74ef33e.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/1f/16/1f162771c8306dc95539f4470b609ffd.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/db/c9/dbc9e1105b519505e831755a362ce4e2.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/3f/c1/3fc1d5bbf78787c6bf208bade075636d.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/this-is-ikea/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fthis-is-ikea%2F&key=",
+    "{\"objectId_var\":\"/this-is-ikea/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "Back to This is IKEA"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/this-is-ikea/",
+     "text": ""
+    }
+   ],
+   "settings": null
+  }
+ ]
+}

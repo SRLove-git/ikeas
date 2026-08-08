@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/outdoor/gallery/yangtai-puba1c8e3b1",
+ "family": "rooms",
+ "id": "cn--zh--a1c8e3b1cf7511e78e0a0bf79e0fa98f",
+ "title": "打造简单优雅的小阳台",
+ "name": "20173-cood02a_PF_CT_SEO_AD_QA",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "打造简单优雅的小阳台",
+   "texts": [
+    "阳台上撑着一把阳伞，下面放着米色的桌椅，周围环绕着植物。",
+    "打造简单优雅的小阳台",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/7a/16/7a16b38834d2117d21a0213b9e74d435.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/7a/16/7a16b38834d2117d21a0213b9e74d435.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "40311830",
+    "10319291",
+    "10311817",
+    "70314691",
+    "70350165"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

@@ -1,0 +1,129 @@
+{
+ "url": "/cn/zh/rooms/bedroom/gallery/yi3-shi2-hui4-de-jia4-ge2-zao4-jiu4-jing1-mei3-wai4-guan1-pubaffc27d2",
+ "family": "rooms",
+ "id": "cn--zh--affc27d2257911ea9ccfc58ee28d9610",
+ "title": "以实惠的价格造就精美外观",
+ "name": "20204_rmbe01b",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "以实惠的价格造就精美外观"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "色彩艳丽的卧室配有淡紫色墙面、浅棕红色床上用品、黄色休闲毯、深棕色衣柜和床架。",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "s09130479"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/d3/94/d394661bf5554b67ea0f9ad25a40b665.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/d3/94/d394661bf5554b67ea0f9ad25a40b665.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>这间精美的酒店式卧室搭配清爽干净的纺织品、彰显格调的灯具和时尚流行的配色，让人眼前一亮，难以忘怀。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "床上放着淡紫色和浅棕红色床上用品。上方挂着一盏吊灯，旁边是黑色的圆形边桌。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "s09130479"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/4c/27/4c273f276946083d45bb6b13fe626763.jpg",
+    "https://file.app.ikea.cn/images/a2/1f/a21f5f268b202529957c2036495bf102.jpg",
+    "https://file.app.ikea.cn/images/dc/ab/dcab3837be54e603a6de4e2f49695560.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/4c/27/4c273f276946083d45bb6b13fe626763.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/a2/1f/a21f5f268b202529957c2036495bf102.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/dc/ab/dcab3837be54e603a6de4e2f49695560.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "带黑色框架的 LINDBYN 林德比恩 椭圆形镜子安装在两扇窗户间的狭窄墙面上，窗户前挂着米色和粉色窗帘。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "30458610"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/17/92/1792ed7122926b30696356fe8ea2bbc2.jpg",
+    "https://file.app.ikea.cn/images/49/12/49125111ad66ac726d2cc74cb0d19351.jpg",
+    "https://file.app.ikea.cn/images/56/c7/56c75068cdb8754d81d0378b0c5fe9a6.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/17/92/1792ed7122926b30696356fe8ea2bbc2.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/49/12/49125111ad66ac726d2cc74cb0d19351.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/56/c7/56c75068cdb8754d81d0378b0c5fe9a6.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s09130479",
+    "s69286076",
+    "90409607",
+    "s59302736",
+    "40455654"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

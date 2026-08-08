@@ -1,0 +1,45 @@
+{
+ "url": "/cn/zh/rooms/living-room/gallery/zai4-xiao3-kong1-jian1-li3-he1-yin3-liao4-huo4-feng4-dong1-xi1-pub830353d1",
+ "family": "rooms",
+ "id": "cn--zh--830353d17b9f11e89da1853a21975ebe",
+ "title": "在小空间里喝饮料或缝东西",
+ "name": "20191-rmdi03a_PF_CT",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "在小空间里喝饮料或缝东西",
+   "texts": [
+    "找到适合你的用餐空间。NORDEN 诺顿 伸缩型餐桌不仅能让你专注于爱好活动，还能让你与朋友们一道进餐。",
+    "<p>用餐区无需特别豪华，只要能满足你的需求即可。如果你需要有人陪伴呢？只需将桌面抬起。这样就能打造出足够的空间。</p>",
+    "在小空间里喝饮料或缝东西",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/c1/88/c188146e67c94815417a1a7a99d056e4.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/c1/88/c188146e67c94815417a1a7a99d056e4.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "40365795",
+    "80351904",
+    "70325519",
+    "00400574",
+    "00274434"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

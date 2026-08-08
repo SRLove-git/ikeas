@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/outdoor/gallery/yangtai-pubea73a460",
+ "family": "rooms",
+ "id": "cn--zh--ea73a460cf7511e78e0a0bf79e0fa98f",
+ "title": "假日气息从早餐开始",
+ "name": "20173-cood03a_PF_CT_SEO_QA",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "假日气息从早餐开始",
+   "texts": [
+    "色彩缤纷的户外阳台上放着木质桌子，和带蓝色和白色坐垫的椅子，在阳台上可欣赏到湖景。",
+    "假日气息从早餐开始",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/77/57/775701676ea9dfd9b63fc4b53c2ba5f4.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/77/57/775701676ea9dfd9b63fc4b53c2ba5f4.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "20313095",
+    "70313093",
+    "10314707",
+    "30298792",
+    "70234208"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

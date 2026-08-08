@@ -1,0 +1,76 @@
+{
+ "url": "/cn/zh/cat/tidvatten-ti-wa-dun-xi-lie-38431",
+ "id": "tidvatten-ti-wa-dun-xi-lie-38431",
+ "name": "TIDVATTEN 提瓦顿 系列",
+ "description": "TIDVATTEN 提瓦顿 系列人工吹制玻璃花瓶采用加长设计，有助于突出花茎的自然之美。本系列产品均采用透明玻璃制成，底部采用圆形设计，可以透过这块圆镜看到瓶里的水波反光，为整款花瓶增添点缀效果。",
+ "total": 4,
+ "products": [
+  {
+   "id": "50335996",
+   "name": "TIDVATTEN 提瓦顿",
+   "price": 9.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/tidvatten-ti-wa-dun-hua-ping-tou-ming-bo-li__0528106_pe645656_s4.jpg",
+   "productType": "花瓶",
+   "designText": "透明玻璃",
+   "measureText": "14 厘米",
+   "url": null,
+   "seoSlug": "tidvatten-ti-wa-dun-hua-ping-tou-ming-bo-li"
+  },
+  {
+   "id": "60617392",
+   "name": "TIDVATTEN 提瓦顿",
+   "price": 24.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/tidvatten-ti-wa-dun-hua-ping-fen-hong-se__1485057_pe1001833_s4.jpg",
+   "productType": "花瓶",
+   "designText": "粉红色",
+   "measureText": "17 厘米",
+   "url": null,
+   "seoSlug": "tidvatten-ti-wa-dun-hua-ping-fen-hong-se"
+  },
+  {
+   "id": "60461244",
+   "name": "TIDVATTEN 提瓦顿",
+   "price": 39.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/tidvatten-ti-wa-dun-hua-ping-tou-ming-bo-li__0640449_pe699830_s4.jpg",
+   "productType": "花瓶",
+   "designText": "透明玻璃",
+   "measureText": "30 厘米",
+   "url": null,
+   "seoSlug": "tidvatten-ti-wa-dun-hua-ping-tou-ming-bo-li"
+  },
+  {
+   "id": "40417025",
+   "name": "TIDVATTEN 提瓦顿",
+   "price": 14.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/tidvatten-ti-wa-dun-hua-ping-tou-ming-bo-li__0528115_pe645662_s4.jpg",
+   "productType": "花瓶",
+   "designText": "透明玻璃",
+   "measureText": "17 厘米",
+   "url": null,
+   "seoSlug": "tidvatten-ti-wa-dun-hua-ping-tou-ming-bo-li"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "50335996",
+   "type": "ART",
+   "fullId": "50335996"
+  },
+  {
+   "id": "60617392",
+   "type": "ART",
+   "fullId": "60617392"
+  },
+  {
+   "id": "60461244",
+   "type": "ART",
+   "fullId": "60461244"
+  },
+  {
+   "id": "40417025",
+   "type": "ART",
+   "fullId": "40417025"
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/living-room/gallery/keting-pub9e2b2281",
+ "family": "rooms",
+ "id": "cn--zh--9e2b2281cf8011e78e0a0bf79e0fa98f",
+ "title": "适合你的空间的沙发",
+ "name": "20181-cols09a_PF_CT_SEO_QA",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "适合你的空间的沙发",
+   "texts": [
+    "粉色和白色客厅内摆着米色沙发与躺椅，背景隐约可以看见用餐区的模样。",
+    "适合你的空间的沙发",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/8f/51/8f51cd06f9507e887f7a29810f0be111.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/8f/51/8f51cd06f9507e887f7a29810f0be111.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s69206999",
+    "10280712",
+    "30184050",
+    "00334602",
+    "40359997"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

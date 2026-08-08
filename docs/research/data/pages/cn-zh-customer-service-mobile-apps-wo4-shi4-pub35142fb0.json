@@ -1,0 +1,905 @@
+{
+ "url": "/cn/zh/customer-service/mobile-apps/wo4-shi4-pub35142fb0",
+ "family": "customer-service",
+ "id": "cn--zh--35142fb07dda11ebbf58a38a02d586b9",
+ "title": "卧室",
+ "name": "FY21卧室 —MP",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "卧室"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p><a href=\"https://ikeaapp/plp?id=bm003\">床</a> | <a href=\"https://ikeaapp/plp?id=bm002\">床垫</a> | <a href=\"https://ikeaapp/plp?id=20656\">床头柜</a> | <a href=\"https://ikeaapp/plp?id=19053\">衣柜</a> | <a href=\"https://ikeaapp/plp?id=st004\">抽屉柜和抽屉框架</a> | <a href=\"https://ikeaapp/plp?id=st007\">小型储物产品</a> | <a href=\"https://ikeaapp/plp?id=tl004\">卧室纺织品</a> | <a href=\"https://ikeaapp/plp?id=li002\">灯具</a> | <a href=\"https://ikeaapp/plp?id=20489\">镜子</a> | <a href=\"https://ikeaapp/plp?id=10653\">地毯</a> | <a href=\"https://ikeaapp/search?query=装饰品\">装饰品</a></p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<div style=\"background-color: #c4c4c4; width: 100%; height: 1px; margin: 10px 0;\">&nbsp;</div>\n<p>当季推荐 | <a href=\"#351408b1-7dda-11eb-bf58-a38a02d586b9\">卧室解决方案</a> |&nbsp;<a href=\"#351408cc-7dda-11eb-bf58-a38a02d586b9\">卧室产品系列</a> | <a href=\"#35140906-7dda-11eb-bf58-a38a02d586b9\">定制你的舒适睡眠</a>&nbsp;</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>当季推荐</h2>\n<p>宜家产品系列为你提供价格亲民的舒适选择，让你在漫漫长夜也能惬意好眠。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "/p/50507186?artType=ART",
+    "NO",
+    "ikea://content/pip?id=50507186&type=ART",
+    "{\"objectId_var\":\"50507186\",\"objectType_var\":\"product\"}",
+    "pub-image"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/7e/a9/7ea924bde3bdb7d02319cf4a196d7dd4.jpg",
+    "https://file.app.ikea.cn/images/00/14/001405af09ecacc9f668e2fb0ff6c537.jpg"
+   ],
+   "links": [
+    {
+     "href": "/p/50507186?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/7e/a9/7ea924bde3bdb7d02319cf4a196d7dd4.jpg",
+     "text": ""
+    },
+    {
+     "href": "/p/19406496?artType=SPR",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/00/14/001405af09ecacc9f668e2fb0ff6c537.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "50507186",
+    "60458939",
+    "70520530",
+    "00387803",
+    "90349326"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/search/products?q=坐卧两用床",
+    "NO",
+    "ikea://default-module/search?query=%E5%9D%90%E5%8D%A7%E4%B8%A4%E7%94%A8%E5%BA%8A",
+    "{\"objectId_var\":\"坐卧两用床\",\"objectType_var\":\"search_result\"}",
+    "button",
+    "查看所有折叠床和坐卧两用床"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/search/products?q=坐卧两用床",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>全新 IDAN&Auml;S 宜达奈 卧室家具系列</h2>\n<p>宜达奈 系列拥有经典的外观设计、彰显传统格调的细节以及坚固的结构，使用多年，钟爱依旧。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "/search/products?q=IDANÄS",
+    "NO",
+    "ikea://default-module/search?query=IDAN%C3%84S",
+    "{\"objectId_var\":\"IDANÄS\",\"objectType_var\":\"search_result\"}",
+    "pub-image"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/ca/4d/ca4dc14376038d6f0d70b00885007644.jpg",
+    "https://file.app.ikea.cn/images/6b/30/6b30b8af94d07fea9a249e3b01399ebd.jpg"
+   ],
+   "links": [
+    {
+     "href": "/search/products?q=IDANÄS",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/ca/4d/ca4dc14376038d6f0d70b00885007644.jpg",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=IDANÄS",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/6b/30/6b30b8af94d07fea9a249e3b01399ebd.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/search/products?q=IDANÄS",
+    "NO",
+    "ikea://default-module/search?query=IDAN%C3%84S",
+    "{\"objectId_var\":\"IDANÄS\",\"objectType_var\":\"search_result\"}",
+    "button",
+    "查看更多 IDANÄS 宜达奈 系列产品"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/search/products?q=IDANÄS",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p><a href=\"#351408a1-7dda-11eb-bf58-a38a02d586b9\">当季推荐</a> | 卧室解决方案 |&nbsp;<a href=\"#351408cc-7dda-11eb-bf58-a38a02d586b9\">卧室产品系列</a> | <a href=\"#35140906-7dda-11eb-bf58-a38a02d586b9\">定制你的舒适睡眠</a>&nbsp;</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h3><strong>卧室解决方案</strong></h3>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "<p>只需小小花费，从独立青年到幸福伴侣，针对不同生活阶段，宜家助你一套搞定。</p>\n<p>简约百搭的卧室套组，单身时可以根据自己喜好搭配出个性风格，有了伴侣后只需简单更换些床上用品便能继续使用。灵活多变的实用单品可以照顾不同阶段的生活需求。</p>\n<p>*(1136元套组包括：GRIMSBU 格里姆斯布床架一个、KNARREVIK 科纳列维克床头桌两个、KLEPPSTAD 克勒普斯塔双门衣柜一个、LUR&Ouml;Y 鲁瑞床板架一个)</p>\n<p>*数量可购物车内调整</p>",
+    "pub-text",
+    "/add_multi_product_to_cart?products=%5B%7B%22id%22%3A%2260458312%22%2C%22itemType%22%3A%22ART%22%7D%2C%7B%22id%22%3A%2240386731%22%2C%22itemType%22%3A%22ART%22%7D%2C%7B%22id%22%3A%2210437237%22%2C%22itemType%22%3A%22ART%22%7D%2C%7B%22id%22%3A%2200277197%22%2C%22itemType%22%3A%22ART%22%7D%5D",
+    "NO",
+    "ikea://default-module/add_products_to_shopping_cart?products=%5B%7B%22id%22%3A%2260458312%22%2C%22itemType%22%3A%22ART%22%7D%2C%7B%22id%22%3A%2240386731%22%2C%22itemType%22%3A%22ART%22%7D%2C%7B%22id%22%3A%2210437237%22%2C%22itemType%22%3A%22ART%22%7D%2C%7B%22id%22%3A%2200277197%22%2C%22itemType%22%3A%22ART%22%7D%5D"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/add_multi_product_to_cart?products=%5B%7B%22id%22%3A%2260458312%22%2C%22itemType%22%3A%22ART%22%7D%2C%7B%22id%22%3A%2240386731%22%2C%22itemType%22%3A%22ART%22%7D%2C%7B%22id%22%3A%2210437237%22%2C%22itemType%22%3A%22ART%22%7D%2C%7B%22id%22%3A%2200277197%22%2C%22itemType%22%3A%22ART%22%7D%5D",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "<p>男生：爱音乐爱游戏的都市男性</p>",
+    "pub-text"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/f0/25/f025015d85345c6cda999e5183bfb6cf.jpg",
+    "https://file.app.ikea.cn/images/6d/2a/6d2a8d6a0161e26327c0b9f58d584f67.jpg",
+    "https://file.app.ikea.cn/images/b1/83/b183c123f6c676f08fdcfb2b4aa12261.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/f0/25/f025015d85345c6cda999e5183bfb6cf.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/6d/2a/6d2a8d6a0161e26327c0b9f58d584f67.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/b1/83/b183c123f6c676f08fdcfb2b4aa12261.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "60458312",
+    "40386731",
+    "10437237",
+    "00277197"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>更低价格 更多值得</h2>\n<p>我们不断改进设计于生产、运输方式。现在，你能以更低的价格，打造更美好的日常生活。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s29199854",
+    "00439473",
+    "70378683",
+    "30373277",
+    "80446771"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p><a href=\"#351408a1-7dda-11eb-bf58-a38a02d586b9\">当季推荐</a> | <a href=\"#351408b1-7dda-11eb-bf58-a38a02d586b9\">卧室解决方案</a> |&nbsp;卧室产品系列 | <a href=\"#35140906-7dda-11eb-bf58-a38a02d586b9\">定制你的舒适睡眠</a>&nbsp;</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h3><strong>成套卧室家具，打造和谐风格</strong></h3>\n<p>你可以从这些卧室系列中选择成套家具。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/8a/6f/8a6f5875e4f8cb9cba38a5e4e645579d.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/8a/6f/8a6f5875e4f8cb9cba38a5e4e645579d.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/search/products?q=百灵",
+    "NO",
+    "ikea://default-module/search?query=%E7%99%BE%E7%81%B5",
+    "{\"objectId_var\":\"百灵\",\"objectType_var\":\"search_result\"}",
+    "button",
+    "查看 BRIMNES 百灵 系列"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/search/products?q=百灵",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/bf/7b/bf7b2c2907e5c3b94dbc9a2a3a8da723.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/bf/7b/bf7b2c2907e5c3b94dbc9a2a3a8da723.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/search/products?q=提赛尔",
+    "NO",
+    "ikea://default-module/search?query=%E6%8F%90%E8%B5%9B%E5%B0%94",
+    "{\"objectId_var\":\"提赛尔\",\"objectType_var\":\"search_result\"}",
+    "button",
+    "查看 TYSSEDAL 提赛尔 系列"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/search/products?q=提赛尔",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/0c/84/0c84ed9671f05dd95ebbd76e11e056eb.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/0c/84/0c84ed9671f05dd95ebbd76e11e056eb.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/search/products?q=马尔姆",
+    "NO",
+    "ikea://default-module/search?query=%E9%A9%AC%E5%B0%94%E5%A7%86",
+    "{\"objectId_var\":\"马尔姆\",\"objectType_var\":\"search_result\"}",
+    "button",
+    "查看 MALM 马尔姆 系列"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/search/products?q=马尔姆",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/cb/7e/cb7eee8c4c6310120661ee635bbbd6eb.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/cb/7e/cb7eee8c4c6310120661ee635bbbd6eb.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/search/products?q=汉尼斯",
+    "NO",
+    "ikea://default-module/search?query=%E6%B1%89%E5%B0%BC%E6%96%AF",
+    "{\"objectId_var\":\"汉尼斯\",\"objectType_var\":\"search_result\"}",
+    "button",
+    "查看 HEMNES 汉尼斯 系列"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/search/products?q=汉尼斯",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/2d/f7/2df79b767ac9bb4c49f79d131ab34024.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/2d/f7/2df79b767ac9bb4c49f79d131ab34024.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/search/products?q=松耶桑德",
+    "NO",
+    "ikea://default-module/search?query=%E6%9D%BE%E8%80%B6%E6%A1%91%E5%BE%B7",
+    "{\"objectId_var\":\"松耶桑德\",\"objectType_var\":\"search_result\"}",
+    "button",
+    "查看 SONGESAND 松耶桑德 系列"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/search/products?q=松耶桑德",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/f9/c9/f9c9b7e4779feac06d2f4761a29ac072.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/f9/c9/f9c9b7e4779feac06d2f4761a29ac072.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/search/products?q=普拉萨",
+    "NO",
+    "ikea://default-module/search?query=%E6%99%AE%E6%8B%89%E8%90%A8",
+    "{\"objectId_var\":\"普拉萨\",\"objectType_var\":\"search_result\"}",
+    "button",
+    "查看 PLATSA 普拉萨 系列"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/search/products?q=普拉萨",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/b1/4d/b14dc6272095dcd3f7dc0e08793d0e6a.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/b1/4d/b14dc6272095dcd3f7dc0e08793d0e6a.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/search/products?q=尤纳赛尔",
+    "NO",
+    "ikea://default-module/search?query=%E5%B0%A4%E7%BA%B3%E8%B5%9B%E5%B0%94",
+    "{\"objectId_var\":\"尤纳赛尔\",\"objectType_var\":\"search_result\"}",
+    "button",
+    "查看 JONAXEL 尤纳赛尔 系列"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/search/products?q=尤纳赛尔",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/56/a7/56a7d834c8eef4684e14c304eed207e2.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/56/a7/56a7d834c8eef4684e14c304eed207e2.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/search/products?q=帕克思",
+    "NO",
+    "ikea://default-module/search?query=%E5%B8%95%E5%85%8B%E6%80%9D",
+    "{\"objectId_var\":\"帕克思\",\"objectType_var\":\"search_result\"}",
+    "button",
+    "查看 PAX 帕克思 系列"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/search/products?q=帕克思",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/37/a1/37a1118559d79adea570b4ee8f8d51ea.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/37/a1/37a1118559d79adea570b4ee8f8d51ea.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/search/products?q=博阿克塞",
+    "NO",
+    "ikea://default-module/search?query=%E5%8D%9A%E9%98%BF%E5%85%8B%E5%A1%9E",
+    "{\"objectId_var\":\"博阿克塞\",\"objectType_var\":\"search_result\"}",
+    "button",
+    "查看 BOAXEL 博阿克塞 系列"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/search/products?q=博阿克塞",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>宜家定制：灵活性+功能性</h2>\n<h4>现有的PAX框架</h4>\n<p>高度：236cm/ 深度：58cm及35cm</p>\n<p>高度：201cm/ 深度：58cm及35cm</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h3>灵活定制案例</h3>\n<p>定制尺寸：高度：250cm/ 宽度：200cm/ 深度：58cm</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/a7/33/a733098c34fa8ad7f15e45e29e3604be.gif"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/a7/33/a733098c34fa8ad7f15e45e29e3604be.gif",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>宜家定制案例</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "<h4><strong>开门式</strong></h4>\n<p>尺寸：1950(w)&times;2558(h)&times;620(d)mm</p>\n<h3>参考价格￥6,400.00</h3>",
+    "pub-text"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/b8/97/b897bcd2c74e3a1d6bfd2e52ac2f676c.gif",
+    "https://file.app.ikea.cn/images/11/a7/11a70362ed83d2ad3433ecfa67e0268d.gif",
+    "https://file.app.ikea.cn/images/6b/36/6b36f2664345a1319834398826b63571.gif"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/b8/97/b897bcd2c74e3a1d6bfd2e52ac2f676c.gif",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/11/a7/11a70362ed83d2ad3433ecfa67e0268d.gif",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/6b/36/6b36f2664345a1319834398826b63571.gif",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/h5page/?url=https%3A%2F%2Fpaxonline.aidesign.ingka-internal.cn%3Fstyle%3Ddark%26%26abtest_home_pax_entrance_style%3Ddark",
+    "NO",
+    "ikea://default-module/H5?url=https%3A%2F%2Fpaxonline.aidesign.ingka-internal.cn%3Fstyle%3Ddark%26%26abtest_home_pax_entrance_style%3Ddark",
+    "{\"objectId_var\":\"https://paxonline.aidesign.ingka-internal.cn?style=dark&&abtest_home_pax_entrance_style=dark\",\"objectType_var\":\"default-module/H5\"}",
+    "button",
+    "PAX 衣柜设计工具"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/h5page/?url=https%3A%2F%2Fpaxonline.aidesign.ingka-internal.cn%3Fstyle%3Ddark%26%26abtest_home_pax_entrance_style%3Ddark",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p><a href=\"#351408a1-7dda-11eb-bf58-a38a02d586b9\">当季推荐</a> | <a href=\"#351408b1-7dda-11eb-bf58-a38a02d586b9\">卧室解决方案</a> |&nbsp;<a href=\"#351408cc-7dda-11eb-bf58-a38a02d586b9\">卧室产品系列</a> | 定制你的舒适睡眠&nbsp;</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h3><strong>让宜家告诉你一夜好眠的秘密</strong></h3>\n<p>看看所有组成完美床铺的元素，让你每天舒畅放松，好好充电。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "/search/products?q=床和床垫",
+    "NO",
+    "ikea://default-module/search?query=%E5%BA%8A%E5%92%8C%E5%BA%8A%E5%9E%AB",
+    "{\"objectId_var\":\"床和床垫\",\"objectType_var\":\"search_result\"}",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/54/d3/54d3482b4ff209d0f2e1fb398bf3234d.jpg"
+   ],
+   "links": [
+    {
+     "href": "/search/products?q=床和床垫",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/54/d3/54d3482b4ff209d0f2e1fb398bf3234d.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/f8/60/f860c342ed8e44edf5b168ab1f4259e6.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/f8/60/f860c342ed8e44edf5b168ab1f4259e6.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/2b/81/2b810549a09d856436e6babdf40d6518.png",
+    "https://file.app.ikea.cn/images/f6/0f/f60fbe1a8d6185c54133084db21a1a44.png"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/2b/81/2b810549a09d856436e6babdf40d6518.png",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/f6/0f/f60fbe1a8d6185c54133084db21a1a44.png",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "<h3><strong>床垫：</strong></h3>\n<p>舒适支撑，实惠价格，各种选择。</p>\n<p><a href=\"https://ikeaapp/search?query=床垫\">查看更多床垫&gt;</a></p>",
+    "pub-text",
+    "<p>日常生活对床垫和床板要求很高。 宜家足够的信心为带有标识的床垫和床板 提供25年品质保证。 让您放心好眠每一天。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "<h3><strong>枕头：</strong></h3>\n<p>多种填料、不同厚度，满足不同睡姿需求。</p>\n<p><a href=\"https://ikeaapp/search?query=枕头\">查看更多枕头&gt;</a></p>",
+    "pub-text",
+    "<h3><strong>床垫保护垫：</strong></h3>\n<p>延长床垫寿命，降低日常磨损。</p>\n<p><a href=\"https://ikeaapp/search?query=床垫保护垫\">查看更多床垫保护垫&gt;</a></p>",
+    "<h3><strong>床褥：</strong></h3>\n<p>令睡眠更加舒适。</p>\n<p><a href=\"https://ikeaapp/search?query=床褥\">查看更多床褥&gt;</a></p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": "帕克斯衣柜",
+   "texts": [
+    "帕克斯衣柜",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

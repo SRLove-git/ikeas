@@ -1,0 +1,412 @@
+{
+ "url": "/cn/zh/cat/rui-dian-mei-shi-wu-fb001",
+ "id": "rui-dian-mei-shi-wu-fb001",
+ "name": "宜家瑞典美食屋-进口美食-休闲食品-IKEA",
+ "description": "欢迎到当地宜家商场品尝美味健康的瑞典风味食品和饮料，或前往宜家瑞典食品屋选购，然后带回家享用。浏览宜家食品系列，品尝经典美食，例如提供多种口味的瑞典肉丸和三文鱼。我们还供应各式饮品和甜点！",
+ "total": 52,
+ "products": [
+  {
+   "id": "20226767",
+   "name": "DRYCK BUBBEL ÄPPLE & LINGON",
+   "price": 39.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/dryck-bubbel-aepple-lingon-ping-guo-yue-jie-wei-tan-suan-yin-liao__1486529_pe1002425_s4.jpg",
+   "productType": "苹果越桔味碳酸饮料",
+   "designText": "",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "dryck-bubbel-aepple-lingon-ping-guo-yue-jie-wei-tan-suan-yin-liao"
+  },
+  {
+   "id": "50514766",
+   "name": "HUVUDROLL",
+   "price": 34.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/huvudroll-ji-rou-wan-leng-dong__1269350_pe929036_s4.jpg",
+   "productType": "鸡肉丸",
+   "designText": "冷冻",
+   "measureText": "500 克",
+   "url": null,
+   "seoSlug": "huvudroll-ji-rou-wan-leng-dong"
+  },
+  {
+   "id": "10588189",
+   "name": "FYRTAKT 菲塔克",
+   "price": 39.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/fyrtakt-fei-ta-ke-xiang-pi-tang-shi-jin__1268110_pe928626_s4.jpg",
+   "productType": "橡皮糖什锦",
+   "designText": "",
+   "measureText": "450 克",
+   "url": null,
+   "seoSlug": "fyrtakt-fei-ta-ke-xiang-pi-tang-shi-jin"
+  },
+  {
+   "id": "70354309",
+   "name": "ALLEMANSRÄTTEN",
+   "price": 9.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/allemansraetten-nai-you-sha-si-fen__0485995_pe621761_s4.jpg",
+   "productType": "奶油沙司粉",
+   "designText": "",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "allemansraetten-nai-you-sha-si-fen"
+  },
+  {
+   "id": "20374927",
+   "name": "KAFFEREP 卡弗雷普",
+   "price": 59.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/kafferep-qia-fu-lei-pu-bo-pian-sheng-jiang-bing-gan__0539228_pe652395_s4.jpg",
+   "productType": "薄片生姜饼干",
+   "designText": "",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "kafferep-qia-fu-lei-pu-bo-pian-sheng-jiang-bing-gan"
+  },
+  {
+   "id": "90574391",
+   "name": "ALMONDY 阿曼迪",
+   "price": 59.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/almondy-a-man-di-bian-tao-ren-dan-gao__1200802_pe905029_s4.jpg",
+   "productType": "扁桃仁蛋糕",
+   "designText": "",
+   "measureText": "400 克",
+   "url": null,
+   "seoSlug": "almondy-a-man-di-bian-tao-ren-dan-gao"
+  },
+  {
+   "id": "70441439",
+   "name": "BÄSTISAR",
+   "price": 29.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/baestisar-yi-mian__0810841_pe771438_s4.jpg",
+   "productType": "意面",
+   "designText": "",
+   "measureText": "400 克",
+   "url": null,
+   "seoSlug": "baestisar-yi-mian"
+  },
+  {
+   "id": "10525168",
+   "name": "BELÖNING",
+   "price": 32.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/beloening-niu-nai-wei-qiao-ke-li-pai-yan-mai-he-jiao-tang-yu-lin-lian-meng-ren-zheng__1122918_pe874686_s4.jpg",
+   "productType": "牛奶味巧克力排",
+   "designText": "燕麦和焦糖 雨林联盟认证",
+   "measureText": "240 克",
+   "url": null,
+   "seoSlug": "beloening-niu-nai-wei-qiao-ke-li-pai-yan-mai-he-jiao-tang-yu-lin-lian-meng-ren-zheng"
+  },
+  {
+   "id": "60225695",
+   "name": "KETCHUP",
+   "price": 19.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/ketchup-fan-qie-jiang__0141977_pe301902_s4.jpg",
+   "productType": "蕃茄酱",
+   "designText": "",
+   "measureText": "500 克",
+   "url": null,
+   "seoSlug": "ketchup-fan-qie-jiang"
+  },
+  {
+   "id": "00574395",
+   "name": "DAIM",
+   "price": 59.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/daim-qiao-ke-li-bian-tao-ren-dan-gao-leng-dong__1200801_pe905028_s4.jpg",
+   "productType": "巧克力扁桃仁蛋糕",
+   "designText": "冷冻",
+   "measureText": "400 克",
+   "url": null,
+   "seoSlug": "daim-qiao-ke-li-bian-tao-ren-dan-gao-leng-dong"
+  },
+  {
+   "id": "30148514",
+   "name": "KNÄCKEBRÖD RÅG",
+   "price": 24.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/knaeckebroed-rag-hei-mai-bo-cui-bing__0090069_pe223510_s4.jpg",
+   "productType": "黑麦薄脆饼",
+   "designText": "",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "knaeckebroed-rag-hei-mai-bo-cui-bing"
+  },
+  {
+   "id": "70546375",
+   "name": "KAFFEREP 卡弗雷普",
+   "price": 19.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/kafferep-qia-fu-lei-pu-bing-gan-zi-mu-xing-zhuang__1078144_pe857110_s4.jpg",
+   "productType": "饼干",
+   "designText": "字母形状",
+   "measureText": "175 克",
+   "url": null,
+   "seoSlug": "kafferep-qia-fu-lei-pu-bing-gan-zi-mu-xing-zhuang"
+  },
+  {
+   "id": "50588154",
+   "name": "FYRTAKT 菲塔克",
+   "price": 9.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/fyrtakt-fei-ta-ke-xiang-pi-tang-ke-le-wei__1268126_pe928630_s4.jpg",
+   "productType": "橡皮糖",
+   "designText": "可乐味",
+   "measureText": "100 克",
+   "url": null,
+   "seoSlug": "fyrtakt-fei-ta-ke-xiang-pi-tang-ke-le-wei"
+  },
+  {
+   "id": "00524744",
+   "name": "CHOKLAD LJUS",
+   "price": 14.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/choklad-ljus-niu-nai-qiao-ke-li-pai-yu-lin-lian-meng-ren-zheng__1120914_pe874030_s4.jpg",
+   "productType": "牛奶巧克力排",
+   "designText": "雨林联盟认证",
+   "measureText": "100 克",
+   "url": null,
+   "seoSlug": "choklad-ljus-niu-nai-qiao-ke-li-pai-yu-lin-lian-meng-ren-zheng"
+  },
+  {
+   "id": "90481938",
+   "name": "FESTLIGT",
+   "price": 22.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/festligt-shu-pian-suan-nai-you-yang-cong__0714268_pe730000_s4.jpg",
+   "productType": "薯片",
+   "designText": "酸奶油/洋葱",
+   "measureText": "150 克",
+   "url": null,
+   "seoSlug": "festligt-shu-pian-suan-nai-you-yang-cong"
+  },
+  {
+   "id": "00384729",
+   "name": "KAFFEREP 卡弗雷普",
+   "price": 24.9,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/kafferep-qia-fu-lei-pu-biscuits-with-almonds__0539199_pe652384_s4.jpg",
+   "productType": "biscuits with almonds",
+   "designText": "",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "kafferep-qia-fu-lei-pu-biscuits-with-almonds"
+  },
+  {
+   "id": "30101031",
+   "name": "SILL DILL",
+   "price": 18.9,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/sill-dill-shi-luo-an-zhi-fei-yu__0443155_pe594171_s4.jpg",
+   "productType": "莳萝腌制鲱鱼",
+   "designText": "",
+   "measureText": "250 克",
+   "url": null,
+   "seoSlug": "sill-dill-shi-luo-an-zhi-fei-yu"
+  },
+  {
+   "id": "50598186",
+   "name": "LÅNGLUR 隆鲁尔",
+   "price": 14.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/langlur-long-lu-er-guo-shu-nai-xi-liu-cheng-hu-luo-bu-shi-zi-yi-tian-jia-wei-sheng-su-c__1412962_pe974137_s4.jpg",
+   "productType": "果蔬奶昔",
+   "designText": "柳橙 胡萝卜/柿子 已添加维生素C",
+   "measureText": "330 ml",
+   "url": null,
+   "seoSlug": "langlur-long-lu-er-guo-shu-nai-xi-liu-cheng-hu-luo-bu-shi-zi-yi-tian-jia-wei-sheng-su-c"
+  },
+  {
+   "id": "80623698",
+   "name": "VÅRKÄNSLA",
+   "price": 39.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/varkaensla-qiao-ke-li-guo-ren-tang-li-he-bai-qiao-ke-li-niu-ya-tang-hei-mei-zhi-shi-dan-gao-feng-wei__1451087_pe990581_s4.jpg",
+   "productType": "巧克力果仁糖礼盒",
+   "designText": "白巧克力牛轧糖 黑莓芝士蛋糕风味",
+   "measureText": "90 克",
+   "url": null,
+   "seoSlug": "varkaensla-qiao-ke-li-guo-ren-tang-li-he-bai-qiao-ke-li-niu-ya-tang-hei-mei-zhi-shi-dan-gao-feng-wei"
+  },
+  {
+   "id": "80578733",
+   "name": "MUNSBIT",
+   "price": 12.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/munsbit-kao-xing-ren-yan-an__1327363_pe944415_s4.jpg",
+   "productType": "烤杏仁",
+   "designText": "盐腌",
+   "measureText": "60 克",
+   "url": null,
+   "seoSlug": "munsbit-kao-xing-ren-yan-an"
+  },
+  {
+   "id": "90374919",
+   "name": "KAFFEREP 卡弗雷普",
+   "price": 19.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/kafferep-qia-fu-lei-pu-yan-mai-bing-gan-wu-tang__0539242_pe652409_s4.jpg",
+   "productType": "燕麦饼干",
+   "designText": "无糖",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "kafferep-qia-fu-lei-pu-yan-mai-bing-gan-wu-tang"
+  },
+  {
+   "id": "60196495",
+   "name": "PIZZABITAR",
+   "price": 54.9,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/pizzabitar-su-shi-bi-sa-bing__1458049_pe992867_s4.jpg",
+   "productType": "素食比萨饼",
+   "designText": "",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "pizzabitar-su-shi-bi-sa-bing"
+  },
+  {
+   "id": "90574353",
+   "name": "FLÖJT 夫罗伊",
+   "price": 22.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/floejt-fu-luo-yi-hong-cha-yu-lin-lian-meng-ren-zheng__1305518_pe939527_s4.jpg",
+   "productType": "红茶",
+   "designText": "雨林联盟认证",
+   "measureText": "37.5 克",
+   "url": null,
+   "seoSlug": "floejt-fu-luo-yi-hong-cha-yu-lin-lian-meng-ren-zheng"
+  },
+  {
+   "id": "10524748",
+   "name": "CHOKLAD MÖRK",
+   "price": 17.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/choklad-moerk-hei-qiao-ke-li-yu-lin-lian-meng-ren-zheng__1120864_pe873997_s4.jpg",
+   "productType": "黑巧克力",
+   "designText": "雨林联盟认证",
+   "measureText": "100 克",
+   "url": null,
+   "seoSlug": "choklad-moerk-hei-qiao-ke-li-yu-lin-lian-meng-ren-zheng"
+  },
+  {
+   "id": "80627088",
+   "name": "BJÄLLRA 比亚拉",
+   "price": 12.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/bjaellra-bi-ya-la-bing-gan-ning-meng-wei-jia-xin__1488783_pe1003513_s4.jpg",
+   "productType": "饼干",
+   "designText": "柠檬味夹心",
+   "measureText": "176 克",
+   "url": null,
+   "seoSlug": "bjaellra-bi-ya-la-bing-gan-ning-meng-wei-jia-xin"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "20226767",
+   "type": "ART",
+   "fullId": "20226767"
+  },
+  {
+   "id": "50514766",
+   "type": "ART",
+   "fullId": "50514766"
+  },
+  {
+   "id": "10588189",
+   "type": "ART",
+   "fullId": "10588189"
+  },
+  {
+   "id": "70354309",
+   "type": "ART",
+   "fullId": "70354309"
+  },
+  {
+   "id": "20374927",
+   "type": "ART",
+   "fullId": "20374927"
+  },
+  {
+   "id": "90574391",
+   "type": "ART",
+   "fullId": "90574391"
+  },
+  {
+   "id": "70441439",
+   "type": "ART",
+   "fullId": "70441439"
+  },
+  {
+   "id": "10525168",
+   "type": "ART",
+   "fullId": "10525168"
+  },
+  {
+   "id": "60225695",
+   "type": "ART",
+   "fullId": "60225695"
+  },
+  {
+   "id": "00574395",
+   "type": "ART",
+   "fullId": "00574395"
+  },
+  {
+   "id": "30148514",
+   "type": "ART",
+   "fullId": "30148514"
+  },
+  {
+   "id": "70546375",
+   "type": "ART",
+   "fullId": "70546375"
+  },
+  {
+   "id": "50588154",
+   "type": "ART",
+   "fullId": "50588154"
+  },
+  {
+   "id": "00524744",
+   "type": "ART",
+   "fullId": "00524744"
+  },
+  {
+   "id": "90481938",
+   "type": "ART",
+   "fullId": "90481938"
+  },
+  {
+   "id": "00384729",
+   "type": "ART",
+   "fullId": "00384729"
+  },
+  {
+   "id": "30101031",
+   "type": "ART",
+   "fullId": "30101031"
+  },
+  {
+   "id": "50598186",
+   "type": "ART",
+   "fullId": "50598186"
+  },
+  {
+   "id": "80623698",
+   "type": "ART",
+   "fullId": "80623698"
+  },
+  {
+   "id": "80578733",
+   "type": "ART",
+   "fullId": "80578733"
+  },
+  {
+   "id": "90374919",
+   "type": "ART",
+   "fullId": "90374919"
+  },
+  {
+   "id": "60196495",
+   "type": "ART",
+   "fullId": "60196495"
+  },
+  {
+   "id": "90574353",
+   "type": "ART",
+   "fullId": "90574353"
+  },
+  {
+   "id": "10524748",
+   "type": "ART",
+   "fullId": "10524748"
+  },
+  {
+   "id": "80627088",
+   "type": "ART",
+   "fullId": "80627088"
+  }
+ ]
+}

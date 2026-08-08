@@ -1,0 +1,96 @@
+{
+ "url": "/cn/zh/rooms/bedroom/gallery/woshi-pub74624660",
+ "family": "rooms",
+ "id": "cn--zh--74624660210911e8a87b9f51602dde40",
+ "title": "卧室",
+ "name": "卧室灵感_SEO",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "卧室"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Page Title-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h3><strong>你想从哪里开始新的一天？</strong></h3>\n<p>欢迎来到卧室展示区，这里的卧室家具组合种类繁多，风格不一，大小各异，价格也很实惠。我们已经为你搭配好产品，所以你在家也可轻松再现此处看到的布置。四处看看，找找你梦想的卧室吧。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--067d15f1a9f611e8a3645f5b86ee3939",
+    "/rooms/bedroom/gallery/er4-ren2-he2-zhu4-de-dan1-jian1-gong1-yu4-pub067d15f1",
+    "page",
+    "二人合住的单间公寓",
+    "即使居住空间狭小，也不应影响你和室友尽情享受生活。了解如何使用合适的储物装置，规划生活与睡眠空间。",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fbedroom%2Fgallery%2Fer4-ren2-he2-zhu4-de-dan1-jian1-gong1-yu4-pub067d15f1&key=cn--zh--067d15f1a9f611e8a3645f5b86ee3939"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/99/58/995846de5d8f0f50f2f6e6439d84f72b.jpg",
+    "https://file.app.ikea.cn/images/45/44/45444ca54941d81beb589f8a303da8d5.jpg",
+    "https://file.app.ikea.cn/images/ce/ad/cead402189e55bbc1fa7dabc1b477f97.jpg",
+    "https://file.app.ikea.cn/images/b2/a9/b2a9354084d72b8acc103f8f17fa3503.jpg",
+    "https://file.app.ikea.cn/images/d2/52/d2522ad90a4c52bae5d696c619d27bd8.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/99/58/995846de5d8f0f50f2f6e6439d84f72b.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/45/44/45444ca54941d81beb589f8a303da8d5.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/ce/ad/cead402189e55bbc1fa7dabc1b477f97.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/b2/a9/b2a9354084d72b8acc103f8f17fa3503.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/d2/52/d2522ad90a4c52bae5d696c619d27bd8.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/92/a8/92a8305d5a0a450c5800c01485df162a.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Page List-"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "button",
+    "返回所有房间灵感",
+    "secondary"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Link - button or text-"
+   }
+  }
+ ]
+}

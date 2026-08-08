@@ -1,0 +1,34 @@
+{
+ "url": "/cn/zh/customer-service/cookie-policy",
+ "family": "customer-service",
+ "id": "cn--zh--77390d40727111ea85087dea14f0693a",
+ "title": "宜家Cookie政策",
+ "name": "Cookie policiy",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "宜家Cookie政策"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-标题-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>宜家使用cookies是为了提升服务。我们使用的cookies中，一些是服务运作必不可少的部分，另一些则用于收集使用网站的信息（数据），我们可以据此为你提供更加便捷实用的网站。一些cookies是临时性的，当你关闭浏览器后就会消失；另一些则是持久性的，将会在你的电脑上保留一段时间。</p>\n<p>一些cookies是网站功能正常运作所必不可少的，另一些则用作提高性能及优化用户体验。</p>\n<p style=\"line-height: 12px;\"><strong>必要cookies的作用：</strong></p>\n<p>&bull; 记住你放入购物车的产品信息<br />&bull; 记住你的订单处理进度<br />&bull; 识别机器人等网络中的自动化程序，防止自动化程序影响网站的正常运行<br />&bull; 识别和防止网络攻击，保障网站安全<br />&bull; 区分同一公共IP下的不同用户，以确保用户可以正常使用网站功能</p>\n<p style=\"line-height: 9px;\">&nbsp;</p>\n<p><strong>功能cookies的作用：</strong><br />&bull; 记住你的登录信息<br />&bull; 确保你在安全的网络环境下登录<br />&bull; 确保网站保持一致<br />&bull; 支持实时在线聊天</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  }
+ ]
+}

@@ -1,0 +1,140 @@
+{
+ "url": "/cn/zh/cat/shou-na-xie-he-47380",
+ "id": "shou-na-xie-he-47380",
+ "name": "收纳鞋盒",
+ "description": "收纳鞋盒",
+ "total": 8,
+ "products": [
+  {
+   "id": "60611371",
+   "name": "MURVEL 穆沃尔",
+   "price": 12.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/murvel-mu-wo-er-xie-chu-cang-jian-hui-se__1457563_pe992726_s4.jpg",
+   "productType": "鞋储藏件",
+   "designText": "灰色",
+   "measureText": "27x14x25 厘米",
+   "url": null,
+   "seoSlug": "murvel-mu-wo-er-xie-chu-cang-jian-hui-se"
+  },
+  {
+   "id": "80186396",
+   "name": "SKUBB 思库布",
+   "price": 59.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/skubb-si-ku-bu-xie-he-bai-se__0711341_pe728167_s4.jpg",
+   "productType": "鞋盒",
+   "designText": "白色",
+   "measureText": "22x34x16 厘米",
+   "url": null,
+   "seoSlug": "skubb-si-ku-bu-xie-he-bai-se"
+  },
+  {
+   "id": "50503923",
+   "name": "HEMMAFIXARE 汉玛菲萨",
+   "price": 79.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/hemmafixare-han-ma-fei-sa-xie-he-zhi-wu-tiao-xing-tu-an-bai-se-hui-se__1098382_pe865369_s4.jpg",
+   "productType": "鞋盒",
+   "designText": "织物 条形图案/白色/灰色",
+   "measureText": "23x34x19 厘米",
+   "url": null,
+   "seoSlug": "hemmafixare-han-ma-fei-sa-xie-he-zhi-wu-tiao-xing-tu-an-bai-se-hui-se"
+  },
+  {
+   "id": "10522382",
+   "name": "PÄRKLA 派克拉",
+   "price": 4.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/paerkla-pai-ke-la-xie-dai__1045872_pe842745_s4.jpg",
+   "productType": "鞋袋",
+   "designText": "",
+   "measureText": "48x22 厘米",
+   "url": null,
+   "seoSlug": "paerkla-pai-ke-la-xie-dai"
+  },
+  {
+   "id": "90329875",
+   "name": "GREJIG 格雷伊格",
+   "price": 29.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/grejig-ge-lei-yi-ge-xie-jia-hui-se__0710739_pe727757_s4.jpg",
+   "productType": "鞋架",
+   "designText": "灰色",
+   "measureText": "58x27x17 厘米",
+   "url": null,
+   "seoSlug": "grejig-ge-lei-yi-ge-xie-jia-hui-se"
+  },
+  {
+   "id": "20469421",
+   "name": "MURVEL 穆沃尔",
+   "price": 9.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/murvel-mu-wo-er-xie-chu-cang-jian-hui-se__0688052_pe722296_s4.jpg",
+   "productType": "鞋储藏件",
+   "designText": "灰色",
+   "measureText": "14x14x24 厘米",
+   "url": null,
+   "seoSlug": "murvel-mu-wo-er-xie-chu-cang-jian-hui-se"
+  },
+  {
+   "id": "00528515",
+   "name": "SKOSTALL 斯古道",
+   "price": 19.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/skostall-si-gu-dao-xie-chu-cang-jian-hei-se__1048283_pe843677_s4.jpg",
+   "productType": "鞋储藏件",
+   "designText": "黑色",
+   "measureText": "11x19x27 厘米",
+   "url": null,
+   "seoSlug": "skostall-si-gu-dao-xie-chu-cang-jian-hei-se"
+  },
+  {
+   "id": "00472981",
+   "name": "SKUBB 思库布",
+   "price": 59.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/skubb-si-ku-bu-xie-he-shen-hui-se__0573441_pe667779_s4.jpg",
+   "productType": "鞋盒",
+   "designText": "深灰色",
+   "measureText": "22x34x16 厘米",
+   "url": null,
+   "seoSlug": "skubb-si-ku-bu-xie-he-shen-hui-se"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "60611371",
+   "type": "ART",
+   "fullId": "60611371"
+  },
+  {
+   "id": "80186396",
+   "type": "ART",
+   "fullId": "80186396"
+  },
+  {
+   "id": "50503923",
+   "type": "ART",
+   "fullId": "50503923"
+  },
+  {
+   "id": "10522382",
+   "type": "ART",
+   "fullId": "10522382"
+  },
+  {
+   "id": "90329875",
+   "type": "ART",
+   "fullId": "90329875"
+  },
+  {
+   "id": "20469421",
+   "type": "ART",
+   "fullId": "20469421"
+  },
+  {
+   "id": "00528515",
+   "type": "ART",
+   "fullId": "00528515"
+  },
+  {
+   "id": "00472981",
+   "type": "ART",
+   "fullId": "00472981"
+  }
+ ]
+}

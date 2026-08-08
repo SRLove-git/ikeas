@@ -1,0 +1,785 @@
+{
+ "url": "/cn/zh/campaigns/jie3-suo3-gao1-zhi4-liang4-shui4-mian2-pubef642340",
+ "family": "campaigns",
+ "id": "cn--zh--ef642340271011ecb7fbd5c58b04ea72",
+ "title": "解锁高质量睡眠",
+ "name": "解锁高质量睡眠",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "解锁高质量睡眠"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/39/62/39625614e17f2f34fd05c89b09d300d5.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/39/62/39625614e17f2f34fd05c89b09d300d5.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>1. 枕头</h2>\n<p>选择一款酣睡整夜的枕头，首先你要了解自己的习惯睡姿（仰卧、侧卧或俯卧），然后根据个人需求寻找具有特定优点和功能的枕头。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "/h5page/?url=%23dfc43300-27f9-11ec-a265-6981297c1824",
+    "NO",
+    "ikea://default-module/H5?url=%23dfc43300-27f9-11ec-a265-6981297c1824",
+    "{\"objectId_var\":\"#dfc43300-27f9-11ec-a265-6981297c1824\",\"objectType_var\":\"default-module/H5\"}",
+    "pub-image"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/14/39/1439a927430078a73e4f7abd5e672130.jpg",
+    "https://file.app.ikea.cn/images/2f/ee/2feefc449d0f1c120ce5491b6cbf7976.jpg",
+    "https://file.app.ikea.cn/images/ba/e2/bae270385ef166f086104e9956b75da7.jpg"
+   ],
+   "links": [
+    {
+     "href": "/h5page/?url=%23dfc43300-27f9-11ec-a265-6981297c1824",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/14/39/1439a927430078a73e4f7abd5e672130.jpg",
+     "text": ""
+    },
+    {
+     "href": "/h5page/?url=%2308044e90-27fa-11ec-a265-6981297c1824",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/2f/ee/2feefc449d0f1c120ce5491b6cbf7976.jpg",
+     "text": ""
+    },
+    {
+     "href": "/h5page/?url=%231ee9f880-27fa-11ec-a265-6981297c1824",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/ba/e2/bae270385ef166f086104e9956b75da7.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "/search/products?q=仰卧",
+    "NO",
+    "ikea://default-module/search?query=%E4%BB%B0%E5%8D%A7",
+    "{\"objectId_var\":\"仰卧\",\"objectType_var\":\"search_result\"}",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/24/c9/24c9968cc12a3401e36a08083faa3250.jpg"
+   ],
+   "links": [
+    {
+     "href": "/search/products?q=仰卧",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/24/c9/24c9968cc12a3401e36a08083faa3250.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "00424240",
+    "80446097",
+    "70444367",
+    "10512972",
+    "90512973"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "/search/products?q=侧卧",
+    "NO",
+    "ikea://default-module/search?query=%E4%BE%A7%E5%8D%A7",
+    "{\"objectId_var\":\"侧卧\",\"objectType_var\":\"search_result\"}",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/22/df/22df0ba6642054eb45aa46558ef92e3b.jpg"
+   ],
+   "links": [
+    {
+     "href": "/search/products?q=侧卧",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/22/df/22df0ba6642054eb45aa46558ef92e3b.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "30446735",
+    "80446097",
+    "70444367",
+    "80446771",
+    "90512973"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "/search/products?q=俯卧",
+    "NO",
+    "ikea://default-module/search?query=%E4%BF%AF%E5%8D%A7",
+    "{\"objectId_var\":\"俯卧\",\"objectType_var\":\"search_result\"}",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/7a/0a/7a0abc52127f77f11a3a5023a0b973fe.jpg"
+   ],
+   "links": [
+    {
+     "href": "/search/products?q=俯卧",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/7a/0a/7a0abc52127f77f11a3a5023a0b973fe.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "20460388",
+    "10460591",
+    "70460550",
+    "10460435",
+    "50460259"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>2. 被子</h2>\n<p>选择一款优质舒适的被子，不仅能改善我们的睡眠质量，更能改善我们的睡眠环境，正所谓&ldquo;黄金万两，不如好被一床&ldquo;。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "/h5page/?url=%23f9f72ae0-2743-11ec-b84b-ebf0ec3cf99a",
+    "NO",
+    "ikea://default-module/H5?url=%23f9f72ae0-2743-11ec-b84b-ebf0ec3cf99a",
+    "{\"objectId_var\":\"#f9f72ae0-2743-11ec-b84b-ebf0ec3cf99a\",\"objectType_var\":\"default-module/H5\"}",
+    "pub-image"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/89/81/89812219db7c3087c0b213d4d284f605.jpg",
+    "https://file.app.ikea.cn/images/40/19/40195d4f207a9164e4ecafbda275f184.jpg",
+    "https://file.app.ikea.cn/images/77/c8/77c8b38aa8366f66525db1076db57a24.jpg"
+   ],
+   "links": [
+    {
+     "href": "/h5page/?url=%23f9f72ae0-2743-11ec-b84b-ebf0ec3cf99a",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/89/81/89812219db7c3087c0b213d4d284f605.jpg",
+     "text": ""
+    },
+    {
+     "href": "/h5page/?url=%23fe505660-2744-11ec-9006-1fb11515e000",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/40/19/40195d4f207a9164e4ecafbda275f184.jpg",
+     "text": ""
+    },
+    {
+     "href": "/h5page/?url=%232a698d70-2745-11ec-9006-1fb11515e000",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/77/c8/77c8b38aa8366f66525db1076db57a24.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-banner",
+   "title": null,
+   "texts": [
+    "image-text-landscape",
+    "IMAGE",
+    "<p>建议选择如莱赛尔材质等透气性良好、可消除湿气的填料。<br />填充物含粘胶纤维 / 人造纤维，让人在温热环境中感到凉爽。<br />纤维含量越高触感越凉爽，温度调节性能越好。</p>",
+    "多汗星人",
+    "/search/products?q=蚕丝",
+    "NO"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/d3/93/d39315a84250be90a4e7a4b36bd3aac3.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/d3/93/d39315a84250be90a4e7a4b36bd3aac3.jpg",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=蚕丝",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=蚕丝",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "00503275",
+    "50457129",
+    "30458097",
+    "30522927"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-banner",
+   "title": null,
+   "texts": [
+    "image-text-landscape",
+    "IMAGE",
+    "<p>蓬松的羽绒或者桑蚕丝厚被能给你带来温暖舒适的睡眠环境。<br />鸭绒含量越高，越轻盈柔软。<br />轻盈柔软的鸭毛</p>",
+    "怕冷星人",
+    "/search/products?q=羽绒",
+    "NO"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/4d/96/4d9603c2ef48afa686c0c23adf35f089.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/4d/96/4d9603c2ef48afa686c0c23adf35f089.jpg",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=羽绒",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=羽绒",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "30459285",
+    "70458774",
+    "20458328"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-banner",
+   "title": null,
+   "texts": [
+    "image-text-landscape",
+    "IMAGE",
+    "<p>换季期间合成 / 人工填料方便经常清洗，适合敏感的人群。<br />性价比之王</p>",
+    "易敏人群",
+    "/search/products?q=聚酯",
+    "NO"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/bf/72/bf720e7ca3740a9ce7d0d99afe8c8695.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/bf/72/bf720e7ca3740a9ce7d0d99afe8c8695.jpg",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=聚酯",
+     "text": ""
+    },
+    {
+     "href": "/search/products?q=聚酯",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "10424225",
+    "50458435",
+    "60457987"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>3.被套</h2>\n<p>选择一款优质舒适的被套，不但可以改善睡眠质量，还可以让心情保持愉悦。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/05/25/052574ed3792195c184b9513bbd417d4.jpg",
+    "https://file.app.ikea.cn/images/33/2d/332de58d149eec5c79bba1c10c532fbd.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/05/25/052574ed3792195c184b9513bbd417d4.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/33/2d/332de58d149eec5c79bba1c10c532fbd.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "传统风格",
+   "texts": [
+    "传统风格",
+    "/p/70501367?artType=ART",
+    "NO",
+    "ikea://content/pip?id=70501367&type=ART",
+    "{\"objectId_var\":\"70501367\",\"objectType_var\":\"product\"}",
+    "/p/80500763?artType=ART"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/7b/f8/7bf8c9943c125bb9a1abcb4213dea036.jpg",
+    "https://file.app.ikea.cn/images/fc/93/fc937c878d5331c30a12b817ea8af9f7.jpg",
+    "https://file.app.ikea.cn/images/f7/a4/f7a4784aba0a94945da9c377f0ea7c8a.jpg",
+    "https://file.app.ikea.cn/images/5a/d4/5ad451a05058669a798f17e6b82e0893.jpg",
+    "https://file.app.ikea.cn/images/2c/14/2c14bfe890360305cb59734ca12fcab0.jpg"
+   ],
+   "links": [
+    {
+     "href": "/p/70501367?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/7b/f8/7bf8c9943c125bb9a1abcb4213dea036.jpg",
+     "text": ""
+    },
+    {
+     "href": "/p/70501367?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/fc/93/fc937c878d5331c30a12b817ea8af9f7.jpg",
+     "text": ""
+    },
+    {
+     "href": "/p/80500763?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/f7/a4/f7a4784aba0a94945da9c377f0ea7c8a.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "60423247",
+    "40500661",
+    "50423196",
+    "70501367",
+    "40463673"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "简约风格",
+   "texts": [
+    "简约风格",
+    "/p/80525909?artType=ART",
+    "NO",
+    "ikea://content/pip?id=80525909&type=ART",
+    "{\"objectId_var\":\"80525909\",\"objectType_var\":\"product\"}",
+    "/p/30492973?artType=ART"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/da/a8/daa8aa1bde4375b190c65f23907d19b3.jpg",
+    "https://file.app.ikea.cn/images/71/c6/71c6de2330cdfe331dce670ca2be508f.jpg",
+    "https://file.app.ikea.cn/images/af/8f/af8fe647b9b3b37190d68b50647d9f36.jpg",
+    "https://file.app.ikea.cn/images/b1/77/b177ddfcd1920539a46506500af601d5.jpg",
+    "https://file.app.ikea.cn/images/d2/34/d23423817ff38b16222b4e525ec43652.jpg"
+   ],
+   "links": [
+    {
+     "href": "/p/80525909?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/da/a8/daa8aa1bde4375b190c65f23907d19b3.jpg",
+     "text": ""
+    },
+    {
+     "href": "/p/30492973?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/71/c6/71c6de2330cdfe331dce670ca2be508f.jpg",
+     "text": ""
+    },
+    {
+     "href": "/p/90490669?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/af/8f/af8fe647b9b3b37190d68b50647d9f36.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "80525909",
+    "60525910",
+    "10493209",
+    "30442539",
+    "40484425"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "田园风格",
+   "texts": [
+    "花卉图案清新自然 / 简约大方 / 面料亲肤透气 / 舒适透气易于打理",
+    "田园风格",
+    "/p/90399651?artType=ART",
+    "NO",
+    "ikea://content/pip?id=90399651&type=ART",
+    "{\"objectId_var\":\"90399651\",\"objectType_var\":\"product\"}"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/15/0d/150d75afecdf333297d3ebc748938534.jpg",
+    "https://file.app.ikea.cn/images/b8/90/b89029e6d801f65863a25be11d764fdf.jpg",
+    "https://file.app.ikea.cn/images/83/5f/835faf64987c97e5cd12f9484b812508.jpg",
+    "https://file.app.ikea.cn/images/2e/07/2e07d77fd2259b48d29ab78c2e7dbb34.jpg",
+    "https://file.app.ikea.cn/images/1b/09/1b09471c7c42940a51e60180b461662f.jpg"
+   ],
+   "links": [
+    {
+     "href": "/p/90399651?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/15/0d/150d75afecdf333297d3ebc748938534.jpg",
+     "text": ""
+    },
+    {
+     "href": "/p/30508016?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/b8/90/b89029e6d801f65863a25be11d764fdf.jpg",
+     "text": ""
+    },
+    {
+     "href": "/p/30520117?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/83/5f/835faf64987c97e5cd12f9484b812508.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "80501017",
+    "00399636",
+    "20501020",
+    "50522945",
+    "50520116"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "卡通风格",
+   "texts": [
+    "100% 纯棉，天然耐用，越洗越柔软。\n通过检测，不含任何对皮肤和健康有害的化学成分。",
+    "卡通风格",
+    "/p/10440174?artType=ART",
+    "NO",
+    "ikea://content/pip?id=10440174&type=ART",
+    "{\"objectId_var\":\"10440174\",\"objectType_var\":\"product\"}"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/58/07/5807bdf32c97e27a55ff20b1b4c0ef94.jpg",
+    "https://file.app.ikea.cn/images/58/1e/581ee8ea0f810de118be7c3e5918dca9.jpg",
+    "https://file.app.ikea.cn/images/06/62/066277817cd6eca09af33272e4dc9dfb.jpg",
+    "https://file.app.ikea.cn/images/2b/e9/2be91bb503929bd255cfa5b22badfa2c.jpg",
+    "https://file.app.ikea.cn/images/14/e5/14e5197f3e338431680abb8f48406c45.jpg"
+   ],
+   "links": [
+    {
+     "href": "/p/10440174?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/58/07/5807bdf32c97e27a55ff20b1b4c0ef94.jpg",
+     "text": ""
+    },
+    {
+     "href": "/p/80464128?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/58/1e/581ee8ea0f810de118be7c3e5918dca9.jpg",
+     "text": ""
+    },
+    {
+     "href": "/p/80504370?artType=ART",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/06/62/066277817cd6eca09af33272e4dc9dfb.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "50435255",
+    "00464146",
+    "70455723",
+    "70504399"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>使用宜家设计工具，让你的梦想变成现实。</h2>\n<p>在购买之前，使用简单易用的宜家设计工具，玩转色彩、风格、尺寸和配置，随心打造个性设计。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-banner",
+   "title": null,
+   "texts": [
+    "image-text-landscape",
+    "IMAGE",
+    "<p>想在格外舒适的睡眠中醒来，不妨尝试一下我们的舒适睡眠指南。</p>",
+    "打造个性化舒适睡眠",
+    "#FFFFFF",
+    "/h5page/?url=https%3A%2F%2Fwww.ikea.cn%2Faddon-app%2Fcompletesleep%2Fneedmap%2F1.42.2.5111%2F%3Flocale%3Dzh_CN%26uiPlatform%3Dm2%23needmap"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/62/36/623600648a40ce136ba81ed19d4cb585.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/62/36/623600648a40ce136ba81ed19d4cb585.jpg",
+     "text": ""
+    },
+    {
+     "href": "/h5page/?url=https%3A%2F%2Fwww.ikea.cn%2Faddon-app%2Fcompletesleep%2Fneedmap%2F1.42.2.5111%2F%3Flocale%3Dzh_CN%26uiPlatform%3Dm2%23needmap",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-visual-pill-slider",
+   "title": null,
+   "texts": [
+    "/cat/li002",
+    "NO",
+    "ikea://content/plp?catalogId=li002",
+    "{\"objectId_var\":\"li002\",\"objectType_var\":\"plp\"}",
+    "image",
+    "#f5f5f5"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/bc/97/bc9754a562299dadfa1de008a7397f7a.jpg",
+    "https://file.app.ikea.cn/images/de/ba/deba1ff3e1a41827cfe87b986f424ced.jpg",
+    "https://file.app.ikea.cn/images/35/9d/359df43de9f6cc98bfce0aed8b024cb7.png",
+    "https://file.app.ikea.cn/images/1e/c4/1ec42d27992ef2e7a46c2fc41fa33fdf.jpg",
+    "https://file.app.ikea.cn/images/36/a4/36a478617febbb1cb8dece5de6f56915.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/li002",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/bc/97/bc9754a562299dadfa1de008a7397f7a.jpg",
+     "text": ""
+    },
+    {
+     "href": "/cat/14971",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/de/ba/deba1ff3e1a41827cfe87b986f424ced.jpg",
+     "text": ""
+    },
+    {
+     "href": "/cat/49081",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/35/9d/359df43de9f6cc98bfce0aed8b024cb7.png",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "/stores/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fstores%2F&key=",
+    "{\"objectId_var\":\"/stores/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/00/57/00575628540f49342b9d794a571200a7.jpg"
+   ],
+   "links": [
+    {
+     "href": "/stores/",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/00/57/00575628540f49342b9d794a571200a7.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  }
+ ]
+}

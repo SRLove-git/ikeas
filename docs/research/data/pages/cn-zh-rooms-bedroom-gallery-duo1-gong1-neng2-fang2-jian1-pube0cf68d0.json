@@ -1,0 +1,124 @@
+{
+ "url": "/cn/zh/rooms/bedroom/gallery/duo1-gong1-neng2-fang2-jian1-pube0cf68d0",
+ "family": "rooms",
+ "id": "cn--zh--e0cf68d00c6911ea9be0efb138516c0e",
+ "title": "多功能房间",
+ "name": "20203_rmbe02a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "多功能房间"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "一室公寓，带有 PLATSA 普拉萨 储物组合和白色床架、餐桌、浅灰色沙发和米色挂帘。",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "s89326463"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/b9/3d/b93d558f6cbe1747cf70efc52c317457.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/b9/3d/b93d558f6cbe1747cf70efc52c317457.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>卧室、餐厅和客厅——应有尽有的一室公寓！PLATSA 普拉萨 以其通风的个性化家具让梦想变成现实。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "开放式衣柜配有抽屉、搁板和挂杆。衣服悬挂在白色衣架上，装饰品置于搁板上。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "70238541"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/ad/d0/add0a1f99be6ef5351c25cf589995f96.jpg",
+    "https://file.app.ikea.cn/images/a7/7f/a77f902d63dbf0037ae0b57f59982601.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/ad/d0/add0a1f99be6ef5351c25cf589995f96.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/a7/7f/a77f902d63dbf0037ae0b57f59982601.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "开放式衣柜旁的墙上装着 LURT 勒尔特/GUBBARP 古巴普 白色六钩衣帽架，上面挂着衣服通风。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "s09230049"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/c3/ae/c3aeac23f508b15bf84a2bb2fecbd6a6.jpg",
+    "https://file.app.ikea.cn/images/96/7e/967e53b4b0e02d0068de88d8473f222e.jpg",
+    "https://file.app.ikea.cn/images/a2/c0/a2c043f8cac3c8ef565e98c826753d49.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/c3/ae/c3aeac23f508b15bf84a2bb2fecbd6a6.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/96/7e/967e53b4b0e02d0068de88d8473f222e.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/a2/c0/a2c043f8cac3c8ef565e98c826753d49.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s89326463",
+    "s59324385",
+    "50334303",
+    "20334314",
+    "60340389"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

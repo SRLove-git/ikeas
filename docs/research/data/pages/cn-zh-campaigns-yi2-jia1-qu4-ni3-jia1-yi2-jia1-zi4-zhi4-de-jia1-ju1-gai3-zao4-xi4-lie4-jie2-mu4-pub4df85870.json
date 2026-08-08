@@ -1,0 +1,807 @@
+{
+ "url": "/cn/zh/campaigns/yi2-jia1-qu4-ni3-jia1-yi2-jia1-zi4-zhi4-de-jia1-ju1-gai3-zao4-xi4-lie4-jie2-mu4-pub4df85870",
+ "family": "campaigns",
+ "id": "cn--zh--4df85870910411ebbf58a38a02d586b9",
+ "title": "第四期 30㎡老房大改造！绿色生活原来这么简单？",
+ "name": "宜家去你家 第四期",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "30㎡老房大改造！绿色生活原来这么简单？"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "900b6a0a3d74469bb73c71c07d3c5eb0"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>作为一家社会创新机构的主理人，阿菜一直提倡可持续的生活方式。但他和同事搬入新家后发现，屋内的各种限制同他们一贯的生活理念形成了明显的冲突。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "d3752240091644d3bdf5ac2f6cedfdc0"
+   }
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "NO",
+    "https://file.app.ikea.cn/cms/u/20221213/d37fa8f2cccb475e9ddda682d2945ca5.mp4",
+    "VIDEO",
+    "hosted",
+    "▲播放视频，揭示改造全过程",
+    "MANUAL_INPUT"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20221213/d37fa8f2cccb475e9ddda682d2945ca5.mp4",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Image(video)-"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "<p>由宜家设计师走进真实家庭，针对不同屋主的需求，用可持续的人性化设计，为屋主们化解生活中的困扰，创造理想的家~</p>",
+    "pub-text"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/ae/2c/ae2c5a4c85126720335a229970069df8.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/ae/2c/ae2c5a4c85126720335a229970069df8.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "f9306a6b3acf4012bfc7917bc5dc787c"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/24/95/2495819dc1292f128439c7107983ecec.jpg",
+    "https://file.app.ikea.cn/images/51/8f/518f94581f6fbc5845f4f97400c9e0f9.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/24/95/2495819dc1292f128439c7107983ecec.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/51/8f/518f94581f6fbc5845f4f97400c9e0f9.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "2171230c1a5d4fb1bb8d987db0dc7dcb"
+   }
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "062a376bee374f5fa10885fbcac5ae44"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "<p>阿菜主张通过调整生活习惯，让可持续能轻松地融入日常。但没想到居家环境对生活习惯也有很大的影响。商量过后，他们想到了同样践行可持续生活理念的宜家，决定向宜家全屋设计求助。</p>\n<p>经过细致的考察和沟通，设计师 <strong>Milun</strong> 和 <strong>Mango </strong>决定从空间利用率、家具环保性等角度入手改造。不到2周的时间，阿菜的家焕然一新。不仅巧妙地化解了全部的冲突，可持续生活方式还让他们过得<strong>更加轻松惬意！好奇吗？一起来看看吧！</strong></p>",
+    "pub-text"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/65/2d/652d68b12e4ee9ec470c8a0647f18c91.jpg",
+    "https://file.app.ikea.cn/images/57/5a/575adcf28e5a9e01e027cf1fa85eea49.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/65/2d/652d68b12e4ee9ec470c8a0647f18c91.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/57/5a/575adcf28e5a9e01e027cf1fa85eea49.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "4953eb9bdf2e4c36ab028b08362725bf"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/00/7e/007e62b54cb87fe7a9e75ec48d7fc863.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/00/7e/007e62b54cb87fe7a9e75ec48d7fc863.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "20a4d67df66f4b30b12ecbbb23b9bd1b"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>改造前：昏暗拥挤，会客、休闲等基础功能无法应用 设计思路：灵活家具组合实现多场景共享空间。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "6457f81f1a594b78a314eca261e38d3a"
+   }
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/6b/b9/6bb989c602cb3388ba0754df5f19040d.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/6b/b9/6bb989c602cb3388ba0754df5f19040d.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "c6f71f4f1f6249e4a7203b54198a1977"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>利用高大的储物柜将各式外露的杂物隐蔽式储藏起来。质朴无华的实木横杆搭配小挂钩让包包、衣物可以随手挂置，进门雨伞挂架下方放置几个盆栽，既防止雨伞滴水，又可以用雨水来灌溉植物。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "bbea7a555b324c7ca8024f78854c5313"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "40243799",
+    "20408588",
+    "90395926",
+    "00336173",
+    "60355130"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "ff17896372da48d4a7b6c055be89b8ab"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "<p>靠窗的一边晾晒了很多衣服，极大影响了室内采光。地上的晾衣架、行李箱和老斗柜将不到5平米的走廊尽头塞得满满当当，绿植的面积也相当受限。拥堵难看的走廊也带来了起居和会客的不便。</p>",
+    "pub-text"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/5c/e7/5ce707de94e4f648bc37c624c92e5e3c.jpg",
+    "https://file.app.ikea.cn/images/35/23/3523f50b1cf7c44de190d72345e7cc04.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/5c/e7/5ce707de94e4f648bc37c624c92e5e3c.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/35/23/3523f50b1cf7c44de190d72345e7cc04.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "1a97eef9d1b240bd8eb29ff2ee919e72"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>改造亮点</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "43c92a441607400aaa4a52c63e177ba0"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/73/c5/73c577f73c052ec281bd88465d270649.jpg",
+    "https://file.app.ikea.cn/images/6a/79/6a79edc30109b35a4514404046a96201.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/73/c5/73c577f73c052ec281bd88465d270649.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/6a/79/6a79edc30109b35a4514404046a96201.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "a2f6e6b4adc045c2a94ec1df1b12b59c"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "50436354",
+    "70422394",
+    "30192842",
+    "10318164",
+    "80385503"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "20267f0fb3334662a9ec3cd9689e14fe"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/88/a1/88a1f32138727efbed48b7f3dceae198.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/88/a1/88a1f32138727efbed48b7f3dceae198.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "53f2378124f64b2788aba5e2ff48515a"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>改造前：很难兼容多人下厨，物品堆积杂乱无章 设计思路：调整合理动线，打造高效收纳。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "28d036706a774dfc8a8a9339631fd18a"
+   }
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/a6/fc/a6fc3bd378d98b5c5de742a36ad058d1.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/a6/fc/a6fc3bd378d98b5c5de742a36ad058d1.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "d02bb36717cb4822a11230c28de3bc0f"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>为了吃得健康，三个人都偏好在家做饭。但由于不大的空间、陈旧的硬件、有限的收纳，消磨了他们下厨的坚持。经过规划，设计师改善厨房动线，让食品存储、洗涤、备料、烹饪、装盘的烹饪步骤实现了无缝衔接。大量减少了在厨房中的走动，双人下厨亦游刃有余。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "9387838b6f244519851b0466f890aafd"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "<p>三人合租，不同的饮食习惯提高了下厨的麻烦指数。改造后的炉灶两侧都留出了约80厘米宽的操作台面，可以容纳两个人同时备料。</p>",
+    "pub-text"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/0d/b9/0db9ab54140c43ba8adb93e9acdcc6fe.jpg",
+    "https://file.app.ikea.cn/images/c3/bd/c3bd51e1bdc3ee15f31275ce8332913b.jpg",
+    "https://file.app.ikea.cn/images/3d/ab/3dabc83775f2d06596a6ad08c9a6c2cd.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/0d/b9/0db9ab54140c43ba8adb93e9acdcc6fe.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/c3/bd/c3bd51e1bdc3ee15f31275ce8332913b.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/3d/ab/3dabc83775f2d06596a6ad08c9a6c2cd.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "577e4053a3b443b5939d8ee5c3454dc9"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "30351713",
+    "s99157389",
+    "00442376",
+    "20443105",
+    "40442794"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "407e7f9735ca4d72b1bba7db60b55972"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "<p>改造前大量的电器和杂物只能堆放在台面上，可操作空间变得有限，还存在一定的安全隐患。</p>",
+    "pub-text"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/b2/1d/b21dc6ce1e6ff606762b9185a3698520.jpg",
+    "https://file.app.ikea.cn/images/2d/00/2d00654f92d20324229a68bfd0f45451.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/b2/1d/b21dc6ce1e6ff606762b9185a3698520.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/2d/00/2d00654f92d20324229a68bfd0f45451.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "ba83c8c132524ab0981f9a9ea78d652e"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "<p>柜子深处的东西总要一通翻找，费时费力。</p>",
+    "pub-text"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/04/28/0428ad8b2235c19a4c8162c5a9b0099d.jpg",
+    "https://file.app.ikea.cn/images/c4/28/c428526e9a13fc7bd00db8da95de0cf1.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/04/28/0428ad8b2235c19a4c8162c5a9b0099d.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/c4/28/c428526e9a13fc7bd00db8da95de0cf1.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "f887494fa4da4184b9435df857d82822"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "<p>外露的垃圾桶不仅有碍美观，天气一热还会带来难闻的气味，空间有限的小垃圾桶也增加了清理频率和负担。</p>",
+    "pub-text"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/83/0a/830a5fc19167ec373657af2174b6a826.jpg",
+    "https://file.app.ikea.cn/images/16/6c/166c90bfde73b1b5b0aab077bcee7f79.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/83/0a/830a5fc19167ec373657af2174b6a826.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/16/6c/166c90bfde73b1b5b0aab077bcee7f79.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "654ac3e7b7cd4f399483d4bc2fe56fda"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "10270893",
+    "50397296",
+    "50271150",
+    "10401785"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "aa8727dfd03443068a9bae3ba5080abf"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/2e/0f/2e0f1e44d8b79414d90c193e31011355.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/2e/0f/2e0f1e44d8b79414d90c193e31011355.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "44b486d6f57043fabe4c163afa8a6291"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>改造前：不多的杂物挡不住凌乱感，空间规划不合理，功能性单一 设计思路：调整合理动线，打造高效收纳</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "095bbb0350df46a5a2b110a17725e2c9"
+   }
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/85/e5/85e529e2d0be8428c23697248bd377b0.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/85/e5/85e529e2d0be8428c23697248bd377b0.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cf9e94dc544748e2b6d8a1c93a6630e6"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>虽然阿菜的物品并不算多，但是空间布局不合理，房间整体看起来昏暗凌乱，这样的环境中，疲惫的身体难以快速获得有效放松。改造后的房间色彩明快、布局合理、清爽整洁。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "12ad25ef5e524a0b958766d552694679"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "60387490",
+    "00452577",
+    "30386246",
+    "90385927",
+    "60395536"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "962fc0938b3a4ed0855565aea21782a4"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>改造亮点</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "66582d029317434e9b38c43a99350b0e"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/99/bf/99bf7ba8968977d62ab889bb3793bd05.jpg",
+    "https://file.app.ikea.cn/images/df/be/dfbedd0761f56c4c2f88e5e3323679ca.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/99/bf/99bf7ba8968977d62ab889bb3793bd05.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/df/be/dfbedd0761f56c4c2f88e5e3323679ca.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "4a13e21b844841c684abe741a80c9e22"
+   }
+  },
+  {
+   "type": "pub-product-shelf",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "30269351",
+    "90453087",
+    "70357379",
+    "70353531",
+    "70264304"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "25292611c63249c2a3f3c1def35ba425"
+   }
+  },
+  {
+   "type": "pub-inspiration-card",
+   "title": null,
+   "texts": [
+    "c6b38180-91f5-11eb-8f44-cda6229a4f4d",
+    "/campaigns/yi2-jia1-qu4-ni3-jia1-pubbe527820",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fcampaigns%2Fyi2-jia1-qu4-ni3-jia1-pubbe527820&key=cn--zh--be5278200f7811eb80c3eda0f6efe0f0",
+    "{\"objectId_var\":\"/campaigns/yi2-jia1-qu4-ni3-jia1-pubbe527820\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "第 1期──生活何必“断舍离”！"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/ea/0c/ea0cb595a535e26d42f26263299df3a8.jpg",
+    "https://file.app.ikea.cn/images/90/4b/904b2c53ec0efc7eb90850a22b3532bf.jpg",
+    "https://file.app.ikea.cn/images/5f/e8/5fe8cd3ac0df8ebc9e0181be25657d51.jpg"
+   ],
+   "links": [
+    {
+     "href": "/campaigns/yi2-jia1-qu4-ni3-jia1-pubbe527820",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/ea/0c/ea0cb595a535e26d42f26263299df3a8.jpg",
+     "text": ""
+    },
+    {
+     "href": "/campaigns/yi2-jia1-qu4-ni3-jia1-pub0d24686e",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/90/4b/904b2c53ec0efc7eb90850a22b3532bf.jpg",
+     "text": ""
+    },
+    {
+     "href": "/campaigns/yi2-jia1-qu4-ni3-jia1-pub0bfbd820",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/5f/e8/5fe8cd3ac0df8ebc9e0181be25657d51.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "68df38abd0ee469a87185ac50b320b5c"
+   }
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "96987c78f7c544389099666620f39694"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>宜家全屋设计</h2>\n<p>专业设计，1对1服务，不论大家小家，都能变成理想的家！</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "6d6c2e99d6174c3ea9039d8fbcf12029"
+   }
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "/h5page/?url=https%3A%2F%2Fwrd.family.ikea.cn%2Fwrd%3Fchannel%3DOA-Club-Article%26cl_sr%3DOA-Club-Article",
+    "NO",
+    "ikea://default-module/H5?url=https%3A%2F%2Fwrd.family.ikea.cn%2Fwrd%3Fchannel%3DOA-Club-Article%26cl_sr%3DOA-Club-Article",
+    "{\"objectId_var\":\"https://wrd.family.ikea.cn/wrd?channel=OA-Club-Article&cl_sr=OA-Club-Article\",\"objectType_var\":\"default-module/H5\"}",
+    "IMAGE",
+    "点击了解详情 / 预约"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/60/51/60518531c4ac24d939b3cc07fbe8b79a.jpg"
+   ],
+   "links": [
+    {
+     "href": "/h5page/?url=https%3A%2F%2Fwrd.family.ikea.cn%2Fwrd%3Fchannel%3DOA-Club-Article%26cl_sr%3DOA-Club-Article",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/60/51/60518531c4ac24d939b3cc07fbe8b79a.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "d42b67b088df402985858608cd610d56"
+   }
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "f5bf24c5c7cd43838334b858e5d9f5cf"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/campaigns/ikea-design-stories-pubc770f5d0",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fcampaigns%2Fikea-design-stories-pubc770f5d0&key=cn--zh--c770f5d0102711eb80c3eda0f6efe0f0",
+    "{\"objectId_var\":\"/campaigns/ikea-design-stories-pubc770f5d0\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "查看更多往期内容"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/campaigns/ikea-design-stories-pubc770f5d0",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "75a803ab1fbc42dea11703660f14f7e6"
+   }
+  }
+ ]
+}

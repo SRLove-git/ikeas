@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/living-room/gallery/keting-pubd67e7f21",
+ "family": "rooms",
+ "id": "cn--zh--d67e7f21cf7f11e78e0a0bf79e0fa98f",
+ "title": "空间虽小，设计巧妙",
+ "name": "20181-cols05a_PF_CT_SEO_QA",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "空间虽小，设计巧妙",
+   "texts": [
+    "黑色、绿色和黄色客厅中央摆着带树叶图案的黑白沙发，墙壁为斜纹背景。",
+    "空间虽小，设计巧妙",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/02/76/027603cd2b8083aefc29082edfd127bf.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/02/76/027603cd2b8083aefc29082edfd127bf.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s49010615",
+    "80349360",
+    "30233606",
+    "00334065",
+    "90351885"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

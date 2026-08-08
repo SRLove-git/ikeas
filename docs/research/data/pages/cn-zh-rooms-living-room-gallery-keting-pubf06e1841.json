@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/living-room/gallery/keting-pubf06e1841",
+ "family": "rooms",
+ "id": "cn--zh--f06e1841cf8011e78e0a0bf79e0fa98f",
+ "title": "持久耐用，尽情享用",
+ "name": "20181-cols11a_PF_CT_SEO_QA",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "持久耐用，尽情享用",
+   "texts": [
+    "小型深蓝色客厅内摆着深蓝色沙发和黑色圆形茶几。",
+    "持久耐用，尽情享用",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/3b/48/3b48612d9c64c6edd74002de991f564f.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/3b/48/3b48612d9c64c6edd74002de991f564f.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s69207017",
+    "s59205453",
+    "50353056",
+    "20261256",
+    "s19205940"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

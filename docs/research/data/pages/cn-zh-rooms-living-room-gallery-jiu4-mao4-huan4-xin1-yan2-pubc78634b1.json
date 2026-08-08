@@ -1,0 +1,49 @@
+{
+ "url": "/cn/zh/rooms/living-room/gallery/jiu4-mao4-huan4-xin1-yan2-pubc78634b1",
+ "family": "rooms",
+ "id": "cn--zh--c78634b1fe2011e8a8c8e16fdaf0d8e9",
+ "title": "旧貌换新颜",
+ "name": "20193_rmli02a_PF",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "旧貌换新颜",
+   "texts": [
+    "宜家 KLIPPAN 克利帕、KALLAX 卡莱克 和 LACK 拉克 系列功能实用，价格实惠，是我们备受青睐的经典系列。现新增大胆有趣的图案和色彩，一跃成为客厅中的瞩目焦点！",
+    "<p>拥有一切，无需选择。将功能实用的家具与多彩有趣的新品相结合，令客厅焕发生机！</p>",
+    "旧貌换新颜",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/a4/b6/a4b618848bb3cc7c76a1a13eccf9b842.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/a4/b6/a4b618848bb3cc7c76a1a13eccf9b842.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Hero-旧貌换新颜"
+   }
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "s69284633",
+    "50427118",
+    "40340390",
+    "50428448",
+    "70351886"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Product List-"
+   }
+  }
+ ]
+}

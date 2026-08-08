@@ -1,0 +1,159 @@
+{
+ "url": "/cn/zh/customer-service/services",
+ "family": "customer-service",
+ "id": "cn--zh--9bdb3af1c07611e8affa0d09be91682d",
+ "title": "我们的服务",
+ "name": "我们的服务_PC",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "我们的服务"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "33235b17971c4a8391b45a1af2787d31"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>你可以自己完成所有事情，但是大可不必如此。我们提供一系列服务，让你的生活更加简便。无论你需要安装、组装帮助，还是要以可持续的方式回收旧家具，宜家的专业人员都可以帮你完成这些繁重的工作。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "23e7384eafc54679adc4c3eb5c364bdc"
+   }
+  },
+  {
+   "type": "video",
+   "title": null,
+   "texts": [
+    "https://file.app.ikea.cn/cms/u/20230810/af3d66aa63bb4d10bbea4bcd376e86c7.mp4",
+    "hosted",
+    "wide",
+    "YES",
+    "NO"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20230810/2ae99986dfa84df1bb0c63aa0f01eccf.png?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20230810/af3d66aa63bb4d10bbea4bcd376e86c7.mp4",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20230810/2ae99986dfa84df1bb0c63aa0f01eccf.png?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-视频-"
+   }
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "/h5page/?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fdesign-leads%2Fwrd.html%3Fchannel%3DEC_website%26cl_sr%3DIRW_homepage_3nd%26design_version%3DGPC_case%26source%3DNEW_WEB",
+    "external",
+    "全屋设计： 一站式服务，为你设计理想的家",
+    "ikea://default-module/H5?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fdesign-leads%2Fwrd.html%3Fchannel%3DEC_website%26cl_sr%3DIRW_homepage_3nd%26design_version%3DGPC_case%26source%3DNEW_WEB",
+    "{\"objectId_var\":\"https://store-companion.ikea.cn/design-leads/wrd.html?channel=EC_website&cl_sr=IRW_homepage_3nd&design_version=GPC_case&source=NEW_WEB\",\"objectType_var\":\"default-module/H5\"}",
+    "/h5page/?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fkitchen%3Fchannel%3Dkitchen_IRW%2520M2%26cl_sr%3DIRW%2520M2"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/47/df/47dffd8b0d702c0f77e8098f965d9942.jpg",
+    "https://file.app.ikea.cn/images/1b/3a/1b3a9bf15c056a5e52585249c95ed638.jpg",
+    "https://file.app.ikea.cn/images/43/78/43789358d695d6a682159efb33f88286.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/47/df/47dffd8b0d702c0f77e8098f965d9942.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/1b/3a/1b3a9bf15c056a5e52585249c95ed638.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/43/78/43789358d695d6a682159efb33f88286.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "a252fa21fa35474e929c44dc07f9bc59"
+   }
+  },
+  {
+   "type": "pub-assurances",
+   "title": null,
+   "texts": [
+    "/customer-service/services/delivery/",
+    "NO",
+    "ikea://cms/page-compatible-web?key=cn--zh--ff7f9330c9b011ebbbfb39c810ab3bdb&url=%2Fcustomer-service%2Fservices%2Fdelivery%2F",
+    "{\"objectId_var\":\"/customer-service/services/delivery/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "送货服务",
+    "DeliveryTruckIcon"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/customer-service/services/delivery/",
+     "text": ""
+    },
+    {
+     "href": "/customer-service/services/assembly/",
+     "text": ""
+    },
+    {
+     "href": "/customer-service/services/kitchen-planning/",
+     "text": ""
+    },
+    {
+     "href": "/customer-service/services/kitchen-installation/",
+     "text": ""
+    },
+    {
+     "href": "/customer-service/services/removal-recycling/",
+     "text": ""
+    },
+    {
+     "href": "/customer-service/returns-claims/return-policy/",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "183d97c9170f4f0aaf96fb15de317761"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/customer-service/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fcustomer-service%2F&key=",
+    "{\"objectId_var\":\"/customer-service/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "返回客户服务"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/customer-service/",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "e9c25817f175415e942f582308eddb26"
+   }
+  }
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "url": "/cn/zh/rooms",
+ "family": "rooms",
+ "id": "cn--zh--ed951941bae811e7a5968fc20f31cd5e",
+ "title": "所有房间",
+ "name": "所有房间_SEO",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "所有房间"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "9b1ce8460f13469b8856584e8304a373"
+   }
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--rooms--living-room",
+    "/rooms/living-room/",
+    "section",
+    "客厅",
+    "每个人都能在客厅这片共享空间获得舒适自在的感受，从可移动的带轮桌子到为健康着想的个人储物盒，大家都能在这里找到各自所需。点击了解详情。",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fliving-room%2F&key=cn--zh--4abffec0b6d411eabbed81e62a091133"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20251229/906aaade5c6a47979d6d01a4c2a83f35.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20211229/3d227af217e74b068120b4eaca80b438.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/images/3e/d0/3ed07cbbdd03b35ca5a5b5bc9765dd0e.jpg",
+    "https://file.app.ikea.cn/cms/u/20260506/425ad2fb84d941bca44b056951a99cba.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20250707/88aad0529abb4f019d5b932c394d493c.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20251229/906aaade5c6a47979d6d01a4c2a83f35.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20211229/3d227af217e74b068120b4eaca80b438.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/3e/d0/3ed07cbbdd03b35ca5a5b5bc9765dd0e.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260506/425ad2fb84d941bca44b056951a99cba.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20250707/88aad0529abb4f019d5b932c394d493c.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/26/18/2618e1dd0a1cefc50029993058942ef2.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "c727fffb4c5a4857b2e6e6cad71ef7aa"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/ideas/",
+    "NO",
+    "ikea://cms/page-compatible-web?key=cn--zh--e8d494b0819811eba0b5e76645244728&url=%2Fideas%2F",
+    "{\"objectId_var\":\"/ideas/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "查看更多家居灵感和创意"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/ideas/",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "411ea2c641af4a42918a5adebab7af42"
+   }
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/dining/gallery/canting-pubb6419631",
+ "family": "rooms",
+ "id": "cn--zh--b6419631cf7e11e78e0a0bf79e0fa98f",
+ "title": "每日就餐，乐在其中",
+ "name": "20181-codi05a_PF_CT_SEO_QA",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "每日就餐，乐在其中",
+   "texts": [
+    "粉色和白色用餐区放着 EKEDALEN 伊克多兰 白色餐桌，周围摆放着 ODGER 奥德格 白色/米色椅子。",
+    "每日就餐，乐在其中",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/52/47/52474dd09b9c1e5d8db18e04f660d222.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/52/47/52474dd09b9c1e5d8db18e04f660d222.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "50340808",
+    "40359997",
+    "50342082",
+    "30184050",
+    "30277394"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

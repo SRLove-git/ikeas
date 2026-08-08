@@ -1,0 +1,45 @@
+{
+ "url": "/cn/zh/rooms/living-room/gallery/lai2-zi4-hua1-yuan2-de-qing1-xin1-zhi2-wu4-pub6a7b7601",
+ "family": "rooms",
+ "id": "cn--zh--6a7b7601ab8b11e8a3645f5b86ee3939",
+ "title": "来自花园的清新植物",
+ "name": "20192-rmdi01a_PF",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "来自花园的清新植物",
+   "texts": [
+    "SINNERLIG 希利斯 吸顶灯采用 TORGERD 托尔格德 布料和天然竹材制成，能帮你打造出绿意盎然的自然主题餐厅和餐桌。",
+    "<p>将自然气息注入餐厅。设想一下鲜艳的花朵、天然纤维、葱绿色调和以植物为主题的图案，然后像我们一样将它们组合在一起。坐下来，享受温馨舒适。</p>",
+    "来自花园的清新植物",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/65/1d/651d7138b4ed77cdc6a938ceb9fd30e4.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/65/1d/651d7138b4ed77cdc6a938ceb9fd30e4.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "70417514",
+    "40343614",
+    "80365802",
+    "90342080",
+    "40249961"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

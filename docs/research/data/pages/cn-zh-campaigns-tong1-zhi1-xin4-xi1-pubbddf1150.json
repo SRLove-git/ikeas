@@ -1,0 +1,22 @@
+{
+ "url": "/cn/zh/campaigns/tong1-zhi1-xin4-xi1-pubbddf1150",
+ "family": "campaigns",
+ "id": "cn--zh--bddf11503b7411eba1c05972519e3600",
+ "title": "服务通知",
+ "name": "首页小喇叭通知信息",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "服务通知"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "396240ad2ffe40d29fd6581a09717c47"
+   }
+  }
+ ]
+}

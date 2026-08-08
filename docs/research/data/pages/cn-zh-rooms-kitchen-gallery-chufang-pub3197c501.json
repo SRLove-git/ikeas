@@ -1,0 +1,88 @@
+{
+ "url": "/cn/zh/rooms/kitchen/gallery/chufang-pub3197c501",
+ "family": "rooms",
+ "id": "cn--zh--3197c501233c11e8a87b9f51602dde40",
+ "title": "厨房",
+ "name": "厨房灵感_SEO",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "厨房"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2><strong>找到你梦想中的厨房</strong></h2>\n<p>知道自己喜欢什么东西是一回事，而怎样去获得自己喜欢的东西则是另一回事。每间厨房都已经由整体拆分成多个组成部分，只要样式合意，你就可以轻松地将它重现在自己的家里。</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--8b90c3f1ab9411e8a3645f5b86ee3939",
+    "/rooms/kitchen/gallery/da4-cheng2-shi4-li3-de-wen1-xin1-xiang1-cun1-feng1-ge2-chu2-fang2-pub8b90c3f1",
+    "page",
+    "大城市里的温馨乡村风格厨房",
+    "打造一个城市里的温馨乡村风格厨房。探索这个乡村风格小厨房，它采用了宜家 HITTARP 希塔普 白色镶板柜门。",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fkitchen%2Fgallery%2Fda4-cheng2-shi4-li3-de-wen1-xin1-xiang1-cun1-feng1-ge2-chu2-fang2-pub8b90c3f1&key=cn--zh--8b90c3f1ab9411e8a3645f5b86ee3939"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/d9/51/d951eda1516a4d79662b95a9193074e3.jpg",
+    "https://file.app.ikea.cn/images/3a/9e/3a9e3eb11dc0f310671014137f080592.jpg",
+    "https://file.app.ikea.cn/images/56/c1/56c1a0e8df446d52cd5fd5ba292a14f7.jpg",
+    "https://file.app.ikea.cn/images/a3/a7/a3a78940ff931cd51b9fd4cae555312a.jpg",
+    "https://file.app.ikea.cn/images/e6/9c/e69c77a126feafdec42e96d1054446b5.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/d9/51/d951eda1516a4d79662b95a9193074e3.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/3a/9e/3a9e3eb11dc0f310671014137f080592.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/56/c1/56c1a0e8df446d52cd5fd5ba292a14f7.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/a3/a7/a3a78940ff931cd51b9fd4cae555312a.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/e6/9c/e69c77a126feafdec42e96d1054446b5.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/7f/22/7f22c564226ee6a747ee75fb52ce301f.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "button",
+    "返回所有房间灵感",
+    "secondary"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

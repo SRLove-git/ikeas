@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/rooms/kitchen/gallery/chufang-pub6a8765e1",
+ "family": "rooms",
+ "id": "cn--zh--6a8765e1cf6e11e78e0a0bf79e0fa98f",
+ "title": "为你的厨房带来一股大胆绘画的感觉",
+ "name": "20171-come04a_PF_CT_SEO_AD_QA",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "为你的厨房带来一股大胆绘画的感觉",
+   "texts": [
+    "一间中型的厨房，带有灰色的抽象图案的柜门，与白色抽屉相结合，黑色水槽、混合器不锈钢水龙头和深灰色烤箱融为一体。",
+    "为你的厨房带来一股大胆绘画的感觉",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/b1/d1/b1d1a6db01f68a3e57551b727e32c240.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/b1/d1/b1d1a6db01f68a3e57551b727e32c240.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "60321989",
+    "70273577",
+    "80291340",
+    "30305293",
+    "40335124"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

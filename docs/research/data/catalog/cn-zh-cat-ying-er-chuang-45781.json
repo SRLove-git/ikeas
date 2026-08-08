@@ -1,0 +1,124 @@
+{
+ "url": "/cn/zh/cat/ying-er-chuang-45781",
+ "id": "ying-er-chuang-45781",
+ "name": "婴儿床",
+ "description": "为人父母既幸福，也焦虑。我们希望免除父母对睡眠的担忧，因此宜家确保所有婴儿床符合严格的安全标准。每款婴儿床均为圆形边设计，并利用无害材料和饰面制成。浏览我们的婴儿床产品，让它们陪同宝宝一起成长。",
+ "total": 7,
+ "products": [
+  {
+   "id": "70610620",
+   "name": "SNIGLAR 辛格莱",
+   "price": 599,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/sniglar-xin-ge-lai-ying-tong-chuang-hua-mu__0637930_pe698615_s4.jpg",
+   "productType": "婴童床",
+   "designText": "桦木",
+   "measureText": "60x120 厘米",
+   "url": null,
+   "seoSlug": "sniglar-xin-ge-lai-ying-tong-chuang-hua-mu"
+  },
+  {
+   "id": "50248517",
+   "name": "GULLIVER 古利福",
+   "price": 999,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/gulliver-gu-li-fu-ying-tong-chuang-hua-mu__75749_pe194455_s4.jpg",
+   "productType": "婴童床",
+   "designText": "桦木",
+   "measureText": "60x120 厘米",
+   "url": null,
+   "seoSlug": "gulliver-gu-li-fu-ying-tong-chuang-hua-mu"
+  },
+  {
+   "id": "00466697",
+   "name": "ÄLSKVÄRD 埃尔斯克外尔德",
+   "price": 2499,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/aelskvaerd-ai-er-si-ke-wai-er-de-ying-tong-chuang-hua-mu-bai-se__1054846_pe847889_s4.jpg",
+   "productType": "婴童床",
+   "designText": "桦木/白色",
+   "measureText": "60x120 厘米",
+   "url": null,
+   "seoSlug": "aelskvaerd-ai-er-si-ke-wai-er-de-ying-tong-chuang-hua-mu-bai-se"
+  },
+  {
+   "id": "20372155",
+   "name": "SUNDVIK 桑维",
+   "price": 1499,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/sundvik-sang-wei-ying-tong-chuang-bai-se__0637925_pe698610_s4.jpg",
+   "productType": "婴童床",
+   "designText": "白色",
+   "measureText": "60x120 厘米",
+   "url": null,
+   "seoSlug": "sundvik-sang-wei-ying-tong-chuang-bai-se"
+  },
+  {
+   "id": "29556051",
+   "name": "ÄLSKVÄRD 埃尔斯克外尔德",
+   "price": 949,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/aelskvaerd-ai-er-si-ke-wai-er-de-ying-er-chuang-dai-chuang-dian-hua-mu__1054794_pe847842_s4.jpg",
+   "productType": "婴儿床带床垫",
+   "designText": "桦木",
+   "measureText": "40x73 厘米",
+   "url": null,
+   "seoSlug": "aelskvaerd-ai-er-si-ke-wai-er-de-ying-er-chuang-dai-chuang-dian-hua-mu"
+  },
+  {
+   "id": "30461231",
+   "name": "SMÅGÖRA 斯莫约拉",
+   "price": 1299,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/smagoera-si-mo-yue-la-ying-tong-chuang-bai-se__0772929_pe756147_s4.jpg",
+   "productType": "婴童床",
+   "designText": "白色",
+   "measureText": "60x120 厘米",
+   "url": null,
+   "seoSlug": "smagoera-si-mo-yue-la-ying-tong-chuang-bai-se"
+  },
+  {
+   "id": "30371952",
+   "name": "GULLIVER 古利福",
+   "price": 999,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/gulliver-gu-li-fu-ying-tong-chuang-bai-se__0637927_pe698612_s4.jpg",
+   "productType": "婴童床",
+   "designText": "白色",
+   "measureText": "60x120 厘米",
+   "url": null,
+   "seoSlug": "gulliver-gu-li-fu-ying-tong-chuang-bai-se"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "70610620",
+   "type": "ART",
+   "fullId": "70610620"
+  },
+  {
+   "id": "50248517",
+   "type": "ART",
+   "fullId": "50248517"
+  },
+  {
+   "id": "00466697",
+   "type": "ART",
+   "fullId": "00466697"
+  },
+  {
+   "id": "20372155",
+   "type": "ART",
+   "fullId": "20372155"
+  },
+  {
+   "id": "29556051",
+   "type": "SPR",
+   "fullId": "s29556051"
+  },
+  {
+   "id": "30461231",
+   "type": "ART",
+   "fullId": "30461231"
+  },
+  {
+   "id": "30371952",
+   "type": "ART",
+   "fullId": "30371952"
+  }
+ ]
+}

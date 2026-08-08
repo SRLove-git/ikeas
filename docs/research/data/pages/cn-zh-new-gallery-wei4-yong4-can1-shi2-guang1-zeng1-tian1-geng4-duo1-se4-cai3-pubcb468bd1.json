@@ -1,0 +1,77 @@
+{
+ "url": "/cn/zh/new/gallery/wei4-yong4-can1-shi2-guang1-zeng1-tian1-geng4-duo1-se4-cai3-pubcb468bd1",
+ "family": "new",
+ "id": "cn--zh--cb468bd165cd11e99a659713b4f2e36b",
+ "title": "为用餐时光增添更多色彩",
+ "name": "20201_nwvm53a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "为用餐时光增添更多色彩",
+   "texts": [
+    "精选亮红色、浅绿色和深蓝色的 TALRIKA 塔利卡 杯子和碗盘。",
+    "<p>为今秋用餐体验增添更多色彩。探索我们经久耐用、更可持续、色彩丰富的餐具系列。</p>",
+    "为用餐时光增添更多色彩",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/24/82/248237eee5e2426884e8097a30c19d43.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/24/82/248237eee5e2426884e8097a30c19d43.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "精选亮红色、浅绿色和深蓝色的 TALRIKA 塔利卡 杯子和碗盘。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "90417481"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/3c/24/3c240012027c9e4cad7b52269f27d7fa.jpg",
+    "https://file.app.ikea.cn/images/ac/c4/acc45241affe310ea1b20a1e60e8b081.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/3c/24/3c240012027c9e4cad7b52269f27d7fa.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/ac/c4/acc45241affe310ea1b20a1e60e8b081.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/this-is-ikea/sustainable-everyday/dao4-2030-nian2-yi2-jia1-chan3-pin3-zhi3-shi3-yong4-ke3-hui2-shou1-huo4-ke3-zai4-sheng1-su4-liao4-pubcb607171",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fthis-is-ikea%2Fsustainable-everyday%2Fdao4-2030-nian2-yi2-jia1-chan3-pin3-zhi3-shi3-yong4-ke3-hui2-shou1-huo4-ke3-zai4-sheng1-su4-liao4-pubcb607171&key=cn--zh--cb6071716b2811e9a5c6e9141d3943e7",
+    "{\"objectId_var\":\"/this-is-ikea/sustainable-everyday/dao4-2030-nian2-yi2-jia1-chan3-pin3-zhi3-shi3-yong4-ke3-hui2-shou1-huo4-ke3-zai4-sheng1-su4-liao4-pubcb607171\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "了解更多有关循环利用与气候友好性举措"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/this-is-ikea/sustainable-everyday/dao4-2030-nian2-yi2-jia1-chan3-pin3-zhi3-shi3-yong4-ke3-hui2-shou1-huo4-ke3-zai4-sheng1-su4-liao4-pubcb607171",
+     "text": ""
+    }
+   ],
+   "settings": null
+  }
+ ]
+}

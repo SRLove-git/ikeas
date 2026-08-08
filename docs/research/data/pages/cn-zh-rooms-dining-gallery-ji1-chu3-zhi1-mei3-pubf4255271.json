@@ -1,0 +1,45 @@
+{
+ "url": "/cn/zh/rooms/dining/gallery/ji1-chu3-zhi1-mei3-pubf4255271",
+ "family": "rooms",
+ "id": "cn--zh--f4255271284211e98e3dd53ddd62671b",
+ "title": "基础之美",
+ "name": "20193_rmdi01a_CT",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "基础之美",
+   "texts": [
+    "使用 EKEDALEN 伊克多兰 深灰色四人吧台和高酒吧凳，搭配柔软白色 HOLMSUND 霍姆桑德 沙发床和 JAKOBSBYN 雅克布斯比 透明玻璃吊灯罩，打造简约又经典的用餐空间和客厅空间。",
+    "<p>我们都不是从零开始的。不需要很多东西就能打造适合你个人风格的美观生活空间。挑选几个柜子用来储物，一张沙发床用来睡觉，一个吧台既可用作工作区又可作为用餐区。</p>",
+    "基础之美",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/da/2c/da2cb739cae0137367a62c3dd8489f09.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/da/2c/da2cb739cae0137367a62c3dd8489f09.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "10400540",
+    "90400517",
+    "s39372645",
+    "50342077",
+    "s89240761"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

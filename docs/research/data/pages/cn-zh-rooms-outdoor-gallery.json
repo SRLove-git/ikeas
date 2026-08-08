@@ -1,0 +1,70 @@
+{
+ "url": "/cn/zh/rooms/outdoor/gallery",
+ "family": "rooms",
+ "id": "cn--zh--79261c7e8b464b72954b6a757f95c2bd",
+ "title": "户外布置灵感图库",
+ "name": "702631-odga01a",
+ "hero": "https://file.app.ikea.cn/content/u/20250106/39AC123A-962E-415A-BB9DB8A066148265.jpg",
+ "blocks": [
+  {
+   "type": "pub-standardised-hero",
+   "title": "户外图库",
+   "texts": [
+    "户外图库"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Standardised Hero-户外图库"
+   }
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--ae95bbdf3a445bd482072f5beaa40db8",
+    "/rooms/outdoor/gallery/an-ordinary-balcony-transformed-into-a-maximalist-sanctuary-pub30b5ef40",
+    "page",
+    "将你的阳台打造成空间高效利用的惬意角落",
+    "便捷的搁架、粉色的灯具和可折叠的TÄRNÖ 塔尔诺 桌子，为你营造随性迷人的阳台氛围。不仅可以洗衣储物，还能获得灵活的座椅选择。",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Foutdoor%2Fgallery%2Fan-ordinary-balcony-transformed-into-a-maximalist-sanctuary-pub30b5ef40&key=cn--zh--ae95bbdf3a445bd482072f5beaa40db8"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/content/u/20251021/ADD72981-3803-40D3-989944027C28A596.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content/u/20251021/B5DAB2C3-DBF5-4FFD-86E30FD5BBF83A99.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content/u/20251021/BA885265-1DB7-40EE-AE5D11278225AE1D.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content/u/20250409/00CC24C2-5B5B-4BFA-B3E31ECA5177AADA.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/content/u/20250106/39AC123A-962E-415A-BB9DB8A066148265.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/content/u/20251021/ADD72981-3803-40D3-989944027C28A596.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20251021/B5DAB2C3-DBF5-4FFD-86E30FD5BBF83A99.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20251021/BA885265-1DB7-40EE-AE5D11278225AE1D.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20250409/00CC24C2-5B5B-4BFA-B3E31ECA5177AADA.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20250106/39AC123A-962E-415A-BB9DB8A066148265.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/content/u/20250116/AF2335FC-D28F-4D74-85BE607BB8C6C485.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-页面列表 Page List-"
+   }
+  }
+ ]
+}

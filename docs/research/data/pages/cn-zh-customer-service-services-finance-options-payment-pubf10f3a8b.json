@@ -1,0 +1,50 @@
+{
+ "url": "/cn/zh/customer-service/services/finance-options/payment-pubf10f3a8b",
+ "family": "customer-service",
+ "id": "cn--zh--f10f3a8baf2411e7b23503ef832e0d7f",
+ "title": "在线支付",
+ "name": "在线支付_PC",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "在线支付"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p><strong>1. 宜家支持哪些支付方式？</strong><br />宜家线下实体商场接受现金，支付宝，微信支付，有银联、VISA和MASTER标记的储蓄卡及信用卡，Apple Pay苹果支付，同城转账支票，及宜家购物卡和退换卡。<br />宜家网上商城接受支付宝，微信，及银联支付。</p>\n<p><strong>2. 如果超出了在线支付额度怎么办？</strong><br />普通银行卡（储蓄卡/信用卡），支付宝，或微信支付设置均有支付上限，超过支付限额你将无法支付。你可以拨打相关银行支付卡，支付宝，或微信支付的服务电话，提高支付限额或将钱款分批存入支付平台进行支付。</p>\n<p><strong>3. 如果支付过程中出现页面错误怎么办？</strong><br />常见页面错误类型及处理办法：<br />&bull; 你的银行卡尚未开通网上银行支付功能，建议你到当地营业厅开通网上银行；<br />&bull; 所用银行卡超出该银行支持地域范围，请你更换银行卡试试；<br />&bull; 银行卡已过期、作废、挂失或者余额不足等，建议你咨询你的开户行；<br />&bull; 银行系统数据传输可能出现异常，建议你刷新页面或者稍后重启电脑；<br />&bull; 部分银行设置有支付金额限制，如限制支付金额不能超过1500，超过1500的订单则无法支付成功，你可以联系发卡"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/customer-service/faq/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fcustomer-service%2Ffaq%2F&key=cn--zh--c2cec211ae3111e7bee763967dcf9290",
+    "{\"objectId_var\":\"/customer-service/faq/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "返回常见问题"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/customer-service/faq/",
+     "text": ""
+    }
+   ],
+   "settings": null
+  }
+ ]
+}

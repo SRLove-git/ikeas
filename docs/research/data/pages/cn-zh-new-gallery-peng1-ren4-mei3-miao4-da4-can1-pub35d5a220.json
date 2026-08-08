@@ -1,0 +1,56 @@
+{
+ "url": "/cn/zh/new/gallery/peng1-ren4-mei3-miao4-da4-can1-pub35d5a220",
+ "family": "new",
+ "id": "cn--zh--35d5a220548811ea8431739eedab49cb",
+ "title": "烹饪美妙大餐",
+ "name": "662041_nwna02a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "烹饪美妙大餐",
+   "texts": [
+    "一个人在磨碎芝士，放入装着汤的黑色VARDAGEN 瓦达恩 砂锅中。",
+    "<p>宜家全新厨具系列旨在缔造快乐的下厨时光。VARDAGEN 瓦达恩 包括一系列风格传统的砂锅和煎锅，采用无涂层铸铁制成。深色调外观，为厨房和餐厅增添一抹质朴气息。这些锅具能够向各个方向均匀传播热量，无论是慢煮或快煮都适合。</p>",
+    "烹饪美妙大餐",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/6d/fc/6dfc6e4c8cfb7bd2bf28338fbcab9020.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/6d/fc/6dfc6e4c8cfb7bd2bf28338fbcab9020.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-curated-gallery",
+   "title": "经典设计，平凡幸福",
+   "texts": [
+    "/cat/34325",
+    "NO",
+    "ikea://content/plp?catalogId=34325",
+    "{\"objectId_var\":\"34325\",\"objectType_var\":\"plp\"}",
+    "设计师Mikael Axelsson分享了他在设计这款经典砂锅时的灵感，以及有关营造美好下厨体验的理念。“设计VARDAGEN 瓦达恩 时，我希望打造出一款经典的铸铁锅，可使用多年，甚至可以传承给后代。为了打造出经典的复古风格，我参考了20世纪50年代的设计。这类锅都很重，因此我在设计把手的外观和位置时花了很多心思，尽量让其符合人体工程学原理。这款锅的另一处设计巧思在于烹饪时你可以将盖子挂在锅上。希望这款复古风格的锅具能让你收获许多美好的用餐体验！”",
+    "经典设计，平凡幸福"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/ext/ingkadam/m/639eab8762db64da/original/PH167616-crop001.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/34325",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/ext/ingkadam/m/639eab8762db64da/original/PH167616-crop001.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  }
+ ]
+}

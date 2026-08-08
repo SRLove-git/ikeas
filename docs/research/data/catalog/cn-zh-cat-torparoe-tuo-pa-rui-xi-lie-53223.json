@@ -1,0 +1,60 @@
+{
+ "url": "/cn/zh/cat/torparoe-tuo-pa-rui-xi-lie-53223",
+ "id": "torparoe-tuo-pa-rui-xi-lie-53223",
+ "name": "宜家托帕瑞TORPARÖ系列户外家具",
+ "description": "在寻找适合有限空间的便宜户外家具吗？不妨考虑包括折叠和堆叠桌椅的托帕瑞TORPARÖ户外系列。快来宜家采购吧！",
+ "total": 3,
+ "products": [
+  {
+   "id": "20595721",
+   "name": "TORPARÖ 托帕瑞",
+   "price": 149,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/torparoe-tuo-pa-rui-yang-tai-zhuo-bai-se__1376272_pe960446_s4.jpg",
+   "productType": "阳台桌",
+   "designText": "白色",
+   "measureText": "50 厘米",
+   "url": null,
+   "seoSlug": "torparoe-tuo-pa-rui-yang-tai-zhuo-bai-se"
+  },
+  {
+   "id": "30595725",
+   "name": "TORPARÖ 托帕瑞",
+   "price": 699,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/torparoe-tuo-pa-rui-zhuo-zi-hu-wai-bai-se-ke-zhe-die__1376274_pe960448_s4.jpg",
+   "productType": "桌子，户外",
+   "designText": "白色/可折叠",
+   "measureText": "130x74 厘米",
+   "url": null,
+   "seoSlug": "torparoe-tuo-pa-rui-zhuo-zi-hu-wai-bai-se-ke-zhe-die"
+  },
+  {
+   "id": "80595723",
+   "name": "TORPARÖ 托帕瑞",
+   "price": 249,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/torparoe-tuo-pa-rui-zhuo-zi-hu-wai-bai-se-ke-zhe-die__1376276_pe960447_s4.jpg",
+   "productType": "桌子，户外",
+   "designText": "白色/可折叠",
+   "measureText": "70x42 厘米",
+   "url": null,
+   "seoSlug": "torparoe-tuo-pa-rui-zhuo-zi-hu-wai-bai-se-ke-zhe-die"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "20595721",
+   "type": "ART",
+   "fullId": "20595721"
+  },
+  {
+   "id": "30595725",
+   "type": "ART",
+   "fullId": "30595725"
+  },
+  {
+   "id": "80595723",
+   "type": "ART",
+   "fullId": "80595723"
+  }
+ ]
+}

@@ -1,0 +1,310 @@
+{
+ "url": "/cn/zh/this-is-ikea/newsroom",
+ "family": "this-is-ikea",
+ "id": "cn--zh--65094071b3e411e79a5eff486d94c77f",
+ "title": "新闻室",
+ "name": "新闻室_SEO",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "新闻室"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Page Title-"
+   }
+  },
+  {
+   "type": "pub-banner",
+   "title": null,
+   "texts": [
+    "IMAGE",
+    "image-text-landscape",
+    "<p data-ccp-props=\"{&quot;335551550&quot;:1,&quot;335551620&quot;:1,&quot;335559683&quot;:0,&quot;335559685&quot;:0,&quot;335559731&quot;:0,&quot;335559737&quot;:0,&quot;335562764&quot;:2,&quot;335562765&quot;:1,&quot;335562766&quot;:4,&quot;335562767&quot;:0,&quot;335562768&quot;:4,&quot;335562769&quot;:0}\">​</p>\n<p data-ccp-props=\"{&quot;335551550&quot;:1,&quot;335551620&quot;:1,&quot;335559683&quot;:0,&quot;335559685&quot;:0,&quot;335559731&quot;:0,&quot;335559737&quot;:0,&quot;335562764&quot;:2,&quot;335562765&quot;:1,&quot;335562766&quot;:4,&quot;335562767&quot;:0,&quot;335562768&quot;:4,",
+    "欢迎来到宜家中国新闻室！",
+    "NO",
+    "#111111"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20240729/fb2122767c8b4298b4532d931fbc8896.jpg",
+    "https://file.app.ikea.cn/cms/u/20240729/fb2122767c8b4298b4532d931fbc8896.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20240729/fb2122767c8b4298b4532d931fbc8896.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20240729/fb2122767c8b4298b4532d931fbc8896.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-Banner-"
+   }
+  },
+  {
+   "type": "anchor-navigation",
+   "title": null,
+   "texts": [
+    "TEXT",
+    "YES",
+    "产品资讯新闻",
+    "97ba3fa53a05447482a5759ccc680dda",
+    "综合新闻",
+    "IMAGE"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-页面导航-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>产品资讯新闻</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "97ba3fa53a05447482a5759ccc680dda"
+   }
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--fe5d5fca4ecc44afabafa3219d2ffdf5",
+    "/newsroom/range-news/-a-suo-er-wu-pu-gong-shang-shi-pubfe5d5fca",
+    "page",
+    "奇思妙用 让家怪好玩的，宜家正式发布PS 2026 系列产品",
+    "宜家推出 SOLUPPGÅNG 索尔乌普攻 系列，鼓励人们以轻松的方式享受户外生活",
+    "ikea://cms/page-compatible-web?url=%2Fnewsroom%2Frange-news%2F-a-suo-er-wu-pu-gong-shang-shi-pubfe5d5fca&key=cn--zh--fe5d5fca4ecc44afabafa3219d2ffdf5"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20260513/25db3ea120924f95ae19202f2b3e054f.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260407/7d4657c3a7c44c0eb85ebacdebcc0f0f.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260119/66a6f6ace7a64addb070bb05bf091329.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260119/d85f90d2aad442759c3974e151ec9aa0.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260106/c2a4b948d0dc44c6bc7663a87d0a337b.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260513/25db3ea120924f95ae19202f2b3e054f.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260407/7d4657c3a7c44c0eb85ebacdebcc0f0f.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260119/66a6f6ace7a64addb070bb05bf091329.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260119/d85f90d2aad442759c3974e151ec9aa0.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260106/c2a4b948d0dc44c6bc7663a87d0a337b.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20251210/41d49a7ecb1747658067ea59c1a2f6cf.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "2288d1745df24ed7831179e85c50535c"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>综合新闻</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "97ba3fa53a05447482a5759ccc680dda"
+   }
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--7d005c1b43b646d9812492e8d50f2123",
+    "/newsroom/corporate-news/dong-guan-kai-ye-pub7d005c1b",
+    "page",
+    "宜家北京东部首家小型商场即将落地通州 以更贴近消费者的方式深化全渠道市场布局",
+    "东莞开业",
+    "ikea://cms/page-compatible-web?url=%2Fnewsroom%2Fcorporate-news%2Fdong-guan-kai-ye-pub7d005c1b&key=cn--zh--7d005c1b43b646d9812492e8d50f2123"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20260513/046346eba7b24ca3ae74d859f3434def.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260209/059b634f87f74b778111abf024e31de7.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260209/b50c066bffc8411399e2c91a0127a470.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20260107/bc95114210bf425da6402c620333a1e2.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/cms/u/20250923/2e302962e3044b9298e0d3886e46a3b6.jpg?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260513/046346eba7b24ca3ae74d859f3434def.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260209/059b634f87f74b778111abf024e31de7.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260209/b50c066bffc8411399e2c91a0127a470.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260107/bc95114210bf425da6402c620333a1e2.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20250923/2e302962e3044b9298e0d3886e46a3b6.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20250819/c14865ee3cfc449cac2ab26f5f8947ba.jpg?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "2288d1745df24ed7831179e85c50535c"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>新闻联络</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "97ba3fa53a05447482a5759ccc680dda"
+   }
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--c4254c10b4ad11e79a5eff486d94c77f",
+    "/newsroom/press-contacts/ikeanews-pubc4254c10",
+    "page",
+    "新闻联络",
+    "感谢您对宜家的关注! 为了更方便快捷地为媒体朋友提供讯息，请联系宜家中国公关各相应部门。",
+    "ikea://cms/page-compatible-web?url=%2Fnewsroom%2Fpress-contacts%2Fikeanews-pubc4254c10&key=cn--zh--c4254c10b4ad11e79a5eff486d94c77f"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/aa/61/aa6120dcedca27cc037861a2ec8b2252.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/aa/61/aa6120dcedca27cc037861a2ec8b2252.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "a24277bdd6854e90b7921d228b1a801c"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>产品召回</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "97ba3fa53a05447482a5759ccc680dda"
+   }
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--7a305cecbed911e79dfda9ee7bcb674b",
+    "/customer-service/product-support/recalls/",
+    "page",
+    "IMAGE",
+    "商品召回信息",
+    "一张尺寸不合的床"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/cms/u/20260107/c1499fa7f05349b0a0601e7d75188e38.png?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20260107/c1499fa7f05349b0a0601e7d75188e38.png?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "2288d1745df24ed7831179e85c50535c"
+   }
+  },
+  {
+   "type": "pub-expandable-area",
+   "title": null,
+   "texts": [
+    "原来你是这样的宜家",
+    "column",
+    "pub-page-list",
+    "card",
+    "“原来你是这样的宜家”主题"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "20ce4527479040118c147123643e6c26"
+   }
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "7ddcb14ec791406a95f59f2b602ffb97"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/this-is-ikea/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fthis-is-ikea%2F&key=",
+    "{\"objectId_var\":\"/this-is-ikea/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "返回这就是宜家"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/this-is-ikea/",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "89f6c417194e4ad882c6fae6eb31e881"
+   }
+  }
+ ]
+}

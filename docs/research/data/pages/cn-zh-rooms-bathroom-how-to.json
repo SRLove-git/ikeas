@@ -1,0 +1,174 @@
+{
+ "url": "/cn/zh/rooms/bathroom/how-to",
+ "family": "rooms",
+ "id": "cn--zh--43ea459b961544808c36c036c58261cb",
+ "title": "浴室创意图库",
+ "name": "662541_htga01a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "浴室建议图库"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-标题-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>想知道如何保持浴室整洁有序或节约宝贵的水和能源？或者想寻找一种新的方式来营造一个可供放松的禅意空间？你都可以在这里找到答案。</p>\n<p><a href=\"#2fc5d880-6652-11ed-8267-cfa8f53a7f0d\">焕新和改造</a> | <a href=\"#9d23d9f0-6651-11ed-8267-cfa8f53a7f0d\">储物和收纳</a></p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-分割线-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>焕新和改造</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--9de6f2e0765911ef97e769473ad016a5",
+    "/rooms/bathroom/how-to/how-to-display-guest-towels-with-style-pub181fa936",
+    "page",
+    "如何创造性地展示客用毛巾",
+    "酒店风格的毛巾展示让你的客人感到宾至如归！别致的毛巾卷和装饰性折叠增添时尚气息。今天就试试这些建议吧！",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fbathroom%2Fhow-to%2Fhow-to-display-guest-towels-with-style-pub181fa936&key=cn--zh--9de6f2e0765911ef97e769473ad016a5"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/content/u/20240925/73EAAC48-4A0C-4685-A2D5DC1BA4EA9ADA.jpg?x-oss-process=style/medium",
+    "https://content-service-oss.aidesign.ingka-internal.cn/content-hub/f96ef328-1efa-4dd7-befb-0fa4910a9d15/b233e20a-f68c-4aa7-9439-bde2f843a0c1.jpeg",
+    "https://content-service-oss.aidesign.ingka-internal.cn/content-hub/f96ef328-1efa-4dd7-befb-0fa4910a9d15/9d672027-4f85-4589-a69f-9ba8215021ff.jpeg",
+    "https://file.app.ikea.cn/images/c3/cc/c3cc97e29c819824ba8c4661aae2e6f1.jpg",
+    "https://file.app.ikea.cn/images/b2/18/b218142d754ecb4f7e227c6a0c39482f.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/content/u/20240925/73EAAC48-4A0C-4685-A2D5DC1BA4EA9ADA.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://content-service-oss.aidesign.ingka-internal.cn/content-hub/f96ef328-1efa-4dd7-befb-0fa4910a9d15/b233e20a-f68c-4aa7-9439-bde2f843a0c1.jpeg",
+     "text": ""
+    },
+    {
+     "href": "https://content-service-oss.aidesign.ingka-internal.cn/content-hub/f96ef328-1efa-4dd7-befb-0fa4910a9d15/9d672027-4f85-4589-a69f-9ba8215021ff.jpeg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/c3/cc/c3cc97e29c819824ba8c4661aae2e6f1.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/b2/18/b218142d754ecb4f7e227c6a0c39482f.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/c6/ec/c6ec9e24f7905b25838dc630bb350226.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-页面列表-"
+   }
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-分割线-"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2>储物和收纳</h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "cms-Text-"
+   }
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "cn--zh--2f31e760d7ca11efaea8c79124a56c60",
+    "/rooms/bathroom/how-to/yu4-shi4-shui3-cao2-xia4-fang1-de5-chu3-wu4-chuang4-yi4-puba9d9fae3",
+    "page",
+    "查看水槽下浴室用柜的储物创意",
+    "巧妙利用水槽下方的空间进行储物，不管使用柜子、抽屉还是开放式储物架，都能打造井井有条的浴室空间。立即浏览所有储物方案！",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fbathroom%2Fhow-to%2Fyu4-shi4-shui3-cao2-xia4-fang1-de5-chu3-wu4-chuang4-yi4-puba9d9fae3&key=cn--zh--2f31e760d7ca11efaea8c79124a56c60"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/content/u/20250116/6C2BDBDB-4367-4A1E-A7953A523A9E4148.jpg?x-oss-process=style/medium",
+    "https://file.app.ikea.cn/images/e2/89/e28984152c0484a1cf5ea7b56a003237.jpg",
+    "https://file.app.ikea.cn/images/f1/27/f127a2acd232b2226ef971dca70e1799.jpg",
+    "https://file.app.ikea.cn/images/6a/bd/6abda551a7bb4e7ac2fa4ac0879efd5c.jpg",
+    "https://file.app.ikea.cn/cms/u/20220414/686ede29684c472394e40ca404052899.png?x-oss-process=style/medium"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/content/u/20250116/6C2BDBDB-4367-4A1E-A7953A523A9E4148.jpg?x-oss-process=style/medium",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/e2/89/e28984152c0484a1cf5ea7b56a003237.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/f1/27/f127a2acd232b2226ef971dca70e1799.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/6a/bd/6abda551a7bb4e7ac2fa4ac0879efd5c.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/cms/u/20220414/686ede29684c472394e40ca404052899.png?x-oss-process=style/medium",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "cms-页面列表-"
+   }
+  }
+ ]
+}

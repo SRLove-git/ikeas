@@ -1,0 +1,486 @@
+{
+ "url": "/cn/zh/campaigns/geng1-duo1-sha1-fa1-tao4-sui2-xin1-da1-pei4-pubb130b2e0",
+ "family": "campaigns",
+ "id": "cn--zh--b130b2e06e7111ea812cf1281e2577ba",
+ "title": "更多沙发套随心搭配！",
+ "name": "IKEA+",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-hero",
+   "title": "更多沙发套随心搭配！",
+   "texts": [
+    "<p>有了可拆卸沙发套，即使宠物闹腾、小朋友玩耍弄脏也没关系。<br />我们现有更多颜色和材质的沙发套供你选择，在不同季节、搭配不同心情，令整个房间焕然一新。</p>\n<p><strong><a href=\"#00fb2e90-6e72-11ea-9a9d-978c96f9a089\">定制沙发系列</a>&nbsp;| <a href=\"#0bccce00-6e72-11ea-9a9d-978c96f9a089\">了解面料</a> | <a href=\"#5e3993e0-7349-11ea-80b0-f7655e456241\">备用沙发套</a></strong></p>",
+    "更多沙发套随心搭配！",
+    "normal"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/0f/5b/0f5be18d961fcab19d285289db49ca37.gif"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/0f/5b/0f5be18d961fcab19d285289db49ca37.gif",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "73e02accdff844299a369ddfef6ec2b5"
+   }
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "979b416e4fd948d8b9660a05bbc2a2e9"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2><strong>可定制的沙发系列</strong></h2>\n<p><strong>你可以定制整个沙发，也可以定制备用沙发套。</strong></p>\n<p>（进入系列页面，选择产品查看更多颜色）</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "b6bab228badd4b4c87d5e8df50400354"
+   }
+  },
+  {
+   "type": "pub-page-list",
+   "title": null,
+   "texts": [
+    "/cat/18329",
+    "external",
+    "KIVIK 奇维",
+    "ikea://content/plp?catalogId=18329",
+    "{\"objectId_var\":\"18329\",\"objectType_var\":\"plp\"}",
+    "/cat/07488"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/cb/f3/cbf369097ea7bcd2b0c9d0201f94c647.jpg",
+    "https://file.app.ikea.cn/images/f6/2c/f62c76605709e2c9de75f43db1152fcc.jpg",
+    "https://file.app.ikea.cn/images/6f/08/6f08e3c34f2c2f2377f93b216a4c413b.jpg",
+    "https://file.app.ikea.cn/images/36/6f/366f74d0f60be8f35a9e924fa5d61182.jpg",
+    "https://file.app.ikea.cn/images/de/2a/de2a629391ca893b40e50824a6f0ad04.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/cb/f3/cbf369097ea7bcd2b0c9d0201f94c647.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/f6/2c/f62c76605709e2c9de75f43db1152fcc.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/6f/08/6f08e3c34f2c2f2377f93b216a4c413b.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/36/6f/366f74d0f60be8f35a9e924fa5d61182.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/de/2a/de2a629391ca893b40e50824a6f0ad04.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/28/be/28be19cb5f13497fae59116f6649912a.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "5caafa25b7ba4c7f9695baef4d688bf0"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2><strong>了解面料</strong></h2>\n<p>现在，你可以为自己的沙发选择更多种颜色和材质的外套面料。<br />不妨了解一下它们有何不同：<strong><br /></strong></p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "159a86b166e7404187a86ce63c242a7b"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "<h4><strong>▲ Tallmyra 塔米拉</strong></h4>\n<ul>\n<li>以天然纤维制成的雪尼尔面料，透气性强，高档华贵，绒面丰满，手感柔软干爽，装饰性和舒适性的巧妙结合。</li>\n<li>\n<div>78%棉, 22%聚酯纤维</div>\n</li>\n</ul>",
+    "pub-text"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/9b/54/9b54db6a47034255c2cdf860cea48141.gif",
+    "https://file.app.ikea.cn/images/9d/d3/9dd330b262ecf7c478b63a6592c1efd6.gif",
+    "https://file.app.ikea.cn/images/39/bd/39bdad49efede487cfa89bd5050d9576.gif"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/9b/54/9b54db6a47034255c2cdf860cea48141.gif",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/9d/d3/9dd330b262ecf7c478b63a6592c1efd6.gif",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/39/bd/39bdad49efede487cfa89bd5050d9576.gif",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "c06c370b2cfc4edea39e9cdac8e599e6"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "<h4><strong>▲ Djuparp 尤帕</strong></h4>\n<ul>\n<li>高档平绒面料，高密度的绒毛带给你柔软而立体的手感；粘胶纤维在绒毛中的应用使得面料更加亲肤和滑爽。</li>\n<li>\n<div>62%聚酯纤维, 38%粘胶纤维/人造丝</div>\n</li>\n</ul>",
+    "pub-text"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/d3/da/d3da60c4d4fde80c85f5617d632facb0.gif",
+    "https://file.app.ikea.cn/images/13/6e/136e1a4beeb60a7cf6422a5407c57fd2.gif",
+    "https://file.app.ikea.cn/images/21/a0/21a0e091a3e4cbf67a26efdbabbf49b0.gif"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/d3/da/d3da60c4d4fde80c85f5617d632facb0.gif",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/13/6e/136e1a4beeb60a7cf6422a5407c57fd2.gif",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/21/a0/21a0e091a3e4cbf67a26efdbabbf49b0.gif",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "a769175e31ae40e988c2e690aa68de65"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "<h4><strong>▲ Finnsta 芬斯塔</strong></h4>\n<ul>\n<li>棉和聚酯纤维的巧妙结合，让你在享受棉的天然质感的同时，又可以保证面料的经久耐用。</li>\n<li>\n<div>53%棉, 47%聚酯纤维</div>\n</li>\n</ul>",
+    "pub-text"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/d7/b1/d7b1bb114428eb36f41be8d4be6541ef.gif",
+    "https://file.app.ikea.cn/images/96/fe/96fec8bdce6be5542cb53da612963f35.gif"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/d7/b1/d7b1bb114428eb36f41be8d4be6541ef.gif",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/96/fe/96fec8bdce6be5542cb53da612963f35.gif",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "25d918c84dea43dda883d39e17166664"
+   }
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "297492c23a0e45e3b74b9d109beef574"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2><strong>备用沙发套</strong></h2>\n<p>不妨为你喜爱的沙发选择几款备用沙发套吧！<br />轻松更换，为你的家注入全新活力，营造室内气氛。</p>\n<p>（进入系列页面，选择合适的沙发套查看更多颜色）</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "8009584adc824ea5a22e1311b01fbd8a"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "/cat/18705",
+    "NO",
+    "ikea://content/plp?catalogId=18705",
+    "{\"objectId_var\":\"18705\",\"objectType_var\":\"plp\"}",
+    "pub-image"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/83/e4/83e4267f08149553501a247a174b6350.jpg",
+    "https://file.app.ikea.cn/images/fc/2f/fc2fbc205ee99ef630dad8558ebefc21.jpg",
+    "https://file.app.ikea.cn/images/ed/e3/ede344219847a2abb572b249d203276a.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/18705",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/83/e4/83e4267f08149553501a247a174b6350.jpg",
+     "text": ""
+    },
+    {
+     "href": "/cat/10978",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/fc/2f/fc2fbc205ee99ef630dad8558ebefc21.jpg",
+     "text": ""
+    },
+    {
+     "href": "/cat/22275",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/ed/e3/ede344219847a2abb572b249d203276a.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "60fe3fb458e44b9a8165f0ace479c4af"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "/cat/39516",
+    "NO",
+    "ikea://content/plp?catalogId=39516",
+    "{\"objectId_var\":\"39516\",\"objectType_var\":\"plp\"}",
+    "pub-image"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/3a/89/3a89909ced4a71eba0810d34ace7b274.jpg",
+    "https://file.app.ikea.cn/images/39/62/3962561cc5f7df82056e7f8c51c03a7e.jpg",
+    "https://file.app.ikea.cn/images/51/5f/515f54a633918447d1e33b7b98e0884e.jpg"
+   ],
+   "links": [
+    {
+     "href": "/cat/39516",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/3a/89/3a89909ced4a71eba0810d34ace7b274.jpg",
+     "text": ""
+    },
+    {
+     "href": "/cat/38190",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/39/62/3962561cc5f7df82056e7f8c51c03a7e.jpg",
+     "text": ""
+    },
+    {
+     "href": "/cat/10984",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/51/5f/515f54a633918447d1e33b7b98e0884e.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "a2058f94baed4817819a7880a062bdb2"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/cat/10664",
+    "NO",
+    "ikea://content/plp?catalogId=10664",
+    "{\"objectId_var\":\"10664\",\"objectType_var\":\"plp\"}",
+    "button",
+    "查看所有备用沙发套"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/10664",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "b41673d7a8eb4daab1227a4601e13fef"
+   }
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "7c90583f9e514b28bc98ec98bef04866"
+   }
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<h2><strong>服务和质保</strong></h2>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "804bb05c668343448272342ba9f0a4c3"
+   }
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "<h4><strong>定制产品的发货周期</strong></h4>\n<p>定制产品由于特殊的生产流程，相较一般沙发套有更长的发货周期&mdash;&mdash;<strong>下单后4个工作日内发货</strong>（春节假期特殊情况，发货时间另行沟通，或请咨询在线客服）</p>",
+    "pub-text"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/04/52/0452d2712c685cbcfe123cd0d90c68b9.jpg",
+    "https://file.app.ikea.cn/images/a3/fb/a3fb113ae38d6043f51dfcba90d63c24.jpg",
+    "https://file.app.ikea.cn/images/6e/b0/6eb069dee59a65f43339c142016766e8.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/04/52/0452d2712c685cbcfe123cd0d90c68b9.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/a3/fb/a3fb113ae38d6043f51dfcba90d63c24.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/6e/b0/6eb069dee59a65f43339c142016766e8.jpg",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "2995a976a0604416972f7fd872d3259c"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/customer-service/services/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fcustomer-service%2Fservices%2F&key=",
+    "{\"objectId_var\":\"/customer-service/services/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "更多服务"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/customer-service/services/",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "d3af51ff8a5742c48f0d79d2acb05403"
+   }
+  },
+  {
+   "type": "pub-horizontal-line",
+   "title": null,
+   "texts": [
+    "#f5f5f5"
+   ],
+   "images": [],
+   "links": [],
+   "settings": {
+    "traceId": "65b1ad6e888744de83190104daaaa831"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/rooms/living-room/",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Frooms%2Fliving-room%2F&key=",
+    "{\"objectId_var\":\"/rooms/living-room/\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "客厅"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/rooms/living-room/",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "975d176b74594ab99d10c7dba101c7cb"
+   }
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/cat/fu003",
+    "NO",
+    "ikea://content/plp?catalogId=fu003",
+    "{\"objectId_var\":\"fu003\",\"objectType_var\":\"plp\"}",
+    "button",
+    "沙发和扶手椅"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/cat/fu003",
+     "text": ""
+    }
+   ],
+   "settings": {
+    "traceId": "7f81a8c423a24637a13e333e2ff5037f"
+   }
+  }
+ ]
+}

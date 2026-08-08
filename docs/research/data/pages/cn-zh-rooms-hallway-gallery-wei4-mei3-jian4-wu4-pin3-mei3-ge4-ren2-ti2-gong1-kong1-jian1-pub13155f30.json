@@ -1,0 +1,124 @@
+{
+ "url": "/cn/zh/rooms/hallway/gallery/wei4-mei3-jian4-wu4-pin3-mei3-ge4-ren2-ti2-gong1-kong1-jian1-pub13155f30",
+ "family": "rooms",
+ "id": "cn--zh--13155f300f6611ea9be0efb138516c0e",
+ "title": "为每件物品、每个人提供空间",
+ "name": "20203_rmha01a",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "为每件物品、每个人提供空间"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-image",
+   "title": null,
+   "texts": [
+    "门厅配有绿色 KOLBJÖRN 科比约恩 搁架单元和柜子、桦木长凳、黄麻毯和两盏黑色吊灯。",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "40450350"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/36/2c/362c1040fbdda7e3627ec0b63f6dc702.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/36/2c/362c1040fbdda7e3627ec0b63f6dc702.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>要想满足每个家庭成员的储物需求，门厅必须满足诸多要求和期待。KOLBJÖRN 科比约恩 搁架单元和储物柜能够满足多数需求，同时保持风格统一和谐的门厅外观！</p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "门厅中有两个绿色的 KOLBJÖRN 科比约恩 搁架单元。搁架上放有储物盒和篮子，植物放置在最顶层的搁架上。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "40450350"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/a6/01/a60115348928b69f6e6d6ffa05b4dfae.jpg",
+    "https://file.app.ikea.cn/images/0d/29/0d2936ec233e4244be86b40b509fba01.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/a6/01/a60115348928b69f6e6d6ffa05b4dfae.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/0d/29/0d2936ec233e4244be86b40b509fba01.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-columns",
+   "title": null,
+   "texts": [
+    "pub-column",
+    "两个搁架单元，顶层搁架放有装饰物品，储物箱、鞋子和藤条篮子则放在低层搁架上。",
+    "pub-image",
+    "IMAGE",
+    "MANUAL_INPUT",
+    "70322064"
+   ],
+   "images": [
+    "https://file.app.ikea.cn/images/10/51/105199307837dd7ce043cc5b386bfbb7.jpg",
+    "https://file.app.ikea.cn/images/85/54/8554e645bb8abe047f59945ebd75752c.jpg",
+    "https://file.app.ikea.cn/images/91/56/915680ebea7f51c3e34a9e597666ba35.jpg"
+   ],
+   "links": [
+    {
+     "href": "https://file.app.ikea.cn/images/10/51/105199307837dd7ce043cc5b386bfbb7.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/85/54/8554e645bb8abe047f59945ebd75752c.jpg",
+     "text": ""
+    },
+    {
+     "href": "https://file.app.ikea.cn/images/91/56/915680ebea7f51c3e34a9e597666ba35.jpg",
+     "text": ""
+    }
+   ],
+   "settings": null
+  },
+  {
+   "type": "pub-product-list",
+   "title": null,
+   "texts": [
+    "MANUAL_INPUT",
+    "40450350",
+    "00450347",
+    "60428990",
+    "20033919",
+    "60398196"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  }
+ ]
+}

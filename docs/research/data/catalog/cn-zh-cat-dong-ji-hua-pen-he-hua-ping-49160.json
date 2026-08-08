@@ -1,0 +1,60 @@
+{
+ "url": "/cn/zh/cat/dong-ji-hua-pen-he-hua-ping-49160",
+ "id": "dong-ji-hua-pen-he-hua-ping-49160",
+ "name": "冬季花盆和花瓶",
+ "description": "冬季花盆和花瓶",
+ "total": 3,
+ "products": [
+  {
+   "id": "10604702",
+   "name": "VINTERFINT 云芬特",
+   "price": 79.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/vinterfint-yun-fen-te-hua-ping-shuang-bo-li-bai-se__1441811_pe986524_s4.jpg",
+   "productType": "花瓶",
+   "designText": "霜玻璃/白色",
+   "measureText": "21.5 厘米",
+   "url": null,
+   "seoSlug": "vinterfint-yun-fen-te-hua-ping-shuang-bo-li-bai-se"
+  },
+  {
+   "id": "50359402",
+   "name": "DAIDAI 戴戴",
+   "price": 9.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/daidai-dai-dai-zhuang-shi-yong-hua-pen-huang-tong-se__0638858_pe699220_s4.jpg",
+   "productType": "装饰用花盆",
+   "designText": "黄铜色",
+   "measureText": "9 厘米",
+   "url": null,
+   "seoSlug": "daidai-dai-dai-zhuang-shi-yong-hua-pen-huang-tong-se"
+  },
+  {
+   "id": "50470989",
+   "name": "PÅDRAG 普德拉格",
+   "price": 9.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/padrag-pu-de-la-ge-hua-ping-tou-ming-bo-li__0969056_pe810681_s4.jpg",
+   "productType": "花瓶",
+   "designText": "透明玻璃",
+   "measureText": "17 厘米",
+   "url": null,
+   "seoSlug": "padrag-pu-de-la-ge-hua-ping-tou-ming-bo-li"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "10604702",
+   "type": "ART",
+   "fullId": "10604702"
+  },
+  {
+   "id": "50359402",
+   "type": "ART",
+   "fullId": "50359402"
+  },
+  {
+   "id": "50470989",
+   "type": "ART",
+   "fullId": "50470989"
+  }
+ ]
+}

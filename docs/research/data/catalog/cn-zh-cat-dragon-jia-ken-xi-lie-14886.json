@@ -1,0 +1,92 @@
+{
+ "url": "/cn/zh/cat/dragon-jia-ken-xi-lie-14886",
+ "id": "dragon-jia-ken-xi-lie-14886",
+ "name": "DRAGON 加肯 系列",
+ "description": "探索我们的 DRAGON 加肯 不锈钢餐具套装，提供各式餐具和刀叉，适用于餐厅的餐桌布置。该系列餐具采用经典设计风格，适用于各类用餐场合，不锈钢材质确保餐具经久耐用。",
+ "total": 5,
+ "products": [
+  {
+   "id": "70177665",
+   "name": "DRAGON 加肯",
+   "price": 149,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/dragon-jia-ken-jin-shu-can-ju-24-jian-tao-bu-xiu-gang__1581202_pe1035126_s4.jpg",
+   "productType": "金属餐具24件套",
+   "designText": "不锈钢",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "dragon-jia-ken-jin-shu-can-ju-2-4-jian-tao-bu-xiu-gang"
+  },
+  {
+   "id": "60177661",
+   "name": "DRAGON 加肯",
+   "price": 19.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/dragon-jia-ken-ka-pei-chi-bu-xiu-gang__0711357_pe728200_s4.jpg",
+   "productType": "咖啡匙",
+   "designText": "不锈钢",
+   "measureText": "11 厘米",
+   "url": null,
+   "seoSlug": "dragon-jia-ken-ka-pei-chi-bu-xiu-gang"
+  },
+  {
+   "id": "50177591",
+   "name": "DRAGON 加肯",
+   "price": 39.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/dragon-jia-ken-chi-bu-xiu-gang__0711358_pe728201_s4.jpg",
+   "productType": "匙",
+   "designText": "不锈钢",
+   "measureText": "17 厘米",
+   "url": null,
+   "seoSlug": "dragon-jia-ken-chi-bu-xiu-gang"
+  },
+  {
+   "id": "90177589",
+   "name": "DRAGON 加肯",
+   "price": 39.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/dragon-jia-ken-sha-la-tian-shi-cha-bu-xiu-gang__0711373_pe728216_s4.jpg",
+   "productType": "沙拉/甜食叉",
+   "designText": "不锈钢",
+   "measureText": "16 厘米",
+   "url": null,
+   "seoSlug": "dragon-jia-ken-sha-la-tian-shi-cha-bu-xiu-gang"
+  },
+  {
+   "id": "80177660",
+   "name": "DRAGON 加肯",
+   "price": 24.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/dragon-jia-ken-tian-dian-chi-bu-xiu-gang__0711356_pe728199_s4.jpg",
+   "productType": "甜点匙",
+   "designText": "不锈钢",
+   "measureText": "16 厘米",
+   "url": null,
+   "seoSlug": "dragon-jia-ken-tian-dian-chi-bu-xiu-gang"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "70177665",
+   "type": "ART",
+   "fullId": "70177665"
+  },
+  {
+   "id": "60177661",
+   "type": "ART",
+   "fullId": "60177661"
+  },
+  {
+   "id": "50177591",
+   "type": "ART",
+   "fullId": "50177591"
+  },
+  {
+   "id": "90177589",
+   "type": "ART",
+   "fullId": "90177589"
+  },
+  {
+   "id": "80177660",
+   "type": "ART",
+   "fullId": "80177660"
+  }
+ ]
+}

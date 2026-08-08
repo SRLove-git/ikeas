@@ -1,0 +1,50 @@
+{
+ "url": "/cn/zh/this-is-ikea/newsroom/2017chunjie-pub43a5afbb",
+ "family": "this-is-ikea",
+ "id": "cn--zh--43a5afbbb58111e79a5eff486d94c77f",
+ "title": "2017年宜家春节营业时间公告",
+ "name": "综合新闻_2017年宜家春节营业时间公告_2017-01-27",
+ "hero": null,
+ "blocks": [
+  {
+   "type": "pub-page-title",
+   "title": null,
+   "texts": [
+    "2017年宜家春节营业时间公告"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-text",
+   "title": null,
+   "texts": [
+    "<p>2017-01-27 09:00&nbsp;</p>\n<p>2017宜家春节营业时间公告</p>\n<p><a href=\"http://www.ikea.com/ms/zh_CN/about_ikea/newsroom/PDF/2017ikea%20notice_zh.pdf\" target=\"_blank\">点击查看附件 PDF</a></p>"
+   ],
+   "images": [],
+   "links": [],
+   "settings": null
+  },
+  {
+   "type": "pub-button-link",
+   "title": null,
+   "texts": [
+    "/this-is-ikea/newsroom/xinwen-pub5a3665d1",
+    "NO",
+    "ikea://cms/page-compatible-web?url=%2Fthis-is-ikea%2Fnewsroom%2Fxinwen-pub5a3665d1&key=cn--zh--5a3665d1bed711e79dfda9ee7bcb674b",
+    "{\"objectId_var\":\"/this-is-ikea/newsroom/xinwen-pub5a3665d1\",\"objectType_var\":\"cms/page-compatible-web\"}",
+    "button",
+    "返回综合新闻"
+   ],
+   "images": [],
+   "links": [
+    {
+     "href": "/this-is-ikea/newsroom/xinwen-pub5a3665d1",
+     "text": ""
+    }
+   ],
+   "settings": null
+  }
+ ]
+}

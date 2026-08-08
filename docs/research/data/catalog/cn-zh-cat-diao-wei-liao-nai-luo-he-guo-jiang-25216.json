@@ -1,0 +1,76 @@
+{
+ "url": "/cn/zh/cat/diao-wei-liao-nai-luo-he-guo-jiang-25216",
+ "id": "diao-wei-liao-nai-luo-he-guo-jiang-25216",
+ "name": "酱汁、果酱和调味品",
+ "description": "在瑞典人看来，有些餐食如果不添加足量的酱料、果酱或调味品，就不能称其为一道完整的美味。有些美食中既含有浓郁的奶油沙司调味粉，又含有越桔果酱，譬如我们著名的瑞典肉丸。快来宜家选购这两种和更多美味的果酱和酱料（例如我们的芥末和莳萝酱，是三文鱼的理想伴侣）。",
+ "total": 4,
+ "products": [
+  {
+   "id": "20028890",
+   "name": "SÅS SENAP & DILL",
+   "price": 12.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/sas-senap-dill-san-wen-yu-diao-liao__0466620_pe610558_s4.jpg",
+   "productType": "三文鱼调料",
+   "designText": "",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "sas-senap-dill-san-wen-yu-diao-liao"
+  },
+  {
+   "id": "40201676",
+   "name": "SENAP MILD",
+   "price": 22.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/senap-mild-rou-he-xing-huang-jie-mo-jiang__0134940_pe291690_s4.jpg",
+   "productType": "柔和型黄芥末酱",
+   "designText": "",
+   "measureText": "500 克",
+   "url": null,
+   "seoSlug": "senap-mild-rou-he-xing-huang-jie-mo-jiang"
+  },
+  {
+   "id": "60225695",
+   "name": "KETCHUP",
+   "price": 19.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/ketchup-fan-qie-jiang__0141977_pe301902_s4.jpg",
+   "productType": "蕃茄酱",
+   "designText": "",
+   "measureText": "500 克",
+   "url": null,
+   "seoSlug": "ketchup-fan-qie-jiang"
+  },
+  {
+   "id": "30237176",
+   "name": "ROSTAD LÖK",
+   "price": 12.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/rostad-loek-zha-yang-cong-peng-hua-shi-pin__0447001_pe596987_s4.jpg",
+   "productType": "炸洋葱（膨化食品）",
+   "designText": "",
+   "measureText": null,
+   "url": null,
+   "seoSlug": "rostad-loek-zha-yang-cong-peng-hua-shi-pin"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "20028890",
+   "type": "ART",
+   "fullId": "20028890"
+  },
+  {
+   "id": "40201676",
+   "type": "ART",
+   "fullId": "40201676"
+  },
+  {
+   "id": "60225695",
+   "type": "ART",
+   "fullId": "60225695"
+  },
+  {
+   "id": "30237176",
+   "type": "ART",
+   "fullId": "30237176"
+  }
+ ]
+}

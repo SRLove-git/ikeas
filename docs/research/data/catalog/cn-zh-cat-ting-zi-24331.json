@@ -1,0 +1,76 @@
+{
+ "url": "/cn/zh/cat/ting-zi-24331",
+ "id": "ting-zi-24331",
+ "name": "宜家遮阳伞亭子-亭子",
+ "description": "能为亲朋好友提供充足空间的时尚凉亭——“罩”你，没问题！使用花园凉亭营造一处舒适的户外休闲空间，同时保护自己免被烈日的紫外线灼伤。在此查看我们的产品系列。",
+ "total": 4,
+ "products": [
+  {
+   "id": "90480627",
+   "name": "GUNNÖN 古农",
+   "price": 799,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/gunnoen-gu-nong-liang-ting-shen-hui-se-hui-se__0961342_pe807499_s4.jpg",
+   "productType": "凉亭",
+   "designText": "深灰色/灰色",
+   "measureText": "238x233 厘米",
+   "url": null,
+   "seoSlug": "gunnoen-gu-nong-liang-ting-shen-hui-se-hui-se"
+  },
+  {
+   "id": "50480629",
+   "name": "HIMMELSÖ 希梅瑟",
+   "price": 1799,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/himmelsoe-xi-mei-se-liang-ting-shen-hui-se-mi-hui-se__0923163_pe788310_s4.jpg",
+   "productType": "凉亭",
+   "designText": "深灰色/米灰色",
+   "measureText": "300x300 厘米",
+   "url": null,
+   "seoSlug": "himmelsoe-xi-mei-se-liang-ting-shen-hui-se-mi-hui-se"
+  },
+  {
+   "id": "60565147",
+   "name": "TORPÖN 陀蓬",
+   "price": 199,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/torpoen-tuo-peng-lian-zhang-hei-se__1276358_pe930918_s4.jpg",
+   "productType": "帘帐",
+   "designText": "黑色",
+   "measureText": "900 厘米",
+   "url": null,
+   "seoSlug": "torpoen-tuo-peng-lian-zhang-hei-se"
+  },
+  {
+   "id": "60184831",
+   "name": "SOLIG 索利格",
+   "price": 129,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/solig-suo-li-ge-lian-zhang-bai-se__0712003_pe728611_s4.jpg",
+   "productType": "帘帐",
+   "designText": "白色",
+   "measureText": "150 厘米",
+   "url": null,
+   "seoSlug": "solig-suo-li-ge-lian-zhang-bai-se"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "90480627",
+   "type": "ART",
+   "fullId": "90480627"
+  },
+  {
+   "id": "50480629",
+   "type": "ART",
+   "fullId": "50480629"
+  },
+  {
+   "id": "60565147",
+   "type": "ART",
+   "fullId": "60565147"
+  },
+  {
+   "id": "60184831",
+   "type": "ART",
+   "fullId": "60184831"
+  }
+ ]
+}

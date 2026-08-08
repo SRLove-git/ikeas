@@ -1,0 +1,44 @@
+{
+ "url": "/cn/zh/cat/yu-tan-20524",
+ "id": "yu-tan-20524",
+ "name": "浴毯",
+ "description": "想要轻松享受奢华的独处时间？沐浴完后，不妨裹上我们柔软的大浴巾。查看不同颜色和图案的浴巾，找到你喜欢的那一款。我们的浴巾有不同的尺寸，方便你配套组合。",
+ "total": 2,
+ "products": [
+  {
+   "id": "60634344",
+   "name": "SPORTSLIG 思博兹",
+   "price": 129,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/sportslig-si-bo-zi-yu-jin-lu-se-zu-qiu-chang__1481699_pe1000611_s4.jpg",
+   "productType": "浴巾",
+   "designText": "绿色/足球场",
+   "measureText": "100x150 厘米",
+   "url": null,
+   "seoSlug": "sportslig-si-bo-zi-yu-jin-lu-se-zu-qiu-chang"
+  },
+  {
+   "id": "20627449",
+   "name": "KONBJÖRNBÄR 康比奥巴",
+   "price": 99.99,
+   "image": "https://file.app.ikea.cn/cn/zh/images/products/konbjoernbaer-kang-bi-ao-ba-sha-tan-jin-fen-hong-se-cheng-se__1476538_pe998886_s4.jpg",
+   "productType": "沙滩巾",
+   "designText": "粉红色/橙色",
+   "measureText": "100x180 厘米",
+   "url": null,
+   "seoSlug": "konbjoernbaer-kang-bi-ao-ba-sha-tan-jin-fen-hong-se-cheng-se"
+  }
+ ],
+ "blocks": [],
+ "productIds": [
+  {
+   "id": "60634344",
+   "type": "ART",
+   "fullId": "60634344"
+  },
+  {
+   "id": "20627449",
+   "type": "ART",
+   "fullId": "20627449"
+  }
+ ]
+}
