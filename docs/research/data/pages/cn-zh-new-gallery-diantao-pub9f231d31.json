@@ -11,7 +11,7 @@
    "title": "增添热带风情",
    "texts": [
     "选用饰有彩色叶子图案的 GILLHOV 基尔霍夫 柔软棉质垫套，为家中增添热带风情。",
-    "<p>选用本月全新垫套，为沙发增添热带风情。</p>\n<p>GILLHOV 基尔霍夫 垫套上饰有绿色和黄色的叶子图案，底色为米黄色。这一宜家系列中的其他单人沙发和扶手椅，均采用相同的图案设计，布料品质一流。购买全套即可在家营造出苍翠繁茂的自然气氛。</p>",
+    "选用本月全新垫套，为沙发增添热带风情。 GILLHOV 基尔霍夫 垫套上饰有绿色和黄色的叶子图案，底色为米黄色。这一宜家系列中的其他单人沙发和扶手椅，均采用相同的图案设计，布料品质一流。购买全套即可在家营造出苍翠繁茂的自然气氛。",
     "增添热带风情",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "增添热带风情",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/c5/63/c56398ce0120bf1b22b14f98175c06c4.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -43,16 +53,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "选用宜家 MAJBRITT 玛伊布里特 垫套，为你的沙发增添原野风情。垫套正面饰有一群展翅翱翔的火烈鸟图案，背面采用中性色调。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/09/58/09580a1e101d3cb4af802422bef631c4.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>MAJBRITT 玛伊布里特 垫套明丽亮眼，饰有一群展翅翱翔的飞鸟图案。</p>"
+    "MAJBRITT 玛伊布里特 垫套明丽亮眼，饰有一群展翅翱翔的飞鸟图案。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -72,16 +94,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "特写：宜家 MAJBRITT 玛伊布里特 垫套上展翅翱翔的火烈鸟图案。带拉链，垫套拆卸方便。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e3/ef/e3ef3f95ba6b4afef35ac779c2d44496.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>垫套选用苎麻和棉花混合材质制成，背面采用中性色调，以此平衡正面鸟群图案可能带来的繁杂感（“啁啾声”固然动听，过于嘈杂可会打破平静！）。</p>"
+    "垫套选用苎麻和棉花混合材质制成，背面采用中性色调，以此平衡正面鸟群图案可能带来的繁杂感（“啁啾声”固然动听，过于嘈杂可会打破平静！）。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -94,6 +128,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

@@ -10,7 +10,7 @@
    "type": "pub-hero",
    "title": "给孩子打造专属游乐场",
    "texts": [
-    "<p>新年不只是大人的事！别忘了家里的小朋友，他们天马行空的大脑里总是充满了奇思妙想，比如把家里当成游乐场&mdash;&mdash;不如试试实现他们的想法，把游乐场搬回家。</p>",
+    "新年不只是大人的事！别忘了家里的小朋友，他们天马行空的大脑里总是充满了奇思妙想，比如把家里当成游乐场——不如试试实现他们的想法，把游乐场搬回家。",
     "给孩子打造专属游乐场",
     "normal"
    ],
@@ -23,6 +23,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "给孩子打造专属游乐场",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/c8/0e/c80ef6aacc8b145c9f3243738f19f416.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "84b08481bd104e5c9f69561f0709bdf2"
    }
@@ -55,6 +65,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20211215/f216dd72c5fb41ffb45f77a18d948fb9.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/70296965?artType=art",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "47178f8d296942e092dbbb079c86d33f"
    }
@@ -87,6 +107,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20211215/d6eef745a4f245d395d57e0e7585d8a9.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/10488967?artType=art",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "184d682711ac44c5836e6bfd6a9e3e2f"
    }
@@ -119,6 +149,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20211215/148578f18c1d42ec88fa98bfe7e1b08b.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/20476450?artType=art",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "dde878dbdcfc44b582adbc8ad92fa099"
    }
@@ -151,6 +191,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20211215/0a6e090a0a76451798e3a61be47c01a7.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/30517577?artType=art",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "0ad44b1483f4488db78e00cd9334c968"
    }
@@ -173,6 +223,21 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "儿童储物家具",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/bc003",
+     "backgroundColor": null
+    },
+    {
+     "title": "FLISAT 福丽萨特",
+     "text": "¥249",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/flisat-fu-li-sa-te-wan-ou-wu-qiang-ge-ban__0710145_pe727347_s4.jpg",
+     "href": "/cn/zh/p/flisat-fu-li-sa-te-wan-ou-wu-qiang-ge-ban-70296965/"
+    }
+   ],
    "settings": {
     "traceId": "293398f651ec4c9999a7eff11cb6a2a1"
    }
@@ -193,6 +258,27 @@
     {
      "href": "/search/products?q=玩耍",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "玩具和玩耍",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/search/products?q=玩耍",
+     "backgroundColor": null
+    },
+    {
+     "title": "MÅLA 莫拉",
+     "text": "¥49.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mala-mo-la-zhan-tou-bi-duo-se__0788143_pe763484_s4.jpg",
+     "href": "/cn/zh/p/mala-mo-la-zhan-tou-bi-duo-se-20477609/"
+    },
+    {
+     "title": "LILLABO 利乐宝",
+     "text": "¥149",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lillabo-li-le-bao-wan-ju-huo-che-45-jian-dai-gui-dao__0712397_pe728813_s4.jpg",
+     "href": "/cn/zh/p/lillabo-li-le-bao-wan-ju-huo-che-4-5-jian-dai-gui-dao-00330067/"
     }
    ],
    "settings": {
@@ -242,6 +328,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "虎虎生威中国年",
+     "text": "2022春节限量系列",
+     "image": "https://file.app.ikea.cn/images/7a/28/7a287baa48c0b5bf8576bee27c824c7c.jpg",
+     "href": "/cn/zh/new/hu3-hu3-sheng1-wei1-zhong1-guo2-nian2-pub030a7850",
+     "backgroundColor": "#b2292e"
+    },
+    {
+     "title": "装点客厅，迎接新年",
+     "text": "我们有些灵活装点客厅的小妙招，一起来打造一场令人印象深刻的新年聚会吧！\n\n",
+     "image": "https://file.app.ikea.cn/images/51/7d/517d68167fb2ab3619b6fe1b0cd21c3e.jpg",
+     "href": "/cn/zh/rooms/living-room/how-to/zhuang1-dian3-ke4-ting1-ying2-jie1-xin1-nian2-pub68087ac0",
+     "backgroundColor": "#b2292e"
+    },
+    {
+     "title": "灵活扩容的餐厅，更多团聚的喜悦",
+     "text": "餐厅里多了前来赴宴的亲友，需要额外的座位与空间？",
+     "image": "https://file.app.ikea.cn/images/69/cf/69cf722199715e6d99e789757dce60f2.jpg",
+     "href": "/cn/zh/rooms/dining/how-to/ling2-huo2-kuo4-rong2-de-can1-ting1-geng4-duo1-tuan2-ju4-de-xi3-yue4-pub28d82690",
+     "backgroundColor": "#b2292e"
+    },
+    {
+     "title": "做一桌好菜，少不了“好帮手”",
+     "text": "每到春节，我们的厨房就会变得繁忙无比，这些“好帮手”能够让下厨更轻松",
+     "image": "https://file.app.ikea.cn/images/1b/36/1b36597d805b62771676b90824028b3e.jpg",
+     "href": "/cn/zh/rooms/kitchen/how-to/zuo4-yi1-zhuo1-hao3-cai4-shao3-bu4-le-hao3-bang1-shou3-pub6e319860",
+     "backgroundColor": "#b2292e"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "88da3fe1dceb48528fdb6d64c9d1246a"
    }

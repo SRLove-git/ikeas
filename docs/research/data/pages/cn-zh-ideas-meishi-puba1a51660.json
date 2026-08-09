@@ -11,7 +11,7 @@
    "title": "3种夏日配方卡助你招待意外来客",
    "texts": [
     "桌子上放着一碗意面、一盘橄榄酱、一份蛋白饼甜点",
-    "<p>出门逛街偶遇老友，邀请回家后才发现并无招待用的食材，这种尴尬你一定经历过。别担心，以下是三道菜肴，制作简单又不耗时，为你留足休闲时光。</p>",
+    "出门逛街偶遇老友，邀请回家后才发现并无招待用的食材，这种尴尬你一定经历过。别担心，以下是三道菜肴，制作简单又不耗时，为你留足休闲时光。",
     "3种夏日配方卡助你招待意外来客",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "3种夏日配方卡助你招待意外来客",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b1/f0/b1f0ca06d43a04ad622d09ddd3f295bc.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -31,7 +41,7 @@
    "title": null,
    "texts": [
     "https://v.youku.com/v_show/id_XMjgzNjEyMzE4OA==.html?spm=a2h3j.8428770.3416059.1",
-    "<p><strong>夏日简单开胃菜</strong></p> <p>一把去核黑橄榄<br />一瓣蒜<br />橄榄油<br />盐和胡椒<br />再加一些咸脆饼</p>",
+    "夏日简单开胃菜 一把去核黑橄榄 一瓣蒜 橄榄油 盐和胡椒 再加一些咸脆饼",
     "MANUAL_INPUT"
    ],
    "images": [],
@@ -41,6 +51,8 @@
      "text": "<p><strong>夏日简单开胃菜</strong></p> <p>一把去核黑橄榄<br />一瓣蒜<br />橄榄油<br />盐和胡椒<br />再加一些咸脆饼</p>"
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -48,7 +60,7 @@
    "title": null,
    "texts": [
     "https://v.youku.com/v_show/id_XMjgzNjEzMDc2MA==.html?spm=a2h3j.8428770.3416059.1",
-    "<p><strong>夏日鲜食意面</strong></p> <p>一包意面<br />两把荷兰豆<br />一块羊乳酪<br />适量新鲜薄荷<br />再加入橄榄油，盐和胡椒</p>",
+    "夏日鲜食意面 一包意面 两把荷兰豆 一块羊乳酪 适量新鲜薄荷 再加入橄榄油，盐和胡椒",
     "MANUAL_INPUT"
    ],
    "images": [],
@@ -58,6 +70,8 @@
      "text": "<p><strong>夏日鲜食意面</strong></p> <p>一包意面<br />两把荷兰豆<br />一块羊乳酪<br />适量新鲜薄荷<br />再加入橄榄油，盐和胡椒</p>"
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -65,7 +79,7 @@
    "title": null,
    "texts": [
     "https://v.youku.com/v_show/id_XMzEyODM4ODg1Mg==.html?spm=a2h3j.8428770.3416059.1",
-    "<p><strong>简单的浆果蛋白饼</strong></p> <p>一把做好的蛋白饼<br />一勺冰激凌<br />加入打发的奶油<br />和一些夏日浆果。</p>",
+    "简单的浆果蛋白饼 一把做好的蛋白饼 一勺冰激凌 加入打发的奶油 和一些夏日浆果。",
     "MANUAL_INPUT"
    ],
    "images": [],
@@ -75,16 +89,20 @@
      "text": "<p><strong>简单的浆果蛋白饼</strong></p> <p>一把做好的蛋白饼<br />一勺冰激凌<br />加入打发的奶油<br />和一些夏日浆果。</p>"
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>制作人</strong></p>\n<p>室内设计师：Titilayo Ilori<br />文案编辑：James Rynd<br />摄影师：Kimme Persson</p>"
+    "制作人 室内设计师：Titilayo Ilori 文案编辑：James Rynd 摄影师：Kimme Persson"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

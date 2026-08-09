@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -32,6 +34,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ed/ef/edef18b29ce9d69b7b564d696dbfe163.gif",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -50,6 +62,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ab/f2/abf271633cd7dce5b446853e526a1ba3.gif",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -65,6 +87,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "IKEA 365+",
+     "text": "¥15",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ikea-365-gai-zi-zheng-fang-xing-zhu__0710815_pe727779_s4.jpg",
+     "href": "/cn/zh/p/ikea-365-gai-zi-zheng-fang-xing-zhu-30381908/"
+    },
+    {
+     "title": "IKEA 365+",
+     "text": "¥20",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ikea-365-gai-zi-chang-fang-xing-zhu__0710821_pe727785_s4.jpg",
+     "href": "/cn/zh/p/ikea-365-gai-zi-chang-fang-xing-zhu-70381906/"
+    }
+   ],
    "settings": null
   },
   {
@@ -80,6 +116,26 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "IKEA 365+",
+     "text": "¥10",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ikea-365-gai-zheng-fang-xing-su-liao__0710814_pe727778_s4.jpg",
+     "href": "/cn/zh/p/ikea-365-gai-zheng-fang-xing-su-liao-70361791/"
+    },
+    {
+     "title": "IKEA 365+",
+     "text": "¥10",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ikea-365-gai-chang-fang-xing-su-liao__0710820_pe727784_s4.jpg",
+     "href": "/cn/zh/p/ikea-365-gai-chang-fang-xing-su-liao-30361793/"
+    },
+    {
+     "title": "IKEA 365+",
+     "text": "¥30",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ikea-365-gai-l-chang-fang-xing-su-liao__0623106_pe690934_s4.jpg",
+     "href": "/cn/zh/p/ikea-365-gai-l-chang-fang-xing-su-liao-20393073/"
+    }
+   ],
    "settings": null
   }
  ]

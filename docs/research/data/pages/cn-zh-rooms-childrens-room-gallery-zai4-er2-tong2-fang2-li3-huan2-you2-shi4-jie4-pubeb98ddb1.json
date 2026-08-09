@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -34,16 +36,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "一间儿童房内配有玩具厨房、蓝色窗帘和黑板、儿童扶手椅和船只图案地毯。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/7b/42/7b426d4a148a0f2cedfb723a0c792c5c.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>扬帆起航，尽情探索未知大陆，开一家咖啡店，或是与鲨鱼一起遨游。在探索世界方面，儿童是专家。他们要做的只是发挥想象力和能够激励他们放飞梦想的房间。</p>"
+    "扬帆起航，尽情探索未知大陆，开一家咖啡店，或是与鲨鱼一起遨游。在探索世界方面，儿童是专家。他们要做的只是发挥想象力和能够激励他们放飞梦想的房间。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -76,6 +90,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "儿童房里设有可充当木偶戏台的玩具厨房，扶手椅和凳子上摆放的毛绒玩具犹如孩子们的观众。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/51/4b/514b909cfcc44e03cde2c90331b4805c.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "白色的玩具厨房里配备敞开门的烤箱、面包卷6件套、4个彩色面包、1个面包刷和1个烤盘。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/cb/96/cb968b2c092cd87c5827847a6f7f3c4d.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "儿童房内的窗户前设有三个红色抽屉柜。顶部表面可容纳很多玩具和游戏用品。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/13/80/1380f47e182197c20a7861dbdef7a6c3.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "SPISIG 斯皮西格 玩具厨房 不仅可以以模拟烘焙，它的背面还可以充当木偶戏台，在前面放置一些舒适的座椅，供热情的观众落座。",
+     "image": "https://file.app.ikea.cn/images/51/4b/514b909cfcc44e03cde2c90331b4805c.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "让小面包师直接为客人端上新鲜烘焙的美味吧——DUKTIG 杜克迪 面包非常可爱，看起来很美味！",
+     "image": "https://file.app.ikea.cn/images/cb/96/cb968b2c092cd87c5827847a6f7f3c4d.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "STUVA 斯多瓦/FRITIDS 福利蒂德斯 抽屉内部有宽敞的储物空间，可用来存放衣物和玩具，而其顶部表面则非常适合存放娱乐和游戏用品。",
+     "image": "https://file.app.ikea.cn/images/13/80/1380f47e182197c20a7861dbdef7a6c3.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -103,6 +161,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "儿童房内铺有带小船图案地毯，上面放有一个红色开放式 FLYTTBAR 福塔 玩具箱，箱子里放有海盗服饰。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ba/47/ba47f7f6d14a9ed7550833db8b25ec00.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "一款白色可加长型儿童床床架，床上铺有小船图案床用纺织品，其上方是一盏亮着的白色壁灯。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/20/0e/200edd2d570b48b07ccd279426b66e02.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "富有冒险精神的角色扮演游戏有助于拓展孩子的想象力。FLYTTBAR 福塔 玩具箱 可用来存放有趣的游戏服装。由于配备实用的把手，因此易于从床下拉出。",
+     "image": "https://file.app.ikea.cn/images/ba/47/ba47f7f6d14a9ed7550833db8b25ec00.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "可加长型儿童床可长久伴随孩子一起成长。SUNDVIK 桑维 设计经典，即使多年以后孩子的喜好发生了变化，它也能与孩子偏爱的风格无缝融合。",
+     "image": "https://file.app.ikea.cn/images/20/0e/200edd2d570b48b07ccd279426b66e02.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -125,6 +214,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "儿童房内的窗户上配有绿色/白色条纹窗帘和浅蓝色遮光卷帘，且卷帘半卷着。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a7/fe/a7fed03c0199b27e7a8ae5a0cccf88d2.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/a7/fe/a7fed03c0199b27e7a8ae5a0cccf88d2.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "利用遮光卷帘，为孩子营造幽暗舒适的睡眠环境。浅蓝色的 TRETUR 加特尔 窗帘与 UPPTÅG 乌普托格 窗帘上的蓝色波浪和小船图案相映成趣。",
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -140,6 +253,26 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "SUNDVIK 桑维",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/sundvik-sang-wei-jia-chang-chuang-kuang-jia-dai-chuang-ban-bai-se__0637817_pe698558_s4.jpg",
+     "href": "/cn/zh/p/sundvik-sang-wei-jia-chang-chuang-kuang-jia-dai-chuang-ban-bai-se-39240339/"
+    },
+    {
+     "title": "SUNDVIK 桑维",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/sundvik-sang-wei-er-tong-zhuo-bai-se__0735849_pe740214_s4.jpg",
+     "href": "/cn/zh/p/sundvik-sang-wei-er-tong-zhuo-bai-se-90201674/"
+    },
+    {
+     "title": "STRANDMON 斯佳蒙",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/strandmon-si-jia-meng-er-tong-fu-shou-yi-wei-suo-er-hui-se__0729754_pe737122_s4.jpg",
+     "href": "/cn/zh/p/strandmon-si-jia-meng-er-tong-fu-shou-yi-wei-suo-er-hui-se-80392546/"
+    }
+   ],
    "settings": null
   }
  ]

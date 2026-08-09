@@ -11,7 +11,7 @@
    "title": "风格百变的灯具之选",
    "texts": [
     "一盏白色圆形吊灯悬挂在桌子上方，桌上放着玻璃碗、玻璃水杯，还有黄色、粉色、青绿色吸管做成的塔状物。",
-    "<p>查看本月照明新品，从传统风格到充满未来感的设计，应有尽有，能够满足不同类型的照明需求和品味。</p>\n<p>新款 NYM&Aring;NE 纽墨奈 灯具系列包含白色吊灯及射灯，用途广泛，可用于一般照明，温暖点亮你的家。</p>",
+    "查看本月照明新品，从传统风格到充满未来感的设计，应有尽有，能够满足不同类型的照明需求和品味。 新款 NYMåNE 纽墨奈 灯具系列包含白色吊灯及射灯，用途广泛，可用于一般照明，温暖点亮你的家。",
     "风格百变的灯具之选",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "风格百变的灯具之选",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d9/c6/d9c6d28426130c3d75cdafffdd5f23d6.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,16 +54,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "圆桌上放着一盏点亮的白色台灯，带布艺灯罩，陶瓷底座带浮雕花纹。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/5e/bd/5ebd70f0f5ac0c2e4f062a59c5518a24.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>丰盈可爱的 RICKARUM 里卡拉 台灯，风格传统，陶制底座上带有细腻的浮雕花纹，可为房间平添几分格调。</p>"
+    "丰盈可爱的 RICKARUM 里卡拉 台灯，风格传统，陶制底座上带有细腻的浮雕花纹，可为房间平添几分格调。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -74,16 +96,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "三盏点亮的台灯，每盏灯都带有圆柱形灯罩和三个支腿，分别放在不同的展台上。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b4/30/b430eefd41995502525a7532777baa44.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>TVÄRS 特瓦尔 台灯是我们的新款便携式氛围灯，充满未来感，趣意十足，价格优惠超乎想象！</p>"
+    "TVÄRS 特瓦尔 台灯是我们的新款便携式氛围灯，充满未来感，趣意十足，价格优惠超乎想象！"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -104,16 +138,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "特写：绿色背景上有一个已点亮的LED灯泡。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/4f/98/4f982a01b811cef6552c5e7a02a466d8.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>LED灯泡让你没有理由不爱它。RYET 里耶 LED灯泡价格优惠，超乎你的想象。它比传统白炽灯泡节能高达约85%，使用寿命约是白炽灯的15倍，不仅节约电费，而且十分环保。</p>"
+    "LED灯泡让你没有理由不爱它。RYET 里耶 LED灯泡价格优惠，超乎你的想象。它比传统白炽灯泡节能高达约85%，使用寿命约是白炽灯的15倍，不仅节约电费，而且十分环保。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -128,6 +174,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

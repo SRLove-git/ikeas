@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -33,6 +35,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "办公室设计案例",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e3/9e/e39e6b6d492de3cbcc872b865b85d1cc.gif",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -53,6 +65,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

@@ -10,10 +10,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>有条不紊，轻松洗衣</h2>\n<p>空间小？不用担心。个性化定制家具、能够灵活适应小角落的储物装置以及便利的墙面收纳件相结合，便于你获得空间容纳所有家庭物品，打造一个小型洗衣区。</p>"
+    "有条不紊，轻松洗衣 空间小？不用担心。个性化定制家具、能够灵活适应小角落的储物装置以及便利的墙面收纳件相结合，便于你获得空间容纳所有家庭物品，打造一个小型洗衣区。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "d4c988d8d52046d29e77868a583c4cdd"
    }
@@ -36,6 +38,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "无限灵感，为你的家打造舒适空间",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220321/8df465025949482796f30e5f34164989.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "6bd8dfb4ae394863b56595f7ce0bf5d4"
    }
@@ -48,7 +60,7 @@
     "NO",
     "ikea://content/plp?catalogId=48946",
     "{\"objectId_var\":\"48946\",\"objectType_var\":\"plp\"}",
-    "ENHET 安纳特/TV&Auml;LLEN 特威伦 浴室家具组合确保有足够空间收纳所有家庭成员的物品，还可以划出一片洗衣区。产品易于组装和定制，兼带开放式和封闭式储物装置，价格富有吸引力。",
+    "ENHET 安纳特/TVäLLEN 特威伦 浴室家具组合确保有足够空间收纳所有家庭成员的物品，还可以划出一片洗衣区。产品易于组装和定制，兼带开放式和封闭式储物装置，价格富有吸引力。",
     "供全家使用的浴室（和洗衣区）"
    ],
    "images": [
@@ -64,6 +76,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个白色和灰色的洗脸池，搭配白色的ENHET 安纳特 开放式和封闭式组合搁架，旁边是一台洗衣机，洗衣绳上晾着衬衫。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/a358b47d2b0a605/original/PH176169-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "50b43ab0485c478bb054a5f85d0ffd45"
    }
@@ -92,6 +114,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "洗衣房一角放着一台洗衣机、带柜门的灰色柜子、狭窄的白色手推车，墙上挂着挂衣杆。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/a59eedde4dc9c4b/original/PH176172-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "f398b3ce14814c83812fc53fed2cab0c"
    }
@@ -120,6 +152,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "狭长柜子的柜门开着，里面放着急救包、罐装洗衣粉、洗衣夹和其他清洁用品。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/1135d04e14ea0a3d/original/PH176170-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "18234851bc1f4d74a12a512405abefba"
    }
@@ -148,6 +190,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "浴室柜带白色框架和滑动镜面柜门，LED照明亮起，散发出温暖的光线。",
+     "image": "https://res.app.ikea.cn/content/u/20220321/1208091eba8a4aec89765c9b5f8df7bd.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "61ea246abdca4e92845fb2ae941cf8d4"
    }
@@ -176,6 +228,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "灰色的浴垫旁放着一个恐龙玩具，墙面挂钩挂着浅蓝色的毛巾，旁边是白色的洗脸池。",
+     "image": "https://file.app.ikea.cn/imported/20210802/c6731ca9cbe9af8759ffc94357c113648b89c08c.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "52e977cb635d4e2abfa033cd8f588bb5"
    }
@@ -198,6 +260,21 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "为你提供所需一切，打造梦想中的洗衣区",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/ba001",
+     "backgroundColor": null
+    },
+    {
+     "title": "SILVERGLANS 西威葛兰",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/silverglans-xi-wei-ge-lan-yu-yong-led-zhao-ming-tiao-ke-diao-guang-de-bai-se__0869954_pe781547_s4.jpg",
+     "href": "/cn/zh/p/silverglans-xi-wei-ge-lan-yu-yong-l-ed-zhao-ming-tiao-ke-diao-guang-de-bai-se-10439646/"
+    }
+   ],
    "settings": {
     "traceId": "4a7f7dba65994868a75bd8861436f9c9"
    }
@@ -218,6 +295,33 @@
     {
      "href": "/cat/ba003",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "实用方案，洗衣更轻松",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/ba003",
+     "backgroundColor": null
+    },
+    {
+     "title": "KLUNKA 弗伦伽",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/klunka-fu-lun-jia-xi-yi-dai-bai-se-hei-se__0711257_pe728095_s4.jpg",
+     "href": "/cn/zh/p/klunka-fu-lun-jia-xi-yi-dai-bai-se-hei-se-30364372/"
+    },
+    {
+     "title": "JÄLL 加尔",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/jaell-jia-er-liang-yi-jia-shi-nei-hu-wai-bai-se__0710881_pe727821_s4.jpg",
+     "href": "/cn/zh/p/jaell-jia-er-liang-yi-jia-shi-nei-hu-wai-bai-se-00242891/"
+    },
+    {
+     "title": "SPRUTTIG 埃斯汀",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/spruttig-ai-si-ting-yi-jia-hei-se__0710664_pe727695_s4.jpg",
+     "href": "/cn/zh/p/spruttig-ai-si-ting-yi-jia-hei-se-40317078/"
     }
    ],
    "settings": {

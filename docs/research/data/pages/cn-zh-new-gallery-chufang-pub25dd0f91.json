@@ -11,7 +11,7 @@
    "title": "打造独特的厨房风格",
    "texts": [
     "GAMLESJÖN 甘勒逊 厨房龙头由拉丝黑色金属制成，设计精妙，呈现出鲜明的工业风格，可令传统的厨房变得设计感十足。",
-    "<p>这款水龙头可为厨房平添一丝格调。GAMLESJ&Ouml;N 甘勒逊 厨房龙头由拉丝黑色金属制成，设计精妙，呈现出鲜明的工业风格，可令传统的厨房变得设计感十足。</p>",
+    "这款水龙头可为厨房平添一丝格调。GAMLESJöN 甘勒逊 厨房龙头由拉丝黑色金属制成，设计精妙，呈现出鲜明的工业风格，可令传统的厨房变得设计感十足。",
     "打造独特的厨房风格",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "打造独特的厨房风格",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/dd/74/dd74931c90c92a74f2318f3af7dd3a78.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,16 +54,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "GAMLESJÖN 甘勒逊 厨房龙头设计精妙，可令传统的厨房变得设计感十足。其中一个巧妙的细节就是六角形旋钮造型的开关。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d9/f0/d9f089469c6871b5774d8f6103e84f77.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>开关采用六角形旋钮造型，使整体风格更显独特。它的喷嘴较高，更方便清洗需占据水槽大量空间的大锅具。</p>"
+    "开关采用六角形旋钮造型，使整体风格更显独特。它的喷嘴较高，更方便清洗需占据水槽大量空间的大锅具。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -65,6 +87,14 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "GAMLESJÖN 甘勒逊",
+     "text": "¥899",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/gamlesjoen-gan-le-xun-chu-fang-long-tou-hei-se-la-si-jin-shu__0756688_pe749040_s4.jpg",
+     "href": "/cn/zh/p/gamlesjoen-gan-le-xun-chu-fang-long-tou-hei-se-la-si-jin-shu-00341674/"
+    }
+   ],
    "settings": null
   }
  ]

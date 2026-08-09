@@ -11,7 +11,7 @@
    "title": "烹饪美妙大餐",
    "texts": [
     "一个人在磨碎芝士，放入装着汤的黑色VARDAGEN 瓦达恩 砂锅中。",
-    "<p>宜家全新厨具系列旨在缔造快乐的下厨时光。VARDAGEN 瓦达恩 包括一系列风格传统的砂锅和煎锅，采用无涂层铸铁制成。深色调外观，为厨房和餐厅增添一抹质朴气息。这些锅具能够向各个方向均匀传播热量，无论是慢煮或快煮都适合。</p>",
+    "宜家全新厨具系列旨在缔造快乐的下厨时光。VARDAGEN 瓦达恩 包括一系列风格传统的砂锅和煎锅，采用无涂层铸铁制成。深色调外观，为厨房和餐厅增添一抹质朴气息。这些锅具能够向各个方向均匀传播热量，无论是慢煮或快煮都适合。",
     "烹饪美妙大餐",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "烹饪美妙大餐",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/6d/fc/6dfc6e4c8cfb7bd2bf28338fbcab9020.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -50,6 +60,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "VARDAGEN 瓦达恩 砂锅和煎锅摆放在黑色木桌布上，周围摆放着萝卜、果仁等食材。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/639eab8762db64da/original/PH167616-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   }
  ]

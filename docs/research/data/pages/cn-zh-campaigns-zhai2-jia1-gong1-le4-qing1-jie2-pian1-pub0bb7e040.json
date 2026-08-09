@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cd53a3858b404cdb879be28699e91737"
    }
@@ -22,10 +24,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3><strong>卫生做足全套，守护家人健康！</strong><strong><br /></strong></h3>\n<p>特殊时期，看看宜家为你准备的卫生小贴士。 好的工具让清洁事半功倍，保持良好的个人和家居卫生，为家人打造一个更安心的生活环境！</p>"
+    "卫生做足全套，守护家人健康！ 特殊时期，看看宜家为你准备的卫生小贴士。 好的工具让清洁事半功倍，保持良好的个人和家居卫生，为家人打造一个更安心的生活环境！"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "ba7c7bab808a4dd58de073279d0a38b5"
    }
@@ -38,6 +42,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "0ae63d676b244cc2b19a9b3ede7160da"
    }
@@ -46,10 +52,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h4><strong><a href=\"#2d9ebc48424b43ea88e4d922b13e321a\">环境清洁</a> |&nbsp; <a href=\"#20414dc847744c139faa32e86390187e\">个人卫生</a> |&nbsp; <a href=\"#025782dc868641518fff8d4d916e1687\">衣物清洁</a></strong></h4>"
+    "环境清洁 | 个人卫生 | 衣物清洁"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "ca6dd5ebd1ff44be9bb6e32e9776258c"
    }
@@ -58,10 +66,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3><strong>环境清洁</strong></h3>\n<p>平日里繁忙没有充足的时间来打扫卫生，何不借此机会给家里做个大扫除！</p>"
+    "环境清洁 平日里繁忙没有充足的时间来打扫卫生，何不借此机会给家里做个大扫除！"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "808bd82a0c6347f6acca19c3c121d88a"
    }
@@ -84,6 +94,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20220419/ba453d4947624eb887e3df670ca81958.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "e00041d90fbc4fb59e592046aee77818"
    }
@@ -96,7 +116,7 @@
     "https://v.youku.com/v_show/id_XNDQ3NTMzNjU0MA==.html",
     "pub-video-link",
     "MANUAL_INPUT",
-    "<h3><strong>不必费力用手拧干！</strong></h3>\n<p>吸水性强且快干。拖布部分可90度弯折，边缘地带也可轻松拖干净。</p>\n<p>*拖把头可替换</p>",
+    "不必费力用手拧干！ 吸水性强且快干。拖布部分可90度弯折，边缘地带也可轻松拖干净。 *拖把头可替换",
     "pub-text"
    ],
    "images": [],
@@ -106,6 +126,16 @@
      "text": ""
     }
    ],
+   "items": [],
+   "columns": [
+    {
+     "heading": "不必费力用手拧干！ 吸水性强且快干。拖布部分可90度弯折，边缘地带也可轻松拖干净。 *拖把头可替换",
+     "text": null,
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "c04eba2a35754247ac703fc368515c54"
    }
@@ -128,6 +158,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20220419/59cbd10ba9654d4c8d782416efb048e7.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "7a1273c845a743c9a977d15a992adc02"
    }
@@ -140,7 +180,7 @@
     "https://v.youku.com/v_show/id_XNDQ3NTMzNTA1Ng==.html",
     "pub-video-link",
     "MANUAL_INPUT",
-    "<h3><strong>自带&ldquo;梳子&rdquo;的簸箕的秘密：</strong></h3>\n<p>扫帚上黏着的赃物总是异常恼人，用手拨下总觉得不卫生，这款簸箕解决了这 个问题，轻松一梳，垃圾全无。</p>",
+    "自带“梳子”的簸箕的秘密： 扫帚上黏着的赃物总是异常恼人，用手拨下总觉得不卫生，这款簸箕解决了这 个问题，轻松一梳，垃圾全无。",
     "pub-text"
    ],
    "images": [],
@@ -150,6 +190,16 @@
      "text": ""
     }
    ],
+   "items": [],
+   "columns": [
+    {
+     "heading": "自带“梳子”的簸箕的秘密： 扫帚上黏着的赃物总是异常恼人，用手拨下总觉得不卫生，这款簸箕解决了这 个问题，轻松一梳，垃圾全无。",
+     "text": null,
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "efbd11acc21040329f5f3bb6ddbf3cc6"
    }
@@ -167,6 +217,14 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "LILLNAGGEN 利纳根",
+     "text": "¥7.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lillnaggen-li-na-gen-bo-li-qing-ji-gua-ban__0711844_pe728517_s4.jpg",
+     "href": "/cn/zh/p/lillnaggen-li-na-gen-bo-li-qing-ji-gua-ban-20243597/"
+    }
+   ],
    "settings": {
     "traceId": "876af28bc6d14c72a0568a6cef6d2693"
    }
@@ -179,6 +237,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "a3682b4d489f4f77a7efcf2b326cabc9"
    }
@@ -187,10 +247,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3><strong>个人卫生</strong></h3>\n<p>左搓搓，右搓搓；丰盈的泡沫让你干净又快乐。 养成勤洗手的好习惯，才能有效避免病菌侵害。</p>"
+    "个人卫生 左搓搓，右搓搓；丰盈的泡沫让你干净又快乐。 养成勤洗手的好习惯，才能有效避免病菌侵害。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "ca9b885006264bfcb31dce23a2b618b8"
    }
@@ -204,7 +266,7 @@
     "IMAGE",
     "49c8dbdb-e8f7-447d-bf2a-1f7654f474f0",
     "MANUAL_INPUT",
-    "<h3><strong>无需打孔，即刻上墙：</strong></h3>\n<p>一推即可上墙：清理干净墙面，一推就能贴上。安装无需任何工具。 上墙是小空间的好选择哦！</p>"
+    "无需打孔，即刻上墙： 一推即可上墙：清理干净墙面，一推就能贴上。安装无需任何工具。 上墙是小空间的好选择哦！"
    ],
    "images": [
     "https://res.app.ikea.cn/content/u/20220419/eeb2b0683d664fc18e85fa17a98603c8.jpg?x-oss-process=style/medium"
@@ -215,6 +277,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20220419/eeb2b0683d664fc18e85fa17a98603c8.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://res.app.ikea.cn/content/u/20220419/eeb2b0683d664fc18e85fa17a98603c8.jpg?x-oss-process=style/medium",
+     "href": null
+    },
+    {
+     "heading": "无需打孔，即刻上墙： 一推即可上墙：清理干净墙面，一推就能贴上。安装无需任何工具。 上墙是小空间的好选择哦！",
+     "text": null,
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "99b09be4411443ffa8538298b28ba68b"
    }
@@ -232,6 +318,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": {
     "traceId": "34b36ab80e4d4cb18f3a5ed60a5227c9"
    }
@@ -244,6 +331,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "306c74736c964982a80c502a5b2764d5"
    }
@@ -266,6 +355,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20220419/059b28b70bf94c3e947f2e857fac252a.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "7ccd88987aa2430c89eef3d461de8384"
    }
@@ -274,10 +373,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3><strong>衣物清洁</strong></h3>\n<p>勤晒衣服，勤晒被，阳光是天然的消毒剂； 特殊时期，出门不便，就用身体拥抱太阳的温度吧。</p>"
+    "衣物清洁 勤晒衣服，勤晒被，阳光是天然的消毒剂； 特殊时期，出门不便，就用身体拥抱太阳的温度吧。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "2dce2ae5a52a41ac8486a77fbac91d29"
    }
@@ -291,7 +392,7 @@
     "IMAGE",
     "56b8938d-f091-4b5d-a783-4fa6e4778e68",
     "MANUAL_INPUT",
-    "<h3><strong>有颜值，有容量：</strong></h3>\n<p>浅蓝色的外观，清新又好看；衣篮由柔韧的塑料制成，即使放满衣物也能轻松搬运。</p>"
+    "有颜值，有容量： 浅蓝色的外观，清新又好看；衣篮由柔韧的塑料制成，即使放满衣物也能轻松搬运。"
    ],
    "images": [
     "https://res.app.ikea.cn/content/u/20220419/91d0da0f0e154896a5ae3232720eb98b.jpg?x-oss-process=style/medium"
@@ -302,6 +403,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20220419/91d0da0f0e154896a5ae3232720eb98b.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://res.app.ikea.cn/content/u/20220419/91d0da0f0e154896a5ae3232720eb98b.jpg?x-oss-process=style/medium",
+     "href": null
+    },
+    {
+     "heading": "有颜值，有容量： 浅蓝色的外观，清新又好看；衣篮由柔韧的塑料制成，即使放满衣物也能轻松搬运。",
+     "text": null,
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "57394fb261e04f678d908bd4e6376f1e"
    }
@@ -319,6 +444,14 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "MULIG 穆利格",
+     "text": "¥149",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mulig-mu-li-ge-liang-yi-jia-shi-nei-hu-wai-bai-se__0710880_pe727820_s4.jpg",
+     "href": "/cn/zh/p/mulig-mu-li-ge-liang-yi-jia-shi-nei-hu-wai-bai-se-30228756/"
+    }
+   ],
    "settings": {
     "traceId": "bdde1cab54974d1ab28a8f34d7d8674d"
    }
@@ -341,6 +474,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "30923525b2514268a51dda9223f175ee"
    }

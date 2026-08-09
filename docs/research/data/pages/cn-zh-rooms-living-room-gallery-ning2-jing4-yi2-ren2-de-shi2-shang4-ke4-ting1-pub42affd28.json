@@ -11,7 +11,7 @@
    "title": "宁静宜人的时尚客厅",
    "texts": [
     "客厅中布置着一张白色三人沙发、一张1.5座沙发、一块平织地毯及FJÄLLBO 耶伯 系列家具。",
-    "<p>这间漂亮迷人的客厅舒适惬意，且富有个性和格调。触感丰富的面料和中性色调营造出温馨宜人的室内氛围，而灵活实用的家具则轻松规划出居家办公空间。</p>",
+    "这间漂亮迷人的客厅舒适惬意，且富有个性和格调。触感丰富的面料和中性色调营造出温馨宜人的室内氛围，而灵活实用的家具则轻松规划出居家办公空间。",
     "宁静宜人的时尚客厅",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "宁静宜人的时尚客厅",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/1e/3d/1e3d903c4ecd85b235f9b6cb26ebc529.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -50,6 +60,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一位男生躺在白色三人沙发上抚摸着小狗，身上披着一条深金褐色休闲毯，旁边还放着一个黑色/米色相间的垫套。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/39ff7dc5f4298d43/original/PE816677-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -76,6 +96,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一张白色1.5座沙发、一条深金褐色休闲毯，摆放着储物篮、书籍和其他物品的黑色搁架单元。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/56a559084313cf81/original/PE816657-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -102,6 +132,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一张带脚轮的笔记本电脑桌摆放在两个黑色搁架单元中间，旁边还有一把黑色转椅、一个仿古制作的黑色/松木墙搁板。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/1e0563b824484af1/original/PE816392-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -128,6 +168,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个仿古制作的黑色/松木墙搁板，上面摆放着书籍、相机、储物盒及石头。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/5dce9afe68a61e9d/original/PE816472-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -146,6 +196,51 @@
     {
      "href": "/cat/fu001",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "梦想客厅触手可及",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/fu001",
+     "backgroundColor": null
+    },
+    {
+     "title": "ULRIKSBERG 尤利斯巴",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ulriksberg-you-li-si-ba-dan-ren-sha-fa-fu-shou-yi-teng-tiao-mei-hei-se__0672896_pe716932_s4.jpg",
+     "href": "/cn/zh/p/ulriksberg-you-li-si-ba-dan-ren-sha-fa-fu-shou-yi-teng-tiao-mei-hei-se-20442969/"
+    },
+    {
+     "title": "FJÄLLBO 耶伯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/fjaellbo-ye-bo-ge-jia-dan-yuan-hei-se__0473389_pe614540_s4.jpg",
+     "href": "/cn/zh/p/fjaellbo-ye-bo-ge-jia-dan-yuan-hei-se-90342198/"
+    },
+    {
+     "title": "FJÄLLBO 耶伯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/fjaellbo-ye-bo-ge-jia-dan-yuan-hei-se__1071961_pe855055_s4.jpg",
+     "href": "/cn/zh/p/fjaellbo-ye-bo-ge-jia-dan-yuan-hei-se-80339295/"
+    },
+    {
+     "title": "KULLABERG 乐维",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kullaberg-le-wei-zhuan-yi-hei-se__0724718_pe734601_s4.jpg",
+     "href": "/cn/zh/p/kullaberg-le-wei-zhuan-yi-hei-se-70325519/"
+    },
+    {
+     "title": "FJÄLLBO 耶伯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/fjaellbo-ye-bo-ge-jia-dan-yuan-hei-se__0473388_pe614539_s4.jpg",
+     "href": "/cn/zh/p/fjaellbo-ye-bo-ge-jia-dan-yuan-hei-se-10339294/"
+    },
+    {
+     "title": "GULLHULT 古尔胡特",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/gullhult-gu-er-hu-te-qiang-ge-ban-hei-se-song-mu-fang-gu-se__0955140_pe803666_s4.jpg",
+     "href": "/cn/zh/p/gullhult-gu-er-hu-te-qiang-ge-ban-hei-se-song-mu-fang-gu-se-40489022/"
     }
    ],
    "settings": null
@@ -168,6 +263,21 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "利用照明营造温馨氛围",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/li001",
+     "backgroundColor": null
+    },
+    {
+     "title": "SKURUP 斯库鲁",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/skurup-si-ku-lu-jia-shi-she-deng-hei-se__0972931_pe811820_s4.jpg",
+     "href": "/cn/zh/p/skurup-si-ku-lu-jia-shi-she-deng-hei-se-30489961/"
+    }
+   ],
    "settings": null
   },
   {
@@ -188,6 +298,21 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "混搭纺织品，营造和谐外观",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/tl001",
+     "backgroundColor": null
+    },
+    {
+     "title": "KUSTFLY 库斯弗路",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kustfly-ku-si-fu-lu-dian-tao-mi-huang-se-hei-se__0980631_pe815065_s4.jpg",
+     "href": "/cn/zh/p/kustfly-ku-si-fu-lu-dian-tao-mi-huang-se-hei-se-80506963/"
+    }
+   ],
    "settings": null
   },
   {
@@ -203,6 +328,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

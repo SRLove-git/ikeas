@@ -11,7 +11,7 @@
    "title": "精心布置你的储物空间",
    "texts": [
     "宜家 STUVA 斯多瓦 白色衣柜和 SLÄKT 斯莱克 白床，为你提供了展现自我风格的基础平台，你可以搭配彩色床罩、鲜艳醒目的墙面色彩以及其他装饰，突出你的独特个性。",
-    "<p>儿童房内的储物空间能助你顺利完成收纳！它能容纳所有体育用品、训练装备和衣物，为孩子腾出游戏空间，让他们可以在放学之后与来访的朋友尽情玩乐。</p>",
+    "儿童房内的储物空间能助你顺利完成收纳！它能容纳所有体育用品、训练装备和衣物，为孩子腾出游戏空间，让他们可以在放学之后与来访的朋友尽情玩乐。",
     "精心布置你的储物空间",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "精心布置你的储物空间",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ac/a3/aca3b14afa1d8e95557fbed0fb75da10.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -39,6 +49,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "MÖJLIGHET 莫伊里黑特",
+     "text": "¥49.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/moejlighet-mo-yi-li-hei-te-chuang-bian-gua-dai-lan-se__0651931_pe707217_s4.jpg",
+     "href": "/cn/zh/p/moejlighet-mo-yi-li-hei-te-chuang-bian-gua-dai-lan-se-40421391/"
+    },
+    {
+     "title": "RASSLA 拉斯拉",
+     "text": "¥59.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/rassla-la-si-la-5-ge-chu-jian-bai-se__0622653_pe690685_s4.jpg",
+     "href": "/cn/zh/p/rassla-la-si-la-5-ge-chu-jian-bai-se-30421339/"
+    }
+   ],
    "settings": null
   }
  ]

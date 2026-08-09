@@ -11,7 +11,7 @@
    "title": "HÄGGEBY 哈格比 白色厨房指南",
    "texts": [
     "阁楼里的白色厨房，配蓝色的墙壁和白色的橱柜。一架厨房推车摆放在厨房中间，下面铺着一张条纹地毯。",
-    "<p>渴望拥有一间线条简洁俐落的现代厨房？想以实惠价格，打造精致典雅的厨房？H&Auml;GGEBY 哈格比 白色厨房前板设计简洁，无论摆放在哪种空间都十分出色。最后添加你喜欢的把手&mdash;&mdash;通过小细节，带来大不同。</p>",
+    "渴望拥有一间线条简洁俐落的现代厨房？想以实惠价格，打造精致典雅的厨房？HäGGEBY 哈格比 白色厨房前板设计简洁，无论摆放在哪种空间都十分出色。最后添加你喜欢的把手——通过小细节，带来大不同。",
     "HÄGGEBY 哈格比 白色厨房指南",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "HÄGGEBY 哈格比 白色厨房指南",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/8b/cb/8bcb5f53d471cac3e96034c9a4010f6b.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -50,6 +60,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "在两个白色橱柜中间，有一架白色SUNNERSTA 苏纳思 厨房推车，上面放着蒸锅和烤面包机。",
+     "image": "https://file.app.ikea.cn/images/85/32/8532b0af9b0a58587c86da33fd0fafdf.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -76,6 +96,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个白色壁柜，配两扇柜门，在白色台面上放着两盆植物，下面有三个白色抽屉。",
+     "image": "https://file.app.ikea.cn/images/51/23/512322f84e9ebbedfd717fd6dd74d46a.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -121,6 +151,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "购买宜家厨房的5个步骤",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/31/25/3125f86f48cf469079c71ff3c1e4b4a7.jpg",
+     "href": null,
+     "backgroundColor": "#d5dcd4"
+    },
+    {
+     "title": "宜家厨房设计工具——在家即可轻松设计你的厨房",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/42/90/42909d2ee6bc60a85b45906cfa0ff9a7.jpg",
+     "href": "/cn/zh/h5page/?url=%23",
+     "backgroundColor": "#ecd7a2"
+    },
+    {
+     "title": "预约宜家厨房专家服务",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/7b/32/7b32031403ca8a72b6528dfec1cb0597.jpg",
+     "href": "/cn/zh/h5page/?url=%23",
+     "backgroundColor": "#e9c3b0"
+    },
+    {
+     "title": "宜家厨房服务",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/76/9a/769af772d23e404b7198cfbf9b542f22.jpg",
+     "href": "/cn/zh/h5page/?url=%23",
+     "backgroundColor": "#99abc1"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -136,6 +197,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

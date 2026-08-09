@@ -10,6 +10,7 @@ import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
 import java.time.OffsetDateTime;
 import java.util.HexFormat;
+import java.util.List;
 import java.util.Map;
 import java.util.UUID;
 import java.util.concurrent.ConcurrentHashMap;
@@ -113,6 +114,34 @@ public class UserStore {
 
   public StoredUser findById(String userId) {
     return userId == null ? null : usersById.get(userId);
+  }
+
+  /** All registered users, newest first (used by the admin panel). */
+  public List<StoredUser> allUsers() {
+    return usersById.values().stream()
+        .sorted((a, b) -> b.createdAt().compareTo(a.createdAt()))
+        .toList();
+  }
+
+  /** Removes a user together with their tokens (used by the admin panel). */
+  public synchronized boolean deleteUser(String userId) {
+    StoredUser user = usersById.remove(userId);
+    if (user == null) {
+      return false;
+    }
+    if (user.phone() != null) {
+      idByPhone.remove(user.phone());
+    }
+    if (user.email() != null) {
+      idByAccount.remove(normalizeAccount(user.email()));
+    }
+    tokenToUser.entrySet().removeIf(entry -> entry.getValue().equals(userId));
+    try {
+      persist();
+    } catch (IOException ex) {
+      log.warn("Failed to persist user deletion: {}", ex.getMessage());
+    }
+    return true;
   }
 
   // ----------------------------------------------------------- sms

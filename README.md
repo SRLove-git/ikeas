@@ -87,7 +87,13 @@ Point it at a URL, run `/clone-website`, and your AI agent will inspect the site
 
 The `server/` folder contains a **Java 21 + Spring Boot 3.5** REST backend that
 serves the same crawled data (categories, products, content pages, homepage,
-menus) through a JSON API and can optionally serve the `public/` assets.
+menus) through a JSON API, implements the site's interactive features
+(SMS/password login with bearer sessions, shopping bag, favorites, customer
+chat), and can optionally serve the `public/` assets. The frontend login page,
+search page, header account state, product page actions and chat widget are
+wired to this API (fall back to static data when the backend is unreachable).
+
+Demo account: `demo@ikea.cn` / `13800138000`, password `123456`.
 
 ```bash
 cd server && ./mvnw spring-boot:run   # http://localhost:8080/api/v1/health
@@ -163,6 +169,40 @@ npm run check  # Run lint + typecheck + build
 docker compose up app --build # build and run the app
 docker compose up dev --build # run the app in dev mode on port 3001
 ```
+
+## 内容管理后台（Admin CMS）
+
+本项目内置一个完整的内容管理后台，可以管理网站的全部内容：
+
+- **入口**：`http://localhost:3000/admin/login`（开发端口 3200 时用 `http://localhost:3200/admin/login`）
+- **默认账号**：`admin / admin123`（可用环境变量 `ADMIN_USERNAME` / `ADMIN_PASSWORD` 修改）
+
+后台管理的内容：
+
+| 模块 | 说明 |
+| --- | --- |
+| 仪表盘 | 内容统计、运营服务状态、最近操作 |
+| 商品管理 | 商品的名称/价格/图片/标签/详情，支持搜索、新建、编辑、删除 |
+| 分类管理 | 商品分类与频道分类的名称、链接、图片、子分类 |
+| 页面内容 | 全部内容页面（房间/灵感/活动/客服/门店/新闻等）+ 41 个兜底页面，区块化编辑器 |
+| 首页管理 | 顶部通知、导航、Hero 轮播、促销、榜单、页脚等全部区块 |
+| 导航菜单 | 顶部下拉菜单面板与「所有商品」分类菜单 |
+| 分类落地页 | 分类页的名称、描述、推荐商品与内容区块 |
+| 订单管理 | 「我的订单」页面数据源，支持新建/编辑/删除 |
+| 客服知识库 | 客服机器人自动回复规则与默认回复（热更新，`IKEA_CHAT_KNOWLEDGE_FILE`） |
+| 用户/购物车/收藏/聊天 | 对接 Spring Boot 运营服务（需后端在线，管理密钥 `IKEA_ADMIN_KEY`，默认 `ikea-admin`） |
+| 网站设置 | 站点名称、SEO 描述与 404/问卷页面文案（实时生效） |
+| 操作日志 | 后台所有内容修改记录（保留 200 条） |
+
+**数据即文件**：后台读写 `src/data/*.json`（商品、页面、首页、菜单、订单、设置等），
+前台页面每次请求实时读取同一份文件。后台保存后前台立即生效，无需重启或重新构建；
+生产部署时 `next build` 会把 `src/data` 一并打进 standalone 输出。
+
+**同步到后端**：内容修改后，运行 `node scripts/export-server-data.mjs` 会把最新
+`src/data` 导出到 `server/src/main/resources/data`，让 Spring Boot API 返回一致数据。
+
+管理后台 API 位于 `/api/admin/**`（Next.js Route Handlers，会话 Cookie 认证）；
+运营数据接口位于 Spring Boot `/api/v1/admin/**`（`X-Admin-Key` 认证）。
 
 ## Updating for Other Platforms
 

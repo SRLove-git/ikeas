@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -34,16 +36,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "传统风格的房间中放置着典雅的坐卧两用床。白天，额外的靠垫为后背提供支撑。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/4f/b4/4fb4b93f77ce935f6a3d7e789716e31c.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>我们将教你如何在可用面积很小的情况下，打造宽敞舒适的家。HEMNES 汉尼斯 坐卧两用床白天可充当厨房沙发，晚上则化身为舒适的床，不论何时都能彰显传统外观的风采。</p>"
+    "我们将教你如何在可用面积很小的情况下，打造宽敞舒适的家。HEMNES 汉尼斯 坐卧两用床白天可充当厨房沙发，晚上则化身为舒适的床，不论何时都能彰显传统外观的风采。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -71,6 +85,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "一张 INGATORP 英格托 黑色伸缩型餐桌展开着，桌子周围摆放着 KYRRE 叙勒 凳子，充当额外的座椅。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d8/34/d834f190877091752b5ff2c345b8ff0f.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "一张用来充当床的白色坐卧两用床，床上铺着舒适的床用纺织品，旁边放有一张凳子，凳子上放有台灯。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/52/db/52dbe2ad10e15de5cfda6c2e30afda22.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "伸缩型餐桌和备用座椅可随时为来访的客人提供空间。INGATORP 英格托 桌子一个人就能轻松扩展，KYRRE 叙勒 凳子可叠放，因此在不需要时不会占用太多空间。",
+     "image": "https://file.app.ikea.cn/images/d8/34/d834f190877091752b5ff2c345b8ff0f.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "坐卧两用床非常适合小户型住宅，因为它能轻松从厨房沙发变成床。HEMNES 汉尼斯 配备宽敞的抽屉，便于放置枕头和被子，若再配上一盏阅读灯和一本好书，就能营造出舒适的卧室氛围！",
+     "image": "https://file.app.ikea.cn/images/52/db/52dbe2ad10e15de5cfda6c2e30afda22.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -103,6 +148,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "宜家 HOPPVALS 霍普沃 灰色六边形百叶帘遮挡着半边窗户，有助于日夜遮挡光线。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/20/11/2011fd64ca1dd15fb851ac1a76d810f1.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "一款 HEMNES 汉尼斯 白色三斗抽屉柜，其中一个抽屉敞开着，折叠好的衣服整齐地收纳在里面的盒子中。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/23/a6/23a6efed048564769d9c5fa72b065ce9.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "墙壁上安装着白色/炭灰色钩架，上面挂着配饰。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a3/d0/a3d0bf2e7f693cc110cef723d27425d6.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "光线较暗的卧室，有助于你整夜安睡，但 HOPPVALS 霍普沃 的优点远不止于此！其内部的蜂巢结构打造出一个隔热层，具有保暖效果，有助于降低供热费用。",
+     "image": "https://file.app.ikea.cn/images/20/11/2011fd64ca1dd15fb851ac1a76d810f1.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "封闭式衣物存储方案有助于保持家中整洁有序。HEMNES 汉尼斯 配备宽敞的抽屉，可以放置储物盒，因此你可以轻而易举地保持衣物和配饰整洁有序。",
+     "image": "https://file.app.ikea.cn/images/23/a6/23a6efed048564769d9c5fa72b065ce9.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "小户型住宅需要巧用各种储物方案，把其中一些储物通过时尚的方式展示出来也会很有趣。你可以将最漂亮的配饰和物品挂在钩架上，如 LURT 勒尔特/HEDRA 西德拉，使其成为室内装饰的一部分。",
+     "image": "https://file.app.ikea.cn/images/a3/d0/a3d0bf2e7f693cc110cef723d27425d6.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -118,6 +207,38 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "HEMNES 汉尼斯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/hemnes-han-ni-si-chuang-tou-zhuo-bai-se-qi__0624424_pe691831_s4.jpg",
+     "href": "/cn/zh/p/hemnes-han-ni-si-chuang-tou-zhuo-bai-se-qi-10354091/"
+    },
+    {
+     "title": "STRANDMON 斯佳蒙",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/strandmon-si-jia-meng-kao-bei-yi-nuo-wa-la-shen-hui-se__0325432_pe517964_s4.jpg",
+     "href": "/cn/zh/p/strandmon-si-jia-meng-kao-bei-yi-nuo-wa-la-shen-hui-se-30359827/"
+    },
+    {
+     "title": "KYRRE 叙勒",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kyrre-xu-le-deng-hua-mu__1488024_pe1003293_s4.jpg",
+     "href": "/cn/zh/p/kyrre-xu-le-deng-hua-mu-80420040/"
+    },
+    {
+     "title": "SKURUP 斯库鲁",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/skurup-si-ku-lu-diao-deng-hei-se__0604110_pe681110_s4.jpg",
+     "href": "/cn/zh/p/skurup-si-ku-lu-diao-deng-hei-se-30407116/"
+    },
+    {
+     "title": "RÖRKÄR 瑞雪儿",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/roerkaer-rui-xue-er-ping-zhi-di-tan-hei-se-zi-ran-se__0617670_pe688119_s4.jpg",
+     "href": "/cn/zh/p/roerkaer-rui-xue-er-ping-zhi-di-tan-hei-se-zi-ran-se-50418779/"
+    }
+   ],
    "settings": null
   }
  ]

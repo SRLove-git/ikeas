@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -34,6 +36,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "小巧卧室里摆放着宜家 HEMNES 汉尼斯 黑褐色床架，床上铺有浅灰色和白色方格床单。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/f2/f6/f2f6f2a805a559ae9f4e57449ef1130f.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -49,6 +61,14 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "TÅNUM 特纳姆",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/tanum-te-na-mu-ping-zhi-di-tan-duo-se__0949362_pe799670_s4.jpg",
+     "href": "/cn/zh/p/tanum-te-na-mu-ping-zhi-di-tan-duo-se-10212676/"
+    }
+   ],
    "settings": null
   }
  ]

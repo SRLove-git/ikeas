@@ -11,7 +11,7 @@
    "title": "用爱意营造温馨",
    "texts": [
     "客厅里有一张沙发床、一把藤条/竹制椅子、一张电视柜、一张深灰色地毯、一个黑色挂钟和黑色的灯具。",
-    "<p>有时（或时常），人们都希望能尽量提升家居环境的实用性。但这不一定要牺牲家装风格。在充分利用客厅空间的同时，也可以彰显真实的个性风格。谁能想到功能灵活的沙发床竟然还这么美貌？</p>",
+    "有时（或时常），人们都希望能尽量提升家居环境的实用性。但这不一定要牺牲家装风格。在充分利用客厅空间的同时，也可以彰显真实的个性风格。谁能想到功能灵活的沙发床竟然还这么美貌？",
     "用爱意营造温馨",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "用爱意营造温馨",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/24/8b/248bd6de37e976df762056f48b1ab6f3.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -50,6 +60,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "白色电视柜带黑色拉手、黑色电视、黑色音箱、灰色的地毯和不同大小的镶框海报。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/46face75db48b8f7/original/PH172131-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -76,6 +96,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "墙上有金色镶边的镜子和大小颜色各异的镶框海报及白色搁架。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/75d2d647265379f0/original/PH172175-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -102,6 +132,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "藤条/竹制椅子上放着绿色坐垫和条纹休闲毯，还有黑白地毯、黑色落地灯和储物篮。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/51f61b5f877a956d/original/PH172178-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -128,6 +168,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "米色沙发床展开成睡床，铺着深蓝色/白色床用纺织品和条纹休闲毯，旁边是黑色灯具，下方铺着灰色地毯。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/1e09f36e92408818/original/PH172177-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -143,6 +193,32 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "LAPPVIKEN 拉维肯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lappviken-la-wei-ken-men-chou-ti-qian-ban-bai-se__0375432_pe553117_s4.jpg",
+     "href": "/cn/zh/p/lappviken-la-wei-ken-men-chou-ti-qian-ban-bai-se-70291675/"
+    },
+    {
+     "title": "BESTÅ 贝达",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/besta-bei-da-dian-shi-gui-bai-se__0384984_pe557581_s4.jpg",
+     "href": "/cn/zh/p/besta-bei-da-dian-shi-gui-bai-se-10294525/"
+    },
+    {
+     "title": "BESTÅ 贝达",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/besta-bei-da-kuang-jia-bai-se__0376963_pe513549_s4.jpg",
+     "href": "/cn/zh/p/besta-bei-da-kuang-jia-bai-se-30245845/"
+    },
+    {
+     "title": "AGEN 爱格",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/agen-ai-ge-yi-zi-teng-tiao-zhu__31428_pe120743_s4.jpg",
+     "href": "/cn/zh/p/agen-ai-ge-yi-zi-teng-tiao-zhu-70158134/"
+    }
+   ],
    "settings": null
   }
  ]

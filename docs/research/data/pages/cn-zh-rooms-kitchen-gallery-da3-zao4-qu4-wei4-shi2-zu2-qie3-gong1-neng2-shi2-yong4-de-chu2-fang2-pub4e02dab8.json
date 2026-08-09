@@ -11,7 +11,7 @@
    "title": "打造趣味十足且功能实用的厨房",
    "texts": [
     "厨房的一个小角落，白色橱柜配有黑板柜门，上面还写着留言信息。",
-    "<p>在厨房发挥你的无限创意！VEDDINGE 维丁格 白色柜门搭配UDDEVALLA 伍德拉 黑板柜门，打造充满个性的厨房空间。黑板既可以展示你的艺术创作，也可以记录购物清单。</p>",
+    "在厨房发挥你的无限创意！VEDDINGE 维丁格 白色柜门搭配UDDEVALLA 伍德拉 黑板柜门，打造充满个性的厨房空间。黑板既可以展示你的艺术创作，也可以记录购物清单。",
     "打造趣味十足且功能实用的厨房",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "打造趣味十足且功能实用的厨房",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e7/75/e7758b4abeae57ca00463a3048d8e294.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,6 +54,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -59,6 +71,38 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "VEDDINGE 维丁格",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/veddinge-wei-ding-ge-gui-men-bai-se__0648571_pe704990_s4.jpg",
+     "href": "/cn/zh/p/veddinge-wei-ding-ge-gui-men-bai-se-40274446/"
+    },
+    {
+     "title": "ÖSTERNÄS 约斯特奈斯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/oesternaes-yue-si-te-nai-si-pi-ba-shou-rou-zhi-pi-ge__0754273_pe747858_s4.jpg",
+     "href": "/cn/zh/p/oesternaes-yue-si-te-nai-si-pi-ba-shou-rou-zhi-pi-ge-30348928/"
+    },
+    {
+     "title": "ÄLMAREN 艾玛兰",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/aelmaren-ai-ma-lan-chu-fang-hun-he-xing-shui-long-tou-bu-xiu-gang-se__0804883_pe769403_s4.jpg",
+     "href": "/cn/zh/p/aelmaren-ai-ma-lan-chu-fang-hun-he-xing-shui-long-tou-bu-xiu-gang-se-70341637/"
+    },
+    {
+     "title": "LÅNGUDDEN 兰加顿",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/langudden-lan-jia-dun-qian-ru-shi-shui-cao-dai-1-ge-cao-bu-xiu-gang__0430196_pe584500_s4.jpg",
+     "href": "/cn/zh/p/langudden-lan-jia-dun-qian-ru-shi-shui-cao-dai-1-ge-cao-bu-xiu-gang-90324873/"
+    },
+    {
+     "title": "STEFAN 斯第芬",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/stefan-si-di-fen-yi-zi-hei-he-se__0727320_pe735593_s4.jpg",
+     "href": "/cn/zh/p/stefan-si-di-fen-yi-zi-hei-he-se-80363426/"
+    }
+   ],
    "settings": null
   }
  ]

@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "f8ec9a9b359143a68d101e515745828b"
    }
@@ -22,10 +24,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h4>使用宜家设计工具，让你的梦想变成现实。在购买之前，设计你的梦想卧室。使用简单易用的宜家设计工具，玩转色彩、风格、尺寸和配置，随心打造个性设计。</h4>"
+    "使用宜家设计工具，让你的梦想变成现实。在购买之前，设计你的梦想卧室。使用简单易用的宜家设计工具，玩转色彩、风格、尺寸和配置，随心打造个性设计。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "c18eed3d0e3e4e3f858ff87dc693f96b"
    }
@@ -45,6 +49,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "6bda307310634063bf02352682a32be4"
    }
@@ -55,7 +61,7 @@
    "texts": [
     "two-columns",
     "column",
-    "<p>PAX 帕克思 设计工具，设计既灵活又可定制的衣柜储物系列。</p>",
+    "PAX 帕克思 设计工具，设计既灵活又可定制的衣柜储物系列。",
     "pub-text",
     "/planners/pax-planner/?layout=headless",
     "NO"
@@ -77,6 +83,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220215/07c4cedb83814b198aab47f192a21cb3.gif",
+     "href": "/cn/zh/planners/pax-planner/?layout=headless",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "PAX 帕克思 设计工具，设计既灵活又可定制的衣柜储物系列。",
+     "image": null,
+     "href": "/cn/zh/planners/pax-planner/?layout=headless"
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20220215/07c4cedb83814b198aab47f192a21cb3.gif",
+     "href": "/cn/zh/planners/pax-planner/?layout=headless"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "065de709953a4b8c91ec9de3f01b7fa4"
    }
@@ -89,6 +119,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "02c196c426864f68bf16014a72836fe8"
    }
@@ -97,10 +129,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>模块化储物家具</h2>"
+    "模块化储物家具"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "c18eed3d0e3e4e3f858ff87dc693f96b"
    }
@@ -146,6 +180,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220215/f36c76e52e6741ec8e689a2d8d63baa7.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/planners/platsa-planner/?layout=headless",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220215/f36c76e52e6741ec8e689a2d8d63baa7.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220215/54630c5e2de94b45826a909122e30fdc.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/planners/smastad-planner/?layout=headless",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "PLATSA 普拉萨 设计工具，一款十分灵活的模块式储物系列，根据你的需要量身设计家居储物方案。",
+     "image": "https://file.app.ikea.cn/cms/u/20220215/f36c76e52e6741ec8e689a2d8d63baa7.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/planners/platsa-planner/?layout=headless"
+    },
+    {
+     "heading": null,
+     "text": "SMåSTAD 斯玛斯塔 设计工具，为你打造理想儿童房的解决方案。",
+     "image": "https://file.app.ikea.cn/cms/u/20220215/54630c5e2de94b45826a909122e30fdc.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/planners/smastad-planner/?layout=headless"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "fa5928dd42bd4a178a7360a5bf23c591"
    }
@@ -158,6 +230,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "4541a94a9d7b46c79ccf2ca0f18236cd"
    }
@@ -166,10 +240,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>开放式储物家具</h2>"
+    "开放式储物家具"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "c18eed3d0e3e4e3f858ff87dc693f96b"
    }
@@ -216,6 +292,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220215/0f8b5700afc04a199930a1a99604a853.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/planners/elvarli-planner/?layout=headless",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220215/09e2e9f094e149869a8a2408fd49361b.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/planners/jonaxel-planner/?layout=headless",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220215/258ab493fd7a49caa1ab2c70aa31f4db.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/planners/boaxel-planner/?layout=headless",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "ELVARLI 爱尔瓦丽 设计工具能随着东西的增加，自由扩展收纳空间，随心打造储物方案。",
+     "image": "https://file.app.ikea.cn/cms/u/20220215/0f8b5700afc04a199930a1a99604a853.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/planners/elvarli-planner/?layout=headless"
+    },
+    {
+     "heading": null,
+     "text": "JONAXEL 尤纳赛尔 储物系列让你按需组合，更巧妙地利用已有的空间。",
+     "image": "https://file.app.ikea.cn/cms/u/20220215/09e2e9f094e149869a8a2408fd49361b.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/planners/jonaxel-planner/?layout=headless"
+    },
+    {
+     "heading": null,
+     "text": "BOAXEL 博阿克塞 壁式储物系列，你可以快速、轻松地打造出个人储物解决方案，从而整齐收纳洗涤剂、脏衣物和待晾干的干净衣物。",
+     "image": "https://file.app.ikea.cn/cms/u/20220215/258ab493fd7a49caa1ab2c70aa31f4db.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/planners/boaxel-planner/?layout=headless"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "efd8aca5f4a24040a20dbdf2da8efee3"
    }
@@ -228,6 +348,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "f3d28631731d4b31aed637086b439fb3"
    }
@@ -252,6 +374,24 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220216/5275dcab55614012b70c77e0df3982f1.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20220216/5275dcab55614012b70c77e0df3982f1.jpg?x-oss-process=style/medium",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "a86cc3b4500d4c04bd71223b05397dac"
    }
@@ -262,7 +402,7 @@
    "texts": [
     "two-columns",
     "column",
-    "<p>我们不想你为了设计梦想的家而倍感困扰。宜家专业人员将为你提供帮助。</p>",
+    "我们不想你为了设计梦想的家而倍感困扰。宜家专业人员将为你提供帮助。",
     "pub-text",
     "/h5page/?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fdesign-leads%2Fwrd.html%3Fchannel%3DEC_website%26cl_sr%3DIRW_homepage_3nd%26design_version%3Dnon_GPC_case%26source%3DNEW_WEB",
     "NO"
@@ -274,6 +414,16 @@
      "text": ""
     }
    ],
+   "items": [],
+   "columns": [
+    {
+     "heading": null,
+     "text": "我们不想你为了设计梦想的家而倍感困扰。宜家专业人员将为你提供帮助。",
+     "image": null,
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fdesign-leads%2Fwrd.html%3Fchannel%3DEC_website%26cl_sr%3DIRW_homepage_3nd%26design_version%3Dnon_GPC_case%26source%3DNEW_WEB"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "6d76067558554ee0b0b076966334e6a5"
    }

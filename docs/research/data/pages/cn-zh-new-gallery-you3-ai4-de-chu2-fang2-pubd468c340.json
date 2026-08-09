@@ -11,7 +11,7 @@
    "title": "有爱的厨房",
    "texts": [
     "风格质朴的房间内有一间富有光泽的深红褐色厨房，搭配黑色厨房台面、把手和水槽，灰色的墙壁纹理分明。",
-    "<p>无论你正在布置新厨房，还是想让现有厨房改换面貌，我们都能为你提供很多新颖独特的产品。不妨用全新的 KALLARP 卡勒普 厨房前挡板增添一抹色彩。这款前挡板采用深红褐色的高光泽饰面，无论是极简主义者还是有孩子的家庭都会爱不释手。可持续的 FULLSPÄCKAD 弗斯派嘉德 盘子由竹子制成，简单易用，便于移动。浏览下文，了解我们全新的厨房和餐厅产品！</p>",
+    "无论你正在布置新厨房，还是想让现有厨房改换面貌，我们都能为你提供很多新颖独特的产品。不妨用全新的 KALLARP 卡勒普 厨房前挡板增添一抹色彩。这款前挡板采用深红褐色的高光泽饰面，无论是极简主义者还是有孩子的家庭都会爱不释手。可持续的 FULLSPÄCKAD 弗斯派嘉德 盘子由竹子制成，简单易用，便于移动。浏览下文，了解我们全新的厨房和餐厅产品！",
     "有爱的厨房",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "有爱的厨房",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/c0/04/c004f87aa07a202d3bdfaeb89f8e42e6.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -46,6 +56,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "富有光泽的深红褐色 KALLARP 卡勒普 厨房前板搭配黑色的厨房台面，上面放着几罐腌制的食物。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/14/b6/14b622c2c596a193bea645894b4c2cc8.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/14/b6/14b622c2c596a193bea645894b4c2cc8.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "这一季，在厨房中大胆地使用深红褐色吧。我们全新的厨房前挡板采用高光泽饰面，能令人眼前一亮。你可以选择与柜门饰面相同的盖板，也可以依个人品味进行混搭。",
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -73,6 +107,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "带把手的 FULLSPÄCKAD 弗斯派嘉德 竹盘上层放着一块蛋糕，下层放着几只玻璃杯。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/55/1c/551caf0f404a7d0220ccd214dd165043.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "上下两层分别放着蛋糕和饮品的 FULLSPÄCKAD 弗斯派嘉德 竹盘正被人利用把手端着。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ef/39/ef39dfcb6381b05eec5811d1f516a8d0.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "便携的甜品 FULLSPÄCKAD 弗斯派嘉德 盘子设计巧妙，设有灵活实用的把手，便于将食物从厨房端到餐桌。更棒的是，盘子采用竹子制成，一种可再生且生长迅速的天然材料，是可持续之选。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/55/1c/551caf0f404a7d0220ccd214dd165043.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/ef/39/ef39dfcb6381b05eec5811d1f516a8d0.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   }
  ]

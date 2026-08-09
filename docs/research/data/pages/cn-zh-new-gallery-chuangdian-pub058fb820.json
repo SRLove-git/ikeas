@@ -11,7 +11,7 @@
    "title": "LATTJO 拉特奥 系列的新角色！",
    "texts": [
     "四个孩子坐在地板的床垫上，被套和枕套上饰有奇异而有趣的角色图案，如吸血鬼、幽灵、字母和数字等。",
-    "<p>我们与梦工厂携手，为儿童打造趣味十足、俏皮可爱的 LATTJO 拉特奥 系列。老鹰Ernst、吸血鬼Victor等新形象应运而生。</p>",
+    "我们与梦工厂携手，为儿童打造趣味十足、俏皮可爱的 LATTJO 拉特奥 系列。老鹰Ernst、吸血鬼Victor等新形象应运而生。",
     "LATTJO 拉特奥 系列的新角色！",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "LATTJO 拉特奥 系列的新角色！",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/03/3d/033da9551052612f41305ab2e096181a.gif",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -46,16 +56,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "儿童房内放有一张白色的床，床上铺着蓝色被套，上面印有奇异而有趣的角色图案，如吸血鬼、蝙蝠、幽灵和机器人。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/16/97/1697de1369c86467b03a55b4de7ccfd0.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>宜家现已有售这些新角色的可爱毛绒玩具和印有其图案的床上用品，它们能让孩子展开想象的翅膀，为家长们讲述睡前故事带来灵感。 </p>"
+    "宜家现已有售这些新角色的可爱毛绒玩具和印有其图案的床上用品，它们能让孩子展开想象的翅膀，为家长们讲述睡前故事带来灵感。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -78,16 +100,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "儿童房内放有一张壁室床，床上铺着饰有云朵、树木、动物和花朵图案的被套。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/84/9a/849ad1d47e042f686d663bf6ba0a28b6.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>LATTJO 拉特奥 系列的被套和靠垫上饰有配角图案，它们让故事场景更生动，可激发孩子的灵感，给想象力插上翅膀！</p>"
+    "LATTJO 拉特奥 系列的被套和靠垫上饰有配角图案，它们让故事场景更生动，可激发孩子的灵感，给想象力插上翅膀！"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -110,16 +144,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "一只戴着蓝色护目镜的毛绒玩具猫，一只毛绒玩具猫头鹰，坐在床上阅读一本名为《The Root Queen’s Dream》的书。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/32/b1/32b1cd3f2304b19fdc195099e27c0235.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>LATTJO 拉特奥 系列产品充满各种新角色，讲述关于友谊与勇气的美好故事，让孩子在玩乐中启发想象力。</p>"
+    "LATTJO 拉特奥 系列产品充满各种新角色，讲述关于友谊与勇气的美好故事，让孩子在玩乐中启发想象力。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -135,6 +181,14 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "LATTJO 拉特奥",
+     "text": "¥149",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lattjo-la-te-ao-bei-tao-he-zhen-tao-dong-wu-duo-se__0650745_pe706474_s4.jpg",
+     "href": "/cn/zh/p/lattjo-la-te-ao-bei-tao-he-zhen-tao-dong-wu-duo-se-40351010/"
+    }
+   ],
    "settings": null
   }
  ]

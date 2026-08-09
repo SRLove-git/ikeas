@@ -10,7 +10,7 @@
    "type": "pub-hero",
    "title": "关键不在于名气， 而在于学习。",
    "texts": [
-    "<p>宜家打开了设计界的大门，开始与新锐设计师以及颇有建树的知名设计师携手合作。</p>\n<p>想利用他们的&ldquo;酷劲儿&rdquo;？</p>\n<p>并非如此。宜家看重的是创意的自由流动，并致力于打造开放包容，且可向各个方向延展的设计文化。</p>",
+    "宜家打开了设计界的大门，开始与新锐设计师以及颇有建树的知名设计师携手合作。 想利用他们的“酷劲儿”？ 并非如此。宜家看重的是创意的自由流动，并致力于打造开放包容，且可向各个方向延展的设计文化。",
     "关键不在于名气， 而在于学习。",
     "normal"
    ],
@@ -23,6 +23,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "关键不在于名气， 而在于学习。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ce/07/ce074d2ce63407da6faca37e937f5a3e.png",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -33,6 +43,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -51,16 +63,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/81/03/81034938a5733277fc8b051e375f9979.png",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>CHRIS STAMP</h2>\n<h4>与Chris Stamp携手打造街头元素</h4>\n<p>为探索如何将轻松休闲的街头文化和体育运动融入家居生活，IKEA of Sweden找到了休闲服饰的设计先锋Chris Stamp。他们携手打造了 SP&Auml;NST 斯班特 系列，旨在支持充满运动活力的都市生活方式。</p>\n<p><a href=\"http://ikea.today/curious-chris-stamp/\">访问IKEA.Today，了解更多有关 SP&Auml;NST 斯班特 系列与CHRIS STAMP的信息</a></p>\n<p><strong>SP&Auml;NSTIG 斯潘迪 系列&mdash;&mdash;2018年5月起售</strong></p>"
+    "CHRIS STAMP 与Chris Stamp携手打造街头元素 为探索如何将轻松休闲的街头文化和体育运动融入家居生活，IKEA of Sweden找到了休闲服饰的设计先锋Chris Stamp。他们携手打造了 SPäNST 斯班特 系列，旨在支持充满运动活力的都市生活方式。 访问IKEA.Today，了解更多有关 SPäNST 斯班特 系列与CHRIS STAMP的信息 SPäNSTIG 斯潘迪 系列——2018年5月起售"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -71,6 +95,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -89,16 +115,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/63/d8/63d8adc2aeee5e872043618a5e0120be.png",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>TOM DIXON</h2>\n<h4>IKEA of Sweden和Tom Dixon携手打造了 DELAKTIG 迪拉提 铝质沙发，并将它设计成了一个开放式平台。</h4>\n<p>&ldquo;我们仍在争论它到底是沙发还是床。但这并不重要。它其实是一个空间，可供人进行个性化设计及随意使用。&rdquo;Tom Dixon解释道。</p>\n<p><a href=\"http://ikea.today/curious-tom-dixon/\"> 访问ikea.today，了解更多有关TOM DIXON的信息</a></p>\n<p><strong>DELAKTIG 迪拉提 系列&mdash;&mdash;2018年2月起售</strong></p>"
+    "TOM DIXON IKEA of Sweden和Tom Dixon携手打造了 DELAKTIG 迪拉提 铝质沙发，并将它设计成了一个开放式平台。 “我们仍在争论它到底是沙发还是床。但这并不重要。它其实是一个空间，可供人进行个性化设计及随意使用。”Tom Dixon解释道。 访问ikea.today，了解更多有关TOM DIXON的信息 DELAKTIG 迪拉提 系列——2018年2月起售"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -109,6 +147,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -120,6 +160,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -130,6 +172,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -148,16 +192,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/c7/a6/c7a62533f751718e9ce675a4f889bbc8.png",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>HAY</h2>\n<h4>基本日常用品之美</h4>\n<p>如果全球知名的家居用品品牌引入丹麦风格设计，结果会怎样？为了找到答案，IKEA of Sweden携手丹麦设计公司HAY，打造了 YPPERLIG 伊波利 系列，展现基本日常用品之美。</p>\n<p><a href=\"https://www.ikea.cn/cn/zh/cat/ypperlig-37119/\">查看更多 YPPERLIG 伊波利 系列产品</a></p>\n<p><a href=\"http://ikea.today/curious-on-hay/\">访问ikea.today，了解更多有关HAY的信息</a></p>\n<p><strong>YPPERLIG 伊波利 系列&mdash;&mdash;2017年10月起售</strong></p>"
+    "HAY 基本日常用品之美 如果全球知名的家居用品品牌引入丹麦风格设计，结果会怎样？为了找到答案，IKEA of Sweden携手丹麦设计公司HAY，打造了 YPPERLIG 伊波利 系列，展现基本日常用品之美。 查看更多 YPPERLIG 伊波利 系列产品 访问ikea.today，了解更多有关HAY的信息 YPPERLIG 伊波利 系列——2017年10月起售"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -168,6 +224,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -186,16 +244,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/24/2a/242a9b71d2f6099982bb47dfd32e91df.png",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>BEA &Aring;KERLUND</h2>\n<h4>&ldquo;这个系列旨在让人能轻松面对生活。我希望人们能在生活中体验到些许乐趣。&rdquo;&nbsp;</h4>\n<p>OMEDELBAR 乌米德巴 系列当然会保留&ldquo;宜家风格&rdquo;，但同时也融入了全新元素：哥特风情和魅惑元素在此系列中融合，让人仿佛置身于专属好莱坞展厅。大号玻璃帽、红唇形枕头、采用3D打印技术制作而成的手形珠宝展示台，以及B形灯具，全都体现了时尚达人Bea的独特风格。</p>\n<p><a href=\"http://ikea.today/dress-ups-bea-akerlund/\">访问IKEA.Today，了解更多有关 OMEDELBAR 乌米德巴 系列与Bea &Aring;kerlund的信息</a></p>"
+    "BEA åKERLUND “这个系列旨在让人能轻松面对生活。我希望人们能在生活中体验到些许乐趣。” OMEDELBAR 乌米德巴 系列当然会保留“宜家风格”，但同时也融入了全新元素：哥特风情和魅惑元素在此系列中融合，让人仿佛置身于专属好莱坞展厅。大号玻璃帽、红唇形枕头、采用3D打印技术制作而成的手形珠宝展示台，以及B形灯具，全都体现了时尚达人Bea的独特风格。 访问IKEA.Today，了解更多有关 OMEDELBAR 乌米德巴 系列与Bea åkerlund的信息"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -206,16 +276,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h4><strong>阅读更多2017年宜家集锦内容</strong></h4>"
+    "阅读更多2017年宜家集锦内容"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -248,6 +322,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "回收利用塑料",
+     "text": "想象一个没有废弃物的世界。那里可以利用塑料材质的废弃饮料瓶打造全新厨房。觉得不可能? 并非如此。我们有真实案例。",
+     "image": "https://file.app.ikea.cn/images/08/81/0881b02d65e13448c3c514eee1ea77fb.jpg",
+     "href": "/cn/zh/this-is-ikea/newsroom/recycle-pub5bb4cb64",
+     "backgroundColor": null
+    },
+    {
+     "title": "驱散黑暗",
+     "text": "宜家关爱地球，同时也热衷于为大众创造更美好的生活。“照亮难民的生活”活动得到了宜家员工和顾客的大力支持，IKEA Foundation从中募集到了大量资金，资助建成了全球首座难民营太阳能电站。",
+     "image": "https://file.app.ikea.cn/images/18/d7/18d7a2608b70330c64d991a2533d7cda.jpg",
+     "href": "/cn/zh/this-is-ikea/newsroom/refugees-pubbaee0c05",
+     "backgroundColor": null
+    },
+    {
+     "title": "米兰邂逅全新客厅",
+     "text": "客厅是日常居家生活最重要的地点，作为各种活动发生的场所，这里理应是是家中最灵活、最多功能的空间。",
+     "image": "https://file.app.ikea.cn/images/d7/e0/d7e000302ff3f7924da1e48da54158e0.jpg",
+     "href": "/cn/zh/this-is-ikea/newsroom/milan-pubc46f1a1e",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -268,6 +366,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

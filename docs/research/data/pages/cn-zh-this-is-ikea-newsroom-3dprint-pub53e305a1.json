@@ -10,7 +10,7 @@
    "type": "pub-hero",
    "title": "走进3D打印的世界",
    "texts": [
-    "<p><strong>撰稿人：VANESSA ALGOTSSON</strong></p>\n<p>准备好迎接新事物了吗？宜家也准备好了。但是，你对家居生活有了诸多探索之后，下一步会怎么做？</p>\n<p>宜家与来自安特卫普的时尚设计师Walter Van Beirendonck合作，联手打造了 GL&Ouml;DANDE 格洛德 限量系列。该系列由设计师Van Beirendonck打造，色彩明亮，充满了各种奇思妙想，充分展现了云朵的孩子&mdash;&mdash;Wondermooi小精灵们的梦幻世界。这些你从未见过的漂亮古怪的小精灵，为预裁布料、文具、购物袋、地毯、瓷器和枕头赋予了天马行空的灵感，让整个系列大放异彩。</p>\n<p>&ldquo;开始设计每一个系列时，我会进行调查研究，并结合我所喜欢的元素。接手宜家这个项目时，我希望将它尽可能向一个时尚系列靠拢。设计过程中，我心中不断涌现出不同的故事和创意，并希望能把这些灵感汇聚在一起，集中展现出来。我希望通过这一系列讲个故事。&rdquo;Van Beirendonck说道</p>",
+    "撰稿人：VANESSA ALGOTSSON 准备好迎接新事物了吗？宜家也准备好了。但是，你对家居生活有了诸多探索之后，下一步会怎么做？ 宜家与来自安特卫普的时尚设计师Walter Van Beirendonck合作，联手打造了 GLöDANDE 格洛德 限量系列。该系列由设计师Van Beirendonck打造，色彩明亮，充满了各种奇思妙想，充分展现了云朵的孩子——Wondermooi小精灵们的梦幻世界。这些你从未见过的漂亮古怪的小精灵，为预裁布料、文具、购物袋、地毯、瓷器和枕头赋予了天马行空的灵感，让整个系列大放异彩。 “开始设计每一个系列时，我会进行调查研究，并结合我所喜欢的元素。接手宜家这个项目时，我希望将它尽可能向一个时尚系列靠拢。设计过程中，我心中不断涌现出不同的故事和创意，并希望能把这些灵感汇聚在一起，集中展现出来。我希望通过这一系列讲个故事。”Van Beirendonck说道",
     "走进3D打印的世界",
     "normal"
    ],
@@ -23,6 +23,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "走进3D打印的世界",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/34/93/349359ebe976020ad320641952103e07.png",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -39,6 +49,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -64,6 +76,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/2c/44/2c440f81cb6877524e58eae3fa870390.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ed/8b/ed8b2984f7e0ee58080e371f1bf00046.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/2c/44/2c440f81cb6877524e58eae3fa870390.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/ed/8b/ed8b2984f7e0ee58080e371f1bf00046.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -71,7 +114,7 @@
    "title": null,
    "texts": [
     "pub-column",
-    "<h3><strong><em>&ldquo;设计过程中，我心中不断涌现出不同的故事和创意，并希望能把这些灵感汇聚在一起，集中展现出来。我希望通过这一系列讲个故事。</em></strong></h3>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>该系列不仅仅是精美的家居配件。宜家还开创性地为系列中的五个Wondermooi小精灵推出了3D打印预设文件，随附3D模型涂色指南。立刻动手，发挥创造力吧！</p>",
+    "“设计过程中，我心中不断涌现出不同的故事和创意，并希望能把这些灵感汇聚在一起，集中展现出来。我希望通过这一系列讲个故事。 该系列不仅仅是精美的家居配件。宜家还开创性地为系列中的五个Wondermooi小精灵推出了3D打印预设文件，随附3D模型涂色指南。立刻动手，发挥创造力吧！",
     "pub-text",
     "pub-image",
     "IMAGE",
@@ -86,16 +129,42 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b2/f7/b2f73cecc31eb49a0cf85701cbbf0c99.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "“设计过程中，我心中不断涌现出不同的故事和创意，并希望能把这些灵感汇聚在一起，集中展现出来。我希望通过这一系列讲个故事。 该系列不仅仅是精美的家居配件。宜家还开创性地为系列中的五个Wondermooi小精灵推出了3D打印预设文件，随附3D模型涂色指南。立刻动手，发挥创造力吧！",
+     "text": null,
+     "image": null,
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/b2/f7/b2f73cecc31eb49a0cf85701cbbf0c99.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>阅读更多2016年宜家集锦内容</h2>"
+    "阅读更多2016年宜家集锦内容"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -128,6 +197,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "欢迎探索印度的另一面",
+     "text": "一提到印度设计，大多数人总会联想到各种明艳色彩和金色装饰。但 SVÄRTAN 斯瓦顿 系列却采用了黑色、白色和深浅不同的灰色，完全不同以往的印度风格。因此，初看上去，似乎并无惊喜可言，然而，仔细一看，却实实在在采用了印度传统技艺。 ",
+     "image": "https://file.app.ikea.cn/images/e4/87/e48736b8762896a6ca966e1480d513c4.jpg",
+     "href": "/cn/zh/this-is-ikea/newsroom/design-pube9996d73",
+     "backgroundColor": null
+    },
+    {
+     "title": "优秀短片和精彩广告",
+     "text": "点击播放，观看全球宜家本年度最受欢迎的广告和短片。进一步了解宜家的品牌形象、企业使命，以及其在家居行业的独特设计理念。 ",
+     "image": "https://file.app.ikea.cn/images/a8/79/a87918590009a2872aa7cd54846eb335.jpg",
+     "href": "/cn/zh/this-is-ikea/newsroom/advertising-pubdc28461a",
+     "backgroundColor": null
+    },
+    {
+     "title": "对于流离失所的难民来说， 家意味着什么",
+     "text": "对我们许多人来说，进门前脱鞋是一个再寻常不过的动作。而对难民营里的人来说，这个多数人习以为常的动作却有着更深层次的意义。这是因为他们对家的概念怀着深深的敬意，即使这也只是一个短暂、飘忽不定的“家”。",
+     "image": "https://file.app.ikea.cn/images/85/f4/85f44217455a184e415550495a3b229a.jpeg",
+     "href": "/cn/zh/this-is-ikea/newsroom/refugees-pub53e97e01",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -148,6 +241,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

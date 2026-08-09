@@ -5,7 +5,7 @@ import { allProducts } from "@/data/products-index";
 import { formatPrice } from "@/lib/catalog";
 
 export default function WishlistPage() {
-  const items = allProducts.slice(0, 8);
+  const items = allProducts().slice(0, 8);
   return (
     <SiteLayout>
       <div className="font-ikea min-h-screen bg-white text-ikea-black">

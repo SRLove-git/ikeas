@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Page Title-"
    }
@@ -62,6 +64,65 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "订单跟踪和管理",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/95/9e/959e6d9416a7a3c8387b595a16f5d963.png",
+     "href": "/cn/zh/customer-service/track-manage-order/",
+     "backgroundColor": null
+    },
+    {
+     "title": "我们的服务",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/4f/65/4f6515cb518002fdd849d2ec92328e33.png",
+     "href": "/cn/zh/customer-service/services/",
+     "backgroundColor": null
+    },
+    {
+     "title": "产品介绍",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/4e/f7/4ef7e853d3121ca16d8b62a880373e99.png",
+     "href": "/cn/zh/customer-service/product-support/",
+     "backgroundColor": null
+    },
+    {
+     "title": "购物介绍",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/81/fe/81feacd9e4138f539e52806fc9eeced8.png",
+     "href": "/cn/zh/customer-service/shopping-at-ikea/",
+     "backgroundColor": null
+    },
+    {
+     "title": "付款方式",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/10/f3/10f30275f13605e2da057fbca4f3a8d6.png",
+     "href": "/cn/zh/customer-service/payment-options/",
+     "backgroundColor": null
+    },
+    {
+     "title": "失物认领",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20221222/e4c0193b30b14c488d10f283a7368092.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/customer-service/shopping-at-ikea/lost-and-found/",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "常见问题",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/8e/15/8e1595440d7aa4f8601308693f2b690d.png",
+     "href": "/cn/zh/customer-service/faq/",
+     "backgroundColor": null
+    },
+    {
+     "title": "隐私和安全",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d4/ef/d4efacbd25f83d84d8075ac1aae5f72b.png",
+     "href": "/cn/zh/customer-service/privacy-security/",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Visual Navigation-"
    }
@@ -96,6 +157,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "设计服务",
+     "text": "了解 详情",
+     "image": null,
+     "href": "/cn/zh/customer-service/services/kitchen-planning/",
+     "backgroundColor": null
+    },
+    {
+     "title": "送货服务",
+     "text": "了解详情",
+     "image": null,
+     "href": "/cn/zh/customer-service/services/delivery/",
+     "backgroundColor": null
+    },
+    {
+     "title": "组装服务",
+     "text": "了解详情",
+     "image": null,
+     "href": "/cn/zh/customer-service/services/assembly/",
+     "backgroundColor": null
+    },
+    {
+     "title": "退货政策",
+     "text": "了解详情",
+     "image": null,
+     "href": "/cn/zh/customer-service/returns-claims/return-policy/",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Assurances-"
    }
@@ -104,10 +196,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>常见问题</strong></h2>"
+    "常见问题"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -118,11 +212,13 @@
    "texts": [
     "1. 如何查询网上配送范围和运费？",
     "column",
-    "<p>1. 如何查询网上配送范围和运费？</p>\n<p>目前，我们为全国306个城市范围提供快递包裹配送和货车配送服务。你可以添加商品至购物车以后可以通过输入具体地址和邮政编码，查看线上购物配送范围和运费。<br />送货服务信息和收费标准请浏览<a href=\"https://www.ikea.cn/cn/zh/customer-service/services/delivery/\">送货服务</a>页面了解详情。</p>",
+    "1. 如何查询网上配送范围和运费？ 目前，我们为全国306个城市范围提供快递包裹配送和货车配送服务。你可以添加商品至购物车以后可以通过输入具体地址和邮政编码，查看线上购物配送范围和运费。 送货服务信息和收费标准请浏览送货服务页面了解详情。",
     "pub-text"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Expandable Area-"
    }
@@ -133,11 +229,13 @@
    "texts": [
     "2. 如何预约组装服务？",
     "column",
-    "<p>2. 如何预约组装服务？</p>\n<p>在配送范围内的地区我们都提供家具组装服务。</p>\n<p>宜家提供以下两种有偿组装服务：<br /><strong>&rdquo;万师傅&rdquo;平台组装服务：</strong> 先完成商品付款，然后用微信扫描二维码自助预约组装服务。</p>\n<p><strong>宜家有偿组装服务：</strong>将商品加入购物车后，在购物车页面点击选择预定宜家有偿组装服务，请先完成商品付款。宜家客服将根据您选择组装的商品，与您确认具体组装价格、组装时间。<br />组装服务信息和收费标准请浏览<a href=\"https://www.ikea.cn/cn/zh/customer-service/services/assembly/\" target=\"_blank\" rel=\"noopener\">组装服务</a>页面了解详情。</p>",
+    "2. 如何预约组装服务？ 在配送范围内的地区我们都提供家具组装服务。 宜家提供以下两种有偿组装服务： ”万师傅”平台组装服务： 先完成商品付款，然后用微信扫描二维码自助预约组装服务。 宜家有偿组装服务：将商品加入购物车后，在购物车页面点击选择预定宜家有偿组装服务，请先完成商品付款。宜家客服将根据您选择组装的商品，与您确认具体组装价格、组装时间。 组装服务信息和收费标准请浏览组装服务页面了解详情。",
     "pub-text"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Expandable Area-"
    }
@@ -148,11 +246,13 @@
    "texts": [
     "3. 如何查询订单物流配送状态？",
     "column",
-    "<p>3. 如何查询订单物流配送状态？</p>\n<p>宜家会根据你选择的送货服务日期和时间段提前与你联系&hellip;&hellip;确保货物按时抵达。您可以登录微信小程序&ldquo;宜家俱乐部&rdquo; 查询具体的送货信息。如果您是在线购物您可以在&rdquo;我的订单&rdquo;页面通过自助查询到货情况，或联系我们宜家在线客服查询配送状态。</p>",
+    "3. 如何查询订单物流配送状态？ 宜家会根据你选择的送货服务日期和时间段提前与你联系……确保货物按时抵达。您可以登录微信小程序“宜家俱乐部” 查询具体的送货信息。如果您是在线购物您可以在”我的订单”页面通过自助查询到货情况，或联系我们宜家在线客服查询配送状态。",
     "pub-text"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Expandable Area-"
    }
@@ -163,11 +263,13 @@
    "texts": [
     "4. 如何获取发票？",
     "column",
-    "<p>4. 如何获取发票？</p>\n<p>宜家网上商城购物的：完成网上订单支付后，你会通过注册时填写的邮箱获得网上订单电子收银条。通过扫描电子收银条上的二维码，自助在线填写开票信息、申请开具电子增值税普通发票，或者增值税专用发票。对于增值税专用发票，待审核无误后，宜家将于下单后15天之后单独开具并快递寄出。</p>\n<p>在宜家商场购物的：你可以通过扫描收银条上二维码自助申请开具电子增值税普通发票。或者携带必要的开票资料，和收银条一起至原购物商场发票台，申请开具增值税专用发票。</p>",
+    "4. 如何获取发票？ 宜家网上商城购物的：完成网上订单支付后，你会通过注册时填写的邮箱获得网上订单电子收银条。通过扫描电子收银条上的二维码，自助在线填写开票信息、申请开具电子增值税普通发票，或者增值税专用发票。对于增值税专用发票，待审核无误后，宜家将于下单后15天之后单独开具并快递寄出。 在宜家商场购物的：你可以通过扫描收银条上二维码自助申请开具电子增值税普通发票。或者携带必要的开票资料，和收银条一起至原购物商场发票台，申请开具增值税专用发票。",
     "pub-text"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Expandable Area-"
    }
@@ -178,11 +280,13 @@
    "texts": [
     "5. 如何查询网上商城产品库存？",
     "column",
-    "<p>5. 如何查询网上商城产品库存？</p>\n<p>将商品加入购物车输入地址和邮编之后，网页上会显示商品的库存信息。如遇&ldquo;暂时缺货&rdquo;可能是您购买的商品在该区域暂时缺货，您可以在产品详情页查询实体商场库存后至商场购买，或者加入心愿单后续购买。</p>",
+    "5. 如何查询网上商城产品库存？ 将商品加入购物车输入地址和邮编之后，网页上会显示商品的库存信息。如遇“暂时缺货”可能是您购买的商品在该区域暂时缺货，您可以在产品详情页查询实体商场库存后至商场购买，或者加入心愿单后续购买。",
     "pub-text"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Expandable Area-"
    }
@@ -193,11 +297,13 @@
    "texts": [
     "6. 如何退换货？",
     "column",
-    "<p>6. 如何退换货？</p>\n<p><a href=\"https://www.ikea.cn/cn/zh/customer-service/returns-claims/return-policy/\">退货政策</a></p>",
+    "6. 如何退换货？ 退货政策",
     "pub-text"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Expandable Area-"
    }
@@ -208,11 +314,13 @@
    "texts": [
     "7. 如何联系宜家网上商城客服？",
     "column",
-    "<p>7. 如何联系宜家网上商城客服？</p>\n<p>您可以通过点击&ldquo;在线客服&rdquo;小黄人标志开始对话，或拨打400-800-2345客服热线。<br />电话人工服务时间为周一至周日09:00-18:00<br />在线客服人工服务时间为周一至周日09:00-22:00</p>",
+    "7. 如何联系宜家网上商城客服？ 您可以通过点击“在线客服”小黄人标志开始对话，或拨打400-800-2345客服热线。 电话人工服务时间为周一至周日09:00-18:00 在线客服人工服务时间为周一至周日09:00-22:00",
     "pub-text"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Expandable Area"
    }
@@ -221,10 +329,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>联系我们</h2>\n<p>敬请提问或咨询，我们将竭诚为您服务。</p>"
+    "联系我们 敬请提问或咨询，我们将竭诚为您服务。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -247,6 +357,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Link - button or text-"
    }
@@ -257,7 +369,7 @@
    "texts": [
     "image-text-landscape",
     "IMAGE",
-    "<p>访问本地商场，获得家居灵感。我们热烈欢迎您浏览我们的产品以及房间搭配，尝一尝美味的食物。</p>",
+    "访问本地商场，获得家居灵感。我们热烈欢迎您浏览我们的产品以及房间搭配，尝一尝美味的食物。",
     "寻找您附近的宜家",
     "/stores/",
     "NO"
@@ -279,6 +391,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/96/3b/963b218afb1bf007ea3ad982105116fa.png",
+     "href": null,
+     "backgroundColor": "#f5f5f5"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Banner-"
    }
@@ -318,6 +440,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "我们的服务",
+     "text": "我们的服务",
+     "image": "https://file.app.ikea.cn/images/17/33/1733aab9682fb11f3617c26d3a71d2ed.png",
+     "href": "/cn/zh/customer-service/services/",
+     "backgroundColor": null
+    },
+    {
+     "title": "产品介绍",
+     "text": "产品介绍",
+     "image": "https://file.app.ikea.cn/images/f0/08/f00831ab8b0125399b9805fbe1808056.png",
+     "href": "/cn/zh/customer-service/product-support/",
+     "backgroundColor": null
+    },
+    {
+     "title": "付款方式",
+     "text": "付款方式",
+     "image": "https://file.app.ikea.cn/images/10/f3/10f30275f13605e2da057fbca4f3a8d6.png",
+     "href": "/cn/zh/customer-service/services/finance-options/",
+     "backgroundColor": null
+    },
+    {
+     "title": "隐私政策",
+     "text": "宜家顾客个人信息政策, 个人信息,政策,注意事项,隐私政策",
+     "image": "https://file.app.ikea.cn/images/8a/65/8a653d65afa3f1eebf0d91beabb6be8c.png",
+     "href": "/cn/zh/customer-service/privacy-policy/",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Page List-"
    }

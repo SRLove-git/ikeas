@@ -1,25 +1,11 @@
 import Link from "next/link";
 import { SiteLayout } from "@/components/SiteLayout";
 import { SiteImage } from "@/components/SiteImage";
-import { allProducts } from "@/data/products-index";
+import { orders, orderWithProducts } from "@/data/orders";
 import { formatPrice } from "@/lib/catalog";
 
-const orders = [
-  {
-    id: "20260808001",
-    date: "2026-08-08",
-    status: "待收货",
-    items: [allProducts[0], allProducts[1]],
-  },
-  {
-    id: "20260715002",
-    date: "2026-07-15",
-    status: "已完成",
-    items: [allProducts[2], allProducts[3]],
-  },
-];
-
 export default function MyOrdersPage() {
+  const orderList = orders().map(orderWithProducts);
   return (
     <SiteLayout>
       <div className="font-ikea min-h-screen bg-ikea-gray-100 text-ikea-black">
@@ -39,8 +25,8 @@ export default function MyOrdersPage() {
           <h1 className="text-2xl font-bold leading-9">我的订单</h1>
 
           <div className="mt-8 space-y-4">
-            {orders.map((order) => {
-              const total = order.items.reduce((sum, p) => sum + (p.price ?? 0), 0);
+            {orderList.map((order) => {
+              const total = order.total;
               return (
                 <section key={order.id} className="bg-white p-6">
                   <div className="flex flex-wrap items-center justify-between gap-2 border-b border-ikea-gray-200 pb-4">
@@ -52,7 +38,7 @@ export default function MyOrdersPage() {
                   </div>
                   <div className="mt-4 flex items-center gap-4">
                     <div className="flex flex-1 gap-3">
-                      {order.items.map((product) => (
+                      {order.products.map((product) => (
                         <Link
                           key={product.id}
                           href={`/cn/zh/p/${product.slug}/`}

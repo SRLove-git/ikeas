@@ -10,7 +10,7 @@
    "type": "pub-hero",
    "title": "夏季系列",
    "texts": [
-    "<p><strong>这个夏天，没有什么地方比得上家</strong></p>\n<p>夏天终于来临了。今年，我们要在家里享受完整的假期时光。慢下来，认真度过每一天，捕捉一些美好瞬间，给来年的夏季留下回忆。</p>",
+    "这个夏天，没有什么地方比得上家 夏天终于来临了。今年，我们要在家里享受完整的假期时光。慢下来，认真度过每一天，捕捉一些美好瞬间，给来年的夏季留下回忆。",
     "夏季系列",
     "normal"
    ],
@@ -23,6 +23,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "夏季系列",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d2/5e/d25ee52583a7fe62af7dd143cb0345e9.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -41,16 +51,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/6a/70/6a70f4f656bf02334ef4bdf865a48915.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h4><strong>在家享用最棒的酒店早餐</strong></h4>\n<p>难道只有在酒店才能享用最好的早餐吗？亲自动手制作早餐，这样你可以随心决定配料，自由把握时间。<br /><br /></p>"
+    "在家享用最棒的酒店早餐 难道只有在酒店才能享用最好的早餐吗？亲自动手制作早餐，这样你可以随心决定配料，自由把握时间。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -69,16 +91,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/fd/f5/fdf5b8241e44f8bec856f5f4edcc36b2.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h4><strong>找个地方晒晒太阳吧</strong></h4>\n<p>全新的纺织品、太阳能灯具，还有几件留下长久回忆的必备物品，助你开启心血来潮的日间探险之旅。</p>"
+    "找个地方晒晒太阳吧 全新的纺织品、太阳能灯具，还有几件留下长久回忆的必备物品，助你开启心血来潮的日间探险之旅。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -97,16 +131,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d5/cb/d5cb12543ab5e63337c060c8153d33d0.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h4><strong>在夏日午睡中恢复活力</strong></h4>\n<p>你是否也难以抗拒夏日小睡的诱惑？找到 HAVSTEN 霍夫斯田 户外沙发被称为夏日午睡伴侣的答案。<strong><br /></strong></p>"
+    "在夏日午睡中恢复活力 你是否也难以抗拒夏日小睡的诱惑？找到 HAVSTEN 霍夫斯田 户外沙发被称为夏日午睡伴侣的答案。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -125,6 +171,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ec/e0/ece045c2d092f5a54ad5864a9c248a85.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -143,26 +199,40 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/71/5a/715a12e12bb40f5293feeac8192f4f48.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>用 S&Ouml;THOLMEN 索特候姆 垫套为你的户外空间增添色彩和个性。在越南的太平省手工编织而成，每一个垫套都折射出手工匠人的精湛技艺。 </p>"
+    "用 SöTHOLMEN 索特候姆 垫套为你的户外空间增添色彩和个性。在越南的太平省手工编织而成，每一个垫套都折射出手工匠人的精湛技艺。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h4><strong>在后院与亲密伙伴共享休闲时光</strong></h4>\n<p>播放你最爱的夏日音乐，邀请最亲密的人共享户外休闲时光。</p>"
+    "在后院与亲密伙伴共享休闲时光 播放你最爱的夏日音乐，邀请最亲密的人共享户外休闲时光。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -182,6 +252,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/9b/66/9b667d9aae7fcc986a79af0142de30b1.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -200,16 +280,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/85/ec/85ec2698d7d1de6fc5aaee7bf1939d5f.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h4><strong>举办一场户外聚餐</strong></h4>"
+    "举办一场户外聚餐"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -228,6 +320,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/f4/34/f434256d206461a715c0c5a4c5a3b2d5.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -247,16 +349,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/8c/71/8c71265bae2b496772b29b96c82e24fd.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h4><strong>夏日在窗台边专注于心</strong></h4>\n<p>没有阳台或者后院？拿出不用的床垫或者一摞枕头，铺上几条休闲毯，倒上一杯爽心的饮品，便能尽情享受惬意的夏季时光。</p>"
+    "夏日在窗台边专注于心 没有阳台或者后院？拿出不用的床垫或者一摞枕头，铺上几条休闲毯，倒上一杯爽心的饮品，便能尽情享受惬意的夏季时光。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -276,16 +390,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a9/33/a9332b7dcf718f3f35ca7884390424ab.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h4><strong>在夜晚在海边度过悠闲的二人时光</strong></h4>"
+    "在夜晚在海边度过悠闲的二人时光"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -304,6 +430,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/de/a5/dea57df58699552f83b9fd0b858661ae.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -323,16 +459,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d7/72/d772a59a2fba418d24de39d6d693ee52.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h4><strong>世界之巅的夏日夜晚</strong></h4>\n<p>没有什么比自由更像高度，这个夏天邀请朋友们来屋顶走走吧。用灯串和蜡烛营造氛围，尽情放松吧。</p>"
+    "世界之巅的夏日夜晚 没有什么比自由更像高度，这个夏天邀请朋友们来屋顶走走吧。用灯串和蜡烛营造氛围，尽情放松吧。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -351,6 +499,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e6/50/e650f690655db0c1fa42cbac97deacf1.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -370,6 +528,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/36/4e/364e7a6d9bf8f1efd34e8c47da3740dc.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -382,6 +550,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

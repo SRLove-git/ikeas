@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -34,16 +36,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "开放式办公室里设有两个休息区。一位男士坐在 KOARP 克阿普 单人沙发中工作，还有两个人在 BEKANT 贝肯特 搁架单元旁聊天。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b4/79/b479d46c1663ba49c1565d932772efc4.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>开放式办公室里精心布置着几个工作台和休息区，打造出适合开展创意协作及团队合作的灵活空间。巧妙的储物家具和房间隔断可以令空间保持灵活多变，用于展开各类活动。</p>"
+    "开放式办公室里精心布置着几个工作台和休息区，打造出适合开展创意协作及团队合作的灵活空间。巧妙的储物家具和房间隔断可以令空间保持灵活多变，用于展开各类活动。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -71,6 +85,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "两个办公区：一处摆放着几张高凳，颇有酒吧风情，另一处则摆着一排桌子。后侧，一位男士站在正面装有玻璃的办公室里。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ad/0b/ad0b1b87ca0b7f9c9e11e3aa975a46f9.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "HATTEFJÄLL 哈德夫耶尔 办公椅配有米色布艺垫套，后方的白色书桌上摆放着一台电脑。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ab/4e/ab4e751be960b20e61ce783ff4b99f74.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "对空间加以巧妙利用，打造氛围宜人的休息区。这张长长的吧台旁可以欣赏到美丽的风景，还配有 YNGVAR 伊格瓦 凳子，可供人们在舒适氛围中专注办公。吧台后方，BEKANT 贝肯特 会议桌和 SKURUP 斯库鲁 吊灯为会议和工作回顾打造了一处理想的空间。",
+     "image": "https://file.app.ikea.cn/images/ad/0b/ad0b1b87ca0b7f9c9e11e3aa975a46f9.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "用简洁而整齐的椅子，让书桌周围看上去整洁有序。HATTEFJÄLL 哈德夫耶尔 办公椅曲线优雅迷人，可提供符合人体工学的腰撑。此外，它采用倾斜的可调节设计，起落自如，可使用多年。",
+     "image": "https://file.app.ikea.cn/images/ab/4e/ab4e751be960b20e61ce783ff4b99f74.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -93,6 +138,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "玻璃墙壁的会议室里摆放着一张巨大的白色桌子。天花板上悬挂着一排黑色 SKURUP 斯库鲁 吊灯。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b7/11/b711e79fb059ead4041570aded86d9ba.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/b7/11/b711e79fb059ead4041570aded86d9ba.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "无论用作协同办公空间，还是在这里向客户进行演示，一间光线充足、通风良好的会议室总能让人精神振奋、心情鼓舞。房间中央摆放着巨大的白色桌子，用两张 BEKANT 贝肯特 会议桌就能轻松拼成。",
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -108,6 +177,26 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "GLADOM 格拉登",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/gladom-ge-la-deng-tuo-pan-zhuo-hei-se__0567223_pe664991_s4.jpg",
+     "href": "/cn/zh/p/gladom-ge-la-deng-tuo-pan-zhuo-hei-se-00411997/"
+    },
+    {
+     "title": "YNGVAR 伊格瓦",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/yngvar-yi-ge-wa-ba-tai-deng-mei-hei-se__0714270_pe729999_s4.jpg",
+     "href": "/cn/zh/p/yngvar-yi-ge-wa-ba-tai-deng-mei-hei-se-80417306/"
+    },
+    {
+     "title": "SKURUP 斯库鲁",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/skurup-si-ku-lu-diao-deng-hei-se__0604110_pe681110_s4.jpg",
+     "href": "/cn/zh/p/skurup-si-ku-lu-diao-deng-hei-se-30407116/"
+    }
+   ],
    "settings": null
   }
  ]

@@ -23,6 +23,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "所有物品都已整齐收纳完毕，可以睡个好觉了",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/99/b0/99b022123c5eb9034097859b814f9f7a.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -38,6 +48,32 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "IKORNNES 伊库斯",
+     "text": "¥799",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ikornnes-yi-ku-si-li-jing-bai-zha-mu__0633524_pe695900_s4.jpg",
+     "href": "/cn/zh/p/ikornnes-yi-ku-si-li-jing-bai-zha-mu-10298397/"
+    },
+    {
+     "title": "HOPPVALS 霍普沃",
+     "text": "¥299",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/hoppvals-huo-pu-wo-liu-bian-xing-bai-ye-lian-bai-se__0602283_pe680560_s4.jpg",
+     "href": "/cn/zh/p/hoppvals-huo-pu-wo-liu-bian-xing-bai-ye-lian-bai-se-80290637/"
+    },
+    {
+     "title": "LOHALS 鲁哈斯",
+     "text": "¥799",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lohals-lu-ha-si-ping-zhi-di-tan-zi-ran-se__0280221_pe419173_s4.jpg",
+     "href": "/cn/zh/p/lohals-lu-ha-si-ping-zhi-di-tan-zi-ran-se-30277394/"
+    },
+    {
+     "title": "SINNERLIG 希利斯",
+     "text": "¥399",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/sinnerlig-xi-li-si-diao-deng-zhu-shou-gong-zhi-zuo__0919001_pe786542_s4.jpg",
+     "href": "/cn/zh/p/sinnerlig-xi-li-si-diao-deng-zhu-shou-gong-zhi-zuo-00342193/"
+    }
+   ],
    "settings": null
   }
  ]

@@ -11,7 +11,7 @@
    "title": "欣赏电影……在家里",
    "texts": [
     "宜家 BRIMNES 百灵 黑色电视柜和搁板储物柜能同时提供开放式与封闭式储物空间，十分实用，并可让客厅看起来时髦、现代。",
-    "<p>作为电影狂人，没什么不好意思的。看看这对酷爱电影的伴侣如何将客厅打造成多场联映的电影院。只需舒适的沙发床、电视柜和一体式灯具，就可以让自己仿佛身处电影院。</p>",
+    "作为电影狂人，没什么不好意思的。看看这对酷爱电影的伴侣如何将客厅打造成多场联映的电影院。只需舒适的沙发床、电视柜和一体式灯具，就可以让自己仿佛身处电影院。",
     "欣赏电影……在家里",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "欣赏电影……在家里",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e3/00/e300a7adcde99a5ba8c6993a8c97cf9e.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -39,6 +49,38 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "BRIMNES 百灵",
+     "text": "¥799",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/brimnes-bai-ling-dian-shi-gui-hei-se__0704610_pe725291_s4.jpg",
+     "href": "/cn/zh/p/brimnes-bai-ling-dian-shi-gui-hei-se-90409891/"
+    },
+    {
+     "title": "SANDARED 桑德利",
+     "text": "¥299",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/sandared-sang-de-li-ai-deng-mi-huang-se__0560902_pe662686_s4.jpg",
+     "href": "/cn/zh/p/sandared-sang-de-li-ai-deng-mi-huang-se-70385315/"
+    },
+    {
+     "title": "VITTSJÖ 维特索",
+     "text": "¥499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vittsjoe-wei-te-suo-ge-jia-dan-yuan-hei-he-se-bo-li__0767557_pe754140_s4.jpg",
+     "href": "/cn/zh/p/vittsjoe-wei-te-suo-ge-jia-dan-yuan-hei-he-se-bo-li-20305806/"
+    },
+    {
+     "title": "SVARTHÖ 斯瓦特赫",
+     "text": "¥79.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/svarthoe-si-wa-te-he-dian-tao-mi-huang-se__0474483_pe632019_s4.jpg",
+     "href": "/cn/zh/p/svarthoe-si-wa-te-he-dian-tao-mi-huang-se-70342830/"
+    },
+    {
+     "title": "ÅRSTID 奥思迪",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/arstid-ao-si-di-bi-deng-du-nie-bai-se__0606627_pe682427_s4.jpg",
+     "href": "/cn/zh/p/arstid-ao-si-di-bi-deng-du-nie-bai-se-20163878/"
+    }
+   ],
    "settings": null
   },
   {
@@ -54,6 +96,14 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "LANDSKRONA 兰德克纳",
+     "text": "¥4,499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/landskrona-lan-de-ke-na-san-ren-sha-fa-gang-na-rui-de-shen-hui-mu-tou__1576951_pe1032842_s4.jpg",
+     "href": "/cn/zh/p/landskrona-lan-de-ke-na-san-ren-sha-fa-gang-na-rui-de-shen-hui-mu-tou-39270312/"
+    }
+   ],
    "settings": null
   }
  ]

@@ -11,7 +11,7 @@
    "title": "越桔和石榴鸡尾酒",
    "texts": [
     "越桔和石榴鸡尾酒",
-    "<p><strong>份量：</strong>1</p>",
+    "份量：1",
     "normal"
    ],
    "images": [
@@ -23,36 +23,52 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "越桔和石榴鸡尾酒",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/6b/f6/6bf644f288d568a152b476af2f663e63.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>你需要什么：</strong></p>\n<p>半个柠檬的柠檬汁<br />2厘升宜家 DRYCK LINGON 小红莓味浓缩饮料<br />2厘升红石榴汁<br />10厘升宜家 DRYCK BUBBEL &Auml;PPLE &amp; LINGON 气泡苹果汁和小红莓果汁饮料<br />1片柠檬薄片<br />石榴籽<br />伏特加酒（可选）</p>"
+    "你需要什么： 半个柠檬的柠檬汁 2厘升宜家 DRYCK LINGON 小红莓味浓缩饮料 2厘升红石榴汁 10厘升宜家 DRYCK BUBBEL äPPLE & LINGON 气泡苹果汁和小红莓果汁饮料 1片柠檬薄片 石榴籽 伏特加酒（可选）"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>制作方法：</strong></p>\n<p>1.使用轧冰器将冰块碾碎，或者将冰块放在塑料袋中，用擀面杖敲碎。将冰块倒入玻璃杯中。</p>\n<p>2.在鸡尾酒调制器中放入几个冰块，然后加入柠檬汁、小红莓味浓缩饮料和伏特加酒（如果你选择添加的话），并摇匀。</p>\n<p>3.然后再加入红石榴汁、气泡苹果汁和小红莓果汁饮料。倒在冰块上。</p>\n<p>4.用柠檬片和石榴籽做装饰。</p>"
+    "制作方法： 1.使用轧冰器将冰块碾碎，或者将冰块放在塑料袋中，用擀面杖敲碎。将冰块倒入玻璃杯中。 2.在鸡尾酒调制器中放入几个冰块，然后加入柠檬汁、小红莓味浓缩饮料和伏特加酒（如果你选择添加的话），并摇匀。 3.然后再加入红石榴汁、气泡苹果汁和小红莓果汁饮料。倒在冰块上。 4.用柠檬片和石榴籽做装饰。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>其他建议：</strong></p>\n<p>在冰箱中储备好冰块，特别是碎冰。</p>\n<p>确保饮品是完好、冷却的。</p>\n<p>将玻璃杯放入冰箱中，让玻璃杯上的水汽可以凝结成霜。</p>\n<p>提前切好青柠和柠檬。</p>"
+    "其他建议： 在冰箱中储备好冰块，特别是碎冰。 确保饮品是完好、冷却的。 将玻璃杯放入冰箱中，让玻璃杯上的水汽可以凝结成霜。 提前切好青柠和柠檬。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

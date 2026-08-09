@@ -10,7 +10,7 @@
    "type": "pub-hero",
    "title": "TRÅDFRI 特鲁菲 应用程序与网关",
    "texts": [
-    "<p><strong>故障排除：</strong></p>\n<p><a href=\"https://www.ikea.cn/cn/zh/customer-service/trdfri-te4-lu3-fei1-ying1-yong4-cheng2-xu4-yu3-wang3-guan1-pub7aa79e20\">TR&Aring;DFRI 特鲁菲 应用程序与网关</a>&nbsp; |&nbsp; <a href=\"https://www.ikea.cn/cn/zh/customer-service/guang1-yuan2-pub39b8ed93\">光源</a>&nbsp; |&nbsp; <a href=\"https://www.ikea.cn/cn/zh/customer-service/kong4-zhi4-zhuang1-zhi4-pubc74b6197\">控制装置</a></p>",
+    "故障排除： TRåDFRI 特鲁菲 应用程序与网关 | 光源 | 控制装置",
     "TRÅDFRI 特鲁菲 应用程序与网关",
     "normal"
    ],
@@ -23,16 +23,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "TRÅDFRI 特鲁菲 应用程序与网关",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/c3/0e/c30ece0e10fda5b7709dec354469edcc.png",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h4><strong>安装与连接的相关问题：</strong></h4>\n<p><strong>我购买了一个网关和一个灯泡，但是在 TR&Aring;DFRI 特鲁菲 网关上找不到</strong><strong>连接灯泡的地方？</strong><br />你需要在系统中增加一个控制装置，并用控制装置将光源连接至网关。TR&Aring;DFRI 特鲁菲 应用程序中有详细的操作指南。</p>\n<p><strong>我使用遥控器将光源连接到了 TR&Aring;DFRI 特鲁菲 网关上。我还需要遥控器吗，还是只要使用 TR&Aring;DFRI 特鲁菲 应用程序就可以了？</strong><br />如果你已经通过控制装置将光源连接至网关，你可以将该控制装置与网关断开，并在没有遥控器的情况下控制光源。但是，如果之后你想在系统中增加更多的光源，则需要再次使用控制装置。</p>\n<p><strong>我按照说明将控制装置（遥控器、无线调光器和动态感应器）与 TR&Aring;DFRI 特鲁菲 网关配对了，但是我没有在应用程序中看见灯泡。<br /></strong>可以。你可以通过在应用程序中手动输入网关识别码来连接网关。你可以在网关背面找到识别码。<strong><br /></strong></p>\n<p><strong>我无法通过二维码连接我的 TR&Aring;DFRI 特鲁菲"
+    "安装与连接的相关问题： 我购买了一个网关和一个灯泡，但是在 TRåDFRI 特鲁菲 网关上找不到连接灯泡的地方？ 你需要在系统中增加一个控制装置，并用控制装置将光源连接至网关。TRåDFRI 特鲁菲 应用程序中有详细的操作指南。 我使用遥控器将光源连接到了 TRåDFRI 特鲁菲 网关上。我还需要遥控器吗，还是只要使用 TRåDFRI 特鲁菲 应用程序就可以了？ 如果你已经通过控制装置将光源连接至网关，你可以将该控制装置与网关断开，并在没有遥控器的情况下控制光源。但是，如果之后你想在系统中增加更多的光源，则需要再次使用控制装置。 我按照说明将控制装置（遥控器、无线调光器和动态感应器）与 TRåDFRI 特鲁菲 网关配对了，但是我没有在应用程序中看见灯泡。 可以。你可以通过在应用程序中手动输入网关识别码来连接网关。你可以在网关背面找到识别码。 我无法通过二维码连接我的 TRåDFRI 特鲁菲 网关。还有其他的连接方式吗？ 可以。你可以通过在应用程序中手动输入网关识别码来连接网关。你可以在网关背面找到识别码。 我下载 TRåDFRI 特鲁菲 应用程序时遇到了问题。 查看App Store或Google Play中的最新兼容信息。 我无法在 TRåDFRI 特鲁菲 网关上添加光源。 要在网关上添加光源，你需要一个控制装置（遥控器、无线调光器或动态感应器）。按照应用程序中的说明，首先将控制"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -43,16 +55,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h4><strong>更新和重置的相关问题：</strong></h4>\n<p><strong>如果更新时某个设备失灵了，我该怎么办？</strong><br />再试一次。打开所有光源，并确保所有使用电池的产品电量充足。随时都可以在 TR&Aring;DFRI 特鲁菲 应用程序中的更新设备页面重新尝试更新。网关更新时，如果网关与路由器断开了，查看你的网关是否连接上了路由器，路由器是否连接了网络。</p>\n<p><strong>如果我将网关恢复出厂设置，系统（连接的光源）和 TR&Aring;DFRI 特鲁菲 应用程序会出现什么情况？</strong><br />出厂设置将清除所有储存在网关中的数据，形成全新的ZigBee网络。出厂设置还将作用于最近更新的空中传输（OTA）图像，将其复原成出厂固件。用户只能通过孔形按钮恢复出厂设置。系统其他部分仍然保持不变，意味着你可以继续使用系统中的其他装置。</p>"
+    "更新和重置的相关问题： 如果更新时某个设备失灵了，我该怎么办？ 再试一次。打开所有光源，并确保所有使用电池的产品电量充足。随时都可以在 TRåDFRI 特鲁菲 应用程序中的更新设备页面重新尝试更新。网关更新时，如果网关与路由器断开了，查看你的网关是否连接上了路由器，路由器是否连接了网络。 如果我将网关恢复出厂设置，系统（连接的光源）和 TRåDFRI 特鲁菲 应用程序会出现什么情况？ 出厂设置将清除所有储存在网关中的数据，形成全新的ZigBee网络。出厂设置还将作用于最近更新的空中传输（OTA）图像，将其复原成出厂固件。用户只能通过孔形按钮恢复出厂设置。系统其他部分仍然保持不变，意味着你可以继续使用系统中的其他装置。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -73,6 +89,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -83,16 +101,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h4><strong>需要更多帮助吗？</strong></h4>"
+    "需要更多帮助吗？"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -119,16 +141,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/3e/63/3e63c5c09a5ff7821a530b034784a3f6.png",
+     "href": "/cn/zh/customer-service/product-support/smart-lighting/kai1-shi3-shi3-yong4-zhi4-neng2-zhao4-ming2-chan3-pin3-pub46cc1851",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>开始<br /></strong>添加灯泡、照明壁灯、照明门，并开始使用 TR&Aring;DFRI 特鲁菲 应用程序。<br /><a href=\"https://www.ikea.cn/cn/zh/customer-service/kai1-shi3-shi3-yong4-zhi4-neng2-zhao4-ming2-chan3-pin3-pub46cc1851\">开始使用宜家智能照明产品</a></p>"
+    "开始 添加灯泡、照明壁灯、照明门，并开始使用 TRåDFRI 特鲁菲 应用程序。 开始使用宜家智能照明产品"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -155,16 +189,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a6/09/a609b8a6399e5215284328455b81d14a.png",
+     "href": "/cn/zh/customer-service/product-support/smart-lighting/zhi-neng-zhao-ming-pub81a7870c",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>使用方法</strong><br />了解如何调节明暗、改变色温和设置定时器等。<br /><a href=\"https://www.ikea.cn/cn/zh/customer-service/zhi-neng-zhao-ming-pub81a7870c\">了解如何使用宜家智能照明产品</a></p>"
+    "使用方法 了解如何调节明暗、改变色温和设置定时器等。 了解如何使用宜家智能照明产品"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -183,16 +229,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/de/97/de97bff470832c1a7c34ae7e80f20f88.png",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>智能照明产品</strong><br />探索更多宜家智能照明产品，包括启动套件、单独光源和遥控器等。<br /><a href=\"https://www.ikea.cn/cn/zh/rooms/deng-pub320bd09c\">查看所有宜家智能照明产品</a></p>"
+    "智能照明产品 探索更多宜家智能照明产品，包括启动套件、单独光源和遥控器等。 查看所有宜家智能照明产品"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

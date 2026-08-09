@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "5c9f26e3277f4b6685362cea75e21e58"
    }
@@ -22,10 +24,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>由宜家设计师走进真实家庭，针对不同屋主的需求，用可持续的人性化设计，<strong>为屋主们化解生活中的困扰</strong>，创造理想的家~</p>"
+    "由宜家设计师走进真实家庭，针对不同屋主的需求，用可持续的人性化设计，为屋主们化解生活中的困扰，创造理想的家~"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "ecbd6ab260b14baba93901f9fbe2cfba"
    }
@@ -46,6 +50,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/66/38/663824911f85a823cfbe8d659088b890.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "dd3a71a70da84f50bcaef30c150c17fa"
    }
@@ -54,10 +68,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>林导是一个热爱电竞游戏的媒体工作者，元元是一个热爱冒险和旅行的金融从业人员。年轻的他们有着各自的爱好，享受着共享而独立的生活。</p>\n<p>然而家中父母置办的传统家具，不仅风格古板，而且笨重、占空间，大大影响了布局的合理规划，难免限制了年轻人的个性。</p>\n<p><strong>面对这样的家，怎样玩出新鲜感？</strong></p>"
+    "林导是一个热爱电竞游戏的媒体工作者，元元是一个热爱冒险和旅行的金融从业人员。年轻的他们有着各自的爱好，享受着共享而独立的生活。 然而家中父母置办的传统家具，不仅风格古板，而且笨重、占空间，大大影响了布局的合理规划，难免限制了年轻人的个性。 面对这样的家，怎样玩出新鲜感？"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "da08617891fb420cb8cbe6c803d3c5ba"
    }
@@ -70,6 +86,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "db75dc209fa24a5da83c1b1e1821c4b3"
    }
@@ -92,6 +110,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20221213/b136d662ab5148b38e8661164eeb9e6f.mp4",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Image(video)-"
    }
@@ -104,7 +132,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<h2>他们的诉求</h2>\n<p><strong>打造更适合自己的个性新家</strong>，让家更野一点；</p>\n<p><strong>兼顾独立与共处的需求</strong>，打造有爱空间。</p>\n<p>这次改造，宜家设计师嘉辉和Yvonne跳脱传统思路，大胆重整布局，挑选更符合他们需求与审美的家具进行搭配，营造多样性空间，来适应他们的生活方式。组合灵活的模块化家具，大面积运用了元元喜欢的橙色进行撞色处理，还为林导全面升级了电竞房，带他们发现了家的更多可能。</p>",
+    "他们的诉求 打造更适合自己的个性新家，让家更野一点； 兼顾独立与共处的需求，打造有爱空间。 这次改造，宜家设计师嘉辉和Yvonne跳脱传统思路，大胆重整布局，挑选更符合他们需求与审美的家具进行搭配，营造多样性空间，来适应他们的生活方式。组合灵活的模块化家具，大面积运用了元元喜欢的橙色进行撞色处理，还为林导全面升级了电竞房，带他们发现了家的更多可能。",
     "pub-text"
    ],
    "images": [
@@ -116,6 +144,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/06/53/06532cc8924421c49a7b9644e17d7348.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/06/53/06532cc8924421c49a7b9644e17d7348.jpg",
+     "href": null
+    },
+    {
+     "heading": "他们的诉求 打造更适合自己的个性新家，让家更野一点； 兼顾独立与共处的需求，打造有爱空间。 这次改造，宜家设计师嘉辉和Yvonne跳脱传统思路，大胆重整布局，挑选更符合他们需求与审美的家具进行搭配，营造多样性空间，来适应他们的生活方式。组合灵活的模块化家具，大面积运用了元元喜欢的橙色进行撞色处理，还为林导全面升级了电竞房，带他们发现了家的更多可能。",
+     "text": null,
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "eec2273cc4804ed592fd433bfb195a54"
    }
@@ -124,10 +176,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>客厅改造 | <a href=\"#e1262310-fe6f-11eb-8f7e-a9f573dd2c5f\">阳台改造</a> | <a href=\"#e71944f0-fe6f-11eb-8f7e-a9f573dd2c5f\">餐厅改造 </a>| <a href=\"#e8afc370-fe6f-11eb-8f7e-a9f573dd2c5f\">书房改造</a></p>"
+    "客厅改造 | 阳台改造 | 餐厅改造 | 书房改造"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "544aa5c39dc84d239d801fb5e3abc207"
    }
@@ -150,6 +204,24 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/09/fb/09fb5f64e73c3c8fcefa97c5881e5104.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/09/fb/09fb5f64e73c3c8fcefa97c5881e5104.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "90936606d5214ab786ecb5710b3553a8"
    }
@@ -162,7 +234,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<h3>收纳空间有限杂乱沉闷</h3>\n<p>客厅的空间虽大，但受老旧的家具与格格不入的沙发布垫影响，沉闷而缺乏生机。狭窄的电视柜储物空间有限，远远不能应对收纳需求，大大小小的模型车、爱藏品只能委身于台面上，拥挤不堪，略显杂乱。</p>",
+    "收纳空间有限杂乱沉闷 客厅的空间虽大，但受老旧的家具与格格不入的沙发布垫影响，沉闷而缺乏生机。狭窄的电视柜储物空间有限，远远不能应对收纳需求，大大小小的模型车、爱藏品只能委身于台面上，拥挤不堪，略显杂乱。",
     "pub-text"
    ],
    "images": [
@@ -179,6 +251,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e5/c7/e5c7767059d0c8edca972e43a6fbd8e4.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/93/af/93af13627e39aa75e6de118e9f7764f2.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "收纳空间有限杂乱沉闷 客厅的空间虽大，但受老旧的家具与格格不入的沙发布垫影响，沉闷而缺乏生机。狭窄的电视柜储物空间有限，远远不能应对收纳需求，大大小小的模型车、爱藏品只能委身于台面上，拥挤不堪，略显杂乱。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/e5/c7/e5c7767059d0c8edca972e43a6fbd8e4.jpg",
+     "href": null
+    },
+    {
+     "heading": "“回”字形布局, 实现多功能 客厅的整体配色以元元喜爱的橘色为主色，辅以清爽的白色、时尚的深蓝色进行中和，碰撞出满目的活力与缤纷。移去那些“用不上又占地方”的老式家具，重新添置了符合他们审美与需求的家具，以“回”字形摆布，让利用率翻倍。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/93/af/93af13627e39aa75e6de118e9f7764f2.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "20c1dc300341457d8476159c4851ad4c"
    }
@@ -199,6 +302,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/eb/d1/ebd1a940c0856874025bbf6cbc0e9b10.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "f89dae5dcaba43da843d4e953d3ee19d"
    }
@@ -207,10 +320,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>在客厅的两侧墙面，以储物组合打造出收纳与展示的空间。客厅中间，由高颜值的沙发撑起颜值C位，沙发套还可以拆卸清洗，易于打理。巧将单人沙发与双人沙发错位摆布，配合两种可移动的边桌，轻松营造出双重休闲空间。让他们可以背对背和谐共处，更好地专注于自己的世界。</p>\n<p>这个&ldquo;改头换面&rdquo;的客厅，如今担当起了更多的职责：娱乐、健身、阅读、会客&hellip;都不在话下。储物组合上陈列着大大小小的旅行回忆，元元也更爱在这里驻足，回味旅行的美好了。</p>"
+    "在客厅的两侧墙面，以储物组合打造出收纳与展示的空间。客厅中间，由高颜值的沙发撑起颜值C位，沙发套还可以拆卸清洗，易于打理。巧将单人沙发与双人沙发错位摆布，配合两种可移动的边桌，轻松营造出双重休闲空间。让他们可以背对背和谐共处，更好地专注于自己的世界。 这个“改头换面”的客厅，如今担当起了更多的职责：娱乐、健身、阅读、会客…都不在话下。储物组合上陈列着大大小小的旅行回忆，元元也更爱在这里驻足，回味旅行的美好了。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "43885f595ac5411bb2ba1cf9ef105b9b"
    }
@@ -228,6 +343,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "SINNERLIG 希利斯",
+     "text": "¥399",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/sinnerlig-xi-li-si-diao-deng-zhu-shou-gong-zhi-zuo__0919001_pe786542_s4.jpg",
+     "href": "/cn/zh/p/sinnerlig-xi-li-si-diao-deng-zhu-shou-gong-zhi-zuo-00342193/"
+    },
+    {
+     "title": "BESTÅ 贝达",
+     "text": "¥2,859",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/besta-bei-da-dai-men-dai-chou-ti-dian-shi-gui-hei-he-se-hai-de-wei-ken-si-tuo-ba-xiang-mu-tie-mian__0992626_pe820159_s4.jpg",
+     "href": "/cn/zh/p/besta-bei-da-dai-men-dai-chou-ti-dian-shi-gui-hei-he-se-hai-de-wei-ken-si-tuo-ba-xiang-mu-tie-mian-59436439/"
+    }
+   ],
    "settings": {
     "traceId": "13b80c35156c4b52806c9b8df8b28522"
    }
@@ -236,10 +365,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><a href=\"#ba480880-fe6f-11eb-8f7e-a9f573dd2c5f\">客厅改造</a> | 阳台改造 | <a href=\"#e71944f0-fe6f-11eb-8f7e-a9f573dd2c5f\">餐厅改造 </a>| <a href=\"#e8afc370-fe6f-11eb-8f7e-a9f573dd2c5f\">书房改造</a></p>"
+    "客厅改造 | 阳台改造 | 餐厅改造 | 书房改造"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "d72a88ebe98042f999af822e1f574ddb"
    }
@@ -262,6 +393,24 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/df/c9/dfc987b8c8346733c26ec3834e48d45c.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/df/c9/dfc987b8c8346733c26ec3834e48d45c.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "f94f14cccd614b0991fd1d35bc962604"
    }
@@ -274,7 +423,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<p>原先的阳台只零零散散摆了些绿植，宽敞的空间没能得到充分的利用，着实可惜。怎样才能给这块区域增添活力呢？</p>",
+    "原先的阳台只零零散散摆了些绿植，宽敞的空间没能得到充分的利用，着实可惜。怎样才能给这块区域增添活力呢？",
     "pub-text"
    ],
    "images": [
@@ -291,6 +440,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/77/01/770113a8bdfed4b303f530472787561f.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/13/8c/138c994aa481493220576378101a77d8.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "原先的阳台只零零散散摆了些绿植，宽敞的空间没能得到充分的利用，着实可惜。怎样才能给这块区域增添活力呢？",
+     "image": "https://file.app.ikea.cn/images/77/01/770113a8bdfed4b303f530472787561f.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "铺上蓝白条纹地毯，活跃的配色让人眼前一亮。植物们在双层植物架上找到了新家，整齐有序。再摆上一套户外桌椅，让阳台彻底改头换面，重生为一方亲近自然的休闲小天地！",
+     "image": "https://file.app.ikea.cn/images/13/8c/138c994aa481493220576378101a77d8.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "4e9061f1cd514a1ba9f604b81570b099"
    }
@@ -308,6 +488,26 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "VANILJSTÅNG 瓦尼斯通",
+     "text": "¥449",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vaniljstang-wa-ni-si-tong-zhi-wu-jia-song-mu-hei-se__0958912_pe809507_s4.jpg",
+     "href": "/cn/zh/p/vaniljstang-wa-ni-si-tong-zhi-wu-jia-song-mu-hei-se-60426340/"
+    },
+    {
+     "title": "TÄRNÖ 塔尔诺",
+     "text": "¥149",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/taernoe-ta-er-nuo-yi-zi-hu-wai-ke-zhe-die-hei-se-zhao-qian-he-se-qi__0728354_pe736202_s4.jpg",
+     "href": "/cn/zh/p/taernoe-ta-er-nuo-yi-zi-hu-wai-ke-zhe-die-hei-se-zhao-qian-he-se-qi-00165128/"
+    },
+    {
+     "title": "UTSUND 乌森",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/utsund-wu-sen-led-deng-chuan-12-tou-hu-wai-chan-pin-dian-chi-cao-zuo-hei-se__0634463_pe696488_s4.jpg",
+     "href": "/cn/zh/p/utsund-wu-sen-led-deng-chuan-1-2-tou-hu-wai-chan-pin-dian-chi-cao-zuo-hei-se-80421134/"
+    }
+   ],
    "settings": {
     "traceId": "f189c9d98506447f83d4a57d48eb65ff"
    }
@@ -316,10 +516,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><a href=\"#ba480880-fe6f-11eb-8f7e-a9f573dd2c5f\">客厅改造</a> | <a href=\"#e1262310-fe6f-11eb-8f7e-a9f573dd2c5f\">阳台改造</a> | 餐厅改造 | <a href=\"#e8afc370-fe6f-11eb-8f7e-a9f573dd2c5f\">书房改造</a></p>"
+    "客厅改造 | 阳台改造 | 餐厅改造 | 书房改造"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "53dad9fc7e8b44d08e1dded36e814c18"
    }
@@ -342,6 +544,24 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/69/d7/69d721e8e5287614fa292778f9e47b59.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/69/d7/69d721e8e5287614fa292778f9e47b59.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "88b077bd75eb46a9a3cfdddd6517f6cc"
    }
@@ -354,7 +574,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<p>林导和元元日常的用餐需求并不高，并且喜欢围坐在茶几吃饭，因此餐厅也成了常常被忽略的存在。在深入了解后，发现他们更希望能拥有一个迷你工作室，能变成林导盘弄模型车的据点，也能变成元元捣鼓烘焙、手工的场所。</p>",
+    "林导和元元日常的用餐需求并不高，并且喜欢围坐在茶几吃饭，因此餐厅也成了常常被忽略的存在。在深入了解后，发现他们更希望能拥有一个迷你工作室，能变成林导盘弄模型车的据点，也能变成元元捣鼓烘焙、手工的场所。",
     "pub-text"
    ],
    "images": [
@@ -371,6 +591,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/86/91/8691075e7471d59ad37d0ada4dac3328.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/34/3f/343f01f1818ec62eeced1a467e6314a5.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "林导和元元日常的用餐需求并不高，并且喜欢围坐在茶几吃饭，因此餐厅也成了常常被忽略的存在。在深入了解后，发现他们更希望能拥有一个迷你工作室，能变成林导盘弄模型车的据点，也能变成元元捣鼓烘焙、手工的场所。",
+     "image": "https://file.app.ikea.cn/images/86/91/8691075e7471d59ad37d0ada4dac3328.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "取代传统餐桌，设计师用两张办公桌拼合成更大的台面。不仅可以满足多人用餐的需求，也能轻松切换成宽敞的工作台，供他们开展多样的业余活动。",
+     "image": "https://file.app.ikea.cn/images/34/3f/343f01f1818ec62eeced1a467e6314a5.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "30c18577dd6f4e8ea688a534ff4e34bd"
    }
@@ -388,6 +639,14 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "NYMÖ 诺玛",
+     "text": "¥199",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/nymoe-nuo-ma-deng-zhao-hei-se-huang-tong-se__0503233_pe632555_s4.jpg",
+     "href": "/cn/zh/p/nymoe-nuo-ma-deng-zhao-hei-se-huang-tong-se-80377211/"
+    }
+   ],
    "settings": {
     "traceId": "7de99e5b0f5349408a9fbd9cce767325"
    }
@@ -396,10 +655,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><a href=\"#ba480880-fe6f-11eb-8f7e-a9f573dd2c5f\">客厅改造</a> | <a href=\"#e1262310-fe6f-11eb-8f7e-a9f573dd2c5f\">阳台改造</a> | <a href=\"#e71944f0-fe6f-11eb-8f7e-a9f573dd2c5f\">餐厅改造</a> | 书房改造</p>"
+    "客厅改造 | 阳台改造 | 餐厅改造 | 书房改造"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "6648296bd84b434abe6b208b2ea1dc17"
    }
@@ -422,6 +683,24 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/4d/85/4d856e28f5ced72f042384741a95aebe.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/4d/85/4d856e28f5ced72f042384741a95aebe.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "50563a64f3184eb3b8467aa7dd53745c"
    }
@@ -434,7 +713,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<p>仅放了一张书桌和一个储物柜的书房，虽空旷却不实用。书桌被大屏电脑占据，加上各色摆件，桌面显得更为拥挤。而元元游历世界搜集的纪念品们都被封印在左手边的储物柜里，&ldquo;不见天日&rdquo;。</p>",
+    "仅放了一张书桌和一个储物柜的书房，虽空旷却不实用。书桌被大屏电脑占据，加上各色摆件，桌面显得更为拥挤。而元元游历世界搜集的纪念品们都被封印在左手边的储物柜里，“不见天日”。",
     "pub-text"
    ],
    "images": [
@@ -451,6 +730,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/1d/16/1d163a93b820a82bcf78fcb8e152f9c8.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/9e/e1/9ee1be2f6fdbcf4e5e648fb836f34f06.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "仅放了一张书桌和一个储物柜的书房，虽空旷却不实用。书桌被大屏电脑占据，加上各色摆件，桌面显得更为拥挤。而元元游历世界搜集的纪念品们都被封印在左手边的储物柜里，“不见天日”。",
+     "image": "https://file.app.ikea.cn/images/1d/16/1d163a93b820a82bcf78fcb8e152f9c8.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "重新规划布局后，原先的书房能容下两张办公桌，这下两人便可以同时游戏和工作了。在同一个空间内，既专注于自己的世界，也能享受相互的陪伴。元元的纪念品们大多转移到了客厅的展示区，而一部分则上墙收纳，更显清爽有序。",
+     "image": "https://file.app.ikea.cn/images/9e/e1/9ee1be2f6fdbcf4e5e648fb836f34f06.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "fa00f6084bc84118998490c2c438453f"
    }
@@ -472,6 +782,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/25/d3/25d3093c97014c3823ce09f38ff64cc7.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "68266b47ddf74ad0adbf6f81ed7d8bc1"
    }
@@ -493,6 +813,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/af/a7/afa78cb295f754ae2bd702e9b59442f8.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "e60236ac9b1f4500880be9c8cf893159"
    }
@@ -514,6 +844,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/02/50/0250743da3f0420918ca84b6f4b6d0d1.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "463858b3ed354b66ae94b151443d0faa"
    }
@@ -535,6 +875,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/cc/62/cc623dda3497b3941b4e504c509ac7b4.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "e91748b4f59d41f895aeb3131d4b5137"
    }
@@ -552,6 +902,26 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "MATCHSPEL 玛赤佩",
+     "text": "¥999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/matchspel-ma-chi-pei-dian-jing-yi-bang-si-ta-hei-se__0985645_pe816716_s4.jpg",
+     "href": "/cn/zh/p/matchspel-ma-chi-pei-dian-jing-yi-bang-si-ta-hei-se-50496946/"
+    },
+    {
+     "title": "LÅNESPELARE 洛内斯佩",
+     "text": "¥49.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lanespelare-luo-nei-si-pei-bei-jia-hei-se__0985191_pe816542_s4.jpg",
+     "href": "/cn/zh/p/lanespelare-luo-nei-si-pei-bei-jia-hei-se-40504065/"
+    },
+    {
+     "title": "GRINDEBO 格林德布",
+     "text": "¥399",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/grindebo-ge-lin-de-bu-gong-zuo-deng-dai-wu-xian-chong-dian__0986965_pe817430_s4.jpg",
+     "href": "/cn/zh/p/grindebo-ge-lin-de-bu-gong-zuo-deng-dai-wu-xian-chong-dian-00500154/"
+    }
+   ],
    "settings": {
     "traceId": "b753b1bab8104c5a827949b8b936e448"
    }
@@ -565,7 +935,7 @@
     "NO",
     "ikea://cms/page-compatible-web?url=%2Fcampaigns%2Fyi2-jia1-qu4-ni3-jia1-pubd6ecba90&key=cn--zh--d6ecba90c29b11ebbbfb39c810ab3bdb",
     "{\"objectId_var\":\"/campaigns/yi2-jia1-qu4-ni3-jia1-pubd6ecba90\",\"objectType_var\":\"cms/page-compatible-web\"}",
-    "第5期──  爆改工作室，Hold住职场和家庭带娃更轻松！"
+    "第5期── 爆改工作室，Hold住职场和家庭带娃更轻松！"
    ],
    "images": [
     "https://file.app.ikea.cn/images/85/05/8505116eb562e9831a4a22b265bb2d7c.jpg",
@@ -600,6 +970,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "第5期──  爆改工作室，Hold住职场和家庭带娃更轻松！",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/85/05/8505116eb562e9831a4a22b265bb2d7c.jpg",
+     "href": "/cn/zh/campaigns/yi2-jia1-qu4-ni3-jia1-pubd6ecba90",
+     "backgroundColor": "#0870ba"
+    },
+    {
+     "title": "第4期── 30㎡老房大改造！绿色生活原来这么简单？",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/fa/9b/fa9b28e018b61fb294c09ef4727ae00e.jpg",
+     "href": "/cn/zh/campaigns/yi2-jia1-qu4-ni3-jia1-yi2-jia1-zi4-zhi4-de-jia1-ju1-gai3-zao4-xi4-lie4-jie2-mu4-pub4df85870",
+     "backgroundColor": "#fcad13"
+    },
+    {
+     "title": "第 3 期── 90 后小夫妻新家改造",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/4b/7c/4b7c6dd599511716161226373c062c33.jpg",
+     "href": "/cn/zh/campaigns/yi2-jia1-qu4-ni3-jia1-pub0bfbd820",
+     "backgroundColor": "#0a87c9"
+    },
+    {
+     "title": "第 2 期── 3 位沪漂女孩的新家改造记",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ed/66/ed66301711a69c1e1a40bf053f681f1f.jpg",
+     "href": "/cn/zh/campaigns/yi2-jia1-qu4-ni3-jia1-pub0d24686e",
+     "backgroundColor": "#22bdc1"
+    },
+    {
+     "title": "第 1期──生活何必“断舍离”！",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/1d/1b/1d1b0d632e3e05f475d1180498432e63.jpg",
+     "href": "/cn/zh/campaigns/yi2-jia1-qu4-ni3-jia1-pubbe527820",
+     "backgroundColor": "#f6bba9"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "fec7308b344e433dadfaf27993383cb9"
    }
@@ -612,6 +1020,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "c81ee283d8234990aa99efa87b55ccaf"
    }
@@ -620,10 +1030,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>宜家全屋设计</h2>\n<p>专业设计，1对1服务，不论大家小家，都能变成理想的家！</p>"
+    "宜家全屋设计 专业设计，1对1服务，不论大家小家，都能变成理想的家！"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "b92a9e01c9d84bb8bc5f1abe0f2b1fe2"
    }
@@ -652,6 +1064,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/60/51/60518531c4ac24d939b3cc07fbe8b79a.jpg",
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fwrd.family.ikea.cn%2Fwrd%3Fchannel%3DOA-Club-Article%26cl_sr%3DOA-Club-Article",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "d4fb028ca7434a71b8296c74375c1795"
    }
@@ -664,6 +1086,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "1577c52390694f03a9a4dbb2b6490d10"
    }
@@ -686,6 +1110,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "49becbec2fc1490189b4ce2b8d10cfe9"
    }

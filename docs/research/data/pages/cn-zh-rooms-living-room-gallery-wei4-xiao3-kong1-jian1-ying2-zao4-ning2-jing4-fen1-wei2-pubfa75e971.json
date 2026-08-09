@@ -11,7 +11,7 @@
    "title": "为小空间营造宁静氛围",
    "texts": [
     "宜家 GRÖNLID 格罗恩里德 绿色储物沙发和 INDUSTRIELL 英德川 未经处理的天然松木长凳与 HEMNES 汉尼斯 巧妙储物家具相结合，就可打造出宁静的客厅。",
-    "<p>这间宁静的绿色小屋面积虽小，在此生活的女主人却感到舒适自在。只需加上几件实用的家具和一张舒适的长沙发，她就可以为自己开展爱好活动留出充足的空间。</p>",
+    "这间宁静的绿色小屋面积虽小，在此生活的女主人却感到舒适自在。只需加上几件实用的家具和一张舒适的长沙发，她就可以为自己开展爱好活动留出充足的空间。",
     "为小空间营造宁静氛围",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "为小空间营造宁静氛围",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/c7/f4/c7f468c77a31ac962810685b7d29a913.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -39,6 +49,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "VEDBO 维伯",
+     "text": "¥1,799",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vedbo-wei-bo-gao-bei-fu-shou-yi-gang-na-rui-de-qian-he-fen__0643605_pe701951_s4.jpg",
+     "href": "/cn/zh/p/vedbo-wei-bo-gao-bei-fu-shou-yi-gang-na-rui-de-qian-he-fen-90423590/"
+    },
+    {
+     "title": "GLADOM 格拉登",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/gladom-ge-la-deng-tuo-pan-zhuo-hei-se__0567223_pe664991_s4.jpg",
+     "href": "/cn/zh/p/gladom-ge-la-deng-tuo-pan-zhuo-hei-se-00411997/"
+    }
+   ],
    "settings": null
   }
  ]

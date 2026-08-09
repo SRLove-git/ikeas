@@ -20,6 +20,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -30,16 +32,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>我们新推出的 L&Aring;NGFJ&Auml;LL 隆菲尔 转椅采用符合人体工程学设计，既舒适又美观，不论是放在办公室，还是家中，都非常适合。</p>"
+    "我们新推出的 LåNGFJäLL 隆菲尔 转椅采用符合人体工程学设计，既舒适又美观，不论是放在办公室，还是家中，都非常适合。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -60,16 +66,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": " 带米色座位的转椅，搭配白色扶手和带脚轮椅腿。一起展示的还有白色书桌。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/c9/08/c9081be812859ddd4a34488835bc455d.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>LÅNGFJÄLL 隆菲尔 转椅的倾斜角度和高度均可调节，造型优雅，让你自然地保持舒适的坐姿。</p>"
+    "LÅNGFJÄLL 隆菲尔 转椅的倾斜角度和高度均可调节，造型优雅，让你自然地保持舒适的坐姿。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -90,6 +108,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": " 带米色座位的转椅，搭配白色扶手和带脚轮椅腿。一起展示的还有白色书桌。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/2c/bd/2cbd65879e8e308a1a93eb332b72717f.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -111,16 +139,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "一张餐桌以及几张带米色和深灰色座位的转椅。其中一些转椅带脚轮，一些只有椅腿。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/3b/8c/3b8ca6747393488314a70bc6a5728843.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>不管是用于长时间伏案工作，还是品尝一顿美味大餐，LÅNGFJÄLL 隆菲尔 转椅不仅坐感舒适，而且外形美观！</p>"
+    "不管是用于长时间伏案工作，还是品尝一顿美味大餐，LÅNGFJÄLL 隆菲尔 转椅不仅坐感舒适，而且外形美观！"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -136,6 +176,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

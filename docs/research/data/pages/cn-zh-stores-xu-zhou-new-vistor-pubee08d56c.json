@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -51,6 +53,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "关于宜家",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/5d/a0/5da0d78e885053e3de02c373ee17e06f.jpg",
+     "href": "/cn/zh/stores/xu-zhou/",
+     "backgroundColor": null
+    },
+    {
+     "title": "如何购物",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/4d/7d/4d7deb832381eb5b065042fafff6d771.jpg",
+     "href": "/cn/zh/customer-service/gouwu-pubc25de261",
+     "backgroundColor": null
+    },
+    {
+     "title": "商场服务",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/13/79/1379fc809de3b40200f076a5985828a1.jpg",
+     "href": "/cn/zh/customer-service/shengming-pub8e830e11",
+     "backgroundColor": null
+    },
+    {
+     "title": "商场设施",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/85/07/8507402f9782101730e92e3a2604e840.jpg",
+     "href": "/cn/zh/stores/xu-zhou/in-store-facility-pubbe05d671",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -69,16 +102,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d7/d6/d7d6a457d08f01218efb01488e097e96.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>* 手机浏览器浏览，请保存图片后，在微信端打开并识别二维码</p>"
+    "* 手机浏览器浏览，请保存图片后，在微信端打开并识别二维码"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -87,6 +132,8 @@
    "texts": [],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -107,6 +154,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

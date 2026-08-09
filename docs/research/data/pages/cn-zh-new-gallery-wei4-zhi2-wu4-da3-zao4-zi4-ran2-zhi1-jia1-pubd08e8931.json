@@ -11,7 +11,7 @@
    "title": "为植物打造自然之家",
    "texts": [
     "用于摆放植物的长凳上展示着 KAFFEBÖNA 卡布纳 圆形花盆，这款花盆采用金黄色竹子手工编织而成，可装点你的植物。",
-    "<p>利用 KAFFEB&Ouml;NA 卡布纳 花盆把自然带回家，这款花盆采用竹子手工编织而成，充满轻盈之感，可与各类家居装饰和谐搭配。</p>\n<p>提供两种尺寸可选，是散发着自然气息的花草植物之家。</p>",
+    "利用 KAFFEBöNA 卡布纳 花盆把自然带回家，这款花盆采用竹子手工编织而成，充满轻盈之感，可与各类家居装饰和谐搭配。 提供两种尺寸可选，是散发着自然气息的花草植物之家。",
     "为植物打造自然之家",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "为植物打造自然之家",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/93/3c/933c5419223aa1a990b2a46b0e1cfb44.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -45,16 +55,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "特写：KAFFEBÖNA 卡布纳 花盆采用浅金色竹条手工编织而成，每一件都独具特色。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b3/84/b3846501e7031bb07b5fbe0c1d43b550.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>竹子是一种天然材料，生长在种植园内。它生长快速并且可再生，因此成为我们的可持续之选。</p>"
+    "竹子是一种天然材料，生长在种植园内。它生长快速并且可再生，因此成为我们的可持续之选。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -75,6 +97,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -90,6 +114,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

@@ -22,6 +22,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "户外",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a9/6d/a96d4948381c581db9834b2af766dfb2.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "3ddd01d6268f4c928d5fcee8117320ab"
    }
@@ -44,6 +54,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "39a4d7f555ef4016a90865c850402e9c"
    }
@@ -63,6 +75,8 @@
      "text": "2023 HFB17 Outdoor_living.pdf"
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "2ebd59f60eb9452eb44383b0627af68d"
    }
@@ -82,6 +96,8 @@
      "text": "JOSTEIN_zh_CN online version.pdf"
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "2ebd59f60eb9452eb44383b0627af68d"
    }
@@ -116,6 +132,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "餐厅",
+     "text": "餐桌购物指南",
+     "image": "https://file.app.ikea.cn/images/1b/e0/1be0d2c10f09606df1699427432ee05e.png",
+     "href": "/cn/zh/customer-service/product-support/buying-guides/dining-buying-guides-pub362b01e1",
+     "backgroundColor": null
+    },
+    {
+     "title": "专业办公室",
+     "text": "专业办公室购物指南",
+     "image": "https://file.app.ikea.cn/images/ef/9e/ef9e038a9a6f94a17f485686bc374d8d.jpg",
+     "href": "/cn/zh/customer-service/product-support/buying-guides/home-office-buying-guides-pub9a63a9c1",
+     "backgroundColor": null
+    },
+    {
+     "title": "客厅",
+     "text": "客厅购物指南",
+     "image": "https://file.app.ikea.cn/images/91/f9/91f92016a4737322a69b730761edf121.jpg",
+     "href": "/cn/zh/customer-service/product-support/buying-guides/living-room-buying-guides-pub368f0391",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "eab63859d6bf4636aa887afd8806a4d1"
    }
@@ -138,6 +178,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "41636c2401c54416a5beaa9feffa352a"
    }

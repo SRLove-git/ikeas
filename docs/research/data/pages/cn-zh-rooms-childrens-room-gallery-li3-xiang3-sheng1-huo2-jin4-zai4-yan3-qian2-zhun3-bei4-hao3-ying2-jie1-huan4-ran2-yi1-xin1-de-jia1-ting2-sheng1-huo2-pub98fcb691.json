@@ -11,7 +11,7 @@
    "title": "理想生活近在眼前——准备好迎接焕然一新的家庭生活",
    "texts": [
     "这间温馨的婴儿房提供了你所需的一切，既舒适又实用。宜家 GRÖNLID 格罗恩里德 为哺乳和照料孩子提供了舒适放松的空间。宜家 NÖJSAM 尼伊萨 篮子和储物盒使在宜家 SOLGUL 索尔古勒 婴儿换衣桌上为孩子换尿布更加方便。",
-    "<p>舒适的婴儿房提供了你和婴儿所需的一切，随手可得。带实用储物空间的换衣桌让你一只手稳住婴儿的同时，方便地拿到所需的东西。</p>",
+    "舒适的婴儿房提供了你和婴儿所需的一切，随手可得。带实用储物空间的换衣桌让你一只手稳住婴儿的同时，方便地拿到所需的东西。",
     "理想生活近在眼前——准备好迎接焕然一新的家庭生活",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "理想生活近在眼前——准备好迎接焕然一新的家庭生活",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/09/a8/09a8042aee62cdb3784a6227c46c12a5.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -39,6 +49,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "VÄDRA 外德拉",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vaedra-wai-de-la-ying-er-huan-yi-dian__0606116_pe682034_s4.jpg",
+     "href": "/cn/zh/p/vaedra-wai-de-la-ying-er-huan-yi-dian-10263524/"
+    },
+    {
+     "title": "LEN 莱恩",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/len-lai-en-ying-tong-chuang-chuang-li-bai-se-fen-hong-se__0620963_pe689805_s4.jpg",
+     "href": "/cn/zh/p/len-lai-en-ying-tong-chuang-chuang-li-bai-se-fen-hong-se-40320189/"
+    }
+   ],
    "settings": null
   }
  ]

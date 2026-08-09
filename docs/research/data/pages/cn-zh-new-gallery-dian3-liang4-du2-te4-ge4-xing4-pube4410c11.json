@@ -11,7 +11,7 @@
    "title": "点亮独特个性",
    "texts": [
     "宜家 GRIMSÅS 格林萨 黄色吊灯在墙上投射出有趣的海星和玩具风车造型。这款球形灯具投影出的造型源自84根钢质灯臂末端的塑料模型。",
-    "<p>宜家全新吊灯外观醒目，散发出柔美的光线，彰显设计格调。</p>\n<p>装上透明灯泡后，GRIMS&Aring;S 格林萨 吊灯可在房间墙壁上投射出精美的光影效果。</p>",
+    "宜家全新吊灯外观醒目，散发出柔美的光线，彰显设计格调。 装上透明灯泡后，GRIMSåS 格林萨 吊灯可在房间墙壁上投射出精美的光影效果。",
     "点亮独特个性",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "点亮独特个性",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e0/35/e0352a501681978dd0cc86d86837913f.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,16 +54,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "在家庭办公室、门厅、客厅等各处安装宜家 GRIMSÅS 格林萨 白色吊灯，彰显个性风格。84根灯臂打造出球形外观，外加顶部的独特设计，宛若一朵抽象的花。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/16/94/1694595d23ea574e20e7965304e483df.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>GRIMS&Aring;S 格林萨 吊灯现有球状白色花朵造型和黄色海星造型可选。</p>"
+    "GRIMSåS 格林萨 吊灯现有球状白色花朵造型和黄色海星造型可选。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -74,16 +96,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "宜家 SKYMNINGEN 希姆宁 白色吊灯，无论开关，都能吸引众人的目光。 这款通透的涡轮造型灯具将光源隐藏在弧形叶片之后，可提供一般照明和直射光。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b0/b2/b0b297e42252acee3511cc4f5bfa77df.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>外观柔美，独具魅力</h2>\n<p>SKYMNINGEN 希姆宁 吊灯采用敞口通风设计，选择它来装点家居环境，吸引力十足！</p>\n<p>这款吊灯外观柔美，独具魅力，由20张纤薄的叶片组成令人眼前一亮的涡轮造型。</p>"
+    "外观柔美，独具魅力 SKYMNINGEN 希姆宁 吊灯采用敞口通风设计，选择它来装点家居环境，吸引力十足！ 这款吊灯外观柔美，独具魅力，由20张纤薄的叶片组成令人眼前一亮的涡轮造型。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -98,6 +132,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

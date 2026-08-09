@@ -11,7 +11,7 @@
    "title": "挑选合适的灯具",
    "texts": [
     "亮着的MISTERHULT 米斯特胡尔特 吊灯，采用浅色的天然竹子材料手工编织而成。",
-    "<p>本月新推出的灯具系列包括复古款式以及手工竹编设计。从中挑选一款喜欢的灯具，搭配你的家居装饰，增添个性元素！</p>",
+    "本月新推出的灯具系列包括复古款式以及手工竹编设计。从中挑选一款喜欢的灯具，搭配你的家居装饰，增添个性元素！",
     "挑选合适的灯具",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "挑选合适的灯具",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a5/0b/a50b9d92a7f3711796b1bc2c6bd58b3a.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -50,6 +60,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "MISTERHULT 米斯特胡尔特 吊灯和台灯采用竹子手工编织而成，可在走廊空间营造舒适的氛围。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/1f659cd3a346b110/original/PH168538-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -76,6 +96,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一间装修华丽的房间，里面摆放着三盏带玻璃灯罩的SIMRISHAMN 希姆丽哈姆 灯具，包括吊灯、落地灯和台灯，全部灯都亮着。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/2c9f859068ca6fe2/original/PH168692-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -102,6 +132,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "在房间一角，有一个SKAFTET 斯卡夫提特 拱形落地灯灯座，配白色灯罩，在沙发旁边提供上方照明。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/722431f3226c8872/original/PH168547-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -117,6 +157,38 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "MISTERHULT 米思特胡",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/misterhult-mi-si-te-hu-diao-deng-zhu-shou-gong-zhi-zuo__0794605_pe765667_s4.jpg",
+     "href": "/cn/zh/p/misterhult-mi-si-te-hu-diao-deng-zhu-shou-gong-zhi-zuo-70441019/"
+    },
+    {
+     "title": "SIMRISHAMN 希姆丽哈姆",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/simrishamn-xi-mu-li-ha-mu-diao-deng-3-zhi-du-ge-ru-bai-se-bo-li__0793571_pe765399_s4.jpg",
+     "href": "/cn/zh/p/simrishamn-xi-mu-li-ha-mu-diao-deng-3-zhi-du-ge-ru-bai-se-bo-li-60407836/"
+    },
+    {
+     "title": "SIMRISHAMN 希姆丽哈姆",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/simrishamn-xi-mu-li-ha-mu-zhi-xing-deng-7-zhi-du-ge-ru-bai-se-bo-li__0793467_pe765392_s4.jpg",
+     "href": "/cn/zh/p/simrishamn-xi-mu-li-ha-mu-zhi-xing-deng-7-zhi-du-ge-ru-bai-se-bo-li-40451873/"
+    },
+    {
+     "title": "SIMRISHAMN 希姆丽哈姆",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/simrishamn-xi-mu-li-ha-mu-luo-di-deng-du-ge-ru-bai-se-bo-li__0789445_pe763989_s4.jpg",
+     "href": "/cn/zh/p/simrishamn-xi-mu-li-ha-mu-luo-di-deng-du-ge-ru-bai-se-bo-li-70437767/"
+    },
+    {
+     "title": "SKAFTET 斯卡夫提特",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/skaftet-si-qia-fu-ti-te-luo-di-deng-deng-zuo-gong-xing-hei-se__0760537_pe750808_s4.jpg",
+     "href": "/cn/zh/p/skaftet-si-qia-fu-ti-te-luo-di-deng-deng-zuo-gong-xing-hei-se-30405424/"
+    }
+   ],
    "settings": null
   }
  ]

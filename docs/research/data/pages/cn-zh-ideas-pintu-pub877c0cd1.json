@@ -11,7 +11,7 @@
    "title": "保存未完成的拼图",
    "texts": [
     "俯视图：一张从沙发底下伸出的纸板，上面有一块拼图",
-    "<p>找到四个角所有的拼图块，或者找出不确定丢还是没丢的难拼图块，那感觉简直棒极了。有了推入沙发下方这个快捷简便的储物创意，你就无需烦恼未完成的拼图该放在何处，只管想着怎么拼就好了！</p>",
+    "找到四个角所有的拼图块，或者找出不确定丢还是没丢的难拼图块，那感觉简直棒极了。有了推入沙发下方这个快捷简便的储物创意，你就无需烦恼未完成的拼图该放在何处，只管想着怎么拼就好了！",
     "保存未完成的拼图",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "保存未完成的拼图",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/c0/1c/c01c84d08b7069f6841a30c04c12162d.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -43,6 +53,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "特写：附在木板上的脚轮 ",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ec/dc/ecdc588ce11661991d5d0c4035b385e1.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -63,36 +83,52 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "侧视图：置于沙发下的带轮拼图板",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/0d/1c/0d1c3e00cf75364983270a6ae7f5ef3c.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>只需将四个 RILL 瑞尔 脚轮安装在 VEDDINGE 维丁格 厨房前挡板上，就能打造出这个拼图板。不拼的时候就把它推到看不见的地方，拼好之前你都无需收拾打理。这一创意来源于我们的<a href=\"-5dae9a910fe911e782947599e478f1b8\">&ldquo;小空间挑战：客厅和餐厅&rdquo;</a>。</p>"
+    "只需将四个 RILL 瑞尔 脚轮安装在 VEDDINGE 维丁格 厨房前挡板上，就能打造出这个拼图板。不拼的时候就把它推到看不见的地方，拼好之前你都无需收拾打理。这一创意来源于我们的“小空间挑战：客厅和餐厅”。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>我们乐意看到顾客运用我们的产品发挥创意。尽情发挥吧！但是请注意，经过微调或改造的宜家产品将丧失其原有功能，或无法进行二次销售，因此，你将不再享有宜家的商业保证及退货权利。</p>"
+    "我们乐意看到顾客运用我们的产品发挥创意。尽情发挥吧！但是请注意，经过微调或改造的宜家产品将丧失其原有功能，或无法进行二次销售，因此，你将不再享有宜家的商业保证及退货权利。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>制作人</strong></p>\n<p>室内设计师：Therese Ericsson<br />文案编辑：Marissa Frayer<br />摄影师：Sandra Werud<br /><br /></p>"
+    "制作人 室内设计师：Therese Ericsson 文案编辑：Marissa Frayer 摄影师：Sandra Werud"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

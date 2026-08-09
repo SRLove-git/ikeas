@@ -11,7 +11,7 @@
    "title": "适合秋天的舒适户外空间",
    "texts": [
     "在舒适的户外空间放松。",
-    "<p>准备好户外空间来迎接秋天吧。只需添加几件物品，花园或露台就能在夏天过后继续派上用场。以大自然的色调为灵感，将夏天明艳的色彩替换为温暖的自然色。天气渐凉，Sara将家中花园的平台变成了喝咖啡的好地方。“我喜欢将舒适与自然粗犷的元素结合起来——风化的木材，石头和柔和的色彩，”她说道。</p>",
+    "准备好户外空间来迎接秋天吧。只需添加几件物品，花园或露台就能在夏天过后继续派上用场。以大自然的色调为灵感，将夏天明艳的色彩替换为温暖的自然色。天气渐凉，Sara将家中花园的平台变成了喝咖啡的好地方。“我喜欢将舒适与自然粗犷的元素结合起来——风化的木材，石头和柔和的色彩，”她说道。",
     "适合秋天的舒适户外空间",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "适合秋天的舒适户外空间",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/24/53/24534b5ae2133b4f9df31466124a1b7f.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -43,6 +53,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "堆叠纺织品创造舒适温暖的小天地。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/f2/2a/f22a6a092332d9f051e43db96ffda29c.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -62,6 +82,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "用灯具延长光照时间。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/3a/77/3a77650292e673529b7040f0ffb68c55.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -81,16 +111,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "把灯挂在树枝上。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/cb/ab/cbabe179a23eaeb6bb70899f684b4573.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>堆叠纺织品，再添置几盏灯</h2><p>带来额外的舒适与温暖，这样你待在户外的时间可以更长。用小型地毯覆盖地面，并隔离出座位，并将靠垫和休闲毯放在手边的篮筐中。使用灯具可以照明，还能营造舒适的氛围。要达到最佳效果，可以把灯分别放在地板、桌子上，还有悬挂在树枝上。</p>"
+    "堆叠纺织品，再添置几盏灯带来额外的舒适与温暖，这样你待在户外的时间可以更长。用小型地毯覆盖地面，并隔离出座位，并将靠垫和休闲毯放在手边的篮筐中。使用灯具可以照明，还能营造舒适的氛围。要达到最佳效果，可以把灯分别放在地板、桌子上，还有悬挂在树枝上。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -110,6 +152,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "Sara的照片。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d3/f4/d3f4ccb9ec99313e9b13c0b5529b173b.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -121,16 +173,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><span style=\"font-weight: bold;\">制作人</span></p>\n<p>摄影师：Polly Wreford<br />设计师：&Aring;sa Dyberg</p>"
+    "制作人 摄影师：Polly Wreford 设计师：åsa Dyberg"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

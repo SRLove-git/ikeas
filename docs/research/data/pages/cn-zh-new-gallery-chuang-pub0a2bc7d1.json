@@ -11,7 +11,7 @@
    "title": "适合更多家庭",
    "texts": [
     "宜家 UTÅKER 于托克 折叠床以天然未加工的实心松木制成，功能多样，可从沙发转化为单人床，用于夜间安眠。可轻松抬上楼梯，进行组装或拆卸。你还可以在上面涂绘或喷清漆，为其增添个性色彩。",
-    "<p>宜家 UT&Aring;KER 于托克 折叠床功能多样，适合所有居住条件！白天可以用作沙发，夜间可以用作单人床。</p>",
+    "宜家 UTåKER 于托克 折叠床功能多样，适合所有居住条件！白天可以用作沙发，夜间可以用作单人床。",
     "适合更多家庭",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "适合更多家庭",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/fd/76/fd76ede43b8188ba0eacd54d30ae870d.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,16 +54,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "宜家 UTÅKER 于托克 折叠床采用未经处理的实心松木制成，如果并排放置，就可以轻松变成双人床。十分轻便，易于组装、拆卸或抬上楼梯。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/21/2a/212a186c4a482cce97cf64ab55157132.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>也可以把两张折叠床的其中一张抬下来，两张并排放置，组成双人床。</p>"
+    "也可以把两张折叠床的其中一张抬下来，两张并排放置，组成双人床。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -73,16 +95,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "宜家 UTÅKER 折叠床采用未经处理的实心松木制作，可以分开放置，变成成对的单人床。你还可以在它未经处理的松木表面上涂绘或喷清漆，为其增添个性色彩，让它与房间融为一体。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/43/e3/43e36aaefb84b1edd26791896607ddd5.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>当然，也可以把两张折叠床分开放置，变成成对的单人床。</p><p>UTÅKER 于托克 折叠床采用未经任何处理的天然实心松木制成，你可以在上面喷漆，让它变得个性十足，能与任何房间的风格融为一体，或者改造一下，彰显独特风格！</p>"
+    "当然，也可以把两张折叠床分开放置，变成成对的单人床。UTÅKER 于托克 折叠床采用未经任何处理的天然实心松木制成，你可以在上面喷漆，让它变得个性十足，能与任何房间的风格融为一体，或者改造一下，彰显独特风格！"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -94,6 +128,14 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "UTÅKER 于托克",
+     "text": "¥1,299",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/utaker-yu-tuo-ke-die-chuang-song-mu__1161849_pe889565_s4.jpg",
+     "href": "/cn/zh/p/utaker-yu-tuo-ke-die-chuang-song-mu-70360485/"
+    }
+   ],
    "settings": null
   }
  ]

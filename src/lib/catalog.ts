@@ -1,12 +1,14 @@
 import {
-  catalogCategories,
-  channelCategories,
+  catalogData,
   type CatalogCategory,
   type CatalogProduct,
 } from "@/data/catalog";
-import { productsBySlug, productsById } from "@/data/products-index";
+import { productsBySlug } from "@/data/products-index";
 import { catalogPages } from "@/lib/catalog-pages";
 import type { ProductData } from "@/data/pages-types";
+import { getCollectionHref } from "@/lib/catalog-format";
+
+export { formatPrice, getCollectionHref } from "@/lib/catalog-format";
 
 export interface CategoryMatch {
   category: CatalogCategory;
@@ -18,28 +20,36 @@ export interface ProductMatch {
   category: { name: string; href: string } | null;
 }
 
-const allCollections: CatalogCategory[] = [...catalogCategories, ...channelCategories];
+let builtFor: ReturnType<typeof catalogData> | null = null;
+let allCollections: CatalogCategory[] = [];
+let categoryBySlug = new Map<string, CategoryMatch>();
+let productBySlug = new Map<string, { product: CatalogProduct; category: CatalogCategory }>();
 
-const categoryBySlug = new Map<string, CategoryMatch>();
-for (const category of allCollections) {
-  categoryBySlug.set(category.slug, { category });
-  for (const sub of category.subs) {
-    categoryBySlug.set(sub.slug, { category, sub });
-  }
-}
-
-const productBySlug = new Map<string, { product: CatalogProduct; category: CatalogCategory }>();
-for (const category of allCollections) {
-  for (const product of category.products) {
-    productBySlug.set(product.slug, { product, category });
+function ensureIndexes(): void {
+  const current = catalogData();
+  if (builtFor === current) return;
+  builtFor = current;
+  allCollections = [...current.catalogCategories, ...current.channelCategories];
+  categoryBySlug = new Map<string, CategoryMatch>();
+  productBySlug = new Map<string, { product: CatalogProduct; category: CatalogCategory }>();
+  for (const category of allCollections) {
+    categoryBySlug.set(category.slug, { category });
+    for (const sub of category.subs) {
+      categoryBySlug.set(sub.slug, { category, sub });
+    }
+    for (const product of category.products) {
+      productBySlug.set(product.slug, { product, category });
+    }
   }
 }
 
 export function findCategoryBySlug(slug: string): CategoryMatch | undefined {
+  ensureIndexes();
   return categoryBySlug.get(slug);
 }
 
 export function findProductBySlug(slug: string): ProductMatch | undefined {
+  ensureIndexes();
   const match = productBySlug.get(slug);
   if (match) {
     return {
@@ -50,7 +60,7 @@ export function findProductBySlug(slug: string): ProductMatch | undefined {
       },
     };
   }
-  const product = productsBySlug.get(slug);
+  const product = productsBySlug().get(slug);
   if (product) {
     return { product, category: findCategoryNameForProductId(product.id) };
   }
@@ -60,11 +70,12 @@ export function findProductBySlug(slug: string): ProductMatch | undefined {
 export function findCategoryNameForProductId(
   id: string,
 ): { name: string; href: string } | null {
-  for (const page of catalogPages) {
+  for (const page of catalogPages()) {
     if (page.products.some((p) => p.id === id)) {
       return { name: page.name, href: page.url };
     }
   }
+  ensureIndexes();
   for (const category of allCollections) {
     if (category.products.some((p) => String(p.id) === id)) {
       return { name: category.name, href: getCollectionHref(category) };
@@ -73,22 +84,7 @@ export function findCategoryNameForProductId(
   return null;
 }
 
-export const productSlugsWithDetails = new Set([
-  ...productBySlug.keys(),
-  ...productsBySlug.keys(),
-]);
-
-export function formatPrice(price: number | null): string {
-  if (price === null || Number.isNaN(price)) return "";
-  return `¥${price.toLocaleString("zh-CN", {
-    minimumFractionDigits: price % 1 === 0 ? 0 : 2,
-    maximumFractionDigits: 2,
-  })}`;
-}
-
-export function getCollectionHref(category: CatalogCategory): string {
-  if (category.url.startsWith("/cn/zh/personalize-channel/")) {
-    return category.url;
-  }
-  return `/cn/zh/cat/${category.slug}`;
+export function productSlugsWithDetails(): Set<string> {
+  ensureIndexes();
+  return new Set([...productBySlug.keys(), ...productsBySlug().keys()]);
 }

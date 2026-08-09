@@ -10,7 +10,7 @@
    "type": "pub-hero",
    "title": "照亮空间！",
    "texts": [
-    "<p><strong>你的声音就是灯光开关。</strong></p>\n<p>撰文：DANIEL DASEY</p>",
+    "你的声音就是灯光开关。 撰文：DANIEL DASEY",
     "照亮空间！",
     "normal"
    ],
@@ -23,6 +23,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "照亮空间！",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/4d/b3/4db336dfde7178e54fd0e4b2f44d4e84.png",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -33,16 +43,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>这听上去有点像《哈利波特》小说里的内容。</h2>"
+    "这听上去有点像《哈利波特》小说里的内容。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -61,16 +75,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/5f/dc/5fdcf18cb1efd0f7aa5e12a70b933b37.png",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>你走进一间漆黑的房间，自信地指挥灯光亮起来，嘿，真的亮了！你即刻便能沐浴在美丽温暖的光线之下。接下来，你命令灯泡变成蓝色或桃红色，或者变暗一点，它们也立即照办了。其中的奥秘是什么？！</p>\n<p>2017年，每个人都可以用魔法控制家居照明设备。 TR&Aring;DFRI 特鲁菲 智能照明产品系列的推出，以及它借助谷歌、亚马逊和苹果的相关技术集成的声控助手功能，让成千上万的人得以利用简单的语音指令，即刻改变家居环境氛围。</p>"
+    "你走进一间漆黑的房间，自信地指挥灯光亮起来，嘿，真的亮了！你即刻便能沐浴在美丽温暖的光线之下。接下来，你命令灯泡变成蓝色或桃红色，或者变暗一点，它们也立即照办了。其中的奥秘是什么？！ 2017年，每个人都可以用魔法控制家居照明设备。 TRåDFRI 特鲁菲 智能照明产品系列的推出，以及它借助谷歌、亚马逊和苹果的相关技术集成的声控助手功能，让成千上万的人得以利用简单的语音指令，即刻改变家居环境氛围。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -89,16 +115,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e6/e5/e6e5799771d06aa4b49d10444ab47106.png",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>你可在全球各地的厨房、餐厅和卧室听到这样的话语：&ldquo;嘿，谷歌，将光线调暗一半&rdquo;、&ldquo;Siri，关掉楼上的灯&rdquo;、&ldquo;Alexa，把沙发旁的灯光调成暖白光&rdquo;。</p>\n<p>IKEA of Sweden宜家智能家居业务主管Bj&ouml;rn Block解释道，这种变化是随着 TR&Aring;DFRI 特鲁菲 系统的出现而开始的。TR&Aring;DFRI 特鲁菲 系统最基本的模式是将智能灯泡与遥控器搭配使用，方便人们轻松调暗家中灯光，把明亮的空间变成舒适的小窝。</p>"
+    "你可在全球各地的厨房、餐厅和卧室听到这样的话语：“嘿，谷歌，将光线调暗一半”、“Siri，关掉楼上的灯”、“Alexa，把沙发旁的灯光调成暖白光”。 IKEA of Sweden宜家智能家居业务主管Björn Block解释道，这种变化是随着 TRåDFRI 特鲁菲 系统的出现而开始的。TRåDFRI 特鲁菲 系统最基本的模式是将智能灯泡与遥控器搭配使用，方便人们轻松调暗家中灯光，把明亮的空间变成舒适的小窝。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -106,7 +144,7 @@
    "title": null,
    "texts": [
     "https://v.youku.com/v_show/id_XMzEyNTc4OTM0MA==.html?spm=a2hww.20027244.m_250036.5~5!2~5~5!2~5~5~A",
-    "<p>只需旋转手里的调光器，便可调节明暗。</p>",
+    "只需旋转手里的调光器，便可调节明暗。",
     "MANUAL_INPUT"
    ],
    "images": [],
@@ -116,6 +154,8 @@
      "text": "\n<p>只需旋转手里的调光器，便可调节明暗。</p>\n"
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -127,6 +167,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -137,16 +179,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>极具好奇心的顾客</h2>\n<p>这个系统还有更加复杂的功能选项，TR&Aring;DFRI 特鲁菲 网关可将单个灯泡连接在一起，令人们能够通过专用APP对灯泡进行控制，并自由选择多达20种不同的灯光颜色。</p>"
+    "极具好奇心的顾客 这个系统还有更加复杂的功能选项，TRåDFRI 特鲁菲 网关可将单个灯泡连接在一起，令人们能够通过专用APP对灯泡进行控制，并自由选择多达20种不同的灯光颜色。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -165,16 +211,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/f0/6a/f06a75d872ff8e7fe48085830457f45b.png",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h4>&nbsp;TR&Aring;DFRI 特鲁菲 系列的制作团队曾希望该产品系列一经推出就能得到人们的喜爱，但事实证明他们还是低估了顾客对该系列的追捧热情。Bj&ouml;rn说：&ldquo;我们低估了人们的好奇心，购买网关的人数比我们预计的多很多，人们都想利用它将不同的灯具连接在一起，并通过智能手机或平板电脑对灯具进行操控。&rdquo;</h4>"
+    "TRåDFRI 特鲁菲 系列的制作团队曾希望该产品系列一经推出就能得到人们的喜爱，但事实证明他们还是低估了顾客对该系列的追捧热情。Björn说：“我们低估了人们的好奇心，购买网关的人数比我们预计的多很多，人们都想利用它将不同的灯具连接在一起，并通过智能手机或平板电脑对灯具进行操控。”"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -186,6 +244,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -196,16 +256,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>简单易操作的界面</h2>\n<p>2017年秋季推出的智能助手兼容功能，让系统操作更加完善。人们现在不仅能够利用 TR&Aring;DFRI 特鲁菲 APP和遥控器控制系统，还可以通过向谷歌、亚马逊和苹果的智能语音设备发出语音指令，控制系统。人们同样可以借助手机上的谷歌助手和苹果语音助手Siri，发出语音指令。突然之间人们的生活发生了改变，只需发出语音指令便可在睡觉前关闭所有灯光，或把客厅打造成明亮的橘黄色，开始一场即兴布吉尔音乐会。<br />Bj&ouml;rn说这是一项令人赞叹的技术，宜家在设计所有智能家居产品系列时都秉持着一个清晰的目标：即让生活更加美好。他说：&ldquo;我们绝不会仅考虑现有资源，推出产品。我们打造的是能够造福大众的有用产品。&rdquo;</p>\n<p><strong>现在，一切变得神奇起来！</strong><br /><a href=\"-https://www.ikea.cn/cn/zh/customer-service/product-support/smart-lighting/\">了解更多有关宜家智能照明的信息</a></p>"
+    "简单易操作的界面 2017年秋季推出的智能助手兼容功能，让系统操作更加完善。人们现在不仅能够利用 TRåDFRI 特鲁菲 APP和遥控器控制系统，还可以通过向谷歌、亚马逊和苹果的智能语音设备发出语音指令，控制系统。人们同样可以借助手机上的谷歌助手和苹果语音助手Siri，发出语音指令。突然之间人们的生活发生了改变，只需发出语音指令便可在睡觉前关闭所有灯光，或把客厅打造成明亮的橘黄色，开始一场即兴布吉尔音乐会。 Björn说这是一项令人赞叹的技术，宜家在设计所有智能家居产品系列时都秉持着一个清晰的目标：即让生活更加美好。他说：“我们绝不会仅考虑现有资源，推出产品。我们打造的是能够造福大众的有用产品。” 现在，一切变得神奇起来！ 了解更多有关宜家智能照明的信息"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -216,16 +280,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h4><strong>阅读更多2017年宜家集锦内容</strong></h4>"
+    "阅读更多2017年宜家集锦内容"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -258,6 +326,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "2017年 《家居生活报告》",
+     "text": "在来自22个国家超过22,000人的热心参与下，今年的《家居生活报告》让我们以全新真实的视角去了解对于大部分人来说，家居生活究竟是什么样子的。报告中揭示了五类常见矛盾，这些矛盾会在我们与同住人员发生居住空间和物品使用分歧时出现。",
+     "image": "https://file.app.ikea.cn/images/34/ae/34aed0dce42b7856f24467e8f02714f1.jpg",
+     "href": "/cn/zh/this-is-ikea/newsroom/magazine-pubb74064bb",
+     "backgroundColor": null
+    },
+    {
+     "title": "回收利用塑料",
+     "text": "想象一个没有废弃物的世界。那里可以利用塑料材质的废弃饮料瓶打造全新厨房。觉得不可能? 并非如此。我们有真实案例。",
+     "image": "https://file.app.ikea.cn/images/08/81/0881b02d65e13448c3c514eee1ea77fb.jpg",
+     "href": "/cn/zh/this-is-ikea/newsroom/recycle-pub5bb4cb64",
+     "backgroundColor": null
+    },
+    {
+     "title": "买前先试",
+     "text": "现在，在增强现实(AR)技术和宜家经验的帮助下，你可以和这种头疼的事情说再见了，宜家于2017年秋季发布IKEA Place应用程序，让顾客可以亲眼预览超过2,000款家具摆放在家里的样子，以此判断是否合适。",
+     "image": "https://file.app.ikea.cn/images/4a/9d/4a9d1dfc3cd99a770e0e5d339ec5c991.jpg",
+     "href": "/cn/zh/this-is-ikea/newsroom/pre-sale-pubb35d6ba1",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   }
  ]

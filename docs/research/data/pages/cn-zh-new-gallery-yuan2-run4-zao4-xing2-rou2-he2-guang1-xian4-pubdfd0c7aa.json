@@ -11,7 +11,7 @@
    "title": "圆润造型，柔和光线",
    "texts": [
     "RISBYN 里斯比恩 吊灯罩采用洋葱造型，由米纸制成，装饰图案隐约暗淡。",
-    "<p>利用洋葱造型的 RISBYN 里斯比恩 吊灯罩营造宁静氛围。吊灯罩采用米纸制成，灯亮起时可以清晰看见原本暗淡的装饰图案。</p>",
+    "利用洋葱造型的 RISBYN 里斯比恩 吊灯罩营造宁静氛围。吊灯罩采用米纸制成，灯亮起时可以清晰看见原本暗淡的装饰图案。",
     "圆润造型，柔和光线",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "圆润造型，柔和光线",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/23/43/2343d11df6818abbcc66be631f7de3b9.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,16 +54,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "特写：RISBYN 里斯比恩 吊灯罩采用洋葱造型，由米纸制成，装饰图案隐约暗淡。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/60/66/606634ba61449cb453920fb2f22b01a5.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>RISBYN 里斯比恩 吊灯罩可以营造装饰性的漫射灯光，打造柔和舒适的氛围。</p>"
+    "RISBYN 里斯比恩 吊灯罩可以营造装饰性的漫射灯光，打造柔和舒适的氛围。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

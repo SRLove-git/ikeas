@@ -11,7 +11,7 @@
    "title": "全方位五星卧室",
    "texts": [
     "宜家 HOMMELVIK 霍莫尔维科 米黄色沙发床配有布料装饰的床头板，因此你可以大胆地将它放置在卧室中央。",
-    "<p>在能与酒店媲美的舒适床上入睡。HOMMELVIK 霍莫尔维科 欧式床用天然纤维编织而成，你可以将它放在房间中央，创造愉悦舒适的睡眠环境。</p>",
+    "在能与酒店媲美的舒适床上入睡。HOMMELVIK 霍莫尔维科 欧式床用天然纤维编织而成，你可以将它放在房间中央，创造愉悦舒适的睡眠环境。",
     "全方位五星卧室",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "全方位五星卧室",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/8e/ce/8ece7768bc2cb7a7b58b341a744c6fb1.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -39,6 +49,26 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "BJÖRKSNÄS 约纳斯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/bjoerksnaes-yue-na-si-chuang-tou-zhuo-hua-mu__0598067_pe677433_s4.jpg",
+     "href": "/cn/zh/p/bjoerksnaes-yue-na-si-chuang-tou-zhuo-hua-mu-50407361/"
+    },
+    {
+     "title": "IKORNNES 伊库斯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ikornnes-yi-ku-si-li-jing-bai-zha-mu__0633524_pe695900_s4.jpg",
+     "href": "/cn/zh/p/ikornnes-yi-ku-si-li-jing-bai-zha-mu-10298397/"
+    },
+    {
+     "title": "TRETUR 加特尔",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/tretur-jia-te-er-zhe-guang-juan-lian-dan-hui-se__0541310_pe653523_s4.jpg",
+     "href": "/cn/zh/p/tretur-jia-te-er-zhe-guang-juan-lian-dan-hui-se-80380987/"
+    }
+   ],
    "settings": null
   }
  ]

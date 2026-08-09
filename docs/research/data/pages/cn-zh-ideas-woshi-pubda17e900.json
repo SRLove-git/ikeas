@@ -11,7 +11,7 @@
    "title": "小空间挑战1：双人卧室",
    "texts": [
     "小型双人卧室中放着一张平台式床和很多储物件",
-    "<p>在小空间发挥创意。我们决定尝试用尽可能小的空间打造租赁的双人卧室。之后我们试了一下！在本系列的第一部分，我们展示了多功能、可移动和分层解决方案创造储物空间和开放式地面空间的方法。</p>",
+    "在小空间发挥创意。我们决定尝试用尽可能小的空间打造租赁的双人卧室。之后我们试了一下！在本系列的第一部分，我们展示了多功能、可移动和分层解决方案创造储物空间和开放式地面空间的方法。",
     "小空间挑战1：双人卧室",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "小空间挑战1：双人卧室",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/31/b0/31b06f3e194d0a714c11ecb52c1fc378.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -40,6 +50,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -51,16 +63,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>喜欢影片中的创意吗？在下方查看更多细节。</strong></p>"
+    "喜欢影片中的创意吗？在下方查看更多细节。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -80,16 +96,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "特写：平台式床上的小抽屉",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/83/6a/836a386d1ed2a242b3fd103047dc9803.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>查看我们如何利用 METOD 米多 橱柜制作<a href=\"-4ad1df500ee411e78cd481e39ed1f930\">带有大量储物空间的床</a>。</p>"
+    "查看我们如何利用 METOD 米多 橱柜制作带有大量储物空间的床。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -109,36 +137,52 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "配有储物盒的 IVAR 伊娃 带轮搁板",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/52/2c/522cd62e20ddde3ba02167a0c675cbe9.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>可移动储物件是<a href=\"-2b31e0500fac11e7a9947539baa8e291\">IVAR 伊娃 搁架单元改造创意</a>等小空间的理想选择。</p>"
+    "可移动储物件是IVAR 伊娃 搁架单元改造创意等小空间的理想选择。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><em>我们乐意看到顾客运用我们的产品发挥创意。尽情发挥吧！但是请注意，经过微调或改造的宜家产品将丧失其原有功能，或无法进行二次销售，因此，你将不再享有宜家的商业保证及退货权利。</em></p>"
+    "我们乐意看到顾客运用我们的产品发挥创意。尽情发挥吧！但是请注意，经过微调或改造的宜家产品将丧失其原有功能，或无法进行二次销售，因此，你将不再享有宜家的商业保证及退货权利。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>制作人</strong></p>\n<p>室内设计师：Therese Ericsson<br />摄影师：JJohan M&aring;nsson/Sandra Werud<br />撰稿人：Marissa Frayer</p>"
+    "制作人 室内设计师：Therese Ericsson 摄影师：JJohan Månsson/Sandra Werud 撰稿人：Marissa Frayer"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

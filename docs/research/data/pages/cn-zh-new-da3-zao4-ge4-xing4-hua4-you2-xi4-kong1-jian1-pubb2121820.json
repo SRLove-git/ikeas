@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -33,6 +35,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/19/36/1936bfb82de7020888ddd946f647a906.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -60,6 +72,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/2a/05/2a05d50fd15378af810c5ed669465a08.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/0e/bf/0ebfbe6258f9497a8c6ac72b9a13ed34.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/2a/05/2a05d50fd15378af810c5ed669465a08.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/0e/bf/0ebfbe6258f9497a8c6ac72b9a13ed34.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -75,6 +118,26 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "KOLON 卡伦",
+     "text": "¥199",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kolon-qia-lun-di-ban-bao-hu-dian__0292207_pe425129_s4.jpg",
+     "href": "/cn/zh/p/kolon-qia-lun-di-ban-bao-hu-dian-90176245/"
+    },
+    {
+     "title": "LACK 拉克",
+     "text": "¥129",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lack-la-ke-qiang-ge-ban-bai-se__0641087_pe700250_s4.jpg",
+     "href": "/cn/zh/p/lack-la-ke-qiang-ge-ban-bai-se-70282181/"
+    },
+    {
+     "title": "HÅRTE 哈尔特",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/harte-ha-er-te-led-gong-zuo-deng-bai-se-yin-se__0243818_pe383097_s4.jpg",
+     "href": "/cn/zh/p/harte-ha-er-te-led-gong-zuo-deng-bai-se-yin-se-30238265/"
+    }
+   ],
    "settings": null
   }
  ]

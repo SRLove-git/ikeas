@@ -11,7 +11,7 @@
    "title": "TORHAMN 图汗 天然白蜡木厨房指南",
    "texts": [
     "一间开放式厨房，配有传统风格的天然白蜡木和玻璃柜门，还有白蜡木柜子、独立橱柜和深色木地板。",
-    "<p>想打造一个风格温馨的传统厨房？这个采用天然白蜡木制成的厨房，充满质朴气息，是你的理想之选！TORHAMN 图汗 柜门设计简约，兼具手工艺感与实用功能，彰显天然木材的迷人魅力。</p>",
+    "想打造一个风格温馨的传统厨房？这个采用天然白蜡木制成的厨房，充满质朴气息，是你的理想之选！TORHAMN 图汗 柜门设计简约，兼具手工艺感与实用功能，彰显天然木材的迷人魅力。",
     "TORHAMN 图汗 天然白蜡木厨房指南",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "TORHAMN 图汗 天然白蜡木厨房指南",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b4/d6/b4d67c1c137ae89548643f15525a76e4.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -50,6 +60,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个白色大理石纹工作台，上方是配TORHAMN 图汗 白蜡木和玻璃柜门的壁柜，里面存放着餐具。",
+     "image": "https://file.app.ikea.cn/images/dd/27/dd275ce48317bba9069b75983be4b608.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -76,6 +96,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "配TORHAMN 图汗 白蜡木和玻璃柜门的壁柜，里面存放着白色餐具。",
+     "image": "https://file.app.ikea.cn/images/a5/af/a5af8aed6a2982336b36e1313e31cd56.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -102,6 +132,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "三个实心白蜡木高柜。其中一个高柜的柜门打开着，里面有搁架和抽屉，前面是一架蓝色的手推车。",
+     "image": "https://file.app.ikea.cn/images/9f/e4/9fe428b7c4f41a052642f2aaabdcb036.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -147,6 +187,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "购买宜家厨房的5个步骤",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/31/25/3125f86f48cf469079c71ff3c1e4b4a7.jpg",
+     "href": "/cn/zh/rooms/kitchen/how-to/gou4-mai3-yi2-jia1-chu2-fang2-de5-ge4-bu4-zhou4-pub6003162f",
+     "backgroundColor": "#d5dcd4"
+    },
+    {
+     "title": "宜家厨房设计工具——在家即可轻松设计你的厨房",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/42/90/42909d2ee6bc60a85b45906cfa0ff9a7.jpg",
+     "href": "/cn/zh/h5page/?url=%23",
+     "backgroundColor": "#ecd7a2"
+    },
+    {
+     "title": "预约宜家厨房专家服务",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/7b/32/7b32031403ca8a72b6528dfec1cb0597.jpg",
+     "href": "/cn/zh/h5page/?url=%23",
+     "backgroundColor": "#e9c3b0"
+    },
+    {
+     "title": "宜家厨房服务",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/76/9a/769af772d23e404b7198cfbf9b542f22.jpg",
+     "href": "/cn/zh/h5page/?url=%23",
+     "backgroundColor": "#99abc1"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -162,6 +233,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

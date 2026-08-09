@@ -11,7 +11,7 @@
    "title": "打造永不凋零的玫瑰花园房",
    "texts": [
     "在房间各处装点花卉图案，打造出室内玫瑰花园。",
-    "<p>打造室内花园，让你和客人能随时欣赏它的美，一年四季随心观赏。</p>",
+    "打造室内花园，让你和客人能随时欣赏它的美，一年四季随心观赏。",
     "打造永不凋零的玫瑰花园房",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "打造永不凋零的玫瑰花园房",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/99/cd/99cdf030ca73c4fc40f0b6a76847b93d.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -45,16 +55,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "大胆使用花卉图案。无论是家具、窗帘还是墙纸，全部采用繁复的花卉图案。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/f5/96/f5962859656bfb8f4fcca90dbeb8597b.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>如果可以大胆展示自己的喜爱，为什么要谨小慎微呢？</h2>\n<p>全面释放热情，打造出玫瑰爱好者和浪漫主义者都会喜爱的美妙氛围。在房内摆放各种花卉图案的物件，再添加人造花以及与房间风格相得益彰的纺织品、颜色等小细节。秀出你大胆、美好而有趣的个性！</p>"
+    "如果可以大胆展示自己的喜爱，为什么要谨小慎微呢？ 全面释放热情，打造出玫瑰爱好者和浪漫主义者都会喜爱的美妙氛围。在房内摆放各种花卉图案的物件，再添加人造花以及与房间风格相得益彰的纺织品、颜色等小细节。秀出你大胆、美好而有趣的个性！"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -76,6 +98,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "简约的宜家 VARDAGEN 瓦达恩 茶壶等甜美的小细节与玫瑰主题相得益彰。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e2/8b/e28bd2e3b18c9e3cae33a5798d09fe20.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -97,6 +129,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "增添色调素净的柔美细节，如一张简约的宜家 INGABRITTA 因阿布里塔 休闲毯。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/27/ef/27efab6bcee29de535678b7c684933c4.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -108,6 +150,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -129,26 +173,40 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "简单漂亮的细节能够平衡空间里花卉元素，如宜家GRADVIS 花瓶。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/af/c0/afc02f4bc5c946d1e0971e7715b97f1a.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>我们乐意看到顾客运用我们的产品发挥创意。尽情发挥吧！但是请注意，经过微调或改造的宜家产品将失去其原有功能，或无法进行二次销售，因此，你将不再享有宜家的商业保证及退货权利。</p>"
+    "我们乐意看到顾客运用我们的产品发挥创意。尽情发挥吧！但是请注意，经过微调或改造的宜家产品将失去其原有功能，或无法进行二次销售，因此，你将不再享有宜家的商业保证及退货权利。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>制作人<br /></strong>室内设计师: Sa&scaron;a Antić <br />摄影师: Emma Engkvist<br />撰稿人: Vi Cooper</p>"
+    "制作人 室内设计师: Saša Antić 摄影师: Emma Engkvist 撰稿人: Vi Cooper"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

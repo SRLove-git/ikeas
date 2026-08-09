@@ -11,7 +11,7 @@
    "title": "集设计美感与舒适体验于一身",
    "texts": [
     "红色金属框架 KARLJAN 卡尔延 椅子，配软垫座椅和靠背，彰显复古风格设计。",
-    "<p>KARLJAN 卡尔延 椅子采用复古风格设计，搭配舒适的红色或深灰色软垫，可为家增添个性气息。</p>",
+    "KARLJAN 卡尔延 椅子采用复古风格设计，搭配舒适的红色或深灰色软垫，可为家增添个性气息。",
     "集设计美感与舒适体验于一身",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "集设计美感与舒适体验于一身",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/8a/3c/8a3c868c0d080eb5c15201a41c474902.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,16 +54,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "金属框架 KARLJAN 卡尔延 椅子软垫座椅和靠背细节图。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/16/d8/16d886a2f3586c2dd3e0c3da8e947109.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>KARLJAN 卡尔延 椅子靠背和座椅均带有软垫，为长时间享用晚餐增添舒适享受。</p>"
+    "KARLJAN 卡尔延 椅子靠背和座椅均带有软垫，为长时间享用晚餐增添舒适享受。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

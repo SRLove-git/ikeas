@@ -11,7 +11,7 @@
    "title": "吃自己种植的食物",
    "texts": [
     "宜家 GAMLARED 冈拉瑞德 黑色餐桌的支腿也是黑色的，木质桌面四角圆润，表面光滑。",
-    "<p>最美味的食物就是家人一起种植的食物。在这间贴近大自然的用餐区里，吃自己亲手种植、自家厨房烹制的食物。</p>",
+    "最美味的食物就是家人一起种植的食物。在这间贴近大自然的用餐区里，吃自己亲手种植、自家厨房烹制的食物。",
     "吃自己种植的食物",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "吃自己种植的食物",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/12/87/12875d8504f207c51ea7934f30c298c9.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -39,6 +49,38 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "KULLABERG 乐维",
+     "text": "¥499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kullaberg-le-wei-zhuan-yi-hei-se__0724718_pe734601_s4.jpg",
+     "href": "/cn/zh/p/kullaberg-le-wei-zhuan-yi-hei-se-70325519/"
+    },
+    {
+     "title": "AGAM 阿甘",
+     "text": "¥499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/agam-a-gan-er-tong-yi-hei-se__0727930_pe735946_s4.jpg",
+     "href": "/cn/zh/p/agam-a-gan-er-tong-yi-hei-se-70253536/"
+    },
+    {
+     "title": "KUNGSFORS 康福斯",
+     "text": "¥646.98",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kungsfors-kang-fu-si-gua-gan-dai-ge-ban-bi-jia-bu-xiu-gang__0870705_pe688441_s4.jpg",
+     "href": "/cn/zh/p/kungsfors-kang-fu-si-gua-gan-dai-ge-ban-bi-jia-bu-xiu-gang-99254333/"
+    },
+    {
+     "title": "KUNGSFORS 康福斯",
+     "text": "¥69.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kungsfors-kang-fu-si-sheng-ju-bu-xiu-gang__0713276_pe729384_s4.jpg",
+     "href": "/cn/zh/p/kungsfors-kang-fu-si-sheng-ju-bu-xiu-gang-30334926/"
+    },
+    {
+     "title": "VARDAGEN 瓦达恩",
+     "text": "¥29.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vardagen-wa-da-en-wan-tou-ming-bo-li__0712939_pe729151_s4.jpg",
+     "href": "/cn/zh/p/vardagen-wa-da-en-wan-tou-ming-bo-li-50289249/"
+    }
+   ],
    "settings": null
   }
  ]

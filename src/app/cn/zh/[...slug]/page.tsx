@@ -10,7 +10,7 @@ import {
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return contentPages
+  return contentPages()
     .filter((page) => !isHandledBySpecificRoute(page.url))
     .map((page) => ({
       slug: page.url

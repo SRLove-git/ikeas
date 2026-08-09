@@ -8,10 +8,10 @@
  "blocks": [
   {
    "type": "pub-standardised-hero",
-   "title": "家庭节水智能解决方案 ",
+   "title": "家庭节水智能解决方案",
    "texts": [
     "浴室中一个镀铬的DALSKÄR 达斯卡 洗脸池龙头",
-    "<p>在许多地区，淡水是一种稀缺和宝贵的资源。通过重新审视家庭生活习惯，你每天可以节约很多水。确保减少无端浪费的水和金钱。</p>",
+    "在许多地区，淡水是一种稀缺和宝贵的资源。通过重新审视家庭生活习惯，你每天可以节约很多水。确保减少无端浪费的水和金钱。",
     "IMAGE",
     "家庭节水智能解决方案"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "家庭节水智能解决方案 ",
+     "text": "",
+     "image": "https://file.app.ikea.cn/content-space/barn-images/E931DC1C-BFAF-439A-B85142B373FDDBC9/main-v1.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Standardised Hero-家庭节水智能解决方案 "
    }
@@ -53,6 +63,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一段视频中，一个立方体在展示不同的图片，还配有文字“你知道吗？ÅBÄCKEN 阿贝肯 喷嘴可以为你节省高达95%的用水量。”“珍惜每一滴水” “点滴行动，全新生活”",
+     "image": "https://file.app.ikea.cn/cms/u/20250724/b0af3fbe0db44899b7c58a282d9d4963.mp4",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "适用于水龙头的ÅBÄCKEN 阿贝肯 喷雾水嘴",
+     "image": "https://file.app.ikea.cn/content-space/barn-images/95D504A9-52DD-45DD-B52B1033ECC490D2/main-v1.png?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-栅格合集 Curated Gallery-珍惜每一滴水"
    }
@@ -61,10 +88,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>通过冷热水装置节约用水的妙招</h2>"
+    "通过冷热水装置节约用水的妙招"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -78,7 +107,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<h2>减少用水量</h2>\n<p>厨房水龙头、淋浴喷头和手淋装置内置减压装置，有效减少出水量，但你丝毫不会察觉水压的变化。省水又省事。</p>"
+    "减少用水量 厨房水龙头、淋浴喷头和手淋装置内置减压装置，有效减少出水量，但你丝毫不会察觉水压的变化。省水又省事。"
    ],
    "images": [
     "https://content-service-oss.aidesign.ingka-internal.cn/content-hub/f96ef328-1efa-4dd7-befb-0fa4910a9d15/e6a436bf-4c49-4e67-ac42-0e818ed5ea4e.jpeg",
@@ -99,6 +128,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "中性色调的墙壁上安装了一个与光滑的垂直杆相连的现代淋浴喷头。前景中一株失焦植物的绿叶为场景增添了一丝自然气息。淋浴喷头下方的集成式搁架上摆放着天然丝瓜络和绿色洗浴用品，体现了浴室注重放松和清洁的氛围。背景墙纹理细腻，与简洁优雅的淋浴装置设计相得益彰。",
+     "text": "",
+     "image": "https://content-service-oss.aidesign.ingka-internal.cn/content-hub/f96ef328-1efa-4dd7-befb-0fa4910a9d15/e6a436bf-4c49-4e67-ac42-0e818ed5ea4e.jpeg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "一个人的手握着一个现代的不锈钢厨房水龙头，水龙头颈部灵活，正在向水槽内滤器中的绿色葡萄浇水。背景是白色地铁瓷砖，左侧有些许绿色植物，表明这是一个干净、现代的厨房环境。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/content-space/barn-images/F7E9845A-B1B2-4064-8F58C1FE6F9B19E6/main-v1.JPG",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "特写照片：配有时尚黑色水龙头的现代浴室水槽。焦点集中在简洁的线条和极简的设计，在白色洗脸池和瓷砖背景的衬托下，突显出浴室装置的简洁和优雅。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/content-space/barn-images/1CFDFDC9-0150-4B09-970F39662C1F05EC/main-v1.JPG",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "减少用水量 厨房水龙头、淋浴喷头和手淋装置内置减压装置，有效减少出水量，但你丝毫不会察觉水压的变化。省水又省事。",
+     "text": null,
+     "image": "https://content-service-oss.aidesign.ingka-internal.cn/content-hub/f96ef328-1efa-4dd7-befb-0fa4910a9d15/e6a436bf-4c49-4e67-ac42-0e818ed5ea4e.jpeg",
+     "href": null
+    },
+    {
+     "heading": "避免漏水 滴水的水龙头会造成浪费。通过完全关闭水龙头或更换磨损部件，可以避免浪费水。这一切都是为了延长已有物品的使用寿命。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/content-space/barn-images/F7E9845A-B1B2-4064-8F58C1FE6F9B19E6/main-v1.JPG",
+     "href": null
+    },
+    {
+     "heading": "不放任自流 你的一小步行动，或者一个小小的改变都能节省资金和资源。我们中的许多人都会一边刷牙或刮胡子，一边开着水龙头。如果在不使用时关掉水龙头，就可以节约用水。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/content-space/barn-images/1CFDFDC9-0150-4B09-970F39662C1F05EC/main-v1.JPG",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-分栏内容 Columns-"
    }
@@ -116,6 +189,68 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "ÅBÄCKEN 阿贝肯",
+     "text": "¥39.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/abaecken-a-bei-ken-long-tou-yong-wu-pen-zui__1083307_pe859003_s4.jpg",
+     "href": "/cn/zh/p/abaecken-a-bei-ken-long-tou-yong-wu-pen-zui-70444466/"
+    },
+    {
+     "title": "DALSKÄR 达斯卡",
+     "text": "¥499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/dalskaer-da-si-qia-xi-lian-chi-long-tou-du-ge__0755160_pe748287_s4.jpg",
+     "href": "/cn/zh/p/dalskaer-da-si-qia-xi-lian-chi-long-tou-du-ge-30532120/"
+    },
+    {
+     "title": "BROGRUND 布鲁格隆德",
+     "text": "¥599",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/brogrund-bu-lu-ge-long-de-xi-lian-chi-long-tou-du-ge__0755159_pe748303_s4.jpg",
+     "href": "/cn/zh/p/brogrund-bu-lu-ge-long-de-xi-lian-chi-long-tou-du-ge-90532103/"
+    },
+    {
+     "title": "ENSEN 安森",
+     "text": "¥399",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ensen-an-sen-xi-lian-chi-long-tou-du-ge__0755162_pe748289_s4.jpg",
+     "href": "/cn/zh/p/ensen-an-sen-xi-lian-chi-long-tou-du-ge-80532542/"
+    },
+    {
+     "title": "BERGVATTNET 贝格瓦奈特",
+     "text": "¥249",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/bergvattnet-bei-ge-wa-nai-te-hua-sa-zi-dong-fen-shui-qi__1401347_pe969010_s4.jpg",
+     "href": "/cn/zh/p/bergvattnet-bei-ge-wa-nai-te-hua-sa-zi-dong-fen-shui-qi-00594671/"
+    },
+    {
+     "title": "BERGVATTNET 贝格瓦奈特",
+     "text": "¥399",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/bergvattnet-bei-ge-wa-nai-te-hua-sa-shui-biao__1384336_pe962965_s4.jpg",
+     "href": "/cn/zh/p/bergvattnet-bei-ge-wa-nai-te-hua-sa-shui-biao-60594668/"
+    },
+    {
+     "title": "BERGVATTNET 贝格瓦奈特",
+     "text": "¥69.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/bergvattnet-bei-ge-wa-nai-te-dan-pen-sa-mo-shi-shou-chi-hua-sa-dai-ruan-guan__1401403_pe969032_s4.jpg",
+     "href": "/cn/zh/p/bergvattnet-bei-ge-wa-nai-te-dan-pen-sa-mo-shi-shou-chi-hua-sa-dai-ruan-guan-50594664/"
+    },
+    {
+     "title": "IKEA PS 2002",
+     "text": "¥9.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ikea-ps-2002-sa-shui-hu-bai-se__0635849_pe697470_s4.jpg",
+     "href": "/cn/zh/p/ikea-ps-2002-sa-shui-hu-bai-se-40289952/"
+    },
+    {
+     "title": "LUNDSKÄR 伦斯卡",
+     "text": "¥499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lundskaer-lun-si-qia-xi-lian-chi-long-tou-du-ge__0898565_pe782515_s4.jpg",
+     "href": "/cn/zh/p/lundskaer-lun-si-qia-xi-lian-chi-long-tou-du-ge-60532736/"
+    },
+    {
+     "title": "VÅRDTRÄD 沃德特拉",
+     "text": "¥34.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vardtraed-wo-de-te-la-zi-dong-jiao-shui-hua-pen-shi-nei-hu-wai-tou-ming-mei-hei-se__1418737_pe976713_s4.jpg",
+     "href": "/cn/zh/p/vardtraed-wo-de-te-la-zi-dong-jiao-shui-hua-pen-shi-nei-hu-wai-tou-ming-mei-hei-se-80570869/"
+    }
+   ],
    "settings": {
     "traceId": "cms-Product Shelf-有助于节约用水的产品"
    }
@@ -124,10 +259,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>更多节水技巧</strong></h2>"
+    "更多节水技巧"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -141,7 +278,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<h2>存放冷水​</h2>\n<p>在冰箱里常备一壶冷水。大热天打开水龙头等待水温冷却就是在白白浪费水资源，为什么不把这些冷水收集起来好好利用呢？</p>"
+    "存放冷水​ 在冰箱里常备一壶冷水。大热天打开水龙头等待水温冷却就是在白白浪费水资源，为什么不把这些冷水收集起来好好利用呢？"
    ],
    "images": [
     "https://file.app.ikea.cn/content-space/barn-images/58950785-1DFF-4041-B0ED64FB889B81DA/main-v1.jpg?x-oss-process=style/medium",
@@ -162,6 +299,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "桌子上放着一个绿色的竖棱玻璃水壶，还有两个透明的水杯，其中一个装着柠檬片。背景是一面模糊的红砖墙，表明是室内或露台场景。该场景传达出一种清新的氛围，可能适合休闲餐饮体验或家居环境。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/content-space/barn-images/58950785-1DFF-4041-B0ED64FB889B81DA/main-v1.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "在淋浴喷头下，一个人的手握着一个蓝色的喷壶，正在用淋浴喷头里的水灌满喷壶。这种非常规的喷壶装水方法表明了人们的智慧或对现有资源的适应性。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250731/4f7d71f3bb574367970ee71d6d986bb2.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "特写照片：现代厨房水槽配有双洗脸池，与深色橱柜相得益彰。水槽上方有一扇窗户，透过窗户可以看到宁静的丘陵景观。这个场景非常有趣，它将室内设计元素与田园诗般的室外环境相结合，表现出家居环境的舒适与宁静。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250730/4362eb186843470cba5cac1f59683257.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "存放冷水​ 在冰箱里常备一壶冷水。大热天打开水龙头等待水温冷却就是在白白浪费水资源，为什么不把这些冷水收集起来好好利用呢？",
+     "text": null,
+     "image": "https://file.app.ikea.cn/content-space/barn-images/58950785-1DFF-4041-B0ED64FB889B81DA/main-v1.jpg?x-oss-process=style/medium",
+     "href": null
+    },
+    {
+     "heading": "节约淋浴用水 如果你在洗澡前要打开淋浴放掉一些冷水，不妨用一个轻便但耐用的罐子或水壶收集尚未加热好的水。准备好让你的植物尽快恢复活力。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20250731/4f7d71f3bb574367970ee71d6d986bb2.jpg?x-oss-process=style/medium",
+     "href": null
+    },
+    {
+     "heading": "减少水槽用水量 如果水槽装满，会用掉很多水，特别是大水槽。很多时候，清洗餐具时并不需要这么多水。尝试在水槽中放置一个较小的盆来洗碗。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20250730/4362eb186843470cba5cac1f59683257.jpg?x-oss-process=style/medium",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-分栏内容 Columns-"
    }
@@ -191,6 +372,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": " 一个白色的晾衣架，上面挂着各种衣物。有两条棕色的毛巾，一条带有圆点，另一条是纯色，还有几件不同图案的衬衫，包括一件风格醒目的蓝色格子衬衫。晾衣架的背景是室内的一扇窗户，表明这是一个与洗衣或衣物护理有关的常见家庭场景。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250728/695d16bd7593401086da4a8b4daac787.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "图中显示的是洗碗机的内部，架子上摆放着透明玻璃器皿。顶部的架子上有用蓝色夹子固定的酒杯，这表明它具有存放易碎物品的功能。灰色盒子遮住了部分图像，无法确定后面是什么。这幅图片可用于讨论洗碗机内部设计的组织或功能，尤其是用于安全清洗易碎物品。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250728/a9b9d025ce254098bbb1239a8dd18bb1.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "晾晒穿过但不脏的衣物​ 将穿过但不脏的衣服挂在衣架或挂衣杆上晾晒，而不是清洗，这样可以多穿一天，也意味着少洗一次。这样不仅节约用水，还能减少衣服磨损。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20250728/695d16bd7593401086da4a8b4daac787.jpg?x-oss-process=style/medium",
+     "href": null
+    },
+    {
+     "heading": "装满洗碗机，一次清洗 在你打理其他家务的时候，洗碗机可以帮你把所有脏盘子清洗干净。洗碗机装满后再一次清洗所有碗盘，可以助你节能节水。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20250728/a9b9d025ce254098bbb1239a8dd18bb1.jpg?x-oss-process=style/medium",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-分栏内容 Columns-"
    }
@@ -203,6 +415,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-分割线 Horizontal Line-"
    }
@@ -250,6 +464,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "选择更优质的食品",
+     "text": "食物的选择会产生不同的影响，从植物性食物到来自负责任来源的认证产品。发现更多简单的方法，轻松实现更可持续的饮食。",
+     "image": "https://file.app.ikea.cn/content-space/barn-images/C77A8B9D-42C4-4E6C-82DF27BA74517684/main-v1.png?x-oss-process=style/medium",
+     "href": "/cn/zh/ideas/tips-for-more-sustainable-living/easy-wins-to-eating-more-sustainably-pubdbfa9a20",
+     "backgroundColor": "#37b886"
+    },
+    {
+     "title": "减少浪费",
+     "text": "即使生活很节俭，也总会有一定数量的生活垃圾。但有一些简单的方法可以重复利用现有物品并减少家里的浪费。",
+     "image": "https://file.app.ikea.cn/content-space/barn-images/09FAD1B9-2A0B-470A-88BF916BB68906E1/main-v1.png?x-oss-process=style/medium",
+     "href": "/cn/zh/ideas/tips-for-more-sustainable-living/simple-ways-to-reduce-waste-at-home-pubb645fb53",
+     "backgroundColor": "#37b886"
+    },
+    {
+     "title": "延长物品使用寿命",
+     "text": "重新利用、修复、再利用、转售或回收产品的潜力不断增长。了解有助于延长家具使用寿命的小方法。",
+     "image": "https://file.app.ikea.cn/content-space/barn-images/3858A1CF-B80C-4BB0-9ED498389B80743D/main-v1.png?x-oss-process=style/medium",
+     "href": "/cn/zh/ideas/tips-for-more-sustainable-living/small-steps-to-give-your-furniture-a-longer-life-pubbcff48fc",
+     "backgroundColor": "#37b886"
+    },
+    {
+     "title": "减少能源消耗",
+     "text": "住宅的许多部分都会对能源使用产生直接影响。幸好我们有一些小窍门可以帮助你节省家庭能源。",
+     "image": "https://file.app.ikea.cn/content-space/barn-images/89999219-2209-47BC-A045DC50354F32AD/main-v1.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/ideas/tips-for-more-sustainable-living/quick-tricks-to-save-energy-at-home-pubad783f90",
+     "backgroundColor": "#37b886"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-富媒体卡片列表 Inspiration Cards-"
    }
@@ -295,6 +540,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "一个人站在水中，手里拿着渔网，弯腰捕捞，背景中的群山清晰可见。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/content-space/barn-images/6E88ADDE-856F-442F-8B76D04EB290A9BC/main-v1.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/this-is-ikea/sustainable-everyday/sustainable-sourcing-pubdef88e06",
+     "backgroundColor": null
+    },
+    {
+     "title": "一个乳白色的球形SOLHETTA 索海塔 LED灯泡E27（470流明）",
+     "text": "",
+     "image": "https://file.app.ikea.cn/content-space/barn-images/38803CA0-AA08-4E7A-AF1FA79FE3E1543C/main-v1.png?x-oss-process=style/medium",
+     "href": "/cn/zh/landing-page/8f94cfe340274b3aa37556a6e401626f",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "可持续采购 了解宜家业务及其他方面的负责任采购。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/content-space/barn-images/6E88ADDE-856F-442F-8B76D04EB290A9BC/main-v1.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/this-is-ikea/sustainable-everyday/ke3-chi2-xu4-de5-cai3-gou4-pubdef88e06"
+    },
+    {
+     "heading": "点滴行动 美好地球 宜家致力于为更多家庭提供触手可及的可持续生活方式，帮助大众一起打造更可持续的家。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/content-space/barn-images/38803CA0-AA08-4E7A-AF1FA79FE3E1543C/main-v1.png?x-oss-process=style/medium",
+     "href": "/cn/zh/product-guides/sustainable-products/sustainable-living-pub4155615b"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-分栏内容 Columns-"
    }

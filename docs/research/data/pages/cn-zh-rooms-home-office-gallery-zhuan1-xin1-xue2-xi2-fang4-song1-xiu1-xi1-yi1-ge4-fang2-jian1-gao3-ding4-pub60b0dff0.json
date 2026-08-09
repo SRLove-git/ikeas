@@ -11,7 +11,7 @@
    "title": "专心学习，放松休息，一个房间搞定！",
    "texts": [
     "一间紧凑的房间，里面有一张绿色的桌子、白色搁架、一张坐卧两用床，一个开放式衣柜和一盏黑色吊灯。",
-    "<p>巧妙规划小房间的空间，不仅可以用来专心学习，收纳衣服，还可以接待朋友，当然还有让你晚上睡个好觉。LINNMON 利蒙/OLOV 奥勒夫 桌子具有可调节高度的支腿，支腿上配有塑料套，可防止刮擦地板，方便在需要的时候，移动桌子，腾出更多空间。</p>",
+    "巧妙规划小房间的空间，不仅可以用来专心学习，收纳衣服，还可以接待朋友，当然还有让你晚上睡个好觉。LINNMON 利蒙/OLOV 奥勒夫 桌子具有可调节高度的支腿，支腿上配有塑料套，可防止刮擦地板，方便在需要的时候，移动桌子，腾出更多空间。",
     "专心学习，放松休息，一个房间搞定！",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "专心学习，放松休息，一个房间搞定！",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b6/1a/b61aeefcab6260809344de1e613ccf9b.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -50,6 +60,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个学习空间，里面放着一张配白色支腿的绿色桌子、一张转椅、一盏白色台灯和一块透明的地板保护垫。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/35043826552f768c/original/PH168761-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -76,6 +96,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "白色的搁架单元、抽屉和柜子靠着绿色墙壁摆放。搁架上摆放着储物盒和文件夹。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/b49af8f41caf018/original/PH168762-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -102,6 +132,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "两张黑色脚凳摆放在两张边桌和一张坐卧两用床旁边，作为额外的座位。桌子上摆放着棋盘。",
+     "image": "https://file.app.ikea.cn/images/93/a0/93a031f9ff3b806c90d92692f98628f1.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -128,6 +168,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一张白色的BRIMNES 百灵 坐卧两用床铺开成床。其中一个抽屉拉开，里面放着床上用品和绿色的休闲毯。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/6b4bd7b253fec4ab/original/PH168764-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -143,6 +193,26 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "KOLON 卡伦",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kolon-qia-lun-di-ban-bao-hu-dian__0292207_pe425129_s4.jpg",
+     "href": "/cn/zh/p/kolon-qia-lun-di-ban-bao-hu-dian-90176245/"
+    },
+    {
+     "title": "BRIMNES 百灵",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/brimnes-bai-ling-zuo-wo-liang-yong-chuang-kuang-jia-dai-shuang-ti-bai-se__1161827_pe889528_s4.jpg",
+     "href": "/cn/zh/p/brimnes-bai-ling-zuo-wo-liang-yong-chuang-kuang-jia-dai-shuang-ti-bai-se-30503655/"
+    },
+    {
+     "title": "KALLAX 卡莱克",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kallax-qia-lai-ke-ge-ban-dai-2-ge-cha-jian-bai-se__0754392_pe747903_s4.jpg",
+     "href": "/cn/zh/p/kallax-qia-lai-ke-ge-ban-dai-2-ge-cha-jian-bai-se-99384061/"
+    }
+   ],
    "settings": null
   }
  ]

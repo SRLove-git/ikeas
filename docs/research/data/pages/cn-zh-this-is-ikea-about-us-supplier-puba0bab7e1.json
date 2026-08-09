@@ -11,7 +11,7 @@
    "title": "在工厂",
    "texts": [
     "我们的供应商",
-    "<p>宜家虽然对家具了如指掌，但却比不上家具制造者对家具的了解。我们在工厂与供应商密切合作的原因就在于此。我们相信，好的创意随时随地都能产生，而与供应商合作总能让我们不断找到新颖巧妙的方法。接下来，就让我们认识一下那些每天为宜家默默付出的人。</p>",
+    "宜家虽然对家具了如指掌，但却比不上家具制造者对家具的了解。我们在工厂与供应商密切合作的原因就在于此。我们相信，好的创意随时随地都能产生，而与供应商合作总能让我们不断找到新颖巧妙的方法。接下来，就让我们认识一下那些每天为宜家默默付出的人。",
     "在工厂",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "在工厂",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/48/26/482672c3f017b189852f3df4f3941011.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -31,7 +41,7 @@
    "title": null,
    "texts": [
     "https://v.youku.com/v_show/id_XMjg0MTg1MjQxNg==.html?spm=a2hww.20027244.m_250053.5~5!2~5~5!3~5~5~A",
-    "<p>Gyllensvaans是我们的首批供应商之一。1952年，这家瑞典家族式企业向宜家交付了首批家具。1978年，Gyllensvaans开始生产著名的 BILLY 毕利 书柜，现在已发展为 BILLY 毕利 系列最大的供应商。</p>",
+    "Gyllensvaans是我们的首批供应商之一。1952年，这家瑞典家族式企业向宜家交付了首批家具。1978年，Gyllensvaans开始生产著名的 BILLY 毕利 书柜，现在已发展为 BILLY 毕利 系列最大的供应商。",
     "MANUAL_INPUT"
    ],
    "images": [],
@@ -41,6 +51,8 @@
      "text": "\n<p>Gyllensvaans是我们的首批供应商之一。1952年，这家瑞典家族式企业向宜家交付了首批家具。1978年，Gyllensvaans开始生产著名的 BILLY 毕利 书柜，现在已发展为 BILLY 毕利 系列最大的供应商。</p"
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -60,16 +72,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "Billy书柜，宜家目前在全球51个国家和地区拥有963家家居用品供应商",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d1/5b/d15bd81d3ee0b492705ce461fdc643be.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>阅读更多在工厂的内容</strong></h2>"
+    "阅读更多在工厂的内容"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -97,6 +121,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "创造更好的解决方案",
+     "text": "拜访宜家供应商工厂的团队组织紧凑，合作无间，正是他们每天为了宜家默默付出。 ",
+     "image": "https://file.app.ikea.cn/images/55/ce/55cec41c376b2d20bf4b038f8e670882.png",
+     "href": "/cn/zh/this-is-ikea/about-us/factory-pubfa159c10",
+     "backgroundColor": null
+    },
+    {
+     "title": "工作条件更优越——从工厂内到工厂外",
+     "text": "拜访宜家供应商工厂的团队组织紧凑，合作无间，正是他们每天为了宜家默默付出。 ",
+     "image": "https://file.app.ikea.cn/images/d4/ad/d4ad689a480ea3d53c0d6a3329b0aa9d.jpg",
+     "href": "/cn/zh/this-is-ikea/about-us/factory-pub55d77c2c",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -109,6 +150,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

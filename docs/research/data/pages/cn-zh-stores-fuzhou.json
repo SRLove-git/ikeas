@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "461ba45e55104369b0c365ef83abcdcf"
    }
@@ -22,10 +24,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><a href=\"#c847817db1c34a2c9a378cd4cf035de4\">商场信息</a> | <a href=\"#861ccd6f1ed24585b8173d43eec8f0fa\">商场活动</a> | <a href=\"#a7af6893c79e42ac89df5ad59e8bd4f8\">商场餐厅</a></p>\n<p><a href=\"#89d67a6cab3145ee9ce487c4a2f82d7a\">宜家俱乐部</a> |&nbsp;<a href=\"#bfcb2cd58019481a8d77e987772fa14e\">宜家对公业务部</a> | <a href=\"#b545f3f9e456483699640a2886d3b74a\">全屋设计</a></p>"
+    "商场信息 | 商场活动 | 商场餐厅 宜家俱乐部 | 宜家对公业务部 | 全屋设计"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "170d003f944f44a7864646603ec27cdf"
    }
@@ -34,10 +38,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3>宜家福州商场营业时间</h3>\n<p><strong><span style=\"color: black;\">商场、瑞典风味小餐馆、瑞典特色食品屋</span></strong></p>\n<p><span style=\"color: black;\">周一至周日</span><span style=\"color: black;\">&nbsp; 10:30-21:30</span></p>\n<p><strong><span style=\"color: black;\">瑞典风味餐厅</span></strong></p>\n<p><span style=\"color: black;\">周一至周日</span><span style=\"color: black;\"> 10:00-20:30</span></p>\n<p><span style=\"color: black;\">您也可以选择宜家家居</span><span style=\"color: black;\">APP</span><span style=\"color: black;\">、小程序购买产品、在线进行全屋设计或公司采购。</span></p>"
+    "宜家福州商场营业时间 商场、瑞典风味小餐馆、瑞典特色食品屋 周一至周日 10:30-21:30 瑞典风味餐厅 周一至周日 10:00-20:30 您也可以选择宜家家居APP、小程序购买产品、在线进行全屋设计或公司采购。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "商场信息"
    }
@@ -50,7 +56,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<p>&nbsp;</p>\n<p><br /><strong>商场地址：</strong>福建省福州市晋安区福马路788号</p>\n<p><strong>自驾：</strong><br />地图搜索宜家家居<br />地下停车场全天开放<br />地下停车场配备有6个电车快充及3个电车慢充充电桩供使用</p>\n<p><strong>乘坐地铁：</strong><br />2号线上洋站，E2出口出站至地面后步行约100米可到达</p>\n<p><strong>乘坐公交：</strong><br />磨洋河站：7路、9路、29路、70路、73路<br />福州公交宜家停车场站：69路、78路</p>",
+    "商场地址：福建省福州市晋安区福马路788号 自驾： 地图搜索宜家家居 地下停车场全天开放 地下停车场配备有6个电车快充及3个电车慢充充电桩供使用 乘坐地铁： 2号线上洋站，E2出口出站至地面后步行约100米可到达 乘坐公交： 磨洋河站：7路、9路、29路、70路、73路 福州公交宜家停车场站：69路、78路",
     "pub-text"
    ],
    "images": [
@@ -62,6 +68,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/01/91/019121953c1411f74b771ca72e565709.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/01/91/019121953c1411f74b771ca72e565709.jpg",
+     "href": null
+    },
+    {
+     "heading": "商场地址：福建省福州市晋安区福马路788号 自驾： 地图搜索宜家家居 地下停车场全天开放 地下停车场配备有6个电车快充及3个电车慢充充电桩供使用 乘坐地铁： 2号线上洋站，E2出口出站至地面后步行约100米可到达 乘坐公交： 磨洋河站：7路、9路、29路、70路、73路 福州公交宜家停车场站：69路、78路",
+     "text": null,
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "0bc2f726528a4387a8c4bda2847aa1b1"
    }
@@ -84,6 +114,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "无限灵感，为你的家打造舒适空间",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20241204/25c4a046cc964048aaf2113cc983cde1.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Image(video)-"
    }
@@ -106,6 +146,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "无限灵感，为你的家打造舒适空间",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20241204/2a7e874afe59437b80fa7b5cd21c3a37.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Image(video)-"
    }
@@ -114,10 +164,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>宜家设计服务</strong></h2>"
+    "宜家设计服务"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "商场活动"
    }
@@ -147,6 +199,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20241204/f3e70c347be2443a92c9671f482ea1f9.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20241204/fd6725cd0a144ea18206253cb0f492f6.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20241204/f3e70c347be2443a92c9671f482ea1f9.jpg?x-oss-process=style/medium",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20241204/fd6725cd0a144ea18206253cb0f492f6.jpg?x-oss-process=style/medium",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "0bc2f726528a4387a8c4bda2847aa1b1"
    }
@@ -155,10 +238,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>更多渠道选择</strong></h2>"
+    "更多渠道选择"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "商场活动"
    }
@@ -188,6 +273,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20241204/4d83886d18354c1c9c9c23365ee0fdbd.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20241204/e003ce929230455a88b9d2ffa9f65f87.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20241204/4d83886d18354c1c9c9c23365ee0fdbd.jpg?x-oss-process=style/medium",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20241204/e003ce929230455a88b9d2ffa9f65f87.jpg?x-oss-process=style/medium",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "0bc2f726528a4387a8c4bda2847aa1b1"
    }
@@ -211,6 +327,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "无限灵感，为你的家打造舒适空间",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250813/fccb27930ca44ea89b5d33274d9a5738.png?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-媒体商品组合 image(Video)-"
    }
@@ -219,10 +345,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>商场活动</strong></h2>"
+    "商场活动"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "商场活动"
    }
@@ -267,6 +395,58 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20260722/65012e37091046f0ab29f2cbbcb84ed3.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20260722/1bb60025894b43d79288bf69225823b1.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20260722/f19dd752e9d14d10a96bc579ee8ad057.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20260722/dc3589027dee43989b733107f4c69e43.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20260722/ae752bec8b6e408581b0d424e807612c.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20260722/f19dd752e9d14d10a96bc579ee8ad057.jpg?x-oss-process=style/medium",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20260722/ae752bec8b6e408581b0d424e807612c.jpg?x-oss-process=style/medium",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-分栏内容 Columns-"
    }
@@ -279,6 +459,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "f479b3d7bc554ae399d24a8ca587ac95"
    }
@@ -287,10 +469,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>商场餐厅</strong></h2>\n<p><strong>推荐菜品</strong></p>"
+    "商场餐厅 推荐菜品"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "商场餐厅"
    }
@@ -320,6 +504,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20260702/88e98bda56d64a0a9d4bcacf9ce15bf5.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20260702/64553d63be7241798d591d95595527b2.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20260702/88e98bda56d64a0a9d4bcacf9ce15bf5.jpg?x-oss-process=style/medium",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20260702/64553d63be7241798d591d95595527b2.jpg?x-oss-process=style/medium",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-分栏内容 Columns-"
    }
@@ -328,11 +543,13 @@
    "type": "rich-text",
    "title": null,
    "texts": [
-    "<h3><strong>--- 瑞典小餐馆 ---</strong></h3>",
+    "--- 瑞典小餐馆 ---",
     "#FFFFFF"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-富文本 Text-"
    }
@@ -367,6 +584,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20260702/91cd2ed64b754c5d885d9fd4a005d429.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20260702/8bce920ade584390a5f9fabb37b7d21c.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20260702/e78099ef220b4f58bbedcd9e28f06d1d.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20260702/8bce920ade584390a5f9fabb37b7d21c.jpg?x-oss-process=style/medium",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20260702/e78099ef220b4f58bbedcd9e28f06d1d.jpg?x-oss-process=style/medium",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-分栏内容 Columns-"
    }
@@ -375,11 +630,13 @@
    "type": "rich-text",
    "title": null,
    "texts": [
-    "<h3><strong>--- 瑞典食品屋 ---</strong></h3>",
+    "--- 瑞典食品屋 ---",
     "#FFFFFF"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-富文本 Text-"
    }
@@ -404,6 +661,24 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20251124/b842ffe15f3a4fadae33a55afee94369.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20251124/b842ffe15f3a4fadae33a55afee94369.jpg?x-oss-process=style/medium",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-分栏内容 Columns-"
    }
@@ -416,6 +691,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "e19d0a1e5bca47d0b2967af38b46bf31"
    }
@@ -424,10 +701,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>IKEA Family 宜家俱乐部</strong></h2>\n<p>宜家俱乐部向所有人开放，而且可以免费加入。马上在线加入或前往本地商场注册成为会员，开始享受所有会员专享优惠和益处。扫码关注&ldquo;宜家俱乐部&rdquo;微信服务号，不错过最新会员活动和家居灵感。每次去宜家购物时一定要记得刷会员卡，<strong>退货时间将从60天延长至365天</strong>，也可以随时获得最新优惠和相关信息。</p>"
+    "IKEA Family 宜家俱乐部 宜家俱乐部向所有人开放，而且可以免费加入。马上在线加入或前往本地商场注册成为会员，开始享受所有会员专享优惠和益处。扫码关注“宜家俱乐部”微信服务号，不错过最新会员活动和家居灵感。每次去宜家购物时一定要记得刷会员卡，退货时间将从60天延长至365天，也可以随时获得最新优惠和相关信息。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "宜家俱乐部"
    }
@@ -448,6 +727,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20240704/d33f5a6df52a4834817fa22594af541c.JPG",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "8bd405aefdf44ef9b89a9b731c1123c9"
    }
@@ -468,6 +757,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20260402/0e8403edb8c94f879f09eb0c17ff1199.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "8bd405aefdf44ef9b89a9b731c1123c9"
    }
@@ -480,6 +779,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "73b2b340671d46f0a0f7b9b8e86a1daa"
    }

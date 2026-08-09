@@ -11,7 +11,7 @@
    "title": "有条不紊地开始你的一天",
    "texts": [
     "领带挂在镀铬毛巾杆上，一目了然。",
-    "<p>我们为三种不同性格的人打造了相应的卧室解决方案，帮助大家快速开启新的一天。这个方案适合行程满满、无需惊喜的人士。</p>",
+    "我们为三种不同性格的人打造了相应的卧室解决方案，帮助大家快速开启新的一天。这个方案适合行程满满、无需惊喜的人士。",
     "有条不紊地开始你的一天",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "有条不紊地开始你的一天",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/72/45/7245deb53664dca4e14456ffbe1b1af0.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -46,6 +56,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "男士步入式衣柜里，夹克挂在 TURBO 特伯 晒衣架上，领带挂在 BALUNGEN 巴鲁恩 毛巾杆上。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/10/1e/101e8699f6fecc716615df823b77573d.gif",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/10/1e/101e8699f6fecc716615df823b77573d.gif",
+     "href": null
+    },
+    {
+     "heading": "整洁有序，非常高效 时间紧急时，就不要留下发生意外的机会。将衣柜分成几块，让衣服一目了然、方便拿取，这样有助于你快速做出搭配选择。",
+     "text": null,
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -73,6 +107,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "深灰色 FÄRLÖV 法乐福 储物脚凳里放着帽子。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/51/3b/513b40f49f818c738450a0887525c93e.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "两个黑色 PLEJA 普雷亚 办公桌收纳件，由钢丝和软木制成，被放在抽屉里，收纳皮带、手表、眼镜和吊带。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/2c/69/2c69002bda761ae713e18fbbd061961c.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "知道帽子放置的位置 衣柜不同区域要有明确的界限，存放不同类别的衣物——从袜子、笔挺的衬衫到领带和精致的帽子。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/51/3b/513b40f49f818c738450a0887525c93e.jpg",
+     "href": null
+    },
+    {
+     "heading": "快速选好配饰 整理好一系列配饰，方便快速选搭。选好配饰，在镜子前最后检查一次，就可以迎接新的一天了。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/2c/69/2c69002bda761ae713e18fbbd061961c.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -93,6 +158,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -113,26 +180,32 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>我们乐意看到顾客运用我们的产品发挥创意。尽情发挥吧！但是请注意，经过微调或改造的宜家产品将丧失其原有功能，或是无法进行二次销售，因此，你将不再享有宜家的商业保证及退货权利。</p>"
+    "我们乐意看到顾客运用我们的产品发挥创意。尽情发挥吧！但是请注意，经过微调或改造的宜家产品将丧失其原有功能，或是无法进行二次销售，因此，你将不再享有宜家的商业保证及退货权利。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>制作人</strong><br />室内设计师：Chiara Effroi Lutteri&lt;br&gt;<br />摄影师：M&aring;ns Jensen&lt;br&gt;<br />撰稿人：Henrik Annemark<br /><br /></p>"
+    "制作人 室内设计师：Chiara Effroi Lutteri 摄影师：Måns Jensen 撰稿人：Henrik Annemark"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

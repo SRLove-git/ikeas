@@ -11,7 +11,7 @@
    "title": "有条不紊地开始你的一天，第二部分",
    "texts": [
     "将 LISABO 利萨伯 书桌用作梳妆台，搭配 STORJORM 司铎约 镜子带照明。",
-    "<p>我们为三种不同性格的人打造了相应的卧室解决方案，帮助大家开启新的一天。这一种适用于享受慵懒清晨、喜欢被柔软和舒适包裹的人。</p>",
+    "我们为三种不同性格的人打造了相应的卧室解决方案，帮助大家开启新的一天。这一种适用于享受慵懒清晨、喜欢被柔软和舒适包裹的人。",
     "有条不紊地开始你的一天，第二部分",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "有条不紊地开始你的一天，第二部分",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/47/32/47324e7a4c94d124a74ccc6f685ea7c1.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -46,6 +56,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "适用于化妆的角度，搭配装饰花墙和 STORJORM 司铎约 镜子带照明。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/58/6e/586eec784e03fce6642f031a74bd260a.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/58/6e/586eec784e03fce6642f031a74bd260a.jpg",
+     "href": null
+    },
+    {
+     "heading": "打造美丽如梦的空间 巧用柔软灵动的窗帘，区隔出专属于你的舒适空间，放置你最爱的椅子和淡雅柔软的纺织品。",
+     "text": null,
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -73,6 +107,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "用白色和黄铜色的 FÖRÄDLA 福艾德拉 上菜架盛装化妆品而不是饼干。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/5c/c2/5cc25ef33bd6ac267fd11ae950c80f9c.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "墙面装饰有 SMYCKA 思米加 装饰花支，用粉红色胶带一朵一朵粘贴起来。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/35/29/352995766ffa592a411597eecf58009a.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "享受独处时刻 上菜架不必非得用来盛装饼干才能发挥价值。还可以用来衬托你珍藏的饰品。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/5c/c2/5cc25ef33bd6ac267fd11ae950c80f9c.jpg",
+     "href": null
+    },
+    {
+     "heading": "沐浴清晨柔和阳光 装饰花支背景墙会使清晨的的氛围更显宁静安逸。再加上一面 STORJORM 司铎约 镜子，它边缘的黄色镜灯美观实用，这样你就拥有了一个理想之所，开启美好的一天。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/35/29/352995766ffa592a411597eecf58009a.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -93,6 +158,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -113,26 +180,32 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>我们乐意看到顾客运用我们的产品发挥创意。尽情发挥吧！但是请注意，经过微调或改造的宜家产品将丧失其原有功能，或是无法进行二次销售，因此，你将不再享有宜家的商业保证及退货权利。</p>"
+    "我们乐意看到顾客运用我们的产品发挥创意。尽情发挥吧！但是请注意，经过微调或改造的宜家产品将丧失其原有功能，或是无法进行二次销售，因此，你将不再享有宜家的商业保证及退货权利。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>制作人</strong><br />室内设计师：Chiara Effroi Lutteri&lt;br&gt;<br />摄影师：M&aring;ns Jensen&lt;br&gt;<br />撰稿人：Henrik Annemark<br /><br /></p>"
+    "制作人 室内设计师：Chiara Effroi Lutteri 摄影师：Måns Jensen 撰稿人：Henrik Annemark"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

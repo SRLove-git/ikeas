@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -33,26 +35,40 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "自由设计你的 家",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a6/45/a645f8b1f38ac4d01484602560edf2ca.png",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>在线设计工具</h2>\n<p>查看我们为你提供的针对不同房间的灵感创意、巧妙提示及技巧</p>"
+    "在线设计工具 查看我们为你提供的针对不同房间的灵感创意、巧妙提示及技巧"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>卧室搭配设计</h2>"
+    "卧室搭配设计"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -88,16 +104,49 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "Link to bed configurator.",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d1/33/d1337b36686e2bc8532ba48f78ca7ed8.jpeg",
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fwww.ikea.cn%2Faddon-app%2Fcompletesleep%2Fconfigurator%2Fm2%2Flatest%2Fcn%2Fzh%2F",
+     "backgroundColor": null
+    },
+    {
+     "title": "Link to comfort guide.",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/52/10/5210295dc0dfd314b45742d7eed5e6de.jpeg",
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fwww.ikea.cn%2Faddon-app%2Fcompletesleep%2Fneedmap%2Fm2%2Flatest%2Fcn%2Fzh%2F",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "全新！个性化睡眠方案 想要打造一张你专属舒适的床？使用我们的个性化睡眠方案设计软件搭配你的床。 开始设计 ›",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/d1/33/d1337b36686e2bc8532ba48f78ca7ed8.jpeg",
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fwww.ikea.cn%2Faddon-app%2Fcompletesleep%2Fconfigurator%2Fm2%2Flatest%2Fcn%2Fzh%2F"
+    },
+    {
+     "heading": "舒适睡眠指南 想在格外舒适的睡眠中醒来，不妨尝试一下我们的舒适睡眠指南。 开始设计 ›",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/52/10/5210295dc0dfd314b45742d7eed5e6de.jpeg",
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fwww.ikea.cn%2Faddon-app%2Fcompletesleep%2Fneedmap%2Fm2%2Flatest%2Fcn%2Fzh%2F"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>储物家具与设计</h2>"
+    "储物家具与设计"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -142,6 +191,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "Link to the KALLAX planner.",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/65/85/6585f6353a1867d2d214c8d405c3177a.jpeg",
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fwww.ikea.cn%2Faddon-app%2Fkallax%2Flatest%2F%23%2Fm2%2Fcn%2Fzh%2F",
+     "backgroundColor": null
+    },
+    {
+     "title": "Link to the BESTÅ planner.",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ba/b8/bab8c654be8cdb8ecc2ce7a591270d01.jpeg",
+     "href": "/cn/zh/planner/besta-planner/",
+     "backgroundColor": null
+    },
+    {
+     "title": "Link to the EKET planner.",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ab/5d/ab5d4686a1e093e3df647ce39dd8ffa1.jpeg",
+     "href": "/cn/zh/planner/eket-planner/",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "KALLAX 卡莱克 打破思维局限，使用KALLAX 卡莱克设计工具为你的家庭增添个性。 开始设计 ›",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/65/85/6585f6353a1867d2d214c8d405c3177a.jpeg",
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fwww.ikea.cn%2Faddon-app%2Fkallax%2Flatest%2F%23%2Fm2%2Fcn%2Fzh%2F"
+    },
+    {
+     "heading": "BESTå 贝达 借助 BESTå 贝达 设计工具，你可以设计完美的客厅储物解决方案。 开始设计 ›",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/ba/b8/bab8c654be8cdb8ecc2ce7a591270d01.jpeg",
+     "href": "/cn/zh/planner/besta-planner/"
+    },
+    {
+     "heading": "EKET 伊克特 一起来体验 EKET 伊克特 设计工具带来的灵活变化，为家打造一个完美实用的储物组合。 开始设计 ›",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/ab/5d/ab5d4686a1e093e3df647ce39dd8ffa1.jpeg",
+     "href": "/cn/zh/planner/eket-planner/"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -186,16 +279,62 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "PAX 帕克思",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e9/85/e985daf776e1d9849506316523517bbb.jpeg",
+     "href": "/cn/zh/planner/pax-planner/",
+     "backgroundColor": null
+    },
+    {
+     "title": "SMÅSTAD 斯玛斯塔",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/7f/4a/7f4a74a0e34dd60b838cd04cc9b4ccb7.jpeg",
+     "href": "/cn/zh/planner/smastad-planner/",
+     "backgroundColor": null
+    },
+    {
+     "title": "BOAXEL 博阿克塞",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/f3/46/f346b9f9586a89a17a811daa5b73996c.jpeg",
+     "href": "/cn/zh/planner/boaxel-planner/",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "PAX 帕克思 使用我们的 PAX 帕克思 设计工具，设计既灵活又可定制的衣柜储物系列。 开始设计 ›",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/e9/85/e985daf776e1d9849506316523517bbb.jpeg",
+     "href": "/cn/zh/planner/pax-planner/"
+    },
+    {
+     "heading": "全新！SMåSTAD 斯玛斯塔 使用 SMåSTAD 斯玛斯塔 设计软件，为你打造理想儿童房的解决方案。 开始设计 ›",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/7f/4a/7f4a74a0e34dd60b838cd04cc9b4ccb7.jpeg",
+     "href": "/cn/zh/planner/smastad-planner/"
+    },
+    {
+     "heading": "BOAXEL 博阿克塞 BOAXEL 博阿克塞 壁式储物系列令洗衣更轻松、更有趣。你可以快速、轻松地打造出个人储物解决方案，从而整齐收纳洗涤剂、脏衣物和待晾干的干净衣物。 开始设计 ›",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/f3/46/f346b9f9586a89a17a811daa5b73996c.jpeg",
+     "href": "/cn/zh/planner/boaxel-planner/"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>客厅和餐厅</h2>"
+    "客厅和餐厅"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -240,16 +379,62 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "SÖDERHAMN 索德汉",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/bb/9a/bb9ad8c611ac438720207fb0f74a2901.jpeg",
+     "href": "/cn/zh/planner/soderhamn-planner/",
+     "backgroundColor": null
+    },
+    {
+     "title": "Link to the dining chair planner.",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/1f/fc/1ffc4ec260e0ffe6d49e7530e52008a2.jpeg",
+     "href": "/cn/zh/planner/build-your-own-dining-chair-planner/",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a2/c5/a2c5b9941860c9edbbed867e30d85d54.jpeg",
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fkitchen%3Fchannel%3Dkitchen_IRW%2520M2%26cl_sr%3DIRW%2520M2",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "SöDERHAMN 索德汉 SöDERHAMN 索德汉 沙发让你拥有自己的组合，使用工具来规划适合你的style的沙发吧！ 开始设计 ›",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/bb/9a/bb9ad8c611ac438720207fb0f74a2901.jpeg",
+     "href": "/cn/zh/planner/soderhamn-planner/"
+    },
+    {
+     "heading": "打造你的专属餐椅 借助这款简易的专属餐椅设计工具，将各种形状、材料及颜色进行混搭，打造个性餐椅。 开始设计 ›",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/1f/fc/1ffc4ec260e0ffe6d49e7530e52008a2.jpeg",
+     "href": "/cn/zh/planner/build-your-own-dining-chair-planner/"
+    },
+    {
+     "heading": "厨房设计工具 充分利用厨房空间，避免常见设计错误，随心尝试尽可能多的设计。同时，你还可以获得一份详细的产品列表和设计图，前往当地的宜家商场或拨打我们的电话，了解如何把你的设计变成现实。 预约厨房设计服务 ›",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/a2/c5/a2c5b9941860c9edbbed867e30d85d54.jpeg",
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fkitchen%3Fchannel%3Dkitchen_IRW%2520M2%26cl_sr%3DIRW%2520M2"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>成套家具，打造和谐风格</h2>\n<p>查看我们的成套系列家具，轻松为你的家营造统一风格</p>"
+    "成套家具，打造和谐风格 查看我们的成套系列家具，轻松为你的家营造统一风格"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -294,6 +479,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "HEMNES 汉尼斯 系列采用实木材质，经久耐用，随着岁月流逝更显精美雅致。 ",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/03/ad/03ad293a06fc352f3694ecf711b8616e.jpeg",
+     "href": "/cn/zh/cat/11731",
+     "backgroundColor": null
+    },
+    {
+     "title": "MALM 马尔姆 系列家具属于简约现代风格，有多款颜色可选易于搭配。 ",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/4a/88/4a88fc4981f7a8571e8147c35618458a.jpeg",
+     "href": "/cn/zh/cat/07468",
+     "backgroundColor": null
+    },
+    {
+     "title": "PAX 帕克思 系列高效规划家庭储物，让衣柜展现个性风格。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/7e/9a/7e9af9ede394691c6bd3690569e04343.jpeg",
+     "href": "/cn/zh/cat/19086",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "HEMNES 汉尼斯 系列采用实木材质，经久耐用，随着岁月流逝更显精美雅致。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/03/ad/03ad293a06fc352f3694ecf711b8616e.jpeg",
+     "href": "/cn/zh/cat/11731"
+    },
+    {
+     "heading": "MALM 马尔姆 系列家具属于简约现代风格，有多款颜色可选易于搭配。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/4a/88/4a88fc4981f7a8571e8147c35618458a.jpeg",
+     "href": "/cn/zh/cat/07468"
+    },
+    {
+     "heading": "PAX 帕克思 系列高效规划家庭储物，让衣柜展现个性风格。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/7e/9a/7e9af9ede394691c6bd3690569e04343.jpeg",
+     "href": "/cn/zh/cat/19086"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -338,16 +567,62 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "SÖDERHAMN 索德汉 沙发简约又舒适，还可自由组合的高颜值沙发。 ",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/54/cd/54cd905a85fa25699dc449704a6020f1.jpeg",
+     "href": "/cn/zh/cat/22178",
+     "backgroundColor": null
+    },
+    {
+     "title": "简约款的 KALLAX 卡莱克 储物搁架百变时尚，满足你的多变需求。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/bc/9f/bc9f7b083882f88a31c8c652a6f864b8.jpeg",
+     "href": "/cn/zh/cat/27534",
+     "backgroundColor": null
+    },
+    {
+     "title": "BILLY 毕利 备受喜爱的经典系列。可以小巧质朴，也可以大方惊艳，一切由你决定。 ",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/40/11/4011260162cd46c4621d71784f706f31.jpeg",
+     "href": "/cn/zh/cat/28102",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "SöDERHAMN 索德汉 沙发简约又舒适，还可自由组合的高颜值沙发。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/54/cd/54cd905a85fa25699dc449704a6020f1.jpeg",
+     "href": "/cn/zh/cat/22178"
+    },
+    {
+     "heading": "简约款的 KALLAX 卡莱克 储物搁架百变时尚，满足你的多变需求。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/bc/9f/bc9f7b083882f88a31c8c652a6f864b8.jpeg",
+     "href": "/cn/zh/cat/27534"
+    },
+    {
+     "heading": "BILLY 毕利 备受喜爱的经典系列。可以小巧质朴，也可以大方惊艳，一切由你决定。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/40/11/4011260162cd46c4621d71784f706f31.jpeg",
+     "href": "/cn/zh/cat/28102"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>宜家设计服务</h2>"
+    "宜家设计服务"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -380,6 +655,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "查看宜家3D样板间",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/17/99/1799592aab73ca570d343e6753b55fc1.png",
+     "href": "/cn/zh/threedHome/view/?id=3",
+     "backgroundColor": null
+    },
+    {
+     "title": "全屋设计，为您打造理想的家",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/3c/f4/3cf4f905f5bcac46b04714a55afa1903.png",
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fwrd.family.ikea.cn%2Fwrd%3F",
+     "backgroundColor": null
+    },
+    {
+     "title": "不同房间的不同灵感",
+     "text": "查看针对每个房间提供的灵感创意和巧妙提示及技巧：这些创意助你开启下一个项目，寻找常见家居装修难题的解决方案，浏览我们现场展示的系列产品获取创意灵感。",
+     "image": "https://file.app.ikea.cn/images/48/3f/483f70a93a6c773d3717a1b04438a2fb.jpg",
+     "href": "/cn/zh/ideas/rooms-inspiration/",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -406,6 +705,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "查看更多在线设计工具，自由定义你的家",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/52/c0/52c002733756c59239fefe6147821251.png",
+     "href": "/cn/zh/planners/",
+     "backgroundColor": "#724037"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -426,6 +735,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

@@ -11,7 +11,7 @@
    "title": "魔鬼蛋配烟熏三文鱼",
    "texts": [
     "布置在湖中码头上的聚会用餐区。",
-    "<p>份量：14份<br />烹调时间：20分钟</p>",
+    "份量：14份 烹调时间：20分钟",
     "魔鬼蛋配烟熏三文鱼",
     "normal"
    ],
@@ -24,16 +24,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "魔鬼蛋配烟熏三文鱼",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/88/57/8857ca3784e38aa3e4b02a0d0615ae03.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><span style=\"text-decoration: underline;\"><strong>食材：<br /></strong></span>100克 LAX KALLR&Ouml;KT 烟熏<br />三文鱼，解冻<br />7个大的有机鸡蛋，全熟<br />2汤匙蛋黄酱<br />1汤匙第戎芥末酱<br />2茶匙白葡萄酒醋<br />1汤匙小葱碎<br />黑胡椒粉<br />装饰用莳萝<br />酢浆草或其它当地时令食材<br />装饰用香草</p>\n<p><span style=\"text-decoration: underline;\"><strong>烹调步骤：<br /></strong></span><strong>1.</strong>将鸡蛋去壳并纵向切成两半。挖出蛋黄，<br />舀入搅拌碗内。<br /><strong>2.</strong>在另一个碗内混合蛋黄酱、芥末和白葡萄酒醋。<br /><strong>3.</strong>在蛋黄<br />中加入2汤匙蛋黄酱混合物并用叉子捣碎。加入剩下的蛋黄酱<br />混合物直至其均匀柔滑。<br /><strong>4.</strong>将三文鱼切成薄片。<br /><strong>5.</strong>将混合物舀入半蛋中，并撒上<br />三文鱼片、酢浆草或其他可食用花卉。</p>"
+    "食材： 100克 LAX KALLRöKT 烟熏 三文鱼，解冻 7个大的有机鸡蛋，全熟 2汤匙蛋黄酱 1汤匙第戎芥末酱 2茶匙白葡萄酒醋 1汤匙小葱碎 黑胡椒粉 装饰用莳萝 酢浆草或其它当地时令食材 装饰用香草 烹调步骤： 1.将鸡蛋去壳并纵向切成两半。挖出蛋黄， 舀入搅拌碗内。 2.在另一个碗内混合蛋黄酱、芥末和白葡萄酒醋。 3.在蛋黄 中加入2汤匙蛋黄酱混合物并用叉子捣碎。加入剩下的蛋黄酱 混合物直至其均匀柔滑。 4.将三文鱼切成薄片。 5.将混合物舀入半蛋中，并撒上 三文鱼片、酢浆草或其他可食用花卉。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

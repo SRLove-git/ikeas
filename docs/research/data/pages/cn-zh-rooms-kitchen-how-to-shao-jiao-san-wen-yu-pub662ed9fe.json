@@ -10,10 +10,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h1>烧椒三文鱼</h1>\n<p>肉质肥美的深海三文鱼搭配增色添香的尖椒米椒，淋上热油，入口即化。</p>"
+    "烧椒三文鱼 肉质肥美的深海三文鱼搭配增色添香的尖椒米椒，淋上热油，入口即化。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "7dbd692fabf24e1d8acaa593da7a938b"
    }
@@ -33,6 +35,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "22d35f8f6e3f422184c30508186f424e"
    }
@@ -41,10 +45,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>份量：4人份&nbsp;</h2>"
+    "份量：4人份"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "f5a2f26583684b1699d97bd0e080d64c"
    }
@@ -53,10 +59,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>材料：</h2>\n<p>190克三文鱼（约1块半）</p>\n<p>20克食用油</p>\n<p>80克青尖椒</p>\n<p>40克小米椒</p>\n<p>10克大蒜</p>\n<p>3克盐</p>\n<p>3片生姜</p>\n<p>2根小葱</p>\n<p>10克花雕酒</p>"
+    "材料： 190克三文鱼（约1块半） 20克食用油 80克青尖椒 40克小米椒 10克大蒜 3克盐 3片生姜 2根小葱 10克花雕酒"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "ea6877198fd749eaa3e335af20a4ceed"
    }
@@ -65,10 +73,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>制作步骤：</h2>\n<p>1、将三文鱼解冻改刀，切成大小适中的块状。</p>\n<p>2、姜切片，葱切小段，铺在三文鱼上，再洒上花雕酒和盐，腌渍去腥五分钟。</p>\n<p>3、青尖椒、小米椒对半切开后去籽，大蒜压成蒜泥备用。</p>\n<p>4、热锅冷油，将青尖椒、小米椒倒入炒香，再加入蒜泥一起翻炒，蒜泥避免过早下锅，容易焦糊。</p>\n<p>5、将炒香后的配料取出切碎，撒上适量的盐。</p>\n<p>6、把切好的碎末铺在三文鱼上，大火蒸4至5分钟。</p>\n<p>7、淋上200度左右的热油（即七成油温）。</p>"
+    "制作步骤： 1、将三文鱼解冻改刀，切成大小适中的块状。 2、姜切片，葱切小段，铺在三文鱼上，再洒上花雕酒和盐，腌渍去腥五分钟。 3、青尖椒、小米椒对半切开后去籽，大蒜压成蒜泥备用。 4、热锅冷油，将青尖椒、小米椒倒入炒香，再加入蒜泥一起翻炒，蒜泥避免过早下锅，容易焦糊。 5、将炒香后的配料取出切碎，撒上适量的盐。 6、把切好的碎末铺在三文鱼上，大火蒸4至5分钟。 7、淋上200度左右的热油（即七成油温）。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "087eb12912d942d99f0ea7c001ac7214"
    }
@@ -91,6 +101,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220117/d1c9e6ef517a4f509eec7ff402f71b8b.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "a04ad7463e9c435a85dd7b7b561a0ad8"
    }

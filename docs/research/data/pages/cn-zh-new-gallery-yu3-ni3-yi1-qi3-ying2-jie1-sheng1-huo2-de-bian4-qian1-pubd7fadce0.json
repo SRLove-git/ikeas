@@ -22,6 +22,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/14/6b/146b36885ac45089499c4a2587fc70d3.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Image(video)-"
    }
@@ -34,6 +44,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Page Title-"
    }
@@ -42,10 +54,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>生活总是千变万化，现代社会尤其如此。正因如此，一个百变灵活的家，才能始终成为你舒适的港湾。宜家R&Aring;VAROR 罗瓦露 系列推出品质卓越、功能多样的全新家具，从今以后，无论在哪里生活，无论空间大小，该系列都能为你打造一个温馨舒适的家。</p>"
+    "生活总是千变万化，现代社会尤其如此。正因如此，一个百变灵活的家，才能始终成为你舒适的港湾。宜家RåVAROR 罗瓦露 系列推出品质卓越、功能多样的全新家具，从今以后，无论在哪里生活，无论空间大小，该系列都能为你打造一个温馨舒适的家。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -55,7 +69,7 @@
    "title": null,
    "texts": [
     "https://v.youku.com/v_show/id_XNDgzODM4NjI3Ng==.html",
-    "<p>▲观看系列视频</p>",
+    "▲观看系列视频",
     "MANUAL_INPUT"
    ],
    "images": [],
@@ -65,6 +79,8 @@
      "text": "\n<p>▲观看系列视频</p>\n"
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Video (link)-"
    }
@@ -85,6 +101,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/60/2c/602ce1ace2b3975847ba668c3bd87964.png",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Image(video)-"
    }
@@ -113,6 +139,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "RÅVAROR 罗瓦露 桌子和储物单元组合成一个用餐区。桌子上摆满了用餐具装着的各种食物。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/0a/46/0a466befef56959f80bd25936c8288b8.jpg",
+     "href": "/cn/zh/p/30457309?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Image(video)-"
    }
@@ -121,10 +157,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>储物或座椅？由你来决定</h2>\n<p>这个储物单元可以轻松滚动到你想放置的地方，不用时也能挪到一边放置。除了可以存放物品，它还是一张坚固的备用座椅。需要腾出空间来跳舞或练瑜伽？把它推到桌子下方就可以！小巧的尺寸，放在桌下刚刚好。</p>"
+    "储物或座椅？由你来决定 这个储物单元可以轻松滚动到你想放置的地方，不用时也能挪到一边放置。除了可以存放物品，它还是一张坚固的备用座椅。需要腾出空间来跳舞或练瑜伽？把它推到桌子下方就可以！小巧的尺寸，放在桌下刚刚好。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -162,6 +200,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "带脚轮的黑色RÅVAROR 罗瓦露 储物单元里摆满了衣物和RÅVAROR 罗瓦露 储物盒，上面放着一张RÅVAROR 罗瓦露 休闲毯。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/19/1e/191e53e8eeb1681ff404cfd630651f3e.jpg",
+     "href": "/cn/zh/p/00454562?artType=ART",
+     "backgroundColor": null
+    },
+    {
+     "title": "一张RÅVAROR 罗瓦露 桌子和带脚轮搁架单元组合成家里的书桌区。桌子上摆放着笔记本电脑。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/65/c2/65c2835eb44984d99691b7c26289d792.jpg",
+     "href": "/cn/zh/p/20454523?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "所有衣物，整齐收纳 一个带有衣架杆的衣柜框架，令所有衣物一目了然，方便你轻松找到想穿的衣服；另外还可以摆放一些可堆叠的储物盒，存放折叠好的衣服，分门别类地收纳各种小物品和配饰。钢架结构结实、稳固，搭配脚轮，在搬家时还可以用作运输的手推车。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/19/1e/191e53e8eeb1681ff404cfd630651f3e.jpg",
+     "href": "/cn/zh/p/00454562?artType=ART"
+    },
+    {
+     "heading": "吃饭时是餐桌，工作时是书桌 这张木制的餐桌可供两人入座。家里来了其他客人？这张长几与餐桌一样高，将它们拼在一起就能用来招待更多客人用餐。吃饭时，托盘可用来上菜；工作时，用它来装办公用品；展开支腿，就能架高电脑，方便你站立办公。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/65/c2/65c2835eb44984d99691b7c26289d792.jpg",
+     "href": "/cn/zh/p/20454523?artType=ART"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Columns-"
    }
@@ -175,6 +244,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Quote-"
    }
@@ -212,6 +283,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "一张深蓝色的RÅVAROR 罗瓦露 坐卧两用床靠着混凝土纹的墙壁摆放。上方挂着一个RÅVAROR 罗瓦露 储物袋。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/2e/3c/2e3c07c7bf12bc475b82186031039714.jpg",
+     "href": "/cn/zh/search/products?q=RÅVAROR",
+     "backgroundColor": null
+    },
+    {
+     "title": "一个RÅVAROR 罗瓦露 迷你厨柜，配有悬挂的餐具滤干架和挂钩，上面摆满了餐具以及一个RÅVAROR 罗瓦露 储物盒。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/7a/ed/7aed12831c27d36e7edd4762e78ea4b1.jpg",
+     "href": "/cn/zh/search/products?q=RÅVAROR",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "在坐卧两用床上舒适入睡 这张坐卧两用床兼具社交娱乐与休息功能：你可以与好友坐在上面，聊天，吃零食；也可以把它变成一张床，舒适入睡。耐用的牛仔布垫套随着时间流逝愈显优雅，就像你最爱的牛仔裤一样。不睡觉的时候，用匹配的牛仔布手提袋来收纳你的床上用品，还能用作额外的靠垫。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/2e/3c/2e3c07c7bf12bc475b82186031039714.jpg",
+     "href": "/cn/zh/search/products?q=RÅVAROR"
+    },
+    {
+     "heading": "起床、洗漱，顺便做点早餐 这个迷你厨柜是你每天洗刷的地方。同时也可以兼作你的梳妆柜，在这里洗漱、化妆、刷牙，陪伴你开始和结束一天的生活。在剩下的时间里，这里就是你的厨房：搭配巧妙的储物盒，收纳各式厨具、肥皂以及分类回收的物品。充分利用每一寸空间，满足你的一切需求。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/7a/ed/7aed12831c27d36e7edd4762e78ea4b1.jpg",
+     "href": "/cn/zh/search/products?q=RÅVAROR"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Columns-"
    }
@@ -240,6 +342,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "在公寓中间有RÅVAROR 罗瓦露 桌子、储物单元和折叠椅。桌子上摆放着餐具。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e7/9a/e79a635aa7c4e315f46b5b50a199d7af.jpg",
+     "href": "/cn/zh/search/products?q=RÅVAROR",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Image(video)-"
    }
@@ -253,6 +365,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Quote-"
    }
@@ -270,6 +384,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": {
     "traceId": "cms-Product List-"
    }
@@ -279,11 +394,21 @@
    "title": null,
    "texts": [
     "pub-column",
-    "<h2>探索更多新品</h2>",
+    "探索更多新品",
     "pub-text"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "columns": [
+    {
+     "heading": "探索更多新品",
+     "text": null,
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Columns-"
    }
@@ -308,6 +433,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "宜家新品",
+     "text": "浏览并选购我们的新产品！本季家居装饰搭配和创意新鲜出炉，为你带来宜家的一些最新产品和家居灵感。",
+     "image": "https://file.app.ikea.cn/cms/u/20250521/699c4a55aabd403f893bbf51b0d3f2cc.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/new/",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Page List-"
    }

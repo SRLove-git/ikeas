@@ -11,7 +11,7 @@
    "title": "现代演绎乡村厨房",
    "texts": [
     "一间铺着木地板的黑色厨房，一个黑色的独立橱柜、黑色橱柜、开放式搁架上放着葡萄酒。",
-    "<p>VADHOLMA 瓦德侯玛 独立橱柜，瞬间扩大厨房的储物空间和台面空间。独立橱柜可以提供多种用途，作为工作台准备饭菜，作为餐桌来做家庭作业或闲聊，顶部和底部还可以收纳厨房必需品。</p>",
+    "VADHOLMA 瓦德侯玛 独立橱柜，瞬间扩大厨房的储物空间和台面空间。独立橱柜可以提供多种用途，作为工作台准备饭菜，作为餐桌来做家庭作业或闲聊，顶部和底部还可以收纳厨房必需品。",
     "现代演绎乡村厨房",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "现代演绎乡村厨房",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/1c/80/1c80f4cb44aba04a3f56e774be3be923.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -50,6 +60,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个黑色/木质的独立式独立橱柜，带厚实的木质工作台面，架子上悬挂厨房用具。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/215663ece801ae21/original/PH153333-crop002.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -76,6 +96,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "宜家GAMLESJÖN 甘勒逊 黑色拉丝金属双控厨房混合型水龙头。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/47b844ba4a647e09/original/PH153162-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -102,6 +132,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "两个VADHOLMA 瓦德侯玛 酒架，里面放满美酒。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/6fa2e69419398a75/original/PH153332-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -117,6 +157,44 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "LERHYTTAN 雷尔休坦",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lerhyttan-lei-er-xiu-tan-gui-men-hei-qi__0635834_pe697464_s4.jpg",
+     "href": "/cn/zh/p/lerhyttan-lei-er-xiu-tan-gui-men-hei-qi-80355983/"
+    },
+    {
+     "title": "LERHYTTAN 雷尔休坦",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lerhyttan-lei-er-xiu-tan-bo-li-gui-men-hei-qi__0638665_pe699077_s4.jpg",
+     "href": "/cn/zh/p/lerhyttan-lei-er-xiu-tan-bo-li-gui-men-hei-qi-70356006/"
+    },
+    {
+     "title": "ENERYDA 艾纳丽",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/eneryda-ai-na-li-ba-shou-hei-se__0754248_pe747840_s4.jpg",
+     "href": "/cn/zh/p/eneryda-ai-na-li-ba-shou-hei-se-30347523/"
+    },
+    {
+     "title": "VADHOLMA 瓦德侯玛",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vadholma-wa-de-hou-ma-chou-ti-gui-he-se-zhao-se-bai-zha-mu__0551816_pe658791_s4.jpg",
+     "href": "/cn/zh/p/vadholma-wa-de-hou-ma-chou-ti-gui-he-se-zhao-se-bai-zha-mu-80374340/"
+    },
+    {
+     "title": "VADHOLMA 瓦德侯玛",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vadholma-wa-de-hou-ma-jiu-ping-jia-he-se-zhao-se-bai-zha-mu__0551834_pe658804_s4.jpg",
+     "href": "/cn/zh/p/vadholma-wa-de-hou-ma-jiu-ping-jia-he-se-zhao-se-bai-zha-mu-10374329/"
+    },
+    {
+     "title": "GAMLESJÖN 甘勒逊",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/gamlesjoen-gan-le-xun-chu-fang-long-tou-hei-se-la-si-jin-shu__0756688_pe749040_s4.jpg",
+     "href": "/cn/zh/p/gamlesjoen-gan-le-xun-chu-fang-long-tou-hei-se-la-si-jin-shu-00341674/"
+    }
+   ],
    "settings": null
   }
  ]

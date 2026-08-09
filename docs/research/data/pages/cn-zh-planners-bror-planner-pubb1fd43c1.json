@@ -11,7 +11,7 @@
    "title": "BROR 巴拉设计工具",
    "texts": [
     "这款 BROR 巴拉 搁架单元采用黑色涂粉末漆镀锌钢制成，共分为三个部分，专为承载重物而设计。",
-    "<p>名副其实的重载储物系列</p>\n<p>使用 BROR 巴拉，从此和车库内杂乱的箱子和四处散落的工具说再见。它可能是迄今为止我们打造的最强大、最坚固、最实用的储物系列，它的搁板可以承载各种东西，甚至可以放几袋混凝土（我们正是这样测试的）。BROR 巴拉 重载储物系列可在其承载范围内储存任何重物&mdash;&mdash;唯一不沉重的是它的价格。查看 <strong><a href=\"https://www.ikea.cn/cn/zh/planner/bror-planner/\" target=\"_blank\">BROR 设计工具</a></strong></p>",
+    "名副其实的重载储物系列 使用 BROR 巴拉，从此和车库内杂乱的箱子和四处散落的工具说再见。它可能是迄今为止我们打造的最强大、最坚固、最实用的储物系列，它的搁板可以承载各种东西，甚至可以放几袋混凝土（我们正是这样测试的）。BROR 巴拉 重载储物系列可在其承载范围内储存任何重物——唯一不沉重的是它的价格。查看 BROR 设计工具",
     "BROR 巴拉设计工具",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "BROR 巴拉设计工具",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/cf/ff/cfff3a106fcc428944e405b7943ddefd.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,6 +54,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -76,6 +88,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "JONAXEL 尤纳赛尔 设计工具",
+     "text": "使用我们的 JONAXEL 尤纳赛尔 设计工具，为房间设计储物空间方案。",
+     "image": "https://file.app.ikea.cn/images/0a/be/0abe569b4520b7288bc27d6d7b5316e6.jpg",
+     "href": "/cn/zh/planners/algot-planner-pubd6479c6b",
+     "backgroundColor": null
+    },
+    {
+     "title": "EKET 伊克特 设计软件",
+     "text": "定制你的 EKET伊克特 储物组件\n\nEKET伊克特 储物组件是你发挥创意的好帮手!一起来体验 EKET伊克特 的灵活变化，为家打造一个完美实用的储物组合。",
+     "image": "https://file.app.ikea.cn/images/88/90/889041c6ed39f59997c709780591546d.jpg",
+     "href": "/cn/zh/planners/eket-planner-pub4c02ddd0",
+     "backgroundColor": null
+    },
+    {
+     "title": "PLATSA 普拉萨 设计工具",
+     "text": "使用PLATSA 普拉萨 设计工具，根据你的需要量身设计家居储物方案。",
+     "image": "https://file.app.ikea.cn/images/08/fc/08fcdb383e50282ae4f7b268321f7874.png",
+     "href": "/cn/zh/planners/platsa-planner-pub0d6e5791",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -96,6 +132,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

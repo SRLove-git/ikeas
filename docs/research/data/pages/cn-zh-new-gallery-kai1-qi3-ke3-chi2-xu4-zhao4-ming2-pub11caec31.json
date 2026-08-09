@@ -11,7 +11,7 @@
    "title": "开启可持续照明",
    "texts": [
     "白色房间内展示着 KNIXHULT 克尼斯胡特 竹制落地灯、吊灯和台灯。这些灯具采用编织工艺打造而成，外观采用弧形设计。",
-    "<p>利用美观的 KNIXHULT 克尼斯胡特 竹制灯具，打造天然的手工制作风格。</p>\n<p>本系列灯具包括落地灯、吊灯和台灯。灯具的设计经过调整，便于充分利用通常遭弃用的深色竹子，从而有利于降低对环境的影响。</p>",
+    "利用美观的 KNIXHULT 克尼斯胡特 竹制灯具，打造天然的手工制作风格。 本系列灯具包括落地灯、吊灯和台灯。灯具的设计经过调整，便于充分利用通常遭弃用的深色竹子，从而有利于降低对环境的影响。",
     "开启可持续照明",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "开启可持续照明",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/8e/b0/8eb02dab381f27926c2baf6c1debcec0.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -51,6 +61,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "KNIXHULT 克尼斯胡特 台灯由四条弯曲的木支腿支撑，灯身呈圆柱形，采用不同色度的竹子编织而成。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/31/7f/317fc4df3c2a2288cdb3b0e6f06ab34d.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "特写：KNIXHULT 克尼斯胡特 圆柱形吊灯采用编织工艺制作而成，光影充满变化，外部是深色竹子制成的支架。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/68/f8/68f80cd6794d39832d97fabd7200147c.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "利用通常遭弃用的深色竹子制作灯具，使原材料利用率从20%升到65%。由于这款灯具的颜色充满变化，因此更具温暖之感，更能突显个性特色。",
+     "image": "https://file.app.ikea.cn/images/31/7f/317fc4df3c2a2288cdb3b0e6f06ab34d.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "我们力求到2030年全部使用可再生或可回收材料，采用竹子制作产品正是我们为实现这一目标所做的努力。",
+     "image": "https://file.app.ikea.cn/images/68/f8/68f80cd6794d39832d97fabd7200147c.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -71,6 +112,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -86,6 +129,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

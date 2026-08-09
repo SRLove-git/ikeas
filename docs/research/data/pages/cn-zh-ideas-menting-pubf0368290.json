@@ -11,7 +11,7 @@
    "title": "整理艺术：过道",
    "texts": [
     "门边的门厅里井井有条地摆放着一家三口的鞋子、大衣和其他物件",
-    "<p>家中的门就像一块吸附物件的磁铁一样，容易把过道或门厅那块搞得凌乱不堪。把这块地方收拾得井井有条，可以让你的出入更加畅通舒心。查看整理过道的诀窍。</p>",
+    "家中的门就像一块吸附物件的磁铁一样，容易把过道或门厅那块搞得凌乱不堪。把这块地方收拾得井井有条，可以让你的出入更加畅通舒心。查看整理过道的诀窍。",
     "整理艺术：过道",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "整理艺术：过道",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/93/c0/93c0a3890b6d6d923506a7932c37393a.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -40,6 +50,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -51,26 +63,32 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><em>我们乐意看到顾客运用我们的产品发挥创意。尽情发挥吧！但是请注意，经过微调或改造的宜家产品将丧失其原有功能，或无法进行二次销售，因此，你将不再享有宜家的商业保证及退货权利。</em></p>"
+    "我们乐意看到顾客运用我们的产品发挥创意。尽情发挥吧！但是请注意，经过微调或改造的宜家产品将丧失其原有功能，或无法进行二次销售，因此，你将不再享有宜家的商业保证及退货权利。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>制作人</strong></p>\n<p>室内设计师：Emma Parkinson<br />摄影师：Mats Ekdahl<br />撰稿人：Marissa Frayer</p>"
+    "制作人 室内设计师：Emma Parkinson 摄影师：Mats Ekdahl 撰稿人：Marissa Frayer"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

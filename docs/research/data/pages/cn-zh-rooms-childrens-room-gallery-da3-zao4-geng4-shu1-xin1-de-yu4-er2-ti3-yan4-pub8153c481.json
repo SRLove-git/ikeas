@@ -11,7 +11,7 @@
    "title": "打造更舒心的育儿体验",
    "texts": [
     "宜家 EKTORP 爱克托 灰色大扶手椅非常适合用作育儿房中的哺乳椅。这款扶手椅配有可拆卸、可清洗的垫套，还有足够的空间可放置 LEN 莱恩 护理枕。",
-    "<p>带你的宝宝来到一个舒适的角落，那里的扶手椅、配件和灯光都恰好合适。在这里，你可以舒适地用母乳或者奶瓶喂奶，当然也可以充满爱意地抱着你的宝宝！</p>",
+    "带你的宝宝来到一个舒适的角落，那里的扶手椅、配件和灯光都恰好合适。在这里，你可以舒适地用母乳或者奶瓶喂奶，当然也可以充满爱意地抱着你的宝宝！",
     "打造更舒心的育儿体验",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "打造更舒心的育儿体验",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/51/52/51527fdfa376118557b8e916ea970287.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -39,6 +49,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "LEN 莱恩",
+     "text": "¥249",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/len-lai-en-hu-li-zhen-hui-se__0594060_pe675480_s4.jpg",
+     "href": "/cn/zh/p/len-lai-en-hu-li-zhen-hui-se-00400244/"
+    },
+    {
+     "title": "FLISAT 福丽萨特",
+     "text": "¥129",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/flisat-fu-li-sa-te-bi-shi-chu-wu-zhuang-zhi-bai-qi-song-mu__0642799_pe701440_s4.jpg",
+     "href": "/cn/zh/p/flisat-fu-li-sa-te-bi-shi-chu-wu-zhuang-zhi-bai-qi-song-mu-10299820/"
+    }
+   ],
    "settings": null
   }
  ]

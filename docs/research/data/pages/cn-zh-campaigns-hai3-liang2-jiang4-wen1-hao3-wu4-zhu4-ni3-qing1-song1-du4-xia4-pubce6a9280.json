@@ -14,26 +14,32 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>尽享安睡的清凉秘密</h2>\n<p>白日里频繁出汗，夜晚更需要恢复精力。可夜间出汗是许多人的困扰，一床舒适透气、轻薄柔软的床品，让睡眠质量直线上升。</p>"
+    "尽享安睡的清凉秘密 白日里频繁出汗，夜晚更需要恢复精力。可夜间出汗是许多人的困扰，一床舒适透气、轻薄柔软的床品，让睡眠质量直线上升。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>清爽夏被</strong> | <a href=\"#690bea60-a599-11eb-b7f8-7b31d780501d\">舒睡床品</a></p>"
+    "清爽夏被 | 舒睡床品"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -52,6 +58,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/3c/4d/3c4d739eef0c307af74de5ed6ab35bd4.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -97,6 +113,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "BLÅNEPETA 布罗佩塔 夏被 浅蓝色 200x230 厘米 ￥399.00",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ee/2e/ee2e3a9cb7fda886f07e1fbe5a59fd40.jpg",
+     "href": "/cn/zh/p/50519575?artType=ART",
+     "backgroundColor": "#8ecbc5"
+    },
+    {
+     "title": "VÅRELD 沃勒尔德 床罩 白色 230x250 厘米 ￥299.00",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/27/87/2787d560a55901f8f913040593866d5f.jpg",
+     "href": "/cn/zh/p/20384021?artType=ART",
+     "backgroundColor": "#79655a"
+    },
+    {
+     "title": "HILDAMARIA 希达玛 垫套 绿色 自然色, 条形图案 50x50 厘米 ￥19.90",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/04/c4/04c449fb5263078fa3bb0848731d28d2.jpg",
+     "href": "/cn/zh/p/90492630?artType=ART",
+     "backgroundColor": "#6f6a4a"
+    },
+    {
+     "title": "KLUBBSPORRE 克鲁布斯珀勒 人体工学枕，多种睡姿 41x70 厘米 ￥299.00",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/76/14/7614c84b69381c03c6ae788c7baa84ab.jpg",
+     "href": "/cn/zh/p/80446097?artType=ART",
+     "backgroundColor": "#4e7a7b"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -110,16 +157,19 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><a href=\"#ff57b0b0-a591-11eb-bf01-9df797aea7a7\">清爽夏被</a> | <strong>舒睡床品</strong></p>"
+    "清爽夏被 | 舒睡床品"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -127,7 +177,7 @@
    "title": null,
    "texts": [
     "pub-column",
-    "<h2>舒睡床品</h2>\n<p>视觉上的清凉令人心生愉悦。颜色清淡、纹理简单的床品，让整个夏夜都安宁。厚实的纱线，清凉的蓝色，富有手工质感的外观给卧室带来清新气息。</p>",
+    "舒睡床品 视觉上的清凉令人心生愉悦。颜色清淡、纹理简单的床品，让整个夏夜都安宁。厚实的纱线，清凉的蓝色，富有手工质感的外观给卧室带来清新气息。",
     "pub-text",
     "pub-image",
     "IMAGE",
@@ -142,6 +192,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/544d31fb02b10db1/original/PH168653-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "舒睡床品 视觉上的清凉令人心生愉悦。颜色清淡、纹理简单的床品，让整个夏夜都安宁。厚实的纱线，清凉的蓝色，富有手工质感的外观给卧室带来清新气息。",
+     "text": null,
+     "image": null,
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/544d31fb02b10db1/original/PH168653-crop001.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -187,6 +261,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "DVALA 代芙拉 床笠 淡灰色 180x200 厘米 ￥99.00",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/5a/da/5ada532e9fd2b1f1d4ba9d1922c89603.jpg",
+     "href": "/cn/zh/p/60482454?artType=ART",
+     "backgroundColor": "#10100e"
+    },
+    {
+     "title": "TOVSIPPA 托西帕 被套和2个枕套 白色,  花卉图案 200x230/50x80 厘米 ￥299.00",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/86/9f/869f3581498ddee93689dfa5ebdf7a09.jpg",
+     "href": "/cn/zh/p/00399636?artType=ART",
+     "backgroundColor": "#e36441"
+    },
+    {
+     "title": "MARJUN 马瑞恩 窗帘，一对 灰色 145x250 厘米 ￥349.00",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ca/88/ca885b5eb1b8a66003d90e0b51132348.jpg",
+     "href": "/cn/zh/p/50298423?artType=ART",
+     "backgroundColor": "#9891a1"
+    },
+    {
+     "title": "BERGPALM 贝利帕姆 被套和2个枕套 灰色, 条纹  200x230/50x80 厘米 ￥299.00",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/25/4a/254a36c83b9b05e88a5fe1934eb1b43d.jpg",
+     "href": "/cn/zh/p/60423247?artType=ART",
+     "backgroundColor": "#1d5c87"
+    }
+   ],
+   "productIds": [],
    "settings": null
   }
  ]

@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Page Title-"
    }
@@ -36,6 +38,24 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/59/47/5947ab883e8d6259ba136f4ca77e9fb6.png",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/59/47/5947ab883e8d6259ba136f4ca77e9fb6.png",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Columns-"
    }
@@ -44,10 +64,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>在宜家商场，你可以用喜欢的方式付款。我们接受现金、有银联、VISA和MASTER标记的储蓄卡、借记卡及信用卡和支票等。详情请咨询当地宜家商场。</p>\n<p>宜家网上商城接受支付宝，微信，及银联支付。</p>"
+    "在宜家商场，你可以用喜欢的方式付款。我们接受现金、有银联、VISA和MASTER标记的储蓄卡、借记卡及信用卡和支票等。详情请咨询当地宜家商场。 宜家网上商城接受支付宝，微信，及银联支付。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -70,6 +92,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Link - button or text-"
    }
@@ -78,10 +102,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>我们的服务</strong></h2>"
+    "我们的服务"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -120,6 +146,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "送货服务",
+     "text": "了解详情",
+     "image": null,
+     "href": "/cn/zh/customer-service/services/delivery/",
+     "backgroundColor": null
+    },
+    {
+     "title": "组装服务",
+     "text": "了解详情",
+     "image": null,
+     "href": "/cn/zh/customer-service/services/assembly/",
+     "backgroundColor": null
+    },
+    {
+     "title": "设计服务 ",
+     "text": "了解详情",
+     "image": null,
+     "href": "/cn/zh/customer-service/services/kitchen-planning/",
+     "backgroundColor": null
+    },
+    {
+     "title": "安装服务",
+     "text": "了解详情",
+     "image": null,
+     "href": "/cn/zh/customer-service/services/kitchen-installation/",
+     "backgroundColor": null
+    },
+    {
+     "title": "旧家具运送服务",
+     "text": "了解详情",
+     "image": null,
+     "href": "/cn/zh/customer-service/services/removal-recycling/",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Assurances-"
    }
@@ -142,6 +206,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Link - button or text-"
    }
@@ -152,6 +218,8 @@
    "texts": [],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Visual Navigation-"
    }

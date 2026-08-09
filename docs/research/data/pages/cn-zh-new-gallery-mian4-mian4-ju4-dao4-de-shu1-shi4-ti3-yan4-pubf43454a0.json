@@ -11,7 +11,7 @@
    "title": "面面俱到的舒适体验",
    "texts": [
     "产品特写：一张VINLIDEN 温里德恩 高背米色沙发，宽大的座位中放着一个浅蓝色靠垫。",
-    "<p>我们的新款VINLIDEN 温里德恩 沙发看起来就非常舒适，坐上之后也完全符合期待。高背设计、宽敞的座位尺寸和柔软的垫套都是为了最大限度地打造舒适感。小号的靠垫可以放在扶手一侧随意枕靠，也可以当作腰撑。</p>",
+    "我们的新款VINLIDEN 温里德恩 沙发看起来就非常舒适，坐上之后也完全符合期待。高背设计、宽敞的座位尺寸和柔软的垫套都是为了最大限度地打造舒适感。小号的靠垫可以放在扶手一侧随意枕靠，也可以当作腰撑。",
     "面面俱到的舒适体验",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "面面俱到的舒适体验",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/12/2c/122c8ec3258d0d16ce75ca83cd355859.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -46,6 +56,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "客厅中放着一张VINLIDEN 温里德恩 米色宽座沙发，前景中布置着一张地毯和一张小桌。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/3e/fd/3efd23767e2531ff869dc67d8286d448.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/3e/fd/3efd23767e2531ff869dc67d8286d448.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "有双人座或三人座可供选择，还可以搭配贵妃椅，向后一靠就可以尽情放松了！",
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   }
  ]

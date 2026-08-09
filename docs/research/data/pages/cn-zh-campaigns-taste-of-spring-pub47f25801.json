@@ -28,6 +28,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220223/933e9bf6e499415b972e9e03ad3100d4.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "焕新正当时_从春日美味开始_Topbanner"
    }
@@ -36,10 +46,12 @@
    "type": "rich-text",
    "title": null,
    "texts": [
-    "<p>平日里忙碌的工作，总让我们忽略了生活。天气渐渐转暖，何不抽出一点时间，和亲朋好友一起享用健康美味，度过轻松闲适的春日！</p>"
+    "平日里忙碌的工作，总让我们忽略了生活。天气渐渐转暖，何不抽出一点时间，和亲朋好友一起享用健康美味，度过轻松闲适的春日！"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "焕新正当时_从春日美味开始_Text_Intro"
    }
@@ -50,10 +62,10 @@
    "texts": [
     "two-columns",
     "column",
-    "<h1>焕新正当时<br />从春日美味开始</h1>",
+    "焕新正当时 从春日美味开始",
     "pub-text",
     "NO",
-    "<p>&nbsp;</p>\n<p>平日里忙碌的工作，总让我们忽略了生活。天气渐渐转暖，何不抽出一点时间，和亲朋好友一起享用健康美味，度过轻松闲适的春日！</p>"
+    "平日里忙碌的工作，总让我们忽略了生活。天气渐渐转暖，何不抽出一点时间，和亲朋好友一起享用健康美味，度过轻松闲适的春日！"
    ],
    "images": [
     "https://file.app.ikea.cn/cms/u/20220211/1663be3724724b7d8f543494c73de850.jpg?x-oss-process=style/medium"
@@ -68,6 +80,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220211/1663be3724724b7d8f543494c73de850.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/60480544?artType=art",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "焕新正当时 从春日美味开始",
+     "image": null,
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20220211/1663be3724724b7d8f543494c73de850.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/60480544?artType=art"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "焕新正当时_从春日美味开始_Introtext&banner_web"
    }
@@ -85,6 +121,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "焕新正当时_从春日美味开始_页面导航"
    }
@@ -95,6 +133,8 @@
    "texts": [],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "a1c1ac227cbf4a1e9b1d018fb7b2c62b"
    }
@@ -128,6 +168,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20220211/a32021f59123482c8e02dd864710ac75.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20220211/1b472abea7c84970b5ebc5ab0870ba94.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": "#111111"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "从春日美味开始_把春天的味道装入瓶中_Curated Gallery"
    }
@@ -145,6 +202,14 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "KUNGSFORS 康福斯",
+     "text": "¥29.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kungsfors-kang-fu-si-wang-dai-liang-jian-tao-zi-ran-se__0712561_pe728918_s4.jpg",
+     "href": "/cn/zh/p/kungsfors-kang-fu-si-wang-dai-liang-jian-tao-zi-ran-se-70372836/"
+    }
+   ],
    "settings": {
     "traceId": "从春日美味开始_留住新鲜滋味_Product Shelf"
    }
@@ -173,6 +238,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/5a6b2e68d88aed9a/original/PH182986.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "从春日美味开始_巧妙处理食物_Curated Gallery"
    }
@@ -190,6 +265,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "STOLTHET 斯图海特",
+     "text": "¥59.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/stolthet-si-tu-hai-te-zhen-ban-zhu__1035110_pe837987_s4.jpg",
+     "href": "/cn/zh/p/stolthet-si-tu-hai-te-zhen-ban-zhu-10512811/"
+    },
+    {
+     "title": "GEMAK 吉马克",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/gemak-ji-ma-ke-lu-wan-hui-bai__0711084_pe727969_s4.jpg",
+     "href": "/cn/zh/p/gemak-ji-ma-ke-lu-wan-hui-bai-70331474/"
+    }
+   ],
    "settings": {
     "traceId": "从春日美味开始_巧妙处理食物_Product Shelf"
    }
@@ -218,6 +307,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/64b3cdf3ca769104/original/PH178607.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "从春日美味开始_自制健康饮品_Curated Gallery"
    }
@@ -235,6 +334,14 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "IKEA 365+",
+     "text": "¥39.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ikea-365-bei-zi-tou-ming-bo-li__0928958_pe790097_s4.jpg",
+     "href": "/cn/zh/p/ikea-365-bei-zi-tou-ming-bo-li-30278360/"
+    }
+   ],
    "settings": {
     "traceId": "从春日美味开始_自制健康饮品_Product Shelf"
    }
@@ -259,6 +366,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/6d36a80e75bb82e9/original/PH179630-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "从春日美味开始_分享清新滋味_Curated Gallery"
    }
@@ -276,6 +393,26 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "VARDAGEN 瓦达恩",
+     "text": "¥149",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vardagen-wa-da-en-dai-long-tou-shui-guan__0799772_pe767634_s4.jpg",
+     "href": "/cn/zh/p/vardagen-wa-da-en-dai-long-tou-shui-guan-60452640/"
+    },
+    {
+     "title": "VARDAGEN 瓦达恩",
+     "text": "¥29.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vardagen-wa-da-en-bei-zi-tou-ming-bo-li__0533504_pe648677_s4.jpg",
+     "href": "/cn/zh/p/vardagen-wa-da-en-bei-zi-tou-ming-bo-li-40286915/"
+    },
+    {
+     "title": "DYRGRIP 迪尔格利普",
+     "text": "¥19.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/dyrgrip-di-er-ge-li-pu-bei-zi-tou-ming-bo-li__1450043_pe990207_s4.jpg",
+     "href": "/cn/zh/p/dyrgrip-di-er-ge-li-pu-bei-zi-tou-ming-bo-li-10309305/"
+    }
+   ],
    "settings": {
     "traceId": "从春日美味开始_分享清新滋味_Product Shelf"
    }
@@ -308,6 +445,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20220223/f9e941f3613a4528931f65fe8cb86ca7.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/16043",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "从春日美味开始_轻松招待友人_Curated Gallery"
    }
@@ -325,6 +472,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "KVITTERA 柯提拉",
+     "text": "¥69.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kvittera-ke-ti-la-shang-cai-jia-san-ceng-tou-ming-bo-li-bu-xiu-gang__0713435_pe729524_s4.jpg",
+     "href": "/cn/zh/p/kvittera-ke-ti-la-shang-cai-jia-san-ceng-tou-ming-bo-li-bu-xiu-gang-70279843/"
+    },
+    {
+     "title": "FULLSPÄCKAD 弗斯派嘉德",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/fullspaeckad-fu-si-pai-jia-de-tuo-pan-zhu-hei-se__0799752_pe767617_s4.jpg",
+     "href": "/cn/zh/p/fullspaeckad-fu-si-pai-jia-de-tuo-pan-zhu-hei-se-80433641/"
+    }
+   ],
    "settings": {
     "traceId": "从春日美味开始_轻松招待友人_Product Shelf"
    }
@@ -344,6 +505,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220215/76c550238ea24ab38c7407120bee20db.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "焕新正当时_从春意餐桌开始_banner"
    }
@@ -354,6 +525,8 @@
    "texts": [],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "dacd30e41b254e91a38e016666c181c8"
    }
@@ -387,6 +560,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/6822626bdbbb579e/original/PH183038-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/30e12017c4df28a7/original/PH178139.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "从春意餐桌开始_让春天洒满你的餐桌_Curated Gallery"
    }
@@ -407,6 +597,21 @@
     {
      "href": "/search/products?q=FÄRGKLAR",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "成套餐具，轻松搭配",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/search/products?q=FÄRGKLAR",
+     "backgroundColor": null
+    },
+    {
+     "title": "FÄRGKLAR 法利克洛",
+     "text": "¥39.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/faergklar-fa-li-ke-luo-can-pan-wu-guang-ze-lu-se__0986086_pe817027_s4.jpg",
+     "href": "/cn/zh/p/faergklar-fa-li-ke-luo-can-pan-wu-guang-ze-lu-se-20478208/"
     }
    ],
    "settings": {
@@ -437,6 +642,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/34278c7b6897936e/original/PH176582.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "从春意餐桌开始_点睛之笔_Curated Gallery"
    }
@@ -454,6 +669,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "LIKSIDIG 利斯德",
+     "text": "¥19.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/liksidig-li-si-de-can-jin-pan-bai-se__0138263_pe297418_s4.jpg",
+     "href": "/cn/zh/p/liksidig-li-si-de-can-jin-pan-bai-se-80215718/"
+    },
+    {
+     "title": "TILLSTÄLLNING 提斯泰宁",
+     "text": "¥39.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/tillstaellning-ti-si-tai-ning-can-jin-pan-huang-tong-se__0498164_pe629481_s4.jpg",
+     "href": "/cn/zh/p/tillstaellning-ti-si-tai-ning-can-jin-pan-huang-tong-se-10350111/"
+    }
+   ],
    "settings": {
     "traceId": "从春意餐桌开始_点睛之笔_Product Shelf"
    }
@@ -482,6 +711,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20220211/8e44b86ddb3640369614f35990ad4faf.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "从春意餐桌开始_鲜花盛开处_Curated Gallery"
    }
@@ -499,6 +738,26 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "SOCKERÄRT 索克拉",
+     "text": "¥129",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/sockeraert-suo-ke-la-hua-ping-guan-bai-se__0091175_pe226468_s4.jpg",
+     "href": "/cn/zh/p/sockeraert-suo-ke-la-hua-ping-guan-bai-se-90191632/"
+    },
+    {
+     "title": "KONSTFULL 孔思福",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/konstfull-kong-si-fu-hua-ping-tou-ming-bo-li-tu-an__1030738_pe836342_s4.jpg",
+     "href": "/cn/zh/p/konstfull-kong-si-fu-hua-ping-tou-ming-bo-li-tu-an-20511967/"
+    },
+    {
+     "title": "KONSTFULL 孔思福",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/konstfull-kong-si-fu-hua-ping-lu-he-se__1030420_pe836274_s4.jpg",
+     "href": "/cn/zh/p/konstfull-kong-si-fu-hua-ping-lu-he-se-00511954/"
+    }
+   ],
    "settings": {
     "traceId": "从春意餐桌开始_鲜花盛开处_Product Shelf"
    }
@@ -527,6 +786,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/7ec8c78d6224c86a/original/PH178317-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "从春意餐桌开始_点亮用餐时光_Curated Gallery"
    }
@@ -544,6 +813,32 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "SINNERLIG 希利斯",
+     "text": "¥399",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/sinnerlig-xi-li-si-diao-deng-zhu-shou-gong-zhi-zuo__0919001_pe786542_s4.jpg",
+     "href": "/cn/zh/p/sinnerlig-xi-li-si-diao-deng-zhu-shou-gong-zhi-zuo-00342193/"
+    },
+    {
+     "title": "BUNKEFLO 邦克夫洛",
+     "text": "¥249",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/bunkeflo-bang-ke-fu-luo-diao-deng-bai-se-hua-mu__1008759_pe827313_s4.jpg",
+     "href": "/cn/zh/p/bunkeflo-bang-ke-fu-luo-diao-deng-bai-se-hua-mu-20488392/"
+    },
+    {
+     "title": "LÅGTRYCK 罗格特瑞",
+     "text": "¥249",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lagtryck-luo-ge-te-rui-luo-di-deng-bai-se__1023682_pe833216_s4.jpg",
+     "href": "/cn/zh/p/lagtryck-luo-ge-te-rui-luo-di-deng-bai-se-00513203/"
+    },
+    {
+     "title": "TÄRNABY 塔娜比",
+     "text": "¥149",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/taernaby-ta-nuo-bi-tai-deng-ke-diao-guang-de-mi-huang-se__1188960_pe899632_s4.jpg",
+     "href": "/cn/zh/p/taernaby-ta-nuo-bi-tai-deng-ke-diao-guang-de-mi-huang-se-20508074/"
+    }
+   ],
    "settings": {
     "traceId": "从春意餐桌开始_点亮用餐时光_Product Shelf"
    }
@@ -563,6 +858,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220215/74f4272c959540fa924c2cc70e6fe3e6.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "焕新正当时_从闲暇时光开始_banner"
    }
@@ -573,6 +878,8 @@
    "texts": [],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "917ff8fef5be482392d24990151fbf25"
    }
@@ -602,6 +909,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/af8ddcd6d4321fb/original/PH164333-crop002.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20220223/a90429a28506483195ae879dde23602c.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "从闲暇时光开始_尽情享受春日闲暇_Curated Gallery"
    }
@@ -624,6 +948,33 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "适合更多用途的餐桌",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/21825",
+     "backgroundColor": null
+    },
+    {
+     "title": "MÖRBYLÅNGA 莫比恩",
+     "text": "¥3,999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/moerbylanga-mo-bi-en-zhuo-zi-xiang-mu-tie-mian-zhao-he-se-qi__0737108_pe740890_s4.jpg",
+     "href": "/cn/zh/p/moerbylanga-mo-bi-en-zhuo-zi-xiang-mu-tie-mian-zhao-he-se-qi-10493539/"
+    },
+    {
+     "title": "VOXLÖV 沃斯罗",
+     "text": "¥1,999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/voxloev-wo-si-luo-can-zhuo-qian-zhu__0997396_pe822660_s4.jpg",
+     "href": "/cn/zh/p/voxloev-wo-si-luo-can-zhuo-qian-zhu-60449266/"
+    },
+    {
+     "title": "NORDEN 诺顿",
+     "text": "¥1,499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/norden-nuo-dun-zhe-die-shi-can-zhuo-hua-mu__1457135_pe992560_s4.jpg",
+     "href": "/cn/zh/p/norden-nuo-dun-zhe-die-shi-can-zhuo-hua-mu-80423883/"
+    }
+   ],
    "settings": {
     "traceId": "从闲暇时光开始_餐桌_Product Shelf"
    }
@@ -644,6 +995,39 @@
     {
      "href": "/cat/25219",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "更舒适的餐椅",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/25219",
+     "backgroundColor": null
+    },
+    {
+     "title": "ODGER 奥德格",
+     "text": "¥599",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/odger-ao-de-ge-yi-zi-hong-se__1038449_pe839684_s4.jpg",
+     "href": "/cn/zh/p/odger-ao-de-ge-yi-zi-hong-se-50516553/"
+    },
+    {
+     "title": "ODGER 奥德格",
+     "text": "¥599",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/odger-ao-de-ge-yi-zi-mei-hei-se__0739669_pe741828_s4.jpg",
+     "href": "/cn/zh/p/odger-ao-de-ge-yi-zi-mei-hei-se-30457314/"
+    },
+    {
+     "title": "LISABO 利萨伯",
+     "text": "¥399",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lisabo-li-sa-bo-yi-zi-bai-zha-mu__0786549_pe763015_s4.jpg",
+     "href": "/cn/zh/p/lisabo-li-sa-bo-yi-zi-bai-zha-mu-80457236/"
+    },
+    {
+     "title": "ODGER 奥德格",
+     "text": "¥999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/odger-ao-de-ge-zhuan-yi-bai-se-mi-huang-se__0734069_pe739278_s4.jpg",
+     "href": "/cn/zh/p/odger-ao-de-ge-zhuan-yi-bai-se-mi-huang-se-00395271/"
     }
    ],
    "settings": {
@@ -678,6 +1062,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/2bb42bf0e3b8de5/original/PH181696.jpg",
+     "href": "/cn/zh/cat/16044",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "从闲暇时光开始_放松与充电_Curated Gallery"
    }
@@ -695,6 +1089,44 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "UPPHETTA 乌普塔",
+     "text": "¥59.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/upphetta-wu-pu-ta-ka-pei-hu-cha-hu-bo-li-bu-xiu-gang__0148954_pe307276_s4.jpg",
+     "href": "/cn/zh/p/upphetta-wu-pu-ta-ka-pei-hu-cha-hu-bo-li-bu-xiu-gang-80241388/"
+    },
+    {
+     "title": "GLADELIG 格拉德里",
+     "text": "¥19.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/gladelig-ge-la-de-li-bei-hui-se__0800258_pe767830_s4.jpg",
+     "href": "/cn/zh/p/gladelig-ge-la-de-li-bei-hui-se-50457153/"
+    },
+    {
+     "title": "DINERA 代诺拉",
+     "text": "¥9.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/dinera-dai-nuo-la-da-bei-shen-hui-se__0642538_pe701238_s4.jpg",
+     "href": "/cn/zh/p/dinera-dai-nuo-la-da-bei-shen-hui-se-10362821/"
+    },
+    {
+     "title": "PRODUKT 普洛达",
+     "text": "¥9.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/produkt-pu-luo-da-da-mo-qi-hei-se__0713449_pe729532_s4.jpg",
+     "href": "/cn/zh/p/produkt-pu-luo-da-da-mo-qi-hei-se-70301165/"
+    },
+    {
+     "title": "IDEALISK 艾迪利斯",
+     "text": "¥9.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/idealisk-ai-di-li-si-cha-lu-bu-xiu-gang__0713448_pe729535_s4.jpg",
+     "href": "/cn/zh/p/idealisk-ai-di-li-si-cha-lu-bu-xiu-gang-40179835/"
+    },
+    {
+     "title": "MÅTTLIG 莫里格",
+     "text": "¥39.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mattlig-mo-li-ge-nai-pao-hu-bu-xiu-gang__0713349_pe729455_s4.jpg",
+     "href": "/cn/zh/p/mattlig-mo-li-ge-nai-pao-hu-bu-xiu-gang-70163215/"
+    }
+   ],
    "settings": {
     "traceId": "从闲暇时光开始_放松与充电_Product Shelf"
    }
@@ -723,6 +1155,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/470547e38219f1b9/original/PH178608.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "从闲暇时光开始_随时随地享用_Curated Gallery"
    }
@@ -740,6 +1182,32 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "BEHÖVD 比胡德",
+     "text": "¥39.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/behoevd-bi-hu-de-bao-wen-ping-qian-lu-mi-huang-se__0498600_pe629671_s4.jpg",
+     "href": "/cn/zh/p/behoevd-bi-hu-de-bao-wen-ping-qian-lu-mi-huang-se-50353891/"
+    },
+    {
+     "title": "RIKLIG 利克里希",
+     "text": "¥79.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/riklig-li-ke-li-xi-cha-hu-bo-li__1115270_pe872004_s4.jpg",
+     "href": "/cn/zh/p/riklig-li-ke-li-xi-cha-hu-bo-li-30163217/"
+    },
+    {
+     "title": "SLUKA 斯鲁卡",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/sluka-si-lu-qia-bao-wen-ping-bu-xiu-gang__0713345_pe729451_s4.jpg",
+     "href": "/cn/zh/p/sluka-si-lu-qia-bao-wen-ping-bu-xiu-gang-30163463/"
+    },
+    {
+     "title": "UNDERLÄTTA 昂德拉塔",
+     "text": "¥149",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/underlaetta-ang-de-la-ta-bao-wen-ping-hei-se__0587054_pe672381_s4.jpg",
+     "href": "/cn/zh/p/underlaetta-ang-de-la-ta-bao-wen-ping-hei-se-50360231/"
+    }
+   ],
    "settings": {
     "traceId": "从闲暇时光开始_随时随地享用_Product Shelf"
    }
@@ -762,6 +1230,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "焕新正当时_从春日美味开始_button_探索更多春日新品"
    }
@@ -772,6 +1242,8 @@
    "texts": [],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "b60a1b27454646bfb45da731e9014449"
    }

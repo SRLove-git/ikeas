@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "09418deb3caa413fa8f303239df549f2"
    }
@@ -22,10 +24,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>我们不想你为了设计梦想的家而倍感困扰。宜家专业人员和在线设计工具将为你提供帮助。</p>"
+    "我们不想你为了设计梦想的家而倍感困扰。宜家专业人员和在线设计工具将为你提供帮助。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "3032f7a5e5ec42e3bb5362afa69cd3d8"
    }
@@ -60,6 +64,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "全屋设计： 一站式服务，为你设计理想的家",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/1a/95/1a95807dc9bd1832f04da0839cf890fd.jpg",
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fdesign-leads%2Fwrd.html%3Fchannel%3DEC_website%26cl_sr%3Dcustomer_service",
+     "backgroundColor": null
+    },
+    {
+     "title": "厨房设计： 全套厨房产品和设计灵感，定制梦想厨房",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b8/87/b88700d27b73a34b6db17ff47644775b.jpg",
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fkitchen%3Fchannel%3Dkitchen_IRW%2520M2%26cl_sr%3DIRW%2520M2%26_ga%3D2.29755199.1246865819.1603076366-578008148.1596011551",
+     "backgroundColor": null
+    },
+    {
+     "title": "宜家对公业务： 商业空间设计，批量采购服务",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b6/78/b6787b96ba029760e8a263074b20ef47.jpg",
+     "href": "/cn/zh/ikea-business/",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "dce3ecd702da4a929bc1b8e71e7240f7"
    }
@@ -72,6 +100,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "2f7c812bd87c4593ae62ad339bcb665d"
    }
@@ -81,7 +111,7 @@
    "title": null,
    "texts": [
     "pub-column",
-    "<h3><strong>衣柜设计服务</strong></h3>",
+    "衣柜设计服务",
     "pub-text",
     "/h5page/?url=https%3A%2F%2Fkefu.csc.ikea.cn%2Fwebim%2Fim.html%3FconfigId%3D4ddd4cac-0db9-42c0-907b-2ef3c9b6dd9a",
     "NO",
@@ -117,6 +147,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20251226/a0d77fce5c9d4a5189b6d45c1f348bf6.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fkefu.csc.ikea.cn%2Fwebim%2Fim.html%3FconfigId%3D4ddd4cac-0db9-42c0-907b-2ef3c9b6dd9a",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/33/2b/332b282dc8255eba757ebdcad9ecf736.jpg",
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fkefu.csc.ikea.cn%2Fwebim%2Fim.html%3FconfigId%3D4ddd4cac-0db9-42c0-907b-2ef3c9b6dd9a",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "衣柜设计服务",
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20251226/a0d77fce5c9d4a5189b6d45c1f348bf6.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fkefu.csc.ikea.cn%2Fwebim%2Fim.html%3FconfigId%3D4ddd4cac-0db9-42c0-907b-2ef3c9b6dd9a"
+    },
+    {
+     "heading": "客厅储物设计服务",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/33/2b/332b282dc8255eba757ebdcad9ecf736.jpg",
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fkefu.csc.ikea.cn%2Fwebim%2Fim.html%3FconfigId%3D4ddd4cac-0db9-42c0-907b-2ef3c9b6dd9a"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "af159aa44cec4329a2e44de7375ce244"
    }
@@ -129,6 +190,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "b7a4ffdee1b74d01b1adf3df3c34500b"
    }
@@ -137,10 +200,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h4><strong>厨房设计服务</strong></h4>\n<p>我们为您提供专业的一对一厨房测量和设计服务：</p>\n<p>我们将提供有偿的上门测量服务（会员价：100元/次，非会员价：500元/次，详情请咨询客服或线下商场），并且按照您的要求设计您的厨房。</p>\n<p>提示：如未在宜家购买整体厨房，设计费将不能返还。</p>\n<p>详情请与我们宜家中国客服中心联系， 联系电话：400-800-2345，或登录www.ikea.cn联系在线客服。更多灵感请浏览 <a href=\"https://www.ikea.cn/cn/zh/rooms/kitchen/\">https://www.ikea.cn/cn/zh/rooms/kitchen/</a></p>\n<p><strong>宜家旧厨房拆除服务</strong></p>\n<p>宜家能为您提供专业的旧厨房拆除服务，帮您轻松把新厨房接回家。</p>\n<p>旧厨房拆除服务费：499元每套</p>\n<p>注：仅顾客购买宜家厨房的送货地址处于有宜家商场的城市时才可约定，且未&ldquo;非修复性拆除&rdquo;</p>"
+    "厨房设计服务 我们为您提供专业的一对一厨房测量和设计服务： 我们将提供有偿的上门测量服务（会员价：100元/次，非会员价：500元/次，详情请咨询客服或线下商场），并且按照您的要求设计您的厨房。 提示：如未在宜家购买整体厨房，设计费将不能返还。 详情请与我们宜家中国客服中心联系， 联系电话：400-800-2345，或登录www.ikea.cn联系在线客服。更多灵感请浏览 https://www.ikea.cn/cn/zh/rooms/kitchen/ 宜家旧厨房拆除服务 宜家能为您提供专业的旧厨房拆除服务，帮您轻松把新厨房接回家。 旧厨房拆除服务费：499元每套 注：仅顾客购买宜家厨房的送货地址处于有宜家商场的城市时才可约定，且未“非修复性拆除”"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "7898ea854564421eb96da443859fbc32"
    }
@@ -163,6 +228,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "e8c129fe56c54e7d842c08d8ecafbce5"
    }
@@ -171,10 +238,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>我们的服务</strong></h2>"
+    "我们的服务"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "451163ecfc464a8fb51e81c732efad49"
    }
@@ -209,6 +278,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "送货服务",
+     "text": "了解详情",
+     "image": null,
+     "href": "/cn/zh/customer-service/services/delivery/",
+     "backgroundColor": null
+    },
+    {
+     "title": "组装服务",
+     "text": "了解详情",
+     "image": null,
+     "href": "/cn/zh/customer-service/services/assembly/",
+     "backgroundColor": null
+    },
+    {
+     "title": "安装服务",
+     "text": "了解详情",
+     "image": null,
+     "href": "/cn/zh/customer-service/services/kitchen-installation/",
+     "backgroundColor": null
+    },
+    {
+     "title": "旧家具运送服务",
+     "text": "了解详情",
+     "image": null,
+     "href": "/cn/zh/customer-service/services/removal-recycling/",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "970be09252eb4a45811e7075218c54e0"
    }
@@ -231,6 +331,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "7a476805f6db468d982bbffd5f5bfb79"
    }
@@ -241,6 +343,8 @@
    "texts": [],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "57557fc95e6f400dbd55c3b1921959d0"
    }

@@ -11,7 +11,7 @@
    "title": "家里的全新储物选择",
    "texts": [
     "PLATSA 普拉萨 储物件是一款非常灵活的储物系列，只需要挑选一个衣柜，添加一些模块，你可以用它打造出无限种可能的储物方案。",
-    "<p>现在，哪怕你的居住空间非常狭窄，预算十分紧张，也可以选择一款非常棒的储物系列。PLATSA 普拉萨 储物件是一个可以在家中任何地方使用的模块式系列，你可以用它打造出无限种可能的储物方案，满足你的功能与风格需求。</p>",
+    "现在，哪怕你的居住空间非常狭窄，预算十分紧张，也可以选择一款非常棒的储物系列。PLATSA 普拉萨 储物件是一个可以在家中任何地方使用的模块式系列，你可以用它打造出无限种可能的储物方案，满足你的功能与风格需求。",
     "家里的全新储物选择",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "家里的全新储物选择",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b7/2f/b72faa0dd7af647676a6c44105de3802.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,16 +54,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "PLATSA 普拉萨 储物系列灵活、易于组装，可以用不同的方式将组件和安装件组合起来，帮助你优化空间。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/eb/d7/ebd779554308e352c6a0ab86517150dd.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>PLATSA 普拉萨 储物件尤其适合小空间，可以安置在较高或较低的位置，也可以安放在倾斜的天花板下方或沿整面墙壁铺开。你还可以根据需要安装柜门和内置收纳件。</p>"
+    "PLATSA 普拉萨 储物件尤其适合小空间，可以安置在较高或较低的位置，也可以安放在倾斜的天花板下方或沿整面墙壁铺开。你还可以根据需要安装柜门和内置收纳件。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -74,16 +96,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "PLATSA 普拉萨 储物系列适合大部分空间，随着需求的变化，可以将其拆分，然后重新组装。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d3/cd/d3cd5face1c78fbdefdfd7eb4d52334e.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>无论是生活发生了变化，还是需要放在卧室里存放衣物，或者在餐厅或客厅中用作一个多功能储物件，这款产品都可根据需要或生活变化，以不同的方式组合。</p>"
+    "无论是生活发生了变化，还是需要放在卧室里存放衣物，或者在餐厅或客厅中用作一个多功能储物件，这款产品都可根据需要或生活变化，以不同的方式组合。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -95,6 +129,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

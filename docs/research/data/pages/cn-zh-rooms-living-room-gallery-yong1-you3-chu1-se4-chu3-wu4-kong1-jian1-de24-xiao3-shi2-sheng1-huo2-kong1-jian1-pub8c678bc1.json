@@ -11,7 +11,7 @@
    "title": "拥有出色储物空间的24小时生活空间",
    "texts": [
     "宜家 PLATSA 普拉萨 白色多媒体储物组合是一种模块式单元，可采用不同组合方式，按照你的空间个性化定制储物方案。",
-    "<p>如果你将客厅和卧室合二为一，就需要巧妙的储物解决方案。模块式储物、沙发床和带有隐藏空间的沙发能帮你清理空间，让你能够伸展放松。</p>",
+    "如果你将客厅和卧室合二为一，就需要巧妙的储物解决方案。模块式储物、沙发床和带有隐藏空间的沙发能帮你清理空间，让你能够伸展放松。",
     "拥有出色储物空间的24小时生活空间",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "拥有出色储物空间的24小时生活空间",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/3c/59/3c59e2b6b1e2765ec2330a769dab424f.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -39,6 +49,26 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "BURVIK 伯恩维克",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/burvik-bo-en-wei-ke-bian-zhuo-hei-se__0551236_pe658472_s4.jpg",
+     "href": "/cn/zh/p/burvik-bo-en-wei-ke-bian-zhuo-hei-se-00340387/"
+    },
+    {
+     "title": "SCHOTTIS 胡提斯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/schottis-hu-ti-si-zhe-guang-bai-ye-lian-shen-hui-se__0602864_pe680566_s4.jpg",
+     "href": "/cn/zh/p/schottis-hu-ti-si-zhe-guang-bai-ye-lian-shen-hui-se-70369508/"
+    },
+    {
+     "title": "LOHALS 鲁哈斯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lohals-lu-ha-si-ping-zhi-di-tan-zi-ran-se__0280221_pe419173_s4.jpg",
+     "href": "/cn/zh/p/lohals-lu-ha-si-ping-zhi-di-tan-zi-ran-se-30277394/"
+    }
+   ],
    "settings": null
   }
  ]

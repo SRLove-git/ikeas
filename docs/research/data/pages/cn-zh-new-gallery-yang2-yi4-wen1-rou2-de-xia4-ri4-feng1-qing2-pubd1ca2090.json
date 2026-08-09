@@ -11,7 +11,7 @@
    "title": "洋溢温柔的夏日风情",
    "texts": [
     "摆放着青绿色 GRACIÖS 格拉希思 纺织品系列的卧室，包括一张被套、有图案的地毯和一个圆形丝绒靠垫。",
-    "<p>全新GRACI&Ouml;S 格拉希思 系列纺织品活力四溢，专为少年设计。摇曳的棕榈树图案、照片印花和图案混搭，洋溢夏日气息。</p>",
+    "全新GRACIöS 格拉希思 系列纺织品活力四溢，专为少年设计。摇曳的棕榈树图案、照片印花和图案混搭，洋溢夏日气息。",
     "洋溢温柔的夏日风情",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "洋溢温柔的夏日风情",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/72/20/7220950129dce2fb0c56e8acd7e6c4e1.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -50,6 +60,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一间明亮的少年卧室里，摆放着活力四溢的GRACIÖS 格拉希思 纺织品系列，包括被套、靠垫和地毯。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/2c37b302b63f6d22/original/PH168515.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -76,6 +96,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一系列青绿色和粉红色GRACIÖS 格拉希思 垫套、靠垫和枕套摆放在床上。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/158fae78350c5198/original/PH168537-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -102,6 +132,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "GRACIÖS 格拉希思 地毯的蓝色底色上印有粉色和绿色的大圆形图案，上面摆放着一本书和一个靠垫。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/518f9c59082a429d/original/PH168513-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -117,6 +157,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

@@ -11,7 +11,7 @@
    "title": "功能性装饰品",
    "texts": [
     "产品特写：一个蓝色OMFÅNG 邬姆芳恩 花瓶静立在一张边桌上，瓶中插着几枝绿色花茎。",
-    "<p>本月我们推出了一些趣味盎然的盛具类家居装饰品。比如能为你的绿色植物换上新家的彩色泼墨OMFÅNG 邬姆芳恩 花盆和花瓶。你还可以使用LÄTTSÅLD 莱特索德 花瓶/玻璃水瓶两件套，为你的桌面增添时尚的企鹅元素。</p>",
+    "本月我们推出了一些趣味盎然的盛具类家居装饰品。比如能为你的绿色植物换上新家的彩色泼墨OMFÅNG 邬姆芳恩 花盆和花瓶。你还可以使用LÄTTSÅLD 莱特索德 花瓶/玻璃水瓶两件套，为你的桌面增添时尚的企鹅元素。",
     "功能性装饰品",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "功能性装饰品",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/33/57/33575a8c6ff762af7a1ba811a9b41cab.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -51,6 +61,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "一张置于储物柜前的桌子上，放着装满绿植和鲜花的彩色OMFÅNG 邬姆芳恩 花盆和花瓶。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/eb/cf/ebcf587832a4c3e35a2173b98bfb7500.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "一张桌子上立着大小不一的LÄTTSÅLD 莱特索德 企鹅造型花瓶/玻璃水瓶，大一点的花瓶中还插着一枝鲜花。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/35/bb/35bb0cf7460fdbd7e4dbbd41d7bd8191.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "为你的绿植增色添彩 将你的绿植放入粉色、暗红和蓝色的色彩醒目的OMFÅNG 邬姆芳恩 花盆和花瓶中，让这些绿植焕然一新。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/eb/cf/ebcf587832a4c3e35a2173b98bfb7500.jpg",
+     "href": null
+    },
+    {
+     "heading": "把企鹅元素带回家 让企鹅成为你家居装饰的一部分：LÄTTSÅLD 莱特索德 花瓶/玻璃水瓶两件套既可以盛放饮料也能插入鲜花，给家增添一些时尚元素。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/35/bb/35bb0cf7460fdbd7e4dbbd41d7bd8191.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   }
  ]

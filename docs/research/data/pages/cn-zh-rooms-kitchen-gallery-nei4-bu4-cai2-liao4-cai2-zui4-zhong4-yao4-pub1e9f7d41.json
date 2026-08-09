@@ -11,7 +11,7 @@
    "title": "内部材料才最重要",
    "texts": [
     "选择以回收塑料瓶和木材制成的宜家 KUNGSBACKA 孔巴卡 黑色厨房柜门，打造更为环保的厨房。",
-    "<p>用心生活，从厨房开始。在一个注重节约资源和重复利用材料的家里，连厨房柜门都是以回收木材和回收PET瓶制成的。</p>",
+    "用心生活，从厨房开始。在一个注重节约资源和重复利用材料的家里，连厨房柜门都是以回收木材和回收PET瓶制成的。",
     "内部材料才最重要",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "内部材料才最重要",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e6/9c/e69c77a126feafdec42e96d1054446b5.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -39,6 +49,38 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "GAMLESJÖN 甘勒逊",
+     "text": "¥899",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/gamlesjoen-gan-le-xun-chu-fang-long-tou-hei-se-la-si-jin-shu__0756688_pe749040_s4.jpg",
+     "href": "/cn/zh/p/gamlesjoen-gan-le-xun-chu-fang-long-tou-hei-se-la-si-jin-shu-00341674/"
+    },
+    {
+     "title": "OMAR 奥马尔",
+     "text": "¥398",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/omar-ao-ma-er-yi-duan-ge-ban-zu-he__0626066_pe692566_s4.jpg",
+     "href": "/cn/zh/p/omar-ao-ma-er-yi-duan-ge-ban-zu-he-99872918/"
+    },
+    {
+     "title": "BEKVÄM 贝卡姆",
+     "text": "¥299",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/bekvaem-bei-qia-mu-ta-jiao-deng-shan-mao-ju__0728267_pe736148_s4.jpg",
+     "href": "/cn/zh/p/bekvaem-bei-qia-mu-ta-jiao-deng-shan-mao-ju-70190412/"
+    },
+    {
+     "title": "KUNGSFORS 康福斯",
+     "text": "¥129",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kungsfors-kang-fu-si-ci-xing-dao-jia-bu-xiu-gang__0712554_pe728910_s4.jpg",
+     "href": "/cn/zh/p/kungsfors-kang-fu-si-ci-xing-dao-jia-bu-xiu-gang-10334927/"
+    },
+    {
+     "title": "KUNGSFORS 康福斯",
+     "text": "¥34.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kungsfors-kang-fu-si-gua-gan-bu-xiu-gang__0712553_pe728909_s4.jpg",
+     "href": "/cn/zh/p/kungsfors-kang-fu-si-gua-gan-bu-xiu-gang-70334934/"
+    }
+   ],
    "settings": null
   }
  ]

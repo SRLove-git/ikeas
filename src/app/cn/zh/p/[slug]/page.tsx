@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { catalogCategories, channelCategories } from "@/data/catalog";
+import { catalogData } from "@/data/catalog";
 import {
   findProductBySlug,
   formatPrice,
@@ -14,10 +14,11 @@ export const dynamicParams = false;
 
 export function generateStaticParams() {
   const slugs = new Set<string>();
+  const { catalogCategories, channelCategories } = catalogData();
   for (const category of [...catalogCategories, ...channelCategories]) {
     for (const product of category.products) slugs.add(product.slug);
   }
-  for (const product of allProducts) slugs.add(product.slug);
+  for (const product of allProducts()) slugs.add(product.slug);
   return [...slugs].map((slug) => ({ slug }));
 }
 

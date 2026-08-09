@@ -10,18 +10,22 @@ import {
 } from "@/components/icons";
 import { MegaMenu } from "@/components/MegaMenu";
 import { MenuPanel } from "@/components/MenuPanel";
-import { menuPanels } from "@/data/menu-panels";
-import { categories as allCategories } from "@/data/categories";
 import { useAuth } from "@/lib/auth";
+import type { MenuPanel as MenuPanelData } from "@/data/menu-panels";
+import type { Category } from "@/data/categories";
 
 interface HeaderProps {
   menuItems: { label: string; href: string; hasMegaMenu?: boolean }[];
   searchHints: string[];
+  menuPanels: MenuPanelData[];
+  categories: Category[];
 }
 
 export function Header({
   menuItems,
   searchHints,
+  menuPanels,
+  categories,
 }: HeaderProps) {
   const [openMenu, setOpenMenu] = useState<string | null>(null);
   const [openPanel, setOpenPanel] = useState<string | null>(null);
@@ -71,7 +75,7 @@ export function Header({
                         <img
                           className="disable-event"
                           src="/images/logo/logo.svg"
-                          alt="IKEA 宜家家居"
+                          alt="BUZUD"
                           width={100}
                           height={40}
                         />
@@ -132,10 +136,10 @@ export function Header({
                               className="header-action-btn header-action-btn--login"
                             >
                               <UserIcon width={24} height={24} />
-                              <span>登录宜家账号</span>
+                              <span>登录 BUZUD 账号</span>
                             </Link>
                           )}
-                          <div className="i-tooltip__body">登录宜家账号</div>
+                          <div className="i-tooltip__body">登录 BUZUD 账号</div>
                         </span>
                       </span>
                       <span className="i-tooltip i-tooltip--bottom">
@@ -216,7 +220,7 @@ export function Header({
                   >
                     <div className="basic-content">
                       <div className="basic-title">
-                        <span>下载APP</span>
+                        <span>热门推荐</span>
                       </div>
                       {openAppPromo ? (
                         <div className="detail-info-container">
@@ -229,13 +233,13 @@ export function Header({
                             {/* eslint-disable-next-line @next/next/no-img-element */}
                             <img
                               className="bottom-image"
-                              src="/images/cms/20210303.png"
-                              alt="宜家APP下载二维码"
+                              src="/images/products/buzud-8885020712582.jpg"
+                              alt="BUZUD Vibrance 智能手表"
                             />
                             <div className="detail-desc">
-                              扫码下载宜家APP
+                              BUZUD Vibrance 智能手表
                               <br />
-                              手机购物更方便
+                              健康监测一手掌握
                             </div>
                           </div>
                         </div>
@@ -251,7 +255,7 @@ export function Header({
               className="mega-menu-layer"
               onMouseLeave={() => setOpenMenu(null)}
             >
-              <MegaMenu categories={allCategories} />
+              <MegaMenu categories={categories} />
             </div>
           ) : null}
           {activePanel ? (

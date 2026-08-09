@@ -11,7 +11,7 @@
    "title": "美好的淋浴体验",
    "texts": [
     "宜家 BROGRUND 布鲁格隆德 镀铬花洒外形时尚，具有省水节能功能。",
-    "<p>查看我们实惠的省水节能沐浴用品，以非凡涉及打造持久品质，为所有家庭成员提供美妙的淋浴体验。</p>",
+    "查看我们实惠的省水节能沐浴用品，以非凡涉及打造持久品质，为所有家庭成员提供美妙的淋浴体验。",
     "美好的淋浴体验",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "美好的淋浴体验",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/13/94/1394a9d9b7745802c61569ae72e285d1.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,16 +54,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "宜家 VALLAMOSSE 瓦拉莫瑟 镀铬手持花洒外形时尚，具有省水节能功能。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/4b/b7/4bb7fe4b581cc4c931fed3a70f310e2c.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>所有产品设计风格分为传统和现代两大类，有各种价位可选，但所有产品都选用高品质材料制作而成，以确保在使用多年后依然可提供出色沐浴体验，因此每一款产品都具有极高的性价比。</p>"
+    "所有产品设计风格分为传统和现代两大类，有各种价位可选，但所有产品都选用高品质材料制作而成，以确保在使用多年后依然可提供出色沐浴体验，因此每一款产品都具有极高的性价比。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -66,6 +88,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "BROGRUND 布鲁格隆德",
+     "text": "¥79.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/brogrund-bu-lu-ge-long-de-mao-jin-gan-bu-xiu-gang__0710452_pe727569_s4.jpg",
+     "href": "/cn/zh/p/brogrund-bu-lu-ge-long-de-mao-jin-gan-bu-xiu-gang-00328535/"
+    },
+    {
+     "title": "VALLAMOSSE 瓦拉莫瑟",
+     "text": "¥49.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vallamosse-wa-la-mo-se-dan-pen-sa-mo-shi-shou-chi-hua-sa-du-ge__0755001_pe748207_s4.jpg",
+     "href": "/cn/zh/p/vallamosse-wa-la-mo-se-dan-pen-sa-mo-shi-shou-chi-hua-sa-du-ge-00349651/"
+    }
+   ],
    "settings": null
   }
  ]

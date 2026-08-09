@@ -14,16 +14,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>巧妙储存食品有助于减少浪费、节省时间。由此我们还能节约开支，好购买更多必需品，更好地享受生活。</p>"
+    "巧妙储存食品有助于减少浪费、节省时间。由此我们还能节约开支，好购买更多必需品，更好地享受生活。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -42,6 +46,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/60/18/6018df650fed0b44873cb8efa9a3d318.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -60,6 +74,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/17/bc/17bc40bbd29506898cc9e9316609034e.gif",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -78,6 +102,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/35/7a/357a22e14728b7ae12fc802f1216fb07.gif",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -98,6 +132,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -116,26 +152,40 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b1/e2/b1e2a7b4a2f2e045bd963eac5f056671.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>您可以选择两种材质的：玻璃或不含双酚A（BPA）的塑料。同时还有不同尺寸供您选择。</p>"
+    "您可以选择两种材质的：玻璃或不含双酚A（BPA）的塑料。同时还有不同尺寸供您选择。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>玻璃保鲜盒</strong></h2>"
+    "玻璃保鲜盒"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -154,6 +204,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/99/db/99dbbd9080c72456ceb70a18443c38fc.gif",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -172,6 +232,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/14/9b/149b1865c19bd064d7a6b5e927a10685.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -184,6 +254,14 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "IKEA 365+",
+     "text": "¥34.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ikea-365-fu-gai-shi-pin-he-chang-fang-xing-bo-li-su-liao__0594322_pe675641_s4.jpg",
+     "href": "/cn/zh/p/ikea-365-fu-gai-shi-pin-he-chang-fang-xing-bo-li-su-liao-69269072/"
+    }
+   ],
    "settings": null
   },
   {
@@ -204,16 +282,20 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>塑料保鲜盒</strong></h2>"
+    "塑料保鲜盒"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -232,6 +314,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/58/af/58af2a0fe96698840c54ae976767a12f.gif",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -250,6 +342,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/9c/1d/9c1dbaa825b07b4dd103ff5c784c7c39.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -262,6 +364,14 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "IKEA 365+",
+     "text": "¥22.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ikea-365-fu-gai-shi-pin-he-zheng-fang-xing-su-liao__0594326_pe675651_s4.jpg",
+     "href": "/cn/zh/p/ikea-365-fu-gai-shi-pin-he-zheng-fang-xing-su-liao-69269109/"
+    }
+   ],
    "settings": null
   },
   {
@@ -282,6 +392,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -300,6 +412,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/09/5f/095f561947e40978493c080d4ff9c121.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -314,6 +436,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   },
   {
@@ -329,6 +452,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -347,6 +472,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/cd/e2/cde22fb111243a3662d2d062805f0820.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -359,6 +494,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

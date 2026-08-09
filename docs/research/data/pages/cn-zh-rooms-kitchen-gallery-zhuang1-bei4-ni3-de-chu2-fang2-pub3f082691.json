@@ -11,7 +11,7 @@
    "title": "装备你的厨房",
    "texts": [
     "在你的小厨房里摆放宜家 MELLTORP 麦托 白色桌子和 SUNNERSTA 苏纳思 独立橱柜系列中实用灵活的家具。",
-    "<p>谁说地面空间不足，就肯定无法拥有一间巧妙的厨房？这间厨房虽小，却五脏俱全。（别忘了还有便携电磁炉。）</p>",
+    "谁说地面空间不足，就肯定无法拥有一间巧妙的厨房？这间厨房虽小，却五脏俱全。（别忘了还有便携电磁炉。）",
     "装备你的厨房",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "装备你的厨房",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d8/03/d803197ccf9a4e7f42bdef6550d1abfb.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -39,6 +49,32 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "SUNNERSTA 苏纳思",
+     "text": "¥699",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/sunnersta-su-na-si-du-li-chu-gui__0734294_pe739414_s4.jpg",
+     "href": "/cn/zh/p/sunnersta-su-na-si-du-li-chu-gui-90303291/"
+    },
+    {
+     "title": "SORTERA 索特拉",
+     "text": "¥149",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/sortera-suo-te-la-dai-gai-la-ji-fen-lei-xiang-bai-se__0711172_pe728041_s4.jpg",
+     "href": "/cn/zh/p/sortera-suo-te-la-dai-gai-la-ji-fen-lei-xiang-bai-se-90255898/"
+    },
+    {
+     "title": "FLUNDRA 夫伦加",
+     "text": "¥19.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/flundra-fu-lun-jia-can-ju-lu-gan-jia-bai-se__0712687_pe728972_s4.jpg",
+     "href": "/cn/zh/p/flundra-fu-lun-jia-can-ju-lu-gan-jia-bai-se-20176951/"
+    },
+    {
+     "title": "TACKAN 塔肯",
+     "text": "¥4.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/tackan-ta-ken-zao-ye-qi-bai-se__0711735_pe728420_s4.jpg",
+     "href": "/cn/zh/p/tackan-ta-ken-zao-ye-qi-bai-se-70322304/"
+    }
+   ],
    "settings": null
   }
  ]

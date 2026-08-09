@@ -11,7 +11,7 @@
    "title": "是时候尝试 STOLPA 斯托尔帕 钟了！",
    "texts": [
     "不同大小的白色和黄色时钟。",
-    "<p>STOLPA 斯托尔帕 挂钟和台钟由Henrik Preutz设计，造型充满趣味，内置声音和触控传感器，记录时间的同时还会发光。</p>",
+    "STOLPA 斯托尔帕 挂钟和台钟由Henrik Preutz设计，造型充满趣味，内置声音和触控传感器，记录时间的同时还会发光。",
     "是时候尝试 STOLPA 斯托尔帕 钟了！",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "是时候尝试 STOLPA 斯托尔帕 钟了！",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a4/c8/a4c85c53dd85071cb4bc677bbe9ca0f2.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,16 +54,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "白色台面上摆放着一只小小的黄色台钟。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/36/ab/36abe30af71645100608a097b5b2b2b0.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>巧妙的触控设计</strong>&nbsp; &nbsp; &nbsp;如果你轻拍一下黄色 STOLPA 斯托尔帕 台钟，台钟外侧的圆环就会亮起几秒，非常适合摆在床边。配备静音石英机芯，不必担心恼人的滴答声响影响睡眠。</p>"
+    "巧妙的触控设计 如果你轻拍一下黄色 STOLPA 斯托尔帕 台钟，台钟外侧的圆环就会亮起几秒，非常适合摆在床边。配备静音石英机芯，不必担心恼人的滴答声响影响睡眠。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -74,16 +96,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "动图：拍手，挂钟亮起。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b4/88/b488688c857a93152a63d6d6c642194b.gif",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>可感应声响&nbsp;</strong> &nbsp; &nbsp; &nbsp;白色的 STOLPA 斯托尔帕 挂钟则内置了声音传感器，只要有声响，比如拍手声，灯光就会亮起。此外，内置的光线传感器可以调节光线，延长电池寿命。</p>"
+    "可感应声响 白色的 STOLPA 斯托尔帕 挂钟则内置了声音传感器，只要有声响，比如拍手声，灯光就会亮起。此外，内置的光线传感器可以调节光线，延长电池寿命。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -103,26 +137,40 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "宜家设计师Henrik Preutz的照片。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a9/a6/a9a6ef6b9a97de477217fe64e7d3fd8b.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>贴心设计&nbsp;</strong> &nbsp; &nbsp; Henrik Preutz自2003年起即在宜家担任设计师，他对如何打造适合日常家居生活的优质产品很有心得。&ldquo;我真的很喜欢挑战设计低价产品，因为这样我就得努力去想使用什么材料才能打造出可持续、经久耐用的优质产品。&rdquo;</p>"
+    "贴心设计 Henrik Preutz自2003年起即在宜家担任设计师，他对如何打造适合日常家居生活的优质产品很有心得。“我真的很喜欢挑战设计低价产品，因为这样我就得努力去想使用什么材料才能打造出可持续、经久耐用的优质产品。”"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>现在即可前往商场购买 STOLPA 斯托尔帕 钟。</p>"
+    "现在即可前往商场购买 STOLPA 斯托尔帕 钟。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

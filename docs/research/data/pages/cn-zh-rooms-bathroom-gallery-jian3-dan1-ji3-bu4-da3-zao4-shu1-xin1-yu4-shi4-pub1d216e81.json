@@ -11,7 +11,7 @@
    "title": "简单几步，打造舒心浴室",
    "texts": [
     "宜家 HEMNES/RÄTTVIKEN 汉尼斯/拉特维肯 洗脸池柜和 HAMNSKÄR 汉斯卡 洗脸池龙头为浴室打造清洁美丽的外观，内部具有大储物空间。",
-    "<p>只需采用合适的照明、音乐、悦目的装饰和柔和的色彩，即可在你的浴室打造SPA一般的感受。</p>",
+    "只需采用合适的照明、音乐、悦目的装饰和柔和的色彩，即可在你的浴室打造SPA一般的感受。",
     "简单几步，打造舒心浴室",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "简单几步，打造舒心浴室",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a3/02/a3024bcb11886bccb1938ccf4198bdd6.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -39,6 +49,26 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "HEMNES 汉尼斯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/hemnes-han-ni-si-shuang-men-jing-gui-bai-se__1082337_pe858627_s4.jpg",
+     "href": "/cn/zh/p/hemnes-han-ni-si-shuang-men-jing-gui-bai-se-10217674/"
+    },
+    {
+     "title": "HEMNES 汉尼斯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/hemnes-han-ni-si-gao-gui-dai-jing-men-bai-se__0628130_pe693620_s4.jpg",
+     "href": "/cn/zh/p/hemnes-han-ni-si-gao-gui-dai-jing-men-bai-se-10217669/"
+    },
+    {
+     "title": "TÅSJÖN 托逊",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/tasjoen-tuo-xun-tuo-xie-hui-se__0668751_pe714668_s4.jpg",
+     "href": "/cn/zh/p/tasjoen-tuo-xun-tuo-xie-hui-se-20391936/"
+    }
+   ],
    "settings": null
   }
  ]

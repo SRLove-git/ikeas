@@ -11,7 +11,7 @@
    "title": "令人尽情放松的客厅",
    "texts": [
     "高靠背浅青绿色沙发搭配套桌，窗边的灰青绿色开放式橱柜里放着书籍、储物篮和文件。",
-    "<p>在这个平静舒适的客厅里放松享受，做你想做的事（或什么都不做！）灵活收纳的储物装置营造整洁有序的空间布局，结合舒适的沙发，甚至还可以搭配一个迷你图书馆，在小小的空间内营造愉悦的舒适感受。</p>",
+    "在这个平静舒适的客厅里放松享受，做你想做的事（或什么都不做！）灵活收纳的储物装置营造整洁有序的空间布局，结合舒适的沙发，甚至还可以搭配一个迷你图书馆，在小小的空间内营造愉悦的舒适感受。",
     "令人尽情放松的客厅",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "令人尽情放松的客厅",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/8f/60/8f60143a0b4161cf7c75ea13637c911c.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -50,6 +60,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "青苔绿的墙边放着淡青绿色的高背沙发，搭配一面圆镜，深褐色靠垫和一盏黑色阅读灯。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/22d833b77a39710f/original/PH176253-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -76,6 +96,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "玻璃和黑色金属套桌，下层放着游戏、储物篮和储物盒，上层放着爆米花、饼干和饮品。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/4ad36ea0007d404a/original/PH176254-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -102,6 +132,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一张青绿色的沙发，上面放着褐色和米色靠垫，铺着米色地毯，搭配米色和橙色的窗帘，还有一面大圆镜。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/385a5491b4c6b92b/original/PH176257-crop003.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -128,6 +168,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "墙上挂着黑色、黄色、米色、白色和蓝色的五个立方体搁架单元，架上摆着装饰品。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/1505ed90303eb9c5/original/PH176256-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -154,6 +204,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "青苔绿墙面上装着黑色电视。下方安装了一个白色电视柜，上面放着白色的音箱、游戏、储物盒和装饰品。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/7d1eec23db4b5f3e/original/PH176255-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -180,6 +240,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "阅读角放着一张黄色的扶手椅，一盏黑色的阅读灯，窗边的灰青绿色储物柜里放着书籍和储物盒。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/2643b2e0e9f75e86/original/PH176258-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -198,6 +268,27 @@
     {
      "href": "/cat/fu001",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "为你提供所需一切，打造梦想中的客厅",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/fu001",
+     "backgroundColor": null
+    },
+    {
+     "title": "VITTSJÖ 维特索",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vittsjoe-wei-te-suo-tao-zhuo-2-jian-tao-hei-he-se-bo-li__1419821_pe977132_s4.jpg",
+     "href": "/cn/zh/p/vittsjoe-wei-te-suo-tao-zhuo-2-jian-tao-hei-he-se-bo-li-60215333/"
+    },
+    {
+     "title": "SANDARED 桑德利",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/sandared-sang-de-li-ai-deng-mi-huang-se__0560902_pe662686_s4.jpg",
+     "href": "/cn/zh/p/sandared-sang-de-li-ai-deng-mi-huang-se-70385315/"
     }
    ],
    "settings": null
@@ -220,6 +311,27 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "时尚混搭纺织品，打造和谐外观",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/tl001",
+     "backgroundColor": null
+    },
+    {
+     "title": "HEDSÄV 赫塞",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/hedsaev-he-sai-dian-tao-hui-bai__0919068_pe786563_s4.jpg",
+     "href": "/cn/zh/p/hedsaev-he-sai-dian-tao-hui-bai-90485578/"
+    },
+    {
+     "title": "SANDVEDEL 桑威德",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/sandvedel-sang-wei-de-juan-lian-mi-huang-se__0812603_pe772057_s4.jpg",
+     "href": "/cn/zh/p/sandvedel-sang-wei-de-juan-lian-mi-huang-se-30469784/"
+    }
+   ],
    "settings": null
   },
   {
@@ -235,6 +347,38 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "JAKOBSBYN 雅克布斯比",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/jakobsbyn-ya-ke-bu-si-bi-diao-deng-zhao-tou-ming-bo-li__0683771_pe720859_s4.jpg",
+     "href": "/cn/zh/p/jakobsbyn-ya-ke-bu-si-bi-diao-deng-zhao-tou-ming-bo-li-10382433/"
+    },
+    {
+     "title": "SUNNEBY 松尼比",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/sunneby-song-ni-bi-deng-xian-zhuang-zhi-hei-se-fang-zhi-pin__0626518_pe692832_s4.jpg",
+     "href": "/cn/zh/p/sunneby-song-ni-bi-deng-xian-zhuang-zhi-hei-se-fang-zhi-pin-70420253/"
+    },
+    {
+     "title": "LINDBYN 林德比恩",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lindbyn-lin-de-bi-en-jing-zi-hei-se__0798827_pe767399_s4.jpg",
+     "href": "/cn/zh/p/lindbyn-lin-de-bi-en-jing-zi-hei-se-40458619/"
+    },
+    {
+     "title": "SMARRA 斯马拉",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/smarra-si-ma-la-fu-gai-chu-wu-he-zi-ran-se__0713120_pe729269_s4.jpg",
+     "href": "/cn/zh/p/smarra-si-ma-la-fu-gai-chu-wu-he-zi-ran-se-40348065/"
+    },
+    {
+     "title": "HANDSKALAD 汉德卡拉",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/handskalad-han-de-qia-la-zhuang-shi-shou-ben-se__0628918_pe694107_s4.jpg",
+     "href": "/cn/zh/p/handskalad-han-de-qia-la-zhuang-shi-shou-ben-se-60463342/"
+    }
+   ],
    "settings": null
   }
  ]

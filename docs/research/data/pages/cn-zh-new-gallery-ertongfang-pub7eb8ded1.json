@@ -11,7 +11,7 @@
    "title": "儿童房里的新朋友",
    "texts": [
     "认识一下宜家的季节性毛绒玩具，从可爱的狗狗、野生大象，到好玩的足球毛绒玩具，所有产品均通过最高儿童安全标准测试。",
-    "<p>认识一下我们为儿童房准备的新朋友吧！<br /><br />在本季的毛绒玩具中，我们推出了几款可放心拥抱的狗狗玩具，比如这只可爱的西伯利亚爱斯基摩犬。</p>",
+    "认识一下我们为儿童房准备的新朋友吧！ 在本季的毛绒玩具中，我们推出了几款可放心拥抱的狗狗玩具，比如这只可爱的西伯利亚爱斯基摩犬。",
     "儿童房里的新朋友",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "儿童房里的新朋友",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/db/c4/dbc43091db6bb6685e63938998327cf3.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,16 +54,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "特写：宜家 LIVLIG 里夫利 西伯利亚爱斯基摩犬造型的毛绒玩具，蓝色的刺绣眼睛看起来萌态可掬。我们在所有毛绒玩具上使用刺绣眼睛，让孩子们可以安全地拥抱它们，同时也让玩具更有特色。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/c3/77/c377680fb199c9b2273224cef3690268.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>这些惹人喜爱的毛绒玩具长着一双双刺绣眼睛，不仅对孩子们更加安全，也让玩具更有特色。</p>"
+    "这些惹人喜爱的毛绒玩具长着一双双刺绣眼睛，不仅对孩子们更加安全，也让玩具更有特色。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -75,16 +97,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "宜家 LURIGA 鲁里加 LED夜灯采用浣熊和刺猬造型，能为孩子们驱赶夜间的可怕怪兽。挤压一下，浣熊的心脏和刺猬便会以舒缓的频率开始搏动闪烁。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d9/42/d9428288fb07f28b5fea1f9a61d4435f.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>用 LURIGA 鲁里加 LED夜灯赶走怪兽和噩梦。夜灯采用浣熊和刺猬造型，可充电，便于携带，按压时会出现奇妙的现象。</p>"
+    "用 LURIGA 鲁里加 LED夜灯赶走怪兽和噩梦。夜灯采用浣熊和刺猬造型，可充电，便于携带，按压时会出现奇妙的现象。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -98,6 +132,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

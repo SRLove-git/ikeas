@@ -11,7 +11,7 @@
    "title": "专为婴儿打造的趣味玩具",
    "texts": [
     "利用宜家 KLAPPA 克拉帕 玩具系列，帮助孩子收获成长。该系列包括婴儿游戏架、摇摇铃、转转乐、儿童游戏垫和音乐玩具等。以动物和自然为主题进行设计，同时饰以亮丽的颜色。",
-    "<p>宜家全新 KLAPPA 克拉帕 婴儿玩具系列利用颜色、外形和声音，促进宝宝的感官发育，十分柔软、有趣，并能激发宝宝的兴趣。</p>",
+    "宜家全新 KLAPPA 克拉帕 婴儿玩具系列利用颜色、外形和声音，促进宝宝的感官发育，十分柔软、有趣，并能激发宝宝的兴趣。",
     "专为婴儿打造的趣味玩具",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "专为婴儿打造的趣味玩具",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/fd/66/fd6636d345b307c853dade7f71a51a24.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -56,6 +66,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "利用宜家 KLAPPA 克拉帕 婴儿游戏架，让宝宝在柔软、安全的森林中学习成长。该产品以绿色为主，悬挂着瓢虫、青蛙、蝴蝶和其他玩具，这些玩具的视线向下可与宝宝的双眼对视。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/32/49/32499064f34ef1b4da8c36cebace58c4.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "利用宜家 KLAPPA 克拉帕 海底主题儿童游戏垫，让宝宝在游戏中成长。特写：浅蓝色绗缝方格以及凸出的附加物，例如：深蓝色鱼鳍和橘黄色章鱼。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/cf/f0/cff0b4eb5d518f4ec50a28bf1765ff37.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "利用宜家 KLAPPA 克拉帕 太空主题多彩转转乐，帮助宝宝成长发育。圆形转转乐的下方饰有星星和圆点，还有火箭、微笑的月亮、行星等正面朝下的装饰。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/53/5c/535c8ad6d216cc1f690521f7fa1ce05d.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "比如，在婴儿游戏架中玩耍的婴儿，他们抓住悬挂的瓢虫或将小手伸向蘑菇时，可以促进眼手协调。",
+     "image": "https://file.app.ikea.cn/images/32/49/32499064f34ef1b4da8c36cebace58c4.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "KLAPPA 克拉帕 儿童游戏垫就像一片海底世界，采用不同的图案、声音和材料，可激活与刺激婴儿的感官和运动技能。",
+     "image": "https://file.app.ikea.cn/images/cf/f0/cff0b4eb5d518f4ec50a28bf1765ff37.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "KLAPPA 克拉帕 转转乐的形状和图案正面朝下，可以迎接躺着的婴儿向上观看的目光。",
+     "image": "https://file.app.ikea.cn/images/53/5c/535c8ad6d216cc1f690521f7fa1ce05d.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -71,6 +125,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Page Title-"
    }
@@ -22,10 +24,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>使用厨房操作台面设计工具，你可以个性化设计自己的专属厨房，还能估算整体价格。先选择台面材质，再设定切割形状、磨边等，最后添加灶台和水槽的开孔。简单又有趣，快来试下吧！</p>"
+    "使用厨房操作台面设计工具，你可以个性化设计自己的专属厨房，还能估算整体价格。先选择台面材质，再设定切割形状、磨边等，最后添加灶台和水槽的开孔。简单又有趣，快来试下吧！"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -41,6 +45,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Planner Tool-"
    }

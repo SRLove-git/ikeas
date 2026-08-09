@@ -11,7 +11,7 @@
    "title": "柔软的纺织品伴你入梦",
    "texts": [
     "TOVSIPPA 托西帕 被套和枕套采用了优美的装饰图案，一眼看去，仿佛夏花盛开的田野。用这条花卉图案休闲毯给你的卧室增添一点清新、柔和的感觉。",
-    "<p>本月的新纺织品包括一款被套和休闲毯，请你歇一歇，美美地睡上一觉。</p>",
+    "本月的新纺织品包括一款被套和休闲毯，请你歇一歇，美美地睡上一觉。",
     "柔软的纺织品伴你入梦",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "柔软的纺织品伴你入梦",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/4e/b1/4eb1b9885d173ffd55cf6c1a7a2c5506.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,16 +54,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "TOVSIPPA 托西帕 被套和枕套采用了优美的装饰图案，一眼看去，仿佛夏花盛开的田野。用这条花卉图案休闲毯给你的卧室增添一点清新、柔和的感觉。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/af/0b/af0b94184bf77b79af92e09839224550.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>TOVSIPPA 托西帕 被套采用了优美的装饰图案，一眼看去，仿佛夏花盛开的田野。花卉印花趣意盎然，能给卧室带来宁静悠然的感觉。被套采用来自更可持续来源的纯棉制成，可为卧室增添一丝柔和之感。</p>"
+    "TOVSIPPA 托西帕 被套采用了优美的装饰图案，一眼看去，仿佛夏花盛开的田野。花卉印花趣意盎然，能给卧室带来宁静悠然的感觉。被套采用来自更可持续来源的纯棉制成，可为卧室增添一丝柔和之感。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -73,16 +95,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "裹上舒适的新款 KAPASTER 卡帕斯特 休闲毯，享受美好时光。该款休闲毯采用独特的粉红色和米白色，其设计灵感来自大自然，树皮图案清晰可见。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/26/43/26437d991e8f613f8643d1f91bd49991.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>尽情享受休闲时光</strong></p>\n<p>KAPASTER 卡帕斯特 休闲毯适合裹在身上或铺在沙发上，能给家平添几分柔软温馨之感。</p>"
+    "尽情享受休闲时光 KAPASTER 卡帕斯特 休闲毯适合裹在身上或铺在沙发上，能给家平添几分柔软温馨之感。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -103,16 +137,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "裹上舒适的新款 KAPASTER 卡帕斯特 休闲毯，享受美好时光。该款休闲毯采用独特的粉红色和米白色，其设计灵感来自大自然，树皮图案清晰可见。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b9/8f/b98f6718dd9a22f40426813612f1cef6.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>KAPASTER 卡帕斯特 休闲毯饰有有粉红色和米白色图案，设计灵感源于大自然。</p>"
+    "KAPASTER 卡帕斯特 休闲毯饰有有粉红色和米白色图案，设计灵感源于大自然。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -125,6 +171,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

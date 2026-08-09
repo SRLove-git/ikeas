@@ -11,7 +11,7 @@
    "title": "触感舒适的地毯",
    "texts": [
     "每一块宜家 KRÖNGE 克朗希 地毯都是独一无二的，因为它们是由技艺精湛的织工，在良好的工作环境下手工编织而成。紧密厚实的长绒地毯可吸收噪音，看上去舒适柔软，明亮的色彩营造出舒适放松的氛围。",
-    "<p>秋天就要来了，是时候选用本月新品地毯，为地面增添温暖与格调了。</p>\n<p>比如，KR&Ouml;NGE 克朗希 地毯选用羊毛材质手工编织而成，颜色可根据季节随心搭配，能为家中地板平添明亮的色调。这款地毯源自宜家在印度和孟加拉国发起的一项计划，该计划旨在确保织工获得良好的工作环境和合理的薪资待遇。</p>",
+    "秋天就要来了，是时候选用本月新品地毯，为地面增添温暖与格调了。 比如，KRöNGE 克朗希 地毯选用羊毛材质手工编织而成，颜色可根据季节随心搭配，能为家中地板平添明亮的色调。这款地毯源自宜家在印度和孟加拉国发起的一项计划，该计划旨在确保织工获得良好的工作环境和合理的薪资待遇。",
     "触感舒适的地毯",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "触感舒适的地毯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/74/77/7477d32277589231347fa3382806dacd.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,16 +54,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "宜家 NÖDEBO 尼德布 绿色地毯采用纯新羊毛材质，洋溢着自然美感，手工编织工艺令其质地柔软，带给你极致舒适之感。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/0b/30/0b307c2786c0121b92a870f3eda1a057.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>NÖDEBO 尼德布 地毯是宜家计划的另一款地毯，有技艺精湛的工匠手工编织而成。每块 NÖDEBO 尼德布 地毯选用绿色渐变色调与纯新羊毛手工编织而成，每一张都独一无二。</p>"
+    "NÖDEBO 尼德布 地毯是宜家计划的另一款地毯，有技艺精湛的工匠手工编织而成。每块 NÖDEBO 尼德布 地毯选用绿色渐变色调与纯新羊毛手工编织而成，每一张都独一无二。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -74,16 +96,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "把宜家 VINDUM 温德姆 地毯铺在地面上，踩上去柔软舒适。地毯上的长毛绒能够降低噪音，踩上去也十分舒适。有蓝色、灰色和白色三色可选。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ef/f3/eff34ca6bbf5477f9d32825f1867b187.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>VINDUM 温德姆 地毯上的长毛绒能够降低噪音，踩上去也十分舒适。有蓝色、灰色和白色三色可选，能为家中增添温暖的感觉。全新的尺寸可与现代风格的沙发搭配使用。</p>"
+    "VINDUM 温德姆 地毯上的长毛绒能够降低噪音，踩上去也十分舒适。有蓝色、灰色和白色三色可选，能为家中增添温暖的感觉。全新的尺寸可与现代风格的沙发搭配使用。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -97,6 +131,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

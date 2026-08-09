@@ -11,7 +11,7 @@
    "title": "共享居住空间",
    "texts": [
     "宜家 FLOTTEBO 弗罗特博 深灰色沙发床和 NORDMELA 诺德梅拉 蓝色梳妆台储物单元，将这间现代时尚的一居室公寓打造成适宜合住的空间。",
-    "<p>由于空间越变越小，价格越来越高，因此我们开始选择合住。凭借巧妙的储物解决方案和创新的衣物收纳方式，我们让截然不同的人们有了合住的可能。</p>",
+    "由于空间越变越小，价格越来越高，因此我们开始选择合住。凭借巧妙的储物解决方案和创新的衣物收纳方式，我们让截然不同的人们有了合住的可能。",
     "共享居住空间",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "共享居住空间",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/04/7d/047d444943bf866fec9fc4d83357ce3e.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -39,6 +49,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "BURVIK 伯恩维克",
+     "text": "¥199",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/burvik-bo-en-wei-ke-bian-zhuo-hei-se__0551236_pe658472_s4.jpg",
+     "href": "/cn/zh/p/burvik-bo-en-wei-ke-bian-zhuo-hei-se-00340387/"
+    },
+    {
+     "title": "TRETUR 加特尔",
+     "text": "¥249",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/tretur-jia-te-er-zhe-guang-juan-lian-dan-hui-se__0541310_pe653523_s4.jpg",
+     "href": "/cn/zh/p/tretur-jia-te-er-zhe-guang-juan-lian-dan-hui-se-80380478/"
+    }
+   ],
    "settings": null
   }
  ]

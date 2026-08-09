@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "8fa72df918874099b3900bfca4742294"
    }
@@ -22,10 +24,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>趁着美好春光，不妨好好整理一下房间，重新调整状态。我们有许多美观又实用的家居收纳和用品，帮助你把家打理得井然有序，让春日生活更轻松自如。</p>"
+    "趁着美好春光，不妨好好整理一下房间，重新调整状态。我们有许多美观又实用的家居收纳和用品，帮助你把家打理得井然有序，让春日生活更轻松自如。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "33a3ede34b6a4982a91d71a6c8caf388"
    }
@@ -73,6 +77,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "衣物收纳",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220309/db6e891eef3c4ca7bfa6625364d7358c.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/st007",
+     "backgroundColor": null
+    },
+    {
+     "title": "储物搁架单元",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220309/c9e9b61069af4e4d88e6b0643bab46f3.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/11465",
+     "backgroundColor": null
+    },
+    {
+     "title": "春日气息好物",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220309/52fdd170fc3644518ffac83f7d43f5bd.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/pp003",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "卧室春光好物",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220309/00283e53719a49e0bf60ae5b36e49a89.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/tl004",
+     "backgroundColor": "#111111"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "157cf50a4394480b959f400a7b6a0f04"
    }
@@ -81,10 +116,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><a href=\"#b2be159bb63b4763ab779b54f52c4286\">衣物收纳&nbsp;</a> &nbsp;|&nbsp; &nbsp; <a href=\"#7d4ce3868c904ea9a9d489c10a591a11\">卧室焕新</a>&nbsp; &nbsp;|&nbsp; &nbsp; <a href=\"#520b76d6ef834fa592f37fb9f24cde42\">储物搁架单元</a>&nbsp; &nbsp;|&nbsp; &nbsp; <a href=\"#00ff2ca7993d4d48b12234fb30c2c211\">焕新装饰品</a></p>"
+    "衣物收纳 | 卧室焕新 | 储物搁架单元 | 焕新装饰品"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "31ccd5d97ff34f9fb598e567882f7767"
    }
@@ -114,6 +151,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个宽敞的木制搁架单元，上面放着储物盒、花盆和鞋履。前面叠放着两把椅子。",
+     "image": "https://res.app.ikea.cn/content/u/20220309/2f0e6e0fe7fa4c8694032fb2d3f02310.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20220309/a9dd3b7e8ea3403aa8f30778177a3dd3.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "b2be159bb63b4763ab779b54f52c4286"
    }
@@ -131,6 +185,38 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "HEMMAFIXARE 汉玛菲萨",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/hemmafixare-han-ma-fei-sa-chu-wu-he-zhi-wu-tiao-xing-tu-an-bai-se-hui-se__1020730_pe831963_s4.jpg",
+     "href": "/cn/zh/p/hemmafixare-han-ma-fei-sa-chu-wu-he-zhi-wu-tiao-xing-tu-an-bai-se-hui-se-00503911/"
+    },
+    {
+     "title": "HEMMAFIXARE 汉玛菲萨",
+     "text": "¥129",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/hemmafixare-han-ma-fei-sa-chu-wu-he-zhi-wu-tiao-xing-tu-an-bai-se-hui-se__1039560_pe840364_s4.jpg",
+     "href": "/cn/zh/p/hemmafixare-han-ma-fei-sa-chu-wu-he-zhi-wu-tiao-xing-tu-an-bai-se-hui-se-10503920/"
+    },
+    {
+     "title": "HEMMAFIXARE 汉玛菲萨",
+     "text": "¥79.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/hemmafixare-han-ma-fei-sa-xie-he-zhi-wu-tiao-xing-tu-an-bai-se-hui-se__1098382_pe865369_s4.jpg",
+     "href": "/cn/zh/p/hemmafixare-han-ma-fei-sa-xie-he-zhi-wu-tiao-xing-tu-an-bai-se-hui-se-50503923/"
+    },
+    {
+     "title": "HEMMAFIXARE 汉玛菲萨",
+     "text": "¥79.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/hemmafixare-han-ma-fei-sa-chu-wu-he-zhi-wu-tiao-xing-tu-an-bai-se-hui-se__1020723_pe831961_s4.jpg",
+     "href": "/cn/zh/p/hemmafixare-han-ma-fei-sa-chu-wu-he-zhi-wu-tiao-xing-tu-an-bai-se-hui-se-30503924/"
+    },
+    {
+     "title": "HEMMAFIXARE 汉玛菲萨",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/hemmafixare-han-ma-fei-sa-chu-wu-he-zhi-wu-tiao-xing-tu-an-bai-se-hui-se__1020726_pe831962_s4.jpg",
+     "href": "/cn/zh/p/hemmafixare-han-ma-fei-sa-chu-wu-he-zhi-wu-tiao-xing-tu-an-bai-se-hui-se-80503912/"
+    }
+   ],
    "settings": {
     "traceId": "54c546d5159145c7b2d7657c82e3331c"
    }
@@ -143,6 +229,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "ca27b043dd7f460698e64f363d85bfd5"
    }
@@ -171,6 +259,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一间洗衣房，JONAXEL 尤纳赛尔 白色搁架单元上放着毛巾和衣物，旁边是一台洗衣机。",
+     "image": "https://file.app.ikea.cn/cms/u/20220316/e2edfaa1bd3e4264942b82f4007e2989.gif",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "a4704e27734a49b6b3eef41eb297ae6c"
    }
@@ -188,6 +286,62 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "STUK 斯图克",
+     "text": "¥39.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/stuk-si-tu-ke-dai-ge-chu-wu-he-bai-se__0920358_pe786993_s4.jpg",
+     "href": "/cn/zh/p/stuk-si-tu-ke-dai-ge-chu-wu-he-bai-se-10474442/"
+    },
+    {
+     "title": "STUK 斯图克",
+     "text": "¥49.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/stuk-si-tu-ke-chu-wu-dai-bai-se-hui-se__0711301_pe728139_s4.jpg",
+     "href": "/cn/zh/p/stuk-si-tu-ke-chu-wu-dai-bai-se-hui-se-20309574/"
+    },
+    {
+     "title": "PÄRKLA 派克拉",
+     "text": "¥9.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/paerkla-pai-ke-la-chu-wu-dai__0716331_pe730816_s4.jpg",
+     "href": "/cn/zh/p/paerkla-pai-ke-la-chu-wu-dai-10395384/"
+    },
+    {
+     "title": "SKUBB 思库布",
+     "text": "¥49.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/skubb-si-ku-bu-chu-wu-he-6-jian-tao-bai-se__1190772_pe900309_s4.jpg",
+     "href": "/cn/zh/p/skubb-si-ku-bu-chu-wu-he-6-jian-tao-bai-se-20428553/"
+    },
+    {
+     "title": "SKUBB 思库布",
+     "text": "¥29.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/skubb-si-ku-bu-chu-wu-he-dai-ge-bai-se__0711138_pe728006_s4.jpg",
+     "href": "/cn/zh/p/skubb-si-ku-bu-chu-wu-he-dai-ge-bai-se-90185594/"
+    },
+    {
+     "title": "RASSLA 拉斯拉",
+     "text": "¥59.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/rassla-la-si-la-5-ge-chu-jian-bai-se__0622653_pe690685_s4.jpg",
+     "href": "/cn/zh/p/rassla-la-si-la-5-ge-chu-jian-bai-se-30421339/"
+    },
+    {
+     "title": "GÖRSNYGG 约诗诺",
+     "text": "¥12.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/goersnygg-yue-shi-nuo-chu-wu-dai-bai-se-tou-ming__1013439_pe829198_s4.jpg",
+     "href": "/cn/zh/p/goersnygg-yue-shi-nuo-chu-wu-dai-bai-se-tou-ming-70504196/"
+    },
+    {
+     "title": "SPANTAD 斯潘塔德",
+     "text": "¥19.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/spantad-si-pan-ta-de-zhen-kong-dai-juan-2-jian-tao-qian-lan-se__0659254_pe710560_s4.jpg",
+     "href": "/cn/zh/p/spantad-si-pan-ta-de-zhen-kong-dai-juan-2-jian-tao-qian-lan-se-30427567/"
+    },
+    {
+     "title": "KOMPLEMENT 康普蒙",
+     "text": "¥49.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/komplement-kang-pu-meng-he-dan-hui-se__0582211_pe670679_s4.jpg",
+     "href": "/cn/zh/p/komplement-kang-pu-meng-he-dan-hui-se-00405779/"
+    }
+   ],
    "settings": {
     "traceId": "54c546d5159145c7b2d7657c82e3331c"
    }
@@ -196,10 +350,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><a href=\"#b2be159bb63b4763ab779b54f52c4286\">衣物收纳&nbsp;</a> &nbsp;|&nbsp; &nbsp; <a href=\"#7d4ce3868c904ea9a9d489c10a591a11\">卧室焕新</a>&nbsp; &nbsp;|&nbsp; &nbsp; <a href=\"#520b76d6ef834fa592f37fb9f24cde42\">储物搁架单元</a>&nbsp; &nbsp;|&nbsp; &nbsp; <a href=\"#00ff2ca7993d4d48b12234fb30c2c211\">焕新装饰品</a></p>"
+    "衣物收纳 | 卧室焕新 | 储物搁架单元 | 焕新装饰品"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "31ccd5d97ff34f9fb598e567882f7767"
    }
@@ -248,6 +404,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个宽敞的木制搁架单元，上面放着储物盒、花盆和鞋履。前面叠放着两把椅子。",
+     "image": "https://res.app.ikea.cn/content/u/20220223/e6859758e2064d058b588f378ab41b5f.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "一间洗衣房，JONAXEL 尤纳赛尔 白色搁架单元上放着毛巾和衣物，旁边是一台洗衣机。",
+     "image": "https://res.app.ikea.cn/content/u/20220316/59ede53c8c354de2b8cafecdd8ff86e5.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20220316/e52fdb9bade5451782b12b0e16b6a7f2.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20220316/6d4cea3762734251a7055043f8d52481.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20220316/d1d6c219a1404df192542029eef6a353.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": "#111111"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "7d4ce3868c904ea9a9d489c10a591a11"
    }
@@ -265,6 +459,32 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "HEDSÄV 赫塞",
+     "text": "¥59.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/hedsaev-he-sai-dian-tao-hui-bai__0919068_pe786563_s4.jpg",
+     "href": "/cn/zh/p/hedsaev-he-sai-dian-tao-hui-bai-90485578/"
+    },
+    {
+     "title": "SMYCKA 思米加",
+     "text": "¥20",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/smycka-si-mi-jia-ren-zao-hua-shi-nei-hu-wai-yu-mei-ren-cheng-se__0949796_pe800013_s4.jpg",
+     "href": "/cn/zh/p/smycka-si-mi-jia-ren-zao-hua-shi-nei-hu-wai-yu-mei-ren-cheng-se-60476071/"
+    },
+    {
+     "title": "FEJKA 菲卡",
+     "text": "¥79.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/fejka-fei-qia-ren-zao-pen-zai-zhi-wu-shi-nei-hu-wai-san-wei-kui__1034053_pe840164_s4.jpg",
+     "href": "/cn/zh/p/fejka-fei-qia-ren-zao-pen-zai-zhi-wu-shi-nei-hu-wai-san-wei-kui-80508410/"
+    },
+    {
+     "title": "FEJKA 菲卡",
+     "text": "¥199",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/fejka-fei-qia-ren-zao-pen-zai-zhi-wu-shi-nei-hu-wai-gui-bei-zhu__0614197_pe686822_s4.jpg",
+     "href": "/cn/zh/p/fejka-fei-qia-ren-zao-pen-zai-zhi-wu-shi-nei-hu-wai-gui-bei-zhu-40395293/"
+    }
+   ],
    "settings": {
     "traceId": "836fbf0a358f4b688c2261ee9eb74db2"
    }
@@ -293,6 +513,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个宽敞的木制搁架单元，上面放着储物盒、花盆和鞋履。前面叠放着两把椅子。",
+     "image": "https://res.app.ikea.cn/content/u/20220316/40c65cec0162420fb2a5411957fd7180.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "32642f3e1add4e9a8b591714d6d7c77e"
    }
@@ -305,6 +535,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "fda79f00aa7d4b28a1dc746fcf317999"
    }
@@ -313,10 +545,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><a href=\"#b2be159bb63b4763ab779b54f52c4286\">衣物收纳&nbsp;</a> &nbsp;|&nbsp; &nbsp; <a href=\"#7d4ce3868c904ea9a9d489c10a591a11\">卧室焕新</a>&nbsp; &nbsp;|&nbsp; &nbsp; <a href=\"#520b76d6ef834fa592f37fb9f24cde42\">储物搁架单元</a>&nbsp; &nbsp;|&nbsp; &nbsp; <a href=\"#00ff2ca7993d4d48b12234fb30c2c211\">焕新装饰品</a></p>"
+    "衣物收纳 | 卧室焕新 | 储物搁架单元 | 焕新装饰品"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "31ccd5d97ff34f9fb598e567882f7767"
    }
@@ -350,6 +584,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20220317/32ddeb13f156445699fdc8b767b56ffa.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20220316/b1c8d39fe8e74c82a563d54da2211847.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": "#111111"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "520b76d6ef834fa592f37fb9f24cde42"
    }
@@ -370,6 +621,26 @@
     {
      "href": "/cat/16202",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "KALLAX 卡莱克",
+     "text": "¥399",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kallax-qia-lai-ke-ge-jia-dan-yuan-fang-bai-se-xiang-mu-wen__0459248_pe606048_s4.jpg",
+     "href": "/cn/zh/p/kallax-qia-lai-ke-ge-jia-dan-yuan-fang-bai-se-xiang-mu-wen-90471722/"
+    },
+    {
+     "title": "KALLAX 卡莱克",
+     "text": "¥799",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kallax-qia-lai-ke-ge-jia-dan-yuan-fang-bai-se-xiang-mu-wen__0459244_pe606045_s4.jpg",
+     "href": "/cn/zh/p/kallax-qia-lai-ke-ge-jia-dan-yuan-fang-bai-se-xiang-mu-wen-50471724/"
+    },
+    {
+     "title": "DRÖNA 德洛纳",
+     "text": "¥29.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/droena-de-luo-na-he-bai-se__0713066_pe729170_s4.jpg",
+     "href": "/cn/zh/p/droena-de-luo-na-he-bai-se-70262828/"
     }
    ],
    "settings": {
@@ -400,6 +671,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一间洗衣房，JONAXEL 尤纳赛尔 白色搁架单元上放着毛巾和衣物，旁边是一台洗衣机。",
+     "image": "https://res.app.ikea.cn/content/u/20220316/67e4ec83b5f14fc59929bb7adbbfab97.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "6be2c450395c4ec5bccdaa1186e1fdfb"
    }
@@ -417,6 +698,50 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "FEJKA 菲卡",
+     "text": "¥19.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/fejka-fei-qia-ren-zao-pen-zai-zhi-wu-shi-nei-hu-wai-xuan-gua-an-shu__0817871_pe774216_s4.jpg",
+     "href": "/cn/zh/p/fejka-fei-qia-ren-zao-pen-zai-zhi-wu-shi-nei-hu-wai-xuan-gua-an-shu-90466810/"
+    },
+    {
+     "title": "FEJKA 菲卡",
+     "text": "¥29.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/fejka-fei-qia-ren-zao-pen-zai-zhi-wu-shi-nei-hu-wai-xuan-gua-chang-chun-teng__0898086_pe782558_s4.jpg",
+     "href": "/cn/zh/p/fejka-fei-qia-ren-zao-pen-zai-zhi-wu-shi-nei-hu-wai-xuan-gua-chang-chun-teng-10461152/"
+    },
+    {
+     "title": "SJÄLSLIGT 梵思吉",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/sjaelsligt-fan-si-ji-zhuang-shi-pin-3-jian-tao-lu-se__0637480_pe698310_s4.jpg",
+     "href": "/cn/zh/p/sjaelsligt-fan-si-ji-zhuang-shi-pin-3-jian-tao-lu-se-80343297/"
+    },
+    {
+     "title": "BERÄKNA 比莱纳",
+     "text": "¥39.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/beraekna-bi-lai-na-sheng-ju-tou-ming-bo-li__0490840_pe624720_s4.jpg",
+     "href": "/cn/zh/p/beraekna-bi-lai-na-sheng-ju-tou-ming-bo-li-80329041/"
+    },
+    {
+     "title": "PÅDRAG 普德拉格",
+     "text": "¥9.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/padrag-pu-de-la-ge-hua-ping-tou-ming-bo-li__0969056_pe810681_s4.jpg",
+     "href": "/cn/zh/p/padrag-pu-de-la-ge-hua-ping-tou-ming-bo-li-50470989/"
+    },
+    {
+     "title": "VILJESTARK 维利斯塔",
+     "text": "¥3.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/viljestark-wei-li-si-ta-hua-ping-tou-ming-bo-li__0640433_pe699813_s4.jpg",
+     "href": "/cn/zh/p/viljestark-wei-li-si-ta-hua-ping-tou-ming-bo-li-80338578/"
+    },
+    {
+     "title": "NYPON 尼邦",
+     "text": "¥19.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/nypon-ni-bang-zhuang-shi-yong-hua-pen-shi-nei-hu-wai-hui-se__0641166_pe700339_s4.jpg",
+     "href": "/cn/zh/p/nypon-ni-bang-zhuang-shi-yong-hua-pen-shi-nei-hu-wai-hui-se-80395615/"
+    }
+   ],
    "settings": {
     "traceId": "c18d01367ef543ec8fc8a66a548b8967"
    }
@@ -445,6 +770,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个宽敞的木制搁架单元，上面放着储物盒、花盆和鞋履。前面叠放着两把椅子。",
+     "image": "https://res.app.ikea.cn/content/u/20220309/4d0ddb02e258482f97397bbe5ed06d28.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "31a41a72f8e34f9fbbb00b1fc21a9256"
    }
@@ -462,6 +797,50 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "BAGGEBO 巴格布",
+     "text": "¥129",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/baggebo-ba-ge-bu-ge-jia-dan-yuan-jin-shu-bai-se__0981562_pe815396_s4.jpg",
+     "href": "/cn/zh/p/baggebo-ba-ge-bu-ge-jia-dan-yuan-jin-shu-bai-se-60483873/"
+    },
+    {
+     "title": "VESKEN 维灰恩",
+     "text": "¥49.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vesken-wei-hui-en-ge-jia-dan-yuan-bai-se__0419316_pe576206_s4.jpg",
+     "href": "/cn/zh/p/vesken-wei-hui-en-ge-jia-dan-yuan-bai-se-20307867/"
+    },
+    {
+     "title": "EKENABBEN 耶纳本",
+     "text": "¥499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ekenabben-ye-na-ben-kai-fang-shi-ge-jia-dan-yuan-bai-yang-bai-se__1029351_pe835758_s4.jpg",
+     "href": "/cn/zh/p/ekenabben-ye-na-ben-kai-fang-shi-ge-jia-dan-yuan-bai-yang-bai-se-60487814/"
+    },
+    {
+     "title": "EKENABBEN 耶纳本",
+     "text": "¥299",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ekenabben-ye-na-ben-kai-fang-shi-ge-jia-dan-yuan-bai-yang-bai-se__1029426_pe835815_s4.jpg",
+     "href": "/cn/zh/p/ekenabben-ye-na-ben-kai-fang-shi-ge-jia-dan-yuan-bai-yang-bai-se-90487817/"
+    },
+    {
+     "title": "JONAXEL 尤纳赛尔",
+     "text": "¥279",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/jonaxel-you-na-sai-er-ge-jia-dan-yuan-bai-se__0678052_pe719167_s4.jpg",
+     "href": "/cn/zh/p/jonaxel-you-na-sai-er-ge-jia-dan-yuan-bai-se-70431317/"
+    },
+    {
+     "title": "LERBERG 勒伯格",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lerberg-le-bo-ge-ge-ban-gui-bai-se__0096350_pe235920_s4.jpg",
+     "href": "/cn/zh/p/lerberg-le-bo-ge-ge-ban-gui-bai-se-60168529/"
+    },
+    {
+     "title": "FJÄLLBO 耶伯",
+     "text": "¥399",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/fjaellbo-ye-bo-ge-jia-dan-yuan-hei-se__0473389_pe614540_s4.jpg",
+     "href": "/cn/zh/p/fjaellbo-ye-bo-ge-jia-dan-yuan-hei-se-90342198/"
+    }
+   ],
    "settings": {
     "traceId": "dade7761ea36458a903b247271745984"
    }
@@ -470,10 +849,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><a href=\"#b2be159bb63b4763ab779b54f52c4286\">衣物收纳&nbsp;</a> &nbsp;|&nbsp; &nbsp; <a href=\"#7d4ce3868c904ea9a9d489c10a591a11\">卧室焕新</a>&nbsp; &nbsp;|&nbsp; &nbsp; <a href=\"#520b76d6ef834fa592f37fb9f24cde42\">储物搁架单元</a>&nbsp; &nbsp;|&nbsp; &nbsp; <a href=\"#00ff2ca7993d4d48b12234fb30c2c211\">焕新装饰品</a></p>"
+    "衣物收纳 | 卧室焕新 | 储物搁架单元 | 焕新装饰品"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "31ccd5d97ff34f9fb598e567882f7767"
    }
@@ -507,6 +888,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20220309/7cb889bd24144828bd6cdfdb6f04ccf5.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20220316/8f86e6111a1e4371ad6b10c6b10024ea.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": "#111111"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "c2cdb96776784b35bf178b63d76aa469"
    }
@@ -529,6 +927,32 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "VILJESTARK 维利斯塔",
+     "text": "¥3.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/viljestark-wei-li-si-ta-hua-ping-tou-ming-bo-li__0640433_pe699813_s4.jpg",
+     "href": "/cn/zh/p/viljestark-wei-li-si-ta-hua-ping-tou-ming-bo-li-80338578/"
+    },
+    {
+     "title": "GRADVIS 格拉维斯",
+     "text": "¥39.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/gradvis-ge-la-wei-si-hua-ping-hui-se__1006835_pe825872_s4.jpg",
+     "href": "/cn/zh/p/gradvis-ge-la-wei-si-hua-ping-hui-se-60502918/"
+    },
+    {
+     "title": "KONSTFULL 孔思福",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/konstfull-kong-si-fu-hua-ping-lu-he-se__1030420_pe836274_s4.jpg",
+     "href": "/cn/zh/p/konstfull-kong-si-fu-hua-ping-lu-he-se-00511954/"
+    },
+    {
+     "title": "SOCKERÄRT 索克拉",
+     "text": "¥129",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/sockeraert-suo-ke-la-hua-ping-guan-bai-se__0091175_pe226468_s4.jpg",
+     "href": "/cn/zh/p/sockeraert-suo-ke-la-hua-ping-guan-bai-se-90191632/"
+    }
+   ],
    "settings": {
     "traceId": "f8e4bba809734acaa6569e895cbf342d"
    }
@@ -540,7 +964,7 @@
     "IMAGE",
     "wide",
     "image-text-landscape",
-    "<p>当气温渐渐转暖，我们的衣物和家居也迎来了大焕新。你或许正需要一些储物妙招，帮助你把每件冬季物品收拾妥帖，有条不紊地迎接春天。</p>",
+    "当气温渐渐转暖，我们的衣物和家居也迎来了大焕新。你或许正需要一些储物妙招，帮助你把每件冬季物品收拾妥帖，有条不紊地迎接春天。",
     "储物小妙招",
     "NO"
    ],
@@ -562,6 +986,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220309/e5569f92881b483f9bbe9d978323e832.jpg",
+     "href": null,
+     "backgroundColor": "#abbdc1"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "5846205490b242878e4c7c26bb46a817"
    }

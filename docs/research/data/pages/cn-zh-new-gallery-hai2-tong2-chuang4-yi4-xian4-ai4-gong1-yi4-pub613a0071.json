@@ -11,7 +11,7 @@
    "title": "孩童创意，献爱公益",
    "texts": [
     "棕色的硬纸板城堡前放着六个色彩缤纷的宜家 SAGOSKATT 索古斯卡 毛绒玩具。",
-    "<p>来看看全新的 SAGOSKATT 索古斯卡 系列吧！这一系列包括跳舞机器人Rully，小黄瓜超级英雄Gurki，以及其他精美的毛绒玩具，均由参加宜家毛绒玩具绘画比赛的孩子们设计。SAGOSKATT 索古斯卡 系列的全部售卖所得将捐赠给当地机构，以支持孩子乐享玩的权利，实现孩子之间的互帮互助。</p>",
+    "来看看全新的 SAGOSKATT 索古斯卡 系列吧！这一系列包括跳舞机器人Rully，小黄瓜超级英雄Gurki，以及其他精美的毛绒玩具，均由参加宜家毛绒玩具绘画比赛的孩子们设计。SAGOSKATT 索古斯卡 系列的全部售卖所得将捐赠给当地机构，以支持孩子乐享玩的权利，实现孩子之间的互帮互助。",
     "孩童创意，献爱公益",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "孩童创意，献爱公益",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/44/d5/44d580bda51827bb8d1a6a14c76da362.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -35,7 +45,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<h2>了解2019年 SAGOSKATT 索古斯卡 系列</h2>\n<p>我们从87000多幅精彩画作中选出了六件优秀作品，将它们放进了由宜家回收平板包装纸板制成的城堡里。这些作品可爱有趣，个性鲜明，快来一睹为快！</p>"
+    "了解2019年 SAGOSKATT 索古斯卡 系列 我们从87000多幅精彩画作中选出了六件优秀作品，将它们放进了由宜家回收平板包装纸板制成的城堡里。这些作品可爱有趣，个性鲜明，快来一睹为快！"
    ],
    "images": [
     "https://file.app.ikea.cn/images/2e/cf/2ecf783e56d94db89cb73323305eb1a9.jpg"
@@ -46,6 +56,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "硬纸板制成的城堡墙壁上挂着硬纸板画框，展示着六款 SAGOSKATT 索古斯卡 毛绒玩具的原型画作。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/2e/cf/2ecf783e56d94db89cb73323305eb1a9.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/2e/cf/2ecf783e56d94db89cb73323305eb1a9.jpg",
+     "href": null
+    },
+    {
+     "heading": "了解2019年 SAGOSKATT 索古斯卡 系列 我们从87000多幅精彩画作中选出了六件优秀作品，将它们放进了由宜家回收平板包装纸板制成的城堡里。这些作品可爱有趣，个性鲜明，快来一睹为快！",
+     "text": null,
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -57,6 +91,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -89,6 +125,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "宜家 SAGOSKATT 索古斯卡 毛绒玩具：绿色的小黄瓜造型超级英雄，披着头发，露出牙齿和粉色的舌头。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/6c/0b/6c0b188aa3dab6a279d604bf7991ce53.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "宜家 SAGOSKATT 索古斯卡 毛绒玩具：一个脑袋为红色且又大又方的表演机器人正头顶天线笑着跳舞。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ee/fe/eefeadf4f36574d65c403e6c2d49832c.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "宜家 SAGOSKATT 索古斯卡 毛绒玩具：一只黄蓝相间的可爱怪兽毛绒玩具正坐在硬纸板制成的月亮上。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/96/86/9686798e0db9396041975722717cd35f.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "Gurki 这位小黄瓜超级英雄的使命就是让孩子们多吃黄瓜！",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/6c/0b/6c0b188aa3dab6a279d604bf7991ce53.jpg",
+     "href": null
+    },
+    {
+     "heading": "Rully 这个表演机器人喜欢演奏音乐、唱歌和跳舞。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/ee/fe/eefeadf4f36574d65c403e6c2d49832c.jpg",
+     "href": null
+    },
+    {
+     "heading": "小怪兽 这只喜欢拥抱的小怪兽可以帮你在睡觉时赶走所有可怕的怪兽。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/96/86/9686798e0db9396041975722717cd35f.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -121,16 +201,62 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "宜家 SAGOSKATT 索古斯卡 毛绒玩具：一只快乐的黄色长颈鹿在空中跳跃，身后是硬纸板制成的城堡。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/0b/b7/0bb72a862fa5399a37602c6ef98adb11.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "宜家 SAGOSKATT 索古斯卡 毛绒玩具：一只灰白相间、爱开派对的老鼠带着气球飞在空中，身后是硬纸板制成的城堡。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e6/b2/e6b22be7bb05dcf41fda6478f8b6e894.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "宜家 SAGOSKATT 索古斯卡 毛绒玩具：一个身上饰有粉色、黄色和橙色的彩虹玩具正穿着袜子漂浮在硬纸板制成的城堡上空。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/7a/7d/7a7d168d320edacd9dd2d9546129897e.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "彩虹长颈鹿 这只淘气又敏感的长颈鹿喜欢健康食品。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/0b/b7/0bb72a862fa5399a37602c6ef98adb11.jpg",
+     "href": null
+    },
+    {
+     "heading": "Jesse 这只爱开派对的老鼠喜欢玩气球，也喜欢和孩子以及其他玩具玩！",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/e6/b2/e6b22be7bb05dcf41fda6478f8b6e894.jpg",
+     "href": null
+    },
+    {
+     "heading": "彩虹宝宝 彩虹宝宝需要穿上袜子，才能在天空中保暖。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/7a/7d/7a7d168d320edacd9dd2d9546129897e.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>儿童互帮互助</h2>\n<p>SAGOSKATT 索古斯卡 系列的全部售卖所得将捐赠给当地机构。玩具不仅能鼓励孩子们尽情地玩，激发他们的创意，还能直接支持每个孩子乐享玩的权利。</p>"
+    "儿童互帮互助 SAGOSKATT 索古斯卡 系列的全部售卖所得将捐赠给当地机构。玩具不仅能鼓励孩子们尽情地玩，激发他们的创意，还能直接支持每个孩子乐享玩的权利。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -142,7 +268,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<h2>快来参加！</h2>\n<p>多年来，全球各地成百上千充满创意的孩子们参与到了毛绒玩具绘画比赛中。六大 SAGOSKATT 索古斯卡 系列已筹得大量资金，用于支持孩子们乐享玩的权利。</p>\n<p>今年十一月，新一届毛绒玩具绘画比赛又要开始了！赶快成为宜家俱乐部会员参加比赛，说不定你的画作也能变为真正的毛绒玩具！</p>"
+    "快来参加！ 多年来，全球各地成百上千充满创意的孩子们参与到了毛绒玩具绘画比赛中。六大 SAGOSKATT 索古斯卡 系列已筹得大量资金，用于支持孩子们乐享玩的权利。 今年十一月，新一届毛绒玩具绘画比赛又要开始了！赶快成为宜家俱乐部会员参加比赛，说不定你的画作也能变为真正的毛绒玩具！"
    ],
    "images": [
     "https://file.app.ikea.cn/images/dc/6e/dc6e6ca0630dcbac8695e9f093ce0ca5.jpg"
@@ -157,6 +283,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "宜家 SAGOSKATT 索古斯卡 毛绒玩具：一只灰白相间、爱开派对的老鼠，旁边是孩子画的原型。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/dc/6e/dc6e6ca0630dcbac8695e9f093ce0ca5.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/dc/6e/dc6e6ca0630dcbac8695e9f093ce0ca5.jpg",
+     "href": null
+    },
+    {
+     "heading": "快来参加！ 多年来，全球各地成百上千充满创意的孩子们参与到了毛绒玩具绘画比赛中。六大 SAGOSKATT 索古斯卡 系列已筹得大量资金，用于支持孩子们乐享玩的权利。 今年十一月，新一届毛绒玩具绘画比赛又要开始了！赶快成为宜家俱乐部会员参加比赛，说不定你的画作也能变为真正的毛绒玩具！",
+     "text": null,
+     "image": null,
+     "href": "/cn/zh/ikea-family/"
+    }
+   ],
+   "productIds": [],
    "settings": null
   }
  ]

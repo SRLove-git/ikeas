@@ -11,7 +11,7 @@
    "title": "如何制作茶盐",
    "texts": [
     "灰色盘子上放着三文鱼片，撒上了盐、胡椒和莳萝。盘子旁边是一条灰色的餐巾。",
-    "<p class=\"p1\">在日常烹饪中，茶盐是一种很好的调味品。可以增添口感，也可以作为风味盐，为任何菜肴增加风味和口感层次。</p>",
+    "在日常烹饪中，茶盐是一种很好的调味品。可以增添口感，也可以作为风味盐，为任何菜肴增加风味和口感层次。",
     "如何制作茶盐",
     "normal"
    ],
@@ -24,26 +24,40 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "如何制作茶盐",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/9f/f5/9ff54183ed023ae92d509ed47dcf8b9a.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>材料：</h2>\n<p>制作：100毫升<br />准备时间：2分钟</p>\n<p>50毫升海盐片<br />50毫升EGENTID 依根提德 红茶，姜和接骨木口味</p>"
+    "材料： 制作：100毫升 准备时间：2分钟 50毫升海盐片 50毫升EGENTID 依根提德 红茶，姜和接骨木口味"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>制作步骤：</h2>\n<ol>\n<li>把茶叶放在研钵里磨碎。加入盐，仔细研磨直至混合均匀。</li>\n</ol>"
+    "制作步骤： 把茶叶放在研钵里磨碎。加入盐，仔细研磨直至混合均匀。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

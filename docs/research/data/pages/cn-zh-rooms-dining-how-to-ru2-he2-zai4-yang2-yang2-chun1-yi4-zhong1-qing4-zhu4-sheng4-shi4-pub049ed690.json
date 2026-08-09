@@ -10,8 +10,8 @@
    "type": "pub-hero",
    "title": "如何在洋洋春意中庆祝盛事",
    "texts": [
-    "一个户外聚会上，桌上铺着GULLMAJ 古尔梅 桌布，摆放UPPLAGA 乌普洛卡 盘子、DYRGRIP 迪尔格利普 玻璃杯和UPPH&Ouml;JD 乌佩 餐具。",
-    "<p>重要的这天终于到来。拿出你最喜欢的餐具、玻璃器皿、椅子等等，在阳光下好好庆祝一番。乡村风格的浪漫细节定能吸引前来的宾客，包括小朋友们，打造难忘的聚会体验，留下许多美丽的自拍。</p>",
+    "一个户外聚会上，桌上铺着GULLMAJ 古尔梅 桌布，摆放UPPLAGA 乌普洛卡 盘子、DYRGRIP 迪尔格利普 玻璃杯和UPPHöJD 乌佩 餐具。",
+    "重要的这天终于到来。拿出你最喜欢的餐具、玻璃器皿、椅子等等，在阳光下好好庆祝一番。乡村风格的浪漫细节定能吸引前来的宾客，包括小朋友们，打造难忘的聚会体验，留下许多美丽的自拍。",
     "如何在洋洋春意中庆祝盛事",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "如何在洋洋春意中庆祝盛事",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/31/22/3122b100e07cb44f43f76163a59c0a0e.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -34,7 +44,7 @@
     "NO",
     "ikea://content/plp?catalogId=18860",
     "{\"objectId_var\":\"18860\",\"objectType_var\":\"plp\"}",
-    "布置餐桌时，保持简单，方显优雅。UPPLAGA 乌普洛卡 盘子和UPPH&Ouml;JD 乌佩 餐具外观经典，适用于任何场合。不妨选择低调的配色，把焦点集中在食物和宾客身上。",
+    "布置餐桌时，保持简单，方显优雅。UPPLAGA 乌普洛卡 盘子和UPPHöJD 乌佩 餐具外观经典，适用于任何场合。不妨选择低调的配色，把焦点集中在食物和宾客身上。",
     "保持简单，方显优雅"
    ],
    "images": [
@@ -50,6 +60,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "户外聚会上，桌上铺着GULLMAJ 古尔梅 桌布，摆放DYRGRIP 迪尔格利普 玻璃杯、UPPLAGA 乌普洛卡 盘子和UPPH&Ouml;JD 乌佩 餐具。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/3da9fbbf002e57d2/original/PH175907-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -76,6 +96,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "户外聚会上，桌上摆放一个TILLBRINGARE 提尔布林阿尔 水壶和一个S&Auml;LLSKAPLIG 赛思卡匹 玻璃水瓶，盛满清凉爽口的饮料。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/da7996e4155af32/original/PH175910-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -102,6 +132,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "户外聚会上，用M&Aring;LA 莫拉 蜡笔和J&Auml;TTELIK 耶特里克 彩纸作为餐垫，为孩子准备两套童心餐具。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/1fbda54a14fd934b/original/PH175908-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -128,6 +168,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "桌子上方挂着色彩缤纷的SOLVINDEN 索文顿 LED灯串，桌上摆着为户外婚宴准备的食物和饮料。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/f3b0a9ae87d9d79/original/PH175912-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -154,6 +204,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "鲜花漂浮在盛满水的BER&Auml;KNA 比莱纳 碗中，桌上还放着SVALKA 施尔卡 玻璃杯和KVITTERA 柯提拉 分层上菜架。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/1fd607a24027443e/original/PH175909-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -180,6 +240,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "户外聚会上，&Auml;PPLAR&Ouml; 阿普莱诺 折叠椅上绑着用米色丝带系上的几支SMYCKA 思米加 人造树叶和花朵。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/3bbb67d3d0699e4b/original/PH175911-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -206,6 +276,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "谷仓门装饰着SMYCKA 思米加 人造花枝，下方的干草垛垫上带SANELA 桑尼拉 垫套的靠垫，变身为座位。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/7848aa9ef0d4ac8/original/PH175913-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   }
  ]

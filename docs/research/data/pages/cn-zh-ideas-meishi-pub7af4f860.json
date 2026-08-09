@@ -11,7 +11,7 @@
    "title": "莳萝咸脆饼、蓝纹干酪和无花果",
    "texts": [
     "莳萝咸脆饼、蓝纹干酪和无花果",
-    "<p><strong>份量：</strong>20份</p>",
+    "份量：20份",
     "normal"
    ],
    "images": [
@@ -23,36 +23,52 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "莳萝咸脆饼、蓝纹干酪和无花果",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ce/19/ce1951c20d211586b466b45676650da6.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>你需要什么：</strong></p><p>1包宜家 KNÄCKEBRÖD 莳萝咸脆饼<br />250克宜家 OST BLÅMÖGEL 蓝纹干酪<br />4个新鲜无花果<br />蜂蜜<br />南瓜籽<br />海盐</p>"
+    "你需要什么：1包宜家 KNÄCKEBRÖD 莳萝咸脆饼 250克宜家 OST BLÅMÖGEL 蓝纹干酪 4个新鲜无花果 蜂蜜 南瓜籽 海盐"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>制作方法：</strong></p><p>1.将南瓜籽放在煎锅上烤，并放入少许海盐。</p><p>2.将咸脆饼掰成长方形的小份。</p><p>3.将蓝纹干酪切片，将无花果切成楔状。</p><p>4.将芝士抹在面包上，并加上无花果。</p><p>5.在顶部撒上蜂蜜和烤制的南瓜籽。</p>"
+    "制作方法：1.将南瓜籽放在煎锅上烤，并放入少许海盐。2.将咸脆饼掰成长方形的小份。3.将蓝纹干酪切片，将无花果切成楔状。4.将芝士抹在面包上，并加上无花果。5.在顶部撒上蜂蜜和烤制的南瓜籽。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>其他建议：</strong></p><p>可以在当天提早准备莳萝咸脆饼配蓝纹干酪。但是记得在准备上桌前才添加无花果、蜂蜜和南瓜籽。</p>"
+    "其他建议：可以在当天提早准备莳萝咸脆饼配蓝纹干酪。但是记得在准备上桌前才添加无花果、蜂蜜和南瓜籽。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

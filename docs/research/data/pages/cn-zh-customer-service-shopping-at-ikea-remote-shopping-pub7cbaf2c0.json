@@ -14,16 +14,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>既要看款式，又忙着看尺寸和布局？ <br />你还在为置办大件家具、 或者和设计师商量设计方案， 在家和宜家之间来回奔波吗？</p>"
+    "既要看款式，又忙着看尺寸和布局？ 你还在为置办大件家具、 或者和设计师商量设计方案， 在家和宜家之间来回奔波吗？"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -42,6 +46,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a1/6d/a16dbe975b91b29c84311d1adabde3ff.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -49,7 +63,7 @@
    "title": null,
    "texts": [
     "pub-column",
-    "<h2>零接触远程下单，<br />一对一服务</h2>\n<p>宜家远程购物服务，实现更大范围精准覆盖&mdash;&mdash;包括现有店铺所在23个城市以及物流可达的100多个地区。您无需多次往返线下商场，即可远程打造你的梦想家。</p>\n<p>点击预约按钮，留下您的信息，<strong>24小时内</strong>就会有专人联系您，帮助你完成家具或家居产品的一站式购物！</p>",
+    "零接触远程下单， 一对一服务 宜家远程购物服务，实现更大范围精准覆盖——包括现有店铺所在23个城市以及物流可达的100多个地区。您无需多次往返线下商场，即可远程打造你的梦想家。 点击预约按钮，留下您的信息，24小时内就会有专人联系您，帮助你完成家具或家居产品的一站式购物！",
     "pub-text",
     "/h5page/?url=https%3A%2F%2Fstore-companion.ikea.cn%2Frs%3Fchannel%3Decchannel%26cl_sr%3Drs_irw",
     "YES",
@@ -68,6 +82,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/41/5c/415c71881029e3f24000ef24eed708f4.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "零接触远程下单， 一对一服务 宜家远程购物服务，实现更大范围精准覆盖——包括现有店铺所在23个城市以及物流可达的100多个地区。您无需多次往返线下商场，即可远程打造你的梦想家。 点击预约按钮，留下您的信息，24小时内就会有专人联系您，帮助你完成家具或家居产品的一站式购物！",
+     "text": null,
+     "image": null,
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fstore-companion.ikea.cn%2Frs%3Fchannel%3Decchannel%26cl_sr%3Drs_irw"
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/41/5c/415c71881029e3f24000ef24eed708f4.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -88,6 +126,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

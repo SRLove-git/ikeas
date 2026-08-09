@@ -11,7 +11,7 @@
    "title": "定制你的传统风格",
    "texts": [
     "Sink into LIDHULT sofa series from IKEA with high backs, neck support, soft armrests and lots of covers and combinations like this red brown three-seater with chaise longue.",
-    "<p>我们本月将推出用于客厅布置的全新沙发和储物系列。这些沙发和储物件均采用优美的传统风格设计，同时还具备定制居家解决方案的现代灵活性。<br />LIDHULT 利胡特 沙发系列采用高靠背、高座椅和宽座位设计，有多种不同沙发套和组合可选，能为你提供足够支撑，让你获得舒适享受。</p>",
+    "我们本月将推出用于客厅布置的全新沙发和储物系列。这些沙发和储物件均采用优美的传统风格设计，同时还具备定制居家解决方案的现代灵活性。 LIDHULT 利胡特 沙发系列采用高靠背、高座椅和宽座位设计，有多种不同沙发套和组合可选，能为你提供足够支撑，让你获得舒适享受。",
     "定制你的传统风格",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "定制你的传统风格",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a3/ff/a3ff7f2bfa7a1a327442e70d1df444a6.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,16 +54,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "你可以在宜家 LIDHULT 利胡特 带贵妃椅三人沙发上小睡一会儿或长时间观看电视，乐享悠闲时光。红褐色布艺垫套下是袋装弹簧和纤维球，能为人带来舒适体验。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/71/30/71304bb157a3a0145643f2c20e421958.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>LIDHULT 利胡特 沙发系列具有非凡的舒适度，有浅米色、红色/褐色、灰色/黑色等多种颜色的布艺垫套可选，以及深褐色的皮革/涂层布艺垫套。</p>"
+    "LIDHULT 利胡特 沙发系列具有非凡的舒适度，有浅米色、红色/褐色、灰色/黑色等多种颜色的布艺垫套可选，以及深褐色的皮革/涂层布艺垫套。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -74,16 +96,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "宜家 HAVSTA 海思塔 带玻璃门储物组合及其他产品，助你打造出个人专属的储物装置。这款深棕色产品既能展示物品，又能防止灰尘落入。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/60/2e/602e1d05451290845f46a76855af9728.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>巧妙灵活的储物装置</h2>\n<p>HAVSTA 海思塔 储物和桌子系列由实木打造而成，细节精美，巧妙灵活，可打造出满足不同需求的解决方案，让你的客厅储物上升到一个新的高度。<br />HAVSTA 海思塔 系列家具使用的所有木材均来自可持续来源&mdash;&mdash;我们将其定义为经FSC认证的木材或再生木材。</p>"
+    "巧妙灵活的储物装置 HAVSTA 海思塔 储物和桌子系列由实木打造而成，细节精美，巧妙灵活，可打造出满足不同需求的解决方案，让你的客厅储物上升到一个新的高度。 HAVSTA 海思塔 系列家具使用的所有木材均来自可持续来源——我们将其定义为经FSC认证的木材或再生木材。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -105,16 +139,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "使用宜家长方形 HAVSTA 海思塔 茶几，打造双层储物空间。这款茶几由灰色实心松木制成，线条简洁，可为客厅增添传统风格元素。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/17/ed/17ed7c5f0d1d6c9a117d5fe69fe07b4b.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>还有与客厅储物装置搭配的灰色或深棕色 HAVSTA 海思塔 茶几。</p>"
+    "还有与客厅储物装置搭配的灰色或深棕色 HAVSTA 海思塔 茶几。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -135,6 +181,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -149,6 +197,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

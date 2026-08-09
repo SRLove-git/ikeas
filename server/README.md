@@ -2,8 +2,10 @@
 
 This website's backend, built with **Java 21 + Spring Boot 3.5**. It serves the
 same crawled IKEA China data the Next.js frontend uses (categories, products,
-content pages, homepage sections, menus), through a REST API — plus optional
-serving of the repo's `public/` assets.
+content pages, homepage sections, menus) through a REST API, and implements the
+site's interactive features: **login/register (SMS + password)**, **shopping
+bag**, **favorites**, and the **customer-service chat**. It can also serve the
+repo's `public/` assets.
 
 ## Requirements
 
@@ -46,6 +48,17 @@ IKEA_STATIC_PUBLIC_DIR=../public java -jar target/ikea-server-0.1.0.jar
 | `SERVER_PORT` | `8080` | HTTP port |
 | `CORS_ALLOWED_ORIGINS` | `http://localhost:3000,http://localhost:3001` | Comma-separated allowed origins |
 | `IKEA_STATIC_PUBLIC_DIR` | *(empty)* | Path to the repo's `public/` dir to serve static assets |
+| `IKEA_USERS_FILE` | *(empty)* | Optional JSON file to persist registered users |
+| `IKEA_EXPOSE_SMS_CODE` | `true` | Demo mode: return the SMS code in the API response |
+
+### Demo account
+
+The server seeds one account on startup:
+
+- Account: `demo@ikea.cn` or phone `13800138000`
+- Password: `123456`
+
+First-time SMS logins auto-register the phone number.
 
 ## Data
 
@@ -72,6 +85,25 @@ normalization) intentionally mirror `src/lib/*.ts` in the Next.js app.
 
 All endpoints are under `/api/v1` and return JSON (UTF-8). Missing resources
 return `404` with `{ "status": 404, "error": "Not Found", "message": ..., "path": ... }`.
+
+### Admin (CMS)
+
+Endpoints under `/api/v1/admin/**` are protected by the `X-Admin-Key` header
+(config `ikea.admin.key`, env `IKEA_ADMIN_KEY`, default `ikea-admin`). The
+Next.js admin panel proxies these through `/api/admin/server/**` so the key
+never reaches the browser.
+
+| Endpoint | Description |
+| --- | --- |
+| `GET /api/v1/admin/stats` | Counts: users, carts, favorites, chat messages |
+| `GET /api/v1/admin/users` | All registered users |
+| `DELETE /api/v1/admin/users/{id}` | Delete a user (also clears cart/favorites) |
+| `GET /api/v1/admin/carts` | All non-empty shopping bags |
+| `DELETE /api/v1/admin/carts/{userId}` | Clear a user's cart |
+| `GET /api/v1/admin/favorites` | All favorite lists |
+| `DELETE /api/v1/admin/favorites/{userId}` | Clear a user's favorites |
+| `GET /api/v1/admin/chat/messages` | Customer-service chat history |
+| `DELETE /api/v1/admin/chat/messages` | Clear chat history |
 
 ### Health & stats
 
@@ -122,6 +154,40 @@ return `404` with `{ "status": 404, "error": "Not Found", "message": ..., "path"
 | Endpoint | Description |
 | --- | --- |
 | `GET /api/v1/search?q=床&limit=20` | Products + content pages + catalog pages |
+
+`GET /api/v1/products` and `/search` now match category names too (the same
+semantics as the frontend search page) and return a `categoryNames` array on
+each matched product.
+
+### Auth (Bearer token)
+
+| Endpoint | Description |
+| --- | --- |
+| `POST /api/v1/auth/sms/send` | `{ phone }` → sends a code (returned as `devCode` in demo mode) |
+| `POST /api/v1/auth/sms/login` | `{ phone, code }` → logs in or auto-registers |
+| `POST /api/v1/auth/login` | `{ account, password }` → password login |
+| `POST /api/v1/auth/register` | `{ account, password, name? }` → creates an account |
+| `GET /api/v1/auth/me` | Current user (requires `Authorization: Bearer <token>`) |
+| `POST /api/v1/auth/logout` | Invalidates the token |
+
+### Shopping bag & favorites (require auth)
+
+| Endpoint | Description |
+| --- | --- |
+| `GET /api/v1/cart` | Cart with product snapshots, quantity and total price |
+| `POST /api/v1/cart/items` | `{ productId, quantity }` add/merge |
+| `PATCH /api/v1/cart/items/{productId}` | `{ quantity }` set quantity (`0` removes) |
+| `DELETE /api/v1/cart/items/{productId}` | Remove one item |
+| `DELETE /api/v1/cart` | Empty the bag |
+| `GET /api/v1/favorites` | Favorite product ids + products |
+| `POST /api/v1/favorites` | `{ productId }` add |
+| `DELETE /api/v1/favorites/{productId}` | Remove |
+
+### Customer-service chat
+
+| Endpoint | Description |
+| --- | --- |
+| `POST /api/v1/chat/messages` | `{ message }` → canned reply (delivery/returns/stores/membership/prices) |
 
 ## Docker
 

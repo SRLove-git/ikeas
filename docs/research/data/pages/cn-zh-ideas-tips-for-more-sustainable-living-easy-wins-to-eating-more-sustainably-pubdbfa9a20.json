@@ -11,7 +11,7 @@
    "title": "轻松实现更可持续的饮食",
    "texts": [
     "HUVUDROLL 植物蛋白素肉丸的特写，模糊的背景显示有一个盘子。",
-    "<p>食物的选择很重要。选择植物性食物和来自负责任来源的认证产品，有助于实现更可持续的饮食。</p>\n<p>我们有多种植物性食品可供选择，而且我们承诺这些植物性食品的价格将与肉类替代品持平或甚至更低。你是否品尝过我们餐厅里美味的植物蛋白素肉丸和可口的素鸡块？你可以从我们的瑞典特色食品屋购买这些食品，给自己安排一次“素食星期一”体验。</p>",
+    "食物的选择很重要。选择植物性食物和来自负责任来源的认证产品，有助于实现更可持续的饮食。 我们有多种植物性食品可供选择，而且我们承诺这些植物性食品的价格将与肉类替代品持平或甚至更低。你是否品尝过我们餐厅里美味的植物蛋白素肉丸和可口的素鸡块？你可以从我们的瑞典特色食品屋购买这些食品，给自己安排一次“素食星期一”体验。",
     "IMAGE",
     "轻松实现更可持续的饮食"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "轻松实现更可持续的饮食",
+     "text": "",
+     "image": "https://file.app.ikea.cn/content-space/barn-images/15EDACB7-B60F-4582-B1788E9BA1F9BF33/main-v1.png?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Standardised Hero-轻松实现更可持续的饮食"
    }
@@ -36,6 +46,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-分割线 Horizontal Line-"
    }
@@ -65,6 +77,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一段视频中，一个立方体呈现出不同的图像，并配有文字：“你知道吗？在膳食中减少肉类的摄入，增加更多果蔬，既利于我们自身，又利于地球。”“这也正是我们喜欢这些植物蛋白素肉丸的原因所在。”“点滴行动，全新生活”",
+     "image": "https://file.app.ikea.cn/cms/u/20250724/a3a72b729849442badc0a943b7c562ca.mp4",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "厨房里，一份冷冻的HUVUDROLL 植物蛋白素肉丸。",
+     "image": "https://file.app.ikea.cn/content-space/barn-images/D0EDDF0D-1EEE-49E5-B9F7BE0322DC7EBD/main-v1.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-栅格合集 Curated Gallery-植物基美食，风味浓郁诱人"
    }
@@ -73,10 +102,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>更好地选择食物的小窍门</strong></h2>"
+    "更好地选择食物的小窍门"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -90,7 +121,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<h2>食用负责任采购来源的三文鱼</h2>\n<p>如果三文鱼来自水产养殖管理委员会(ASC)认证的渔场，那么养殖过程的许多方面都会经过独立评估和认证&mdash;&mdash;从如何负责任地采购饲料到渔场如何降低对环境的影响。</p>"
+    "食用负责任采购来源的三文鱼 如果三文鱼来自水产养殖管理委员会(ASC)认证的渔场，那么养殖过程的许多方面都会经过独立评估和认证——从如何负责任地采购饲料到渔场如何降低对环境的影响。"
    ],
    "images": [
     "https://file.app.ikea.cn/content-space/barn-images/F13F6983-F768-44A8-B184A04D38D59CA3/main-v1.jpg?x-oss-process=style/medium",
@@ -106,6 +137,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "俯瞰图：两片带皮的生三文鱼片用盐调味，放在炉灶上的不粘锅中。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/content-space/barn-images/F13F6983-F768-44A8-B184A04D38D59CA3/main-v1.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "一款可搭配燕麦饼干和焦糖口味、经雨林联盟认证的BELÖNING 牛奶味巧克力排",
+     "text": "",
+     "image": "https://file.app.ikea.cn/content-space/barn-images/4C862B88-0394-47A7-9E7970DD7A822651/main-v1.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "食用负责任采购来源的三文鱼 如果三文鱼来自水产养殖管理委员会(ASC)认证的渔场，那么养殖过程的许多方面都会经过独立评估和认证——从如何负责任地采购饲料到渔场如何降低对环境的影响。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/content-space/barn-images/F13F6983-F768-44A8-B184A04D38D59CA3/main-v1.jpg?x-oss-process=style/medium",
+     "href": null
+    },
+    {
+     "heading": "选择咖啡和巧克力 带有“雨林联盟”(RFA)认证标志的产品意味着，产品所使用的认证原料是通过符合可持续发展三大支柱概念（即社会、经济和环境方面）的生产方式制作而成。30多年来，雨林联盟一直致力于推广负责任的农业生产方式。通过选择经过认证的产品（比如咖啡和巧克力），你就是在尽自己的一份努力。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/content-space/barn-images/4C862B88-0394-47A7-9E7970DD7A822651/main-v1.jpg?x-oss-process=style/medium",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-分栏内容 Columns-"
    }
@@ -119,7 +181,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<h2>搭配饮食</h2>\n<p>选择植物基饮食是个人可采取的减少气候足迹的重要行动之一。何不给下一餐增添一些变化呢？蔬菜、豆类、豆科植物和谷物均属于植物基食物，有助于健康均衡的饮食。</p>"
+    "搭配饮食 选择植物基饮食是个人可采取的减少气候足迹的重要行动之一。何不给下一餐增添一些变化呢？蔬菜、豆类、豆科植物和谷物均属于植物基食物，有助于健康均衡的饮食。"
    ],
    "images": [
     "https://file.app.ikea.cn/content-space/barn-images/CFBABB1C-7810-454C-81BFE63CF37A79DB/main-v1.JPG",
@@ -135,6 +197,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "特写照片：一个人将一块金黄酥脆的鸡块浸入一碗红酱中。盘子里还有更多的炸鸡块、新鲜黄瓜条和胡萝卜条，以及一勺绿色蘸酱，所有这些都放在白色羊皮纸上。这个人身穿浅蓝色衬衫。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/content-space/barn-images/CFBABB1C-7810-454C-81BFE63CF37A79DB/main-v1.JPG",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "一家人在明亮的现代化用餐区享用美食。一位身穿紫色毛衣的女士和一位扎着头巾的女孩在聊天，一位年长的男士往他的盘子里挤柠檬。桌子上摆放着各种菜肴，地上有一个黄色的宜家袋子。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/content-space/barn-images/40513F9C-1F45-4A5B-860A78DAE446331D/main-v1.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "搭配饮食 选择植物基饮食是个人可采取的减少气候足迹的重要行动之一。何不给下一餐增添一些变化呢？蔬菜、豆类、豆科植物和谷物均属于植物基食物，有助于健康均衡的饮食。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/content-space/barn-images/CFBABB1C-7810-454C-81BFE63CF37A79DB/main-v1.JPG",
+     "href": null
+    },
+    {
+     "heading": "先迈出一小步 从长远来看，迈出一小步是改变习惯的有效方法。一个虽然微小但颇具影响力的改变是：在你的餐盘中减少肉类的含量，比如先换成绿色果蔬，或者在你喜爱的菜肴中加入一些蔬菜。或者，为何不在家人和朋友之间发起“素食星期一”的活动呢？​",
+     "text": null,
+     "image": "https://file.app.ikea.cn/content-space/barn-images/40513F9C-1F45-4A5B-860A78DAE446331D/main-v1.jpg?x-oss-process=style/medium",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-分栏内容 Columns-"
    }
@@ -146,7 +239,7 @@
     "image-text-landscape",
     "浅绿色BRYTBÖNA 比波那 园艺剪刀",
     "IMAGE",
-    "<p>如果你从超市购买迷迭香并移栽到排水良好的土壤中，就不必每次做饭都需要购买新的迷迭香。它不仅方便而且是充分利用现有资源的好方法，还可以减少浪费，甚至节省金钱。</p>",
+    "如果你从超市购买迷迭香并移栽到排水良好的土壤中，就不必每次做饭都需要购买新的迷迭香。它不仅方便而且是充分利用现有资源的好方法，还可以减少浪费，甚至节省金钱。",
     "家中的迷你菜园",
     "#FFFFFF"
    ],
@@ -159,6 +252,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "浅绿色BRYTBÖNA 比波那 园艺剪刀",
+     "text": "",
+     "image": "https://file.app.ikea.cn/content/u/20250506/B321AE46-E749-45AA-9D3F8D2721C1406B.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": "#ffffff"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-媒体色块组合 Banner-"
    }
@@ -203,6 +306,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "在绿色背景下的包装食品，透明窗口展示着圆形的香草土豆点心，标有“SLAGVERK Smashed Herb-Infused Potatoes”。",
+     "image": "https://file.app.ikea.cn/content-hub/f96ef328-1efa-4dd7-befb-0fa4910a9d15/9ffb922a-0068-4ca4-b2e6-38aae0bc892b.jpeg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "餐桌上摆放着营养均衡的餐点，有米饭、黄瓜沙拉和菠菜叶配面包屑炸肉排。一杯水和餐具让整个场景更加完整。",
+     "image": "https://file.app.ikea.cn/content-space/barn-images/F70EFD67-6303-4BEB-906D2459A4173E82/main-v1.JPG",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "餐桌上摆放着营养均衡的餐点，有米饭、黄瓜沙拉和菠菜叶配面包屑炸肉排。一杯水和餐具让整个场景更加完整。",
+     "image": "https://file.app.ikea.cn/content-space/barn-images/BBC0C4B0-E49A-48EB-8A7978CC66C78A7D/main-v1.JPG",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "木板上三块金黄色的土豆饼的特写，上面有明显的绿色香料和红色粉末。前面的蛋糕切成两半，露出松软、热气腾腾的内部。",
+     "image": "https://file.app.ikea.cn/content-space/barn-images/A016B16D-B358-4A7F-9FF63B578AEDE684/main-v1.JPG",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "木板上三块金黄色的土豆饼的特写，上面有明显的绿色香料和红色粉末。前面的蛋糕切成两半，露出松软、热气腾腾的内部。",
+     "image": "https://file.app.ikea.cn/content-space/barn-images/7AFBAD62-E1E7-4B33-91A8A1D36D5A8B9B/main-v1.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-栅格合集 Curated Gallery-有助于更好地选择食物的产品"
    }
@@ -215,6 +356,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-分割线 Horizontal Line-"
    }
@@ -262,6 +405,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "减少能源消耗",
+     "text": "住宅的许多部分都会对能源使用产生直接影响。幸好我们有一些小窍门可以帮助你节省家庭能源。",
+     "image": "https://file.app.ikea.cn/content-space/barn-images/89999219-2209-47BC-A045DC50354F32AD/main-v1.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/ideas/tips-for-more-sustainable-living/quick-tricks-to-save-energy-at-home-pubad783f90",
+     "backgroundColor": "#37b886"
+    },
+    {
+     "title": "节约用水",
+     "text": "通过重新审视家庭生活习惯，你每天可以节约很多水。了解一下宜家提供的家庭节水智能解决方案。",
+     "image": "https://file.app.ikea.cn/content-space/barn-images/E931DC1C-BFAF-439A-B85142B373FDDBC9/main-v1.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/ideas/tips-for-more-sustainable-living/smart-solutions-to-save-water-at-home-pubfdfe8c45",
+     "backgroundColor": "#37b886"
+    },
+    {
+     "title": "减少浪费",
+     "text": "即使生活很节俭，也总会有一定数量的生活垃圾。但有一些简单的方法可以重复利用现有物品并减少家里的浪费。",
+     "image": "https://file.app.ikea.cn/content-space/barn-images/09FAD1B9-2A0B-470A-88BF916BB68906E1/main-v1.png?x-oss-process=style/medium",
+     "href": "/cn/zh/ideas/tips-for-more-sustainable-living/simple-ways-to-reduce-waste-at-home-pubb645fb53",
+     "backgroundColor": "#37b886"
+    },
+    {
+     "title": "延长物品使用寿命",
+     "text": "重新利用、修复、再利用、转售或回收产品的潜力不断增长。了解有助于延长家具使用寿命的小方法。",
+     "image": "https://file.app.ikea.cn/content-space/barn-images/3858A1CF-B80C-4BB0-9ED498389B80743D/main-v1.png?x-oss-process=style/medium",
+     "href": "/cn/zh/ideas/tips-for-more-sustainable-living/small-steps-to-give-your-furniture-a-longer-life-pubbcff48fc",
+     "backgroundColor": "#37b886"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-富媒体卡片列表 Inspiration Cards-"
    }
@@ -307,6 +481,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "一个人站在水中，手里拿着渔网，弯腰捕捞，背景中的群山清晰可见。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/content-space/barn-images/6E88ADDE-856F-442F-8B76D04EB290A9BC/main-v1.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/this-is-ikea/sustainable-everyday/sustainable-sourcing-pubdef88e06",
+     "backgroundColor": null
+    },
+    {
+     "title": "一个乳白色的球形SOLHETTA 索海塔 LED灯泡E27（470流明）",
+     "text": "",
+     "image": "https://file.app.ikea.cn/content-space/barn-images/38803CA0-AA08-4E7A-AF1FA79FE3E1543C/main-v1.png?x-oss-process=style/medium",
+     "href": "/cn/zh/landing-page/8f94cfe340274b3aa37556a6e401626f",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "可持续采购 了解宜家业务及其他方面的负责任采购。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/content-space/barn-images/6E88ADDE-856F-442F-8B76D04EB290A9BC/main-v1.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/this-is-ikea/sustainable-everyday/ke3-chi2-xu4-de5-cai3-gou4-pubdef88e06"
+    },
+    {
+     "heading": "点滴行动 美好地球 在宜家，我们约有4000多种可持续性突出的产品，帮助大众一起打造更可持续的家。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/content-space/barn-images/38803CA0-AA08-4E7A-AF1FA79FE3E1543C/main-v1.png?x-oss-process=style/medium",
+     "href": "/cn/zh/product-guides/sustainable-products/sustainable-living-pub4155615b"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-分栏内容 Columns-"
    }

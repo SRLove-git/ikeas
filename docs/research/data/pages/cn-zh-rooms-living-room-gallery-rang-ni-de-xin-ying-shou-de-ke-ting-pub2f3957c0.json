@@ -11,7 +11,7 @@
    "title": "让你得心应手的客厅",
    "texts": [
     "白色客厅里有一张绿色的PÄRUP 派如普 沙发，上面有两个印花靠垫，后面是一个开放式搁架。",
-    "<p>这个客厅里配置了各种灵活的储物和家具，有助你在生活中更得心应手，尽享现在与未来的美好时光。沙发后面的开放式和封闭式搁架确保所有物品近在手边，又井然有序；这张沙发虽然外形紧凑，但座位足够宽敞，你可以在上面尽情放松。</p>",
+    "这个客厅里配置了各种灵活的储物和家具，有助你在生活中更得心应手，尽享现在与未来的美好时光。沙发后面的开放式和封闭式搁架确保所有物品近在手边，又井然有序；这张沙发虽然外形紧凑，但座位足够宽敞，你可以在上面尽情放松。",
     "让你得心应手的客厅",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "让你得心应手的客厅",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ea/d7/ead77c1683bc342e869adb7b14b61046.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "5e1ac331fe124d7fb5c66aa770153959"
    }
@@ -52,6 +62,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "PÄRUP 派如普 沙发后面的开放式搁架一端，一个男人正从柜子里拿东西，上面的墙上挂着一些画。",
+     "image": "https://file.app.ikea.cn/images/b9/0e/b90ed1333cdf72e3d69ff0b6e55742ac.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "592cc989a7c346ec855b492d2da36aad"
    }
@@ -80,6 +100,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个LÖRBY 洛尔布 磁性USB充电器放置在PÄRUP 派如普 绿色沙发后面，上面连接着两根充电线。",
+     "image": "https://file.app.ikea.cn/images/34/85/34855b13f60697d9c57340b01b53bba0.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "fb2071d446ba47fba42e5e5674535ad6"
    }
@@ -108,6 +138,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "绿色沙发前面放着一张浅色木质BORGEBY 伯格比 桌子，上面放着扑克牌、一支阔型蜡烛和一副眼镜。",
+     "image": "https://file.app.ikea.cn/images/0e/38/0e38287a49530163578305384a299e0f.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "f86dec5597fe43ad8999f3440ca4b951"
    }
@@ -136,6 +176,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "两个白色的VIHALS 维哈斯 开放式搁架单元并排放置，里面装满了储物盒、篮子和其他物品，包括一个时钟。",
+     "image": "https://file.app.ikea.cn/images/17/28/1728e367d88546e04388351fa5ca8dce.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "00d6e71e20024015957ded292daf5bcb"
    }
@@ -164,6 +214,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一张黑色的FRÖSET 富罗瑟 椅子，上面有一个深黄色的靠垫，旁边是一个开放式搁架单元，里面放着篮子、书和乐器小号。",
+     "image": "https://file.app.ikea.cn/images/d8/fc/d8fc24d581a00b5e276c51908afe5d44.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "50a5a35bb700474a8e693e0ab6e3fe72"
    }
@@ -184,6 +244,63 @@
     {
      "href": "/cat/fu001",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "助你打造灵活客厅的所有产品",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/fu001",
+     "backgroundColor": null
+    },
+    {
+     "title": "VIHALS 维哈斯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vihals-wei-ha-si-chu-wu-dan-yuan-bai-se__1038847_pe839901_s4.jpg",
+     "href": "/cn/zh/p/vihals-wei-ha-si-chu-wu-dan-yuan-bai-se-70483269/"
+    },
+    {
+     "title": "BORGEBY 伯格比",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/borgeby-bo-ge-bi-cha-ji-hua-mu-tie-mian__0987623_pe817609_s4.jpg",
+     "href": "/cn/zh/p/borgeby-bo-ge-bi-cha-ji-hua-mu-tie-mian-70449402/"
+    },
+    {
+     "title": "VIHALS 维哈斯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vihals-wei-ha-si-ge-jia-dan-yuan-dai-6-kuai-ge-ban-bai-se__1035577_pe838112_s4.jpg",
+     "href": "/cn/zh/p/vihals-wei-ha-si-ge-jia-dan-yuan-dai-6-kuai-ge-ban-bai-se-60483284/"
+    },
+    {
+     "title": "VIHALS 维哈斯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vihals-wei-ha-si-ge-jia-dan-yuan-dai-4-kuai-ge-ban-bai-se__1035576_pe838114_s4.jpg",
+     "href": "/cn/zh/p/vihals-wei-ha-si-ge-jia-dan-yuan-dai-4-kuai-ge-ban-bai-se-30483290/"
+    },
+    {
+     "title": "FRÖSET 富罗瑟",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/froeset-fu-luo-se-xiu-xian-yi-hei-qi-xiang-mu-tie-mian__0824150_pe776003_s4.jpg",
+     "href": "/cn/zh/p/froeset-fu-luo-se-xiu-xian-yi-hei-qi-xiang-mu-tie-mian-60425642/"
+    },
+    {
+     "title": "VIHALS 维哈斯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vihals-wei-ha-si-dian-shi-gui-bai-se__1035579_pe838111_s4.jpg",
+     "href": "/cn/zh/p/vihals-wei-ha-si-dian-shi-gui-bai-se-00483296/"
+    },
+    {
+     "title": "LÖRBY 洛尔布",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/loerby-luo-er-bu-usb-chong-dian-qi-dai-jia__0548169_pe656999_s4.jpg",
+     "href": "/cn/zh/p/loerby-luo-er-bu-usb-chong-dian-qi-dai-jia-10360271/"
+    },
+    {
+     "title": "VIHALS 维哈斯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vihals-wei-ha-si-ge-jia-dan-yuan-dai-10-kuai-ge-ban-bai-se__1035575_pe838110_s4.jpg",
+     "href": "/cn/zh/p/vihals-wei-ha-si-ge-jia-dan-yuan-dai-1-0-kuai-ge-ban-bai-se-40483275/"
     }
    ],
    "settings": {

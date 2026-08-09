@@ -11,7 +11,7 @@
    "title": "华丽的复古客厅",
    "texts": [
     "一间复古风格的客厅，有一张绿色天鹅绒LANDSKRONA 兰德克纳 沙发，两张扶手椅和两张脚凳，中间是一张茶几。",
-    "<p>这个客厅柔软舒适，充满奢华天鹅绒与丰富的特色细节，集众多优点于一身。更重要的是，它绝非徒有其表。各种精心制作的家具，让一切看上去井然有序，而且全家人都能在这里获得各自所需的空间。</p>",
+    "这个客厅柔软舒适，充满奢华天鹅绒与丰富的特色细节，集众多优点于一身。更重要的是，它绝非徒有其表。各种精心制作的家具，让一切看上去井然有序，而且全家人都能在这里获得各自所需的空间。",
     "华丽的复古客厅",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "华丽的复古客厅",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/db/92/db928468a360dd7bbbb2e91a52b2a4a7.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Hero-华丽的复古客厅"
    }
@@ -52,6 +62,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一张绿色天鹅绒LANDSKRONA 兰德克纳 沙发，上面有一个粉色靠垫，沙发后面有一株高大的植物，旁边的灰色墙上挂着画。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/f08a43505ec70/original/PH181384-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Curated Gallery-舒适的绿色天鹅绒"
    }
@@ -80,6 +100,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个黑褐色BESTÅ 贝达 储物组合，其中两列为封闭式储物，两列为开放式储物，上面放着篮子和盒子。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/2c2cd1e556fe84b9/original/PH181385-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Curated Gallery-定制储物，整齐收纳"
    }
@@ -108,6 +138,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一张MÖRBYLÅNGA 莫比恩 桌子，周围摆着六张配褐色座垫的绿色ODGER 奥德格 餐椅，桌子上方有两盏吊灯。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/62a4eb62d98ee08e/original/PH181386-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Curated Gallery-时尚座椅"
    }
@@ -136,6 +176,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个KLACKENÄS 克拉肯奈 餐边柜，上方墙上有一面镜子和木制装饰品，柜顶有一盏台灯，旁边是一张餐桌。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/615a670631f61107/original/PH181387-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Curated Gallery-餐厅好帮手"
    }
@@ -164,6 +214,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "窗前有一个黑色OLIVBLAD 欧利布拉 植物架，顶部有三盆植物，旁边地板上有一盆高大的植物。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/30f4585283a1c171/original/PH181388-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Curated Gallery-愉悦心情的绿植"
    }
@@ -184,6 +244,51 @@
     {
      "href": "/cat/fu001",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "梦想客厅触手可及",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/fu001",
+     "backgroundColor": null
+    },
+    {
+     "title": "STOCKHOLM 斯德哥尔摩",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/stockholm-si-de-ge-er-mo-cha-ji-hu-tao-mu-tie-mian__0181245_pe332924_s4.jpg",
+     "href": "/cn/zh/p/stockholm-si-de-ge-er-mo-cha-ji-hu-tao-mu-tie-mian-90353078/"
+    },
+    {
+     "title": "KLACKENÄS 克拉肯奈",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/klackenaes-ke-la-ken-nai-can-bian-gui-hei-se-xiang-mu-tie-mian-zhao-he-se-qi__1016126_pe830224_s4.jpg",
+     "href": "/cn/zh/p/klackenaes-ke-la-ken-nai-can-bian-gui-hei-se-xiang-mu-tie-mian-zhao-he-se-qi-70506751/"
+    },
+    {
+     "title": "BESTÅ 贝达",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/besta-bei-da-chu-wu-zu-he-dai-men-hei-he-se-lappviken-stubbarp-hei-he-se__0719291_pe731961_s4.jpg",
+     "href": "/cn/zh/p/besta-bei-da-chu-wu-zu-he-dai-men-hei-he-se-lappviken-stubbarp-hei-he-se-39301766/"
+    },
+    {
+     "title": "MÖRBYLÅNGA 莫比恩",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/moerbylanga-mo-bi-en-zhuo-zi-xiang-mu-tie-mian-zhao-he-se-qi__0737108_pe740890_s4.jpg",
+     "href": "/cn/zh/p/moerbylanga-mo-bi-en-zhuo-zi-xiang-mu-tie-mian-zhao-he-se-qi-70386249/"
+    },
+    {
+     "title": "OLIVBLAD 欧利布拉",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/olivblad-ou-li-bu-la-zhi-wu-jia-shi-nei-hu-wai-hei-se__1010784_pe828333_s4.jpg",
+     "href": "/cn/zh/p/olivblad-ou-li-bu-la-zhi-wu-jia-shi-nei-hu-wai-hei-se-30486651/"
+    },
+    {
+     "title": "ÄSPERÖD 艾佩洛",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/aesperoed-ai-pei-luo-bian-zhuo-hei-se-bo-li-hei-se__0816819_pe773696_s4.jpg",
+     "href": "/cn/zh/p/aesperoed-ai-pei-luo-bian-zhuo-hei-se-bo-li-hei-se-90537186/"
     }
    ],
    "settings": {
@@ -208,6 +313,33 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "利用照明营造温馨氛围",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/li001",
+     "backgroundColor": null
+    },
+    {
+     "title": "STORSLINGA 杜施林",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/storslinga-du-shi-lin-led-zhi-xing-diao-deng-8-zhi-hei-se-bai-se__0982258_pe815591_s4.jpg",
+     "href": "/cn/zh/p/storslinga-du-shi-lin-led-zhi-xing-diao-deng-8-zhi-hei-se-bai-se-20599125/"
+    },
+    {
+     "title": "JÄRPLIDEN 雅普丽登",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/jaerpliden-ya-pu-li-deng-diao-deng-bai-se-bo-li-du-nie__0998174_pe822956_s4.jpg",
+     "href": "/cn/zh/p/jaerpliden-ya-pu-li-deng-diao-deng-bai-se-bo-li-du-nie-90499617/"
+    },
+    {
+     "title": "MARKFROST 玛克弗洛",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/markfrost-ma-ke-fu-luo-tai-deng-da-li-shi-hei-se__0783961_pe761588_s4.jpg",
+     "href": "/cn/zh/p/markfrost-ma-ke-fu-luo-tai-deng-da-li-shi-hei-se-70484829/"
+    }
+   ],
    "settings": {
     "traceId": "cms-Product Shelf-利用照明营造温馨氛围"
    }
@@ -230,6 +362,39 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "混搭纺织品，营造和谐外观",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/tl001",
+     "backgroundColor": null
+    },
+    {
+     "title": "KUSTFLY 库斯弗路",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kustfly-ku-si-fu-lu-dian-tao-mi-huang-se-hei-se__0980631_pe815065_s4.jpg",
+     "href": "/cn/zh/p/kustfly-ku-si-fu-lu-dian-tao-mi-huang-se-hei-se-80506963/"
+    },
+    {
+     "title": "LOHALS 鲁哈斯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lohals-lu-ha-si-ping-zhi-di-tan-zi-ran-se__0280230_pe419175_s4.jpg",
+     "href": "/cn/zh/p/lohals-lu-ha-si-ping-zhi-di-tan-zi-ran-se-80277396/"
+    },
+    {
+     "title": "RÄCKA 瑞卡",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/raecka-rui-qia-chuang-lian-gan-hei-se__0601961_pe680070_s4.jpg",
+     "href": "/cn/zh/p/raecka-rui-qia-chuang-lian-gan-hei-se-00217151/"
+    },
+    {
+     "title": "BETYDLIG 比特利",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/betydlig-bi-te-li-qiang-tian-hua-ban-tuo-jia-hei-se__0603487_pe680820_s4.jpg",
+     "href": "/cn/zh/p/betydlig-bi-te-li-qiang-tian-hua-ban-tuo-jia-hei-se-80217227/"
+    }
+   ],
    "settings": {
     "traceId": "cms-Product Shelf-混搭纺织品，营造和谐外观"
    }
@@ -250,6 +415,45 @@
     {
      "href": "/cat/de001",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "小细节带来大不同",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/de001",
+     "backgroundColor": null
+    },
+    {
+     "title": "LOMMARYD 隆马瑞",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lommaryd-long-ma-rui-jing-zi__0898178_pe816988_s4.jpg",
+     "href": "/cn/zh/p/lommaryd-long-ma-rui-jing-zi-80454313/"
+    },
+    {
+     "title": "PERSILLADE 佩希拉德",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/persillade-pei-xi-la-de-zhuang-shi-yong-hua-pen-shen-hui-se__0439713_pe592235_s4.jpg",
+     "href": "/cn/zh/p/persillade-pei-xi-la-de-zhuang-shi-yong-hua-pen-shen-hui-se-40450996/"
+    },
+    {
+     "title": "LOMVIKEN 隆维肯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lomviken-long-wei-ken-hua-kuang-hei-se__0638245_pe698795_s4.jpg",
+     "href": "/cn/zh/p/lomviken-long-wei-ken-hua-kuang-hei-se-60314309/"
+    },
+    {
+     "title": "KARAFF 卡拉夫",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/karaff-qia-la-fu-can-yong-shui-ping-tou-ming-bo-li__0711268_pe728106_s4.jpg",
+     "href": "/cn/zh/p/karaff-qia-la-fu-can-yong-shui-ping-tou-ming-bo-li-80342976/"
+    },
+    {
+     "title": "ARV BRÖLLOP 阿尔弗 布洛劳",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/arv-broellop-a-er-fu-bu-luo-lao-dai-gai-shang-cai-jia-tou-ming-bo-li__0713433_pe729526_s4.jpg",
+     "href": "/cn/zh/p/arv-broellop-a-er-fu-bu-luo-lao-dai-gai-shang-cai-jia-tou-ming-bo-li-70192661/"
     }
    ],
    "settings": {

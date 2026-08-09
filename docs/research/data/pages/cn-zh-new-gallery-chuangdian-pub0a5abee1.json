@@ -11,7 +11,7 @@
    "title": "助你一夜好眠",
    "texts": [
     "宜家有很多不同款式的床垫，可以满足刚出生的婴儿、刚会走路的宝宝和成长中孩子等各阶段儿童的不同需求。",
-    "<p>宜家全新婴儿和儿童床垫（包括可加长型床垫），保障孩子们的安全舒适睡眠。</p>",
+    "宜家全新婴儿和儿童床垫（包括可加长型床垫），保障孩子们的安全舒适睡眠。",
     "助你一夜好眠",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "助你一夜好眠",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/12/92/1292631ecfd749254811a3c61a873919.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,16 +54,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "KRUMMELUR 克鲁姆勒 婴儿床垫正反两面的触感不同，一面硬度适中，一面较硬，但都十分舒适。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/2a/bc/2abccc6e54e909dd1a79e1656d7ec0e5.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>KRUMMELUR 克鲁姆勒 婴儿床垫采用双面设计，波浪面硬度适中，光滑面相对较硬。</p>"
+    "KRUMMELUR 克鲁姆勒 婴儿床垫采用双面设计，波浪面硬度适中，光滑面相对较硬。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -68,6 +90,14 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "PLUTTEN 普鲁特恩",
+     "text": "¥299",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/plutten-pu-lu-te-en-ke-jia-chang-chuang-hai-mian-chuang-dian__0748963_pe745359_s4.jpg",
+     "href": "/cn/zh/p/plutten-pu-lu-te-en-ke-jia-chang-chuang-hai-mian-chuang-dian-20350403/"
+    }
+   ],
    "settings": null
   }
  ]

@@ -11,7 +11,7 @@
    "title": "改造你的家",
    "texts": [
     "宜家新品，LYSKRAFT 里斯卡特系列，KLIPPAN 克利帕 沙发系列，POÄNG 波昂 扶手椅 以及更多由荷兰设计师二人组Scholten & Baijings进行了改造。",
-    "<p>\"我们深受人们的创造力和当下DIY潮流的启发，与荷兰设计师二人组Scholten &amp; Baijings合作，对宜家备受欢迎的 KLIPPAN 克利帕 沙发和 PO&Auml;NG 波昂 扶手椅进行了&ldquo;改造&rdquo;，创造出一系列全新的产品和配件，让你的家焕然一新。<br />无论你希望为最爱的沙发赋予一些现代气息，还是为餐桌增添色彩细节，LYSKRAFT 里斯卡特 系列都可以让你轻松改造自己的家。\"</p>",
+    "\"我们深受人们的创造力和当下DIY潮流的启发，与荷兰设计师二人组Scholten & Baijings合作，对宜家备受欢迎的 KLIPPAN 克利帕 沙发和 POäNG 波昂 扶手椅进行了“改造”，创造出一系列全新的产品和配件，让你的家焕然一新。 无论你希望为最爱的沙发赋予一些现代气息，还是为餐桌增添色彩细节，LYSKRAFT 里斯卡特 系列都可以让你轻松改造自己的家。\"",
     "改造你的家",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "改造你的家",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e1/e4/e1e4d1b24b2028d4d05f427eec05403a.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,16 +54,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "为 KLIPPAN 克利帕 沙发和弹簧床垫床设计的 LYSKRAFT 里斯卡特 橙色支腿有着多面的几何形状。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/1c/d0/1cd0fff13391c8a50a78b3722cef6713.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><em>&ldquo;要重塑全球千家万户都在使用的经典家具，对于我们来说十分激动人心，也颇具挑战。我们俩都很喜欢这个项目。&rdquo;</em><br /><br />&mdash;&mdash;Carole Baijings\"</p>"
+    "“要重塑全球千家万户都在使用的经典家具，对于我们来说十分激动人心，也颇具挑战。我们俩都很喜欢这个项目。” ——Carole Baijings\""
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -74,16 +96,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "在 LYSKRAFT 里斯卡特 系列中，这张 POÄNG 波昂 扶手椅由不同深浅的橙色构成。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/82/d1/82d14d0d6fb78d310e72f874187e04b9.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><em>&ldquo;整个过程非常开放，他们给予了我们很大的自由，令我们可以大胆实践自己的想法。宜家是一家大而且复杂的公司因此我们很感谢他们能如此信任我们，我想最后的结果是不错的。&rdquo;</em><br /><br />&mdash;&mdash;Carole Baijings</p>"
+    "“整个过程非常开放，他们给予了我们很大的自由，令我们可以大胆实践自己的想法。宜家是一家大而且复杂的公司因此我们很感谢他们能如此信任我们，我想最后的结果是不错的。” ——Carole Baijings"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -105,16 +139,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "LYSKRAFT 里斯卡特 系列的透明玻璃碗和杯子外形宽而浅，采用多面切割几何形状。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/01/77/01772249f97f75ff4911bc1182f7bc8b.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><em>&ldquo;我们之前不知道这个过程最终会有什么样的结果，但当我们真的做到了之后，我们对结果都很满意。一想到这一系列很快就能进入千家万户，装点那么多人的家，我们就觉得很荣幸。&rdquo;</em><br />&mdash;&mdash;Stefan Scholten</p>"
+    "“我们之前不知道这个过程最终会有什么样的结果，但当我们真的做到了之后，我们对结果都很满意。一想到这一系列很快就能进入千家万户，装点那么多人的家，我们就觉得很荣幸。” ——Stefan Scholten"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -130,6 +176,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

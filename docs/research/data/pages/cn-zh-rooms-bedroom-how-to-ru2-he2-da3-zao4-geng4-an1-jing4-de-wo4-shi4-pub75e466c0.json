@@ -11,7 +11,7 @@
    "title": "如何打造更安静的卧室",
    "texts": [
     "一张凳子和FYRESDAL 费斯多 床的边缘，地板上，一些不同图案的地毯叠放在一起。",
-    "<p>减少噪音，让卧室氛围更加放松助眠。这里有三个简单又实惠的小建议，能给你带来更多宁静和舒适。</p>",
+    "减少噪音，让卧室氛围更加放松助眠。这里有三个简单又实惠的小建议，能给你带来更多宁静和舒适。",
     "如何打造更安静的卧室",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "如何打造更安静的卧室",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/23/70/23708998ffc5a4da91d87f581c5efbaf.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -50,6 +60,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "卧室窗户一侧的挂钩上悬挂着休闲毯，窗台上放着一些植物。窗户下方是一张床。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/32921c3b935ea9dd/original/PH171273-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -76,6 +96,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "卧室一角，地板上叠放着许多不同图案的地毯，还有一张凳子和床角。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/15ce559e7ba2a275/original/PH150734-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -102,16 +132,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "墙上的窗帘杆上挂着FOULUM 法奥鲁 灰白条纹地毯和居家服，前方是一张床和一张长凳。",
+     "image": "https://file.app.ikea.cn/images/74/75/7475a7b298f0c41fe51ff38efa42e77d.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>宜家期待看到顾客发挥自己的创意。放手去做吧！但请注意，改装或调整宜家产品，使其不能再次出售或用于原用途，即意味着放弃宜家商业品质保证和你的退货权利。</p>"
+    "宜家期待看到顾客发挥自己的创意。放手去做吧！但请注意，改装或调整宜家产品，使其不能再次出售或用于原用途，即意味着放弃宜家商业品质保证和你的退货权利。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

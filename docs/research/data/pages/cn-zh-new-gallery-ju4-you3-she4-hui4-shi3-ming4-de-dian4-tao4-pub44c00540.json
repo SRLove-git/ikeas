@@ -11,7 +11,7 @@
    "title": "具有社会使命的垫套",
    "texts": [
     "一间充满梦幻气息的卧室，床尾长凳上摆有粉色和绿色的 KLARAFINA 可拉菲娜 和 MOAKAJSA 沐奥柯 垫套。",
-    "<p>全新 KLARAFINA 可拉菲娜 和 MOAKAJSA 沐奥柯 垫套不仅是美丽的装饰品，最令人激动的是它们背后的动人故事。它们均由手工织造而成，来自致力于长期改善女性手工艺人生活水平的印度社会企业的一项计划。</p>",
+    "全新 KLARAFINA 可拉菲娜 和 MOAKAJSA 沐奥柯 垫套不仅是美丽的装饰品，最令人激动的是它们背后的动人故事。它们均由手工织造而成，来自致力于长期改善女性手工艺人生活水平的印度社会企业的一项计划。",
     "具有社会使命的垫套",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "具有社会使命的垫套",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d0/72/d072086199e164f42c481ca5fa9464d4.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -51,6 +61,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "两个粉色和绿色的 KLARAFINA 可拉菲娜 垫套，边缘为彩色流苏。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b2/0e/b20e4f3b8f2fdb5977b1eb885f0e822b.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "特写：MOAKAJSA 沐奥柯 垫套绿色一面饰有粉色和黄色刺绣，角落饰有粉色绒球。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e8/15/e81507653422390d510504fb105eb16d.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "手工制作，别具一格 KLARAFINA 可拉菲娜 和 MOAKAJSA 沐奥柯 垫套由来自更可持续来源的纯棉手工编织而成。双面可用，因此你可以轻松改变外观，每一款产品都是具有社会使命的独特存在。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/b2/0e/b20e4f3b8f2fdb5977b1eb885f0e822b.jpg",
+     "href": null
+    },
+    {
+     "heading": "从流苏到绒球 MOAKAJSA 沐奥柯 和 KLARAFINA 可拉菲娜 垫套饰有刺绣，绒球或流苏等精致的装饰细节，手感更舒适。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/e8/15/e81507653422390d510504fb105eb16d.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   }
  ]

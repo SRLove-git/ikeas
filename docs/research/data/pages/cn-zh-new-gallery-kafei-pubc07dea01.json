@@ -11,7 +11,7 @@
    "title": "做自己的咖啡师！",
    "texts": [
     "使用宜家全新不锈钢咖啡和茶产品，自己就能做咖啡师。",
-    "<p>查看宜家全新咖啡和茶产品，无论是摩卡壶，还是蜂蜜滴头，这里有你制作饮品需要用到的各种产品。</p>",
+    "查看宜家全新咖啡和茶产品，无论是摩卡壶，还是蜂蜜滴头，这里有你制作饮品需要用到的各种产品。",
     "做自己的咖啡师！",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "做自己的咖啡师！",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/57/04/570497cac5670ad7edc116abfbdee37d.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,16 +54,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "宜家 ÖVERST 金属过滤器让咖啡香味更加浓郁。它可以取代纸质过滤器，能够重复使用，更加可持续。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a4/27/a4270eb533d198584765a8819d44b2e5.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>用 &Ouml;VERST 金属过滤器冲泡出来的咖啡更加香浓，而且无需使用滤纸，更加环保。</p>"
+    "用 öVERST 金属过滤器冲泡出来的咖啡更加香浓，而且无需使用滤纸，更加环保。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -74,16 +96,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "宜家 FÖRÄDLA 福艾德拉 三层上菜架可盛放从主菜到点心的各类美食。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/cf/df/cfdf71c3051166e7d8ec09f05f64e468.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>F&Ouml;R&Auml;DLA 福艾德拉 上菜架的三层托盘可以取下，调整高度，适合盛放从主菜到点心的各类美食，为各种场合增添欢乐的氛围。</p>"
+    "FöRäDLA 福艾德拉 上菜架的三层托盘可以取下，调整高度，适合盛放从主菜到点心的各类美食，为各种场合增添欢乐的氛围。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -96,6 +130,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

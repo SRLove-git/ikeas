@@ -11,7 +11,7 @@
    "title": "小居室开放式衣柜",
    "texts": [
     "这款开放式衣柜也可以用作小居室房间隔板。",
-    "<p>小居室用来摆放衣柜的空间不多。但是如果你根本不需要衣柜呢？了解一下这个用衣柜作小居室房间隔板的创意。 </p>",
+    "小居室用来摆放衣柜的空间不多。但是如果你根本不需要衣柜呢？了解一下这个用衣柜作小居室房间隔板的创意。",
     "小居室开放式衣柜",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "小居室开放式衣柜",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d6/fe/d6fe581ba57899fa77bd87fc6af17ac4.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,26 +54,40 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "可存放折叠和悬挂衣物的衣柜分隔出两个房间。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ea/21/ea21b6d24c0558abc0de49e41bdc97d5.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>这款房间隔断衣柜让我们喜欢的另一点是它的功能和普通衣柜没有差别。其中既有可以悬挂连衣裙和衬衫的空间，也有抽屉和储物件，用来存放可折叠的衣物，如毛衣。我们也非常喜欢使用配套的盒子来存放一些不想展示在外的物件。 </p>"
+    "这款房间隔断衣柜让我们喜欢的另一点是它的功能和普通衣柜没有差别。其中既有可以悬挂连衣裙和衬衫的空间，也有抽屉和储物件，用来存放可折叠的衣物，如毛衣。我们也非常喜欢使用配套的盒子来存放一些不想展示在外的物件。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>制作人</strong></p>\n<p>室内设计师：Martina Andersson<br />摄影师：Sandra Werud</p>"
+    "制作人 室内设计师：Martina Andersson 摄影师：Sandra Werud"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

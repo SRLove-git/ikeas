@@ -11,7 +11,7 @@
    "title": "一个与家里其他房间无缝融合的美丽浴室",
    "texts": [
     "HEMNES/RÄTTVIKEN 汉尼斯/拉特维肯 洗脸池柜和 HAMNSKÄR 汉斯卡 洗脸池龙头提供整洁便利的储物空间，风格传统，适合各类人群。",
-    "<p>HEMNES 汉尼斯 提供多样的开放或封闭式储物解决方案，打造平和、整洁的传统浴室，与其他相连的房间和谐相融，配合你的个性化外观，满足你的个性化需求。</p>",
+    "HEMNES 汉尼斯 提供多样的开放或封闭式储物解决方案，打造平和、整洁的传统浴室，与其他相连的房间和谐相融，配合你的个性化外观，满足你的个性化需求。",
     "一个与家里其他房间无缝融合的美丽浴室",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "一个与家里其他房间无缝融合的美丽浴室",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/8c/70/8c703dbad51c4e34cc4d0813a38d43df.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -39,6 +49,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "HEMNES 汉尼斯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/hemnes-han-ni-si-dan-men-jing-gui-bai-se__0721675_pe733348_s4.jpg",
+     "href": "/cn/zh/p/hemnes-han-ni-si-dan-men-jing-gui-bai-se-00217679/"
+    },
+    {
+     "title": "FRÄCK 富拉克",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/fraeck-fu-la-ke-jing-zi-bu-xiu-gang__0637648_pe698438_s4.jpg",
+     "href": "/cn/zh/p/fraeck-fu-la-ke-jing-zi-bu-xiu-gang-00181982/"
+    }
+   ],
    "settings": null
   }
  ]

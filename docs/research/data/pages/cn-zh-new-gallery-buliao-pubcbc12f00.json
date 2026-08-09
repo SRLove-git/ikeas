@@ -20,6 +20,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -30,16 +32,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>本月我们推出了五款全新的布料，可让家（或衣柜）变得更加个性和富有活力！</p>"
+    "本月我们推出了五款全新的布料，可让家（或衣柜）变得更加个性和富有活力！"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -60,16 +66,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "一位跳舞的女士穿着一件用带桔子图案的布料制作的衬衫，以及灰色和黑色的裙子。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/88/20/8820bc909d22178b6be01406df933fc3.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>用缝纫机和我们全新的趣味印花米布发挥创意吧，所有米布可在60度的温水中清洗，布料均采用来自更可持续来源的纯棉打造。</p>"
+    "用缝纫机和我们全新的趣味印花米布发挥创意吧，所有米布可在60度的温水中清洗，布料均采用来自更可持续来源的纯棉打造。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -89,16 +107,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "晒衣绳上晾着印有植物、厨用器具和食物图案的布料。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/16/c7/16c7fad22711cb459b93f24f7a3bd01d.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>很多图案的创作灵感来自食品，如：ORANGELILJA 奥朗利亚 布料主打亮丽的橙色，PIPDÅN 彼丹 布料可与同色系厨用器具和食品随意混搭。</p>"
+    "很多图案的创作灵感来自食品，如：ORANGELILJA 奥朗利亚 布料主打亮丽的橙色，PIPDÅN 彼丹 布料可与同色系厨用器具和食品随意混搭。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -111,6 +141,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

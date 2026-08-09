@@ -11,7 +11,7 @@
    "title": "如何使洗衣更轻松",
    "texts": [
     "BOAXEL 博阿克塞 系列配白色的搁板，上面放着装有洗衣粉的玻璃罐以及PURRPINGLA 普平拉 储物盒。",
-    "<p>新的季节，遇见更有条理的自己。而洗衣的差事，包括洗涤、烘干、分类和叠衣服，因有了宜家产品的辅助，变得更加轻松有趣。</p>",
+    "新的季节，遇见更有条理的自己。而洗衣的差事，包括洗涤、烘干、分类和叠衣服，因有了宜家产品的辅助，变得更加轻松有趣。",
     "如何使洗衣更轻松",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "如何使洗衣更轻松",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/2b/1d/2b1d9ccfdc21774f11113dcc1f5cf2ca.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "320008807bcf4c8c8b2399c233cf6d69"
    }
@@ -52,6 +62,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "洗衣房中间有一张棕色的木质桌子，白色的墙上安装了BOAXEL 博阿克塞 系列产品。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/3b0cfc1ce98449ee/original/PH175667.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "d9e66d424fea40a486d12b291278c84f"
    }
@@ -80,6 +100,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "地板上有一个半满的PURRPINGLA 普平拉 洗衣袋，旁边是一张棕色的木质桌子。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/3aa92b84b46df4e6/original/PH175668.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "6a6c789b96f7416198f9bfe891e30d7e"
    }
@@ -108,6 +138,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个白色的BOAXEL 博阿克塞 搁板上有三个玻璃罐，里面装满了洗衣粉。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/374784b449796a9c/original/PH175670-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "3313764534784eb3b1cfc82615c9be25"
    }
@@ -136,6 +176,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一张棕色的木质桌子，中间是一个半满的SNIDAD 斯尼达 洗衣篮。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/6ac9dfdea0dca4b/original/PH175671.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "3f1a2726b0c34da3bc7592f5b59dc869"
    }
@@ -173,6 +223,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "保留，赠送，展示",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a5/68/a568d82a69cf86f1f858e42e39f63428.jpg",
+     "href": "/cn/zh/rooms/living-room/how-to/bao3-liu2-zeng4-song4-zhan3-shi4-pub1f866570",
+     "backgroundColor": "#C1DCDB"
+    },
+    {
+     "title": "充分利用开放和隐藏的储物空间",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/df/f3/dff36fb37f20369db451466d3c438a7b.jpg",
+     "href": "/cn/zh/rooms/kitchen/how-to/ru2-he2-yin3-cang2-za2-luan4-zhan3-shi4-jia1-pin3-pub647eecc0",
+     "backgroundColor": "#CCD0CD"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "3d4dd4f06f284ad7aef601157675dd8d"
    }

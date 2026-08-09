@@ -22,6 +22,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "厨房",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e0/dd/e0dd9c30b2305ba6809722557bd57890.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Hero-厨房"
    }
@@ -40,6 +50,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Pdf List-"
    }
@@ -58,6 +70,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Pdf List-"
    }
@@ -76,6 +90,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Pdf List-"
    }
@@ -95,6 +111,8 @@
      "text": "kitchen_compressed.pdf"
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Pdf List-"
    }
@@ -114,6 +132,8 @@
      "text": "IKEA_kitchens_bg_cover_zh_CN.pdf"
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Pdf List-"
    }
@@ -126,6 +146,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Page List-"
    }
@@ -174,6 +196,51 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "浴室",
+     "text": "浴室购物指南",
+     "image": "https://file.app.ikea.cn/images/c5/4a/c54a05c673f4c31471b9972c83ddb185.jpg",
+     "href": "/cn/zh/customer-service/product-support/buying-guides/bathroom-buying-guides-pub471a91d1",
+     "backgroundColor": null
+    },
+    {
+     "title": "卧室",
+     "text": "卧室购物指南",
+     "image": "https://file.app.ikea.cn/images/d2/51/d251eec8facfcce761d74a3cec1659f7.jpg",
+     "href": "/cn/zh/customer-service/product-support/buying-guides/bedroom-buying-guides-pub4a42a241",
+     "backgroundColor": null
+    },
+    {
+     "title": "餐厅",
+     "text": "餐桌购物指南",
+     "image": "https://file.app.ikea.cn/images/1b/e0/1be0d2c10f09606df1699427432ee05e.png",
+     "href": "/cn/zh/customer-service/product-support/buying-guides/dining-buying-guides-pub362b01e1",
+     "backgroundColor": null
+    },
+    {
+     "title": "专业办公室",
+     "text": "专业办公室购物指南",
+     "image": "https://file.app.ikea.cn/images/ef/9e/ef9e038a9a6f94a17f485686bc374d8d.jpg",
+     "href": "/cn/zh/customer-service/product-support/buying-guides/home-office-buying-guides-pub9a63a9c1",
+     "backgroundColor": null
+    },
+    {
+     "title": "客厅",
+     "text": "客厅购物指南",
+     "image": "https://file.app.ikea.cn/images/91/f9/91f92016a4737322a69b730761edf121.jpg",
+     "href": "/cn/zh/customer-service/product-support/buying-guides/living-room-buying-guides-pub368f0391",
+     "backgroundColor": null
+    },
+    {
+     "title": "户外",
+     "text": "户外购物指南",
+     "image": "https://file.app.ikea.cn/images/a9/6d/a96d4948381c581db9834b2af766dfb2.jpg",
+     "href": "/cn/zh/customer-service/product-support/buying-guides/outdoor-buying-guides-pub6b1d68f1",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Page List-"
    }
@@ -196,6 +263,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Link - button or text-"
    }

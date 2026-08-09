@@ -11,7 +11,7 @@
    "title": "轻松乐享在家度假",
    "texts": [
     "宜家 SJÄLLAND 索兰德 深灰色一桌二椅组合是一款灵活的户外解决方案，可以用于装点家内度假或阳台派对，或用于保持环境整洁有序。",
-    "<p>没钱度假？没关系，只要装饰阳台，在家也能度假！邀请朋友前来，尽享生活乐趣。</p>",
+    "没钱度假？没关系，只要装饰阳台，在家也能度假！邀请朋友前来，尽享生活乐趣。",
     "轻松乐享在家度假",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "轻松乐享在家度假",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/fc/9f/fc9ff9459782708e16ef54cb92978865.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -39,6 +49,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

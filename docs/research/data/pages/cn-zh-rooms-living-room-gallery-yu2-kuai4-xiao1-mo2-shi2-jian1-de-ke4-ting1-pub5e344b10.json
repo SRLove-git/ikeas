@@ -11,7 +11,7 @@
    "title": "愉快消磨时间的客厅",
    "texts": [
     "一间现代风格的客厅，里面有玻璃储物柜、褐色的真皮沙发和线条圆润的深色木制茶几。",
-    "<p>世界上只有一个你，也只有你最懂得自己想要怎样的家。在客厅中展示你心爱的物品，再将其余的物品巧妙地存放在视线之外。因为家不仅能体现你的个性，也可以成为你的依靠。</p>",
+    "世界上只有一个你，也只有你最懂得自己想要怎样的家。在客厅中展示你心爱的物品，再将其余的物品巧妙地存放在视线之外。因为家不仅能体现你的个性，也可以成为你的依靠。",
     "愉快消磨时间的客厅",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "愉快消磨时间的客厅",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/6a/d0/6ad054883c233f944fe1705c31e0a078.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -46,6 +56,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "圆形的LISTERBY 丽思德比 深色木制茶几，上面摆放着一盏台灯和一些纸，旁边有一张沙发。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/62570b1ed6bed11d/original/PH156960-crop004.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -68,6 +88,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一张宜家LANDSKRONA 兰德克纳 皮革沙发，上面放着两个靠垫。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/1a9ab0da6b6544c2/original/PH156959-crop005.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -90,6 +120,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "白色框架的宜家MILSBO 米斯伯 玻璃柜，里面的搁板上摆放着各种展示品，前面有一张桌子和一盏灯。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/65cd571746188469/original/PH157609-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -111,6 +151,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "深灰色仿混凝土效果的宜家BESTÅ 贝达 储物单元，带柜门和弧形的金属支腿。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/2aa56b8d67e53138/original/PH157608-crop004.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -126,6 +176,26 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "LANDSKRONA 兰德克纳",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/landskrona-lan-de-ke-na-san-ren-sha-fa-ge-lan-bang-si-ta-jin-zong-mu-tou__1576948_pe1032847_s4.jpg",
+     "href": "/cn/zh/p/landskrona-lan-de-ke-na-san-ren-sha-fa-ge-lan-bang-si-ta-jin-zong-mu-tou-69270297/"
+    },
+    {
+     "title": "SVARTHÖ 斯瓦特赫",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/svarthoe-si-wa-te-he-dian-tao-mi-huang-se__0474483_pe632019_s4.jpg",
+     "href": "/cn/zh/p/svarthoe-si-wa-te-he-dian-tao-mi-huang-se-70342830/"
+    },
+    {
+     "title": "EVEDAL 艾弗道尔",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/evedal-ai-fu-dao-er-luo-di-deng-da-li-shi-hui-se__0663195_pe712324_s4.jpg",
+     "href": "/cn/zh/p/evedal-ai-fu-dao-er-luo-di-deng-da-li-shi-hui-se-10357914/"
+    }
+   ],
    "settings": null
   }
  ]

@@ -11,7 +11,7 @@
    "title": "适合作为主座座椅",
    "texts": [
     "宜家 INGATORP 英格托 扶手椅有黑色框架配灰色垫套、白色框架配米色垫套两种款式可选。这款椅子将靠背装饰细节等传统设计元素和现代软垫的舒适感结合起来。",
-    "<p>本月推出两款复古风格的椅子。</p><p>这款 INGATORP 英格托 椅子以18世纪的法式椅子为灵感。它将靠背装饰细节等传统设计元素和现代软垫的舒适感结合起来。</p>",
+    "本月推出两款复古风格的椅子。这款 INGATORP 英格托 椅子以18世纪的法式椅子为灵感。它将靠背装饰细节等传统设计元素和现代软垫的舒适感结合起来。",
     "适合作为主座座椅",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "适合作为主座座椅",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b4/c7/b4c7998a9329617b69848fc07800f765.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,16 +54,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "特写：宜家 INGATORP 英格托 黑色扶手椅。这款椅子的扶手比常规扶手短，因此可以放置在桌子下面，同时仍然提供良好的舒适感。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/00/05/0005eeaa8868a52fda50f12777ed2883.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>椅子尺寸宽大，但扶手较短，因此可以放置在桌子下面，同时仍然提供良好的舒适感，特别适合用于长时间的晚餐。</p>"
+    "椅子尺寸宽大，但扶手较短，因此可以放置在桌子下面，同时仍然提供良好的舒适感，特别适合用于长时间的晚餐。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -75,16 +97,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "宜家 REMSTA 瑞斯塔 扶手椅将1960年代的风情带入当代，提供深蓝色、深灰色和米黄色的天鹅绒垫套供选。精巧简洁，适合任何房间，造型经典，永不过时。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/08/1b/081bfdee24255a38c121f557ffb55916.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>精巧美观的 REMSTA 瑞斯塔 扶手椅有一种历经时光的感觉，而且的确是以1960年代产品系列中的一款扶手椅作为灵感源泉。</p>"
+    "精巧美观的 REMSTA 瑞斯塔 扶手椅有一种历经时光的感觉，而且的确是以1960年代产品系列中的一款扶手椅作为灵感源泉。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -106,16 +140,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "全新的宜家 REMSTA 瑞斯塔 扶手椅选用柔软、奢华的天鹅绒垫套，耐磨损，带纽扣的靠背造型可为背部提供良好支撑。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/0e/41/0e4158625d876793b28037bc4a4a1fdd.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>这款扶手椅的固定式垫套为天鹅绒材质，免除灰尘，有深蓝色、深灰色或米黄色供选，可增添复古气息！</p>"
+    "这款扶手椅的固定式垫套为天鹅绒材质，免除灰尘，有深蓝色、深灰色或米黄色供选，可增添复古气息！"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -131,6 +177,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

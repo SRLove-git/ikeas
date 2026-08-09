@@ -21,6 +21,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220210/770140aa11994bfaa2222b094bf89ee8.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "d205dbc649f74c569ff153b39b28d1e0"
    }
@@ -31,13 +41,29 @@
    "texts": [
     "two-columns",
     "column",
-    "<h1>焕新正当时<br />从全能厨房开始</h1>",
+    "焕新正当时 从全能厨房开始",
     "pub-text",
     "NO",
-    "<p>盎然春意，崭新开始。</p>\n<p>你是否已在期待焕新你的活力厨房？宜家提供丰富多样的产品选择，满足不同风格与预算，无论空间大小，皆可为你量身定制全能厨房！</p>"
+    "盎然春意，崭新开始。 你是否已在期待焕新你的活力厨房？宜家提供丰富多样的产品选择，满足不同风格与预算，无论空间大小，皆可为你量身定制全能厨房！"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "columns": [
+    {
+     "heading": null,
+     "text": "焕新正当时 从全能厨房开始",
+     "image": null,
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "盎然春意，崭新开始。 你是否已在期待焕新你的活力厨房？宜家提供丰富多样的产品选择，满足不同风格与预算，无论空间大小，皆可为你量身定制全能厨房！",
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "ab5db0e0b213417c81561ac57edc51d7"
    }
@@ -49,7 +75,7 @@
     "IMAGE",
     "wide",
     "image-text-landscape",
-    "<p>选择宜家厨房设计服务：</p>\n<p>&bull; 品质保证，持久耐用<br />&bull; 独特外观，不同风格，更多选择<br />&bull; 专业配件，优化空间</p>\n<p>&nbsp;</p>\n<p><a href=\"https://kitchen.web.ikea.cn/kitchen-offline/?source=leads\">点击快速获取厨房报价 &rsaquo;</a></p>",
+    "选择宜家厨房设计服务： • 品质保证，持久耐用 • 独特外观，不同风格，更多选择 • 专业配件，优化空间 点击快速获取厨房报价 ›",
     "打造你的梦想厨房",
     "/h5page/?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fkitchen%3Fchannel%3Dkitchen_IRW%2520M2%26cl_sr%3DIRW%2520M2"
    ],
@@ -75,6 +101,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220210/4dc97a33726c4667844c1a3b453b6223.jpg",
+     "href": null,
+     "backgroundColor": "#597862"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "66e4bb9d598c41559a4f5997e4908191"
    }
@@ -123,6 +159,65 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "ENHET 安纳特 厨房系列",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220210/a32145a4e8c7439aaa365617f1d33b0f.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/h5page/?url=%23300fefde1f494f9388b1fbd1c2b5d016",
+     "backgroundColor": "#f5f5f5"
+    },
+    {
+     "title": "METOD 米多 系列",
+     "text": "借助设计工具，规划你的个性METOD 米多 厨房。",
+     "image": "https://file.app.ikea.cn/cms/u/20220210/949332e3a6a345eeaa1349a613cd98c0.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/h5page/?url=%23dfd7e1b4d0884210bb75c258a03869e5",
+     "backgroundColor": "#f5f5f5"
+    },
+    {
+     "title": "厨房收纳",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220210/e3d2052918684525b898a4636e3df227.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/h5page/?url=%238cd0b67d1c164b3ba79b9382e4f5c963",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "厨房岛台",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220210/809872a46acb4cc6a40c77bbce459828.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/h5page/?url=%23be4b94f41101484c89fc032c3ced3d0b",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "厨房照明",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220210/4038d6fa582a46038aa9d02e3edc17c6.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/h5page/?url=%23f01f239d53174bafbabfa8f03b838c65",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "餐边柜",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220210/1faf9211d8ed4f38898d2515776a725e.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/h5page/?url=65bdd475af18479893a3254553526616",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "儿童厨房产品",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220210/3347ed2fc2e848a381270ef8c16d46d7.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/h5page/?url=%23a3cf885220ed420386a12c2a3a87fbd0",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "宜家厨房设计服务",
+     "text": "宜家厨房设计服务",
+     "image": "",
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fkitchen%3Fchannel%3Dkitchen_IRW%2520M2%26cl_sr%3DIRW%2520M2",
+     "backgroundColor": "#111111"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "f983d465493845898cc73f65ec403a00"
    }
@@ -130,11 +225,11 @@
   {
    "type": "pub-text",
    "title": null,
-   "texts": [
-    "<p>&nbsp;</p>\n<p>&nbsp;</p>"
-   ],
+   "texts": [],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "d9cb32bf5ea74de58104abc75a1d0fb2"
    }
@@ -164,6 +259,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "快速获取厨房报价",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220210/0e0c6257455d4f6f95a19bf896d2d255.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fwww.ikea.cn%2Fcn%2Fzh%2Faddon-planner%2Fkitchen-planner%2F",
+     "backgroundColor": null
+    },
+    {
+     "title": "1对1厨房设计服务",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220210/84f5c71a5d2440efb281bc374acc1043.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fkitchen%3Fchannel%3Dkitchen_IRW%2520M2%26cl_sr%3DIRW%2520M2",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "4a49c9a318ac4f6baab80c1317bb676f"
    }
@@ -181,6 +293,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "abc2691791034ac7be342528a3f26643"
    }
@@ -191,6 +305,8 @@
    "texts": [],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "053a856fcf0346bfb73d0ee30e60f910"
    }
@@ -239,6 +355,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/9be9468b75d4c89/original/PH182077-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220210/baf72287b4b0446e93c22ec17dd71d33.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/customer-service/returns-claims/guarantee/chufang-pubf2540d3b",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220210/d55f37dedb1c46e0af877af55da5965c.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/283bc45e8c8215d4/original/PH172280-crop003.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/178ef1cd1cf2671/original/PH172918.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "2543c69e0b70411d95a69d43d57cae14"
    }
@@ -261,6 +415,15 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "更灵活的开放式方案",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/search/products?q=ENHET",
+     "backgroundColor": null
+    }
+   ],
    "settings": {
     "traceId": "cf4826cd205148c8bbcd9d392232f1d7"
    }
@@ -270,7 +433,7 @@
    "title": null,
    "texts": [
     "pub-column",
-    "<h3>ENHET 安纳特 配件，提供额外的储物功能</h3>\n<p>在橱柜之外，你还可以利用ENHET 安纳特 的配件满足更多的储物需求。配件种类繁多，细化各种灵活设计，自己就可以组装搭配，拓展你的厨房收纳。</p>",
+    "ENHET 安纳特 配件，提供额外的储物功能 在橱柜之外，你还可以利用ENHET 安纳特 的配件满足更多的储物需求。配件种类繁多，细化各种灵活设计，自己就可以组装搭配，拓展你的厨房收纳。",
     "pub-text",
     "/p/10481777?artType=art",
     "NO",
@@ -298,6 +461,43 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220210/4386a14ef7a94ffc90dbb34dcabf9bc3.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/10481777?artType=art",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220210/5057eb15c92a48fd8995674264ce3ae5.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/50481775?artType=art",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "ENHET 安纳特 配件，提供额外的储物功能 在橱柜之外，你还可以利用ENHET 安纳特 的配件满足更多的储物需求。配件种类繁多，细化各种灵活设计，自己就可以组装搭配，拓展你的厨房收纳。",
+     "text": null,
+     "image": null,
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20220210/4386a14ef7a94ffc90dbb34dcabf9bc3.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/10481777?artType=art"
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20220210/5057eb15c92a48fd8995674264ce3ae5.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/50481775?artType=art"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "8a475056ee34445fa1e9c05926a39ce6"
    }
@@ -315,6 +515,62 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "ENHET 安纳特",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/enhet-an-na-te-xuan-zhuan-ge-ban-mei-hei-se__0805588_pe769610_s4.jpg",
+     "href": "/cn/zh/p/enhet-an-na-te-xuan-zhuan-ge-ban-mei-hei-se-20481772/"
+    },
+    {
+     "title": "ENHET 安纳特",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/enhet-an-na-te-xuan-gua-ge-ban-nei-pei-jian-mei-hei-se__1139714_pe880446_s4.jpg",
+     "href": "/cn/zh/p/enhet-an-na-te-xuan-gua-ge-ban-nei-pei-jian-mei-hei-se-50481775/"
+    },
+    {
+     "title": "SKATTÅN 斯卡唐恩",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/skattan-si-qia-tang-en-sheng-ju__0805592_pe769612_s4.jpg",
+     "href": "/cn/zh/p/skattan-si-qia-tang-en-sheng-ju-10481777/"
+    },
+    {
+     "title": "ENHET 安纳特",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/enhet-an-na-te-gua-gou-mei-hei-se__0805577_pe769604_s4.jpg",
+     "href": "/cn/zh/p/enhet-an-na-te-gua-gou-mei-hei-se-00481773/"
+    },
+    {
+     "title": "ENHET 安纳特",
+     "text": "¥29.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/enhet-an-na-te-gua-gou-zhuan-yong-gan-mei-hei-se__0805580_pe769606_s4.jpg",
+     "href": "/cn/zh/p/enhet-an-na-te-gua-gou-zhuan-yong-gan-mei-hei-se-20481767/"
+    },
+    {
+     "title": "ENHET 安纳特",
+     "text": "¥39.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/enhet-an-na-te-gua-gou-zhuan-yong-gan-mei-hei-se__0805584_pe769608_s4.jpg",
+     "href": "/cn/zh/p/enhet-an-na-te-gua-gou-zhuan-yong-gan-mei-hei-se-80481769/"
+    },
+    {
+     "title": "ENHET 安纳特",
+     "text": "¥9.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/enhet-an-na-te-gua-gou-bai-se__0805579_pe769605_s4.jpg",
+     "href": "/cn/zh/p/enhet-an-na-te-gua-gou-bai-se-80481774/"
+    },
+    {
+     "title": "ENHET 安纳特",
+     "text": "¥29.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/enhet-an-na-te-gua-gou-zhuan-yong-gan-bai-se__0805582_pe769607_s4.jpg",
+     "href": "/cn/zh/p/enhet-an-na-te-gua-gou-zhuan-yong-gan-bai-se-00481768/"
+    },
+    {
+     "title": "ENHET 安纳特",
+     "text": "¥39.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/enhet-an-na-te-gua-gou-zhuan-yong-gan-bai-se__0805586_pe769609_s4.jpg",
+     "href": "/cn/zh/p/enhet-an-na-te-gua-gou-zhuan-yong-gan-bai-se-60481770/"
+    }
+   ],
    "settings": {
     "traceId": "26d369d167de40f0b9f74b880ca6d672"
    }
@@ -361,6 +617,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "高光白色打造温馨厨房",
+     "text": "这间高光泽色的厨房正适合现代风格的家。易于清洁的材质和俐落的几何线条，出色彰显你的个性厨房风格！同时，它还兼顾了实用性，配有一体式把手，方便开关柜门。",
+     "image": "https://file.app.ikea.cn/cms/u/20220210/6bbf2b0c9bcb42b8a42dddd19e09dca8.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/kitchen/voxtorp-wo4-tuo1-pu3-gao1-guang1-ze2-bai2-se4-chu2-fang2-zhi3-nan2-pub2191a21d",
+     "backgroundColor": "#d9c79f"
+    },
+    {
+     "title": "工业风格的厨房“绿洲”",
+     "text": "既专业，又极富传统风格。兼顾多方面需求的宜家厨房能成为每位家中大厨的好帮手。深绿色的厨板，将厨房变成家里的一片“绿洲”；科学的规划与巧妙的设计，为你带来出色体验，",
+     "image": "https://file.app.ikea.cn/cms/u/20220210/01470a524f7e4e9da630c8164e08ded4.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/kitchen/bodbyn-bo2-de2-bi3-shen1-l4-se4-chu2-fang2-zhi3-nan2-pub371460ad",
+     "backgroundColor": "#5e7c66"
+    },
+    {
+     "title": "浏览更多厨房案例",
+     "text": "发现喜欢的风格，和满足需求的解决方案",
+     "image": "https://file.app.ikea.cn/cms/u/20220210/5328c67975214aecb493c250bc1c03f0.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/kitchen/gallery/",
+     "backgroundColor": "#cca45e"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "f6d8b2286c7d466a87759f468e2e3e88"
    }
@@ -409,6 +689,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/496700625ac1d1f4/original/PH165363.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220210/ced9e9d69ae5447b85077fc144e585b2.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/customer-service/returns-claims/guarantee/chufang-pubf2540d3b",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/18e95ba29067e839/original/PH182013-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/76ae4a34ccbe1520/original/PH165187-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/71677bac72626d19/original/PH177204-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "dbea590dcbaa494a885e7ccc4029deb5"
    }
@@ -418,7 +736,7 @@
    "title": null,
    "texts": [
     "pub-column",
-    "<h3>厨房台面，适合每一种风格和预算</h3>\n<p>我们的厨房操作台面材料丰富多样，每一款都具有自己的独特优势。无论你选择哪款操作台面，都能经久耐用，同时我们还提供<strong>25年品质保证。</strong></p>",
+    "厨房台面，适合每一种风格和预算 我们的厨房操作台面材料丰富多样，每一款都具有自己的独特优势。无论你选择哪款操作台面，都能经久耐用，同时我们还提供25年品质保证。",
     "pub-text",
     "/cat/24264",
     "NO",
@@ -442,13 +760,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220210/7775f785e8f542789e7c2878554cf66b.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220210/057112ab1bc84903bc4c7c317c2eefa1.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "厨房台面，适合每一种风格和预算 我们的厨房操作台面材料丰富多样，每一款都具有自己的独特优势。无论你选择哪款操作台面，都能经久耐用，同时我们还提供25年品质保证。",
+     "text": null,
+     "image": null,
+     "href": "/cn/zh/cat/24264"
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20220210/7775f785e8f542789e7c2878554cf66b.jpg?x-oss-process=style/medium",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20220210/057112ab1bc84903bc4c7c317c2eefa1.jpg?x-oss-process=style/medium",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "7be487d2306947d0aff5807356e8a2e3"
    }
   },
   {
    "type": "pub-curated-gallery",
-   "title": "METOD 米多 抽屉配件，一切井然有序 ",
+   "title": "METOD 米多 抽屉配件，一切井然有序",
    "texts": [
     "/search/products?q=UPPDATERA",
     "NO",
@@ -475,6 +830,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220210/97f3142cfcda418c9ec641c3a81307bb.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220210/0e1a1115ba4145da898930a0b4b63570.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cf36ee3a0e3f42d3acf4146cbb0f46f7"
    }
@@ -492,6 +864,14 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "UPPDATERA 乌普道拉",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/uppdatera-wu-pu-dao-la-chou-ti-shou-na-dong-dong-ban-mei-hei-se__0973098_pe811934_s4.jpg",
+     "href": "/cn/zh/p/uppdatera-wu-pu-dao-la-chou-ti-shou-na-dong-dong-ban-mei-hei-se-10486421/"
+    }
+   ],
    "settings": {
     "traceId": "7e20aa83b36949f4b5c188cdb1a92b85"
    }
@@ -501,7 +881,7 @@
    "title": null,
    "texts": [
     "pub-column",
-    "<h2>内部配件，别有洞天</h2>\n<p>厨房转角处的物品需要费力拿取？调料罐放在台面上稍显凌乱？我们功能强大的内配件可以解决这些问题，外观上看起来整洁有序，并且能充分利用内部空间。</p>",
+    "内部配件，别有洞天 厨房转角处的物品需要费力拿取？调料罐放在台面上稍显凌乱？我们功能强大的内配件可以解决这些问题，外观上看起来整洁有序，并且能充分利用内部空间。",
     "pub-text",
     "/p/80297276?artType=art",
     "NO",
@@ -529,6 +909,43 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220210/8088643974044209891dbadb6f087d15.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/80297276?artType=art",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220210/ee61c0d906ba4f06a796f0b11b60262c.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/90271271?artType=art",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "内部配件，别有洞天 厨房转角处的物品需要费力拿取？调料罐放在台面上稍显凌乱？我们功能强大的内配件可以解决这些问题，外观上看起来整洁有序，并且能充分利用内部空间。",
+     "text": null,
+     "image": null,
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20220210/8088643974044209891dbadb6f087d15.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/80297276?artType=art"
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20220210/ee61c0d906ba4f06a796f0b11b60262c.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/90271271?artType=art"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "ce82b2882ebf4497bbbb4bb2b844256b"
    }
@@ -549,6 +966,26 @@
     {
      "href": "/cat/24255",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "MAXIMERA 马斯麦",
+     "text": "¥530",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/maximera-ma-si-mai-la-chu-shi-nei-bu-pei-jian__0625756_pe692445_s4.jpg",
+     "href": "/cn/zh/p/maximera-ma-si-mai-la-chu-shi-nei-bu-pei-jian-80297276/"
+    },
+    {
+     "title": "MAXIMERA 马斯麦",
+     "text": "¥620",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/maximera-ma-si-mai-la-chu-shi-nei-bu-pei-jian__0594452_pe675957_s4.jpg",
+     "href": "/cn/zh/p/maximera-ma-si-mai-la-chu-shi-nei-bu-pei-jian-90417042/"
+    },
+    {
+     "title": "UTRUSTA 乌斯塔",
+     "text": "¥80",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/utrusta-wu-si-ta-lan-kuang__0162488_pe324083_s4.jpg",
+     "href": "/cn/zh/p/utrusta-wu-si-ta-lan-kuang-50271268/"
     }
    ],
    "settings": {
@@ -573,6 +1010,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "d6bd3b1843394afca1ea4a0d10ce0361"
    }
@@ -601,6 +1040,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/6a3d73fefbac431f/original/PH169549.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/5aa71c55d4527fe/original/PH165699-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "981f04de2ca44c03a281de31b611e3a6"
    }
@@ -621,6 +1077,27 @@
     {
      "href": "/cat/fu005",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "适用于各种环境",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/fu005",
+     "backgroundColor": null
+    },
+    {
+     "title": "FÖRHÖJA 夫洛亚",
+     "text": "¥1,299",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/foerhoeja-fu-luo-ya-chu-fang-tui-che-hua-mu__0736865_pe740780_s4.jpg",
+     "href": "/cn/zh/p/foerhoeja-fu-luo-ya-chu-fang-tui-che-hua-mu-70177024/"
+    },
+    {
+     "title": "KUNGSFORS 康福斯",
+     "text": "¥999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kungsfors-kang-fu-si-chu-fang-tui-che-bu-xiu-gang__0736866_pe740781_s4.jpg",
+     "href": "/cn/zh/p/kungsfors-kang-fu-si-chu-fang-tui-che-bu-xiu-gang-90334933/"
     }
    ],
    "settings": {
@@ -652,6 +1129,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/6d8ca72542e6d9c1/original/PH181851.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/7a40f2f73346ffb3/original/PH179644-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "197516697005459e99a7f16278154e4b"
    }
@@ -669,6 +1163,26 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "ENHET 安纳特",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/enhet-an-na-te-dai-ge-ban-bi-shi-kuang-jia-mei-hei-se__0805457_pe769564_s4.jpg",
+     "href": "/cn/zh/p/enhet-an-na-te-dai-ge-ban-bi-shi-kuang-jia-mei-hei-se-40481605/"
+    },
+    {
+     "title": "KUNGSFORS 康福斯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kungsfors-kang-fu-si-gua-gan-bu-xiu-gang__0681621_pe720208_s4.jpg",
+     "href": "/cn/zh/p/kungsfors-kang-fu-si-gua-gan-bu-xiu-gang-50442500/"
+    },
+    {
+     "title": "KUNGSFORS 康福斯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kungsfors-kang-fu-si-sheng-ju-bu-xiu-gang__0713276_pe729384_s4.jpg",
+     "href": "/cn/zh/p/kungsfors-kang-fu-si-sheng-ju-bu-xiu-gang-30334926/"
+    }
+   ],
    "settings": {
     "traceId": "273a166b1b764b96ac7892e02a65031b"
    }
@@ -702,6 +1216,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/845a48e24f29e9e/original/PH167088-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/b7c93a11c066c72/original/PH154259-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "393bd505a016460b9ce8d2064bc955cb"
    }
@@ -722,6 +1253,27 @@
     {
      "href": "/search/products?q=10471",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "实用的工作台",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/search/products?q=10471",
+     "backgroundColor": null
+    },
+    {
+     "title": "RIMFORSA 雷弗萨",
+     "text": "¥2,999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/rimforsa-lei-fu-sa-gong-zuo-tai-bu-xiu-gang-zhu__0660541_pe711112_s4.jpg",
+     "href": "/cn/zh/p/rimforsa-lei-fu-sa-gong-zuo-tai-bu-xiu-gang-zhu-60369820/"
+    },
+    {
+     "title": "GRILLSKÄR 格礼怀",
+     "text": "¥999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/grillskaer-ge-li-huai-chu-fang-dao-ge-jia-dan-yuan-hei-se-bu-xiu-gang-hu-wai-chan-pin__0820260_pe774984_s4.jpg",
+     "href": "/cn/zh/p/grillskaer-ge-li-huai-chu-fang-dao-ge-jia-dan-yuan-hei-se-bu-xiu-gang-hu-wai-chan-pin-80488916/"
     }
    ],
    "settings": {
@@ -751,6 +1303,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/58ea85113e1b2967/original/PH171968-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/68aacf6e7a0de4f7/original/PH152753-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "ca41f21961af4c40812bdc102a51347f"
    }
@@ -771,6 +1340,14 @@
     {
      "href": "/cat/16282",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "MITTLED 米特利",
+     "text": "¥69.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mittled-mi-te-li-led-chu-fang-chou-ti-zhao-ming-she-bei-dai-gan-ying-qi-ke-diao-guang-de-bai-se__0933841_pe792237_s4.jpg",
+     "href": "/cn/zh/p/mittled-mi-te-li-led-chu-fang-chou-ti-zhao-ming-she-bei-dai-gan-ying-qi-ke-diao-guang-de-bai-se-10463518/"
     }
    ],
    "settings": {
@@ -800,6 +1377,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/243bc3c45924e227/original/PH165416-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220210/dd17cc2acce641ca84a2f1547c5e252f.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "9861f7bb150a459dbba81cc173475f7f"
    }
@@ -820,6 +1414,15 @@
     {
      "href": "/cat/st003",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "展现个性，隐藏杂乱",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/st003",
+     "backgroundColor": null
     }
    ],
    "settings": {
@@ -851,6 +1454,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/57b654b0a627384a/original/PH180100-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/38130e04d3d92abe/original/PH180515-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "2f41a4beb9c1444e851509edad7392a5"
    }
@@ -873,6 +1493,21 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "重在参与",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/18714",
+     "backgroundColor": null
+    },
+    {
+     "title": "DUKTIG 杜克迪",
+     "text": "¥699",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/duktig-du-ke-di-wan-ju-chu-fang-hua-mu__0756010_pe754469_s4.jpg",
+     "href": "/cn/zh/p/duktig-du-ke-di-wan-ju-chu-fang-hua-mu-40319973/"
+    }
+   ],
    "settings": {
     "traceId": "d3aa91398a4c452a90576d2fcdfd7e76"
    }
@@ -882,7 +1517,7 @@
    "title": null,
    "texts": [
     "pub-column",
-    "<h3><strong>儿童安全产品</strong></h3>\n<p>小细节便能带来满满安全感。安装好窗搭钩、加装安全插头，在工作台面边缘装上防撞角，就可以打造一个对孩子来说更加安全的厨房环境，让他们放心尝试、玩耍，无后顾之忧。危险的厨房用具请锁在抽屉里，避免儿童接触。</p>",
+    "儿童安全产品 小细节便能带来满满安全感。安装好窗搭钩、加装安全插头，在工作台面边缘装上防撞角，就可以打造一个对孩子来说更加安全的厨房环境，让他们放心尝试、玩耍，无后顾之忧。危险的厨房用具请锁在抽屉里，避免儿童接触。",
     "pub-text",
     "/p/70213526?artType=art",
     "NO",
@@ -910,6 +1545,43 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220210/eee824c890144b1fab43582c1957ef0a.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/70213526?artType=art",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220210/7344c09a2fdc40adae5094cc713ec6ae.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/00349024?artType=art",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "儿童安全产品 小细节便能带来满满安全感。安装好窗搭钩、加装安全插头，在工作台面边缘装上防撞角，就可以打造一个对孩子来说更加安全的厨房环境，让他们放心尝试、玩耍，无后顾之忧。危险的厨房用具请锁在抽屉里，避免儿童接触。",
+     "text": null,
+     "image": null,
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20220210/eee824c890144b1fab43582c1957ef0a.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/70213526?artType=art"
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20220210/7344c09a2fdc40adae5094cc713ec6ae.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/00349024?artType=art"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "431c3bd8d56c408db0bd4f71729eb724"
    }
@@ -927,6 +1599,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "UNDVIKA 乌迪卡",
+     "text": "¥19.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/undvika-wu-di-qia-fang-zhuang-jiao-bai-se__0710896_pe727828_s4.jpg",
+     "href": "/cn/zh/p/undvika-wu-di-qia-fang-zhuang-jiao-bai-se-00349024/"
+    },
+    {
+     "title": "UNDVIKA 乌迪卡",
+     "text": "¥19.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/undvika-wu-di-qia-fang-zhuang-jiao-shen-he-se__1046323_pe842942_s4.jpg",
+     "href": "/cn/zh/p/undvika-wu-di-qia-fang-zhuang-jiao-shen-he-se-30443812/"
+    }
+   ],
    "settings": {
     "traceId": "ba7c825302974ebfaf3bd8830ec05718"
    }
@@ -935,10 +1621,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3>我们提供的服务</h3>"
+    "我们提供的服务"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "1abf540251a344bfa41ce0a270494961"
    }
@@ -951,7 +1639,7 @@
     "wide",
     "image-text-landscape",
     "portrait",
-    "<p>&bull; 品质保证，持久耐用<br />&bull; 独特外观，不同风格，更多选择<br />&bull; 专业配件，优化空间</p>\n<p>&nbsp;</p>\n<p><a href=\"https://kitchen.web.ikea.cn/kitchen-offline/?source=leads\">点击快速获取厨房报价 &rsaquo;</a></p>",
+    "• 品质保证，持久耐用 • 独特外观，不同风格，更多选择 • 专业配件，优化空间 点击快速获取厨房报价 ›",
     "宜家厨房设计服务"
    ],
    "images": [
@@ -976,6 +1664,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220210/4dc97a33726c4667844c1a3b453b6223.jpg",
+     "href": null,
+     "backgroundColor": "#597862"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "66e4bb9d598c41559a4f5997e4908191"
    }
@@ -993,6 +1691,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "79075770a28045a288485e1b356a4fc2"
    }

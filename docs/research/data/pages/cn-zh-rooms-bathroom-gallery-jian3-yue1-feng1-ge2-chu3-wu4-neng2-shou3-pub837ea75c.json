@@ -11,7 +11,7 @@
    "title": "简约风格，储物能手",
    "texts": [
     "一间浴室内陈设有深灰色浴室家具，还有一个镜门柜和一个灰绿色手推车。",
-    "<p>优雅的柜门和实用的镜子后藏有宽敞的储物空间，让简约的浴室也可以大有所容。</p>",
+    "优雅的柜门和实用的镜子后藏有宽敞的储物空间，让简约的浴室也可以大有所容。",
     "简约风格，储物能手",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "简约风格，储物能手",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b7/55/b755aec754729b4f03b7c074cce825bc.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -50,6 +60,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个深灰/白色脸池架/洗脸池、几条深棕色毛巾和一块深棕色浴室地垫。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/ba4d943d81b42/original/PH171979-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -76,6 +96,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个深灰色高柜、一面带伸缩臂的圆形镜子以及一个深灰色/白色脸池架。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/23c56587ad568182/original/PH171980-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -102,6 +132,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个开放式高柜，里面的搁板上放着一些深灰色毛巾、透明的盒子、瓶子和蓝色的篮子，一侧还有一面镜子。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/2becc9787f42f743/original/PH171981-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -128,6 +168,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一面带有伸缩臂的镜子，这条伸缩臂可在洗脸池上方拉出；一个镜门柜以及一个灰绿色手推车。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/5a0bb029e5779545/original/PH171982-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -154,6 +204,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个深灰色/白色脸池架/洗脸池、一个深灰色高柜和五个固定在墙上的镀铬表面拉钮。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/699c2ce85012de0f/original/PH171983-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -169,6 +229,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "FRÄCK 富拉克",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/fraeck-fu-la-ke-jing-zi-bu-xiu-gang__0637648_pe698438_s4.jpg",
+     "href": "/cn/zh/p/fraeck-fu-la-ke-jing-zi-bu-xiu-gang-00181982/"
+    },
+    {
+     "title": "SKOGSVIKEN 斯库维肯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/skogsviken-si-ku-wei-ken-tuo-pan-hei-se__0833433_pe778070_s4.jpg",
+     "href": "/cn/zh/p/skogsviken-si-ku-wei-ken-tuo-pan-hei-se-70473487/"
+    }
+   ],
    "settings": null
   }
  ]

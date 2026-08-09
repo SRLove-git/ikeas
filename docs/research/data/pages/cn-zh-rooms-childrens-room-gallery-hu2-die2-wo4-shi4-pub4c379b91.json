@@ -11,7 +11,7 @@
    "title": "蝴蝶卧室",
    "texts": [
     "选用蓝色和白色 SÅNGLÄRKA 桑拉尔克 纺织品系列新品装饰孩子的卧室，新品包括花卉图案床单和饰有蓝色和粉红色蝴蝶的半透明窗帘。",
-    "<p>这间舒适的房间覆盖着有趣的图案和纺织品，专为玩和展示而设计。你会有大量储物空间存放所有的玩具，还有专门区域可以开茶话会或是玩其他游戏！</p>",
+    "这间舒适的房间覆盖着有趣的图案和纺织品，专为玩和展示而设计。你会有大量储物空间存放所有的玩具，还有专门区域可以开茶话会或是玩其他游戏！",
     "蝴蝶卧室",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "蝴蝶卧室",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/63/37/63379740d5773b52f39d8954a65514c0.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -39,6 +49,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "MINNEN 米隆",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/minnen-mi-long-jia-chang-chuang-kuang-jia-dai-chuang-ban-bai-se__0636271_pe697771_s4.jpg",
+     "href": "/cn/zh/p/minnen-mi-long-jia-chang-chuang-kuang-jia-dai-chuang-ban-bai-se-39124617/"
+    },
+    {
+     "title": "SUNDVIK 桑维",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/sundvik-sang-wei-er-tong-zhuo-bai-se__0735849_pe740214_s4.jpg",
+     "href": "/cn/zh/p/sundvik-sang-wei-er-tong-zhuo-bai-se-90201674/"
+    }
+   ],
    "settings": null
   }
  ]

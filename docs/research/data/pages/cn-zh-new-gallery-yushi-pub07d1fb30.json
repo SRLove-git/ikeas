@@ -11,7 +11,7 @@
    "title": "为了美好的浴室时光",
    "texts": [
     "浴室墙壁上挂着一个带镜子、沙漏、盛具和挂钩的白色塑料板。",
-    "<p>L&Aring;DDAN 勒丹 储物板和储物袋，能让浴室更加整洁，让你与孩子的浴室时光更加有趣，同时对孩子有一定的教育意义，其中包含一个沙漏。</p>\n<p>储物板带有吸盘，可以随着孩子长高而调高在瓷砖上的吸附位置，镜子采用反光塑料薄膜制成，而非真正的镜玻璃，从而更加安全。</p>",
+    "LåDDAN 勒丹 储物板和储物袋，能让浴室更加整洁，让你与孩子的浴室时光更加有趣，同时对孩子有一定的教育意义，其中包含一个沙漏。 储物板带有吸盘，可以随着孩子长高而调高在瓷砖上的吸附位置，镜子采用反光塑料薄膜制成，而非真正的镜玻璃，从而更加安全。",
     "为了美好的浴室时光",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "为了美好的浴室时光",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/3a/c4/3ac47eb40a51cba9a367cf9a088a3a04.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,16 +54,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "特写：刷牙时用来计时的沙漏。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/79/7e/797e1d063563d7061cf925943d57ef5a.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>这款沙漏可计时2分钟、4分钟和6分钟，让孩子和大人了解节约用水的重要性。</p>"
+    "这款沙漏可计时2分钟、4分钟和6分钟，让孩子和大人了解节约用水的重要性。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -66,6 +88,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

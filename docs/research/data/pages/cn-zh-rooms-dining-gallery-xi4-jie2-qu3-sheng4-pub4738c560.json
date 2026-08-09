@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -34,16 +36,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "餐厅和客厅相结合的设计，利用藤编家具、棕色、灰色和炭黑色，打造出风格统一的环境。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/58/cf/58cf4e534b52d4ce897027ef7ecf56f6.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>你是否幻想过拥有一间奢华的餐厅？即便你的家很小，你也能够实现这一梦想。颜色和材料的搭配，时尚的细节和伸缩型餐桌等灵活的家具，能够让你的美梦成真。</p>"
+    "你是否幻想过拥有一间奢华的餐厅？即便你的家很小，你也能够实现这一梦想。颜色和材料的搭配，时尚的细节和伸缩型餐桌等灵活的家具，能够让你的美梦成真。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -71,6 +85,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "餐厅中摆有一张伸展开的伸缩型餐桌。黑色椅子、藤条椅子和桦木椅子提供座位。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b0/8c/b08c2a15920e72e100c0d523bcc7a539.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "黑色 NISSAFORS 耐斯弗思 推车，搁架上摆有水壶、马克杯、茶包，推车旁是沙发和扶手椅。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ab/47/ab4716cedc9fffc0ce8241578489b7a1.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "NORRÅKER 诺鲁克 是一款多功能长凳，家中各处都能使用。比如，你可以用它给伸缩型餐桌加座位。",
+     "image": "https://file.app.ikea.cn/images/b0/8c/b08c2a15920e72e100c0d523bcc7a539.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "今晚你想在哪里品茶？无论去哪，NISSAFORS 耐斯弗思 推车都能将你需要的物品送到身边。",
+     "image": "https://file.app.ikea.cn/images/ab/47/ab4716cedc9fffc0ce8241578489b7a1.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -103,6 +148,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "MILSBO 米斯伯 玻璃门柜放置在阳台门旁边，里边放着装饰品、杂志和文件夹。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ee/0a/ee0ad1380180c989f1e6532264899a74.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "EKET 伊克特 组合柜配有灰色和白色的开放式和封闭式储物柜，安装在靠近棕色桌子的墙面上。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/46/7e/467eb004593f6747840087b7bc30404c.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "两个黑色结实的 BROR 巴拉 搁架单元，摆放有许多装饰品、书籍、文件盒、鸣叫水壶铃等物品。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b5/b6/b5b69dde1641dd697877b1e138381111.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "让藏品免受灰尘干扰，又能从各个角度看得清楚——MILSBO 米斯伯 玻璃储物柜能让你展示心爱的藏品。",
+     "image": "https://file.app.ikea.cn/images/ee/0a/ee0ad1380180c989f1e6532264899a74.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "EKET 伊克特 储物柜能够轻松定制，满足你的储物需求。壁式储物还能解放地面空间！",
+     "image": "https://file.app.ikea.cn/images/46/7e/467eb004593f6747840087b7bc30404c.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "BROR 巴拉 搁架单元结实耐用，适合摆放书籍和大号储物箱等重物。",
+     "image": "https://file.app.ikea.cn/images/b5/b6/b5b69dde1641dd697877b1e138381111.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -125,6 +214,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "深灰色 FLOTTEBO 弗罗特博 沙发床，座位被掀起，底下是装有被子和枕头的储物空间。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/2c/8a/2c8a7ae6692b1a20ce74df4f58103a9c.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/2c/8a/2c8a7ae6692b1a20ce74df4f58103a9c.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "FLOTTEBO 弗罗特博 沙发床下设有宽敞的储物空间，可放置被子和枕头，方便访客留宿。",
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -140,6 +253,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "ULRIKSBERG 尤利斯巴",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ulriksberg-you-li-si-ba-dan-ren-sha-fa-fu-shou-yi-teng-tiao-mei-hei-se__0672896_pe716932_s4.jpg",
+     "href": "/cn/zh/p/ulriksberg-you-li-si-ba-dan-ren-sha-fa-fu-shou-yi-teng-tiao-mei-hei-se-20442969/"
+    },
+    {
+     "title": "LUBBAN 鲁巴恩",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lubban-lu-ba-en-tai-zhuo-dai-chu-wu-teng-tiao-mei-hei-se__0713688_pe729711_s4.jpg",
+     "href": "/cn/zh/p/lubban-lu-ba-en-tai-zhuo-dai-chu-wu-teng-tiao-mei-hei-se-40441474/"
+    }
+   ],
    "settings": null
   }
  ]

@@ -14,16 +14,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>看、听、感受。想象家里的所有物品像你的感官一样相互连接。</p>"
+    "看、听、感受。想象家里的所有物品像你的感官一样相互连接。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -31,7 +35,7 @@
    "title": null,
    "texts": [
     "https://v.youku.com/v_show/id_XNDM1NzQ4NTYwOA==.html",
-    "<h2>又一个奇妙的周一</h2>\n<p>想象一下，你早上醒来，拉开卷帘，一边沐浴着和煦的晨光，一边听着悦耳的音乐，而整个过程中你根本不需要起床。很惬意，对吗？当你的家变得更加智能，你的生活也会更加顺畅。因此，无论你想要打造完全智能的家，还是只想要一些奇妙的遥控产品，总有一款宜家家居智能产品能激发你的灵感。</p>",
+    "又一个奇妙的周一 想象一下，你早上醒来，拉开卷帘，一边沐浴着和煦的晨光，一边听着悦耳的音乐，而整个过程中你根本不需要起床。很惬意，对吗？当你的家变得更加智能，你的生活也会更加顺畅。因此，无论你想要打造完全智能的家，还是只想要一些奇妙的遥控产品，总有一款宜家家居智能产品能激发你的灵感。",
     "MANUAL_INPUT"
    ],
    "images": [],
@@ -41,6 +45,8 @@
      "text": "\n<h2>又一个奇妙的周一</h2>\n<p>想象一下，你早上醒来，拉开卷帘，一边沐浴着和煦的晨光，一边听着悦耳的音乐，而整个过程中你根本不需要起床。很惬意，对吗？当你的家变得更加智能，你的生活也会更加顺畅。因此，无论你想要打造完全智能的家，"
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -52,7 +58,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<h3>让灯光体现你的感受</h3>\n<p>想象一下，轻点指尖即可改变氛围。智能照明就像是一座桥梁，连接起了忙碌的生活、用餐、休闲和深夜私语时光。灯泡、壁灯和一体式照明。你可以打开或关闭、调节明暗、改变颜色或从冷光切换为暖光。</p>"
+    "让灯光体现你的感受 想象一下，轻点指尖即可改变氛围。智能照明就像是一座桥梁，连接起了忙碌的生活、用餐、休闲和深夜私语时光。灯泡、壁灯和一体式照明。你可以打开或关闭、调节明暗、改变颜色或从冷光切换为暖光。"
    ],
    "images": [
     "https://file.app.ikea.cn/images/bb/f4/bbf4e7422977e904d0a184af8df4a1f5.jpeg"
@@ -67,6 +73,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "厨房配有带智能照明的大型吊灯，餐桌已做好了晚餐的布置，一位女士坐在桌前，一位男士位于水槽边。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/bb/f4/bbf4e7422977e904d0a184af8df4a1f5.jpeg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/bb/f4/bbf4e7422977e904d0a184af8df4a1f5.jpeg",
+     "href": null
+    },
+    {
+     "heading": "让灯光体现你的感受 想象一下，轻点指尖即可改变氛围。智能照明就像是一座桥梁，连接起了忙碌的生活、用餐、休闲和深夜私语时光。灯泡、壁灯和一体式照明。你可以打开或关闭、调节明暗、改变颜色或从冷光切换为暖光。",
+     "text": null,
+     "image": null,
+     "href": "/cn/zh/cat/36812"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -89,6 +119,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "厨房操作台面上放着与可控插头相连的咖啡机，水槽边放着杯子和碗。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/af/90/af909066bab0c9fb7fa6a4379671f4d5.jpeg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/af/90/af909066bab0c9fb7fa6a4379671f4d5.jpeg",
+     "href": null
+    },
+    {
+     "heading": "让普通物品也变得智能 让你的咖啡机在早上6点，你起床前便开始冲泡咖啡。可控插头让夜灯、厨房家电和灯串等普通的物品变得智能。",
+     "text": null,
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -111,6 +165,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "灰色背景上的 TRÅDFRI 特鲁菲 网关。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/5f/ce/5fce928bd737c851fae3fda0c4103382.jpeg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/5f/ce/5fce928bd737c851fae3fda0c4103382.jpeg",
+     "href": null
+    },
+    {
+     "heading": "智能家居的核心 网关+应用程序=梦想搭配。将智能照明产品、智能卷帘和可控插头与 TRÅDFRI 特鲁菲 网关相连，用宜家家居智能应用程序进行控制。这让你可以单独控制各个光源，营造不同的灯光氛围，打开/闭合智能卷帘。",
+     "text": null,
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -122,7 +200,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<h3>宜家家居智能应用程序</h3>\n<p>下载应用程序，与 TRÅDFRI 特鲁菲 网关搭配使用，控制宜家家居智能产品。</p>"
+    "宜家家居智能应用程序 下载应用程序，与 TRÅDFRI 特鲁菲 网关搭配使用，控制宜家家居智能产品。"
    ],
    "images": [
     "https://file.app.ikea.cn/images/d3/79/d3790148bb97efe7f50f660d7ccc0e79.jpeg"
@@ -133,16 +211,42 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "为宜家家居智能应用程序打造的宜家家居智能标识。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d3/79/d3790148bb97efe7f50f660d7ccc0e79.jpeg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/d3/79/d3790148bb97efe7f50f660d7ccc0e79.jpeg",
+     "href": null
+    },
+    {
+     "heading": "宜家家居智能应用程序 下载应用程序，与 TRÅDFRI 特鲁菲 网关搭配使用，控制宜家家居智能产品。",
+     "text": null,
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>控制宜家家居智能产品的四种方式</h2>\n<p>无论你喜欢实体遥控器还是应用程序，我们都能满足你的要求！按下按钮、挥一挥手、点击应用或发出声音，选用任意一种方式都可以改变家中的氛围。可与亚马逊Alexa、谷歌助手和苹果Homekit搭配使用。</p>"
+    "控制宜家家居智能产品的四种方式 无论你喜欢实体遥控器还是应用程序，我们都能满足你的要求！按下按钮、挥一挥手、点击应用或发出声音，选用任意一种方式都可以改变家中的氛围。可与亚马逊Alexa、谷歌助手和苹果Homekit搭配使用。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -150,7 +254,7 @@
    "title": null,
    "texts": [
     "pub-column",
-    "<h3>1.遥控器</h3>\n<p>只需按下按钮，就能控制宜家家居智能产品。</p>",
+    "1.遥控器 只需按下按钮，就能控制宜家家居智能产品。",
     "pub-text",
     "插图：三个宜家家居智能遥控器。",
     "pub-image",
@@ -170,6 +274,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "插图：三个宜家家居智能遥控器。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/75/8e/758e950e20394fb474bb50d78b78de64.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "插图：TRÅDFRI 特鲁菲 无线动态感应器。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/43/b9/43b9df27f1d1983092829caf087469db.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "1.遥控器 只需按下按钮，就能控制宜家家居智能产品。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/75/8e/758e950e20394fb474bb50d78b78de64.jpg",
+     "href": null
+    },
+    {
+     "heading": "2.传感器 通过动作即可打开照明灯，可让家更有安全感。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/43/b9/43b9df27f1d1983092829caf087469db.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -177,7 +312,7 @@
    "title": null,
    "texts": [
     "pub-column",
-    "<h3>3.宜家家居智能应用程序</h3>\n<p>你可以利用宜家家居智能应用程序，设置定时器和不同的智能照明氛围，让日常生活更加便利。</p>\n<p><strong>你知道吗？</strong>TRÅDFRI 特鲁菲 应用程序已成为新的宜家家居智能应用程序。</p>",
+    "3.宜家家居智能应用程序 你可以利用宜家家居智能应用程序，设置定时器和不同的智能照明氛围，让日常生活更加便利。 你知道吗？TRÅDFRI 特鲁菲 应用程序已成为新的宜家家居智能应用程序。",
     "pub-text",
     "插图：手机。",
     "pub-image",
@@ -197,16 +332,49 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "插图：手机。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/bd/11/bd1112f2449e0012030522af9c9ed796.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "插图：应用程序中显示的声控功能。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/46/80/4680ea4269ad5dc50468a0c9d8c59ada.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "3.宜家家居智能应用程序 你可以利用宜家家居智能应用程序，设置定时器和不同的智能照明氛围，让日常生活更加便利。 你知道吗？TRÅDFRI 特鲁菲 应用程序已成为新的宜家家居智能应用程序。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/bd/11/bd1112f2449e0012030522af9c9ed796.jpg",
+     "href": null
+    },
+    {
+     "heading": "4.声控 利用声音控制宜家家居智能产品。可与亚马逊Alexa、谷歌助手和苹果Homekit搭配使用。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/46/80/4680ea4269ad5dc50468a0c9d8c59ada.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>可与宜家家居智能搭配使用</h2>\n<p>如果你在产品上看到这个徽章，表明该产品可与宜家家居智能应用程序搭配使用，且能够连接至 TRÅDFRI 特鲁菲 网关。</p>"
+    "可与宜家家居智能搭配使用 如果你在产品上看到这个徽章，表明该产品可与宜家家居智能应用程序搭配使用，且能够连接至 TRÅDFRI 特鲁菲 网关。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -226,6 +394,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "表明可与宜家家居智能应用程序搭配使用的徽章。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/62/c6/62c65088d9691a9ff8da1f376dc62b0a.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -237,7 +415,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<h2>上手很容易</h2>\n<p>如果你有任何疑问，可以查看我们的产品支持信息和常见问题，还可以通过观看我们的入门和帮助视频，发现新的产品使用方式。</p>"
+    "上手很容易 如果你有任何疑问，可以查看我们的产品支持信息和常见问题，还可以通过观看我们的入门和帮助视频，发现新的产品使用方式。"
    ],
    "images": [
     "https://file.app.ikea.cn/images/76/1c/761c975da37a8771d70d4e96b4628c73.jpeg"
@@ -248,6 +426,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "一位女士拿着手机，浏览屏幕上的菜单。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/76/1c/761c975da37a8771d70d4e96b4628c73.jpeg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/76/1c/761c975da37a8771d70d4e96b4628c73.jpeg",
+     "href": null
+    },
+    {
+     "heading": "上手很容易 如果你有任何疑问，可以查看我们的产品支持信息和常见问题，还可以通过观看我们的入门和帮助视频，发现新的产品使用方式。",
+     "text": null,
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   }
  ]

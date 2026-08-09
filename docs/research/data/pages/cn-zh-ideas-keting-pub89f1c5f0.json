@@ -11,7 +11,7 @@
    "title": "整理艺术：客厅储物",
    "texts": [
     "客厅装饰背景墙",
-    "<p>客厅是一切活动的中心，包括娱乐、工作、看电影等等。然而活动过后总会留下杂乱的痕迹。用我们提供的4个巧妙整理方案处理难免堆积的物品，让你的空间尽可能的干净整洁。</p>",
+    "客厅是一切活动的中心，包括娱乐、工作、看电影等等。然而活动过后总会留下杂乱的痕迹。用我们提供的4个巧妙整理方案处理难免堆积的物品，让你的空间尽可能的干净整洁。",
     "整理艺术：客厅储物",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "整理艺术：客厅储物",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/cf/3b/cf3b018847f51a15b9ea46880de61f61.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -40,6 +50,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -51,26 +63,32 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><em>我们乐意看到顾客运用我们的产品发挥创意。尽情发挥吧！但是请注意，经过微调或改造的宜家产品将丧失其原有功能，或无法进行二次销售，因此，你将不再享有宜家的商业保证及退货权利。</em></p>"
+    "我们乐意看到顾客运用我们的产品发挥创意。尽情发挥吧！但是请注意，经过微调或改造的宜家产品将丧失其原有功能，或无法进行二次销售，因此，你将不再享有宜家的商业保证及退货权利。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>制作人</strong></p>\n<p>室内设计师：Amanda Rodriguez<br />摄影师：Micke Persson <br />撰稿人：Vanessa Algotsson</p>"
+    "制作人 室内设计师：Amanda Rodriguez 摄影师：Micke Persson 撰稿人：Vanessa Algotsson"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

@@ -10,7 +10,7 @@
    "type": "pub-hero",
    "title": "补觉",
    "texts": [
-    "<p>拉上遮光百叶帘，睡上一觉吧。拉上多层不同类型的窗帘，让你的卧室轻松从白天变成黑夜。被窗帘隔断的空间也足够黑暗。 喜欢这样的窗帘组合？</p>",
+    "拉上遮光百叶帘，睡上一觉吧。拉上多层不同类型的窗帘，让你的卧室轻松从白天变成黑夜。被窗帘隔断的空间也足够黑暗。 喜欢这样的窗帘组合？",
     "补觉",
     "normal"
    ],
@@ -23,6 +23,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "补觉",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/6f/5a/6f5ad17940e6b2dcaa53377041aac946.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -38,6 +48,32 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "BETYDLIG 比特利",
+     "text": "¥5",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/betydlig-bi-te-li-chuang-lian-gan-tuo-bai-se__1472991_pe997638_s4.jpg",
+     "href": "/cn/zh/p/betydlig-bi-te-li-chuang-lian-gan-tuo-bai-se-40219898/"
+    },
+    {
+     "title": "BETYDLIG 比特利",
+     "text": "¥10",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/betydlig-bi-te-li-qiang-tian-hua-ban-tuo-jia-bai-se__1472992_pe997640_s4.jpg",
+     "href": "/cn/zh/p/betydlig-bi-te-li-qiang-tian-hua-ban-tuo-jia-bai-se-70219892/"
+    },
+    {
+     "title": "HUGAD 胡加",
+     "text": "¥40",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/hugad-hu-jia-chuang-lian-gan-bai-se__0601958_pe680068_s4.jpg",
+     "href": "/cn/zh/p/hugad-hu-jia-chuang-lian-gan-bai-se-20217131/"
+    },
+    {
+     "title": "RÄCKA 瑞卡",
+     "text": "¥30",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/raecka-rui-qia-chuang-lian-gan-bai-se__0601963_pe680071_s4.jpg",
+     "href": "/cn/zh/p/raecka-rui-qia-chuang-lian-gan-bai-se-80217152/"
+    }
+   ],
    "settings": null
   }
  ]

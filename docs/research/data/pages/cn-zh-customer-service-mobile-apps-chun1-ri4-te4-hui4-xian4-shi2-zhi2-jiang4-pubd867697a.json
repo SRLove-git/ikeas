@@ -14,26 +14,32 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>* 线上专享，数量有限，售完即止。本地商场特惠活动请以线下实体店为准。</p>"
+    "* 线上专享，数量有限，售完即止。本地商场特惠活动请以线下实体店为准。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><a href=\"https://ikeaapp/cms/page?id=ce710ed092d411ebbf58a38a02d586b9#ce70e7c2-92d4-11eb-bf58-a38a02d586b9\">儿童房 </a>| <a href=\"https://ikeaapp/cms/page?id=ce710ed092d411ebbf58a38a02d586b9#ce70e7c5-92d4-11eb-bf58-a38a02d586b9\">户外背包</a> | <a href=\"https://ikeaapp/cms/page?id=ce710ed092d411ebbf58a38a02d586b9#ce70e7c8-92d4-11eb-bf58-a38a02d586b9\">家居用品</a> | 阳台 | <a href=\"#d8674265-92d4-11eb-bf58-a38a02d586b9\">书房</a> | <a href=\"#d8674268-92d4-11eb-bf58-a38a02d586b9\">厨卫用品</a></p>\n<h2>阳台</h2>"
+    "儿童房 | 户外背包 | 家居用品 | 阳台 | 书房 | 厨卫用品 阳台"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -47,16 +53,19 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><a href=\"https://ikeaapp/cms/page?id=ce710ed092d411ebbf58a38a02d586b9#ce70e7c2-92d4-11eb-bf58-a38a02d586b9\">儿童房 </a>| <a href=\"https://ikeaapp/cms/page?id=ce710ed092d411ebbf58a38a02d586b9#ce70e7c5-92d4-11eb-bf58-a38a02d586b9\">户外背包</a> | <a href=\"https://ikeaapp/cms/page?id=ce710ed092d411ebbf58a38a02d586b9#ce70e7c8-92d4-11eb-bf58-a38a02d586b9\">家居用品</a> | <a href=\"#d8674262-92d4-11eb-bf58-a38a02d586b9\">阳台</a> | 书房 | <a href=\"#d8674268-92d4-11eb-bf58-a38a02d586b9\">厨卫用品</a></p>\n<h2>书房</h2>"
+    "儿童房 | 户外背包 | 家居用品 | 阳台 | 书房 | 厨卫用品 书房"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -72,16 +81,19 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><a href=\"https://ikeaapp/cms/page?id=ce710ed092d411ebbf58a38a02d586b9#ce70e7c2-92d4-11eb-bf58-a38a02d586b9\">儿童房 </a>| <a href=\"https://ikeaapp/cms/page?id=ce710ed092d411ebbf58a38a02d586b9#ce70e7c5-92d4-11eb-bf58-a38a02d586b9\">户外背包</a> | <a href=\"https://ikeaapp/cms/page?id=ce710ed092d411ebbf58a38a02d586b9#ce70e7c8-92d4-11eb-bf58-a38a02d586b9\">家居用品</a> | <a href=\"#d8674262-92d4-11eb-bf58-a38a02d586b9\">阳台</a> | <a href=\"#d8674265-92d4-11eb-bf58-a38a02d586b9\">书房</a> | 厨卫用品</p>\n<h2>厨卫用品</h2>"
+    "儿童房 | 户外背包 | 家居用品 | 阳台 | 书房 | 厨卫用品 厨卫用品"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -97,6 +109,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   },
   {
@@ -112,6 +125,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   },
   {
@@ -127,6 +141,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   },
   {
@@ -147,6 +162,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

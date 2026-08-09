@@ -1,30 +1,31 @@
 import Link from "next/link";
-import { catalogCategories } from "@/data/catalog";
+import { catalogData } from "@/data/catalog";
 import { catalogPages } from "@/lib/catalog-pages";
 
-const allCategories = [
-  ...catalogCategories.map((category) => ({
-    name: category.name,
-    href: `/cn/zh/cat/${category.slug}`,
-    image: category.image,
-    count: category.products.length,
-  })),
-  ...catalogPages
-    .filter(
-      (page) =>
-        !catalogCategories.some(
-          (category) => category.slug === page.url.split("/").filter(Boolean).at(-1),
-        ),
-    )
-    .map((page) => ({
-      name: page.name,
-      href: page.url,
-      image: page.products[0]?.image ?? null,
-      count: page.total,
-    })),
-];
-
 export default function AllProductsPage() {
+  const { catalogCategories } = catalogData();
+  const allCategories = [
+    ...catalogCategories.map((category) => ({
+      name: category.name,
+      href: `/cn/zh/cat/${category.slug}`,
+      image: category.image,
+      count: category.products.length,
+    })),
+    ...catalogPages()
+      .filter(
+        (page) =>
+          !catalogCategories.some(
+            (category) => category.slug === page.url.split("/").filter(Boolean).at(-1),
+          ),
+      )
+      .map((page) => ({
+        name: page.name,
+        href: page.url,
+        image: page.products[0]?.image ?? null,
+        count: page.total,
+      })),
+  ];
+
   return (
     <main className="font-ikea min-h-screen bg-white text-ikea-black">
       <div className="max-w-page mx-auto px-5 py-8 lg:px-10">

@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -34,16 +36,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "一位男士坐在两扇窗前的浅色木质接待台旁。上方挂着两盏 NYMÅNE 纽墨奈 吊灯，墙上挂着四只钟。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/52/a4/52a4e99585acee8475ff4c678481363f.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>这个温馨怡人的接待区会让你的客户感到舒适自在。奶油色和浅色的木质家具与中性配色方案共同营造出宁静氛围，客人可以在这里处理工作、轻松聊天，也可在工作正式开始之前放松一会儿。</p>"
+    "这个温馨怡人的接待区会让你的客户感到舒适自在。奶油色和浅色的木质家具与中性配色方案共同营造出宁静氛围，客人可以在这里处理工作、轻松聊天，也可在工作正式开始之前放松一会儿。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -66,6 +80,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "接待台由两张 BEKANT 贝肯特 书桌拼成，配有两把 HATTEFJÄLL 哈德夫耶尔 椅子，后侧摆放着两个 BEKANT 贝肯特 带脚轮储物单元。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/06/a4/06a413e4001d279789a79924207302a3.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/06/a4/06a413e4001d279789a79924207302a3.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "两张 BEKANT 贝肯特 转角桌拼在一起，变成了一张宽敞的接待台，足以容纳两个人。优雅的 HATTEFJÄLL 哈德夫耶尔 椅子舒适整洁，功能多样的 BEKANT 贝肯特 带脚轮储物单元便于随手拿取接待必需用品。",
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -88,6 +126,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "四张绿色 LANDSKRONA 兰德克纳 单人沙发的中间摆放着 GLADOM 格拉登 托盘桌。墙上的 MOSSLANDA 莫兰达 壁式图片架上摆放着期刊杂志。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/57/61/576102a64fc12f0680c09c53ae59363c.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/57/61/576102a64fc12f0680c09c53ae59363c.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "四张 LANDSKRONA 兰德克纳 单人沙发为休闲聊天、快速会议提供了舒适的空间，也可用于在等候时稍作歇息。不妨尝试将 MOSSLANDA 莫兰达 壁式图片架用作行业期刊和杂志的展示搁板，方便客人了解时事新闻。",
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -103,6 +165,26 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "NYMÅNE 纽墨奈",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/nymane-niu-mo-nai-diao-deng-bai-se__0485490_pe621551_s4.jpg",
+     "href": "/cn/zh/p/nymane-niu-mo-nai-diao-deng-bai-se-90407142/"
+    },
+    {
+     "title": "MOSSLANDA 莫兰达",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mosslanda-mo-lan-da-bi-shi-tu-pian-jia-bai-se__0634121_pe696313_s4.jpg",
+     "href": "/cn/zh/p/mosslanda-mo-lan-da-bi-shi-tu-pian-jia-bai-se-70297465/"
+    },
+    {
+     "title": "LANDSKRONA 兰德克纳",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/landskrona-lan-de-ke-na-dan-ren-sha-fa-fu-shou-yi-gang-na-rui-de-qian-lu-mu-tou__0602091_pe680160_s4.jpg",
+     "href": "/cn/zh/p/landskrona-lan-de-ke-na-dan-ren-sha-fa-fu-shou-yi-gang-na-rui-de-qian-lu-mu-tou-39269728/"
+    }
+   ],
    "settings": null
   }
  ]

@@ -11,7 +11,7 @@
    "title": "通过现代风格的配件展示自己的个性风采",
    "texts": [
     "KALLFRONT 考弗朗 金属吊灯灯罩从天花板垂下，在背景中创造出戏剧般的光影效果。",
-    "<p>在风格和形式上都颇具表现力的全新配件令你的家焕然一新。从闹钟到照明，即使是日常必需品也可以展露你的个性。用这些吸睛单品令你的家焕然一新。</p>",
+    "在风格和形式上都颇具表现力的全新配件令你的家焕然一新。从闹钟到照明，即使是日常必需品也可以展露你的个性。用这些吸睛单品令你的家焕然一新。",
     "通过现代风格的配件展示自己的个性风采",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "通过现代风格的配件展示自己的个性风采",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/4b/55/4b552c00ae7a57be41b1c92381bb8f13.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "040c9315e6f0458fa0c50c0b4d07579d"
    }
@@ -52,6 +62,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "昏暗的客厅中，灯光从KALLFRONT 考弗朗 金属吊灯灯罩中倾泻出来。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/327dddb58eb4a7f7/original/PH183188-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "c0abaccd5e2a4c8dae525488435933ed"
    }
@@ -80,6 +100,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "在奶油色墙上挂着一面粉色的GRANVÅG 格兰瓦 镜子，镜子后方形成一块阴影，前景中是模糊的百合花。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/6f3fc9a21a13deff/original/PH183160-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "7a010578c2d8493c987b30f04ab580ab"
    }
@@ -104,6 +134,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "放着绿植的卧室中挂着一面绿色的GRANVÅG 格兰瓦 半身镜；镜中是一个竹制灯罩。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/692d0f549d1008bf/original/PH182993-crop001.jpg",
+     "href": null,
+     "backgroundColor": "#ffffff"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "c4faeda86b4d457d999209e258b0dea6"
    }
@@ -124,6 +164,33 @@
     {
      "href": "/cat/new-products",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "探索我们制作精美的春季配件",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/new-products",
+     "backgroundColor": null
+    },
+    {
+     "title": "KONSTFULL 孔思福",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/konstfull-kong-si-fu-hua-ping-tou-ming-bo-li-tu-an__1030738_pe836342_s4.jpg",
+     "href": "/cn/zh/p/konstfull-kong-si-fu-hua-ping-tou-ming-bo-li-tu-an-20511967/"
+    },
+    {
+     "title": "SALUDING 萨鲁丁",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/saluding-sa-lu-ding-xi-yi-lan-shou-gong-zhi-zuo-zhu__1025991_pe834285_s4.jpg",
+     "href": "/cn/zh/p/saluding-sa-lu-ding-xi-yi-lan-shou-gong-zhi-zuo-zhu-50503584/"
+    },
+    {
+     "title": "STOLTHET 斯图海特",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/stolthet-si-tu-hai-te-zhen-ban-zhu__1035110_pe837987_s4.jpg",
+     "href": "/cn/zh/p/stolthet-si-tu-hai-te-zhen-ban-zhu-10512811/"
     }
    ],
    "settings": {

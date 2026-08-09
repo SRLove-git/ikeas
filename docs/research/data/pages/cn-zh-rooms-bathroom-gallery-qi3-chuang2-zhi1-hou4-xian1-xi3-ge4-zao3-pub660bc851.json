@@ -11,7 +11,7 @@
    "title": "起床之后先洗个澡",
    "texts": [
     "使用宜家 GODMORGON 古德莫 家具系列轻松规划你的浴室。白色抽屉配有全伸展型柜门，且关闭时悄然无声。",
-    "<p>早安，阳光。从大型储物柜和抽屉，到小型浴室搁板，你可以利用专为收纳杂物而设计的家具，保持浴室整洁有序。</p>",
+    "早安，阳光。从大型储物柜和抽屉，到小型浴室搁板，你可以利用专为收纳杂物而设计的家具，保持浴室整洁有序。",
     "起床之后先洗个澡",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "起床之后先洗个澡",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/76/a8/76a8c195393ceaf3e03fe30cf52cdb82.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -39,6 +49,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "VOXNAN 沃斯南",
+     "text": "¥69.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/voxnan-wo-si-nan-lin-yu-shou-na-jia-du-ge__0710464_pe727565_s4.jpg",
+     "href": "/cn/zh/p/voxnan-wo-si-nan-lin-yu-shou-na-jia-du-ge-50328590/"
+    },
+    {
+     "title": "RÅGRUND 罗格朗",
+     "text": "¥299",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ragrund-luo-ge-lang-zuo-yi-fu-mao-jin-jia-zhu__0739453_pe741743_s4.jpg",
+     "href": "/cn/zh/p/ragrund-luo-ge-lang-zuo-yi-fu-mao-jin-jia-zhu-60253075/"
+    }
+   ],
    "settings": null
   }
  ]

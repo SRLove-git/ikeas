@@ -11,7 +11,7 @@
    "title": "报时新方式",
    "texts": [
     "宜家 PANORERA 帕诺雷拉 和 STOLPA 斯托尔帕 钟外观造型经典，采用全新技术，指针走动安静无声。",
-    "<p>把宜家的新款钟挂在墙上或者放在边桌上，由它们来告诉你时间，而且所有钟都配有静音石英机芯，不会发出恼人的滴答声响。</p>",
+    "把宜家的新款钟挂在墙上或者放在边桌上，由它们来告诉你时间，而且所有钟都配有静音石英机芯，不会发出恼人的滴答声响。",
     "报时新方式",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "报时新方式",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/66/27/6627087c40d60961eba7857f0048cee5.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,16 +54,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "黄色的宜家 STOLPA 斯托尔帕 钟外观造型经典，采用全新技术，指针走动安静无声。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/84/90/84901042512ecb1cf64dd921a753c3d8.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>有些款式带有内置声音和触控感应器，拍手声响起或被触碰时就会亮起。</p>"
+    "有些款式带有内置声音和触控感应器，拍手声响起或被触碰时就会亮起。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -69,6 +91,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

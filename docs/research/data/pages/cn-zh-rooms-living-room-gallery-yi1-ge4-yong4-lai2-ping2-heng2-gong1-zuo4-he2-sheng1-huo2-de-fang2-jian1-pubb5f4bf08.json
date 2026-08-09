@@ -11,7 +11,7 @@
    "title": "一个用来平衡工作和生活的房间",
    "texts": [
     "一张三人沙发、一块平织地毯、一把带垫扶手藤椅、一个玻璃门柜及一个2门柜。",
-    "<p>这间客厅既可用来放松休憩，也可用来工作，两者皆宜。拥有一张与你的室内装饰融为一体的办公桌、舒适的家具以及可以在一天结束后将办公物品收纳整齐的精美储物方案，你就可以营造出宁静有序、启发灵感的客厅和工作两用空间。</p>",
+    "这间客厅既可用来放松休憩，也可用来工作，两者皆宜。拥有一张与你的室内装饰融为一体的办公桌、舒适的家具以及可以在一天结束后将办公物品收纳整齐的精美储物方案，你就可以营造出宁静有序、启发灵感的客厅和工作两用空间。",
     "一个用来平衡工作和生活的房间",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "一个用来平衡工作和生活的房间",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/0a/c6/0ac620bb7c754ffa215575fc686e4142.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -50,6 +60,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一张三人沙发、几个靠垫、白色窗帘、一个洋葱造型的白色吊灯灯罩、一个上面摆放着茶具的白色托盘桌。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/76149f9353e86ea5/original/PE817509-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -76,6 +96,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一张白色书桌、一把米色转椅、一台笔记本电脑、一个白色2门柜、一张白色托盘桌、玻璃制品、裱框艺术品。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/686aaeef2a915744/original/PE816475-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -102,6 +132,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个白色2门柜、一个白色玻璃门柜、盆栽植物、画笔、裱框艺术品、纸张和书籍。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/3c0e1e6d10d9aee7/original/PE816474-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -122,6 +162,57 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "梦想客厅触手可及",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/fu001",
+     "backgroundColor": null
+    },
+    {
+     "title": "AGEN 爱格",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/agen-ai-ge-dai-dian-fu-shou-yi-teng-tiao-nuo-er-na-zi-ran-se__0920440_pe787034_s4.jpg",
+     "href": "/cn/zh/p/agen-ai-ge-dai-dian-fu-shou-yi-teng-tiao-nuo-er-na-zi-ran-se-39390772/"
+    },
+    {
+     "title": "GLADOM 格拉登",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/gladom-ge-la-deng-tuo-pan-zhuo-bai-se__0470732_pe612912_s4.jpg",
+     "href": "/cn/zh/p/gladom-ge-la-deng-tuo-pan-zhuo-bai-se-50337820/"
+    },
+    {
+     "title": "ALSEDA 阿西达",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/alseda-a-xi-da-deng-ba-jiao-xian-wei__24302_pe089431_s4.jpg",
+     "href": "/cn/zh/p/alseda-a-xi-da-deng-ba-jiao-xian-wei-40158135/"
+    },
+    {
+     "title": "HAUGA 豪嘉",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/hauga-hao-jia-bo-li-men-gui-bai-se__0914108_pe783849_s4.jpg",
+     "href": "/cn/zh/p/hauga-hao-jia-bo-li-men-gui-bai-se-30415079/"
+    },
+    {
+     "title": "HAUGA 豪嘉",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/hauga-hao-jia-2-men-gui-bai-se__0914104_pe783847_s4.jpg",
+     "href": "/cn/zh/p/hauga-hao-jia-2-men-gui-bai-se-40415074/"
+    },
+    {
+     "title": "HAUGA 豪嘉",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/hauga-hao-jia-shu-zhuo-bai-se__0955767_pe804102_s4.jpg",
+     "href": "/cn/zh/p/hauga-hao-jia-shu-zhuo-bai-se-70477678/"
+    },
+    {
+     "title": "BJÖRKBERGET 比约伯格",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/bjoerkberget-bi-yue-bo-ge-zhuan-yi-yi-de-ku-la-mi-huang-se__0955769_pe804114_s4.jpg",
+     "href": "/cn/zh/p/bjoerkberget-bi-yue-bo-ge-zhuan-yi-yi-de-ku-la-mi-huang-se-80481793/"
+    }
+   ],
    "settings": null
   },
   {
@@ -137,6 +228,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "LOHALS 鲁哈斯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lohals-lu-ha-si-ping-zhi-di-tan-zi-ran-se__0280230_pe419175_s4.jpg",
+     "href": "/cn/zh/p/lohals-lu-ha-si-ping-zhi-di-tan-zi-ran-se-80277396/"
+    },
+    {
+     "title": "RISBYN 里斯比恩",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/risbyn-li-si-bi-en-diao-deng-zhao-yang-cong-mi-huang-se__0732967_pe738771_s4.jpg",
+     "href": "/cn/zh/p/risbyn-li-si-bi-en-diao-deng-zhao-yang-cong-mi-huang-se-70458496/"
+    }
+   ],
    "settings": null
   }
  ]

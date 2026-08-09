@@ -11,7 +11,7 @@
    "title": "简易DIY：用颜料打造个性风格",
    "texts": [
     "用颜料改造你的家具。",
-    "<p>使用颜料个性定制新家具或令旧家具焕然一新。室内设计博主Annemarie喜欢用画笔发挥创意。她最近用色块快速改造了一个木质抽屉柜。她说：&ldquo;我选择了当时第一时间想到的三种颜色，并加入了一些我喜欢的哑光涂漆。不到一小时我就改造出了与众不同的效果。&rdquo;</p>",
+    "使用颜料个性定制新家具或令旧家具焕然一新。室内设计博主Annemarie喜欢用画笔发挥创意。她最近用色块快速改造了一个木质抽屉柜。她说：“我选择了当时第一时间想到的三种颜色，并加入了一些我喜欢的哑光涂漆。不到一小时我就改造出了与众不同的效果。”",
     "简易DIY：用颜料打造个性风格",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "简易DIY：用颜料打造个性风格",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/0c/38/0c38e076dc078b1f24c5bf16d8b6e09f.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -43,16 +53,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "Annemarie将淡彩色与亮色进行对比。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/98/7a/987af5df04b98ec82718dabb4b5c8daf.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3>运用色彩，尽情发挥创意</h3><p>Annemarie说：“在选择颜料时，我喜欢多尝试一番。这个柜子原本是白色的。四年前我将它涂成了薄荷绿色，从那时起我就喜欢上了淡彩色。这把宜家儿童椅已经买了好几年了，后来我决定把它涂成更亮的颜色。我喜欢崭新的黄色外观，对于用餐区来说这是一种欢快的色彩，而且为房间中略显呆板的家具增添了一丝活力。”</p>"
+    "运用色彩，尽情发挥创意Annemarie说：“在选择颜料时，我喜欢多尝试一番。这个柜子原本是白色的。四年前我将它涂成了薄荷绿色，从那时起我就喜欢上了淡彩色。这把宜家儿童椅已经买了好几年了，后来我决定把它涂成更亮的颜色。我喜欢崭新的黄色外观，对于用餐区来说这是一种欢快的色彩，而且为房间中略显呆板的家具增添了一丝活力。”"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -72,6 +94,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "用颜料提亮储物盒。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/1f/46/1f4606d6190951c4feffeacc94abfd53.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -91,6 +123,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "为你的家具选择大胆的色调。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a6/69/a669695afa69796457e9e12b2bad015d.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -110,6 +152,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "选择适合墙壁的色彩。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/42/b9/42b9e0bdc72cbdc6003615ddf64d9f32.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -121,6 +173,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -140,16 +194,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "Annemarie的照片。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/84/f8/84f8d6644817fed8065d6d16eaa0ccc5.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>制作人</strong></p>\n<p>设计师：Abigail Edwards<br />摄影师：Martin L&ouml;f</p>\n<p>访问thuisinstyling.nl，关注Annemarie</p>"
+    "制作人 设计师：Abigail Edwards 摄影师：Martin Löf 访问thuisinstyling.nl，关注Annemarie"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

@@ -11,7 +11,7 @@
    "title": "不拘一格的卧室",
    "texts": [
     "宜家 DUNVIK 当比克 沙发床内部装有袋装弹簧芯，可为你身体的所有部位提供舒适支撑。上面覆盖着 SPRÄNGÖRT 斯普兰约特 花朵图案被套和枕套，呈现出春天般清新的感觉。",
-    "<p>想象自己躺在床上，欣赏你这些年来收集的所有漂亮衣物。将它们并排悬挂着，就像百老汇的更衣室一样&hellip;&hellip;</p>",
+    "想象自己躺在床上，欣赏你这些年来收集的所有漂亮衣物。将它们并排悬挂着，就像百老汇的更衣室一样……",
     "不拘一格的卧室",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "不拘一格的卧室",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ce/ad/cead402189e55bbc1fa7dabc1b477f97.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -39,6 +49,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "STOCKHOLM 斯德哥尔摩",
+     "text": "¥1,499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/stockholm-si-de-ge-er-mo-tao-zhuo-2-jian-tao-hu-tao-mu-tie-mian__0735683_pe740088_s4.jpg",
+     "href": "/cn/zh/p/stockholm-si-de-ge-er-mo-tao-zhuo-2-jian-tao-hu-tao-mu-tie-mian-70353079/"
+    },
+    {
+     "title": "HEMNES 汉尼斯",
+     "text": "¥299",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/hemnes-han-ni-si-chuang-tou-zhuo-hei-he-se__0624435_pe691842_s4.jpg",
+     "href": "/cn/zh/p/hemnes-han-ni-si-chuang-tou-zhuo-hei-he-se-50354089/"
+    }
+   ],
    "settings": null
   }
  ]

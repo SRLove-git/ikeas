@@ -11,7 +11,7 @@
    "title": "如何打造令人心情愉悦的餐厅",
    "texts": [
     "一间餐厅内布置着一套桦木桌椅、一块黄色地毯、一个白/灰绿色储物组合以及暗红色吊灯。",
-    "<p class=\"p1\">用色彩缤纷、灵活实用的家具（例如伸缩型餐桌）营造温馨怡人的空间，无论是家庭聚餐或是大型节日聚会，都令人倍感温暖。</p>",
+    "用色彩缤纷、灵活实用的家具（例如伸缩型餐桌）营造温馨怡人的空间，无论是家庭聚餐或是大型节日聚会，都令人倍感温暖。",
     "如何打造令人心情愉悦的餐厅",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "如何打造令人心情愉悦的餐厅",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/9a/e9/9ae9000b897bfb55cfba2c5163a9be15.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Hero-如何打造令人心情愉悦的餐厅"
    }
@@ -52,6 +62,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一套桦木桌椅、一块黄色地毯，一些粉色和蓝色餐盘、绿色玻璃杯、刀叉以及两盏暗红色吊灯。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/6735c6ddd74b1921/original/PH171589-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Curated Gallery-再多的客人也坐得下"
    }
@@ -80,6 +100,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一把桦木椅子静立在一块黄色地毯上。背景中是一个桦木抽屉柜和一些室内绿色植物。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/4d14f5b9dbc4c1af/original/PH171590-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Curated Gallery-慢慢享受惬意午餐"
    }
@@ -108,6 +138,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一套桦木桌椅、几块红色椅垫、一块黄色地毯、一盏暗红色吊灯和两个带有柜子的绿色搁架单元。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/40516a3d622c1eae/original/PH171591-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Curated Gallery-内外兼顾的储物柜"
    }
@@ -136,6 +176,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个顶部放着一些植物、书本和一盏台灯的白/灰绿色储物组合。刀叉存放在抽屉中。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/4d0daa22b11dce5e/original/PH171592-crop002.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Curated Gallery-整洁优雅的储物"
    }
@@ -164,6 +214,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一张桦木桌子上放着一把茶壶、几个杯子、一些小饼干和棋盘游戏，六把桦木椅子，两个红色椅垫和一块黄色地毯。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/13070a75fdcc1a61/original/PH171593-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Curated Gallery-地板上的时尚元素"
    }
@@ -177,6 +237,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Product Shelf-包含产品"
    }

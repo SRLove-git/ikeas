@@ -11,7 +11,7 @@
    "title": "实用的装饰品",
    "texts": [
     "在摆放装饰品的储物柜上，有一套形状和大小各不相同的四件式KRINGGÅ 克里加 花瓶，白釉石瓷制成。",
-    "<p>本月，宜家推出多款既能点缀家居，又可以提供实用功能的装饰品。这些新推出的花瓶既能盛放花朵或绿植，也可以用作单独的装饰品；另外还有一款新藤框镜子，是有趣的墙面装饰！</p>",
+    "本月，宜家推出多款既能点缀家居，又可以提供实用功能的装饰品。这些新推出的花瓶既能盛放花朵或绿植，也可以用作单独的装饰品；另外还有一款新藤框镜子，是有趣的墙面装饰！",
     "实用的装饰品",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "实用的装饰品",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/27/e4/27e49c5ef7d5a16964c14a268a9de57a.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -46,6 +56,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "一套四件式KRINGGÅ 克里加 花瓶，形状和大小各不相同，白釉石瓷制成。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/3f/59/3f593346b75c469779ddbcab5c99445b.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/3f/59/3f593346b75c469779ddbcab5c99445b.jpg",
+     "href": null
+    },
+    {
+     "heading": "单独摆放也很美观 一套形状各异的四件式KRINGGÅ 克里加 花瓶，花瓶既可以盛放花朵或绿植，也可以用作单独的装饰品，无论如何使用，都能为家居增添美观点缀。",
+     "text": null,
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -73,6 +107,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "KRISTINELUND 克里汀卢德 镜子边框，充满装饰性的编织藤条设计，悬挂在灰色的墙上。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e4/77/e4778d9689569dea4f8f4a5dce3e76a5.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "在灰色的墙上，有一面椭圆形的藤框KRISTINELUND 克里汀卢德 镜子，旁边还有其它的藤框镜子。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/28/89/28899541f574061170662b3671b3f111.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "藤框镜子设计 美观的镜子也有很好的装饰效果，KRISTINELUND 克里汀卢德 镜子边框采用天然藤料制成，别具特色，散发温馨气息。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/e4/77/e4778d9689569dea4f8f4a5dce3e76a5.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/28/89/28899541f574061170662b3671b3f111.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   }
  ]

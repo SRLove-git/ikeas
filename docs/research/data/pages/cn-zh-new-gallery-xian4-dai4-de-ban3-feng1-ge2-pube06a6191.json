@@ -11,7 +11,7 @@
    "title": "现代地板风格",
    "texts": [
     "宜家 LANGSTED 兰斯泰德 短绒地毯为你提供无限可能。这款地毯提供多种尺寸，以及青绿色、黄色和绿色等多种颜色可选。切割边缘便于多块进行无缝拼接。",
-    "<p>本月新推出的地毯利用时尚的色彩和几何图案，为你打造现代风格地板。</p>\n<p>如今，我们将撞色潮流设计运用到了地板上。LANGSTED 兰斯泰德 地毯有多种颜色可选，边缘经过裁剪，便于与多块地毯进行无缝拼接，组成一块更大的地毯。</p>",
+    "本月新推出的地毯利用时尚的色彩和几何图案，为你打造现代风格地板。 如今，我们将撞色潮流设计运用到了地板上。LANGSTED 兰斯泰德 地毯有多种颜色可选，边缘经过裁剪，便于与多块地毯进行无缝拼接，组成一块更大的地毯。",
     "现代地板风格",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "现代地板风格",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/cd/b8/cdb802784ad8e6f17aae62af3bcdf003.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -46,16 +56,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "纯青绿色、黄色和绿色宜家 LANGSTED 兰斯泰德 短绒地毯的切割边缘。 切割边缘令你可以将地毯铺满地板或并排放置，无须担心出现接缝。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/92/35/9235162ba21fa91f90588cd5fd9e0326.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>组合搭配米色、绿色、青绿色和黄色的地毯，打造属于你的地面彩色拼贴作品。</p>"
+    "组合搭配米色、绿色、青绿色和黄色的地毯，打造属于你的地面彩色拼贴作品。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -83,6 +105,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "使用宜家 KONGSTRUP 孔特鲁 不对称阶梯图案地毯升级你的地板风格。这款长方形地毯的长绒部分采用深绿色和浅蓝色聚丙烯材料制成。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/db/4f/db4f8ef6b251e28f55111eafbb6bfcdb.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "宜家 SVALLERUP 斯瓦勒鲁 平织地毯采用富有现代感的单色设计，为房间打造柔和风格。方形地毯绘有黑白格纹图案，可以在室内或户外使用。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/8e/e1/8ee1e840b7b56a09cc12051b6b23034d.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "升级你的地板风格 KONGSTRUP 孔特鲁 地毯采用不对称的阶梯状图案，可为家增添有趣的图案风情。 这款地毯经久耐用、易于护理、不易脱毛，非常适合在上面放松休息！",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/db/4f/db4f8ef6b251e28f55111eafbb6bfcdb.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "SVALLERUP 斯瓦勒鲁 地毯采用单色设计，经典而柔软，饰有格纹图案，可为地板增添对称之美，甚至还可以在户外使用。",
+     "image": "https://file.app.ikea.cn/images/8e/e1/8ee1e840b7b56a09cc12051b6b23034d.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -98,6 +151,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

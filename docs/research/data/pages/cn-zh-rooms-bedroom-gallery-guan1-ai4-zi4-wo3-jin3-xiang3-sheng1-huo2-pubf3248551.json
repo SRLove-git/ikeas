@@ -11,7 +11,7 @@
    "title": "关爱自我，尽享生活",
    "texts": [
     "宜家 MALM 马尔姆 黑褐色高床架采用时尚光亮的贴面打造而成，简洁的线条和压边彰显出现代设计风格。搭配 BLÅVINDA 布拉文达 和 KUNGSBLOMMA 昆布鲁玛 被套和床单可令这款产品的外观更具柔美之感。",
-    "<p>卧室最能体现个人风格。你可以在卧室里放松休息，准备好迎接新的一天。你可以在这里想做什么就做什么，并让身边围绕着你的心爱之物，还可以将一切打理地井井有条，令生活更加轻松愉悦。</p>",
+    "卧室最能体现个人风格。你可以在卧室里放松休息，准备好迎接新的一天。你可以在这里想做什么就做什么，并让身边围绕着你的心爱之物，还可以将一切打理地井井有条，令生活更加轻松愉悦。",
     "关爱自我，尽享生活",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "关爱自我，尽享生活",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/96/52/96522872aa2a3a860fd703783a37a30e.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -39,6 +49,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "ÖSTERNÄS 约斯特奈斯",
+     "text": "¥50",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/oesternaes-yue-si-te-nai-si-pi-ba-shou-rou-zhi-pi-ge__0753932_pe747721_s4.jpg",
+     "href": "/cn/zh/p/oesternaes-yue-si-te-nai-si-pi-ba-shou-rou-zhi-pi-ge-30348933/"
+    },
+    {
+     "title": "TURBO 特伯",
+     "text": "¥399",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/turbo-te-bo-shai-yi-jia-shi-nei-hu-wai-hei-se__0710718_pe727739_s4.jpg",
+     "href": "/cn/zh/p/turbo-te-bo-shai-yi-jia-shi-nei-hu-wai-hei-se-50177242/"
+    }
+   ],
    "settings": null
   }
  ]

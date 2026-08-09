@@ -11,7 +11,7 @@
    "title": "有条不紊，轻松洗浴",
    "texts": [
     "宜家 HEMNES 汉尼斯 白色开放式洗脸池柜下方设有独立式搁板，便于你快速拿取毛巾和化妆品。下方空间甚至还能放置婴儿浴盆！",
-    "<p>即使家中人口众多，也能拥有风格时尚的浴室。秘诀是？带有秘密储物隔断的多功能浴室家具，搭配便于拿取物品的开放式搁板。</p>",
+    "即使家中人口众多，也能拥有风格时尚的浴室。秘诀是？带有秘密储物隔断的多功能浴室家具，搭配便于拿取物品的开放式搁板。",
     "有条不紊，轻松洗浴",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "有条不紊，轻松洗浴",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d2/0f/d20fdcf0c8e13d697c1087102bdc7896.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -39,6 +49,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "HEMNES 汉尼斯",
+     "text": "¥799",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/hemnes-han-ni-si-ge-jia-dan-yuan-bai-se__0627205_pe693221_s4.jpg",
+     "href": "/cn/zh/p/hemnes-han-ni-si-ge-jia-dan-yuan-bai-se-80217656/"
+    },
+    {
+     "title": "SNIDAD 斯尼达",
+     "text": "¥199",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/snidad-si-ni-da-lan-teng-tiao__0713103_pe729252_s4.jpg",
+     "href": "/cn/zh/p/snidad-si-ni-da-lan-teng-tiao-00394945/"
+    }
+   ],
    "settings": null
   }
  ]

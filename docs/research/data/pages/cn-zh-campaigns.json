@@ -48,6 +48,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "探索当季新品",
+     "text": "全新设计，打造更美好的日常生活",
+     "image": "https://file.app.ikea.cn/cms/u/20260623/01be17f70b3a442eb11d7e8854762631.png?x-oss-process=style/medium",
+     "href": "/cn/zh/personalize-channel/NewArrivalsChannel/?topProductIds=80637737",
+     "backgroundColor": "#Ca5008"
+    },
+    {
+     "title": "限时特惠",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20260623/77ac3323768c4ea7b41c151ba0b677e3.png?x-oss-process=style/medium",
+     "href": "/cn/zh/personalize-channel/LimitedTimeDiscountsChannel/?topProductIds=70575099",
+     "backgroundColor": "#007cc1"
+    },
+    {
+     "title": "更低价格",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20260623/7cec16a1a55d4522a39e9c289c30dbad.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/personalize-channel/NewLowerPriceChannel/?topProductIds=69564544",
+     "backgroundColor": "#CC0008"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "origin_homepage_recommendation"
    }

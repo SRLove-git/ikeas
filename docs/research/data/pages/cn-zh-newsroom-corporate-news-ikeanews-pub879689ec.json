@@ -23,6 +23,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "拓张计划新闻",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d7/99/d7996bda97c77e821f369f7e39fcda4b.png",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "b8dd012a905e41f09adec075202ff0f6"
    }
@@ -47,6 +57,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "宜家在中国进一步扩张",
+     "text": "经过多个月的艰苦努力，在宜家集团和英特宜家购物中心集团的共同努力之下，我们终于成功地在北京的大兴区获得了一块相当面积的土地使用权。",
+     "image": "https://file.app.ikea.cn/images/29/93/2993fd8a50833666d01bfb3fe8b62e17.jpg",
+     "href": "/cn/zh/this-is-ikea/newsroom/ikeanews-pub4c7404eb",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "5eb2a39462594579b24054998bee5e5b"
    }
@@ -69,6 +89,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "9596bba855ba424ab8e4289fce8915ac"
    }
@@ -81,6 +103,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "f8435e9ce28c4a908b6ec03046165083"
    }
@@ -89,10 +113,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h4><strong>你可能会想看</strong></h4>"
+    "你可能会想看"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "daafc70c64b447ad819c41e419787c91"
    }
@@ -132,6 +158,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "综合新闻",
+     "text": "综合新闻",
+     "image": "https://file.app.ikea.cn/images/34/18/34182fc4ce17828b4c54319e3fc7a85d.jpg",
+     "href": "/cn/zh/newsroom/corporate-news/xinwen-pub5a3665d1",
+     "backgroundColor": null
+    },
+    {
+     "title": "产品资讯新闻",
+     "text": "一个买了很多宜家产品的女人",
+     "image": "https://file.app.ikea.cn/images/72/31/723130e01c79442f6771cfe57062c1da.jpg",
+     "href": "/cn/zh/newsroom/range-news/ikeanews-pub6c47b97c",
+     "backgroundColor": null
+    },
+    {
+     "title": "商品召回信息",
+     "text": "一张尺寸不合的床",
+     "image": "https://file.app.ikea.cn/images/a4/63/a46327c1dda3b7b5247dc369f6999ecf.jpg",
+     "href": "/cn/zh/customer-service/product-support/recalls/",
+     "backgroundColor": null
+    },
+    {
+     "title": "可持续发展新闻",
+     "text": "可持续发展新闻",
+     "image": "https://file.app.ikea.cn/images/0a/30/0a30abb1c2e6ce71a7217eb7013aa5b4.jpeg",
+     "href": "/cn/zh/this-is-ikea/newsroom/ikeanews-pub943a785c",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "a2b9ffb717384ee1b1e7c32844f242a3"
    }

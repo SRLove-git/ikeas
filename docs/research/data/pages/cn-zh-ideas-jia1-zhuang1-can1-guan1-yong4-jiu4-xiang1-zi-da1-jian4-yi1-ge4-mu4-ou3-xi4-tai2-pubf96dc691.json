@@ -11,7 +11,7 @@
    "title": "家装参观：用旧箱子搭建一个木偶戏台",
    "texts": [
     "一道色彩缤纷的背景幕布前有两只木偶，周围是糖果色条纹的硬纸板框架。",
-    "<p>拆开新买物品的包装后，别急着把硬纸板盒丢掉！只需运用一点想象力，再加上颜料和布料，便可将其打造成一个精彩纷呈的木偶戏台。观看视频，了解如何轻松搭建！</p>",
+    "拆开新买物品的包装后，别急着把硬纸板盒丢掉！只需运用一点想象力，再加上颜料和布料，便可将其打造成一个精彩纷呈的木偶戏台。观看视频，了解如何轻松搭建！",
     "家装参观：用旧箱子搭建一个木偶戏台",
     "normal"
    ],
@@ -24,16 +24,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "家装参观：用旧箱子搭建一个木偶戏台",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/05/a2/05a26686a06ed0041147346dfbd28259.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>自己动手搭建木偶戏台</h2>\n<p><br />很快就可以完成！准备好硬纸板盒、剪刀、画笔、颜料（我们使用了 M&Aring;LA 莫拉 荧光颜料中的明快色彩）、布料、绳子和记号笔。将盒子背面剪下来，但要保留边缘，好让盒子直立起来。在盒子的正面画出舞台的形状，然后剪下来装饰一番。制作挂帘（用穿线或胶带固定的方式穿过绳子），再将挂帘挂好。快看，戏台大功告成了。<br /><br /></p>"
+    "自己动手搭建木偶戏台 很快就可以完成！准备好硬纸板盒、剪刀、画笔、颜料（我们使用了 MåLA 莫拉 荧光颜料中的明快色彩）、布料、绳子和记号笔。将盒子背面剪下来，但要保留边缘，好让盒子直立起来。在盒子的正面画出舞台的形状，然后剪下来装饰一番。制作挂帘（用穿线或胶带固定的方式穿过绳子），再将挂帘挂好。快看，戏台大功告成了。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -56,36 +68,52 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "图片：Lo和Juno看着木偶戏台上的猫头鹰木偶，Jack在挂帘后盘腿坐着。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/57/ee/57ee36816f5e1fd0b6c90a3ed33289db.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>充分发挥想象力</h2>\n<p>你可以用硬纸板盒做什么？这个问题引导我们搭建出了木偶戏台。我们当时正在拜访Hannah、Per和他们的孩子Jack、Lo与Juno。爸爸Per已准备好迎接挑战，承担需要操作&ldquo;尖锐工具&rdquo;的危险工作，Lo则负责涂颜料（Juno也画了一道条纹！），Jack负责表演木偶戏，为我们带来了精彩的猫头鹰探险故事。</p>"
+    "充分发挥想象力 你可以用硬纸板盒做什么？这个问题引导我们搭建出了木偶戏台。我们当时正在拜访Hannah、Per和他们的孩子Jack、Lo与Juno。爸爸Per已准备好迎接挑战，承担需要操作“尖锐工具”的危险工作，Lo则负责涂颜料（Juno也画了一道条纹！），Jack负责表演木偶戏，为我们带来了精彩的猫头鹰探险故事。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>我们乐意看到顾客运用我们的产品发挥创意。尽情发挥吧！但是请注意，经过微调或改造的宜家产品将丧失其原有功能，或是无法进行二次销售，因此，你将不再享有宜家的商业保证及退货权利。</p>"
+    "我们乐意看到顾客运用我们的产品发挥创意。尽情发挥吧！但是请注意，经过微调或改造的宜家产品将丧失其原有功能，或是无法进行二次销售，因此，你将不再享有宜家的商业保证及退货权利。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>制作人<br /></strong>室内设计师: Pernilla Warnhammar<br />摄影师: Nato Welton<strong><br /></strong></p>"
+    "制作人 室内设计师: Pernilla Warnhammar 摄影师: Nato Welton"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

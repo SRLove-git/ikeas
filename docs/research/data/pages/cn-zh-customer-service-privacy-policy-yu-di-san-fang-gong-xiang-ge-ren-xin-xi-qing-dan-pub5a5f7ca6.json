@@ -10,10 +10,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h4 style=\"text-align: center;\"><span style=\"color: #000000;\">与第三方共享个人信息清单</span></h4>\n<p><span style=\"color: #000000;\"><strong>一、接入SDK名单</strong></span></p>\n<p><span style=\"color: #000000;\">&nbsp;&nbsp;为保障我们线上渠道的产品或服务稳定运行或实现相关功能，我们在宜家移动应用程序（&ldquo;App&rdquo;）、宜家官网、微信小程序（<span style=\"font-size: 10.0pt;\">包括&ldquo;</span><span style=\"font-size: 10.0pt;\">IKEA</span><span style=\"font-size: 10.0pt;\">宜家点餐&rdquo;微信小程序、&ldquo;IKEA宜家家居&rdquo;微信小程序、&ldquo;宜家门店助手&rdquo;微信小程序）</span>中接入了第三方的软件开发工具包（以下简称 &ldquo;SDK&rdquo;），其中部分SDK会根据相关业务、功能目的收集您的必要个人信息。我们会对第三方提供的该等SDK进行安全评估，以保护您的个人信息安全。以下是此类SDK的具体信息：</span"
+    "与第三方共享个人信息清单 一、接入SDK名单 为保障我们线上渠道的产品或服务稳定运行或实现相关功能，我们在宜家移动应用程序（“App”）、宜家官网、微信小程序（包括“IKEA宜家点餐”微信小程序、“IKEA宜家家居”微信小程序、“宜家门店助手”微信小程序）中接入了第三方的软件开发工具包（以下简称 “SDK”），其中部分SDK会根据相关业务、功能目的收集您的必要个人信息。我们会对第三方提供的该等SDK进行安全评估，以保护您的个人信息安全。以下是此类SDK的具体信息： 官网如下： 第三方公司名称：北京易数科技有限公司 产品/类型：GrowingIO Web JS SDK 收集个人信息类型：Cookies，IP地址 使用目的：分析官网用户的使用情况 使用场景：用户使用宜家官网时 共享方式：SDK本机采集 第三方个人信息处理规则：https://accounts.growingio.com/privacy Android端如下： 第三方公司名称：深圳市和讯华谷信息技术有限公司 产品/类型：极光推送 - JPush SDK 收集个人信息类型：设备标识符（包括 Android ID、GAID、OAID、UAID、IDFA、AAID、Boot ID），设备硬件信息（包括设备型号、设备屏幕分辨率、设备硬件制造商、设备产品名称、设备存储空间），操作系统信息（包括操作系统版本、系统名称、系统语言），精"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "b352c76ba5f6422090ec23b67ed46546"
    }

@@ -11,7 +11,7 @@
    "title": "巧妙的衣物储放空间",
    "texts": [
     "房间里放着三个排成一排的便携式布艺衣柜，其灵感源自帐篷。一旁还放着白色晒衣架，上面挂着一件皮草外套、一条裙子和几件毛衣。",
-    "<p>本月推出两款全新的衣物储物解决方案，简约紧凑。</p>\n<p>VUKU 乌库 衣柜可以让衣服免沾灰尘，设计灵感源自帐篷。它是一款便携式布艺衣柜，里面有挂杆，外面有拉链和挂钩，易于组装、拆卸和移动。</p>",
+    "本月推出两款全新的衣物储物解决方案，简约紧凑。 VUKU 乌库 衣柜可以让衣服免沾灰尘，设计灵感源自帐篷。它是一款便携式布艺衣柜，里面有挂杆，外面有拉链和挂钩，易于组装、拆卸和移动。",
     "巧妙的衣物储放空间",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "巧妙的衣物储放空间",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/36/9f/369fdf9f13b4a6a7739f958403bc863b.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,16 +54,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "缝纫间放着两个白色衣架，带内置储鞋空间，一同展示的还有挂着衬衫和裙子的挂衣杆，以及一个挂着镂空服饰式样的裤架。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b1/4d/b14d32a73acd42f4a84ddc9f5a1b2521.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>MACKAPÄR 马凯帕 系列设计简洁小巧，便于组装。有了它们，即使是狭窄的门厅和逼仄的空间，也能井井有条。</p>"
+    "MACKAPÄR 马凯帕 系列设计简洁小巧，便于组装。有了它们，即使是狭窄的门厅和逼仄的空间，也能井井有条。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -74,16 +96,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "带推拉门的白色储物长凳，里面放着一双鞋子和一盒钢球。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/1f/33/1f33b1a7cfbd479f7ca98320af08ed5b.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>MACKAPÄR 马凯帕 系列设计简单、小巧，有开放式和封闭式储物空间，你可以将靴子收起来，或把高跟鞋展示出来！</p>"
+    "MACKAPÄR 马凯帕 系列设计简单、小巧，有开放式和封闭式储物空间，你可以将靴子收起来，或把高跟鞋展示出来！"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -104,16 +138,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "特写：灰色毛毡篮，里面放着蓝色羊毛线。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/62/6d/626dc8118fe049fea0bc83be0c9a39d4.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>PUDDA 普达 篮子采用灰色毛毡制成，给人以温暖柔软的感觉，风格现代，可存放小物件。</p>"
+    "PUDDA 普达 篮子采用灰色毛毡制成，给人以温暖柔软的感觉，风格现代，可存放小物件。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -127,6 +173,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

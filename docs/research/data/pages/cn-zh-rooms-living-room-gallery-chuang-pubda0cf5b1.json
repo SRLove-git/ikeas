@@ -23,6 +23,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "合三为一",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d4/dc/d4dca3e9a2fc658c3599bc694c8de681.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -38,6 +48,26 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "KULLABERG 乐维",
+     "text": "¥499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kullaberg-le-wei-zhuan-yi-hei-se__0724718_pe734601_s4.jpg",
+     "href": "/cn/zh/p/kullaberg-le-wei-zhuan-yi-hei-se-70325519/"
+    },
+    {
+     "title": "TURBO 特伯",
+     "text": "¥399",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/turbo-te-bo-shai-yi-jia-shi-nei-hu-wai-hei-se__0710718_pe727739_s4.jpg",
+     "href": "/cn/zh/p/turbo-te-bo-shai-yi-jia-shi-nei-hu-wai-hei-se-50177242/"
+    },
+    {
+     "title": "LOHALS 鲁哈斯",
+     "text": "¥799",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lohals-lu-ha-si-ping-zhi-di-tan-zi-ran-se__0280221_pe419173_s4.jpg",
+     "href": "/cn/zh/p/lohals-lu-ha-si-ping-zhi-di-tan-zi-ran-se-30277394/"
+    }
+   ],
    "settings": null
   }
  ]

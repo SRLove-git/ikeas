@@ -11,7 +11,7 @@
    "title": "在小空间里喝饮料或缝东西",
    "texts": [
     "找到适合你的用餐空间。NORDEN 诺顿 伸缩型餐桌不仅能让你专注于爱好活动，还能让你与朋友们一道进餐。",
-    "<p>用餐区无需特别豪华，只要能满足你的需求即可。如果你需要有人陪伴呢？只需将桌面抬起。这样就能打造出足够的空间。</p>",
+    "用餐区无需特别豪华，只要能满足你的需求即可。如果你需要有人陪伴呢？只需将桌面抬起。这样就能打造出足够的空间。",
     "在小空间里喝饮料或缝东西",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "在小空间里喝饮料或缝东西",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/c1/88/c188146e67c94815417a1a7a99d056e4.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -39,6 +49,38 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "KULLABERG 乐维",
+     "text": "¥499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kullaberg-le-wei-zhuan-yi-hei-se__0724718_pe734601_s4.jpg",
+     "href": "/cn/zh/p/kullaberg-le-wei-zhuan-yi-hei-se-70325519/"
+    },
+    {
+     "title": "VEDDINGE 维丁格",
+     "text": "¥130",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/veddinge-wei-ding-ge-gui-men-bai-se__0648548_pe704982_s4.jpg",
+     "href": "/cn/zh/p/veddinge-wei-ding-ge-gui-men-bai-se-00274434/"
+    },
+    {
+     "title": "ENERYDA 艾纳丽",
+     "text": "¥30",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/eneryda-ai-na-li-ba-shou-du-ge__0754250_pe747839_s4.jpg",
+     "href": "/cn/zh/p/eneryda-ai-na-li-ba-shou-du-ge-40347527/"
+    },
+    {
+     "title": "MORUM 莫鲁",
+     "text": "¥599",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/morum-mo-lu-ping-zhi-di-tan-shi-nei-hu-wai-mi-huang-se__0123529_pe279665_s4.jpg",
+     "href": "/cn/zh/p/morum-mo-lu-ping-zhi-di-tan-shi-nei-hu-wai-mi-huang-se-00203564/"
+    },
+    {
+     "title": "HEKTAR 赫克塔",
+     "text": "¥149",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/hektar-he-ke-ta-diao-deng-shen-hui-se__0613033_pe686124_s4.jpg",
+     "href": "/cn/zh/p/hektar-he-ke-ta-diao-deng-shen-hui-se-70390369/"
+    }
+   ],
    "settings": null
   }
  ]

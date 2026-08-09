@@ -11,7 +11,7 @@
    "title": "家庭节能小窍门",
    "texts": [
     "一个人手持一部智能手机，背景中是一个用于智能产品的DIRIGERA 迪利吉拉 集线器。",
-    "<p>家里的很多区域都会直接影响能源使用，甚至可能影响到电费和家用账单。幸好这些区域也提供了一些节约能源的好机会，你可以通过许多简单的方法更有效地利用能源，同时还可以降低成本。</p>",
+    "家里的很多区域都会直接影响能源使用，甚至可能影响到电费和家用账单。幸好这些区域也提供了一些节约能源的好机会，你可以通过许多简单的方法更有效地利用能源，同时还可以降低成本。",
     "IMAGE",
     "家庭节能小窍门"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "家庭节能小窍门",
+     "text": "",
+     "image": "https://file.app.ikea.cn/content-space/barn-images/89999219-2209-47BC-A045DC50354F32AD/main-v1.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Standardised Hero-家庭节能小窍门"
    }
@@ -36,6 +46,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-分割线 Horizontal Line-"
    }
@@ -65,6 +77,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一段视频中，一个立方体在展示不同的图片，还配有文字“你知道吗？我们的SOLHETTA 索海塔 LED灯泡使用寿命长达25,000小时。” “20年间持续照明25,000小时，或者说每天3.4小时照明，可持续长达20年。”“点滴行动，全新生活”",
+     "image": "https://file.app.ikea.cn/cms/u/20250724/91d59d8e22e148fa956ca864ce5d34fd.mp4",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "一个人正在将灯泡安装到灯具上。",
+     "image": "https://file.app.ikea.cn/content-space/barn-images/676B017A-CF3C-4F7C-82A17615EE117D1E/main-v1.png?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-栅格合集 Curated Gallery-向右一滑，轻松关灯"
    }
@@ -73,10 +102,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>照明节能小窍门</h2>"
+    "照明节能小窍门"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -90,7 +121,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<h2>选择LED照明</h2>\n<p>新款LED灯泡比以往任何时候都更节能、使用寿命更长，这意味着无需经常更换灯泡。</p>"
+    "选择LED照明 新款LED灯泡比以往任何时候都更节能、使用寿命更长，这意味着无需经常更换灯泡。"
    ],
    "images": [
     "https://file.app.ikea.cn/content-space/barn-images/98044A04-075E-4502-9C67284ECCC510F8/main-v1.jpg?x-oss-process=style/medium",
@@ -111,6 +142,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "霓虹灯照亮的房间里，有白色的搁架、挂着的衣服，地板上还有一只红色气球。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/content-space/barn-images/98044A04-075E-4502-9C67284ECCC510F8/main-v1.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "一个穿着白色条纹红色睡衣的孩子抱着玩具走在一侧，背景中有一把蓝色的椅子和一张地毯。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/content-space/barn-images/FDEF3109-7F94-49EA-ABB8EAD504649D48/main-v1.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "在一个墙壁色彩淡雅的现代房间里，一个人的手臂伸向一盆垂吊植物。手中握着一个小而圆的物体，可能是一块石头或一个装饰品。背景中可以看到部分家具和照明设备，它们为空间增添了现代感。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/content-space/barn-images/ED763EEE-44E3-4697-BD268AC4DB63F3D3/main-v1.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "选择LED照明 新款LED灯泡比以往任何时候都更节能、使用寿命更长，这意味着无需经常更换灯泡。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/content-space/barn-images/98044A04-075E-4502-9C67284ECCC510F8/main-v1.jpg?x-oss-process=style/medium",
+     "href": null
+    },
+    {
+     "heading": "需要时自动亮灯 当有人移动时，就会触发动态感应器自动打开光源，在你需要时随时亮灯，不需要时则关闭。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/content-space/barn-images/FDEF3109-7F94-49EA-ABB8EAD504649D48/main-v1.jpg?x-oss-process=style/medium",
+     "href": null
+    },
+    {
+     "heading": "使用调光器和计时器降低能耗 使用调光器、计时器和运动传感器等智能产品来调节照明度，或在一天中的特定时间关灯。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/content-space/barn-images/ED763EEE-44E3-4697-BD268AC4DB63F3D3/main-v1.jpg?x-oss-process=style/medium",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-分栏内容 Columns-"
    }
@@ -128,6 +203,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "SOLHETTA 索海塔",
+     "text": "¥9.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/solhetta-suo-hai-ta-led-deng-pao-e27-470-liu-ming-qiu-xing-ru-bai-se__0988838_pe818254_s4.jpg",
+     "href": "/cn/zh/p/solhetta-suo-hai-ta-led-deng-pao-e27-470-liu-ming-qiu-xing-ru-bai-se-60591486/"
+    },
+    {
+     "title": "SOLHETTA 索海塔",
+     "text": "¥29.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/solhetta-suo-hai-ta-led-deng-pao-e27-806-liu-ming-ke-diao-guang-de-qiu-xing-ru-bai-se__0988841_pe818257_s4.jpg",
+     "href": "/cn/zh/p/solhetta-suo-hai-ta-led-deng-pao-e27-806-liu-ming-ke-diao-guang-de-qiu-xing-ru-bai-se-80583942/"
+    }
+   ],
    "settings": {
     "traceId": "cms-Product Shelf-有助于节约照明能源的产品"
    }
@@ -136,7 +225,7 @@
    "type": "pub-curated-gallery",
    "title": "电器节能技巧",
    "texts": [
-    "自然晾干衣物将衣服挂在衣架或悬挂式晾衣架上晾干，这种节能方式可以替代滚筒烘干机。这也可以让穿过但不脏的衣服保持清新并减少磨损。   洗碗机装满后再一次清洗所有碗盘，可以助你节能节水。 选择高能效评级产品在选购炉灶、滚筒烘干机、洗衣机和冰箱等新电器时，应选择能耗等级低的产品，能耗越低越好。",
+    "自然晾干衣物将衣服挂在衣架或悬挂式晾衣架上晾干，这种节能方式可以替代滚筒烘干机。这也可以让穿过但不脏的衣服保持清新并减少磨损。 洗碗机装满后再一次清洗所有碗盘，可以助你节能节水。 选择高能效评级产品在选购炉灶、滚筒烘干机、洗衣机和冰箱等新电器时，应选择能耗等级低的产品，能耗越低越好。",
     "电器节能技巧",
     "IMAGE",
     "00242891",
@@ -152,6 +241,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个白色的SKÅDIS 斯考迪斯 洞洞板",
+     "image": "https://file.app.ikea.cn/content-space/barn-images/23F84362-7E36-419C-93235519222C94ED/main-v1.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-栅格合集 Curated Gallery-电器节能技巧"
    }
@@ -160,10 +259,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>制冷和供暖节能小窍门</strong></h2>"
+    "制冷和供暖节能小窍门"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -177,7 +278,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<h2>窗户隔热​</h2>\n<p>使用厚窗帘、窗帘衬布和隔热百叶窗，并在一天中的正确时间拉上它们，有助于调节室温。冬天可以防风，夏天可以防热。</p>"
+    "窗户隔热​ 使用厚窗帘、窗帘衬布和隔热百叶窗，并在一天中的正确时间拉上它们，有助于调节室温。冬天可以防风，夏天可以防热。"
    ],
    "images": [
     "https://content-service-oss.aidesign.ingka-internal.cn/content-hub/f96ef328-1efa-4dd7-befb-0fa4910a9d15/2cc77428-bab9-461b-8af9-c0e5892d86ee.jpeg",
@@ -193,6 +294,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "室内光线充足，书桌上摆放着黑色可调节台灯、成堆的书籍和各种装饰品。办公桌正对着一扇大窗户，黑色窗帘部分拉上，窗外绿树成荫，对面一栋大楼的外墙尽收眼底。",
+     "text": "",
+     "image": "https://content-service-oss.aidesign.ingka-internal.cn/content-hub/f96ef328-1efa-4dd7-befb-0fa4910a9d15/2cc77428-bab9-461b-8af9-c0e5892d86ee.jpeg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "俯瞰图：四种不同的纺织品紧密地放在一起。左侧是一块深灰色布料，上面有浅灰色条纹，可能是毛织材料。右侧相邻的是一种浅色的绒毛纺织品，可能是毛皮或人造毛皮材料。",
+     "text": "",
+     "image": "https://content-service-oss.aidesign.ingka-internal.cn/content-hub/f96ef328-1efa-4dd7-befb-0fa4910a9d15/d7ae8b23-1f2e-4f48-aba1-7a0d09a5906f.jpeg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "窗户隔热​ 使用厚窗帘、窗帘衬布和隔热百叶窗，并在一天中的正确时间拉上它们，有助于调节室温。冬天可以防风，夏天可以防热。",
+     "text": null,
+     "image": "https://content-service-oss.aidesign.ingka-internal.cn/content-hub/f96ef328-1efa-4dd7-befb-0fa4910a9d15/2cc77428-bab9-461b-8af9-c0e5892d86ee.jpeg",
+     "href": null
+    },
+    {
+     "heading": "地板隔热​ 地板会散热并让冷空气进入，尤其是未铺设地毯的地板。不如铺上地毯，增加一层保温层，温暖房间和你的双脚。地毯越厚越好。",
+     "text": null,
+     "image": "https://content-service-oss.aidesign.ingka-internal.cn/content-hub/f96ef328-1efa-4dd7-befb-0fa4910a9d15/d7ae8b23-1f2e-4f48-aba1-7a0d09a5906f.jpeg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-分栏内容 Columns-"
    }
@@ -206,7 +338,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<h2>多加几层，多点温暖</h2>\n<p>在家休息时盖上毯子。床上再放上一块休闲毯，畅享整夜舒适好眠。当你被暖和气息恣意包裹，无需恒温器加持，这个冬天也倍感温暖。</p>"
+    "多加几层，多点温暖 在家休息时盖上毯子。床上再放上一块休闲毯，畅享整夜舒适好眠。当你被暖和气息恣意包裹，无需恒温器加持，这个冬天也倍感温暖。"
    ],
    "images": [
     "https://file.app.ikea.cn/content-space/barn-images/943BFD8C-26C2-426A-9A6D973DB9581CEF/main-v1.jpg?x-oss-process=style/medium",
@@ -222,6 +354,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "一个米白色/黑色的SPIKKLUBBA 斯比鲁巴 垫套",
+     "text": "",
+     "image": "https://file.app.ikea.cn/content-space/barn-images/943BFD8C-26C2-426A-9A6D973DB9581CEF/main-v1.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "一个宁静的室内花园里摆放着各种室内植物。在木制搁板上，一个黑色花盆里种着高大桉树盆景，一个陶制花盆里种着蔓生植物。下面是龟背竹大而光滑的叶子。这些植物沐浴在透过窗户照射进来的明媚阳光中，彰显出鲜艳的颜色和纹理。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250730/6a1145cf652d48d78550bfc6e98b90c4.png?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "多加几层，多点温暖 在家休息时盖上毯子。床上再放上一块休闲毯，畅享整夜舒适好眠。当你被暖和气息恣意包裹，无需恒温器加持，这个冬天也倍感温暖。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/content-space/barn-images/943BFD8C-26C2-426A-9A6D973DB9581CEF/main-v1.jpg?x-oss-process=style/medium",
+     "href": null
+    },
+    {
+     "heading": "绿色植物增添凉意​ 植物是减少日照、吸收热量和调节湿度的一种自然方式。试着把它们放在容易照射到阳光的墙壁及其周围。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20250730/6a1145cf652d48d78550bfc6e98b90c4.png?x-oss-process=style/medium",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-分栏内容 Columns-"
    }
@@ -239,6 +402,38 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "KORGMOTT 库格莫特",
+     "text": "¥399",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/korgmott-ku-ge-mo-te-zhe-guang-chuang-lian-liang-fu-shen-hui-se-dai-da-zhe-dai__1308450_pe939848_s4.jpg",
+     "href": "/cn/zh/p/korgmott-ku-ge-mo-te-zhe-guang-chuang-lian-liang-fu-shen-hui-se-dai-da-zhe-dai-90597156/"
+    },
+    {
+     "title": "BENGTA 本格塔",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/bengta-ben-ge-ta-zhe-guang-chuang-lian-1-fu-lu-se-dai-da-zhe-dai__1341503_pe948766_s4.jpg",
+     "href": "/cn/zh/p/bengta-ben-ge-ta-zhe-guang-chuang-lian-1-fu-lu-se-dai-da-zhe-dai-60602164/"
+    },
+    {
+     "title": "MULIG 穆利格",
+     "text": "¥149",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mulig-mu-li-ge-liang-yi-jia-shi-nei-hu-wai-bai-se__0710880_pe727820_s4.jpg",
+     "href": "/cn/zh/p/mulig-mu-li-ge-liang-yi-jia-shi-nei-hu-wai-bai-se-30228756/"
+    },
+    {
+     "title": "JÄLL 加尔",
+     "text": "¥59.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/jaell-jia-er-liang-yi-jia-shi-nei-hu-wai-bai-se__0710881_pe727821_s4.jpg",
+     "href": "/cn/zh/p/jaell-jia-er-liang-yi-jia-shi-nei-hu-wai-bai-se-00242891/"
+    },
+    {
+     "title": "PRESSA 普利萨",
+     "text": "¥29.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/pressa-pu-li-sa-xuan-gua-shi-liang-yi-jia-dai-16-ge-yi-jia-lu-se__1263429_pe927295_s4.jpg",
+     "href": "/cn/zh/p/pressa-pu-li-sa-xuan-gua-shi-liang-yi-jia-dai-1-6-ge-yi-jia-lu-se-70579158/"
+    }
+   ],
    "settings": {
     "traceId": "cms-Product Shelf-更多节能产品"
    }
@@ -286,6 +481,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "节约用水",
+     "text": "通过重新审视家庭生活习惯，你每天可以节约很多水。了解一下宜家提供的家庭节水智能解决方案。",
+     "image": "https://file.app.ikea.cn/content-space/barn-images/7540F004-571D-4F44-8B05FE48EA2CB1CD/main-v1.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/ideas/tips-for-more-sustainable-living/smart-solutions-to-save-water-at-home-pubfdfe8c45",
+     "backgroundColor": "#37b886"
+    },
+    {
+     "title": "选择更优质的食品",
+     "text": "食物的选择会产生不同的影响，从植物性食物到来自负责任来源的认证产品。发现更多简单的方法，轻松实现更可持续的饮食。",
+     "image": "https://file.app.ikea.cn/content-space/barn-images/C77A8B9D-42C4-4E6C-82DF27BA74517684/main-v1.png?x-oss-process=style/medium",
+     "href": "/cn/zh/ideas/tips-for-more-sustainable-living/easy-wins-to-eating-more-sustainably-pubdbfa9a20",
+     "backgroundColor": "#37b886"
+    },
+    {
+     "title": "减少浪费",
+     "text": "即使生活很节俭，也总会有一定数量的生活垃圾。但有一些简单的方法可以重复利用现有物品并减少家里的浪费。",
+     "image": "https://file.app.ikea.cn/content-space/barn-images/09FAD1B9-2A0B-470A-88BF916BB68906E1/main-v1.png?x-oss-process=style/medium",
+     "href": "/cn/zh/ideas/tips-for-more-sustainable-living/simple-ways-to-reduce-waste-at-home-pubb645fb53",
+     "backgroundColor": "#37b886"
+    },
+    {
+     "title": "延长物品使用寿命",
+     "text": "重新利用、修复、再利用、转售或回收产品的潜力不断增长。了解有助于延长家具使用寿命的小方法。",
+     "image": "https://file.app.ikea.cn/content-space/barn-images/3858A1CF-B80C-4BB0-9ED498389B80743D/main-v1.png?x-oss-process=style/medium",
+     "href": "/cn/zh/ideas/tips-for-more-sustainable-living/small-steps-to-give-your-furniture-a-longer-life-pubbcff48fc",
+     "backgroundColor": "#37b886"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-富媒体卡片列表 Inspiration Cards-"
    }
@@ -331,6 +557,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "一个人站在水中，手里拿着渔网，弯腰捕捞，背景中的群山清晰可见。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/content-space/barn-images/6E88ADDE-856F-442F-8B76D04EB290A9BC/main-v1.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/this-is-ikea/sustainable-everyday/sustainable-sourcing-pubdef88e06",
+     "backgroundColor": null
+    },
+    {
+     "title": "一个乳白色的球形SOLHETTA 索海塔 LED灯泡E27（470流明）",
+     "text": "",
+     "image": "https://file.app.ikea.cn/content-space/barn-images/38803CA0-AA08-4E7A-AF1FA79FE3E1543C/main-v1.png?x-oss-process=style/medium",
+     "href": "/cn/zh/landing-page/8f94cfe340274b3aa37556a6e401626f",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "可持续采购 了解宜家业务及其他方面的负责任采购。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/content-space/barn-images/6E88ADDE-856F-442F-8B76D04EB290A9BC/main-v1.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/this-is-ikea/sustainable-everyday/ke3-chi2-xu4-de5-cai3-gou4-pubdef88e06"
+    },
+    {
+     "heading": "点滴行动 美好地球 宜家致力于为更多家庭提供触手可及的可持续生活方式，帮助大众一起打造更可持续的家。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/content-space/barn-images/38803CA0-AA08-4E7A-AF1FA79FE3E1543C/main-v1.png?x-oss-process=style/medium",
+     "href": "/cn/zh/product-guides/sustainable-products/sustainable-living-pub4155615b"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-分栏内容 Columns-"
    }

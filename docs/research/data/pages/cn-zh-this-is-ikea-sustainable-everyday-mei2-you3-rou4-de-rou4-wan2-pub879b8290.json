@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Page Title-"
    }
@@ -22,10 +24,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>看起来像肉丸，吃起来也像肉丸，但是却完全不含肉？没错，这就是我们新推出的素肉丸。它具有和传统肉丸同样出色的外观和口感，一样美味多汁，但气候足迹却仅为后者的4%。听说吃过的人都想再吃！</p>"
+    "看起来像肉丸，吃起来也像肉丸，但是却完全不含肉？没错，这就是我们新推出的素肉丸。它具有和传统肉丸同样出色的外观和口感，一样美味多汁，但气候足迹却仅为后者的4%。听说吃过的人都想再吃！"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -35,7 +39,7 @@
    "title": null,
    "texts": [
     "https://youtu.be/YV5NVwFwJXQ",
-    "<p>对话宜家餐饮部门健康与可持续发展经理Sharla Halvorson及主厨兼项目负责人Alexander Magnusson</p>",
+    "对话宜家餐饮部门健康与可持续发展经理Sharla Halvorson及主厨兼项目负责人Alexander Magnusson",
     "MANUAL_INPUT"
    ],
    "images": [],
@@ -45,6 +49,8 @@
      "text": "\n<p>对话宜家餐饮部门健康与可持续发展经理Sharla Halvorson及主厨兼项目负责人Alexander Magnusson</p>\n"
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Video (link)-"
    }
@@ -69,6 +75,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "一袋HUVUDROLL 胡福多 素肉丸摆放在绿色的木台面上。旁边摆满了各种食材。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/45/b7/45b7c853ebb705949c85c0faa43c7c4d.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/45/b7/45b7c853ebb705949c85c0faa43c7c4d.jpg",
+     "href": null
+    },
+    {
+     "heading": "更美味的素食，更美好的明天 宜家致力于提供更多植物性食品（例如素肉丸），努力实现到2030年实现积极气候影响的目标。无论是肉食爱好者，还是素食主义者，做出有利于可持续发展的选择时，我们人人都能从中受益；我们致力创造更加美好的世界，何不就从小小的素肉丸开始。宜家每年售出约10亿颗肉丸，因此，哪怕只是部分人转吃素肉丸也将产生很大的影响。",
+     "text": null,
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Columns-"
    }
@@ -82,6 +112,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Quote-"
    }
@@ -95,7 +127,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<h2>素食者与食肉派都爱吃的肉丸</h2>\n<p>这款素肉丸是专为肉类爱好者而打造的，采用豌豆蛋白、燕麦、马铃薯和苹果制成。通过蘑菇、西红柿和烤蔬菜等鲜美调味料，实现肉类一般的风味和口感。素肉丸不包含任何动物性成分，可持续性更出色，也适合纯素食和素食主义者享用。</p>"
+    "素食者与食肉派都爱吃的肉丸 这款素肉丸是专为肉类爱好者而打造的，采用豌豆蛋白、燕麦、马铃薯和苹果制成。通过蘑菇、西红柿和烤蔬菜等鲜美调味料，实现肉类一般的风味和口感。素肉丸不包含任何动物性成分，可持续性更出色，也适合纯素食和素食主义者享用。"
    ],
    "images": [
     "https://file.app.ikea.cn/images/b3/ca/b3ca1730fb2aae3eda4bad4a9bf51ab6.jpg"
@@ -106,6 +138,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "不锈钢煎锅上煮着HUVUDROLL 胡福多 素肉丸，旁边的人拿着木勺在翻炒。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b3/ca/b3ca1730fb2aae3eda4bad4a9bf51ab6.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/b3/ca/b3ca1730fb2aae3eda4bad4a9bf51ab6.jpg",
+     "href": null
+    },
+    {
+     "heading": "素食者与食肉派都爱吃的肉丸 这款素肉丸是专为肉类爱好者而打造的，采用豌豆蛋白、燕麦、马铃薯和苹果制成。通过蘑菇、西红柿和烤蔬菜等鲜美调味料，实现肉类一般的风味和口感。素肉丸不包含任何动物性成分，可持续性更出色，也适合纯素食和素食主义者享用。",
+     "text": null,
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Columns-"
    }
@@ -115,7 +171,7 @@
    "title": null,
    "texts": [
     "https://youtu.be/GmjjXr35g3U",
-    "<p>从豌豆中提取蛋白质制作素肉丸的过程。</p>",
+    "从豌豆中提取蛋白质制作素肉丸的过程。",
     "MANUAL_INPUT"
    ],
    "images": [],
@@ -125,6 +181,8 @@
      "text": "\n<p>从豌豆中提取蛋白质制作素肉丸的过程。</p>\n"
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Video (link)-"
    }
@@ -138,7 +196,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<h2>尝一口美味的肉丸</h2>\n<p>不断丰富的HUVUDROLL 胡福多 系列推出新品素肉丸，可以在宜家瑞典食品屋购买。如果你想试试不一样的味道，不妨到我们的宜家餐厅，尝试搭配土豆泥、奶油沙司调味粉、小红莓果酱和豌豆一起食用，享受正宗的传统肉丸风味，价格也十分实惠。</p>"
+    "尝一口美味的肉丸 不断丰富的HUVUDROLL 胡福多 系列推出新品素肉丸，可以在宜家瑞典食品屋购买。如果你想试试不一样的味道，不妨到我们的宜家餐厅，尝试搭配土豆泥、奶油沙司调味粉、小红莓果酱和豌豆一起食用，享受正宗的传统肉丸风味，价格也十分实惠。"
    ],
    "images": [
     "https://file.app.ikea.cn/images/da/b9/dab9e1c79f1c6b13ce0449936d1d4159.jpeg"
@@ -153,6 +211,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "一个小女孩正笑着拿起一颗肉丸。她前面的盘子里摆放着素肉丸、土豆泥和豆子。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/da/b9/dab9e1c79f1c6b13ce0449936d1d4159.jpeg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/da/b9/dab9e1c79f1c6b13ce0449936d1d4159.jpeg",
+     "href": null
+    },
+    {
+     "heading": "尝一口美味的肉丸 不断丰富的HUVUDROLL 胡福多 系列推出新品素肉丸，可以在宜家瑞典食品屋购买。如果你想试试不一样的味道，不妨到我们的宜家餐厅，尝试搭配土豆泥、奶油沙司调味粉、小红莓果酱和豌豆一起食用，享受正宗的传统肉丸风味，价格也十分实惠。",
+     "text": null,
+     "image": null,
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fwww.ikea.cn%2Fcn%2Fzh%2Fstores%2F"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Columns-"
    }

@@ -50,6 +50,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "儿童桌",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220124/e5a8593ab5344268a86dc82e942ae140.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/18768",
+     "backgroundColor": null
+    },
+    {
+     "title": "儿童椅",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220124/83af6ec988d2462da1dea9dc69957058.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/18769",
+     "backgroundColor": null
+    },
+    {
+     "title": "儿童书桌",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220124/bdbbd54ccbf8426989421528de3a63b6.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/24714",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "儿童书桌椅",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220124/943f46fde5e6424289e1f08bd5117971.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/24715",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "学习工具类",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220124/ffca17569cff4251a20b1753a3c31d57.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/10551",
+     "backgroundColor": "#111111"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "092e65a8b17e4d2385fad41816467ff1"
    }
@@ -58,10 +96,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><span style=\"color: #ca5008;\">全新学习桌椅系列</span></h2>\n<p>舒适的学习空间，是孩子们独立学习的重要保障。色彩明亮、设计时尚的学习桌椅，可灵活搭配各种家居风格。我们的儿童书桌椅还具备多种巧妙功能，可灵活调节的高度，人体工学的巧妙设计，让孩子们舒适落座。搭配多功能性的学习用品，是孩子们沉浸式学习的好帮手！</p>"
+    "全新学习桌椅系列 舒适的学习空间，是孩子们独立学习的重要保障。色彩明亮、设计时尚的学习桌椅，可灵活搭配各种家居风格。我们的儿童书桌椅还具备多种巧妙功能，可灵活调节的高度，人体工学的巧妙设计，让孩子们舒适落座。搭配多功能性的学习用品，是孩子们沉浸式学习的好帮手！"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "64b4bca4f9434fb085a6ad42bad07793"
    }
@@ -86,6 +126,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "无限灵感，为你的家打造舒适空间",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20221116/50872b6c1f3b4b18934ae5b66144940b.mp4",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "0eaaaf44243042ea8042321283cd5321"
    }
@@ -106,6 +156,81 @@
     {
      "href": "/cat/53249",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "书桌椅组合",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/53249",
+     "backgroundColor": null
+    },
+    {
+     "title": "BERGLÄRKA 贝利徕加 / DAGNAR 道格纳",
+     "text": "¥1,798",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/berglaerka-bei-li-lai-jia-dagnar-dao-ge-na-er-tong-shu-zhuo-he-yi-zi-tian-lan-se-bai-se__1127819_pe876339_s4.jpg",
+     "href": "/cn/zh/p/berglaerka-bei-li-lai-jia-dagnar-dao-ge-na-er-tong-shu-zhuo-he-yi-zi-tian-lan-se-bai-se-69488588/"
+    },
+    {
+     "title": "BERGLÄRKA 贝利徕加 / DAGNAR 道格纳",
+     "text": "¥1,798",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/berglaerka-bei-li-lai-jia-dagnar-dao-ge-na-er-tong-shu-zhuo-he-yi-zi-tian-lan-se-huang-se__1129314_pe876790_s4.jpg",
+     "href": "/cn/zh/p/berglaerka-bei-li-lai-jia-dagnar-dao-ge-na-er-tong-shu-zhuo-he-yi-zi-tian-lan-se-huang-se-49488589/"
+    },
+    {
+     "title": "BERGLÄRKA 贝利徕加 / DAGNAR 道格纳",
+     "text": "¥1,798",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/berglaerka-bei-li-lai-jia-dagnar-dao-ge-na-er-tong-shu-zhuo-he-yi-zi-bai-se-tian-lan-se__1129341_pe876794_s4.jpg",
+     "href": "/cn/zh/p/berglaerka-bei-li-lai-jia-dagnar-dao-ge-na-er-tong-shu-zhuo-he-yi-zi-bai-se-tian-lan-se-29488590/"
+    },
+    {
+     "title": "BERGLÄRKA 贝利徕加 / DAGNAR 道格纳",
+     "text": "¥1,798",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/berglaerka-bei-li-lai-jia-dagnar-dao-ge-na-er-tong-shu-zhuo-he-yi-zi-bai-se-huang-se__1129336_pe876793_s4.jpg",
+     "href": "/cn/zh/p/berglaerka-bei-li-lai-jia-dagnar-dao-ge-na-er-tong-shu-zhuo-he-yi-zi-bai-se-huang-se-09488591/"
+    },
+    {
+     "title": "BERGLÄRKA 贝利徕加 / GUNRIK 古里克",
+     "text": "¥1,998",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/berglaerka-bei-li-lai-jia-gunrik-gu-li-ke-er-tong-shu-zhuo-he-fu-shou-yi-tian-lan-se-tian-lan-se__1129315_pe876791_s4.jpg",
+     "href": "/cn/zh/p/berglaerka-bei-li-lai-jia-gunrik-gu-li-ke-er-tong-shu-zhuo-he-fu-shou-yi-tian-lan-se-tian-lan-se-79488682/"
+    },
+    {
+     "title": "BERGLÄRKA 贝利徕加 / GUNRIK 古里克",
+     "text": "¥1,998",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/berglaerka-bei-li-lai-jia-gunrik-gu-li-ke-er-tong-shu-zhuo-he-fu-shou-yi-tian-lan-se-huang-se__1129321_pe876792_s4.jpg",
+     "href": "/cn/zh/p/berglaerka-bei-li-lai-jia-gunrik-gu-li-ke-er-tong-shu-zhuo-he-fu-shou-yi-tian-lan-se-huang-se-59488683/"
+    },
+    {
+     "title": "BERGLÄRKA 贝利徕加 / GUNRIK 古里克",
+     "text": "¥1,998",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/berglaerka-bei-li-lai-jia-gunrik-gu-li-ke-er-tong-shu-zhuo-he-fu-shou-yi-bai-se-tian-lan-se__1129364_pe876799_s4.jpg",
+     "href": "/cn/zh/p/berglaerka-bei-li-lai-jia-gunrik-gu-li-ke-er-tong-shu-zhuo-he-fu-shou-yi-bai-se-tian-lan-se-39488684/"
+    },
+    {
+     "title": "BERGLÄRKA 贝利徕加 / GUNRIK 古里克",
+     "text": "¥1,998",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/berglaerka-bei-li-lai-jia-gunrik-gu-li-ke-er-tong-shu-zhuo-he-fu-shou-yi-bai-se-huang-se__1129342_pe876798_s4.jpg",
+     "href": "/cn/zh/p/berglaerka-bei-li-lai-jia-gunrik-gu-li-ke-er-tong-shu-zhuo-he-fu-shou-yi-bai-se-huang-se-69488932/"
+    },
+    {
+     "title": "BERGLÄRKA 贝利徕加 / DAGNAR 道格纳",
+     "text": "¥2,098",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/berglaerka-bei-li-lai-jia-dagnar-dao-ge-na-er-tong-shu-zhuo-he-yi-zi-bai-se-tian-lan-se__1129383_pe876803_s4.jpg",
+     "href": "/cn/zh/p/berglaerka-bei-li-lai-jia-dagnar-dao-ge-na-er-tong-shu-zhuo-he-yi-zi-bai-se-tian-lan-se-49488674/"
+    },
+    {
+     "title": "BERGLÄRKA 贝利徕加 / GUNRIK 古里克",
+     "text": "¥2,298",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/berglaerka-bei-li-lai-jia-gunrik-gu-li-ke-er-tong-shu-zhuo-he-fu-shou-yi-bai-se-huang-se__1129394_pe876811_s4.jpg",
+     "href": "/cn/zh/p/berglaerka-bei-li-lai-jia-gunrik-gu-li-ke-er-tong-shu-zhuo-he-fu-shou-yi-bai-se-huang-se-29488934/"
+    },
+    {
+     "title": "BERGLÄRKA 贝利徕加 / GUNRIK 古里克",
+     "text": "¥2,298",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/berglaerka-bei-li-lai-jia-gunrik-gu-li-ke-er-tong-shu-zhuo-he-fu-shou-yi-bai-se-tian-lan-se__1129388_pe876806_s4.jpg",
+     "href": "/cn/zh/p/berglaerka-bei-li-lai-jia-gunrik-gu-li-ke-er-tong-shu-zhuo-he-fu-shou-yi-bai-se-tian-lan-se-49488933/"
     }
    ],
    "settings": {
@@ -136,6 +261,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220630/185b646b223b4ebaa4672e77fcb6df5a.mp4",
+     "href": null,
+     "backgroundColor": "#5db2ae"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "c8e6dc88fb21482a93c10723d2f15e31"
    }
@@ -158,6 +293,45 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "多种尺寸颜色可选",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/24714",
+     "backgroundColor": null
+    },
+    {
+     "title": "BERGLÄRKA 贝利徕加",
+     "text": "¥999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/berglaerka-bei-li-lai-jia-shu-zhuo-tian-lan-se-bai-se-ke-qing-xie__1115169_pe871964_s4.jpg",
+     "href": "/cn/zh/p/berglaerka-bei-li-lai-jia-shu-zhuo-tian-lan-se-bai-se-ke-qing-xie-69488673/"
+    },
+    {
+     "title": "BERGLÄRKA 贝利徕加",
+     "text": "¥999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/berglaerka-bei-li-lai-jia-shu-zhuo-bai-se-ke-qing-xie__1115648_pe872186_s4.jpg",
+     "href": "/cn/zh/p/berglaerka-bei-li-lai-jia-shu-zhuo-bai-se-ke-qing-xie-89488672/"
+    },
+    {
+     "title": "BERGLÄRKA 贝利徕加",
+     "text": "¥1,799",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/berglaerka-bei-li-lai-jia-shu-zhuo-shi-xin-hua-mu-ke-qing-xie__1115019_pe871905_s4.jpg",
+     "href": "/cn/zh/p/berglaerka-bei-li-lai-jia-shu-zhuo-shi-xin-hua-mu-ke-qing-xie-29488670/"
+    },
+    {
+     "title": "BERGLÄRKA 贝利徕加",
+     "text": "¥1,299",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/berglaerka-bei-li-lai-jia-shu-zhuo-bai-se-ke-qing-xie__1115662_pe872198_s4.jpg",
+     "href": "/cn/zh/p/berglaerka-bei-li-lai-jia-shu-zhuo-bai-se-ke-qing-xie-09488671/"
+    },
+    {
+     "title": "PIPLÄRKA 皮莱卡",
+     "text": "¥499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/piplaerka-pi-lai-qia-shu-zhuo-ke-qing-xie__1115620_pe872163_s4.jpg",
+     "href": "/cn/zh/p/piplaerka-pi-lai-qia-shu-zhuo-ke-qing-xie-20528500/"
+    }
+   ],
    "settings": {
     "traceId": "420829d04ca2464a91d8bd1ee4076570"
    }
@@ -170,7 +344,7 @@
     "square",
     "embed",
     "image-text-portrait",
-    "<p>牢固的椅子可以陪伴孩子很多年，全新儿童书桌椅椅座的深度和靠背的高度都可以调整，适合身高115cm至185cm的孩子。也可以让孩子在学习和游戏期间更加舒适。<br /><br />脚轮带有负载敏感设计，当体重20公斤或更重的孩子坐下时，会将椅子固定在原位，坐着的人起身时，又会自动释放。</p>",
+    "牢固的椅子可以陪伴孩子很多年，全新儿童书桌椅椅座的深度和靠背的高度都可以调整，适合身高115cm至185cm的孩子。也可以让孩子在学习和游戏期间更加舒适。 脚轮带有负载敏感设计，当体重20公斤或更重的孩子坐下时，会将椅子固定在原位，坐着的人起身时，又会自动释放。",
     "GUNRIK 古里克 儿童扶手椅"
    ],
    "images": [
@@ -187,6 +361,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220630/2acddf0c029c440980e24d972242ce10.jpg",
+     "href": null,
+     "backgroundColor": "#dec17f"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "c8e6dc88fb21482a93c10723d2f15e31"
    }
@@ -209,6 +393,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "GUNRIK 古里克",
+     "text": "¥999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/gunrik-gu-li-ke-er-tong-shu-zhuo-yi-tian-lan-se__1115635_pe872174_s4.jpg",
+     "href": "/cn/zh/p/gunrik-gu-li-ke-er-tong-shu-zhuo-yi-tian-lan-se-80527871/"
+    },
+    {
+     "title": "GUNRIK 古里克",
+     "text": "¥999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/gunrik-gu-li-ke-er-tong-shu-zhuo-yi-huang-se__1115636_pe872178_s4.jpg",
+     "href": "/cn/zh/p/gunrik-gu-li-ke-er-tong-shu-zhuo-yi-huang-se-60527872/"
+    },
+    {
+     "title": "DAGNAR 道格纳",
+     "text": "¥799",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/dagnar-dao-ge-na-er-tong-shu-zhuo-yi-tian-lan-se__1115672_pe872203_s4.jpg",
+     "href": "/cn/zh/p/dagnar-dao-ge-na-er-tong-shu-zhuo-yi-tian-lan-se-00527870/"
+    },
+    {
+     "title": "DAGNAR 道格纳",
+     "text": "¥799",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/dagnar-dao-ge-na-er-tong-shu-zhuo-yi-huang-se__1115674_pe872204_s4.jpg",
+     "href": "/cn/zh/p/dagnar-dao-ge-na-er-tong-shu-zhuo-yi-huang-se-20527869/"
+    },
+    {
+     "title": "ÖRFJÄLL 奥菲",
+     "text": "¥249",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/oerfjaell-ao-fei-er-tong-shu-zhuo-yi-bai-se-wei-suo-er-fen-hong-se__0708525_pe726625_s4.jpg",
+     "href": "/cn/zh/p/oerfjaell-ao-fei-er-tong-shu-zhuo-yi-bai-se-wei-suo-er-fen-hong-se-50441770/"
+    },
+    {
+     "title": "ÖRFJÄLL 奥菲",
+     "text": "¥249",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/oerfjaell-ao-fei-er-tong-shu-zhuo-yi-bai-se-wei-suo-er-dan-hui-se__0977960_pe813958_s4.jpg",
+     "href": "/cn/zh/p/oerfjaell-ao-fei-er-tong-shu-zhuo-yi-bai-se-wei-suo-er-dan-hui-se-20501888/"
+    }
+   ],
    "settings": {
     "traceId": "420829d04ca2464a91d8bd1ee4076570"
    }
@@ -217,10 +439,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>&nbsp;</h2>\n<h2>其他儿童桌椅系列</h2>"
+    "其他儿童桌椅系列"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "93e9fd73423d48209584ffa606a61d85"
    }
@@ -263,6 +487,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220526/5061d8a36a774064bb8701db56b9daa8.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220526/17ca83b39c4540fc9259d1f4bb5fbdf2.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/search/products?q=SUNDVIK 桑维",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220526/bbe07aa529b24efcb85f998606ef50e7.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/search/products?q=MAMMUT 玛莫特",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20220526/5061d8a36a774064bb8701db56b9daa8.jpg?x-oss-process=style/medium",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20220526/17ca83b39c4540fc9259d1f4bb5fbdf2.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/search/products?q=SUNDVIK 桑维"
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20220526/bbe07aa529b24efcb85f998606ef50e7.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/search/products?q=MAMMUT 玛莫特"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "68af89e070e44d869d61e0e43cb05202"
    }
@@ -280,6 +548,32 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "BERGLÄRKA 贝利徕加 / DAGNAR 道格纳",
+     "text": "¥1,798",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/berglaerka-bei-li-lai-jia-dagnar-dao-ge-na-er-tong-shu-zhuo-he-yi-zi-tian-lan-se-bai-se__1127819_pe876339_s4.jpg",
+     "href": "/cn/zh/p/berglaerka-bei-li-lai-jia-dagnar-dao-ge-na-er-tong-shu-zhuo-he-yi-zi-tian-lan-se-bai-se-69488588/"
+    },
+    {
+     "title": "PIPLÄRKA 皮莱卡",
+     "text": "¥499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/piplaerka-pi-lai-qia-shu-zhuo-ke-qing-xie__1115620_pe872163_s4.jpg",
+     "href": "/cn/zh/p/piplaerka-pi-lai-qia-shu-zhuo-ke-qing-xie-20528500/"
+    },
+    {
+     "title": "PÅHL 佩尔",
+     "text": "¥200",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/pahl-pei-er-zhuo-mian-ge-jia-bai-se__0727235_pe735561_s4.jpg",
+     "href": "/cn/zh/p/pahl-pei-er-zhuo-mian-ge-jia-bai-se-90532612/"
+    },
+    {
+     "title": "MICKE 米克",
+     "text": "¥399",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/micke-mi-ke-shu-zhuo-bai-se__0736022_pe740349_s4.jpg",
+     "href": "/cn/zh/p/micke-mi-ke-shu-zhuo-bai-se-80354281/"
+    }
+   ],
    "settings": {
     "traceId": "4d598b704f524c49893f434f18dc8e85"
    }
@@ -302,6 +596,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Link - button or text-"
    }
@@ -324,6 +620,14 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "MAMMUT 玛莫特",
+     "text": "¥39.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mammut-ma-mo-te-er-tong-deng-shi-nei-hu-wai-huang-se__0727954_pe735970_s4.jpg",
+     "href": "/cn/zh/p/mammut-ma-mo-te-er-tong-deng-shi-nei-hu-wai-huang-se-90382325/"
+    }
+   ],
    "settings": {
     "traceId": "46de835cba254e8f9ebf14e07d20b911"
    }
@@ -334,6 +638,8 @@
    "texts": [],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -382,6 +688,51 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "学习配件",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220630/a73bc774db3844cda6f4a09983237398.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/24711",
+     "backgroundColor": "#f5f5f5"
+    },
+    {
+     "title": "文件和多媒体储藏件",
+     "text": "借助设计工具，规划你的个性METOD 米多 厨房。",
+     "image": "https://file.app.ikea.cn/cms/u/20220630/83918ad81cc44778bef74c446b5e0307.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/10551",
+     "backgroundColor": "#f5f5f5"
+    },
+    {
+     "title": "工作灯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220630/390e50a2e61a4b978fd5532233df1f36.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/20502",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "洞洞板及配件",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220630/c20746eeb68149db9cdc77bb1663446d.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/37813",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "书柜及储物柜",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220630/22e0f5e74afa4742bbc487a5e1d7020e.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/st002",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "高架床",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220630/1db387de61dc49aa978433000b6c0fff.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/45849",
+     "backgroundColor": "#111111"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Visual Pill Slider-"
    }
@@ -399,6 +750,44 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "BÖNSYRSA 波恩西萨",
+     "text": "¥39.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/boensyrsa-bo-en-xi-sa-jia-shu-jia-ke-zhe-die__1115396_pe872055_s4.jpg",
+     "href": "/cn/zh/p/boensyrsa-bo-en-xi-sa-jia-shu-jia-ke-zhe-die-50534019/"
+    },
+    {
+     "title": "LÄKTRA 莱克塔",
+     "text": "¥349",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/laektra-lai-ke-ta-led-gong-zuo-deng-ke-diao-guang-de-bai-se__1109203_pe869890_s4.jpg",
+     "href": "/cn/zh/p/laektra-lai-ke-ta-led-gong-zuo-deng-ke-diao-guang-de-bai-se-30536458/"
+    },
+    {
+     "title": "BÖNSYRSA 波恩西萨",
+     "text": "¥19.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/boensyrsa-bo-en-xi-sa-qing-ji-zu-he-tian-lan-se__1111203_pe870684_s4.jpg",
+     "href": "/cn/zh/p/boensyrsa-bo-en-xi-sa-qing-ji-zu-he-tian-lan-se-30528509/"
+    },
+    {
+     "title": "BÖNSYRSA 波恩西萨",
+     "text": "¥39.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/boensyrsa-bo-en-xi-sa-shu-zhuo-dian-dong-wu-tu-an__1111204_pe870687_s4.jpg",
+     "href": "/cn/zh/p/boensyrsa-bo-en-xi-sa-shu-zhuo-dian-dong-wu-tu-an-50528508/"
+    },
+    {
+     "title": "BÖNSYRSA 波恩西萨",
+     "text": "¥19.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/boensyrsa-bo-en-xi-sa-chu-wu-he-duo-se__1115421_pe872075_s4.jpg",
+     "href": "/cn/zh/p/boensyrsa-bo-en-xi-sa-chu-wu-he-duo-se-80545243/"
+    },
+    {
+     "title": "GLIS 格利思",
+     "text": "¥29.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/glis-ge-li-si-fu-gai-chu-wu-he-tou-ming__0711001_pe727878_s4.jpg",
+     "href": "/cn/zh/p/glis-ge-li-si-fu-gai-chu-wu-he-tou-ming-80283104/"
+    }
+   ],
    "settings": {
     "traceId": "d478c9d31a7144a19a70ab8cc97dec4c"
    }
@@ -416,6 +805,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-灵感图-更多儿童学习工具灵感"
    }

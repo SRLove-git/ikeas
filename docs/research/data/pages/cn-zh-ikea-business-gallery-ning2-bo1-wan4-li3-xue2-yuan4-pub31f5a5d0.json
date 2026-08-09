@@ -14,16 +14,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>休息/阅览室</h2>"
+    "休息/阅览室"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -42,6 +46,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/32/60/32607291b50c51ef0b9c4e58146e7ee1.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -67,6 +81,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/34/f4/34f4eb5f51e1e2afbf7dc5c618604eec.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/6b/92/6b920114592a9a8f1c9f29915b1e2add.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/34/f4/34f4eb5f51e1e2afbf7dc5c618604eec.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/6b/92/6b920114592a9a8f1c9f29915b1e2add.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -85,6 +130,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/30/78/307815b7ebb8df46dbb51f1dcfdd0dde.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -110,6 +165,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/19/7d/197d14421404f4312b2c80fea9367ecb.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a1/4d/a14d04ec270314de5a0535a962ef98cf.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/19/7d/197d14421404f4312b2c80fea9367ecb.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/a1/4d/a14d04ec270314de5a0535a962ef98cf.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -128,6 +214,27 @@
     {
      "href": "/ikea-business/office-furnishings/",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "相关产品",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/ikea-business/office-furnishings/",
+     "backgroundColor": null
+    },
+    {
+     "title": "VEDBO 维伯",
+     "text": "¥1,299",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vedbo-wei-bo-dan-ren-sha-fa-fu-shou-yi-gang-na-rui-de-shen-hui-se__0512767_pe638683_s4.jpg",
+     "href": "/cn/zh/p/vedbo-wei-bo-dan-ren-sha-fa-fu-shou-yi-gang-na-rui-de-shen-hui-se-70424128/"
+    },
+    {
+     "title": "VEDBO 维伯",
+     "text": "¥1,799",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vedbo-wei-bo-gao-bei-fu-shou-yi-gang-na-rui-de-shen-hui-se__0512775_pe638684_s4.jpg",
+     "href": "/cn/zh/p/vedbo-wei-bo-gao-bei-fu-shou-yi-gang-na-rui-de-shen-hui-se-20424135/"
     }
    ],
    "settings": null
@@ -150,6 +257,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -170,6 +279,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

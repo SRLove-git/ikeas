@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -21,7 +23,7 @@
    "title": null,
    "texts": [
     "https://v.youku.com/v_show/id_XNDY0MzUwNTgyMA==.html",
-    "<h2>拎包即走！</h2>\n<p>如今，我们的生活总是快节奏的、流动的。日常通勤、周末旅行和超市购物已经成了日常生活的一部分。因此，我们开发了一系列包袋，专为真正的移动式生活设计。这些包具有设计巧妙的功能，使用回收材料制作，你可以拿上东西，说走就走。</p>",
+    "拎包即走！ 如今，我们的生活总是快节奏的、流动的。日常通勤、周末旅行和超市购物已经成了日常生活的一部分。因此，我们开发了一系列包袋，专为真正的移动式生活设计。这些包具有设计巧妙的功能，使用回收材料制作，你可以拿上东西，说走就走。",
     "MANUAL_INPUT"
    ],
    "images": [],
@@ -31,6 +33,8 @@
      "text": "\n<h2>拎包即走！</h2>\n<p>如今，我们的生活总是快节奏的、流动的。日常通勤、周末旅行和超市购物已经成了日常生活的一部分。因此，我们开发了一系列包袋，专为真正的移动式生活设计。这些包具有设计巧妙的功能，使用回收材料制作，你可以拿上东"
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -68,16 +72,63 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "一位男士背着深灰色 VÄRLDENS 维尔登斯 背包，走过橙色背景墙。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/17/07/1707ea5dc923acfb15455dde8902001c.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "橙色表面上放着一个拉开的深灰色 VÄRLDENS 维尔登斯 背包，里面装着 RENSARE 雷恩萨瑞 包。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/fc/24/fc243bc29224ceb4716d91efb2bc841c.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "一位女士背着深灰色 VÄRLDENS 维尔登斯 背包走上水泥阶梯。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/30/3f/303f2525621bc3cf944129e540d58d33.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "各种 RENSARE 雷恩萨瑞 包整齐地装在 STUK 斯图克 储物箱里，放在蓝色表面上。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/98/71/98713032df1346d4d24c0644e9f13324.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/fc/24/fc243bc29224ceb4716d91efb2bc841c.jpg",
+     "href": null
+    },
+    {
+     "heading": "内部很重要 从衣柜里取出，放到包里，带着家居收纳袋出门。我们的 RENSARE 雷恩萨瑞 衣袋让收拾行李更加简单，衣物收纳更有乐趣。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/98/71/98713032df1346d4d24c0644e9f13324.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>实用且环保——我们的包使用再生聚酯纤维布料制作。</strong></p>"
+    "实用且环保——我们的包使用再生聚酯纤维布料制作。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -110,6 +161,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "绿色 DRÖMSÄCK 德姆塞克 背包一边拉开，里面装着衣物、RENSARE 雷恩萨瑞 包和 HÄLSA 赫尔萨 保温瓶。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/50/96/5096d877edbf0d4e6b759886c792b1db.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "绿色 DRÖMSÄCK 德姆塞克 背包拉链和内部布料细节图。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/30/35/3035662af7eb1dd054b63b56217be726.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "一位男士背着绿色 DRÖMSÄCK 德姆塞克 背包，从肩带上的卡槽里取出一张卡。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/01/93/0193d235e3f0fe6205484e78542b1cf0.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/30/35/3035662af7eb1dd054b63b56217be726.jpg",
+     "href": null
+    },
+    {
+     "heading": "舒适通勤 小细节能带来大不同。既有实用的侧袋，又有专门放水瓶的地方。因此宜家 DRÖMSÄCK 德姆塞克 背包非常适合通勤使用，它能够装下你的各种必需品，还有富余空间。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/01/93/0193d235e3f0fe6205484e78542b1cf0.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -125,6 +214,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   },
   {
@@ -145,6 +235,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

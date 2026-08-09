@@ -14,16 +14,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>不同灯具照顾你的不同需求</h2>\n<p>每个房间都需要多种照明组合。例如，在清洁的时候，需要吸顶灯照亮整个房间。而在阅读的时候，又需要工作台灯提供定向照明。有时候，我们又需要吊灯或台灯营造氛围，令房间看起来更舒适，更温暖。</p>"
+    "不同灯具照顾你的不同需求 每个房间都需要多种照明组合。例如，在清洁的时候，需要吸顶灯照亮整个房间。而在阅读的时候，又需要工作台灯提供定向照明。有时候，我们又需要吊灯或台灯营造氛围，令房间看起来更舒适，更温暖。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,26 +48,32 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><a href=\"#de6ee900-4438-11eb-879f-b70cbccae37a\">可充电式台灯 </a>| <a href=\"#f47091c0-44cb-11eb-913d-7966186258a4\">工作台灯</a> | <a href=\"#01945e90-44cc-11eb-913d-7966186258a4\">吸顶灯</a> | <a href=\"#0c8b1230-44cc-11eb-913d-7966186258a4\">枝形灯和吊灯</a></p>"
+    "可充电式台灯 | 工作台灯 | 吸顶灯 | 枝形灯和吊灯"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>可充电式台灯</h2>\n<p>方便移动的可充电式台灯，内置LED光源，三档可调光，方便移动，适应不同场景的照明需求。</p>"
+    "可充电式台灯 方便移动的可充电式台灯，内置LED光源，三档可调光，方便移动，适应不同场景的照明需求。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -82,6 +92,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/00/74/0074d62a10c5ffb24c53578f8cdc22e2.gif",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -118,6 +138,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/8b/66/8b66817ee754178e23ea46dceb81910d.jpg",
+     "href": "/cn/zh/p/30490035?artType=ART",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b0/3b/b03b5ce1164347bd958f0e323b57ec25.gif",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/68/c4/68c466fce698ba90d08ce67ea32cfa1d.gif",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/8b/66/8b66817ee754178e23ea46dceb81910d.jpg",
+     "href": "/cn/zh/p/30490035?artType=ART"
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/68/c4/68c466fce698ba90d08ce67ea32cfa1d.gif",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -132,6 +190,32 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "SPANNLAND 斯班兰",
+     "text": "¥79.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/spannland-si-ban-lan-led-zhao-ming-she-bei-deng-ju-dai-jia-zi-ke-diao-guang-de__0939790_pe794673_s4.jpg",
+     "href": "/cn/zh/p/spannland-si-ban-lan-led-zhao-ming-she-bei-deng-ju-dai-jia-zi-ke-diao-guang-de-10490036/"
+    },
+    {
+     "title": "SPANNLAND 斯班兰",
+     "text": "¥79.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/spannland-si-ban-lan-led-gong-zuo-deng-dai-chu-wu-ke-diao-guang-de__0939792_pe794675_s4.jpg",
+     "href": "/cn/zh/p/spannland-si-ban-lan-led-gong-zuo-deng-dai-chu-wu-ke-diao-guang-de-30490035/"
+    },
+    {
+     "title": "ROLFSTORP 洛夫托",
+     "text": "¥39.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/rolfstorp-luo-fu-tuo-led-zhao-ming-she-bei-ke-diao-guang-de__0939789_pe794672_s4.jpg",
+     "href": "/cn/zh/p/rolfstorp-luo-fu-tuo-led-zhao-ming-she-bei-ke-diao-guang-de-90490037/"
+    },
+    {
+     "title": "GRINDEBO 格林德布",
+     "text": "¥399",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/grindebo-ge-lin-de-bu-gong-zuo-deng-dai-wu-xian-chong-dian__0986965_pe817430_s4.jpg",
+     "href": "/cn/zh/p/grindebo-ge-lin-de-bu-gong-zuo-deng-dai-wu-xian-chong-dian-00500154/"
+    }
+   ],
    "settings": null
   },
   {
@@ -152,16 +236,20 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>工作台灯</h2>\n<p>无论工作还是读书，离不开一盏好灯的陪伴，宜家为你提供经过国家认证的A/AA级照度工作台灯，适合读写、办公时使用，合适的光线让你事半功倍。</p>"
+    "工作台灯 无论工作还是读书，离不开一盏好灯的陪伴，宜家为你提供经过国家认证的A/AA级照度工作台灯，适合读写、办公时使用，合适的光线让你事半功倍。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -169,7 +257,7 @@
    "title": null,
    "texts": [
     "https://v.youku.com/v_show/id_XNDc4MTI5MDAyMA==.html?spm=a2hzp.8253869.0.0",
-    "<p>国家认证的A/AA级照度工作台灯</p>",
+    "国家认证的A/AA级照度工作台灯",
     "MANUAL_INPUT"
    ],
    "images": [],
@@ -179,6 +267,8 @@
      "text": "\n<p>国家认证的A/AA级照度工作台灯</p>\n"
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -204,6 +294,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ff/4b/ff4b8567df433514e7690c1c423e630d.gif",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/34/c2/34c26492f926a1921b8493d0df0592ad.gif",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/ff/4b/ff4b8567df433514e7690c1c423e630d.gif",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/34/c2/34c26492f926a1921b8493d0df0592ad.gif",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -247,6 +368,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/cd/b7/cdb7834affd27d3e01221a65c59eaae6.jpg",
+     "href": "/cn/zh/p/70482905?artType=ART",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/74/e1/74e16a8c55c5970148b51579c296a683.jpg",
+     "href": "/cn/zh/p/50490039?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/cd/b7/cdb7834affd27d3e01221a65c59eaae6.jpg",
+     "href": "/cn/zh/p/70482905?artType=ART"
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/74/e1/74e16a8c55c5970148b51579c296a683.jpg",
+     "href": "/cn/zh/p/50490039?artType=ART"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -260,6 +412,14 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "FETTAGG 费塔",
+     "text": "¥129",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/fettagg-fei-ta-led-gong-zuo-deng-ke-diao-guang-de__0958553_pe805346_s4.jpg",
+     "href": "/cn/zh/p/fettagg-fei-ta-led-gong-zuo-deng-ke-diao-guang-de-50490039/"
+    }
+   ],
    "settings": null
   },
   {
@@ -280,16 +440,20 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>吸顶灯</h2>\n<p>百搭的吸顶灯，适合不同风格的装修，亮度、色温可调节，让灯光随心情变化。</p>"
+    "吸顶灯 百搭的吸顶灯，适合不同风格的装修，亮度、色温可调节，让灯光随心情变化。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -306,6 +470,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -337,6 +503,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/6f/54/6f54ebe97a43bf14156dfed909d3d336.gif",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/81/28/812884290031650e0821400b3cbfb790.jpg",
+     "href": "/cn/zh/p/00490895?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/6f/54/6f54ebe97a43bf14156dfed909d3d336.gif",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/81/28/812884290031650e0821400b3cbfb790.jpg",
+     "href": "/cn/zh/p/00490895?artType=ART"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -352,6 +549,26 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "BARRSLINGA 巴适林",
+     "text": "¥79.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/barrslinga-ba-gua-lin-led-xi-ding-deng__0767168_pe758720_s4.jpg",
+     "href": "/cn/zh/p/barrslinga-ba-gua-lin-led-xi-ding-deng-00490032/"
+    },
+    {
+     "title": "BARRSLINGA 巴适林",
+     "text": "¥399",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/barrslinga-ba-gua-lin-led-xi-ding-deng-ke-diao-guang-de__0925057_pe794662_s4.jpg",
+     "href": "/cn/zh/p/barrslinga-ba-gua-lin-led-xi-ding-deng-ke-diao-guang-de-60490034/"
+    },
+    {
+     "title": "BARRSLINGA 巴适林",
+     "text": "¥199",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/barrslinga-ba-gua-lin-led-xi-ding-deng-yuan-xing-bai-se__0767168_pe758720_s4.jpg",
+     "href": "/cn/zh/p/barrslinga-ba-gua-lin-led-xi-ding-deng-yuan-xing-bai-se-60466492/"
+    }
+   ],
    "settings": null
   },
   {
@@ -372,16 +589,20 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>枝形灯和吊灯</h2>\n<p>有时，换下灯具就能让家中感觉焕然一新，具有设计感的灯具为家居生活增添亮点，这些兼顾简洁造型与实用功能的灯具，难道不让你心动吗？</p>"
+    "枝形灯和吊灯 有时，换下灯具就能让家中感觉焕然一新，具有设计感的灯具为家居生活增添亮点，这些兼顾简洁造型与实用功能的灯具，难道不让你心动吗？"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -408,6 +629,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/7f/d0/7fd05bd32286bb22f7b135535d32a12c.jpg",
+     "href": "/cn/zh/p/60490897?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -421,6 +652,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "GLANSSLINKE 格朗林可",
+     "text": "¥599",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/glansslinke-ge-lang-lin-ke-zhi-xing-deng-7-zhi__0939775_pe794664_s4.jpg",
+     "href": "/cn/zh/p/glansslinke-ge-lang-lin-ke-zhi-xing-deng-7-zhi-40490898/"
+    },
+    {
+     "title": "GLANSSLINKE 格朗林可",
+     "text": "¥499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/glansslinke-ge-lang-lin-ke-zhi-xing-deng-5-zhi__0939776_pe794663_s4.jpg",
+     "href": "/cn/zh/p/glansslinke-ge-lang-lin-ke-zhi-xing-deng-5-zhi-60490897/"
+    }
+   ],
    "settings": null
   }
  ]

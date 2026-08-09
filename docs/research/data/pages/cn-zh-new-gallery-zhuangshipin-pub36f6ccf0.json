@@ -11,7 +11,7 @@
    "title": "金色装饰品",
    "texts": [
     "宜家 SNOFSA 思诺萨 钟让你懂得惜时如金。黄铜色指针搭配黑色钟面，为你的床边桌增添一丝奢华气息。",
-    "<p>本月全新装饰品采用黄铜色调，可为家增添奢华魅力。</p>\n<p>比如 SNOFSA 思诺萨 钟可为床边桌注入一丝奢华气息。惜时如金！</p>",
+    "本月全新装饰品采用黄铜色调，可为家增添奢华魅力。 比如 SNOFSA 思诺萨 钟可为床边桌注入一丝奢华气息。惜时如金！",
     "金色装饰品",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "金色装饰品",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e1/97/e1977cb8dcbf656258773504bbd9a551.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -43,16 +53,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "把宜家 TILLSYN 提斯 沙漏摆在家里，趣味十足、令人惊喜。透明玻璃容器中装满了金色的穿珠，穿珠全部流完需用时三分钟。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/03/0d/030d33b7fc08dd93eab2d6e811f9a82e.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>TILLSYN 提斯 沙漏不仅可以当作收藏品，还能给人带来无穷的乐趣、激发好奇心。流沙池里装满了金色的穿珠，从中间匀速流过。</p>"
+    "TILLSYN 提斯 沙漏不仅可以当作收藏品，还能给人带来无穷的乐趣、激发好奇心。流沙池里装满了金色的穿珠，从中间匀速流过。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -72,16 +94,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "宜家 MYRHEDEN 米赫顿 画框采用黄铜色的金属材质制成，均分为12格，每个格子上附带1个夹子，可以用来夹上或悬挂自己最喜欢的物品。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/80/9e/809e093a506978e5526fbac6f1d102de.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>MYRHEDEN 米赫顿 <br />画框采用黄铜色的金属材质制成，均分为12格，每个格子上附带1个夹子，可以用来夹上或悬挂自己最喜欢的物品。</p>"
+    "MYRHEDEN 米赫顿 画框采用黄铜色的金属材质制成，均分为12格，每个格子上附带1个夹子，可以用来夹上或悬挂自己最喜欢的物品。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -94,6 +128,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

@@ -11,7 +11,7 @@
    "title": "餐桌点缀，散发迷人气息",
    "texts": [
     "特写：餐桌上堆叠着白色长石瓷马克杯、盘子和碗，后面放着不锈钢牛奶罐和咖啡壶。",
-    "<p>OFANTLIGT 乌方特里格特 餐具亮泽迷人，可为餐桌注入几分别致气息。该餐具采用陶瓷制成，适用于微波炉和洗碗机。</p>",
+    "OFANTLIGT 乌方特里格特 餐具亮泽迷人，可为餐桌注入几分别致气息。该餐具采用陶瓷制成，适用于微波炉和洗碗机。",
     "餐桌点缀，散发迷人气息",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "餐桌点缀，散发迷人气息",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b7/72/b772e79ddf0c360a39c8497127e98ab2.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -45,16 +55,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "特写：一叠白色长石瓷盘子放在不锈钢托盘上，盘子里放着粉色、浅绿色、黄色、棕色冰淇淋饼干。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/5d/5c/5d5c794ec6430f11798123084cd87cee.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>OFANTLIGT 乌方特里格特 餐具边沿有浮雕图案，典雅华贵。</p>"
+    "OFANTLIGT 乌方特里格特 餐具边沿有浮雕图案，典雅华贵。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -68,6 +90,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "OFANTLIGT 乌方特里格特",
+     "text": "¥29.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ofantligt-wu-fang-te-li-ge-te-can-pan-bai-se__0712361_pe728780_s4.jpg",
+     "href": "/cn/zh/p/ofantligt-wu-fang-te-li-ge-te-can-pan-bai-se-80319018/"
+    },
+    {
+     "title": "OFANTLIGT 乌方特里格特",
+     "text": "¥39.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ofantligt-wu-fang-te-li-ge-te-da-bei-bai-se__0711053_pe727928_s4.jpg",
+     "href": "/cn/zh/p/ofantligt-wu-fang-te-li-ge-te-da-bei-bai-se-20319021/"
+    }
+   ],
    "settings": null
   }
  ]

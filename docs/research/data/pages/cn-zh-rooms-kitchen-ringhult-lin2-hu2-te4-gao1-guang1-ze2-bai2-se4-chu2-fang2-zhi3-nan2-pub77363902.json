@@ -11,7 +11,7 @@
    "title": "RINGHULT 林胡特 高光泽白色厨房指南",
    "texts": [
     "一间厨房，配有高光泽白色和蓝黑色前板，以及一张宽敞的高光泽白色独立橱柜，带白色工作台。",
-    "<p>想要一个灵活实用的厨房，轻松愉快地下厨？关键在于添加丰富的储物空间。在高光泽的RINGHULT 林胡特 白色柜门之内，提供了充裕的储物空间，方便收纳各种必需品。这款柜门设计雅致，坚固耐用，为厨房增添一抹时尚格调。你也可以搭配对比色调的柜门，打造个性外观。</p>",
+    "想要一个灵活实用的厨房，轻松愉快地下厨？关键在于添加丰富的储物空间。在高光泽的RINGHULT 林胡特 白色柜门之内，提供了充裕的储物空间，方便收纳各种必需品。这款柜门设计雅致，坚固耐用，为厨房增添一抹时尚格调。你也可以搭配对比色调的柜门，打造个性外观。",
     "RINGHULT 林胡特 高光泽白色厨房指南",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "RINGHULT 林胡特 高光泽白色厨房指南",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d1/5d/d15d02a85edfe9f4ab3e4cee9e525e38.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -50,6 +60,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "柜子配有高光泽白色抽屉前板，两个抽屉拉开，里面存放着餐具和刀叉。",
+     "image": "https://file.app.ikea.cn/images/a7/b1/a7b1933cef64e77e24d52b6a442b072b.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -76,6 +96,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "白色壁柜顶角，壁柜配有高光泽的白色柜门。",
+     "image": "https://file.app.ikea.cn/images/f2/75/f275eb6bd338694949736967c3144e9f.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -102,6 +132,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "两个底柜，配高光泽白色抽屉前板和一个白色矿石纹/石英工作台。",
+     "image": "https://file.app.ikea.cn/images/87/a7/87a773ee0b61aeef9f6e4a4c516c9c07.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -147,6 +187,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "购买宜家厨房的5个步骤",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/31/25/3125f86f48cf469079c71ff3c1e4b4a7.jpg",
+     "href": null,
+     "backgroundColor": "#d5dcd4"
+    },
+    {
+     "title": "宜家厨房设计工具——在家即可轻松设计你的厨房",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/42/90/42909d2ee6bc60a85b45906cfa0ff9a7.jpg",
+     "href": "/cn/zh/h5page/?url=%23",
+     "backgroundColor": "#ecd7a2"
+    },
+    {
+     "title": "预约宜家厨房专家服务",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/7b/32/7b32031403ca8a72b6528dfec1cb0597.jpg",
+     "href": "/cn/zh/h5page/?url=%23",
+     "backgroundColor": "#e9c3b0"
+    },
+    {
+     "title": "宜家厨房服务",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/76/9a/769af772d23e404b7198cfbf9b542f22.jpg",
+     "href": "/cn/zh/h5page/?url=%23",
+     "backgroundColor": "#99abc1"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -162,6 +233,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

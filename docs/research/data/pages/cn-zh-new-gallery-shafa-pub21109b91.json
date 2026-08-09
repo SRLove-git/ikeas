@@ -11,7 +11,7 @@
    "title": "查看我们的全新模块式沙发",
    "texts": [
     "宜家 KUNGSHAMN 昆沙姆 模块式沙发价格实惠，可搭建组合出无数尺寸与结构。",
-    "<p>这个月，我们将会推出一款全新的模块式沙发。在搭配 KUNGSHAMN 昆沙姆 模块式沙发的过程中尽情发挥创意，选择适合客厅的尺寸和造型，模块间可以轻松连接，而且价格也非常实惠！</p>",
+    "这个月，我们将会推出一款全新的模块式沙发。在搭配 KUNGSHAMN 昆沙姆 模块式沙发的过程中尽情发挥创意，选择适合客厅的尺寸和造型，模块间可以轻松连接，而且价格也非常实惠！",
     "查看我们的全新模块式沙发",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "查看我们的全新模块式沙发",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/30/7e/307e588c590f5aca5903d664694fd774.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,16 +54,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "宜家 KUNGSHAMN 昆沙姆 模块式沙发可根据你的需求打造。使用不同款式的垫套，改变沙发的风格与颜色。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/09/b3/09b3535f14c842494457e668f06785d4.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>你不仅可以尽情搭建、重装 KUNGSHAMN 昆沙姆 模块式沙发，还可以根据你的品位和风格选择不同垫套。</p>"
+    "你不仅可以尽情搭建、重装 KUNGSHAMN 昆沙姆 模块式沙发，还可以根据你的品位和风格选择不同垫套。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -64,6 +86,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -77,6 +101,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

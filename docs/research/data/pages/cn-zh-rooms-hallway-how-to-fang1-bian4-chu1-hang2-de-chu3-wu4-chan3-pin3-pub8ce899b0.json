@@ -14,16 +14,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>刚开始一个人生活常常意味着经常搬家，所以你需要好的储物产品。在你安顿好或准备搬新家时，下面这些可折叠、可堆放的轻便储物产品有助于妥善收纳你的物品。</p>"
+    "刚开始一个人生活常常意味着经常搬家，所以你需要好的储物产品。在你安顿好或准备搬新家时，下面这些可折叠、可堆放的轻便储物产品有助于妥善收纳你的物品。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -40,6 +44,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -66,6 +72,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个白色的RIGGA 丽加 晒衣架，上面挂放着几件不同颜色的衬衫，一个穿着绿色卫衣的年轻人正倚靠在晒衣架上。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/4d59659dfe37d8e1/original/PH178728-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -92,6 +108,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个年轻人正挨着四个透明的45升SAMLA 萨姆拉 箱子。箱子互相堆放着，里面装满了鞋子和炊具。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/5c75aaf01397f66e/original/PH178729-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -118,6 +144,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一名年轻女子坐在床上，旁边是一个白色的PÄRKLA 派克拉 储物袋，上面饰有橙色细节，里面装满了衣服。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/585421b992ffc040/original/PH178730-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -144,6 +180,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个年轻女子坐在地板上，正在整理一个黑色GREJIG 格雷伊格 钢制鞋架上的两双鞋子。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/104f78a1b610d35d/original/PH178731-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -170,6 +216,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个身穿毛衣和绿色冬季外套的年轻女子，手里拿着一个黑色的16升VÄRLDENS 维尔登斯 旅行手提包，手提包的拉链拉开着。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/fc25ffa8faf5dad/original/PH178732-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -196,6 +252,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "如何在共享空间享受私人时光",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/19/a4/19a4aa4ae5b9bfd9c0b7e9f74705aa73.jpg",
+     "href": "/cn/zh/rooms/bedroom/how-to/sharing-a-small-space-with-roommates-pub0bbff670",
+     "backgroundColor": "#b4bdb5"
+    }
+   ],
+   "productIds": [],
    "settings": null
   }
  ]

@@ -1,17 +1,31 @@
-import allCatalogPages from "@/data/catalog-pages/all.json";
 import type { CatalogPageData } from "@/data/pages-types";
+import { loadDataJson } from "@/lib/data-files";
 
-export const catalogPages = allCatalogPages as unknown as CatalogPageData[];
+let builtFor: CatalogPageData[] | null = null;
+let catalogPageList: CatalogPageData[] = [];
+let catalogPageBySlug = new Map<string, CatalogPageData>();
 
-const catalogPageBySlug = new Map<string, CatalogPageData>();
-for (const page of catalogPages) {
-  const slug = page.url.split("/").filter(Boolean).at(-1) ?? "";
-  if (slug) catalogPageBySlug.set(slug, page);
+function ensureIndexes(): void {
+  const current = loadDataJson<CatalogPageData[]>("catalog-pages/all.json");
+  if (builtFor === current) return;
+  builtFor = current;
+  catalogPageList = current;
+  catalogPageBySlug = new Map<string, CatalogPageData>();
+  for (const page of current) {
+    const slug = page.url.split("/").filter(Boolean).at(-1) ?? "";
+    if (slug) catalogPageBySlug.set(slug, page);
+  }
+}
+
+export function catalogPages(): CatalogPageData[] {
+  ensureIndexes();
+  return catalogPageList;
 }
 
 export function findCatalogPageBySlug(
   slug: string,
 ): CatalogPageData | undefined {
+  ensureIndexes();
   return catalogPageBySlug.get(slug);
 }
 

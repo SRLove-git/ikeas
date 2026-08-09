@@ -11,7 +11,7 @@
    "title": "阳光正好，我们出去玩吧！",
    "texts": [
     "和朋友一起在户外度过漫长的夏日",
-    "<p>夏天是属于户外的季节，阳光明媚的日子，适合跟朋友一起去呼吸新鲜的空气。我们在此提供了一些创意，让你的花园和阳台做好准备，迎接夏天的到来。</p>",
+    "夏天是属于户外的季节，阳光明媚的日子，适合跟朋友一起去呼吸新鲜的空气。我们在此提供了一些创意，让你的花园和阳台做好准备，迎接夏天的到来。",
     "阳光正好，我们出去玩吧！",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "阳光正好，我们出去玩吧！",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/52/d4/52d48660f1d2c5da9c21cc972810d2e7.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -43,6 +53,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "在户外烹饪台旁种植新鲜的香草",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/37/e2/37e2ecc1569b63339c2703345804a39a.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -62,16 +82,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "在家种植健康的蔬菜",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/c9/71/c97151cbafe3cdc5a4799bfe41f5774a.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3>自家种植，自家制作</h3> <p>新鲜香草和沙拉蔬菜绝对少不了。所以我们可以在自家后院种上一些，自给自足，想吃时随手一摘即可。澳大利亚的Leanne将她的蔬菜挂在烧烤台旁边，这样她就可以随时奉上配有健康蔬菜的烤肉和烤鱼了。</p>"
+    "自家种植，自家制作 新鲜香草和沙拉蔬菜绝对少不了。所以我们可以在自家后院种上一些，自给自足，想吃时随手一摘即可。澳大利亚的Leanne将她的蔬菜挂在烧烤台旁边，这样她就可以随时奉上配有健康蔬菜的烤肉和烤鱼了。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -91,16 +123,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "布置户外用餐区",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/59/32/59321892771af9effd070102a9e7a2c1.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3>庆祝夏日</h3>\n<p>无论你是独自一人，还是和家人一起，在户外享用早餐吧，洒满阳光的清晨可不容错过。想要轻松简单，但又能量满满地开始新的一天，试试Tamar自制的格兰诺拉麦片配方卡&nbsp;，再搭配上新鲜水果就可以了。</p>"
+    "庆祝夏日 无论你是独自一人，还是和家人一起，在户外享用早餐吧，洒满阳光的清晨可不容错过。想要轻松简单，但又能量满满地开始新的一天，试试Tamar自制的格兰诺拉麦片配方卡 ，再搭配上新鲜水果就可以了。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -120,6 +164,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "纵享夏日早餐时光",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/0c/c3/0cc31bdc788b4dc081bef09324814265.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -139,6 +193,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "格兰诺拉麦片简单美味，助你开启新的一天",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/0a/93/0a939edd71b24ca30190d3c72842ffd8.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -150,6 +214,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -169,6 +235,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "尽量在户外烹饪或就餐",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a9/63/a963bfe040979980a26f9e28474c6d2c.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -188,6 +264,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "摆放一张彩色的夏日餐桌 ",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e2/b1/e2b136849157a4c22599b63f35f49060.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -207,16 +293,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "让全家都在户外用餐 ",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/4f/49/4f4910b8e37930ab51467d2d8f9eda3b.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3>快捷的家庭食品</h3> <p>当家庭，而不是食物成为你首先考虑的因素时，可以试着减少工作量，在户外烹饪或就餐。让孩子加入进来，让他们把尽可能多的食物拿到餐桌上，比如沙拉、面包、饮料、调味品，开饭后，就不用再匆忙到屋里去拿了。这样大家就可以更多地关注到彼此，而且眼前还有美味的食物陪伴！</p>"
+    "快捷的家庭食品 当家庭，而不是食物成为你首先考虑的因素时，可以试着减少工作量，在户外烹饪或就餐。让孩子加入进来，让他们把尽可能多的食物拿到餐桌上，比如沙拉、面包、饮料、调味品，开饭后，就不用再匆忙到屋里去拿了。这样大家就可以更多地关注到彼此，而且眼前还有美味的食物陪伴！"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -228,6 +326,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -247,16 +347,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "利用灯具和布料来营造派对氛围",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/c6/ca/c6ca9c5cbfd63d56820211563d0dc891.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3>打造个性焦点</h3> <p>筹备派对的过程和派对本身一样有趣！葡萄牙艺术家Graça用布条装点露台阳台的栏杆，营造出柔和的夏日背景。她的桌面布置也同样有趣，她在每位宾客的作为上增添了一些稀奇古怪的装饰，比如一个涂漆的书镇，或者经过装饰的餐垫。</p>"
+    "打造个性焦点 筹备派对的过程和派对本身一样有趣！葡萄牙艺术家Graça用布条装点露台阳台的栏杆，营造出柔和的夏日背景。她的桌面布置也同样有趣，她在每位宾客的作为上增添了一些稀奇古怪的装饰，比如一个涂漆的书镇，或者经过装饰的餐垫。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -276,6 +388,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "增添一些小细节来迎接你的宾客",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e3/00/e300c6082e8a117e3fada495bc0ece0e.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -295,6 +417,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "亮色的布条营造出夏日的感觉",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/94/ad/94ad312039f48a164b54e39a12c33c56.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -306,6 +438,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -325,6 +459,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "遮盖的区域可以应对多变的天气 ",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/9d/e8/9de808664fdb948fa0f9b2a755c51414.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -344,6 +488,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "为所有宾客打造舒适的就餐区",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/98/9c/989cf11300a5d15efa3ca45c07753d22.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -363,16 +517,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "一锅炖的食物做法简单，也适合分享",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/98/6a/986a8a67036461896da0ba8e9ee1d5d7.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3>随意午餐</h3> <p>制作宾客可以自行添加的食物，让他们感觉像在自己家一样。一锅炖的食物做法简单，也方便传递，每个人都可以按照自己的食量享用。此外，当朋友有了宾至如归的感觉，就有可能再多拿一些食物，这样就不会浪费食物了！ </p>"
+    "随意午餐 制作宾客可以自行添加的食物，让他们感觉像在自己家一样。一锅炖的食物做法简单，也方便传递，每个人都可以按照自己的食量享用。此外，当朋友有了宾至如归的感觉，就有可能再多拿一些食物，这样就不会浪费食物了！"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -384,6 +550,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -403,16 +571,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "布置毯子和地毯，让户外活动更舒适 ",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a2/e3/a2e3f49b108e383fad5128ef0600aa0b.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3>黄昏时分</h3> <p>太阳落山后，为了把一天的时间拉长，可以点亮灯串，然后挂在树上或者梁架上，或者放在地板或桌子上。将舒适的椅子和脚凳拿出来，铺上地毯或者毯子，开始读书或者玩乐。</p>"
+    "黄昏时分 太阳落山后，为了把一天的时间拉长，可以点亮灯串，然后挂在树上或者梁架上，或者放在地板或桌子上。将舒适的椅子和脚凳拿出来，铺上地毯或者毯子，开始读书或者玩乐。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -432,6 +612,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "天色变黑后点亮灯串",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ed/ee/edeed945f28455bca8d4dd3d0ac98958.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -451,6 +641,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "用凉篷和灯打造舒适的角落 ",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e8/9a/e89ac5ad87ed010c13ad1a95c846261e.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -462,16 +662,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><em>我们乐意看到顾客运用我们的产品发挥创意。尽情发挥吧！但是请注意，经过微调或改造的宜家产品将丧失其原有功能，或无法进行二次销售，因此，你将不再享有宜家的商业保证及退货权利。</em></p>"
+    "我们乐意看到顾客运用我们的产品发挥创意。尽情发挥吧！但是请注意，经过微调或改造的宜家产品将丧失其原有功能，或无法进行二次销售，因此，你将不再享有宜家的商业保证及退货权利。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

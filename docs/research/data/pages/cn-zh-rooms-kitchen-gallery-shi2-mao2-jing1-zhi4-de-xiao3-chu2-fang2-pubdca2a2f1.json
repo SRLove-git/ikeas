@@ -11,7 +11,7 @@
    "title": "时髦精致的小厨房",
    "texts": [
     "宜家 RINGHULT 林胡特 抽屉和 JÄRSTA 雅斯塔 黑蓝色光面厨房柜门能在厨房营造出现代时尚的感觉，厨房面积再小也不怕。",
-    "<p>这间现代厨房虽小，依然让人感到清新淡雅。秘诀是什么？简洁的线条、一体式家电以及蓝色柜门和地毯带来的亮色点缀。</p>",
+    "这间现代厨房虽小，依然让人感到清新淡雅。秘诀是什么？简洁的线条、一体式家电以及蓝色柜门和地毯带来的亮色点缀。",
     "时髦精致的小厨房",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "时髦精致的小厨房",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a3/a7/a3a78940ff931cd51b9fd4cae555312a.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -39,6 +49,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

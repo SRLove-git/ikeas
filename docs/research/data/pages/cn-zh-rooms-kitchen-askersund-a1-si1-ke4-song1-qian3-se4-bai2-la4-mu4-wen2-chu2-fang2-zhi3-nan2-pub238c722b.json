@@ -11,7 +11,7 @@
    "title": "ASKERSUND 阿斯克松 浅色白蜡木纹厨房指南",
    "texts": [
     "配浅色白蜡木纹ASKERSUND 阿斯克松 柜门的橱柜和配炭黑色黑板饰面的柜子。",
-    "<p>ASKERSUND 阿斯克松 浅色白蜡木纹柜门有鲜明的纹理图案，拥有出色的外观与触感。这些柜门易于清洁，能够营造风格清新的现代厨房。</p>",
+    "ASKERSUND 阿斯克松 浅色白蜡木纹柜门有鲜明的纹理图案，拥有出色的外观与触感。这些柜门易于清洁，能够营造风格清新的现代厨房。",
     "ASKERSUND 阿斯克松 浅色白蜡木纹厨房指南",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "ASKERSUND 阿斯克松 浅色白蜡木纹厨房指南",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/44/46/44462f87ada9c4c55faf22ced0e2ba8f.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -50,6 +60,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "拥有宜家SEKTION 赛孔 橱柜的厨房，搭配ASKERSUND 阿斯克松 浅色白蜡木纹前板和不锈钢抽油烟机。",
+     "image": "https://file.app.ikea.cn/images/e6/b2/e6b2e7623d114bfb85ec1a314839d6ae.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -76,6 +96,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "宜家SEKTION 赛孔 厨房壁柜底角，柜子配有ASKERSUND 阿斯克松 浅色白蜡木纹前板。",
+     "image": "https://file.app.ikea.cn/images/9f/1a/9f1a491e4f23cfa751b9d2776119af66.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -102,6 +132,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "配浅色白蜡木纹前板的壁柜。顶部摆放着裱框的图片，下方是一个黑色工作台和一个白色水槽。",
+     "image": "https://file.app.ikea.cn/images/b2/96/b296f3d635498c613e8b26eba7915efe.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -147,6 +187,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "购买宜家厨房的5个步骤",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/31/25/3125f86f48cf469079c71ff3c1e4b4a7.jpg",
+     "href": null,
+     "backgroundColor": "#d5dcd4"
+    },
+    {
+     "title": "宜家厨房设计工具——在家即可轻松设计你的厨房",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/42/90/42909d2ee6bc60a85b45906cfa0ff9a7.jpg",
+     "href": "/cn/zh/h5page/?url=%23",
+     "backgroundColor": "#ecd7a2"
+    },
+    {
+     "title": "预约宜家厨房专家服务",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/7b/32/7b32031403ca8a72b6528dfec1cb0597.jpg",
+     "href": "/cn/zh/h5page/?url=%23",
+     "backgroundColor": "#e9c3b0"
+    },
+    {
+     "title": "宜家厨房服务",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/76/9a/769af772d23e404b7198cfbf9b542f22.jpg",
+     "href": "/cn/zh/h5page/?url=%23",
+     "backgroundColor": "#99abc1"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -162,6 +233,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

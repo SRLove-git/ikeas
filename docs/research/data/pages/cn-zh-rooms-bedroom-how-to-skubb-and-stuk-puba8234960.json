@@ -10,10 +10,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>想要征服这一团混乱吗？</strong></h2>\n<p>&nbsp; &nbsp; &nbsp; 那就分类吧。有了衣服储藏件，你可以充分利用你的衣柜和抽屉，再小的东西你都能知道放在那里。无论你有任何不可思议的需求或品味，我们都能为你找到与之相匹配的储物盒，你可以任性地使用你的衣柜了。</p>"
+    "想要征服这一团混乱吗？ 那就分类吧。有了衣服储藏件，你可以充分利用你的衣柜和抽屉，再小的东西你都能知道放在那里。无论你有任何不可思议的需求或品味，我们都能为你找到与之相匹配的储物盒，你可以任性地使用你的衣柜了。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -45,6 +47,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a4/96/a4969325e132f022bd24d9ef034f613b.gif",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/85/6f/856fe6fc80c44bc7439e203bbc0fd061.jpg",
+     "href": "/cn/zh/p/00348128?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/a4/96/a4969325e132f022bd24d9ef034f613b.gif",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/85/6f/856fe6fc80c44bc7439e203bbc0fd061.jpg",
+     "href": "/cn/zh/p/00348128?artType=ART"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -55,6 +88,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -99,6 +134,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/1d/e0/1de0f83320c2ab82febbac479990df45.jpg",
+     "href": "/cn/zh/p/80245881?artType=ART",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/62/ee/62ee236e68bf6adb7b7dc688ad2e165b.jpg",
+     "href": "/cn/zh/p/90185594?artType=ART",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b9/63/b9637c040fd596dac5e7c32f066561df.jpg",
+     "href": "/cn/zh/p/50290361?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/1d/e0/1de0f83320c2ab82febbac479990df45.jpg",
+     "href": "/cn/zh/p/80245881?artType=ART"
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/62/ee/62ee236e68bf6adb7b7dc688ad2e165b.jpg",
+     "href": "/cn/zh/p/90185594?artType=ART"
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/b9/63/b9637c040fd596dac5e7c32f066561df.jpg",
+     "href": "/cn/zh/p/50290361?artType=ART"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -134,6 +213,43 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/fe/5e/fe5ed2b50a6f77b89896ad33d88bcabd.jpg",
+     "href": "/cn/zh/p/80186396?artType=ART",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b4/3a/b43adea452441f7707df4d0a687c4f1c.jpg",
+     "href": "/cn/zh/p/40250855?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/fe/5e/fe5ed2b50a6f77b89896ad33d88bcabd.jpg",
+     "href": "/cn/zh/p/80186396?artType=ART"
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/b4/3a/b43adea452441f7707df4d0a687c4f1c.jpg",
+     "href": "/cn/zh/p/40250855?artType=ART"
+    },
+    {
+     "heading": "帮助您整理衣柜中的衣服 如果您的抽屉或衣柜乱作一团，请选择 SKUBB 思库布 储物系列，它能让一切尽在掌握。各种尺寸的储物盒和悬挂储物件有助您分类整理衣服、鞋子和配饰，用时即可轻松找到。储物盒在不用时还可折叠放平，易于收纳。",
+     "text": null,
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -149,6 +265,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -163,6 +281,32 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "SKUBB 思库布",
+     "text": "¥59.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/skubb-si-ku-bu-yi-fu-zhao-3-jian-tao-bai-se__0710654_pe727684_s4.jpg",
+     "href": "/cn/zh/p/skubb-si-ku-bu-yi-fu-zhao-3-jian-tao-bai-se-30179464/"
+    },
+    {
+     "title": "SKUBB 思库布",
+     "text": "¥79.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/skubb-si-ku-bu-he-bai-se__0711326_pe728153_s4.jpg",
+     "href": "/cn/zh/p/skubb-si-ku-bu-he-bai-se-10186390/"
+    },
+    {
+     "title": "SKUBB 思库布",
+     "text": "¥49.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/skubb-si-ku-bu-chu-wu-he-6-jian-tao-bai-se__1190772_pe900309_s4.jpg",
+     "href": "/cn/zh/p/skubb-si-ku-bu-chu-wu-he-6-jian-tao-bai-se-20428553/"
+    },
+    {
+     "title": "SKUBB 思库布",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/skubb-si-ku-bu-he-bai-se__0711338_pe728164_s4.jpg",
+     "href": "/cn/zh/p/skubb-si-ku-bu-he-bai-se-40290371/"
+    }
+   ],
    "settings": null
   },
   {
@@ -173,6 +317,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -180,7 +326,7 @@
    "title": null,
    "texts": [
     "pub-column",
-    "<h4>STUK 斯图克 系列</h4>\n<h2><strong>来看看 PLATSA 普拉萨 的好朋友</strong></h2>\n<p>&nbsp; &nbsp; &nbsp; <strong><a href=\"https://www.ikea.cn/cn/zh/cat/platsa-pu-la-sa-zu-he-37897/\" target=\"_blank\">PLATSA 普拉萨</a></strong> 和 STUK 斯图克 非常适合配套使用：它们一个负责给你宽敞的衣柜和储物柜，一个负责帮助你隔开储物空间，归整物品。它们都非常灵活，并且价格实惠，可以真正解决你的问题。如果你想把 STUK 斯图克 放在家中其他储物柜里使用，别担心：PLATSA 普拉萨 仍然可以独当一面。</p>",
+    "STUK 斯图克 系列 来看看 PLATSA 普拉萨 的好朋友 PLATSA 普拉萨 和 STUK 斯图克 非常适合配套使用：它们一个负责给你宽敞的衣柜和储物柜，一个负责帮助你隔开储物空间，归整物品。它们都非常灵活，并且价格实惠，可以真正解决你的问题。如果你想把 STUK 斯图克 放在家中其他储物柜里使用，别担心：PLATSA 普拉萨 仍然可以独当一面。",
     "pub-text",
     "pub-image",
     "IMAGE",
@@ -195,6 +341,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ed/c8/edc8d799e1caf59410ef2c0ffcbfdf58.gif",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "STUK 斯图克 系列 来看看 PLATSA 普拉萨 的好朋友 PLATSA 普拉萨 和 STUK 斯图克 非常适合配套使用：它们一个负责给你宽敞的衣柜和储物柜，一个负责帮助你隔开储物空间，归整物品。它们都非常灵活，并且价格实惠，可以真正解决你的问题。如果你想把 STUK 斯图克 放在家中其他储物柜里使用，别担心：PLATSA 普拉萨 仍然可以独当一面。",
+     "text": null,
+     "image": null,
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/ed/c8/edc8d799e1caf59410ef2c0ffcbfdf58.gif",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -239,6 +409,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/5b/dd/5bddd8bcab7f27a98a033c735bab73fc.jpg",
+     "href": "/cn/zh/p/80375679?artType=ART",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/5a/f7/5af7a8c80ee64f09ea451f01405fbfc7.jpg",
+     "href": "/cn/zh/p/00370869?artType=ART",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/6c/40/6c4004dce09d0276b6d833cf9af5a0e7.jpg",
+     "href": "/cn/zh/p/70417217?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/5b/dd/5bddd8bcab7f27a98a033c735bab73fc.jpg",
+     "href": "/cn/zh/p/80375679?artType=ART"
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/5a/f7/5af7a8c80ee64f09ea451f01405fbfc7.jpg",
+     "href": "/cn/zh/p/00370869?artType=ART"
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/6c/40/6c4004dce09d0276b6d833cf9af5a0e7.jpg",
+     "href": "/cn/zh/p/70417217?artType=ART"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -254,6 +468,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "STUK 斯图克",
+     "text": "¥49.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/stuk-si-tu-ke-chu-wu-dai-bai-se-hui-se__0711301_pe728139_s4.jpg",
+     "href": "/cn/zh/p/stuk-si-tu-ke-chu-wu-dai-bai-se-hui-se-20309574/"
+    },
+    {
+     "title": "STUK 斯图克",
+     "text": "¥69.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/stuk-si-tu-ke-chu-wu-dai-bai-se-hui-se__0711304_pe728142_s4.jpg",
+     "href": "/cn/zh/p/stuk-si-tu-ke-chu-wu-dai-bai-se-hui-se-30309578/"
+    }
+   ],
    "settings": null
   },
   {
@@ -289,6 +517,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/7a/4a/7a4aa875bcb8e63caedad77fcda9ea6f.jpg",
+     "href": "/cn/zh/p/80309566?artType=ART",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/55/2a/552ae3c046e0d2d13dbffb15d2f974b7.jpg",
+     "href": "/cn/zh/p/90364005?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/7a/4a/7a4aa875bcb8e63caedad77fcda9ea6f.jpg",
+     "href": "/cn/zh/p/80309566?artType=ART"
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/55/2a/552ae3c046e0d2d13dbffb15d2f974b7.jpg",
+     "href": "/cn/zh/p/90364005?artType=ART"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -303,6 +562,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   },
   {
@@ -331,6 +591,9 @@
      "text": ""
     }
    ],
+   "items": [],
+   "columns": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -353,6 +616,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "送货服务",
+     "text": "我们的大多数产品都采用平板包装，且可轻松放入你的车中。但是，如果你希望我们送货上门，可以预订我们提供的一系列送货服务。",
+     "image": "https://file.app.ikea.cn/cms/u/20230905/b3adedd890fd49f9bc1a33be708a1bef.gif",
+     "href": "/cn/zh/customer-service/services/delivery/",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   }
  ]

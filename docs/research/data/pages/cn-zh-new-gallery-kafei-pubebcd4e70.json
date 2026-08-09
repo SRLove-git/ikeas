@@ -11,7 +11,7 @@
    "title": "专为咖啡爱好者特制",
    "texts": [
     "产品展示：装满深度烘焙咖啡粉的包装袋，以及一个玻璃咖啡杯，盛着刚泡好的咖啡。",
-    "<p>请享用 P&Aring;T&Aring;R 巴塔尔 咖啡，咖啡豆采用品质优良，且经过UTZ认证的有机阿拉比卡豆。</p>\n<p>新推出的咖啡产品系列包括烘培咖啡粉和深度烘焙咖啡粉、浓香咖啡豆和招牌咖啡豆以及浓香咖啡粉，所有产品密封包装，并采用全新设计的精美包装。</p>",
+    "请享用 PåTåR 巴塔尔 咖啡，咖啡豆采用品质优良，且经过UTZ认证的有机阿拉比卡豆。 新推出的咖啡产品系列包括烘培咖啡粉和深度烘焙咖啡粉、浓香咖啡豆和招牌咖啡豆以及浓香咖啡粉，所有产品密封包装，并采用全新设计的精美包装。",
     "专为咖啡爱好者特制",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "专为咖啡爱好者特制",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/fe/1d/fe1d1b42e73fb92e4c81c3c2dabbfde7.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,16 +54,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "一个人将袋子里的咖啡豆倒入罐子中。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/44/3c/443ce92e91e7d4029b8ce1d5dbafee13.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>100%阿拉比卡豆产自洪都拉斯、墨西哥和秘鲁等国的家庭农场和小型合作企业，种植过程中不使用任何化肥和杀虫剂。成熟的咖啡豆经混合、烘焙直至磨碎后制成上等咖啡，进入宜家商场。</p>"
+    "100%阿拉比卡豆产自洪都拉斯、墨西哥和秘鲁等国的家庭农场和小型合作企业，种植过程中不使用任何化肥和杀虫剂。成熟的咖啡豆经混合、烘焙直至磨碎后制成上等咖啡，进入宜家商场。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -67,6 +89,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

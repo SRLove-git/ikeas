@@ -16,18 +16,6 @@ interface SearchResult {
   labels: { text: string; backgroundColor?: string | null; textColor?: string | null }[];
 }
 
-/** productId -> Chinese category names (from crawled category pages) */
-const categoryNamesById = new Map<string, Set<string>>();
-for (const page of catalogPages) {
-  if (!page.name) continue;
-  for (const product of page.products) {
-    if (!categoryNamesById.has(product.id)) {
-      categoryNamesById.set(product.id, new Set());
-    }
-    categoryNamesById.get(product.id)!.add(page.name);
-  }
-}
-
 export const dynamic = "force-dynamic";
 
 /** Search the Spring Boot backend; returns null when it is unreachable. */
@@ -53,10 +41,22 @@ export default async function SearchProductsPage({
   const { q = "" } = await searchParams;
   const keyword = q.trim().toLowerCase();
 
+  /** productId -> Chinese category names (from crawled category pages) */
+  const categoryNamesById = new Map<string, Set<string>>();
+  for (const page of catalogPages()) {
+    if (!page.name) continue;
+    for (const product of page.products) {
+      if (!categoryNamesById.has(product.id)) {
+        categoryNamesById.set(product.id, new Set());
+      }
+      categoryNamesById.get(product.id)!.add(page.name);
+    }
+  }
+
   const backendResults = keyword ? await searchBackend(keyword) : null;
   const results: SearchResult[] =
     keyword && backendResults === null
-      ? allProducts.filter((product) => {
+      ? allProducts().filter((product) => {
           const fields = [
             product.name,
             product.productType,

@@ -90,8 +90,8 @@ export function RankingSection({ sections }: RankingSectionProps) {
                                   {product.name}
                                 </span>
                                 <span className="pub-ranking-item-product-price">
-                                  <i>¥</i>
-                                  {product.price.replace("¥", "").trim()}
+                                  <i>SGD</i>
+                                  {product.price}
                                 </span>
                               </div>
                             </div>

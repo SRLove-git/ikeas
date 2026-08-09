@@ -11,7 +11,7 @@
    "title": "BODARP 博达尔普 灰绿色厨房指南",
    "texts": [
     "灰绿色的BODARP 博达尔普 厨房光线充足，窗边种着香草，还有一张桌子和四张白桦木制成的RÖNNINGE 瑞宁 椅子。",
-    "<p>BODARP 博达尔普 柜门采用可再生能源电力生产，其表面贴膜由回收PET瓶制成；哑光灰绿色的柜门令厨房显得更敞亮、温馨，增添现代感。</p>",
+    "BODARP 博达尔普 柜门采用可再生能源电力生产，其表面贴膜由回收PET瓶制成；哑光灰绿色的柜门令厨房显得更敞亮、温馨，增添现代感。",
     "BODARP 博达尔普 灰绿色厨房指南",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "BODARP 博达尔普 灰绿色厨房指南",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/5f/29/5f29b697411a26fb1c9b2705636272ae.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Hero-BODARP 博达尔普 灰绿色厨房指南"
    }
@@ -52,6 +62,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个转角厨房，配灰绿色的柜子，还有一个炉灶和浅灰色矿石纹工作台，上面摆放着各种器皿和家电。",
+     "image": "https://file.app.ikea.cn/images/23/ac/23ac99d5d4e423ccf5dca06c3f24f713.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Curated Gallery-打造你梦寐以求的厨房"
    }
@@ -80,6 +100,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "浅灰色矿石纹工作台下方有五个灰绿色抽屉。其中一个抽屉打开，里面装有储物盒、笔和其它物品。",
+     "image": "https://file.app.ikea.cn/images/83/29/832978f5d3c70eff1f44b50fb160a567.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Curated Gallery-出色储物"
    }
@@ -108,6 +138,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个高柜，配灰绿色BODARP 博达尔普 柜门；柜门打开，里面有一个清洁用品内件，放着各种清洁用具。",
+     "image": "https://file.app.ikea.cn/images/b3/e1/b3e154b7c3ec4bea10b3698a49847fab.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Curated Gallery-25年免费品质保证"
    }
@@ -155,6 +195,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "宜家厨房设计工具——在家即可轻松设计你的厨房",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/42/90/42909d2ee6bc60a85b45906cfa0ff9a7.jpg",
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fkitchen.planner.ikea.cn%2Fplanner%2F%23%2Fcn%2Fzh%2F",
+     "backgroundColor": "#ecd7a2"
+    },
+    {
+     "title": "购买宜家厨房的5个步骤",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/31/25/3125f86f48cf469079c71ff3c1e4b4a7.jpg",
+     "href": "/cn/zh/rooms/kitchen/how-to/gou4-mai3-yi2-jia1-chu2-fang2-de5-ge4-bu4-zhou4-pub6003162f",
+     "backgroundColor": "#d5dcd4"
+    },
+    {
+     "title": "预约一位厨房设计专员",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/7b/32/7b32031403ca8a72b6528dfec1cb0597.jpg",
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fdesign-leads%2Fkitchen.html%3Fchannel%3Dkitchen_IRW%2BM2%26cl_sr%3DIRW%2BM2%26_ga%3D2.167717241.658028929.1605147171-445243359.1599015491",
+     "backgroundColor": "#e9c3b0"
+    },
+    {
+     "title": "宜家厨房服务",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/76/9a/769af772d23e404b7198cfbf9b542f22.jpg",
+     "href": "/cn/zh/customer-service/services/about-kitchen-services-pubdaf4bdea",
+     "backgroundColor": "#99abc1"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Inspiration Cards-"
    }
@@ -172,6 +243,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": {
     "traceId": "cms-Product Shelf-包含产品"
    }

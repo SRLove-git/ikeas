@@ -11,7 +11,7 @@
    "title": "条纹淋浴用品迎来了属于自己的时代",
    "texts": [
     "田园风格的装饰环境里展示着外观经典的 OTTSJÖN 乌特逊 毛巾和浴帘，以清新的白色搭配与之和谐相融的条纹图案。",
-    "<p>利用 OTTSJ&Ouml;N 乌特逊 毛巾和浴帘，打造和谐统一的经典条纹风格浴室。</p>\n<p>OTTSJ&Ouml;N 乌特逊 浴帘由回收PET瓶制成。可以减少消耗原材料，降低对环境的影响。</p>",
+    "利用 OTTSJöN 乌特逊 毛巾和浴帘，打造和谐统一的经典条纹风格浴室。 OTTSJöN 乌特逊 浴帘由回收PET瓶制成。可以减少消耗原材料，降低对环境的影响。",
     "条纹淋浴用品迎来了属于自己的时代",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "条纹淋浴用品迎来了属于自己的时代",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/2c/93/2c933df6d292b5ebeef69df2434f2bd6.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -51,6 +61,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "特写：OTTSJÖN 乌特逊 白色浴帘饰有亮蓝色垂直条纹图案，打造出经典清新的外观。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/3b/de/3bde94d77abf6ff256fe4757c3fc6a38.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "特写：OTTSJÖN 乌特逊 白色毛巾饰有垂直的灰色和蓝色条纹图案，采用100%可持续来源棉花制成。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/df/ec/dfecb658e716ed1a6d98280e7ad611d6.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "浴帘在防止水花四溅的同时，还可以在必要的时候保护隐私。",
+     "image": "https://file.app.ikea.cn/images/3b/de/3bde94d77abf6ff256fe4757c3fc6a38.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "OTTSJöN 乌特逊 毛巾质地柔软，吸水性强，可迅速干燥脱水。这款毛巾采用100%可持续来源棉花制成，这种棉花或者可回收利用，或者在生产中使用的水、化肥和杀虫剂较少，同时还能提高棉农收益。",
+     "image": "https://file.app.ikea.cn/images/df/ec/dfecb658e716ed1a6d98280e7ad611d6.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -71,6 +112,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -84,6 +127,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

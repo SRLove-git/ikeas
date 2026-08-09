@@ -11,7 +11,7 @@
    "title": null,
    "texts": [
     "https://v.youku.com/v_show/id_XNTE2NTAzOTk4OA==.html",
-    "<p>▲ 点击观看视频</p>",
+    "▲ 点击观看视频",
     "MANUAL_INPUT"
    ],
    "images": [],
@@ -21,13 +21,15 @@
      "text": "\n<p>▲ 点击观看视频</p>\n"
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-hero",
    "title": "端午遇上夏日 焕新生活正当时",
    "texts": [
-    "<p>端午与夏日渐近，季节在变，生活也需要有些新变化。宜家端午节限定新品来袭，为传统增添趣味，为日常增添缤纷色彩。</p>",
+    "端午与夏日渐近，季节在变，生活也需要有些新变化。宜家端午节限定新品来袭，为传统增添趣味，为日常增添缤纷色彩。",
     "端午遇上夏日 焕新生活正当时",
     "normal"
    ],
@@ -40,6 +42,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "端午遇上夏日 焕新生活正当时",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/21/15/2115aeb534ebc93c6957ce69a9762585.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -79,6 +91,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/f3/99/f399fc48546e0eea8115c5b56cab227c.jpg",
+     "href": "/cn/zh/p/00518347?artType=ART",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/5b/98/5b989f203c2738dd597ee541df43b3c6.jpg",
+     "href": "/cn/zh/search/products?q=FLYA",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -99,6 +128,21 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "仲夏限量新品",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/search/products?q=FLYA",
+     "backgroundColor": null
+    },
+    {
+     "title": "VÄNDEROT 万德隆",
+     "text": "¥129",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vaenderot-wan-de-long-kao-dian-bai-se__0772709_pe756079_s4.jpg",
+     "href": "/cn/zh/p/vaenderot-wan-de-long-kao-dian-bai-se-10471698/"
+    }
+   ],
    "settings": null
   },
   {
@@ -117,6 +161,27 @@
     {
      "href": "/cat/20528",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "柔软触感",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/20528",
+     "backgroundColor": null
+    },
+    {
+     "title": "VITMOSSA 威特摩萨",
+     "text": "¥19.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vitmossa-wei-te-mo-sa-xiu-xian-tan-hui-se__0603361_pe680780_s4.jpg",
+     "href": "/cn/zh/p/vitmossa-wei-te-mo-sa-xiu-xian-tan-hui-se-70304890/"
+    },
+    {
+     "title": "RÖDARV 洛达夫",
+     "text": "¥149",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/roedarv-luo-da-fu-kao-dian-duo-se__0600167_pe678583_s4.jpg",
+     "href": "/cn/zh/p/roedarv-luo-da-fu-kao-dian-duo-se-00339732/"
     }
    ],
    "settings": null
@@ -158,6 +223,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/92/e3/92e3d32a44233e238377746f2e707189.jpg",
+     "href": "/cn/zh/p/80518348?artType=ART",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/8f/16/8f168f347a6cad4ef3ca8bb8c5ab2137.jpg",
+     "href": "/cn/zh/p/80518353?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -178,6 +260,21 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "夏季限量色",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/search/products?q=FLYA",
+     "backgroundColor": null
+    },
+    {
+     "title": "IKEA 365+",
+     "text": "¥14.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ikea-365-shi-pin-he-zheng-fang-xing-bo-li__0711417_pe728233_s4.jpg",
+     "href": "/cn/zh/p/ikea-365-shi-pin-he-zheng-fang-xing-bo-li-80359207/"
+    }
+   ],
    "settings": null
   },
   {
@@ -196,6 +293,45 @@
     {
      "href": "/cat/18860",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "餐桌上的缤纷色彩",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/18860",
+     "backgroundColor": null
+    },
+    {
+     "title": "OFTAST 奥夫塔",
+     "text": "¥3.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/oftast-ao-fu-ta-shen-pan-bai-se__0712360_pe728779_s4.jpg",
+     "href": "/cn/zh/p/oftast-ao-fu-ta-shen-pan-bai-se-20318941/"
+    },
+    {
+     "title": "BLANDA BLANK 布朗达 布兰科",
+     "text": "¥19.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/blanda-blank-bu-lang-da-bu-lan-ke-shang-cai-yong-wan-bu-xiu-gang__1245284_pe921561_s4.jpg",
+     "href": "/cn/zh/p/blanda-blank-bu-lang-da-bu-lan-ke-shang-cai-yong-wan-bu-xiu-gang-30166051/"
+    },
+    {
+     "title": "VARDAGEN 瓦达恩",
+     "text": "¥9.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vardagen-wa-da-en-shang-cai-yong-wan-tou-ming-bo-li__0712936_pe729148_s4.jpg",
+     "href": "/cn/zh/p/vardagen-wa-da-en-shang-cai-yong-wan-tou-ming-bo-li-80289238/"
+    },
+    {
+     "title": "IKEA 365+",
+     "text": "¥29.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ikea-365-fu-gai-shi-pin-he-zheng-fang-xing-bo-li__0916186_pe785017_s4.jpg",
+     "href": "/cn/zh/p/ikea-365-fu-gai-shi-pin-he-zheng-fang-xing-bo-li-40444948/"
+    },
+    {
+     "title": "IKEA 365+",
+     "text": "¥24.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ikea-365-shi-pin-he-chang-fang-xing-bo-li__0711431_pe728247_s4.jpg",
+     "href": "/cn/zh/p/ikea-365-shi-pin-he-chang-fang-xing-bo-li-10359201/"
     }
    ],
    "settings": null
@@ -225,6 +361,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/4cbab6ff8fddf329/original/PH175991-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/65ad141aa5a82564/original/PH175983-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -243,6 +396,69 @@
     {
      "href": "/cat/16045",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "享用清凉的夏日饮品",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/16045",
+     "backgroundColor": null
+    },
+    {
+     "title": "KVITTERA 柯提拉",
+     "text": "¥69.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kvittera-ke-ti-la-shang-cai-jia-san-ceng-tou-ming-bo-li-bu-xiu-gang__0713435_pe729524_s4.jpg",
+     "href": "/cn/zh/p/kvittera-ke-ti-la-shang-cai-jia-san-ceng-tou-ming-bo-li-bu-xiu-gang-70279843/"
+    },
+    {
+     "title": "STORSINT 斯图辛特",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/storsint-si-tu-xin-te-bai-pu-tao-jiu-bei-tou-ming-bo-li__0618072_pe688326_s4.jpg",
+     "href": "/cn/zh/p/storsint-si-tu-xin-te-bai-pu-tao-jiu-bei-tou-ming-bo-li-70396314/"
+    },
+    {
+     "title": "VARDAGEN 瓦达恩",
+     "text": "¥149",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vardagen-wa-da-en-dai-long-tou-shui-guan__0799772_pe767634_s4.jpg",
+     "href": "/cn/zh/p/vardagen-wa-da-en-dai-long-tou-shui-guan-60452640/"
+    },
+    {
+     "title": "TILLSTÄLLNING 提斯泰宁",
+     "text": "¥39.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/tillstaellning-ti-si-tai-ning-can-jin-pan-huang-tong-se__0498164_pe629481_s4.jpg",
+     "href": "/cn/zh/p/tillstaellning-ti-si-tai-ning-can-jin-pan-huang-tong-se-10350111/"
+    },
+    {
+     "title": "VARDAGEN 瓦达恩",
+     "text": "¥39.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vardagen-wa-da-en-bei-zi-tou-ming-bo-li__0533549_pe648678_s4.jpg",
+     "href": "/cn/zh/p/vardagen-wa-da-en-bei-zi-tou-ming-bo-li-80286918/"
+    },
+    {
+     "title": "REKO 雷科",
+     "text": "¥9.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/reko-lei-ke-bei-zi-tou-ming-bo-li__0712792_pe729062_s4.jpg",
+     "href": "/cn/zh/p/reko-lei-ke-bei-zi-tou-ming-bo-li-20137851/"
+    },
+    {
+     "title": "FÖRNUFT 弗隆夫特",
+     "text": "¥19.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/foernuft-fu-long-fu-te-shao-bu-xiu-gang__0714606_pe730141_s4.jpg",
+     "href": "/cn/zh/p/foernuft-fu-long-fu-te-shao-bu-xiu-gang-50428491/"
+    },
+    {
+     "title": "MOPSIG 默普斯格",
+     "text": "¥39.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mopsig-mo-pu-si-ge-jin-shu-can-ju-16-jian-tao__0578532_pe669393_s4.jpg",
+     "href": "/cn/zh/p/mopsig-mo-pu-si-ge-jin-shu-can-ju-1-6-jian-tao-80343004/"
+    },
+    {
+     "title": "TILLGÅNG 提尔宫恩",
+     "text": "¥9.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/tillgang-ti-er-gong-en-tuo-pan-hui-se__0641688_pe700598_s4.jpg",
+     "href": "/cn/zh/p/tillgang-ti-er-gong-en-tuo-pan-hui-se-30419949/"
     }
    ],
    "settings": null
@@ -265,6 +481,21 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "加点装饰",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/14971",
+     "backgroundColor": null
+    },
+    {
+     "title": "UTSUND 乌森",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/utsund-wu-sen-led-deng-chuan-12-tou-hu-wai-chan-pin-dian-chi-cao-zuo-hei-se__0634463_pe696488_s4.jpg",
+     "href": "/cn/zh/p/utsund-wu-sen-led-deng-chuan-1-2-tou-hu-wai-chan-pin-dian-chi-cao-zuo-hei-se-80421134/"
+    }
+   ],
    "settings": null
   },
   {
@@ -285,6 +516,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -305,6 +538,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

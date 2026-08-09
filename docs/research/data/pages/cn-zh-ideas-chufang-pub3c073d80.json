@@ -8,10 +8,10 @@
  "blocks": [
   {
    "type": "pub-hero",
-   "title": "Hans的梦想厨房 第2部分：安装 ",
+   "title": "Hans的梦想厨房 第2部分：安装",
    "texts": [
     "墙上贴着一张宜家直线型厨房的手绘草图",
-    "<p>观看视频，查看设计师Hans Blomquist的梦想厨房，了解如何让设想和草图变为现实。如果你想自己安装，可以观看这段快速指南视频，了解宜家厨房的基本安装步骤。</p>",
+    "观看视频，查看设计师Hans Blomquist的梦想厨房，了解如何让设想和草图变为现实。如果你想自己安装，可以观看这段快速指南视频，了解宜家厨房的基本安装步骤。",
     "Hans的梦想厨房 第2部分：安装",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "Hans的梦想厨房 第2部分：安装 ",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b0/ed/b0ed00c62a5572e8360f2100d5da5029.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -31,7 +41,7 @@
    "title": null,
    "texts": [
     "https://v.youku.com/v_show/id_XMzEyODM4NTE2MA==.html?spm=a2h3j.8428770.3416059.1",
-    "<p>如果你准备安装新的宜家厨房，请务必查看我们网站的完整桌面版。在完整版的网站中，你可以找到我们的厨房安装指南，以及送货和安装等宜家服务的相关信息。</p>",
+    "如果你准备安装新的宜家厨房，请务必查看我们网站的完整桌面版。在完整版的网站中，你可以找到我们的厨房安装指南，以及送货和安装等宜家服务的相关信息。",
     "MANUAL_INPUT"
    ],
    "images": [],
@@ -41,16 +51,20 @@
      "text": "<p>如果你准备安装新的宜家厨房，请务必查看我们网站的完整桌面版。在完整版的网站中，你可以找到我们的厨房安装指南，以及送货和安装等宜家服务的相关信息。</p>"
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><em>如果错过了观看视频，可以查看：</em></p>"
+    "如果错过了观看视频，可以查看："
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -71,36 +85,44 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><em>我们乐意看到顾客运用我们的产品发挥创意。尽情发挥吧！但是请注意，经过微调或改造的宜家产品将丧失其原有功能，或无法进行二次销售，因此，你将不再享有宜家的商业保证及退货权利。</em></p>"
+    "我们乐意看到顾客运用我们的产品发挥创意。尽情发挥吧！但是请注意，经过微调或改造的宜家产品将丧失其原有功能，或无法进行二次销售，因此，你将不再享有宜家的商业保证及退货权利。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>记得下周再回来，近距离参观Hans的梦想厨房！</strong></p>"
+    "记得下周再回来，近距离参观Hans的梦想厨房！"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>制作人</strong></p> <p>室内设计师：Hans Blomquist<br />摄影师：Andrea Papini<br />撰稿人：Marissa Frayer</p>"
+    "制作人 室内设计师：Hans Blomquist 摄影师：Andrea Papini 撰稿人：Marissa Frayer"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

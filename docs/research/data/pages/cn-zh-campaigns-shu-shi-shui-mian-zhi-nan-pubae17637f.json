@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "3274a628db894e699733aaa7e55ee935"
    }
@@ -51,6 +53,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220215/f6417e034f834b3fabb3c6cf2818ea35.png?x-oss-process=style/medium",
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fwww.ikea.cn%2Fcn%2Fzh%2Fplanner%2Fcomfortguide%2F",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220215/fc4330bdd4ba4435b5906c2a19fe4cea.png?x-oss-process=style/medium",
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fwww.ikea.cn%2Fcn%2Fzh%2Fplanner%2Fbeds%2F",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "使用我们的个性化睡眠方案设计软件，打造一张你专属舒适的床吧！ 开始设计 ›",
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20220215/f6417e034f834b3fabb3c6cf2818ea35.png?x-oss-process=style/medium",
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fwww.ikea.cn%2Fcn%2Fzh%2Fplanner%2Fcomfortguide%2F"
+    },
+    {
+     "heading": "想在格外舒适的睡眠中醒来，不妨尝试一下我们的舒适睡眠指南。 开始设计 ›",
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20220215/fc4330bdd4ba4435b5906c2a19fe4cea.png?x-oss-process=style/medium",
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fwww.ikea.cn%2Fcn%2Fzh%2Fplanner%2Fbeds%2F"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "19514d89d1a64445a73a83ad9aa7b9bf"
    }

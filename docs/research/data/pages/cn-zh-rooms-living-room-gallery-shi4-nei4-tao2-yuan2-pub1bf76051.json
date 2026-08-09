@@ -11,7 +11,7 @@
    "title": "世内桃源",
    "texts": [
     "走入这间专为你打造的、世外桃源般的客厅。客厅里摆放着 GRÖNLID 格罗恩里德 白色沙发与贵妃椅，以及平滑的 LISABO 利萨伯 浅木色茶几。",
-    "<p>走入这个家庭，单单看到客厅，就能让你立刻放松下来。封闭式储物家具、分外柔软的沙发及柔和的色调，让此处成为休息放松的理想之处。</p>",
+    "走入这个家庭，单单看到客厅，就能让你立刻放松下来。封闭式储物家具、分外柔软的沙发及柔和的色调，让此处成为休息放松的理想之处。",
     "世内桃源",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "世内桃源",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/53/66/53667aa860782223995915b5634a371a.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -39,6 +49,14 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "SANDARED 桑德利",
+     "text": "¥299",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/sandared-sang-de-li-ai-deng-mi-huang-se__0560902_pe662686_s4.jpg",
+     "href": "/cn/zh/p/sandared-sang-de-li-ai-deng-mi-huang-se-70385315/"
+    }
+   ],
    "settings": null
   }
  ]

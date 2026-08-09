@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "add9dcf653d7420b942a11ea7e571b83"
    }
@@ -22,10 +24,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>由宜家设计师走进真实家庭，针对不同屋主的需求，用可持续的人性化设计，<strong>为屋主们化解生活中的困扰</strong>，创造理想的家～</p>"
+    "由宜家设计师走进真实家庭，针对不同屋主的需求，用可持续的人性化设计，为屋主们化解生活中的困扰，创造理想的家～"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "785aaeec63734d3fb8aafa103fad2a22"
    }
@@ -47,6 +51,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220118/ab1aae71c3d445478a2276cb77e06fc4.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "bd00d6eae86544e2a219ef19949c00f2"
    }
@@ -55,10 +69,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>22年没有装修的家，如何在宜家设计师的手下焕发生机，重燃生活热情？点击视频，一起来看看吧。</p>"
+    "22年没有装修的家，如何在宜家设计师的手下焕发生机，重燃生活热情？点击视频，一起来看看吧。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "c50887fbdc404af99cf67ba305ddf292"
    }
@@ -83,6 +99,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "无限灵感，为你的家打造舒适空间",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20241113/4ae29900e1b34ffe8cdcc9a2843a0ddf.mp4",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Image(video)-"
    }
@@ -95,6 +121,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "ed0b2d1b92524d5fa31189c1ccef4083"
    }
@@ -103,10 +131,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>曾经充分考究后设计的美式风格，经历了22年的时光，逐渐陈旧沧桑。家中的杂物堆积如山，缺乏功能强大的收纳系&nbsp;<br />统，不断压缩着留给家人的活动空间。是时候给家减负焕新了。</p>"
+    "曾经充分考究后设计的美式风格，经历了22年的时光，逐渐陈旧沧桑。家中的杂物堆积如山，缺乏功能强大的收纳系 统，不断压缩着留给家人的活动空间。是时候给家减负焕新了。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "6e93d9f9fe9147d0840d2121e1a40b51"
    }
@@ -128,6 +158,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220118/c0bab26f34a9457683110839ca324027.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "6ded15b005d847b4850c8cfdeb1dbe3f"
    }
@@ -152,6 +192,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220112/615da30a02334a3083d2ce6227975fe4.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20220112/615da30a02334a3083d2ce6227975fe4.jpg?x-oss-process=style/medium",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "这次改造，宜家设计师根据每个人的偏好、诉求，设计了他们的空间。并配合强大的收纳体系，贯穿全屋，解放了更多的可支配空间，让他们尽情施展爱好，把生活带回家",
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "36638fd91096417ab0b082eadd3f5345"
    }
@@ -164,6 +228,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "3cc140a58bcc459899e0eaa3320dbcc5"
    }
@@ -172,10 +238,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>客厅改造 | <a href=\"#0217aea9e2814a94a6a10c8e2ddad8ce\">厨房改造</a> | <a href=\"#40112479561246ee89694e4d7d4ba093\">主卧改造</a> | <a href=\"#2d3c8ce7478742eb9ac3f82dcc240add\">次卧改造</a></p>"
+    "客厅改造 | 厨房改造 | 主卧改造 | 次卧改造"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "105bcf31071b45d589ffcd0814459f40"
    }
@@ -200,6 +268,24 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220113/35bc2b4cc59d4bc2ac034e81c70c8962.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20220113/35bc2b4cc59d4bc2ac034e81c70c8962.jpg?x-oss-process=style/medium",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "ba160f2afca24fffa651eb902c6d4c8a"
    }
@@ -229,6 +315,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220112/a3defefad28b4976b2b66f4c078996de.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220112/2aaa5921a30840f4ad7841199619b8ed.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "褐色的旧式家具色调厚重，收纳空间有限，杂物只能高高堆积，密集而杂乱，整个空间略显压抑。",
+     "image": "https://file.app.ikea.cn/cms/u/20220112/a3defefad28b4976b2b66f4c078996de.jpg?x-oss-process=style/medium",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "搭配功能强大的储物柜，藏下了家中的各类杂物，留出了更充裕的活动空间，能承载下更多功能。品酒、听音乐，甚至办公，帮助爸爸重拾过去的爱好，感受生活中的情调",
+     "image": "https://file.app.ikea.cn/cms/u/20220112/2aaa5921a30840f4ad7841199619b8ed.jpg?x-oss-process=style/medium",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "0bc4f1409e4c4364bb85296418e1d026"
    }
@@ -253,6 +370,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220112/5e0724ad3de04d0d82167c6e6cef4c56.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20220112/5e0724ad3de04d0d82167c6e6cef4c56.jpg?x-oss-process=style/medium",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "重新设计了客厅布局后，腾出了大量的空间。爸爸终于得以在客厅展示自己的音响。而音响中间的电视柜中则用来收藏唱片、专辑。",
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "eaba5c536fba4044a9108809a5b0d2e6"
    }
@@ -263,7 +404,7 @@
    "texts": [
     "two-columns",
     "column",
-    "<p>闲暇的时候，拉出储物盒，选一张喜欢的CD播放。坐在沙发上听听音乐，生活的情调便随着旋律回转蔓延。</p>",
+    "闲暇的时候，拉出储物盒，选一张喜欢的CD播放。坐在沙发上听听音乐，生活的情调便随着旋律回转蔓延。",
     "pub-text",
     "/p/10307556?artType=art",
     "NO"
@@ -281,6 +422,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220112/79121f181242401699a13ab7a1550445.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/10307556?artType=art",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "闲暇的时候，拉出储物盒，选一张喜欢的CD播放。坐在沙发上听听音乐，生活的情调便随着旋律回转蔓延。",
+     "image": null,
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20220112/79121f181242401699a13ab7a1550445.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/10307556?artType=art"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "5833d1872c204b398c8d0e8bb9dd4b74"
    }
@@ -318,6 +483,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220112/0dc8378ed8d6474b833de565a3f90bb5.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/49441870?artType=SPR",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220112/745a9d5e7d944cdf98103991609b10ca.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/70333977?artType=art",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "电视机上方的玻璃柜中，展示着旅途中淘来的收藏品，每一格都蕴藏着满满的回忆。",
+     "image": "https://file.app.ikea.cn/cms/u/20220112/0dc8378ed8d6474b833de565a3f90bb5.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/49441870?artType=SPR"
+    },
+    {
+     "heading": null,
+     "text": "下方留有一处空隙，用于放置座椅。落座时，双腿也有处安放。配上满载茶叶茶具、饮酒器具的小推车，随时都可以在这里观赏着窗外的景色，品酒饮茶。",
+     "image": "https://file.app.ikea.cn/cms/u/20220112/745a9d5e7d944cdf98103991609b10ca.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/70333977?artType=art"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "e00e8172147040cbabfd97e660340509"
    }
@@ -335,6 +531,26 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "BESTÅ 贝达",
+     "text": "¥49.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/besta-bei-da-he-hui-se__0330236_pe538407_s4.jpg",
+     "href": "/cn/zh/p/besta-bei-da-he-hui-se-10307556/"
+    },
+    {
+     "title": "BESTÅ 贝达",
+     "text": "¥570",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/besta-bei-da-bi-gui-zu-he-bai-se-wu-si-wei-bai-se__1010944_pe828301_s4.jpg",
+     "href": "/cn/zh/p/besta-bei-da-bi-gui-zu-he-bai-se-wu-si-wei-bai-se-49441870/"
+    },
+    {
+     "title": "LIDKULLEN 里德库伦",
+     "text": "¥599",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lidkullen-li-de-ku-lun-yi-deng-gang-na-rui-de-mi-huang-se__0771305_pe755686_s4.jpg",
+     "href": "/cn/zh/p/lidkullen-li-de-ku-lun-yi-deng-gang-na-rui-de-mi-huang-se-80445781/"
+    }
+   ],
    "settings": {
     "traceId": "d1ba8336474843f6a200e720082649d9"
    }
@@ -343,10 +559,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><a href=\"#ba160f2afca24fffa651eb902c6d4c8a\">客厅改造</a> | 厨房改造 | <a href=\"#40112479561246ee89694e4d7d4ba093\">主卧改造</a> | <a href=\"#2d3c8ce7478742eb9ac3f82dcc240add\">次卧改造</a></p>"
+    "客厅改造 | 厨房改造 | 主卧改造 | 次卧改造"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "1cc32118c3fe4fbca05a30ae406c0855"
    }
@@ -371,6 +589,24 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220113/e33178cef1c04462954f16779df1fa95.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20220113/e33178cef1c04462954f16779df1fa95.jpg?x-oss-process=style/medium",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "0217aea9e2814a94a6a10c8e2ddad8ce"
    }
@@ -400,6 +636,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220112/c6b19f9b22a049439126675cd0ce3767.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220112/29deefd94f704cd6b940cbc36ac1ba3e.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "旧厨房不仅是烹饪、用餐的地方，还放了洗衣机，功能混乱，动线不合理，因此妈妈很少下厨。",
+     "image": "https://file.app.ikea.cn/cms/u/20220112/c6b19f9b22a049439126675cd0ce3767.jpg?x-oss-process=style/medium",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "选用淡灰色的实木橱柜，打造了一个动线合理、收纳有序的全新厨房，让妈妈更爱下厨。有了烟火气，生活便有滋有味了起来。",
+     "image": "https://file.app.ikea.cn/cms/u/20220112/29deefd94f704cd6b940cbc36ac1ba3e.jpg?x-oss-process=style/medium",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "2b82736ed2004a0fafc30beaea9e8a48"
    }
@@ -424,6 +691,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220112/66fafc623bf346baa869e194f9ed9d20.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20220112/66fafc623bf346baa869e194f9ed9d20.jpg?x-oss-process=style/medium",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "充分考量了烹饪习惯，将整个厨房分成两个片区，规划了流畅的动线。冰箱左侧是洗涤区与操作台，符合“拿”、“洗”、“切”的顺序。",
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "f9213a193f8a443cb150cfc05d10f23c"
    }
@@ -434,7 +725,7 @@
    "texts": [
     "two-columns",
     "column",
-    "<p>当备菜完成后，转身就是烹饪区。烹饪区右侧留有充裕的操作空间。爸爸、女儿也可以帮忙打打下手，一起享受烹饪的乐趣。</p>",
+    "当备菜完成后，转身就是烹饪区。烹饪区右侧留有充裕的操作空间。爸爸、女儿也可以帮忙打打下手，一起享受烹饪的乐趣。",
     "pub-text",
     "NO",
     "pub-image"
@@ -448,6 +739,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220112/3d0a701465ee433fb7ff6a5085369edf.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "当备菜完成后，转身就是烹饪区。烹饪区右侧留有充裕的操作空间。爸爸、女儿也可以帮忙打打下手，一起享受烹饪的乐趣。",
+     "image": null,
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20220112/3d0a701465ee433fb7ff6a5085369edf.jpg?x-oss-process=style/medium",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "b4f9ffd502a54731aa7b6e9e487bade4"
    }
@@ -481,6 +796,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220112/482f71e279f04738b38b27d17e76335f.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/00448774?artType=art",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220112/226826a595764292ab7e09be0617ed9c.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "运用挂杆让厨具上墙收纳，整齐有序。搭配小巧的增高台面，统一收纳各类调味瓶，方便右手拿取。",
+     "image": "https://file.app.ikea.cn/cms/u/20220112/482f71e279f04738b38b27d17e76335f.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/00448774?artType=art"
+    },
+    {
+     "heading": null,
+     "text": "一体式橱柜内部空间充足。抽屉拉动顺滑，方便拿取餐碟装盘，盛出新鲜出炉的美味。",
+     "image": "https://file.app.ikea.cn/cms/u/20220112/226826a595764292ab7e09be0617ed9c.jpg?x-oss-process=style/medium",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "a457ee6491ce40b6b5405d9ccaaad846"
    }
@@ -498,6 +844,32 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "HULTARP 胡尔塔普",
+     "text": "¥49.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/hultarp-hu-er-ta-pu-gua-gan-hei-se__0941912_pe795826_s4.jpg",
+     "href": "/cn/zh/p/hultarp-hu-er-ta-pu-gua-gan-hei-se-00448774/"
+    },
+    {
+     "title": "HULTARP 胡尔塔普",
+     "text": "¥19.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/hultarp-hu-er-ta-pu-gua-gou-du-nie__0941599_pe795585_s4.jpg",
+     "href": "/cn/zh/p/hultarp-hu-er-ta-pu-gua-gou-du-nie-30448838/"
+    },
+    {
+     "title": "NORDEN 诺顿",
+     "text": "¥1,299",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/norden-nuo-dun-zhe-die-shi-can-zhuo-bai-se__0737112_pe740886_s4.jpg",
+     "href": "/cn/zh/p/norden-nuo-dun-zhe-die-shi-can-zhuo-bai-se-70422394/"
+    },
+    {
+     "title": "NORBERG 诺伯格",
+     "text": "¥299",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/norberg-nuo-bo-ge-bi-zhuang-zhe-die-zhuo-bai-se__0736622_pe740674_s4.jpg",
+     "href": "/cn/zh/p/norberg-nuo-bo-ge-bi-zhuang-zhe-die-zhuo-bai-se-90365793/"
+    }
+   ],
    "settings": {
     "traceId": "9a1e22ce9c1f4ed5bce3c785279b9f42"
    }
@@ -506,10 +878,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><a href=\"#ba160f2afca24fffa651eb902c6d4c8a\">客厅改造</a> | <a href=\"#0217aea9e2814a94a6a10c8e2ddad8ce\">厨房改造</a> | 主卧改造 | <a href=\"#2d3c8ce7478742eb9ac3f82dcc240add\">次卧改造</a></p>"
+    "客厅改造 | 厨房改造 | 主卧改造 | 次卧改造"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "8c31aab7b8b549d2b52d78434903c3e6"
    }
@@ -534,6 +908,24 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220113/5759049f60774f0d8673a6b5e7e2b577.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20220113/5759049f60774f0d8673a6b5e7e2b577.jpg?x-oss-process=style/medium",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "40112479561246ee89694e4d7d4ba093"
    }
@@ -567,6 +959,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220112/6e6bb49f69fe4440aef1e710b927750b.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220112/b1ee8ec4723749599792b9fd6ecaf5b2.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/00493304?artType=art",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "老式家具难掩陈旧感，需要更新一番睡眠环境。阳台区域被堆满了杂物，没能得到充分的利用。",
+     "image": "https://file.app.ikea.cn/cms/u/20220112/6e6bb49f69fe4440aef1e710b927750b.jpg?x-oss-process=style/medium",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "选用了妈妈喜欢的清爽北欧风，以素雅的灰白色作为整体基调，富有质感。重新规划阳台区域，承载下更多实用功能。",
+     "image": "https://file.app.ikea.cn/cms/u/20220112/b1ee8ec4723749599792b9fd6ecaf5b2.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/00493304?artType=art"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "b6314297c4b943c3a6d4282d6d5ea399"
    }
@@ -595,6 +1018,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220112/7c4d2b9004e845e99a75b511cfb79ed8.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/29304341?artType=spr",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20220112/7c4d2b9004e845e99a75b511cfb79ed8.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/29304341?artType=spr"
+    },
+    {
+     "heading": null,
+     "text": "衣柜内部分区合理，可以挂放长衣、短衣，叠放衣物，满足不同的收纳需求。",
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "0bac0c4ed7b3463dadfd0cc6cbc80cdd"
    }
@@ -605,7 +1052,7 @@
    "texts": [
     "two-columns",
     "column",
-    "<p>将领带、丝巾有序挂放，一目了然，拉出即可挑选。</p>",
+    "将领带、丝巾有序挂放，一目了然，拉出即可挑选。",
     "pub-text",
     "/p/60262490?artType=art",
     "NO"
@@ -623,6 +1070,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220112/9658e881beed4f4aafea33cd73a8765b.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/60262490?artType=art",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "将领带、丝巾有序挂放，一目了然，拉出即可挑选。",
+     "image": null,
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20220112/9658e881beed4f4aafea33cd73a8765b.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/60262490?artType=art"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "1775e212f9f34f0c8bd1b2102722fa73"
    }
@@ -660,6 +1131,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220112/21c0923f3fc44526bfe1f0f52cf59864.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/40400765?artType=art",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220112/343486f3f72d4d4e8633600f18e7a8c8.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/20222444?artType=art",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "抽拉顺滑的网篮，适合叠放衣物，便于通风。设有多种材质、外观、尺寸，皆可自由挑选。",
+     "image": "https://file.app.ikea.cn/cms/u/20220112/21c0923f3fc44526bfe1f0f52cf59864.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/40400765?artType=art"
+    },
+    {
+     "heading": null,
+     "text": "取下左侧墙面上的折叠椅，便可以创造出一处休闲角，和家人、朋友开启茶话会。",
+     "image": "https://file.app.ikea.cn/cms/u/20220112/343486f3f72d4d4e8633600f18e7a8c8.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/20222444?artType=art"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "f1c1757a17b7496492c26b971c0fbeba"
    }
@@ -677,6 +1179,56 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "HAUGA 豪嘉",
+     "text": "¥299",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/hauga-hao-jia-chuang-tou-zhuo-bai-se__0963768_pe808707_s4.jpg",
+     "href": "/cn/zh/p/hauga-hao-jia-chuang-tou-zhuo-bai-se-80488964/"
+    },
+    {
+     "title": "HAUGA 豪嘉",
+     "text": "¥999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/hauga-hao-jia-shuang-men-gao-gui-bai-se__0914112_pe783851_s4.jpg",
+     "href": "/cn/zh/p/hauga-hao-jia-shuang-men-gao-gui-bai-se-30415060/"
+    },
+    {
+     "title": "PAX 帕克思 / FLISBERGET 弗里伯加",
+     "text": "¥4,390",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/pax-pa-ke-si-flisberget-fu-li-bo-jia-yi-gui-bai-se-dan-mi-se__0730834_pe737809_s4.jpg",
+     "href": "/cn/zh/p/pax-pa-ke-si-flisberget-fu-li-bo-jia-yi-gui-bai-se-dan-mi-se-29304341/"
+    },
+    {
+     "title": "KOMPLEMENT 康普蒙",
+     "text": "¥50",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/komplement-kang-pu-meng-la-chu-shi-duo-gong-neng-gua-jia-bai-se__0238050_pe377338_s4.jpg",
+     "href": "/cn/zh/p/komplement-kang-pu-meng-la-chu-shi-duo-gong-neng-gua-jia-bai-se-60262490/"
+    },
+    {
+     "title": "KOMPLEMENT 康普蒙",
+     "text": "¥100",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/komplement-kang-pu-meng-shou-shi-cha-jian-dan-hui-se__0582360_pe670680_s4.jpg",
+     "href": "/cn/zh/p/komplement-kang-pu-meng-shou-shi-cha-jian-dan-hui-se-90405765/"
+    },
+    {
+     "title": "KOMPLEMENT 康普蒙",
+     "text": "¥200",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/komplement-kang-pu-meng-la-chu-shi-ku-gua-bai-se__0797600_pe766934_s4.jpg",
+     "href": "/cn/zh/p/komplement-kang-pu-meng-la-chu-shi-ku-gua-bai-se-10446538/"
+    },
+    {
+     "title": "KOMPLEMENT 康普蒙",
+     "text": "¥50",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/komplement-kang-pu-meng-mi-wang-lan-bai-se__0237976_pe377279_s4.jpg",
+     "href": "/cn/zh/p/komplement-kang-pu-meng-mi-wang-lan-bai-se-40400765/"
+    },
+    {
+     "title": "KOMPLEMENT 康普蒙",
+     "text": "¥10",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/komplement-kang-pu-meng-yi-jia-bai-se__0650391_pe706164_s4.jpg",
+     "href": "/cn/zh/p/komplement-kang-pu-meng-yi-jia-bai-se-60256936/"
+    }
+   ],
    "settings": {
     "traceId": "96bdc5427c464593974408a62d16ece7"
    }
@@ -685,10 +1237,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><a href=\"#ba160f2afca24fffa651eb902c6d4c8a\">客厅改造</a> | <a href=\"#0217aea9e2814a94a6a10c8e2ddad8ce\">厨房改造</a> | <a href=\"#40112479561246ee89694e4d7d4ba093\">主卧改造</a> | 次卧改造</p>"
+    "客厅改造 | 厨房改造 | 主卧改造 | 次卧改造"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "bfaadab652144cbd86f1d68f1b28179b"
    }
@@ -713,6 +1267,24 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220113/49578bb0dd0546abb91d44b5789e7f57.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20220113/49578bb0dd0546abb91d44b5789e7f57.jpg?x-oss-process=style/medium",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "2d3c8ce7478742eb9ac3f82dcc240add"
    }
@@ -742,6 +1314,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220112/6323504a1ef0433eb0e152c5a68bac3b.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220112/e587e898a88c49198928fbf4d8b0ff9d.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "即将步入高中阶段的女儿，需要一间真正属于她的卧室。而原先的次卧被各种杂物堆满，十分拥挤，无法自由支配，缺乏空间归属感。",
+     "image": "https://file.app.ikea.cn/cms/u/20220112/6323504a1ef0433eb0e152c5a68bac3b.jpg?x-oss-process=style/medium",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "彻底整理了房间中的杂物后，只保留了女儿的物品，释放出更多的空间。让她能在这个房间里学习、听音乐，培养自己的兴趣爱好，或是邀请朋友们来玩耍，享受自己做主的快乐。",
+     "image": "https://file.app.ikea.cn/cms/u/20220112/e587e898a88c49198928fbf4d8b0ff9d.jpg?x-oss-process=style/medium",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "e62c040fa6a544b58206538ac64a8762"
    }
@@ -770,6 +1373,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220112/777415a5de104a17bc8ea969bb8f29ce.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/50421376?artType=art",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20220112/777415a5de104a17bc8ea969bb8f29ce.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/50421376?artType=art"
+    },
+    {
+     "heading": null,
+     "text": "进门处，用挂钟、穿衣镜、留言板、挂钩架装点墙面。既具备实用性，也可以自由DIY，释放个性",
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "bd075733236d40bd99ce19b51eec9a79"
    }
@@ -807,6 +1434,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220112/74002ea4b14f49a68f57d34e38f2f88f.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/19426300?artType=spr",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220112/c682abd302d04cfeb61c85fabce2e583.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/10312911?artType=art",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "为了匹配窗子的宽度，选用较窄的高衣柜左右摆放，留出充足的采光。窗下摆了一方书桌，自带一列抽屉柜。小推车待机于另一侧，分层保管各类文具与学习资料，在需要时可以拉出来。",
+     "image": "https://file.app.ikea.cn/cms/u/20220112/74002ea4b14f49a68f57d34e38f2f88f.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/19426300?artType=spr"
+    },
+    {
+     "heading": null,
+     "text": "高架床下方，为她打造了一处沉浸式的音乐角。倚在懒人沙发上，听听音乐，怡然自得。旁边设有一侧储物长凳，朋友们来做客也座位充足，一起谈天说地，分享趣味琐事。",
+     "image": "https://file.app.ikea.cn/cms/u/20220112/c682abd302d04cfeb61c85fabce2e583.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/10312911?artType=art"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "d26ed0cb4f1943a9825c9fb1ffaba736"
    }
@@ -824,6 +1482,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "SMÅSTAD 斯玛斯塔 / PLATSA 普拉萨",
+     "text": "¥1,379.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/smastad-si-ma-si-ta-platsa-pu-la-sa-yi-gui-bai-se-dai-kuang-jia-dai-2-ge-chou-ti__0925791_pe788889_s4.jpg",
+     "href": "/cn/zh/p/smastad-si-ma-si-ta-platsa-pu-la-sa-yi-gui-bai-se-dai-kuang-jia-dai-2-ge-chou-ti-19426300/"
+    },
+    {
+     "title": "LAGKAPTEN 拉格开普 / ALEX 阿来斯",
+     "text": "¥749",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lagkapten-la-ge-kai-pu-alex-a-lai-si-shu-zhuo-bai-se__0977483_pe813612_s4.jpg",
+     "href": "/cn/zh/p/lagkapten-la-ge-kai-pu-alex-a-lai-si-shu-zhuo-bai-se-09416820/"
+    }
+   ],
    "settings": {
     "traceId": "dcb7b9fb2bcb4460b64e11cf6aa5eb5f"
    }
@@ -836,6 +1508,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "831ae82a74d8433f8e7e525fb3a22e17"
    }
@@ -863,6 +1537,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个宽敞的木制搁架单元，上面放着储物盒、花盆和鞋履。前面叠放着两把椅子。",
+     "image": "https://file.app.ikea.cn/cms/u/20220112/bab94ab20b5a45a2b88ac2c465e8108d.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220112/a79827369ea7434cafce2a2c9798d098.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "1d323e015004460081acab4e3918eb62"
    }
@@ -873,13 +1564,29 @@
    "texts": [
     "two-columns",
     "column",
-    "<p>打破常规，客厅也可以增设衣物收纳角！封闭式衣柜用于收纳换季的衣物被褥，开放式衣柜则用于挂放穿过的一日衣，作为额外的收纳补充。</p>",
+    "打破常规，客厅也可以增设衣物收纳角！封闭式衣柜用于收纳换季的衣物被褥，开放式衣柜则用于挂放穿过的一日衣，作为额外的收纳补充。",
     "pub-text",
     "NO",
-    "<p>储物家具没有绝对的适用范围。客厅的电视柜、高柜也可以活用在卧室里，与周围的其他家具和谐组合。</p>"
+    "储物家具没有绝对的适用范围。客厅的电视柜、高柜也可以活用在卧室里，与周围的其他家具和谐组合。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "columns": [
+    {
+     "heading": null,
+     "text": "打破常规，客厅也可以增设衣物收纳角！封闭式衣柜用于收纳换季的衣物被褥，开放式衣柜则用于挂放穿过的一日衣，作为额外的收纳补充。",
+     "image": null,
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "储物家具没有绝对的适用范围。客厅的电视柜、高柜也可以活用在卧室里，与周围的其他家具和谐组合。",
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "9a3f7a060a0e42769ca0ac9de8e82e44"
    }
@@ -904,6 +1611,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220112/50c0dac2e8c44a89839690337c67fc16.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20220112/50c0dac2e8c44a89839690337c67fc16.jpg?x-oss-process=style/medium",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "想要在卧室建立全面的收纳系统，别忘了床底空间。搭配可抽拉的储物盒，让更换的被褥、床品有处收纳。",
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "6b5c8923f3b64f6da3427879d77fc2da"
    }
@@ -914,7 +1645,7 @@
    "texts": [
     "two-columns",
     "column",
-    "<p>结合创意，壁柜、小钉板皆可以变身展示区，陈列各式各样的收藏品，个性十足。音响与壁柜尺寸恰好匹配，宛若量身定制。</p>",
+    "结合创意，壁柜、小钉板皆可以变身展示区，陈列各式各样的收藏品，个性十足。音响与壁柜尺寸恰好匹配，宛若量身定制。",
     "pub-text",
     "NO",
     "pub-image"
@@ -928,6 +1659,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220112/d739b58b02f14b16a10f9cd41a69ddb6.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "结合创意，壁柜、小钉板皆可以变身展示区，陈列各式各样的收藏品，个性十足。音响与壁柜尺寸恰好匹配，宛若量身定制。",
+     "image": null,
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20220112/d739b58b02f14b16a10f9cd41a69ddb6.jpg?x-oss-process=style/medium",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "7db5717ac6f74811b0640fd303f55092"
    }
@@ -976,6 +1731,58 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "第7期── 能和我一起“长大”的家，长这样！",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220112/f9e058abb7ac404b951ef749b79e122b.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/campaigns/yi2-jia1-qu4-ni3-jia1-yi2-jia1-zi4-zhi4-jia1-ju1-gai3-zao4-xi4-lie4-jie2-mu4-pub879bf9c0",
+     "backgroundColor": "#185962"
+    },
+    {
+     "title": "第6期── 打破常规，何不让家“野”一点",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220112/46a128cdad934d2f8bdcab39cae3ee7a.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/campaigns/yi2-jia1-qu4-ni3-jia1-yi2-jia1-zi4-zhi4-jia1-ju1-gai3-zao4-xi4-lie4-jie2-mu4-pub2f557740",
+     "backgroundColor": "#15244b"
+    },
+    {
+     "title": "第5期──  爆改工作室，Hold住职场和家庭带娃更轻松！",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220112/5a62beff3f7b415788c08acbab8ff47c.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/campaigns/yi2-jia1-qu4-ni3-jia1-pubd6ecba90",
+     "backgroundColor": "#0870ba"
+    },
+    {
+     "title": "第4期── 30㎡老房大改造！绿色生活原来这么简单？",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220113/67b593d0b8ef46009e65af81a341aa2d.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/campaigns/yi2-jia1-qu4-ni3-jia1-yi2-jia1-zi4-zhi4-de-jia1-ju1-gai3-zao4-xi4-lie4-jie2-mu4-pub4df85870",
+     "backgroundColor": "#fcad13"
+    },
+    {
+     "title": "第 3 期── 90 后小夫妻新家改造",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220113/cc3d5d47f3da45a9be61d854805a7b25.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/campaigns/yi2-jia1-qu4-ni3-jia1-pub0bfbd820",
+     "backgroundColor": "#0a87c9"
+    },
+    {
+     "title": "第 2 期── 3 位沪漂女孩的新家改造记",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220113/fc2fff7a53ce4a13a56106f23b2155ce.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/campaigns/yi2-jia1-qu4-ni3-jia1-pub0d24686e",
+     "backgroundColor": "#22bdc1"
+    },
+    {
+     "title": "第 1期──生活何必“断舍离”！",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220113/09b9cac8cc9d4209aef4bc9165250e60.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/campaigns/yi2-jia1-qu4-ni3-jia1-pubbe527820",
+     "backgroundColor": "#f6bba9"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "ca60d2ba4db84cb8984e173d613daea2"
    }
@@ -998,6 +1805,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "4afa1d2498b141f3aa961ed5eb8150f6"
    }
@@ -1010,6 +1819,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "df26840c52004274b8743f7c107ad5d0"
    }
@@ -1018,10 +1829,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>宜家全屋设计</h2>\n<p>专业设计，1对1服务，不论大家小家，都能变成理想的家！</p>"
+    "宜家全屋设计 专业设计，1对1服务，不论大家小家，都能变成理想的家！"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "86c91114e4144fb49e5a2b55a78536e0"
    }
@@ -1050,6 +1863,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220113/d653d22da80a4a9f886deb51d5a2096e.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fwrd.family.ikea.cn%2Fwrd%3Fchannel%3DOA-Club-Article%26cl_sr%3DOA-Club-Article",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "55c8ee8f72da4c2eae46f67c97677fe4"
    }

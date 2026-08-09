@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -34,16 +36,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "卧室配有灰色软垫床架、灰色地毯、白色玻璃门柜和黑色灯具。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e4/1e/e41e27adfef5de13092bd1826846133e.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>简洁的线条、时尚的细节和素净的灰色调——本文将教你如何打造时尚的都市风格卧室，衣柜经过精心设计，空间宽敞、充满爱意。</p>"
+    "简洁的线条、时尚的细节和素净的灰色调——本文将教你如何打造时尚的都市风格卧室，衣柜经过精心设计，空间宽敞、充满爱意。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -55,7 +69,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<p>睡前夜读能让你在忙碌一天后放松身心。SLATTUM 斯拉图 床头板可为后背提供舒适支撑，EKET 伊克特 则可为夜读灯和你喜爱的书籍提供摆放空间。</p>"
+    "睡前夜读能让你在忙碌一天后放松身心。SLATTUM 斯拉图 床头板可为后背提供舒适支撑，EKET 伊克特 则可为夜读灯和你喜爱的书籍提供摆放空间。"
    ],
    "images": [
     "https://file.app.ikea.cn/images/54/e8/54e82fa9dff7cd6072f310573c9d80f6.jpg",
@@ -71,6 +85,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "带软垫灰色床架，条纹床用纺织品，白色床边桌和黑色灯具。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/54/e8/54e82fa9dff7cd6072f310573c9d80f6.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "白色推拉玻璃门柜子，储藏柜框架靠墙而立，还有一套灰色的床罩。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/fb/6d/fb6d81ba25f5b7f36b59aee13f283120.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "睡前夜读能让你在忙碌一天后放松身心。SLATTUM 斯拉图 床头板可为后背提供舒适支撑，EKET 伊克特 则可为夜读灯和你喜爱的书籍提供摆放空间。",
+     "image": "https://file.app.ikea.cn/images/54/e8/54e82fa9dff7cd6072f310573c9d80f6.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "防尘储物件是一个不错的选择，设计巧妙的储物件更是如此。SYVDE 斯维德 橱柜带滑门，这对家具之间距离很小的小户型来说是一个十分有用的设计。",
+     "image": "https://file.app.ikea.cn/images/fb/6d/fb6d81ba25f5b7f36b59aee13f283120.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -103,6 +148,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "白色衣柜带镀镍橱柜照明、挂衣杆和海草编织篮子。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/eb/78/eb78df2cfc931f61df1cd0d6082f513f.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "白色衣柜、黑色吊灯、白色镜子和绿色植物。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/48/83/4883df6c1fd175ca6fc6f160bcd078e9.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "黑色储物脚凳，黑色搁板上放有包袋和绿色植物。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/46/e6/46e67f37fcd8cbb08d3d9273e521bcaf.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "选用 INSIDA 因希达 LED射灯，照亮共享衣柜中分属于你和伴侣的物品。这样有助于你找到所需物品，还能打造温馨舒适的房间氛围。",
+     "image": "https://file.app.ikea.cn/images/eb/78/eb78df2cfc931f61df1cd0d6082f513f.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "没有镜子的衣柜解决方案给人感觉并不完整。在 NISSEDAL 尼瑟达 镜子上方安装良好的照明，在一旁悬挂你的新衣物，让早晨出门更加顺畅。",
+     "image": "https://file.app.ikea.cn/images/48/83/4883df6c1fd175ca6fc6f160bcd078e9.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "并排放置 BOSNÄS 波斯纳 脚凳，打造像长椅一样的就座区，方便你坐在上面穿鞋。BOSNÄS 波斯纳 内有储物空间，是季节性储物的理想之选！",
+     "image": "https://file.app.ikea.cn/images/46/e6/46e67f37fcd8cbb08d3d9273e521bcaf.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -125,6 +214,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "白色带钩衣帽架、黑色带图相框和海草编织而成的篮子。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/64/87/648788a3734a4a4c9d97235eaf1c5d85.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/64/87/648788a3734a4a4c9d97235eaf1c5d85.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "细节考究的墙面储物件兼具实用性和时尚性。选择设计简洁的带钩衣帽架，巧妙搭配时刻变化的配饰风潮。",
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -140,6 +253,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "EKET 伊克特",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/eket-yi-ke-te-bi-zhuang-ge-jia-dan-yuan-bai-se__1326081_pe944109_s4.jpg",
+     "href": "/cn/zh/p/eket-yi-ke-te-bi-zhuang-ge-jia-dan-yuan-bai-se-99285810/"
+    },
+    {
+     "title": "NISSEDAL 尼瑟达",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/nissedal-ni-se-da-jing-zi-bai-se__0637800_pe698596_s4.jpg",
+     "href": "/cn/zh/p/nissedal-ni-se-da-jing-zi-bai-se-90320318/"
+    }
+   ],
    "settings": null
   }
  ]

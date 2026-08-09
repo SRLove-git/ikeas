@@ -11,7 +11,7 @@
    "title": "时尚耐用的地板配件",
    "texts": [
     "VESLÖS 维斯洛斯 手织羊毛具有经典的黑白条纹图案，耐用防尘，双面可用，两面换着用可延长使用寿命。",
-    "<p>本月针对地板推出的新品设计美观，同时又能承受大量磨损。</p>\n<p>例如，VESL&Ouml;S 维斯洛斯 手织羊毛具有经典的黑白条纹图案，耐用防尘，双面可用，两面换着用可延长使用寿命。</p>",
+    "本月针对地板推出的新品设计美观，同时又能承受大量磨损。 例如，VESLöS 维斯洛斯 手织羊毛具有经典的黑白条纹图案，耐用防尘，双面可用，两面换着用可延长使用寿命。",
     "时尚耐用的地板配件",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "时尚耐用的地板配件",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/20/08/200815fb7186f7652a414e8832f90a44.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,16 +54,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "这款手工编织的 VESLÖS 维斯洛斯 羊毛地毯将经典的条纹与黑白色结合在一起，是宜家本季推出的新款纺织品和地毯的一部分。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/da/74/da7458b80b59ce82bafc25bee28cad81.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>这些地毯是通过我们在印度和孟加拉国发起的手织地毯计划制作的，由技艺精湛的织工手工编织而成，我们确保为他们提供良好的工作环境和合理的工资收入。</p>"
+    "这些地毯是通过我们在印度和孟加拉国发起的手织地毯计划制作的，由技艺精湛的织工手工编织而成，我们确保为他们提供良好的工作环境和合理的工资收入。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -74,6 +96,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -94,16 +118,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "这款 VESLÖS 维斯洛斯 羊毛地毯将经典的条纹与黑白色结合在一起，耐用防尘，双面可用，由技艺精湛的织工手工编织。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/36/47/36472e882f7abd7f2325b11030c02e89.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>用环保门垫欢迎客人</strong></p>\n<p>使用 MEJLS 梅乐思 门垫欢迎客人，它采用回收的PET瓶制成，环境足迹更少。</p>"
+    "用环保门垫欢迎客人 使用 MEJLS 梅乐思 门垫欢迎客人，它采用回收的PET瓶制成，环境足迹更少。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -124,6 +160,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -136,6 +174,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

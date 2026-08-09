@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -34,16 +36,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "一间炭黑色/灰色转角厨房，一个黑色吧台凳、一个黑色手推车、一块条纹地毯和装着新鲜香草的黑色盛具。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/df/2c/df2c06f51d412574bef39a5226d753ce.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>城市居所往往空间狭小、结构复杂，但这并不会改变我们对经优化利用的（并且时尚！）厨用空间的需求。灵活的ENHET 安纳特 厨房可以有效利用大多数角落，同时让你充分展现自己的个人风格。</p>"
+    "城市居所往往空间狭小、结构复杂，但这并不会改变我们对经优化利用的（并且时尚！）厨用空间的需求。灵活的ENHET 安纳特 厨房可以有效利用大多数角落，同时让你充分展现自己的个人风格。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -71,6 +85,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "灰色的操作台面上，放着一台黑/白便携电磁炉、一口不锈钢锅、一块砧板以及一些西兰花。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/68/4d/684d5fa5e89fe011a48cee4f529887f5.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "一个带有集成照明和一块旋转搁板的黑色开放式搁架上，放着一些装有意大利面的玻璃罐、各种不同的调料罐、油和调味品。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/55/6f/556ffb28a65ebe8c4e65bbaddbdd64b8.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "有限空间，更多可能。便携电磁炉（可收起储存）可以让你在同一操作台面上准备食材、烹饪饭菜。",
+     "image": "https://file.app.ikea.cn/images/68/4d/684d5fa5e89fe011a48cee4f529887f5.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "透明的罐子和研磨瓶不仅外观时尚，而且也非常实用：有了它们，你就再也不会拿错调料了。",
+     "image": "https://file.app.ikea.cn/images/55/6f/556ffb28a65ebe8c4e65bbaddbdd64b8.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -103,6 +148,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "一张米色沙发、一块黄麻毯、一个灰色操作台面、一个黑色吧台凳、一台放在平板支架上的平板电脑，以及一株种在花盆里的番茄植株。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/1e/2b/1e2b7b942231c6532f24b2554e890aae.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "一个打开的厨房抽屉中放着一个餐具盘，盘内井井有条地摆放着一些刀叉和厨用器具，厨房里还有一块条纹地毯和一碗酸奶。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ae/74/ae7456f3a2a531efaddd8dd8e52b3d69.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "一个炭黑色高搁架单元、两个灰色高柜、一张木制圆桌、几把黑色椅子和一盏黑色吊灯。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/5c/d6/5cd6a523bbae8f35388b3b64cb9f0ba0.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "一把升降吧台凳，比如DALFRED 达夫利，可以确保你的厨房小角落尽可能得舒适。",
+     "image": "https://file.app.ikea.cn/images/1e/2b/1e2b7b942231c6532f24b2554e890aae.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "凌乱的抽屉可一点都不好玩，尤其是当你饿着肚子还要找勺子的时候。一个餐具盘可以令每一件器具都各就其位！",
+     "image": "https://file.app.ikea.cn/images/ae/74/ae7456f3a2a531efaddd8dd8e52b3d69.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "利用开放式与封闭式结合的储物装置，你可以选择将物品展示出来还是藏起来（也许是你的旧面包机？）。",
+     "image": "https://file.app.ikea.cn/images/5c/d6/5cd6a523bbae8f35388b3b64cb9f0ba0.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -118,6 +207,50 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "TILLREDA 提瑞达",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/tillreda-ti-rui-da-wei-bo-lu-bai-se__0912596_pe783444_s4.jpg",
+     "href": "/cn/zh/p/tillreda-ti-rui-da-wei-bo-lu-bai-se-40493364/"
+    },
+    {
+     "title": "ENERYDA 艾纳丽",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/eneryda-ai-na-li-yuan-ba-shou-du-ge__0754159_pe747801_s4.jpg",
+     "href": "/cn/zh/p/eneryda-ai-na-li-yuan-ba-shou-du-ge-70347535/"
+    },
+    {
+     "title": "ENHET 安纳特",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/enhet-an-na-te-gao-kuang-dai-ge-ban-mei-hei-se__0805524_pe769583_s4.jpg",
+     "href": "/cn/zh/p/enhet-an-na-te-gao-kuang-dai-ge-ban-mei-hei-se-10481616/"
+    },
+    {
+     "title": "DALFRED 达夫利",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/dalfred-da-fu-li-ba-tai-deng-hei-se__0727486_pe735711_s4.jpg",
+     "href": "/cn/zh/p/dalfred-da-fu-li-ba-tai-deng-hei-se-40161595/"
+    },
+    {
+     "title": "ADDE 阿德",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/adde-a-de-yi-zi-hei-se__0728277_pe736167_s4.jpg",
+     "href": "/cn/zh/p/adde-a-de-yi-zi-hei-se-70214286/"
+    },
+    {
+     "title": "SKURUP 斯库鲁",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/skurup-si-ku-lu-3-tou-xi-ding-deng-gui-hei-se__0751053_pe746892_s4.jpg",
+     "href": "/cn/zh/p/skurup-si-ku-lu-3-tou-xi-ding-deng-gui-hei-se-90395926/"
+    },
+    {
+     "title": "SKURUP 斯库鲁",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/skurup-si-ku-lu-diao-deng-hei-se__0604110_pe681110_s4.jpg",
+     "href": "/cn/zh/p/skurup-si-ku-lu-diao-deng-hei-se-30407116/"
+    }
+   ],
    "settings": null
   }
  ]

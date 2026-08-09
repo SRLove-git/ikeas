@@ -11,7 +11,7 @@
    "title": "一室馨香",
    "texts": [
     "使用宜家 FRISKHET 福里希 香薰容器，可以让房间中弥漫着檀香、雪松和香草的气息，令空气更加清新。你也可以选择宜家 FRISKHET 福里希 香味烛和玻璃杯，感受蓬松毛巾和檀香/香草的宜人香气。",
-    "<p>用我们的新款香薰产品，为家增添宜人香气！</p>\n<p>FRISKHET 福里希 香味烛和香薰容器可以让家中充满松软毛巾和檀香/香草的宜人香气，令空气更加清新。</p>",
+    "用我们的新款香薰产品，为家增添宜人香气！ FRISKHET 福里希 香味烛和香薰容器可以让家中充满松软毛巾和檀香/香草的宜人香气，令空气更加清新。",
     "一室馨香",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "一室馨香",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/9c/0d/9c0dcfbebce594aa89c0d9529e17da86.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -43,16 +53,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "使用宜家 FRISKHET 福里希 香味烛和玻璃杯，可以闻到蓬松毛巾和檀香/香草的宜人香气，让空气更加清新。蜡烛以精美礼盒包装，非常适合作为礼物送给他人。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/24/96/249602ddafc7e1dd407434dd4c417595.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>香味烛和玻璃杯以漂亮的盒子包装，非常适合作为礼物。</p>"
+    "香味烛和玻璃杯以漂亮的盒子包装，非常适合作为礼物。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -73,16 +95,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "使用宜家 NJUTNING 尼特宁 香味烛和带盖玻璃杯，在家中营造水疗氛围。有温暖和谐的薰衣草、蜂蜜和木质芳香款，以及散发着佛手柑气味、加了热牛奶的茶的辛香款可选。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ec/cb/eccbfaa3a8a43e2f73ef3f4899e9c8dd.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>使用 NJUTNIN 尼特宁 阔形蜡烛和带盖蜡烛玻璃杯系列在家中营造水疗氛围，享受舒悦感官体验。</p>"
+    "使用 NJUTNIN 尼特宁 阔形蜡烛和带盖蜡烛玻璃杯系列在家中营造水疗氛围，享受舒悦感官体验。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -97,6 +131,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

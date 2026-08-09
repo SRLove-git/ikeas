@@ -23,6 +23,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "品质厨房，厨艺大展",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/bc/f7/bcf7fdde50e803869eebb36853e6e664.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -38,6 +48,26 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "ENERYDA 艾纳丽",
+     "text": "¥30",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/eneryda-ai-na-li-ba-shou-huang-tong-se__0754249_pe747841_s4.jpg",
+     "href": "/cn/zh/p/eneryda-ai-na-li-ba-shou-huang-tong-se-80347525/"
+    },
+    {
+     "title": "KUNGSFORS 康福斯",
+     "text": "¥69.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kungsfors-kang-fu-si-sheng-ju-bu-xiu-gang__0713276_pe729384_s4.jpg",
+     "href": "/cn/zh/p/kungsfors-kang-fu-si-sheng-ju-bu-xiu-gang-30334926/"
+    },
+    {
+     "title": "KUNGSFORS 康福斯",
+     "text": "¥34.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kungsfors-kang-fu-si-gua-gan-bu-xiu-gang__0712553_pe728909_s4.jpg",
+     "href": "/cn/zh/p/kungsfors-kang-fu-si-gua-gan-bu-xiu-gang-70334934/"
+    }
+   ],
    "settings": null
   }
  ]

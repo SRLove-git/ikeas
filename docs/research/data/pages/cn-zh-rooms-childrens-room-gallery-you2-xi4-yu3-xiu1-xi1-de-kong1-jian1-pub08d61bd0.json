@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -34,16 +36,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "儿童房里摆放着白色婴儿床、黄色地毯、白色衣柜、绿色儿童小推车和蝴蝶造型壁灯。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ab/fd/abfd8caf3c2662fdf4fab4d1b2e8f5dd.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>舒适的小睡和一夜好眠能够让孩子精力充沛地玩乐！STUVA 斯多瓦/FRITIDS 福利蒂德斯 婴儿床舒适实用，抽屉非常适合收纳玩具。</p>"
+    "舒适的小睡和一夜好眠能够让孩子精力充沛地玩乐！STUVA 斯多瓦/FRITIDS 福利蒂德斯 婴儿床舒适实用，抽屉非常适合收纳玩具。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -76,6 +90,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "白色婴儿床和彩色带图案床上用品、蝴蝶造型壁灯、黄色地毯和壁式储物装置中的玩具。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/17/9a/179acde0d8594322c93ec28a8848fa26.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "床架抽屉大开，里面摆放着玩具，此外还有黄色地毯、彩色被套和白色/黄色床单。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a7/8a/a78abc783fb4cc4f846c8d3adc4b254b.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "游戏角里摆放着绿色儿童小推车、带轮储物家具、黄色地毯、书、玩具和有彩色拉钮的架子。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/17/55/175570bfeb2fd8e1eacbae667974d378.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "多彩又舒适：RÖRANDE 略朗德 床上用品组采用100%可持续种植棉花制成，越洗越柔软。",
+     "image": "https://file.app.ikea.cn/images/17/9a/179acde0d8594322c93ec28a8848fa26.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "RASSLA 拉斯拉 带格储物盒有助于区分收纳较大的抽屉里的玩具。",
+     "image": "https://file.app.ikea.cn/images/a7/8a/a78abc783fb4cc4f846c8d3adc4b254b.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "玩具可以移动！MULA 姆拉 儿童小推车有两种安装方式（垂直安装适合初学者使用！）。",
+     "image": "https://file.app.ikea.cn/images/17/55/175570bfeb2fd8e1eacbae667974d378.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -108,6 +166,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "白色 TROFAST 舒法特 架子、不同大小的绿色和白色储物盒、绿色儿童游戏垫、两幅画和黄色地毯。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d8/38/d8384bf08c5820290795d140fb129c80.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "FLISAT 福丽萨特 玩具储物产品采用松木制成，带有脚轮和绿色把手，里面放着图书。边上有一张白色婴儿床。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/51/86/5186b3515938dec94ed8e0fadfb64042.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "STUVA 斯多瓦/FRITIDS 福利蒂德斯 衣柜里摆放着衣物。一个带拉钮壁架边上摆放着 FLISAT 福丽萨特 玩具储物产品。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/11/22/112284df2dac80f377227050337cd65e.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "结实的 TROFAST 舒法特 储物盒有不同尺寸和颜色，可以为玩具储物解决方案注入个性色彩。",
+     "image": "https://file.app.ikea.cn/images/d8/38/d8384bf08c5820290795d140fb129c80.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "FLISAT 福丽萨特 玩具储物产品带有脚轮，可以将书、玩具和其他物品推到家中任意角落。",
+     "image": "https://file.app.ikea.cn/images/51/86/5186b3515938dec94ed8e0fadfb64042.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "自己做事很有趣！STUVA 斯多瓦/FRITIDS 福利蒂德斯 衣柜可以让三岁宝宝自己拿衣服（至少大多数三岁宝宝可以！）。",
+     "image": "https://file.app.ikea.cn/images/11/22/112284df2dac80f377227050337cd65e.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -123,6 +225,14 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "FLISAT 福丽萨特",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/flisat-fu-li-sa-te-bi-shi-chu-wu-zhuang-zhi-bai-qi-song-mu__0642799_pe701440_s4.jpg",
+     "href": "/cn/zh/p/flisat-fu-li-sa-te-bi-shi-chu-wu-zhuang-zhi-bai-qi-song-mu-10299820/"
+    }
+   ],
    "settings": null
   }
  ]

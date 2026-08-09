@@ -11,7 +11,7 @@
    "title": "专为时尚人士设计的开放式衣柜",
    "texts": [
     "开放式衣柜包含挂衣架、开放式搁板和展示柜，里面放满衣物和储物盒。",
-    "<p>如果你更想把钱花在衣服上，而不是衣物储物装置上，此款衣柜可能会是你的理想之选。观看视频，了解如何设计自己的衣柜。</p>",
+    "如果你更想把钱花在衣服上，而不是衣物储物装置上，此款衣柜可能会是你的理想之选。观看视频，了解如何设计自己的衣柜。",
     "专为时尚人士设计的开放式衣柜",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "专为时尚人士设计的开放式衣柜",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/01/b3/01b34cd3b1b4c418fa6cd5b99138ab16.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -40,16 +50,20 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>制作人</strong></p>\n<p>室内设计师：Christina Breeze/Martina Andersson<br />摄影师：Sandra Werud</p>"
+    "制作人 室内设计师：Christina Breeze/Martina Andersson 摄影师：Sandra Werud"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

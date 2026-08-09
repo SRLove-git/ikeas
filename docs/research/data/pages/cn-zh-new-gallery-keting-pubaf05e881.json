@@ -11,7 +11,7 @@
    "title": "蜷卧在舒适的沙发中",
    "texts": [
     "明亮的客厅内摆放着一把宽敞的单人沙发，上面有一个蓬松的靠垫，米色的垫套为棉/亚麻混纺材质。",
-    "<p>我们新推出的 F&Auml;RL&Ouml;V 法乐福 座椅系列外观传统，非常舒适。</p>\n<p>F&Auml;RL&Ouml;V 法乐福 单人沙发和脚凳兼具优雅和休闲的气质，覆有米色垫套，让你可以在上面轻松躺卧数小时。</p>",
+    "我们新推出的 FäRLöV 法乐福 座椅系列外观传统，非常舒适。 FäRLöV 法乐福 单人沙发和脚凳兼具优雅和休闲的气质，覆有米色垫套，让你可以在上面轻松躺卧数小时。",
     "蜷卧在舒适的沙发中",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "蜷卧在舒适的沙发中",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/4a/34/4a3432ece309200e06428d3be4896fb5.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,6 +54,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "明亮的客厅内摆放着一个脚凳，采用米色垫套，内含隐藏式储物空间，可用来存放多余的靠垫和毯子。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/3c/d5/3cd583962a26c1f5faf20b7e7e892312.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -59,6 +79,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

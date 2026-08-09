@@ -11,7 +11,7 @@
    "title": "激发无限乐趣的小厨房",
    "texts": [
     "SPISIG 斯皮西格 白色玩具厨房，一侧是黑板，另一侧是厨房，中间由蓝白挂帘分隔开来。",
-    "<p>我们全新的 SPISIG 斯皮西格 玩具厨房的一侧是厨房，另一侧是黑板，玩趣十足。玩过家家时可以充当餐厅、商店或木偶戏台。</p>",
+    "我们全新的 SPISIG 斯皮西格 玩具厨房的一侧是厨房，另一侧是黑板，玩趣十足。玩过家家时可以充当餐厅、商店或木偶戏台。",
     "激发无限乐趣的小厨房",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "激发无限乐趣的小厨房",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/0a/36/0a369a1615b0bfb464325b94295c7608.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -51,6 +61,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "特写：带挂帘的 SPISIG 斯皮西格 白色玩具厨房配有灰色水槽和厨房水龙头。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/c9/2b/c92b50e8a89f621a7a13574af4984de4.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "特写：DUKTIG 杜克迪 披萨24件套中的许多玩具组件，如土豆、鱼和洋葱。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/eb/99/eb997b1c6b2fb53d4c150c1217d43bd2.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "丰富的小细节让角色扮演更加有趣，比如 SPISIG 斯皮西格 玩具厨房里的灰色水槽和厨房混合型水龙头。",
+     "image": "https://file.app.ikea.cn/images/c9/2b/c92b50e8a89f621a7a13574af4984de4.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "DUKTIG 杜克迪 披萨24件套对于喜爱扮演披萨大厨的孩子们来说可谓是理想之选，他们可以利用无限变换的披萨配料随心制作出多种多样的披萨。",
+     "image": "https://file.app.ikea.cn/images/eb/99/eb997b1c6b2fb53d4c150c1217d43bd2.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   }
  ]

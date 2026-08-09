@@ -11,7 +11,7 @@
    "title": "设计师的秘诀：用花瓶装饰",
    "texts": [
     "一位女士在给花瓶中的花浇水。",
-    "<p>需要一些新鲜（但是简单）的装饰创意吗？你很幸运，因为我们的设计师们刚好有着数不胜数的好点子。Majken Fokdal Persson将向我们展示，如何使用花瓶来打造简单的静物陈设。</p>",
+    "需要一些新鲜（但是简单）的装饰创意吗？你很幸运，因为我们的设计师们刚好有着数不胜数的好点子。Majken Fokdal Persson将向我们展示，如何使用花瓶来打造简单的静物陈设。",
     "设计师的秘诀：用花瓶装饰",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "设计师的秘诀：用花瓶装饰",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/c9/fa/c9fa41492a791b259ae34fbd9a2c010e.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -40,6 +50,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -51,26 +63,32 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>我们乐意看到顾客运用我们的产品发挥创意。尽情发挥吧！但是请注意，经过微调或改造的宜家产品将丧失其原有功能，或无法进行二次销售，因此，你将不再享有宜家的商业保证及退货权利。</p>"
+    "我们乐意看到顾客运用我们的产品发挥创意。尽情发挥吧！但是请注意，经过微调或改造的宜家产品将丧失其原有功能，或无法进行二次销售，因此，你将不再享有宜家的商业保证及退货权利。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>制作人</strong></p>\n<p>室内设计师：Majken Fokdal Persson<br />数字设计师：Annie Svensson<br />文案编辑：Vanessa Algotsson<br />摄影师：Kristian Krebs<br />编辑：Linda Harkell</p>"
+    "制作人 室内设计师：Majken Fokdal Persson 数字设计师：Annie Svensson 文案编辑：Vanessa Algotsson 摄影师：Kristian Krebs 编辑：Linda Harkell"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

@@ -11,7 +11,7 @@
    "title": "如何打造经典的玫瑰花园客厅",
    "texts": [
     "客厅里摆放着的沙发、扶手椅、脚凳和靠垫均点缀抢眼的花卉图案，墙上铺着同样风格大胆的花卉图案墙纸。",
-    "<p>把客厅变成浪漫的花田，一年四季，随时都能在家里欣赏花卉的迷人魅力。</p>",
+    "把客厅变成浪漫的花田，一年四季，随时都能在家里欣赏花卉的迷人魅力。",
     "如何打造经典的玫瑰花园客厅",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "如何打造经典的玫瑰花园客厅",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a9/95/a9950527618ec7b75a4b877f0e839d9c.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -46,6 +56,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "在一间贴着大胆花卉图案墙纸和粉色窗框装饰的房间里，有一张沙发，套着花卉图案的垫套，并摆放着深粉色的靠垫。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/78e0b3eac4fccd74/original/PH155958-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -68,6 +88,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "在一张粉色地毯上，摆放着粉色和白色的花朵与花瓣，旁边有一个托盘和茶壶。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/393e9075009e1249/original/PH155955-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -90,6 +120,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一张浅色INGABRITTA 因阿布里塔 休闲毯放在花卉图案的沙发边上，旁边有一张脚凳，上面放着一本打开的书。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/51c8f2fa8f93494a/original/PH155956-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -112,16 +152,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "红色边桌上有几个GRADVIS 格拉维斯 花瓶，后面是风格大胆的花卉墙纸。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/3ec22cf37ca42a74/original/PH155957-crop002.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>宜家期待看到顾客发挥自己的创意。放手去做！但请注意，更改或调整宜家产品，使其不能再次出售或用于原用途，即意味放弃宜家商业品质保证和你的退货权利。</p>"
+    "宜家期待看到顾客发挥自己的创意。放手去做！但请注意，更改或调整宜家产品，使其不能再次出售或用于原用途，即意味放弃宜家商业品质保证和你的退货权利。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

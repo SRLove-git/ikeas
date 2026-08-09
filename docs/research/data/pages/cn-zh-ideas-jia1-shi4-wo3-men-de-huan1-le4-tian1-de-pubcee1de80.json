@@ -11,7 +11,7 @@
    "title": "家是我们的欢乐天地",
    "texts": [
     "在紧凑的家里，一家人正在玩LILLABO 利乐宝 玩具火车。房间里有一张床、沙发、桌子、小厨房和储物单元。",
-    "<p>世界很大，生活很忙碌，对每一个人而言，一个舒适、温馨的家很重要，尤其是对于有小孩的家庭来说。你的家很小？或是很宽敞？这都不重要。运用一点巧思（和团队精神！），你总能找到办法与家人享受亲子时光，营造私密空间，为家庭生活增添欢乐。方法如下。</p>",
+    "世界很大，生活很忙碌，对每一个人而言，一个舒适、温馨的家很重要，尤其是对于有小孩的家庭来说。你的家很小？或是很宽敞？这都不重要。运用一点巧思（和团队精神！），你总能找到办法与家人享受亲子时光，营造私密空间，为家庭生活增添欢乐。方法如下。",
     "家是我们的欢乐天地",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "家是我们的欢乐天地",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/53/d2/53d2c6139ad50691015e9085e602852c.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,16 +54,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "在一个充满玩具、储物和墙上挂放着图画的房间，两个小孩在玩耍，其中一个在PLUFSIG 普鲁希 健身垫上做着体操动作。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b6/f1/b6f1bab1ef5f4057d6b4d9eb91450a12.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>开心玩耍一下</h2>\n<p>玩耍不仅是小孩在家度过快乐午后时光的最佳方式，而且对孩子不同方面的成长有着重要作用。不过，如果你不想家里看起来像一个24小时全天不停的狂欢节现场，那么这些简便的一站式方案是你的好帮手。</p>"
+    "开心玩耍一下 玩耍不仅是小孩在家度过快乐午后时光的最佳方式，而且对孩子不同方面的成长有着重要作用。不过，如果你不想家里看起来像一个24小时全天不停的狂欢节现场，那么这些简便的一站式方案是你的好帮手。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -74,16 +96,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "在全墙宽的IVAR 伊娃 储物单元一端是由折叠桌形成的办公区，上面铺满了彩色纸。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/9f/79/9f793c763328f24d73e6ba1cf119f73e.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>将带脚轮的抽屉移到一边，拉下桌子，为孩子们营造一个创意角，玩完后，轻松折叠收纳即可。</p>"
+    "将带脚轮的抽屉移到一边，拉下桌子，为孩子们营造一个创意角，玩完后，轻松折叠收纳即可。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -116,16 +150,62 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "一个成年男人和一个小男孩坐在桌子两边，微笑地看着对方，桌子上放着一台LUSTIGT 卢斯蒂格 织布机。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e5/45/e5459c245785c4bc92d6e71beb684f79.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "黑色RÅSKOG 拉斯克 推车上装满了手工艺术配件，旁边的桌面上铺满了彩色的纸张。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/89/a7/89a73ec9e9981d6906003de3c5731164.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "抽屉柜的顶部抽屉敞开着，露出了里面用KOMPLEMENT 康普蒙 储物盒收纳的纸张和美术用具。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/58/57/5857352fe148adb2fb3b50fa8ac68f6b.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "别忘了，游戏的乐趣是不分年龄的！不妨让大人也加入，找一些全家人都适合的游戏，一起做有趣的活动。",
+     "image": "https://file.app.ikea.cn/images/e5/45/e5459c245785c4bc92d6e71beb684f79.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "准备吃晚餐了！准备吃晚餐了，是时候清理餐桌。这辆手推车已随时待命，将孩子越来越多的折纸动物整齐收纳。",
+     "image": "https://file.app.ikea.cn/images/89/a7/89a73ec9e9981d6906003de3c5731164.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "放在客厅或餐厅（或任何其它空间！）的专用抽屉，整齐收纳全家人的手工艺品和游戏，又近在手边。",
+     "image": "https://file.app.ikea.cn/images/58/57/5857352fe148adb2fb3b50fa8ac68f6b.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>厨房的亲子时光</h2>\n<p>当然，与孩子一起做晚餐（和之后收拾打扫）要花较多时间，但在这个过程中，你们可以增进感情，提升他们的动作技能，同时让他们学习生活知识。如果你的小孩口味挑剔，让他们帮忙决定晚餐菜式，能让他们吃饭时更积极。不妨试一试这个办法！</p>"
+    "厨房的亲子时光 当然，与孩子一起做晚餐（和之后收拾打扫）要花较多时间，但在这个过程中，你们可以增进感情，提升他们的动作技能，同时让他们学习生活知识。如果你的小孩口味挑剔，让他们帮忙决定晚餐菜式，能让他们吃饭时更积极。不妨试一试这个办法！"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -153,16 +233,49 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "一个女孩跪在BEKVÄM 贝卡姆 踏脚凳上，正在深色的厨房台面上玩着玩具动物。一个女人站在旁边。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/8d/ec/8dec446db8fb82b0ce9daae9ccc723c4.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "一个女孩用SMÅBIT 斯莫比 刀在黑色的厨房台面上切杏仁，帮妈妈一起煮鲑鱼。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/76/05/7605a5166e44f130e4d1148aabbf58d5.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "在厨房添置一张踏脚凳，既方便小孩够到更高的抽屉，又能让你在工作台面工作时更舒适。",
+     "image": "https://file.app.ikea.cn/images/8d/ec/8dec446db8fb82b0ce9daae9ccc723c4.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "宜家的SMåBIT 斯莫比 刀和刨刀 适合8岁以上的小厨师使用，它们的大小和形状适合小手操作，避免小孩受伤。",
+     "image": "https://file.app.ikea.cn/images/76/05/7605a5166e44f130e4d1148aabbf58d5.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>既有私人空间，也有共享空间</h2>\n<p>和家人一起生活，处理好共享和私人空间的分配很重要。但是，现在人们的家居空间越来越小，如何能让有限的空间，同时满足这两种需求？看看下面这间共用卧室，高架床的上层是&ldquo;儿童专用&rdquo;空间，下层则是一个休闲角落，妈妈和儿子可以在这里享受亲子时光。</p>"
+    "既有私人空间，也有共享空间 和家人一起生活，处理好共享和私人空间的分配很重要。但是，现在人们的家居空间越来越小，如何能让有限的空间，同时满足这两种需求？看看下面这间共用卧室，高架床的上层是“儿童专用”空间，下层则是一个休闲角落，妈妈和儿子可以在这里享受亲子时光。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -190,16 +303,49 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "在儿童房里，一个女人和一个男孩正坐在白色VITVAL 维特瓦尔 高架床下层一个舒适的角落里。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/1d/f8/1df8a90db640329b415fcdc204db84b8.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "GRACIÖS 格拉希思 床上用品的丰富图案点缀着高架床一角，搭配挂帘、灯光和床头洞洞板，温馨舒适。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/51/db/51db570c7dc44285301387be221c09c8.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/1d/f8/1df8a90db640329b415fcdc204db84b8.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/51/db/51db570c7dc44285301387be221c09c8.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>从小孩的角度看世界</h2>\n<p>你还记得小时候的自己吗？你还记得童年的生活吗？你是否还记得，那时候的一切（包括大人）在你眼中是那么的大？多问孩子的意见，从他们的角度来看问题，可以打造一个他们更喜爱的家。当然，别忘记多与他们拥抱一下！</p>"
+    "从小孩的角度看世界 你还记得小时候的自己吗？你还记得童年的生活吗？你是否还记得，那时候的一切（包括大人）在你眼中是那么的大？多问孩子的意见，从他们的角度来看问题，可以打造一个他们更喜爱的家。当然，别忘记多与他们拥抱一下！"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -227,6 +373,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "在儿童房里有一张SUNDVIK 桑维 可加长型儿童床和毛绒玩具，天花板涂有发散的条纹图案，如同杂技团的帐蓬顶。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d9/db/d9db7b724444e14243efb0fe97a4482a.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "一个小女孩高兴地躺在POÄNG 波昂 儿童扶手椅上，怀里是她的毛绒玩具，旁边是一张正常尺寸的扶手椅。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/45/70/457091cdb3af63888dc11e707c691a9e.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/d9/db/d9db7b724444e14243efb0fe97a4482a.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/45/70/457091cdb3af63888dc11e707c691a9e.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -247,6 +424,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

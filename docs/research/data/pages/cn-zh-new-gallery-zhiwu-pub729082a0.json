@@ -8,10 +8,10 @@
  "blocks": [
   {
    "type": "pub-hero",
-   "title": "把自然气息带回家 ",
+   "title": "把自然气息带回家",
    "texts": [
     "一组形状和大小各异的陶瓷仙人掌，一起展示的还有新鲜的绿色植物。",
-    "<p>用装饰品和花瓶把家装点得焕然一新，准备迎接春天的到来！</p>\n<p>用 SJ&Auml;LSLIGT 梵思吉 陶瓷仙人掌3件套装饰品为家增添绿意，又不失趣味，而且无需浇水。</p>",
+    "用装饰品和花瓶把家装点得焕然一新，准备迎接春天的到来！ 用 SJäLSLIGT 梵思吉 陶瓷仙人掌3件套装饰品为家增添绿意，又不失趣味，而且无需浇水。",
     "把自然气息带回家",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "把自然气息带回家 ",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/07/88/078827360b9a981c45bdea95958229a9.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,16 +54,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "方形石头上放着一只吹制玻璃碗，碗中漂浮着嫩芽。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/0f/7e/0f7ef437c367e9a7e241282c063d0452.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>BERÄKNA 比莱纳 碗采用吹制玻璃制成，盛水后让嫩芽漂浮其上，给家带来几分诗意。</p>"
+    "BERÄKNA 比莱纳 碗采用吹制玻璃制成，盛水后让嫩芽漂浮其上，给家带来几分诗意。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -74,16 +96,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "采用吹制透明玻璃制成的落地花瓶中插着干花。 ",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/35/22/3522ea77ccd5df168cb0aa7c0f7b7306.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>BERÄKNA 比莱纳 落地花瓶采用透明玻璃制成，长长的瓶身可为家增添几分诗意。</p>"
+    "BERÄKNA 比莱纳 落地花瓶采用透明玻璃制成，长长的瓶身可为家增添几分诗意。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -96,6 +130,14 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "BERÄKNA 比莱纳",
+     "text": "¥39.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/beraekna-bi-lai-na-sheng-ju-tou-ming-bo-li__0490840_pe624720_s4.jpg",
+     "href": "/cn/zh/p/beraekna-bi-lai-na-sheng-ju-tou-ming-bo-li-80329041/"
+    }
+   ],
    "settings": null
   }
  ]

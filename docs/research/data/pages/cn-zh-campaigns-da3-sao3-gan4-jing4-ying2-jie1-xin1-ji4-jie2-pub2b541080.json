@@ -14,16 +14,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>大扫除！整理家里的物品，同时也整理一年的心情，清扫干净犄角旮旯里的灰尘。当然好的装备会让你事半功倍，宜家清洁神器助你搞定家中卫生死角！</p>"
+    "大扫除！整理家里的物品，同时也整理一年的心情，清扫干净犄角旮旯里的灰尘。当然好的装备会让你事半功倍，宜家清洁神器助你搞定家中卫生死角！"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -49,26 +53,61 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b2/9e/b29ee82083c6a06fc59c7c361152b0e4.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/36/5c/365c9a846a60be6b0c499b90587de3aa.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/b2/9e/b29ee82083c6a06fc59c7c361152b0e4.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/36/5c/365c9a846a60be6b0c499b90587de3aa.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>表面污渍，一擦即净</h2>"
+    "表面污渍，一擦即净"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>家居生活中免不了要和各种&ldquo;脏东西&rdquo;打交道，家具表面的灰尘、碗盘上的油污、角落里的顽渍&hellip;&hellip;针对不同污渍，选择针对性的工具，一刷一擦，轻松解决，有了合适的装备，人人都爱抢着做家务。</p>"
+    "家居生活中免不了要和各种“脏东西”打交道，家具表面的灰尘、碗盘上的油污、角落里的顽渍……针对不同污渍，选择针对性的工具，一刷一擦，轻松解决，有了合适的装备，人人都爱抢着做家务。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -104,6 +143,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a3/fc/a3fce8019e2e237cf17bcf99cacffbeb.jpg",
+     "href": "/cn/zh/p/50482440?artType=ART",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b6/d0/b6d0b6727fad268f10c4e6ee93c2b7a6.jpg",
+     "href": "/cn/zh/p/50482440?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/a3/fc/a3fce8019e2e237cf17bcf99cacffbeb.jpg",
+     "href": "/cn/zh/p/50482440?artType=ART"
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/b6/d0/b6d0b6727fad268f10c4e6ee93c2b7a6.jpg",
+     "href": "/cn/zh/p/50482440?artType=ART"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -148,6 +218,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "PEPPRIG 佩普里格 百洁布",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a7/a1/a7a154817cdb6035df87076855cd7af1.jpg",
+     "href": "/cn/zh/p/90482443?artType=ART",
+     "backgroundColor": "#4ca39a"
+    },
+    {
+     "title": "PEPPRIG 佩普里格 带柄洗刷球",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ab/53/ab536263a4c6cb180fe227294f838298.jpg",
+     "href": "/cn/zh/p/90482438?artType=ART",
+     "backgroundColor": "#c87265"
+    },
+    {
+     "title": "PEPPRIG 佩普里格 硬毛刷，2件套",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a2/47/a2476024b6df43257b1e7b59e5aae886.jpg",
+     "href": "/cn/zh/p/90491027?artType=ART",
+     "backgroundColor": "#093037"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -163,26 +257,31 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>除旧迎新，地面清洁要重视</h2>"
+    "除旧迎新，地面清洁要重视"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>基本的打扫工作是从地面开始的，除旧迎新扫去灰尘，也把过往一年不顺心的事儿也一并扫去。而有了宜家全新PEPPRIG 佩普里格 系列的加持，省去了手洗拖把的麻烦，解放了双手，让地面清洁省力省心。</p>"
+    "基本的打扫工作是从地面开始的，除旧迎新扫去灰尘，也把过往一年不顺心的事儿也一并扫去。而有了宜家全新PEPPRIG 佩普里格 系列的加持，省去了手洗拖把的麻烦，解放了双手，让地面清洁省力省心。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -218,6 +317,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/8e/8e/8e8eecc6c53cf7f8470eb2fe9aeeb7ab.jpg",
+     "href": "/cn/zh/p/40481870?artType=ART",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/63/aa/63aa1a1a50feab018f41becf5e9e0b2a.jpg",
+     "href": "/cn/zh/p/40481870?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/8e/8e/8e8eecc6c53cf7f8470eb2fe9aeeb7ab.jpg",
+     "href": "/cn/zh/p/40481870?artType=ART"
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/63/aa/63aa1a1a50feab018f41becf5e9e0b2a.jpg",
+     "href": "/cn/zh/p/40481870?artType=ART"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -232,26 +362,31 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>晾洗衣物，清清爽爽</h2>"
+    "晾洗衣物，清清爽爽"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>衣服洗得干干净净，人也更加神清气爽。我们为你特别准备了一批高颜值且方便实用的晾洗好帮手， 助你以明快欢乐的心情轻松渡过每一天，而且价格也很实惠。另外，这些商品还是用符合宜家可持续理念的塑料制成的，守护地球，人人有责！</p>"
+    "衣服洗得干干净净，人也更加神清气爽。我们为你特别准备了一批高颜值且方便实用的晾洗好帮手， 助你以明快欢乐的心情轻松渡过每一天，而且价格也很实惠。另外，这些商品还是用符合宜家可持续理念的塑料制成的，守护地球，人人有责！"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -287,6 +422,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/82/d9/82d90c172d499ee1346ae3db26c3b959.jpg",
+     "href": "/cn/zh/p/20477100?artType=ART",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/30/2a/302aa7919b52c4613fef7fad2a190f05.jpg",
+     "href": "/cn/zh/p/20477100?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/82/d9/82d90c172d499ee1346ae3db26c3b959.jpg",
+     "href": "/cn/zh/p/20477100?artType=ART"
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/30/2a/302aa7919b52c4613fef7fad2a190f05.jpg",
+     "href": "/cn/zh/p/20477100?artType=ART"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -331,6 +497,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "SLIBB 斯利波 八齿袜夹",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d7/c6/d7c66c151809c942eef7bc7fbf659840.jpg",
+     "href": "/cn/zh/p/60480761?artType=ART",
+     "backgroundColor": "#3e7176"
+    },
+    {
+     "title": "SLIBB 斯利波 带挂绳晾衣夹",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/56/4a/564a191e7b0200c4c5f960c620e44755.jpg",
+     "href": "/cn/zh/p/80480760?artType=ART",
+     "backgroundColor": "#dba49f"
+    },
+    {
+     "title": "HÅRDNACKAD 霍德纳卡德 落地式晾衣架",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/34/52/345206e2b43c4cdd43b002605fc173d3.jpg",
+     "href": "/cn/zh/p/10441116?artType=ART",
+     "backgroundColor": "#616362"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -346,26 +536,38 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "MULIG 穆利格",
+     "text": "¥149",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mulig-mu-li-ge-liang-yi-jia-shi-nei-hu-wai-bai-se__0710880_pe727820_s4.jpg",
+     "href": "/cn/zh/p/mulig-mu-li-ge-liang-yi-jia-shi-nei-hu-wai-bai-se-30228756/"
+    }
+   ],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>成套装备，实现家务自由</h2>"
+    "成套装备，实现家务自由"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>一键换头，灵活好用，轻松上手；针对特定的空间，选用合适的清洁头，专业的清洁方式可以大大节省你的时间，实现家务自由。北欧现代风格、流畅简约线条、搭配清爽颜色，整套的设计统一，让清洁用品也能充满美感，毫不违和地融入现代家居生活中。</p>"
+    "一键换头，灵活好用，轻松上手；针对特定的空间，选用合适的清洁头，专业的清洁方式可以大大节省你的时间，实现家务自由。北欧现代风格、流畅简约线条、搭配清爽颜色，整套的设计统一，让清洁用品也能充满美感，毫不违和地融入现代家居生活中。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -384,6 +586,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/1d/4f/1d4f122a6a842ae7472ac394a6540d85.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -399,6 +611,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

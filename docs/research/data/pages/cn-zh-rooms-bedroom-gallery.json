@@ -10,10 +10,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p style=\"line-height: 8px;\">&nbsp;</p>\n<h1 style=\"line-height: 8px;\">探索卧室灵感</h1>\n<p style=\"line-height: 24px;\">想要寻找优秀的卧室设计？查看我们的灵感图库，了解卧室创意、家具建议、柔软的床上用品和更多适合你的空间和预算的实用设计。</p>"
+    "探索卧室灵感 想要寻找优秀的卧室设计？查看我们的灵感图库，了解卧室创意、家具建议、柔软的床上用品和更多适合你的空间和预算的实用设计。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -25,7 +27,7 @@
     "IMAGE",
     "portrait",
     "image-text-portrait",
-    "<p style=\"line-height: 24px;\">看起来也许像高级酒店，但其实是家。色彩协调统一的家具是营造这种宁静氛围的关键。每天晚上回到这间卧室，就像开始一次短暂的休假，让你尽情放松身心。</p>",
+    "看起来也许像高级酒店，但其实是家。色彩协调统一的家具是营造这种宁静氛围的关键。每天晚上回到这间卧室，就像开始一次短暂的休假，让你尽情放松身心。",
     "用深木色调营造宁静氛围",
     "/rooms/bedroom/gallery/tidy-bedroom-ideas-in-dark-wood-and-a-light-sense-pub804cf2e0"
    ],
@@ -51,6 +53,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20251117/a872bc7a74c84e43a4994d360ab07af8.jpg",
+     "href": null,
+     "backgroundColor": "#FFFFFF"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Banner-当季展间1"
    }
@@ -99,6 +111,51 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "在卧室打造舒适的自然乐园",
+     "text": "如果你有喜欢的颜色，尤其是一种象征着希望和生机的颜色，何不用作整个房间的主题？点击此处，开启绿色梦居！",
+     "image": "https://file.app.ikea.cn/cms/u/20250422/6a9b1b6ba47c496ba0bf9276e176eab5.webp",
+     "href": "/cn/zh/rooms/bedroom/gallery/make-your-bedroom-a-natural-and-personal-oasis-pubc65198fc",
+     "backgroundColor": null
+    },
+    {
+     "title": "一个让青少年自由快乐的房间",
+     "text": "不同储物解决方案确保了这个房间的整洁环境，为青少年提供了展示兴趣爱好和个性风格的空间。来探索精彩创意吧！",
+     "image": "https://file.app.ikea.cn/cms/u/20250422/b7f0807712c44b6c9ac40ef9f5d8101c.webp",
+     "href": "/cn/zh/rooms/bedroom/gallery/a-teenagers-room-is-a-world-of-its-own-pubefb9da64",
+     "backgroundColor": null
+    },
+    {
+     "title": "传统家居风格从梦想变为现实 ",
+     "text": "在这间私密温馨的卧室里，美好的旧日梦想与现代生活邂逅，传达出对家居生活的热爱。来感受创意和手工的碰撞吧！",
+     "image": "https://file.app.ikea.cn/cms/u/20250422/3a72e7f6408d458cbd3b269a3aa45fbc.webp",
+     "href": "/cn/zh/rooms/bedroom/gallery/a-first-home-that-can-last-forever-pub71c841e2",
+     "backgroundColor": null
+    },
+    {
+     "title": "色彩缤纷、趣味十足的小家",
+     "text": "房间虽然小，却可以满足生活中的物质需求和精神追求，承载人生中的友谊和故事。灵活、创意和个性是整个空间的主旨！",
+     "image": "https://file.app.ikea.cn/cms/u/20250422/ec21109b85594db39fd214fc130c70db.webp",
+     "href": "/cn/zh/rooms/bedroom/gallery/your-first-own-home-with-room-for-everyone-you-know-pub9ed33410",
+     "backgroundColor": null
+    },
+    {
+     "title": "3D展间-宁静温馨的好梦卧室",
+     "text": "3D展间-FY25 B02",
+     "image": "https://file.app.ikea.cn/cms/u/20250331/6fec713b0bfa4737a4e4bc7b744d53be.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/bedroom/gallery/3D-room-pub9dda480a",
+     "backgroundColor": null
+    },
+    {
+     "title": "3D展间-现代风格的活力小家",
+     "text": "3D展间-FY25 B01",
+     "image": "https://file.app.ikea.cn/cms/u/20250331/98d4d6a65bf44643b13ec3a1f7cbe363.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/bedroom/gallery/3D-room-pubac74b337",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "2d9b675dc03e40faac00bc103dbc9815"
    }
@@ -107,10 +164,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p style=\"line-height: 8px;\">&nbsp;</p>\n<h2>更多往期展间</h2>"
+    "更多往期展间"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -159,6 +218,107 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "带着我们的宿舍布置创意开启校园生活",
+     "text": "要搬进大学宿舍了？来看看我们的布置灵感和创意，了解如何打造一个温馨舒适、学习休闲两相宜的“家外之家”！",
+     "image": "https://file.app.ikea.cn/cms/u/20250716/87a08e2f465d49fda32f89dda33524c6.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/bedroom/gallery/checking-in-to-your-college-dorm-room-puba22dde68",
+     "backgroundColor": null
+    },
+    {
+     "title": "出租房趣味装饰创意",
+     "text": "在寻找出租房装饰创意？从色彩搭配、家具摆放到饰品陈列，这个房间充满了家庭氛围的出色创意。",
+     "image": "https://file.app.ikea.cn/cms/u/20250708/5810337dd7394aaca795322f766042af.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/bedroom/gallery/decorating-a-rental-room-heres-one-thats-full-of-personality-pub8f220f67",
+     "backgroundColor": null
+    },
+    {
+     "title": "时尚新颖的共用家庭卧室创意",
+     "text": "寻找共用家庭卧室创意？不妨看看这款以大自然为灵感的卧室，温馨的窗帘隔断将父母与宝宝的空间分开，并配备多功能储物空间。立即在线选购吧。",
+     "image": "https://file.app.ikea.cn/cms/u/20250708/b3666971e2a84a3fa3a285dde0c2a0ca.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/bedroom/gallery/shared-family-bedroom-ideas-with-room-for-everyone-and-their-things-pub3c656c58",
+     "backgroundColor": null
+    },
+    {
+     "title": "拥有丰富储物空间的现代混搭风格卧室",
+     "text": "想要布置一个现代混搭风格的卧室吗？这个卧室拥有不同的生活区、中性色调和充足储物空间，能为你提供实现梦想的舒适天地！立即选购！",
+     "image": "https://file.app.ikea.cn/content/u/20241023/6AF3CCB3-F155-438C-BD300BA074549FF7.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/bedroom/gallery/a-modern-eclectic-bedroom-with-space-for-your-dreams-pubd70320b6",
+     "backgroundColor": null
+    },
+    {
+     "title": "充满自然风格的室内设计灵感",
+     "text": "想找一些充满自然风格的室内设计灵感？那就一起来参观这个充满绿意、植物架和巧妙储物空间的卧室。立即选购。",
+     "image": "https://file.app.ikea.cn/content/u/20241023/68F9453E-BDCD-40C9-8991CA3548048F37.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/bedroom/gallery/nature-inspired-interior-design-creates-a-lush-hideaway-pub17c53390",
+     "backgroundColor": null
+    },
+    {
+     "title": "这间卧室风格鲜亮明快，你一定会喜欢",
+     "text": "仔细品味这间卧室中明朗有趣的设计！房间中央有一张四柱床，四周是色彩醒目的织物和充足的储物空间，可满足方方面面的生活需求。立即选购。",
+     "image": "https://file.app.ikea.cn/content-space/barn-images/EA64FF16-A31E-4498-B45463EE71F9AF23/main-v1.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/bedroom/gallery/a-vibrant-graphic-style-bedroom-that-works-as-hard-as-you-pub3f9d9511",
+     "backgroundColor": null
+    },
+    {
+     "title": "探索迷人、现代又复古的卧室",
+     "text": "想要充满古着店氛围的现代卧室布置灵感？这个卧室充满了有趣的陈列创意，以多彩的风格展示你的物品。立即选购。",
+     "image": "https://file.app.ikea.cn/content/u/20241023/BCB94E93-A512-4A89-BDE641F38192F2A2.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/bedroom/gallery/feeling-good-in-a-modern-vintage-style-bedroom-pub756bc26a",
+     "backgroundColor": null
+    },
+    {
+     "title": "斯堪的纳维亚设计风格的卧室",
+     "text": "在找斯堪的纳维亚设计风格的卧室吗？这个乡村风格的房间具有迷人的倾斜屋顶和定制储物空间，让你轻松享受宁静生活。立即选购！",
+     "image": "https://file.app.ikea.cn/content/u/20241023/23796ACE-5B52-447B-AE2E44AB0BCFB593.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/bedroom/gallery/a-restful-bedroom-with-scandinavian-country-style-interior-design-pubb231db73",
+     "backgroundColor": null
+    },
+    {
+     "title": "巧妙、节省空间的卧室布置灵感，以天然木材为主要元素",
+     "text": "家里空间有限不是问题！一起来看看这个设计巧妙的现代多功能住宅，配备了以未经处理的木材制成的GLAMBERGET 格朗贝里 多功能家具。",
+     "image": "https://file.app.ikea.cn/content-space/barn-images/886BD17C-DBFF-4E51-81B74DBE5F25CB2C/main-v1.",
+     "href": "/cn/zh/rooms/bedroom/gallery/neutral-bedroom-ideas-to-make-room-for-a-colourful-life-pubcd424943",
+     "backgroundColor": null
+    },
+    {
+     "title": "一间现代风格的卧室，色彩缤纷，充满乐趣",
+     "text": "在活力四溢的卧室依然可以享受舒适睡眠。布置巧妙的储物方案，为个性细节和色彩留出充足的演绎空间。",
+     "image": "https://content-service-oss.aidesign.ingka-internal.cn/content-hub/f96ef328-1efa-4dd7-befb-0fa4910a9d15/45263be0-62df-4e59-9907-651ea7332d69.jpeg",
+     "href": "/cn/zh/rooms/bedroom/gallery/good-morning-modern-contemporary-bedroom-pub6ea6fd90",
+     "backgroundColor": null
+    },
+    {
+     "title": "氛围宁静的现代优雅卧室",
+     "text": "确保卧室舒适宜人，即使未到就寝时间，也适合在这里放松身心。选择你喜欢的颜色，布置出既彰显个性又和谐美观的空间。",
+     "image": "https://file.app.ikea.cn/content-space/barn-images/394D9473-2894-4E74-9AD1AB04B9734629/main-v1.",
+     "href": "/cn/zh/rooms/bedroom/gallery/finding-good-old-peace-in-a-modern-elegant-bedroom-pub473bcf0c",
+     "backgroundColor": null
+    },
+    {
+     "title": "温馨的卧室灵感，在喧嚣中寻觅宁静",
+     "text": "在纷纷扰扰的世界中，卧室作为你最私密的避风港，其布置重点在于能让你找到内心的平静。一起来打造你梦寐以求的卧室吧！",
+     "image": "https://file.app.ikea.cn/content-space/barn-images/B8B3EDE3-0D9D-42D1-9F8DEF0C8F2E5E59/main-v1.",
+     "href": "/cn/zh/rooms/bedroom/gallery/decorating-ideas-for-a-cosy-bedroom-that-can-slow-down-the-time-pub644a7634",
+     "backgroundColor": null
+    },
+    {
+     "title": "令晨间的日常活动更轻松的卧室",
+     "text": "想找一些卧室布置灵感，以享受更轻松自如的晨间日常？一起来参观这个房间，从咖啡机到巧妙储物，获取更多布置灵感！",
+     "image": "https://file.app.ikea.cn/content-space/barn-images/A989D43B-DF03-47CF-B7B82D0A5329DB38/main-v1.",
+     "href": "/cn/zh/rooms/bedroom/gallery/a-rustic-bedroom-for-glorious-mornings-pub8e698323",
+     "backgroundColor": null
+    },
+    {
+     "title": "适合家庭生活的传统卧室",
+     "text": "大家庭生活并不意味着家里必定一团糟。下面的内容旨在帮助你告别日常混乱，享受风格时尚、功能实用的卧室，并确保家里每个人都有自己的空间！",
+     "image": "https://file.app.ikea.cn/content-space/barn-images/79809703-4313-4C46-B6EE5EA9969F40E6/main-v1.",
+     "href": "/cn/zh/rooms/bedroom/gallery/a-traditional-bedroom-for-those-young-at-heart-pube9db2bce",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "2d9b675dc03e40faac00bc103dbc9815"
    }
@@ -207,6 +367,177 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "探索宁静宜人的现代风格卧室",
+     "text": "正在寻觅充满宁静氛围的现代卧室创意？深色系、软包床和大量的纺织品让这间卧室显得格外温馨。立即选购。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/4402ca03ae3a7ef8/original/PH199390.jpg",
+     "href": "/cn/zh/rooms/bedroom/gallery/a-modern-bedroom-thats-set-to-soothe-pub12d1c009",
+     "backgroundColor": null
+    },
+    {
+     "title": "日式北欧风格的简约卧室创意",
+     "text": "简约的日式北欧风格是你梦想中的卧室外观吗？这间卧室采用大量简约利落的储物件，营造出整洁有序的格调，充满创意灵感！立即探索。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/3eaf592fee19017a/original/PH199452.jpg",
+     "href": "/cn/zh/rooms/bedroom/gallery/a-soothing-minimal-japandi-bedroom-with-room-for-all-your-clothes-pubf5cb92e2",
+     "backgroundColor": null
+    },
+    {
+     "title": "惹人喜爱的斯堪的纳维亚风格卧室创意",
+     "text": "梦想打造斯堪的纳维亚风格的舒适休憩空间？这里有简约的斯堪的纳维亚设计理念、舒适的纺织品和经久耐用的家具，快来探索你的理想休憩之所吧。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/49d4dc3d6bee00ce/original/PH199283.jpg",
+     "href": "/cn/zh/rooms/bedroom/gallery/a-cocooning-scandinavian-bedroom-to-wrap-you-up-in-style-pub4a9452f0",
+     "backgroundColor": null
+    },
+    {
+     "title": "寻觅现代风格卧室创意",
+     "text": "想拥有一间现代风格卧室来放松身心和享受睡眠？舒适的软包床、带集成电视的装饰画背景墙，这间卧室应有尽有！立即探索吧。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/65ce89fa471de9fd/original/PH199254.jpg",
+     "href": "/cn/zh/rooms/bedroom/gallery/a-comfy-bed-tv-and-snacks-a-contemporary-bedroom-thats-got-it-all-pubc4e8b4f9",
+     "backgroundColor": null
+    },
+    {
+     "title": "将优雅卧室打造成都市隐居之所",
+     "text": "希望将优雅卧室打造成远离都市喧嚣的休憩空间？这间舒适宜人的静谧卧室布置了大量储物件和精美物品，可为你提供丰富灵感！",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/542c1902cef05360/original/PH199443.jpg",
+     "href": "/cn/zh/rooms/bedroom/gallery/an-elegant-bedroom-thats-a-hideaway-from-city-life-pub7577ed35",
+     "backgroundColor": null
+    },
+    {
+     "title": "在色彩缤纷的现代风格卧室安心入睡",
+     "text": "想要一间色彩鲜艳又和谐平静的卧室？既要有井然有序的储物空间，又要有舒适的床上用品等来改善睡眠？立即获取灵感。",
+     "image": "https://file.app.ikea.cn/images/e5/69/e5694811eb1668266ab0ba819be3cc42.jpg",
+     "href": "/cn/zh/rooms/bedroom/gallery/a-colourful-bedroom-haven-for-nights-of-better-sleep-pub738e8b7d",
+     "backgroundColor": null
+    },
+    {
+     "title": "父母与新生儿同住的日式北欧风格卧室",
+     "text": "想要一间有天然材料装饰、氛围舒适安宁的休闲日式北欧风格卧室，让你和刚出生的宝宝一起住吗？立即获取灵感。",
+     "image": "https://file.app.ikea.cn/images/80/70/8070b8113f3907eca6ba73e11ea105ec.jpg",
+     "href": "/cn/zh/rooms/bedroom/gallery/a-sleep-filled-sanctuary-for-new-parents-with-a-japandi-vibe-pub7568cd7c",
+     "backgroundColor": null
+    },
+    {
+     "title": "一间宁静卧室布置着现代家具，营造出温馨氛围",
+     "text": "想打造一间愉悦感官的现代风格卧室？不妨选择现代风格的简约家具，再搭配采用有机造型和天然材料的配件。",
+     "image": "https://file.app.ikea.cn/images/ce/68/ce680e33ad1feff32c443dba0f41bc19.jpg",
+     "href": "/cn/zh/rooms/bedroom/gallery/more-than-a-modern-bedroom-its-a-serene-space-youll-never-want-to-leave-pub58e8de5c",
+     "backgroundColor": null
+    },
+    {
+     "title": "宁静避世的绿色卧室布置创意",
+     "text": "想要一间舒适安宁、远离尘嚣的绿色卧室吗？这间卧室的设计运用了绿色调、竹色调和丰富的天然材料，充满创意灵感。",
+     "image": "https://file.app.ikea.cn/images/88/f4/88f435346a1c1f0df3b1a984a24d2334.jpg",
+     "href": "/cn/zh/rooms/bedroom/gallery/a-serene-and-calm-green-bedroom-that-feels-close-to-nature-pub54f51131",
+     "backgroundColor": null
+    },
+    {
+     "title": "为租住单间增添个性和风格的创意",
+     "text": "你租住在小单间吗？这里的方案可助你打造属于自己的时尚风格！先从多功能家具和灵活的储物设计开始吧。浏览页面了解更多信息。",
+     "image": "https://file.app.ikea.cn/images/5f/16/5f165a2547ac48176cae7d11ebefa818.jpg",
+     "href": "/cn/zh/rooms/bedroom/gallery/a-small-bedroom-in-a-rented-studio-with-a-minimal-aesthetic-pubefe87097",
+     "backgroundColor": null
+    },
+    {
+     "title": "布置热带波希米亚风格青少年房间的好创意",
+     "text": "在找亲近自然的波希米亚风格卧室创意吗？不妨看看这个漂亮的房间，我们在设计中大量运用了竹元素和松木元素，还用餐巾改造了一幅挂帘！了解更多。",
+     "image": "https://file.app.ikea.cn/images/e6/40/e640db73ee10b9f98f93b79572a7f505.jpg",
+     "href": "/cn/zh/rooms/bedroom/gallery/a-dreamy-tropical-bohemian-style-teenagers-bedroom-pube35587aa",
+     "backgroundColor": null
+    },
+    {
+     "title": "别具一格的卧室为你的公寓带来新风格",
+     "text": "想要一间风格出众的卧室？明亮的色彩、雅致的图案以及有趣的配件相结合，这个房间充满了你喜爱的灵感创意。一起来看看吧。",
+     "image": "https://file.app.ikea.cn/images/aa/a6/aaa6875a0cc26b87aeae1ee1d2eaeb44.jpg",
+     "href": "/cn/zh/rooms/bedroom/gallery/an-eclectic-mood-boosting-studio-bedroom-pubd6812f13",
+     "backgroundColor": null
+    },
+    {
+     "title": "灰色调现代风格父母婴儿共享卧室",
+     "text": "寻找灰色卧室的灵感创意？看看这间父母婴儿共享卧室，深浅不一的灰色调搭配蓝色配件，为每一个人营造时尚舒适的卧室环境。",
+     "image": "https://file.app.ikea.cn/images/96/9f/969ff6483ecb7e2621f15970d5d10364.jpg",
+     "href": "/cn/zh/rooms/bedroom/gallery/a-calm-grey-bedroom-for-parents-and-baby-pubf5eae91f",
+     "backgroundColor": null
+    },
+    {
+     "title": "传统风格的小型单间公寓布置创意",
+     "text": "需要一些创意来布置一间更个性、更实用、也能轻松招待客人的小型单间公寓？立即从家具和风格建议中获取灵感。",
+     "image": "https://file.app.ikea.cn/images/a6/c7/a6c791001412066d4d1f485d3b1c3db8.jpg",
+     "href": "/cn/zh/rooms/bedroom/gallery/a-small-studio-apartment-with-a-personal-traditional-style-pubfbc1b980",
+     "backgroundColor": null
+    },
+    {
+     "title": "展现个性的现代小卧室创意",
+     "text": "正在寻找新鲜的小卧室布置创意？这间卧室层次分明、整洁舒适，充满了风格特色和创意元素。立即从中获取灵感。",
+     "image": "https://file.app.ikea.cn/images/d0/14/d014fb580632ecbcd2dcc2aa06ba7f9e.jpg",
+     "href": "/cn/zh/rooms/bedroom/gallery/a-modern-small-bedroom-where-you-can-show-off-your-best-side-pubde04d39e",
+     "backgroundColor": null
+    },
+    {
+     "title": "父母与孩子同住的传统风格卧室",
+     "text": "你和孩子共住一间卧室吗？浏览这间合住卧室里的父母休息区，运用其中的创意来打造你梦想中的时尚卧室。你可以从中获取灵感。",
+     "image": "https://file.app.ikea.cn/images/d5/b3/d5b3d06afd417f653aa669bd62f008b6.jpg",
+     "href": "/cn/zh/rooms/bedroom/gallery/parents-and-kids-together-a-shared-bedroom-in-traditional-style-pub541c726a",
+     "backgroundColor": null
+    },
+    {
+     "title": "打造令人愉悦、现代风格的小空间卧室的创意和灵感",
+     "text": "想要一些单间卧室的布置创意和灵感？将多功能家具与有趣的色彩和纹理相结合，打造一个满足全天候需求的房间。立即选购。",
+     "image": "https://file.app.ikea.cn/images/8b/b7/8bb746975934ed5efafe23eb8f139a14.jpg",
+     "href": "/cn/zh/rooms/bedroom/gallery/a-modern-studio-bedroom-with-uplifting-effortless-style-pubf48f5fd8",
+     "backgroundColor": null
+    },
+    {
+     "title": "舒适的波西米亚风格共用小卧室的灵感与创意",
+     "text": "正在寻找亲子卧室的布置灵感与创意？这个房间配有大量的纺织品，充满波西米亚风格，你和宝宝都能获得舒适、放松的空间。",
+     "image": "https://file.app.ikea.cn/images/c1/ec/c1ec29f150893aed4b2efc4b31534f7a.jpg",
+     "href": "/cn/zh/rooms/bedroom/gallery/a-cosy-shared-boho-bedroom-pubf19c4c83",
+     "backgroundColor": null
+    },
+    {
+     "title": "舒适的卧室与客厅合二为一",
+     "text": "寻找卧室与客厅合二为一的布置方法？这个全天候房间结合了多功能家具、现代风格和舒适的氛围。立即从中获取灵感。",
+     "image": "https://file.app.ikea.cn/cms/u/20230911/b0aa4763a63148ec9dca7e2a9ab82831.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/bedroom/gallery/a-flexible-living-area-with-space-for-sleep-and-relaxation-pub1bd1c4fe",
+     "backgroundColor": null
+    },
+    {
+     "title": "宁静卧室创意，激发你的家居布置灵感",
+     "text": "寻找打造宁静卧室的创意？这间清新宁静的卧室具备井然有序的储物空间、宜家智能家居产品和简洁现代的风格。立即从中获取灵感。",
+     "image": "https://file.app.ikea.cn/images/8d/48/8d484dc7644efac6f63d4e9da13cfbe3.jpg",
+     "href": "/cn/zh/rooms/bedroom/gallery/a-modern-space-full-of-calming-bedroom-ideas-pub44182376",
+     "backgroundColor": null
+    },
+    {
+     "title": "打造静谧卧室的丰富创意",
+     "text": "想要一间宁静舒适的卧室？我们的传统风格HEMNES 汉尼斯 卧室系列可助你营造静谧的卧室空间。立即在线选购。",
+     "image": "https://file.app.ikea.cn/cms/u/20220628/6cf11d0d34574736b337b2fc77e8994e.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/bedroom/gallery/a-light-dreamy-bedroom-with-a-modern-edge-pub671ff408",
+     "backgroundColor": null
+    },
+    {
+     "title": "满足忙碌生活需求的舒适小卧室创意方案",
+     "text": "需要一个空间来远离喧嚣并且保持生活井然有序？不妨试试我们的MALM 马尔姆 系列多功能卧室家具。立即在线选购。",
+     "image": "https://file.app.ikea.cn/cms/u/20220629/86ec7b46c5cf49aab828d2a457c31017.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/bedroom/gallery/a-feel-good-modern-bedroom-where-dreams-are-hatched-pubd02993fb",
+     "backgroundColor": null
+    },
+    {
+     "title": "满足少年们全天候需求的房间布置创意",
+     "text": "需要一个可以放松、社交和学习的房间？这个房间可以满足以上所有需求，包括一个睡眠区、一个工作区和一个放松区。马上在线浏览。",
+     "image": "https://file.app.ikea.cn/images/f1/74/f1747be6ec0106a8ef6ec140b9477840.jpg",
+     "href": "/cn/zh/rooms/bedroom/gallery/a-24-hour-bedroom-for-creative-teen-style-pub40d9ddb0",
+     "backgroundColor": null
+    },
+    {
+     "title": "卧室工作空间的布置创意",
+     "text": "需要在卧室里打造一个工作区？一起来看看下面这些灵感创意，布置一个工作、放松和睡觉皆宜的卧室。马上在线浏览。",
+     "image": "https://file.app.ikea.cn/images/a0/93/a09309db38dd7af02adf6f6f36dd8e54.jpg",
+     "href": "/cn/zh/rooms/bedroom/gallery/enjoy-the-best-of-both-worlds-in-your-bedroom-puba9d08f20",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "2d9b675dc03e40faac00bc103dbc9815"
    }
@@ -215,10 +546,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p style=\"line-height: 8px;\">&nbsp;</p>\n<h2>探访我们的本地家居案例</h2>"
+    "探访我们的本地家居案例"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -231,7 +564,7 @@
     "/ideas/ikea-plus-you/",
     "page",
     "一起宜家",
-    "「一起宜家」 是宜家推出的家居真实案例栏目，共包含三个子栏目：\n「宜家去你家」：由宜家设计师亲自参与，以探寻当代人对家与生活的真实态度为切入点，洞察屋主需求，提供个性化的家居解决方案，化解生活难题，打造理想之家。\n「小改理想家」：聚焦于小空间和小预算的改造，满足局部功能需求，同时焕新家居风格，打造实用与美观兼具的居住空间。\n「他们的家」：走进宜家粉丝的家，汇集多元化的家装灵感，展现个性化的生活方式。",
+    "「一起宜家」 是宜家推出的家居真实案例栏目，共包含三个子栏目： 「宜家去你家」：由宜家设计师亲自参与，以探寻当代人对家与生活的真实态度为切入点，洞察屋主需求，提供个性化的家居解决方案，化解生活难题，打造理想之家。 「小改理想家」：聚焦于小空间和小预算的改造，满足局部功能需求，同时焕新家居风格，打造实用与美观兼具的居住空间。 「他们的家」：走进宜家粉丝的家，汇集多元化的家装灵感，展现个性化的生活方式。",
     "ikea://cms/page-compatible-web?url=%2Fideas%2Fikea-plus-you%2F&key=cn--zh--7aafa123b7b243faa0be7808125ec87a"
    ],
    "images": [
@@ -243,6 +576,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "一起宜家",
+     "text": "「一起宜家」 是宜家推出的家居真实案例栏目，共包含三个子栏目：\n「宜家去你家」：由宜家设计师亲自参与，以探寻当代人对家与生活的真实态度为切入点，洞察屋主需求，提供个性化的家居解决方案，化解生活难题，打造理想之家。\n「小改理想家」：聚焦于小空间和小预算的改造，满足局部功能需求，同时焕新家居风格，打造实用与美观兼具的居住空间。\n「他们的家」：走进宜家粉丝的家，汇集多元化的家装灵感，展现个性化的生活方式。",
+     "image": "https://file.app.ikea.cn/cms/u/20250109/68b98ef5ac704ba6afaee6648c34c65a.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/ideas/ikea-plus-you/",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Page List-"
    }

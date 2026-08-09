@@ -11,7 +11,7 @@
    "title": "为浴室增添亮色",
    "texts": [
     "宜家 BILLSJÖN 比雪恩 毛巾和 LASJÖN 拉斯逊 浴帘色彩鲜艳，带有趣味珊瑚及小鱼图案。",
-    "<p>BILLSJ&Ouml;N 比雪恩 毛巾和 LASJ&Ouml;N 拉斯逊 浴帘采用有趣的海洋主题图案，为浴室增添亮色元素。</p>",
+    "BILLSJöN 比雪恩 毛巾和 LASJöN 拉斯逊 浴帘采用有趣的海洋主题图案，为浴室增添亮色元素。",
     "为浴室增添亮色",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "为浴室增添亮色",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/7e/fd/7efd07762a139d417512e9ca62bc0dde.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,16 +54,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "和宜家所有的浴帘一样，LASJÖN 拉斯逊 浴帘也具备防水特性，不含有害化学物质。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/cb/39/cb39eeeabd41b483ab8634c41c6a9075.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>和宜家所有的浴帘一样，LASJ&Ouml;N 拉斯逊 浴帘也具备防水特性，不含有害化学物质。让我们以耳目一新的状态开启崭新的一天吧！</p>"
+    "和宜家所有的浴帘一样，LASJöN 拉斯逊 浴帘也具备防水特性，不含有害化学物质。让我们以耳目一新的状态开启崭新的一天吧！"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -67,6 +89,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

@@ -11,7 +11,7 @@
    "title": "改造你的厨房",
    "texts": [
     "特写：一个厨房抽屉使用了哑光灰绿色的 BODARP 博达尔普 抽屉前板，打造出现代外观。",
-    "<p>无论你是想彻头彻尾地改造你的厨房，还是只准备做些小改动，本月新品均可满足你的需求。从可为厨房增添现代气息的全新灰绿色厨房前挡板，采用花卉浮雕图案的餐具系列，到充满趣味的桦木小凳，各式产品一应俱全。查看本月新品，开始改造你的厨房吧！</p>",
+    "无论你是想彻头彻尾地改造你的厨房，还是只准备做些小改动，本月新品均可满足你的需求。从可为厨房增添现代气息的全新灰绿色厨房前挡板，采用花卉浮雕图案的餐具系列，到充满趣味的桦木小凳，各式产品一应俱全。查看本月新品，开始改造你的厨房吧！",
     "改造你的厨房",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "改造你的厨房",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/1a/f9/1af94de211888f72fedf48435ebde473.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,16 +54,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "厨房里有各种尺寸的抽屉和用哑光灰绿色 BODARP 博达尔普 厨房前挡板做成的橱柜。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/87/ec/87ec9da94c7d0e306c14475826d9c393.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>用 BODARP 博达尔普 厨房前挡板，给你的厨房来一场灰绿色改造。这款前挡板采用哑光表面，现代气息浓郁，外层贴膜则采用回收PET瓶制成。</p>"
+    "用 BODARP 博达尔普 厨房前挡板，给你的厨房来一场灰绿色改造。这款前挡板采用哑光表面，现代气息浓郁，外层贴膜则采用回收PET瓶制成。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -81,6 +103,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "KYRRE 叙勒 凳子由桦木制成，配备三角形的座椅和锥形的凳腿，造型充满趣味。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/73/93/7393f0af2b15b511406145ecfc8a9ba9.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "四个 KYRRE 叙勒 凳子堆叠放置。这款凳子采用桦木制成，配备三角形的座椅和锥形的凳腿。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/0f/1c/0f1c34d6a97a4bd306227e5892e671be.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "时尚可堆叠座椅 KYRRE 叙勒 凳子可用于招待意外来客。它配备锥形的凳腿和三角形的座椅，造型充满趣味，采用可持续来源桦木制成。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/73/93/7393f0af2b15b511406145ecfc8a9ba9.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/0f/1c/0f1c34d6a97a4bd306227e5892e671be.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -101,16 +154,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "STRIMMIG 斯特里米格 餐具系列内的碟、大杯和碗都是采用深蓝色陶土制成，缀有花卉浮雕图案。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/af/bb/afbba6b466207a81746937ec1f828659.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>餐具也可以用作装饰品</h2>\n<p>选择合适的餐具既能装饰桌子，又能令晚餐更加精美诱人。STRIMMIG 斯特里米格 餐具缀有花卉浮雕图案，灵感来自斯堪的纳维亚式和日式简约风格。</p>"
+    "餐具也可以用作装饰品 选择合适的餐具既能装饰桌子，又能令晚餐更加精美诱人。STRIMMIG 斯特里米格 餐具缀有花卉浮雕图案，灵感来自斯堪的纳维亚式和日式简约风格。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -138,6 +203,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "特写：STRIMMIG 斯特里米格 花卉浮雕图案碟子，采用深蓝色陶土制成。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d6/7e/d67ed9d3d85279f7cc5457f5c9c40b37.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "STRIMMIG 斯特里米格 碗由深蓝色陶土制成，呈几何造型，外观富含现代气息。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/19/41/19413bf0f7d1913fd5765eaab08a7758.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "花卉浮雕图案为 STRIMMIG 斯特里米格 餐具增添了精致的手工质感。此外，这一系列餐具都适用于洗碗机和微波炉。",
+     "image": "https://file.app.ikea.cn/images/d6/7e/d67ed9d3d85279f7cc5457f5c9c40b37.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "这一系列陶制餐具颜色多样，非常适合混合搭配。",
+     "image": "https://file.app.ikea.cn/images/19/41/19413bf0f7d1913fd5765eaab08a7758.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   }
  ]

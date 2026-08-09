@@ -24,15 +24,15 @@ function exportTsData(relPath) {
     },
     fileName: file,
   });
-  const module = { exports: {} };
+  const mod = { exports: {} };
   const sandbox = {
-    module,
-    exports: module.exports,
+    module: mod,
+    exports: mod.exports,
     require: () => ({}),
     console,
   };
   vm.runInNewContext(outputText, sandbox, { filename: file });
-  return module.exports;
+  return mod.exports;
 }
 
 function copy(src, dest) {
@@ -48,13 +48,14 @@ function writeJson(relOut, value) {
   console.log(`exported -> ${path.relative(root, dest)} (${fs.statSync(dest).size} bytes)`);
 }
 
-// Homepage / menu / category TS modules -> single JSON payloads.
-writeJson("homepage.json", exportTsData("homepage.ts"));
-writeJson("menu-panels.json", exportTsData("menu-panels.ts"));
-writeJson("menu-categories.json", exportTsData("categories.ts"));
-writeJson("catalog.json", exportTsData("catalog.ts"));
-// Legacy content pages (heading/text/section shape). New crawled pages win;
-// these fill the gaps, exactly like src/data/pages-index.ts.
+// Homepage / menu / category data now lives in JSON (CMS-managed); copy the
+// files byte-for-byte instead of transpiling the TS modules.
+copy(path.join(srcData, "homepage.json"), path.join(outRoot, "homepage.json"));
+copy(path.join(srcData, "menu-panels.json"), path.join(outRoot, "menu-panels.json"));
+copy(path.join(srcData, "menu-categories.json"), path.join(outRoot, "menu-categories.json"));
+copy(path.join(srcData, "catalog.json"), path.join(outRoot, "catalog.json"));
+copy(path.join(srcData, "chat-knowledge.json"), path.join(outRoot, "chat-knowledge.json"));
+// Legacy content pages (heading/text/section shape) stay a TS literal.
 writeJson("legacy-pages.json", exportTsData("pages.ts"));
 
 // Raw crawled JSON stays byte-for-byte identical.

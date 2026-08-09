@@ -11,7 +11,7 @@
    "title": "人人都爱 IVAR 伊娃",
    "texts": [
     "运用宜家 IVAR 伊娃 家具储物系列来规划你的客厅。该系统的浅色松木搁板可调节，以匹配不同的储物盒高度。",
-    "<p>50年来，IVAR 伊娃 始终是家庭里的好伙伴，帮助顾客把家里每个角落收纳整齐。这个五口之家也不例外。如果一定要说有例外的话，就是他们得努力避免让玩具占据整间客厅！</p>",
+    "50年来，IVAR 伊娃 始终是家庭里的好伙伴，帮助顾客把家里每个角落收纳整齐。这个五口之家也不例外。如果一定要说有例外的话，就是他们得努力避免让玩具占据整间客厅！",
     "人人都爱 IVAR 伊娃",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "人人都爱 IVAR 伊娃",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d3/bd/d3bd11fd825e62e55505baff87048cee.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -39,6 +49,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "GLADOM 格拉登",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/gladom-ge-la-deng-tuo-pan-zhuo-hei-se__0567223_pe664991_s4.jpg",
+     "href": "/cn/zh/p/gladom-ge-la-deng-tuo-pan-zhuo-hei-se-00411997/"
+    },
+    {
+     "title": "NYMÅNE 纽墨奈",
+     "text": "¥299",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/nymane-niu-mo-nai-xi-ding-deng-dai-4-ge-she-deng-bai-se__0607350_pe682899_s4.jpg",
+     "href": "/cn/zh/p/nymane-niu-mo-nai-xi-ding-deng-dai-4ge-she-deng-bai-se-50337702/"
+    }
+   ],
    "settings": null
   }
  ]

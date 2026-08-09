@@ -11,7 +11,7 @@
    "title": "客厅里的宁静绿洲",
    "texts": [
     "在粉色墙壁的客厅里，有浅绿色的LANDSKRONA 兰德克纳 沙发、SJÖPENNA 斯宾纳 吊灯和黑色的YPPERLIG 伊波利 落地灯。",
-    "<p>即使是空间紧凑的小客厅，通过巧妙规划，也能呈现出开阔通透、井井有条的外观。简单的墙面装饰，添置色调淡雅的沙发，就能让空间显得更宽敞、更开阔。</p>",
+    "即使是空间紧凑的小客厅，通过巧妙规划，也能呈现出开阔通透、井井有条的外观。简单的墙面装饰，添置色调淡雅的沙发，就能让空间显得更宽敞、更开阔。",
     "客厅里的宁静绿洲",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "客厅里的宁静绿洲",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/5e/af/5eaf0eaa51a737704d262485a2ea1e4d.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -46,6 +56,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一张LANDSKRONA 兰德克纳 绿色毛绒沙发，配以各种色调柔淡的靠垫。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/793227cd436d9a53/original/PH153245-crop002.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -68,6 +88,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "宜家NYBODA 尼伯达 长方形白色茶几，下方狭窄的搁架里放着一些书。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/1929edbd260f83e3/original/PH153244-crop002.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -90,6 +120,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "宜家YPPERLIG 伊波利 黑色LED落地灯，放在LANDSKRONA 兰德克纳 扶手椅旁边提供照明。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/1d713d1d19e9a4d6/original/PH153243-crop002.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -105,6 +145,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "LANDSKRONA 兰德克纳",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/landskrona-lan-de-ke-na-san-ren-sha-fa-gang-na-rui-de-qian-lu-mu-tou__1576917_pe1032814_s4.jpg",
+     "href": "/cn/zh/p/landskrona-lan-de-ke-na-san-ren-sha-fa-gang-na-rui-de-qian-lu-mu-tou-19270327/"
+    },
+    {
+     "title": "LANDSKRONA 兰德克纳",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/landskrona-lan-de-ke-na-dan-ren-sha-fa-fu-shou-yi-gang-na-rui-de-qian-lu-mu-tou__0602091_pe680160_s4.jpg",
+     "href": "/cn/zh/p/landskrona-lan-de-ke-na-dan-ren-sha-fa-fu-shou-yi-gang-na-rui-de-qian-lu-mu-tou-39269728/"
+    }
+   ],
    "settings": null
   }
  ]

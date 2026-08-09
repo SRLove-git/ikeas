@@ -11,7 +11,7 @@
    "title": "精品旅馆",
    "texts": [
     "一间卧室，里面有NORDKISA 诺德希萨 竹制衣柜，白色床和白色的床上用品、蓝色的墙壁和地板，还有一张黄色的扶手椅。",
-    "<p>半是旅馆半是酒店，这家民宿给人的感觉远远不止一个栖身之地这么简单。而且便于你按照自己的喜好，焕新改造，迎接新的客人。</p>",
+    "半是旅馆半是酒店，这家民宿给人的感觉远远不止一个栖身之地这么简单。而且便于你按照自己的喜好，焕新改造，迎接新的客人。",
     "精品旅馆",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "精品旅馆",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/74/bd/74bd5c81ed70993abe64f8cf76e4f6c4.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -50,6 +60,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "窗户旁边的白色床一角，旁边有一张NORDKISA 诺德希萨 梳妆台、一盏黑色阅读灯和一张黄色椅子。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/1255f41e14ed89ae/original/PH181091-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -76,6 +96,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个竹制NORDKISA 诺德希萨 衣柜，里面有一些衣服、一个行李箱和一个备用枕头。衣柜放在一间蓝白相间的卧室里。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/7d2bacbee0409ab0/original/PH181092-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -102,6 +132,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "STENSELE 思丹塞 炭黑色桌子上放着早餐，还有两张TOMMARYD 托玛瑞德 炭黑色桌子和几张白椅子。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/986f218fcca6706/original/PH181140-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -128,6 +168,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "窗户旁边的工作台上摆放着许多白色椭圆形盘子，里面盛满了早餐。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/723ddfe3f84a7fb9/original/PH181164-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -154,6 +204,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "在早餐间的白色墙上放着三个BROR 巴拉 搁架单元，里面摆满了餐具和厨房用品。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/35d2726f9fad7ebf/original/PH181175-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -169,6 +229,32 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "MALM 马尔姆",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/malm-ma-er-mu-gao-chuang-jia-bai-se-lu-rui__0749130_pe745499_s4.jpg",
+     "href": "/cn/zh/p/malm-ma-er-mu-gao-chuang-jia-bai-se-lu-rui-99009450/"
+    },
+    {
+     "title": "NORDKISA 诺德希萨",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/nordkisa-nuo-de-xi-sa-kai-fang-shi-yi-gui-dai-hua-men-zhu__0756084_pe748766_s4.jpg",
+     "href": "/cn/zh/p/nordkisa-nuo-de-xi-sa-kai-fang-shi-yi-gui-dai-hua-men-zhu-80439469/"
+    },
+    {
+     "title": "NORDKISA 诺德希萨",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/nordkisa-nuo-de-xi-sa-shu-zhuang-tai-zhu__0756073_pe748752_s4.jpg",
+     "href": "/cn/zh/p/nordkisa-nuo-de-xi-sa-shu-zhuang-tai-zhu-00439473/"
+    },
+    {
+     "title": "BURVIK 伯恩维克",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/burvik-bo-en-wei-ke-bian-zhuo-hei-se__0551236_pe658472_s4.jpg",
+     "href": "/cn/zh/p/burvik-bo-en-wei-ke-bian-zhuo-hei-se-00340387/"
+    }
+   ],
    "settings": null
   },
   {
@@ -184,6 +270,38 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "MÅLERÅS 摩乐若思",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/maleras-mo-le-ruo-si-bi-shi-tu-pian-jia-zhu__0689497_pe722996_s4.jpg",
+     "href": "/cn/zh/p/maleras-mo-le-ruo-si-bi-shi-tu-pian-jia-zhu-20511359/"
+    },
+    {
+     "title": "NATTJASMIN 纳斯敏",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/nattjasmin-na-si-min-bei-tao-he-zhen-tao-bai-se__1556700_pe1024493_s4.jpg",
+     "href": "/cn/zh/p/nattjasmin-na-si-min-bei-tao-he-zhen-tao-bai-se-20337181/"
+    },
+    {
+     "title": "MÅLERÅS 摩乐若思",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/maleras-mo-le-ruo-si-bi-shi-tu-pian-jia-zhu__0689497_pe722996_s4.jpg",
+     "href": "/cn/zh/p/maleras-mo-le-ruo-si-bi-shi-tu-pian-jia-zhu-40446344/"
+    },
+    {
+     "title": "KNOPPÄNG 克诺宾",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/knoppaeng-ke-nuo-bin-hua-kuang-hei-se__0638255_pe698805_s4.jpg",
+     "href": "/cn/zh/p/knoppaeng-ke-nuo-bin-hua-kuang-hei-se-10387119/"
+    },
+    {
+     "title": "KNOPPÄNG 克诺宾",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/knoppaeng-ke-nuo-bin-hua-kuang-hei-se__0638249_pe698799_s4.jpg",
+     "href": "/cn/zh/p/knoppaeng-ke-nuo-bin-hua-kuang-hei-se-50387141/"
+    }
+   ],
    "settings": null
   },
   {
@@ -204,6 +322,15 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "打造一间功能齐全的时尚早餐室",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/19141",
+     "backgroundColor": null
+    }
+   ],
    "settings": null
   },
   {
@@ -222,6 +349,57 @@
     {
      "href": "/cat/kt001",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "用经典风格打造宜人餐桌",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/kt001",
+     "backgroundColor": null
+    },
+    {
+     "title": "VARDAGEN 瓦达恩",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vardagen-wa-da-en-dai-long-tou-shui-guan__0799772_pe767634_s4.jpg",
+     "href": "/cn/zh/p/vardagen-wa-da-en-dai-long-tou-shui-guan-60452640/"
+    },
+    {
+     "title": "UPPDATERA 乌普道拉",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/uppdatera-wu-pu-dao-la-can-ju-guan-mei-hei-se__0972400_pe811937_s4.jpg",
+     "href": "/cn/zh/p/uppdatera-wu-pu-dao-la-can-ju-guan-mei-hei-se-00486426/"
+    },
+    {
+     "title": "OSTBIT 奥比特",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ostbit-ao-bi-te-tuo-pan-zhu__0542355_pe654010_s4.jpg",
+     "href": "/cn/zh/p/ostbit-ao-bi-te-tuo-pan-zhu-80376725/"
+    },
+    {
+     "title": "VARDAGEN 瓦达恩",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vardagen-wa-da-en-bei-zi-tou-ming-bo-li__0533549_pe648678_s4.jpg",
+     "href": "/cn/zh/p/vardagen-wa-da-en-bei-zi-tou-ming-bo-li-80286918/"
+    },
+    {
+     "title": "IKEA 365+",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ikea-365-wan-hu-xian-xing-bai-se__0712934_pe729146_s4.jpg",
+     "href": "/cn/zh/p/ikea-365-wan-hu-xian-xing-bai-se-30258951/"
+    },
+    {
+     "title": "IKEA 365+",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ikea-365-die-bai-se__0328912_pe520139_s4.jpg",
+     "href": "/cn/zh/p/ikea-365-die-bai-se-50258945/"
+    },
+    {
+     "title": "KORKEN 考肯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/korken-kao-ken-fu-gai-guan-tou-ming-bo-li__0712810_pe729071_s4.jpg",
+     "href": "/cn/zh/p/korken-kao-ken-fu-gai-guan-tou-ming-bo-li-10325112/"
     }
    ],
    "settings": null

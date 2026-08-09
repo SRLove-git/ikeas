@@ -23,6 +23,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "没有卧室？无需担心。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/55/91/55915ec023bf6829b6529145f2a7d1d2.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -38,6 +48,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "KULLABERG 乐维",
+     "text": "¥499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kullaberg-le-wei-zhuan-yi-hei-se__0724718_pe734601_s4.jpg",
+     "href": "/cn/zh/p/kullaberg-le-wei-zhuan-yi-hei-se-70325519/"
+    },
+    {
+     "title": "EKET 伊克特",
+     "text": "¥150",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/eket-yi-ke-te-gui-zi-shen-hui-se__1212324_pe910597_s4.jpg",
+     "href": "/cn/zh/p/eket-yi-ke-te-gui-zi-shen-hui-se-30334592/"
+    }
+   ],
    "settings": null
   }
  ]

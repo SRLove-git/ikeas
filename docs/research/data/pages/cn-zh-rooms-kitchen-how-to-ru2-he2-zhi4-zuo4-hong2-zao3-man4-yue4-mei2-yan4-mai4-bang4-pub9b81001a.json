@@ -11,7 +11,7 @@
    "title": "如何制作红枣蔓越莓燕麦棒",
    "texts": [
     "Sliced granola bar on white, baking paper and a wooden chopping board, next to a kitchen knife and two wrapped slices.",
-    "<p class=\"p1\">一款适合居家或出游享用的美味小吃。做好后，不妨用包装纸裹好，再系上绳子，精致的包装，看上去更诱人。</p>",
+    "一款适合居家或出游享用的美味小吃。做好后，不妨用包装纸裹好，再系上绳子，精致的包装，看上去更诱人。",
     "如何制作红枣蔓越莓燕麦棒",
     "normal"
    ],
@@ -24,26 +24,40 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "如何制作红枣蔓越莓燕麦棒",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/46/74/467457c71769bca37c2b30ad8e1647ab.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2 class=\"p1\">材料：</h2>\n<p class=\"p1\">700毫升HJ&Auml;LTEROLL 耶尔德罗尔 燕麦片</p>\n<p class=\"p1\">10颗去核枣</p>\n<p class=\"p1\">3汤匙冷压椰子油</p>\n<p class=\"p1\">50毫升蔓越莓干</p>\n<p class=\"p1\">2个蛋清</p>"
+    "材料： 700毫升HJäLTEROLL 耶尔德罗尔 燕麦片 10颗去核枣 3汤匙冷压椰子油 50毫升蔓越莓干 2个蛋清"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2 class=\"p1\">做法：</h2>\n<p class=\"p1\">1. 将椰子油放入锅中，加热融化。<br />2. 将400毫升燕麦片与红枣放入食品加工机中搅拌混合。<br />3. 将所有成分放入碗中混合，搅拌均匀。<br />4. 在约18x30厘米的烤盘垫上烘焙纸，将混合物放上去并压平。</p>"
+    "做法： 1. 将椰子油放入锅中，加热融化。 2. 将400毫升燕麦片与红枣放入食品加工机中搅拌混合。 3. 将所有成分放入碗中混合，搅拌均匀。 4. 在约18x30厘米的烤盘垫上烘焙纸，将混合物放上去并压平。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

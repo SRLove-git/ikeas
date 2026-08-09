@@ -11,7 +11,7 @@
    "title": "极简风格邂逅趣味元素",
    "texts": [
     "FLOTTEBO 弗罗特博 紫色沙发床采用极简设计，线条简洁圆润，配有可随心移动的靠垫。",
-    "<p>FLOTTEBO 弗罗特博 沙发床风格时尚简洁，可为客厅增加趣味元素，现已推出紫色款。这款沙发床非常适合摆放在用于开展各类活动（如社交、工作和睡觉）的流动空间里。</p>",
+    "FLOTTEBO 弗罗特博 沙发床风格时尚简洁，可为客厅增加趣味元素，现已推出紫色款。这款沙发床非常适合摆放在用于开展各类活动（如社交、工作和睡觉）的流动空间里。",
     "极简风格邂逅趣味元素",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "极简风格邂逅趣味元素",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/60/82/60826071fc7d75fb7ba9778b5916fc0b.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,16 +54,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "特写：FLOTTEBO 弗罗特博 紫色沙发床饰有车线细节，配有可随心移动的大靠垫。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/c7/ca/c7cacf1f18f2cf5a2b233b68b83e7b0c.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>你可以按照自己对 FLOTTEBO 弗罗特博 沙发床的坐卧和造型需求，自由选择是否移走蓬松的靠垫。如果要将它转换成舒适睡床，只需把床上用品从沙发下的储物空间里拿出来即可。</p>"
+    "你可以按照自己对 FLOTTEBO 弗罗特博 沙发床的坐卧和造型需求，自由选择是否移走蓬松的靠垫。如果要将它转换成舒适睡床，只需把床上用品从沙发下的储物空间里拿出来即可。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

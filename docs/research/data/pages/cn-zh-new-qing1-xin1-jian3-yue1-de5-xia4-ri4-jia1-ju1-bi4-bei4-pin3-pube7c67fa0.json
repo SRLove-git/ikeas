@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "62d238efb63e4424a96c97dec762d298"
    }
@@ -22,10 +24,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>拉起窗帘，打开窗户，呼吸全新季节的新鲜空气。用舒适透气的床上用品和充满清新自然气息的香味烛，享受无忧无虑的惬意时光。</p>"
+    "拉起窗帘，打开窗户，呼吸全新季节的新鲜空气。用舒适透气的床上用品和充满清新自然气息的香味烛，享受无忧无虑的惬意时光。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "da04799628a7442aadd876a4b3f2441f"
    }
@@ -44,6 +48,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "259f53568ddb4813bc71ac41c553f51b"
    }
@@ -66,6 +72,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220420/6709454f7f8b4aaf9f962081065c8543.mp4",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "fa7b074daeac4d69ada2b2ecc67f1222"
    }
@@ -94,6 +110,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "粉色大理石表面上摆放着绿色玻璃罐装的HEDERSAM 赫德尚 香味烛，烛光形成了花朵形状的阴影。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/5386806a4132d7cb/original/PH185136.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "45f170ebcd5640d694186ebae72e369e"
    }
@@ -118,6 +144,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "粉色大理石表面上摆放着白色的ADLAD 阿拉德 和绿色的HEDERSAM 赫德尚 香味烛，烛光形成了花朵形状的阴影。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/dbc3db9de2c41c4/original/PH185063.jpg",
+     "href": null,
+     "backgroundColor": "#EEDED5"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "22852de8c3964ad2b04691f4ea781f50"
    }
@@ -146,6 +182,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一张整理到一半的床，上面铺着白色的DYTÅG 迪淘格 被套；被套和枕头都有着轻微的褶皱。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/57cdf85d1e73d053/original/PH185044.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "2fec3be6649341efa139f2dfdf3a9ff4"
    }

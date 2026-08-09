@@ -10,7 +10,7 @@
    "type": "pub-hero",
    "title": "三层窗帘调节温度",
    "texts": [
-    "<p>你知道窗帘和百叶帘可用来调节温度吗？蜂巢状的 HOPPVALS 霍普沃 百叶帘可以用作隔热层，让室内保持冬暖夏凉。喜欢这样的窗帘组合？</p>",
+    "你知道窗帘和百叶帘可用来调节温度吗？蜂巢状的 HOPPVALS 霍普沃 百叶帘可以用作隔热层，让室内保持冬暖夏凉。喜欢这样的窗帘组合？",
     "三层窗帘调节温度",
     "normal"
    ],
@@ -23,6 +23,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "三层窗帘调节温度",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/cc/fe/ccfebd0b626799e44b6e3d15aca9d0bb.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -38,6 +48,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "HOPPVALS 霍普沃",
+     "text": "¥199",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/hoppvals-huo-pu-wo-liu-bian-xing-bai-ye-lian-bai-se__0602283_pe680560_s4.jpg",
+     "href": "/cn/zh/p/hoppvals-huo-pu-wo-liu-bian-xing-bai-ye-lian-bai-se-60290624/"
+    },
+    {
+     "title": "VIDGA 维德加",
+     "text": "¥30",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vidga-wei-de-jia-qiang-bi-zhuang-zhi-bai-se__0603493_pe680824_s4.jpg",
+     "href": "/cn/zh/p/vidga-wei-de-jia-qiang-bi-zhuang-zhi-bai-se-50299149/"
+    }
+   ],
    "settings": null
   }
  ]

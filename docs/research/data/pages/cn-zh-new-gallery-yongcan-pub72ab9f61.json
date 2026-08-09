@@ -11,7 +11,7 @@
    "title": "精致用餐体验",
    "texts": [
     "宜家 KRUSTAD 克鲁斯塔 餐具有着浅灰色的釉面和精细的花纹，可为餐桌营造精致的感觉。",
-    "<p>如果可以让漂亮的物品环绕着自己，日常生活也会变得更美好。KRUSTAD 克鲁斯塔 餐具有着浅灰色的釉面和精细的花纹，可为餐桌营造精致的感觉。</p>",
+    "如果可以让漂亮的物品环绕着自己，日常生活也会变得更美好。KRUSTAD 克鲁斯塔 餐具有着浅灰色的釉面和精细的花纹，可为餐桌营造精致的感觉。",
     "精致用餐体验",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "精致用餐体验",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e1/45/e145506c6f21fcf95d02874eabbb8979.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -46,16 +56,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "宜家 KRUSTAD 克鲁斯塔 餐具十分耐用，可以经受各种碰撞，可使用洗碗机清洗，适用于微波炉。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/f0/94/f0946cd03416cce62697802f916cde8a.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>瓷器或许重量轻，但是也很耐用，可以经受各种碰撞，也可以放在微波炉中，或者用洗碗机清洗。</p>"
+    "瓷器或许重量轻，但是也很耐用，可以经受各种碰撞，也可以放在微波炉中，或者用洗碗机清洗。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -70,6 +92,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

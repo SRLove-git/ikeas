@@ -8,11 +8,11 @@
  "blocks": [
   {
    "type": "pub-hero",
-   "title": "探索INBJUDEN 因尤登  全新浪漫派对系列",
+   "title": "探索INBJUDEN 因尤登 全新浪漫派对系列",
    "texts": [
     "谷仓中放着一张桌子，上面摆放着玻璃器皿、餐具和INBJUDEN 因尤登 节日装饰。",
-    "<p>欢迎加入我们的派对！全新INBJUDEN 因尤登 系列为你提供所需的一切，打造一个难忘的派对。新系列已推出，欢迎前来选购。</p>",
-    "探索INBJUDEN 因尤登  全新浪漫派对系列",
+    "欢迎加入我们的派对！全新INBJUDEN 因尤登 系列为你提供所需的一切，打造一个难忘的派对。新系列已推出，欢迎前来选购。",
+    "探索INBJUDEN 因尤登 全新浪漫派对系列",
     "normal"
    ],
    "images": [
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "探索INBJUDEN 因尤登  全新浪漫派对系列",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/c9/a2/c9a285a4f3a8950c962a268c16de3580.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -50,6 +60,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "在浪漫乡村风格的婚礼上，一位女士手持INBJUDEN 因尤登 上菜架，为宾客提供精选糖果。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/20d8a8b1cb8871cd/original/PH175984-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -76,6 +96,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "派对上，一位女士手持INBJUDEN 因尤登 磨砂玻璃盘，上面放着一些小点心和糖果。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/4acb715d0d1ec9ac/original/PH175988-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -102,6 +132,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "乡村风格的派对上，木桶上放着七个INBJUDEN 因尤登 玻璃杯，装满粉色柠檬水，静静等待宾客的到来。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/59ab399fe8e7870e/original/PH175990-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -128,6 +168,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "INBJUDEN 因尤登 分层上菜架上放着几个INBJUDEN 因尤登 勺，盛着白巧克力裹樱桃。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/537e4219d9dbf08d/original/PH175987-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -154,6 +204,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个派对上，木桌上放着三个装满糖果的INBJUDEN 因尤登 餐盘，桌上还摆放了鲜花和其他糕点。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/18a50d71acd4d91/original/PH175986-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -180,6 +240,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "派对上，桌子的中央装饰两个不同尺寸的INBJUDEN 因尤登 花瓶，里面插着鲜花。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/194b47e34dac34e4/original/PH175989-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -206,6 +276,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "桌上放着INBJUDEN 因尤登 餐巾，装饰粉色的INBJUDEN 因尤登 人造花，旁边放着一个装满糖果的玻璃碗。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/1181357a8483d54d/original/PH175981-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   }
  ]

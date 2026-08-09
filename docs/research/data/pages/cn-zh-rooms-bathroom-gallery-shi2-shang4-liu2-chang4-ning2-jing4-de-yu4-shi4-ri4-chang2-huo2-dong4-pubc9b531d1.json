@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -34,16 +36,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "白色和灰色相间的浴室配有淋浴设施、白色洗脸池和用于存放毛巾、肥皂等物品的黑色手推车。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/27/3a/273a2abcf44c0e4db6c6b4e714ab62a1.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>宽敞的洗脸池、手推车和镜子有助于让浴室内的日常活动变得简单流畅，尤其是当两个人同时使用浴室时，会更加方便。</p>"
+    "宽敞的洗脸池、手推车和镜子有助于让浴室内的日常活动变得简单流畅，尤其是当两个人同时使用浴室时，会更加方便。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -76,6 +90,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "贴有瓷砖的浴室里放着一个不锈钢转角墙搁，存放着沐浴露和洗发水等物品。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/4c/93/4c93cf85ace5f90af0157ffb21038a7b.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "卧室里，引人瞩目的宜家 VILTO 维尔托 桦木脚凳上的灰色布袋里存放着杂志。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/7d/93/7d939cb059c2232959581f1feea1d740.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "宜家 BROGRUND 布鲁格隆德 不锈钢按压式垃圾桶固定在靠近洗脸池的墙上。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/68/2d/682d1eb7b22bc823a223656cc6ee5dda.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "清晨在清新舒爽的淋浴中开启崭新的一天，把洗发水和沐浴露放在触手可及的地方，方便淋浴使用。BROGRUND 布鲁格隆德 只占据很少的空间，而且搁板上带有小孔，以便水从中流走。",
+     "image": "https://file.app.ikea.cn/images/4c/93/4c93cf85ace5f90af0157ffb21038a7b.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "VILTO 维尔托 提供专用的烘干区，淋浴后你可以坐下来放松身心。你不必急着起身离开，相反，你可以从下方的储物装置里取出一本杂志来看，等着头发变得再干一点！",
+     "image": "https://file.app.ikea.cn/images/7d/93/7d939cb059c2232959581f1feea1d740.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "把按压式垃圾桶固定在早晚梳妆洗漱的地方，方便你存放用过的棉签和牙线等物品，快速收拾好。",
+     "image": "https://file.app.ikea.cn/images/68/2d/682d1eb7b22bc823a223656cc6ee5dda.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -103,6 +161,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "灰白相间的浴室里设有一个洗脸池柜，柜子里的抽屉敞开着，抽屉里的储物盒有助于收纳浴室必需品。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/1a/6e/1a6ed3a996cc5ed4f3946af27bdc3907.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "灰白相间的浴室里配有一辆手推车。推车上存放着肥皂、毛巾和刷子，而且就位于洗脸池旁边。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/f4/f9/f4f9c8680deffc51ec4d6a5e959f90fc.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "告别混乱无序的抽屉，让一切准备工作变得更顺畅。GODMORGON 古德莫 采用透明设计，因此你无需逐一打开来寻找要用的东西。",
+     "image": "https://file.app.ikea.cn/images/1a/6e/1a6ed3a996cc5ed4f3946af27bdc3907.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "两个人的时间安排一样，但却只有一个洗脸池？让新一天的早晨不再有太多压力——把你需要的东西放在手推车上，然后把它推至镜子的另一边，以为两个人腾出空间。",
+     "image": "https://file.app.ikea.cn/images/f4/f9/f4f9c8680deffc51ec4d6a5e959f90fc.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -125,6 +214,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "两个镜柜垂直安装在灰色的浴室墙上，形成一个全身镜。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/be/d4/bed42710b78a59d3fc7130239f5c239e.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/be/d4/bed42710b78a59d3fc7130239f5c239e.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "借助全身镜，最后再打量一下你的造型。或者，你也可以把两个镜柜垂直安装，自己打造一个全身镜！GODMORGON 古德莫 很浅，不会占用太多空间，但它内部提供了额外的储物空间，门后也有镜子！",
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -140,6 +253,14 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "BROGRUND 布鲁格隆德",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/brogrund-bu-lu-ge-long-de-lin-yu-shou-na-jia-du-ge__0710488_pe727581_s4.jpg",
+     "href": "/cn/zh/p/brogrund-bu-lu-ge-long-de-lin-yu-shou-na-jia-du-ge-70328527/"
+    }
+   ],
    "settings": null
   }
  ]

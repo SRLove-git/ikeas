@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -21,7 +23,7 @@
    "title": null,
    "texts": [
     "https://v.youku.com/v_show/id_XNTgwNTkyMDM1Mg==.html",
-    "<p>本季，以斯堪的纳维亚乡村的采蘑菇体验为灵感设计的醒目印花，为家增添迷人的户外气息。设计师Monika Mulder所设计的这款醒目图案，勾勒出野生蘑菇的波纹轮廓与曲线。活力四射的蘑菇图案跃然于多款全新产品之上。</p>",
+    "本季，以斯堪的纳维亚乡村的采蘑菇体验为灵感设计的醒目印花，为家增添迷人的户外气息。设计师Monika Mulder所设计的这款醒目图案，勾勒出野生蘑菇的波纹轮廓与曲线。活力四射的蘑菇图案跃然于多款全新产品之上。",
     "MANUAL_INPUT"
    ],
    "images": [],
@@ -31,6 +33,8 @@
      "text": "\n<p>本季，以斯堪的纳维亚乡村的采蘑菇体验为灵感设计的醒目印花，为家增添迷人的户外气息。设计师Monika Mulder所设计的这款醒目图案，勾勒出野生蘑菇的波纹轮廓与曲线。活力四射的蘑菇图案跃然于多款全新产品之上。</p>\n"
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -57,6 +61,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "明亮的木墙卧室中，一张床上铺着深绿色和白色的SVAMPMAL 斯旺浦莫 被套和枕套。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/be1509889fb15be/original/PH181247.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -75,6 +89,15 @@
     {
      "href": "/cat/new-products",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "浏览宜家新品",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/new-products",
+     "backgroundColor": null
     }
    ],
    "settings": null
@@ -99,6 +122,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "SVAMPMAL 斯旺浦莫 被套和枕套上的深绿色和白色蘑菇印花。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/71aa2caba1dc4b6d/original/PH181249-crop002.jpg",
+     "href": null,
+     "backgroundColor": "#78bf30"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -125,6 +158,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个带有白色蘑菇印花的深黄色SVAMPMAL 斯旺浦莫 靠垫摆放在浅灰色的木表面上，旁边还有画刷和纸。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/6e4e5cd76a287844/original/PH181251-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -151,6 +194,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "带白色蘑菇图案的深绿色VINTERSNÖ 温特斯诺 托盘摆放在粒状石材表面，旁边摆放着木制装饰品和树叶。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/572ef07aacef649c/original/PH181254.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   }
  ]

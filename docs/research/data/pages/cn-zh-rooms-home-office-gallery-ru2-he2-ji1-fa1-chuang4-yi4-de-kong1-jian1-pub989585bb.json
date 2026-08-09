@@ -11,7 +11,7 @@
    "title": "激发创意的空间",
    "texts": [
     "一间明亮的家庭办公室，其中有一张白色的办公桌、一张白/黄绿色转椅和一块挂满手工材料的白色洞洞板。",
-    "<p>欢迎来到这个充满奇妙创意的工作空间！在这个明亮而有条理的角落，马上开展你的创意项目。巧妙的储物装置、灵活的办公桌和一应俱全的储物墙壁，组成一个激发创意的家庭办公室。</p>",
+    "欢迎来到这个充满奇妙创意的工作空间！在这个明亮而有条理的角落，马上开展你的创意项目。巧妙的储物装置、灵活的办公桌和一应俱全的储物墙壁，组成一个激发创意的家庭办公室。",
     "激发创意的空间",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "激发创意的空间",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/50/d4/50d4d57cdb8120a58d305446216dfd72.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Hero-激发创意的空间"
    }
@@ -52,6 +62,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "木支架上有一张倾斜的白色桌面，桌面的画纸上放着一些干树枝，还夹着一盏白色的灯。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/7fbb6fe4ea993f3e/original/PH198175.JPG",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Curated Gallery-可灵活调节的桌子"
    }
@@ -80,6 +100,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一张白色/Vissle 威索尔 浅灰色转椅，旁边是带木支架的白色书桌；旁边的两个白色篮子里放着几卷手工艺纸。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/7569fa2802682b27/original/PH198176.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Curated Gallery-缤纷配色，舒适体验"
    }
@@ -108,6 +138,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "夹在白色桌面上的白色工作灯，旁边是画刷、管状颜料和瓶装颜料。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/66d0442d116260ae/original/PH176807-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Curated Gallery-为所需之处提供照明"
    }
@@ -136,6 +176,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个白色洞洞板，上面挂着各种储物件，里面放着画笔、笔、纸、美术用品、托盘等等。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/56810472bb50bb60/original/PH176808-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Curated Gallery-一应俱全的墙壁"
    }
@@ -164,13 +214,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "两个木质储物柜并列固定在墙上，下面还有两个白色储物柜。储物柜顶放着一个音箱和几个篮子。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/63899f5e3fd03217/original/PH176809-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Curated Gallery-充分利用墙面空间"
    }
   },
   {
    "type": "pub-product-shelf",
-   "title": "为你提供所需一切，打造梦想中的办公室 ",
+   "title": "为你提供所需一切，打造梦想中的办公室",
    "texts": [
     "/cat/fu001",
     "NO",
@@ -184,6 +244,27 @@
     {
      "href": "/cat/fu001",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "为你提供所需一切，打造梦想中的办公室 ",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/fu001",
+     "backgroundColor": null
+    },
+    {
+     "title": "IVAR 伊娃",
+     "text": "¥750",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ivar-yi-wa-gui-zi-song-mu__21439_pe106384_s4.jpg",
+     "href": "/cn/zh/p/ivar-yi-wa-gui-zi-song-mu-50214999/"
+    },
+    {
+     "title": "RESGODS 列斯古兹",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/resgods-lie-si-gu-zi-chuang-yong-tuo-pan-zhu__0735331_pe739885_s4.jpg",
+     "href": "/cn/zh/p/resgods-lie-si-gu-zi-chuang-yong-tuo-pan-zhu-10444469/"
     }
    ],
    "settings": {
@@ -208,6 +289,45 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "整齐储物，轻松查找",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/10551",
+     "backgroundColor": null
+    },
+    {
+     "title": "DRÖNJÖNS 德瑞约恩",
+     "text": "¥29.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/droenjoens-de-rui-yue-en-fei-zhi-lou-bai-se__0778785_pe759132_s4.jpg",
+     "href": "/cn/zh/p/droenjoens-de-rui-yue-en-fei-zhi-lou-bai-se-40460108/"
+    },
+    {
+     "title": "BERGENES 伯格尼斯",
+     "text": "¥9.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/bergenes-bo-ge-ni-si-shou-ji-ping-ban-zhi-jia-zhu__0730164_pe737412_s4.jpg",
+     "href": "/cn/zh/p/bergenes-bo-ge-ni-si-shou-ji-ping-ban-zhi-jia-zhu-70458000/"
+    },
+    {
+     "title": "MOPPE 莫培",
+     "text": "¥249",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/moppe-mo-pei-xiao-xing-chou-ti-gui-hua-mu-xiao-he-ban__0135959_pe292948_s4.jpg",
+     "href": "/cn/zh/p/moppe-mo-pei-xiao-xing-chou-ti-gui-hua-mu-xiao-he-ban-90227438/"
+    },
+    {
+     "title": "SMARRA 斯马拉",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/smarra-si-ma-la-fu-gai-chu-wu-he-zi-ran-se__0713120_pe729269_s4.jpg",
+     "href": "/cn/zh/p/smarra-si-ma-la-fu-gai-chu-wu-he-zi-ran-se-40348065/"
+    },
+    {
+     "title": "KNAGGLIG 卡纳格",
+     "text": "¥129",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/knagglig-qia-na-ge-he-song-mu__1191243_pe900582_s4.jpg",
+     "href": "/cn/zh/p/knagglig-qia-na-ge-he-song-mu-90292358/"
+    }
+   ],
    "settings": {
     "traceId": "cms-Product Shelf-整齐储物，轻松查找"
    }
@@ -230,6 +350,39 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "提供无限可能的洞洞板",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/37813",
+     "backgroundColor": null
+    },
+    {
+     "title": "SKÅDIS 斯考迪斯",
+     "text": "¥79.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/skadis-si-kao-di-si-dong-dong-ban-bai-se__0710685_pe727711_s4.jpg",
+     "href": "/cn/zh/p/skadis-si-kao-di-si-dong-dong-ban-bai-se-80320804/"
+    },
+    {
+     "title": "SKÅDIS 斯考迪斯",
+     "text": "¥60",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/skadis-si-kao-di-si-fu-gai-rong-qi-bai-se__0711385_pe728176_s4.jpg",
+     "href": "/cn/zh/p/skadis-si-kao-di-si-fu-gai-rong-qi-bai-se-40335911/"
+    },
+    {
+     "title": "SKÅDIS 斯考迪斯",
+     "text": "¥10",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/skadis-si-kao-di-si-gua-gou-bai-se__0710506_pe727601_s4.jpg",
+     "href": "/cn/zh/p/skadis-si-kao-di-si-gua-gou-bai-se-30321617/"
+    },
+    {
+     "title": "SKÅDIS 斯考迪斯",
+     "text": "¥5",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/skadis-si-kao-di-si-gua-gou-bai-se__0710511_pe727606_s4.jpg",
+     "href": "/cn/zh/p/skadis-si-kao-di-si-gua-gou-bai-se-30335619/"
+    }
+   ],
    "settings": {
     "traceId": "cms-Product Shelf-提供无限可能的洞洞板"
    }
@@ -250,6 +403,15 @@
     {
      "href": "/cat/li001",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "用声音和光线营造气氛，提升工作效率",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/li001",
+     "backgroundColor": null
     }
    ],
    "settings": {

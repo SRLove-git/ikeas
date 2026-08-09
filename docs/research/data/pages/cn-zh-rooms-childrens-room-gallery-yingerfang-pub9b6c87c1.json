@@ -23,6 +23,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "梦寐以求",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/28/20/282065093ca541b8a7918c310cfe2e34.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -38,6 +48,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "FLISAT 福丽萨特",
+     "text": "¥129",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/flisat-fu-li-sa-te-bi-shi-chu-wu-zhuang-zhi-bai-qi-song-mu__0642799_pe701440_s4.jpg",
+     "href": "/cn/zh/p/flisat-fu-li-sa-te-bi-shi-chu-wu-zhuang-zhi-bai-qi-song-mu-10299820/"
+    },
+    {
+     "title": "SOLBO 斯诺博",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/solbo-si-nuo-bo-tai-deng-bai-se-mao-tou-ying__0609266_pe684403_s4.jpg",
+     "href": "/cn/zh/p/solbo-si-nuo-bo-tai-deng-bai-se-mao-tou-ying-10360884/"
+    }
+   ],
    "settings": null
   }
  ]

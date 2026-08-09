@@ -11,7 +11,7 @@
    "title": "自然舒适睡眠",
    "texts": [
     "用一款采用天然材料制成的床垫，HIDRASUND 黑德拉桑袋装弹簧床垫，为自己打造更加健康的睡眠环境。",
-    "<p>本月我们推出了全新的床垫和床褥，均采用环保天然材料制成，为你营造健康的睡眠环境。</p>",
+    "本月我们推出了全新的床垫和床褥，均采用环保天然材料制成，为你营造健康的睡眠环境。",
     "自然舒适睡眠",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "自然舒适睡眠",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/8c/a5/8ca5737c40ec6deddff4d9f08f25a566.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,16 +54,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "采用环保材料制成的 TISTEDAL 提斯特达尔 床褥可为你营造更加健康的睡眠环境。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a7/3c/a73c8a4e36d5e25e5872e60ee6a82bfb.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>HIDRASUND 黑德拉桑 袋装弹簧床垫由天然乳胶、椰壳纤维、棉、羊毛和莱赛尔纤维制成，可以提高舒适度，排出潮气，保持凉爽均衡的温度，创造宜人的睡眠环境。</p>"
+    "HIDRASUND 黑德拉桑 袋装弹簧床垫由天然乳胶、椰壳纤维、棉、羊毛和莱赛尔纤维制成，可以提高舒适度，排出潮气，保持凉爽均衡的温度，创造宜人的睡眠环境。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -66,6 +88,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

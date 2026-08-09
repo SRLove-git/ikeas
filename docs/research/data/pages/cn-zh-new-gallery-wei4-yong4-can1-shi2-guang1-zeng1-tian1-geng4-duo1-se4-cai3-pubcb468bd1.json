@@ -11,7 +11,7 @@
    "title": "为用餐时光增添更多色彩",
    "texts": [
     "精选亮红色、浅绿色和深蓝色的 TALRIKA 塔利卡 杯子和碗盘。",
-    "<p>为今秋用餐体验增添更多色彩。探索我们经久耐用、更可持续、色彩丰富的餐具系列。</p>",
+    "为今秋用餐体验增添更多色彩。探索我们经久耐用、更可持续、色彩丰富的餐具系列。",
     "为用餐时光增添更多色彩",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "为用餐时光增添更多色彩",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/24/82/248237eee5e2426884e8097a30c19d43.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -51,6 +61,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "精选亮红色、浅绿色和深蓝色的 TALRIKA 塔利卡 杯子和碗盘。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/3c/24/3c240012027c9e4cad7b52269f27d7fa.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "特写：4只 TALRIKA 塔利卡 亮红色马克杯，由轻质的植物塑料制成。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ac/c4/acc45241affe310ea1b20a1e60e8b081.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "经久耐用，源自植物 TALRIKA 塔利卡 系列由经久耐用的可持续材料PLA塑料制成，非常适合日常使用。PLA塑料是一种由农产品制成的可再生植物材料。采用该材料打造出的产品质地轻盈，你可以把它们带去野餐！",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/3c/24/3c240012027c9e4cad7b52269f27d7fa.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/ac/c4/acc45241affe310ea1b20a1e60e8b081.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -71,6 +112,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

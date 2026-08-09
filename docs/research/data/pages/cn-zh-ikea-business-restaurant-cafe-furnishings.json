@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Page Title-"
    }
@@ -62,6 +64,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "这是一间集装箱风格的质朴餐厅，配有木制桌椅，每张桌子的上方都悬挂着JAKOBSBYN 雅克布斯比 吊灯罩。",
+     "image": "https://file.app.ikea.cn/content-space/barn-images/A45C96CA-3DE5-4823-A8AC569D98C5FBFA/main-v1.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "MÖRBYLÅNGA 莫比恩 橡木贴面桌子上摆放着色彩缤纷的盘子和节日食物，还有一个STORSINT 斯图辛特 玻璃水瓶。",
+     "image": "https://file.app.ikea.cn/content/u/20240926/C5F48BF6-A601-4A79-B87116A8DA0D95D3.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "森林中的户外餐厅地板上摆放着SEGERÖN 希格瑞恩 户外家具和KOLBJÖRN 科比约恩 搁架。",
+     "image": "https://file.app.ikea.cn/content-hub/f96ef328-1efa-4dd7-befb-0fa4910a9d15/897c1221-22a5-4c52-acb8-b2811986ed33.jpeg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "一间时尚洗手间采用深绿色墙面，配有圆形VARMBLIXT 旺布利 LED壁灯，并摆放着插有装饰干草的BERÄKNA 比莱纳 花瓶。",
+     "image": "https://file.app.ikea.cn/content-space/barn-images/9F0CFED5-DEC7-460B-89019A6835B03A91/main-v1.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "在木制餐桌上有一个摆满食品的餐桌转盘，转盘前面摆放着蓝色、绿色和黄色的PAPPERSBJÖRK 波帕约克 玻璃杯。",
+     "image": "https://file.app.ikea.cn/content/u/20240926/BC0746F3-0B8B-4B15-8D5C90BD8D0B6FB7.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Curated Gallery-餐厅或咖啡馆的装修灵感"
    }
@@ -110,6 +150,72 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "咖啡桌",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/fa/38/fa3875866f15cbb9e03398d9581555a1.jpg",
+     "href": "/cn/zh/cat/19143",
+     "backgroundColor": null
+    },
+    {
+     "title": "咖啡和茶饮",
+     "text": "",
+     "image": "https://file.app.ikea.cn/content-space/barn-images/454BAA83-1568-426D-A3296AEA936B923E/main-v1.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/16044",
+     "backgroundColor": null
+    },
+    {
+     "title": "餐椅",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/89/b4/89b47bf462f1ecb0cb600148bfa01bdb.jpg",
+     "href": "/cn/zh/cat/19144",
+     "backgroundColor": null
+    },
+    {
+     "title": "餐具",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e9/89/e989892d5ed25954ed3c50858e114947.jpg",
+     "href": "/cn/zh/cat/18860",
+     "backgroundColor": null
+    },
+    {
+     "title": "音箱",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/48/c5/48c536bd379ca6fdbf94bc83b9d83c82.jpg",
+     "href": "/cn/zh/cat/40842",
+     "backgroundColor": null
+    },
+    {
+     "title": "刀叉",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/0e/ac/0eacd9b21f80edc92a78c2ba3952ae97.jpg",
+     "href": "/cn/zh/cat/18865",
+     "backgroundColor": null
+    },
+    {
+     "title": "户外家具",
+     "text": "",
+     "image": "https://file.app.ikea.cn/content-hub/f96ef328-1efa-4dd7-befb-0fa4910a9d15/bbe09240-d23b-4779-964b-1c82b93027d8.jpeg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/od003",
+     "backgroundColor": null
+    },
+    {
+     "title": "照明",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/92/f1/92f1f0587ee95803ee1ab4480cc9ce98.jpg",
+     "href": "/cn/zh/cat/li001",
+     "backgroundColor": null
+    },
+    {
+     "title": "装饰品",
+     "text": "",
+     "image": "https://file.app.ikea.cn/content-hub/f96ef328-1efa-4dd7-befb-0fa4910a9d15/aed8d821-9aa8-4f0e-acea-77cfff12572e.jpeg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/de001",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Visual Pill Slider-"
    }
@@ -121,7 +227,7 @@
     "image-text-landscape",
     "一个浅色桌面上放着一摞启发灵感的室内设计照片、一份清单和一支宜家铅笔。",
     "IMAGE",
-    "<p>宜家为满足你的业务需求提供全面的室内设计服务。无论你在照明创意或储物技巧等方面存在什么需求，我们的专业室内设计师都乐意提供帮助。</p>",
+    "宜家为满足你的业务需求提供全面的室内设计服务。无论你在照明创意或储物技巧等方面存在什么需求，我们的专业室内设计师都乐意提供帮助。",
     "让专家帮助你设计办公空间",
     "#FFFFFF"
    ],
@@ -138,6 +244,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "一个浅色桌面上放着一摞启发灵感的室内设计照片、一份清单和一支宜家铅笔。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/4b/3a/4b3af0ee307752f1e9665e2674185144.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Banner-"
    }
@@ -171,6 +287,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个阳光明媚的户外空间，配有四张深蓝色SUNDSÖ 苏恩索 户外椅和一张亮橙色SUNDSÖ 苏恩索 户外用桌，桌上有一盏台灯。",
+     "image": "https://file.app.ikea.cn/content/u/20240926/0B4BA5CF-9F42-49E2-884BB80DDD9E766B.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "一间户外咖啡馆吧，窗户敞开，灯光温馨，墙上有菜单，摆放着三张白色/米色SEGERÖN 希格瑞恩 户外吧台凳。",
+     "image": "https://file.app.ikea.cn/content/u/20240926/17635C12-8E5E-4A1B-A5C68242E904187D.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Curated Gallery-用清新舒适的户外座椅提升咖啡厅的格调"
    }
@@ -187,6 +320,26 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "SUNDSÖ 苏恩索",
+     "text": "¥249",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/sundsoe-su-en-suo-zhuo-zi-liang-cheng-se-hu-wai-chan-pin__1352303_pe952173_s4.jpg",
+     "href": "/cn/zh/p/sundsoe-su-en-suo-zhuo-zi-liang-cheng-se-hu-wai-chan-pin-30582582/"
+    },
+    {
+     "title": "HÖGÖN 霍格约",
+     "text": "¥399",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/hoegoen-huo-ge-yue-yang-san-shen-lan-se__1374252_pe960097_s4.jpg",
+     "href": "/cn/zh/p/hoegoen-huo-ge-yue-yang-san-shen-lan-se-70581236/"
+    },
+    {
+     "title": "SUNDSÖ 苏恩索",
+     "text": "¥179",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/sundsoe-su-en-suo-zhe-die-yi-shen-lan-se-hu-wai-chan-pin__1352292_pe952168_s4.jpg",
+     "href": "/cn/zh/p/sundsoe-su-en-suo-zhe-die-yi-shen-lan-se-hu-wai-chan-pin-10576172/"
+    }
+   ],
    "settings": {
     "traceId": "cms-Product Shelf-翻新户外区域的实用产品"
    }
@@ -233,6 +386,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "以经济便捷的方式翻新咖啡店或餐厅",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/f2/10/f210f1b2598f09ca42b8f2a76cfa4713.jpg",
+     "href": "/cn/zh/ikea-business/how-to/easy-ways-to-refresh-your-cafe-or-restaurant-on-a-budget-pub48a3d14a",
+     "backgroundColor": null
+    },
+    {
+     "title": "繁忙咖啡店和餐厅的布置创意",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/63/07/6307e4f42eaa9bb58b29eb7cddb7043f.jpg",
+     "href": "/cn/zh/ikea-business/how-to/smart-ideas-for-busy-cafes-and-restaurants-pub9ff9aef7",
+     "backgroundColor": null
+    },
+    {
+     "title": "如何为你的民宿打造出色的储物",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/f6/2f/f62f21b3cfc54ea56f3e198793523190.jpg",
+     "href": "/cn/zh/ikea-business/how-to/how-to-create-great-storage-for-your-bed-and-breakfast-puba760283e",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Inspiration Cards-"
    }
@@ -246,7 +423,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<h2>为什么不立即创建一个你自己的宜家对公业务账户？</h2>\n<p>账户免费，并且你可以从你与宜家的关系中获得更多。你可以收到与你的业务相关的灵感创意和优惠信息等。此外，你也可以邀请你的同事加入公司账户，享受同样的福利。</p>"
+    "为什么不立即创建一个你自己的宜家对公业务账户？ 账户免费，并且你可以从你与宜家的关系中获得更多。你可以收到与你的业务相关的灵感创意和优惠信息等。此外，你也可以邀请你的同事加入公司账户，享受同样的福利。"
    ],
    "images": [
     "https://file.app.ikea.cn/images/1a/ef/1aef2bebf103a0c4cfb6a046eeb5ca8b.jpg"
@@ -265,6 +442,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "一位女士坐在氛围舒适的咖啡厅里，手上端着杯子，有一个系着围裙的人微笑着站在旁边。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/1a/ef/1aef2bebf103a0c4cfb6a046eeb5ca8b.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/1a/ef/1aef2bebf103a0c4cfb6a046eeb5ca8b.jpg",
+     "href": null
+    },
+    {
+     "heading": "为什么不立即创建一个你自己的宜家对公业务账户？ 账户免费，并且你可以从你与宜家的关系中获得更多。你可以收到与你的业务相关的灵感创意和优惠信息等。此外，你也可以邀请你的同事加入公司账户，享受同样的福利。",
+     "text": null,
+     "image": null,
+     "href": "/cn/zh/h5page/?url=ikea%3A%2F%2Fdefault-module%2FH5%3Furl%3D%2523"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Columns-"
    }
@@ -313,6 +514,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "宜家对公业务 – 更多信息",
+     "text": "了解宜家对公业务可以为你做些什么。",
+     "image": "https://file.app.ikea.cn/images/15/9c/159c8e0f48e0f6b35a76da471f680699.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "查看所有服务",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/65/21/65216dea74e6c6da13425acae78fc5de.jpg",
+     "href": "/cn/zh/customer-service/services",
+     "backgroundColor": null
+    },
+    {
+     "title": "宜家对公业务会员",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/29/62/2962e4dc1b036943eb82f8816a295824.jpg",
+     "href": "/cn/zh/h5page/?url=ikea%3A%2F%2Fdefault-module%2FH5%3Furl%3D%2523",
+     "backgroundColor": null
+    },
+    {
+     "title": "过往工作的评价",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e8/46/e846f6179cebfd3771b3c5fdac59fd59.jpg",
+     "href": "/cn/zh/h5page/?url=ikea%3A%2F%2Fdefault-module%2FH5%3Furl%3D%2523",
+     "backgroundColor": null
+    },
+    {
+     "title": "在线办公场所设计工具",
+     "text": "通过这款便利的在线工具，你可以设计自己的梦想办公场所。",
+     "image": "https://file.app.ikea.cn/images/36/5f/365f5aad3c9d5d99e7a84a5a7660713e.jpg",
+     "href": "/cn/zh/h5page/?url=ikea%3A%2F%2Fdefault-module%2FH5%3Furl%3D%2523",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Inspiration Cards-"
    }
@@ -322,7 +561,7 @@
    "title": null,
    "texts": [
     "text-landscape",
-    "<p>作为企业客户，你可以亲自动手，但也可以让我们代劳。从设计到交付再到组装，整个购买流程都有宜家在你左右。</p>",
+    "作为企业客户，你可以亲自动手，但也可以让我们代劳。从设计到交付再到组装，整个购买流程都有宜家在你左右。",
     "立即联系宜家对公业务部",
     "#FFFFFF",
     "/h5page/?url=ikea%3A%2F%2Fdefault-module%2FH5%3Furl%3D%2523",
@@ -335,6 +574,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Banner-"
    }
@@ -344,7 +585,7 @@
    "title": null,
    "texts": [
     "text-landscape",
-    "<p>这些解决方案中包含一系列家用和非家用产品。请确认所购产品可在你的空间内发挥预期用途，并符合有关标准。如需了解该系列的更多信息，请联系宜家对公业务部。</p>",
+    "这些解决方案中包含一系列家用和非家用产品。请确认所购产品可在你的空间内发挥预期用途，并符合有关标准。如需了解该系列的更多信息，请联系宜家对公业务部。",
     "购买前须知",
     "#FFFFFF",
     "text",
@@ -352,6 +593,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Banner-"
    }
@@ -386,6 +629,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "设计与咨询",
+     "text": "了解更多",
+     "image": null,
+     "href": "/cn/zh/customer-service/services/planning-consultation",
+     "backgroundColor": null
+    },
+    {
+     "title": "付款方式",
+     "text": "了解更多",
+     "image": null,
+     "href": "/cn/zh/customer-service/payment-options",
+     "backgroundColor": null
+    },
+    {
+     "title": "送货和搬除",
+     "text": "了解更多",
+     "image": null,
+     "href": "/cn/zh/customer-service/services/delivery",
+     "backgroundColor": null
+    },
+    {
+     "title": "组装服务",
+     "text": "了解更多",
+     "image": null,
+     "href": "/cn/zh/customer-service/services/assembly",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Assurances-"
    }

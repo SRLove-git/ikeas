@@ -11,7 +11,7 @@
    "title": "夏天的户外餐厅",
    "texts": [
     "宜家 KOLBJÖRN 科比约恩 米白色搁架单元在室内和户外均可使用。它包含两层搁板，可叠放组合成更高的单元。",
-    "<p>将你的露台或户外区域变成第二间餐厅。有了可折叠桌椅和可叠放 KOLBJ&Ouml;RN 科比约恩 搁架单元，你就能存放工具和餐具，还有足够空间伸展四肢，沐浴阳光！</p>",
+    "将你的露台或户外区域变成第二间餐厅。有了可折叠桌椅和可叠放 KOLBJöRN 科比约恩 搁架单元，你就能存放工具和餐具，还有足够空间伸展四肢，沐浴阳光！",
     "夏天的户外餐厅",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "夏天的户外餐厅",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d5/fc/d5fca3fa41d1b040ab58264099d47e64.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -39,6 +49,26 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "KOLBJÖRN 科比约恩",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kolbjoern-ke-bi-yue-en-ge-jia-dan-yuan-shi-nei-hu-wai-mi-huang-se__0664612_pe718449_s4.jpg",
+     "href": "/cn/zh/p/kolbjoern-ke-bi-yue-en-ge-jia-dan-yuan-shi-nei-hu-wai-mi-huang-se-90409297/"
+    },
+    {
+     "title": "KOLBJÖRN 科比约恩",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kolbjoern-ke-bi-yue-en-gui-zi-shi-nei-hu-wai-mi-huang-se__0664606_pe718444_s4.jpg",
+     "href": "/cn/zh/p/kolbjoern-ke-bi-yue-en-gui-zi-shi-nei-hu-wai-mi-huang-se-50409299/"
+    },
+    {
+     "title": "RUNNEN 鲁恩",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/runnen-lu-en-di-ban-shi-mian-hu-wai-zhao-he-se-qi__0709178_pe726855_s4.jpg",
+     "href": "/cn/zh/p/runnen-lu-en-di-ban-shi-mian-hu-wai-zhao-he-se-qi-30234229/"
+    }
+   ],
    "settings": null
   }
  ]

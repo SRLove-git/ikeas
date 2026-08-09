@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { catalogCategories } from "@/data/catalog";
+import { catalogData } from "@/data/catalog";
 import { findCategoryBySlug } from "@/lib/catalog";
 import { ProductCard } from "@/components/ProductCard";
 import { SiteImage } from "@/components/SiteImage";
@@ -17,6 +17,7 @@ export const dynamicParams = false;
 export function generateStaticParams() {
   const params: { slug: string }[] = [];
   const seen = new Set<string>();
+  const { catalogCategories } = catalogData();
   for (const category of catalogCategories) {
     if (!seen.has(category.slug)) {
       seen.add(category.slug);
@@ -29,7 +30,7 @@ export function generateStaticParams() {
       }
     }
   }
-  for (const page of catalogPages) {
+  for (const page of catalogPages()) {
     const slug = page.url.split("/").filter(Boolean).at(-1) ?? "";
     if (slug && !seen.has(slug)) {
       seen.add(slug);
@@ -155,7 +156,7 @@ export default async function CategoryPage({
         <div className="mt-8 grid grid-cols-2 gap-x-4 gap-y-8 md:grid-cols-3 lg:grid-cols-4">
           {page.products.map((product) => {
             const href = productHref(product);
-            const hasDetail = productSlugsWithDetails.has(
+            const hasDetail = productSlugsWithDetails().has(
               href.split("/").filter(Boolean).at(-1) ?? "",
             );
             const content = (
@@ -179,7 +180,7 @@ export default async function CategoryPage({
                   ) : null}
                   <p className="mt-1.5 text-sm text-ikea-black">
                     {product.price != null
-                      ? `¥${product.price.toLocaleString("zh-CN")}`
+                      ? `SGD ${product.price.toLocaleString("zh-CN")}`
                       : ""}
                   </p>
                 </div>

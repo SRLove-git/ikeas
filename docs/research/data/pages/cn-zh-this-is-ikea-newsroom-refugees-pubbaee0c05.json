@@ -10,7 +10,7 @@
    "type": "pub-hero",
    "title": "驱散黑暗",
    "texts": [
-    "<p><strong>驱散黑暗</strong></p>\n<p>撰文： CAMILLA TUBERTINI</p>",
+    "驱散黑暗 撰文： CAMILLA TUBERTINI",
     "驱散黑暗",
     "normal"
    ],
@@ -23,6 +23,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "驱散黑暗",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/24/50/2450c66057ea085366e9c2dde6cb4154.png",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -33,16 +43,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h4>宜家关爱地球，同时也热衷于为大众创造更美好的生活。&ldquo;照亮难民的生活&rdquo;活动得到了宜家员工和顾客的大力支持，IKEA Foundation从中募集到了大量资金，资助建成了全球首座难民营太阳能电站。</h4>"
+    "宜家关爱地球，同时也热衷于为大众创造更美好的生活。“照亮难民的生活”活动得到了宜家员工和顾客的大力支持，IKEA Foundation从中募集到了大量资金，资助建成了全球首座难民营太阳能电站。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -53,6 +67,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -71,16 +87,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/f4/69/f4694d7ca0ae609acd5598b28c0a3d96.png",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>艰难的生活</h2>\n<p>想象一下没有电的生活会是怎样。没有灯具。没有冰箱。没有炉子。没有暖气。没有电话。手洗衣服。最重要的是无法与家人朋友联系，也无法了解外面的世界。</p>\n<p>两年半以来，约旦北部沙漠里的阿兹拉克难民营一直没有通电。寒冷的冬天，这里的54,000名叙利亚难民每天都有将近一半的时间是在黑暗中度过的。夏天，背阴处的温度都高达40℃，食物几乎一放就坏。</p>\n<h2>按下开关，迎来更美好的生活</h2>\n<p>但2017年我们迎来了全新转变。5月，联合国难民署启动了新建的难民营太阳能电站。IKEA Foundation从其举办的&ldquo;照亮难民的生活&rdquo;活动募集了大量资金，独家资助了整座太阳能电站的施工建设，该电站提供的可再生能源可满足整个难民营的能源需求。现在难民营里的每个家庭都能使用冰箱、电视、风扇，室内也有灯具照明，最重要的是能为手机充电，方便与国外亲属联系。</p>"
+    "艰难的生活 想象一下没有电的生活会是怎样。没有灯具。没有冰箱。没有炉子。没有暖气。没有电话。手洗衣服。最重要的是无法与家人朋友联系，也无法了解外面的世界。 两年半以来，约旦北部沙漠里的阿兹拉克难民营一直没有通电。寒冷的冬天，这里的54,000名叙利亚难民每天都有将近一半的时间是在黑暗中度过的。夏天，背阴处的温度都高达40℃，食物几乎一放就坏。 按下开关，迎来更美好的生活 但2017年我们迎来了全新转变。5月，联合国难民署启动了新建的难民营太阳能电站。IKEA Foundation从其举办的“照亮难民的生活”活动募集了大量资金，独家资助了整座太阳能电站的施工建设，该电站提供的可再生能源可满足整个难民营的能源需求。现在难民营里的每个家庭都能使用冰箱、电视、风扇，室内也有灯具照明，最重要的是能为手机充电，方便与国外亲属联系。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -91,6 +119,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -102,6 +132,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -120,16 +152,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/88/4f/884fdfd5ba7b3f7f27d937b7784b4152.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>电力让难民家庭可以在日落之后一起共度美好时光。</p>"
+    "电力让难民家庭可以在日落之后一起共度美好时光。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -140,16 +184,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>全球首座</h2>\n<p>阿兹拉克难民营太阳能电站是全球首座建在难民营里的太阳能电站。约旦的电费昂贵，太阳能电站可以帮助联合国难民署向难民家庭提供免费电力。在太阳能电站的建设过程中有50多名难民接受了培训，受雇建设电站，并获得了收入。</p>\n<p>IKEA Foundation首席执行官Per Heggenes说：&ldquo;我们非常感谢每个人的参与，尤其是参与了&ldquo;照亮难民的生活&rdquo;活动的宜家顾客和员工，以及联合国难民署、约旦政府、约旦配电公司，还有做出了重要贡献的叙利亚和约旦人民，正是他们，促成了这个项目的最终完成。全球首座难民营太阳能电站的建成标志着人道主义机构对流离失所群众的救助方式的转变。&rdquo;</p>"
+    "全球首座 阿兹拉克难民营太阳能电站是全球首座建在难民营里的太阳能电站。约旦的电费昂贵，太阳能电站可以帮助联合国难民署向难民家庭提供免费电力。在太阳能电站的建设过程中有50多名难民接受了培训，受雇建设电站，并获得了收入。 IKEA Foundation首席执行官Per Heggenes说：“我们非常感谢每个人的参与，尤其是参与了“照亮难民的生活”活动的宜家顾客和员工，以及联合国难民署、约旦政府、约旦配电公司，还有做出了重要贡献的叙利亚和约旦人民，正是他们，促成了这个项目的最终完成。全球首座难民营太阳能电站的建成标志着人道主义机构对流离失所群众的救助方式的转变。”"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -161,6 +209,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -171,16 +221,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>信息资料</h2>\n<p>建造这座太阳能电站所需的全部资金均由IKEA Foundation举办的&ldquo;照亮难民的生活&rdquo;活动提供。在活动的三个阶段，每售出一个灯具或一个灯泡，IKEA Foundation就会向联合国难民署捐赠1欧元，最终共为可再生能源和教育项目捐赠了3080万欧元。这座太阳能电站每年可节省150万美元，省下资金可用于投资其他项目。每年还可以减少2,370吨的二氧化碳排放量。</p>"
+    "信息资料 建造这座太阳能电站所需的全部资金均由IKEA Foundation举办的“照亮难民的生活”活动提供。在活动的三个阶段，每售出一个灯具或一个灯泡，IKEA Foundation就会向联合国难民署捐赠1欧元，最终共为可再生能源和教育项目捐赠了3080万欧元。这座太阳能电站每年可节省150万美元，省下资金可用于投资其他项目。每年还可以减少2,370吨的二氧化碳排放量。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -191,16 +245,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h4>IKEA Foundation是什么？</h4>\n<p>IKEA Foundation是英格卡控股公司（最大的宜家特许经营机构的所有者）所有者INGKA Foundation旗下的慈善机构。IKEA Foundation致力于为世界上最贫困社区的儿童和年轻人提供更好的机会，具体表现在为儿童提供生活中最基本的四个元素：一个家；健康的人生起点；优质的教育；以及稳定的家庭收入。</p>\n<p>IKEA Foundation还积极帮助这些社区应对气候变化带来的影响。通过与国际助残这样强大的战略合作伙伴携手努力，IKEA Foundation可以运用创新型的方法为孩子的人生带来更加广泛的积极影响。</p>"
+    "IKEA Foundation是什么？ IKEA Foundation是英格卡控股公司（最大的宜家特许经营机构的所有者）所有者INGKA Foundation旗下的慈善机构。IKEA Foundation致力于为世界上最贫困社区的儿童和年轻人提供更好的机会，具体表现在为儿童提供生活中最基本的四个元素：一个家；健康的人生起点；优质的教育；以及稳定的家庭收入。 IKEA Foundation还积极帮助这些社区应对气候变化带来的影响。通过与国际助残这样强大的战略合作伙伴携手努力，IKEA Foundation可以运用创新型的方法为孩子的人生带来更加广泛的积极影响。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -221,6 +279,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -231,16 +291,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h4><strong>阅读更多2017年宜家集锦内容</strong></h4>"
+    "阅读更多2017年宜家集锦内容"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -267,16 +331,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ce/07/ce074d2ce63407da6faca37e937f5a3e.png",
+     "href": "/cn/zh/this-is-ikea/newsroom/minzhushejiri-pub2f7f7d99",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h4>关键不在于名气，而在于学习</h4>\n<p>宜家正与多位优秀设计师携手合作，既有新秀设计师，也有知名设计师。在此了解原因。</p>"
+    "关键不在于名气，而在于学习 宜家正与多位优秀设计师携手合作，既有新秀设计师，也有知名设计师。在此了解原因。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -303,16 +379,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d7/f8/d7f8f9a7bbaa0afdaf9739259b27606f.png",
+     "href": "/cn/zh/this-is-ikea/newsroom/yingpian-guanggao-pubb2f7878f",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h4>米兰邂逅全新客厅</h4>\n<p>参加2017米兰家具展&ldquo;IKEA Festival--给家更多可能&rdquo;。此次展览占地3500平方米，并位居40场最佳展览之列。</p>"
+    "米兰邂逅全新客厅 参加2017米兰家具展“IKEA Festival--给家更多可能”。此次展览占地3500平方米，并位居40场最佳展览之列。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -345,6 +433,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "关键不在于名气， 而在于学习。",
+     "text": "宜家打开了设计界的大门，开始与新锐设计师以及颇有建树的知名设计师携手合作。",
+     "image": "https://file.app.ikea.cn/images/ec/c8/ecc8b55a27201c5a0bdbc0e75aa57c02.jpg",
+     "href": "/cn/zh/this-is-ikea/newsroom/design-pub8d42fb05",
+     "backgroundColor": null
+    },
+    {
+     "title": "米兰邂逅全新客厅",
+     "text": "客厅是日常居家生活最重要的地点，作为各种活动发生的场所，这里理应是是家中最灵活、最多功能的空间。",
+     "image": "https://file.app.ikea.cn/images/d7/e0/d7e000302ff3f7924da1e48da54158e0.jpg",
+     "href": "/cn/zh/this-is-ikea/newsroom/milan-pubc46f1a1e",
+     "backgroundColor": null
+    },
+    {
+     "title": "宜家2017年数据大盘点",
+     "text": "众多公司、组织和个人共同造就了今天的宜家。一个个人，一个个创意，一个个方案，勾勒出宜家发展的蓝图。这里有一系列的信息和数据，供你了解宜家过去一年的表现。",
+     "image": "https://file.app.ikea.cn/images/48/dc/48dc8d598eceb6558ced6a2507f1724b.jpg",
+     "href": "/cn/zh/this-is-ikea/newsroom/ikea2017-pub424a1bec",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -365,6 +477,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

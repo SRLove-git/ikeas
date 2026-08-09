@@ -11,7 +11,7 @@
    "title": "创造美好的工作时光",
    "texts": [
     "特写：LOMMARP 鲁马尔普 传统风格书桌的大号抽屉，上面还设有圆把手。",
-    "<p>无论你是在家办公、创作小说，或是处理账单，设计美观的 LOMMARP 鲁马尔普 书桌都能为你打造一个整洁有序的工作环境。它色彩柔和，可以和谐融入家中各处，有蓝绿色和米色可选。</p>",
+    "无论你是在家办公、创作小说，或是处理账单，设计美观的 LOMMARP 鲁马尔普 书桌都能为你打造一个整洁有序的工作环境。它色彩柔和，可以和谐融入家中各处，有蓝绿色和米色可选。",
     "创造美好的工作时光",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "创造美好的工作时光",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/f1/6c/f16c12f24c8fd4767c88a4168d0f1a66.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,16 +54,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "LOMMARP 鲁马尔普 书桌采用传统设计和精美细节，并配备一个带圆把手的大号实用抽屉。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/47/db/47dbfebaff6c4cd89eb72838bcf54562.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>书桌采用传统风格和精美细节设计，并配备一个大号实用抽屉和电线管理装置。</p>"
+    "书桌采用传统风格和精美细节设计，并配备一个大号实用抽屉和电线管理装置。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

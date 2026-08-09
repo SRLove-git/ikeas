@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "30d8007795b54bcfb207cabe9775e78b"
    }
@@ -36,6 +38,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20221213/9942bcd3d6a5404da539cbd6d635a858.mp4",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Image(video)-"
    }
@@ -48,6 +60,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "1e0c40d3ce7a480ebeaa8e722dc4e7c8"
    }
@@ -56,10 +70,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>宜家自制家居改造系列节目《宜家去你家》</h2>\n<p>由宜家设计师走进真实家庭，针对不同屋主的需求，用可持续的人性化设计，为屋主们化解生活中的困扰，创造理想的家~</p>"
+    "宜家自制家居改造系列节目《宜家去你家》 由宜家设计师走进真实家庭，针对不同屋主的需求，用可持续的人性化设计，为屋主们化解生活中的困扰，创造理想的家~"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "40aa0fd7bb234377904cda548a92f52d"
    }
@@ -70,7 +86,7 @@
    "texts": [
     "image-text-landscape",
     "IMAGE",
-    "<p>是干练敬业的职场女性也是无微不至的称职妈妈，工作生活二合一到同一个空间真的可以轻松融合吗？</p>",
+    "是干练敬业的职场女性也是无微不至的称职妈妈，工作生活二合一到同一个空间真的可以轻松融合吗？",
     "《宜家去你家》第5期",
     "#FFFFFF",
     "text"
@@ -84,6 +100,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/04/9a/049a653db7f05d8f51493c3d9dbf2425.jpg",
+     "href": null,
+     "backgroundColor": "#f5f5f5"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "696be6a7606244c1ad9054657b19957c"
    }
@@ -96,7 +122,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<p><strong>罗罗是个博主，更是两个孩子的妈妈，</strong><br />她爱孩子也爱工作，用心带娃也痴迷于寻找最好的育儿产品。</p>\n<p>随着二宝出生，两个孩子慢慢长大，罗罗的工作和生活节奏面临着新的挑战，家庭与工作团队，孩子与粉丝，是平衡还是取舍？</p>",
+    "罗罗是个博主，更是两个孩子的妈妈， 她爱孩子也爱工作，用心带娃也痴迷于寻找最好的育儿产品。 随着二宝出生，两个孩子慢慢长大，罗罗的工作和生活节奏面临着新的挑战，家庭与工作团队，孩子与粉丝，是平衡还是取舍？",
     "pub-text"
    ],
    "images": [
@@ -113,6 +139,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/47/2b/472b8a5cdc5ef669920a4114ae3159ef.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/45/c4/45c45898e02af4b7c9124dc639c0bfe7.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/47/2b/472b8a5cdc5ef669920a4114ae3159ef.jpg",
+     "href": null
+    },
+    {
+     "heading": "罗罗是个博主，更是两个孩子的妈妈， 她爱孩子也爱工作，用心带娃也痴迷于寻找最好的育儿产品。 随着二宝出生，两个孩子慢慢长大，罗罗的工作和生活节奏面临着新的挑战，家庭与工作团队，孩子与粉丝，是平衡还是取舍？",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/45/c4/45c45898e02af4b7c9124dc639c0bfe7.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "59b01581c0d6479498ef2e31d436e177"
    }
@@ -125,6 +182,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "f5c96cb50a6c4e77817ba6c359115bae"
    }
@@ -147,6 +206,24 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/3a/b7/3ab7388bc1f15817ec96b90d68f9ef56.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/3a/b7/3ab7388bc1f15817ec96b90d68f9ef56.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "8e5767b30a474f8ba80435ef331aae6e"
    }
@@ -155,10 +232,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>其实，像罗罗这样的职业妈妈并不在少数，她们身兼&ldquo;数职&ldquo;，又对每个角色都有着不低的标准，有限的时间和精力恨不得掰碎了用，在家办公逐显常态。这次改造，设计师Josefina和Lily大胆打破了工作和家的边缘感，逆向思维设计了一个&ldquo;办公室变家&ldquo;的概念空间, 并将宜家所擅长的空间规划、储物收纳及儿童空间三效合一。</p>"
+    "其实，像罗罗这样的职业妈妈并不在少数，她们身兼“数职“，又对每个角色都有着不低的标准，有限的时间和精力恨不得掰碎了用，在家办公逐显常态。这次改造，设计师Josefina和Lily大胆打破了工作和家的边缘感，逆向思维设计了一个“办公室变家“的概念空间, 并将宜家所擅长的空间规划、储物收纳及儿童空间三效合一。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "ebf302d92c0248a196486133040821e1"
    }
@@ -179,6 +258,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/54/d5/54d5db3be42f39add6de77cb711a34e5.gif",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "022ebb169ab448d0a91d295226f31e46"
    }
@@ -191,6 +280,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "9dd8c9ddc9b24054aca0e3644cbfff0a"
    }
@@ -199,10 +290,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>工作区改造</strong> | <a href=\"#becefb20-c422-11eb-8bf9-af7fc4a05407\">公共区域改造</a> | <a href=\"#c5686f20-c422-11eb-8bf9-af7fc4a05407\">茶歇区改造</a></p>"
+    "工作区改造 | 公共区域改造 | 茶歇区改造"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "5ff6ce74d3f1475f99f2d0cf0d002bf7"
    }
@@ -225,6 +318,24 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/3f/15/3f15992c83b818302431cfb0a4254dd9.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/3f/15/3f15992c83b818302431cfb0a4254dd9.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "84da2562356b4120a53d8fa96c0cd931"
    }
@@ -233,10 +344,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>改造前：</strong>清冷空荡的办公空间。</p>\n<p><strong>改造后：</strong>增加&ldquo;家&rdquo;的元素，实现一个空间的综合功能。</p>"
+    "改造前：清冷空荡的办公空间。 改造后：增加“家”的元素，实现一个空间的综合功能。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "92711f95764b4e1193683ba221737c71"
    }
@@ -249,7 +362,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<p>▲罗罗的办公室空荡荡，没有适合孩子活动的舒适空间，就连办公也提不起兴趣，罗罗之前多选择在家办公，但与团队线上沟通，难免影响效率。</p>",
+    "▲罗罗的办公室空荡荡，没有适合孩子活动的舒适空间，就连办公也提不起兴趣，罗罗之前多选择在家办公，但与团队线上沟通，难免影响效率。",
     "pub-text"
    ],
    "images": [
@@ -266,6 +379,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/31/24/31241866e27f44534d63a1509a336f44.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/4b/f2/4bf21f36d31b496ad612822ad1960b57.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "▲罗罗的办公室空荡荡，没有适合孩子活动的舒适空间，就连办公也提不起兴趣，罗罗之前多选择在家办公，但与团队线上沟通，难免影响效率。",
+     "image": "https://file.app.ikea.cn/images/31/24/31241866e27f44534d63a1509a336f44.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "▲ 改造后，整个空间从冰冷反转到温馨，从单一功能变成了办公、储物、休息和儿童玩耍四大功能。其中，休息区可以让孩子小憩，也可以供罗罗放松和发呆；可调节高度的书桌既可以实现站立办公，也可以让大女儿做学习桌，空间功能变多却更加宽敞实用。",
+     "image": "https://file.app.ikea.cn/images/4b/f2/4bf21f36d31b496ad612822ad1960b57.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "dcf9d3c538aa48c7b75602846272a82b"
    }
@@ -278,7 +422,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<p>最大的一面墙体使用了普拉萨储物系列，充分利用垂直空间，凭空多出一整面的收纳空间，配搭柜门和内置收纳件，容量大、好分类，罗罗的日常用品和各类试用产品的收纳轻松搞定。较小的墙面则利用洞洞板展示照片，起到了很好的装饰作用。</p>",
+    "最大的一面墙体使用了普拉萨储物系列，充分利用垂直空间，凭空多出一整面的收纳空间，配搭柜门和内置收纳件，容量大、好分类，罗罗的日常用品和各类试用产品的收纳轻松搞定。较小的墙面则利用洞洞板展示照片，起到了很好的装饰作用。",
     "pub-text"
    ],
    "images": [
@@ -290,6 +434,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/03/ca/03ca249b43394344eca225e86be85310.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/03/ca/03ca249b43394344eca225e86be85310.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "最大的一面墙体使用了普拉萨储物系列，充分利用垂直空间，凭空多出一整面的收纳空间，配搭柜门和内置收纳件，容量大、好分类，罗罗的日常用品和各类试用产品的收纳轻松搞定。较小的墙面则利用洞洞板展示照片，起到了很好的装饰作用。",
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "1a1f3e2e7c024c739ef32d58eee05079"
    }
@@ -299,7 +467,7 @@
    "title": null,
    "texts": [
     "pub-column",
-    "<p>工作之余，罗罗需要休息放松的地方，宝宝也需要尽情玩乐的场所。两位设计师特地在她的办公空间内打造了一个创意儿童区。精心挑选安全温馨的儿童家具，规划出大量儿童储物空间，为孩子的玩乐时光创造惊喜、舒适的体验。</p>",
+    "工作之余，罗罗需要休息放松的地方，宝宝也需要尽情玩乐的场所。两位设计师特地在她的办公空间内打造了一个创意儿童区。精心挑选安全温馨的儿童家具，规划出大量儿童储物空间，为孩子的玩乐时光创造惊喜、舒适的体验。",
     "pub-text",
     "pub-image",
     "IMAGE",
@@ -314,6 +482,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/43/0e/430e7cf3eb4bc3890106d974923d102f.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "工作之余，罗罗需要休息放松的地方，宝宝也需要尽情玩乐的场所。两位设计师特地在她的办公空间内打造了一个创意儿童区。精心挑选安全温馨的儿童家具，规划出大量儿童储物空间，为孩子的玩乐时光创造惊喜、舒适的体验。",
+     "image": null,
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/43/0e/430e7cf3eb4bc3890106d974923d102f.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "c81045f52db44725982d9d82baf52bcd"
    }
@@ -326,7 +518,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<p>&nbsp;小巧的儿童扶手椅贴合幼儿身形，与宽厚柔软的折叠坐垫并排安置，形成儿童阅读角，是罗罗闲时为孩子讲述绘本故事的理想地点。</p>",
+    "小巧的儿童扶手椅贴合幼儿身形，与宽厚柔软的折叠坐垫并排安置，形成儿童阅读角，是罗罗闲时为孩子讲述绘本故事的理想地点。",
     "pub-text"
    ],
    "images": [
@@ -338,6 +530,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/96/a3/96a32a92be6520623b5849a53af42c7d.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/96/a3/96a32a92be6520623b5849a53af42c7d.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "小巧的儿童扶手椅贴合幼儿身形，与宽厚柔软的折叠坐垫并排安置，形成儿童阅读角，是罗罗闲时为孩子讲述绘本故事的理想地点。",
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "c53366d4fc1e4bccbc9c3260bf126ed1"
    }
@@ -350,7 +566,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<p>▲ 办公、看书、玩耍、绘画&hellip;&hellip;罗罗和孩子的需求都得到了实现。充满童趣创意的空间里，一半宁静安逸，一半活力满满，这些将一直陪着小七长大，成为&ldquo;家&rdquo;的另一种延伸形式，也让罗罗与孩子能共享美妙的亲子时光。</p>",
+    "▲ 办公、看书、玩耍、绘画……罗罗和孩子的需求都得到了实现。充满童趣创意的空间里，一半宁静安逸，一半活力满满，这些将一直陪着小七长大，成为“家”的另一种延伸形式，也让罗罗与孩子能共享美妙的亲子时光。",
     "pub-text"
    ],
    "images": [
@@ -367,6 +583,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/37/11/3711b134b9965736ce4159385f9e7643.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/66/4a/664a70bf251ccd0ca8ae994da826135b.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "▲ 办公、看书、玩耍、绘画……罗罗和孩子的需求都得到了实现。充满童趣创意的空间里，一半宁静安逸，一半活力满满，这些将一直陪着小七长大，成为“家”的另一种延伸形式，也让罗罗与孩子能共享美妙的亲子时光。",
+     "image": "https://file.app.ikea.cn/images/37/11/3711b134b9965736ce4159385f9e7643.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "▲ 办公桌斜对儿童区，罗罗处理工作时，小七的一举一动也尽在她的视野范围中，不仅让罗罗感到放心，也能实现同一空间下的互相陪伴。",
+     "image": "https://file.app.ikea.cn/images/66/4a/664a70bf251ccd0ca8ae994da826135b.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "0904a86ac2224331a9174d094dedadd6"
    }
@@ -379,7 +626,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<p>当罗罗想要一个人放松独处时，窗边的沙发便是个舒服的休憩角落，用来陪孩子玩耍、哄孩子午睡也是恰到好处。踏脚凳温暖质朴，方便罗罗轻松拿取高处的物品，也可以充当孩子的小木桌置物。&nbsp;</p>",
+    "当罗罗想要一个人放松独处时，窗边的沙发便是个舒服的休憩角落，用来陪孩子玩耍、哄孩子午睡也是恰到好处。踏脚凳温暖质朴，方便罗罗轻松拿取高处的物品，也可以充当孩子的小木桌置物。",
     "pub-text"
    ],
    "images": [
@@ -391,6 +638,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b2/d5/b2d5c2d94eb1a127ece3a6413d974673.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/b2/d5/b2d5c2d94eb1a127ece3a6413d974673.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "当罗罗想要一个人放松独处时，窗边的沙发便是个舒服的休憩角落，用来陪孩子玩耍、哄孩子午睡也是恰到好处。踏脚凳温暖质朴，方便罗罗轻松拿取高处的物品，也可以充当孩子的小木桌置物。",
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "c9dc936f04dc4c27b7270a14103f3594"
    }
@@ -408,6 +679,50 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "SKÅDIS 斯考迪斯",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/skadis-si-kao-di-si-dong-dong-ban-bai-se__0710682_pe727708_s4.jpg",
+     "href": "/cn/zh/p/skadis-si-kao-di-si-dong-dong-ban-bai-se-30320806/"
+    },
+    {
+     "title": "GRINDEBO 格林德布",
+     "text": "¥399",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/grindebo-ge-lin-de-bu-gong-zuo-deng-dai-wu-xian-chong-dian__0986965_pe817430_s4.jpg",
+     "href": "/cn/zh/p/grindebo-ge-lin-de-bu-gong-zuo-deng-dai-wu-xian-chong-dian-00500154/"
+    },
+    {
+     "title": "NYMÅNE 纽墨奈",
+     "text": "¥299",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/nymane-niu-mo-nai-xi-ding-deng-dai-4-ge-she-deng-bai-se__0607350_pe682899_s4.jpg",
+     "href": "/cn/zh/p/nymane-niu-mo-nai-xi-ding-deng-dai-4ge-she-deng-bai-se-50337702/"
+    },
+    {
+     "title": "PLATSA 普拉萨",
+     "text": "¥200",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/platsa-pu-la-sa-kuang-jia-bai-se__0721325_pe733171_s4.jpg",
+     "href": "/cn/zh/p/platsa-pu-la-sa-kuang-jia-bai-se-30387477/"
+    },
+    {
+     "title": "PLATSA 普拉萨",
+     "text": "¥400",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/platsa-pu-la-sa-kuang-jia-bai-se__0721338_pe733181_s4.jpg",
+     "href": "/cn/zh/p/platsa-pu-la-sa-kuang-jia-bai-se-60387490/"
+    },
+    {
+     "title": "LÅNGFJÄLL 隆菲尔",
+     "text": "¥500",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/langfjaell-long-fei-er-xing-xing-di-zuo-5-tiao-tui-he-jiao-lun-bai-se__0568484_pe665477_s4.jpg",
+     "href": "/cn/zh/p/langfjaell-long-fei-er-xing-xing-di-zuo-5-tiao-tui-he-jiao-lun-bai-se-50410537/"
+    },
+    {
+     "title": "FONNES 福纳",
+     "text": "¥100",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/fonnes-fu-na-gui-men-bai-se__0558814_pe661654_s4.jpg",
+     "href": "/cn/zh/p/fonnes-fu-na-gui-men-bai-se-10386266/"
+    }
+   ],
    "settings": {
     "traceId": "b5cd8e9158cf490bafcbfe7c2e45efa3"
    }
@@ -425,6 +740,26 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "NYMÅNE 纽墨奈",
+     "text": "¥279",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/nymane-niu-mo-nai-luo-di-deng-yue-du-deng-bai-se__0662532_pe711964_s4.jpg",
+     "href": "/cn/zh/p/nymane-niu-mo-nai-luo-di-deng-yue-du-deng-bai-se-10336785/"
+    },
+    {
+     "title": "STOENSE 斯托恩瑟",
+     "text": "¥399",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/stoense-si-tuo-en-se-duan-rong-di-tan-zhong-hui-se__0622587_pe690625_s4.jpg",
+     "href": "/cn/zh/p/stoense-si-tuo-en-se-duan-rong-di-tan-zhong-hui-se-60426830/"
+    },
+    {
+     "title": "BEKVÄM 贝卡姆",
+     "text": "¥129",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/bekvaem-bei-qia-mu-ta-jiao-deng-bai-yang__0728262_pe736144_s4.jpg",
+     "href": "/cn/zh/p/bekvaem-bei-qia-mu-ta-jiao-deng-bai-yang-50225592/"
+    }
+   ],
    "settings": {
     "traceId": "002474f621db4ce4b4f6582528249759"
    }
@@ -447,6 +782,24 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/15/de/15de0bca60f7823a65af441ebf5d6df6.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/15/de/15de0bca60f7823a65af441ebf5d6df6.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "bf5eded03bd24ffbbec489e9d8020742"
    }
@@ -455,10 +808,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>改造前：</strong>区域制式分割，界限感交流模式。</p>\n<p><strong>改造后：</strong>储物、隔断两不误，空间和交流双打通。</p>"
+    "改造前：区域制式分割，界限感交流模式。 改造后：储物、隔断两不误，空间和交流双打通。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "f6bc16278d1f47138838bb568390ed79"
    }
@@ -471,7 +826,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<p>▲ 罗罗的办公区一面为滑动玻璃门，空间上完全隔开了她与团队小伙伴的区域，也似乎不符合这个以交流沟通为主团队的气质。</p>",
+    "▲ 罗罗的办公区一面为滑动玻璃门，空间上完全隔开了她与团队小伙伴的区域，也似乎不符合这个以交流沟通为主团队的气质。",
     "pub-text"
    ],
    "images": [
@@ -488,6 +843,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/2e/a1/2ea190a9733c006711bb3484a493943f.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e2/b9/e2b99afeca9d4dfdc61b2f06295de971.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "▲ 罗罗的办公区一面为滑动玻璃门，空间上完全隔开了她与团队小伙伴的区域，也似乎不符合这个以交流沟通为主团队的气质。",
+     "image": "https://file.app.ikea.cn/images/2e/a1/2ea190a9733c006711bb3484a493943f.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "▲ 改造后，开放式的储物架既承担了隔断作用，又增加了储物功能，成了大家共享的办公储物边桌。这种设计私密与共享、通透与分隔兼具，美观实用又似乎给团队增加了一个沟通的神秘通道。",
+     "image": "https://file.app.ikea.cn/images/e2/b9/e2b99afeca9d4dfdc61b2f06295de971.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "f4a09edc1ac745acb1c3facc2c83d6ce"
    }
@@ -500,7 +886,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<p>这种设计保留私密性，又不隔断罗罗与同事的沟通联系。双方的文件、平板电脑可以轻松传递，便于随时展开讨论，大大拉近了他们的沟通距离。</p>",
+    "这种设计保留私密性，又不隔断罗罗与同事的沟通联系。双方的文件、平板电脑可以轻松传递，便于随时展开讨论，大大拉近了他们的沟通距离。",
     "pub-text"
    ],
    "images": [
@@ -512,6 +898,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/bd/47/bd4738d56aded6053c62db7776b62537.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/bd/47/bd4738d56aded6053c62db7776b62537.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "这种设计保留私密性，又不隔断罗罗与同事的沟通联系。双方的文件、平板电脑可以轻松传递，便于随时展开讨论，大大拉近了他们的沟通距离。",
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "292b4a99cd594c07a75a55903a45af4a"
    }
@@ -529,6 +939,26 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "MOPPE 莫培",
+     "text": "¥249",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/moppe-mo-pei-xiao-xing-chou-ti-gui-hua-mu-xiao-he-ban__0135959_pe292948_s4.jpg",
+     "href": "/cn/zh/p/moppe-mo-pei-xiao-xing-chou-ti-gui-hua-mu-xiao-he-ban-90227438/"
+    },
+    {
+     "title": "KYRRE 叙勒",
+     "text": "¥129",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kyrre-xu-le-deng-hua-mu__1488024_pe1003293_s4.jpg",
+     "href": "/cn/zh/p/kyrre-xu-le-deng-hua-mu-80420040/"
+    },
+    {
+     "title": "ELVARLI 爱尔瓦丽",
+     "text": "¥250",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/elvarli-ai-er-wa-li-gan-bai-se__0626242_pe692643_s4.jpg",
+     "href": "/cn/zh/p/elvarli-ai-er-wa-li-gan-bai-se-20296171/"
+    }
+   ],
    "settings": {
     "traceId": "4543c0bf4d4d4955b486462c286cf0ac"
    }
@@ -537,10 +967,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><a href=\"#97342040-c422-11eb-8bf9-af7fc4a05407\">工作区改造</a> | <strong>公共区域改造</strong> | <a href=\"#c5686f20-c422-11eb-8bf9-af7fc4a05407\">茶歇区改造</a></p>"
+    "工作区改造 | 公共区域改造 | 茶歇区改造"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "94b83ef3a60b435cbe1de914f87689f0"
    }
@@ -563,6 +995,24 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ca/e2/cae2520151bc51d8a6e71925a6decfe5.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/ca/e2/cae2520151bc51d8a6e71925a6decfe5.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "68e60ac7a7a94a30ba29c91afdfc3741"
    }
@@ -571,10 +1021,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>改造前：</strong>空间规划不合理，缺少专门的储物区，产品衣服裸露堆积。</p>\n<p><strong>设计思路：</strong>设置丰富的墙面储物方案，集中收纳更整洁。</p>"
+    "改造前：空间规划不合理，缺少专门的储物区，产品衣服裸露堆积。 设计思路：设置丰富的墙面储物方案，集中收纳更整洁。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "7cda9106472b4d9fb3ffdf55216e18e7"
    }
@@ -587,7 +1039,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<p>▲ 作为一位博主，罗罗经常要在办公室测评产品、搭配服装、拍摄视频。地上的书籍杂物和裸露的衣架，既压缩了可活动区域，也使得空间看起来杂乱无序。</p>",
+    "▲ 作为一位博主，罗罗经常要在办公室测评产品、搭配服装、拍摄视频。地上的书籍杂物和裸露的衣架，既压缩了可活动区域，也使得空间看起来杂乱无序。",
     "pub-text"
    ],
    "images": [
@@ -604,6 +1056,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/07/05/0705cdc825be9981d6c56a9f1b634916.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/72/22/72226ee57b4c3425b5e0277f91f379a2.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "▲ 作为一位博主，罗罗经常要在办公室测评产品、搭配服装、拍摄视频。地上的书籍杂物和裸露的衣架，既压缩了可活动区域，也使得空间看起来杂乱无序。",
+     "image": "https://file.app.ikea.cn/images/07/05/0705cdc825be9981d6c56a9f1b634916.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "▲ 为了解决罗罗不断增加的收纳需求，设计师们充分利用垂直空间，将空置的墙面打造成多层次储物空间。物品集中收纳，便于使用和归位，视觉上也显得格外整洁。",
+     "image": "https://file.app.ikea.cn/images/72/22/72226ee57b4c3425b5e0277f91f379a2.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "4ff1745303d742b98d32fa1586596d21"
    }
@@ -616,7 +1099,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<p>温暖的木质墙搁板兼具储物和展示作用，可以放置生活小物件，也可以陈列各种书籍。当工作遇到瓶颈时，这里就成为了寻找灵感、查阅资料的理想场所。&nbsp;</p>",
+    "温暖的木质墙搁板兼具储物和展示作用，可以放置生活小物件，也可以陈列各种书籍。当工作遇到瓶颈时，这里就成为了寻找灵感、查阅资料的理想场所。",
     "pub-text"
    ],
    "images": [
@@ -628,6 +1111,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/38/96/3896c395af7953cfa79abae301d48a3d.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/38/96/3896c395af7953cfa79abae301d48a3d.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "温暖的木质墙搁板兼具储物和展示作用，可以放置生活小物件，也可以陈列各种书籍。当工作遇到瓶颈时，这里就成为了寻找灵感、查阅资料的理想场所。",
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "e12350950f7942ee9a1330b40b9f89d8"
    }
@@ -637,7 +1144,7 @@
    "title": null,
    "texts": [
     "pub-column",
-    "<p>衣柜单元能同时收纳和陈列大量衣物，大人和孩子的衣物由高至低、层次分明地摆放，孩子可以自由取用衣物。更令人惊喜的是，原来不起眼的小角落，竟被开辟为一个小更衣室，隐蔽舒适，可以为更多私密需求服务。</p>",
+    "衣柜单元能同时收纳和陈列大量衣物，大人和孩子的衣物由高至低、层次分明地摆放，孩子可以自由取用衣物。更令人惊喜的是，原来不起眼的小角落，竟被开辟为一个小更衣室，隐蔽舒适，可以为更多私密需求服务。",
     "pub-text",
     "pub-image",
     "IMAGE",
@@ -652,6 +1159,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/0e/c9/0ec9f14b28bcb42d6aa60f5334c8f414.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "衣柜单元能同时收纳和陈列大量衣物，大人和孩子的衣物由高至低、层次分明地摆放，孩子可以自由取用衣物。更令人惊喜的是，原来不起眼的小角落，竟被开辟为一个小更衣室，隐蔽舒适，可以为更多私密需求服务。",
+     "image": null,
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/0e/c9/0ec9f14b28bcb42d6aa60f5334c8f414.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "c036f28b1000439982a377ed12ca23ca"
    }
@@ -669,6 +1200,26 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "NISSEDAL 尼瑟达",
+     "text": "¥199",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/nissedal-ni-se-da-jing-zi-bai-se__0637801_pe698597_s4.jpg",
+     "href": "/cn/zh/p/nissedal-ni-se-da-jing-zi-bai-se-90320323/"
+    },
+    {
+     "title": "FLISAT 福丽萨特",
+     "text": "¥129",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/flisat-fu-li-sa-te-bi-shi-chu-wu-zhuang-zhi-bai-qi-song-mu__0642799_pe701440_s4.jpg",
+     "href": "/cn/zh/p/flisat-fu-li-sa-te-bi-shi-chu-wu-zhuang-zhi-bai-qi-song-mu-10299820/"
+    },
+    {
+     "title": "PLATSA 普拉萨",
+     "text": "¥300",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/platsa-pu-la-sa-kai-fang-shi-gua-yi-dan-yuan-bai-se__0772509_pe756010_s4.jpg",
+     "href": "/cn/zh/p/platsa-pu-la-sa-kai-fang-shi-gua-yi-dan-yuan-bai-se-20452604/"
+    }
+   ],
    "settings": {
     "traceId": "b700aba3b440430f8410793b79f18151"
    }
@@ -691,6 +1242,24 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/45/62/4562055630e3d9502d460df97a8c1e69.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/45/62/4562055630e3d9502d460df97a8c1e69.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "b57ee8169aeb4f08ac3c7a5d1e514b15"
    }
@@ -699,10 +1268,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>改造前：</strong>传统大尺寸办公桌，居中占地过多，刻板严肃空间感差。</p>\n<p><strong>改造后：</strong>简约木桌功能多变，办公、测评、用餐、美观皆担当。</p>"
+    "改造前：传统大尺寸办公桌，居中占地过多，刻板严肃空间感差。 改造后：简约木桌功能多变，办公、测评、用餐、美观皆担当。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "d14a9ba0b29d4ef38a9337b71c721d65"
    }
@@ -715,7 +1286,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<p>▲ 原本团队办公桌自带储物柜，但桌面仍显凌乱拥挤。厚重的体积，占用了较大室内空间。</p>",
+    "▲ 原本团队办公桌自带储物柜，但桌面仍显凌乱拥挤。厚重的体积，占用了较大室内空间。",
     "pub-text"
    ],
    "images": [
@@ -732,6 +1303,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/15/fb/15fb30fbc770db1519ce0772a339c660.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/79/54/79544f09ab4dc4237f4026e1daf9169c.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "▲ 原本团队办公桌自带储物柜，但桌面仍显凌乱拥挤。厚重的体积，占用了较大室内空间。",
+     "image": "https://file.app.ikea.cn/images/15/fb/15fb30fbc770db1519ce0772a339c660.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "▲ 将储物交给隔断和专门的储物区后，设计师选择了更加灵活、适用范围更广的的木餐桌来替代办公桌。木头的自然肌理质感也为空间增添了更多温暖的感觉。",
+     "image": "https://file.app.ikea.cn/images/79/54/79544f09ab4dc4237f4026e1daf9169c.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "42bf815e2dee48b399efa4ec1992dc91"
    }
@@ -744,7 +1346,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<p>改造后的工作区域，多了一份在家办公的自在氛围。偶尔团队聚餐，或为同事庆生，只需稍微布置下，就能将办公桌变为餐桌，一起享用丰盛美食。</p>",
+    "改造后的工作区域，多了一份在家办公的自在氛围。偶尔团队聚餐，或为同事庆生，只需稍微布置下，就能将办公桌变为餐桌，一起享用丰盛美食。",
     "pub-text"
    ],
    "images": [
@@ -756,6 +1358,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/2c/88/2c8821b8cd0b85e73e531e3b51c2bc7f.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/2c/88/2c8821b8cd0b85e73e531e3b51c2bc7f.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "改造后的工作区域，多了一份在家办公的自在氛围。偶尔团队聚餐，或为同事庆生，只需稍微布置下，就能将办公桌变为餐桌，一起享用丰盛美食。",
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "3adece40c5594fe3844a4adffa22107d"
    }
@@ -768,7 +1394,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<p>▲ 办公室的尽头开辟了一块窗边休闲区。带脚轮长凳和软靠枕是理想拍档，既能提供安静思考的空间，又能物尽其用，增加收纳。</p>",
+    "▲ 办公室的尽头开辟了一块窗边休闲区。带脚轮长凳和软靠枕是理想拍档，既能提供安静思考的空间，又能物尽其用，增加收纳。",
     "pub-text"
    ],
    "images": [
@@ -785,6 +1411,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/06/6e/066ee88aa9d5bc5730ac8d5bd0876ca7.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/54/f2/54f289ff8109b508616140810d5cb9d3.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "▲ 办公室的尽头开辟了一块窗边休闲区。带脚轮长凳和软靠枕是理想拍档，既能提供安静思考的空间，又能物尽其用，增加收纳。",
+     "image": "https://file.app.ikea.cn/images/06/6e/066ee88aa9d5bc5730ac8d5bd0876ca7.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "▲ 工作累了，罗罗和小伙伴们可以坐在这里聊天、看书、冥想、享受阳光。",
+     "image": "https://file.app.ikea.cn/images/54/f2/54f289ff8109b508616140810d5cb9d3.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "3244947c01fa448a8116c4f8f70d829c"
    }
@@ -797,7 +1454,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<p>这里绿植环绕，目光所及之处一派自然清新，堪称令人向往的花园式理想办公区。</p>",
+    "这里绿植环绕，目光所及之处一派自然清新，堪称令人向往的花园式理想办公区。",
     "pub-text"
    ],
    "images": [
@@ -809,6 +1466,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/fe/e3/fee3036cfbad410284e1cd13dfdbacff.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/fe/e3/fee3036cfbad410284e1cd13dfdbacff.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "这里绿植环绕，目光所及之处一派自然清新，堪称令人向往的花园式理想办公区。",
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "dadf99b65f974cdfb1b136a3b1faad8b"
    }
@@ -818,7 +1499,7 @@
    "title": null,
    "texts": [
     "pub-column",
-    "<p>透光不透影的帘子拉上，免去两个区域互扰的烦恼，快速放松身心，满格充电。</p>",
+    "透光不透影的帘子拉上，免去两个区域互扰的烦恼，快速放松身心，满格充电。",
     "pub-text",
     "pub-image",
     "IMAGE",
@@ -833,6 +1514,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/c1/06/c106c4db032bf847983ff2049a871282.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "透光不透影的帘子拉上，免去两个区域互扰的烦恼，快速放松身心，满格充电。",
+     "image": null,
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/c1/06/c106c4db032bf847983ff2049a871282.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "d691290462204db9b306aff07c05eb30"
    }
@@ -850,6 +1555,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "SATSUMAS 沙图玛斯",
+     "text": "¥249",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/satsumas-sha-tu-ma-si-zhi-wu-jia-zhu-bai-se__0635819_pe697396_s4.jpg",
+     "href": "/cn/zh/p/satsumas-sha-tu-ma-si-zhi-wu-jia-zhu-bai-se-80294961/"
+    },
+    {
+     "title": "SATSUMAS 沙图玛斯",
+     "text": "¥199",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/satsumas-sha-tu-ma-si-zhi-wu-jia-zhu-bai-se__0635815_pe697397_s4.jpg",
+     "href": "/cn/zh/p/satsumas-sha-tu-ma-si-zhi-wu-jia-zhu-bai-se-60294962/"
+    }
+   ],
    "settings": {
     "traceId": "d0f90f1897164f0cbef2f00a11658e61"
    }
@@ -858,10 +1577,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><a href=\"#97342040-c422-11eb-8bf9-af7fc4a05407\">工作区改造</a> | <a href=\"#becefb20-c422-11eb-8bf9-af7fc4a05407\">公共区域改造</a> | <strong>茶歇区改造</strong></p>"
+    "工作区改造 | 公共区域改造 | 茶歇区改造"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "83595c9a946e432fa190ef07cd89c5a8"
    }
@@ -884,6 +1605,24 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/05/bb/05bbb893b565a42a21098a67a822e663.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/05/bb/05bbb893b565a42a21098a67a822e663.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "43ea859b5e7e431fb364ac220880c1e9"
    }
@@ -892,10 +1631,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>改造前：</strong> 摆设简单，空间没有规划利用。</p>\n<p><strong>设计思路：</strong>融入多种场景，将茶歇区植入社交社区的概念。</p>"
+    "改造前： 摆设简单，空间没有规划利用。 设计思路：融入多种场景，将茶歇区植入社交社区的概念。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "a58e902e13324d2aac0fa18033f42456"
    }
@@ -908,7 +1649,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<p>▲ 进门的区域，只有一张沙发、饮水机，简易的书架和散落的物品，并无规划。</p>",
+    "▲ 进门的区域，只有一张沙发、饮水机，简易的书架和散落的物品，并无规划。",
     "pub-text"
    ],
    "images": [
@@ -925,6 +1666,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ef/e4/efe418728480b2a4bccc4b5c5a1b7eea.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/fc/a0/fca086fd12be33322025d4a0c502c426.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "▲ 进门的区域，只有一张沙发、饮水机，简易的书架和散落的物品，并无规划。",
+     "image": "https://file.app.ikea.cn/images/ef/e4/efe418728480b2a4bccc4b5c5a1b7eea.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "▲ 工作中的小伙伴每天都要在一起很多的时间，某种程度上，同事也变成了”一家人“。改造后，这里成了“家“中透着高级感的茶歇区, 有了这个区域, 团队可以换一种轻松的方式探讨和碰撞创意，罗罗也可以将会客从外面的咖啡厅挪回自己的“家”。",
+     "image": "https://file.app.ikea.cn/images/fc/a0/fca086fd12be33322025d4a0c502c426.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "441892d465f34a63aee274dd1b54f270"
    }
@@ -937,7 +1709,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<p>利用简约的小型家具来赋予空间更多功能，是一种行之有效的改造思路。灵活轻巧的家具可以随意拉出移动，方便罗罗他们打造成自己想要的样子。</p>\n<p>作为&ldquo;家的延伸&rdquo;，这里充满无限可能：&nbsp;</p>",
+    "利用简约的小型家具来赋予空间更多功能，是一种行之有效的改造思路。灵活轻巧的家具可以随意拉出移动，方便罗罗他们打造成自己想要的样子。 作为“家的延伸”，这里充满无限可能：",
     "pub-text"
    ],
    "images": [
@@ -949,6 +1721,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ab/ca/abcad2a7d542734c130afd2668a34244.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/ab/ca/abcad2a7d542734c130afd2668a34244.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "利用简约的小型家具来赋予空间更多功能，是一种行之有效的改造思路。灵活轻巧的家具可以随意拉出移动，方便罗罗他们打造成自己想要的样子。 作为“家的延伸”，这里充满无限可能：",
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "efcd39a53dd3462886fe3ff6af2f1a66"
    }
@@ -961,7 +1757,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<p><strong>创意区</strong></p>\n<p>来场小型的头脑风暴，灵感即刻迸发！</p>",
+    "创意区 来场小型的头脑风暴，灵感即刻迸发！",
     "pub-text"
    ],
    "images": [
@@ -983,6 +1779,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/0c/90/0c90094da37ef9b814e07668ce8e355a.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/3f/43/3f438c48a563c46bca4f6afb7d941f81.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/87/60/87607147655ed94438c00125069df0ce.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "创意区 来场小型的头脑风暴，灵感即刻迸发！",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/0c/90/0c90094da37ef9b814e07668ce8e355a.jpg",
+     "href": null
+    },
+    {
+     "heading": "游戏区 放下工作，和孩子玩在一起。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/3f/43/3f438c48a563c46bca4f6afb7d941f81.jpg",
+     "href": null
+    },
+    {
+     "heading": "饮用区 工作太久，冲杯咖啡提提神。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/87/60/87607147655ed94438c00125069df0ce.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "04ee36e968d7436088b0df79c74b5e86"
    }
@@ -1000,6 +1840,26 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "EKET 伊克特",
+     "text": "¥600",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/eket-yi-ke-te-chu-gui-shuang-men-yi-ge-ban-bai-se__0472902_pe614311_s4.jpg",
+     "href": "/cn/zh/p/eket-yi-ke-te-chu-gui-shuang-men-yi-ge-ban-bai-se-80333953/"
+    },
+    {
+     "title": "LAGKAPTEN 拉格开普",
+     "text": "¥269",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lagkapten-la-ge-kai-pu-zhuo-mian-bai-se__0977800_pe813782_s4.jpg",
+     "href": "/cn/zh/p/lagkapten-la-ge-kai-pu-zhuo-mian-bai-se-20460821/"
+    },
+    {
+     "title": "DALFRED 达夫利",
+     "text": "¥399",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/dalfred-da-fu-li-ba-tai-deng-hei-se__0727486_pe735711_s4.jpg",
+     "href": "/cn/zh/p/dalfred-da-fu-li-ba-tai-deng-hei-se-40161595/"
+    }
+   ],
    "settings": {
     "traceId": "d710b30c4d91461f8f6658087be19242"
    }
@@ -1010,7 +1870,7 @@
    "texts": [
     "image-text-landscape",
     "IMAGE",
-    "<p>这次改造，宜家大胆突破了家和办公空间的固定边缘，让家的边界随着人的活动而拓展。面对越来越多像罗罗这样的新型职业妈妈，宜家用这种方式给大家展示了另一种可能性。有时，面临选择，我们不一定只有取舍，还可以有更多不一样的方法来平衡和更自如地做自己。</p>",
+    "这次改造，宜家大胆突破了家和办公空间的固定边缘，让家的边界随着人的活动而拓展。面对越来越多像罗罗这样的新型职业妈妈，宜家用这种方式给大家展示了另一种可能性。有时，面临选择，我们不一定只有取舍，还可以有更多不一样的方法来平衡和更自如地做自己。",
     "突破固定边缘 自如做自己",
     "#FFFFFF",
     "text"
@@ -1024,6 +1884,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b7/f9/b7f91955c4e3269d9b367882fe9d3410.jpg",
+     "href": null,
+     "backgroundColor": "#f5f5f5"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "1e381f351bdf483da38b4593821a0f35"
    }
@@ -1036,6 +1906,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "3b7e41195c1a4215a41dc8d16e09aad9"
    }
@@ -1044,10 +1916,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>宜家全屋设计</h2>\n<p>专业设计，1对1服务，不论大家小家，都能变成理想的家！</p>"
+    "宜家全屋设计 专业设计，1对1服务，不论大家小家，都能变成理想的家！"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "c881e50ebc2e441b801fda8f683b9c0a"
    }
@@ -1076,6 +1950,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/60/51/60518531c4ac24d939b3cc07fbe8b79a.jpg",
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fwrd.family.ikea.cn%2Fwrd%3Fchannel%3DOA-Club-Article%26cl_sr%3DOA-Club-Article",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "56a1cbb5b57a4863bccc2b27639b9a5a"
    }
@@ -1088,6 +1972,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "4af627e33b4f4e6e8f16bb24c9442f51"
    }
@@ -1110,6 +1996,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cc4b630c917c4f13877f8a4d77f32aab"
    }

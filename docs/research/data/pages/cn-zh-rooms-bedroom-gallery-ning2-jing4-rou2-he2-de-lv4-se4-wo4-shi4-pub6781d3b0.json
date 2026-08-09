@@ -11,7 +11,7 @@
    "title": "宁静柔和的绿色卧室",
    "texts": [
     "卧室选用绿色和黑色的家具，搭配裱框图画和GUNNARED 刚纳瑞德 浅绿色软包床架。",
-    "<p>当卧室里所有物品各得其位，周围的环境也让你感到愉悦，心情自然更放松，整晚睡得更香。这间卧室用平静惬意的色彩、时尚且实用的家具和舒适的纺织品，打造出一片安宁舒适的绿洲。</p>",
+    "当卧室里所有物品各得其位，周围的环境也让你感到愉悦，心情自然更放松，整晚睡得更香。这间卧室用平静惬意的色彩、时尚且实用的家具和舒适的纺织品，打造出一片安宁舒适的绿洲。",
     "宁静柔和的绿色卧室",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "宁静柔和的绿色卧室",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b3/fa/b3fa8a967e7f0bb9f3c80bad2a3a6772.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -50,6 +60,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "GUNNARED 刚纳瑞德 浅绿色软包床架，搭配两盏黑色吊灯和裱框艺术作品。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/3c4cd74f87932e78/original/PH177890-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -76,6 +96,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "白色/黑色格纹被套和枕套，搭配白色双壁灯，一本书籍打开摆放，还有一副黑色老花镜。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/4daa1485aecbe020/original/PH177859-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -102,6 +132,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "白色/黑色格纹被套和枕套，报纸上有填字游戏，托盘上放着早餐。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/247c4850b483cde0/original/PH177860-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -128,6 +168,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "带储物空间的黑色镜子，黑褐色/玻璃笔记本电脑桌，搭配炭黑色椅子，花瓶中插着白色的花朵。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/765450d003132515/original/PH177891-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -154,6 +204,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "带高光白色柜门的衣柜，上面放着白色储物盒，搭配一张长凳和一面镜子。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/78f1d078cc20ac69/original/PH177892-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -172,6 +232,33 @@
     {
      "href": "/cat/fu001",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "为你提供所需一切，打造梦想中的卧室",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/fu001",
+     "backgroundColor": null
+    },
+    {
+     "title": "ODGER 奥德格",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/odger-ao-de-ge-yi-zi-mei-hei-se__0739669_pe741828_s4.jpg",
+     "href": "/cn/zh/p/odger-ao-de-ge-yi-zi-mei-hei-se-30457314/"
+    },
+    {
+     "title": "PAX 帕克思 / FARDAL 法尔多",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/pax-pa-ke-si-fardal-fa-er-duo-yi-gui-bai-se-gao-guang-bai__0719051_pe731861_s4.jpg",
+     "href": "/cn/zh/p/pax-pa-ke-si-fardal-fa-er-duo-yi-gui-bai-se-gao-guang-bai-99303499/"
+    },
+    {
+     "title": "MELLÖSA 梅瑞莎",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/melloesa-mei-rui-sha-bi-shi-tu-pian-jia-tou-ming__0689494_pe722995_s4.jpg",
+     "href": "/cn/zh/p/melloesa-mei-rui-sha-bi-shi-tu-pian-jia-tou-ming-80446342/"
     }
    ],
    "settings": null
@@ -194,6 +281,39 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "和谐混搭各式纺织品，打造平静谐美的外观",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/tl001",
+     "backgroundColor": null
+    },
+    {
+     "title": "VÄNDEROT 万德隆",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vaenderot-wan-de-long-kao-dian-bai-se__0772709_pe756079_s4.jpg",
+     "href": "/cn/zh/p/vaenderot-wan-de-long-kao-dian-bai-se-10471698/"
+    },
+    {
+     "title": "STOENSE 斯托恩瑟",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/stoense-si-tuo-en-se-duan-rong-di-tan-hui-bai__0624386_pe691799_s4.jpg",
+     "href": "/cn/zh/p/stoense-si-tuo-en-se-duan-rong-di-tan-hui-bai-00425536/"
+    },
+    {
+     "title": "TRETUR 加特尔",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/tretur-jia-te-er-zhe-guang-juan-lian-bai-se__1416370_pe975529_s4.jpg",
+     "href": "/cn/zh/p/tretur-jia-te-er-zhe-guang-juan-lian-bai-se-50491091/"
+    },
+    {
+     "title": "ULLVIDE 乌维达",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ullvide-wu-wei-da-zhen-tao-hui-se__0607076_pe682727_s4.jpg",
+     "href": "/cn/zh/p/ullvide-wu-wei-da-zhen-tao-hui-se-20342795/"
+    }
+   ],
    "settings": null
   },
   {
@@ -214,6 +334,45 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "用声音和光线营造轻松气氛",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/li001",
+     "backgroundColor": null
+    },
+    {
+     "title": "NYMÅNE 纽墨奈",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/nymane-niu-mo-nai-shuang-tou-bi-deng-bai-se__0666566_pe713610_s4.jpg",
+     "href": "/cn/zh/p/nymane-niu-mo-nai-shuang-tou-bi-deng-bai-se-00429025/"
+    },
+    {
+     "title": "DEJSA 德萨",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/dejsa-de-sa-tai-deng-mi-huang-se-ru-bai-se-bo-li__0967540_pe810183_s4.jpg",
+     "href": "/cn/zh/p/dejsa-de-sa-tai-deng-mi-huang-se-ru-bai-se-bo-li-40404985/"
+    },
+    {
+     "title": "SUNNEBY 松尼比",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/sunneby-song-ni-bi-deng-xian-zhuang-zhi-hei-se-fang-zhi-pin__0626518_pe692832_s4.jpg",
+     "href": "/cn/zh/p/sunneby-song-ni-bi-deng-xian-zhuang-zhi-hei-se-fang-zhi-pin-70420253/"
+    },
+    {
+     "title": "REGNSKUR 雷恩斯库",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/regnskur-lei-en-si-ku-diao-deng-zhao-yuan-xing-bai-se__0813129_pe772291_s4.jpg",
+     "href": "/cn/zh/p/regnskur-lei-en-si-ku-diao-deng-zhao-yuan-xing-bai-se-10437949/"
+    },
+    {
+     "title": "NÄVLINGE 纳林格",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/naevlinge-na-lin-ge-led-jia-shi-she-deng-hei-se__0710473_pe727574_s4.jpg",
+     "href": "/cn/zh/p/naevlinge-na-lin-ge-led-jia-shi-she-deng-hei-se-60449879/"
+    }
+   ],
    "settings": null
   },
   {
@@ -232,6 +391,39 @@
     {
      "href": "/cat/de001",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "小细节带来大不同",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/de001",
+     "backgroundColor": null
+    },
+    {
+     "title": "LOMVIKEN 隆维肯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lomviken-long-wei-ken-hua-kuang-hei-se__0638227_pe698778_s4.jpg",
+     "href": "/cn/zh/p/lomviken-long-wei-ken-hua-kuang-hei-se-20314311/"
+    },
+    {
+     "title": "MELLÖSA 梅瑞莎",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/melloesa-mei-rui-sha-bi-shi-tu-pian-jia-tou-ming__0689494_pe722995_s4.jpg",
+     "href": "/cn/zh/p/melloesa-mei-rui-sha-bi-shi-tu-pian-jia-tou-ming-80446342/"
+    },
+    {
+     "title": "LINDBYN 林德比恩",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lindbyn-lin-de-bi-en-jing-zi-hei-se__0798821_pe767397_s4.jpg",
+     "href": "/cn/zh/p/lindbyn-lin-de-bi-en-jing-zi-hei-se-80458622/"
+    },
+    {
+     "title": "CHILISTRÅN 西里斯托",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/chilistran-xi-li-si-tuo-xuan-gua-hua-pen-shi-nei-hu-wai-bai-se__0990165_pe820964_s4.jpg",
+     "href": "/cn/zh/p/chilistran-xi-li-si-tuo-xuan-gua-hua-pen-shi-nei-hu-wai-bai-se-50492260/"
     }
    ],
    "settings": null

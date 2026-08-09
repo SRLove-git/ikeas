@@ -14,16 +14,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>给开学、毕业的你一份清单，助你开启属于自己的新天地！</p>"
+    "给开学、毕业的你一份清单，助你开启属于自己的新天地！"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -50,36 +54,52 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e0/58/e058232c062ed413fec5755ab0b44e99.jpg",
+     "href": "/cn/zh/p/80320804?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>还在苦恼搬去新的地方要带些什么吗？不妨提前三个月将你日常使用的物品记录下来，这可以帮助你确定自己需要带些什么哦！</p>"
+    "还在苦恼搬去新的地方要带些什么吗？不妨提前三个月将你日常使用的物品记录下来，这可以帮助你确定自己需要带些什么哦！"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>社会新人</strong> | <a href=\"#5f091d60-bfff-11ea-a26e-65db6194def7\">大学生</a> | <a href=\"#28c90900-c003-11ea-a26e-65db6194def7\">中小学生</a></p>"
+    "社会新人 | 大学生 | 中小学生"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>给社会新人的清单</p>\n<h2><strong>准备就绪，独立生活第一步&nbsp;</strong></h2>\n<p>和所有其他冒险之旅一样，离开家初入社会会碰到这样或那样的问题。无论你是想要把房间整理得整洁美观，还是想要打造一个舒适个性的休闲区， 我们都可以助你一臂之力。</p>"
+    "给社会新人的清单 准备就绪，独立生活第一步 和所有其他冒险之旅一样，离开家初入社会会碰到这样或那样的问题。无论你是想要把房间整理得整洁美观，还是想要打造一个舒适个性的休闲区， 我们都可以助你一臂之力。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -90,7 +110,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<p>采用透气的网眼靠背和腰撑，能助你更加专注地投入游戏还有学习。</p>",
+    "采用透气的网眼靠背和腰撑，能助你更加专注地投入游戏还有学习。",
     "pub-text"
    ],
    "images": [
@@ -111,16 +131,49 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/53/87/5387ee4a96462e1593f1190a170449d4.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/32/b3/32b3f295078b39786e46b9d01f02ee73.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "采用透气的网眼靠背和腰撑，能助你更加专注地投入游戏还有学习。",
+     "image": "https://file.app.ikea.cn/images/53/87/5387ee4a96462e1593f1190a170449d4.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/32/b3/32b3f295078b39786e46b9d01f02ee73.jpg",
+     "href": "/cn/zh/p/19275631?artType=SPR"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>无论是晒衣架或者毛巾架，在任何空间都有助你保持整洁有序，增添个性风采。</p>"
+    "无论是晒衣架或者毛巾架，在任何空间都有助你保持整洁有序，增添个性风采。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -156,16 +209,49 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/9e/9d/9e9d8e54cdc7de6983aaaf205a26d036.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/26/bc/26bcef23277d467201dfdf13951188b8.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/9e/9d/9e9d8e54cdc7de6983aaaf205a26d036.jpg",
+     "href": "/cn/zh/p/60451508?artType=ART"
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/26/bc/26bcef23277d467201dfdf13951188b8.jpg",
+     "href": "/cn/zh/p/60253075?artType=ART"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>只要有足够的创意，任何物品都可以充当相框，任何地方都能腾出额外空间来收纳化妆品。不必专门添置新的物件，就地取材，简单方便，赶快试试看吧！</p>"
+    "只要有足够的创意，任何物品都可以充当相框，任何地方都能腾出额外空间来收纳化妆品。不必专门添置新的物件，就地取材，简单方便，赶快试试看吧！"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -184,6 +270,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/fb/aa/fbaa5b4b5ebd62030df351694528c6ca.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -198,6 +294,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "TISKEN 提斯科恩",
+     "text": "¥14.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/tisken-ti-si-ke-en-gou-dai-xi-pan-bai-se__0749067_pe745422_s4.jpg",
+     "href": "/cn/zh/p/tisken-ti-si-ke-en-gou-dai-xi-pan-bai-se-50381276/"
+    },
+    {
+     "title": "TISKEN 提斯科恩",
+     "text": "¥16.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/tisken-ti-si-ke-en-xi-pan-ya-shua-jia-bai-se__0749031_pe745404_s4.jpg",
+     "href": "/cn/zh/p/tisken-ti-si-ke-en-xi-pan-ya-shua-jia-bai-se-50381295/"
+    }
+   ],
    "settings": null
   },
   {
@@ -209,7 +319,7 @@
     "IMAGE",
     "MANUAL_INPUT",
     "90441443",
-    "<p><strong>平日好收纳，出行好方便。 把家都装进包里，出行更顺畅。</strong></p>\n<p>新发布的旅行包袋系列，防水耐用、容量超大，毕业旅行、搬家、夏日短途游解放双手好 拍档。</p>"
+    "平日好收纳，出行好方便。 把家都装进包里，出行更顺畅。 新发布的旅行包袋系列，防水耐用、容量超大，毕业旅行、搬家、夏日短途游解放双手好 拍档。"
    ],
    "images": [
     "https://file.app.ikea.cn/images/9e/49/9e49eb5a438c983ba14c308eea5aaf20.jpg",
@@ -229,6 +339,43 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/9e/49/9e49eb5a438c983ba14c308eea5aaf20.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d4/bc/d4bc0ef8412be163043a3907b626cdb2.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/9e/49/9e49eb5a438c983ba14c308eea5aaf20.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/d4/bc/d4bc0ef8412be163043a3907b626cdb2.jpg",
+     "href": null
+    },
+    {
+     "heading": "平日好收纳，出行好方便。 把家都装进包里，出行更顺畅。 新发布的旅行包袋系列，防水耐用、容量超大，毕业旅行、搬家、夏日短途游解放双手好 拍档。",
+     "text": null,
+     "image": null,
+     "href": "/cn/zh/p/90441443?artType=ART"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -264,16 +411,49 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/48/b1/48b1482873d74f4b9dec2c1c7722d18a.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/0c/53/0c53547418e08755545d00bbcce5727a.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "可折叠的储物件可充分利用衣柜、甚至床底空间，更灵活高效。",
+     "image": "https://file.app.ikea.cn/images/48/b1/48b1482873d74f4b9dec2c1c7722d18a.jpg",
+     "href": "/cn/zh/p/90290359?artType=ART"
+    },
+    {
+     "heading": null,
+     "text": "好收纳的抽屉柜，哪里需要推到哪里。",
+     "image": "https://file.app.ikea.cn/images/0c/53/0c53547418e08755545d00bbcce5727a.jpg",
+     "href": "/cn/zh/p/40354283?artType=ART"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>爱下厨的夏日，自制可口美味</strong></p>\n<p>得心应手的厨具，美观实用的餐具，让你时刻都准备就绪，在家自制可口美味。</p>"
+    "爱下厨的夏日，自制可口美味 得心应手的厨具，美观实用的餐具，让你时刻都准备就绪，在家自制可口美味。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -285,7 +465,7 @@
     "IMAGE",
     "MANUAL_INPUT",
     "50292100",
-    "<p>三层厚锅底，带有Teflon&reg; Platinum（特富龙&reg;白金级不粘涂层），受热 均匀，不易烧焦、粘锅。</p>"
+    "三层厚锅底，带有Teflon® Platinum（特富龙®白金级不粘涂层），受热 均匀，不易烧焦、粘锅。"
    ],
    "images": [
     "https://file.app.ikea.cn/images/34/d0/34d0bb616f5438898902ac9705ebcf00.jpg",
@@ -309,16 +489,49 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/34/d0/34d0bb616f5438898902ac9705ebcf00.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/43/1a/431a5c5c765581814645f424620cb1f7.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "三层厚锅底，带有Teflon® Platinum（特富龙®白金级不粘涂层），受热 均匀，不易烧焦、粘锅。",
+     "image": "https://file.app.ikea.cn/images/34/d0/34d0bb616f5438898902ac9705ebcf00.jpg",
+     "href": "/cn/zh/p/50292100?artType=ART"
+    },
+    {
+     "heading": null,
+     "text": "设计经典巧妙，满足日常用餐的需求。",
+     "image": "https://file.app.ikea.cn/images/43/1a/431a5c5c765581814645f424620cb1f7.jpg",
+     "href": "/cn/zh/p/50279698?artType=ART"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h4><strong>更多好物清单</strong></h4>"
+    "更多好物清单"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -334,6 +547,26 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "SKUBB 思库布",
+     "text": "¥79.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/skubb-si-ku-bu-6-ge-chu-wu-dan-yuan-bai-se__0710647_pe727677_s4.jpg",
+     "href": "/cn/zh/p/skubb-si-ku-bu-6-ge-chu-wu-dan-yuan-bai-se-80245881/"
+    },
+    {
+     "title": "SKUBB 思库布",
+     "text": "¥59.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/skubb-si-ku-bu-xie-he-bai-se__0711341_pe728167_s4.jpg",
+     "href": "/cn/zh/p/skubb-si-ku-bu-xie-he-bai-se-80186396/"
+    },
+    {
+     "title": "TIDVATTEN 提瓦顿",
+     "text": "¥39.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/tidvatten-ti-wa-dun-hua-ping-tou-ming-bo-li__0640449_pe699830_s4.jpg",
+     "href": "/cn/zh/p/tidvatten-ti-wa-dun-hua-ping-tou-ming-bo-li-60461244/"
+    }
+   ],
    "settings": null
   },
   {
@@ -344,36 +577,44 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong><a href=\"#00a72800-bffc-11ea-a26e-65db6194def7\">社会新人</a> | 大学生 | <a href=\"#28c90900-c003-11ea-a26e-65db6194def7\">中小学生</a></strong></p>"
+    "社会新人 | 大学生 | 中小学生"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>给在校大学生的清单</p>\n<h2><strong>返校开学，宿舍大改造</strong></h2>\n<p>升级宿舍，你的空间都能变成个性小窝。宿舍桌面、衣柜收纳套组，校园生活更有效率。另外，搭配上一些有设计感的饰品能在集体生活中更显个性哦！</p>"
+    "给在校大学生的清单 返校开学，宿舍大改造 升级宿舍，你的空间都能变成个性小窝。宿舍桌面、衣柜收纳套组，校园生活更有效率。另外，搭配上一些有设计感的饰品能在集体生活中更显个性哦！"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>拎包返校，宿舍轻松入住的好物</strong></p>"
+    "拎包返校，宿舍轻松入住的好物"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -395,6 +636,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/8d/6c/8d6ce70b393498c597af7b474a1364a4.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -409,6 +660,14 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "RENSARE 雷恩萨瑞",
+     "text": "¥29.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/rensare-lei-en-sa-rui-yi-lei-shou-na-dai-3-jian-tao-fang-ge-tu-an-hui-se-hei-se__0810360_pe771286_s4.jpg",
+     "href": "/cn/zh/p/rensare-lei-en-sa-rui-yi-lei-shou-na-dai-3-jian-tao-fang-ge-tu-an-hui-se-hei-se-40432506/"
+    }
+   ],
    "settings": null
   },
   {
@@ -452,16 +711,49 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/2a/0b/2a0b35cabe4025c5ee37adc834a53773.jpg",
+     "href": "/cn/zh/p/00458999?artType=ART",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/9f/5c/9f5ca0c160540133ebcd0d4f2ec7d1f9.jpg",
+     "href": "/cn/zh/p/30463348?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/2a/0b/2a0b35cabe4025c5ee37adc834a53773.jpg",
+     "href": "/cn/zh/p/00458999?artType=ART"
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/9f/5c/9f5ca0c160540133ebcd0d4f2ec7d1f9.jpg",
+     "href": "/cn/zh/p/30463348?artType=ART"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>在哪儿都能好好学习。</strong></p>"
+    "在哪儿都能好好学习。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -488,6 +780,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/61/1e/611ea3751b48f1994a4aa576776c7dd0.jpg",
+     "href": "/cn/zh/p/10289086?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -499,7 +801,7 @@
     "IMAGE",
     "MANUAL_INPUT",
     "90443140",
-    "<p>早上是床边桌，下午是书桌收纳件，晚上则是 饮料托盘。</p>\n<p>可移动推车可以任你随意发挥，创造无限可能！&nbsp;<br /><br /></p>"
+    "早上是床边桌，下午是书桌收纳件，晚上则是 饮料托盘。 可移动推车可以任你随意发挥，创造无限可能！"
    ],
    "images": [
     "https://file.app.ikea.cn/images/29/2a/292af59822db6b3b09d14023debd1fe2.jpg",
@@ -519,16 +821,55 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/29/2a/292af59822db6b3b09d14023debd1fe2.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/94/8f/948f70664837aa4c08472dda7eda6fc1.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/29/2a/292af59822db6b3b09d14023debd1fe2.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/94/8f/948f70664837aa4c08472dda7eda6fc1.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "早上是床边桌，下午是书桌收纳件，晚上则是 饮料托盘。 可移动推车可以任你随意发挥，创造无限可能！",
+     "image": null,
+     "href": "/cn/zh/p/90443140?artType=ART"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>亚克力收纳套装，帮助规整文具、化妆用品等小物件。</p>"
+    "亚克力收纳套装，帮助规整文具、化妆用品等小物件。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -548,6 +889,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/4e/26/4e267757f678b870201ec1af9c1081de.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -583,16 +934,49 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/27/e4/27e4ff9b58c5d40ce0f17b49b6c520cb.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/df/1f/df1f2ca3e99822283e00757a4bca46dd.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/27/e4/27e4ff9b58c5d40ce0f17b49b6c520cb.jpg",
+     "href": "/cn/zh/p/30231631?artType=ART"
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/df/1f/df1f2ca3e99822283e00757a4bca46dd.jpg",
+     "href": "/cn/zh/p/00480537?artType=ART"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>更多好物清单</strong></h2>"
+    "更多好物清单"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -608,6 +992,38 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "MOPPE 莫培",
+     "text": "¥179",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/moppe-mo-pei-xiao-xing-chou-ti-gui-hua-mu-xiao-he-ban__0711587_pe728347_s4.jpg",
+     "href": "/cn/zh/p/moppe-mo-pei-xiao-xing-chou-ti-gui-hua-mu-xiao-he-ban-10227437/"
+    },
+    {
+     "title": "BERGENES 伯格尼斯",
+     "text": "¥9.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/bergenes-bo-ge-ni-si-shou-ji-ping-ban-zhi-jia-zhu__0730164_pe737412_s4.jpg",
+     "href": "/cn/zh/p/bergenes-bo-ge-ni-si-shou-ji-ping-ban-zhi-jia-zhu-70458000/"
+    },
+    {
+     "title": "SKUBB 思库布",
+     "text": "¥49.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/skubb-si-ku-bu-chu-wu-he-6-jian-tao-bai-se__1190772_pe900309_s4.jpg",
+     "href": "/cn/zh/p/skubb-si-ku-bu-chu-wu-he-6-jian-tao-bai-se-20428553/"
+    },
+    {
+     "title": "BLÅHAJ 布罗艾",
+     "text": "¥129",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/blahaj-bu-luo-ai-mao-rong-wan-ju-sha-yu__0710175_pe727378_s4.jpg",
+     "href": "/cn/zh/p/blahaj-bu-luo-ai-mao-rong-wan-ju-sha-yu-10373589/"
+    },
+    {
+     "title": "ÄNGSKORN 英思寇",
+     "text": "¥129",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/aengskorn-ying-si-kou-chuang-dian-bao-hu-dian__0789895_pe764189_s4.jpg",
+     "href": "/cn/zh/p/aengskorn-ying-si-kou-chuang-dian-bao-hu-dian-70461998/"
+    }
+   ],
    "settings": null
   },
   {
@@ -618,26 +1034,32 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><a href=\"#00a72800-bffc-11ea-a26e-65db6194def7\">社会新人</a> | <a href=\"#5f091d60-bfff-11ea-a26e-65db6194def7\">大学生</a> | <strong>中小学生</strong></p>"
+    "社会新人 | 大学生 | 中小学生"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>给中小学生的一份清单</p>\n<h2><strong>在家学习，寓学于乐&nbsp;</strong></h2>\n<p>良好的开始是成功的一半。就快开学了，快帮助孩子们做好各项准备吧。尤其是刚开始上学的孩子。</p>"
+    "给中小学生的一份清单 在家学习，寓学于乐 良好的开始是成功的一半。就快开学了，快帮助孩子们做好各项准备吧。尤其是刚开始上学的孩子。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -664,6 +1086,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e6/cb/e6cb662080426949f0ba48c48bee3358.gif",
+     "href": "/cn/zh/p/60293062?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -678,16 +1110,19 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>一起长大、变高的儿童学习书桌</strong></h2>\n<p>不管是用来写作业、画画或者做手工都很实用。3种可调节的高度，方便各年龄段孩子使用，就像孩子在不断成长一样。</p>"
+    "一起长大、变高的儿童学习书桌 不管是用来写作业、画画或者做手工都很实用。3种可调节的高度，方便各年龄段孩子使用，就像孩子在不断成长一样。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -714,6 +1149,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/24/67/2467522a5b0f835be7b344f8a29bae47.gif",
+     "href": "/cn/zh/p/99245107?artType=SPR",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -728,16 +1173,19 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>让孩子专心学习的书桌</strong></p>"
+    "让孩子专心学习的书桌"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -773,16 +1221,49 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a8/7a/a87af1f304b39dee12463cbfa8daf0d8.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/9f/91/9f91cf14c58210160d1d149a0b40e70d.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/a8/7a/a87af1f304b39dee12463cbfa8daf0d8.jpg",
+     "href": "/cn/zh/p/09223322?artType=SPR"
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/9f/91/9f91cf14c58210160d1d149a0b40e70d.jpg",
+     "href": "/cn/zh/p/30415994?artType=ART"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>学习小帮手，一次性买齐</strong></h2>"
+    "学习小帮手，一次性买齐"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -798,6 +1279,32 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "GLIS 格利思",
+     "text": "¥14.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/glis-ge-li-si-fu-gai-chu-wu-he-huang-se-lan-se__0795103_pe765864_s4.jpg",
+     "href": "/cn/zh/p/glis-ge-li-si-fu-gai-chu-wu-he-huang-se-lan-se-20466154/"
+    },
+    {
+     "title": "MÅLA 莫拉",
+     "text": "¥29.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mala-mo-la-zhan-tou-bi-duo-se__0710244_pe727426_s4.jpg",
+     "href": "/cn/zh/p/mala-mo-la-zhan-tou-bi-duo-se-70193316/"
+    },
+    {
+     "title": "MÅLA 莫拉",
+     "text": "¥59.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mala-mo-la-zhi-duo-se-hun-he-chi-cun__1265263_pe927573_s4.jpg",
+     "href": "/cn/zh/p/mala-mo-la-zhi-duo-se-hun-he-chi-cun-10193324/"
+    },
+    {
+     "title": "MÅLA 莫拉",
+     "text": "¥29.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mala-mo-la-hua-zhi-juan__0710263_pe727430_s4.jpg",
+     "href": "/cn/zh/p/mala-mo-la-hua-zhi-juan-80461083/"
+    }
+   ],
    "settings": null
   }
  ]

@@ -11,7 +11,7 @@
    "title": "点亮你的卧室",
    "texts": [
     "宜家 NORDMELA 诺德梅拉 四斗抽屉柜为你提供低矮的多功能储物装置。蓝黑色外观现代时尚，还可兼做长凳。既可在卧室中使用，也可在家中各处使用。",
-    "<p>从巧妙的储物件到多彩的床上用品，本月新品助你轻松改造卧室，快来找寻你最中意的产品！</p>\n<p>储物其实很简单。这款蓝黑色 NORDMELA 诺德梅拉 抽屉柜是卧室的不二之选，但由于它灵活多变，也同样适合摆放在家中的其他空间。</p>",
+    "从巧妙的储物件到多彩的床上用品，本月新品助你轻松改造卧室，快来找寻你最中意的产品！ 储物其实很简单。这款蓝黑色 NORDMELA 诺德梅拉 抽屉柜是卧室的不二之选，但由于它灵活多变，也同样适合摆放在家中的其他空间。",
     "点亮你的卧室",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "点亮你的卧室",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/c9/50/c95089fc58960ef1c0d66471af785bc1.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,16 +54,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "这款宜家蓝黑色 NORDMELA 诺德梅拉 抽屉柜附挂衣杆适合置于卧室或家中各处。I配有五个推拉平滑的抽屉，线条简洁时尚。在浅绿色墙壁的映衬下，格外醒目。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/af/01/af01aa8c302b1dee2b6d502084c3383b.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>以不同方式存储衣物&mdash;&mdash;NORDMELA 诺德梅拉 抽屉柜既提供悬挂空间，也提供折叠存储空间。</p>"
+    "以不同方式存储衣物——NORDMELA 诺德梅拉 抽屉柜既提供悬挂空间，也提供折叠存储空间。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -81,6 +103,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "在宜家 SOMMARASTER 索莫特 被套和两个枕套的复古花卉图案中醒来。采用100%棉制成，饰有黄色、红色、蓝色和粉色大型花卉图案。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/8c/66/8c66ee890c0a8c55794632db2cb332e8.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "这张宜家 SOMMARASTER 索莫特 被套和两个枕套的特写，展现出这款100%棉制产品上鲜艳的复古花卉图案。白底上散落着鲜艳的蓝色、黄色、红色和粉色花瓣。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/01/6b/016baab429a2dcdf630ac86428a9e1fa.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "复古幻梦 SOMMARASTER 索莫特 被套选用了复古花朵图案设计，灵感源自20世纪60年代的瑞典，采用精心种植的100%棉制成。躺进被窝里，尽享舒适吧。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/8c/66/8c66ee890c0a8c55794632db2cb332e8.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "宜家所有的棉制品，无论是毛巾还是床单，均由更可持续的棉花制成。 我们相信，你选择本系列产品时，在价格、品质、设计、功能或可持续性等方面都无需做出让步。",
+     "image": "https://file.app.ikea.cn/images/01/6b/016baab429a2dcdf630ac86428a9e1fa.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -101,6 +154,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -115,6 +170,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

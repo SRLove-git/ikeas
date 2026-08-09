@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Page Title-"
    }
@@ -22,10 +24,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3><strong>找到你最喜爱的梦幻空间</strong></h3>\n<p>在我们的儿童展示区，你可以浏览家具、玩具、储物件及其他产品组合。它们有不同款式和大小，并且价格实惠。我们已经为你搭配好产品，所以你在家也可轻松再现此处看到的布置。我们根据儿童年龄对产品进行了分组，帮助你更加轻松地找到所需的东西。四处看看，寻找合适的儿童解决方案，把家打造成最适合成长的地方。</p>"
+    "找到你最喜爱的梦幻空间 在我们的儿童展示区，你可以浏览家具、玩具、储物件及其他产品组合。它们有不同款式和大小，并且价格实惠。我们已经为你搭配好产品，所以你在家也可轻松再现此处看到的布置。我们根据儿童年龄对产品进行了分组，帮助你更加轻松地找到所需的东西。四处看看，寻找合适的儿童解决方案，把家打造成最适合成长的地方。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -74,6 +78,177 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "两张室内马戏团入场券",
+     "text": "探索这间马戏团主题儿童房，里面摆满了趣味十足的宜家 LUSTIG 鲁斯帝 和 FLISAT 福丽萨特 系列玩具和家具。",
+     "image": "https://file.app.ikea.cn/images/21/a4/21a425097c60a1f244161b285e9f4fe6.jpg",
+     "href": "/cn/zh/rooms/childrens-room/gallery/liang3-zhang1-shi4-nei4-ma3-xi4-tuan2-ru4-chang3-quan4-pub88353351",
+     "backgroundColor": null
+    },
+    {
+     "title": "父母和孩子共享的舒适角落",
+     "text": "看看这些父母如何与他们喜欢爬行的小宝宝共享卧室空间。毛绒玩具和 SUNDVIK 桑维 实用儿童家具可确保她的安全。",
+     "image": "https://file.app.ikea.cn/images/82/5d/825dee62fc0882008017c67ab9cf9fb0.jpg",
+     "href": "/cn/zh/rooms/childrens-room/gallery/fu4-mu3-he2-hai2-zi-gong4-xiang3-de-shu1-shi4-jiao3-luo4-pub4805f8c1",
+     "backgroundColor": null
+    },
+    {
+     "title": "小小艺术家，大大想象力",
+     "text": "释放你内心的艺术潜力！这间创意十足的儿童卧室里摆放有实用的松木家具，能够让孩子尽情地挥洒想象力。",
+     "image": "https://file.app.ikea.cn/images/b6/4b/b64b8d50c3473279bb4509b420d37e60.jpg",
+     "href": "/cn/zh/rooms/childrens-room/gallery/xiao3-xiao3-yi4-shu4-jia1-da4-da4-xiang3-xiang4-li4-pubd2fd8761",
+     "backgroundColor": null
+    },
+    {
+     "title": "打造更舒心的育儿体验",
+     "text": "为你和你的宝宝打造一间安心、舒适且符合人体工学的育儿室。STUVA 斯多瓦 婴儿床、LEN 莱恩 护理枕和婴儿换衣桌能为你和宝宝提供足够的支撑力和安全感。",
+     "image": "https://file.app.ikea.cn/images/51/52/51527fdfa376118557b8e916ea970287.jpg",
+     "href": "/cn/zh/rooms/childrens-room/gallery/da3-zao4-geng4-shu1-xin1-de-yu4-er2-ti3-yan4-pub8153c481",
+     "backgroundColor": null
+    },
+    {
+     "title": "野生动物在哪里",
+     "text": "看看这些热爱丛林的孩子们如何分享一间时尚的小空间卧室。SVÄRTA 斯沃塔 双层床非常适合搭配各种动物印花，而 STUVA 斯多瓦 则可用作储物空间。",
+     "image": "https://file.app.ikea.cn/images/d3/73/d373343dc89332919323547db06521d9.jpg",
+     "href": "/cn/zh/rooms/childrens-room/gallery/ye3-sheng1-dong4-wu4-zai4-na3-li3-pub24191441",
+     "backgroundColor": null
+    },
+    {
+     "title": "一号玩家准备",
+     "text": "玩家集合！我们为酷爱游戏、重视隐私的小朋友们设计了一款很酷的小空间解决方案。将宜家高架床打造成游戏站，甚至还能开发更多功能。",
+     "image": "https://file.app.ikea.cn/images/55/24/5524c214cbae6655cfa2b6099e8e64ba.jpg",
+     "href": "/cn/zh/rooms/childrens-room/gallery/yi1-hao4-wan2-jia1-zhun3-bei4-pub037b7841",
+     "backgroundColor": null
+    },
+    {
+     "title": "可以玩捉迷藏的游乐场",
+     "text": "在这间与众不同的儿童游乐室里，可以玩捉迷藏！BUSUNGE 布松纳 床可以加长，LÖMSK 龙克 扶手椅可以旋转，这些都令这里有了游乐场一般的感觉。",
+     "image": "https://file.app.ikea.cn/images/36/d5/36d59500f8d06a1bc909d1be2151779e.jpg",
+     "href": "/cn/zh/rooms/childrens-room/gallery/ke3-yi3-wan2-zhuo1-mi2-cang2-de-you2-le4-chang3-pube390b180",
+     "backgroundColor": null
+    },
+    {
+     "title": "梦幻与现实并存",
+     "text": "在棕色和绿色丛林探险主题儿童卧室里，设有 KURA 库拉 两用床和床罩。",
+     "image": "https://file.app.ikea.cn/images/09/27/0927985fe73d411be3d34bc055ff6db1.jpg",
+     "href": "/cn/zh/rooms/childrens-room/gallery/woshi-pub5940ea61",
+     "backgroundColor": null
+    },
+    {
+     "title": "打造儿童专属秀场",
+     "text": "在蓝色、红色和白色马戏团主题儿童卧室里，摆放着白色和浅蓝色 STUVA 斯多瓦/FRITIDS 福利蒂德斯 衣柜。",
+     "image": "https://file.app.ikea.cn/images/0a/1e/0a1e490ea83994dd5f3bed495c171dc5.jpg",
+     "href": "/cn/zh/rooms/childrens-room/gallery/woshi-pub28f79e31",
+     "backgroundColor": null
+    },
+    {
+     "title": "技艺高超，外观低调",
+     "text": "青绿色、灰色和白色现代儿童卧室里，摆放着白色和浅蓝色 STUVA 斯多瓦/FRITIDS 福利蒂德斯 衣柜。",
+     "image": "https://file.app.ikea.cn/images/1b/f7/1bf73741c75ec2ecc3c25bdf7c9043d3.jpg",
+     "href": "/cn/zh/rooms/childrens-room/gallery/yigui-pube835e681",
+     "backgroundColor": null
+    },
+    {
+     "title": "乐享睡前时光与游戏时光",
+     "text": "米色、粉色和黄色的儿童卧室极具斯堪的纳维亚现代风格，里面摆放着 SLÄKT 斯莱克 板条床床架。",
+     "image": "https://file.app.ikea.cn/images/c7/04/c704f317ce6910bfdbf72ad4c6eb8928.jpg",
+     "href": "/cn/zh/rooms/childrens-room/gallery/woshi-pub86b82ad1",
+     "backgroundColor": null
+    },
+    {
+     "title": "简约自然，与宝宝共享",
+     "text": "在米色、棕色、红色和黄色成人卧室里，摆放着白色榉木 SNIGLAR 辛格莱 婴儿床和婴儿换衣桌。",
+     "image": "https://file.app.ikea.cn/images/5d/d7/5dd797522fa3b9b1639b898496250425.jpg",
+     "href": "/cn/zh/rooms/bedroom/gallery/woshi-puba33362c1",
+     "backgroundColor": null
+    },
+    {
+     "title": "让宝宝随时随地感受摇滚",
+     "text": "红色、青绿色和白色育婴室大胆前卫、妙趣横生，里面摆放着红色和白色 STUVA 斯多瓦/FRITIDS 福利蒂德斯 带抽屉婴儿床、婴儿换衣桌和书柜。",
+     "image": "https://file.app.ikea.cn/images/dd/b0/ddb0330f9237e1e257a04e359e147d6c.jpg",
+     "href": "/cn/zh/rooms/childrens-room/gallery/yingerfang-pub1e0c51b1",
+     "backgroundColor": null
+    },
+    {
+     "title": "梦寐以求",
+     "text": "在蓝色、灰色、红色和白色育婴室里，摆放着白色和浅蓝色 STUVA 斯多瓦/FRITIDS 福利蒂德斯 婴儿换衣桌、六斗抽屉柜和婴儿床。",
+     "image": "https://file.app.ikea.cn/images/5e/5c/5e5c4babca4c095ecca25defa4fba60d.jpg",
+     "href": "/cn/zh/rooms/childrens-room/gallery/yingerfang-pub9b6c87c1",
+     "backgroundColor": null
+    },
+    {
+     "title": "让卧室与你的孩子一样风格突出",
+     "text": "在醒目的黑色、蓝色和红色双人儿童卧室里，摆放着白色/红色 STUVA 斯多瓦/FRITIDS 福利蒂德斯 衣柜和书柜。",
+     "image": "https://file.app.ikea.cn/images/64/0e/640ef2493b44c9f64fab281a4f7f949e.jpg",
+     "href": "/cn/zh/rooms/childrens-room/gallery/woshi-pubb5ace380",
+     "backgroundColor": null
+    },
+    {
+     "title": "孩子专属的创意王国",
+     "text": "在蓝色、白色和黄色丛林主题儿童卧室里，摆放着 SLÄKT 斯莱克 床，配有拉出式床和储物空间。",
+     "image": "https://file.app.ikea.cn/images/82/e2/82e2f0bdd6d173acf8d09f705a3ace88.jpg",
+     "href": "/cn/zh/rooms/childrens-room/gallery/woshi-pubf937cd51",
+     "backgroundColor": null
+    },
+    {
+     "title": "一起成长",
+     "text": "儿童共享卧室里摆放着 SOLGUL 索尔古勒 白色婴儿床和婴儿换衣桌，以及 MINNEN 米隆 可加长型儿童床。",
+     "image": "https://file.app.ikea.cn/images/07/8a/078a822e9c8c771c2f7327fb27f20f85.jpg",
+     "href": "/cn/zh/rooms/childrens-room/gallery/ertongfang-pub103781f0",
+     "backgroundColor": null
+    },
+    {
+     "title": "享受欢乐是孩子的唯一愿望！",
+     "text": "粉色、白色和黄色的儿童卧室一侧摆放着 BUSUNGE 布松纳 浅粉色可加长型儿童床，中间摆放着 MAMMUT 玛莫特 白色桌椅。",
+     "image": "https://file.app.ikea.cn/images/0f/aa/0faab9177e00727b89559671df8f0388.jpg",
+     "href": "/cn/zh/rooms/childrens-room/gallery/ertongfang-pub082683d1",
+     "backgroundColor": null
+    },
+    {
+     "title": "让孩子为卧室增添个人特色",
+     "text": "采用木质墙面的现代儿童卧室内铺着蓝色地毯，摆放着 SLÄKT 斯莱克 床架、可折叠床垫和椅凳。",
+     "image": "https://file.app.ikea.cn/images/c7/eb/c7ebe10fd6bc91785278062736b71adc.jpg",
+     "href": "/cn/zh/rooms/childrens-room/gallery/ertongwoshi-pub6ca6aa11",
+     "backgroundColor": null
+    },
+    {
+     "title": "摆满一流物品的房间",
+     "text": "蓝色和白色育婴室里摆放着 SOLGUL 索尔古勒 白色婴儿床、婴儿换衣桌和衣柜。",
+     "image": "https://file.app.ikea.cn/images/dd/c1/ddc1b0c3f3db29072f302a75ae365e70.jpg",
+     "href": "/cn/zh/rooms/childrens-room/gallery/yingerfang-puba4466e21",
+     "backgroundColor": null
+    },
+    {
+     "title": "大世界，小空间",
+     "text": "给你孩子的卧室更大空间，激发他们的想象力，把KURA的可翻转床和有趣的房子为主题的KURA床帐篷结合起来。",
+     "image": "https://file.app.ikea.cn/images/2e/86/2e86cec582c1643f16b6e28ffe21c594.jpg",
+     "href": "/cn/zh/rooms/childrens-room/gallery/woshi-pub9ca33d41",
+     "backgroundColor": null
+    },
+    {
+     "title": "因为哪怕是机器人也要歇息一会，“喝个下午茶”",
+     "text": "因为哪怕是机器人也要歇息一会，“喝个下午茶”",
+     "image": "https://file.app.ikea.cn/images/f4/65/f4650de2e3c54e55ea444d34e44c0360.jpg",
+     "href": "/cn/zh/rooms/childrens-room/gallery/ertongfang-puba8409680",
+     "backgroundColor": null
+    },
+    {
+     "title": "专为阳光活泼的儿童打造",
+     "text": "创建一个共享的卧室，让你的孩子们可以在里面玩耍休息",
+     "image": "https://file.app.ikea.cn/images/b4/df/b4df5b4943e52f817440dd75da73db43.jpg",
+     "href": "/cn/zh/rooms/childrens-room/gallery/woshi-pub578d10d1",
+     "backgroundColor": null
+    },
+    {
+     "title": "捉迷藏或者休息一下",
+     "text": "捉迷藏或者休息一下",
+     "image": "https://file.app.ikea.cn/images/04/85/04854f0a7aff583598ce115252a27427.jpg",
+     "href": "/cn/zh/rooms/childrens-room/gallery/woshi-pubfb02a751",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Page List-"
    }
@@ -88,6 +263,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Link - button or text-"
    }

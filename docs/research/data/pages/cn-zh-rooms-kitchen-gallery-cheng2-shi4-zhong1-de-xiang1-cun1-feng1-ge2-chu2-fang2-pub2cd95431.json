@@ -11,7 +11,7 @@
    "title": "城市中的乡村风格厨房",
    "texts": [
     "宜家 TORNVIKEN 托恩维肯 厨房系列提供封闭式和开放式的白色厨房储物搁板和储物柜，有多种尺寸可选，能满足你的烹饪需求。",
-    "<p>这间厨房虽然属于传统风格，但却具备现代化功能。时尚的玻璃橱柜可提供大量的储物空间，满足你的设宴需求，同时还能让你享受烹饪乐趣。</p>",
+    "这间厨房虽然属于传统风格，但却具备现代化功能。时尚的玻璃橱柜可提供大量的储物空间，满足你的设宴需求，同时还能让你享受烹饪乐趣。",
     "城市中的乡村风格厨房",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "城市中的乡村风格厨房",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/3a/9e/3a9e3eb11dc0f310671014137f080592.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -39,6 +49,26 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "INSJÖN 英松",
+     "text": "¥999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/insjoen-ying-song-chu-fang-hun-he-xing-shui-long-tou-du-ge__0756696_pe749046_s4.jpg",
+     "href": "/cn/zh/p/insjoen-ying-song-chu-fang-hun-he-xing-shui-long-tou-du-ge-20370118/"
+    },
+    {
+     "title": "TORNVIKEN 托恩维肯",
+     "text": "¥400",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/tornviken-tuo-en-wei-ken-jiu-ping-jia-hui-bai__0593895_pe675427_s4.jpg",
+     "href": "/cn/zh/p/tornviken-tuo-en-wei-ken-jiu-ping-jia-hui-bai-60359005/"
+    },
+    {
+     "title": "RANARP 勒纳普",
+     "text": "¥199",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ranarp-le-na-pu-diao-deng-hui-bai__0613060_pe686150_s4.jpg",
+     "href": "/cn/zh/p/ranarp-le-na-pu-diao-deng-hui-bai-00390971/"
+    }
+   ],
    "settings": null
   }
  ]

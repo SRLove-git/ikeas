@@ -11,7 +11,7 @@
    "title": "宁静温馨的客厅",
    "texts": [
     "运用 LANDSKRONA 兰德克纳 浅绿色沙发和组件、SJÖPENNA 斯宾纳 吊灯和实用的 YPPERLIG 伊波利 照明产品来打造更为宁静的客厅。",
-    "<p>在小面积客厅中，依然可以打造出清爽整洁的氛围。只需悬挂几件墙壁装饰件，再选用色彩柔和的沙发，就可以让空间显得更为宽敞、开阔。</p>",
+    "在小面积客厅中，依然可以打造出清爽整洁的氛围。只需悬挂几件墙壁装饰件，再选用色彩柔和的沙发，就可以让空间显得更为宽敞、开阔。",
     "宁静温馨的客厅",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "宁静温馨的客厅",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/bb/c5/bbc5b8f27c65fabfc945616b96ff51e8.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -39,6 +49,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "LANDSKRONA 兰德克纳",
+     "text": "¥4,499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/landskrona-lan-de-ke-na-san-ren-sha-fa-gang-na-rui-de-qian-lu-mu-tou__1576917_pe1032814_s4.jpg",
+     "href": "/cn/zh/p/landskrona-lan-de-ke-na-san-ren-sha-fa-gang-na-rui-de-qian-lu-mu-tou-19270327/"
+    },
+    {
+     "title": "LANDSKRONA 兰德克纳",
+     "text": "¥1,999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/landskrona-lan-de-ke-na-dan-ren-sha-fa-fu-shou-yi-gang-na-rui-de-qian-lu-mu-tou__0602091_pe680160_s4.jpg",
+     "href": "/cn/zh/p/landskrona-lan-de-ke-na-dan-ren-sha-fa-fu-shou-yi-gang-na-rui-de-qian-lu-mu-tou-39269728/"
+    }
+   ],
    "settings": null
   }
  ]

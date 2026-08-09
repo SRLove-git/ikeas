@@ -14,16 +14,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>1. 请清除浏览器的缓存与Cookie</p>\n<ul>\n<li>iPhone 用户请参考&nbsp;<a href=\"https://support.apple.com/zh-cn/ht201265\">清除历史记录与网站数据</a>&nbsp;。</li>\n<li>Android 用户请前往相关浏览器，选择配置 - 隐私 - 清除浏览数据，选择缓存图片文件与Cookie网站数据，点击清除数据。</li>\n</ul>\n<p>2. 重新访问网站，在网站尝试获取您的位置信息时询问您, 如许可相应网站知道您所在的位置，请选择允许。</p>"
+    "1. 请清除浏览器的缓存与Cookie iPhone 用户请参考 清除历史记录与网站数据 。 Android 用户请前往相关浏览器，选择配置 - 隐私 - 清除浏览数据，选择缓存图片文件与Cookie网站数据，点击清除数据。 2. 重新访问网站，在网站尝试获取您的位置信息时询问您, 如许可相应网站知道您所在的位置，请选择允许。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

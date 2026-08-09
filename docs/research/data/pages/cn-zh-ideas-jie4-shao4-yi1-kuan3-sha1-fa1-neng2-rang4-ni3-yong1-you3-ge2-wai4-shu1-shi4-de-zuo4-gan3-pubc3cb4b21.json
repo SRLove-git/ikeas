@@ -11,7 +11,7 @@
    "title": "介绍一款沙发，能让你拥有格外舒适的坐感",
    "texts": [
     "大理石房间里，一名女子坐在模块沙发上。",
-    "<p>全新的 LIDHULT 利胡特 沙发系列非常舒适。该系列融合了传统风格与现代的灵活功能。设计师Henrik Preutz向我们解释了该系列沙发为何适合所有客厅。</p>",
+    "全新的 LIDHULT 利胡特 沙发系列非常舒适。该系列融合了传统风格与现代的灵活功能。设计师Henrik Preutz向我们解释了该系列沙发为何适合所有客厅。",
     "介绍一款沙发，能让你拥有格外舒适的坐感",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "介绍一款沙发，能让你拥有格外舒适的坐感",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/88/87/8887d6197e152074d06438da448a4f75.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -43,16 +53,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "Henrik Preutz的照片。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/fc/42/fc427d5e7ab9edfd14052d61d9a80e5a.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>放松一下&hellip;&hellip;&nbsp;</strong> &nbsp; LIDHULT 利胡特 的设计师Henrik Preutz说：&ldquo;对于一款沙发而言，舒适就是一切。我们的目标是设计一款能够提供理想支撑的沙发。&rdquo;沙发的曲线能够支撑人的全身，一直到人的脖子。&ldquo;我把它想象成一块松软的奶油蛋糕&mdash;&mdash;圆形的，柔软而诱人。&rdquo;</p>"
+    "放松一下…… LIDHULT 利胡特 的设计师Henrik Preutz说：“对于一款沙发而言，舒适就是一切。我们的目标是设计一款能够提供理想支撑的沙发。”沙发的曲线能够支撑人的全身，一直到人的脖子。“我把它想象成一块松软的奶油蛋糕——圆形的，柔软而诱人。”"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -74,26 +96,40 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "图书馆里的皮沙发。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/25/db/25db6864d92616262b388cf7241d8824.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>以个性方式进行设计</strong>&nbsp; &nbsp; Henrik说：&ldquo;它有六个不同模块，包括贵妃椅和转角组合。无论你的需求是什么样的，都可以用它打造你理想的沙发。它非常适合长时间坐着追剧，也可以和家人一起舒服地坐在上面，甚至还能打个盹儿。&rdquo;</p>"
+    "以个性方式进行设计 Henrik说：“它有六个不同模块，包括贵妃椅和转角组合。无论你的需求是什么样的，都可以用它打造你理想的沙发。它非常适合长时间坐着追剧，也可以和家人一起舒服地坐在上面，甚至还能打个盹儿。”"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>前往商场查看 LIDHULT 利胡特 系列所有在售的颜色款式和模块。</p>"
+    "前往商场查看 LIDHULT 利胡特 系列所有在售的颜色款式和模块。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

@@ -11,7 +11,7 @@
    "title": "适合玩耍和放松的舒适客厅",
    "texts": [
     "三人沙发，带贵妃椅，带柜门搁架单元，扶手转椅，茶几和玩具。",
-    "<p>这间小巧客厅充满创意乐趣，尤其适合小孩玩耍。坚固耐用的家具、舒适的照明和巧妙的储物空间，令你和孩子可以一起享受美好时光。</p>",
+    "这间小巧客厅充满创意乐趣，尤其适合小孩玩耍。坚固耐用的家具、舒适的照明和巧妙的储物空间，令你和孩子可以一起享受美好时光。",
     "适合玩耍和放松的舒适客厅",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "适合玩耍和放松的舒适客厅",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/04/d3/04d392ffcd855db85a5373f188230c66.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -50,6 +60,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "白色带柜门搁架单元，盆栽植物，白色附盖储物盒，白色文件盒，儿童书籍。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/450404de4a6a6dab/original/PH177964-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -76,6 +96,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "白色/红色扶手转椅，灰色/白色猫毛绒玩具，茶几上放着玩具，墙上装饰绘画作品。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/6e213285ca70eb0b/original/PH177965-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -102,6 +132,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "三人沙发，带贵妃椅，带柜门的白色搁架单元，针织/彩色毯子和靠垫。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/6e6a75dd0024b1d9/original/PH177966-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -128,6 +168,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "三人沙发，带贵妃椅，黑色LED落地灯/阅读灯，熊图案青绿色被套和枕套，一本书籍。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/5cb2ea52776645fb/original/PH177968-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -154,6 +204,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "白色空气质量感应器，插着植物剪枝的玻璃花瓶，10件纸板小镇模版套装。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/298aa0826b7a644a/original/PH177967-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -172,6 +232,63 @@
     {
      "href": "/cat/fu001",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "为你提供所需一切，打造梦想中的客厅",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/fu001",
+     "backgroundColor": null
+    },
+    {
+     "title": "KALLAX 卡莱克",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kallax-qia-lai-ke-dai-men-ge-jia-dan-yuan-bai-se__0645237_pe703346_s4.jpg",
+     "href": "/cn/zh/p/kallax-qia-lai-ke-dai-men-ge-jia-dan-yuan-bai-se-99197432/"
+    },
+    {
+     "title": "KALLAX 卡莱克",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kallax-qia-lai-ke-cha-jian-dai-2-ge-chou-ti-bai-se__0640671_pe699976_s4.jpg",
+     "href": "/cn/zh/p/kallax-qia-lai-ke-cha-jian-dai-2-ge-chou-ti-bai-se-20351879/"
+    },
+    {
+     "title": "BORGEBY 伯格比",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/borgeby-bo-ge-bi-cha-ji-hua-mu-tie-mian__0987623_pe817609_s4.jpg",
+     "href": "/cn/zh/p/borgeby-bo-ge-bi-cha-ji-hua-mu-tie-mian-70449402/"
+    },
+    {
+     "title": "GLADOM 格拉登",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/gladom-ge-la-deng-tuo-pan-zhuo-bai-se__0470732_pe612912_s4.jpg",
+     "href": "/cn/zh/p/gladom-ge-la-deng-tuo-pan-zhuo-bai-se-50337820/"
+    },
+    {
+     "title": "FRÖSET 富罗瑟",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/froeset-fu-luo-se-xiu-xian-yi-bai-se-xiang-mu-tie-mian__0824154_pe776005_s4.jpg",
+     "href": "/cn/zh/p/froeset-fu-luo-se-xiu-xian-yi-bai-se-xiang-mu-tie-mian-00423561/"
+    },
+    {
+     "title": "BERGSHULT 贝利斯胡特 / PERSHULT 伯舒特",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/bergshult-bei-li-si-hu-te-pershult-bo-shu-te-qiang-ge-ban-bai-se-bai-se__0676485_pe718680_s4.jpg",
+     "href": "/cn/zh/p/bergshult-bei-li-si-hu-te-pershult-bo-shu-te-qiang-ge-ban-bai-se-bai-se-59290776/"
+    },
+    {
+     "title": "VINDRIKTNING 温迪宁",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vindriktning-wen-di-ning-kong-qi-zhi-liang-jian-ce-qi__1023686_pe833219_s4.jpg",
+     "href": "/cn/zh/p/vindriktning-wen-di-ning-kong-qi-zhi-liang-jian-ce-qi-50498243/"
+    },
+    {
+     "title": "ENHET 安纳特",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/enhet-an-na-te-dai-ge-ban-bi-shi-kuang-jia-bai-se__0805548_pe769593_s4.jpg",
+     "href": "/cn/zh/p/enhet-an-na-te-dai-ge-ban-bi-shi-kuang-jia-bai-se-70481618/"
     }
    ],
    "settings": null
@@ -194,6 +311,21 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "混搭柔软的纺织品，营造趣意外观",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/tl001",
+     "backgroundColor": null
+    },
+    {
+     "title": "TVERSTED 特维斯泰",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/tversted-te-wei-si-tai-duan-rong-di-tan-mi-huang-se__1179213_pe895885_s4.jpg",
+     "href": "/cn/zh/p/tversted-te-wei-si-tai-duan-rong-di-tan-mi-huang-se-10482135/"
+    }
+   ],
    "settings": null
   },
   {
@@ -212,6 +344,21 @@
     {
      "href": "/cat/li001",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "利用温暖的照明营造温馨的氛围",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/li001",
+     "backgroundColor": null
+    },
+    {
+     "title": "DEJSA 德萨",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/dejsa-de-sa-tai-deng-mi-huang-se-ru-bai-se-bo-li__0967540_pe810183_s4.jpg",
+     "href": "/cn/zh/p/dejsa-de-sa-tai-deng-mi-huang-se-ru-bai-se-bo-li-40404985/"
     }
    ],
    "settings": null
@@ -234,6 +381,27 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "孩子喜欢的家具和玩具",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/bc003",
+     "backgroundColor": null
+    },
+    {
+     "title": "IKEA PS LÖMSK IKEA PS 龙克",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ikea-ps-loemsk-ikea-ps-long-ke-fu-shou-zhuan-yi-bai-se-hong-se__0726690_pe735385_s4.jpg",
+     "href": "/cn/zh/p/ikea-ps-loemsk-ikea-ps-long-ke-fu-shou-zhuan-yi-bai-se-hong-se-90407137/"
+    },
+    {
+     "title": "LILLEPLUTT 丽乐普鲁",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lilleplutt-li-le-pu-lu-mao-rong-wan-ju-mao-hui-se-bai-se__0216164_pe371748_s4.jpg",
+     "href": "/cn/zh/p/lilleplutt-li-le-pu-lu-mao-rong-wan-ju-mao-hui-se-bai-se-80260452/"
+    }
+   ],
    "settings": null
   },
   {
@@ -254,6 +422,45 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "小细节带来大不同",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/st007",
+     "backgroundColor": null
+    },
+    {
+     "title": "DRÖNJÖNS 德瑞约恩",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/droenjoens-de-rui-yue-en-ban-gong-zhuo-shou-na-jian-bai-se__0669938_pe715478_s4.jpg",
+     "href": "/cn/zh/p/droenjoens-de-rui-yue-en-ban-gong-zhuo-shou-na-jian-bai-se-80428828/"
+    },
+    {
+     "title": "FLÅDIS 弗拉迪",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/fladis-fu-la-di-lan-hai-cao__0713073_pe729177_s4.jpg",
+     "href": "/cn/zh/p/fladis-fu-la-di-lan-hai-cao-40322174/"
+    },
+    {
+     "title": "KNOPPÄNG 克诺宾",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/knoppaeng-ke-nuo-bin-hua-kuang-bai-se__0660790_pe711203_s4.jpg",
+     "href": "/cn/zh/p/knoppaeng-ke-nuo-bin-hua-kuang-bai-se-10427295/"
+    },
+    {
+     "title": "DRÖNJÖNS 德瑞约恩",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/droenjoens-de-rui-yue-en-wen-jian-he-bai-se__0669948_pe715486_s4.jpg",
+     "href": "/cn/zh/p/droenjoens-de-rui-yue-en-wen-jian-he-bai-se-80439695/"
+    },
+    {
+     "title": "SKÅDIS 斯考迪斯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/skadis-si-kao-di-si-dong-dong-ban-zu-he-bai-se__0908704_pe644144_s4.jpg",
+     "href": "/cn/zh/p/skadis-si-kao-di-si-dong-dong-ban-zu-he-bai-se-69217380/"
+    }
+   ],
    "settings": null
   },
   {
@@ -272,6 +479,45 @@
     {
      "href": "/cat/10776",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "客厅绽放新意",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/10776",
+     "backgroundColor": null
+    },
+    {
+     "title": "BERÄKNA 比莱纳",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/beraekna-bi-lai-na-hua-ping-tou-ming-bo-li__0639826_pe699591_s4.jpg",
+     "href": "/cn/zh/p/beraekna-bi-lai-na-hua-ping-tou-ming-bo-li-50457775/"
+    },
+    {
+     "title": "STILREN 斯缇仁",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/stilren-si-ti-ren-hua-ping-bai-se__0704329_pe725345_s4.jpg",
+     "href": "/cn/zh/p/stilren-si-ti-ren-hua-ping-bai-se-60442038/"
+    },
+    {
+     "title": "VILJESTARK 维利斯塔",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/viljestark-wei-li-si-ta-hua-ping-tou-ming-bo-li__0640433_pe699813_s4.jpg",
+     "href": "/cn/zh/p/viljestark-wei-li-si-ta-hua-ping-tou-ming-bo-li-80338578/"
+    },
+    {
+     "title": "BERÄKNA 比莱纳",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/beraekna-bi-lai-na-hua-ping-tou-ming-bo-li__0639834_pe699599_s4.jpg",
+     "href": "/cn/zh/p/beraekna-bi-lai-na-hua-ping-tou-ming-bo-li-60327948/"
+    },
+    {
+     "title": "SESAMFRÖN 瑟萨姆夫吕恩",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/sesamfroen-se-sa-mu-fu-lu-en-jiao-shui-hu-tou-ming-bo-li__0958896_pe809495_s4.jpg",
+     "href": "/cn/zh/p/sesamfroen-se-sa-mu-fu-lu-en-jiao-shui-hu-tou-ming-bo-li-60488187/"
     }
    ],
    "settings": null

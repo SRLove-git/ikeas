@@ -11,7 +11,7 @@
    "title": "纸张材质，光线梦幻",
    "texts": [
     "选用宜家 MAJORNA 马尤尔娜 落地灯和台灯，打造一块拥有情调照明的精美空间。灯具表面覆有层层优质纸张，看上去像雕塑一样，可让灯具散发出温馨梦幻的光线。",
-    "<p>选用 MAJORNA 马尤尔娜 落地灯和台灯，打造一块拥有情调照明的精美空间。它们采用坚实的金属构造设计，表面覆有两层手工粘贴的优质纸张，看上去像雕塑一样。</p>",
+    "选用 MAJORNA 马尤尔娜 落地灯和台灯，打造一块拥有情调照明的精美空间。它们采用坚实的金属构造设计，表面覆有两层手工粘贴的优质纸张，看上去像雕塑一样。",
     "纸张材质，光线梦幻",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "纸张材质，光线梦幻",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a8/bc/a8bc58013c0f971fdc940da7aa220a12.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,16 +54,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "特写：宜家 MAJORNA 马尤尔娜 落地灯灯具表面覆有两层手工粘贴的优质纸张，上面带有精美图案，可让灯具散发出温馨迷人的光线。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/7e/59/7e59628f2cb0629c2bfc71397edf8415.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>双层纸张造型设计可以打造出三维效果，让灯具散发出温馨梦幻的光线。</p>"
+    "双层纸张造型设计可以打造出三维效果，让灯具散发出温馨梦幻的光线。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -67,6 +89,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

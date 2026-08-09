@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "fd53e4ff507241fbbbb0f68a8c8ea507"
    }
@@ -22,10 +24,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>只需小小花费，从独立青年到幸福伴侣，针对不同生活阶段，宜家助你一套搞定。简约百搭的卧室套组，单身时可以根据自己喜好搭配出个性风格，有了伴侣后只需简单更换些床上用品便能继续使用。灵活多变的实用单品可以照顾不同阶段的生活需求。&nbsp;</p>"
+    "只需小小花费，从独立青年到幸福伴侣，针对不同生活阶段，宜家助你一套搞定。简约百搭的卧室套组，单身时可以根据自己喜好搭配出个性风格，有了伴侣后只需简单更换些床上用品便能继续使用。灵活多变的实用单品可以照顾不同阶段的生活需求。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "45da00ee5b894c149301d7898c336180"
    }
@@ -50,6 +54,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "无限灵感，为你的家打造舒适空间",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220328/6acec487e7f945cea61b154bed7a49c9.mp4",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "bdf131262bc046449a3db4b72d680053"
    }
@@ -67,6 +81,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "LAMPAN 拉姆本",
+     "text": "¥39.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lampan-la-mu-ben-tai-deng-bai-se__0459937_pe606395_s4.jpg",
+     "href": "/cn/zh/p/lampan-la-mu-ben-tai-deng-bai-se-60055419/"
+    },
+    {
+     "title": "TÅSJÖN 托逊",
+     "text": "¥19.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/tasjoen-tuo-xun-tuo-xie-hui-se__0668751_pe714668_s4.jpg",
+     "href": "/cn/zh/p/tasjoen-tuo-xun-tuo-xie-hui-se-20391936/"
+    }
+   ],
    "settings": {
     "traceId": "cbbc319063af4dcc83b9881fc924aeb2"
    }

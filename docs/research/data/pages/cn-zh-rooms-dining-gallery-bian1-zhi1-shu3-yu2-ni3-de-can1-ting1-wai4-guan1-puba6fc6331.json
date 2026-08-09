@@ -11,7 +11,7 @@
    "title": "编织属于你的餐厅外观",
    "texts": [
     "为你的餐厅或用餐区添置新款 NILSOVE 尼尔索乌 藤条扶手椅。每把椅子的天然编织纤维都是单独编织的，因此各不相同。",
-    "<p>在时尚、环保的用餐区吃饭、工作和娱乐。NILSOVE 尼尔索乌 藤条椅子各方面都是独特的，每把椅子都单独编织，色彩自然，会随时间改变。</p>",
+    "在时尚、环保的用餐区吃饭、工作和娱乐。NILSOVE 尼尔索乌 藤条椅子各方面都是独特的，每把椅子都单独编织，色彩自然，会随时间改变。",
     "编织属于你的餐厅外观",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "编织属于你的餐厅外观",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/95/03/9503d87a0e43701d38e0914e0ddba26e.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -39,6 +49,32 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "NORNA 诺尔纳",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/norna-nuo-er-na-yi-zi-dian-lai-la-zi-ran-se__44796_pe130423_s4.jpg",
+     "href": "/cn/zh/p/norna-nuo-er-na-yi-zi-dian-lai-la-zi-ran-se-70190186/"
+    },
+    {
+     "title": "IDÅSEN 伊朵森",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/idasen-yi-duo-sen-gui-dai-bo-li-hua-men-mi-huang-se__0613638_pe686433_s4.jpg",
+     "href": "/cn/zh/p/idasen-yi-duo-sen-gui-dai-bo-li-hua-men-mi-huang-se-60360952/"
+    },
+    {
+     "title": "BURVIK 伯恩维克",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/burvik-bo-en-wei-ke-bian-zhuo-bai-se__0551240_pe658473_s4.jpg",
+     "href": "/cn/zh/p/burvik-bo-en-wei-ke-bian-zhuo-bai-se-20340391/"
+    },
+    {
+     "title": "LOHALS 鲁哈斯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lohals-lu-ha-si-ping-zhi-di-tan-zi-ran-se__0280230_pe419175_s4.jpg",
+     "href": "/cn/zh/p/lohals-lu-ha-si-ping-zhi-di-tan-zi-ran-se-80277396/"
+    }
+   ],
    "settings": null
   }
  ]

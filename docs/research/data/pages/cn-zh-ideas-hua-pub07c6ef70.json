@@ -11,7 +11,7 @@
    "title": "以假乱真的人造花",
    "texts": [
     "在墙壁铺上一层类似青草的绿毯，再用假花进行装饰，便可打造完美的室内花卉装饰。",
-    "<p>你总梦想拥有一个开满鲜花的花园。但却没有任何户外空间。而且老实说，你根本没有时间（或者不愿意）照看这些花朵。是时候重新想象你的（室内）梦幻花园了。</p>",
+    "你总梦想拥有一个开满鲜花的花园。但却没有任何户外空间。而且老实说，你根本没有时间（或者不愿意）照看这些花朵。是时候重新想象你的（室内）梦幻花园了。",
     "以假乱真的人造花",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "以假乱真的人造花",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/12/2a/122a0bd280ffb8df3f399f8085828ded.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -43,16 +53,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "使用小刀和尺子在绿毯上划一条缝。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/41/09/4109dbcbd2327661c376f3e84d60f669.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>割草</strong></p>\n<p>不需要割草机。这种割草方法更加省时。而且只需要做一次。</p>"
+    "割草 不需要割草机。这种割草方法更加省时。而且只需要做一次。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -72,16 +94,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "在绿毯上划出缝，用假花填在缝里。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ad/23/ad236d8470bebf3cf11a8c127b2bbc41.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>种花</strong></p>\n<p>在毛毯的割缝中&lsquo;种&rsquo;一些人造花。没有人会在意你能否区分一年生植物和多年生植物。因为这些花会常年盛开。</p>"
+    "种花 在毛毯的割缝中‘种’一些人造花。没有人会在意你能否区分一年生植物和多年生植物。因为这些花会常年盛开。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -101,26 +135,40 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "在绿毯的割缝中挂上洒水壶。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/79/61/79611f8948402364f6813754fc3fe099.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>给花园&lsquo;浇水&rsquo;</strong></p>\n<p>或是不浇。（洒水壶可以增加花园的真实感。）然后后退两步，欣赏自己的作品吧。日复一日。再也无需打理。如果你愿意，也可以随季节变换花卉品种。但是何必费这力气呢？这些花可以使用美艳如初。</p>"
+    "给花园‘浇水’ 或是不浇。（洒水壶可以增加花园的真实感。）然后后退两步，欣赏自己的作品吧。日复一日。再也无需打理。如果你愿意，也可以随季节变换花卉品种。但是何必费这力气呢？这些花可以使用美艳如初。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>但是如果你根本不需要用到花呢？</strong></p>\n<p>我们尝试了另外一种方法，不用假花也能实现花卉主题的布置。</p>"
+    "但是如果你根本不需要用到花呢？ 我们尝试了另外一种方法，不用假花也能实现花卉主题的布置。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -140,6 +188,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "在百叶帘上剪出花朵形状，当阳光照射进来，便能看到地板上的花朵图案了。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/2c/3f/2c3f810f3898057cde665a30dc982e33.png",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -159,6 +217,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "用相同的布料将墙壁、相框、灯具、沙发、茶几和毛毯等所有物品都遮住，这些物品看上去便像是相互交融，消失不见了一般。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/f4/e3/f4e3803196c7b30f39de3643dd23c7a5.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   }
  ]

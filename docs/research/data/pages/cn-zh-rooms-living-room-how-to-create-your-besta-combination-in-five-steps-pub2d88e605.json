@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "caf841c6dff748718c2789354beb60b1"
    }
@@ -22,10 +24,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>BEST&Aring; 贝达 系列可能是你理想的储物方案。这个系列的模块使用简单，而且可以灵活组装，将你挚爱的物件隐藏、整理好甚至展示出来。而且，这些模块有许多款式可供选择，放在家里看上去棒极了。</p>"
+    "BESTå 贝达 系列可能是你理想的储物方案。这个系列的模块使用简单，而且可以灵活组装，将你挚爱的物件隐藏、整理好甚至展示出来。而且，这些模块有许多款式可供选择，放在家里看上去棒极了。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "3128b700d4204e0d8cec85562bad4c6e"
    }
@@ -54,6 +58,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20220302/ebc1d725ccbf400a9527ee5d172a3499.png?x-oss-process=style/medium",
+     "href": "/cn/zh/p/99417245?artType=spr",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "1d61c58cf8a540fabf83eedc18c3496d"
    }
@@ -82,6 +96,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20220302/95e6ec62a88945ba8472a0ecda0376c6.png?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "1c8442a070f445e7baa01bf4cb3ba297"
    }
@@ -110,6 +134,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20220302/5fd9918edcd24b22a608ac7c5675ba3e.png?x-oss-process=style%2Fmedium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "6eecb0fb4e1f448a9552edd33e5d657e"
    }
@@ -138,6 +172,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20220302/d7fd4d6489bb4153b9f0685fa2355cfd.png?x-oss-process=style%2Fmedium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "1c8442a070f445e7baa01bf4cb3ba297"
    }
@@ -166,6 +210,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20220302/c122129acc38487f91fdbdd85d7580c5.jpg?x-oss-process=style%2Fmedium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "6eecb0fb4e1f448a9552edd33e5d657e"
    }
@@ -194,6 +248,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20220302/93a588804a6942b0bb1f4dfdf16c59cc.png?x-oss-process=style%2Fmedium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "1c8442a070f445e7baa01bf4cb3ba297"
    }
@@ -240,6 +304,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "BESTÅ 贝达推荐组合",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220302/34a8836c21e24b23aebb5be3ec351347.png?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/700277",
+     "backgroundColor": "#dee7e6"
+    },
+    {
+     "title": "BESTÅ 贝达 设计工具",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220302/0fcc5e5a8c734bf8b9e28dc036fd33f8.png?x-oss-process=style/medium",
+     "href": "/cn/zh/planners/besta-planner/?layout=headless",
+     "backgroundColor": "#cab2a2"
+    },
+    {
+     "title": "万事俱备的储物墙壁",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220302/697d77f1052b4685beae3c09238b0ae4.png?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/living-room/how-to/wan4-shi4-ju4-bei4-de-chu3-wu4-qiang2-bi4-pubf5496770",
+     "backgroundColor": "#815f3f"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "379375f7b1bc4dd3b7e7b32085dbdc2d"
    }

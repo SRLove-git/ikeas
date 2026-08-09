@@ -11,7 +11,7 @@
    "title": "营造梦幻氛围",
    "texts": [
     "特写：浅绿色 VANLIGEN 花瓶中插着春天的鲜花，后方是蓝色的 VANLIGEN 花瓶/罐。",
-    "<p>选用精美物品装饰家居环境，让植物环绕四周，激发灵感。欢迎选购 VANLIGEN 系列，包括传统花瓶、装饰储物盒、花盆和小圆蜡烛托。添置一束春天的鲜花，放上心爱的纪念品，你便可以打造一个能令人会心一笑的日常静物组合。</p>",
+    "选用精美物品装饰家居环境，让植物环绕四周，激发灵感。欢迎选购 VANLIGEN 系列，包括传统花瓶、装饰储物盒、花盆和小圆蜡烛托。添置一束春天的鲜花，放上心爱的纪念品，你便可以打造一个能令人会心一笑的日常静物组合。",
     "营造梦幻氛围",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "营造梦幻氛围",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/9b/3d/9b3d745adca69292c1845ab7adc28f3f.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -46,6 +56,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "VANLIGEN 系列中的绿色圆形花瓶、蓝色花瓶/罐、小号红色玻璃花瓶和绿色装饰储物盒。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/67/9c/679cf067e8a9e0bb4edf02311c136c5f.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/67/9c/679cf067e8a9e0bb4edf02311c136c5f.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "VANLIGEN 系列灵感源自传统陶瓷，造型优雅，轮廓鲜明。这些配件由陶瓷和玻璃制成，色彩丰富，令人耳目一新，包括绿色、蓝色、灰色和红色。你可以混搭不同颜色和材料，找到你喜欢的组合。",
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -61,6 +95,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

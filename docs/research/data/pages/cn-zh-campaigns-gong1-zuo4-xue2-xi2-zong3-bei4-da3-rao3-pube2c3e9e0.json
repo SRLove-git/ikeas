@@ -14,16 +14,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>无人打扰的专注角落</h2>\n<p><strong> &middot; 书籍收纳 &middot; 专注环境</strong></p>\n<p>在家办公难免爱偷懒，但被书籍文件包围的角落则能带来更多专注感，时间的流逝一个闹钟不够提醒，那就来四个吧！</p>"
+    "无人打扰的专注角落 · 书籍收纳 · 专注环境 在家办公难免爱偷懒，但被书籍文件包围的角落则能带来更多专注感，时间的流逝一个闹钟不够提醒，那就来四个吧！"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -50,6 +54,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/33/11/33113e205a6b08395d378ea90c7791fa.jpg",
+     "href": "/cn/zh/p/00354275?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -65,6 +79,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "MICKE 米克",
+     "text": "¥699",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/micke-mi-ke-shu-zhuo-hei-he-se__0735981_pe740299_s4.jpg",
+     "href": "/cn/zh/p/micke-mi-ke-shu-zhuo-hei-he-se-00354275/"
+    },
+    {
+     "title": "LACK 拉克",
+     "text": "¥129",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lack-la-ke-qiang-ge-ban-hei-he-se__0641085_pe700249_s4.jpg",
+     "href": "/cn/zh/p/lack-la-ke-qiang-ge-ban-hei-he-se-00186183/"
+    }
+   ],
    "settings": null
   },
   {
@@ -85,6 +113,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

@@ -11,7 +11,7 @@
    "title": "你最喜欢什么主题？我们最喜欢的是收纳。",
    "texts": [
     "多块白色洞洞板，上面固定了不同颜色的容器，用于存放彩色笔、回形针和胶带。",
-    "上了大学，为自己布置一个整齐有序的宿舍。根据你的物品和个性喜好，挑选适合的书桌储物件：带容器的洞洞板让所有物品一目了然，触手可及；极简风格的储物件能将所有物品集中存放在一起，丰富储物选择满足你的储物需求。</p>",
+    "上了大学，为自己布置一个整齐有序的宿舍。根据你的物品和个性喜好，挑选适合的书桌储物件：带容器的洞洞板让所有物品一目了然，触手可及；极简风格的储物件能将所有物品集中存放在一起，丰富储物选择满足你的储物需求。",
     "你最喜欢什么主题？我们最喜欢的是收纳。",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "你最喜欢什么主题？我们最喜欢的是收纳。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/76/98/769832686e7dce03a27fe4b5199cdd21.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -50,6 +60,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个白色网状办公桌收纳件，带不同的隔间，其中放着剪刀、笔、纸等办公桌用品。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/540a5c8c3db156dc/original/PH177296-crop001.jpg",
+     "href": "/cn/zh/cat/10573",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -76,6 +96,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个三层式木制储物箱，带提手，顶层放着剪刀、绳、颜料和订书机。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/af74ed885d6a0b7/original/PH177181-crop001.jpg",
+     "href": "/cn/zh/cat/10573",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -102,6 +132,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个白色柜子的抽屉被拉开，里面放着不同的收纳件，分别装着胶带、笔和纸夹，所有物品都带有一点橙色。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/618b24ef7e519dfd/original/PH177302-crop001.jpg",
+     "href": "/cn/zh/cat/10573",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -122,6 +162,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -148,6 +190,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "查看更多返校布置灵感",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/8d/ad/8dad3656ccfb196e03a8293d0b25b11c.jpg",
+     "href": "/cn/zh/campaigns/back-to-school/",
+     "backgroundColor": "#bfb9ae"
+    }
+   ],
+   "productIds": [],
    "settings": null
   }
  ]

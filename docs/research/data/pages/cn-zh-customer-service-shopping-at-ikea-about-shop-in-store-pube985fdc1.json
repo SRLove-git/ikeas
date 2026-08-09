@@ -22,6 +22,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "在线购物介绍",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/76/e9/76e900cde318409ba8151890cdcb99dc.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -40,6 +50,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/8d/1d/8d1df18e77c7061febdf139882fbc9c2.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -60,6 +80,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

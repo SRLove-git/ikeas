@@ -22,6 +22,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "产品资讯新闻",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/72/31/723130e01c79442f6771cfe57062c1da.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "13d2fd890b764823a0ae7e75748539a6"
    }
@@ -31,11 +41,21 @@
    "title": null,
    "texts": [
     "pub-column",
-    "<h2><strong>新品发布室</strong></h2>",
+    "新品发布室",
     "pub-text"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "columns": [
+    {
+     "heading": "新品发布室",
+     "text": null,
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "1428f6f96db546cbbb12b3d3d3983fda"
    }
@@ -75,6 +95,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "探索当季新品",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/16/bd/16bdaf68c4af589ebec6194d72f631ff.jpg",
+     "href": "/cn/zh/new/",
+     "backgroundColor": null
+    },
+    {
+     "title": "关爱幼儿成长，排解父母烦忧",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d1/a7/d1a72babd1e27cdd7305a8e9ec9c8ff3.jpg",
+     "href": "/cn/zh/cat/bc001",
+     "backgroundColor": null
+    },
+    {
+     "title": "OMTÄNKSAM 沃姆安克萨姆——心怀他人的设计",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d9/32/d932a85594e375b67bc9dcff3852acbd.jpg",
+     "href": "/cn/zh/news/omtnksam-wo4-mu3-an1-ke4-sa4-mu3-xin1-huai2-ta1-ren2-de-she4-ji4-pub3eed8070",
+     "backgroundColor": null
+    },
+    {
+     "title": "SYMFONISK 希姆弗斯 WiFi音箱",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/44/a7/44a7c37ce0517f8fa9539cbc5d6f2956.jpg",
+     "href": "/cn/zh/news/symfonisk-xi1-mu3-fu2-si1-wifi-yin1-xiang1-pubaafe6500",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "26d3e3885a5b40a5a895f54820b86f7d"
    }
@@ -97,6 +148,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "dcf6d7d3c9f74e1d846c507d9c7cb9e3"
    }
@@ -109,6 +162,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "5a595a42306e44a89be0be547e1d3cbc"
    }
@@ -117,10 +172,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h4><strong>你可能会想看</strong></h4>"
+    "你可能会想看"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "71e9234ebb024e9e9cb0892d37d90dff"
    }
@@ -155,6 +212,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "综合新闻",
+     "text": "综合新闻",
+     "image": "https://file.app.ikea.cn/images/34/18/34182fc4ce17828b4c54319e3fc7a85d.jpg",
+     "href": "/cn/zh/newsroom/corporate-news/xinwen-pub5a3665d1",
+     "backgroundColor": null
+    },
+    {
+     "title": "新闻联络",
+     "text": "感谢您对宜家的关注! 为了更方便快捷地为媒体朋友提供讯息，请联系宜家中国公关各相应部门。",
+     "image": "https://file.app.ikea.cn/images/aa/61/aa6120dcedca27cc037861a2ec8b2252.jpg",
+     "href": "/cn/zh/newsroom/press-contacts/ikeanews-pubc4254c10",
+     "backgroundColor": null
+    },
+    {
+     "title": "商品召回信息",
+     "text": "一张尺寸不合的床",
+     "image": "https://file.app.ikea.cn/images/a4/63/a46327c1dda3b7b5247dc369f6999ecf.jpg",
+     "href": "/cn/zh/customer-service/product-support/recalls/",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "b9613aa7bd7148d6b405eae1b06652cd"
    }

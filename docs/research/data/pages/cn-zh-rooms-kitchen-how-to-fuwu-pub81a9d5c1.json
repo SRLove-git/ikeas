@@ -11,7 +11,7 @@
    "title": "厨房服务",
    "texts": [
     "一名宜家员工在跟客户介绍产品",
-    "<p><strong>打造梦想厨房，尽在宜家家居</strong></p>\n<p>你是否正考虑购买一个全新的厨房，且需要一些帮助呢？在此页面，你可以找到所有你需要的宜家厨房服务信息。从测量房间到安装配件，我们有一系列服务可供选择。向下滚动，查看我们能够如何帮助你打造梦想中的厨房。</p>",
+    "打造梦想厨房，尽在宜家家居 你是否正考虑购买一个全新的厨房，且需要一些帮助呢？在此页面，你可以找到所有你需要的宜家厨房服务信息。从测量房间到安装配件，我们有一系列服务可供选择。向下滚动，查看我们能够如何帮助你打造梦想中的厨房。",
     "厨房服务",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "厨房服务",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/25/fb/25fba93b4e81fe035f57d3b37b36ae7a.png",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Hero-厨房服务"
    }
@@ -32,10 +42,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>宜家提供全套安装服务</strong></h2>\n<p>有了我们的厨房安装服务，安装新厨房方便省时。宜家全套安装服务可以为你从始至终提供完整服务。你的厨房将按照最高标准安装，所有安装享受品质保证。我们甚至会将所有包装带走，确保以环保的可持续方式处理这些包装。</p>"
+    "宜家提供全套安装服务 有了我们的厨房安装服务，安装新厨房方便省时。宜家全套安装服务可以为你从始至终提供完整服务。你的厨房将按照最高标准安装，所有安装享受品质保证。我们甚至会将所有包装带走，确保以环保的可持续方式处理这些包装。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -56,6 +68,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b8/74/b874bb5c9e79c0a3b79f4425b339c43f.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Image(video)-"
    }
@@ -64,10 +86,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>宜家全套安装服务包括：</strong></p>\n<p>&bull;所有橱柜的组装和安装。<br />&bull;台面安装，包括水槽和炉灶的裁切件<br />&bull; 安装并连接水槽和水龙头<br />&bull; 安装并连接宜家电气和燃气设备<br />&bull; 安装并连接宜家操作台照明<br />&bull; 安装盖板、把手和内部配件（搁板、篮子等）<br />&bull; 带走所有包装（顾客希望保留除外）<br />&bull; 我们保证安装人员技术精湛，安装效果一流。<br />&bull; 详情请咨询当地宜家商场。</p>"
+    "宜家全套安装服务包括： •所有橱柜的组装和安装。 •台面安装，包括水槽和炉灶的裁切件 • 安装并连接水槽和水龙头 • 安装并连接宜家电气和燃气设备 • 安装并连接宜家操作台照明 • 安装盖板、把手和内部配件（搁板、篮子等） • 带走所有包装（顾客希望保留除外） • 我们保证安装人员技术精湛，安装效果一流。 • 详情请咨询当地宜家商场。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -80,6 +104,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Horizontal Line-"
    }
@@ -88,10 +114,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>需要帮助吗？以下是我们提供的服务</strong></h2>"
+    "需要帮助吗？以下是我们提供的服务"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -104,7 +132,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<h4><strong>厨房测量服务</strong></h4>\n<p>我们会安排经验丰富的专业人员去你家测量。测量的数据对新厨房至关重要，因此我们将确保测量数据精确。</p>",
+    "厨房测量服务 我们会安排经验丰富的专业人员去你家测量。测量的数据对新厨房至关重要，因此我们将确保测量数据精确。",
     "pub-text"
    ],
    "images": [
@@ -126,6 +154,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/43/56/4356d108488aea4379f1073b5e3aa391.png",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b3/d9/b3d9b033e46e7c4a8f1402b98612aa99.png",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/fa/17/fa1794db08ec33f563a3e0113268b023.png",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "厨房测量服务 我们会安排经验丰富的专业人员去你家测量。测量的数据对新厨房至关重要，因此我们将确保测量数据精确。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/43/56/4356d108488aea4379f1073b5e3aa391.png",
+     "href": null
+    },
+    {
+     "heading": "厨房设计服务 我们的厨房设计专家能帮你打造梦想中的厨房。我们在充分利用空间这方面经验丰富，所以能够为你打造一个符合你生活或工作方式的厨房。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/b3/d9/b3d9b033e46e7c4a8f1402b98612aa99.png",
+     "href": null
+    },
+    {
+     "heading": "厨房安装服务 购买宜家厨房后，你可以选择我们的专业安装服务，这样可以节约宝贵的时间，特别是家电、电器及木工等颇为困难的事宜。你可以选择全套安装或部分安装服务。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/fa/17/fa1794db08ec33f563a3e0113268b023.png",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Columns-"
    }
@@ -138,7 +210,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<h4><strong>提货和送货服务</strong></h4>\n<p>我们会为你挑选所需的产品并运送到你的家中或办公室。你需要做的就是下订单。</p>",
+    "提货和送货服务 我们会为你挑选所需的产品并运送到你的家中或办公室。你需要做的就是下订单。",
     "pub-text"
    ],
    "images": [
@@ -155,6 +227,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/69/22/6922c2afad6598d677d0c75b4d625d93.png",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/45/88/4588f2663b8102e399c6f90dca4913e7.png",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "提货和送货服务 我们会为你挑选所需的产品并运送到你的家中或办公室。你需要做的就是下订单。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/69/22/6922c2afad6598d677d0c75b4d625d93.png",
+     "href": null
+    },
+    {
+     "heading": "送货服务 我们可以将你的厨房配件直接送到你的家中或办公室。我们不只是送货上门，而且会将家具送到你指定的房间。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/45/88/4588f2663b8102e399c6f90dca4913e7.png",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Columns-"
    }
@@ -177,6 +280,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Link - button or text-"
    }
@@ -189,6 +294,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Horizontal Line-"
    }
@@ -197,10 +304,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h4><strong>你可能也想看</strong></h4>"
+    "你可能也想看"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -213,7 +322,7 @@
     "/rooms/kitchen/how-to/sheji-pube9604f11",
     "page",
     "如何设计厨房",
-    "梦想和设计\n\n设计你的厨房，将你的创意和梦想付诸实践。你需要考虑很多问题，比如冰箱放在哪儿，或者需要多少抽屉。因此我们提供了工具和视频，可以帮助你选定理想的设计。如果你需要获取专业意见，我们的厨房设计师可以通过网络、或在店内为你提供全程协助。",
+    "梦想和设计 设计你的厨房，将你的创意和梦想付诸实践。你需要考虑很多问题，比如冰箱放在哪儿，或者需要多少抽屉。因此我们提供了工具和视频，可以帮助你选定理想的设计。如果你需要获取专业意见，我们的厨房设计师可以通过网络、或在店内为你提供全程协助。",
     "ikea://cms/page-compatible-web?url=%2Frooms%2Fkitchen%2Fhow-to%2Fsheji-pube9604f11&key=cn--zh--e9604f11c38111e796b935f60bf025b7"
    ],
    "images": [
@@ -230,6 +339,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "如何设计厨房",
+     "text": "梦想和设计\n\n设计你的厨房，将你的创意和梦想付诸实践。你需要考虑很多问题，比如冰箱放在哪儿，或者需要多少抽屉。因此我们提供了工具和视频，可以帮助你选定理想的设计。如果你需要获取专业意见，我们的厨房设计师可以通过网络、或在店内为你提供全程协助。",
+     "image": "https://file.app.ikea.cn/images/0c/a3/0ca3bb4b4ae6b84161b762046c1fd0ef.jpeg",
+     "href": "/cn/zh/rooms/kitchen/how-to/sheji-pube9604f11",
+     "backgroundColor": null
+    },
+    {
+     "title": "厨房产品的品质保证",
+     "text": "厨房产品的品质保证",
+     "image": "https://file.app.ikea.cn/images/cc/30/cc30c1dab23df69af5fb44c506071997.jpg",
+     "href": "/cn/zh/customer-service/returns-claims/guarantee/quality-guarantees_kitchen-pubf2540d3b",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Page List-"
    }
@@ -244,6 +370,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Link - button or text-"
    }

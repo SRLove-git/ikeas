@@ -11,7 +11,7 @@
    "title": "KUNGSBACKA 孔巴卡 炭黑色厨房指南",
    "texts": [
     "一间厨房，配炭黑色柜门和抽屉前板，还有一个不锈钢热解烤箱和木墙板。",
-    "<p>KUNGSBACKA 孔巴卡 炭黑色柜门充满现代风格，上下边缘为倒棱设计，突显厨房的横向线条元素。</p>",
+    "KUNGSBACKA 孔巴卡 炭黑色柜门充满现代风格，上下边缘为倒棱设计，突显厨房的横向线条元素。",
     "KUNGSBACKA 孔巴卡 炭黑色厨房指南",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "KUNGSBACKA 孔巴卡 炭黑色厨房指南",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/5d/38/5d38f4b57754de656bc4a001a74937d0.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -50,6 +60,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个橱柜，配橡木贴面工作台，下方有一个拉开的KUNGSBACKA 孔巴卡 炭黑色抽屉。",
+     "image": "https://file.app.ikea.cn/images/be/a6/bea635e5542c85f8953ef498a155eeff.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -76,6 +96,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "配KUNGSBACKA 孔巴卡 炭黑色厨房柜门的柜子。",
+     "image": "https://file.app.ikea.cn/images/c6/1a/c61a5af1f160382f18eee3a65513de7e.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -102,6 +132,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "配KUNGSBACKA 孔巴卡 炭黑色抽屉前板的柜子。",
+     "image": "https://file.app.ikea.cn/images/02/c1/02c1f64f5307f7a30fd47d7f0af18e60.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -128,6 +168,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "两个配炭黑色柜门的壁柜，柜门打开着，可以看到里面搁架上存放着各种物品，例如书和美术用品。",
+     "image": "https://file.app.ikea.cn/images/72/40/7240d7d22aa846702ba48139cb00dc80.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -173,6 +223,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "购买宜家厨房的5个步骤",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/31/25/3125f86f48cf469079c71ff3c1e4b4a7.jpg",
+     "href": null,
+     "backgroundColor": "#d5dcd4"
+    },
+    {
+     "title": "宜家厨房设计工具——在家即可轻松设计你的厨房",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/42/90/42909d2ee6bc60a85b45906cfa0ff9a7.jpg",
+     "href": "/cn/zh/h5page/?url=%23",
+     "backgroundColor": "#ecd7a2"
+    },
+    {
+     "title": "预约宜家厨房专家服务",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/7b/32/7b32031403ca8a72b6528dfec1cb0597.jpg",
+     "href": "/cn/zh/h5page/?url=%23",
+     "backgroundColor": "#e9c3b0"
+    },
+    {
+     "title": "宜家厨房服务",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/76/9a/769af772d23e404b7198cfbf9b542f22.jpg",
+     "href": "/cn/zh/h5page/?url=%23",
+     "backgroundColor": "#99abc1"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -188,6 +269,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

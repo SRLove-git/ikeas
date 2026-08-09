@@ -11,7 +11,7 @@
    "title": "表达爱意的三种方式",
    "texts": [
     "深蓝色的碟子里摆放着香草心型饼干和叉子，旁边还有一杯茶和一根蜡烛。",
-    "<p>没有什么能比真心诚意准备的惊喜更能向你所爱之人传递爱意和关怀了。你打算如何庆祝这个美妙的日子？</p>",
+    "没有什么能比真心诚意准备的惊喜更能向你所爱之人传递爱意和关怀了。你打算如何庆祝这个美妙的日子？",
     "表达爱意的三种方式",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "表达爱意的三种方式",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/0a/27/0a276483854b7b84a54f954a29be59fe.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -46,6 +56,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "烤盘上放着三个涂抹着果酱和鲜奶油的心形华夫饼，旁边的玻璃杯中盛着咖啡。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/de/20/de2048fd724e1535695d93a1b631bd04.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/de/20/de2048fd724e1535695d93a1b631bd04.jpg",
+     "href": null
+    },
+    {
+     "heading": "爱意浓浓 工作日的早晨通常会比较忙碌，来不及自制美食，不过没关系，有冷冻华夫饼也一样可以搞定，你只需将其放在微波炉里加热一小会儿就可食用。如果能在灶台上放上一杯咖啡，你的爱人定会惊喜不已。",
+     "text": null,
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -68,6 +102,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "精心布置的桌子上铺着白色的桌布，两盘肉丸旁边配着调制好的土豆泥和沙拉。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/7e/38/7e388d08659409c8683857a36495fb96.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/7e/38/7e388d08659409c8683857a36495fb96.jpg",
+     "href": null
+    },
+    {
+     "heading": "简单的乐趣 谁说制造浪漫就一定要搞得很复杂？其实在某个看似平凡的晚上，用心布置一下餐桌就能制造浪漫：平凡之中见非凡。",
+     "text": null,
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -90,16 +148,42 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "一个三层的盘中摆放着心形饼干，两杯热咖啡和一碗圆形饼干。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/10/0c/100cbd85332d5c559d7b3c329293f445.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/10/0c/100cbd85332d5c559d7b3c329293f445.jpg",
+     "href": null
+    },
+    {
+     "heading": "融化人心的甜蜜细节 在表达爱意这件事上，再小的细节也不容忽视。这些美味的饼干不仅能满足对方心中甜蜜的渴望，中间的小爱心更是能营造温馨情调。",
+     "text": null,
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><em>我们乐意看到顾客运用我们的产品发挥创意。尽情发挥吧！但是请注意，经过微调或改造的宜家产品将丧失其原有功能，或无法进行二次销售，因此，你将不再享有宜家的商业保证及退货权利。</em></p>"
+    "我们乐意看到顾客运用我们的产品发挥创意。尽情发挥吧！但是请注意，经过微调或改造的宜家产品将丧失其原有功能，或无法进行二次销售，因此，你将不再享有宜家的商业保证及退货权利。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

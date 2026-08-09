@@ -11,7 +11,7 @@
    "title": "一应俱全的步入式衣柜",
    "texts": [
     "我们利用 PAX 帕克思 白色衣柜衣物存储系列和其他深蓝色系产品，包括 KIVIK 奇维 脚凳和 REMSTA 瑞斯塔 深蓝绿色扶手椅，装点这款步入式衣柜。",
-    "<p>谁说美梦无法成真？利用宝蓝色进行装点，外加多功能实用家具，便可为你和你的同伴（当然主要是你）打造出外观奢华的精美衣柜。</p>",
+    "谁说美梦无法成真？利用宝蓝色进行装点，外加多功能实用家具，便可为你和你的同伴（当然主要是你）打造出外观奢华的精美衣柜。",
     "一应俱全的步入式衣柜",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "一应俱全的步入式衣柜",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/fe/7b/fe7b1debb9388c16744301addb80b1e3.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -39,6 +49,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "MALM 马尔姆",
+     "text": "¥599",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/malm-ma-er-mu-shu-zhuang-tai-bai-se__1400013_pe968487_s4.jpg",
+     "href": "/cn/zh/p/malm-ma-er-mu-shu-zhuang-tai-bai-se-40355409/"
+    },
+    {
+     "title": "NYMÅNE 纽墨奈",
+     "text": "¥299",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/nymane-niu-mo-nai-xi-ding-deng-dai-4-ge-she-deng-bai-se__0607350_pe682899_s4.jpg",
+     "href": "/cn/zh/p/nymane-niu-mo-nai-xi-ding-deng-dai-4ge-she-deng-bai-se-50337702/"
+    }
+   ],
    "settings": null
   }
  ]

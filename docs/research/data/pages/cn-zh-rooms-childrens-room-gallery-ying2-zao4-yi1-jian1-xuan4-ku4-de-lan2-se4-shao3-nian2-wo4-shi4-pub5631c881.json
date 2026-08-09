@@ -11,7 +11,7 @@
    "title": "营造一间炫酷的蓝色少年卧室",
    "texts": [
     "宜家 SLÄKT 斯莱克 白色床架可以放进青少年或儿童的小卧室。它配备四个滑动抽屉，两个开放式搁板可展示物品或书籍。",
-    "<p>让你十来岁的孩子拥有一个属于自己的睡觉、学习和社交的小空间。一张 SL&Auml;KT 斯莱克 床就有很多空间存放衣物和科技产品，SK&Aring;DIS 斯考迪斯 钉板和 PLATSA 普拉萨 模块式衣柜可以自由组合，满足他们的需求。</p>",
+    "让你十来岁的孩子拥有一个属于自己的睡觉、学习和社交的小空间。一张 SLäKT 斯莱克 床就有很多空间存放衣物和科技产品，SKåDIS 斯考迪斯 钉板和 PLATSA 普拉萨 模块式衣柜可以自由组合，满足他们的需求。",
     "营造一间炫酷的蓝色少年卧室",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "营造一间炫酷的蓝色少年卧室",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/f5/f7/f5f75b75e41870cca5fd0edf2a00ada0.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -39,6 +49,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "SLÄKT 斯莱克",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/slaekt-si-lai-ke-you-chu-wu-kong-jian-de-chuang-jia-chuang-ban-bai-se__0648346_pe704865_s4.jpg",
+     "href": "/cn/zh/p/slaekt-si-lai-ke-you-chu-wu-kong-jian-de-chuang-jia-chuang-ban-bai-se-79291968/"
+    },
+    {
+     "title": "LUSTIGT 卢斯蒂格",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lustigt-lu-si-di-ge-qiang-ge-ban__0710227_pe727416_s4.jpg",
+     "href": "/cn/zh/p/lustigt-lu-si-di-ge-qiang-ge-ban-10381853/"
+    }
+   ],
    "settings": null
   }
  ]

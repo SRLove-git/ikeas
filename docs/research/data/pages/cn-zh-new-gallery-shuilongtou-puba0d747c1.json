@@ -11,7 +11,7 @@
    "title": "节水节能",
    "texts": [
     "宜家 HAMNSKÄR 汉斯卡 水龙头不仅可让浴室呈现镀铬传统风格，还能节水节能。",
-    "<p>宜家水龙头拥有行业领先的品质。请查看节水节能、风格多样的全新浴室水龙头。</p>\n<p>比如拥有迷人传统外观的 HAMNSK&Auml;R 汉斯卡 水龙头和设计时尚现代的 BROGRUND 布鲁格隆德 水龙头。这两款水龙头均带有&ldquo;冷水启动&rdquo;功能，可节省更多热水，还能防止烫伤孩子的手。</p>",
+    "宜家水龙头拥有行业领先的品质。请查看节水节能、风格多样的全新浴室水龙头。 比如拥有迷人传统外观的 HAMNSKäR 汉斯卡 水龙头和设计时尚现代的 BROGRUND 布鲁格隆德 水龙头。这两款水龙头均带有“冷水启动”功能，可节省更多热水，还能防止烫伤孩子的手。",
     "节水节能",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "节水节能",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/55/e1/55e1a0f0a393e84314bd8c47b4ae96f9.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -43,16 +53,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "宜家 BROGRUND 布鲁格隆德 水龙头不仅可让浴室呈现镀铬现代风格，还能节水节能。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e0/28/e02820e01dfb3b772dcc7d49d0697e2e.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>和宜家所有水龙头一样，这款全新水龙头也带有限流器，可将空气和水混合在一起，最高可减少50%的用水量。产品持久耐用，可提供10年品质保证。</p>"
+    "和宜家所有水龙头一样，这款全新水龙头也带有限流器，可将空气和水混合在一起，最高可减少50%的用水量。产品持久耐用，可提供10年品质保证。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -65,6 +87,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

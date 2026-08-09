@@ -11,7 +11,7 @@
    "title": "在家中做水疗",
    "texts": [
     "怎样才能打造出水疗中心般的小型浴室？宜家 BROGRUND 布鲁格隆德 镀铬网格顶喷花洒系列和 VILTO 维尔托 桦木储物系列能够为浴室增添独特的风格。",
-    "<p>首先应选用天然的材料、蓬松的毛巾和宜人的香气。</p>",
+    "首先应选用天然的材料、蓬松的毛巾和宜人的香气。",
     "在家中做水疗",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "在家中做水疗",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e6/63/e66320388ea2750d8352fdb9a968e5d5.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -39,6 +49,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "VILTO 维尔托",
+     "text": "¥299",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vilto-wei-er-tuo-mao-jin-jia-hua-mu__0721630_pe733303_s4.jpg",
+     "href": "/cn/zh/p/vilto-wei-er-tuo-mao-jin-jia-hua-mu-80344452/"
+    },
+    {
+     "title": "IKORNNES 伊库斯",
+     "text": "¥199",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ikornnes-yi-ku-si-jing-zi-bai-zha-mu__0637396_pe698269_s4.jpg",
+     "href": "/cn/zh/p/ikornnes-yi-ku-si-jing-zi-bai-zha-mu-80306921/"
+    }
+   ],
    "settings": null
   }
  ]

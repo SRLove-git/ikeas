@@ -10,7 +10,7 @@
    "type": "pub-hero",
    "title": "一起玩耍吧",
    "texts": [
-    "<p>撰文： MARCUS DUNBERG</p>",
+    "撰文： MARCUS DUNBERG",
     "一起玩耍吧",
     "normal"
    ],
@@ -23,6 +23,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "一起玩耍吧",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/cb/b7/cbb7b7cb6edb25d40e0fff21afa3bd14.png",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -33,16 +43,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>泰国西北部</h2>\n<p>IKEA Foundation与国际助残组织温暖携手，共同帮助住在临时避难所的儿童尽情地玩，快乐地成长。下面，我们就来看看在此次合作项目中受益的孩子Hay Tar Gay的故事。</p>"
+    "泰国西北部 IKEA Foundation与国际助残组织温暖携手，共同帮助住在临时避难所的儿童尽情地玩，快乐地成长。下面，我们就来看看在此次合作项目中受益的孩子Hay Tar Gay的故事。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -50,7 +64,7 @@
    "title": null,
    "texts": [
     "https://v.youku.com/v_show/id_XMzEzMTEzNzU1Mg==.html?spm=a2hww.20027244.m_250036.5~5!2~5~5!2~5~5~A",
-    "<p>了解Hay Tar Gay的日常生活。IKEA Foundation和国际助残的合作令众多儿童受益匪浅，Hay Tar Gay就是其中一位。</p>",
+    "了解Hay Tar Gay的日常生活。IKEA Foundation和国际助残的合作令众多儿童受益匪浅，Hay Tar Gay就是其中一位。",
     "MANUAL_INPUT"
    ],
    "images": [],
@@ -60,16 +74,20 @@
      "text": "\n<p>了解Hay Tar Gay的日常生活。IKEA Foundation和国际助残的合作令众多儿童受益匪浅，Hay Tar Gay就是其中一位。</p>\n"
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>重视玩</h2>\n<p>Hay Tar Gay从缅甸乘坐大巴，辗转三天才抵达泰国西北部的这间临时避难所，当时她只有一岁。如今她10岁了。在学校里，她积极向上，朝气蓬勃，喜欢受到关注。</p>\n<p>Hay Tar Gay每周会到临时避难所附近的康复中心两次，进行康复训练。她在努力训练左腿，由于腿部角度曲折，她走起路来跛脚很严重。这家康复中心由国际助残设立，为近60个国家的残疾人士等弱势群体提供帮助。国际助残组织是IKEA Foundation合作的六大机构之一。三年来，两家机构携手带动&ldquo;一起玩耍吧&rdquo;项目，非常重视让孩子尽情地玩。</p>"
+    "重视玩 Hay Tar Gay从缅甸乘坐大巴，辗转三天才抵达泰国西北部的这间临时避难所，当时她只有一岁。如今她10岁了。在学校里，她积极向上，朝气蓬勃，喜欢受到关注。 Hay Tar Gay每周会到临时避难所附近的康复中心两次，进行康复训练。她在努力训练左腿，由于腿部角度曲折，她走起路来跛脚很严重。这家康复中心由国际助残设立，为近60个国家的残疾人士等弱势群体提供帮助。国际助残组织是IKEA Foundation合作的六大机构之一。三年来，两家机构携手带动“一起玩耍吧”项目，非常重视让孩子尽情地玩。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -88,16 +106,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/00/6e/006e948f5c9dcaf78769ef26a7a58958.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>Hay Tar Gay和她的义肢。由于腿部角度曲折，她走起路来跛脚很严重。</p>"
+    "Hay Tar Gay和她的义肢。由于腿部角度曲折，她走起路来跛脚很严重。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -109,6 +139,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -127,16 +159,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/dc/b9/dcb962d18a7a4633cc0f8f399d574824.png",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>每个孩子的权利</h2>\n<p>根据联合国《儿童权利公约》，每个孩子都有玩的权利。</p>\n<p>IKEA Foundation的宣传经理Chris Williams表示：&ldquo;从孩子出生到八岁之间，玩对他们的成长至关重要。因为能让孩子们学会协商技巧、团队合作及抗压方法，有助于他们的大脑发育。&rdquo;</p>"
+    "每个孩子的权利 根据联合国《儿童权利公约》，每个孩子都有玩的权利。 IKEA Foundation的宣传经理Chris Williams表示：“从孩子出生到八岁之间，玩对他们的成长至关重要。因为能让孩子们学会协商技巧、团队合作及抗压方法，有助于他们的大脑发育。”"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -155,26 +199,40 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/73/e9/73e9e99810fb86e5f0b635f5db94e994.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>这是她的家。泰国西北部的一个临时避难所。</p>"
+    "这是她的家。泰国西北部的一个临时避难所。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h4>包罗万象的全面方式</h4>\n<p>可是，残疾儿童往往无法参与游戏活动，而住在临时避难所的残疾儿童，又是他们中最弱势的群体。国际助残的区域技术协调员Cheryl Shin-Hua Yeam说：&ldquo;玩包括舞蹈、体育、绘画、游戏和戏剧等娱乐形式。我们项目的目标，是从情感、社交、认知和道德等全方面促进孩子发展。这些需要救助的孩子，大多数都有心灵创伤，玩有助于他们释放压力，表达内心情感。&rdquo;</p>\n<h4>把孩子们带到一起</h4>\n<p>项目的下一步，就是要在营地上建立游乐场，让残疾儿童与健康儿童一起玩。此外，还有建立儿童俱乐部的计划，让孩子们自己组织活动。Hay Tar Gay也有自己的计划：她想当英语老师或医生。我们相信，这位名字寓意为&ldquo;奉献美好&rdquo;的女孩一定能做到。</p>"
+    "包罗万象的全面方式 可是，残疾儿童往往无法参与游戏活动，而住在临时避难所的残疾儿童，又是他们中最弱势的群体。国际助残的区域技术协调员Cheryl Shin-Hua Yeam说：“玩包括舞蹈、体育、绘画、游戏和戏剧等娱乐形式。我们项目的目标，是从情感、社交、认知和道德等全方面促进孩子发展。这些需要救助的孩子，大多数都有心灵创伤，玩有助于他们释放压力，表达内心情感。” 把孩子们带到一起 项目的下一步，就是要在营地上建立游乐场，让残疾儿童与健康儿童一起玩。此外，还有建立儿童俱乐部的计划，让孩子们自己组织活动。Hay Tar Gay也有自己的计划：她想当英语老师或医生。我们相信，这位名字寓意为“奉献美好”的女孩一定能做到。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -185,16 +243,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h4>IKEA Foundation是什么？</h4>\n<p>IKEA Foundation是英格卡控股公司（最大的宜家特许经营机构的所有者）所有者INGKA Foundation旗下的慈善机构。IKEA Foundation致力于为世界上最贫困社区的儿童和年轻人提供更好的机会，具体表现在为儿童提供生活中最基本的四个元素：一个家；健康的人生起点；优质的教育；以及稳定的家庭收入。<br />IKEA Foundation还积极帮助这些社区应对气候变化带来的影响。通过与国际助残这样强大的战略合作伙伴携手努力，IKEA Foundation可以运用创新型的方法为孩子的人生带来更加广泛的积极影响。</p>"
+    "IKEA Foundation是什么？ IKEA Foundation是英格卡控股公司（最大的宜家特许经营机构的所有者）所有者INGKA Foundation旗下的慈善机构。IKEA Foundation致力于为世界上最贫困社区的儿童和年轻人提供更好的机会，具体表现在为儿童提供生活中最基本的四个元素：一个家；健康的人生起点；优质的教育；以及稳定的家庭收入。 IKEA Foundation还积极帮助这些社区应对气候变化带来的影响。通过与国际助残这样强大的战略合作伙伴携手努力，IKEA Foundation可以运用创新型的方法为孩子的人生带来更加广泛的积极影响。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -215,6 +277,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -225,16 +289,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h4><strong>阅读更多2017年宜家集锦内容</strong></h4>"
+    "阅读更多2017年宜家集锦内容"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -267,6 +335,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "一些瑞典特色",
+     "text": "宜家视自己的价值观和文化为“永恒的组成部分”，是激励他们不断前进的永恒信条之一。宜家文化和价值观像指南针一样，指引着他们前进的方向，帮助他们开拓全新市场、追求商业成功。",
+     "image": "https://file.app.ikea.cn/images/bd/52/bd528e3baad121ad66b736a727b4e5cf.jpg",
+     "href": "/cn/zh/this-is-ikea/newsroom/ruidiantese-pubf942a3fb",
+     "backgroundColor": null
+    },
+    {
+     "title": "把个人爱好变成全职工作",
+     "text": "……但当面对成为专业厨师，还是从事广告业的时候，他选择了后者。十五年后，他找到了可以把个人对餐饮的热爱转变成全职工作的方法，即在宜家餐饮服务部担任创意主管。",
+     "image": "https://file.app.ikea.cn/images/8f/c0/8fc0a84dde1e25432afd9bb4e7857522.jpg",
+     "href": "/cn/zh/this-is-ikea/newsroom/food-pub9c9fce30",
+     "backgroundColor": null
+    },
+    {
+     "title": "照亮空间！",
+     "text": "你走进一间漆黑的房间，自信地指挥灯光亮起来，嘿，真的亮了！你即刻便能沐浴在美丽温暖的光线之下。接下来，你命令灯泡变成蓝色或桃红色，或者变暗一点，它们也立即照办了。其中的奥秘是什么？！",
+     "image": "https://file.app.ikea.cn/images/35/f7/35f75a9fe0035b0b075c7ce395c74ad9.jpg",
+     "href": "/cn/zh/this-is-ikea/newsroom/lighting-pubd959128c",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -287,6 +379,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

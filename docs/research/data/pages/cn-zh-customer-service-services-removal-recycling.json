@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "08b64dc9d24546a59d20108ea8bea12e"
    }
@@ -34,6 +36,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/37/d1/37d19901592287c358e546c031e5c270.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "abfd90e5415240a4ba4bd81901c45c1a"
    }
@@ -42,10 +54,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2 style=\"text-align: justify;\"><strong>下单前请先阅读并确认如下内容，符合以下条件即可下单购买旧家具拆运服务：</strong></h2>\n<p style=\"text-align: justify;\"><br />&bull; 如您在线下宜家商场购买了新家具以及送货服务，在送货的同时我们可为您提供同类型旧家具的拆运服务（具体费用见下表），让您轻松换新。线上顾客请咨询宜家线上客服进行约定。</p>\n<p style=\"text-align: justify;\"><br />&bull;&nbsp;旧家具拆除属于不可恢复性操作，拆除后的家具和拆除物无法保证原有使用功能。工作人员会询问是否需要保留或部分保留，若表示无需保留，工作人员会清理现场，将旧家具运走至处理公司，尽可能把对环境的影响降至最低。</p>\n<p style=\"text-align: justify;\"><br />&bull; 请确保旧家具（特别是沙发或床垫）的尺寸能够顺利从您的家中移出， 如无法移出，我们可能无法为您提供旧家具拆运服务，并会为旧家具拆运服务进行退款。宜家不提供窗口吊装服务。</p>\n<p style=\"text-align: justify;\"><br />&bull; 拆除前，工作人员会查看涉及到的地板和墙壁并进行保护，确保拆除过程中不会损坏。如果拆除会导致"
+    "下单前请先阅读并确认如下内容，符合以下条件即可下单购买旧家具拆运服务： • 如您在线下宜家商场购买了新家具以及送货服务，在送货的同时我们可为您提供同类型旧家具的拆运服务（具体费用见下表），让您轻松换新。线上顾客请咨询宜家线上客服进行约定。 • 旧家具拆除属于不可恢复性操作，拆除后的家具和拆除物无法保证原有使用功能。工作人员会询问是否需要保留或部分保留，若表示无需保留，工作人员会清理现场，将旧家具运走至处理公司，尽可能把对环境的影响降至最低。 • 请确保旧家具（特别是沙发或床垫）的尺寸能够顺利从您的家中移出， 如无法移出，我们可能无法为您提供旧家具拆运服务，并会为旧家具拆运服务进行退款。宜家不提供窗口吊装服务。 • 拆除前，工作人员会查看涉及到的地板和墙壁并进行保护，确保拆除过程中不会损坏。如果拆除会导致不可避免的墙砖损坏、脱落或留有粘合物等情况，工作人员会在拆除前提醒顾客。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "baf05f79e7f342c0827c3040b75b7e32"
    }
@@ -54,10 +68,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2 style=\"text-align: justify;\"><strong>提供拆运的旧家具范围如下:</strong></h2>\n<table style=\"width: 100%; border: 1px solid #000000; height: 164px;\" border=\"1\" width=\"100%\">\n<tbody>\n<tr style=\"height: 22px;\">\n<td style=\"width: 53.5817%; background-color: #000000; height: 22px; border: 1px ridge #ffffff;\"><span style=\"color: #ffffff;\">&nbsp;服务项目</span></td>\n<td style=\"width: 46.9914%; background-color: #000000; height: 22px; border: 1px ridge #ffffff;\"><span style=\"color: #ffffff;\">收费标准</span></td>\n</tr>\n<tr style=\"height: 10px;\">\n<td style=\"width: 53.5817%; height: 10px; border: 1px solid #000000;\"><spa"
+    "提供拆运的旧家具范围如下: 服务项目 收费标准 旧沙发拆运 ¥149/件 旧床垫拆运 ¥149/件 餐桌椅拆运 ¥149/件 抽屉柜拆运 ¥149/件 小家具拆运* ¥149/件 旧衣柜拆运 ¥249/件 整个床框架+床板拆运 ¥249/件 *小家具拆运包括：床头柜、餐边柜、衣帽架、鞋柜、茶几角几、梳妆台+凳、办公/学习桌+椅"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -80,6 +96,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "1fa79b3bcde4447491e7cbc3fd287d41"
    }
@@ -88,10 +106,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>我们的服务</strong></h2>"
+    "我们的服务"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "b7aa47bc5bf44b3794da25b10f86fed4"
    }
@@ -126,6 +146,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "送货服务",
+     "text": "了解详情",
+     "image": null,
+     "href": "/cn/zh/customer-service/services/delivery/",
+     "backgroundColor": null
+    },
+    {
+     "title": "组装服务",
+     "text": "了解详情",
+     "image": null,
+     "href": "/cn/zh/customer-service/services/assembly/",
+     "backgroundColor": null
+    },
+    {
+     "title": "设计服务",
+     "text": "了解详情",
+     "image": null,
+     "href": "/cn/zh/customer-service/services/kitchen-planning/",
+     "backgroundColor": null
+    },
+    {
+     "title": "安装服务",
+     "text": "了解详情",
+     "image": null,
+     "href": "/cn/zh/customer-service/services/kitchen-installation/",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "32a5bd1252404d5d9311d6b7b18dfeda"
    }
@@ -148,6 +199,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "4087a84b559f444d967ba3049f2bb38c"
    }
@@ -158,6 +211,8 @@
    "texts": [],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "00ba68687ec24ce59c0e38c4d00801a6"
    }

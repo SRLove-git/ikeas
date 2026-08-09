@@ -11,7 +11,7 @@
    "title": "适合时尚鞋履爱好者的储物方案",
    "texts": [
     "宜家 GREJIG 格雷伊格 黑色网格鞋架与白色 ANABODA 小型衣柜适用于小型空间，帮你打造整洁紧凑的小门厅。",
-    "<p>这间位于首尔的门厅灵动有趣，摆满了鞋子、收藏品，然后还是鞋子。看看她如何将小门厅整理得井井有条，哪怕她全家过来作客，门厅也依然能够保持整洁。</p>",
+    "这间位于首尔的门厅灵动有趣，摆满了鞋子、收藏品，然后还是鞋子。看看她如何将小门厅整理得井井有条，哪怕她全家过来作客，门厅也依然能够保持整洁。",
     "适合时尚鞋履爱好者的储物方案",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "适合时尚鞋履爱好者的储物方案",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b3/0e/b30ee350ec4896c48afd99faa8f687c8.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -39,6 +49,38 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "GREJIG 格雷伊格",
+     "text": "¥29.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/grejig-ge-lei-yi-ge-xie-jia-hui-se__0710739_pe727757_s4.jpg",
+     "href": "/cn/zh/p/grejig-ge-lei-yi-ge-xie-jia-hui-se-90329875/"
+    },
+    {
+     "title": "FJANTIG 弗炎提",
+     "text": "¥19.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/fjantig-fu-yan-ti-gua-gou-hei-se__0710517_pe727612_s4.jpg",
+     "href": "/cn/zh/p/fjantig-fu-yan-ti-gua-gou-hei-se-70362267/"
+    },
+    {
+     "title": "TJUSIG 图西格",
+     "text": "¥79.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/tjusig-tu-xi-ge-gua-jian-hei-se__0710544_pe727621_s4.jpg",
+     "href": "/cn/zh/p/tjusig-tu-xi-ge-gua-jian-hei-se-20290598/"
+    },
+    {
+     "title": "MARIUS 玛留斯",
+     "text": "¥29.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/marius-ma-liu-si-deng-bai-se__0727398_pe735650_s4.jpg",
+     "href": "/cn/zh/p/marius-ma-liu-si-deng-bai-se-30184050/"
+    },
+    {
+     "title": "HEKTAR 赫克塔",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/hektar-he-ke-ta-qiang-mian-jia-shi-she-deng-shen-hui-se__0606598_pe682407_s4.jpg",
+     "href": "/cn/zh/p/hektar-he-ke-ta-qiang-mian-jia-shi-she-deng-shen-hui-se-70216539/"
+    }
+   ],
    "settings": null
   }
  ]

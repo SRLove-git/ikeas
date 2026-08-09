@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "33235b17971c4a8391b45a1af2787d31"
    }
@@ -22,10 +24,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>你可以自己完成所有事情，但是大可不必如此。我们提供一系列服务，让你的生活更加简便。无论你需要安装、组装帮助，还是要以可持续的方式回收旧家具，宜家的专业人员都可以帮你完成这些繁重的工作。</p>"
+    "你可以自己完成所有事情，但是大可不必如此。我们提供一系列服务，让你的生活更加简便。无论你需要安装、组装帮助，还是要以可持续的方式回收旧家具，宜家的专业人员都可以帮你完成这些繁重的工作。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "23e7384eafc54679adc4c3eb5c364bdc"
    }
@@ -53,6 +57,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-视频-"
    }
@@ -87,6 +93,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "全屋设计： 一站式服务，为你设计理想的家",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/47/df/47dffd8b0d702c0f77e8098f965d9942.jpg",
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fdesign-leads%2Fwrd.html%3Fchannel%3DEC_website%26cl_sr%3DIRW_homepage_3nd%26design_version%3DGPC_case%26source%3DNEW_WEB",
+     "backgroundColor": null
+    },
+    {
+     "title": "厨房设计： 全套厨房产品和设计灵感，定制梦想厨房",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/1b/3a/1b3a9bf15c056a5e52585249c95ed638.jpg",
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fkitchen%3Fchannel%3Dkitchen_IRW%2520M2%26cl_sr%3DIRW%2520M2",
+     "backgroundColor": null
+    },
+    {
+     "title": "宜家对公业务： 商业空间设计，批量采购服务",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/43/78/43789358d695d6a682159efb33f88286.jpg",
+     "href": "/cn/zh/ikea-business/",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "a252fa21fa35474e929c44dc07f9bc59"
    }
@@ -129,6 +159,93 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "送货服务",
+     "text": "了解详情",
+     "image": null,
+     "href": "/cn/zh/customer-service/services/delivery/",
+     "backgroundColor": null
+    },
+    {
+     "title": "组装服务",
+     "text": "了解详情",
+     "image": null,
+     "href": "/cn/zh/customer-service/services/assembly/",
+     "backgroundColor": null
+    },
+    {
+     "title": "设计服务",
+     "text": "了解详情",
+     "image": null,
+     "href": "/cn/zh/customer-service/services/kitchen-planning/",
+     "backgroundColor": null
+    },
+    {
+     "title": "安装服务",
+     "text": "了解详情",
+     "image": null,
+     "href": "/cn/zh/customer-service/services/kitchen-installation/",
+     "backgroundColor": null
+    },
+    {
+     "title": "旧家具拆运服务",
+     "text": "了解详情",
+     "image": null,
+     "href": "/cn/zh/customer-service/services/removal-recycling/",
+     "backgroundColor": null
+    },
+    {
+     "title": "退货政策",
+     "text": "了解详情",
+     "image": null,
+     "href": "/cn/zh/customer-service/returns-claims/return-policy/",
+     "backgroundColor": null
+    },
+    {
+     "title": "宜家礼品卡",
+     "text": "了解详情",
+     "image": null,
+     "href": "/cn/zh/customer-service/services/lipinka-pubf2366e21",
+     "backgroundColor": null
+    },
+    {
+     "title": "窗帘安装服务",
+     "text": "了解详情",
+     "image": null,
+     "href": "/cn/zh/customer-service/services/wan2-zheng3-chuang1-lian2-fu2-wu4-pubab28e5d0",
+     "backgroundColor": null
+    },
+    {
+     "title": "门店提货服务",
+     "text": "了解详情",
+     "image": null,
+     "href": "/cn/zh/customer-service/services/click-collect/",
+     "backgroundColor": null
+    },
+    {
+     "title": "分期付款服务",
+     "text": "了解详情",
+     "image": "",
+     "href": "/cn/zh/customer-service/payment-options/",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "回购与再售服务",
+     "text": "了解详情",
+     "image": "",
+     "href": "/cn/zh/customer-service/services/buy-back/",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "循环市集",
+     "text": "了解详情",
+     "image": "",
+     "href": "/cn/zh/as-is-online",
+     "backgroundColor": "#111111"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "183d97c9170f4f0aaf96fb15de317761"
    }
@@ -151,6 +268,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "e9c25817f175415e942f582308eddb26"
    }

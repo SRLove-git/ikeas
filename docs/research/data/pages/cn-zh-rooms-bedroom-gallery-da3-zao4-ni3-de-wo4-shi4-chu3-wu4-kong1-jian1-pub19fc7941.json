@@ -11,7 +11,7 @@
    "title": "打造你的卧室储物空间",
    "texts": [
     "宜家 PLATSA 普拉萨 衣柜系列提供了充足的储物机会。使用它储存衣物和其他物品。不同形状的单元让你能够根据自家建筑结构充分利用空间。",
-    "<p>小公寓越来越多，我们需要更巧妙的储物方式。在你的床上方和四周分隔出一些空间，量身定制一个衣柜。高箱气压床可以存放家用物品，甚至吸尘器！</p>",
+    "小公寓越来越多，我们需要更巧妙的储物方式。在你的床上方和四周分隔出一些空间，量身定制一个衣柜。高箱气压床可以存放家用物品，甚至吸尘器！",
     "打造你的卧室储物空间",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "打造你的卧室储物空间",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ef/04/ef04e030218636cb1107ac54eb2349c5.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -39,6 +49,38 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "MALM 马尔姆",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/malm-ma-er-mu-gao-xiang-qi-ya-chuang-bai-se__0749127_pe745496_s4.jpg",
+     "href": "/cn/zh/p/malm-ma-er-mu-gao-xiang-qi-ya-chuang-bai-se-90404803/"
+    },
+    {
+     "title": "LACK 拉克",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lack-la-ke-qiang-ge-ban-bai-se__0641086_pe700251_s4.jpg",
+     "href": "/cn/zh/p/lack-la-ke-qiang-ge-ban-bai-se-30282178/"
+    },
+    {
+     "title": "HÅRTE 哈尔特",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/harte-ha-er-te-led-gong-zuo-deng-bai-se-yin-se__0243818_pe383097_s4.jpg",
+     "href": "/cn/zh/p/harte-ha-er-te-led-gong-zuo-deng-bai-se-yin-se-30238265/"
+    },
+    {
+     "title": "JAKOBSBYN 雅克布斯比",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/jakobsbyn-ya-ke-bu-si-bi-diao-deng-zhao-tou-ming-bo-li__0683771_pe720859_s4.jpg",
+     "href": "/cn/zh/p/jakobsbyn-ya-ke-bu-si-bi-diao-deng-zhao-tou-ming-bo-li-10382433/"
+    },
+    {
+     "title": "TOFTLUND 托夫伦",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/toftlund-tuo-fu-lun-di-tan-bai-se__0617682_pe688130_s4.jpg",
+     "href": "/cn/zh/p/toftlund-tuo-fu-lun-di-tan-bai-se-80420243/"
+    }
+   ],
    "settings": null
   }
  ]

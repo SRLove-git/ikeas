@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -32,6 +34,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/27/95/2795456493a942132c21a5d6f363d766.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -58,6 +70,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/fc/a8/fca8179a7ab0466e3930a3a9c6ced7db.jpg",
+     "href": "/cn/zh/rooms/living-room/gallery/ke4-ting1-chu3-wu4-xiao3-miao4-zhao1-pub7a89d4a1",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -84,6 +106,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/5b/af/5baf3d8bbaa8e765345e4fb61576073b.jpg",
+     "href": "/cn/zh/rooms/living-room/gallery/zai4-ke4-ting1-shou1-na4-he2-yin3-cang2-wan2-ju4-pub5a0dfe31",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -110,6 +142,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/17/23/17230aac209fa0be2db629b1a33e7cff.jpg",
+     "href": "/cn/zh/rooms/living-room/gallery/da3-zao4-shi4-he2-quan2-jia1-ren2-gong4-xiang3-de-kong1-jian1-pub01e3f381",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -136,6 +178,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/91/1b/911ba1994ad40c1e7a1352acfe3cfdd4.jpg",
+     "href": "/cn/zh/rooms/living-room/gallery/zen3-yang4-she4-ji4-ke4-ting1-deng1-guang1-pub50d35171",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -162,6 +214,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/59/99/5999c728ba6f6ee513cd61f92153eaa8.jpg",
+     "href": "/cn/zh/rooms/dining/gallery/ru2-he2-da3-zao4-bei3-ou1-chuan2-tong3-feng1-ge2-can1-ting1-pub865ac761",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -188,6 +250,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/dc/d5/dcd59d8d5d2a536199c681a04ff200b7.jpg",
+     "href": "/cn/zh/rooms/living-room/gallery/qiao3-yong4-fang3-zhi1-pin3-gai3-bian4-jia1-ju1-feng1-ge2-puba8a13161",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   }
  ]

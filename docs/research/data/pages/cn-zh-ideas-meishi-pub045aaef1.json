@@ -11,7 +11,7 @@
    "title": "烘焙，冷冻，到时候你就会感谢自己",
    "texts": [
     "再不用抢在最后一刻为客人烘焙美食。提前做一些冷冻甜品，为即将来临的节日做好准备，需要吃时取出即可。",
-    "<p>节日高峰来临时，难免会有些不知所措。为何不尽力减轻负担？在冰箱里储存一些美味甜点，会令休闲娱乐和日常加餐更加轻松惬意。</p>",
+    "节日高峰来临时，难免会有些不知所措。为何不尽力减轻负担？在冰箱里储存一些美味甜点，会令休闲娱乐和日常加餐更加轻松惬意。",
     "烘焙，冷冻，到时候你就会感谢自己",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "烘焙，冷冻，到时候你就会感谢自己",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/36/0b/360bc64f72e0fc41ddb88a79b7ca68be.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -31,7 +41,7 @@
    "title": null,
    "texts": [
     "https://v.youku.com/v_show/id_XMzEzMTEyNjA0MA==.html?spm=a2h3j.8428770.3416059.1",
-    "<p><strong>香浓巧克力圣诞树</strong><br />200克黄油<br />4枚鸡蛋<br />4分升糖<br />4汤匙香草糖<br />6汤匙可可<br />4分升面粉<br />4小撮盐</p>",
+    "香浓巧克力圣诞树 200克黄油 4枚鸡蛋 4分升糖 4汤匙香草糖 6汤匙可可 4分升面粉 4小撮盐",
     "MANUAL_INPUT"
    ],
    "images": [],
@@ -41,6 +51,8 @@
      "text": "<p><strong>香浓巧克力圣诞树</strong><br />200克黄油<br />4枚鸡蛋<br />4分升糖<br />4汤匙香草糖<br />6汤匙可可<br />4分升面粉<br />4小撮盐</p>"
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -48,7 +60,7 @@
    "title": null,
    "texts": [
     "https://v.youku.com/v_show/id_XMzEzMTEyODQ0NA==.html?spm=a2h3j.8428770.3416059.1",
-    "<p><strong>冰淇淋饼干三明治</strong><br />1.5升冰淇淋<br />1.5分升浓奶油<br />1包藏红花<br />几茶匙碎开心果<br />姜汁饼干</p>",
+    "冰淇淋饼干三明治 1.5升冰淇淋 1.5分升浓奶油 1包藏红花 几茶匙碎开心果 姜汁饼干",
     "MANUAL_INPUT"
    ],
    "images": [],
@@ -58,6 +70,8 @@
      "text": "<p><strong>冰淇淋饼干三明治</strong><br />1.5升冰淇淋<br />1.5分升浓奶油<br />1包藏红花<br />几茶匙碎开心果<br />姜汁饼干</p>"
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -65,7 +79,7 @@
    "title": null,
    "texts": [
     "https://v.youku.com/v_show/id_XMzEzMTEyMjc5Mg==.html?spm=a2h3j.8428770.3416059.1",
-    "<p><strong>简易且雅致的芝士蛋糕</strong><br />130克糖粉<br />3枚鸡蛋<br />200克奶油芝士<br />3分升浓奶油<br />2茶匙肉桂<br />2茶匙柠檬汁<br />3包 KAFFEREP 卡夫瑞 生姜薄片饼干<br />少许浆果和薄荷点缀</p>",
+    "简易且雅致的芝士蛋糕 130克糖粉 3枚鸡蛋 200克奶油芝士 3分升浓奶油 2茶匙肉桂 2茶匙柠檬汁 3包 KAFFEREP 卡夫瑞 生姜薄片饼干 少许浆果和薄荷点缀",
     "MANUAL_INPUT"
    ],
    "images": [],
@@ -75,26 +89,32 @@
      "text": "<p><strong>简易且雅致的芝士蛋糕</strong><br />130克糖粉<br />3枚鸡蛋<br />200克奶油芝士<br />3分升浓奶油<br />2茶匙肉桂<br />2茶匙柠檬汁<br />3包 KAFFEREP 卡"
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><em>我们乐意看到顾客运用我们的产品发挥创意。尽情发挥吧！但是请注意，经过微调或改造的宜家产品将丧失其原有功能，或无法进行二次销售，因此，你将不再享有宜家的商业保证及退货权利。</em></p>"
+    "我们乐意看到顾客运用我们的产品发挥创意。尽情发挥吧！但是请注意，经过微调或改造的宜家产品将丧失其原有功能，或无法进行二次销售，因此，你将不再享有宜家的商业保证及退货权利。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>制作人</strong> <br />室内设计师：Fredrik Biel <br />摄影师：Andrea Papini<br />撰稿人：Vanessa Algotsson</p>"
+    "制作人 室内设计师：Fredrik Biel 摄影师：Andrea Papini 撰稿人：Vanessa Algotsson"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

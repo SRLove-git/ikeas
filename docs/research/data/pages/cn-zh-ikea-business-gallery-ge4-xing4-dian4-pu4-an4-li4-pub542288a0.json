@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-标题-"
    }
@@ -22,10 +24,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>想要以独特的理念和风格表现产品和服务背后的意义？欢迎来到宜家！宜家有众多产品适合任何设计理念和风格，可满足从简约的瑜伽会所到时尚前卫的理发店等各类设计需求。</p>"
+    "想要以独特的理念和风格表现产品和服务背后的意义？欢迎来到宜家！宜家有众多产品适合任何设计理念和风格，可满足从简约的瑜伽会所到时尚前卫的理发店等各类设计需求。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -46,6 +50,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/85/d5/85d57cbb7ba37231659813eb9eb06aa2.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-媒体商品组合 image(Video)-"
    }
@@ -73,6 +87,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/73/54/7354213e36e548e07ad73cd537bdf420.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/aa/68/aa683d4e4869f3b368f68197f60c3010.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/73/54/7354213e36e548e07ad73cd537bdf420.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/aa/68/aa683d4e4869f3b368f68197f60c3010.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-分栏内容 Columns-"
    }
@@ -93,6 +138,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/90/8e/908ee0037c768467ab6b99a829edfc7e.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-媒体商品组合 image(Video)-"
    }
@@ -120,6 +175,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/1b/93/1b939c13f21f530bdc22b900f717e756.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/52/6c/526ced6fe9e7f5c16d850d30903f5c40.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/1b/93/1b939c13f21f530bdc22b900f717e756.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/52/6c/526ced6fe9e7f5c16d850d30903f5c40.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-分栏内容 Columns-"
    }
@@ -142,6 +228,57 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "相关产品",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/ikea-business/retail-furnishings",
+     "backgroundColor": null
+    },
+    {
+     "title": "VEDBO 维伯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vedbo-wei-bo-gao-bei-fu-shou-yi-gang-na-rui-de-qian-he-fen__0643605_pe701951_s4.jpg",
+     "href": "/cn/zh/p/vedbo-wei-bo-gao-bei-fu-shou-yi-gang-na-rui-de-qian-he-fen-90423590/"
+    },
+    {
+     "title": "GLADOM 格拉登",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/gladom-ge-la-deng-tuo-pan-zhuo-bai-se__0470732_pe612912_s4.jpg",
+     "href": "/cn/zh/p/gladom-ge-la-deng-tuo-pan-zhuo-bai-se-50337820/"
+    },
+    {
+     "title": "RIGGA 丽加",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/rigga-li-jia-shai-yi-jia-bai-se__0710721_pe727742_s4.jpg",
+     "href": "/cn/zh/p/rigga-li-jia-shai-yi-jia-bai-se-30231631/"
+    },
+    {
+     "title": "LACK 拉克",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lack-la-ke-cha-ji-bai-se__0702218_pe724350_s4.jpg",
+     "href": "/cn/zh/p/lack-la-ke-cha-ji-bai-se-70449906/"
+    },
+    {
+     "title": "JANINGE 延宁",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/janinge-yan-ning-ba-tai-deng-bai-se__0728069_pe736042_s4.jpg",
+     "href": "/cn/zh/p/janinge-yan-ning-ba-tai-deng-bai-se-50246090/"
+    },
+    {
+     "title": "LÅNGFJÄLL 隆菲尔",
+     "text": "¥1,099",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/langfjaell-long-fei-er-hui-yi-yi-gang-na-rui-de-mi-huang-se-bai-se__0725409_pe734841_s4.jpg",
+     "href": "/cn/zh/p/langfjaell-long-fei-er-hui-yi-yi-gang-na-rui-de-mi-huang-se-bai-se-89252792/"
+    },
+    {
+     "title": "LAGKAPTEN 拉格开普 / ALEX 阿来斯",
+     "text": "¥849",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lagkapten-la-ge-kai-pu-alex-a-lai-si-shu-zhuo-bai-se__1022428_pe832716_s4.jpg",
+     "href": "/cn/zh/p/lagkapten-la-ge-kai-pu-alex-a-lai-si-shu-zhuo-bai-se-29431928/"
+    }
+   ],
    "settings": {
     "traceId": "cms-Product Shelf-相关产品"
    }
@@ -154,6 +291,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-分割线 Horizontal Line-"
    }
@@ -176,6 +315,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-按钮 Link-button or text-"
    }

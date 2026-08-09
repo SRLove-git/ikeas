@@ -11,7 +11,7 @@
    "title": "炎炎夏日，保持凉爽",
    "texts": [
     "一间阳光明媚的卧室，配有KLEPPSTAD 克勒普斯塔 床和白色的ÄNGSLILJA 安斯莉娅 床上用品，床上方悬挂着一盏LERGRYN 列格林 灯。",
-    "<p>有了这些小妙招和产品，你可以轻松应对夏日炎热，无需大肆破费。</p>",
+    "有了这些小妙招和产品，你可以轻松应对夏日炎热，无需大肆破费。",
     "炎炎夏日，保持凉爽",
     "norma"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "炎炎夏日，保持凉爽",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/06/92/0692868baa77e3c36de259f976ee792e.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "f4a42bba370946e98222458104cee27a"
    }
@@ -52,6 +62,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "在一间卧室里，一张床和一张长凳对面有一扇大窗户，上面挂着青绿色的MAJGULL 梅格尔 遮光窗帘和网帘。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/26ca7bd2169481c2/original/PE842268-crop002.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "81a2c1de5a7e4e71944fb38752dc483b"
    }
@@ -80,6 +100,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "床上放着一个套着白色DYTÅG 迪淘格 枕套的枕头，铺有一张白色的DVALA 代芙拉 床单，旁边有一张套着白色DYTÅG 迪淘格 被套的被子。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/23c4a1054716517c/original/PH185045.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "5a05e213c67d48b4994c6184853d8c9c"
    }
@@ -102,6 +132,33 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "舒爽安睡的理想床上用品",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/tl004",
+     "backgroundColor": null
+    },
+    {
+     "title": "KLUBBSPORRE 克鲁布斯珀勒",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/klubbsporre-ke-lu-bu-si-po-le-ren-ti-gong-xue-zhen-ce-wo-yang-wo__0792296_pe764700_s4.jpg",
+     "href": "/cn/zh/p/klubbsporre-ke-lu-bu-si-po-le-ren-ti-gong-xue-zhen-ce-wo-yang-wo-80446097/"
+    },
+    {
+     "title": "NATTJASMIN 纳斯敏",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/nattjasmin-na-si-min-chuang-li-shen-hui-se__0668967_pe714788_s4.jpg",
+     "href": "/cn/zh/p/nattjasmin-na-si-min-chuang-li-shen-hui-se-70442684/"
+    },
+    {
+     "title": "KVARNVEN 科瓦文",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kvarnven-ke-wa-wen-ren-ti-gong-xue-zhen-ce-wo-yang-wo__1024081_pe833414_s4.jpg",
+     "href": "/cn/zh/p/kvarnven-ke-wa-wen-ren-ti-gong-xue-zhen-ce-wo-yang-wo-10507348/"
+    }
+   ],
    "settings": {
     "traceId": "f995591e1ec745bc92472bf76956b2db"
    }
@@ -119,6 +176,26 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "KLUBBSPORRE 克鲁布斯珀勒",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/klubbsporre-ke-lu-bu-si-po-le-ren-ti-gong-xue-zhen-ce-wo-yang-wo__0792296_pe764700_s4.jpg",
+     "href": "/cn/zh/p/klubbsporre-ke-lu-bu-si-po-le-ren-ti-gong-xue-zhen-ce-wo-yang-wo-80446097/"
+    },
+    {
+     "title": "NATTJASMIN 纳斯敏",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/nattjasmin-na-si-min-chuang-li-shen-hui-se__0668967_pe714788_s4.jpg",
+     "href": "/cn/zh/p/nattjasmin-na-si-min-chuang-li-shen-hui-se-70442684/"
+    },
+    {
+     "title": "KVARNVEN 科瓦文",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kvarnven-ke-wa-wen-ren-ti-gong-xue-zhen-ce-wo-yang-wo__1024081_pe833414_s4.jpg",
+     "href": "/cn/zh/p/kvarnven-ke-wa-wen-ren-ti-gong-xue-zhen-ce-wo-yang-wo-10507348/"
+    }
+   ],
    "settings": {
     "traceId": "商品列表-舒爽安睡的理想床上用品"
    }
@@ -147,6 +224,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个人的右手放在床上的REXBEGONIA 雷克别果 凉垫上，另一只手则拿着一些床上用品。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/1445c2dc863aba14/original/PH184060-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "0fed015a05c94a549b25f6a8eb356cb9"
    }
@@ -175,6 +262,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一位穿着灰色睡衣的女性抱着一个KLUBBSPORRE 克鲁布斯珀勒 人体工学枕。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/1837fcab2e1c399/original/PH178348-crop002.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "7f33856d9e1046339c5f859741b5535a"
    }
@@ -203,6 +300,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "桌上的GEMAK 吉马克 滤碗里装满冰块，上面放着一个水瓶和一些小方巾，旁边放着玻璃杯和水果。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/2fba7404c7f9faa5/original/PH161385-crop002.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "d430d6197fad45f48fbf3870e33ffd8c"
    }

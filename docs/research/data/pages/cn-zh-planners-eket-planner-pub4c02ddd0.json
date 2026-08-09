@@ -11,7 +11,7 @@
    "title": "EKET 伊克特 设计软件",
    "texts": [
     "EKET 伊克特 设计软件",
-    "<p><strong>定制你的 EKET伊克特 储物组件</strong></p>\n<p><a href=\"https://www.ikea.cn/cn/zh/rooms/living-room/eket-storage-unit-pub0f37ef11\" target=\"_blank\">EKET伊克特 储物组件</a>是你发挥创意的好帮手!一起来体验 EKET伊克特 的灵活变化，为家打造一个完美实用的储物组合。</p>",
+    "定制你的 EKET伊克特 储物组件 EKET伊克特 储物组件是你发挥创意的好帮手!一起来体验 EKET伊克特 的灵活变化，为家打造一个完美实用的储物组合。",
     "normal"
    ],
    "images": [
@@ -23,16 +23,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "EKET 伊克特 设计软件",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b7/8a/b78a3345cff0201194a2e963f7f477b8.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>更多设计工具</strong></h2>"
+    "更多设计工具"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -65,6 +77,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "PLATSA 普拉萨 设计工具",
+     "text": "使用PLATSA 普拉萨 设计工具，根据你的需要量身设计家居储物方案。",
+     "image": "https://file.app.ikea.cn/images/08/fc/08fcdb383e50282ae4f7b268321f7874.png",
+     "href": "/cn/zh/planners/platsa-planner-pub0d6e5791",
+     "backgroundColor": null
+    },
+    {
+     "title": "PAX 帕克思设计工具",
+     "text": "使用我们的 PAX 帕克思设计工具，设计既灵活又可定制的衣柜储物系统。",
+     "image": "https://file.app.ikea.cn/images/94/04/9404d09fd878ef0205e130ad9fe1b68e.jpg",
+     "href": "/cn/zh/planners/pax-planner-pub6679c8eb",
+     "backgroundColor": null
+    },
+    {
+     "title": "JONAXEL 尤纳赛尔 设计工具",
+     "text": "使用我们的 JONAXEL 尤纳赛尔 设计工具，为房间设计储物空间方案。",
+     "image": "https://file.app.ikea.cn/images/0a/be/0abe569b4520b7288bc27d6d7b5316e6.jpg",
+     "href": "/cn/zh/planners/algot-planner-pubd6479c6b",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -85,6 +121,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

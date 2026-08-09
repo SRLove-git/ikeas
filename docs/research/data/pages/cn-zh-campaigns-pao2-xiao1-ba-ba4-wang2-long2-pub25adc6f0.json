@@ -14,16 +14,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>充满趣味和冒险精神的全新J&Auml;TTELIK 耶特里克 系列，让孩子们可以在自己的房间里拥有一方小小的恐龙世界。</p>"
+    "充满趣味和冒险精神的全新JäTTELIK 耶特里克 系列，让孩子们可以在自己的房间里拥有一方小小的恐龙世界。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -42,6 +46,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/7b/1b/7b1bd22d5c56aa2ea1a0cbd08a9fc62b.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -56,16 +70,19 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>重返侏罗纪，一起探险吧！</strong></h2>"
+    "重返侏罗纪，一起探险吧！"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -85,6 +102,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "bawanglong1",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/96/33/9633b4236f40a32e342a07a84660302c.gif",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -104,6 +131,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "bawanglong2",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/5d/f8/5df843d43786364139bc161fe2833c0d.gif",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -111,11 +148,21 @@
    "title": null,
    "texts": [
     "pub-column",
-    "<h2><strong>你认识它们吗？</strong></h2>",
+    "你认识它们吗？",
     "pub-text"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "columns": [
+    {
+     "heading": "你认识它们吗？",
+     "text": null,
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -159,6 +206,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d1/57/d157eba1a98611f7270b3dcdcdec2bd8.jpg",
+     "href": "/cn/zh/p/00471203?artType=ART",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/74/85/7485fd230cd97118b80c5e0765526f98.jpg",
+     "href": "/cn/zh/p/40471197?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "群居性恐龙。 迅猛龙的体型接近火鸡的大小。动作快速敏捷, 最高时速可达50公里左右。",
+     "image": "https://file.app.ikea.cn/images/d1/57/d157eba1a98611f7270b3dcdcdec2bd8.jpg",
+     "href": "/cn/zh/p/00471203?artType=ART"
+    },
+    {
+     "heading": null,
+     "text": "REX拉丁语意为君王，爬行动物之王。它张开血盆大口时甚至可以容下整个人， 而且它的牙齿长达18厘米，像香蕉一样大！",
+     "image": "https://file.app.ikea.cn/images/74/85/7485fd230cd97118b80c5e0765526f98.jpg",
+     "href": "/cn/zh/p/40471197?artType=ART"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -202,6 +280,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/35/1c/351c4346f40a0513f7bf73ce3e07114f.jpg",
+     "href": "/cn/zh/p/70471191?artType=ART",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/0b/bd/0bbd3ea237638a5f98e6d6bf14ddc9aa.jpg",
+     "href": "/cn/zh/p/20471216?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "雷龙脖子很长，头却很小。雷龙行走起来会让地面发出隆隆响声，看看它的体重 吧，这一点也不稀奇，因此亦被称为“雷声蜥蜴”。",
+     "image": "https://file.app.ikea.cn/images/35/1c/351c4346f40a0513f7bf73ce3e07114f.jpg",
+     "href": "/cn/zh/p/70471191?artType=ART"
+    },
+    {
+     "heading": null,
+     "text": "最强壮的恐龙是三角龙。群居性恐龙。它发怒时会冲向前方，将自己的巨大尖角 刺向敌人身侧，将它们从地上高高顶起。你也这么强壮吗？",
+     "image": "https://file.app.ikea.cn/images/0b/bd/0bbd3ea237638a5f98e6d6bf14ddc9aa.jpg",
+     "href": "/cn/zh/p/20471216?artType=ART"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -245,6 +354,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/32/fa/32fa8aab4790c6c339f58d45416c828e.gif",
+     "href": "/cn/zh/p/10471212?artType=ART",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/4a/00/4a006e4b4b6de186572a714c707827e4.jpg",
+     "href": "/cn/zh/p/60471219?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "沉甸甸的甲龙看起来就像一辆坦克，不过它摇起尾巴来，你就要留心了！",
+     "image": "https://file.app.ikea.cn/images/32/fa/32fa8aab4790c6c339f58d45416c828e.gif",
+     "href": "/cn/zh/p/10471212?artType=ART"
+    },
+    {
+     "heading": null,
+     "text": "群居性恐龙。剑龙的大脑很小，但心脏却很大。它的名字源自希腊语“stegos”， 意思是鳞甲。看看它的后背17块骨质背板，你就知道为什么要这么命名了。",
+     "image": "https://file.app.ikea.cn/images/4a/00/4a006e4b4b6de186572a714c707827e4.jpg",
+     "href": "/cn/zh/p/60471219?artType=ART"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -259,6 +399,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   },
   {
@@ -279,6 +420,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -286,11 +429,21 @@
    "title": null,
    "texts": [
     "pub-column",
-    "<h2><strong>和剑龙一起入睡</strong></h2>",
+    "和剑龙一起入睡",
     "pub-text"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "columns": [
+    {
+     "heading": "和剑龙一起入睡",
+     "text": null,
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -309,6 +462,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/be/51/be51c72408345719c8d7fb2ed89d0c3d.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -324,6 +487,14 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "JÄTTELIK 耶特里克",
+     "text": "¥199",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/jaettelik-ye-te-li-ke-bei-tao-he-zhen-tao-kong-long-bai-se__0806308_pe769900_s4.jpg",
+     "href": "/cn/zh/p/jaettelik-ye-te-li-ke-bei-tao-he-zhen-tao-kong-long-bai-se-70464119/"
+    }
+   ],
    "settings": null
   },
   {
@@ -344,6 +515,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -351,11 +524,21 @@
    "title": null,
    "texts": [
     "pub-column",
-    "<h2><strong>追随迅猛龙的脚步</strong></h2>",
+    "追随迅猛龙的脚步",
     "pub-text"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "columns": [
+    {
+     "heading": "追随迅猛龙的脚步",
+     "text": null,
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -374,6 +557,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/10/81/10813e1e38f1356afbacf60cf1c58069.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -389,6 +582,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   },
   {
@@ -409,16 +603,20 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>你可能还想看</strong></h2>"
+    "你可能还想看"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -441,6 +639,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "儿童房",
+     "text": "想象一下，孩子的房间里都是他们喜欢的家具、床上用品、玩具等等。浏览宜家网站，探索婴儿房和儿童房的产品及设计建议。",
+     "image": "https://file.app.ikea.cn/cms/u/20250707/88aad0529abb4f019d5b932c394d493c.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/childrens-room/",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   }
  ]

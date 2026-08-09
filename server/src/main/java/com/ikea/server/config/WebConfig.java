@@ -4,6 +4,7 @@ import java.util.Arrays;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 import com.ikea.server.web.AuthInterceptor;
+import com.ikea.server.web.AdminKeyInterceptor;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
@@ -13,17 +14,20 @@ public class WebConfig implements WebMvcConfigurer {
 
   private final String[] allowedOrigins;
   private final AuthInterceptor authInterceptor;
+  private final AdminKeyInterceptor adminKeyInterceptor;
 
   public WebConfig(
       @Value("${ikea.cors.allowed-origins:http://localhost:3000,http://localhost:3001}")
           String allowedOrigins,
-      AuthInterceptor authInterceptor) {
+      AuthInterceptor authInterceptor,
+      AdminKeyInterceptor adminKeyInterceptor) {
     this.allowedOrigins =
         Arrays.stream(allowedOrigins.split(","))
             .map(String::trim)
             .filter(origin -> !origin.isEmpty())
             .toArray(String[]::new);
     this.authInterceptor = authInterceptor;
+    this.adminKeyInterceptor = adminKeyInterceptor;
   }
 
   @Override
@@ -45,5 +49,8 @@ public class WebConfig implements WebMvcConfigurer {
             "/api/v1/auth/logout",
             "/api/v1/cart/**",
             "/api/v1/favorites/**");
+    registry
+        .addInterceptor(adminKeyInterceptor)
+        .addPathPatterns("/api/v1/admin/**");
   }
 }

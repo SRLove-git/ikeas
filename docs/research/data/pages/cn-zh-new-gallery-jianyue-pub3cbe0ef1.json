@@ -11,7 +11,7 @@
    "title": "简约必备",
    "texts": [
     "宜家为庆祝成立75周年，来自上世纪90-00年代GRATULERA 格拉图列拉 复古系列的椅子是简约必备。",
-    "<p>宜家为庆祝成立75周年，精选 GRATULERA 格拉图列拉 上世纪90-00年代的挚爱单品，邀你先睹为快。该复古系列包括家具、照明设备、餐具等产品，所有均为限量发售，因此，若你心动，请立即行动。</p>\n<p><strong>2018年12月推出</strong></p>",
+    "宜家为庆祝成立75周年，精选 GRATULERA 格拉图列拉 上世纪90-00年代的挚爱单品，邀你先睹为快。该复古系列包括家具、照明设备、餐具等产品，所有均为限量发售，因此，若你心动，请立即行动。 2018年12月推出",
     "简约必备",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "简约必备",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/03/43/0343194a75c272754074734b896811eb.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -35,6 +45,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -54,6 +66,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "宜家75周年",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/92/12/9212c787ac1eebbca3c5bc1376ebc92a.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -73,16 +95,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "达拉马是最具瑞典风情的设计元素。GRATULERA 格拉图列拉 复古系列推出 FINANSIELL 菲南希 骏马装饰品，庆祝宜家成立75周年。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/86/6a/866a3c82c16850c2549508e32b3650d6.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>探索更多 GRATULERA 格拉图列拉 系列精品</strong></h2>\n<p>GRATULERA 格拉图列拉 复古限量系列将分三批发布，带你我重温最美好的宜家记忆。我们很想念这些经典产品，愿你也是。</p>"
+    "探索更多 GRATULERA 格拉图列拉 系列精品 GRATULERA 格拉图列拉 复古限量系列将分三批发布，带你我重温最美好的宜家记忆。我们很想念这些经典产品，愿你也是。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -102,16 +136,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "GRATULERA 格拉图列拉 复古限量系列带你重回上世纪50-60年代，庆祝宜家成立75周年。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/3b/f0/3bf0b81e0b492043e968e807eed345b8.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>50-60年代精品，8月正式推出</h2>"
+    "50-60年代精品，8月正式推出"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -132,6 +178,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -151,16 +199,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "为了庆祝宜家成立75周年，GRATULERA 格拉图列拉 系列推出上世纪70-80年代精品，为你的家居生活增添一丝复古情调。10月正式推出。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ca/7d/ca7d7de8e9aa4342e64d56b53834f934.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>70-80年代精品，10月正式推出</h2>"
+    "70-80年代精品，10月正式推出"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -181,16 +241,20 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>计划于2018年8月、10月和12月正式推出</strong></p>"
+    "计划于2018年8月、10月和12月正式推出"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

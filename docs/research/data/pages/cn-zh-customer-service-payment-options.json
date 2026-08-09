@@ -19,6 +19,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-页面导航-"
    }
@@ -40,6 +42,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "付款方式",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/66cfbdc7ed840da5/original/PH126967-bn-customer-services-payment-options.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Hero-付款方式"
    }
@@ -48,10 +60,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>在宜家购物如何付款</strong></h2>\n<p>无论你要购买新厨房还是只是想买一个宜家热狗，都有多种付款方式可供选择。你可以根据购物的地点和所购物品选择最合适的付款方式。​</p>\n<h4><strong>在宜家商场付款</strong></h4>\n<p>在宜家商场，你可以用喜欢的方式付款。我们接受现金、有银联、VISA和MASTER标记的储蓄卡、借记卡及信用卡和支票等。详情请咨询当地宜家商场。</p>\n<h4><strong>在宜家网上商城付款</strong></h4>\n<p>宜家网上商城（宜家官网ikea.cn，宜家家居APP） 接受支付宝、微信、银联支付及分期付款。</p>"
+    "在宜家购物如何付款 无论你要购买新厨房还是只是想买一个宜家热狗，都有多种付款方式可供选择。你可以根据购物的地点和所购物品选择最合适的付款方式。​ 在宜家商场付款 在宜家商场，你可以用喜欢的方式付款。我们接受现金、有银联、VISA和MASTER标记的储蓄卡、借记卡及信用卡和支票等。详情请咨询当地宜家商场。 在宜家网上商城付款 宜家网上商城（宜家官网ikea.cn，宜家家居APP） 接受支付宝、微信、银联支付及分期付款。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -64,6 +78,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Horizontal Line-"
    }
@@ -72,10 +88,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>分期付款服务</h2>"
+    "分期付款服务"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -84,10 +102,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong><span style=\"font-size: 10.0pt;\">使用对象</span></strong><strong><span style=\"font-size: 10.0pt;\"> </span></strong><strong><span style=\"font-size: 10.0pt;\">&nbsp;</span></strong></p>\n<p><span style=\"font-size: 10.0pt;\">分期付款为宜家俱乐部会员权益，免费注册成为宜家俱乐部会员，即可使用分期付款便捷支付。 </span><span style=\"font-size: 10.0pt;\"> </span><span style=\"font-size: 10.0pt;\">&nbsp;</span></p>\n<p><strong><span style=\"font-size: 10.0pt;\">分期付款适用渠道</span></strong><strong><span style=\"font-size: 10.0pt;\"> </span></strong><strong><span style=\"font-size: 10.0pt;\">&nbsp;</span></strong></p>\n<ul>\n<li><span style=\"font-size: 10.0p"
+    "使用对象 分期付款为宜家俱乐部会员权益，免费注册成为宜家俱乐部会员，即可使用分期付款便捷支付。 分期付款适用渠道 线上渠道：宜家家居官网/宜家家居APP/宜家家居小程序商城/宜家（中国）远程支持与服务中心: 4008002345 / 在线人工客服 线下渠道：宜家全国线下门店 宜家天猫旗舰店、宜家京东旗舰店暂不支持 如何使用？ 线上支付： 下单前请确认已绑定会员账号。 单笔订单金额满100元，提交订单时选择“分期付款\"选项，再选择分期平台及分期期数，完成支付。 你将按所选方案开始分期付款。有关详情，请参阅你每月的银行对账单、支付宝账户或者京东白条账户。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -111,6 +131,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "无限灵感，为你的家打造舒适空间",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250903/0be0515c05874d6ba4ab4ca8919e85ca.png?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-媒体商品组合 image(Video)-"
    }
@@ -119,10 +149,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong><span style=\"font-size: 10.0pt;\">线下支付：</span><span style=\"font-size: 10.0pt;\"> </span><span style=\"font-size: 10.0pt;\">&nbsp;</span></strong></p>\n<ol>\n<li><strong><span style=\"font-size: 10.0pt;\"> </span></strong>打开宜<span style=\"font-size: 10.0pt;\">家APP登录会员，出示会员码。</span><span style=\"font-size: 10.0pt;\"> </span></li>\n<li><span style=\"font-size: 10.0pt;\"> </span><span style=\"font-size: 10.0pt;\">单笔订单金额等于及大于100元时，点击\"我的-分期付款&ldquo;，出示分期付款码。</span><span style=\"font-size: 10.0pt;\"> </span></li>\n<li><span style=\"font-size: 10.0pt;\"> </span><span style=\"font-size: 10.0pt;\">收银员扫分期付款码后，选择分期平台及"
+    "线下支付： 打开宜家APP登录会员，出示会员码。 单笔订单金额等于及大于100元时，点击\"我的-分期付款“，出示分期付款码。 收银员扫分期付款码后，选择分期平台及分期期数，完成支付。 你将按所选方案开始分期付款。有关详情，请参阅你每月的银行对账单或支付宝账户。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -145,6 +177,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "无限灵感，为你的家打造舒适空间",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250903/e252299ec33a47d4a65716ecab629b84.png?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Image(video)-"
    }
@@ -153,10 +195,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong><span style=\"font-size: 10.0pt;\">注意事项</span></strong><strong><span style=\"font-size: 10.0pt;\"> </span></strong><strong><span style=\"font-size: 10.0pt;\">&nbsp;</span></strong></p>\n<ol>\n<li><span style=\"font-size: 10.0pt;\"> </span><span style=\"font-size: 10.0pt;\">分期付款适用于购买所有的宜家产品，由信用卡发卡机构、蚂蚁集团(花呗)、京东金融（京东白条） 面向符合条件的中国大陆居民提供，会员是否成功分期，以信用卡发卡机构、蚂蚁集团、京东金融审核结果为准，如逾期支付分期账单，银行、蚂蚁集团或者京东金融将收取逾期费用，具体请参阅信用卡发卡机构、支付宝和京东金融网站，了解相关条件、费用和收费。 </span></li>\n<li><span style=\"font-size: 10.0pt;\">银行信用卡分期仅可在</span><span style=\"font-size: 10.0pt;\">宜家全国线下门店/宜家家居官网/宜家家居APP/宜家（中国）远程支持与服务中心: 4008002345 / 在线人工客服</"
+    "注意事项 分期付款适用于购买所有的宜家产品，由信用卡发卡机构、蚂蚁集团(花呗)、京东金融（京东白条） 面向符合条件的中国大陆居民提供，会员是否成功分期，以信用卡发卡机构、蚂蚁集团、京东金融审核结果为准，如逾期支付分期账单，银行、蚂蚁集团或者京东金融将收取逾期费用，具体请参阅信用卡发卡机构、支付宝和京东金融网站，了解相关条件、费用和收费。 银行信用卡分期仅可在宜家全国线下门店/宜家家居官网/宜家家居APP/宜家（中国）远程支持与服务中心: 4008002345 / 在线人工客服支付时使用；花呗分期可在宜家全国线下门店/宜家家居官网/宜家家居APP/宜家家居小程序商城/宜家（中国）远程支持与服务中心: 4008002345 / 在线人工客服支付时使用；京东白条仅可在宜家家居APP支付时使用。 信用卡发卡机构、蚂蚁集团(花呗)、京东金融（京东白条）分别有设置不同最低分期金额要求。鉴于现大多数合作银行将100元设定为最低分期金额要求，宜家亦遵循该行业惯例，将100元作为宜家会员在其购物时进行分期支付的最低门槛。 宜家家居所示的每月还款额仅为估算值，具体的每月还款额由你的分期付款提供商计算确定，并反映在你每月的账单上。 上述分期付款服务只适用于个人消费者。 使用借记卡，分期专项信用卡购买产品不享受分期付款服务。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -165,10 +209,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong><span style=\"font-size: 10.0pt;\">什么是会员免息权益？</span></strong></p>\n<p><span style=\"font-size: 10.0pt;\">宜家会员支付时通过宜家合作银行、蚂蚁集团、京东金融等金融机构申请分期付款，宜家补贴会员利息，提供免息服务。该服务为宜家会员免息权益。</span></p>\n<p><span style=\"font-size: 10.0pt;\">自2025年9月1日起，会员免息权益的获取方式为</span></p>\n<ol>\n<li><span style=\"font-size: 10.0pt;\"> </span><span style=\"font-size: 10.0pt;\">首次新注册成为宜家会员，可以获得限时分期免息权益；</span></li>\n<li><span style=\"font-size: 10.0pt;\"> </span><span style=\"font-size: 10.0pt;\">注册成为宜家会员，且填写生日信息，生日当月可以获得限时分期免息权益；</span></li>\n<li><span style=\"font-size: 10.0pt;\"> </span><span style=\"font-size: 10.0pt;\">会员可以在宜家会员积分商城，使"
+    "什么是会员免息权益？ 宜家会员支付时通过宜家合作银行、蚂蚁集团、京东金融等金融机构申请分期付款，宜家补贴会员利息，提供免息服务。该服务为宜家会员免息权益。 自2025年9月1日起，会员免息权益的获取方式为 首次新注册成为宜家会员，可以获得限时分期免息权益； 注册成为宜家会员，且填写生日信息，生日当月可以获得限时分期免息权益； 会员可以在宜家会员积分商城，使用个人账户积分兑换限时分期免息权益； 会员在支付宜家全屋设计费及厨房设计测量费后，可以获得限时分期免息权益， 宜家不定期向会员提供限时免息补贴活动。 具体会员免息权益的使用规则和有效时间，请查看“我的-分期付款” 页面沟通或免息补贴活动沟通。2025年9月1日前已经获取的免息权益，且在权益有效期内，不影响正常使用。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -181,6 +227,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Horizontal Line-"
    }
@@ -189,10 +237,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3>&nbsp;</h3>\n<h2>宜家全屋/厨房设计</h2>"
+    "宜家全屋/厨房设计"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -201,10 +251,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h1><strong><span style=\"color: #0077c8;\">最高 6 期免息分期付款</span></strong><br /><strong><span style=\"color: #0077c8;\">即刻享受梦想的家</span>&nbsp;</strong></h1>\n<p>借助宜家分期付款方案，不必一次性付清，<br />按月支付，轻松无压力，你值得更美好的生活！<br />&nbsp;</p>"
+    "最高 6 期免息分期付款 即刻享受梦想的家 借助宜家分期付款方案，不必一次性付清， 按月支付，轻松无压力，你值得更美好的生活！"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -215,13 +267,29 @@
    "texts": [
     "two-columns",
     "column",
-    "<h2><strong><span style=\"background: aqua;\">宜家分期付款服务介绍</span></strong></h2>\n<p>&nbsp;</p>\n<p><strong>分期付款适用渠道</strong></p>\n<ul>\n<li>线上渠道：宜家家居官网/宜家家居APP/宜家家居小程序商城/宜家（中国）远程支持与服务中心: 4008002345 / 在线人工客服</li>\n<li>线下渠道：宜家商场</li>\n<li>宜家天猫旗舰店暂不支持</li>\n</ul>\n<p><strong>如何使用？</strong></p>\n<p>线上支付：</p>\n<ol>\n<li>顾客支付设计订金，获取&ldquo;全屋/厨房专属免息权益&rdquo;（支付完成后，权益将自动发放至您的会员账户下）</li>\n<li>下单前请确认已绑定会员账号</li>\n<li>提交订单时选择&ldquo;分期付款&rdquo;选项，再选择适合你的分期平台及分期期数，完成支付</li>\n<li>你将按所选方案开始分期付款。有关详情，请参阅你每月的银行对账单或支付宝账户。</li>\n</ol>\n<p>线下支付：</p>\n<ol>\n<li>顾客支付设计订金获取&ldquo;全屋/厨房专属免息权益&rdquo;（支付完成后，权益将自动发放至您的会员账户下）</li>\n<li>出示会员码</",
+    "宜家分期付款服务介绍 分期付款适用渠道 线上渠道：宜家家居官网/宜家家居APP/宜家家居小程序商城/宜家（中国）远程支持与服务中心: 4008002345 / 在线人工客服 线下渠道：宜家商场 宜家天猫旗舰店暂不支持 如何使用？ 线上支付： 顾客支付设计订金，获取“全屋/厨房专属免息权益”（支付完成后，权益将自动发放至您的会员账户下） 下单前请确认已绑定会员账号 提交订单时选择“分期付款”选项，再选择适合你的分期平台及分期期数，完成支付 你将按所选方案开始分期付款。有关详情，请参阅你每月的银行对账单或支付宝账户。 线下支付： 顾客支付设计订金获取“全屋/厨房专属免息权益”（支付完成后，权益将自动发放至您的会员账户下） 出示会员码 点击”使用宜家分期付款“ ，选择“ 全屋/厨房专属免息权益”，并出示分期付款码 收银员扫分期付款码后，选择适合你的分期平台及分期期数，完成支付 你将按所选方案开始分期付款。有关详情，请参阅你每月的银行对账单或支付宝账户。",
     "pub-text",
     "NO",
-    "<h3><span style=\"color: #111111;\">注意事项： &nbsp;</span></h3>\n<ul>\n<li><span style=\"font-size: 9.0pt;\"> </span>分期付款适用于购买所有的宜家产品，由信用卡发卡机构以、蚂蚁金服 (花呗)及京东金融面向符合条件的中国大陆居民提供， 会员是否成功分期，以信用卡发卡机构、蚂蚁金服及京东金融审核结果为准， 如逾期支付分期账单，银行或蚂蚁金服将收取逾期费用，具体请参阅信用卡发卡机构、支付宝和京东金融网站，了解相关条件、费用和收费。</li>\n<li>单次消费金额需达到2900元及以上，即可享受最高6期免息福利。</li>\n<li><span style=\"background-color: #fbeeb8;\"> 全屋/厨房设计的免息额度为50,000元</span>，若会员累计消费金额已超出免息额度， 将不可享受宜家免息补贴， 单笔订单无法拆分部分金额享受分期，部分金额不享受分期。</li>\n<li>免息服务券自领取日60天内有效 ，<span style=\"background-color: #fbeeb8;\">60</span>天内在免息额度内可以累计使用。</li>\n<li>宜家家居APP 所示的每月还款额仅为估算值， 具体的每月还款额由你的分期付款提供商计算确定，并反映在你每月的账单"
+    "注意事项： 分期付款适用于购买所有的宜家产品，由信用卡发卡机构以、蚂蚁金服 (花呗)及京东金融面向符合条件的中国大陆居民提供， 会员是否成功分期，以信用卡发卡机构、蚂蚁金服及京东金融审核结果为准， 如逾期支付分期账单，银行或蚂蚁金服将收取逾期费用，具体请参阅信用卡发卡机构、支付宝和京东金融网站，了解相关条件、费用和收费。 单次消费金额需达到2900元及以上，即可享受最高6期免息福利。 全屋/厨房设计的免息额度为50,000元，若会员累计消费金额已超出免息额度， 将不可享受宜家免息补贴， 单笔订单无法拆分部分金额享受分期，部分金额不享受分期。 免息服务券自领取日60天内有效 ，60天内在免息额度内可以累计使用。 宜家家居APP 所示的每月还款额仅为估算值， 具体的每月还款额由你的分期付款提供商计算确定，并反映在你每月的账单上。 上述分期付款服务只适用于个人消费者。 使用借记卡购买产品不享受分期付款服务。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "columns": [
+    {
+     "heading": "宜家分期付款服务介绍 分期付款适用渠道 线上渠道：宜家家居官网/宜家家居APP/宜家家居小程序商城/宜家（中国）远程支持与服务中心: 4008002345 / 在线人工客服 线下渠道：宜家商场 宜家天猫旗舰店暂不支持 如何使用？ 线上支付： 顾客支付设计订金，获取“全屋/厨房专属免息权益”（支付完成后，权益将自动发放至您的会员账户下） 下单前请确认已绑定会员账号 提交订单时选择“分期付款”选项，再选择适合你的分期平台及分期期数，完成支付 你将按所选方案开始分期付款。有关详情，请参阅你每月的银行对账单或支付宝账户。 线下支付： 顾客支付设计订金获取“全屋/厨房专属免息权益”（支付完成后，权益将自动发放至您的会员账户下） 出示会员码 点击”使用宜家分期付款“ ，选择“ 全屋/厨房专属免息权益”，并出示分期付款码 收银员扫分期付款码后，选择适合你的分期平台及分期期数，完成支付 你将按所选方案开始分期付款。有关详情，请参阅你每月的银行对账单或支付宝账户。",
+     "text": null,
+     "image": null,
+     "href": null
+    },
+    {
+     "heading": "注意事项： 分期付款适用于购买所有的宜家产品，由信用卡发卡机构以、蚂蚁金服 (花呗)及京东金融面向符合条件的中国大陆居民提供， 会员是否成功分期，以信用卡发卡机构、蚂蚁金服及京东金融审核结果为准， 如逾期支付分期账单，银行或蚂蚁金服将收取逾期费用，具体请参阅信用卡发卡机构、支付宝和京东金融网站，了解相关条件、费用和收费。 单次消费金额需达到2900元及以上，即可享受最高6期免息福利。 全屋/厨房设计的免息额度为50,000元，若会员累计消费金额已超出免息额度， 将不可享受宜家免息补贴， 单笔订单无法拆分部分金额享受分期，部分金额不享受分期。 免息服务券自领取日60天内有效 ，60天内在免息额度内可以累计使用。 宜家家居APP 所示的每月还款额仅为估算值， 具体的每月还款额由你的分期付款提供商计算确定，并反映在你每月的账单上。 上述分期付款服务只适用于个人消费者。 使用借记卡购买产品不享受分期付款服务。",
+     "text": null,
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Columns-"
    }
@@ -230,10 +298,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>我们的服务</h2>"
+    "我们的服务"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -268,6 +338,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "送货服务",
+     "text": "了解详情",
+     "image": null,
+     "href": "/cn/zh/customer-service/services/delivery/",
+     "backgroundColor": null
+    },
+    {
+     "title": "组装服务",
+     "text": "了解详情",
+     "image": "",
+     "href": "/cn/zh/customer-service/services/assembly/",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "设计服务 ",
+     "text": "了解详情",
+     "image": "",
+     "href": "/cn/zh/customer-service/services/kitchen-planning/",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "安装服务",
+     "text": "了解详情",
+     "image": "",
+     "href": "/cn/zh/customer-service/services/kitchen-installation/",
+     "backgroundColor": "#111111"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Assurances-"
    }
@@ -290,6 +391,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Link - button or text-"
    }

@@ -11,7 +11,7 @@
    "title": "用紫色打造时尚空间",
    "texts": [
     "从浅粉色到明亮的红色，我们在一个灵感迸发的客厅布置中将不同色彩和材料搭配在一起。",
-    "<p>运用色彩可以立即为家里增添亮色。现在，我们爱上了紫色。（不需要把家里变成艺术装置。我们还提供了一些小窍门，告诉你如何运用色彩来搭配和装饰空间。）</p>",
+    "运用色彩可以立即为家里增添亮色。现在，我们爱上了紫色。（不需要把家里变成艺术装置。我们还提供了一些小窍门，告诉你如何运用色彩来搭配和装饰空间。）",
     "用紫色打造时尚空间",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "用紫色打造时尚空间",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/9b/4d/9b4d5309ac4ccf03fee493cb7ef9ed49.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -46,16 +56,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "HILJA 茜利亚 窗帘拉起来，向我们展示一个充满灵感的紫色房间。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/94/ae/94ae1686a24094e0005bcb3922b013bb.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>用色彩来搭建桥梁</h2>\n<p>无论在什么样的家中，运用色彩主题总有益处。它可以用来营造气氛、制造效果。或者搭建桥梁。你是否有不同颜色的窗帘和椅子？将墙面刷成介于两种颜色之间的第三种颜色，将二者联系起来。</p>"
+    "用色彩来搭建桥梁 无论在什么样的家中，运用色彩主题总有益处。它可以用来营造气氛、制造效果。或者搭建桥梁。你是否有不同颜色的窗帘和椅子？将墙面刷成介于两种颜色之间的第三种颜色，将二者联系起来。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -76,6 +98,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "花朵和水果富于艺术美感地摆放在一个淡紫色 TÖRSTIG 托斯迪 杯子周围。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/8d/d8/8dd87d06338f2ca5d9013f9a08221670.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -96,6 +128,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "一束花富于艺术美感地摆放在一张 BURVIK 伯恩维克 边桌上。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/86/59/8659c8771bf54bbe4213c7090c4e0ee6.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -118,36 +160,52 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "ARV 阿尔弗 深盘 富于艺术美感地搭配着花朵和色彩。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/43/5f/435f1054a4c24df289fa06eb7415f55c.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>不过，色彩并不代表一切</h2>\n<p>色彩非常有助于营造和谐统一的外观。但我们要做的还有很多。材料的外观和质感也非常重要。将哑光表面和亮面搭配在一起，比如花瓣和 ARV 阿尔弗 深盘，就可以营造美丽的对比效果。</p>"
+    "不过，色彩并不代表一切 色彩非常有助于营造和谐统一的外观。但我们要做的还有很多。材料的外观和质感也非常重要。将哑光表面和亮面搭配在一起，比如花瓣和 ARV 阿尔弗 深盘，就可以营造美丽的对比效果。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>我们乐意看到顾客运用我们的产品发挥创意。尽情发挥吧！但是请注意，经过微调或改造的宜家产品将丧失其原有功能，或无法进行二次销售，因此，你将不再享有宜家的商业保证及退货权利。</p>"
+    "我们乐意看到顾客运用我们的产品发挥创意。尽情发挥吧！但是请注意，经过微调或改造的宜家产品将丧失其原有功能，或无法进行二次销售，因此，你将不再享有宜家的商业保证及退货权利。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>制作人<br /></strong>室内设计师: Sa&scaron;a Antić<br />摄影师: Emma Engkvist<br />撰稿人: Henrik Annemark</p>"
+    "制作人 室内设计师: Saša Antić 摄影师: Emma Engkvist 撰稿人: Henrik Annemark"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

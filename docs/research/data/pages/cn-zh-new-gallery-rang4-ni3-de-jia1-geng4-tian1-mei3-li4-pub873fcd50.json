@@ -11,7 +11,7 @@
    "title": "让你的家更添美丽",
    "texts": [
     "产品特写：饰有传统斯堪的纳维亚红白花卉图案的EVALOUISE 伊瓦璐 垫套。",
-    "<p>通过我们新推出的EVALOUISE 伊瓦璐 垫套和IDALINNEA 伊达林 垫套给家中点缀一些传统花卉元素，让你的家居加倍舒适又富有情调。</p>",
+    "通过我们新推出的EVALOUISE 伊瓦璐 垫套和IDALINNEA 伊达林 垫套给家中点缀一些传统花卉元素，让你的家居加倍舒适又富有情调。",
     "让你的家更添美丽",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "让你的家更添美丽",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/8d/be/8dbead3e9420ac5b6347c829289767b1.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -46,6 +56,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "一张背后是胶合板结构的粉色沙发上，放着分别套有带花卉图案的EVALOUISE 伊瓦璐 垫套和IDALINNEA 伊达林 垫套的靠垫。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/2b/2c/2b2c07ac932dcdeaa24584c7bff4e16f.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/2b/2c/2b2c07ac932dcdeaa24584c7bff4e16f.jpg",
+     "href": null
+    },
+    {
+     "heading": "怀旧花卉 EVALOUISE 伊瓦璐 垫套和IDALINNEA 伊达林 垫套可为沙发、床或扶手椅点缀传统的斯堪的纳维亚花卉元素。这两个系列都100%采用来自可持续来源的棉花制成，触感均十分柔软。",
+     "text": null,
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   }
  ]

@@ -22,6 +22,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "如何打造北欧传统风格餐厅",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a0/d7/a0d73fece2a1e74e202e8b41f0703c6a.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -40,6 +50,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d8/26/d826153ba6551fe3f02b35f10a7fbc1a.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -56,6 +76,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -82,6 +104,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/c1/f6/c1f6e824be767018816a589df5e801c4.jpg",
+     "href": "/cn/zh/p/70164559?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -108,6 +140,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/f5/d6/f5d65b6f69bbda97ad0309bc21d9b478.jpg",
+     "href": "/cn/zh/p/70297446?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -134,6 +176,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/32/6c/326c1169d2229d4932112c5a83f186f0.jpg",
+     "href": "/cn/zh/p/00339732?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -160,16 +212,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/40/1b/401bafe6a0dae78d86b4ad8dedd548b4.jpg",
+     "href": "/cn/zh/p/80396361?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h4><strong>推荐产品</strong></h4>"
+    "推荐产品"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -185,16 +249,26 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "RÖDARV 洛达夫",
+     "text": "¥149",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/roedarv-luo-da-fu-kao-dian-duo-se__0600167_pe678583_s4.jpg",
+     "href": "/cn/zh/p/roedarv-luo-da-fu-kao-dian-duo-se-00339732/"
+    }
+   ],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h4><strong>更多宜家说设计</strong></h4>"
+    "更多宜家说设计"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -237,6 +311,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "客厅储物小妙招",
+     "text": "客厅储物小妙招",
+     "image": "https://file.app.ikea.cn/images/9f/b5/9fb5276acaaff2cb1138f98873df42b8.jpg",
+     "href": "/cn/zh/rooms/living-room/gallery/ke4-ting1-chu3-wu4-xiao3-miao4-zhao1-pub7a89d4a1",
+     "backgroundColor": null
+    },
+    {
+     "title": "在客厅收纳和隐藏玩具",
+     "text": "在客厅收纳和隐藏玩具",
+     "image": "https://file.app.ikea.cn/images/18/47/1847ea15bd348b242e5b0c7092768cd7.jpg",
+     "href": "/cn/zh/rooms/living-room/gallery/zai4-ke4-ting1-shou1-na4-he2-yin3-cang2-wan2-ju4-pub5a0dfe31",
+     "backgroundColor": null
+    },
+    {
+     "title": "打造适合全家人共享的空间",
+     "text": "打造适合全家人共享的空间",
+     "image": "https://file.app.ikea.cn/images/42/6d/426da0efd1ffbd04224f08e9b6b695cd.jpg",
+     "href": "/cn/zh/rooms/living-room/gallery/da3-zao4-shi4-he2-quan2-jia1-ren2-gong4-xiang3-de-kong1-jian1-pub01e3f381",
+     "backgroundColor": null
+    },
+    {
+     "title": "怎样设计客厅灯光",
+     "text": "怎样设计客厅灯光",
+     "image": "https://file.app.ikea.cn/images/26/18/2618fc871ba6d26018d111237973e98b.jpg",
+     "href": "/cn/zh/rooms/living-room/gallery/zen3-yang4-she4-ji4-ke4-ting1-deng1-guang1-pub50d35171",
+     "backgroundColor": null
+    },
+    {
+     "title": "巧用纺织品改变家居风格",
+     "text": "巧用纺织品改变家居风格",
+     "image": "https://file.app.ikea.cn/images/a2/72/a272fbd6aa32044a34ec3de636406b2f.jpg",
+     "href": "/cn/zh/rooms/living-room/gallery/qiao3-yong4-fang3-zhi1-pin3-gai3-bian4-jia1-ju1-feng1-ge2-puba8a13161",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -245,6 +357,8 @@
    "texts": [],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

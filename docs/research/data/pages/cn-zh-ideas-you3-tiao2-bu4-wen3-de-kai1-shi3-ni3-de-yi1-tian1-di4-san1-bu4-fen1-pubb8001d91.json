@@ -11,7 +11,7 @@
    "title": "有条不紊地开始你的一天，第三部分",
    "texts": [
     "摆满真绿植和人造绿植的早餐桌，例如 FEJKA 菲卡 人造盆栽植物。",
-    "<p>我们为三种不同性格的人打造了相应的解决方案，帮助大家开启新的一天。这一种适合想要邀请大自然进入卧室的人。</p>",
+    "我们为三种不同性格的人打造了相应的解决方案，帮助大家开启新的一天。这一种适合想要邀请大自然进入卧室的人。",
     "有条不紊地开始你的一天，第三部分",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "有条不紊地开始你的一天，第三部分",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/67/fe/67fef7c46b6679f2b2cdcbd5972adb9f.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -46,6 +56,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "摆满真绿植和人造绿植的早餐桌，例如 FEJKA 菲卡 人造盆栽植物。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d1/a0/d1a069623226793e4f42efb2545903f7.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/d1/a0/d1a069623226793e4f42efb2545903f7.jpg",
+     "href": null
+    },
+    {
+     "heading": "清晨房间里的大自然 植物会使人虽身处房间却如同置身于户外一样愉悦舒畅。将书桌靠窗放置，每日沐浴一点阳光，元气满满地开始新的一天。",
+     "text": null,
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -73,6 +107,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "电池充电的 MULLBACKA 穆尔巴卡 LED台灯悬挂在上方。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/4b/f9/4bf9e7c5739d4727de2257955badf735.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "早餐时刻，沐浴着阳光，享受一杯装在浅灰色 EGENDOM 艾根多姆 马克杯中的 PÅTÅR 咖啡。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e7/5c/e75ceb6d58bbd7ffe3c57ad477a11c0e.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "塞伦盖蒂大草原风格 用木头和纺织品等材质的装饰品增添自然气息（挂 MULLBACKA 穆尔巴卡 灯具的编织物不包含在产品中）。不知不觉中，你的卧室就如同非洲大草原的一角。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/4b/f9/4bf9e7c5739d4727de2257955badf735.jpg",
+     "href": null
+    },
+    {
+     "heading": "在氤氲的芳香中开始美好的一天 在绿意盎然中，品一杯提神的咖啡，计划一天的安排，然后启程出发，迎接崭新的一天。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/e7/5c/e75ceb6d58bbd7ffe3c57ad477a11c0e.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -93,6 +158,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -113,26 +180,32 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>我们乐意看到顾客运用我们的产品发挥创意。尽情发挥吧！但是请注意，经过微调或改造的宜家产品将丧失其原有功能，或是无法进行二次销售，因此，你将不再享有宜家的商业保证及退货权利。</p>"
+    "我们乐意看到顾客运用我们的产品发挥创意。尽情发挥吧！但是请注意，经过微调或改造的宜家产品将丧失其原有功能，或是无法进行二次销售，因此，你将不再享有宜家的商业保证及退货权利。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>制作人</strong><br />室内设计师：Chiara Effroi Lutteri&lt;br&gt;<br />摄影师：M&aring;ns Jensen&lt;br&gt;<br />撰稿人：Henrik Annemark<br /><br /></p>"
+    "制作人 室内设计师：Chiara Effroi Lutteri 摄影师：Måns Jensen 撰稿人：Henrik Annemark"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

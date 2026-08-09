@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Page Title-"
    }
@@ -22,10 +24,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3><strong>你想从哪里开始新的一天？</strong></h3>\n<p>欢迎来到卧室展示区，这里的卧室家具组合种类繁多，风格不一，大小各异，价格也很实惠。我们已经为你搭配好产品，所以你在家也可轻松再现此处看到的布置。四处看看，找找你梦想的卧室吧。</p>"
+    "你想从哪里开始新的一天？ 欢迎来到卧室展示区，这里的卧室家具组合种类繁多，风格不一，大小各异，价格也很实惠。我们已经为你搭配好产品，所以你在家也可轻松再现此处看到的布置。四处看看，找找你梦想的卧室吧。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -74,6 +78,177 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "二人合住的单间公寓",
+     "text": "即使居住空间狭小，也不应影响你和室友尽情享受生活。了解如何使用合适的储物装置，规划生活与睡眠空间。",
+     "image": "https://file.app.ikea.cn/images/99/58/995846de5d8f0f50f2f6e6439d84f72b.jpg",
+     "href": "/cn/zh/rooms/bedroom/gallery/er4-ren2-he2-zhu4-de-dan1-jian1-gong1-yu4-pub067d15f1",
+     "backgroundColor": null
+    },
+    {
+     "title": "繁花盛开的精美卧室",
+     "text": "探索这对夫妻的花卉主题小卧室，里面充满了活力与生机。MALM 马尔姆 深红色抽屉不仅于卧室的整体风格相得益彰，还能提供大量封闭式储存空间用于收纳衣物。",
+     "image": "https://file.app.ikea.cn/images/45/44/45444ca54941d81beb589f8a303da8d5.jpg",
+     "href": "/cn/zh/rooms/bedroom/gallery/fan2-hua1-sheng4-kai1-de-jing1-mei3-wo4-shi4-pub26fe7761",
+     "backgroundColor": null
+    },
+    {
+     "title": "不拘一格的卧室",
+     "text": "深呼吸。在卧室里打造出属于自己的空间。用梳妆台、柜子、搁架和床来井井有条地摆放你的心爱之物，让它们围绕在你身边。",
+     "image": "https://file.app.ikea.cn/images/ce/ad/cead402189e55bbc1fa7dabc1b477f97.jpg",
+     "href": "/cn/zh/rooms/bedroom/gallery/bu4-ju1-yi1-ge2-de-wo4-shi4-pub60f02441",
+     "backgroundColor": null
+    },
+    {
+     "title": "体验时尚生活",
+     "text": "看看这款梦幻般的步入式衣柜。将宜家 PAX 帕克思 衣柜和 KOMPLEMENT 康普蒙 开放式储物搁板、储物盒、抽屉和配件收纳件搭配在一起，就可以打造出这个淡雅清爽的解决方案。",
+     "image": "https://file.app.ikea.cn/images/b2/a9/b2a9354084d72b8acc103f8f17fa3503.jpg",
+     "href": "/cn/zh/rooms/bedroom/gallery/ti3-yan4-shi2-shang4-sheng1-huo2-pubfd9ff281",
+     "backgroundColor": null
+    },
+    {
+     "title": "向上移，不用向外搬",
+     "text": "无需搬走，只需向上扩大空间。宜家 SVÄRTA 斯沃塔 钢制双层床、可折叠托盘架及其他灵活的家具可助你尽可能利用所有小空间。",
+     "image": "https://file.app.ikea.cn/images/d2/52/d2522ad90a4c52bae5d696c619d27bd8.jpg",
+     "href": "/cn/zh/rooms/bedroom/gallery/xiang4-shang4-yi2-bu4-yong4-xiang4-wai4-ban1-pub40bfc901",
+     "backgroundColor": null
+    },
+    {
+     "title": "材料更安全，睡眠更酣畅",
+     "text": "米色和灰色卧室里摆放着实心桦木制成的 BJÖRKSNÄS 约纳斯 床、床边桌和五斗抽屉柜。",
+     "image": "https://file.app.ikea.cn/images/92/a8/92a8305d5a0a450c5800c01485df162a.jpg",
+     "href": "/cn/zh/rooms/bedroom/gallery/woshi-pubc3de0900",
+     "backgroundColor": null
+    },
+    {
+     "title": "空间有限，选择无限",
+     "text": "蓝色和白色单间公寓里摆放着白色 PLATSA 普拉萨 衣柜，位于卧室/客厅区域。",
+     "image": "https://file.app.ikea.cn/images/47/35/4735f9b58bec5e21a5373b9d4ed005c7.jpg",
+     "href": "/cn/zh/rooms/bedroom/gallery/keting-pub17b2c250",
+     "backgroundColor": null
+    },
+    {
+     "title": "在明亮房间里醒来",
+     "text": "灰色、白色和粉色开放式小卧室里摆放着白色 NESTTUN 奈斯顿 床、SELJE 塞亚 床边桌和 ELVARLI 爱尔瓦丽 系统。",
+     "image": "https://file.app.ikea.cn/images/eb/54/eb54b26cc80ad70c6f82996ce6bad735.jpg",
+     "href": "/cn/zh/rooms/bedroom/gallery/woshi-pub9b21a971",
+     "backgroundColor": null
+    },
+    {
+     "title": "专为高眼光买家打造的巧妙解决方案",
+     "text": "小型居住空间里摆放着沙发床和书桌，还有一款炭黑色 NORDLI 诺德里 九斗抽屉柜紧靠着后墙。",
+     "image": "https://file.app.ikea.cn/images/9e/0d/9e0d4beff0762e07f6056f7280510f90.jpg",
+     "href": "/cn/zh/rooms/bedroom/gallery/keting-pubcf3766f1",
+     "backgroundColor": null
+    },
+    {
+     "title": "助你入眠",
+     "text": "米色、蓝色和白色传统卧室里贴有花朵图案墙纸，并且摆放着 SONGESAND 松耶桑德 白色床、床边桌和抽屉柜。",
+     "image": "https://file.app.ikea.cn/images/7d/2a/7d2a95efdace83e941a3766b5feeeea0.jpg",
+     "href": "/cn/zh/rooms/bedroom/gallery/woshi-pubd15ba3fb",
+     "backgroundColor": null
+    },
+    {
+     "title": "合三为一",
+     "text": "合三为一",
+     "image": "https://file.app.ikea.cn/images/f8/14/f814c9fad3cce05d5460a2ca43cb6123.jpg",
+     "href": "/cn/zh/rooms/living-room/gallery/chuang-pubda0cf5b1",
+     "backgroundColor": null
+    },
+    {
+     "title": "巧妙的开放式储物装置，紧凑空间的理想之选",
+     "text": "巧妙的开放式储物装置，紧凑空间的理想之选",
+     "image": "https://file.app.ikea.cn/images/44/3d/443d4d7748688bb86b116d3ec5522fe1.jpg",
+     "href": "/cn/zh/rooms/living-room/gallery/keting-pub6d6d8d81",
+     "backgroundColor": null
+    },
+    {
+     "title": "轻松一步，实现从社交到卧具",
+     "text": "轻松一步，实现从社交到卧具",
+     "image": "https://file.app.ikea.cn/images/89/fa/89fa2b02f5807d717de8d1a0aa068fff.jpg",
+     "href": "/cn/zh/rooms/living-room/gallery/woshi-pub65d918b0",
+     "backgroundColor": null
+    },
+    {
+     "title": "扩大空间，降低噪音",
+     "text": "扩大空间，降低噪音",
+     "image": "https://file.app.ikea.cn/images/67/e0/67e0c649ed98b89571b2447e6840c7f0.jpg",
+     "href": "/cn/zh/rooms/bedroom/gallery/woshi-pubbf9dbe91",
+     "backgroundColor": null
+    },
+    {
+     "title": "外表美观，内部巧妙",
+     "text": "深绿色带推拉门衣柜，放在卧室和客厅中间用作房间隔板。",
+     "image": "https://file.app.ikea.cn/images/4c/41/4c4187036ed63c580673cf5dbbc82caa.jpg",
+     "href": "/cn/zh/rooms/living-room/gallery/yigui-pub9694adb1",
+     "backgroundColor": null
+    },
+    {
+     "title": "风格时尚。储物空间充足。",
+     "text": "风格时尚。储物空间充足。",
+     "image": "https://file.app.ikea.cn/images/25/e8/25e8c0e0c30a58ee71e34e469b6a2233.jpg",
+     "href": "/cn/zh/rooms/bedroom/gallery/woshi-pubc4bfca40",
+     "backgroundColor": null
+    },
+    {
+     "title": "所有物品都已整齐收纳完毕，可以睡个好觉了",
+     "text": "所有物品都已整齐收纳完毕，可以睡个好觉了",
+     "image": "https://file.app.ikea.cn/images/30/ca/30cadb910b6b7f2cafab66d48185de91.jpg",
+     "href": "/cn/zh/rooms/bedroom/gallery/woshi-pubdd2cf0d1",
+     "backgroundColor": null
+    },
+    {
+     "title": "持久舒适",
+     "text": "持久舒适",
+     "image": "https://file.app.ikea.cn/images/c2/ac/c2acbc0b73298f3f95e7302127fa80a3.jpg",
+     "href": "/cn/zh/rooms/bedroom/gallery/woshi-pubaaae2b31",
+     "backgroundColor": null
+    },
+    {
+     "title": "没有卧室？无需担心。",
+     "text": "你可以在需要的时候展开床，当你不需要的时候把它移到一边。",
+     "image": "https://file.app.ikea.cn/images/ab/77/ab777b7dc40d9ec256a32395cfbe39ff.jpg",
+     "href": "/cn/zh/rooms/home-office/gallery/gongzuoshi-pub062a41e1",
+     "backgroundColor": null
+    },
+    {
+     "title": "简易优雅的开放式衣柜",
+     "text": "IKEA - 前往宜家，查看我们简易优雅的开放式衣柜，你可以看到各式衣柜，实木衣柜、整体衣柜等。",
+     "image": "https://file.app.ikea.cn/images/e9/f2/e9f2c795c95ec91063ef70a111dc57ec.jpg",
+     "href": "/cn/zh/rooms/bedroom/gallery/woshi-pubd384e171",
+     "backgroundColor": null
+    },
+    {
+     "title": "小空间里的精巧储物",
+     "text": "小空间里的精巧储物",
+     "image": "https://file.app.ikea.cn/images/96/d2/96d2182122ed553de84229403dbee4c3.jpg",
+     "href": "/cn/zh/rooms/bedroom/gallery/woshi-pubb2ea8970",
+     "backgroundColor": null
+    },
+    {
+     "title": "精巧的衣柜让你早晨不再忙乱",
+     "text": "精巧的衣柜让你早晨不再忙乱",
+     "image": "https://file.app.ikea.cn/images/f3/c3/f3c366309c204963346bf84554f63575.jpg",
+     "href": "/cn/zh/rooms/bedroom/gallery/woshi-pubb5efdfa1",
+     "backgroundColor": null
+    },
+    {
+     "title": "传统风格带来安稳睡眠",
+     "text": "传统风格带来安稳睡眠",
+     "image": "https://file.app.ikea.cn/images/59/86/5986d5ce144dd735b4767def12b92afd.jpg",
+     "href": "/cn/zh/rooms/bedroom/gallery/woshi-pub82c57e71",
+     "backgroundColor": null
+    },
+    {
+     "title": "静谧的卧室，实惠的价格",
+     "text": "卧室内为白色砖墙和木质地板，里面放着一张白色/浅灰色双人床。",
+     "image": "https://file.app.ikea.cn/images/36/77/3677bc2bee2d68f15bb6c3e8982e38e0.jpg",
+     "href": "/cn/zh/rooms/bedroom/gallery/woshi-pub3dbc1581",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Page List-"
    }
@@ -88,6 +263,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Link - button or text-"
    }

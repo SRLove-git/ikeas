@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -32,6 +34,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/47/7e/477e68c960ead0feaa3a4dd6d34e09e5.gif",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -50,16 +62,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d1/76/d1766548df15753e9d29406139d3c2b5.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>附盖玻璃保鲜盒</h2>"
+    "附盖玻璃保鲜盒"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -75,16 +99,68 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "IKEA 365+",
+     "text": "¥24.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ikea-365-fu-gai-shi-pin-he-zheng-fang-xing-bo-li-su-liao__0594413_pe675730_s4.jpg",
+     "href": "/cn/zh/p/ikea-365-fu-gai-shi-pin-he-zheng-fang-xing-bo-li-su-liao-19269121/"
+    },
+    {
+     "title": "IKEA 365+",
+     "text": "¥29.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ikea-365-fu-gai-shi-pin-he-zheng-fang-xing-bo-li-su-liao__0594324_pe675643_s4.jpg",
+     "href": "/cn/zh/p/ikea-365-fu-gai-shi-pin-he-zheng-fang-xing-bo-li-su-liao-99269117/"
+    },
+    {
+     "title": "IKEA 365+",
+     "text": "¥29.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ikea-365-fu-gai-shi-pin-he-zheng-fang-xing-bo-li-zhu__0594411_pe675728_s4.jpg",
+     "href": "/cn/zh/p/ikea-365-fu-gai-shi-pin-he-zheng-fang-xing-bo-li-zhu-69269114/"
+    },
+    {
+     "title": "IKEA 365+",
+     "text": "¥34.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ikea-365-fu-gai-shi-pin-he-zheng-fang-xing-bo-li-zhu__0594325_pe675647_s4.jpg",
+     "href": "/cn/zh/p/ikea-365-fu-gai-shi-pin-he-zheng-fang-xing-bo-li-zhu-09269112/"
+    },
+    {
+     "title": "IKEA 365+",
+     "text": "¥34.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ikea-365-fu-gai-shi-pin-he-chang-fang-xing-bo-li-su-liao__0594322_pe675641_s4.jpg",
+     "href": "/cn/zh/p/ikea-365-fu-gai-shi-pin-he-chang-fang-xing-bo-li-su-liao-69269072/"
+    },
+    {
+     "title": "IKEA 365+",
+     "text": "¥39.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ikea-365-fu-gai-shi-pin-he-chang-fang-xing-bo-li-su-liao__0594330_pe675654_s4.jpg",
+     "href": "/cn/zh/p/ikea-365-fu-gai-shi-pin-he-chang-fang-xing-bo-li-su-liao-99269075/"
+    },
+    {
+     "title": "IKEA 365+",
+     "text": "¥44.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ikea-365-fu-gai-shi-pin-he-chang-fang-xing-bo-li-zhu__0594317_pe675640_s4.jpg",
+     "href": "/cn/zh/p/ikea-365-fu-gai-shi-pin-he-chang-fang-xing-bo-li-zhu-89269066/"
+    },
+    {
+     "title": "IKEA 365+",
+     "text": "¥49.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ikea-365-fu-gai-shi-pin-he-chang-fang-xing-bo-li-zhu__0594327_pe675652_s4.jpg",
+     "href": "/cn/zh/p/ikea-365-fu-gai-shi-pin-he-chang-fang-xing-bo-li-zhu-29269069/"
+    }
+   ],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>玻璃保鲜盒单品</strong></h2>"
+    "玻璃保鲜盒单品"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -100,6 +176,38 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "IKEA 365+",
+     "text": "¥14.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ikea-365-shi-pin-he-zheng-fang-xing-bo-li__0711417_pe728233_s4.jpg",
+     "href": "/cn/zh/p/ikea-365-shi-pin-he-zheng-fang-xing-bo-li-80359207/"
+    },
+    {
+     "title": "IKEA 365+",
+     "text": "¥19.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ikea-365-shi-pin-he-zheng-fang-xing-bo-li__0711423_pe728239_s4.jpg",
+     "href": "/cn/zh/p/ikea-365-shi-pin-he-zheng-fang-xing-bo-li-00359211/"
+    },
+    {
+     "title": "IKEA 365+",
+     "text": "¥24.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ikea-365-shi-pin-he-chang-fang-xing-bo-li__0711431_pe728247_s4.jpg",
+     "href": "/cn/zh/p/ikea-365-shi-pin-he-chang-fang-xing-bo-li-10359201/"
+    },
+    {
+     "title": "IKEA 365+",
+     "text": "¥29.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ikea-365-shi-pin-he-chang-fang-xing-bo-li__0711432_pe728248_s4.jpg",
+     "href": "/cn/zh/p/ikea-365-shi-pin-he-chang-fang-xing-bo-li-20359205/"
+    },
+    {
+     "title": "IKEA 365+",
+     "text": "¥49.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ikea-365-shi-pin-he-l-chang-fang-xing-bo-li__0711437_pe728253_s4.jpg",
+     "href": "/cn/zh/p/ikea-365-shi-pin-he-l-chang-fang-xing-bo-li-60393132/"
+    }
+   ],
    "settings": null
   }
  ]

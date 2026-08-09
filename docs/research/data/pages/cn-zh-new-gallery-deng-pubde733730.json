@@ -11,7 +11,7 @@
    "title": "点亮梦幻的光晕",
    "texts": [
     "昏暗餐厅的角落里摆放着一盏点亮的落地灯。落地灯的底座为不锈钢材质，顶部为闪闪发光的LED灯，看起来就像萤火虫一般。",
-    "<p>点亮的灯光总会散发出奇妙的魔力。HOVN&Auml;S 赫纳斯 落地灯的灵感源自萤火虫，可为房间营造梦幻的氛围。</p>",
+    "点亮的灯光总会散发出奇妙的魔力。HOVNäS 赫纳斯 落地灯的灵感源自萤火虫，可为房间营造梦幻的氛围。",
     "点亮梦幻的光晕",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "点亮梦幻的光晕",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/aa/b9/aab9bef334a851e6d36176cea28240c1.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -43,6 +53,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "特写：落地灯的底座为不锈钢材质，顶部为闪闪发光的LED灯，看起来就像萤火虫一般。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/71/b1/71b1a84f7882c6ac93279f0b6e97b333.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -53,6 +73,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

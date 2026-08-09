@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "c8dd9c0efe7a46d0bd12d917509b6b01"
    }
@@ -22,10 +24,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>将少年派对搬到户外，在清新空气中举办各种新鲜活动！用地毯和靠垫装点野餐派对，用节日罐子里或烤肉扦上的预制食品招待客人，共度欢聚时光。</p>"
+    "将少年派对搬到户外，在清新空气中举办各种新鲜活动！用地毯和靠垫装点野餐派对，用节日罐子里或烤肉扦上的预制食品招待客人，共度欢聚时光。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "2f35de869cdf4827803e2f22a2aec961"
    }
@@ -44,6 +48,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "3f24c344d0c34bbebfcaf1e1b0423982"
    }
@@ -72,6 +78,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "十岁左右的两个女孩在滑板场用一个滑板拖动PURRPINGLA 普平拉 洗衣袋，里面装满地毯和靠垫。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/3f5599f50d19a85f/original/PH183083-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "79c0e9117ca8499b9565ce567d5f6548"
    }
@@ -100,6 +116,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "身着黑白格纹长裤的人在阳光下拿着一个红白条纹GULLBERGSÖ 古倍瑟 靠垫。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/87eb513b71dbf7/original/PH183165.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "64b5e3d9b4964ffea3a8e80b7aa762cc"
    }
@@ -128,6 +154,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "条纹布上放着一个打开的食品盒，盒内盛放烤肉串，串有HUVUDROLL 胡福多 植物蛋白肉丸、番茄和其他食材。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/4462eaa4d937b7b8/original/PH182908.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "76941a5e31174f37a22d303e3bb10876"
    }
@@ -156,6 +192,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个小女孩拿着一个打开的KORKEN 考肯 玻璃罐，罐中装着类似意式奶冻的甜点，顶部铺有各种装饰小料。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/696dd6ce761f1a16/original/PH182909.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cfdb369db1b847818131e8d814ba1d65"
    }
@@ -184,6 +230,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个背着双肩包的小女孩坐在混凝土地面上，正在用MÅLA 莫拉 彩色粉笔画彩虹和其他图形。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/74f6cd51c91bcdde/original/PH182910.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "c02be7ed115d46dcbb5dc8cff2e3f73d"
    }

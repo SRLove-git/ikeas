@@ -11,7 +11,7 @@
    "title": "视觉盛宴",
    "texts": [
     "餐桌上摆放着一人份的餐食，布置方式充满艺术气息，色彩、形状、材料和谐统一。",
-    "<p>无论你是花了很长时间自己烹饪，还是决定叫外卖，混搭你最喜欢的餐具和其他珍贵单品，能让食物更美味。</p>",
+    "无论你是花了很长时间自己烹饪，还是决定叫外卖，混搭你最喜欢的餐具和其他珍贵单品，能让食物更美味。",
     "视觉盛宴",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "视觉盛宴",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/02/1f/021fb0d8f3e1c8637f723723c1f1e61a.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -46,6 +56,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "餐桌上摆放着一人份的甜点，布置方式充满艺术气息，色彩、形状、材料和谐统一。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d0/c2/d0c23fd80fd78cdb9695c7e4a4a5b901.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/d0/c2/d0c23fd80fd78cdb9695c7e4a4a5b901.jpg",
+     "href": null
+    },
+    {
+     "heading": "增添趣味 混搭色彩和形状对比鲜明的盘子和碗，为餐桌增添视觉艺术气息。富有层次感的餐垫（没必要只用一块）和相配的餐巾纸可以增添趣味。",
+     "text": null,
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -68,16 +102,42 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "餐桌上摆放着一人份的餐食，布置方式充满艺术气息，色彩、形状、装饰和谐统一。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/1f/0f/1f0fbb6d455e332542997f186228b292.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/1f/0f/1f0fbb6d455e332542997f186228b292.jpg",
+     "href": null
+    },
+    {
+     "heading": "自然气息 以中性的白色为基础，添加天然材料和亮蓝色细节，打造充满传统气息和乡村风情的餐桌。",
+     "text": null,
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><em>我们乐意看到顾客运用我们的产品发挥创意。尽情发挥吧！但是请注意，经过微调或改造的宜家产品将丧失其原有功能，或无法进行二次销售，因此，你将不再享有宜家的商业保证及退货权利。</em></p>"
+    "我们乐意看到顾客运用我们的产品发挥创意。尽情发挥吧！但是请注意，经过微调或改造的宜家产品将丧失其原有功能，或无法进行二次销售，因此，你将不再享有宜家的商业保证及退货权利。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

@@ -11,7 +11,7 @@
    "title": "带你旅行的纺织品",
    "texts": [
     "UPPTÅG 乌普托格 儿童纺织品系列中的被套、地毯和靠垫，均饰有色彩缤纷的旅游主题图案。",
-    "<p>让你的孩子尽情徜徉在 UPPTÅG 乌普托格 纺织品系列创造的幻想世界里。该系列采用旅游主题图案，从窗帘到被套，从地毯到灯罩，所有产品均装饰着色彩缤纷的现代图案。</p>",
+    "让你的孩子尽情徜徉在 UPPTÅG 乌普托格 纺织品系列创造的幻想世界里。该系列采用旅游主题图案，从窗帘到被套，从地毯到灯罩，所有产品均装饰着色彩缤纷的现代图案。",
     "带你旅行的纺织品",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "带你旅行的纺织品",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/41/39/4139f5b753b7912b0034e6791814babe.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -51,6 +61,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "特写：UPPTÅG 乌普托格 被套上装点着色彩缤纷的热气球，仿佛漂浮在枕套和被套上一般。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/c4/af/c4af9f9f730b079d6b44969278ecdce6.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "UPPTÅG 乌普托格 儿童纺织品系列中的被套、地毯、灯具和靠垫，均饰有色彩缤纷的旅游主题图案。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/cd/6d/cd6de84ccebf3d3dbe73b696cb2639ec.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "UPPTÅG 乌普托格 被套上装点着色彩缤纷的热气球，这款被套采用可持续棉和莱赛尔纤维制成。",
+     "image": "https://file.app.ikea.cn/images/c4/af/c4af9f9f730b079d6b44969278ecdce6.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/cd/6d/cd6de84ccebf3d3dbe73b696cb2639ec.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -78,6 +119,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "特写：UPPTÅG 乌普托格 靠垫采用红色公交车造型，由再生聚酯纤维制成，触感柔软。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/86/0c/860cef819c78a9ab0ef1cc2215a5ca15.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "特写：UPPTÅG 乌普托格 靠垫采用蓝色热气球造型，由再生聚酯纤维制成。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e2/58/e2583ddfab242594e2b45600e3c43220.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "UPPTÅG 乌普托格 纺织品系列的奇趣造型靠垫以旅游为主题，采用了公交车或气球等造型。",
+     "image": "https://file.app.ikea.cn/images/86/0c/860cef819c78a9ab0ef1cc2215a5ca15.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "UPPTÅG 乌普托格 靠垫由再生聚酯纤维制成，十分结实，可以稳稳托住孩子疲惫的小脑袋，而且触感十分柔软。",
+     "image": "https://file.app.ikea.cn/images/e2/58/e2583ddfab242594e2b45600e3c43220.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   }
  ]

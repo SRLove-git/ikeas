@@ -11,7 +11,7 @@
    "title": "铺开地毯，享受乐趣",
    "texts": [
     "宜家 TORRILD 托里德 地毯价格实惠，图案有趣多彩，可为所有房间增添个性色彩。",
-    "<p>TORRILD 托里德 地毯由Paulin Machado设计，采用充满趣味的现代圆形图案，为地板增添更多生机！</p>",
+    "TORRILD 托里德 地毯由Paulin Machado设计，采用充满趣味的现代圆形图案，为地板增添更多生机！",
     "铺开地毯，享受乐趣",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "铺开地毯，享受乐趣",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/32/c7/32c793d3f7f76d8844759f41c4b3bf71.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,16 +54,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "TORRILD 托里德 地毯由Paulin Machado设计，采用有趣图案。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/cf/ac/cfacf49d75cc646cd44d1de90b0598a1.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>TORRILD 托里德 短绒地毯价格实惠，充满趣味，可将整个房间融为一体。</p>"
+    "TORRILD 托里德 短绒地毯价格实惠，充满趣味，可将整个房间融为一体。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -65,6 +87,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

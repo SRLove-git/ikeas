@@ -11,7 +11,7 @@
    "title": "柔软而且可持续",
    "texts": [
     "FLODALEN 福鲁朵恩 毛巾厚实柔软，非常舒适，由来自更可持续来源的纯棉精制而成，同时染色方式更自然环保。",
-    "<p>贴肤使用的产品，材质十分重要。本月我们推出了全新的纺织产品，从毛巾到床罩，均采用天然材料制成，益于身体健康，而且益于环境。</p>\n<p>举例而言，FLODALEN 福鲁朵恩毛巾采用来自更可持续来源的棉花制成，与此同时，我们还改善了染色工艺，在生产过程中减少用水。</p>",
+    "贴肤使用的产品，材质十分重要。本月我们推出了全新的纺织产品，从毛巾到床罩，均采用天然材料制成，益于身体健康，而且益于环境。 举例而言，FLODALEN 福鲁朵恩毛巾采用来自更可持续来源的棉花制成，与此同时，我们还改善了染色工艺，在生产过程中减少用水。",
     "柔软而且可持续",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "柔软而且可持续",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/eb/5c/eb5c5a9b5f4e4b49e7112f3f9980451d.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,16 +54,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "GULVED 古尔维德 床罩的一面为棉布，一面为亚麻布，两种材质都十分柔软，而且以负责任的方式生产而成。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b7/a6/b7a619bd018c9c17fcfbf2dbfdeb9720.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>用双面的 GULVED 古尔维德 床罩来改变卧室的外观，床罩一面为棉布，一面为亚麻布，中间的填料由回收PET制成。</p>"
+    "用双面的 GULVED 古尔维德 床罩来改变卧室的外观，床罩一面为棉布，一面为亚麻布，中间的填料由回收PET制成。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -74,16 +96,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "GULVED 古尔维德 床罩的一面为棉布，一面为亚麻布，两种材质都十分柔软，而且以负责任的方式生产而成。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/3e/f0/3ef0bea63bfc8db50a1c366880bf5766.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>出于环境方面的考虑，我们有意识地在床罩中选用了亚麻布。亚麻是一种纤维，种植过程中使用的能源、水和肥料更少。</p>"
+    "出于环境方面的考虑，我们有意识地在床罩中选用了亚麻布。亚麻是一种纤维，种植过程中使用的能源、水和肥料更少。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -105,16 +139,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "PROVINSROS 普洛温斯洛斯 新款被套价格非常实惠，采用来自可持续来源的棉花制成，几何图案独具民族风情。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a4/71/a471cd42eadee497ad7c62f2bb90b154.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>PROVINSROS 普洛温斯洛斯 被套饰有民族风格图案，为你带来独具特色的异域风情，采用来自更可持续来源的纯棉制成。</p>"
+    "PROVINSROS 普洛温斯洛斯 被套饰有民族风格图案，为你带来独具特色的异域风情，采用来自更可持续来源的纯棉制成。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -128,6 +174,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

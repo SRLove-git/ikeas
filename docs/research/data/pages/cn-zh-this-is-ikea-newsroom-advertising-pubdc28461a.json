@@ -11,7 +11,7 @@
    "title": "优秀短片和精彩广告",
    "texts": [
     "优秀短片和精彩广告",
-    "<p>点击播放，观看全球宜家2016年最受欢迎的短片和广告。进一步了解宜家的品牌形象、企业使命，以及其在家居行业的独特设计理念。</p>",
+    "点击播放，观看全球宜家2016年最受欢迎的短片和广告。进一步了解宜家的品牌形象、企业使命，以及其在家居行业的独特设计理念。",
     "normal"
    ],
    "images": [
@@ -23,6 +23,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "优秀短片和精彩广告",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/5d/ad/5dade2cf169594aaf4fa7167fad53fda.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -32,7 +42,7 @@
     "pub-column",
     "https://v.youku.com/v_show/id_XMzE3NTY4MjM2OA==.html?spm=a2h3j.8428770.3416059.1",
     "pub-video-link",
-    "<p>宜家西班牙<br /><strong>其他字母</strong></p>",
+    "宜家西班牙 其他字母",
     "MANUAL_INPUT",
     "https://v.youku.com/v_show/id_XMzE3NTYzODQ5Ng==.html?spm=a2h3j.8428770.3416059.1"
    ],
@@ -51,6 +61,9 @@
      "text": "\n<p>宜家台湾<br /><strong>享受美食，谈天说地</strong></p>\n"
     }
    ],
+   "items": [],
+   "columns": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -60,7 +73,7 @@
     "pub-column",
     "https://v.youku.com/v_show/id_XMzE3NTY5NTExMg==.html?spm=a2h3j.8428770.3416059.1",
     "pub-video-link",
-    "<p>IKEA OF SWEDEN<br /><strong>这就是IKEA OF SWEDEN</strong></p>",
+    "IKEA OF SWEDEN 这就是IKEA OF SWEDEN",
     "MANUAL_INPUT",
     "https://v.youku.com/v_show/id_XMzE3NTY4MDk5Mg==.html?spm=a2h3j.8428770.3416059.1"
    ],
@@ -79,6 +92,9 @@
      "text": "\n<p>宜家英国<br /><strong>精彩每一天</strong></p>\n"
     }
    ],
+   "items": [],
+   "columns": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -89,7 +105,7 @@
     "column",
     "https://v.youku.com/v_show/id_XMzE3NTY0ODg3Ng==.html?spm=a2h3j.8428770.3416059.1",
     "pub-video-link",
-    "<p>宜家马来西亚<br /><strong>快来宜家CHERAS！（GET CHERAS TO IKEA CHERAS）</strong></p>",
+    "宜家马来西亚 快来宜家CHERAS！（GET CHERAS TO IKEA CHERAS）",
     "MANUAL_INPUT"
    ],
    "images": [],
@@ -119,6 +135,8 @@
      "text": "\n<p>宜家中国<br /><strong>拜访供应商</strong></p>\n"
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -129,16 +147,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>阅读更多2016年宜家集锦内容</strong></h2>"
+    "阅读更多2016年宜家集锦内容"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -171,6 +193,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "阳光和怪兽： 准备玩起来吧！",
+     "text": "想象一下这样一个世界：马儿是粉红色的，小鸟有两个头，身上有彩虹般的颜色，太阳公公张开双臂，面带微笑问候你。这样美妙的世界，浮现在全世界孩子们的脑海里。52,000多名小设计师尽情挥洒他们的创意和想象力，参与了今年的宜家毛绒玩具绘画比赛。",
+     "image": "https://file.app.ikea.cn/images/13/ca/13ca62b94cd682493dc2a7918108851d.jpeg",
+     "href": "/cn/zh/this-is-ikea/newsroom/child-design-pub58d6e221",
+     "backgroundColor": null
+    },
+    {
+     "title": "欢迎探索印度的另一面",
+     "text": "一提到印度设计，大多数人总会联想到各种明艳色彩和金色装饰。但 SVÄRTAN 斯瓦顿 系列却采用了黑色、白色和深浅不同的灰色，完全不同以往的印度风格。因此，初看上去，似乎并无惊喜可言，然而，仔细一看，却实实在在采用了印度传统技艺。 ",
+     "image": "https://file.app.ikea.cn/images/e4/87/e48736b8762896a6ca966e1480d513c4.jpg",
+     "href": "/cn/zh/this-is-ikea/newsroom/design-pube9996d73",
+     "backgroundColor": null
+    },
+    {
+     "title": "走进3D打印的世界",
+     "text": "准备好迎接新事物了吗？宜家也准备好了。但是，你对家居生活有了诸多探索之后，下一步会怎么做？宜家与来自安特卫普的时尚设计师Walter Van Beirendonck合作，联手打造了 GLÖDANDE 格洛德 限量系列。",
+     "image": "https://file.app.ikea.cn/images/e3/27/e327b1adcac2bd74b603de0f9dd186f7.jpeg",
+     "href": "/cn/zh/this-is-ikea/newsroom/3dprint-pub53e305a1",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -191,6 +237,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

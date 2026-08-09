@@ -11,7 +11,7 @@
    "title": "在家营造亲密舒适的角落",
    "texts": [
     "在一个质朴的工业风格空间里，有一张红棕色ÄPPLARYD 艾普吕 沙发，墙上挂着一张SVÄRDBORG 斯瓦德波 地毯。",
-    "<p>随着我们放慢生活的脚步，迎接即将到来的节日季节，在家里打造一个放松的角落自然必不可少。要营造舒适宁静的氛围，你需要一些外观轻巧的家具、吸音窗帘和舒缓的蜡烛。</p>",
+    "随着我们放慢生活的脚步，迎接即将到来的节日季节，在家里打造一个放松的角落自然必不可少。要营造舒适宁静的氛围，你需要一些外观轻巧的家具、吸音窗帘和舒缓的蜡烛。",
     "在家营造亲密舒适的角落",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "在家营造亲密舒适的角落",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/42/40/424093ee2908011f2834a55596ff5695.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -50,6 +60,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "石材地板上的红棕色ÄPPLARYD 艾普吕 双人沙发钢质支腿。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/4ca9f5d5ca0417eb/original/PH181181-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -68,6 +88,21 @@
     {
      "href": "/cat/new-products",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "添置宜家新品，焕新家居",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/new-products",
+     "backgroundColor": null
+    },
+    {
+     "title": "ÄPPLARYD 艾普吕",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/aepplaryd-ai-pu-lu-shuang-ren-sha-fa-lei-de-hui-se-hei-se__1577349_pe1033130_s4.jpg",
+     "href": "/cn/zh/p/aepplaryd-ai-pu-lu-shuang-ren-sha-fa-lei-de-hui-se-hei-se-00506226/"
     }
    ],
    "settings": null
@@ -96,6 +131,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "在一个风格淡雅的房间里，白色GUNNLAUG 古劳格 吸音窗帘悬挂在SÖDERHAMN 索德汉 脚凳上方的圆形挂杆上。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/7c46e75a9f9748ba/original/PH181216-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -122,6 +167,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "在质朴的石质壁炉架上方，有三支陶瓷罐装的BEHJÄRTAD 贝亚塔 香味烛，下面放着一些木块和原木。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/5243c0ec3f3557ba/original/PH181256-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   }
  ]

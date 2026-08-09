@@ -11,7 +11,7 @@
    "title": "为特别之人准备的储物方案",
    "texts": [
     "使用宜家 STUVA 斯多瓦 FRITIDS 福利蒂德斯 白色衣柜，打造宁静舒适、井井有条的育儿室。低矮的设计、圆角和把手，令这款衣柜安全可靠，适合儿童使用。",
-    "<p>如果能让衣物、尿布、瓶子和毛巾毯都拥有专属存放空间，你便可以轻松乐享生活带来的小惊喜。</p>",
+    "如果能让衣物、尿布、瓶子和毛巾毯都拥有专属存放空间，你便可以轻松乐享生活带来的小惊喜。",
     "为特别之人准备的储物方案",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "为特别之人准备的储物方案",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/71/29/712992ead18b6b57047f31ff6894dc7c.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -39,6 +49,26 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "RASSLA 拉斯拉",
+     "text": "¥59.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/rassla-la-si-la-5-ge-chu-jian-bai-se__0622653_pe690685_s4.jpg",
+     "href": "/cn/zh/p/rassla-la-si-la-5-ge-chu-jian-bai-se-30421339/"
+    },
+    {
+     "title": "VEDBO 维伯",
+     "text": "¥1,799",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vedbo-wei-bo-gao-bei-fu-shou-yi-gang-na-rui-de-qian-he-fen__0643605_pe701951_s4.jpg",
+     "href": "/cn/zh/p/vedbo-wei-bo-gao-bei-fu-shou-yi-gang-na-rui-de-qian-he-fen-90423590/"
+    },
+    {
+     "title": "ÖNSKLIG 奥克里",
+     "text": "¥79.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/oensklig-ao-ke-li-ying-er-geng-yi-tai-chu-wu-lan-4-jian-tao-bai-se__0711380_pe728172_s4.jpg",
+     "href": "/cn/zh/p/oensklig-ao-ke-li-ying-er-geng-yi-tai-chu-wu-lan-4-jian-tao-bai-se-10199284/"
+    }
+   ],
    "settings": null
   }
  ]

@@ -11,7 +11,7 @@
    "title": "你的个人储物空间",
    "texts": [
     "当你与人共享房间或者在办公室时，宜家 HÄLLAN 海朗 锁柜能够为你提供如家中一般的隐私空间。",
-    "<p>你可将个人物品存放在设计经典的 H&Auml;LLAN 海朗 储物柜中。这款储物柜以金属打造，可以满足大小物件的储物需求，适合放在办公室或者家中。</p>",
+    "你可将个人物品存放在设计经典的 HäLLAN 海朗 储物柜中。这款储物柜以金属打造，可以满足大小物件的储物需求，适合放在办公室或者家中。",
     "你的个人储物空间",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "你的个人储物空间",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/dc/da/dcda45209601682c62a4fbafc0870843.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,16 +54,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "宜家 HÄLLAN 海朗 锁柜可以使用挂锁，还可以在上面贴磁片，打造个性外观。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/cf/d7/cfd7b90589ffb254dd02101d24aa90bf.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>H&Auml;LLAN 海朗 储物柜可以使用挂锁，还可以在上面贴磁片，打造个性外观。</p>"
+    "HäLLAN 海朗 储物柜可以使用挂锁，还可以在上面贴磁片，打造个性外观。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -67,6 +89,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

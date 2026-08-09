@@ -11,7 +11,7 @@
    "title": "改变成就更可持续的生活方式",
    "texts": [
     "享受一杯热茶，你需要：METALLISK 梅塔里斯克 水壶、IDEALISK 艾迪利斯 茶滤和IKEA 365+ 透明玻璃杯。",
-    "<p>我们是否可以从家着手，打造一个更美好的世界？能！我们是否可以从自己做起，建立一个更美好的世界？当然。做出更环保的选择是否一定意味着会有更多困难甚至难以承受？当然不是。在通往更可持续的居家生活的道路上，如果我们每个人都尽自己的一份力，聚沙成塔，小小的举动也能带来巨大的改变。从今天开始，你就可以做出一些简单的改变。</p>",
+    "我们是否可以从家着手，打造一个更美好的世界？能！我们是否可以从自己做起，建立一个更美好的世界？当然。做出更环保的选择是否一定意味着会有更多困难甚至难以承受？当然不是。在通往更可持续的居家生活的道路上，如果我们每个人都尽自己的一份力，聚沙成塔，小小的举动也能带来巨大的改变。从今天开始，你就可以做出一些简单的改变。",
     "改变成就更可持续的生活方式",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "改变成就更可持续的生活方式",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/f2/9b/f29b67374589c159922999ecb242cf99.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -50,6 +60,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "IKEA 365+ 食品盒中装着打包的面条，背景中是一个丢弃的一次性饭盒。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/53c5dbb73cf3577c/original/PH178016-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -76,6 +96,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "KUNGSFORS 康福斯 网袋装着各种生活杂物，一次性塑料袋被扔在一边。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/37a56240386ca5ef/original/PH178017-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -86,7 +116,7 @@
     "装满水的玻璃杯中放着FÖRNYANDE 菲漾德 吸管，背景中是一次性塑料吸管。",
     "IMAGE",
     "30278360",
-    "<p>2020年，宜家逐步淘汰了产品系列中的所有塑料吸管，并同步引入了一些更好的替代产品：比如由非涂料纸、不锈钢甚至竹子制成的吸管！</p>",
+    "2020年，宜家逐步淘汰了产品系列中的所有塑料吸管，并同步引入了一些更好的替代产品：比如由非涂料纸、不锈钢甚至竹子制成的吸管！",
     "再见了，塑料吸管"
    ],
    "images": [
@@ -102,6 +132,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "装满水的玻璃杯中放着FÖRNYANDE 菲漾德 吸管，背景中是一次性塑料吸管。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/1fafb449c447ee1e/original/PH178018-crop001.jpg",
+     "href": null,
+     "backgroundColor": "#cbc2bd"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -128,6 +168,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "厨房台面上放着一个ENKELSPÅRIG 恩珀丽 水瓶，背景中是一个丢弃的塑料水瓶。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/5bc163ac9dece7f7/original/PH178087-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -160,6 +210,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "日常生活",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/50/63/50633eaf45b1869c734e4aa29ed3caac.jpg",
+     "href": null,
+     "backgroundColor": "#384962"
+    },
+    {
+     "title": "不多不少，刚刚好",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ff/02/ff02d8492115a67875c304adfcb164fb.jpg",
+     "href": null,
+     "backgroundColor": "#d5c8b3"
+    },
+    {
+     "title": "是时候来点新意",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/f1/44/f144a227562340b0765132fadbd3a6d0.jpg",
+     "href": null,
+     "backgroundColor": "#c89a28"
+    }
+   ],
+   "productIds": [],
    "settings": null
   }
  ]

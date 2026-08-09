@@ -8,7 +8,7 @@
  "blocks": [
   {
    "type": "pub-hero",
-   "title": "创造更好的解决方案 ",
+   "title": "创造更好的解决方案",
    "texts": [
     "两名女工正在检查一块采用100%回收废弃物制造的炭黑色门前挡板。",
     "创造更好的解决方案",
@@ -23,16 +23,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "创造更好的解决方案 ",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/82/2a/822ad09acb9b29522f32a847bdbc1df7.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3>创造更好的解决方案</h3>\n<p>宜家会不断对现有解决方案提出质疑。我们努力寻找更便捷的家具组装方式、更高的生产效率以及更加便于运输的包装方式，从而为顾客节省时间和金钱。</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p><a href=\"https://www.ikea.cn/cn/zh/cat/-16256/\">aaaaa</a></p>"
+    "创造更好的解决方案 宜家会不断对现有解决方案提出质疑。我们努力寻找更便捷的家具组装方式、更高的生产效率以及更加便于运输的包装方式，从而为顾客节省时间和金钱。 aaaaa"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,6 +56,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   },
   {
@@ -66,6 +79,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "斯堪的纳维亚风格公寓翻新，打造适合两个人的空间",
+     "text": "Anikó和Robert翻新了他们位于匈牙利的公寓，打造更适合他们的空间",
+     "image": "https://file.app.ikea.cn/images/2a/5d/2a5dc838c6b774318c024c81bdf9aeb8.jpg",
+     "href": "/cn/zh/ideas/fanxin-pub11a60021",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -85,16 +108,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/61/56/615638ee21e3510d83aa88ae36b9adcc.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>dfsdfsdf</p>"
+    "dfsdfsdf"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

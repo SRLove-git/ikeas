@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "26dfaa4c93e0422a8b0dfe2d1aa7f502"
    }
@@ -22,10 +24,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><a href=\"#4b0170ed081d4b17adfd3acd18bc7185\">商场信息</a> | <a href=\"#0e56eac576e8409abf55685bb4c9acb5\">优惠活动</a> | <a href=\"#0b450b977f0241e992e89c177ef67646\">宜家俱乐部</a> | <a href=\"#a7976f3e65f84bdf8d108f97ff7ce924\">商场餐厅</a></p>"
+    "商场信息 | 优惠活动 | 宜家俱乐部 | 商场餐厅"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "28e502e9bd104f2c8a587183e5146a54"
    }
@@ -34,10 +38,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>商场信息</strong></h2>\n<p><strong>营业时间</strong></p>\n<p>商场:10:00-22:00</p>\n<p>三楼顾客餐厅：10:00-21:30</p>\n<p>一楼轻食集： 10:00-21:30</p>"
+    "商场信息 营业时间 商场:10:00-22:00 三楼顾客餐厅：10:00-21:30 一楼轻食集： 10:00-21:30"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "商场信息"
    }
@@ -50,6 +56,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "6850e9d7acbc48459fbb2cb4160a2fca"
    }
@@ -62,7 +70,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<h3>商场地址：上海市静安区南京西路1728号百乐门大都会1-3楼</h3>\n<p><strong>乘坐公交</strong><br />A静安寺站: 15路、315路、855路、327路、45路、830路、838路、927路、 94路 <br />B南京西路华山路站: 323路、57路、76路 <br />C静安寺站：20路、330路</p>\n<p><strong>乘坐地铁</strong><br />2号线，7号线和14号线静安寺站1号口&nbsp;</p>",
+    "商场地址：上海市静安区南京西路1728号百乐门大都会1-3楼 乘坐公交 A静安寺站: 15路、315路、855路、327路、45路、830路、838路、927路、 94路 B南京西路华山路站: 323路、57路、76路 C静安寺站：20路、330路 乘坐地铁 2号线，7号线和14号线静安寺站1号口",
     "pub-text"
    ],
    "images": [
@@ -74,6 +82,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20221129/b93be225b9e3414b8f334ccb1fe4646f.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20221129/b93be225b9e3414b8f334ccb1fe4646f.jpg?x-oss-process=style/medium",
+     "href": null
+    },
+    {
+     "heading": "商场地址：上海市静安区南京西路1728号百乐门大都会1-3楼 乘坐公交 A静安寺站: 15路、315路、855路、327路、45路、830路、838路、927路、 94路 B南京西路华山路站: 323路、57路、76路 C静安寺站：20路、330路 乘坐地铁 2号线，7号线和14号线静安寺站1号口",
+     "text": null,
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "84e7b0a0856b47048d5d84efdf5b1011"
    }
@@ -86,6 +118,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "103f92e956ca4b05bb475450b7c78b17"
    }
@@ -94,10 +128,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>优惠活动</strong></h2>\n<p>*活动仅限上海静安商场实体店，不包括其他线上线下商场。</p>"
+    "优惠活动 *活动仅限上海静安商场实体店，不包括其他线上线下商场。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "优惠活动"
    }
@@ -110,6 +146,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "f32aa674bdbf471b934f82af17f1aee9"
    }
@@ -118,10 +156,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>IKEA Family 宜家俱乐部</strong></h2>\n<p>宜家俱乐部向所有人开放，而且可以免费加入。马上在线加入或前往本地商场注册成为 会员，开始享受所有会员专享优惠和益处。扫码关注&ldquo;宜家俱乐部&rdquo;微信服务号，不错过最 新会员活动和家居灵感。每次去宜家购物时一定要记得刷会员卡，<strong>退换货时间将从60天延长至365天</strong>，也可以随时获得最新优惠和相关信息。</p>"
+    "IKEA Family 宜家俱乐部 宜家俱乐部向所有人开放，而且可以免费加入。马上在线加入或前往本地商场注册成为 会员，开始享受所有会员专享优惠和益处。扫码关注“宜家俱乐部”微信服务号，不错过最 新会员活动和家居灵感。每次去宜家购物时一定要记得刷会员卡，退换货时间将从60天延长至365天，也可以随时获得最新优惠和相关信息。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "宜家俱乐部"
    }
@@ -134,6 +174,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "e8f125185a7e4be88ec84fc2eb4f00d7"
    }
@@ -142,10 +184,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>商场餐厅</strong></h2>"
+    "商场餐厅"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "商场餐厅"
    }
@@ -168,6 +212,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "无限灵感，为你的家打造舒适空间",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20230316/efe71ca8f1aa4c1cbfa801c97aa267fe.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Image(video)-"
    }
@@ -176,10 +230,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3><strong>&nbsp;--- 推荐菜品 ---</strong></h3>\n<p>*图片仅供参考，以实物为准。</p>"
+    "--- 推荐菜品 --- *图片仅供参考，以实物为准。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "5aaad32d305e44fe89d2b0be38795b59"
    }
@@ -202,6 +258,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "无限灵感，为你的家打造舒适空间",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20221130/4d9bec4b42814e7da072083356138f04.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Image(video)-"
    }
@@ -210,10 +276,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3><strong>--- 宜家轻食集 ---</strong></h3>"
+    "--- 宜家轻食集 ---"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "76980048b0cb4c1e8dbd608567056ebe"
    }
@@ -236,6 +304,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "无限灵感，为你的家打造舒适空间",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20221130/201359b148634290b82bed46c09e90c9.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Image(video)-"
    }
@@ -244,10 +322,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3><strong>--- 瑞典美食屋 ---</strong></h3>"
+    "--- 瑞典美食屋 ---"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "76980048b0cb4c1e8dbd608567056ebe"
    }
@@ -270,6 +350,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "无限灵感，为你的家打造舒适空间",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20221130/64000634db0a48aa96aa0d974afd5f02.png?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Image(video)-"
    }
@@ -282,6 +372,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "7059d4f823314a8b945c6b307871003d"
    }
@@ -290,10 +382,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>设计服务</strong></h2>\n<p>宜家对公业务部可以为您提供办公空间、样板房、商铺、餐厅、咖啡馆、培训机构、酒店设计服务，为您合理规划商业空间、帮您挑选实用、美观又超值的家具和装饰品，让您省心放心。</p>"
+    "设计服务 宜家对公业务部可以为您提供办公空间、样板房、商铺、餐厅、咖啡馆、培训机构、酒店设计服务，为您合理规划商业空间、帮您挑选实用、美观又超值的家具和装饰品，让您省心放心。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "a47a507c163c4a86b4db165f748d19e6"
    }
@@ -314,6 +408,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ba/54/ba5405ba58b80059ec725d74410e1967.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "de1ef95dcdc84741ad453e7e96e79643"
    }
@@ -322,10 +426,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>全屋设计中心</strong></h2>\n<p>电话：135 2437 2374</p>\n<p>邮箱：elmo.zuo@ingka.ikea.com</p>"
+    "全屋设计中心 电话：135 2437 2374 邮箱：elmo.zuo@ingka.ikea.com"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "8bd7b036eec64d9ba014df34b3ec7207"
    }
@@ -338,6 +444,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "df2778ce48f54df0be36a291e676bc4a"
    }
@@ -358,6 +466,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/af/76/af76696a76967b1a2436bc7e58284ee4.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "97dd2b148c4d4e9b85960bc27fbe181e"
    }
@@ -370,6 +488,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "34e0cd6861fc44c19b40aca191cefbf6"
    }
@@ -378,10 +498,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3><strong>上海还有其他宜家商场及体验中心</strong></h3>"
+    "上海还有其他宜家商场及体验中心"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "93db7ece9d414929b0d5de9a225a0c83"
    }
@@ -412,6 +534,9 @@
      "text": ""
     }
    ],
+   "items": [],
+   "columns": [],
+   "productIds": [],
    "settings": {
     "traceId": "534b7ee736f74347bebd3c020e34d4b1"
    }
@@ -440,6 +565,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "无限灵感，为你的家打造舒适空间",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220329/35a8a7957b4147c48cf32010e699425e.png?x-oss-process=style/medium",
+     "href": "/cn/zh/product-guides/remote-shopping-pubea87e460",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "b591ee24b25346e5b2cdc7f4a3836b6a"
    }

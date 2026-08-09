@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -51,26 +53,61 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "柜内收纳",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/7e/29/7e29364f0555027c0004c9884a1a3bb9.jpg",
+     "href": "/cn/zh/h5page/?url=%23%E5%8E%A8%E6%88%BF%E9%9A%90%E5%BD%A2%E5%B0%8F%E5%B8%AE%E6%89%8B",
+     "backgroundColor": null
+    },
+    {
+     "title": "墙面置物架",
+     "text": "让您的厨具触手可及\n\n如果橱柜和抽屉空间有限，但厨具和厨房用品却很多，墙面储物件可为您解决烦恼。您可以搭配挂杆、挂钩、容器和搁板，打造自己的解决方案，让所有物品既容易拿取又能彰显风格。\n",
+     "image": "https://file.app.ikea.cn/images/6c/39/6c3974a0951d22db64dee529f122889c.jpg",
+     "href": "/cn/zh/rooms/kitchen/chufang-pube33d5bfc",
+     "backgroundColor": null
+    },
+    {
+     "title": "洗涤",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/58/e8/58e8ab47560cf07b6c327cb189fb59b2.jpg",
+     "href": "/cn/zh/h5page/?url=%23%E6%B4%97%E6%B6%A4%E5%8C%BA%E6%95%B4%E6%B4%81%E7%9A%84%E7%A7%98%E5%AF%86",
+     "backgroundColor": null
+    },
+    {
+     "title": "电器",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/07/3f/073f107da90e24e830c2f3582f419176.jpg",
+     "href": "/cn/zh/h5page/?url=%23%E7%94%B5%E5%99%A8%E9%80%A0%E5%B0%B1%E5%93%81%E8%B4%A8%E5%8E%A8%E6%88%BF",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>厨房隐形小帮手</strong></h2>"
+    "厨房隐形小帮手"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>柜内收纳和内配件</strong></p>\n<p>厨房内置件是充分利用厨房空间的好方法，能将餐具、厨具，甚至垃圾收纳都井然有序地收纳到小空间中。</p>"
+    "柜内收纳和内配件 厨房内置件是充分利用厨房空间的好方法，能将餐具、厨具，甚至垃圾收纳都井然有序地收纳到小空间中。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -89,6 +126,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/7a/7e/7a7ec750f9a24d8f2c33253dd25d84b7.gif",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -103,6 +150,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "VARIERA 瓦瑞拉",
+     "text": "¥39.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/variera-wa-rui-la-guo-gai-shou-na-jian-bu-xiu-gang__0626878_pe693056_s4.jpg",
+     "href": "/cn/zh/p/variera-wa-rui-la-guo-gai-shou-na-jian-bu-xiu-gang-40164075/"
+    },
+    {
+     "title": "VARIERA 瓦瑞拉",
+     "text": "¥24.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/variera-wa-rui-la-chou-ti-dian-bai-se__0164029_pe319135_s4.jpg",
+     "href": "/cn/zh/p/variera-wa-rui-la-chou-ti-dian-bai-se-10271227/"
+    }
+   ],
    "settings": null
   },
   {
@@ -115,16 +176,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>墙面置物架</strong></p>\n<p>如果橱柜和抽屉空间有限，墙面储物件可为您解决烦恼。您可以搭配挂杆、挂钩和搁板，打造自己的解决方案，让所有物品既容易拿取又能彰显风格。</p>"
+    "墙面置物架 如果橱柜和抽屉空间有限，墙面储物件可为您解决烦恼。您可以搭配挂杆、挂钩和搁板，打造自己的解决方案，让所有物品既容易拿取又能彰显风格。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -143,6 +208,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/da/67/da67f396dd696bd587f1783939b939a2.gif",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -157,6 +232,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "SUNNERSTA 苏纳思",
+     "text": "¥4.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/sunnersta-su-na-si-sheng-ju-bai-se__0409165_pe601916_s4.jpg",
+     "href": "/cn/zh/p/sunnersta-su-na-si-sheng-ju-bai-se-30303736/"
+    },
+    {
+     "title": "KUNGSFORS 康福斯",
+     "text": "¥114.97",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kungsfors-kang-fu-si-5-gou-gua-gan-1-rong-qi-bu-xiu-gang__0755315_pe748361_s4.jpg",
+     "href": "/cn/zh/p/kungsfors-kang-fu-si-5-gou-gua-gan-1-rong-qi-bu-xiu-gang-19308170/"
+    }
+   ],
    "settings": null
   },
   {
@@ -177,26 +266,32 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>洗涤区整洁的秘密</strong></h2>"
+    "洗涤区整洁的秘密"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>跟杂乱的备餐环境说再见。有了在宜家厨房的专业指导，烹饪前的准备过程也变成享受生活的一部分。</p>"
+    "跟杂乱的备餐环境说再见。有了在宜家厨房的专业指导，烹饪前的准备过程也变成享受生活的一部分。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -215,6 +310,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/33/45/3345f77704445416692ef2466e2e21a4.gif",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -229,6 +334,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   },
   {
@@ -241,26 +347,32 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>电器造就品质厨房</strong></h2>"
+    "电器造就品质厨房"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>厨房中事半功倍的秘诀就在于一套可靠的电器，从烹饪可口佳肴，到清洗碗碟&hellip;&hellip; 你负责接受夸赞就好，其余的纷杂琐事让厨房电器来承担。</p>"
+    "厨房中事半功倍的秘诀就在于一套可靠的电器，从烹饪可口佳肴，到清洗碗碟…… 你负责接受夸赞就好，其余的纷杂琐事让厨房电器来承担。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -279,6 +391,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/4c/f0/4cf0ba465efd1b98c8fd9da73e6bc3f3.gif",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -293,6 +415,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   },
   {
@@ -305,26 +428,32 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>创意照明，点亮每个角落</strong></h2>"
+    "创意照明，点亮每个角落"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>理想厨房不仅要满足基本的照明需求。抽屉中、吊柜上的光源，既是额外惊喜，也是来自宜家厨房贴心的专业考量。</p>"
+    "理想厨房不仅要满足基本的照明需求。抽屉中、吊柜上的光源，既是额外惊喜，也是来自宜家厨房贴心的专业考量。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -343,6 +472,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/46/6c/466c9bd44219fc8e03e48b141fdb9bb9.gif",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -355,6 +494,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -367,6 +508,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -375,6 +518,8 @@
    "texts": [],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

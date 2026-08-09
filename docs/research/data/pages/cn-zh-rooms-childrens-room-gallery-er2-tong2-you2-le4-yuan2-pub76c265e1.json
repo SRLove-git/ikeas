@@ -11,7 +11,7 @@
    "title": "儿童游乐园",
    "texts": [
     "走进这间彩色儿童卧室，里面摆放着 CIRKUSTÄLT 勒克斯塔 红白条纹帐篷，并搭配光滑的 STUVA 斯多瓦 白色储物式长凳，用于玩具收纳，保持房间整洁有序。",
-    "<p>STUVA 斯多瓦 是一款储物单元，可以帮助实现孩子的幻想。可用作书桌、游戏天地或收纳毛绒玩具的储物空间！还有许多其他产品也能助你轻松整理物品。</p>",
+    "STUVA 斯多瓦 是一款储物单元，可以帮助实现孩子的幻想。可用作书桌、游戏天地或收纳毛绒玩具的储物空间！还有许多其他产品也能助你轻松整理物品。",
     "儿童游乐园",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "儿童游乐园",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/36/09/3609f1b4a8f948fd765badfe67f02972.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -39,6 +49,32 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "SLÄKT 斯莱克",
+     "text": "¥799",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/slaekt-si-lai-ke-chuang-jia-dai-ban-tiao-shi-chuang-ban-bai-se__0637774_pe698536_s4.jpg",
+     "href": "/cn/zh/p/slaekt-si-lai-ke-chuang-jia-dai-ban-tiao-shi-chuang-ban-bai-se-39227757/"
+    },
+    {
+     "title": "FLISAT 福丽萨特",
+     "text": "¥249",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/flisat-fu-li-sa-te-wan-ou-wu-qiang-ge-ban__0710145_pe727347_s4.jpg",
+     "href": "/cn/zh/p/flisat-fu-li-sa-te-wan-ou-wu-qiang-ge-ban-70296965/"
+    },
+    {
+     "title": "LUSTIGT 卢斯蒂格",
+     "text": "¥49.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lustigt-lu-si-di-ge-qiang-ge-ban__0710227_pe727416_s4.jpg",
+     "href": "/cn/zh/p/lustigt-lu-si-di-ge-qiang-ge-ban-10381853/"
+    },
+    {
+     "title": "MÖJLIGHET 莫伊里黑特",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/moejlighet-mo-yi-li-hei-te-bei-tao-he-zhen-tao-bai-se-xiang-qian-tu-an__0684203_pe721050_s4.jpg",
+     "href": "/cn/zh/p/moejlighet-mo-yi-li-hei-te-bei-tao-he-zhen-tao-bai-se-xiang-qian-tu-an-30423692/"
+    }
+   ],
    "settings": null
   }
  ]

@@ -11,7 +11,7 @@
    "title": "享受传统晚餐氛围",
    "texts": [
     "DANDERYD 丹德立 餐桌，包括橡木贴面桌面和传统风格的白色桌腿。",
-    "<p>餐桌可以说是一个家的中心。宜家新推出的DANDERYD 丹德立 餐桌充满传统格调，既坚固又耐用，轻松营造温馨的就餐氛围。</p>",
+    "餐桌可以说是一个家的中心。宜家新推出的DANDERYD 丹德立 餐桌充满传统格调，既坚固又耐用，轻松营造温馨的就餐氛围。",
     "享受传统晚餐氛围",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "享受传统晚餐氛围",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e5/56/e55678f71702f187889974013a0ae4a5.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -46,6 +56,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "在一个昏暗的房间里，有一张DANDERYD 丹德立 餐桌，配橡木贴面桌面和白色桌腿，旁边摆放着白色椅子。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/05/19/0519edc5dc91090e0183ff81e8b9a4db.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/05/19/0519edc5dc91090e0183ff81e8b9a4db.jpg",
+     "href": null
+    },
+    {
+     "heading": "传统格调，现代工艺 DANDERYD 丹德立 餐桌采用现代工艺制成，金属管制成的桌腿形状雅致，呈现传统格调，其制作过程做到了零浪费。橡木贴面桌面，经久耐用。",
+     "text": null,
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   }
  ]

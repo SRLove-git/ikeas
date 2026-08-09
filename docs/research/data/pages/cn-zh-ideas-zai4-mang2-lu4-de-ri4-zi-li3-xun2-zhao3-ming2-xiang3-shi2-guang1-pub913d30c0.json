@@ -11,7 +11,7 @@
    "title": "在忙碌的日子里寻找冥想时光",
    "texts": [
     "采光充足的窗户旁并排摆放着两张米色 KIVIK 奇维 贵妃椅。贵妃椅上放着床罩和书，上方挂着 SOLIG 索利格 帘帐。",
-    "<p>日常生活中，少许的平静时光就能带来大大的不同。这里有一些简单的创意，可以帮助你在（几乎）没有时间的情况下享受夏季时光。</p>",
+    "日常生活中，少许的平静时光就能带来大大的不同。这里有一些简单的创意，可以帮助你在（几乎）没有时间的情况下享受夏季时光。",
     "在忙碌的日子里寻找冥想时光",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "在忙碌的日子里寻找冥想时光",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/7f/b8/7fb8fc11097aca463b8da728a67f6f3c.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -46,6 +56,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "采光充足的窗户旁并排摆放着两张贵妃椅，一对情侣躺在贵妃椅上，身上盖着 VÅRELD 沃勒尔德 床罩，上方挂着 SOLIG 索利格 帘帐。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/78/54/7854fe8fcd2ee350a21d0610f3706f8a.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/78/54/7854fe8fcd2ee350a21d0610f3706f8a.jpg",
+     "href": null
+    },
+    {
+     "heading": "在窗户旁打造阳台般的宜人氛围 趁着孩子睡着，户外还有一点夏季暖阳的时候，好好放松一下。把座椅一起挪到窗户旁，挂上帘帐，享受片刻放松。既然已经坐下，何不轮流读书给对方听？",
+     "text": null,
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -73,6 +107,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "一位女士就着阳光坐在窗边的 VILTO 维尔托 踏脚凳上，洗衣机旁的 VILTO 维尔托 储物凳上放着一套指甲护理工具。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/94/01/94016b25bb309b75499c6301a76e9df5.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "一位女士坐在 LANDSKRONA 兰德克纳 单人沙发中，手捧一杯茶，周围摆放着植物，有些植物被放在 BUSKBO 布克伯 植物架上。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/62/e4/62e4d4fc5fba222d4f532e1fb990c32b.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "在洗衣的同时享受独处时光 家务活可不会放暑假，但是你也可以把它们变成享受阳光的美妙时刻。布置一个临时梳妆台，准备好指甲护理工具和草药手浴，在日常家务间隙享受一些独处时光。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/94/01/94016b25bb309b75499c6301a76e9df5.jpg",
+     "href": null
+    },
+    {
+     "heading": "舒适安坐于花园一角 忙碌的时候你可能没有时间外出，那就安排一些享受大自然的独处时光吧。把绿色植物集中到窗前，坐进你喜欢的座椅中，在满地绿植的环绕中喝上一杯茶，放松一番。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/62/e4/62e4d4fc5fba222d4f532e1fb990c32b.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -93,16 +158,20 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><em>我们乐意看到顾客运用我们的产品发挥创意。尽情发挥吧！但是请注意，经过微调或改造的宜家产品将丧失其原有功能，或无法进行二次销售，因此，你将不再享有宜家的商业保证及退货权利。</em></p>"
+    "我们乐意看到顾客运用我们的产品发挥创意。尽情发挥吧！但是请注意，经过微调或改造的宜家产品将丧失其原有功能，或无法进行二次销售，因此，你将不再享有宜家的商业保证及退货权利。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

@@ -11,7 +11,7 @@
    "title": "拉动灯绳，展开杰作",
    "texts": [
     "特写：RAMSELE 拉姆塞 吊灯，采用花朵造型设计，拉动灯绳即可让花朵盛开。",
-    "<p>轻松拉动灯绳，改变照明体验。RAMSELE 拉姆塞 吊灯充满设计美感，采用魔法花朵或几何造型。</p>",
+    "轻松拉动灯绳，改变照明体验。RAMSELE 拉姆塞 吊灯充满设计美感，采用魔法花朵或几何造型。",
     "拉动灯绳，展开杰作",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "拉动灯绳，展开杰作",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/7b/5b/7b5b58dd84b5961d1395c08f4b2507ec.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -51,6 +61,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "特写：RAMSELE 拉姆塞 吊灯，采用几何造型设计，拉动灯绳即可展开。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/f3/5f/f35f7f2e7f3ea0d7955b5279d3fbe2e5.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "两盏 RAMSELE 拉姆塞 吊灯，分别为花朵造型和几何造型，拉动灯绳即可展开。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/3b/60/3b60cf8b2aeedeb0902901a1681ce0bd.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "吊灯采用毛毡或纺织品制成，拉动灯绳即可惊喜改变吊灯造型、调节灯光明暗。",
+     "image": "https://file.app.ikea.cn/images/f3/5f/f35f7f2e7f3ea0d7955b5279d3fbe2e5.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/3b/60/3b60cf8b2aeedeb0902901a1681ce0bd.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   }
  ]

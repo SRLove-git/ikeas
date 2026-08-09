@@ -10,7 +10,7 @@
    "type": "pub-hero",
    "title": "窗帘后面",
    "texts": [
-    "<p>用窗帘打造房中房是最舒适简便的方法。最棒的是，如果你想再次敞开空间，这些窗帘也很好整理。 喜欢这样的窗帘组合？</p>",
+    "用窗帘打造房中房是最舒适简便的方法。最棒的是，如果你想再次敞开空间，这些窗帘也很好整理。 喜欢这样的窗帘组合？",
     "窗帘后面",
     "normal"
    ],
@@ -23,6 +23,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "窗帘后面",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/16/da/16dac38926a5b266c8e97c02c11dded0.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -37,6 +47,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

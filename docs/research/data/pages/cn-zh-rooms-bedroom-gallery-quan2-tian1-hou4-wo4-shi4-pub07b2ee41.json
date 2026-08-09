@@ -11,7 +11,7 @@
    "title": "全天候卧室",
    "texts": [
     "在同一间卧室内结合使用宜家 NESTTUN 奈斯顿 白色床架和 SUNDVIK 桑维 可加长型儿童床架，打造出多功能共享卧室。",
-    "<p>家庭生活无时无刻不萦绕在我们的身旁，尤其是当你有几个不同年龄段的孩子。利用灵活多变的家具打造共享卧室，令每个家庭成员都能拥有属于自己的空间。</p>",
+    "家庭生活无时无刻不萦绕在我们的身旁，尤其是当你有几个不同年龄段的孩子。利用灵活多变的家具打造共享卧室，令每个家庭成员都能拥有属于自己的空间。",
     "全天候卧室",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "全天候卧室",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/70/5b/705b6dc778ca2389d889aafeaa6ee33c.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -39,6 +49,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "SUNDVIK 桑维",
+     "text": "¥1,299",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/sundvik-sang-wei-ke-jia-chang-chuang-bai-se__1460893_pe994039_s4.jpg",
+     "href": "/cn/zh/p/sundvik-sang-wei-ke-jia-chang-chuang-bai-se-60370197/"
+    },
+    {
+     "title": "SKUBB 思库布",
+     "text": "¥49.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/skubb-si-ku-bu-chu-wu-dai-bai-se__0711196_pe728065_s4.jpg",
+     "href": "/cn/zh/p/skubb-si-ku-bu-chu-wu-dai-bai-se-70294990/"
+    }
+   ],
    "settings": null
   }
  ]

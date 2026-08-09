@@ -11,7 +11,7 @@
    "title": "七种色彩，多样氛围",
    "texts": [
     "七盏俏皮铅笔造型的 PELARBOJ 培拉宝 台灯发出自带的七种不同颜色的光。",
-    "<p>PELARBOJ 培拉宝 台灯的颜色能为房间注入魔力，可用作宴会用灯、氛围灯或夜照明灯。它会在七种不同的颜色之间自动变换，包括白色、红色、黄色、绿色、青绿色、蓝色和粉红色。快来选择你喜欢的颜色！</p>",
+    "PELARBOJ 培拉宝 台灯的颜色能为房间注入魔力，可用作宴会用灯、氛围灯或夜照明灯。它会在七种不同的颜色之间自动变换，包括白色、红色、黄色、绿色、青绿色、蓝色和粉红色。快来选择你喜欢的颜色！",
     "七种色彩，多样氛围",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "七种色彩，多样氛围",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/50/4b/504bfc99b2762e91d68e300a31f4c31f.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,16 +54,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "特写：俏皮铅笔造型的 PELARBOJ 培拉宝 台灯发出蓝色的光。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/67/c7/67c7365fa16c520076b84b56ea69edb9.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>PELARBOJ 培拉宝 台灯采用俏皮的铅笔造型设计，你可以调节颜色变换的方式，或保持一种颜色。营造你想要的氛围吧！</p>"
+    "PELARBOJ 培拉宝 台灯采用俏皮的铅笔造型设计，你可以调节颜色变换的方式，或保持一种颜色。营造你想要的氛围吧！"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -71,6 +93,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

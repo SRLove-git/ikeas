@@ -11,7 +11,7 @@
    "title": "家装参观：将派对移至户外",
    "texts": [
     "户外阳台上摆放着纺织品。",
-    "<p>你策划了一场室内派对，但突然之间太阳出来了——那就把你的客厅转移到户外吧！纺织品和小件家具能够让户外空间更舒适，夜晚时光结束后搬回室内也很方便。来看看设计师Katie是怎么做的吧。</p>",
+    "你策划了一场室内派对，但突然之间太阳出来了——那就把你的客厅转移到户外吧！纺织品和小件家具能够让户外空间更舒适，夜晚时光结束后搬回室内也很方便。来看看设计师Katie是怎么做的吧。",
     "家装参观：将派对移至户外",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "家装参观：将派对移至户外",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/75/6b/756bfe1ef85cddf93eb4b8d207062a10.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,16 +54,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "阳台上摆放着蓝色靠垫和户外家具。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/85/6e/856e7229f0baad180572f5198d6bcc49.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>为户外增添色彩</strong></p>\n<p>Katie说：&ldquo;撞色元素可以让户外空间看上去更像一个房间，纺织品则是运用撞色最简单的方式。&rdquo;如果派对期间太阳出来了，大家可以各拿一只靠垫去户外活动。她的 KUNGSHOLMEN 昆索曼 椅凳可以全年放在户外，小型托盘桌和灯具十分轻巧，便于晚上拿到户外。&ldquo;只要天气不错，我们就会把阳台当作客厅的一部分。&rdquo;Katie说，&ldquo;只要把滑门打开，就能容纳两倍的人！&rdquo;</p>"
+    "为户外增添色彩 Katie说：“撞色元素可以让户外空间看上去更像一个房间，纺织品则是运用撞色最简单的方式。”如果派对期间太阳出来了，大家可以各拿一只靠垫去户外活动。她的 KUNGSHOLMEN 昆索曼 椅凳可以全年放在户外，小型托盘桌和灯具十分轻巧，便于晚上拿到户外。“只要天气不错，我们就会把阳台当作客厅的一部分。”Katie说，“只要把滑门打开，就能容纳两倍的人！”"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -73,6 +95,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "户外长椅上叠放着蓝色纺织品。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b8/84/b884e845c3c1d266a1a3725227887983.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -93,6 +125,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "托盘桌上摆放着植物。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/fa/b8/fab821795398a8d3d29894ea4ee29ebd.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -112,26 +154,40 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "能够经受风吹雨打的桌子上摆放着蓝色的碗。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/4e/83/4e83f78e472967cd038e5b1924c1c665.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><em>我们乐意看到顾客运用我们的产品发挥创意。尽情发挥吧！但是请注意，经过微调或改造的宜家产品将丧失其原有功能，或无法进行二次销售，因此，你将不再享有宜家的商业保证及退货权利。</em></p>"
+    "我们乐意看到顾客运用我们的产品发挥创意。尽情发挥吧！但是请注意，经过微调或改造的宜家产品将丧失其原有功能，或无法进行二次销售，因此，你将不再享有宜家的商业保证及退货权利。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>制作人</strong></p><p>室内设计师：Katie Phillips<br />摄影师：Polly Wreford</p>"
+    "制作人室内设计师：Katie Phillips 摄影师：Polly Wreford"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

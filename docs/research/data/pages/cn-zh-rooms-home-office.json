@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Page Title-"
    }
@@ -62,6 +64,79 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "书桌和办公桌",
+     "text": "",
+     "image": "https://file.app.ikea.cn/global/assets/navigation/images/desks-computer-desks-20649.jpeg?imwidth=400",
+     "href": "/cn/zh/cat/20649",
+     "backgroundColor": null
+    },
+    {
+     "title": "书桌椅和办公椅",
+     "text": "",
+     "image": "https://file.app.ikea.cn/global/assets/navigation/images/desk-chairs-20652.jpeg?imwidth=400",
+     "href": "/cn/zh/cat/20652",
+     "backgroundColor": null
+    },
+    {
+     "title": "抽屉柜",
+     "text": "",
+     "image": "https://file.app.ikea.cn/global/assets/navigation/images/drawer-units-10711.jpeg?imwidth=400",
+     "href": "/cn/zh/cat/10711",
+     "backgroundColor": null
+    },
+    {
+     "title": "储物文件柜",
+     "text": "",
+     "image": "https://file.app.ikea.cn/global/assets/navigation/images/storage-units-cabinets-10385.jpeg?imwidth=400",
+     "href": "/cn/zh/cat/10385",
+     "backgroundColor": null
+    },
+    {
+     "title": "书柜",
+     "text": "",
+     "image": "https://file.app.ikea.cn/global/assets/navigation/images/bookcases-10382.jpeg?imwidth=400",
+     "href": "/cn/zh/cat/10382",
+     "backgroundColor": null
+    },
+    {
+     "title": "完整墙面搁板",
+     "text": "",
+     "image": "https://file.app.ikea.cn/global/assets/navigation/images/complete-wall-shelves-20660.jpeg?imwidth=400",
+     "href": "/cn/zh/cat/20660",
+     "backgroundColor": null
+    },
+    {
+     "title": "工作灯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/global/assets/navigation/images/work-lamps-20502.jpeg?imwidth=400",
+     "href": "/cn/zh/cat/20502",
+     "backgroundColor": null
+    },
+    {
+     "title": "储物盒和储物篮",
+     "text": "",
+     "image": "https://file.app.ikea.cn/global/assets/navigation/images/small-storage-organisers-st007.jpeg?imwidth=400",
+     "href": "/cn/zh/cat/10550",
+     "backgroundColor": null
+    },
+    {
+     "title": "文件和多媒体储物",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250618/068fb6fb64944cdbacb119480b908792.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/10551",
+     "backgroundColor": null
+    },
+    {
+     "title": "办公桌配件",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250618/24829f1c6a78432a9a56496fede3f4bb.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/10573",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "0562bbd849334278b72e2cd7cb92b5b3"
    }
@@ -79,13 +154,15 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "642b85dc80fe4d0e9506485636aa4018"
    }
   },
   {
    "type": "pub-curated-gallery",
-   "title": "小空间，大作用！ ",
+   "title": "小空间，大作用！",
    "texts": [
     "/rooms/home-office/gallery/",
     "NO",
@@ -108,7 +185,7 @@
      "text": ""
     },
     {
-     "href": "https://video.app.ikea.cn/5042c5ab86ff71f1a25f6732b68e0102/f7724d8662df4df09db0f1393be78bca-97e037d3f604c79eeae774f8db610ddf-sd.m3u8?auth_key=1786154622-c17fd7b428404a35a33122e2452e3df8-0-aed306605f2896844dc2f895c31c6ac2",
+     "href": "https://video.app.ikea.cn/5042c5ab86ff71f1a25f6732b68e0102/f7724d8662df4df09db0f1393be78bca-97e037d3f604c79eeae774f8db610ddf-sd.m3u8?auth_key=1786184664-e720da4caf6841f580f77649702fac70-0-a5e9b584ef0127fb7da769bbfe86f537",
      "text": ""
     },
     {
@@ -120,6 +197,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://video.app.ikea.cn/5042c5ab86ff71f1a25f6732b68e0102/f7724d8662df4df09db0f1393be78bca-97e037d3f604c79eeae774f8db610ddf-sd.m3u8?auth_key=1786184664-e720da4caf6841f580f77649702fac70-0-a5e9b584ef0127fb7da769bbfe86f537",
+     "href": "/cn/zh/inspiration/detail/8514724a-56b1-41e0-aad4-bf2e83be388b?type=IMAGE",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://static.web.ikea.cn/content/u/20250912/54c68a20799344eca240a4336507bb1b.jpg",
+     "href": "/cn/zh/inspiration/detail/9cc83ae8-45bd-47c7-85a9-f33136841773?type=IMAGE",
+     "backgroundColor": "#111111"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "ac46f0c208ae4e8b98364f01143234ae"
    }
@@ -137,13 +231,63 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "LÄNGDHOPP 朗霍普",
+     "text": "¥599",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/laengdhopp-lang-huo-pu-la-chu-shi-zhuo-zi-bai-se__1503658_pe1007941_s4.jpg",
+     "href": "/cn/zh/p/laengdhopp-lang-huo-pu-la-chu-shi-zhuo-zi-bai-se-00590791/"
+    },
+    {
+     "title": "ENKROKEN 恩库肯",
+     "text": "¥349",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/enkroken-en-ku-ken-shu-zhuo-bai-se__1515167_pe1011273_s4.jpg",
+     "href": "/cn/zh/p/enkroken-en-ku-ken-shu-zhuo-bai-se-50597083/"
+    },
+    {
+     "title": "BJÖRKÅSEN 比约高森",
+     "text": "¥149",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/bjoerkasen-bi-yue-gao-sen-bi-ji-ben-dian-nao-bian-zhuo-huang-lu-se__1487984_pe1003263_s4.jpg",
+     "href": "/cn/zh/p/bjoerkasen-bi-yue-gao-sen-bi-ji-ben-dian-nao-bian-zhuo-huang-lu-se-70636427/"
+    },
+    {
+     "title": "BETESHÄST 比特海斯",
+     "text": "¥799",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/beteshaest-bi-te-hai-si-shu-zhuo-qian-zhu__1509002_pe1009636_s4.jpg",
+     "href": "/cn/zh/p/beteshaest-bi-te-hai-si-shu-zhuo-qian-zhu-50619805/"
+    },
+    {
+     "title": "VITTSJÖ 维特索",
+     "text": "¥249",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vittsjoe-wei-te-suo-bi-ji-ben-dian-nao-zhuo-bai-se-bo-li__1414797_pe974900_s4.jpg",
+     "href": "/cn/zh/p/vittsjoe-wei-te-suo-bi-ji-ben-dian-nao-zhuo-bai-se-bo-li-80619540/"
+    },
+    {
+     "title": "BRYTNING 布吕特宁",
+     "text": "¥799",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/brytning-bu-lu-te-ning-shu-zhuo-bai-se__1515725_pe1011553_s4.jpg",
+     "href": "/cn/zh/p/brytning-bu-lu-te-ning-shu-zhuo-bai-se-30618232/"
+    },
+    {
+     "title": "MITTZON 米特丛",
+     "text": "¥999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mittzon-mi-te-cong-dai-jiao-lun-de-bi-ji-ben-dian-nao-zhuo-lu-se__1235860_pe917377_s4.jpg",
+     "href": "/cn/zh/p/mittzon-mi-te-cong-dai-jiao-lun-de-bi-ji-ben-dian-nao-zhuo-lu-se-90519111/"
+    },
+    {
+     "title": "BOLLSIDAN 波席当",
+     "text": "¥1,499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/bollsidan-bo-xi-dang-zuo-zhan-liang-yong-shi-ban-gong-zhuo-bai-se__1262385_pe927073_s4.jpg",
+     "href": "/cn/zh/p/bollsidan-bo-xi-dang-zuo-zhan-liang-yong-shi-ban-gong-zhuo-bai-se-20579938/"
+    }
+   ],
    "settings": {
     "traceId": "cms-商品列表 Pruduct list/shelf-"
    }
   },
   {
    "type": "pub-curated-gallery",
-   "title": "小空间，大作用！ ",
+   "title": "小空间，大作用！",
    "texts": [
     "/cat/10711",
     "NO",
@@ -178,6 +322,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20260724/ba4f9975714445619daa63b1b8b0634d.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/inspiration/detail/8514724a-56b1-41e0-aad4-bf2e83be388b?type=IMAGE",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20260724/858b0ef799d4402d8e26ad5745722b82.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/inspiration/detail/9cc83ae8-45bd-47c7-85a9-f33136841773?type=IMAGE",
+     "backgroundColor": "#111111"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "ac46f0c208ae4e8b98364f01143234ae"
    }
@@ -195,6 +356,56 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "HELMER 海尔默",
+     "text": "¥249",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/helmer-hai-er-mo-chou-ti-gui-dai-jiao-lun-hong-se__1515171_pe1011279_s4.jpg",
+     "href": "/cn/zh/p/helmer-hai-er-mo-chou-ti-gui-dai-jiao-lun-hong-se-00625026/"
+    },
+    {
+     "title": "HELMER 海尔默",
+     "text": "¥249",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/helmer-hai-er-mo-chou-ti-gui-dai-jiao-lun-bai-se__1484824_pe1001713_s4.jpg",
+     "href": "/cn/zh/p/helmer-hai-er-mo-chou-ti-gui-dai-jiao-lun-bai-se-80619903/"
+    },
+    {
+     "title": "HELMER 海尔默",
+     "text": "¥249",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/helmer-hai-er-mo-chou-ti-gui-dai-jiao-lun-hei-se__1484820_pe1001717_s4.jpg",
+     "href": "/cn/zh/p/helmer-hai-er-mo-chou-ti-gui-dai-jiao-lun-hei-se-50625024/"
+    },
+    {
+     "title": "ALEX 阿来斯",
+     "text": "¥639",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/alex-a-lai-si-chou-ti-gui-dai-jiao-lun-fu-cha-jian-bai-se-hei-se__1521965_pe1013419_s4.jpg",
+     "href": "/cn/zh/p/alex-a-lai-si-chou-ti-gui-dai-jiao-lun-fu-cha-jian-bai-se-hei-se-89628031/"
+    },
+    {
+     "title": "TROTTEN 特罗滕",
+     "text": "¥499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/trotten-te-luo-teng-san-ti-gui-fu-jiao-lun-lan-se__1517297_pe1012236_s4.jpg",
+     "href": "/cn/zh/p/trotten-te-luo-teng-san-ti-gui-fu-jiao-lun-lan-se-20623960/"
+    },
+    {
+     "title": "TROTTEN 特罗滕",
+     "text": "¥599",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/trotten-te-luo-teng-chu-wu-gui-qian-lu__1517291_pe1012234_s4.jpg",
+     "href": "/cn/zh/p/trotten-te-luo-teng-chu-wu-gui-qian-lu-60623963/"
+    },
+    {
+     "title": "IDÅSEN 伊朵森",
+     "text": "¥799",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/idasen-yi-duo-sen-chou-ti-gui-dai-jiao-lun-jin-zong-se__1442759_pe986923_s4.jpg",
+     "href": "/cn/zh/p/idasen-yi-duo-sen-chou-ti-gui-dai-jiao-lun-jin-zong-se-80621784/"
+    },
+    {
+     "title": "BRÄNNBOLL 布朗伯",
+     "text": "¥399",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/braennboll-bu-lang-bo-dai-jiao-lun-ge-jia-dan-yuan-bai-se__1336717_pe947454_s4.jpg",
+     "href": "/cn/zh/p/braennboll-bu-lang-bo-dai-jiao-lun-ge-jia-dan-yuan-bai-se-40586259/"
+    }
+   ],
    "settings": {
     "traceId": "cms-商品列表 Pruduct list/shelf-"
    }
@@ -202,11 +413,11 @@
   {
    "type": "pub-text",
    "title": null,
-   "texts": [
-    "<p style=\"line-height: 8px;\">&nbsp;&nbsp;</p>"
-   ],
+   "texts": [],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -235,6 +446,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250902/a4b9f329b07c4b85883b3a34e18fd1a4.mp4",
+     "href": "/cn/zh/inspiration/detail/774a8b7e-440a-456c-a048-4ee3a67465d7?type=IMAGE",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Curated Gallery-小件商品"
    }
@@ -243,11 +464,13 @@
    "type": "rich-text",
    "title": null,
    "texts": [
-    "<p style=\"border: 0px solid #e5e7eb; background-color: #ffffff;\"><span style=\"color: #ffffff; background-color: #37b886;\"><strong><span style=\"color: #000000;\"><span style=\"color: #ffffff;\">&nbsp; 站坐交替 舒适办公 &nbsp;</span></span></strong></span></p>\n<h5 style=\"border: 0px solid #e5e7eb; background-color: #ffffff;\"><span style=\"color: #000000;\"><strong>BOLLSIDAN 波席当</strong> 坐/站两用式办公桌 </span>人体工学设计，桌面顺畅升降： 可在72-117cm之间调节，打破久坐僵局，唤醒办公活力。经权威机构* 认可的实验室测试，宜家家具有害物质限量均符合国标GB18584-2024*要求，让你用得更放心。<br />* 国际实验室认可合作组织（ILAC）成员，如CNAS，UKAS，HKLAS，SWEDAC等。<br />* 《家具中有害物质限量》</h5>",
+    "站坐交替 舒适办公 BOLLSIDAN 波席当 坐/站两用式办公桌 人体工学设计，桌面顺畅升降： 可在72-117cm之间调节，打破久坐僵局，唤醒办公活力。经权威机构* 认可的实验室测试，宜家家具有害物质限量均符合国标GB18584-2024*要求，让你用得更放心。 * 国际实验室认可合作组织（ILAC）成员，如CNAS，UKAS，HKLAS，SWEDAC等。 * 《家具中有害物质限量》",
     "#FFFFFF"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-富文本 Text-"
    }
@@ -265,6 +488,44 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "BOLLSIDAN 波席当",
+     "text": "¥1,999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/bollsidan-bo-xi-dang-zuo-zhan-liang-yong-shi-ban-gong-zhuo-dian-dong-bai-se__1392437_pe966142_s4.jpg",
+     "href": "/cn/zh/p/bollsidan-bo-xi-dang-zuo-zhan-liang-yong-shi-ban-gong-zhuo-dian-dong-bai-se-40608143/"
+    },
+    {
+     "title": "BOLLSIDAN 波席当",
+     "text": "¥1,999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/bollsidan-bo-xi-dang-zuo-zhan-liang-yong-shi-ban-gong-zhuo-dian-dong-fang-bai-se-xiang-mu-wen-bai-se__1414283_pe974752_s4.jpg",
+     "href": "/cn/zh/p/bollsidan-bo-xi-dang-zuo-zhan-liang-yong-shi-ban-gong-zhuo-dian-dong-fang-bai-se-xiang-mu-wen-bai-se-40613743/"
+    },
+    {
+     "title": "BOLLSIDAN 波席当",
+     "text": "¥1,999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/bollsidan-bo-xi-dang-zuo-zhan-liang-yong-shi-ban-gong-zhuo-dian-dong-hu-tao-mu-wen-hei-se__1392441_pe966138_s4.jpg",
+     "href": "/cn/zh/p/bollsidan-bo-xi-dang-zuo-zhan-liang-yong-shi-ban-gong-zhuo-dian-dong-hu-tao-mu-wen-hei-se-60608142/"
+    },
+    {
+     "title": "MARKUS 马库斯",
+     "text": "¥899",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/markus-ma-ku-si-ban-gong-yi-wei-suo-er-shen-hui-se__1415301_pe975232_s4.jpg",
+     "href": "/cn/zh/p/markus-ma-ku-si-ban-gong-yi-wei-suo-er-shen-hui-se-80588794/"
+    },
+    {
+     "title": "STYRSPEL 斯缇诗",
+     "text": "¥1,499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/styrspel-si-ti-shi-dian-jing-yi-lan-se-dan-hui-se__1115360_pe872044_s4.jpg",
+     "href": "/cn/zh/p/styrspel-si-ti-shi-dian-jing-yi-lan-se-dan-hui-se-30506692/"
+    },
+    {
+     "title": "STYRSPEL 斯缇诗",
+     "text": "¥1,699",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/styrspel-si-ti-shi-dian-jing-yi-shen-hui-se-hui-se__1115362_pe872046_s4.jpg",
+     "href": "/cn/zh/p/styrspel-si-ti-shi-dian-jing-yi-shen-hui-se-hui-se-00522033/"
+    }
+   ],
    "settings": {
     "traceId": "cms-商品列表 Pruduct list/shelf-"
    }
@@ -273,10 +534,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2 style=\"line-height: 18px;\">光影变奏，点亮家的氛围感</h2>\n<p style=\"line-height: 24px;\">灯光不只是照明，更是情绪的调色师。选一款合适的灯，让家中夜晚变得温暖又有故事，再搭配一些办公配件，家庭办公的氛围悄悄提升。</p>"
+    "光影变奏，点亮家的氛围感 灯光不只是照明，更是情绪的调色师。选一款合适的灯，让家中夜晚变得温暖又有故事，再搭配一些办公配件，家庭办公的氛围悄悄提升。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -294,6 +557,62 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "RÖDFLIK 洛德弗利",
+     "text": "¥149",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/roedflik-luo-de-fu-li-tai-deng-hui-lu-se__1327045_pe944344_s4.jpg",
+     "href": "/cn/zh/p/roedflik-luo-de-fu-li-tai-deng-hui-lu-se-20582709/"
+    },
+    {
+     "title": "KARRAGEN 卡拉根",
+     "text": "¥249",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/karragen-qia-la-gen-led-gong-zuo-deng-ke-diao-guang-de__0958557_pe805350_s4.jpg",
+     "href": "/cn/zh/p/karragen-qia-la-gen-led-gong-zuo-deng-ke-diao-guang-de-20611373/"
+    },
+    {
+     "title": "SAMBORD 桑伯德",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/sambord-sang-bo-de-tai-deng-hei-se-bai-se__1375676_pe960327_s4.jpg",
+     "href": "/cn/zh/p/sambord-sang-bo-de-tai-deng-hei-se-bai-se-40586952/"
+    },
+    {
+     "title": "LERBERG 勒伯格",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lerberg-le-bo-ge-ge-ban-gui-bai-se__0096350_pe235920_s4.jpg",
+     "href": "/cn/zh/p/lerberg-le-bo-ge-ge-ban-gui-bai-se-60168529/"
+    },
+    {
+     "title": "LERBERG 勒伯格",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lerberg-le-bo-ge-ge-ban-gui-shen-hui-se__69211_pe183961_s4.jpg",
+     "href": "/cn/zh/p/lerberg-le-bo-ge-ge-ban-gui-shen-hui-se-60186401/"
+    },
+    {
+     "title": "FETTAGG 费塔",
+     "text": "¥129",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/fettagg-fei-ta-led-gong-zuo-deng-ke-diao-guang-de__0958553_pe805346_s4.jpg",
+     "href": "/cn/zh/p/fettagg-fei-ta-led-gong-zuo-deng-ke-diao-guang-de-50490039/"
+    },
+    {
+     "title": "ISJAKT 伊思雅",
+     "text": "¥499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/isjakt-yi-si-ya-led-luo-di-deng-yue-du-deng-ke-diao-guang-de-du-nie__1006753_pe825819_s4.jpg",
+     "href": "/cn/zh/p/isjakt-yi-si-ya-led-luo-di-deng-yue-du-deng-ke-diao-guang-de-du-nie-00459710/"
+    },
+    {
+     "title": "MYRKISEL 麦希瑟",
+     "text": "¥29.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/myrkisel-mai-xi-se-led-deng-pao-e27-600-liu-ming-zhi-neng-wu-xian-diao-guang-bai-pu-qiu-xing__0962662_pe808180_s4.jpg",
+     "href": "/cn/zh/p/myrkisel-mai-xi-se-led-deng-pao-e27-600-liu-ming-zhi-neng-wu-xian-diao-guang-bai-pu-qiu-xing-00574927/"
+    },
+    {
+     "title": "BÖJA 博佳",
+     "text": "¥199",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/boeja-bo-jia-tai-deng-zhu-shou-gong-zhi-zuo__0606973_pe682643_s4.jpg",
+     "href": "/cn/zh/p/boeja-bo-jia-tai-deng-zhu-shou-gong-zhi-zuo-40156160/"
+    }
+   ],
    "settings": {
     "traceId": "cms-商品列表 Pruduct list/shelf-"
    }
@@ -301,11 +620,11 @@
   {
    "type": "pub-text",
    "title": null,
-   "texts": [
-    "<p style=\"line-height: 8px;\">&nbsp;&nbsp;</p>"
-   ],
+   "texts": [],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -314,10 +633,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>MITTZON 米特丛 <strong>系列&nbsp;</strong></h2>"
+    "MITTZON 米特丛 系列"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -340,6 +661,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20240328/e9c816d776fc40d885404975ad48f9bb.mp4",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Image(video)-"
    }
@@ -388,6 +719,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "查看全系列",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20240328/7961ce6e1b0f47c7820d14428de89673.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/700538",
+     "backgroundColor": "#f5f5f5"
+    },
+    {
+     "title": "办公桌",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20240328/c01976701c784ac8a9f802151411cfc4.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/700542",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "会议桌",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20240328/39483450d0a64307a65fdbccf7567dcc.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/700541",
+     "backgroundColor": "#f5f5f5"
+    },
+    {
+     "title": "多功能框架",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20240328/34113cf606ff4107b4de23b0ab4873a4.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/700540",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "隔音屏",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20240328/f03f52f1c8c94209bd750b1f23b4507e.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/700539",
+     "backgroundColor": "#111111"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Visual Pill Slider-"
    }
@@ -405,6 +774,80 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "MITTZON 米特丛",
+     "text": "¥999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mittzon-mi-te-cong-shu-zhuo-hei-qi-bai-zha-mu-tie-mian-hei-se__1206001_pe907335_s4.jpg",
+     "href": "/cn/zh/p/mittzon-mi-te-cong-shu-zhuo-hei-qi-bai-zha-mu-tie-mian-hei-se-49525855/"
+    },
+    {
+     "title": "MITTZON 米特丛",
+     "text": "¥999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mittzon-mi-te-cong-shu-zhuo-bai-se__1205998_pe907332_s4.jpg",
+     "href": "/cn/zh/p/mittzon-mi-te-cong-shu-zhuo-bai-se-59525845/"
+    },
+    {
+     "title": "MITTZON 米特丛",
+     "text": "¥2,999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mittzon-mi-te-cong-zuo-zhan-liang-yong-shi-ban-gong-zhuo-dian-dong-hei-se-bai-zha-mu-tie-mian-hei-se__1205589_pe907152_s4.jpg",
+     "href": "/cn/zh/p/mittzon-mi-te-cong-zuo-zhan-liang-yong-shi-ban-gong-zhuo-dian-dong-hei-se-bai-zha-mu-tie-mian-hei-se-59526595/"
+    },
+    {
+     "title": "MITTZON 米特丛",
+     "text": "¥2,999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mittzon-mi-te-cong-zuo-zhan-liang-yong-shi-ban-gong-zhuo-dian-dong-bai-se__1205579_pe907149_s4.jpg",
+     "href": "/cn/zh/p/mittzon-mi-te-cong-zuo-zhan-liang-yong-shi-ban-gong-zhuo-dian-dong-bai-se-19526125/"
+    },
+    {
+     "title": "MITTZON 米特丛",
+     "text": "¥1,299",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mittzon-mi-te-cong-hui-yi-zhuo-hua-mu-tie-mian-bai-se__1215529_pe912043_s4.jpg",
+     "href": "/cn/zh/p/mittzon-mi-te-cong-hui-yi-zhuo-hua-mu-tie-mian-bai-se-99532660/"
+    },
+    {
+     "title": "MITTZON 米特丛",
+     "text": "¥1,299",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mittzon-mi-te-cong-hui-yi-zhuo-bai-se__1215533_pe912045_s4.jpg",
+     "href": "/cn/zh/p/mittzon-mi-te-cong-hui-yi-zhuo-bai-se-39532615/"
+    },
+    {
+     "title": "MITTZON 米特丛",
+     "text": "¥1,549",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mittzon-mi-te-cong-dai-jiao-lun-kuang-jia-zhan-shi-gui-dian-xian-he-bai-se__1224772_pe915082_s4.jpg",
+     "href": "/cn/zh/p/mittzon-mi-te-cong-dai-jiao-lun-kuang-jia-zhan-shi-gui-dian-xian-he-bai-se-19535832/"
+    },
+    {
+     "title": "MITTZON 米特丛",
+     "text": "¥1,798",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mittzon-mi-te-cong-dai-jiao-lun-kuang-jia-ping-gang-na-rui-de-mi-huang-se-bai-se__1224921_pe915089_s4.jpg",
+     "href": "/cn/zh/p/mittzon-mi-te-cong-dai-jiao-lun-kuang-jia-ping-gang-na-rui-de-mi-huang-se-bai-se-19535945/"
+    },
+    {
+     "title": "MITTZON 米特丛",
+     "text": "¥1,299",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mittzon-mi-te-cong-hui-yi-zhuo-hua-mu-tie-mian-bai-se__1212810_pe910782_s4.jpg",
+     "href": "/cn/zh/p/mittzon-mi-te-cong-hui-yi-zhuo-hua-mu-tie-mian-bai-se-19530655/"
+    },
+    {
+     "title": "MITTZON 米特丛",
+     "text": "¥1,299",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mittzon-mi-te-cong-hui-yi-zhuo-bai-se__1212813_pe910783_s4.jpg",
+     "href": "/cn/zh/p/mittzon-mi-te-cong-hui-yi-zhuo-bai-se-89532104/"
+    },
+    {
+     "title": "MITTZON 米特丛",
+     "text": "¥1,299",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mittzon-mi-te-cong-hui-yi-zhuo-yuan-xing-hei-se-bai-zha-mu-tie-mian-hei-se__1212763_pe910755_s4.jpg",
+     "href": "/cn/zh/p/mittzon-mi-te-cong-hui-yi-zhuo-yuan-xing-hei-se-bai-zha-mu-tie-mian-hei-se-99530454/"
+    },
+    {
+     "title": "MITTZON 米特丛",
+     "text": "¥1,299",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mittzon-mi-te-cong-hui-yi-zhuo-yuan-xing-bai-se__1212759_pe910751_s4.jpg",
+     "href": "/cn/zh/p/mittzon-mi-te-cong-hui-yi-zhuo-yuan-xing-bai-se-49530442/"
+    }
+   ],
    "settings": {
     "traceId": "cms-Product Shelf-"
    }
@@ -422,6 +865,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-排行榜-"
    }
@@ -429,11 +874,11 @@
   {
    "type": "pub-text",
    "title": null,
-   "texts": [
-    "<p style=\"line-height: 8px;\">&nbsp;&nbsp;</p>"
-   ],
+   "texts": [],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -446,7 +891,7 @@
     "standard",
     "image-text-landscape",
     "wide",
-    "<p><span style=\"color: #f1f1f1;\">想要将你的电竞体验提升至更高级别？</span></p>\n<p><span style=\"color: #f1f1f1;\">无论你喜欢时尚现代的外观还是舒适质朴的氛围，这些电竞房设计都可帮助你打造个性化的游戏天地。这些创意将舒适度、功能性和风格巧妙融合，可为你带来丰富灵感。</span></p>",
+    "想要将你的电竞体验提升至更高级别？ 无论你喜欢时尚现代的外观还是舒适质朴的氛围，这些电竞房设计都可帮助你打造个性化的游戏天地。这些创意将舒适度、功能性和风格巧妙融合，可为你带来丰富灵感。",
     "适合不同空间和预算的电竞房布置创意"
    ],
    "images": [
@@ -471,6 +916,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20240301/2ef08e29e4064ccab9817e1cb3360a36.jpg",
+     "href": null,
+     "backgroundColor": "#4658c1"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Banner-"
    }
@@ -479,10 +934,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p style=\"line-height: 8px;\">&nbsp;</p>\n<h2>家庭办公空间案例</h2>"
+    "家庭办公空间案例"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -531,6 +988,58 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "和谐的木质风格",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20230217/9749c3456ecf42db8e759aaadd4aea8e.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/home-office/gallery/a-coordinated-brown-wood-dream-of-a-home-workspace-pub69a54a17",
+     "backgroundColor": "#f5f5f5"
+    },
+    {
+     "title": "青绿色调的整洁空间",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20230217/825f98929dfb493dae763cb87290ac51.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/home-office/gallery/zai4-jia1-ban4-gong1-ye3-yao4-jian1-gu4-shi2-shang4-feng1-ge2-pub4e6d71af",
+     "backgroundColor": "#f5f5f5"
+    },
+    {
+     "title": "青少年学习区",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20230217/f69b433a29064d8eb3e5544aea223992.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/home-office/gallery/their-room-their-way-pub778978a0",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "多彩现代风格",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20230217/61bba3fbd5814c57b59a4f8c28d4ae66.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/home-office/gallery/a-colourfully-contemporary-home-workspace-pub5a0a7355",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "时尚的游戏角",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20230217/9f4e6188b05e4c26a526a55c9c8f6d0f.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/home-office/gallery/ling-huo-shi-yong-you-neng-zhang-xian-ni-ge-xing-de-fang-jian-pubc1397b70",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "深色布置，醒目而高效",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20230217/6949566896bc4610a95c498a646af1d2.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/home-office/gallery/a-statement-home-workspace-tailored-to-you-pubab555bb0",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "更多办公空间灵感",
+     "text": "更多办公空间灵感",
+     "image": "",
+     "href": "/cn/zh/rooms/home-office/gallery/",
+     "backgroundColor": "#111111"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Visual Pill Slider-"
    }
@@ -563,6 +1072,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://static.web.ikea.cn/content/u/20221208/0fdc0427eff84c25be4da14c9c00c1d8.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/inspiration/detail/9e9ce557-130e-478f-8d2c-4a8354bb6ce3?type=IMAGE",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "6ba7166bc8a742ada055073843d9ca5a"
    }
@@ -580,6 +1099,62 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "ALEFJÄLL 阿勒夫耶",
+     "text": "¥1,199",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/alefjaell-a-le-fu-ye-ban-gong-yi-fen-na-de-hui-se-hei-se__1388591_pe964865_s4.jpg",
+     "href": "/cn/zh/p/alefjaell-a-le-fu-ye-ban-gong-yi-fen-na-de-hui-se-hei-se-00587524/"
+    },
+    {
+     "title": "LAGKAPTEN 拉格开普 / ADILS 阿迪斯",
+     "text": "¥249",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lagkapten-la-ge-kai-pu-adils-a-di-si-shu-zhuo-hui-se-mu-wen-hei-se__1432263_pe982728_s4.jpg",
+     "href": "/cn/zh/p/lagkapten-la-ge-kai-pu-adils-a-di-si-shu-zhuo-hui-se-mu-wen-hei-se-89584027/"
+    },
+    {
+     "title": "LAGKAPTEN 拉格开普 / ALEX 阿来斯",
+     "text": "¥749",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lagkapten-la-ge-kai-pu-alex-a-lai-si-shu-zhuo-hui-se-mu-wen-hei-se__1432266_pe982730_s4.jpg",
+     "href": "/cn/zh/p/lagkapten-la-ge-kai-pu-alex-a-lai-si-shu-zhuo-hui-se-mu-wen-hei-se-99584927/"
+    },
+    {
+     "title": "LAGKAPTEN 拉格开普 / SPÄND 斯班",
+     "text": "¥399",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lagkapten-la-ge-kai-pu-spaend-si-ban-shu-zhuo-fang-bai-se-xiang-mu-wen-hei-se__1328524_pe944853_s4.jpg",
+     "href": "/cn/zh/p/lagkapten-la-ge-kai-pu-spaend-si-ban-shu-zhuo-fang-bai-se-xiang-mu-wen-hei-se-29563645/"
+    },
+    {
+     "title": "LAGKAPTEN 拉格开普 / SPÄND 斯班",
+     "text": "¥399",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lagkapten-la-ge-kai-pu-spaend-si-ban-shu-zhuo-bai-se-mei-hei-se-hei-se__1328504_pe944833_s4.jpg",
+     "href": "/cn/zh/p/lagkapten-la-ge-kai-pu-spaend-si-ban-shu-zhuo-bai-se-mei-hei-se-hei-se-49563833/"
+    },
+    {
+     "title": "MARKUS 马库斯",
+     "text": "¥899",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/markus-ma-ku-si-ban-gong-yi-wei-suo-er-shen-hui-se__1415301_pe975232_s4.jpg",
+     "href": "/cn/zh/p/markus-ma-ku-si-ban-gong-yi-wei-suo-er-shen-hui-se-80588794/"
+    },
+    {
+     "title": "KUPONG 库邦",
+     "text": "¥7.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kupong-ku-bang-nao-zhong-liang-lan-se__1357320_pe953515_s4.jpg",
+     "href": "/cn/zh/p/kupong-ku-bang-nao-zhong-liang-lan-se-70592126/"
+    },
+    {
+     "title": "TJINGA 汀芽",
+     "text": "¥19.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/tjinga-ting-ya-nao-zhong-qian-huang-se__1357334_pe953522_s4.jpg",
+     "href": "/cn/zh/p/tjinga-ting-ya-nao-zhong-qian-huang-se-20592124/"
+    },
+    {
+     "title": "BONDIS 邦迪斯",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/bondis-bang-di-si-gua-zhong-cheng-se__1392153_pe966015_s4.jpg",
+     "href": "/cn/zh/p/bondis-bang-di-si-gua-zhong-cheng-se-70601710/"
+    }
+   ],
    "settings": {
     "traceId": "cms-商品列表 Pruduct list/shelf-"
    }
@@ -628,6 +1203,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "查看更多家庭办公建议",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/62/8b/628b1be06bdb926f6d864856e300722b.jpg",
+     "href": "/cn/zh/rooms/home-office/how-to/",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "为每一位家庭成员打造一片工作空间",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220927/018bb3ddab61499c9a06e9e571ab5c5e.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/living-room/how-to/how-to-create-three-workspaces-in-one-room-pubdbc0170c",
+     "backgroundColor": "#eeeadd"
+    },
+    {
+     "title": "打造符合人体工学的办公空间指南",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/3d/a5/3da5f899ee8d4a57bab219534f0b694d.jpg",
+     "href": "/cn/zh/ikea-business/gallery/ru2-he2-da3-zao4-fu2-he2-ren2-ti3-gong1-xue2-de-shu1-shi4-ban4-gong1-kong1-jian1-pub475f7190",
+     "backgroundColor": "#ddbe92"
+    },
+    {
+     "title": "如何让办公桌井然有序",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d7/7e/d77ef9c9ba4de23e1c097cd4709fce54.jpg",
+     "href": "/cn/zh/rooms/home-office/how-to/ni3-zui4-xi3-huan1-shi2-mo2-zhu3-ti2-wo3-men2-zui4-xi3-huan1-de-shi4-shou1-na4-puba8656de0",
+     "backgroundColor": "#7b9384"
+    },
+    {
+     "title": "如何为全家人打造一个兴趣角",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/7b/e4/7be414a761e8f87054f721fbb026e767.jpg",
+     "href": "/cn/zh/rooms/home-office/how-to/ru2-he2-wei4-quan2-jia1-ren2-da3-zao4-yi1-ge4-xing4-qu4-jiao3-pub88df17c0",
+     "backgroundColor": "#D6BFA4"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "a24e09bf2a93416982939b48dc9e182f"
    }
@@ -636,10 +1249,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>倍受欢迎的学习/办公家具系列</h2>\n<p>在合适的地方摆放正确的家具，可以把一份工作变成一种享受，把一个新的爱好变成一生的热爱。</p>"
+    "倍受欢迎的学习/办公家具系列 在合适的地方摆放正确的家具，可以把一份工作变成一种享受，把一个新的爱好变成一生的热爱。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "656e043702464d7895ca4956d2113e95"
    }
@@ -686,6 +1301,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "ALEX 阿来斯 系列。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b6/e5/b6e59921c7821747afa23655cd43e1ec.jpg",
+     "href": "/cn/zh/cat/47147",
+     "backgroundColor": null
+    },
+    {
+     "title": "IDÅSEN 伊朵森 系列。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/f9/6e/f96e86da7a5286a28a77dd1a9e886584.jpg",
+     "href": "/cn/zh/cat/47424",
+     "backgroundColor": null
+    },
+    {
+     "title": "MICKE 米克 系列。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/0b/d0/0bd0cc72ae8967b736b9b40a423fb138.jpg",
+     "href": "/cn/zh/cat/17499",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/b6/e5/b6e59921c7821747afa23655cd43e1ec.jpg",
+     "href": "/cn/zh/cat/47147"
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/f9/6e/f96e86da7a5286a28a77dd1a9e886584.jpg",
+     "href": "/cn/zh/cat/47424"
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/0b/d0/0bd0cc72ae8967b736b9b40a423fb138.jpg",
+     "href": "/cn/zh/cat/17499"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "60df49a3b0764390a4b738e3c389e66c"
    }
@@ -732,6 +1391,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20240910/c6b7615a15d243d896791428d1574ab7.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/700538",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/5f/8b/5f8b6b17541a5065bd490731f5697eb8.jpg",
+     "href": "/cn/zh/cat/58616",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b9/b6/b9b6ee723c713624a7e962ab79f6a9b2.jpg",
+     "href": "/cn/zh/cat/37813",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20240910/c6b7615a15d243d896791428d1574ab7.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/700538"
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/5f/8b/5f8b6b17541a5065bd490731f5697eb8.jpg",
+     "href": "/cn/zh/cat/58616"
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/b9/b6/b9b6ee723c713624a7e962ab79f6a9b2.jpg",
+     "href": "/cn/zh/cat/37813"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "b20073b3557448c2b92907f8fce22361"
    }
@@ -740,10 +1443,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>了解如何快速布置健康的学习/办公空间</h2>"
+    "了解如何快速布置健康的学习/办公空间"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -790,6 +1495,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "升降桌是人体工学办公室设计的关键要素",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20260720/4c03d23107cb40f7abb52bad424448ed.png?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/home-office/how-to/sit-stand-desks-are-key-to-an-ergonomic-office-design-pub46e5ab4e",
+     "backgroundColor": "#87cca5"
+    },
+    {
+     "title": "足不出户，也可以回到高效办公的状态",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20260720/d3e9092be0564159a274d0fe70191480.png?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/home-office/how-to/how-to-get-back-onto-schedule-without-leaving-your-home-pubff226b98",
+     "backgroundColor": "#87cca5"
+    },
+    {
+     "title": "如何打造符合人体工学的舒适办公空间",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b2/53/b2537cd91db5c9b153b7db4723e4597d.jpg",
+     "href": "/cn/zh/rooms/home-office/--pub273d63e6",
+     "backgroundColor": "#87cca5"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "4ff0d4dd824d4148ab89bab3f279bcc5"
    }
@@ -838,6 +1567,51 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "节约能源",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250808/f2e0305a320d491e867041cf021305b0.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/ideas/tips-for-more-sustainable-living/quick-tricks-to-save-energy-at-home-pubad783f90",
+     "backgroundColor": "#f5f5f5"
+    },
+    {
+     "title": "节约水源",
+     "text": "借助设计工具，规划你的个性METOD 米多 厨房。",
+     "image": "https://file.app.ikea.cn/cms/u/20250808/a67e4e9ca0e944ee913ae927fd91d6c6.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/ideas/tips-for-more-sustainable-living/smart-solutions-to-save-water-at-home-pubfdfe8c45",
+     "backgroundColor": "#f5f5f5"
+    },
+    {
+     "title": "可持续饮食",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250808/ce1cc52f6a0c476eb7a09a39735c5334.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/ideas/tips-for-more-sustainable-living/easy-wins-to-eating-more-sustainably-pubdbfa9a20",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "减少浪费",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250808/85e7c4d664674f5ba43351e424a3a339.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/ideas/tips-for-more-sustainable-living/simple-ways-to-reduce-waste-at-home-pubb645fb53",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "延长家具使用寿命",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250422/ed9aff1aa0b0475fa51994e57d6e3531.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/ideas/tips-for-more-sustainable-living/",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "更多可持续创意",
+     "text": "更多可持续创意",
+     "image": "",
+     "href": "/cn/zh/ideas/tips-for-more-sustainable-living/",
+     "backgroundColor": "#37b886"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-带按钮图片列表 Visual Pill Slider-"
    }
@@ -872,6 +1646,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "送货服务",
+     "text": "了解详情",
+     "image": null,
+     "href": "/cn/zh/customer-service/services/delivery/",
+     "backgroundColor": null
+    },
+    {
+     "title": "组装服务",
+     "text": "了解详情",
+     "image": null,
+     "href": "/cn/zh/customer-service/services/assembly/",
+     "backgroundColor": null
+    },
+    {
+     "title": "退货政策",
+     "text": "了解详情",
+     "image": null,
+     "href": "/cn/zh/customer-service/returns-claims/return-policy/",
+     "backgroundColor": null
+    },
+    {
+     "title": "回购与再售服务",
+     "text": "了解详情",
+     "image": null,
+     "href": "/cn/zh/customer-service/services/buy-back/",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "23a573e938c644829320831bdefa4097"
    }
@@ -889,6 +1694,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "72407509dc7543b09cb38a9e45801505"
    }

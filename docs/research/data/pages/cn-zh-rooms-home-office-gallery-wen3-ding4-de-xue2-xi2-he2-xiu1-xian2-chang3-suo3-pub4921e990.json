@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -34,16 +36,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "以绿色为基调的小房间里摆放着绿色桌子、白色搁架单元、坐卧两用床、开放式衣柜和黑色吊灯。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/15/ca/15caf4e0a801407a1e28eb313bf3da47.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>优化你小小的家，腾出空间学习、存放衣服、和朋友小聚以及一夜安眠。LINNMON 利蒙/OLOV 奥勒夫 桌子配备高度可以调节的桌腿和防刮擦塑料支脚，当你需要更多地面空间时，可以随时挪开它！。</p>"
+    "优化你小小的家，腾出空间学习、存放衣服、和朋友小聚以及一夜安眠。LINNMON 利蒙/OLOV 奥勒夫 桌子配备高度可以调节的桌腿和防刮擦塑料支脚，当你需要更多地面空间时，可以随时挪开它！。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -71,6 +85,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "学习空间里摆放着带有白色桌腿的绿色桌子、白色转椅、白色台灯和透明地板保护垫。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/52/13/5213062ece75576db95df20f375bbb1b.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "绿色墙壁前摆放着白色搁架单元、抽屉和储物柜。架子上摆放着盒子、文件盒和其他物品。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b6/c1/b6c17fdc432bb5451549b3f3c2f6e017.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "LOBERGET 洛贝里特/BLYSKÄR 布吕歇尔 升降转椅配备内置腰撑，可以让你的背部更好地放松，非常适合长时间学习时使用！",
+     "image": "https://file.app.ikea.cn/images/52/13/5213062ece75576db95df20f375bbb1b.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "KALLAX 卡莱克 搁架单元可以轻松调整，匹配你的风格、空间和需求。它适合搭配抽屉、搁板和盒子，打造100%定制学习角。",
+     "image": "https://file.app.ikea.cn/images/b6/c1/b6c17fdc432bb5451549b3f3c2f6e017.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -103,6 +148,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "两张边桌和一张坐卧两用床旁摆放着两把黑色脚凳，提供额外的座位。桌子上放着棋盘。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/de/95/de950acf705ef64ba6a255ed09c7bd0d.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "BRIMNES 百灵 白色坐卧两用床展开来用作床。一个抽屉敞开着，里面摆放着床上用品和绿色休闲毯。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/45/8f/458f0899b475d124a3761ce0564400a6.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "白色开放式衣柜搭配壁式搁板和挂杆，里面有叠好和挂起的衣物。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/96/ce/96ce14e2f3e64e8d3c0006b6a5ba2c95.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "轻盈易搬动的座椅和储物解决方案：BOSNÄS 波斯纳 脚凳座位下面隐藏着储物空间！",
+     "image": "https://file.app.ikea.cn/images/de/95/de950acf705ef64ba6a255ed09c7bd0d.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "白天是沙发，晚上是床，同时还能全天候提供大量储物空间：BRIMNES 百灵 坐卧两用床配备宽敞的抽屉，可以收纳枕头和被子。",
+     "image": "https://file.app.ikea.cn/images/45/8f/458f0899b475d124a3761ce0564400a6.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "BOAXEL 博阿克塞 储物解决方案可以根据你的空间和需求进行构建（如果衣柜没有门，其他家具就能放的近一些！）。",
+     "image": "https://file.app.ikea.cn/images/96/ce/96ce14e2f3e64e8d3c0006b6a5ba2c95.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -118,6 +207,50 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "PYNTEN 菲藤",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/pynten-fei-teng-yi-dian-shen-hui-se__0805853_pe769702_s4.jpg",
+     "href": "/cn/zh/p/pynten-fei-teng-yi-dian-shen-hui-se-90473207/"
+    },
+    {
+     "title": "KALLAX 卡莱克",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kallax-qia-lai-ke-ge-ban-dai-2-ge-cha-jian-bai-se__0754392_pe747903_s4.jpg",
+     "href": "/cn/zh/p/kallax-qia-lai-ke-ge-ban-dai-2-ge-cha-jian-bai-se-99384061/"
+    },
+    {
+     "title": "KALLAX 卡莱克",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kallax-qia-lai-ke-ge-jia-dan-yuan-bai-se__0644753_pe702937_s4.jpg",
+     "href": "/cn/zh/p/kallax-qia-lai-ke-ge-jia-dan-yuan-bai-se-70351886/"
+    },
+    {
+     "title": "KALLAX 卡莱克",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kallax-qia-lai-ke-cha-jian-dai-2-ge-chou-ti-bai-se__0640671_pe699976_s4.jpg",
+     "href": "/cn/zh/p/kallax-qia-lai-ke-cha-jian-dai-2-ge-chou-ti-bai-se-20351879/"
+    },
+    {
+     "title": "BRIMNES 百灵",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/brimnes-bai-ling-zuo-wo-liang-yong-chuang-kuang-jia-dai-shuang-ti-bai-se__1161827_pe889528_s4.jpg",
+     "href": "/cn/zh/p/brimnes-bai-ling-zuo-wo-liang-yong-chuang-kuang-jia-dai-shuang-ti-bai-se-30503655/"
+    },
+    {
+     "title": "BOAXEL 博阿克塞",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/boaxel-bo-a-ke-sai-yi-gui-zu-he-bai-se__0824101_pe775993_s4.jpg",
+     "href": "/cn/zh/p/boaxel-bo-a-ke-sai-yi-gui-zu-he-bai-se-59384015/"
+    },
+    {
+     "title": "STUK 斯图克",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/stuk-si-tu-ke-7-ge-chu-wu-jian-bai-se-hui-se__0710905_pe727833_s4.jpg",
+     "href": "/cn/zh/p/stuk-si-tu-ke-7-ge-chu-wu-jian-bai-se-hui-se-00370869/"
+    }
+   ],
    "settings": null
   }
  ]

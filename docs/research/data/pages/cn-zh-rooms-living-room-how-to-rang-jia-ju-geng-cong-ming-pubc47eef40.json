@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "0bad8f998ea14299b6c64933295ba5f2"
    }
@@ -22,10 +24,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>有了宜家智能家居系统和其他智能产品，你可以让你的家——或是其中一个房间——成为“智力担当”。来看看这些能让日常生活更方便的产品。</p>"
+    "有了宜家智能家居系统和其他智能产品，你可以让你的家——或是其中一个房间——成为“智力担当”。来看看这些能让日常生活更方便的产品。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "3e44245e005d4931a10fddddd273ced0"
    }
@@ -50,6 +54,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "沙发后方的墙搁板上放着黑色的FÖRNUFTIG 费努福提 空气净化器，周围是装裱好的艺术品和装饰品。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/18b56b4f6c74ad5d/original/PH179364-crop001.jpg",
+     "href": null,
+     "backgroundColor": "#312e29"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "1c9fad201dca49af88347179dcea53c4"
    }
@@ -74,6 +88,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "壁柜上放着一个白色的VINDRIKTNING 温迪宁 空气质量监测器和一个白色的CHIAFRÖN 奇亚弗 花盆以及一些装饰物品。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/151752a0122787/original/PH179361-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "2b0d8a5adee74cf7bd83319f04e5e597"
    }
@@ -102,6 +126,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "沙发后面的墙搁板上放着SOLKLINT 索尔克林 黄铜台灯、TRÅDFRI 特鲁菲 网关、TRÅDFRI 特鲁菲 遥控器和装饰品。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/b4a890eab8fb20b/original/PH179365.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "74430ccdea09432b86431c9c06735566"
    }
@@ -119,6 +153,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": {
     "traceId": "8e97d12f1a014a78827f6b51a0f37049"
    }
@@ -143,6 +178,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "工作台面上放着一个白色的LIVBOJ 利夫博艺 无线充电器，上面放着一台手机，旁边放着几小碗零食和办公用品。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/4dee5731fb64df68/original/PH179363-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "f444baa59d75452b96db696ac979e38f"
    }
@@ -167,6 +212,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个灯光昏暗的房间，窗户上挂着透明窗帘，还有一幅灰色的FYRTUR 费特 遮光卷帘 拉下了一半。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/166496adc4d6c237/original/PH179299-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "1ede7c425d974f259076ba263d2d9a68"
    }
@@ -213,6 +268,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "自由放养的家庭：乡村美居",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/3c/3b/3c3b5dcd344d4d75b6a57b23d009f639.jpg",
+     "href": "/cn/zh/ideas/home-furnishings/zi4-you2-fang4-yang3-de-jia1-ting2-xiang3-shou4-xiang1-cun1-sheng1-huo2-de-yi1-jia1-ren2-pub049bd0e0",
+     "backgroundColor": "#ddb442"
+    },
+    {
+     "title": "一间有灵魂的一居室：储物强大的小居室",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/0f/27/0f275186c945a17c107fb39da7103bfa.jpg",
+     "href": "/cn/zh/ideas/home-furnishings/yi1-jian1-you3-ling2-hun2-de-yi1-ju1-shi4-ma2-que4-sui1-xiao3-wu3-zang4-ju4-quan2-pub19c38600",
+     "backgroundColor": "#40494e"
+    },
+    {
+     "title": "查看所有家居布局",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/fe/80/fe8017106d6c7b3eb18b49aa7d3a0501.jpg",
+     "href": "/cn/zh/ideas/home-furnishings/",
+     "backgroundColor": "#00873f"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "c88f7a9b1f0043efa6b39c62d74a9c92"
    }

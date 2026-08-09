@@ -8,10 +8,10 @@
  "blocks": [
   {
    "type": "pub-hero",
-   "title": "迷人外观融合实用功能 ",
+   "title": "迷人外观融合实用功能",
    "texts": [
     "家庭工作室内设有竹制壁式搁架单元和书桌，带有白色推拉门。还有一把橡木贴面转椅，带灰色羊毛椅面。",
-    "<p>SVALN&Auml;S 斯瓦纳 搁架单元的设计巧妙融合斯堪的纳维亚与亚洲风情。</p>\n<p>这款连璧搁架由竹子制成，营造出温馨氛围，极简设计，可扩展，灵活搭配。</p>",
+    "SVALNäS 斯瓦纳 搁架单元的设计巧妙融合斯堪的纳维亚与亚洲风情。 这款连璧搁架由竹子制成，营造出温馨氛围，极简设计，可扩展，灵活搭配。",
     "迷人外观融合实用功能",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "迷人外观融合实用功能 ",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/3a/ae/3aae80342123ace55533196ea7498649.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,16 +54,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "特写：竹制带格储物盒，放有穿珠、钳子和首饰线绳。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/c1/89/c18990297bb4efefcd5cf566e0d058fa.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>利用搁板、柜子、书桌、盒子，可以打造众多大小不一、或开放或封闭的储物解决方案。</p>"
+    "利用搁板、柜子、书桌、盒子，可以打造众多大小不一、或开放或封闭的储物解决方案。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -69,6 +91,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

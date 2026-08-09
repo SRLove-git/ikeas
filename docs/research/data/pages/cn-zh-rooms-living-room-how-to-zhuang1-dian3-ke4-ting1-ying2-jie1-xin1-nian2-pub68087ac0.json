@@ -10,7 +10,7 @@
    "type": "pub-hero",
    "title": "装点客厅，迎接新年",
    "texts": [
-    "<p>你是否期待了很久，可以和亲友们在新年里欢聚一堂？我们有些灵活装点客厅的小妙招，一起来打造一场令人印象深刻的新年聚会吧！</p>",
+    "你是否期待了很久，可以和亲友们在新年里欢聚一堂？我们有些灵活装点客厅的小妙招，一起来打造一场令人印象深刻的新年聚会吧！",
     "装点客厅，迎接新年",
     "normal"
    ],
@@ -23,6 +23,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "装点客厅，迎接新年",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/65/bb/65bbe4de7337f230e99aa005ebd3cb1f.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "7b0f614209764251a7a844c0a92f5ef7"
    }
@@ -55,6 +65,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20211215/0f9d723e01064562a5d2d87a268f9d27.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/90506972?artType=art",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "7ef034f6dfcb4c3abd81313386b5a6f7"
    }
@@ -87,6 +107,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/1e/b5/1eb5395cb91e412be16efd71cbf20267.jpg",
+     "href": "/cn/zh/search/products?q=60525788",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "8bf93deffe6c4b0585740a5811e503c0"
    }
@@ -119,6 +149,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20211215/ffe096bd43de4a8683c1e84d81b2832f.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/10525818?artType=art",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "8ccd535c80264fdbbb41709cd8851305"
    }
@@ -151,6 +191,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/30/50/3050bb02274e8e113b09b2e3b853691d.jpg",
+     "href": "/cn/zh/search/products?q=儿童扶手椅",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "a77461e38dc94c32bc7bbb7326e2df26"
    }
@@ -183,6 +233,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20211215/64bd661b05f64e8c8d0ec27ffa7e95cf.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/search/products?q=KUNGSTIGER 灯",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "7888726fabe549448233a63e56fec38f"
    }
@@ -203,6 +263,39 @@
     {
      "href": "/rooms/living-room/",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "相关产品",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/rooms/living-room/",
+     "backgroundColor": null
+    },
+    {
+     "title": "ÄPPLARYD 艾普吕",
+     "text": "¥6,999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/aepplaryd-ai-pu-lu-san-ren-sha-fa-dai-gui-fei-yi-you-pa-hong-se-he-se__0992917_pe820334_s4.jpg",
+     "href": "/cn/zh/p/aepplaryd-ai-pu-lu-san-ren-sha-fa-dai-gui-fei-yi-you-pa-hong-se-he-se-29418045/"
+    },
+    {
+     "title": "ULLERSLEV 乌拉斯拉",
+     "text": "¥299",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ullerslev-wu-la-si-la-yang-pi-qian-he-se__1147956_pe883531_s4.jpg",
+     "href": "/cn/zh/p/ullerslev-wu-la-si-la-yang-pi-qian-he-se-00508273/"
+    },
+    {
+     "title": "POÄNG 波昂",
+     "text": "¥279",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/poaeng-bo-ang-er-tong-fu-shou-yi-hua-mu-tie-mian-ji-ni-sa-dan-mi-se__0945683_pe797767_s4.jpg",
+     "href": "/cn/zh/p/poaeng-bo-ang-er-tong-fu-shou-yi-hua-mu-tie-mian-ji-ni-sa-dan-mi-se-09412563/"
+    },
+    {
+     "title": "KLACKENÄS 克拉肯奈",
+     "text": "¥2,499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/klackenaes-ke-la-ken-nai-can-bian-gui-hei-se-xiang-mu-tie-mian-zhao-he-se-qi__1016126_pe830224_s4.jpg",
+     "href": "/cn/zh/p/klackenaes-ke-la-ken-nai-can-bian-gui-hei-se-xiang-mu-tie-mian-zhao-he-se-qi-70506751/"
     }
    ],
    "settings": {
@@ -252,6 +345,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "虎虎生威中国年",
+     "text": "KUNGSTIGER 坤蒂格 2022春节庆祝系列\n",
+     "image": "https://file.app.ikea.cn/images/7a/28/7a287baa48c0b5bf8576bee27c824c7c.jpg",
+     "href": "/cn/zh/new/hu3-hu3-sheng1-wei1-zhong1-guo2-nian2-pub030a7850",
+     "backgroundColor": "#b2292e"
+    },
+    {
+     "title": "给孩子打造专属游乐场",
+     "text": "新年不只是大人的事！",
+     "image": "https://file.app.ikea.cn/images/81/3c/813cbae681d2f6d973635bee9852e4a6.jpg",
+     "href": "/cn/zh/rooms/childrens-room/how-to/gei3-hai2-zi-da3-zao4-zhuan1-shu3-you2-le4-chang3-pubdf276686",
+     "backgroundColor": "#b2292e"
+    },
+    {
+     "title": "灵活扩容的餐厅，更多团聚的喜悦",
+     "text": "餐厅里多了前来赴宴的亲友，需要额外的座位与空间？",
+     "image": "https://file.app.ikea.cn/images/69/cf/69cf722199715e6d99e789757dce60f2.jpg",
+     "href": "/cn/zh/rooms/dining/how-to/ling2-huo2-kuo4-rong2-de-can1-ting1-geng4-duo1-tuan2-ju4-de-xi3-yue4-pub28d82690",
+     "backgroundColor": "#b2292e"
+    },
+    {
+     "title": "新年厨房“好帮手”",
+     "text": "每到春节，我们的厨房就会变得繁忙无比......",
+     "image": "https://file.app.ikea.cn/images/1b/36/1b36597d805b62771676b90824028b3e.jpg",
+     "href": "/cn/zh/rooms/kitchen/how-to/zuo4-yi1-zhuo1-hao3-cai4-shao3-bu4-le-hao3-bang1-shou3-pub6e319860",
+     "backgroundColor": "#b2292e"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "bcfe415fe50d4ed0a685b83231c9381e"
    }

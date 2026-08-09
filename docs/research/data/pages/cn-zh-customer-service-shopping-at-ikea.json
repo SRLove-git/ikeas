@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Page Title-"
    }
@@ -22,10 +24,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>探索如何在宜家高效购物。&nbsp;</p>"
+    "探索如何在宜家高效购物。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -38,7 +42,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<h3>跟踪订单</h3>\n<p>正在等待从宜家购买的产品送货上门？我们会根据你选择的送货服务日期和时间段，提前一个小时与你联系；你也可以前往&rdquo;我的订单&rdquo;页面查询网上订单物流信息。</p>",
+    "跟踪订单 正在等待从宜家购买的产品送货上门？我们会根据你选择的送货服务日期和时间段，提前一个小时与你联系；你也可以前往”我的订单”页面查询网上订单物流信息。",
     "pub-text"
    ],
    "images": [
@@ -50,6 +54,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/bf/f1/bff13468bb35986fcdfd1971780e5a18.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/bf/f1/bff13468bb35986fcdfd1971780e5a18.jpg",
+     "href": null
+    },
+    {
+     "heading": "跟踪订单 正在等待从宜家购买的产品送货上门？我们会根据你选择的送货服务日期和时间段，提前一个小时与你联系；你也可以前往”我的订单”页面查询网上订单物流信息。",
+     "text": null,
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Columns-"
    }
@@ -62,7 +90,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<h3>在宜家购物的方式</h3>\n<p>我们希望你在宜家拥有充满乐趣、举家欢乐且毫无压力的购物体验。你可以借助我们的宜家家居设计工具、服务以及宜家《家居指南》，来为轻松购物体验做好准备。</p>\n<p><a href=\"https://www.ikea.cn/cn/zh/customer-service/gouwu-pubc25de261\">了解更多在宜家购物的建议和窍门</a></p>",
+    "在宜家购物的方式 我们希望你在宜家拥有充满乐趣、举家欢乐且毫无压力的购物体验。你可以借助我们的宜家家居设计工具、服务以及宜家《家居指南》，来为轻松购物体验做好准备。 了解更多在宜家购物的建议和窍门",
     "pub-text"
    ],
    "images": [
@@ -74,6 +102,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/85/06/8506a1b56dff194f635c8f3357c5f107.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/85/06/8506a1b56dff194f635c8f3357c5f107.jpg",
+     "href": null
+    },
+    {
+     "heading": "在宜家购物的方式 我们希望你在宜家拥有充满乐趣、举家欢乐且毫无压力的购物体验。你可以借助我们的宜家家居设计工具、服务以及宜家《家居指南》，来为轻松购物体验做好准备。 了解更多在宜家购物的建议和窍门",
+     "text": null,
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Columns-"
    }
@@ -86,7 +138,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<h3>预订礼品卡</h3>\n<p>为生日、毕业、婴儿洗礼、节日、婚礼和乔迁选定完美礼物，有时会比较棘手。有了宜家礼品卡，你就可以轻松馈赠佳礼，省却挑选礼物的烦恼。</p>\n<p><a href=\"https://www.ikea.cn/cn/zh/customer-service/lipinka-pubf2366e21\">了解更多</a></p>",
+    "预订礼品卡 为生日、毕业、婴儿洗礼、节日、婚礼和乔迁选定完美礼物，有时会比较棘手。有了宜家礼品卡，你就可以轻松馈赠佳礼，省却挑选礼物的烦恼。 了解更多",
     "pub-text"
    ],
    "images": [
@@ -98,6 +150,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e0/1d/e01d7d85cab3a705e94759bb7d76ab97.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/e0/1d/e01d7d85cab3a705e94759bb7d76ab97.jpg",
+     "href": null
+    },
+    {
+     "heading": "预订礼品卡 为生日、毕业、婴儿洗礼、节日、婚礼和乔迁选定完美礼物，有时会比较棘手。有了宜家礼品卡，你就可以轻松馈赠佳礼，省却挑选礼物的烦恼。 了解更多",
+     "text": null,
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Columns-"
    }
@@ -120,6 +196,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "退货政策",
+     "text": "了解详情",
+     "image": null,
+     "href": "/cn/zh/customer-service/returns-claims/return-policy/",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Assurances-"
    }
@@ -142,6 +228,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Link - button or text-"
    }

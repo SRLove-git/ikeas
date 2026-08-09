@@ -11,7 +11,7 @@
    "title": "如何迎接户外用餐季",
    "texts": [
     "在院子里挂满装饰的蔓藤架下，有为派对准备的一排椅子和小桌，旁边站着一群人。",
-    "<p>夏天到了，是时候享受户外活动了！即使居住在城市，平时要工作上班，户外活动选择有限，但在漫长的夏日夜晚还是有很多时间可以和朋友聚会。来场临时的小龙虾派对怎么样？</p>",
+    "夏天到了，是时候享受户外活动了！即使居住在城市，平时要工作上班，户外活动选择有限，但在漫长的夏日夜晚还是有很多时间可以和朋友聚会。来场临时的小龙虾派对怎么样？",
     "如何迎接户外用餐季",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "如何迎接户外用餐季",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/f6/a7/f6a7aab393ef1e0e98bb2fcaed1466ac.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -50,6 +60,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "院子里挂满装饰的蔓藤架下，有为派对而准备的椅子和小桌，还挂有吊灯。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/234e910c45d7d2a2/original/PH169607-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -76,6 +96,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一双手拿着一个SAMLA 萨姆拉 储物盒，盒子里装满餐具、玻璃瓶和捆绑有IKEA 365+冰袋的食品盒。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/1404fc1a57106026/original/PH169608.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -102,6 +132,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "阳光洒在准备迎接派对的餐桌上，SMULA 斯穆拉 托盘上摆放着一堆KRÄFTOR 克拉托 小龙虾，另外一个托盘上则摆放着奶酪和薄脆咸饼干。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/6d43c233d0d13729/original/PH169609-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -128,6 +168,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一小块草地上铺有一块PLUFSIG 普鲁希 垫子，上面放有一圈毛绒玩具，营造有趣的用餐氛围。SOCKERBIT 索克比 储物盒，旁边放有玩具。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/1358985badeb8758/original/PH169710.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -154,6 +204,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "在院子里，一张塑料扶手椅上罩有一张带装饰的SOLIG 索利格 蚊帐。地上有一个装满布料的SNIDAD 斯尼达 篮筐。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/56083e137baf769d/original/PH169711-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -180,16 +240,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "几个SNIDAD 斯尼达 藤编篮子放在石子路上，里面放有休闲毯、靠垫和其他纺织品。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/78ddc8460919dc56/original/PH169712.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>宜家期待看到顾客发挥自己的创意。放手去做！但请注意，更改或调整宜家产品，使其不能再次出售或用于原用途，即意味放弃宜家商业品质保证和你的退货权利。</p>"
+    "宜家期待看到顾客发挥自己的创意。放手去做！但请注意，更改或调整宜家产品，使其不能再次出售或用于原用途，即意味放弃宜家商业品质保证和你的退货权利。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

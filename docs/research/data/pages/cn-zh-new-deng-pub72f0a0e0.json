@@ -8,10 +8,10 @@
  "blocks": [
   {
    "type": "pub-hero",
-   "title": "极具现代气息的设计 ",
+   "title": "极具现代气息的设计",
    "texts": [
     "一张符合人体工程学的扶手椅，带灰色垫套和清漆实心白蜡木支腿，放在青绿色窗帘前，上空还有三盏白色米纸吊灯。",
-    "<p>VEDBO 维伯 扶手椅采用斯堪的纳维亚风格设计，框架为白蜡木材质，是休息室、商务会客室或客厅的迷人座椅之选。</p>",
+    "VEDBO 维伯 扶手椅采用斯堪的纳维亚风格设计，框架为白蜡木材质，是休息室、商务会客室或客厅的迷人座椅之选。",
     "极具现代气息的设计",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "极具现代气息的设计 ",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/6c/33/6c336196b21b94f30d767f3eaa262d04.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,16 +54,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "特写：一把符合人体工程学的扶手椅，带灰色椅套和清漆实心白蜡木支腿。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/fb/5a/fb5a56b2d7f94563be6b442f7a29aaac.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>座椅采用符合人体工程学的设计，坐感舒适。冷泡沫填料更能让它保持优雅外形。</p>"
+    "座椅采用符合人体工程学的设计，坐感舒适。冷泡沫填料更能让它保持优雅外形。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -66,6 +88,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

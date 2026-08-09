@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cf791ffd944d42d09e1b9e81c121eac4"
    }
@@ -23,7 +25,7 @@
    "title": null,
    "texts": [
     "https://v.youku.com/v_show/id_XNTgwODA4NzE3Mg==.html",
-    "<p>▲ 跟随镜头，参观55m&sup2;灵感生活。</p>",
+    "▲ 跟随镜头，参观55m&sup2;灵感生活。",
     "MANUAL_INPUT"
    ],
    "images": [],
@@ -33,6 +35,8 @@
      "text": "\n<p>▲ 跟随镜头，参观55m&sup2;灵感生活。</p>\n"
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "15bac4c923564de092ff630adc6e8577"
    }
@@ -41,10 +45,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>巧妙的小户型设计，能够带给你更便利的生活。进入这间55m&sup2;的小屋，你一定想不到，全屋家具仅需2万元，就能让小小空间变得舒适多功能。&nbsp;</p>"
+    "巧妙的小户型设计，能够带给你更便利的生活。进入这间55m&sup2;的小屋，你一定想不到，全屋家具仅需2万元，就能让小小空间变得舒适多功能。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "aa1317c045ae454ab2c6a41c8ae17dad"
    }
@@ -73,6 +79,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ea/06/ea060c98dd842a4eb8b47129111d3de5.jpg",
+     "href": "/cn/zh/model/beyond_3c82c288_aFfx_bfe3/",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "19e156a653de49f682d50200f376b0b1"
    }
@@ -81,10 +97,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>厨房 | <a href=\"#c4165d70-0ef1-11ec-88d0-dbb760b558b9\">餐厅</a> | <a href=\"#297fb5c0-0ef3-11ec-88d0-dbb760b558b9\">客厅</a> | <a href=\"#8d69dd90-0ef3-11ec-88d0-dbb760b558b9\">阳台 </a>| <a href=\"#1588b560-0ef5-11ec-b9cc-f3459a68a406\">主卧</a> | <a href=\"#52c83940-0ef6-11ec-b9cc-f3459a68a406\">浴室</a> | <a href=\"#e59dad00-0f7c-11ec-acde-e390cab6d8ae\">儿童房</a></p>"
+    "厨房 | 餐厅 | 客厅 | 阳台 | 主卧 | 浴室 | 儿童房"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "659448e691e94b3fb2faf7bc0c153267"
    }
@@ -93,10 +111,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>厨房：高性价比时尚小厨房&nbsp;</h2>\n<p>厨房给家增添更多烟火气。小空间里的厨房更注重空间利用，开放与封闭收纳的巧妙搭配，每一寸空间都实用高效。</p>"
+    "厨房：高性价比时尚小厨房 厨房给家增添更多烟火气。小空间里的厨房更注重空间利用，开放与封闭收纳的巧妙搭配，每一寸空间都实用高效。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "b8c1d29bd4134b91a54f900359db4b70"
    }
@@ -125,6 +145,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/48/ed/48ed203ae05f44b4f5ebb2b1ea89229b.jpg",
+     "href": "/cn/zh/p/59395108?artType=SPR",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "3d8bd7525b1e4df1bd9e42f20b3bb53d"
    }
@@ -133,10 +163,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>安纳特橱柜系列在小空间内更具性价比。搭配以开放式收纳，自由组合，既可储藏大件厨具，也便于调味料等常用品的拿取。</p>"
+    "安纳特橱柜系列在小空间内更具性价比。搭配以开放式收纳，自由组合，既可储藏大件厨具，也便于调味料等常用品的拿取。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "1d52c358761f44d58ab39063436c181a"
    }
@@ -174,6 +206,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/45/33/4533ea845731878a9c181c600ddb2352.jpg",
+     "href": "/cn/zh/p/20481606?artType=ART",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e7/16/e71648d2771b4bd01bea1e5bb67a2d82.jpg",
+     "href": "/cn/zh/p/00430547?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "转角区域常常变成厨房死角，利用多层开放式搁架，空中起楼阁，增加储物空间。",
+     "image": "https://file.app.ikea.cn/images/45/33/4533ea845731878a9c181c600ddb2352.jpg",
+     "href": "/cn/zh/p/20481606?artType=ART"
+    },
+    {
+     "heading": null,
+     "text": "一侧下方加装搁板，开放式设计，收纳厨房用品，还扩容台面，作为上菜区。",
+     "image": "https://file.app.ikea.cn/images/e7/16/e71648d2771b4bd01bea1e5bb67a2d82.jpg",
+     "href": "/cn/zh/p/00430547?artType=ART"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "41d172c408fc4dc4b8dcf1ed4ab15bc2"
    }
@@ -191,6 +254,44 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "ENHET 安纳特",
+     "text": "¥850",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/enhet-an-na-te-lu-zao-di-gui-dai-gui-men-bai-se__0983542_pe816010_s4.jpg",
+     "href": "/cn/zh/p/enhet-an-na-te-lu-zao-di-gui-dai-gui-men-bai-se-29411505/"
+    },
+    {
+     "title": "ENHET 安纳特",
+     "text": "¥780",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/enhet-an-na-te-di-gui-3-chou-ti-bai-se__0815945_pe773146_s4.jpg",
+     "href": "/cn/zh/p/enhet-an-na-te-di-gui-3-chou-ti-bai-se-89393725/"
+    },
+    {
+     "title": "ENHET 安纳特",
+     "text": "¥260",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/enhet-an-na-te-dai-ge-ban-bi-shi-kuang-jia-bai-se__0805463_pe769567_s4.jpg",
+     "href": "/cn/zh/p/enhet-an-na-te-dai-ge-ban-bi-shi-kuang-jia-bai-se-20481606/"
+    },
+    {
+     "title": "ENHET 安纳特",
+     "text": "¥170",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/enhet-an-na-te-zhuan-jiao-mian-ban-bai-se__0807119_pe770310_s4.jpg",
+     "href": "/cn/zh/p/enhet-an-na-te-zhuan-jiao-mian-ban-bai-se-50481327/"
+    },
+    {
+     "title": "LAGAN 拉根",
+     "text": "¥199",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lagan-la-gen-chu-fang-yong-dan-gan-hun-he-xing-shui-long-tou-du-ge__0756697_pe749049_s4.jpg",
+     "href": "/cn/zh/p/lagan-la-gen-chu-fang-yong-dan-gan-hun-he-xing-shui-long-tou-du-ge-00173760/"
+    },
+    {
+     "title": "LILLVIKEN 利维肯",
+     "text": "¥150",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lillviken-li-wei-ken-dan-cao-xia-shui-guan__0486407_pe622054_s4.jpg",
+     "href": "/cn/zh/p/lillviken-li-wei-ken-dan-cao-xia-shui-guan-30325427/"
+    }
+   ],
    "settings": {
     "traceId": "427b1e6b1408475f86d922400bb64dc0"
    }
@@ -213,6 +314,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "bebceef761f34cd4a53a6cc71d24ff8f"
    }
@@ -221,10 +324,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><a href=\"#480f60b0-0ef0-11ec-88d0-dbb760b558b9\">厨房</a> | 餐厅 | <a href=\"#297fb5c0-0ef3-11ec-88d0-dbb760b558b9\">客厅</a> | <a href=\"#8d69dd90-0ef3-11ec-88d0-dbb760b558b9\">阳台 </a>| <a href=\"#1588b560-0ef5-11ec-b9cc-f3459a68a406\">主卧</a> | <a href=\"#52c83940-0ef6-11ec-b9cc-f3459a68a406\">浴室</a> | <a href=\"#e59dad00-0f7c-11ec-acde-e390cab6d8ae\">儿童房</a></p>"
+    "厨房 | 餐厅 | 客厅 | 阳台 | 主卧 | 浴室 | 儿童房"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "8e78fa2747c0404faade1546d7f87447"
    }
@@ -233,10 +338,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>餐厅：随来宾人数变动的餐桌&nbsp;</h2>\n<p>一步之遥的餐厅，不只是餐厅。灵活性强，轻松适应不同人数需求，非饭点时刻，亦能拥有第二重移动办公属性。</p>"
+    "餐厅：随来宾人数变动的餐桌 一步之遥的餐厅，不只是餐厅。灵活性强，轻松适应不同人数需求，非饭点时刻，亦能拥有第二重移动办公属性。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "150ddcd0f2a34bd28701b9af84b25445"
    }
@@ -265,6 +372,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/83/61/836133046d920ffdc9f59d8c7080c1eb.jpg",
+     "href": "/cn/zh/p/89246372?artType=SPR",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "e9c2d0b88600406cb8bb7ec92334cd9f"
    }
@@ -293,6 +410,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e4/7d/e47d70c6b887a8154e0ce2c0810306e7.jpg",
+     "href": "/cn/zh/p/90365793?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "0779dad593ee4d07a9030f2b83fd0db7"
    }
@@ -321,6 +448,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/c0/d5/c0d5520b5cc26b59141cd6a070533e72.jpg",
+     "href": "/cn/zh/p/90365793?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "933e17eb49c0453c8663be1bffc45148"
    }
@@ -338,6 +475,44 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "NORBERG 诺伯格",
+     "text": "¥299",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/norberg-nuo-bo-ge-bi-zhuang-zhe-die-zhuo-bai-se__0736622_pe740674_s4.jpg",
+     "href": "/cn/zh/p/norberg-nuo-bo-ge-bi-zhuang-zhe-die-zhuo-bai-se-90365793/"
+    },
+    {
+     "title": "ADDE 阿德",
+     "text": "¥59.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/adde-a-de-yi-zi-bai-se__0728280_pe736170_s4.jpg",
+     "href": "/cn/zh/p/adde-a-de-yi-zi-bai-se-90219179/"
+    },
+    {
+     "title": "RUDSTA 鲁德斯塔",
+     "text": "¥599",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/rudsta-lu-de-si-ta-bo-li-men-gui-qian-qing-lu-se__0939000_pe794385_s4.jpg",
+     "href": "/cn/zh/p/rudsta-lu-de-si-ta-bo-li-men-gui-qian-qing-lu-se-90450135/"
+    },
+    {
+     "title": "PLATSA 普拉萨",
+     "text": "¥150",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/platsa-pu-la-sa-kuang-jia-bai-se__0721327_pe733173_s4.jpg",
+     "href": "/cn/zh/p/platsa-pu-la-sa-kuang-jia-bai-se-20387487/"
+    },
+    {
+     "title": "SKÅDIS 斯考迪斯",
+     "text": "¥129",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/skadis-si-kao-di-si-dong-dong-ban-bai-se__0710683_pe727709_s4.jpg",
+     "href": "/cn/zh/p/skadis-si-kao-di-si-dong-dong-ban-bai-se-90321619/"
+    },
+    {
+     "title": "SKÅDIS 斯考迪斯",
+     "text": "¥20",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/skadis-si-kao-di-si-ge-ban-bai-se__0710680_pe727707_s4.jpg",
+     "href": "/cn/zh/p/skadis-si-kao-di-si-ge-ban-bai-se-60320800/"
+    }
+   ],
    "settings": {
     "traceId": "b407863bdefa4e6391da3773698a06a6"
    }
@@ -360,6 +535,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "771f8d4efadd47d29f4853f170cf18ef"
    }
@@ -368,10 +545,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><a href=\"#480f60b0-0ef0-11ec-88d0-dbb760b558b9\">厨房</a> | <a href=\"#c4165d70-0ef1-11ec-88d0-dbb760b558b9\">餐厅</a> | 客厅 | <a href=\"#8d69dd90-0ef3-11ec-88d0-dbb760b558b9\">阳台 </a>| <a href=\"#1588b560-0ef5-11ec-b9cc-f3459a68a406\">主卧</a> | <a href=\"#52c83940-0ef6-11ec-b9cc-f3459a68a406\">浴室</a> | <a href=\"#e59dad00-0f7c-11ec-acde-e390cab6d8ae\">儿童房</a></p>"
+    "厨房 | 餐厅 | 客厅 | 阳台 | 主卧 | 浴室 | 儿童房"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "46a87588652544f0aa741360d1cf8044"
    }
@@ -380,10 +559,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>客厅：灵活百变，收纳满分&nbsp;</h2>\n<p>小客厅被划分成不同功能空间，藏了许多设计巧思。除了基本的休闲功能外，一侧墙壁设置了储物与展示架，还可以坐下来处理事宜。</p>"
+    "客厅：灵活百变，收纳满分 小客厅被划分成不同功能空间，藏了许多设计巧思。除了基本的休闲功能外，一侧墙壁设置了储物与展示架，还可以坐下来处理事宜。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "af5c2f19a28647a8b40a8bb4b82bde8c"
    }
@@ -412,6 +593,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/26/8f/268f52b04d4bb3fef9fb30e9af22801c.jpg",
+     "href": "/cn/zh/p/79389470?artType=SPR",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "bae471d2f0424184bb2bb4ffbdbd00eb"
    }
@@ -420,10 +611,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>多功能客厅，既可以躺在沙发上看电视，也可以迅速投入到学习工作之中。</p>"
+    "多功能客厅，既可以躺在沙发上看电视，也可以迅速投入到学习工作之中。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "4509012590844496889fa00cdb2d71b0"
    }
@@ -461,6 +654,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/0d/09/0d09bea73f3e393eebaeb4c9ff78b583.jpg",
+     "href": "/cn/zh/p/50483878?artType=ART",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/9a/2a/9a2a2c87bc9cbfddaca124749d0ceb34.jpg",
+     "href": "/cn/zh/p/90471717?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "铁艺镂空电视柜搭配收纳盒，简约整洁。配上纯色窗帘与地毯，整体清爽干净。",
+     "image": "https://file.app.ikea.cn/images/0d/09/0d09bea73f3e393eebaeb4c9ff78b583.jpg",
+     "href": "/cn/zh/p/50483878?artType=ART"
+    },
+    {
+     "heading": null,
+     "text": "一旁的墙上安装搁架与搁板，搭配小推车，打造出一小块收纳展示区，既有实用性，又可以放置小摆件，起到装饰性作用。",
+     "image": "https://file.app.ikea.cn/images/9a/2a/9a2a2c87bc9cbfddaca124749d0ceb34.jpg",
+     "href": "/cn/zh/p/90471717?artType=ART"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "8a1ef243f28b4dc38b0011aaf7a93cdd"
    }
@@ -478,6 +702,44 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "PÄRUP 派如普",
+     "text": "¥1,999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/paerup-pai-ru-pu-san-ren-sha-fa-wei-suo-er-hui-se__1041907_pe841187_s4.jpg",
+     "href": "/cn/zh/p/paerup-pai-ru-pu-san-ren-sha-fa-wei-suo-er-hui-se-79389470/"
+    },
+    {
+     "title": "LINNEBÄCK 林尼贝克",
+     "text": "¥399",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/linnebaeck-lin-ni-bei-ke-xiu-xian-yi-ou-si-ta-dan-hui-se__0933452_pe791908_s4.jpg",
+     "href": "/cn/zh/p/linnebaeck-lin-ni-bei-ke-xiu-xian-yi-ou-si-ta-dan-hui-se-90487228/"
+    },
+    {
+     "title": "KVISTBRO 魁思伯",
+     "text": "¥199",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kvistbro-kui-si-bo-chu-wu-zhuo-bai-se__0477822_pe618485_s4.jpg",
+     "href": "/cn/zh/p/kvistbro-kui-si-bo-chu-wu-zhuo-bai-se-10349453/"
+    },
+    {
+     "title": "KALLAX 卡莱克",
+     "text": "¥299",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kallax-qia-lai-ke-ge-jia-dan-yuan-bai-se__0644753_pe702937_s4.jpg",
+     "href": "/cn/zh/p/kallax-qia-lai-ke-ge-jia-dan-yuan-bai-se-90471717/"
+    },
+    {
+     "title": "MARIUS 玛留斯",
+     "text": "¥29.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/marius-ma-liu-si-deng-hei-se__0727386_pe735638_s4.jpg",
+     "href": "/cn/zh/p/marius-ma-liu-si-deng-hei-se-00162380/"
+    },
+    {
+     "title": "BEKVÄM 贝卡姆",
+     "text": "¥129",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/bekvaem-bei-qia-mu-ta-jiao-deng-bai-yang__0728262_pe736144_s4.jpg",
+     "href": "/cn/zh/p/bekvaem-bei-qia-mu-ta-jiao-deng-bai-yang-50225592/"
+    }
+   ],
    "settings": {
     "traceId": "6bed9464b4604358a3455a8e3c653294"
    }
@@ -486,10 +748,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><a href=\"#480f60b0-0ef0-11ec-88d0-dbb760b558b9\">厨房</a> | <a href=\"#c4165d70-0ef1-11ec-88d0-dbb760b558b9\">餐厅</a> | <a href=\"#297fb5c0-0ef3-11ec-88d0-dbb760b558b9\">客厅</a> | 阳台 | <a href=\"#1588b560-0ef5-11ec-b9cc-f3459a68a406\">主卧</a> | <a href=\"#52c83940-0ef6-11ec-b9cc-f3459a68a406\">浴室</a> | <a href=\"#e59dad00-0f7c-11ec-acde-e390cab6d8ae\">儿童房</a></p>"
+    "厨房 | 餐厅 | 客厅 | 阳台 | 主卧 | 浴室 | 儿童房"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "e1c806af20a6461e8d93396e3cdb0973"
    }
@@ -498,10 +762,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>阳台：生活与功能二合一&nbsp;</h2>\n<p>阳台上享受家的另一面生活。除了日常洗涤区外，绿植与折叠桌构造了一个休憩空间，你可以随时坐下来，喝杯茶透透气。</p>"
+    "阳台：生活与功能二合一 阳台上享受家的另一面生活。除了日常洗涤区外，绿植与折叠桌构造了一个休憩空间，你可以随时坐下来，喝杯茶透透气。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "85d8380ba2604cf899b917fb43b0ca88"
    }
@@ -530,6 +796,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20211229/77dcb5508cff46ffb5d2090710fe114f.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/80278579?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "c8fc5a90bfce4672aaf3c7758048c758"
    }
@@ -538,10 +814,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>走入阳台，来到轻松惬意的空间。高低错落的搁架里，绿植尽情沐浴阳光。</p>"
+    "走入阳台，来到轻松惬意的空间。高低错落的搁架里，绿植尽情沐浴阳光。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "76beb5ac003a417da75db23783758a77"
    }
@@ -579,6 +857,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/6f/5c/6f5ce1bcfbd7b3f4ef13bbb4827806f4.jpg",
+     "href": "/cn/zh/p/40420749?artType=ART",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/45/ea/45eacb067b78ec219f055b6002b3ec43.jpg",
+     "href": "/cn/zh/p/69386486?artType=SPR",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "一旁的折叠桌椅，可以安然享受午后时光。",
+     "image": "https://file.app.ikea.cn/images/6f/5c/6f5ce1bcfbd7b3f4ef13bbb4827806f4.jpg",
+     "href": "/cn/zh/p/40420749?artType=ART"
+    },
+    {
+     "heading": null,
+     "text": "侧面洗衣空间规划博阿克塞收纳系统，塞进洗烘设备，拉上帘子，便可以将琐碎生活归于洁净。",
+     "image": "https://file.app.ikea.cn/images/45/ea/45eacb067b78ec219f055b6002b3ec43.jpg",
+     "href": "/cn/zh/p/69386486?artType=SPR"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "7001b424f0e5468ea0eab4f7e43f5440"
    }
@@ -596,6 +905,44 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "HYLLIS 希利斯",
+     "text": "¥179",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/hyllis-xi-li-si-ge-jia-dan-yuan-shi-nei-hu-wai__0626021_pe692562_s4.jpg",
+     "href": "/cn/zh/p/hyllis-xi-li-si-ge-jia-dan-yuan-shi-nei-hu-wai-80278579/"
+    },
+    {
+     "title": "HYLLIS 希利斯",
+     "text": "¥99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/hyllis-xi-li-si-ge-jia-dan-yuan-shi-nei-hu-wai__0639121_pe704408_s4.jpg",
+     "href": "/cn/zh/p/hyllis-xi-li-si-ge-jia-dan-yuan-shi-nei-hu-wai-10428327/"
+    },
+    {
+     "title": "BOAXEL 博阿克塞",
+     "text": "¥60",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/boaxel-bo-a-ke-sai-wang-zhuang-ge-ban-bai-se__0798178_pe767167_s4.jpg",
+     "href": "/cn/zh/p/boaxel-bo-a-ke-sai-wang-zhuang-ge-ban-bai-se-30453575/"
+    },
+    {
+     "title": "MULIG 穆利格",
+     "text": "¥29.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mulig-mu-li-ge-gua-yi-gan-bai-se__0710698_pe727732_s4.jpg",
+     "href": "/cn/zh/p/mulig-mu-li-ge-gua-yi-gan-bai-se-10179436/"
+    },
+    {
+     "title": "SIBBHULT 塞胡特",
+     "text": "¥3.5",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/sibbhult-sai-hu-te-tuo-jia-bai-se__0806982_pe770198_s4.jpg",
+     "href": "/cn/zh/p/sibbhult-sai-hu-te-tuo-jia-bai-se-70450240/"
+    },
+    {
+     "title": "VARIERA 瓦瑞拉",
+     "text": "¥9.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/variera-wa-rui-la-su-liao-dai-chou-qu-he-bai-se__0625768_pe692453_s4.jpg",
+     "href": "/cn/zh/p/variera-wa-rui-la-su-liao-dai-chou-qu-he-bai-se-10136512/"
+    }
+   ],
    "settings": {
     "traceId": "478316e60355420ca18b6780c12bd552"
    }
@@ -618,6 +965,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "d9786b399e2c42e68f30cee379b58c3d"
    }
@@ -626,10 +975,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><a href=\"#480f60b0-0ef0-11ec-88d0-dbb760b558b9\">厨房</a> | <a href=\"#c4165d70-0ef1-11ec-88d0-dbb760b558b9\">餐厅</a> | <a href=\"#297fb5c0-0ef3-11ec-88d0-dbb760b558b9\">客厅</a> | <a href=\"#8d69dd90-0ef3-11ec-88d0-dbb760b558b9\">阳台 </a>| 主卧 | <a href=\"#52c83940-0ef6-11ec-b9cc-f3459a68a406\">浴室</a> | <a href=\"#e59dad00-0f7c-11ec-acde-e390cab6d8ae\">儿童房</a></p>"
+    "厨房 | 餐厅 | 客厅 | 阳台 | 主卧 | 浴室 | 儿童房"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "70376da3451445b4b8c9fe7b1abcb697"
    }
@@ -638,10 +989,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>主卧：整洁舒适，伴你入梦&nbsp;</h2>\n<p>睡眠质量将影响你一整天的状态。这间小卧室舍弃传统思路，善用软隔断和墙壁收纳，令空间更为通透，柔软的床品帮助你保持清爽舒适。&nbsp;</p>"
+    "主卧：整洁舒适，伴你入梦 睡眠质量将影响你一整天的状态。这间小卧室舍弃传统思路，善用软隔断和墙壁收纳，令空间更为通透，柔软的床品帮助你保持清爽舒适。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "82d94c3f200a4fccbbb5e5d67c942c93"
    }
@@ -670,6 +1023,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ae/91/ae919b2549323e5e2161414aeed2b90f.jpg",
+     "href": "/cn/zh/p/10303445?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "f29f307cc55d470b910fa0fc3df4e479"
    }
@@ -678,10 +1041,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>低饱和色系主卧清新静谧，适合入眠。靠墙处设置梳妆台。小空间里，玻璃材质更有通透感。</p>"
+    "低饱和色系主卧清新静谧，适合入眠。靠墙处设置梳妆台。小空间里，玻璃材质更有通透感。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "4142e50a27d44d2cbaf452dbc980d85d"
    }
@@ -719,6 +1084,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e1/58/e1583313a4e7c953704a0c565649d3c1.jpg",
+     "href": "/cn/zh/p/99332374?artType=SPR",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/0e/78/0e78bdcd800964274ae96cbfc6d8afdc.jpg",
+     "href": "/cn/zh/p/29230048?artType=SPR",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "简易开放式衣柜，可自由组合，收纳多种类型衣物。配上布帘，既隐藏了衣柜内部，又能防止衣物积灰。",
+     "image": "https://file.app.ikea.cn/images/e1/58/e1583313a4e7c953704a0c565649d3c1.jpg",
+     "href": "/cn/zh/p/99332374?artType=SPR"
+    },
+    {
+     "heading": null,
+     "text": "门口换衣区亦设置收纳。穿衣镜后隐藏收纳功能，挂置丝巾与小饰品。",
+     "image": "https://file.app.ikea.cn/images/0e/78/0e78bdcd800964274ae96cbfc6d8afdc.jpg",
+     "href": "/cn/zh/p/29230048?artType=SPR"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "fa9860a8cb1c490d851d451e93d805fc"
    }
@@ -736,6 +1132,44 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "LENNART 列纳特",
+     "text": "¥79.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lennart-lie-na-te-chou-ti-gui-bai-se__0395412_pe564513_s4.jpg",
+     "href": "/cn/zh/p/lennart-lie-na-te-chou-ti-gui-bai-se-10326178/"
+    },
+    {
+     "title": "NISSEDAL 尼瑟达",
+     "text": "¥199",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/nissedal-ni-se-da-jing-zi-bai-se__0637801_pe698597_s4.jpg",
+     "href": "/cn/zh/p/nissedal-ni-se-da-jing-zi-bai-se-90320323/"
+    },
+    {
+     "title": "BOAXEL 博阿克塞",
+     "text": "¥10",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/boaxel-bo-a-ke-sai-an-zhuang-gan-bai-se__0798130_pe767135_s4.jpg",
+     "href": "/cn/zh/p/boaxel-bo-a-ke-sai-an-zhuang-gan-bai-se-60453531/"
+    },
+    {
+     "title": "BOAXEL 博阿克塞",
+     "text": "¥60",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/boaxel-bo-a-ke-sai-qiang-mian-gua-tiao-bai-se__0798175_pe767165_s4.jpg",
+     "href": "/cn/zh/p/boaxel-bo-a-ke-sai-qiang-mian-gua-tiao-bai-se-60453569/"
+    },
+    {
+     "title": "BOAXEL 博阿克塞",
+     "text": "¥50",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/boaxel-bo-a-ke-sai-ge-ban-jin-shu-bai-se__0798139_pe767141_s4.jpg",
+     "href": "/cn/zh/p/boaxel-bo-a-ke-sai-ge-ban-jin-shu-bai-se-90453539/"
+    },
+    {
+     "title": "BOAXEL 博阿克塞",
+     "text": "¥15",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/boaxel-bo-a-ke-sai-gua-yi-gan-bai-se__0798109_pe767177_s4.jpg",
+     "href": "/cn/zh/p/boaxel-bo-a-ke-sai-gua-yi-gan-bai-se-90453515/"
+    }
+   ],
    "settings": {
     "traceId": "49e9c18a971a455b903164b5b4567959"
    }
@@ -758,6 +1192,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "62b46973a95f41b0895cb0884216ea31"
    }
@@ -766,10 +1202,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><a href=\"#480f60b0-0ef0-11ec-88d0-dbb760b558b9\">厨房</a> | <a href=\"#c4165d70-0ef1-11ec-88d0-dbb760b558b9\">餐厅</a> | <a href=\"#297fb5c0-0ef3-11ec-88d0-dbb760b558b9\">客厅</a> | <a href=\"#8d69dd90-0ef3-11ec-88d0-dbb760b558b9\">阳台 </a>| <a href=\"#1588b560-0ef5-11ec-b9cc-f3459a68a406\">主卧</a> | 浴室 | <a href=\"#e59dad00-0f7c-11ec-acde-e390cab6d8ae\">儿童房</a></p>"
+    "厨房 | 餐厅 | 客厅 | 阳台 | 主卧 | 浴室 | 儿童房"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "b99e63da22d74a428fd2b0db48dc46e0"
    }
@@ -778,10 +1216,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>浴室：小巧精悍不拥挤&nbsp;</h2>\n<p>与厨房同为绿色，这间小浴室并不拥挤，反而显得清新自然。</p>"
+    "浴室：小巧精悍不拥挤 与厨房同为绿色，这间小浴室并不拥挤，反而显得清新自然。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "5cdee98cefbf43359b6f92a4f5a2f44c"
    }
@@ -810,6 +1250,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/4a/22/4a22daec60dbd5424312a14a22315518.jpg",
+     "href": "/cn/zh/p/70481618?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "90344eb601254f688bdeb4e9ce3ac5d9"
    }
@@ -847,6 +1297,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/f8/f0/f8f0d8ea954369ffc9bb797d49a56208.jpg",
+     "href": "/cn/zh/p/70481604?artType=ART",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/6d/91/6d914446c3a9243e072f79548da4f5c9.jpg",
+     "href": "/cn/zh/p/50453881?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "一步之遥便是卫生间，同样选用安纳特系列，搭配上小型收纳架，足够收纳日常所需。",
+     "image": "https://file.app.ikea.cn/images/f8/f0/f8f0d8ea954369ffc9bb797d49a56208.jpg",
+     "href": "/cn/zh/p/70481604?artType=ART"
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/6d/91/6d914446c3a9243e072f79548da4f5c9.jpg",
+     "href": "/cn/zh/p/50453881?artType=ART"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "3f5a0855c36b49e9b06dd5f790b8ba93"
    }
@@ -864,6 +1345,38 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "VIKARN 维坎",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vikarn-wei-kan-yu-lian-gan-bai-se__0601990_pe680080_s4.jpg",
+     "href": "/cn/zh/p/vikarn-wei-kan-yu-lian-gan-bai-se-30306018/"
+    },
+    {
+     "title": "ENHET 安纳特",
+     "text": "¥280",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/enhet-an-na-te-dai-ge-ban-bi-shi-kuang-jia-bai-se__0805548_pe769593_s4.jpg",
+     "href": "/cn/zh/p/enhet-an-na-te-dai-ge-ban-bi-shi-kuang-jia-bai-se-70481618/"
+    },
+    {
+     "title": "ENHET 安纳特",
+     "text": "¥620",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/enhet-an-na-te-xi-lian-chi-di-gui-dai-ge-ban-gui-men-bai-se__0816062_pe773269_s4.jpg",
+     "href": "/cn/zh/p/enhet-an-na-te-xi-lian-chi-di-gui-dai-ge-ban-gui-men-bai-se-59396508/"
+    },
+    {
+     "title": "TVÄLLEN 特威伦",
+     "text": "¥500",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/tvaellen-te-wei-lun-dan-cao-xi-lian-chi__1039942_pe840515_s4.jpg",
+     "href": "/cn/zh/p/tvaellen-te-wei-lun-dan-cao-xi-lian-chi-90481636/"
+    },
+    {
+     "title": "SALJEN 萨利恩",
+     "text": "¥169",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/saljen-sa-li-en-xi-lian-chi-long-tou-hei-se__0914013_pe783826_s4.jpg",
+     "href": "/cn/zh/p/saljen-sa-li-en-xi-lian-chi-long-tou-hei-se-00400319/"
+    }
+   ],
    "settings": {
     "traceId": "5fa5618c4f3844909338e89a24963785"
    }
@@ -886,6 +1399,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "182fb6209ffd4cdc92c0a8b95b890102"
    }
@@ -894,10 +1409,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><a href=\"#480f60b0-0ef0-11ec-88d0-dbb760b558b9\">厨房</a> | <a href=\"#c4165d70-0ef1-11ec-88d0-dbb760b558b9\">餐厅</a> | <a href=\"#297fb5c0-0ef3-11ec-88d0-dbb760b558b9\">客厅</a> | <a href=\"#8d69dd90-0ef3-11ec-88d0-dbb760b558b9\">阳台 </a>| <a href=\"#1588b560-0ef5-11ec-b9cc-f3459a68a406\">主卧</a> | <a href=\"#52c83940-0ef6-11ec-b9cc-f3459a68a406\">浴室</a> | 儿童房</p>"
+    "厨房 | 餐厅 | 客厅 | 阳台 | 主卧 | 浴室 | 儿童房"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "e4f1872f0faf48ebbc3f8b77bb77d349"
    }
@@ -906,10 +1423,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>儿童房：兼具趣味性与实用性&nbsp;</h2>\n<p>打开房门，儿童房是宝贝的小小领地。专为儿童设计的家具，小空间也能轻松容纳，一张宽大的书桌，给学习更大的发挥空间。</p>"
+    "儿童房：兼具趣味性与实用性 打开房门，儿童房是宝贝的小小领地。专为儿童设计的家具，小空间也能轻松容纳，一张宽大的书桌，给学习更大的发挥空间。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "1a795f7427c847b496d2666d720f54a7"
    }
@@ -938,6 +1457,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/43/ff/43ff7ee5aa363e5822bfe66d3d90b914.jpg",
+     "href": "/cn/zh/p/30433484?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "3ec98e4dd9bc4a869566195356b9ccff"
    }
@@ -946,10 +1475,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>进入儿童房，即刻被纯真色彩和多功能家具包围，童趣可爱。</p>"
+    "进入儿童房，即刻被纯真色彩和多功能家具包围，童趣可爱。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "8ff7e48ebb0c49e4911e7e62b16e2500"
    }
@@ -987,6 +1518,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20220127/9087e9916dea4d1d90d98c4bb8b619e4.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/39227757?artType=SPR",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20220127/9ed971aaf97c47389cc0a014c301d4bd.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/80433523?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "儿童床让宝贝舒适入睡，适合小房间使用。",
+     "image": "https://res.app.ikea.cn/content/u/20220127/9087e9916dea4d1d90d98c4bb8b619e4.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/39227757?artType=SPR"
+    },
+    {
+     "heading": null,
+     "text": "卧室里有张宽大的书桌，搭配展示架和开放式书架，扩充了空间，更能满足孩子日常的学习与玩乐。",
+     "image": "https://res.app.ikea.cn/content/u/20220127/9ed971aaf97c47389cc0a014c301d4bd.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/80433523?artType=ART"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "59ed097ed875457f82a1d3d8041e4012"
    }
@@ -1015,6 +1577,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/94/f0/94f021f1a2f52b2861b334060fdc207f.jpg",
+     "href": "/cn/zh/p/30297467?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "59c071291c2b43ac992d567c36cbeea6"
    }
@@ -1032,6 +1604,38 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "SLÄKT 斯莱克",
+     "text": "¥799",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/slaekt-si-lai-ke-chuang-jia-dai-ban-tiao-shi-chuang-ban-bai-se__0637774_pe698536_s4.jpg",
+     "href": "/cn/zh/p/slaekt-si-lai-ke-chuang-jia-dai-ban-tiao-shi-chuang-ban-bai-se-39227757/"
+    },
+    {
+     "title": "GODISHUS 古迪胡斯",
+     "text": "¥999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/godishus-gu-di-hu-si-yi-gui-bai-se__0721180_pe735622_s4.jpg",
+     "href": "/cn/zh/p/godishus-gu-di-hu-si-yi-gui-bai-se-30433484/"
+    },
+    {
+     "title": "LAGKAPTEN 拉格开普 / OLOV 奥勒夫",
+     "text": "¥329",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lagkapten-la-ge-kai-pu-olov-ao-le-fu-shu-zhuo-bai-se__0977603_pe813680_s4.jpg",
+     "href": "/cn/zh/p/lagkapten-la-ge-kai-pu-olov-ao-le-fu-shu-zhuo-bai-se-59416771/"
+    },
+    {
+     "title": "BERGSHULT 贝利斯胡特 / SANDSHULT 桑德胡特",
+     "text": "¥89",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/bergshult-bei-li-si-hu-te-sandshult-sang-de-hu-te-qiang-ge-ban-bai-se-bai-se-bai-yang-mu__0789961_pe764236_s4.jpg",
+     "href": "/cn/zh/p/bergshult-bei-li-si-hu-te-sandshult-sang-de-hu-te-qiang-ge-ban-bai-se-bai-se-bai-yang-mu-69326039/"
+    },
+    {
+     "title": "MOSSLANDA 莫兰达",
+     "text": "¥49.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mosslanda-mo-lan-da-bi-shi-tu-pian-jia-bai-se__0634121_pe696313_s4.jpg",
+     "href": "/cn/zh/p/mosslanda-mo-lan-da-bi-shi-tu-pian-jia-bai-se-70297465/"
+    }
+   ],
    "settings": {
     "traceId": "a207f3dd9ecb4ebf864bc3fa01ad64d5"
    }
@@ -1054,6 +1658,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "78e2708a5694492a937f37c93dc659c5"
    }
@@ -1062,10 +1668,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>专为中国小户型设计的家居灵感，将在全国各地宜家商场陆续上线，欢迎前往线下商场，发现更多小户型灵感，一起打造美好生活～</strong></p>"
+    "专为中国小户型设计的家居灵感，将在全国各地宜家商场陆续上线，欢迎前往线下商场，发现更多小户型灵感，一起打造美好生活～"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cebae5f296694745b5879973ed6060bc"
    }
@@ -1088,6 +1696,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "071d096522ad4c3c88a0a8fbc6831b34"
    }

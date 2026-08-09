@@ -14,16 +14,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>解决家居清洁，宜家有一套！</strong></h2>\n<p>一杆搭配多头，一套清洁用品，即可轻松覆盖家中所有角落。一键换头，灵活好用，轻松上手；针对特定的空间，选用合适的清洁头，专业的清洁方式可以大大节省你的时间，实现家务自由。北欧现代风格、流畅简约线条、搭配清爽颜色，整套的设计统一，让清洁用品也能充满美感，毫不违和地融入现代家居生活中。</p>"
+    "解决家居清洁，宜家有一套！ 一杆搭配多头，一套清洁用品，即可轻松覆盖家中所有角落。一键换头，灵活好用，轻松上手；针对特定的空间，选用合适的清洁头，专业的清洁方式可以大大节省你的时间，实现家务自由。北欧现代风格、流畅简约线条、搭配清爽颜色，整套的设计统一，让清洁用品也能充满美感，毫不违和地融入现代家居生活中。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -41,6 +45,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -67,6 +73,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "宜家全新PEPPRIG 佩普里格 一杆多头清洁系列",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/c2/4d/c24d0718db44ea8057de3b22a97a8319.jpg",
+     "href": "/cn/zh/search/products/?group=PEPPRIG%E4%B8%80%E6%9D%86%E5%A4%9A%E5%A4%B4%E7%B3%BB%E5%88%97",
+     "backgroundColor": "#7cd2d1"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -82,6 +98,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   },
   {
@@ -127,6 +144,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "PEPPRIG 佩普里格 伸缩杆配清洁头：家居清洁，一网打尽。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/51/b9/51b9bbe3062ab2fdd85e8f856ef28b86.jpg",
+     "href": "/cn/zh/p/09390764?artType=SPR",
+     "backgroundColor": "#f5f5f5"
+    },
+    {
+     "title": "PEPPRIG 佩普里格 清洁头4件套：定期更换，保持清洁。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/0e/4b/0e4b66035e303becb1b69336a150b67d.jpg",
+     "href": "/cn/zh/p/70486791?artType=ART",
+     "backgroundColor": "#f5f5f5"
+    },
+    {
+     "title": "PEPPRIG 佩普里格 伸缩杆配拖把头：地面清洁入门款。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/10/80/10802f94f8fa6c9784aecb624ec822c3.jpg",
+     "href": "/cn/zh/p/69390332?artType=SPR",
+     "backgroundColor": "#f5f5f5"
+    },
+    {
+     "title": "PEPPRIG 佩普里格 伸缩杆配刷头：适合瓷砖地面使用。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/02/17/0217126d84a762db9dbabdfda6677cd3.jpg",
+     "href": "/cn/zh/p/69390110?artType=SPR",
+     "backgroundColor": "#f5f5f5"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -142,6 +190,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   },
   {
@@ -157,6 +206,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   },
   {
@@ -171,6 +221,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   },
   {
@@ -185,6 +236,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   },
   {
@@ -199,6 +251,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

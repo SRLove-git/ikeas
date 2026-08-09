@@ -10,7 +10,7 @@
    "type": "pub-hero",
    "title": "开始使用智能照明产品",
    "texts": [
-    "<p>了解如何开始使用宜家智能照明产品套件，如何添加或解除光源和其他常见问题。</p>",
+    "了解如何开始使用宜家智能照明产品套件，如何添加或解除光源和其他常见问题。",
     "开始使用智能照明产品",
     "normal"
    ],
@@ -23,6 +23,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "开始使用智能照明产品",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/3e/63/3e63c5c09a5ff7821a530b034784a3f6.png",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -55,6 +65,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "安装套件",
+     "text": "安装套件",
+     "image": "https://file.app.ikea.cn/images/27/3c/273c28b7cfb44d95924b94e0686ac6f0.png",
+     "href": "/cn/zh/customer-service/product-support/smart-lighting/an1-zhuang1-tao4-jian4-pube2d41877",
+     "backgroundColor": null
+    },
+    {
+     "title": "添加/解除光源",
+     "text": "添加/解除光源",
+     "image": "https://file.app.ikea.cn/images/7e/48/7e4822963dae7855462bc32256b287ba.png",
+     "href": "/cn/zh/customer-service/product-support/smart-lighting/tian1-jia1-jie3-chu2-guang1-yuan2-pub44b6c580",
+     "backgroundColor": null
+    },
+    {
+     "title": "添加/解除控制装置",
+     "text": "添加/解除控制装置",
+     "image": "https://file.app.ikea.cn/images/0b/13/0b13ab8278172aaadab7c578819de21b.png",
+     "href": "/cn/zh/customer-service/product-support/smart-lighting/tian1-jia1-jie3-chu2-kong4-zhi4-zhuang1-zhi4-pubd0b3fc31",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -65,16 +99,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h4><strong>需要更多帮助吗？</strong></h4>"
+    "需要更多帮助吗？"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -101,16 +139,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a6/09/a609b8a6399e5215284328455b81d14a.png",
+     "href": "/cn/zh/customer-service/product-support/smart-lighting/zhi-neng-zhao-ming-pub81a7870c",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>使用方法</strong><br />了解如何调节明暗、改变色温和设置定时器等。<br /><a href=\"https://www.ikea.cn/cn/zh/customer-service/zhi-neng-zhao-ming-pub81a7870c\">了解如何使用宜家智能照明产品</a></p>"
+    "使用方法 了解如何调节明暗、改变色温和设置定时器等。 了解如何使用宜家智能照明产品"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -137,16 +187,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a9/21/a92122367daec3dbd983cc112ce37f3f.png",
+     "href": "/cn/zh/customer-service/product-support/smart-lighting/zhi4-neng2-zhao4-ming2-chan3-pin3-gu4-zhang4-pai2-chu2-pub480afb00",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>故障排除</strong><br />使用智能照明产品时遇到了问题，都可以在这里找到如何解决常见的问题。<br /><a href=\"https://www.ikea.cn/cn/zh/customer-service/zhi4-neng2-zhao4-ming2-chan3-pin3-gu4-zhang4-pai2-chu2-pub480afb00\">获取有关宜家智能照明产品的帮助</a></p>"
+    "故障排除 使用智能照明产品时遇到了问题，都可以在这里找到如何解决常见的问题。 获取有关宜家智能照明产品的帮助"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -165,16 +227,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/de/97/de97bff470832c1a7c34ae7e80f20f88.png",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>智能照明产品</strong><br />探索更多宜家智能照明产品，包括启动套件、单独光源和遥控器等。<br /><a href=\"https://www.ikea.cn/cn/zh/rooms/deng-pub320bd09c\">查看所有宜家智能照明产品</a></p>"
+    "智能照明产品 探索更多宜家智能照明产品，包括启动套件、单独光源和遥控器等。 查看所有宜家智能照明产品"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

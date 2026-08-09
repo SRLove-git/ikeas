@@ -11,7 +11,7 @@
    "title": "设计简洁，舒适宜人",
    "texts": [
     "靠坐在宜家 KOARP 克阿普 单人沙发上休息片刻。这款沙发呈现明快的黄色调，不仅舒适，还能让整个客厅更具现代气息。",
-    "<p>KOARP 克阿普 单人沙发不仅是休闲放松的理想之选，还能让整个客厅更具现代气息。另有一系列色彩鲜艳的垫套可供选择。</p>\n<p>椅子套可与 VIMLE 维姆勒 沙发的色调完美搭配，可拆卸、可水洗，随时都能让沙发焕然一新。</p>",
+    "KOARP 克阿普 单人沙发不仅是休闲放松的理想之选，还能让整个客厅更具现代气息。另有一系列色彩鲜艳的垫套可供选择。 椅子套可与 VIMLE 维姆勒 沙发的色调完美搭配，可拆卸、可水洗，随时都能让沙发焕然一新。",
     "设计简洁，舒适宜人",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "设计简洁，舒适宜人",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/2c/34/2c340b300ac4817e048f675f5d0f01b3.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,16 +54,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "靠坐在宜家 KOARP 克阿普 单人沙发上休息片刻。这款沙发背部设有一个实用储物袋，方便你存放杂志和小物件。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/16/34/163487d81419b8abd13b51669a50ad36.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>KOARP 克阿普 单人沙发背部设有一个储物袋，方便存放杂志或平板电脑，保持茶几整洁干净。</p>"
+    "KOARP 克阿普 单人沙发背部设有一个储物袋，方便存放杂志或平板电脑，保持茶几整洁干净。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -66,6 +88,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

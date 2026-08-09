@@ -11,7 +11,7 @@
    "title": "和电线说再见",
    "texts": [
     "手提包形状的白色电线管理袋，一起展示的还有伸出来的电线。",
-    "<p>使用 IDEBO 依迪布 电线管理袋，让电线管理更轻松更时尚！</p>",
+    "使用 IDEBO 依迪布 电线管理袋，让电线管理更轻松更时尚！",
     "和电线说再见",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "和电线说再见",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/11/dc/11dc5db3981d7c3f9cff52758fbb486d.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,16 +54,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "俯视图：手提包形状的白色电线管理袋，以及伸出来的电线。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ff/8c/ff8cb4913d971dd2ff3bf06ed3ac74a9.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>IDEBO 依迪布 电线管理袋形状类似手提包，是一款有趣且新颖的收纳解决方案，能轻松隐藏电线、插座和变压器。</p>"
+    "IDEBO 依迪布 电线管理袋形状类似手提包，是一款有趣且新颖的收纳解决方案，能轻松隐藏电线、插座和变压器。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -65,6 +87,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

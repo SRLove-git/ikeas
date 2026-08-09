@@ -11,7 +11,7 @@
    "title": "和谐有爱的双人儿童房",
    "texts": [
     "儿童房里放着一张白色的VITVAL 维特瓦尔 高架床，对面是一张白色的SLÄKT 斯莱克 床，带床中床和储物空间。",
-    "<p>一个孩子长住这个房间，另一个可能隔一周住一次，但重要的是，两个孩都能享受同样的舒适感和私密性。SL&Auml;KT 斯莱克 床架，带床中床和储物空间，既舒适又实用，也很适合朋友留宿。</p>",
+    "一个孩子长住这个房间，另一个可能隔一周住一次，但重要的是，两个孩都能享受同样的舒适感和私密性。SLäKT 斯莱克 床架，带床中床和储物空间，既舒适又实用，也很适合朋友留宿。",
     "和谐有爱的双人儿童房",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "和谐有爱的双人儿童房",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/79/94/7994e5a5e625db88c0f6ffd69c6bc14e.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -50,6 +60,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "白色的VITVAL 维特瓦尔 高架床下放着一个SÖDERHAMN 索德汉 单人沙发和一个蓝色的ALEX 阿来斯 带脚轮抽屉柜。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/36ce725fe47b9990/original/PH168767-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -76,6 +96,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "VITVAL 维特瓦尔 高架床的梯子旁边放着SLÄKT 斯莱克 床，床中床拉出，铺着GRACIÖS 格拉希思 床上用品，还放着一只毛绒玩具狗。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/27a823d5110824c1/original/PH168768-crop002.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -102,6 +132,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "VITVAL 维特瓦尔 高架床上层用挂帘包围，VIDGA 维德加 窗帘轨道悬挂UGGLEMOTT 乌格烈莫 布料制成的挂帘。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/51f4d804fe4628a9/original/PH168771-crop002.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -128,6 +168,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "带柜门和不带柜门的EKET 伊克特 壁柜和谐搭配，提供储物空间，里面装满了书籍和玩具。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/6d583450afbd6699/original/PH168769-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -154,6 +204,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "儿童房的天窗下放着PÅHL 佩尔 书桌和LOBERGET 洛贝里特/SIBBEN 西本 儿童书桌椅，还有一块SKÅDIS 斯考迪斯 钉板。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/191d6c96e954d56f/original/PH168770-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -169,6 +229,38 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "SLÄKT 斯莱克",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/slaekt-si-lai-ke-chuang-jia-dai-chu-wu-bai-se__0637775_pe698535_s4.jpg",
+     "href": "/cn/zh/p/slaekt-si-lai-ke-chuang-jia-dai-chu-wu-bai-se-89634956/"
+    },
+    {
+     "title": "VITVAL 维特瓦尔",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vitval-wei-te-wa-er-gao-jia-chuang-kuang-jia-bai-se-dan-hui-se__1458001_pe992849_s4.jpg",
+     "href": "/cn/zh/p/vitval-wei-te-wa-er-gao-jia-chuang-kuang-jia-bai-se-dan-hui-se-50619933/"
+    },
+    {
+     "title": "EKET 伊克特",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/eket-yi-ke-te-chu-gui-yi-men-yi-ge-ban-bai-se__0547133_pe656432_s4.jpg",
+     "href": "/cn/zh/p/eket-yi-ke-te-chu-gui-yi-men-yi-ge-ban-bai-se-70333939/"
+    },
+    {
+     "title": "EKET 伊克特",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/eket-yi-ke-te-bi-zhuang-ge-jia-dan-yuan-bai-se__1326088_pe944115_s4.jpg",
+     "href": "/cn/zh/p/eket-yi-ke-te-bi-zhuang-ge-jia-dan-yuan-bai-se-29285818/"
+    },
+    {
+     "title": "LOBERGET 洛贝里特 / SIBBEN 西本",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/loberget-luo-bei-li-te-sibben-xi-ben-er-tong-shu-zhuo-yi-bai-se__0826517_pe776395_s4.jpg",
+     "href": "/cn/zh/p/loberget-luo-bei-li-te-sibben-xi-ben-er-tong-shu-zhuo-yi-bai-se-39337713/"
+    }
+   ],
    "settings": null
   }
  ]

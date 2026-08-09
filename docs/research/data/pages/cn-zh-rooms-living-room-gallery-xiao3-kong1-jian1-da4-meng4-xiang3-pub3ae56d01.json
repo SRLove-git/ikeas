@@ -11,7 +11,7 @@
    "title": "小空间，大梦想",
    "texts": [
     "宜家为小型生活空间精心设计家具，从沙发床、可调节灯具到紧凑的储物柜，能够满足大小不同的空间需求及灵活的生活方式。",
-    "<p>我们的公寓面积越来越小，我们对生活的热情却从不减退。这个24小时生活空间里住着一位刚从时装学校毕业的学生。他尽可能地利用这间房间，以满足自己的布料收纳需求，从而为未来努力。</p>",
+    "我们的公寓面积越来越小，我们对生活的热情却从不减退。这个24小时生活空间里住着一位刚从时装学校毕业的学生。他尽可能地利用这间房间，以满足自己的布料收纳需求，从而为未来努力。",
     "小空间，大梦想",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "小空间，大梦想",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/99/31/9931da811f82d625d16d1c5ff32542f0.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -39,6 +49,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "KULLABERG 乐维",
+     "text": "¥499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kullaberg-le-wei-zhuan-yi-song-mu-hei-se__0724693_pe734575_s4.jpg",
+     "href": "/cn/zh/p/kullaberg-le-wei-zhuan-yi-song-mu-hei-se-90320342/"
+    },
+    {
+     "title": "ALSEDA 阿西达",
+     "text": "¥199",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/alseda-a-xi-da-deng-ba-jiao-xian-wei__24302_pe089431_s4.jpg",
+     "href": "/cn/zh/p/alseda-a-xi-da-deng-ba-jiao-xian-wei-40158135/"
+    }
+   ],
    "settings": null
   }
  ]

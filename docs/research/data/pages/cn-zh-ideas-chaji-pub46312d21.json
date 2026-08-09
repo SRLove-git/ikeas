@@ -11,7 +11,7 @@
    "title": "设计师的秘诀：如何让茶几拥有独特的风格",
    "texts": [
     "学习如何像设计师那样打造一张井井有条的完美茶几。",
-    "<p>想知道设计师们每次是怎样做到的？我们备受喜爱的Nathalie Kamkum将为你展示如何为茶几打造独特的风格。不妨做下笔记，从中寻找灵感吧！</p>",
+    "想知道设计师们每次是怎样做到的？我们备受喜爱的Nathalie Kamkum将为你展示如何为茶几打造独特的风格。不妨做下笔记，从中寻找灵感吧！",
     "设计师的秘诀：如何让茶几拥有独特的风格",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "设计师的秘诀：如何让茶几拥有独特的风格",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/55/8b/558bcc8e24603e9e8666f1223ccbdce9.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -40,6 +50,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -51,16 +63,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><em>我们乐意看到顾客运用我们的产品发挥创意。尽情发挥吧！但是请注意，经过微调或改造的宜家产品将丧失其原有功能，或无法进行二次销售，因此，你将不再享有宜家的商业保证及退货权利。</em></p>"
+    "我们乐意看到顾客运用我们的产品发挥创意。尽情发挥吧！但是请注意，经过微调或改造的宜家产品将丧失其原有功能，或无法进行二次销售，因此，你将不再享有宜家的商业保证及退货权利。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

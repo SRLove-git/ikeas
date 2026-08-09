@@ -11,7 +11,7 @@
    "title": "花朵绽放的餐区",
    "texts": [
     "探索这间饰有花卉图案的可持续餐厅，室内搭配有 IRMELIN 鄂米林 明亮花色窗帘、TORHAMN 图汗 厨房岛台和 NORRÅKER 诺鲁克 实心桦木餐桌等。",
-    "<p>你是设计爱好者吗？如果是的话，那么这间餐厅就是你的绝佳搭配！木制表面、开放式搁板、播种器，外加亮丽的色调，所有这些组合在一起，打造出充满生机的用餐区。</p>",
+    "你是设计爱好者吗？如果是的话，那么这间餐厅就是你的绝佳搭配！木制表面、开放式搁板、播种器，外加亮丽的色调，所有这些组合在一起，打造出充满生机的用餐区。",
     "花朵绽放的餐区",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "花朵绽放的餐区",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d7/9b/d79b134767ec0673ab4cd9ce01f1732e.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -39,6 +49,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "NORRÅKER 诺鲁克",
+     "text": "¥1,499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/norraker-nuo-lu-ke-zhuo-zi-hua-mu__0672488_pe716733_s4.jpg",
+     "href": "/cn/zh/p/norraker-nuo-lu-ke-zhuo-zi-hua-mu-70428980/"
+    },
+    {
+     "title": "HEKTAR 赫克塔",
+     "text": "¥149",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/hektar-he-ke-ta-diao-deng-shen-hui-se__0613033_pe686124_s4.jpg",
+     "href": "/cn/zh/p/hektar-he-ke-ta-diao-deng-shen-hui-se-70390369/"
+    }
+   ],
    "settings": null
   }
  ]

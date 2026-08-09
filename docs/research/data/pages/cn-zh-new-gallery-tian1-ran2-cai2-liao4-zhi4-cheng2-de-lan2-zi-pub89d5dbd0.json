@@ -11,7 +11,7 @@
    "title": "天然材料制成的篮子",
    "texts": [
     "在昏暗的环境中，有一个天然水草编织成的LUSTIGKURRE 卢迪古里 篮子，配有一个把手。",
-    "<p>宜家全新LUSTIGKURRE 卢迪古里 系列由天然纤维制成，现代设计与传统手工艺出色结合。该系列使用黄麻、水草、水椰、竹和水风信子等材料，制成不同款式的篮子和杂志架。</p>",
+    "宜家全新LUSTIGKURRE 卢迪古里 系列由天然纤维制成，现代设计与传统手工艺出色结合。该系列使用黄麻、水草、水椰、竹和水风信子等材料，制成不同款式的篮子和杂志架。",
     "天然材料制成的篮子",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "天然材料制成的篮子",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e3/62/e362c1b3fb96afb73ee501b6499c45f5.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -51,6 +61,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "水椰编织的LUSTIGKURRE 卢迪古里 篮子配有四个圆形把手，摆放在木凳上。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/60/73/6073ec1cde9f24795a84bc9aeb9d9685.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "在一间小屋里，有几个用水椰、水草和竹等天然材料制成的LUSTIGKURRE 卢迪古里 篮子，或悬挂在墙壁上，或摆放在台面上。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/8e/8a/8e8a9f783020f170eaf906241b4e4fd7.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "营造自然家居气息 LUSTIGKURRE 卢迪古里 系列为你提供一系列由环保材料制成的独特产品，且材料产地社区也能从该系列产品中获益。这些篮子能够为家居环境增添自然气息，同时从纺织品到杂志，可以用来存放各种物品。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/60/73/6073ec1cde9f24795a84bc9aeb9d9685.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/8e/8a/8e8a9f783020f170eaf906241b4e4fd7.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -66,6 +107,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

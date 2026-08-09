@@ -11,7 +11,7 @@
    "title": "如何制作甜菜根和燕麦奶昔",
    "texts": [
     "A glass of pink and white, beetroot and oat milk smoothie, with a white straw, topped with blueberries and coconut flakes.",
-    "<p>份量：4人份</p>\n<p>这款奶昔含有营养丰富的甜菜根和少许生姜，既是一款完美的早餐，让你一早上活力充沛；也是一道快手下午茶，给身体迅速补充能量。</p>",
+    "份量：4人份 这款奶昔含有营养丰富的甜菜根和少许生姜，既是一款完美的早餐，让你一早上活力充沛；也是一道快手下午茶，给身体迅速补充能量。",
     "如何制作甜菜根和燕麦奶昔",
     "normal"
    ],
@@ -24,36 +24,52 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "如何制作甜菜根和燕麦奶昔",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/95/a8/95a8ea01e031ac2f01050c589e30feb6.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2 class=\"p1\">材料：</h2>\n<p class=\"p1\">420克FRUKTSTUND 福露昔 预拌奶昔混合配料、甜菜根和姜</p>\n<p class=\"p1\">250克山羊奶</p>\n<p class=\"p1\">蓝莓和椰子片</p>"
+    "材料： 420克FRUKTSTUND 福露昔 预拌奶昔混合配料、甜菜根和姜 250克山羊奶 蓝莓和椰子片"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2 class=\"p1\">做法：</h2>\n<p class=\"p1\">1.解冻预拌奶昔块。</p>\n<p class=\"p1\">2.加入奶，用打蛋器搅拌。</p>\n<p class=\"p1\">3.将其倒入玻璃杯中，最后加上蓝莓和椰子片。</p>\n<p class=\"p1\">来尝一口吧！</p>"
+    "做法： 1.解冻预拌奶昔块。 2.加入奶，用打蛋器搅拌。 3.将其倒入玻璃杯中，最后加上蓝莓和椰子片。 来尝一口吧！"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2 class=\"p1\">美味小贴士</h2>\n<p class=\"p1\">你可以选择自己喜欢的奶类和浇头。当然，这个食谱也适用于其他口味的FRUKTSTUND 福露昔 奶昔。</p>"
+    "美味小贴士 你可以选择自己喜欢的奶类和浇头。当然，这个食谱也适用于其他口味的FRUKTSTUND 福露昔 奶昔。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

@@ -11,7 +11,7 @@
    "title": "可在一天中切换不同模式的客厅",
    "texts": [
     "一张ÄPPLARYD 艾普吕 沙发，前面有三张茶几，地上铺着蓝色的长绒地毯。沙发后面有一张餐桌和几张椅子。",
-    "<p>想要一间可随时切换用途的客厅？只要添置两张舒适沙发，一张可伸缩的餐桌，以及大量方便的储物，你就可以在客厅完成从白天到晚上的各种活动。</p>",
+    "想要一间可随时切换用途的客厅？只要添置两张舒适沙发，一张可伸缩的餐桌，以及大量方便的储物，你就可以在客厅完成从白天到晚上的各种活动。",
     "可在一天中切换不同模式的客厅",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "可在一天中切换不同模式的客厅",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/fb/62/fb623851a75b8c405650edc35c482a93.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -50,6 +60,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一张用于办公的STRANDTORP 斯特朗托普 伸缩型餐桌，上面有一个放在支架上的电脑显示器和一盏台灯，前面是一张办公椅。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/7a5c251a9bad7ff3/original/PH181286-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -76,6 +96,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个BESTÅ 贝达 储物柜靠墙摆放，其中一扇柜门打开，里面是储物篮。柜子上方的墙上有四个搁架。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/375a754992e2083b/original/PH181287-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -102,6 +132,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "客厅里有两张ÄPPLARYD 艾普吕 沙发面对面放置着，沙发之间有一排茶几，上面放着一个杯子和笔记本电脑。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/3b0069693e5cf875/original/PH181123-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -128,6 +168,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "STRANDTORP 斯特朗托普 伸缩型餐桌四周摆满了TOSSBERG 托斯贝利 软垫椅子，桌餐上摆放着8个人的餐具。上方悬挂着两盏吊灯。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/39bac3acc06ce7ec/original/PH181288-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -154,6 +204,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "两张ÄPPLARYD 艾普吕 沙发面对面放置着，中间有两张STOCKHOLM 斯德哥尔摩 茶几，上面放着食物、酒杯及水杯。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/20c7907ae373fd41/original/PH181275-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -172,6 +232,51 @@
     {
      "href": "/cat/fu001",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "梦想客厅触手可及",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/fu001",
+     "backgroundColor": null
+    },
+    {
+     "title": "ÄPPLARYD 艾普吕",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/aepplaryd-ai-pu-lu-shuang-ren-sha-fa-you-pa-shen-lan-se__0992860_pe820287_s4.jpg",
+     "href": "/cn/zh/p/aepplaryd-ai-pu-lu-shuang-ren-sha-fa-you-pa-shen-lan-se-10504279/"
+    },
+    {
+     "title": "STOCKHOLM 斯德哥尔摩",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/stockholm-si-de-ge-er-mo-tao-zhuo-2-jian-tao-hu-tao-mu-tie-mian__0735683_pe740088_s4.jpg",
+     "href": "/cn/zh/p/stockholm-si-de-ge-er-mo-tao-zhuo-2-jian-tao-hu-tao-mu-tie-mian-70353079/"
+    },
+    {
+     "title": "LÅNGFJÄLL 隆菲尔",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/langfjaell-long-fei-er-hui-yi-yi-gang-na-rui-de-shen-hui-se-hei-se__0726989_pe735480_s4.jpg",
+     "href": "/cn/zh/p/langfjaell-long-fei-er-hui-yi-yi-gang-na-rui-de-shen-hui-se-hei-se-99177575/"
+    },
+    {
+     "title": "ELLOVEN 爱洛文",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/elloven-ai-luo-wen-dai-chou-ti-xian-shi-qi-tai-zuo-mei-hei-se__0955983_pe804427_s4.jpg",
+     "href": "/cn/zh/p/elloven-ai-luo-wen-dai-chou-ti-xian-shi-qi-tai-zuo-mei-hei-se-80485102/"
+    },
+    {
+     "title": "EKET 伊克特",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/eket-yi-ke-te-bi-zhuang-ge-jia-dan-yuan-shen-hui-se__1326082_pe944110_s4.jpg",
+     "href": "/cn/zh/p/eket-yi-ke-te-bi-zhuang-ge-jia-dan-yuan-shen-hui-se-59285831/"
+    },
+    {
+     "title": "HELMER 海尔默",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/helmer-hai-er-mo-chou-ti-gui-dai-jiao-lun-hei-se__1419717_pe977088_s4.jpg",
+     "href": "/cn/zh/p/helmer-hai-er-mo-chou-ti-gui-dai-jiao-lun-hei-se-10621103/"
     }
    ],
    "settings": null
@@ -194,6 +299,15 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "混搭纺织品，营造和谐外观",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/tl001",
+     "backgroundColor": null
+    }
+   ],
    "settings": null
   },
   {
@@ -212,6 +326,39 @@
     {
      "href": "/cat/li001",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "不同活动，不同照明",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/li001",
+     "backgroundColor": null
+    },
+    {
+     "title": "RISBYN 里斯比恩",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/risbyn-li-si-bi-en-diao-deng-zhao-yang-cong-mi-huang-se__0732967_pe738771_s4.jpg",
+     "href": "/cn/zh/p/risbyn-li-si-bi-en-diao-deng-zhao-yang-cong-mi-huang-se-70458496/"
+    },
+    {
+     "title": "SUNNEBY 松尼比",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/sunneby-song-ni-bi-deng-xian-zhuang-zhi-bai-se-fang-zhi-pin__0626516_pe692831_s4.jpg",
+     "href": "/cn/zh/p/sunneby-song-ni-bi-deng-xian-zhuang-zhi-bai-se-fang-zhi-pin-70420267/"
+    },
+    {
+     "title": "HÅRTE 哈尔特",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/harte-ha-er-te-led-gong-zuo-deng-hei-se-yin-se__0683780_pe720869_s4.jpg",
+     "href": "/cn/zh/p/harte-ha-er-te-led-gong-zuo-deng-hei-se-yin-se-90266986/"
+    },
+    {
+     "title": "DEJSA 德萨",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/dejsa-de-sa-tai-deng-mi-huang-se-ru-bai-se-bo-li__0967540_pe810183_s4.jpg",
+     "href": "/cn/zh/p/dejsa-de-sa-tai-deng-mi-huang-se-ru-bai-se-bo-li-40404985/"
     }
    ],
    "settings": null
@@ -234,6 +381,45 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "客厅绽放新意",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/de001",
+     "backgroundColor": null
+    },
+    {
+     "title": "PERSILLADE 佩希拉德",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/persillade-pei-xi-la-de-zhuang-shi-yong-hua-pen-shen-hui-se__0439713_pe592235_s4.jpg",
+     "href": "/cn/zh/p/persillade-pei-xi-la-de-zhuang-shi-yong-hua-pen-shen-hui-se-60450995/"
+    },
+    {
+     "title": "FEJKA 菲卡",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/fejka-fei-qia-ren-zao-pen-zai-zhi-wu-shi-nei-hu-wai-gui-bei-zhu__0959226_pe809439_s4.jpg",
+     "href": "/cn/zh/p/fejka-fei-qia-ren-zao-pen-zai-zhi-wu-shi-nei-hu-wai-gui-bei-zhu-30493345/"
+    },
+    {
+     "title": "PERSILLADE 佩希拉德",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/persillade-pei-xi-la-de-zhuang-shi-yong-hua-pen-shen-hui-se__0439713_pe592235_s4.jpg",
+     "href": "/cn/zh/p/persillade-pei-xi-la-de-zhuang-shi-yong-hua-pen-shen-hui-se-40450996/"
+    },
+    {
+     "title": "STOCKHOLM 斯德哥尔摩",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/stockholm-si-de-ge-er-mo-jing-zi-hu-tao-mu-tie-mian__0633570_pe695904_s4.jpg",
+     "href": "/cn/zh/p/stockholm-si-de-ge-er-mo-jing-zi-hu-tao-mu-tie-mian-10446897/"
+    },
+    {
+     "title": "BULLIG 布丽格",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/bullig-bu-li-ge-he-zhu-he-se__0913363_pe783469_s4.jpg",
+     "href": "/cn/zh/p/bullig-bu-li-ge-he-zhu-he-se-10474593/"
+    }
+   ],
    "settings": null
   },
   {
@@ -252,6 +438,39 @@
     {
      "href": "/cat/kt001",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "用经典餐具布置时尚聚餐",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/kt001",
+     "backgroundColor": null
+    },
+    {
+     "title": "GLADELIG 格拉德里",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/gladelig-ge-la-de-li-die-hui-se__0799742_pe767613_s4.jpg",
+     "href": "/cn/zh/p/gladelig-ge-la-de-li-die-hui-se-80457156/"
+    },
+    {
+     "title": "GRÖNSAKER 格隆萨",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/groensaker-ge-long-sa-shang-cai-wan-zhu__0939901_pe794713_s4.jpg",
+     "href": "/cn/zh/p/groensaker-ge-long-sa-shang-cai-wan-zhu-40485731/"
+    },
+    {
+     "title": "GRÖNSAKER 格隆萨",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/groensaker-ge-long-sa-sha-la-yong-ju-2-jian-tao-zhu__0942081_pe795963_s4.jpg",
+     "href": "/cn/zh/p/groensaker-ge-long-sa-sha-la-yong-ju-2-jian-tao-zhu-20481244/"
+    },
+    {
+     "title": "DYRGRIP 迪尔格利普",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/dyrgrip-di-er-ge-li-pu-bei-zi-tou-ming-bo-li__1450043_pe990207_s4.jpg",
+     "href": "/cn/zh/p/dyrgrip-di-er-ge-li-pu-bei-zi-tou-ming-bo-li-10309305/"
     }
    ],
    "settings": null

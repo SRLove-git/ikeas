@@ -14,26 +14,32 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>改变灯光，从一种感觉开始。随后，这种感觉会融入你的日常生活当中。想充满活力？把灯光调亮。想放松一下？把灯光调暗。或者，进行其他操作。看，一切由你决定。现在，拿上遥控器，即可随心操纵。</p>"
+    "改变灯光，从一种感觉开始。随后，这种感觉会融入你的日常生活当中。想充满活力？把灯光调亮。想放松一下？把灯光调暗。或者，进行其他操作。看，一切由你决定。现在，拿上遥控器，即可随心操纵。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>有时候，光线弱一些，</strong><br /><strong>氛围会更浓一些</strong></h2>"
+    "有时候，光线弱一些， 氛围会更浓一些"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -41,7 +47,7 @@
    "title": null,
    "texts": [
     "https://v.youku.com/v_show/id_XMzAzNzYzNTkxMg==.html?spm=a2hww.20027244.m_250036.5~5!2~5~5!2~5~5~A",
-    "<p>当灯光变弱时，你讲话的节奏自然也就更缓慢，声音更柔和。只需要把手中的 TR&Aring;DFRI 特鲁菲 调光器 旋转一下，把灯光调暗一点点，你就可以发现生活中被忽略的美好。</p>",
+    "当灯光变弱时，你讲话的节奏自然也就更缓慢，声音更柔和。只需要把手中的 TRåDFRI 特鲁菲 调光器 旋转一下，把灯光调暗一点点，你就可以发现生活中被忽略的美好。",
     "MANUAL_INPUT"
    ],
    "images": [],
@@ -51,6 +57,8 @@
      "text": "\n<p>当灯光变弱时，你讲话的节奏自然也就更缓慢，声音更柔和。只需要把手中的 TR&Aring;DFRI 特鲁菲 调光器 旋转一下，把灯光调暗一点点，你就可以发现生活中被忽略的美好。</p>\n"
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -69,6 +77,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/71/65/7165ffe53f1d4b41b3e2b5ca30f5bdaa.png",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -87,16 +105,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e0/cb/e0cbbe7abd4c836628c612fdbf2cac83.png",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>氛围的设定由你决定</strong></h2>"
+    "氛围的设定由你决定"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -104,7 +134,7 @@
    "title": null,
    "texts": [
     "https://v.youku.com/v_show/id_XMzAzNzYzNjk4OA==.html?spm=a2hww.20027244.m_250036.5~5!2~5~5!2~5~5~A",
-    "<p>阅读的光线，看电影的光线，&ldquo;坐下来喝一杯&rdquo;的光线。操控遥控器，只需3个步骤即可改变灯光氛围，调节明暗，让光线从亮白光和暖白光之间切换。</p>",
+    "阅读的光线，看电影的光线，“坐下来喝一杯”的光线。操控遥控器，只需3个步骤即可改变灯光氛围，调节明暗，让光线从亮白光和暖白光之间切换。",
     "MANUAL_INPUT"
    ],
    "images": [],
@@ -114,6 +144,8 @@
      "text": "\n<p>阅读的光线，看电影的光线，&ldquo;坐下来喝一杯&rdquo;的光线。操控遥控器，只需3个步骤即可改变灯光氛围，调节明暗，让光线从亮白光和暖白光之间切换。</p>\n"
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -132,16 +164,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/79/47/79472ebd14bfa7ab4df07b5f9efaf201.png",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>对了，总会有适合玩乐的灯光</strong></h2>"
+    "对了，总会有适合玩乐的灯光"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -149,7 +193,7 @@
    "title": null,
    "texts": [
     "https://v.youku.com/v_show/id_XMzAzNzYzODIyNA==.html?spm=a2hww.20027244.m_250036.5~5!2~5~5!2~5~5~A",
-    "<p>在寻常的周一制造惊喜比你想象的更简单。只需动一动手指，就可以感受到奇妙的九色灯光。</p>",
+    "在寻常的周一制造惊喜比你想象的更简单。只需动一动手指，就可以感受到奇妙的九色灯光。",
     "MANUAL_INPUT"
    ],
    "images": [],
@@ -159,6 +203,8 @@
      "text": "\n<p>在寻常的周一制造惊喜比你想象的更简单。只需动一动手指，就可以感受到奇妙的九色灯光。</p>\n"
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -177,6 +223,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a7/0e/a70e6b95a4cdf3716ae222f7821794c3.png",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -187,16 +243,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>应用程序如同</strong><strong>晨光一般</strong></h2>"
+    "应用程序如同晨光一般"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -215,16 +275,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/2d/97/2d97ac722a6c9880a6dcdc8eea9f29d5.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>想象一下，在和煦的阳光中醒来的感觉。灯光将在你预定醒来时间前30分钟慢慢变亮。使用 TR&Aring;DFRI 特鲁菲 应用程序和网关，打造奇妙光线</p>"
+    "想象一下，在和煦的阳光中醒来的感觉。灯光将在你预定醒来时间前30分钟慢慢变亮。使用 TRåDFRI 特鲁菲 应用程序和网关，打造奇妙光线"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -243,6 +315,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/5e/e0/5ee08bfa77bc1ffb47577b3e3de9ec34.png",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -251,7 +333,7 @@
    "texts": [
     "查看使用 TRÅDFRI 特鲁菲 网关和应用程序的更多可能",
     "column",
-    "<h2><strong>所到之处，</strong><strong>美妙光线尽显</strong></h2>",
+    "所到之处，美妙光线尽显",
     "pub-text",
     "pub-image",
     "IMAGE"
@@ -265,16 +347,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ea/33/ea33e75f614f06e13f87428c1d715dd3.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>智能照明产品</strong></h2>\n<h4><strong>营造自己想要的氛围其实很简单</strong></h4>\n<p>而且价格也更实惠。宜家智能照明产品包括即用型无线套件：灯泡、照明门、壁灯甚至是应用程序。使用遥控器，你就可以操控任何灯具，调节明暗、开关灯、从亮光到柔光切换自如。</p>"
+    "智能照明产品 营造自己想要的氛围其实很简单 而且价格也更实惠。宜家智能照明产品包括即用型无线套件：灯泡、照明门、壁灯甚至是应用程序。使用遥控器，你就可以操控任何灯具，调节明暗、开关灯、从亮光到柔光切换自如。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -293,16 +387,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ac/4b/ac4b5ff413cc09b725b5d0440734857c.png",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><a href=\"https://www.ikea.cn/cn/zh/cat/led-36813/\">无线LED灯泡</a></p>"
+    "无线LED灯泡"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -321,16 +427,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/3f/d9/3fd95a53c8657db3e631ab5fd07d511b.png",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><a href=\"https://www.ikea.cn/cn/zh/cat/cny-36815/\">查看所有智能照明元件</a></p>"
+    "查看所有智能照明元件"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -349,16 +467,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/bb/53/bb53884d8734f2989eb8ae9afb90db02.png",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><a href=\"https://www.ikea.cn/cn/zh/cat/kong-zhi-zhuang-zhi-he-pei-jian-36814/\">智能照明装置</a></p>"
+    "智能照明装置"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -385,6 +515,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/08/38/0838033bf9cbddbaff6abeb78febbdad.png",
+     "href": "/cn/zh/customer-service/product-support/smart-lighting/",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -411,6 +551,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/86/53/865334efc30d4d877f55eae4b9a267b3.png",
+     "href": "/cn/zh/customer-service/product-support/smart-lighting/jian1-rong2-xing4-pub165edef7",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -437,16 +587,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/11/6d/116d1789bf073e44d5fd64e51b5db92b.png",
+     "href": "/cn/zh/customer-service/services/store-service-pub8e830e11",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>灯光的意义</strong></h2>"
+    "灯光的意义"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -454,7 +616,7 @@
    "title": null,
    "texts": [
     "https://v.youku.com/v_show/id_XMzEyMzU5NTE2OA==.html?spm=a2hww.20027244.m_250036.5~5!2~5~5!2~5~5~A",
-    "<p>光线对我们的心情和健康有着重要影响，而我们往往没有意识到这一点。<br /><a href=\"https://www.ikea.cn/cn/zh/rooms/living-room/how-to-plan-buy/deng-pub12708c91\">换种角度看照明</a></p>",
+    "光线对我们的心情和健康有着重要影响，而我们往往没有意识到这一点。 换种角度看照明",
     "MANUAL_INPUT"
    ],
    "images": [],
@@ -464,6 +626,8 @@
      "text": "\n<p>光线对我们的心情和健康有着重要影响，而我们往往没有意识到这一点。<br /><a href=\"https://www.ikea.cn/cn/zh/rooms/living-room/how-to-plan-buy/deng-pub1"
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -476,6 +640,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

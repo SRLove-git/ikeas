@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Page Title-"
    }
@@ -26,7 +28,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<p><strong>&ldquo;可持续的生活必须简单轻松，且应该是最自然的选择&rdquo;</strong></p>\n<p><strong>-INTER IKEA GROUP 可持续发展宣传部经理MALIN PETTERSSON-BECKEMAN</strong></p>\n<p>&nbsp; &nbsp; &nbsp; 我们想让人们轻松拥有更加健康可持续的生活方式。在提供更智能的产品之余，我们希望发起一项运动，旨在鼓励更加美好、更可持续的日常生活。我们将号召和激励尽可能多的人（包括我们的顾客、员工、供应商，甚至其他公司）与我们共同努力，选择更可持续的生活方式。</p>\n<p>&nbsp; &nbsp; &nbsp; 不可持续的消费和气候变化仍然是人类面临的最大挑战。我们知道，凭借我们的企业规模和机构设置，我们可以为创造更可持续的世界做出重要贡献。</p>",
+    "“可持续的生活必须简单轻松，且应该是最自然的选择” -INTER IKEA GROUP 可持续发展宣传部经理MALIN PETTERSSON-BECKEMAN 我们想让人们轻松拥有更加健康可持续的生活方式。在提供更智能的产品之余，我们希望发起一项运动，旨在鼓励更加美好、更可持续的日常生活。我们将号召和激励尽可能多的人（包括我们的顾客、员工、供应商，甚至其他公司）与我们共同努力，选择更可持续的生活方式。 不可持续的消费和气候变化仍然是人类面临的最大挑战。我们知道，凭借我们的企业规模和机构设置，我们可以为创造更可持续的世界做出重要贡献。",
     "pub-text"
    ],
    "images": [
@@ -38,6 +40,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e5/ed/e5ed4b27c5a4ec84392a53e9d0574ab4.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/e5/ed/e5ed4b27c5a4ec84392a53e9d0574ab4.jpg",
+     "href": null
+    },
+    {
+     "heading": "“可持续的生活必须简单轻松，且应该是最自然的选择” -INTER IKEA GROUP 可持续发展宣传部经理MALIN PETTERSSON-BECKEMAN 我们想让人们轻松拥有更加健康可持续的生活方式。在提供更智能的产品之余，我们希望发起一项运动，旨在鼓励更加美好、更可持续的日常生活。我们将号召和激励尽可能多的人（包括我们的顾客、员工、供应商，甚至其他公司）与我们共同努力，选择更可持续的生活方式。 不可持续的消费和气候变化仍然是人类面临的最大挑战。我们知道，凭借我们的企业规模和机构设置，我们可以为创造更可持续的世界做出重要贡献。",
+     "text": null,
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Columns-"
    }
@@ -47,7 +73,7 @@
    "title": null,
    "texts": [
     "pub-column",
-    "<h2>ASC 认证</h2>\n<p>&nbsp; &nbsp; &nbsp; &nbsp;指以负责任的方式养殖的海鲜,建立良好的水产养殖管理方式，符合可持续发展的要求，同时也能尽量减少对环境和社会的影响。如今，所有宜家所售的三文鱼均来自ASC 认证的海洋区域，确保渔之有道，年年有余。</p>",
+    "ASC 认证 指以负责任的方式养殖的海鲜,建立良好的水产养殖管理方式，符合可持续发展的要求，同时也能尽量减少对环境和社会的影响。如今，所有宜家所售的三文鱼均来自ASC 认证的海洋区域，确保渔之有道，年年有余。",
     "pub-text",
     "pub-image",
     "IMAGE",
@@ -62,6 +88,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/bb/e6/bbe62f85a5d31267aad65b82595745c6.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "ASC 认证 指以负责任的方式养殖的海鲜,建立良好的水产养殖管理方式，符合可持续发展的要求，同时也能尽量减少对环境和社会的影响。如今，所有宜家所售的三文鱼均来自ASC 认证的海洋区域，确保渔之有道，年年有余。",
+     "text": null,
+     "image": null,
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/bb/e6/bbe62f85a5d31267aad65b82595745c6.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Columns-"
    }
@@ -71,7 +121,7 @@
    "title": null,
    "texts": [
     "pub-column",
-    "<h2>MSC 认证</h2>\n<p>&nbsp; &nbsp; &nbsp; 指以负责任的方式在海洋捕捞的野生海鲜，宜家的水产品来自符合国际海洋理事会（MSC）环境标准的海域，并且符合良好管理和可持续捕捞的要求。让您在享用美味可口的MSC 认证的海产品的同时，也支持了可持续渔业的发展。</p>",
+    "MSC 认证 指以负责任的方式在海洋捕捞的野生海鲜，宜家的水产品来自符合国际海洋理事会（MSC）环境标准的海域，并且符合良好管理和可持续捕捞的要求。让您在享用美味可口的MSC 认证的海产品的同时，也支持了可持续渔业的发展。",
     "pub-text",
     "pub-image",
     "IMAGE",
@@ -86,6 +136,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/72/6b/726ba94d5ab177cb313d4d42547c3921.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "MSC 认证 指以负责任的方式在海洋捕捞的野生海鲜，宜家的水产品来自符合国际海洋理事会（MSC）环境标准的海域，并且符合良好管理和可持续捕捞的要求。让您在享用美味可口的MSC 认证的海产品的同时，也支持了可持续渔业的发展。",
+     "text": null,
+     "image": null,
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/72/6b/726ba94d5ab177cb313d4d42547c3921.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Columns-"
    }
@@ -95,7 +169,7 @@
    "title": null,
    "texts": [
     "pub-column",
-    "<h2>UTZ 认证</h2>\n<p>&nbsp; &nbsp; &nbsp; 随着道德消费主义的兴起，越来越多的消费者，不单单要求咖啡的上乘口感，而是更加重视咖啡豆的认证品质即是否符合UTZ 认证。</p>\n<p>&nbsp; &nbsp; &nbsp; 在玛雅语中，UTZ 的意思就是&ldquo;优质&rdquo;。UTZ 认证咖啡是以尊重人与环境的方式生产的。目前我们的消费者日渐关注其消费的咖啡是否在负责任地生产，是否关注人与自然环境。这意味我们所喝的每一杯咖啡都是易于人体健康。也意指咖啡农的下一代有受教育的权利而非成为劳工。</p>",
+    "UTZ 认证 随着道德消费主义的兴起，越来越多的消费者，不单单要求咖啡的上乘口感，而是更加重视咖啡豆的认证品质即是否符合UTZ 认证。 在玛雅语中，UTZ 的意思就是“优质”。UTZ 认证咖啡是以尊重人与环境的方式生产的。目前我们的消费者日渐关注其消费的咖啡是否在负责任地生产，是否关注人与自然环境。这意味我们所喝的每一杯咖啡都是易于人体健康。也意指咖啡农的下一代有受教育的权利而非成为劳工。",
     "pub-text",
     "pub-image",
     "IMAGE",
@@ -110,6 +184,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e9/b4/e9b4a3cb207f8ffa61ce6ef0eb689cac.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "UTZ 认证 随着道德消费主义的兴起，越来越多的消费者，不单单要求咖啡的上乘口感，而是更加重视咖啡豆的认证品质即是否符合UTZ 认证。 在玛雅语中，UTZ 的意思就是“优质”。UTZ 认证咖啡是以尊重人与环境的方式生产的。目前我们的消费者日渐关注其消费的咖啡是否在负责任地生产，是否关注人与自然环境。这意味我们所喝的每一杯咖啡都是易于人体健康。也意指咖啡农的下一代有受教育的权利而非成为劳工。",
+     "text": null,
+     "image": null,
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/e9/b4/e9b4a3cb207f8ffa61ce6ef0eb689cac.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Columns-"
    }

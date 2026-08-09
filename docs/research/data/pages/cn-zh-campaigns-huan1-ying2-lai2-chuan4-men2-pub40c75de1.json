@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "2846f857c9b54f94bcfc9bd300057778"
    }
@@ -34,6 +36,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/fe/10/fe10f32908493a12ed383dc6fd850cea.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "58b1cfb8fbca4c678807b5caf7e662e2"
    }
@@ -54,6 +66,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/51/8f/518f68fed0b4612300b8265c6ba355b1.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "5c0ebafaf8da427f83d48e9561188349"
    }
@@ -82,6 +104,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/42/3e/423e7a18bbb8e4e1290ca54887ecaa60.jpg",
+     "href": "/cn/zh/local-apps/media-resources/rooms/mobile/bedroom1/index-1.html",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "6f86b15f9f7d469e8ffdf22e1e358b7f"
    }
@@ -110,6 +142,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/fb/3f/fb3faad16eb5fdb306ce324200cdf729.jpg",
+     "href": "/cn/zh/local-apps/media-resources/rooms/mobile/bedroom2/index-2.html",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "c3df01251d384f8daf4788d90799a8ba"
    }
@@ -138,6 +180,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/1e/9d/1e9d81235d0d25b7ad1a05143a5cef3c.jpg",
+     "href": "/cn/zh/local-apps/media-resources/rooms/pc/bedroom2/index-3.html",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "77890f29ad6f4d3da8003801285a8e13"
    }
@@ -166,6 +218,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/6c/30/6c3098bdae3c9855e638850a8ac69f44.jpg",
+     "href": "/cn/zh/local-apps/media-resources/rooms/mobile/bedroom4/index-4.html",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "39f1ac86c0c94db1980d93643a46bbf8"
    }
@@ -194,6 +256,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ba/1e/ba1e533010e9342ab6d7722475067d93.jpg",
+     "href": "/cn/zh/local-apps/media-resources/rooms/mobile/bedroom5/index-5.html",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "24529f897db44498ade5a8821ae41757"
    }

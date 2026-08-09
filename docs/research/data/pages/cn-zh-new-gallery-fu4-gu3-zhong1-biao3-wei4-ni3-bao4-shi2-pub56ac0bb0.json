@@ -11,7 +11,7 @@
    "title": "复古钟表为你报时",
    "texts": [
     "特写：黑色 STURSK 思特科 挂钟饰有金色细节和指针，悬挂在金棕色墙面上。",
-    "<p>这款挂钟既美观又实用，能为家中增添与众不同的风格。STURSK 思特科 挂钟配有前后摆动的钟摆，极具复古魅力，无论挂在何处，都会十分引人注目。它是对传统落地钟的现代演绎！</p>",
+    "这款挂钟既美观又实用，能为家中增添与众不同的风格。STURSK 思特科 挂钟配有前后摆动的钟摆，极具复古魅力，无论挂在何处，都会十分引人注目。它是对传统落地钟的现代演绎！",
     "复古钟表为你报时",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "复古钟表为你报时",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/7e/e1/7ee1e6b186bd4e4f5775f412d8712080.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -46,6 +56,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "黑色 STURSK 思特科 挂钟饰有金色细节，配有钟摆。与传统挂钟一起置于墙面上。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b1/0c/b10c8ed0b92ed64b29fd7f9c219ad3c6.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/b1/0c/b10c8ed0b92ed64b29fd7f9c219ad3c6.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "STURSK 思特科 挂钟饰有金色细节和前后摆动的钟摆，无论挂在何处，都十分引人注目。",
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   }
  ]

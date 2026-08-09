@@ -11,7 +11,7 @@
    "title": "如何简单轻松地沿直线挂照片",
    "texts": [
     "饰有镶框黑白照片的照片墙。",
-    "<p>想要专业地悬挂图片拼贴画吗？看看我们的设计师Emma的视频，听她讲解如何轻松悬挂照片。使用 MÅTTEBY 莫特比 墙面模板，只需简单的一张纸即可达到精确的效果。</p>",
+    "想要专业地悬挂图片拼贴画吗？看看我们的设计师Emma的视频，听她讲解如何轻松悬挂照片。使用 MÅTTEBY 莫特比 墙面模板，只需简单的一张纸即可达到精确的效果。",
     "如何简单轻松地沿直线挂照片",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "如何简单轻松地沿直线挂照片",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/c5/83/c58331abd9591e3b2e806b4ab3dba88a.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -40,6 +50,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -51,16 +63,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>制作人</strong></p>\n<p>室内设计师：Emma Parkinson<br />摄影师：Sandra Werud</p>"
+    "制作人 室内设计师：Emma Parkinson 摄影师：Sandra Werud"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

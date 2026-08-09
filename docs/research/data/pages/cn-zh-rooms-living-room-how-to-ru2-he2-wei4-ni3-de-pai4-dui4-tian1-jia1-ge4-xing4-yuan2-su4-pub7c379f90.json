@@ -14,16 +14,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>当你为客人策划特别惊喜时，派对策划会更有趣。添加个性元素&mdash;&mdash;为他们亲手写下留言或信息。为你和客人营造难忘的派对体验。</p>"
+    "当你为客人策划特别惊喜时，派对策划会更有趣。添加个性元素——为他们亲手写下留言或信息。为你和客人营造难忘的派对体验。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -51,6 +55,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "一位金发女士正坐在书桌前，在几张YLLEVAD 伊勒瓦 明信片上书写留言。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/151fb61ba11ce439/original/PH175925.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "黑色的墙上用彩色丝带挂着八个ISTAD 艾斯塔 密封袋，里面装满五彩纸屑和纸巾。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/32f1b7229038df07/original/PH175926-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/151fb61ba11ce439/original/PH175925.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/32f1b7229038df07/original/PH175926-crop001.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -61,7 +96,7 @@
     "NO",
     "ikea://content/plp?catalogId=24924",
     "{\"objectId_var\":\"24924\",\"objectType_var\":\"plp\"}",
-    "想让别人的一天充满阳光，脸上洋溢幸福的微笑？将你的特别留言和礼物藏在R&Aring;DFR&Aring;GA 拉德芙格 装饰蛋里，营造意外的惊喜。",
+    "想让别人的一天充满阳光，脸上洋溢幸福的微笑？将你的特别留言和礼物藏在RåDFRåGA 拉德芙格 装饰蛋里，营造意外的惊喜。",
     "甜蜜的惊喜总会奏效"
    ],
    "images": [
@@ -77,6 +112,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "打开的 R&Aring;DFR&Aring;GA 拉德芙格 装饰蛋，里面放着一把钥匙，木桌上还摆放着几个蛋，旁边的花瓶里插着白色鲜花。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/78cb60c7790b94bd/original/PH175927-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -103,6 +148,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "门环上用彩色丝带挂着ENEBY 恩比 便携式蓝牙音箱，以及一张播放列表纸条。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/384a40306ed2d21c/original/PH175971-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -113,7 +168,7 @@
     "NO",
     "ikea://content/plp?catalogId=10776",
     "{\"objectId_var\":\"10776\",\"objectType_var\":\"plp\"}",
-    "鲜花作为礼物永远不会出错。挑选朋友最喜欢的花卉，再搭配一个BER&Auml;KNA 比莱纳 花瓶和甜蜜的留言，让你的礼物更有心意。",
+    "鲜花作为礼物永远不会出错。挑选朋友最喜欢的花卉，再搭配一个BERäKNA 比莱纳 花瓶和甜蜜的留言，让你的礼物更有心意。",
     "鲜花永远不会出错"
    ],
    "images": [
@@ -129,6 +184,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "窗边的桌子上放着一个盛满鲜花的BER&Auml;KNA 比莱纳 花瓶。桌上还放着细绳、包装纸和一支笔。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/7d426e75996167c/original/PH175929-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   }
  ]

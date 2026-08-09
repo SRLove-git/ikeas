@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -34,16 +36,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "传统客厅里摆放着白色沙发、黄麻毯、两张灰色茶几、灰色电视柜和两把藤条扶手椅。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/2a/5a/2a5abd5e0d4a12d20129d72bf5350558.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>如果你想要一个明亮、传统、协调的家，喜欢在家中运用斯堪的纳维亚设计与简约利落的线条，那么 HAVSTA 海思塔 系列正适合你。</p>"
+    "如果你想要一个明亮、传统、协调的家，喜欢在家中运用斯堪的纳维亚设计与简约利落的线条，那么 HAVSTA 海思塔 系列正适合你。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -76,6 +90,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "客厅里配有灰色的 HAVSTA 海思塔 附踢脚板电视柜和两个灰色的 HAVSTA 海思塔 茶几，二者营造出了一种协调统一的风格。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d8/4f/d84f7b246370e1d907f834bb6b56925c.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "两个灰色的长几放置在沙发后面，充当装饰性房间隔断。长几上面摆放着两盏台灯。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e2/0e/e20e41f3098bfc9c9e4c85ddc8fa0f37.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "四个 KYRRE 叙勒 桦木凳子叠放在窗户旁边，当餐桌展开时，它们能提供更多座位。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d9/fd/d9fdc8be6926b06a96b30dc3a305bff1.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "HAVSTA 海思塔 系列设计经典，选用同系列的电视柜、茶几等家具，可以轻松打造和谐统一的家居外观！",
+     "image": "https://file.app.ikea.cn/images/d8/4f/d84f7b246370e1d907f834bb6b56925c.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "沙发长几可用作时尚美观的房间隔断，同时又能为你提供额外的储物空间与漂亮的展示区域。",
+     "image": "https://file.app.ikea.cn/images/e2/0e/e20e41f3098bfc9c9e4c85ddc8fa0f37.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "伸缩型餐桌展开后需要更多座位？那就加几个 KYRRE 叙勒 凳子在桌边吧，不用时可以叠放在一个小角落。",
+     "image": "https://file.app.ikea.cn/images/d9/fd/d9fdc8be6926b06a96b30dc3a305bff1.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -103,6 +161,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "NORDVIKEN 诺德维肯 伸缩型餐桌和椅子，摆放着早餐。温暖的光线从上方的吊灯中投射下来。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/c4/90/c490a4b9774249245ac033ad02ead30d.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "客厅里摆放着白色 HAVSTA 海思塔 玻璃滑门储物组合，里面存放着餐具和杯子。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a0/6e/a06e4e1265ec250c0a2539e4414eeac8.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "NORDVIKEN 诺德维肯 伸缩型餐桌外观简约经典，可与传统设计的 HAVSTA 海思塔 家具和谐相融。",
+     "image": "https://file.app.ikea.cn/images/c4/90/c490a4b9774249245ac033ad02ead30d.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "HAVSTA 海思塔 储物柜带有玻璃滑门，可美观展示你的物品，防止落灰。如果想点亮储物柜，也可以轻松安装照明灯具。",
+     "image": "https://file.app.ikea.cn/images/a0/6e/a06e4e1265ec250c0a2539e4414eeac8.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -118,6 +207,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "SANDARED 桑德利",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/sandared-sang-de-li-ai-deng-mi-huang-se__0560902_pe662686_s4.jpg",
+     "href": "/cn/zh/p/sandared-sang-de-li-ai-deng-mi-huang-se-70385315/"
+    },
+    {
+     "title": "LOHALS 鲁哈斯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lohals-lu-ha-si-ping-zhi-di-tan-zi-ran-se__0280230_pe419175_s4.jpg",
+     "href": "/cn/zh/p/lohals-lu-ha-si-ping-zhi-di-tan-zi-ran-se-80277396/"
+    }
+   ],
    "settings": null
   }
  ]

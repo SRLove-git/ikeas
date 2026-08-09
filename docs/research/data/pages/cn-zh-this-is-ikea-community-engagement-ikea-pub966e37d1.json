@@ -11,7 +11,7 @@
    "title": "在工厂",
    "texts": [
     "两名工厂女工正在生产宜家家具，其中一人手握一块桦木贴面侧板。",
-    "<p>两名工厂女工正在生产宜家家具，其中一人手握一块桦木贴面侧板。</p>",
+    "两名工厂女工正在生产宜家家具，其中一人手握一块桦木贴面侧板。",
     "在工厂",
     "normal"
    ],
@@ -24,16 +24,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "在工厂",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/8b/5c/8b5c5d53217b90741611743f9fd4e47d.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3>了解我们的供应商</h3>\n<p>宜家虽然对家具了如指掌，但却比不上家具制造者对家具的了解。我们在工厂与供应商密切合作的原因就在于此。我们相信，好的创意随时随地都能产生，而与供应商合作总能让我们不断找到新颖巧妙的方法。接下来，就让我们认识一下那些每天为宜家默默付出的人。</p>"
+    "了解我们的供应商 宜家虽然对家具了如指掌，但却比不上家具制造者对家具的了解。我们在工厂与供应商密切合作的原因就在于此。我们相信，好的创意随时随地都能产生，而与供应商合作总能让我们不断找到新颖巧妙的方法。接下来，就让我们认识一下那些每天为宜家默默付出的人。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -45,7 +57,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<p>一台机器将安装说明装进包装盒。</p>"
+    "一台机器将安装说明装进包装盒。"
    ],
    "images": [
     "https://file.app.ikea.cn/images/1d/50/1d503b99d2480abdfdb79d2c46ca4019.jpg"
@@ -60,6 +72,24 @@
      "text": "\n<p>Gyllensvaans是我们的首批供应商之一。1952年，这家瑞典家族式企业向宜家交付了首批家具。1978年，Gyllensvaans开始生产著名的 BILLY 毕利 书柜，现在已发展为 BILLY 毕利 系列最大的供应商。</p"
     }
    ],
+   "items": [
+    {
+     "title": "一台机器将安装说明装进包装盒。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/1d/50/1d503b99d2480abdfdb79d2c46ca4019.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "一台机器将安装说明装进包装盒。",
+     "image": "https://file.app.ikea.cn/images/1d/50/1d503b99d2480abdfdb79d2c46ca4019.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   }
  ]

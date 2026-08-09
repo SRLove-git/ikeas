@@ -14,16 +14,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>扫码关注宜家的公众号和<a href=\"http://weibo.com/p/1006061785749160\" target=\"_blank\">微博</a>，更多家居灵感和优惠资讯触手可及。</p>"
+    "扫码关注宜家的公众号和微博，更多家居灵感和优惠资讯触手可及。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -49,6 +53,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b3/eb/b3eb275d682241ed5089a768b62d3f5d.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/06/13/0613e2a63a51cddb14b9172661219fe8.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/b3/eb/b3eb275d682241ed5089a768b62d3f5d.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/06/13/0613e2a63a51cddb14b9172661219fe8.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   }
  ]

@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -32,16 +34,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/39/62/39625614e17f2f34fd05c89b09d300d5.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>1. 枕头</h2>\n<p>选择一款酣睡整夜的枕头，首先你要了解自己的习惯睡姿（仰卧、侧卧或俯卧），然后根据个人需求寻找具有特定优点和功能的枕头。</p>"
+    "1. 枕头 选择一款酣睡整夜的枕头，首先你要了解自己的习惯睡姿（仰卧、侧卧或俯卧），然后根据个人需求寻找具有特定优点和功能的枕头。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -86,6 +100,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/14/39/1439a927430078a73e4f7abd5e672130.jpg",
+     "href": "/cn/zh/h5page/?url=%23dfc43300-27f9-11ec-a265-6981297c1824",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/2f/ee/2feefc449d0f1c120ce5491b6cbf7976.jpg",
+     "href": "/cn/zh/h5page/?url=%2308044e90-27fa-11ec-a265-6981297c1824",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ba/e2/bae270385ef166f086104e9956b75da7.jpg",
+     "href": "/cn/zh/h5page/?url=%231ee9f880-27fa-11ec-a265-6981297c1824",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/14/39/1439a927430078a73e4f7abd5e672130.jpg",
+     "href": "/cn/zh/h5page/?url=%23dfc43300-27f9-11ec-a265-6981297c1824"
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/2f/ee/2feefc449d0f1c120ce5491b6cbf7976.jpg",
+     "href": "/cn/zh/h5page/?url=%2308044e90-27fa-11ec-a265-6981297c1824"
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/ba/e2/bae270385ef166f086104e9956b75da7.jpg",
+     "href": "/cn/zh/h5page/?url=%231ee9f880-27fa-11ec-a265-6981297c1824"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -112,6 +170,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/24/c9/24c9968cc12a3401e36a08083faa3250.jpg",
+     "href": "/cn/zh/search/products?q=仰卧",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -127,6 +195,38 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "KLUBBSPORRE 克鲁布斯珀勒",
+     "text": "¥299",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/klubbsporre-ke-lu-bu-si-po-le-ren-ti-gong-xue-zhen-ce-wo-yang-wo__0792296_pe764700_s4.jpg",
+     "href": "/cn/zh/p/klubbsporre-ke-lu-bu-si-po-le-ren-ti-gong-xue-zhen-ce-wo-yang-wo-80446097/"
+    },
+    {
+     "title": "ROSENSKÄRM 洛森浣",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/rosenskaerm-luo-sen-wan-ren-ti-gong-xue-zhen-ce-wo-yang-wo__0722542_pe733642_s4.jpg",
+     "href": "/cn/zh/p/rosenskaerm-luo-sen-wan-ren-ti-gong-xue-zhen-ce-wo-yang-wo-70444367/"
+    },
+    {
+     "title": "BJERGSTED 别里斯迭",
+     "text": "¥199",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/bjergsted-bie-li-si-die-ren-ti-gong-xue-zhen-ce-wo-yang-wo__1002942_pe824923_s4.jpg",
+     "href": "/cn/zh/p/bjergsted-bie-li-si-die-ren-ti-gong-xue-zhen-ce-wo-yang-wo-10512972/"
+    },
+    {
+     "title": "FUGLSÖ 弗格索",
+     "text": "¥199",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/fuglsoe-fu-ge-suo-ren-ti-gong-xue-zhen-ce-wo-yang-wo__1009513_pe827653_s4.jpg",
+     "href": "/cn/zh/p/fuglsoe-fu-ge-suo-ren-ti-gong-xue-zhen-ce-wo-yang-wo-90512973/"
+    },
+    {
+     "title": "MJÖLKKLOCKA 缪克洛卡",
+     "text": "¥149",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mjoelkklocka-mou-ke-luo-qia-ren-ti-gong-xue-zhen-ce-wo-yang-wo__0792306_pe764702_s4.jpg",
+     "href": "/cn/zh/p/mjoelkklocka-mou-ke-luo-qia-ren-ti-gong-xue-zhen-ce-wo-yang-wo-80446771/"
+    }
+   ],
    "settings": null
   },
   {
@@ -153,6 +253,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/22/df/22df0ba6642054eb45aa46558ef92e3b.jpg",
+     "href": "/cn/zh/search/products?q=侧卧",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -168,6 +278,38 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "KLUBBSPORRE 克鲁布斯珀勒",
+     "text": "¥299",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/klubbsporre-ke-lu-bu-si-po-le-ren-ti-gong-xue-zhen-ce-wo-yang-wo__0792296_pe764700_s4.jpg",
+     "href": "/cn/zh/p/klubbsporre-ke-lu-bu-si-po-le-ren-ti-gong-xue-zhen-ce-wo-yang-wo-80446097/"
+    },
+    {
+     "title": "ROSENSKÄRM 洛森浣",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/rosenskaerm-luo-sen-wan-ren-ti-gong-xue-zhen-ce-wo-yang-wo__0722542_pe733642_s4.jpg",
+     "href": "/cn/zh/p/rosenskaerm-luo-sen-wan-ren-ti-gong-xue-zhen-ce-wo-yang-wo-70444367/"
+    },
+    {
+     "title": "MJÖLKKLOCKA 缪克洛卡",
+     "text": "¥149",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mjoelkklocka-mou-ke-luo-qia-ren-ti-gong-xue-zhen-ce-wo-yang-wo__0792306_pe764702_s4.jpg",
+     "href": "/cn/zh/p/mjoelkklocka-mou-ke-luo-qia-ren-ti-gong-xue-zhen-ce-wo-yang-wo-80446771/"
+    },
+    {
+     "title": "FUGLSÖ 弗格索",
+     "text": "¥199",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/fuglsoe-fu-ge-suo-ren-ti-gong-xue-zhen-ce-wo-yang-wo__1009513_pe827653_s4.jpg",
+     "href": "/cn/zh/p/fuglsoe-fu-ge-suo-ren-ti-gong-xue-zhen-ce-wo-yang-wo-90512973/"
+    },
+    {
+     "title": "BJERGSTED 别里斯迭",
+     "text": "¥199",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/bjergsted-bie-li-si-die-ren-ti-gong-xue-zhen-ce-wo-yang-wo__1002942_pe824923_s4.jpg",
+     "href": "/cn/zh/p/bjergsted-bie-li-si-die-ren-ti-gong-xue-zhen-ce-wo-yang-wo-10512972/"
+    }
+   ],
    "settings": null
   },
   {
@@ -194,6 +336,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/7a/0a/7a0abc52127f77f11a3a5023a0b973fe.jpg",
+     "href": "/cn/zh/search/products?q=俯卧",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -209,16 +361,26 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "VILDKORN 维孔",
+     "text": "¥49.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vildkorn-wei-kong-di-zhen__0789326_pe763943_s4.jpg",
+     "href": "/cn/zh/p/vildkorn-wei-kong-di-zhen-10460591/"
+    }
+   ],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>2. 被子</h2>\n<p>选择一款优质舒适的被子，不仅能改善我们的睡眠质量，更能改善我们的睡眠环境，正所谓&ldquo;黄金万两，不如好被一床&ldquo;。</p>"
+    "2. 被子 选择一款优质舒适的被子，不仅能改善我们的睡眠质量，更能改善我们的睡眠环境，正所谓“黄金万两，不如好被一床“。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -263,6 +425,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/89/81/89812219db7c3087c0b213d4d284f605.jpg",
+     "href": "/cn/zh/h5page/?url=%23f9f72ae0-2743-11ec-b84b-ebf0ec3cf99a",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/40/19/40195d4f207a9164e4ecafbda275f184.jpg",
+     "href": "/cn/zh/h5page/?url=%23fe505660-2744-11ec-9006-1fb11515e000",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/77/c8/77c8b38aa8366f66525db1076db57a24.jpg",
+     "href": "/cn/zh/h5page/?url=%232a698d70-2745-11ec-9006-1fb11515e000",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/89/81/89812219db7c3087c0b213d4d284f605.jpg",
+     "href": "/cn/zh/h5page/?url=%23f9f72ae0-2743-11ec-b84b-ebf0ec3cf99a"
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/40/19/40195d4f207a9164e4ecafbda275f184.jpg",
+     "href": "/cn/zh/h5page/?url=%23fe505660-2744-11ec-9006-1fb11515e000"
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/77/c8/77c8b38aa8366f66525db1076db57a24.jpg",
+     "href": "/cn/zh/h5page/?url=%232a698d70-2745-11ec-9006-1fb11515e000"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -271,7 +477,7 @@
    "texts": [
     "image-text-landscape",
     "IMAGE",
-    "<p>建议选择如莱赛尔材质等透气性良好、可消除湿气的填料。<br />填充物含粘胶纤维 / 人造纤维，让人在温热环境中感到凉爽。<br />纤维含量越高触感越凉爽，温度调节性能越好。</p>",
+    "建议选择如莱赛尔材质等透气性良好、可消除湿气的填料。 填充物含粘胶纤维 / 人造纤维，让人在温热环境中感到凉爽。 纤维含量越高触感越凉爽，温度调节性能越好。",
     "多汗星人",
     "/search/products?q=蚕丝",
     "NO"
@@ -293,6 +499,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d3/93/d39315a84250be90a4e7a4b36bd3aac3.jpg",
+     "href": null,
+     "backgroundColor": "#ded4bb"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -307,6 +523,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "MJUKDÅN 姆克道恩",
+     "text": "¥999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mjukdan-mu-ke-dao-en-nuan-bei__0973274_pe811972_s4.jpg",
+     "href": "/cn/zh/p/mjukdan-mu-ke-dao-en-nuan-bei-00503275/"
+    },
+    {
+     "title": "MJUKDÅN 姆克道恩",
+     "text": "¥2,999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mjukdan-mu-ke-dao-en-bei-zi-chao-nuan-xing__1032093_pe836758_s4.jpg",
+     "href": "/cn/zh/p/mjukdan-mu-ke-dao-en-bei-zi-chao-nuan-xing-30522927/"
+    }
+   ],
    "settings": null
   },
   {
@@ -315,7 +545,7 @@
    "texts": [
     "image-text-landscape",
     "IMAGE",
-    "<p>蓬松的羽绒或者桑蚕丝厚被能给你带来温暖舒适的睡眠环境。<br />鸭绒含量越高，越轻盈柔软。<br />轻盈柔软的鸭毛</p>",
+    "蓬松的羽绒或者桑蚕丝厚被能给你带来温暖舒适的睡眠环境。 鸭绒含量越高，越轻盈柔软。 轻盈柔软的鸭毛",
     "怕冷星人",
     "/search/products?q=羽绒",
     "NO"
@@ -337,6 +567,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/4d/96/4d9603c2ef48afa686c0c23adf35f089.jpg",
+     "href": null,
+     "backgroundColor": "#b4a494"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -350,6 +590,26 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "FJÄLLARNIKA 福雅拉尼",
+     "text": "¥499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/fjaellarnika-fu-ya-la-ni-bei-zi-chao-nuan-xing__0788101_pe763466_s4.jpg",
+     "href": "/cn/zh/p/fjaellarnika-fu-ya-la-ni-bei-zi-chao-nuan-xing-30459285/"
+    },
+    {
+     "title": "FJÄLLBRÄCKA 菲亚蕾",
+     "text": "¥999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/fjaellbraecka-fei-ya-lei-bei-zi-chao-nuan-xing__0788124_pe763475_s4.jpg",
+     "href": "/cn/zh/p/fjaellbraecka-fei-ya-lei-bei-zi-chao-nuan-xing-70458774/"
+    },
+    {
+     "title": "FJÄLLHAVRE 菲亚哈",
+     "text": "¥1,999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/fjaellhavre-fei-ya-ha-bei-zi-chao-nuan-xing__0788259_pe763544_s4.jpg",
+     "href": "/cn/zh/p/fjaellhavre-fei-ya-ha-bei-zi-chao-nuan-xing-20458328/"
+    }
+   ],
    "settings": null
   },
   {
@@ -358,7 +618,7 @@
    "texts": [
     "image-text-landscape",
     "IMAGE",
-    "<p>换季期间合成 / 人工填料方便经常清洗，适合敏感的人群。<br />性价比之王</p>",
+    "换季期间合成 / 人工填料方便经常清洗，适合敏感的人群。 性价比之王",
     "易敏人群",
     "/search/products?q=聚酯",
     "NO"
@@ -380,6 +640,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/bf/72/bf720e7ca3740a9ce7d0d99afe8c8695.jpg",
+     "href": null,
+     "backgroundColor": "#f0ede8"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -393,16 +663,32 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "SMÅSPORRE 思莫斯伯",
+     "text": "¥249",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/smasporre-si-mo-si-bo-te-nuan-bei__0788319_pe763573_s4.jpg",
+     "href": "/cn/zh/p/smasporre-si-mo-si-bo-te-nuan-bei-50458435/"
+    },
+    {
+     "title": "SMÅSPORRE 思莫斯伯",
+     "text": "¥199",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/smasporre-si-mo-si-bo-nuan-bei__0788611_pe763663_s4.jpg",
+     "href": "/cn/zh/p/smasporre-si-mo-si-bo-nuan-bei-60457987/"
+    }
+   ],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>3.被套</h2>\n<p>选择一款优质舒适的被套，不但可以改善睡眠质量，还可以让心情保持愉悦。</p>"
+    "3.被套 选择一款优质舒适的被套，不但可以改善睡眠质量，还可以让心情保持愉悦。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -428,6 +714,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/05/25/052574ed3792195c184b9513bbd417d4.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/33/2d/332de58d149eec5c79bba1c10c532fbd.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/05/25/052574ed3792195c184b9513bbd417d4.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/33/2d/332de58d149eec5c79bba1c10c532fbd.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -474,6 +791,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/7b/f8/7bf8c9943c125bb9a1abcb4213dea036.jpg",
+     "href": "/cn/zh/p/70501367?artType=ART",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/fc/93/fc937c878d5331c30a12b817ea8af9f7.jpg",
+     "href": "/cn/zh/p/70501367?artType=ART",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/f7/a4/f7a4784aba0a94945da9c377f0ea7c8a.jpg",
+     "href": "/cn/zh/p/80500763?artType=ART",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/5a/d4/5ad451a05058669a798f17e6b82e0893.jpg",
+     "href": "/cn/zh/p/00423250?artType=ART",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/2c/14/2c14bfe890360305cb59734ca12fcab0.jpg",
+     "href": "/cn/zh/p/10525960?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -489,6 +844,14 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "ÅKERKULLA 阿库拉",
+     "text": "¥299",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/akerkulla-a-ku-la-bei-tao-he-2-ge-zhen-tao-hua__0969190_pe810711_s4.jpg",
+     "href": "/cn/zh/p/akerkulla-a-ku-la-bei-tao-he-2-ge-zhen-tao-hua-70501367/"
+    }
+   ],
    "settings": null
   },
   {
@@ -535,6 +898,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/da/a8/daa8aa1bde4375b190c65f23907d19b3.jpg",
+     "href": "/cn/zh/p/80525909?artType=ART",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/71/c6/71c6de2330cdfe331dce670ca2be508f.jpg",
+     "href": "/cn/zh/p/30492973?artType=ART",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/af/8f/af8fe647b9b3b37190d68b50647d9f36.jpg",
+     "href": "/cn/zh/p/90490669?artType=ART",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b1/77/b177ddfcd1920539a46506500af601d5.jpg",
+     "href": "/cn/zh/p/80337164?artType=ART",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d2/34/d23423817ff38b16222b4e525ec43652.jpg",
+     "href": "/cn/zh/p/90500734?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -550,6 +951,14 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "NATTJASMIN 纳斯敏",
+     "text": "¥299",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/nattjasmin-na-si-min-bei-tao-he-2-ge-zhen-tao-bai-se__1556698_pe1024491_s4.jpg",
+     "href": "/cn/zh/p/nattjasmin-na-si-min-bei-tao-he-2-ge-zhen-tao-bai-se-80337164/"
+    }
+   ],
    "settings": null
   },
   {
@@ -596,6 +1005,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/15/0d/150d75afecdf333297d3ebc748938534.jpg",
+     "href": "/cn/zh/p/90399651?artType=ART",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b8/90/b89029e6d801f65863a25be11d764fdf.jpg",
+     "href": "/cn/zh/p/30508016?artType=ART",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/83/5f/835faf64987c97e5cd12f9484b812508.jpg",
+     "href": "/cn/zh/p/30520117?artType=ART",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/2e/07/2e07d77fd2259b48d29ab78c2e7dbb34.jpg",
+     "href": "/cn/zh/p/90399651?artType=ART",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/1b/09/1b09471c7c42940a51e60180b461662f.jpg",
+     "href": "/cn/zh/p/40508025?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -611,13 +1058,27 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "NATTSLÄNDA 纳斯兰",
+     "text": "¥199",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/nattslaenda-na-si-lan-bei-tao-he-zhen-tao-hua-hui-tu-an-duo-se__0977177_pe813446_s4.jpg",
+     "href": "/cn/zh/p/nattslaenda-na-si-lan-bei-tao-he-zhen-tao-hua-hui-tu-an-duo-se-30508016/"
+    },
+    {
+     "title": "NATTSLÄNDA 纳斯兰",
+     "text": "¥199",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/nattslaenda-na-si-lan-bei-tao-he-zhen-tao-hua-hui-tu-an-hui-se-bai-se__0977184_pe813431_s4.jpg",
+     "href": "/cn/zh/p/nattslaenda-na-si-lan-bei-tao-he-zhen-tao-hua-hui-tu-an-hui-se-bai-se-40508025/"
+    }
+   ],
    "settings": null
   },
   {
    "type": "pub-curated-gallery",
    "title": "卡通风格",
    "texts": [
-    "100% 纯棉，天然耐用，越洗越柔软。\n通过检测，不含任何对皮肤和健康有害的化学成分。",
+    "100% 纯棉，天然耐用，越洗越柔软。 通过检测，不含任何对皮肤和健康有害的化学成分。",
     "卡通风格",
     "/p/10440174?artType=ART",
     "NO",
@@ -657,6 +1118,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/58/07/5807bdf32c97e27a55ff20b1b4c0ef94.jpg",
+     "href": "/cn/zh/p/10440174?artType=ART",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/58/1e/581ee8ea0f810de118be7c3e5918dca9.jpg",
+     "href": "/cn/zh/p/80464128?artType=ART",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/06/62/066277817cd6eca09af33272e4dc9dfb.jpg",
+     "href": "/cn/zh/p/80504370?artType=ART",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/2b/e9/2be91bb503929bd255cfa5b22badfa2c.jpg",
+     "href": "/cn/zh/p/00504699?artType=ART",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/14/e5/14e5197f3e338431680abb8f48406c45.jpg",
+     "href": "/cn/zh/p/40351010?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -671,16 +1170,26 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "BARNDRÖM 巴恩德吕姆",
+     "text": "¥199",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/barndroem-ba-en-de-lu-mu-bei-tao-he-zhen-tao-mao-mi-tu-an-lu-se__0963395_pe808486_s4.jpg",
+     "href": "/cn/zh/p/barndroem-ba-en-de-lu-mu-bei-tao-he-zhen-tao-mao-mi-tu-an-lu-se-70504399/"
+    }
+   ],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>使用宜家设计工具，让你的梦想变成现实。</h2>\n<p>在购买之前，使用简单易用的宜家设计工具，玩转色彩、风格、尺寸和配置，随心打造个性设计。</p>"
+    "使用宜家设计工具，让你的梦想变成现实。 在购买之前，使用简单易用的宜家设计工具，玩转色彩、风格、尺寸和配置，随心打造个性设计。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -689,7 +1198,7 @@
    "texts": [
     "image-text-landscape",
     "IMAGE",
-    "<p>想在格外舒适的睡眠中醒来，不妨尝试一下我们的舒适睡眠指南。</p>",
+    "想在格外舒适的睡眠中醒来，不妨尝试一下我们的舒适睡眠指南。",
     "打造个性化舒适睡眠",
     "#FFFFFF",
     "/h5page/?url=https%3A%2F%2Fwww.ikea.cn%2Faddon-app%2Fcompletesleep%2Fneedmap%2F1.42.2.5111%2F%3Flocale%3Dzh_CN%26uiPlatform%3Dm2%23needmap"
@@ -707,6 +1216,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/62/36/623600648a40ce136ba81ed19d4cb585.jpg",
+     "href": null,
+     "backgroundColor": "#7f8794"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -753,6 +1272,51 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "灯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/bc/97/bc9754a562299dadfa1de008a7397f7a.jpg",
+     "href": "/cn/zh/cat/li002",
+     "backgroundColor": "#f5f5f5"
+    },
+    {
+     "title": "蜡烛",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/de/ba/deba1ff3e1a41827cfe87b986f424ced.jpg",
+     "href": "/cn/zh/cat/14971",
+     "backgroundColor": "#f5f5f5"
+    },
+    {
+     "title": "空气净化器",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/35/9d/359df43de9f6cc98bfce0aed8b024cb7.png",
+     "href": "/cn/zh/cat/49081",
+     "backgroundColor": "#f5f5f5"
+    },
+    {
+     "title": "窗帘",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/1e/c4/1ec42d27992ef2e7a46c2fc41fa33fdf.jpg",
+     "href": "/cn/zh/cat/tl002",
+     "backgroundColor": "#f5f5f5"
+    },
+    {
+     "title": "音箱",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/36/a4/36a478617febbb1cb8dece5de6f56915.jpg",
+     "href": "/cn/zh/cat/40842",
+     "backgroundColor": "#f5f5f5"
+    },
+    {
+     "title": "地毯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/89/e8/89e8bd6d948d5924619336c3ffda388f.jpg",
+     "href": "/cn/zh/cat/10653",
+     "backgroundColor": "#f5f5f5"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -779,6 +1343,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/00/57/00575628540f49342b9d794a571200a7.jpg",
+     "href": "/cn/zh/stores/",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   }
  ]

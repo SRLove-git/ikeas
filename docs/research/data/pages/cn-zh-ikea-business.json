@@ -12,11 +12,21 @@
    "texts": [
     "two-columns",
     "column",
-    "<p style=\"line-height: 26px;\"><strong><span style=\"font-size: 24.0pt;\">宜家对公业务</span></strong><strong><br /></strong><strong><span style=\"font-size: 16.5pt;\">IKEA for Business</span></strong></p>",
+    "宜家对公业务 IKEA for Business",
     "pub-text"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "columns": [
+    {
+     "heading": "宜家对公业务 IKEA for Business",
+     "text": null,
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Columns-"
    }
@@ -65,6 +75,65 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "业务介绍",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20260407/bd6830775f2649a89061c8febd3703ea.png?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "3D云展间",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20260407/be38666ec8024d0696994114260af890.png?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "企业会员",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20260407/a3ec991a5317436cb6371d48377adae9.png?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "空间设计灵感",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20260407/6c030b316df54d0597cadc969cd1bb34.png?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "产品推荐",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20260407/eba19334222b425f95b0468fbebcd156.png?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "设计案例",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20260407/636228ef846e4ed68e707e1ef52f078a.png?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "我们的服务",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20260407/19ac46eef4cb4444bf1de8e02620fb08.png?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "联系我们",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20260407/ad7f9a83e1d04b47b06cf96f21742723.png?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-页面导航-"
    }
@@ -112,6 +181,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "批量采购",
+     "text": "种类繁多的产品，为企业提供一站式采购服务。\n",
+     "image": "https://file.app.ikea.cn/cms/u/20260408/31938d44a96e45a7901ea2b4d18ba713.png?x-oss-process=style/medium",
+     "href": "/cn/zh/landing-page/cn--zh--db8b3381455d43a2997e7567aa3668d5?productIds=&topProductFullIds=&assemblyProductFullIds=&utm_source=&utm_medium=&utm_campaign=&utm_content=&utm_term=&web_new=",
+     "backgroundColor": "#242424"
+    },
+    {
+     "title": "商业空间设计",
+     "text": "专业设计，服务一对一，为企业提供个性化的设计方案。",
+     "image": "https://file.app.ikea.cn/cms/u/20260408/f03c230a9e4a4f89aa6051218748710e.png?x-oss-process=style/medium",
+     "href": "/cn/zh/landing-page/cn--zh--826b2633ecd24b81b26bc0f6c74a47cb?productIds=&topProductFullIds=&assemblyProductFullIds=&utm_source=&utm_medium=&utm_campaign=&utm_content=&utm_term=&web_new=",
+     "backgroundColor": "#242424"
+    },
+    {
+     "title": "工程项目及合作",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20260408/aaa4be2f3dcb4896a3c2678894a0ef8f.png?x-oss-process=style/medium",
+     "href": "/cn/zh/landing-page/cn--zh--922524e85f3244acafa07630e5c1f185?productIds=&topProductFullIds=&assemblyProductFullIds=&utm_source=&utm_medium=&utm_campaign=&utm_content=&utm_term=&web_new=",
+     "backgroundColor": "#242424"
+    },
+    {
+     "title": "礼品采购",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20260608/f25644fbe76240e3b5d615c48cd56db1.png?x-oss-process=style/medium",
+     "href": "/cn/zh/landing-page/cn--zh--bd104a34eee34072b072631bff64e8d0?productIds=&topProductFullIds=&assemblyProductFullIds=&utm_source=&utm_medium=&utm_campaign=&utm_content=&utm_term=&web_new=",
+     "backgroundColor": "#242424"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Inspiration Cards-"
    }
@@ -122,7 +222,7 @@
    "texts": [
     "two-columns",
     "column",
-    "<h1><span style=\"color: #000000;\">全新设计体验</span></h1>\n<p>超越实体展厅边界，深度诠释宜家在办公场景解决方案领域的专业优势与独特价值。扫码云逛展，为您的办公空间注入更多灵感与启发。</p>",
+    "全新设计体验 超越实体展厅边界，深度诠释宜家在办公场景解决方案领域的专业优势与独特价值。扫码云逛展，为您的办公空间注入更多灵感与启发。",
     "pub-text",
     "NO",
     "pub-image"
@@ -136,6 +236,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20260407/0a10aa41d9c94e17b5225179442ff5ad.gif",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "全新设计体验 超越实体展厅边界，深度诠释宜家在办公场景解决方案领域的专业优势与独特价值。扫码云逛展，为您的办公空间注入更多灵感与启发。",
+     "image": null,
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20260407/0a10aa41d9c94e17b5225179442ff5ad.gif",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-分栏内容 Columns-"
    }
@@ -147,7 +271,7 @@
     "image-text-landscape",
     "IMAGE",
     "wide",
-    "<p style=\"line-height: 26px;\">我们会根据你的业务需求提供相关知识、折扣和各种福利，助力你的业务发展。六大会员权益，从&ldquo;新&rdquo;出发，竭诚让您享更好的权益和更省心的服务！​</p>\n<ul>\n<li style=\"line-height: 26px;\">新会员礼：新人专享0元购指定商品​</li>\n<li style=\"line-height: 26px;\">满额返券：满额返现金券，最高得2500元。​</li>\n<li style=\"line-height: 26px;\">送货优惠：仅企业会员享有，多买多优惠​</li>\n</ul>",
+    "我们会根据你的业务需求提供相关知识、折扣和各种福利，助力你的业务发展。六大会员权益，从“新”出发，竭诚让您享更好的权益和更省心的服务！​ 新会员礼：新人专享0元购指定商品​ 满额返券：满额返现金券，最高得2500元。​ 送货优惠：仅企业会员享有，多买多优惠​",
     "加入宜家企业会员",
     "NO"
    ],
@@ -164,6 +288,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20260408/5f2eeb71fa484435a454d0a28b41af95.png?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": "#debc9c"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-媒体色块组合 Banner-"
    }
@@ -172,11 +306,13 @@
    "type": "rich-text",
    "title": null,
    "texts": [
-    "<h2>商业空间家具和家居设计灵感</h2>\n<p>无论什么类型的空间，我们都可以效劳。</p>",
+    "商业空间家具和家居设计灵感 无论什么类型的空间，我们都可以效劳。",
     "#FFFFFF"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-富文本 Text-"
    }
@@ -225,6 +361,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "办公空间",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250827/f1f7a0d4f3034be382a4ae14ec2f61e0.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/ikea-business/office-furnishings/",
+     "backgroundColor": "#f5f5f5"
+    },
+    {
+     "title": "民宿酒店",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20241115/93bcbe1b2a6a40eab6c24bd3c3e73d72.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/ikea-business/hospitality-furnishings/yi-jia-dui-gong-ye-wu-min-su-jiu-dian-pub88e3927e",
+     "backgroundColor": "#f5f5f5"
+    },
+    {
+     "title": "餐饮机构",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20241115/226a4eacba9f4a59a7daa5014c561258.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/ikea-business/restaurant-cafe-furnishings/can-yin-ji-gou-pub45ff42de",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "教育培训",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20241115/364c0a31dd1f4d868dfbf3b393d8f008.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/ikea-business/jiao4-yu4-pei2-xun4-kong1-jian1-puba9f5c960",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "零售商店",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20241115/66b3502475934d3ca997263cf7d8f684.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/ikea-business/retail-furnishings/",
+     "backgroundColor": "#111111"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Visual Pill Slider-"
    }
@@ -273,6 +447,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个宽敞的木制搁架单元，上面放着储物盒、花盆和鞋履。前面叠放着两把椅子。",
+     "image": "https://file.app.ikea.cn/content/u/20251021/297A4CB8-EAA7-4153-B1AA947B7221FFF1.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "图片说明",
+     "image": "https://file.app.ikea.cn/content/u/20251021/28D6F071-7427-4EA9-9C0A08BFF762A801.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "图片说明",
+     "image": "https://file.app.ikea.cn/content/u/20251218/D0451E15-FB63-4345-A4EC6798CAD6AC70.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "一间洗衣房，JONAXEL 尤纳赛尔 白色搁架单元上放着毛巾和衣物，旁边是一台洗衣机。",
+     "image": "https://static.web.ikea.cn/content/u/20221223/567e236843c446ce9388ebfcf7d7deb6.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "图片说明",
+     "image": "https://file.app.ikea.cn/content/u/20251021/85A83858-D651-4887-BD0DD1C422DD11EA.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-栅格合集 Curated Gallery-用有序桌面唤回灵感"
    }
@@ -293,6 +505,68 @@
     {
      "href": "/cat/10573",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "SKÅDIS 斯考迪斯",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/skadis-si-kao-di-si-dong-dong-ban-mu-tou__0710687_pe727710_s4.jpg",
+     "href": "/cn/zh/p/skadis-si-kao-di-si-dong-dong-ban-mu-tou-80347177/"
+    },
+    {
+     "title": "FRÖVÄXT 弗洛维希",
+     "text": "¥49.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/froevaext-fu-luo-wei-xi-hua-ping-bai-se__1383890_pe962728_s4.jpg",
+     "href": "/cn/zh/p/froevaext-fu-luo-wei-xi-hua-ping-bai-se-80591918/"
+    },
+    {
+     "title": "SKÅDIS 斯考迪斯",
+     "text": "¥50",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/skadis-si-kao-di-si-pei-jian-7-jian-tao-bai-se__1303771_pe938497_s4.jpg",
+     "href": "/cn/zh/p/skadis-si-kao-di-si-pei-jian-7-jian-tao-bai-se-80586417/"
+    },
+    {
+     "title": "DRÖNJÖNS 德瑞约恩",
+     "text": "¥79.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/droenjoens-de-rui-yue-en-ban-gong-zhuo-shou-na-jian-bai-se__0669938_pe715478_s4.jpg",
+     "href": "/cn/zh/p/droenjoens-de-rui-yue-en-ban-gong-zhuo-shou-na-jian-bai-se-80428828/"
+    },
+    {
+     "title": "DRÖNJÖNS 德瑞约恩",
+     "text": "¥49.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/droenjoens-de-rui-yue-en-xin-pan-bai-se__0669940_pe715479_s4.jpg",
+     "href": "/cn/zh/p/droenjoens-de-rui-yue-en-xin-pan-bai-se-40428825/"
+    },
+    {
+     "title": "SORTERA 索特拉",
+     "text": "¥30",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/sortera-suo-te-la-dai-fen-ge-chu-wu-ge-mi-huang-se__1432741_pe982876_s4.jpg",
+     "href": "/cn/zh/p/sortera-suo-te-la-dai-fen-ge-chu-wu-ge-mi-huang-se-50607100/"
+    },
+    {
+     "title": "BÖNSYRSA 波恩西萨",
+     "text": "¥19.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/boensyrsa-bo-en-xi-sa-chu-wu-he-duo-se__1115421_pe872075_s4.jpg",
+     "href": "/cn/zh/p/boensyrsa-bo-en-xi-sa-chu-wu-he-duo-se-80545243/"
+    },
+    {
+     "title": "KOPPLA 科普拉",
+     "text": "¥129",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/koppla-ke-pu-la-si-lu-cha-zuo-dai-shuang-usb-duan-kou-bai-se__1552727_pe1023422_s4.jpg",
+     "href": "/cn/zh/p/koppla-ke-pu-la-si-lu-cha-zuo-dai-shuang-u-sb-duan-kou-bai-se-30574445/"
+    },
+    {
+     "title": "DRÖNJÖNS 德瑞约恩",
+     "text": "¥29.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/droenjoens-de-rui-yue-en-bi-dian-zhi-jia-bai-se__1382964_pe962408_s4.jpg",
+     "href": "/cn/zh/p/droenjoens-de-rui-yue-en-bi-dian-zhi-jia-bai-se-10596801/"
+    },
+    {
+     "title": "DRÖNJÖNS 德瑞约恩",
+     "text": "¥7.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/droenjoens-de-rui-yue-en-bi-tong-bai-se__0994330_pe822795_s4.jpg",
+     "href": "/cn/zh/p/droenjoens-de-rui-yue-en-bi-tong-bai-se-80494880/"
     }
    ],
    "settings": {
@@ -342,6 +616,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "办公椅",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20251205/3c4c215ef113476c89964eba84300239.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/20652",
+     "backgroundColor": "#f5f5f5"
+    },
+    {
+     "title": "办公桌",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20251205/9ec8ec5000be42fb90acd5647873acdb.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/20649",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "办公储物",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20251205/065f25ab73e94972a4c956cbc63fd058.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/10385",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "办公桌整理和配件",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20251205/a76507a5cf0a4aae8efd7194b73d7c12.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/16195",
+     "backgroundColor": "#111111"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-带按钮图片列表 Visual Pill Slider-"
    }
@@ -364,6 +669,81 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "为您推荐符合各种业务需求的百搭产品",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/10573",
+     "backgroundColor": null
+    },
+    {
+     "title": "FLINTAN 福通",
+     "text": "¥499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/flintan-fu-tong-dai-fu-shou-ban-gong-yi-hei-se__1007241_pe825960_s4.jpg",
+     "href": "/cn/zh/p/flintan-fu-tong-dai-fu-shou-ban-gong-yi-hei-se-69424469/"
+    },
+    {
+     "title": "LÅNGFJÄLL 隆菲尔",
+     "text": "¥899",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/langfjaell-long-fei-er-hui-yi-yi-gang-na-rui-de-shen-hui-se-hei-se__0726991_pe735482_s4.jpg",
+     "href": "/cn/zh/p/langfjaell-long-fei-er-hui-yi-yi-gang-na-rui-de-shen-hui-se-hei-se-39177899/"
+    },
+    {
+     "title": "FJÄLLBERGET 菲亚伯",
+     "text": "¥1,499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/fjaellberget-fei-ya-bo-hui-yi-yi-dai-jiao-lun-bai-se-xiang-mu-tie-mian-gang-na-rui-de-mi-huang-se__0815078_pe772749_s4.jpg",
+     "href": "/cn/zh/p/fjaellberget-fei-ya-bo-hui-yi-yi-dai-jiao-lun-bai-se-xiang-mu-tie-mian-gang-na-rui-de-mi-huang-se-00487765/"
+    },
+    {
+     "title": "ALEFJÄLL 阿勒夫耶",
+     "text": "¥1,499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/alefjaell-a-le-fu-ye-ban-gong-yi-ge-lan-jin-zong-se__0724709_pe734591_s4.jpg",
+     "href": "/cn/zh/p/alefjaell-a-le-fu-ye-ban-gong-yi-ge-lan-jin-zong-se-20419983/"
+    },
+    {
+     "title": "LÄKTARE 莱科塔",
+     "text": "¥599",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/laektare-lai-ke-ta-hui-yi-yi-qian-lu-bai-se__1188529_pe899489_s4.jpg",
+     "href": "/cn/zh/p/laektare-lai-ke-ta-hui-yi-yi-qian-lu-bai-se-29503246/"
+    },
+    {
+     "title": "TROTTEN 特罗滕",
+     "text": "¥599",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/trotten-te-luo-teng-shu-zhuo-bai-se__1012705_pe828980_s4.jpg",
+     "href": "/cn/zh/p/trotten-te-luo-teng-shu-zhuo-bai-se-09424943/"
+    },
+    {
+     "title": "MITTZON 米特丛",
+     "text": "¥1,199",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mittzon-mi-te-cong-shu-zhuo-xiang-mu-tie-mian-bai-se__1206049_pe907369_s4.jpg",
+     "href": "/cn/zh/p/mittzon-mi-te-cong-shu-zhuo-xiang-mu-tie-mian-bai-se-79528131/"
+    },
+    {
+     "title": "MITTZON 米特丛",
+     "text": "¥1,199",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mittzon-mi-te-cong-shu-zhuo-hu-tao-mu-tie-mian-hei-se__1206052_pe907370_s4.jpg",
+     "href": "/cn/zh/p/mittzon-mi-te-cong-shu-zhuo-hu-tao-mu-tie-mian-hei-se-69528141/"
+    },
+    {
+     "title": "IDÅSEN 伊朵森",
+     "text": "¥1,999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/idasen-yi-duo-sen-shu-zhuo-he-se-mi-huang-se__0736571_pe740625_s4.jpg",
+     "href": "/cn/zh/p/idasen-yi-duo-sen-shu-zhuo-he-se-mi-huang-se-69281031/"
+    },
+    {
+     "title": "BOLLSIDAN 波席当",
+     "text": "¥1,499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/bollsidan-bo-xi-dang-zuo-zhan-liang-yong-shi-ban-gong-zhuo-dian-dong-fang-bai-se-xiang-mu-wen-bai-se__1414282_pe974750_s4.jpg",
+     "href": "/cn/zh/p/bollsidan-bo-xi-dang-zuo-zhan-liang-yong-shi-ban-gong-zhuo-dian-dong-fang-bai-se-xiang-mu-wen-bai-se-30605649/"
+    },
+    {
+     "title": "BOLLSIDAN 波席当",
+     "text": "¥1,999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/bollsidan-bo-xi-dang-zuo-zhan-liang-yong-shi-ban-gong-zhuo-dian-dong-hu-tao-mu-wen-hei-se__1392441_pe966138_s4.jpg",
+     "href": "/cn/zh/p/bollsidan-bo-xi-dang-zuo-zhan-liang-yong-shi-ban-gong-zhuo-dian-dong-hu-tao-mu-wen-hei-se-60608142/"
+    }
+   ],
    "settings": {
     "traceId": "cms-Product Shelf-办公桌"
    }
@@ -374,7 +754,7 @@
    "texts": [
     "IMAGE",
     "image-text-landscape",
-    "<p>真实还原每张图纸，所见即所得。无论你是店铺开业，公司翻新，学校教育机构等等，宜家都可以帮您一站式解决设计采购等要求。</p>",
+    "真实还原每张图纸，所见即所得。无论你是店铺开业，公司翻新，学校教育机构等等，宜家都可以帮您一站式解决设计采购等要求。",
     "真实案例参考",
     "/ikea-business/ben-di-shi-ji-an-li-pubab418f94",
     "NO"
@@ -401,6 +781,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250827/7fed886e73b141a5bfb30487f535cadd.jpg",
+     "href": null,
+     "backgroundColor": "#bd8d5c"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Banner-"
    }
@@ -447,6 +837,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "在线设计工具",
+     "text": "可视化空间，快速获取商品报价",
+     "image": "https://file.app.ikea.cn/cms/u/20251205/3c775d0744414761a45a2645e89c182c.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fwww.ikea.cn%2Faddon-app%2Fspace%2Fplatform%2Flatest%2Fcn%2Fzh%2F%23%2Froom%2Fworkspace",
+     "backgroundColor": "#a6b5b8"
+    },
+    {
+     "title": "联系我们，获取专业设计",
+     "text": "专业设计，一对一服务",
+     "image": "https://file.app.ikea.cn/cms/u/20251205/fa236bc8d4484cc2bd9cbbaea26877f9.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fdesign-leads%2Fib.html%3Fchannel%3DIRW%2BM2%26cl_sr%3DIB_IRW%2BM2",
+     "backgroundColor": "#b06d64"
+    },
+    {
+     "title": "免费加入宜家企业会员",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20251205/2c7ec00e7f24439fb4fed3bcb5344606.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/landing-page/5c84c33b5c95414bacf5f529c9d6a960",
+     "backgroundColor": "#debfa0"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-富媒体卡片列表 Inspiration Cards-"
    }
@@ -495,6 +909,51 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "一只手正在调节GLYPEN 格吕彭 厨房水龙头的水流大小，水龙头采用不锈钢制成，旁边放着TÅRTSMET 托米特 洗盘刷",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20260408/2c4ed762eb924aa7be85ba414d4c4ff0.png?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": "#f5f5f5"
+    },
+    {
+     "title": "一只手按下白色台灯的开关，台灯放在浅蓝色桌面上",
+     "text": "借助设计工具，规划你的个性METOD 米多 厨房。",
+     "image": "https://file.app.ikea.cn/cms/u/20260408/f83667fc3ca843df949346abd9ba0bc0.png?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": "#f5f5f5"
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20260408/425c9c282c1a4222a5a902a6971be964.png?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20260408/7f691a1554dd45b3b74ba6a740a8d946.png?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20260408/66038d4c2751498a9009e3fa6a3a3773.png?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20260408/1fc416a7e4c54919b666da8a7ed0ebac.png?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": "#111111"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-带按钮图片列表 Visual Pill Slider-"
    }
@@ -503,10 +962,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>联系我们</h2>"
+    "联系我们"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -518,7 +979,7 @@
     "IMAGE",
     "wide",
     "image-text-landscape",
-    "<p style=\"line-height: 36px;\"><span style=\"color: #000000;\"><strong>&nbsp;联系 <a style=\"color: #000000;\" href=\"https://www.ikea.cn/cn/zh/customer-service/contact-us/yewubu-pub27a85880\">&nbsp; &lt; 本地商场的对公业务部 &gt;&nbsp;&nbsp;</a></strong></span></p>\n<p style=\"line-height: 36px;\"><strong>企业采购热线：400 800 2345</strong></p>",
+    "联系 企业采购热线：400 800 2345",
     "联系宜家对公业务部",
     "NO"
    ],
@@ -540,6 +1001,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20241205/e9d254e837644a00ab061244f2d8b3d1.jpg",
+     "href": null,
+     "backgroundColor": "#dfbc9c"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Banner-联系CN"
    }
@@ -548,11 +1019,13 @@
    "type": "rich-text",
    "title": null,
    "texts": [
-    "<h1 style=\"line-height: 16px;\"><span data-teams=\"true\">宜家对公业务手册</span></h1>\n<p><span data-teams=\"true\">想分享给身边的同事吗？请在此下载手册，了解宜家对公业务合作场景、商业灵感和案例、产品推荐以及合作流程等更多内容。</span></p>",
+    "宜家对公业务手册 想分享给身边的同事吗？请在此下载手册，了解宜家对公业务合作场景、商业灵感和案例、产品推荐以及合作流程等更多内容。",
     "#FFFFFF"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-富文本 Text-"
    }
@@ -573,6 +1046,8 @@
      "text": "宜家对公业务手册 2026.pdf"
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-PDF文件列表 PDF List-"
    }
@@ -595,6 +1070,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-底部导航-"
    }

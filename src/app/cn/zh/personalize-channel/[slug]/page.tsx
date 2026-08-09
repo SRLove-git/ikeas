@@ -1,12 +1,13 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { channelCategories } from "@/data/catalog";
+import { catalogData } from "@/data/catalog";
 import { findCategoryBySlug } from "@/lib/catalog";
 import { ProductCard } from "@/components/ProductCard";
 
 export const dynamicParams = false;
 
 export function generateStaticParams() {
+  const { channelCategories } = catalogData();
   return channelCategories.map((channel) => ({ slug: channel.slug }));
 }
 

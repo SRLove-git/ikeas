@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -34,6 +36,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "美发沙龙里摆放着座深较低的 SÖDERHAMN 索德汉 深灰色扶手椅，壁柜上摆放着洗发液。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/4a/25/4a25620979d149306586d1751be2a469.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -49,6 +61,50 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "KRAGSTA 克拉思塔",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kragsta-ke-la-si-ta-tao-zhuo-2-jian-tao-hei-se__0313789_pe517045_s4.jpg",
+     "href": "/cn/zh/p/kragsta-ke-la-si-ta-tao-zhuo-2-jian-tao-hei-se-10353058/"
+    },
+    {
+     "title": "EKET 伊克特",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/eket-yi-ke-te-gui-zi-shen-hui-se__1212324_pe910597_s4.jpg",
+     "href": "/cn/zh/p/eket-yi-ke-te-gui-zi-shen-hui-se-30334592/"
+    },
+    {
+     "title": "LACK 拉克",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lack-la-ke-dian-shi-gui-hei-se__0644748_pe702932_s4.jpg",
+     "href": "/cn/zh/p/lack-la-ke-dian-shi-gui-hei-se-30353566/"
+    },
+    {
+     "title": "SINNERLIG 希利斯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/sinnerlig-xi-li-si-diao-deng-zhu-shou-gong-zhi-zuo__0919001_pe786542_s4.jpg",
+     "href": "/cn/zh/p/sinnerlig-xi-li-si-diao-deng-zhu-shou-gong-zhi-zuo-00342193/"
+    },
+    {
+     "title": "LOHALS 鲁哈斯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lohals-lu-ha-si-ping-zhi-di-tan-zi-ran-se__0280230_pe419175_s4.jpg",
+     "href": "/cn/zh/p/lohals-lu-ha-si-ping-zhi-di-tan-zi-ran-se-80277396/"
+    },
+    {
+     "title": "IKEA 365+",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ikea-365-da-bei-bai-se__0713396_pe729489_s4.jpg",
+     "href": "/cn/zh/p/ikea-365-da-bei-bai-se-00282943/"
+    },
+    {
+     "title": "IKEA 365+",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ikea-365-bei-dian-ruan-mu__0939620_pe794631_s4.jpg",
+     "href": "/cn/zh/p/ikea-365-bei-dian-ruan-mu-80282944/"
+    }
+   ],
    "settings": null
   }
  ]

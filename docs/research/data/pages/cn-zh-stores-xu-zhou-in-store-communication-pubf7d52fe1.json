@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -60,16 +62,63 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "我是新访客",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/3e/bf/3ebffa57ff7e3c5c34a65a7bfd95a0ba.png",
+     "href": "/cn/zh/stores/xu-zhou/new-vistor-pubee08d56c",
+     "backgroundColor": null
+    },
+    {
+     "title": "会员专享",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/46/80/4680068f9af9aaa88060107d6b4a9bad.png",
+     "href": "/cn/zh/stores/xu-zhou/ikea-family-pubefc1bbf1",
+     "backgroundColor": null
+    },
+    {
+     "title": "商场活动",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/da/c4/dac4f8c6fc7466df012625a874280ce5.png",
+     "href": "/cn/zh/stores/xu-zhou/#/",
+     "backgroundColor": null
+    },
+    {
+     "title": "店内导航",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/dc/df/dcdfd7c52cba69a680c207ba54e9779a.png",
+     "href": "/cn/zh/h5page/?url=http%3A%2F%2Fmaps.rtmap.com%2Fwebmap-ikea-v2%2Findex2_map.html%3Fkey%3D6f4e9j5UFt%26buildid%3D862200030022800001%26floor%3DF2%26labelstyle%3Dcircle-point%26customization%3Dtrue%26openId%3Doikd5jq_qm3OJn3_h1WjzUoMWQkY",
+     "backgroundColor": null
+    },
+    {
+     "title": "反馈建议",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/35/1c/351c247227f3254e9637a530813c919c.png",
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fwww.wjx.top%2Fm%2F30093545.aspx",
+     "backgroundColor": null
+    },
+    {
+     "title": "更多",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e9/fb/e9fb8b0ed0d86a7323e866ad2053e91b.png",
+     "href": "/cn/zh/customer-service/",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>宜家徐州商场</strong></h2>\n<h4><strong>营业时间</strong></h4>\n<p>商场：早10:00 &ndash; 晚9:00<br />餐厅：早9:00 &ndash; 晚8:30<br />(早餐自早上9:00 供应至10:00)</p>"
+    "宜家徐州商场 营业时间 商场：早10:00 – 晚9:00 餐厅：早9:00 – 晚8:30 (早餐自早上9:00 供应至10:00)"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -92,6 +141,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "联系我们",
+     "text": "联系我们",
+     "image": "https://file.app.ikea.cn/images/ec/45/ec4577661e4980cc7c020fbbe9a7b2ef.jpeg",
+     "href": "/cn/zh/customer-service/contact-us/",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -100,6 +159,8 @@
    "texts": [],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

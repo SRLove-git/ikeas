@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cdcfb9827e9e438aa6b708b5cfb47951"
    }
@@ -27,7 +29,7 @@
     "IMAGE",
     "hosted",
     "MANUAL_INPUT",
-    "<p>您可从商场页面上找到地址、交通路线、联系方式、营业时间、专属优惠及活动等信息。快来寻找离您最近的宜家商场吧！</p>"
+    "您可从商场页面上找到地址、交通路线、联系方式、营业时间、专属优惠及活动等信息。快来寻找离您最近的宜家商场吧！"
    ],
    "images": [
     "https://file.app.ikea.cn/cms/u/20250721/970cddbfbf0f4e62a48ec4dcbe9363be.jpg?x-oss-process=style/medium"
@@ -38,6 +40,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250721/970cddbfbf0f4e62a48ec4dcbe9363be.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20250721/970cddbfbf0f4e62a48ec4dcbe9363be.jpg?x-oss-process=style/medium",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "您可从商场页面上找到地址、交通路线、联系方式、营业时间、专属优惠及活动等信息。快来寻找离您最近的宜家商场吧！",
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "db06c9705b8a4b7aba30bd9998942e09"
    }
@@ -50,6 +76,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "e9b8689f311c45de8f8cad64d5ac25dd"
    }
@@ -59,13 +87,35 @@
    "title": null,
    "texts": [
     "pub-column",
-    "<h3><strong>北京市</strong></h3>\n<p><a href=\"https://www.ikea.cn/cn/zh/stores/beijing-siyuanqiao/\">北京四元桥商场</a></p>\n<p><a href=\"https://www.ikea.cn/cn/zh/stores/beijing-xihongmen/\">北京西红门商场</a></p>\n<p><a href=\"https://www.ikea.cn/cn/zh/stores/wukesong-experience-center/\">北京五棵松体验中心</a></p>\n<p><a href=\"https://www.ikea.cn/cn/zh/stores/beijing-changping-plan-and-order-point/\">北京昌平设计订购中心</a></p>\n<p><a href=\"https://www.ikea.cn/cn/zh/stores/tongzhou/\">北京通州商场</a></p>\n<p data-olk-copy-source=\"MessageBody\"><a href=\"https://www.ikea.cn/cn/zh/stores/beijing-changying/\">北京常营商场</a></p>\n<div class=\"x_elementToP",
+    "北京市 北京四元桥商场 北京西红门商场 北京五棵松体验中心 北京昌平设计订购中心 北京通州商场 北京常营商场",
     "pub-text",
-    "<h3><strong>重庆市</strong></h3>\n<p><a href=\"https://www.ikea.cn/cn/zh/stores/chongqing/\">重庆商场</a></p>",
-    "<h3><strong>福建省</strong></h3>\n<p><a href=\"https://www.ikea.cn/cn/zh/stores/fuzhou/\">福州商场</a></p>"
+    "重庆市 重庆商场",
+    "福建省 福州商场"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "columns": [
+    {
+     "heading": "北京市 北京四元桥商场 北京西红门商场 北京五棵松体验中心 北京昌平设计订购中心 北京通州商场 北京常营商场",
+     "text": null,
+     "image": null,
+     "href": null
+    },
+    {
+     "heading": "重庆市 重庆商场",
+     "text": null,
+     "image": null,
+     "href": null
+    },
+    {
+     "heading": "福建省 福州商场",
+     "text": null,
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "609857eec90944e9a264ee447b835a79"
    }
@@ -73,11 +123,11 @@
   {
    "type": "pub-text",
    "title": null,
-   "texts": [
-    "<p style=\"line-height: 8px;\">&nbsp; &nbsp;&nbsp;</p>"
-   ],
+   "texts": [],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -88,13 +138,35 @@
    "texts": [
     "pub-column",
     "NO",
-    "<h3>广东省</h3>\n<p><a href=\"https://www.ikea.cn/cn/zh/stores/foshan/\">佛山商场</a></p>\n<p><a href=\"https://www.ikea.cn/cn/zh/stores/guangzhou-tianhe/\">广州天河商场</a></p>\n<p><a href=\"https://www.ikea.cn/cn/zh/stores/shenzhen/\">深圳商场</a></p>\n<p><a href=\"https://www.ikea.cn/cn/zh/stores/shenzhen-luohu-plan-and-order-point/\">深圳罗湖设计订购中心</a></p>\n<p><a href=\"https://www.ikea.cn/cn/zh/stores/shenzhen-baoan/\">深圳宝安商场</a></p>\n<p><a href=\"https://www.ikea.cn/cn/zh/stores/dongguan/\">东莞商场</a></p>",
+    "广东省 佛山商场 广州天河商场 深圳商场 深圳罗湖设计订购中心 深圳宝安商场 东莞商场",
     "pub-text",
     "MANUAL_INPUT",
-    "<h3>广西壮族自治区</h3>\n<p><a href=\"https://www.ikea.cn/cn/zh/stores/nanning/\">南宁商场</a></p>"
+    "广西壮族自治区 南宁商场"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "columns": [
+    {
+     "heading": "广东省 佛山商场 广州天河商场 深圳商场 深圳罗湖设计订购中心 深圳宝安商场 东莞商场",
+     "text": null,
+     "image": null,
+     "href": null
+    },
+    {
+     "heading": "广西壮族自治区 南宁商场",
+     "text": null,
+     "image": null,
+     "href": null
+    },
+    {
+     "heading": "安徽省 合肥商场",
+     "text": null,
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "a938482aecac496d9f58f8bbd41b0660"
    }
@@ -102,11 +174,11 @@
   {
    "type": "pub-text",
    "title": null,
-   "texts": [
-    "<p style=\"line-height: 8px;\">&nbsp; &nbsp;&nbsp;</p>"
-   ],
+   "texts": [],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -116,14 +188,36 @@
    "title": null,
    "texts": [
     "pub-column",
-    "<h3><strong>河南省</strong></h3>\n<p><a href=\"https://www.ikea.cn/cn/zh/stores/zhengzhou/\">郑州商场</a></p>",
+    "河南省 郑州商场",
     "pub-text",
-    "<p style=\"line-height: 8px;\"><strong>&nbsp; &nbsp;&nbsp;</strong></p>\n<h3><strong>湖北省</strong></h3>\n<p><a href=\"https://www.ikea.cn/cn/zh/stores/wuhan/\">武汉商场</a></p>",
-    "<p style=\"line-height: 8px;\"><strong>&nbsp; &nbsp;&nbsp;</strong></p>\n<h3><strong>湖南省</strong></h3>\n<p><a href=\"https://www.ikea.cn/cn/zh/stores/changsha/\">长沙商场</a></p>",
-    "<h3><strong>江苏省</strong></h3>\n<p><a href=\"https://www.ikea.cn/cn/zh/stores/nanjing/\">南京商场</a></p>\n<p><a href=\"https://www.ikea.cn/cn/zh/stores/suzhou/\">苏州商场</a></p>\n<p><a href=\"https://www.ikea.cn/cn/zh/stores/wuxi/\">无锡商场</a></p>"
+    "湖北省 武汉商场",
+    "湖南省 长沙商场",
+    "江苏省 南京商场 苏州商场 无锡商场"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "columns": [
+    {
+     "heading": "河南省 郑州商场",
+     "text": null,
+     "image": null,
+     "href": null
+    },
+    {
+     "heading": "江苏省 南京商场 苏州商场 无锡商场",
+     "text": null,
+     "image": null,
+     "href": null
+    },
+    {
+     "heading": "辽宁省 大连商场 沈阳商场",
+     "text": null,
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "45ed10b9e40e417f999d8f8ac5e6dc8a"
    }
@@ -131,11 +225,11 @@
   {
    "type": "pub-text",
    "title": null,
-   "texts": [
-    "<p style=\"line-height: 8px;\">&nbsp; &nbsp;&nbsp;</p>"
-   ],
+   "texts": [],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -145,13 +239,35 @@
    "title": null,
    "texts": [
     "pub-column",
-    "<h3><strong>山东省</strong></h3>\n<p><a href=\"https://www.ikea.cn/cn/zh/stores/jinan/\">济南商场</a></p>\n<p><a href=\"https://www.ikea.cn/cn/zh/stores/qingdao/\">青岛商场</a></p>",
+    "山东省 济南商场 青岛商场",
     "pub-text",
-    "<h3><strong>上海市</strong></h3>\n<p><a href=\"https://www.ikea.cn/cn/zh/stores/shanghai-xuhui/\">上海徐汇商场</a></p>\n<p><a href=\"https://www.ikea.cn/cn/zh/stores/shanghai-beicai/\">上海北蔡商场</a></p>\n<p><a href=\"https://www.ikea.cn/cn/zh/stores/shanghai-linkong/\">上海临空商场</a></p>",
-    "<h3><strong>四川省</strong></h3>\n<p><a href=\"https://www.ikea.cn/cn/zh/stores/chengdu-chenghua/\">成都成华商场</a></p>\n<p><a href=\"https://www.ikea.cn/cn/zh/stores/chengdu-gaoxin/\">成都高新商场</a></p>"
+    "上海市 上海徐汇商场 上海北蔡商场 上海临空商场",
+    "四川省 成都成华商场 成都高新商场"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "columns": [
+    {
+     "heading": "山东省 济南商场 青岛商场",
+     "text": null,
+     "image": null,
+     "href": null
+    },
+    {
+     "heading": "上海市 上海徐汇商场 上海北蔡商场 上海临空商场",
+     "text": null,
+     "image": null,
+     "href": null
+    },
+    {
+     "heading": "四川省 成都成华商场 成都高新商场",
+     "text": null,
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "4feedad4154a434cadbc8bcaa29e7831"
    }
@@ -159,11 +275,11 @@
   {
    "type": "pub-text",
    "title": null,
-   "texts": [
-    "<p style=\"line-height: 8px;\">&nbsp; &nbsp;&nbsp;</p>"
-   ],
+   "texts": [],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -173,13 +289,35 @@
    "title": null,
    "texts": [
     "pub-column",
-    "<h3><strong>天津市</strong></h3>\n<p><a href=\"https://www.ikea.cn/cn/zh/stores/tianjin/\">天津东丽商场</a></p>",
+    "天津市 天津东丽商场",
     "pub-text",
-    "<h3><strong>云南省</strong></h3>\n<p><a href=\"https://www.ikea.cn/cn/zh/stores/kunming/\">昆明商场</a></p>",
-    "<h3><strong>浙江省</strong></h3>\n<p><a href=\"https://www.ikea.cn/cn/zh/stores/hangzhou/\">杭州商场</a></p>\n<p><a href=\"https://www.ikea.cn/cn/zh/stores/wenzhou-experience-center/\">温州商场</a></p>"
+    "云南省 昆明商场",
+    "浙江省 杭州商场 温州商场"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "columns": [
+    {
+     "heading": "天津市 天津东丽商场",
+     "text": null,
+     "image": null,
+     "href": null
+    },
+    {
+     "heading": "云南省 昆明商场",
+     "text": null,
+     "image": null,
+     "href": null
+    },
+    {
+     "heading": "浙江省 杭州商场 温州商场",
+     "text": null,
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cc0473e7619d484195921d3f8e20fb12"
    }

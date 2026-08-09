@@ -11,7 +11,7 @@
    "title": "收纳玩具",
    "texts": [
     "使用宜家 TROFAST 舒法特 白色储物组合单元，搭配不同深度的彩色塑料箱搁板，存放大件物品和工艺品，收纳孩子的玩具。",
-    "<p>采用更巧妙的方法解决玩具储物问题：逐个分组收纳。使用合适的搁板、储物单元和收纳技巧，父母和孩子可以一起轻松（有趣）地整理儿童房。</p>",
+    "采用更巧妙的方法解决玩具储物问题：逐个分组收纳。使用合适的搁板、储物单元和收纳技巧，父母和孩子可以一起轻松（有趣）地整理儿童房。",
     "收纳玩具",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "收纳玩具",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/4a/2b/4a2b6bbc7887317aec4d59024926bf1a.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -39,6 +49,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "MAMMUT 玛莫特",
+     "text": "¥39.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mammut-ma-mo-te-er-tong-deng-shi-nei-hu-wai-huang-se__0727954_pe735970_s4.jpg",
+     "href": "/cn/zh/p/mammut-ma-mo-te-er-tong-deng-shi-nei-hu-wai-huang-se-90382325/"
+    },
+    {
+     "title": "FUBBLA 夫布拉",
+     "text": "¥179",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/fubbla-fu-bu-la-led-bi-deng-bai-se__0607991_pe683401_s4.jpg",
+     "href": "/cn/zh/p/fubbla-fu-bu-la-led-bi-deng-bai-se-30391101/"
+    }
+   ],
    "settings": null
   }
  ]

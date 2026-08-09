@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "e9e09f2f3f7a47d6a165b473c30b367a"
    }
@@ -34,6 +36,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20230905/8a56742e4888479e8a84d5958bbe479c.gif",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "09f275701105489d8fdacaf41b466b02"
    }
@@ -42,10 +54,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>我们的产品组装简便，顾客自己也能轻松完成。但是，如果你需要额外的帮助，我们可以上门服务，帮你组装家具。我们的专家将严格遵照组装指南，并确保在组装过程中格外注意安全方面的问题。</p>\n<p>* 为了您后续售后服务的便利性，建议您保留产品的原包装用于售后运输。给您带来的不便，敬请谅解。</p>\n<p>我们提供以下两种有偿的组装服务。</p>"
+    "我们的产品组装简便，顾客自己也能轻松完成。但是，如果你需要额外的帮助，我们可以上门服务，帮你组装家具。我们的专家将严格遵照组装指南，并确保在组装过程中格外注意安全方面的问题。 * 为了您后续售后服务的便利性，建议您保留产品的原包装用于售后运输。给您带来的不便，敬请谅解。 我们提供以下两种有偿的组装服务。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "b5e09ebfc28544b994e49420bf0b59fd"
    }
@@ -54,10 +68,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3><strong>服务项目及收费标准</strong></h3>"
+    "服务项目及收费标准"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "1cb2471d1ed34826b5290030366e498b"
    }
@@ -77,6 +93,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20230720/dcd523b11698466f8554ba5d38a5c4ba.png?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-大图（首页可用）-"
    }
@@ -85,10 +111,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><a style=\"color: #40a9ff;\" href=\"#451a94cf0e4f4d20832cf9d246b8832d\">宜家组装服务</a>&nbsp;|<a href=\"#4903e28b0c184d36970fbcf02413bcee\">&nbsp;&ldquo;万师傅&rdquo;平台组装服务</a></p>"
+    "宜家组装服务 | “万师傅”平台组装服务"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "8b4116bcd33a4437b30dff534d2b84ba"
    }
@@ -118,6 +146,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20230905/332ffeb52a9947b5ad74e5fc42803931.gif",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20230905/622619bc29f841eeba045a93707a71f4.gif",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20230905/332ffeb52a9947b5ad74e5fc42803931.gif",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20230905/622619bc29f841eeba045a93707a71f4.gif",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Columns-"
    }
@@ -126,10 +185,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3><strong>- 宜家组装服务</strong></h3>\n<p>该服务是由宜家的服务供应商提供的，您也可以向宜家工作人员咨询。</p>\n<p>注：少部分地区可能应用与下面不同的组装费用（线下购买时请和店内宜家员工确认）。</p>"
+    "- 宜家组装服务 该服务是由宜家的服务供应商提供的，您也可以向宜家工作人员咨询。 注：少部分地区可能应用与下面不同的组装费用（线下购买时请和店内宜家员工确认）。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "62d01945820544478c48835501e623a4"
    }
@@ -150,6 +211,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250623/8451a502c5af44788e6a2544493c3b6b.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "e2f64ef7b886463993fdc2c54223efa7"
    }
@@ -158,10 +229,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>下单方式：</strong></p>\n<p>1、在宜家网上商城购物的，如果需要额外购买宜家组装服务，请联系宜家在线客服，我们将根据你购买的商品确认具体组装服务价格，预约组装时间和额外支付相关事宜。<br />2、在本地商场购物的，请联系宜家店内工作人员，我们会告诉你如何落实此项服务。</p>\n<p><br /><strong>注意事项：</strong></p>\n<ol>\n<li>商场促销活动期间，会员产品及某些活动产品的服务费用将按产品原价收取。</li>\n<li>出于安全考虑，高度超过0.75米的着地柜体以及高度超过0.6米的儿童家具, 建议你上墙安装。如果你已经办理了组装服务，此上墙安装将包含在内。对于哪些墙体适用上墙服务，请参见【<a href=\"https://www.ikea.cn/cn/zh/customer-service/creating-safer-homes-together-pub3ca57330\">牢牢固定</a>】</li>\n<li>如果您因为个人原因改变原定组装日期（针对非厨房或浴室家具），请在原定组装时间前一日提出，并应在原定组装时间往后七日之内再次选择并完成您的组装服务，具体日期以宜家客服和您联系后商定的日期为准。</li>\n<li>如因您的原因导致无法组装三次以上，或者经多次联系您无人接听/无法接通/停机且在约定的组装时间至"
+    "下单方式： 1、在宜家网上商城购物的，如果需要额外购买宜家组装服务，请联系宜家在线客服，我们将根据你购买的商品确认具体组装服务价格，预约组装时间和额外支付相关事宜。 2、在本地商场购物的，请联系宜家店内工作人员，我们会告诉你如何落实此项服务。 注意事项： 商场促销活动期间，会员产品及某些活动产品的服务费用将按产品原价收取。 出于安全考虑，高度超过0.75米的着地柜体以及高度超过0.6米的儿童家具, 建议你上墙安装。如果你已经办理了组装服务，此上墙安装将包含在内。对于哪些墙体适用上墙服务，请参见【牢牢固定】 如果您因为个人原因改变原定组装日期（针对非厨房或浴室家具），请在原定组装时间前一日提出，并应在原定组装时间往后七日之内再次选择并完成您的组装服务，具体日期以宜家客服和您联系后商定的日期为准。 如因您的原因导致无法组装三次以上，或者经多次联系您无人接听/无法接通/停机且在约定的组装时间至预留的组装地址实际无人等导致无法完成的情况，我们有权单方取消订单。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "e81660f892d64496999a7334baa11e4f"
    }
@@ -174,6 +247,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "00a58ef37fbb42d88cd222f90c0b9ba5"
    }
@@ -183,7 +258,7 @@
    "title": null,
    "texts": [
     "pub-column",
-    "<h3><strong>- &ldquo;万师傅&rdquo;平台组装服务</strong></h3>\n<p>该服务由宜家合作的共享服务平台&ldquo;万师傅&rdquo;提供。仅针对家具类商品提供组装服务。</p>\n<p><strong>收费标准：</strong>平台为竞价模式，发布任务后，顾客依据师傅的信息，自愿选择一名师傅上门完成服务。</p>\n<p><strong>下单方式：</strong>微信小程序搜索&ldquo;万师傅家庭版&rdquo;，或扫描二维码自助下单。</p>",
+    "- “万师傅”平台组装服务 该服务由宜家合作的共享服务平台“万师傅”提供。仅针对家具类商品提供组装服务。 收费标准：平台为竞价模式，发布任务后，顾客依据师傅的信息，自愿选择一名师傅上门完成服务。 下单方式：微信小程序搜索“万师傅家庭版”，或扫描二维码自助下单。",
     "pub-text",
     "pub-image",
     "IMAGE",
@@ -198,6 +273,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250804/d8994da363bf4a2985fd87afc350f308.png?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "- “万师傅”平台组装服务 该服务由宜家合作的共享服务平台“万师傅”提供。仅针对家具类商品提供组装服务。 收费标准：平台为竞价模式，发布任务后，顾客依据师傅的信息，自愿选择一名师傅上门完成服务。 下单方式：微信小程序搜索“万师傅家庭版”，或扫描二维码自助下单。",
+     "text": null,
+     "image": null,
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20250804/d8994da363bf4a2985fd87afc350f308.png?x-oss-process=style/medium",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "dff57f0a25304aea80d3d9cf42b80deb"
    }
@@ -206,10 +305,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>操作步骤：</strong></p>"
+    "操作步骤："
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "c9fa24e7341643de8acad396d45e6437"
    }
@@ -230,6 +331,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250702/f5bd2bd13f5a49eb82e67ce59f0e2bed.png?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "f3b32e9017e64112b256739c02e7095d"
    }
@@ -238,10 +349,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>注意事项：</strong></p>\n<p>1、家具组装价格，与所需组装家具的难易程度相关；<br />2、如果您因为个人原因改变原定组装日期，可直接与师傅协商改期。<br />3、出于安全考虑，高度超过0.75米的着地柜体以及高度超过0.6米的儿童家具, 建议你上墙安装。如果你已经办理了组装服务，此上墙安装将包含在内。</p>\n<p><strong>售后服务：</strong></p>\n<p>&rdquo;万师傅&rdquo;共享服务平台负责全程组装和售后服务。如您需要咨询和售后服务，请在&ldquo;万师傅&rdquo;微信公众号咨询，或在&ldquo;万师傅&rdquo;小程序咨询在线客服，服务时间：8:30am-20:00pm。</p>"
+    "注意事项： 1、家具组装价格，与所需组装家具的难易程度相关； 2、如果您因为个人原因改变原定组装日期，可直接与师傅协商改期。 3、出于安全考虑，高度超过0.75米的着地柜体以及高度超过0.6米的儿童家具, 建议你上墙安装。如果你已经办理了组装服务，此上墙安装将包含在内。 售后服务： ”万师傅”共享服务平台负责全程组装和售后服务。如您需要咨询和售后服务，请在“万师傅”微信公众号咨询，或在“万师傅”小程序咨询在线客服，服务时间：8:30am-20:00pm。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "2ae2d1792d5645a4a751928e84f639b3"
    }
@@ -264,6 +377,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "87ec3f70f9114856b552fca6e864f4b4"
    }
@@ -272,10 +387,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3><strong>我们的服务</strong></h3>"
+    "我们的服务"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "170741e1f7b54a409b96b643859902ec"
    }
@@ -310,6 +427,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "送货服务",
+     "text": "了解详情",
+     "image": null,
+     "href": "/cn/zh/customer-service/services/delivery/",
+     "backgroundColor": null
+    },
+    {
+     "title": "设计服务",
+     "text": "了解详情",
+     "image": null,
+     "href": "/cn/zh/customer-service/services/kitchen-planning/",
+     "backgroundColor": null
+    },
+    {
+     "title": "安装服务",
+     "text": "了解详情",
+     "image": null,
+     "href": "/cn/zh/customer-service/services/kitchen-installation/",
+     "backgroundColor": null
+    },
+    {
+     "title": "旧家具运送服务",
+     "text": "了解详情",
+     "image": null,
+     "href": "/cn/zh/customer-service/services/removal-recycling/",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "7b054d90715848b989d61bdcc7ae8935"
    }
@@ -332,6 +480,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "8872d55fdfb74f4ea47b438761f7ec03"
    }

@@ -11,7 +11,7 @@
    "title": "关于宜家集团",
    "texts": [
     "关于宜家集团",
-    "<p><strong>我们是价值驱动型公司</strong>，对家居生活满怀热情。我们打造的每款产品，都体现了我们创造更美好的居家生活的理念。宜家集团在全球29个国家/地区拥有355个商场*。</p>\n<p>*自2017年8月31日起</p>\n<p><a href=\"http://www.ikea.com/ms/zh_CN/pdf/reports-downloads/IKEA_Play_report_final.pdf\">查看宜家集团2017年年度总结</a></p>",
+    "我们是价值驱动型公司，对家居生活满怀热情。我们打造的每款产品，都体现了我们创造更美好的居家生活的理念。宜家集团在全球29个国家/地区拥有355个商场*。 *自2017年8月31日起 查看宜家集团2017年年度总结",
     "normal"
    ],
    "images": [
@@ -23,6 +23,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "关于宜家集团",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/97/84/9784557412e323260f713b6c11df3efa.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Hero-关于宜家集团"
    }
@@ -35,6 +45,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Horizontal Line-"
    }
@@ -43,10 +55,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>经营理念</p>\n<h2><strong>企业愿景和经营理念</strong></h2>"
+    "经营理念 企业愿景和经营理念"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -67,6 +81,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ed/90/ed9025372556e42c1feab767c5e39cbc.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Image(video)-"
    }
@@ -75,10 +99,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>&ldquo;为大众创造更加美好的日常生活&rdquo;，这是宜家的愿景。我们的经营理念是&ldquo;提供种类繁多、美观实用、老百姓买得起的家居用品&rdquo;。<br />通过优化我们的整个价值链，与供应商建立长期合作关系，投资高度自动化和大规模生产等方式，我们努力为顾客提供物美价优的产品。我们的愿景不局限于家居装饰。我们希望通过努力，为大众创造更美好的日常生活。</p>"
+    "“为大众创造更加美好的日常生活”，这是宜家的愿景。我们的经营理念是“提供种类繁多、美观实用、老百姓买得起的家居用品”。 通过优化我们的整个价值链，与供应商建立长期合作关系，投资高度自动化和大规模生产等方式，我们努力为顾客提供物美价优的产品。我们的愿景不局限于家居装饰。我们希望通过努力，为大众创造更美好的日常生活。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -91,6 +117,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Horizontal Line-"
    }
@@ -99,10 +127,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>可持续发展</p>\n<h2><strong>投资未来</strong></h2>"
+    "可持续发展 投资未来"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -123,6 +153,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/6a/e4/6ae464c6ef08d822457b2c3373078736.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Image(video)-"
    }
@@ -131,10 +171,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>宜家走进汉堡市区，在商业街开设了首家商场。</p>"
+    "宜家走进汉堡市区，在商业街开设了首家商场。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -143,10 +185,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>&ldquo;为大众创造更加美好的日常生活&rdquo;，这是宜家的愿景。宜家集团的主要财务原则是依靠我们自己的资源发展壮大。换而言之，我们量入为出。这样我们就能做到为未来进行长期投资。<br />宜家的愿景是我们发展壮大的基石。我们想确保宜家更加亲民，这样就有更多的人能够打造更好的日常居家生活。我们的大部分利润会重新投入到我们现有的和新开张的宜家商场，投资于产品设计和可持续解决方案，以及用以继续为我们的顾客降低产品价格。</p>"
+    "“为大众创造更加美好的日常生活”，这是宜家的愿景。宜家集团的主要财务原则是依靠我们自己的资源发展壮大。换而言之，我们量入为出。这样我们就能做到为未来进行长期投资。 宜家的愿景是我们发展壮大的基石。我们想确保宜家更加亲民，这样就有更多的人能够打造更好的日常居家生活。我们的大部分利润会重新投入到我们现有的和新开张的宜家商场，投资于产品设计和可持续解决方案，以及用以继续为我们的顾客降低产品价格。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -167,6 +211,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/fd/fb/fdfb029bc50334e3b53a92cd25599aa2.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Image(video)-"
    }
@@ -179,7 +233,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<p><strong>质优价廉产品</strong><br />为了得到大众的认可，我们的产品必须做到质优价廉。我们设计产品时，始终将顾客的需求放在心里。<a href=\"../this-is-ikea/-2818dbf1b56d11e79a5eff486d94c77f\">请了解我们的&ldquo;民主设计&rdquo;流程</a></p>",
+    "质优价廉产品 为了得到大众的认可，我们的产品必须做到质优价廉。我们设计产品时，始终将顾客的需求放在心里。请了解我们的“民主设计”流程",
     "pub-text"
    ],
    "images": [
@@ -201,6 +255,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/50/ff/50ff7f9660cef11cb66c4351afad053a.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/df/b9/dfb9541860946b281412d18ab8ae1059.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/6c/d6/6cd6adc3bad5c2d398679a1701fb0b3b.png",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "质优价廉产品 为了得到大众的认可，我们的产品必须做到质优价廉。我们设计产品时，始终将顾客的需求放在心里。请了解我们的“民主设计”流程",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/50/ff/50ff7f9660cef11cb66c4351afad053a.jpg",
+     "href": null
+    },
+    {
+     "heading": "益于人类，益于地球 我们持续发展壮大的同时，致力于对地球家园和大众带来全面的积极影响。更多内容，请参阅“人类与地球”",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/df/b9/dfb9541860946b281412d18ab8ae1059.jpg",
+     "href": null
+    },
+    {
+     "heading": "宜家与员工共成长 员工是我们持续发展的关键。我们把每个人都当成有发展潜力的人才。更多内容，请参阅“在宜家集团工作”",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/6c/d6/6cd6adc3bad5c2d398679a1701fb0b3b.png",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Columns-"
    }
@@ -213,6 +311,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Horizontal Line-"
    }
@@ -221,10 +321,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>关键数据</p>\n<h3><strong>2017财年宜家集团概况</strong></h3>\n<p><strong>英格卡控股公司及其控制实体</strong></p>"
+    "关键数据 2017财年宜家集团概况 英格卡控股公司及其控制实体"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -253,6 +355,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "关键数据",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/47/75/477548e5437f33b7b6ed35d065fa57f0.jpg",
+     "href": "/cn/zh/h5page/?url=http%3A%2F%2Fwww.ikea.com%2Fms%2Fzh_CN%2Fthis-is-ikea%2Fabout-the-ikea-group%2Findex.html",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Image(video)-"
    }
@@ -261,10 +373,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>1包括符合&ldquo;更优良棉花&rdquo;标准的棉花；通过与努力生产&ldquo;更优良棉花&rdquo;的棉农合作；美国（如e3棉花计划）种植的更可持续棉花和回收棉花。</p>\n<p>2由于新的管理结构调整，该数字在2017财年有所变动。</p>\n<p><a href=\"http://www.ikea.com/ms/zh_CN/pdf/reports-downloads/AtAGlance_CN.pdf\">下载完整报告</a>，查看更多关于宜家2017财年的发展动向。</p>"
+    "1包括符合“更优良棉花”标准的棉花；通过与努力生产“更优良棉花”的棉农合作；美国（如e3棉花计划）种植的更可持续棉花和回收棉花。 2由于新的管理结构调整，该数字在2017财年有所变动。 下载完整报告，查看更多关于宜家2017财年的发展动向。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -277,6 +391,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Horizontal Line-"
    }
@@ -285,10 +401,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>所有权与结构</p>\n<h3><strong>所有权结构</strong></h3>\n<p>宜家集团（英格卡控股公司及其控制的实体）采用的所有权结构可确保独立性和长远发展。荷兰的Stichting Ingka Foundation是宜家集团所有者，其资金仅用作以下两种用途：对宜家集团进行再投资，或通过Stichting IKEA基金会进行慈善捐款。</p>"
+    "所有权与结构 所有权结构 宜家集团（英格卡控股公司及其控制的实体）采用的所有权结构可确保独立性和长远发展。荷兰的Stichting Ingka Foundation是宜家集团所有者，其资金仅用作以下两种用途：对宜家集团进行再投资，或通过Stichting IKEA基金会进行慈善捐款。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -297,10 +415,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h4><strong>结构概况</strong></h4>"
+    "结构概况"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -321,6 +441,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/35/fa/35fa872c9381850e9bf7747329c1479d.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Image(video)-"
    }
@@ -341,6 +471,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/f5/eb/f5ebdae4b9d6e48256c3f5a690498955.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Image(video)-"
    }
@@ -353,6 +493,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Horizontal Line-"
    }
@@ -361,10 +503,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>组织</p>\n<h3><strong>我们的集团管理层</strong></h3>"
+    "组织 我们的集团管理层"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -386,6 +530,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "组织",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/29/e3/29e3ce1ef80575f9db4d1d9493c10071.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Image(video)-"
    }
@@ -394,10 +548,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><em>从左到右:</em><br />Claudia Willvonseder, Marketing and Com&amp;In <br />Mikael Palmquist, Retail Region Asia Pacific<br />Giny Boer, Retail Region South &amp; East Europe<br />Juvencio Maeztu, Sustainability<br />Marcus Baumgartner, Customer Fulfilment<br />Petra Hesser, Development &amp; Expansion<br />Alistair Davidson, CFO<br />Jesper Brodin, CEO &amp; President<br />Michael Ward, Retail Region North America &amp; Scandinavia<br />Gerard Groener, Centres<br />Olivia Ross Wilson, Corporate Communications<br />Doris Lan, CEO Assistant<br />Stefan Sj&ouml;strand, Commerical<br />Ulrika Bie"
+    "从左到右: Claudia Willvonseder, Marketing and Com&In Mikael Palmquist, Retail Region Asia Pacific Giny Boer, Retail Region South & East Europe Juvencio Maeztu, Sustainability Marcus Baumgartner, Customer Fulfilment Petra Hesser, Development & Expansion Alistair Davidson, CFO Jesper Brodin, CEO & President Michael Ward, Retail Region North America & Scandinavia Gerard Groener, Centres Olivia Ross Wilson, Corporate Communications Doris Lan, CEO Assistant Stefan Sjöstrand, Commerical Ulrika Biesèrt, Human Resources Jeanette Söderberg (not pictured), Retail Region Central & West Europe"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -410,6 +566,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Horizontal Line-"
    }
@@ -418,10 +576,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h4><strong>你可能对以下内容也感兴趣：</strong></h4>"
+    "你可能对以下内容也感兴趣："
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -466,6 +626,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "民主设计",
+     "text": "真正懂得家居生活是宜家家居装饰产品设计的基础。了解更多关于宜家设计和产品开发流程的信息。",
+     "image": "https://file.app.ikea.cn/images/1b/07/1b07601a3042204ef26f87ef6c10e692.jpg",
+     "href": "/cn/zh/this-is-ikea/design/design-pub2818dbf1",
+     "backgroundColor": null
+    },
+    {
+     "title": "选择材料",
+     "text": "对于宜家来说，选择材料意味着要做出负责任的决定。作为一家大企业，我们通过使用可再生材料、回收材料和可回收材料，能够对行业产生深刻的影响。 ",
+     "image": "https://file.app.ikea.cn/images/fa/31/fa31760bc31a32e5c47a75f756937cd7.png",
+     "href": "/cn/zh/this-is-ikea/sustainable-everyday/raw-materials-pub9cde52f1",
+     "backgroundColor": null
+    },
+    {
+     "title": "在工厂",
+     "text": "拜访宜家供应商工厂的团队组织紧凑，合作无间，正是他们每天为了宜家默默付出。 ",
+     "image": "https://file.app.ikea.cn/images/d0/4e/d04edb3c129ceb0a62ea58f4dcc93f27.png",
+     "href": "/cn/zh/this-is-ikea/about-us/supplier-puba0bab7e1",
+     "backgroundColor": null
+    },
+    {
+     "title": "宜家集团职业发展",
+     "text": "在宜家集团工作是什么样的体验？与我们的员工见面，了解宜家集团的各个工作领域，探索我们的产品和服务。",
+     "image": "https://file.app.ikea.cn/images/d7/9e/d79ef07d2c5ff1269890fed1292a0f1b.jpg",
+     "href": "/cn/zh/this-is-ikea/work-with-us/working-pubcbeeacf0",
+     "backgroundColor": null
+    },
+    {
+     "title": "新闻室",
+     "text": "宜家新闻室 最新新闻  综合新闻  产品资讯  产品召回  拓张计划 可持续发展新闻 宜家媒体电子快讯 ",
+     "image": "https://file.app.ikea.cn/images/ee/ba/eebaf7458473ed9a5b77d1f156503eae.jpg",
+     "href": "/cn/zh/newsroom/",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Page List-"
    }
@@ -480,6 +678,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Link - button or text-"
    }

@@ -11,7 +11,7 @@
    "title": "享受分外香甜的睡眠",
    "texts": [
     "SLATTUM 斯拉图 灰色带软垫床配有带软垫床头板，令人倍感舒适。",
-    "<p>选用结合时尚设计与舒适体验的 SLATTUM 斯拉图 带软垫床，确保优质睡眠。无需花费过多便可将它带回家，伴你安睡。</p>",
+    "选用结合时尚设计与舒适体验的 SLATTUM 斯拉图 带软垫床，确保优质睡眠。无需花费过多便可将它带回家，伴你安睡。",
     "享受分外香甜的睡眠",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "享受分外香甜的睡眠",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b0/f3/b0f326e782d3976bf21efd853fdc19d2.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,16 +54,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "SLATTUM 斯拉图 灰色带软垫床床头板细节图。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/da/69/da6940f30ee6d68b092d38d73e39cbe4.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>简洁的线条和带软垫床头板赋予 SLATTUM 斯拉图 带软垫床优雅的外观，使它成为卧室中的焦点。</p>"
+    "简洁的线条和带软垫床头板赋予 SLATTUM 斯拉图 带软垫床优雅的外观，使它成为卧室中的焦点。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

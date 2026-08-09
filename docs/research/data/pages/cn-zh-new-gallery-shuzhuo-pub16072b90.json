@@ -11,7 +11,7 @@
    "title": "适用更多空间",
    "texts": [
     "宜家 INGATORP 英格托 白色或黑色书桌的两侧均采用伸缩性翻板结构，可以在需要时提供更大的桌面。",
-    "<p>INGATORP 英格托 书桌采用伸缩性翻板结构，可以在需要时提供更大的桌面，能让你在这款传统风格的书桌旁静下心来工作和学习。</p>",
+    "INGATORP 英格托 书桌采用伸缩性翻板结构，可以在需要时提供更大的桌面，能让你在这款传统风格的书桌旁静下心来工作和学习。",
     "适用更多空间",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "适用更多空间",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/f7/5e/f75e52e45af641bf00d7cbadf62ea348.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -43,16 +53,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "特写：宜家 INGATORP 英格托 白色书桌采用传统设计，配备电线管理孔，方便你使用电子设备。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/2c/21/2c21d94f2a74aee2e43799b936a0a724.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>INGATORP 英格托 书桌上有电线管理孔，方便你连接电子设备，安心工作或学习。</p>"
+    "INGATORP 英格托 书桌上有电线管理孔，方便你连接电子设备，安心工作或学习。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -65,6 +87,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

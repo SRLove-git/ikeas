@@ -11,7 +11,7 @@
    "title": "共享空间和巧妙的储物装置",
    "texts": [
     "宜家 BROR 巴拉 储物系列是一套多用途搁架单元，可放置于客厅、户外和车库。可以承载重型工具、植物、篮子和盒子。",
-    "<p>和同住室友一起生活充满乐趣，但在一天结束之时，每个人还是需要专属于自己的空间。利用隐蔽的沙发储物空间和搁架单元分隔个人物品，充分利用共享客厅的边边角角。</p>",
+    "和同住室友一起生活充满乐趣，但在一天结束之时，每个人还是需要专属于自己的空间。利用隐蔽的沙发储物空间和搁架单元分隔个人物品，充分利用共享客厅的边边角角。",
     "共享空间和巧妙的储物装置",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "共享空间和巧妙的储物装置",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b2/3c/b23c6bc7447dfd67d339dcedbf01b800.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -39,6 +49,26 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "BURVIK 伯恩维克",
+     "text": "¥199",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/burvik-bo-en-wei-ke-bian-zhuo-hei-se__0551236_pe658472_s4.jpg",
+     "href": "/cn/zh/p/burvik-bo-en-wei-ke-bian-zhuo-hei-se-00340387/"
+    },
+    {
+     "title": "FJÄLLBO 耶伯",
+     "text": "¥999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/fjaellbo-ye-bo-dian-shi-gui-hei-se__0473390_pe614545_s4.jpg",
+     "href": "/cn/zh/p/fjaellbo-ye-bo-dian-shi-gui-hei-se-30339293/"
+    },
+    {
+     "title": "HEKTAR 赫克塔",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/hektar-he-ke-ta-qiang-mian-jia-shi-she-deng-shen-hui-se__0606598_pe682407_s4.jpg",
+     "href": "/cn/zh/p/hektar-he-ke-ta-qiang-mian-jia-shi-she-deng-shen-hui-se-70216539/"
+    }
+   ],
    "settings": null
   }
  ]

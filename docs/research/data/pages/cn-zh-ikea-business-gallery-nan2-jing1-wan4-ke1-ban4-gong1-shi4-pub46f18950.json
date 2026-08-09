@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-标题-"
    }
@@ -22,10 +24,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>宜家专业打造商业办公空间，赋予清晰的功能分区，支持所有办公需求。可调节办公桌，提升办公效率；舒适座椅保障员工身心健康。</p>"
+    "宜家专业打造商业办公空间，赋予清晰的功能分区，支持所有办公需求。可调节办公桌，提升办公效率；舒适座椅保障员工身心健康。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -34,10 +38,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>办公空间</h2>"
+    "办公空间"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -58,6 +64,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/14/63/14634be8b66fab654e9b933bb98b4652.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-媒体商品组合 image(Video)-"
    }
@@ -85,6 +101,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/21/62/21621f96850d845b1da81888e643d31c.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d2/e8/d2e8a84d11058f73b259b324b8252be4.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/21/62/21621f96850d845b1da81888e643d31c.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/d2/e8/d2e8a84d11058f73b259b324b8252be4.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-分栏内容 Columns-"
    }
@@ -93,10 +140,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>经理办公室</h2>"
+    "经理办公室"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -117,6 +166,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/2b/d3/2bd3396dac7f76393ca04c2630dda9a2.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-媒体商品组合 image(Video)-"
    }
@@ -144,6 +203,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/c2/28/c2289e35de3484ae46613456fe6fcbb6.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ab/43/ab430b412da0d7d94178735359916de2.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/c2/28/c2289e35de3484ae46613456fe6fcbb6.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/ab/43/ab430b412da0d7d94178735359916de2.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-分栏内容 Columns-"
    }
@@ -152,10 +242,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>多功能收纳区</h2>"
+    "多功能收纳区"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -176,6 +268,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/81/11/81115280abeb580060daa96372a9cb3a.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-媒体商品组合 image(Video)-"
    }
@@ -208,6 +310,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/94/3f/943fa12b1c73707e23ea1a6e1fc22574.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/94/04/9404bdd2eda5ad0bb38018318796b079.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/97/a7/97a722dff989b9546ce9b87f14deca84.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/94/3f/943fa12b1c73707e23ea1a6e1fc22574.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/97/a7/97a722dff989b9546ce9b87f14deca84.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-分栏内容 Columns-"
    }
@@ -235,6 +375,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/dc/17/dc17066d778d742a8ae0893847d1fcb1.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/14/16/1416c337909fd5827602e47f04bf2efd.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/dc/17/dc17066d778d742a8ae0893847d1fcb1.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/14/16/1416c337909fd5827602e47f04bf2efd.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-分栏内容 Columns-"
    }
@@ -267,6 +438,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/2a/8e/2a8e28f046a39be63f7094ec9c0723d3.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/23/f2/23f276e1f30f541addd088b94548a184.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ee/7d/ee7dd1ea2c03d3dcd441d959818fc9e1.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/23/f2/23f276e1f30f541addd088b94548a184.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/ee/7d/ee7dd1ea2c03d3dcd441d959818fc9e1.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-分栏内容 Columns-"
    }
@@ -287,6 +496,39 @@
     {
      "href": "/ikea-business/office-furnishings/",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "相关产品",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/ikea-business/office-furnishings/",
+     "backgroundColor": null
+    },
+    {
+     "title": "LÅNGFJÄLL 隆菲尔",
+     "text": "¥799",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/langfjaell-long-fei-er-hui-yi-yi-gang-na-rui-de-mi-huang-se-bai-se__0725410_pe734846_s4.jpg",
+     "href": "/cn/zh/p/langfjaell-long-fei-er-hui-yi-yi-gang-na-rui-de-mi-huang-se-bai-se-99252367/"
+    },
+    {
+     "title": "LAGKAPTEN 拉格开普 / KRILLE 克瑞尔",
+     "text": "¥629",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lagkapten-la-ge-kai-pu-krille-ke-rui-er-shu-zhuo-fang-bai-se-xiang-mu-wen-bai-se__0976097_pe812995_s4.jpg",
+     "href": "/cn/zh/p/lagkapten-la-ge-kai-pu-krille-ke-rui-er-shu-zhuo-fang-bai-se-xiang-mu-wen-bai-se-09417264/"
+    },
+    {
+     "title": "ALEFJÄLL 阿勒夫耶",
+     "text": "¥1,499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/alefjaell-a-le-fu-ye-ban-gong-yi-ge-lan-jin-zong-se__0724709_pe734591_s4.jpg",
+     "href": "/cn/zh/p/alefjaell-a-le-fu-ye-ban-gong-yi-ge-lan-jin-zong-se-20419983/"
+    },
+    {
+     "title": "RISSLA 瑞斯拉",
+     "text": "¥149",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/rissla-rui-si-la-shu-zhuo-dian-hei-se__0715861_pe730632_s4.jpg",
+     "href": "/cn/zh/p/rissla-rui-si-la-shu-zhuo-dian-hei-se-20246157/"
     }
    ],
    "settings": {
@@ -311,6 +553,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-按钮 Link-button or text-"
    }

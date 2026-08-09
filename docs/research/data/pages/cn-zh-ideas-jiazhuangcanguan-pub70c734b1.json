@@ -11,7 +11,7 @@
    "title": "家装参观：充满个性的儿童房",
    "texts": [
     "儿童房中放着单色的床上用品，墙壁是蓝色的。",
-    "<p>孩子的卧室无论空间大小，都可以用各种装点方式来展现其个性。来了解一下Olivia（9岁）和她父母如何打造属于她的个性空间。</p>",
+    "孩子的卧室无论空间大小，都可以用各种装点方式来展现其个性。来了解一下Olivia（9岁）和她父母如何打造属于她的个性空间。",
     "家装参观：充满个性的儿童房",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "家装参观：充满个性的儿童房",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/f9/fc/f9fcfb6f9f8270bbd1cbca2ce85df91d.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -46,16 +56,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "一张放着单色床上用品的床，上面装有灰色床头板。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/1a/29/1a2958fd01c738952aeb166ba2b4b922.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>为单调的纯色注入个性色彩。可以跟孩子一起制作的手工艺品——Olivia的妈妈Pati喜欢用价格实惠的手工艺品增添个性色彩。Olivia的床头板是用填料和宜家布料手工制作的。另外还有一些改造细节，比如用金色胶带装饰Olivia的花盆。</p>"
+    "为单调的纯色注入个性色彩。可以跟孩子一起制作的手工艺品——Olivia的妈妈Pati喜欢用价格实惠的手工艺品增添个性色彩。Olivia的床头板是用填料和宜家布料手工制作的。另外还有一些改造细节，比如用金色胶带装饰Olivia的花盆。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -76,16 +98,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "蓝色卧室里放着一个白色转角衣柜。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/68/a1/68a1d225bf8e131b90b85834823a692b.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>发挥创意，巧用空间，尤其是局促的卧室。最近给Olivia换了一张小双人床，这样就不会因为她成长得太快而睡不开，但这张床占用的地面空间有点大。在卧室内摆放一个转角衣柜，不仅能为她提供大量的储物空间，还能避免浪费门后的局促空间。</p>"
+    "发挥创意，巧用空间，尤其是局促的卧室。最近给Olivia换了一张小双人床，这样就不会因为她成长得太快而睡不开，但这张床占用的地面空间有点大。在卧室内摆放一个转角衣柜，不仅能为她提供大量的储物空间，还能避免浪费门后的局促空间。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -106,16 +140,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "一张带储物空间的书桌和一盏灯具。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a0/a8/a0a856d5f801c4376282582ad49c0188.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>放一张书桌、一张直背椅、一盏工作灯和文具收纳件，方便Olivia做功课时集中注意力。让孩子把心爱的物件展示出来，从中收获乐趣。Olivia在空画框中放满了她收集的小雕像和纪念品。</p>"
+    "放一张书桌、一张直背椅、一盏工作灯和文具收纳件，方便Olivia做功课时集中注意力。让孩子把心爱的物件展示出来，从中收获乐趣。Olivia在空画框中放满了她收集的小雕像和纪念品。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -135,36 +181,52 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "Olivia在自己卧室中的照片。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/27/07/27073f4d5595400c1bb3373e9c93918e.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>让孩子决定房间的色彩。即使不涂刷墙壁，也可以在各种颜色和图案的纺织品中选择孩子喜欢的颜色。“我想为自己的房间选择颜料，我最喜欢深蓝色，霓虹色也不错。”Olivia说。“我的房间里最棒的就是床了！”</p>"
+    "让孩子决定房间的色彩。即使不涂刷墙壁，也可以在各种颜色和图案的纺织品中选择孩子喜欢的颜色。“我想为自己的房间选择颜料，我最喜欢深蓝色，霓虹色也不错。”Olivia说。“我的房间里最棒的就是床了！”"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><em>我们乐意看到顾客运用我们的产品发挥创意。尽情发挥吧！但是请注意，经过微调或改造的宜家产品将丧失其原有功能，或无法进行二次销售，因此，你将不再享有宜家的商业保证及退货权利。</em></p>"
+    "我们乐意看到顾客运用我们的产品发挥创意。尽情发挥吧！但是请注意，经过微调或改造的宜家产品将丧失其原有功能，或无法进行二次销售，因此，你将不再享有宜家的商业保证及退货权利。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>制作人</strong></p> <p>室内设计师：Sam Grigg<br />摄影师：Alicia Taylor</p>"
+    "制作人 室内设计师：Sam Grigg 摄影师：Alicia Taylor"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

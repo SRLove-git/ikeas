@@ -22,6 +22,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "客厅储物小妙招",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/84/dd/84dd628c0102c7074fbae72e9a966697.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -40,6 +50,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/cc/50/cc503f645c479ccf6af3e1c92b440aea.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -56,6 +76,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -74,6 +96,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/66/24/66246f2caf22a772b40b87aa2343ce7c.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -100,6 +132,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/5e/d4/5ed4091153f549dcaa7e4bf36ab9639c.jpg",
+     "href": "/cn/zh/p/50177727?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -126,16 +168,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/73/73/73737f4f604b046f03c8470e9a233a9e.jpg",
+     "href": "/cn/zh/p/90280204?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h4><strong>推荐产品</strong></h4>"
+    "推荐产品"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -151,16 +205,44 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "PÄRLBAND 帕邦德",
+     "text": "¥39.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/paerlband-pa-bang-de-xiao-yuan-zha-zhu-tuo-jin-huang-se__0985134_pe816514_s4.jpg",
+     "href": "/cn/zh/p/paerlband-pa-bang-de-xiao-yuan-zha-zhu-tuo-jin-huang-se-30348546/"
+    },
+    {
+     "title": "MÅTTLIG 莫里格",
+     "text": "¥39.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mattlig-mo-li-ge-nai-pao-hu-bu-xiu-gang__0713349_pe729455_s4.jpg",
+     "href": "/cn/zh/p/mattlig-mo-li-ge-nai-pao-hu-bu-xiu-gang-70163215/"
+    },
+    {
+     "title": "KORKEN 考肯",
+     "text": "¥19.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/korken-kao-ken-fu-gai-guan-tou-ming-bo-li__0713741_pe729737_s4.jpg",
+     "href": "/cn/zh/p/korken-kao-ken-fu-gai-guan-tou-ming-bo-li-50213551/"
+    },
+    {
+     "title": "KORKEN 考肯",
+     "text": "¥12.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/korken-kao-ken-fu-gai-guan-tou-ming-bo-li__0713739_pe729738_s4.jpg",
+     "href": "/cn/zh/p/korken-kao-ken-fu-gai-guan-tou-ming-bo-li-30213547/"
+    }
+   ],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h4><strong>更多宜家说设计</strong></h4>"
+    "更多宜家说设计"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -203,6 +285,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "在客厅收纳和隐藏玩具",
+     "text": "在客厅收纳和隐藏玩具",
+     "image": "https://file.app.ikea.cn/images/18/47/1847ea15bd348b242e5b0c7092768cd7.jpg",
+     "href": "/cn/zh/rooms/living-room/gallery/zai4-ke4-ting1-shou1-na4-he2-yin3-cang2-wan2-ju4-pub5a0dfe31",
+     "backgroundColor": null
+    },
+    {
+     "title": "打造适合全家人共享的空间",
+     "text": "打造适合全家人共享的空间",
+     "image": "https://file.app.ikea.cn/images/42/6d/426da0efd1ffbd04224f08e9b6b695cd.jpg",
+     "href": "/cn/zh/rooms/living-room/gallery/da3-zao4-shi4-he2-quan2-jia1-ren2-gong4-xiang3-de-kong1-jian1-pub01e3f381",
+     "backgroundColor": null
+    },
+    {
+     "title": "怎样设计客厅灯光",
+     "text": "怎样设计客厅灯光",
+     "image": "https://file.app.ikea.cn/images/26/18/2618fc871ba6d26018d111237973e98b.jpg",
+     "href": "/cn/zh/rooms/living-room/gallery/zen3-yang4-she4-ji4-ke4-ting1-deng1-guang1-pub50d35171",
+     "backgroundColor": null
+    },
+    {
+     "title": "如何打造北欧传统风格餐厅",
+     "text": "如何打造北欧传统风格餐厅",
+     "image": "https://file.app.ikea.cn/images/c7/cc/c7cc6fa35b192dfec1a17fd55577ae86.jpg",
+     "href": "/cn/zh/rooms/dining/gallery/ru2-he2-da3-zao4-bei3-ou1-chuan2-tong3-feng1-ge2-can1-ting1-pub865ac761",
+     "backgroundColor": null
+    },
+    {
+     "title": "巧用纺织品改变家居风格",
+     "text": "巧用纺织品改变家居风格",
+     "image": "https://file.app.ikea.cn/images/a2/72/a272fbd6aa32044a34ec3de636406b2f.jpg",
+     "href": "/cn/zh/rooms/living-room/gallery/qiao3-yong4-fang3-zhi1-pin3-gai3-bian4-jia1-ju1-feng1-ge2-puba8a13161",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -211,6 +331,8 @@
    "texts": [],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

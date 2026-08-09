@@ -11,7 +11,7 @@
    "title": "宜家愿景和价值观",
    "texts": [
     "三个小孩光着脚，在一张深蓝色的宜家沙发上跳来跳去。",
-    "<p>我们以愿景为启发，以价值观为驱动力，对居家生活充满真挚的热爱。</p>",
+    "我们以愿景为启发，以价值观为驱动力，对居家生活充满真挚的热爱。",
     "宜家愿景和价值观",
     "side"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "宜家愿景和价值观",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/6a00df3db7bfa465/original/PH141775-crop002.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Hero-宜家愿景和价值观"
    }
@@ -32,10 +42,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>我们将宜家品牌带进千家万户，为梦想远大但预算有限的大众提供设计精良、功能出众、经久耐用、经济实惠且环保可持续的家居解决方案。我们对周遭的世界充满好奇，并且希望给人们的生活带去积极的改变。</p>"
+    "我们将宜家品牌带进千家万户，为梦想远大但预算有限的大众提供设计精良、功能出众、经久耐用、经济实惠且环保可持续的家居解决方案。我们对周遭的世界充满好奇，并且希望给人们的生活带去积极的改变。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -49,7 +61,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<h2>宜家愿景</h2>\n<p><strong>“为大众创造更美好的日常生活”。</strong> 这一愿景并不局限于家居装饰范围。我们希望为世界带来积极的影响——从我们所选择的原材料采购地区，到通过我们的产品帮助顾客过上更可持续的居家生活。</p>\n<p>通过分享我们所作出的努力，为我们的信念发声，我们可以成为促进社会积极变革的一股强大力量。</p>"
+    "宜家愿景 “为大众创造更美好的日常生活”。 这一愿景并不局限于家居装饰范围。我们希望为世界带来积极的影响——从我们所选择的原材料采购地区，到通过我们的产品帮助顾客过上更可持续的居家生活。 通过分享我们所作出的努力，为我们的信念发声，我们可以成为促进社会积极变革的一股强大力量。"
    ],
    "images": [
     "https://file.app.ikea.cn/ext/ingkadam/m/5e7ae73827041a7d/original/PH160094.jpg",
@@ -65,6 +77,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "一名印度纺织工人正在晾晒刚染好的亮黄色棉料。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/5e7ae73827041a7d/original/PH160094.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "一位年轻女子蜷缩在一张黄色的STRANDMON 斯佳蒙 单人沙发/扶手椅中看书。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250731/1427ad05e48d448a8f81c5026944cdcd.png?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "宜家愿景 “为大众创造更美好的日常生活”。 这一愿景并不局限于家居装饰范围。我们希望为世界带来积极的影响——从我们所选择的原材料采购地区，到通过我们的产品帮助顾客过上更可持续的居家生活。 通过分享我们所作出的努力，为我们的信念发声，我们可以成为促进社会积极变革的一股强大力量。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/5e7ae73827041a7d/original/PH160094.jpg",
+     "href": null
+    },
+    {
+     "heading": "宜家经营理念 我们的愿景解释了我们存在的原因，而我们的经营理念则指出了我们要实现的目标。如果你曾造访宜家，应该也知道我们的经营理念是“提供种类繁多、美观实用、老百姓买得起的家居用品。” 宜家创始人英格瓦·坎普拉德",
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20250731/1427ad05e48d448a8f81c5026944cdcd.png?x-oss-process=style/medium",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Columns-"
    }
@@ -89,6 +132,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "宜家创始人英格瓦·坎普拉德先生在阿姆霍特的第一家宜家商场的停车场抽烟斗。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/4fdaba64049138e3/original/PX000349-crop001.jpg",
+     "href": null,
+     "backgroundColor": "#FFFFFF"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Banner-"
    }
@@ -101,6 +154,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Horizontal Line-"
    }
@@ -109,10 +164,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>宜家价值观</h2>\n<p>我们的价值观反映了我们认为最重要的事情，甚至可以把它们称作是我们“不可或缺的一部分”。宜家价值观指导着我们在日常生活和工作中的方方面面，包括我们如何对待他人和地球，以及如何作出或大或小的决定。</p>"
+    "宜家价值观 我们的价值观反映了我们认为最重要的事情，甚至可以把它们称作是我们“不可或缺的一部分”。宜家价值观指导着我们在日常生活和工作中的方方面面，包括我们如何对待他人和地球，以及如何作出或大或小的决定。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -123,11 +180,13 @@
    "texts": [
     "团结一致",
     "column",
-    "<p>“Tillsammans”（瑞典语，意为团结一致）对我们来说很重要，它是宜家文化的核心。只有当我们相互信任、方向一致并且能愉快合作时，宜家才能保持最佳状态，欣欣向荣。</p>",
+    "“Tillsammans”（瑞典语，意为团结一致）对我们来说很重要，它是宜家文化的核心。只有当我们相互信任、方向一致并且能愉快合作时，宜家才能保持最佳状态，欣欣向荣。",
     "pub-text"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Expandable Area-"
    }
@@ -138,11 +197,13 @@
    "texts": [
     "关爱人类和地球",
     "column",
-    "<p>我们希望成为推动积极变革的强大力量。宜家的影响力使我们有可能为自身及子孙后代带来重大且持久的影响。我们将继续提供通过更可持续地方式采购和制造的产品，帮助人们过上更可持续的居家生活。</p>",
+    "我们希望成为推动积极变革的强大力量。宜家的影响力使我们有可能为自身及子孙后代带来重大且持久的影响。我们将继续提供通过更可持续地方式采购和制造的产品，帮助人们过上更可持续的居家生活。",
     "pub-text"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Expandable Area-"
    }
@@ -153,11 +214,13 @@
    "texts": [
     "成本意识",
     "column",
-    "<p>我们不断挑战自我和他人，力求在不牺牲产品质量的情况下，以更少的资源创造更多的价值。无论何时何地，我们都竭尽所能发现和消除不必要的成本。</p>",
+    "我们不断挑战自我和他人，力求在不牺牲产品质量的情况下，以更少的资源创造更多的价值。无论何时何地，我们都竭尽所能发现和消除不必要的成本。",
     "pub-text"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Expandable Area-"
    }
@@ -168,11 +231,13 @@
    "texts": [
     "简单",
     "column",
-    "<p>简单、直接、务实是我们的品牌传统。对于宜家来说，简单意味着效率，意味着顺其自然。我们不接受复杂的解决方案，极力反对官僚主义。</p>",
+    "简单、直接、务实是我们的品牌传统。对于宜家来说，简单意味着效率，意味着顺其自然。我们不接受复杂的解决方案，极力反对官僚主义。",
     "pub-text"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Expandable Area-"
    }
@@ -183,11 +248,13 @@
    "texts": [
     "更新和改进",
     "column",
-    "<p>我们相信，无论我们今天表现如何，明天都能找到改进的空间。对我们来说，一切皆有可能。事实上，正是因为想办法解决不可能解决的问题，我们才取得了成功。</p>",
+    "我们相信，无论我们今天表现如何，明天都能找到改进的空间。对我们来说，一切皆有可能。事实上，正是因为想办法解决不可能解决的问题，我们才取得了成功。",
     "pub-text"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Expandable Area-"
    }
@@ -198,11 +265,13 @@
    "texts": [
     "富有意义的与众不同",
     "column",
-    "<p>宜家不同于其他公司，也不想成为其他公司。我们希望在业内甚至是在全球范围内挑战传统并推动积极的变革。我们是不安分的实干家，具有强烈的好奇心和热情，想要为大众创造更美好的世界。</p>",
+    "宜家不同于其他公司，也不想成为其他公司。我们希望在业内甚至是在全球范围内挑战传统并推动积极的变革。我们是不安分的实干家，具有强烈的好奇心和热情，想要为大众创造更美好的世界。",
     "pub-text"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Expandable Area-"
    }
@@ -213,11 +282,13 @@
    "texts": [
     "赋予和承担责任",
     "column",
-    "<p>我们特别重视尽早让宜家的员工承担更多责任。我们重视授权赋能，也相信渴望发展的员工有能力承担起这份职责。责任越大、挑战越多，我们的进步就越大。</p>",
+    "我们特别重视尽早让宜家的员工承担更多责任。我们重视授权赋能，也相信渴望发展的员工有能力承担起这份职责。责任越大、挑战越多，我们的进步就越大。",
     "pub-text"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Expandable Area-"
    }
@@ -228,11 +299,13 @@
    "texts": [
     "以身作则",
     "column",
-    "<p>宜家认为，领导力是一种行动，而不是一个职位要求。对我们来说，员工的价值观和他们的能力与经验同样重要。我们需要的是言出必行、以身作则的人。</p>",
+    "宜家认为，领导力是一种行动，而不是一个职位要求。对我们来说，员工的价值观和他们的能力与经验同样重要。我们需要的是言出必行、以身作则的人。",
     "pub-text"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Expandable Area-"
    }
@@ -267,6 +340,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "我们的历史",
+     "text": "二十世纪40年代，在瑞典的一个小镇，一位富有创业精神的年轻人希望为世界各地的人们创造更美好的生活，宜家就此诞生。在此处了解完整的故事。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/558f842846a6fa1b/webimage-PX000263-crop002.png",
+     "href": "/cn/zh/this-is-ikea/about-us/our-heritage-pubad29a981",
+     "backgroundColor": null
+    },
+    {
+     "title": "更可持续的日常生活",
+     "text": "了解宜家如何专注于经济实惠、节省资源和高效节能的产品，帮助和启发人们过上更可持续的居家生活。",
+     "image": "https://file.app.ikea.cn/images/d2/b3/d2b396e11bcf4dbc79446545df385360.jpg",
+     "href": "/cn/zh/this-is-ikea/sustainable-everyday/",
+     "backgroundColor": null
+    },
+    {
+     "title": "加入我们",
+     "text": "想成为一名宜家员工？了解在宜家工作的体验、我们的招聘方式、所提供的工作机会以及我们在平等和包容方面的立场。",
+     "image": "https://file.app.ikea.cn/cms/u/20250731/42b45d15684b4f1393969a6546ae6cc9.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/this-is-ikea/work-with-us/",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Page List-"
    }

@@ -11,7 +11,7 @@
    "title": "宁静有序的小卧室",
    "texts": [
     "一间阳光充足的中性色调卧室，配有一张KLEPPSTAD 克勒普斯塔 床，床上铺着浅色的床上用品，床上方悬挂着一个LERGRYN 列格林 灯罩。",
-    "<p>想在一间小卧室摆下所有必需品似乎要求太高，但其实只要巧妙运用储物家具，在色彩和纺织品的搭配上花些心思，即使空间小也可以做到所需俱全，还能留出一些办公空间。</p>",
+    "想在一间小卧室摆下所有必需品似乎要求太高，但其实只要巧妙运用储物家具，在色彩和纺织品的搭配上花些心思，即使空间小也可以做到所需俱全，还能留出一些办公空间。",
     "宁静有序的小卧室",
     "norma"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "宁静有序的小卧室",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/90/f9/90f96ca7b3020af7b8625ab888bbfc86.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -50,6 +60,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "KLEPPSTAD 克勒普斯塔 床上铺着ÄNGSLILJA 安斯莉娅 床用织品，上方的墙上有一盏灯，地板上有一双拖鞋。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/2a929c0222c8c180/original/PH184477.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -76,6 +96,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "床头一角，旁边有两张FREDVANG 弗瑞芳 床下储物桌。其中一张储物桌表面放着杯子和时钟，下面放着书。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/53a8b7653f2f708e/original/PH184474.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -102,6 +132,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "床边墙壁上有一面NISSEDAL 尼瑟达 镜子，镜子里映照着一个开放式壁式储物装置，旁边是带浅灰色窗帘的窗户和百叶帘。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/2f27f48e299916b8/original/PH184476.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -128,6 +168,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "阳光充足的卧室中的一面墙，墙上是BOAXEL 博阿克塞/LAGKAPTEN 拉格开普 衣柜组合和桌面，上面摆放着储物盒和衣服。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/3395b9d6ae0f0502/original/PH184478.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -154,6 +204,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "窗户下方的墙壁上装了一台FÖRNUFTIG 费努福提 空气净化器，窗台上放着植物和书，旁边有一张办公椅。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/452bee4e4aa25629/original/PH184475.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -172,6 +232,33 @@
     {
      "href": "/cat/fu001",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "让小卧室显得更宽敞的巧妙产品",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/fu001",
+     "backgroundColor": null
+    },
+    {
+     "title": "KLEPPSTAD 克勒普斯塔",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kleppstad-ke-le-pu-si-ta-chuang-jia-bai-se-wei-suo-er-mi-huang-se__1035340_pe840527_s4.jpg",
+     "href": "/cn/zh/p/kleppstad-ke-le-pu-si-ta-chuang-jia-bai-se-wei-suo-er-mi-huang-se-30492671/"
+    },
+    {
+     "title": "BOAXEL 博阿克塞 / LAGKAPTEN 拉格开普",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/boaxel-bo-a-ke-sai-lagkapten-la-ge-kai-pu-dai-zhuo-mian-yi-gui-zu-he-bai-se__1055906_pe848138_s4.jpg",
+     "href": "/cn/zh/p/boaxel-bo-a-ke-sai-lagkapten-la-ge-kai-pu-dai-zhuo-mian-yi-gui-zu-he-bai-se-89440944/"
+    },
+    {
+     "title": "TRONES 强尼思",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/trones-qiang-ni-si-xie-gui-chu-cang-bai-se__0710711_pe727734_s4.jpg",
+     "href": "/cn/zh/p/trones-qiang-ni-si-xie-gui-chu-cang-bai-se-80397308/"
     }
    ],
    "settings": null
@@ -194,6 +281,45 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "风格谐美的纺织品秀出你的风格",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/tl001",
+     "backgroundColor": null
+    },
+    {
+     "title": "STOENSE 斯托恩瑟",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/stoense-si-tuo-en-se-duan-rong-di-tan-hui-bai__0624402_pe691814_s4.jpg",
+     "href": "/cn/zh/p/stoense-si-tuo-en-se-duan-rong-di-tan-hui-bai-00426809/"
+    },
+    {
+     "title": "HEDSÄV 赫塞",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/hedsaev-he-sai-dian-tao-hui-bai__0919068_pe786563_s4.jpg",
+     "href": "/cn/zh/p/hedsaev-he-sai-dian-tao-hui-bai-90485578/"
+    },
+    {
+     "title": "FRIDANS 福里当斯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/fridans-fu-li-dang-si-zhe-guang-juan-lian-bai-se__0588039_pe672903_s4.jpg",
+     "href": "/cn/zh/p/fridans-fu-li-dang-si-zhe-guang-juan-lian-bai-se-70396880/"
+    },
+    {
+     "title": "VIDGA 维德加",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vidga-wei-de-jia-dan-gui-zhuang-zhi-bai-se__1021809_pe832368_s4.jpg",
+     "href": "/cn/zh/p/vidga-wei-de-jia-dan-gui-zhuang-zhi-bai-se-89428230/"
+    },
+    {
+     "title": "ROSENSKÄRM 洛森浣",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/rosenskaerm-luo-sen-wan-ren-ti-gong-xue-zhen-ce-wo-yang-wo__0722542_pe733642_s4.jpg",
+     "href": "/cn/zh/p/rosenskaerm-luo-sen-wan-ren-ti-gong-xue-zhen-ce-wo-yang-wo-70444367/"
+    }
+   ],
    "settings": null
   },
   {
@@ -212,6 +338,33 @@
     {
      "href": "/cat/li001",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "照明营造氛围",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/li001",
+     "backgroundColor": null
+    },
+    {
+     "title": "NYMÅNE 纽墨奈",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/nymane-niu-mo-nai-bi-deng-yue-du-deng-bai-se__0556007_pe660372_s4.jpg",
+     "href": "/cn/zh/p/nymane-niu-mo-nai-bi-deng-yue-du-deng-bai-se-60356988/"
+    },
+    {
+     "title": "SVALLET 斯瓦雷特",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/svallet-si-wa-lei-te-gong-zuo-deng-shen-hui-se-bai-se__0703502_pe724751_s4.jpg",
+     "href": "/cn/zh/p/svallet-si-wa-lei-te-gong-zuo-deng-shen-hui-se-bai-se-90358491/"
+    },
+    {
+     "title": "FÖRNUFTIG 费努福提",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/foernuftig-fei-nu-fu-ti-kong-qi-jing-hua-qi-bai-se__0832294_pe777645_s4.jpg",
+     "href": "/cn/zh/p/foernuftig-fei-nu-fu-ti-kong-qi-jing-hua-qi-bai-se-90461959/"
     }
    ],
    "settings": null
@@ -234,6 +387,75 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "小巧储物，营造平和整洁的空间",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/st007",
+     "backgroundColor": null
+    },
+    {
+     "title": "DRÖNJÖNS 德瑞约恩",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/droenjoens-de-rui-yue-en-wen-jian-he-bai-se__0669948_pe715486_s4.jpg",
+     "href": "/cn/zh/p/droenjoens-de-rui-yue-en-wen-jian-he-bai-se-80439695/"
+    },
+    {
+     "title": "HEMMAFIXARE 汉玛菲萨",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/hemmafixare-han-ma-fei-sa-xie-he-zhi-wu-tiao-xing-tu-an-bai-se-hui-se__1098382_pe865369_s4.jpg",
+     "href": "/cn/zh/p/hemmafixare-han-ma-fei-sa-xie-he-zhi-wu-tiao-xing-tu-an-bai-se-hui-se-50503923/"
+    },
+    {
+     "title": "HÖVOLM 赫沃姆",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/hoevolm-he-wo-mu-liu-gou-yi-mao-jia-xiang-mu__1011319_pe828455_s4.jpg",
+     "href": "/cn/zh/p/hoevolm-he-wo-mu-liu-gou-yi-mao-jia-xiang-mu-90500060/"
+    },
+    {
+     "title": "DRÖNJÖNS 德瑞约恩",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/droenjoens-de-rui-yue-en-chu-wu-he-bai-se__1029021_pe835625_s4.jpg",
+     "href": "/cn/zh/p/droenjoens-de-rui-yue-en-chu-wu-he-bai-se-00515495/"
+    },
+    {
+     "title": "NOJIG 诺伊格",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/nojig-nuo-yi-ge-shou-na-he-su-liao-mi-huang-se__0954145_pe804497_s4.jpg",
+     "href": "/cn/zh/p/nojig-nuo-yi-ge-shou-na-he-su-liao-mi-huang-se-70468080/"
+    },
+    {
+     "title": "HEMMAFIXARE 汉玛菲萨",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/hemmafixare-han-ma-fei-sa-chu-wu-he-zhi-wu-tiao-xing-tu-an-bai-se-hui-se__1020723_pe831961_s4.jpg",
+     "href": "/cn/zh/p/hemmafixare-han-ma-fei-sa-chu-wu-he-zhi-wu-tiao-xing-tu-an-bai-se-hui-se-30503924/"
+    },
+    {
+     "title": "STUK 斯图克",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/stuk-si-tu-ke-dai-ge-chu-wu-he-bai-se__0920346_pe786986_s4.jpg",
+     "href": "/cn/zh/p/stuk-si-tu-ke-dai-ge-chu-wu-he-bai-se-40474426/"
+    },
+    {
+     "title": "NOJIG 诺伊格",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/nojig-nuo-yi-ge-shou-na-he-su-liao-mi-huang-se__0954730_pe804516_s4.jpg",
+     "href": "/cn/zh/p/nojig-nuo-yi-ge-shou-na-he-su-liao-mi-huang-se-80468107/"
+    },
+    {
+     "title": "NEREBY 奈瑞比",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/nereby-nai-rui-bi-sheng-ju-zi-ran-se__0941977_pe795928_s4.jpg",
+     "href": "/cn/zh/p/nereby-nai-rui-bi-sheng-ju-zi-ran-se-30429566/"
+    },
+    {
+     "title": "NEREBY 奈瑞比",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/nereby-nai-rui-bi-s-xing-gua-gou-bai-se__0942035_pe795922_s4.jpg",
+     "href": "/cn/zh/p/nereby-nai-rui-bi-s-xing-gua-gou-bai-se-00476352/"
+    }
+   ],
    "settings": null
   },
   {
@@ -252,6 +474,51 @@
     {
      "href": "/cat/de001",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "装饰品出色升级装饰风格",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/de001",
+     "backgroundColor": null
+    },
+    {
+     "title": "STILREN 斯缇仁",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/stilren-si-ti-ren-hua-ping-bai-se__0704329_pe725345_s4.jpg",
+     "href": "/cn/zh/p/stilren-si-ti-ren-hua-ping-bai-se-60442038/"
+    },
+    {
+     "title": "NISSEDAL 尼瑟达",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/nissedal-ni-se-da-jing-zi-bai-se__0637799_pe698595_s4.jpg",
+     "href": "/cn/zh/p/nissedal-ni-se-da-jing-zi-bai-se-10320322/"
+    },
+    {
+     "title": "GRYTÅS 格如陶",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/grytas-ge-ru-tao-jing-zi-yin-se__1061235_pe850338_s4.jpg",
+     "href": "/cn/zh/p/grytas-ge-ru-tao-jing-zi-yin-se-30516224/"
+    },
+    {
+     "title": "MALMBÄCK 马姆贝克",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/malmbaeck-ma-mu-bei-ke-zhan-shi-ge-ban-bai-se__0689491_pe722994_s4.jpg",
+     "href": "/cn/zh/p/malmbaeck-ma-mu-bei-ke-zhan-shi-ge-ban-bai-se-80446337/"
+    },
+    {
+     "title": "PÅDRAG 普德拉格",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/padrag-pu-de-la-ge-hua-ping-tou-ming-bo-li__0969056_pe810681_s4.jpg",
+     "href": "/cn/zh/p/padrag-pu-de-la-ge-hua-ping-tou-ming-bo-li-50470989/"
+    },
+    {
+     "title": "BERGENES 伯格尼斯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/bergenes-bo-ge-ni-si-shou-ji-ping-ban-zhi-jia-zhu__0730164_pe737412_s4.jpg",
+     "href": "/cn/zh/p/bergenes-bo-ge-ni-si-shou-ji-ping-ban-zhi-jia-zhu-70458000/"
     }
    ],
    "settings": null

@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Page Title-"
    }
@@ -22,10 +24,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>购买的商品不合适，可以退换吗？购买的商品出现质量问题怎么办？在哪里可以找到商品召回信息？无论您是想退货，还是需要对订单中遗失、损坏或不完整的商品提出索赔，我们都在这里为您提供服务。</p>"
+    "购买的商品不合适，可以退换吗？购买的商品出现质量问题怎么办？在哪里可以找到商品召回信息？无论您是想退货，还是需要对订单中遗失、损坏或不完整的商品提出索赔，我们都在这里为您提供服务。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -71,6 +75,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/df/d1/dfd1444f1928498dde5b8d0c56b4cc68.jpg",
+     "href": "/cn/zh/customer-service/returns-claims/return-policy/",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/61/d8/61d89a58b21dc641164567d74e642522.jpg",
+     "href": "/cn/zh/customer-service/returns-claims/guarantee/",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "退换货政策 没关系，您可以改变主意！只要确保货品完好、有原始包装、原始购物小票（例如商场提供的纸质小票、宜家会员俱乐部中的订单编号等）或发票（如已开具），您可在自收到商品之日起60天内（宜家俱乐部会员可在365天内）申请退货。请注意：如果您已经申请开具了发票并且此发票已入账/已抵扣，需要您配合在电子税局上完成《红字信息确认单》确认流程后方可办理退货。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/df/d1/dfd1444f1928498dde5b8d0c56b4cc68.jpg",
+     "href": "/cn/zh/customer-service/returns-claims/return-policy/"
+    },
+    {
+     "heading": "品质保证 我们对产品质量非常有信心，许多产品都涵盖在质保范围内。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/61/d8/61d89a58b21dc641164567d74e642522.jpg",
+     "href": "/cn/zh/customer-service/returns-claims/guarantee/"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Columns-"
    }
@@ -100,6 +135,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "商品召回信息",
+     "text": "一张尺寸不合的床",
+     "image": "https://file.app.ikea.cn/images/a4/63/a46327c1dda3b7b5247dc369f6999ecf.jpg",
+     "href": "/cn/zh/customer-service/product-support/recalls/",
+     "backgroundColor": null
+    },
+    {
+     "title": "常见问题",
+     "text": "常见问题",
+     "image": "https://file.app.ikea.cn/images/1c/e5/1ce5d3b5043a94b0255dcfb9fb39286c.png",
+     "href": "/cn/zh/customer-service/faq/",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Page List-"
    }

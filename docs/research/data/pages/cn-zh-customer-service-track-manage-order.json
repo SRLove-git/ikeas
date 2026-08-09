@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Page Title-"
    }
@@ -23,7 +25,7 @@
    "title": null,
    "texts": [
     "pub-column",
-    "<h2>跟踪订单</h2>\n<p>正在等待从宜家购买的产品送货上门？我们会根据你选择的送货服务日期和时间段，提前一个小时与你联系；</p>\n<p>你也可以前往&rdquo;我的订单&rdquo;页面查询网上订单物流信息。</p>",
+    "跟踪订单 正在等待从宜家购买的产品送货上门？我们会根据你选择的送货服务日期和时间段，提前一个小时与你联系； 你也可以前往”我的订单”页面查询网上订单物流信息。",
     "pub-text",
     "/profile/order",
     "NO",
@@ -40,6 +42,22 @@
      "text": ""
     }
    ],
+   "items": [],
+   "columns": [
+    {
+     "heading": "跟踪订单 正在等待从宜家购买的产品送货上门？我们会根据你选择的送货服务日期和时间段，提前一个小时与你联系； 你也可以前往”我的订单”页面查询网上订单物流信息。",
+     "text": null,
+     "image": null,
+     "href": "/cn/zh/profile/order"
+    },
+    {
+     "heading": "取消订单 在宜家APP、小程序商城和官网购买的顾客，可以在发货前登录、进入“我的订单”进行取消操作。 如无法取消，请联系宜家客服热线或者在线联系宜家人工客服申请退换货。 （电话服务人工服务时间：09:00-18:00，人工在线客服服务时间：09:00-22:00）。",
+     "text": null,
+     "image": null,
+     "href": "/cn/zh/profile/order"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Columns"
    }

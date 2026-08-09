@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Page Title-"
    }
@@ -62,6 +64,100 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "沙发",
+     "text": "",
+     "image": "https://file.app.ikea.cn/global/assets/navigation/images/sofas-fu003.jpeg?imwidth=300",
+     "href": "/cn/zh/cat/fu003",
+     "backgroundColor": null
+    },
+    {
+     "title": "沙发床",
+     "text": "",
+     "image": "https://file.app.ikea.cn/global/assets/navigation/images/sofa-beds-10663.jpeg?imwidth=300",
+     "href": "/cn/zh/cat/10663",
+     "backgroundColor": null
+    },
+    {
+     "title": "扶手椅和贵妃椅",
+     "text": "",
+     "image": "https://file.app.ikea.cn/global/assets/navigation/images/armchairs-chaise-longues-fu006.jpeg?imwidth=300",
+     "href": "/cn/zh/cat/fu006",
+     "backgroundColor": null
+    },
+    {
+     "title": "茶几和边桌",
+     "text": "",
+     "image": "https://file.app.ikea.cn/global/assets/navigation/images/coffee-side-tables-10705.jpeg?imwidth=300",
+     "href": "/cn/zh/cat/10705",
+     "backgroundColor": null
+    },
+    {
+     "title": "电视和多媒体家具",
+     "text": "",
+     "image": "https://file.app.ikea.cn/global/assets/navigation/images/tv-media-furniture-10475.jpeg?imwidth=300",
+     "href": "/cn/zh/cat/10475",
+     "backgroundColor": null
+    },
+    {
+     "title": "书柜和置物架",
+     "text": "",
+     "image": "https://file.app.ikea.cn/global/assets/navigation/images/bookcases-shelving-units-st002.jpeg?imwidth=300",
+     "href": "/cn/zh/cat/st002",
+     "backgroundColor": null
+    },
+    {
+     "title": "橱柜和展示柜",
+     "text": "",
+     "image": "https://file.app.ikea.cn/global/assets/navigation/images/cabinets-cupboards-st003.jpeg?imwidth=300",
+     "href": "/cn/zh/cat/st003",
+     "backgroundColor": null
+    },
+    {
+     "title": "灯具",
+     "text": "",
+     "image": "https://file.app.ikea.cn/global/assets/navigation/images/lamps-li002.jpeg?imwidth=300",
+     "href": "/cn/zh/cat/li002",
+     "backgroundColor": null
+    },
+    {
+     "title": "地毯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/global/assets/navigation/images/rugs-10653.jpeg?imwidth=300",
+     "href": "/cn/zh/cat/10653",
+     "backgroundColor": null
+    },
+    {
+     "title": "纺织品",
+     "text": "",
+     "image": "https://file.app.ikea.cn/global/assets/navigation/images/textiles-tl001.jpeg?imwidth=300",
+     "href": "/cn/zh/cat/tl001",
+     "backgroundColor": null
+    },
+    {
+     "title": "储物和收纳",
+     "text": "",
+     "image": "https://file.app.ikea.cn/global/assets/navigation/images/storage-organisation-st001.jpeg?imwidth=300",
+     "href": "/cn/zh/cat/st001",
+     "backgroundColor": null
+    },
+    {
+     "title": "装饰品",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250702/7c6315fafc3842398447b139b01146f5.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/de001",
+     "backgroundColor": null
+    },
+    {
+     "title": "门厅家具组合",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20230214/353f1a0490e74d9da392b6dc1881c2e1.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/700411",
+     "backgroundColor": "#111111"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "Visual navigation-Web"
    }
@@ -79,6 +175,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "页面导航 web"
    }
@@ -86,11 +184,11 @@
   {
    "type": "pub-text",
    "title": null,
-   "texts": [
-    "<p style=\"line-height: 8px;\">&nbsp; &nbsp;</p>"
-   ],
+   "texts": [],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -132,6 +230,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "图片说明",
+     "image": "https://static.web.ikea.cn/content/u/20260729/ed525d4e1b2b4b6c9539d1067b6b70f4.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/inspiration/detail/3e8b99df-a669-4b8e-a229-8299af12281f",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "图片说明",
+     "image": "https://static.web.ikea.cn/content/u/20260728/065e98a6f2dc4814a3689d60a469241e.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/inspiration/detail/3e8b99df-a669-4b8e-a229-8299af12281f",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Curated Gallery-新品展示柜"
    }
@@ -154,6 +269,80 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "LILLESÄTER 利乐塞特",
+     "text": "¥3,999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lillesaeter-li-le-sai-te-san-ren-sha-fa-gang-na-rui-de-qian-lu-se-huang-se__1576112_pe1032231_s4.jpg",
+     "href": "/cn/zh/p/lillesaeter-li-le-sai-te-san-ren-sha-fa-gang-na-rui-de-qian-lu-se-huang-se-60618495/"
+    },
+    {
+     "title": "RULLERUM 鲁勒鲁姆",
+     "text": "¥7,999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/rullerum-lu-le-lu-mu-san-ren-sha-fa-pei-liang-zhang-dian-dong-tang-yi-ge-lan-bang-si-ta-hei-se__1576882_pe1032795_s4.jpg",
+     "href": "/cn/zh/p/rullerum-lu-le-lu-mu-san-ren-sha-fa-pei-liang-zhang-dian-dong-tang-yi-ge-lan-bang-si-ta-hei-se-89630109/"
+    },
+    {
+     "title": "SALTMYRAN 萨尔米朗",
+     "text": "¥1,499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/saltmyran-sa-er-mi-lang-san-ren-sha-fa-e-le-rui-mi-hui-se__1576103_pe1032228_s4.jpg",
+     "href": "/cn/zh/p/saltmyran-sa-er-mi-lang-san-ren-sha-fa-e-le-rui-mi-hui-se-90618516/"
+    },
+    {
+     "title": "UPPÅKRA 乌波卡",
+     "text": "¥5,000",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/uppakra-wu-bo-qia-3-ren-sha-fa-sang-sa-la-huang-he-se__1578067_pe1033749_s4.jpg",
+     "href": "/cn/zh/p/uppakra-wu-bo-qia-3-ren-sha-fa-sang-sa-la-huang-he-se-69620352/"
+    },
+    {
+     "title": "GULLVALLA 古瓦拉",
+     "text": "¥1,499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/gullvalla-gu-wa-la-san-ren-sha-fa-xi-ke-rui-de-hui-lu-se__1576775_pe1032702_s4.jpg",
+     "href": "/cn/zh/p/gullvalla-gu-wa-la-san-ren-sha-fa-xi-ke-rui-de-hui-lu-se-00618511/"
+    },
+    {
+     "title": "MANNARP 曼纳普",
+     "text": "¥2,399",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mannarp-man-na-pu-san-ren-sha-fa-sa-ke-si-ma-la-lan-hei-se__1578539_pe1034178_s4.jpg",
+     "href": "/cn/zh/p/mannarp-man-na-pu-san-ren-sha-fa-sa-ke-si-ma-la-lan-hei-se-89619197/"
+    },
+    {
+     "title": "SALTSJÖBADEN 萨尔霍伯登",
+     "text": "¥2,099",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/saltsjoebaden-sa-er-huo-bo-deng-san-ren-sha-fa-tuo-ni-lu-de-hui-se__1576839_pe1032768_s4.jpg",
+     "href": "/cn/zh/p/saltsjoebaden-sa-er-huo-bo-deng-san-ren-sha-fa-tuo-ni-lu-de-hui-se-69627527/"
+    },
+    {
+     "title": "SÖDERHAMN 索德汉",
+     "text": "¥2,999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/soederhamn-suo-de-han-san-ren-sha-fa-qi-lin-shen-huang-se__1576749_pe1032681_s4.jpg",
+     "href": "/cn/zh/p/soederhamn-suo-de-han-san-ren-sha-fa-qi-lin-shen-huang-se-89621628/"
+    },
+    {
+     "title": "VALNÄS 瓦纳斯",
+     "text": "¥4,999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/valnaes-wa-na-si-san-ren-sha-fa-ke-nai-bei-ke-dan-mi-se__1576545_pe1032527_s4.jpg",
+     "href": "/cn/zh/p/valnaes-wa-na-si-san-ren-sha-fa-ke-nai-bei-ke-dan-mi-se-69615336/"
+    },
+    {
+     "title": "SÖDERHAMN 索德汉",
+     "text": "¥5,499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/soederhamn-suo-de-han-san-ren-sha-fa-chuang-fu-li-tu-na-dan-mi-se__1505950_pe1008687_s4.jpg",
+     "href": "/cn/zh/p/soederhamn-suo-de-han-san-ren-sha-fa-chuang-fu-li-tu-na-dan-mi-se-79580058/"
+    },
+    {
+     "title": "SALTSJÖBADEN 萨尔霍伯登",
+     "text": "¥4,999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/saltsjoebaden-sa-er-huo-bo-deng-shuang-ren-sha-fa-chuang-tuo-ni-lu-de-hong-he-se__1421517_pe977706_s4.jpg",
+     "href": "/cn/zh/p/saltsjoebaden-sa-er-huo-bo-deng-shuang-ren-sha-fa-chuang-tuo-ni-lu-de-hong-he-se-99578592/"
+    },
+    {
+     "title": "EKHOLMA 埃克霍马",
+     "text": "¥5,499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ekholma-ai-ke-huo-ma-shuang-ren-sha-fa-chuang-hai-mei-si-dao-hui-lu-se__1505532_pe1008565_s4.jpg",
+     "href": "/cn/zh/p/ekholma-ai-ke-huo-ma-shuang-ren-sha-fa-chuang-hai-mei-si-dao-hui-lu-se-19598546/"
+    }
+   ],
    "settings": {
     "traceId": "cms-Product Shelf-当季推荐产品"
    }
@@ -161,11 +350,11 @@
   {
    "type": "pub-text",
    "title": null,
-   "texts": [
-    "<p style=\"line-height: 8px;\">&nbsp; &nbsp;</p>"
-   ],
+   "texts": [],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -207,6 +396,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "图片说明",
+     "image": "https://static.web.ikea.cn/content/u/20260729/f8a851dc13014b2bbed8fa8dde242f47.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/inspiration/detail/062dfc10-5075-4c91-8e2e-049a302b53d9",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "图片说明",
+     "image": "https://static.web.ikea.cn/content/u/20260729/0f9b2a4970eb44ed92bf303dbd9744d1.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/inspiration/detail/4cef443e-6d1e-4a4d-b69d-44881669a942",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Curated Gallery- 休闲沙发 扶手椅"
    }
@@ -217,7 +423,7 @@
    "texts": [
     "image-text-landscape",
     "IMAGE",
-    "<p>造型感单椅、层叠式小推车...IKEA PS 2026 系列用更有辨识度的线条和轮廓，为客厅增添更多趣味。</p>",
+    "造型感单椅、层叠式小推车...IKEA PS 2026 系列用更有辨识度的线条和轮廓，为客厅增添更多趣味。",
     "个性单品布置客厅休闲区",
     "/new/meet-the-ikea-ps-2026-collection-pubf28e636c",
     "NO"
@@ -239,6 +445,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20260729/800620f7c5e140df80be8a2190337f63.png?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": "#d49d94"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-媒体色块组合 Banner-"
    }
@@ -247,10 +463,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p style=\"line-height: 8px;\"><span style=\"color: #ca0008;\">&nbsp;&nbsp;</span></p>\n<h2><span style=\"color: #ca0008;\">更低价格的客厅好物推荐&nbsp;</span></h2>\n<p>通过大批量生产和智能设计，IKEA把高品质变得更实惠。现在，用更少的预算，为你的客厅增添更多缤纷的生活细节。</p>\n<p style=\"line-height: 24px;\">&nbsp;</p>"
+    "更低价格的客厅好物推荐 通过大批量生产和智能设计，IKEA把高品质变得更实惠。现在，用更少的预算，为你的客厅增添更多缤纷的生活细节。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -273,6 +491,80 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "DYVLINGE 杜威林格",
+     "text": "¥999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/dyvlinge-du-wei-lin-ge-xiu-xian-zhuan-yi-qi-lin-lu-se__1205904_pe907276_s4.jpg",
+     "href": "/cn/zh/p/dyvlinge-du-wei-lin-ge-xiu-xian-zhuan-yi-qi-lin-lu-se-70570836/"
+    },
+    {
+     "title": "DYVLINGE 杜威林格",
+     "text": "¥999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/dyvlinge-du-wei-lin-ge-xiu-xian-zhuan-yi-qi-lin-hei-se__1205899_pe907271_s4.jpg",
+     "href": "/cn/zh/p/dyvlinge-du-wei-lin-ge-xiu-xian-zhuan-yi-qi-lin-hei-se-20570829/"
+    },
+    {
+     "title": "DYVLINGE 杜威林格",
+     "text": "¥999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/dyvlinge-du-wei-lin-ge-xiu-xian-zhuan-yi-qi-lin-cheng-se__1322501_pe942192_s4.jpg",
+     "href": "/cn/zh/p/dyvlinge-du-wei-lin-ge-xiu-xian-zhuan-yi-qi-lin-cheng-se-80581919/"
+    },
+    {
+     "title": "VIMLE 维姆勒",
+     "text": "¥999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vimle-wei-mu-le-chu-wu-jiao-deng-gang-na-rui-de-mi-huang-se__0514351_pe639432_s4.jpg",
+     "href": "/cn/zh/p/vimle-wei-mu-le-chu-wu-jiao-deng-gang-na-rui-de-mi-huang-se-99392589/"
+    },
+    {
+     "title": "VIMLE 维姆勒",
+     "text": "¥1,149",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vimle-wei-mu-le-chu-wu-jiao-deng-he-la-pu-mi-huang-se__0949370_pe799677_s4.jpg",
+     "href": "/cn/zh/p/vimle-wei-mu-le-chu-wu-jiao-deng-he-la-pu-mi-huang-se-79392590/"
+    },
+    {
+     "title": "VIMLE 维姆勒",
+     "text": "¥999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vimle-wei-mu-le-chu-wu-jiao-deng-gang-na-rui-de-zhong-hui-se__0514353_pe639449_s4.jpg",
+     "href": "/cn/zh/p/vimle-wei-mu-le-chu-wu-jiao-deng-gang-na-rui-de-zhong-hui-se-59392586/"
+    },
+    {
+     "title": "ORRESLÄTT 瑞斯拉特",
+     "text": "¥899",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/orreslaett-rui-si-la-te-dan-ren-sha-fa-fu-shou-yi__1205967_pe907309_s4.jpg",
+     "href": "/cn/zh/p/orreslaett-rui-si-la-te-dan-ren-sha-fa-fu-shou-yi-00574296/"
+    },
+    {
+     "title": "VIMLE 维姆勒",
+     "text": "¥1,349",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vimle-wei-mu-le-chu-wu-jiao-deng-xi-la-li-de-mi-huang-se__0785238_pe762210_s4.jpg",
+     "href": "/cn/zh/p/vimle-wei-mu-le-chu-wu-jiao-deng-xi-la-li-de-mi-huang-se-69433261/"
+    },
+    {
+     "title": "VIMLE 维姆勒",
+     "text": "¥1,149",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vimle-wei-mu-le-chu-wu-jiao-deng-he-la-pu-hui-se__0949375_pe799682_s4.jpg",
+     "href": "/cn/zh/p/vimle-wei-mu-le-chu-wu-jiao-deng-he-la-pu-hui-se-19392593/"
+    },
+    {
+     "title": "VIMLE 维姆勒",
+     "text": "¥1,349",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vimle-wei-mu-le-chu-wu-jiao-deng-xi-la-li-de-mei-hei-se__0785236_pe762208_s4.jpg",
+     "href": "/cn/zh/p/vimle-wei-mu-le-chu-wu-jiao-deng-xi-la-li-de-mei-hei-se-49433262/"
+    },
+    {
+     "title": "VIMLE 维姆勒",
+     "text": "¥1,349",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vimle-wei-mu-le-chu-wu-jiao-deng-xi-la-li-de-shen-lan-se__0785240_pe762231_s4.jpg",
+     "href": "/cn/zh/p/vimle-wei-mu-le-chu-wu-jiao-deng-xi-la-li-de-shen-lan-se-39434375/"
+    },
+    {
+     "title": "VIMLE 维姆勒",
+     "text": "¥1,349",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vimle-wei-mu-le-chu-wu-jiao-deng-xi-la-li-de-shen-lan-se__0785240_pe762231_s4.jpg",
+     "href": "/cn/zh/p/vimle-wei-mu-le-chu-wu-jiao-deng-xi-la-li-de-shen-lan-se-99421488/"
+    }
+   ],
    "settings": {
     "traceId": "cms-Product Shelf-更低价格客厅"
    }
@@ -280,11 +572,11 @@
   {
    "type": "pub-text",
    "title": null,
-   "texts": [
-    "<p style=\"line-height: 8px;\">&nbsp; &nbsp;</p>"
-   ],
+   "texts": [],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -326,6 +618,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://static.web.ikea.cn/content/u/20260729/43cd99c9723241fcb94d249a5ce28f11.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/inspiration/detail/7c2454f1-38d6-4ef7-b950-dc8e69c566e8?type=IMAGE",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "图片说明",
+     "image": "https://static.web.ikea.cn/content/u/20260729/a09f76dfe49242d296a9a6c1a63bd8b8.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/inspiration/detail/c8fcbade-1f38-4d7a-b4aa-a37a0658a6dd",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Curated Gallery-纺织品搭配"
    }
@@ -346,6 +655,80 @@
     {
      "href": "/new/",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "IKEA PS 2026",
+     "text": "¥999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ikea-ps-2026-duan-rong-di-tan-hui-bai-hong-se__1475613_pe998604_s4.jpg",
+     "href": "/cn/zh/p/ikea-ps-2026-duan-rong-di-tan-hui-bai-hong-se-30619401/"
+    },
+    {
+     "title": "HEDBJÖRNBÄR 赫比约巴",
+     "text": "¥49.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/hedbjoernbaer-he-bi-yue-ba-yi-zi-dian-qian-lan-se__1545704_pe1019816_s4.jpg",
+     "href": "/cn/zh/p/hedbjoernbaer-he-bi-yue-ba-yi-zi-dian-qian-lan-se-40651037/"
+    },
+    {
+     "title": "SANDMOTT 桑德莫特",
+     "text": "¥39.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/sandmott-sang-de-mo-te-kao-dian-mi-huang-se-hei-se-mao-mi-tu-an__1560401_pe1025362_s4.jpg",
+     "href": "/cn/zh/p/sandmott-sang-de-mo-te-kao-dian-mi-huang-se-hei-se-mao-mi-tu-an-00624442/"
+    },
+    {
+     "title": "IKEA PS 2026",
+     "text": "¥199",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ikea-ps-2026-xiu-xian-tan-bai-se-duo-se__1478202_pe999455_s4.jpg",
+     "href": "/cn/zh/p/ikea-ps-2026-xiu-xian-tan-bai-se-duo-se-10617634/"
+    },
+    {
+     "title": "LÖGE 洛格",
+     "text": "¥49.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/loege-luo-ge-men-dian-duo-se-dong-wu-tu-an__1495456_pe1005037_s4.jpg",
+     "href": "/cn/zh/p/loege-luo-ge-men-dian-duo-se-dong-wu-tu-an-20629066/"
+    },
+    {
+     "title": "MURSENAP 莫西纳普",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mursenap-mo-xi-na-pu-kao-dian-mi-huang-se-bai-se-xiu-hua__1448870_pe989674_s4.jpg",
+     "href": "/cn/zh/p/mursenap-mo-xi-na-pu-kao-dian-mi-huang-se-bai-se-xiu-hua-00624588/"
+    },
+    {
+     "title": "LOKALTÅG 鲁加多",
+     "text": "¥299",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lokaltag-lu-jia-duo-duan-rong-di-tan-mi-huang-se-hui-se__1513913_pe1010753_s4.jpg",
+     "href": "/cn/zh/p/lokaltag-lu-jia-duo-duan-rong-di-tan-mi-huang-se-hui-se-20623229/"
+    },
+    {
+     "title": "IKEA PS 2026",
+     "text": "¥149",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ikea-ps-2026-yu-cai-bu-liao-bai-se-duo-se-da-tu-an__1478196_pe999450_s4.jpg",
+     "href": "/cn/zh/p/ikea-ps-2026-yu-cai-bu-liao-bai-se-duo-se-da-tu-an-10617506/"
+    },
+    {
+     "title": "ÄNGSPALPMAL 安斯帕曼",
+     "text": "¥29.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/aengspalpmal-an-si-pa-man-dian-tao-bai-se-hua-hui-tu-an__1344386_pe949873_s4.jpg",
+     "href": "/cn/zh/p/aengspalpmal-an-si-pa-man-dian-tao-bai-se-hua-hui-tu-an-90598698/"
+    },
+    {
+     "title": "MARKBLÅMME 马克布洛莫",
+     "text": "¥799",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/markblamme-ma-ke-bu-luo-mo-duan-rong-di-tan-duo-se-fang-ge-tu-an__1468724_pe996250_s4.jpg",
+     "href": "/cn/zh/p/markblamme-ma-ke-bu-luo-mo-duan-rong-di-tan-duo-se-fang-ge-tu-an-70625706/"
+    },
+    {
+     "title": "IKEA PS 2026",
+     "text": "¥149",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ikea-ps-2026-yu-cai-bu-liao-bai-se-duo-se-xiao-tu-an__1478198_pe999452_s4.jpg",
+     "href": "/cn/zh/p/ikea-ps-2026-yu-cai-bu-liao-bai-se-duo-se-xiao-tu-an-20617582/"
+    },
+    {
+     "title": "LOKALTÅG 鲁加多",
+     "text": "¥499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lokaltag-lu-jia-duo-duan-rong-di-tan-mi-huang-se-hui-se__1513913_pe1010753_s4.jpg",
+     "href": "/cn/zh/p/lokaltag-lu-jia-duo-duan-rong-di-tan-mi-huang-se-hui-se-60623227/"
     }
    ],
    "settings": {
@@ -370,6 +753,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Link - button or text-"
    }
@@ -387,6 +772,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-排行榜-"
    }
@@ -395,10 +782,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3>&nbsp;</h3>\n<h2>客厅布置指南和案例</h2>"
+    "客厅布置指南和案例"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -447,6 +836,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "查看所有客厅布置建议",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20240301/30a118e5bc954484912574b4ddf49bd6.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/living-room/gallery/",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "万事俱备的储物墙壁",
+     "text": "为有序空间设计",
+     "image": "https://file.app.ikea.cn/cms/u/20260623/e101e90a67b34127ad332336958d9ca6.png?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/living-room/how-to/wan4-shi4-ju4-bei4-de-chu3-wu4-qiang2-bi4-pubf5496770",
+     "backgroundColor": "#acd6f2"
+    },
+    {
+     "title": "巧用墙面，制造更多空间",
+     "text": "为有序空间设计",
+     "image": "https://file.app.ikea.cn/cms/u/20260623/bffb72d47bee4f0f84feaf63d2df6863.png?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/living-room/how-to/qiao3-yong4-qiang2-mian4-zhi4-zao4-geng1-duo1-kong1-jian1-pub75f91ca0",
+     "backgroundColor": "#acd6f2"
+    },
+    {
+     "title": "有了沙发床，任何房间都可以是客房",
+     "text": "为小空间设计",
+     "image": "https://file.app.ikea.cn/cms/u/20260713/ec6acef0654a4dcbad2227f9433ffbe6.png?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/living-room/how-to/sofa-bed-flexibility-from-living-room-to-extra-bedroom-pub0477b5a1",
+     "backgroundColor": "#acd6f2"
+    },
+    {
+     "title": "搭建毛毯堡垒的技巧和创意",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20260713/cc0cde34b58b49a2b6accaf1a425d025.png?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/living-room/how-to/tips-and-ideas-for-building-a-blanket-fort-pub0741933d",
+     "backgroundColor": "#acd6f2"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "客厅布置指南和案例"
    }
@@ -467,6 +894,80 @@
     {
      "href": "/new/",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "KUDDLAVA 库拉瓦",
+     "text": "¥59.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kuddlava-ku-la-wa-tai-deng-da-zhe-bai-se__1416209_pe975491_s4.jpg",
+     "href": "/cn/zh/p/kuddlava-ku-la-wa-tai-deng-da-zhe-bai-se-70601197/"
+    },
+    {
+     "title": "YTLÄGE 约特来",
+     "text": "¥199",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ytlaege-yue-te-lai-diao-deng-bai-se__1248107_pe923610_s4.jpg",
+     "href": "/cn/zh/p/ytlaege-yue-te-lai-diao-deng-bai-se-80559211/"
+    },
+    {
+     "title": "STRANDAD 斯丹达德",
+     "text": "¥79.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/strandad-si-dan-da-de-luo-di-deng-bai-se-hei-se__1403319_pe969302_s4.jpg",
+     "href": "/cn/zh/p/strandad-si-dan-da-de-luo-di-deng-bai-se-hei-se-90594836/"
+    },
+    {
+     "title": "STRANDAD 斯丹达德",
+     "text": "¥39.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/strandad-si-dan-da-de-tai-deng-bai-se-hei-se__1403320_pe969303_s4.jpg",
+     "href": "/cn/zh/p/strandad-si-dan-da-de-tai-deng-bai-se-hei-se-60594847/"
+    },
+    {
+     "title": "LAMPAN 拉姆本",
+     "text": "¥59.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lampan-la-mu-ben-led-bian-xi-shi-deng-ju-dian-chi-cao-zuo-yan-se-ke-diao-jie-hu-wai-chan-pin-bai-se__1382314_pe962254_s4.jpg",
+     "href": "/cn/zh/p/lampan-la-mu-ben-led-bian-xi-shi-deng-ju-dian-chi-cao-zuo-yan-se-ke-diao-jie-hu-wai-chan-pin-bai-se-00594614/"
+    },
+    {
+     "title": "NYMÅNE 纽墨奈",
+     "text": "¥149",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/nymane-niu-mo-nai-tai-deng-bai-se__1377230_pe960815_s4.jpg",
+     "href": "/cn/zh/p/nymane-niu-mo-nai-tai-deng-bai-se-20594321/"
+    },
+    {
+     "title": "STORSLINGA 杜施林",
+     "text": "¥399",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/storslinga-du-shi-lin-led-zhi-xing-diao-deng-8-zhi-hei-se-bai-se__0982258_pe815591_s4.jpg",
+     "href": "/cn/zh/p/storslinga-du-shi-lin-led-zhi-xing-diao-deng-8-zhi-hei-se-bai-se-20599125/"
+    },
+    {
+     "title": "SKALÅDRA 斯卡拉加",
+     "text": "¥199",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/skaladra-si-qia-la-jia-led-xi-ding-deng-yuan-xing-huang-tong-se__1419536_pe977035_s4.jpg",
+     "href": "/cn/zh/p/skaladra-si-qia-la-jia-led-xi-ding-deng-yuan-xing-huang-tong-se-50595550/"
+    },
+    {
+     "title": "TAGGTOFS 塔格托夫",
+     "text": "¥199",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/taggtofs-ta-ge-tuo-fu-diao-deng-zhao-bai-se-zhu__1405017_pe970318_s4.jpg",
+     "href": "/cn/zh/p/taggtofs-ta-ge-tuo-fu-diao-deng-zhao-bai-se-zhu-50582190/"
+    },
+    {
+     "title": "GÖSSTAKE 约斯道可",
+     "text": "¥129",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/goesstake-yue-si-dao-ke-led-xi-ding-deng-yuan-xing-bai-se__1419528_pe977028_s4.jpg",
+     "href": "/cn/zh/p/goesstake-yue-si-dao-ke-led-xi-ding-deng-yuan-xing-bai-se-10605240/"
+    },
+    {
+     "title": "TVÅMASTAD 拓茂斯",
+     "text": "¥149",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/tvamastad-tuo-mao-si-led-bian-xi-shi-deng-ju-dian-chi-cao-zuo-huang-tong-ru-bai-se-bo-li__1395846_pe967129_s4.jpg",
+     "href": "/cn/zh/p/tvamastad-tuo-mao-si-led-bian-xi-shi-deng-ju-dian-chi-cao-zuo-huang-tong-ru-bai-se-bo-li-40597781/"
+    },
+    {
+     "title": "NYMÅNE 纽墨奈",
+     "text": "¥399",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/nymane-niu-mo-nai-led-xi-ding-deng-bai-se__0607738_pe683167_s4.jpg",
+     "href": "/cn/zh/p/nymane-niu-mo-nai-led-xi-ding-deng-bai-se-20567558/"
     }
    ],
    "settings": {
@@ -517,6 +1018,72 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "所有客厅灵感案例",
+     "text": "所有客厅灵感案例",
+     "image": "",
+     "href": "/cn/zh/rooms/living-room/gallery",
+     "backgroundColor": "#F5F5F5"
+    },
+    {
+     "title": "复古活泼",
+     "text": "多功能房间",
+     "image": "https://file.app.ikea.cn/cms/u/20240301/4e48889b7eb44c5aa62206bbb675b781.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/living-room/gallery/a-retro-living-room-with-lots-of-storage-pub8951a12a",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "北欧色彩",
+     "text": "风格鲜明的绿色客厅",
+     "image": "https://file.app.ikea.cn/cms/u/20240301/deeb80325c014b0f8e9e8d93650a88e8.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/living-room/gallery/an-extra-small-scandi-living-room-that-is-big-on-playfulness-and-style-pubaa3e7cd1",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "舒适自如",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20240301/64eecec1222048b4bd7c013aa34e1f2d.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/living-room/gallery/a-small-living-space-with-a-balance-of-class-and-comfort-puba709d960",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "自然活力",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20230209/178b8a3557a441d3aec29a967defc316.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/living-room/gallery/a-modern-living-room-bursting-with-life-pub9bc18f72",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "乡村风格",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220707/96e361174bc649b99f7ef3ba9cf49a2f.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/living-room/gallery/a-living-room-with-clutter-free-calm-for-everyone-pubdb1b3a90",
+     "backgroundColor": "#f5f5f5"
+    },
+    {
+     "title": "通透小户型",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220707/b38d4287ce3347188f02e360fb3f7b90.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/living-room/gallery/a-light-airy-living-room-with-space-for-personality-pubdcdf7c8c",
+     "backgroundColor": "#f5f5f5"
+    },
+    {
+     "title": "优雅成熟",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20221027/cce2abf826e64a02b23c6404490ebf34.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/living-room/gallery/zhang1-xian3-ge4-xing4-de-kong1-jian1-pub44decda0",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "自然亲和",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220707/a9058ab3da5144779faffe1438ef2706.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/living-room/gallery/ning-jing-shi-shang-de-jia-ting-ke-ting-pubc4c65070",
+     "backgroundColor": "#111111"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Visual Pill Slider-"
    }
@@ -527,7 +1094,7 @@
    "texts": [
     "IMAGE",
     "image-text-landscape",
-    "<p>直接换沙发略有困难？考虑用一款新的沙发套，再搭配一些装饰，解锁全新风格的客厅吧！</p>",
+    "直接换沙发略有困难？考虑用一款新的沙发套，再搭配一些装饰，解锁全新风格的客厅吧！",
     "更换沙发套，让沙发陪伴你更久",
     "/rooms/living-room/geng-duo-sha-fa-tao-sui-xin-da-pei--pub0304c110",
     "NO"
@@ -554,6 +1121,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20260113/6cf51c8e6ae149b9ad8b8451425f742b.jpg",
+     "href": null,
+     "backgroundColor": "#87cca5"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "更换沙发套 可持续"
    }
@@ -562,10 +1139,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>&nbsp;</h2>\n<h2>搭配和谐的客厅家具系列</h2>"
+    "搭配和谐的客厅家具系列"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "15f70bd1e91349ab8fc396f08613b917"
    }
@@ -612,6 +1191,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/cf/29/cf29298fcab981bcf8e8e1ef76224498.jpg",
+     "href": "/cn/zh/rooms/living-room/--pub8620104b",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/74/e9/74e9eebf29b5fd76f16d028856beb19b.jpg",
+     "href": "/cn/zh/cat/07488",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/46/f8/46f876e193883a6a15c02d276dbb61a4.jpg",
+     "href": "/cn/zh/cat/07472",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/cf/29/cf29298fcab981bcf8e8e1ef76224498.jpg",
+     "href": "/cn/zh/rooms/living-room/--pub8620104b"
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/74/e9/74e9eebf29b5fd76f16d028856beb19b.jpg",
+     "href": "/cn/zh/cat/07488"
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/46/f8/46f876e193883a6a15c02d276dbb61a4.jpg",
+     "href": "/cn/zh/cat/07472"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "columns 搭配和谐的客厅家具系列-1 官网"
    }
@@ -658,6 +1281,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20231017/14551d38652f4b8399e33031c9072551.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/22178",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20231017/ea212e8fb9d543b3a8b8d10085a0f143.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/29996",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20231017/bf6066db1dba49b69501da81896a0d1c.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/48960",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20231017/14551d38652f4b8399e33031c9072551.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/22178"
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20231017/ea212e8fb9d543b3a8b8d10085a0f143.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/29996"
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20231017/bf6066db1dba49b69501da81896a0d1c.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/48960"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "columns 搭配和谐的客厅家具系列 2 官网"
    }
@@ -704,6 +1371,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "BILLY 毕利 系列。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/c3/eb/c3eb55894e5452c36d65b551e937a4ba.jpg",
+     "href": "/cn/zh/rooms/living-room/-bi-li-xi-lie-pub9884df03",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/40/3c/403c0248039570ab40bd57d8c4e70ac3.jpg",
+     "href": "/cn/zh/rooms/living-room/-a-bei-da-chu-wu-fang-an-pub20b3bbcc",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/20/b5/20b5a801aab45e0e804965b20eb14ec2.jpg",
+     "href": "/cn/zh/cat/27534",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/c3/eb/c3eb55894e5452c36d65b551e937a4ba.jpg",
+     "href": "/cn/zh/rooms/living-room/-bi-li-xi-lie-pub9884df03"
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/40/3c/403c0248039570ab40bd57d8c4e70ac3.jpg",
+     "href": "/cn/zh/rooms/living-room/-a-bei-da-chu-wu-fang-an-pub20b3bbcc"
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/20/b5/20b5a801aab45e0e804965b20eb14ec2.jpg",
+     "href": "/cn/zh/cat/27534"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "columns 搭配和谐的客厅家具系列-3 官网"
    }
@@ -712,10 +1423,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>&nbsp;</h2>\n<h2>客厅选购指南</h2>"
+    "客厅选购指南"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "15f70bd1e91349ab8fc396f08613b917"
    }
@@ -762,6 +1475,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "获取建议挑选合适的沙发",
+     "text": "不同尺寸、材质、触感以及功能需求，总有一款适合你！",
+     "image": "https://file.app.ikea.cn/images/07/8a/078a29e66584a8762392f3868131c875.jpg",
+     "href": "/cn/zh/rooms/living-room/how-to/ru2-he2-xuan3-ze2-he2-shi4-de-sha1-fa1-pubed2c3c10",
+     "backgroundColor": "#7a6357"
+    },
+    {
+     "title": "家庭客厅如何保持整洁有序",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/45/f3/45f36765370f2a4e825c5f1bb3a90d6a.jpg",
+     "href": "/cn/zh/rooms/living-room/how-to/ru2-he2-bao3-chi2-jia1-ting2-ke4-ting1-zheng3-jie2-you3-xu4-pubd8efd960",
+     "backgroundColor": "#F5F5F5"
+    },
+    {
+     "title": "看看我们为你的客厅提供的出色家居小贴士",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/4c/05/4c0593792e00138aaeb3940d4aca2580.jpg",
+     "href": "/cn/zh/rooms/living-room/how-to/",
+     "backgroundColor": "#F5F5F5"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "客厅选购指南"
    }
@@ -770,10 +1507,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>&nbsp;</h2>\n<h2>服务和质保</h2>"
+    "服务和质保"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "7a2bc912054945138b269b9d5e0641b1"
    }
@@ -820,6 +1559,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/24/1c/241c302d9c64c58127ff6983a09f5a88.jpg",
+     "href": "/cn/zh/customer-service/returns-claims/guarantee/keting-pub34d338d0",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/20/92/2092ac7e7be7e79f90d9b96e1b70097b.jpg",
+     "href": "/cn/zh/planners/",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/9d/eb/9deb0c0d9d6b5e33c8ca9334366666b2.jpg",
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fpage.campaign.impdigital.cn%2Fikea%2Fstudy%2Findex.html%3Fchannel%3Dweixin%26type%3D0%26direct%3Dtrue",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "品质保证 大部分宜家沙发享有10年品质保证。 了解详情 ›",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/24/1c/241c302d9c64c58127ff6983a09f5a88.jpg",
+     "href": "/cn/zh/customer-service/returns-claims/guarantee/keting-pub34d338d0"
+    },
+    {
+     "heading": "在线设计工具 我们提供便捷的工具，让你轻松设计自己的沙发和储物家具。 设计沙发和沙发床 › 设计储物家具 ›",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/20/92/2092ac7e7be7e79f90d9b96e1b70097b.jpg",
+     "href": "/cn/zh/planners/"
+    },
+    {
+     "heading": "客厅储物1对1设计 我们的客厅部专家可以为您提供1对1的设计服务。你也可以观看我们的线上小课堂，了解更多客厅储物知识！ 免费预约 ›",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/9d/eb/9deb0c0d9d6b5e33c8ca9334366666b2.jpg",
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fpage.campaign.impdigital.cn%2Fikea%2Fstudy%2Findex.html%3Fchannel%3Dweixin%26type%3D0%26direct%3Dtrue"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "服务和质保"
    }
@@ -854,6 +1637,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "送货服务",
+     "text": "了解详情",
+     "image": null,
+     "href": "/cn/zh/customer-service/services/delivery/",
+     "backgroundColor": null
+    },
+    {
+     "title": "组装服务",
+     "text": "了解详情",
+     "image": null,
+     "href": "/cn/zh/customer-service/services/assembly/",
+     "backgroundColor": null
+    },
+    {
+     "title": "旧沙发回收服务",
+     "text": "了解详情",
+     "image": null,
+     "href": "/cn/zh/customer-service/services/removal-recycling/",
+     "backgroundColor": null
+    },
+    {
+     "title": "回购与再售服务",
+     "text": "了解详情",
+     "image": null,
+     "href": "/cn/zh/customer-service/services/buy-back/",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "服务"
    }
@@ -864,7 +1678,7 @@
    "texts": [
     "text-landscape",
     "IMAGE",
-    "<p>请确保使用随附的墙壁安装件，正确固定好大件、较高或较重的家具，以防家具倾倒。进一步了解更多潜在的家居风险因素以及如何避免事故发生。</p>",
+    "请确保使用随附的墙壁安装件，正确固定好大件、较高或较重的家具，以防家具倾倒。进一步了解更多潜在的家居风险因素以及如何避免事故发生。",
     "请务必将家具牢牢固定到墙上",
     "NO",
     "#111111"
@@ -876,6 +1690,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Banner-牢牢固定"
    }
@@ -884,10 +1700,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p style=\"line-height: 8px;\">&nbsp; &nbsp;&nbsp;</p>\n<h2>更多客厅灵感</h2>"
+    "更多客厅灵感"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "15f70bd1e91349ab8fc396f08613b917"
    }
@@ -905,6 +1723,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "灵感"
    }

@@ -11,7 +11,7 @@
    "title": "向多彩自然致敬",
    "texts": [
     "URSKOG 于尔斯库格 被套由更持续URSKOG quilt covers are made from more sustainable cotton and feature prints inspired by wild animals.",
-    "<p>URSKOG 于尔斯库格 系列旨在致敬全球的濒危物种，让我们在被套、毛巾等产品中寻找老虎、熊猫和其他野生动物的身影吧。</p>",
+    "URSKOG 于尔斯库格 系列旨在致敬全球的濒危物种，让我们在被套、毛巾等产品中寻找老虎、熊猫和其他野生动物的身影吧。",
     "向多彩自然致敬",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "向多彩自然致敬",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/f4/b2/f4b27a634138f7f561d056774fdeae0b.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -45,16 +55,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "URSKOG 于尔斯库格 被套采用可持续的棉花制成，上面的图案灵感源自野生动物。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/1b/7c/1b7c8503ad2db780ab8e91662f8f3dd0.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>URSKOG 于尔斯库格 系列中的纺织品专为8-12岁的儿童设计，而且也采用了更有益于环保的涂料印花工艺。举例而言，在生产一个羽绒被套和一个枕套的过程中，就可以节省至少30公升水！</p>"
+    "URSKOG 于尔斯库格 系列中的纺织品专为8-12岁的儿童设计，而且也采用了更有益于环保的涂料印花工艺。举例而言，在生产一个羽绒被套和一个枕套的过程中，就可以节省至少30公升水！"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -70,6 +92,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

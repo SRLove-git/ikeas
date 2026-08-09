@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -21,7 +23,7 @@
    "title": null,
    "texts": [
     "https://v.youku.com/v_show/id_XNDk4MDY1MTE0NA==.html",
-    "<p>对于许多人来说，假日季尤其令人灵感迸发，创意无限。&nbsp;无论是菜谱还是摆盘，都会诞生新点子。&nbsp;看看下面这些小贴士，了解一下你（和孩子）如何布置出人见人爱的节日餐桌。&nbsp;</p>",
+    "对于许多人来说，假日季尤其令人灵感迸发，创意无限。 无论是菜谱还是摆盘，都会诞生新点子。 看看下面这些小贴士，了解一下你（和孩子）如何布置出人见人爱的节日餐桌。",
     "MANUAL_INPUT"
    ],
    "images": [],
@@ -31,11 +33,13 @@
      "text": "\n<p>对于许多人来说，假日季尤其令人灵感迸发，创意无限。&nbsp;无论是菜谱还是摆盘，都会诞生新点子。&nbsp;看看下面这些小贴士，了解一下你（和孩子）如何布置出人见人爱的节日餐桌。&nbsp;</p>\n"
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-curated-gallery",
-   "title": "在桌布上画画 ",
+   "title": "在桌布上画画",
    "texts": [
     "/cat/11671",
     "NO",
@@ -57,11 +61,21 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个女孩趴在灰色扶手椅和桌子中间的地板上，一卷MÅLA 莫拉 画纸从桌上垂下，她正在纸上画画。 ",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/2ec5ce75336255c2/original/PH173990-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-curated-gallery",
-   "title": "轻巧方便的扶手椅 ",
+   "title": "轻巧方便的扶手椅",
    "texts": [
     "/cat/20907",
     "NO",
@@ -83,11 +97,21 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": " 蓝色的房间里靠窗放着一张AGEN 爱格 藤椅。藤椅上有一块蓝色休闲毯，一个人将AINA 艾纳 靠垫贴着休闲毯放在藤椅上。 ",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/834592a691e9e0d/original/PH174044-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-curated-gallery",
-   "title": "称心如意的餐具 ",
+   "title": "称心如意的餐具",
    "texts": [
     "/cat/18860",
     "NO",
@@ -109,11 +133,21 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": " 餐桌上放着两个VARDAGEN 瓦达恩 盘子，旁边是一个POKAL 博克尔 玻璃杯和刀叉。碗里盛有松果，还有一个散落在桌面上。 ",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/6826f9d7b7e6c10c/original/PH173991-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-curated-gallery",
-   "title": "人再多也坐得下 ",
+   "title": "人再多也坐得下",
    "texts": [
     "/cat/21825",
     "NO",
@@ -135,6 +169,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": " 一张NORDVIKEN 诺德维肯 餐桌旁放着一张长凳和几张椅子。桌上有几个烛台，餐桌上方挂着吊灯。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/5ffa1cf9b1cd658c/original/PH174183-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -179,6 +223,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "Make your home feel extra-festive",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/93/2a/932afd3075b31e183e8cfe40d9c80a89.jpg",
+     "href": "/cn/zh/rooms/living-room/how-to/ru2-he2-ying2-zao4-huan1-le4-yang2-yi4-de-jie2-ri4-qi4-fen1-pub95711080",
+     "backgroundColor": "#b6aca0"
+    },
+    {
+     "title": "Fitting the whole family in for the festive period",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/80/12/80126ca243de3838a6bfaeb3f07e5540.jpg",
+     "href": "/cn/zh/rooms/living-room/how-to/ru2-he2-zai4-jie2-ri4-zhao1-dai4-qin1-peng2-hao3-you3-pubb011a1c0",
+     "backgroundColor": "#82071b"
+    },
+    {
+     "title": "Let it dough, let it dough, let it dough!",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/35/2b/352becceec9035918806cbe387c03480.jpg",
+     "href": "/cn/zh/rooms/dining/how-to/ru2-he2-xiang3-shou4-hong1-bei4-le4-qu4-pub58dcfa90",
+     "backgroundColor": "#8d7b77"
+    }
+   ],
+   "productIds": [],
    "settings": null
   }
  ]

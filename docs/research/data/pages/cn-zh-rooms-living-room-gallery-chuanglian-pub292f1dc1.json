@@ -10,7 +10,7 @@
    "type": "pub-hero",
    "title": "用三层窗帘调节工作日氛围",
    "texts": [
-    "<p>根据自己的心情布置窗户。一层纱帘可让日光透进来，同时可以让你欣赏外面的世界， 而外层的厚窗帘可以增加私密性、舒适度，减少噪音。 喜欢这样的窗帘组合？</p>",
+    "根据自己的心情布置窗户。一层纱帘可让日光透进来，同时可以让你欣赏外面的世界， 而外层的厚窗帘可以增加私密性、舒适度，减少噪音。 喜欢这样的窗帘组合？",
     "用三层窗帘调节工作日氛围",
     "normal"
    ],
@@ -23,6 +23,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "用三层窗帘调节工作日氛围",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/73/e0/73e0804e259393515611ec04a6193764.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -38,6 +48,14 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "VIDGA 维德加",
+     "text": "¥30",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vidga-wei-de-jia-qiang-bi-zhuang-zhi-bai-se__0603493_pe680824_s4.jpg",
+     "href": "/cn/zh/p/vidga-wei-de-jia-qiang-bi-zhuang-zhi-bai-se-50299149/"
+    }
+   ],
    "settings": null
   }
  ]

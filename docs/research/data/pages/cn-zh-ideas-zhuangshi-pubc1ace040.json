@@ -11,7 +11,7 @@
    "title": "如何沿直线悬挂照片",
    "texts": [
     "一面白墙，上面悬挂着画框和排成直线的物品。",
-    "<p>想了解将物品在墙上挂成一排的简单创意吗？看看我们的设计师Emma的视频，了解如何将照片挂成一条直线。</p>",
+    "想了解将物品在墙上挂成一排的简单创意吗？看看我们的设计师Emma的视频，了解如何将照片挂成一条直线。",
     "如何沿直线悬挂照片",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "如何沿直线悬挂照片",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/66/f4/66f41d18abf6eed02f77d692d566d00f.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -40,6 +50,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -51,16 +63,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>制作人</strong></p>\n<p>室内设计师：Emma Parkinson<br />摄影师：Sandra Werud</p>"
+    "制作人 室内设计师：Emma Parkinson 摄影师：Sandra Werud"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

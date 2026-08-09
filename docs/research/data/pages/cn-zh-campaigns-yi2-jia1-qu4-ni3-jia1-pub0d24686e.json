@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "b877b417bc4a4b6b92f66a43e97c642a"
    }
@@ -22,10 +24,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>房子是租来的，但生活是自己的。住在拥挤陈旧的出租房，还要和别人共享空间。你是否越发没有归属感，对生活无所适从？就让宜家来帮你改变吧！</p>"
+    "房子是租来的，但生活是自己的。住在拥挤陈旧的出租房，还要和别人共享空间。你是否越发没有归属感，对生活无所适从？就让宜家来帮你改变吧！"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "794c8e1c1709453fa1156b35bd9b1130"
    }
@@ -47,6 +51,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "房子是租来的，但生活是自己的。住在拥挤陈旧的出租房，还要和别人共享空间。你是否越发没有归属感，对生活无所适从？就让宜家来帮你改变吧！",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/56/f0/56f010d99cf13f3a7ea423781ffebee4.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "6419d8a7a50149b2afdf8c58d84e781e"
    }
@@ -55,10 +69,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>宜家自制家居改造系列节目《宜家去你家》</strong></h2>\n<p>由宜家设计师走进真实家庭，针对不同屋主的需求，用可持续的人性化设计，为屋主们<strong>化解生活中的困扰</strong>，创造理想的家～</p>"
+    "宜家自制家居改造系列节目《宜家去你家》 由宜家设计师走进真实家庭，针对不同屋主的需求，用可持续的人性化设计，为屋主们化解生活中的困扰，创造理想的家～"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "95aa162f7e1349fcaf3df3564ea31b8c"
    }
@@ -86,6 +102,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/f9/bf/f9bf5a0b1cf6e8e726ad9a84c61f20e8.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/71/79/7179c79786733a6e8f16a08b417eca5e.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/f9/bf/f9bf5a0b1cf6e8e726ad9a84c61f20e8.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/71/79/7179c79786733a6e8f16a08b417eca5e.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "fda1d7c5893347c8bc31750f8c479327"
    }
@@ -108,6 +155,24 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/fc/b4/fcb4432d7994f246ae640f6989007134.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/fc/b4/fcb4432d7994f246ae640f6989007134.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "641b1a53eeae44f6943d446070b4b5f1"
    }
@@ -129,6 +194,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20221213/dd1a1f46ab174a6eb3a846b82f989cf7.mp4",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Image(video)-"
    }
@@ -141,6 +216,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "9c5f4b6d0c564635b491b3275e921671"
    }
@@ -149,10 +226,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>改造区域一览</h2>"
+    "改造区域一览"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "72408ae413fa49918411060ffc0b137f"
    }
@@ -199,6 +278,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/6f/d7/6fd76da7d7b5dc2fd7a56dacc02a90a5.jpg",
+     "href": "/cn/zh/h5page/?url=%230f186df0-4115-11eb-9226-475e4ebcf477",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/3e/87/3e875038ba1b15113d3ea633ab1b5c6c.jpg",
+     "href": "/cn/zh/h5page/?url=%23a002d170-4115-11eb-ae85-a348e5c3d054",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/71/0a/710a98ea83556cec29638dbc074804a1.jpg",
+     "href": "/cn/zh/h5page/?url=%23a97ecbf0-4115-11eb-ae85-a348e5c3d054",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "如何开发小客厅居家与社交场景？ 改造前：昏暗、拥挤，无法承担社交活动 解决方案：物品入柜，全落地储物组合显神通",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/6f/d7/6fd76da7d7b5dc2fd7a56dacc02a90a5.jpg",
+     "href": "/cn/zh/h5page/?url=%230f186df0-4115-11eb-9226-475e4ebcf477"
+    },
+    {
+     "heading": "7平米的卧室也能拥有时尚衣帽间？ 改造前：地上、床边满负荷，电线缠绕有隐患 解决方案：利用模块化组合产品，制造充足储物空间",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/3e/87/3e875038ba1b15113d3ea633ab1b5c6c.jpg",
+     "href": "/cn/zh/h5page/?url=%23a002d170-4115-11eb-ae85-a348e5c3d054"
+    },
+    {
+     "heading": "如何在双人间卧室享受单人间标准？ 改造前：共享灯光、杂乱和音乐，没有私密性 解决方案：从物理和视觉改变，营造独处空间",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/71/0a/710a98ea83556cec29638dbc074804a1.jpg",
+     "href": "/cn/zh/h5page/?url=%23a97ecbf0-4115-11eb-ae85-a348e5c3d054"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "60e4211b59fa433686919d53ad8d73ab"
    }
@@ -211,6 +334,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "dfd47e0375264f0c9461bf5ea5e1718b"
    }
@@ -219,10 +344,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>客厅的现状</h2>\n<p>每天晚上，三人总是挤在一张小桌上进餐，笑笑闹闹，胳膊挤胳膊，一不小心手机碰掉了，也是real心疼。把缝纫机当作餐桌使用，着实小了，偶尔想要&ldquo;深夜放毒&rdquo;多点几份外卖，桌子就&ldquo;饱和&rdquo;了，而且棱角分明的边缘和露出的旧钉子将危险时刻外露。</p>"
+    "客厅的现状 每天晚上，三人总是挤在一张小桌上进餐，笑笑闹闹，胳膊挤胳膊，一不小心手机碰掉了，也是real心疼。把缝纫机当作餐桌使用，着实小了，偶尔想要“深夜放毒”多点几份外卖，桌子就“饱和”了，而且棱角分明的边缘和露出的旧钉子将危险时刻外露。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "f78193607b8f437193af8a7ceab17945"
    }
@@ -250,6 +377,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/c6/62/c662ff2bd95c6129597f8fa9dd5f3ddb.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ec/c1/ecc14d56663d96f545507c31e8694646.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/c6/62/c662ff2bd95c6129597f8fa9dd5f3ddb.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/ec/c1/ecc14d56663d96f545507c31e8694646.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "bc22c7df4ded40e98eaf7a6e595708d8"
    }
@@ -258,10 +416,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>改造前后</h2>"
+    "改造前后"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "4e01b17c974443c38c5b7929b3ada5c9"
    }
@@ -294,6 +454,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/88/c1/88c1078a66f2423b62a10ee13ad2066b.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b5/5b/b55b285748dcd060f37852b210fef3a2.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/c4/bb/c4bb690d9bafb9f67baaccd69d12bd9b.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/88/c1/88c1078a66f2423b62a10ee13ad2066b.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/b5/5b/b55b285748dcd060f37852b210fef3a2.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/c4/bb/c4bb690d9bafb9f67baaccd69d12bd9b.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "dcc3db767fab4a1ebfc7976b7ff0469a"
    }
@@ -306,6 +510,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "bdc6465af3e24beda6ff0a9998fd1208"
    }
@@ -314,10 +520,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>金美的房间</h2>\n<p>由于空间限制，金美每天化妆总是逆光，色彩搭配、粉妆色号难以精确掌握，一旦过浓或过于假白，出门分分钟就是&ldquo;社会性死亡&ldquo;现场。桌子下方的垃圾桶、盒子&ldquo;霸占&rdquo;了所剩不多的空间，坐在这里几乎要&ldquo;无处下脚&rdquo;。</p>"
+    "金美的房间 由于空间限制，金美每天化妆总是逆光，色彩搭配、粉妆色号难以精确掌握，一旦过浓或过于假白，出门分分钟就是“社会性死亡“现场。桌子下方的垃圾桶、盒子“霸占”了所剩不多的空间，坐在这里几乎要“无处下脚”。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "a3fc806dc91142b6816be41a4a6f9c56"
    }
@@ -345,6 +553,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/5d/d4/5dd48775a2bbb62dd2fdba54e8e740cd.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/cb/8c/cb8ced42d6b13b9b86eb65f5924eecb0.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/5d/d4/5dd48775a2bbb62dd2fdba54e8e740cd.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/cb/8c/cb8ced42d6b13b9b86eb65f5924eecb0.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "7576deb6bc4240ed915a89b16b810403"
    }
@@ -353,10 +592,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>7平米的卧室也能拥有时尚衣帽间！</h2>"
+    "7平米的卧室也能拥有时尚衣帽间！"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "ee539fbda99545bda39aec6e666a3184"
    }
@@ -389,6 +630,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/34/de/34def8cea9aa42c89be0a6399cc74938.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/eb/c2/ebc2623237a8998f6315529df634bc7f.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/65/e1/65e15ad56af535a580ed6db65ea2294c.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/34/de/34def8cea9aa42c89be0a6399cc74938.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/eb/c2/ebc2623237a8998f6315529df634bc7f.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/65/e1/65e15ad56af535a580ed6db65ea2294c.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "09de621720c24deaab18e6c0b28e9939"
    }
@@ -397,10 +682,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>2人合住的卧室</h2>\n<p>音乐，是生活的调味剂，对小马而言，音乐更是她缓解生活压力的一种方式和爱好。不弹琴时，这些乐器也只能&ldquo;束之高阁&rdquo;，和衣物、行李箱&ldquo;作伴&rdquo;，分外可惜。</p>"
+    "2人合住的卧室 音乐，是生活的调味剂，对小马而言，音乐更是她缓解生活压力的一种方式和爱好。不弹琴时，这些乐器也只能“束之高阁”，和衣物、行李箱“作伴”，分外可惜。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "fe483cc3f6b84952bde4cae2aa43094f"
    }
@@ -428,6 +715,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/26/23/26237fe153043689b72ce7d9c15a243f.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/0f/8f/0f8fc6458feb7d50b754dc98ec202540.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/26/23/26237fe153043689b72ce7d9c15a243f.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/0f/8f/0f8fc6458feb7d50b754dc98ec202540.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "ceadb8e9ba7942d2b5ced6c615da44ad"
    }
@@ -436,10 +754,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>改造后</h2>"
+    "改造后"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "63ef04a2f7df4c4680919eae962252d1"
    }
@@ -472,6 +792,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e4/60/e460bace822a9c585b9ac29127961fda.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/80/a8/80a80fedf0889043ea0b805f04a5c18e.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d7/ad/d7ad76f3f2e9d12fc6e1ade64492bcc6.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/e4/60/e460bace822a9c585b9ac29127961fda.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/80/a8/80a80fedf0889043ea0b805f04a5c18e.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/d7/ad/d7ad76f3f2e9d12fc6e1ade64492bcc6.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "a4a06e906113466e8b7bc4d2b9c53a59"
    }
@@ -484,6 +848,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "08e4892f0cbf42e09989fa3c010afcce"
    }
@@ -492,10 +858,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>宜家全屋设计</h2>\n<p>专业设计，1对1服务，不论大家小家，都能变成理想的家！</p>"
+    "宜家全屋设计 专业设计，1对1服务，不论大家小家，都能变成理想的家！"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "7b4237d41cf4490cbb364adaa5e6d845"
    }
@@ -524,6 +892,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ba/0f/ba0f15ad87ba6770fad39d6dee6f9585.jpg",
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fwrd.family.ikea.cn%2Fwrd%3Fchannel%3DOA-Club-Article%26cl_sr%3DOA-Club-Article",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "2d0ee31a274645d894699ac2e5b3ff08"
    }
@@ -536,6 +914,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "c8ae4694e3034ea09a5c2ab882cf91e0"
    }
@@ -558,6 +938,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "12523c31869a438795ddbfbd8236d4e7"
    }

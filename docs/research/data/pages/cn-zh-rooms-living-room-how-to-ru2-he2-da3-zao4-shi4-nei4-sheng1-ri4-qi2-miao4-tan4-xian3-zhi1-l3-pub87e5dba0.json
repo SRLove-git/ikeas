@@ -11,7 +11,7 @@
    "title": "如何打造室内生日奇妙探险之旅",
    "texts": [
     "GRACIÖS 格拉希思 地毯上摆放着各种包装精美的礼物和拆封的礼品与玩具，等待孩子探索发现。",
-    "<p>这是孩子的重要一刻！即使待在家中，也不影响你来一次激动人心的冒险之旅。为全天的不同环节分别设置相应场景，把生日聚会变成充满冒险的奇趣旅程。</p>",
+    "这是孩子的重要一刻！即使待在家中，也不影响你来一次激动人心的冒险之旅。为全天的不同环节分别设置相应场景，把生日聚会变成充满冒险的奇趣旅程。",
     "如何打造室内生日奇妙探险之旅",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "如何打造室内生日奇妙探险之旅",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/46/f1/46f1212a8840b8132ece30abec35dbd3.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -50,6 +60,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "三个小女孩在浴室玩耍。其中一个小女孩披着RÖRANDE 略朗德 带兜帽浴巾，与她的母亲一起祝酒。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/7ce8d8dc26bea3a8/original/PH169234-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -76,6 +96,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个女孩手拿包装精美的礼物，坐在绿植环绕的房间中，UGGLEMOTT 乌格烈莫 挂毯和GRACIÖS 格拉希思 地毯打造出一种丛林氛围。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/6af2830b52bb17d7/original/PH168912-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -102,16 +132,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "两个小女孩在模拟营地中吃着棉花糖，在EKEDALEN 伊克多兰 桌子上覆盖METTALISE 梅塔利瑟和SKÄGGÖRT 凯悦特 布料，一个简单的营地就诞生了。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/4652220a83eadea9/original/PH168913-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>宜家期待看到顾客发挥自己的创意。放手去做！但请注意，更改或调整宜家产品，使其不能再次出售或用于原用途，即意味放弃宜家商业品质保证和你的退货权利。</p>"
+    "宜家期待看到顾客发挥自己的创意。放手去做！但请注意，更改或调整宜家产品，使其不能再次出售或用于原用途，即意味放弃宜家商业品质保证和你的退货权利。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

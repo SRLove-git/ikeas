@@ -11,7 +11,7 @@
    "title": "大城市里的温馨乡村风格厨房",
    "texts": [
     "利用宜家 METOD 米多 HITTARP 希塔普 白色镶板柜门和 TORNVIKEN 托恩维肯 米白色开放式储物搁板和酒瓶架，打造温馨小厨房。",
-    "<p>将乡村气息带入现代城市。这个家庭利用微型绿植、小型用餐区和白色的镶板柜门将小厨房打造成一个温暖舒适的空间，令他们不禁追忆曾经的乡村生活。</p>",
+    "将乡村气息带入现代城市。这个家庭利用微型绿植、小型用餐区和白色的镶板柜门将小厨房打造成一个温暖舒适的空间，令他们不禁追忆曾经的乡村生活。",
     "大城市里的温馨乡村风格厨房",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "大城市里的温馨乡村风格厨房",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d9/51/d951eda1516a4d79662b95a9193074e3.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -39,6 +49,38 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "ENERYDA 艾纳丽",
+     "text": "¥30",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/eneryda-ai-na-li-bei-xing-ba-shou-hei-se__0754245_pe747837_s4.jpg",
+     "href": "/cn/zh/p/eneryda-ai-na-li-bei-xing-ba-shou-hei-se-10347524/"
+    },
+    {
+     "title": "HAVSEN 霍夫森",
+     "text": "¥849",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/havsen-huo-fu-sen-qian-ru-shi-shui-cao-dai-1-ge-cao-bai-se__1430251_pe982059_s4.jpg",
+     "href": "/cn/zh/p/havsen-huo-fu-sen-qian-ru-shi-shui-cao-dai-1-ge-cao-bai-se-89253715/"
+    },
+    {
+     "title": "GAMLESJÖN 甘勒逊",
+     "text": "¥899",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/gamlesjoen-gan-le-xun-chu-fang-long-tou-hei-se-la-si-jin-shu__0756688_pe749040_s4.jpg",
+     "href": "/cn/zh/p/gamlesjoen-gan-le-xun-chu-fang-long-tou-hei-se-la-si-jin-shu-00341674/"
+    },
+    {
+     "title": "TORNVIKEN 托恩维肯",
+     "text": "¥500",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/tornviken-tuo-en-wei-ken-kai-fang-shi-chu-gui-hui-bai__0593889_pe675423_s4.jpg",
+     "href": "/cn/zh/p/tornviken-tuo-en-wei-ken-kai-fang-shi-chu-gui-hui-bai-10359003/"
+    },
+    {
+     "title": "TORNVIKEN 托恩维肯",
+     "text": "¥160",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/tornviken-tuo-en-wei-ken-he-zi-hui-bai__0593871_pe675411_s4.jpg",
+     "href": "/cn/zh/p/tornviken-tuo-en-wei-ken-he-zi-hui-bai-90359004/"
+    }
+   ],
    "settings": null
   }
  ]

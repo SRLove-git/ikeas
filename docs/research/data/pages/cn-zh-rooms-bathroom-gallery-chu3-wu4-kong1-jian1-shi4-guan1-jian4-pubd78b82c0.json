@@ -11,7 +11,7 @@
    "title": "储物空间是关键",
    "texts": [
     "一间绿色瓷砖浴室，有两个HEMNES 汉尼斯 洗脸池柜和镜柜，摆放着毛巾和各种配件。",
-    "<p>触手可及的储物装置，存放常用物品；开放式的储物区，摆放想要展示的心爱之物；封闭式储物空间，收纳需要隐藏的物品&mdash;&mdash;一切分门别类，收纳得井井有条，每位家庭成员都有属于自己的储物空间。</p>",
+    "触手可及的储物装置，存放常用物品；开放式的储物区，摆放想要展示的心爱之物；封闭式储物空间，收纳需要隐藏的物品——一切分门别类，收纳得井井有条，每位家庭成员都有属于自己的储物空间。",
     "储物空间是关键",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "储物空间是关键",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/0e/0e/0e0e097ff6596408e9e89e28917d508a.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -50,6 +60,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "绿色瓷砖墙面上有一个打开的HEMNES 汉尼斯 镜柜，里面有一些美妆用品和配件。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/a2fe6a94095dae1/original/PH168024-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -76,6 +96,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "在一间绿色瓷砖浴室中，有一张HEMNES 汉尼斯 长凳摆放在两个洗脸池之间。搁架上摆放着储物盒和毛巾。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/63f59f6c28d6a4d0/original/PH168025-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -102,6 +132,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "浴帘旁边放着一架不锈钢GRUNDTAL 格兰代 手推车，搁架上堆满了美容用品。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/700e487a1b4da21c/original/PH168026-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -128,6 +168,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "在浴室的化妆区，有一个NORDRANA 诺娜 悬挂储物件、一面壁装镜子和一个绿色的搁架单元。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/7ce387077eeebec3/original/PH168022-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -154,6 +204,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个绿色的KOLBJÖRN 科比约恩 柜子摆放在窗户前面。一扇柜门打开，露出里面的厕纸和清洁剂。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/1112d025a23042a4/original/PH168023-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -169,6 +229,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "HEMNES 汉尼斯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/hemnes-han-ni-si-dan-men-jing-gui-bai-se__0721675_pe733348_s4.jpg",
+     "href": "/cn/zh/p/hemnes-han-ni-si-dan-men-jing-gui-bai-se-00217679/"
+    },
+    {
+     "title": "LINDBYN 林德比恩",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lindbyn-lin-de-bi-en-jing-zi-hei-se__0798818_pe767396_s4.jpg",
+     "href": "/cn/zh/p/lindbyn-lin-de-bi-en-jing-zi-hei-se-60458618/"
+    }
+   ],
    "settings": null
   }
  ]

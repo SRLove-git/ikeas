@@ -11,7 +11,7 @@
    "title": "打造储物和艺术空间",
    "texts": [
     "由椰子叶编制而成的方形篮筐，放在黑棕色的搁架单元上展示。",
-    "<p>无论是选择合适的储物盒还是为你的艺术品选择画框，精心挑选的细节总能为家带来全然不同的改变。</p>\n<p>DOMPEN 多本 篮筐完美融入 KALLAX 卡莱克 搁架单元，提供迷人储物新方案。方形天然纤维篮筐外部由椰树棕榈叶制成，配有小把手，可轻松从搁架中拉出。</p>",
+    "无论是选择合适的储物盒还是为你的艺术品选择画框，精心挑选的细节总能为家带来全然不同的改变。 DOMPEN 多本 篮筐完美融入 KALLAX 卡莱克 搁架单元，提供迷人储物新方案。方形天然纤维篮筐外部由椰树棕榈叶制成，配有小把手，可轻松从搁架中拉出。",
     "打造储物和艺术空间",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "打造储物和艺术空间",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/25/ed/25eda2690d420b60491d62359efbd73f.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,16 +54,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "桌子上放着两个黑色画框，较大的里面放着干草，较小的里面放有黑/白照片。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/af/30/af30f7177624b366a6e6bf2963536ef9.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>黑色的 SKATTEBY 斯凯比 画框在装裱艺术品的同时营造出一种厚重感，画框质地轻盈，方便将艺术品悬挂在墙上。</p>"
+    "黑色的 SKATTEBY 斯凯比 画框在装裱艺术品的同时营造出一种厚重感，画框质地轻盈，方便将艺术品悬挂在墙上。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -66,6 +88,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

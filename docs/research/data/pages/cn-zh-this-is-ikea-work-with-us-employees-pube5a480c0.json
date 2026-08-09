@@ -22,16 +22,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "宜家工作一览",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a5/e0/a5e037b4dc44b286993dc9efc59f9774.png",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>家居事业比你想象中的更加丰富多彩！我们在多个领域为你提供了大量的机会：</p>"
+    "家居事业比你想象中的更加丰富多彩！我们在多个领域为你提供了大量的机会："
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -43,7 +55,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<p>我们致力于最大程度地降低运营对环境的影响，帮助人们过上更可持续的居家生活。</p>"
+    "我们致力于最大程度地降低运营对环境的影响，帮助人们过上更可持续的居家生活。"
    ],
    "images": [
     "https://file.app.ikea.cn/images/87/45/874590b4512fc3f0d539bbc43ba45f45.jpg",
@@ -64,6 +76,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "可持续发展",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/87/45/874590b4512fc3f0d539bbc43ba45f45.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "采购",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/70/e6/70e6b0a0943fc1ade01ed9f9a8dda09c.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "顾客关系",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/63/22/632235507ae186b187487488bbaa747d.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "我们致力于最大程度地降低运营对环境的影响，帮助人们过上更可持续的居家生活。",
+     "image": "https://file.app.ikea.cn/images/87/45/874590b4512fc3f0d539bbc43ba45f45.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "我们在全球各地搜寻原材料，令宜家和顾客的每一分钱都花得物有所值。",
+     "image": "https://file.app.ikea.cn/images/70/e6/70e6b0a0943fc1ade01ed9f9a8dda09c.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "我们的职能涵盖了商场内外的方方面面，包括接待、收银、退换货、客服中心等。",
+     "image": "https://file.app.ikea.cn/images/63/22/632235507ae186b187487488bbaa747d.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -75,7 +131,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<p>我们负责招聘、培训和员工福利。吸引、培养并激励员工是我们的职责所在。</p>"
+    "我们负责招聘、培训和员工福利。吸引、培养并激励员工是我们的职责所在。"
    ],
    "images": [
     "https://file.app.ikea.cn/images/26/41/2641c636f2ebbac903e80799cfd4bf0b.jpg",
@@ -96,6 +152,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "人力资源",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/26/41/2641c636f2ebbac903e80799cfd4bf0b.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "销售",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d9/64/d96413a5b7c06b7320043bd33ca93a94.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "工程项目和质量管理",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/60/c5/60c59e9c2f967fa41f91cec865e391d6.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "我们负责招聘、培训和员工福利。吸引、培养并激励员工是我们的职责所在。",
+     "image": "https://file.app.ikea.cn/images/26/41/2641c636f2ebbac903e80799cfd4bf0b.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "我们热衷于零售，喜欢与人交往，我们每天都会接触宜家产品系列和自助服务。",
+     "image": "https://file.app.ikea.cn/images/d9/64/d96413a5b7c06b7320043bd33ca93a94.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "我们的职能遍及产品开发流程和整个宜家供应链。我们致力于全面提升产品质量。",
+     "image": "https://file.app.ikea.cn/images/60/c5/60c59e9c2f967fa41f91cec865e391d6.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -115,16 +215,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "电子商务",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/45/5b/455be9648cf0589610881daad9180e5c.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>我们在国内和全球市场改进和提升宜家在线购物体验。</p>"
+    "我们在国内和全球市场改进和提升宜家在线购物体验。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -171,6 +283,114 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "财务和业务管理",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d3/b5/d3b50950e5c152814600afcb069c2465.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "设计与产品开发",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/82/69/82694fde18f3cd2f1505057781a9c5ee.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "营销与沟通 ",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/96/d0/96d044645c8d851b0af830a71598aaaf.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "室内设计与沟通部门",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/c5/fe/c5febc64d4cb9dc7f42afe5d0918d082.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "商场管理",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/8d/e1/8de192e3408440b2c9d6e40b6af4546b.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "宜家业务解决方案",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/76/52/7652d3489c92de3942828d2f171615c7.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "宜家餐饮/餐厅",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a3/8c/a38c166d780107b509d10498a57b19b7.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/df/25/df2537f3d61861d53f9cb744c81727ad.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "交通",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/fd/3b/fd3b6fed9fc2838eee4c3de49bddd5e7.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "物业管理部",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/0e/b0/0eb08ac03ddd66d3c8a67adcaa44488a.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "生产",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/c5/cc/c5ccd50d2a9c044f93ba9c7245a73693.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "项目管理",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a4/62/a462afc4446e819ee0f4e67f40c6167e.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/2a/9c/2a9c48a1f9c21019923a0647206479d1.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "宜家购物中心",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/51/f0/51f07e8499daad330948d6cbc513a599.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "其他",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/3d/51/3d510538134e1c6112e604d72b3c6526.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -181,7 +401,7 @@
     "/this-is-ikea/work-with-us/story-pub5c106871",
     "page",
     "宜家员工故事",
-    "每一件产品的背后都有一个员工故事\n\n我们鼓励员工追随自己的热情，尝试新的角色，或在喜欢的岗位上不断成长。只需了解宜家员工的几个故事，你将会发现每一次旅程都很独特，而且收获颇丰。你的宜家之旅将会怎样？",
+    "每一件产品的背后都有一个员工故事 我们鼓励员工追随自己的热情，尝试新的角色，或在喜欢的岗位上不断成长。只需了解宜家员工的几个故事，你将会发现每一次旅程都很独特，而且收获颇丰。你的宜家之旅将会怎样？",
     "ikea://cms/page-compatible-web?url=%2Fthis-is-ikea%2Fwork-with-us%2Fstory-pub5c106871&key=cn--zh--5c106871ae2d11e7bee763967dcf9290"
    ],
    "images": [
@@ -193,6 +413,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "宜家员工故事",
+     "text": "每一件产品的背后都有一个员工故事\n\n我们鼓励员工追随自己的热情，尝试新的角色，或在喜欢的岗位上不断成长。只需了解宜家员工的几个故事，你将会发现每一次旅程都很独特，而且收获颇丰。你的宜家之旅将会怎样？",
+     "image": "https://file.app.ikea.cn/images/e7/8d/e78d0774539939ad36e9f614507dd940.jpeg",
+     "href": "/cn/zh/this-is-ikea/work-with-us/story-pub5c106871",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -213,6 +443,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -233,6 +465,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

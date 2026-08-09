@@ -11,7 +11,7 @@
    "title": "令人着迷的复古外观",
    "texts": [
     "三块 VONSBÄK 翁斯拜克 地毯，印有仿旧复古的绿色调东方风情图案。",
-    "<p>VONSBÄK 翁斯拜克 地毯可以为地板营造仿旧复古外观。地毯的绒毛非常短，上面印有模糊的东方风情图案，可铺在用餐区、客厅或卧室内，增添个性风采。</p>",
+    "VONSBÄK 翁斯拜克 地毯可以为地板营造仿旧复古外观。地毯的绒毛非常短，上面印有模糊的东方风情图案，可铺在用餐区、客厅或卧室内，增添个性风采。",
     "令人着迷的复古外观",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "令人着迷的复古外观",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/95/f2/95f27c7623f1c16179de45397a9072fd.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,16 +54,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "特写：VONSBÄK 翁斯拜克 短绒地毯，印有仿旧复古的绿色调东方风情图案。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/2c/fd/2cfdd438b795eb9406219dfd9fd75eae.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>VONSBÄK 翁斯拜克 地毯由100%聚丙烯制成，可轻松清洁，不易留下印迹，十分耐用。这款地毯提供三种尺寸可选，能以不同方式呈现出传统风格。</p>"
+    "VONSBÄK 翁斯拜克 地毯由100%聚丙烯制成，可轻松清洁，不易留下印迹，十分耐用。这款地毯提供三种尺寸可选，能以不同方式呈现出传统风格。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

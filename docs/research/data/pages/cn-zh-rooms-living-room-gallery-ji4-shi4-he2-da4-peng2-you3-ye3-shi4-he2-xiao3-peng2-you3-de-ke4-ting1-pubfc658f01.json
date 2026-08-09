@@ -11,7 +11,7 @@
    "title": "既适合大朋友，也适合小朋友的客厅",
    "texts": [
     "在摆放着宜家 KIVIK 奇维 蓝色带贵妃椅三人沙发的客厅中，闲适地度过时光。这张沙发带有多张靠垫，既柔软舒适，又能为背部提供支撑。",
-    "<p>想要一间既适合大人，又适合小朋友的房间？这里就是了。这家人想出了解决方法&mdash;&mdash;优先选择灵活的家具。</p>",
+    "想要一间既适合大人，又适合小朋友的房间？这里就是了。这家人想出了解决方法——优先选择灵活的家具。",
     "既适合大朋友，也适合小朋友的客厅",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "既适合大朋友，也适合小朋友的客厅",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/5a/6f/5a6f76890bbdcba30b26b6079e2e52cc.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -39,6 +49,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

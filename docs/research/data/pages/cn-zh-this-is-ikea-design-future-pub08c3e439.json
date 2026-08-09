@@ -10,7 +10,7 @@
    "type": "pub-hero",
    "title": "接下来是什么?",
    "texts": [
-    "<p><strong>令人鼓舞的小改变</strong></p>\n<p>旺盛的求知欲使得我们无法坐等潮流趋势自己到来。我们更愿意问这样的问题：&ldquo;我们怎样做才能打造更好的产品，让日常生活更美好一些呢？&rdquo;答案常常能在一些小事情中找到。居家生活中一些着眼小处的解决方案让日常生活更加顺畅、更便利也更有趣。</p>",
+    "令人鼓舞的小改变 旺盛的求知欲使得我们无法坐等潮流趋势自己到来。我们更愿意问这样的问题：“我们怎样做才能打造更好的产品，让日常生活更美好一些呢？”答案常常能在一些小事情中找到。居家生活中一些着眼小处的解决方案让日常生活更加顺畅、更便利也更有趣。",
     "接下来是什么?",
     "normal"
    ],
@@ -23,6 +23,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "接下来是什么?",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/11/ef/11efd290caf78544d23ce6e8fc27c404.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -41,16 +51,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/7c/01/7c013abbb695ab9dcc07809fa8d660d0.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>&ldquo;灵活的家&rdquo;的关键在于，根据人们的活动在家中打造出色的活动流程。在家具中内置无线充电器，就属于一件能够带来大不同的小事情。</p>\n<p>今天，我们以有别于传统的角度审视家居用品。我们将注意力放在活动上，而不是房间上。人们在家里会做些什么？他们怎么做，什么时候做这些事情？然后我们为他们提供灵感，在家中各处做出一些不大的改变，让这些事情做起来更容易、更灵活，同时让人更加享受其中。</p>"
+    "“灵活的家”的关键在于，根据人们的活动在家中打造出色的活动流程。在家具中内置无线充电器，就属于一件能够带来大不同的小事情。 今天，我们以有别于传统的角度审视家居用品。我们将注意力放在活动上，而不是房间上。人们在家里会做些什么？他们怎么做，什么时候做这些事情？然后我们为他们提供灵感，在家中各处做出一些不大的改变，让这些事情做起来更容易、更灵活，同时让人更加享受其中。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -61,16 +83,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3><strong>宜家家居实验室&mdash;&mdash;关注未来</strong></h3>\n<p>一般人们并不认为宜家所做的与科学有什么关系。然而在我们向未来进发的途中，为了满足顾客的需求，科学起到了比任何时候都更为重要的作用。在宜家家居实验室里，一组科学家怀着对未来的向往，正试验一些近些年内都不会面世的产品。在这里，科学家们不断探索新的创意与材料，构建产品原型。有些试验成果会在真实的生活场景中接受测试。而有些则永远都不会投入生产。科学家们经历了从好奇、探索、试验和错误等阶段&mdash;&mdash;这就是科学的本质。</p>"
+    "宜家家居实验室——关注未来 一般人们并不认为宜家所做的与科学有什么关系。然而在我们向未来进发的途中，为了满足顾客的需求，科学起到了比任何时候都更为重要的作用。在宜家家居实验室里，一组科学家怀着对未来的向往，正试验一些近些年内都不会面世的产品。在这里，科学家们不断探索新的创意与材料，构建产品原型。有些试验成果会在真实的生活场景中接受测试。而有些则永远都不会投入生产。科学家们经历了从好奇、探索、试验和错误等阶段——这就是科学的本质。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -89,16 +115,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a9/39/a93938d2c23130c5bec85a92b0a25c85.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>&ldquo;都市玩乐&mdash;&mdash;体验之家&rdquo;是我们在宜家家居实验室（IKEA Home Lab）探索的主题之一，其内容包括共享居住空间的隐私保护解决方案。</p>"
+    "“都市玩乐——体验之家”是我们在宜家家居实验室（IKEA Home Lab）探索的主题之一，其内容包括共享居住空间的隐私保护解决方案。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -109,16 +147,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3><strong>未来的生活会更为巧妙灵活</strong></h3>\n<p>科技发展及经济进步让人与人之间的关系越发紧密，世界每分每秒都变得更小、更紧密。生活的习惯与标准也以更快的速度在不断变化着。随着社会发展，人口、设备、电线及其它事物的数量都在不断增加，在宜家家居实验室，我们正专注于打造巧妙灵活的解决方案，以满足未来随这一增长势头而产生的家居需求。</p>"
+    "未来的生活会更为巧妙灵活 科技发展及经济进步让人与人之间的关系越发紧密，世界每分每秒都变得更小、更紧密。生活的习惯与标准也以更快的速度在不断变化着。随着社会发展，人口、设备、电线及其它事物的数量都在不断增加，在宜家家居实验室，我们正专注于打造巧妙灵活的解决方案，以满足未来随这一增长势头而产生的家居需求。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -129,7 +171,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<p>将家具打造成无线充电点，不仅让充电更加便捷，而且让人们摆脱了电线的束缚&mdash;&mdash;这是一个以人为本的解决方案，但同时满足了人们对科技的需求。</p>",
+    "将家具打造成无线充电点，不仅让充电更加便捷，而且让人们摆脱了电线的束缚——这是一个以人为本的解决方案，但同时满足了人们对科技的需求。",
     "pub-text"
    ],
    "images": [
@@ -146,6 +188,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/78/ec/78ecb5621d80345009924b9c56256f2b.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/53/ad/53ad825c6f2570e2385185aafbf3fc51.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "将家具打造成无线充电点，不仅让充电更加便捷，而且让人们摆脱了电线的束缚——这是一个以人为本的解决方案，但同时满足了人们对科技的需求。",
+     "image": "https://file.app.ikea.cn/images/78/ec/78ecb5621d80345009924b9c56256f2b.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "我们正在为共享居住空间的都市人试验创新解决方案，如可移动墙壁，将灵活可变性提升到了新高度。",
+     "image": "https://file.app.ikea.cn/images/53/ad/53ad825c6f2570e2385185aafbf3fc51.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -156,16 +229,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h4><strong>你可能也想看</strong></h4>"
+    "你可能也想看"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -193,6 +270,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "家居生活",
+     "text": "家居生活和儿童安全",
+     "image": "https://file.app.ikea.cn/images/87/6b/876bbfd45a65855e944c5eb8a840c92c.jpg",
+     "href": "/cn/zh/this-is-ikea/design/family-pub6583c259",
+     "backgroundColor": null
+    },
+    {
+     "title": "创意设计",
+     "text": "我们从60年前开始学习如何打造家具。我们刚刚开始设计自己的家具，需要学习如何将供应商的供应能力与顾客的需求做好地结合起来。我们通过拉近供应商与顾客间的距离，使产品价格保持在较低的水平。\n",
+     "image": "https://file.app.ikea.cn/images/92/e8/92e87e53ae3016fc205fa21b35338488.jpg",
+     "href": "/cn/zh/this-is-ikea/design/design-pub00767419",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -213,6 +307,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

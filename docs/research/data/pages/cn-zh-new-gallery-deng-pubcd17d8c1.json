@@ -11,7 +11,7 @@
    "title": "复古灯具",
    "texts": [
     "选用宜家 FADO 法多 台灯，可轻松营造出舒适柔和的情调灯光。灯具采用球形设计，由黄色的染色玻璃制成，可搭配 LUNNOM 兰诺 裸灯泡，营造绝佳的情调和氛围。",
-    "<p>选用黄色或灰色染色玻璃的 FADO 法多 台灯，营造舒适柔和的情调照明。它可以与 LUNNOM 兰诺 灯泡搭配使用，呈现出经典怀旧的风格。</p>",
+    "选用黄色或灰色染色玻璃的 FADO 法多 台灯，营造舒适柔和的情调照明。它可以与 LUNNOM 兰诺 灯泡搭配使用，呈现出经典怀旧的风格。",
     "复古灯具",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "复古灯具",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/34/69/346940669733256867629773136ae80d.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -36,6 +46,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "b1782f2d6d2046609d415e66ec04453a"
    }
@@ -35,6 +37,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20230905/b3adedd890fd49f9bc1a33be708a1bef.gif",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "a3aa37395f394ffeb4a67db7a1a116b7"
    }
@@ -43,10 +55,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><span style=\"font-size: 10.0pt;\">我们的大多数产品都采用平板包装，且可轻松放入你的车中。但是，如果你希望我们送货上门，可以预订我们的供应商提供的送货服务。我们将在您指定的日期送货上门。</span></p>\n<p><strong><span style=\"font-size: 10.0pt;\">为什么宜家要收取运费？</span></strong></p>\n<p style=\"text-align: center;\"><a href=\"https://www.ikea.cn/cn/zh/this-is-ikea/about-us/\"><strong><span style=\"font-size: 10.0pt;\">宜家致力于以更低的价格向大众提供更优质的产品。</span></strong></a></p>\n<p><span style=\"font-size: 10.0pt;\">除了通过大产量降低成本，我们在包装、运输过程中采用平板包装，更进一步压低了我们的产品价格。这一理念从采购原材料开始，直到产品在线上线下销售贯彻始终，也正因为如此&hellip;&hellip;</span></p>\n<p style=\"text-align: center;\"><strong><span style=\"font-size: 12.0pt;\">您所看到的产"
+    "我们的大多数产品都采用平板包装，且可轻松放入你的车中。但是，如果你希望我们送货上门，可以预订我们的供应商提供的送货服务。我们将在您指定的日期送货上门。 为什么宜家要收取运费？ 宜家致力于以更低的价格向大众提供更优质的产品。 除了通过大产量降低成本，我们在包装、运输过程中采用平板包装，更进一步压低了我们的产品价格。这一理念从采购原材料开始，直到产品在线上线下销售贯彻始终，也正因为如此…… 您所看到的产品价格均未包含额外包装以及配送的费用。 包裹快递配送 适用于快递包裹配送的商品，单件商品重量小于30公斤，外包装长度小于100厘米，宽度和高度均小于70厘米，长+高+宽三边之和小于165厘米。 *注：快递包裹配送的商品不包含绿植，食品，涂料油漆，米布，刀具，大型的装饰花瓶, 镜子系列（除桌面台式镜），卷式包装床垫等商品。部分小件产品因配货、组合售卖等原因，不适用快递配送。 包裹配送范围 我们为全国306个城市范围提供快递包裹配送服务，在库存充足的情况下，大部分地区到货时间在三天以内，如果库存不足或者订单高峰期可能将延期。您可以添加商品至购物车通过输入具体地址，查看线上购物配送范围。 *注：定制类产品，如定制沙发套的包裹送货时间约为八天。 包裹配送价格 首重（1KG）9.9元，续重2.0元每KG 有效日期：上述服务于 2025 年 7 月 1日起生效，宜家保留对服务进行终止及修改的权力。 "
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -55,10 +69,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>我们的服务</strong></h2>"
+    "我们的服务"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "2d20d0fd4ea1400ba69bd3c01c8047a2"
    }
@@ -93,6 +109,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "组装服务",
+     "text": "了解详情",
+     "image": null,
+     "href": "/cn/zh/customer-service/services/assembly/",
+     "backgroundColor": null
+    },
+    {
+     "title": "设计服务",
+     "text": "了解详情",
+     "image": null,
+     "href": "/cn/zh/customer-service/services/kitchen-planning/",
+     "backgroundColor": null
+    },
+    {
+     "title": "安装服务",
+     "text": "了解详情",
+     "image": null,
+     "href": "/cn/zh/customer-service/services/kitchen-installation/",
+     "backgroundColor": null
+    },
+    {
+     "title": "旧家具运送服务",
+     "text": "了解详情",
+     "image": null,
+     "href": "/cn/zh/customer-service/services/removal-recycling/",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "5a93cdd8204d41e0b70c91e43e0da64c"
    }
@@ -115,6 +162,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "c235766a6e24464097b8c8ec3ab028d9"
    }

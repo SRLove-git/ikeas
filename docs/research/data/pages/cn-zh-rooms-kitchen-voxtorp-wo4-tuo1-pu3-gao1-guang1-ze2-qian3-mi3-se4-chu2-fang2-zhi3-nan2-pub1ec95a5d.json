@@ -11,7 +11,7 @@
    "title": "VOXTORP 沃托普 高光泽浅米色厨房指南",
    "texts": [
     "光亮宽敞的VOXTORP 沃托普 厨房，采用淡米色色调、光滑的柜门和橱柜，还有一个胡桃木贴面的BARKBOCK 巴克波 操作台面。",
-    "<p>想要一间具有工业风格的极简厨房？光亮的浅米色VOXTORP 沃托普 柜门是你的理想之选！这款柜门配有一体式把手，把手的深度非常方便开关柜门；高光泽饰面，加上俐落线条，使厨房充满现代时尚气息。</p>",
+    "想要一间具有工业风格的极简厨房？光亮的浅米色VOXTORP 沃托普 柜门是你的理想之选！这款柜门配有一体式把手，把手的深度非常方便开关柜门；高光泽饰面，加上俐落线条，使厨房充满现代时尚气息。",
     "VOXTORP 沃托普 高光泽浅米色厨房指南",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "VOXTORP 沃托普 高光泽浅米色厨房指南",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d8/ff/d8ffa6bb88fb51bb23debff39b7094d8.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Hero-VOXTORP 沃托普 高光泽浅米色厨房指南"
    }
@@ -52,6 +62,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "柜子的三个抽屉均被拉开，可以看到里面存放的干货。",
+     "image": "https://file.app.ikea.cn/images/d3/34/d334df47c817397c090cd3a13265ec2e.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Curated Gallery-打造你梦寐以求的厨房"
    }
@@ -80,6 +100,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个橱柜，高光泽的浅米色柜门打开，可以看到里面搁架上放着的餐具。",
+     "image": "https://file.app.ikea.cn/images/f8/89/f8891d52a92b114d490be7200e71a977.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Curated Gallery-惹人喜爱，又易于清洁的厨房前板"
    }
@@ -108,6 +138,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个高光泽的浅米色独立橱柜，其中一个抽屉拉开，可以看到里面还有一个小抽屉和一些餐桌纺织品。",
+     "image": "https://file.app.ikea.cn/images/f4/c9/f4c9c10e97f3d9cbd9ad19547d3706cf.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Curated Gallery-25年免费品质保证"
    }
@@ -155,6 +195,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "宜家厨房设计工具——在家即可轻松设计你的厨房",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/42/90/42909d2ee6bc60a85b45906cfa0ff9a7.jpg",
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fkitchen.planner.ikea.cn%2Fplanner%2F%23%2Fcn%2Fzh%2F",
+     "backgroundColor": "#ecd7a2"
+    },
+    {
+     "title": "购买宜家厨房的5个步骤",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/31/25/3125f86f48cf469079c71ff3c1e4b4a7.jpg",
+     "href": "/cn/zh/rooms/kitchen/how-to/gou4-mai3-yi2-jia1-chu2-fang2-de5-ge4-bu4-zhou4-pub6003162f",
+     "backgroundColor": "#d5dcd4"
+    },
+    {
+     "title": "预约一位厨房设计专员",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/7b/32/7b32031403ca8a72b6528dfec1cb0597.jpg",
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fdesign-leads%2Fkitchen.html%3Fchannel%3Dkitchen_IRW%2BM2%26cl_sr%3DIRW%2BM2%26_ga%3D2.167717241.658028929.1605147171-445243359.1599015491",
+     "backgroundColor": "#e9c3b0"
+    },
+    {
+     "title": "宜家厨房服务",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/76/9a/769af772d23e404b7198cfbf9b542f22.jpg",
+     "href": "/cn/zh/customer-service/services/about-kitchen-services-pubdaf4bdea",
+     "backgroundColor": "#99abc1"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Inspiration Cards-"
    }
@@ -172,6 +243,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": {
     "traceId": "cms-Product Shelf-包含产品"
    }

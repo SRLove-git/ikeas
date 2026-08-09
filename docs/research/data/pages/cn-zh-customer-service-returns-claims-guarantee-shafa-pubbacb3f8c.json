@@ -8,7 +8,7 @@
  "blocks": [
   {
    "type": "pub-hero",
-   "title": "沙发和扶手椅品质保证 ",
+   "title": "沙发和扶手椅品质保证",
    "texts": [
     "IMAGE",
     "沙发和扶手椅品质保证",
@@ -23,6 +23,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "沙发和扶手椅品质保证 ",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20240927/f02f5ad8bd0f4d46a93ef0d174f7380d.gif",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "da50d4e1a0ff41758d9cdece71e4ff9a"
    }
@@ -47,6 +57,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "无限灵感，为你的家打造舒适空间",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/f4/0f/f40fc0c74a2f92bd9eeb30a06016ca5a.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Image(video)-"
    }
@@ -55,10 +75,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>家居日常生活对沙发要求很高。我们的沙发和扶手椅系列符合严格的宜家品质和耐用性标准及家居使用的标准。这意味着我们为您提供的十年品质保证涵盖沙发框架和沙发垫在材料和工艺方面的缺陷。</p>\n<p><strong>本品质保证有效期多久？</strong><br />沙发的品质保证自购买之日起十年有效。须提供原始购买凭证。</p>\n<p><strong>本品质保证涵盖哪些产品？</strong><br />本品质保证仅适用于家庭使用的情况，在材料和工艺方面的缺陷:</p>\n<p>&bull; 框架<br />&bull; 坐垫和靠垫</p>\n<p><strong>10年品质保证涵盖下列产品：</strong><br />EKTORP 爱克托 沙发系列，GR&Ouml;NLID 格罗恩里德 沙发系列，HEMLINGBY 汉林比 双人沙发，KIVIK 奇维 沙发系列，KLIPPAN 克利帕 双人沙发，LANDSKRONA 兰德克纳 沙发系列，LIDHULT 利胡特 沙发系列，Omt&auml;nksam 沃姆安克萨姆 系列，SLATORP 思拉托 三人沙发，Stocksund 斯托桑 座椅系列，STRANDMON 斯佳蒙 靠背椅系列，S&Ouml;DERHAMN 索德汉 座椅系列，Vallentuna 瓦伦图 座椅系列，VIMLE 维姆勒 沙发系列，GREVLUNDA 格雷夫隆达 三人沙"
+    "家居日常生活对沙发要求很高。我们的沙发和扶手椅系列符合严格的宜家品质和耐用性标准及家居使用的标准。这意味着我们为您提供的十年品质保证涵盖沙发框架和沙发垫在材料和工艺方面的缺陷。 本品质保证有效期多久？ 沙发的品质保证自购买之日起十年有效。须提供原始购买凭证。 本品质保证涵盖哪些产品？ 本品质保证仅适用于家庭使用的情况，在材料和工艺方面的缺陷: • 框架 • 坐垫和靠垫 10年品质保证涵盖下列产品： EKTORP 爱克托 沙发系列，GRöNLID 格罗恩里德 沙发系列，HEMLINGBY 汉林比 双人沙发，KIVIK 奇维 沙发系列，KLIPPAN 克利帕 双人沙发，LANDSKRONA 兰德克纳 沙发系列，LIDHULT 利胡特 沙发系列，Omtänksam 沃姆安克萨姆 系列，SLATORP 思拉托 三人沙发，Stocksund 斯托桑 座椅系列，STRANDMON 斯佳蒙 靠背椅系列，SöDERHAMN 索德汉 座椅系列，Vallentuna 瓦伦图 座椅系列，VIMLE 维姆勒 沙发系列，GREVLUNDA 格雷夫隆达 三人沙发， åKETORP 沃克托 沙发系列，FRIHETEN 弗瑞顿 沙发系列，HAMMARN 哈马恩 沙发床，HOLMSUND 霍姆桑德 沙发系列，LYCKSELE 利克赛 沙发床系列，NYHAMN 努汉姆 沙发床，VRETSTORP 列斯托 沙发床系列，"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "56c86c5779db44399c4cbf8fbd325a5a"
    }
@@ -81,6 +103,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "39d7aa16509442b589eb402ab7ac78ad"
    }

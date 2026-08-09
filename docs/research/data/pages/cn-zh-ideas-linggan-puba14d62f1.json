@@ -11,7 +11,7 @@
    "title": "全新的开始：宠爱自己，从使用自制护肤品开始",
    "texts": [
     "在家制作化妆品",
-    "<p>选用纯天然、有机的自制洗漱用品开启新的一年！学生Mia和Jakob分享了他们制作洗发乳、香体露和喷发剂的一步式配方卡。</p>",
+    "选用纯天然、有机的自制洗漱用品开启新的一年！学生Mia和Jakob分享了他们制作洗发乳、香体露和喷发剂的一步式配方卡。",
     "全新的开始：宠爱自己，从使用自制护肤品开始",
     "normal"
    ],
@@ -24,16 +24,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "全新的开始：宠爱自己，从使用自制护肤品开始",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a3/8d/a38d99587b4192bc9443e92c82f949b6.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>富含两种成分的洗发乳</strong><br />15ml粉末状的摩洛哥温泉矿泥<br />30-45ml温水</p> <p>将矿泥和温水混合在一起，放置10-15分钟，或者等到矿泥完全吸收水分。记得使用玻璃或者塑料盛具和器具，因为金属材质会和矿泥中的矿物质产生化学反应。</p>"
+    "富含两种成分的洗发乳 15ml粉末状的摩洛哥温泉矿泥 30-45ml温水 将矿泥和温水混合在一起，放置10-15分钟，或者等到矿泥完全吸收水分。记得使用玻璃或者塑料盛具和器具，因为金属材质会和矿泥中的矿物质产生化学反应。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -54,16 +66,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "DIY香体露配方卡",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/c1/51/c151a8117853bc8f5e24247ee62de717.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>自己动手制作香体露</strong><br />500毫升小苏打<br />500毫升土豆粉或玉米粉<br />500毫升冷榨椰子油<br />5-10滴精油</p> <p>将所有的原料装入碗内，混合调匀成糊状。如果你的椰子油是固态状，可以在热锅里面先将其融化。把香体露储存在密封的罐子里。</p>"
+    "自己动手制作香体露 500毫升小苏打 500毫升土豆粉或玉米粉 500毫升冷榨椰子油 5-10滴精油 将所有的原料装入碗内，混合调匀成糊状。如果你的椰子油是固态状，可以在热锅里面先将其融化。把香体露储存在密封的罐子里。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -82,16 +106,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/99/3d/993d36a74f631da8b82d370439d081f1.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>盐水喷发定型剂</strong><br />1茶匙富含丰富矿物质的海盐<br />半茶匙甘油<br />5-10滴精油<br />80毫升水</p> <p>将所有原料倒入烧杯并搅拌，或者是将它们倒入附盖玻璃罐中并摇匀。将它储存在洒水瓶中，方便使用。</p>"
+    "盐水喷发定型剂 1茶匙富含丰富矿物质的海盐 半茶匙甘油 5-10滴精油 80毫升水 将所有原料倒入烧杯并搅拌，或者是将它们倒入附盖玻璃罐中并摇匀。将它储存在洒水瓶中，方便使用。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -111,6 +147,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "Shalony和Niclas的照片",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e8/55/e855145b0c54ada0ea652dc6802497b4.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -122,6 +168,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -142,26 +190,40 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "《让家更有爱》书籍",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/48/58/4858802c0077d450ce3fdc8ae2746d0d.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>在《让家更有爱》一书中找到更多简单、富有创意的想法，来打造更加绿色的生活。《让家更有爱》这本书涵盖了许多日常生活中的轻松小窍门，灵感皆源自世界各地的众多家庭，旨在帮助大家获得快乐的心情，多行善举，并享受生活的乐趣。</p>"
+    "在《让家更有爱》一书中找到更多简单、富有创意的想法，来打造更加绿色的生活。《让家更有爱》这本书涵盖了许多日常生活中的轻松小窍门，灵感皆源自世界各地的众多家庭，旨在帮助大家获得快乐的心情，多行善举，并享受生活的乐趣。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><em>我们乐意看到顾客运用我们的产品发挥创意。尽情发挥吧！但是请注意，经过微调或改造的宜家产品将丧失其原有功能，或无法进行二次销售，因此，你将不再享有宜家的商业保证及退货权利。</em></p>"
+    "我们乐意看到顾客运用我们的产品发挥创意。尽情发挥吧！但是请注意，经过微调或改造的宜家产品将丧失其原有功能，或无法进行二次销售，因此，你将不再享有宜家的商业保证及退货权利。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

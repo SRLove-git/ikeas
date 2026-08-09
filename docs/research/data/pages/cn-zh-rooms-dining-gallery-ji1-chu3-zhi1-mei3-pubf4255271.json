@@ -11,7 +11,7 @@
    "title": "基础之美",
    "texts": [
     "使用 EKEDALEN 伊克多兰 深灰色四人吧台和高酒吧凳，搭配柔软白色 HOLMSUND 霍姆桑德 沙发床和 JAKOBSBYN 雅克布斯比 透明玻璃吊灯罩，打造简约又经典的用餐空间和客厅空间。",
-    "<p>我们都不是从零开始的。不需要很多东西就能打造适合你个人风格的美观生活空间。挑选几个柜子用来储物，一张沙发床用来睡觉，一个吧台既可用作工作区又可作为用餐区。</p>",
+    "我们都不是从零开始的。不需要很多东西就能打造适合你个人风格的美观生活空间。挑选几个柜子用来储物，一张沙发床用来睡觉，一个吧台既可用作工作区又可作为用餐区。",
     "基础之美",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "基础之美",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/da/2c/da2cb739cae0137367a62c3dd8489f09.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -39,6 +49,26 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "BURVIK 伯恩维克",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/burvik-bo-en-wei-ke-bian-zhuo-hei-se__0551236_pe658472_s4.jpg",
+     "href": "/cn/zh/p/burvik-bo-en-wei-ke-bian-zhuo-hei-se-00340387/"
+    },
+    {
+     "title": "STOCKHOLM 斯德哥尔摩",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/stockholm-si-de-ge-er-mo-jing-zi-hu-tao-mu-tie-mian__0633570_pe695904_s4.jpg",
+     "href": "/cn/zh/p/stockholm-si-de-ge-er-mo-jing-zi-hu-tao-mu-tie-mian-40249961/"
+    },
+    {
+     "title": "JAKOBSBYN 雅克布斯比",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/jakobsbyn-ya-ke-bu-si-bi-diao-deng-zhao-tou-ming-bo-li__0683771_pe720859_s4.jpg",
+     "href": "/cn/zh/p/jakobsbyn-ya-ke-bu-si-bi-diao-deng-zhao-tou-ming-bo-li-10382433/"
+    }
+   ],
    "settings": null
   }
  ]

@@ -11,7 +11,7 @@
    "title": "制作健康零食以便随身携带",
    "texts": [
     "一个身穿夹克的人背着浅灰色的PIVRING 皮夫凌 背包，走在阳光灿烂、森林稀疏的山脚边。",
-    "<p>即使生活很忙碌，你也可以吃得健康一点。无论你身处何处，无论你在进行什么活动，选对了合适的产品，你就能轻松享用健康零食和美味。</p>",
+    "即使生活很忙碌，你也可以吃得健康一点。无论你身处何处，无论你在进行什么活动，选对了合适的产品，你就能轻松享用健康零食和美味。",
     "制作健康零食以便随身携带",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "制作健康零食以便随身携带",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/fb/0c/fb0c86319cf3d3c33f3e6560eca22950.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -50,6 +60,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "在阳光明媚的景色中，一位女士背着一个浅灰色PIVRING 皮夫凌 背包，手里拿着一个瓶子，依靠在一块长满苔藓的岩石上。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/2c5ac1117d703be2/original/PH179694-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -76,6 +96,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "在森林的野餐桌旁，一位男士和一位女士正在拿出装在ISTAD 艾斯塔 密封袋里的食物，桌上还放着IKEA 365+ 瓶子。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/360bb4956b108e3c/original/PH179693-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -102,6 +132,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一位男士坐在一张公共长椅上，身旁放着一个FLADDRIG 弗莱瑞格 便当包，他正在用勺子舀出EFTERFRÅGAD 伊特弗加 真空食物罐中的食物。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/78a110b2cef47615/original/PH179691-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -117,6 +157,14 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "RENSARE 雷恩萨瑞",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/rensare-lei-en-sa-rui-fang-shui-dai__0976287_pe813135_s4.jpg",
+     "href": "/cn/zh/p/rensare-lei-en-sa-rui-fang-shui-dai-40482030/"
+    }
+   ],
    "settings": null
   }
  ]

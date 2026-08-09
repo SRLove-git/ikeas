@@ -11,7 +11,7 @@
    "title": "时尚的衣物储物装置",
    "texts": [
     "利用全新的宜家 PAX 帕克思 HAMNÅS 哈姆诺斯 黑蓝色衣柜门、SANDARED 桑德利 深蓝色矮凳，以及 STOCKHOLM 斯德哥尔摩 深蓝色平织地毯，让你的卧室充满宁静、清爽之感。",
-    "<p>如果你喜爱简洁明快的线条，不妨考虑在卧室内使用连壁式衣柜，打造出适宜的储物解决方案。即使你的住宅结构有时看上去会不太合理，但你仍可以通过巧妙布置，打造出舒适的居住空间。</p>",
+    "如果你喜爱简洁明快的线条，不妨考虑在卧室内使用连壁式衣柜，打造出适宜的储物解决方案。即使你的住宅结构有时看上去会不太合理，但你仍可以通过巧妙布置，打造出舒适的居住空间。",
     "时尚的衣物储物装置",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "时尚的衣物储物装置",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/f7/9f/f79f1ce796dd3ce5e4df444d2676383c.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -39,6 +49,26 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "MALM 马尔姆",
+     "text": "¥1,379",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/malm-ma-er-mu-liu-dou-chou-ti-gui-bai-se__0484884_pe621348_s4.jpg",
+     "href": "/cn/zh/p/malm-ma-er-mu-liu-dou-chou-ti-gui-bai-se-70354644/"
+    },
+    {
+     "title": "VILTO 维尔托",
+     "text": "¥299",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vilto-wei-er-tuo-mao-jin-jia-hua-mu__0721630_pe733303_s4.jpg",
+     "href": "/cn/zh/p/vilto-wei-er-tuo-mao-jin-jia-hua-mu-80344452/"
+    },
+    {
+     "title": "ÄNGSLILJA 安斯莉娅",
+     "text": "¥199",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/aengslilja-an-si-li-ya-bei-tao-he-2-ge-zhen-tao-hui-se__1390650_pe965466_s4.jpg",
+     "href": "/cn/zh/p/aengslilja-an-si-li-ya-bei-tao-he-2-ge-zhen-tao-hui-se-10318654/"
+    }
+   ],
    "settings": null
   }
  ]

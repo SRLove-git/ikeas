@@ -11,7 +11,7 @@
    "title": "三个打造简单夏日生活的创意",
    "texts": [
     "露营车里铺着蓝色床罩，窗外是一片山景。",
-    "<p>这个夏天，模糊室内室外的界限吧。发掘灵感来自户外自由气息的全新天然材料、质朴颜色和灵活家具&hellip;&hellip;</p>",
+    "这个夏天，模糊室内室外的界限吧。发掘灵感来自户外自由气息的全新天然材料、质朴颜色和灵活家具……",
     "三个打造简单夏日生活的创意",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "三个打造简单夏日生活的创意",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/82/1b/821b803664909b2d59f30cec515ad82e.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -45,16 +55,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "特写：蓝色床罩和中性色室内风格。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/c2/ef/c2effe7e4914200b3c159226d2422d6b.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>选择更有利于环境的物品</strong></p>\n<p>GULVED 古尔维德 双面床罩风格百搭，而且益于环境。这款床罩内外均采用可持续材料制作而成，一面为100%亚麻布（采用来源可靠的亚麻纤维制成），一面为100%棉布，填料95%为回收PET填絮。</p>"
+    "选择更有利于环境的物品 GULVED 古尔维德 双面床罩风格百搭，而且益于环境。这款床罩内外均采用可持续材料制作而成，一面为100%亚麻布（采用来源可靠的亚麻纤维制成），一面为100%棉布，填料95%为回收PET填絮。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -74,16 +96,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "一张蓝色托盘桌摆在阳台木门前。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/58/d2/58d26f9a237c786b352c290cca8567f3.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>充分利用多种功能</strong></p>\n<p>FRIDAFORS 弗莱伏斯 餐桌有多种用途。它不仅是一款节省空间的边桌（桌腿采用来源可靠的橡胶木制成，可折叠放平，方便叠放），桌面还可拆下来用作托盘。在厨房准备好零食后，抓住把手拿起托盘，到户外品尝美食吧！</p>"
+    "充分利用多种功能 FRIDAFORS 弗莱伏斯 餐桌有多种用途。它不仅是一款节省空间的边桌（桌腿采用来源可靠的橡胶木制成，可折叠放平，方便叠放），桌面还可拆下来用作托盘。在厨房准备好零食后，抓住把手拿起托盘，到户外品尝美食吧！"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -104,26 +138,40 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "户外帐篷中摆有印花软垫和地毯。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/16/36/163620beabad9ddfb68406c23759da41.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>从自然资源中汲取灵感</strong></p>\n<p>质朴的 FRANSINE 弗朗辛尼 软垫采用天然羊毛、亚克力和棉花混纺而成，设计师Jennifer Idrizi深受高度重视纺织品、用天然染料印染布料的印加人启发。无论是野营探险，还是在花园里度过一个下午，都可以带上 FRANSINE 弗朗辛尼！</p>"
+    "从自然资源中汲取灵感 质朴的 FRANSINE 弗朗辛尼 软垫采用天然羊毛、亚克力和棉花混纺而成，设计师Jennifer Idrizi深受高度重视纺织品、用天然染料印染布料的印加人启发。无论是野营探险，还是在花园里度过一个下午，都可以带上 FRANSINE 弗朗辛尼！"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>在创意部分了解更多将生活移到户外的创意。</p>"
+    "在创意部分了解更多将生活移到户外的创意。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

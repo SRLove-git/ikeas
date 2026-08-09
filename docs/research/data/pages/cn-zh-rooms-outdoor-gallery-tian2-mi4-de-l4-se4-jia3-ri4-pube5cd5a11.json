@@ -11,7 +11,7 @@
    "title": "甜蜜的绿色假日",
    "texts": [
     "使用宜家 ÄPPLARÖ 阿普莱诺 深色木制户外家具椅、伸缩型餐桌和储物单元，搭配宜家植物，打造现代风格绿洲。",
-    "<p>大量人口移居到城市，随之而来的是越来越多的耸入云霄的高楼大厦。别让当前的景象影响你的心情。让植物和木制品围绕在身边，打造一片专属于你的户外绿色空间。</p>",
+    "大量人口移居到城市，随之而来的是越来越多的耸入云霄的高楼大厦。别让当前的景象影响你的心情。让植物和木制品围绕在身边，打造一片专属于你的户外绿色空间。",
     "甜蜜的绿色假日",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "甜蜜的绿色假日",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/3f/5b/3f5b8181c8e4efbc921cbe2f2adeea80.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -39,6 +49,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "RUNNEN 鲁恩",
+     "text": "¥399",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/runnen-lu-en-di-ban-shi-mian-hu-wai-ren-zao-cao__0547200_pe656497_s4.jpg",
+     "href": "/cn/zh/p/runnen-lu-en-di-ban-shi-mian-hu-wai-ren-zao-cao-30313132/"
+    },
+    {
+     "title": "RUNNEN 鲁恩",
+     "text": "¥179",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/runnen-lu-en-di-ban-shi-mian-hu-wai-zhao-he-se-qi__0709178_pe726855_s4.jpg",
+     "href": "/cn/zh/p/runnen-lu-en-di-ban-shi-mian-hu-wai-zhao-he-se-qi-30234229/"
+    }
+   ],
    "settings": null
   }
  ]

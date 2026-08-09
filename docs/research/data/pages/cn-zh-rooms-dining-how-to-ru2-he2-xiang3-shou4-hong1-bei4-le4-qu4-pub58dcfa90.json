@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -21,7 +23,7 @@
    "title": null,
    "texts": [
     "https://v.youku.com/v_show/id_XNDk4MDY1MjczNg==.html",
-    "<p>和孩子一起在厨房制作美食，可以很好地拉近亲子关系。尤其是在节日假期，一起搅拌食材，烘焙美味小吃给家人享用，节日气氛更加浓厚！&nbsp;这里有一些简单的小建议，可以帮助你和家人聚在一起，下厨烹饪可口美食，即使在最寒冷的冬日，也能感受到甜甜的暖意。&nbsp;</p>",
+    "和孩子一起在厨房制作美食，可以很好地拉近亲子关系。尤其是在节日假期，一起搅拌食材，烘焙美味小吃给家人享用，节日气氛更加浓厚！ 这里有一些简单的小建议，可以帮助你和家人聚在一起，下厨烹饪可口美食，即使在最寒冷的冬日，也能感受到甜甜的暖意。",
     "MANUAL_INPUT"
    ],
    "images": [],
@@ -31,6 +33,8 @@
      "text": "\n<p>和孩子一起在厨房制作美食，可以很好地拉近亲子关系。尤其是在节日假期，一起搅拌食材，烘焙美味小吃给家人享用，节日气氛更加浓厚！&nbsp;这里有一些简单的小建议，可以帮助你和家人聚在一起，下厨烹饪可口美食，即使在最寒冷的冬日，也能感受"
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -57,6 +61,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个女孩正用IDEALISK 艾迪利斯 面粉筛在一个翻糖姜味饼屋上撒上糖粉，看上去像下雪了一般。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/5cd1e0166e70cdeb/original/PH174140-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -83,6 +97,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "在一间铺有木地板的传统厨房里，一双撒满面粉的小脚站在一张BEKVÄM 贝卡姆 踏脚凳上。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/37cf9ffb34e3dd0d/original/PH174184-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -104,6 +128,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "桌子上有一块擀开的VINTERSAGA 姜饼面团，用VINTER 2020 温特 2020 糕点切刀切出了不同的动物形状。 ",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/ade1d4b2d89428a/original/PH174185-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -148,6 +182,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "营造欢乐洋溢的节日气氛",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/93/2a/932afd3075b31e183e8cfe40d9c80a89.jpg",
+     "href": "/cn/zh/rooms/living-room/how-to/ru2-he2-ying2-zao4-huan1-le4-yang2-yi4-de-jie2-ri4-qi4-fen1-pub95711080",
+     "backgroundColor": "#b6aca0"
+    },
+    {
+     "title": "在节日招待亲朋好友的创意",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/80/12/80126ca243de3838a6bfaeb3f07e5540.jpg",
+     "href": "/cn/zh/rooms/living-room/how-to/ru2-he2-zai4-jie2-ri4-zhao1-dai4-qin1-peng2-hao3-you3-pubb011a1c0",
+     "backgroundColor": "#82071b"
+    },
+    {
+     "title": "在整个冬季营造节日气息的一些创意。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ce/30/ce30ed73107ad498cc17d192613ecd1c.jpg",
+     "href": "/cn/zh/rooms/living-room/how-to/ru2-he2-rang4-zheng3-ge4-dong1-ji4-dou1-xi3-qi4-yang2-yang2-pubc9854990",
+     "backgroundColor": "#5c5962"
+    }
+   ],
+   "productIds": [],
    "settings": null
   }
  ]

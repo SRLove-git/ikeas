@@ -11,7 +11,7 @@
    "title": "让礼物更加漂亮",
    "texts": [
     "宜家 ÖVERFLÖD 约维福吕德 礼品包装有黑色、白色和浅蓝色款可选，可让你的礼物更加漂亮。礼品包装印有图案，可以相互搭配组合。本系列还包括礼品袋、包装丝带和胶带。",
-    "<p>用 &Ouml;VERFL&Ouml;D 约维福吕德 纸品商店新品为礼物增色吧。本系列产品以黑色、白色和浅蓝色为底色，同时增加一点点俏皮的橙色。本系列包括礼品包装、礼品袋、包装丝带和胶带。</p>",
+    "用 öVERFLöD 约维福吕德 纸品商店新品为礼物增色吧。本系列产品以黑色、白色和浅蓝色为底色，同时增加一点点俏皮的橙色。本系列包括礼品包装、礼品袋、包装丝带和胶带。",
     "让礼物更加漂亮",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "让礼物更加漂亮",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/da/da/dadaed90348c9d352f24b0e6daac3b87.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,16 +54,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "宜家 ÖVERFLÖD 约维福吕德 包装带一套4卷，有黑色、白色、浅蓝色和橙色，能让你尽情发挥创意。包装礼物时可让你的礼物更加漂亮，或格外醒目。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e4/c8/e4c8e638171e514983062c25a79ee1bf.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>ÖVERFLÖD 约维福吕德 包装带 4件套提供不同颜色和宽度选择，让你在包装礼物时尽情发挥创意。</p>"
+    "ÖVERFLÖD 约维福吕德 包装带 4件套提供不同颜色和宽度选择，让你在包装礼物时尽情发挥创意。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -73,6 +95,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "宜家 ÖVERFLÖD 约维福吕德 包装带一套4卷，有黑色、白色、浅蓝色和橙色，能让你尽情发挥创意。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/53/46/5346a81756eaa7fc454e51b9fd01a9f3.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -88,6 +120,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

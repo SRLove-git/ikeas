@@ -8,10 +8,10 @@
  "blocks": [
   {
    "type": "pub-hero",
-   "title": "洞洞板，为你打造有序空间 ",
+   "title": "洞洞板，为你打造有序空间",
    "texts": [
     "家庭工作室内放有几个白色洞洞板，还有白色漆钢配件，如搁板、储物盒、夹子、挂钩、纸卷架、书信架等。",
-    "<p>无论作为工作场所收纳工具，还是浴室用品的储物架，SK&Aring;DIS 斯考迪斯 洞洞板均可轻松驾驭，只有想不到，没有办不到。</p>",
+    "无论作为工作场所收纳工具，还是浴室用品的储物架，SKåDIS 斯考迪斯 洞洞板均可轻松驾驭，只有想不到，没有办不到。",
     "洞洞板，为你打造有序空间",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "洞洞板，为你打造有序空间 ",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b3/8c/b38cf16bbff29bd983d21ed8f922c2c9.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -43,16 +53,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "浴室墙壁上设有一个白色洞洞板，还有白色漆钢配件，如搁板、储物盒、夹子、挂钩等。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/78/2f/782f0bf56100a0a0881b87322710841b.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>SKÅDIS 斯考迪斯 白色洞洞板采用纤维板制成，独有的洞孔样式已获得专利，可用于装配各类收纳配件。</p>"
+    "SKÅDIS 斯考迪斯 白色洞洞板采用纤维板制成，独有的洞孔样式已获得专利，可用于装配各类收纳配件。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -72,16 +94,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "特写：白色洞洞板带有纸卷架，上面放着不同颜色的胶带和一卷绿色缝纫线。下方是书信架，上面放着一本旧书和一朵粉色人造花。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/7c/3f/7c3f9cbc7d6f0086d56cfaafebcf8e22.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>SKÅDIS 斯考迪斯 纸卷架可收纳成卷胶带或绳线，打造井然有序的家居环境。</p>"
+    "SKÅDIS 斯考迪斯 纸卷架可收纳成卷胶带或绳线，打造井然有序的家居环境。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -97,6 +131,68 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "SKÅDIS 斯考迪斯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/skadis-si-kao-di-si-dong-dong-ban-bai-se__0710685_pe727711_s4.jpg",
+     "href": "/cn/zh/p/skadis-si-kao-di-si-dong-dong-ban-bai-se-80320804/"
+    },
+    {
+     "title": "SKÅDIS 斯考迪斯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/skadis-si-kao-di-si-dong-dong-ban-bai-se__0710682_pe727708_s4.jpg",
+     "href": "/cn/zh/p/skadis-si-kao-di-si-dong-dong-ban-bai-se-30320806/"
+    },
+    {
+     "title": "SKÅDIS 斯考迪斯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/skadis-si-kao-di-si-dong-dong-ban-bai-se__0710683_pe727709_s4.jpg",
+     "href": "/cn/zh/p/skadis-si-kao-di-si-dong-dong-ban-bai-se-90321619/"
+    },
+    {
+     "title": "SKÅDIS 斯考迪斯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/skadis-si-kao-di-si-lian-jie-pei-jian-bai-se__0710836_pe727770_s4.jpg",
+     "href": "/cn/zh/p/skadis-si-kao-di-si-lian-jie-pei-jian-bai-se-10320794/"
+    },
+    {
+     "title": "SKÅDIS 斯考迪斯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/skadis-si-kao-di-si-jia-zi-bai-se__0710524_pe727602_s4.jpg",
+     "href": "/cn/zh/p/skadis-si-kao-di-si-jia-zi-bai-se-70321615/"
+    },
+    {
+     "title": "SKÅDIS 斯考迪斯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/skadis-si-kao-di-si-gua-gou-bai-se__0710506_pe727601_s4.jpg",
+     "href": "/cn/zh/p/skadis-si-kao-di-si-gua-gou-bai-se-30321617/"
+    },
+    {
+     "title": "SKÅDIS 斯考迪斯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/skadis-si-kao-di-si-gua-gou-bai-se__0710511_pe727606_s4.jpg",
+     "href": "/cn/zh/p/skadis-si-kao-di-si-gua-gou-bai-se-30335619/"
+    },
+    {
+     "title": "SKÅDIS 斯考迪斯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/skadis-si-kao-di-si-sheng-ju-bai-se__0711420_pe728236_s4.jpg",
+     "href": "/cn/zh/p/skadis-si-kao-di-si-sheng-ju-bai-se-40320797/"
+    },
+    {
+     "title": "SKÅDIS 斯考迪斯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/skadis-si-kao-di-si-ge-ban-bai-se__0710680_pe727707_s4.jpg",
+     "href": "/cn/zh/p/skadis-si-kao-di-si-ge-ban-bai-se-60320800/"
+    },
+    {
+     "title": "SKÅDIS 斯考迪斯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/skadis-si-kao-di-si-fu-gai-rong-qi-bai-se__0711385_pe728176_s4.jpg",
+     "href": "/cn/zh/p/skadis-si-kao-di-si-fu-gai-rong-qi-bai-se-40335911/"
+    }
+   ],
    "settings": null
   }
  ]

@@ -14,16 +14,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>&nbsp; &nbsp; &nbsp; 尺寸可根据需要轻松调节，十分适合小空间。无论是和很多人一起用餐，还是独自用餐，你都可以充分利用餐厅空间。NORDVIKEN 诺德维肯 餐桌可伸展，NORDVIKEN 诺德维肯 椅子十分舒适，适合久坐。</p>"
+    "尺寸可根据需要轻松调节，十分适合小空间。无论是和很多人一起用餐，还是独自用餐，你都可以充分利用餐厅空间。NORDVIKEN 诺德维肯 餐桌可伸展，NORDVIKEN 诺德维肯 椅子十分舒适，适合久坐。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -31,7 +35,7 @@
    "title": null,
    "texts": [
     "pub-column",
-    "<p><strong>可坐2-4人</strong></p>",
+    "可坐2-4人",
     "pub-text",
     "pub-image",
     "IMAGE",
@@ -56,16 +60,62 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/74/cc/74cc5048a7cf03b0459ad54acdc5f9e7.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/9a/29/9a29bfce82f92748ec773982ed3a9474.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e5/bf/e5bf60af072ae963496176b4d7d06344.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "可坐2-4人",
+     "text": "这款餐桌非常适合放在小厨房或大房间内。这款木桌饰有优美的纹理图案，可与任意室内设计搭配。可轻松伸展，迅速打造供2-4人使用的空间。",
+     "image": "https://file.app.ikea.cn/images/74/cc/74cc5048a7cf03b0459ad54acdc5f9e7.jpg",
+     "href": null
+    },
+    {
+     "heading": "可坐4-6人",
+     "text": "这款宽敞的木质餐桌带有一丝传统气息，方便打造你与家人朋友们理想的共处之地。结实的设计和顺滑的加长装置使其成为经久不衰的热门产品。",
+     "image": "https://file.app.ikea.cn/images/9a/29/9a29bfce82f92748ec773982ed3a9474.jpg",
+     "href": null
+    },
+    {
+     "heading": "可坐6-8人",
+     "text": "这款结实的木质餐桌造型传统，适合各种风格的家居装饰，从现代风到乡村风不一而足。可以为你的用餐空间增添一丝自然气息，能够衬托出木纹之美。",
+     "image": "https://file.app.ikea.cn/images/e5/bf/e5bf60af072ae963496176b4d7d06344.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>餐桌和餐椅组合</strong></h2>"
+    "餐桌和餐椅组合"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -74,6 +124,8 @@
    "texts": [],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -89,6 +141,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -104,6 +158,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -118,6 +174,26 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "NORDVIKEN 诺德维肯",
+     "text": "¥999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/nordviken-nuo-de-wei-ken-zhe-die-zhuo-hei-se__0714209_pe729967_s4.jpg",
+     "href": "/cn/zh/p/nordviken-nuo-de-wei-ken-zhe-die-zhuo-hei-se-40369604/"
+    },
+    {
+     "title": "NORDVIKEN 诺德维肯",
+     "text": "¥2,799",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/nordviken-nuo-de-wei-ken-shen-suo-xing-can-zhuo-hei-se__0714215_pe729969_s4.jpg",
+     "href": "/cn/zh/p/nordviken-nuo-de-wei-ken-shen-suo-xing-can-zhuo-hei-se-90369606/"
+    },
+    {
+     "title": "NORDVIKEN 诺德维肯",
+     "text": "¥399",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/nordviken-nuo-de-wei-ken-yi-zi-hei-se__0714202_pe729964_s4.jpg",
+     "href": "/cn/zh/p/nordviken-nuo-de-wei-ken-yi-zi-hei-se-70369546/"
+    }
+   ],
    "settings": null
   },
   {
@@ -133,16 +209,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><span>即使只有一人，也可在客人抵达前顺利快速地将桌子伸展打开。</span></p>"
+    "即使只有一人，也可在客人抵达前顺利快速地将桌子伸展打开。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -161,6 +241,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/99/2e/992e1d0d1a6dec451567ec77ec1cb7c8.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -188,6 +278,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ff/99/ff9951dcbdf29152d4f48d9b2f614834.gif",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/4c/69/4c695ee910906606e0d9b2bd818499e4.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/ff/99/ff9951dcbdf29152d4f48d9b2f614834.gif",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/4c/69/4c695ee910906606e0d9b2bd818499e4.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -198,6 +319,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -228,6 +351,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/44/e8/44e80704ca4d593e50870fbef9f64072.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/6b/ce/6bce19777802a4d959cffa93bb6abc6d.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/99/43/99433ef055299be5ccbf3020e9e740dd.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/44/e8/44e80704ca4d593e50870fbef9f64072.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/6b/ce/6bce19777802a4d959cffa93bb6abc6d.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/99/43/99433ef055299be5ccbf3020e9e740dd.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -258,6 +425,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/51/0b/510bea618ec2bb50fb3563bf2713fcaf.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/65/8e/658edaa4ef6c04ba168dd2c105de6cfe.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/02/02/020295fec8017d0dfd04270d2005fd59.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/51/0b/510bea618ec2bb50fb3563bf2713fcaf.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/65/8e/658edaa4ef6c04ba168dd2c105de6cfe.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/02/02/020295fec8017d0dfd04270d2005fd59.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -278,6 +489,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

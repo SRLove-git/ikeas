@@ -11,7 +11,7 @@
    "title": "向后靠，放松一下",
    "texts": [
     "在一间带大窗户的房间里，摆放着一张深红色的GISTAD 基斯塔 躺椅，座椅上放着一个黄色靠垫。",
-    "<p>想要坐下来好好放松一番，或者小憩片刻，那就选择我们产品系列中造型简单大方的 GISTAD 基斯塔 躺椅。这款躺椅设计巧妙，采用平板包装，可轻松带回家，组装过程无需使用任何工具。</p>",
+    "想要坐下来好好放松一番，或者小憩片刻，那就选择我们产品系列中造型简单大方的 GISTAD 基斯塔 躺椅。这款躺椅设计巧妙，采用平板包装，可轻松带回家，组装过程无需使用任何工具。",
     "向后靠，放松一下",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "向后靠，放松一下",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/3d/dd/3dddc83cbefad63f6021b51fcc273166.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -50,6 +60,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "在房间中间，摆放着一张靠背倾斜着的深红色GISTAD 基斯塔 躺椅。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/46e3818174bc022/original/PH168535-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   }
  ]

@@ -12,31 +12,39 @@ import { RankingSection } from "@/components/RankingSection";
 import { ServiceColumns } from "@/components/ServiceColumns";
 import { ServicesSection } from "@/components/ServicesSection";
 import { VisualPillSlider } from "@/components/VisualPillSlider";
-import {
-  assurances,
-  feedProducts,
-  footerFeaturedCards,
-  footerLinkGroups,
-  heroSlides,
-  inspirationTipsItems,
-  legalBar,
-  navMenuItems,
-  noticeMessages,
-  promoCardItems,
-  rankingSections,
-  recallNotices,
-  roomPillCta,
-  roomPillItems,
-  searchHints,
-  serviceColumns,
-  socialIcons,
-  sustainabilityPillCta,
-  sustainabilityPillItems,
-} from "@/data/homepage";
-
-const inspirationTabs = Object.keys(feedProducts);
+import { homepage } from "@/data/homepage";
+import { getMenuPanels } from "@/data/menu-panels";
+import { getMenuCategories } from "@/data/categories";
+import { allProducts } from "@/data/products-index";
 
 export default function Home() {
+  const {
+    assurances,
+    feedProducts,
+    footerFeaturedCards,
+    footerLinkGroups,
+    heroSlides,
+    inspirationTipsItems,
+    legalBar,
+    navMenuItems,
+    noticeMessages,
+    promoCardItems,
+    rankingSections,
+    recallNotices,
+    roomPillCta,
+    roomPillItems,
+    searchHints,
+    serviceColumns,
+    socialIcons,
+    sustainabilityPillCta,
+    sustainabilityPillItems,
+  } = homepage();
+  const inspirationTabs = Object.keys(feedProducts);
+  const sampleItems = allProducts().slice(0, 3).map((product, index) => ({
+    product,
+    qty: index + 1,
+  }));
+
   return (
     <main className="text-left">
       <div className="font-ikea">
@@ -45,6 +53,8 @@ export default function Home() {
           <Header
             menuItems={navMenuItems}
             searchHints={searchHints}
+            menuPanels={getMenuPanels()}
+            categories={getMenuCategories()}
           />
           <div className="i-layout__body">
             <HeroCarousel slides={heroSlides} />
@@ -82,7 +92,7 @@ export default function Home() {
             legal={legalBar}
           />
           <FloatingWidgets />
-          <CartDrawer />
+          <CartDrawer sampleItems={sampleItems} />
         </div>
       </div>
     </main>

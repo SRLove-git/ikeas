@@ -10,7 +10,7 @@
    "type": "pub-hero",
    "title": "影片与广告",
    "texts": [
-    "<p><strong>点击播放，欣赏全球精选影片，内容有趣丰富，精彩纷呈。</strong></p>",
+    "点击播放，欣赏全球精选影片，内容有趣丰富，精彩纷呈。",
     "影片与广告",
     "normal"
    ],
@@ -23,6 +23,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "影片与广告",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/81/ed/81eda739c814734618a9f73539e6a8b0.png",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -33,6 +43,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -40,7 +52,7 @@
    "title": null,
    "texts": [
     "https://v.youku.com/v_show/id_XMzE4NzU2MjMxMg==.html?spm=a2hww.20027244.m_250036.5~5!2~5~5!2~5~5~A",
-    "<p>宜家瑞典 - <strong>一周一变</strong></p>",
+    "宜家瑞典 - 一周一变",
     "MANUAL_INPUT"
    ],
    "images": [],
@@ -50,6 +62,8 @@
      "text": "\n<p>宜家瑞典 - <strong>一周一变</strong></p>\n"
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -57,7 +71,7 @@
    "title": null,
    "texts": [
     "https://v.youku.com/v_show/id_XMzE4NzU2NDAyMA==.html?spm=a2hww.20027244.m_250036.5~5!2~5~5!2~5~5~A",
-    "<p>宜家新加坡 - <strong>宜家《家居指南》人物篇</strong></p>",
+    "宜家新加坡 - 宜家《家居指南》人物篇",
     "MANUAL_INPUT"
    ],
    "images": [],
@@ -67,6 +81,8 @@
      "text": "\n<p>宜家新加坡 - <strong>宜家《家居指南》人物篇</strong></p>\n"
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -74,7 +90,7 @@
    "title": null,
    "texts": [
     "https://v.youku.com/v_show/id_XMjgzNjI2NjI2OA==.html?spm=a2hww.20027244.m_250036.5~5!2~5~5!2~5~5~A",
-    "<p>宜家全球 -<strong> 每一天&mdash;&mdash;这是我们的工作</strong></p>",
+    "宜家全球 - 每一天——这是我们的工作",
     "MANUAL_INPUT"
    ],
    "images": [],
@@ -84,6 +100,8 @@
      "text": "\n<p>宜家全球 -<strong> 每一天&mdash;&mdash;这是我们的工作</strong></p>\n"
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -91,7 +109,7 @@
    "title": null,
    "texts": [
     "https://v.youku.com/v_show/id_XMzE4NzU2NTMyOA==.html?spm=a2hww.20027244.m_250036.5~5!2~5~5!2~5~5~A",
-    "<p>宜家全球 -<strong> 给客厅注入活力</strong></p>",
+    "宜家全球 - 给客厅注入活力",
     "MANUAL_INPUT"
    ],
    "images": [],
@@ -101,6 +119,8 @@
      "text": "\n<p>宜家全球 -<strong> 给客厅注入活力</strong></p>\n"
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -108,7 +128,7 @@
    "title": null,
    "texts": [
     "https://v.youku.com/v_show/id_XMTkxMjMyNDM4OA==.html?spm=a2hww.20027244.m_250036.5~5!2~5~5!2~5~5~A",
-    "<p>IKEA GLOBAL -&nbsp;<strong>IKEA PS 2017 自在生活吧</strong></p>",
+    "IKEA GLOBAL - IKEA PS 2017 自在生活吧",
     "MANUAL_INPUT"
    ],
    "images": [],
@@ -118,6 +138,8 @@
      "text": "\n<p>IKEA GLOBAL -&nbsp;<strong>IKEA PS 2017 自在生活吧</strong></p>\n"
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -136,16 +158,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/da/65/da6521bbcf882754c7923905020ac9d5.png",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>宜家挪威 - <strong>制作&ldquo;权力的游戏&rdquo;同款披肩</strong></p>"
+    "宜家挪威 - 制作“权力的游戏”同款披肩"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -153,7 +187,7 @@
    "title": null,
    "texts": [
     "https://v.youku.com/v_show/id_XMzE4NzU2NjUxMg==.html?spm=a2hww.20027244.m_250036.5~5!2~5~5!2~5~5~A",
-    "<p>宜家英国和宜家爱尔兰 -<strong> 赢在睡眠</strong></p>",
+    "宜家英国和宜家爱尔兰 - 赢在睡眠",
     "MANUAL_INPUT"
    ],
    "images": [],
@@ -163,6 +197,8 @@
      "text": "\n<p>宜家英国和宜家爱尔兰 -<strong> 赢在睡眠</strong></p>\n"
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -170,7 +206,7 @@
    "title": null,
    "texts": [
     "https://v.youku.com/v_show/id_XMzE4NzU2NzU2OA==.html?spm=a2hww.20027244.m_250036.5~5!2~5~5!2~5~5~A",
-    "<p>宜家瑞典 - <strong>回家</strong></p>",
+    "宜家瑞典 - 回家",
     "MANUAL_INPUT"
    ],
    "images": [],
@@ -180,6 +216,8 @@
      "text": "\n<p>宜家瑞典 - <strong>回家</strong></p>\n"
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -187,7 +225,7 @@
    "title": null,
    "texts": [
     "https://v.youku.com/v_show/id_XMzE4NzU2ODQ2NA==.html?spm=a2hww.20027244.m_250036.5~5!2~5~5!2~5~5~A",
-    "<p>宜家瑞典 -<strong> 给家更多可能</strong></p>",
+    "宜家瑞典 - 给家更多可能",
     "MANUAL_INPUT"
    ],
    "images": [],
@@ -197,6 +235,8 @@
      "text": "\n<p>宜家瑞典 -<strong> 给家更多可能</strong></p>\n"
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -207,16 +247,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h4><strong>阅读更多2017年宜家集锦内容</strong></h4>"
+    "阅读更多2017年宜家集锦内容"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -249,6 +293,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "实用有益的优秀设计",
+     "text": "IKEA Foundation资助建造的“Better Shelter”难民之家是一个采用了平板包装设计理念的临时紧急庇护所，荣获了伦敦颇具声望的“设计博物馆”颁发的“Beazley年度设计大奖”。",
+     "image": "https://file.app.ikea.cn/images/1a/2f/1a2f108a44b8f56a04228a217ed2afbd.jpg",
+     "href": "/cn/zh/this-is-ikea/newsroom/better-shelter-pub29fdbc29",
+     "backgroundColor": null
+    },
+    {
+     "title": "关键不在于名气， 而在于学习。",
+     "text": "宜家打开了设计界的大门，开始与新锐设计师以及颇有建树的知名设计师携手合作。",
+     "image": "https://file.app.ikea.cn/images/ec/c8/ecc8b55a27201c5a0bdbc0e75aa57c02.jpg",
+     "href": "/cn/zh/this-is-ikea/newsroom/design-pub8d42fb05",
+     "backgroundColor": null
+    },
+    {
+     "title": "即将发生重大事件",
+     "text": "宜家的愿景是“为大众创造更加美好的日常生活”。现在，宜家致力于让更多的人用上自己的产品，没错，更多更多的人。\n",
+     "image": "https://file.app.ikea.cn/images/4a/98/4a9856053524fc4852cbf6590c689809.jpg",
+     "href": "/cn/zh/this-is-ikea/newsroom/india-pub37d03c67",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -269,6 +337,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

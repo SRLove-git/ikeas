@@ -11,7 +11,7 @@
    "title": "照亮四周",
    "texts": [
     "宜家 HEKTAR 赫克塔 3灯头落地灯 替换文字：特写：白色可调节灯罩。",
-    "<p>工业化设计风格的 HEKTAR 赫克塔 落地灯带有3个独立灯头，可朝向任意方向，照亮你的家。</p>",
+    "工业化设计风格的 HEKTAR 赫克塔 落地灯带有3个独立灯头，可朝向任意方向，照亮你的家。",
     "照亮四周",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "照亮四周",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/35/dc/35dcfd9c56f0df6b458d0ac753911a17.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -43,16 +53,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "宜家 HEKTAR 赫克塔 3灯头落地灯 替换文字：一盏白色落地灯，3个灯头指向不同方向。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a6/ba/a6ba046bcd1af2789a1b83d79fc6cfba.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>可将 HEKTAR 赫克塔 落地灯的一个灯头用作阅读照明，一个指向天花板用作上照灯，或者指向房间特定位置营造氛围。</p>"
+    "可将 HEKTAR 赫克塔 落地灯的一个灯头用作阅读照明，一个指向天花板用作上照灯，或者指向房间特定位置营造氛围。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -63,6 +85,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

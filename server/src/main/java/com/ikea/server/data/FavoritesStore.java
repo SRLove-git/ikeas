@@ -23,4 +23,12 @@ public class FavoritesStore {
   public void remove(String userId, String productId) {
     idsFor(userId).remove(productId);
   }
+
+  /** All non-empty favorite lists, newest first (used by the admin panel). */
+  public java.util.List<Map.Entry<String, LinkedHashSet<String>>> allFavorites() {
+    return favorites.entrySet().stream()
+        .filter(entry -> !entry.getValue().isEmpty())
+        .sorted((a, b) -> b.getValue().size() - a.getValue().size())
+        .toList();
+  }
 }

@@ -11,7 +11,7 @@
    "title": "满足不同需求的共享办公空间",
    "texts": [
     "一个办公空间，有一些米色IDÅSEN 伊朵森 坐/站两用式办公桌、转椅和各种办公抽屉，还有一些员工正在工作。",
-    "<p>个性办公室，由此开始！宜家提供了一系列兼具传统外观与实用功能的办公家具，方便你以此为基础，打造一个彰显公司文化的办公室。巧妙储物装置、坐/站两用式办公桌和协作空间出色结合。想要什么样的办公室，由你做主。</p>",
+    "个性办公室，由此开始！宜家提供了一系列兼具传统外观与实用功能的办公家具，方便你以此为基础，打造一个彰显公司文化的办公室。巧妙储物装置、坐/站两用式办公桌和协作空间出色结合。想要什么样的办公室，由你做主。",
     "满足不同需求的共享办公空间",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "满足不同需求的共享办公空间",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/80/14/801455519bbb173d6949a8b83b4a4034.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,16 +54,57 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "The products to get the look",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/47423",
+     "backgroundColor": null
+    },
+    {
+     "title": "IDÅSEN 伊朵森",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/idasen-yi-duo-sen-shu-zhuo-he-se-mi-huang-se__0736571_pe740625_s4.jpg",
+     "href": "/cn/zh/p/idasen-yi-duo-sen-shu-zhuo-he-se-mi-huang-se-69281031/"
+    },
+    {
+     "title": "ALEFJÄLL 阿勒夫耶",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/alefjaell-a-le-fu-ye-ban-gong-yi-ge-lan-mi-huang-se__0724710_pe734592_s4.jpg",
+     "href": "/cn/zh/p/alefjaell-a-le-fu-ye-ban-gong-yi-ge-lan-mi-huang-se-60320225/"
+    },
+    {
+     "title": "TROLLBERGET 特罗贝里特",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/trollberget-te-luo-bei-li-te-yi-deng-ge-lan-mi-huang-se__0727385_pe735637_s4.jpg",
+     "href": "/cn/zh/p/trollberget-te-luo-bei-li-te-yi-deng-ge-lan-mi-huang-se-80388262/"
+    },
+    {
+     "title": "IDÅSEN 伊朵森",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/idasen-yi-duo-sen-gui-dai-bo-li-hua-men-mi-huang-se__0613638_pe686433_s4.jpg",
+     "href": "/cn/zh/p/idasen-yi-duo-sen-gui-dai-bo-li-hua-men-mi-huang-se-60360952/"
+    },
+    {
+     "title": "MOSSLANDA 莫兰达",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mosslanda-mo-lan-da-bi-shi-tu-pian-jia-hei-se__0634120_pe696314_s4.jpg",
+     "href": "/cn/zh/p/mosslanda-mo-lan-da-bi-shi-tu-pian-jia-hei-se-00297464/"
+    }
+   ],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>声明</h2>\n<p>此解决方案包含一系列家用和非家用产品。请确认所购产品可在你的空间内发挥预期用途，并符合有关标准。如需了解该系列的更多信息，请联系宜家对公业务部。</p>"
+    "声明 此解决方案包含一系列家用和非家用产品。请确认所购产品可在你的空间内发挥预期用途，并符合有关标准。如需了解该系列的更多信息，请联系宜家对公业务部。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

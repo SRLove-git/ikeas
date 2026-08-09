@@ -22,6 +22,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "餐厅",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/80/b6/80b644491a0d3de4a3173a2899ba0043.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -38,6 +48,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -70,6 +82,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "专业办公室",
+     "text": "专业办公室购物指南",
+     "image": "https://file.app.ikea.cn/images/ef/9e/ef9e038a9a6f94a17f485686bc374d8d.jpg",
+     "href": "/cn/zh/customer-service/product-support/buying-guides/home-office-buying-guides-pub9a63a9c1",
+     "backgroundColor": null
+    },
+    {
+     "title": "客厅",
+     "text": "客厅购物指南",
+     "image": "https://file.app.ikea.cn/images/91/f9/91f92016a4737322a69b730761edf121.jpg",
+     "href": "/cn/zh/customer-service/product-support/buying-guides/living-room-buying-guides-pub368f0391",
+     "backgroundColor": null
+    },
+    {
+     "title": "户外",
+     "text": "户外购物指南",
+     "image": "https://file.app.ikea.cn/images/a9/6d/a96d4948381c581db9834b2af766dfb2.jpg",
+     "href": "/cn/zh/customer-service/product-support/buying-guides/outdoor-buying-guides-pub6b1d68f1",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -90,6 +126,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "3323b242573e45f98f55645b7861356c"
    }
@@ -22,10 +24,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>我们与Ilse Crawford合作开发了一个全新的家用香氛系列，其中包括以大自然为灵感设计的清新香味烛。而且这一系列香味烛还搭配了既美观又可重复使用的陶瓷罐和玻璃罐。</p>"
+    "我们与Ilse Crawford合作开发了一个全新的家用香氛系列，其中包括以大自然为灵感设计的清新香味烛。而且这一系列香味烛还搭配了既美观又可重复使用的陶瓷罐和玻璃罐。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "7bc10df0db7f42bea63ecdd53a49dccf"
    }
@@ -49,6 +53,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220420/7beec18c54824f519f3b4a663be673b7.mp4",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "3187df56f0514c64af3704abc03824af"
    }
@@ -67,6 +81,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "284a21f1e69c4023bb11eb5c65e10c17"
    }
@@ -99,6 +115,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "粉色大理石表面上摆放着罐装的HEDERSAM 赫德尚、ADLAD 阿拉德 和ENSTAKA 恩塔卡 香味烛，烛光形成了花朵形状的阴影。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/6a4845080a004ba0/original/PH185061.jpg",
+     "href": "/cn/zh/search/products?q=新品香味蜡烛",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "bd9ee47ae1e947c8b0e63c41a205a702"
    }
@@ -119,6 +145,33 @@
     {
      "href": "/search/products?q=新品香味蜡烛",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "为你的家挑选理想的芳香",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/search/products?q=新品香味蜡烛",
+     "backgroundColor": null
+    },
+    {
+     "title": "STÖRTSKÖN 斯特焕",
+     "text": "¥49.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/stoertskoen-si-te-huan-xiang-wei-zhu-he-bo-li-bei-jiang-guo-hong-se__1060655_pe850116_s4.jpg",
+     "href": "/cn/zh/p/stoertskoen-si-te-huan-xiang-wei-zhu-he-bo-li-bei-jiang-guo-hong-se-10502143/"
+    },
+    {
+     "title": "JÄMLIK 洋黎",
+     "text": "¥49.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/jaemlik-yang-li-xiang-wei-zhu-he-bo-li-bei-xiang-cao-dan-mi-se__1060483_pe850037_s4.jpg",
+     "href": "/cn/zh/p/jaemlik-yang-li-xiang-wei-zhu-he-bo-li-bei-xiang-cao-dan-mi-se-50502155/"
+    },
+    {
+     "title": "LUGNARE 卢纳勒",
+     "text": "¥49.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lugnare-lu-na-le-xiang-wei-zhu-he-bo-li-bei-mo-li-hua-fen-hong-se__1060614_pe850081_s4.jpg",
+     "href": "/cn/zh/p/lugnare-lu-na-le-xiang-wei-zhu-he-bo-li-bei-mo-li-hua-fen-hong-se-40502151/"
     }
    ],
    "settings": {
@@ -149,6 +202,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "穿着白衬衫的设计师Ilse Crawford靠在其工作室的一张工作台上。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/8e/22/8e2231b8329a1db8fa2a3f71620cbce1.jpg",
+     "href": null,
+     "backgroundColor": "#EEDED5"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "f0942a5c3a9149b6a80a7fef6dbb739a"
    }
@@ -181,6 +244,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "粉色大理石表面上摆放着罐装的ADLAD 阿拉德 和ENSTAKA 恩塔卡 香味烛，烛光形成了花朵形状的阴影。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/dbc3db9de2c41c4/original/PH185063.jpg",
+     "href": "/cn/zh/cat/42926",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "7938a0c19fae4be38b1bee867d9427d7"
    }

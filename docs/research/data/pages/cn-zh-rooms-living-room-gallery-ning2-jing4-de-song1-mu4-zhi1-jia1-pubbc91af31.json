@@ -11,7 +11,7 @@
    "title": "宁静的松木之家",
    "texts": [
     "全新的 HEMNES 汉尼斯 家具系列包括储物柜、桌子和搁架，均以新鲜、光滑的松木制成。在客厅里感受大自然的气息。",
-    "<p>无论在户外还是室内，都可以亲近大自然。柔软的纺织品、柔和的色彩，还有茶几、储物柜等家具选用的天然材料，共同在客厅营造出宁静的氛围。这就是家的感觉。</p>",
+    "无论在户外还是室内，都可以亲近大自然。柔软的纺织品、柔和的色彩，还有茶几、储物柜等家具选用的天然材料，共同在客厅营造出宁静的氛围。这就是家的感觉。",
     "宁静的松木之家",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "宁静的松木之家",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/eb/e2/ebe21725b71f58f63aa5f08869dd5380.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -39,6 +49,38 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "HEMNES 汉尼斯",
+     "text": "¥3,499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/hemnes-han-ni-si-bo-li-men-san-ti-chu-gui-bai-se-qi-qian-he-se__0805255_pe769478_s4.jpg",
+     "href": "/cn/zh/p/hemnes-han-ni-si-bo-li-men-san-ti-chu-gui-bai-se-qi-qian-he-se-70413506/"
+    },
+    {
+     "title": "HEMNES 汉尼斯",
+     "text": "¥1,299",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/hemnes-han-ni-si-dian-shi-gui-bai-se-qi-qian-he-se__0583377_pe671187_s4.jpg",
+     "href": "/cn/zh/p/hemnes-han-ni-si-dian-shi-gui-bai-se-qi-qian-he-se-30413527/"
+    },
+    {
+     "title": "SANDARED 桑德利",
+     "text": "¥299",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/sandared-sang-de-li-ai-deng-mi-huang-se__0560902_pe662686_s4.jpg",
+     "href": "/cn/zh/p/sandared-sang-de-li-ai-deng-mi-huang-se-70385315/"
+    },
+    {
+     "title": "LOHALS 鲁哈斯",
+     "text": "¥799",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lohals-lu-ha-si-ping-zhi-di-tan-zi-ran-se__0280221_pe419173_s4.jpg",
+     "href": "/cn/zh/p/lohals-lu-ha-si-ping-zhi-di-tan-zi-ran-se-30277394/"
+    },
+    {
+     "title": "SNIDAD 斯尼达",
+     "text": "¥199",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/snidad-si-ni-da-lan-teng-tiao__0713103_pe729252_s4.jpg",
+     "href": "/cn/zh/p/snidad-si-ni-da-lan-teng-tiao-00394945/"
+    }
+   ],
    "settings": null
   }
  ]

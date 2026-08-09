@@ -11,7 +11,7 @@
    "title": "纯正的斯堪的纳维亚风格餐厅",
    "texts": [
     "利用 YPPERLIG 伊波利 白色和绿色椅子，打造属于自己的室内或户外餐厅。这款产品采用高品质塑料模具精制而成，经得起风雨考验。",
-    "<p>如果有可以利用的阳台、露台或露天平台，那么坐在餐桌前吃饭会显得有些无趣。没有户外空间？无需担心。一张桦木桌，外加其他天然材料，会令室内用餐如同户外野餐一样。</p>",
+    "如果有可以利用的阳台、露台或露天平台，那么坐在餐桌前吃饭会显得有些无趣。没有户外空间？无需担心。一张桦木桌，外加其他天然材料，会令室内用餐如同户外野餐一样。",
     "纯正的斯堪的纳维亚风格餐厅",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "纯正的斯堪的纳维亚风格餐厅",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ed/09/ed0975087a01e66f2e4c0a160c63390f.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -39,6 +49,26 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "AGAM 阿甘",
+     "text": "¥499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/agam-a-gan-er-tong-yi-bai-se__0727929_pe735943_s4.jpg",
+     "href": "/cn/zh/p/agam-a-gan-er-tong-yi-bai-se-50253537/"
+    },
+    {
+     "title": "LANDSKRONA 兰德克纳",
+     "text": "¥4,499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/landskrona-lan-de-ke-na-san-ren-sha-fa-gang-na-rui-de-shen-hui-mu-tou__1576951_pe1032842_s4.jpg",
+     "href": "/cn/zh/p/landskrona-lan-de-ke-na-san-ren-sha-fa-gang-na-rui-de-shen-hui-mu-tou-39270312/"
+    },
+    {
+     "title": "NYMÅNE 纽墨奈",
+     "text": "¥299",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/nymane-niu-mo-nai-xi-ding-deng-dai-4-ge-she-deng-bai-se__0607350_pe682899_s4.jpg",
+     "href": "/cn/zh/p/nymane-niu-mo-nai-xi-ding-deng-dai-4ge-she-deng-bai-se-50337702/"
+    }
+   ],
    "settings": null
   }
  ]

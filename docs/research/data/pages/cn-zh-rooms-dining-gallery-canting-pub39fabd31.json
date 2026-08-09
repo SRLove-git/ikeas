@@ -14,16 +14,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3><strong>&nbsp;找到符合你品味的用餐空间&nbsp;</strong></h3>\n<p>欢迎来到餐厅家具展示区，这里的餐厅组合种类繁多，风格不一，大小各异，价格也很实惠。我们已经为你搭配好产品，所以你在家也可轻松再现此处看到的布置。四处看看，找到一款餐厅家具，让你的家人充分享受在餐桌边的时光。</p>"
+    "找到符合你品味的用餐空间 欢迎来到餐厅家具展示区，这里的餐厅组合种类繁多，风格不一，大小各异，价格也很实惠。我们已经为你搭配好产品，所以你在家也可轻松再现此处看到的布置。四处看看，找到一款餐厅家具，让你的家人充分享受在餐桌边的时光。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -70,6 +74,177 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "纯正的斯堪的纳维亚风格餐厅",
+     "text": "如果你的家庭既喜欢在室内用餐，也喜欢在户外野餐，不妨看看这间面积虽小却十分灵活多变的餐厅：宜家 YPPERLIG 伊波利 椅子专为室内和户外使用设计。",
+     "image": "https://file.app.ikea.cn/images/ed/09/ed0975087a01e66f2e4c0a160c63390f.jpg",
+     "href": "/cn/zh/rooms/dining/gallery/chun2-zheng4-de-si1-kan1-de-na4-wei2-ya4-feng1-ge2-can1-ting1-pub54b69e01",
+     "backgroundColor": null
+    },
+    {
+     "title": "专为国王和王后设计的用餐解决方案",
+     "text": "让花朵在餐厅美丽绽放。探索这间摆放着黑色 INGATORP 英格托 伸缩型餐桌和 SAKARIAS 萨克利亚 玫瑰图案椅子的花卉主题餐厅。",
+     "image": "https://file.app.ikea.cn/images/7b/2d/7b2da402c1d050cc9e5c6090bbbc7e50.jpg",
+     "href": "/cn/zh/rooms/dining/gallery/zhuan1-wei4-guo2-wang2-he2-wang2-hou4-she4-ji4-de-yong4-can1-jie3-jue2-fang1-an4-pub073f2f81",
+     "backgroundColor": null
+    },
+    {
+     "title": "时光流逝，优雅依旧",
+     "text": "整日款待宾客。参观这间时尚现代的客厅，里面摆放着宜家热销的 BERNHARD 伯恩哈德 金棕色皮革椅子和 MÖRBYLÅNGA 莫比恩 棕色橡木餐桌。",
+     "image": "https://file.app.ikea.cn/images/d3/95/d395b25f5cd8d1537b232cba3d64851f.jpg",
+     "href": "/cn/zh/rooms/dining/gallery/shi2-guang1-liu2-shi4-you1-ya3-yi1-jiu4-pubda333e91",
+     "backgroundColor": null
+    },
+    {
+     "title": "来自花园的清新植物",
+     "text": "为家和餐桌增添些许自然气息。了解我们是如何利用以植物为主题的元素和材料装饰这间餐厅的。",
+     "image": "https://file.app.ikea.cn/images/65/1d/651d7138b4ed77cdc6a938ceb9fd30e4.jpg",
+     "href": "/cn/zh/rooms/living-room/gallery/lai2-zi4-hua1-yuan2-de-qing1-xin1-zhi2-wu4-pub6a7b7601",
+     "backgroundColor": null
+    },
+    {
+     "title": "在手工作品的陪伴下就餐",
+     "text": "选择采用天然纤维和材料制成的宜家 INDUSTRIELL 英德川 系列，自由混搭餐厅的各款椅子和灯罩。能够与你已有的家具实现理想搭配！",
+     "image": "https://file.app.ikea.cn/images/55/5f/555f00620f5c7519c72a92b48c01ac21.jpg",
+     "href": "/cn/zh/rooms/dining/gallery/zai4-shou3-gong1-zuo4-pin3-de-pei2-ban4-xia4-jiu4-can1-puba347ac41",
+     "backgroundColor": null
+    },
+    {
+     "title": "在极具设计感产品的陪伴下，享受晚餐",
+     "text": "在具有设计感的舒适餐厅里就餐。布置餐厅时，你可以选择功能完善的桌子、椅子和时尚的储物收纳件，它们均可与你的装潢风格实现理想搭配。",
+     "image": "https://file.app.ikea.cn/images/64/5d/645d6c4f6146a878f578264f9668b297.jpg",
+     "href": "/cn/zh/rooms/dining/gallery/zai4-ji2-ju4-she4-ji4-gan3-chan3-pin3-de-pei2-ban4-xia4-xiang3-shou4-wan3-can1-pub6367be81",
+     "backgroundColor": null
+    },
+    {
+     "title": "两人、四人和六人桌",
+     "text": "两个人在一起是陪伴，三人（或更多）就可以开派对了。无论是小空间还是开放式大空间，宜家都有相应的灵活实用的餐桌、椅子和储物产品可供选择。",
+     "image": "https://file.app.ikea.cn/images/ab/74/ab747171310ac4a6e6313fad3fb5a370.jpg",
+     "href": "/cn/zh/rooms/dining/gallery/liang3-ren2-si4-ren2-he2-liu4-ren2-zhuo1-pub43e4e151",
+     "backgroundColor": null
+    },
+    {
+     "title": "一家人",
+     "text": "在这片用餐区，一大家人可以聚在一起，还可以在桌子旁做各自的事情。学会接纳不完美！",
+     "image": "https://file.app.ikea.cn/images/ee/1f/ee1f977c2224fbaaeb8c9806c938d56c.jpg",
+     "href": "/cn/zh/rooms/dining/gallery/yi1-jia1-ren2-pube52c6ab1",
+     "backgroundColor": null
+    },
+    {
+     "title": "在小空间里喝饮料或缝东西",
+     "text": "想在小型用餐区开展各种各样的活动，可以选用一些灵活的家具，比如 NORDEN 诺顿 桦木伸缩型餐桌，以及田园风格的 KULLABERG 乐维 办公椅。",
+     "image": "https://file.app.ikea.cn/images/c1/88/c188146e67c94815417a1a7a99d056e4.jpg",
+     "href": "/cn/zh/rooms/living-room/gallery/zai4-xiao3-kong1-jian1-li3-he1-yin3-liao4-huo4-feng4-dong1-xi1-pub830353d1",
+     "backgroundColor": null
+    },
+    {
+     "title": "吃自己种植的食物",
+     "text": "在用餐区共同成长看看这家人如何在餐厅种植绿植，并教给孩子们大自然的知识。",
+     "image": "https://file.app.ikea.cn/images/12/87/12875d8504f207c51ea7934f30c298c9.jpg",
+     "href": "/cn/zh/rooms/living-room/gallery/chi1-zi4-ji3-zhong3-zhi2-de-shi2-wu4-pub07a4e131",
+     "backgroundColor": null
+    },
+    {
+     "title": "让日常生活更舒适",
+     "text": "在开放式生活空间里，米色、黑色和白色用餐区摆放着 HENRIKSDAL 亨利克 白色软垫椅和 EKEDALEN 伊克多兰 深棕色伸缩型餐桌。",
+     "image": "https://file.app.ikea.cn/images/7e/ec/7eec00776b0da9ac0314dc0eac7b88e7.jpg",
+     "href": "/cn/zh/rooms/dining/gallery/canting-pubf28a2a40",
+     "backgroundColor": null
+    },
+    {
+     "title": "用于接待客人的舒适型私密空间",
+     "text": "棕色和灰色餐厅里摆放着四把舒适的 VOLFGANG 沃夫冈 镀铬中灰色软垫椅和 MÖRBYLÅNGA 莫比恩 橡木贴面桌子。",
+     "image": "https://file.app.ikea.cn/images/42/0f/420fedb3529143789c4fc64755a1ba9d.jpg",
+     "href": "/cn/zh/rooms/dining/gallery/canting-pub391721a1",
+     "backgroundColor": null
+    },
+    {
+     "title": "聚在一起，长久相伴",
+     "text": "米色和黑色餐厅的中央，摆放着以相思木制成的 SKOGSTA 斯古塔 餐桌，周围有几把黑色椅子。",
+     "image": "https://file.app.ikea.cn/images/24/f3/24f3ed2334a5dfd8df26396f27cac7a4.jpg",
+     "href": "/cn/zh/rooms/dining/gallery/chufang-pub1ca1c4f1",
+     "backgroundColor": null
+    },
+    {
+     "title": "和谐的小型生活空间",
+     "text": "米色、绿色和白色小型厨房里摆放着 MELLTORP 麦托 白色桌子和两把 TEODORES 帝奥多斯 可叠放椅子。",
+     "image": "https://file.app.ikea.cn/images/73/c6/73c6fec666f1ad66f8d051b6b952361f.jpg",
+     "href": "/cn/zh/rooms/kitchen/gallery/chufang-pub04369a11",
+     "backgroundColor": null
+    },
+    {
+     "title": "美存在于点滴细节中",
+     "text": "美存在于点滴细节中",
+     "image": "https://file.app.ikea.cn/images/8b/19/8b19103bae48d186064cad25b8927700.jpg",
+     "href": "/cn/zh/rooms/dining/gallery/keting-pub1836e421",
+     "backgroundColor": null
+    },
+    {
+     "title": "和家人朋友一起创造新的传统",
+     "text": "和家人朋友一起创造新的传统",
+     "image": "https://file.app.ikea.cn/images/5d/82/5d82cbf1e6bd4b686c535f61c9159acf.jpg",
+     "href": "/cn/zh/rooms/dining/gallery/canting-pubee0d9631",
+     "backgroundColor": null
+    },
+    {
+     "title": "家具灵活，让聚会更轻松",
+     "text": "家具灵活，让聚会更轻松",
+     "image": "https://file.app.ikea.cn/images/f6/67/f667160258298aad9b5aada5ed0a3e68.jpg",
+     "href": "/cn/zh/rooms/living-room/gallery/linggan-pub41657e61",
+     "backgroundColor": null
+    },
+    {
+     "title": "聚在一起，尽享舒适",
+     "text": "聚在一起，尽享舒适",
+     "image": "https://file.app.ikea.cn/images/73/94/73945ed8f392c89b8bd166c6311a1a71.jpg",
+     "href": "/cn/zh/rooms/dining/gallery/canting-pub6357b210",
+     "backgroundColor": null
+    },
+    {
+     "title": "友谊开始的地方",
+     "text": "配有小桌子和两把椅子的黑白色调厨房",
+     "image": "https://file.app.ikea.cn/images/63/ca/63ca2cc6477fb8f52d4aae505b73d1d6.jpg",
+     "href": "/cn/zh/rooms/dining/gallery/chufang-pub8d4d93f1",
+     "backgroundColor": null
+    },
+    {
+     "title": "小桌子，大用途",
+     "text": "小桌子，大用途",
+     "image": "https://file.app.ikea.cn/images/ba/6b/ba6b4d2728f8fec7ece6fd7b98f34c4b.jpg",
+     "href": "/cn/zh/rooms/dining/gallery/chufang-pub9a3e8231",
+     "backgroundColor": null
+    },
+    {
+     "title": "兼具时尚与可持续理念的椅子",
+     "text": "兼具时尚与可持续理念的椅子",
+     "image": "https://file.app.ikea.cn/images/f6/e7/f6e7f107fe141394b954c573f37a6fcd.jpg",
+     "href": "/cn/zh/rooms/dining/gallery/canting-pube13c0c41",
+     "backgroundColor": null
+    },
+    {
+     "title": "每日就餐，乐在其中",
+     "text": "粉色和白色用餐区放着 EKEDALEN 伊克多兰 白色餐桌，周围摆放着 ODGER 奥德格 白色/米色椅子。",
+     "image": "https://file.app.ikea.cn/images/fc/80/fc8070b430c2ab14f7dae3132043d214.jpg",
+     "href": "/cn/zh/rooms/dining/gallery/canting-pubb6419631",
+     "backgroundColor": null
+    },
+    {
+     "title": "可伸缩桌，派对好搭档",
+     "text": "可伸缩桌，派对好搭档",
+     "image": "https://file.app.ikea.cn/images/bc/7d/bc7d3471dd96adcc9d52aceab1f5744d.jpg",
+     "href": "/cn/zh/rooms/dining/gallery/canting-pubb80d9911",
+     "backgroundColor": null
+    },
+    {
+     "title": "可根据客人数目调整的时尚空间",
+     "text": "可根据客人数目调整的时尚空间",
+     "image": "https://file.app.ikea.cn/images/d3/67/d367e701650b9c4300a98bf15f70a8a6.jpg",
+     "href": "/cn/zh/rooms/dining/gallery/canting-pub8006cc41",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -82,6 +257,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

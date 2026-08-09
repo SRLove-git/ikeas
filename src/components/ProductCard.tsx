@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { CatalogProduct } from "@/data/catalog";
-import { formatPrice } from "@/lib/catalog";
+import { formatPrice } from "@/lib/catalog-format";
 import { SiteImage } from "@/components/SiteImage";
 
 interface ProductCardProps {

@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "pagetitle"
    }
@@ -61,6 +63,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "儿童睡眠和收纳",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20211215/f80d2f1cb5114e70944bd5078042fca3.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/childrens-room/er-tong-shui-mian-he-shou-na-pub61221de8",
+     "backgroundColor": null
+    },
+    {
+     "title": "开心玩乐",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20211215/c3463db2ed094f1ea4ac12b94928771e.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/childrens-room/kai-xin-wan-le-----wan-ju-xi-lie-pub310f8b0f",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "好好学习",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20211215/97bc9f4d95044790ace68740a2f8417b.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/childrens-room/wei-bu-tong-jie-duan-hai-zi-men-she-ji-de-xue-xi-jiao-pub7e6ea468",
+     "backgroundColor": null
+    },
+    {
+     "title": "婴儿护理",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20211215/af9006d34d2d4a2e92c019d6ef004f64.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/childrens-room/wei-ying-er-de-cheng-chang-bao-jia-hu-hang-pub369a2f2f",
+     "backgroundColor": "#111111"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "visualnavigation-次级页面入口"
    }
@@ -78,6 +111,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "页面导航"
    }
@@ -85,11 +120,11 @@
   {
    "type": "pub-text",
    "title": null,
-   "texts": [
-    "<p style=\"line-height: 8px;\">&nbsp;&nbsp;</p>"
-   ],
+   "texts": [],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -122,6 +157,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20260206/3f62cbcf10cb4f9f90deec5c56c6687e.gif",
+     "href": "/cn/zh/new/let-your-home-come-out-and-play-pubc28e2323",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Curated Gallery-舒适过秋 甜甜睡一觉"
    }
@@ -139,6 +184,80 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "GREJSIMOJS 格雷希莫",
+     "text": "¥349",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/grejsimojs-ge-lei-xi-mo-dai-chu-wu-ai-deng-huang-se__1452859_pe991233_s4.jpg",
+     "href": "/cn/zh/p/grejsimojs-ge-lei-xi-mo-dai-chu-wu-ai-deng-huang-se-90603181/"
+    },
+    {
+     "title": "GREJSIMOJS 格雷希莫",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/grejsimojs-ge-lei-xi-mo-er-tong-deng-mu-tou-cheng-se__1474384_pe998042_s4.jpg",
+     "href": "/cn/zh/p/grejsimojs-ge-lei-xi-mo-er-tong-deng-mu-tou-cheng-se-10598975/"
+    },
+    {
+     "title": "GREJSIMOJS 格雷希莫",
+     "text": "¥20",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/grejsimojs-ge-lei-xi-mo-yuan-ba-shou-cheng-se-mao__1452855_pe991229_s4.jpg",
+     "href": "/cn/zh/p/grejsimojs-ge-lei-xi-mo-yuan-ba-shou-cheng-se-mao-50617401/"
+    },
+    {
+     "title": "GREJSIMOJS 格雷希莫",
+     "text": "¥20",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/grejsimojs-ge-lei-xi-mo-yuan-ba-shou-dan-hui-se-tu-zi__1452856_pe991228_s4.jpg",
+     "href": "/cn/zh/p/grejsimojs-ge-lei-xi-mo-yuan-ba-shou-dan-hui-se-tu-zi-30603184/"
+    },
+    {
+     "title": "GREJSIMOJS 格雷希莫",
+     "text": "¥20",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/grejsimojs-ge-lei-xi-mo-yuan-ba-shou-mei-hei-se-mao__1452854_pe991230_s4.jpg",
+     "href": "/cn/zh/p/grejsimojs-ge-lei-xi-mo-yuan-ba-shou-mei-hei-se-mao-70603177/"
+    },
+    {
+     "title": "GREJSIMOJS 格雷希莫",
+     "text": "¥20",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/grejsimojs-ge-lei-xi-mo-yuan-ba-shou-lu-se-xiong__1452853_pe991227_s4.jpg",
+     "href": "/cn/zh/p/grejsimojs-ge-lei-xi-mo-yuan-ba-shou-lu-se-xiong-10617417/"
+    },
+    {
+     "title": "GREJSIMOJS 格雷希莫",
+     "text": "¥249",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/grejsimojs-ge-lei-xi-mo-dian-zi-chu-wu-he-ke-zhe-die-mi-huang-se__1430968_pe982197_s4.jpg",
+     "href": "/cn/zh/p/grejsimojs-ge-lei-xi-mo-dian-zi-chu-wu-he-ke-zhe-die-mi-huang-se-90602006/"
+    },
+    {
+     "title": "GREJSIMOJS 格雷希莫",
+     "text": "¥349",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/grejsimojs-ge-lei-xi-mo-yi-mao-jia__1458272_pe992984_s4.jpg",
+     "href": "/cn/zh/p/grejsimojs-ge-lei-xi-mo-yi-mao-jia-40611503/"
+    },
+    {
+     "title": "GREJSIMOJS 格雷希莫",
+     "text": "¥29.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/grejsimojs-ge-lei-xi-mo-fu-gai-chu-wu-jian-mao-zao-xing-cheng-se-bai-se__1452862_pe991237_s4.jpg",
+     "href": "/cn/zh/p/grejsimojs-ge-lei-xi-mo-fu-gai-chu-wu-jian-mao-zao-xing-cheng-se-bai-se-90603647/"
+    },
+    {
+     "title": "GREJSIMOJS 格雷希莫",
+     "text": "¥29.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/grejsimojs-ge-lei-xi-mo-fu-gai-chu-wu-jian-mao-zao-xing-hei-se-bai-se__1452863_pe991236_s4.jpg",
+     "href": "/cn/zh/p/grejsimojs-ge-lei-xi-mo-fu-gai-chu-wu-jian-mao-zao-xing-hei-se-bai-se-30603179/"
+    },
+    {
+     "title": "GREJSIMOJS 格雷希莫",
+     "text": "¥199",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/grejsimojs-ge-lei-xi-mo-tan-zi-tu-an-duo-se__1450793_pe990419_s4.jpg",
+     "href": "/cn/zh/p/grejsimojs-ge-lei-xi-mo-tan-zi-tu-an-duo-se-80628827/"
+    },
+    {
+     "title": "GREJSIMOJS 格雷希莫",
+     "text": "¥149",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/grejsimojs-ge-lei-xi-mo-bei-tao-he-zhen-tao-duo-se__1450802_pe990426_s4.jpg",
+     "href": "/cn/zh/p/grejsimojs-ge-lei-xi-mo-bei-tao-he-zhen-tao-duo-se-60628828/"
+    }
+   ],
    "settings": {
     "traceId": "cms-商品列表 Pruduct list/shelf-假日宅家玩乐好物"
    }
@@ -146,11 +265,11 @@
   {
    "type": "pub-text",
    "title": null,
-   "texts": [
-    "<p style=\"line-height: 8px;\">&nbsp;&nbsp;</p>"
-   ],
+   "texts": [],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -179,6 +298,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "探索儿童房灵感图库",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250422/0eb6b0830d4f41fcb5cb3f9b404f0101.webp",
+     "href": "/cn/zh/rooms/childrens-room/gallery/",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-图片文字框组合 Image with Text Box-"
    }
@@ -186,11 +315,11 @@
   {
    "type": "pub-text",
    "title": null,
-   "texts": [
-    "<p>&nbsp; &nbsp;</p>"
-   ],
+   "texts": [],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -239,6 +368,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20240830/af3981c559584f18a9e5f5f3b58ab62c.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/50266506?artType=art",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20240830/5e4c3ff5ec104420b9fa68411f716be5.gif",
+     "href": "/cn/zh/p/39124617?artType=SPR",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20240830/4f1ee73e4f4f4b568a91331850754abc.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/49555036?artType=spr",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20240830/4a3410da0b0b444e85402da7bfb26a4c.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/49226677?artType=spr",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20240830/0a35435025c64e119c5cf8f4f8733703.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/inspiration/detail/02a48390-1e22-4c2c-b2e3-dc2cc97e265e?type=IMAGE",
+     "backgroundColor": "#111111"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "curatedgallery-让孩子尽情玩耍的房间"
    }
@@ -256,6 +423,32 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "MINNEN 米隆",
+     "text": "¥699",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/minnen-mi-long-jia-chang-chuang-kuang-jia-dai-chuang-ban-bai-se__0636271_pe697771_s4.jpg",
+     "href": "/cn/zh/p/minnen-mi-long-jia-chang-chuang-kuang-jia-dai-chuang-ban-bai-se-39124617/"
+    },
+    {
+     "title": "LATTJO 拉特奥",
+     "text": "¥149",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lattjo-la-te-ao-bei-tao-he-zhen-tao-dong-wu-duo-se__0650745_pe706474_s4.jpg",
+     "href": "/cn/zh/p/lattjo-la-te-ao-bei-tao-he-zhen-tao-dong-wu-duo-se-40351010/"
+    },
+    {
+     "title": "BERGFINK 贝里芬克",
+     "text": "¥249",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/bergfink-bei-li-fen-ke-chuang-shang-yong-pin-3-jian-tao-han-shou-na-dai-yun__1042256_pe841323_s4.jpg",
+     "href": "/cn/zh/p/bergfink-bei-li-fen-ke-chuang-shang-yong-pin-3-jian-tao-han-shou-na-dai-yun-40525341/"
+    },
+    {
+     "title": "BLÅVINGAD 布洛凡格",
+     "text": "¥149",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/blavingad-bu-luo-fan-ge-bei-tao-he-zhen-tao-qi-e-tu-an-qian-qing-lu-se__1087547_pe860777_s4.jpg",
+     "href": "/cn/zh/p/blavingad-bu-luo-fan-ge-bei-tao-he-zhen-tao-qi-e-tu-an-qian-qing-lu-se-30521089/"
+    }
+   ],
    "settings": {
     "traceId": "cms-Product Shelf-"
    }
@@ -269,7 +462,7 @@
     "portrait",
     "hosted",
     "image-text-portrait",
-    "<p><span style=\"color: #31333f; background-color: #ffffff;\">利乐宝玩具火车设计精巧，适合3岁以上儿童。它包含一个多彩的火车头和几节独特图案和颜色的货车。火车头和车厢通过磁性连接，方便幼儿拼装和拆卸，激发他们的创造力和操作能力。</span></p>"
+    "利乐宝玩具火车设计精巧，适合3岁以上儿童。它包含一个多彩的火车头和几节独特图案和颜色的货车。火车头和车厢通过磁性连接，方便幼儿拼装和拆卸，激发他们的创造力和操作能力。"
    ],
    "images": [],
    "links": [
@@ -286,6 +479,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20240830/6f4fd004cf8e4e9db1c40d74a0694364.mp4",
+     "href": null,
+     "backgroundColor": "#FFFFFF"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Banner-"
    }
@@ -303,6 +506,56 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "LILLABO 利乐宝",
+     "text": "¥149",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lillabo-li-le-bao-wan-ju-huo-che-45-jian-dai-gui-dao__0712397_pe728813_s4.jpg",
+     "href": "/cn/zh/p/lillabo-li-le-bao-wan-ju-huo-che-4-5-jian-dai-gui-dao-00330067/"
+    },
+    {
+     "title": "MAMMUT 玛莫特",
+     "text": "¥199",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mammut-ma-mo-te-er-tong-zhuo-shi-nei-hu-wai-bai-se__0735842_pe740215_s4.jpg",
+     "href": "/cn/zh/p/mammut-ma-mo-te-er-tong-zhuo-shi-nei-hu-wai-bai-se-70365176/"
+    },
+    {
+     "title": "BLÅHAJ 布罗艾",
+     "text": "¥129",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/blahaj-bu-luo-ai-mao-rong-wan-ju-sha-yu__0710175_pe727378_s4.jpg",
+     "href": "/cn/zh/p/blahaj-bu-luo-ai-mao-rong-wan-ju-sha-yu-10373589/"
+    },
+    {
+     "title": "GOSIG GOLDEN 古西格 格登",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/gosig-golden-gu-xi-ge-ge-deng-mao-rong-wan-ju-gou-jin-mao-xun-hui-quan__0710169_pe727372_s4.jpg",
+     "href": "/cn/zh/p/gosig-golden-gu-xi-ge-ge-deng-mao-rong-wan-ju-gou-jin-mao-xun-hui-quan-30169342/"
+    },
+    {
+     "title": "MÅLA 莫拉",
+     "text": "¥199",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mala-mo-la-shu-xie-ban-ruan-mu__0995590_pe821771_s4.jpg",
+     "href": "/cn/zh/p/mala-mo-la-shu-xie-ban-ruan-mu-10488967/"
+    },
+    {
+     "title": "MÅLA 莫拉",
+     "text": "¥29.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mala-mo-la-bai-ban-bi-dai-bi-he-bai-ban-ca-duo-se__0804248_pe769111_s4.jpg",
+     "href": "/cn/zh/p/mala-mo-la-bai-ban-bi-dai-bi-he-bai-ban-ca-duo-se-10477619/"
+    },
+    {
+     "title": "DVÄRGMÅS 戴里莫",
+     "text": "¥129",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/dvaergmas-dai-li-mo-you-le-sui-dao-lan-se-lu-se__1154776_pe886307_s4.jpg",
+     "href": "/cn/zh/p/dvaergmas-dai-li-mo-you-le-sui-dao-lan-se-lu-se-60547592/"
+    },
+    {
+     "title": "AFTONSPARV 艾顿斯帕",
+     "text": "¥49.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/aftonsparv-ai-dun-si-pa-mao-rong-wan-ju-wai-xing-ren-lu-se__1185115_pe898265_s4.jpg",
+     "href": "/cn/zh/p/aftonsparv-ai-dun-si-pa-mao-rong-wan-ju-wai-xing-ren-lu-se-20551557/"
+    }
+   ],
    "settings": {
     "traceId": "cms-Product Shelf-"
    }
@@ -351,6 +604,51 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "玩具收纳",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20240830/e4b83bcea75f4da986b30bf8ed985450.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/18706",
+     "backgroundColor": "#f5f5f5"
+    },
+    {
+     "title": "角色扮演",
+     "text": "借助设计工具，规划你的个性METOD 米多 厨房。",
+     "image": "https://file.app.ikea.cn/cms/u/20240830/d5601b86696446ecbc2f12aedb3452a7.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/18737",
+     "backgroundColor": "#f5f5f5"
+    },
+    {
+     "title": "画画手工",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20240830/a36898983eb9435a9e63650b616133ef.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/18735",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "毛绒玩具",
+     "text": "婴儿床",
+     "image": "https://file.app.ikea.cn/cms/u/20240830/aee7ca6de972484f8af570379aa10f90.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/18740",
+     "backgroundColor": "#d2d3d4"
+    },
+    {
+     "title": "儿童桌椅",
+     "text": "婴儿换衣桌",
+     "image": "https://file.app.ikea.cn/cms/u/20240830/19cbb2b61aa841138bf300d7e55fe36e.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/search/products?q=MAMMUT 玛莫特",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "儿童延伸床",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20240830/6aa01e866adc4ca9b439624746227886.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/45847",
+     "backgroundColor": "#111111"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Visual Pill Slider-"
    }
@@ -358,11 +656,11 @@
   {
    "type": "pub-text",
    "title": null,
-   "texts": [
-    "<p>&nbsp; &nbsp;</p>"
-   ],
+   "texts": [],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -411,6 +709,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20240830/c4b3eb016082406f8919619fd4de0900.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/50339367?artType=art",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20240830/e268e9191d4842958508f75252f67275.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/80517004?artType=art",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20240830/9fbcddbc9bf44e14885a5cfd842277e5.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/29227753?artType=spr",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20240830/a633927a641a44ba8c704fd68b4292e0.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/inspiration/detail/a2487f97-b735-4f53-8bab-7fbb4205d8e7?type=IMAGE",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20240830/ba8daf9bce68444b9b61761090bbb400.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/20466154?artType=art",
+     "backgroundColor": "#111111"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "curatedgallery-让孩子尽情玩耍的房间"
    }
@@ -428,6 +764,56 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "SMÅSTAD 斯玛斯塔 / PLATSA 普拉萨",
+     "text": "¥2,020",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/smastad-si-ma-si-ta-platsa-pu-la-sa-chu-wu-zu-he-bai-se-hong-se-tiao-wen-dai-3-ge-chou-ti__1268024_pe928593_s4.jpg",
+     "href": "/cn/zh/p/smastad-si-ma-si-ta-platsa-pu-la-sa-chu-wu-zu-he-bai-se-hong-se-tiao-wen-dai-3-ge-chou-ti-19555660/"
+    },
+    {
+     "title": "ÖVNING 约弗宁",
+     "text": "¥499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/oevning-yue-fu-ning-shou-tui-che-bai-se-hui-lu-se__1135029_pe878906_s4.jpg",
+     "href": "/cn/zh/p/oevning-yue-fu-ning-shou-tui-che-bai-se-hui-lu-se-80517004/"
+    },
+    {
+     "title": "BARNDRÖM 巴恩德吕姆",
+     "text": "¥79.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/barndroem-ba-en-de-lu-mu-chu-wu-he-3-jian-tao-lu-se-lan-se-mi-huang-se__1177114_pe895243_s4.jpg",
+     "href": "/cn/zh/p/barndroem-ba-en-de-lu-mu-chu-wu-he-3-jian-tao-lu-se-lan-se-mi-huang-se-90560624/"
+    },
+    {
+     "title": "GLIS 格利思",
+     "text": "¥14.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/glis-ge-li-si-fu-gai-chu-wu-he-huang-se-lan-se__0795103_pe765864_s4.jpg",
+     "href": "/cn/zh/p/glis-ge-li-si-fu-gai-chu-wu-he-huang-se-lan-se-20466154/"
+    },
+    {
+     "title": "SMYGA 斯米卡",
+     "text": "¥2,299",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/smyga-si-mi-qia-chuang-jia-dai-chou-ti-dan-hui-se__1293704_pe935250_s4.jpg",
+     "href": "/cn/zh/p/smyga-si-mi-qia-chuang-jia-dai-chou-ti-dan-hui-se-59494410/"
+    },
+    {
+     "title": "MÖJLIGHET 莫伊里黑特",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/moejlighet-mo-yi-li-hei-te-bei-tao-he-zhen-tao-bai-se-xiang-qian-tu-an__0684203_pe721050_s4.jpg",
+     "href": "/cn/zh/p/moejlighet-mo-yi-li-hei-te-bei-tao-he-zhen-tao-bai-se-xiang-qian-tu-an-30423692/"
+    },
+    {
+     "title": "NATTSLÄNDA 纳斯兰",
+     "text": "¥199",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/nattslaenda-na-si-lan-bei-tao-he-zhen-tao-hua-hui-tu-an-duo-se__0977177_pe813446_s4.jpg",
+     "href": "/cn/zh/p/nattslaenda-na-si-lan-bei-tao-he-zhen-tao-hua-hui-tu-an-duo-se-30508016/"
+    },
+    {
+     "title": "MÖJLIGHET 莫伊里黑特",
+     "text": "¥49.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/moejlighet-mo-yi-li-hei-te-chuang-bian-gua-dai-lan-se__0651931_pe707217_s4.jpg",
+     "href": "/cn/zh/p/moejlighet-mo-yi-li-hei-te-chuang-bian-gua-dai-lan-se-40421391/"
+    }
+   ],
    "settings": {
     "traceId": "cms-Product Shelf-"
    }
@@ -441,7 +827,7 @@
     "portrait",
     "hosted",
     "image-text-portrait",
-    "<p>灵活的升降设计专为青少年打造的学习与休闲两用的场景，亦可搭配RELATERA 雷拉铁拉 配件，增添更多功能和储物空间</p>"
+    "灵活的升降设计专为青少年打造的学习与休闲两用的场景，亦可搭配RELATERA 雷拉铁拉 配件，增添更多功能和储物空间"
    ],
    "images": [],
    "links": [
@@ -458,6 +844,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20240830/970b83801ef54ee4916b7b5d8d2ef4f6.mp4",
+     "href": null,
+     "backgroundColor": "#FFFFFF"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Banner-"
    }
@@ -475,6 +871,62 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "RELATERA 雷拉铁拉",
+     "text": "¥999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/relatera-lei-la-tie-la-zuo-zhan-liang-yong-shi-ban-gong-zhuo-bai-se__1293258_pe935140_s4.jpg",
+     "href": "/cn/zh/p/relatera-lei-la-tie-la-zuo-zhan-liang-yong-shi-ban-gong-zhuo-bai-se-49560085/"
+    },
+    {
+     "title": "PIPLÄRKA 皮莱卡",
+     "text": "¥499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/piplaerka-pi-lai-qia-shu-zhuo-ke-qing-xie__1115620_pe872163_s4.jpg",
+     "href": "/cn/zh/p/piplaerka-pi-lai-qia-shu-zhuo-ke-qing-xie-20528500/"
+    },
+    {
+     "title": "GLIS 格利思",
+     "text": "¥14.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/glis-ge-li-si-fu-gai-chu-wu-he-huang-se-lan-se__0795103_pe765864_s4.jpg",
+     "href": "/cn/zh/p/glis-ge-li-si-fu-gai-chu-wu-he-huang-se-lan-se-20466154/"
+    },
+    {
+     "title": "ÖVNING 约弗宁",
+     "text": "¥499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/oevning-yue-fu-ning-shou-tui-che-bai-se-hui-lu-se__1135029_pe878906_s4.jpg",
+     "href": "/cn/zh/p/oevning-yue-fu-ning-shou-tui-che-bai-se-hui-lu-se-80517004/"
+    },
+    {
+     "title": "ÖVNING 约弗宁",
+     "text": "¥129",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/oevning-yue-fu-ning-yao-shi-ge-jiao-ban__1160222_pe888810_s4.jpg",
+     "href": "/cn/zh/p/oevning-yue-fu-ning-yao-shi-ge-jiao-ban-20552024/"
+    },
+    {
+     "title": "ÖVNING 约弗宁",
+     "text": "¥79.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/oevning-yue-fu-ning-ban-gong-zhuo-shou-na-jian__1160249_pe888822_s4.jpg",
+     "href": "/cn/zh/p/oevning-yue-fu-ning-ban-gong-zhuo-shou-na-jian-90552011/"
+    },
+    {
+     "title": "DALRIPA 达里帕",
+     "text": "¥599",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/dalripa-da-li-pa-shu-jia-bai-se__1115153_pe871967_s4.jpg",
+     "href": "/cn/zh/p/dalripa-da-li-pa-shu-jia-bai-se-90528506/"
+    },
+    {
+     "title": "BÖNSYRSA 波恩西萨",
+     "text": "¥39.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/boensyrsa-bo-en-xi-sa-shu-zhuo-dian-dong-wu-tu-an__1111204_pe870687_s4.jpg",
+     "href": "/cn/zh/p/boensyrsa-bo-en-xi-sa-shu-zhuo-dian-dong-wu-tu-an-50528508/"
+    },
+    {
+     "title": "BÖNSYRSA 波恩西萨",
+     "text": "¥39.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/boensyrsa-bo-en-xi-sa-jia-shu-jia-ke-zhe-die__1115396_pe872055_s4.jpg",
+     "href": "/cn/zh/p/boensyrsa-bo-en-xi-sa-jia-shu-jia-ke-zhe-die-50534019/"
+    }
+   ],
    "settings": {
     "traceId": "cms-Product Shelf-"
    }
@@ -523,6 +975,51 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "学习工具",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20240830/62687f34fae0478c9d38800e96ad9e4d.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/24711",
+     "backgroundColor": "#f5f5f5"
+    },
+    {
+     "title": "台灯照明",
+     "text": "借助设计工具，规划你的个性METOD 米多 厨房。",
+     "image": "https://file.app.ikea.cn/cms/u/20240830/6e579114b15d454f881b5ae48106a0d2.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/20502",
+     "backgroundColor": "#f5f5f5"
+    },
+    {
+     "title": "单人床",
+     "text": "婴儿换衣桌",
+     "image": "https://file.app.ikea.cn/cms/u/20240830/6a50f92309114b06a5689f8d85e97d0f.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/bedroom/dan-ren-chuang-pub50edb8ed",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "纺织品",
+     "text": "婴儿床",
+     "image": "https://file.app.ikea.cn/cms/u/20240830/98e98eeec42f46eda5eb5643875eeef5.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/landing-page/cn--zh--dbad037d88a94aafb1b0d252684ec318",
+     "backgroundColor": "#d2d3d4"
+    },
+    {
+     "title": "衣物收纳",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20240830/4dfcdb952c484ca1a3fbf28e4f93a53e.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/49140",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "学习桌椅",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20240830/01106efa23a04274ae0a3de26d8ebb55.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/24715",
+     "backgroundColor": "#111111"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Visual Pill Slider-"
    }
@@ -530,11 +1027,11 @@
   {
    "type": "pub-text",
    "title": null,
-   "texts": [
-    "<p>&nbsp; &nbsp;</p>"
-   ],
+   "texts": [],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -583,6 +1080,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20240830/2148d7431ae74ff4a853489a815276b3.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/60589501?artType=art",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20240830/43c3a18afdda4c93931aa1ee6c5344b8.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/40572380?artType=art",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20240830/bfd52ffcf73543f8b6ce270665d49738.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/50497333?artType=art",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20240830/00b1513698a840d09f7b1ec57770effd.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20240830/c5de8d64c25742119be62067e1740d9e.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/p/50484279?artType=art",
+     "backgroundColor": "#111111"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "curatedgallery-儿童房灵感"
    }
@@ -600,6 +1135,44 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "ANTILOP 安迪洛",
+     "text": "¥60",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/antilop-an-di-luo-zhi-cheng-dian-fu-dian-tao-duo-se__1250501_pe923783_s4.jpg",
+     "href": "/cn/zh/p/antilop-an-di-luo-zhi-cheng-dian-fu-dian-tao-duo-se-50577711/"
+    },
+    {
+     "title": "KRAMA 克力马",
+     "text": "¥29.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/krama-ke-li-ma-xiao-fang-jin-bai-se__0711390_pe728181_s4.jpg",
+     "href": "/cn/zh/p/krama-ke-li-ma-xiao-fang-jin-bai-se-40169054/"
+    },
+    {
+     "title": "KALAS 卡拉斯",
+     "text": "¥9.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kalas-qia-la-si-pan-duo-se__0998030_pe822920_s4.jpg",
+     "href": "/cn/zh/p/kalas-qia-la-si-pan-duo-se-20378671/"
+    },
+    {
+     "title": "KALAS 卡拉斯",
+     "text": "¥9.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kalas-qia-la-si-wan-duo-se__0998009_pe822911_s4.jpg",
+     "href": "/cn/zh/p/kalas-qia-la-si-wan-duo-se-60378669/"
+    },
+    {
+     "title": "GRÖNFINK 格吕恩芬克",
+     "text": "¥29.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/groenfink-ge-lu-en-fen-ke-wei-zui-lu-se__1250466_pe923754_s4.jpg",
+     "href": "/cn/zh/p/groenfink-ge-lu-en-fen-ke-wei-zui-lu-se-40584712/"
+    },
+    {
+     "title": "KANONKUL 卡侬库",
+     "text": "¥29.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kanonkul-qia-nong-ku-bei-lan-se__0948489_pe799029_s4.jpg",
+     "href": "/cn/zh/p/kanonkul-qia-nong-ku-bei-lan-se-80517909/"
+    }
+   ],
    "settings": {
     "traceId": "productshelf-床垫床板儿童凳"
    }
@@ -648,6 +1221,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "益智玩具",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20240830/0251890b1d754ac1b749edc197f27ccc.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/18716",
+     "backgroundColor": "#f5f5f5"
+    },
+    {
+     "title": "儿童餐具",
+     "text": "借助设计工具，规划你的个性METOD 米多 厨房。",
+     "image": "https://file.app.ikea.cn/cms/u/20240830/fd4b3acd7f9e47aa80126a22e9494a16.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/31772",
+     "backgroundColor": "#f5f5f5"
+    },
+    {
+     "title": "婴儿卫浴洗护",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20240830/5c46627c54bf41b4821970adddbc3a31.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/18701",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "婴儿床/床垫",
+     "text": "婴儿床",
+     "image": "https://file.app.ikea.cn/cms/u/20240830/53bf77cc8b284440a3fbac021e23c3d1.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/18755",
+     "backgroundColor": "#d2d3d4"
+    },
+    {
+     "title": "婴儿换衣桌",
+     "text": "婴儿换衣桌",
+     "image": "https://file.app.ikea.cn/cms/u/20240830/59bd1458dd604029904676bf79f32689.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/45783",
+     "backgroundColor": "#111111"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Visual Pill Slider-"
    }
@@ -656,10 +1267,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>&nbsp; &nbsp;</p>\n<h2>打造一个更适孩子的空间</h2>"
+    "打造一个更适孩子的空间"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -688,6 +1301,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "儿童房布置指南",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250422/4deb1adbfefe406e8158d33a46d56417.webp",
+     "href": "/cn/zh/landing-page/cn--zh--a6fd3c701cbe11eb91530549d89e85dc",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Image With Text Box-"
    }
@@ -696,10 +1319,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>安全环保的儿童产品</h2>"
+    "安全环保的儿童产品"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -747,6 +1372,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "提供安全儿童产品",
+     "text": "TROFAST 舒法特 系列",
+     "image": "https://file.app.ikea.cn/cms/u/20260127/139ec86288f54d3095156db64c673c3e.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/landing-page/cn--zh--b087b42faf2f4fd199eb3955781914fb",
+     "backgroundColor": "#87cca5"
+    },
+    {
+     "title": "让孩子“玩”得安全",
+     "text": "毛绒玩具，材料安全，不含细小零配件，防止配件掉落，儿童误吞。",
+     "image": "https://file.app.ikea.cn/cms/u/20260127/17bf7192a09847018d5ae35aca9cec40.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/landing-page/cn--zh--b222fbaa40b94b15a571cd18d0051422",
+     "backgroundColor": "#87cca5"
+    },
+    {
+     "title": "持久耐用，陪伴成长",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20260127/b6a02bf1b8a343f7ba62e53dd1b371d6.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/landing-page/cn--zh--bdf5c53d6f574f9584295deba184a6d3",
+     "backgroundColor": "#87cca5"
+    },
+    {
+     "title": " 让孩子“吃”得安全 ",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20260127/250039265e5543dd8cdf4793c30761e3.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/landing-page/cn--zh--da7abf6db78d4205b8a890c099520c77",
+     "backgroundColor": "#87cca5"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-富媒体卡片列表 Inspiration Cards-"
    }
@@ -764,6 +1420,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "灵感图"
    }
@@ -773,7 +1431,7 @@
    "title": "我们坚持 让孩子“玩”得安全",
    "texts": [
     "由八张照片组成的拼图，展示了来自宜家员工的各种居家储物、装饰和娱乐方案。",
-    "<p style=\"line-height: 26px;\"><span style=\"color: #000000;\">M&Aring;LA 莫拉系列所有产品均经过严格测试，颜料和铅笔符合国标GB21027-2020学生用品的安全通用要求，安全无毒。<br />宜家和你一样关心你的孩子，毕竟这些小小创意家可是推动可持续发展的下一代新生力量。</span></p>\n<p style=\"line-height: 26px;\"><span style=\"color: #000000;\">儿童毛绒玩具材料安全， 眼睛采用精密刺绣工艺， 坚固不易脱线， 不含细小零配件， 防止配件掉落，儿童误吞。</span></p>\n<h5 style=\"line-height: 26px;\"><span style=\"color: #000000;\">经严格洗涤测试， 确保不含有害化学物质；经权威机构*认可的实验室测试， 符合国标GB6675玩具安全标准。<br />* 国际实验室认可合作组织 （ ILAC） 成员，如CNAS, UKAS, HKLAS, SWEDAC等。</span></h5>",
+    "MåLA 莫拉系列所有产品均经过严格测试，颜料和铅笔符合国标GB21027-2020学生用品的安全通用要求，安全无毒。 宜家和你一样关心你的孩子，毕竟这些小小创意家可是推动可持续发展的下一代新生力量。 儿童毛绒玩具材料安全， 眼睛采用精密刺绣工艺， 坚固不易脱线， 不含细小零配件， 防止配件掉落，儿童误吞。 经严格洗涤测试， 确保不含有害化学物质；经权威机构*认可的实验室测试， 符合国标GB6675玩具安全标准。 * 国际实验室认可合作组织 （ ILAC） 成员，如CNAS, UKAS, HKLAS, SWEDAC等。",
     "我们坚持 让孩子“玩”得安全",
     "side"
    ],
@@ -786,6 +1444,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "我们坚持 让孩子“玩”得安全",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20211228/bbf48d76949c40e894f9bb37045a9cfa.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "hero-坚持提供安全的儿童玩具"
    }
@@ -834,6 +1502,51 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "节约能源",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250808/f2e0305a320d491e867041cf021305b0.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/ideas/tips-for-more-sustainable-living/quick-tricks-to-save-energy-at-home-pubad783f90",
+     "backgroundColor": "#f5f5f5"
+    },
+    {
+     "title": "节约水源",
+     "text": "借助设计工具，规划你的个性METOD 米多 厨房。",
+     "image": "https://file.app.ikea.cn/cms/u/20250808/a67e4e9ca0e944ee913ae927fd91d6c6.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/ideas/tips-for-more-sustainable-living/smart-solutions-to-save-water-at-home-pubfdfe8c45",
+     "backgroundColor": "#f5f5f5"
+    },
+    {
+     "title": "可持续饮食",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250808/ce1cc52f6a0c476eb7a09a39735c5334.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/ideas/tips-for-more-sustainable-living/easy-wins-to-eating-more-sustainably-pubdbfa9a20",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "减少浪费",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250808/85e7c4d664674f5ba43351e424a3a339.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/ideas/tips-for-more-sustainable-living/simple-ways-to-reduce-waste-at-home-pubb645fb53",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "延长家具使用寿命",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250422/ed9aff1aa0b0475fa51994e57d6e3531.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/ideas/tips-for-more-sustainable-living/",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "更多可持续创意",
+     "text": "更多可持续创意",
+     "image": "",
+     "href": "/cn/zh/ideas/tips-for-more-sustainable-living/",
+     "backgroundColor": "#37b886"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-带按钮图片列表 Visual Pill Slider-"
    }
@@ -868,6 +1581,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "送货服务",
+     "text": "了解详情",
+     "image": null,
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fwww.ikea.cn%2Fcn%2Fzh%2Fcustomer-service%2Fservices%2Fassembly%2F",
+     "backgroundColor": null
+    },
+    {
+     "title": "组装服务",
+     "text": "了解详情",
+     "image": "",
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fwww.ikea.cn%2Fcn%2Fzh%2Fcustomer-service%2Fservices%2Fassembly%2F",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "退货政策",
+     "text": "了解详情",
+     "image": "",
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fwww.ikea.cn%2Fcn%2Fzh%2Fcustomer-service%2Freturns-claims%2Freturn-policy%2F",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "设计服务",
+     "text": "了解详情",
+     "image": "",
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fwww.ikea.cn%2Fcn%2Fzh%2Fcustomer-service%2Fservices%2Fkitchen-planning%2F",
+     "backgroundColor": "#111111"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "assurances-web/h5"
    }

@@ -11,7 +11,7 @@
    "title": "VEDDINGE 维丁格 白色厨房指南",
    "texts": [
     "一间小厨房，配白色前板，还有一个冷冻冷藏冰箱，一个白色工作台和一辆架木制手推车。",
-    "<p>想打造简洁俐落的厨房外观？不妨尝试搭配VEDDINGE 维丁格 白色厨房柜门。光滑无缝的柜门令厨房显得格外明亮，彰显其中的细节设计。而且这些柜门防潮防污，易于保持清洁。</p>",
+    "想打造简洁俐落的厨房外观？不妨尝试搭配VEDDINGE 维丁格 白色厨房柜门。光滑无缝的柜门令厨房显得格外明亮，彰显其中的细节设计。而且这些柜门防潮防污，易于保持清洁。",
     "VEDDINGE 维丁格 白色厨房指南",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "VEDDINGE 维丁格 白色厨房指南",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/52/ab/52aba4e392a452e567e9ebefe69751fc.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -50,6 +60,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一间厨房，配有白色橱柜前板，一个白色工作台，白色大理石纹/石英防溅挡板，窗户边上还摆放着植物。",
+     "image": "https://file.app.ikea.cn/images/ad/4f/ad4fe0ef28fcbead37ef55e37235c44d.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -76,6 +96,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "两个带白色前板的橱柜和一个白色工作台，台面上摆放着一盆绿色植物、油和香料研磨瓶。",
+     "image": "https://file.app.ikea.cn/images/77/d5/77d5560306ab5505cdaa1b885c1abf76.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -102,6 +132,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "白色的柜子配白色抽屉前板和ÖSTERNÄS 约斯特奈斯 皮革把手，上方为木制工作台，还有一个水槽和水龙头。",
+     "image": "https://file.app.ikea.cn/images/80/04/8004a82de4ae7e4ff33471e78d0b3366.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -147,6 +187,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "购买宜家厨房的5个步骤",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/31/25/3125f86f48cf469079c71ff3c1e4b4a7.jpg",
+     "href": null,
+     "backgroundColor": "#d5dcd4"
+    },
+    {
+     "title": "宜家厨房设计工具——在家即可轻松设计你的厨房",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/42/90/42909d2ee6bc60a85b45906cfa0ff9a7.jpg",
+     "href": "/cn/zh/h5page/?url=%23",
+     "backgroundColor": "#ecd7a2"
+    },
+    {
+     "title": "预约宜家厨房专家服务",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/7b/32/7b32031403ca8a72b6528dfec1cb0597.jpg",
+     "href": "/cn/zh/h5page/?url=%23",
+     "backgroundColor": "#e9c3b0"
+    },
+    {
+     "title": "宜家厨房服务",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/76/9a/769af772d23e404b7198cfbf9b542f22.jpg",
+     "href": "/cn/zh/h5page/?url=%23",
+     "backgroundColor": "#99abc1"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -162,6 +233,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

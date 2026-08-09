@@ -14,46 +14,56 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3>你需要什么：</h3>"
+    "你需要什么："
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>FRAKTA 弗拉塔 宜家蓝色储物袋、剪刀、尺子或者卷尺、缝纫机或胶水。</p>"
+    "FRAKTA 弗拉塔 宜家蓝色储物袋、剪刀、尺子或者卷尺、缝纫机或胶水。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>1.</strong>沿着侧边将宜家蓝色储物袋剪开，铺平。将储物袋的肩带剪掉。</p>"
+    "1.沿着侧边将宜家蓝色储物袋剪开，铺平。将储物袋的肩带剪掉。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>2.</strong>尽量利用原有的缝合线。我们选择了利用顶部的缝合线。</p>"
+    "2.尽量利用原有的缝合线。我们选择了利用顶部的缝合线。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -73,16 +83,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "裁切出一个长方形（A），尺寸为16x15cm。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/1d/07/1d07b65ff990c9862fb4d4b7c22be477.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>3.</strong>裁切出一个长方形（A），尺寸为16x15cm。</p>"
+    "3.裁切出一个长方形（A），尺寸为16x15cm。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -102,16 +124,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "裁切出一个稍小的长方形（B），尺寸为16x10cm。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/89/36/89367736271e3172e32958063884c9a2.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>4.</strong>裁切出一个稍小的长方形（B），尺寸为16x10cm。&nbsp;</p>"
+    "4.裁切出一个稍小的长方形（B），尺寸为16x10cm。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -130,16 +164,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a6/7f/a67fed1ff71af1c66416a91d5b73e453.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>5.</strong>将小长方形（B）的侧边和底部缝合或黏在大长方形（A）上，确保在底部大长方形能够覆盖住小长方形。这做成了一个装信用卡的口袋。</p>"
+    "5.将小长方形（B）的侧边和底部缝合或黏在大长方形（A）上，确保在底部大长方形能够覆盖住小长方形。这做成了一个装信用卡的口袋。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -159,16 +205,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "将成品对折。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ff/e4/ffe4367e3181e382668ee256680aef02.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>6.</strong>将成品对折，之前选择的缝合线放在顶部。由内向外翻转，用热熔胶枪或者缝纫机把它们缝合或者黏在一起，每边黏合的宽度大约为1cm。</p>"
+    "6.将成品对折，之前选择的缝合线放在顶部。由内向外翻转，用热熔胶枪或者缝纫机把它们缝合或者黏在一起，每边黏合的宽度大约为1cm。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -188,26 +246,40 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "将成品压平，在手机袋的背后中间位置形成新的缝合线。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/35/ac/35aca325f4b20baa3316bd3950e5921d.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>7.</strong>将成品压平，在手机袋的背后中间位置形成新的缝合线。同样在底部将其缝合或者黏在一起。</p>"
+    "7.将成品压平，在手机袋的背后中间位置形成新的缝合线。同样在底部将其缝合或者黏在一起。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>8.</strong>由内向外翻转，缝合线便位于手机袋的里面。</p>"
+    "8.由内向外翻转，缝合线便位于手机袋的里面。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -227,16 +299,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "将吊带缝合在手机袋的侧边上。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/1b/a7/1ba75c616f4fe4cae0f74b3adf08e5d9.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>9.</strong>将吊带缝合在手机袋的侧边上。</p>"
+    "9.将吊带缝合在手机袋的侧边上。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -256,16 +340,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": " 裁切出一个尺寸为8.5x4.5cm的长方形（C）。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ef/20/ef2014baa4cc2d0f247d55f644d15c2e.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>10.</strong>裁切出一个尺寸为8.5x4.5cm的长方形（C），制作手机袋的翻盖。</p>"
+    "10.裁切出一个尺寸为8.5x4.5cm的长方形（C），制作手机袋的翻盖。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -285,26 +381,40 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "将翻盖缝合或黏在手机袋背部的内侧（口袋应该朝外）。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ac/92/ac92df13721c1f3548d52fa29d12c771.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>11.</strong>&nbsp;将翻盖缝合或黏在手机袋背部的内侧（口袋应该朝外）。</p>"
+    "11. 将翻盖缝合或黏在手机袋背部的内侧（口袋应该朝外）。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>12.</strong>大功告成！</p>"
+    "12.大功告成！"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

@@ -11,7 +11,7 @@
    "title": "设计与规划",
    "texts": [
     "一个人手持智能手机，利用增强现实技术查看空房间布置宜家产品的效果。",
-    "<p>设计你的梦想厨房、沙发、和储物系列吧！利用我们简单易用的设计工具，玩转各种颜色、风格、尺寸及组合。有了这些工具，你就可以轻松构思和创建理想的方案。</p>",
+    "设计你的梦想厨房、沙发、和储物系列吧！利用我们简单易用的设计工具，玩转各种颜色、风格、尺寸及组合。有了这些工具，你就可以轻松构思和创建理想的方案。",
     "IMAGE",
     "设计与规划",
     "side",
@@ -26,6 +26,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "设计与规划",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250619/7b2b6522c51e43d69d581ca8688e2a0f.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-图片文本组合 Hero-设计与规划"
    }
@@ -34,10 +44,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>精心设计你的房间</h2>\n<p>使用房间设计工具，你可以创建详细的空间方案；设计你的厨房和浴室空间。</p>"
+    "精心设计你的房间 使用房间设计工具，你可以创建详细的空间方案；设计你的厨房和浴室空间。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -86,6 +98,72 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "规划和设计你的厨房",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250319/71f7fe70d88f4dfbbf00b4d1f1185309.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fkitchen.planner.ikea.cn%2Fplanner%2F%23%2Fcn%2Fzh%2F",
+     "backgroundColor": null
+    },
+    {
+     "title": "规划和设计你的浴室",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250319/7e439f4487ba4342b2f2030b111000be.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/planners/bathroom-planner/?layout=headless",
+     "backgroundColor": null
+    },
+    {
+     "title": "规划和设计你的客厅",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250717/2886d0d4597f481fbedaf09c0324f43e.png?x-oss-process=style/medium",
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fwww.ikea.cn%2Faddon-app%2Fspace%2Fplatform%2Flatest%2Fcn%2Fzh%2F%23%2Froom%2Fliving-room",
+     "backgroundColor": null
+    },
+    {
+     "title": "规划和设计你的儿童房",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250717/818dd57dccbe4857855f2506b1e45e47.png?x-oss-process=style/medium",
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fwww.ikea.cn%2Faddon-app%2Fspace%2Fplatform%2Flatest%2Fcn%2Fzh%2F%23%2Froom%2Fchildrens-room",
+     "backgroundColor": null
+    },
+    {
+     "title": "规划和设计你的卧室",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250717/3f7090943af44615a45cd4a5b57fe29b.png?x-oss-process=style/medium",
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fwww.ikea.cn%2Faddon-app%2Fspace%2Fplatform%2Flatest%2Fcn%2Fzh%2F%23%2Froom%2Fbedroom",
+     "backgroundColor": null
+    },
+    {
+     "title": "规划和设计你的书房和办公室",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250717/9d56572a687f427e835a80e5094525bd.png?x-oss-process=style/medium",
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fwww.ikea.cn%2Faddon-app%2Fspace%2Fplatform%2Flatest%2Fcn%2Fzh%2F%23%2Froom%2Fworkspace",
+     "backgroundColor": null
+    },
+    {
+     "title": "规划和设计你的餐厅",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250717/97fbc2782d904ca397e6984da934d4f3.png?x-oss-process=style/medium",
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fwww.ikea.cn%2Faddon-app%2Fspace%2Fplatform%2Flatest%2Fcn%2Fzh%2F%23%2Froom%2Fdining",
+     "backgroundColor": null
+    },
+    {
+     "title": "规划和设计你的门厅",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250724/2b3e3c8963784faba1e62fea02f233c3.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fwww.ikea.cn%2Faddon-app%2Fspace%2Fplatform%2Flatest%2Fcn%2Fzh%2F%23%2Froom%2Fhallway",
+     "backgroundColor": null
+    },
+    {
+     "title": "规划和设计你的户外空间  ",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20260210/ef6046e4efe24953bc0df6d8822388b0.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fwww.ikea.cn%2Faddon-app%2Fspace%2Fplatform%2Flatest%2Fcn%2Fzh%2F%23%2Froom%2Foutdoor",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-页面列表-"
    }
@@ -94,10 +172,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>打造适合你的空间和需求的产品设计</h2>\n<p>产品设计工具是一种简单易用的宜家设计工具，可以帮助你创建一个复杂的产品解决方案，满足你的需求。</p>\n<p>在这些设计工具中，你可以添加和删除模块化部件和内部配件，并保存你的设计以备之后使用。</p>\n<p>浏览所有设计工具：</p>"
+    "打造适合你的空间和需求的产品设计 产品设计工具是一种简单易用的宜家设计工具，可以帮助你创建一个复杂的产品解决方案，满足你的需求。 在这些设计工具中，你可以添加和删除模块化部件和内部配件，并保存你的设计以备之后使用。 浏览所有设计工具："
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -115,6 +195,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-页面导航-"
    }
@@ -123,10 +205,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3>自定义理想的储物方案</h3>\n<p>为家中所有区域规划和设计不同的储物方案。使用PAX 帕克思 衣柜设计工具设计自己的衣柜，或者使用BEST&Aring; 贝达 设计工具打造独特的客厅储物方案。</p>"
+    "自定义理想的储物方案 为家中所有区域规划和设计不同的储物方案。使用PAX 帕克思 衣柜设计工具设计自己的衣柜，或者使用BESTå 贝达 设计工具打造独特的客厅储物方案。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -175,6 +259,107 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "PAX 帕克思 个性化的衣柜设计工具",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250319/63d53f0ac32444808aae30e09b85418d.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/planners/pax-planner/?layout=headless",
+     "backgroundColor": null
+    },
+    {
+     "title": "KALLAX 卡莱克 搁架单元设计工具",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250319/6b78e28958a74426ad42f680eab57c6b.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/planners/kallax-planner/?layout=headless",
+     "backgroundColor": null
+    },
+    {
+     "title": "BESTÅ 贝达 客厅储物设计工具",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250319/3e8a4ab530cf44da884c2e28bd463375.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/planners/besta-planner/?layout=headless",
+     "backgroundColor": null
+    },
+    {
+     "title": "PLATSA 普拉萨 模块化储物设计工具",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250319/edc41d7a0f50469f942553e4ab27a5c4.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/planners/platsa-planner/?layout=headless",
+     "backgroundColor": null
+    },
+    {
+     "title": "IVAR 伊娃 搁架储物设计工具",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250319/acaac06802104049a84bc6309a89a35e.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/planners/ivar-planner/?layout=headless",
+     "backgroundColor": null
+    },
+    {
+     "title": "SMÅSTAD 斯玛斯塔 儿童衣柜设计工具",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250319/0c5bfcee1c044764be2773b316d8e985.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/planners/smastad-planner/?layout=headless",
+     "backgroundColor": null
+    },
+    {
+     "title": "EKET 伊克特 模块化储物设计工具",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250319/31bcf92f256742258514f915c4fd5a35.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/planners/eket-planner/?layout=headless",
+     "backgroundColor": null
+    },
+    {
+     "title": "BOAXEL 博阿克塞 壁式储物设计工具",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250319/bb78bd71dbea4cb6bd3fe55f18392893.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/planners/boaxel-planner/?layout=headless",
+     "backgroundColor": null
+    },
+    {
+     "title": "JONAXEL 尤纳赛尔 储物系列设计工具",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250319/4c36351c879e47b2a85c944f566a2b30.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/planners/jonaxel-planner/?layout=headless",
+     "backgroundColor": null
+    },
+    {
+     "title": "ELVARLI 爱尔瓦丽 开放式储物设计工具",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20260129/85454c98f6cc41649b20b012b614596f.png?x-oss-process=style/medium",
+     "href": "/cn/zh/planners/elvarli-planner/?layout=headless",
+     "backgroundColor": null
+    },
+    {
+     "title": "SKYTTA 斯基塔 滑门系列设计工具",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250319/bf8ad4a63d144279966847647b63410f.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/planners/skytta-planner/?layout=headless",
+     "backgroundColor": null
+    },
+    {
+     "title": "BILLY 毕利 储物系列设计工具",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250319/5a8ebc61278c4eacaa6adb4fa493ca55.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fbilly.web.ikea.cn%2Foffline%2Fhomepage%3Foffline_store_id%3D20%26offlineScreen%3Dfalse%26utm_source%3Donline_pc%26utm_medium%3DBILLY_WEB%26utm_campaign%3D549%26utm_content%3Dplanners_storage",
+     "backgroundColor": null
+    },
+    {
+     "title": "LÅDMAKARE 罗玛卡 储物组合设计工具 ",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250915/b79190e28eaf46f6835b1b2902bdb3ca.png?x-oss-process=style/medium",
+     "href": "/cn/zh/planners/ladmakare-planner/?layout=headless",
+     "backgroundColor": null
+    },
+    {
+     "title": "LASTARE 拉思塔尔 模块化储物设计工具",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20260316/bc549c3e79494a4e92ac961ae8c41a7d.png?x-oss-process=style/medium",
+     "href": "/cn/zh/planners/lastare-planner/?layout=headless",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-页面列表-"
    }
@@ -183,10 +368,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3>组合你的理想沙发</h3>\n<p>借助模块化沙发设计工具，你可以用不同的模块或沙发套打造心仪的沙发组合。选择一款契合个性风格的沙发，然后为你的家居空间量身定制解决方案。</p>"
+    "组合你的理想沙发 借助模块化沙发设计工具，你可以用不同的模块或沙发套打造心仪的沙发组合。选择一款契合个性风格的沙发，然后为你的家居空间量身定制解决方案。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -231,6 +418,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "VIMLE 维姆勒 沙发设计工具",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250320/2f8f2d244b464ee88ded4693afd17e7e.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/planners/vimle-planner/?layout=headless",
+     "backgroundColor": null
+    },
+    {
+     "title": "SÖDERHAMN 索德汉 沙发设计工具",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250320/baf7faec86fe47b1a80d5cb70a048e0c.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/planners/soderhamn-planner/?layout=headless",
+     "backgroundColor": null
+    },
+    {
+     "title": "JÄTTEBO 耶特博 沙发设计工具",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250320/95344227a5cd4203ab9f90b9f7cd774c.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/planners/jattebo-planner/?layout=headless",
+     "backgroundColor": null
+    },
+    {
+     "title": "LILLEHEM 利乐亨 沙发设计工具",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250320/e2a3c674f1564d62b42846effaa96213.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/planners/lillehem-planner/?layout=headless",
+     "backgroundColor": null
+    },
+    {
+     "title": "UPPÅKRA 乌波卡 沙发设计工具",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20260402/29d827474f904a1fa35b0879e41dbe89.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fwww.ikea.cn%2Faddon-app%2Fsofas%2Fuppakra%2Fweb%2Flatest%2Fcn%2Fzh%2F",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-页面列表-"
    }
@@ -239,10 +464,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3><strong>玩转书桌</strong></h3>\n<p>借助书桌设计工具，你可以组合不同的桌面，桌腿和储物柜，从而简单轻松地打造适合你的书桌。</p>"
+    "玩转书桌 借助书桌设计工具，你可以组合不同的桌面，桌腿和储物柜，从而简单轻松地打造适合你的书桌。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -272,6 +499,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "打造你的专属书桌",
+     "text": "打造你的专属书桌",
+     "image": "https://file.app.ikea.cn/cms/u/20251113/8f5f6a42fb4d4bf48455ee23c9c32a7e.png?x-oss-process=style/medium",
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fwww.ikea.cn%2Faddon-app%2Fspace%2Fplatform%2Flatest%2Fcn%2Fzh%2F%23%2Fconfigure%2Fbuild-your-own-desk",
+     "backgroundColor": null
+    },
+    {
+     "title": "MITTZON 米特丛 书桌设计工具",
+     "text": "MITTZON 米特丛坐/站两用式办公桌置于明亮的现代开放式办公空间，搭配米色办公椅与电脑显示器",
+     "image": "https://file.app.ikea.cn/cms/u/20260707/86ebac2fffcd46c6addcbf685b40b28a.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/planners/mittzon-planner/?layout=headless",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-页面列表-"
    }
@@ -280,10 +524,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3>为你构思和设计理想厨房</h3>\n<p>厨房设计工具是一款快速简单的工具，可让将你的ENHET 安纳特 厨房组合自定义为最适合你家庭的解决方案。</p>"
+    "为你构思和设计理想厨房 厨房设计工具是一款快速简单的工具，可让将你的ENHET 安纳特 厨房组合自定义为最适合你家庭的解决方案。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -308,6 +554,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "ENHET 安纳特 厨房设计工具",
+     "text": "ENHET 安纳特 厨房设计工具",
+     "image": "https://file.app.ikea.cn/cms/u/20250320/8b1064b493a94cd09c4e21c86090394c.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/planners/enhet-planner/?layout=headless",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-页面列表-"
    }
@@ -316,10 +572,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3>使用舒适睡眠指南优化你的睡眠</h3>\n<p>通过我们的舒睡眠指南，找到你理想的床垫。只需回答几个简单的问题，我们将分析你的回答，为你提供量身定制的建议，帮助你获得最佳睡眠。</p>"
+    "使用舒适睡眠指南优化你的睡眠 通过我们的舒睡眠指南，找到你理想的床垫。只需回答几个简单的问题，我们将分析你的回答，为你提供量身定制的建议，帮助你获得最佳睡眠。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -344,6 +602,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "舒适睡眠指南",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250320/5a1653c7f6044514b56d6dec8b2b1261.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/planners/bed-comfort-guide-planner/?layout=headless",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-页面列表-"
    }

@@ -11,7 +11,7 @@
    "title": "深褐色ASKERSUND 阿斯克松 厨房指南",
    "texts": [
     "一个深褐色白蜡木纹的ASKERSUND 阿斯克松厨房，大理石纹的EKBACKEN 宜伯肯 操作台面上放着砧板和蔬菜。",
-    "<p>深褐色ASKERSUND 阿斯克松 厨房系列拥有时尚的白蜡木纹，纹理图案既美观，触感也很出众。非常适合用于现代风格的厨房，搭配白色操作台面，呈现时尚简约的外观。</p>",
+    "深褐色ASKERSUND 阿斯克松 厨房系列拥有时尚的白蜡木纹，纹理图案既美观，触感也很出众。非常适合用于现代风格的厨房，搭配白色操作台面，呈现时尚简约的外观。",
     "深褐色ASKERSUND 阿斯克松 厨房指南",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "深褐色ASKERSUND 阿斯克松 厨房指南",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/01/2d/012df9675bbcb2a06d3fafd4ee90ae66.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -50,6 +60,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "厨房搭配深褐色ASKERSUND 阿斯克松 抽屉，大理石纹的KASKER 卡思喀 操作台面上摆放着红色洋葱、西兰花和花椰菜。",
+     "image": "https://file.app.ikea.cn/images/69/54/6954fc35fd700cdb2a525f698163cbcb.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -76,6 +96,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一间白色瓷砖厨房，深褐色白蜡木纹ASKERSUND 阿斯克松 橱柜固定在墙面上，下面放着一盆罗勒。",
+     "image": "https://file.app.ikea.cn/images/f4/7a/f47a690f11c7778a2771bf8c2600a34d.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -102,6 +132,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一间白色瓷砖厨房，配有深褐色的ASKERSUND 阿斯克松 抽屉。一个小女孩正在操作台面上玩玩具。",
+     "image": "https://file.app.ikea.cn/images/26/08/26089f86732a2fe2b5ed14140d248ff5.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -147,6 +187,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "购买宜家厨房的5个步骤",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a1/a3/a1a329e0819f42bfc63d0c7167cc01eb.jpg",
+     "href": "/cn/zh/rooms/kitchen/how-to/gou4-mai3-yi2-jia1-chu2-fang2-de5-ge4-bu4-zhou4-pub6003162f",
+     "backgroundColor": "#d5dcd4"
+    },
+    {
+     "title": "厨房家用设计工具——在家设计你的METOD 米多 厨房",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/26/75/26759c0e217f02a3db691591da27c093.jpg",
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fkitchenplanner.ikea.cn%2FCN%2FUI%2FPages%2FVPUI.htm",
+     "backgroundColor": "#ecd7a2"
+    },
+    {
+     "title": "预约一位厨房设计专员",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/28/7d/287dd17f34ad4a4b2613d8862075e511.jpg",
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fkitchen%3Fchannel%3Dkitchen_IRW%2520M2%26cl_sr%3DIRW%2520M2%26_ga%3D2.167717241.658028929.1605147171-445243359.1599015491",
+     "backgroundColor": "#e9c3b0"
+    },
+    {
+     "title": "宜家厨房服务",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a1/9c/a19c71d6cd33ccdf7e20c83965730244.jpg",
+     "href": "/cn/zh/customer-service/services/about-kitchen-services-pubdaf4bdea",
+     "backgroundColor": "#99abc1"
+    }
+   ],
+   "productIds": [],
    "settings": null
   }
  ]

@@ -11,7 +11,7 @@
    "title": "小空间，大冒险",
    "texts": [
     "这个色彩丰富的小型居住空间里摆满了 KNOPPÄNG 克诺宾 黑色画框、BARKHYTTAN 巴尔叙坦 玻璃展示盒和 HAVSTA 海思塔 储物单元，它们都载满了旅行的回忆。",
-    "<p>对于热爱旅行的人们来说，家更像是一个休息站。这对热爱徒步旅行的夫妻将公寓内的客厅打造成他们的创意基地，用于计划他们的下一场旅行。他们利用设计巧妙的储物装置收藏或展示旅行纪念品。</p>",
+    "对于热爱旅行的人们来说，家更像是一个休息站。这对热爱徒步旅行的夫妻将公寓内的客厅打造成他们的创意基地，用于计划他们的下一场旅行。他们利用设计巧妙的储物装置收藏或展示旅行纪念品。",
     "小空间，大冒险",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "小空间，大冒险",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ab/62/ab626f640df2e4bdf9cd311ad3c2e5a4.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -39,6 +49,14 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "KULLABERG 乐维",
+     "text": "¥499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kullaberg-le-wei-zhuan-yi-hei-se__0724718_pe734601_s4.jpg",
+     "href": "/cn/zh/p/kullaberg-le-wei-zhuan-yi-hei-se-70325519/"
+    }
+   ],
    "settings": null
   }
  ]

@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "ca1634743e1b4ed8bff303425507e903"
    }
@@ -22,10 +24,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>当气温渐渐转暖，我们的衣物和家居也迎来了大焕新。你或许正需要一些储物妙招，帮助你把每件冬季物品收拾妥帖，有条不紊地迎接春天。</p>"
+    "当气温渐渐转暖，我们的衣物和家居也迎来了大焕新。你或许正需要一些储物妙招，帮助你把每件冬季物品收拾妥帖，有条不紊地迎接春天。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "e06d00b16f12465bab2456fa3ca629b0"
    }
@@ -73,6 +77,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "抽屉柜",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220302/77bba787b30c4ac4a669ef4f61215a7b.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/st004",
+     "backgroundColor": null
+    },
+    {
+     "title": "衣物收纳用品",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220302/22cb4f1a6a174ac3b6b2fcfce9dff932.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/st007",
+     "backgroundColor": null
+    },
+    {
+     "title": "储物家具系列",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220302/6f8f931bd0624c56b8a9562ad8d9544d.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/46052",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "床底储物",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220302/a2eac69072874599b9e16859a9720449.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/19059",
+     "backgroundColor": "#111111"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "671012bbf2f74db0b74184fe8585ed79"
    }
@@ -81,10 +116,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><a href=\"#3e84e1618632457fb6e86287bdaf67be\">抽屉柜和储物盒</a>&nbsp; &nbsp;| &nbsp; <a href=\"#afdd09744bf84c128d91de18c366de53\">衣柜系列</a>&nbsp; &nbsp;|&nbsp; <a href=\"#744a6c0c37284764adde26e6677749d3\">&nbsp;床下储物系列&nbsp; &nbsp;</a></p>"
+    "抽屉柜和储物盒 | 衣柜系列 | 床下储物系列"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "f5e406c940c64fb4ac8c7d57a63f94dd"
    }
@@ -114,6 +151,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20220223/c86f373129d442c4a613fc4efba061a0.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20220316/a5a9e41de551443b8ecc088aa38a3385.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": "#111111"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "3e84e1618632457fb6e86287bdaf67be"
    }
@@ -134,6 +188,32 @@
     {
      "href": "/cat/10451",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "MALM 马尔姆",
+     "text": "¥679",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/malm-ma-er-mu-san-dou-chou-ti-gui-bai-se__0484875_pe621342_s4.jpg",
+     "href": "/cn/zh/p/malm-ma-er-mu-san-dou-chou-ti-gui-bai-se-90354643/"
+    },
+    {
+     "title": "MALM 马尔姆",
+     "text": "¥1,379",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/malm-ma-er-mu-liu-dou-chou-ti-gui-bai-se__0484884_pe621348_s4.jpg",
+     "href": "/cn/zh/p/malm-ma-er-mu-liu-dou-chou-ti-gui-bai-se-70354644/"
+    },
+    {
+     "title": "MALM 马尔姆",
+     "text": "¥499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/malm-ma-er-mu-liang-dou-chou-ti-gui-hei-he-se__0651168_pe706780_s4.jpg",
+     "href": "/cn/zh/p/malm-ma-er-mu-liang-dou-chou-ti-gui-hei-he-se-50354621/"
+    },
+    {
+     "title": "MALM 马尔姆",
+     "text": "¥1,279",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/malm-ma-er-mu-si-dou-chou-ti-gui-bai-se-xiang-mu-tie-mian__1154347_pe886002_s4.jpg",
+     "href": "/cn/zh/p/malm-ma-er-mu-si-dou-chou-ti-gui-bai-se-xiang-mu-tie-mian-90354662/"
     }
    ],
    "settings": {
@@ -169,6 +249,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20220316/356b3dac75f2455594f3d9e5a78a71e3.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20220316/9cd444c284af4ccdbd36fb0765324645.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": "#111111"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "727af3786e69415fb32b4138f6503742"
    }
@@ -186,6 +283,44 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "KUGGIS 库吉斯",
+     "text": "¥79.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kuggis-ku-ji-si-8-ge-nei-cha-jian-bai-se__0372099_pe552044_s4.jpg",
+     "href": "/cn/zh/p/kuggis-ku-ji-si-8-ge-nei-cha-jian-bai-se-80280209/"
+    },
+    {
+     "title": "STUK 斯图克",
+     "text": "¥39.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/stuk-si-tu-ke-dai-ge-chu-wu-he-bai-se__0920358_pe786993_s4.jpg",
+     "href": "/cn/zh/p/stuk-si-tu-ke-dai-ge-chu-wu-he-bai-se-10474442/"
+    },
+    {
+     "title": "SKUBB 思库布",
+     "text": "¥49.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/skubb-si-ku-bu-chu-wu-he-6-jian-tao-bai-se__1190772_pe900309_s4.jpg",
+     "href": "/cn/zh/p/skubb-si-ku-bu-chu-wu-he-6-jian-tao-bai-se-20428553/"
+    },
+    {
+     "title": "KUGGIS 库吉斯",
+     "text": "¥79.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kuggis-ku-ji-si-8-ge-nei-cha-jian-bai-se__0372099_pe552044_s4.jpg",
+     "href": "/cn/zh/p/kuggis-ku-ji-si-8-ge-nei-cha-jian-bai-se-80280209/"
+    },
+    {
+     "title": "RAGGISAR 拉吉萨",
+     "text": "¥49.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/raggisar-la-ji-sa-tuo-pan-shen-hui-se__0710846_pe727798_s4.jpg",
+     "href": "/cn/zh/p/raggisar-la-ji-sa-tuo-pan-shen-hui-se-80348025/"
+    },
+    {
+     "title": "NOJIG 诺伊格",
+     "text": "¥4.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/nojig-nuo-yi-ge-shou-na-he-su-liao-mi-huang-se__0954157_pe804499_s4.jpg",
+     "href": "/cn/zh/p/nojig-nuo-yi-ge-shou-na-he-su-liao-mi-huang-se-00468106/"
+    }
+   ],
    "settings": {
     "traceId": "2aec68b8219241a5a3898b1a1616723a"
    }
@@ -232,6 +367,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "HEMNES 汉尼斯 系列",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220302/ea2266a2600d47bea9a3e5d7e9f0a50d.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/700285",
+     "backgroundColor": "#f5f5f5"
+    },
+    {
+     "title": "HAUGA 豪嘉 系列",
+     "text": "借助设计工具，规划你的个性METOD 米多 厨房。",
+     "image": "https://file.app.ikea.cn/cms/u/20220302/9c73c3b05b8a4120acf54f66660c7386.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/48956",
+     "backgroundColor": "#f5f5f5"
+    },
+    {
+     "title": "NODRLI 诺德里 系列",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220302/531e38ea6fdc43d48f7eabc378091047.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/27271",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "查看所有抽屉柜",
+     "text": "查看所有抽屉柜",
+     "image": "",
+     "href": "/cn/zh/cat/st004",
+     "backgroundColor": "#d6cad4"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "f2178101382c4660a509123b35ce4196"
    }
@@ -242,6 +408,8 @@
    "texts": [],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "d4c0af389d39405fbee53bc01da6e7b2"
    }
@@ -271,6 +439,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个宽敞的木制搁架单元，上面放着储物盒、花盆和鞋履。前面叠放着两把椅子。",
+     "image": "https://res.app.ikea.cn/content/u/20220316/ff87dd719be64826bade3b7b01076e02.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "一间洗衣房，JONAXEL 尤纳赛尔 白色搁架单元上放着毛巾和衣物，旁边是一台洗衣机。",
+     "image": "https://res.app.ikea.cn/content/u/20220302/06c594ea1cef46c69031709fc709822c.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "598cd3cb98734af3aeb8ea10d1bee641"
    }
@@ -288,6 +473,38 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "MALM 马尔姆",
+     "text": "¥679",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/malm-ma-er-mu-san-dou-chou-ti-gui-bai-se__0484875_pe621342_s4.jpg",
+     "href": "/cn/zh/p/malm-ma-er-mu-san-dou-chou-ti-gui-bai-se-90354643/"
+    },
+    {
+     "title": "MALM 马尔姆",
+     "text": "¥599",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/malm-ma-er-mu-shu-zhuang-tai-bai-se__1400013_pe968487_s4.jpg",
+     "href": "/cn/zh/p/malm-ma-er-mu-shu-zhuang-tai-bai-se-40355409/"
+    },
+    {
+     "title": "STOCKHOLM 斯德哥尔摩",
+     "text": "¥499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/stockholm-si-de-ge-er-mo-jing-zi-hu-tao-mu-tie-mian__0633570_pe695904_s4.jpg",
+     "href": "/cn/zh/p/stockholm-si-de-ge-er-mo-jing-zi-hu-tao-mu-tie-mian-10446897/"
+    },
+    {
+     "title": "GRADVIS 格拉维斯",
+     "text": "¥59.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/gradvis-ge-la-wei-si-hua-ping-fen-hong-se__0524970_pe644685_s4.jpg",
+     "href": "/cn/zh/p/gradvis-ge-la-wei-si-hua-ping-fen-hong-se-00334701/"
+    },
+    {
+     "title": "HANDSKALAD 汉德卡拉",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/handskalad-han-de-qia-la-zhuang-shi-shou-ben-se__0628918_pe694107_s4.jpg",
+     "href": "/cn/zh/p/handskalad-han-de-qia-la-zhuang-shi-shou-ben-se-60463342/"
+    }
+   ],
    "settings": {
     "traceId": "bf128d8d0e4e4abea851c9409709b3af"
    }
@@ -312,6 +529,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220302/7d2d7f40413c413ea098d01971c60108.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20220302/7d2d7f40413c413ea098d01971c60108.jpg?x-oss-process=style/medium",
+     "href": null
+    },
+    {
+     "heading": "防止家具倾倒 了解什么是抽屉柜翻倒，以及如何避免这类意外。 查看安全信息",
+     "text": null,
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "fb4172e3e2664d8e8da4e28bf862b073"
    }
@@ -324,6 +565,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "41397d2e5bd2462aa12fee59fe0a2b42"
    }
@@ -332,10 +575,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><a href=\"#3e84e1618632457fb6e86287bdaf67be\">抽屉柜和储物盒</a>&nbsp; &nbsp;| &nbsp; <a href=\"#afdd09744bf84c128d91de18c366de53\">衣柜系列</a>&nbsp; &nbsp;|&nbsp; <a href=\"#744a6c0c37284764adde26e6677749d3\">&nbsp;床下储物系列&nbsp; &nbsp;</a></p>"
+    "抽屉柜和储物盒 | 衣柜系列 | 床下储物系列"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "f5e406c940c64fb4ac8c7d57a63f94dd"
    }
@@ -380,6 +625,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个宽敞的木制搁架单元，上面放着储物盒、花盆和鞋履。前面叠放着两把椅子。",
+     "image": "https://res.app.ikea.cn/content/u/20220303/d37b096710a842e8a6b9878b5ba18c6f.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "一间洗衣房，JONAXEL 尤纳赛尔 白色搁架单元上放着毛巾和衣物，旁边是一台洗衣机。",
+     "image": "https://file.app.ikea.cn/cms/u/20220316/1e0bbf074fb74d7da0ae3913ca5da636.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20220303/54216355e64d482998ec47cb34c4f891.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20220303/c85c15ca4e3b4f228ca9edac098ee6e1.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20220303/1b8a33a921e946849cc7a5f8d186b01e.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": "#111111"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "afdd09744bf84c128d91de18c366de53"
    }
@@ -402,6 +685,20 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "PAX 帕克思 / BERGSBO 伯尔思波",
+     "text": "¥3,480",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/pax-pa-ke-si-bergsbo-bo-er-si-bo-yi-gui-bai-se-bai-se__0649561_pe705624_s4.jpg",
+     "href": "/cn/zh/p/pax-pa-ke-si-bergsbo-bo-er-si-bo-yi-gui-bai-se-bai-se-29244917/"
+    },
+    {
+     "title": "PAX 帕克思 / BERGSBO 伯尔思波",
+     "text": "¥4,545",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/pax-pa-ke-si-bergsbo-bo-er-si-bo-yi-gui-zu-he-fang-bai-se-xiang-mu-wen__0872846_pe781616_s4.jpg",
+     "href": "/cn/zh/p/pax-pa-ke-si-bergsbo-bo-er-si-bo-yi-gui-zu-he-fang-bai-se-xiang-mu-wen-29336276/"
+    }
+   ],
    "settings": {
     "traceId": "693779aef8e04aaf9cfb8f5c881ba2f1"
    }
@@ -412,6 +709,8 @@
    "texts": [],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "991ef180b0da4473a67e066615014aa2"
    }
@@ -440,6 +739,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个宽敞的木制搁架单元，上面放着储物盒、花盆和鞋履。前面叠放着两把椅子。",
+     "image": "https://file.app.ikea.cn/cms/u/20220316/977c784045084cf7bd05e675e15ebafc.gif",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "fb47194d7dec4670bdda2c225086b96f"
    }
@@ -451,8 +760,8 @@
     "IMAGE",
     "wide",
     "image-text-landscape",
-    "<p>选择PAX 帕克思 衣柜，让你的各季衣物各得其位，可以自由搭配尺寸、颜色和样式等，并根据你的穿衣偏好定制柜内布局和内配件。</p>",
-    "PAX 帕克思 衣柜组合，        换季收纳更轻松",
+    "选择PAX 帕克思 衣柜，让你的各季衣物各得其位，可以自由搭配尺寸、颜色和样式等，并根据你的穿衣偏好定制柜内布局和内配件。",
+    "PAX 帕克思 衣柜组合， 换季收纳更轻松",
     "NO"
    ],
    "images": [
@@ -473,6 +782,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220317/d1422bc646404f0586dc61a16ea03b37.jpg",
+     "href": null,
+     "backgroundColor": "#6f7d66"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "e04676e5f61d4b3897360a7edf10da02"
    }
@@ -485,6 +804,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "b46c93acc23247b0a258e69ac2b4b381"
    }
@@ -493,10 +814,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><a href=\"#3e84e1618632457fb6e86287bdaf67be\">抽屉柜和储物盒</a>&nbsp; &nbsp;| &nbsp; <a href=\"#afdd09744bf84c128d91de18c366de53\">衣柜系列</a>&nbsp; &nbsp;|&nbsp; <a href=\"#744a6c0c37284764adde26e6677749d3\">&nbsp;床下储物系列&nbsp; &nbsp;</a></p>"
+    "抽屉柜和储物盒 | 衣柜系列 | 床下储物系列"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "f5e406c940c64fb4ac8c7d57a63f94dd"
    }
@@ -525,6 +848,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个宽敞的木制搁架单元，上面放着储物盒、花盆和鞋履。前面叠放着两把椅子。",
+     "image": "https://res.app.ikea.cn/content/u/20220316/90d9391cfa4f48dd8caf8f96ffba8900.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "744a6c0c37284764adde26e6677749d3"
    }
@@ -545,6 +878,26 @@
     {
      "href": "/cat/bm003",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "MALM 马尔姆",
+     "text": "¥3,999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/malm-ma-er-mu-gao-xiang-qi-ya-chuang-bai-se__0749127_pe745496_s4.jpg",
+     "href": "/cn/zh/p/malm-ma-er-mu-gao-xiang-qi-ya-chuang-bai-se-80404813/"
+    },
+    {
+     "title": "MALM 马尔姆",
+     "text": "¥2,499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/malm-ma-er-mu-gao-chuang-jia-dai-2-ge-chu-wu-he-bai-se-xiang-mu-tie-mian-lu-rui__1154398_pe886037_s4.jpg",
+     "href": "/cn/zh/p/malm-ma-er-mu-gao-chuang-jia-dai-2-ge-chu-wu-he-bai-se-xiang-mu-tie-mian-lu-rui-19200971/"
+    },
+    {
+     "title": "KLEPPSTAD 克勒普斯塔",
+     "text": "¥999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kleppstad-ke-le-pu-si-ta-chuang-jia-bai-se-wei-suo-er-mi-huang-se__1035340_pe840527_s4.jpg",
+     "href": "/cn/zh/p/kleppstad-ke-le-pu-si-ta-chuang-jia-bai-se-wei-suo-er-mi-huang-se-30492671/"
     }
    ],
    "settings": {
@@ -575,6 +928,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个宽敞的木制搁架单元，上面放着储物盒、花盆和鞋履。前面叠放着两把椅子。",
+     "image": "https://res.app.ikea.cn/content/u/20220302/9d1a1452db5746a5bc1195169f351c8d.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "f3aaf1b107df44a3b07cc969db5ccbf8"
    }
@@ -592,6 +955,32 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "SOCKERBIT 索克比",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/sockerbit-suo-ke-bi-fu-gai-chu-wu-he-bai-se__0662633_pe712054_s4.jpg",
+     "href": "/cn/zh/p/sockerbit-suo-ke-bi-fu-gai-chu-wu-he-bai-se-10411534/"
+    },
+    {
+     "title": "MALM 马尔姆",
+     "text": "¥500",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/malm-ma-er-mu-gao-chuang-jia-zhuan-yong-chu-wu-he-bai-se__0636233_pe697745_s4.jpg",
+     "href": "/cn/zh/p/malm-ma-er-mu-gao-chuang-jia-zhuan-yong-chu-wu-he-bai-se-00354497/"
+    },
+    {
+     "title": "STUK 斯图克",
+     "text": "¥69.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/stuk-si-tu-ke-chu-wu-dai-bai-se-hui-se__0711304_pe728142_s4.jpg",
+     "href": "/cn/zh/p/stuk-si-tu-ke-chu-wu-dai-bai-se-hui-se-30309578/"
+    },
+    {
+     "title": "SKUBB 思库布",
+     "text": "¥49.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/skubb-si-ku-bu-chu-wu-dai-bai-se__0711196_pe728065_s4.jpg",
+     "href": "/cn/zh/p/skubb-si-ku-bu-chu-wu-dai-bai-se-70294990/"
+    }
+   ],
    "settings": {
     "traceId": "1ac91cbbbe8943648580957e131e1d5c"
    }
@@ -603,7 +992,7 @@
     "IMAGE",
     "wide",
     "image-text-landscape",
-    "<p>趁着美好春光，不妨好好整理一下房间，重新调整状态。我们有许多美观又实用的家居收纳和用品，帮助你把家打理得井然有序，让春日生活更轻松自如。</p>",
+    "趁着美好春光，不妨好好整理一下房间，重新调整状态。我们有许多美观又实用的家居收纳和用品，帮助你把家打理得井然有序，让春日生活更轻松自如。",
     "更多焕新收纳好物",
     "NO"
    ],
@@ -625,6 +1014,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220309/16cabee62b3d4b97b3e01a784faff2ca.jpg",
+     "href": null,
+     "backgroundColor": "#d1ceaa"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "1c2d85481a5e4697b4b0d31a72800784"
    }

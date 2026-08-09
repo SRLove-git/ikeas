@@ -11,7 +11,7 @@
    "title": "为意外来客留出空间",
    "texts": [
     "有临时来客时，你能让他们在宜家 FYRESDAL 费斯多 坐卧两用床上舒适地休息。",
-    "<p>如果你突然发现有亲友要临时住进你的小空间，也无需担心。我们有一些巧妙的小窍门，能够让所有人保持愉快心情。</p>",
+    "如果你突然发现有亲友要临时住进你的小空间，也无需担心。我们有一些巧妙的小窍门，能够让所有人保持愉快心情。",
     "为意外来客留出空间",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "为意外来客留出空间",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/38/73/3873f0faae02efe3af6012b7e957662a.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -45,16 +55,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "有了宜家 FYRESDAL 费斯多 坐卧两用床，厨房这样的共享空间便可从日间用途无缝过渡到夜间用途了。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/08/b1/08b1bf35e85f84d4dd83b3998a614c98.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>多功能的奇妙家具</h2>\n<p>没有空卧室了？无需担心！一张舒适的坐卧两用床，能够从日间用途无缝过渡到夜间用途。将它放置在任意空间，便可打造出全新的临时卧室。再点缀上鲜花、纺织品和其他装饰品，营造出舒适温馨的氛围。</p>"
+    "多功能的奇妙家具 没有空卧室了？无需担心！一张舒适的坐卧两用床，能够从日间用途无缝过渡到夜间用途。将它放置在任意空间，便可打造出全新的临时卧室。再点缀上鲜花、纺织品和其他装饰品，营造出舒适温馨的氛围。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -76,16 +98,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "运用宜家 RÖMSKOG 罗姆斯古 等床底储物盒，可为小空间打造便于取用物品的储物空间。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/06/34/0634f2140dc5842bdb5fa7290fc50e24.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>巧妙自由运用细节</h2>\n<p>如果没有额外储物空间，不妨考虑一下床底。将衣物、配件和床上用品放在床底，不仅能够很好地收纳，且均触手可及。如果想让空间更具卧室的舒适感，可以用 IVAR 伊娃 和你最喜欢的纺织品打造出房间隔板，从而创造私人空间。多的椅子不用时可悬挂在墙上，为空间营造更为开放、轻快的感觉。</p>"
+    "巧妙自由运用细节 如果没有额外储物空间，不妨考虑一下床底。将衣物、配件和床上用品放在床底，不仅能够很好地收纳，且均触手可及。如果想让空间更具卧室的舒适感，可以用 IVAR 伊娃 和你最喜欢的纺织品打造出房间隔板，从而创造私人空间。多的椅子不用时可悬挂在墙上，为空间营造更为开放、轻快的感觉。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -106,6 +140,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "运用你最爱的纺织品打造屏风，营造一些私密感。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/99/2e/992e01660a01fd97b5cf9967e67a6110.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -128,6 +172,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "如果有很多椅子，空间里放不下，不妨选择折叠椅，不用时可以悬挂在墙上。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/cc/cf/cccf138af75172adf804cc53c6918a10.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -139,6 +193,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -158,6 +214,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "Soft and comfy bed textiles can make any part-time bedroom feel like the real deal.",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/6f/a0/6fa08129bca381e89f340e87c22a7312.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -180,6 +246,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "一顿美味的餐点能让每个人在你家都感到宾至如归。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/29/40/294006fb9769cb400c16fb27f4157165.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -202,26 +278,40 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "正是边喝茶边聊天这样平常的小细节，让宴请宾客成为了一件美妙的事。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ea/43/ea43c34f9934ba0114d41c914e0e2af6.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>我们乐意看到顾客运用我们的产品发挥创意。尽情发挥吧！但是请注意，经过微调或改造的宜家产品将失去其原有功能，或无法进行二次销售，因此，你将不再享有宜家的商业保证及退货权利。</p>"
+    "我们乐意看到顾客运用我们的产品发挥创意。尽情发挥吧！但是请注意，经过微调或改造的宜家产品将失去其原有功能，或无法进行二次销售，因此，你将不再享有宜家的商业保证及退货权利。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>制作人<br /></strong>室内设计师: Elin Hermansson<br />摄影师: Daniel Hertzell<br />撰稿人: Vanessa Algotsson<strong><br /></strong></p>"
+    "制作人 室内设计师: Elin Hermansson 摄影师: Daniel Hertzell 撰稿人: Vanessa Algotsson"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

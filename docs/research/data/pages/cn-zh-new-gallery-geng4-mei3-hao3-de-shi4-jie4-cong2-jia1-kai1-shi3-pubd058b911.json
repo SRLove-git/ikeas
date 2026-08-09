@@ -20,6 +20,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -30,16 +32,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>你可以享受更可持续的家居生活，不仅能为地球减轻负担，还可节省生活成本。减少食物浪费、使用可重复利用的购物袋、多吃素食、让衣服自然晾干&mdash;&mdash;这些小事看起来或许微不足道，却能够积少成多、聚沙成塔。</p>\n<p>宜家提供多种价格实惠的产品和解决方案，帮助你减少浪费、节能节水。也许你自己都没有意识到，你已经在使用这其中的某些产品了。若真是这样，你在不经意间就做了环保善举，值得我们尊敬。</p>"
+    "你可以享受更可持续的家居生活，不仅能为地球减轻负担，还可节省生活成本。减少食物浪费、使用可重复利用的购物袋、多吃素食、让衣服自然晾干——这些小事看起来或许微不足道，却能够积少成多、聚沙成塔。 宜家提供多种价格实惠的产品和解决方案，帮助你减少浪费、节能节水。也许你自己都没有意识到，你已经在使用这其中的某些产品了。若真是这样，你在不经意间就做了环保善举，值得我们尊敬。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -49,9 +55,9 @@
     "pub-column",
     "https://v.youku.com/v_show/id_XNDA5NzI0NTIwMA==.html?spm=a2h3j.8428770.3416059.1",
     "pub-video-link",
-    "<p><em>气候行动，从家开始。</em></p>",
+    "气候行动，从家开始。",
     "MANUAL_INPUT",
-    "<h2>宜家正在全力打造更可持续的未来</h2>\n<p>可持续发展对宜家至关重要。我们知道，对你也很重要。因此，我们正在全力以赴地做真正重要的事情&mdash;&mdash;将所有照明产品系列全部换成了高效节能的LED灯，并确保我们使用的棉花全部来自于更可持续的来源。你知道，我们的目标是激励并帮助超过十亿人过上更健康、更可持续的家居生活。我们齐心协力，可以带来巨大的改变。马上行动吧！</p>"
+    "宜家正在全力打造更可持续的未来 可持续发展对宜家至关重要。我们知道，对你也很重要。因此，我们正在全力以赴地做真正重要的事情——将所有照明产品系列全部换成了高效节能的LED灯，并确保我们使用的棉花全部来自于更可持续的来源。你知道，我们的目标是激励并帮助超过十亿人过上更健康、更可持续的家居生活。我们齐心协力，可以带来巨大的改变。马上行动吧！"
    ],
    "images": [],
    "links": [
@@ -60,6 +66,16 @@
      "text": "\n<p><em>气候行动，从家开始。</em></p>\n"
     }
    ],
+   "items": [],
+   "columns": [
+    {
+     "heading": "宜家正在全力打造更可持续的未来 可持续发展对宜家至关重要。我们知道，对你也很重要。因此，我们正在全力以赴地做真正重要的事情——将所有照明产品系列全部换成了高效节能的LED灯，并确保我们使用的棉花全部来自于更可持续的来源。你知道，我们的目标是激励并帮助超过十亿人过上更健康、更可持续的家居生活。我们齐心协力，可以带来巨大的改变。马上行动吧！",
+     "text": null,
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -82,16 +98,42 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "小女孩坐在餐桌旁，手中拿着一个盘子，正等着吃 ALLEMANSRÄTTEN 蔬菜丸。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/2a/7f/2a7f42cd8d063c894247ccc0f9eb5262.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/2a/7f/2a7f42cd8d063c894247ccc0f9eb5262.jpg",
+     "href": null
+    },
+    {
+     "heading": "素食之美 健康对你来说意味着什么？我们认为，健康就是平时要做出对个人身体和环境都有益的明智选择。健康就是要摄入更为均衡的饮食，少吃肉，多吃各类蔬菜和素食。我们想制作出既符合这一健康目标，又美味实惠的食品，让你轻轻松松享有健康生活。",
+     "text": null,
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><em><strong>你知道吗？</strong></em></p>\n<ul>\n<li>最新研究显示，一天都吃纯素食，可减少食物中高达73%的碳足迹。<br /><br /></li>\n<li>宜家小餐馆供应的素热狗对环境的影响比传统热狗的影响低7倍。下次试着选择这款与众不同的热狗，减少你的碳足迹。</li>\n</ul>"
+    "你知道吗？ 最新研究显示，一天都吃纯素食，可减少食物中高达73%的碳足迹。 宜家小餐馆供应的素热狗对环境的影响比传统热狗的影响低7倍。下次试着选择这款与众不同的热狗，减少你的碳足迹。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -112,6 +154,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -134,16 +178,42 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "一位女士站在水槽边，开着 ÄLMAREN 艾玛兰 厨房水龙头，正在冲洗一把小萝卜。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d2/c9/d2c92e76c1c773434e05e37cf6b5224f.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/d2/c9/d2c92e76c1c773434e05e37cf6b5224f.jpg",
+     "href": null
+    },
+    {
+     "heading": "充分利用各类节水方式 专家告诉我们，地球上仅有不到3%的水为淡水。水是人类共有的珍贵资源，节约用水，人人有责。正因为如此，我们提供用于厨房和浴室的节水型水龙头和顶喷花洒，可以有效减少用水量。因为每一滴水都很珍贵。",
+     "text": null,
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><em><strong>你知道吗？</strong></em></p>\n<p>避免不必要的冲水，每次可节约超过6升水，如果你使用的是较老旧的马桶，还能节省更多。尽可能少冲厕所，节约用水。</p>"
+    "你知道吗？ 避免不必要的冲水，每次可节约超过6升水，如果你使用的是较老旧的马桶，还能节省更多。尽可能少冲厕所，节约用水。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -164,6 +234,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -186,16 +258,42 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "夜晚，小女孩穿着睡衣躺在床上，借着夜照明灯的光看书。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/5d/4a/5d4a5b5c05fcaed53a7550efb7323b19.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/5d/4a/5d4a5b5c05fcaed53a7550efb7323b19.jpg",
+     "href": null
+    },
+    {
+     "heading": "足不出户，就能节省开支，保护地球。 有许多力所能及的小事，能让你拥有更节能、更可持续的家居生活。只需做到：让衣服自然晾干，出门前关闭闲置的灯和电器，只在全负载的情况下运作洗碗机和洗衣机，便可节省一大笔开支，同时为保护环境作出巨大贡献。我们还开发了一系列产品，既可助你进一步减少碳足迹，又可保证你的生活质量，来助你一臂之力。",
+     "text": null,
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><em><strong>你知道吗？</strong></em></p>\n<p>在黄昏时刻拉上窗帘，就可减少约10%因窗户造成的热量损失。</p>"
+    "你知道吗？ 在黄昏时刻拉上窗帘，就可减少约10%因窗户造成的热量损失。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -216,6 +314,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -236,6 +336,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -258,16 +360,42 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "一位男士正在用三个 IKEA 365+ 食品盒为自己准备午餐。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/5e/44/5e441facb171a2451a950fa4180f5ad1.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/5e/44/5e441facb171a2451a950fa4180f5ad1.jpg",
+     "href": null
+    },
+    {
+     "heading": "减少浪费，刻不容缓 无论是在厨房打造个性化回收站，制定每周食谱，还是将剩菜存放在冰箱内，只使用真正所需的物品既可防止浪费，又可轻松节省开支。而且这毫不费力，人人都可轻松做到。",
+     "text": null,
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><em><strong>你知道吗？</strong></em></p>\n<p>每年供全球人类食用的食物中，约有1/3遭丢弃或浪费。</p>"
+    "你知道吗？ 每年供全球人类食用的食物中，约有1/3遭丢弃或浪费。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -288,6 +416,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -299,7 +429,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<h2>家用太阳能</h2>\n<p>太阳能是来自太阳的能量。它清洁可再生，对环境有益。选择宜家的家用太阳能产品，你就可以利用阳光来为日常生活供能，并更加高效地管理用电量。以这种方式运用清洁可再生的能源，不仅能够更好地控制电费，还能够保护地球。美好的家居生活从屋顶开始。</p>"
+    "家用太阳能 太阳能是来自太阳的能量。它清洁可再生，对环境有益。选择宜家的家用太阳能产品，你就可以利用阳光来为日常生活供能，并更加高效地管理用电量。以这种方式运用清洁可再生的能源，不仅能够更好地控制电费，还能够保护地球。美好的家居生活从屋顶开始。"
    ],
    "images": [
     "https://file.app.ikea.cn/images/5d/e9/5de97122fb4b8ab2869e91be2b70e8dd.jpg"
@@ -310,16 +440,42 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "身穿红色T恤的男孩拉开黄色窗帘，让阳光照进来。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/5d/e9/5de97122fb4b8ab2869e91be2b70e8dd.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/5d/e9/5de97122fb4b8ab2869e91be2b70e8dd.jpg",
+     "href": null
+    },
+    {
+     "heading": "家用太阳能 太阳能是来自太阳的能量。它清洁可再生，对环境有益。选择宜家的家用太阳能产品，你就可以利用阳光来为日常生活供能，并更加高效地管理用电量。以这种方式运用清洁可再生的能源，不仅能够更好地控制电费，还能够保护地球。美好的家居生活从屋顶开始。",
+     "text": null,
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><em><strong>你知道吗？</strong></em></p>\n<p>使用家用太阳能产品的顾客平均每年节省电费约400欧元。</p>"
+    "你知道吗？ 使用家用太阳能产品的顾客平均每年节省电费约400欧元。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -340,6 +496,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -359,26 +517,40 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "宜家标志和“生活更美好”标语的旁边放着一台银色手机，手机屏幕上显示着宜家“生活更美好”应用程序界面。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/0e/cc/0ecc872e5134836a18ade9cfa8560cf6.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>准备好采取下一步行动了吗？</h2>\n<p>宜家&ldquo;生活更美好&rdquo;应用程序教你如何通过些许简单的小行动，来即刻减少环境足迹。实时了解你的日常行为带来的影响，还可以向他人发起挑战，激励大家一起行动！要知道，即便这些行为看起来微不足道，但若许多人一起行动，就能积少成多，最终实现巨大的改变。</p>"
+    "准备好采取下一步行动了吗？ 宜家“生活更美好”应用程序教你如何通过些许简单的小行动，来即刻减少环境足迹。实时了解你的日常行为带来的影响，还可以向他人发起挑战，激励大家一起行动！要知道，即便这些行为看起来微不足道，但若许多人一起行动，就能积少成多，最终实现巨大的改变。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><em>在手机app中心下载&ldquo;生活更美好&rdquo;应用程序。</em></p>"
+    "在手机app中心下载“生活更美好”应用程序。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -389,7 +561,7 @@
     "https://v.youku.com/v_show/id_XNDA5NzI0NzgxNg==.html?spm=a2h3j.8428770.3416059.1",
     "pub-video-link",
     "MANUAL_INPUT",
-    "<h2>给予人们力量</h2>\n<p>IKEA Foundation致力于帮助全球部分最贫困的社区消除能源贫困。因此，它为&ldquo;更美好的世界从家开始&rdquo;行动提供支持，项目投资逾4千万欧元。该项目由5个合作伙伴运营，旨在为家庭提供可再生能源，为他们的社区供能，保并障他们未来的生活&mdash;&mdash;因为能源能够带给家庭力量。可再生能源给予家庭美好的未来。</p>",
+    "给予人们力量 IKEA Foundation致力于帮助全球部分最贫困的社区消除能源贫困。因此，它为“更美好的世界从家开始”行动提供支持，项目投资逾4千万欧元。该项目由5个合作伙伴运营，旨在为家庭提供可再生能源，为他们的社区供能，保并障他们未来的生活——因为能源能够带给家庭力量。可再生能源给予家庭美好的未来。",
     "pub-text"
    ],
    "images": [],
@@ -399,6 +571,16 @@
      "text": ""
     }
    ],
+   "items": [],
+   "columns": [
+    {
+     "heading": "给予人们力量 IKEA Foundation致力于帮助全球部分最贫困的社区消除能源贫困。因此，它为“更美好的世界从家开始”行动提供支持，项目投资逾4千万欧元。该项目由5个合作伙伴运营，旨在为家庭提供可再生能源，为他们的社区供能，保并障他们未来的生活——因为能源能够带给家庭力量。可再生能源给予家庭美好的未来。",
+     "text": null,
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -418,16 +600,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "仁人家园（Habitat for Humanity）组织的黑白标志。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/0d/fc/0dfce92cf9de427c9a89446270cfaafc.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>仁人家园</strong>汇聚社区、政府、家庭和当地企业的力量，共同设计、支持和提供可再生能源解决方案，让可再生能源走进千家万户，帮助<strong>乌干达</strong>约7万儿童及其家庭。</p>"
+    "仁人家园汇聚社区、政府、家庭和当地企业的力量，共同设计、支持和提供可再生能源解决方案，让可再生能源走进千家万户，帮助乌干达约7万儿童及其家庭。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -447,16 +641,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "“一亩基金（One Acre Fund）”的绿色标志",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ef/02/ef0256639a8fa56266b330cedbc9a290.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>为鼓励气候智能型农业，<strong>&ldquo;一亩基金（One Acre Fund）&rdquo;</strong>正为<strong>肯尼亚</strong>、<strong>卢旺达</strong>和<strong>乌干达</strong>的29万农民提供其养家糊口、照明和应对气候变化所需的工具。</p>"
+    "为鼓励气候智能型农业，“一亩基金（One Acre Fund）”正为肯尼亚、卢旺达和乌干达的29万农民提供其养家糊口、照明和应对气候变化所需的工具。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -476,16 +682,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "“雨林联盟”的黑白青蛙标志。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/cf/3a/cf3a3f7ee5fe3f70017d43d0600cfa1c.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>在<strong>肯尼亚</strong>，<strong>&ldquo;雨林联盟&rdquo;</strong>提倡当地人使用生物燃料，支持节能实践，旨在帮助当地5万农民增加收入，减少碳排放，并为自己的家庭建设更健康的家园。</p>"
+    "在肯尼亚，“雨林联盟”提倡当地人使用生物燃料，支持节能实践，旨在帮助当地5万农民增加收入，减少碳排放，并为自己的家庭建设更健康的家园。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -505,16 +723,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "SELCO基金会的红色标志。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/dc/53/dc53c7e45f62e22feaf5667ae4f0ea80.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>在<strong>印度</strong>，<strong>SELCO基金会</strong>建立并投资可再生能源企业，帮助当地贫困社区的16万成人和40万儿童拥有更健康的家，享受更好的医疗服务，并获得受教育机会。</p>"
+    "在印度，SELCO基金会建立并投资可再生能源企业，帮助当地贫困社区的16万成人和40万儿童拥有更健康的家，享受更好的医疗服务，并获得受教育机会。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -534,16 +764,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "联合国难民署的蓝色标志。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b0/69/b0699f12d1b6465334ab3d3e8307fdf3.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>在<strong>卢旺达</strong>和<strong>约旦</strong>，<strong>联合国难民署</strong>为难民营和当地社区提供可再生能源，满足6万儿童和家庭的日常需求，让他们拥有更安全、更健康、更有益的生活。</p>"
+    "在卢旺达和约旦，联合国难民署为难民营和当地社区提供可再生能源，满足6万儿童和家庭的日常需求，让他们拥有更安全、更健康、更有益的生活。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -563,16 +805,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "IKEA Foundation的黑色标志，旁边是宜家的蓝黄色标志。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/58/3e/583efaa1162a612e0b5a68f8ec6b6f32.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>更多详情请访问： <a title=\"ikeafoundation.org\" href=\"http://www.ikeafoundation.org\">www.ikeafoundation.org</a></p>"
+    "更多详情请访问： www.ikeafoundation.org"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

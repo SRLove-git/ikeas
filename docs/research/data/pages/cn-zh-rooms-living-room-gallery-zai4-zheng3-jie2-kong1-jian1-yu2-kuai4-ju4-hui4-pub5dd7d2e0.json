@@ -11,7 +11,7 @@
    "title": "在整洁空间愉快聚会",
    "texts": [
     "米色客厅里，有一张灰色PÄRUP 派如普 沙发，上面有3个靠垫。前面有一张茶几，上面放着饮料和小吃。",
-    "<p>想在紧凑的客厅存放更多物品，但又不想让客厅看起来太拥挤？组合不同高度的开放式和封闭式柜子，这样就能继续展示你的心爱好物。最后添置一张简洁利落的大沙发，作为客厅的中心，与家人朋友一起放松，或享受惬意的独处时光。</p>",
+    "想在紧凑的客厅存放更多物品，但又不想让客厅看起来太拥挤？组合不同高度的开放式和封闭式柜子，这样就能继续展示你的心爱好物。最后添置一张简洁利落的大沙发，作为客厅的中心，与家人朋友一起放松，或享受惬意的独处时光。",
     "在整洁空间愉快聚会",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "在整洁空间愉快聚会",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/90/b9/90b93cdede455451a8aff7aecea8cb12.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -50,6 +60,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个女人正躺在灰色沙发上看书，她的头枕在靠垫上，而一个机器人吸尘器正在清扫沙发下面。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/749a68d2ce122b3e/original/PE836846-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -76,6 +96,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "灰色沙发后面有一个LÖRBY 洛尔布 磁性USB充电器，上面连着两根充电线，其中一根连接着手机。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/2f770c94361dee5c/original/PE816836-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -102,6 +132,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个摆放着玻璃器皿和其他装饰品的RUDSTA 鲁德斯塔 玻璃门柜，旁边是一个开着门的米色柜子。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/68fa9bcb30c4d476/original/PE816500-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -128,6 +168,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "TULLSTORP 图斯托普 米色柜子的开放式搁板，里面放着一个花瓶、几本书和一个篮子。柜顶放着盒子和玻璃花瓶。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/bcef15a04173ddb/original/PE816501-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -146,6 +196,45 @@
     {
      "href": "/cat/fu001",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "丰富产品助你打造平和整洁的客厅",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/fu001",
+     "backgroundColor": null
+    },
+    {
+     "title": "PÄRUP 派如普",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/paerup-pai-ru-pu-san-ren-sha-fa-wei-suo-er-hui-se__1041907_pe841187_s4.jpg",
+     "href": "/cn/zh/p/paerup-pai-ru-pu-san-ren-sha-fa-wei-suo-er-hui-se-79389470/"
+    },
+    {
+     "title": "RUDSTA 鲁德斯塔",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/rudsta-lu-de-si-ta-bo-li-men-gui-qian-qing-lu-se__0939000_pe794385_s4.jpg",
+     "href": "/cn/zh/p/rudsta-lu-de-si-ta-bo-li-men-gui-qian-qing-lu-se-90450135/"
+    },
+    {
+     "title": "FLÅDIS 弗拉迪",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/fladis-fu-la-di-lan-hai-cao__0713073_pe729177_s4.jpg",
+     "href": "/cn/zh/p/fladis-fu-la-di-lan-hai-cao-40322174/"
+    },
+    {
+     "title": "SJÄLSLIGT 梵思吉",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/sjaelsligt-fan-si-ji-zhuang-shi-pin-3-jian-tao-lu-se__0637480_pe698310_s4.jpg",
+     "href": "/cn/zh/p/sjaelsligt-fan-si-ji-zhuang-shi-pin-3-jian-tao-lu-se-80343297/"
+    },
+    {
+     "title": "LÖRBY 洛尔布",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/loerby-luo-er-bu-usb-chong-dian-qi-dai-jia__0548169_pe656999_s4.jpg",
+     "href": "/cn/zh/p/loerby-luo-er-bu-usb-chong-dian-qi-dai-jia-10360271/"
     }
    ],
    "settings": null

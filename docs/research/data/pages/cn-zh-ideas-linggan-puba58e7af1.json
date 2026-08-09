@@ -11,7 +11,7 @@
    "title": "如何悬挂创意收藏品",
    "texts": [
     "一面照片墙，饰有不同尺寸的壁挂艺术品、镜子和个人物品。",
-    "<p>想要为你的下一个照片墙增添一些个人风格？查看我们的设计师Emma的视频，了解如何悬挂创意收藏品。这段视频能帮你把杂乱的画框改造为富有艺术气息的个性照片墙。</p>",
+    "想要为你的下一个照片墙增添一些个人风格？查看我们的设计师Emma的视频，了解如何悬挂创意收藏品。这段视频能帮你把杂乱的画框改造为富有艺术气息的个性照片墙。",
     "如何悬挂创意收藏品",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "如何悬挂创意收藏品",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/12/4b/124b5398d03138999f820e873985cf49.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -40,6 +50,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -51,16 +63,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>制作人</strong></p>\n<p>室内设计师：Emma Parkinson<br />摄影师：Sandra Werud</p>"
+    "制作人 室内设计师：Emma Parkinson 摄影师：Sandra Werud"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

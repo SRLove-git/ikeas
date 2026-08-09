@@ -1,21 +1,32 @@
 import type { ContentPageData } from "./pages-types";
-import campaigns from "./pages/campaigns.json";
-import customerService from "./pages/customer-service.json";
-import asIsOnline from "./pages/as-is-online.json";
-import ideas from "./pages/ideas.json";
-import ikeaBusiness from "./pages/ikea-business.json";
-import landingPage from "./pages/landing-page.json";
-import lifeAtHome from "./pages/life-at-home.json";
-import newPages from "./pages/new.json";
-import newsroom from "./pages/newsroom.json";
-import planners from "./pages/planners.json";
-import productGuides from "./pages/product-guides.json";
-import rooms from "./pages/rooms.json";
-import root from "./pages/root.json";
-import safetyAtHome from "./pages/safety-at-home.json";
-import stores from "./pages/stores.json";
-import thisIsIkea from "./pages/this-is-ikea.json";
+import { loadDataJsonOptional } from "@/lib/data-files";
 import { contentPages as legacyPages } from "./pages";
+
+const FAMILY_FILES = [
+  "campaigns",
+  "customer-service",
+  "as-is-online",
+  "ideas",
+  "ikea-business",
+  "landing-page",
+  "life-at-home",
+  "new",
+  "newsroom",
+  "planners",
+  "product-guides",
+  "rooms",
+  "root",
+  "safety-at-home",
+  "stores",
+  "this-is-ikea",
+  "galleries",
+  "business",
+  "landing",
+  "services",
+  "rooms-articles",
+] as const;
+
+const EMPTY_PAGES: ContentPageData[] = [];
 
 const legacyContentPages: ContentPageData[] = legacyPages.map((page) => ({
   url: page.url,
@@ -35,34 +46,36 @@ const legacyContentPages: ContentPageData[] = legacyPages.map((page) => ({
   })),
 }));
 
-const crawledPages: ContentPageData[] = [
-  ...campaigns,
-  ...customerService,
-  ...asIsOnline,
-  ...ideas,
-  ...ikeaBusiness,
-  ...landingPage,
-  ...lifeAtHome,
-  ...newPages,
-  ...newsroom,
-  ...planners,
-  ...productGuides,
-  ...rooms,
-  ...root,
-  ...safetyAtHome,
-  ...stores,
-  ...thisIsIkea,
-];
-
 // New crawl wins; legacy pages fill the gaps (e.g. landing pages).
-const byUrl = new Map<string, ContentPageData>();
-for (const page of [...crawledPages, ...legacyContentPages]) {
-  const key = page.url.replace(/\/$/, "");
-  if (!byUrl.has(key)) byUrl.set(key, page);
+// Indexes are rebuilt whenever the underlying JSON files change, so CMS edits
+// become visible without restarting the process.
+let builtFor: ContentPageData[] | null = null;
+let contentPageList: ContentPageData[] = [];
+let contentPagesByUrlMap = new Map<string, ContentPageData>();
+
+function ensureIndexes(): void {
+  const current = FAMILY_FILES.flatMap((family) =>
+    loadDataJsonOptional<ContentPageData[]>(`pages/${family}.json`, EMPTY_PAGES),
+  );
+  if (builtFor === current) return;
+  builtFor = current;
+  const byUrl = new Map<string, ContentPageData>();
+  for (const page of [...current, ...legacyContentPages]) {
+    const key = page.url.replace(/\/$/, "");
+    if (!byUrl.has(key)) byUrl.set(key, page);
+  }
+  contentPageList = [...byUrl.values()];
+  contentPagesByUrlMap = new Map(
+    contentPageList.map((page) => [page.url.replace(/\/$/, ""), page]),
+  );
 }
 
-export const contentPages: ContentPageData[] = [...byUrl.values()];
+export function contentPages(): ContentPageData[] {
+  ensureIndexes();
+  return contentPageList;
+}
 
-export const contentPagesByUrl = new Map(
-  contentPages.map((page) => [page.url.replace(/\/$/, ""), page]),
-);
+export function contentPagesByUrl(): Map<string, ContentPageData> {
+  ensureIndexes();
+  return contentPagesByUrlMap;
+}

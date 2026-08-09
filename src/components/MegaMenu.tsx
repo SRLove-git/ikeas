@@ -64,15 +64,15 @@ export function MegaMenu({ categories }: MegaMenuProps) {
                 <div className="pub-columns two-columns">
                   <div className="pub-columns__item">
                     <div className="pub-columns__content">
-                      <Link href="/cn/zh/customer-service/services/kitchen-planning/">
-                        <p>宜家全屋设计</p>
+                      <Link href="/cn/zh/all-products/">
+                        <p>BUZUD 产品中心</p>
                       </Link>
                     </div>
                   </div>
                   <div className="pub-columns__item">
                     <div className="pub-columns__content">
-                      <Link href="/cn/zh/ikea-business/">
-                        <p>宜家对公业务</p>
+                      <Link href="/cn/zh/customer-service/">
+                        <p>客户服务</p>
                       </Link>
                     </div>
                   </div>
@@ -84,12 +84,12 @@ export function MegaMenu({ categories }: MegaMenuProps) {
                 <div className="inspiration-cards">
                   <div className="i-carousel i-carousel--only-one-slide">
                     <div className="swiper">
-                      <p className="menu-resource-placeholder">家居灵感</p>
+                      <p className="menu-resource-placeholder">健康产品精选</p>
                     </div>
                   </div>
                 </div>
                 <div className="pub-image">
-                  <Link href="/cn/zh/ideas/rooms-inspiration/">
+                  <Link href="/cn/zh/all-products/">
                     <div className="i-aspect-ratio-box i-aspect-ratio-box--standard">
                       <ChevronRightIcon width={24} height={24} />
                     </div>

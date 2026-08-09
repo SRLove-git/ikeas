@@ -10,7 +10,7 @@
    "type": "pub-hero",
    "title": "上夜班",
    "texts": [
-    "<p>想要睡上一觉？拉上内层的遮光百叶帘，让卧室从白天变成黑夜。外层的厚窗帘带来舒适感，并减少周围的噪音。喜欢这样的窗帘组合？</p>",
+    "想要睡上一觉？拉上内层的遮光百叶帘，让卧室从白天变成黑夜。外层的厚窗帘带来舒适感，并减少周围的噪音。喜欢这样的窗帘组合？",
     "上夜班",
     "normal"
    ],
@@ -23,6 +23,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "上夜班",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/af/c2/afc2215438bc39689bef755abfe691df.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -38,6 +48,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

@@ -11,7 +11,7 @@
    "title": "以自然为灵感的灵活客厅",
    "texts": [
     "客厅里运用柳条和木材装饰，还摆放了一张米色沙发。",
-    "<p>如果你需要在客厅里度过大部分时间，那就应该布置一个灵活的空间，满足你的多种需求。天然的材质、素净的颜色和模块式家具是打造灵活客厅的理想之选。</p>",
+    "如果你需要在客厅里度过大部分时间，那就应该布置一个灵活的空间，满足你的多种需求。天然的材质、素净的颜色和模块式家具是打造灵活客厅的理想之选。",
     "以自然为灵感的灵活客厅",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "以自然为灵感的灵活客厅",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/68/b3/68b35e847910dac2a32eed1597180d51.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -43,16 +53,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "Mikael Axelsson的照片。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/8a/7f/8a7f607f66a6d7dc52f77eee4c9462ba.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>灵活的家具&nbsp;</strong> &nbsp;KUNGSHAMN 昆沙姆 模块沙发专为灵活空间而设计，能够满足你的使用需求。KUNGSHAMN 昆沙姆 设计师Mikael Axelsson喜欢简洁，他说：&ldquo;我不想为了加入某种元素而刻意去加入某种元素。如果产品的功能性和美学性能够相得益彰，那就更好了。&rdquo;这款沙发配有易拆洗沙发套，提供三种颜色选择，可随意搭配。</p>"
+    "灵活的家具 KUNGSHAMN 昆沙姆 模块沙发专为灵活空间而设计，能够满足你的使用需求。KUNGSHAMN 昆沙姆 设计师Mikael Axelsson喜欢简洁，他说：“我不想为了加入某种元素而刻意去加入某种元素。如果产品的功能性和美学性能够相得益彰，那就更好了。”这款沙发配有易拆洗沙发套，提供三种颜色选择，可随意搭配。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -75,26 +97,40 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "书、花盆和植物摆放在客厅里的木质与金属搁架单元上。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/2e/b7/2eb75f7c9a575a6c808bdffcca46301d.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>简洁而坚固的材料</strong>&nbsp; &nbsp; &nbsp;FJ&Auml;LLBO 耶伯 搁架系列十分简洁，仅用坚固的金属和木材制成。产品外观质朴，可随心搭配各种风格，比如简约、朴素风格或者营造舒适惬意之感。可选择系列全套来打造展示墙，或者搭配已有的家具。</p>"
+    "简洁而坚固的材料 FJäLLBO 耶伯 搁架系列十分简洁，仅用坚固的金属和木材制成。产品外观质朴，可随心搭配各种风格，比如简约、朴素风格或者营造舒适惬意之感。可选择系列全套来打造展示墙，或者搭配已有的家具。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>在线寻找更多客厅灵感</p>"
+    "在线寻找更多客厅灵感"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

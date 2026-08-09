@@ -11,7 +11,7 @@
    "title": "充满现代风格的高效办公室",
    "texts": [
     "一个开放式办公室，中间有一个摆满植物装饰的搁架单元，四周是摆放着照明灯具的工作站。",
-    "<p>如果你的公司需要营造让员工专注投入的工作环境，确保工作准确有序，不妨尝试将办公室划分成围绕中心分布的多个独立工作站。浅淡的中性色调，加上温馨风格的木材，令整个空间充满宁静舒适的氛围，每个人都能在宽敞的空间里专心工作。</p>",
+    "如果你的公司需要营造让员工专注投入的工作环境，确保工作准确有序，不妨尝试将办公室划分成围绕中心分布的多个独立工作站。浅淡的中性色调，加上温馨风格的木材，令整个空间充满宁静舒适的氛围，每个人都能在宽敞的空间里专心工作。",
     "充满现代风格的高效办公室",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "充满现代风格的高效办公室",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/7f/43/7f4332328f7113816103540a79d8df23.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -50,6 +60,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "摆放在桌子底下的BEKANT 贝肯特 储物单元，其中的抽屉拉开，搁架上放着一些物品。一侧的挂钩上挂放着一个耳机。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/2a25853b7d8dbee4/original/PH167184-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -76,6 +96,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "在一个大窗户旁边，有两张BEKANT 贝肯特 转角桌相对拼合在一起。每张桌子都配有一张JÄRVFJÄLLET 耶勒乌弗亚列特 椅子和一个储物单元。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/4614fc55b12e58cd/original/PH167182-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -102,6 +132,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "摆放着会议桌和椅子的会议室。后面是一个窗户，窗台上有两棵盆栽植物，以及一个白色的投影屏幕。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/305889f08116d9e5/original/PH167098-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -117,16 +157,38 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "GALANT 佳兰特",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/galant-jia-lan-te-tui-la-men-gui-zi-bai-se__0613083_pe686153_s4.jpg",
+     "href": "/cn/zh/p/galant-jia-lan-te-tui-la-men-gui-zi-bai-se-10365136/"
+    },
+    {
+     "title": "RANARP 勒纳普",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ranarp-le-na-pu-gong-zuo-deng-hui-bai__0610455_pe685514_s4.jpg",
+     "href": "/cn/zh/p/ranarp-le-na-pu-gong-zuo-deng-hui-bai-90231317/"
+    },
+    {
+     "title": "NYMÅNE 纽墨奈",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/nymane-niu-mo-nai-diao-deng-bai-se__0485490_pe621551_s4.jpg",
+     "href": "/cn/zh/p/nymane-niu-mo-nai-diao-deng-bai-se-90407142/"
+    }
+   ],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>声明</h2>\n<p>此解决方案包含一系列家用和非家用产品。请确认所购产品可在你的空间内发挥预期用途，并符合有关标准。如需了解该系列的更多信息，请联系宜家对公业务部。</p>"
+    "声明 此解决方案包含一系列家用和非家用产品。请确认所购产品可在你的空间内发挥预期用途，并符合有关标准。如需了解该系列的更多信息，请联系宜家对公业务部。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

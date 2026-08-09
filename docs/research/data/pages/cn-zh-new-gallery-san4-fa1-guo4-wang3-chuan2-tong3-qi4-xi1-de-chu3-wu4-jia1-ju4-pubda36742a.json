@@ -11,7 +11,7 @@
    "title": "散发过往传统气息的储物家具",
    "texts": [
     "LOMMARP 鲁马尔普 米色储物柜采用精美工艺细节和把手设计，打造出传统风格外观。",
-    "<p>LOMMARP 鲁马尔普 储物家具融合了传统外观与现代都市生活态度。该系列采用简约美观的工艺设计，既适合现代公寓，也适合田园风情住宅。书柜、储物柜和玻璃门橱柜均有浅米色和深蓝绿色可选。</p>",
+    "LOMMARP 鲁马尔普 储物家具融合了传统外观与现代都市生活态度。该系列采用简约美观的工艺设计，既适合现代公寓，也适合田园风情住宅。书柜、储物柜和玻璃门橱柜均有浅米色和深蓝绿色可选。",
     "散发过往传统气息的储物家具",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "散发过往传统气息的储物家具",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/72/2a/722af9f19657189400b6709eb7621044.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -45,16 +55,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "LOMMARP 鲁马尔普 米色储物柜和书柜采用传统风格，饰以精美细节，呈现出优雅外观。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/42/70/4270feff79e2e53a166c8a69b2846453.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>LOMMARP 鲁马尔普 储物柜和书柜风格优雅，细节精美，散发传统气息，同时又十分简洁，适合现代家居。</p>"
+    "LOMMARP 鲁马尔普 储物柜和书柜风格优雅，细节精美，散发传统气息，同时又十分简洁，适合现代家居。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -82,6 +104,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "特写：深蓝绿色 LOMMARP 鲁马尔普 玻璃门橱柜附带把手，呈现出传统风格外观。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/29/4f/294fe3762f7a93ad98dead2630309dad.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "深蓝绿色 LOMMARP 鲁马尔普 玻璃门橱柜饰以精美细节，呈现出传统风格外观。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/1e/93/1e936bc283f053dad8be5dfec8eb006b.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "LOMMARP 鲁马尔普 玻璃门橱柜采用传统细节设计，比如把手。利用该储物系列装点现代生活，为你的家增添一丝过往传统气息。",
+     "image": "https://file.app.ikea.cn/images/29/4f/294fe3762f7a93ad98dead2630309dad.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/1e/93/1e936bc283f053dad8be5dfec8eb006b.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   }
  ]

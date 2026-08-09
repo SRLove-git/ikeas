@@ -11,7 +11,7 @@
    "title": "专为厨房设计",
    "texts": [
     "PINNARP 匹纳普 操作台面为白蜡木饰面，采用关怀自然的精心设计，为厨房营造出纯正的木质感。台面结实耐磨，经典美观。",
-    "<p>选用本月新品，为厨房营造自然之感。</p><p>比如说，选用 PINNARP 匹纳普 操作台面，这款产品为白蜡木饰面，采用创新技术打造而成，不仅节省实心木材，还能为厨房营造出纯正的木质感。</p>",
+    "选用本月新品，为厨房营造自然之感。比如说，选用 PINNARP 匹纳普 操作台面，这款产品为白蜡木饰面，采用创新技术打造而成，不仅节省实心木材，还能为厨房营造出纯正的木质感。",
     "专为厨房设计",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "专为厨房设计",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/94/5c/945ca193d8e964b1e55c2302b52fdde7.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -45,16 +55,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "选用 ÖSTERNÄS 约斯特奈斯 皮革把手，为你的储物家具增添自然之感。这款把手结实耐用，还非常适合厨房和浴室使用。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e4/60/e46024901badc2fc755c1b1fd8efc7ce.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>ÖSTERNÄS 约斯特奈斯 皮革把手呈现棕褐色天然色调，可为储物家具增添自然之感。</p><p>这款把手所用皮革材料源自其他产品的边角料，有助于节省原材料。</p>"
+    "ÖSTERNÄS 约斯特奈斯 皮革把手呈现棕褐色天然色调，可为储物家具增添自然之感。这款把手所用皮革材料源自其他产品的边角料，有助于节省原材料。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -67,6 +89,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "ÖSTERNÄS 约斯特奈斯",
+     "text": "¥50",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/oesternaes-yue-si-te-nai-si-pi-ba-shou-rou-zhi-pi-ge__0753932_pe747721_s4.jpg",
+     "href": "/cn/zh/p/oesternaes-yue-si-te-nai-si-pi-ba-shou-rou-zhi-pi-ge-30348933/"
+    },
+    {
+     "title": "ÖSTERNÄS 约斯特奈斯",
+     "text": "¥60",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/oesternaes-yue-si-te-nai-si-pi-ba-shou-rou-zhi-pi-ge__0754273_pe747858_s4.jpg",
+     "href": "/cn/zh/p/oesternaes-yue-si-te-nai-si-pi-ba-shou-rou-zhi-pi-ge-30348928/"
+    }
+   ],
    "settings": null
   }
  ]

@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -60,6 +62,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "朱微微",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/52/67/52672fc61d5fb63e795d70f2a0392bc2.jpg",
+     "href": "/cn/zh/h5page/?url=%23248d3f20-9cf1-11eb-ae2f-8d76980dd164",
+     "backgroundColor": "#f5f5f5"
+    },
+    {
+     "title": "暖暖",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/5d/47/5d472f843caea86ef780c054a0308d59.jpg",
+     "href": "/cn/zh/h5page/?url=%23190a7820-9cf1-11eb-ae2f-8d76980dd164",
+     "backgroundColor": "#f5f5f5"
+    },
+    {
+     "title": "师培源",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/54/e9/54e9fac3538814bd77a8d02835f53e27.jpg",
+     "href": "/cn/zh/h5page/?url=%232cbcbc70-9cf1-11eb-ae2f-8d76980dd164",
+     "backgroundColor": "#f5f5f5"
+    },
+    {
+     "title": "咕噜&张老师",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/92/a1/92a1a46b9372168f102ff2642e6a0e1a.jpg",
+     "href": "/cn/zh/h5page/?url=%232f3b5100-9cf1-11eb-ae2f-8d76980dd164",
+     "backgroundColor": "#f5f5f5"
+    },
+    {
+     "title": "Eva",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/bb/42/bb42d85989ee1c7a868bab55461a8fc5.jpg",
+     "href": "/cn/zh/h5page/?url=%2362c869a0-9d09-11eb-ae2f-8d76980dd164",
+     "backgroundColor": "#f5f5f5"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -70,16 +110,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>一人一狗的少女心客房</h2>"
+    "一人一狗的少女心客房"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -90,7 +134,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<p>热情好客的北京姑娘带着她的小柴一起生活在二环胡同里。原本为朋友准备的客房也因为疫情逐渐变成了杂物间，如今想要让这个空间重现如家的舒适，其实只需要一点小小的改造，就能搞定。</p>",
+    "热情好客的北京姑娘带着她的小柴一起生活在二环胡同里。原本为朋友准备的客房也因为疫情逐渐变成了杂物间，如今想要让这个空间重现如家的舒适，其实只需要一点小小的改造，就能搞定。",
     "pub-text"
    ],
    "images": [
@@ -107,6 +151,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/10/85/1085d172ed5da2bce765bcf5f3cee2b5.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/78/8d/788d1e1edc881df2789ab6e7842ceced.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "热情好客的北京姑娘带着她的小柴一起生活在二环胡同里。原本为朋友准备的客房也因为疫情逐渐变成了杂物间，如今想要让这个空间重现如家的舒适，其实只需要一点小小的改造，就能搞定。",
+     "image": "https://file.app.ikea.cn/images/10/85/1085d172ed5da2bce765bcf5f3cee2b5.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/78/8d/788d1e1edc881df2789ab6e7842ceced.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -114,7 +189,7 @@
    "title": null,
    "texts": [
     "https://v.youku.com/v_show/id_XNTEyMzQ4ODU4NA==.html",
-    "<p>▲ 点击观看视频，感受小改动的大变化！</p>",
+    "▲ 点击观看视频，感受小改动的大变化！",
     "MANUAL_INPUT"
    ],
    "images": [],
@@ -124,6 +199,8 @@
      "text": "\n<p>▲ 点击观看视频，感受小改动的大变化！</p>\n"
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -170,6 +247,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/31/82/3182e32f60a8c43e3c3a7e5d627ba644.jpg",
+     "href": "/cn/zh/p/40415074?artType=ART",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/f9/5b/f95b1cb0208565b50af001d045c7b433.jpg",
+     "href": "/cn/zh/p/30491501?artType=ART",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/5e/24/5e24940ec589153570292caae2c11569.jpg",
+     "href": "/cn/zh/p/20348066?artType=ART",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/6d/1e/6d1e74c657e5cc602607b933e5f1c13e.jpg",
+     "href": "/cn/zh/p/80425617?artType=ART",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/14/a9/14a9cc887db052d1642383af6c153cb4.jpg",
+     "href": "/cn/zh/p/20486680?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -190,6 +305,51 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "相关宜家产品",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/19037",
+     "backgroundColor": null
+    },
+    {
+     "title": "HAUGA 豪嘉",
+     "text": "¥699",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/hauga-hao-jia-2-men-gui-bai-se__0914104_pe783847_s4.jpg",
+     "href": "/cn/zh/p/hauga-hao-jia-2-men-gui-bai-se-40415074/"
+    },
+    {
+     "title": "HEMNES 汉尼斯",
+     "text": "¥1,999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/hemnes-han-ni-si-zuo-wo-liang-yong-chuang-kuang-jia-dai-3-ti-bai-se__1180454_pe896328_s4.jpg",
+     "href": "/cn/zh/p/hemnes-han-ni-si-zuo-wo-liang-yong-chuang-kuang-jia-dai-3-ti-bai-se-70349327/"
+    },
+    {
+     "title": "BEKVÄM 贝卡姆",
+     "text": "¥24.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/bekvaem-bei-qia-mu-diao-wei-pin-jia-bai-yang__0993240_pe814904_s4.jpg",
+     "href": "/cn/zh/p/bekvaem-bei-qia-mu-diao-wei-pin-jia-bai-yang-00487176/"
+    },
+    {
+     "title": "FLÅDIS 弗拉迪",
+     "text": "¥79.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/fladis-fu-la-di-lan-hai-cao__0713073_pe729177_s4.jpg",
+     "href": "/cn/zh/p/fladis-fu-la-di-lan-hai-cao-40322174/"
+    },
+    {
+     "title": "SMARRA 斯马拉",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/smarra-si-ma-la-fu-gai-chu-wu-he-zi-ran-se__0713120_pe729269_s4.jpg",
+     "href": "/cn/zh/p/smarra-si-ma-la-fu-gai-chu-wu-he-zi-ran-se-40348065/"
+    },
+    {
+     "title": "KUNGSFORS 康福斯",
+     "text": "¥29.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kungsfors-kang-fu-si-wang-dai-liang-jian-tao-zi-ran-se__0712561_pe728918_s4.jpg",
+     "href": "/cn/zh/p/kungsfors-kang-fu-si-wang-dai-liang-jian-tao-zi-ran-se-70372836/"
+    }
+   ],
    "settings": null
   },
   {
@@ -200,16 +360,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>是厨房操作间，也是厨具陈列馆</h2>"
+    "是厨房操作间，也是厨具陈列馆"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -220,7 +384,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<p>暖暖下午茶创始人的厨房满满都是各种烘培器具，杯杯盏盏盏占据了厨房操作空间，而这一平方的小改动，就让厨房用的了，放得下。</p>",
+    "暖暖下午茶创始人的厨房满满都是各种烘培器具，杯杯盏盏盏占据了厨房操作空间，而这一平方的小改动，就让厨房用的了，放得下。",
     "pub-text"
    ],
    "images": [
@@ -237,6 +401,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/12/70/1270835455e897dfab2c27357d0c0f81.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/c3/f6/c3f671c9582d915b6f99680c46a8b93e.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "暖暖下午茶创始人的厨房满满都是各种烘培器具，杯杯盏盏盏占据了厨房操作空间，而这一平方的小改动，就让厨房用的了，放得下。",
+     "image": "https://file.app.ikea.cn/images/12/70/1270835455e897dfab2c27357d0c0f81.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/c3/f6/c3f671c9582d915b6f99680c46a8b93e.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -244,7 +439,7 @@
    "title": null,
    "texts": [
     "https://v.youku.com/v_show/id_XNTEzODMyODE0MA==.html",
-    "<p>▲ 点击观看视频，感受小改动的大变化！</p>",
+    "▲ 点击观看视频，感受小改动的大变化！",
     "MANUAL_INPUT"
    ],
    "images": [],
@@ -254,6 +449,8 @@
      "text": "\n<p>▲ 点击观看视频，感受小改动的大变化！</p>\n"
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -300,6 +497,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a6/e3/a6e3fdcbf24a51636ddfa02d606147f6.jpg",
+     "href": "/cn/zh/p/50497446?artType=ART",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/6e/8e/6e8e3f4d106e6bcde480affbe5e2494a.jpg",
+     "href": "/cn/zh/p/20176376?artType=ART",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d0/d0/d0d06bc52903170da9e996033ce307d6.jpg",
+     "href": "/cn/zh/p/59338429?artType=SPR",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/73/1a/731ac28fd82b82092303ddd71aea4d15.jpg",
+     "href": "/cn/zh/p/70376721?artType=ART",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/c1/9f/c19f5457d8b16beb0c75e442f7bdb2a8.jpg",
+     "href": "/cn/zh/p/70376721?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -320,6 +555,33 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "相关宜家产品",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/47394",
+     "backgroundColor": null
+    },
+    {
+     "title": "TILLREDA 提瑞达",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/tillreda-ti-rui-da-wei-bo-lu-tuo-jia__0237340_pe376720_s4.jpg",
+     "href": "/cn/zh/p/tillreda-ti-rui-da-wei-bo-lu-tuo-jia-50497446/"
+    },
+    {
+     "title": "BOAXEL 博阿克塞",
+     "text": "¥850",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/boaxel-bo-a-ke-sai-yi-gui-zu-he-bai-se__0824101_pe775993_s4.jpg",
+     "href": "/cn/zh/p/boaxel-bo-a-ke-sai-yi-gui-zu-he-bai-se-59384015/"
+    },
+    {
+     "title": "OSTBIT 奥比特",
+     "text": "¥9.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ostbit-ao-bi-te-pan-zi-jia-zhu__0406313_pe569286_s4.jpg",
+     "href": "/cn/zh/p/ostbit-ao-bi-te-pan-zi-jia-zhu-00313322/"
+    }
+   ],
    "settings": null
   },
   {
@@ -330,16 +592,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>小情侣双人在线无压力</h2>"
+    "小情侣双人在线无压力"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -350,7 +616,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<p>需要修图的摄影师和需要上分的电竞选手想要同时在线，竟然成了难题。但这可难不倒我们，几件小物就能轻松置办出双人工位，让行动轻松，感情浓厚。</p>",
+    "需要修图的摄影师和需要上分的电竞选手想要同时在线，竟然成了难题。但这可难不倒我们，几件小物就能轻松置办出双人工位，让行动轻松，感情浓厚。",
     "pub-text"
    ],
    "images": [
@@ -367,6 +633,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ab/96/ab96823a2d5ab29647cd67ab7006d07d.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/0f/cf/0fcfeb6b96c766335b479be04d643f41.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "需要修图的摄影师和需要上分的电竞选手想要同时在线，竟然成了难题。但这可难不倒我们，几件小物就能轻松置办出双人工位，让行动轻松，感情浓厚。",
+     "image": "https://file.app.ikea.cn/images/ab/96/ab96823a2d5ab29647cd67ab7006d07d.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/0f/cf/0fcfeb6b96c766335b479be04d643f41.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -374,7 +671,7 @@
    "title": null,
    "texts": [
     "https://v.youku.com/v_show/id_XNTEzODMzMjg3Ng==.html",
-    "<p>▲ 点击观看视频，感受小改动的大变化！</p>",
+    "▲ 点击观看视频，感受小改动的大变化！",
     "MANUAL_INPUT"
    ],
    "images": [],
@@ -384,6 +681,8 @@
      "text": "\n<p>▲ 点击观看视频，感受小改动的大变化！</p>\n"
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -430,6 +729,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/bc/1f/bc1f0346c1a9776c2453dae2e44edcc8.jpg",
+     "href": "/cn/zh/cat/37813",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/c7/1e/c71e650ed0281fa336cb93bfe891121d.jpg",
+     "href": "/cn/zh/p/69216696?artType=SPR",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/17/82/1782f513e7cb472a02b710e68662cab6.jpg",
+     "href": "/cn/zh/p/40503848?artType=ART",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/70/22/70226ef3443f157ae9375583ce2ab2a0.jpg",
+     "href": "/cn/zh/p/90507622?artType=ART",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/5f/0e/5f0ebe0429a6a3ff452532dc6f40e135.jpg",
+     "href": "/cn/zh/p/80474783?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -450,6 +787,57 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "相关宜家产品",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/search/products?q=电竞",
+     "backgroundColor": null
+    },
+    {
+     "title": "SKÅDIS 斯考迪斯",
+     "text": "¥169",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/skadis-si-kao-di-si-dong-dong-ban-zu-he-bai-se__0908731_pe644140_s4.jpg",
+     "href": "/cn/zh/p/skadis-si-kao-di-si-dong-dong-ban-zu-he-bai-se-69216696/"
+    },
+    {
+     "title": "ELLOVEN 爱洛文",
+     "text": "¥199",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/elloven-ai-luo-wen-dai-chou-ti-xian-shi-qi-tai-zuo-bai-se__0955984_pe804426_s4.jpg",
+     "href": "/cn/zh/p/elloven-ai-luo-wen-dai-chou-ti-xian-shi-qi-tai-zuo-bai-se-80474783/"
+    },
+    {
+     "title": "LÅNESPELARE 洛内斯佩",
+     "text": "¥199",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lanespelare-luo-nei-si-pei-dai-shou-ji-zhi-jia-huan-xing-deng__0971505_pe811368_s4.jpg",
+     "href": "/cn/zh/p/lanespelare-luo-nei-si-pei-dai-shou-ji-zhi-jia-huan-xing-deng-40503848/"
+    },
+    {
+     "title": "ALEX 阿来斯",
+     "text": "¥540",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/alex-a-lai-si-chou-ti-gui-bai-se__0977775_pe813763_s4.jpg",
+     "href": "/cn/zh/p/alex-a-lai-si-chou-ti-gui-bai-se-40473549/"
+    },
+    {
+     "title": "DAGOTTO 达格托",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/dagotto-da-ge-tuo-jiao-ta-hei-se__0156454_pe315498_s4.jpg",
+     "href": "/cn/zh/p/dagotto-da-ge-tuo-jiao-ta-hei-se-20240990/"
+    },
+    {
+     "title": "LÅNESPELARE 洛内斯佩",
+     "text": "¥149",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lanespelare-luo-nei-si-pei-za-wu-jia__0974868_pe812565_s4.jpg",
+     "href": "/cn/zh/p/lanespelare-luo-nei-si-pei-za-wu-jia-00504067/"
+    },
+    {
+     "title": "LÅNESPELARE 洛内斯佩",
+     "text": "¥49.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lanespelare-luo-nei-si-pei-bei-jia-hei-se__0985191_pe816542_s4.jpg",
+     "href": "/cn/zh/p/lanespelare-luo-nei-si-pei-bei-jia-hei-se-40504065/"
+    }
+   ],
    "settings": null
   },
   {
@@ -460,16 +848,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>双人健身直播角</h2>"
+    "双人健身直播角"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -480,7 +872,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<p>没有功能分区的客厅略显杂乱，而无趣的视觉风格也并不适合居家直播。不过有我们将轻便器材收纳上墙，空出靠阳台一侧的位置作为固定运动区，灵活的杂物收纳整洁空间，点亮视觉。</p>",
+    "没有功能分区的客厅略显杂乱，而无趣的视觉风格也并不适合居家直播。不过有我们将轻便器材收纳上墙，空出靠阳台一侧的位置作为固定运动区，灵活的杂物收纳整洁空间，点亮视觉。",
     "pub-text"
    ],
    "images": [
@@ -497,6 +889,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d7/79/d779ccb1a7098848d21d9218038c28bb.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/0a/ea/0aeae25c8440113645d77d6b42618665.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "没有功能分区的客厅略显杂乱，而无趣的视觉风格也并不适合居家直播。不过有我们将轻便器材收纳上墙，空出靠阳台一侧的位置作为固定运动区，灵活的杂物收纳整洁空间，点亮视觉。",
+     "image": "https://file.app.ikea.cn/images/d7/79/d779ccb1a7098848d21d9218038c28bb.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/0a/ea/0aeae25c8440113645d77d6b42618665.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -504,7 +927,7 @@
    "title": null,
    "texts": [
     "https://v.youku.com/v_show/id_XNTEzODMyOTYwNA==.html",
-    "<p>▲ 点击观看视频，感受小改动的大变化！</p>",
+    "▲ 点击观看视频，感受小改动的大变化！",
     "MANUAL_INPUT"
    ],
    "images": [],
@@ -514,6 +937,8 @@
      "text": "\n<p>▲ 点击观看视频，感受小改动的大变化！</p>\n"
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -560,6 +985,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/24/95/2495d74e164eec5acecd5242b3b7bc0a.jpg",
+     "href": "/cn/zh/p/90443140?artType=ART",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/c6/ab/c6ab76fe43f7f4654bb198f811d4d655.jpg",
+     "href": "/cn/zh/p/60347178?artType=ART",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/58/91/5891c5bd33720b3f2c4c12d0bc143422.jpg",
+     "href": "/cn/zh/p/00440971?artType=ART",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/bb/5c/bb5ce6dc4dde87341f5828e602fb0db6.jpg",
+     "href": "/cn/zh/p/30454508?artType=ART",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/1c/bb/1cbb482c4fe826f6caac41d93f97b1cb.jpg",
+     "href": "/cn/zh/p/70385315?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -580,6 +1043,45 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "相关宜家产品",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/st002",
+     "backgroundColor": null
+    },
+    {
+     "title": "SKÅDIS 斯考迪斯",
+     "text": "¥129",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/skadis-si-kao-di-si-dong-dong-ban-mu-tou__0710684_pe727713_s4.jpg",
+     "href": "/cn/zh/p/skadis-si-kao-di-si-dong-dong-ban-mu-tou-60347178/"
+    },
+    {
+     "title": "BERGSHULT 贝利斯胡特 / SANDSHULT 桑德胡特",
+     "text": "¥89",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/bergshult-bei-li-si-hu-te-sandshult-sang-de-hu-te-qiang-ge-ban-hei-he-se-bai-yang__0789949_pe764244_s4.jpg",
+     "href": "/cn/zh/p/bergshult-bei-li-si-hu-te-sandshult-sang-de-hu-te-qiang-ge-ban-hei-he-se-bai-yang-19326027/"
+    },
+    {
+     "title": "SANDARED 桑德利",
+     "text": "¥299",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/sandared-sang-de-li-ai-deng-mi-huang-se__0560902_pe662686_s4.jpg",
+     "href": "/cn/zh/p/sandared-sang-de-li-ai-deng-mi-huang-se-70385315/"
+    },
+    {
+     "title": "SOLKLINT 索尔克林",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/solklint-suo-er-ke-lin-tai-deng-huang-tong-hui-se-tou-ming-bo-li__0842257_pe781832_s4.jpg",
+     "href": "/cn/zh/p/solklint-suo-er-ke-lin-tai-deng-huang-tong-hui-se-tou-ming-bo-li-10464278/"
+    },
+    {
+     "title": "GLADOM 格拉登",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/gladom-ge-la-deng-tuo-pan-zhuo-hei-se__0567223_pe664991_s4.jpg",
+     "href": "/cn/zh/p/gladom-ge-la-deng-tuo-pan-zhuo-hei-se-00411997/"
+    }
+   ],
    "settings": null
   },
   {
@@ -590,16 +1092,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>居家办公带娃两不误的斜杠妈妈</h2>"
+    "居家办公带娃两不误的斜杠妈妈"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -610,7 +1116,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<p>客厅被孩子的玩具侵占，凌乱的背景没法进行拍摄工作。小小改造就能拓展收纳空间，营造温馨氛围，在这里既能带娃，也不影响工作。</p>",
+    "客厅被孩子的玩具侵占，凌乱的背景没法进行拍摄工作。小小改造就能拓展收纳空间，营造温馨氛围，在这里既能带娃，也不影响工作。",
     "pub-text"
    ],
    "images": [
@@ -627,6 +1133,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/70/f4/70f4c1f27057c0a8e14a682ad0645fca.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/6f/24/6f24ca2fb4bc0b448ed3d05a0f0014aa.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "客厅被孩子的玩具侵占，凌乱的背景没法进行拍摄工作。小小改造就能拓展收纳空间，营造温馨氛围，在这里既能带娃，也不影响工作。",
+     "image": "https://file.app.ikea.cn/images/70/f4/70f4c1f27057c0a8e14a682ad0645fca.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/6f/24/6f24ca2fb4bc0b448ed3d05a0f0014aa.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -634,7 +1171,7 @@
    "title": null,
    "texts": [
     "https://v.youku.com/v_show/id_XNTEzODMzNDAwMA==.html",
-    "<p>▲ 点击观看视频，感受小改动的大变化！</p>",
+    "▲ 点击观看视频，感受小改动的大变化！",
     "MANUAL_INPUT"
    ],
    "images": [],
@@ -644,6 +1181,8 @@
      "text": "\n<p>▲ 点击观看视频，感受小改动的大变化！</p>\n"
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -690,6 +1229,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/53/f5/53f59e079a03f13410f88638d5077653.jpg",
+     "href": "/cn/zh/cat/27534",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ff/8a/ff8aa8d864e95e3e50729b9925d4455f.jpg",
+     "href": "/cn/zh/cat/27534",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b1/bf/b1bf2ab481e790c8e65fd905eaedaa1b.jpg",
+     "href": "/cn/zh/p/70296965?artType=ART",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/bc/fc/bcfcf9ead5f0c66339f1df40adb2d5d1.jpg",
+     "href": "/cn/zh/cat/18706",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ad/a2/ada2473c5bd09d2bf42ef70730763bf5.jpg",
+     "href": "/cn/zh/p/30298419?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -710,6 +1287,51 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "相关产品",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/27534",
+     "backgroundColor": null
+    },
+    {
+     "title": "KALLAX 卡莱克",
+     "text": "¥60",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kallax-qia-lai-ke-cha-jian-dai-men-bai-se__0640668_pe699973_s4.jpg",
+     "href": "/cn/zh/p/kallax-qia-lai-ke-cha-jian-dai-men-bai-se-60351877/"
+    },
+    {
+     "title": "KALLAX 卡莱克",
+     "text": "¥150",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kallax-qia-lai-ke-cha-jian-dai-2-ge-chou-ti-bai-se__0640671_pe699976_s4.jpg",
+     "href": "/cn/zh/p/kallax-qia-lai-ke-cha-jian-dai-2-ge-chou-ti-bai-se-20351879/"
+    },
+    {
+     "title": "FLISAT 福丽萨特",
+     "text": "¥499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/flisat-fu-li-sa-te-er-tong-zhuo__0735831_pe740206_s4.jpg",
+     "href": "/cn/zh/p/flisat-fu-li-sa-te-er-tong-zhuo-30298419/"
+    },
+    {
+     "title": "FLISAT 福丽萨特",
+     "text": "¥249",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/flisat-fu-li-sa-te-wan-ou-wu-qiang-ge-ban__0710145_pe727347_s4.jpg",
+     "href": "/cn/zh/p/flisat-fu-li-sa-te-wan-ou-wu-qiang-ge-ban-70296965/"
+    },
+    {
+     "title": "LILLABO 利乐宝",
+     "text": "¥149",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lillabo-li-le-bao-wan-ju-huo-che-45-jian-dai-gui-dao__0712397_pe728813_s4.jpg",
+     "href": "/cn/zh/p/lillabo-li-le-bao-wan-ju-huo-che-4-5-jian-dai-gui-dao-00330067/"
+    },
+    {
+     "title": "ÅRSTID 奥思迪",
+     "text": "¥199",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/arstid-ao-si-di-luo-di-deng-huang-tong-bai-se__0441909_pe593590_s4.jpg",
+     "href": "/cn/zh/p/arstid-ao-si-di-luo-di-deng-huang-tong-bai-se-60321319/"
+    }
+   ],
    "settings": null
   },
   {
@@ -720,16 +1342,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>探索更多</h2>"
+    "探索更多"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -739,7 +1365,7 @@
     "image-text-landscape",
     "从“一平方”开始，创造家居梦想",
     "IMAGE",
-    "<p>关于家的改变？谁说非要大而全！</p>\n<p>这次，我们一起忘记规则和结构，将家解构成一个个小方块。以每个平方的小小改变为起点，焕新我们的活力新家。</p>",
+    "关于家的改变？谁说非要大而全！ 这次，我们一起忘记规则和结构，将家解构成一个个小方块。以每个平方的小小改变为起点，焕新我们的活力新家。",
     "我的“一平方”",
     "/campaigns/1m2-pub32d85ae0"
    ],
@@ -760,6 +1386,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "从“一平方”开始，创造家居梦想",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e9/f1/e9f1b21d140d3760d6e589e29d01dc40.gif",
+     "href": null,
+     "backgroundColor": "#FFE600"
+    }
+   ],
+   "productIds": [],
    "settings": null
   }
  ]

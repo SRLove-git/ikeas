@@ -10,10 +10,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h1>联系我们</h1>\n<p>敬请提问或咨询，我们将竭诚为您服务。联系宜家客户服务部或在下面寻找答案。</p>"
+    "联系我们 敬请提问或咨询，我们将竭诚为您服务。联系宜家客户服务部或在下面寻找答案。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -22,10 +24,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3>联系我们的方式</h3>\n<p>在我们常见的问题中没有找到你要找的东西？ 请与我们联系。以下是不同的联系方式：</p>"
+    "联系我们的方式 在我们常见的问题中没有找到你要找的东西？ 请与我们联系。以下是不同的联系方式："
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -39,7 +43,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<p><strong>在线客服&nbsp;</strong></p>\n<p>点击页面右下方对话框，或扫描二维码开始对话。<br />在线客服时间：周一 -周日&nbsp; 09:00-22:00</p>"
+    "在线客服 点击页面右下方对话框，或扫描二维码开始对话。 在线客服时间：周一 -周日 09:00-22:00"
    ],
    "images": [
     "https://file.app.ikea.cn/cms/u/20240417/55faccb7fa694aedbe21957ea31256af.jpg?x-oss-process=style/medium",
@@ -60,6 +64,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "在线客服",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20240417/55faccb7fa694aedbe21957ea31256af.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "电话语音",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d6/46/d6469bb15389a4b27178222ad87c3a14.png",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/10/66/1066c76c8f8564e115aa89f149a7f1b2.png",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "在线客服 点击页面右下方对话框，或扫描二维码开始对话。 在线客服时间：周一 -周日 09:00-22:00",
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20240417/55faccb7fa694aedbe21957ea31256af.jpg?x-oss-process=style/medium",
+     "href": null
+    },
+    {
+     "heading": "电话服务 400-800-2345 语音自助服务时间：7*24小时全天服务 人工服务时间：周一 -周日：09:00-18:00",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/d6/46/d6469bb15389a4b27178222ad87c3a14.png",
+     "href": null
+    },
+    {
+     "heading": "电子邮件 宜家客服邮箱：cs.cnikea.cn@ikea.com 请随时给我们发送电子邮件，我们会在24小时内给你答复。 在邮件内提供你的姓名、联系方式（电话）和所在城市，售后问题请同时提供产品照片。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/10/66/1066c76c8f8564e115aa89f149a7f1b2.png",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "98dd586fc259404993262236fb631e25"
    }
@@ -72,6 +120,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Horizontal Line-"
    }
@@ -80,10 +130,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3>常见的问题</h3>"
+    "常见的问题"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -94,11 +146,13 @@
    "texts": [
     "如何查询网上配送范围和运费？",
     "column",
-    "<p>如何查询网上配送范围和运费？</p>\n<p>目前，我们为全国306个城市范围提供快递包裹配送和货车配送服务。你可以添加商品至购物车以后可以通过输入具体地址和邮政编码，查看线上购物配送范围和运费。<br />送货服务信息和收费标准请浏览<a href=\"https://www.ikea.cn/cn/zh/customer-service/services/delivery/\">送货服务</a>页面了解详情。</p>",
+    "如何查询网上配送范围和运费？ 目前，我们为全国306个城市范围提供快递包裹配送和货车配送服务。你可以添加商品至购物车以后可以通过输入具体地址和邮政编码，查看线上购物配送范围和运费。 送货服务信息和收费标准请浏览送货服务页面了解详情。",
     "pub-text"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Expandable Area-"
    }
@@ -109,11 +163,13 @@
    "texts": [
     "如何查询订单物流配送状态？",
     "column",
-    "<p>如何查询订单物流配送状态？</p>\n<p>宜家会根据你选择的送货服务日期和时间段提前与你联系&hellip;&hellip;确保货物按时抵达。您可以登录微信小程序&ldquo;宜家俱乐部&rdquo; 查询具体的送货信息。如果您是在线购物您可以在&rdquo;我的订单&rdquo;页面通过自助查询到货情况，或联系我们宜家在线客服查询配送状态。</p>",
+    "如何查询订单物流配送状态？ 宜家会根据你选择的送货服务日期和时间段提前与你联系……确保货物按时抵达。您可以登录微信小程序“宜家俱乐部” 查询具体的送货信息。如果您是在线购物您可以在”我的订单”页面通过自助查询到货情况，或联系我们宜家在线客服查询配送状态。",
     "pub-text"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Expandable Area-"
    }
@@ -124,11 +180,13 @@
    "texts": [
     "如何查询网上商城产品库存？",
     "column",
-    "<p>如何查询网上商城产品库存？</p>\n<p>将商品加入购物车输入地址和邮编之后，网页上会显示商品的库存信息。如遇&ldquo;暂时缺货&rdquo;可能是您购买的商品在该区域暂时缺货，您可以在产品详情页查询实体商场库存后至商场购买，或者加入心愿单后续购买。</p>",
+    "如何查询网上商城产品库存？ 将商品加入购物车输入地址和邮编之后，网页上会显示商品的库存信息。如遇“暂时缺货”可能是您购买的商品在该区域暂时缺货，您可以在产品详情页查询实体商场库存后至商场购买，或者加入心愿单后续购买。",
     "pub-text"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Expandable Area-"
    }
@@ -151,6 +209,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "d1604db453c84e2cbfea385dbe595b7d"
    }
@@ -163,6 +223,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Horizontal Line-"
    }
@@ -171,10 +233,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3><strong>联系宜家对公业务部</strong></h3>\n<p>你是宜家对公业务部的客户吗?</p>"
+    "联系宜家对公业务部 你是宜家对公业务部的客户吗?"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "99aec98b1f44463c98893200cf481cb6"
    }
@@ -207,6 +271,24 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "联系宜家对公业务部",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/58/ef/58ef43502d56d9840a01721c00e1d285.jpg",
+     "href": "/cn/zh/customer-service/contact-us/yewubu-pub27a85880",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/58/ef/58ef43502d56d9840a01721c00e1d285.jpg",
+     "href": "/cn/zh/customer-service/contact-us/yewubu-pub27a85880"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "0c082a5041c445f8b2a4a01480e673c2"
    }
@@ -237,6 +319,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "订单管理和追踪",
+     "text": "了解详情",
+     "image": null,
+     "href": "/cn/zh/customer-service/track-manage-order/",
+     "backgroundColor": null
+    },
+    {
+     "title": "退货政策",
+     "text": "了解详情",
+     "image": "",
+     "href": "/cn/zh/customer-service/returns-claims/return-policy/",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "门店提货服务",
+     "text": "了解详情",
+     "image": "",
+     "href": "/cn/zh/customer-service/services/click-collect/",
+     "backgroundColor": "#111111"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Assurances-"
    }
@@ -259,6 +365,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "f8fc3aae2d8e4eeca16a9451e41344e0"
    }

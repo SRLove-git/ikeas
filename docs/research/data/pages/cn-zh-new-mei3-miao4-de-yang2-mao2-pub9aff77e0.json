@@ -11,7 +11,7 @@
    "title": "美妙的羊毛",
    "texts": [
     "一张带有彩色纱线的米白色SVÄRDBORG 斯瓦德波 地毯挂在白墙上；前面是另一张SVÄRDBORG 斯瓦德波 地毯。",
-    "<p>现在人们在家的时间越来越长，家里自然也需要更多一些&ldquo;柔软&rdquo;享受。本季，我们采用一向以柔软著称的美妙羊毛为主题，推出了两款全新手工地毯。采用100%羊毛制成，由熟练工匠手工编织而成，每一块地毯都各有特色。</p>",
+    "现在人们在家的时间越来越长，家里自然也需要更多一些“柔软”享受。本季，我们采用一向以柔软著称的美妙羊毛为主题，推出了两款全新手工地毯。采用100%羊毛制成，由熟练工匠手工编织而成，每一块地毯都各有特色。",
     "美妙的羊毛",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "美妙的羊毛",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b1/d9/b1d93611aadff8163b79b0635483899c.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -50,6 +60,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一张带有彩色纱线的米白色SVÄRDBORG 斯瓦德波 地毯挂在白墙上；前面有一只小白狗。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/5e9cd9ed966e80de/original/PH181225-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -68,6 +88,15 @@
     {
      "href": "/cat/new-products",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "探索了解本季新品",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/new-products",
+     "backgroundColor": null
     }
    ],
    "settings": null
@@ -92,11 +121,21 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "带多色传统图案的VAMDRUP 万德鲁 平织地毯叠放在另一张VAMDRUP 万德鲁 地毯上。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/7bb2dea6aa242aa2/original/PH181283-crop001.jpg",
+     "href": null,
+     "backgroundColor": "#ffaa00"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-curated-gallery",
-   "title": " 致敬北欧手工艺",
+   "title": "致敬北欧手工艺",
    "texts": [
     "/cat/39267",
     "NO",
@@ -118,6 +157,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一张带多色图案的VAMDRUP 万德鲁 平织地毯铺在绿色的地板上，后面是一个古朴的壁炉，其中装满了木柴。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/625dc75e16ba68f/original/PH181282-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   }
  ]

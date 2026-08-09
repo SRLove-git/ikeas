@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -21,7 +23,7 @@
    "title": null,
    "texts": [
     "https://v.youku.com/v_show/id_XNTgwNTk5Nzk3Ng==.html",
-    "<p>在新的季节，不妨挑选一些设计别致的家具，为家增添一抹个性新意。宜家推出多款新颖独特的新品，充满优雅细节与抢眼瞩目的用材选择。每一款都立足于传统设计元素，以时尚、现代的风格重新演绎。</p>",
+    "在新的季节，不妨挑选一些设计别致的家具，为家增添一抹个性新意。宜家推出多款新颖独特的新品，充满优雅细节与抢眼瞩目的用材选择。每一款都立足于传统设计元素，以时尚、现代的风格重新演绎。",
     "MANUAL_INPUT"
    ],
    "images": [],
@@ -31,6 +33,8 @@
      "text": "\n<p>在新的季节，不妨挑选一些设计别致的家具，为家增添一抹个性新意。宜家推出多款新颖独特的新品，充满优雅细节与抢眼瞩目的用材选择。每一款都立足于传统设计元素，以时尚、现代的风格重新演绎。</p>\n"
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -57,6 +61,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一盏八臂黑色STORSLINGA 杜施林 LED枝形装饰灯悬挂在一张小圆桌上方，桌面上放着一些陶器。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/19a30e78d9a5f8f8/original/PH181187-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -77,11 +91,26 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "选购宜家新品系列",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/new-products",
+     "backgroundColor": null
+    },
+    {
+     "title": "STORSLINGA 杜施林",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/storslinga-du-shi-lin-led-zhi-xing-diao-deng-8-zhi-hei-se-bai-se__0982258_pe815591_s4.jpg",
+     "href": "/cn/zh/p/storslinga-du-shi-lin-led-zhi-xing-diao-deng-8-zhi-hei-se-bai-se-20599125/"
+    }
+   ],
    "settings": null
   },
   {
    "type": "pub-curated-gallery",
-   "title": " 在时尚的沙发上惬意放松",
+   "title": "在时尚的沙发上惬意放松",
    "texts": [
     "/cat/fu003",
     "NO",
@@ -103,6 +132,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "LÅNGARYD 隆嘉裕 双人沙发一角，这张沙发拥有柔和的线条和宽厚的深绿色软垫。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/2c1846500a0899fe/original/PH181177.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -129,6 +168,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一张带多色图案的VAMDRUP 万德鲁 平织地毯铺在绿色的地板上，后面是一个古朴的壁炉，其中装满了木柴。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/625dc75e16ba68f/original/PH181282-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   }
  ]

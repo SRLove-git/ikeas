@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Page Title-"
    }
@@ -22,10 +24,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>我们的愿景是为大众创造更美好的日常生活。在本页，你会知道这意味着什么，并了解到宜家的故事、宜家的业务，以及宜家未来的方向。</p>"
+    "我们的愿景是为大众创造更美好的日常生活。在本页，你会知道这意味着什么，并了解到宜家的故事、宜家的业务，以及宜家未来的方向。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -54,6 +58,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "一个成年人跪在地上和餐桌下的孩子玩游戏，背后站着另一个成年人。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/531ad66cd4a7d3a0/original/PH170304-crop002.jpg",
+     "href": null,
+     "backgroundColor": "#0058a3"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Banner-"
    }
@@ -67,7 +81,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<h2>关于我们</h2>\n<p>宜家最初是一家单人邮购公司，现已成为一个全球家居品牌，为世界各地的人们提供价格实惠、设计出色的家居产品。在本页，你会进一步了解到我们的品牌传承。</p>"
+    "关于我们 宜家最初是一家单人邮购公司，现已成为一个全球家居品牌，为世界各地的人们提供价格实惠、设计出色的家居产品。在本页，你会进一步了解到我们的品牌传承。"
    ],
    "images": [
     "https://file.app.ikea.cn/ext/ingkadam/m/125d51f1dd594361/original/GC-revamp_190913_7701_IKEA_Paris_web-crop001.jpg",
@@ -91,6 +105,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "两个在宜家购物的人，一个拿着一个蓝色的FRAKTA 弗拉塔 储物袋，另一个拿着一个装有植物的宜家纸袋。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/125d51f1dd594361/original/GC-revamp_190913_7701_IKEA_Paris_web-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "宜家商场的宜家标识映衬出两个人的身影。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/6728fcc641d6d613/original/PH120802-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "关于我们 宜家最初是一家单人邮购公司，现已成为一个全球家居品牌，为世界各地的人们提供价格实惠、设计出色的家居产品。在本页，你会进一步了解到我们的品牌传承。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/125d51f1dd594361/original/GC-revamp_190913_7701_IKEA_Paris_web-crop001.jpg",
+     "href": "/cn/zh/this-is-ikea/about-us"
+    },
+    {
+     "heading": "宜家中国新闻室 欢迎浏览宜家中国新闻室，你会在这里找到我们的最新资讯和相关媒体材料。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/6728fcc641d6d613/original/PH120802-crop001.jpg",
+     "href": "/cn/zh/newsroom"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Columns-"
    }
@@ -102,7 +147,7 @@
     "image-text-portrait",
     "在瑞典马尔默宜家商场，三名Yalla Trappan缝纫工作室的员工正在测量一些布料。",
     "IMAGE",
-    "<p><span style=\"color: #ffffff;\">我们希望推动建立一个更公平、更平等的社会。为此，我们将以人为本，并遵循包容的理念来发展我们的业务。</span></p>",
+    "我们希望推动建立一个更公平、更平等的社会。为此，我们将以人为本，并遵循包容的理念来发展我们的业务。",
     "社会影响",
     "#ffffff"
    ],
@@ -119,6 +164,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "在瑞典马尔默宜家商场，三名Yalla Trappan缝纫工作室的员工正在测量一些布料。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/67dbd89363516aba/original/PH156528-crop003.jpg",
+     "href": null,
+     "backgroundColor": "#6b3d99"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Banner-"
    }
@@ -131,7 +186,7 @@
     "女孩穿着橙色T恤，用手捧着水龙头流出的水喝。",
     "IMAGE",
     "40513786",
-    "<p><span style=\"color: #000000;\">我们希望通过专注于经济实惠、节省资源和高效节能的产品，帮助和启发人们过上更可持续的生活。通过推出植物蛋白素热狗以及节能产品方案，我们帮助大众一起打造更可持续的日常生活。</span></p>",
+    "我们希望通过专注于经济实惠、节省资源和高效节能的产品，帮助和启发人们过上更可持续的生活。通过推出植物蛋白素热狗以及节能产品方案，我们帮助大众一起打造更可持续的日常生活。",
     "日常生活中的环保理念"
    ],
    "images": [
@@ -147,6 +202,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "女孩穿着橙色T恤，用手捧着水龙头流出的水喝。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/8e4f06d36a5094/original/PH179635-crop001.jpg",
+     "href": null,
+     "backgroundColor": "#37b886"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Banner-"
    }
@@ -156,7 +221,7 @@
    "title": null,
    "texts": [
     "text-landscape",
-    "<p>每年，宜家走访成千上万的人们以完成《居家生活报告》。如果你想知道全球各地的人们在做什么，想了解他们对自己的家有什么感觉，欢迎点击此处链接阅读报告。</p>",
+    "每年，宜家走访成千上万的人们以完成《居家生活报告》。如果你想知道全球各地的人们在做什么，想了解他们对自己的家有什么感觉，欢迎点击此处链接阅读报告。",
     "《居家生活报告》",
     "#111111",
     "/life-at-home",
@@ -169,6 +234,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Banner-"
    }

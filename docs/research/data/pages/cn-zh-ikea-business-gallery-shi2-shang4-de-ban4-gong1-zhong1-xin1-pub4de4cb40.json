@@ -11,7 +11,7 @@
    "title": "时尚的办公中心",
    "texts": [
     "一个办公空间，设有可调节的凳子、坐/站两用式办公、储物装置、吊灯、各种物品和绿色植物。",
-    "<p>为你的初创公司规划一个适合协作、能够激发创意的空间。灵活的家具和巧妙的储物装置有助你的团队集思广益，或在这里展示产品，为顾客提供支持服务，还能吸引访客前来参观。多样用途，融合为一。</p>",
+    "为你的初创公司规划一个适合协作、能够激发创意的空间。灵活的家具和巧妙的储物装置有助你的团队集思广益，或在这里展示产品，为顾客提供支持服务，还能吸引访客前来参观。多样用途，融合为一。",
     "时尚的办公中心",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "时尚的办公中心",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/2b/9b/2b9b40351163222e7ddd52996d86f91d.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -50,6 +60,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "在摆放着盆栽植物的办公空间里，有一张可调节凳子，旁边有一张坐/站两用式办公桌，上面放着各种物品。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/02063d6d2395b63c/original/PH155770.png",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -76,6 +96,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "深蓝色的IDÅSEN 伊朵森 柜子，下面均配有两个抽屉，顶部则摆放着盆栽植物和各种物品。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/06855a07771a1ac4/original/PH155537.png",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -91,16 +121,44 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "ALEFJÄLL 阿勒夫耶",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/alefjaell-a-le-fu-ye-ban-gong-yi-ge-luo-si-hei-se__0724715_pe734598_s4.jpg",
+     "href": "/cn/zh/p/alefjaell-a-le-fu-ye-ban-gong-yi-ge-luo-si-hei-se-50367459/"
+    },
+    {
+     "title": "HELMER 海尔默",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/helmer-hai-er-mo-chou-ti-gui-dai-jiao-lun-hei-se__1419717_pe977088_s4.jpg",
+     "href": "/cn/zh/p/helmer-hai-er-mo-chou-ti-gui-dai-jiao-lun-hei-se-10621103/"
+    },
+    {
+     "title": "HEKTAR 赫克塔",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/hektar-he-ke-ta-diao-deng-shen-hui-se__0613033_pe686124_s4.jpg",
+     "href": "/cn/zh/p/hektar-he-ke-ta-diao-deng-shen-hui-se-70390369/"
+    },
+    {
+     "title": "KNODD 克诺德",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/knodd-ke-nuo-de-fu-gai-la-ji-tong-hui-se__0711156_pe728024_s4.jpg",
+     "href": "/cn/zh/p/knodd-ke-nuo-de-fu-gai-la-ji-tong-hui-se-50315314/"
+    }
+   ],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>声明</h2>\n<p>此解决方案包含一系列家用和非家用产品。请确认所购产品可在你的空间内发挥预期用途，并符合有关标准。如需了解该系列的更多信息，请联系宜家对公业务部。</p>"
+    "声明 此解决方案包含一系列家用和非家用产品。请确认所购产品可在你的空间内发挥预期用途，并符合有关标准。如需了解该系列的更多信息，请联系宜家对公业务部。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

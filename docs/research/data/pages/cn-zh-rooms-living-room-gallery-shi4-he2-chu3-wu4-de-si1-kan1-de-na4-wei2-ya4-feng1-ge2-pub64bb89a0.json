@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -34,16 +36,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "明亮的客厅里摆放着 HAVSTA 海思塔 休闲椅、许多壁装储物柜和白色圆形吊灯。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/74/65/74657c60ce8afbf830bb9a091442b409.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>即使空间不大，你也完全可以打造一间整洁协调的客厅，为大人和小孩准备各自的专用储物空间。</p>"
+    "即使空间不大，你也完全可以打造一间整洁协调的客厅，为大人和小孩准备各自的专用储物空间。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -71,6 +85,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "两件 FLISAT 福丽萨特 儿童储物单元，采用实心松木制成，配有灰色轮子和绿色把手，可存放儿童读物及其他物品。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/36/bd/36bdefad54f0a88ac0d1e5e5bcaeec12.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "白色 SÖDERGARN 索德格 壁挂式便笺板配磁片和夹子，展示了几件儿童手工艺品和绘画作品。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/6a/31/6a319dd3b766266944b6924b02646cdf.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "FLISAT 福丽萨特 玩具储物装置可一次轻松运送多本书和多件玩具，适合即刻打造干净整洁的客厅！",
+     "image": "https://file.app.ikea.cn/images/36/bd/36bdefad54f0a88ac0d1e5e5bcaeec12.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "让孩子在 SÖDERGARN 索德格 便笺板上展示他们有趣的作品，夹子和磁片便于重新布置、更换展出的作品。",
+     "image": "https://file.app.ikea.cn/images/6a/31/6a319dd3b766266944b6924b02646cdf.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -103,6 +148,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "搁板上放着 SMARRA 斯马拉 网状竹质储物盒。即使盖子合上，也可以看见盒子里的物品。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ef/dd/efdd335207789549f111abafee6b20c4.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "客厅角落摆放着三个可叠放的 KYRRE 叙勒 桦木凳子，可在有需要时提供更多座位空间。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/65/4c/654c88ec4c017bed9f86c23115cccd95.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "DIHULT 迪胡特 带把手矮凳放在客厅地毯上，可为儿童提供舒适宽敞的座位空间。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/be/a2/bea2e018755d14e1c41411c118ac4c82.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "SMARRA 斯马拉 竹质储物盒，无需掀开盒盖即可查看盒内收纳的物品。美观又方便！",
+     "image": "https://file.app.ikea.cn/images/ef/dd/efdd335207789549f111abafee6b20c4.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "可叠放凳子，如 KYRRE 叙勒，可充当备用座椅，不用时也不会占据太多空间。",
+     "image": "https://file.app.ikea.cn/images/65/4c/654c88ec4c017bed9f86c23115cccd95.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "舒适矮凳，如 DIHULT 迪胡特，可为儿童提供阅读玩乐的舒适空间。",
+     "image": "https://file.app.ikea.cn/images/be/a2/bea2e018755d14e1c41411c118ac4c82.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -125,6 +214,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "客厅里摆放着 HAVSTEN 霍夫斯田 休闲椅，阳台上摆放着 HAVSTA 海思塔 双人沙发。这两款产品室内户外均可使用。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/6e/62/6e627512ee2fb3f7df966813ef0f7bbc.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/6e/62/6e627512ee2fb3f7df966813ef0f7bbc.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "HAVSTEN 霍夫斯田 休闲椅室内户外均可使用，可轻松增加座位数量。（无论你和客人想坐在哪里都可以！）",
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -140,6 +253,32 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "BESTÅ 贝达",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/besta-bei-da-kuang-jia-bai-se__0376961_pe513559_s4.jpg",
+     "href": "/cn/zh/p/besta-bei-da-kuang-jia-bai-se-10245851/"
+    },
+    {
+     "title": "BESTÅ 贝达",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/besta-bei-da-ge-ban-bai-se__0640689_pe699989_s4.jpg",
+     "href": "/cn/zh/p/besta-bei-da-ge-ban-bai-se-70352683/"
+    },
+    {
+     "title": "GRANHULT 格兰胡特",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/granhult-ge-lan-hu-te-tuo-jia-du-nie__0720757_pe732826_s4.jpg",
+     "href": "/cn/zh/p/granhult-ge-lan-hu-te-tuo-jia-du-nie-10430537/"
+    },
+    {
+     "title": "BERGSHULT 贝利斯胡特",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/bergshult-bei-li-si-hu-te-ge-ban-bai-se__0670047_pe715291_s4.jpg",
+     "href": "/cn/zh/p/bergshult-bei-li-si-hu-te-ge-ban-bai-se-10430504/"
+    }
+   ],
    "settings": null
   }
  ]

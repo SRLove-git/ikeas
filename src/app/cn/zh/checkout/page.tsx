@@ -4,12 +4,11 @@ import { SiteImage } from "@/components/SiteImage";
 import { allProducts } from "@/data/products-index";
 import { formatPrice } from "@/lib/catalog";
 
-const items = allProducts.slice(0, 2).map((product, index) => ({
-  product,
-  qty: index + 1,
-}));
-
 export default function CheckoutPage() {
+  const items = allProducts().slice(0, 2).map((product, index) => ({
+    product,
+    qty: index + 1,
+  }));
   const subtotal = items.reduce(
     (sum, item) => sum + (item.product.price ?? 0) * item.qty,
     0,

@@ -11,7 +11,7 @@
    "title": "让墙壁焕然一新",
    "texts": [
     "白色墙壁上挂着印有白色印刷体瑞典语大写字母的木质图片，字母排列颇具趣味。",
-    "<p>用图片装点房间，让你保持好心情&mdash;&mdash;迎接春天到来！</p>\n<p>LOKABRUNN 罗卡布 木质图片印有瑞典字母，是一款有趣的墙壁装饰艺术品。</p>",
+    "用图片装点房间，让你保持好心情——迎接春天到来！ LOKABRUNN 罗卡布 木质图片印有瑞典字母，是一款有趣的墙壁装饰艺术品。",
     "让墙壁焕然一新",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "让墙壁焕然一新",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/8c/62/8c6282a4ce89d6426517633ea214e83f.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,16 +54,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": " 白色墙壁上挂着青绿色和粉色多肉植物图片。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/c0/02/c00255904d751cc51451a657a7a30ba1.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>BILD 拜尔德 图片上画有多肉植物，青绿色和粉色的图案引人注目。</p>"
+    "BILD 拜尔德 图片上画有多肉植物，青绿色和粉色的图案引人注目。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -64,6 +86,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

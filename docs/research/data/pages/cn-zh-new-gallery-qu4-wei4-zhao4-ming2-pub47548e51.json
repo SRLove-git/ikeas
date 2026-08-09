@@ -11,7 +11,7 @@
    "title": "趣味照明",
    "texts": [
     "一个孩子在 TROLLBO 特洛博 蓝色塑料吊灯下摆弄玩偶。吊灯形似杂技团帐篷，能为日常生活增添趣味。",
-    "<p>TROLLBO 特洛博 吊灯形似杂技团帐篷，用它照亮孩子的房间吧。这款吊灯不仅充满趣味，而且具有更可持续特性，使用的塑料均由回收PET瓶制成。</p>",
+    "TROLLBO 特洛博 吊灯形似杂技团帐篷，用它照亮孩子的房间吧。这款吊灯不仅充满趣味，而且具有更可持续特性，使用的塑料均由回收PET瓶制成。",
     "趣味照明",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "趣味照明",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ff/ba/ffba9b7df6da830f4c73b3ddbf0ab657.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -45,16 +55,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "TROLLBO 特洛博 吊灯让你仿佛置身马戏团内。特写：本款吊灯形似蓝色帐篷，采用回收PET塑料制成。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/63/74/6374de2cb0ed6d6e90ef5b35f5123ee9.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>TROLLBO 特洛博 吊灯顶部还饰有旗帜，像杂技团帐篷一样。这些电线装饰可根据个人心情移除或添加。</p>"
+    "TROLLBO 特洛博 吊灯顶部还饰有旗帜，像杂技团帐篷一样。这些电线装饰可根据个人心情移除或添加。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -75,6 +97,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -87,6 +111,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

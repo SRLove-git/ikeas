@@ -11,7 +11,7 @@
    "title": null,
    "texts": [
     "pub-column",
-    "<h1>住宅建设</h1>\n<p>&nbsp;</p>\n<p>我们仔细斟酌每一处细节，帮助开发商和建筑公司打造功能实用、设计出色同时价格亲民的住宅或房间方案。我们为各类建筑、改造、新建和试点单位设计各类大小项目。我们可以帮助你改造你的家或创建装修项目，提升家居价值。</p>\n<p>你也可以联系我们的对公业务团队，获取一对一的专业服务 ：</p>",
+    "住宅建设 我们仔细斟酌每一处细节，帮助开发商和建筑公司打造功能实用、设计出色同时价格亲民的住宅或房间方案。我们为各类建筑、改造、新建和试点单位设计各类大小项目。我们可以帮助你改造你的家或创建装修项目，提升家居价值。 你也可以联系我们的对公业务团队，获取一对一的专业服务 ：",
     "pub-text",
     "/h5page/?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fib%3Fchannel%3DIRW%2520M2%26cl_sr%3DIB_IRW%2520M2",
     "NO",
@@ -30,6 +30,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "宜家住宅建设装修",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/58/c5/58c552885e29b652cdb771e82c482f13.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "住宅建设 我们仔细斟酌每一处细节，帮助开发商和建筑公司打造功能实用、设计出色同时价格亲民的住宅或房间方案。我们为各类建筑、改造、新建和试点单位设计各类大小项目。我们可以帮助你改造你的家或创建装修项目，提升家居价值。 你也可以联系我们的对公业务团队，获取一对一的专业服务 ：",
+     "image": null,
+     "href": "/cn/zh/h5page/?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fib%3Fchannel%3DIRW%2520M2%26cl_sr%3DIB_IRW%2520M2"
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/58/c5/58c552885e29b652cdb771e82c482f13.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "0bac88f1f180490bb96d78b68aa54d90"
    }
@@ -78,6 +102,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "厨房",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/30/da/30da74b14f6def324e6c598882b17da8.jpg",
+     "href": "/cn/zh/rooms/kitchen/",
+     "backgroundColor": "#f5f5f5"
+    },
+    {
+     "title": "客厅",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/3b/15/3b154ee089bf050367a24c4e92036223.png",
+     "href": "/cn/zh/rooms/living-room/",
+     "backgroundColor": "#f5f5f5"
+    },
+    {
+     "title": "浴室",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d7/3e/d73e25c17be03e9cdbaa0a901faf1ec1.png",
+     "href": "/cn/zh/rooms/bathroom/",
+     "backgroundColor": "#f5f5f5"
+    },
+    {
+     "title": "储存",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/47/3f/473fdbfecd42225a7fdcf2bf6f3ef751.png",
+     "href": "/cn/zh/cat/19053",
+     "backgroundColor": "#f5f5f5"
+    },
+    {
+     "title": "家用电器",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/68/d3/68d3f179869d5fc51993fd79b338a9d1.png",
+     "href": "/cn/zh/cat/ka002",
+     "backgroundColor": "#f5f5f5"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "91b6d45e4f6144b4877798cbab5fd780"
    }
@@ -89,7 +151,7 @@
     "image-text-landscape",
     "美丽的日落景观",
     "IMAGE",
-    "<p><span style=\"color: #ffffff;\">可持续发展是宜家最重要的支柱之一，我们将环保工作融入不同产品的开发中，对产品的外观、质量、功能和价格进行了全方位的考量。&nbsp;</span></p>",
+    "可持续发展是宜家最重要的支柱之一，我们将环保工作融入不同产品的开发中，对产品的外观、质量、功能和价格进行了全方位的考量。",
     "爱护环境",
     "/h5page/?url=%23"
    ],
@@ -106,6 +168,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "美丽的日落景观",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/dd/66/dd666ccaf22baffb8add5e7cc1be889a.jpg",
+     "href": null,
+     "backgroundColor": "#37b886"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "dc7e3cb48497434ea07a866449bc88c2"
    }
@@ -154,6 +226,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "厨房布置",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/6daccd596e0f3967/original/PH177136-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "电视和影音家具",
+     "image": "https://file.app.ikea.cn/images/93/de/93de77e0ccf189112ddd172824f9512c.png",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "储存",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/5b20bb2ed5cb675d/original/PH171500-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "洗脸池",
+     "image": "https://file.app.ikea.cn/images/fe/db/fedb33155c0ad414cc7d165df1c598b5.png",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "厨房布置",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/536d0011b7fb0052/original/PH171559-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "04a96fab2f0548579770a831359b7aa6"
    }
@@ -162,10 +272,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>为你所需的任何房间提供合适的储物方案</h2>\n<p>查看所有厨房和储物系列，优化你的空间布置。  </p>"
+    "为你所需的任何房间提供合适的储物方案 查看所有厨房和储物系列，优化你的空间布置。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "acc3b563792248f48dd7c811feca4413"
    }
@@ -212,6 +324,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "METOD 米多 厨房",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/46/06/4606aeb876855bea142ca34d0d7a4adb.jpg",
+     "href": "/cn/zh/cat/23598",
+     "backgroundColor": null
+    },
+    {
+     "title": "PAX 帕克思 系列",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/c2/a3/c2a3cb0a93ad949de3416a8e09a2deb9.jpg",
+     "href": "/cn/zh/cat/19106",
+     "backgroundColor": null
+    },
+    {
+     "title": "GODMORGON 古德莫 浴室",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ff/ff/ffff8bfb199c5a6775c87f1a751a60b8.jpg",
+     "href": "/cn/zh/cat/15287",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/46/06/4606aeb876855bea142ca34d0d7a4adb.jpg",
+     "href": "/cn/zh/cat/23598"
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/c2/a3/c2a3cb0a93ad949de3416a8e09a2deb9.jpg",
+     "href": "/cn/zh/cat/19106"
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/ff/ff/ffff8bfb199c5a6775c87f1a751a60b8.jpg",
+     "href": "/cn/zh/cat/15287"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "bfd567ba2023455b81e2c7bca06dd982"
    }
@@ -220,10 +376,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>此解决方案包含一系列家用和非家用产品。请确认所购产品可在你的空间内发挥预期用途，并符合有关标准。如需了解该系列的更多信息，请联系宜家对公业务部&nbsp;</p>"
+    "此解决方案包含一系列家用和非家用产品。请确认所购产品可在你的空间内发挥预期用途，并符合有关标准。如需了解该系列的更多信息，请联系宜家对公业务部"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "2262359d734a43bab3cce238a2ade93a"
    }
@@ -234,7 +392,7 @@
    "texts": [
     "text-landscape",
     "IMAGE",
-    "<p>作为企业客户，你可以亲自动手，但也可以让我们代劳。从设计到交付再到组装，整个购买流程都有宜家在你左右。</p>",
+    "作为企业客户，你可以亲自动手，但也可以让我们代劳。从设计到交付再到组装，整个购买流程都有宜家在你左右。",
     "联系宜家对公业务部",
     "NO",
     "#111111"
@@ -246,6 +404,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Banner-"
    }

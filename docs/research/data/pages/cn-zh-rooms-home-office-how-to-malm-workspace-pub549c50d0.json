@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -30,6 +32,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -57,6 +61,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/443df2450851a61c/original/PH165496.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/522879abc5033280/original/PH173345-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -77,6 +98,33 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "MALM 马尔姆 办公桌",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/20649",
+     "backgroundColor": null
+    },
+    {
+     "title": "MALM 马尔姆",
+     "text": "¥1,299",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/malm-ma-er-mu-shu-zhuo-bai-se__0735975_pe740309_s4.jpg",
+     "href": "/cn/zh/p/malm-ma-er-mu-shu-zhuo-bai-se-50361754/"
+    },
+    {
+     "title": "MARKUS 马库斯",
+     "text": "¥999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/markus-ma-ku-si-ban-gong-yi-wei-suo-er-shen-hui-se__0724714_pe734597_s4.jpg",
+     "href": "/cn/zh/p/markus-ma-ku-si-ban-gong-yi-wei-suo-er-shen-hui-se-50261151/"
+    },
+    {
+     "title": "JÄRVFJÄLLET 耶勒乌弗亚列特",
+     "text": "¥1,499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/jaervfjaellet-ye-le-wu-fu-ya-lie-te-dai-fu-shou-ban-gong-yi-ge-luo-si-hei-se__1009906_pe827773_s4.jpg",
+     "href": "/cn/zh/p/jaervfjaellet-ye-le-wu-fu-ya-lie-te-dai-fu-shou-ban-gong-yi-ge-luo-si-hei-se-80494540/"
+    }
+   ],
    "settings": null
   },
   {
@@ -87,7 +135,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<p><strong>灵活放置</strong></p>\n<p>可根据自己的需要将储物单元安装在右侧或左侧；背面也经过表面处理，适合放在屋子中间。</p>",
+    "灵活放置 可根据自己的需要将储物单元安装在右侧或左侧；背面也经过表面处理，适合放在屋子中间。",
     "pub-text"
    ],
    "images": [
@@ -113,6 +161,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/3d/11/3d113e1f943fb4e5490466312981f789.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/7d/3b/7d3b9bb3d1c54d11c79626ab021886ef.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/04/27/0427b2a3980c273a97e28850cfd33ce1.jpg",
+     "href": "/cn/zh/cat/07468",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "灵活放置 可根据自己的需要将储物单元安装在右侧或左侧；背面也经过表面处理，适合放在屋子中间。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/3d/11/3d113e1f943fb4e5490466312981f789.jpg",
+     "href": null
+    },
+    {
+     "heading": "巧妙隐藏杂乱 桌面下的电线收纳槽可整齐收纳电线和拖线板。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/7d/3b/7d3b9bb3d1c54d11c79626ab021886ef.jpg",
+     "href": null
+    },
+    {
+     "heading": "同系列产品轻松搭配 MALM 马尔姆系列 还提供丰富的卧室家具和储物方案，通过同系列搭配，轻松营造简约和谐的外观。 +查看更多系列产品",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/04/27/0427b2a3980c273a97e28850cfd33ce1.jpg",
+     "href": "/cn/zh/cat/07468"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -141,6 +233,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "送货服务",
+     "text": "了解详情",
+     "image": null,
+     "href": "/cn/zh/customer-service/services/delivery/",
+     "backgroundColor": null
+    },
+    {
+     "title": "组装服务",
+     "text": "了解详情",
+     "image": null,
+     "href": "/cn/zh/customer-service/services/assembly/",
+     "backgroundColor": null
+    },
+    {
+     "title": "设计服务",
+     "text": "了解详情",
+     "image": null,
+     "href": "/cn/zh/customer-service/services/kitchen-planning/",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -159,6 +275,39 @@
     {
      "href": "/rooms/home-office/",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "更多配件",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/rooms/home-office/",
+     "backgroundColor": null
+    },
+    {
+     "title": "FORSÅ 芙萨",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/forsa-fu-sa-gong-zuo-deng-du-nie__0121576_pe278160_s4.jpg",
+     "href": "/cn/zh/p/forsa-fu-sa-gong-zuo-deng-du-nie-90146791/"
+    },
+    {
+     "title": "ELLOVEN 爱洛文",
+     "text": "¥199",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/elloven-ai-luo-wen-dai-chou-ti-xian-shi-qi-tai-zuo-mei-hei-se__0955983_pe804427_s4.jpg",
+     "href": "/cn/zh/p/elloven-ai-luo-wen-dai-chou-ti-xian-shi-qi-tai-zuo-mei-hei-se-80485102/"
+    },
+    {
+     "title": "RISSLA 瑞斯拉",
+     "text": "¥149",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/rissla-rui-si-la-shu-zhuo-dian-hei-se__0715861_pe730632_s4.jpg",
+     "href": "/cn/zh/p/rissla-rui-si-la-shu-zhuo-dian-hei-se-20246157/"
+    },
+    {
+     "title": "RISSLA 瑞斯拉",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/rissla-rui-si-la-ban-gong-zhuo-shou-na-jian-hei-se__0711570_pe728332_s4.jpg",
+     "href": "/cn/zh/p/rissla-rui-si-la-ban-gong-zhuo-shou-na-jian-hei-se-00246163/"
     }
    ],
    "settings": null
@@ -207,6 +356,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/7f1ae6d0536fb037/original/PH162738-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/74deaa0c99353211/original/PH162737.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/667977e9aaeb640f/original/PH162733-crop002.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/319b1f83e3eab1e5/original/PH171696.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/15d2bfb49367c08c/original/PH173101.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   }
  ]

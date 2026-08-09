@@ -10,10 +10,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>&nbsp;</p>\n<p style=\"line-height: 26px;\"><strong><span style=\"color: #ca5008;\"><span style=\"font-size: 36pt;\">当季新品</span></span></strong></p>"
+    "当季新品"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "页面标题-App"
    }
@@ -26,7 +28,7 @@
     "IMAGE",
     "standard",
     "hosted",
-    "<p><span style=\"color: #ffffff;\">SOLUPPG&Aring;NG 索尔乌普攻（在瑞典语中意为&ldquo;朝阳&rdquo;）系列包含丰富的户外用品，风格简约、易于使用且充满设计巧思。你可以带上它们轻松出门，享受美好的户外时光。</span></p>",
+    "SOLUPPGåNG 索尔乌普攻（在瑞典语中意为“朝阳”）系列包含丰富的户外用品，风格简约、易于使用且充满设计巧思。你可以带上它们轻松出门，享受美好的户外时光。",
     "轻松出门, 感受大自然的意趣"
    ],
    "images": [
@@ -46,6 +48,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20260401/161378f237874162b768c18fb897bca0.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": "#ca5008"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-媒体色块组合 Banner-"
    }
@@ -93,6 +105,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "全新 LASTARE 拉思塔尔 储物系列",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20260401/6a04ce556d8442b689cc80eb8e98a372.gif",
+     "href": "/cn/zh/rooms/bedroom/LASTARE-serie-pub03fdc74e",
+     "backgroundColor": "#FFFFFF"
+    },
+    {
+     "title": "探索当季纺织品",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20260401/0d0655b9168c4211b5690be285a37b08.png?x-oss-process=style/medium",
+     "href": "/cn/zh/new/seasonal-textile-pub2fe7fbf2",
+     "backgroundColor": "#FFFFFF"
+    },
+    {
+     "title": "GREJSIMOJS 格雷希莫",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20260126/38b54ec2b6ea49b38bf11abd10b8db3f.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/new/let-your-home-come-out-and-play-pubc28e2323",
+     "backgroundColor": "#FFFFFF"
+    },
+    {
+     "title": "MÄVINN 马维宁",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20260104/fcec3700e88740cf871deb5c7a332eab.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/new/maevinn-combining-social-entrepreneurship-and-design-pubcb97ea89",
+     "backgroundColor": "#FFFFFF"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "系列新品 web"
    }
@@ -110,6 +153,74 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "LILLESÄTER 利乐塞特",
+     "text": "¥1,299",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lillesaeter-li-le-sai-te-xiu-xian-zhuan-yi-gang-na-rui-de-shen-lan-se__1480270_pe1000172_s4.jpg",
+     "href": "/cn/zh/p/lillesaeter-li-le-sai-te-xiu-xian-zhuan-yi-gang-na-rui-de-shen-lan-se-90618489/"
+    },
+    {
+     "title": "GULLSTRÅLE 古斯塔拉",
+     "text": "¥199",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/gullstrale-gu-si-ta-la-chuang-zhao-liang-fen-se__1495706_pe1005099_s4.jpg",
+     "href": "/cn/zh/p/gullstrale-gu-si-ta-la-chuang-zhao-liang-fen-se-00625494/"
+    },
+    {
+     "title": "PELARKÖRSBÄR 培拉雪斯拜",
+     "text": "¥29.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/pelarkoersbaer-pei-la-xue-si-bai-dian-tao-bai-se-hei-se__1488729_pe1003473_s4.jpg",
+     "href": "/cn/zh/p/pelarkoersbaer-pei-la-xue-si-bai-dian-tao-bai-se-hei-se-10626426/"
+    },
+    {
+     "title": "LILLESÄTER 利乐塞特",
+     "text": "¥499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lillesaeter-li-le-sai-te-ai-deng-gang-na-rui-de-shen-lan-se__1480251_pe1000157_s4.jpg",
+     "href": "/cn/zh/p/lillesaeter-li-le-sai-te-ai-deng-gang-na-rui-de-shen-lan-se-00618484/"
+    },
+    {
+     "title": "PJÄTTERYD 皮亚特",
+     "text": "¥199",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/pjaetteryd-pi-ya-te-tu-pian-en-ne-lai-wo-dao-he-a-er-ke-ma-er__1446538_pe988622_s4.jpg",
+     "href": "/cn/zh/p/pjaetteryd-pi-ya-te-tu-pian-en-ne-lai-wo-dao-he-a-er-ke-ma-er-90619605/"
+    },
+    {
+     "title": "PELARKÖRSBÄR 培拉雪斯拜",
+     "text": "¥999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/pelarkoersbaer-pei-la-xue-si-bai-duan-rong-di-tan-dan-mi-se-ye-zi-tu-an__1543176_pe1018627_s4.jpg",
+     "href": "/cn/zh/p/pelarkoersbaer-pei-la-xue-si-bai-duan-rong-di-tan-dan-mi-se-ye-zi-tu-an-70625773/"
+    },
+    {
+     "title": "MARKBLÅMME 马克布洛莫",
+     "text": "¥799",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/markblamme-ma-ke-bu-luo-mo-duan-rong-di-tan-duo-se-fang-ge-tu-an__1468724_pe996250_s4.jpg",
+     "href": "/cn/zh/p/markblamme-ma-ke-bu-luo-mo-duan-rong-di-tan-duo-se-fang-ge-tu-an-70625706/"
+    },
+    {
+     "title": "SALTMYRAN 萨尔米朗",
+     "text": "¥1,499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/saltmyran-sa-er-mi-lang-san-ren-sha-fa-e-le-rui-mi-hui-se__1576103_pe1032228_s4.jpg",
+     "href": "/cn/zh/p/saltmyran-sa-er-mi-lang-san-ren-sha-fa-e-le-rui-mi-hui-se-90618516/"
+    },
+    {
+     "title": "TÄRNKULLEN 谭库伦",
+     "text": "¥1,999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/taernkullen-tan-ku-lun-ruan-bao-chuang-jia-qi-lin-mi-huang-se-lu-rui__1478421_pe999540_s4.jpg",
+     "href": "/cn/zh/p/taernkullen-tan-ku-lun-ruan-bao-chuang-jia-qi-lin-mi-huang-se-lu-rui-89608132/"
+    },
+    {
+     "title": "LOTSFÅGEL 洛兹法格",
+     "text": "¥9.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lotsfagel-luo-zi-fa-ge-xiang-wei-zhu-he-bo-li-bei-fen-se-jiao-hua-qian-fen-se__1485823_pe1002186_s4.jpg",
+     "href": "/cn/zh/p/lotsfagel-luo-zi-fa-ge-xiang-wei-zhu-he-bo-li-bei-fen-se-jiao-hua-qian-fen-se-80608457/"
+    },
+    {
+     "title": "SOLUPPGÅNG 索尔乌普攻",
+     "text": "¥59.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/soluppgang-suo-er-wu-pu-gong-dian-tao-hei-se-mi-huang-se__1450496_pe990335_s4.jpg",
+     "href": "/cn/zh/p/soluppgang-suo-er-wu-pu-gong-dian-tao-hei-se-mi-huang-se-50619768/"
+    }
+   ],
    "settings": {
     "traceId": "商品列表-新品推荐"
    }
@@ -132,6 +243,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "button-新品目录 web"
    }
@@ -144,6 +257,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-富文本 Text-"
    }
@@ -192,6 +307,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "图片说明",
+     "image": "https://static.web.ikea.cn/content/u/20260312/1628d99063d64113b4fb45b38b0251aa.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "一把Gunnared 刚纳瑞德 深蓝色LILLESÄTER 利乐塞特 休闲转椅上搭着一条柔软的KLIPPOXEL 克利波塞 休闲毯，一人舒适地坐在转椅上，旁边有几本杂志。",
+     "image": "https://file.app.ikea.cn/content/u/20251127/F81AE50A-78DD-4BC7-B911F3EF6A49421C.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "客厅中，一个PÄRLHÄGG 派尔海格 花瓶放在茶几上，后方静置着一张Axvall 阿斯沃 米白色LILLESÄTER 利乐塞特 3人沙发。",
+     "image": "https://file.app.ikea.cn/content/u/20251127/B00E868D-55F2-455B-B2B47BBC42BECFB7.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "客厅中，一把Gunnared 刚纳瑞德 深蓝色LILLESÄTER 利乐塞特 布艺休闲转椅旁边摆放着两张PJÄTTERYD 皮亚特 照片。",
+     "image": "https://file.app.ikea.cn/content/u/20251127/4337C3C4-CDB1-4C6B-B6424A9E4309B926.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "客厅中，一把Gunnared 刚纳瑞德 深蓝色LILLESÄTER 利乐塞特 布艺休闲转椅旁边摆放着绿植和一个唱片机。",
+     "image": "https://file.app.ikea.cn/content/u/20251127/F050B1E0-D1D0-41A9-92B24A2616375346.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-栅格合集 Curated Gallery-你的客厅迎来专属的惊艳时刻"
    }
@@ -204,6 +357,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-富文本 Text-"
    }
@@ -252,6 +407,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "褐色的床架上铺着黑白/蓝色HÄRLIR 哈勒尔 被套和枕套，与蓝色的SKOGSKOVALL 思克斯瓦 床罩和谐搭配。",
+     "image": "https://file.app.ikea.cn/content/u/20251128/01C50174-C83C-44FC-95B2EBF81B9A31FE.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "一人拿着两个靠垫，其中一个靠垫套着棕色/蓝色LÖVNATURSKOG 洛奈特斯克 垫套，色彩绚丽的方框图案尽显设计美感。",
+     "image": "https://file.app.ikea.cn/content/u/20251127/861DE1CC-FC95-4C45-BEE78A512E804977.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "卧室中静置着一张褐色RÅDMANSÖ 拉曼斯 床头桌，桌腿拥有典雅的胡桃木纹理。桌旁摆放着一张舒适的睡床和一棵绿意盎然的盆栽。",
+     "image": "https://file.app.ikea.cn/content/u/20251127/7C55D751-CF97-47FD-B315309101811E91.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "卧室中，深蓝色的HAMPFLOCKEL 汉姆弗洛科 被套和枕套铺在床上，与蓝色的SKOGSKOVALL 思克斯瓦 床罩相得益彰。",
+     "image": "https://file.app.ikea.cn/content/u/20251127/FD92326A-40F2-4C92-B845885D063CF389.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "一人抱着一个枕头坐在床上，上面铺着黑白/蓝色HÄRLIR 哈勒尔 被套和枕套。",
+     "image": "https://file.app.ikea.cn/content/u/20251127/00F4C655-0672-427E-A9203328B0F2246B.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-栅格合集 Curated Gallery-卧室检查：通过"
    }
@@ -264,6 +457,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-富文本 Text-"
    }
@@ -312,6 +507,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/content/u/20251127/CC7F3608-4444-475C-BE49E4B30F60F227.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "床上铺着白色与亮粉色花卉图案的HÄRLIR 哈勒尔 被套和枕套，亮粉色GULLSTRÅLE 古斯塔拉 床罩更显活力气息。",
+     "image": "https://file.app.ikea.cn/content/u/20251127/87CCB25E-2173-41E7-87535FC20FDDC9D7.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "一个色彩绚丽的PELARKÖRSBÄR 培拉雪斯拜 垫套放在亮粉色的GULLSTRÅLE 古斯塔拉 床罩上。",
+     "image": "https://file.app.ikea.cn/content/u/20251127/DBD7C8D3-3568-46BE-A055AFA0175BF6EA.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "卧室中，一条五彩斑斓的MARGOSATRÄD 麦格萨特莱 休闲毯搭在Kelinge 其林 橙色DYVLINGE 杜威林格 休闲转椅上。",
+     "image": "https://file.app.ikea.cn/content/u/20251127/19CBEC66-1990-4B53-9860CF34D58B7DC0.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "卧室的凳子上，一个粉色/绿色ÄLVSJÖSKOGEN 艾斯约科金 垫套放在绿色的GURLI 格尔利 垫套上。",
+     "image": "https://file.app.ikea.cn/content/u/20251128/069B5653-ED38-4E13-909FC3CB64BD2C01.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-栅格合集 Curated Gallery-告别基础色调"
    }
@@ -324,6 +557,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-富文本 Text-"
    }
@@ -372,6 +607,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "SOLUPPGÅNG 索尔乌普攻 碳烤炉旁，一只手正拿着一个SOLUPPGÅNG 索尔乌普攻 盘子，里面装着蘑菇和植物蛋白素肉丸串。",
+     "image": "https://file.app.ikea.cn/content/u/20251128/F6990F88-C0FA-4762-9D376D74CF5522DA.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "汽车旁有一张SOLUPPGÅNG 索尔乌普攻 折叠桌，桌上放着SOLUPPGÅNG 索尔乌普攻 盘子和杯子，上方是一块防水布。 ",
+     "image": "https://file.app.ikea.cn/content/u/20251128/BC5762D2-6F97-455B-82E1AACC1D05C039.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "一个SOLUPPGÅNG 索尔乌普攻 篮子放在一棵树旁，里面装着一袋HUVUDROLL 植物蛋白素肉丸和其它袋装食物。",
+     "image": "https://file.app.ikea.cn/content/u/20251128/CA17E9CC-6AF8-438C-AFE70EB2E61EF979.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "两个装着面汤的SOLUPPGÅNG 索尔乌普攻 碗，和两个SOLUPPGÅNG 索尔乌普攻 餐叉放在一张折叠桌上，旁边是其它烹饪餐具。",
+     "image": "https://file.app.ikea.cn/content/u/20251128/7551115D-DDEC-4976-9362294EE30335F8.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "一张SOLUPPGÅNG 索尔乌普攻 折叠桌上，摆放着两个一套的竹制 SOLUPPGÅNG 索尔乌普攻 上菜碗，里面盛着五彩斑斓的新鲜蔬菜。 ",
+     "image": "https://file.app.ikea.cn/content/u/20251128/202DA5FB-E6D8-4C19-92AFD2346360B902.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-栅格合集 Curated Gallery-大自然是最好的调味料"
    }
@@ -384,6 +657,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-富文本 Text-"
    }
@@ -417,6 +692,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/content/u/20251021/4B9CA78E-7737-4FB2-A5FC9664DE068C4C.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "图片说明",
+     "image": "https://file.app.ikea.cn/content/u/20251021/0C2D8402-2DCD-49FA-81E05D33CEDED1A5.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-栅格合集 Curated Gallery-简洁工业风的餐桌椅"
    }
@@ -429,6 +721,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-富文本 Text-"
    }
@@ -462,6 +756,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/content/u/20251220/C9044759-BB5D-4C69-8D0B245502347BE4.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "图片说明",
+     "image": "https://file.app.ikea.cn/content/u/20251021/0C2D8402-2DCD-49FA-81E05D33CEDED1A5.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-栅格合集 Curated Gallery-简洁工业风的餐桌椅"
    }
@@ -474,6 +785,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-富文本 Text-"
    }
@@ -502,6 +815,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/content/u/20251021/9EFCC175-AB40-41DB-9ED493827FFE78CE.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-栅格合集 Curated Gallery-简洁工业风的餐桌椅"
    }
@@ -514,6 +837,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-富文本 Text-"
    }
@@ -531,6 +856,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "瀑布流"
    }
@@ -538,11 +865,11 @@
   {
    "type": "pub-text",
    "title": null,
-   "texts": [
-    "<h3>&nbsp;&nbsp;</h3>"
-   ],
+   "texts": [],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }

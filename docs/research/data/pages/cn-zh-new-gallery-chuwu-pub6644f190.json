@@ -8,10 +8,10 @@
  "blocks": [
   {
    "type": "pub-hero",
-   "title": "增添一丝粗犷气息 ",
+   "title": "增添一丝粗犷气息",
    "texts": [
     "在一个米色的房间里，放着一张笔记本电脑桌，桌子采用极简设计，桌面采用实心松木制成，框架为黑色钢制，其中一面为金属网格。一起展示的还有一把黑色转椅。",
-    "<p>FJ&Auml;LLBO 耶伯 储物系列采用松木和金属网格制成，设计极简，外观质朴，带有1920年代工业风格。</p>",
+    "FJäLLBO 耶伯 储物系列采用松木和金属网格制成，设计极简，外观质朴，带有1920年代工业风格。",
     "增添一丝粗犷气息",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "增添一丝粗犷气息 ",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/c6/6a/c66a86d59e67ac17e21af30d74f37a2d.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,16 +54,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "特写：一张笔记本电脑桌，桌面为实心松木材质，框架为黑色钢制，金属网格上带有挂钩，上面挂着绳子和剪刀等物品。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/80/39/8039c3c834c3ce8310b7f6ae0f97c9b6.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>FJ&Auml;LLBO 耶伯 笔记本电脑桌不仅风格独特，而且非常实用，可以在网格上增加挂钩，用来悬挂办公用品等物品。</p>\n<p><a href=\"../catalog/categories/departments/workspaces/series/37320/\">查看 FJ&Auml;LLBO 耶伯 系列</a></p>"
+    "FJäLLBO 耶伯 笔记本电脑桌不仅风格独特，而且非常实用，可以在网格上增加挂钩，用来悬挂办公用品等物品。 查看 FJäLLBO 耶伯 系列"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -69,6 +91,32 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "FJÄLLBO 耶伯",
+     "text": "¥699",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/fjaellbo-ye-bo-ge-jia-dan-yuan-hei-se__1071961_pe855055_s4.jpg",
+     "href": "/cn/zh/p/fjaellbo-ye-bo-ge-jia-dan-yuan-hei-se-80339295/"
+    },
+    {
+     "title": "FJÄLLBO 耶伯",
+     "text": "¥399",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/fjaellbo-ye-bo-ge-jia-dan-yuan-hei-se__0473389_pe614540_s4.jpg",
+     "href": "/cn/zh/p/fjaellbo-ye-bo-ge-jia-dan-yuan-hei-se-90342198/"
+    },
+    {
+     "title": "FJÄLLBO 耶伯",
+     "text": "¥1,698",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/fjaellbo-ye-bo-dian-shi-ji-zu-he-gui-hei-se__0625394_pe692240_s4.jpg",
+     "href": "/cn/zh/p/fjaellbo-ye-bo-dian-shi-ji-zu-he-gui-hei-se-59191267/"
+    },
+    {
+     "title": "FJÄLLBO 耶伯",
+     "text": "¥699",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/fjaellbo-ye-bo-ge-jia-dan-yuan-hei-se__0473388_pe614539_s4.jpg",
+     "href": "/cn/zh/p/fjaellbo-ye-bo-ge-jia-dan-yuan-hei-se-10339294/"
+    }
+   ],
    "settings": null
   }
  ]

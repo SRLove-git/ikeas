@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Page Title-"
    }
@@ -42,6 +44,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "IKEA Family 宜家俱乐部",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e4/15/e415b9afdb1c8d77fb6187983532d61e.jpg",
+     "href": "/cn/zh/profile/new-member-quick-step?fromType=myprofile",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Image(video)-"
    }
@@ -54,7 +66,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<h3><strong>用灵感点亮你的家居梦想</strong></h3>\n<p>宜家俱乐部欢迎所有人，无论是热衷于改造家的家居达人，还是刚刚入门、需要帮助的新手。<br />在宜家俱乐部，你就是灵感来源。<br />我们通过了解你的喜好、创意和计划，为你呈现美妙的宜家体验，将你的家居梦想变为现实。<br />加入宜家俱乐部，即可享受会员福利，更有不期而至的小惊喜等着你。</p>",
+    "用灵感点亮你的家居梦想 宜家俱乐部欢迎所有人，无论是热衷于改造家的家居达人，还是刚刚入门、需要帮助的新手。 在宜家俱乐部，你就是灵感来源。 我们通过了解你的喜好、创意和计划，为你呈现美妙的宜家体验，将你的家居梦想变为现实。 加入宜家俱乐部，即可享受会员福利，更有不期而至的小惊喜等着你。",
     "pub-text"
    ],
    "images": [
@@ -70,6 +82,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/07/10/0710ef89c0539dafd894ea47030ad3fa.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/07/10/0710ef89c0539dafd894ea47030ad3fa.jpg",
+     "href": null
+    },
+    {
+     "heading": "用灵感点亮你的家居梦想 宜家俱乐部欢迎所有人，无论是热衷于改造家的家居达人，还是刚刚入门、需要帮助的新手。 在宜家俱乐部，你就是灵感来源。 我们通过了解你的喜好、创意和计划，为你呈现美妙的宜家体验，将你的家居梦想变为现实。 加入宜家俱乐部，即可享受会员福利，更有不期而至的小惊喜等着你。",
+     "text": null,
+     "image": null,
+     "href": "/cn/zh/profile/new-member-quick-step"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Columns-"
    }
@@ -82,6 +118,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Horizontal Line-"
    }
@@ -90,10 +128,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>成为宜家俱乐部会员后，<br />你可以享受到一系列惊喜福利：</h2>"
+    "成为宜家俱乐部会员后， 你可以享受到一系列惊喜福利："
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -107,7 +147,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<p><strong><span style=\"font-size: 11.0pt; color: black;\">新会员首次注册，享&ldquo;线上9.9元运费券&rdquo;、&ldquo;3期分期免息&rdquo;双重好礼！</span><br /><br /></strong></p>\n<p>&nbsp;</p>"
+    "新会员首次注册，享“线上9.9元运费券”、“3期分期免息”双重好礼！"
    ],
    "images": [
     "https://file.app.ikea.cn/cms/u/20231214/a1928d71349049c0add733627c7b9784.jpg?x-oss-process=style/medium",
@@ -132,6 +172,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20231214/a1928d71349049c0add733627c7b9784.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20231214/00d06debd32c4a09ab43a79ae4e8e906.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/campaigns/summer-sale-pub423cf91e",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20231208/5c72e5112e3c4e6992bf3baf8cfe3ed6.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "新会员首次注册，享“线上9.9元运费券”、“3期分期免息”双重好礼！",
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20231214/a1928d71349049c0add733627c7b9784.jpg?x-oss-process=style/medium",
+     "href": null
+    },
+    {
+     "heading": "限时特惠: 会员享受专属商品优惠 查看当前特惠 ›",
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20231214/00d06debd32c4a09ab43a79ae4e8e906.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/campaigns/summer-sale-pub423cf91e"
+    },
+    {
+     "heading": "积分兑换: 消费累积分，积分可兑换会员周边礼、热销商品、大额满减券、服务等丰富好礼",
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20231208/5c72e5112e3c4e6992bf3baf8cfe3ed6.jpg?x-oss-process=style/medium",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Columns-"
    }
@@ -145,7 +229,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<p><strong><span style=\"font-size: 11.0pt; color: black;\">完善生日信息，生日月专享线下餐厅任意消费送生日小蛋糕券，或线上无门槛商品优惠券，2选1！</span></strong></p>\n<p><strong><span style=\"font-size: 11.0pt; color: black;\">同时叠加生日月首单多倍积分奖励！</span></strong></p>"
+    "完善生日信息，生日月专享线下餐厅任意消费送生日小蛋糕券，或线上无门槛商品优惠券，2选1！ 同时叠加生日月首单多倍积分奖励！"
    ],
    "images": [
     "https://file.app.ikea.cn/cms/u/20231208/2e0620647c4642b9956600e11560d5a8.jpg?x-oss-process=style/medium",
@@ -166,6 +250,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20231208/2e0620647c4642b9956600e11560d5a8.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20231208/eee9b97eedd14414841feda0657ba98f.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20260324/1775cdc248144f4b977685a0b3d8e495.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "完善生日信息，生日月专享线下餐厅任意消费送生日小蛋糕券，或线上无门槛商品优惠券，2选1！ 同时叠加生日月首单多倍积分奖励！",
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20231208/2e0620647c4642b9956600e11560d5a8.jpg?x-oss-process=style/medium",
+     "href": null
+    },
+    {
+     "heading": "安心保障: 退换货时间延长至365天",
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20231208/eee9b97eedd14414841feda0657ba98f.jpg?x-oss-process=style/medium",
+     "href": null
+    },
+    {
+     "heading": "工作日免费咖啡： 会员工作日在宜家餐厅任意消费享咖啡0元畅饮，周末节假日及商场活动日除外。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20260324/1775cdc248144f4b977685a0b3d8e495.jpg?x-oss-process=style/medium",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Columns-"
    }
@@ -188,6 +316,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Link - button or text-"
    }
@@ -216,6 +346,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/bf/6e/bf6ef6ae614b0afce392690b29c916aa.jpg",
+     "href": "/cn/zh/profile/new-member-quick-step?fromType=myprofile",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Image(video)-"
    }

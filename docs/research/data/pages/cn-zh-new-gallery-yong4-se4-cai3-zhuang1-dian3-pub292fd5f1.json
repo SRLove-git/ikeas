@@ -11,7 +11,7 @@
    "title": "用色彩装点",
    "texts": [
     "利用各类宜家 ÄDELHET 艾德尔赫特 烛台/小圆蜡烛托套装，为家居生活增添彩色装饰。这款产品饰以粉色、绿色、黄色、蓝色、白色和米色，圆柱造型高矮不一，并搭配半圆形造型装饰。",
-    "<p>从本月新品中汲取灵感，利用全新蜡烛套装和文具系列，为家居环境和书桌注入彩色装饰元素。</p>\n<p>利用趣味十足的 &Auml;DELHET 艾德尔赫特 烛台/小圆蜡烛托套装点亮生活。该套装采用彩色铝材制成，侧边带有一片几何状设计。</p>",
+    "从本月新品中汲取灵感，利用全新蜡烛套装和文具系列，为家居环境和书桌注入彩色装饰元素。 利用趣味十足的 äDELHET 艾德尔赫特 烛台/小圆蜡烛托套装点亮生活。该套装采用彩色铝材制成，侧边带有一片几何状设计。",
     "用色彩装点",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "用色彩装点",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/43/25/43253f28e0331b9726aebd5c682730b5.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,16 +54,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "选用宜家 KNALLGUL 科纳古尔 办公桌收纳件，让工作变得充满乐趣、井井有条。五个散放纸盒提供纯红色和其他亮色几何图案可选。与其他 KNALLGUL 科纳古尔 文具共同展示。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/07/2c/072c70b3bdfb4b3908a6d906cee8a9d5.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>为书桌注入活力</h2>\n<p>KNALLGUL 科纳古尔 文具系列多彩有趣，采用来自更可持续来源的纸张制成，让书桌更加井然有序，激发更多创意。</p>\n<p>本系列包括：办公桌收纳件、剪贴板、每周规划板、书桌垫、笔记本和胶带卷。</p>"
+    "为书桌注入活力 KNALLGUL 科纳古尔 文具系列多彩有趣，采用来自更可持续来源的纸张制成，让书桌更加井然有序，激发更多创意。 本系列包括：办公桌收纳件、剪贴板、每周规划板、书桌垫、笔记本和胶带卷。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -74,16 +96,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "使用充满趣味的宜家 KNALLGUL 科纳古尔 胶带卷四件套进行装饰。纸胶带易于撕除，每个包装内含有五米长的绿色、白色、黄色和多色几何图案胶带各一个。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/9a/df/9adf69a2fbf889ba86db6880d5f08957.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>KNALLGUL 科纳古尔 胶带卷提供纯色和饰有图案的纸胶带，即刻便可开始装饰你的礼物、盒子和卡片。</p>"
+    "KNALLGUL 科纳古尔 胶带卷提供纯色和饰有图案的纸胶带，即刻便可开始装饰你的礼物、盒子和卡片。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -99,6 +133,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

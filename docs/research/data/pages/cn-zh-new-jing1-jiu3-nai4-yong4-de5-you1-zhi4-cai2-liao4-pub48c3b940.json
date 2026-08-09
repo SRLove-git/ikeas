@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "c53ed8951ddf45d88f14bd4563e01bec"
    }
@@ -22,10 +24,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>如果你想在这个季节焕新家居，建议首选经得起时间考验的材料，譬如美观耐磨的橡木厨房家具，以及耐用的亚麻床上用品。</p>"
+    "如果你想在这个季节焕新家居，建议首选经得起时间考验的材料，譬如美观耐磨的橡木厨房家具，以及耐用的亚麻床上用品。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "2fd05ef96c37462b85706451f0f99f97"
    }
@@ -48,6 +52,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220420/9c7a0b64a9674619a4e888ac971e9192.mp4",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "4ae61665ca5f44eab4a266cbcb5e1e32"
    }
@@ -66,6 +80,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "94011cb15e984b76b635c2a1b7cc234c"
    }
@@ -94,6 +110,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一张整理到一半的床，上面铺着白色的DYTÅG 迪淘格 被套；被套和枕头都有着轻微的褶皱。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/57cdf85d1e73d053/original/PH185044.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "31bae5a093934080849764a99cb9eddd"
    }
@@ -118,6 +144,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "一个配有VEDHAMN 韦德哈姆 橡木抽屉和玻璃前板的橱柜，里面摆满了白色餐具和玻璃杯。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/5913a289187d694a/original/PH185055.jpg",
+     "href": null,
+     "backgroundColor": "#C09B84"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "94268438079b4866a754af045cd46678"
    }
@@ -146,6 +182,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个配有VEDHAMN 韦德哈姆 橡木抽屉和玻璃前板的橱柜，里面摆满了白色餐具和玻璃杯。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/2fb43808151e0cd4/original/PH185056.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "8cd8bfb7f5014ee0b995db6e0002ae5f"
    }

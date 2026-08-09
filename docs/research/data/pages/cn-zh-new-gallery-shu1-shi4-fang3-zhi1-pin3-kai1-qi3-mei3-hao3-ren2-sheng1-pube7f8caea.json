@@ -11,7 +11,7 @@
    "title": "舒适纺织品开启美好人生",
    "texts": [
     "RÖDHAKE 吕哈克 婴儿纺织品系列中的被套、毯子和床篷等产品上均印有可爱的图案。",
-    "<p>RÖDHAKE 吕哈克 纺织品系列专为婴儿房打造，并从瑞典童话汲取灵感，为这些纺织品添上了传统图案。小方巾上饰有活泼好动的小兔子图案，婴儿床上用品则以老鼠航海为主题。</p>",
+    "RÖDHAKE 吕哈克 纺织品系列专为婴儿房打造，并从瑞典童话汲取灵感，为这些纺织品添上了传统图案。小方巾上饰有活泼好动的小兔子图案，婴儿床上用品则以老鼠航海为主题。",
     "舒适纺织品开启美好人生",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "舒适纺织品开启美好人生",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e4/1e/e41e8f1b1c0ee3a996e0d6becaacc863.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -56,6 +66,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "特写：RÖDHAKE 吕哈克 毯子的浅色背景上饰有红色条纹，其中一角还点缀着小兔子图案。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/6b/00/6b005c26b4c1b2df9fbb6502ad70a1e4.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "以浅色为背景颜色的 RÖDHAKE 吕哈克 被套上饰有兔子图案。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/dd/b6/ddb624dd40e7d728519d25423fc6da74.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "以浅色为背景颜色的 RÖDHAKE 吕哈克 绗缝毯子上饰有兔子和蓝莓图案。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/c7/19/c719f98250ebe2b0a8d2150a5c344f71.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "RÖDHAKE 吕哈克 纺织品系列囊括了新生小生命需要的各种纺织品，如婴儿毯、睡袋和小方巾。",
+     "image": "https://file.app.ikea.cn/images/6b/00/6b005c26b4c1b2df9fbb6502ad70a1e4.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "RÖDHAKE 吕哈克 被套采用天然材料织成，触感柔软。既能呵护你的宝宝，又有益于地球。",
+     "image": "https://file.app.ikea.cn/images/dd/b6/ddb624dd40e7d728519d25423fc6da74.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "RÖDHAKE 吕哈克 绗缝毯子还有许多令人惊喜的细节有待你发现，它既可以铺在地板上，也可以放入婴儿车内。",
+     "image": "https://file.app.ikea.cn/images/c7/19/c719f98250ebe2b0a8d2150a5c344f71.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   }
  ]

@@ -11,7 +11,7 @@
    "title": "厨房设计工具",
    "texts": [
     "厨房",
-    "<p>使用我们简单易用的<a href=\"http://kitchenplanner.ikea.com/cn/UI/Pages/VPUI.htm\">厨房设计工具</a>（仅支持PC端使用），充分利用厨房空间，避免常见设计错误。<br /><strong>查看3D图像</strong>，随心尝试尽可能多的设计，与此同时，你还可以获得一份详细的产品列表。然后你可以选择保存或打印你的设计图，前往当地的宜家商场或拨打我们的电话，了解如何把你的设计变成现实。请注意，出于安全原因，我们不能在宜家商场从你的个人存储设备下载信息，如U盘或硬盘。<strong>设计梦想厨房时需要帮助吗？</strong><strong><a href=\"https://www.ikea.cn/cn/zh/rooms/kitchen/how-to-plan-buy/chufang-pub2016b3c1\" target=\"_blank\">前往</a>我们的厨房购物指南。</strong></p>",
+    "使用我们简单易用的厨房设计工具（仅支持PC端使用），充分利用厨房空间，避免常见设计错误。 查看3D图像，随心尝试尽可能多的设计，与此同时，你还可以获得一份详细的产品列表。然后你可以选择保存或打印你的设计图，前往当地的宜家商场或拨打我们的电话，了解如何把你的设计变成现实。请注意，出于安全原因，我们不能在宜家商场从你的个人存储设备下载信息，如U盘或硬盘。设计梦想厨房时需要帮助吗？前往我们的厨房购物指南。",
     "厨房设计工具",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "厨房设计工具",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/89/af/89af55025efed937826ed00b7ffd7c4c.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,16 +54,20 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h4><strong>更多设计工具</strong></h4>"
+    "更多设计工具"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -81,6 +95,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "办公室设计工具",
+     "text": "使用我们的办公室设计工具，轻松打造符合人体工程学的高效办公室。",
+     "image": "https://file.app.ikea.cn/images/d4/e6/d4e6ac9b7a197a9f0e2faae0fa0068cb.jpg",
+     "href": "/cn/zh/planners/office-planner-pubc20df511",
+     "backgroundColor": null
+    },
+    {
+     "title": "BYOD书桌设计工具",
+     "text": "自己设计书桌\n\n如何激发你的创造力？我们为你提供了一款书桌设计工具，可用来组合桌面和桌腿，帮助你打造一个能坐下来做喜爱之事的空间。",
+     "image": "https://file.app.ikea.cn/images/b3/c7/b3c7173dc4e92883ba89e590922d990e.jpg",
+     "href": "/cn/zh/planners/byod-planner-pubd57af98b",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -101,6 +132,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

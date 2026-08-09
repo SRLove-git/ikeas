@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -32,16 +34,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/c8/b6/c8b6e9d65e6a664e6d20713c8636e2be.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>培训室</h2>\n<p>配备可移动会议桌，自由调整布局，适合多种情境</p>"
+    "培训室 配备可移动会议桌，自由调整布局，适合多种情境"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -67,16 +81,49 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/f2/72/f2727e9aa19cb2d65867ce1074b9f6fe.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/c2/80/c280c8a20a547bba3a3d8b5ffea26c7a.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/f2/72/f2727e9aa19cb2d65867ce1074b9f6fe.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/c2/80/c280c8a20a547bba3a3d8b5ffea26c7a.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>收纳区</p>"
+    "收纳区"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -102,16 +149,49 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/3f/70/3f708d7b3a41a6036cfc15b5524a4aeb.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/4a/be/4abed788aaf13fbb1f536a76fcef9fe1.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/3f/70/3f708d7b3a41a6036cfc15b5524a4aeb.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/4a/be/4abed788aaf13fbb1f536a76fcef9fe1.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>培训室2</h2>"
+    "培训室2"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -130,6 +210,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/31/d2/31d2447e5e44b085f8cf523f580f95c3.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -155,6 +245,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ea/d0/ead0d4b19856ebb1dcfe8880da612e31.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b6/3d/b63ddd88846a8186aee1aa1847742b57.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/ea/d0/ead0d4b19856ebb1dcfe8880da612e31.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/b6/3d/b63ddd88846a8186aee1aa1847742b57.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -173,6 +294,57 @@
     {
      "href": "/ikea-business/office-furnishings/",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "相关产品",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/ikea-business/office-furnishings/",
+     "backgroundColor": null
+    },
+    {
+     "title": "LÅNGFJÄLL 隆菲尔",
+     "text": "¥1,099",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/langfjaell-long-fei-er-hui-yi-yi-gang-na-rui-de-mi-huang-se-bai-se__0725409_pe734841_s4.jpg",
+     "href": "/cn/zh/p/langfjaell-long-fei-er-hui-yi-yi-gang-na-rui-de-mi-huang-se-bai-se-89252792/"
+    },
+    {
+     "title": "KALLAX 卡莱克",
+     "text": "¥599",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kallax-qia-lai-ke-ge-jia-dan-yuan-bai-se__0601747_pe681619_s4.jpg",
+     "href": "/cn/zh/p/kallax-qia-lai-ke-ge-jia-dan-yuan-bai-se-00471726/"
+    },
+    {
+     "title": "GALANT 佳兰特",
+     "text": "¥1,999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/galant-jia-lan-te-chu-wu-gui-bai-se__0612970_pe686104_s4.jpg",
+     "href": "/cn/zh/p/galant-jia-lan-te-chu-wu-gui-bai-se-90365142/"
+    },
+    {
+     "title": "NYMÅNE 纽墨奈",
+     "text": "¥299",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/nymane-niu-mo-nai-diao-deng-bai-se__0485490_pe621551_s4.jpg",
+     "href": "/cn/zh/p/nymane-niu-mo-nai-diao-deng-bai-se-90407142/"
+    },
+    {
+     "title": "LAGKAPTEN 拉格开普 / ALEX 阿来斯",
+     "text": "¥749",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lagkapten-la-ge-kai-pu-alex-a-lai-si-shu-zhuo-bai-se__0977483_pe813612_s4.jpg",
+     "href": "/cn/zh/p/lagkapten-la-ge-kai-pu-alex-a-lai-si-shu-zhuo-bai-se-09416820/"
+    },
+    {
+     "title": "ODGER 奥德格",
+     "text": "¥999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/odger-ao-de-ge-zhuan-yi-mei-hei-se__0734066_pe739277_s4.jpg",
+     "href": "/cn/zh/p/odger-ao-de-ge-zhuan-yi-mei-hei-se-70395263/"
+    },
+    {
+     "title": "LÅNGFJÄLL 隆菲尔",
+     "text": "¥899",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/langfjaell-long-fei-er-hui-yi-yi-gang-na-rui-de-mi-huang-se-bai-se__0725412_pe734844_s4.jpg",
+     "href": "/cn/zh/p/langfjaell-long-fei-er-hui-yi-yi-gang-na-rui-de-mi-huang-se-bai-se-29252766/"
     }
    ],
    "settings": null
@@ -195,6 +367,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -215,6 +389,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

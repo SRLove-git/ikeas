@@ -11,7 +11,7 @@
    "title": "专用于收纳可爱小物件的巧妙储物装置",
    "texts": [
     "宜家 STUVA 斯多瓦 婴儿家具系列助你将衣物和换衣所需的物品安全存放在育儿室内。使用 ANGELÄGEN 昂耶莱肯 彩色储物盒轻松拿取所需物品。",
-    "<p>此处介绍的妙招，可助你在育儿室内收纳婴儿衣物、换衣所需物品以及其他用品，帮你减轻压力，乐享生活中的点滴幸福。</p>",
+    "此处介绍的妙招，可助你在育儿室内收纳婴儿衣物、换衣所需物品以及其他用品，帮你减轻压力，乐享生活中的点滴幸福。",
     "专用于收纳可爱小物件的巧妙储物装置",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "专用于收纳可爱小物件的巧妙储物装置",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/92/af/92afdee4fa71faa9301dfa07cad07bc8.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -39,6 +49,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "FUBBLA 夫布拉",
+     "text": "¥179",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/fubbla-fu-bu-la-led-bi-deng-bai-se__0607991_pe683401_s4.jpg",
+     "href": "/cn/zh/p/fubbla-fu-bu-la-led-bi-deng-bai-se-30391101/"
+    },
+    {
+     "title": "SOLBO 斯诺博",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/solbo-si-nuo-bo-tai-deng-bai-se-mao-tou-ying__0609266_pe684403_s4.jpg",
+     "href": "/cn/zh/p/solbo-si-nuo-bo-tai-deng-bai-se-mao-tou-ying-10360884/"
+    }
+   ],
    "settings": null
   }
  ]

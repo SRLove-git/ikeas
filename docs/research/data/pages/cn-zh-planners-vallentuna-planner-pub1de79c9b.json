@@ -11,7 +11,7 @@
    "title": "VALLENTUNA 瓦伦图 设计工具",
    "texts": [
     "VALLENTUNA 瓦伦图",
-    "<p><strong>设计最合适的沙发</strong></p>\n<p>你喜欢把脚抬高还是盘腿坐？你的沙发需要适合全家使用，还是仅用作个人空间？无论你喜欢怎样的休闲放松方式，都可以使用我们的<a href=\"https://www.ikea.cn/cn/zh/planner/vallentuna-planner/\" target=\"_blank\">VALLENTUNA 瓦伦图 设计工具</a>打造最合适的沙发。添加并摆放组件，根据个人喜好打造任意大小、色彩和舒适度的沙发。</p>",
+    "设计最合适的沙发 你喜欢把脚抬高还是盘腿坐？你的沙发需要适合全家使用，还是仅用作个人空间？无论你喜欢怎样的休闲放松方式，都可以使用我们的VALLENTUNA 瓦伦图 设计工具打造最合适的沙发。添加并摆放组件，根据个人喜好打造任意大小、色彩和舒适度的沙发。",
     "VALLENTUNA 瓦伦图 设计工具",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "VALLENTUNA 瓦伦图 设计工具",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/c6/10/c61012d6f993e2fe3b247b3f89d0b188.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,16 +54,20 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>更多设计工具</strong></h2>"
+    "更多设计工具"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -86,6 +100,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "SÖDERHAMN 索德汉设计工具",
+     "text": "SÖDERHAMN沙发让你拥有自己的组合，使用SÖDERHAMN 索德汉设计工具来规划适合你的style的沙发吧！",
+     "image": "https://file.app.ikea.cn/images/b9/1b/b91bd490cd4bb56e8877df39c88e27f8.jpg",
+     "href": "/cn/zh/planners/soederhamn-planner-pub7d9e5e7a",
+     "backgroundColor": null
+    },
+    {
+     "title": "VIMLE维姆勒 设计工具",
+     "text": "VIMLE维姆勒--为你设计，由你设计\n\n最适合你家客厅的沙发应该长什么样子?VIMLE维姆勒 帮你打造梦想沙发! 还需要更多空间收纳吗?就用VIMLE维姆勒 设计软件亲手打造最实用的收纳组件吧!",
+     "image": "https://file.app.ikea.cn/images/fe/6d/fe6db76d6dbf1776f4294b5a4914ab12.jpg",
+     "href": "/cn/zh/planners/vimle-planner-pub9ac83b0b",
+     "backgroundColor": null
+    },
+    {
+     "title": "ELVARLI 爱尔瓦丽 设计工具",
+     "text": "选择开放式搁板，让摆放的物品一目了然。或者将搁板与带阻尼抽屉搭配使用，打造开放式与隐蔽式结合的除服方案。可以在里面挂上很多衣服，也可以一件不挂。如果你希望换个方案，家中储物需求有变或者你搬家了，那么无论你选择了怎样的储物方案，都能随时对现有的 ELVARLI 爱尔瓦丽 储物系列进行调整或扩展。",
+     "image": "https://file.app.ikea.cn/images/e5/90/e590c1dacf468d7da6649f5970cdecdf.jpg",
+     "href": "/cn/zh/planners/elvarli-planner-pub8454e57b",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -106,6 +144,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

@@ -11,7 +11,7 @@
    "title": "按下“暂停键”，放松一下吧",
    "texts": [
     "Bedroom furnture, bedding and decoration from the HJÄRTELIG collection comes in muted tones.",
-    "<p>HJ&Auml;RTELIG 耶特列格 系列能够帮你打造舒缓身心的空间，给你一个卸下疲惫、恢复活力的私人港湾。练瑜伽、品披萨，再完美不过的休闲空间。</p>",
+    "HJäRTELIG 耶特列格 系列能够帮你打造舒缓身心的空间，给你一个卸下疲惫、恢复活力的私人港湾。练瑜伽、品披萨，再完美不过的休闲空间。",
     "按下“暂停键”，放松一下吧",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "按下“暂停键”，放松一下吧",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a8/b5/a8b525cd32efd10f6160991a3bdde721.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -43,6 +53,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "HJÄRTELIG 耶特列格 系列坐具和装饰品采用天然材料和柔和色调打造。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/21/a8/21a8c300408cd38419ea283caff15720.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -59,6 +79,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -78,16 +100,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "HJÄRTELIG 耶特列格 系列提供浅绿色和深红色香味烛",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/51/ea/51ea0d8477029f28079524aeaac920f8.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>HJ&Auml;RTELIG 耶特列格 系列能够让你身心舒缓。在这里，你可以找到各种小型装饰品，帮你把一切空间打造成舒适放松的休息港湾。</p>"
+    "HJäRTELIG 耶特列格 系列能够让你身心舒缓。在这里，你可以找到各种小型装饰品，帮你把一切空间打造成舒适放松的休息港湾。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -100,6 +134,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

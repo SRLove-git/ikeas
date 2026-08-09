@@ -11,7 +11,7 @@
    "title": "宜家和玩家国度联手提升电竞体验",
    "texts": [
     "黑白盒子中有一套完整的电竞设备，其中包含实体产品以及通过网格绘制而成的虚拟现实。",
-    "<p>使用引人注目、功能实用的家具和配件打造理想的电竞装置。</p>",
+    "使用引人注目、功能实用的家具和配件打造理想的电竞装置。",
     "宜家和玩家国度联手提升电竞体验",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "宜家和玩家国度联手提升电竞体验",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ce/ee/ceeedc76bc98a35597a43a02da086c82.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "14393676c563461395ff577a9e706226"
    }
@@ -52,6 +62,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "UPPSPEL 乌浦斯皮 升降电竞桌。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/6fbb2b11c283508/original/PH180880-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "9b5357a5d84249b5bf089397b1f808f1"
    }
@@ -76,6 +96,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "黑白背景中，一张MATCHSPEL 玛赤佩 电竞椅的黑色头垫以及黑色和红色靠背。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/591e549ba2398fa0/original/PH180846-crop001.jpg",
+     "href": null,
+     "backgroundColor": "#f5f5f5"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "bde640680b9244f89e4c732b7b7bac3a"
    }
@@ -105,6 +135,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一套白色电竞设备，中间摆放着一张UTESPELARE 乌斯佩 电竞桌和一把MATCHSPEL 玛赤佩 电竞椅，旁边还有一个BEKANT 贝肯特 储物单元。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/16a4fd8aae267397/original/PH180882-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "一套蓝色和黑色电竞设备，中间摆放着一把HUVUDSPELARE 胡福斯佩 电竞椅，旁边还有很多储物和电竞配件。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/2453b273caa19505/original/PH180887-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "3d7edd6ccd674934b325d6c3388d43e9"
    }
@@ -133,6 +180,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一位女士的侧脸。她的头发染成亮蓝色，身穿黑色连帽衫，还套着一个LÅNESPELARE 洛内斯佩 脖垫。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/38161a12cf130795/original/PH180805-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "49c8b76367bf4457921fed29af9fc694"
    }
@@ -151,6 +208,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "02ea0f251d5a4461a98722f001f1d89d"
    }
@@ -168,6 +227,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": {
     "traceId": "de7d3384c0e04666b886c13b0915e038"
    }

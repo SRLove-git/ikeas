@@ -23,6 +23,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "优雅、时尚、可持续",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/16/2d/162d46d376d83fd69d4db01544de843e.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -38,6 +48,26 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "KULLABERG 乐维",
+     "text": "¥499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kullaberg-le-wei-zhuan-yi-hei-se__0724718_pe734601_s4.jpg",
+     "href": "/cn/zh/p/kullaberg-le-wei-zhuan-yi-hei-se-70325519/"
+    },
+    {
+     "title": "LANDSKRONA 兰德克纳",
+     "text": "¥5,999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/landskrona-lan-de-ke-na-san-ren-sha-fa-ge-lan-bang-si-ta-hei-se-yuan-mu-se__1576906_pe1032803_s4.jpg",
+     "href": "/cn/zh/p/landskrona-lan-de-ke-na-san-ren-sha-fa-ge-lan-bang-si-ta-hei-se-yuan-mu-se-39031703/"
+    },
+    {
+     "title": "VITTSJÖ 维特索",
+     "text": "¥399",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vittsjoe-wei-te-suo-cha-ji-hei-he-se-bo-li__0135348_pe292039_s4.jpg",
+     "href": "/cn/zh/p/vittsjoe-wei-te-suo-cha-ji-hei-he-se-bo-li-00213313/"
+    }
+   ],
    "settings": null
   }
  ]

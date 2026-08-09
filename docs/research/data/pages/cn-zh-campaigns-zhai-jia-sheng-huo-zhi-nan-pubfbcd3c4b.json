@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "878861d7a49146e0839169fe54a6f8de"
    }
@@ -62,6 +64,51 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "宅家潜能进阶",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220330/a2b3022e4a8c4bc58d5f8b5d394cbb40.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/dining/guo1-ju4-xuan3-gou4-zhi3-nan2-pub67eb9cd0",
+     "backgroundColor": "#f5f5f5"
+    },
+    {
+     "title": "宅家清洁好物",
+     "text": "借助设计工具，规划你的个性METOD 米多 厨房。",
+     "image": "https://file.app.ikea.cn/cms/u/20220330/d4157931fef444848cd66a71b1ef94e0.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/campaigns/zhai2-jia1-gong1-le4-qing1-jie2-pian1-pub0bb7e040",
+     "backgroundColor": "#f5f5f5"
+    },
+    {
+     "title": "宅家高效办公",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220330/f6ec3bf758f14c0a97b9145d7c46b54c.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/campaigns/staycation-working-pub480b3210",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "宅家趣味多",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220330/a7deaa1e7cad4ed28c3c0147190f0d3d.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/campaigns/gaming-pub3fe49c70",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "宅家好亲密",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220330/9d1928a64a8b415288374fab2afe0c65.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/childrens-room/",
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "宅家心愉悦",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220330/8151867d9bb7421c8478a52b1e448cab.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/campaigns/ru2-he2-huo4-de2-geng4-hao3-de-shui4-mian2-zhi4-liang4-pub05c75980",
+     "backgroundColor": "#111111"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "d773365e5d12484f99a12e4bca743131"
    }
@@ -86,6 +133,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "无限灵感，为你的家打造舒适空间",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20220317/2431e686128b4a598a89dd1434f906dd.png?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "5f9a60c7aa6443999ae627fe5608b181"
    }
@@ -94,10 +151,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3>宅家潜能进阶|<a href=\"#d67e26eed7ed4f7ebb326a7cb58773c9\">宅家清洁好物</a>|<a href=\"#b976ee6943294ce7ba845456a74ad9e4\">宅家高效办公</a>|<a href=\"#7ddc5a79eba541bcb0cafab61ad5918b\">宅家趣味多</a>|<a href=\"#45f515862f364043b7b79edb5db88b28\">宅家好亲密</a>|<a href=\"#ecc68a8f27b34c2dabd87694b59da72a\">宅家心愉悦</a></h3>"
+    "宅家潜能进阶|宅家清洁好物|宅家高效办公|宅家趣味多|宅家好亲密|宅家心愉悦"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "b8b880fc668f42d68eca9959d2c12310"
    }
@@ -115,6 +174,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "6f8cd45068bf4707b93a6523339ae4dc"
    }
@@ -163,6 +224,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个宽敞的木制搁架单元，上面放着储物盒、花盆和鞋履。前面叠放着两把椅子。",
+     "image": "https://res.app.ikea.cn/content/u/20220420/44652a33c7904f9b9f2cc62343953266.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "一间洗衣房，JONAXEL 尤纳赛尔 白色搁架单元上放着毛巾和衣物，旁边是一台洗衣机。",
+     "image": "https://res.app.ikea.cn/content/u/20220420/136f330603f641a8b256fd5aae180cb8.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20220420/6c5637ef644d462e9893ca3bae381e47.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20220422/4d83e9020cd5477c90339af1b421a616.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220330/db26d557761442c8ace4aa0da40bc0fb.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": "#111111"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "9e7fb9a028e544b6b2830db470733e96"
    }
@@ -183,6 +282,38 @@
     {
      "href": "/search/products?q=餐具和锅具",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "IKEA 365+",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ikea-365-dai-gai-guo-bu-xiu-gang__1006173_pe825758_s4.jpg",
+     "href": "/cn/zh/p/ikea-365-dai-gai-guo-bu-xiu-gang-40484251/"
+    },
+    {
+     "title": "APTITLIG 阿普特利",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/aptitlig-a-pu-te-li-zhen-ban-zhu__1377019_pe960685_s4.jpg",
+     "href": "/cn/zh/p/aptitlig-a-pu-te-li-zhen-ban-zhu-60233431/"
+    },
+    {
+     "title": "IKEA 365+",
+     "text": "¥79.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ikea-365-dai-gai-guo-bu-xiu-gang__1006171_pe825756_s4.jpg",
+     "href": "/cn/zh/p/ikea-365-dai-gai-guo-bu-xiu-gang-60484245/"
+    },
+    {
+     "title": "VARDAGEN 瓦达恩",
+     "text": "¥129",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vardagen-wa-da-en-dai-gai-zhong-shi-chao-cai-guo-tan-gang__1418068_pe976408_s4.jpg",
+     "href": "/cn/zh/p/vardagen-wa-da-en-dai-gai-zhong-shi-chao-cai-guo-tan-gang-10488383/"
+    },
+    {
+     "title": "FÄRGKLAR 法利克洛",
+     "text": "¥39.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/faergklar-fa-li-ke-luo-wan-wu-guang-ze-lu-se__0985868_pe816849_s4.jpg",
+     "href": "/cn/zh/p/faergklar-fa-li-ke-luo-wan-wu-guang-ze-lu-se-10478138/"
     }
    ],
    "settings": {
@@ -213,6 +344,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个宽敞的木制搁架单元，上面放着储物盒、花盆和鞋履。前面叠放着两把椅子。",
+     "image": "https://res.app.ikea.cn/content/u/20220330/63f7aa7cf3944d8c92a6add2d8540505.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "d10b162159494f2ebef7532b9c4577bb"
    }
@@ -230,6 +371,32 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "OMAR 奥马尔",
+     "text": "¥159.98",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/omar-ao-ma-er-liang-duan-ge-ban-zu-he__1010911_pe828287_s4.jpg",
+     "href": "/cn/zh/p/omar-ao-ma-er-liang-duan-ge-ban-zu-he-59412947/"
+    },
+    {
+     "title": "VARIERA 瓦瑞拉",
+     "text": "¥24.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/variera-wa-rui-la-chou-ti-dian-bai-se__0164029_pe319135_s4.jpg",
+     "href": "/cn/zh/p/variera-wa-rui-la-chou-ti-dian-bai-se-10271227/"
+    },
+    {
+     "title": "UPPDATERA 乌普道拉",
+     "text": "¥29.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/uppdatera-wu-pu-dao-la-can-ju-guan-mei-hei-se__0972400_pe811937_s4.jpg",
+     "href": "/cn/zh/p/uppdatera-wu-pu-dao-la-can-ju-guan-mei-hei-se-00486426/"
+    },
+    {
+     "title": "KUNGSFORS 康福斯",
+     "text": "¥29.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kungsfors-kang-fu-si-wang-dai-liang-jian-tao-zi-ran-se__0712561_pe728918_s4.jpg",
+     "href": "/cn/zh/p/kungsfors-kang-fu-si-wang-dai-liang-jian-tao-zi-ran-se-70372836/"
+    }
+   ],
    "settings": {
     "traceId": "f286634467ae43678085b86d5f0ea19a"
    }
@@ -278,6 +445,58 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "莎莎生酱素食玉米卷",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220404/26764e4ff57b4e45b5585742aa7f0e85.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/kitchen/how-to/suo1-suo1-sheng1-jiang4-su4-shi2-yu4-mi3-juan4-pub7cc4c2f0",
+     "backgroundColor": "#e5456d"
+    },
+    {
+     "title": "意大利风味素食肉酱面",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220404/d3e860dee8e94719a9ff136e0c612f94.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/kitchen/how-to/yi4-da4-li4-feng1-wei4-su4-shi2-rou4-jiang4-mian4-pub65b6f490",
+     "backgroundColor": "#c7d900"
+    },
+    {
+     "title": "美味多汁的素食汉堡",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220404/dcf1eb172b314ebe8be457e2becccdbe.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/kitchen/how-to/mei3-wei4-duo1-zhi1-de-su4-shi2-han4-bao3-pub178de7e0",
+     "backgroundColor": "#6b3d99"
+    },
+    {
+     "title": "如何制作榛子、苹果、小豆蔻和肉桂烤粥",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220404/258aa0e56b2744d38963f27d8c683f4c.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/kitchen/how-to/ru2-he2-zhi4-zuo4-zhen1-zi-ping2-guo3-xiao3-dou4-kou4-he2-rou4-gui4-kao3-zhou1-pub8beddfe0",
+     "backgroundColor": "#ddbd96"
+    },
+    {
+     "title": "如何制作蓝莓粥",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220404/2dc19ee0f5124d4fae8fe6fef7d7b906.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/kitchen/how-to/ru2-he2-zhi4-zuo4-lan2-mei2-zhou1-pubd58b9e00",
+     "backgroundColor": "#441a22"
+    },
+    {
+     "title": "如何制作低温发酵小圆面包，加入麦片和盐花",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220404/4b0b4e7d3d3a428fa1a425fda53113b3.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/kitchen/how-to/ru2-he2-zhi4-zuo4-di1-wen1-fa1-jiao4-xiao3-yuan2-mian4-bao1-jia1-ru4-mai4-pian4-he2-yan2-hua1-pub25274f40",
+     "backgroundColor": "#d0a926"
+    },
+    {
+     "title": "素菜碎肉面包，搭配土豆和瑞典配菜",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220404/54404b247d544129a85d2d8fa1c4732d.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/kitchen/how-to/su4-cai4-sui4-rou4-mian4-bao1-da1-pei4-tu3-dou4-ni2-he2-jing1-dian3-rui4-dian3-pei4-cai4-pub52409860",
+     "backgroundColor": "#cebdc0"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "a6a0080ff40249db87d0c2cfcc6d5a04"
    }
@@ -324,6 +543,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "锅具选购指南",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220404/d1c262fb49f14e60b017c36eb3068d10.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/dining/guo1-ju4-xuan3-gou4-zhi3-nan2-pub67eb9cd0",
+     "backgroundColor": "#131210"
+    },
+    {
+     "title": "教孩子们烹饪美食，养成健康饮食习惯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220404/5911946d84b34594a8890dc089d8deea.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/kitchen/how-to/get-the-kids-cooking-and-teach-them-healthy-habits-pub54332320",
+     "backgroundColor": "#ecd7a2"
+    },
+    {
+     "title": "烹制健康美味和零食比你想象的更简单",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220404/6bc3be033cf146529d4a7954db537188.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/kitchen/how-to/cooking-healthy-meals-and-snacks-is-easier-than-you-think-pubd7724080",
+     "backgroundColor": "#7a492c"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "32a81a68ac524c61b8bce5bbec04fc8c"
    }
@@ -332,10 +575,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3><a href=\"#76a29d374c0f4bcab98bbad75e32a185\">宅家潜能进阶</a>|宅家清洁好物|<a href=\"#b976ee6943294ce7ba845456a74ad9e4\">宅家高效办公</a>|<a href=\"#7ddc5a79eba541bcb0cafab61ad5918b\">宅家趣味多</a>|<a href=\"#45f515862f364043b7b79edb5db88b28\">宅家好亲密</a>|<a href=\"#ecc68a8f27b34c2dabd87694b59da72a\">宅家心愉悦</a></h3>"
+    "宅家潜能进阶|宅家清洁好物|宅家高效办公|宅家趣味多|宅家好亲密|宅家心愉悦"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "b8b880fc668f42d68eca9959d2c12310"
    }
@@ -369,6 +614,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个宽敞的木制搁架单元，上面放着储物盒、花盆和鞋履。前面叠放着两把椅子。",
+     "image": "https://res.app.ikea.cn/content/u/20220420/4c432f55e49846388fff97752f730ea3.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "一间洗衣房，JONAXEL 尤纳赛尔 白色搁架单元上放着毛巾和衣物，旁边是一台洗衣机。",
+     "image": "https://res.app.ikea.cn/content/u/20220421/0e114a3c983947fcb46c07efaf8935ab.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "d5e57f4ca2194cc3b8546de9a67bfafa"
    }
@@ -386,6 +648,26 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "PEPPRIG 佩普里格",
+     "text": "¥9.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/pepprig-pei-pu-li-ge-sa-shui-ping__0993583_pe820618_s4.jpg",
+     "href": "/cn/zh/p/pepprig-pei-pu-li-ge-sa-shui-ping-90501432/"
+    },
+    {
+     "title": "FNISS 芬尼斯",
+     "text": "¥9.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/fniss-fen-ni-si-la-ji-tong-bai-se__0711299_pe728137_s4.jpg",
+     "href": "/cn/zh/p/fniss-fen-ni-si-la-ji-tong-bai-se-00295441/"
+    },
+    {
+     "title": "STAJLIG 斯塔利",
+     "text": "¥24.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/stajlig-si-ta-li-yi-jia-shi-nei-wai-bai-se__0710661_pe727697_s4.jpg",
+     "href": "/cn/zh/p/stajlig-si-ta-li-yi-jia-shi-nei-wai-bai-se-20291418/"
+    }
+   ],
    "settings": {
     "traceId": "e6ebbb256a324eb7b56e45626e691788"
    }
@@ -394,10 +676,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3><a href=\"#76a29d374c0f4bcab98bbad75e32a185\">宅家潜能进阶</a>|<a href=\"#d67e26eed7ed4f7ebb326a7cb58773c9\">宅家清洁好物</a>|宅家高效办公|<a href=\"#7ddc5a79eba541bcb0cafab61ad5918b\">宅家趣味多</a>|<a href=\"#45f515862f364043b7b79edb5db88b28\">宅家好亲密</a>|<a href=\"#ecc68a8f27b34c2dabd87694b59da72a\">宅家心愉悦</a></h3>"
+    "宅家潜能进阶|宅家清洁好物|宅家高效办公|宅家趣味多|宅家好亲密|宅家心愉悦"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "b8b880fc668f42d68eca9959d2c12310"
    }
@@ -431,6 +715,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个宽敞的木制搁架单元，上面放着储物盒、花盆和鞋履。前面叠放着两把椅子。",
+     "image": "https://res.app.ikea.cn/content/u/20220330/c64efd39309d466eb1a867e97ad47102.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20220330/b9a8096faa5547a9a0814d0537be80dd.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": "#111111"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "edad23f8e42140639ee80bd4180ef3df"
    }
@@ -448,19 +749,63 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "TROTTEN 特罗滕",
+     "text": "¥1,699",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/trotten-te-luo-teng-zuo-zhan-liang-yong-shi-ban-gong-zhuo-bai-se__1020773_pe835553_s4.jpg",
+     "href": "/cn/zh/p/trotten-te-luo-teng-zuo-zhan-liang-yong-shi-ban-gong-zhuo-bai-se-59429603/"
+    },
+    {
+     "title": "MULLFJÄLLET 穆勒夫亚勒特",
+     "text": "¥999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mullfjaellet-mu-le-fu-ya-le-te-hui-yi-yi-dai-jiao-lun-na-gen-mi-huang-se__0955958_pe804390_s4.jpg",
+     "href": "/cn/zh/p/mullfjaellet-mu-le-fu-ya-le-te-hui-yi-yi-dai-jiao-lun-na-gen-mi-huang-se-80472562/"
+    },
+    {
+     "title": "LÅNGFJÄLL 隆菲尔",
+     "text": "¥999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/langfjaell-long-fei-er-hui-yi-yi-gang-na-rui-de-mi-huang-se-bai-se__0725408_pe734840_s4.jpg",
+     "href": "/cn/zh/p/langfjaell-long-fei-er-hui-yi-yi-gang-na-rui-de-mi-huang-se-bai-se-89252481/"
+    },
+    {
+     "title": "LÅNGFJÄLL 隆菲尔",
+     "text": "¥1,099",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/langfjaell-long-fei-er-hui-yi-yi-gang-na-rui-de-mi-huang-se-hei-se__0725422_pe734854_s4.jpg",
+     "href": "/cn/zh/p/langfjaell-long-fei-er-hui-yi-yi-gang-na-rui-de-mi-huang-se-hei-se-89178071/"
+    },
+    {
+     "title": "ALEFJÄLL 阿勒夫耶",
+     "text": "¥1,499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/alefjaell-a-le-fu-ye-ban-gong-yi-ge-lan-mi-huang-se__0724710_pe734592_s4.jpg",
+     "href": "/cn/zh/p/alefjaell-a-le-fu-ye-ban-gong-yi-ge-lan-mi-huang-se-60320225/"
+    },
+    {
+     "title": "DRÖNJÖNS 德瑞约恩",
+     "text": "¥79.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/droenjoens-de-rui-yue-en-ban-gong-zhuo-shou-na-jian-bai-se__0669938_pe715478_s4.jpg",
+     "href": "/cn/zh/p/droenjoens-de-rui-yue-en-ban-gong-zhuo-shou-na-jian-bai-se-80428828/"
+    },
+    {
+     "title": "DAGOTTO 达格托",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/dagotto-da-ge-tuo-jiao-ta-hei-se__0156454_pe315498_s4.jpg",
+     "href": "/cn/zh/p/dagotto-da-ge-tuo-jiao-ta-hei-se-20240990/"
+    }
+   ],
    "settings": {
     "traceId": "a416b113d822420a85ff908cd61bfa3f"
    }
   },
   {
    "type": "pub-curated-gallery",
-   "title": " ",
+   "title": null,
    "texts": [
     "/search/products?q=BJÖRKÅSEN 比约高森",
     "NO",
     "ikea://default-module/search?query=BJ%C3%96RK%C3%85SEN%20%E6%AF%94%E7%BA%A6%E9%AB%98%E6%A3%AE",
     "{\"objectId_var\":\"BJÖRKÅSEN 比约高森\",\"objectType_var\":\"search_result\"}",
-    "可能小空间的你，没办法放下一张专门的办公桌；又可能偶尔想转化下心情，慵懒地躺在沙发上办公。那 BJÖRKÅSEN 比约高森 一定是个好选择！毋庸过多介绍，它地颜值和功能已然让人倾心。  搭配上功能强大的储物小车，竹制盖子彰显温馨，平时放在家中也是个实用的小茶几。",
+    "可能小空间的你，没办法放下一张专门的办公桌；又可能偶尔想转化下心情，慵懒地躺在沙发上办公。那 BJÖRKÅSEN 比约高森 一定是个好选择！毋庸过多介绍，它地颜值和功能已然让人倾心。 搭配上功能强大的储物小车，竹制盖子彰显温馨，平时放在家中也是个实用的小茶几。",
     "10476479"
    ],
    "images": [
@@ -476,6 +821,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个宽敞的木制搁架单元，上面放着储物盒、花盆和鞋履。前面叠放着两把椅子。",
+     "image": "https://res.app.ikea.cn/content/u/20220330/972687d1558d42bb88feb3bd777bc995.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "95b6f4014e0f4d7ca9d187cb14c2a977"
    }
@@ -524,6 +879,51 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "如何布置家庭办公室",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220404/d228fc20c3c44801b9bc4d507385b509.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/home-office/how-to/ru2-he2-bu4-zhi4-jia1-ting2-ban4-gong1-shi4-pubbf7c0790",
+     "backgroundColor": "#93716f"
+    },
+    {
+     "title": "和谐的家庭工作区",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220404/29fe629f13804bacbfd4357f8e809657.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/home-office/gallery/he-xie-de-jia-ting-gong-zuo-qu-pub9cef82d0",
+     "backgroundColor": "#e7e6e4"
+    },
+    {
+     "title": "如何用有限的预算布置小型工作区",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220404/a458fd52079a441e991e3b20cfc5a31a.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/home-office/how-to/ru2-he2-yong4-you3-xian4-de-yu4-suan4-bu4-zhi4-xiao3-xing2-gong1-zuo4-qu1-pub2c99fae0",
+     "backgroundColor": "#999999"
+    },
+    {
+     "title": "在客厅里打造一片宁静的工作学习区",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220404/062a3dd0a9f1466c815d847b762ad770.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/home-office/gallery/zai4-ke4-ting1-li3-da3-zao4-yi1-pian4-ning2-jing4-de-gong1-zuo4-xue2-xi2-qu1-pub6a304167",
+     "backgroundColor": "#9a958f"
+    },
+    {
+     "title": "用一个下午的时间焕新你的工作空间",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220404/0b5474c7db2a425ba7f58740f436fad0.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/home-office/how-to/yong4-yi1-ge4-xia4-wu3-de-shi2-jian1-huan4-xin1-ni3-de-gong1-zuo4-kong1-jian1-pub98bf63a0",
+     "backgroundColor": "#00a1e5"
+    },
+    {
+     "title": "在家办公也要兼顾时尚风格",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220404/f58c57ab9b7b45d1a63c4afc80f07783.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/rooms/home-office/gallery/zai4-jia1-ban4-gong1-ye3-yao4-jian1-gu4-shi2-shang4-feng1-ge2-pub4e6d71af",
+     "backgroundColor": "#344443"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "0267520e7b2f43f5a06752d67eefe5f7"
    }
@@ -532,10 +932,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3><a href=\"#76a29d374c0f4bcab98bbad75e32a185\">宅家潜能进阶</a>|<a href=\"#d67e26eed7ed4f7ebb326a7cb58773c9\">宅家清洁好物</a>|<a href=\"#b976ee6943294ce7ba845456a74ad9e4\">宅家高效办公</a>|宅家趣味多|<a href=\"#45f515862f364043b7b79edb5db88b28\">宅家好亲密</a>|<a href=\"#ecc68a8f27b34c2dabd87694b59da72a\">宅家心愉悦</a></h3>"
+    "宅家潜能进阶|宅家清洁好物|宅家高效办公|宅家趣味多|宅家好亲密|宅家心愉悦"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "b8b880fc668f42d68eca9959d2c12310"
    }
@@ -565,6 +967,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个宽敞的木制搁架单元，上面放着储物盒、花盆和鞋履。前面叠放着两把椅子。",
+     "image": "https://res.app.ikea.cn/content/u/20220422/00cb7dbba363411ca68fbf3eae9af734.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "一间洗衣房，JONAXEL 尤纳赛尔 白色搁架单元上放着毛巾和衣物，旁边是一台洗衣机。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/8a797cccdd652f3/webimage-PH163613-crop003.png",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "5c10fc0fb9494eb6a9635bbbd0c8c1ce"
    }
@@ -589,6 +1008,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "宅家游戏，酣畅来一局",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220330/1110bb10f3e443f3973d6ff6c109ef0f.mp4",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "882abf51f6ff4b50ae8b07a528959bc4"
    }
@@ -611,6 +1040,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "BESTÅ 贝达 / RUDSTA 鲁德斯塔",
+     "text": "¥2,487",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/besta-bei-da-rudsta-lu-de-si-ta-shi-ting-chu-wu-zu-he-bai-se-qian-qing-lu-se-tou-ming-bo-li__1110440_pe870462_s4.jpg",
+     "href": "/cn/zh/p/besta-bei-da-rudsta-lu-de-si-ta-shi-ting-chu-wu-zu-he-bai-se-qian-qing-lu-se-tou-ming-bo-li-99488025/"
+    },
+    {
+     "title": "BESTÅ 贝达 / RUDSTA 鲁德斯塔",
+     "text": "¥2,487",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/besta-bei-da-rudsta-lu-de-si-ta-shi-ting-chu-wu-zu-he-hei-he-se-tou-ming-bo-li__1110437_pe870464_s4.jpg",
+     "href": "/cn/zh/p/besta-bei-da-rudsta-lu-de-si-ta-shi-ting-chu-wu-zu-he-hei-he-se-tou-ming-bo-li-29488024/"
+    },
+    {
+     "title": "GRUPPSPEL 格鲁斯皮",
+     "text": "¥1,999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/gruppspel-ge-lu-si-pi-dian-jing-yi-gang-na-rui-de-hei-se-hui-se__1036735_pe838522_s4.jpg",
+     "href": "/cn/zh/p/gruppspel-ge-lu-si-pi-dian-jing-yi-gang-na-rui-de-hei-se-hui-se-50500161/"
+    },
+    {
+     "title": "LÅNESPELARE 洛内斯佩",
+     "text": "¥199",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lanespelare-luo-nei-si-pei-dai-shou-ji-zhi-jia-huan-xing-deng__0971505_pe811368_s4.jpg",
+     "href": "/cn/zh/p/lanespelare-luo-nei-si-pei-dai-shou-ji-zhi-jia-huan-xing-deng-40503848/"
+    },
+    {
+     "title": "LÅNESPELARE 洛内斯佩",
+     "text": "¥149",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lanespelare-luo-nei-si-pei-za-wu-jia__0974868_pe812565_s4.jpg",
+     "href": "/cn/zh/p/lanespelare-luo-nei-si-pei-za-wu-jia-00504067/"
+    },
+    {
+     "title": "LÅNESPELARE 洛内斯佩",
+     "text": "¥49.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lanespelare-luo-nei-si-pei-bei-jia-hei-se__0985191_pe816542_s4.jpg",
+     "href": "/cn/zh/p/lanespelare-luo-nei-si-pei-bei-jia-hei-se-40504065/"
+    }
+   ],
    "settings": {
     "traceId": "82a6eee65c9042a9a6377d05e1545672"
    }
@@ -619,10 +1086,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3><a href=\"#76a29d374c0f4bcab98bbad75e32a185\">宅家潜能进阶</a>|<a href=\"#d67e26eed7ed4f7ebb326a7cb58773c9\">宅家清洁好物</a>|<a href=\"#b976ee6943294ce7ba845456a74ad9e4\">宅家高效办公</a>|<a href=\"#7ddc5a79eba541bcb0cafab61ad5918b\">宅家趣味多</a>|宅家好亲密|<a href=\"#ecc68a8f27b34c2dabd87694b59da72a\">宅家心愉悦</a></h3>"
+    "宅家潜能进阶|宅家清洁好物|宅家高效办公|宅家趣味多|宅家好亲密|宅家心愉悦"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "b8b880fc668f42d68eca9959d2c12310"
    }
@@ -671,6 +1140,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个宽敞的木制搁架单元，上面放着储物盒、花盆和鞋履。前面叠放着两把椅子。",
+     "image": "https://res.app.ikea.cn/content/u/20220420/2dd6c241f8f4441fb19b3312a72d857a.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "一间洗衣房，JONAXEL 尤纳赛尔 白色搁架单元上放着毛巾和衣物，旁边是一台洗衣机。",
+     "image": "https://res.app.ikea.cn/content/u/20220420/b3d5981c9c254a48adba030af05045db.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20220420/1359902288fa48a0b0556bf8e79bc43c.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20220420/1c8857f018c04bfa8728fb550e4db430.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20220420/ff4f12fe56204e968e3c77952ec629e5.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": "#111111"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cdd2cec9c74f4e48963a294f696b0e14"
    }
@@ -688,6 +1195,44 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "MICKE 米克",
+     "text": "¥699",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/micke-mi-ke-shu-zhuo-bai-se-qian-qing-lu-se__0410627_pe575600_s4.jpg",
+     "href": "/cn/zh/p/micke-mi-ke-shu-zhuo-bai-se-qian-qing-lu-se-30415994/"
+    },
+    {
+     "title": "MICKE 米克",
+     "text": "¥399",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/micke-mi-ke-shu-zhuo-bai-se__0736022_pe740349_s4.jpg",
+     "href": "/cn/zh/p/micke-mi-ke-shu-zhuo-bai-se-80354281/"
+    },
+    {
+     "title": "VIMUND 维蒙德",
+     "text": "¥499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vimund-wei-meng-de-er-tong-shu-zhuo-yi-dan-fen-hong-se__0726691_pe735388_s4.jpg",
+     "href": "/cn/zh/p/vimund-wei-meng-de-er-tong-shu-zhuo-yi-dan-fen-hong-se-60424355/"
+    },
+    {
+     "title": "ALEX 阿来斯",
+     "text": "¥999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/alex-a-lai-si-shu-zhuo-bai-se__0977666_pe813729_s4.jpg",
+     "href": "/cn/zh/p/alex-a-lai-si-shu-zhuo-bai-se-60483439/"
+    },
+    {
+     "title": "LÅNGFJÄLL 隆菲尔",
+     "text": "¥799",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/langfjaell-long-fei-er-hui-yi-yi-gang-na-rui-de-shen-hui-se-bai-se__0726973_pe735474_s4.jpg",
+     "href": "/cn/zh/p/langfjaell-long-fei-er-hui-yi-yi-gang-na-rui-de-shen-hui-se-bai-se-19252385/"
+    },
+    {
+     "title": "ÖRFJÄLL 奥菲",
+     "text": "¥249",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/oerfjaell-ao-fei-er-tong-shu-zhuo-yi-bai-se-wei-suo-er-dan-hui-se__0977960_pe813958_s4.jpg",
+     "href": "/cn/zh/p/oerfjaell-ao-fei-er-tong-shu-zhuo-yi-bai-se-wei-suo-er-dan-hui-se-20501888/"
+    }
+   ],
    "settings": {
     "traceId": "310b4cf31ffe439eba46063bbbf3e095"
    }
@@ -721,6 +1266,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个宽敞的木制搁架单元，上面放着储物盒、花盆和鞋履。前面叠放着两把椅子。",
+     "image": "https://res.app.ikea.cn/content/u/20220422/bf959d9a724f4a9181257215da22a9f3.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "一间洗衣房，JONAXEL 尤纳赛尔 白色搁架单元上放着毛巾和衣物，旁边是一台洗衣机。",
+     "image": "https://res.app.ikea.cn/content/u/20220420/519da19fcb984ceeac5fe19fdc2ac747.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cdd2cec9c74f4e48963a294f696b0e14"
    }
@@ -738,6 +1300,50 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "MÅLA 莫拉",
+     "text": "¥199",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mala-mo-la-shu-xie-ban-ruan-mu__0995590_pe821771_s4.jpg",
+     "href": "/cn/zh/p/mala-mo-la-shu-xie-ban-ruan-mu-10488967/"
+    },
+    {
+     "title": "MÅLA 莫拉",
+     "text": "¥29.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mala-mo-la-hua-zhi-juan__0710263_pe727430_s4.jpg",
+     "href": "/cn/zh/p/mala-mo-la-hua-zhi-juan-80461083/"
+    },
+    {
+     "title": "MÅLA 莫拉",
+     "text": "¥49.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mala-mo-la-zhan-tou-bi-duo-se__0788143_pe763484_s4.jpg",
+     "href": "/cn/zh/p/mala-mo-la-zhan-tou-bi-duo-se-20477609/"
+    },
+    {
+     "title": "MÅLA 莫拉",
+     "text": "¥19.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mala-mo-la-chang-xiu-wei-qun-huang-se__0828662_pe776676_s4.jpg",
+     "href": "/cn/zh/p/mala-mo-la-chang-xiu-wei-qun-huang-se-10485351/"
+    },
+    {
+     "title": "MAMMUT 玛莫特",
+     "text": "¥39.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mammut-ma-mo-te-er-tong-deng-shi-nei-hu-wai-huang-se__0727954_pe735970_s4.jpg",
+     "href": "/cn/zh/p/mammut-ma-mo-te-er-tong-deng-shi-nei-hu-wai-huang-se-90382325/"
+    },
+    {
+     "title": "DUKTIG 杜克迪",
+     "text": "¥699",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/duktig-du-ke-di-wan-ju-chu-fang-hua-mu__0756010_pe754469_s4.jpg",
+     "href": "/cn/zh/p/duktig-du-ke-di-wan-ju-chu-fang-hua-mu-40319973/"
+    },
+    {
+     "title": "DUKTIG 杜克迪",
+     "text": "¥49.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/duktig-du-ke-di-pi-sa-wan-ju-24-jian-tao-pi-sa-duo-se__0663854_pe712532_s4.jpg",
+     "href": "/cn/zh/p/duktig-du-ke-di-pi-sa-wan-ju-2-4-jian-tao-pi-sa-duo-se-00427818/"
+    }
+   ],
    "settings": {
     "traceId": "7747ff57622a4c4790ad95a1f72264ac"
    }
@@ -786,13 +1392,51 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个宽敞的木制搁架单元，上面放着储物盒、花盆和鞋履。前面叠放着两把椅子。",
+     "image": "https://res.app.ikea.cn/content/u/20220420/ee8c71757c31428ea9d724bb16011b5c.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "一间洗衣房，JONAXEL 尤纳赛尔 白色搁架单元上放着毛巾和衣物，旁边是一台洗衣机。",
+     "image": "https://res.app.ikea.cn/content/u/20220420/919ce9101b714dd6a09f9a093fdd2e01.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20220422/2c203dcd2d344f509f37804b05178fdb.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20220420/b5e3119aa8cf43b7a9674eada745a6f2.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": "#111111"
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20220422/20355db4fe814bf38eeaf2dbf5aa3261.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": "#111111"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cdd2cec9c74f4e48963a294f696b0e14"
    }
   },
   {
    "type": "pub-curated-gallery",
-   "title": " 玩乐的同时也可以安心学习",
+   "title": "玩乐的同时也可以安心学习",
    "texts": [
     "NO",
     "玩乐的同时也可以安心学习",
@@ -815,13 +1459,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个宽敞的木制搁架单元，上面放着储物盒、花盆和鞋履。前面叠放着两把椅子。",
+     "image": "https://res.app.ikea.cn/content/u/20220422/6fced4279d854298b0fc211a53b6781b.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20220420/2dd6c241f8f4441fb19b3312a72d857a.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": "#111111"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "95b6f4014e0f4d7ca9d187cb14c2a977"
    }
   },
   {
    "type": "pub-curated-gallery",
-   "title": " 共度宅家欢乐时光",
+   "title": "共度宅家欢乐时光",
    "texts": [
     "NO",
     "共度宅家欢乐时光",
@@ -844,6 +1505,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个宽敞的木制搁架单元，上面放着储物盒、花盆和鞋履。前面叠放着两把椅子。",
+     "image": "https://res.app.ikea.cn/content/u/20220422/1ae465f31d0f400a91850d43f57b5e5c.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20220422/befcc2675e7b40ea89e236ddd21a6223.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": "#111111"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "95b6f4014e0f4d7ca9d187cb14c2a977"
    }
@@ -852,10 +1530,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3><a href=\"#76a29d374c0f4bcab98bbad75e32a185\">宅家潜能进阶</a>|<a href=\"#d67e26eed7ed4f7ebb326a7cb58773c9\">宅家清洁好物</a>|<a href=\"#b976ee6943294ce7ba845456a74ad9e4\">宅家高效办公</a>|<a href=\"#7ddc5a79eba541bcb0cafab61ad5918b\">宅家趣味多</a>|<a href=\"#45f515862f364043b7b79edb5db88b28\">宅家好亲密</a>|宅家心愉悦</h3>"
+    "宅家潜能进阶|宅家清洁好物|宅家高效办公|宅家趣味多|宅家好亲密|宅家心愉悦"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "b8b880fc668f42d68eca9959d2c12310"
    }
@@ -889,6 +1569,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个宽敞的木制搁架单元，上面放着储物盒、花盆和鞋履。前面叠放着两把椅子。",
+     "image": "https://res.app.ikea.cn/content/u/20220330/f6885ce95dee41eebbe146d4c3254d1f.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "一间洗衣房，JONAXEL 尤纳赛尔 白色搁架单元上放着毛巾和衣物，旁边是一台洗衣机。",
+     "image": "https://res.app.ikea.cn/content/u/20220309/cc21ab4d8104409281595b396900dbe3.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "87f7a33ac88941a98f7a5b65449a5c6d"
    }
@@ -906,6 +1603,32 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "MALM 马尔姆",
+     "text": "¥1,299",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/malm-ma-er-mu-gao-chuang-jia-bai-se-lu-rui__0749130_pe745499_s4.jpg",
+     "href": "/cn/zh/p/malm-ma-er-mu-gao-chuang-jia-bai-se-lu-rui-99009450/"
+    },
+    {
+     "title": "VATNESTRÖM 瓦内斯托",
+     "text": "¥5,999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vatnestroem-wa-nei-si-tuo-dai-zhuang-dan-huang-chuang-dian-ying-xing-zi-ran-se__1298620_pe936249_s4.jpg",
+     "href": "/cn/zh/p/vatnestroem-wa-nei-si-tuo-dai-zhuang-dan-huang-chuang-dian-ying-xing-zi-ran-se-40476411/"
+    },
+    {
+     "title": "VÅGSTRANDA 沃斯棠",
+     "text": "¥2,999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vagstranda-wo-si-tang-dai-zhuang-dan-huang-chuang-dian-jia-ying-qian-lan-se__1150860_pe884902_s4.jpg",
+     "href": "/cn/zh/p/vagstranda-wo-si-tang-dai-zhuang-dan-huang-chuang-dian-jia-ying-qian-lan-se-50450750/"
+    },
+    {
+     "title": "KLUBBSPORRE 克鲁布斯珀勒",
+     "text": "¥299",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/klubbsporre-ke-lu-bu-si-po-le-ren-ti-gong-xue-zhen-ce-wo-yang-wo__0792296_pe764700_s4.jpg",
+     "href": "/cn/zh/p/klubbsporre-ke-lu-bu-si-po-le-ren-ti-gong-xue-zhen-ce-wo-yang-wo-80446097/"
+    }
+   ],
    "settings": {
     "traceId": "956f3eaef5bf4b299cb665028f532fef"
    }
@@ -917,7 +1640,7 @@
     "IMAGE",
     "wide",
     "image-text-landscape",
-    "<p>在这里挑选适合你的床垫，床褥及各种床上用品和舒适睡眠好物。</p>",
+    "在这里挑选适合你的床垫，床褥及各种床上用品和舒适睡眠好物。",
     "获得更好的睡眠质量",
     "NO"
    ],
@@ -939,6 +1662,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220419/c14f971283044898832ea7f83cc9d43a.jpg",
+     "href": null,
+     "backgroundColor": "#cec7b5"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "669dcb42527b4888b0ccd80fa666ab9b"
    }

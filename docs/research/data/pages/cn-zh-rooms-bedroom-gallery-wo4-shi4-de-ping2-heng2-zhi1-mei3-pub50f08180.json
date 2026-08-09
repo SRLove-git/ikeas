@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -34,16 +36,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "以白色和灰色为主体色调的卧室，配有白色床架、开放式衣柜、浅灰色窗帘和深灰色地毯。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/0e/5d/0e5d77e2d44b97144386d9cf2226e3dc.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>平衡生活的第一步是能在充满平衡之美的卧室中醒来。宜家将教你如何混搭各种风格和储物件，让室内的一切变得整洁美观、功能齐全。</p>"
+    "平衡生活的第一步是能在充满平衡之美的卧室中醒来。宜家将教你如何混搭各种风格和储物件，让室内的一切变得整洁美观、功能齐全。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -71,6 +85,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "开放式衣柜解决方案、浅灰色 GUNRID 古恩里德 窗帘、黑色晒衣架和白色沙发配灰色靠垫。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/0f/6c/0f6cc50627dbfff424f04e1de727db47.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "白色床架配四个抽屉、开放式搁板和长凳。靠窗而立，配有深灰色卷帘。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/c4/2a/c42ae4e13e771c895abd327b6e694fd9.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "GUNRID 古恩里德 窗帘能够遮住开放式衣柜，这样不仅能带来更为整洁的视觉效果，还能净化空气！",
+     "image": "https://file.app.ikea.cn/images/0f/6c/0f6cc50627dbfff424f04e1de727db47.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "大抽屉、开放式搁板和宽敞的长凳——PLATSA 普拉萨 床架为你带来一夜安眠的同时，还有更多功能供你体验。",
+     "image": "https://file.app.ikea.cn/images/c4/2a/c42ae4e13e771c895abd327b6e694fd9.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -103,6 +148,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "动图：两面挂在墙上的 NISSEDAL 尼瑟达 镜子。其中一面为安装在合叶上的侧镜，来回转动。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a7/f3/a7f3be4c7b098ec5c1e84e9737bbeaa4.gif",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "白色开放式衣柜解决方案，包括挂衣杆、鞋架、壁式储物装置、照明棒和储物箱。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a6/38/a638c03183487b14d423d670149fe199.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "外套和冬季夹克悬挂在黑色 TURBO 特伯 晒衣架上。这款晒衣架十分结实耐用，是挂厚重衣物的理想之选。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ee/7b/ee7ba895075b901c7ef98f93e347fd05.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "想要360度无死角地欣赏你的造型？NISSEDAL 尼瑟达 镜子安装在配套的合叶上后，可以转动。",
+     "image": "https://file.app.ikea.cn/images/a7/f3/a7f3be4c7b098ec5c1e84e9737bbeaa4.gif",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "使用 PLATSA 普拉萨 衣柜和可扩展 LÄTTHET 莱特赫特 挂衣杆，方便你优化和定制化衣物和鞋履储物空间。",
+     "image": "https://file.app.ikea.cn/images/a6/38/a638c03183487b14d423d670149fe199.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "结实时尚、易于移动：TURBO 特伯 脚轮晒衣架是悬挂厚重冬衣和外套的理想之选！",
+     "image": "https://file.app.ikea.cn/images/ee/7b/ee7ba895075b901c7ef98f93e347fd05.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -125,6 +214,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "SKÅDIS 斯考迪斯 钉板和配饰悬挂在狭窄的墙面上，用于收纳衣物保养品。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/29/a8/29a866e728a8ccf61037943b127f5f88.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/29/a8/29a866e728a8ccf61037943b127f5f88.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "狭窄又整洁——SKÅDIS 斯考迪斯 钉板和配件能够妥善收纳你的衣物保养品，又不会占据太多空间。",
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -140,6 +253,26 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "BILLSBRO 比斯布罗",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/billsbro-bi-si-bu-luo-ba-shou-bai-se__0754303_pe747884_s4.jpg",
+     "href": "/cn/zh/p/billsbro-bi-si-bu-luo-ba-shou-bai-se-40334313/"
+    },
+    {
+     "title": "GLADOM 格拉登",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/gladom-ge-la-deng-tuo-pan-zhuo-bai-se__0470732_pe612912_s4.jpg",
+     "href": "/cn/zh/p/gladom-ge-la-deng-tuo-pan-zhuo-bai-se-50337820/"
+    },
+    {
+     "title": "TURBO 特伯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/turbo-te-bo-shai-yi-jia-shi-nei-hu-wai-hei-se__0710718_pe727739_s4.jpg",
+     "href": "/cn/zh/p/turbo-te-bo-shai-yi-jia-shi-nei-hu-wai-hei-se-50177242/"
+    }
+   ],
    "settings": null
   }
  ]

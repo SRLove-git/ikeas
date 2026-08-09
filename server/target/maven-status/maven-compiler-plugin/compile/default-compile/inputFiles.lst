@@ -1,6 +1,8 @@
 /Users/srlove/Documents/Code/ikeas/server/src/main/java/com/ikea/server/IkeaServerApplication.java
 /Users/srlove/Documents/Code/ikeas/server/src/main/java/com/ikea/server/config/WebConfig.java
 /Users/srlove/Documents/Code/ikeas/server/src/main/java/com/ikea/server/data/CartStore.java
+/Users/srlove/Documents/Code/ikeas/server/src/main/java/com/ikea/server/data/ChatHistoryStore.java
+/Users/srlove/Documents/Code/ikeas/server/src/main/java/com/ikea/server/data/ChatKnowledgeStore.java
 /Users/srlove/Documents/Code/ikeas/server/src/main/java/com/ikea/server/data/DataStore.java
 /Users/srlove/Documents/Code/ikeas/server/src/main/java/com/ikea/server/data/FavoritesStore.java
 /Users/srlove/Documents/Code/ikeas/server/src/main/java/com/ikea/server/data/UserStore.java
@@ -20,6 +22,8 @@
 /Users/srlove/Documents/Code/ikeas/server/src/main/java/com/ikea/server/model/ProductMatch.java
 /Users/srlove/Documents/Code/ikeas/server/src/main/java/com/ikea/server/model/SearchResponse.java
 /Users/srlove/Documents/Code/ikeas/server/src/main/java/com/ikea/server/model/User.java
+/Users/srlove/Documents/Code/ikeas/server/src/main/java/com/ikea/server/web/AdminController.java
+/Users/srlove/Documents/Code/ikeas/server/src/main/java/com/ikea/server/web/AdminKeyInterceptor.java
 /Users/srlove/Documents/Code/ikeas/server/src/main/java/com/ikea/server/web/ApiExceptionHandler.java
 /Users/srlove/Documents/Code/ikeas/server/src/main/java/com/ikea/server/web/AuthController.java
 /Users/srlove/Documents/Code/ikeas/server/src/main/java/com/ikea/server/web/AuthInterceptor.java

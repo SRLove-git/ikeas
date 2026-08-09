@@ -10,10 +10,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h1>百变家居用品，尽享缤纷年味</h1>\n<p>一起下厨、一起打扫、一起谈天说地，如今的过年方式，远远不止一种。记下这份家居用品清单，和宜家一起，想怎么过，就怎么过！</p>"
+    "百变家居用品，尽享缤纷年味 一起下厨、一起打扫、一起谈天说地，如今的过年方式，远远不止一种。记下这份家居用品清单，和宜家一起，想怎么过，就怎么过！"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "bff34b10bef24dc9ad6b935c81f469e4"
    }
@@ -62,6 +64,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "年味餐桌",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/5d/e4/5de446c68531c5aa39623303cd2e60f8.jpg",
+     "href": "/cn/zh/h5page/?url=%238ffd08f4986b4f34af3284314dfe3a86",
+     "backgroundColor": "#f5f5f5"
+    },
+    {
+     "title": "洒扫除尘",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/cf/7b/cf7b2b08324b9514a4ba5874c7cc4609.jpg",
+     "href": "/cn/zh/h5page/?url=%2389e57fb610a94a869e9b27d8be100808",
+     "backgroundColor": "#f5f5f5"
+    },
+    {
+     "title": "张灯结彩",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20211210/85d6d469c6d446c7a0e044f1be2e0099.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/h5page/?url=%2394263f995d6a4efb80e5721a4bdadf4e",
+     "backgroundColor": "#f5f5f5"
+    },
+    {
+     "title": "温暖焕新",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/4d/b9/4db951cb657c158fa2f81f8dc27bd34d.jpg",
+     "href": "/cn/zh/h5page/?url=%23e91cba317c664ee1868f914908b11627",
+     "backgroundColor": "#f5f5f5"
+    },
+    {
+     "title": "童趣礼物",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b8/b7/b8b7a441a8d9c6ff79fdfa3222b55a3c.jpg",
+     "href": "/cn/zh/h5page/?url=%23ff9dafb5385941c089460051b597ec31",
+     "backgroundColor": "#f5f5f5"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "faf4f74cea4f4923bb0d072d545c1436"
    }
@@ -72,6 +112,8 @@
    "texts": [],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "47fb55f0ea7a449186dd22a08ed679e8"
    }
@@ -89,6 +131,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "ae2fae36c6fd40a5a4ebc3da07917926"
    }
@@ -108,6 +152,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220112/2e2b7078f57049d4be684994cbc52a44.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "c300023b449844c095fdb102c3a4da3c"
    }
@@ -130,6 +184,24 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/0b/a5/0ba52f54020e2f0d30ea701858c6450d.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/0b/a5/0ba52f54020e2f0d30ea701858c6450d.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "28bb29962ce7495295385aa6adfe9df2"
    }
@@ -154,6 +226,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20220117/425c5c42e03f43d497101306d9c6eed1.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "a05492d9da7c4e5f9ab34cac386f0808"
    }
@@ -183,6 +265,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20211215/22ddd6da29d44b2fa41e0be8ccbafec0.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20211215/adc09475a99245afbf11ec736d5bc72d.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "89f833f42efb4fe193c7555e5c60fe82"
    }
@@ -203,6 +302,33 @@
     {
      "href": "/cat/18860",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "更多餐具",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/18860",
+     "backgroundColor": null
+    },
+    {
+     "title": "FÄRGKLAR 法利克洛",
+     "text": "¥9.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/faergklar-fa-li-ke-luo-da-bei-wu-guang-ze-lu-se__0986755_pe817319_s4.jpg",
+     "href": "/cn/zh/p/faergklar-fa-li-ke-luo-da-bei-wu-guang-ze-lu-se-20478190/"
+    },
+    {
+     "title": "TYNGDLÖS 提恩洛斯",
+     "text": "¥59.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/tyngdloes-ti-en-luo-si-tuo-pan-ji-3-ge-wan-zhu-bai-se__0940039_pe794789_s4.jpg",
+     "href": "/cn/zh/p/tyngdloes-ti-en-luo-si-tuo-pan-ji-3-ge-wan-zhu-bai-se-20484110/"
+    },
+    {
+     "title": "VARDAGEN 瓦达恩",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vardagen-wa-da-en-dai-gai-zhong-shi-chao-cai-guo-tan-gang__1418060_pe976400_s4.jpg",
+     "href": "/cn/zh/p/vardagen-wa-da-en-dai-gai-zhong-shi-chao-cai-guo-tan-gang-30488382/"
     }
    ],
    "settings": {
@@ -227,6 +353,24 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/7a/dc/7adcee1a18eb96efbe873c6a902906c4.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/7a/dc/7adcee1a18eb96efbe873c6a902906c4.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "7b323eee1a7d40ac97fa704b1a6abb7a"
    }
@@ -260,6 +404,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20211210/22e080a5a6ce4fe3a01284f00207443a.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/57166",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/3b25df827c4f455c/original/PH178990.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "bf0d77f7a38c47baaa157a64f1e6efa4"
    }
@@ -280,6 +441,21 @@
     {
      "href": "/cat/lc001",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "家居清洁工具",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/lc001",
+     "backgroundColor": null
+    },
+    {
+     "title": "LILLNAGGEN 利纳根",
+     "text": "¥7.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lillnaggen-li-na-gen-bo-li-qing-ji-gua-ban__0711844_pe728517_s4.jpg",
+     "href": "/cn/zh/p/lillnaggen-li-na-gen-bo-li-qing-ji-gua-ban-20243597/"
     }
    ],
    "settings": {
@@ -315,6 +491,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/7e7ceee7f9d8df47/original/PE777550-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20220125/0184a09367df48b9afefdc3758655bc3.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "66713a6023b64a0db47bb1ca111d0693"
    }
@@ -335,6 +528,33 @@
     {
      "href": "/cat/ba002",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "适用于浴室",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/ba002",
+     "backgroundColor": null
+    },
+    {
+     "title": "VESKEN 维灰恩",
+     "text": "¥39.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vesken-wei-hui-en-zhuan-jiao-ge-ban-zhuang-zhi-bai-se__0831999_pe777543_s4.jpg",
+     "href": "/cn/zh/p/vesken-wei-hui-en-zhuan-jiao-ge-ban-zhuang-zhi-bai-se-10453883/"
+    },
+    {
+     "title": "VESKEN 维灰恩",
+     "text": "¥49.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vesken-wei-hui-en-ge-jia-dan-yuan-bai-se__0419316_pe576206_s4.jpg",
+     "href": "/cn/zh/p/vesken-wei-hui-en-ge-jia-dan-yuan-bai-se-20307867/"
+    },
+    {
+     "title": "TEVALEN 特瓦伦",
+     "text": "¥49.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/tevalen-te-wa-lun-chu-wu-dan-yuan-bai-se__0636433_pe697883_s4.jpg",
+     "href": "/cn/zh/p/tevalen-te-wa-lun-chu-wu-dan-yuan-bai-se-10424254/"
     }
    ],
    "settings": {
@@ -359,6 +579,24 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/cd/64/cd64baa4f776a9f7565f58dcc4c13edf.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/cd/64/cd64baa4f776a9f7565f58dcc4c13edf.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "3fa11c7cfd974a399efde944c18d73a1"
    }
@@ -392,6 +630,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20211215/257e0d266ecf4f5c93eee41a78a6039b.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20211215/8b132d9b65354fc9bad9c6e567e7aec7.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "8e86f5aed4174a2c9611cae12ba8c435"
    }
@@ -412,6 +667,15 @@
     {
      "href": "/search/products?q=装饰",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "更多虎年限定装饰",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/search/products?q=装饰",
+     "backgroundColor": null
     }
    ],
    "settings": {
@@ -436,6 +700,24 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/52/e5/52e516783f56956cc9c8c424d45c410f.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/52/e5/52e516783f56956cc9c8c424d45c410f.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "a5bc88d91d2847d4b21dad514db47ab4"
    }
@@ -469,6 +751,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20211215/b057ea0f6ef84652b1fca81ca2fb4bcd.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://res.app.ikea.cn/content/u/20211215/0f9d723e01064562a5d2d87a268f9d27.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "83c4d3adc8d94a928cde6c7dd3724ef3"
    }
@@ -489,6 +788,27 @@
     {
      "href": "/cat/10651",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "享受柔软的包围",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/10651",
+     "backgroundColor": null
+    },
+    {
+     "title": "FJÄLLARNIKA 福雅拉尼",
+     "text": "¥399",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/fjaellarnika-fu-ya-la-ni-nuan-bei__0788109_pe763469_s4.jpg",
+     "href": "/cn/zh/p/fjaellarnika-fu-ya-la-ni-nuan-bei-50459029/"
+    },
+    {
+     "title": "STOENSE 斯托恩瑟",
+     "text": "¥199",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/stoense-si-tuo-en-se-duan-rong-di-tan-hui-bai__0624419_pe691827_s4.jpg",
+     "href": "/cn/zh/p/stoense-si-tuo-en-se-duan-rong-di-tan-hui-bai-60426806/"
     }
    ],
    "settings": {
@@ -513,6 +833,24 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/96/ad/96ad8be5df63a500e1668aaf1eb4a53a.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/96/ad/96ad8be5df63a500e1668aaf1eb4a53a.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "a1082376d58b45af95a3a5e02d5229e1"
    }
@@ -546,6 +884,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/67aa607904cf9276/original/PE780726-crop002.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/64289dfbe6d45f13/original/PH180003-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "9f5d715774e8405d8d1f3f3e3424b2a5"
    }
@@ -566,6 +921,27 @@
     {
      "href": "/cat/18734",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "在玩耍中发挥创造力",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/18734",
+     "backgroundColor": null
+    },
+    {
+     "title": "MÅLA 莫拉",
+     "text": "¥79.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mala-mo-la-bian-xi-shi-hui-hua-bao-hong-se__0801249_pe768096_s4.jpg",
+     "href": "/cn/zh/p/mala-mo-la-bian-xi-shi-hui-hua-bao-hong-se-60459892/"
+    },
+    {
+     "title": "MÅLA 莫拉",
+     "text": "¥59.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mala-mo-la-xiang-pi-ni-duo-se__0943712_pe797004_s4.jpg",
+     "href": "/cn/zh/p/mala-mo-la-xiang-pi-ni-duo-se-80493668/"
     }
    ],
    "settings": {
@@ -596,6 +972,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "自在玩与乐",
+     "text": "终于可以好好放松一下了！这个新年假期，你是否已经迫不及待要钻研自己的爱好？宜家的各类家具和你一起玩出精彩。",
+     "image": "https://file.app.ikea.cn/images/5b/74/5b749562cc8f48a1d3cf736147e8ea26.jpg",
+     "href": "/cn/zh/campaigns/ge4-xing4-jia1-ju4-kai1-qi3-you1-xian2-jia3-qi1-pubbf0a5d10",
+     "backgroundColor": "#005369"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "a15ca45d897646e3ab2299665287bbe2"
    }

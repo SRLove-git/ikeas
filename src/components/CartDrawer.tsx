@@ -2,16 +2,15 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { allProducts } from "@/data/products-index";
 import { SiteImage } from "@/components/SiteImage";
-import { formatPrice } from "@/lib/catalog";
+import { formatPrice } from "@/lib/catalog-format";
+import type { ProductData } from "@/data/pages-types";
 
-const sampleItems = allProducts.slice(0, 3).map((product, index) => ({
-  product,
-  qty: index + 1,
-}));
+interface CartDrawerProps {
+  sampleItems: { product: ProductData; qty: number }[];
+}
 
-export function CartDrawer() {
+export function CartDrawer({ sampleItems }: CartDrawerProps) {
   const [open, setOpen] = useState(false);
 
   useEffect(() => {

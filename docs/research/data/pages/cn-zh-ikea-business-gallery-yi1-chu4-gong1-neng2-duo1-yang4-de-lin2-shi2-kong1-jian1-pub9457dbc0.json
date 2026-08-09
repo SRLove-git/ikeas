@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -34,16 +36,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "房间中央摆放着两套黑色 BEKANT 贝肯特 搁架单元和 BEKANT 贝肯特 书桌，中间摆放着 TROLLBERGET 特罗贝里特 椅凳。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/90/ff/90ff122ed8fd5cc6aac93ab5d34919b3.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>这个联合办公空间富有活力、灵活多变、温馨怡人，可以发挥多种作用。无论在这里签合约、与行政人员沟通，还是解答过路人的疑问，巧妙的搁架和朴实的色彩让每个人都感到轻松自在。</p>"
+    "这个联合办公空间富有活力、灵活多变、温馨怡人，可以发挥多种作用。无论在这里签合约、与行政人员沟通，还是解答过路人的疑问，巧妙的搁架和朴实的色彩让每个人都感到轻松自在。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -71,6 +85,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "紫红色的接待区里，一位女士坐在黑色 VALLENTUNA 瓦伦图 椅子上，另一位女士坐在黑色迎宾台后。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/9a/9b/9a9bec46993bf657177910a2a0603010.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "窗边设有三张 TOMMARYD 托玛瑞德 桌子，每张都配有 JÄRVFJÄLLET 耶勒乌弗亚列特 办公椅和隔断。不远处还摆放着一个 GALANT 佳兰特 抽屉柜。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/85/4c/854cd561cfc178f58868d20f5851bd59.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "从迎宾台到等待区，这个接待区营造了一个适合放松休闲的理想空间。灵活的 VALLENTUNA 瓦伦图 座椅模块可以组合使用，充分利用空间，配备的靠背能够带来更多私密感和舒适感。",
+     "image": "https://file.app.ikea.cn/images/9a/9b/9a9bec46993bf657177910a2a0603010.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "这处临时联合办公空间里，窗边的桌子配有屏风隔断，让每个人都能享受到光照，同时又不会分心。每个 GALANT 佳兰特 抽屉柜都配有组合锁，可以安全保管各种办公用品。",
+     "image": "https://file.app.ikea.cn/images/85/4c/854cd561cfc178f58868d20f5851bd59.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -86,6 +131,26 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "GLADOM 格拉登",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/gladom-ge-la-deng-tuo-pan-zhuo-hei-se__0567223_pe664991_s4.jpg",
+     "href": "/cn/zh/p/gladom-ge-la-deng-tuo-pan-zhuo-hei-se-00411997/"
+    },
+    {
+     "title": "LÅNGFJÄLL 隆菲尔",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/langfjaell-long-fei-er-hui-yi-yi-gang-na-rui-de-shen-hui-se-hei-se__0726991_pe735482_s4.jpg",
+     "href": "/cn/zh/p/langfjaell-long-fei-er-hui-yi-yi-gang-na-rui-de-shen-hui-se-hei-se-39177899/"
+    },
+    {
+     "title": "SKURUP 斯库鲁",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/skurup-si-ku-lu-diao-deng-hei-se__0604110_pe681110_s4.jpg",
+     "href": "/cn/zh/p/skurup-si-ku-lu-diao-deng-hei-se-30407116/"
+    }
+   ],
    "settings": null
   }
  ]

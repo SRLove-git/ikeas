@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "4de741ac770f48aaa414581f4565353d"
    }
@@ -34,6 +36,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/64/0f/640f489b6b467bc646426c941c485132.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "6a89137661da458f92a8112bd5944636"
    }
@@ -54,6 +66,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/66/b9/66b9f57eb858c3ba1eb403b1d2f86d43.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "a55388bc7ae94109814a7d8067ae1f58"
    }
@@ -74,6 +96,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/1c/ce/1cce8ee14d28a2898ae4fd352d5ce4fb.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "577d98bf995d4893aeb3c17d31717219"
    }
@@ -92,6 +124,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "8eb73ecaea114f63a8034b92ea0b1cbc"
    }
@@ -112,6 +146,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/cf/2d/cf2df7a8b3c2b968d093cf8c5b962a43.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "0dc0e821c44d49f7a183ef0e114cc2d1"
    }
@@ -132,6 +176,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/05/ea/05ea10f28e44c68be2e396fd27cb61a8.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "aeb9ce395f4e47b68b748878394c32fe"
    }
@@ -160,6 +214,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a5/3b/a53b9f71f5c6f684cc6e4b1081a4ee18.jpg",
+     "href": "/cn/zh/p/klippan-ke-li-pa-shuang-ren-sha-fa-qia-bu-sa-shen-hui-se-s89251778/?icid=ilp|cn|makeoversuz|201811081652337097_33",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "4c87517a161842b19328faa369df51a1"
    }
@@ -188,6 +252,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/5e/27/5e27f8734a3e4374b70b725b4193de82.jpg",
+     "href": "/cn/zh/cat/35766",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "90867df2e6ac4d0d8f091d06932350d9"
    }
@@ -196,10 +270,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h4><strong>人气产品</strong></h4>"
+    "人气产品"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "6f7268c209b1415692a73665fa461750"
    }
@@ -217,6 +293,26 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "MALM 马尔姆",
+     "text": "¥4,499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/malm-ma-er-mu-gao-xiang-qi-ya-chuang-hei-he-se__0749129_pe745498_s4.jpg",
+     "href": "/cn/zh/p/malm-ma-er-mu-gao-xiang-qi-ya-chuang-hei-he-se-10404802/"
+    },
+    {
+     "title": "LACK 拉克",
+     "text": "¥199",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lack-la-ke-cha-ji-hei-he-se__57540_pe163122_s4.jpg",
+     "href": "/cn/zh/p/lack-la-ke-cha-ji-hei-he-se-20352987/"
+    },
+    {
+     "title": "EKET 伊克特",
+     "text": "¥150",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/eket-yi-ke-te-gui-zi-shen-hui-se__1212324_pe910597_s4.jpg",
+     "href": "/cn/zh/p/eket-yi-ke-te-gui-zi-shen-hui-se-30334592/"
+    }
+   ],
    "settings": {
     "traceId": "5cb832f6fd484bf6add418e84fa2bada"
    }
@@ -237,6 +333,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e5/9f/e59fccc12e01f16cd5b90e9dbf1c5c4a.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "4b679b5f22b94566a46c3ecec01f6deb"
    }
@@ -276,6 +382,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "【西安】热爱 不妥协",
+     "text": "宜家100+改造计划-西安",
+     "image": "https://file.app.ikea.cn/images/cd/0e/cd0e32095f5b427dab32e59c317a1dcc.jpg",
+     "href": "/cn/zh/campaigns/xi1-an1-re4-ai4-bu4-tuo3-xie2-pub36aca7d1",
+     "backgroundColor": null
+    },
+    {
+     "title": "【广州】贪心无罪",
+     "text": "宜家100+改造计划-广州",
+     "image": "https://file.app.ikea.cn/images/8f/5f/8f5fe4e8756aca2a209701c1de5a772c.jpg",
+     "href": "/cn/zh/campaigns/guang3-zhou1-tan1-xin1-wu2-zui4-pubc9ba4501",
+     "backgroundColor": null
+    },
+    {
+     "title": "【北京】家 是爱的传承",
+     "text": "宜家100+改造计划-北京",
+     "image": "https://file.app.ikea.cn/images/54/f4/54f454ff83fed313654da28cdd8280d4.jpg",
+     "href": "/cn/zh/campaigns/bei3-jing1-jia1-shi4-ai4-de-chuan2-cheng2-pub2d4d6c91",
+     "backgroundColor": null
+    },
+    {
+     "title": "【上海】租房也要像家",
+     "text": "宜家100+改造计划-上海",
+     "image": "https://file.app.ikea.cn/images/d6/29/d629860d12970201f729e1d4994546ab.jpg",
+     "href": "/cn/zh/campaigns/【-shang-hai-】-zu-fang-ye-yao-xiang-jia-pub3ae98131",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "7fdc35f0fabe45baba4a7001313c5c86"
    }
@@ -286,6 +423,8 @@
    "texts": [],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "f831961260ee4c8b8f384afa96fae781"
    }

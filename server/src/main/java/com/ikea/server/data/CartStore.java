@@ -49,4 +49,13 @@ public class CartStore {
   public void clear(String userId) {
     cartFor(userId).clear();
   }
+
+  /** All non-empty carts, newest first (used by the admin panel). */
+  public java.util.List<Map.Entry<String, LinkedHashMap<String, CartEntry>>> allCarts() {
+    return carts.entrySet().stream()
+        .filter(entry -> !entry.getValue().isEmpty())
+        .sorted((a, b) -> Long.compare(b.getValue().values().stream().mapToLong(CartEntry::addedAt).max().orElse(0),
+            a.getValue().values().stream().mapToLong(CartEntry::addedAt).max().orElse(0)))
+        .toList();
+  }
 }

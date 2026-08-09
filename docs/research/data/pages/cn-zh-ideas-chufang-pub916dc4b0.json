@@ -11,7 +11,7 @@
    "title": "厨房储物的巧妙创意",
    "texts": [
     "墙搁板适于存放最常用的厨房用品和食材。",
-    "<p>厨房可能是家中最忙碌的空间，但未必会杂乱不堪。我们从世界各地选择了一些最受欢迎的厨房收纳和储物创意，让你尽享轻松愉悦的用餐时光。</p>",
+    "厨房可能是家中最忙碌的空间，但未必会杂乱不堪。我们从世界各地选择了一些最受欢迎的厨房收纳和储物创意，让你尽享轻松愉悦的用餐时光。",
     "厨房储物的巧妙创意",
     "normal"
    ],
@@ -24,16 +24,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "厨房储物的巧妙创意",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/23/5a/235a44f46e3a6fef2f59ff61b4437b71.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>墙壁</h2>"
+    "墙壁"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -53,16 +65,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "将水杯展示出来，方便客人自行取用。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/f2/20/f2205d1d43ea8a45e10349e34f94a188.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3>开放式储物空间</h3><p>在厨房使用开放式储物装置，方便每个人自行取用物品。把餐具和杯子放在水槽和洗碗机旁边，简化重新存放工作。</p>"
+    "开放式储物空间在厨房使用开放式储物装置，方便每个人自行取用物品。把餐具和杯子放在水槽和洗碗机旁边，简化重新存放工作。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -82,16 +106,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "打造专属于你的窗台花园，在此种植香草和沙拉蔬菜。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/52/d7/52d7434143a2eaa139b6ef328bdb704e.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3>打造一座窗台花园</h3><p>即便是没有户外空间的都市之家，也可以拥有自己的菜园。把你的窗台改造成迷你厨房花园，把修剪工具放在悬挂网篮中，方便取用。</p>"
+    "打造一座窗台花园即便是没有户外空间的都市之家，也可以拥有自己的菜园。把你的窗台改造成迷你厨房花园，把修剪工具放在悬挂网篮中，方便取用。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -111,26 +147,40 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "使用磁性挂杆存放刀具和厨用器具，节省抽屉空间。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ed/c1/edc1d5dbd36992bcf3e7b392ac39918b.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3>充分利用墙壁</h3><p>利用墙壁打造储物空间，节省抽屉空间。将刀具存放在靠近食物制备区的磁性刀架上，比全部放在一个抽屉中更方便。</p>"
+    "充分利用墙壁利用墙壁打造储物空间，节省抽屉空间。将刀具存放在靠近食物制备区的磁性刀架上，比全部放在一个抽屉中更方便。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>内部收纳件</h2>"
+    "内部收纳件"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -150,16 +200,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "使用托盘和隔板，让你的餐具抽屉保持整洁有序。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/5d/11/5d114e5a598d90594d916d59591bfb4c.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>在炉灶旁的抽屉中存放烹饪所需的一切物件，并将最常用物品放在最上面。</h2>"
+    "在炉灶旁的抽屉中存放烹饪所需的一切物件，并将最常用物品放在最上面。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -179,16 +241,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "把食材存放在玻璃罐里，让里面装的东西一目了然。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/19/8f/198f9f48410367bc5834ccb2edd3c3d5.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3>叠放储存的物品</h3><p>在将每个抽屉装满前，首先考虑如何储存厨房用品效果最佳。垂直存放煎锅，水平存放锅盖，方便取用你所需尺寸的物品。</p>"
+    "叠放储存的物品在将每个抽屉装满前，首先考虑如何储存厨房用品效果最佳。垂直存放煎锅，水平存放锅盖，方便取用你所需尺寸的物品。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -208,6 +282,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "分别叠放平底锅和锅盖，充分利用空间。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/f8/59/f8594f74b2a91481e464cb98c91d22c9.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -227,26 +311,40 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "改造储物柜，创造更多储物空间。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b6/0c/b60cc5acc94127d2029918c66ea18f44.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3>更巧妙地利用空间</h3><p>改造旧储物柜，增强其功能性，以便更巧妙地利用空间。如果储物柜缺少搁板，添加金属丝篮和塑料容器，让物品保持整洁有序。</p>"
+    "更巧妙地利用空间改造旧储物柜，增强其功能性，以便更巧妙地利用空间。如果储物柜缺少搁板，添加金属丝篮和塑料容器，让物品保持整洁有序。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>日常活动</h2>"
+    "日常活动"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -266,16 +364,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "如果操作台空间不大，可以把厨房用品挂在挂杆上。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/c2/06/c2063d0dfee0291bbfbbc5fe57ec7cb1.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3>悬挂空间</h3><p>使用厨房滴水架并不意味着必须将水槽所占面积翻倍。在墙壁上悬挂挂架，可以节省空间，有助于改善潮湿餐具的通风效果。</p>"
+    "悬挂空间使用厨房滴水架并不意味着必须将水槽所占面积翻倍。在墙壁上悬挂挂架，可以节省空间，有助于改善潮湿餐具的通风效果。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -295,16 +405,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "使用专用垃圾分类抽屉，方便回收。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/fa/ad/faad83ed8b0eda5e5fa68e7a9e2b38cc.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3>重新思考资源回收方式</h3><p>巧妙设计垃圾和回收储物装置。选择不同尺寸和形状的盛具，用于存放不同种类的垃圾，节省垃圾分类时间。</p>"
+    "重新思考资源回收方式巧妙设计垃圾和回收储物装置。选择不同尺寸和形状的盛具，用于存放不同种类的垃圾，节省垃圾分类时间。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -324,16 +446,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "使用便携式厨房推车，创造更多储物空间。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/51/1d/511d97ad0418dc10b5939aa963e37cb5.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3>更多活动空间</h3><p>使用便携式手推车，增加厨房空间。用手推车存放大件物品，或者一次性将所有物品运送至餐桌，无需多次来回。</p>"
+    "更多活动空间使用便携式手推车，增加厨房空间。用手推车存放大件物品，或者一次性将所有物品运送至餐桌，无需多次来回。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -353,26 +487,40 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "把布置餐桌所需的一切物品存放在一个地方，方便取用。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/30/39/303916a8ce5f49510d80185cdd429e54.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3>简化餐桌布置流程</h3><p>简化每天布置餐桌的流程，为日常必需品打造一站式储物空间，包括餐具、刀叉和餐巾。</p>"
+    "简化餐桌布置流程简化每天布置餐桌的流程，为日常必需品打造一站式储物空间，包括餐具、刀叉和餐巾。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>食品储存</h2>"
+    "食品储存"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -392,16 +540,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "透明储物盛具可让你清楚地看到里面存放的食物。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/f4/86/f4868e21ddcb2b2a8a8352a281f53d54.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3>一目了然</h3><p>使用透明储物盒和罐子存放食物，所有物品的存放位置一目了然，方便去超市前检查家中缺少哪种食材。</p>"
+    "一目了然使用透明储物盒和罐子存放食物，所有物品的存放位置一目了然，方便去超市前检查家中缺少哪种食材。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -421,16 +581,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "通过添加搁板插入件或叠放储物盛具，充分利用高抽屉的空间。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/8e/09/8e09d77d0c6ee59f2d0e817bab8a8125.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3>按高度次序收纳</h3><p>如果你的厨房有大抽屉，要充分利用每一寸高度垂直储存罐子。用浅抽屉存放刀叉或扁罐头等。</p>"
+    "按高度次序收纳如果你的厨房有大抽屉，要充分利用每一寸高度垂直储存罐子。用浅抽屉存放刀叉或扁罐头等。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -450,16 +622,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "香草在阴暗处可以保存更久，因此需储存于浅抽屉中。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/f2/dc/f2dc4d8e34937bb4d1156bd223476e3b.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3>存放调料的空间</h3><p>不需要用单独的调料架来存放干香草和调料。事实上，它们最好储存于阴暗处，所以抽屉就是最好的储存地点。</p>"
+    "存放调料的空间不需要用单独的调料架来存放干香草和调料。事实上，它们最好储存于阴暗处，所以抽屉就是最好的储存地点。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -475,16 +659,44 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "VARIERA 瓦瑞拉",
+     "text": "¥14.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/variera-wa-rui-la-ge-ban-cha-jian-bai-se__81979_pe207258_s4.jpg",
+     "href": "/cn/zh/p/variera-wa-rui-la-ge-ban-cha-jian-bai-se-70177726/"
+    },
+    {
+     "title": "SUNNERSTA 苏纳思",
+     "text": "¥4.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/sunnersta-su-na-si-sheng-ju-bai-se__0409165_pe601916_s4.jpg",
+     "href": "/cn/zh/p/sunnersta-su-na-si-sheng-ju-bai-se-30303736/"
+    },
+    {
+     "title": "ANNONS 阿纳斯",
+     "text": "¥39.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/annons-a-na-si-dai-gai-guo-bo-li-bu-xiu-gang__0714768_pe730240_s4.jpg",
+     "href": "/cn/zh/p/annons-a-na-si-dai-gai-guo-bo-li-bu-xiu-gang-50298475/"
+    },
+    {
+     "title": "ANNONS 阿纳斯",
+     "text": "¥79.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/annons-a-na-si-chui-ju-5-jian-tao-bo-li-bu-xiu-gang__43510_pe139263_s4.jpg",
+     "href": "/cn/zh/p/annons-a-na-si-chui-ju-5-jian-tao-bo-li-bu-xiu-gang-30207400/"
+    }
+   ],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3><strong>宜家清洁系列，帮助你轻松保持干净整洁</strong></h3>"
+    "宜家清洁系列，帮助你轻松保持干净整洁"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -500,6 +712,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

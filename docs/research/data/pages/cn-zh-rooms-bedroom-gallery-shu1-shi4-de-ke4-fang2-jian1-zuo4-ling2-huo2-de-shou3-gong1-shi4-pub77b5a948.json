@@ -11,7 +11,7 @@
    "title": "舒适的客房兼做灵活的手工室",
    "texts": [
     "一间舒适的卧室带斜屋顶，白色的坐卧两用床带三个抽屉，搭配白色的存储组合。",
-    "<p>这间乡村风格的客房时刻准备接待朋友和家人的留宿，带给他们宾至如归的感受。但当你独自一人时，它也可以是一个爱好或手工室。搭配舒适的纺织品、充足的储物空间和多功能家具，宜人的氛围让客人感觉宾至如归。</p>",
+    "这间乡村风格的客房时刻准备接待朋友和家人的留宿，带给他们宾至如归的感受。但当你独自一人时，它也可以是一个爱好或手工室。搭配舒适的纺织品、充足的储物空间和多功能家具，宜人的氛围让客人感觉宾至如归。",
     "舒适的客房兼做灵活的手工室",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "舒适的客房兼做灵活的手工室",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e4/e4/e4e4013c9387086d3b91c6a56510589a.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -50,6 +60,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "白色坐卧两用床，带三个抽屉，搭配灰色/条纹被套和枕套，一盏黑色夹式射灯。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/1321b57a33a30be5/original/PH177894-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -76,6 +96,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "白色坐卧两用床，带两个打开的抽屉，搭配一个枕头、一个靠垫、耳机、一盒纸巾、一双拖鞋。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/381856f4f774a2a9/original/PH177896-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -102,6 +132,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "白色坐卧两用床折叠成沙发，搭配不同颜色的靠垫、深灰色床罩和灯。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/4135fa0c5d77da3b/original/PH177895-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -128,6 +168,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "窗边放着白色的储物组合，搭配台灯、缝纫机、叠好的纺织品和挂毯。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/4f8c0c48c8c73c8f/original/PH177897-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -154,6 +204,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "白色的储物组合，一个抽屉打开，里面放着布艺收纳件，整齐叠放着纺织品。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/273d1881a5e75463/original/PH177898-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -172,6 +232,33 @@
     {
      "href": "/cat/fu001",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "为你提供所需一切，打造梦想中的卧室",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/fu001",
+     "backgroundColor": null
+    },
+    {
+     "title": "STRANDMON 斯佳蒙",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/strandmon-si-jia-meng-kao-bei-yi-nuo-wa-la-shen-hui-se__0325432_pe517964_s4.jpg",
+     "href": "/cn/zh/p/strandmon-si-jia-meng-kao-bei-yi-nuo-wa-la-shen-hui-se-30359827/"
+    },
+    {
+     "title": "HÖVOLM 赫沃姆",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/hoevolm-he-wo-mu-liu-gou-yi-mao-jia-xiang-mu__1011319_pe828455_s4.jpg",
+     "href": "/cn/zh/p/hoevolm-he-wo-mu-liu-gou-yi-mao-jia-xiang-mu-90500060/"
+    },
+    {
+     "title": "HAUGA 豪嘉",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/hauga-hao-jia-shu-zhuo-bai-se__0955767_pe804102_s4.jpg",
+     "href": "/cn/zh/p/hauga-hao-jia-shu-zhuo-bai-se-70477678/"
     }
    ],
    "settings": null
@@ -194,6 +281,27 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "用别致的储物盒和储物篮将物品收纳有序。",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/10550",
+     "backgroundColor": null
+    },
+    {
+     "title": "SNIDAD 斯尼达",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/snidad-si-ni-da-lan-teng-tiao__0713103_pe729252_s4.jpg",
+     "href": "/cn/zh/p/snidad-si-ni-da-lan-teng-tiao-00394945/"
+    },
+    {
+     "title": "BAXNA 巴克斯拿",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/baxna-ba-ke-si-na-shou-na-he-hui-se-bai-se__0943304_pe796878_s4.jpg",
+     "href": "/cn/zh/p/baxna-ba-ke-si-na-shou-na-he-hui-se-bai-se-20474371/"
+    }
+   ],
    "settings": null
   },
   {
@@ -212,6 +320,33 @@
     {
      "href": "/cat/tl001",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "柔软舒适的纺织品，别具乡村风格魅力",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/tl001",
+     "backgroundColor": null
+    },
+    {
+     "title": "IRJA 艾亚",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/irja-ai-ya-cheng-tao-chuang-lian-gan-bai-se__0893860_pe594608_s4.jpg",
+     "href": "/cn/zh/p/irja-ai-ya-cheng-tao-chuang-lian-gan-bai-se-70172804/"
+    },
+    {
+     "title": "DVALA 代芙拉",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/dvala-dai-fu-la-chuang-li-hui-se__0811765_pe771834_s4.jpg",
+     "href": "/cn/zh/p/dvala-dai-fu-la-chuang-li-hui-se-60482449/"
+    },
+    {
+     "title": "TOFTLUND 托夫伦",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/toftlund-tuo-fu-lun-di-tan-bai-se__0617682_pe688130_s4.jpg",
+     "href": "/cn/zh/p/toftlund-tuo-fu-lun-di-tan-bai-se-80420243/"
     }
    ],
    "settings": null
@@ -234,6 +369,21 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "选用不同类型的照明，伴你放松休憩、做手工和阅读",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/li001",
+     "backgroundColor": null
+    },
+    {
+     "title": "SKURUP 斯库鲁",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/skurup-si-ku-lu-jia-shi-she-deng-hei-se__0972931_pe811820_s4.jpg",
+     "href": "/cn/zh/p/skurup-si-ku-lu-jia-shi-she-deng-hei-se-30489961/"
+    }
+   ],
    "settings": null
   },
   {
@@ -252,6 +402,27 @@
     {
      "href": "/cat/de001",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "小细节带来大不同",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/de001",
+     "backgroundColor": null
+    },
+    {
+     "title": "MOSSLANDA 莫兰达",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mosslanda-mo-lan-da-bi-shi-tu-pian-jia-bai-se__0634119_pe696315_s4.jpg",
+     "href": "/cn/zh/p/mosslanda-mo-lan-da-bi-shi-tu-pian-jia-bai-se-30297467/"
+    },
+    {
+     "title": "PÅDRAG 普德拉格",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/padrag-pu-de-la-ge-hua-ping-tou-ming-bo-li__0969056_pe810681_s4.jpg",
+     "href": "/cn/zh/p/padrag-pu-de-la-ge-hua-ping-tou-ming-bo-li-50470989/"
     }
    ],
    "settings": null

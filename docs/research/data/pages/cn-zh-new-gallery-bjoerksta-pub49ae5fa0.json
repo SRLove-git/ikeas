@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -60,16 +62,56 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/da/74/da747e734ec39fb9319a609698d0325f.jpg",
+     "href": "/cn/zh/p/69384859?artType=SPR",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/94/74/94745ba98880722d26d1798cf678decf.jpg",
+     "href": "/cn/zh/p/49384742?artType=SPR",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/bf/d4/bfd458f984dfecedcab3739a95d60c77.jpg",
+     "href": "/cn/zh/p/79384811?artType=SPR",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/77/11/7711340a6b05d8f7e1d720e67353f7c8.jpg",
+     "href": "/cn/zh/p/49384638?artType=SPR",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/0a/9b/0a9bf0c25a501885ff8a5cb8d5ce03f7.jpg",
+     "href": "/cn/zh/p/19384734?artType=SPR",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>你一定见过&ldquo;她们&rdquo;!</h2>"
+    "你一定见过“她们”!"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -100,6 +142,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/c3/a5/c3a572fb4b6e1c93b81417d6b1ca6628.jpg",
+     "href": "/cn/zh/p/49384742?artType=SPR",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/c3/a5/c3a572fb4b6e1c93b81417d6b1ca6628.jpg",
+     "href": "/cn/zh/p/49384742?artType=SPR"
+    },
+    {
+     "heading": "蒙娜丽莎 1503-1506年创作 Leonardo da Vinci 列昂纳多·达·芬奇（意大利，1452 - 1519） 《蒙娜丽莎》是意大利文艺复兴时期巨匠列奥纳多·达·芬奇创作的油画，现收藏于法国卢浮宫博物馆。 该画作主要表现了女性的典雅和恬静的典型形象，塑造了资本主义上升时期一位城市有产阶级的妇女形象。 尺寸：78x118 cm",
+     "text": null,
+     "image": null,
+     "href": "/cn/zh/p/49384742?artType=SPR"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -130,6 +196,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/f0/d9/f0d9fb02828f7c1f11e85b1f1a4233ee.jpg",
+     "href": "/cn/zh/p/19384734?artType=SPR",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/f0/d9/f0d9fb02828f7c1f11e85b1f1a4233ee.jpg",
+     "href": "/cn/zh/p/19384734?artType=SPR"
+    },
+    {
+     "heading": "戴珍珠耳环的少女 1665年创作 Johannes Vermeer 约翰内斯 · 维米尔（荷兰，1632 - 1675） 《戴珍珠耳环的少女》 是17世纪荷兰画家约翰内斯·维米尔于1665年创作完成的一幅油画。是维米尔的代表作之一，现收藏于荷兰海牙莫瑞泰斯皇家美术馆。 尺寸：78x118 cm",
+     "text": null,
+     "image": null,
+     "href": "/cn/zh/p/19384734?artType=SPR"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -160,6 +250,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/de/03/de0337ff2494da2a26d9ab37dc65db5e.jpg",
+     "href": "/cn/zh/p/79384811?artType=SPR",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/de/03/de0337ff2494da2a26d9ab37dc65db5e.jpg",
+     "href": "/cn/zh/p/79384811?artType=SPR"
+    },
+    {
+     "heading": "向日葵 1888年创作 Vincent Willem van Gogh 文森特 · 威廉 · 梵高（荷兰，1853 - 1890） 《十二朵向日葵》是1888年8月—1889年1月期间荷兰画家文森特·梵高所绘制的以向日葵为主要内容的系列油画作品中的一副，收藏于德国慕尼黑新美术馆。 尺寸：78x118 cm",
+     "text": null,
+     "image": null,
+     "href": "/cn/zh/p/79384811?artType=SPR"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -190,6 +304,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/c1/89/c189d47d469dc344cd349d9cf30a5b1c.jpg",
+     "href": "/cn/zh/p/49384638?artType=SPR",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/c1/89/c189d47d469dc344cd349d9cf30a5b1c.jpg",
+     "href": "/cn/zh/p/49384638?artType=SPR"
+    },
+    {
+     "heading": "星月夜 1889年创作 Vincent Willem van Gogh 文森特 · 威廉 · 梵高（荷兰，1853 - 1890） 《星月夜》是荷兰后印象派画家文森特·梵·高于1889年在法国圣雷米的一家精神病院里创作的一幅油画，现藏纽约现代艺术博物馆。梵高用夸张的手法，生动地描绘了充满运动和变化的星空，脱离现实的景象反映出梵·高躁动不安的情感和疯狂的幻觉世界。 尺寸：78x118 cm",
+     "text": null,
+     "image": null,
+     "href": "/cn/zh/p/49384638?artType=SPR"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -220,6 +358,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ef/4e/ef4e835ef3ae1901f8778feabf621f6c.jpg",
+     "href": "/cn/zh/p/69384859?artType=SPR",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/ef/4e/ef4e835ef3ae1901f8778feabf621f6c.jpg",
+     "href": "/cn/zh/p/69384859?artType=SPR"
+    },
+    {
+     "heading": "睡莲 1897 - 1926 期间所作 Oscar-Claude Monet 奥斯卡-克劳德 · 莫奈（法国，1840-1926） 《睡莲》是法国画家、印象派代表人物和创始人之一的克劳德·莫奈创作的油画组画。系列总共包含251件作品，《睡莲》开始创作时莫奈已经74岁高龄，直到1926年莫奈86岁去世为止。是一部宏伟史诗，是莫奈一生中最辉煌灿烂的“第九交响乐”。 尺寸：78x118 cm",
+     "text": null,
+     "image": null,
+     "href": "/cn/zh/p/69384859?artType=SPR"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -250,16 +412,42 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/de/32/de32c52964f55893f458d585a65b2c95.jpg",
+     "href": "/cn/zh/p/69384982?artType=SPR",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/de/32/de32c52964f55893f458d585a65b2c95.jpg",
+     "href": "/cn/zh/p/69384982?artType=SPR"
+    },
+    {
+     "heading": "曲膝坐着的女子 1917年创作 Egon Schiele 埃贡 · 席勒（奥地利，1890~1918） 埃贡·席勒为妻子伊迪丝所作的画像。画中伊迪丝火红色的头发与鲜绿色的宽松衬衫的形成鲜明对比。直视的眼神，随意的姿势和着装营造出与观者的亲密时刻。 尺寸：78x118 cm",
+     "text": null,
+     "image": null,
+     "href": "/cn/zh/p/69384982?artType=SPR"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>*我们的图片采用卷筒包装，部分产品由于尺寸较长无法使用包裹快递送货。建议在购买其它大件家具时一同加购，以节省运费。</p>"
+    "*我们的图片采用卷筒包装，部分产品由于尺寸较长无法使用包裹快递送货。建议在购买其它大件家具时一同加购，以节省运费。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -270,6 +458,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -296,6 +486,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/6702001841a8a1a4/original/PH173353-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -306,6 +506,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -332,6 +534,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "探索家装：如何轻松打造墙面画廊",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ff/dc/ffdc1893d33d1854a0f803a35d2ed0fd.jpg",
+     "href": "/cn/zh/rooms/living-room/how-to/tan4-suo3-jia1-zhuang1-ru2-he2-qing1-song1-da3-zao4-qiang2-mian4-hua4-lang2-pub3231bd60",
+     "backgroundColor": "#f1e579"
+    }
+   ],
+   "productIds": [],
    "settings": null
   }
  ]

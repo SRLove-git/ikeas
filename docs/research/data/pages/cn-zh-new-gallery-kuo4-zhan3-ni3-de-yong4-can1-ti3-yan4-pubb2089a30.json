@@ -11,7 +11,7 @@
    "title": "扩展你的用餐体验",
    "texts": [
     "餐厅中有一张伸展后的RÖNNINGE 瑞宁 伸缩型餐桌，主人正坐在桌旁包装物品。",
-    "<p class=\"p1\">使用R&Ouml;NNINGE 瑞宁 伸缩型餐桌招待来客或为家中活动创造空间。它具有流畅的伸缩机制，可以轻松展开和收起。浅色桦木和圆桌腿设计可以让你在家中打造出现代感十足的斯堪的纳维亚风格。</p>",
+    "使用RöNNINGE 瑞宁 伸缩型餐桌招待来客或为家中活动创造空间。它具有流畅的伸缩机制，可以轻松展开和收起。浅色桦木和圆桌腿设计可以让你在家中打造出现代感十足的斯堪的纳维亚风格。",
     "扩展你的用餐体验",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "扩展你的用餐体验",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b9/d4/b9d4868ae82aef26334a678c904fe0e9.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -46,6 +56,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "餐厅中有一张RÖNNINGE 瑞宁 浅色桦木伸缩型餐桌，餐桌的伸缩部分隐藏在桌面下。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/7499893271f5345e/original/PH170244-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -72,6 +92,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "明亮的餐厅内有一张带圆桌腿的浅色桦木质地RÖNNINGE 瑞宁 伸缩型餐桌，周围放着几把椅子。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/5c1cdf88966eb89/original/PH170248-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   }
  ]

@@ -11,7 +11,7 @@
    "title": "高光泽的JÄRSTA 雅斯塔 蓝黑色厨房指南",
    "texts": [
     "一间小厨房，配白色抽屉和高光泽的蓝黑色橱柜前板和一张木桌。",
-    "<p>为厨房增添一抹个性色彩。J&Auml;RSTA 雅斯塔 柜门采用高光泽感的蓝黑色饰面，十分抢眼，为厨房增添个性风格，而且易于清洁。</p>",
+    "为厨房增添一抹个性色彩。JäRSTA 雅斯塔 柜门采用高光泽感的蓝黑色饰面，十分抢眼，为厨房增添个性风格，而且易于清洁。",
     "高光泽的JÄRSTA 雅斯塔 蓝黑色厨房指南",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "高光泽的JÄRSTA 雅斯塔 蓝黑色厨房指南",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/90/d1/90d1aa0c047e99ef7a6782cfacce9819.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -50,6 +60,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "厨房柜台上方有一个高光泽的蓝黑色壁柜。一个不锈钢壁架挂放着一个平板支架和一些厨具。",
+     "image": "https://file.app.ikea.cn/images/2e/02/2e027d8a8811f4b53d98f48b23b06f79.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -76,6 +96,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一大一小两个壁柜，配高光泽的蓝黑色柜门。较小的柜子下面有一张踏脚凳。",
+     "image": "https://file.app.ikea.cn/images/48/05/4805e504534c3dedd2acd5ec602e14b1.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -121,6 +151,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "购买宜家厨房的5个步骤",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/31/25/3125f86f48cf469079c71ff3c1e4b4a7.jpg",
+     "href": "/cn/zh/rooms/kitchen/how-to/gou4-mai3-yi2-jia1-chu2-fang2-de5-ge4-bu4-zhou4-pub6003162f",
+     "backgroundColor": "#d5dcd4"
+    },
+    {
+     "title": "宜家厨房设计工具——在家即可轻松设计你的厨房",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/42/90/42909d2ee6bc60a85b45906cfa0ff9a7.jpg",
+     "href": "/cn/zh/h5page/?url=%23",
+     "backgroundColor": "#ecd7a2"
+    },
+    {
+     "title": "预约宜家厨房专家服务",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/7b/32/7b32031403ca8a72b6528dfec1cb0597.jpg",
+     "href": "/cn/zh/h5page/?url=%23",
+     "backgroundColor": "#e9c3b0"
+    },
+    {
+     "title": "宜家厨房服务",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/76/9a/769af772d23e404b7198cfbf9b542f22.jpg",
+     "href": "/cn/zh/h5page/?url=%23",
+     "backgroundColor": "#99abc1"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -136,6 +197,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

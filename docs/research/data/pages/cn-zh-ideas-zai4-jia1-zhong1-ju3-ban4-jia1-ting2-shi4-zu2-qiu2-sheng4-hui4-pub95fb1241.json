@@ -11,7 +11,7 @@
    "title": "在家中举办家庭式足球盛会",
    "texts": [
     "客厅墙面上贴有足球门，厅内设有人造草坪、球、座椅以及球迷道具。",
-    "<p>全球最大的体育赛事之一&mdash;&mdash;世界杯足球赛，即将开始。把握机会与亲友团聚，共同观看并支持你们喜爱的球队。或自行开展一场迷你锦标赛。</p>",
+    "全球最大的体育赛事之一——世界杯足球赛，即将开始。把握机会与亲友团聚，共同观看并支持你们喜爱的球队。或自行开展一场迷你锦标赛。",
     "在家中举办家庭式足球盛会",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "在家中举办家庭式足球盛会",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/28/1c/281c0c6311a33f67b421dbbfdcb0a396.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -46,6 +56,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "将椅凳放置在室内草坪边，用作球迷观赛的看台座椅。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/9e/e2/9ee2d84cbe7fdbb22d20be811bd1e1a1.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/9e/e2/9ee2d84cbe7fdbb22d20be811bd1e1a1.jpg",
+     "href": null
+    },
+    {
+     "heading": "在看台区放满座椅 足球场般的座椅设置，营造现场观赛之感。不过，不要只满足于在电视上看球赛。在墙面贴上球门，铺一块室内草坪，你便可以观赏一场实地展开的球赛。",
+     "text": null,
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -73,26 +107,61 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "钉板可用于收纳观看世界杯所需的重要物品，如急救包、奖牌、计时器以及充满趣味的红黄牌。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/2f/68/2f68e77983844aab2afa24851660c949.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "餐具盘设有可以放置饮料、零食和装饰彩带的隔层，可用作专为球迷定制的食品收纳件。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d5/9b/d59b04c2934953cdf38ca6ca54d7c1fd.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "零食、奖牌、急救包——和红黄牌 每个人都会自然而然地融入赛事氛围。如果你全情投入，别忘了确保所有必需品都收纳得井井有条。毕竟，世界杯将持续整整一个月。（如果你不得不提出黄牌警告，请遵从你的内心选择。）",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/2f/68/2f68e77983844aab2afa24851660c949.jpg",
+     "href": null
+    },
+    {
+     "heading": "为狂热球迷提供球场风格食品 提供球场风格食品，沉浸在热烈的赛事气氛之中。餐具盘可盛装各类物品，从爆米花到装饰彩带皆可随身携带。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/d5/9b/d59b04c2934953cdf38ca6ca54d7c1fd.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><em>我们乐意看到顾客运用我们的产品发挥创意。尽情发挥吧！但是请注意，经过微调或改造的宜家产品将丧失其原有功能，或无法进行二次销售，因此，你将不再享有宜家的商业保证及退货权利。</em></p>"
+    "我们乐意看到顾客运用我们的产品发挥创意。尽情发挥吧！但是请注意，经过微调或改造的宜家产品将丧失其原有功能，或无法进行二次销售，因此，你将不再享有宜家的商业保证及退货权利。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>制作人</strong><br />室内设计师： Chiara Effroi Lutteri<br />摄影师： Simon Fritzell<br />撰稿人： Henrik Annemark</p>"
+    "制作人 室内设计师： Chiara Effroi Lutteri 摄影师： Simon Fritzell 撰稿人： Henrik Annemark"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

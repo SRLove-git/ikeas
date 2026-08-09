@@ -22,3 +22,9 @@ ikea:
     users-file: ${IKEA_USERS_FILE:}
     # Demo mode: return the SMS code in the API response (IKEA_EXPOSE_SMS_CODE=false to hide).
     expose-sms-code: ${IKEA_EXPOSE_SMS_CODE:true}
+  admin:
+    # Shared key for /api/v1/admin/** endpoints, sent as X-Admin-Key (IKEA_ADMIN_KEY).
+    key: ${IKEA_ADMIN_KEY:ikea-admin}
+  chat-knowledge:
+    # Optional external chat knowledge JSON (IKEA_CHAT_KNOWLEDGE_FILE), reloaded on change.
+    file: ${IKEA_CHAT_KNOWLEDGE_FILE:}

@@ -10,7 +10,7 @@
    "type": "pub-hero",
    "title": "宅家办公，舒适且高效",
    "texts": [
-    "<p>越来越多的人试着在家里植入一个&ldquo;办公室&rdquo;，希望以更轻松的姿态投入工作，家庭办公室可能很大，也可能很小，但只要规划得当，都能打造成功能强大又兼具个性的空间。<br />在本篇文章中，我们提供2个设计案例，涵盖&ldquo;大空间&rdquo;与&ldquo;小空间&rdquo;，帮助你兼顾工作与享乐！</p>",
+    "越来越多的人试着在家里植入一个“办公室”，希望以更轻松的姿态投入工作，家庭办公室可能很大，也可能很小，但只要规划得当，都能打造成功能强大又兼具个性的空间。 在本篇文章中，我们提供2个设计案例，涵盖“大空间”与“小空间”，帮助你兼顾工作与享乐！",
     "宅家办公，舒适且高效",
     "normal"
    ],
@@ -23,6 +23,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "宅家办公，舒适且高效",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/2c/60/2c60a6f4c1794bfd0349c2ecedb9ead8.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "05ff69fa6f934ddbb8194bb3283c330c"
    }
@@ -33,6 +43,8 @@
    "texts": [],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "fb1f0820839045e7b77cd4203d8965ee"
    }
@@ -67,6 +79,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "大空间办公方案",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ad/99/ad99fdd6958572ce539ab558339c4905.jpg",
+     "href": "/cn/zh/h5page/?url=%23972f0d80-48c2-11ea-b327-096dc4d4243a",
+     "backgroundColor": null
+    },
+    {
+     "title": "小空间办公方案",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b8/25/b825a8f9c19cf097b53748fa0c84d945.jpg",
+     "href": "/cn/zh/h5page/?url=%23a6b151d0-48c4-11ea-b327-096dc4d4243a",
+     "backgroundColor": null
+    },
+    {
+     "title": "居家办公",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20220404/7f54a866a0154edfb9e570a3e7e75ff9.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/700291",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "c8f2d32e5fd644fca7dd271e87bcfd34"
    }
@@ -89,6 +125,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/80/ed/80ed4330c9b05b2e9acbec348914fed8.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "b58b2f1ddcc0452c829ba4703704d614"
    }
@@ -97,10 +143,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>大空间办公方案：<br /></strong><strong>可移动的舒适办公区</strong></h2>\n<p>选用简洁的家具和可移动储物，打造灵活的家庭办公室，一旁的休闲区也能作为绝佳会客区！</p>"
+    "大空间办公方案： 可移动的舒适办公区 选用简洁的家具和可移动储物，打造灵活的家庭办公室，一旁的休闲区也能作为绝佳会客区！"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "6a272ad46b144e708233de33abda881c"
    }
@@ -134,6 +182,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/69/9e/699e493ce66c7b655ea8497a44b2450b.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/80/dd/80dd8c1e22cde3c6f873d0d249063c83.jpg",
+     "href": "/cn/zh/p/80365717?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/69/9e/699e493ce66c7b655ea8497a44b2450b.jpg",
+     "href": null
+    },
+    {
+     "heading": "简洁实用 LISABO 利萨伯 系列 纤细优雅，质感上佳，白蜡木贴面十分百搭，打造轻松愉悦的工作空间。 *系列产品采用楔形暗榫设计，使组装非常轻松。曾荣获红点设计大奖。",
+     "text": null,
+     "image": null,
+     "href": "/cn/zh/p/80365717?artType=ART"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "148086a1df3c4c6c8d894c4b372b0a71"
    }
@@ -151,6 +230,32 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "LISABO 利萨伯",
+     "text": "¥999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lisabo-li-sa-bo-shu-zhuo-bai-zha-mu-tie-mian__0735972_pe740306_s4.jpg",
+     "href": "/cn/zh/p/lisabo-li-sa-bo-shu-zhuo-bai-zha-mu-tie-mian-10361746/"
+    },
+    {
+     "title": "ODGER 奥德格",
+     "text": "¥999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/odger-ao-de-ge-zhuan-yi-bai-se-mi-huang-se__0734069_pe739278_s4.jpg",
+     "href": "/cn/zh/p/odger-ao-de-ge-zhuan-yi-bai-se-mi-huang-se-00395271/"
+    },
+    {
+     "title": "KYRRE 叙勒",
+     "text": "¥129",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kyrre-xu-le-deng-hua-mu__1488024_pe1003293_s4.jpg",
+     "href": "/cn/zh/p/kyrre-xu-le-deng-hua-mu-80420040/"
+    },
+    {
+     "title": "LANDSKRONA 兰德克纳",
+     "text": "¥5,999",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/landskrona-lan-de-ke-na-san-ren-sha-fa-ge-lan-bang-si-ta-jin-zong-mu-tou__1576948_pe1032847_s4.jpg",
+     "href": "/cn/zh/p/landskrona-lan-de-ke-na-san-ren-sha-fa-ge-lan-bang-si-ta-jin-zong-mu-tou-69270297/"
+    }
+   ],
    "settings": {
     "traceId": "4c9e84b45fba4f76b54ee0213845c2e4"
    }
@@ -173,6 +278,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "0b832806bcb94f10bef5123270d96826"
    }
@@ -186,7 +293,7 @@
     "IMAGE",
     "MANUAL_INPUT",
     "40333851",
-    "<h3><strong>可移动的储物家具</strong></h3>\n<p>坚固结实的三层手推车，可以将它放在房间中，当作你的文件&ldquo;中转站&rdquo;。你可以随时改变办公空间，无论坐在哪里办公，手推车均可承载重物跟上你。</p>"
+    "可移动的储物家具 坚固结实的三层手推车，可以将它放在房间中，当作你的文件“中转站”。你可以随时改变办公空间，无论坐在哪里办公，手推车均可承载重物跟上你。"
    ],
    "images": [
     "https://file.app.ikea.cn/images/28/31/2831ec5f803a31043e91ee5370195639.jpg"
@@ -201,6 +308,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/28/31/2831ec5f803a31043e91ee5370195639.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/28/31/2831ec5f803a31043e91ee5370195639.jpg",
+     "href": null
+    },
+    {
+     "heading": "可移动的储物家具 坚固结实的三层手推车，可以将它放在房间中，当作你的文件“中转站”。你可以随时改变办公空间，无论坐在哪里办公，手推车均可承载重物跟上你。",
+     "text": null,
+     "image": null,
+     "href": "/cn/zh/p/40333851?artType=ART"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "af0dbbc7daa0406cb8ee9d4f29443882"
    }
@@ -214,7 +345,7 @@
     "IMAGE",
     "MANUAL_INPUT",
     "60407365",
-    "<h3><strong>轻松搬运</strong></h3>\n<p>想要一次性从储物柜里拿很多东西？光靠双手很吃力！一辆小推车就像及时雨，避免让你来回搬运。这款手推车适用于狭小的空间，可随心推到任何你需要的地方。</p>"
+    "轻松搬运 想要一次性从储物柜里拿很多东西？光靠双手很吃力！一辆小推车就像及时雨，避免让你来回搬运。这款手推车适用于狭小的空间，可随心推到任何你需要的地方。"
    ],
    "images": [
     "https://file.app.ikea.cn/images/c5/5a/c55a8d6aacba598fe73510ef98ba756e.jpg",
@@ -234,6 +365,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/c5/5a/c55a8d6aacba598fe73510ef98ba756e.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/3b/9b/3b9b985e2b02d299f4b237ebc31aebf1.jpg",
+     "href": "/cn/zh/p/60407365?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/c5/5a/c55a8d6aacba598fe73510ef98ba756e.jpg",
+     "href": null
+    },
+    {
+     "heading": "轻松搬运 想要一次性从储物柜里拿很多东西？光靠双手很吃力！一辆小推车就像及时雨，避免让你来回搬运。这款手推车适用于狭小的空间，可随心推到任何你需要的地方。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/3b/9b/3b9b985e2b02d299f4b237ebc31aebf1.jpg",
+     "href": "/cn/zh/p/60407365?artType=ART"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "d90cd4bab3134327b1703816db186c4a"
    }
@@ -247,7 +409,7 @@
     "IMAGE",
     "MANUAL_INPUT",
     "40333851",
-    "<h3><strong>大容量收纳</strong></h3>\n<p>在家中办公，却发现自己的文件越堆越多？ 这款金属搁板，为你的&ldquo;办公室&rdquo;提供大量储物空间，让重要文件井井有条。 可以搭配各种储物盒，以及功能强大的 SK&Aring;DIS 斯考迪斯 洞洞板。让房间整洁又独具个性！</p>\n<p>你还可以<a href=\"https://www.ikea.cn/cn/zh/planner/bror-planner/\">在线设计自己的储物方案</a></p>"
+    "大容量收纳 在家中办公，却发现自己的文件越堆越多？ 这款金属搁板，为你的“办公室”提供大量储物空间，让重要文件井井有条。 可以搭配各种储物盒，以及功能强大的 SKåDIS 斯考迪斯 洞洞板。让房间整洁又独具个性！ 你还可以在线设计自己的储物方案"
    ],
    "images": [
     "https://file.app.ikea.cn/images/6e/4a/6e4a994d9003a0e36888d71b6f8a8630.jpg"
@@ -258,6 +420,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/6e/4a/6e4a994d9003a0e36888d71b6f8a8630.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/6e/4a/6e4a994d9003a0e36888d71b6f8a8630.jpg",
+     "href": null
+    },
+    {
+     "heading": "大容量收纳 在家中办公，却发现自己的文件越堆越多？ 这款金属搁板，为你的“办公室”提供大量储物空间，让重要文件井井有条。 可以搭配各种储物盒，以及功能强大的 SKåDIS 斯考迪斯 洞洞板。让房间整洁又独具个性！ 你还可以在线设计自己的储物方案",
+     "text": "",
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "3c524cdfbd8c476eadd81c20aef38352"
    }
@@ -274,6 +460,14 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "SKÅDIS 斯考迪斯",
+     "text": "¥129",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/skadis-si-kao-di-si-dong-dong-ban-bai-se__0710683_pe727709_s4.jpg",
+     "href": "/cn/zh/p/skadis-si-kao-di-si-dong-dong-ban-bai-se-90321619/"
+    }
+   ],
    "settings": {
     "traceId": "3ce6e64ee26047f6be62ae278cdf7d7a"
    }
@@ -296,6 +490,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "ee03d3f6659e4b67b0186fe3072d96df"
    }
@@ -316,6 +512,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/11/47/11479b908987c6fcfe2f6cbf8ac5f743.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "3e35a88f3b5645ad8ae9347832197bb1"
    }
@@ -324,10 +530,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>小空间办公方案：<br />巧收纳的清爽办公区</strong></h2>\n<p>在小房型甚至是单间，通过巧妙的收纳，也能让狭小住宅得到充分利用。你可以同时兼顾学习与爱好，展示自己的个人风格。</p>"
+    "小空间办公方案： 巧收纳的清爽办公区 在小房型甚至是单间，通过巧妙的收纳，也能让狭小住宅得到充分利用。你可以同时兼顾学习与爱好，展示自己的个人风格。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "4f35fdf1fbea4b28988e2ef7adc27eb3"
    }
@@ -361,6 +569,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/49/fc/49fc4ca6b590dc644aa23bc641ca4002.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/49/6c/496c584f9e13b541df2b77238c515e78.jpg",
+     "href": "/cn/zh/p/40446396?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/49/fc/49fc4ca6b590dc644aa23bc641ca4002.jpg",
+     "href": null
+    },
+    {
+     "heading": "带收纳功能的书桌 暗蓝色的优雅书桌，整个桌肚都是储物空间，内置电线管理装置，将线缆巧妙隐藏，使桌面始终整洁。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/49/6c/496c584f9e13b541df2b77238c515e78.jpg",
+     "href": "/cn/zh/p/40446396?artType=ART"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "5f377e0552d04b079c9389ade3b8e5d7"
    }
@@ -373,7 +612,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<h3><strong>墙面储物</strong></h3>\n<p>小型住宅的地面空间总是十分宝贵。巧妙利用墙壁的垂直空间，也能提供不输大柜子的储存容量。</p>",
+    "墙面储物 小型住宅的地面空间总是十分宝贵。巧妙利用墙壁的垂直空间，也能提供不输大柜子的储存容量。",
     "pub-text"
    ],
    "images": [
@@ -394,6 +633,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/74/16/7416018c80677cf4920a97a075b02751.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/95/3d/953d296161efa8eaaf27639285487c34.jpg",
+     "href": "/cn/zh/cat/37660",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/74/16/7416018c80677cf4920a97a075b02751.jpg",
+     "href": null
+    },
+    {
+     "heading": "墙面储物 小型住宅的地面空间总是十分宝贵。巧妙利用墙壁的垂直空间，也能提供不输大柜子的储存容量。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/95/3d/953d296161efa8eaaf27639285487c34.jpg",
+     "href": "/cn/zh/cat/37660"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "8b28d6ec63cc458a9fbfb4464f6fc5fb"
    }
@@ -407,7 +677,7 @@
     "IMAGE",
     "MANUAL_INPUT",
     "s49227832",
-    "<p>当两张床叠在一起，就变成了可当沙发的 UT&Aring;KER 于托克，它能够在你书桌旁提供额外座位，成为繁忙之余的喘息之地。</p>"
+    "当两张床叠在一起，就变成了可当沙发的 UTåKER 于托克，它能够在你书桌旁提供额外座位，成为繁忙之余的喘息之地。"
    ],
    "images": [
     "https://file.app.ikea.cn/images/49/15/49150a792e318ec80dd9e15354b047ad.jpg",
@@ -428,6 +698,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/49/15/49150a792e318ec80dd9e15354b047ad.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "https://mp.weixin.qq.com/s?__biz=MjM5MDgzMTg1MQ==&mid=2652844772&idx=1&sn=398e436f065b60c5b92889669339abe0&chksm=bd5557608a22de7621ea433a30e8e17d0113344725b5ca768f30d9fd789874349b7a46840a1e&mpshare=1&",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b5/6f/b56f4f241e731f497a07c2a460a73ca3.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/7b/03/7b0388f49f509b1e6c53b5c2ebb5634e.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "当两张床叠在一起，就变成了可当沙发的 UTåKER 于托克，它能够在你书桌旁提供额外座位，成为繁忙之余的喘息之地。",
+     "image": "https://file.app.ikea.cn/images/49/15/49150a792e318ec80dd9e15354b047ad.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "摆上了抽屉后，就没有床边桌的容身之地了？高高的 ALEX 阿来斯 九屉柜，每一层都有傲人容量，将靠床的抽屉拉出，正好可用作床边桌。",
+     "image": "https://file.app.ikea.cn/images/b5/6f/b56f4f241e731f497a07c2a460a73ca3.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "深度较浅的鞋柜，更适合空间有限的小房间。多个柜体更可随意组合，打造自由的收纳解决方案。",
+     "image": "https://file.app.ikea.cn/images/7b/03/7b0388f49f509b1e6c53b5c2ebb5634e.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "6a59e2d5bca9409497e1052c750d4b8f"
    }
@@ -445,6 +759,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "TRONES 强尼思",
+     "text": "¥199",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/trones-qiang-ni-si-xie-gui-chu-cang-hei-se__0710712_pe727733_s4.jpg",
+     "href": "/cn/zh/p/trones-qiang-ni-si-xie-gui-chu-cang-hei-se-30397315/"
+    },
+    {
+     "title": "MULIG 穆利格",
+     "text": "¥29.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mulig-mu-li-ge-gua-yi-gan-bai-se__0710698_pe727732_s4.jpg",
+     "href": "/cn/zh/p/mulig-mu-li-ge-gua-yi-gan-bai-se-10179436/"
+    }
+   ],
    "settings": {
     "traceId": "f4fe02d021a847758784872c7cadb6e9"
    }
@@ -467,6 +795,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "c3247a0c9b5d41bd91bf524a9df2e292"
    }
@@ -489,6 +819,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "f6b0e711362745ee97ee600a63533a8f"
    }

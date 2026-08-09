@@ -14,16 +14,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>小物件的安身之所</h2>\n<p><strong>&middot; 零碎收纳 &middot; 空间魔法</strong></p>\n<p>办公或学习，难免需要用到许多零碎工具，它们占空间、难收纳的问题只是没有遇到SK&Aring;DIS 斯考迪斯小钉板，配合各种收纳工具，一平方的墙面帮你搞定书房整洁，更随时随着你的需求而变。</p>"
+    "小物件的安身之所 · 零碎收纳 · 空间魔法 办公或学习，难免需要用到许多零碎工具，它们占空间、难收纳的问题只是没有遇到SKåDIS 斯考迪斯小钉板，配合各种收纳工具，一平方的墙面帮你搞定书房整洁，更随时随着你的需求而变。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -50,16 +54,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ae/cc/aecc2b360aaadd74141512336ef28aed.jpg",
+     "href": "/cn/zh/p/89217181?artType=SPR",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>小件收纳必备清单</h2>"
+    "小件收纳必备清单"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -75,6 +91,38 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "SKÅDIS 斯考迪斯",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/skadis-si-kao-di-si-dong-dong-ban-bai-se__0710682_pe727708_s4.jpg",
+     "href": "/cn/zh/p/skadis-si-kao-di-si-dong-dong-ban-bai-se-30320806/"
+    },
+    {
+     "title": "SKÅDIS 斯考迪斯",
+     "text": "¥60",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/skadis-si-kao-di-si-fu-gai-rong-qi-bai-se__0711385_pe728176_s4.jpg",
+     "href": "/cn/zh/p/skadis-si-kao-di-si-fu-gai-rong-qi-bai-se-40335911/"
+    },
+    {
+     "title": "SKÅDIS 斯考迪斯",
+     "text": "¥20",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/skadis-si-kao-di-si-ge-ban-bai-se__0710680_pe727707_s4.jpg",
+     "href": "/cn/zh/p/skadis-si-kao-di-si-ge-ban-bai-se-60320800/"
+    },
+    {
+     "title": "SKÅDIS 斯考迪斯",
+     "text": "¥15",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/skadis-si-kao-di-si-sheng-ju-bai-se__0711420_pe728236_s4.jpg",
+     "href": "/cn/zh/p/skadis-si-kao-di-si-sheng-ju-bai-se-40320797/"
+    },
+    {
+     "title": "SKÅDIS 斯考迪斯",
+     "text": "¥15",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/skadis-si-kao-di-si-dan-li-sheng-hui-se__0710837_pe727774_s4.jpg",
+     "href": "/cn/zh/p/skadis-si-kao-di-si-dan-li-sheng-hui-se-20321632/"
+    }
+   ],
    "settings": null
   },
   {
@@ -95,6 +143,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

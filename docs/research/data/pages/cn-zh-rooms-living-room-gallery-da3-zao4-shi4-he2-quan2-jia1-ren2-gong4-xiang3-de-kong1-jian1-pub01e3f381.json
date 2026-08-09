@@ -22,6 +22,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "打造适合全家人共享的空间",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/bc/92/bc922d5461efdfd1b723393cf2a816ce.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -40,6 +50,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b4/a6/b4a66f8497d225648b22e391cce145aa.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -56,6 +76,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -74,6 +96,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/88/70/8870c263499fd61db0dfefde2631329d.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -100,6 +132,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/f9/1d/f91d57bc624ce0dea921c058c0ceb9a4.jpg",
+     "href": "/cn/zh/p/60385617?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -126,6 +168,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/13/c3/13c39fc14251dc1f8467abd9eb87f94f.jpg",
+     "href": "/cn/zh/p/50359845?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -144,6 +196,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a7/5a/a75af4ba37940ba3746cfe2b716b8c71.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -170,6 +232,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b3/eb/b3ebe465ecc35c238dad3905b6f4123a.jpg",
+     "href": "/cn/zh/p/20365522?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -196,6 +268,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b6/0d/b60da8f40c71aee62aa9584e9f63a688.jpg",
+     "href": "/cn/zh/p/80363172?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -214,6 +296,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/53/f5/53f587a58bc29c0450f74675cd49d5e2.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -240,6 +332,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/5b/9c/5b9c13667b9b38b5b03fda57715229a4.jpg",
+     "href": "/cn/zh/p/89257520?artType=SPR",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -266,16 +368,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/9b/b1/9bb16780d2534d451bb3f4d547ac7ae1.jpg",
+     "href": "/cn/zh/p/70417689?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h4><strong>产品推荐</strong></h4>"
+    "产品推荐"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -291,16 +405,26 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "PÄRLBAND 帕邦德",
+     "text": "¥39.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/paerlband-pa-bang-de-xiao-yuan-zha-zhu-tuo-jin-huang-se__0985134_pe816514_s4.jpg",
+     "href": "/cn/zh/p/paerlband-pa-bang-de-xiao-yuan-zha-zhu-tuo-jin-huang-se-30348546/"
+    }
+   ],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h4><strong>更多宜家说设计</strong></h4>"
+    "更多宜家说设计"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -343,6 +467,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "客厅储物小妙招",
+     "text": "客厅储物小妙招",
+     "image": "https://file.app.ikea.cn/images/9f/b5/9fb5276acaaff2cb1138f98873df42b8.jpg",
+     "href": "/cn/zh/rooms/living-room/gallery/ke4-ting1-chu3-wu4-xiao3-miao4-zhao1-pub7a89d4a1",
+     "backgroundColor": null
+    },
+    {
+     "title": "在客厅收纳和隐藏玩具",
+     "text": "在客厅收纳和隐藏玩具",
+     "image": "https://file.app.ikea.cn/images/18/47/1847ea15bd348b242e5b0c7092768cd7.jpg",
+     "href": "/cn/zh/rooms/living-room/gallery/zai4-ke4-ting1-shou1-na4-he2-yin3-cang2-wan2-ju4-pub5a0dfe31",
+     "backgroundColor": null
+    },
+    {
+     "title": "怎样设计客厅灯光",
+     "text": "怎样设计客厅灯光",
+     "image": "https://file.app.ikea.cn/images/26/18/2618fc871ba6d26018d111237973e98b.jpg",
+     "href": "/cn/zh/rooms/living-room/gallery/zen3-yang4-she4-ji4-ke4-ting1-deng1-guang1-pub50d35171",
+     "backgroundColor": null
+    },
+    {
+     "title": "如何打造北欧传统风格餐厅",
+     "text": "如何打造北欧传统风格餐厅",
+     "image": "https://file.app.ikea.cn/images/c7/cc/c7cc6fa35b192dfec1a17fd55577ae86.jpg",
+     "href": "/cn/zh/rooms/dining/gallery/ru2-he2-da3-zao4-bei3-ou1-chuan2-tong3-feng1-ge2-can1-ting1-pub865ac761",
+     "backgroundColor": null
+    },
+    {
+     "title": "巧用纺织品改变家居风格",
+     "text": "巧用纺织品改变家居风格",
+     "image": "https://file.app.ikea.cn/images/a2/72/a272fbd6aa32044a34ec3de636406b2f.jpg",
+     "href": "/cn/zh/rooms/living-room/gallery/qiao3-yong4-fang3-zhi1-pin3-gai3-bian4-jia1-ju1-feng1-ge2-puba8a13161",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -351,6 +513,8 @@
    "texts": [],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

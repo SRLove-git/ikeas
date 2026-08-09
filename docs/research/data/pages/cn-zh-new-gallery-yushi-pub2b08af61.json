@@ -11,7 +11,7 @@
    "title": "打造崭新的浴室",
    "texts": [
     "特写：宜家 VILTO 维尔托 储物凳的纺织品袋子，可用于存放毛巾和纸卷。这款浅桦木色的储物凳也可以用作边桌或杂志架。",
-    "<p>用我们的新款浅木色储物系列和颜色清爽的毛巾，让你的浴室焕然一新！</p>\n<p>使用 VILTO 维尔托 系列搁板、凳子和毛巾架，让空间变得井井有条，以浅色的桦木为浴室营造斯堪的纳维亚风情。</p>",
+    "用我们的新款浅木色储物系列和颜色清爽的毛巾，让你的浴室焕然一新！ 使用 VILTO 维尔托 系列搁板、凳子和毛巾架，让空间变得井井有条，以浅色的桦木为浴室营造斯堪的纳维亚风情。",
     "打造崭新的浴室",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "打造崭新的浴室",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/f7/6c/f76c0d39d4353dd0cc987ae963e6a125.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -46,16 +56,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "宜家 VILTO 维尔托 搁板、凳子和毛巾架均采用实心桦木制作，可为你的浴室增添些许斯堪的纳维亚风情。设计巧妙，能为面积最小的浴室创造更多空间，同样适合其他房间。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/8a/1b/8a1b7cf9ac1584745a2d30dc11f9d908.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>系列产品采用柔和简单的设计，可以灵活适应不同使用需求，比如毛巾架也可以用来存放衣物、储物凳也可以用作边桌。</p>"
+    "系列产品采用柔和简单的设计，可以灵活适应不同使用需求，比如毛巾架也可以用来存放衣物、储物凳也可以用作边桌。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -78,16 +100,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "宜家 VÅGSJÖN 沃格逊 棉质毛巾有青绿色、浅粉色、深蓝色和白色四种颜色可选，并分为客用毛巾、洗手巾和浴巾三种尺寸。毛巾十分实用，绒布毛巾部分带有条纹，吸水性更强，而且快干。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/71/a4/71a40067699c7bf8d897ac4cac6d4647.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>新款 VÅGSJÖN 沃格逊 毛巾美观实用，有三种尺寸：小方巾/毛巾、洗手巾和浴巾。</p>"
+    "新款 VÅGSJÖN 沃格逊 毛巾美观实用，有三种尺寸：小方巾/毛巾、洗手巾和浴巾。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -108,16 +142,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "特写：宜家 VÅGSJÖN 沃格逊 青绿色棉质毛巾上的条纹。纯色绒布与条纹绒布相结合，吸水性强，而且快干。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/4c/6a/4c6a115201d9ad0e3162b0135e07cfe4.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>毛巾带有不同宽度的纯色绒布和条纹绒布，吸水性更强，而且快干。</p>"
+    "毛巾带有不同宽度的纯色绒布和条纹绒布，吸水性更强，而且快干。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -133,6 +179,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "VILTO 维尔托",
+     "text": "¥299",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vilto-wei-er-tuo-mao-jin-jia-hua-mu__0721630_pe733303_s4.jpg",
+     "href": "/cn/zh/p/vilto-wei-er-tuo-mao-jin-jia-hua-mu-80344452/"
+    },
+    {
+     "title": "VÅGSJÖN 沃格逊",
+     "text": "¥19.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vagsjoen-wo-ge-xun-xiao-fang-jin-bai-se__0627161_pe693200_s4.jpg",
+     "href": "/cn/zh/p/vagsjoen-wo-ge-xun-xiao-fang-jin-bai-se-90350999/"
+    }
+   ],
    "settings": null
   }
  ]

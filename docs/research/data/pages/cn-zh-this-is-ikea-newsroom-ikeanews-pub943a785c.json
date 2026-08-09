@@ -23,6 +23,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "可持续发展新闻",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/2d/fd/2dfdf79dd11d2d3fbd32e2143159061b.png",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -45,6 +55,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "可持续发展",
+     "text": "宜家 可持续发展及报告",
+     "image": "https://file.app.ikea.cn/images/7c/1c/7c1c8e06e437873bff7c6cbb441cd528.jpg",
+     "href": "/cn/zh/this-is-ikea/newsroom/ikeanews-pub4aee508a",
+     "backgroundColor": null
+    },
+    {
+     "title": "宜家中国首度发布可持续发展报告",
+     "text": "宜家中国首度发布可持续发展报告——16财年继续推行“益于人类，益于地球” 可持续发展战略，为数百万顾客、家庭及社会大众带来积极转变",
+     "image": null,
+     "href": "/cn/zh/this-is-ikea/newsroom/ikeanews-pub9888880b",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -65,6 +92,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -75,16 +104,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h4><strong>你可能会想看</strong></h4>"
+    "你可能会想看"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -117,6 +150,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "综合新闻",
+     "text": "综合新闻",
+     "image": "https://file.app.ikea.cn/images/34/18/34182fc4ce17828b4c54319e3fc7a85d.jpg",
+     "href": "/cn/zh/newsroom/corporate-news/xinwen-pub5a3665d1",
+     "backgroundColor": null
+    },
+    {
+     "title": "产品资讯新闻",
+     "text": "一个买了很多宜家产品的女人",
+     "image": "https://file.app.ikea.cn/images/72/31/723130e01c79442f6771cfe57062c1da.jpg",
+     "href": "/cn/zh/newsroom/range-news/ikeanews-pub6c47b97c",
+     "backgroundColor": null
+    },
+    {
+     "title": "商品召回信息",
+     "text": "一张尺寸不合的床",
+     "image": null,
+     "href": "/cn/zh/customer-service/product-support/recalls/",
+     "backgroundColor": null
+    },
+    {
+     "title": "拓张计划新闻",
+     "text": "拓张计划新闻",
+     "image": "https://file.app.ikea.cn/images/d1/5b/d15b65f798003aecccaa5908f977b172.jpeg",
+     "href": "/cn/zh/newsroom/corporate-news/ikeanews-pub879689ec",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   }
  ]

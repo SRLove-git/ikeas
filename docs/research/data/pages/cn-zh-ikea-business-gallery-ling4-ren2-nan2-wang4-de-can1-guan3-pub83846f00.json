@@ -11,7 +11,7 @@
    "title": "令人难忘的餐馆",
    "texts": [
     "在一间小餐馆里，摆放着白色的NORRÅKER 诺鲁克 桦木吧台和吧台凳，竹制吊灯，里面坐着一些顾客。",
-    "<p>巧妙高效地优化空间设计，同时确保顾客获得愉快的体验。毕竟，要让顾客成为常客，不仅要有美味佳肴，还需要有良好的氛围。</p>",
+    "巧妙高效地优化空间设计，同时确保顾客获得愉快的体验。毕竟，要让顾客成为常客，不仅要有美味佳肴，还需要有良好的氛围。",
     "令人难忘的餐馆",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "令人难忘的餐馆",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/13/4a/134a8b88a881cdccf3861f0d7e4d60b8.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,16 +54,57 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "The products to get the look",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/19145",
+     "backgroundColor": null
+    },
+    {
+     "title": "KUNGSFORS 康福斯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kungsfors-kang-fu-si-ge-ban-bu-xiu-gang__0709887_pe727149_s4.jpg",
+     "href": "/cn/zh/p/kungsfors-kang-fu-si-ge-ban-bu-xiu-gang-40334935/"
+    },
+    {
+     "title": "KUNGSFORS 康福斯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kungsfors-kang-fu-si-xuan-gua-gan-bu-xiu-gang__0713248_pe729358_s4.jpg",
+     "href": "/cn/zh/p/kungsfors-kang-fu-si-xuan-gua-gan-bu-xiu-gang-50334869/"
+    },
+    {
+     "title": "KUNGSFORS 康福斯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kungsfors-kang-fu-si-qiang-ge-wang-bu-xiu-gang__0713281_pe729389_s4.jpg",
+     "href": "/cn/zh/p/kungsfors-kang-fu-si-qiang-ge-wang-bu-xiu-gang-50334930/"
+    },
+    {
+     "title": "KNAGGLIG 卡纳格",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/knagglig-qia-na-ge-he-song-mu__1191241_pe900576_s4.jpg",
+     "href": "/cn/zh/p/knagglig-qia-na-ge-he-song-mu-50292360/"
+    },
+    {
+     "title": "PLATS 普拉茨",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/plats-pu-la-ci-yan-hu-jiao-ping-2-jian-tao-bu-xiu-gang__0712292_pe728718_s4.jpg",
+     "href": "/cn/zh/p/plats-pu-la-ci-yan-hu-jiao-ping-2-jian-tao-bu-xiu-gang-10233674/"
+    }
+   ],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>声明</h2>\n<p>此解决方案包含一系列家用和非家用产品。请确认所购产品可在你的空间内发挥预期用途，并符合有关标准。如需了解该系列的更多信息，请联系宜家对公业务部。</p>"
+    "声明 此解决方案包含一系列家用和非家用产品。请确认所购产品可在你的空间内发挥预期用途，并符合有关标准。如需了解该系列的更多信息，请联系宜家对公业务部。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

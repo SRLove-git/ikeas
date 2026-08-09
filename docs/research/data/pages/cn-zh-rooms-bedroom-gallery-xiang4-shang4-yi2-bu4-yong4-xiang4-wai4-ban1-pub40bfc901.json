@@ -11,7 +11,7 @@
    "title": "向上移，不用向外搬",
    "texts": [
     "用宜家 SVÄRTA 斯沃塔 钢制双层高架床架和爬梯来尽可能利用小空间。床的下方可以容纳一人入睡；也可摆放一张沙发、用作客厅。",
-    "<p>每一厘米的垂直墙面空间都可以利用。选张高架床，再在床下摆放一张沙发，转眼之间，你就同时拥有了一间客厅和一间卧室！</p>",
+    "每一厘米的垂直墙面空间都可以利用。选张高架床，再在床下摆放一张沙发，转眼之间，你就同时拥有了一间客厅和一间卧室！",
     "向上移，不用向外搬",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "向上移，不用向外搬",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d2/52/d2522ad90a4c52bae5d696c619d27bd8.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -39,6 +49,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "LENNART 列纳特",
+     "text": "¥79.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lennart-lie-na-te-chou-ti-gui-bai-se__0395412_pe564513_s4.jpg",
+     "href": "/cn/zh/p/lennart-lie-na-te-chou-ti-gui-bai-se-10326178/"
+    },
+    {
+     "title": "MARIUS 玛留斯",
+     "text": "¥29.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/marius-ma-liu-si-deng-bai-se__0727398_pe735650_s4.jpg",
+     "href": "/cn/zh/p/marius-ma-liu-si-deng-bai-se-30184050/"
+    }
+   ],
    "settings": null
   }
  ]

@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -34,16 +36,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "客厅里挂着棕粉色窗帘，摆放着红色/白色地毯、灰色沙发和红色高光柜门壁装储物柜。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/97/40/974003cd1eb69b4e804c948dafaca955.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>在你的客厅，忠实展现你的风格，表达你的个性！你只要选好颜色、材料和装饰品，大功就告成了。（储物柜可以帮你隐藏不符合你风格的东西！）</p>"
+    "在你的客厅，忠实展现你的风格，表达你的个性！你只要选好颜色、材料和装饰品，大功就告成了。（储物柜可以帮你隐藏不符合你风格的东西！）"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -55,7 +69,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<p>壁装储物柜便于你打造时尚简约的外观。（而且它没有支腿，底部除尘更加轻松！）</p>"
+    "壁装储物柜便于你打造时尚简约的外观。（而且它没有支腿，底部除尘更加轻松！）"
    ],
    "images": [
     "https://file.app.ikea.cn/images/f0/5f/f05fdcd9c005551e224edc0a5021976c.jpg",
@@ -76,6 +90,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "白色 BESTÅ 贝达 储物柜组合配备深红褐色高光柜门，安装在窗户下的墙壁上。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/f0/5f/f05fdcd9c005551e224edc0a5021976c.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "竹质 SMARRA 斯马拉 附盖储物盒提供储物空间，储物盒和其他装饰品一起放在白色/红褐色储物柜上。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/53/02/5302568dbc3d0fefb82e2dff74e38f6a.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "浅灰色的 EKET 伊克特 壁装组合单元提供开放式空间，可摆放书籍、篮子、盒子等。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/51/1b/511b862210674961cad1b628898ff781.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "壁装储物柜便于你打造时尚简约的外观。（而且它没有支腿，底部除尘更加轻松！）",
+     "image": "https://file.app.ikea.cn/images/f0/5f/f05fdcd9c005551e224edc0a5021976c.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "时尚隐秘的小型储物空间：SMARRA 斯马拉 储物盒可以存放你希望触手可及的物品。",
+     "image": "https://file.app.ikea.cn/images/53/02/5302568dbc3d0fefb82e2dff74e38f6a.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "EKET 伊克特 搁架单元可根据你的空间、需求与你想要的外观风格，轻松定制。",
+     "image": "https://file.app.ikea.cn/images/51/1b/511b862210674961cad1b628898ff781.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -103,6 +161,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "浅棕粉色 LEJONGAP 利永卡普 窗帘饰有红色装饰带，挂在窗旁，方便阳光透过，带来优美光线。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/2a/c8/2ac8fa7e0521ab839e792e9dc08c8853.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "客厅里摆放着深灰色沙发和 NYBODA 尼伯达 茶几，这款茶几的桌面双面可用，图中为黑色面朝上。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/f8/9b/f89b5ae6d66b73ddb2546e5331dc2dd8.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "用不同寻常、美观漂亮又别具一格的方式垂挂窗帘，为你的窗帘增添个性色彩！",
+     "image": "https://file.app.ikea.cn/images/2a/c8/2ac8fa7e0521ab839e792e9dc08c8853.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "使用 NYBODA 尼伯达 茶几，轻松更换颜色，带来焕然一新的感觉：它采用双面可用的桌面设计，可自由选择使用黑色或米色表面。",
+     "image": "https://file.app.ikea.cn/images/f8/9b/f89b5ae6d66b73ddb2546e5331dc2dd8.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -118,6 +207,14 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "GLADOM 格拉登",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/gladom-ge-la-deng-tuo-pan-zhuo-bai-se__0470732_pe612912_s4.jpg",
+     "href": "/cn/zh/p/gladom-ge-la-deng-tuo-pan-zhuo-bai-se-50337820/"
+    }
+   ],
    "settings": null
   }
  ]

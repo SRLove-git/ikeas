@@ -11,7 +11,7 @@
    "title": "展现北欧风情的灯具",
    "texts": [
     "宜家 SJÖPENNA 斯宾纳 落地灯和台灯以塑料板制成，并以松紧带连接，金色的木质支架，再配以纺织品灯绳。台灯造型丰盈，传递出现代斯堪的纳维亚的韵味。",
-    "<p>运用本季新款灯具为家中增添氛围，包括落地灯、台灯和吊灯。</p>\n<p>SJ&Ouml;PENNA 斯宾纳 落地灯和台灯具有雕塑感，造型丰盈，彰显出高品质和精心设计的美感。</p>",
+    "运用本季新款灯具为家中增添氛围，包括落地灯、台灯和吊灯。 SJöPENNA 斯宾纳 落地灯和台灯具有雕塑感，造型丰盈，彰显出高品质和精心设计的美感。",
     "展现北欧风情的灯具",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "展现北欧风情的灯具",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/9c/7e/9c7e07c3a10fe6cad564e315e9b52dd3.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,16 +54,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "宜家 VINTERGATA 温特果达 吊灯的面板由灰色毛毡制成，以金属按扣固定在一起，毛毡之间仅微有重叠，光线可以从中透出。毛毡的部分材料采用可回收的PET塑料制成，更加环保。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/4c/17/4c178a4184322347b1bf19393bbcc70c.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>用精心设计的装饰品来点亮你的家！VINTERGATA 温特果达 吊灯具有现代时尚的斯堪的纳维亚风格外观，由灰色毛毡制成，可提供集中光线和散射光线。</p>"
+    "用精心设计的装饰品来点亮你的家！VINTERGATA 温特果达 吊灯具有现代时尚的斯堪的纳维亚风格外观，由灰色毛毡制成，可提供集中光线和散射光线。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -74,16 +96,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "特写：宜家 VINTERGATA 温特果达 灰色毛毡制桃形吊灯上的灰色毛毡片的部分材料采用可回收的PET塑料制成，更加环保。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/4c/fd/4cfd33e631e84a39f12af290e8fc4f63.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>这款吊灯的面板由灰色毛毡制成，以金属按扣固定在一起，构成圆润的外形。</p>"
+    "这款吊灯的面板由灰色毛毡制成，以金属按扣固定在一起，构成圆润的外形。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -97,6 +131,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

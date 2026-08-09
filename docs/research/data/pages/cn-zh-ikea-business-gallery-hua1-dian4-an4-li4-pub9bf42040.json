@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-标题-"
    }
@@ -22,10 +24,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>想要以独特的理念和风格表现产品和服务背后的意义？欢迎来到宜家！宜家有众多产品适合任何设计理念和风格，可满足从简约的瑜伽会所到时尚前卫的理发店等各类设计需求。</p>"
+    "想要以独特的理念和风格表现产品和服务背后的意义？欢迎来到宜家！宜家有众多产品适合任何设计理念和风格，可满足从简约的瑜伽会所到时尚前卫的理发店等各类设计需求。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -46,6 +50,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/61/65/616512865a89a89b0213174133490c40.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-媒体商品组合 image(Video)-"
    }
@@ -66,6 +80,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/40/eb/40eb34d6bbb92bde7821e189eab5be6f.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-媒体商品组合 image(Video)-"
    }
@@ -93,6 +117,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/87/ab/87ab5ba6ad4c86c75623a90fa3b9afa7.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/fa/8f/fa8fbdc77414e9d4dbfa30c6568326cc.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/87/ab/87ab5ba6ad4c86c75623a90fa3b9afa7.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/fa/8f/fa8fbdc77414e9d4dbfa30c6568326cc.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-分栏内容 Columns-"
    }
@@ -113,6 +168,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/1f/2b/1f2b90f7a910a4476419cf563188441f.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-媒体商品组合 image(Video)-"
    }
@@ -133,6 +198,39 @@
     {
      "href": "/rooms/outdoor/",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "相关产品",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/rooms/outdoor/",
+     "backgroundColor": null
+    },
+    {
+     "title": "LÄCKÖ 拉科",
+     "text": "¥697",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/laeckoe-la-ke-zhuo-zi-2-yi-zi-hu-wai-hui-se__0735585_pe740066_s4.jpg",
+     "href": "/cn/zh/p/laeckoe-la-ke-zhuo-zi-2-yi-zi-hu-wai-hui-se-09898437/"
+    },
+    {
+     "title": "SINNERLIG 希利斯",
+     "text": "¥399",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/sinnerlig-xi-li-si-diao-deng-zhu-shou-gong-zhi-zuo__0919001_pe786542_s4.jpg",
+     "href": "/cn/zh/p/sinnerlig-xi-li-si-diao-deng-zhu-shou-gong-zhi-zuo-00342193/"
+    },
+    {
+     "title": "KNAGGLIG 卡纳格",
+     "text": "¥79.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/knagglig-qia-na-ge-he-song-mu__1191241_pe900576_s4.jpg",
+     "href": "/cn/zh/p/knagglig-qia-na-ge-he-song-mu-50292360/"
+    },
+    {
+     "title": "KNAGGLIG 卡纳格",
+     "text": "¥129",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/knagglig-qia-na-ge-he-song-mu__1191243_pe900582_s4.jpg",
+     "href": "/cn/zh/p/knagglig-qia-na-ge-he-song-mu-90292358/"
     }
    ],
    "settings": {
@@ -157,6 +255,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-按钮 Link-button or text-"
    }

@@ -10,7 +10,7 @@
    "type": "pub-hero",
    "title": "做一桌好菜，少不了”好帮手“",
    "texts": [
-    "<p>每到春节，我们的厨房就会变得繁忙无比。丰盛的菜肴和围坐的客人，对每一位大厨都是重要的任务，而宜家厨房里的各类产品，是你不可错过的&ldquo;好帮手&rdquo;。</p>",
+    "每到春节，我们的厨房就会变得繁忙无比。丰盛的菜肴和围坐的客人，对每一位大厨都是重要的任务，而宜家厨房里的各类产品，是你不可错过的“好帮手”。",
     "做一桌好菜，少不了”好帮手“",
     "normal"
    ],
@@ -23,6 +23,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "做一桌好菜，少不了”好帮手“",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e4/f2/e4f2659dfde12a765f95785935903613.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "116678ca6c4947459839b8b14d5e776d"
    }
@@ -55,6 +65,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/33/56/335613690737a1ec32f738f50dae0d68.jpg",
+     "href": "/cn/zh/p/30193484?artType=art",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "4931f4910d884982940b57b8598eebd0"
    }
@@ -87,6 +107,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/6d/45/6d4564dfd97af8f246119e1f3b4331cf.jpg",
+     "href": "/cn/zh/p/30525817?artType=art",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "55a554ae50f74d46ab100ffb5cbdec32"
    }
@@ -119,6 +149,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/9a/8f/9a8ff2ca2949a547540df0031353ac7c.jpg",
+     "href": "/cn/zh/p/70484056?artType=art",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cad5304d9bb04e7382a01d0a0aeae4a4"
    }
@@ -151,6 +191,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/cd/0b/cd0b744589bad8d7dbb747d2897ae2be.jpg",
+     "href": "/cn/zh/p/00444455?artType=art",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "c4f54be0b6b04b7dbab3a5d6dc37074e"
    }
@@ -183,6 +233,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/6b/9f/6b9f67ed1ce5626866e43ff6ea9d4738.jpg",
+     "href": "/cn/zh/p/20371523?artType=art",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "2d43292f480f401e90b96f315f7f3acb"
    }
@@ -203,6 +263,63 @@
     {
      "href": "/cat/20647",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "厨房必备",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/20647",
+     "backgroundColor": null
+    },
+    {
+     "title": "OLEBY 奥勒比",
+     "text": "¥59.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/oleby-ao-le-bi-zhen-ban-3-jian-tao-zhu__0368605_pe551171_s4.jpg",
+     "href": "/cn/zh/p/oleby-ao-le-bi-zhen-ban-3-jian-tao-zhu-30193484/"
+    },
+    {
+     "title": "HULTARP 胡尔塔普",
+     "text": "¥49.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/hultarp-hu-er-ta-pu-sheng-ju-hei-se__0941222_pe795397_s4.jpg",
+     "href": "/cn/zh/p/hultarp-hu-er-ta-pu-sheng-ju-hei-se-00444455/"
+    },
+    {
+     "title": "HULTARP 胡尔塔普",
+     "text": "¥79.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/hultarp-hu-er-ta-pu-can-ju-lu-gan-jia-hei-se__0933770_pe792223_s4.jpg",
+     "href": "/cn/zh/p/hultarp-hu-er-ta-pu-can-ju-lu-gan-jia-hei-se-40448767/"
+    },
+    {
+     "title": "HULTARP 胡尔塔普",
+     "text": "¥49.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/hultarp-hu-er-ta-pu-sheng-ju-hei-se-si-wang__0941254_pe795405_s4.jpg",
+     "href": "/cn/zh/p/hultarp-hu-er-ta-pu-sheng-ju-hei-se-si-wang-50462828/"
+    },
+    {
+     "title": "HULTARP 胡尔塔普",
+     "text": "¥39.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/hultarp-hu-er-ta-pu-gua-gan-hei-se__0941870_pe795789_s4.jpg",
+     "href": "/cn/zh/p/hultarp-hu-er-ta-pu-gua-gan-hei-se-60448771/"
+    },
+    {
+     "title": "HULTARP 胡尔塔普",
+     "text": "¥19.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/hultarp-hu-er-ta-pu-gua-gou-hei-se__0941598_pe795584_s4.jpg",
+     "href": "/cn/zh/p/hultarp-hu-er-ta-pu-gua-gou-hei-se-90444446/"
+    },
+    {
+     "title": "VARIERA 瓦瑞拉",
+     "text": "¥24.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/variera-wa-rui-la-ge-ban-cha-jian-bai-se__81980_pe207259_s4.jpg",
+     "href": "/cn/zh/p/variera-wa-rui-la-ge-ban-cha-jian-bai-se-50177727/"
+    },
+    {
+     "title": "VARIERA 瓦瑞拉",
+     "text": "¥14.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/variera-wa-rui-la-ge-ban-cha-jian-bai-se__81979_pe207258_s4.jpg",
+     "href": "/cn/zh/p/variera-wa-rui-la-ge-ban-cha-jian-bai-se-70177726/"
     }
    ],
    "settings": {
@@ -252,6 +369,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "虎虎生威中国年",
+     "text": "KUNGSTIGER 坤蒂格 2022春节庆祝系列",
+     "image": "https://file.app.ikea.cn/images/7a/28/7a287baa48c0b5bf8576bee27c824c7c.jpg",
+     "href": "/cn/zh/new/hu3-hu3-sheng1-wei1-zhong1-guo2-nian2-pub030a7850",
+     "backgroundColor": "#b2292e"
+    },
+    {
+     "title": "灵活扩容的餐厅，更多团聚的喜悦",
+     "text": "餐厅里多了前来赴宴的亲友，需要额外的座位与空间？",
+     "image": "https://file.app.ikea.cn/images/69/cf/69cf722199715e6d99e789757dce60f2.jpg",
+     "href": "/cn/zh/rooms/dining/how-to/ling2-huo2-kuo4-rong2-de-can1-ting1-geng4-duo1-tuan2-ju4-de-xi3-yue4-pub28d82690",
+     "backgroundColor": "#b2292e"
+    },
+    {
+     "title": "装点客厅，迎接新年",
+     "text": "你是否期待了很久，可以和亲友们在新年里欢聚一堂？",
+     "image": "https://file.app.ikea.cn/images/51/7d/517d68167fb2ab3619b6fe1b0cd21c3e.jpg",
+     "href": "/cn/zh/rooms/living-room/how-to/zhuang1-dian3-ke4-ting1-ying2-jie1-xin1-nian2-pub68087ac0",
+     "backgroundColor": "#b2292e"
+    },
+    {
+     "title": "给孩子打造专属游乐场",
+     "text": "新年不只是大人的事！",
+     "image": "https://file.app.ikea.cn/images/81/3c/813cbae681d2f6d973635bee9852e4a6.jpg",
+     "href": "/cn/zh/rooms/childrens-room/how-to/gei3-hai2-zi-da3-zao4-zhuan1-shu3-you2-le4-chang3-pubdf276686",
+     "backgroundColor": "#b2292e"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "1fdddc29e9784b47b20c6650da714ef2"
    }

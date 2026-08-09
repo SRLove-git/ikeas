@@ -11,7 +11,7 @@
    "title": "两人、四人和六人桌",
    "texts": [
     "奢华布置，实惠价格。宜家 EKEDALEN 伊克多兰 白色伸缩型餐桌和 BERNHARD 伯恩哈德 棕色皮椅摆放在一起，就打造出了现代时尚的餐厅组合。",
-    "<p>这个热爱社交的家庭围绕着一张伸缩型餐桌开办了他们的晚餐派对。无论是两人还是多人使用，这张餐桌都能提供足够的空间。如果还有最后一分钟赶到的客人怎么办？只需取下一张堆叠的椅子，便可请客人就坐！</p>",
+    "这个热爱社交的家庭围绕着一张伸缩型餐桌开办了他们的晚餐派对。无论是两人还是多人使用，这张餐桌都能提供足够的空间。如果还有最后一分钟赶到的客人怎么办？只需取下一张堆叠的椅子，便可请客人就坐！",
     "两人、四人和六人桌",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "两人、四人和六人桌",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ab/74/ab747171310ac4a6e6313fad3fb5a370.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -39,6 +49,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "STOCKHOLM 斯德哥尔摩",
+     "text": "¥1,499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/stockholm-si-de-ge-er-mo-tao-zhuo-2-jian-tao-hu-tao-mu-tie-mian__0735683_pe740088_s4.jpg",
+     "href": "/cn/zh/p/stockholm-si-de-ge-er-mo-tao-zhuo-2-jian-tao-hu-tao-mu-tie-mian-70353079/"
+    },
+    {
+     "title": "VÄXJÖ 维克舍",
+     "text": "¥199",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vaexjoe-wei-ke-she-diao-deng-mi-huang-se__0613036_pe686128_s4.jpg",
+     "href": "/cn/zh/p/vaexjoe-wei-ke-she-diao-deng-mi-huang-se-80363148/"
+    }
+   ],
    "settings": null
   }
  ]

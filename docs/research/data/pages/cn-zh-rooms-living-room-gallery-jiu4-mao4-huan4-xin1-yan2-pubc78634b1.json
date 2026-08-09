@@ -11,7 +11,7 @@
    "title": "旧貌换新颜",
    "texts": [
     "宜家 KLIPPAN 克利帕、KALLAX 卡莱克 和 LACK 拉克 系列功能实用，价格实惠，是我们备受青睐的经典系列。现新增大胆有趣的图案和色彩，一跃成为客厅中的瞩目焦点！",
-    "<p>拥有一切，无需选择。将功能实用的家具与多彩有趣的新品相结合，令客厅焕发生机！</p>",
+    "拥有一切，无需选择。将功能实用的家具与多彩有趣的新品相结合，令客厅焕发生机！",
     "旧貌换新颜",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "旧貌换新颜",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a4/b6/a4b618848bb3cc7c76a1a13eccf9b842.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Hero-旧貌换新颜"
    }
@@ -41,6 +51,14 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "KALLAX 卡莱克",
+     "text": "¥299",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kallax-qia-lai-ke-ge-jia-dan-yuan-bai-se__0644753_pe702937_s4.jpg",
+     "href": "/cn/zh/p/kallax-qia-lai-ke-ge-jia-dan-yuan-bai-se-70351886/"
+    }
+   ],
    "settings": {
     "traceId": "cms-Product List-"
    }

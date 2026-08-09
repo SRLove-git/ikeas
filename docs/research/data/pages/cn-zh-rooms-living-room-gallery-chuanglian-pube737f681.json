@@ -10,7 +10,7 @@
    "type": "pub-hero",
    "title": "轻轻为房间一角拉上窗帘",
    "texts": [
-    "<p>层叠的窗帘能够让你根据自己的喜好调节光线、声音、温度和风格。只需简单地拉动窗帘，就能实现你想要的私密或开放程度。 喜欢这样的窗帘组合？</p>",
+    "层叠的窗帘能够让你根据自己的喜好调节光线、声音、温度和风格。只需简单地拉动窗帘，就能实现你想要的私密或开放程度。 喜欢这样的窗帘组合？",
     "轻轻为房间一角拉上窗帘",
     "normal"
    ],
@@ -23,6 +23,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "轻轻为房间一角拉上窗帘",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/1c/28/1c28fa5b66113a20beaf0f14a22beef8.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -38,6 +48,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

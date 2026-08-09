@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -34,16 +36,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "房间里摆放着书桌、白色转椅和椅凳、绿色植物和植物架，以及绿色靠背椅。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/85/e5/85e5101bb9675b4ef8332df12326fcde.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>一个启发灵感、激发创造力的空间，摆放着符合人体工程学的家具，如 SKARSTA 斯卡斯塔 升降桌，助你提高效率。</p>"
+    "一个启发灵感、激发创造力的空间，摆放着符合人体工程学的家具，如 SKARSTA 斯卡斯塔 升降桌，助你提高效率。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -71,6 +85,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "LIDKULLEN 里德库伦 椅凳，边上放着调高的坐/站两用书桌。透明地板保护垫可保护地板不受刮擦。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b0/be/b0bebb56d808474cede815e6655c62ed.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "NYMÅNE 纽墨奈 工作灯照亮了平板支架上的平板电脑，工作灯内置的USB接口连接的电线在为平板电脑充电。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e1/c1/e1c10dd81e53ede86168a67bbe0b3b96.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "LIDKULLEN 里德库伦 椅凳能让你的身体保持运动，帮助你形成自然健康的坐姿。",
+     "image": "https://file.app.ikea.cn/images/b0/be/b0bebb56d808474cede815e6655c62ed.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "NYMÅNE 纽墨奈 工作灯不仅可照亮你的书桌，内置USB接口还可为平板电脑充电。",
+     "image": "https://file.app.ikea.cn/images/e1/c1/e1c10dd81e53ede86168a67bbe0b3b96.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -98,6 +143,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "带有脚轮的手推车顶层搁板上是一个晚餐场景。它被推到了相机旁边用于拍照。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/3e/20/3e20eab089b5a88b20860d051d500784.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "巨大的白色 BROR 巴拉 搁架单元上摆放着储物盒、相机、杂志、书籍、文件和和三个藤条篮子。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/44/03/4403635f80c2f2b0075f7b782d830dcc.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "BROR 巴拉 手推车可将重物推到任何你需要的地方，脚轮可以锁定，因此手推车可以牢牢固定。（非常适合拍照！）",
+     "image": "https://file.app.ikea.cn/images/3e/20/3e20eab089b5a88b20860d051d500784.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "开放式搁架方便你一目了然地查看自己珍贵的物品。BROR 巴拉 搁架单元可承载重物，不必担心。",
+     "image": "https://file.app.ikea.cn/images/44/03/4403635f80c2f2b0075f7b782d830dcc.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -125,6 +201,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "墙上挂着两个 VISBÄCK 维贝可 竹质图片架和食物图片，白色壁灯洒下美妙的光线，笼罩在图片架和食物图片上。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d3/63/d3639361b87490b9255958339623bf08.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "竹质植物架带有三块搁板，搁板上放着灰色花盆，种着绿色植物。边上放着绿色靠背椅和白色书桌。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d0/84/d084294f20cda95be2ab1f58c0def3fa.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "图片与艺术作品（也许是你自己的杰作？）有助于完善创意空间的外观，VISBÄCK 维贝可 方便你随时更换图片！",
+     "image": "https://file.app.ikea.cn/images/d3/63/d3639361b87490b9255958339623bf08.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "集时尚和健康于一身的植物架：SATSUMAS 沙图玛斯 可用作具有空气净化效果的房间隔断。",
+     "image": "https://file.app.ikea.cn/images/d0/84/d084294f20cda95be2ab1f58c0def3fa.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -140,6 +247,32 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "LIDKULLEN 里德库伦",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lidkullen-li-de-ku-lun-yi-deng-gang-na-rui-de-mi-huang-se__0771305_pe755686_s4.jpg",
+     "href": "/cn/zh/p/lidkullen-li-de-ku-lun-yi-deng-gang-na-rui-de-mi-huang-se-80445781/"
+    },
+    {
+     "title": "LÅNGFJÄLL 隆菲尔",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/langfjaell-long-fei-er-hui-yi-yi-gang-na-rui-de-mi-huang-se-bai-se__0725408_pe734840_s4.jpg",
+     "href": "/cn/zh/p/langfjaell-long-fei-er-hui-yi-yi-gang-na-rui-de-mi-huang-se-bai-se-89252481/"
+    },
+    {
+     "title": "SATSUMAS 沙图玛斯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/satsumas-sha-tu-ma-si-zhi-wu-jia-zhu-bai-se__0635815_pe697397_s4.jpg",
+     "href": "/cn/zh/p/satsumas-sha-tu-ma-si-zhi-wu-jia-zhu-bai-se-60294962/"
+    },
+    {
+     "title": "KOLON 卡伦",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kolon-qia-lun-di-ban-bao-hu-dian__0292207_pe425129_s4.jpg",
+     "href": "/cn/zh/p/kolon-qia-lun-di-ban-bao-hu-dian-90176245/"
+    }
+   ],
    "settings": null
   }
  ]

@@ -10,7 +10,7 @@
    "type": "pub-hero",
    "title": "厨房项目",
    "texts": [
-    "<p>我们仔细斟酌每一处细节，帮助开发商打造功能实用、设计出色同时价格亲民的厨房方案，且享有25年品质保证。</p>",
+    "我们仔细斟酌每一处细节，帮助开发商打造功能实用、设计出色同时价格亲民的厨房方案，且享有25年品质保证。",
     "厨房项目",
     "normal"
    ],
@@ -23,6 +23,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "厨房项目",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/50/77/50773ece03ca8aef4d53f4bdad6d1bd8.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -43,6 +53,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

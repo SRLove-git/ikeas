@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "6366983c11e24f39b8b6877ec3c65e24"
    }
@@ -34,6 +36,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/6d/90/6d9048bc0940c5d7bfaa4c7805d0b7a6.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "17d8933429624a3297502d721447398b"
    }
@@ -42,10 +54,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>教学/自习空间</h2>"
+    "教学/自习空间"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "c8699f07bfdd4ff08859038be2b823bc"
    }
@@ -66,6 +80,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/bb/b1/bbb16111de90e5eed91cdd646334ee44.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "e0b465911600450aa2c77347c119a7d1"
    }
@@ -93,6 +117,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/3b/0d/3b0d3577dbc0cb04538804775f356236.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/79/1a/791a14a0ebe21d2c997c0e5f9293d7cc.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/3b/0d/3b0d3577dbc0cb04538804775f356236.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/79/1a/791a14a0ebe21d2c997c0e5f9293d7cc.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "b0eafd19370a438693eb3e5e46675c70"
    }
@@ -101,10 +156,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>走廊/储物柜</h2>"
+    "走廊/储物柜"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "18620efc2afb4508b74c352964b975f6"
    }
@@ -132,6 +189,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/64/17/64174b3bd000747c1fe298539b3b6343.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/18/60/186075d045cdcf6831464633de72fd70.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/64/17/64174b3bd000747c1fe298539b3b6343.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/18/60/186075d045cdcf6831464633de72fd70.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "0a49f43e486f45bcbef0baaffa3a7b6b"
    }
@@ -154,6 +242,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "570213a970dd44f1a6530e74f5502df1"
    }

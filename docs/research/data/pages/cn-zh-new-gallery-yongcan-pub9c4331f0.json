@@ -11,7 +11,7 @@
    "title": "精致用餐",
    "texts": [
     "黄铜色宜家 TILLAGD 提拉格 餐具线条简洁，可为餐桌布置增添一丝别样的感觉。",
-    "<p>查看本月全新用餐系列产品，为特殊场合做好准备。</p>\n<p>比如说，黄铜色或黑色的 TILLAGD 提拉格 刀叉，可为餐桌布置增添几分优雅精致的气息，可搭配传统或现代风格的餐具使用，还可以放入洗碗机清洗。</p>",
+    "查看本月全新用餐系列产品，为特殊场合做好准备。 比如说，黄铜色或黑色的 TILLAGD 提拉格 刀叉，可为餐桌布置增添几分优雅精致的气息，可搭配传统或现代风格的餐具使用，还可以放入洗碗机清洗。",
     "精致用餐",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "精致用餐",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/f5/52/f55219879ca348951885e0f56f2122af.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,16 +54,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "宜家 STORHET 斯图尔赫特 香槟酒杯宽矮的外形非常适合盛放气泡酒或香槟。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/92/30/92301a029e7d383db4423aea1bffee50.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>STORHET 斯图尔赫特 香槟杯设计时尚优雅，除了用来喝香槟或鸡尾酒，还可以用来盛放各式甜点。</p>"
+    "STORHET 斯图尔赫特 香槟杯设计时尚优雅，除了用来喝香槟或鸡尾酒，还可以用来盛放各式甜点。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -73,16 +95,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "宜家 PRISTELLA 普思迪拉 托盘带深色花朵图案，营造出温馨朴实的复古风格。适合在床上用餐或端饮料时使用。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/15/53/15531f5d7cfafa53d29146e8eab96d5e.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>PRISTELLA 普思迪拉 托盘图案，在传统纺织品设计的基础上进行了大胆创新，适合在床上用餐或端饮料时使用。</p>"
+    "PRISTELLA 普思迪拉 托盘图案，在传统纺织品设计的基础上进行了大胆创新，适合在床上用餐或端饮料时使用。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -96,6 +130,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

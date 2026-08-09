@@ -11,7 +11,7 @@
    "title": "厨房之宝",
    "texts": [
     "简约风格厨房，搭配高光白色和青绿色的柜门，砧板上放着水果，搅拌机里同样装着水果。",
-    "<p>干净的白色线条搭配一抹青绿色，为厨房注入精致而清新的生机活力。巧妙的储物方案搭配简约的细节设计和功能实用的照明，轻松打造一个风格时尚又收纳有序的厨房，你一定会由此爱上烹饪时光。</p>",
+    "干净的白色线条搭配一抹青绿色，为厨房注入精致而清新的生机活力。巧妙的储物方案搭配简约的细节设计和功能实用的照明，轻松打造一个风格时尚又收纳有序的厨房，你一定会由此爱上烹饪时光。",
     "厨房之宝",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "厨房之宝",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/26/eb/26ebd3e0561dce98456c05443461f94a.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Hero-厨房之宝"
    }
@@ -52,6 +62,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "厨房配有浅青绿色高光柜门，堆放着碗盘，砧板上放着水果，还有一瓶粉色奶昔。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/3bf99477a5bed9d7/original/PH177683-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Curated Gallery-趣味十足又充满活力的厨房"
    }
@@ -80,6 +100,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "砧板上放着蔬菜，旁边是一个蒸锅，厨房抽屉打开，里面有白色餐具托盘。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/5152611a543f86c3/original/PH177684-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Curated Gallery-厨房抽屉不再杂乱"
    }
@@ -112,6 +142,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "厨房橱柜和抽屉带有白色前板，抽屉打开，里面的储物盒和食品盒里装着食物。",
+     "image": "https://file.app.ikea.cn/images/57/77/5777be589de21be4db3ab29964500570.jpg",
+     "href": "/cn/zh/p/10274240?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Curated Gallery-欢迎来到美食中心"
    }
@@ -140,6 +180,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "嵌入式水槽搭配厨房龙头带感应器，旁边是厨房用巾，沥干架上放着酒杯。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/62adedbe4e15396b/original/PH177686-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Curated Gallery-时尚精致的水槽"
    }
@@ -168,6 +218,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "白色仿大理石/层压操作台面，抽屉打开，里面安装了带传感器的厨房抽屉照明，还有香料和厨用器具。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/16b605d7e78eba49/original/PH177687-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Curated Gallery-照亮厨房"
    }
@@ -188,6 +248,51 @@
     {
      "href": "/cat/ka001",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "为你提供所需一切，打造梦想中的厨房",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/ka001",
+     "backgroundColor": null
+    },
+    {
+     "title": "RINGHULT 林胡特",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ringhult-lin-hu-te-chou-ti-qian-ban-gao-guang-bai-se__0646102_pe703938_s4.jpg",
+     "href": "/cn/zh/p/ringhult-lin-hu-te-chou-ti-qian-ban-gao-guang-bai-se-30274263/"
+    },
+    {
+     "title": "BILLSBRO 比斯布罗",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/billsbro-bi-si-bu-luo-ba-shou-bai-se__0754278_pe747864_s4.jpg",
+     "href": "/cn/zh/p/billsbro-bi-si-bu-luo-ba-shou-bai-se-70334302/"
+    },
+    {
+     "title": "MITTLED 米特利",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mittled-mi-te-li-led-chu-fang-chou-ti-zhao-ming-she-bei-dai-gan-ying-qi-ke-diao-guang-de-bai-se__0933846_pe792242_s4.jpg",
+     "href": "/cn/zh/p/mittled-mi-te-li-led-chu-fang-chou-ti-zhao-ming-she-bei-dai-gan-ying-qi-ke-diao-guang-de-bai-se-60463549/"
+    },
+    {
+     "title": "KUNGSFORS 康福斯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kungsfors-kang-fu-si-gua-gan-bu-xiu-gang__0712553_pe728909_s4.jpg",
+     "href": "/cn/zh/p/kungsfors-kang-fu-si-gua-gan-bu-xiu-gang-70334934/"
+    },
+    {
+     "title": "UTRUSTA 乌斯塔",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/utrusta-wu-si-ta-an-tui-shi-shui-ping-men-he-ye-bai-se__0790844_pe764408_s4.jpg",
+     "href": "/cn/zh/p/utrusta-wu-si-ta-an-tui-shi-shui-ping-men-he-ye-bai-se-80462493/"
+    },
+    {
+     "title": "JANINGE 延宁",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/janinge-yan-ning-ba-tai-deng-bai-se__0728069_pe736042_s4.jpg",
+     "href": "/cn/zh/p/janinge-yan-ning-ba-tai-deng-bai-se-50246090/"
     }
    ],
    "settings": {
@@ -212,6 +317,27 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "每样物品各归其位，方便取放",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/24255",
+     "backgroundColor": null
+    },
+    {
+     "title": "VARIERA 瓦瑞拉",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/variera-wa-rui-la-ge-ban-cha-jian-bai-se__81980_pe207259_s4.jpg",
+     "href": "/cn/zh/p/variera-wa-rui-la-ge-ban-cha-jian-bai-se-50177727/"
+    },
+    {
+     "title": "UPPDATERA 乌普道拉",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/uppdatera-wu-pu-dao-la-dao-jia-mei-hei-se__0968737_pe810537_s4.jpg",
+     "href": "/cn/zh/p/uppdatera-wu-pu-dao-la-dao-jia-mei-hei-se-50486419/"
+    }
+   ],
    "settings": {
     "traceId": "cms-Product Shelf-每样物品各归其位，方便取放"
    }
@@ -234,6 +360,33 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "用照明营造氛围，并助你效率加倍",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/li001",
+     "backgroundColor": null
+    },
+    {
+     "title": "MITTLED 米特利",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mittled-mi-te-li-led-chu-fang-chou-ti-zhao-ming-she-bei-dai-gan-ying-qi-ke-diao-guang-de-bai-se__0943503_pe796957_s4.jpg",
+     "href": "/cn/zh/p/mittled-mi-te-li-led-chu-fang-chou-ti-zhao-ming-she-bei-dai-gan-ying-qi-ke-diao-guang-de-bai-se-00463566/"
+    },
+    {
+     "title": "MITTLED 米特利",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mittled-mi-te-li-led-chu-fang-cao-zuo-tai-zhao-ming-tiao-ke-diao-guang-de-bai-se__0869941_pe781536_s4.jpg",
+     "href": "/cn/zh/p/mittled-mi-te-li-led-chu-fang-cao-zuo-tai-zhao-ming-tiao-ke-diao-guang-de-bai-se-60455417/"
+    },
+    {
+     "title": "SIMRISHAMN 希姆丽哈姆",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/simrishamn-xi-mu-li-ha-mu-luo-di-deng-du-ge-ru-bai-se-bo-li__0789445_pe763989_s4.jpg",
+     "href": "/cn/zh/p/simrishamn-xi-mu-li-ha-mu-luo-di-deng-du-ge-ru-bai-se-bo-li-70437767/"
+    }
+   ],
    "settings": {
     "traceId": "cms-Product Shelf-用照明营造氛围，并助你效率加倍"
    }
@@ -254,6 +407,51 @@
     {
      "href": "/cat/kt001",
      "text": ""
+    }
+   ],
+   "items": [
+    {
+     "title": "经典餐具和厨具",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/kt001",
+     "backgroundColor": null
+    },
+    {
+     "title": "APTITLIG 阿普特利",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/aptitlig-a-pu-te-li-zhen-ban-zhu__1377033_pe960693_s4.jpg",
+     "href": "/cn/zh/p/aptitlig-a-pu-te-li-zhen-ban-zhu-20233428/"
+    },
+    {
+     "title": "FÄRGKLAR 法利克洛",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/faergklar-fa-li-ke-luo-wan-wu-guang-ze-qian-qing-lu-se__0958943_pe805525_s4.jpg",
+     "href": "/cn/zh/p/faergklar-fa-li-ke-luo-wan-wu-guang-ze-qian-qing-lu-se-40477199/"
+    },
+    {
+     "title": "IVRIG 伊里",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ivrig-yi-li-bei-zi-tou-ming-bo-li__0713244_pe729354_s4.jpg",
+     "href": "/cn/zh/p/ivrig-yi-li-bei-zi-tou-ming-bo-li-30258324/"
+    },
+    {
+     "title": "BERGENES 伯格尼斯",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/bergenes-bo-ge-ni-si-shou-ji-ping-ban-zhi-jia-zhu__0730164_pe737412_s4.jpg",
+     "href": "/cn/zh/p/bergenes-bo-ge-ni-si-shou-ji-ping-ban-zhi-jia-zhu-70458000/"
+    },
+    {
+     "title": "IKEA 365+",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ikea-365-shu-cai-dao-bu-xiu-gang__0710389_pe727517_s4.jpg",
+     "href": "/cn/zh/p/ikea-365-shu-cai-dao-bu-xiu-gang-90287936/"
+    },
+    {
+     "title": "VÄLVÅRDAD 微勒沃达德",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vaelvardad-wei-le-wo-da-de-can-ju-li-gan-jia-bu-xiu-gang__0957081_pe804909_s4.jpg",
+     "href": "/cn/zh/p/vaelvardad-wei-le-wo-da-de-can-ju-li-gan-jia-bu-xiu-gang-40473714/"
     }
    ],
    "settings": {

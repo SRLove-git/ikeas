@@ -11,7 +11,7 @@
    "title": "如何制作蓝莓粥",
    "texts": [
     "一个白色的瓷碗，盛着HJÄLTEROLL 耶尔德罗尔 浆果粥，放了一把勺子，下面垫着一张白色的餐巾，旁边是一个金属平底锅。",
-    "<p class=\"p1\">方便在炉灶上或微波炉中烹饪。搭配你最喜欢的牛奶，再撒上新鲜的蓝莓，清新爽口。</p>",
+    "方便在炉灶上或微波炉中烹饪。搭配你最喜欢的牛奶，再撒上新鲜的蓝莓，清新爽口。",
     "如何制作蓝莓粥",
     "normal"
    ],
@@ -24,26 +24,40 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "如何制作蓝莓粥",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b1/d5/b1d5e2da0467309d80cbff36bf505956.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>材料：</h2>\n<p>2人份</p>\n<p>200毫升HJÄLTEROLL 耶尔德罗尔 粥<br />200毫升冰冻蓝莓<br />400毫升水<br />1毫升盐</p>\n<p>食用时搭配：<br />偏好口味的牛奶*<br />新鲜浆果</p>"
+    "材料： 2人份 200毫升HJÄLTEROLL 耶尔德罗尔 粥 200毫升冰冻蓝莓 400毫升水 1毫升盐 食用时搭配： 偏好口味的牛奶* 新鲜浆果"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>制作步骤：</h2>\n<ol>\n<li>将所有材料放入锅中混合。小火煮几分钟，同时搅拌。</li>\n<li>食用时加入牛奶和新鲜蓝莓。</li>\n</ol>\n<p>*可以做成纯素食版本</p>"
+    "制作步骤： 将所有材料放入锅中混合。小火煮几分钟，同时搅拌。 食用时加入牛奶和新鲜蓝莓。 *可以做成纯素食版本"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

@@ -11,7 +11,7 @@
    "title": "个性化的办公室",
    "texts": [
     "在大窗户旁，一位女士在BEKANT 贝肯特 坐/站两用式办公桌上办公，后面的墙上放着装满文件的搁架。",
-    "<p>小型办公室的魅力在于你可以进行完全个性化的设计。这是你的专属空间，你可以尽情展示自己的个性，在激发灵感的环境里，展现自己最出色的一面；即使是和他人共享的办公空间，不同的工作方式也能和谐共处。</p>",
+    "小型办公室的魅力在于你可以进行完全个性化的设计。这是你的专属空间，你可以尽情展示自己的个性，在激发灵感的环境里，展现自己最出色的一面；即使是和他人共享的办公空间，不同的工作方式也能和谐共处。",
     "个性化的办公室",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "个性化的办公室",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/5a/00/5a00fc13cc2396e088377df43cc3782d.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -50,6 +60,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个黑色的BEKANT 贝肯特 带脚轮储物柜，上面放着一个笔记本和耳机，后面是一张蓝色的办公椅。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/6190778aa12b046a/original/PH166143-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -76,6 +96,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "桌子旁有一张JÄRVFJÄLLET 耶勒乌弗亚列特 椅子，桌上有一盏工作灯。后面是一个ALGOT 艾格特 搁架单元，其中装满了文件、储物盒和书籍。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/b60cb4bca217e9b/original/PH166144-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -102,6 +132,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个白色的BEKANT 贝肯特 搁架单元，其中摆放着书、花瓶、文具、耳机和储物盒。前面是一张奶油色的凳子。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/16984995e225c37/original/PH165673-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -117,16 +157,32 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "LIDKULLEN 里德库伦",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lidkullen-li-de-ku-lun-yi-deng-gang-na-rui-de-mi-huang-se__0771305_pe755686_s4.jpg",
+     "href": "/cn/zh/p/lidkullen-li-de-ku-lun-yi-deng-gang-na-rui-de-mi-huang-se-80445781/"
+    },
+    {
+     "title": "KOLON 卡伦",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kolon-qia-lun-di-ban-bao-hu-dian__0292207_pe425129_s4.jpg",
+     "href": "/cn/zh/p/kolon-qia-lun-di-ban-bao-hu-dian-90176245/"
+    }
+   ],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>声明</h2>\n<p>此解决方案包含一系列家用和非家用产品。请确认所购产品可在你的空间内发挥预期用途，并符合有关标准。如需了解该系列的更多信息，请联系宜家对公业务部。</p>"
+    "声明 此解决方案包含一系列家用和非家用产品。请确认所购产品可在你的空间内发挥预期用途，并符合有关标准。如需了解该系列的更多信息，请联系宜家对公业务部。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

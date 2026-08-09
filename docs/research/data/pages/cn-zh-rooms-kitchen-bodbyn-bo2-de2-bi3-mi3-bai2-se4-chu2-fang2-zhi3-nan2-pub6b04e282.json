@@ -11,7 +11,7 @@
    "title": "BODBYN 伯德比 米白色厨房指南",
    "texts": [
     "一间厨房，配米白色柜门和抽屉前板，一个黑色矿石纹工作台和一个不锈钢煤气灶。",
-    "<p>想要一个永不过时的传统厨房？BODBYN 伯德比 米白色柜门带框架和边缘斜切镶板，充满手工艺感。在设计传统风格的厨房时，建议选择一种主要色调，保持谐美的外观。这款柜门为米白色，可为厨房增添温馨的氛围。</p>",
+    "想要一个永不过时的传统厨房？BODBYN 伯德比 米白色柜门带框架和边缘斜切镶板，充满手工艺感。在设计传统风格的厨房时，建议选择一种主要色调，保持谐美的外观。这款柜门为米白色，可为厨房增添温馨的氛围。",
     "BODBYN 伯德比 米白色厨房指南",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "BODBYN 伯德比 米白色厨房指南",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/39/d6/39d69e75a29bb9816c6ab3cb902054ed.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -50,6 +60,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "两个配米白色柜门的柜子，其中一扇门打开，可以看到里面的搁架。下面是米白色的柜子和抽屉前板。",
+     "image": "https://file.app.ikea.cn/images/7e/f5/7ef5af2121fbc3e335b6b0143e441937.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -76,6 +96,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "米白色柜子的底角，柜子配有米白色的装饰条。",
+     "image": "https://file.app.ikea.cn/images/36/6a/366a53685c8a5fcba25d194cb13ebee0.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -102,6 +132,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一间厨房里，两个窗户之间有一个狭窄的白色玻璃门柜。",
+     "image": "https://file.app.ikea.cn/images/b3/7c/b37c6150d5eedee747d70074cf81c518.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -147,6 +187,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "购买宜家厨房的5个步骤",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/31/25/3125f86f48cf469079c71ff3c1e4b4a7.jpg",
+     "href": null,
+     "backgroundColor": "#d5dcd4"
+    },
+    {
+     "title": "宜家厨房设计工具——在家即可轻松设计你的厨房",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/42/90/42909d2ee6bc60a85b45906cfa0ff9a7.jpg",
+     "href": "/cn/zh/h5page/?url=%23",
+     "backgroundColor": "#ecd7a2"
+    },
+    {
+     "title": "预约宜家厨房专家服务",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/7b/32/7b32031403ca8a72b6528dfec1cb0597.jpg",
+     "href": "/cn/zh/h5page/?url=%23",
+     "backgroundColor": "#e9c3b0"
+    },
+    {
+     "title": "宜家厨房服务",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/76/9a/769af772d23e404b7198cfbf9b542f22.jpg",
+     "href": "/cn/zh/h5page/?url=%23",
+     "backgroundColor": "#99abc1"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -162,6 +233,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

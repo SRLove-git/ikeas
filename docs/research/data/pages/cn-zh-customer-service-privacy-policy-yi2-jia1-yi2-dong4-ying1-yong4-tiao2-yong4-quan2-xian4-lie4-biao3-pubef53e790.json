@@ -10,10 +10,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3 style=\"text-align: center;\">宜家移动应用调用权限列表</h3>\n<p>&nbsp; &nbsp; &nbsp; &nbsp; 为保障宜家移动应用（&ldquo;IKEA宜家家居&rdquo;App）稳定运行并实现相关基础或附加产品功能，我们或我们接入的第三方软件开发工具包可能需要调用您的设备权限。详细权限和使用目的如下：</p>\n<p>1. &nbsp; &nbsp; android. permission. INTERNET（访问网络权限）：实现应用程序联网</p>\n<p>2. &nbsp; &nbsp;android. permission. ACCESS_NETWORK_STATE（获取网络状态权限）：监控网络变化，提示用户当前网络环境</p>\n<p>3. &nbsp; &nbsp;android. permission. ACCESS_WIFI_STATE（获取WiFi状态权限）：监控网络变化，提示用户当前网络环境</p>\n<p>4. &nbsp; &nbsp;android. permission. WAKE_LOCK（唤醒锁定权限）：保持屏幕唤醒</p>\n<p>5. &nbsp; &nbsp;android. permission. VIBRATE（使用振动权限）：实现手机振动</p>\n<p>6. &nbsp; &nbsp;andro"
+    "宜家移动应用调用权限列表 为保障宜家移动应用（“IKEA宜家家居”App）稳定运行并实现相关基础或附加产品功能，我们或我们接入的第三方软件开发工具包可能需要调用您的设备权限。详细权限和使用目的如下： 1. android. permission. INTERNET（访问网络权限）：实现应用程序联网 2. android. permission. ACCESS_NETWORK_STATE（获取网络状态权限）：监控网络变化，提示用户当前网络环境 3. android. permission. ACCESS_WIFI_STATE（获取WiFi状态权限）：监控网络变化，提示用户当前网络环境 4. android. permission. WAKE_LOCK（唤醒锁定权限）：保持屏幕唤醒 5. android. permission. VIBRATE（使用振动权限）：实现手机振动 6. android. permission. ACCESS_COARSE_LOCATION（获取位置权限）：访问粗略的地理位置 7. android.permission. ACCESS_FINE_LOCATION（获取位置权限）：访问精确的地理位置 8. android.permission. WRITE_EXTERNAL_STORAGE（写入外置存储）：在设备存储空间内写入图片、文件、崩溃日志等必要信息 9."
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "e0b84d8a1a004ad3a2c8448ac7d94d10"
    }

@@ -11,7 +11,7 @@
    "title": "用充满夏日气息的纺织品装饰房间",
    "texts": [
     "卧室内配有青绿色调的 GRACIÖS 格拉希思 纺织品系列，包括被套、饰有图案的地毯和圆形天鹅绒靠垫。",
-    "<p>全新 GRACIÖS 格拉希思 青少年纺织品系列令人眼前一亮。该系列充满了夏日气息，摇曳的棕榈树与打印照片和几何图案混搭，呈现出独特的格调。</p>",
+    "全新 GRACIÖS 格拉希思 青少年纺织品系列令人眼前一亮。该系列充满了夏日气息，摇曳的棕榈树与打印照片和几何图案混搭，呈现出独特的格调。",
     "用充满夏日气息的纺织品装饰房间",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "用充满夏日气息的纺织品装饰房间",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/2e/a6/2ea668f80ef4e11b8dd02b70bf0d1a99.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -46,6 +56,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "明亮的青少年卧室中选用了充满活力的 GRACIÖS 格拉希思 系列，包括被套、靠垫和地毯产品。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/81/01/81016fe6c7650b4743ba5a9ba58a58fe.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/81/01/81016fe6c7650b4743ba5a9ba58a58fe.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "GRACIÖS 格拉希思 系列包括被套、地毯、垫套和靠垫产品。被套采用棉或棉/莱赛尔混合材料制成，宜家产品所使用的棉花全部来自更可持续的来源。",
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -73,6 +107,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "GRACIÖS 格拉希思 系列中的青绿色和粉色垫套、靠垫和枕头置于床上。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/4b/ca/4bca6c8a6eed3da5a261fa1976bf9cae.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "蓝色背景下，饰有粉色和绿色大圆形图案的 GRACIÖS 格拉希思 地毯上放有一本书和一个靠垫。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/af/02/af028dbaea05ab08bd02391346231da9.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "用 GRACIÖS 格拉希思 靠垫搭配粉色 GRACIÖS 格拉希思 垫套，打造一方柔软温馨的天地，枕在头下放松休息。",
+     "image": "https://file.app.ikea.cn/images/4b/ca/4bca6c8a6eed3da5a261fa1976bf9cae.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "GRACIÖS 格拉希思 地毯饰有美丽的圆形图案和令人赏心悦目的颜色，可为你的双脚带来柔软的行走体验。",
+     "image": "https://file.app.ikea.cn/images/af/02/af028dbaea05ab08bd02391346231da9.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -88,6 +153,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

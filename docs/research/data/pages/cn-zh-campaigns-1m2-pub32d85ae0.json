@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Page Title-"
    }
@@ -23,7 +25,7 @@
    "title": null,
    "texts": [
     "https://v.youku.com/v_show/id_XNTEzOTMwOTI4OA==.html",
-    "<p>▲ 点击观看视频，感受小改动的大变化！</p>",
+    "▲ 点击观看视频，感受小改动的大变化！",
     "MANUAL_INPUT"
    ],
    "images": [],
@@ -33,6 +35,8 @@
      "text": "\n<p>▲ 点击观看视频，感受小改动的大变化！</p>\n"
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Video (link)-"
    }
@@ -41,10 +45,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>&ldquo;一平方&rdquo;解构展</h2>"
+    "“一平方”解构展"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -56,7 +62,7 @@
     "image-text-landscape",
     "“一平方”解构展，等你探索！",
     "IMAGE",
-    "<p>家的每个一平方都有改造大潜力，想要获得更多一平方的改造灵感吗？<br />一起在4月23日至5月9日，前往上海徐汇绿地缤纷城，在&ldquo;我的一平方&rdquo;解构展亲自体验一平方的改造惊喜吧！</p>\n<p>如果不能来到现场，也可以在线上探索精彩内容：</p>",
+    "家的每个一平方都有改造大潜力，想要获得更多一平方的改造灵感吗？ 一起在4月23日至5月9日，前往上海徐汇绿地缤纷城，在“我的一平方”解构展亲自体验一平方的改造惊喜吧！ 如果不能来到现场，也可以在线上探索精彩内容：",
     "NO",
     "#FFFFFF"
    ],
@@ -73,6 +79,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "“一平方”解构展，等你探索！",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/9e/4b/9e4b9a97914011582b728863bb5bafee.jpg",
+     "href": null,
+     "backgroundColor": "#FFE600"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Banner-"
    }
@@ -81,7 +97,7 @@
    "type": "pub-curated-gallery",
    "title": "活力新家的改造小魔法",
    "texts": [
-    "关于家的改变？谁说非要大而全！\n这次，我们一起忘记规则和结构，将家解构成一个个小方块。以每个平方的小小改变为起点，焕新我们的活力新家。",
+    "关于家的改变？谁说非要大而全！ 这次，我们一起忘记规则和结构，将家解构成一个个小方块。以每个平方的小小改变为起点，焕新我们的活力新家。",
     "活力新家的改造小魔法",
     "/h5page/?url=%23362bb630-98e1-11eb-acbb-07d745c47309",
     "NO",
@@ -121,6 +137,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/13/9a/139a4f7d0adcfc027c7f7c622a92a2a6.gif",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "收纳一平方，杂乱皆有所属",
+     "image": "https://file.app.ikea.cn/images/8c/58/8c58e238f865caf3183add6735c45e76.gif",
+     "href": "/cn/zh/h5page/?url=%23362bb630-98e1-11eb-acbb-07d745c47309",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "热爱一平方，乐趣放肆施展",
+     "image": "https://file.app.ikea.cn/images/96/50/9650e25bf172bea88237cd9814eef331.gif",
+     "href": "/cn/zh/h5page/?url=%2376976930-98e1-11eb-acbb-07d745c47309",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "专注一平方，办公学习皆高效",
+     "image": "https://file.app.ikea.cn/images/88/10/8810f823aba6b73c36cdaea6d1d25502.gif",
+     "href": "/cn/zh/h5page/?url=%237edb58e0-98e1-11eb-acbb-07d745c47309",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "焕活一平方，为家增添活力",
+     "image": "https://file.app.ikea.cn/images/b7/cb/b7cb14f6a15020b97515181c89bb2890.gif",
+     "href": "/cn/zh/h5page/?url=%2380675010-98e1-11eb-acbb-07d745c47309",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Curated Gallery-活力新家的改造小魔法"
    }
@@ -138,6 +192,32 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "JONAXEL 尤纳赛尔",
+     "text": "¥279",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/jonaxel-you-na-sai-er-ge-jia-dan-yuan-bai-se__0678052_pe719167_s4.jpg",
+     "href": "/cn/zh/p/jonaxel-you-na-sai-er-ge-jia-dan-yuan-bai-se-70431317/"
+    },
+    {
+     "title": "EKBY ALEX 埃克比 阿来斯 / RAMSHULT 拉姆舒特",
+     "text": "¥374",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/ekby-alex-ai-ke-bi-a-lai-si-ramshult-la-mu-shu-te-qiang-ge-ban-bai-se__0671596_pe716307_s4.jpg",
+     "href": "/cn/zh/p/ekby-alex-ai-ke-bi-a-lai-si-ramshult-la-mu-shu-te-qiang-ge-ban-bai-se-19290957/"
+    },
+    {
+     "title": "SKÅDIS 斯考迪斯",
+     "text": "¥124.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/skadis-si-kao-di-si-dong-dong-ban-zu-he-bai-se__0719665_pe732128_s4.jpg",
+     "href": "/cn/zh/p/skadis-si-kao-di-si-dong-dong-ban-zu-he-bai-se-09303899/"
+    },
+    {
+     "title": "JONAXEL 尤纳赛尔",
+     "text": "¥179",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/jonaxel-you-na-sai-er-ge-jia-dan-yuan-bai-se__0678063_pe719175_s4.jpg",
+     "href": "/cn/zh/p/jonaxel-you-na-sai-er-ge-jia-dan-yuan-bai-se-60431313/"
+    }
+   ],
    "settings": {
     "traceId": "cms-Product Shelf-适合小空间的好物推荐"
    }
@@ -146,10 +226,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><em><strong>收纳1m</strong></em><sup><em><strong>2</strong></em>&nbsp;</sup>| <a href=\"#76976930-98e1-11eb-acbb-07d745c47309\">热爱1m</a><sup><a href=\"#76976930-98e1-11eb-acbb-07d745c47309\">2</a>&nbsp;</sup>| <a href=\"#7edb58e0-98e1-11eb-acbb-07d745c47309\">专注1m</a><sup><a href=\"#7edb58e0-98e1-11eb-acbb-07d745c47309\">2</a>&nbsp;</sup>| <a href=\"#80675010-98e1-11eb-acbb-07d745c47309\">焕活1m<sup>2</sup></a></p>"
+    "收纳1m2 | 热爱1m2 | 专注1m2 | 焕活1m2"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -162,7 +244,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<p>只要让混乱变有序，有时无需断舍离也能解放更多家居空间！只需一点点巧思......<br />比如，让收纳并不仅仅是收纳：</p>",
+    "只要让混乱变有序，有时无需断舍离也能解放更多家居空间！只需一点点巧思...... 比如，让收纳并不仅仅是收纳：",
     "pub-text"
    ],
    "images": [
@@ -174,6 +256,24 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/42/ff/42ff167b5196a95e490d71dcbc513d27.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "只要让混乱变有序，有时无需断舍离也能解放更多家居空间！只需一点点巧思...... 比如，让收纳并不仅仅是收纳：",
+     "image": "https://file.app.ikea.cn/images/42/ff/42ff167b5196a95e490d71dcbc513d27.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Columns-"
    }
@@ -202,6 +302,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/6a04d7a1c1194453/original/PH170919-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Curated Gallery-收纳，也隔断"
    }
@@ -214,7 +324,7 @@
     "NO",
     "ikea://content/plp?catalogId=st002",
     "{\"objectId_var\":\"st002\",\"objectType_var\":\"plp\"}",
-    "享受被喜爱之物包围的感觉，又怕房间太乱？你可以选择封闭和开放式收纳相结合的储物家具，比如我们经典百变的 BILLY 毕利 书柜和后起之秀  HAUGA 豪嘉 系列，多种尺寸和外观选择，适用于家中各个角落。",
+    "享受被喜爱之物包围的感觉，又怕房间太乱？你可以选择封闭和开放式收纳相结合的储物家具，比如我们经典百变的 BILLY 毕利 书柜和后起之秀 HAUGA 豪嘉 系列，多种尺寸和外观选择，适用于家中各个角落。",
     "收纳，并展示"
    ],
    "images": [
@@ -235,6 +345,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/44d85f6cba51c705/original/PH162790-crop003.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/5f5e1d8a669c9cde/original/PH172952-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Curated Gallery-收纳，并展示"
    }
@@ -282,6 +409,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "HAUGA 豪嘉──风格百搭，随生活而变",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/06/3b/063bea61d9d5ed49dd538e27b4965ff2.jpg",
+     "href": "/cn/zh/cat/48956",
+     "backgroundColor": "#d3a99b"
+    },
+    {
+     "title": "HAVSTA 海思塔──实木材质，手工质感的北欧传统风格储物家具",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/f1/10/f110e325a285ceacb3df8158c78213f9.jpg",
+     "href": "/cn/zh/cat/41942",
+     "backgroundColor": "#857040"
+    },
+    {
+     "title": "JONAXEL 尤纳赛尔──灵活实用，一目了然的超值储物系列",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/2f/ed/2fedbf134e4bed15071c0e3c03d470d5.jpg",
+     "href": "/cn/zh/product-guides/selected-item-pub5b69fcca",
+     "backgroundColor": "#666c44"
+    },
+    {
+     "title": "BOAXEL 博阿克塞──墙面轻松变衣柜",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/6e/c1/6ec19a859bcb2570d46e210d772869dc.jpg",
+     "href": "/cn/zh/rooms/outdoor/gallery/ru2-he2-ding4-zhi4-xi3-yi1-fang2-kong1-jian1-jie3-jue2-fang1-an4-pub1bd363a0",
+     "backgroundColor": "#c5846a"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Inspiration Cards-"
    }
@@ -304,6 +462,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Link - button or text-"
    }
@@ -312,10 +472,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>不走寻常路, 开发收纳新角度</strong></h2>\n<p>谁说一平方收纳必须以地为界，房顶，墙面统统都可以：</p>"
+    "不走寻常路, 开发收纳新角度 谁说一平方收纳必须以地为界，房顶，墙面统统都可以："
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -361,6 +523,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/69/da/69daa45b4b3b771dc6c75f09a36433cc.jpg",
+     "href": "/cn/zh/p/10179436?artType=ART",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/39/68/39686e141434cc383f1b945ff18d1952.jpg",
+     "href": "/cn/zh/p/40251666?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "▴天花板也能收纳？！ 衣架可以挂衣服也能成为房顶的储物抽屉",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/69/da/69daa45b4b3b771dc6c75f09a36433cc.jpg",
+     "href": "/cn/zh/cat/10398"
+    },
+    {
+     "heading": "▴门背后的空间 浴巾没处挂？外套丢在椅子上？何不好好利用门背后的一平方，将这些物品挂起来。无须钻孔的设计，让安装更方便！",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/39/68/39686e141434cc383f1b945ff18d1952.jpg",
+     "href": "/cn/zh/search/products?q=房门挂钩"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Columns-"
    }
@@ -406,6 +599,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/84/ef/84efccf57c2897696619b2ab392506ce.jpg",
+     "href": "/cn/zh/ideas/guagan-pub41cc0121",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/8f/42/8f42ed6f016924ee0756e02d94082312.jpg",
+     "href": "/cn/zh/p/00409503?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "▴墙面收纳 好物上墙，展示出来让收纳空间也变身家居展示台",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/84/ef/84efccf57c2897696619b2ab392506ce.jpg",
+     "href": "/cn/zh/cat/st006"
+    },
+    {
+     "heading": "▴用靠垫收纳过季纺织品？ 随着季节变化，有些纺织品在一年的部分时间都用不到。不妨用它们填充垫套，这样你就可以把它们放在眼前的地方，等待下一次使用。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/8f/42/8f42ed6f016924ee0756e02d94082312.jpg",
+     "href": "/cn/zh/cat/10452"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Columns-"
    }
@@ -428,6 +652,33 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "巧用好物，打造梦想收纳角落",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/st001",
+     "backgroundColor": null
+    },
+    {
+     "title": "MULIG 穆利格",
+     "text": "¥69.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mulig-mu-li-ge-shai-yi-jia-bai-se__0710723_pe727744_s4.jpg",
+     "href": "/cn/zh/p/mulig-mu-li-ge-shai-yi-jia-bai-se-80179433/"
+    },
+    {
+     "title": "PÄRKLA 派克拉",
+     "text": "¥9.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/paerkla-pai-ke-la-chu-wu-dai__0716331_pe730816_s4.jpg",
+     "href": "/cn/zh/p/paerkla-pai-ke-la-chu-wu-dai-10395384/"
+    },
+    {
+     "title": "MULIG 穆利格",
+     "text": "¥29.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/mulig-mu-li-ge-gua-yi-gan-bai-se__0710698_pe727732_s4.jpg",
+     "href": "/cn/zh/p/mulig-mu-li-ge-gua-yi-gan-bai-se-10179436/"
+    }
+   ],
    "settings": {
     "traceId": "cms-Product Shelf-巧用好物，打造梦想收纳角落"
    }
@@ -440,6 +691,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Horizontal Line-"
    }
@@ -448,10 +701,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><a href=\"#362bb630-98e1-11eb-acbb-07d745c47309\">收纳1m</a><sup><a href=\"#362bb630-98e1-11eb-acbb-07d745c47309\">2</a>&nbsp;</sup>| <em><strong>热爱1m</strong></em><sup><em><strong>2</strong></em>&nbsp;</sup>| <a href=\"#7edb58e0-98e1-11eb-acbb-07d745c47309\">专注1m</a><sup><a href=\"#7edb58e0-98e1-11eb-acbb-07d745c47309\">2</a>&nbsp;</sup>| <a href=\"#80675010-98e1-11eb-acbb-07d745c47309\">焕活1m<sup>2</sup></a></p>"
+    "收纳1m2 | 热爱1m2 | 专注1m2 | 焕活1m2"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -464,7 +719,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<p>一个人的家往往透露着其独特的个性。每个一平方里的积累呈现出完整的你。<br />从精心布置一平方开始，为空间赋予个性，让热爱有处施展，做最真实的自己!</p>",
+    "一个人的家往往透露着其独特的个性。每个一平方里的积累呈现出完整的你。 从精心布置一平方开始，为空间赋予个性，让热爱有处施展，做最真实的自己!",
     "pub-text"
    ],
    "images": [
@@ -476,6 +731,24 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/1d/fd/1dfd6854e6a091aeb89eff617fce64a3.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "一个人的家往往透露着其独特的个性。每个一平方里的积累呈现出完整的你。 从精心布置一平方开始，为空间赋予个性，让热爱有处施展，做最真实的自己!",
+     "image": "https://file.app.ikea.cn/images/1d/fd/1dfd6854e6a091aeb89eff617fce64a3.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Columns-"
    }
@@ -524,6 +797,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/a104f61c97a502e/original/PH167707-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "更多办公桌配件",
+     "image": "https://file.app.ikea.cn/images/90/ec/90ec72023919024db45024e33dc6a0ff.jpg",
+     "href": "/cn/zh/cat/10573",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/15dc9db22a10d05/original/PH167706-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/443474ee19bd0f99/original/PH167713-crop002.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "更多窗帘和卷帘",
+     "image": "https://file.app.ikea.cn/images/b5/8c/b58c9b8f7c2d26ba6fec5ec1cf5aa023.jpg",
+     "href": "/cn/zh/cat/tl002",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Curated Gallery-灵活有趣的一平方,让热爱大显身手"
    }
@@ -533,7 +844,7 @@
    "title": null,
    "texts": [
     "pub-column",
-    "<h3>好桌子能屈能伸</h3>\n<p>折叠式餐桌诞生已有几个世纪，因其节省空间的设计而久盛不衰。我们赋予了 <strong>NORDEN 诺顿</strong> 折叠餐桌简洁的外观，并增添了多个摆放刀叉与餐巾等杂物的抽屉。灵活的使用方式和强大的储物功能，让小空间拥有更多可能！</p>\n<p><strong><a href=\"https://www.ikea.cn/cn/zh/cat/norden-nuo-dun-xi-lie-12389/\">+ 点击查看更多系列产品</a></strong></p>",
+    "好桌子能屈能伸 折叠式餐桌诞生已有几个世纪，因其节省空间的设计而久盛不衰。我们赋予了 NORDEN 诺顿 折叠餐桌简洁的外观，并增添了多个摆放刀叉与餐巾等杂物的抽屉。灵活的使用方式和强大的储物功能，让小空间拥有更多可能！ + 点击查看更多系列产品",
     "pub-text",
     "/cat/12389",
     "NO",
@@ -552,6 +863,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/82/41/8241ad8f877c2a0a3128b4ce90e29880.gif",
+     "href": "/cn/zh/cat/12389",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "好桌子能屈能伸 折叠式餐桌诞生已有几个世纪，因其节省空间的设计而久盛不衰。我们赋予了 NORDEN 诺顿 折叠餐桌简洁的外观，并增添了多个摆放刀叉与餐巾等杂物的抽屉。灵活的使用方式和强大的储物功能，让小空间拥有更多可能！ + 点击查看更多系列产品",
+     "text": null,
+     "image": null,
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/82/41/8241ad8f877c2a0a3128b4ce90e29880.gif",
+     "href": "/cn/zh/cat/12389"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Columns-"
    }
@@ -585,6 +920,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/25d870ff0cedcb10/original/PH176786-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/726a54c2ed113279/original/PH176284-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Curated Gallery-展示柜，让热爱有序收纳"
    }
@@ -613,6 +965,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/1abe741b4b70caf7/original/PH148556-crop005.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Curated Gallery-爱好的问题，总能找到办法解决"
    }
@@ -630,6 +992,32 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "GREJIG 格雷伊格",
+     "text": "¥29.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/grejig-ge-lei-yi-ge-xie-jia-hui-se__0710739_pe727757_s4.jpg",
+     "href": "/cn/zh/p/grejig-ge-lei-yi-ge-xie-jia-hui-se-90329875/"
+    },
+    {
+     "title": "LENNART 列纳特",
+     "text": "¥79.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lennart-lie-na-te-chou-ti-gui-bai-se__0395412_pe564513_s4.jpg",
+     "href": "/cn/zh/p/lennart-lie-na-te-chou-ti-gui-bai-se-10326178/"
+    },
+    {
+     "title": "SKÅDIS 斯考迪斯",
+     "text": "¥224.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/skadis-si-kao-di-si-dong-dong-ban-zu-he-bai-se__0711783_pe728470_s4.jpg",
+     "href": "/cn/zh/p/skadis-si-kao-di-si-dong-dong-ban-zu-he-bai-se-39216594/"
+    },
+    {
+     "title": "HÅLLBAR 哈尔巴",
+     "text": "¥79.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/hallbar-ha-er-ba-fu-gai-la-ji-tong-dan-hui-se__0742729_pe742786_s4.jpg",
+     "href": "/cn/zh/p/hallbar-ha-er-ba-fu-gai-la-ji-tong-dan-hui-se-30420207/"
+    }
+   ],
    "settings": {
     "traceId": "cms-Product Shelf-巧用好物，让热爱有序存放"
    }
@@ -676,6 +1064,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "让我们的洞洞板创意激发你的灵感",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/8e/49/8e49d8739409d63e42cf3cb431be19d2.jpg",
+     "href": "/cn/zh/ideas/yushi-pub1a7b3cd0",
+     "backgroundColor": "#3f4342"
+    },
+    {
+     "title": "用 BILLY 毕利 安放你的爱好",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/47/a2/47a228d66885f7693fac36ee47897479.jpg",
+     "href": "/cn/zh/product-guides/bi4-li4-quan2-neng2-chu3-wu4-fang1-an4-pubf22a8f8d",
+     "backgroundColor": "#67432b"
+    },
+    {
+     "title": "无论户外空间多小，都能乐享其中",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/f3/a7/f3a70d723584a3934f87db0bc74eba01.jpg",
+     "href": "/cn/zh/ideas/ru2-he2-bu4-zhi4-jin3-cou4-de-hu4-wai4-kong1-jian1-pubb2ea4fa0",
+     "backgroundColor": "#242b48"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Inspiration Cards-"
    }
@@ -687,7 +1099,7 @@
     "image-text-landscape",
     "来自宜家员工的家居小妙招",
     "IMAGE",
-    "<p>我们邀请宜家员工分享他们的独门家居小妙招，并且收到了来自世界各地的踊跃反馈。欢迎参观Magdalena、Filippo、Mayu和其他同事的家，了解他们别出心裁、经济实惠的家居装饰方案。准备好开启灵感启迪之旅吧！</p>",
+    "我们邀请宜家员工分享他们的独门家居小妙招，并且收到了来自世界各地的踊跃反馈。欢迎参观Magdalena、Filippo、Mayu和其他同事的家，了解他们别出心裁、经济实惠的家居装饰方案。准备好开启灵感启迪之旅吧！",
     "/ideas/welcome-to-my-place/filip-de-yin3-bi4-shi4-jian4-shen1-fang2-he2-qi2-ta1-yuan2-gong1-chuang4-yi4-pubd94aacb0",
     "NO"
    ],
@@ -708,6 +1120,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "来自宜家员工的家居小妙招",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/65/6a/656a04e396650bbce8742bd3e49d864b.jpg",
+     "href": null,
+     "backgroundColor": "#f8d19b"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Banner-"
    }
@@ -720,6 +1142,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Horizontal Line-"
    }
@@ -728,10 +1152,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><a href=\"#362bb630-98e1-11eb-acbb-07d745c47309\">收纳1m</a><sup><a href=\"#362bb630-98e1-11eb-acbb-07d745c47309\">2</a>&nbsp;</sup>| <a href=\"#76976930-98e1-11eb-acbb-07d745c47309\">热爱1m</a><sup><a href=\"#76976930-98e1-11eb-acbb-07d745c47309\">2</a>&nbsp;</sup>| <em><strong>专注1m<sup>2&nbsp;</sup></strong></em>| <a href=\"#80675010-98e1-11eb-acbb-07d745c47309\">焕活1m<sup>2</sup></a></p>"
+    "收纳1m2 | 热爱1m2 | 专注1m2 | 焕活1m2"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -744,7 +1170,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<p>在家中开辟一个属于自己的小天地。无论是学习、办公还是游戏都能轻松自在，拥有不被打扰的专注，迸发的灵感和创造力。</p>",
+    "在家中开辟一个属于自己的小天地。无论是学习、办公还是游戏都能轻松自在，拥有不被打扰的专注，迸发的灵感和创造力。",
     "pub-text"
    ],
    "images": [
@@ -756,6 +1182,24 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/1b/9c/1b9ccb2d930524354eb3e80de40af501.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "在家中开辟一个属于自己的小天地。无论是学习、办公还是游戏都能轻松自在，拥有不被打扰的专注，迸发的灵感和创造力。",
+     "image": "https://file.app.ikea.cn/images/1b/9c/1b9ccb2d930524354eb3e80de40af501.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Columns-"
    }
@@ -785,6 +1229,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/6e12842a210d65aa/original/PH172749-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/1a88e18b218faf34/original/PH172750-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Curated Gallery-想要办公效率高, 这个角落要置办好"
    }
@@ -797,7 +1258,7 @@
     "NO",
     "ikea://content/plp?catalogId=10711",
     "{\"objectId_var\":\"10711\",\"objectType_var\":\"plp\"}",
-    "只有一平方的办公区不够用，杂物太多怎么办？\n可以自己行走的收纳柜就是不错的选择！",
+    "只有一平方的办公区不够用，杂物太多怎么办？ 可以自己行走的收纳柜就是不错的选择！",
     "收纳灵活，按需放置"
    ],
    "images": [
@@ -813,6 +1274,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/651c1e63b989cb6/original/PH172752-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Curated Gallery-收纳灵活，按需放置"
    }
@@ -841,6 +1312,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/7d86703fdd59354b/original/PH172754-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Curated Gallery-成果展示，督促进步"
    }
@@ -863,6 +1344,21 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "巧用好物，让专注持续在线",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/rooms/home-office/",
+     "backgroundColor": null
+    },
+    {
+     "title": "MICKE 米克",
+     "text": "¥699",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/micke-mi-ke-shu-zhuo-bai-se-mei-hei-se__0921886_pe787989_s4.jpg",
+     "href": "/cn/zh/p/micke-mi-ke-shu-zhuo-bai-se-mei-hei-se-90489840/"
+    }
+   ],
    "settings": {
     "traceId": "cms-Product Shelf-巧用好物，让专注持续在线"
    }
@@ -871,10 +1367,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>一场疫情让大家了解了WFH (work from home)的快乐，所以在家办公的正确姿势应该是怎样？</p>"
+    "一场疫情让大家了解了WFH (work from home)的快乐，所以在家办公的正确姿势应该是怎样？"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -903,6 +1401,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/4e8b36ce7176e927/original/PH177179-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Curated Gallery-“瘫”着办公也不错"
    }
@@ -944,6 +1452,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/36/25/362559313f3244da7f6de77e05e478f7.jpg",
+     "href": "/cn/zh/search/products?q=KLIPSK",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/66/38/663837978611d084cfcb9025d42f3d00.jpg",
+     "href": "/cn/zh/p/90443140?artType=ART",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Curated Gallery-灵活办公，灵活收纳"
    }
@@ -985,6 +1510,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/59defeed4fae3295/original/PH173302-crop002.jpg",
+     "href": "/cn/zh/p/20192828?artType=ART",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/2030cc5fc29638fe/original/PH173304-crop001.jpg",
+     "href": "/cn/zh/ideas/zai4-jia1-ban4-gong1-de-hao3-bang1-shou3-pubf410b3e0",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Curated Gallery-简单高效的居家办公方案"
    }
@@ -1007,6 +1549,21 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "让居家办公更加舒适",
+     "text": "",
+     "image": null,
+     "href": "/cn/zh/cat/tl001",
+     "backgroundColor": null
+    },
+    {
+     "title": "DAGOTTO 达格托",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/dagotto-da-ge-tuo-jiao-ta-hei-se__0156454_pe315498_s4.jpg",
+     "href": "/cn/zh/p/dagotto-da-ge-tuo-jiao-ta-hei-se-20240990/"
+    }
+   ],
    "settings": {
     "traceId": "cms-Product Shelf-让居家办公更加舒适"
    }
@@ -1019,6 +1576,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Horizontal Line-"
    }
@@ -1027,10 +1586,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><a href=\"#362bb630-98e1-11eb-acbb-07d745c47309\">收纳1m</a><sup><a href=\"#362bb630-98e1-11eb-acbb-07d745c47309\">2</a>&nbsp;</sup>| <a href=\"#76976930-98e1-11eb-acbb-07d745c47309\">热爱1m</a><sup><a href=\"#76976930-98e1-11eb-acbb-07d745c47309\">2</a>&nbsp;</sup>| <a href=\"#7edb58e0-98e1-11eb-acbb-07d745c47309\">专注1m</a><sup><a href=\"#7edb58e0-98e1-11eb-acbb-07d745c47309\">2</a>&nbsp;</sup>| <em><strong>焕活1m</strong></em><sup><em><strong>2</strong></em></sup></p>"
+    "收纳1m2 | 热爱1m2 | 专注1m2 | 焕活1m2"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -1043,7 +1604,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<p>想为家增添活力生机？何不巧妙利用零碎空间，以绿植填充家中留白，把家营造成鲜活的绿洲。</p>",
+    "想为家增添活力生机？何不巧妙利用零碎空间，以绿植填充家中留白，把家营造成鲜活的绿洲。",
     "pub-text"
    ],
    "images": [
@@ -1055,6 +1616,24 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/cd/4c/cd4c85bddd4c296e5db65f7dfa6b16dd.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "想为家增添活力生机？何不巧妙利用零碎空间，以绿植填充家中留白，把家营造成鲜活的绿洲。",
+     "image": "https://file.app.ikea.cn/images/cd/4c/cd4c85bddd4c296e5db65f7dfa6b16dd.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Columns-"
    }
@@ -1088,6 +1667,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/b94ac459e58240c/original/PH175879.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/480527944aeb2dd4/original/PH175882-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Curated Gallery-一平方“绿色”，唤醒家的活力"
    }
@@ -1116,6 +1712,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/330e468fff05223e/original/PH159266-crop002.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Curated Gallery-躲进隐秘的绿色角落，焕活宁静空间"
    }
@@ -1144,6 +1750,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/45b14db0c13f08a0/original/PH170946-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Curated Gallery-洁净空气带你梦入林间，焕活优质睡眠"
    }
@@ -1161,6 +1777,26 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "FÖRNUFTIG 费努福提",
+     "text": "¥499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/foernuftig-fei-nu-fu-ti-kong-qi-jing-hua-qi-bai-se__0832294_pe777645_s4.jpg",
+     "href": "/cn/zh/p/foernuftig-fei-nu-fu-ti-kong-qi-jing-hua-qi-bai-se-90461959/"
+    },
+    {
+     "title": "LUBBAN 鲁巴恩",
+     "text": "¥499",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/lubban-lu-ba-en-tai-zhuo-dai-chu-wu-teng-tiao-mei-hei-se__0713688_pe729711_s4.jpg",
+     "href": "/cn/zh/p/lubban-lu-ba-en-tai-zhuo-dai-chu-wu-teng-tiao-mei-hei-se-40441474/"
+    },
+    {
+     "title": "VANILJSTÅNG 瓦尼斯通",
+     "text": "¥449",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vaniljstang-wa-ni-si-tong-zhi-wu-jia-song-mu-hei-se__0958912_pe809507_s4.jpg",
+     "href": "/cn/zh/p/vaniljstang-wa-ni-si-tong-zhi-wu-jia-song-mu-hei-se-60426340/"
+    }
+   ],
    "settings": {
     "traceId": "cms-Product Shelf-在家享受自然的气息"
    }
@@ -1173,6 +1809,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Horizontal Line-"
    }
@@ -1181,10 +1819,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>&ldquo;一平方&rdquo;改造案例</h2>"
+    "“一平方”改造案例"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -1196,7 +1836,7 @@
     "image-text-landscape",
     "一平方改造计划",
     "IMAGE",
-    "<p>我们找到了几位热爱家居生活的年轻人，和我们的设计师一起，从小处着手进行了一系列家居改造。 &nbsp;</p>\n<p>看看对生活热情满满的他们，如何用小改动创造新生活！</p>",
+    "我们找到了几位热爱家居生活的年轻人，和我们的设计师一起，从小处着手进行了一系列家居改造。 看看对生活热情满满的他们，如何用小改动创造新生活！",
     "“一平方”改造计划",
     "/campaigns/1m2-real-life-pub9ee3ff60"
    ],
@@ -1217,6 +1857,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "一平方改造计划",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/7e/00/7e00fa29206aebde792cc06f980130b9.jpg",
+     "href": null,
+     "backgroundColor": "#FEE600"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Banner-"
    }
@@ -1225,10 +1875,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>更多惊喜，敬请期待</h2>\n<p>家的每个一平方都有改造大潜力，想要获得更多一平方的改造灵感吗？</p>\n<p>一起在<strong>2021.4.23至5.9</strong>前往上海徐汇绿地缤纷城，在&ldquo;我的一平方&rdquo;解构展亲自体验一平方的改造惊喜吧！</p>"
+    "更多惊喜，敬请期待 家的每个一平方都有改造大潜力，想要获得更多一平方的改造灵感吗？ 一起在2021.4.23至5.9前往上海徐汇绿地缤纷城，在“我的一平方”解构展亲自体验一平方的改造惊喜吧！"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -1241,6 +1893,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Horizontal Line-"
    }
@@ -1251,7 +1905,7 @@
    "texts": [
     "image-text-landscape",
     "IMAGE",
-    "<p>1943年，英格瓦&middot;坎普拉德先生在充满自然气息的瑞典小镇阿姆霍特创立宜家，以目录邮购的形式开展业务。如今，宜家已成为一个全球家居品牌，为世界各地的人们提供价格实惠、设计出色和使用舒适的产品。从瑞典小镇里的一家小型企业发展至今，我们走过了漫长的历程，但我们的愿景始终如一，即&ldquo;为大众创造更美好的日常生活&rdquo;。</p>\n<p>一起来探索宜家故事，了解更多宜家品牌传承、推动我们不断前进的动力以及我们如何致力为人类和地球产生积极影响。&nbsp;</p>",
+    "1943年，英格瓦·坎普拉德先生在充满自然气息的瑞典小镇阿姆霍特创立宜家，以目录邮购的形式开展业务。如今，宜家已成为一个全球家居品牌，为世界各地的人们提供价格实惠、设计出色和使用舒适的产品。从瑞典小镇里的一家小型企业发展至今，我们走过了漫长的历程，但我们的愿景始终如一，即“为大众创造更美好的日常生活”。 一起来探索宜家故事，了解更多宜家品牌传承、推动我们不断前进的动力以及我们如何致力为人类和地球产生积极影响。",
     "关于我们",
     "/this-is-ikea/about-us/",
     "NO"
@@ -1273,6 +1927,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b9/ed/b9ed48c4c7fee57b0b1a53e02e3489ec.jpg",
+     "href": null,
+     "backgroundColor": "#ffffff"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Banner-"
    }

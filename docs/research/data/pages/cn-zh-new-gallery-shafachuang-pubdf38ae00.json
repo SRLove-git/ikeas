@@ -11,7 +11,7 @@
    "title": "斯堪的纳维亚式简约风格",
    "texts": [
     "宜家 HAMMARN 哈马恩 沙发床拥有斯堪的纳维亚式的简约风格，采用时尚设计，既可当沙发又能当床用。",
-    "<p>HAMMARN 哈马恩 沙发床采用时尚设计，既可当沙发又能当床用。要想将沙发变成双人床，轻轻松松就能搞定。</p>",
+    "HAMMARN 哈马恩 沙发床采用时尚设计，既可当沙发又能当床用。要想将沙发变成双人床，轻轻松松就能搞定。",
     "斯堪的纳维亚式简约风格",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "斯堪的纳维亚式简约风格",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/7c/da/7cdaf963d4f259988efc1a6567fb1270.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -43,16 +53,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "将宜家 HAMMARN 哈马恩 沙发床变成舒适双人床，轻轻松就能搞定。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/9a/df/9adfbb2d1bd6f1ab9a03f7f6fbec8a05.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>HAMMARN 哈马恩 沙发床，真正的低价，绝对物超所值！</p>"
+    "HAMMARN 哈马恩 沙发床，真正的低价，绝对物超所值！"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -64,6 +86,14 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "HAMMARN 哈马恩",
+     "text": "¥799",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/hammarn-ha-ma-en-sha-fa-chuang-ji-ni-sa-shen-hui-se-hei-se__0519027_pe641353_s4.jpg",
+     "href": "/cn/zh/p/hammarn-ha-ma-en-sha-fa-chuang-ji-ni-sa-shen-hui-se-hei-se-80361494/"
+    }
+   ],
    "settings": null
   }
  ]

@@ -14,36 +14,44 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>门厅产品</h2>\n<p><a href=\"https://ikeaapp/plp?id=st005\">鞋柜和衣帽架</a> | <a href=\"https://ikeaapp/search?query=门厅衣柜\">门厅衣柜</a> | <a href=\"https://ikeaapp/plp?id=st004\">抽屉柜和抽屉框架</a> | <a href=\"https://ikeaapp/search?query=凳和长凳\">凳和长凳</a> | <a href=\"https://ikeaapp/plp?id=10550\">储物盒和储物篮</a> | <a href=\"https://ikeaapp/plp?id=46052\">储物系列</a> | <a href=\"https://ikeaapp/search?query=挂钩和衣架\">挂钩和衣架</a> |<a href=\"https://ikeaapp/search?query=墙储物\">墙储物</a> | <a href=\"https://ikeaapp/plp?id=10398\">连壁搁板</a> | <a href=\"https://ikeaapp/search?query=衣服储藏件\">衣服储藏件</a> | <a href=\"https://ikeaapp/plp?id=16213\">废纸篓和储物袋</"
+    "门厅产品 鞋柜和衣帽架 | 门厅衣柜 | 抽屉柜和抽屉框架 | 凳和长凳 | 储物盒和储物篮 | 储物系列 | 挂钩和衣架 |墙储物 | 连壁搁板 | 衣服储藏件 | 废纸篓和储物袋 | 包袋 | 门垫 | 镜子 | 装饰品"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>宜家为你提供众多门厅灵感</h2>"
+    "宜家为你提供众多门厅灵感"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>想要一个门厅，晚上迎接疲惫的你回到温暖的家中，早上又能方便你快速出门？宜家为你提供众多创意和门厅家具灵感。</p>"
+    "想要一个门厅，晚上迎接疲惫的你回到温暖的家中，早上又能方便你快速出门？宜家为你提供众多创意和门厅家具灵感。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -63,6 +71,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/fb/9d/fb9d9f0b083c8f8ad80601503bc58b25.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -81,16 +99,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b6/f7/b6f7cdf26f959cbe26da39f1931ace81.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>门厅建议</h2>"
+    "门厅建议"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -117,6 +147,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/cb/28/cb286f9dce43a7a081d1d3186ff3dfae.jpg",
+     "href": "/cn/zh/customer-service/mobile-apps/ru2-he2-da3-zao4-feng1-ge2-jian3-yue1-de-jia1-ting2-men2-ting1-pubc1b1d760",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -143,6 +183,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ee/76/ee7634371993aa5078912e3f078721d9.jpg",
+     "href": "/cn/zh/customer-service/mobile-apps/ru2-he2-she4-zhi4-yun4-dong4-zhuang1-bei4-fang1-bian4-qu3-fang4-pub8a815ba0",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -169,16 +219,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b3/12/b312364b1cd82e31f3ddf63a01931140.jpg",
+     "href": "/cn/zh/customer-service/mobile-apps/ru2-he2-da3-zao4-wei2-er2-tong2-tie1-xin1-she4-ji4-de-men2-ting1-pub9f1e9c30",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>门厅的收纳好帮手</h2>\n<p>从鞋柜到穿鞋凳，不必大肆破费就能在宜家买到所有需要的家具。</p>"
+    "门厅的收纳好帮手 从鞋柜到穿鞋凳，不必大肆破费就能在宜家买到所有需要的家具。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -194,26 +256,62 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "FJANTIG 弗炎提",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/fjantig-fu-yan-ti-gua-gou-hei-se__0710517_pe727612_s4.jpg",
+     "href": "/cn/zh/p/fjantig-fu-yan-ti-gua-gou-hei-se-70362267/"
+    },
+    {
+     "title": "TRONES 强尼思",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/trones-qiang-ni-si-xie-gui-chu-cang-hei-se__0710712_pe727733_s4.jpg",
+     "href": "/cn/zh/p/trones-qiang-ni-si-xie-gui-chu-cang-hei-se-30397315/"
+    },
+    {
+     "title": "NISSEDAL 尼瑟达",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/nissedal-ni-se-da-jing-zi-hei-se__0637803_pe698599_s4.jpg",
+     "href": "/cn/zh/p/nissedal-ni-se-da-jing-zi-hei-se-50320315/"
+    },
+    {
+     "title": "SKUBB 思库布",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/skubb-si-ku-bu-xie-he-shen-hui-se__0573441_pe667779_s4.jpg",
+     "href": "/cn/zh/p/skubb-si-ku-bu-xie-he-shen-hui-se-00472981/"
+    },
+    {
+     "title": "KNAPPER 卡纳佩",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/knapper-qia-na-pei-li-jing-bai-se__0594294_pe676198_s4.jpg",
+     "href": "/cn/zh/p/knapper-qia-na-pei-li-jing-bai-se-80396243/"
+    }
+   ],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>用鞋架鞋柜整洁收纳</h2>"
+    "用鞋架鞋柜整洁收纳"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>长凳既能让你坐下换鞋，又能提供储鞋空间，还有纤薄的鞋柜，也可以节省空间，我们有许多家具，能帮助你保持鞋履整洁，取鞋方便。</p>"
+    "长凳既能让你坐下换鞋，又能提供储鞋空间，还有纤薄的鞋柜，也可以节省空间，我们有许多家具，能帮助你保持鞋履整洁，取鞋方便。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -234,6 +332,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -253,6 +353,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a4/36/a436754a01ec9de25d81ac0de1dacf3b.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -272,16 +382,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b2/23/b223440d543e7f388c10155d80f45e40.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>打造真正适合你的储物空间</strong></h2>\n<p>JONAXEL 尤纳赛尔 能帮你打造出全新的收纳空间。可以自定义选择心仪尺寸的基本元素，添加抽屉、底板、杆架和搁板等。</p>"
+    "打造真正适合你的储物空间 JONAXEL 尤纳赛尔 能帮你打造出全新的收纳空间。可以自定义选择心仪尺寸的基本元素，添加抽屉、底板、杆架和搁板等。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -300,6 +422,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/7e/fd/7efd373b49fd6bcd528aca255c86ab7f.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -310,7 +442,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<h3><strong>开放式衣类储物系列</strong></h3>\n<p>想打造属于自己的开放式储物装置，以存放衣服和鞋子？ 来看看 JONAXEL 尤纳赛尔 吧， 这是一个经济实惠、灵活耐用的开放式储物系列，能让你的家更加整洁有序。 它非常适合放在卧室、厨房以及中间区域，如伸手可取式衣柜和门厅。 该系列经过测试，也可以在浴室和洗衣房等潮湿的室内使用。</p>",
+    "开放式衣类储物系列 想打造属于自己的开放式储物装置，以存放衣服和鞋子？ 来看看 JONAXEL 尤纳赛尔 吧， 这是一个经济实惠、灵活耐用的开放式储物系列，能让你的家更加整洁有序。 它非常适合放在卧室、厨房以及中间区域，如伸手可取式衣柜和门厅。 该系列经过测试，也可以在浴室和洗衣房等潮湿的室内使用。",
     "pub-text"
    ],
    "images": [
@@ -327,6 +459,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b0/6f/b06f742b16061827c99ed24938b1a7b7.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/55/c0/55c0c0e427824d774fb40e28c0e48828.gif",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/b0/6f/b06f742b16061827c99ed24938b1a7b7.jpg",
+     "href": null
+    },
+    {
+     "heading": "开放式衣类储物系列 想打造属于自己的开放式储物装置，以存放衣服和鞋子？ 来看看 JONAXEL 尤纳赛尔 吧， 这是一个经济实惠、灵活耐用的开放式储物系列，能让你的家更加整洁有序。 它非常适合放在卧室、厨房以及中间区域，如伸手可取式衣柜和门厅。 该系列经过测试，也可以在浴室和洗衣房等潮湿的室内使用。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/55/c0/55c0c0e427824d774fb40e28c0e48828.gif",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -341,6 +504,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   },
   {
@@ -356,6 +520,38 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "HAUGA 豪嘉",
+     "text": "¥1,299",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/hauga-hao-jia-kai-fang-shi-yi-gui-3-chou-ti-bai-se__0898789_pe782653_s4.jpg",
+     "href": "/cn/zh/p/hauga-hao-jia-kai-fang-shi-yi-gui-3-chou-ti-bai-se-00456924/"
+    },
+    {
+     "title": "HAUGA 豪嘉",
+     "text": "¥1,799",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/hauga-hao-jia-hua-men-yi-gui-bai-se__0898797_pe782657_s4.jpg",
+     "href": "/cn/zh/p/hauga-hao-jia-hua-men-yi-gui-bai-se-40456917/"
+    },
+    {
+     "title": "NOJIG 诺伊格",
+     "text": "¥1.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/nojig-nuo-yi-ge-shou-na-he-su-liao-mi-huang-se__0954108_pe804511_s4.jpg",
+     "href": "/cn/zh/p/nojig-nuo-yi-ge-shou-na-he-su-liao-mi-huang-se-00477040/"
+    },
+    {
+     "title": "NOJIG 诺伊格",
+     "text": "¥2.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/nojig-nuo-yi-ge-shou-na-he-su-liao-mi-huang-se__0954145_pe804497_s4.jpg",
+     "href": "/cn/zh/p/nojig-nuo-yi-ge-shou-na-he-su-liao-mi-huang-se-70468080/"
+    },
+    {
+     "title": "NOJIG 诺伊格",
+     "text": "¥4.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/nojig-nuo-yi-ge-shou-na-he-su-liao-mi-huang-se__0954157_pe804499_s4.jpg",
+     "href": "/cn/zh/p/nojig-nuo-yi-ge-shou-na-he-su-liao-mi-huang-se-00468106/"
+    }
+   ],
    "settings": null
   },
   {
@@ -371,16 +567,50 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "NOJIG 诺伊格",
+     "text": "¥7.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/nojig-nuo-yi-ge-shou-na-he-su-liao-mi-huang-se__0954730_pe804516_s4.jpg",
+     "href": "/cn/zh/p/nojig-nuo-yi-ge-shou-na-he-su-liao-mi-huang-se-80468107/"
+    },
+    {
+     "title": "BLÄDDRARE 布莱德拉瑞",
+     "text": "¥49.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/blaeddrare-bu-lai-de-la-rui-fu-gai-chu-wu-he-hui-se-tu-an__0943295_pe796872_s4.jpg",
+     "href": "/cn/zh/p/blaeddrare-bu-lai-de-la-rui-fu-gai-chu-wu-he-hui-se-tu-an-10474395/"
+    },
+    {
+     "title": "BLÄDDRARE 布莱德拉瑞",
+     "text": "¥79.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/blaeddrare-bu-lai-de-la-rui-fu-gai-chu-wu-he-hui-se-tu-an__0943296_pe796875_s4.jpg",
+     "href": "/cn/zh/p/blaeddrare-bu-lai-de-la-rui-fu-gai-chu-wu-he-hui-se-tu-an-30474399/"
+    },
+    {
+     "title": "BLÄDDRARE 布莱德拉瑞",
+     "text": "¥99.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/blaeddrare-bu-lai-de-la-rui-fu-gai-chu-wu-he-hui-se-tu-an__0943297_pe796874_s4.jpg",
+     "href": "/cn/zh/p/blaeddrare-bu-lai-de-la-rui-fu-gai-chu-wu-he-hui-se-tu-an-30474403/"
+    },
+    {
+     "title": "BLÄDDRARE 布莱德拉瑞",
+     "text": "¥129",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/blaeddrare-bu-lai-de-la-rui-qi-fen-shi-xuan-gua-chu-wu-jian-hui-se-tu-an__0943298_pe796873_s4.jpg",
+     "href": "/cn/zh/p/blaeddrare-bu-lai-de-la-rui-qi-fen-shi-xuan-gua-chu-wu-jian-hui-se-tu-an-40474407/"
+    }
+   ],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>门厅热销产品推荐</strong></h2>\n<h3><strong>使用 TRONES 强尼思 鞋柜的5种新方法</strong></h3>\n<p>品质出众的 TRONES 强尼思 鞋柜原本用于存放鞋履，但它看起来如此时尚美观、结实耐用，必定有其他绝妙用途。以下是我们最喜爱的一些创意。</p>"
+    "门厅热销产品推荐 使用 TRONES 强尼思 鞋柜的5种新方法 品质出众的 TRONES 强尼思 鞋柜原本用于存放鞋履，但它看起来如此时尚美观、结实耐用，必定有其他绝妙用途。以下是我们最喜爱的一些创意。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -397,16 +627,20 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2 class=\"p1\">选择风格和谐的储物系列</h2>\n<p class=\"p1\"><span class=\"s1\">你可以选择同一系列的家具，让各个储物设计风格统一。</span></p>"
+    "选择风格和谐的储物系列 你可以选择同一系列的家具，让各个储物设计风格统一。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -451,6 +685,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "HEMNES 汉尼斯 门厅系列（白色）。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/6b/fc/6bfc4b017a7ec149a78bdd10c9ebe313.jpg",
+     "href": "/cn/zh/search/products?q=汉尼斯",
+     "backgroundColor": null
+    },
+    {
+     "title": "BOAXEL 博阿克塞 系列。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a3/88/a388bf316263e231dbbaba082efbcd54.jpg",
+     "href": "/cn/zh/search/products?q=博阿克塞",
+     "backgroundColor": null
+    },
+    {
+     "title": "IVAR 伊娃 系列。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/1c/89/1c89f7132f4b78b8f7907ffcbc3a4c8e.jpg",
+     "href": "/cn/zh/search/products?q=伊娃",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "HEMNES 汉尼斯 门厅系列（白色）",
+     "image": "https://file.app.ikea.cn/images/6b/fc/6bfc4b017a7ec149a78bdd10c9ebe313.jpg",
+     "href": "/cn/zh/search/products?q=汉尼斯"
+    },
+    {
+     "heading": null,
+     "text": "BOAXEL 博阿克塞 系列",
+     "image": "https://file.app.ikea.cn/images/a3/88/a388bf316263e231dbbaba082efbcd54.jpg",
+     "href": "/cn/zh/search/products?q=博阿克塞"
+    },
+    {
+     "heading": null,
+     "text": "IVAR 伊娃 系列",
+     "image": "https://file.app.ikea.cn/images/1c/89/1c89f7132f4b78b8f7907ffcbc3a4c8e.jpg",
+     "href": "/cn/zh/search/products?q=伊娃"
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -495,6 +773,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/57/c3/57c31e08fd051dd6447fb76efcd97087.png",
+     "href": "/cn/zh/search/products?q=斯考迪斯",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b8/d8/b8d8bed20c3ab25dd0092f13f61ffc4b.png",
+     "href": "/cn/zh/search/products?q=思库布",
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/82/4a/824a0b2c9bb0ac9d6299d75777b90099.png",
+     "href": "/cn/zh/search/products?q=库吉斯",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "SKåDIS 斯考迪斯 系列",
+     "image": "https://file.app.ikea.cn/images/57/c3/57c31e08fd051dd6447fb76efcd97087.png",
+     "href": "/cn/zh/search/products?q=斯考迪斯"
+    },
+    {
+     "heading": null,
+     "text": "SKUBB 思库布 系列",
+     "image": "https://file.app.ikea.cn/images/b8/d8/b8d8bed20c3ab25dd0092f13f61ffc4b.png",
+     "href": "/cn/zh/search/products?q=思库布"
+    },
+    {
+     "heading": null,
+     "text": "KUGGIS 库吉斯 系列",
+     "image": "https://file.app.ikea.cn/images/82/4a/824a0b2c9bb0ac9d6299d75777b90099.png",
+     "href": "/cn/zh/search/products?q=库吉斯"
+    }
+   ],
+   "productIds": [],
    "settings": null
   }
  ]

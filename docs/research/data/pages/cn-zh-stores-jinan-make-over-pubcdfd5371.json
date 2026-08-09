@@ -22,7 +22,7 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><a href=\"#d88ffc7ba33f4c3486b9cfce3f314f98\">商场信息</a> | <a href=\"#19ba76d63e97468792e7e42bb8dbfc67\">优惠活动</a> | <a href=\"#30d8228d4dfa48a086db2bc692d813ff\">宜家俱乐部</a></p>\n<p><a href=\"#cba825d852434ddc84e2819a81f73e9f\">商场餐厅</a> | <a href=\"#ad7c27dbf5904392aab04879961efd50\">宜家对公业务部</a></p>"
+    "商场信息 | 优惠活动 | 宜家俱乐部 商场餐厅 | 宜家对公业务部"
    ],
    "images": [],
    "links": [],
@@ -34,7 +34,7 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>商场信息</strong></h2>"
+    "商场信息"
    ],
    "images": [],
    "links": [],
@@ -46,7 +46,7 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>营业时间：</strong></p>\n<p>商场/小餐馆/食品屋 营业时间：</p>\n<p>周一至周日：10:00-21:00</p>\n<p>三楼 瑞典风味餐厅 营业时间：</p>\n<p>周一至周日：9:30-20:00</p>\n<p>斯马兰营业时间：</p>\n<p style=\"background: white;\"><span style=\"color: #242424;\">周一：闭园（消毒，洗球）</span></p>\n<p style=\"background: white;\"><span style=\"color: #242424;\">周二至周五：14：00--19：15</span></p>\n<p style=\"background: white;\"><span style=\"color: #242424;\">周末及节假日：10：00--19：15</span></p>\n<p style=\"background: white;\"><span style=\"color: #242424;\">闭园时间：19：30（19：00-19：15入园的儿童玩耍截至时间为19：30）</span></p>\n<p>每次玩耍30分钟，每人每天限入园一次，儿童独自进园。</p>\n<p style=\"background: white;\"><strong><span sty"
+    "营业时间： 商场/小餐馆/食品屋 营业时间： 周一至周日：10:00-21:00 三楼 瑞典风味餐厅 营业时间： 周一至周日：9:30-20:00 斯马兰营业时间： 周一：闭园（消毒，洗球） 周二至周五：14：00--19：15 周末及节假日：10：00--19：15 闭园时间：19：30（19：00-19：15入园的儿童玩耍截至时间为19：30） 每次玩耍30分钟，每人每天限入园一次，儿童独自进园。"
    ],
    "images": [],
    "links": [],
@@ -63,7 +63,7 @@
     "IMAGE",
     "hosted",
     "MANUAL_INPUT",
-    "<h3><strong>商场地址：</strong></h3>\n<h3><strong>济南市槐荫区烟台路121号（二环西路与烟台路、张庄路交叉口）</strong></h3>\n<h3><strong>商场新能源：充电桩、换电站（具体收费详见现场新能源设备应用程序沟通）</strong></h3>"
+    "商场地址： 济南市槐荫区烟台路121号（二环西路与烟台路、张庄路交叉口） 商场新能源：充电桩、换电站（具体收费详见现场新能源设备应用程序沟通）"
    ],
    "images": [
     "https://file.app.ikea.cn/cms/u/20250225/3c7729ddad0448c3b480a6b107b4781e.png?x-oss-process=style/medium"
@@ -146,7 +146,7 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>IKEA Family 宜家俱乐部</strong></h2>\n<p>宜家俱乐部向所有人开放，而且可以免费加入。马上在线加入或前往本地商场注册成为会员，开始享受所有会员专享优惠和益处。扫码关注&ldquo;宜家俱乐部&rdquo;微信服务号，不错过最新会员活动和家居灵感。每次去宜家购物时一定要记得刷会员卡，<strong>退货时间将从60天延长至365天</strong>，也可以随时获得最新优惠和相关信息。</p>"
+    "IKEA Family 宜家俱乐部 宜家俱乐部向所有人开放，而且可以免费加入。马上在线加入或前往本地商场注册成为会员，开始享受所有会员专享优惠和益处。扫码关注“宜家俱乐部”微信服务号，不错过最新会员活动和家居灵感。每次去宜家购物时一定要记得刷会员卡，退货时间将从60天延长至365天，也可以随时获得最新优惠和相关信息。"
    ],
    "images": [],
    "links": [],
@@ -210,7 +210,7 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>商场餐厅</strong></h2>"
+    "商场餐厅"
    ],
    "images": [],
    "links": [],
@@ -222,7 +222,7 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3><strong>&nbsp;--- 推荐菜品 ---</strong></h3>\n<p>*图片仅供参考，以实物为准。</p>"
+    "--- 推荐菜品 --- *图片仅供参考，以实物为准。"
    ],
    "images": [],
    "links": [],
@@ -370,7 +370,7 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3><strong>--- 宜家小餐馆及食品屋---</strong></h3>"
+    "--- 宜家小餐馆及食品屋---"
    ],
    "images": [],
    "links": [],
@@ -430,7 +430,7 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3><strong>--- 宜家咖啡吧---</strong></h3>"
+    "--- 宜家咖啡吧---"
    ],
    "images": [],
    "links": [],
@@ -483,7 +483,7 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>宜家对公业务部</strong></h2>"
+    "宜家对公业务部"
    ],
    "images": [],
    "links": [],
@@ -495,7 +495,7 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3><strong>设计服务</strong></h3>\n<p>宜家对公业务部可以为您提供办公空间、样板房、商铺、餐厅、咖啡馆、培训机构、酒店设计服务，为您合理规划商业空间、帮您挑选实用、美观又超值的家具和装饰品，让您省心放心。</p>"
+    "设计服务 宜家对公业务部可以为您提供办公空间、样板房、商铺、餐厅、咖啡馆、培训机构、酒店设计服务，为您合理规划商业空间、帮您挑选实用、美观又超值的家具和装饰品，让您省心放心。"
    ],
    "images": [],
    "links": [],
@@ -527,7 +527,7 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>济南对公业务部</strong></h2>\n<p>电话：18595259705/18595259720<br />办公时间：9：30-18：30</p>"
+    "济南对公业务部 电话：18595259705/18595259720 办公时间：9：30-18：30"
    ],
    "images": [],
    "links": [],

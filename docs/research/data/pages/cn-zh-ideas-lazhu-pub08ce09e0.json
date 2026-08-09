@@ -11,7 +11,7 @@
    "title": "设计师的秘诀：如何制作灵动的蜡烛",
    "texts": [
     "一位女士点亮一个阔形蜡烛，阔形蜡烛与各种黑色和黄铜色的烛台构成了一件蜡烛饰品。",
-    "<p>喜欢很多蜡烛的外观，但不知道从哪下手？来看看我们的室内设计师Anna的视频吧。她会向你展示如何制作蜡烛饰品，来调节家中氛围，或是装点特殊场合。</p>",
+    "喜欢很多蜡烛的外观，但不知道从哪下手？来看看我们的室内设计师Anna的视频吧。她会向你展示如何制作蜡烛饰品，来调节家中氛围，或是装点特殊场合。",
     "设计师的秘诀：如何制作灵动的蜡烛",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "设计师的秘诀：如何制作灵动的蜡烛",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/82/ac/82ac821caec18f04d79fffbc8a5e5d01.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -40,6 +50,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -51,16 +63,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>制作人</strong></p>\n<p>室内设计师：Anna Cardell<br />摄影师：Sandra Werud</p>"
+    "制作人 室内设计师：Anna Cardell 摄影师：Sandra Werud"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

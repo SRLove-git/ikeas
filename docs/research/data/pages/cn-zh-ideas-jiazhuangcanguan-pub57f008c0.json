@@ -8,10 +8,10 @@
  "blocks": [
   {
    "type": "pub-hero",
-   "title": "家装参观：家庭住宅中的舒适公寓 ",
+   "title": "家装参观：家庭住宅中的舒适公寓",
    "texts": [
     "选择当季色彩的纺织品",
-    "<p>即使和父母住在一起，你仍然可以打造属于自己的空间。Julia和Christian利用最时尚的布局和家具，将Christian父母家楼上的部分改造成了温馨的双人公寓。让我们一起上楼一探究竟&hellip;&hellip;</p>",
+    "即使和父母住在一起，你仍然可以打造属于自己的空间。Julia和Christian利用最时尚的布局和家具，将Christian父母家楼上的部分改造成了温馨的双人公寓。让我们一起上楼一探究竟……",
     "家装参观：家庭住宅中的舒适公寓",
     "normal"
    ],
@@ -24,16 +24,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "家装参观：家庭住宅中的舒适公寓 ",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/c4/b3/c4b35e7c6dbb0b0615d878d1fa770ceb.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>一年四季均可用来放松的客厅&nbsp;</strong>将天然材料和当季色彩相结合，营造全年和谐的氛围。Julia说：&ldquo;我们在劳累一天后会选择在这里放松。为了营造全新氛围，我们会进行小小的改动。春天，我们会挪走笨重的地毯和休闲毯，换成色调充满春天气息的垫套，并且摆上更多的植物和枝丫。&rdquo;</p>"
+    "一年四季均可用来放松的客厅 将天然材料和当季色彩相结合，营造全年和谐的氛围。Julia说：“我们在劳累一天后会选择在这里放松。为了营造全新氛围，我们会进行小小的改动。春天，我们会挪走笨重的地毯和休闲毯，换成色调充满春天气息的垫套，并且摆上更多的植物和枝丫。”"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -54,6 +66,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "为全家打造一个舒适的空间 ",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ac/3a/ac3a42e7b42b446d92f1b3bad2ae9e55.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -73,6 +95,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "用水杯和罐子展示植物枝丫",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ef/93/ef93df0d317b802860888e587fe81bc7.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -93,6 +125,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "在窗边设置阅读角",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/2b/08/2b088c7cf4d324208749403c84a9b203.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -104,6 +146,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -123,16 +167,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "添加厨房岛台，打造社交空间",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b1/c6/b1c628e84c42abdae4ba338f853c9cde.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>带有一丝田园风格的现代厨房&nbsp;</strong>Julia和Christian选择了一款宜家厨房，并添置了混凝土面岛台。Julia说：&ldquo;我们希望有适合社交的开放式布局，以及较多的储物和收纳空间。&rdquo;他们还添置了木质的柜子前挡板、手工的照明工具和植物，让整个空间更加温馨亲切。Julia说：&ldquo;这是令现代外观不失柔和的不错方式，这样整个房间就不会显得冷冰冰的。&rdquo;<a title=\"See all of Julia&rsquo;s kitchen here. \" href=\"-633390b1d0c411e6b03d037150da1f20\">在此查看Julia的厨房全貌。</a></p>"
+    "带有一丝田园风格的现代厨房 Julia和Christian选择了一款宜家厨房，并添置了混凝土面岛台。Julia说：“我们希望有适合社交的开放式布局，以及较多的储物和收纳空间。”他们还添置了木质的柜子前挡板、手工的照明工具和植物，让整个空间更加温馨亲切。Julia说：“这是令现代外观不失柔和的不错方式，这样整个房间就不会显得冷冰冰的。”在此查看Julia的厨房全貌。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -152,16 +208,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "为轻松享用午餐营造氛围",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/72/2a/722af8f494fcd8cc3bdbcffecc1e881e.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>每天和朋友一同进餐&nbsp;</strong>Julia的朋友Hanni经常在Julia做护工换班的时候找她吃午饭。Julia说：&ldquo;边吃便餐边聊天是补充能量的好办法，Hanni在我的厨房里感觉就像在自己家里一样，这一点很好。我们一切从简，这样就能更加轻松愉悦。原料都摆在桌子上，可以自己取用。&rdquo;</p>"
+    "每天和朋友一同进餐 Julia的朋友Hanni经常在Julia做护工换班的时候找她吃午饭。Julia说：“边吃便餐边聊天是补充能量的好办法，Hanni在我的厨房里感觉就像在自己家里一样，这一点很好。我们一切从简，这样就能更加轻松愉悦。原料都摆在桌子上，可以自己取用。”"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -182,6 +250,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "Julia和Hanni准备简易午餐",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/36/50/3650daa74cfa3dee1d811ca5fa43f46c.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -202,6 +280,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "制定简易菜单",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/67/e9/67e9bfef2785bdeed99b9ff0d44c7303.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -221,6 +309,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "增加厨房储物空间",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/7d/67/7d6724eac76e255322c28d8fbf3d5eec.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -232,6 +330,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -251,16 +351,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "将室内的舒适之感带到户外",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/82/a7/82a71a66f434903bfa7cb776a4e08aeb.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>打造一个舒适的户外休息区&nbsp;</strong>将最小的户外空间改造成可供休息的区域。使用软垫家具和软垫营造室内的舒适之感，同时用植物增添活力。Julia说：&ldquo;我们把阳台作为客厅的一部分，有的时候我们甚至会坐在阳台上看电视。&rdquo;</p>"
+    "打造一个舒适的户外休息区 将最小的户外空间改造成可供休息的区域。使用软垫家具和软垫营造室内的舒适之感，同时用植物增添活力。Julia说：“我们把阳台作为客厅的一部分，有的时候我们甚至会坐在阳台上看电视。”"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -280,16 +392,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "Julia的照片 ",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/fa/e8/fae8ee8162c53eb23cf1a93617d61187.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>做真实的自己&nbsp;</strong>Julia说：&ldquo;我和Christian骨子里都有着巴伐利亚人的个性。我们喜欢安静的田园生活，非常看重好友和家人。我们的家就能体现这一点。我们想做一些改变的时候，会从宜家《家居指南》和Pinterest上面获取灵感，并融入自己的元素，让整个空间彰显出我们的风格。&rdquo;</p>"
+    "做真实的自己 Julia说：“我和Christian骨子里都有着巴伐利亚人的个性。我们喜欢安静的田园生活，非常看重好友和家人。我们的家就能体现这一点。我们想做一些改变的时候，会从宜家《家居指南》和Pinterest上面获取灵感，并融入自己的元素，让整个空间彰显出我们的风格。”"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -309,36 +433,52 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "Julia和Christian家的平面图",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/01/8c/018c8dd83f838c73216a239fdb10d98a.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>家庭住宅内配套齐全的公寓&nbsp;</strong>Julia说：&ldquo;我们喜欢住在Christian父母家的楼上，每周五我们都会一起共进晚餐。而且，我们很高兴能够将这个180平米的家打造成自己的风格，比如改变布局、添置我们梦想中的厨房和购置心仪的家具。&rdquo;</p>"
+    "家庭住宅内配套齐全的公寓 Julia说：“我们喜欢住在Christian父母家的楼上，每周五我们都会一起共进晚餐。而且，我们很高兴能够将这个180平米的家打造成自己的风格，比如改变布局、添置我们梦想中的厨房和购置心仪的家具。”"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>我们乐意看到顾客运用我们的产品发挥创意。尽情发挥吧！但是请注意，经过微调或改造的宜家产品将丧失其原有功能，或无法进行二次销售，因此，你将不再享有宜家的商业保证及退货权利。</p>"
+    "我们乐意看到顾客运用我们的产品发挥创意。尽情发挥吧！但是请注意，经过微调或改造的宜家产品将丧失其原有功能，或无法进行二次销售，因此，你将不再享有宜家的商业保证及退货权利。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>制作人</strong></p> <p>室内设计师：Abigail Edwards<br />摄影师：Lina Ikse</p>"
+    "制作人 室内设计师：Abigail Edwards 摄影师：Lina Ikse"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

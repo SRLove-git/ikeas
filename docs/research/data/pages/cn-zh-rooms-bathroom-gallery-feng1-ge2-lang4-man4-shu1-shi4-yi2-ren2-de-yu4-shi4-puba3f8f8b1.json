@@ -11,7 +11,7 @@
    "title": "风格浪漫，舒适宜人的浴室",
    "texts": [
     "使用宜家 GODMORGON 古德莫 白色洗脸池和白色浴室玻璃门柜，让浴室充满舒适宜人的氛围。LILLHOLMEN 利霍蒙 镀镍壁灯散发出温馨柔和的暖黄光，适用于早晚照明。",
-    "<p>在浴室里摆满你的心爱之物；注意避免受潮，让它们能长期伴你左右，在每天清晨时分助你焕发神采。</p>",
+    "在浴室里摆满你的心爱之物；注意避免受潮，让它们能长期伴你左右，在每天清晨时分助你焕发神采。",
     "风格浪漫，舒适宜人的浴室",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "风格浪漫，舒适宜人的浴室",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/2d/9d/2d9d4c7fd4bde8ba561c267e7960f173.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -39,6 +49,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "NISSEDAL 尼瑟达",
+     "text": "¥149",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/nissedal-ni-se-da-jing-zi-hei-se__0637803_pe698599_s4.jpg",
+     "href": "/cn/zh/p/nissedal-ni-se-da-jing-zi-hei-se-50320315/"
+    },
+    {
+     "title": "VOXNAN 沃斯南",
+     "text": "¥69.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/voxnan-wo-si-nan-lin-yu-shou-na-jia-du-ge__0710464_pe727565_s4.jpg",
+     "href": "/cn/zh/p/voxnan-wo-si-nan-lin-yu-shou-na-jia-du-ge-50328590/"
+    }
+   ],
    "settings": null
   }
  ]

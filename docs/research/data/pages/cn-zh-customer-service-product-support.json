@@ -22,6 +22,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "产品介绍",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20221206/9651195291fb41e29a70d948e7bb5bba.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Hero-产品介绍"
    }
@@ -30,10 +40,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3>从购物指南到组装说明，你可以在一个地方找到所有的产品信息。</h3>"
+    "从购物指南到组装说明，你可以在一个地方找到所有的产品信息。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -80,6 +92,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20221206/d3b8b2b379db4a96957419617d5ecbb8.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20221206/72059cb3099e4df1a169d938a0334476.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20221206/11dd05cc494e41c490e269a86327be88.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "价格保证",
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20221206/d3b8b2b379db4a96957419617d5ecbb8.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/customer-service/product-support/jiagebaozheng-pub9719e911"
+    },
+    {
+     "heading": "对宜家智能照明产品有疑问吗？ 在这里，你可以找到有关这一系列易于使用的智能照明产品的所有信息。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20221206/72059cb3099e4df1a169d938a0334476.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/customer-service/product-support/smart-lighting/zhi-neng-zhao-ming-pub81a7870c"
+    },
+    {
+     "heading": "把创意变为现实 使用宜家设计工具，让你的梦想之家变为现实。玩转你选择的色彩、风格、尺寸和配置，随心打造完美个性家居用品！",
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20221206/11dd05cc494e41c490e269a86327be88.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/planners/"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Columns-"
    }

@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-标题-"
    }
@@ -62,6 +64,44 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一张刚铺好的酒店床，使用了米色TÄRNKULLEN 谭库伦 软包床架，床头柜旁边的墙上有一幅斑马艺术品。",
+     "image": "https://file.app.ikea.cn/content/u/20250106/B780D4A5-3243-47BE-A3771163FF4FC437.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "在EKET 伊克特 柜子上的迷你吧台摆放着一个砧板，上面放着宜家365+ 玻璃水瓶、白色马克杯、玻璃杯和的糖果碗。",
+     "image": "https://file.app.ikea.cn/content/u/20240925/2B093650-B4D6-4292-88B77D7D78029BD2.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "在一个现代风格的酒店大堂，有两盏白色的玻璃/镀镍JÄRPLIDEN 雅普丽登 吊灯悬挂在米色石材前台上方。",
+     "image": "https://content-service-oss.aidesign.ingka-internal.cn/content-hub/f96ef328-1efa-4dd7-befb-0fa4910a9d15/8e73fad3-696f-4912-a5bd-5494aa433245.jpeg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "酒店客房一扇带窗帘的窗户旁，有一张复古风格的HAVBERG 哈伯格 扶手椅和脚凳，采用金褐色的簇绒纹理皮革制成。",
+     "image": "https://file.app.ikea.cn/content/u/20250106/D59606C5-4178-401D-AB98CE63792DF570.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "一张酒店床铺靠着低矮的木质隔断墙放置，床上铺着大叶子图案的MYGGLASVINGE 穆格斯温 被套和枕套。",
+     "image": "https://file.app.ikea.cn/content/u/20250116/205EBE53-08B3-488D-BE6342A45A4956D6.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-栅格合集 Curated Gallery-令客人获得宾至如归感受的灵感创意"
    }
@@ -110,6 +150,72 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "床",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/42/8b/428bfd5f6b68d286b39e129a26a5ba46.jpg",
+     "href": "/cn/zh/cat/bm003",
+     "backgroundColor": null
+    },
+    {
+     "title": "床垫保护垫和枕头保护套",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/6e/a7/6ea716179515bba95f5d382cf5ea9a92.jpg",
+     "href": "/cn/zh/cat/24824",
+     "backgroundColor": null
+    },
+    {
+     "title": "枕头",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/1a/a0/1aa0e574f2b946fb636ff22d6847547f.png",
+     "href": "/cn/zh/cat/20533",
+     "backgroundColor": null
+    },
+    {
+     "title": "床上用品",
+     "text": "",
+     "image": "https://file.app.ikea.cn/content/u/20240925/6CA37AC4-7587-4A55-91D18991A09E6502.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/10651",
+     "backgroundColor": null
+    },
+    {
+     "title": "浴室家具组合",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/03/32/033213ed46e03373e4fdc54e620d206c.png",
+     "href": "/cn/zh/cat/46079",
+     "backgroundColor": null
+    },
+    {
+     "title": "浴用纺织品",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e7/dd/e7dd7bf592e5d241ae39b9cb0366a72b.png",
+     "href": "/cn/zh/cat/tl003",
+     "backgroundColor": null
+    },
+    {
+     "title": "照明",
+     "text": "",
+     "image": "https://file.app.ikea.cn/content-hub/f96ef328-1efa-4dd7-befb-0fa4910a9d15/f7f4e16d-a9d3-4459-a454-e2b922127f59.jpeg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/li001",
+     "backgroundColor": null
+    },
+    {
+     "title": "装饰品",
+     "text": "",
+     "image": "https://file.app.ikea.cn/content-hub/f96ef328-1efa-4dd7-befb-0fa4910a9d15/aed8d821-9aa8-4f0e-acea-77cfff12572e.jpeg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/de001",
+     "backgroundColor": null
+    },
+    {
+     "title": "扶手椅",
+     "text": "",
+     "image": "https://content-service-oss.aidesign.ingka-internal.cn/content-hub/f96ef328-1efa-4dd7-befb-0fa4910a9d15/71f6ac85-fc8f-46dd-aa7a-a2598e649e0c.jpeg",
+     "href": "/cn/zh/cat/fu006",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-带按钮图片列表 Visual Pill Slider-"
    }
@@ -121,7 +227,7 @@
     "image-text-landscape",
     "一个浅色桌面上放着一摞启发灵感的室内设计照片、一份清单和一支宜家铅笔。",
     "IMAGE",
-    "<p>宜家为满足你的业务需求提供全面的室内设计服务。无论你在照明创意或储物技巧等方面存在什么需求，我们的专业室内设计师都乐意提供帮助。</p>",
+    "宜家为满足你的业务需求提供全面的室内设计服务。无论你在照明创意或储物技巧等方面存在什么需求，我们的专业室内设计师都乐意提供帮助。",
     "让专家帮助你设计办公空间",
     "#FFFFFF"
    ],
@@ -138,6 +244,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "一个浅色桌面上放着一摞启发灵感的室内设计照片、一份清单和一支宜家铅笔。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/13/b8/13b8004a8024ede583aa43386026c0ae.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-媒体色块组合 Banner-"
    }
@@ -186,6 +302,58 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "查看完整的宜家对公业务灵感图库",
+     "text": "",
+     "image": "https://file.app.ikea.cn/content-space/barn-images/113BEEB6-BA4A-46C1-9F9F783439FCC51E/main-v1.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/ikea-business/how-to",
+     "backgroundColor": null
+    },
+    {
+     "title": "轻松翻新酒店客房的方法（无需工具）",
+     "text": "",
+     "image": "https://file.app.ikea.cn/content/u/20250116/2AE9B5FD-A381-47B5-99234B01E5AEC317.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/ikea-business/how-to/jian3-dan1-yi4-xing2-yi1-ri4-wan2-gong1-de5-jiu3-dian4-ke4-fang2-fan1-xin1-fang1-fa3-pub505265e3",
+     "backgroundColor": null
+    },
+    {
+     "title": "打造个性化舒适智能客房的科技小贴士",
+     "text": "",
+     "image": "https://file.app.ikea.cn/content/u/20250116/94C08457-CAFC-44F4-A1543257FD45136B.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/ikea-business/how-to/rang4-ke4-ren2-man3-yi4-de5-zhi4-neng2-jiu3-dian4-ke4-fang2-chuang4-yi4-he2-ji4-shu4-jian4-yi4-puba38be129",
+     "backgroundColor": null
+    },
+    {
+     "title": "五个酒店客房墙面装饰创意",
+     "text": "",
+     "image": "https://file.app.ikea.cn/content/u/20250116/AFF41AA3-D814-45F2-959B89E29D80546C.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/ikea-business/how-to/wu3-ge4-jiu3-dian4-ke4-fang2-qiang2-mian4-zhuang1-shi4-chuang4-yi4-pub4eb69a3b",
+     "backgroundColor": null
+    },
+    {
+     "title": "如何装饰现代风格酒店客房",
+     "text": "",
+     "image": "https://file.app.ikea.cn/content/u/20240925/599ECB31-6844-493C-8A13BBE76A699B6E.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/ikea-business/how-to/ru2-he2-yong4-5-ge4-jian3-dan1-bu4-zhou4-she4-ji4-ri4-ye4-liang3-yong4-de5-jiu3-dian4-ke4-fang2-pub809d9ba1",
+     "backgroundColor": null
+    },
+    {
+     "title": "如何打造温馨怡人的酒店休息室",
+     "text": "",
+     "image": "https://content-service-oss.aidesign.ingka-internal.cn/content-hub/f96ef328-1efa-4dd7-befb-0fa4910a9d15/1c33830e-98b3-4cdb-ac7e-14fedeeadbcd.jpeg",
+     "href": "/cn/zh/ikea-business/how-to/how-to-create-a-lounge-area-in-a-hotel-for-easygoing-top-rated-stays-pub298959a2",
+     "backgroundColor": null
+    },
+    {
+     "title": "如何为你的民宿打造出色的储物",
+     "text": "",
+     "image": "https://content-service-oss.aidesign.ingka-internal.cn/content-hub/f96ef328-1efa-4dd7-befb-0fa4910a9d15/8f695b12-ef1d-40df-a1ab-af9db9f49d46.jpeg",
+     "href": "/cn/zh/ikea-business/how-to/how-to-create-great-storage-for-your-bed-and-breakfast-puba760283e",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-富媒体卡片列表 Inspiration Cards-"
    }
@@ -219,6 +387,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "在一个光线充足的现代化工作空间，三个人在两张白色的MITTZON 米特丛 会议桌旁边或站或坐着。",
+     "image": "https://file.app.ikea.cn/content/u/20241125/AAE6EA7F-311B-47B8-B54FFFDA8661387A.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "一个人坐在一张深灰色的扶手椅上，旁边是一张绿色的MITTZON 米特丛 带脚轮笔记本电脑桌，倾斜的桌面上放着一台笔记本电脑。",
+     "image": "https://file.app.ikea.cn/content/u/20241125/F3161374-144A-440E-AAFED25595FD14B2.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-栅格合集 Curated Gallery-白天好好工作，晚上睡个好觉"
    }
@@ -227,10 +412,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>风格和谐的家具系列</h2>\n<p>这里是我们部分备受欢迎的卧室家具系列。</p>"
+    "风格和谐的家具系列 这里是我们部分备受欢迎的卧室家具系列。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -277,6 +464,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "TONSTAD 图恩斯塔 卧室系列。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/content-space/barn-images/8B074F2D-676C-4B85-B25D9ACDDE314A7A/main-v1.JPG",
+     "href": "/cn/zh/cat/700550",
+     "backgroundColor": null
+    },
+    {
+     "title": "IDANÄS 宜达奈 卧室系列",
+     "text": "",
+     "image": "https://file.app.ikea.cn/content/u/20241125/B19779AE-9DED-4DD2-8E1F5140DF09598F.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/48961",
+     "backgroundColor": null
+    },
+    {
+     "title": "PAX 帕克思 系列。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/content/u/20250116/0785EFAC-334B-4D6B-ABD3A32419B6A338.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/19086",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/content-space/barn-images/8B074F2D-676C-4B85-B25D9ACDDE314A7A/main-v1.JPG",
+     "href": "/cn/zh/cat/700550"
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/content/u/20241125/B19779AE-9DED-4DD2-8E1F5140DF09598F.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/48961"
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/content/u/20250116/0785EFAC-334B-4D6B-ABD3A32419B6A338.jpg?x-oss-process=style/medium",
+     "href": "/cn/zh/cat/19086"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-分栏内容 Columns-"
    }
@@ -323,6 +554,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "SONGESAND 松耶桑德 系列",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d2/47/d2478267742a4b9f5c26461ddd59f676.jpg",
+     "href": "/cn/zh/cat/40235",
+     "backgroundColor": null
+    },
+    {
+     "title": "HEMNES 汉尼斯 卧室系列。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/05/ee/05ee6727c0ca926557009b7d371de1af.jpg",
+     "href": "/cn/zh/cat/58619",
+     "backgroundColor": null
+    },
+    {
+     "title": "MALM 马尔姆 系列。 ",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ab/71/ab714e3417a584d56bc72fc3226560d1.jpg",
+     "href": "/cn/zh/cat/07468",
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/d2/47/d2478267742a4b9f5c26461ddd59f676.jpg",
+     "href": "/cn/zh/cat/40235"
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/05/ee/05ee6727c0ca926557009b7d371de1af.jpg",
+     "href": "/cn/zh/cat/58619"
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/ab/71/ab714e3417a584d56bc72fc3226560d1.jpg",
+     "href": "/cn/zh/cat/07468"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-分栏内容 Columns-"
    }
@@ -356,6 +631,23 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "酒店客房里，阳光透过大窗户照射进来，一个人站在深灰色KORGMOTT 库格莫特 遮光窗帘旁，遮光窗帘半遮着透光窗帘。",
+     "image": "https://file.app.ikea.cn/content/u/20250116/9CD8D0BB-8C53-427D-A5AA42D2B80FF255.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "",
+     "text": "酒店房间的窗户上挂着2幅薄薄的白色HILJA 茜利亚 窗帘和黄米色 ROSENMANDEL 洛森曼德 遮光窗帘。",
+     "image": "https://file.app.ikea.cn/content/u/20240925/EC66E05F-B641-4F9F-9034C6415D989337.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-栅格合集 Curated Gallery-多层窗帘令人喜爱的原因"
    }
@@ -369,7 +661,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<h2>为什么不立即创建一个你自己的宜家对公业务账户？</h2>\n<p>账户免费，并且你可以从你与宜家的关系中获得更多。你可以收到与你的业务相关的灵感创意和优惠信息等。此外，你也可以邀请你的同事加入公司账户，享受同样的福利。</p>"
+    "为什么不立即创建一个你自己的宜家对公业务账户？ 账户免费，并且你可以从你与宜家的关系中获得更多。你可以收到与你的业务相关的灵感创意和优惠信息等。此外，你也可以邀请你的同事加入公司账户，享受同样的福利。"
    ],
    "images": [
     "https://file.app.ikea.cn/content-hub/f96ef328-1efa-4dd7-befb-0fa4910a9d15/ad5331ea-4e88-4a10-b411-077f2f1b5a9f.jpeg?x-oss-process=style/medium"
@@ -388,6 +680,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "在一间设有倾斜屋顶的乡村风格卧室里，一个身穿连衣裙、戴着围裙的人正将窗帘拉开。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/content-hub/f96ef328-1efa-4dd7-befb-0fa4910a9d15/ad5331ea-4e88-4a10-b411-077f2f1b5a9f.jpeg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/content-hub/f96ef328-1efa-4dd7-befb-0fa4910a9d15/ad5331ea-4e88-4a10-b411-077f2f1b5a9f.jpeg?x-oss-process=style/medium",
+     "href": null
+    },
+    {
+     "heading": "为什么不立即创建一个你自己的宜家对公业务账户？ 账户免费，并且你可以从你与宜家的关系中获得更多。你可以收到与你的业务相关的灵感创意和优惠信息等。此外，你也可以邀请你的同事加入公司账户，享受同样的福利。",
+     "text": null,
+     "image": null,
+     "href": "/cn/zh/profile/login"
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-分栏内容 Columns-"
    }
@@ -398,7 +714,7 @@
    "texts": [
     "text-landscape",
     "IMAGE",
-    "<p>作为企业客户，你可以亲自动手，但也可以让我们代劳。从设计到交付再到组装，整个购买流程都有宜家在你左右。</p>",
+    "作为企业客户，你可以亲自动手，但也可以让我们代劳。从设计到交付再到组装，整个购买流程都有宜家在你左右。",
     "立即联系宜家对公业务部",
     "#FFFFFF",
     "/h5page/?url=https%3A%2F%2Fstore-companion.ikea.cn%2Fib%3Fchannel%3DIRW%2520M2%26cl_sr%3DIB_IRW%2520M2"
@@ -416,6 +732,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/2c/5d/2c5d844d7b68a10f18f4888dc17c0c66.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-媒体色块组合 Banner-"
    }
@@ -425,7 +751,7 @@
    "title": null,
    "texts": [
     "text-landscape",
-    "<p>这些解决方案中包含一系列家用和非家用产品。请确认所购产品可在你的空间内发挥预期用途，并符合有关标准。如需了解该系列的更多信息，请联系宜家对公业务部。</p>",
+    "这些解决方案中包含一系列家用和非家用产品。请确认所购产品可在你的空间内发挥预期用途，并符合有关标准。如需了解该系列的更多信息，请联系宜家对公业务部。",
     "购买前须知",
     "#FFFFFF",
     "text",
@@ -433,6 +759,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-媒体色块组合 Banner-"
    }
@@ -467,6 +795,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "设计与咨询",
+     "text": "了解更多",
+     "image": null,
+     "href": "/cn/zh/customer-service/services/planning-consultation",
+     "backgroundColor": null
+    },
+    {
+     "title": "付款方式",
+     "text": "显示更多内容 ",
+     "image": null,
+     "href": "/cn/zh/customer-service/payment-options",
+     "backgroundColor": null
+    },
+    {
+     "title": "送货和搬除",
+     "text": "显示更多内容",
+     "image": null,
+     "href": "/cn/zh/customer-service/services/delivery",
+     "backgroundColor": null
+    },
+    {
+     "title": "组装服务",
+     "text": "了解更多",
+     "image": null,
+     "href": "/cn/zh/customer-service/services/assembly",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-服务列表 Assurance-"
    }

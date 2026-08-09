@@ -11,7 +11,7 @@
    "title": "全新风格的储物产品",
    "texts": [
     "产品特写：一块橘红色ENHET 安纳特 厨房用旋转搁板上放着各种罐子、包装，还有一些生姜。",
-    "<p>我们新推出的适用于浴室、厨房和洗衣房的模块化储物系列为你提供了一种不会过时的新风格。凭借在家居生活方面长期的经验积累，我们针对不同需求和空间打造出了完整的现成解决方案。看看ENHET 安纳特 模块能为你的家中带来怎样的变化！</p>",
+    "我们新推出的适用于浴室、厨房和洗衣房的模块化储物系列为你提供了一种不会过时的新风格。凭借在家居生活方面长期的经验积累，我们针对不同需求和空间打造出了完整的现成解决方案。看看ENHET 安纳特 模块能为你的家中带来怎样的变化！",
     "全新风格的储物产品",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "全新风格的储物产品",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/c1/8a/c18a80695b8cc6196092ddf39be54c0f.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -46,6 +56,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "厨房中的带开放和封闭式储物空间的橘红色配白色的ENHET 安纳特 模块中摆放着一些彩色的餐具。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/42/d1/42d1d2497305f3500c4d4956eba700bf.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/42/d1/42d1d2497305f3500c4d4956eba700bf.jpg",
+     "href": null
+    },
+    {
+     "heading": "伴你随行的模块化储物空间 ENHET 安纳特 模块将开放式储物单元与封闭式储物单元进行组合，让你能够自由地展示你的心爱物品，既可以轻松取放常用物品，也能将杂物藏起来，让一切井井有条。易于拆装的楔形暗榫设计让你在搬家时可以将ENHET 安纳特 轻松带走。",
+     "text": null,
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -57,7 +91,7 @@
     "pub-image",
     "IMAGE",
     "MANUAL_INPUT",
-    "<h2>你的私人浴室</h2>\n<p>了解如何在浴室中使用带有洗脸池模块和头顶储物空间的ENHET 安纳特 模块。选择白色、橘红色或炭黑/灰色，也可以多色混搭，打造出你专属的个人风格。</p>"
+    "你的私人浴室 了解如何在浴室中使用带有洗脸池模块和头顶储物空间的ENHET 安纳特 模块。选择白色、橘红色或炭黑/灰色，也可以多色混搭，打造出你专属的个人风格。"
    ],
    "images": [
     "https://file.app.ikea.cn/images/5b/cd/5bcdd048cbf89ee242abb7ef50c8db65.jpg",
@@ -73,6 +107,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "产品特写：橘红色ENHET 安纳特浴室洗脸池柜上有几个黑色挂钩，挂着一些浴室用配件。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/5b/cd/5bcdd048cbf89ee242abb7ef50c8db65.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "色调丰富的浴室中有一个橘红色的ENHET 安纳特 洗脸池柜，带头顶储物空间和炭灰/灰色镜子。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/96/51/96517eb6502a47270a7c3e2f66c9a42b.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": "你的私人浴室 了解如何在浴室中使用带有洗脸池模块和头顶储物空间的ENHET 安纳特 模块。选择白色、橘红色或炭黑/灰色，也可以多色混搭，打造出你专属的个人风格。",
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/5b/cd/5bcdd048cbf89ee242abb7ef50c8db65.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/96/51/96517eb6502a47270a7c3e2f66c9a42b.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   }
  ]

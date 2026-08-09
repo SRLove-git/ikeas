@@ -11,7 +11,7 @@
    "title": "挚爱野生动物",
    "texts": [
     "DJUNGELSKOG 尤恩格斯库格 系列以丛林为主题，用它打造焕然一新的孩子房间，只需一下午时间。",
-    "<p>通过 DJUNGELSKOG 尤恩格斯库格 系列了解全球的濒危物种，其中包含纺织品、毛绒玩具和书，让孩子们可以在家创造一个属于雨林的世界。通过 DJUNGELSKOG 尤恩格斯库格 系列了解全球的濒危物种，其中包含纺织品、毛绒玩具和书，让孩子们可以在家创造一个属于雨林的世界。<br /><br /></p>",
+    "通过 DJUNGELSKOG 尤恩格斯库格 系列了解全球的濒危物种，其中包含纺织品、毛绒玩具和书，让孩子们可以在家创造一个属于雨林的世界。通过 DJUNGELSKOG 尤恩格斯库格 系列了解全球的濒危物种，其中包含纺织品、毛绒玩具和书，让孩子们可以在家创造一个属于雨林的世界。",
     "挚爱野生动物",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "挚爱野生动物",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b7/e0/b7e0bfd10a3ef2213dc51043467b4679.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -43,16 +53,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "DJUNGELSKOG 尤恩格斯库格 是一个以丛林为主题的系列，其中包含了毛绒玩具、地毯和纺织品。其中还有一本儿童读物。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/14/a5/14a51fd051bc88427fded6c7cb302a4f.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>这一系列包含了一本讲述熊猫奇妙之旅的书。纺织品上的动物印花采用了更完善的印刷工艺，和传统方法相比用水量更少。</p>"
+    "这一系列包含了一本讲述熊猫奇妙之旅的书。纺织品上的动物印花采用了更完善的印刷工艺，和传统方法相比用水量更少。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -73,16 +95,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "DJUNGELSKOG 尤恩格斯库格 毛绒玩具旨在致敬全球的濒危物种，外形看上去就像是真正的猩猩、熊猫和老虎。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/ab/9f/ab9f35cda437dc09421e0fede25a09cb.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>毛绒玩具以猩猩、熊猫和狮子为造型，让孩子们可以更深入地了解这些动物。</p>"
+    "毛绒玩具以猩猩、熊猫和狮子为造型，让孩子们可以更深入地了解这些动物。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -102,16 +136,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "TROLLAKULLA 特洛拉库拉 灯罩上印着咆哮的老虎或充满异域色彩的鸟儿，可为孩子的房间增添个性与色彩。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/89/76/89765e7dd8dcace75db6e15bd183aa48.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>与 DJUNGELSKOG 尤恩格斯库格 系列相匹配，TROLLAKULLA 特洛拉库拉 灯罩上印着咆哮的老虎或充满异域色彩的鸟儿，可点亮孩子的房间。</p>"
+    "与 DJUNGELSKOG 尤恩格斯库格 系列相匹配，TROLLAKULLA 特洛拉库拉 灯罩上印着咆哮的老虎或充满异域色彩的鸟儿，可点亮孩子的房间。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -127,6 +173,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "DJUNGELSKOG 尤恩格斯库格",
+     "text": "¥79.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/djungelskog-you-en-ge-si-ku-ge-mao-rong-wan-ju-hong-xing-xing__0710167_pe727369_s4.jpg",
+     "href": "/cn/zh/p/djungelskog-you-en-ge-si-ku-ge-mao-rong-wan-ju-hong-xing-xing-30402840/"
+    },
+    {
+     "title": "DJUNGELSKOG 尤恩格斯库格",
+     "text": "¥149",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/djungelskog-you-en-ge-si-ku-ge-mao-rong-wan-ju-shi-zi__0710172_pe727375_s4.jpg",
+     "href": "/cn/zh/p/djungelskog-you-en-ge-si-ku-ge-mao-rong-wan-ju-shi-zi-60402834/"
+    }
+   ],
    "settings": null
   }
  ]

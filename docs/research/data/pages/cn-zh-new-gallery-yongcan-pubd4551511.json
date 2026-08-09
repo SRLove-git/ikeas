@@ -11,7 +11,7 @@
    "title": "为更多客人打造用餐空间",
    "texts": [
     "宜家 EKEDALEN 伊克多兰 餐桌带有隐藏式延伸模块，时刻为临时来客做好准备。",
-    "<p>宜家现推出全新餐厅系列，为每一个家带来现代简约风范。EKEDALEN 伊克多兰 系列包括餐桌、椅子和长凳，提供白色和深棕色两种选择。</p>",
+    "宜家现推出全新餐厅系列，为每一个家带来现代简约风范。EKEDALEN 伊克多兰 系列包括餐桌、椅子和长凳，提供白色和深棕色两种选择。",
     "为更多客人打造用餐空间",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "为更多客人打造用餐空间",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/d1/9f/d19f19a13324c8f7898115262f4e28d3.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -43,16 +53,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "EKEDALEN 伊克多兰 桌子采用隐藏式延伸模块设计，可为更多客人打造空间。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/97/a1/97a1d41f40892378c94233de34820ef1.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>除了柔和的边角设计之外，这个系列真正的巧妙之处在于餐桌的延伸部分可以流畅地隐藏起来。只需延长桌腿之间的空间，把隐藏在桌面下方的翻板折上来，桌面空间就得到了延伸，而且桌腿始终位于桌面的两端，</p>"
+    "除了柔和的边角设计之外，这个系列真正的巧妙之处在于餐桌的延伸部分可以流畅地隐藏起来。只需延长桌腿之间的空间，把隐藏在桌面下方的翻板折上来，桌面空间就得到了延伸，而且桌腿始终位于桌面的两端，"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -72,16 +94,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "EKEDALEN 伊克多兰 白色长凳可单独使用，也可置于桌旁提供额外座位。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/e7/6c/e76c47e34a4f9b645cedb2717a0ff8d7.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>EKEDALEN 伊克多兰 长凳可完美搭配本餐厅系列其他家具，也可单独使用。</p>"
+    "EKEDALEN 伊克多兰 长凳可完美搭配本餐厅系列其他家具，也可单独使用。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -97,6 +131,7 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   }
  ]

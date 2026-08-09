@@ -5,7 +5,7 @@ import { allProducts } from "@/data/products-index";
 import { formatPrice } from "@/lib/catalog";
 
 export default function ComparePage() {
-  const items = allProducts.slice(0, 3);
+  const items = allProducts().slice(0, 3);
   const rows: [string, (p: (typeof items)[number]) => string][] = [
     ["价格", (p) => formatPrice(p.price)],
     ["类型", (p) => p.productType ?? "—"],

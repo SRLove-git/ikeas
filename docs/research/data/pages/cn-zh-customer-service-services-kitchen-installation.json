@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "e09f9ca4f51b43ea8e7fcaa9f79f4eec"
    }
@@ -36,6 +38,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20231024/7aa0390048544389a1ef0c9ee95a9d54.m4v",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "19713e305edb4ee2aec1bac9bb4cc2dd"
    }
@@ -44,11 +56,13 @@
    "type": "rich-text",
    "title": null,
    "texts": [
-    "<p>宜家安装服务由专业安装团队确保服务品质，精准落实设计。产品和服务分开收费， 价格透明。根据你的厨房或浴室设计方案，向工作人员了解安装服务详情，购买需要的服务。 省时省心省力，轻松实现理想厨房浴室！</p>",
+    "宜家安装服务由专业安装团队确保服务品质，精准落实设计。产品和服务分开收费， 价格透明。根据你的厨房或浴室设计方案，向工作人员了解安装服务详情，购买需要的服务。 省时省心省力，轻松实现理想厨房浴室！",
     "#FFFFFF"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -57,10 +71,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>服务项目及收费标准</h2>\n<h3>注意事项</h3>\n<p>如果您因为个人原因改变原定安装日期，请在原定安装时间前一日提出，并应在原定安装时间往后三十一日之内再次选择并完成您的安装服务，具体日期以宜家客服和您联系后商定的日期为准。</p>"
+    "服务项目及收费标准 注意事项 如果您因为个人原因改变原定安装日期，请在原定安装时间前一日提出，并应在原定安装时间往后三十一日之内再次选择并完成您的安装服务，具体日期以宜家客服和您联系后商定的日期为准。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "fb250e62ee474a76aecf1e735a737126"
    }
@@ -78,6 +94,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-页面导航-"
    }
@@ -102,6 +120,24 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250401/ca6e2b2165584763b1a9e584d755d267.png?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20250401/ca6e2b2165584763b1a9e584d755d267.png?x-oss-process=style/medium",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Columns-厨房安装服务"
    }
@@ -110,10 +146,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>厨房安装服务</h2>\n<p>宜家厨房安装服务由专业安装团队确保服务品质，精准落实设计。产品和服务分开收费，价格透明。根据你的厨房设计方案，向工作人员了解安装服务详情，购买需要的服务。<br />省时省心省力，轻松实现理想厨房！</p>"
+    "厨房安装服务 宜家厨房安装服务由专业安装团队确保服务品质，精准落实设计。产品和服务分开收费，价格透明。根据你的厨房设计方案，向工作人员了解安装服务详情，购买需要的服务。 省时省心省力，轻松实现理想厨房！"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -122,10 +160,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3>完整厨房安装：</h3>\n<table style=\"width: 99.993%; background-color: #ffffff; border: 1px solid #000000; height: 452.465px;\" border=\"1\" width=\"100%\">\n<tbody>\n<tr style=\"height: 35.1211px;\">\n<td style=\"background-color: #000000; height: 35.1211px; border: 1px solid #ffffff; width: 50.2288%;\" colspan=\"2\">\n<h4><span style=\"color: #ffffff;\">完整厨房安装服务类</span>型</h4>\n<h4><span style=\"color: #ffffff;\">&nbsp;</span></h4>\n</td>\n<td style=\"width: 25.8238%; background-color: #000000; height: 35.1211px; border: 1px solid #ffffff;\">\n<h4><span style=\"color: #ffffff;\">收费标准</span></h4>\n</td>\n<td style=\"width: 24.97"
+    "完整厨房安装： 完整厨房安装服务类型 收费标准 备注 完整厨房安装服务 （层压板台面/无台面） ¥290/延米 完整厨房安装按延米数计算服务费，费用基于 实际厨房长度（一般以底柜台面的长度为准， 高柜宽度也计算在内，如果吊柜总长度超过底 柜台面则按吊柜长度计费，多层吊柜计入总吊 柜长度，电器位置计入底柜总长度），起步米 数为2延米。 完整厨房安装服务 （定制石英石台面/岩板） ¥490/延米 安纳特系列完整厨房安装服务 （层压板台面/无台面） ¥200/延米 定制台面 台下盆安装费 100元/个 仅限在宜家产品 包管安装费 200元/个 定制台面厨房内的管道如需包管安装单独收费 以上厨房安装服务与价格仅适用于在当地有宜家商场的城市。 完整厨房安装：包括橱柜、门板、层压板台面、盖板、踢脚板、操作台面支撑板（垫板）、墙面防溅挡板（层压板）、厨房飞檐等装饰条、把手、水龙头、水槽、厨房照明、置物架、挂杆和内部配件等。安装过程中所有柜体和盖板涉及到的局部切割、开孔和不超过3个柜体的整体切割改宽度和深度。接触空气的切割露出面需用铝箔纸包边。 注：为确保安装顺利进行，请提前自行安装好水管三角阀，并准备需要加长的上下水管。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -134,10 +174,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>其他厨房安装服务 :</h2>\n<p>我们也可以为你提供除上述描述之外的其他非完整厨房安装服务。</p>\n<h3>非完整厨房安装：</h3>\n<table style=\"bord  er-collapse: collapse; width: 99.9067%; border: 1px solid #000000;\" border=\"1\" width=\"100%\">\n<tbody>\n<tr style=\"background-color: #000000;\">\n<td style=\"width: 40.0469%; border: 1px solid #ffffff;\">\n<h4><span style=\"color: #ffffff;\">其他厨房安装适用</span>场景</h4>\n</td>\n<td style=\"width: 24.9938%; border: 1px solid #ffffff;\">\n<h4><span style=\"color: #ffffff;\">收费标准</span></h4>\n</td>\n<td style=\"width: 35.5025%; border: 1px solid #ffffff;\">\n<h4><span style=\"color: #ffffff;\">备注</span></h4>\n</td>\n</tr>\n<tr>\n<td sty"
+    "其他厨房安装服务 : 我们也可以为你提供除上述描述之外的其他非完整厨房安装服务。 非完整厨房安装： 其他厨房安装适用场景 收费标准 备注 单独厨房柜体安装上墙（含背板切割、开孔） 100元/柜体 不含接通水接电 单独购买层压板台面安装（无切割） 100元/台面 单独购买层压板台面安装（含切割） ¥150/台面 单独上门进行厨房柜体/台面/板材切割或开孔 ¥50元/刀或孔 仅限宜家产品 单独厨房水龙头/皂液器/净水器安装 (含开孔） ¥50/个 不含接通上下水 单独厨房水槽安装（含开孔） ¥50/个 不含接通上下水 不含水龙头安装 单独厨房接通上下水 ¥50/次 仅限宜家产品 单个厨房柜体整体切割改宽度和深度 ¥50/柜体 适用于超过完整安装 服务包含的3个柜体外 的厨房柜体 以上厨房安装服务与价格仅适用于在当地有宜家商场的城市。 注：为确保安装顺利进行，请提前自行安装好水管三角阀，并准备需要加长的上下水管。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -146,10 +188,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h3>宜家进口厨房电器安装费：</h3>\n<table style=\"width: 99.9067%; border: 1px solid #000000; height: 274.869px;\" border=\"1\" width=\"100%\">\n<tbody>\n<tr style=\"background-color: #000000; height: 29.9812px;\">\n<td style=\"width: 42.2287%; border: 1px solid #ffffff; height: 29.9812px;\">\n<h4><span style=\"color: #ffffff;\">电器类型</span></h4>\n</td>\n<td style=\"width: 23.085%; border: 1px solid #ffffff; height: 29.9812px;\">\n<h4><span style=\"color: #ffffff;\">收费标准</span></h4>\n</td>\n<td style=\"width: 35.1906%; border: 1px solid #ffffff; height: 29.9812px;\">\n<h4><span style=\"color: #ffffff;\">备注</span></h4>\n</td>\n</tr>\n<tr st"
+    "宜家进口厨房电器安装费： 电器类型 收费标准 备注 嵌入式微波炉 120元/个 嵌入式烤箱 120元/个 电磁炉 120元/个 抽油烟机 240元/个 不包含厨房吊顶和墙体的预开孔,预埋管道 含止回阀及铝箔纸密封 洗碗机 240元/个 以上厨房安装服务与价格仅适用于在当地有宜家商场的城市。 如你在宜家购买了完整厨房（含宜家进口厨房电器），我们提供宜家厨房电器安装服务。 注：需要确认家中安装施工条件，并根据日常需要准备安装辅料，如角阀、三通等，更多详情请咨询店内工作人员。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -174,6 +218,24 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250401/c39c8949fa3648b7be99750130612880.png?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20250401/c39c8949fa3648b7be99750130612880.png?x-oss-process=style/medium",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Columns-"
    }
@@ -182,10 +244,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2 style=\"text-align: justify;\">宜家旧厨房拆除服务</h2>\n<p style=\"text-align: justify;\">&nbsp;</p>\n<p style=\"text-align: justify;\">宜家能为您提供专业的旧厨房拆除服务，让您轻松把新厨房接回家。&nbsp;</p>\n<h3 style=\"text-align: justify;\"><br />厨房拆除费：&yen;499/套</h3>\n<p style=\"text-align: justify;\"><br />注：如您在宜家购买了完整厨房产品，我们提供旧厨房拆除服务。该服务只限于有宜家商场的城市。 旧厨房拆除属于不可恢复性操作，拆除后的家具和拆除物无法保证原有使用功能。现场工作人员会询问是否需要保留或部分保留，若表示无需保留，工作人员会清理现场，将旧家具运走至处理公司，尽可能把对环境的影响降至最低。更多详情请咨询店内工作人员。<br /><br /><strong><span style=\"color: #000000;\"><span style=\"font-size: 11pt; background-image: initial; background-position: initial; background-size: initial; background-re"
+    "宜家旧厨房拆除服务 宜家能为您提供专业的旧厨房拆除服务，让您轻松把新厨房接回家。 厨房拆除费：¥499/套 注：如您在宜家购买了完整厨房产品，我们提供旧厨房拆除服务。该服务只限于有宜家商场的城市。 旧厨房拆除属于不可恢复性操作，拆除后的家具和拆除物无法保证原有使用功能。现场工作人员会询问是否需要保留或部分保留，若表示无需保留，工作人员会清理现场，将旧家具运走至处理公司，尽可能把对环境的影响降至最低。更多详情请咨询店内工作人员。 以上旧厨房拆除服务与价格仅适用于在当地有宜家商场的城市。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -198,6 +262,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Horizontal Line-"
    }
@@ -222,6 +288,24 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250401/d58989c368624a598677541cc6c3f4ec.png?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20250401/d58989c368624a598677541cc6c3f4ec.png?x-oss-process=style/medium",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Columns-浴室安装服务"
    }
@@ -230,10 +314,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>浴室安装服务</h2>\n<p>宜家浴室安装服务由专业安装团队确保服务品质，精准落实设计。产品和服务分开收费，价格透明。根据你的厨房设计方案，向工作人员了解安装服务详情，购买需要的服务。<br />省时省心省力，轻松实现理想浴室！</p>"
+    "浴室安装服务 宜家浴室安装服务由专业安装团队确保服务品质，精准落实设计。产品和服务分开收费，价格透明。根据你的厨房设计方案，向工作人员了解安装服务详情，购买需要的服务。 省时省心省力，轻松实现理想浴室！"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -242,10 +328,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>&nbsp;</p>\n<table style=\"width: 99.9067%; border: 1px solid #000000; height: 591px;\" border=\"1\" width=\"100%\">\n<tbody>\n<tr style=\"background-color: #000000; height: 22.5px;\">\n<td style=\"width: 39.8321%; border: 1px solid #ffffff; height: 22.5px;\">\n<h4><span style=\"color: #ffffff;\">浴室安装项目</span></h4>\n</td>\n<td style=\"width: 24.8597%; border: 1px solid #ffffff; height: 22.5px;\">\n<h4><span style=\"color: #ffffff;\">收费标准</span></h4>\n</td>\n<td style=\"width: 35.8771%; border: 1px solid #ffffff; height: 22.5px;\">\n<h4><span style=\"color: #ffffff;\">备注</span></h4>\n</td>\n</tr>\n<tr style=\"height: 135px;\">"
+    "浴室安装项目 收费标准 备注 完整浴室安装 ( 1个浴室柜 + 1个台盆 + 1个水龙头 ) 200元/套 不包含镜柜安装 安纳特系列完整浴室安装 ( 1个浴室柜 + 1个台盆 + 1个水龙头 ) ¥169/套 不包含镜柜安装 单个浴室柜/浴室配件安装 ¥100/个 不含接水接电 单独浴室洗脸池安装 (含开孔） ¥50/个 不含接通上下水，不含水龙头安装 单独浴室龙头/皂液器安装 (含开孔） ¥50/个 不含接通上下水 单独浴室接通上下水 ¥50/次 仅限宜家产品 单独内置照明镜子安装 (含开孔） ¥100/个 单独内置照明镜柜安装 (含开孔） ¥150/个 以上浴室安装价格适用于在当地有宜家商场城市办理的安装服务。 完整浴室安装：包括含1个洗脸池，1个洗脸池柜，1个龙头和接通上下水,。不包含镜柜安装。 注：为确保安装顺利进行，请您提前自行安装好水管三角阀，并准备需要加长的上下水管。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -254,10 +342,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>&nbsp;</p>\n<table style=\"width: 99.9067%; border: 1px solid #000000; height: 591px;\" border=\"1\" width=\"100%\">\n<tbody>\n<tr style=\"background-color: #000000; height: 22.5px;\">\n<td style=\"width: 39.8321%; border: 1px solid #ffffff; height: 22.5px;\">\n<h4><span style=\"color: #ffffff;\">浴室安装项目</span></h4>\n</td>\n<td style=\"width: 24.8597%; border: 1px solid #ffffff; height: 22.5px;\">\n<h4><span style=\"color: #ffffff;\">收费标准</span></h4>\n</td>\n<td style=\"width: 35.8771%; border: 1px solid #ffffff; height: 22.5px;\">\n<h4><span style=\"color: #ffffff;\">备注</span></h4>\n</td>\n</tr>\n<tr style=\"height: 135px;\">"
+    "浴室安装项目 收费标准 备注 花洒安装 69元/个 包括淋浴头、喷雾装置的安装， 且包含安装所需要的材料和相关的 服务费用 温控阀安装 99元/个 包括温控阀的安装，且包含安装 所需要的材料和相关的服务费用 奥佩耶恩单片玻璃安装 169元/次 单片奥佩耶恩淋浴房玻璃的安装， 包含安装所需的材料和相关的服务 费用，不包含底盆安装 奥佩耶恩双片组合玻璃安装 279元/次 双片奥佩耶恩淋浴房玻璃组合的安 装，包含安装所需的材料和相关的 服务费用，不包含底盆安装 以上浴室安装价格适用于在当地有宜家商场城市办理的安装服务。 完整浴室安装：包括含1个洗脸池，1个洗脸池柜，1个龙头和接通上下水,。不包含镜柜安装。 注：为确保安装顺利进行，请您提前自行安装好水管三角阀，并准备需要加长的上下水管。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -282,6 +372,24 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250401/8ee6fb97a4e048de903e6a54f95f6170.png?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20250401/8ee6fb97a4e048de903e6a54f95f6170.png?x-oss-process=style/medium",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Columns-"
    }
@@ -290,10 +398,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2 style=\"text-align: justify;\">宜家旧浴室拆除服务</h2>\n<p style=\"text-align: justify;\"><br />宜家能为您提供专业的旧浴室拆除服务，让您轻松把新浴室接回家。</p>\n<h3 style=\"text-align: justify;\">&nbsp;<br />浴室拆除费：&yen;299/套</h3>\n<p style=\"text-align: justify;\"><br />注：如您在宜家购买了整套浴室产品，我们提供旧浴室拆除服务，拆除部分仅限柜体（浴室底柜、镜柜）、镜子、龙头、台盆。该服务只限于有宜家商场的城市。 旧浴室拆除属于不可恢复性操作，拆除后的家具和拆除物无法保证原有使用功能。现场工作人员会询问是否需要保留或部分保留，若表示无需保留，工作人员会清理现场，将旧家具运走至处理公司，尽可能把对环境的影响降至最低。更多详情请咨询店内工作人员。</p>\n<p style=\"text-align: justify;\"><br /><strong><span style=\"color: #000000;\"><span style=\"font-size: 11pt; background-image: initial; background-position: initial; background-size: i"
+    "宜家旧浴室拆除服务 宜家能为您提供专业的旧浴室拆除服务，让您轻松把新浴室接回家。 浴室拆除费：¥299/套 注：如您在宜家购买了整套浴室产品，我们提供旧浴室拆除服务，拆除部分仅限柜体（浴室底柜、镜柜）、镜子、龙头、台盆。该服务只限于有宜家商场的城市。 旧浴室拆除属于不可恢复性操作，拆除后的家具和拆除物无法保证原有使用功能。现场工作人员会询问是否需要保留或部分保留，若表示无需保留，工作人员会清理现场，将旧家具运走至处理公司，尽可能把对环境的影响降至最低。更多详情请咨询店内工作人员。 以上旧浴室拆除服务与价格仅适用于在当地有宜家商场的城市。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-Text-"
    }
@@ -318,6 +428,24 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cms/u/20250623/6c72714182fc43a182e20c74a314bdc4.jpg?x-oss-process=style/medium",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/cms/u/20250623/6c72714182fc43a182e20c74a314bdc4.jpg?x-oss-process=style/medium",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "cms-分栏内容 Columns-"
    }
@@ -326,11 +454,13 @@
    "type": "rich-text",
    "title": null,
    "texts": [
-    "<h2>灯具安装服务</h2>\n<p>宜家完整灯具安装服务，由专业团队提供拆旧、组装、上墙、接电一体化服务，标准化作业确保服务品质。产品和服务分开收费，价格透明。根据你的照明方案，向工作人员了解安装服务详情，购买需要的服务。省时省心省力，轻松点亮理想的家。</p>\n<table style=\"width: 99.785%; border: 1px solid #000000; height: 273.972px;\" border=\"1\" width=\"100%\">\n<tbody>\n<tr style=\"height: 45.3056px; background-color: #000000; border-color: #ffffff; border-style: solid;\">\n<td style=\"width: 25.6436%; border-width: 1px; border-color: #000000; height: 45.3056px;\"><strong><span style=\"color: #ffffff;\">灯具安装项目</span></strong></td>\n<td style=\"border-width: 1px; border-color: #000000; width: 51.2872%; height: 45.3056px;\" colspan=",
+    "灯具安装服务 宜家完整灯具安装服务，由专业团队提供拆旧、组装、上墙、接电一体化服务，标准化作业确保服务品质。产品和服务分开收费，价格透明。根据你的照明方案，向工作人员了解安装服务详情，购买需要的服务。省时省心省力，轻松点亮理想的家。 灯具安装项目 收费标准 备注 完整灯具安装（包含折旧、组装、上墙、接电） ￥50/件 每单收取1次基础服务费￥29 拆旧不包含复杂的吊灯（如水晶吊灯）； 不包含旧物处理； 不包含电路改造。 安装件数 安装费 1 ￥79 2 ￥129 3 ￥179 4 ￥229 5 ￥279 *每增加1件加￥50 以上灯具安装服务与价格仅适用于在当地有宜家商场的城市。 完整灯具安装包含操作过程中原有灯具的非保护性拆卸（不保证旧物完整性及继续使用，拆旧不含旧物处理）。 服务适用于层高在3.5米及以下的安装场景。",
     "#FFFFFF"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "cms-富文本 Text-"
    }
@@ -339,10 +469,12 @@
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2><strong>我们的服务</strong></h2>"
+    "我们的服务"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "385dd2fdd08642d4b29401fa8b776ed0"
    }
@@ -377,6 +509,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "送货服务",
+     "text": "了解详情",
+     "image": null,
+     "href": "/cn/zh/customer-service/services/delivery/",
+     "backgroundColor": null
+    },
+    {
+     "title": "组装服务",
+     "text": "了解详情",
+     "image": null,
+     "href": "/cn/zh/customer-service/services/assembly/",
+     "backgroundColor": null
+    },
+    {
+     "title": "设计服务",
+     "text": "了解详情",
+     "image": null,
+     "href": "/cn/zh/customer-service/services/kitchen-planning/",
+     "backgroundColor": null
+    },
+    {
+     "title": "旧家具拆运服务",
+     "text": "了解详情",
+     "image": null,
+     "href": "/cn/zh/customer-service/services/removal-recycling/",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": {
     "traceId": "eadfed76d7c44d62b78d13970961a03c"
    }
@@ -399,6 +562,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": {
     "traceId": "3df70d785cfa49028a58f87aff8342b7"
    }

@@ -1,1 +1,371 @@
-{"menuPanels":[{"label":"房间","href":"/cn/zh/rooms/living-room/","blocks":[{"title":"按房间探索","links":[{"label":"卧室","href":"/cn/zh/rooms/bedroom/"},{"label":"餐厅","href":"/cn/zh/rooms/dining/"},{"label":"书房和办公","href":"/cn/zh/rooms/home-office/"},{"label":"门厅","href":"/cn/zh/rooms/hallway/"},{"label":"客厅","href":"/cn/zh/rooms/living-room/"},{"label":"儿童房","href":"/cn/zh/rooms/childrens-room/"},{"label":"阳台","href":"/cn/zh/rooms/balcony/"},{"label":"厨房","href":"/cn/zh/rooms/kitchen/"},{"label":"浴室","href":"/cn/zh/rooms/bathroom/"},{"label":"户外","href":"/cn/zh/rooms/outdoor/"}]}]},{"label":"活动和特惠","href":"/cn/zh/campaigns/wo3-men2-de-chao1-zhi2-di1-jia4-pub8b08af40","blocks":[{"title":"热门活动","links":[{"label":"我们的超值低价","href":"/cn/zh/campaigns/wo3-men2-de-chao1-zhi2-di1-jia4-pub8b08af40"},{"label":"更低价格","href":"/cn/zh/campaigns/new-lower-price-pubff11f9fb"},{"label":"限时特惠","href":"/cn/zh/personalize-channel/LimitedTimeDiscountsChannel"}]}]},{"label":"设计和服务","href":"/cn/zh/planners/","blocks":[{"title":"设计工具","links":[{"label":"衣柜设计","href":"/cn/zh/campaigns/suo-you-yi-gui-she-ji-ruan-jian-pub76e14b92"},{"label":"浴室设计","href":"/cn/zh/planners/bathroom-planner/"},{"label":"所有设计工具","href":"/cn/zh/planners/"}]},{"title":"客户服务","links":[{"label":"送货服务","href":"/cn/zh/customer-service/services/delivery/"},{"label":"组装服务","href":"/cn/zh/customer-service/services/assembly/"},{"label":"设计服务","href":"/cn/zh/customer-service/services/kitchen-planning/"},{"label":"安装服务","href":"/cn/zh/customer-service/services/kitchen-installation/"}]}]},{"label":"家居灵感","href":"/cn/zh/ideas/rooms-inspiration/","blocks":[{"title":"房间灵感图库","links":[{"label":"卧室灵感","href":"/cn/zh/rooms/bedroom/gallery/"},{"label":"客厅灵感","href":"/cn/zh/rooms/living-room/gallery/"},{"label":"厨房灵感","href":"/cn/zh/rooms/kitchen/gallery/"},{"label":"餐厅灵感","href":"/cn/zh/rooms/dining/gallery/"},{"label":"浴室灵感","href":"/cn/zh/rooms/bathroom/gallery/"},{"label":"儿童房灵感","href":"/cn/zh/rooms/childrens-room/gallery/"},{"label":"书房和办公灵感","href":"/cn/zh/rooms/home-office/gallery/"},{"label":"门厅灵感","href":"/cn/zh/rooms/hallway/gallery/"},{"label":"户外灵感","href":"/cn/zh/rooms/outdoor/gallery/"}]},{"title":"灵感专栏","links":[{"label":"不同房间的不同灵感","href":"/cn/zh/ideas/rooms-inspiration/"},{"label":"一起宜家","href":"/cn/zh/ideas/ikea-plus-you/"},{"label":"我的艺术展","href":"/cn/zh/ideas/curated-by-me/"},{"label":"更可持续生活的创意和技巧","href":"/cn/zh/ideas/tips-for-more-sustainable-living/"}]}]},{"label":"新品","href":"/cn/zh/personalize-channel/NewArrivalsChannel/","blocks":[{"title":"新品速递","links":[{"label":"探索当季新品","href":"/cn/zh/personalize-channel/NewArrivalsChannel/"},{"label":"IKEA PS 2026 系列","href":"/cn/zh/new/meet-the-ikea-ps-2026-collection-pubf28e636c"},{"label":"让家的每个角落都藏着玩趣","href":"/cn/zh/new/let-your-home-come-out-and-play-pubc28e2323"},{"label":"LASTARE 系列","href":"/cn/zh/rooms/bedroom/LASTARE-serie-pub03fdc74e"}]}]},{"label":"对公业务","href":"/cn/zh/ikea-business/","blocks":[{"title":"宜家对公业务","links":[{"label":"宜家对公业务首页","href":"/cn/zh/ikea-business/"},{"label":"宜家企业会员","href":"/cn/zh/landing-page/5c84c33b5c95414bacf5f529c9d6a960/"},{"label":"商业空间设计","href":"/cn/zh/ikea-business/pi-liang-cai-gou-pub826b2633"},{"label":"工程项目及合作","href":"/cn/zh/ikea-business/comprehensive-solutions/gong-cheng-xiang-mu-ji-he-zuo-pub922524e8"},{"label":"礼品采购","href":"/cn/zh/ikea-business/gift-purchasing/li-pin-cai-gou-pubbd104a34"}]}]}]}
+{
+  "menuPanels": [
+    {
+      "label": "房间",
+      "href": "/cn/zh/campaigns/3d-zhan3-jian1-quan2-xin1-shang4-xian4-pub1b2e4b70",
+      "columns": [
+        {
+          "heading": null,
+          "intro": null,
+          "cards": [
+            {
+              "title": "卧室",
+              "href": "/cn/zh/rooms/bedroom/",
+              "image": "https://res.app.ikea.cn/content/u/20230817/5f0e5e43a6204dbbb427326856944120.jpg"
+            },
+            {
+              "title": "餐厅",
+              "href": "/cn/zh/rooms/dining/",
+              "image": "https://res.app.ikea.cn/content/u/20230817/7c5806390e134f4e9097fe16c2b17727.jpg"
+            },
+            {
+              "title": "书房和办公",
+              "href": "/cn/zh/rooms/home-office/",
+              "image": "https://res.app.ikea.cn/content/u/20230817/75f7e1eb0ddd4b16879adc93d5c395f0.jpg"
+            },
+            {
+              "title": "门厅",
+              "href": "/cn/zh/rooms/hallway/",
+              "image": "https://res.app.ikea.cn/content/u/20220119/45d5c42b027546948581679d80e42091.jpg"
+            }
+          ],
+          "thumbnails": [],
+          "links": []
+        },
+        {
+          "heading": null,
+          "intro": null,
+          "cards": [
+            {
+              "title": "客厅",
+              "href": "/cn/zh/rooms/living-room/",
+              "image": "https://res.app.ikea.cn/content/u/20230817/1906e6e07efa422eb9bb206aebb976c8.jpg"
+            },
+            {
+              "title": "儿童房",
+              "href": "/cn/zh/rooms/childrens-room/",
+              "image": "https://res.app.ikea.cn/content/u/20230817/071499d50d6348d2aa5573e8b7b76dcb.jpg"
+            },
+            {
+              "title": "阳台",
+              "href": "/cn/zh/rooms/balcony/",
+              "image": "https://res.app.ikea.cn/content/u/20230817/896a55f9501e4fe1bc3ccca52d94b7b1.jpg"
+            },
+            {
+              "title": "对公业务",
+              "href": "/cn/zh/ikea-business/",
+              "image": "https://file.app.ikea.cn/cms/u/20250828/81f948194e004ddab8c22a43708830fc.jpg"
+            }
+          ],
+          "thumbnails": [],
+          "links": []
+        },
+        {
+          "heading": null,
+          "intro": null,
+          "cards": [
+            {
+              "title": "厨房",
+              "href": "/cn/zh/rooms/kitchen/",
+              "image": "https://res.app.ikea.cn/content/u/20230817/709b06c4681448aa87556f05a3476679.jpg"
+            },
+            {
+              "title": "浴室",
+              "href": "/cn/zh/rooms/bathroom/",
+              "image": "https://res.app.ikea.cn/content/u/20220119/866aa3182a374ed698543f8b2b7222a2.jpg"
+            },
+            {
+              "title": "户外",
+              "href": "/cn/zh/rooms/outdoor/",
+              "image": "https://res.app.ikea.cn/content/u/20230817/92f088d924e746c9bf13fd9711f53ba7.jpg"
+            }
+          ],
+          "thumbnails": [],
+          "links": []
+        }
+      ]
+    },
+    {
+      "label": "活动和特惠",
+      "href": "/cn/zh/campaigns/wo3-men2-de-chao1-zhi2-di1-jia4-pub8b08af40",
+      "columns": [
+        {
+          "heading": null,
+          "intro": null,
+          "cards": [
+            {
+              "title": "低价优选",
+              "href": "/cn/zh/campaigns/wo3-men2-de-chao1-zhi2-di1-jia4-pub8b08af40",
+              "image": "https://res.app.ikea.cn/content/u/20240423/83b6d86ab7454007b8b9e84345b05a40.jpg"
+            }
+          ],
+          "thumbnails": [],
+          "links": []
+        },
+        {
+          "heading": null,
+          "intro": null,
+          "cards": [
+            {
+              "title": "更低价格",
+              "href": "/cn/zh/campaigns/new-lower-price-pubff11f9fb",
+              "image": "https://file.app.ikea.cn/cms/u/20260205/2021f4a2cfb14e34b19bd563f01b0e3d.jpg"
+            }
+          ],
+          "thumbnails": [],
+          "links": []
+        }
+      ]
+    },
+    {
+      "label": "设计和服务",
+      "href": "https://wrd.family.ikea.cn/wrd?channel=EC_Channel&cl_sr=IRW_homepage_2nd_Anniversary",
+      "columns": [
+        {
+          "heading": null,
+          "intro": "设计工具",
+          "cards": [],
+          "thumbnails": [
+            {
+              "title": "衣柜设计",
+              "href": "/cn/zh/campaigns/suo-you-yi-gui-she-ji-ruan-jian-pub76e14b92",
+              "image": "https://res-qa.app.ikea.cn/cms/u/20220113/baa6ac0cced14c419cc4d4c8a26bf1d0.png",
+              "description": "衣柜设计"
+            },
+            {
+              "title": "视听储物柜",
+              "href": "/cn/zh/cat/besta-bei-da-xi-lie-46053/",
+              "image": "https://res-qa.app.ikea.cn/cms/u/20220113/c8a2f9195b844a59b28e3947832c2aac.png",
+              "description": "视听储物柜"
+            },
+            {
+              "title": "浴室设计",
+              "href": "/cn/zh/planners/bathroom-planner/",
+              "image": "https://res.app.ikea.cn/content/u/20220401/6783dc1829284ffcb9ed35659531521b.png",
+              "description": "浴室设计"
+            },
+            {
+              "title": "书柜/展示柜设计",
+              "href": "https://billy.web.ikea.cn/offline/homepage?offline_store_id=20&offlineScreen=false&utm_source=online_pc&utm_medium=BILLY_WEB&utm_campaign=549&utm_content=design_service",
+              "image": "https://res.app.ikea.cn/content/u/20231106/4ed990c5b45b49febdce5e62d88fe667.svg",
+              "description": "书柜/展示柜设计"
+            }
+          ],
+          "links": [
+            {
+              "title": "查看更多",
+              "href": "/cn/zh/planners/"
+            }
+          ]
+        },
+        {
+          "heading": null,
+          "intro": "设计服务",
+          "cards": [
+            {
+              "title": "全屋设计",
+              "href": "https://store-companion.ikea.cn/design-leads/wrd.html?channel=EC_website&cl_sr=IRW_homepage_3nd_Anniversary&design_version=non_GPC_case&source=NEW_WEB",
+              "image": "https://res.app.ikea.cn/content/u/20220119/10220b5d39074957bcba73bd19218169.jpg"
+            },
+            {
+              "title": "厨房设计",
+              "href": "https://store-companion.ikea.cn/design-leads/kitchen.html?channel=kitchen_IRW+M2&cl_sr=IRW+M2&source=NEW_WEB",
+              "image": "https://static.web.ikea.cn/content/u/20241014/d13edb9ae9e049a4b894fe4fcef17189.jpg"
+            },
+            {
+              "title": "家居搭配服务",
+              "href": "https://store-companion.ikea.cn/design-leads/hfc.html?channel=EC_website&cl_sr=HFC_header",
+              "image": "https://res.app.ikea.cn/content/u/20230613/55b6c4caa5d7466e8b36455663995df1.png"
+            }
+          ],
+          "thumbnails": [],
+          "links": []
+        },
+        {
+          "heading": null,
+          "intro": "客户服务",
+          "cards": [
+            {
+              "title": "对公业务",
+              "href": "/cn/zh/ikea-business/",
+              "image": "https://file.app.ikea.cn/cms/u/20250828/12f28aa6f267416a9300128de1889e51.jpg"
+            }
+          ],
+          "thumbnails": [],
+          "links": [
+            {
+              "title": "退货政策",
+              "href": "/cn/zh/customer-service/returns-claims/return-policy/"
+            },
+            {
+              "title": "更多客户服务",
+              "href": "/cn/zh/customer-service/services/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "家居灵感",
+      "href": "/cn/zh/ideas/home-furnishings/ ",
+      "columns": [
+        {
+          "heading": null,
+          "intro": null,
+          "cards": [
+            {
+              "title": "卧室灵感",
+              "href": "/cn/zh/rooms/bedroom/gallery/",
+              "image": "https://res.app.ikea.cn/content/u/20230818/29b0f923ff2341eca59e53a36319763a.jpg"
+            },
+            {
+              "title": "餐厅灵感",
+              "href": "/cn/zh/rooms/dining/gallery/",
+              "image": "https://res.app.ikea.cn/content/u/20220119/500269ab543a4739b0a895c9eb7cfeaa.jpg"
+            },
+            {
+              "title": "书房和办公灵感",
+              "href": "/cn/zh/rooms/home-office/gallery/",
+              "image": "https://res.app.ikea.cn/content/u/20230818/77a2e77dd2884adfaf4b4287aa7b03e4.jpg"
+            },
+            {
+              "title": "客厅灵感",
+              "href": "/cn/zh/rooms/living-room/gallery/",
+              "image": "https://res.app.ikea.cn/content/u/20220119/7350a8acb9be4330acadffb95957c517.jpg"
+            },
+            {
+              "title": "儿童房灵感",
+              "href": "/cn/zh/rooms/childrens-room/gallery/",
+              "image": "https://res.app.ikea.cn/content/u/20220303/4aef0d7d296d41a89d0a009fbdc31eee.jpg"
+            },
+            {
+              "title": "门厅灵感",
+              "href": "/cn/zh/rooms/hallway/gallery/",
+              "image": "https://res.app.ikea.cn/content/u/20230818/0d1276b737a143a7a6d1f889254dc45b.jpg"
+            }
+          ],
+          "thumbnails": [],
+          "links": []
+        },
+        {
+          "heading": null,
+          "intro": null,
+          "cards": [
+            {
+              "title": "厨房灵感",
+              "href": "/cn/zh/rooms/kitchen/gallery/",
+              "image": "https://res.app.ikea.cn/content/u/20230818/feebedf6fc034649892ded92acfcde5f.jpg"
+            },
+            {
+              "title": "浴室灵感",
+              "href": "/cn/zh/rooms/bathroom/gallery/",
+              "image": "https://res.app.ikea.cn/content/u/20230818/efdeb901106745a484b08208f7dfe5e1.jpg"
+            },
+            {
+              "title": "户外灵感",
+              "href": "/cn/zh/rooms/outdoor/gallery/",
+              "image": "https://res.app.ikea.cn/content/u/20230818/3ccb3322559640d7a13664c55431185c.jpg"
+            },
+            {
+              "title": "真实案例",
+              "href": "/cn/zh/ideas/ikea-plus-you/",
+              "image": "https://static.web.ikea.cn/content/u/20250109/d1b5c3c2d4cf4b51b99d9bc7b0a4299a.jpg"
+            },
+            {
+              "title": "发现更多",
+              "href": "/cn/zh/ideas/rooms-inspiration/",
+              "image": "https://res.app.ikea.cn/content/u/20220629/67c4ae108d8b4a9193481522f6b39b00.jpg"
+            }
+          ],
+          "thumbnails": [],
+          "links": []
+        }
+      ]
+    },
+    {
+      "label": "新品",
+      "href": "/cn/zh/new/the-vardande-collection-pub8cb96036",
+      "columns": [
+        {
+          "heading": null,
+          "intro": null,
+          "cards": [
+            {
+              "title": "IKEA PS 2026",
+              "href": "/cn/zh/new/meet-the-ikea-ps-2026-collection-pubf28e636c",
+              "image": "https://file.app.ikea.cn/cms/u/20260514/242fcf3c835d48f4ba5bafd6735d6c25.jpg"
+            },
+            {
+              "title": "LASTARE 拉思塔尔 ",
+              "href": "/cn/zh/rooms/bedroom/LASTARE-serie-pub03fdc74e",
+              "image": "https://file.app.ikea.cn/cms/u/20260407/eec5c083ce7c40f18edc68ac00b5cc0b.jpg"
+            }
+          ],
+          "thumbnails": [],
+          "links": []
+        },
+        {
+          "heading": null,
+          "intro": null,
+          "cards": [
+            {
+              "title": "LILLESÄTER 利乐塞特",
+              "href": "/cn/zh/rooms/living-room/-ae-li-le-sai-te--puba9cf4fd8",
+              "image": "https://file.app.ikea.cn/cms/u/20260407/155b29bf59b747619ba1b2a1bad25ba9.jpg"
+            },
+            {
+              "title": "GREJSIMOJS 格雷希莫",
+              "href": "/cn/zh/new/let-your-home-come-out-and-play-pubc28e2323",
+              "image": "https://file.app.ikea.cn/cms/u/20260126/584c22c9e57c49c19a02826b5f19e774.jpg"
+            }
+          ],
+          "thumbnails": [],
+          "links": []
+        }
+      ]
+    },
+    {
+      "label": "对公业务",
+      "href": "/",
+      "columns": [
+        {
+          "heading": null,
+          "intro": null,
+          "cards": [],
+          "thumbnails": [],
+          "links": [
+            {
+              "title": "宜家对公业务首页",
+              "href": "/cn/zh/ikea-business/"
+            },
+            {
+              "title": "宜家企业会员",
+              "href": "/cn/zh/landing-page/5c84c33b5c95414bacf5f529c9d6a960/"
+            },
+            {
+              "title": "商业空间设计",
+              "href": "/cn/zh/ikea-business/pi-liang-cai-gou-pub826b2633"
+            },
+            {
+              "title": "工程项目及合作",
+              "href": "/cn/zh/ikea-business/comprehensive-solutions/gong-cheng-xiang-mu-ji-he-zuo-pub922524e8"
+            },
+            {
+              "title": "礼品采购",
+              "href": "/cn/zh/ikea-business/gift-purchasing/li-pin-cai-gou-pubbd104a34"
+            },
+            {
+              "title": "联系我们/批量采购",
+              "href": "https://store-companion.ikea.cn/design-leads/ib.html?channel=IRW+M2&cl_sr=IB_IRW+M2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appPromotion": {
+    "desc": "下载APP",
+    "qrCodeUrl": "https://ikeacn-static-test.oss-cn-shanghai.aliyuncs.com/static/images/header/apppromotion/qrCode/20210303.png",
+    "appDownloadUrl": ""
+  }
+}

@@ -11,7 +11,7 @@
    "title": "理想的梳妆台",
    "texts": [
     "白色书桌上方有一面长方形大镜子，桌上摆放着很多储物件，墙上还装着一个白色音箱。",
-    "<p>你设想的理想梳妆台或许应该是这样的：四周装着照明充足的镜子、独立的美发台，以及很多便利的抽屉和搁架用来存放化妆品和首饰。宜家提供了以下建议，助你将梦想变成现实。</p>",
+    "你设想的理想梳妆台或许应该是这样的：四周装着照明充足的镜子、独立的美发台，以及很多便利的抽屉和搁架用来存放化妆品和首饰。宜家提供了以下建议，助你将梦想变成现实。",
     "理想的梳妆台",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "理想的梳妆台",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/8a/db/8adbe88d8cd7acef73abb28096362ceb.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -50,6 +60,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "墙壁上安装着一个白色SYMFONISK 希姆弗斯 WiFi音箱，下方白色书桌上的透明收纳件中摆放着化妆品和化妆刷。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/602c8edc5368a5d9/original/PH179021.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -76,6 +96,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个长方形大镜子的四周装着不锈钢LEDSJÖ 莱索 壁灯，下方的白色MICKE 米克 书桌上摆放着化妆品收纳件。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/47d0e8b79d1efe87/original/PH179019-crop002.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -102,6 +132,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一张白色MICKE 米克 书桌前摆放着一把米色转椅，旁边的窗台上放着一面镜子和一盆植物，另外还有一面白色立镜。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/3de70a0cd0f06412/original/PH179211-crop001.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -128,6 +168,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "一个青灰色ALEX 阿来斯 抽屉柜，其中一个抽屉打开着，抽屉里面和柜顶摆放着美发用品，还有一面白色的立镜。",
+     "image": "https://file.app.ikea.cn/ext/ingkadam/m/35029e8a1347e8c2/original/PH179020.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   }
  ]

@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -34,16 +36,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "一家人在餐厅中。妈妈和两个孩子坐在餐桌旁，爸爸将碗拿到餐桌。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/de/43/de4310160e620d3f8d9cad22e4690f13.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>美好的晚餐时光像微风拂过餐厅，并不止步于餐厅，而是传播得更远、延续得更久。餐厅配有玩乐空间，巧妙的储物解决方案还能解决家人的储物需求。</p>"
+    "美好的晚餐时光像微风拂过餐厅，并不止步于餐厅，而是传播得更远、延续得更久。餐厅配有玩乐空间，巧妙的储物解决方案还能解决家人的储物需求。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -76,6 +90,50 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "白色餐桌，桌上有家庭晚餐剩下的饭菜。餐桌旁是一把白色高脚椅。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/8f/e5/8fe5758905cdad74fb750f385f0817d0.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "桦木餐桌和椅子，高脚椅和书桌椅有支脚支撑。孩子们的手工作品放在餐桌上。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/12/1e/121ec28f06d100311da9e37098d5cbb0.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "脚轮推车配有三个钢丝密网篮，零食、干货和碗都存放于此。推车放置在柜子旁边。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/86/a6/86a630f6afac6c9c38170afbc88aeabe.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "光滑、耐用，配以圆形边，VEDBO 维伯 餐桌是有孩子家庭的安全之选。",
+     "image": "https://file.app.ikea.cn/images/8f/e5/8fe5758905cdad74fb750f385f0817d0.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "高脚椅太高？但普通椅子又太矮了？为你推荐 AGAM 阿甘 书桌椅！",
+     "image": "https://file.app.ikea.cn/images/12/1e/121ec28f06d100311da9e37098d5cbb0.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "将孩子们的零食放在他们够得到的地方，方便他们能在饥饿的时候填填肚子。",
+     "image": "https://file.app.ikea.cn/images/86/a6/86a630f6afac6c9c38170afbc88aeabe.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -103,6 +161,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "白色桦木 EKET 伊克特 带支腿橱柜组合。不同的储物盒和装饰架放置在搁板和柜顶上。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b5/7e/b57e7c798500578f3f0291e1e11bcf29.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "餐桌上摆有两杯茶。两盏点亮的 NÄVLINGE 纳林格 吊灯悬挂在上方，散发着温馨、柔和的灯光。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/22/04/220484144767ca38c7e0e95e80460309.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": "用 EKET 伊克特 橱柜组合搭配不同的储物盒，你可以根据自己的需求和风格来收纳物品。",
+     "image": "https://file.app.ikea.cn/images/b5/7e/b57e7c798500578f3f0291e1e11bcf29.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": "TRÅDFRI 特鲁菲 灯泡和 TRÅDFRI 特鲁菲 遥控能够打造柔和的灯光，便于你轻松营造出温馨的氛围，是夜间品茶的理想之选！",
+     "image": "https://file.app.ikea.cn/images/22/04/220484144767ca38c7e0e95e80460309.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -118,6 +207,26 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "RÖNNINGE 瑞宁",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/roenninge-rui-ning-yi-zi-hua-mu__0642047_pe700849_s4.jpg",
+     "href": "/cn/zh/p/roenninge-rui-ning-yi-zi-hua-mu-80400754/"
+    },
+    {
+     "title": "AGAM 阿甘",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/agam-a-gan-er-tong-yi-bai-se__0727929_pe735943_s4.jpg",
+     "href": "/cn/zh/p/agam-a-gan-er-tong-yi-bai-se-50253537/"
+    },
+    {
+     "title": "SNUDDA 思纳达",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/snudda-si-na-da-can-zhuo-zhuan-pan-shi-mu__1100240_pe866087_s4.jpg",
+     "href": "/cn/zh/p/snudda-si-na-da-can-zhuo-zhuan-pan-shi-mu-40176460/"
+    }
+   ],
    "settings": null
   }
  ]

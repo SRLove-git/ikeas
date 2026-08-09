@@ -11,7 +11,7 @@
    "title": "享受茶歇时光",
    "texts": [
     "礼品风格的篮子里放着包装玻璃纸包裹的饼干、杯子、咖啡壶和装饰品。",
-    "<p>临近年末，密集的社交活动会让所有人倍感压力。停下脚步，远离密集的社交活动，坐下来与朋友喝杯好茶，舒缓心情，恢复活力。</p>",
+    "临近年末，密集的社交活动会让所有人倍感压力。停下脚步，远离密集的社交活动，坐下来与朋友喝杯好茶，舒缓心情，恢复活力。",
     "享受茶歇时光",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "享受茶歇时光",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/7b/5d/7b5db03472a868040c3900d8b6f0d5da.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -46,6 +56,30 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "圆形的金色托盘上放着茶具套件，包括水壶和盖子已打开，里面装着绿茶的带盖罐，旁边还有几个杯子。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/58/08/5808d4ee99b7e3ae20d1d8c6cb009887.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/58/08/5808d4ee99b7e3ae20d1d8c6cb009887.jpg",
+     "href": null
+    },
+    {
+     "heading": "短暂而令人放松的茶歇时光 每年的这个时候，你要么忙于参加社交活动，要么忙于为社交活动做准备，很容易忽视自己。停下忙碌的脚步，让自己和身边所爱之人得以休整喘息，平衡假期生活。 泡茶本身就能舒缓心绪，令人放松。利用烹制茶饮的短暂时间，一边享受茶散发出的清新香气，比如带有佛手柑和橡木清香的红茶，一边舒缓心绪。选择两把座深较深的座椅和一套温暖的休闲毯。静待茶到达适宜的温度后，拿起茶杯，尽情享受这个美妙时刻。",
+     "text": null,
+     "image": null,
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -73,6 +107,37 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "一位女士坐着，身上穿着保暖衣物，腿上搭着休闲毯，双手捧着一个热气腾腾的马克杯。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/4a/30/4a3075612d512d7bb57496d17ffed22d.jpg",
+     "href": null,
+     "backgroundColor": null
+    },
+    {
+     "title": "一位女士悠闲地坐在靠近窗户的沙发一端，手里拿着马克杯，低着头看书。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/22/fc/22fca214b5b2e2d6225a6a005438c357.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "columns": [
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/4a/30/4a3075612d512d7bb57496d17ffed22d.jpg",
+     "href": null
+    },
+    {
+     "heading": null,
+     "text": null,
+     "image": "https://file.app.ikea.cn/images/22/fc/22fca214b5b2e2d6225a6a005438c357.jpg",
+     "href": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -93,16 +158,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "深色表面上放着七袋不同类型和口味的茶饮，白色的袋子包装上印有彩色的图示。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/82/3d/823d5d29d70daf7b05a1d0c1534ab853.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><em>我们乐意看到顾客运用我们的产品发挥创意。尽情发挥吧！但是请注意，经过微调或改造的宜家产品将丧失其原有功能，或无法进行二次销售，因此，你将不再享有宜家的商业保证及退货权利。</em></p>"
+    "我们乐意看到顾客运用我们的产品发挥创意。尽情发挥吧！但是请注意，经过微调或改造的宜家产品将丧失其原有功能，或无法进行二次销售，因此，你将不再享有宜家的商业保证及退货权利。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

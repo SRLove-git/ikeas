@@ -10,7 +10,7 @@
    "type": "pub-hero",
    "title": "添加/解除控制装置",
    "texts": [
-    "<p><strong>开始使用智能照明产品:</strong></p>\n<p><a href=\"https://www.ikea.cn/cn/zh/customer-service/an1-zhuang1-tao4-jian4-pube2d41877\">安装套件</a>&nbsp; |&nbsp; <a href=\"https://www.ikea.cn/cn/zh/customer-service/tian1-jia1-jie3-chu2-guang1-yuan2-pub44b6c580\">添加/解除光源</a>&nbsp; |&nbsp; <a href=\"https://www.ikea.cn/cn/zh/customer-service/tian1-jia1-jie3-chu2-kong4-zhi4-zhuang1-zhi4-pubd0b3fc31\">添加/解除控制装置</a></p>",
+    "开始使用智能照明产品: 安装套件 | 添加/解除光源 | 添加/解除控制装置",
     "添加/解除控制装置",
     "normal"
    ],
@@ -23,16 +23,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "添加/解除控制装置",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/0b/13/0b13ab8278172aaadab7c578819de21b.png",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h4><strong>添加 TR&Aring;DFRI 特鲁菲 调光套件（暖白光）</strong></h4>\n<p>可以轻松将 TR&Aring;DFRI 特鲁菲 调光套件（暖白光）、动态感应器和 FLOALT 法罗尔特 LED照明壁灯添加至 TR&Aring;DFRI 特鲁菲 应用程序。&nbsp;</p>"
+    "添加 TRåDFRI 特鲁菲 调光套件（暖白光） 可以轻松将 TRåDFRI 特鲁菲 调光套件（暖白光）、动态感应器和 FLOALT 法罗尔特 LED照明壁灯添加至 TRåDFRI 特鲁菲 应用程序。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -40,7 +52,7 @@
    "title": null,
    "texts": [
     "https://v.youku.com/v_show/id_XMzEyNjIwODU5Mg==.html?spm=a2hww.20027244.m_250036.5~5!2~5~5!2~5~5~A",
-    "<p>观看此视频，了解如何将 TR&Aring;DFRI 特鲁菲 调光套件（暖白光）添加至 TR&Aring;DFRI 特鲁菲 应用程序。</p>",
+    "观看此视频，了解如何将 TRåDFRI 特鲁菲 调光套件（暖白光）添加至 TRåDFRI 特鲁菲 应用程序。",
     "MANUAL_INPUT"
    ],
    "images": [],
@@ -50,6 +62,8 @@
      "text": "\n<p>观看此视频，了解如何将 TR&Aring;DFRI 特鲁菲 调光套件（暖白光）添加至 TR&Aring;DFRI 特鲁菲 应用程序。</p>\n"
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -60,16 +74,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h4><strong>添加 TR&Aring;DFRI 特鲁菲 动态感应器套件</strong></h4>"
+    "添加 TRåDFRI 特鲁菲 动态感应器套件"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -77,7 +95,7 @@
    "title": null,
    "texts": [
     "https://v.youku.com/v_show/id_XMzEyMTQxNTg4MA==.html?spm=a2hww.20027244.m_250036.5~5!2~5~5!2~5~5~A",
-    "<p>观看此视频，了解如何将 TR&Aring;DFRI 特鲁菲 动态感应器套件添加至 TR&Aring;DFRI 特鲁菲 应用程序。</p>",
+    "观看此视频，了解如何将 TRåDFRI 特鲁菲 动态感应器套件添加至 TRåDFRI 特鲁菲 应用程序。",
     "MANUAL_INPUT"
    ],
    "images": [],
@@ -87,6 +105,8 @@
      "text": "\n<p>观看此视频，了解如何将 TR&Aring;DFRI 特鲁菲 动态感应器套件添加至 TR&Aring;DFRI 特鲁菲 应用程序。</p>\n"
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -107,6 +127,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -117,16 +139,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h4><strong>需要更多帮助吗？</strong></h4>"
+    "需要更多帮助吗？"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -153,16 +179,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a6/09/a609b8a6399e5215284328455b81d14a.png",
+     "href": "/cn/zh/customer-service/product-support/smart-lighting/zhi-neng-zhao-ming-pub81a7870c",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>使用方法<br /></strong>了解如何调节明暗、改变色温和设置定时器等。<br /><a href=\"https://www.ikea.cn/cn/zh/customer-service/zhi-neng-zhao-ming-pub81a7870c\">了解如何使用宜家智能照明产品</a></p>"
+    "使用方法 了解如何调节明暗、改变色温和设置定时器等。 了解如何使用宜家智能照明产品"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -189,16 +227,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/a9/21/a92122367daec3dbd983cc112ce37f3f.png",
+     "href": "/cn/zh/customer-service/product-support/smart-lighting/zhi4-neng2-zhao4-ming2-chan3-pin3-gu4-zhang4-pai2-chu2-pub480afb00",
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>故障排除<br /></strong>使用智能照明产品时遇到了问题，都可以在这里找到如何解决常见的问题。<br /><a href=\"https://www.ikea.cn/cn/zh/customer-service/zhi4-neng2-zhao4-ming2-chan3-pin3-gu4-zhang4-pai2-chu2-pub480afb00\">获取有关宜家智能照明产品的帮助</a></p>"
+    "故障排除 使用智能照明产品时遇到了问题，都可以在这里找到如何解决常见的问题。 获取有关宜家智能照明产品的帮助"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -217,16 +267,28 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/de/97/de97bff470832c1a7c34ae7e80f20f88.png",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p><strong>智能照明产品<br /></strong>探索更多宜家智能照明产品，包括启动套件、单独光源和遥控器等。<br /><a href=\"https://www.ikea.cn/cn/zh/rooms/deng-pub320bd09c\">查看所有宜家智能照明产品</a></p>"
+    "智能照明产品 探索更多宜家智能照明产品，包括启动套件、单独光源和遥控器等。 查看所有宜家智能照明产品"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

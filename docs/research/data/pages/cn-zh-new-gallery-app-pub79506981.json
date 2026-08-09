@@ -14,16 +14,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<p>使用免费的 TR&Aring;DFRI 特鲁菲 应用程序，你可以设置定时器、调节光线明暗、预设灯光氛围、调节色温、控制单个光源。让灯光更加符合你的心情。<br /><br />准备开始设置了吗？你需要 TR&Aring;DFRI 特鲁菲 网关和遥控器。只需将网关连接至家中WiFi，然后按照应用程序中的设置指南进行操作即可。</p>"
+    "使用免费的 TRåDFRI 特鲁菲 应用程序，你可以设置定时器、调节光线明暗、预设灯光氛围、调节色温、控制单个光源。让灯光更加符合你的心情。 准备开始设置了吗？你需要 TRåDFRI 特鲁菲 网关和遥控器。只需将网关连接至家中WiFi，然后按照应用程序中的设置指南进行操作即可。"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -44,6 +48,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -64,6 +70,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -75,16 +83,19 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
    "settings": null
   },
   {
    "type": "pub-text",
    "title": null,
    "texts": [
-    "<h2>智能照明产品</h2>"
+    "智能照明产品"
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -105,6 +116,8 @@
      "text": ""
     }
    ],
+   "items": [],
+   "productIds": [],
    "settings": null
   }
  ]

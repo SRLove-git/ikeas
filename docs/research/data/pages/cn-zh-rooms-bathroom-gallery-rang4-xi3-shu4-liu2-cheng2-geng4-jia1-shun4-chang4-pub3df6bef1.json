@@ -11,7 +11,7 @@
    "title": "让洗漱流程更加顺畅",
    "texts": [
     "宜家 GODMORGON 古德莫 浅灰色浴室洗浴用柜和抽屉由实木制成，密胺台面表面光滑，并且防指纹，抗污渍。",
-    "<p>清爽整洁的水槽表面和井然有序的内部助你轻松开启清晨时光。</p>",
+    "清爽整洁的水槽表面和井然有序的内部助你轻松开启清晨时光。",
     "让洗漱流程更加顺畅",
     "normal"
    ],
@@ -24,6 +24,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "让洗漱流程更加顺畅",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/96/65/9665a84bc1ee1e61669aadf75551504a.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -39,6 +49,32 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "TOLKEN 托尔肯",
+     "text": "¥300",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/tolken-tuo-er-ken-tai-mian-bai-se-fang-da-li-shi-bo-ceng-zhuang__0558646_pe661625_s4.jpg",
+     "href": "/cn/zh/p/tolken-tuo-er-ken-tai-mian-bai-se-fang-da-li-shi-bo-ceng-zhuang-30354698/"
+    },
+    {
+     "title": "VILTO 维尔托",
+     "text": "¥299",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/vilto-wei-er-tuo-mao-jin-jia-hua-mu__0721630_pe733303_s4.jpg",
+     "href": "/cn/zh/p/vilto-wei-er-tuo-mao-jin-jia-hua-mu-80344452/"
+    },
+    {
+     "title": "BROGRUND 布鲁格隆德",
+     "text": "¥79.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/brogrund-bu-lu-ge-long-de-mao-jin-gan-bu-xiu-gang__0710452_pe727569_s4.jpg",
+     "href": "/cn/zh/p/brogrund-bu-lu-ge-long-de-mao-jin-gan-bu-xiu-gang-00328535/"
+    },
+    {
+     "title": "FRÄCK 富拉克",
+     "text": "¥39.99",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/fraeck-fu-la-ke-jing-zi-bu-xiu-gang__0637648_pe698438_s4.jpg",
+     "href": "/cn/zh/p/fraeck-fu-la-ke-jing-zi-bu-xiu-gang-00181982/"
+    }
+   ],
    "settings": null
   }
  ]

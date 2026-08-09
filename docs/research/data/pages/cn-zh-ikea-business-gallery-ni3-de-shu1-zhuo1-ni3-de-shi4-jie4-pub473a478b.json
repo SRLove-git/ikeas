@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -34,6 +36,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "采用现代装饰风格并饰有浅绿色墙壁的办公环境，摆放着宜家 BEKANT 贝肯特 白色可调式转角桌。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/b5/d6/b5d6d51fddd09635080c4337baf089eb.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -49,6 +61,26 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "HEKTAR 赫克塔",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/hektar-he-ke-ta-qiang-mian-jia-shi-she-deng-shen-hui-se__0606598_pe682407_s4.jpg",
+     "href": "/cn/zh/p/hektar-he-ke-ta-qiang-mian-jia-shi-she-deng-shen-hui-se-70216539/"
+    },
+    {
+     "title": "BÄVE 贝弗",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/baeve-bei-fu-led-san-tou-xi-ding-deng-gui-bai-se__0607328_pe682887_s4.jpg",
+     "href": "/cn/zh/p/baeve-bei-fu-led-san-tou-xi-ding-deng-gui-bai-se-30238147/"
+    },
+    {
+     "title": "KOLON 卡伦",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/kolon-qia-lun-di-ban-bao-hu-dian__0292207_pe425129_s4.jpg",
+     "href": "/cn/zh/p/kolon-qia-lun-di-ban-bao-hu-dian-90176245/"
+    }
+   ],
    "settings": null
   }
  ]

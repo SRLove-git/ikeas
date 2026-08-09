@@ -14,6 +14,8 @@
    ],
    "images": [],
    "links": [],
+   "items": [],
+   "productIds": [],
    "settings": null
   },
   {
@@ -34,6 +36,16 @@
      "text": ""
     }
    ],
+   "items": [
+    {
+     "title": "中等大小的白色和米色办公室内摆放着实用的宜家 HÄLLAN 海朗 白色可上锁储物柜。",
+     "text": "",
+     "image": "https://file.app.ikea.cn/images/47/50/47502c9156daa0eb60be26e0070eb7ec.jpg",
+     "href": null,
+     "backgroundColor": null
+    }
+   ],
+   "productIds": [],
    "settings": null
   },
   {
@@ -49,6 +61,20 @@
    ],
    "images": [],
    "links": [],
+   "items": [
+    {
+     "title": "LÅNGFJÄLL 隆菲尔",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/langfjaell-long-fei-er-hui-yi-yi-gang-na-rui-de-mi-huang-se-bai-se__0725408_pe734840_s4.jpg",
+     "href": "/cn/zh/p/langfjaell-long-fei-er-hui-yi-yi-gang-na-rui-de-mi-huang-se-bai-se-89252481/"
+    },
+    {
+     "title": "NYMÅNE 纽墨奈",
+     "text": "",
+     "image": "https://file.app.ikea.cn/cn/zh/images/products/nymane-niu-mo-nai-xi-ding-deng-dai-4-ge-she-deng-bai-se__0607350_pe682899_s4.jpg",
+     "href": "/cn/zh/p/nymane-niu-mo-nai-xi-ding-deng-dai-4ge-she-deng-bai-se-50337702/"
+    }
+   ],
    "settings": null
   }
  ]
