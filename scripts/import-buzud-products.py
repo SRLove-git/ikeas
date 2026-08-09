@@ -4,11 +4,11 @@
 Reads "BUZUD 产品零售价清单(1).pdf", extracts the product table and the
 embedded product images, then regenerates:
 
-  - src/data/products/products-part-*.json  (the 23 BUZUD products)
-  - src/data/catalog.json                   (BUZUD categories)
-  - src/data/catalog-pages/all.json         (BUZUD catalog pages)
-  - src/data/homepage.json                  (feed + ranking product sections)
-  - public/images/products/buzud-*.jpg      (product photos)
+  - frontend/src/data/products/products-part-*.json  (the 23 BUZUD products)
+  - frontend/src/data/catalog.json                   (BUZUD categories)
+  - frontend/src/data/catalog-pages/all.json         (BUZUD catalog pages)
+  - frontend/src/data/homepage.json                  (feed + ranking product sections)
+  - frontend/public/images/products/buzud-*.jpg      (product photos)
 
 Usage: python3 scripts/import-buzud-products.py
 """
@@ -24,8 +24,8 @@ from PIL import Image, ImageCms
 
 ROOT = Path(__file__).resolve().parent.parent
 PDF_PATH = ROOT / "BUZUD 产品零售价清单(1).pdf"
-SRC_DATA = ROOT / "src" / "data"
-IMG_DIR = ROOT / "public" / "images" / "products"
+SRC_DATA = ROOT / "frontend" / "src" / "data"
+IMG_DIR = ROOT / "frontend" / "public" / "images" / "products"
 
 # (page_index_0based, xobject_name, sku, name, usage, price, product_type, design_text)
 PRODUCTS = [

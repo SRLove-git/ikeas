@@ -1,225 +1,81 @@
-# AI Website Cloner Template
+# BUZUD 健康产品商城
 
-<a href="https://github.com/JCodesMore/ai-website-cloner-template/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT License" /></a> <a href="https://github.com/JCodesMore/ai-website-cloner-template/stargazers"><img src="https://img.shields.io/github/stars/JCodesMore/ai-website-cloner-template?style=flat" alt="Stars" /></a> <a href="https://discord.gg/hrTSX5yTpB"><img src="https://img.shields.io/discord/1400896964597383279?label=discord" alt="Discord" /></a> <img src="https://img.shields.io/endpoint?url=https://gittokens.rsamf.com/badge/JCodesMore/ai-website-cloner-template" alt="tokens" />
+基于 Next.js 16 + Spring Boot 3.5 的 BUZUD 品牌健康产品商城。当前商品目录为零售价清单中的 23 个家庭健康自测与监测产品（快速检测试剂、智能手表、血压计、血糖管理、健康监测设备），价格以 SGD 显示。
 
-A reusable template for reverse-engineering any website into a clean, modern Next.js codebase using AI coding agents. 
+## 功能
 
-**Recommended: [Claude Code](https://docs.anthropic.com/en/docs/claude-code) with Opus 4.8 for best results** — but works with a variety of AI coding agents.
+- 前台：首页、所有商品、5 个商品分类页、商品详情、搜索、购物袋、收藏、订单、个人中心、结算、客户服务内容页
+- 管理后台（`/admin`）：首页各区块、分类、导航菜单、商品、落地页、订单、客服知识库，均支持表单化编辑，保存后前台即时生效
+- 后端 API：商品/目录/首页/菜单/内容页、登录（短信/密码）、购物袋、收藏、客服聊天
 
-Point it at a URL, run `/clone-website`, and your AI agent will inspect the site, extract design tokens and assets, write component specs, and dispatch parallel builders to reconstruct every section.
+## 技术栈
 
-## Demo
+- 前端：Next.js 16（App Router、React 19、TypeScript strict、Tailwind CSS v4、shadcn/ui），位于 `frontend/`
+- 后端：Java 21 + Spring Boot 3.5（`backend/`，端口 8080）
+- 数据：JSON 文件（无数据库），前端 `frontend/src/data/` 为唯一编辑入口，后端为同步副本
 
-[![Watch the demo](docs/design-references/comparison.png)](https://youtu.be/O669pVZ_qr0)
-
-> Click the image above to watch the full demo on YouTube.
-
-## Quick Start
-
-> **Important:** Start by making your own copy with GitHub's **Use this template** button. Do not clone this template repository directly for your website project, and do not open pull requests here with your generated website.
-
-1. **Create your own repository from this template**
-
-   On the GitHub page for this project, click **Use this template**, then click **Create a new repository**.
-
-   Give your new repository a name, choose whether it should be public or private, then click **Create repository**. If GitHub shows an **Include all branches** option, you can leave it off.
-
-   This gives you your own separate project to work in, so your website changes stay in your account instead of coming back to the main template.
-
-2. **Open your new repository on your computer**
-
-   After GitHub creates your copy, open that new repository. Click **Code** and open or clone your new repository with your preferred coding tool.
-
-   If you use the terminal, the command will look like this:
-
-   ```bash
-   git clone https://github.com/YOUR-USERNAME/YOUR-NEW-REPOSITORY.git
-   cd YOUR-NEW-REPOSITORY
-   ```
-
-3. **Install dependencies**
-   ```bash
-   npm install
-   ```
-4. **Start your AI agent** — Claude Code recommended:
-   ```bash
-   claude --chrome
-   ```
-5. **Run the skill**:
-   ```
-   /clone-website <target-url1> [<target-url2> ...]
-   ```
-6. **Customize** (optional) — after the base clone is built, modify as needed
-
-> Using a different agent? Open `AGENTS.md` for project instructions — most agents pick it up automatically.
-
-## Supported Platforms
-
-| Agent                                                         | Status                     |
-| ------------------------------------------------------------- | -------------------------- |
-| [Claude Code](https://docs.anthropic.com/en/docs/claude-code) | **Recommended** — Opus 4.8 |
-| [Codex CLI](https://github.com/openai/codex)                  | Supported                  |
-| [OpenCode](https://opencode.ai/)                              | Supported                  |
-| [GitHub Copilot](https://github.com/features/copilot)         | Supported                  |
-| [Cursor](https://cursor.com/)                                 | Supported                  |
-| [Windsurf](https://codeium.com/windsurf)                      | Supported                  |
-| [Gemini CLI](https://github.com/google-gemini/gemini-cli)     | Supported                  |
-| [Cline](https://github.com/cline/cline)                       | Supported                  |
-| [Roo Code](https://github.com/RooCodeInc/Roo-Code)            | Supported                  |
-| [Continue](https://continue.dev/)                             | Supported                  |
-| [Amazon Q](https://aws.amazon.com/q/developer/)               | Supported                  |
-| [Augment Code](https://www.augmentcode.com/)                  | Supported                  |
-| [Aider](https://aider.chat/)                                  | Supported                  |
-
-## Prerequisites
-
-- [Node.js](https://nodejs.org/) 24+
-- An AI coding agent (see [Supported Platforms](#supported-platforms))
-
-## Tech Stack
-
-- **Next.js 16** — App Router, React 19, TypeScript strict
-- **shadcn/ui** — Radix primitives + Tailwind CSS v4
-- **Tailwind CSS v4** — oklch design tokens
-- **Lucide React** — default icons (replaced by extracted SVGs during cloning)
-
-## Backend (`server/`)
-
-The `server/` folder contains a **Java 21 + Spring Boot 3.5** REST backend that
-serves the same crawled data (categories, products, content pages, homepage,
-menus) through a JSON API, implements the site's interactive features
-(SMS/password login with bearer sessions, shopping bag, favorites, customer
-chat), and can optionally serve the `public/` assets. The frontend login page,
-search page, header account state, product page actions and chat widget are
-wired to this API (fall back to static data when the backend is unreachable).
-
-Demo account: `demo@ikea.cn` / `13800138000`, password `123456`.
-
-```bash
-cd server && ./mvnw spring-boot:run   # http://localhost:8080/api/v1/health
-```
-
-See [server/README.md](server/README.md) for the API reference and
-configuration. Data is exported from `src/data/` via
-`node scripts/export-server-data.mjs`.
-
-## How It Works
-
-The `/clone-website` skill runs a multi-phase pipeline:
-
-1. **Reconnaissance** — screenshots, design token extraction, interaction sweep (scroll, click, hover, responsive)
-2. **Foundation** — updates fonts, colors, globals, downloads all assets
-3. **Component Specs** — writes detailed spec files (`docs/research/components/`) with exact computed CSS values, states, behaviors, and content
-4. **Parallel Build** — dispatches builder agents in git worktrees, one per section/component
-5. **Assembly & QA** — merges worktrees, wires up the page, runs visual diff against the original
-
-Each builder agent receives the full component specification inline — exact `getComputedStyle()` values, interaction models, multi-state content, responsive breakpoints, and asset paths. No guessing.
-
-## Use Cases
-
-- **Platform migration** — rebuild a site you own from WordPress/Webflow/Squarespace into a modern Next.js codebase
-- **Lost source code** — your site is live but the repo is gone, the developer left, or the stack is legacy. Get the code back in a modern format
-- **Learning** — deconstruct how production sites achieve specific layouts, animations, and responsive behavior by working with real code
-
-## Not Intended For
-
-- **Phishing or impersonation** — this project must not be used for deceptive purposes, impersonation, or any activity that breaks the law.
-- **Passing off someone's design as your own** — logos, brand assets, and original copy belong to their owners.
-- **Violating terms of service** — some sites explicitly prohibit scraping or reproduction. Check first.
-
-## Project Structure
+## 目录结构
 
 ```
-src/
-  app/              # Next.js routes
-  components/       # React components
-    ui/             # shadcn/ui primitives
-    icons.tsx       # Extracted SVG icons
-  lib/utils.ts      # cn() utility
-  types/            # TypeScript interfaces
-  hooks/            # Custom React hooks
-public/
-  images/           # Downloaded images from target
-  videos/           # Downloaded videos from target
-  seo/              # Favicons, OG images
-docs/
-  research/         # Extraction output & component specs
-  design-references/ # Screenshots
+frontend/
+  src/
+    app/            # 前台路由 + /admin 管理后台 + /api 接口
+    components/     # 页面组件（admin/ 为后台组件）
+    data/           # 数据源：products、catalog、catalog-pages、homepage、menu、pages
+    lib/            # 数据读取、API、管理后台存储
+  public/images/products/         # BUZUD 商品图片
+backend/src/main/resources/data/  # 后端数据副本（由导出脚本同步）
+deploy/                           # Docker 与 docker-compose 配置
 scripts/
-  sync-agent-rules.sh  # Regenerate agent instruction files
-  sync-skills.mjs      # Regenerate /clone-website for all platforms
-AGENTS.md           # Agent instructions (single source of truth)
-CLAUDE.md           # Claude Code config (imports AGENTS.md)
-GEMINI.md           # Gemini CLI config (imports AGENTS.md)
+  import-buzud-products.py  # 从零售价 PDF 导入商品
+  update-buzud-menu.py      # 生成 BUZUD 导航菜单
+  export-server-data.mjs    # 前端数据 -> 后端数据
+docs/项目规范.md              # 项目开发与内容规范（必读）
 ```
 
-## Commands
+## 本地运行
 
 ```bash
-npm run dev    # Start dev server
-npm run build  # Production build
-npm run lint   # ESLint check
-npm run typecheck # TypeScript check
-npm run check  # Run lint + typecheck + build
+# 前端（Node >= 24）
+cd frontend
+npm install
+npm run dev          # http://localhost:3000
+
+# 后端（JDK 21，macOS 需设置 JAVA_HOME）
+cd backend && ./mvnw spring-boot:run  # http://localhost:8080
 ```
 
-### If using docker
+演示账号：`demo@ikea.cn` / `13800138000`，密码 `123456`。
+管理后台：http://localhost:3000/admin/ （默认 `admin / admin123`，可用环境变量覆盖）。
+
+## 常用命令
 
 ```bash
-docker compose up app --build # build and run the app
-docker compose up dev --build # run the app in dev mode on port 3001
+cd frontend
+npm run dev          # 开发服务器
+npm run build        # 生产构建
+npm run lint         # ESLint
+npm run typecheck    # TypeScript 检查
+npm run format       # Prettier 自动格式化
+npm run format:check # Prettier 检查
+npm run check        # lint + typecheck + build
 ```
 
-## 内容管理后台（Admin CMS）
+数据变更后同步后端：
 
-本项目内置一个完整的内容管理后台，可以管理网站的全部内容：
+```bash
+node scripts/export-server-data.mjs
+# 重启后端服务使其生效
+```
 
-- **入口**：`http://localhost:3000/admin/login`（开发端口 3200 时用 `http://localhost:3200/admin/login`）
-- **默认账号**：`admin / admin123`（可用环境变量 `ADMIN_USERNAME` / `ADMIN_PASSWORD` 修改）
+## 商品导入
 
-后台管理的内容：
+更新商品目录时执行：
 
-| 模块 | 说明 |
-| --- | --- |
-| 仪表盘 | 内容统计、运营服务状态、最近操作 |
-| 商品管理 | 商品的名称/价格/图片/标签/详情，支持搜索、新建、编辑、删除 |
-| 分类管理 | 商品分类与频道分类的名称、链接、图片、子分类 |
-| 页面内容 | 全部内容页面（房间/灵感/活动/客服/门店/新闻等）+ 41 个兜底页面，区块化编辑器 |
-| 首页管理 | 顶部通知、导航、Hero 轮播、促销、榜单、页脚等全部区块 |
-| 导航菜单 | 顶部下拉菜单面板与「所有商品」分类菜单 |
-| 分类落地页 | 分类页的名称、描述、推荐商品与内容区块 |
-| 订单管理 | 「我的订单」页面数据源，支持新建/编辑/删除 |
-| 客服知识库 | 客服机器人自动回复规则与默认回复（热更新，`IKEA_CHAT_KNOWLEDGE_FILE`） |
-| 用户/购物车/收藏/聊天 | 对接 Spring Boot 运营服务（需后端在线，管理密钥 `IKEA_ADMIN_KEY`，默认 `ikea-admin`） |
-| 网站设置 | 站点名称、SEO 描述与 404/问卷页面文案（实时生效） |
-| 操作日志 | 后台所有内容修改记录（保留 200 条） |
+```bash
+python3 scripts/import-buzud-products.py    # 从 PDF 导入商品与图片
+python3 scripts/update-buzud-menu.py        # 重新生成导航菜单
+node scripts/export-server-data.mjs         # 同步后端
+```
 
-**数据即文件**：后台读写 `src/data/*.json`（商品、页面、首页、菜单、订单、设置等），
-前台页面每次请求实时读取同一份文件。后台保存后前台立即生效，无需重启或重新构建；
-生产部署时 `next build` 会把 `src/data` 一并打进 standalone 输出。
-
-**同步到后端**：内容修改后，运行 `node scripts/export-server-data.mjs` 会把最新
-`src/data` 导出到 `server/src/main/resources/data`，让 Spring Boot API 返回一致数据。
-
-管理后台 API 位于 `/api/admin/**`（Next.js Route Handlers，会话 Cookie 认证）；
-运营数据接口位于 Spring Boot `/api/v1/admin/**`（`X-Admin-Key` 认证）。
-
-## Updating for Other Platforms
-
-Two source-of-truth files power all platform support. Edit the source, then run the sync script:
-
-| What                   | Source of truth                         | Sync command                       |
-| ---------------------- | --------------------------------------- | ---------------------------------- |
-| Project instructions   | `AGENTS.md`                             | `bash scripts/sync-agent-rules.sh` |
-| `/clone-website` skill | `.claude/skills/clone-website/SKILL.md` | `node scripts/sync-skills.mjs`     |
-
-Each script regenerates the platform-specific copies automatically. Agents that read the source files natively need no regeneration.
-
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=JCodesMore/ai-website-cloner-template&type=Date)](https://star-history.com/#JCodesMore/ai-website-cloner-template&Date)
-
-## License
-
-MIT
+详细规范（数据字段约定、分类体系、管理后台、Git 流程、验证清单等）见 [docs/项目规范.md](docs/项目规范.md)。

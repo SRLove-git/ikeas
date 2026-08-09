@@ -1,0 +1,38 @@
+import { notFound } from "next/navigation";
+import { ContentPage } from "@/components/ContentPage";
+import { SiteLayout } from "@/components/SiteLayout";
+import { contentPages } from "@/data/pages-index";
+import {
+  findContentPage,
+  isHandledBySpecificRoute,
+} from "@/lib/pages";
+
+export const dynamicParams = false;
+
+export function generateStaticParams() {
+  return contentPages()
+    .filter((page) => !isHandledBySpecificRoute(page.url))
+    .map((page) => ({
+      slug: page.url
+        .replace("/cn/zh/", "")
+        .replace(/\/+$/, "")
+        .split("/"),
+    }));
+}
+
+export default async function CatchAllPage({
+  params,
+}: {
+  params: Promise<{ slug: string[] }>;
+}) {
+  const { slug } = await params;
+  const url = `/cn/zh/${slug.join("/")}`;
+  const page = findContentPage(url);
+  if (!page) notFound();
+
+  return (
+    <SiteLayout>
+      <ContentPage page={page} />
+    </SiteLayout>
+  );
+}

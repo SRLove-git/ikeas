@@ -1,0 +1,74 @@
+services:
+  app:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+      target: runner
+    image: ai-website-cloner:latest
+    container_name: ai-website-cloner
+    restart: unless-stopped
+    ports:
+      - "${PORT:-3000}:3000"
+    environment:
+      - NODE_ENV=production
+      - NEXT_TELEMETRY_DISABLED=1
+    env_file:
+      - path: ../.env.local
+        required: false
+      - path: ../.env
+        required: false
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://localhost:3000/ || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
+  dev:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile.dev
+    image: ai-website-cloner:dev
+    container_name: ai-website-cloner-dev
+    restart: unless-stopped
+    ports:
+      - "${DEV_PORT:-3001}:3000"
+    environment:
+      - NODE_ENV=development
+      - NEXT_TELEMETRY_DISABLED=1
+    env_file:
+      - path: ../.env.local
+        required: false
+      - path: ../.env
+        required: false
+    volumes:
+      - ../frontend:/app
+      - /app/node_modules
+      - /app/.next
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://localhost:3000/ || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 15s
+
+  server:
+    build:
+      context: ..
+      dockerfile: backend/Dockerfile
+    image: ikea-server:latest
+    container_name: ikea-server
+    restart: unless-stopped
+    ports:
+      - "${SERVER_PORT:-8080}:8080"
+    environment:
+      - IKEA_STATIC_PUBLIC_DIR=${IKEA_STATIC_PUBLIC_DIR:-/app/frontend/public}
+      - CORS_ALLOWED_ORIGINS=${CORS_ALLOWED_ORIGINS:-http://localhost:3000,http://localhost:3001}
+    volumes:
+      - ../frontend/public:/app/frontend/public:ro
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://localhost:8080/api/v1/health || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s

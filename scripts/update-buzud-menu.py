@@ -2,8 +2,8 @@
 """Regenerate the BUZUD header navigation (top bar + mega menu).
 
 Reads the imported BUZUD products and rewrites:
-  - src/data/homepage.json   (navMenuItems, megaMenuCategories)
-  - src/data/menu-categories.json (the mega-menu categories with subs)
+  - frontend/src/data/homepage.json   (navMenuItems, megaMenuCategories)
+  - frontend/src/data/menu-categories.json (the mega-menu categories with subs)
 
 Usage: python3 scripts/update-buzud-menu.py
 """
@@ -12,7 +12,7 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-SRC_DATA = ROOT / "src" / "data"
+SRC_DATA = ROOT / "frontend" / "src" / "data"
 
 CATEGORY_META = [
     {

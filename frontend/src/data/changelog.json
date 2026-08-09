@@ -1,0 +1,110 @@
+[
+  {
+    "user": "admin",
+    "action": "update",
+    "resource": "page",
+    "target": "/cn/zh/rooms/childrens-room/gallery/",
+    "summary": "更新页面「儿童房设计灵感（测试提升）」",
+    "id": "1786185985059-1h956l",
+    "at": "2026-08-08T10:46:25.059Z"
+  },
+  {
+    "user": "admin",
+    "action": "update",
+    "resource": "settings",
+    "target": "settings",
+    "summary": "更新网站设置",
+    "id": "1786185911098-ba0qeo",
+    "at": "2026-08-08T10:45:11.098Z"
+  },
+  {
+    "user": "admin",
+    "action": "update",
+    "resource": "settings",
+    "target": "settings",
+    "summary": "更新网站设置",
+    "id": "1786185910623-w8we44",
+    "at": "2026-08-08T10:45:10.623Z"
+  },
+  {
+    "user": "admin",
+    "action": "update",
+    "resource": "page",
+    "target": "/cn/zh/rooms/bedroom/gallery/",
+    "summary": "更新页面「探索卧室灵感（后台测试）」",
+    "id": "1786185883033-uyf6qg",
+    "at": "2026-08-08T10:44:43.033Z"
+  },
+  {
+    "user": "admin",
+    "action": "update",
+    "resource": "menu",
+    "target": "menu",
+    "summary": "更新导航菜单",
+    "id": "1786185872631-m2twdf",
+    "at": "2026-08-08T10:44:32.631Z"
+  },
+  {
+    "user": "admin",
+    "action": "update",
+    "resource": "chat-knowledge",
+    "target": "chat-knowledge",
+    "summary": "更新客服知识库",
+    "id": "1786185862081-ibr93b",
+    "at": "2026-08-08T10:44:22.081Z"
+  },
+  {
+    "user": "admin",
+    "action": "update",
+    "resource": "settings",
+    "target": "settings",
+    "summary": "更新网站设置",
+    "id": "1786184967196-xnto24",
+    "at": "2026-08-08T10:29:27.196Z"
+  },
+  {
+    "user": "admin",
+    "action": "update",
+    "resource": "settings",
+    "target": "settings",
+    "summary": "更新网站设置",
+    "id": "1786184966992-fmc79z",
+    "at": "2026-08-08T10:29:26.992Z"
+  },
+  {
+    "user": "admin",
+    "action": "delete",
+    "resource": "order",
+    "target": "TEST-ORDER-001",
+    "summary": "删除订单 TEST-ORDER-001",
+    "id": "1786184811472-r9ahx0",
+    "at": "2026-08-08T10:26:51.472Z"
+  },
+  {
+    "user": "admin",
+    "action": "create",
+    "resource": "order",
+    "target": "TEST-ORDER-001",
+    "summary": "创建订单 TEST-ORDER-001",
+    "id": "1786184811023-14wh6u",
+    "at": "2026-08-08T10:26:51.023Z"
+  },
+  {
+    "user": "admin",
+    "action": "update",
+    "resource": "homepage",
+    "target": "homepage",
+    "summary": "更新首页字段: searchHints",
+    "id": "1786184806738-5sh5mq",
+    "at": "2026-08-08T10:26:46.738Z"
+  },
+  {
+    "user": "admin",
+    "action": "update",
+    "resource": "homepage",
+    "target": "homepage",
+    "summary": "更新首页字段: searchHints",
+    "id": "1786184802834-381xqc",
+    "at": "2026-08-08T10:26:42.834Z"
+  }
+]

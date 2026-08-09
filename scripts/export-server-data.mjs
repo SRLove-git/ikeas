@@ -4,36 +4,11 @@
 // Usage: node scripts/export-server-data.mjs
 import fs from "node:fs";
 import path from "node:path";
-import vm from "node:vm";
-import ts from "typescript";
 import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const srcData = path.join(root, "src", "data");
-const outRoot = path.join(root, "server", "src", "main", "resources", "data");
-
-// --- Convert a TS data module (pure data + type-only imports) into JSON ---
-function exportTsData(relPath) {
-  const file = path.join(srcData, relPath);
-  const source = fs.readFileSync(file, "utf8");
-  const { outputText } = ts.transpileModule(source, {
-    compilerOptions: {
-      module: ts.ModuleKind.CommonJS,
-      target: ts.ScriptTarget.ES2020,
-      importsNotUsedAsValues: "remove",
-    },
-    fileName: file,
-  });
-  const mod = { exports: {} };
-  const sandbox = {
-    module: mod,
-    exports: mod.exports,
-    require: () => ({}),
-    console,
-  };
-  vm.runInNewContext(outputText, sandbox, { filename: file });
-  return mod.exports;
-}
+const srcData = path.join(root, "frontend", "src", "data");
+const outRoot = path.join(root, "backend", "src", "main", "resources", "data");
 
 function copy(src, dest) {
   fs.mkdirSync(path.dirname(dest), { recursive: true });
@@ -55,8 +30,8 @@ copy(path.join(srcData, "menu-panels.json"), path.join(outRoot, "menu-panels.jso
 copy(path.join(srcData, "menu-categories.json"), path.join(outRoot, "menu-categories.json"));
 copy(path.join(srcData, "catalog.json"), path.join(outRoot, "catalog.json"));
 copy(path.join(srcData, "chat-knowledge.json"), path.join(outRoot, "chat-knowledge.json"));
-// Legacy content pages (heading/text/section shape) stay a TS literal.
-writeJson("legacy-pages.json", exportTsData("pages.ts"));
+// Legacy content pages were removed with the IKEA content cleanup.
+writeJson("legacy-pages.json", { contentPages: [] });
 
 // Raw crawled JSON stays byte-for-byte identical.
 copy(path.join(srcData, "catalog-pages", "all.json"), path.join(outRoot, "catalog-pages.json"));

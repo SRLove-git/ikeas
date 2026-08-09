@@ -1,0 +1,373 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans:
+    "Noto IKEA Latin", "Noto Ikea SC", "Noto Sans SC", "Noto Sans", Roboto,
+    "Open Sans", system-ui, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, monospace;
+  --font-heading: var(--font-sans);
+  --color-ikea-yellow: #ffdb00;
+  --color-ikea-blue: #0058a3;
+  --color-ikea-red: #cc0008;
+  --color-ikea-orange: #ca5008;
+  --color-ikea-beige: #f5deb3;
+  --color-ikea-black: #111111;
+  --color-ikea-gray-100: #f5f5f5;
+  --color-ikea-gray-150: #dfdfdf;
+  --color-ikea-gray-200: #e5e7eb;
+  --color-ikea-muted: #484848;
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #111111;
+  --card: #ffffff;
+  --card-foreground: #111111;
+  --popover: #ffffff;
+  --popover-foreground: #111111;
+  --primary: #0058a3;
+  --primary-foreground: #ffffff;
+  --secondary: #f5f5f5;
+  --secondary-foreground: #111111;
+  --muted: #f5f5f5;
+  --muted-foreground: #484848;
+  --accent: #ffdb00;
+  --accent-foreground: #111111;
+  --destructive: #cc0008;
+  --border: #e5e7eb;
+  --input: #e5e7eb;
+  --ring: #0058a3;
+  --chart-1: #0058a3;
+  --chart-2: #ffdb00;
+  --chart-3: #cc0008;
+  --chart-4: #ca5008;
+  --chart-5: #f5deb3;
+  --radius: 0.625rem;
+  --sidebar: #ffffff;
+  --sidebar-foreground: #111111;
+  --sidebar-primary: #0058a3;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #f5f5f5;
+  --sidebar-accent-foreground: #111111;
+  --sidebar-border: #e5e7eb;
+  --sidebar-ring: #0058a3;
+}
+
+.dark {
+  --background: #111111;
+  --foreground: #ffffff;
+  --card: #1a1a1a;
+  --card-foreground: #ffffff;
+  --popover: #1a1a1a;
+  --popover-foreground: #ffffff;
+  --primary: #ffffff;
+  --primary-foreground: #111111;
+  --secondary: #262626;
+  --secondary-foreground: #ffffff;
+  --muted: #262626;
+  --muted-foreground: #a3a3a3;
+  --accent: #ffdb00;
+  --accent-foreground: #111111;
+  --destructive: #cc0008;
+  --border: #333333;
+  --input: #333333;
+  --ring: #a3a3a3;
+  --chart-1: #0058a3;
+  --chart-2: #ffdb00;
+  --chart-3: #cc0008;
+  --chart-4: #ca5008;
+  --chart-5: #f5deb3;
+  --sidebar: #1a1a1a;
+  --sidebar-foreground: #ffffff;
+  --sidebar-primary: #ffffff;
+  --sidebar-primary-foreground: #111111;
+  --sidebar-accent: #262626;
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: #333333;
+  --sidebar-ring: #a3a3a3;
+}
+
+@layer base {
+  * {
+    border-color: var(--border);
+  }
+
+  html {
+    font-size: 16px;
+  }
+
+  body {
+    margin: 0;
+    font-size: 14px;
+    line-height: 21px;
+    color: #111111;
+    background-color: #ffffff;
+    font-family:
+      "Noto IKEA Latin", "Noto Ikea SC", "Noto Sans SC", "Noto Sans", Roboto,
+      "Open Sans", -apple-system, sans-serif;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  button {
+    cursor: pointer;
+  }
+}
+
+@layer utilities {
+  .max-w-page {
+    max-width: 1440px;
+    min-width: 1100px;
+    margin-inline: auto;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  .font-ikea {
+    font-family:
+      "Noto IKEA Latin", "Noto Ikea SC", "Noto Sans SC", "Noto Sans", Roboto,
+      "Open Sans", -apple-system, sans-serif;
+  }
+
+  .i-pill {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    border-radius: 9999px;
+    font-weight: 700;
+    transition:
+      background-color 0.2s ease,
+      color 0.2s ease,
+      border-color 0.2s ease;
+  }
+
+  .i-pill--small {
+    height: 40px;
+    padding: 0 20px;
+    font-size: 14px;
+    border: 1px solid #dfdfdf;
+    background: #ffffff;
+    color: #111111;
+  }
+
+  .i-pill--active {
+    background: #111111;
+    border-color: #111111;
+    color: #ffffff;
+  }
+
+  .i-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border-radius: 64px;
+    font-weight: 700;
+    line-height: 1;
+    transition: background-color 0.2s ease;
+  }
+
+  .i-btn--small {
+    height: 40px;
+    padding: 0 20px;
+    font-size: 12px;
+  }
+
+  .i-btn--xsmall {
+    height: 32px;
+    padding: 0 12px;
+    font-size: 12px;
+  }
+
+  .i-btn--primary {
+    background: #0058a3;
+    color: #ffffff;
+  }
+
+  .i-btn--primary:hover {
+    background: #004b8a;
+  }
+
+  .i-btn--emphasised {
+    background: #ffdb00;
+    color: #111111;
+  }
+
+  .ellipsis {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Direct <img> children of IKEA aspect-ratio boxes must fill the box */
+.i-aspect-ratio-box > img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* === Clone component alignment fixes === */
+
+/* Search icon inside the header search bar */
+.search-input {
+  position: relative;
+}
+
+.search-input__icon {
+  position: absolute;
+  left: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #111111;
+}
+
+/* Rotating search hints (深盘 / 食品盒 / 靠垫套) */
+.s-header-notice .i-notice {
+  height: 30px;
+  overflow: hidden;
+}
+
+.i-notice-hints {
+  transition: transform 0.4s ease;
+}
+
+.i-notice-hints p {
+  height: 30px;
+  line-height: 30px;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Header action pills (登录宜家账号 / 我的个人档案 / 我的收藏 / 购物袋) */
+.header-action-btn {
+  align-items: center;
+  background: #ffffff;
+  border-radius: 24px;
+  display: flex;
+  height: 48px;
+  justify-content: center;
+  min-width: 48px;
+  padding: 10px;
+  vertical-align: middle;
+}
+
+.header-action-btn:hover {
+  background: #cccccc;
+  cursor: pointer;
+}
+
+.header-action-btn > span {
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.header-action-btn--login {
+  padding: 10px;
+}
+
+/* Notice-bar message icon (info circle + text) */
+.message-icon {
+  display: inline-block;
+  margin: 0 6px 6px 0;
+  vertical-align: middle;
+  transform: translateY(2px);
+}
+
+/* Language switch separator */
+.lang-separator {
+  margin: 0 4px;
+}
+
+/* Mega menu layer: anchor below the 134px header */
+.mega-menu-layer {
+  position: absolute;
+  top: 133.5px;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+/* App-promo QR panel close button */
+.detail-info__close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.detail-info__close button {
+  align-items: center;
+  background: #f5f5f5;
+  border: none;
+  border-radius: 64px;
+  color: #111111;
+  display: flex;
+  font-size: 18px;
+  height: 32px;
+  justify-content: center;
+  width: 32px;
+}
+
+/* Menu labels follow the original's hover underline behavior */
+.menu-label {
+  cursor: pointer;
+}

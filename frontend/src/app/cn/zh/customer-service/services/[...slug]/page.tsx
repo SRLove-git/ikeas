@@ -1,0 +1,38 @@
+import { notFound } from "next/navigation";
+import { findContentPage, pagesByFamily } from "@/lib/pages";
+import { ContentPage } from "@/components/ContentPage";
+import { SiteLayout } from "@/components/SiteLayout";
+
+export const dynamicParams = false;
+
+export function generateStaticParams() {
+  return pagesByFamily("customer-service")
+    .filter(
+      (page) =>
+        page.url.startsWith("/cn/zh/customer-service/services/") &&
+        page.url.split("/").filter(Boolean).length > 5,
+    )
+    .map((page) => ({
+      slug: page.url
+        .replace("/cn/zh/customer-service/services/", "")
+        .replace(/\/+$/, "")
+        .split("/"),
+    }));
+}
+
+export default async function ServiceSubPage({
+  params,
+}: {
+  params: Promise<{ slug: string[] }>;
+}) {
+  const { slug } = await params;
+  const url = `/cn/zh/customer-service/services/${slug.join("/")}`;
+  const page = findContentPage(url);
+  if (!page) notFound();
+
+  return (
+    <SiteLayout>
+      <ContentPage page={page} parentLabel="客户服务" parentHref="/cn/zh/customer-service/services/" />
+    </SiteLayout>
+  );
+}
