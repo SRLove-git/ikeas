@@ -1,30 +1,26 @@
-"use client";
+"use client"
 
-import { useState } from "react";
-import Link from "next/link";
-import { CartBagIcon } from "@/components/icons";
-import type { FeedProduct } from "@/data/homepage";
+import { useState } from "react"
+import Link from "next/link"
+import { CartBagIcon } from "@/components/icons"
+import type { FeedProduct } from "@/data/homepage"
 
 interface ProductInspirationProps {
-  title: string;
-  tabs: string[];
-  products: Record<string, FeedProduct[]>;
+  title: string
+  tabs: string[]
+  products: Record<string, FeedProduct[]>
 }
 
-const PAGE_SIZE = 12;
+const PAGE_SIZE = 12
 
-export function ProductInspiration({
-  title,
-  tabs,
-  products,
-}: ProductInspirationProps) {
-  const [activeTab, setActiveTab] = useState(tabs[0] ?? "全部");
-  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
+export function ProductInspiration({ title, tabs, products }: ProductInspirationProps) {
+  const [activeTab, setActiveTab] = useState(tabs[0] ?? "全部")
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE)
 
-  const items = products[activeTab] ?? [];
-  const visible = items.slice(0, visibleCount);
+  const items = products[activeTab] ?? []
+  const visible = items.slice(0, visibleCount)
 
-  const loadMore = () => setVisibleCount((current) => current + PAGE_SIZE);
+  const loadMore = () => setVisibleCount((current) => current + PAGE_SIZE)
 
   return (
     <section className="inspiration-feeds m-x-5 md:m-x-0">
@@ -41,8 +37,8 @@ export function ProductInspiration({
                 activeTab === tab ? "i-pill--active" : ""
               }`}
               onClick={() => {
-                setActiveTab(tab);
-                setVisibleCount(PAGE_SIZE);
+                setActiveTab(tab)
+                setVisibleCount(PAGE_SIZE)
               }}
             >
               {tab}
@@ -53,12 +49,12 @@ export function ProductInspiration({
 
       <div className="i-waterfall">
         <div className="i-waterfall-container">
-          <div
-            className="grid grid-cols-2 gap-2.5 lg:grid-cols-3"
-            key={activeTab}
-          >
+          <div className="grid grid-cols-2 gap-2.5 lg:grid-cols-3" key={activeTab}>
             {visible.map((product) => (
-              <ProductPinCard key={product.productId ?? `${product.left}-${product.top}`} product={product} />
+              <ProductPinCard
+                key={product.productId ?? `${product.left}-${product.top}`}
+                product={product}
+              />
             ))}
           </div>
         </div>
@@ -78,11 +74,11 @@ export function ProductInspiration({
         </div>
       ) : null}
     </section>
-  );
+  )
 }
 
 function ProductPinCard({ product }: { product: FeedProduct }) {
-  const [showTooltip, setShowTooltip] = useState(false);
+  const [showTooltip, setShowTooltip] = useState(false)
 
   const tagStyle = product.tagStyle
     ? Object.fromEntries(
@@ -91,11 +87,11 @@ function ProductPinCard({ product }: { product: FeedProduct }) {
           .map((pair) => pair.split(":").map((part) => part.trim()))
           .filter(([key, value]) => key && value)
           .map(([key, value]) => {
-            const camel = key.replace(/-([a-z])/g, (_, c) => c.toUpperCase());
-            return [camel, value];
+            const camel = key.replace(/-([a-z])/g, (_, c) => c.toUpperCase())
+            return [camel, value]
           }),
       )
-    : undefined;
+    : undefined
 
   return (
     <div
@@ -108,13 +104,13 @@ function ProductPinCard({ product }: { product: FeedProduct }) {
         className="block h-full w-full"
         aria-label={product.title ?? "产品"}
       >
-        <div className="i-aspect-ratio-box i-aspect-ratio-box--standard h-full w-full overflow-hidden bg-white">
+        <div className="i-aspect-ratio-box i-aspect-ratio-box--standard h-full w-full overflow-visible">
           {product.image ? (
             // eslint-disable-next-line @next/next/no-img-element
             <img
               src={product.image}
               alt={product.title ?? ""}
-              className="h-full w-full object-contain object-[50%_20%]"
+              className="h-full w-full object-contain object-[50%_20%] drop-shadow-[0_8px_16px_rgba(17,17,17,0.12)]"
               loading="lazy"
             />
           ) : (
@@ -168,9 +164,7 @@ function ProductPinCard({ product }: { product: FeedProduct }) {
             {product.title}
           </Link>
           {product.desc ? (
-            <p className="mt-0.5 text-xs leading-[18px] text-ikea-muted">
-              {product.desc}
-            </p>
+            <p className="mt-0.5 text-xs leading-[18px] text-ikea-muted">{product.desc}</p>
           ) : null}
           <div className="mt-2 flex items-center justify-between">
             <span className="text-sm text-ikea-black">{product.price}</span>
@@ -185,5 +179,5 @@ function ProductPinCard({ product }: { product: FeedProduct }) {
         </div>
       ) : null}
     </div>
-  );
+  )
 }

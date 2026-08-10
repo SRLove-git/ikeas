@@ -233,7 +233,7 @@ export function Header({
                             {/* eslint-disable-next-line @next/next/no-img-element */}
                             <img
                               className="bottom-image"
-                              src="/images/products/buzud-8885020712582.jpg"
+                              src="/images/products/buzud-8885020712582.png"
                               alt="BUZUD Vibrance 智能手表"
                             />
                             <div className="detail-desc">

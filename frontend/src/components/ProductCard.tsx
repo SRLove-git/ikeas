@@ -1,25 +1,22 @@
-import Link from "next/link";
-import type { CatalogProduct } from "@/data/catalog";
-import { formatPrice } from "@/lib/catalog-format";
-import { SiteImage } from "@/components/SiteImage";
+import Link from "next/link"
+import type { CatalogProduct } from "@/data/catalog"
+import { formatPrice } from "@/lib/catalog-format"
+import { SiteImage } from "@/components/SiteImage"
 
 interface ProductCardProps {
-  product: CatalogProduct;
+  product: CatalogProduct
 }
 
 export function ProductCard({ product }: ProductCardProps) {
-  const spec = [product.productType, product.designText].filter(Boolean).join(", ");
+  const spec = [product.productType, product.designText].filter(Boolean).join(", ")
 
   return (
-    <Link
-      href={`/cn/zh/p/${product.slug}`}
-      className="group flex flex-col"
-    >
+    <Link href={`/cn/zh/p/${product.slug}`} className="group flex flex-col">
       <SiteImage
         src={product.image}
         alt={product.name}
-        className="aspect-square w-full bg-white transition-transform duration-300 group-hover:scale-105"
-        imgClassName="h-full w-full object-contain object-[50%_20%]"
+        className="aspect-square w-full transition-transform duration-300 group-hover:scale-105"
+        imgClassName="h-full w-full object-contain object-[50%_20%] drop-shadow-[0_8px_16px_rgba(17,17,17,0.12)]"
       />
       <div className="flex flex-col pt-3">
         {product.labels.length > 0 ? (
@@ -38,12 +35,8 @@ export function ProductCard({ product }: ProductCardProps) {
             ))}
           </div>
         ) : null}
-        <h3 className="text-sm font-bold leading-[18px] text-ikea-black">
-          {product.name}
-        </h3>
-        {spec ? (
-          <p className="mt-0.5 text-xs leading-[18px] text-ikea-muted">{spec}</p>
-        ) : null}
+        <h3 className="text-sm font-bold leading-[18px] text-ikea-black">{product.name}</h3>
+        {spec ? <p className="mt-0.5 text-xs leading-[18px] text-ikea-muted">{spec}</p> : null}
         <p className="mt-1.5 text-sm text-ikea-black">
           {formatPrice(product.price)}
           {product.originalPrice != null ? (
@@ -54,5 +47,5 @@ export function ProductCard({ product }: ProductCardProps) {
         </p>
       </div>
     </Link>
-  );
+  )
 }
