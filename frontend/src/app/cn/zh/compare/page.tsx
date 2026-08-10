@@ -42,7 +42,8 @@ export default function ComparePage() {
                         <SiteImage
                           src={product.image}
                           alt={product.name}
-                          className="aspect-square w-full"
+                          className="aspect-square w-full bg-white"
+                          imgClassName="h-full w-full object-contain object-[50%_20%]"
                         />
                         <span className="mt-2 block text-center text-sm font-bold group-hover:underline">
                           {product.name}

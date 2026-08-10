@@ -38,21 +38,21 @@ export default function AllProductsPage() {
         </nav>
         <h1 className="text-2xl font-bold leading-9 lg:text-3xl">所有商品</h1>
 
-        <div className="mt-8 grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-4">
+        <div className="mt-5 grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-4">
           {allCategories.map((category) => (
             <Link
               key={category.href}
               href={category.href}
               className="group"
             >
-              <div className="aspect-[4/3] w-full overflow-hidden bg-ikea-gray-100">
+              <div className="aspect-[4/3] w-full overflow-hidden bg-white">
                 {category.image ? (
                   // eslint-disable-next-line @next/next/no-img-element
                   <img
                     src={category.image}
                     alt={category.name}
                     loading="lazy"
-                    className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+                    className="h-full w-full object-contain object-[50%_20%] transition-transform duration-300 group-hover:scale-105"
                   />
                 ) : (
                   <div className="h-full w-full bg-ikea-gray-100" />

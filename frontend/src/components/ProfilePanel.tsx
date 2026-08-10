@@ -1,26 +1,26 @@
-"use client";
+"use client"
 
-import { useEffect } from "react";
-import Link from "next/link";
-import { useRouter } from "next/navigation";
-import { useAuth } from "@/lib/auth";
+import { useEffect } from "react"
+import Link from "next/link"
+import { useRouter } from "next/navigation"
+import { useAuth } from "@/lib/auth"
 
 export function ProfilePanel() {
-  const { user, ready, logout } = useAuth();
-  const router = useRouter();
+  const { user, ready, logout } = useAuth()
+  const router = useRouter()
 
   useEffect(() => {
     if (ready && !user) {
-      router.replace("/cn/zh/profile/login/");
+      router.replace("/cn/zh/profile/login/")
     }
-  }, [ready, user, router]);
+  }, [ready, user, router])
 
   if (!ready || !user) {
     return (
       <div className="font-ikea flex min-h-[50vh] items-center justify-center text-sm text-ikea-muted">
         加载中…
       </div>
-    );
+    )
   }
 
   return (
@@ -48,7 +48,11 @@ export function ProfilePanel() {
           {[
             ["我的订单", "查看历史订单", "/cn/zh/profile/my-orders/"],
             ["我的收藏", "喜欢的商品", "/cn/zh/wishlist/"],
-            ["宜家俱乐部", "会员权益与优惠", "/cn/zh/ikea-family/"],
+            [
+              "BUZUD 会员权益",
+              "尊享优惠与健康体验",
+              "/cn/zh/customer-service/services/privileges/",
+            ],
             ["商品对比", "比较心仪商品", "/cn/zh/compare/"],
           ].map(([title, desc, href]) => (
             <Link
@@ -66,8 +70,8 @@ export function ProfilePanel() {
           <button
             type="button"
             onClick={() => {
-              void logout();
-              router.replace("/cn/zh/profile/login/");
+              void logout()
+              router.replace("/cn/zh/profile/login/")
             }}
             className="i-btn h-10 border border-ikea-gray-200 px-6 text-sm font-bold hover:border-ikea-black"
           >
@@ -76,5 +80,5 @@ export function ProfilePanel() {
         </div>
       </div>
     </div>
-  );
+  )
 }

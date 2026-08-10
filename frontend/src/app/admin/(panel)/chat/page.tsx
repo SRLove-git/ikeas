@@ -1,6 +1,6 @@
-"use client";
+"use client"
 
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react"
 import {
   adminFetch,
   Button,
@@ -11,43 +11,41 @@ import {
   NoticeArea,
   PageHeader,
   useNotice,
-} from "@/components/admin/admin-ui";
+} from "@/components/admin/admin-ui"
 
 interface ChatMessage {
-  id?: string;
-  at?: string;
-  user?: string | null;
-  message: string;
-  reply?: string;
+  id?: string
+  at?: string
+  user?: string | null
+  message: string
+  reply?: string
 }
 
 export default function ChatPage() {
-  const { notice, show } = useNotice();
-  const [messages, setMessages] = useState<ChatMessage[] | null>(null);
-  const [error, setError] = useState<string | null>(null);
+  const { notice, show } = useNotice()
+  const [messages, setMessages] = useState<ChatMessage[] | null>(null)
+  const [error, setError] = useState<string | null>(null)
 
   const load = useCallback(async () => {
     try {
-      const data = await adminFetch<{ items: ChatMessage[] }>(
-        "/api/admin/server/chat/messages",
-      );
-      setMessages(data.items);
-      setError(null);
+      const data = await adminFetch<{ items: ChatMessage[] }>("/api/admin/server/chat/messages")
+      setMessages(data.items)
+      setError(null)
     } catch (e) {
-      setError((e as Error).message);
+      setError((e as Error).message)
     }
-  }, []);
+  }, [])
 
   useEffect(() => {
-    const timer = window.setTimeout(() => void load(), 0);
-    return () => window.clearTimeout(timer);
-  }, [load]);
+    const timer = window.setTimeout(() => void load(), 0)
+    return () => window.clearTimeout(timer)
+  }, [load])
 
   const clear = async () => {
-    await adminFetch("/api/admin/server/chat/messages", { method: "DELETE" });
-    show("success", "聊天记录已清空");
-    await load();
-  };
+    await adminFetch("/api/admin/server/chat/messages", { method: "DELETE" })
+    show("success", "聊天记录已清空")
+    await load()
+  }
 
   return (
     <div>
@@ -77,15 +75,17 @@ export default function ChatPage() {
               {messages.map((message, index) => (
                 <div key={message.id ?? index} className="p-5">
                   <div className="mb-1 flex items-center gap-2 text-xs text-ikea-muted">
-                    <span className="font-medium text-ikea-black">
-                      {message.user ?? "访客"}
-                    </span>
-                    {message.at ? <span>{new Date(message.at).toLocaleString("zh-CN")}</span> : null}
+                    <span className="font-medium text-ikea-black">{message.user ?? "访客"}</span>
+                    {message.at ? (
+                      <span>{new Date(message.at).toLocaleString("zh-CN")}</span>
+                    ) : null}
                   </div>
-                  <div className="rounded-md bg-ikea-gray-50 px-3 py-2 text-sm">{message.message}</div>
+                  <div className="rounded-md bg-ikea-gray-50 px-3 py-2 text-sm">
+                    {message.message}
+                  </div>
                   {message.reply ? (
                     <div className="mt-2 rounded-md bg-blue-50 px-3 py-2 text-sm text-ikea-blue">
-                      <span className="mr-1 font-medium">小宜：</span>
+                      <span className="mr-1 font-medium">BUZUD 客服：</span>
                       {message.reply}
                     </div>
                   ) : null}
@@ -99,5 +99,5 @@ export default function ChatPage() {
         )}
       </div>
     </div>
-  );
+  )
 }

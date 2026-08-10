@@ -88,7 +88,8 @@ export default function CheckoutPage() {
                     <SiteImage
                       src={product.image}
                       alt={product.name}
-                      className="h-16 w-16 shrink-0"
+                      className="h-16 w-16 shrink-0 bg-white"
+                      imgClassName="h-full w-full object-contain object-[50%_20%]"
                     />
                     <div className="flex flex-1 flex-col">
                       <span className="line-clamp-1 text-sm font-bold">{product.name}</span>

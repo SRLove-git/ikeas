@@ -1,59 +1,53 @@
-import fs from "node:fs";
-import path from "node:path";
-import { loadDataJson, loadDataJsonOptional } from "@/lib/data-files";
+import fs from "node:fs"
+import path from "node:path"
+import { loadDataJson, loadDataJsonOptional } from "@/lib/data-files"
 
 // ---------------------------------------------------------------------------
 // File-backed CMS store. Every operation reads/writes the same src/data/*.json
 // files the public site renders from, so admin edits take effect immediately.
 // ---------------------------------------------------------------------------
 
-const FAMILY_FILES = [
-  "customer-service",
-  "root",
-] as const;
+const FAMILY_FILES = ["customer-service", "root"] as const
 
-const PRODUCT_PARTS = ["part-1", "part-2", "part-3", "part-4", "part-5", "part-6"] as const;
+const PRODUCT_PARTS = ["part-1", "part-2", "part-3", "part-4", "part-5", "part-6"] as const
 
 function dataRoot(): string {
-  const candidates = [
-    path.join(process.cwd(), "src", "data"),
-    path.join(process.cwd(), "data"),
-  ];
+  const candidates = [path.join(process.cwd(), "src", "data"), path.join(process.cwd(), "data")]
   for (const candidate of candidates) {
     try {
-      if (fs.statSync(candidate).isDirectory()) return candidate;
+      if (fs.statSync(candidate).isDirectory()) return candidate
     } catch {
       // try next
     }
   }
-  throw new Error(`CMS data root not found (searched ${candidates.join(", ")})`);
+  throw new Error(`CMS data root not found (searched ${candidates.join(", ")})`)
 }
 
 function filePath(rel: string): string {
-  const resolved = path.join(dataRoot(), rel);
-  const normalized = path.normalize(resolved);
+  const resolved = path.join(dataRoot(), rel)
+  const normalized = path.normalize(resolved)
   if (!normalized.startsWith(dataRoot())) {
-    throw new Error("Invalid CMS data path");
+    throw new Error("Invalid CMS data path")
   }
-  return normalized;
+  return normalized
 }
 
 function writeJson(rel: string, value: unknown): void {
-  const target = filePath(rel);
-  fs.mkdirSync(path.dirname(target), { recursive: true });
-  fs.writeFileSync(target, `${JSON.stringify(value, null, 2)}\n`, "utf8");
+  const target = filePath(rel)
+  fs.mkdirSync(path.dirname(target), { recursive: true })
+  fs.writeFileSync(target, `${JSON.stringify(value, null, 2)}\n`, "utf8")
 }
 
 // Simple in-process write lock so concurrent admin saves never interleave.
-let writeQueue: Promise<unknown> = Promise.resolve();
+let writeQueue: Promise<unknown> = Promise.resolve()
 function withWriteLock<T>(fn: () => T): Promise<T> {
-  const run = writeQueue.then(fn, fn);
-  writeQueue = run.catch(() => undefined);
-  return run;
+  const run = writeQueue.then(fn, fn)
+  writeQueue = run.catch(() => undefined)
+  return run
 }
 
 function nowIso(): string {
-  return new Date().toISOString();
+  return new Date().toISOString()
 }
 
 // ---------------------------------------------------------------------------
@@ -61,63 +55,62 @@ function nowIso(): string {
 // ---------------------------------------------------------------------------
 
 interface AdminProduct {
-  id: string;
-  slug: string;
-  name: string;
-  [key: string]: unknown;
+  id: string
+  slug: string
+  name: string
+  [key: string]: unknown
 }
 
 function loadProductParts(): AdminProduct[][] {
-  return PRODUCT_PARTS.map((part) =>
-    loadDataJson<AdminProduct[]>(`products/products-${part}.json`),
-  );
+  return PRODUCT_PARTS.map((part) => loadDataJson<AdminProduct[]>(`products/products-${part}.json`))
 }
 
 function saveProductParts(parts: AdminProduct[][]): void {
   PRODUCT_PARTS.forEach((part, index) => {
-    writeJson(`products/products-${part}.json`, parts[index]);
-  });
+    writeJson(`products/products-${part}.json`, parts[index])
+  })
 }
 
 export function listProducts(query: string): AdminProduct[] {
-  const q = query.trim().toLowerCase();
-  const all = loadProductParts().flat();
-  if (!q) return all;
+  const q = query.trim().toLowerCase()
+  const all = loadProductParts().flat()
+  if (!q) return all
   return all.filter(
     (product) =>
       product.name?.toLowerCase().includes(q) ||
       product.id?.toLowerCase().includes(q) ||
       product.slug?.toLowerCase().includes(q),
-  );
+  )
 }
 
 export function getProduct(idOrSlug: string): AdminProduct | undefined {
   return loadProductParts()
     .flat()
-    .find((product) => product.id === idOrSlug || product.slug === idOrSlug);
+    .find((product) => product.id === idOrSlug || product.slug === idOrSlug)
 }
 
 /** Category names the product belongs to (catalog categories + catalog pages). */
 export function productCategories(idOrSlug: string): { name: string; href: string }[] {
-  const result: { name: string; href: string }[] = [];
+  const result: { name: string; href: string }[] = []
   const catalog = loadDataJson<{
-    catalogCategories: { slug: string; name: string; products: { id: string; slug: string }[] }[];
-    channelCategories: { slug: string; name: string; products: { id: string; slug: string }[] }[];
-  }>("catalog.json");
+    catalogCategories: { slug: string; name: string; products: { id: string; slug: string }[] }[]
+    channelCategories: { slug: string; name: string; products: { id: string; slug: string }[] }[]
+  }>("catalog.json")
   for (const category of [...catalog.catalogCategories, ...catalog.channelCategories]) {
     if (category.products.some((p) => String(p.id) === idOrSlug || p.slug === idOrSlug)) {
-      result.push({ name: category.name, href: `/cn/zh/cat/${category.slug}` });
+      result.push({ name: category.name, href: `/cn/zh/cat/${category.slug}` })
     }
   }
-  const pages = loadDataJson<
-    { name: string; url: string; products: { id: string }[] }[]
-  >("catalog-pages/all.json");
+  const pages =
+    loadDataJson<{ name: string; url: string; products: { id: string }[] }[]>(
+      "catalog-pages/all.json",
+    )
   for (const page of pages) {
     if (page.name && page.products.some((p) => String(p.id) === idOrSlug)) {
-      result.push({ name: page.name, href: page.url });
+      result.push({ name: page.name, href: page.url })
     }
   }
-  return result;
+  return result
 }
 
 export async function upsertProduct(
@@ -125,48 +118,46 @@ export async function upsertProduct(
   existingId?: string,
 ): Promise<AdminProduct> {
   return withWriteLock(() => {
-    const parts = loadProductParts();
-    const all = parts.flat();
-    const product = input as AdminProduct;
+    const parts = loadProductParts()
+    const all = parts.flat()
+    const product = input as AdminProduct
     if (typeof product.name !== "string" || !product.name.trim()) {
-      throw new Error("商品名称不能为空");
+      throw new Error("商品名称不能为空")
     }
 
     if (existingId) {
-      const target = all.find((p) => p.id === existingId);
-      if (!target) throw new Error("商品不存在");
-      Object.assign(target, product);
-      target.id = existingId;
-      saveProductParts(parts);
-      return target;
+      const target = all.find((p) => p.id === existingId)
+      if (!target) throw new Error("商品不存在")
+      Object.assign(target, product)
+      target.id = existingId
+      saveProductParts(parts)
+      return target
     }
-    if (!product.id) product.id = String(Date.now());
+    if (!product.id) product.id = String(Date.now())
     if (!product.slug) {
-      product.slug = `${String(product.name).replace(/\s+/g, "-")}-${product.id}`;
+      product.slug = `${String(product.name).replace(/\s+/g, "-")}-${product.id}`
     }
-    const target = product;
-    parts[parts.length - 1].push(target);
-    saveProductParts(parts);
-    return target;
-  });
+    const target = product
+    parts[parts.length - 1].push(target)
+    saveProductParts(parts)
+    return target
+  })
 }
 
 export async function deleteProduct(idOrSlug: string): Promise<boolean> {
   return withWriteLock(() => {
-    const parts = loadProductParts();
-    let removed = false;
+    const parts = loadProductParts()
+    let removed = false
     for (const part of parts) {
-      const index = part.findIndex(
-        (p) => p.id === idOrSlug || p.slug === idOrSlug,
-      );
+      const index = part.findIndex((p) => p.id === idOrSlug || p.slug === idOrSlug)
       if (index >= 0) {
-        part.splice(index, 1);
-        removed = true;
+        part.splice(index, 1)
+        removed = true
       }
     }
-    if (removed) saveProductParts(parts);
-    return removed;
-  });
+    if (removed) saveProductParts(parts)
+    return removed
+  })
 }
 
 // ---------------------------------------------------------------------------
@@ -174,63 +165,57 @@ export async function deleteProduct(idOrSlug: string): Promise<boolean> {
 // ---------------------------------------------------------------------------
 
 interface AdminPage {
-  url: string;
-  family: string;
-  title: string;
-  source?: "crawled" | "legacy";
-  [key: string]: unknown;
+  url: string
+  family: string
+  title: string
+  source?: "crawled" | "legacy"
+  [key: string]: unknown
 }
 
 function loadFamilyPages(family: string): AdminPage[] {
-  const file = FAMILY_FILES.includes(family as (typeof FAMILY_FILES)[number])
-    ? family
-    : "root";
-  return loadDataJsonOptional<AdminPage[]>(`pages/${file}.json`, []);
+  const file = FAMILY_FILES.includes(family as (typeof FAMILY_FILES)[number]) ? family : "root"
+  return loadDataJsonOptional<AdminPage[]>(`pages/${file}.json`, [])
 }
 
 function legacyPagesForAdmin(): AdminPage[] {
-  return [];
+  return []
 }
 
 export function listPages(family?: string, query?: string): AdminPage[] {
-  const families = family ? [family] : FAMILY_FILES;
-  const q = query?.trim().toLowerCase();
-  const pages = families.flatMap((f) => loadFamilyPages(f));
+  const families = family ? [family] : FAMILY_FILES
+  const q = query?.trim().toLowerCase()
+  const pages = families.flatMap((f) => loadFamilyPages(f))
   const legacy = family
     ? legacyPagesForAdmin().filter((page) => page.family === family)
-    : legacyPagesForAdmin();
+    : legacyPagesForAdmin()
   // Crawled wins; legacy pages fill the gaps (same semantics as pages-index).
   // Compare against ALL crawled pages, so shadowed legacy entries don't show.
   const allCrawledUrls = new Set(
-    FAMILY_FILES.flatMap((f) => loadFamilyPages(f)).map((page) =>
-      page.url.replace(/\/+$/, ""),
-    ),
-  );
+    FAMILY_FILES.flatMap((f) => loadFamilyPages(f)).map((page) => page.url.replace(/\/+$/, "")),
+  )
   const merged = [
     ...pages,
     ...legacy.filter((page) => !allCrawledUrls.has(page.url.replace(/\/+$/, ""))),
-  ];
-  if (!q) return merged;
+  ]
+  if (!q) return merged
   return merged.filter(
     (page) =>
       page.title?.toLowerCase().includes(q) ||
       page.url?.toLowerCase().includes(q) ||
-      String(page.name ?? "").toLowerCase().includes(q),
-  );
+      String(page.name ?? "")
+        .toLowerCase()
+        .includes(q),
+  )
 }
 
 export function getPage(url: string): AdminPage | undefined {
-  const key = url.replace(/\/+$/, "");
+  const key = url.replace(/\/+$/, "")
   for (const family of FAMILY_FILES) {
-    const found = loadFamilyPages(family).find(
-      (page) => page.url.replace(/\/+$/, "") === key,
-    );
-    if (found) return found;
+    const found = loadFamilyPages(family).find((page) => page.url.replace(/\/+$/, "") === key)
+    if (found) return found
   }
-  const legacy = legacyPagesForAdmin().find(
-    (page) => page.url.replace(/\/+$/, "") === key,
-  );
-  return legacy;
+  const legacy = legacyPagesForAdmin().find((page) => page.url.replace(/\/+$/, "") === key)
+  return legacy
 }
 
 export async function upsertPage(
@@ -238,64 +223,62 @@ export async function upsertPage(
   existingUrl?: string,
 ): Promise<AdminPage> {
   return withWriteLock(() => {
-    const page = input as AdminPage;
+    const page = input as AdminPage
     if (typeof page.url !== "string" || !page.url.trim()) {
-      throw new Error("页面 URL 不能为空");
+      throw new Error("页面 URL 不能为空")
     }
-    page.url = page.url.trim();
+    page.url = page.url.trim()
     if (existingUrl) {
-      const oldKey = existingUrl.replace(/\/+$/, "");
+      const oldKey = existingUrl.replace(/\/+$/, "")
       for (const family of FAMILY_FILES) {
-        const pages = loadFamilyPages(family);
-        const index = pages.findIndex((p) => p.url.replace(/\/+$/, "") === oldKey);
+        const pages = loadFamilyPages(family)
+        const index = pages.findIndex((p) => p.url.replace(/\/+$/, "") === oldKey)
         if (index >= 0) {
-          delete (page as Record<string, unknown>).source;
-          Object.assign(pages[index], page);
-          writeJson(`pages/${family}.json`, pages);
-          return pages[index];
+          delete (page as Record<string, unknown>).source
+          Object.assign(pages[index], page)
+          writeJson(`pages/${family}.json`, pages)
+          return pages[index]
         }
       }
     }
-    delete (page as Record<string, unknown>).source;
+    delete (page as Record<string, unknown>).source
     const family =
-      typeof page.family === "string" && page.family.trim()
-        ? page.family.trim()
-        : "root";
-    const pages = loadFamilyPages(family);
-    const key = page.url.replace(/\/+$/, "");
-    const existing = pages.find((p) => p.url.replace(/\/+$/, "") === key);
+      typeof page.family === "string" && page.family.trim() ? page.family.trim() : "root"
+    const pages = loadFamilyPages(family)
+    const key = page.url.replace(/\/+$/, "")
+    const existing = pages.find((p) => p.url.replace(/\/+$/, "") === key)
     if (existing) {
-      Object.assign(existing, page);
-      writeJson(`pages/${family}.json`, pages);
-      return existing;
+      Object.assign(existing, page)
+      writeJson(`pages/${family}.json`, pages)
+      return existing
     }
-    pages.push(page);
-    writeJson(`pages/${family}.json`, pages);
-    return page;
-  });
+    pages.push(page)
+    writeJson(`pages/${family}.json`, pages)
+    return page
+  })
 }
 
 export async function deletePage(url: string): Promise<boolean> {
   return withWriteLock(() => {
-    const key = url.replace(/\/+$/, "");
+    const key = url.replace(/\/+$/, "")
     for (const family of FAMILY_FILES) {
-      const pages = loadFamilyPages(family);
-      const index = pages.findIndex((p) => p.url.replace(/\/+$/, "") === key);
+      const pages = loadFamilyPages(family)
+      const index = pages.findIndex((p) => p.url.replace(/\/+$/, "") === key)
       if (index >= 0) {
-        pages.splice(index, 1);
-        writeJson(`pages/${family}.json`, pages);
-        return true;
+        pages.splice(index, 1)
+        writeJson(`pages/${family}.json`, pages)
+        return true
       }
     }
-    return false;
-  });
+    return false
+  })
 }
 
 export function pageFamilies(): { name: string; count: number }[] {
   return FAMILY_FILES.map((family) => ({
     name: family,
     count: loadFamilyPages(family).length,
-  }));
+  }))
 }
 
 // ---------------------------------------------------------------------------
@@ -303,23 +286,23 @@ export function pageFamilies(): { name: string; count: number }[] {
 // ---------------------------------------------------------------------------
 
 export function getHomepage(): Record<string, unknown> {
-  return loadDataJson<Record<string, unknown>>("homepage.json");
+  return loadDataJson<Record<string, unknown>>("homepage.json")
 }
 
 export async function updateHomepage(
   updates: Record<string, unknown>,
 ): Promise<Record<string, unknown>> {
   return withWriteLock(() => {
-    const current = getHomepage();
+    const current = getHomepage()
     for (const [key, value] of Object.entries(updates)) {
       if (!(key in current)) {
-        throw new Error(`未知的首页字段: ${key}`);
+        throw new Error(`未知的首页字段: ${key}`)
       }
-      current[key] = value;
+      current[key] = value
     }
-    writeJson("homepage.json", current);
-    return current;
-  });
+    writeJson("homepage.json", current)
+    return current
+  })
 }
 
 // ---------------------------------------------------------------------------
@@ -330,21 +313,22 @@ export function getMenu(): Record<string, unknown> {
   return {
     menuPanels: loadDataJson("menu-panels.json"),
     menuCategories: loadDataJson("menu-categories.json"),
-  };
+  }
 }
 
-export async function updateMenu(
-  updates: { menuPanels?: unknown; menuCategories?: unknown },
-): Promise<Record<string, unknown>> {
+export async function updateMenu(updates: {
+  menuPanels?: unknown
+  menuCategories?: unknown
+}): Promise<Record<string, unknown>> {
   return withWriteLock(() => {
     if (updates.menuPanels !== undefined) {
-      writeJson("menu-panels.json", updates.menuPanels);
+      writeJson("menu-panels.json", updates.menuPanels)
     }
     if (updates.menuCategories !== undefined) {
-      writeJson("menu-categories.json", updates.menuCategories);
+      writeJson("menu-categories.json", updates.menuCategories)
     }
-    return getMenu();
-  });
+    return getMenu()
+  })
 }
 
 // ---------------------------------------------------------------------------
@@ -352,19 +336,19 @@ export async function updateMenu(
 // ---------------------------------------------------------------------------
 
 export function getCategories(): Record<string, unknown> {
-  return loadDataJson("catalog.json") as Record<string, unknown>;
+  return loadDataJson("catalog.json") as Record<string, unknown>
 }
 
 export async function updateCategories(updates: Record<string, unknown>): Promise<unknown> {
   return withWriteLock(() => {
-    const current = getCategories();
+    const current = getCategories()
     for (const [key, value] of Object.entries(updates)) {
-      if (!(key in current)) throw new Error(`未知的分类字段: ${key}`);
-      current[key] = value;
+      if (!(key in current)) throw new Error(`未知的分类字段: ${key}`)
+      current[key] = value
     }
-    writeJson("catalog.json", current);
-    return current;
-  });
+    writeJson("catalog.json", current)
+    return current
+  })
 }
 
 // ---------------------------------------------------------------------------
@@ -372,13 +356,17 @@ export async function updateCategories(updates: Record<string, unknown>): Promis
 // ---------------------------------------------------------------------------
 
 export function listCatalogPages(): Record<string, unknown>[] {
-  return loadDataJson<Record<string, unknown>[]>("catalog-pages/all.json");
+  return loadDataJson<Record<string, unknown>[]>("catalog-pages/all.json")
 }
 
 export function getCatalogPage(slug: string): Record<string, unknown> | undefined {
   return listCatalogPages().find(
-    (page) => String(page.url ?? "").split("/").filter(Boolean).at(-1) === slug,
-  );
+    (page) =>
+      String(page.url ?? "")
+        .split("/")
+        .filter(Boolean)
+        .at(-1) === slug,
+  )
 }
 
 export async function upsertCatalogPage(
@@ -386,34 +374,42 @@ export async function upsertCatalogPage(
   existingSlug?: string,
 ): Promise<Record<string, unknown>> {
   return withWriteLock(() => {
-    const pages = listCatalogPages();
+    const pages = listCatalogPages()
     const target = existingSlug
       ? pages.find(
-          (page) => String(page.url ?? "").split("/").filter(Boolean).at(-1) === existingSlug,
+          (page) =>
+            String(page.url ?? "")
+              .split("/")
+              .filter(Boolean)
+              .at(-1) === existingSlug,
         )
-      : undefined;
-    if (existingSlug && !target) throw new Error("落地页不存在");
+      : undefined
+    if (existingSlug && !target) throw new Error("落地页不存在")
     if (target) {
-      Object.assign(target, input);
+      Object.assign(target, input)
     } else {
-      pages.push(input);
+      pages.push(input)
     }
-    writeJson("catalog-pages/all.json", pages);
-    return target ?? input;
-  });
+    writeJson("catalog-pages/all.json", pages)
+    return target ?? input
+  })
 }
 
 export async function deleteCatalogPage(slug: string): Promise<boolean> {
   return withWriteLock(() => {
-    const pages = listCatalogPages();
+    const pages = listCatalogPages()
     const index = pages.findIndex(
-      (page) => String(page.url ?? "").split("/").filter(Boolean).at(-1) === slug,
-    );
-    if (index < 0) return false;
-    pages.splice(index, 1);
-    writeJson("catalog-pages/all.json", pages);
-    return true;
-  });
+      (page) =>
+        String(page.url ?? "")
+          .split("/")
+          .filter(Boolean)
+          .at(-1) === slug,
+    )
+    if (index < 0) return false
+    pages.splice(index, 1)
+    writeJson("catalog-pages/all.json", pages)
+    return true
+  })
 }
 
 // ---------------------------------------------------------------------------
@@ -421,11 +417,11 @@ export async function deleteCatalogPage(slug: string): Promise<boolean> {
 // ---------------------------------------------------------------------------
 
 export function listOrders(): Record<string, unknown>[] {
-  return loadDataJson<Record<string, unknown>[]>("orders.json");
+  return loadDataJson<Record<string, unknown>[]>("orders.json")
 }
 
 export function getOrder(id: string): Record<string, unknown> | undefined {
-  return listOrders().find((order) => order.id === id);
+  return listOrders().find((order) => order.id === id)
 }
 
 export async function upsertOrder(
@@ -433,31 +429,31 @@ export async function upsertOrder(
   existingId?: string,
 ): Promise<Record<string, unknown>> {
   return withWriteLock(() => {
-    const orders = listOrders();
-    const target = existingId ? orders.find((order) => order.id === existingId) : undefined;
-    if (existingId && !target) throw new Error("订单不存在");
+    const orders = listOrders()
+    const target = existingId ? orders.find((order) => order.id === existingId) : undefined
+    if (existingId && !target) throw new Error("订单不存在")
     if (target) {
-      Object.assign(target, input);
+      Object.assign(target, input)
     } else {
-      if (!input.id) input.id = String(Date.now());
-      input.createdAt = input.createdAt ?? nowIso();
-      orders.push(input);
+      if (!input.id) input.id = String(Date.now())
+      input.createdAt = input.createdAt ?? nowIso()
+      orders.push(input)
     }
-    input.updatedAt = nowIso();
-    writeJson("orders.json", orders);
-    return target ?? input;
-  });
+    input.updatedAt = nowIso()
+    writeJson("orders.json", orders)
+    return target ?? input
+  })
 }
 
 export async function deleteOrder(id: string): Promise<boolean> {
   return withWriteLock(() => {
-    const orders = listOrders();
-    const index = orders.findIndex((order) => order.id === id);
-    if (index < 0) return false;
-    orders.splice(index, 1);
-    writeJson("orders.json", orders);
-    return true;
-  });
+    const orders = listOrders()
+    const index = orders.findIndex((order) => order.id === id)
+    if (index < 0) return false
+    orders.splice(index, 1)
+    writeJson("orders.json", orders)
+    return true
+  })
 }
 
 // ---------------------------------------------------------------------------
@@ -465,20 +461,20 @@ export async function deleteOrder(id: string): Promise<boolean> {
 // ---------------------------------------------------------------------------
 
 export interface SiteSettings {
-  siteName: string;
-  siteDescription: string;
-  adminTitle: string;
+  siteName: string
+  siteDescription: string
+  adminTitle: string
   siteCopy: {
-    notFound: { title: string; body: string; buttonLabel: string };
-    survey: { title: string; body: string; buttonLabel: string };
-  };
+    notFound: { title: string; body: string; buttonLabel: string }
+    survey: { title: string; body: string; buttonLabel: string }
+  }
 }
 
 const DEFAULT_SETTINGS: SiteSettings = {
-  siteName: "宜家家居官网-家 给生活更多-宜家电商-提供客厅，卧室，厨房，各类家居灵感和产品解决方案- IKEA",
+  siteName: "BUZUD 健康产品商城 - 家庭健康自测与监测产品",
   siteDescription:
-    "宜家家居官网-家 给生活更多-宜家电商-提供客厅，卧室，厨房，各类家居灵感和产品解决方案- IKEA",
-  adminTitle: "宜家家居内容管理后台",
+    "BUZUD 健康产品商城，提供快速检测试剂、智能手表、血压计、血糖管理等家庭健康自测与监测产品。",
+  adminTitle: "BUZUD 商城内容管理后台",
   siteCopy: {
     notFound: {
       title: "404:哎呀,页面迷路了… 但别担心!",
@@ -487,26 +483,24 @@ const DEFAULT_SETTINGS: SiteSettings = {
     },
     survey: {
       title: "问卷调查",
-      body: "感谢您对宜家的关注。问卷服务由宜家官方应用提供,请前往宜家 App 参与。",
+      body: "感谢您对 BUZUD 的关注。问卷服务即将上线，敬请期待。",
       buttonLabel: "返回首页",
     },
   },
-};
-
-export function getSettings(): SiteSettings {
-  const saved = loadDataJson<Partial<SiteSettings>>("settings.json");
-  return { ...DEFAULT_SETTINGS, ...saved };
 }
 
-export async function updateSettings(
-  input: Partial<SiteSettings>,
-): Promise<SiteSettings> {
+export function getSettings(): SiteSettings {
+  const saved = loadDataJson<Partial<SiteSettings>>("settings.json")
+  return { ...DEFAULT_SETTINGS, ...saved }
+}
+
+export async function updateSettings(input: Partial<SiteSettings>): Promise<SiteSettings> {
   return withWriteLock(() => {
-    const current = getSettings();
-    const next = { ...current, ...input };
-    writeJson("settings.json", next);
-    return next;
-  });
+    const current = getSettings()
+    const next = { ...current, ...input }
+    writeJson("settings.json", next)
+    return next
+  })
 }
 
 // ---------------------------------------------------------------------------
@@ -514,35 +508,33 @@ export async function updateSettings(
 // ---------------------------------------------------------------------------
 
 export interface ChangelogEntry {
-  id: string;
-  at: string;
-  user: string;
-  action: "create" | "update" | "delete";
-  resource: string;
-  target: string;
-  summary: string;
+  id: string
+  at: string
+  user: string
+  action: "create" | "update" | "delete"
+  resource: string
+  target: string
+  summary: string
 }
 
 export function listChangelog(): ChangelogEntry[] {
   try {
-    return loadDataJson<ChangelogEntry[]>("changelog.json");
+    return loadDataJson<ChangelogEntry[]>("changelog.json")
   } catch {
-    return [];
+    return []
   }
 }
 
-export async function appendChangelog(
-  entry: Omit<ChangelogEntry, "id" | "at">,
-): Promise<void> {
+export async function appendChangelog(entry: Omit<ChangelogEntry, "id" | "at">): Promise<void> {
   await withWriteLock(() => {
-    const entries = listChangelog();
+    const entries = listChangelog()
     entries.unshift({
       ...entry,
       id: `${Date.now()}-${Math.random().toString(36).slice(2, 8)}`,
       at: nowIso(),
-    });
-    writeJson("changelog.json", entries.slice(0, 200));
-  });
+    })
+    writeJson("changelog.json", entries.slice(0, 200))
+  })
 }
 
 // ---------------------------------------------------------------------------
@@ -550,11 +542,8 @@ export async function appendChangelog(
 // ---------------------------------------------------------------------------
 
 export function siteStats(): Record<string, unknown> {
-  const productCount = loadProductParts().flat().length;
-  const pageCount = FAMILY_FILES.reduce(
-    (sum, family) => sum + loadFamilyPages(family).length,
-    0,
-  );
+  const productCount = loadProductParts().flat().length
+  const pageCount = FAMILY_FILES.reduce((sum, family) => sum + loadFamilyPages(family).length, 0)
   return {
     products: productCount,
     pages: pageCount,
@@ -563,5 +552,5 @@ export function siteStats(): Record<string, unknown> {
     orders: listOrders().length,
     menuPanels: (getMenu().menuPanels as { menuPanels?: unknown[] })?.menuPanels?.length ?? 0,
     updatedAt: nowIso(),
-  };
+  }
 }

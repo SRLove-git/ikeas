@@ -47,7 +47,8 @@ export default function MyOrdersPage() {
                           <SiteImage
                             src={product.image}
                             alt={product.name}
-                            className="aspect-square w-full"
+                            className="aspect-square w-full bg-white"
+                            imgClassName="h-full w-full object-contain object-[50%_20%]"
                           />
                         </Link>
                       ))}

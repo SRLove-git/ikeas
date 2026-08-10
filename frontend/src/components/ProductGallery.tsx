@@ -13,7 +13,14 @@ export function ProductGallery({ images, name }: ProductGalleryProps) {
   const valid = images.filter((img): img is string => Boolean(img));
 
   if (valid.length === 0) {
-    return <SiteImage src={null} alt={name} className="aspect-square w-full" />;
+    return (
+      <SiteImage
+        src={null}
+        alt={name}
+        className="aspect-square w-full bg-white"
+        imgClassName="h-full w-full object-contain object-[50%_20%]"
+      />
+    );
   }
 
   return (
@@ -22,7 +29,8 @@ export function ProductGallery({ images, name }: ProductGalleryProps) {
         key={valid[active]}
         src={valid[active]}
         alt={name}
-        className="aspect-square w-full"
+        className="aspect-square w-full bg-white"
+        imgClassName="h-full w-full object-contain object-[50%_20%]"
       />
       {valid.length > 1 ? (
         <div className="mt-3 flex gap-2 overflow-x-auto no-scrollbar">
@@ -38,7 +46,12 @@ export function ProductGallery({ images, name }: ProductGalleryProps) {
               }`}
               onClick={() => setActive(index)}
             >
-              <SiteImage src={img} alt="" className="h-full w-full" />
+              <SiteImage
+                src={img}
+                alt=""
+                className="h-full w-full bg-white"
+                imgClassName="h-full w-full object-contain object-[50%_20%]"
+              />
             </button>
           ))}
         </div>

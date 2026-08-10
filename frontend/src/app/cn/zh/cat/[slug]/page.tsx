@@ -99,7 +99,7 @@ export default async function CategoryPage({
             </div>
           ) : null}
 
-          <div className="mt-8 grid grid-cols-2 gap-x-4 gap-y-8 md:grid-cols-3 lg:grid-cols-4">
+          <div className="mt-5 grid grid-cols-2 gap-x-4 gap-y-8 md:grid-cols-3 lg:grid-cols-4">
             {products.map((product) => (
               <ProductCard key={product.id} product={product} />
             ))}
@@ -153,7 +153,7 @@ export default async function CategoryPage({
           </div>
         ) : null}
 
-        <div className="mt-8 grid grid-cols-2 gap-x-4 gap-y-8 md:grid-cols-3 lg:grid-cols-4">
+        <div className="mt-5 grid grid-cols-2 gap-x-4 gap-y-8 md:grid-cols-3 lg:grid-cols-4">
           {page.products.map((product) => {
             const href = productHref(product);
             const hasDetail = productSlugsWithDetails().has(
@@ -161,12 +161,12 @@ export default async function CategoryPage({
             );
             const content = (
               <>
-                <div className="aspect-square w-full overflow-hidden bg-ikea-gray-100">
+                <div className="aspect-square w-full overflow-hidden bg-white">
                   <SiteImage
                     src={product.image}
                     alt={product.name}
                     className="h-full w-full"
-                    imgClassName="h-full object-cover"
+                    imgClassName="h-full w-full object-contain object-[50%_20%]"
                   />
                 </div>
                 <div className="flex flex-col pt-3">

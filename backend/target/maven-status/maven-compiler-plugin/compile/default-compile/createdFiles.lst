@@ -63,5 +63,6 @@ com/ikea/server/web/AdminKeyInterceptor.class
 com/ikea/server/data/ChatKnowledgeStore.class
 com/ikea/server/data/FavoritesStore.class
 com/ikea/server/web/AuthController$SmsSendResponse.class
+com/ikea/server/config/MybatisPlusConfig.class
 com/ikea/server/web/ChatController$ChatReply.class
 com/ikea/server/model/ProductMatch.class

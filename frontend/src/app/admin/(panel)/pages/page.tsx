@@ -1,7 +1,7 @@
-"use client";
+"use client"
 
-import { useEffect, useState } from "react";
-import Link from "next/link";
+import { useEffect, useState } from "react"
+import Link from "next/link"
 import {
   adminFetch,
   Button,
@@ -11,70 +11,50 @@ import {
   PageHeader,
   SearchBox,
   Select,
-} from "@/components/admin/admin-ui";
+} from "@/components/admin/admin-ui"
 
 interface PageItem {
-  url: string;
-  family: string;
-  title: string;
-  name: string | null;
-  source?: "crawled" | "legacy";
+  url: string
+  family: string
+  title: string
+  name: string | null
+  source?: "crawled" | "legacy"
 }
 
 interface Families {
-  name: string;
-  count: number;
+  name: string
+  count: number
 }
 
 const FAMILY_LABEL: Record<string, string> = {
-  rooms: "房间",
-  ideas: "家居灵感",
-  campaigns: "活动和特惠",
-  new: "新品",
   "customer-service": "客户服务",
-  "ikea-business": "宜家对公业务",
-  "this-is-ikea": "关于宜家",
-  newsroom: "宜家新闻",
-  "product-guides": "产品指南",
-  "life-at-home": "生活在家",
-  stores: "宜家门店",
-  planners: "设计和服务",
-  "landing-page": "落地页",
-  "as-is-online": "循环市集",
-  "safety-at-home": "居家安全",
-  "ikea-family": "宜家俱乐部",
-  galleries: "房间灵感图库",
-  business: "宜家对公业务",
-  landing: "落地页",
-  services: "客户服务",
-  "rooms-articles": "房间文章",
   root: "首页",
-};
+}
 
 function keyFor(url: string): string {
-  return btoa(unescape(encodeURIComponent(url)));
+  return btoa(unescape(encodeURIComponent(url)))
 }
 
 export default function PagesPage() {
-  const [family, setFamily] = useState("");
-  const [query, setQuery] = useState("");
-  const [families, setFamilies] = useState<Families[]>([]);
-  const [items, setItems] = useState<PageItem[] | null>(null);
-  const [error, setError] = useState<string | null>(null);
+  const [family, setFamily] = useState("")
+  const [query, setQuery] = useState("")
+  const [families, setFamilies] = useState<Families[]>([])
+  const [items, setItems] = useState<PageItem[] | null>(null)
+  const [error, setError] = useState<string | null>(null)
 
   useEffect(() => {
     void (async () => {
       try {
         const data = await adminFetch<{ items: PageItem[]; families: Families[] }>(
           `/api/admin/pages?family=${encodeURIComponent(family)}&q=${encodeURIComponent(query)}`,
-        );
-        setItems(data.items);
-        setFamilies(data.families);
+        )
+        setItems(data.items)
+        setFamilies(data.families)
       } catch (e) {
-        setError((e as Error).message);
+        setError((e as Error).message)
       }
-    })();
-  }, [family, query]);
+    })()
+  }, [family, query])
 
   return (
     <div>
@@ -89,11 +69,7 @@ export default function PagesPage() {
       />
 
       <div className="mb-4 flex flex-wrap items-center gap-3">
-        <Select
-          value={family}
-          onChange={(e) => setFamily(e.target.value)}
-          className="w-52"
-        >
+        <Select value={family} onChange={(e) => setFamily(e.target.value)} className="w-52">
           <option value="">全部栏目</option>
           {families.map((f) => (
             <option key={f.name} value={f.name}>
@@ -101,14 +77,8 @@ export default function PagesPage() {
             </option>
           ))}
         </Select>
-        <SearchBox
-          value={query}
-          onChange={setQuery}
-          placeholder="搜索标题 / URL…"
-        />
-        <span className="text-xs text-ikea-muted">
-          {items ? `共 ${items.length} 个页面` : ""}
-        </span>
+        <SearchBox value={query} onChange={setQuery} placeholder="搜索标题 / URL…" />
+        <span className="text-xs text-ikea-muted">{items ? `共 ${items.length} 个页面` : ""}</span>
       </div>
 
       {error ? (
@@ -169,5 +139,5 @@ export default function PagesPage() {
         )}
       </div>
     </div>
-  );
+  )
 }

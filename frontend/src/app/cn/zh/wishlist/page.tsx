@@ -24,14 +24,15 @@ export default function WishlistPage() {
 
           <h1 className="text-2xl font-bold leading-9">我的收藏({items.length})</h1>
 
-          <div className="mt-8 grid grid-cols-2 gap-x-4 gap-y-8 md:grid-cols-3 lg:grid-cols-4">
+          <div className="mt-5 grid grid-cols-2 gap-x-4 gap-y-8 md:grid-cols-3 lg:grid-cols-4">
             {items.map((product) => (
               <Link key={product.id} href={`/cn/zh/p/${product.slug}/`} className="group flex flex-col">
                 <div className="relative">
                   <SiteImage
                     src={product.image}
                     alt={product.name}
-                    className="aspect-square w-full transition-transform duration-300 group-hover:scale-105"
+                    className="aspect-square w-full bg-white transition-transform duration-300 group-hover:scale-105"
+                    imgClassName="h-full w-full object-contain object-[50%_20%]"
                   />
                   <button
                     type="button"

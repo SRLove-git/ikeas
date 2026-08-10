@@ -1,22 +1,22 @@
-import Link from "next/link";
-import { SiteLayout } from "@/components/SiteLayout";
-import { SiteImage } from "@/components/SiteImage";
-import { allProducts } from "@/data/products-index";
-import { formatPrice } from "@/lib/catalog";
-import { catalogPages } from "@/lib/catalog-pages";
-import { API_BASE } from "@/lib/api";
+import Link from "next/link"
+import { SiteLayout } from "@/components/SiteLayout"
+import { SiteImage } from "@/components/SiteImage"
+import { allProducts } from "@/data/products-index"
+import { formatPrice } from "@/lib/catalog"
+import { catalogPages } from "@/lib/catalog-pages"
+import { API_BASE } from "@/lib/api"
 
 interface SearchResult {
-  id: string;
-  slug: string;
-  name: string;
-  productType: string | null;
-  price: number | null;
-  image: string | null;
-  labels: { text: string; backgroundColor?: string | null; textColor?: string | null }[];
+  id: string
+  slug: string
+  name: string
+  productType: string | null
+  price: number | null
+  image: string | null
+  labels: { text: string; backgroundColor?: string | null; textColor?: string | null }[]
 }
 
-export const dynamic = "force-dynamic";
+export const dynamic = "force-dynamic"
 
 /** Search the Spring Boot backend; returns null when it is unreachable. */
 async function searchBackend(keyword: string): Promise<SearchResult[] | null> {
@@ -24,36 +24,36 @@ async function searchBackend(keyword: string): Promise<SearchResult[] | null> {
     const res = await fetch(
       `${API_BASE}/api/v1/products?q=${encodeURIComponent(keyword)}&page=0&size=100`,
       { cache: "no-store" },
-    );
-    if (!res.ok) return null;
-    const data = await res.json();
-    return Array.isArray(data.items) ? data.items : null;
+    )
+    if (!res.ok) return null
+    const data = await res.json()
+    return Array.isArray(data.items) ? data.items : null
   } catch {
-    return null;
+    return null
   }
 }
 
 export default async function SearchProductsPage({
   searchParams,
 }: {
-  searchParams: Promise<{ q?: string }>;
+  searchParams: Promise<{ q?: string }>
 }) {
-  const { q = "" } = await searchParams;
-  const keyword = q.trim().toLowerCase();
+  const { q = "" } = await searchParams
+  const keyword = q.trim().toLowerCase()
 
   /** productId -> Chinese category names (from crawled category pages) */
-  const categoryNamesById = new Map<string, Set<string>>();
+  const categoryNamesById = new Map<string, Set<string>>()
   for (const page of catalogPages()) {
-    if (!page.name) continue;
+    if (!page.name) continue
     for (const product of page.products) {
       if (!categoryNamesById.has(product.id)) {
-        categoryNamesById.set(product.id, new Set());
+        categoryNamesById.set(product.id, new Set())
       }
-      categoryNamesById.get(product.id)!.add(page.name);
+      categoryNamesById.get(product.id)!.add(page.name)
     }
   }
 
-  const backendResults = keyword ? await searchBackend(keyword) : null;
+  const backendResults = keyword ? await searchBackend(keyword) : null
   const results: SearchResult[] =
     keyword && backendResults === null
       ? allProducts().filter((product) => {
@@ -62,12 +62,12 @@ export default async function SearchProductsPage({
             product.productType,
             product.designText,
             ...(categoryNamesById.get(product.id) ?? []),
-          ];
+          ]
           return fields
             .filter(Boolean)
-            .some((field) => String(field).toLowerCase().includes(keyword));
+            .some((field) => String(field).toLowerCase().includes(keyword))
         })
-      : (backendResults ?? []);
+      : (backendResults ?? [])
 
   return (
     <SiteLayout>
@@ -85,11 +85,7 @@ export default async function SearchProductsPage({
             {keyword ? `搜索“${q}”` : "搜索商品"}
           </h1>
 
-          <form
-            role="search"
-            className="mt-6 flex max-w-2xl gap-3"
-            action="/cn/zh/search/products"
-          >
+          <form role="search" className="mt-6 flex max-w-2xl gap-3" action="/cn/zh/search/products">
             <input
               name="q"
               defaultValue={q}
@@ -106,12 +102,10 @@ export default async function SearchProductsPage({
 
           {keyword ? (
             <>
-              <p className="mt-8 text-sm text-ikea-muted">
-                共找到 {results.length} 件相关商品
-              </p>
+              <p className="mt-8 text-sm text-ikea-muted">共找到 {results.length} 件相关商品</p>
 
               {results.length > 0 ? (
-                <div className="mt-6 grid grid-cols-2 gap-x-4 gap-y-8 md:grid-cols-3 lg:grid-cols-4">
+                <div className="mt-5 grid grid-cols-2 gap-x-4 gap-y-8 md:grid-cols-3 lg:grid-cols-4">
                   {results.map((product) => (
                     <Link
                       key={product.id}
@@ -121,7 +115,8 @@ export default async function SearchProductsPage({
                       <SiteImage
                         src={product.image}
                         alt={product.name}
-                        className="aspect-square w-full transition-transform duration-300 group-hover:scale-105"
+                        className="aspect-square w-full bg-white transition-transform duration-300 group-hover:scale-105"
+                        imgClassName="h-full w-full object-contain object-[50%_20%]"
                       />
                       <div className="flex flex-col pt-3">
                         {product.labels.length > 0 ? (
@@ -140,15 +135,11 @@ export default async function SearchProductsPage({
                             ))}
                           </div>
                         ) : null}
-                        <h3 className="text-sm font-bold leading-[18px]">
-                          {product.name}
-                        </h3>
+                        <h3 className="text-sm font-bold leading-[18px]">{product.name}</h3>
                         <p className="mt-0.5 text-xs leading-[18px] text-ikea-muted">
                           {product.productType || ""}
                         </p>
-                        <p className="mt-1.5 text-sm">
-                          {formatPrice(product.price)}
-                        </p>
+                        <p className="mt-1.5 text-sm">{formatPrice(product.price)}</p>
                       </div>
                     </Link>
                   ))}
@@ -174,11 +165,11 @@ export default async function SearchProductsPage({
             </>
           ) : (
             <div className="mt-16 text-center text-sm text-ikea-muted">
-              输入关键词,搜索宜家商品
+              输入关键词，搜索 BUZUD 商品
             </div>
           )}
         </div>
       </div>
     </SiteLayout>
-  );
+  )
 }

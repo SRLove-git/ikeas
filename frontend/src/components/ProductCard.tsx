@@ -18,7 +18,8 @@ export function ProductCard({ product }: ProductCardProps) {
       <SiteImage
         src={product.image}
         alt={product.name}
-        className="aspect-square w-full transition-transform duration-300 group-hover:scale-105"
+        className="aspect-square w-full bg-white transition-transform duration-300 group-hover:scale-105"
+        imgClassName="h-full w-full object-contain object-[50%_20%]"
       />
       <div className="flex flex-col pt-3">
         {product.labels.length > 0 ? (

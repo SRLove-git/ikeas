@@ -3,6 +3,10 @@
     {
       "text": "欢迎来到 BUZUD 健康产品商城，正品保障，安心选购",
       "href": "/cn/zh/all-products/"
+    },
+    {
+      "text": "新加坡本地品牌，官方认证医疗设备，门店提供健康体验",
+      "href": "/cn/zh/customer-service/contact-us/"
     }
   ],
   "searchHints": [
@@ -95,28 +99,28 @@
   ],
   "heroSlides": [
     {
-      "id": "hero-1",
-      "image": "/images/cms/f542ce7fc67d4d9d99bb35dc7b490a48.jpg",
-      "href": "/cn/zh/all-products/",
-      "alt": "必逛好物"
+      "id": "buzud-hero-1",
+      "image": "/images/cms/buzud-hero-1.jpg",
+      "href": "/cn/zh/cat/buzud-watches",
+      "alt": "BUZUD Vibrance 智能健康手表"
     },
     {
-      "id": "hero-2",
-      "image": "/images/cms/da3aab9e81d54880bf80639fd4d738d1.jpg",
-      "href": "/cn/zh/all-products/",
-      "alt": "大减价"
+      "id": "buzud-hero-2",
+      "image": "/images/cms/buzud-hero-2.jpg",
+      "href": "/cn/zh/cat/buzud-rapid-tests",
+      "alt": "BUZUD 快速检测试剂"
     },
     {
-      "id": "hero-3",
-      "image": "/images/cms/ce9846584ee74e6b9da50d5a6ed2aa1c.png",
-      "href": "/cn/zh/all-products/",
-      "alt": "探索当季新品"
+      "id": "buzud-hero-3",
+      "image": "/images/cms/buzud-hero-3.jpg",
+      "href": "/cn/zh/cat/buzud-blood-pressure-monitors",
+      "alt": "BUZUD 智能血压计"
     },
     {
-      "id": "hero-4",
-      "image": "/images/cms/1b23af63650e4a9d81c6bf2ed31570b7.jpg",
-      "href": "/cn/zh/all-products/",
-      "alt": "更低价格"
+      "id": "buzud-hero-4",
+      "image": "/images/cms/buzud-hero-4.jpg",
+      "href": "/cn/zh/cat/buzud-glucose-management",
+      "alt": "BUZUD 连续血糖监测"
     }
   ],
   "promoCardItems": [
@@ -197,22 +201,22 @@
   ],
   "serviceColumns": [
     {
-      "title": "宜家全屋设计 | 1对1专业服务，为您打造理想的家",
-      "description": "",
-      "ctaHref": "/cn/zh/customer-service/services/kitchen-planning/",
-      "backgroundImage": "/images/cms/8b766d590aa74599957006b42a5d6ffd.jpg"
-    },
-    {
-      "title": "宜家对公业务|企业会员礼、特享满额返券等权益焕新升级",
+      "title": "客户服务与健康讲座",
       "description": "",
       "ctaHref": "/cn/zh/customer-service/",
-      "backgroundImage": "/images/cms/fadeb411053d49f18472baf81ffec5a4.jpg"
+      "backgroundImage": "/images/products/buzud-8885020712582.jpg"
     },
     {
-      "title": "宜家厨房 | 专业品质，厨房焕新，最快3天",
+      "title": "送货服务",
       "description": "",
-      "ctaHref": "/cn/zh/customer-service/services/kitchen-installation/",
-      "backgroundImage": "/images/cms/293f4299997441d79e57236ccad79b55.jpg"
+      "ctaHref": "/cn/zh/customer-service/services/delivery/",
+      "backgroundImage": "/images/products/buzud-8885020711103.jpg"
+    },
+    {
+      "title": "售后服务与保修",
+      "description": "",
+      "ctaHref": "/cn/zh/customer-service/services/aftersales/",
+      "backgroundImage": "/images/products/buzud-8885020711677.jpg"
     }
   ],
   "rankingSections": [
@@ -643,45 +647,61 @@
   "assurances": [
     {
       "title": "送货服务",
-      "description": "无论在实体店还是线上下单，我们都为你送货到指定地点。",
+      "description": "支持本地及海外配送，可联系门店或客服安排。",
       "ctaLabel": "了解详情",
       "ctaHref": "/cn/zh/customer-service/services/delivery/",
       "icon": "truck"
     },
     {
-      "title": "组装服务",
-      "description": "上门服务，帮你组装家具。",
+      "title": "售后服务",
+      "description": "保修期内外均提供维修与换货服务，支持门店现场维修。",
       "ctaLabel": "了解详情",
-      "ctaHref": "/cn/zh/customer-service/services/assembly/",
-      "icon": "assembly"
+      "ctaHref": "/cn/zh/customer-service/services/aftersales/",
+      "icon": "installation"
     },
     {
-      "title": "设计服务",
-      "description": "专业设计人员满足你的家装需求。",
-      "ctaLabel": "了解详情",
-      "ctaHref": "/cn/zh/customer-service/services/kitchen-planning/",
+      "title": "保修注册",
+      "description": "在官网登记产品保修信息，享受官方质保保障。",
+      "ctaLabel": "前往注册",
+      "ctaHref": "https://warranty.buzud.com/",
       "icon": "design"
     },
     {
-      "title": "安装服务",
-      "description": "为你提供完整厨房和浴室的安装服务。",
-      "ctaLabel": "了解详情",
-      "ctaHref": "/cn/zh/customer-service/services/kitchen-installation/",
-      "icon": "installation"
+      "title": "尊享权益",
+      "description": "银联卡支付享全店 88 折，线上输入优惠码 unionvip。",
+      "ctaLabel": "查看权益",
+      "ctaHref": "/cn/zh/customer-service/services/privileges/",
+      "icon": "assembly"
     }
   ],
   "recallNotices": [],
   "footerLinkGroups": [
     {
-      "title": "常用链接",
+      "title": "商品分类",
       "links": [
         {
-          "label": "瑞典美食",
-          "href": "/landing-page/23f07ce063c141f682fdb2e7bc541c7f/"
+          "label": "所有商品",
+          "href": "/cn/zh/all-products/"
         },
         {
-          "label": "回购与再售",
-          "href": "/cn/zh/customer-service/services/buy-back/"
+          "label": "快速检测试剂",
+          "href": "/cn/zh/cat/buzud-rapid-tests"
+        },
+        {
+          "label": "智能手表",
+          "href": "/cn/zh/cat/buzud-watches"
+        },
+        {
+          "label": "血压计",
+          "href": "/cn/zh/cat/buzud-blood-pressure-monitors"
+        },
+        {
+          "label": "血糖管理",
+          "href": "/cn/zh/cat/buzud-glucose-management"
+        },
+        {
+          "label": "健康监测设备",
+          "href": "/cn/zh/cat/buzud-health-devices"
         }
       ]
     },
@@ -689,65 +709,61 @@
       "title": "客户服务",
       "links": [
         {
-          "label": "客户服务",
-          "href": "/cn/zh/customer-service"
+          "label": "客户服务总览",
+          "href": "/cn/zh/customer-service/"
+        },
+        {
+          "label": "送货服务",
+          "href": "/cn/zh/customer-service/services/delivery/"
+        },
+        {
+          "label": "售后服务",
+          "href": "/cn/zh/customer-service/services/aftersales/"
+        },
+        {
+          "label": "尊享权益",
+          "href": "/cn/zh/customer-service/services/privileges/"
         },
         {
           "label": "联系我们",
           "href": "/cn/zh/customer-service/contact-us/"
-        },
-        {
-          "label": "网上商城配送范围",
-          "href": "/cn/zh/customer-service/chaxunhuoyunfanwei-pub38a5df41"
-        },
-        {
-          "label": "常见问题",
-          "href": "/cn/zh/customer-service/faq/"
-        },
-        {
-          "label": "退货政策",
-          "href": "/cn/zh/customer-service/returns-claims/return-policy/"
-        },
-        {
-          "label": "品质保证",
-          "href": "/cn/zh/customer-service/returns-claims/guarantee/"
-        },
-        {
-          "label": "购物指南",
-          "href": "/cn/zh/customer-service/product-support/buying-guides/"
-        },
-        {
-          "label": "宜家礼品卡",
-          "href": "/cn/zh/customer-service/services/lipinka-pubf2366e21/"
         }
       ]
     },
     {
-      "title": "宜家新闻",
+      "title": "法律与条款",
       "links": [
         {
-          "label": "商品召回",
-          "href": "/cn/zh/customer-service/product-support/recalls/"
+          "label": "隐私政策",
+          "href": "https://www.buzud.com/en/privacy-policy"
         },
         {
-          "label": "牢牢固定！",
-          "href": "/cn/zh/customer-service/creating-safer-homes-together-pub3ca57330"
+          "label": "使用条款",
+          "href": "https://www.buzud.com/en/conditions-of-use"
+        },
+        {
+          "label": "在线购买协议",
+          "href": "https://www.buzud.com/en/agreement"
+        },
+        {
+          "label": "保修注册",
+          "href": "https://warranty.buzud.com/"
         }
       ]
     }
   ],
   "footerFeaturedCards": [
     {
-      "title": "加入宜家俱乐部",
-      "description": "加入会员，享受专属折扣。更多个性化家居灵感，让你的想法照进现实",
-      "ctaLabel": "查看更多",
-      "href": "/cn/zh/ikea-family"
+      "title": "体验 BUZUD 健康服务",
+      "description": "前往新加坡体验门店，享受健康检测、产品体验与一对一咨询。",
+      "ctaLabel": "了解详情",
+      "href": "/cn/zh/customer-service/contact-us/"
     },
     {
-      "title": "加入宜家企业会员",
-      "description": "加入企业会员，享受会员6大权益以及专属折扣。助力中小微企业共同成长。",
-      "ctaLabel": "查看更多",
-      "href": "/cn/zh/landing-page/5c84c33b5c95414bacf5f529c9d6a960"
+      "title": "银联卡专享 88 折",
+      "description": "门店或线上使用银联卡支付享全店 12% 优惠，线上输入优惠码 unionvip。",
+      "ctaLabel": "立即选购",
+      "href": "/cn/zh/all-products/"
     }
   ],
   "socialIcons": [
@@ -765,23 +781,19 @@
     }
   ],
   "legalBar": {
-    "edition": "© Inter IKEA Systems B.V. 1999-2026",
+    "edition": "© BUZUD PTE. LTD. All Rights Reserved.",
     "links": [
       {
         "label": "隐私政策",
-        "href": "/cn/zh/customer-service/privacy-policy/"
-      },
-      {
-        "label": "缺陷披露政策",
-        "href": "/cn/zh/customer-service/responsible-disclosure/"
+        "href": "https://www.buzud.com/en/privacy-policy"
       },
       {
         "label": "使用条款",
-        "href": "/cn/zh/customer-service/terms-conditions/"
+        "href": "https://www.buzud.com/en/conditions-of-use"
       },
       {
-        "label": "沪ICP备XXXXXXXX号",
-        "href": "#"
+        "label": "在线购买协议",
+        "href": "https://www.buzud.com/en/agreement"
       }
     ]
   }

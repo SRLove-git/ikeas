@@ -1,14 +1,9 @@
-import {
-  AssemblyIcon,
-  DesignIcon,
-  InstallationIcon,
-  TruckIcon,
-} from "@/components/icons";
-import Link from "next/link";
-import type { AssuranceItem } from "@/types";
+import { AssemblyIcon, DesignIcon, InstallationIcon, TruckIcon } from "@/components/icons"
+import Link from "next/link"
+import type { AssuranceItem } from "@/types"
 
 interface ServicesSectionProps {
-  assurances: AssuranceItem[];
+  assurances: AssuranceItem[]
 }
 
 const iconMap = {
@@ -16,7 +11,7 @@ const iconMap = {
   assembly: AssemblyIcon,
   design: DesignIcon,
   installation: InstallationIcon,
-} as const;
+} as const
 
 export function ServicesSection({ assurances }: ServicesSectionProps) {
   return (
@@ -26,7 +21,7 @@ export function ServicesSection({ assurances }: ServicesSectionProps) {
       </div>
       <div className="pub-assurances">
         {assurances.map((item) => {
-          const Icon = iconMap[item.icon];
+          const Icon = iconMap[item.icon]
           return (
             <div key={item.title} className="pub-assurances-item">
               <div>
@@ -42,19 +37,16 @@ export function ServicesSection({ assurances }: ServicesSectionProps) {
                 {item.ctaLabel}
               </a>
             </div>
-          );
+          )
         })}
       </div>
       <div className="pub-button-link is-bolder">
-        <Link
-          href="/cn/zh/landing-page/cn--zh--9bdb3af1c07611e8affa0d09be91682d"
-          className="i-btn i-btn--small i-btn--secondary"
-        >
+        <Link href="/cn/zh/customer-service/" className="i-btn i-btn--small i-btn--secondary">
           <span className="i-btn__inner">
             <span className="i-btn__label">查看所有服务</span>
           </span>
         </Link>
       </div>
     </div>
-  );
+  )
 }

@@ -7,8 +7,10 @@ import {
 } from "@/lib/catalog";
 import { ProductGallery } from "@/components/ProductGallery";
 import { ProductActions } from "@/components/ProductActions";
+import { ProductCard } from "@/components/ProductCard";
 import { SiteLayout } from "@/components/SiteLayout";
 import { allProducts } from "@/data/products-index";
+import type { CatalogProduct } from "@/data/catalog";
 
 export const dynamicParams = false;
 
@@ -34,12 +36,41 @@ export default async function ProductPage({
   const { product, category } = match;
   const detail = product.detail;
   const spec = [product.productType, product.designText].filter(Boolean).join(", ");
+  const similar: CatalogProduct[] = allProducts()
+    .filter(
+      (candidate) =>
+        candidate.id !== product.id && candidate.productType === product.productType,
+    )
+    .slice(0, 4)
+    .map((candidate) => ({
+      id: candidate.id,
+      slug: candidate.slug,
+      name: candidate.name,
+      productType: candidate.productType ?? undefined,
+      designText: candidate.designText ?? undefined,
+      price: candidate.price,
+      originalPrice: null,
+      image: candidate.image,
+      labels: (candidate.labels ?? []).map((label) => ({
+        text: label.text,
+        backgroundColor: label.backgroundColor ?? undefined,
+        textColor: label.textColor ?? undefined,
+      })),
+      detail: {
+        images: candidate.detail?.images ?? [],
+        benefits: candidate.detail?.benefits ?? [],
+        dimension: candidate.detail?.dimension ?? null,
+        materials: candidate.detail?.materials ?? [],
+        care: candidate.detail?.care ?? [],
+        description: candidate.detail?.description ?? null,
+      },
+    }));
 
   return (
     <SiteLayout>
     <div className="font-ikea min-h-screen bg-white text-ikea-black">
       <div className="max-w-page mx-auto px-5 py-8 lg:px-10">
-        <nav className="mb-6 flex flex-wrap items-center gap-2 text-sm text-ikea-muted">
+        <nav className="mb-4 flex flex-wrap items-center gap-2 text-sm text-ikea-muted">
           <Link href="/" className="hover:text-ikea-black">
             首页
           </Link>
@@ -90,6 +121,7 @@ export default async function ProductPage({
             <p className="mt-5 text-2xl font-bold">
               {formatPrice(product.price)}
             </p>
+            <p className="mt-2 text-sm text-ikea-muted">商品编号 {product.id}</p>
 
             <ProductActions productId={product.id} />
 
@@ -144,6 +176,17 @@ export default async function ProductPage({
                 </ul>
               </section>
             ) : null}
+          </div>
+        ) : null}
+
+        {similar.length > 0 ? (
+          <div className="mt-14 border-t border-ikea-gray-200 pt-10">
+            <h2 className="text-xl font-bold">与「{product.name}」相似的商品</h2>
+            <div className="mt-6 grid grid-cols-2 gap-x-4 gap-y-8 md:grid-cols-3 lg:grid-cols-4">
+              {similar.map((candidate) => (
+                <ProductCard key={candidate.id} product={candidate} />
+              ))}
+            </div>
           </div>
         ) : null}
       </div>

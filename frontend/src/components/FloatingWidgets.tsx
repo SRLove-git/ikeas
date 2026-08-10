@@ -1,61 +1,58 @@
-"use client";
+"use client"
 
-import { useEffect, useState } from "react";
-import { ChatIcon, CloseIcon } from "@/components/icons";
-import { ArrowUp } from "lucide-react";
-import { API_BASE } from "@/lib/api";
+import { useEffect, useState } from "react"
+import { ChatIcon, CloseIcon } from "@/components/icons"
+import { ArrowUp } from "lucide-react"
+import { API_BASE } from "@/lib/api"
 
 interface ChatMessage {
-  role: "user" | "bot";
-  text: string;
+  role: "user" | "bot"
+  text: string
 }
 
 export function FloatingWidgets() {
-  const [showCookieBar, setShowCookieBar] = useState(true);
-  const [showChat, setShowChat] = useState(false);
-  const [showBackTop, setShowBackTop] = useState(false);
+  const [showCookieBar, setShowCookieBar] = useState(true)
+  const [showChat, setShowChat] = useState(false)
+  const [showBackTop, setShowBackTop] = useState(false)
   const [chatMessages, setChatMessages] = useState<ChatMessage[]>([
-    { role: "bot", text: "你好！小宜随时恭候，请问有什么可以帮你的？" },
-  ]);
-  const [chatInput, setChatInput] = useState("");
-  const [sendingChat, setSendingChat] = useState(false);
+    { role: "bot", text: "你好！我是 BUZUD 客服助手，请问有什么可以帮你的？" },
+  ])
+  const [chatInput, setChatInput] = useState("")
+  const [sendingChat, setSendingChat] = useState(false)
 
   useEffect(() => {
-    const onScroll = () => setShowBackTop(window.scrollY > 400);
-    window.addEventListener("scroll", onScroll, { passive: true });
-    onScroll();
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
+    const onScroll = () => setShowBackTop(window.scrollY > 400)
+    window.addEventListener("scroll", onScroll, { passive: true })
+    onScroll()
+    return () => window.removeEventListener("scroll", onScroll)
+  }, [])
 
-  const backToTop = () => window.scrollTo({ top: 0, behavior: "smooth" });
+  const backToTop = () => window.scrollTo({ top: 0, behavior: "smooth" })
 
   const sendChat = async (event: React.FormEvent) => {
-    event.preventDefault();
-    const text = chatInput.trim();
-    if (!text || sendingChat) return;
-    setChatMessages((current) => [...current, { role: "user", text }]);
-    setChatInput("");
-    setSendingChat(true);
+    event.preventDefault()
+    const text = chatInput.trim()
+    if (!text || sendingChat) return
+    setChatMessages((current) => [...current, { role: "user", text }])
+    setChatInput("")
+    setSendingChat(true)
     try {
       const res = await fetch(`${API_BASE}/api/v1/chat/messages`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message: text }),
-      });
-      const data = await res.json();
+      })
+      const data = await res.json()
       setChatMessages((current) => [
         ...current,
         { role: "bot", text: data.reply ?? "抱歉，我暂时无法回答这个问题。" },
-      ]);
+      ])
     } catch {
-      setChatMessages((current) => [
-        ...current,
-        { role: "bot", text: "网络异常，请稍后再试。" },
-      ]);
+      setChatMessages((current) => [...current, { role: "bot", text: "网络异常，请稍后再试。" }])
     } finally {
-      setSendingChat(false);
+      setSendingChat(false)
     }
-  };
+  }
 
   return (
     <>
@@ -63,13 +60,10 @@ export function FloatingWidgets() {
         <div className="cloud fixed inset-x-0 bottom-0 z-50 border-t border-ikea-gray-200 bg-white shadow-lg">
           <div className="flex flex-col items-start justify-between gap-3 px-5 py-4 sm:flex-row sm:items-center sm:px-10">
             <p className="text-sm text-ikea-black">
-              宜家官网使用Cookies,让浏览器更简单。查看更多有关浏览器Cookies。若您继续保持浏览宜家官网，我们将默认您接受Cookies。
+              BUZUD 官网使用 Cookies 提升浏览体验。继续浏览即表示您接受我们的 Cookies 政策。
             </p>
             <div className="flex shrink-0 items-center gap-3">
-              <button
-                type="button"
-                className="text-sm underline underline-offset-2"
-              >
+              <button type="button" className="text-sm underline underline-offset-2">
                 设置
               </button>
               <button
@@ -98,12 +92,8 @@ export function FloatingWidgets() {
       {showChat ? (
         <div className="fixed bottom-24 right-6 z-40 flex h-[420px] w-[320px] flex-col overflow-hidden rounded-lg border border-ikea-gray-200 bg-white shadow-2xl">
           <div className="flex items-center justify-between bg-ikea-black px-4 py-3 text-white">
-            <span className="text-sm font-bold">宜家客服</span>
-            <button
-              type="button"
-              aria-label="关闭"
-              onClick={() => setShowChat(false)}
-            >
+            <span className="text-sm font-bold">BUZUD 客服</span>
+            <button type="button" aria-label="关闭" onClick={() => setShowChat(false)}>
               <CloseIcon width={18} height={18} />
             </button>
           </div>
@@ -152,5 +142,5 @@ export function FloatingWidgets() {
         </button>
       ) : null}
     </>
-  );
+  )
 }

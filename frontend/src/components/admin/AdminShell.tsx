@@ -1,6 +1,6 @@
-import Link from "next/link";
-import { LogoutButton } from "@/components/admin/LogoutButton";
-import { SideNav, type NavGroup } from "@/components/admin/SideNav";
+import Link from "next/link"
+import { LogoutButton } from "@/components/admin/LogoutButton"
+import { SideNav, type NavGroup } from "@/components/admin/SideNav"
 
 const NAV_GROUPS: NavGroup[] = [
   {
@@ -45,7 +45,7 @@ const NAV_GROUPS: NavGroup[] = [
       { href: "/admin/changelog", label: "操作日志" },
     ],
   },
-];
+]
 
 export function AdminShell({ children }: { children: React.ReactNode }) {
   return (
@@ -53,10 +53,10 @@ export function AdminShell({ children }: { children: React.ReactNode }) {
       <aside className="fixed inset-y-0 left-0 z-30 flex w-56 flex-col bg-blue-950">
         <div className="flex items-center gap-2 border-b border-white/10 px-4 py-4">
           <div className="flex h-8 w-8 items-center justify-center rounded bg-ikea-blue text-sm font-black text-white">
-            宜
+            B
           </div>
           <div>
-            <div className="text-sm font-bold text-white">宜家内容管理后台</div>
+            <div className="text-sm font-bold text-white">BUZUD 内容管理后台</div>
             <div className="text-[10px] text-blue-200/70">CMS · 实时生效</div>
           </div>
         </div>
@@ -74,5 +74,5 @@ export function AdminShell({ children }: { children: React.ReactNode }) {
       </aside>
       <main className="ml-56 flex-1 px-8 py-8">{children}</main>
     </div>
-  );
+  )
 }

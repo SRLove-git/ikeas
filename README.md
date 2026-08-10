@@ -45,8 +45,18 @@ npm run dev          # http://localhost:3000
 cd backend && ./mvnw spring-boot:run  # http://localhost:8080
 ```
 
-演示账号：`demo@ikea.cn` / `13800138000`，密码 `123456`。
+演示账号：`demo@buzud.com` / `13800138000`，密码 `123456`。
 管理后台：http://localhost:3000/admin/ （默认 `admin / admin123`，可用环境变量覆盖）。
+
+## 本地数据库（PostgreSQL）
+
+后端已接入 PostgreSQL + MyBatis-Plus + Flyway（企业级改造第一批 1.1）。本地用 Docker 启动：
+
+```bash
+docker compose -f deploy/docker-compose.yml up -d db   # PostgreSQL 16，端口 5432
+```
+
+默认连接参数（可用环境变量覆盖）：`DB_HOST=localhost`、`DB_PORT=5432`、`DB_NAME=buzud`、`DB_USER=buzud`、`DB_PASSWORD=buzud`。后端启动时 Flyway 自动执行 `backend/src/main/resources/db/migration/` 下的迁移脚本。
 
 ## 常用命令
 
