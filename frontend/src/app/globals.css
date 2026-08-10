@@ -162,10 +162,9 @@
 @layer utilities {
   .max-w-page {
     max-width: 1440px;
-    min-width: 1100px;
     margin-inline: auto;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: clamp(20px, 5vw, 80px);
+    padding-right: clamp(20px, 5vw, 80px);
   }
 
   .font-ikea {

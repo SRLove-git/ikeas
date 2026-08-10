@@ -1,21 +1,21 @@
-import { Footer } from "@/components/Footer";
-import { FloatingWidgets } from "@/components/FloatingWidgets";
-import { CartDrawer } from "@/components/CartDrawer";
-import { Header } from "@/components/Header";
-import { HeroCarousel } from "@/components/HeroCarousel";
-import { InspirationTipsCard } from "@/components/InspirationTipsCard";
-import { NoticeBar } from "@/components/NoticeBar";
-import { ProductInspiration } from "@/components/ProductInspiration";
-import { ProductNotices } from "@/components/ProductNotices";
-import { PromoInspirationCard } from "@/components/PromoInspirationCard";
-import { RankingSection } from "@/components/RankingSection";
-import { ServiceColumns } from "@/components/ServiceColumns";
-import { ServicesSection } from "@/components/ServicesSection";
-import { VisualPillSlider } from "@/components/VisualPillSlider";
-import { homepage } from "@/data/homepage";
-import { getMenuPanels } from "@/data/menu-panels";
-import { getMenuCategories } from "@/data/categories";
-import { allProducts } from "@/data/products-index";
+import { Footer } from "@/components/Footer"
+import { FloatingWidgets } from "@/components/FloatingWidgets"
+import { CartDrawer } from "@/components/CartDrawer"
+import { Header } from "@/components/Header"
+import { HeroCarousel } from "@/components/HeroCarousel"
+import { InspirationTipsCard } from "@/components/InspirationTipsCard"
+import { NoticeBar } from "@/components/NoticeBar"
+import { ProductInspiration } from "@/components/ProductInspiration"
+import { ProductNotices } from "@/components/ProductNotices"
+import { PromoInspirationCard } from "@/components/PromoInspirationCard"
+import { RankingSection } from "@/components/RankingSection"
+import { ServiceColumns } from "@/components/ServiceColumns"
+import { ServicesSection } from "@/components/ServicesSection"
+import { VisualPillSlider } from "@/components/VisualPillSlider"
+import { homepage } from "@/data/homepage"
+import { getMenuPanels } from "@/data/menu-panels"
+import { getMenuCategories } from "@/data/categories"
+import { allProducts } from "@/data/products-index"
 
 export default function Home() {
   const {
@@ -38,12 +38,14 @@ export default function Home() {
     socialIcons,
     sustainabilityPillCta,
     sustainabilityPillItems,
-  } = homepage();
-  const inspirationTabs = Object.keys(feedProducts);
-  const sampleItems = allProducts().slice(0, 3).map((product, index) => ({
-    product,
-    qty: index + 1,
-  }));
+  } = homepage()
+  const inspirationTabs = Object.keys(feedProducts)
+  const sampleItems = allProducts()
+    .slice(0, 3)
+    .map((product, index) => ({
+      product,
+      qty: index + 1,
+    }))
 
   return (
     <main className="text-left">
@@ -58,19 +60,12 @@ export default function Home() {
           />
           <div className="i-layout__body">
             <HeroCarousel slides={heroSlides} />
-            <div className="clearfix min-h-screen px-0 m-auto mb-8 space-y-8 text-left lg:mb-12 lg:space-y-12 max-w-page lg:min-w-1100">
+            <div className="clearfix min-h-screen px-0 m-auto mb-8 space-y-8 text-left lg:mb-12 lg:space-y-12 max-w-page">
               <PromoInspirationCard title="BUZUD 精选" items={promoCardItems} />
               <ServiceColumns columns={serviceColumns} />
               <RankingSection sections={rankingSections} />
-              <VisualPillSlider
-                title="按分类选购"
-                items={roomPillItems}
-                cta={roomPillCta}
-              />
-              <InspirationTipsCard
-                title="健康生活小贴士"
-                items={inspirationTipsItems}
-              />
+              <VisualPillSlider title="按分类选购" items={roomPillItems} cta={roomPillCta} />
+              <InspirationTipsCard title="健康生活小贴士" items={inspirationTipsItems} />
               <ProductInspiration
                 title="发现更多健康产品"
                 tabs={inspirationTabs}
@@ -96,5 +91,5 @@ export default function Home() {
         </div>
       </div>
     </main>
-  );
+  )
 }

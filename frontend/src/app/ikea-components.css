@@ -1551,3 +1551,78 @@ button.swiper-pagination-bullet{-webkit-appearance:none;-moz-appearance:none;app
 .float-app-button .inner{align-items:center;color:#fff;display:flex;flex:auto;font-size:14px;font-weight:700;justify-content:center;line-height:14px;padding:12px 11px;text-align:left}
 .float-app-button .logo{display:inline-block;height:18px;margin-right:6px;width:18px}
 .float-app-button .arrow-icon{font-size:20px}
+
+/* ---------------------------------------------------------------------------
+ * BUZUD responsive layout fixes (mobile / small screens)
+ * ------------------------------------------------------------------------- */
+@media (max-width: 1023px) {
+  .nav-header .nav-header_container {
+    min-width: 0;
+  }
+
+  .nav-header_container .header_container_top {
+    height: auto;
+    padding: 10px 12px 0;
+  }
+
+  .nav-header_container .header_container_top .header_container_top_content__inner {
+    flex-wrap: wrap;
+    height: auto;
+    row-gap: 10px;
+  }
+
+  .nav-header_container .header_container_left {
+    flex: 1;
+  }
+
+  .nav-header_container .header_container_top .header_container_top_content .search-bar-container {
+    flex-basis: 100%;
+    margin: 0 0 10px;
+    order: 3;
+  }
+
+  .nav-header_container .header-action-btn--login {
+    display: none;
+  }
+
+  .nav-header_container .header_container_top .header_container_menu_content {
+    height: 40px;
+    justify-content: flex-start;
+    overflow-x: auto;
+  }
+
+  .nav-header_container .header_container_center_ul {
+    margin-left: 0;
+  }
+
+  .nav-header_container .header_container_center_ul li {
+    margin-right: 22px;
+  }
+
+  .nav-header_container .nav-header-message-app-promotion {
+    margin-left: auto;
+  }
+
+  .nav-header-message-notice {
+    padding: 0 12px;
+  }
+
+  .nav-footer-container {
+    padding: 2.5rem 1rem 0;
+  }
+
+  .nav-footer-container-row {
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+
+  .nav-footer-container .nav-footer_featured-links,
+  .nav-footer-container .nav-footer_linkGroups {
+    width: 100%;
+  }
+
+  .nav-footer-container-other-row {
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+}
