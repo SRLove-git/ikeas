@@ -67,8 +67,8 @@ export function CartDrawer({ sampleItems }: CartDrawerProps) {
                 <SiteImage
                   src={product.image}
                   alt={product.name}
-                  className="aspect-square w-full bg-white"
-                  imgClassName="h-full w-full object-contain object-[50%_20%]"
+                  className="aspect-square w-full bg-white p-2"
+                  imgClassName="h-full w-full object-contain object-center"
                 />
               </Link>
               <div className="flex flex-1 flex-col">

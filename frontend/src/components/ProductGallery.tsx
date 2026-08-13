@@ -18,7 +18,7 @@ export function ProductGallery({ images, name }: ProductGalleryProps) {
         src={null}
         alt={name}
         className="aspect-square w-full"
-        imgClassName="h-full w-full object-contain object-[50%_20%] drop-shadow-[0_8px_16px_rgba(17,17,17,0.12)]"
+        imgClassName="h-full w-full object-contain object-center drop-shadow-[0_8px_16px_rgba(17,17,17,0.12)]"
       />
     )
   }
@@ -29,8 +29,8 @@ export function ProductGallery({ images, name }: ProductGalleryProps) {
         key={valid[active]}
         src={valid[active]}
         alt={name}
-        className="aspect-square w-full"
-        imgClassName="h-full w-full object-contain object-[50%_20%] drop-shadow-[0_8px_16px_rgba(17,17,17,0.12)]"
+        className="aspect-square w-full bg-white p-6"
+        imgClassName="h-full w-full object-contain object-center drop-shadow-[0_8px_16px_rgba(17,17,17,0.12)]"
       />
       {valid.length > 1 ? (
         <div className="mt-3 flex gap-2 overflow-x-auto no-scrollbar">
@@ -48,7 +48,7 @@ export function ProductGallery({ images, name }: ProductGalleryProps) {
                 src={img}
                 alt=""
                 className="h-full w-full"
-                imgClassName="h-full w-full object-contain object-[50%_20%]"
+                imgClassName="h-full w-full object-contain object-center"
               />
             </button>
           ))}

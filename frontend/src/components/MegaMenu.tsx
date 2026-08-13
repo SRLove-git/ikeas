@@ -48,7 +48,12 @@ export function MegaMenu({ categories }: MegaMenuProps) {
                       <div className="img-bg">
                         {sub.image ? (
                           // eslint-disable-next-line @next/next/no-img-element
-                          <img src={sub.image} alt={sub.name} loading="lazy" />
+                          <img
+                            src={sub.image}
+                            alt={sub.name}
+                            className="i-object-contain"
+                            loading="lazy"
+                          />
                         ) : null}
                       </div>
                       <div className="category-box-name">{sub.name}</div>

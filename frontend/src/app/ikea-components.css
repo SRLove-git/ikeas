@@ -1626,3 +1626,114 @@ button.swiper-pagination-bullet{-webkit-appearance:none;-moz-appearance:none;app
     gap: 0.75rem;
   }
 }
+
+/* === Homepage visual refinements (ikea.cn look) === */
+
+/* Hero: wide cinematic crop aligned to the content column.
+   Source images are 4:3 with baked-in copy on the left and product on the
+   right; on desktop we crop to 21:9 (ikea.cn hero ratio) with the focal
+   point slightly above center so the headline and CTA stay visible. */
+.hero-carousel__media {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background-color: #0058a3;
+}
+
+.hero-carousel__media > img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 32%;
+  transition: transform 0.6s cubic-bezier(0.2, 0, 0, 1);
+}
+
+@media (min-width: 768px) {
+  .hero-carousel__media {
+    aspect-ratio: 21 / 9;
+  }
+}
+
+/* Hero pagination sits below the image on a white strip, ikea.cn style */
+.hero-carousel .swiper-pagination {
+  position: static;
+  margin-top: 14px;
+  text-align: center;
+}
+
+.hero-carousel .swiper-pagination .swiper-pagination-bullet {
+  cursor: pointer;
+}
+
+/* Tile media: IKEA product-tile look for CMS cards — a light tinted
+   background (10% of the card colour over neutral grey) with the product
+   cutout centred with generous padding, plus a subtle hover zoom. */
+.i-aspect-ratio-box.i-tile-media {
+  background-color: color-mix(
+    in srgb,
+    var(--tile-color, #f5f5f5) 10%,
+    #f5f5f5
+  );
+}
+
+.i-aspect-ratio-box.i-tile-media > img {
+  box-sizing: border-box;
+  padding: 9%;
+  transition: transform 0.4s cubic-bezier(0.2, 0, 0, 1);
+}
+
+a:hover .i-aspect-ratio-box.i-tile-media > img,
+.i-aspect-ratio-box.i-tile-media:hover > img {
+  transform: scale(1.05);
+}
+
+/* Pill slider CTA tile: same portrait ratio as the image tiles, filled
+   with the brand colour, label top-left and a white round arrow
+   bottom-left — mirrors the ikea.cn "view more" tile. */
+.pub-visual-pill-slider .visualpillslider-cta {
+  aspect-ratio: 3 / 4;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 24px;
+}
+
+.visualpillslider-cta__label {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.visualpillslider-cta:hover .visualpillslider-cta__label {
+  text-decoration: underline;
+}
+
+.visualpillslider-cta__arrow {
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 50%;
+  color: #111111;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  width: 40px;
+}
+
+@media (max-width: 768px) {
+  .pub-visual-pill-slider .visualpillslider-cta {
+    padding: 16px;
+  }
+
+  .visualpillslider-cta__label {
+    font-size: 14px;
+  }
+
+  .visualpillslider-cta__arrow {
+    height: 28px;
+    width: 28px;
+  }
+}

@@ -263,6 +263,32 @@
   object-position: center;
 }
 
+/* Product cutouts should never be cropped by the generic aspect-box cover
+   rule. `i-product-image-box` also removes the grey tile background so the
+   transparent PNG edges blend into the page instead of showing a box. */
+.i-aspect-ratio-box.i-product-image-box {
+  background-color: transparent;
+}
+
+.i-aspect-ratio-box > img.i-object-contain,
+.i-aspect-ratio-box.i-product-image-box > img {
+  object-fit: contain;
+  object-position: center;
+}
+
+.nav-header-category-box .sub-list .sub-list-li .img-bg img.i-object-contain {
+  object-fit: contain;
+  object-position: center;
+  mix-blend-mode: normal;
+}
+
+/* Keep imgs inside .pub-image aspect boxes filling the box; the
+   .pub-image img rule in ikea-components.css sets height:auto, which makes
+   tall images overflow the box and cover the caption below. */
+.pub-image .i-aspect-ratio-box > img:not(.i-product-tag--icon-url) {
+  height: 100%;
+}
+
 /* === Clone component alignment fixes === */
 
 /* Search icon inside the header search bar */

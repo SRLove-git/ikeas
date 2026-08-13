@@ -36,6 +36,7 @@ export interface HomepageData {
   heroSlides: HeroSlide[];
   promoCardItems: PromoTile[];
   inspirationTipsItems: PromoTile[];
+  inspirationTipsCta?: { label: string; href: string };
   serviceColumns: ServiceColumnCard[];
   rankingSections: RankingCategory[];
   roomPillItems: PillSliderItem[];

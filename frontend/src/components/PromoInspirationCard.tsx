@@ -1,3 +1,4 @@
+import type { CSSProperties } from "react";
 import { ArrowRightIcon } from "@/components/icons";
 import type { PromoTile } from "@/types";
 
@@ -17,14 +18,26 @@ export function PromoInspirationCard({ title, items }: PromoInspirationCardProps
               {items.map((item) => (
                 <div key={item.title} className="pub-inspiration-card__item">
                   <a
-                    href={item.href ?? "#"}
+                    href={item.ctaHref ?? item.href ?? "#"}
                     className="pub-inspiration-card__link"
                   >
                     <div className="pub-inspiration-card__multi-media">
-                      <div className="i-aspect-ratio-box i-aspect-ratio-box--square">
+                      <div
+                        className="i-aspect-ratio-box i-aspect-ratio-box--standard i-product-image-box i-tile-media"
+                        style={
+                          item.backgroundColor
+                            ? ({ "--tile-color": item.backgroundColor } as CSSProperties)
+                            : undefined
+                        }
+                      >
                         {item.image ? (
                           // eslint-disable-next-line @next/next/no-img-element
-                          <img src={item.image} alt={item.title} loading="lazy" />
+                          <img
+                            src={item.image}
+                            alt={item.title}
+                            className="i-object-contain"
+                            loading="lazy"
+                          />
                         ) : null}
                       </div>
                     </div>

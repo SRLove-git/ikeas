@@ -12,12 +12,13 @@ export function ServiceColumns({ columns }: ServiceColumnsProps) {
           <div className="pub-columns__content">
             <div className="pub-image component-wrapper">
               <a href={column.ctaHref ?? "#"}>
-                <div className="i-aspect-ratio-box i-aspect-ratio-box--wide">
+                <div className="i-aspect-ratio-box i-aspect-ratio-box--wide i-product-image-box i-tile-media">
                   {column.backgroundImage ? (
                     // eslint-disable-next-line @next/next/no-img-element
                     <img
                       src={column.backgroundImage}
                       alt={column.title}
+                      className="i-object-contain"
                       loading="lazy"
                     />
                   ) : null}

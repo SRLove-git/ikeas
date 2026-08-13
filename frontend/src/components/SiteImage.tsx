@@ -29,7 +29,8 @@ export function SiteImage({
   return (
     <div
       className={cn(
-        "relative flex items-center justify-center overflow-hidden bg-ikea-gray-100",
+        "relative flex items-center justify-center overflow-hidden",
+        showPlaceholder ? "bg-ikea-gray-100" : "bg-transparent",
         className,
       )}
     >
@@ -61,7 +62,7 @@ export function SiteImage({
           alt={alt}
           loading="lazy"
           onError={() => setFailed(true)}
-          className={cn("w-full", imgClassName)}
+          className={cn("h-full w-full object-contain object-center", imgClassName)}
         />
       )}
     </div>

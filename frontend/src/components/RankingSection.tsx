@@ -83,7 +83,12 @@ export function RankingSection({ sections }: RankingSectionProps) {
                               </div>
                               <div className="pub-ranking-item-product__image">
                                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                                <img src={product.image} alt={product.name} loading="lazy" />
+                                <img
+                                  src={product.image}
+                                  alt={product.name}
+                                  className="h-full w-full object-contain object-center"
+                                  loading="lazy"
+                                />
                               </div>
                               <div className="pub-ranking-item-product__info">
                                 <span className="pub-ranking-item-product-name">

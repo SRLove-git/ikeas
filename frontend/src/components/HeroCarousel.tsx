@@ -36,7 +36,7 @@ export function HeroCarousel({ slides }: HeroCarouselProps) {
   }, [slides.length]);
 
   return (
-    <div className="mb-8 lg:mb-12">
+    <div className="hero-carousel">
       <div className="i-carousel i-carousel__navigation">
         <div className="swiper">
           <div
@@ -51,11 +51,12 @@ export function HeroCarousel({ slides }: HeroCarouselProps) {
                   index === active ? "swiper-slide-active" : ""
                 }`}
               >
-                <div className="i-aspect-ratio-box i-aspect-ratio-box--standard">
-                  <div className="i-image">
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img src={slide.image} alt={slide.alt ?? slide.imageAlt ?? ""} />
-                  </div>
+                <div className="hero-carousel__media">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={slide.image.replace(/\.jpg$/, "@2x.jpg")}
+                    alt={slide.alt ?? slide.imageAlt ?? ""}
+                  />
                 </div>
               </a>
             ))}

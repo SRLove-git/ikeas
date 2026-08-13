@@ -104,13 +104,13 @@ function ProductPinCard({ product }: { product: FeedProduct }) {
         className="block h-full w-full"
         aria-label={product.title ?? "产品"}
       >
-        <div className="i-aspect-ratio-box i-aspect-ratio-box--standard h-full w-full overflow-visible">
+        <div className="i-aspect-ratio-box i-aspect-ratio-box--standard i-product-image-box h-full w-full overflow-visible">
           {product.image ? (
             // eslint-disable-next-line @next/next/no-img-element
             <img
               src={product.image}
               alt={product.title ?? ""}
-              className="h-full w-full object-contain object-[50%_20%] drop-shadow-[0_8px_16px_rgba(17,17,17,0.12)]"
+              className="i-object-contain h-full w-full object-contain object-center drop-shadow-[0_8px_16px_rgba(17,17,17,0.12)]"
               loading="lazy"
             />
           ) : (

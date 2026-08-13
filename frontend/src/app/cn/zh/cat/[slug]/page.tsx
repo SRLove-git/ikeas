@@ -165,8 +165,8 @@ export default async function CategoryPage({
                   <SiteImage
                     src={product.image}
                     alt={product.name}
-                    className="h-full w-full"
-                    imgClassName="h-full w-full object-contain object-[50%_20%]"
+                    className="h-full w-full p-4"
+                    imgClassName="h-full w-full object-contain object-center"
                   />
                 </div>
                 <div className="flex flex-col pt-3">

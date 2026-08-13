@@ -41,7 +41,7 @@ export function ContentPage({
             <SiteImage
               src={page.hero}
               alt={title}
-              className="max-h-[480px]"
+              className="w-full max-h-[480px]"
             />
           </div>
         ) : null}

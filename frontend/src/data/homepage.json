@@ -130,7 +130,9 @@
       "description": "9 件健康产品，点击选购",
       "ctaLabel": "立即选购",
       "ctaHref": "/cn/zh/cat/buzud-rapid-tests",
-      "image": "/images/products/buzud-8885020710595.png"
+      "image": "/images/products/buzud-8885020710595.png",
+      "backgroundColor": "#00a19a",
+      "textColor": "#ffffff"
     },
     {
       "eyebrow": "BUZUD",
@@ -138,7 +140,9 @@
       "description": "5 件健康产品，点击选购",
       "ctaLabel": "立即选购",
       "ctaHref": "/cn/zh/cat/buzud-watches",
-      "image": "/images/products/buzud-8885020712582.png"
+      "image": "/images/products/buzud-8885020712582.png",
+      "backgroundColor": "#0058a3",
+      "textColor": "#ffffff"
     },
     {
       "eyebrow": "BUZUD",
@@ -146,7 +150,9 @@
       "description": "3 件健康产品，点击选购",
       "ctaLabel": "立即选购",
       "ctaHref": "/cn/zh/cat/buzud-blood-pressure-monitors",
-      "image": "/images/products/buzud-8885020710151.png"
+      "image": "/images/products/buzud-8885020710151.png",
+      "backgroundColor": "#e2711d",
+      "textColor": "#ffffff"
     },
     {
       "eyebrow": "BUZUD",
@@ -154,7 +160,9 @@
       "description": "3 件健康产品，点击选购",
       "ctaLabel": "立即选购",
       "ctaHref": "/cn/zh/cat/buzud-glucose-management",
-      "image": "/images/products/buzud-8885020711394.png"
+      "image": "/images/products/buzud-8885020711394.png",
+      "backgroundColor": "#00796b",
+      "textColor": "#ffffff"
     },
     {
       "eyebrow": "BUZUD",
@@ -162,7 +170,9 @@
       "description": "3 件健康产品，点击选购",
       "ctaLabel": "立即选购",
       "ctaHref": "/cn/zh/cat/buzud-health-devices",
-      "image": "/images/products/buzud-8885020711677.png"
+      "image": "/images/products/buzud-8885020711677.png",
+      "backgroundColor": "#b23a48",
+      "textColor": "#ffffff"
     }
   ],
   "inspirationTipsItems": [
@@ -172,7 +182,9 @@
       "description": "用于女性尿液中的 HCG 检测，辅助判断是否怀孕。",
       "ctaLabel": "了解详情",
       "ctaHref": "/cn/zh/p/hcg-pregnancy-rapid-test-8885020710595",
-      "image": "/images/products/buzud-8885020710595.png"
+      "image": "/images/products/buzud-8885020710595.png",
+      "backgroundColor": "#d6e9f4",
+      "textColor": "#111111"
     },
     {
       "eyebrow": "健康贴士",
@@ -180,7 +192,9 @@
       "description": "检测尿液中的黄体生成素（LH）峰值，辅助预测排卵期。",
       "ctaLabel": "了解详情",
       "ctaHref": "/cn/zh/p/lh-ovulation-rapid-test-8885020710618",
-      "image": "/images/products/buzud-8885020710618.png"
+      "image": "/images/products/buzud-8885020710618.png",
+      "backgroundColor": "#d6e9f4",
+      "textColor": "#111111"
     },
     {
       "eyebrow": "健康贴士",
@@ -188,7 +202,9 @@
       "description": "检测阴道分泌物的 pH 值，辅助筛查阴道微生态异常及感染风险。",
       "ctaLabel": "了解详情",
       "ctaHref": "/cn/zh/p/vaginal-ph-rapid-test-panel-8885020710649",
-      "image": "/images/products/buzud-8885020710649.png"
+      "image": "/images/products/buzud-8885020710649.png",
+      "backgroundColor": "#d6e9f4",
+      "textColor": "#111111"
     },
     {
       "eyebrow": "健康贴士",
@@ -196,9 +212,15 @@
       "description": "智能健康手表，用于日常活动、心率、睡眠等健康数据监测。",
       "ctaLabel": "了解详情",
       "ctaHref": "/cn/zh/p/buzud-watch-vibrance-8885020712582",
-      "image": "/images/products/buzud-8885020712582.png"
+      "image": "/images/products/buzud-8885020712582.png",
+      "backgroundColor": "#d6e9f4",
+      "textColor": "#111111"
     }
   ],
+  "inspirationTipsCta": {
+    "label": "加载更多内容",
+    "href": "/cn/zh/all-products/"
+  },
   "serviceColumns": [
     {
       "title": "客户服务与健康讲座",

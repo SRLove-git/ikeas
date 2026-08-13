@@ -52,7 +52,7 @@ export default function AllProductsPage() {
                     src={category.image}
                     alt={category.name}
                     loading="lazy"
-                    className="h-full w-full object-contain object-[50%_20%] transition-transform duration-300 group-hover:scale-105"
+                    className="h-full w-full object-contain object-center p-4 transition-transform duration-300 group-hover:scale-105"
                   />
                 ) : (
                   <div className="h-full w-full bg-ikea-gray-100" />

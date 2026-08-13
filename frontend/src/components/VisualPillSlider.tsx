@@ -66,10 +66,15 @@ export function VisualPillSlider({ title, items, cta }: VisualPillSliderProps) {
                 <div key={item.label} className="visualpillslider-li">
                   <a href={item.href ?? "#"} className="visualpillslider-item">
                     <div className="visualpillslider-item-image">
-                      <div className="i-aspect-ratio-box i-aspect-ratio-box--portrait">
+                      <div className="i-aspect-ratio-box i-aspect-ratio-box--portrait i-product-image-box i-tile-media">
                         {item.image ? (
                           // eslint-disable-next-line @next/next/no-img-element
-                          <img src={item.image} alt={item.label} loading="lazy" />
+                          <img
+                            src={item.image}
+                            alt={item.label}
+                            className="i-object-contain"
+                            loading="lazy"
+                          />
                         ) : null}
                       </div>
                       <div className="visualpillslider-btn-container">
@@ -83,19 +88,20 @@ export function VisualPillSlider({ title, items, cta }: VisualPillSliderProps) {
               ))}
               {cta ? (
                 <div className="visualpillslider-li">
-                  <a href={cta.href} className="visualpillslider-item">
-                    <div
-                      className="visualpillslider-color"
-                      style={{
-                        backgroundColor: cta.color,
-                        color: cta.textColor,
-                      }}
-                    >
-                      <div className="visualpillslider-color-desc">{cta.label}</div>
-                      <div className="visualpillslider-item-next">
-                        <ChevronRightIcon width={24} height={24} />
-                      </div>
-                    </div>
+                  <a
+                    href={cta.href}
+                    className="visualpillslider-item visualpillslider-cta"
+                    style={{
+                      backgroundColor: cta.color,
+                      color: cta.textColor,
+                    }}
+                  >
+                    <span className="visualpillslider-cta__label">
+                      {cta.label}
+                    </span>
+                    <span className="visualpillslider-cta__arrow">
+                      <ChevronRightIcon width={24} height={24} />
+                    </span>
                   </a>
                 </div>
               ) : null}
