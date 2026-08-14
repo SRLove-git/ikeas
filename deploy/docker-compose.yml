@@ -82,7 +82,7 @@ services:
       - POSTGRES_USER=buzud
       - POSTGRES_PASSWORD=buzud
     ports:
-      - "5432:5432"
+      - "${DB_PORT:-5432}:5432"
     volumes:
       - buzud_pgdata:/var/lib/postgresql/data
     healthcheck:

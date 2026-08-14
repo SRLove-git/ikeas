@@ -291,17 +291,10 @@
 
 /* === Clone component alignment fixes === */
 
-/* Search icon inside the header search bar */
-.search-input {
-  position: relative;
-}
-
-.search-input__icon {
-  position: absolute;
-  left: 24px;
-  top: 50%;
-  transform: translateY(-50%);
-  color: #111111;
+/* Let clicks pass through the rotating hint overlay to the search input,
+   so the whole visible pill focuses the input. */
+.s-header-notice {
+  pointer-events: none;
 }
 
 /* Rotating search hints (深盘 / 食品盒 / 靠垫套) */

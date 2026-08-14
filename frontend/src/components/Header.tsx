@@ -84,7 +84,7 @@ export function Header({
                   </div>
                   <div className="search-bar-container">
                     <form
-                      className="search-input"
+                      className="s-header"
                       role="search"
                       onSubmit={(event) => {
                         event.preventDefault();
@@ -94,14 +94,17 @@ export function Header({
                         }
                       }}
                     >
-                      <SearchIcon className="search-input__icon" width={24} height={24} />
                       <input
                         className="s-input"
                         type="text"
-                        aria-label="搜索"
+                        aria-label="search"
+                        placeholder=""
                         value={query}
                         onChange={(event) => setQuery(event.target.value)}
                       />
+                      <span className="search-icon">
+                        <SearchIcon width={24} height={24} />
+                      </span>
                       <div className="s-header-notice">
                         <div className="i-notice">
                           <div
