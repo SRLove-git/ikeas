@@ -74,10 +74,10 @@ export function Header({
                         {/* eslint-disable-next-line @next/next/no-img-element */}
                         <img
                           className="disable-event"
-                          src="/images/logo/logo.svg"
+                          src="/images/logo/logo.jpg"
                           alt="BUZUD"
-                          width={100}
-                          height={40}
+                          width={48}
+                          height={64}
                         />
                       </div>
                     </div>
