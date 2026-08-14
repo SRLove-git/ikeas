@@ -291,6 +291,15 @@
 
 /* === Clone component alignment fixes === */
 
+/* Footer featured-card buttons are `i-btn--primary` (dark pill, white
+   label); the original `.nav-footer_featured-links a` rules must not
+   repaint the button text or underline it. */
+.nav-footer_featured-links a.i-btn--primary,
+.nav-footer_featured-links a.i-btn--primary:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 /* Let clicks pass through the rotating hint overlay to the search input,
    so the whole visible pill focuses the input. */
 .s-header-notice {

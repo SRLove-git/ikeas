@@ -101,10 +101,10 @@ export function CloseIcon(props: IconProps) {
 
 export function ChevronLeftIcon(props: IconProps) {
   return (
-    <svg {...baseProps(props)}>
+    <svg className="i-quick-icon i-svg-icon i-btn__icon" {...baseProps(props)}>
       <path
         fillRule="evenodd"
-        d="m7 12.0009 8.0012-8.0007 1.4142 1.4142-6.587 6.5866 6.5859 6.5868L15 20.002l-8-8.0011z"
+        d="m8.4004 12.0007 5.785 5.7857 1.4143-1.4141-4.3711-4.3716L15.5997 7.629l-1.4143-1.4142-5.785 5.7859z"
         clipRule="evenodd"
       ></path>
     </svg>
@@ -113,10 +113,10 @@ export function ChevronLeftIcon(props: IconProps) {
 
 export function ChevronRightIcon(props: IconProps) {
   return (
-    <svg {...baseProps(props)}>
+    <svg className="i-quick-icon i-svg-icon i-btn__icon" {...baseProps(props)}>
       <path
         fillRule="evenodd"
-        d="m16.415 12.0011-8.0012 8.0007-1.4141-1.4143 6.587-6.5866-6.586-6.5868L8.415 4l8 8.0011z"
+        d="m15.5996 12.0007-5.785 5.7857-1.4143-1.4141 4.3711-4.3716L8.4003 7.629l1.4143-1.4142 5.785 5.7859z"
         clipRule="evenodd"
       ></path>
     </svg>
