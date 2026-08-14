@@ -42,7 +42,7 @@ const STATUSES = ["待付款", "待发货", "待收货", "已完成", "已取消
 function emptyOrder(): OrderForm {
   return {
     id: "",
-    date: new Date().toISOString().slice(0, 10),
+    date: "",
     status: "待发货",
     customer: null,
     phone: null,
@@ -62,7 +62,13 @@ export default function OrderEditorPage() {
   const [saving, setSaving] = useState(false);
 
   useEffect(() => {
-    if (isNew) return;
+    if (isNew) {
+      setForm((current) => ({
+        ...current,
+        date: new Date().toISOString().slice(0, 10),
+      }));
+      return;
+    }
     void (async () => {
       try {
         const order = await adminFetch<OrderForm>(`/api/admin/orders/${params.id}`);

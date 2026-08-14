@@ -1,7 +1,11 @@
 "use client";
 
 import { useRef } from "react";
-import { ChevronLeftIcon, ChevronRightIcon } from "@/components/icons";
+import {
+  ArrowRightIcon,
+  ChevronLeftIcon,
+  ChevronRightIcon,
+} from "@/components/icons";
 import type { PillSliderItem } from "@/types";
 
 interface CtaTile {
@@ -90,20 +94,24 @@ export function VisualPillSlider({ title, items, cta }: VisualPillSliderProps) {
               ))}
               {cta ? (
                 <div className="visualpillslider-li">
-                  <a
-                    href={cta.href}
-                    className="visualpillslider-item visualpillslider-cta"
-                    style={{
-                      backgroundColor: cta.color,
-                      color: cta.textColor,
-                    }}
-                  >
-                    <span className="visualpillslider-cta__label">
-                      {cta.label}
-                    </span>
-                    <span className="visualpillslider-cta__arrow">
-                      <ChevronRightIcon width={24} height={24} />
-                    </span>
+                  <a href={cta.href} className="visualpillslider-item">
+                    <div
+                      className="visualpillslider-color"
+                      style={{
+                        backgroundColor: cta.color,
+                        color: cta.textColor,
+                      }}
+                    >
+                      <div
+                        className="visualpillslider-color-desc"
+                        style={{ color: cta.textColor }}
+                      >
+                        {cta.label}
+                      </div>
+                      <div className="visualpillslider-item-next">
+                        <ArrowRightIcon />
+                      </div>
+                    </div>
                   </a>
                 </div>
               ) : null}

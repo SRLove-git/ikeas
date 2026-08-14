@@ -405,3 +405,22 @@
 .menu-label {
   cursor: pointer;
 }
+
+/* BUZUD primary buttons: keep the pill opaque even when a call site omits
+   the `i-btn__inner` wrapper.  The unlayered `.i-btn { background: 0 0 }`
+   from ikea-components.css otherwise wins over the layered `.i-btn--primary`
+   above, leaving white text on a transparent/white background.  The colour
+   mirrors ikea-components.css `.i-btn--primary` (dark pill, white label). */
+.i-btn.i-btn--primary {
+  background-color: #111111;
+  color: #ffffff;
+}
+
+.i-btn.i-btn--primary:hover {
+  background-color: #333333;
+}
+
+.i-btn.i-btn--primary:disabled {
+  background-color: #cccccc;
+  color: #929292;
+}

@@ -1736,50 +1736,12 @@ a:hover .i-aspect-ratio-box.i-tile-media > img,
   transform: scale(1.05);
 }
 
-/* Pill slider CTA tile: same portrait ratio as the image tiles, filled
-   with the brand colour, label top-left and a white round arrow
-   bottom-left — mirrors the ikea.cn "view more" tile. */
-.pub-visual-pill-slider .visualpillslider-cta {
-  aspect-ratio: 3 / 4;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 24px;
-}
-
-.visualpillslider-cta__label {
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1.5;
-}
-
-.visualpillslider-cta:hover .visualpillslider-cta__label {
-  text-decoration: underline;
-}
-
-.visualpillslider-cta__arrow {
-  align-items: center;
-  background-color: #ffffff;
-  border-radius: 50%;
-  color: #111111;
-  display: flex;
-  height: 40px;
-  justify-content: center;
-  width: 40px;
-}
-
-@media (max-width: 768px) {
-  .pub-visual-pill-slider .visualpillslider-cta {
-    padding: 16px;
-  }
-
-  .visualpillslider-cta__label {
-    font-size: 14px;
-  }
-
-  .visualpillslider-cta__arrow {
-    height: 28px;
-    width: 28px;
-  }
+/* Pill slider CTA tile now uses IKEA's `.visualpillslider-color` structure
+   (light neutral tile, dark label, dark round arrow) instead of a solid
+   brand-blue block. The higher-specificity selector beats the original
+   IKEA white-circle rule so the arrow reads on the light tile. */
+.pub-visual-pill-slider .visualpillslider-li .visualpillslider-item
+  .visualpillslider-color .visualpillslider-item-next {
+  background-color: #111111;
+  color: #ffffff;
 }

@@ -452,8 +452,8 @@
   "roomPillCta": {
     "label": "浏览全部商品",
     "href": "/cn/zh/all-products/",
-    "color": "rgb(0, 88, 163)",
-    "textColor": "rgb(255, 255, 255)"
+    "color": "#f5f5f5",
+    "textColor": "#111111"
   },
   "sustainabilityPillItems": [
     {
@@ -485,8 +485,8 @@
   "sustainabilityPillCta": {
     "label": "查看健康产品",
     "href": "/cn/zh/all-products/",
-    "color": "rgb(0, 88, 163)",
-    "textColor": "rgb(255, 255, 255)"
+    "color": "#f5f5f5",
+    "textColor": "#111111"
   },
   "feedProducts": {
     "全部": [

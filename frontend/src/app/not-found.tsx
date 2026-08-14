@@ -21,7 +21,11 @@ export default function NotFound() {
           href="/"
           className="i-btn i-btn--primary mt-6 inline-flex h-10 items-center px-6 text-xs font-bold text-white"
         >
-          <span className="i-btn__label">{siteCopy.notFound.buttonLabel}</span>
+          <span className="i-btn__inner">
+            <span className="i-btn__label">
+              {siteCopy.notFound.buttonLabel}
+            </span>
+          </span>
         </Link>
       </div>
     </main>

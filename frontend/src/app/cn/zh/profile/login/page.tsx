@@ -203,8 +203,10 @@ export default function LoginPage() {
               onClick={submit}
               className="i-btn i-btn--primary mt-6 h-11 w-full text-sm font-bold text-white disabled:cursor-not-allowed disabled:opacity-40"
             >
-              <span className="i-btn__label">
-                {submitting ? "请稍候…" : tab === "sms" ? "登录 / 注册" : "登录"}
+              <span className="i-btn__inner">
+                <span className="i-btn__label">
+                  {submitting ? "请稍候…" : tab === "sms" ? "登录 / 注册" : "登录"}
+                </span>
               </span>
             </button>
 
