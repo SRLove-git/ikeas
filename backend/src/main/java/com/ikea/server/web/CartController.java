@@ -2,6 +2,7 @@ package com.ikea.server.web;
 
 import com.ikea.server.data.CartStore;
 import com.ikea.server.data.DataStore;
+import com.ikea.server.constant.SecurityConstants;
 import com.ikea.server.model.Cart;
 import com.ikea.server.model.CartItem;
 import com.ikea.server.model.Product;
@@ -99,6 +100,6 @@ public class CartController {
   }
 
   private static String userId(HttpServletRequest request) {
-    return (String) request.getAttribute(AuthInterceptor.USER_ID_ATTRIBUTE);
+    return (String) request.getAttribute(SecurityConstants.USER_ID_ATTRIBUTE);
   }
 }

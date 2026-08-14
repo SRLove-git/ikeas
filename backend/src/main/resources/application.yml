@@ -41,8 +41,12 @@ ikea:
     # IKEA_STATIC_PUBLIC_DIR=../public. Leave empty to disable.
     public-dir: ${IKEA_STATIC_PUBLIC_DIR:}
   auth:
-    # Optional file persistence for registered users (e.g. IKEA_USERS_FILE=/data/users.json).
-    users-file: ${IKEA_USERS_FILE:}
+    # HMAC secret used to sign access JWTs. Must be at least 32 bytes in production.
+    jwt-secret: ${IKEA_JWT_SECRET:change-me-to-a-long-random-secret-at-least-32-bytes}
+    # Access token lifetime in seconds (default 15 minutes).
+    access-token-ttl: ${IKEA_ACCESS_TOKEN_TTL:900}
+    # Refresh token lifetime in seconds (default 30 days).
+    refresh-token-ttl: ${IKEA_REFRESH_TOKEN_TTL:2592000}
     # Demo mode: return the SMS code in the API response (IKEA_EXPOSE_SMS_CODE=false to hide).
     expose-sms-code: ${IKEA_EXPOSE_SMS_CODE:true}
   admin:

@@ -2,6 +2,7 @@ package com.ikea.server.web;
 
 import com.ikea.server.data.DataStore;
 import com.ikea.server.data.FavoritesStore;
+import com.ikea.server.constant.SecurityConstants;
 import com.ikea.server.model.Favorites;
 import com.ikea.server.model.Product;
 import jakarta.servlet.http.HttpServletRequest;
@@ -64,6 +65,6 @@ public class FavoritesController {
   }
 
   private static String userId(HttpServletRequest request) {
-    return (String) request.getAttribute(AuthInterceptor.USER_ID_ATTRIBUTE);
+    return (String) request.getAttribute(SecurityConstants.USER_ID_ATTRIBUTE);
   }
 }

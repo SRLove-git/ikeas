@@ -5,10 +5,14 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.http.converter.HttpMessageNotReadableException;
+import org.springframework.dao.DataIntegrityViolationException;
+import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.servlet.resource.NoResourceFoundException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.method.annotation.MethodArgumentTypeMismatchException;
+import com.ikea.server.service.AuthException;
 
 @RestControllerAdvice
 public class ApiExceptionHandler {
@@ -33,6 +37,36 @@ public class ApiExceptionHandler {
   public ResponseEntity<ApiError> handleUnauthorized(
       UnauthorizedException ex, HttpServletRequest request) {
     return build(HttpStatus.UNAUTHORIZED, ex.getMessage(), request);
+  }
+
+  @ExceptionHandler(AuthException.class)
+  public ResponseEntity<ApiError> handleAuth(
+      AuthException ex, HttpServletRequest request) {
+    return build(HttpStatus.UNAUTHORIZED, ex.getMessage(), request);
+  }
+
+  @ExceptionHandler(MethodArgumentNotValidException.class)
+  public ResponseEntity<ApiError> handleValidation(
+      MethodArgumentNotValidException ex, HttpServletRequest request) {
+    String message =
+        ex.getBindingResult().getFieldErrors().stream()
+            .findFirst()
+            .map(error -> error.getDefaultMessage())
+            .orElse("请求参数不正确");
+    return build(HttpStatus.BAD_REQUEST, message, request);
+  }
+
+  @ExceptionHandler(HttpMessageNotReadableException.class)
+  public ResponseEntity<ApiError> handleUnreadable(
+      HttpMessageNotReadableException ex, HttpServletRequest request) {
+    return build(HttpStatus.BAD_REQUEST, "请求体格式不正确", request);
+  }
+
+  @ExceptionHandler(DataIntegrityViolationException.class)
+  public ResponseEntity<ApiError> handleDataIntegrity(
+      DataIntegrityViolationException ex, HttpServletRequest request) {
+    log.warn("Data integrity violation for {}", request.getRequestURI(), ex);
+    return build(HttpStatus.CONFLICT, "账号已存在或数据冲突", request);
   }
 
   @ExceptionHandler({IllegalArgumentException.class, MethodArgumentTypeMismatchException.class})

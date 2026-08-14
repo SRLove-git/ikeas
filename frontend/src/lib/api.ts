@@ -16,6 +16,9 @@ export interface User {
 
 export interface AuthResponse {
   token: string;
+  refreshToken?: string;
+  expiresIn?: number;
+  tokenType?: string;
   user: User;
 }
 

@@ -48,7 +48,9 @@ IKEA_STATIC_PUBLIC_DIR=../frontend/public java -jar target/ikea-server-0.1.0.jar
 | `SERVER_PORT` | `8080` | HTTP port |
 | `CORS_ALLOWED_ORIGINS` | `http://localhost:3000,http://localhost:3001` | Comma-separated allowed origins |
 | `IKEA_STATIC_PUBLIC_DIR` | *(empty)* | Path to the repo's `public/` dir to serve static assets |
-| `IKEA_USERS_FILE` | *(empty)* | Optional JSON file to persist registered users |
+| `IKEA_JWT_SECRET` | `change-me-to-a-long-random-secret-at-least-32-bytes` | HMAC secret used to sign access JWTs. Set a long random value outside local development. |
+| `IKEA_ACCESS_TOKEN_TTL` | `900` | Access-token lifetime in seconds |
+| `IKEA_REFRESH_TOKEN_TTL` | `2592000` | Refresh-token lifetime in seconds |
 | `IKEA_EXPOSE_SMS_CODE` | `true` | Demo mode: return the SMS code in the API response |
 
 ### Demo account
@@ -167,8 +169,27 @@ each matched product.
 | `POST /api/v1/auth/sms/login` | `{ phone, code }` → logs in or auto-registers |
 | `POST /api/v1/auth/login` | `{ account, password }` → password login |
 | `POST /api/v1/auth/register` | `{ account, password, name? }` → creates an account |
+| `POST /api/v1/auth/refresh` | `{ refreshToken }` → rotates the refresh token and returns a new access token |
 | `GET /api/v1/auth/me` | Current user (requires `Authorization: Bearer <token>`) |
 | `POST /api/v1/auth/logout` | Invalidates the token |
+
+Successful login/register/SMS-login responses contain:
+
+```json
+{
+  "token": "<jwt access token>",
+  "refreshToken": "<opaque refresh token>",
+  "expiresIn": 900,
+  "tokenType": "Bearer",
+  "user": {
+    "id": "2088261458649227265",
+    "name": "BUZUD 体验用户",
+    "phone": "13800138000",
+    "email": "demo@ikea.cn",
+    "createdAt": "2026-08-14T13:48:24.420759"
+  }
+}
+```
 
 ### Shopping bag & favorites (require auth)
 

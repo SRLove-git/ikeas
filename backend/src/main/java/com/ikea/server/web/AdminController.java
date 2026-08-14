@@ -3,9 +3,10 @@ package com.ikea.server.web;
 import com.ikea.server.data.CartStore;
 import com.ikea.server.data.ChatHistoryStore;
 import com.ikea.server.data.FavoritesStore;
-import com.ikea.server.data.UserStore;
-import com.ikea.server.data.UserStore.StoredUser;
+import com.ikea.server.entity.AppUser;
 import com.ikea.server.model.User;
+import com.ikea.server.service.TokenService;
+import com.ikea.server.service.UserService;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
@@ -36,17 +37,20 @@ public class AdminController {
     return result;
   }
 
-  private final UserStore userStore;
+  private final UserService userService;
+  private final TokenService tokenService;
   private final CartStore cartStore;
   private final FavoritesStore favoritesStore;
   private final ChatHistoryStore chatHistory;
 
   public AdminController(
-      UserStore userStore,
+      UserService userService,
+      TokenService tokenService,
       CartStore cartStore,
       FavoritesStore favoritesStore,
       ChatHistoryStore chatHistory) {
-    this.userStore = userStore;
+    this.userService = userService;
+    this.tokenService = tokenService;
     this.cartStore = cartStore;
     this.favoritesStore = favoritesStore;
     this.chatHistory = chatHistory;
@@ -55,7 +59,7 @@ public class AdminController {
   @GetMapping("/stats")
   public Map<String, Object> stats() {
     return Map.of(
-        "users", userStore.allUsers().size(),
+        "users", userService.listAll().size(),
         "carts", cartStore.allCarts().size(),
         "favorites", favoritesStore.allFavorites().size(),
         "chatMessages", chatHistory.all().size());
@@ -66,18 +70,20 @@ public class AdminController {
   @GetMapping("/users")
   public Map<String, Object> users() {
     List<User> items =
-        userStore.allUsers().stream()
-            .map(user -> new User(user.id(), user.name(), user.phone(), user.email(), user.createdAt()))
+        userService.listAll().stream()
+            .map(AdminController::toUser)
             .toList();
     return Map.of("items", items, "total", items.size());
   }
 
   @DeleteMapping("/users/{id}")
   public ResponseEntity<Map<String, Object>> deleteUser(@PathVariable String id) {
-    boolean removed = userStore.deleteUser(id);
+    Long userId = parseUserId(id);
+    boolean removed = userId != null && userService.softDelete(userId);
     if (!removed) {
       return ResponseEntity.status(404).body(Map.of("error", "用户不存在"));
     }
+    tokenService.revokeAllForUser(userId);
     cartStore.clear(id);
     favoritesStore.idsFor(id).clear();
     return ResponseEntity.ok(Map.of("ok", true));
@@ -91,7 +97,8 @@ public class AdminController {
         cartStore.allCarts().stream()
             .map(
                 entry -> {
-                  StoredUser user = userStore.findById(entry.getKey());
+                  AppUser user =
+                      userService.findById(parseUserId(entry.getKey())).orElse(null);
                   List<Map<String, Object>> cartItems =
                       entry.getValue().entrySet().stream()
                           .map(
@@ -110,7 +117,7 @@ public class AdminController {
                       "user",
                       user == null
                           ? null
-                          : hash("name", user.name(), "phone", user.phone()),
+                          : hash("name", user.getName(), "phone", user.getPhone()),
                       "items",
                       cartItems);
                 })
@@ -132,14 +139,15 @@ public class AdminController {
         favoritesStore.allFavorites().stream()
             .map(
                 entry -> {
-                  StoredUser user = userStore.findById(entry.getKey());
+                  AppUser user =
+                      userService.findById(parseUserId(entry.getKey())).orElse(null);
                   return hash(
                       "userId",
                       entry.getKey(),
                       "user",
                       user == null
                           ? null
-                          : hash("name", user.name(), "phone", user.phone()),
+                          : hash("name", user.getName(), "phone", user.getPhone()),
                       "productIds",
                       entry.getValue().stream().toList());
                 })
@@ -175,5 +183,25 @@ public class AdminController {
   public Map<String, Object> clearChat() {
     chatHistory.clear();
     return Map.of("ok", true);
+  }
+
+  private static User toUser(AppUser user) {
+    return new User(
+        user.getId().toString(),
+        user.getName() == null || user.getName().isBlank() ? user.getUsername() : user.getName(),
+        user.getPhone(),
+        user.getEmail(),
+        user.getCreatedAt() == null ? null : user.getCreatedAt().toString());
+  }
+
+  private static Long parseUserId(String value) {
+    if (value == null) {
+      return null;
+    }
+    try {
+      return Long.valueOf(value);
+    } catch (NumberFormatException ex) {
+      return null;
+    }
   }
 }

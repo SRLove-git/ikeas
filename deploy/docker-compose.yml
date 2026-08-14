@@ -64,6 +64,15 @@ services:
     environment:
       - IKEA_STATIC_PUBLIC_DIR=${IKEA_STATIC_PUBLIC_DIR:-/app/frontend/public}
       - CORS_ALLOWED_ORIGINS=${CORS_ALLOWED_ORIGINS:-http://localhost:3000,http://localhost:3001}
+      - DB_HOST=db
+      - DB_PORT=5432
+      - DB_NAME=buzud
+      - DB_USER=buzud
+      - DB_PASSWORD=buzud
+      - IKEA_JWT_SECRET=${IKEA_JWT_SECRET:-change-me-to-a-long-random-secret-at-least-32-bytes}
+    depends_on:
+      db:
+        condition: service_healthy
     volumes:
       - ../frontend/public:/app/frontend/public:ro
     healthcheck:
