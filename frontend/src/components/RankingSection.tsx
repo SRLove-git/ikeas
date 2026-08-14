@@ -30,7 +30,8 @@ export function RankingSection({ sections }: RankingSectionProps) {
               aria-label="向左滚动"
             >
               <span className="i-btn__inner">
-                <ChevronLeftIcon width={24} height={24} />
+                <ChevronLeftIcon />
+                <span className="i-btn__label">向左滚动</span>
               </span>
             </button>
           </div>
@@ -42,7 +43,8 @@ export function RankingSection({ sections }: RankingSectionProps) {
               aria-label="向右滚动"
             >
               <span className="i-btn__inner">
-                <ChevronRightIcon width={24} height={24} />
+                <ChevronRightIcon />
+                <span className="i-btn__label">向右滚动</span>
               </span>
             </button>
           </div>

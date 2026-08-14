@@ -291,6 +291,13 @@
 
 /* === Clone component alignment fixes === */
 
+/* Icon-only buttons collapse to a square pill (ikea.cn renders the small
+   icon buttons 40x40, xsmall 32x32); the original `.i-btn--small`
+   min-width: 120px would otherwise stretch them into wide pills. */
+.i-btn[class*="i-btn--icon"] {
+  min-width: 0;
+}
+
 /* Footer featured-card buttons are `i-btn--primary` (dark pill, white
    label); the original `.nav-footer_featured-links a` rules must not
    repaint the button text or underline it. */
