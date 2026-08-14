@@ -62,11 +62,11 @@ export function VisualPillSlider({ title, items, cta }: VisualPillSliderProps) {
             </span>
           </button>
         </div>
-        <div className="i-scrollbar__wrap i-scrollbar__wrap--hidden-default">
-          <div
-            ref={viewRef}
-            className="i-scrollbar__view visualpillslider-scroll"
-          >
+        <div
+          ref={viewRef}
+          className="i-scrollbar__wrap i-scrollbar__wrap--hidden-default"
+        >
+          <div className="i-scrollbar__view visualpillslider-scroll">
             <div className="visualpillslider-content">
               {items.map((item) => (
                 <div key={item.label} className="visualpillslider-li">

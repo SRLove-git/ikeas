@@ -7,7 +7,6 @@ import {
 } from "@/data/homepage";
 import { getMenuPanels } from "@/data/menu-panels";
 import { getMenuCategories } from "@/data/categories";
-import { allProducts } from "@/data/products-index";
 
 export function SiteLayout({ children }: { children: React.ReactNode }) {
   const {
@@ -20,11 +19,6 @@ export function SiteLayout({ children }: { children: React.ReactNode }) {
   } = homepage();
   const menuPanels = getMenuPanels();
   const categories = getMenuCategories();
-  const sampleItems = allProducts().slice(0, 3).map((product, index) => ({
-    product,
-    qty: index + 1,
-  }));
-
   return (
     <main className="text-left">
       <div className="font-ikea">
@@ -43,7 +37,7 @@ export function SiteLayout({ children }: { children: React.ReactNode }) {
             legal={legalBar}
           />
           <FloatingWidgets />
-          <CartDrawer sampleItems={sampleItems} />
+          <CartDrawer />
         </div>
       </div>
     </main>

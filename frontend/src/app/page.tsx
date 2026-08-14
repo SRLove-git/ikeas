@@ -13,7 +13,6 @@ import { VisualPillSlider } from "@/components/VisualPillSlider"
 import { homepage } from "@/data/homepage"
 import { getMenuPanels } from "@/data/menu-panels"
 import { getMenuCategories } from "@/data/categories"
-import { allProducts } from "@/data/products-index"
 
 export default function Home() {
   const {
@@ -36,13 +35,6 @@ export default function Home() {
     sustainabilityPillCta,
     sustainabilityPillItems,
   } = homepage()
-  const sampleItems = allProducts()
-    .slice(0, 3)
-    .map((product, index) => ({
-      product,
-      qty: index + 1,
-    }))
-
   return (
     <main className="text-left">
       <div className="font-ikea">
@@ -81,7 +73,7 @@ export default function Home() {
             legal={legalBar}
           />
           <FloatingWidgets />
-          <CartDrawer sampleItems={sampleItems} />
+          <CartDrawer />
         </div>
       </div>
     </main>

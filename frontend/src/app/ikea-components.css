@@ -536,6 +536,8 @@ button.swiper-pagination-bullet{-webkit-appearance:none;-moz-appearance:none;app
 .i-scrollbar__arrow.is-normal.is-right{right:-1.25rem;top:.125rem}
 .i-scrollbar-arrow__button{font-size:1.5rem;margin:auto;pointer-events:auto}
 .i-scrollbar-arrow__button .btn__inner{height:2.5rem;padding:0 .5rem}
+.i-scrollbar-arrow__button{opacity:0;transition:opacity .2s ease}
+.i-scrollbar:hover .i-scrollbar-arrow__button{opacity:1}
 .i-scrollbar__bar{background:inherit;border-radius:4px;display:flex;position:relative;transition:all .3s;z-index:50}
 .i-scrollbar__bar.is-vertical{height:100%;position:absolute;right:0;top:0;width:.75rem}
 .i-scrollbar__bar.is-horizontal{height:.75rem;margin-top:1.5rem;width:100%}

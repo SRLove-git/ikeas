@@ -48,8 +48,11 @@ export function RankingSection({ sections }: RankingSectionProps) {
               </span>
             </button>
           </div>
-          <div className="i-scrollbar__wrap i-scrollbar__wrap--hidden-default">
-            <div ref={viewRef} className="i-scrollbar__view ranking-scroll">
+          <div
+            ref={viewRef}
+            className="i-scrollbar__wrap i-scrollbar__wrap--hidden-default"
+          >
+            <div className="i-scrollbar__view ranking-scroll">
               <div className="pub-ranking-list__content">
                 {sections.map((section) => (
                   <div key={section.id} className="pub-ranking-list__item">
