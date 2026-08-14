@@ -55,8 +55,8 @@ export default function Home() {
             categories={getMenuCategories()}
           />
           <div className="i-layout__body">
+            <HeroCarousel slides={heroSlides} />
             <div className="clearfix min-h-screen px-0 m-auto mb-8 space-y-8 text-left lg:mb-12 lg:space-y-12 max-w-page">
-              <HeroCarousel slides={heroSlides} />
               <PromoInspirationCard title="BUZUD 精选" items={promoCardItems} />
               <ServiceColumns columns={serviceColumns} />
               <VisualPillSlider title="按分类选购" items={roomPillItems} cta={roomPillCta} />

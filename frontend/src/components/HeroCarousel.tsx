@@ -9,79 +9,67 @@ interface HeroCarouselProps {
 
 export function HeroCarousel({ slides }: HeroCarouselProps) {
   const [active, setActive] = useState(0);
-  const [progress, setProgress] = useState(0);
-  const timerRef = useRef<number | null>(null);
-  const intervalRef = useRef<number | null>(null);
+  const [previous, setPrevious] = useState<number | null>(null);
+  const [entering, setEntering] = useState<number | null>(null);
+  const activeRef = useRef(0);
 
   const goTo = useCallback(
     (index: number) => {
-      setActive(((index % slides.length) + slides.length) % slides.length);
-      setProgress(0);
+      const target = ((index % slides.length) + slides.length) % slides.length;
+      if (target === activeRef.current) return;
+      setPrevious(activeRef.current);
+      activeRef.current = target;
+      setActive(target);
+      setEntering(target);
     },
     [slides.length],
   );
 
   useEffect(() => {
-    timerRef.current = window.setInterval(() => {
-      setProgress((current) => Math.min(current + 100 / 45, 100));
-    }, 100);
-    intervalRef.current = window.setInterval(() => {
-      setActive((current) => (current + 1) % slides.length);
-      setProgress(0);
-    }, 4500);
-    return () => {
-      if (timerRef.current) window.clearInterval(timerRef.current);
-      if (intervalRef.current) window.clearInterval(intervalRef.current);
-    };
-  }, [slides.length]);
+    const id = window.setInterval(() => {
+      goTo(activeRef.current + 1);
+    }, 5000);
+    return () => window.clearInterval(id);
+  }, [goTo, slides.length]);
+
+  useEffect(() => {
+    if (entering === null) return;
+    const id = window.setTimeout(() => setEntering(null), 800);
+    return () => window.clearTimeout(id);
+  }, [entering]);
 
   return (
-    <div className="hero-carousel">
-      <div className="i-carousel i-carousel__navigation">
-        <div className="swiper">
-          <div
-            className="swiper-wrapper"
-            style={{ transform: `translateX(-${active * 100}%)` }}
+    <section className="prod-intro">
+      <div className="prod-products">
+        {slides.map((slide, index) => (
+          <a
+            key={slide.id}
+            href={slide.href ?? "#"}
+            className={`prod ${index === active ? "active" : ""} ${
+              index === previous ? "leaving" : ""
+            } ${index === entering ? "entering" : ""}`}
           >
-            {slides.map((slide, index) => (
-              <a
-                key={slide.id}
-                href={slide.href ?? "#"}
-                className={`swiper-slide carousel-gallery__item ${
-                  index === active ? "swiper-slide-active" : ""
-                }`}
-              >
-                <div className="hero-carousel__media">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src={slide.image.replace(/\.jpg$/, "@2x.jpg")}
-                    alt={slide.alt ?? slide.imageAlt ?? ""}
-                  />
-                </div>
-              </a>
-            ))}
-          </div>
-          <div className="swiper-scrollbar">
-            <div
-              className="swiper-scrollbar-drag"
-              style={{ width: `${progress}%` }}
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              className="product"
+              src={slide.image}
+              alt={slide.alt ?? slide.imageAlt ?? ""}
+              loading={index === 0 ? "eager" : "lazy"}
             />
-          </div>
-          <div className="swiper-pagination swiper-pagination-bullets">
-            {slides.map((slide, index) => (
-              <button
-                key={slide.id}
-                type="button"
-                aria-label={`切换到第 ${index + 1} 张`}
-                className={`swiper-pagination-bullet ${
-                  index === active ? "swiper-pagination-bullet-active" : ""
-                }`}
-                onClick={() => goTo(index)}
-              />
-            ))}
-          </div>
+          </a>
+        ))}
+      </div>
+      <div className="prod-intro-pager">
+        <div className="pager-bars">
+          {slides.map((slide, index) => (
+            <span
+              key={slide.id}
+              className={`pager-bar ${index === active ? "active" : ""}`}
+              onClick={() => goTo(index)}
+            />
+          ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 }

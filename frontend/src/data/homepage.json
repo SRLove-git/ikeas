@@ -99,28 +99,34 @@
   ],
   "heroSlides": [
     {
-      "id": "buzud-hero-1",
-      "image": "/images/cms/buzud-hero-1.jpg",
+      "id": "buzud-home-1",
+      "image": "/images/cms/buzud-home-1.png",
       "href": "/cn/zh/cat/buzud-watches",
-      "alt": "BUZUD Vibrance 智能健康手表"
+      "alt": "BUZUD Watch Vibrance 智能健康手表促销"
     },
     {
-      "id": "buzud-hero-2",
-      "image": "/images/cms/buzud-hero-2.jpg",
-      "href": "/cn/zh/cat/buzud-rapid-tests",
-      "alt": "BUZUD 快速检测试剂"
+      "id": "buzud-home-2",
+      "image": "/images/cms/buzud-home-2.png",
+      "href": "/cn/zh/p/covid-19-flu-a-b-rsv-adeno-ag-combo-rapid-test-cassette-8885020712209",
+      "alt": "COVID-19/Flu A&B/RSV/Adeno Ag Combo 快速检测卡"
     },
     {
-      "id": "buzud-hero-3",
-      "image": "/images/cms/buzud-hero-3.jpg",
-      "href": "/cn/zh/cat/buzud-blood-pressure-monitors",
-      "alt": "BUZUD 智能血压计"
+      "id": "buzud-home-3",
+      "image": "/images/cms/buzud-home-3.png",
+      "href": "/cn/zh/all-products/",
+      "alt": "BUZUD DYNAMIC 1000P 便携式制氧机"
     },
     {
-      "id": "buzud-hero-4",
-      "image": "/images/cms/buzud-hero-4.jpg",
+      "id": "buzud-home-4",
+      "image": "/images/cms/buzud-home-4.png",
+      "href": "/cn/zh/customer-service/contact-us/",
+      "alt": "St. Gregory 水疗服务 15% 优惠"
+    },
+    {
+      "id": "buzud-home-5",
+      "image": "/images/cms/buzud-home-5.png",
       "href": "/cn/zh/cat/buzud-glucose-management",
-      "alt": "BUZUD 连续血糖监测"
+      "alt": "Celebrate SG61 持续血糖监测系统传感器"
     }
   ],
   "promoCardItems": [

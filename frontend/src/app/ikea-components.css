@@ -1627,45 +1627,91 @@ button.swiper-pagination-bullet{-webkit-appearance:none;-moz-appearance:none;app
   }
 }
 
-/* === Homepage visual refinements (ikea.cn look) === */
+/* === Homepage visual refinements (BUZUD look) === */
 
-/* Hero: wide cinematic crop aligned to the content column.
-   Source images are 4:3 with baked-in copy on the left and product on the
-   right; on desktop we crop to 21:9 (ikea.cn hero ratio) with the focal
-   point slightly above center so the headline and CTA stay visible. */
-.hero-carousel__media {
+/* Hero banner carousel: full-bleed 2560x1080 banners stacked in a
+   fixed-height stage (stepped like buzud.com). Each image fills the stage
+   height and is centred/cropped horizontally. */
+.prod-intro {
   position: relative;
-  width: 100%;
-  aspect-ratio: 4 / 3;
   overflow: hidden;
-  background-color: #0058a3;
+  background-color: #f6f6f6;
 }
 
-.hero-carousel__media > img {
-  position: absolute;
-  inset: 0;
+.prod-intro .prod-products {
+  position: relative;
   width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center 32%;
-  transition: transform 0.6s cubic-bezier(0.2, 0, 0, 1);
+  height: 476px;
 }
 
 @media (min-width: 768px) {
-  .hero-carousel__media {
-    aspect-ratio: 21 / 9;
+  .prod-intro .prod-products {
+    height: 534px;
   }
 }
 
-/* Hero pagination sits below the image on a white strip, ikea.cn style */
-.hero-carousel .swiper-pagination {
-  position: static;
-  margin-top: 14px;
-  text-align: center;
+@media (min-width: 1200px) {
+  .prod-intro .prod-products {
+    height: min(49.44vw, 712px);
+  }
 }
 
-.hero-carousel .swiper-pagination .swiper-pagination-bullet {
+.prod-intro .prod-products .prod {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition:
+    opacity 0.8s ease,
+    transform 0.8s ease;
+}
+
+.prod-intro .prod-products .prod.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.prod-intro .prod-products .prod.leaving {
+  opacity: 0;
+}
+
+.prod-intro .prod-products .prod.entering img {
+  transform: scale(1.03);
+}
+
+.prod-intro .prod-products .prod img.product {
+  height: 100%;
+  max-width: none;
+  width: auto;
+}
+
+/* BUZUD segmented pager: five touching bars, active segment cyan. */
+.prod-intro-pager {
+  position: absolute;
+  left: 50%;
+  bottom: 24px;
+  transform: translateX(-50%);
+  width: min(600px, 86vw);
+}
+
+.prod-intro-pager .pager-bars {
+  display: flex;
+  padding: 15px 0 20px;
+}
+
+.prod-intro-pager .pager-bar {
+  flex: 1;
+  height: 3px;
+  background-color: #d8d9d9;
   cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.prod-intro-pager .pager-bar.active {
+  background-color: #00a9ce;
 }
 
 /* Tile media: IKEA product-tile look for CMS cards — a light tinted
