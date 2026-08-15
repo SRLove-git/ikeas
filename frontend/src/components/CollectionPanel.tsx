@@ -230,7 +230,6 @@ export function CollectionPanel({ inspirationItems, catalogProducts }: Collectio
           {(
             [
               ["products", "商品"],
-              ["inspiration", "家居灵感"],
               ["wishlist", "心愿单"],
             ] as [CollectionTab, string][]
           ).map(([key, label]) => (
