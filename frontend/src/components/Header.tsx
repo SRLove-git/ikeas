@@ -49,6 +49,10 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
   const hideActiveBar = () => setBar((prev) => ({ ...prev, opacity: 0 }))
 
   const activePanel = menuPanels.find((panel) => panel.label === openPanel)
+  const closeMenu = () => {
+    setOpenMenu(null)
+    setOpenPanel(null)
+  }
 
   return (
     <div className="i-layout__header">
@@ -242,6 +246,15 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
               </div>
             </div>
           </div>
+          {openMenu || activePanel ? (
+            <button
+              type="button"
+              className="nav-header-mega-mask"
+              aria-label="Close menu"
+              onClick={closeMenu}
+              tabIndex={-1}
+            />
+          ) : null}
           {openMenu ? (
             <div className="mega-menu-layer" onMouseLeave={() => setOpenMenu(null)}>
               <MegaMenu categories={categories} />

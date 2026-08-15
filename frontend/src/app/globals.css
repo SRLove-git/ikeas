@@ -8,8 +8,8 @@
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans:
-    "Noto IKEA Latin", "Noto Ikea SC", "Noto Sans SC", "Noto Sans", Roboto,
-    "Open Sans", system-ui, sans-serif;
+    "Noto IKEA Latin", "Noto Ikea SC", "Noto Sans SC", "Noto Sans", Roboto, "Open Sans", system-ui,
+    sans-serif;
   --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, monospace;
   --font-heading: var(--font-sans);
   --color-ikea-yellow: #ffdb00;
@@ -145,8 +145,14 @@
     color: #111111;
     background-color: #ffffff;
     font-family:
-      "Noto IKEA Latin", "Noto Ikea SC", "Noto Sans SC", "Noto Sans", Roboto,
-      "Open Sans", -apple-system, sans-serif;
+      "Noto IKEA Latin",
+      "Noto Ikea SC",
+      "Noto Sans SC",
+      "Noto Sans",
+      Roboto,
+      "Open Sans",
+      -apple-system,
+      sans-serif;
   }
 
   a {
@@ -169,8 +175,14 @@
 
   .font-ikea {
     font-family:
-      "Noto IKEA Latin", "Noto Ikea SC", "Noto Sans SC", "Noto Sans", Roboto,
-      "Open Sans", -apple-system, sans-serif;
+      "Noto IKEA Latin",
+      "Noto Ikea SC",
+      "Noto Sans SC",
+      "Noto Sans",
+      Roboto,
+      "Open Sans",
+      -apple-system,
+      sans-serif;
   }
 
   .i-pill {
@@ -379,6 +391,22 @@
   left: 0;
   right: 0;
   z-index: 1000;
+}
+
+/* Header-bottom mask behind the open mega menu. It starts below the header
+   and sits under the menu layer (z-index 1000), dimming only the remaining
+   page content while a navigation menu is open. */
+.nav-header-mega-mask {
+  position: fixed;
+  top: 133.5px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  width: 100vw;
+  padding: 0;
+  border: 0;
+  background: rgba(17, 17, 17, 0.4);
 }
 
 /* App-promo QR panel close button */

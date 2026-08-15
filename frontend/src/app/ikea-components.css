@@ -1294,7 +1294,7 @@ button.swiper-pagination-bullet{-webkit-appearance:none;-moz-appearance:none;app
 .nav-header_container .header_container_right .header_container_right_img .hover{align-items:center;background:rgb(var(--colour-elevation-1,255,255,255));border-radius:24px;display:flex;font-size:24px;height:48px;justify-content:center;min-width:48px;padding:10px;vertical-align:middle}
 .nav-header_container .header_container_right .header_container_right_img .hover>span{font-size:14px;margin-left:5px}
 .nav-header_container .header_container_right .header_container_right_img .hover:hover{background:rgb(var(--colour-neutral-4,204,204,204));cursor:pointer}
-.nav-header_container .header_container_bottom{background-color:rgb(var(--colour-elevation-2,255,255,255));border-top:1px solid rgb(var(--colour-neutral-2,245,245,245));box-sizing:border-box;left:0;max-height:80vh;overflow:hidden;overflow-y:auto;position:absolute;width:100%;z-index:1002}
+.nav-header_container .header_container_bottom{background-color:rgb(var(--colour-elevation-2,255,255,255));border-top:1px solid rgb(var(--colour-neutral-2,245,245,245));box-shadow:0 6px 14px rgba(17,17,17,.08);box-sizing:border-box;left:0;max-height:80vh;overflow:hidden;overflow-y:auto;position:absolute;width:100%;z-index:1002}
 .nav-header_container .header_container_bottom .header_container_bottom_content{position:relative}
 .nav-header .hover{background:rgb(var(--colour-elevation-1,255,255,255));border-radius:50%;display:inline-block;position:relative;vertical-align:middle}
 .nav-header .hover .hover-num{border:2px solid rgb(var(--colour-elevation-2,255,255,255));left:31px;line-height:18px;min-width:18px;padding:3px;position:absolute;top:0}
