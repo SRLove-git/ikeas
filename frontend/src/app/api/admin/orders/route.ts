@@ -1,29 +1,21 @@
 import { adminGuard } from "@/lib/admin-auth";
-import { appendChangelog, listOrders, upsertOrder } from "@/lib/admin-store";
 
-export async function GET() {
-  const guard = await adminGuard();
-  if (guard) return guard;
-  const items = listOrders();
-  return Response.json({ items, total: items.length });
+const API_BASE = process.env.NEXT_PUBLIC_API_BASE ?? "http://localhost:8080";
+
+function adminKey(): string {
+  return process.env.IKEA_ADMIN_KEY ?? "ikea-admin";
 }
 
-export async function POST(request: Request) {
+export async function GET(request: Request) {
   const guard = await adminGuard();
   if (guard) return guard;
-  const body = (await request.json().catch(() => null)) as Record<string, unknown> | null;
-  if (!body) return Response.json({ error: "请求体不能为空" }, { status: 400 });
-  try {
-    const order = await upsertOrder(body);
-    await appendChangelog({
-      user: "admin",
-      action: "create",
-      resource: "order",
-      target: String(order.id),
-      summary: `创建订单 ${order.id}`,
-    });
-    return Response.json(order, { status: 201 });
-  } catch (error) {
-    return Response.json({ error: (error as Error).message }, { status: 400 });
-  }
+
+  const url = new URL(request.url);
+  const target = `${API_BASE}/api/v1/admin/orders${url.search}`;
+  const response = await fetch(target, {
+    headers: { "X-Admin-Key": adminKey() },
+    cache: "no-store",
+  });
+  const body = await response.json().catch(() => null);
+  return Response.json(body, { status: response.status });
 }

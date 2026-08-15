@@ -106,6 +106,10 @@ never reaches the browser.
 | `DELETE /api/v1/admin/favorites/{userId}` | Clear a user's favorites |
 | `GET /api/v1/admin/chat/messages` | Customer-service chat history |
 | `DELETE /api/v1/admin/chat/messages` | Clear chat history |
+| `GET /api/v1/admin/orders` | All orders with user and item summaries |
+| `GET /api/v1/admin/orders/{orderNo}` | One order |
+| `PUT /api/v1/admin/orders/{orderNo}` | Update order status, shipping fields, or delivery fee |
+| `DELETE /api/v1/admin/orders/{orderNo}` | Soft-delete an order and its items |
 
 ### Health & stats
 
@@ -203,6 +207,18 @@ Successful login/register/SMS-login responses contain:
 | `GET /api/v1/favorites` | Favorite product ids + products |
 | `POST /api/v1/favorites` | `{ productId }` add |
 | `DELETE /api/v1/favorites/{productId}` | Remove |
+
+### Orders (require auth)
+
+The checkout page submits the current shopping bag as an order. The backend
+stores the order in PostgreSQL and returns a stable `orderNo`.
+
+| Endpoint | Description |
+| --- | --- |
+| `POST /api/v1/orders` | Create an order. Use `{ "fromCart": true, ... }` to clear the bag after success, or pass `items` explicitly. |
+| `GET /api/v1/orders` | Current user's orders, newest first |
+| `GET /api/v1/orders/{orderNo}` | One order owned by the current user |
+| `POST /api/v1/orders/{orderNo}/cancel` | Cancel a pending-payment order |
 
 ### Customer-service chat
 

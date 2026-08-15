@@ -5,6 +5,8 @@ import com.ikea.server.constant.OrderConstants;
 import com.ikea.server.constant.OrderStatus;
 import com.ikea.server.data.CartStore;
 import com.ikea.server.data.DataStore;
+import com.ikea.server.dto.order.AdminOrderRow;
+import com.ikea.server.dto.order.AdminOrderUpdateRequest;
 import com.ikea.server.dto.order.CreateOrderItemRequest;
 import com.ikea.server.dto.order.CreateOrderRequest;
 import com.ikea.server.dto.order.OrderItemResponse;
@@ -95,10 +97,18 @@ public class OrderService {
     order.setSubtotal(normalizeMoney(subtotal));
     order.setDeliveryFee(normalizeMoney(deliveryFee));
     order.setTotalAmount(normalizeMoney(totalAmount));
-    order.setCustomer(trimToNull(request.customer()));
-    order.setPhone(trimToNull(request.phone()));
-    order.setAddress(trimToNull(request.address()));
-    order.setRemark(trimToNull(request.remark()));
+    if (request.customer() != null) {
+      order.setCustomer(trimToNull(request.customer()));
+    }
+    if (request.phone() != null) {
+      order.setPhone(trimToNull(request.phone()));
+    }
+    if (request.address() != null) {
+      order.setAddress(trimToNull(request.address()));
+    }
+    if (request.remark() != null) {
+      order.setRemark(trimToNull(request.remark()));
+    }
 
     orderMapper.insert(order);
     for (OrderItem item : orderItems) {
@@ -143,6 +153,72 @@ public class OrderService {
     return orders.stream()
         .map(order -> toResponse(order, itemsByOrder.getOrDefault(order.getId(), List.of())))
         .toList();
+  }
+
+  @Transactional(readOnly = true)
+  public List<AdminOrderRow> listAdmin() {
+    List<Order> orders =
+        orderMapper.selectList(
+            Wrappers.lambdaQuery(Order.class).orderByDesc(Order::getCreatedAt));
+    if (orders.isEmpty()) {
+      return List.of();
+    }
+
+    List<Long> orderIds = orders.stream().map(Order::getId).toList();
+    List<OrderItem> items =
+        orderItemMapper.selectList(
+            Wrappers.lambdaQuery(OrderItem.class).in(OrderItem::getOrderId, orderIds));
+    Map<Long, List<OrderItem>> itemsByOrder = groupItems(items);
+
+    return orders.stream()
+        .map(order -> toAdminRow(order, itemsByOrder.getOrDefault(order.getId(), List.of())))
+        .toList();
+  }
+
+  @Transactional(readOnly = true)
+  public AdminOrderRow getAdmin(String orderNo) {
+    Order order = requireOrderAdmin(orderNo);
+    return toAdminRow(order, itemsOf(order.getId()));
+  }
+
+  @Transactional
+  public AdminOrderRow updateAdmin(String orderNo, AdminOrderUpdateRequest request) {
+    Order order = requireOrderAdmin(orderNo);
+    if (request.status() != null) {
+      if (OrderStatus.fromCode(request.status()) == null) {
+        throw new IllegalArgumentException("订单状态无效");
+      }
+      order.setStatus(request.status());
+    }
+    if (request.deliveryFee() != null) {
+      if (request.deliveryFee().compareTo(BigDecimal.ZERO) < 0) {
+        throw new IllegalArgumentException("配送费不能为负数");
+      }
+      order.setDeliveryFee(normalizeMoney(request.deliveryFee()));
+    }
+    if (request.customer() != null) {
+      order.setCustomer(trimToNull(request.customer()));
+    }
+    if (request.phone() != null) {
+      order.setPhone(trimToNull(request.phone()));
+    }
+    if (request.address() != null) {
+      order.setAddress(trimToNull(request.address()));
+    }
+    if (request.remark() != null) {
+      order.setRemark(trimToNull(request.remark()));
+    }
+    orderMapper.updateById(order);
+    return toAdminRow(order, itemsOf(order.getId()));
+  }
+
+  @Transactional
+  public boolean softDeleteAdmin(String orderNo) {
+    Order order = requireOrderAdmin(orderNo);
+    for (OrderItem item : itemsOf(order.getId())) {
+      orderItemMapper.deleteById(item.getId());
+    }
+    return orderMapper.deleteById(order.getId()) > 0;
   }
 
   @Transactional(readOnly = true)
@@ -259,20 +335,6 @@ public class OrderService {
 
   private OrderResponse toResponse(Order order, List<OrderItem> items) {
     OrderStatus status = OrderStatus.fromCode(order.getStatus());
-    List<OrderItemResponse> itemResponses =
-        items.stream()
-            .map(
-                item ->
-                    new OrderItemResponse(
-                        item.getProductId(),
-                        item.getProductName(),
-                        item.getImage(),
-                        normalizeMoney(item.getUnitPrice()),
-                        item.getQuantity(),
-                        normalizeMoney(
-                            item.getUnitPrice()
-                                .multiply(BigDecimal.valueOf(item.getQuantity())))))
-            .toList();
 
     return new OrderResponse(
         order.getId(),
@@ -287,15 +349,62 @@ public class OrderService {
         order.getPhone(),
         order.getAddress(),
         order.getRemark(),
-        itemResponses,
+        toItemResponses(items),
         order.getCreatedAt(),
         order.getUpdatedAt());
+  }
+
+  private AdminOrderRow toAdminRow(Order order, List<OrderItem> items) {
+    OrderStatus status = OrderStatus.fromCode(order.getStatus());
+    return new AdminOrderRow(
+        order.getId(),
+        order.getOrderNo(),
+        order.getUserId(),
+        order.getStatus(),
+        status == null ? "未知" : status.label(),
+        order.getCurrency(),
+        normalizeMoney(order.getSubtotal()),
+        normalizeMoney(order.getDeliveryFee()),
+        normalizeMoney(order.getTotalAmount()),
+        order.getCustomer(),
+        order.getPhone(),
+        order.getAddress(),
+        order.getRemark(),
+        toItemResponses(items),
+        order.getCreatedAt(),
+        order.getUpdatedAt());
+  }
+
+  private List<OrderItemResponse> toItemResponses(List<OrderItem> items) {
+    return items.stream()
+        .map(
+            item ->
+                new OrderItemResponse(
+                    item.getProductId(),
+                    item.getProductName(),
+                    item.getImage(),
+                    normalizeMoney(item.getUnitPrice()),
+                    item.getQuantity(),
+                    normalizeMoney(
+                        item.getUnitPrice()
+                            .multiply(BigDecimal.valueOf(item.getQuantity())))))
+        .toList();
   }
 
   private String generateOrderNo() {
     return OrderConstants.ORDER_NO_PREFIX
         + LocalDateTime.now(ZoneOffset.UTC).format(ORDER_NO_TIME)
         + ThreadLocalRandom.current().nextInt(100000, 1000000);
+  }
+
+  private Order requireOrderAdmin(String orderNo) {
+    Order order =
+        orderMapper.selectOne(
+            Wrappers.lambdaQuery(Order.class).eq(Order::getOrderNo, orderNo));
+    if (order == null) {
+      throw new ResourceNotFoundException("Order not found: " + orderNo);
+    }
+    return order;
   }
 
   private static BigDecimal normalizeMoney(BigDecimal value) {

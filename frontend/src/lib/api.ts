@@ -67,6 +67,33 @@ export interface Favorites {
   ids: string[]
 }
 
+export interface OrderItemResponse {
+  productId: string
+  productName: string
+  image: string | null
+  unitPrice: number
+  quantity: number
+  subtotal: number
+}
+
+export interface OrderResponse {
+  id: number
+  orderNo: string
+  status: number
+  statusLabel: string
+  currency: string
+  subtotal: number
+  deliveryFee: number
+  totalAmount: number
+  customer: string | null
+  phone: string | null
+  address: string | null
+  remark: string | null
+  items: OrderItemResponse[]
+  createdAt: string
+  updatedAt: string
+}
+
 export class ApiError extends Error {
   status: number
 

@@ -1,5 +1,10 @@
 import { adminGuard } from "@/lib/admin-auth";
-import { appendChangelog, deleteOrder, getOrder, upsertOrder } from "@/lib/admin-store";
+
+const API_BASE = process.env.NEXT_PUBLIC_API_BASE ?? "http://localhost:8080";
+
+function adminKey(): string {
+  return process.env.IKEA_ADMIN_KEY ?? "ikea-admin";
+}
 
 export async function GET(
   _request: Request,
@@ -8,9 +13,13 @@ export async function GET(
   const guard = await adminGuard();
   if (guard) return guard;
   const { id } = await params;
-  const order = getOrder(id);
-  if (!order) return Response.json({ error: "订单不存在" }, { status: 404 });
-  return Response.json(order);
+  const target = `${API_BASE}/api/v1/admin/orders/${encodeURIComponent(id)}`;
+  const response = await fetch(target, {
+    headers: { "X-Admin-Key": adminKey() },
+    cache: "no-store",
+  });
+  const body = await response.json().catch(() => null);
+  return Response.json(body, { status: response.status });
 }
 
 export async function PUT(
@@ -20,21 +29,18 @@ export async function PUT(
   const guard = await adminGuard();
   if (guard) return guard;
   const { id } = await params;
-  const body = (await request.json().catch(() => null)) as Record<string, unknown> | null;
-  if (!body) return Response.json({ error: "请求体不能为空" }, { status: 400 });
-  try {
-    const order = await upsertOrder(body, id);
-    await appendChangelog({
-      user: "admin",
-      action: "update",
-      resource: "order",
-      target: String(order.id),
-      summary: `更新订单 ${order.id}`,
-    });
-    return Response.json(order);
-  } catch (error) {
-    return Response.json({ error: (error as Error).message }, { status: 400 });
-  }
+  const raw = await request.text();
+  const target = `${API_BASE}/api/v1/admin/orders/${encodeURIComponent(id)}`;
+  const response = await fetch(target, {
+    method: "PUT",
+    headers: {
+      "Content-Type": "application/json",
+      "X-Admin-Key": adminKey(),
+    },
+    body: raw,
+  });
+  const body = await response.json().catch(() => null);
+  return Response.json(body, { status: response.status });
 }
 
 export async function DELETE(
@@ -44,14 +50,11 @@ export async function DELETE(
   const guard = await adminGuard();
   if (guard) return guard;
   const { id } = await params;
-  const removed = await deleteOrder(id);
-  if (!removed) return Response.json({ error: "订单不存在" }, { status: 404 });
-  await appendChangelog({
-    user: "admin",
-    action: "delete",
-    resource: "order",
-    target: id,
-    summary: `删除订单 ${id}`,
+  const target = `${API_BASE}/api/v1/admin/orders/${encodeURIComponent(id)}`;
+  const response = await fetch(target, {
+    method: "DELETE",
+    headers: { "X-Admin-Key": adminKey() },
   });
-  return Response.json({ ok: true });
+  const body = await response.json().catch(() => null);
+  return Response.json(body, { status: response.status });
 }
