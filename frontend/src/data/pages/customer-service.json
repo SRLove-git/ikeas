@@ -149,7 +149,7 @@
           "如何使用银联卡优惠？",
           "在 BUZUD 新加坡体验店使用银联卡支付享全店 88 折；线上支付时输入优惠码 unionvip 即可。",
           "如何注册产品保修？",
-          "访问保修注册官网 warranty.buzud.com，填写产品信息即可完成登记。"
+          "访问保修注册页面，填写产品信息即可完成登记。"
         ],
         "images": [],
         "links": [],
@@ -401,7 +401,7 @@
         "images": [],
         "links": [
           {
-            "href": "https://warranty.buzud.com/",
+            "href": "/cn/zh/customer-service/warranty-registration/",
             "text": "前往保修注册"
           }
         ],

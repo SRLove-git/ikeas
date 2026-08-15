@@ -691,7 +691,7 @@
       "title": "保修注册",
       "description": "在官网登记产品保修信息，享受官方质保保障。",
       "ctaLabel": "前往注册",
-      "ctaHref": "https://warranty.buzud.com/",
+      "ctaHref": "/cn/zh/customer-service/warranty-registration/",
       "icon": "design"
     },
     {
@@ -775,7 +775,7 @@
         },
         {
           "label": "保修注册",
-          "href": "https://warranty.buzud.com/"
+          "href": "/cn/zh/customer-service/warranty-registration/"
         }
       ]
     }
