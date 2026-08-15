@@ -44,6 +44,10 @@ export function CollectionPanel({ inspirationItems, catalogProducts }: Collectio
   const [wishlistTargetId, setWishlistTargetId] = useState<string | null>(null)
   const [isCreatingWishlist, setIsCreatingWishlist] = useState(false)
   const [wishlistName, setWishlistName] = useState("")
+  const [wishlistDrawerOpen, setWishlistDrawerOpen] = useState(false)
+  const [wishlistDrawerProductId, setWishlistDrawerProductId] = useState<string | null>(null)
+  const [wishlistDrawerNewName, setWishlistDrawerNewName] = useState("")
+  const [wishlistDrawerCreating, setWishlistDrawerCreating] = useState(false)
 
   const loadFavorites = useCallback(async () => {
     setLoading(true)
@@ -76,6 +80,13 @@ export function CollectionPanel({ inspirationItems, catalogProducts }: Collectio
     const first = wishlists[0]
     if (first) setWishlistTargetId(first.id)
   }, [wishlists, wishlistTargetId])
+
+  useEffect(() => {
+    document.body.style.overflow = wishlistDrawerOpen ? "hidden" : ""
+    return () => {
+      document.body.style.overflow = ""
+    }
+  }, [wishlistDrawerOpen])
 
   const removeFavorite = async (productId: string) => {
     setError(null)
@@ -110,27 +121,35 @@ export function CollectionPanel({ inspirationItems, catalogProducts }: Collectio
     setNotice("心愿单已创建")
   }
 
-  const addFavoriteToWishlist = (productId: string) => {
-    setError(null)
-    setNotice(null)
+  const openWishlistDrawer = (productId: string) => {
+    setWishlistDrawerProductId(productId)
+    setWishlistDrawerNewName("")
+    setWishlistDrawerCreating(false)
+    setWishlistDrawerOpen(true)
+  }
 
-    if (wishlists.length === 0) {
-      const next = createWishlist("我的心愿单")
-      const target = next[next.length - 1]
-      setWishlists(next)
-      if (target) {
-        setWishlistTargetId(target.id)
-        setWishlists(addToWishlist(target.id, productId))
-      }
-      setNotice("已创建心愿单并加入商品")
-      return
-    }
+  const createWishlistInDrawer = () => {
+    const next = createWishlist(wishlistDrawerNewName)
+    const created = next[next.length - 1]
+    setWishlists(next)
+    if (created) setWishlistTargetId(created.id)
+    setWishlistDrawerCreating(false)
+    setWishlistDrawerNewName("")
+  }
+
+  const confirmAddToWishlist = () => {
+    const productId = wishlistDrawerProductId
+    if (!productId) return
 
     const targetId = wishlistTargetId ?? wishlists[0]?.id
     if (!targetId) return
-    setWishlistTargetId(targetId)
     setWishlists(addToWishlist(targetId, productId))
     setNotice("已加入心愿单")
+
+    setWishlistDrawerOpen(false)
+    setWishlistDrawerProductId(null)
+    setWishlistDrawerNewName("")
+    setWishlistDrawerCreating(false)
   }
 
   const removeFromWishlistById = (wishlistId: string, productId: string) => {
@@ -459,34 +478,160 @@ export function CollectionPanel({ inspirationItems, catalogProducts }: Collectio
                   {product.name}
                 </Link>
                 <p className="mt-1 text-sm">{formatPrice(product.price)}</p>
-                <div className="mt-3 flex items-center gap-2">
-                  {wishlists.length > 0 ? (
-                    <select
-                      value={wishlistTargetId ?? ""}
-                      onChange={(event) => setWishlistTargetId(event.target.value)}
-                      className="min-w-0 flex-1 rounded border border-ikea-gray-200 bg-white px-2 py-1.5 text-xs outline-none focus:border-ikea-blue"
-                      aria-label="选择心愿单"
-                    >
-                      {wishlists.map((wishlist) => (
-                        <option key={wishlist.id} value={wishlist.id}>
-                          {wishlist.name}
-                        </option>
-                      ))}
-                    </select>
-                  ) : null}
-                  <button
-                    type="button"
-                    onClick={() => addFavoriteToWishlist(product.id)}
-                    className="rounded border border-ikea-gray-200 px-3 py-1.5 text-xs font-bold hover:border-ikea-black"
-                  >
-                    加入心愿单
-                  </button>
-                </div>
+                <button
+                  type="button"
+                  onClick={() => openWishlistDrawer(product.id)}
+                  className="mt-3 rounded border border-ikea-gray-200 px-3 py-1.5 text-xs font-bold hover:border-ikea-black"
+                >
+                  加入心愿单
+                </button>
               </div>
             ))}
           </div>
         )}
       </div>
+
+      {wishlistDrawerOpen ? (
+        <div className="fixed inset-0 z-[1100]" role="dialog" aria-modal="true">
+          <button
+            type="button"
+            aria-label="关闭"
+            className="absolute inset-0 bg-black/50"
+            onClick={() => setWishlistDrawerOpen(false)}
+          />
+          <aside className="absolute right-0 top-0 flex h-full w-full max-w-[420px] flex-col bg-white shadow-2xl">
+            <div className="flex items-center justify-between border-b border-ikea-gray-200 px-6 py-4">
+              <h2 className="text-base font-bold">加入心愿单</h2>
+              <button
+                type="button"
+                aria-label="关闭"
+                className="flex h-8 w-8 items-center justify-center text-ikea-muted hover:text-ikea-black"
+                onClick={() => setWishlistDrawerOpen(false)}
+              >
+                <svg viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5">
+                  <path d="m12 10.6 6-6 1.4 1.4-6 6 6 6-1.4 1.4-6-6-6 6L4.6 18l6-6-6-6L6 4.6z" />
+                </svg>
+              </button>
+            </div>
+
+            <div className="flex-1 overflow-y-auto px-6 py-5">
+              <button
+                type="button"
+                onClick={() => {
+                  setWishlistDrawerCreating(true)
+                  setWishlistDrawerNewName("")
+                }}
+                className="flex items-center gap-2 text-sm font-bold text-ikea-blue hover:text-ikea-black"
+              >
+                +新建心愿单
+              </button>
+
+              {wishlistDrawerCreating ? (
+                <div className="mt-3 flex items-center gap-2">
+                  <input
+                    autoFocus
+                    value={wishlistDrawerNewName}
+                    onChange={(event) => setWishlistDrawerNewName(event.target.value)}
+                    onKeyDown={(event) => {
+                      if (event.key === "Enter") {
+                        event.preventDefault()
+                        createWishlistInDrawer()
+                      }
+                    }}
+                    placeholder="心愿单名称"
+                    className="h-10 flex-1 border border-ikea-gray-200 px-3 text-sm outline-none focus:border-ikea-blue"
+                  />
+                  <button
+                    type="button"
+                    onClick={createWishlistInDrawer}
+                    className="i-btn i-btn--small i-btn--primary h-10 px-4 text-sm font-bold"
+                  >
+                    创建
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => setWishlistDrawerCreating(false)}
+                    className="h-10 px-2 text-sm text-ikea-muted hover:text-ikea-black"
+                  >
+                    取消
+                  </button>
+                </div>
+              ) : null}
+
+              {wishlists.length === 0 ? (
+                <p className="mt-4 rounded bg-ikea-gray-100 px-4 py-3 text-sm text-ikea-muted">
+                  还没有心愿单，点击「新建心愿单」创建
+                </p>
+              ) : (
+                <ul className="mt-4 divide-y divide-ikea-gray-100">
+                  {wishlists.map((wishlist) => {
+                    const firstProduct = wishlist.productIds
+                      .map((id) => catalogById.get(id))
+                      .find((product) => Boolean(product))
+                    const checked = wishlist.id === wishlistTargetId
+                    return (
+                      <li key={wishlist.id}>
+                        <label className="flex cursor-pointer items-center gap-3 py-3">
+                          <span className="h-14 w-14 shrink-0 overflow-hidden bg-ikea-gray-100">
+                            {firstProduct ? (
+                              <SiteImage
+                                src={firstProduct.image}
+                                alt={wishlist.name}
+                                className="h-full w-full"
+                                imgClassName="h-full w-full object-contain object-center p-1"
+                              />
+                            ) : (
+                              <span className="flex h-full w-full items-center justify-center text-xs text-ikea-muted">
+                                无商品
+                              </span>
+                            )}
+                          </span>
+                          <span className="min-w-0 flex-1">
+                            <span className="block truncate text-sm font-bold">
+                              {wishlist.name}
+                            </span>
+                            <span className="mt-0.5 block text-xs text-ikea-muted">
+                              {wishlist.productIds.length} 件商品
+                            </span>
+                          </span>
+                          <span
+                            className={`flex h-5 w-5 items-center justify-center rounded-full border ${
+                              checked ? "border-ikea-blue" : "border-ikea-gray-300"
+                            }`}
+                          >
+                            <input
+                              type="radio"
+                              name="wishlist-radio"
+                              checked={checked}
+                              onChange={() => setWishlistTargetId(wishlist.id)}
+                              className="sr-only"
+                            />
+                            {checked ? (
+                              <span className="h-2.5 w-2.5 rounded-full bg-ikea-blue" />
+                            ) : null}
+                          </span>
+                        </label>
+                      </li>
+                    )
+                  })}
+                </ul>
+              )}
+            </div>
+
+            <div className="border-t border-ikea-gray-200 px-6 py-5">
+              <button
+                type="button"
+                onClick={confirmAddToWishlist}
+                className="i-btn i-btn--primary h-11 w-full text-sm font-bold text-white"
+              >
+                <span className="i-btn__inner">
+                  <span className="i-btn__label">加入心愿单</span>
+                </span>
+              </button>
+            </div>
+          </aside>
+        </div>
+      ) : null}
     </div>
   )
 }

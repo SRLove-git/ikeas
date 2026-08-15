@@ -111,14 +111,16 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
                   <div className="header_container_left">
                     <div className="header_container_center">
                       <div className="header_container_center_Logo">
-                        {/* eslint-disable-next-line @next/next/no-img-element */}
-                        <img
-                          className="disable-event"
-                          src="/images/logo/logo.jpg"
-                          alt="BUZUD"
-                          width={48}
-                          height={64}
-                        />
+                        <Link href="/" aria-label="返回首页">
+                          {/* eslint-disable-next-line @next/next/no-img-element */}
+                          <img
+                            className="disable-event"
+                            src="/images/logo/logo.jpg"
+                            alt="BUZUD"
+                            width={48}
+                            height={64}
+                          />
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -248,14 +250,7 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
                         moveActiveBar(event.currentTarget)
                       }}
                     >
-                      <a
-                        href={
-                          menuPanels.find((p) => p.label === item.label)?.href ?? item.href ?? "#"
-                        }
-                        className="menu-label"
-                      >
-                        {item.label}
-                      </a>
+                      <span className="menu-label">{item.label}</span>
                       {item.label === "所有商品" ? <span className="new_feature_mark" /> : null}
                     </li>
                   ))}

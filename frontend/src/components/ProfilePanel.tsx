@@ -75,12 +75,39 @@ export function ProfilePanel() {
   const [activeTab, setActiveTab] = useState<ProfileTab>("account")
   const [accountNotice, setAccountNotice] = useState<string | null>(null)
   const [passwordNotice, setPasswordNotice] = useState<string | null>(null)
+  const [membershipDrawerOpen, setMembershipDrawerOpen] = useState(false)
+  const [membershipName, setMembershipName] = useState("")
+  const [membershipPhone, setMembershipPhone] = useState("")
+  const [membershipEmail, setMembershipEmail] = useState("")
+  const [membershipConsent, setMembershipConsent] = useState(false)
+  const [membershipNotice, setMembershipNotice] = useState<string | null>(null)
 
   useEffect(() => {
     if (ready && !user) {
       router.replace("/cn/zh/profile/login/")
     }
   }, [ready, user, router])
+
+  useEffect(() => {
+    document.body.style.overflow = membershipDrawerOpen ? "hidden" : ""
+    return () => {
+      document.body.style.overflow = ""
+    }
+  }, [membershipDrawerOpen])
+
+  const openMembershipDrawer = () => {
+    setMembershipName(user?.name ?? "")
+    setMembershipPhone(user?.phone ?? "")
+    setMembershipEmail(user?.email ?? "")
+    setMembershipConsent(false)
+    setMembershipNotice(null)
+    setMembershipDrawerOpen(true)
+  }
+
+  const submitMembership = () => {
+    setMembershipNotice("会员申请已提交（演示环境）")
+    setMembershipDrawerOpen(false)
+  }
 
   if (!ready || !user) {
     return (
@@ -109,12 +136,21 @@ export function ProfilePanel() {
             <div>
               <h1 className="text-2xl font-bold leading-9 lg:text-3xl">{user.name}</h1>
               <p className="mt-1 text-sm text-ikea-muted">{user.phone}</p>
+              <div className="mt-2 flex items-center gap-2 text-sm">
+                <button
+                  type="button"
+                  onClick={() => {
+                    void logout()
+                    router.replace("/cn/zh/profile/login/")
+                  }}
+                  className="font-bold text-ikea-blue hover:underline"
+                >
+                  退出登录
+                </button>
+              </div>
             </div>
           </div>
-          <Link
-            href="/cn/zh/customer-service/services/privileges/"
-            className="flex w-full flex-col gap-6 bg-ikea-yellow p-6 transition-colors hover:bg-[#ffd900] md:w-auto md:max-w-xl md:flex-row md:items-center md:justify-between md:p-8"
-          >
+          <div className="flex w-full flex-col gap-6 bg-ikea-yellow p-6 transition-colors hover:bg-[#ffd900] md:w-auto md:max-w-xl md:flex-row md:items-center md:justify-between md:p-8">
             <div>
               <p className="text-xs font-bold uppercase tracking-[0.2em] text-ikea-black/70">
                 BUZUD 会员俱乐部
@@ -126,11 +162,70 @@ export function ProfilePanel() {
                 我们想更懂你的健康需求，为你提供更适合的产品与优惠。现在加入会员，还可享受专属折扣和健康体验。
               </p>
             </div>
-            <span className="i-btn h-11 shrink-0 bg-ikea-black px-7 text-sm font-bold text-white">
+            <button
+              type="button"
+              onClick={openMembershipDrawer}
+              className="i-btn h-11 shrink-0 bg-ikea-black px-7 text-sm font-bold text-white"
+            >
               立即加入
-            </span>
-          </Link>
+            </button>
+          </div>
         </section>
+
+        <div className="mt-6 grid gap-px overflow-hidden border border-ikea-gray-200 bg-ikea-gray-200 sm:grid-cols-2 lg:grid-cols-3">
+          {[
+            {
+              title: "我的订单",
+              desc: "查看历史订单和物流状态",
+              href: "/cn/zh/profile/my-orders/",
+              icon: CartIcon,
+            },
+            {
+              title: "优惠券",
+              desc: "查看会员权益和专属优惠",
+              href: "/cn/zh/customer-service/services/privileges/",
+              icon: CompassIcon,
+            },
+            {
+              title: "我的收藏",
+              desc: "收藏的商品与心愿单",
+              href: "/cn/zh/profile/collection/",
+              icon: HeartIcon,
+            },
+            {
+              title: "收货地址",
+              desc: "结算与配送信息",
+              href: "/cn/zh/profile/address/",
+              icon: TruckIcon,
+            },
+            {
+              title: "我的足迹",
+              desc: "最近浏览过的商品",
+              href: "/cn/zh/profile/browsing-history/",
+              icon: HomeIcon,
+            },
+            {
+              title: "客服",
+              desc: "需要帮助？联系 BUZUD 客服",
+              href: "/cn/zh/customer-service/",
+              icon: CustomerServiceIcon,
+            },
+          ].map(({ title, desc, href, icon: Icon }) => (
+            <Link
+              key={title}
+              href={href}
+              className="flex items-start gap-4 bg-white p-6 transition-colors hover:bg-ikea-gray-100"
+            >
+              <span className="mt-0.5 text-ikea-blue">
+                <Icon width={24} height={24} />
+              </span>
+              <span>
+                <span className="block text-base font-bold">{title}</span>
+                <span className="mt-1 block text-xs leading-5 text-ikea-muted">{desc}</span>
+              </span>
+            </Link>
+          ))}
+        </div>
 
         <div className="mt-8 grid grid-cols-2 border-b border-ikea-gray-200">
           {[
@@ -227,6 +322,12 @@ export function ProfilePanel() {
               </p>
             ) : null}
 
+            {membershipNotice ? (
+              <p className="mt-4 rounded bg-blue-50 px-4 py-3 text-xs text-ikea-blue">
+                {membershipNotice}
+              </p>
+            ) : null}
+
             <section className="mt-6 border border-ikea-gray-200 p-6 md:p-8">
               <h2 className="text-xl font-bold">注销账户</h2>
               <p className="mt-2 text-sm text-ikea-muted">如需注销账户，请通过以下方式联系我们</p>
@@ -317,61 +418,6 @@ export function ProfilePanel() {
                 </p>
               </div>
             </section>
-
-            <div className="mt-10 grid gap-px overflow-hidden border border-ikea-gray-200 bg-ikea-gray-200 sm:grid-cols-2 lg:grid-cols-3">
-              {[
-                {
-                  title: "我的订单",
-                  desc: "查看历史订单和物流状态",
-                  href: "/cn/zh/profile/my-orders/",
-                  icon: CartIcon,
-                },
-                {
-                  title: "优惠券",
-                  desc: "查看会员权益和专属优惠",
-                  href: "/cn/zh/customer-service/services/privileges/",
-                  icon: CompassIcon,
-                },
-                {
-                  title: "我的收藏",
-                  desc: "收藏的商品与心愿单",
-                  href: "/cn/zh/profile/collection/",
-                  icon: HeartIcon,
-                },
-                {
-                  title: "收货地址",
-                  desc: "结算与配送信息",
-                  href: "/cn/zh/checkout/",
-                  icon: TruckIcon,
-                },
-                {
-                  title: "我的足迹",
-                  desc: "最近浏览过的商品",
-                  href: "/cn/zh/profile/browsing-history/",
-                  icon: HomeIcon,
-                },
-                {
-                  title: "客服",
-                  desc: "需要帮助？联系 BUZUD 客服",
-                  href: "/cn/zh/customer-service/",
-                  icon: CustomerServiceIcon,
-                },
-              ].map(({ title, desc, href, icon: Icon }) => (
-                <Link
-                  key={title}
-                  href={href}
-                  className="flex items-start gap-4 bg-white p-6 transition-colors hover:bg-ikea-gray-100"
-                >
-                  <span className="mt-0.5 text-ikea-blue">
-                    <Icon width={24} height={24} />
-                  </span>
-                  <span>
-                    <span className="block text-base font-bold">{title}</span>
-                    <span className="mt-1 block text-xs leading-5 text-ikea-muted">{desc}</span>
-                  </span>
-                </Link>
-              ))}
-            </div>
           </>
         ) : (
           <section className="mt-6 max-w-2xl">
@@ -435,6 +481,87 @@ export function ProfilePanel() {
           </button>
         </div>
       </div>
+
+      {membershipDrawerOpen ? (
+        <div className="fixed inset-0 z-[1100]" role="dialog" aria-modal="true">
+          <button
+            type="button"
+            aria-label="关闭"
+            className="absolute inset-0 bg-black/50"
+            onClick={() => setMembershipDrawerOpen(false)}
+          />
+          <aside className="absolute right-0 top-0 flex h-full w-full max-w-[440px] flex-col bg-white shadow-2xl">
+            <div className="flex items-center justify-between border-b border-ikea-gray-200 px-6 py-4">
+              <h2 className="text-base font-bold">加入 BUZUD 会员俱乐部</h2>
+              <button
+                type="button"
+                aria-label="关闭"
+                className="flex h-8 w-8 items-center justify-center text-ikea-muted hover:text-ikea-black"
+                onClick={() => setMembershipDrawerOpen(false)}
+              >
+                <svg viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5">
+                  <path d="m12 10.6 6-6 1.4 1.4-6 6 6 6-1.4 1.4-6-6-6 6L4.6 18l6-6-6-6L6 4.6z" />
+                </svg>
+              </button>
+            </div>
+
+            <div className="flex-1 overflow-y-auto px-6 py-5">
+              <p className="text-sm leading-6 text-ikea-muted">
+                我们想更懂你的健康需求，为你提供更适合的产品与优惠。现在加入会员，还可享受专属折扣和健康体验。
+              </p>
+
+              <div className="mt-6 space-y-4">
+                <label className="block">
+                  <span className="mb-1.5 block text-sm font-bold">姓名</span>
+                  <input
+                    value={membershipName}
+                    onChange={(event) => setMembershipName(event.target.value)}
+                    className="h-11 w-full border border-ikea-gray-200 px-4 text-sm outline-none focus:border-ikea-blue"
+                  />
+                </label>
+                <label className="block">
+                  <span className="mb-1.5 block text-sm font-bold">手机号</span>
+                  <input
+                    value={membershipPhone}
+                    onChange={(event) => setMembershipPhone(event.target.value)}
+                    className="h-11 w-full border border-ikea-gray-200 px-4 text-sm outline-none focus:border-ikea-blue"
+                  />
+                </label>
+                <label className="block">
+                  <span className="mb-1.5 block text-sm font-bold">邮箱</span>
+                  <input
+                    type="email"
+                    value={membershipEmail}
+                    onChange={(event) => setMembershipEmail(event.target.value)}
+                    className="h-11 w-full border border-ikea-gray-200 px-4 text-sm outline-none focus:border-ikea-blue"
+                  />
+                </label>
+                <label className="flex items-start gap-2 text-xs leading-5 text-ikea-muted">
+                  <input
+                    type="checkbox"
+                    checked={membershipConsent}
+                    onChange={(event) => setMembershipConsent(event.target.checked)}
+                    className="mt-0.5 h-4 w-4"
+                  />
+                  我同意接收 BUZUD 会员相关折扣和活动信息。
+                </label>
+              </div>
+            </div>
+
+            <div className="border-t border-ikea-gray-200 px-6 py-5">
+              <button
+                type="button"
+                onClick={submitMembership}
+                className="i-btn i-btn--primary h-11 w-full text-sm font-bold text-white"
+              >
+                <span className="i-btn__inner">
+                  <span className="i-btn__label">立即加入</span>
+                </span>
+              </button>
+            </div>
+          </aside>
+        </div>
+      ) : null}
     </div>
   )
 }

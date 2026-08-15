@@ -251,7 +251,7 @@ export function CartPage() {
                   href="/cn/zh/checkout/"
                   className="i-btn i-btn--primary mt-6 flex h-11 w-full items-center justify-center text-sm font-bold text-white"
                 >
-                  去结算
+                  立即结算({totalQuantity})
                 </Link>
                 <p className="mt-3 text-center text-xs text-ikea-muted">含税，不含配送费</p>
               </>
