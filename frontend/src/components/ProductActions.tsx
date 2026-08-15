@@ -93,7 +93,7 @@ export function ProductActions({ productId }: { productId: string }) {
       <button
         type="button"
         onClick={toggleFavorite}
-        className="i-btn i-btn--small h-11 border border-ikea-black bg-white px-8 text-sm text-ikea-black"
+        className="i-btn i-btn--small i-btn--secondary h-11 px-8 text-sm"
       >
         <span className="i-btn__inner">
           <span className="i-btn__label">
