@@ -393,6 +393,18 @@
   z-index: 1000;
 }
 
+/* Keep the sticky header above the search/mega-menu overlays. */
+.nav-header_container .header_container_top {
+  position: relative;
+  z-index: 1001;
+}
+
+/* The search panel opens over the header itself, like IKEA's search overlay. */
+.search-panel-layer {
+  top: 0;
+  z-index: 1002;
+}
+
 /* Header-bottom mask behind the open mega menu. It starts below the header
    and sits under the menu layer (z-index 1000), dimming only the remaining
    page content while a navigation menu is open. */

@@ -5,6 +5,7 @@ import { useEffect, useState } from "react"
 import { CartIcon, HeartIcon, SearchIcon, UserIcon } from "@/components/icons"
 import { MegaMenu } from "@/components/MegaMenu"
 import { MenuPanel } from "@/components/MenuPanel"
+import { SearchPanel } from "@/components/SearchPanel"
 import { useAuth } from "@/lib/auth"
 import type { MenuPanel as MenuPanelData } from "@/data/menu-panels"
 import type { Category } from "@/data/categories"
@@ -23,6 +24,7 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
   const [hintIndex, setHintIndex] = useState(0)
   const [bar, setBar] = useState({ width: 0, left: 0, opacity: 0 })
   const [query, setQuery] = useState("")
+  const [searchOpen, setSearchOpen] = useState(false)
   const { user } = useAuth()
 
   useEffect(() => {
@@ -53,6 +55,18 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
     setOpenMenu(null)
     setOpenPanel(null)
   }
+  const openSearch = () => {
+    closeMenu()
+    setSearchOpen(true)
+  }
+  const closeSearch = () => setSearchOpen(false)
+  const submitSearch = (value: string) => {
+    const q = value.trim()
+    if (q) {
+      window.location.href = `/cn/zh/search/products?q=${encodeURIComponent(q)}`
+    }
+    setSearchOpen(false)
+  }
 
   return (
     <div className="i-layout__header i-layout__header--sticky">
@@ -82,10 +96,7 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
                       role="search"
                       onSubmit={(event) => {
                         event.preventDefault()
-                        const q = query.trim()
-                        if (q) {
-                          window.location.href = `/cn/zh/search/products?q=${encodeURIComponent(q)}`
-                        }
+                        submitSearch(query)
                       }}
                     >
                       <input
@@ -95,6 +106,8 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
                         placeholder=""
                         value={query}
                         onChange={(event) => setQuery(event.target.value)}
+                        onFocus={openSearch}
+                        onClick={openSearch}
                       />
                       <span className="search-icon">
                         <SearchIcon width={24} height={24} />
@@ -193,6 +206,7 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
                       key={item.label}
                       onMouseEnter={(event) => {
                         const panel = menuPanels.find((p) => p.label === item.label)
+                        closeSearch()
                         setOpenMenu(item.hasMegaMenu ? item.label : null)
                         setOpenPanel(panel ? panel.label : null)
                         moveActiveBar(event.currentTarget)
@@ -246,14 +260,29 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
               </div>
             </div>
           </div>
-          {openMenu || activePanel ? (
+          {openMenu || activePanel || searchOpen ? (
             <button
               type="button"
               className="nav-header-mega-mask"
               aria-label="Close menu"
-              onClick={closeMenu}
+              onClick={() => {
+                closeMenu()
+                closeSearch()
+              }}
               tabIndex={-1}
             />
+          ) : null}
+          {searchOpen ? (
+            <div className="mega-menu-layer search-panel-layer">
+              <SearchPanel
+                query={query}
+                searchHints={searchHints}
+                categories={categories}
+                onQueryChange={setQuery}
+                onSubmit={submitSearch}
+                onClose={closeSearch}
+              />
+            </div>
           ) : null}
           {openMenu ? (
             <div className="mega-menu-layer" onMouseLeave={() => setOpenMenu(null)}>
