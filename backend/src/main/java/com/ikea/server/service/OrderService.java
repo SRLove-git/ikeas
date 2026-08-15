@@ -11,6 +11,8 @@ import com.ikea.server.dto.order.OrderItemResponse;
 import com.ikea.server.dto.order.OrderResponse;
 import com.ikea.server.entity.Order;
 import com.ikea.server.entity.OrderItem;
+import com.ikea.server.integration.oms.OmsChannel;
+import com.ikea.server.integration.oms.OmsOrderSyncService;
 import com.ikea.server.mapper.OrderItemMapper;
 import com.ikea.server.mapper.OrderMapper;
 import com.ikea.server.model.Product;
@@ -26,13 +28,17 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ThreadLocalRandom;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-/** 订单业务：下单、查单、取消。 */
+/** 订单业务：下单、查单、取消。对接 OMS 时按对接规范 §7 同步/取消联动。 */
 @Service
 public class OrderService {
+
+  private static final Logger log = LoggerFactory.getLogger(OrderService.class);
 
   private static final DateTimeFormatter ORDER_NO_TIME =
       DateTimeFormatter.ofPattern("yyyyMMddHHmmssSSS");
@@ -41,6 +47,8 @@ public class OrderService {
   private final OrderItemMapper orderItemMapper;
   private final DataStore dataStore;
   private final CartStore cartStore;
+  private final OmsChannel omsChannel;
+  private final OmsOrderSyncService omsOrderSyncService;
   private final BigDecimal defaultDeliveryFee;
 
   public OrderService(
@@ -48,11 +56,15 @@ public class OrderService {
       OrderItemMapper orderItemMapper,
       DataStore dataStore,
       CartStore cartStore,
+      OmsChannel omsChannel,
+      OmsOrderSyncService omsOrderSyncService,
       @Value("${ikea.order.default-delivery-fee:9.9}") String defaultDeliveryFee) {
     this.orderMapper = orderMapper;
     this.orderItemMapper = orderItemMapper;
     this.dataStore = dataStore;
     this.cartStore = cartStore;
+    this.omsChannel = omsChannel;
+    this.omsOrderSyncService = omsOrderSyncService;
     this.defaultDeliveryFee = new BigDecimal(defaultDeliveryFee);
   }
 
@@ -61,6 +73,12 @@ public class OrderService {
     requireUser(userId);
     List<CreateOrderItemRequest> requestedItems = resolveItems(userId, request);
     List<OrderItem> orderItems = buildOrderItems(requestedItems);
+
+    // 对接开启时前置校验商品映射（对接规范 §6.1 / 验收 T04），未映射直接拒绝下单
+    if (omsChannel.isEnabled()) {
+      omsOrderSyncService.requireSkuMappings(
+          orderItems.stream().map(OrderItem::getProductId).distinct().toList());
+    }
 
     BigDecimal subtotal =
         orderItems.stream()
@@ -90,6 +108,15 @@ public class OrderService {
 
     if (request.fromCart() && (request.items() == null || request.items().isEmpty())) {
       cartStore.clear(String.valueOf(userId));
+    }
+
+    // 本地订单已落库，OMS 同步失败不回滚本地订单（对接规范 §4.3-1）
+    if (omsChannel.isEnabled()) {
+      try {
+        omsOrderSyncService.syncCreate(order);
+      } catch (Exception ex) {
+        log.warn("OMS 下单同步异常，本地订单照常成功 orderNo={}", order.getOrderNo(), ex);
+      }
     }
 
     return toResponse(order, orderItems);
@@ -148,6 +175,16 @@ public class OrderService {
     }
     order.setStatus(OrderStatus.CANCELLED.code());
     orderMapper.updateById(order);
+
+    // 已同步订单向 OMS 下发取消（对接规范 §7.3），失败不影响本地取消结果
+    if (omsChannel.isEnabled()) {
+      try {
+        omsOrderSyncService.cancelOrder(order);
+      } catch (Exception ex) {
+        log.warn("OMS 取消联动异常，本地已取消 orderNo={}", order.getOrderNo(), ex);
+      }
+    }
+
     return toResponse(order, itemsOf(order.getId()));
   }
 

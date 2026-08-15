@@ -55,6 +55,25 @@ ikea:
   order:
     # Default delivery fee in SGD when the client does not pass one.
     default-delivery-fee: ${IKEA_DEFAULT_DELIVERY_FEE:9.9}
+  oms:
+    # OMS 对接开关（对接规范 §4.1）：默认 false = 商城独立运行，不装配 OMS 组件。
+    enabled: ${BUZUD_OMS_ENABLED:false}
+    gateway-url: ${BUZUD_OMS_GATEWAY_URL:http://localhost:8080}
+    app-id: ${BUZUD_OMS_APP_ID:}
+    # 生产环境通过 K8s Secret/配置中心注入，禁止进入前端构建产物。
+    app-secret: ${BUZUD_OMS_APP_SECRET:}
+    merchant-id: ${BUZUD_OMS_MERCHANT_ID:}
+    connect-timeout-ms: 2000
+    read-timeout-ms: 5000
+    # 下单同步重试上限，超过转失败人工处理。
+    max-retries: 3
+    # BUZUD 零售订单固定 B2C。
+    order-type: 2
+    status-sync:
+      enabled: true
+      # 轮询间隔，遵循 OMS 约定 ≥ 5s。
+      interval-ms: 5000
+      batch-size: 100
   chat-knowledge:
     # Optional external chat knowledge JSON (IKEA_CHAT_KNOWLEDGE_FILE), reloaded on change.
     file: ${IKEA_CHAT_KNOWLEDGE_FILE:}
