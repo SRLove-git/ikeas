@@ -14,13 +14,11 @@ import com.ikea.server.constant.OrderStatus;
 import com.ikea.server.entity.Order;
 import com.ikea.server.entity.OrderItem;
 import com.ikea.server.entity.OmsOrderMapping;
-import com.ikea.server.entity.OmsSkuMapping;
 import com.ikea.server.integration.oms.OmsChannel.OmsOrderInput;
 import com.ikea.server.integration.oms.OmsChannel.OmsOrderOutcome;
 import com.ikea.server.mapper.OrderItemMapper;
 import com.ikea.server.mapper.OrderMapper;
 import com.ikea.server.mapper.OmsOrderMappingMapper;
-import com.ikea.server.mapper.OmsSkuMappingMapper;
 import java.math.BigDecimal;
 import java.util.List;
 import org.junit.jupiter.api.BeforeEach;
@@ -37,7 +35,7 @@ class OmsOrderSyncServiceTest {
   private OmsProperties properties;
   private OrderMapper orderMapper;
   private OrderItemMapper orderItemMapper;
-  private OmsSkuMappingMapper skuMappingMapper;
+  private OmsSkuMappingService skuMappingService;
   private OmsOrderMappingMapper orderMappingMapper;
   private OmsOrderSyncService service;
 
@@ -50,7 +48,7 @@ class OmsOrderSyncServiceTest {
     properties.setMaxRetries(3);
     orderMapper = org.mockito.Mockito.mock(OrderMapper.class);
     orderItemMapper = org.mockito.Mockito.mock(OrderItemMapper.class);
-    skuMappingMapper = org.mockito.Mockito.mock(OmsSkuMappingMapper.class);
+    skuMappingService = org.mockito.Mockito.mock(OmsSkuMappingService.class);
     orderMappingMapper = org.mockito.Mockito.mock(OmsOrderMappingMapper.class);
     service =
         new OmsOrderSyncService(
@@ -58,28 +56,29 @@ class OmsOrderSyncServiceTest {
             properties,
             orderMapper,
             orderItemMapper,
-            skuMappingMapper,
+            skuMappingService,
             orderMappingMapper);
     when(channel.isEnabled()).thenReturn(true);
   }
 
   @Test
   void requireSkuMappingsShouldRejectMissingMapping() {
-    when(skuMappingMapper.selectList(any(Wrapper.class)))
-        .thenReturn(List.of(mapping("P1", 1001L)));
+    when(skuMappingService.requireMappings(List.of("P1", "P2")))
+        .thenThrow(new IllegalArgumentException("商品未配置 OMS 映射: P2"));
 
     IllegalArgumentException ex =
         assertThrows(
             IllegalArgumentException.class,
             () -> service.requireSkuMappings(List.of("P1", "P2")));
     org.assertj.core.api.Assertions.assertThat(ex.getMessage()).contains("P2");
+    verify(skuMappingService).requireMappings(List.of("P1", "P2"));
   }
 
   @Test
   void syncCreateShouldMarkPendingWithoutThrowingWhenOmsFails() {
     Order order = order(OrderStatus.PENDING_PAYMENT.code(), "B001");
     when(orderItemMapper.selectList(any(Wrapper.class))).thenReturn(List.of(orderItem("P1", 2)));
-    when(skuMappingMapper.selectOne(any(Wrapper.class))).thenReturn(mapping("P1", 1001L));
+    when(skuMappingService.requireSkuId("P1")).thenReturn(1001L);
     when(orderMappingMapper.selectOne(any(Wrapper.class))).thenReturn(null);
     when(channel.createOrder(any(OmsOrderInput.class)))
         .thenThrow(new OmsCallException(0, "OMS 网关不可达"));
@@ -99,7 +98,7 @@ class OmsOrderSyncServiceTest {
   void syncCreateShouldMarkDoneOnSuccess() {
     Order order = order(OrderStatus.PENDING_PAYMENT.code(), "B002");
     when(orderItemMapper.selectList(any(Wrapper.class))).thenReturn(List.of(orderItem("P1", 2)));
-    when(skuMappingMapper.selectOne(any(Wrapper.class))).thenReturn(mapping("P1", 1001L));
+    when(skuMappingService.requireSkuId("P1")).thenReturn(1001L);
     when(orderMappingMapper.selectOne(any(Wrapper.class))).thenReturn(null);
     when(channel.createOrder(any(OmsOrderInput.class)))
         .thenReturn(new OmsOrderOutcome("O100", 1, new BigDecimal("109.90"), "SGD"));
@@ -117,7 +116,7 @@ class OmsOrderSyncServiceTest {
   void notifyPaymentShouldCreateOrderFirstThenNotify() {
     Order order = order(OrderStatus.PENDING_PAYMENT.code(), "B003");
     when(orderItemMapper.selectList(any(Wrapper.class))).thenReturn(List.of(orderItem("P1", 2)));
-    when(skuMappingMapper.selectOne(any(Wrapper.class))).thenReturn(mapping("P1", 1001L));
+    when(skuMappingService.requireSkuId("P1")).thenReturn(1001L);
     // 映射不存在 → 前置补单（§4.3-3）
     when(orderMappingMapper.selectOne(any(Wrapper.class))).thenReturn(null);
     when(orderMapper.selectOne(any(Wrapper.class))).thenReturn(order);
@@ -225,13 +224,6 @@ class OmsOrderSyncServiceTest {
     item.setProductName("商品");
     item.setQuantity(quantity);
     return item;
-  }
-
-  private static OmsSkuMapping mapping(String productId, Long skuId) {
-    OmsSkuMapping mapping = new OmsSkuMapping();
-    mapping.setProductId(productId);
-    mapping.setOmsSkuId(skuId);
-    return mapping;
   }
 
   private static OmsOrderMapping syncedMapping(String orderNo, String omsOrderNo, int omsStatus) {

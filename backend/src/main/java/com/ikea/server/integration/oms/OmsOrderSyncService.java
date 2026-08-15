@@ -5,19 +5,16 @@ import com.ikea.server.constant.OrderStatus;
 import com.ikea.server.entity.Order;
 import com.ikea.server.entity.OrderItem;
 import com.ikea.server.entity.OmsOrderMapping;
-import com.ikea.server.entity.OmsSkuMapping;
 import com.ikea.server.integration.oms.OmsChannel.OmsOrderInput;
 import com.ikea.server.integration.oms.OmsChannel.OmsOrderOutcome;
 import com.ikea.server.integration.oms.OmsChannel.OmsOrderInput.Line;
 import com.ikea.server.mapper.OrderItemMapper;
 import com.ikea.server.mapper.OrderMapper;
 import com.ikea.server.mapper.OmsOrderMappingMapper;
-import com.ikea.server.mapper.OmsSkuMappingMapper;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Map;
-import java.util.stream.Collectors;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.scheduling.annotation.Scheduled;
@@ -51,7 +48,7 @@ public class OmsOrderSyncService {
   private final OmsProperties properties;
   private final OrderMapper orderMapper;
   private final OrderItemMapper orderItemMapper;
-  private final OmsSkuMappingMapper skuMappingMapper;
+  private final OmsSkuMappingService skuMappingService;
   private final OmsOrderMappingMapper orderMappingMapper;
 
   public OmsOrderSyncService(
@@ -59,13 +56,13 @@ public class OmsOrderSyncService {
       OmsProperties properties,
       OrderMapper orderMapper,
       OrderItemMapper orderItemMapper,
-      OmsSkuMappingMapper skuMappingMapper,
+      OmsSkuMappingService skuMappingService,
       OmsOrderMappingMapper orderMappingMapper) {
     this.channel = channel;
     this.properties = properties;
     this.orderMapper = orderMapper;
     this.orderItemMapper = orderItemMapper;
-    this.skuMappingMapper = skuMappingMapper;
+    this.skuMappingService = skuMappingService;
     this.orderMappingMapper = orderMappingMapper;
   }
 
@@ -74,19 +71,7 @@ public class OmsOrderSyncService {
    * 商城侧拦截，不向 OMS 发出请求。
    */
   public Map<String, Long> requireSkuMappings(List<String> productIds) {
-    List<OmsSkuMapping> mappings =
-        skuMappingMapper.selectList(
-            Wrappers.lambdaQuery(OmsSkuMapping.class).in(OmsSkuMapping::getProductId, productIds));
-    Map<String, Long> byProduct =
-        mappings.stream()
-            .collect(Collectors.toMap(OmsSkuMapping::getProductId, OmsSkuMapping::getOmsSkuId));
-    List<String> missing =
-        productIds.stream().filter(id -> !byProduct.containsKey(id)).distinct().toList();
-    if (!missing.isEmpty()) {
-      log.error("订单包含未配置 OMS 映射的商品，拒绝下单 missing={}", missing);
-      throw new IllegalArgumentException("商品未配置 OMS 映射: " + String.join(", ", missing));
-    }
-    return byProduct;
+    return skuMappingService.requireMappings(productIds);
   }
 
   /**
@@ -298,13 +283,7 @@ public class OmsOrderSyncService {
   }
 
   private Long requireSkuId(String productId) {
-    OmsSkuMapping mapping =
-        skuMappingMapper.selectOne(
-            Wrappers.lambdaQuery(OmsSkuMapping.class).eq(OmsSkuMapping::getProductId, productId));
-    if (mapping == null) {
-      throw new IllegalStateException("商品未配置 OMS 映射: " + productId);
-    }
-    return mapping.getOmsSkuId();
+    return skuMappingService.requireSkuId(productId);
   }
 
   private OmsOrderMapping mappingFor(String orderNo) {
