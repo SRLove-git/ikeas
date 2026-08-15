@@ -2,9 +2,9 @@ package com.ikea.server.web;
 
 import com.ikea.server.data.CartStore;
 import com.ikea.server.data.ChatHistoryStore;
-import com.ikea.server.data.FavoritesStore;
 import com.ikea.server.entity.AppUser;
 import com.ikea.server.model.User;
+import com.ikea.server.service.FavoriteService;
 import com.ikea.server.service.TokenService;
 import com.ikea.server.service.UserService;
 import java.util.LinkedHashMap;
@@ -40,19 +40,19 @@ public class AdminController {
   private final UserService userService;
   private final TokenService tokenService;
   private final CartStore cartStore;
-  private final FavoritesStore favoritesStore;
+  private final FavoriteService favoriteService;
   private final ChatHistoryStore chatHistory;
 
   public AdminController(
       UserService userService,
       TokenService tokenService,
       CartStore cartStore,
-      FavoritesStore favoritesStore,
+      FavoriteService favoriteService,
       ChatHistoryStore chatHistory) {
     this.userService = userService;
     this.tokenService = tokenService;
     this.cartStore = cartStore;
-    this.favoritesStore = favoritesStore;
+    this.favoriteService = favoriteService;
     this.chatHistory = chatHistory;
   }
 
@@ -61,7 +61,7 @@ public class AdminController {
     return Map.of(
         "users", userService.listAll().size(),
         "carts", cartStore.allCarts().size(),
-        "favorites", favoritesStore.allFavorites().size(),
+        "favorites", favoriteService.countUsersWithFavorites(),
         "chatMessages", chatHistory.all().size());
   }
 
@@ -85,7 +85,7 @@ public class AdminController {
     }
     tokenService.revokeAllForUser(userId);
     cartStore.clear(id);
-    favoritesStore.idsFor(id).clear();
+    favoriteService.clearAllForUser(userId);
     return ResponseEntity.ok(Map.of("ok", true));
   }
 
@@ -136,20 +136,20 @@ public class AdminController {
   @GetMapping("/favorites")
   public Map<String, Object> favorites() {
     List<Map<String, Object>> items =
-        favoritesStore.allFavorites().stream()
+        favoriteService.allFavorites().stream()
             .map(
                 entry -> {
                   AppUser user =
-                      userService.findById(parseUserId(entry.getKey())).orElse(null);
+                      userService.findById(entry.userId()).orElse(null);
                   return hash(
                       "userId",
-                      entry.getKey(),
+                      String.valueOf(entry.userId()),
                       "user",
                       user == null
                           ? null
                           : hash("name", user.getName(), "phone", user.getPhone()),
                       "productIds",
-                      entry.getValue().stream().toList());
+                      entry.productIds());
                 })
             .toList();
     return Map.of("items", items, "total", items.size());
@@ -157,7 +157,7 @@ public class AdminController {
 
   @DeleteMapping("/favorites/{userId}")
   public Map<String, Object> clearFavorites(@PathVariable String userId) {
-    favoritesStore.idsFor(userId).clear();
+    favoriteService.clearAllForUser(parseUserId(userId));
     return Map.of("ok", true);
   }
 

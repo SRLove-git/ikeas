@@ -1,6 +1,6 @@
-"use client";
+"use client"
 
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react"
 import {
   adminFetch,
   ConfirmButton,
@@ -10,47 +10,45 @@ import {
   NoticeArea,
   PageHeader,
   useNotice,
-} from "@/components/admin/admin-ui";
+} from "@/components/admin/admin-ui"
 
 interface Favorite {
-  userId: string;
-  user: { name: string; phone?: string | null } | null;
-  productIds: string[];
+  userId: string
+  user: { name: string; phone?: string | null } | null
+  productIds: string[]
 }
 
 export default function FavoritesPage() {
-  const { notice, show } = useNotice();
-  const [favorites, setFavorites] = useState<Favorite[] | null>(null);
-  const [error, setError] = useState<string | null>(null);
+  const { notice, show } = useNotice()
+  const [favorites, setFavorites] = useState<Favorite[] | null>(null)
+  const [error, setError] = useState<string | null>(null)
 
   const load = useCallback(async () => {
     try {
-      const data = await adminFetch<{ items: Favorite[] }>(
-        "/api/admin/server/favorites",
-      );
-      setFavorites(data.items);
-      setError(null);
+      const data = await adminFetch<{ items: Favorite[] }>("/api/admin/server/favorites")
+      setFavorites(data.items)
+      setError(null)
     } catch (e) {
-      setError((e as Error).message);
+      setError((e as Error).message)
     }
-  }, []);
+  }, [])
 
   useEffect(() => {
-    const timer = window.setTimeout(() => void load(), 0);
-    return () => window.clearTimeout(timer);
-  }, [load]);
+    const timer = window.setTimeout(() => void load(), 0)
+    return () => window.clearTimeout(timer)
+  }, [load])
 
   const clear = async (userId: string) => {
-    await adminFetch(`/api/admin/server/favorites/${userId}`, { method: "DELETE" });
-    show("success", "收藏已清空");
-    await load();
-  };
+    await adminFetch(`/api/admin/server/favorites/${userId}`, { method: "DELETE" })
+    show("success", "收藏已清空")
+    await load()
+  }
 
   return (
     <div>
       <PageHeader
         title="收藏管理"
-        description="查看/清空用户收藏的商品（Spring Boot 内存存储）。"
+        description="查看/清空用户收藏的商品（Spring Boot + PostgreSQL 持久化）。"
       />
       <NoticeArea notice={notice} />
       {error ? (
@@ -83,15 +81,16 @@ export default function FavoritesPage() {
                   </td>
                   <td className="px-5 py-3 text-xs text-ikea-muted">
                     {favorite.productIds.map((id) => (
-                      <span key={id} className="mr-2 inline-block rounded bg-ikea-gray-100 px-1.5 py-0.5">
+                      <span
+                        key={id}
+                        className="mr-2 inline-block rounded bg-ikea-gray-100 px-1.5 py-0.5"
+                      >
                         {id}
                       </span>
                     ))}
                   </td>
                   <td className="px-5 py-3 text-right">
-                    <ConfirmButton onConfirm={() => clear(favorite.userId)}>
-                      清空收藏
-                    </ConfirmButton>
+                    <ConfirmButton onConfirm={() => clear(favorite.userId)}>清空收藏</ConfirmButton>
                   </td>
                 </tr>
               ))}
@@ -100,5 +99,5 @@ export default function FavoritesPage() {
         )}
       </div>
     </div>
-  );
+  )
 }

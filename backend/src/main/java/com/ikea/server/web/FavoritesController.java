@@ -1,14 +1,13 @@
 package com.ikea.server.web;
 
 import com.ikea.server.data.DataStore;
-import com.ikea.server.data.FavoritesStore;
 import com.ikea.server.constant.SecurityConstants;
 import com.ikea.server.model.Favorites;
 import com.ikea.server.model.Product;
+import com.ikea.server.service.FavoriteService;
 import jakarta.servlet.http.HttpServletRequest;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -21,11 +20,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/v1/favorites")
 public class FavoritesController {
 
-  private final FavoritesStore favoritesStore;
+  private final FavoriteService favoriteService;
   private final DataStore dataStore;
 
-  public FavoritesController(FavoritesStore favoritesStore, DataStore dataStore) {
-    this.favoritesStore = favoritesStore;
+  public FavoritesController(FavoriteService favoriteService, DataStore dataStore) {
+    this.favoriteService = favoriteService;
     this.dataStore = dataStore;
   }
 
@@ -42,18 +41,19 @@ public class FavoritesController {
     if (product == null) {
       throw new ResourceNotFoundException("Product not found: " + body.productId());
     }
-    favoritesStore.add(userId(request), product.id());
+    favoriteService.add(parseUserId(userId(request)), product.id());
     return build(userId(request));
   }
 
   @DeleteMapping("/{productId}")
   public Favorites remove(HttpServletRequest request, @PathVariable String productId) {
-    favoritesStore.remove(userId(request), productId);
+    favoriteService.remove(parseUserId(userId(request)), productId);
     return build(userId(request));
   }
 
   private Favorites build(String userId) {
-    List<String> ids = List.copyOf(favoritesStore.idsFor(userId));
+    Long parsedUserId = parseUserId(userId);
+    List<String> ids = favoriteService.listProductIds(parsedUserId);
     List<Product> items = new ArrayList<>();
     for (String id : ids) {
       Product product = dataStore.findProductById(id);
@@ -66,5 +66,16 @@ public class FavoritesController {
 
   private static String userId(HttpServletRequest request) {
     return (String) request.getAttribute(SecurityConstants.USER_ID_ATTRIBUTE);
+  }
+
+  private static Long parseUserId(String userId) {
+    if (userId == null) {
+      throw new UnauthorizedException("请先登录");
+    }
+    try {
+      return Long.valueOf(userId);
+    } catch (NumberFormatException ex) {
+      throw new UnauthorizedException("登录状态无效");
+    }
   }
 }
