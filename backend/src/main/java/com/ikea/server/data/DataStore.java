@@ -59,6 +59,7 @@ public class DataStore {
   private final Map<String, Product> productById = new LinkedHashMap<>();
   private final Map<String, CategoryRef> productCategoryById = new LinkedHashMap<>();
   private final Map<String, Set<String>> productCategoryNames = new HashMap<>();
+  private final Map<String, Set<String>> productAliasNames = new HashMap<>();
   private final Map<String, CatalogPage> catalogPageBySlug = new LinkedHashMap<>();
   private final Map<String, CatalogPage> catalogPageByUrl = new LinkedHashMap<>();
   private final Map<String, ContentPage> contentPageByUrl = new LinkedHashMap<>();
@@ -190,10 +191,11 @@ public class DataStore {
     if (query == null || query.isBlank()) {
       return source;
     }
-    String q = query.toLowerCase(Locale.ROOT);
+    String q = query.trim().toLowerCase(Locale.ROOT);
     return source.stream()
         .filter(product -> matches(product, q))
         .map(this::enriched)
+        .sorted(Comparator.comparingInt((Product product) -> relevance(product, q)).reversed())
         .toList();
   }
 
@@ -335,6 +337,25 @@ public class DataStore {
       productById.putIfAbsent(product.id(), product);
     }
 
+    // Navigation sub-category names are useful aliases: e.g. "早孕检测" should
+    // find the HCG pregnancy test even though that term is absent from the
+    // product name and detail fields.
+    for (MenuCategory menu : menuCategories) {
+      if (menu.subs() == null) {
+        continue;
+      }
+      for (JsonNode sub : menu.subs()) {
+        Product product = productBySlug.get(slugFromUrl(sub.path("url").asText(null)));
+        if (product == null || product.id() == null) {
+          continue;
+        }
+        Set<String> aliases =
+            productAliasNames.computeIfAbsent(product.id(), ignored -> new HashSet<>());
+        addNonBlank(aliases, menu.name());
+        addNonBlank(aliases, sub.path("name").asText(null));
+      }
+    }
+
     for (ContentPage page : contentPages) {
       contentPageByUrl.put(normalizeUrl(page.url()), page);
       pagesByFamily
@@ -379,22 +400,105 @@ public class DataStore {
   // ------------------------------------------------------------ helpers
 
   private boolean matches(Product product, String q) {
-    if (contains(product.name(), q)
-        || contains(product.designText(), q)
-        || contains(product.productType(), q)
-        || contains(product.id(), q)) {
-      return true;
-    }
-    Set<String> names = productCategoryNames.get(product.id());
-    if (names == null) {
-      return false;
-    }
-    for (String name : names) {
-      if (contains(name, q)) {
-        return true;
+    String[] terms = q.split("\\s+");
+    for (String term : terms) {
+      if (!term.isBlank() && productTermScore(product, term) == 0) {
+        return false;
       }
     }
-    return false;
+    return true;
+  }
+
+  private int relevance(Product product, String q) {
+    int score = 0;
+    for (String term : q.split("\\s+")) {
+      if (!term.isBlank()) {
+        score += productTermScore(product, term);
+      }
+    }
+
+    String compactQuery = q.replaceAll("\\s+", "");
+    String compactName = product.name() == null
+        ? ""
+        : product.name().toLowerCase(Locale.ROOT).replaceAll("\\s+", "");
+    if (!compactQuery.isBlank() && compactName.contains(compactQuery)) {
+      score += 25;
+    }
+    return score;
+  }
+
+  private int productTermScore(Product product, String term) {
+    int best = fieldScore(product.name(), term);
+    best = Math.max(best, fieldScore(product.productType(), term) * 4 / 5);
+    best = Math.max(best, fieldScore(product.designText(), term) * 7 / 10);
+
+    Set<String> categoryNames = productCategoryNames.get(product.id());
+    if (categoryNames != null) {
+      for (String name : categoryNames) {
+        best = Math.max(best, fieldScore(name, term) * 3 / 4);
+      }
+    }
+
+    Set<String> aliases = productAliasNames.get(product.id());
+    if (aliases != null) {
+      for (String alias : aliases) {
+        best = Math.max(best, fieldScore(alias, term) * 3 / 4);
+      }
+    }
+
+    if (product.id() != null && product.id().equals(term)) {
+      best = Math.max(best, 110);
+    }
+    if (contains(product.slug(), term)) {
+      best = Math.max(best, 60);
+    }
+    if (detailText(product.detail()).contains(term)) {
+      best = Math.max(best, 35);
+    }
+    return best;
+  }
+
+  private int fieldScore(String value, String term) {
+    if (value == null || value.isBlank()) {
+      return 0;
+    }
+    String normalized = java.text.Normalizer.normalize(value, java.text.Normalizer.Form.NFKC)
+        .toLowerCase(Locale.ROOT)
+        .trim();
+    if (normalized.equals(term)) {
+      return 120;
+    }
+    if (normalized.startsWith(term)) {
+      return 100;
+    }
+    if (normalized.contains(term)) {
+      return 80;
+    }
+    return 0;
+  }
+
+  private String detailText(JsonNode detail) {
+    StringBuilder text = new StringBuilder();
+    collectText(detail, text);
+    return java.text.Normalizer.normalize(text, java.text.Normalizer.Form.NFKC)
+        .toLowerCase(Locale.ROOT);
+  }
+
+  private void collectText(JsonNode node, StringBuilder text) {
+    if (node == null || node.isNull()) {
+      return;
+    }
+    if (node.isTextual()) {
+      text.append(node.asText()).append(' ');
+    } else if (node.isArray() || node.isObject()) {
+      node.elements().forEachRemaining(child -> collectText(child, text));
+    }
+  }
+
+  private static void addNonBlank(Set<String> values, String value) {
+    if (value != null && !value.isBlank()) {
+      values.add(value);
+    }
   }
 
   /** Returns a copy carrying category names (used by search responses). */
