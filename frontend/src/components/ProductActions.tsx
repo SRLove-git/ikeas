@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react"
 import { useRouter } from "next/navigation"
-import { apiJson, getToken } from "@/lib/api"
+import { apiJson, getToken, type Cart } from "@/lib/api"
 import { HeartIcon } from "@/components/icons"
 
 export function ProductActions({ productId }: { productId: string }) {
@@ -42,7 +42,9 @@ export function ProductActions({ productId }: { productId: string }) {
         method: "POST",
         body: JSON.stringify({ productId, quantity: 1 }),
       })
+      const cart = await apiJson<Cart>("/cart")
       setBagState("added")
+      window.dispatchEvent(new CustomEvent("ikea:cart-changed", { detail: cart.totalQuantity }))
       setMessage("已加入购物袋")
     } catch (ex) {
       setMessage(ex instanceof Error ? ex.message : "加入购物袋失败")

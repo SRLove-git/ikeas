@@ -9,13 +9,7 @@
       "href": "/cn/zh/customer-service/contact-us/"
     }
   ],
-  "searchHints": [
-    "早孕检测",
-    "血压计",
-    "智能手表",
-    "血糖仪",
-    "幽门螺杆菌"
-  ],
+  "searchHints": ["早孕检测", "血压计", "智能手表", "血糖仪", "幽门螺杆菌"],
   "navMenuItems": [
     {
       "label": "所有商品",
@@ -41,6 +35,10 @@
     {
       "label": "健康设备",
       "href": "/cn/zh/cat/buzud-health-devices"
+    },
+    {
+      "label": "胰岛素笔针",
+      "href": "/cn/zh/cat/insulin-pen-needles"
     },
     {
       "label": "客户服务",
@@ -74,27 +72,19 @@
     },
     {
       "name": "血压计",
-      "subCategories": [
-        "上臂式 C02",
-        "上臂式 30C",
-        "上臂式 30S"
-      ]
+      "subCategories": ["上臂式 C02", "上臂式 30C", "上臂式 30S"]
     },
     {
       "name": "血糖管理",
-      "subCategories": [
-        "CGM 传感器 2.0",
-        "GlucoInsight Plus",
-        "GlucoInsight Lite"
-      ]
+      "subCategories": ["CGM 传感器 2.0", "GlucoInsight Plus", "GlucoInsight Lite"]
     },
     {
       "name": "健康监测设备",
-      "subCategories": [
-        "红外耳温枪 BZD100",
-        "智能体重秤 CF509",
-        "注射针头 32G 4mm"
-      ]
+      "subCategories": ["红外耳温枪 BZD100", "智能体重秤 CF509", "注射针头 32G 4mm"]
+    },
+    {
+      "name": "胰岛素笔针",
+      "subCategories": ["32G 6mm", "安全款 31G 5mm", "32G 5mm", "32G 4mm"]
     }
   ],
   "heroSlides": [
@@ -499,9 +489,7 @@
         "title": "HCG Pregnancy Rapid Test",
         "desc": "快速检测试剂",
         "price": "SGD 4.80",
-        "tags": [
-          "BUZUD"
-        ],
+        "tags": ["BUZUD"],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "/images/products/buzud-8885020710595.png"
       },
@@ -514,9 +502,7 @@
         "title": "LH Ovulation Rapid Test",
         "desc": "快速检测试剂",
         "price": "SGD 5.80",
-        "tags": [
-          "BUZUD"
-        ],
+        "tags": ["BUZUD"],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "/images/products/buzud-8885020710618.png"
       },
@@ -529,9 +515,7 @@
         "title": "Vaginal pH Rapid Test Panel",
         "desc": "快速检测试剂",
         "price": "SGD 16.00",
-        "tags": [
-          "BUZUD"
-        ],
+        "tags": ["BUZUD"],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "/images/products/buzud-8885020710649.png"
       },
@@ -544,9 +528,7 @@
         "title": "BUZUD Watch Vibrance",
         "desc": "智能手表",
         "price": "SGD 237.00",
-        "tags": [
-          "BUZUD"
-        ],
+        "tags": ["BUZUD"],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "/images/products/buzud-8885020712582.png"
       },
@@ -559,9 +541,7 @@
         "title": "BUZUD Watch Vibrance Green",
         "desc": "智能手表",
         "price": "SGD 237.00",
-        "tags": [
-          "BUZUD"
-        ],
+        "tags": ["BUZUD"],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "/images/products/buzud-8885020712728.png"
       },
@@ -574,9 +554,7 @@
         "title": "BUZUD Watch Vibrance Pink",
         "desc": "智能手表",
         "price": "SGD 237.00",
-        "tags": [
-          "BUZUD"
-        ],
+        "tags": ["BUZUD"],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "/images/products/buzud-8885020712735.png"
       },
@@ -589,9 +567,7 @@
         "title": "BUZUD Watch Vibrance Star Light",
         "desc": "智能手表",
         "price": "SGD 237.00",
-        "tags": [
-          "BUZUD"
-        ],
+        "tags": ["BUZUD"],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "/images/products/buzud-8885020712742.png"
       },
@@ -604,9 +580,7 @@
         "title": "BUZUD Watch Vibrance Violet",
         "desc": "智能手表",
         "price": "SGD 237.00",
-        "tags": [
-          "BUZUD"
-        ],
+        "tags": ["BUZUD"],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "/images/products/buzud-8885020712759.png"
       },
@@ -619,9 +593,7 @@
         "title": "COVID-19/Flu A&B/RSV/Adeno Ag Combo Rapid Test Cassette (Swab) (1 test/box)",
         "desc": "快速检测试剂",
         "price": "SGD 17.00",
-        "tags": [
-          "BUZUD"
-        ],
+        "tags": ["BUZUD"],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "/images/products/buzud-8885020712209.png"
       },
@@ -634,9 +606,7 @@
         "title": "H.pylori Antigen Rapid Test",
         "desc": "快速检测试剂",
         "price": "SGD 18.00",
-        "tags": [
-          "BUZUD"
-        ],
+        "tags": ["BUZUD"],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "/images/products/buzud-8885020710588.png"
       },
@@ -649,9 +619,7 @@
         "title": "BUZUD Infrared Ear Thermometer BZD100",
         "desc": "体温计",
         "price": "SGD 87.00",
-        "tags": [
-          "BUZUD"
-        ],
+        "tags": ["BUZUD"],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "/images/products/buzud-8885020711677.png"
       },
@@ -664,9 +632,7 @@
         "title": "BUZUD Home Body Composition Scale CF509",
         "desc": "智能体重秤",
         "price": "SGD 37.00",
-        "tags": [
-          "BUZUD"
-        ],
+        "tags": ["BUZUD"],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "/images/products/buzud-8885020711448.png"
       }
@@ -786,12 +752,6 @@
       "description": "前往新加坡体验门店，享受健康检测、产品体验与一对一咨询。",
       "ctaLabel": "了解详情",
       "href": "/cn/zh/customer-service/contact-us/"
-    },
-    {
-      "title": "银联卡专享 88 折",
-      "description": "门店或线上使用银联卡支付享全店 12% 优惠，线上输入优惠码 unionvip。",
-      "ctaLabel": "立即选购",
-      "href": "/cn/zh/all-products/"
     }
   ],
   "socialIcons": [

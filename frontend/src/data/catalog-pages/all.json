@@ -426,5 +426,97 @@
         "fullId": "s8885020711547"
       }
     ]
+  },
+  {
+    "url": "/cn/zh/cat/insulin-pen-needles",
+    "id": "insulin-pen-needles",
+    "name": "胰岛素笔针",
+    "description": "用于配合兼容胰岛素注射笔的针头，提供更细、更短的注射体验。",
+    "total": 4,
+    "products": [
+      {
+        "id": "8885020711547",
+        "name": "BUZUD Pen Needles Plus Pro 32G 4mm",
+        "price": 26.0,
+        "image": "/images/products/buzud-8885020711547.png",
+        "productType": "注射针头",
+        "designText": "32G 4mm",
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-pen-needles-plus-pro-32g-4mm"
+      },
+      {
+        "id": "buzud-pen-needles-plus-pro-32g-6mm",
+        "name": "BUZUD 笔针 Plus Pro 32G 6mm",
+        "price": 26.0,
+        "image": "/images/products/buzud-pen-needles-plus-pro-32g-6mm.png",
+        "productType": "注射针头",
+        "designText": "32G 6mm",
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-pen-needles-plus-pro-32g-6mm"
+      },
+      {
+        "id": "buzud-safety-pen-needles-hs-pro-31g-5mm",
+        "name": "BUZUD 安全笔针 HS Pro 31G 5mm",
+        "price": 67.0,
+        "image": "/images/products/buzud-safety-pen-needles-hs-pro-31g-5mm.png",
+        "productType": "注射针头",
+        "designText": "31G 5mm",
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-safety-pen-needles-hs-pro-31g-5mm"
+      },
+      {
+        "id": "buzud-pen-needles-plus-pro-32g-5mm",
+        "name": "BUZUD 笔针 Plus Pro 32G 5mm",
+        "price": 26.0,
+        "image": "/images/products/buzud-pen-needles-plus-pro-32g-5mm.png",
+        "productType": "注射针头",
+        "designText": "32G 5mm",
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-pen-needles-plus-pro-32g-5mm"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "pub-text",
+        "title": "官方分类",
+        "texts": ["前往 BUZUD 官网查看胰岛素笔针分类及更多配件信息。"],
+        "images": [],
+        "links": [
+          {
+            "href": "https://www.buzud.com/en/shop/category/insulin-pen-needles",
+            "text": "胰岛素笔针"
+          }
+        ],
+        "columns": [],
+        "items": [],
+        "settings": null
+      }
+    ],
+    "productIds": [
+      {
+        "id": "8885020711547",
+        "type": "SPR",
+        "fullId": "s8885020711547"
+      },
+      {
+        "id": "buzud-pen-needles-plus-pro-32g-6mm",
+        "type": "SPR",
+        "fullId": "sbuzud-pen-needles-plus-pro-32g-6mm"
+      },
+      {
+        "id": "buzud-safety-pen-needles-hs-pro-31g-5mm",
+        "type": "SPR",
+        "fullId": "sbuzud-safety-pen-needles-hs-pro-31g-5mm"
+      },
+      {
+        "id": "buzud-pen-needles-plus-pro-32g-5mm",
+        "type": "SPR",
+        "fullId": "sbuzud-pen-needles-plus-pro-32g-5mm"
+      }
+    ]
   }
 ]

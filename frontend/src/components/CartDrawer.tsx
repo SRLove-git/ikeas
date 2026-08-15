@@ -1,80 +1,79 @@
-"use client";
+"use client"
 
-import { useCallback, useEffect, useState } from "react";
-import Link from "next/link";
-import { SiteImage } from "@/components/SiteImage";
-import { formatPrice } from "@/lib/catalog-format";
-import { apiJson, getToken, type Cart, type CartItem } from "@/lib/api";
+import { useCallback, useEffect, useState } from "react"
+import Link from "next/link"
+import { SiteImage } from "@/components/SiteImage"
+import { formatPrice } from "@/lib/catalog-format"
+import { apiJson, getToken, type Cart, type CartItem } from "@/lib/api"
 
 export function CartDrawer() {
-  const [open, setOpen] = useState(false);
-  const [items, setItems] = useState<CartItem[]>([]);
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState<string | null>(null);
-  const [updatingId, setUpdatingId] = useState<string | null>(null);
+  const [open, setOpen] = useState(false)
+  const [items, setItems] = useState<CartItem[]>([])
+  const [loading, setLoading] = useState(false)
+  const [error, setError] = useState<string | null>(null)
+  const [updatingId, setUpdatingId] = useState<string | null>(null)
 
   const loadCart = useCallback(async () => {
     if (!getToken()) {
-      setItems([]);
-      setLoading(false);
-      return;
+      setItems([])
+      setLoading(false)
+      return
     }
 
-    setLoading(true);
-    setError(null);
+    setLoading(true)
+    setError(null)
     try {
-      const cart = await apiJson<Cart>("/cart");
-      setItems(cart.items);
+      const cart = await apiJson<Cart>("/cart")
+      setItems(cart.items)
+      window.dispatchEvent(new CustomEvent("ikea:cart-changed", { detail: cart.totalQuantity }))
     } catch (ex) {
-      setError(ex instanceof Error ? ex.message : "加载购物袋失败");
+      setError(ex instanceof Error ? ex.message : "加载购物袋失败")
     } finally {
-      setLoading(false);
+      setLoading(false)
     }
-  }, []);
+  }, [])
 
   useEffect(() => {
     const handler = () => {
-      setOpen(true);
-      void loadCart();
-    };
-    window.addEventListener("ikea:open-cart", handler);
-    return () => window.removeEventListener("ikea:open-cart", handler);
-  }, [loadCart]);
+      setOpen(true)
+      void loadCart()
+    }
+    window.addEventListener("ikea:open-cart", handler)
+    return () => window.removeEventListener("ikea:open-cart", handler)
+  }, [loadCart])
 
   useEffect(() => {
-    document.body.style.overflow = open ? "hidden" : "";
+    document.body.style.overflow = open ? "hidden" : ""
     return () => {
-      document.body.style.overflow = "";
-    };
-  }, [open]);
+      document.body.style.overflow = ""
+    }
+  }, [open])
 
-  if (!open) return null;
+  if (!open) return null
 
   const changeQty = async (productId: string, delta: number) => {
-    const current = items.find((item) => item.productId === productId);
-    if (!current) return;
+    const current = items.find((item) => item.productId === productId)
+    if (!current) return
 
-    const next = Math.max(0, current.quantity + delta);
-    setUpdatingId(productId);
-    setError(null);
+    const next = Math.max(0, current.quantity + delta)
+    setUpdatingId(productId)
+    setError(null)
     try {
       const cart = await apiJson<Cart>(`/cart/items/${productId}`, {
         method: "PATCH",
         body: JSON.stringify({ quantity: next }),
-      });
-      setItems(cart.items);
+      })
+      setItems(cart.items)
+      window.dispatchEvent(new CustomEvent("ikea:cart-changed", { detail: cart.totalQuantity }))
     } catch (ex) {
-      setError(ex instanceof Error ? ex.message : "更新数量失败");
+      setError(ex instanceof Error ? ex.message : "更新数量失败")
     } finally {
-      setUpdatingId(null);
+      setUpdatingId(null)
     }
-  };
+  }
 
-  const subtotal = items.reduce(
-    (sum, item) => sum + (item.product.price ?? 0) * item.quantity,
-    0,
-  );
-  const totalQuantity = items.reduce((sum, item) => sum + item.quantity, 0);
+  const subtotal = items.reduce((sum, item) => sum + (item.product.price ?? 0) * item.quantity, 0)
+  const totalQuantity = items.reduce((sum, item) => sum + item.quantity, 0)
 
   return (
     <div className="fixed inset-0 z-[1200]" role="dialog" aria-modal="true">
@@ -107,60 +106,58 @@ export function CartDrawer() {
           ) : items.length === 0 ? (
             <p className="py-10 text-center text-sm text-ikea-muted">购物袋还是空的</p>
           ) : (
-          items.map(({ productId, product, quantity }) => (
-            <div key={productId} className="flex gap-4 border-b border-ikea-gray-100 py-4">
-              <Link
-                href={`/cn/zh/p/${product.slug}/`}
-                className="w-24 shrink-0"
-                onClick={() => setOpen(false)}
-              >
-                <SiteImage
-                  src={product.image}
-                  alt={product.name}
-                  className="aspect-square w-full bg-white p-2"
-                  imgClassName="h-full w-full object-contain object-center"
-                />
-              </Link>
-              <div className="flex flex-1 flex-col">
+            items.map(({ productId, product, quantity }) => (
+              <div key={productId} className="flex gap-4 border-b border-ikea-gray-100 py-4">
                 <Link
                   href={`/cn/zh/p/${product.slug}/`}
-                  className="text-sm font-bold leading-5 hover:underline"
+                  className="w-24 shrink-0"
                   onClick={() => setOpen(false)}
                 >
-                  {product.name}
+                  <SiteImage
+                    src={product.image}
+                    alt={product.name}
+                    className="aspect-square w-full bg-white p-2"
+                    imgClassName="h-full w-full object-contain object-center"
+                  />
                 </Link>
-                <p className="mt-0.5 text-xs text-ikea-muted">
-                  {product.productType || "商品"}
-                </p>
-                <div className="mt-auto flex items-center justify-between pt-2">
-                  <span className="flex items-center border border-ikea-gray-200 text-xs">
-                    <button
-                      type="button"
-                      className="px-2 py-1.5 disabled:cursor-not-allowed disabled:opacity-40"
-                      aria-label="减少"
-                      disabled={updatingId === productId}
-                      onClick={() => changeQty(productId, -1)}
-                    >
-                      −
-                    </button>
-                    <span className="w-8 text-center">{quantity}</span>
-                    <button
-                      type="button"
-                      className="px-2 py-1.5 disabled:cursor-not-allowed disabled:opacity-40"
-                      aria-label="增加"
-                      disabled={updatingId === productId}
-                      onClick={() => changeQty(productId, 1)}
-                    >
-                      +
-                    </button>
-                  </span>
-                  <span className="text-sm font-bold">
-                    {formatPrice((product.price ?? 0) * quantity)}
-                  </span>
+                <div className="flex flex-1 flex-col">
+                  <Link
+                    href={`/cn/zh/p/${product.slug}/`}
+                    className="text-sm font-bold leading-5 hover:underline"
+                    onClick={() => setOpen(false)}
+                  >
+                    {product.name}
+                  </Link>
+                  <p className="mt-0.5 text-xs text-ikea-muted">{product.productType || "商品"}</p>
+                  <div className="mt-auto flex items-center justify-between pt-2">
+                    <span className="flex items-center border border-ikea-gray-200 text-xs">
+                      <button
+                        type="button"
+                        className="px-2 py-1.5 disabled:cursor-not-allowed disabled:opacity-40"
+                        aria-label="减少"
+                        disabled={updatingId === productId}
+                        onClick={() => changeQty(productId, -1)}
+                      >
+                        −
+                      </button>
+                      <span className="w-8 text-center">{quantity}</span>
+                      <button
+                        type="button"
+                        className="px-2 py-1.5 disabled:cursor-not-allowed disabled:opacity-40"
+                        aria-label="增加"
+                        disabled={updatingId === productId}
+                        onClick={() => changeQty(productId, 1)}
+                      >
+                        +
+                      </button>
+                    </span>
+                    <span className="text-sm font-bold">
+                      {formatPrice((product.price ?? 0) * quantity)}
+                    </span>
+                  </div>
                 </div>
               </div>
-            </div>
-          ))
+            ))
           )}
         </div>
 
@@ -187,5 +184,5 @@ export function CartDrawer() {
         </div>
       </aside>
     </div>
-  );
+  )
 }

@@ -2,9 +2,9 @@ import Link from "next/link"
 import type { ReactNode } from "react"
 import { SiteLayout } from "@/components/SiteLayout"
 import { SiteImage } from "@/components/SiteImage"
+import { ArrowRightIcon } from "@/components/icons"
 import { formatPrice } from "@/lib/catalog"
 import { catalogPages } from "@/lib/catalog-pages"
-import { homepage } from "@/data/homepage"
 import {
   SEARCH_SORTS,
   paginateSearchResults,
@@ -71,19 +71,18 @@ function highlightMatch(text: string | null | undefined, query: string): ReactNo
 function SearchResultCard({ product, query }: { product: SearchProduct; query: string }) {
   const meta = [
     ...new Set([product.category, product.productType, product.designText].filter(Boolean)),
-  ].join(" · ")
+  ].join(" 路 ")
 
   return (
-    <Link
-      href={`/cn/zh/p/${product.slug}`}
-      className="group flex flex-col rounded-sm p-1 transition-colors hover:bg-ikea-gray-100"
-    >
-      <SiteImage
-        src={product.image}
-        alt={product.name}
-        className="aspect-square w-full bg-white transition-transform duration-300 group-hover:scale-105"
-        imgClassName="h-full w-full object-contain object-[50%_20%]"
-      />
+    <Link href={`/cn/zh/p/${product.slug}`} className="group flex flex-col">
+      <div className="aspect-square overflow-hidden bg-white">
+        <SiteImage
+          src={product.image}
+          alt={product.name}
+          className="h-full w-full p-4"
+          imgClassName="h-full w-full object-contain object-center transition-transform duration-300 group-hover:scale-105"
+        />
+      </div>
       <div className="flex flex-col pt-3">
         {product.labels.length > 0 ? (
           <div className="mb-1.5 flex flex-wrap gap-1">
@@ -107,7 +106,14 @@ function SearchResultCard({ product, query }: { product: SearchProduct; query: s
             {highlightMatch(meta, query)}
           </p>
         ) : null}
-        <p className="mt-1.5 text-sm text-ikea-black">{formatPrice(product.price)}</p>
+        <p className="mt-1.5 text-sm text-ikea-black">
+          {formatPrice(product.price)}
+          {product.originalPrice != null ? (
+            <span className="ml-2 text-xs text-ikea-muted line-through">
+              {formatPrice(product.originalPrice)}
+            </span>
+          ) : null}
+        </p>
       </div>
     </Link>
   )
@@ -133,7 +139,6 @@ export default async function SearchProductsPage({
   const categories = catalogPages().flatMap((page) =>
     page.id ? [{ id: page.id, name: page.name }] : [],
   )
-  const searchHints = homepage().searchHints
   const results = keyword
     ? searchProducts(keyword, {
         categorySlug: requestedCategory || undefined,
@@ -154,7 +159,7 @@ export default async function SearchProductsPage({
     <SiteLayout>
       <div className="font-ikea min-h-screen bg-white text-ikea-black">
         <div className="max-w-page mx-auto px-5 py-8 lg:px-10">
-          <nav className="mb-6 flex items-center gap-2 text-sm text-ikea-muted">
+          <nav className="mb-8 flex items-center gap-2 text-sm text-ikea-muted">
             <Link href="/" className="hover:text-ikea-black">
               首页
             </Link>
@@ -162,18 +167,55 @@ export default async function SearchProductsPage({
             <span className="text-ikea-black">搜索</span>
           </nav>
 
-          <h1 className="text-2xl font-bold leading-9 lg:text-3xl">
-            {keyword ? `搜索“${q}”` : "搜索商品"}
-          </h1>
+          <div className="flex flex-col gap-5 lg:flex-row lg:items-end lg:justify-between">
+            <div>
+              <h1 className="text-3xl font-bold leading-tight lg:text-4xl">
+                {keyword ? `“${q}”` : "搜索商品"}
+              </h1>
+              <p className="mt-2 text-sm text-ikea-muted">
+                {keyword
+                  ? activeCategory
+                    ? `在“${activeCategory.name}”分类下，共找到 ${pagination.total} 件商品`
+                    : `共找到 ${pagination.total} 件商品`
+                  : "输入关键词，搜索 BUZUD 商品"}
+              </p>
+            </div>
 
-          <form role="search" className="mt-6 flex max-w-2xl gap-3" action="/cn/zh/search/products">
+            {keyword && results.length > 0 ? (
+              <div className="flex flex-wrap items-center gap-2 text-sm">
+                <span className="mr-1 text-ikea-muted">排序：</span>
+                {SEARCH_SORTS.map((item) => (
+                  <Link
+                    key={item.value}
+                    href={buildSearchHref({
+                      q: keyword,
+                      category: requestedCategory,
+                      sort: item.value,
+                      page: 1,
+                    })}
+                    className={`i-pill i-pill--small ${
+                      sort === item.value ? "i-pill--active" : ""
+                    }`}
+                  >
+                    {item.label}
+                  </Link>
+                ))}
+              </div>
+            ) : null}
+          </div>
+
+          <form
+            role="search"
+            className="mt-8 flex items-center gap-4 border-b border-ikea-gray-200 pb-3"
+            action="/cn/zh/search/products"
+          >
             <input
               name="q"
               defaultValue={q}
               autoFocus={!keyword}
               aria-label="搜索商品"
               placeholder="搜索商品、系列或品类"
-              className="h-11 min-w-0 flex-1 border border-ikea-gray-200 px-4 text-sm outline-none transition-colors focus:border-ikea-blue"
+              className="h-12 min-w-0 flex-1 bg-transparent text-lg font-bold text-ikea-black outline-none placeholder:text-ikea-gray-200"
             />
             {requestedCategory ? (
               <input type="hidden" name="category" value={requestedCategory} />
@@ -181,15 +223,16 @@ export default async function SearchProductsPage({
             {sort !== "relevance" ? <input type="hidden" name="sort" value={sort} /> : null}
             <button
               type="submit"
-              className="i-btn i-btn--primary h-11 shrink-0 px-8 text-sm font-bold text-white"
+              aria-label="搜索"
+              className="flex h-12 shrink-0 items-center justify-center rounded-full border border-ikea-blue px-12 text-ikea-blue transition-colors hover:bg-ikea-gray-100"
             >
-              搜索
+              <ArrowRightIcon className="h-5 w-5" />
             </button>
           </form>
 
           {keyword && categories.length > 0 ? (
-            <div className="mt-8 flex flex-wrap items-center gap-2">
-              <span className="mr-1 text-sm text-ikea-muted">分类：</span>
+            <div className="mt-6 flex flex-wrap items-center gap-2">
+              <span className="mr-1 text-sm font-bold text-ikea-muted">分类：</span>
               <Link
                 href={buildSearchHref({ q: keyword, sort, page: 1 })}
                 className={`i-pill i-pill--small ${!requestedCategory ? "i-pill--active" : ""}`}
@@ -217,45 +260,17 @@ export default async function SearchProductsPage({
 
           {keyword ? (
             <>
-              <div className="mt-8 flex flex-wrap items-end justify-between gap-3">
-                <p className="text-sm text-ikea-muted">
-                  {activeCategory ? `在“${activeCategory.name}”分类下` : ""}
-                  共找到 {pagination.total} 件相关商品
-                </p>
-
-                {results.length > 0 ? (
-                  <div className="flex flex-wrap items-center gap-2 text-sm">
-                    <span className="text-ikea-muted">排序：</span>
-                    {SEARCH_SORTS.map((item) => (
-                      <Link
-                        key={item.value}
-                        href={buildSearchHref({
-                          q: keyword,
-                          category: requestedCategory,
-                          sort: item.value,
-                          page: 1,
-                        })}
-                        className={`i-pill i-pill--small ${
-                          sort === item.value ? "i-pill--active" : ""
-                        }`}
-                      >
-                        {item.label}
-                      </Link>
-                    ))}
-                  </div>
-                ) : null}
-              </div>
-
               {pagination.items.length > 0 ? (
-                <div className="mt-5 grid grid-cols-2 gap-x-4 gap-y-8 md:grid-cols-3 lg:grid-cols-4">
+                <div className="mt-10 grid grid-cols-2 gap-x-5 gap-y-10 md:grid-cols-3 lg:grid-cols-4 xl:gap-x-8">
                   {pagination.items.map((product) => (
                     <SearchResultCard key={product.id} product={product} query={keyword} />
                   ))}
                 </div>
               ) : (
-                <div className="mt-16 text-center">
-                  <p className="text-sm text-ikea-muted">
-                    没有找到与“{q}”相关的商品，试试其他关键词。
+                <div className="mx-auto mt-20 max-w-xl text-center">
+                  <p className="text-2xl font-bold">暂无相关内容</p>
+                  <p className="mt-3 text-sm text-ikea-muted">
+                    没有找到与“{q}”相关的商品，请尝试其他关键词。
                   </p>
                   {activeCategory ? (
                     <div className="mt-6">
@@ -267,26 +282,13 @@ export default async function SearchProductsPage({
                       </Link>
                     </div>
                   ) : null}
-                  {searchHints.length > 0 ? (
-                    <div className="mt-6 flex flex-wrap justify-center gap-2">
-                      {searchHints.map((suggestion) => (
-                        <Link
-                          key={suggestion}
-                          href={buildSearchHref({ q: suggestion, page: 1 })}
-                          className="i-pill i-pill--small"
-                        >
-                          {suggestion}
-                        </Link>
-                      ))}
-                    </div>
-                  ) : null}
                 </div>
               )}
 
               {pagination.totalPages > 1 ? (
                 <nav
                   aria-label="搜索结果分页"
-                  className="mt-12 flex flex-wrap items-center justify-center gap-2"
+                  className="mt-14 flex flex-wrap items-center justify-center gap-2"
                 >
                   {pagination.page > 1 ? (
                     <Link
@@ -332,21 +334,8 @@ export default async function SearchProductsPage({
               ) : null}
             </>
           ) : (
-            <div className="mt-16 text-center text-sm text-ikea-muted">
-              <p>输入关键词，搜索 BUZUD 商品</p>
-              {searchHints.length > 0 ? (
-                <div className="mt-6 flex flex-wrap justify-center gap-2">
-                  {searchHints.map((suggestion) => (
-                    <Link
-                      key={suggestion}
-                      href={buildSearchHref({ q: suggestion, page: 1 })}
-                      className="i-pill i-pill--small"
-                    >
-                      {suggestion}
-                    </Link>
-                  ))}
-                </div>
-              ) : null}
+            <div className="mt-20 text-center">
+              <p className="text-sm text-ikea-muted">输入关键词，搜索 BUZUD 商品</p>
             </div>
           )}
         </div>

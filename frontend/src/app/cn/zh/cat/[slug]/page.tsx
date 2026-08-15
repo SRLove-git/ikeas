@@ -7,6 +7,7 @@ import { SiteImage } from "@/components/SiteImage"
 import { catalogPages, findCatalogPageBySlug, productHref } from "@/lib/catalog-pages"
 import { productSlugsWithDetails } from "@/lib/catalog"
 import { formatPrice } from "@/lib/catalog-format"
+import { ContentBlocks } from "@/components/ContentBlocks"
 import { SiteLayout } from "@/components/SiteLayout"
 
 export const dynamicParams = false
@@ -46,6 +47,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
     const title = sub?.name ?? category.name
     const products = category.products
     const parentHref = `/cn/zh/cat/${category.slug}`
+    const landingPage = findCatalogPageBySlug(slug)
 
     return (
       <SiteLayout>
@@ -85,6 +87,16 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
                     {s.name}
                   </Link>
                 ))}
+              </div>
+            ) : null}
+
+            {landingPage?.description ? (
+              <p className="mt-5 text-sm leading-6 text-ikea-muted">{landingPage.description}</p>
+            ) : null}
+
+            {landingPage && landingPage.blocks.length > 0 ? (
+              <div className="mt-8">
+                <ContentBlocks blocks={landingPage.blocks} />
               </div>
             ) : null}
 

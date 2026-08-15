@@ -7,6 +7,7 @@ import { MegaMenu } from "@/components/MegaMenu"
 import { MenuPanel } from "@/components/MenuPanel"
 import { SearchPanel } from "@/components/SearchPanel"
 import { useAuth } from "@/lib/auth"
+import { apiJson, getToken, type Cart } from "@/lib/api"
 import type { MenuPanel as MenuPanelData } from "@/data/menu-panels"
 import type { Category } from "@/data/categories"
 
@@ -20,11 +21,11 @@ interface HeaderProps {
 export function Header({ menuItems, searchHints, menuPanels, categories }: HeaderProps) {
   const [openMenu, setOpenMenu] = useState<string | null>(null)
   const [openPanel, setOpenPanel] = useState<string | null>(null)
-  const [openAppPromo, setOpenAppPromo] = useState(false)
   const [hintIndex, setHintIndex] = useState(0)
   const [bar, setBar] = useState({ width: 0, left: 0, opacity: 0 })
   const [query, setQuery] = useState("")
   const [searchOpen, setSearchOpen] = useState(false)
+  const [cartCount, setCartCount] = useState(0)
   const { user } = useAuth()
 
   useEffect(() => {
@@ -34,6 +35,36 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
     }, 3000)
     return () => window.clearInterval(id)
   }, [searchHints.length])
+
+  useEffect(() => {
+    let cancelled = false
+
+    const refreshCartCount = async () => {
+      if (!getToken()) return
+      try {
+        const cart = await apiJson<Cart>("/cart")
+        if (!cancelled) setCartCount(cart.totalQuantity)
+      } catch {
+        if (!cancelled) setCartCount(0)
+      }
+    }
+
+    const handleCartChanged = (event: Event) => {
+      const detail = (event as CustomEvent<number>).detail
+      if (typeof detail === "number") {
+        setCartCount(detail)
+        return
+      }
+      void refreshCartCount()
+    }
+
+    void refreshCartCount()
+    window.addEventListener("ikea:cart-changed", handleCartChanged)
+    return () => {
+      cancelled = true
+      window.removeEventListener("ikea:cart-changed", handleCartChanged)
+    }
+  }, [])
 
   const moveActiveBar = (item: HTMLLIElement) => {
     const label = item.querySelector(".menu-label") ?? item
@@ -63,7 +94,8 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
   const submitSearch = (value: string) => {
     const q = value.trim()
     if (q) {
-      window.location.href = `/cn/zh/search/products?q=${encodeURIComponent(q)}`
+      window.location.assign(`/cn/zh/search/products?q=${encodeURIComponent(q)}`)
+      return
     }
     setSearchOpen(false)
   }
@@ -176,14 +208,18 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
                       </span>
                       <span className="i-tooltip i-tooltip--bottom">
                         <span className="i-tooltip__custom-trigger-wrapper">
-                          <button
-                            type="button"
-                            className="header-action-btn"
+                          <Link
+                            href="/cn/zh/pay/cart/"
+                            className="header-action-btn relative"
                             aria-label="购物袋"
-                            onClick={() => window.dispatchEvent(new CustomEvent("ikea:open-cart"))}
                           >
                             <CartIcon width={24} height={24} />
-                          </button>
+                            {cartCount > 0 ? (
+                              <span className="absolute -right-0.5 -top-0.5 flex h-4 min-w-4 items-center justify-center rounded-full bg-ikea-red px-1 text-[10px] font-bold text-white">
+                                {cartCount}
+                              </span>
+                            ) : null}
+                          </Link>
                           <div className="i-tooltip__body">购物袋</div>
                         </span>
                       </span>
@@ -223,39 +259,6 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
                       {item.label === "所有商品" ? <span className="new_feature_mark" /> : null}
                     </li>
                   ))}
-                  <li
-                    className="nav-header-message-app-promotion"
-                    onMouseEnter={() => setOpenAppPromo(true)}
-                    onMouseLeave={() => setOpenAppPromo(false)}
-                  >
-                    <div className="basic-content">
-                      <div className="basic-title">
-                        <span>热门推荐</span>
-                      </div>
-                      {openAppPromo ? (
-                        <div className="detail-info-container">
-                          <div className="detail-info">
-                            <div className="detail-info__close">
-                              <button type="button" aria-label="关闭">
-                                ×
-                              </button>
-                            </div>
-                            {/* eslint-disable-next-line @next/next/no-img-element */}
-                            <img
-                              className="bottom-image"
-                              src="/images/products/buzud-8885020712582.png"
-                              alt="BUZUD Vibrance 智能手表"
-                            />
-                            <div className="detail-desc">
-                              BUZUD Vibrance 智能手表
-                              <br />
-                              健康监测一手掌握
-                            </div>
-                          </div>
-                        </div>
-                      ) : null}
-                    </div>
-                  </li>
                 </ul>
               </div>
             </div>

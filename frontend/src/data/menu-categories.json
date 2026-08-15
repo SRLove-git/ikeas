@@ -149,6 +149,33 @@
           "image": "/images/products/buzud-8885020711547.png"
         }
       ]
+    },
+    {
+      "name": "胰岛素笔针",
+      "url": "/cn/zh/cat/insulin-pen-needles",
+      "image": "/images/products/buzud-pen-needles-plus-pro-32g-6mm.png",
+      "subs": [
+        {
+          "name": "32G 6mm",
+          "url": "/cn/zh/p/buzud-pen-needles-plus-pro-32g-6mm",
+          "image": "/images/products/buzud-pen-needles-plus-pro-32g-6mm.png"
+        },
+        {
+          "name": "安全款 31G 5mm",
+          "url": "/cn/zh/p/buzud-safety-pen-needles-hs-pro-31g-5mm",
+          "image": "/images/products/buzud-safety-pen-needles-hs-pro-31g-5mm.png"
+        },
+        {
+          "name": "32G 5mm",
+          "url": "/cn/zh/p/buzud-pen-needles-plus-pro-32g-5mm",
+          "image": "/images/products/buzud-pen-needles-plus-pro-32g-5mm.png"
+        },
+        {
+          "name": "32G 4mm",
+          "url": "/cn/zh/p/buzud-pen-needles-plus-pro-32g-4mm-8885020711547",
+          "image": "/images/products/buzud-8885020711547.png"
+        }
+      ]
     }
   ]
 }
