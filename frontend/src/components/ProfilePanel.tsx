@@ -95,15 +95,6 @@ export function ProfilePanel() {
     }
   }, [membershipDrawerOpen])
 
-  const openMembershipDrawer = () => {
-    setMembershipName(user?.name ?? "")
-    setMembershipPhone(user?.phone ?? "")
-    setMembershipEmail(user?.email ?? "")
-    setMembershipConsent(false)
-    setMembershipNotice(null)
-    setMembershipDrawerOpen(true)
-  }
-
   const submitMembership = () => {
     setMembershipNotice("会员申请已提交（演示环境）")
     setMembershipDrawerOpen(false)
@@ -149,26 +140,6 @@ export function ProfilePanel() {
                 </button>
               </div>
             </div>
-          </div>
-          <div className="flex w-full flex-col gap-6 bg-ikea-yellow p-6 transition-colors hover:bg-[#ffd900] md:w-auto md:max-w-xl md:flex-row md:items-center md:justify-between md:p-8">
-            <div>
-              <p className="text-xs font-bold uppercase tracking-[0.2em] text-ikea-black/70">
-                BUZUD 会员俱乐部
-              </p>
-              <h2 className="mt-2 text-2xl font-bold leading-9 lg:text-3xl">
-                加入 BUZUD 会员俱乐部
-              </h2>
-              <p className="mt-3 max-w-2xl text-sm leading-6 text-ikea-black/75">
-                我们想更懂你的健康需求，为你提供更适合的产品与优惠。现在加入会员，还可享受专属折扣和健康体验。
-              </p>
-            </div>
-            <button
-              type="button"
-              onClick={openMembershipDrawer}
-              className="i-btn h-11 shrink-0 bg-ikea-black px-7 text-sm font-bold text-white"
-            >
-              立即加入
-            </button>
           </div>
         </section>
 
