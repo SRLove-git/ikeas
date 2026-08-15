@@ -754,20 +754,7 @@
       "href": "/cn/zh/customer-service/contact-us/"
     }
   ],
-  "socialIcons": [
-    {
-      "name": "weChat",
-      "src": "/images/footer/weChat.svg"
-    },
-    {
-      "name": "sina",
-      "src": "/images/footer/sina.svg"
-    },
-    {
-      "name": "xiaohongshu",
-      "src": "/images/footer/xiaohongshu.svg"
-    }
-  ],
+  "socialIcons": [],
   "legalBar": {
     "edition": "© BUZUD PTE. LTD. All Rights Reserved.",
     "links": [
