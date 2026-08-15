@@ -1,7 +1,7 @@
-"use client";
+"use client"
 
-import { useEffect, useState } from "react";
-import { useParams, useRouter } from "next/navigation";
+import { useEffect, useState } from "react"
+import { useParams, useRouter } from "next/navigation"
 import {
   adminFetch,
   BackLink,
@@ -16,18 +16,19 @@ import {
   TextArea,
   TextInput,
   useNotice,
-} from "@/components/admin/admin-ui";
-import { BlockEditor, type ContentBlock } from "@/components/admin/BlockEditor";
-import { SchemaListForm, type Schema } from "@/components/admin/SchemaForms";
+} from "@/components/admin/admin-ui"
+import { BlockEditor, type ContentBlock } from "@/components/admin/BlockEditor"
+import { SchemaListForm, type Schema } from "@/components/admin/SchemaForms"
+import { formatPrice } from "@/lib/catalog-format"
 
 interface CatalogPageForm {
-  url: string;
-  name: string;
-  description: string | null;
-  total: number;
-  products: Record<string, unknown>[];
-  blocks: ContentBlock[];
-  productIds: string[];
+  url: string
+  name: string
+  description: string | null
+  total: number
+  products: Record<string, unknown>[]
+  blocks: ContentBlock[]
+  productIds: string[]
 }
 
 const PAGE_PRODUCT_SCHEMA: Schema = {
@@ -42,7 +43,7 @@ const PAGE_PRODUCT_SCHEMA: Schema = {
     { key: "url", label: "URL", kind: { type: "text" } },
     { key: "seoSlug", label: "SEO Slug", kind: { type: "text" } },
   ],
-};
+}
 
 function emptyForm(): CatalogPageForm {
   return {
@@ -53,78 +54,76 @@ function emptyForm(): CatalogPageForm {
     products: [],
     blocks: [],
     productIds: [],
-  };
+  }
 }
 
 export default function CatalogPageEditorPage() {
-  const params = useParams<{ slug: string }>();
-  const router = useRouter();
-  const isNew = params.slug === "new";
-  const { notice, show } = useNotice();
-  const [form, setForm] = useState<CatalogPageForm>(emptyForm());
-  const [loading, setLoading] = useState(!isNew);
-  const [saving, setSaving] = useState(false);
+  const params = useParams<{ slug: string }>()
+  const router = useRouter()
+  const isNew = params.slug === "new"
+  const { notice, show } = useNotice()
+  const [form, setForm] = useState<CatalogPageForm>(emptyForm())
+  const [loading, setLoading] = useState(!isNew)
+  const [saving, setSaving] = useState(false)
 
   useEffect(() => {
-    if (isNew) return;
+    if (isNew) return
     void (async () => {
       try {
-        const page = await adminFetch<CatalogPageForm>(
-          `/api/admin/catalog-pages/${params.slug}`,
-        );
-        setForm(page);
+        const page = await adminFetch<CatalogPageForm>(`/api/admin/catalog-pages/${params.slug}`)
+        setForm(page)
       } catch (e) {
-        show("error", (e as Error).message);
+        show("error", (e as Error).message)
       } finally {
-        setLoading(false);
+        setLoading(false)
       }
-    })();
-  }, [isNew, params.slug, show]);
+    })()
+  }, [isNew, params.slug, show])
 
   const update = (patch: Partial<CatalogPageForm>) => {
-    setForm((current) => ({ ...current, ...patch }));
-  };
+    setForm((current) => ({ ...current, ...patch }))
+  }
 
   const save = async () => {
-    setSaving(true);
+    setSaving(true)
     try {
       const payload = {
         ...form,
         total: form.products.length,
         productIds: form.products.map((p) => String(p.id)).filter(Boolean),
-      };
+      }
       if (isNew) {
         await adminFetch("/api/admin/catalog-pages", {
           method: "POST",
           body: JSON.stringify(payload),
-        });
-        show("success", "落地页创建成功");
-        router.replace("/admin/catalog-pages");
+        })
+        show("success", "落地页创建成功")
+        router.replace("/admin/catalog-pages")
       } else {
         await adminFetch(`/api/admin/catalog-pages/${params.slug}`, {
           method: "PUT",
           body: JSON.stringify(payload),
-        });
-        show("success", "落地页已保存");
+        })
+        show("success", "落地页已保存")
       }
     } catch (e) {
-      show("error", (e as Error).message);
+      show("error", (e as Error).message)
     } finally {
-      setSaving(false);
+      setSaving(false)
     }
-  };
+  }
 
   const remove = async () => {
     try {
-      await adminFetch(`/api/admin/catalog-pages/${params.slug}`, { method: "DELETE" });
-      show("success", "落地页已删除");
-      router.replace("/admin/catalog-pages");
+      await adminFetch(`/api/admin/catalog-pages/${params.slug}`, { method: "DELETE" })
+      show("success", "落地页已删除")
+      router.replace("/admin/catalog-pages")
     } catch (e) {
-      show("error", (e as Error).message);
+      show("error", (e as Error).message)
     }
-  };
+  }
 
-  if (loading) return <Loading />;
+  if (loading) return <Loading />
 
   return (
     <div className="max-w-5xl">
@@ -139,9 +138,7 @@ export default function CatalogPageEditorPage() {
                 <Button variant="secondary">前台预览 ↗</Button>
               </a>
             ) : null}
-            {!isNew ? (
-              <ConfirmButton onConfirm={remove}>删除落地页</ConfirmButton>
-            ) : null}
+            {!isNew ? <ConfirmButton onConfirm={remove}>删除落地页</ConfirmButton> : null}
             <Button onClick={save} disabled={saving}>
               {saving ? "保存中…" : "保存"}
             </Button>
@@ -153,16 +150,10 @@ export default function CatalogPageEditorPage() {
       <Card title="基本信息" className="mb-6">
         <div className="grid gap-4 sm:grid-cols-2">
           <Field label="URL *" className="sm:col-span-2">
-            <TextInput
-              value={form.url}
-              onChange={(e) => update({ url: e.target.value })}
-            />
+            <TextInput value={form.url} onChange={(e) => update({ url: e.target.value })} />
           </Field>
           <Field label="名称 *">
-            <TextInput
-              value={form.name}
-              onChange={(e) => update({ name: e.target.value })}
-            />
+            <TextInput value={form.name} onChange={(e) => update({ name: e.target.value })} />
           </Field>
           <Field label="商品总数（保存时自动计算）">
             <NumberInput value={form.total} disabled />
@@ -180,13 +171,15 @@ export default function CatalogPageEditorPage() {
       <Card title={`推荐商品（${form.products.length}）`} className="mb-6">
         <SchemaListForm
           value={form.products}
-          onChange={(products) =>
-            update({ products: products as Record<string, unknown>[] })
-          }
+          onChange={(products) => update({ products: products as Record<string, unknown>[] })}
           schema={PAGE_PRODUCT_SCHEMA}
           labelKey="name"
           titleFor={(item) =>
-            `${String(item.name ?? item.id ?? "未命名")}${item.price ? ` · SGD ${item.price}` : ""}`
+            `${String(item.name ?? item.id ?? "未命名")}${
+              item.price
+                ? ` · ${formatPrice(typeof item.price === "number" ? item.price : null)}`
+                : ""
+            }`
           }
           newItem={() => ({
             id: "",
@@ -203,11 +196,8 @@ export default function CatalogPageEditorPage() {
       </Card>
 
       <Card title="内容区块">
-        <BlockEditor
-          blocks={form.blocks}
-          onChange={(blocks) => update({ blocks })}
-        />
+        <BlockEditor blocks={form.blocks} onChange={(blocks) => update({ blocks })} />
       </Card>
     </div>
-  );
+  )
 }

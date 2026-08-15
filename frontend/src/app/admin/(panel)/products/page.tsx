@@ -1,7 +1,7 @@
-"use client";
+"use client"
 
-import { useEffect, useState } from "react";
-import Link from "next/link";
+import { useEffect, useState } from "react"
+import Link from "next/link"
 import {
   adminFetch,
   Button,
@@ -11,25 +11,26 @@ import {
   PageHeader,
   Pagination,
   SearchBox,
-} from "@/components/admin/admin-ui";
+} from "@/components/admin/admin-ui"
+import { formatPrice } from "@/lib/catalog-format"
 
 interface Product {
-  id: string;
-  slug: string;
-  name: string;
-  productType?: string | null;
-  designText?: string | null;
-  price: number | null;
-  originalPrice?: number | null;
-  image: string | null;
+  id: string
+  slug: string
+  name: string
+  productType?: string | null
+  designText?: string | null
+  price: number | null
+  originalPrice?: number | null
+  image: string | null
 }
 
 export default function ProductsPage() {
-  const [query, setQuery] = useState("");
-  const [page, setPage] = useState(1);
-  const [data, setData] = useState<{ items: Product[]; total: number } | null>(null);
-  const [error, setError] = useState<string | null>(null);
-  const pageSize = 50;
+  const [query, setQuery] = useState("")
+  const [page, setPage] = useState(1)
+  const [data, setData] = useState<{ items: Product[]; total: number } | null>(null)
+  const [error, setError] = useState<string | null>(null)
+  const pageSize = 50
 
   useEffect(() => {
     const timer = window.setTimeout(() => {
@@ -37,16 +38,16 @@ export default function ProductsPage() {
         try {
           const result = await adminFetch<{ items: Product[]; total: number }>(
             `/api/admin/products?q=${encodeURIComponent(query)}&page=${page}&pageSize=${pageSize}`,
-          );
-          setData(result);
-          setError(null);
+          )
+          setData(result)
+          setError(null)
         } catch (e) {
-          setError((e as Error).message);
+          setError((e as Error).message)
         }
-      })();
-    }, 250);
-    return () => window.clearTimeout(timer);
-  }, [query, page]);
+      })()
+    }, 250)
+    return () => window.clearTimeout(timer)
+  }, [query, page])
 
   return (
     <div>
@@ -61,7 +62,14 @@ export default function ProductsPage() {
       />
 
       <div className="mb-4 flex items-center gap-3">
-        <SearchBox value={query} onChange={(v) => { setPage(1); setQuery(v); }} placeholder="搜索名称 / ID / slug…" />
+        <SearchBox
+          value={query}
+          onChange={(v) => {
+            setPage(1)
+            setQuery(v)
+          }}
+          placeholder="搜索名称 / ID / slug…"
+        />
         <span className="text-xs text-ikea-muted">
           {data ? `共 ${data.total} 件商品` : "加载中…"}
         </span>
@@ -121,7 +129,7 @@ export default function ProductsPage() {
                     <td className="px-5 py-3 font-medium">
                       {product.price === null || product.price === undefined
                         ? "—"
-                        : `SGD ${product.price.toLocaleString("zh-CN")}`}
+                        : formatPrice(product.price)}
                     </td>
                     <td className="px-5 py-3 text-right">
                       <Link
@@ -140,5 +148,5 @@ export default function ProductsPage() {
         )}
       </div>
     </div>
-  );
+  )
 }
