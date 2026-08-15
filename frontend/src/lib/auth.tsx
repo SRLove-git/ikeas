@@ -1,63 +1,59 @@
-"use client";
+"use client"
 
-import {
-  createContext,
-  useCallback,
-  useContext,
-  useEffect,
-  useState,
-} from "react";
+import { createContext, useCallback, useContext, useEffect, useState } from "react"
 import {
   apiJson,
+  clearAuthTokens,
+  getRefreshToken,
   getToken,
-  setToken,
+  setAuthTokens,
   type AuthResponse,
   type User,
-} from "@/lib/api";
+} from "@/lib/api"
 
 export interface LoginInput {
-  mode: "sms" | "password";
-  phone?: string;
-  code?: string;
-  account?: string;
-  password?: string;
+  mode: "sms" | "password"
+  phone?: string
+  code?: string
+  account?: string
+  password?: string
 }
 
 interface AuthContextValue {
-  user: User | null;
-  ready: boolean;
-  login: (input: LoginInput) => Promise<User>;
-  logout: () => Promise<void>;
+  user: User | null
+  ready: boolean
+  login: (input: LoginInput) => Promise<User>
+  logout: () => Promise<void>
 }
 
-const AuthContext = createContext<AuthContextValue | null>(null);
+const AuthContext = createContext<AuthContextValue | null>(null)
 
 export function AuthProvider({ children }: { children: React.ReactNode }) {
-  const [user, setUser] = useState<User | null>(null);
-  const [ready, setReady] = useState(false);
+  const [user, setUser] = useState<User | null>(null)
+  const [ready, setReady] = useState(false)
 
   useEffect(() => {
-    let cancelled = false;
+    let cancelled = false
     const restore = async () => {
-      await Promise.resolve();
-      if (!getToken()) {
-        if (!cancelled) setReady(true);
-        return;
+      await Promise.resolve()
+      if (!getToken() && !getRefreshToken()) {
+        if (!cancelled) setReady(true)
+        return
       }
       try {
-        const me = await apiJson<User>("/auth/me");
-        if (!cancelled) setUser(me);
+        const me = await apiJson<User>("/auth/me")
+        if (!cancelled) setUser(me)
       } catch {
-        setToken(null);
+        clearAuthTokens()
       } finally {
-        if (!cancelled) setReady(true);
+        if (!cancelled) setReady(true)
       }
-    };
-    void restore();
+    }
+    void restore()
     return () => {
-      cancelled = true;
-    };
-  }, []);
+      cancelled = true
+    }
+  }, [])
 
   const login = useCallback(async (input: LoginInput) => {
     const response: AuthResponse =
@@ -72,33 +68,32 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
               account: input.account,
               password: input.password,
             }),
-          });
-    setToken(response.token);
-    setUser(response.user);
-    return response.user;
-  }, []);
+          })
+    setAuthTokens(response.token, response.refreshToken ?? null)
+    setUser(response.user)
+    return response.user
+  }, [])
 
   const logout = useCallback(async () => {
     try {
-      await apiJson("/auth/logout", { method: "POST" });
+      await apiJson("/auth/logout", { method: "POST" })
     } catch {
       // Token already invalid or backend unreachable: clear locally anyway.
+    } finally {
+      clearAuthTokens()
+      setUser(null)
     }
-    setToken(null);
-    setUser(null);
-  }, []);
+  }, [])
 
   return (
-    <AuthContext.Provider value={{ user, ready, login, logout }}>
-      {children}
-    </AuthContext.Provider>
-  );
+    <AuthContext.Provider value={{ user, ready, login, logout }}>{children}</AuthContext.Provider>
+  )
 }
 
 export function useAuth(): AuthContextValue {
-  const context = useContext(AuthContext);
+  const context = useContext(AuthContext)
   if (!context) {
-    throw new Error("useAuth must be used within an AuthProvider");
+    throw new Error("useAuth must be used within an AuthProvider")
   }
-  return context;
+  return context
 }
