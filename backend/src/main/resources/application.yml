@@ -52,6 +52,9 @@ ikea:
   admin:
     # Shared key for /api/v1/admin/** endpoints, sent as X-Admin-Key (IKEA_ADMIN_KEY).
     key: ${IKEA_ADMIN_KEY:ikea-admin}
+  order:
+    # Default delivery fee in SGD when the client does not pass one.
+    default-delivery-fee: ${IKEA_DEFAULT_DELIVERY_FEE:9.9}
   chat-knowledge:
     # Optional external chat knowledge JSON (IKEA_CHAT_KNOWLEDGE_FILE), reloaded on change.
     file: ${IKEA_CHAT_KNOWLEDGE_FILE:}
