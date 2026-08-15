@@ -397,13 +397,13 @@
    and sits under the menu layer (z-index 1000), dimming only the remaining
    page content while a navigation menu is open. */
 .nav-header-mega-mask {
-  position: fixed;
+  position: absolute;
   top: 133.5px;
-  right: 0;
-  bottom: 0;
   left: 0;
+  right: 0;
   z-index: 999;
-  width: 100vw;
+  width: 100%;
+  height: calc(100vh - 133.5px);
   padding: 0;
   border: 0;
   background: rgba(17, 17, 17, 0.4);

@@ -55,7 +55,7 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
   }
 
   return (
-    <div className="i-layout__header">
+    <div className="i-layout__header i-layout__header--sticky">
       <div className="nav-header">
         <div className="nav-header_container">
           <div className="move-hover">
