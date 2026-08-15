@@ -1,64 +1,54 @@
-"use client";
+"use client"
 
-import Link from "next/link";
-import { useEffect, useState } from "react";
-import {
-  CartIcon,
-  HeartIcon,
-  SearchIcon,
-  UserIcon,
-} from "@/components/icons";
-import { MegaMenu } from "@/components/MegaMenu";
-import { MenuPanel } from "@/components/MenuPanel";
-import { useAuth } from "@/lib/auth";
-import type { MenuPanel as MenuPanelData } from "@/data/menu-panels";
-import type { Category } from "@/data/categories";
+import Link from "next/link"
+import { useEffect, useState } from "react"
+import { CartIcon, HeartIcon, SearchIcon, UserIcon } from "@/components/icons"
+import { MegaMenu } from "@/components/MegaMenu"
+import { MenuPanel } from "@/components/MenuPanel"
+import { useAuth } from "@/lib/auth"
+import type { MenuPanel as MenuPanelData } from "@/data/menu-panels"
+import type { Category } from "@/data/categories"
 
 interface HeaderProps {
-  menuItems: { label: string; href: string; hasMegaMenu?: boolean }[];
-  searchHints: string[];
-  menuPanels: MenuPanelData[];
-  categories: Category[];
+  menuItems: { label: string; href: string; hasMegaMenu?: boolean }[]
+  searchHints: string[]
+  menuPanels: MenuPanelData[]
+  categories: Category[]
 }
 
-export function Header({
-  menuItems,
-  searchHints,
-  menuPanels,
-  categories,
-}: HeaderProps) {
-  const [openMenu, setOpenMenu] = useState<string | null>(null);
-  const [openPanel, setOpenPanel] = useState<string | null>(null);
-  const [openAppPromo, setOpenAppPromo] = useState(false);
-  const [hintIndex, setHintIndex] = useState(0);
-  const [bar, setBar] = useState({ width: 0, left: 0, opacity: 0 });
-  const [query, setQuery] = useState("");
-  const { user } = useAuth();
+export function Header({ menuItems, searchHints, menuPanels, categories }: HeaderProps) {
+  const [openMenu, setOpenMenu] = useState<string | null>(null)
+  const [openPanel, setOpenPanel] = useState<string | null>(null)
+  const [openAppPromo, setOpenAppPromo] = useState(false)
+  const [hintIndex, setHintIndex] = useState(0)
+  const [bar, setBar] = useState({ width: 0, left: 0, opacity: 0 })
+  const [query, setQuery] = useState("")
+  const { user } = useAuth()
 
   useEffect(() => {
-    if (searchHints.length < 2) return;
+    if (searchHints.length < 2) return
     const id = window.setInterval(() => {
-      setHintIndex((current) => (current + 1) % searchHints.length);
-    }, 3000);
-    return () => window.clearInterval(id);
-  }, [searchHints.length]);
+      setHintIndex((current) => (current + 1) % searchHints.length)
+    }, 3000)
+    return () => window.clearInterval(id)
+  }, [searchHints.length])
 
   const moveActiveBar = (item: HTMLLIElement) => {
-    const label = item.querySelector(".menu-label") ?? item;
-    const rect = label.getBoundingClientRect();
-    const top = document.querySelector(".header_container_top");
-    if (!top) return;
-    const topRect = top.getBoundingClientRect();
+    const label = item.querySelector(".menu-label") ?? item
+    const rect = label.getBoundingClientRect()
+    const top = document.querySelector(".header_container_top")
+    if (!top) return
+    const topRect = top.getBoundingClientRect()
     setBar({
       width: rect.width,
       left: rect.left - topRect.left,
       opacity: 1,
-    });
-  };
+    })
+  }
 
-  const hideActiveBar = () => setBar((prev) => ({ ...prev, opacity: 0 }));
+  const hideActiveBar = () => setBar((prev) => ({ ...prev, opacity: 0 }))
 
-  const activePanel = menuPanels.find((panel) => panel.label === openPanel);
+  const activePanel = menuPanels.find((panel) => panel.label === openPanel)
 
   return (
     <div className="i-layout__header">
@@ -87,10 +77,10 @@ export function Header({
                       className="s-header"
                       role="search"
                       onSubmit={(event) => {
-                        event.preventDefault();
-                        const q = query.trim();
+                        event.preventDefault()
+                        const q = query.trim()
                         if (q) {
-                          window.location.href = `/cn/zh/search/products?q=${encodeURIComponent(q)}`;
+                          window.location.href = `/cn/zh/search/products?q=${encodeURIComponent(q)}`
                         }
                       }}
                     >
@@ -158,38 +148,34 @@ export function Header({
                       </span>
                       <span className="i-tooltip i-tooltip--bottom">
                         <span className="i-tooltip__custom-trigger-wrapper">
-                          <div className="header-action-btn">
+                          <Link
+                            href={user ? "/cn/zh/profile/collection/" : "/cn/zh/profile/login/"}
+                            className="header-action-btn"
+                          >
                             <HeartIcon width={24} height={24} />
-                          </div>
+                          </Link>
                           <div className="i-tooltip__body">我的收藏</div>
                         </span>
                       </span>
-                          <span className="i-tooltip i-tooltip--bottom">
-                            <span className="i-tooltip__custom-trigger-wrapper">
-                              <button
-                                type="button"
-                                className="header-action-btn"
-                                aria-label="购物袋"
-                                onClick={() =>
-                                  window.dispatchEvent(
-                                    new CustomEvent("ikea:open-cart"),
-                                  )
-                                }
-                              >
-                                <CartIcon width={24} height={24} />
-                              </button>
-                              <div className="i-tooltip__body">购物袋</div>
-                            </span>
-                          </span>
+                      <span className="i-tooltip i-tooltip--bottom">
+                        <span className="i-tooltip__custom-trigger-wrapper">
+                          <button
+                            type="button"
+                            className="header-action-btn"
+                            aria-label="购物袋"
+                            onClick={() => window.dispatchEvent(new CustomEvent("ikea:open-cart"))}
+                          >
+                            <CartIcon width={24} height={24} />
+                          </button>
+                          <div className="i-tooltip__body">购物袋</div>
+                        </span>
+                      </span>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="header_container_menu_content">
-                <ul
-                  className="header_container_center_ul"
-                  onMouseLeave={hideActiveBar}
-                >
+                <ul className="header_container_center_ul" onMouseLeave={hideActiveBar}>
                   <span
                     className="active-bar"
                     style={{
@@ -202,18 +188,21 @@ export function Header({
                     <li
                       key={item.label}
                       onMouseEnter={(event) => {
-                        const panel = menuPanels.find((p) => p.label === item.label);
-                        setOpenMenu(item.hasMegaMenu ? item.label : null);
-                        setOpenPanel(panel ? panel.label : null);
-                        moveActiveBar(event.currentTarget);
+                        const panel = menuPanels.find((p) => p.label === item.label)
+                        setOpenMenu(item.hasMegaMenu ? item.label : null)
+                        setOpenPanel(panel ? panel.label : null)
+                        moveActiveBar(event.currentTarget)
                       }}
                     >
-                      <a href={menuPanels.find((p) => p.label === item.label)?.href ?? item.href ?? "#"} className="menu-label">
+                      <a
+                        href={
+                          menuPanels.find((p) => p.label === item.label)?.href ?? item.href ?? "#"
+                        }
+                        className="menu-label"
+                      >
                         {item.label}
                       </a>
-                      {item.label === "所有商品" ? (
-                        <span className="new_feature_mark" />
-                      ) : null}
+                      {item.label === "所有商品" ? <span className="new_feature_mark" /> : null}
                     </li>
                   ))}
                   <li
@@ -254,23 +243,17 @@ export function Header({
             </div>
           </div>
           {openMenu ? (
-            <div
-              className="mega-menu-layer"
-              onMouseLeave={() => setOpenMenu(null)}
-            >
+            <div className="mega-menu-layer" onMouseLeave={() => setOpenMenu(null)}>
               <MegaMenu categories={categories} />
             </div>
           ) : null}
           {activePanel ? (
-            <div
-              className="mega-menu-layer"
-              onMouseLeave={() => setOpenPanel(null)}
-            >
+            <div className="mega-menu-layer" onMouseLeave={() => setOpenPanel(null)}>
               <MenuPanel panel={activePanel} />
             </div>
           ) : null}
         </div>
       </div>
     </div>
-  );
+  )
 }

@@ -47,7 +47,7 @@ export function ProfilePanel() {
         <div className="mt-10 grid gap-4 md:grid-cols-3">
           {[
             ["我的订单", "查看历史订单", "/cn/zh/profile/my-orders/"],
-            ["我的收藏", "喜欢的商品", "/cn/zh/wishlist/"],
+            ["我的收藏", "喜欢的商品", "/cn/zh/profile/collection/"],
             [
               "BUZUD 会员权益",
               "尊享优惠与健康体验",
