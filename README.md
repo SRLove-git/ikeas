@@ -27,7 +27,6 @@ frontend/
 backend/src/main/resources/data/  # 后端数据副本（由导出脚本同步）
 deploy/                           # Docker 与 docker-compose 配置
 scripts/
-  import-buzud-products.py  # 从零售价 PDF 导入商品
   update-buzud-menu.py      # 生成 BUZUD 导航菜单
   export-server-data.mjs    # 前端数据 -> 后端数据
 docs/项目规范.md              # 项目开发与内容规范（必读）
@@ -78,12 +77,11 @@ node scripts/export-server-data.mjs
 # 重启后端服务使其生效
 ```
 
-## 商品导入
+## 商品目录变更
 
-更新商品目录时执行：
+商品目录变更后重新生成菜单并同步后端：
 
 ```bash
-python3 scripts/import-buzud-products.py    # 从 PDF 导入商品与图片
 python3 scripts/update-buzud-menu.py        # 重新生成导航菜单
 node scripts/export-server-data.mjs         # 同步后端
 ```
