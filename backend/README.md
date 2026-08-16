@@ -64,7 +64,8 @@ First-time SMS logins auto-register the phone number.
 
 ## Data
 
-All data lives in `src/main/resources/data/` and is bundled into the jar:
+Static content is bundled in `src/main/resources/data/` and used as the initial
+seed for PostgreSQL:
 
 - `catalog.json` — catalog + channel categories with products
 - `products/products-part-*.json` — product detail pages
@@ -73,12 +74,19 @@ All data lives in `src/main/resources/data/` and is bundled into the jar:
 - `legacy-pages.json` — legacy content pages that fill lookup gaps
 - `homepage.json`, `menu-panels.json`, `menu-categories.json` — homepage & header data
 
-After re-running the crawl scripts in the frontend (`scripts/crawl-*.mjs`),
-regenerate the backend copy with:
+After re-running the frontend data export, regenerate the backend copy with:
 
 ```bash
 node scripts/export-server-data.mjs
 ```
+
+On first startup, Flyway creates the current schema (including `product`,
+`catalog_category`, `menu_category`, `menu_panel`, `catalog_page`,
+`content_page`, `homepage`, `cart_item`, and `chat_message`) and the
+application seeds these content tables from the bundled JSON files. After that,
+the REST API reads content from PostgreSQL via MyBatis-Plus. Shopping bag and
+customer-service chat history are also persisted in PostgreSQL instead of
+in-memory storage.
 
 Lookup semantics (category slug matching, product slug/id precedence, page URL
 normalization) intentionally mirror `src/lib/*.ts` in the Next.js app.

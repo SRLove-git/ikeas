@@ -12,7 +12,7 @@
 
 - 前端：Next.js 16（App Router、React 19、TypeScript strict、Tailwind CSS v4、shadcn/ui），位于 `frontend/`
 - 后端：Java 21 + Spring Boot 3.5（`backend/`，端口 8080）
-- 数据：JSON 文件（无数据库），前端 `frontend/src/data/` 为唯一编辑入口，后端为同步副本
+- 数据：前端内容管理仍以 `frontend/src/data/` 为唯一编辑入口；后端业务数据（用户、购物袋、收藏、订单、客服聊天）和静态内容快照（商品、分类、菜单、页面、首页）已迁移到 PostgreSQL 16，由 MyBatis-Plus + Flyway 管理
 
 ## 目录结构
 
@@ -55,7 +55,7 @@ cd backend && ./mvnw spring-boot:run  # http://localhost:8080
 docker compose -f deploy/docker-compose.yml up -d db   # PostgreSQL 16，端口 5432
 ```
 
-默认连接参数（可用环境变量覆盖）：`DB_HOST=localhost`、`DB_PORT=5432`、`DB_NAME=buzud`、`DB_USER=buzud`、`DB_PASSWORD=buzud`。后端启动时 Flyway 自动执行 `backend/src/main/resources/db/migration/` 下的迁移脚本。
+默认连接参数（可用环境变量覆盖）：`DB_HOST=localhost`、`DB_PORT=5432`、`DB_NAME=buzud`、`DB_USER=buzud`、`DB_PASSWORD=buzud`。后端启动时 Flyway 自动执行 `backend/src/main/resources/db/migration/` 下的迁移脚本，并将 `backend/src/main/resources/data/` 中的静态内容作为首次种子写入数据库。
 
 ## 常用命令
 

@@ -5,6 +5,21 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
+import com.baomidou.mybatisplus.core.toolkit.Wrappers;
+import com.ikea.server.entity.CatalogCategoryEntity;
+import com.ikea.server.entity.CatalogPageEntity;
+import com.ikea.server.entity.ContentPageEntity;
+import com.ikea.server.entity.HomepageEntity;
+import com.ikea.server.entity.MenuCategoryEntity;
+import com.ikea.server.entity.MenuPanelEntity;
+import com.ikea.server.entity.ProductEntity;
+import com.ikea.server.mapper.CatalogCategoryEntityMapper;
+import com.ikea.server.mapper.CatalogPageEntityMapper;
+import com.ikea.server.mapper.ContentPageEntityMapper;
+import com.ikea.server.mapper.HomepageEntityMapper;
+import com.ikea.server.mapper.MenuCategoryEntityMapper;
+import com.ikea.server.mapper.MenuPanelEntityMapper;
+import com.ikea.server.mapper.ProductEntityMapper;
 import com.ikea.server.model.CatalogCategory;
 import com.ikea.server.model.CatalogPage;
 import com.ikea.server.model.CategoryMatch;
@@ -31,11 +46,13 @@ import org.springframework.core.io.Resource;
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 import org.springframework.core.io.support.ResourcePatternResolver;
 import org.springframework.stereotype.Component;
+import org.springframework.transaction.PlatformTransactionManager;
+import org.springframework.transaction.support.TransactionTemplate;
 
 /**
- * Loads every crawled JSON payload bundled in classpath:data/ at startup and
- * builds the same lookups the Next.js frontend uses (see src/lib/*.ts), so the
- * REST API exposes identical semantics.
+ * Reads static content from PostgreSQL after an idempotent first-start seed
+ * from classpath:data/, then builds the same lookups the Next.js frontend uses
+ * (see src/lib/*.ts), so the REST API exposes identical semantics.
  */
 @Component
 public class DataStore {
@@ -44,6 +61,14 @@ public class DataStore {
 
   private final ObjectMapper mapper;
   private final ResourcePatternResolver resolver = new PathMatchingResourcePatternResolver();
+  private final TransactionTemplate transactionTemplate;
+  private final ProductEntityMapper productEntityMapper;
+  private final CatalogCategoryEntityMapper catalogCategoryEntityMapper;
+  private final MenuCategoryEntityMapper menuCategoryEntityMapper;
+  private final MenuPanelEntityMapper menuPanelEntityMapper;
+  private final CatalogPageEntityMapper catalogPageEntityMapper;
+  private final ContentPageEntityMapper contentPageEntityMapper;
+  private final HomepageEntityMapper homepageEntityMapper;
 
   private final List<CatalogCategory> catalogCategories;
   private final List<CatalogCategory> channelCategories;
@@ -74,21 +99,49 @@ public class DataStore {
 
   private record LegacyPages(List<LegacyPage> contentPages) {}
 
-  public DataStore(ObjectMapper mapper) throws IOException {
-    this.mapper = mapper;
+  private record SeedData(
+      List<CatalogCategory> catalogCategories,
+      List<CatalogCategory> channelCategories,
+      List<MenuCategory> menuCategories,
+      List<MenuPanel> menuPanels,
+      JsonNode homepage,
+      List<CatalogPage> catalogPages,
+      List<ContentPage> contentPages,
+      List<Product> products) {}
 
-    CatalogData catalog = read(DATA + "catalog.json", CatalogData.class);
-    this.catalogCategories = List.copyOf(catalog.catalogCategories());
-    this.channelCategories = List.copyOf(catalog.channelCategories());
-    this.menuCategories =
-        List.copyOf(read(DATA + "menu-categories.json", MenuCategories.class).categories());
-    this.menuPanels =
-        List.copyOf(read(DATA + "menu-panels.json", MenuPanels.class).menuPanels());
-    this.homepage = read(DATA + "homepage.json", JsonNode.class);
-    this.catalogPages =
-        List.copyOf(read(DATA + "catalog-pages.json", new TypeReference<List<CatalogPage>>() {}));
+  public DataStore(
+      ObjectMapper mapper,
+      PlatformTransactionManager transactionManager,
+      ProductEntityMapper productEntityMapper,
+      CatalogCategoryEntityMapper catalogCategoryEntityMapper,
+      MenuCategoryEntityMapper menuCategoryEntityMapper,
+      MenuPanelEntityMapper menuPanelEntityMapper,
+      CatalogPageEntityMapper catalogPageEntityMapper,
+      ContentPageEntityMapper contentPageEntityMapper,
+      HomepageEntityMapper homepageEntityMapper)
+      throws IOException {
+    this.mapper = mapper;
+    this.transactionTemplate = new TransactionTemplate(transactionManager);
+    this.productEntityMapper = productEntityMapper;
+    this.catalogCategoryEntityMapper = catalogCategoryEntityMapper;
+    this.menuCategoryEntityMapper = menuCategoryEntityMapper;
+    this.menuPanelEntityMapper = menuPanelEntityMapper;
+    this.catalogPageEntityMapper = catalogPageEntityMapper;
+    this.contentPageEntityMapper = contentPageEntityMapper;
+    this.homepageEntityMapper = homepageEntityMapper;
+
+    SeedData seed = readSeedData();
+    transactionTemplate.executeWithoutResult(status -> seedDatabase(seed));
+
+    CatalogData catalog = loadCatalogCategories();
+    this.catalogCategories = catalog.catalogCategories();
+    this.channelCategories = catalog.channelCategories();
+    this.menuCategories = loadMenuCategories();
+    this.menuPanels = loadMenuPanels();
+    this.homepage = loadHomepage();
+    this.catalogPages = loadCatalogPages();
     this.allProducts = loadProducts();
-    this.contentPages = mergeContentPages();
+    this.contentPages = loadContentPages();
     buildIndexes();
   }
 
@@ -225,12 +278,200 @@ public class DataStore {
 
   // ------------------------------------------------------------ loading
 
-  private List<Product> loadProducts() throws IOException {
+  private SeedData readSeedData() throws IOException {
+    CatalogData catalog = read(DATA + "catalog.json", CatalogData.class);
+    return new SeedData(
+        List.copyOf(catalog.catalogCategories()),
+        List.copyOf(catalog.channelCategories()),
+        List.copyOf(read(DATA + "menu-categories.json", MenuCategories.class).categories()),
+        List.copyOf(read(DATA + "menu-panels.json", MenuPanels.class).menuPanels()),
+        read(DATA + "homepage.json", JsonNode.class),
+        List.copyOf(read(DATA + "catalog-pages.json", new TypeReference<List<CatalogPage>>() {})),
+        mergeContentPages(),
+        loadProductsFromJson());
+  }
+
+  private void seedDatabase(SeedData seed) {
+    if (productEntityMapper.selectCount(null) == 0) {
+      for (Product product : seed.products()) {
+        if (product.id() == null || product.slug() == null) {
+          continue;
+        }
+        ProductEntity entity = new ProductEntity();
+        entity.setProductId(product.id());
+        entity.setSlug(product.slug());
+        entity.setPayload(writeValue(product));
+        productEntityMapper.insert(entity);
+      }
+    }
+
+    if (catalogCategoryEntityMapper.selectCount(null) == 0) {
+      seedCatalogCategories(seed.catalogCategories(), "catalog");
+      seedCatalogCategories(seed.channelCategories(), "channel");
+    }
+
+    if (menuCategoryEntityMapper.selectCount(null) == 0) {
+      for (MenuCategory category : seed.menuCategories()) {
+        MenuCategoryEntity entity = new MenuCategoryEntity();
+        entity.setName(category.name());
+        entity.setUrl(category.url());
+        entity.setPayload(writeValue(category));
+        menuCategoryEntityMapper.insert(entity);
+      }
+    }
+
+    if (menuPanelEntityMapper.selectCount(null) == 0) {
+      for (MenuPanel panel : seed.menuPanels()) {
+        MenuPanelEntity entity = new MenuPanelEntity();
+        entity.setLabel(panel.label());
+        entity.setHref(panel.href());
+        entity.setPayload(writeValue(panel));
+        menuPanelEntityMapper.insert(entity);
+      }
+    }
+
+    if (catalogPageEntityMapper.selectCount(null) == 0) {
+      for (CatalogPage page : seed.catalogPages()) {
+        CatalogPageEntity entity = new CatalogPageEntity();
+        entity.setUrl(page.url());
+        String slug = slugFromUrl(page.url());
+        entity.setSlug(slug == null ? (page.id() == null ? page.url() : page.id()) : slug);
+        entity.setPayload(writeValue(page));
+        catalogPageEntityMapper.insert(entity);
+      }
+    }
+
+    if (contentPageEntityMapper.selectCount(null) == 0) {
+      for (ContentPage page : seed.contentPages()) {
+        ContentPageEntity entity = new ContentPageEntity();
+        entity.setUrl(page.url());
+        entity.setFamily(page.family() == null ? "root" : page.family());
+        entity.setPayload(writeValue(page));
+        contentPageEntityMapper.insert(entity);
+      }
+    }
+
+    if (homepageEntityMapper.selectCount(null) == 0) {
+      HomepageEntity entity = new HomepageEntity();
+      entity.setSingletonKey(1);
+      entity.setPayload(writeValue(seed.homepage()));
+      homepageEntityMapper.insert(entity);
+    }
+  }
+
+  private void seedCatalogCategories(List<CatalogCategory> categories, String kind) {
+    for (CatalogCategory category : categories) {
+      if (category.slug() == null) {
+        continue;
+      }
+      CatalogCategoryEntity entity = new CatalogCategoryEntity();
+      entity.setSlug(category.slug());
+      entity.setKind(kind);
+      entity.setPayload(writeValue(category));
+      catalogCategoryEntityMapper.insert(entity);
+    }
+  }
+
+  private CatalogData loadCatalogCategories() {
+    List<CatalogCategoryEntity> entities =
+        catalogCategoryEntityMapper.selectList(
+            Wrappers.lambdaQuery(CatalogCategoryEntity.class)
+                .orderByAsc(CatalogCategoryEntity::getCreatedAt)
+                .orderByAsc(CatalogCategoryEntity::getId));
+    List<CatalogCategory> catalogCategories = new ArrayList<>();
+    List<CatalogCategory> channelCategories = new ArrayList<>();
+    for (CatalogCategoryEntity entity : entities) {
+      CatalogCategory category = readValue(entity.getPayload(), CatalogCategory.class);
+      if ("channel".equals(entity.getKind())) {
+        channelCategories.add(category);
+      } else {
+        catalogCategories.add(category);
+      }
+    }
+    return new CatalogData(List.copyOf(catalogCategories), List.copyOf(channelCategories));
+  }
+
+  private List<MenuCategory> loadMenuCategories() {
+    return menuCategoryEntityMapper.selectList(
+            Wrappers.lambdaQuery(MenuCategoryEntity.class)
+                .orderByAsc(MenuCategoryEntity::getCreatedAt)
+                .orderByAsc(MenuCategoryEntity::getId))
+        .stream()
+        .map(entity -> readValue(entity.getPayload(), MenuCategory.class))
+        .toList();
+  }
+
+  private List<MenuPanel> loadMenuPanels() {
+    return menuPanelEntityMapper.selectList(
+            Wrappers.lambdaQuery(MenuPanelEntity.class)
+                .orderByAsc(MenuPanelEntity::getCreatedAt)
+                .orderByAsc(MenuPanelEntity::getId))
+        .stream()
+        .map(entity -> readValue(entity.getPayload(), MenuPanel.class))
+        .toList();
+  }
+
+  private List<CatalogPage> loadCatalogPages() {
+    return catalogPageEntityMapper.selectList(
+            Wrappers.lambdaQuery(CatalogPageEntity.class)
+                .orderByAsc(CatalogPageEntity::getCreatedAt)
+                .orderByAsc(CatalogPageEntity::getId))
+        .stream()
+        .map(entity -> readValue(entity.getPayload(), CatalogPage.class))
+        .toList();
+  }
+
+  private List<ContentPage> loadContentPages() {
+    return contentPageEntityMapper.selectList(
+            Wrappers.lambdaQuery(ContentPageEntity.class)
+                .orderByAsc(ContentPageEntity::getCreatedAt)
+                .orderByAsc(ContentPageEntity::getId))
+        .stream()
+        .map(entity -> readValue(entity.getPayload(), ContentPage.class))
+        .toList();
+  }
+
+  private JsonNode loadHomepage() {
+    HomepageEntity entity =
+        homepageEntityMapper.selectOne(
+            Wrappers.lambdaQuery(HomepageEntity.class)
+                .eq(HomepageEntity::getSingletonKey, 1)
+                .last("limit 1"));
+    return entity == null ? mapper.createObjectNode() : readValue(entity.getPayload(), JsonNode.class);
+  }
+
+  private List<Product> loadProducts() {
+    return productEntityMapper.selectList(
+            Wrappers.lambdaQuery(ProductEntity.class)
+                .orderByAsc(ProductEntity::getCreatedAt)
+                .orderByAsc(ProductEntity::getId))
+        .stream()
+        .map(entity -> readValue(entity.getPayload(), Product.class))
+        .toList();
+  }
+
+  private List<Product> loadProductsFromJson() throws IOException {
     List<Product> products = new ArrayList<>();
     for (Resource resource : sortedResources("products/*.json")) {
       products.addAll(read(resource, new TypeReference<List<Product>>() {}));
     }
     return List.copyOf(products);
+  }
+
+  private String writeValue(Object value) {
+    try {
+      return mapper.writeValueAsString(value);
+    } catch (IOException ex) {
+      throw new UncheckedIOException(ex);
+    }
+  }
+
+  private <T> T readValue(String payload, Class<T> type) {
+    try {
+      return mapper.readValue(payload, type);
+    } catch (IOException ex) {
+      throw new UncheckedIOException(ex);
+    }
   }
 
   private List<ContentPage> mergeContentPages() throws IOException {
