@@ -29,6 +29,7 @@ public final class OmsDtos {
       String phone,
       String address,
       BigDecimal deliveryFee,
+      BigDecimal discountAmount,
       List<OpenOrderItem> items) {}
 
   public record OpenOrderItem(Long skuId, int quantity) {}

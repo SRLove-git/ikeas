@@ -330,6 +330,7 @@ public class OmsOrderSyncService {
         order.getPhone(),
         order.getAddress(),
         deliveryFee,
+        order.getDiscountAmount() == null ? BigDecimal.ZERO : order.getDiscountAmount(),
         lines);
   }
 

@@ -14,6 +14,23 @@ import { formatPrice } from "@/lib/catalog-format";
 
 const DELIVERY_FEE = 9.9;
 
+interface CouponView {
+  id: number;
+  code: string;
+  name: string;
+  type: number;
+  value: number;
+  minAmount: number;
+  status: number;
+  discountAmount: number;
+}
+
+interface MarketingAccount {
+  points: number;
+  balance: number;
+  coupons: CouponView[];
+}
+
 export function CheckoutPanel() {
   const router = useRouter();
   const { user, ready } = useAuth();
@@ -21,6 +38,10 @@ export function CheckoutPanel() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [submitting, setSubmitting] = useState(false);
+  const [marketing, setMarketing] = useState<MarketingAccount | null>(null);
+  const [couponCode, setCouponCode] = useState("");
+  const [usePoints, setUsePoints] = useState(0);
+  const [useBalance, setUseBalance] = useState(0);
   const [form, setForm] = useState({
     customer: "",
     phone: "",
@@ -57,13 +78,41 @@ export function CheckoutPanel() {
     };
   }, [ready, user, router]);
 
+  useEffect(() => {
+    if (!ready || !user) return;
+    let cancelled = false;
+    const loadMarketing = async () => {
+      try {
+        const data = await apiJson<MarketingAccount>("/marketing/account");
+        if (!cancelled) setMarketing(data);
+      } catch {
+        if (!cancelled) setMarketing({ points: 0, balance: 0, coupons: [] });
+      }
+    };
+    void loadMarketing();
+    return () => {
+      cancelled = true;
+    };
+  }, [ready, user]);
+
   const items = cart?.items ?? [];
   const subtotal = items.reduce(
     (sum, item) => sum + (item.product.price ?? 0) * item.quantity,
     0,
   );
   const totalQuantity = items.reduce((sum, item) => sum + item.quantity, 0);
-  const total = subtotal + DELIVERY_FEE;
+  const selectedCoupon =
+    marketing?.coupons.find((coupon) => coupon.code === couponCode) ?? null;
+  const pointDiscount = Math.min(usePoints, marketing?.points ?? 0) * 0.01;
+  const balanceUsed = Math.max(0, Math.min(useBalance, marketing?.balance ?? 0));
+  const discount = Math.max(
+    0,
+    Math.min(
+      subtotal,
+      (selectedCoupon?.discountAmount ?? 0) + pointDiscount + balanceUsed,
+    ),
+  );
+  const total = subtotal + DELIVERY_FEE - discount;
 
   const update = (key: keyof typeof form, value: string) => {
     setForm((current) => ({ ...current, [key]: value }));
@@ -87,6 +136,9 @@ export function CheckoutPanel() {
         body: JSON.stringify({
           fromCart: true,
           deliveryFee: DELIVERY_FEE,
+          couponCode: couponCode || null,
+          usePoints,
+          useBalance,
           customer: form.customer.trim(),
           phone: form.phone.trim(),
           address: `${form.region.trim()} ${form.detail.trim()}`.trim(),
@@ -218,6 +270,54 @@ export function CheckoutPanel() {
                   ))}
                 </div>
 
+                <div className="mt-6 space-y-3 border-t border-ikea-gray-200 pt-4">
+                  <label className="block">
+                    <span className="text-xs font-bold text-ikea-muted">优惠券</span>
+                    <select
+                      value={couponCode}
+                      onChange={(event) => setCouponCode(event.target.value)}
+                      className="mt-1 h-10 w-full border border-ikea-gray-200 bg-white px-3 text-sm outline-none focus:border-ikea-blue"
+                    >
+                      <option value="">不使用优惠券</option>
+                      {marketing?.coupons.map((coupon) => (
+                        <option key={coupon.id} value={coupon.code}>
+                          {coupon.name}
+                        </option>
+                      ))}
+                    </select>
+                  </label>
+
+                  <div className="grid grid-cols-2 gap-3">
+                    <label className="block">
+                      <span className="text-xs font-bold text-ikea-muted">
+                        积分（可用 {marketing?.points ?? 0}）
+                      </span>
+                      <input
+                        type="number"
+                        min={0}
+                        max={marketing?.points ?? 0}
+                        value={usePoints}
+                        onChange={(event) => setUsePoints(Number(event.target.value))}
+                        className="mt-1 h-10 w-full border border-ikea-gray-200 px-3 text-sm outline-none focus:border-ikea-blue"
+                      />
+                    </label>
+                    <label className="block">
+                      <span className="text-xs font-bold text-ikea-muted">
+                        余额（可用 {formatPrice(marketing?.balance ?? 0)}）
+                      </span>
+                      <input
+                        type="number"
+                        min={0}
+                        max={marketing?.balance ?? 0}
+                        step="0.01"
+                        value={useBalance}
+                        onChange={(event) => setUseBalance(Number(event.target.value))}
+                        className="mt-1 h-10 w-full border border-ikea-gray-200 px-3 text-sm outline-none focus:border-ikea-blue"
+                      />
+                    </label>
+                  </div>
+                </div>
+
                 <div className="mt-6 space-y-2 border-t border-ikea-gray-200 pt-4 text-sm">
                   <div className="flex justify-between">
                     <span className="text-ikea-muted">商品小计</span>
@@ -227,6 +327,12 @@ export function CheckoutPanel() {
                     <span className="text-ikea-muted">配送费</span>
                     <span>{formatPrice(DELIVERY_FEE)}</span>
                   </div>
+                  {discount > 0 ? (
+                    <div className="flex justify-between text-green-700">
+                      <span>优惠合计</span>
+                      <span>-{formatPrice(discount)}</span>
+                    </div>
+                  ) : null}
                   <div className="flex justify-between border-t border-ikea-gray-200 pt-3 text-base font-bold">
                     <span>合计</span>
                     <span>{formatPrice(total)}</span>

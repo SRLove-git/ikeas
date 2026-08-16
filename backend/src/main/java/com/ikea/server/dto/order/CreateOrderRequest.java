@@ -12,4 +12,7 @@ public record CreateOrderRequest(
     @Size(max = 128, message = "收货人姓名不能超过 128 位") String customer,
     @Size(max = 32, message = "手机号不能超过 32 位") String phone,
     @Size(max = 512, message = "收货地址不能超过 512 位") String address,
-    @Size(max = 512, message = "订单备注不能超过 512 位") String remark) {}
+    @Size(max = 512, message = "订单备注不能超过 512 位") String remark,
+    String couponCode,
+    Integer usePoints,
+    BigDecimal useBalance) {}

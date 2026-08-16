@@ -38,6 +38,11 @@ const NAV_GROUPS: NavGroup[] = [
     ],
   },
   {
+    title: "营销中心",
+    description: "优惠券、会员账户与权益",
+    items: [{ href: "/admin/marketing", label: "营销与会员" }],
+  },
+  {
     title: "系统设置",
     description: "站点配置与审计",
     items: [

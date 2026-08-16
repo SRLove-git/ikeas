@@ -24,6 +24,10 @@ public class Order {
   private BigDecimal subtotal;
   private BigDecimal deliveryFee;
   private BigDecimal totalAmount;
+  private BigDecimal discountAmount;
+  private String couponCode;
+  private Integer usedPoints;
+  private BigDecimal usedBalance;
   private String customer;
   private String phone;
   private String address;
@@ -103,6 +107,38 @@ public class Order {
 
   public void setTotalAmount(BigDecimal totalAmount) {
     this.totalAmount = totalAmount;
+  }
+
+  public BigDecimal getDiscountAmount() {
+    return discountAmount;
+  }
+
+  public void setDiscountAmount(BigDecimal discountAmount) {
+    this.discountAmount = discountAmount;
+  }
+
+  public String getCouponCode() {
+    return couponCode;
+  }
+
+  public void setCouponCode(String couponCode) {
+    this.couponCode = couponCode;
+  }
+
+  public Integer getUsedPoints() {
+    return usedPoints;
+  }
+
+  public void setUsedPoints(Integer usedPoints) {
+    this.usedPoints = usedPoints;
+  }
+
+  public BigDecimal getUsedBalance() {
+    return usedBalance;
+  }
+
+  public void setUsedBalance(BigDecimal usedBalance) {
+    this.usedBalance = usedBalance;
   }
 
   public String getCustomer() {

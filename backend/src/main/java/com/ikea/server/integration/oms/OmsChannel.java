@@ -43,6 +43,7 @@ public interface OmsChannel {
       String phone,
       String address,
       BigDecimal deliveryFee,
+      BigDecimal discountAmount,
       List<Line> items) {
 
     public record Line(Long skuId, int quantity) {}

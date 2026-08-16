@@ -11,6 +11,7 @@ import com.ikea.server.dto.order.CreateOrderItemRequest;
 import com.ikea.server.dto.order.CreateOrderRequest;
 import com.ikea.server.dto.order.OrderItemResponse;
 import com.ikea.server.dto.order.OrderResponse;
+import com.ikea.server.dto.marketing.MarketingDtos.RedemptionResponse;
 import com.ikea.server.entity.Order;
 import com.ikea.server.entity.OrderItem;
 import com.ikea.server.integration.oms.OmsChannel;
@@ -53,6 +54,7 @@ public class OrderService {
   private final OmsChannel omsChannel;
   private final OmsOrderSyncService omsOrderSyncService;
   private final OmsProductSyncService omsProductSyncService;
+  private final MarketingService marketingService;
   private final BigDecimal defaultDeliveryFee;
 
   public OrderService(
@@ -63,6 +65,7 @@ public class OrderService {
       OmsChannel omsChannel,
       OmsOrderSyncService omsOrderSyncService,
       OmsProductSyncService omsProductSyncService,
+      MarketingService marketingService,
       @Value("${ikea.order.default-delivery-fee:9.9}") String defaultDeliveryFee) {
     this.orderMapper = orderMapper;
     this.orderItemMapper = orderItemMapper;
@@ -71,6 +74,7 @@ public class OrderService {
     this.omsChannel = omsChannel;
     this.omsOrderSyncService = omsOrderSyncService;
     this.omsProductSyncService = omsProductSyncService;
+    this.marketingService = marketingService;
     this.defaultDeliveryFee = new BigDecimal(defaultDeliveryFee);
   }
 
@@ -99,16 +103,32 @@ public class OrderService {
             .map(item -> item.getUnitPrice().multiply(BigDecimal.valueOf(item.getQuantity())))
             .reduce(BigDecimal.ZERO, BigDecimal::add);
     BigDecimal deliveryFee = resolveDeliveryFee(request.deliveryFee());
-    BigDecimal totalAmount = subtotal.add(deliveryFee);
+    String orderNo = generateOrderNo();
+    RedemptionResponse redemption = marketingService.applyOrder(
+        userId,
+        request.couponCode(),
+        request.usePoints(),
+        request.useBalance(),
+        subtotal,
+        orderNo);
+    BigDecimal discountAmount = redemption.totalDiscount();
+    BigDecimal totalAmount = subtotal.add(deliveryFee).subtract(discountAmount);
+    if (totalAmount.signum() < 0) {
+      totalAmount = BigDecimal.ZERO;
+    }
 
     Order order = new Order();
-    order.setOrderNo(generateOrderNo());
+    order.setOrderNo(orderNo);
     order.setUserId(userId);
     order.setStatus(OrderStatus.PENDING_PAYMENT.code());
     order.setCurrency(OrderConstants.CURRENCY_SGD);
     order.setSubtotal(normalizeMoney(subtotal));
     order.setDeliveryFee(normalizeMoney(deliveryFee));
     order.setTotalAmount(normalizeMoney(totalAmount));
+    order.setDiscountAmount(normalizeMoney(discountAmount));
+    order.setCouponCode(trimToNull(request.couponCode()));
+    order.setUsedPoints(request.usePoints() == null ? 0 : Math.max(0, request.usePoints()));
+    order.setUsedBalance(normalizeMoney(request.useBalance()));
     if (request.customer() != null) {
       order.setCustomer(trimToNull(request.customer()));
     }

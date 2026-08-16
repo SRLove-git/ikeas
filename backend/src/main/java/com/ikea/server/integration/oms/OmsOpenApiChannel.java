@@ -47,6 +47,7 @@ public class OmsOpenApiChannel implements OmsChannel {
             input.phone(),
             input.address(),
             input.deliveryFee(),
+            input.discountAmount(),
             input.items().stream().map(line -> new OpenOrderItem(line.skuId(), line.quantity())).toList());
     OmsResult<OpenOrderResponse> result =
         client.post(ORDERS_PATH, request, OpenOrderResponse.class);
