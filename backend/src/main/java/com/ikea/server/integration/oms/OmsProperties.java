@@ -19,6 +19,7 @@ public class OmsProperties {
   /** BUZUD 零售订单固定 B2C。 */
   private int orderType = 2;
   private StatusSync statusSync = new StatusSync();
+  private ProductSync productSync = new ProductSync();
 
   public boolean isEnabled() {
     return enabled;
@@ -100,6 +101,14 @@ public class OmsProperties {
     this.statusSync = statusSync;
   }
 
+  public ProductSync getProductSync() {
+    return productSync;
+  }
+
+  public void setProductSync(ProductSync productSync) {
+    this.productSync = productSync;
+  }
+
   /** 开启对接时强校验必填配置（fail-fast，避免半对接状态）。 */
   public void validate() {
     if (!enabled) {
@@ -146,6 +155,38 @@ public class OmsProperties {
 
     public void setBatchSize(int batchSize) {
       this.batchSize = batchSize;
+    }
+  }
+
+  public static class ProductSync {
+
+    private boolean enabled = true;
+    /** 商品/库存快照刷新间隔（短 TTL 缓存）。 */
+    private long intervalMs = 60000;
+    private int pageSize = 100;
+
+    public boolean isEnabled() {
+      return enabled;
+    }
+
+    public void setEnabled(boolean enabled) {
+      this.enabled = enabled;
+    }
+
+    public long getIntervalMs() {
+      return intervalMs;
+    }
+
+    public void setIntervalMs(long intervalMs) {
+      this.intervalMs = intervalMs;
+    }
+
+    public int getPageSize() {
+      return pageSize;
+    }
+
+    public void setPageSize(int pageSize) {
+      this.pageSize = pageSize;
     }
   }
 }

@@ -15,6 +15,7 @@ import com.ikea.server.entity.Order;
 import com.ikea.server.entity.OrderItem;
 import com.ikea.server.integration.oms.OmsChannel;
 import com.ikea.server.integration.oms.OmsOrderSyncService;
+import com.ikea.server.integration.oms.OmsProductSyncService;
 import com.ikea.server.mapper.OrderItemMapper;
 import com.ikea.server.mapper.OrderMapper;
 import com.ikea.server.model.Product;
@@ -51,6 +52,7 @@ public class OrderService {
   private final CartStore cartStore;
   private final OmsChannel omsChannel;
   private final OmsOrderSyncService omsOrderSyncService;
+  private final OmsProductSyncService omsProductSyncService;
   private final BigDecimal defaultDeliveryFee;
 
   public OrderService(
@@ -60,6 +62,7 @@ public class OrderService {
       CartStore cartStore,
       OmsChannel omsChannel,
       OmsOrderSyncService omsOrderSyncService,
+      OmsProductSyncService omsProductSyncService,
       @Value("${ikea.order.default-delivery-fee:9.9}") String defaultDeliveryFee) {
     this.orderMapper = orderMapper;
     this.orderItemMapper = orderItemMapper;
@@ -67,6 +70,7 @@ public class OrderService {
     this.cartStore = cartStore;
     this.omsChannel = omsChannel;
     this.omsOrderSyncService = omsOrderSyncService;
+    this.omsProductSyncService = omsProductSyncService;
     this.defaultDeliveryFee = new BigDecimal(defaultDeliveryFee);
   }
 
@@ -76,10 +80,18 @@ public class OrderService {
     List<CreateOrderItemRequest> requestedItems = resolveItems(userId, request);
     List<OrderItem> orderItems = buildOrderItems(requestedItems);
 
-    // 对接开启时前置校验商品映射（对接规范 §6.1 / 验收 T04），未映射直接拒绝下单
+    // 对接开启时前置校验商品映射与可售库存（对接规范 §6.1 / §4.2 / 验收 T04）
     if (omsChannel.isEnabled()) {
-      omsOrderSyncService.requireSkuMappings(
+      Map<String, Long> skuByProduct = omsOrderSyncService.requireSkuMappings(
           orderItems.stream().map(OrderItem::getProductId).distinct().toList());
+      List<OmsChannel.OmsOrderInput.Line> lines =
+          orderItems.stream()
+              .map(
+                  item ->
+                      new OmsChannel.OmsOrderInput.Line(
+                          skuByProduct.get(item.getProductId()), item.getQuantity()))
+              .toList();
+      omsProductSyncService.ensureStockAvailable(lines);
     }
 
     BigDecimal subtotal =
@@ -264,6 +276,79 @@ public class OrderService {
     return toResponse(order, itemsOf(order.getId()));
   }
 
+  /**
+   * 模拟支付：待付款 → 待发货。对接开启时同时向 OMS 发送支付成功通知
+   * （对接规范 §7.2）；未对接时仅推进本地状态。
+   */
+  @Transactional
+  public OrderResponse pay(Long userId, String orderNo) {
+    requireUser(userId);
+    Order order =
+        orderMapper.selectOne(
+            Wrappers.lambdaQuery(Order.class)
+                .eq(Order::getUserId, userId)
+                .eq(Order::getOrderNo, orderNo));
+    if (order == null) {
+      throw new ResourceNotFoundException("Order not found: " + orderNo);
+    }
+    if (order.getStatus() != OrderStatus.PENDING_PAYMENT.code()) {
+      throw new IllegalArgumentException("仅待付款订单可以支付");
+    }
+
+    if (omsChannel.isEnabled()) {
+      omsOrderSyncService.notifyPaymentSuccess(
+          orderNo, generatePaymentNo(), order.getTotalAmount(), "mock");
+      order =
+          orderMapper.selectOne(
+              Wrappers.lambdaQuery(Order.class).eq(Order::getOrderNo, orderNo));
+    } else {
+      order.setStatus(OrderStatus.PENDING_SHIPMENT.code());
+      orderMapper.updateById(order);
+    }
+    return toResponse(order, itemsOf(order.getId()));
+  }
+
+  /**
+   * 申请退款：已支付、待收货或已完成订单 → 退款中。当前版本先在本地记录状态，
+   * 供客服/管理后台跟进；OMS 开放 API 尚未提供退款联动接口，后续接入时再补齐。
+   */
+  @Transactional
+  public OrderResponse refund(Long userId, String orderNo) {
+    requireUser(userId);
+    Order order =
+        orderMapper.selectOne(
+            Wrappers.lambdaQuery(Order.class)
+                .eq(Order::getUserId, userId)
+                .eq(Order::getOrderNo, orderNo));
+    if (order == null) {
+      throw new ResourceNotFoundException("Order not found: " + orderNo);
+    }
+    boolean refundable =
+        order.getStatus() != null
+            && (order.getStatus() == OrderStatus.PENDING_SHIPMENT.code()
+                || order.getStatus() == OrderStatus.PENDING_RECEIPT.code()
+                || order.getStatus() == OrderStatus.COMPLETED.code());
+    if (!refundable) {
+      throw new IllegalArgumentException("仅已支付、待收货或已完成订单可申请退款");
+    }
+
+    order.setStatus(OrderStatus.REFUNDING.code());
+    orderMapper.updateById(order);
+
+    if (omsChannel.isEnabled()) {
+      try {
+        omsOrderSyncService.requestRefund(order);
+      } catch (Exception ex) {
+        log.warn(
+            "OMS 退款申请同步失败，本地退款状态已记录 orderNo={} error={}",
+            order.getOrderNo(),
+            ex.getMessage());
+      }
+    }
+
+    return toResponse(order, itemsOf(order.getId()));
+  }
+
   private List<CreateOrderItemRequest> resolveItems(Long userId, CreateOrderRequest request) {
     if (request.items() != null && !request.items().isEmpty()) {
       return request.items();
@@ -393,6 +478,12 @@ public class OrderService {
 
   private String generateOrderNo() {
     return OrderConstants.ORDER_NO_PREFIX
+        + LocalDateTime.now(ZoneOffset.UTC).format(ORDER_NO_TIME)
+        + ThreadLocalRandom.current().nextInt(100000, 1000000);
+  }
+
+  private String generatePaymentNo() {
+    return "MP"
         + LocalDateTime.now(ZoneOffset.UTC).format(ORDER_NO_TIME)
         + ThreadLocalRandom.current().nextInt(100000, 1000000);
   }

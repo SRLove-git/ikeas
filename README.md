@@ -57,6 +57,25 @@ docker compose -f deploy/docker-compose.yml up -d db   # PostgreSQL 16，端口 
 
 默认连接参数（可用环境变量覆盖）：`DB_HOST=localhost`、`DB_PORT=5432`、`DB_NAME=buzud`、`DB_USER=buzud`、`DB_PASSWORD=buzud`。后端启动时 Flyway 自动执行 `backend/src/main/resources/db/migration/` 下的迁移脚本，并将 `backend/src/main/resources/data/` 中的静态内容作为首次种子写入数据库。
 
+## 对接 OMS（本地联调）
+
+前置：先按 [oms/README.md](../oms/README.md) 启动 OMS（网关默认 `8080`），OMS 网关已内置 `demo-mall` 客户端，并已通过 Flyway 初始化 26 个 BUZUD 演示 SKU 与库存。
+
+1. 导入 SKU 映射（CSV 已按演示 SKU 预填，目标后端运行在 `8090`）：
+
+```bash
+python3 scripts/import-oms-sku-mappings.py --base-url http://localhost:8090
+```
+
+2. 启动商城后端并开启 OMS 联调 profile（`8090` 避免与 OMS 网关 `8080` 冲突）：
+
+```bash
+cd backend
+SERVER_PORT=8090 SPRING_PROFILES_ACTIVE=oms ./mvnw spring-boot:run
+```
+
+`SPRING_PROFILES_ACTIVE=oms` 等价于显式设置 `BUZUD_OMS_ENABLED=true` 与 `demo-mall` 凭据。前端照常 `npm run dev`；下单后订单列表里的“待付款”订单点击“模拟支付”，商城会推进本地状态并通知 OMS 完成支付。
+
 ## 常用命令
 
 ```bash

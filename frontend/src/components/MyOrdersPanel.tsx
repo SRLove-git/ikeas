@@ -12,6 +12,8 @@ function statusClassName(status: number): string {
   if (status === 1) return "bg-amber-100 text-amber-700"
   if (status === 2 || status === 3) return "bg-blue-100 text-blue-700"
   if (status === 4) return "bg-green-100 text-green-700"
+  if (status === 6) return "bg-orange-100 text-orange-700"
+  if (status === 7) return "bg-red-100 text-red-700"
   return "bg-ikea-gray-100 text-ikea-muted"
 }
 
@@ -29,6 +31,8 @@ export function MyOrdersPanel() {
   const [error, setError] = useState<string | null>(null)
   const [notice, setNotice] = useState<string | null>(null)
   const [cancelling, setCancelling] = useState<string | null>(null)
+  const [paying, setPaying] = useState<string | null>(null)
+  const [refunding, setRefunding] = useState<string | null>(null)
   const [filterStatus, setFilterStatus] = useState(0)
 
   const loadOrders = useCallback(async () => {
@@ -79,6 +83,33 @@ export function MyOrdersPanel() {
     }
   }
 
+  const payOrder = async (orderNo: string) => {
+    setPaying(orderNo)
+    setError(null)
+    try {
+      await apiJson(`/orders/${orderNo}/pay`, { method: "POST" })
+      await loadOrders()
+    } catch (ex) {
+      setError(ex instanceof Error ? ex.message : "支付失败")
+    } finally {
+      setPaying(null)
+    }
+  }
+
+  const requestRefund = async (orderNo: string) => {
+    if (!window.confirm("确定申请退款？退款申请提交后不可直接撤销。")) return
+    setRefunding(orderNo)
+    setError(null)
+    try {
+      await apiJson(`/orders/${orderNo}/refund`, { method: "POST" })
+      await loadOrders()
+    } catch (ex) {
+      setError(ex instanceof Error ? ex.message : "退款申请失败")
+    } finally {
+      setRefunding(null)
+    }
+  }
+
   const filteredOrders =
     orders?.filter((order) => filterStatus === 0 || order.status === filterStatus) ?? []
 
@@ -126,6 +157,8 @@ export function MyOrdersPanel() {
               [2, "待发货"],
               [3, "待收货"],
               [4, "已完成"],
+              [6, "退款中"],
+              [7, "退款已驳回"],
             ] as [number, string][]
           ).map(([code, label]) => (
             <button
@@ -195,13 +228,32 @@ export function MyOrdersPanel() {
                     </div>
                     <div className="flex items-center gap-2">
                       {order.status === 1 ? (
+                        <>
+                          <button
+                            type="button"
+                            disabled={paying === order.orderNo || cancelling === order.orderNo}
+                            onClick={() => void payOrder(order.orderNo)}
+                            className="rounded bg-ikea-blue px-3 py-1 text-xs font-bold text-white hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-50"
+                          >
+                            {paying === order.orderNo ? "支付中…" : "模拟支付"}
+                          </button>
+                          <button
+                            type="button"
+                            disabled={cancelling === order.orderNo || paying === order.orderNo}
+                            onClick={() => void cancelOrder(order.orderNo)}
+                            className="text-xs font-bold text-ikea-blue hover:underline disabled:cursor-not-allowed disabled:opacity-50"
+                          >
+                            {cancelling === order.orderNo ? "取消中…" : "取消订单"}
+                          </button>
+                        </>
+                      ) : order.status === 2 || order.status === 3 || order.status === 4 ? (
                         <button
                           type="button"
-                          disabled={cancelling === order.orderNo}
-                          onClick={() => void cancelOrder(order.orderNo)}
-                          className="text-xs font-bold text-ikea-blue hover:underline disabled:cursor-not-allowed disabled:opacity-50"
+                          disabled={refunding === order.orderNo}
+                          onClick={() => void requestRefund(order.orderNo)}
+                          className="text-xs font-bold text-red-600 hover:underline disabled:cursor-not-allowed disabled:opacity-50"
                         >
-                          {cancelling === order.orderNo ? "取消中…" : "取消订单"}
+                          {refunding === order.orderNo ? "提交中…" : "申请退款"}
                         </button>
                       ) : null}
                     </div>

@@ -227,6 +227,7 @@ stores the order in PostgreSQL and returns a stable `orderNo`.
 | `GET /api/v1/orders` | Current user's orders, newest first |
 | `GET /api/v1/orders/{orderNo}` | One order owned by the current user |
 | `POST /api/v1/orders/{orderNo}/cancel` | Cancel a pending-payment order |
+| `POST /api/v1/orders/{orderNo}/refund` | Request a refund for a paid/shipped/completed order |
 
 ### Customer-service chat
 

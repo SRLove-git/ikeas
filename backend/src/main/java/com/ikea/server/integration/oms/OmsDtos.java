@@ -36,6 +36,18 @@ public final class OmsDtos {
   public record OpenPaymentNotifyRequest(
       String paymentNo, BigDecimal amount, String channel, String channelTxnNo, LocalDateTime paidAt) {}
 
+  public record OpenReturnOrderRequest(String externalOrderNo, Integer type, String reason) {}
+
+  public record OpenReturnOrderResponse(
+      String returnNo,
+      String orderNo,
+      String externalOrderNo,
+      Integer type,
+      Integer status,
+      String reason,
+      BigDecimal totalAmount,
+      LocalDateTime createdAt) {}
+
   public record OpenOrderResponse(
       String orderNo,
       String externalOrderNo,
@@ -60,4 +72,23 @@ public final class OmsDtos {
       Integer quantity,
       BigDecimal unitPrice,
       BigDecimal totalPrice) {}
+
+  /** OMS 开放 API 商品列表条目（inventory-service OpenProductDtos.OpenSkuResponse）。 */
+  public record OpenSkuResponse(
+      Long skuId,
+      String skuNo,
+      String spuNo,
+      String name,
+      String spec,
+      String registrationNo,
+      String udi,
+      BigDecimal price,
+      Integer status,
+      int availableStock) {}
+
+  /** OMS 开放 API 商品分页（oms-common-core PageResult<OpenSkuResponse>）。 */
+  public record OpenProductPage(long total, List<OpenSkuResponse> records) {}
+
+  /** OMS 开放 API 库存查询（inventory-service OpenProductDtos.StockResponse）。 */
+  public record OpenStockResponse(Long skuId, String skuNo, int availableStock) {}
 }

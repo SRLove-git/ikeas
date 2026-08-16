@@ -1,7 +1,7 @@
 package com.ikea.server.integration.oms;
 
-import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.DeserializationFeature;
+import com.fasterxml.jackson.databind.JavaType;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.ikea.server.integration.oms.OmsDtos.OmsResult;
 import java.io.IOException;
@@ -46,11 +46,14 @@ public class OmsHttpClient {
 
   private <T> OmsResult<T> send(String method, String path, Object body, Class<T> dataType) {
     String json = body == null ? "" : toJson(body);
+    // OMS 网关签名只使用路径（不含 query），见 OpenApiAuthFilter 的 getRawPath()。
+    int queryIndex = path.indexOf('?');
+    String signPath = queryIndex >= 0 ? path.substring(0, queryIndex) : path;
     String timestamp = OmsSigner.timestamp();
     String nonce = OmsSigner.nonce();
     String sign =
         OmsSigner.sign(
-            properties.getAppSecret(), method, path, timestamp, nonce, OmsSigner.sha256Hex(json));
+            properties.getAppSecret(), method, signPath, timestamp, nonce, OmsSigner.sha256Hex(json));
 
     HttpRequest.Builder builder =
         HttpRequest.newBuilder()
@@ -97,7 +100,8 @@ public class OmsHttpClient {
 
   private <T> OmsResult<T> parse(String json, Class<T> dataType) {
     try {
-      return mapper.readValue(json, new TypeReference<OmsResult<T>>() {});
+      JavaType type = mapper.getTypeFactory().constructParametricType(OmsResult.class, dataType);
+      return mapper.readValue(json, type);
     } catch (IOException ex) {
       throw new OmsCallException(0, "OMS 响应解析失败: " + ex.getMessage(), ex);
     }

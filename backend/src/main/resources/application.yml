@@ -74,6 +74,11 @@ ikea:
       # 轮询间隔，遵循 OMS 约定 ≥ 5s。
       interval-ms: 5000
       batch-size: 100
+    product-sync:
+      enabled: true
+      # 商品/库存快照刷新间隔（短 TTL）。
+      interval-ms: 60000
+      page-size: 100
   chat-knowledge:
     # Optional external chat knowledge JSON (IKEA_CHAT_KNOWLEDGE_FILE), reloaded on change.
     file: ${IKEA_CHAT_KNOWLEDGE_FILE:}

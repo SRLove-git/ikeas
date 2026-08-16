@@ -8,6 +8,7 @@ import com.ikea.server.entity.OmsOrderMapping;
 import com.ikea.server.integration.oms.OmsChannel.OmsOrderInput;
 import com.ikea.server.integration.oms.OmsChannel.OmsOrderOutcome;
 import com.ikea.server.integration.oms.OmsChannel.OmsOrderInput.Line;
+import com.ikea.server.integration.oms.OmsChannel.ReturnOrderOutcome;
 import com.ikea.server.mapper.OrderItemMapper;
 import com.ikea.server.mapper.OrderMapper;
 import com.ikea.server.mapper.OmsOrderMappingMapper;
@@ -160,6 +161,17 @@ public class OmsOrderSyncService {
     }
   }
 
+  /**
+   * 商城退款联动（§7.4）：先确保 OMS 订单存在（未同步则补单），再创建售后/退款申请。
+   */
+  public void requestRefund(Order order) {
+    if (!channel.isEnabled()) {
+      return;
+    }
+    ensureOrderSynced(order.getOrderNo());
+    channel.requestRefund(order.getOrderNo());
+  }
+
   /** 定时任务：重试待同步订单（§4.3-2）。对接关闭时直接跳过。 */
   @Scheduled(
       initialDelayString = "30000",
@@ -237,6 +249,45 @@ public class OmsOrderSyncService {
     }
   }
 
+  /** 定时任务：轮询 OMS 售后/退款状态，回写商城本地退款状态（含驳回/完成）。 */
+  @Scheduled(
+      initialDelayString = "5000",
+      fixedDelayString = "${ikea.oms.status-sync.interval-ms:5000}")
+  public void pollRefundStatus() {
+    if (!channel.isEnabled() || !properties.getStatusSync().isEnabled()) {
+      return;
+    }
+    List<Order> refunding =
+        orderMapper.selectList(
+            Wrappers.lambdaQuery(Order.class)
+                .eq(Order::getStatus, OrderStatus.REFUNDING.code())
+                .last("LIMIT " + Math.max(1, properties.getStatusSync().getBatchSize())));
+    for (Order order : refunding) {
+      try {
+        ReturnOrderOutcome outcome = channel.queryReturnOrder(order.getOrderNo());
+        Integer target = mapRefundStatus(outcome.status());
+        if (target == null || target.equals(order.getStatus())) {
+          continue;
+        }
+        int from = order.getStatus();
+        order.setStatus(target);
+        orderMapper.updateById(order);
+        log.info(
+            "退款状态同步 orderNo={} returnNo={} from={} to={} omsStatus={}",
+            order.getOrderNo(),
+            outcome.returnNo(),
+            from,
+            target,
+            outcome.status());
+      } catch (OmsCallException ex) {
+        log.warn(
+            "OMS 退款状态查询失败，等待下一轮 orderNo={} error={}",
+            order.getOrderNo(),
+            ex.getMessage());
+      }
+    }
+  }
+
   /** 支付通知前置：确保 OMS 订单存在；不存在则补单（幂等），补单失败抛异常（§4.3-3）。 */
   private OmsOrderMapping ensureOrderSynced(String orderNo) {
     OmsOrderMapping mapping = mappingFor(orderNo);
@@ -289,6 +340,18 @@ public class OmsOrderSyncService {
   private OmsOrderMapping mappingFor(String orderNo) {
     return orderMappingMapper.selectOne(
         Wrappers.lambdaQuery(OmsOrderMapping.class).eq(OmsOrderMapping::getOrderNo, orderNo));
+  }
+
+  private Integer mapRefundStatus(Integer omsStatus) {
+    if (omsStatus == null) {
+      return null;
+    }
+    return switch (omsStatus) {
+      case 3 -> OrderStatus.REFUND_REJECTED.code();
+      case 6 -> OrderStatus.COMPLETED.code();
+      case 7 -> OrderStatus.CANCELLED.code();
+      default -> OrderStatus.REFUNDING.code();
+    };
   }
 
   private Order requireOrder(String orderNo) {

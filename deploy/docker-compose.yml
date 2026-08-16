@@ -70,6 +70,11 @@ services:
       - DB_USER=buzud
       - DB_PASSWORD=buzud
       - IKEA_JWT_SECRET=${IKEA_JWT_SECRET:-change-me-to-a-long-random-secret-at-least-32-bytes}
+      - BUZUD_OMS_ENABLED=${BUZUD_OMS_ENABLED:-false}
+      - BUZUD_OMS_GATEWAY_URL=${BUZUD_OMS_GATEWAY_URL:-http://localhost:8080}
+      - BUZUD_OMS_APP_ID=${BUZUD_OMS_APP_ID:-}
+      - BUZUD_OMS_APP_SECRET=${BUZUD_OMS_APP_SECRET:-}
+      - BUZUD_OMS_MERCHANT_ID=${BUZUD_OMS_MERCHANT_ID:-}
     depends_on:
       db:
         condition: service_healthy

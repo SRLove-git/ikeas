@@ -9,7 +9,8 @@ public enum OrderStatus {
   PENDING_RECEIPT(3, "待收货"),
   COMPLETED(4, "已完成"),
   CANCELLED(5, "已取消"),
-  REFUNDING(6, "退款中");
+  REFUNDING(6, "退款中"),
+  REFUND_REJECTED(7, "退款已驳回");
 
   private final int code;
   private final String label;

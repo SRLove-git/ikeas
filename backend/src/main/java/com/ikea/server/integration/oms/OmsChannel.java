@@ -23,6 +23,18 @@ public interface OmsChannel {
   /** 取消待支付订单。 */
   void cancelOrder(String externalOrderNo);
 
+  /** 商城用户申请退款，OMS 侧创建售后/退款申请单。 */
+  void requestRefund(String externalOrderNo);
+
+  /** 查询商城订单在 OMS 侧的最新售后/退款状态。 */
+  ReturnOrderOutcome queryReturnOrder(String externalOrderNo);
+
+  /** 在售 SKU 分页查询（含实时可售库存，对接规范 §5.2）。 */
+  OmsProductPage productsOnSale(String keyword, int page, int size);
+
+  /** 单个 SKU 实时库存查询。 */
+  OmsStock availableStock(Long skuId);
+
   record OmsOrderInput(
       String externalOrderNo,
       Integer orderType,
@@ -37,4 +49,13 @@ public interface OmsChannel {
   }
 
   record OmsOrderOutcome(String omsOrderNo, Integer status, BigDecimal totalAmount, String currency) {}
+
+  record OmsProduct(
+      Long skuId, String skuNo, String name, BigDecimal price, int availableStock) {}
+
+  record OmsProductPage(List<OmsProduct> items, long total) {}
+
+  record OmsStock(Long skuId, String skuNo, int availableStock) {}
+
+  record ReturnOrderOutcome(String returnNo, Integer status, String reason, BigDecimal totalAmount) {}
 }
