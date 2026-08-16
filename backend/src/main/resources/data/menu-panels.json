@@ -1,253 +1,27 @@
 {
   "menuPanels": [
     {
-      "label": "快速检测",
-      "href": "/cn/zh/cat/buzud-rapid-tests",
-      "columns": [
-        {
-          "heading": null,
-          "intro": "居家自测，数分钟出结果",
-          "cards": [
-            {
-              "title": "早孕检测 HCG",
-              "href": "/cn/zh/p/hcg-pregnancy-rapid-test-8885020710595",
-              "image": "/images/products/buzud-8885020710595.png"
-            },
-            {
-              "title": "排卵检测 LH",
-              "href": "/cn/zh/p/lh-ovulation-rapid-test-8885020710618",
-              "image": "/images/products/buzud-8885020710618.png"
-            },
-            {
-              "title": "幽门螺杆菌检测",
-              "href": "/cn/zh/p/h-pylori-antigen-rapid-test-8885020710588",
-              "image": "/images/products/buzud-8885020710588.png"
-            },
-            {
-              "title": "新冠/甲乙流/RSV/腺病毒联检",
-              "href": "/cn/zh/p/covid-19-flu-a-b-rsv-adeno-ag-combo-rapid-test-cassette-8885020712209",
-              "image": "/images/products/buzud-8885020712209.png"
-            }
-          ],
-          "thumbnails": [],
-          "links": []
-        },
-        {
-          "heading": null,
-          "intro": "更多自测项目",
-          "cards": [
-            {
-              "title": "尿路感染自测",
-              "href": "/cn/zh/p/buzud-urinary-tract-infections-test-for-self-testing-8885020710656",
-              "image": "/images/products/buzud-8885020710656.png"
-            },
-            {
-              "title": "甲流/乙流检测",
-              "href": "/cn/zh/p/buzud-influenza-a-b-ag-rapid-test-8885020712315",
-              "image": "/images/products/buzud-8885020712315.png"
-            },
-            {
-              "title": "便隐血检测",
-              "href": "/cn/zh/p/one-step-fecal-occult-blood-test-8885020710625",
-              "image": "/images/products/buzud-8885020710625.png"
-            },
-            {
-              "title": "男性生育力检测",
-              "href": "/cn/zh/p/sp-10-male-fertility-rapid-test-cassette-8885020710663",
-              "image": "/images/products/buzud-8885020710663.png"
-            }
-          ],
-          "thumbnails": [],
-          "links": [
-            {
-              "title": "浏览全部快速检测试剂",
-              "href": "/cn/zh/cat/buzud-rapid-tests"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "label": "智能手表",
-      "href": "/cn/zh/cat/buzud-watches",
-      "columns": [
-        {
-          "heading": null,
-          "intro": "24 小时健康监测",
-          "cards": [
-            {
-              "title": "BUZUD Watch Vibrance",
-              "href": "/cn/zh/p/buzud-watch-vibrance-8885020712582",
-              "image": "/images/products/buzud-8885020712582.png"
-            },
-            {
-              "title": "Vibrance 绿色",
-              "href": "/cn/zh/p/buzud-watch-vibrance-green-8885020712728",
-              "image": "/images/products/buzud-8885020712728.png"
-            },
-            {
-              "title": "Vibrance 粉色",
-              "href": "/cn/zh/p/buzud-watch-vibrance-pink-8885020712735",
-              "image": "/images/products/buzud-8885020712735.png"
-            }
-          ],
-          "thumbnails": [],
-          "links": [
-            {
-              "title": "浏览全部智能手表",
-              "href": "/cn/zh/cat/buzud-watches"
-            }
-          ]
-        },
-        {
-          "heading": null,
-          "intro": "多色可选",
-          "cards": [
-            {
-              "title": "Vibrance 星光",
-              "href": "/cn/zh/p/buzud-watch-vibrance-star-light-8885020712742",
-              "image": "/images/products/buzud-8885020712742.png"
-            },
-            {
-              "title": "Vibrance 紫色",
-              "href": "/cn/zh/p/buzud-watch-vibrance-violet-8885020712759",
-              "image": "/images/products/buzud-8885020712759.png"
-            }
-          ],
-          "thumbnails": [],
-          "links": []
-        }
-      ]
-    },
-    {
-      "label": "血压计",
-      "href": "/cn/zh/cat/buzud-blood-pressure-monitors",
-      "columns": [
-        {
-          "heading": null,
-          "intro": "上臂式智能血压计",
-          "cards": [
-            {
-              "title": "血压计 C02",
-              "href": "/cn/zh/p/upper-arm-blood-pressure-monitor-c02-8885020710151",
-              "image": "/images/products/buzud-8885020710151.png"
-            },
-            {
-              "title": "血压计 30C",
-              "href": "/cn/zh/p/buzud-blood-pressure-monitor-30c-8885020711103",
-              "image": "/images/products/buzud-8885020711103.png"
-            },
-            {
-              "title": "血压计 30S",
-              "href": "/cn/zh/p/buzud-blood-pressure-monitor-30s-8885020711097",
-              "image": "/images/products/buzud-8885020711097.png"
-            }
-          ],
-          "thumbnails": [],
-          "links": [
-            {
-              "title": "浏览全部血压计",
-              "href": "/cn/zh/cat/buzud-blood-pressure-monitors"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "label": "血糖管理",
-      "href": "/cn/zh/cat/buzud-glucose-management",
-      "columns": [
-        {
-          "heading": null,
-          "intro": "全天血糖趋势",
-          "cards": [
-            {
-              "title": "CGM 连续血糖监测 Sensor 2.0",
-              "href": "/cn/zh/p/buzud-continuous-glucose-monitoring-system-sensor-2-0-8885020711394",
-              "image": "/images/products/buzud-8885020711394.png"
-            },
-            {
-              "title": "GlucoInsight Plus 血糖仪",
-              "href": "/cn/zh/p/glucoinsight-plus-meter-8885020712339",
-              "image": "/images/products/buzud-8885020712339.png"
-            },
-            {
-              "title": "GlucoInsight Lite 套装",
-              "href": "/cn/zh/p/glucoinsight-lite-set-8885020712384",
-              "image": "/images/products/buzud-8885020712384.png"
-            }
-          ],
-          "thumbnails": [],
-          "links": [
-            {
-              "title": "浏览全部血糖管理产品",
-              "href": "/cn/zh/cat/buzud-glucose-management"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "label": "健康设备",
-      "href": "/cn/zh/cat/buzud-health-devices",
-      "columns": [
-        {
-          "heading": null,
-          "intro": "家庭健康监测设备",
-          "cards": [
-            {
-              "title": "红外耳温枪 BZD100",
-              "href": "/cn/zh/p/buzud-infrared-ear-thermometer-bzd100-8885020711677",
-              "image": "/images/products/buzud-8885020711677.png"
-            },
-            {
-              "title": "智能体重秤 CF509",
-              "href": "/cn/zh/p/buzud-home-body-composition-scale-cf509-8885020711448",
-              "image": "/images/products/buzud-8885020711448.png"
-            },
-            {
-              "title": "注射针头 32G 4mm",
-              "href": "/cn/zh/p/buzud-pen-needles-plus-pro-32g-4mm-8885020711547",
-              "image": "/images/products/buzud-8885020711547.png"
-            }
-          ],
-          "thumbnails": [],
-          "links": [
-            {
-              "title": "浏览全部健康监测设备",
-              "href": "/cn/zh/cat/buzud-health-devices"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "label": "胰岛素笔针",
       "href": "/cn/zh/cat/insulin-pen-needles",
       "columns": [
         {
           "heading": null,
-          "intro": "配合兼容胰岛素注射笔使用",
+          "intro": "胰岛素笔针",
           "cards": [
             {
-              "title": "32G 6mm",
-              "href": "/cn/zh/p/buzud-pen-needles-plus-pro-32g-6mm",
-              "image": "/images/products/buzud-pen-needles-plus-pro-32g-6mm.png"
+              "title": "BUZUD Pen Needles Plus Pro 32G 6mm ",
+              "href": "/cn/zh/p/buzud-pen-needles-plus-pro-32g-6mm-8885020711530",
+              "image": "https://imgcdn2.buzud.com/202505/05/076eed6fd4b5f9c6d86685c9ad7a51a2.png"
             },
             {
-              "title": "安全款 31G 5mm",
-              "href": "/cn/zh/p/buzud-safety-pen-needles-hs-pro-31g-5mm",
-              "image": "/images/products/buzud-safety-pen-needles-hs-pro-31g-5mm.png"
+              "title": "BUZUD Safety Pen Needles HS Pro 31G 5mm",
+              "href": "/cn/zh/p/buzud-safety-pen-needles-hs-pro-31g-5mm-8885020711783",
+              "image": "https://imgcdn2.buzud.com/202505/05/3e71f184660337e3cdd43178ee45967d.png"
             },
             {
-              "title": "32G 5mm",
-              "href": "/cn/zh/p/buzud-pen-needles-plus-pro-32g-5mm",
-              "image": "/images/products/buzud-pen-needles-plus-pro-32g-5mm.png"
-            },
-            {
-              "title": "32G 4mm",
-              "href": "/cn/zh/p/buzud-pen-needles-plus-pro-32g-4mm-8885020711547",
-              "image": "/images/products/buzud-8885020711547.png"
+              "title": "BUZUD Pen Needles Plus Pro 32G 5mm ",
+              "href": "/cn/zh/p/buzud-pen-needles-plus-pro-32g-5mm-8885020712827",
+              "image": "https://imgcdn2.buzud.com/202606/22/5280b1887c9c4323c9a5cc9a1e0c7301.png"
             }
           ],
           "thumbnails": [],
@@ -255,6 +29,255 @@
             {
               "title": "浏览全部胰岛素笔针",
               "href": "/cn/zh/cat/insulin-pen-needles"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "简易氧气面罩",
+      "href": "/cn/zh/cat/simple-oxygen-mask",
+      "columns": [
+        {
+          "heading": null,
+          "intro": "简易氧气面罩",
+          "cards": [
+            {
+              "title": "Simple Oxygen Mask (adult)",
+              "href": "/cn/zh/p/simple-oxygen-mask-adult-8885020710281",
+              "image": "https://imgcdn2.buzud.com/202312/07/899c667627329b568a194f6147130a03.png"
+            },
+            {
+              "title": "Simple Oxygen Mask (child)",
+              "href": "/cn/zh/p/simple-oxygen-mask-child-8885020710298",
+              "image": "https://imgcdn2.buzud.com/202312/07/899c667627329b568a194f6147130a03.png"
+            }
+          ],
+          "thumbnails": [],
+          "links": [
+            {
+              "title": "浏览全部简易氧气面罩",
+              "href": "/cn/zh/cat/simple-oxygen-mask"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "便携式制氧机",
+      "href": "/cn/zh/cat/portable-oxygen-concentrator",
+      "columns": [
+        {
+          "heading": null,
+          "intro": "便携式制氧机",
+          "cards": [
+            {
+              "title": "BUZUD Portable Oxygen Concentrator 1000P (white)",
+              "href": "/cn/zh/p/buzud-portable-oxygen-concentrator-1000p-white-8885020711387",
+              "image": "https://imgcdn2.buzud.com/202409/07/236f41904fea19d9ed30055638a96a02.jpg"
+            },
+            {
+              "title": "BUZUD Portable Oxygen Concentrator 1000P (red)",
+              "href": "/cn/zh/p/buzud-portable-oxygen-concentrator-1000p-red-8885020711370",
+              "image": "https://imgcdn2.buzud.com/202409/07/1a6c107dda5d1004fd1fb5414b0b056d.jpg"
+            },
+            {
+              "title": "BUZUD Portable Oxygen Concentrator DYNAMIC 1000P Battery",
+              "href": "/cn/zh/p/buzud-portable-oxygen-concentrator-dynamic-1000p-battery-POC DYNAMIC 1000P BATTERY",
+              "image": "https://imgcdn2.buzud.com/202509/13/e918e50b80eb9c0de432214f5fd935b0.jpg"
+            }
+          ],
+          "thumbnails": [],
+          "links": [
+            {
+              "title": "浏览全部便携式制氧机",
+              "href": "/cn/zh/cat/portable-oxygen-concentrator"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "体温计",
+      "href": "/cn/zh/cat/thermometer",
+      "columns": [
+        {
+          "heading": null,
+          "intro": "体温计",
+          "cards": [
+            {
+              "title": "BUZUD Infrared Thermometer 20A",
+              "href": "/cn/zh/p/buzud-infrared-thermometer-20a-8885020711288",
+              "image": "https://imgcdn2.buzud.com/202403/20/c02c279025f69269ebca515a5cf9627b.jpg"
+            },
+            {
+              "title": "Disposable Ear Probe YE20 (10 boxes)",
+              "href": "/cn/zh/p/disposable-ear-probe-ye20-10-boxes-8885020711684-10",
+              "image": "https://imgcdn2.buzud.com/202504/16/b9d04ae687f6c86c9d6e27e5e907d1d4.png"
+            },
+            {
+              "title": "BUZUD Infrared Ear Thermometer BZD100",
+              "href": "/cn/zh/p/buzud-infrared-ear-thermometer-bzd100-8885020711677",
+              "image": "https://imgcdn2.buzud.com/202503/17/57a08012060844dd532303d5328887d0.jpg"
+            },
+            {
+              "title": "BUZUD Disposable Ear Probe YE20",
+              "href": "/cn/zh/p/buzud-disposable-ear-probe-ye20-8885020711684",
+              "image": "https://imgcdn2.buzud.com/202504/16/b9d04ae687f6c86c9d6e27e5e907d1d4.png"
+            }
+          ],
+          "thumbnails": [],
+          "links": [
+            {
+              "title": "浏览全部体温计",
+              "href": "/cn/zh/cat/thermometer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "助行器",
+      "href": "/cn/zh/cat/walking-aid",
+      "columns": [
+        {
+          "heading": null,
+          "intro": "助行器",
+          "cards": [
+            {
+              "title": "Walking Aid QK913L",
+              "href": "/cn/zh/p/walking-aid-qk913l-8885020710977",
+              "image": "https://imgcdn2.buzud.com/202312/07/d2e141620277bd8c04eaaa6f0c8367de.png"
+            },
+            {
+              "title": "Crutches (Standard)",
+              "href": "/cn/zh/p/crutches-standard-8885020711905",
+              "image": "https://imgcdn2.buzud.com/202505/30/752489cbed64336a72cc223468736951.png"
+            },
+            {
+              "title": "Foldable Walking Frame (Youth)",
+              "href": "/cn/zh/p/foldable-walking-frame-youth-8885020711844",
+              "image": "https://imgcdn2.buzud.com/202312/07/d2e141620277bd8c04eaaa6f0c8367de.png"
+            },
+            {
+              "title": "Crutches (Paediatric)",
+              "href": "/cn/zh/p/crutches-paediatric-8885020711875",
+              "image": "https://imgcdn2.buzud.com/202505/30/752489cbed64336a72cc223468736951.png"
+            },
+            {
+              "title": "Crutches (Tall)",
+              "href": "/cn/zh/p/crutches-tall-8885020711899",
+              "image": "https://imgcdn2.buzud.com/202505/30/752489cbed64336a72cc223468736951.png"
+            },
+            {
+              "title": "Walker Boot, Short ",
+              "href": "/cn/zh/p/walker-boot-short-8885020711950",
+              "image": "https://imgcdn2.buzud.com/202505/30/995e52c1a51959ce9be43d213402fa32.jpg"
+            },
+            {
+              "title": "Foldable Walking Frame (Adult)",
+              "href": "/cn/zh/p/foldable-walking-frame-adult-8885020711837",
+              "image": "https://imgcdn2.buzud.com/202312/07/d2e141620277bd8c04eaaa6f0c8367de.png"
+            },
+            {
+              "title": "Walker Boot, Standard - Medium",
+              "href": "/cn/zh/p/walker-boot-standard-medium-8885020711943",
+              "image": "https://imgcdn2.buzud.com/202505/30/fa269b0b434e19bd7cfdd04798ab4fe3.jpg"
+            }
+          ],
+          "thumbnails": [],
+          "links": [
+            {
+              "title": "浏览全部助行器",
+              "href": "/cn/zh/cat/walking-aid"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "检测试剂盒",
+      "href": "/cn/zh/cat/test-kit",
+      "columns": [
+        {
+          "heading": null,
+          "intro": "检测试剂盒",
+          "cards": [
+            {
+              "title": "HCG Pregnancy Rapid Test",
+              "href": "/cn/zh/p/hcg-pregnancy-rapid-test-8885020710595",
+              "image": "https://imgcdn2.buzud.com/202312/07/afaf4698e2013045f83b38a837ad02db.jpg"
+            },
+            {
+              "title": "H.pylori Antigen Rapid Test",
+              "href": "/cn/zh/p/h-pylori-antigen-rapid-test-8885020710588",
+              "image": "https://imgcdn2.buzud.com/202312/07/d4eeacb5c72623ce24df19c14e02d05e.png"
+            },
+            {
+              "title": "BUZUD Urinary Tract Infections Test For Self-Testing",
+              "href": "/cn/zh/p/buzud-urinary-tract-infections-test-for-self-testing-8885020710656",
+              "image": "https://imgcdn2.buzud.com/202512/23/ffa20e66e713226bcf22089d8d191a46.png"
+            },
+            {
+              "title": "Onestep FSH Urine Test",
+              "href": "/cn/zh/p/onestep-fsh-urine-test-8885020710601",
+              "image": "https://imgcdn2.buzud.com/202312/07/da0a495df06d8194de94fde2b07336d2.jpg"
+            },
+            {
+              "title": "Vaginal pH Rapid Test Panel",
+              "href": "/cn/zh/p/vaginal-ph-rapid-test-panel-8885020710649",
+              "image": "https://imgcdn2.buzud.com/202312/07/51d44cee66d0e6a8771177eb3b7a2862.jpg"
+            },
+            {
+              "title": "LH Ovulation Rapid Test",
+              "href": "/cn/zh/p/lh-ovulation-rapid-test-8885020710618",
+              "image": "https://imgcdn2.buzud.com/202312/07/3579ab369b8cd3b83278834bd2b978c4.jpg"
+            },
+            {
+              "title": "One-step Fecal Occult Blood Test",
+              "href": "/cn/zh/p/one-step-fecal-occult-blood-test-8885020710625",
+              "image": "https://imgcdn2.buzud.com/202312/07/d820924c947ef4d4395f691c0a8145fa.png"
+            },
+            {
+              "title": "SP-10 Male Fertility Rapid Test Cassette",
+              "href": "/cn/zh/p/sp-10-male-fertility-rapid-test-cassette-8885020710663",
+              "image": "https://imgcdn2.buzud.com/202312/07/b06da4ce9376e0b4085a9707ad80bceb.png"
+            }
+          ],
+          "thumbnails": [],
+          "links": [
+            {
+              "title": "浏览全部检测试剂盒",
+              "href": "/cn/zh/cat/test-kit"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "鼻氧管",
+      "href": "/cn/zh/cat/nasal-oxygen-cannula",
+      "columns": [
+        {
+          "heading": null,
+          "intro": "鼻氧管",
+          "cards": [
+            {
+              "title": "Nasal Oxygen Cannula (5m) ",
+              "href": "/cn/zh/p/nasal-oxygen-cannula-5m-8885020710250",
+              "image": "https://imgcdn2.buzud.com/202312/07/2c705ffac9f924051e4a0a60212c7e81.png"
+            },
+            {
+              "title": "Nasal Oxygen Cannula (2m)",
+              "href": "/cn/zh/p/nasal-oxygen-cannula-2m-8885020710243",
+              "image": "https://imgcdn2.buzud.com/202312/07/2c705ffac9f924051e4a0a60212c7e81.png"
+            }
+          ],
+          "thumbnails": [],
+          "links": [
+            {
+              "title": "浏览全部鼻氧管",
+              "href": "/cn/zh/cat/nasal-oxygen-cannula"
             }
           ]
         }

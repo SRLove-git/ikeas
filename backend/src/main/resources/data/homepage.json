@@ -9,7 +9,13 @@
       "href": "/cn/zh/customer-service/contact-us/"
     }
   ],
-  "searchHints": ["早孕检测", "血压计", "智能手表", "血糖仪", "幽门螺杆菌"],
+  "searchHints": [
+    "早孕检测",
+    "血压计",
+    "智能手表",
+    "血糖仪",
+    "幽门螺杆菌"
+  ],
   "navMenuItems": [
     {
       "label": "所有商品",
@@ -17,28 +23,32 @@
       "hasMegaMenu": true
     },
     {
-      "label": "快速检测",
-      "href": "/cn/zh/cat/buzud-rapid-tests"
-    },
-    {
-      "label": "智能手表",
-      "href": "/cn/zh/cat/buzud-watches"
-    },
-    {
-      "label": "血压计",
-      "href": "/cn/zh/cat/buzud-blood-pressure-monitors"
-    },
-    {
-      "label": "血糖管理",
-      "href": "/cn/zh/cat/buzud-glucose-management"
-    },
-    {
-      "label": "健康设备",
-      "href": "/cn/zh/cat/buzud-health-devices"
-    },
-    {
       "label": "胰岛素笔针",
       "href": "/cn/zh/cat/insulin-pen-needles"
+    },
+    {
+      "label": "简易氧气面罩",
+      "href": "/cn/zh/cat/simple-oxygen-mask"
+    },
+    {
+      "label": "便携式制氧机",
+      "href": "/cn/zh/cat/portable-oxygen-concentrator"
+    },
+    {
+      "label": "体温计",
+      "href": "/cn/zh/cat/thermometer"
+    },
+    {
+      "label": "助行器",
+      "href": "/cn/zh/cat/walking-aid"
+    },
+    {
+      "label": "检测试剂盒",
+      "href": "/cn/zh/cat/test-kit"
+    },
+    {
+      "label": "鼻氧管",
+      "href": "/cn/zh/cat/nasal-oxygen-cannula"
     },
     {
       "label": "客户服务",
@@ -47,51 +57,275 @@
   ],
   "megaMenuCategories": [
     {
-      "name": "快速检测试剂",
+      "name": "胰岛素笔针",
       "subCategories": [
-        "早孕检测",
-        "排卵检测",
-        "阴道微生态检测",
-        "新冠/流感联检",
-        "幽门螺杆菌检测",
-        "尿路感染检测",
-        "甲流/乙流检测",
-        "便隐血检测",
-        "男性生育力检测"
+        "BUZUD Pen Needles Plus Pro 32G 6mm ",
+        "BUZUD Safety Pen Needles HS Pro 31G 5mm",
+        "BUZUD Pen Needles Plus Pro 32G 5mm "
+      ]
+    },
+    {
+      "name": "简易氧气面罩",
+      "subCategories": [
+        "Simple Oxygen Mask (adult)",
+        "Simple Oxygen Mask (child)"
+      ]
+    },
+    {
+      "name": "便携式制氧机",
+      "subCategories": [
+        "BUZUD Portable Oxygen Concentrator 1000P (white)",
+        "BUZUD Portable Oxygen Concentrator 1000P (red)",
+        "BUZUD Portable Oxygen Concentrator DYNAMIC 1000P Battery"
+      ]
+    },
+    {
+      "name": "体温计",
+      "subCategories": [
+        "BUZUD Infrared Thermometer 20A",
+        "Disposable Ear Probe YE20 (10 boxes)",
+        "BUZUD Infrared Ear Thermometer BZD100",
+        "BUZUD Disposable Ear Probe YE20"
+      ]
+    },
+    {
+      "name": "助行器",
+      "subCategories": [
+        "Walking Aid QK913L",
+        "Crutches (Standard)",
+        "Foldable Walking Frame (Youth)",
+        "Crutches (Paediatric)",
+        "Crutches (Tall)",
+        "Walker Boot, Short ",
+        "Foldable Walking Frame (Adult)",
+        "Walker Boot, Standard - Medium",
+        "Elbow Crutches",
+        "Crutches (Youth)"
+      ]
+    },
+    {
+      "name": "检测试剂盒",
+      "subCategories": [
+        "HCG Pregnancy Rapid Test",
+        "H.pylori Antigen Rapid Test",
+        "BUZUD Urinary Tract Infections Test For Self-Testing",
+        "Onestep FSH Urine Test",
+        "Vaginal pH Rapid Test Panel",
+        "LH Ovulation Rapid Test",
+        "One-step Fecal Occult Blood Test",
+        "SP-10 Male Fertility Rapid Test Cassette",
+        "BUZUD Influenza A&B Ag Rapid Test (Cassette) (1 test/box)",
+        "COVID-19/Flu A&B/RSV/Adeno Ag Combo Rapid Test Cassette (Swab) (1 test/box)",
+        "TSH Rapid Test Cassette (Whole Blood)",
+        "BUZUD Influenza A&B Ag Rapid Test (Cassette) (5 test/box)",
+        "COVID-19/Flu A&B/RSV/Adeno Ag Combo Rapid Test Cassette (Swab) (5 tests/box)",
+        "COVID-19/Flu A&B/RSV/Adeno Ag Combo Rapid Test Cassette (Swab) (20 tests/box)"
+      ]
+    },
+    {
+      "name": "鼻氧管",
+      "subCategories": [
+        "Nasal Oxygen Cannula (5m) ",
+        "Nasal Oxygen Cannula (2m)"
+      ]
+    },
+    {
+      "name": "制氧机",
+      "subCategories": [
+        "BUZUD Oxygen Concentrator SZ-5BW-10L",
+        "BUZUD Oxygen Concentrator SZ-5BW-5L",
+        "BUZUD Oxygen Concentrator 10FW-D",
+        "BUZUD Oxygen Concentrator 10FW",
+        "BUZUD Home-Use Oxygen Concentrator PRAGMATIC",
+        "Filter for BUZUD Oxygen Concentrator SZ-5BW"
+      ]
+    },
+    {
+      "name": "高流量鼻氧管",
+      "subCategories": [
+        "High-Flow Nasal Cannula NeoHiF-i5",
+        "High-Flow Nasal Cannula NeoHiF-i7"
+      ]
+    },
+    {
+      "name": "血糖试纸",
+      "subCategories": [
+        "BUZUD Blood Glucose Test Strip (for Safe AQ UG and GlucoInsight Lite)",
+        "BUZUD Blood Glucose Test Strip set (for Safe AQ UG and GlucoInsight Lite)",
+        "BUZUD Uric Acid test strips (for Glucose, Ketone and Uric Acid meter)",
+        "BUZUD Ketone test strips (for Glucose, Ketone and Uric Acid meter)",
+        "BUZUD GlucoInsight Lite Test Strip (for GlucoInsight Lite and Safe AQ UG)",
+        "BUZUD Glucose test strips (for GlucoInsight Plus and Glucose, Ketone and Uric Acid Meter)"
+      ]
+    },
+    {
+      "name": "动态血糖监测系统（CGMS）",
+      "subCategories": [
+        "BUZUD Continuous Glucose Monitoring System 180 days Advanced Plan",
+        "BUZUD Continuous Glucose Monitoring System 90 days Starter Plan",
+        "BUZUD Continuous Glucose Monitoring System 365 days Premium Plan",
+        "BUZUD Continuous Glucose Monitoring System Sensor 2.0"
+      ]
+    },
+    {
+      "name": "氧气雾化管路及口含器",
+      "subCategories": [
+        "Oxygen Nebulizer Tubing and Mouthpiece"
+      ]
+    },
+    {
+      "name": "转移椅",
+      "subCategories": [
+        "BUZUD Manual Transfer Chair ",
+        "Electric Transfer Wheelchair DY077602"
+      ]
+    },
+    {
+      "name": "尿酸试纸",
+      "subCategories": [
+        "BUZUD Safe AQ UG Uric Acid Test Strip",
+        "BUZUD Safe AQ UG Uric Acid Test Strip and Lancet set"
+      ]
+    },
+    {
+      "name": "血脂检测试纸",
+      "subCategories": [
+        "BUZUD Blood Lipid Test Strip PFS 30 (20 strips/box)"
+      ]
+    },
+    {
+      "name": "血液分析仪",
+      "subCategories": [
+        "GlucoInsight Plus meter",
+        "BUZUD Safe AQ UG Blood Glucose and Uric Acid Monitoring System single",
+        "BUZUD Safe AQ UG Blood Glucose Monitoring System Set",
+        "BUZUD Safe AQ UG Uric Acid Monitoring System Set",
+        "BUZUD Safe AQ UG Blood Glucose and Uric Acid Monitoring System Set",
+        "GlucoInsight Lite set",
+        "BUZUD Glucose, Ketone and Uric Acid Meter set",
+        "BUZUD Capillary Tubes (10pcs)"
+      ]
+    },
+    {
+      "name": "血压计",
+      "subCategories": [
+        "BUZUD Blood Pressure Monitor 30S",
+        "BUZUD Blood Pressure Monitor 30C",
+        "BUZUD Blood Pressure Monitor 30M",
+        "Upper Arm Blood Pressure Monitor U82RH",
+        "Blood Pressure Arm Cuff ",
+        "Upper Arm Blood Pressure Monitor C02",
+        "BUZUD Blood Pressure Monitor 630CR",
+        "BUZUD Blood Pressure Monitor Power Cable"
+      ]
+    },
+    {
+      "name": "酒精棉片",
+      "subCategories": [
+        "BUZUD Alcohol Swab"
+      ]
+    },
+    {
+      "name": "呼吸护理",
+      "subCategories": [
+        "BUZUD Air-compressing Nebulizer 407A"
+      ]
+    },
+    {
+      "name": "助听器",
+      "subCategories": [
+        "Hearing Aid A51(black)",
+        "Hearing Aid W6(white)",
+        "Hearing Aid W6(black)",
+        "Hearing Aids D26",
+        "Hearing Aid W3",
+        "Hearing Aid A51(white)"
+      ]
+    },
+    {
+      "name": "轮椅",
+      "subCategories": [
+        "BUZUD Pushchair QK805LABJ",
+        "Electric Wheelchair QK110",
+        "Additional Battery for the Electric Wheelchair QK110",
+        "Steel Wheelchair QK902C",
+        "BUZUD Pediatric tilt-in-space wheelchair with built-in-growth QK966M",
+        "Wheelchair with 12 inch wheel",
+        "Steel Wheelchair QK608GC",
+        "Wheelchair with 16 inch wheel\t\t",
+        "BUZUD Pediatric Tilt & Recline Wheelchair QK958L"
+      ]
+    },
+    {
+      "name": "病人监护仪",
+      "subCategories": [
+        "Multi-Parameter Patient Monitor 8000C",
+        "Health Monitor Checkme Lite",
+        "Health Monitor Checkme Lite - set of disposable ECG patches (10/pouch)"
+      ]
+    },
+    {
+      "name": "采血针",
+      "subCategories": [
+        "BUZUD Disposable Safety Lancets Flex 3 23G",
+        "BUZUD Disposable Safety Lancets Flex 3 28G",
+        "BUZUD Safe AQ UG Lancet 28G (for use with Safe AQ UG and GlucoInsight)"
       ]
     },
     {
       "name": "智能手表",
       "subCategories": [
-        "Vibrance 经典款",
-        "Vibrance 绿色",
-        "Vibrance 粉色",
-        "Vibrance 星光",
-        "Vibrance 紫色"
+        "Smartwatch Generous(Lightning Silver)",
+        "Smartwatch Generous(Dawn Gold)",
+        "Smartwatch Generous(Cosmic Black)",
+        "Smartwatch Generous(Rainbow Gold)",
+        "Smartwatch Generous(Star Grey)",
+        "Smartwatch Generous(Star Silver)",
+        "BUZUD Watch Vibrance"
       ]
     },
     {
-      "name": "血压计",
-      "subCategories": ["上臂式 C02", "上臂式 30C", "上臂式 30S"]
+      "name": "自动体外除颤器（AED）",
+      "subCategories": [
+        "Battery pack for BUZUD Automatic External Defibrillator 7000"
+      ]
     },
     {
-      "name": "血糖管理",
-      "subCategories": ["CGM 传感器 2.0", "GlucoInsight Plus", "GlucoInsight Lite"]
+      "name": "身体成分秤",
+      "subCategories": [
+        "BUZUD Home Body Composition Scale CF577",
+        "BUZUD Ultrasonic Height and Weight Body Fat Scale CP30G",
+        "BUZUD Home Body Composition Scale CF509",
+        "BUZUD Home Body Composition Scale CF586"
+      ]
     },
     {
-      "name": "健康监测设备",
-      "subCategories": ["红外耳温枪 BZD100", "智能体重秤 CF509", "注射针头 32G 4mm"]
+      "name": "康复理疗",
+      "subCategories": [
+        "BUZUD Hand Function Rehabilitation Training System SRH 200 Premium",
+        "BUZUD Hand Function Rehabilitation Training System SRH 300 Desktop",
+        "BUZUD Hand Function Rehabilitation Training System Glove (Large) - Driver (Left hand)",
+        "BUZUD Hand Function Rehabilitation Training System SRH 200 Basic",
+        "BUZUD Hand Function Rehabilitation Training System Glove (Large) - Passive (Left hand)",
+        "BUZUD Hand Function Rehabilitation Training System Glove (Large) - Passive (Right hand)",
+        "BUZUD Hand Function Rehabilitation Training System Glove (Large) - Driver (Right hand)"
+      ]
     },
     {
-      "name": "胰岛素笔针",
-      "subCategories": ["32G 6mm", "安全款 31G 5mm", "32G 5mm", "32G 4mm"]
+      "name": "脉搏血氧仪",
+      "subCategories": [
+        "BUZUD Fingertip Pulse Oximeter 70B",
+        "BUZUD Fingertip Pulse Oximeter 10I",
+        "BUZUD Fingertip Pulse Oximeter 20D",
+        "BUZUD Fingertip Pulse Oximeter 70C"
+      ]
     }
   ],
   "heroSlides": [
     {
       "id": "buzud-home-1",
       "image": "/images/cms/buzud-home-1.png",
-      "href": "/cn/zh/cat/buzud-watches",
+      "href": "/cn/zh/cat/smart-watch",
       "alt": "BUZUD Watch Vibrance 智能健康手表促销"
     },
     {
@@ -115,7 +349,7 @@
     {
       "id": "buzud-home-5",
       "image": "/images/cms/buzud-home-5.png",
-      "href": "/cn/zh/cat/buzud-glucose-management",
+      "href": "/cn/zh/cat/cgms",
       "alt": "Celebrate SG61 持续血糖监测系统传感器"
     }
   ],
@@ -125,7 +359,7 @@
       "title": "快速检测试剂",
       "description": "9 件健康产品，点击选购",
       "ctaLabel": "立即选购",
-      "ctaHref": "/cn/zh/cat/buzud-rapid-tests",
+      "ctaHref": "/cn/zh/cat/test-kit",
       "image": "/images/products/buzud-8885020710595.png",
       "backgroundColor": "#00a19a",
       "textColor": "#ffffff"
@@ -135,7 +369,7 @@
       "title": "智能手表",
       "description": "5 件健康产品，点击选购",
       "ctaLabel": "立即选购",
-      "ctaHref": "/cn/zh/cat/buzud-watches",
+      "ctaHref": "/cn/zh/cat/smart-watch",
       "image": "/images/products/buzud-8885020712582.png",
       "backgroundColor": "#0058a3",
       "textColor": "#ffffff"
@@ -145,7 +379,7 @@
       "title": "血压计",
       "description": "3 件健康产品，点击选购",
       "ctaLabel": "立即选购",
-      "ctaHref": "/cn/zh/cat/buzud-blood-pressure-monitors",
+      "ctaHref": "/cn/zh/cat/blood-pressure-monitor",
       "image": "/images/products/buzud-8885020710151.png",
       "backgroundColor": "#e2711d",
       "textColor": "#ffffff"
@@ -155,7 +389,7 @@
       "title": "血糖管理",
       "description": "3 件健康产品，点击选购",
       "ctaLabel": "立即选购",
-      "ctaHref": "/cn/zh/cat/buzud-glucose-management",
+      "ctaHref": "/cn/zh/cat/cgms",
       "image": "/images/products/buzud-8885020711394.png",
       "backgroundColor": "#00796b",
       "textColor": "#ffffff"
@@ -165,7 +399,7 @@
       "title": "健康监测设备",
       "description": "3 件健康产品，点击选购",
       "ctaLabel": "立即选购",
-      "ctaHref": "/cn/zh/cat/buzud-health-devices",
+      "ctaHref": "/cn/zh/cat/thermometer",
       "image": "/images/products/buzud-8885020711677.png",
       "backgroundColor": "#b23a48",
       "textColor": "#ffffff"
@@ -416,27 +650,27 @@
     {
       "label": "快速检测试剂",
       "image": "/images/products/buzud-8885020710595.png",
-      "href": "/cn/zh/cat/buzud-rapid-tests"
+      "href": "/cn/zh/cat/test-kit"
     },
     {
       "label": "智能手表",
       "image": "/images/products/buzud-8885020712582.png",
-      "href": "/cn/zh/cat/buzud-watches"
+      "href": "/cn/zh/cat/smart-watch"
     },
     {
       "label": "血压计",
       "image": "/images/products/buzud-8885020710151.png",
-      "href": "/cn/zh/cat/buzud-blood-pressure-monitors"
+      "href": "/cn/zh/cat/blood-pressure-monitor"
     },
     {
       "label": "血糖管理",
       "image": "/images/products/buzud-8885020711394.png",
-      "href": "/cn/zh/cat/buzud-glucose-management"
+      "href": "/cn/zh/cat/cgms"
     },
     {
       "label": "健康监测设备",
       "image": "/images/products/buzud-8885020711677.png",
-      "href": "/cn/zh/cat/buzud-health-devices"
+      "href": "/cn/zh/cat/thermometer"
     }
   ],
   "roomPillCta": {
@@ -448,28 +682,28 @@
   "sustainabilityPillItems": [
     {
       "label": "BUZUD Watch Vibrance",
-      "image": "/images/products/buzud-8885020712582.png",
+      "image": "https://imgcdn2.buzud.com/202510/24/589121537c3a75b674807ee977e042ae.jpg",
       "href": "/cn/zh/p/buzud-watch-vibrance-8885020712582"
     },
     {
-      "label": "BUZUD Watch Vibrance Green",
-      "image": "/images/products/buzud-8885020712728.png",
-      "href": "/cn/zh/p/buzud-watch-vibrance-green-8885020712728"
+      "label": "BUZUD Pen Needles Plus Pro 32G 6mm ",
+      "image": "https://imgcdn2.buzud.com/202505/05/076eed6fd4b5f9c6d86685c9ad7a51a2.png",
+      "href": "/cn/zh/p/buzud-pen-needles-plus-pro-32g-6mm-8885020711530"
     },
     {
-      "label": "BUZUD Watch Vibrance Pink",
-      "image": "/images/products/buzud-8885020712735.png",
-      "href": "/cn/zh/p/buzud-watch-vibrance-pink-8885020712735"
+      "label": "BUZUD Fingertip Pulse Oximeter 70B",
+      "image": "https://imgcdn2.buzud.com/202409/07/efa520a8c6e9dd7c366244e3535551fb.png",
+      "href": "/cn/zh/p/buzud-fingertip-pulse-oximeter-70b-8885020711479"
     },
     {
-      "label": "BUZUD Watch Vibrance Star Light",
-      "image": "/images/products/buzud-8885020712742.png",
-      "href": "/cn/zh/p/buzud-watch-vibrance-star-light-8885020712742"
+      "label": "BUZUD Infrared Ear Thermometer BZD100",
+      "image": "https://imgcdn2.buzud.com/202503/17/57a08012060844dd532303d5328887d0.jpg",
+      "href": "/cn/zh/p/buzud-infrared-ear-thermometer-bzd100-8885020711677"
     },
     {
-      "label": "BUZUD Watch Vibrance Violet",
-      "image": "/images/products/buzud-8885020712759.png",
-      "href": "/cn/zh/p/buzud-watch-vibrance-violet-8885020712759"
+      "label": "BUZUD Home Body Composition Scale CF509",
+      "image": "https://imgcdn2.buzud.com/202409/06/2a591c86aed145c6c5470b993b7116bc.jpg",
+      "href": "/cn/zh/p/buzud-home-body-composition-scale-cf509-8885020711448"
     }
   ],
   "sustainabilityPillCta": {
@@ -489,7 +723,9 @@
         "title": "HCG Pregnancy Rapid Test",
         "desc": "快速检测试剂",
         "price": "SGD 4.80",
-        "tags": ["BUZUD"],
+        "tags": [
+          "BUZUD"
+        ],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "/images/products/buzud-8885020710595.png"
       },
@@ -502,7 +738,9 @@
         "title": "LH Ovulation Rapid Test",
         "desc": "快速检测试剂",
         "price": "SGD 5.80",
-        "tags": ["BUZUD"],
+        "tags": [
+          "BUZUD"
+        ],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "/images/products/buzud-8885020710618.png"
       },
@@ -515,7 +753,9 @@
         "title": "Vaginal pH Rapid Test Panel",
         "desc": "快速检测试剂",
         "price": "SGD 16.00",
-        "tags": ["BUZUD"],
+        "tags": [
+          "BUZUD"
+        ],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "/images/products/buzud-8885020710649.png"
       },
@@ -528,61 +768,71 @@
         "title": "BUZUD Watch Vibrance",
         "desc": "智能手表",
         "price": "SGD 237.00",
-        "tags": ["BUZUD"],
+        "tags": [
+          "BUZUD"
+        ],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "/images/products/buzud-8885020712582.png"
       },
       {
-        "productId": "8885020712728",
+        "productId": "8885020711530",
         "left": "8%",
         "top": "40%",
-        "href": "/cn/zh/p/buzud-watch-vibrance-green-8885020712728",
+        "href": "/cn/zh/p/buzud-pen-needles-plus-pro-32g-6mm-8885020711530",
         "tooltipPosition": "is-top",
-        "title": "BUZUD Watch Vibrance Green",
-        "desc": "智能手表",
-        "price": "SGD 237.00",
-        "tags": ["BUZUD"],
+        "title": "BUZUD Pen Needles Plus Pro 32G 6mm ",
+        "desc": "胰岛素笔针",
+        "price": "SGD 26.00",
+        "tags": [
+          "BUZUD"
+        ],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
-        "image": "/images/products/buzud-8885020712728.png"
+        "image": "https://imgcdn2.buzud.com/202505/05/076eed6fd4b5f9c6d86685c9ad7a51a2.png"
       },
       {
-        "productId": "8885020712735",
+        "productId": "8885020711479",
         "left": "32%",
         "top": "70%",
-        "href": "/cn/zh/p/buzud-watch-vibrance-pink-8885020712735",
+        "href": "/cn/zh/p/buzud-fingertip-pulse-oximeter-70b-8885020711479",
         "tooltipPosition": "is-top",
-        "title": "BUZUD Watch Vibrance Pink",
-        "desc": "智能手表",
-        "price": "SGD 237.00",
-        "tags": ["BUZUD"],
+        "title": "BUZUD Fingertip Pulse Oximeter 70B",
+        "desc": "脉搏血氧仪",
+        "price": "SGD 57.00",
+        "tags": [
+          "BUZUD"
+        ],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
-        "image": "/images/products/buzud-8885020712735.png"
+        "image": "https://imgcdn2.buzud.com/202409/07/efa520a8c6e9dd7c366244e3535551fb.png"
       },
       {
-        "productId": "8885020712742",
+        "productId": "8885020711677",
         "left": "56%",
         "top": "10%",
-        "href": "/cn/zh/p/buzud-watch-vibrance-star-light-8885020712742",
+        "href": "/cn/zh/p/buzud-infrared-ear-thermometer-bzd100-8885020711677",
         "tooltipPosition": "is-top",
-        "title": "BUZUD Watch Vibrance Star Light",
-        "desc": "智能手表",
-        "price": "SGD 237.00",
-        "tags": ["BUZUD"],
+        "title": "BUZUD Infrared Ear Thermometer BZD100",
+        "desc": "体温计",
+        "price": "SGD 87.00",
+        "tags": [
+          "BUZUD"
+        ],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
-        "image": "/images/products/buzud-8885020712742.png"
+        "image": "https://imgcdn2.buzud.com/202503/17/57a08012060844dd532303d5328887d0.jpg"
       },
       {
-        "productId": "8885020712759",
+        "productId": "8885020711448",
         "left": "80%",
         "top": "40%",
-        "href": "/cn/zh/p/buzud-watch-vibrance-violet-8885020712759",
+        "href": "/cn/zh/p/buzud-home-body-composition-scale-cf509-8885020711448",
         "tooltipPosition": "is-top",
-        "title": "BUZUD Watch Vibrance Violet",
-        "desc": "智能手表",
-        "price": "SGD 237.00",
-        "tags": ["BUZUD"],
+        "title": "BUZUD Home Body Composition Scale CF509",
+        "desc": "身体成分秤",
+        "price": "SGD 37.00",
+        "tags": [
+          "BUZUD"
+        ],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
-        "image": "/images/products/buzud-8885020712759.png"
+        "image": "https://imgcdn2.buzud.com/202409/06/2a591c86aed145c6c5470b993b7116bc.jpg"
       },
       {
         "productId": "8885020712209",
@@ -593,7 +843,9 @@
         "title": "COVID-19/Flu A&B/RSV/Adeno Ag Combo Rapid Test Cassette (Swab) (1 test/box)",
         "desc": "快速检测试剂",
         "price": "SGD 17.00",
-        "tags": ["BUZUD"],
+        "tags": [
+          "BUZUD"
+        ],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "/images/products/buzud-8885020712209.png"
       },
@@ -606,7 +858,9 @@
         "title": "H.pylori Antigen Rapid Test",
         "desc": "快速检测试剂",
         "price": "SGD 18.00",
-        "tags": ["BUZUD"],
+        "tags": [
+          "BUZUD"
+        ],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "/images/products/buzud-8885020710588.png"
       },
@@ -619,7 +873,9 @@
         "title": "BUZUD Infrared Ear Thermometer BZD100",
         "desc": "体温计",
         "price": "SGD 87.00",
-        "tags": ["BUZUD"],
+        "tags": [
+          "BUZUD"
+        ],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "/images/products/buzud-8885020711677.png"
       },
@@ -632,7 +888,9 @@
         "title": "BUZUD Home Body Composition Scale CF509",
         "desc": "智能体重秤",
         "price": "SGD 37.00",
-        "tags": ["BUZUD"],
+        "tags": [
+          "BUZUD"
+        ],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "/images/products/buzud-8885020711448.png"
       }
@@ -679,23 +937,23 @@
         },
         {
           "label": "快速检测试剂",
-          "href": "/cn/zh/cat/buzud-rapid-tests"
+          "href": "/cn/zh/cat/test-kit"
         },
         {
           "label": "智能手表",
-          "href": "/cn/zh/cat/buzud-watches"
+          "href": "/cn/zh/cat/smart-watch"
         },
         {
           "label": "血压计",
-          "href": "/cn/zh/cat/buzud-blood-pressure-monitors"
+          "href": "/cn/zh/cat/blood-pressure-monitor"
         },
         {
           "label": "血糖管理",
-          "href": "/cn/zh/cat/buzud-glucose-management"
+          "href": "/cn/zh/cat/cgms"
         },
         {
           "label": "健康监测设备",
-          "href": "/cn/zh/cat/buzud-health-devices"
+          "href": "/cn/zh/cat/thermometer"
         }
       ]
     },

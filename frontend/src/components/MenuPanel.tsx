@@ -14,9 +14,8 @@ export function MenuPanel({ panel }: MenuPanelProps) {
   return (
     <div className="header_container_bottom">
       <div className="max-w-page mx-auto px-10 py-8">
-        <div className="grid grid-cols-2 gap-x-12 gap-y-10 md:grid-cols-3">
+        <div className="grid grid-cols-1 gap-10">
           {panel.columns.map((column, columnIndex) => {
-            const wide = column.cards.length <= 2 && column.cards.length > 0;
             return (
               <div key={columnIndex} className="min-w-0">
                 {column.heading ? (
@@ -27,22 +26,14 @@ export function MenuPanel({ panel }: MenuPanelProps) {
                 ) : null}
 
                 {column.cards.length > 0 ? (
-                  <div
-                    className={`grid gap-6 ${
-                      wide ? "grid-cols-1" : "grid-cols-2 gap-x-4"
-                    }`}
-                  >
+                  <div className="flex gap-5 overflow-x-auto pb-2">
                     {column.cards.map((card, index) => {
                       const content = (
-                        <div className="group block">
+                        <div className="group block w-40 shrink-0">
                           <SiteImage
                             src={card.image}
                             alt={card.title}
-                            className={
-                              wide
-                                ? "aspect-[39/18] w-full"
-                                : "aspect-[4/3] w-full"
-                            }
+                            className="aspect-square w-full"
                           />
                           {card.title ? (
                             <p className="mt-2 text-sm font-bold transition-colors group-hover:text-ikea-blue">
@@ -52,11 +43,17 @@ export function MenuPanel({ panel }: MenuPanelProps) {
                         </div>
                       );
                       return isExternal(card.href) ? (
-                        <a key={index} href={card.href} target="_blank" rel="noreferrer">
+                        <a
+                          key={index}
+                          href={card.href}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="w-40 shrink-0"
+                        >
                           {content}
                         </a>
                       ) : (
-                        <Link key={index} href={card.href}>
+                        <Link key={index} href={card.href} className="w-40 shrink-0">
                           {content}
                         </Link>
                       );

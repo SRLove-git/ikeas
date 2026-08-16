@@ -1,24 +1,31 @@
+name: buzud
+
 services:
   app:
     build:
       context: ..
       dockerfile: deploy/Dockerfile
       target: runner
-    image: ai-website-cloner:latest
-    container_name: ai-website-cloner
+      args:
+        NEXT_PUBLIC_API_BASE: ${NEXT_PUBLIC_API_BASE:-http://47.84.25.19:8081}
+        NEXT_PUBLIC_BASE_PATH: ${NEXT_PUBLIC_BASE_PATH:-}
+    image: buzud-frontend:latest
+    container_name: buzud-frontend
     restart: unless-stopped
     ports:
       - "${PORT:-3000}:3000"
     environment:
       - NODE_ENV=production
       - NEXT_TELEMETRY_DISABLED=1
+      - NEXT_PUBLIC_API_BASE=${NEXT_PUBLIC_API_BASE:-http://47.84.25.19:8081}
+      - NEXT_PUBLIC_BASE_PATH=${NEXT_PUBLIC_BASE_PATH:-}
     env_file:
       - path: ../.env.local
         required: false
       - path: ../.env
         required: false
     healthcheck:
-      test: ["CMD-SHELL", "wget -qO- http://localhost:3000/ || exit 1"]
+      test: ["CMD-SHELL", "node -e \"fetch('http://127.0.0.1:3000/').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))\""]
       interval: 30s
       timeout: 10s
       retries: 3
@@ -52,23 +59,23 @@ services:
       retries: 3
       start_period: 15s
 
-  server:
+  buzud-server:
     build:
       context: ..
       dockerfile: backend/Dockerfile
-    image: ikea-server:latest
-    container_name: ikea-server
+    image: buzud-server:latest
+    container_name: buzud-server
     restart: unless-stopped
     ports:
       - "${SERVER_PORT:-8080}:8080"
     environment:
       - IKEA_STATIC_PUBLIC_DIR=${IKEA_STATIC_PUBLIC_DIR:-/app/frontend/public}
-      - CORS_ALLOWED_ORIGINS=${CORS_ALLOWED_ORIGINS:-http://localhost:3000,http://localhost:3001}
+      - CORS_ALLOWED_ORIGINS=${CORS_ALLOWED_ORIGINS:-http://localhost:3000,http://localhost:3001,http://47.84.25.19:3001}
       - DB_HOST=db
       - DB_PORT=5432
       - DB_NAME=buzud
       - DB_USER=buzud
-      - DB_PASSWORD=buzud
+      - DB_PASSWORD=${DB_PASSWORD:-buzud}
       - IKEA_JWT_SECRET=${IKEA_JWT_SECRET:-change-me-to-a-long-random-secret-at-least-32-bytes}
       - BUZUD_OMS_ENABLED=${BUZUD_OMS_ENABLED:-false}
       - BUZUD_OMS_GATEWAY_URL=${BUZUD_OMS_GATEWAY_URL:-http://localhost:8080}
@@ -94,7 +101,7 @@ services:
     environment:
       - POSTGRES_DB=buzud
       - POSTGRES_USER=buzud
-      - POSTGRES_PASSWORD=buzud
+      - POSTGRES_PASSWORD=${DB_PASSWORD:-buzud}
     ports:
       - "${DB_PORT:-5432}:5432"
     volumes:

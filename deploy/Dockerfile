@@ -8,6 +8,8 @@
 # This Dockerfile defaults to Node.js 24.14.1-slim to match the repo's Node 24 baseline.
 # To ensure security and compatibility, update the NODE_VERSION ARG when the project's Node baseline changes.
 ARG NODE_VERSION=24.14.1-slim
+ARG NEXT_PUBLIC_API_BASE=http://47.84.25.19:8081
+ARG NEXT_PUBLIC_BASE_PATH=
 
 FROM node:${NODE_VERSION} AS dependencies
 
@@ -37,6 +39,9 @@ RUN --mount=type=cache,target=/root/.npm \
 
 FROM node:${NODE_VERSION} AS builder
 
+ARG NEXT_PUBLIC_API_BASE
+ARG NEXT_PUBLIC_BASE_PATH
+
 # Set working directory
 WORKDIR /app
 
@@ -47,6 +52,8 @@ COPY --from=dependencies /app/node_modules ./node_modules
 COPY frontend/ .
 
 ENV NODE_ENV=production
+ENV NEXT_PUBLIC_API_BASE=$NEXT_PUBLIC_API_BASE
+ENV NEXT_PUBLIC_BASE_PATH=$NEXT_PUBLIC_BASE_PATH
 
 # Next.js collects completely anonymous telemetry data about general usage.
 # Learn more here: https://nextjs.org/telemetry
@@ -75,6 +82,9 @@ RUN if [ -f package-lock.json ]; then \
 
 FROM node:${NODE_VERSION} AS runner
 
+ARG NEXT_PUBLIC_API_BASE
+ARG NEXT_PUBLIC_BASE_PATH
+
 # Set working directory
 WORKDIR /app
 
@@ -82,6 +92,8 @@ WORKDIR /app
 ENV NODE_ENV=production
 ENV PORT=3000
 ENV HOSTNAME="0.0.0.0"
+ENV NEXT_PUBLIC_API_BASE=$NEXT_PUBLIC_API_BASE
+ENV NEXT_PUBLIC_BASE_PATH=$NEXT_PUBLIC_BASE_PATH
 
 # Next.js collects completely anonymous telemetry data about general usage.
 # Learn more here: https://nextjs.org/telemetry

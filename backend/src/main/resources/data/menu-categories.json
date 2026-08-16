@@ -1,179 +1,818 @@
 {
   "categories": [
     {
-      "name": "快速检测试剂",
-      "url": "/cn/zh/cat/buzud-rapid-tests",
-      "image": "/images/products/buzud-8885020710595.png",
+      "name": "胰岛素笔针",
+      "url": "/cn/zh/cat/insulin-pen-needles",
+      "image": "https://imgcdn2.buzud.com/202505/06/f81692114023d8c93114db987305b8ec.jpg",
       "subs": [
         {
-          "name": "早孕检测",
-          "url": "/cn/zh/p/hcg-pregnancy-rapid-test-8885020710595",
-          "image": "/images/products/buzud-8885020710595.png"
+          "name": "BUZUD Pen Needles Plus Pro 32G 6mm ",
+          "url": "/cn/zh/p/buzud-pen-needles-plus-pro-32g-6mm-8885020711530",
+          "image": "https://imgcdn2.buzud.com/202505/05/076eed6fd4b5f9c6d86685c9ad7a51a2.png"
         },
         {
-          "name": "排卵检测",
-          "url": "/cn/zh/p/lh-ovulation-rapid-test-8885020710618",
-          "image": "/images/products/buzud-8885020710618.png"
+          "name": "BUZUD Safety Pen Needles HS Pro 31G 5mm",
+          "url": "/cn/zh/p/buzud-safety-pen-needles-hs-pro-31g-5mm-8885020711783",
+          "image": "https://imgcdn2.buzud.com/202505/05/3e71f184660337e3cdd43178ee45967d.png"
         },
         {
-          "name": "阴道微生态检测",
-          "url": "/cn/zh/p/vaginal-ph-rapid-test-panel-8885020710649",
-          "image": "/images/products/buzud-8885020710649.png"
-        },
-        {
-          "name": "新冠/流感联检",
-          "url": "/cn/zh/p/covid-19-flu-a-b-rsv-adeno-ag-combo-rapid-test-cassette-8885020712209",
-          "image": "/images/products/buzud-8885020712209.png"
-        },
-        {
-          "name": "幽门螺杆菌检测",
-          "url": "/cn/zh/p/h-pylori-antigen-rapid-test-8885020710588",
-          "image": "/images/products/buzud-8885020710588.png"
-        },
-        {
-          "name": "尿路感染检测",
-          "url": "/cn/zh/p/buzud-urinary-tract-infections-test-for-self-testing-8885020710656",
-          "image": "/images/products/buzud-8885020710656.png"
-        },
-        {
-          "name": "甲流/乙流检测",
-          "url": "/cn/zh/p/buzud-influenza-a-b-ag-rapid-test-8885020712315",
-          "image": "/images/products/buzud-8885020712315.png"
-        },
-        {
-          "name": "便隐血检测",
-          "url": "/cn/zh/p/one-step-fecal-occult-blood-test-8885020710625",
-          "image": "/images/products/buzud-8885020710625.png"
-        },
-        {
-          "name": "男性生育力检测",
-          "url": "/cn/zh/p/sp-10-male-fertility-rapid-test-cassette-8885020710663",
-          "image": "/images/products/buzud-8885020710663.png"
+          "name": "BUZUD Pen Needles Plus Pro 32G 5mm ",
+          "url": "/cn/zh/p/buzud-pen-needles-plus-pro-32g-5mm-8885020712827",
+          "image": "https://imgcdn2.buzud.com/202606/22/5280b1887c9c4323c9a5cc9a1e0c7301.png"
         }
       ]
     },
     {
-      "name": "智能手表",
-      "url": "/cn/zh/cat/buzud-watches",
-      "image": "/images/products/buzud-8885020712582.png",
+      "name": "简易氧气面罩",
+      "url": "/cn/zh/cat/simple-oxygen-mask",
+      "image": "https://imgcdn2.buzud.com/202501/24/004227a0754dabc16869fa70e63f384c.png",
       "subs": [
         {
-          "name": "Vibrance 经典款",
-          "url": "/cn/zh/p/buzud-watch-vibrance-8885020712582",
-          "image": "/images/products/buzud-8885020712582.png"
+          "name": "Simple Oxygen Mask (adult)",
+          "url": "/cn/zh/p/simple-oxygen-mask-adult-8885020710281",
+          "image": "https://imgcdn2.buzud.com/202312/07/899c667627329b568a194f6147130a03.png"
         },
         {
-          "name": "Vibrance 绿色",
-          "url": "/cn/zh/p/buzud-watch-vibrance-green-8885020712728",
-          "image": "/images/products/buzud-8885020712728.png"
+          "name": "Simple Oxygen Mask (child)",
+          "url": "/cn/zh/p/simple-oxygen-mask-child-8885020710298",
+          "image": "https://imgcdn2.buzud.com/202312/07/899c667627329b568a194f6147130a03.png"
+        }
+      ]
+    },
+    {
+      "name": "便携式制氧机",
+      "url": "/cn/zh/cat/portable-oxygen-concentrator",
+      "image": "https://imgcdn2.buzud.com/202501/24/e9821d1424c09c342757c7a7ee7d8e97.png",
+      "subs": [
+        {
+          "name": "BUZUD Portable Oxygen Concentrator 1000P (white)",
+          "url": "/cn/zh/p/buzud-portable-oxygen-concentrator-1000p-white-8885020711387",
+          "image": "https://imgcdn2.buzud.com/202409/07/236f41904fea19d9ed30055638a96a02.jpg"
         },
         {
-          "name": "Vibrance 粉色",
-          "url": "/cn/zh/p/buzud-watch-vibrance-pink-8885020712735",
-          "image": "/images/products/buzud-8885020712735.png"
+          "name": "BUZUD Portable Oxygen Concentrator 1000P (red)",
+          "url": "/cn/zh/p/buzud-portable-oxygen-concentrator-1000p-red-8885020711370",
+          "image": "https://imgcdn2.buzud.com/202409/07/1a6c107dda5d1004fd1fb5414b0b056d.jpg"
         },
         {
-          "name": "Vibrance 星光",
-          "url": "/cn/zh/p/buzud-watch-vibrance-star-light-8885020712742",
-          "image": "/images/products/buzud-8885020712742.png"
+          "name": "BUZUD Portable Oxygen Concentrator DYNAMIC 1000P Battery",
+          "url": "/cn/zh/p/buzud-portable-oxygen-concentrator-dynamic-1000p-battery-POC DYNAMIC 1000P BATTERY",
+          "image": "https://imgcdn2.buzud.com/202509/13/e918e50b80eb9c0de432214f5fd935b0.jpg"
+        }
+      ]
+    },
+    {
+      "name": "体温计",
+      "url": "/cn/zh/cat/thermometer",
+      "image": "https://imgcdn2.buzud.com/202501/24/cfecbfe93c7144636dd06eed6f7518b0.png",
+      "subs": [
+        {
+          "name": "BUZUD Infrared Thermometer 20A",
+          "url": "/cn/zh/p/buzud-infrared-thermometer-20a-8885020711288",
+          "image": "https://imgcdn2.buzud.com/202403/20/c02c279025f69269ebca515a5cf9627b.jpg"
         },
         {
-          "name": "Vibrance 紫色",
-          "url": "/cn/zh/p/buzud-watch-vibrance-violet-8885020712759",
-          "image": "/images/products/buzud-8885020712759.png"
+          "name": "Disposable Ear Probe YE20 (10 boxes)",
+          "url": "/cn/zh/p/disposable-ear-probe-ye20-10-boxes-8885020711684-10",
+          "image": "https://imgcdn2.buzud.com/202504/16/b9d04ae687f6c86c9d6e27e5e907d1d4.png"
+        },
+        {
+          "name": "BUZUD Infrared Ear Thermometer BZD100",
+          "url": "/cn/zh/p/buzud-infrared-ear-thermometer-bzd100-8885020711677",
+          "image": "https://imgcdn2.buzud.com/202503/17/57a08012060844dd532303d5328887d0.jpg"
+        },
+        {
+          "name": "BUZUD Disposable Ear Probe YE20",
+          "url": "/cn/zh/p/buzud-disposable-ear-probe-ye20-8885020711684",
+          "image": "https://imgcdn2.buzud.com/202504/16/b9d04ae687f6c86c9d6e27e5e907d1d4.png"
+        }
+      ]
+    },
+    {
+      "name": "助行器",
+      "url": "/cn/zh/cat/walking-aid",
+      "image": "https://imgcdn2.buzud.com/202501/24/938977b9b13ff60ed07859d8a9cb218d.png",
+      "subs": [
+        {
+          "name": "Walking Aid QK913L",
+          "url": "/cn/zh/p/walking-aid-qk913l-8885020710977",
+          "image": "https://imgcdn2.buzud.com/202312/07/d2e141620277bd8c04eaaa6f0c8367de.png"
+        },
+        {
+          "name": "Crutches (Standard)",
+          "url": "/cn/zh/p/crutches-standard-8885020711905",
+          "image": "https://imgcdn2.buzud.com/202505/30/752489cbed64336a72cc223468736951.png"
+        },
+        {
+          "name": "Foldable Walking Frame (Youth)",
+          "url": "/cn/zh/p/foldable-walking-frame-youth-8885020711844",
+          "image": "https://imgcdn2.buzud.com/202312/07/d2e141620277bd8c04eaaa6f0c8367de.png"
+        },
+        {
+          "name": "Crutches (Paediatric)",
+          "url": "/cn/zh/p/crutches-paediatric-8885020711875",
+          "image": "https://imgcdn2.buzud.com/202505/30/752489cbed64336a72cc223468736951.png"
+        },
+        {
+          "name": "Crutches (Tall)",
+          "url": "/cn/zh/p/crutches-tall-8885020711899",
+          "image": "https://imgcdn2.buzud.com/202505/30/752489cbed64336a72cc223468736951.png"
+        },
+        {
+          "name": "Walker Boot, Short ",
+          "url": "/cn/zh/p/walker-boot-short-8885020711950",
+          "image": "https://imgcdn2.buzud.com/202505/30/995e52c1a51959ce9be43d213402fa32.jpg"
+        },
+        {
+          "name": "Foldable Walking Frame (Adult)",
+          "url": "/cn/zh/p/foldable-walking-frame-adult-8885020711837",
+          "image": "https://imgcdn2.buzud.com/202312/07/d2e141620277bd8c04eaaa6f0c8367de.png"
+        },
+        {
+          "name": "Walker Boot, Standard - Medium",
+          "url": "/cn/zh/p/walker-boot-standard-medium-8885020711943",
+          "image": "https://imgcdn2.buzud.com/202505/30/fa269b0b434e19bd7cfdd04798ab4fe3.jpg"
+        },
+        {
+          "name": "Elbow Crutches",
+          "url": "/cn/zh/p/elbow-crutches-8885020711936",
+          "image": "https://imgcdn2.buzud.com/202505/30/10d633e9620c972ffa36231ccd1745f0.png"
+        },
+        {
+          "name": "Crutches (Youth)",
+          "url": "/cn/zh/p/crutches-youth-8885020711882",
+          "image": "https://imgcdn2.buzud.com/202505/30/752489cbed64336a72cc223468736951.png"
+        }
+      ]
+    },
+    {
+      "name": "检测试剂盒",
+      "url": "/cn/zh/cat/test-kit",
+      "image": "https://imgcdn2.buzud.com/202501/24/f07c7dfd3ce5f05724a80371b2586b76.png",
+      "subs": [
+        {
+          "name": "HCG Pregnancy Rapid Test",
+          "url": "/cn/zh/p/hcg-pregnancy-rapid-test-8885020710595",
+          "image": "https://imgcdn2.buzud.com/202312/07/afaf4698e2013045f83b38a837ad02db.jpg"
+        },
+        {
+          "name": "H.pylori Antigen Rapid Test",
+          "url": "/cn/zh/p/h-pylori-antigen-rapid-test-8885020710588",
+          "image": "https://imgcdn2.buzud.com/202312/07/d4eeacb5c72623ce24df19c14e02d05e.png"
+        },
+        {
+          "name": "BUZUD Urinary Tract Infections Test For Self-Testing",
+          "url": "/cn/zh/p/buzud-urinary-tract-infections-test-for-self-testing-8885020710656",
+          "image": "https://imgcdn2.buzud.com/202512/23/ffa20e66e713226bcf22089d8d191a46.png"
+        },
+        {
+          "name": "Onestep FSH Urine Test",
+          "url": "/cn/zh/p/onestep-fsh-urine-test-8885020710601",
+          "image": "https://imgcdn2.buzud.com/202312/07/da0a495df06d8194de94fde2b07336d2.jpg"
+        },
+        {
+          "name": "Vaginal pH Rapid Test Panel",
+          "url": "/cn/zh/p/vaginal-ph-rapid-test-panel-8885020710649",
+          "image": "https://imgcdn2.buzud.com/202312/07/51d44cee66d0e6a8771177eb3b7a2862.jpg"
+        },
+        {
+          "name": "LH Ovulation Rapid Test",
+          "url": "/cn/zh/p/lh-ovulation-rapid-test-8885020710618",
+          "image": "https://imgcdn2.buzud.com/202312/07/3579ab369b8cd3b83278834bd2b978c4.jpg"
+        },
+        {
+          "name": "One-step Fecal Occult Blood Test",
+          "url": "/cn/zh/p/one-step-fecal-occult-blood-test-8885020710625",
+          "image": "https://imgcdn2.buzud.com/202312/07/d820924c947ef4d4395f691c0a8145fa.png"
+        },
+        {
+          "name": "SP-10 Male Fertility Rapid Test Cassette",
+          "url": "/cn/zh/p/sp-10-male-fertility-rapid-test-cassette-8885020710663",
+          "image": "https://imgcdn2.buzud.com/202312/07/b06da4ce9376e0b4085a9707ad80bceb.png"
+        },
+        {
+          "name": "BUZUD Influenza A&B Ag Rapid Test (Cassette) (1 test/box)",
+          "url": "/cn/zh/p/buzud-influenza-aandb-ag-rapid-test-cassette-1-test-box-8885020711745",
+          "image": "https://imgcdn2.buzud.com/202504/03/227cf95c54aa2cd2a8df4932769ecda0.png"
+        },
+        {
+          "name": "COVID-19/Flu A&B/RSV/Adeno Ag Combo Rapid Test Cassette (Swab) (1 test/box)",
+          "url": "/cn/zh/p/covid-19-flu-aandb-rsv-adeno-ag-combo-rapid-test-cassette-swab-1-test-box-8885020712209",
+          "image": "https://imgcdn2.buzud.com/202509/09/c831d1ed49da271d8a1cd75eee52f1bf.jpg"
+        },
+        {
+          "name": "TSH Rapid Test Cassette (Whole Blood)",
+          "url": "/cn/zh/p/tsh-rapid-test-cassette-whole-blood-8885020711738",
+          "image": "https://imgcdn2.buzud.com/202510/04/fd75f025555e4dc146356c4fb565c225.png"
+        },
+        {
+          "name": "BUZUD Influenza A&B Ag Rapid Test (Cassette) (5 test/box)",
+          "url": "/cn/zh/p/buzud-influenza-aandb-ag-rapid-test-cassette-5-test-box-8885020712315",
+          "image": "https://imgcdn2.buzud.com/202504/03/227cf95c54aa2cd2a8df4932769ecda0.png"
+        },
+        {
+          "name": "COVID-19/Flu A&B/RSV/Adeno Ag Combo Rapid Test Cassette (Swab) (5 tests/box)",
+          "url": "/cn/zh/p/covid-19-flu-aandb-rsv-adeno-ag-combo-rapid-test-cassette-swab-5-tests-box-8885020712391",
+          "image": "https://imgcdn2.buzud.com/202605/11/fc52c72ae4bfec6a0cc5377878c3b0dd.jpg"
+        },
+        {
+          "name": "COVID-19/Flu A&B/RSV/Adeno Ag Combo Rapid Test Cassette (Swab) (20 tests/box)",
+          "url": "/cn/zh/p/covid-19-flu-aandb-rsv-adeno-ag-combo-rapid-test-cassette-swab-20-tests-box-8885020712865",
+          "image": "https://imgcdn2.buzud.com/202607/15/3d1cfedc1e965a53a7421e5c5bbb8ccc.jpg"
+        }
+      ]
+    },
+    {
+      "name": "鼻氧管",
+      "url": "/cn/zh/cat/nasal-oxygen-cannula",
+      "image": "https://imgcdn2.buzud.com/202501/24/967812ec1c131b7fd9f535e0ddf0760f.png",
+      "subs": [
+        {
+          "name": "Nasal Oxygen Cannula (5m) ",
+          "url": "/cn/zh/p/nasal-oxygen-cannula-5m-8885020710250",
+          "image": "https://imgcdn2.buzud.com/202312/07/2c705ffac9f924051e4a0a60212c7e81.png"
+        },
+        {
+          "name": "Nasal Oxygen Cannula (2m)",
+          "url": "/cn/zh/p/nasal-oxygen-cannula-2m-8885020710243",
+          "image": "https://imgcdn2.buzud.com/202312/07/2c705ffac9f924051e4a0a60212c7e81.png"
+        }
+      ]
+    },
+    {
+      "name": "制氧机",
+      "url": "/cn/zh/cat/oxygen-concentrator",
+      "image": "https://imgcdn2.buzud.com/202501/24/16951d1567ac77fa8ae06c6c0adcfbb8.png",
+      "subs": [
+        {
+          "name": "BUZUD Oxygen Concentrator SZ-5BW-10L",
+          "url": "/cn/zh/p/buzud-oxygen-concentrator-sz-5bw-10l-8885020710014",
+          "image": "https://imgcdn2.buzud.com/202312/07/6c04425b491aee5deeba72e2ba55bf32.jpg"
+        },
+        {
+          "name": "BUZUD Oxygen Concentrator SZ-5BW-5L",
+          "url": "/cn/zh/p/buzud-oxygen-concentrator-sz-5bw-5l-8885020710007",
+          "image": "https://imgcdn2.buzud.com/202312/07/36ff7db6b47ebbe8a4812e54910f3a92.jpg"
+        },
+        {
+          "name": "BUZUD Oxygen Concentrator 10FW-D",
+          "url": "/cn/zh/p/buzud-oxygen-concentrator-10fw-d-8885020711417",
+          "image": "https://imgcdn2.buzud.com/202409/07/dea68fb8e1e02d57f902a52c7004f1fa.jpg"
+        },
+        {
+          "name": "BUZUD Oxygen Concentrator 10FW",
+          "url": "/cn/zh/p/buzud-oxygen-concentrator-10fw-8885020711400",
+          "image": "https://imgcdn2.buzud.com/202409/06/61ca9faeec96a4fba23439b3e00f13d5.png"
+        },
+        {
+          "name": "BUZUD Home-Use Oxygen Concentrator PRAGMATIC",
+          "url": "/cn/zh/p/buzud-home-use-oxygen-concentrator-pragmatic-8885020710519",
+          "image": "https://imgcdn2.buzud.com/202312/07/ac6e27a88f2164a337d154e0aead8c24.jpg"
+        },
+        {
+          "name": "Filter for BUZUD Oxygen Concentrator SZ-5BW",
+          "url": "/cn/zh/p/filter-for-buzud-oxygen-concentrator-sz-5bw-8885020712995",
+          "image": "https://imgcdn2.buzud.com/202608/05/f6a4dc6c91cdb610ecc4a5ef5c94651a.jpg"
+        }
+      ]
+    },
+    {
+      "name": "高流量鼻氧管",
+      "url": "/cn/zh/cat/high-flow-nasal-cannula",
+      "image": "https://imgcdn2.buzud.com/202501/24/2583dce1012394ee16233da889be24e6.png",
+      "subs": [
+        {
+          "name": "High-Flow Nasal Cannula NeoHiF-i5",
+          "url": "/cn/zh/p/high-flow-nasal-cannula-neohif-i5-8885020710236",
+          "image": "https://imgcdn2.buzud.com/202312/07/8836aae2d0ecaacfd02e1a95260fb8d4.jpg"
+        },
+        {
+          "name": "High-Flow Nasal Cannula NeoHiF-i7",
+          "url": "/cn/zh/p/high-flow-nasal-cannula-neohif-i7-8885020710229",
+          "image": "https://imgcdn2.buzud.com/202312/07/8836aae2d0ecaacfd02e1a95260fb8d4.jpg"
+        }
+      ]
+    },
+    {
+      "name": "血糖试纸",
+      "url": "/cn/zh/cat/blood-glucose-test-strip",
+      "image": "https://imgcdn2.buzud.com/202501/24/fca43c5a16717f2f2ecbf85c019dabbf.png",
+      "subs": [
+        {
+          "name": "BUZUD Blood Glucose Test Strip (for Safe AQ UG and GlucoInsight Lite)",
+          "url": "/cn/zh/p/buzud-blood-glucose-test-strip-for-safe-aq-ug-and-glucoinsight-lite-8885020710328",
+          "image": "https://imgcdn2.buzud.com/202312/07/c2f4a4b8fa87de501954d0c16b444793.png"
+        },
+        {
+          "name": "BUZUD Blood Glucose Test Strip set (for Safe AQ UG and GlucoInsight Lite)",
+          "url": "/cn/zh/p/buzud-blood-glucose-test-strip-set-for-safe-aq-ug-and-glucoinsight-lite-8885020710908",
+          "image": "https://imgcdn2.buzud.com/202312/07/80467994cec98cbb5742b61bfe84760e.png"
+        },
+        {
+          "name": "BUZUD Uric Acid test strips (for Glucose, Ketone and Uric Acid meter)",
+          "url": "/cn/zh/p/buzud-uric-acid-test-strips-for-glucose-ketone-and-uric-acid-meter-8885020712193",
+          "image": "https://imgcdn2.buzud.com/202509/30/59f8a6213632a7c9b05870059c7dc879.png"
+        },
+        {
+          "name": "BUZUD Ketone test strips (for Glucose, Ketone and Uric Acid meter)",
+          "url": "/cn/zh/p/buzud-ketone-test-strips-for-glucose-ketone-and-uric-acid-meter-8885020712186",
+          "image": "https://imgcdn2.buzud.com/202509/30/350767c430aafd679cc88c4171b4e8a3.png"
+        },
+        {
+          "name": "BUZUD GlucoInsight Lite Test Strip (for GlucoInsight Lite and Safe AQ UG)",
+          "url": "/cn/zh/p/buzud-glucoinsight-lite-test-strip-for-glucoinsight-lite-and-safe-aq-ug-8885020712377",
+          "image": "https://imgcdn2.buzud.com/202601/29/d8ac04e216bb59911673b1044437c418.png"
+        },
+        {
+          "name": "BUZUD Glucose test strips (for GlucoInsight Plus and Glucose, Ketone and Uric Acid Meter)",
+          "url": "/cn/zh/p/buzud-glucose-test-strips-for-glucoinsight-plus-and-glucose-ketone-and-uric-acid-meter-8885020712179",
+          "image": "https://imgcdn2.buzud.com/202509/30/83e5ee3317c7dbdc1ae453118987b14c.png"
+        }
+      ]
+    },
+    {
+      "name": "动态血糖监测系统（CGMS）",
+      "url": "/cn/zh/cat/cgms",
+      "image": "https://imgcdn2.buzud.com/202505/05/d822344d0fd8d2edca08398e67ecfbdb.jpg",
+      "subs": [
+        {
+          "name": "BUZUD Continuous Glucose Monitoring System 180 days Advanced Plan",
+          "url": "/cn/zh/p/buzud-continuous-glucose-monitoring-system-180-days-advanced-plan-8885020711356-0",
+          "image": "https://imgcdn2.buzud.com/202406/03/8158c00b40723418bf6cbb05c3824002.jpg"
+        },
+        {
+          "name": "BUZUD Continuous Glucose Monitoring System 90 days Starter Plan",
+          "url": "/cn/zh/p/buzud-continuous-glucose-monitoring-system-90-days-starter-plan-8885020711349-0",
+          "image": "https://imgcdn2.buzud.com/202601/02/4c06be4868cf3b3b50bd2966371f4875.jpg"
+        },
+        {
+          "name": "BUZUD Continuous Glucose Monitoring System 365 days Premium Plan",
+          "url": "/cn/zh/p/buzud-continuous-glucose-monitoring-system-365-days-premium-plan-8885020711363-0",
+          "image": "https://imgcdn2.buzud.com/202406/03/8158c00b40723418bf6cbb05c3824002.jpg"
+        },
+        {
+          "name": "BUZUD Continuous Glucose Monitoring System Sensor 2.0",
+          "url": "/cn/zh/p/buzud-continuous-glucose-monitoring-system-sensor-2-0-8885020711394",
+          "image": "https://imgcdn2.buzud.com/202601/02/4c06be4868cf3b3b50bd2966371f4875.jpg"
+        }
+      ]
+    },
+    {
+      "name": "氧气雾化管路及口含器",
+      "url": "/cn/zh/cat/oxygen-nebulizer-tubing-and-mouthpiece",
+      "image": "https://imgcdn2.buzud.com/202501/24/2583dce1012394ee16233da889be24e6.png",
+      "subs": [
+        {
+          "name": "Oxygen Nebulizer Tubing and Mouthpiece",
+          "url": "/cn/zh/p/oxygen-nebulizer-tubing-and-mouthpiece-8885020710304",
+          "image": "https://imgcdn2.buzud.com/202312/07/ecb592a61c9e40627dbbb6dd1734bb72.png"
+        }
+      ]
+    },
+    {
+      "name": "转移椅",
+      "url": "/cn/zh/cat/transfer-chair",
+      "image": "https://imgcdn2.buzud.com/202501/24/be4f22879de40b95af01e3e4d2dcef16.png",
+      "subs": [
+        {
+          "name": "BUZUD Manual Transfer Chair ",
+          "url": "/cn/zh/p/buzud-manual-transfer-chair-8885020712469",
+          "image": "https://imgcdn2.buzud.com/202509/13/3a98cd2ed48636c18a753f43ebe74f93.jpg"
+        },
+        {
+          "name": "Electric Transfer Wheelchair DY077602",
+          "url": "/cn/zh/p/electric-transfer-wheelchair-dy077602-8885020711264",
+          "image": "https://imgcdn2.buzud.com/202405/27/5318a7bebaf6a3dcae02c69db96cb768.jpg"
+        }
+      ]
+    },
+    {
+      "name": "尿酸试纸",
+      "url": "/cn/zh/cat/uric-acid-test-strip",
+      "image": "https://imgcdn2.buzud.com/202501/24/30228b31a61136974f91881207f27e0b.png",
+      "subs": [
+        {
+          "name": "BUZUD Safe AQ UG Uric Acid Test Strip",
+          "url": "/cn/zh/p/buzud-safe-aq-ug-uric-acid-test-strip-8885020710335",
+          "image": "https://imgcdn2.buzud.com/202312/07/ec35852c4f39fb343c808f122a895506.png"
+        },
+        {
+          "name": "BUZUD Safe AQ UG Uric Acid Test Strip and Lancet set",
+          "url": "/cn/zh/p/buzud-safe-aq-ug-uric-acid-test-strip-and-lancet-set-8885020710892",
+          "image": "https://imgcdn2.buzud.com/202312/07/80467994cec98cbb5742b61bfe84760e.png"
+        }
+      ]
+    },
+    {
+      "name": "血脂检测试纸",
+      "url": "/cn/zh/cat/lipid-monitor-test-strip",
+      "image": "https://imgcdn2.buzud.com/202501/24/f28b936a8a5f88a3d196048132d98773.png",
+      "subs": [
+        {
+          "name": "BUZUD Blood Lipid Test Strip PFS 30 (20 strips/box)",
+          "url": "/cn/zh/p/buzud-blood-lipid-test-strip-pfs-30-20-strips-box-8885020711165",
+          "image": "https://imgcdn2.buzud.com/202312/07/0ed77debd740ac246ca84d78a528b852.jpg"
+        }
+      ]
+    },
+    {
+      "name": "血液分析仪",
+      "url": "/cn/zh/cat/blood-analyzer",
+      "image": "https://imgcdn2.buzud.com/202501/24/291f10a023b99dabe8b24285f96cee06.png",
+      "subs": [
+        {
+          "name": "GlucoInsight Plus meter",
+          "url": "/cn/zh/p/glucoinsight-plus-meter-8885020712339",
+          "image": "https://imgcdn2.buzud.com/202509/30/b5e715f73a66885c8f187d8a331f3423.png"
+        },
+        {
+          "name": "BUZUD Safe AQ UG Blood Glucose and Uric Acid Monitoring System single",
+          "url": "/cn/zh/p/buzud-safe-aq-ug-blood-glucose-and-uric-acid-monitoring-system-single-8885020710311",
+          "image": "https://imgcdn2.buzud.com/202312/07/5c92265fa1be46f6b3ace23ae89f6091.png"
+        },
+        {
+          "name": "BUZUD Safe AQ UG Blood Glucose Monitoring System Set",
+          "url": "/cn/zh/p/buzud-safe-aq-ug-blood-glucose-monitoring-system-set-8885020710885",
+          "image": "https://imgcdn2.buzud.com/202312/07/5c92265fa1be46f6b3ace23ae89f6091.png"
+        },
+        {
+          "name": "BUZUD Safe AQ UG Uric Acid Monitoring System Set",
+          "url": "/cn/zh/p/buzud-safe-aq-ug-uric-acid-monitoring-system-set-8885020710878",
+          "image": "https://imgcdn2.buzud.com/202312/07/5c92265fa1be46f6b3ace23ae89f6091.png"
+        },
+        {
+          "name": "BUZUD Safe AQ UG Blood Glucose and Uric Acid Monitoring System Set",
+          "url": "/cn/zh/p/buzud-safe-aq-ug-blood-glucose-and-uric-acid-monitoring-system-set-8885020710861",
+          "image": "https://imgcdn2.buzud.com/202312/07/5c92265fa1be46f6b3ace23ae89f6091.png"
+        },
+        {
+          "name": "GlucoInsight Lite set",
+          "url": "/cn/zh/p/glucoinsight-lite-set-8885020712384",
+          "image": "https://imgcdn2.buzud.com/202602/09/f6a79cf8ac82473b75d5d9748c700d42.png"
+        },
+        {
+          "name": "BUZUD Glucose, Ketone and Uric Acid Meter set",
+          "url": "/cn/zh/p/buzud-glucose-ketone-and-uric-acid-meter-set-8885020712162",
+          "image": "https://imgcdn2.buzud.com/202509/30/19cf934d7e06caf1b0bee30949a8fc7d.png"
+        },
+        {
+          "name": "BUZUD Capillary Tubes (10pcs)",
+          "url": "/cn/zh/p/buzud-capillary-tubes-10pcs-capillary tubes (10pcs)",
+          "image": "https://imgcdn2.buzud.com/202607/06/df7c56f8f4d6b7e43e47af58feb4a579.jpg"
         }
       ]
     },
     {
       "name": "血压计",
-      "url": "/cn/zh/cat/buzud-blood-pressure-monitors",
-      "image": "/images/products/buzud-8885020710151.png",
+      "url": "/cn/zh/cat/blood-pressure-monitor",
+      "image": "https://imgcdn2.buzud.com/202501/24/df2358058e0e324e301f062e8f2ee663.png",
       "subs": [
         {
-          "name": "上臂式 C02",
-          "url": "/cn/zh/p/upper-arm-blood-pressure-monitor-c02-8885020710151",
-          "image": "/images/products/buzud-8885020710151.png"
-        },
-        {
-          "name": "上臂式 30C",
-          "url": "/cn/zh/p/buzud-blood-pressure-monitor-30c-8885020711103",
-          "image": "/images/products/buzud-8885020711103.png"
-        },
-        {
-          "name": "上臂式 30S",
+          "name": "BUZUD Blood Pressure Monitor 30S",
           "url": "/cn/zh/p/buzud-blood-pressure-monitor-30s-8885020711097",
-          "image": "/images/products/buzud-8885020711097.png"
+          "image": "https://imgcdn2.buzud.com/202312/07/7c936cd846c794e07cc6df5c9c738164.png"
+        },
+        {
+          "name": "BUZUD Blood Pressure Monitor 30C",
+          "url": "/cn/zh/p/buzud-blood-pressure-monitor-30c-8885020711103",
+          "image": "https://imgcdn2.buzud.com/202312/07/bfbeb24f5851713989a3724efd744c38.png"
+        },
+        {
+          "name": "BUZUD Blood Pressure Monitor 30M",
+          "url": "/cn/zh/p/buzud-blood-pressure-monitor-30m-8885020711080",
+          "image": "https://imgcdn2.buzud.com/202312/07/a242604e26d5eefd0dfab8ee85f2e994.png"
+        },
+        {
+          "name": "Upper Arm Blood Pressure Monitor U82RH",
+          "url": "/cn/zh/p/upper-arm-blood-pressure-monitor-u82rh-8885020710168",
+          "image": "https://imgcdn2.buzud.com/202312/07/eb2188a7cbf15ea32c3d5a934cad4241.jpg"
+        },
+        {
+          "name": "Blood Pressure Arm Cuff ",
+          "url": "/cn/zh/p/blood-pressure-arm-cuff-8885020712803",
+          "image": "https://imgcdn2.buzud.com/202408/24/899faf35b259878f1a9fdaca4141e141.jpg"
+        },
+        {
+          "name": "Upper Arm Blood Pressure Monitor C02",
+          "url": "/cn/zh/p/upper-arm-blood-pressure-monitor-c02-8885020710151",
+          "image": "https://imgcdn2.buzud.com/202403/27/b030f965e847a713183e5dfedeecf36f.jpg"
+        },
+        {
+          "name": "BUZUD Blood Pressure Monitor 630CR",
+          "url": "/cn/zh/p/buzud-blood-pressure-monitor-630cr-8885020712841",
+          "image": "https://imgcdn2.buzud.com/202607/01/0636685652a040ef2e0b3bc9bdf86aea.jpg"
+        },
+        {
+          "name": "BUZUD Blood Pressure Monitor Power Cable",
+          "url": "/cn/zh/p/buzud-blood-pressure-monitor-power-cable-8885020710151-1",
+          "image": "https://imgcdn2.buzud.com/202606/09/dc8d79956f5fbbe5d2be6a1233c7d35a.jpg"
         }
       ]
     },
     {
-      "name": "血糖管理",
-      "url": "/cn/zh/cat/buzud-glucose-management",
-      "image": "/images/products/buzud-8885020711394.png",
+      "name": "酒精棉片",
+      "url": "/cn/zh/cat/alcohol-swab",
+      "image": "https://imgcdn2.buzud.com/202507/03/a11205714f70335fb02bebabe900501e.png",
       "subs": [
         {
-          "name": "CGM 传感器 2.0",
-          "url": "/cn/zh/p/buzud-continuous-glucose-monitoring-system-sensor-2-0-8885020711394",
-          "image": "/images/products/buzud-8885020711394.png"
-        },
-        {
-          "name": "GlucoInsight Plus",
-          "url": "/cn/zh/p/glucoinsight-plus-meter-8885020712339",
-          "image": "/images/products/buzud-8885020712339.png"
-        },
-        {
-          "name": "GlucoInsight Lite",
-          "url": "/cn/zh/p/glucoinsight-lite-set-8885020712384",
-          "image": "/images/products/buzud-8885020712384.png"
+          "name": "BUZUD Alcohol Swab",
+          "url": "/cn/zh/p/buzud-alcohol-swab-8885020711660",
+          "image": "https://imgcdn2.buzud.com/202507/03/a11205714f70335fb02bebabe900501e.png"
         }
       ]
     },
     {
-      "name": "健康监测设备",
-      "url": "/cn/zh/cat/buzud-health-devices",
-      "image": "/images/products/buzud-8885020711677.png",
+      "name": "呼吸护理",
+      "url": "/cn/zh/cat/respiratory-care",
+      "image": "https://imgcdn2.buzud.com/202506/16/35437abb7d482d95ce6ea0249995d263.png",
       "subs": [
         {
-          "name": "红外耳温枪 BZD100",
-          "url": "/cn/zh/p/buzud-infrared-ear-thermometer-bzd100-8885020711677",
-          "image": "/images/products/buzud-8885020711677.png"
+          "name": "BUZUD Air-compressing Nebulizer 407A",
+          "url": "/cn/zh/p/buzud-air-compressing-nebulizer-407a-8885020711707",
+          "image": "https://imgcdn2.buzud.com/202506/16/35437abb7d482d95ce6ea0249995d263.png"
+        }
+      ]
+    },
+    {
+      "name": "助听器",
+      "url": "/cn/zh/cat/hearing-aid",
+      "image": "https://imgcdn2.buzud.com/202501/24/4f5005041a68520a2fc021aaf8f6d839.png",
+      "subs": [
+        {
+          "name": "Hearing Aid A51(black)",
+          "url": "/cn/zh/p/hearing-aid-a51-black-8885020710694",
+          "image": "https://imgcdn2.buzud.com/202312/07/c4874da83db432886a174e642af69dfb.png"
         },
         {
-          "name": "智能体重秤 CF509",
+          "name": "Hearing Aid W6(white)",
+          "url": "/cn/zh/p/hearing-aid-w6-white-8885020710687",
+          "image": "https://imgcdn2.buzud.com/202312/07/5774ab9a44ecc41902084019d30aba6f.png"
+        },
+        {
+          "name": "Hearing Aid W6(black)",
+          "url": "/cn/zh/p/hearing-aid-w6-black-8885020710670",
+          "image": "https://imgcdn2.buzud.com/202312/07/5774ab9a44ecc41902084019d30aba6f.png"
+        },
+        {
+          "name": "Hearing Aids D26",
+          "url": "/cn/zh/p/hearing-aids-d26-8885020710731",
+          "image": "https://imgcdn2.buzud.com/202312/07/3fb71d5581b121eddb73d05f4a0d2ad7.png"
+        },
+        {
+          "name": "Hearing Aid W3",
+          "url": "/cn/zh/p/hearing-aid-w3-8885020710724",
+          "image": "https://imgcdn2.buzud.com/202312/07/c06025beae6d3adf41878a51a4779255.png"
+        },
+        {
+          "name": "Hearing Aid A51(white)",
+          "url": "/cn/zh/p/hearing-aid-a51-white-8885020710700",
+          "image": "https://imgcdn2.buzud.com/202312/07/c4874da83db432886a174e642af69dfb.png"
+        }
+      ]
+    },
+    {
+      "name": "轮椅",
+      "url": "/cn/zh/cat/wheelchair",
+      "image": "https://imgcdn2.buzud.com/202501/24/47f04e2593fe8f8d986d2acddd853c31.png",
+      "subs": [
+        {
+          "name": "BUZUD Pushchair QK805LABJ",
+          "url": "/cn/zh/p/buzud-pushchair-qk805labj-8885020710946",
+          "image": "https://imgcdn2.buzud.com/202312/07/e0c7952aff743b5d508f6e5c3006843a.jpg"
+        },
+        {
+          "name": "Electric Wheelchair QK110",
+          "url": "/cn/zh/p/electric-wheelchair-qk110-8885020710939",
+          "image": "https://imgcdn2.buzud.com/202312/07/d20f7591abf82253356779ed66a69f13.jpg"
+        },
+        {
+          "name": "Additional Battery for the Electric Wheelchair QK110",
+          "url": "/cn/zh/p/additional-battery-for-the-electric-wheelchair-qk110-8885020710939-1",
+          "image": "https://imgcdn2.buzud.com/202312/07/d20f7591abf82253356779ed66a69f13.jpg"
+        },
+        {
+          "name": "Steel Wheelchair QK902C",
+          "url": "/cn/zh/p/steel-wheelchair-qk902c-8885020710960",
+          "image": "https://imgcdn2.buzud.com/202312/07/85a3e6dbbbd1509e832a8911742f5675.png"
+        },
+        {
+          "name": "BUZUD Pediatric tilt-in-space wheelchair with built-in-growth QK966M",
+          "url": "/cn/zh/p/buzud-pediatric-tilt-in-space-wheelchair-with-built-in-growth-qk966m-8885020712216",
+          "image": "https://imgcdn2.buzud.com/202506/12/d473a4d0500607930e70c9c1ea4b61ca.jpg"
+        },
+        {
+          "name": "Wheelchair with 12 inch wheel",
+          "url": "/cn/zh/p/wheelchair-with-12-inch-wheel-8885020711509",
+          "image": "https://imgcdn2.buzud.com/202409/17/7c0d6c49d0cef1f135e5b225536b1e78.png"
+        },
+        {
+          "name": "Steel Wheelchair QK608GC",
+          "url": "/cn/zh/p/steel-wheelchair-qk608gc-8885020710953",
+          "image": "https://imgcdn2.buzud.com/202312/07/489222799187e132c399cf519c765a4d.jpg"
+        },
+        {
+          "name": "Wheelchair with 16 inch wheel\t\t",
+          "url": "/cn/zh/p/wheelchair-with-16-inch-wheel-8885020711516",
+          "image": "https://imgcdn2.buzud.com/202409/17/0df29df36ec79b0813d54b783ce9a8bd.png"
+        },
+        {
+          "name": "BUZUD Pediatric Tilt & Recline Wheelchair QK958L",
+          "url": "/cn/zh/p/buzud-pediatric-tilt-and-recline-wheelchair-qk958l-8885020712223",
+          "image": "https://imgcdn2.buzud.com/202506/12/c569212450bfeb5a5c7088bff3d323bf.jpg"
+        }
+      ]
+    },
+    {
+      "name": "病人监护仪",
+      "url": "/cn/zh/cat/patient-monitor",
+      "image": "https://imgcdn2.buzud.com/202501/24/ff0f21e2154731bd0478af85ce076e5b.png",
+      "subs": [
+        {
+          "name": "Multi-Parameter Patient Monitor 8000C",
+          "url": "/cn/zh/p/multi-parameter-patient-monitor-8885020710427",
+          "image": "https://imgcdn2.buzud.com/202312/07/2d7da91daf80eec247f4e5b0e7f4df81.jpg"
+        },
+        {
+          "name": "Health Monitor Checkme Lite",
+          "url": "/cn/zh/p/health-monitor-checkme-lite-8885020710465",
+          "image": "https://imgcdn2.buzud.com/202312/07/116ce44adba7cdf3476ca5813e878be3.jpg"
+        },
+        {
+          "name": "Health Monitor Checkme Lite - set of disposable ECG patches (10/pouch)",
+          "url": "/cn/zh/p/health-monitor-checkme-lite-set-of-disposable-ecg-patches-10-pouch-8885020710465-1",
+          "image": "https://imgcdn2.buzud.com/202607/01/ea42491b17bd7e662208ae09a5e70493.png"
+        }
+      ]
+    },
+    {
+      "name": "采血针",
+      "url": "/cn/zh/cat/lancet",
+      "image": "https://imgcdn2.buzud.com/202501/24/f529f9aca2ee1a457389530e8e5a82c2.png",
+      "subs": [
+        {
+          "name": "BUZUD Disposable Safety Lancets Flex 3 23G",
+          "url": "/cn/zh/p/buzud-disposable-safety-lancets-flex-3-23g-8885020711592",
+          "image": "https://imgcdn2.buzud.com/202505/13/cb3c5b9707331492fd512ea0fdcda468.jpg"
+        },
+        {
+          "name": "BUZUD Disposable Safety Lancets Flex 3 28G",
+          "url": "/cn/zh/p/buzud-disposable-safety-lancets-flex-3-28g-8885020711615",
+          "image": "https://imgcdn2.buzud.com/202505/13/bb4fd415081da90b8d32b76ba1182110.jpg"
+        },
+        {
+          "name": "BUZUD Safe AQ UG Lancet 28G (for use with Safe AQ UG and GlucoInsight)",
+          "url": "/cn/zh/p/buzud-safe-aq-ug-lancet-28g-for-use-with-safe-aq-ug-and-glucoinsight-8885020710748",
+          "image": "https://imgcdn2.buzud.com/202312/07/80467994cec98cbb5742b61bfe84760e.png"
+        }
+      ]
+    },
+    {
+      "name": "智能手表",
+      "url": "/cn/zh/cat/smart-watch",
+      "image": "https://imgcdn2.buzud.com/202501/24/57f70a238f8d254e0466abafea0c910b.png",
+      "subs": [
+        {
+          "name": "Smartwatch Generous(Lightning Silver)",
+          "url": "/cn/zh/p/smartwatch-generous-lightning-silver-8885020710816",
+          "image": "https://imgcdn2.buzud.com/202312/07/14a22e8d40348c5793782458e98dfdd4.png"
+        },
+        {
+          "name": "Smartwatch Generous(Dawn Gold)",
+          "url": "/cn/zh/p/smartwatch-generous-dawn-gold-8885020710786",
+          "image": "https://imgcdn2.buzud.com/202312/07/14a22e8d40348c5793782458e98dfdd4.png"
+        },
+        {
+          "name": "Smartwatch Generous(Cosmic Black)",
+          "url": "/cn/zh/p/smartwatch-generous-cosmic-black-8885020710793",
+          "image": "https://imgcdn2.buzud.com/202312/07/14a22e8d40348c5793782458e98dfdd4.png"
+        },
+        {
+          "name": "Smartwatch Generous(Rainbow Gold)",
+          "url": "/cn/zh/p/smartwatch-generous-rainbow-gold-8885020710823",
+          "image": "https://imgcdn2.buzud.com/202312/07/14a22e8d40348c5793782458e98dfdd4.png"
+        },
+        {
+          "name": "Smartwatch Generous(Star Grey)",
+          "url": "/cn/zh/p/smartwatch-generous-star-grey-8885020710809",
+          "image": "https://imgcdn2.buzud.com/202312/07/14a22e8d40348c5793782458e98dfdd4.png"
+        },
+        {
+          "name": "Smartwatch Generous(Star Silver)",
+          "url": "/cn/zh/p/smartwatch-generous-star-silver-8885020710830",
+          "image": "https://imgcdn2.buzud.com/202312/07/14a22e8d40348c5793782458e98dfdd4.png"
+        },
+        {
+          "name": "BUZUD Watch Vibrance",
+          "url": "/cn/zh/p/buzud-watch-vibrance-8885020712582",
+          "image": "https://imgcdn2.buzud.com/202510/24/589121537c3a75b674807ee977e042ae.jpg"
+        }
+      ]
+    },
+    {
+      "name": "自动体外除颤器（AED）",
+      "url": "/cn/zh/cat/aed",
+      "image": "https://imgcdn2.buzud.com/202501/24/babb2a538f432ddff807f51fb5fd524e.png",
+      "subs": [
+        {
+          "name": "Battery pack for BUZUD Automatic External Defibrillator 7000",
+          "url": "/cn/zh/p/battery-pack-for-buzud-automatic-external-defibrillator-7000-8885020712858",
+          "image": "https://imgcdn2.buzud.com/202312/07/2efa6d439747d943803201fb74205ea1.jpg"
+        }
+      ]
+    },
+    {
+      "name": "身体成分秤",
+      "url": "/cn/zh/cat/body-composition-scale",
+      "image": "https://imgcdn2.buzud.com/202501/24/7c3c9dd44378b7ca20a3ee4593d149bf.png",
+      "subs": [
+        {
+          "name": "BUZUD Home Body Composition Scale CF577",
+          "url": "/cn/zh/p/buzud-home-body-composition-scale-cf577-8885020711424",
+          "image": "https://imgcdn2.buzud.com/202604/06/d2bb285e236948e95bf9c62fc5da7592.png"
+        },
+        {
+          "name": "BUZUD Ultrasonic Height and Weight Body Fat Scale CP30G",
+          "url": "/cn/zh/p/buzud-ultrasonic-height-and-weight-body-fat-scale-cp30g-8885020712599",
+          "image": "https://imgcdn2.buzud.com/202510/31/0a3a93c8052478790e4bd19f024ae873.png"
+        },
+        {
+          "name": "BUZUD Home Body Composition Scale CF509",
           "url": "/cn/zh/p/buzud-home-body-composition-scale-cf509-8885020711448",
-          "image": "/images/products/buzud-8885020711448.png"
+          "image": "https://imgcdn2.buzud.com/202409/06/2a591c86aed145c6c5470b993b7116bc.jpg"
         },
         {
-          "name": "注射针头 32G 4mm",
-          "url": "/cn/zh/p/buzud-pen-needles-plus-pro-32g-4mm-8885020711547",
-          "image": "/images/products/buzud-8885020711547.png"
+          "name": "BUZUD Home Body Composition Scale CF586",
+          "url": "/cn/zh/p/buzud-home-body-composition-scale-cf586-8885020711431",
+          "image": "https://imgcdn2.buzud.com/202505/14/5bc04bb8072cf5ab580f679b38d0fbfc.png"
         }
       ]
     },
     {
-      "name": "胰岛素笔针",
-      "url": "/cn/zh/cat/insulin-pen-needles",
-      "image": "/images/products/buzud-pen-needles-plus-pro-32g-6mm.png",
+      "name": "康复理疗",
+      "url": "/cn/zh/cat/physical-therapy",
+      "image": "https://imgcdn2.buzud.com/202501/24/3bf5e5f25de7d3c6ff2ad8b1ea755315.png",
       "subs": [
         {
-          "name": "32G 6mm",
-          "url": "/cn/zh/p/buzud-pen-needles-plus-pro-32g-6mm",
-          "image": "/images/products/buzud-pen-needles-plus-pro-32g-6mm.png"
+          "name": "BUZUD Hand Function Rehabilitation Training System SRH 200 Premium",
+          "url": "/cn/zh/p/buzud-hand-function-rehabilitation-training-system-srh-200-premium-8885020711240",
+          "image": "https://imgcdn2.buzud.com/202405/31/f241698240242a6acdb94995bfd70a16.jpg"
         },
         {
-          "name": "安全款 31G 5mm",
-          "url": "/cn/zh/p/buzud-safety-pen-needles-hs-pro-31g-5mm",
-          "image": "/images/products/buzud-safety-pen-needles-hs-pro-31g-5mm.png"
+          "name": "BUZUD Hand Function Rehabilitation Training System SRH 300 Desktop",
+          "url": "/cn/zh/p/buzud-hand-function-rehabilitation-training-system-srh-300-desktop-8885020711257",
+          "image": "https://imgcdn2.buzud.com/202312/07/0673788e61d13815b3498394397cafd4.jpg"
         },
         {
-          "name": "32G 5mm",
-          "url": "/cn/zh/p/buzud-pen-needles-plus-pro-32g-5mm",
-          "image": "/images/products/buzud-pen-needles-plus-pro-32g-5mm.png"
+          "name": "BUZUD Hand Function Rehabilitation Training System Glove (Large) - Driver (Left hand)",
+          "url": "/cn/zh/p/buzud-hand-function-rehabilitation-training-system-srh-200-premium-glove-driver-8885020712971",
+          "image": "https://imgcdn2.buzud.com/202405/31/f241698240242a6acdb94995bfd70a16.jpg"
         },
         {
-          "name": "32G 4mm",
-          "url": "/cn/zh/p/buzud-pen-needles-plus-pro-32g-4mm-8885020711547",
-          "image": "/images/products/buzud-8885020711547.png"
+          "name": "BUZUD Hand Function Rehabilitation Training System SRH 200 Basic",
+          "url": "/cn/zh/p/buzud-hand-function-rehabilitation-training-system-srh-200-basic-8885020711233",
+          "image": "https://imgcdn2.buzud.com/202405/31/7d0f39bddf9f64decada3cd0a3e460c4.jpg"
+        },
+        {
+          "name": "BUZUD Hand Function Rehabilitation Training System Glove (Large) - Passive (Left hand)",
+          "url": "/cn/zh/p/buzud-hand-function-rehabilitation-training-system-srh-200-premium-glove-passive-8885020712957",
+          "image": "https://imgcdn2.buzud.com/202405/31/f241698240242a6acdb94995bfd70a16.jpg"
+        },
+        {
+          "name": "BUZUD Hand Function Rehabilitation Training System Glove (Large) - Passive (Right hand)",
+          "url": "/cn/zh/p/buzud-hand-function-rehabilitation-training-system-glove-large-passive-right-hand-8885020712964",
+          "image": "https://imgcdn2.buzud.com/202607/28/f0c2882edae6cd9e1213bc589e5eb5f9.jpg"
+        },
+        {
+          "name": "BUZUD Hand Function Rehabilitation Training System Glove (Large) - Driver (Right hand)",
+          "url": "/cn/zh/p/buzud-hand-function-rehabilitation-training-system-glove-large-driver-right-hand-8885020712988",
+          "image": "https://imgcdn2.buzud.com/202607/28/f0c2882edae6cd9e1213bc589e5eb5f9.jpg"
+        }
+      ]
+    },
+    {
+      "name": "脉搏血氧仪",
+      "url": "/cn/zh/cat/pulse-oximeter",
+      "image": "https://imgcdn2.buzud.com/202501/24/119c93394faaabb886965e81d76a7e5d.png",
+      "subs": [
+        {
+          "name": "BUZUD Fingertip Pulse Oximeter 70B",
+          "url": "/cn/zh/p/buzud-fingertip-pulse-oximeter-70b-8885020711479",
+          "image": "https://imgcdn2.buzud.com/202409/07/efa520a8c6e9dd7c366244e3535551fb.png"
+        },
+        {
+          "name": "BUZUD Fingertip Pulse Oximeter 10I",
+          "url": "/cn/zh/p/buzud-fingertip-pulse-oximeter-10i-8885020711486",
+          "image": "https://imgcdn2.buzud.com/202409/07/028c536cb3ac0edaf993e61ad265ac66.png"
+        },
+        {
+          "name": "BUZUD Fingertip Pulse Oximeter 20D",
+          "url": "/cn/zh/p/buzud-fingertip-pulse-oximeter-20d-8885020711462",
+          "image": "https://imgcdn2.buzud.com/202409/07/5fa076b297b931f3a55af1047d68b89c.png"
+        },
+        {
+          "name": "BUZUD Fingertip Pulse Oximeter 70C",
+          "url": "/cn/zh/p/buzud-fingertip-pulse-oximeter-70c-8885020711493",
+          "image": "https://imgcdn2.buzud.com/202409/07/57f978d961816fee20258839bb27a75e.png"
         }
       ]
     }

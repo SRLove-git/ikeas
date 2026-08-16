@@ -1,61 +1,450 @@
 [
   {
-    "url": "/cn/zh/cat/buzud-rapid-tests",
-    "id": "buzud-rapid-tests",
-    "name": "快速检测试剂",
-    "description": "用于家庭自测的快速检测试剂盒，涵盖早孕、排卵、传染病、消化道及男性健康等常见筛查项目。",
-    "total": 9,
+    "url": "/cn/zh/cat/insulin-pen-needles",
+    "id": "insulin-pen-needles",
+    "name": "胰岛素笔针",
+    "description": "浏览 BUZUD 胰岛素笔针 相关产品。",
+    "total": 3,
+    "products": [
+      {
+        "id": "8885020711530",
+        "name": "BUZUD Pen Needles Plus Pro 32G 6mm ",
+        "price": 26,
+        "image": "https://imgcdn2.buzud.com/202505/05/076eed6fd4b5f9c6d86685c9ad7a51a2.png",
+        "productType": "胰岛素笔针",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-pen-needles-plus-pro-32g-6mm"
+      },
+      {
+        "id": "8885020711783",
+        "name": "BUZUD Safety Pen Needles HS Pro 31G 5mm",
+        "price": 67,
+        "image": "https://imgcdn2.buzud.com/202505/05/3e71f184660337e3cdd43178ee45967d.png",
+        "productType": "胰岛素笔针",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-safety-pen-needles-hs-pro-31g-5mm"
+      },
+      {
+        "id": "8885020712827",
+        "name": "BUZUD Pen Needles Plus Pro 32G 5mm ",
+        "price": 26,
+        "image": "https://imgcdn2.buzud.com/202606/22/5280b1887c9c4323c9a5cc9a1e0c7301.png",
+        "productType": "胰岛素笔针",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-pen-needles-plus-pro-32g-5mm"
+      }
+    ],
+    "blocks": [],
+    "productIds": [
+      {
+        "id": "8885020711530",
+        "type": "SPR",
+        "fullId": "s8885020711530"
+      },
+      {
+        "id": "8885020711783",
+        "type": "SPR",
+        "fullId": "s8885020711783"
+      },
+      {
+        "id": "8885020712827",
+        "type": "SPR",
+        "fullId": "s8885020712827"
+      }
+    ]
+  },
+  {
+    "url": "/cn/zh/cat/simple-oxygen-mask",
+    "id": "simple-oxygen-mask",
+    "name": "简易氧气面罩",
+    "description": "浏览 BUZUD 简易氧气面罩 相关产品。",
+    "total": 2,
+    "products": [
+      {
+        "id": "8885020710281",
+        "name": "Simple Oxygen Mask (adult)",
+        "price": 30,
+        "image": "https://imgcdn2.buzud.com/202312/07/899c667627329b568a194f6147130a03.png",
+        "productType": "简易氧气面罩",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "simple-oxygen-mask-adult"
+      },
+      {
+        "id": "8885020710298",
+        "name": "Simple Oxygen Mask (child)",
+        "price": 30,
+        "image": "https://imgcdn2.buzud.com/202312/07/899c667627329b568a194f6147130a03.png",
+        "productType": "简易氧气面罩",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "simple-oxygen-mask-child"
+      }
+    ],
+    "blocks": [],
+    "productIds": [
+      {
+        "id": "8885020710281",
+        "type": "SPR",
+        "fullId": "s8885020710281"
+      },
+      {
+        "id": "8885020710298",
+        "type": "SPR",
+        "fullId": "s8885020710298"
+      }
+    ]
+  },
+  {
+    "url": "/cn/zh/cat/portable-oxygen-concentrator",
+    "id": "portable-oxygen-concentrator",
+    "name": "便携式制氧机",
+    "description": "浏览 BUZUD 便携式制氧机 相关产品。",
+    "total": 3,
+    "products": [
+      {
+        "id": "8885020711387",
+        "name": "BUZUD Portable Oxygen Concentrator 1000P (white)",
+        "price": 5280,
+        "image": "https://imgcdn2.buzud.com/202409/07/236f41904fea19d9ed30055638a96a02.jpg",
+        "productType": "便携式制氧机",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-portable-oxygen-concentrator-1000p-white"
+      },
+      {
+        "id": "8885020711370",
+        "name": "BUZUD Portable Oxygen Concentrator 1000P (red)",
+        "price": 5280,
+        "image": "https://imgcdn2.buzud.com/202409/07/1a6c107dda5d1004fd1fb5414b0b056d.jpg",
+        "productType": "便携式制氧机",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-portable-oxygen-concentrator-1000p-red"
+      },
+      {
+        "id": "POC DYNAMIC 1000P BATTERY",
+        "name": "BUZUD Portable Oxygen Concentrator DYNAMIC 1000P Battery",
+        "price": 360,
+        "image": "https://imgcdn2.buzud.com/202509/13/e918e50b80eb9c0de432214f5fd935b0.jpg",
+        "productType": "便携式制氧机",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-portable-oxygen-concentrator-dynamic-1000p-battery"
+      }
+    ],
+    "blocks": [],
+    "productIds": [
+      {
+        "id": "8885020711387",
+        "type": "SPR",
+        "fullId": "s8885020711387"
+      },
+      {
+        "id": "8885020711370",
+        "type": "SPR",
+        "fullId": "s8885020711370"
+      },
+      {
+        "id": "POC DYNAMIC 1000P BATTERY",
+        "type": "SPR",
+        "fullId": "sPOC DYNAMIC 1000P BATTERY"
+      }
+    ]
+  },
+  {
+    "url": "/cn/zh/cat/insulin-cooler-box",
+    "id": "insulin-cooler-box",
+    "name": "胰岛素冷藏盒",
+    "description": "浏览 BUZUD 胰岛素冷藏盒 相关产品。",
+    "total": 0,
+    "products": [],
+    "blocks": [],
+    "productIds": []
+  },
+  {
+    "url": "/cn/zh/cat/thermometer",
+    "id": "thermometer",
+    "name": "体温计",
+    "description": "浏览 BUZUD 体温计 相关产品。",
+    "total": 4,
+    "products": [
+      {
+        "id": "8885020711288",
+        "name": "BUZUD Infrared Thermometer 20A",
+        "price": 68,
+        "image": "https://imgcdn2.buzud.com/202403/20/c02c279025f69269ebca515a5cf9627b.jpg",
+        "productType": "体温计",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-infrared-thermometer-20a"
+      },
+      {
+        "id": "8885020711684-10",
+        "name": "Disposable Ear Probe YE20 (10 boxes)",
+        "price": 60,
+        "image": "https://imgcdn2.buzud.com/202504/16/b9d04ae687f6c86c9d6e27e5e907d1d4.png",
+        "productType": "体温计",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "disposable-ear-probe-ye20-10-boxes"
+      },
+      {
+        "id": "8885020711677",
+        "name": "BUZUD Infrared Ear Thermometer BZD100",
+        "price": 87,
+        "image": "https://imgcdn2.buzud.com/202503/17/57a08012060844dd532303d5328887d0.jpg",
+        "productType": "体温计",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-infrared-ear-thermometer-bzd100"
+      },
+      {
+        "id": "8885020711684",
+        "name": "BUZUD Disposable Ear Probe YE20",
+        "price": 6,
+        "image": "https://imgcdn2.buzud.com/202504/16/b9d04ae687f6c86c9d6e27e5e907d1d4.png",
+        "productType": "体温计",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-disposable-ear-probe-ye20"
+      }
+    ],
+    "blocks": [],
+    "productIds": [
+      {
+        "id": "8885020711288",
+        "type": "SPR",
+        "fullId": "s8885020711288"
+      },
+      {
+        "id": "8885020711684-10",
+        "type": "SPR",
+        "fullId": "s8885020711684-10"
+      },
+      {
+        "id": "8885020711677",
+        "type": "SPR",
+        "fullId": "s8885020711677"
+      },
+      {
+        "id": "8885020711684",
+        "type": "SPR",
+        "fullId": "s8885020711684"
+      }
+    ]
+  },
+  {
+    "url": "/cn/zh/cat/walking-aid",
+    "id": "walking-aid",
+    "name": "助行器",
+    "description": "浏览 BUZUD 助行器 相关产品。",
+    "total": 10,
+    "products": [
+      {
+        "id": "8885020710977",
+        "name": "Walking Aid QK913L",
+        "price": 99,
+        "image": "https://imgcdn2.buzud.com/202312/07/d2e141620277bd8c04eaaa6f0c8367de.png",
+        "productType": "助行器",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "walking-aid-qk913l"
+      },
+      {
+        "id": "8885020711905",
+        "name": "Crutches (Standard)",
+        "price": 27,
+        "image": "https://imgcdn2.buzud.com/202505/30/752489cbed64336a72cc223468736951.png",
+        "productType": "助行器",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "crutches-standard"
+      },
+      {
+        "id": "8885020711844",
+        "name": "Foldable Walking Frame (Youth)",
+        "price": 49,
+        "image": "https://imgcdn2.buzud.com/202312/07/d2e141620277bd8c04eaaa6f0c8367de.png",
+        "productType": "助行器",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "foldable-walking-frame-youth"
+      },
+      {
+        "id": "8885020711875",
+        "name": "Crutches (Paediatric)",
+        "price": 29,
+        "image": "https://imgcdn2.buzud.com/202505/30/752489cbed64336a72cc223468736951.png",
+        "productType": "助行器",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "crutches-paediatric"
+      },
+      {
+        "id": "8885020711899",
+        "name": "Crutches (Tall)",
+        "price": 27,
+        "image": "https://imgcdn2.buzud.com/202505/30/752489cbed64336a72cc223468736951.png",
+        "productType": "助行器",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "crutches-tall"
+      },
+      {
+        "id": "8885020711950",
+        "name": "Walker Boot, Short ",
+        "price": 200,
+        "image": "https://imgcdn2.buzud.com/202505/30/995e52c1a51959ce9be43d213402fa32.jpg",
+        "productType": "助行器",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "walker-boot-short"
+      },
+      {
+        "id": "8885020711837",
+        "name": "Foldable Walking Frame (Adult)",
+        "price": 49,
+        "image": "https://imgcdn2.buzud.com/202312/07/d2e141620277bd8c04eaaa6f0c8367de.png",
+        "productType": "助行器",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "foldable-walking-frame-adult"
+      },
+      {
+        "id": "8885020711943",
+        "name": "Walker Boot, Standard - Medium",
+        "price": 240,
+        "image": "https://imgcdn2.buzud.com/202505/30/fa269b0b434e19bd7cfdd04798ab4fe3.jpg",
+        "productType": "助行器",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "walker-boot-standard-medium"
+      },
+      {
+        "id": "8885020711936",
+        "name": "Elbow Crutches",
+        "price": 21.6,
+        "image": "https://imgcdn2.buzud.com/202505/30/10d633e9620c972ffa36231ccd1745f0.png",
+        "productType": "助行器",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "elbow-crutches"
+      },
+      {
+        "id": "8885020711882",
+        "name": "Crutches (Youth)",
+        "price": 27,
+        "image": "https://imgcdn2.buzud.com/202505/30/752489cbed64336a72cc223468736951.png",
+        "productType": "助行器",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "crutches-youth"
+      }
+    ],
+    "blocks": [],
+    "productIds": [
+      {
+        "id": "8885020710977",
+        "type": "SPR",
+        "fullId": "s8885020710977"
+      },
+      {
+        "id": "8885020711905",
+        "type": "SPR",
+        "fullId": "s8885020711905"
+      },
+      {
+        "id": "8885020711844",
+        "type": "SPR",
+        "fullId": "s8885020711844"
+      },
+      {
+        "id": "8885020711875",
+        "type": "SPR",
+        "fullId": "s8885020711875"
+      },
+      {
+        "id": "8885020711899",
+        "type": "SPR",
+        "fullId": "s8885020711899"
+      },
+      {
+        "id": "8885020711950",
+        "type": "SPR",
+        "fullId": "s8885020711950"
+      },
+      {
+        "id": "8885020711837",
+        "type": "SPR",
+        "fullId": "s8885020711837"
+      },
+      {
+        "id": "8885020711943",
+        "type": "SPR",
+        "fullId": "s8885020711943"
+      },
+      {
+        "id": "8885020711936",
+        "type": "SPR",
+        "fullId": "s8885020711936"
+      },
+      {
+        "id": "8885020711882",
+        "type": "SPR",
+        "fullId": "s8885020711882"
+      }
+    ]
+  },
+  {
+    "url": "/cn/zh/cat/test-kit",
+    "id": "test-kit",
+    "name": "检测试剂盒",
+    "description": "浏览 BUZUD 检测试剂盒 相关产品。",
+    "total": 14,
     "products": [
       {
         "id": "8885020710595",
         "name": "HCG Pregnancy Rapid Test",
         "price": 4.8,
-        "image": "/images/products/buzud-8885020710595.png",
-        "productType": "快速检测试剂",
+        "image": "https://imgcdn2.buzud.com/202312/07/afaf4698e2013045f83b38a837ad02db.jpg",
+        "productType": "检测试剂盒",
         "designText": null,
         "measureText": null,
         "url": null,
         "seoSlug": "hcg-pregnancy-rapid-test"
       },
       {
-        "id": "8885020710618",
-        "name": "LH Ovulation Rapid Test",
-        "price": 5.8,
-        "image": "/images/products/buzud-8885020710618.png",
-        "productType": "快速检测试剂",
-        "designText": null,
-        "measureText": null,
-        "url": null,
-        "seoSlug": "lh-ovulation-rapid-test"
-      },
-      {
-        "id": "8885020710649",
-        "name": "Vaginal pH Rapid Test Panel",
-        "price": 16.0,
-        "image": "/images/products/buzud-8885020710649.png",
-        "productType": "快速检测试剂",
-        "designText": null,
-        "measureText": null,
-        "url": null,
-        "seoSlug": "vaginal-ph-rapid-test-panel"
-      },
-      {
-        "id": "8885020712209",
-        "name": "COVID-19/Flu A&B/RSV/Adeno Ag Combo Rapid Test Cassette (Swab) (1 test/box)",
-        "price": 17.0,
-        "image": "/images/products/buzud-8885020712209.png",
-        "productType": "快速检测试剂",
-        "designText": "1 test/box",
-        "measureText": null,
-        "url": null,
-        "seoSlug": "covid-19-flu-a-b-rsv-adeno-ag-combo-rapid-test-cassette"
-      },
-      {
         "id": "8885020710588",
         "name": "H.pylori Antigen Rapid Test",
-        "price": 18.0,
-        "image": "/images/products/buzud-8885020710588.png",
-        "productType": "快速检测试剂",
+        "price": 18,
+        "image": "https://imgcdn2.buzud.com/202312/07/d4eeacb5c72623ce24df19c14e02d05e.png",
+        "productType": "检测试剂盒",
         "designText": null,
         "measureText": null,
         "url": null,
@@ -64,31 +453,53 @@
       {
         "id": "8885020710656",
         "name": "BUZUD Urinary Tract Infections Test For Self-Testing",
-        "price": 16.0,
-        "image": "/images/products/buzud-8885020710656.png",
-        "productType": "快速检测试剂",
+        "price": 16,
+        "image": "https://imgcdn2.buzud.com/202512/23/ffa20e66e713226bcf22089d8d191a46.png",
+        "productType": "检测试剂盒",
         "designText": null,
         "measureText": null,
         "url": null,
         "seoSlug": "buzud-urinary-tract-infections-test-for-self-testing"
       },
       {
-        "id": "8885020712315",
-        "name": "BUZUD Influenza A&B Ag Rapid Test (Cassette) (5 test/box)",
-        "price": 43.5,
-        "image": "/images/products/buzud-8885020712315.png",
-        "productType": "快速检测试剂",
-        "designText": "5 test/box",
+        "id": "8885020710601",
+        "name": "Onestep FSH Urine Test",
+        "price": 28,
+        "image": "https://imgcdn2.buzud.com/202312/07/da0a495df06d8194de94fde2b07336d2.jpg",
+        "productType": "检测试剂盒",
+        "designText": null,
         "measureText": null,
         "url": null,
-        "seoSlug": "buzud-influenza-a-b-ag-rapid-test"
+        "seoSlug": "onestep-fsh-urine-test"
+      },
+      {
+        "id": "8885020710649",
+        "name": "Vaginal pH Rapid Test Panel",
+        "price": 16,
+        "image": "https://imgcdn2.buzud.com/202312/07/51d44cee66d0e6a8771177eb3b7a2862.jpg",
+        "productType": "检测试剂盒",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "vaginal-ph-rapid-test-panel"
+      },
+      {
+        "id": "8885020710618",
+        "name": "LH Ovulation Rapid Test",
+        "price": 5.8,
+        "image": "https://imgcdn2.buzud.com/202312/07/3579ab369b8cd3b83278834bd2b978c4.jpg",
+        "productType": "检测试剂盒",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "lh-ovulation-rapid-test"
       },
       {
         "id": "8885020710625",
         "name": "One-step Fecal Occult Blood Test",
-        "price": 18.0,
-        "image": "/images/products/buzud-8885020710625.png",
-        "productType": "快速检测试剂",
+        "price": 18,
+        "image": "https://imgcdn2.buzud.com/202312/07/d820924c947ef4d4395f691c0a8145fa.png",
+        "productType": "检测试剂盒",
         "designText": null,
         "measureText": null,
         "url": null,
@@ -97,13 +508,79 @@
       {
         "id": "8885020710663",
         "name": "SP-10 Male Fertility Rapid Test Cassette",
-        "price": 35.0,
-        "image": "/images/products/buzud-8885020710663.png",
-        "productType": "快速检测试剂",
+        "price": 35,
+        "image": "https://imgcdn2.buzud.com/202312/07/b06da4ce9376e0b4085a9707ad80bceb.png",
+        "productType": "检测试剂盒",
         "designText": null,
         "measureText": null,
         "url": null,
         "seoSlug": "sp-10-male-fertility-rapid-test-cassette"
+      },
+      {
+        "id": "8885020711745",
+        "name": "BUZUD Influenza A&B Ag Rapid Test (Cassette) (1 test/box)",
+        "price": 8.7,
+        "image": "https://imgcdn2.buzud.com/202504/03/227cf95c54aa2cd2a8df4932769ecda0.png",
+        "productType": "检测试剂盒",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-influenza-aandb-ag-rapid-test-cassette-1-test-box"
+      },
+      {
+        "id": "8885020712209",
+        "name": "COVID-19/Flu A&B/RSV/Adeno Ag Combo Rapid Test Cassette (Swab) (1 test/box)",
+        "price": 17,
+        "image": "https://imgcdn2.buzud.com/202509/09/c831d1ed49da271d8a1cd75eee52f1bf.jpg",
+        "productType": "检测试剂盒",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "covid-19-flu-aandb-rsv-adeno-ag-combo-rapid-test-cassette-swab-1-test-box"
+      },
+      {
+        "id": "8885020711738",
+        "name": "TSH Rapid Test Cassette (Whole Blood)",
+        "price": 22,
+        "image": "https://imgcdn2.buzud.com/202510/04/fd75f025555e4dc146356c4fb565c225.png",
+        "productType": "检测试剂盒",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "tsh-rapid-test-cassette-whole-blood"
+      },
+      {
+        "id": "8885020712315",
+        "name": "BUZUD Influenza A&B Ag Rapid Test (Cassette) (5 test/box)",
+        "price": 43.5,
+        "image": "https://imgcdn2.buzud.com/202504/03/227cf95c54aa2cd2a8df4932769ecda0.png",
+        "productType": "检测试剂盒",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-influenza-aandb-ag-rapid-test-cassette-5-test-box"
+      },
+      {
+        "id": "8885020712391",
+        "name": "COVID-19/Flu A&B/RSV/Adeno Ag Combo Rapid Test Cassette (Swab) (5 tests/box)",
+        "price": 85,
+        "image": "https://imgcdn2.buzud.com/202605/11/fc52c72ae4bfec6a0cc5377878c3b0dd.jpg",
+        "productType": "检测试剂盒",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "covid-19-flu-aandb-rsv-adeno-ag-combo-rapid-test-cassette-swab-5-tests-box"
+      },
+      {
+        "id": "8885020712865",
+        "name": "COVID-19/Flu A&B/RSV/Adeno Ag Combo Rapid Test Cassette (Swab) (20 tests/box)",
+        "price": 340,
+        "image": "https://imgcdn2.buzud.com/202607/15/3d1cfedc1e965a53a7421e5c5bbb8ccc.jpg",
+        "productType": "检测试剂盒",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "covid-19-flu-aandb-rsv-adeno-ag-combo-rapid-test-cassette-swab-20-tests-box"
       }
     ],
     "blocks": [],
@@ -112,21 +589,6 @@
         "id": "8885020710595",
         "type": "SPR",
         "fullId": "s8885020710595"
-      },
-      {
-        "id": "8885020710618",
-        "type": "SPR",
-        "fullId": "s8885020710618"
-      },
-      {
-        "id": "8885020710649",
-        "type": "SPR",
-        "fullId": "s8885020710649"
-      },
-      {
-        "id": "8885020712209",
-        "type": "SPR",
-        "fullId": "s8885020712209"
       },
       {
         "id": "8885020710588",
@@ -139,9 +601,19 @@
         "fullId": "s8885020710656"
       },
       {
-        "id": "8885020712315",
+        "id": "8885020710601",
         "type": "SPR",
-        "fullId": "s8885020712315"
+        "fullId": "s8885020710601"
+      },
+      {
+        "id": "8885020710649",
+        "type": "SPR",
+        "fullId": "s8885020710649"
+      },
+      {
+        "id": "8885020710618",
+        "type": "SPR",
+        "fullId": "s8885020710618"
       },
       {
         "id": "8885020710625",
@@ -152,148 +624,825 @@
         "id": "8885020710663",
         "type": "SPR",
         "fullId": "s8885020710663"
+      },
+      {
+        "id": "8885020711745",
+        "type": "SPR",
+        "fullId": "s8885020711745"
+      },
+      {
+        "id": "8885020712209",
+        "type": "SPR",
+        "fullId": "s8885020712209"
+      },
+      {
+        "id": "8885020711738",
+        "type": "SPR",
+        "fullId": "s8885020711738"
+      },
+      {
+        "id": "8885020712315",
+        "type": "SPR",
+        "fullId": "s8885020712315"
+      },
+      {
+        "id": "8885020712391",
+        "type": "SPR",
+        "fullId": "s8885020712391"
+      },
+      {
+        "id": "8885020712865",
+        "type": "SPR",
+        "fullId": "s8885020712865"
       }
     ]
   },
   {
-    "url": "/cn/zh/cat/buzud-watches",
-    "id": "buzud-watches",
-    "name": "智能手表",
-    "description": "BUZUD 智能健康手表，用于日常活动、心率、睡眠等健康数据监测。",
-    "total": 5,
+    "url": "/cn/zh/cat/nasal-oxygen-cannula",
+    "id": "nasal-oxygen-cannula",
+    "name": "鼻氧管",
+    "description": "浏览 BUZUD 鼻氧管 相关产品。",
+    "total": 2,
     "products": [
       {
-        "id": "8885020712582",
-        "name": "BUZUD Watch Vibrance",
-        "price": 237.0,
-        "image": "/images/products/buzud-8885020712582.png",
-        "productType": "智能手表",
+        "id": "8885020710250",
+        "name": "Nasal Oxygen Cannula (5m) ",
+        "price": 17.75,
+        "image": "https://imgcdn2.buzud.com/202312/07/2c705ffac9f924051e4a0a60212c7e81.png",
+        "productType": "鼻氧管",
         "designText": null,
         "measureText": null,
         "url": null,
-        "seoSlug": "buzud-watch-vibrance"
+        "seoSlug": "nasal-oxygen-cannula-5m"
       },
       {
-        "id": "8885020712728",
-        "name": "BUZUD Watch Vibrance Green",
-        "price": 237.0,
-        "image": "/images/products/buzud-8885020712728.png",
-        "productType": "智能手表",
+        "id": "8885020710243",
+        "name": "Nasal Oxygen Cannula (2m)",
+        "price": 13.5,
+        "image": "https://imgcdn2.buzud.com/202312/07/2c705ffac9f924051e4a0a60212c7e81.png",
+        "productType": "鼻氧管",
         "designText": null,
         "measureText": null,
         "url": null,
-        "seoSlug": "buzud-watch-vibrance-green"
-      },
-      {
-        "id": "8885020712735",
-        "name": "BUZUD Watch Vibrance Pink",
-        "price": 237.0,
-        "image": "/images/products/buzud-8885020712735.png",
-        "productType": "智能手表",
-        "designText": null,
-        "measureText": null,
-        "url": null,
-        "seoSlug": "buzud-watch-vibrance-pink"
-      },
-      {
-        "id": "8885020712742",
-        "name": "BUZUD Watch Vibrance Star Light",
-        "price": 237.0,
-        "image": "/images/products/buzud-8885020712742.png",
-        "productType": "智能手表",
-        "designText": null,
-        "measureText": null,
-        "url": null,
-        "seoSlug": "buzud-watch-vibrance-star-light"
-      },
-      {
-        "id": "8885020712759",
-        "name": "BUZUD Watch Vibrance Violet",
-        "price": 237.0,
-        "image": "/images/products/buzud-8885020712759.png",
-        "productType": "智能手表",
-        "designText": null,
-        "measureText": null,
-        "url": null,
-        "seoSlug": "buzud-watch-vibrance-violet"
+        "seoSlug": "nasal-oxygen-cannula-2m"
       }
     ],
     "blocks": [],
     "productIds": [
       {
-        "id": "8885020712582",
+        "id": "8885020710250",
         "type": "SPR",
-        "fullId": "s8885020712582"
+        "fullId": "s8885020710250"
       },
       {
-        "id": "8885020712728",
+        "id": "8885020710243",
         "type": "SPR",
-        "fullId": "s8885020712728"
-      },
-      {
-        "id": "8885020712735",
-        "type": "SPR",
-        "fullId": "s8885020712735"
-      },
-      {
-        "id": "8885020712742",
-        "type": "SPR",
-        "fullId": "s8885020712742"
-      },
-      {
-        "id": "8885020712759",
-        "type": "SPR",
-        "fullId": "s8885020712759"
+        "fullId": "s8885020710243"
       }
     ]
   },
   {
-    "url": "/cn/zh/cat/buzud-blood-pressure-monitors",
-    "id": "buzud-blood-pressure-monitors",
-    "name": "血压计",
-    "description": "家用上臂式血压计，用于日常血压和脉搏监测。",
-    "total": 3,
+    "url": "/cn/zh/cat/oxygen-concentrator",
+    "id": "oxygen-concentrator",
+    "name": "制氧机",
+    "description": "浏览 BUZUD 制氧机 相关产品。",
+    "total": 6,
     "products": [
       {
-        "id": "8885020710151",
-        "name": "Upper Arm Blood Pressure Monitor C02",
-        "price": 85.0,
-        "image": "/images/products/buzud-8885020710151.png",
-        "productType": "血压计",
-        "designText": "C02",
+        "id": "8885020710014",
+        "name": "BUZUD Oxygen Concentrator SZ-5BW-10L",
+        "price": 5270,
+        "image": "https://imgcdn2.buzud.com/202312/07/6c04425b491aee5deeba72e2ba55bf32.jpg",
+        "productType": "制氧机",
+        "designText": null,
         "measureText": null,
         "url": null,
-        "seoSlug": "upper-arm-blood-pressure-monitor-c02"
+        "seoSlug": "buzud-oxygen-concentrator-sz-5bw-10l"
+      },
+      {
+        "id": "8885020710007",
+        "name": "BUZUD Oxygen Concentrator SZ-5BW-5L",
+        "price": 2890,
+        "image": "https://imgcdn2.buzud.com/202312/07/36ff7db6b47ebbe8a4812e54910f3a92.jpg",
+        "productType": "制氧机",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-oxygen-concentrator-sz-5bw-5l"
+      },
+      {
+        "id": "8885020711417",
+        "name": "BUZUD Oxygen Concentrator 10FW-D",
+        "price": 4870,
+        "image": "https://imgcdn2.buzud.com/202409/07/dea68fb8e1e02d57f902a52c7004f1fa.jpg",
+        "productType": "制氧机",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-oxygen-concentrator-10fw-d"
+      },
+      {
+        "id": "8885020711400",
+        "name": "BUZUD Oxygen Concentrator 10FW",
+        "price": 4650,
+        "image": "https://imgcdn2.buzud.com/202409/06/61ca9faeec96a4fba23439b3e00f13d5.png",
+        "productType": "制氧机",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-oxygen-concentrator-10fw"
+      },
+      {
+        "id": "8885020710519",
+        "name": "BUZUD Home-Use Oxygen Concentrator PRAGMATIC",
+        "price": 2980,
+        "image": "https://imgcdn2.buzud.com/202312/07/ac6e27a88f2164a337d154e0aead8c24.jpg",
+        "productType": "制氧机",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-home-use-oxygen-concentrator-pragmatic"
+      },
+      {
+        "id": "8885020712995",
+        "name": "Filter for BUZUD Oxygen Concentrator SZ-5BW",
+        "price": 56.6,
+        "image": "https://imgcdn2.buzud.com/202608/05/f6a4dc6c91cdb610ecc4a5ef5c94651a.jpg",
+        "productType": "制氧机",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "filter-for-buzud-oxygen-concentrator-sz-5bw"
+      }
+    ],
+    "blocks": [],
+    "productIds": [
+      {
+        "id": "8885020710014",
+        "type": "SPR",
+        "fullId": "s8885020710014"
+      },
+      {
+        "id": "8885020710007",
+        "type": "SPR",
+        "fullId": "s8885020710007"
+      },
+      {
+        "id": "8885020711417",
+        "type": "SPR",
+        "fullId": "s8885020711417"
+      },
+      {
+        "id": "8885020711400",
+        "type": "SPR",
+        "fullId": "s8885020711400"
+      },
+      {
+        "id": "8885020710519",
+        "type": "SPR",
+        "fullId": "s8885020710519"
+      },
+      {
+        "id": "8885020712995",
+        "type": "SPR",
+        "fullId": "s8885020712995"
+      }
+    ]
+  },
+  {
+    "url": "/cn/zh/cat/high-flow-nasal-cannula",
+    "id": "high-flow-nasal-cannula",
+    "name": "高流量鼻氧管",
+    "description": "浏览 BUZUD 高流量鼻氧管 相关产品。",
+    "total": 2,
+    "products": [
+      {
+        "id": "8885020710236",
+        "name": "High-Flow Nasal Cannula NeoHiF-i5",
+        "price": 39680,
+        "image": "https://imgcdn2.buzud.com/202312/07/8836aae2d0ecaacfd02e1a95260fb8d4.jpg",
+        "productType": "高流量鼻氧管",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "high-flow-nasal-cannula-neohif-i5"
+      },
+      {
+        "id": "8885020710229",
+        "name": "High-Flow Nasal Cannula NeoHiF-i7",
+        "price": 53780,
+        "image": "https://imgcdn2.buzud.com/202312/07/8836aae2d0ecaacfd02e1a95260fb8d4.jpg",
+        "productType": "高流量鼻氧管",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "high-flow-nasal-cannula-neohif-i7"
+      }
+    ],
+    "blocks": [],
+    "productIds": [
+      {
+        "id": "8885020710236",
+        "type": "SPR",
+        "fullId": "s8885020710236"
+      },
+      {
+        "id": "8885020710229",
+        "type": "SPR",
+        "fullId": "s8885020710229"
+      }
+    ]
+  },
+  {
+    "url": "/cn/zh/cat/blood-glucose-test-strip",
+    "id": "blood-glucose-test-strip",
+    "name": "血糖试纸",
+    "description": "浏览 BUZUD 血糖试纸 相关产品。",
+    "total": 6,
+    "products": [
+      {
+        "id": "8885020710328",
+        "name": "BUZUD Blood Glucose Test Strip (for Safe AQ UG and GlucoInsight Lite)",
+        "price": 48,
+        "image": "https://imgcdn2.buzud.com/202312/07/c2f4a4b8fa87de501954d0c16b444793.png",
+        "productType": "血糖试纸",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-blood-glucose-test-strip-for-safe-aq-ug-and-glucoinsight-lite"
+      },
+      {
+        "id": "8885020710908",
+        "name": "BUZUD Blood Glucose Test Strip set (for Safe AQ UG and GlucoInsight Lite)",
+        "price": 50,
+        "image": "https://imgcdn2.buzud.com/202312/07/80467994cec98cbb5742b61bfe84760e.png",
+        "productType": "血糖试纸",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-blood-glucose-test-strip-set-for-safe-aq-ug-and-glucoinsight-lite"
+      },
+      {
+        "id": "8885020712193",
+        "name": "BUZUD Uric Acid test strips (for Glucose, Ketone and Uric Acid meter)",
+        "price": 86,
+        "image": "https://imgcdn2.buzud.com/202509/30/59f8a6213632a7c9b05870059c7dc879.png",
+        "productType": "血糖试纸",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-uric-acid-test-strips-for-glucose-ketone-and-uric-acid-meter"
+      },
+      {
+        "id": "8885020712186",
+        "name": "BUZUD Ketone test strips (for Glucose, Ketone and Uric Acid meter)",
+        "price": 77,
+        "image": "https://imgcdn2.buzud.com/202509/30/350767c430aafd679cc88c4171b4e8a3.png",
+        "productType": "血糖试纸",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-ketone-test-strips-for-glucose-ketone-and-uric-acid-meter"
+      },
+      {
+        "id": "8885020712377",
+        "name": "BUZUD GlucoInsight Lite Test Strip (for GlucoInsight Lite and Safe AQ UG)",
+        "price": 48,
+        "image": "https://imgcdn2.buzud.com/202601/29/d8ac04e216bb59911673b1044437c418.png",
+        "productType": "血糖试纸",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-glucoinsight-lite-test-strip-for-glucoinsight-lite-and-safe-aq-ug"
+      },
+      {
+        "id": "8885020712179",
+        "name": "BUZUD Glucose test strips (for GlucoInsight Plus and Glucose, Ketone and Uric Acid Meter)",
+        "price": 37,
+        "image": "https://imgcdn2.buzud.com/202509/30/83e5ee3317c7dbdc1ae453118987b14c.png",
+        "productType": "血糖试纸",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-glucose-test-strips-for-glucoinsight-plus-and-glucose-ketone-and-uric-acid-meter"
+      }
+    ],
+    "blocks": [],
+    "productIds": [
+      {
+        "id": "8885020710328",
+        "type": "SPR",
+        "fullId": "s8885020710328"
+      },
+      {
+        "id": "8885020710908",
+        "type": "SPR",
+        "fullId": "s8885020710908"
+      },
+      {
+        "id": "8885020712193",
+        "type": "SPR",
+        "fullId": "s8885020712193"
+      },
+      {
+        "id": "8885020712186",
+        "type": "SPR",
+        "fullId": "s8885020712186"
+      },
+      {
+        "id": "8885020712377",
+        "type": "SPR",
+        "fullId": "s8885020712377"
+      },
+      {
+        "id": "8885020712179",
+        "type": "SPR",
+        "fullId": "s8885020712179"
+      }
+    ]
+  },
+  {
+    "url": "/cn/zh/cat/cgms",
+    "id": "cgms",
+    "name": "动态血糖监测系统（CGMS）",
+    "description": "浏览 BUZUD 动态血糖监测系统（CGMS） 相关产品。",
+    "total": 4,
+    "products": [
+      {
+        "id": "8885020711356-0",
+        "name": "BUZUD Continuous Glucose Monitoring System 180 days Advanced Plan",
+        "price": 827,
+        "image": "https://imgcdn2.buzud.com/202406/03/8158c00b40723418bf6cbb05c3824002.jpg",
+        "productType": "动态血糖监测系统（CGMS）",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-continuous-glucose-monitoring-system-180-days-advanced-plan"
+      },
+      {
+        "id": "8885020711349-0",
+        "name": "BUZUD Continuous Glucose Monitoring System 90 days Starter Plan",
+        "price": 495.9,
+        "image": "https://imgcdn2.buzud.com/202601/02/4c06be4868cf3b3b50bd2966371f4875.jpg",
+        "productType": "动态血糖监测系统（CGMS）",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-continuous-glucose-monitoring-system-90-days-starter-plan"
+      },
+      {
+        "id": "8885020711363-0",
+        "name": "BUZUD Continuous Glucose Monitoring System 365 days Premium Plan",
+        "price": 1527,
+        "image": "https://imgcdn2.buzud.com/202406/03/8158c00b40723418bf6cbb05c3824002.jpg",
+        "productType": "动态血糖监测系统（CGMS）",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-continuous-glucose-monitoring-system-365-days-premium-plan"
+      },
+      {
+        "id": "8885020711394",
+        "name": "BUZUD Continuous Glucose Monitoring System Sensor 2.0",
+        "price": 87,
+        "image": "https://imgcdn2.buzud.com/202601/02/4c06be4868cf3b3b50bd2966371f4875.jpg",
+        "productType": "动态血糖监测系统（CGMS）",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-continuous-glucose-monitoring-system-sensor-2-0"
+      }
+    ],
+    "blocks": [],
+    "productIds": [
+      {
+        "id": "8885020711356-0",
+        "type": "SPR",
+        "fullId": "s8885020711356-0"
+      },
+      {
+        "id": "8885020711349-0",
+        "type": "SPR",
+        "fullId": "s8885020711349-0"
+      },
+      {
+        "id": "8885020711363-0",
+        "type": "SPR",
+        "fullId": "s8885020711363-0"
+      },
+      {
+        "id": "8885020711394",
+        "type": "SPR",
+        "fullId": "s8885020711394"
+      }
+    ]
+  },
+  {
+    "url": "/cn/zh/cat/oxygen-nebulizer-tubing-and-mouthpiece",
+    "id": "oxygen-nebulizer-tubing-and-mouthpiece",
+    "name": "氧气雾化管路及口含器",
+    "description": "浏览 BUZUD 氧气雾化管路及口含器 相关产品。",
+    "total": 1,
+    "products": [
+      {
+        "id": "8885020710304",
+        "name": "Oxygen Nebulizer Tubing and Mouthpiece",
+        "price": 27.05,
+        "image": "https://imgcdn2.buzud.com/202312/07/ecb592a61c9e40627dbbb6dd1734bb72.png",
+        "productType": "氧气雾化管路及口含器",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "oxygen-nebulizer-tubing-and-mouthpiece"
+      }
+    ],
+    "blocks": [],
+    "productIds": [
+      {
+        "id": "8885020710304",
+        "type": "SPR",
+        "fullId": "s8885020710304"
+      }
+    ]
+  },
+  {
+    "url": "/cn/zh/cat/transfer-chair",
+    "id": "transfer-chair",
+    "name": "转移椅",
+    "description": "浏览 BUZUD 转移椅 相关产品。",
+    "total": 2,
+    "products": [
+      {
+        "id": "8885020712469",
+        "name": "BUZUD Manual Transfer Chair ",
+        "price": 1780,
+        "image": "https://imgcdn2.buzud.com/202509/13/3a98cd2ed48636c18a753f43ebe74f93.jpg",
+        "productType": "转移椅",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-manual-transfer-chair"
+      },
+      {
+        "id": "8885020711264",
+        "name": "Electric Transfer Wheelchair DY077602",
+        "price": 1780,
+        "image": "https://imgcdn2.buzud.com/202405/27/5318a7bebaf6a3dcae02c69db96cb768.jpg",
+        "productType": "转移椅",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "electric-transfer-wheelchair-dy077602"
+      }
+    ],
+    "blocks": [],
+    "productIds": [
+      {
+        "id": "8885020712469",
+        "type": "SPR",
+        "fullId": "s8885020712469"
+      },
+      {
+        "id": "8885020711264",
+        "type": "SPR",
+        "fullId": "s8885020711264"
+      }
+    ]
+  },
+  {
+    "url": "/cn/zh/cat/oxygen-tubing-splitter",
+    "id": "oxygen-tubing-splitter",
+    "name": "氧气分接管",
+    "description": "浏览 BUZUD 氧气分接管 相关产品。",
+    "total": 0,
+    "products": [],
+    "blocks": [],
+    "productIds": []
+  },
+  {
+    "url": "/cn/zh/cat/uric-acid-test-strip",
+    "id": "uric-acid-test-strip",
+    "name": "尿酸试纸",
+    "description": "浏览 BUZUD 尿酸试纸 相关产品。",
+    "total": 2,
+    "products": [
+      {
+        "id": "8885020710335",
+        "name": "BUZUD Safe AQ UG Uric Acid Test Strip",
+        "price": 86,
+        "image": "https://imgcdn2.buzud.com/202312/07/ec35852c4f39fb343c808f122a895506.png",
+        "productType": "尿酸试纸",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-safe-aq-ug-uric-acid-test-strip"
+      },
+      {
+        "id": "8885020710892",
+        "name": "BUZUD Safe AQ UG Uric Acid Test Strip and Lancet set",
+        "price": 88,
+        "image": "https://imgcdn2.buzud.com/202312/07/80467994cec98cbb5742b61bfe84760e.png",
+        "productType": "尿酸试纸",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-safe-aq-ug-uric-acid-test-strip-and-lancet-set"
+      }
+    ],
+    "blocks": [],
+    "productIds": [
+      {
+        "id": "8885020710335",
+        "type": "SPR",
+        "fullId": "s8885020710335"
+      },
+      {
+        "id": "8885020710892",
+        "type": "SPR",
+        "fullId": "s8885020710892"
+      }
+    ]
+  },
+  {
+    "url": "/cn/zh/cat/lipid-monitor-test-strip",
+    "id": "lipid-monitor-test-strip",
+    "name": "血脂检测试纸",
+    "description": "浏览 BUZUD 血脂检测试纸 相关产品。",
+    "total": 1,
+    "products": [
+      {
+        "id": "8885020711165",
+        "name": "BUZUD Blood Lipid Test Strip PFS 30 (20 strips/box)",
+        "price": 108,
+        "image": "https://imgcdn2.buzud.com/202312/07/0ed77debd740ac246ca84d78a528b852.jpg",
+        "productType": "血脂检测试纸",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-blood-lipid-test-strip-pfs-30-20-strips-box"
+      }
+    ],
+    "blocks": [],
+    "productIds": [
+      {
+        "id": "8885020711165",
+        "type": "SPR",
+        "fullId": "s8885020711165"
+      }
+    ]
+  },
+  {
+    "url": "/cn/zh/cat/ventilator",
+    "id": "ventilator",
+    "name": "呼吸机",
+    "description": "浏览 BUZUD 呼吸机 相关产品。",
+    "total": 0,
+    "products": [],
+    "blocks": [],
+    "productIds": []
+  },
+  {
+    "url": "/cn/zh/cat/blood-analyzer",
+    "id": "blood-analyzer",
+    "name": "血液分析仪",
+    "description": "浏览 BUZUD 血液分析仪 相关产品。",
+    "total": 8,
+    "products": [
+      {
+        "id": "8885020712339",
+        "name": "GlucoInsight Plus meter",
+        "price": 53,
+        "image": "https://imgcdn2.buzud.com/202509/30/b5e715f73a66885c8f187d8a331f3423.png",
+        "productType": "血液分析仪",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "glucoinsight-plus-meter"
+      },
+      {
+        "id": "8885020710311",
+        "name": "BUZUD Safe AQ UG Blood Glucose and Uric Acid Monitoring System single",
+        "price": 98,
+        "image": "https://imgcdn2.buzud.com/202312/07/5c92265fa1be46f6b3ace23ae89f6091.png",
+        "productType": "血液分析仪",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-safe-aq-ug-blood-glucose-and-uric-acid-monitoring-system-single"
+      },
+      {
+        "id": "8885020710885",
+        "name": "BUZUD Safe AQ UG Blood Glucose Monitoring System Set",
+        "price": 68,
+        "image": "https://imgcdn2.buzud.com/202312/07/5c92265fa1be46f6b3ace23ae89f6091.png",
+        "productType": "血液分析仪",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-safe-aq-ug-blood-glucose-monitoring-system-set"
+      },
+      {
+        "id": "8885020710878",
+        "name": "BUZUD Safe AQ UG Uric Acid Monitoring System Set",
+        "price": 108,
+        "image": "https://imgcdn2.buzud.com/202312/07/5c92265fa1be46f6b3ace23ae89f6091.png",
+        "productType": "血液分析仪",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-safe-aq-ug-uric-acid-monitoring-system-set"
+      },
+      {
+        "id": "8885020710861",
+        "name": "BUZUD Safe AQ UG Blood Glucose and Uric Acid Monitoring System Set",
+        "price": 168,
+        "image": "https://imgcdn2.buzud.com/202312/07/5c92265fa1be46f6b3ace23ae89f6091.png",
+        "productType": "血液分析仪",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-safe-aq-ug-blood-glucose-and-uric-acid-monitoring-system-set"
+      },
+      {
+        "id": "8885020712384",
+        "name": "GlucoInsight Lite set",
+        "price": 58.8,
+        "image": "https://imgcdn2.buzud.com/202602/09/f6a79cf8ac82473b75d5d9748c700d42.png",
+        "productType": "血液分析仪",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "glucoinsight-lite-set"
+      },
+      {
+        "id": "8885020712162",
+        "name": "BUZUD Glucose, Ketone and Uric Acid Meter set",
+        "price": 97,
+        "image": "https://imgcdn2.buzud.com/202509/30/19cf934d7e06caf1b0bee30949a8fc7d.png",
+        "productType": "血液分析仪",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-glucose-ketone-and-uric-acid-meter-set"
+      },
+      {
+        "id": "capillary tubes (10pcs)",
+        "name": "BUZUD Capillary Tubes (10pcs)",
+        "price": 5,
+        "image": "https://imgcdn2.buzud.com/202607/06/df7c56f8f4d6b7e43e47af58feb4a579.jpg",
+        "productType": "血液分析仪",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-capillary-tubes-10pcs"
+      }
+    ],
+    "blocks": [],
+    "productIds": [
+      {
+        "id": "8885020712339",
+        "type": "SPR",
+        "fullId": "s8885020712339"
+      },
+      {
+        "id": "8885020710311",
+        "type": "SPR",
+        "fullId": "s8885020710311"
+      },
+      {
+        "id": "8885020710885",
+        "type": "SPR",
+        "fullId": "s8885020710885"
+      },
+      {
+        "id": "8885020710878",
+        "type": "SPR",
+        "fullId": "s8885020710878"
+      },
+      {
+        "id": "8885020710861",
+        "type": "SPR",
+        "fullId": "s8885020710861"
+      },
+      {
+        "id": "8885020712384",
+        "type": "SPR",
+        "fullId": "s8885020712384"
+      },
+      {
+        "id": "8885020712162",
+        "type": "SPR",
+        "fullId": "s8885020712162"
+      },
+      {
+        "id": "capillary tubes (10pcs)",
+        "type": "SPR",
+        "fullId": "scapillary tubes (10pcs)"
+      }
+    ]
+  },
+  {
+    "url": "/cn/zh/cat/blood-pressure-monitor",
+    "id": "blood-pressure-monitor",
+    "name": "血压计",
+    "description": "浏览 BUZUD 血压计 相关产品。",
+    "total": 8,
+    "products": [
+      {
+        "id": "8885020711097",
+        "name": "BUZUD Blood Pressure Monitor 30S",
+        "price": 78,
+        "image": "https://imgcdn2.buzud.com/202312/07/7c936cd846c794e07cc6df5c9c738164.png",
+        "productType": "血压计",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-blood-pressure-monitor-30s"
       },
       {
         "id": "8885020711103",
         "name": "BUZUD Blood Pressure Monitor 30C",
-        "price": 85.0,
-        "image": "/images/products/buzud-8885020711103.png",
+        "price": 85,
+        "image": "https://imgcdn2.buzud.com/202312/07/bfbeb24f5851713989a3724efd744c38.png",
         "productType": "血压计",
-        "designText": "30C",
+        "designText": null,
         "measureText": null,
         "url": null,
         "seoSlug": "buzud-blood-pressure-monitor-30c"
       },
       {
-        "id": "8885020711097",
-        "name": "BUZUD Blood Pressure Monitor 30S",
-        "price": 78.0,
-        "image": "/images/products/buzud-8885020711097.png",
+        "id": "8885020711080",
+        "name": "BUZUD Blood Pressure Monitor 30M",
+        "price": 85,
+        "image": "https://imgcdn2.buzud.com/202312/07/a242604e26d5eefd0dfab8ee85f2e994.png",
         "productType": "血压计",
-        "designText": "30S",
+        "designText": null,
         "measureText": null,
         "url": null,
-        "seoSlug": "buzud-blood-pressure-monitor-30s"
+        "seoSlug": "buzud-blood-pressure-monitor-30m"
+      },
+      {
+        "id": "8885020710168",
+        "name": "Upper Arm Blood Pressure Monitor U82RH",
+        "price": 82,
+        "image": "https://imgcdn2.buzud.com/202312/07/eb2188a7cbf15ea32c3d5a934cad4241.jpg",
+        "productType": "血压计",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "upper-arm-blood-pressure-monitor-u82rh"
+      },
+      {
+        "id": "8885020712803",
+        "name": "Blood Pressure Arm Cuff ",
+        "price": 24,
+        "image": "https://imgcdn2.buzud.com/202408/24/899faf35b259878f1a9fdaca4141e141.jpg",
+        "productType": "血压计",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "blood-pressure-arm-cuff"
+      },
+      {
+        "id": "8885020710151",
+        "name": "Upper Arm Blood Pressure Monitor C02",
+        "price": 85,
+        "image": "https://imgcdn2.buzud.com/202403/27/b030f965e847a713183e5dfedeecf36f.jpg",
+        "productType": "血压计",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "upper-arm-blood-pressure-monitor-c02"
+      },
+      {
+        "id": "8885020712841",
+        "name": "BUZUD Blood Pressure Monitor 630CR",
+        "price": 137,
+        "image": "https://imgcdn2.buzud.com/202607/01/0636685652a040ef2e0b3bc9bdf86aea.jpg",
+        "productType": "血压计",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-blood-pressure-monitor-630cr"
+      },
+      {
+        "id": "8885020710151-1",
+        "name": "BUZUD Blood Pressure Monitor Power Cable",
+        "price": 15,
+        "image": "https://imgcdn2.buzud.com/202606/09/dc8d79956f5fbbe5d2be6a1233c7d35a.jpg",
+        "productType": "血压计",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-blood-pressure-monitor-power-cable"
       }
     ],
     "blocks": [],
     "productIds": [
       {
-        "id": "8885020710151",
+        "id": "8885020711097",
         "type": "SPR",
-        "fullId": "s8885020710151"
+        "fullId": "s8885020711097"
       },
       {
         "id": "8885020711103",
@@ -301,119 +1450,692 @@
         "fullId": "s8885020711103"
       },
       {
-        "id": "8885020711097",
+        "id": "8885020711080",
         "type": "SPR",
-        "fullId": "s8885020711097"
+        "fullId": "s8885020711080"
+      },
+      {
+        "id": "8885020710168",
+        "type": "SPR",
+        "fullId": "s8885020710168"
+      },
+      {
+        "id": "8885020712803",
+        "type": "SPR",
+        "fullId": "s8885020712803"
+      },
+      {
+        "id": "8885020710151",
+        "type": "SPR",
+        "fullId": "s8885020710151"
+      },
+      {
+        "id": "8885020712841",
+        "type": "SPR",
+        "fullId": "s8885020712841"
+      },
+      {
+        "id": "8885020710151-1",
+        "type": "SPR",
+        "fullId": "s8885020710151-1"
       }
     ]
   },
   {
-    "url": "/cn/zh/cat/buzud-glucose-management",
-    "id": "buzud-glucose-management",
-    "name": "血糖管理",
-    "description": "血糖仪与连续血糖监测系统，用于日常血糖管理。",
-    "total": 3,
+    "url": "/cn/zh/cat/alcohol-swab",
+    "id": "alcohol-swab",
+    "name": "酒精棉片",
+    "description": "浏览 BUZUD 酒精棉片 相关产品。",
+    "total": 1,
     "products": [
       {
-        "id": "8885020711394",
-        "name": "BUZUD Continuous Glucose Monitoring System Sensor 2.0",
-        "price": 87.0,
-        "image": "/images/products/buzud-8885020711394.png",
-        "productType": "血糖监测",
-        "designText": "Sensor 2.0",
-        "measureText": null,
-        "url": null,
-        "seoSlug": "buzud-continuous-glucose-monitoring-system-sensor-2-0"
-      },
-      {
-        "id": "8885020712339",
-        "name": "GlucoInsight Plus meter",
-        "price": 53.0,
-        "image": "/images/products/buzud-8885020712339.png",
-        "productType": "血糖仪",
+        "id": "8885020711660",
+        "name": "BUZUD Alcohol Swab",
+        "price": 3,
+        "image": "https://imgcdn2.buzud.com/202507/03/a11205714f70335fb02bebabe900501e.png",
+        "productType": "酒精棉片",
         "designText": null,
         "measureText": null,
         "url": null,
-        "seoSlug": "glucoinsight-plus-meter"
-      },
-      {
-        "id": "8885020712384",
-        "name": "GlucoInsight Lite set",
-        "price": 58.8,
-        "image": "/images/products/buzud-8885020712384.png",
-        "productType": "血糖仪",
-        "designText": null,
-        "measureText": null,
-        "url": null,
-        "seoSlug": "glucoinsight-lite-set"
+        "seoSlug": "buzud-alcohol-swab"
       }
     ],
     "blocks": [],
     "productIds": [
       {
-        "id": "8885020711394",
+        "id": "8885020711660",
         "type": "SPR",
-        "fullId": "s8885020711394"
-      },
-      {
-        "id": "8885020712339",
-        "type": "SPR",
-        "fullId": "s8885020712339"
-      },
-      {
-        "id": "8885020712384",
-        "type": "SPR",
-        "fullId": "s8885020712384"
+        "fullId": "s8885020711660"
       }
     ]
   },
   {
-    "url": "/cn/zh/cat/buzud-health-devices",
-    "id": "buzud-health-devices",
-    "name": "健康监测设备",
-    "description": "耳温计、智能体重秤等家用健康监测设备。",
+    "url": "/cn/zh/cat/respiratory-care",
+    "id": "respiratory-care",
+    "name": "呼吸护理",
+    "description": "浏览 BUZUD 呼吸护理 相关产品。",
+    "total": 1,
+    "products": [
+      {
+        "id": "8885020711707",
+        "name": "BUZUD Air-compressing Nebulizer 407A",
+        "price": 117,
+        "image": "https://imgcdn2.buzud.com/202506/16/35437abb7d482d95ce6ea0249995d263.png",
+        "productType": "呼吸护理",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-air-compressing-nebulizer-407a"
+      }
+    ],
+    "blocks": [],
+    "productIds": [
+      {
+        "id": "8885020711707",
+        "type": "SPR",
+        "fullId": "s8885020711707"
+      }
+    ]
+  },
+  {
+    "url": "/cn/zh/cat/hearing-aid",
+    "id": "hearing-aid",
+    "name": "助听器",
+    "description": "浏览 BUZUD 助听器 相关产品。",
+    "total": 6,
+    "products": [
+      {
+        "id": "8885020710694",
+        "name": "Hearing Aid A51(black)",
+        "price": 4376,
+        "image": "https://imgcdn2.buzud.com/202312/07/c4874da83db432886a174e642af69dfb.png",
+        "productType": "助听器",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "hearing-aid-a51-black"
+      },
+      {
+        "id": "8885020710687",
+        "name": "Hearing Aid W6(white)",
+        "price": 3176,
+        "image": "https://imgcdn2.buzud.com/202312/07/5774ab9a44ecc41902084019d30aba6f.png",
+        "productType": "助听器",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "hearing-aid-w6-white"
+      },
+      {
+        "id": "8885020710670",
+        "name": "Hearing Aid W6(black)",
+        "price": 3176,
+        "image": "https://imgcdn2.buzud.com/202312/07/5774ab9a44ecc41902084019d30aba6f.png",
+        "productType": "助听器",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "hearing-aid-w6-black"
+      },
+      {
+        "id": "8885020710731",
+        "name": "Hearing Aids D26",
+        "price": 1398,
+        "image": "https://imgcdn2.buzud.com/202312/07/3fb71d5581b121eddb73d05f4a0d2ad7.png",
+        "productType": "助听器",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "hearing-aids-d26"
+      },
+      {
+        "id": "8885020710724",
+        "name": "Hearing Aid W3",
+        "price": 1798,
+        "image": "https://imgcdn2.buzud.com/202312/07/c06025beae6d3adf41878a51a4779255.png",
+        "productType": "助听器",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "hearing-aid-w3"
+      },
+      {
+        "id": "8885020710700",
+        "name": "Hearing Aid A51(white)",
+        "price": 4376,
+        "image": "https://imgcdn2.buzud.com/202312/07/c4874da83db432886a174e642af69dfb.png",
+        "productType": "助听器",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "hearing-aid-a51-white"
+      }
+    ],
+    "blocks": [],
+    "productIds": [
+      {
+        "id": "8885020710694",
+        "type": "SPR",
+        "fullId": "s8885020710694"
+      },
+      {
+        "id": "8885020710687",
+        "type": "SPR",
+        "fullId": "s8885020710687"
+      },
+      {
+        "id": "8885020710670",
+        "type": "SPR",
+        "fullId": "s8885020710670"
+      },
+      {
+        "id": "8885020710731",
+        "type": "SPR",
+        "fullId": "s8885020710731"
+      },
+      {
+        "id": "8885020710724",
+        "type": "SPR",
+        "fullId": "s8885020710724"
+      },
+      {
+        "id": "8885020710700",
+        "type": "SPR",
+        "fullId": "s8885020710700"
+      }
+    ]
+  },
+  {
+    "url": "/cn/zh/cat/wheelchair",
+    "id": "wheelchair",
+    "name": "轮椅",
+    "description": "浏览 BUZUD 轮椅 相关产品。",
+    "total": 9,
+    "products": [
+      {
+        "id": "8885020710946",
+        "name": "BUZUD Pushchair QK805LABJ",
+        "price": 790,
+        "image": "https://imgcdn2.buzud.com/202312/07/e0c7952aff743b5d508f6e5c3006843a.jpg",
+        "productType": "轮椅",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-pushchair-qk805labj"
+      },
+      {
+        "id": "8885020710939",
+        "name": "Electric Wheelchair QK110",
+        "price": 3120,
+        "image": "https://imgcdn2.buzud.com/202312/07/d20f7591abf82253356779ed66a69f13.jpg",
+        "productType": "轮椅",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "electric-wheelchair-qk110"
+      },
+      {
+        "id": "8885020710939-1",
+        "name": "Additional Battery for the Electric Wheelchair QK110",
+        "price": 460,
+        "image": "https://imgcdn2.buzud.com/202312/07/d20f7591abf82253356779ed66a69f13.jpg",
+        "productType": "轮椅",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "additional-battery-for-the-electric-wheelchair-qk110"
+      },
+      {
+        "id": "8885020710960",
+        "name": "Steel Wheelchair QK902C",
+        "price": 545,
+        "image": "https://imgcdn2.buzud.com/202312/07/85a3e6dbbbd1509e832a8911742f5675.png",
+        "productType": "轮椅",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "steel-wheelchair-qk902c"
+      },
+      {
+        "id": "8885020712216",
+        "name": "BUZUD Pediatric tilt-in-space wheelchair with built-in-growth QK966M",
+        "price": 950,
+        "image": "https://imgcdn2.buzud.com/202506/12/d473a4d0500607930e70c9c1ea4b61ca.jpg",
+        "productType": "轮椅",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-pediatric-tilt-in-space-wheelchair-with-built-in-growth-qk966m"
+      },
+      {
+        "id": "8885020711509",
+        "name": "Wheelchair with 12 inch wheel",
+        "price": 520,
+        "image": "https://imgcdn2.buzud.com/202409/17/7c0d6c49d0cef1f135e5b225536b1e78.png",
+        "productType": "轮椅",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "wheelchair-with-12-inch-wheel"
+      },
+      {
+        "id": "8885020710953",
+        "name": "Steel Wheelchair QK608GC",
+        "price": 748,
+        "image": "https://imgcdn2.buzud.com/202312/07/489222799187e132c399cf519c765a4d.jpg",
+        "productType": "轮椅",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "steel-wheelchair-qk608gc"
+      },
+      {
+        "id": "8885020711516",
+        "name": "Wheelchair with 16 inch wheel\t\t",
+        "price": 570,
+        "image": "https://imgcdn2.buzud.com/202409/17/0df29df36ec79b0813d54b783ce9a8bd.png",
+        "productType": "轮椅",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "wheelchair-with-16-inch-wheel"
+      },
+      {
+        "id": "8885020712223",
+        "name": "BUZUD Pediatric Tilt & Recline Wheelchair QK958L",
+        "price": 950,
+        "image": "https://imgcdn2.buzud.com/202506/12/c569212450bfeb5a5c7088bff3d323bf.jpg",
+        "productType": "轮椅",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-pediatric-tilt-and-recline-wheelchair-qk958l"
+      }
+    ],
+    "blocks": [],
+    "productIds": [
+      {
+        "id": "8885020710946",
+        "type": "SPR",
+        "fullId": "s8885020710946"
+      },
+      {
+        "id": "8885020710939",
+        "type": "SPR",
+        "fullId": "s8885020710939"
+      },
+      {
+        "id": "8885020710939-1",
+        "type": "SPR",
+        "fullId": "s8885020710939-1"
+      },
+      {
+        "id": "8885020710960",
+        "type": "SPR",
+        "fullId": "s8885020710960"
+      },
+      {
+        "id": "8885020712216",
+        "type": "SPR",
+        "fullId": "s8885020712216"
+      },
+      {
+        "id": "8885020711509",
+        "type": "SPR",
+        "fullId": "s8885020711509"
+      },
+      {
+        "id": "8885020710953",
+        "type": "SPR",
+        "fullId": "s8885020710953"
+      },
+      {
+        "id": "8885020711516",
+        "type": "SPR",
+        "fullId": "s8885020711516"
+      },
+      {
+        "id": "8885020712223",
+        "type": "SPR",
+        "fullId": "s8885020712223"
+      }
+    ]
+  },
+  {
+    "url": "/cn/zh/cat/patient-monitor",
+    "id": "patient-monitor",
+    "name": "病人监护仪",
+    "description": "浏览 BUZUD 病人监护仪 相关产品。",
     "total": 3,
     "products": [
       {
-        "id": "8885020711677",
-        "name": "BUZUD Infrared Ear Thermometer BZD100",
-        "price": 87.0,
-        "image": "/images/products/buzud-8885020711677.png",
-        "productType": "体温计",
-        "designText": "BZD100",
+        "id": "8885020710427",
+        "name": "Multi-Parameter Patient Monitor 8000C",
+        "price": 2980,
+        "image": "https://imgcdn2.buzud.com/202312/07/2d7da91daf80eec247f4e5b0e7f4df81.jpg",
+        "productType": "病人监护仪",
+        "designText": null,
         "measureText": null,
         "url": null,
-        "seoSlug": "buzud-infrared-ear-thermometer-bzd100"
+        "seoSlug": "multi-parameter-patient-monitor"
+      },
+      {
+        "id": "8885020710465",
+        "name": "Health Monitor Checkme Lite",
+        "price": 958,
+        "image": "https://imgcdn2.buzud.com/202312/07/116ce44adba7cdf3476ca5813e878be3.jpg",
+        "productType": "病人监护仪",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "health-monitor-checkme-lite"
+      },
+      {
+        "id": "8885020710465-1",
+        "name": "Health Monitor Checkme Lite - set of disposable ECG patches (10/pouch)",
+        "price": 30,
+        "image": "https://imgcdn2.buzud.com/202607/01/ea42491b17bd7e662208ae09a5e70493.png",
+        "productType": "病人监护仪",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "health-monitor-checkme-lite-set-of-disposable-ecg-patches-10-pouch"
+      }
+    ],
+    "blocks": [],
+    "productIds": [
+      {
+        "id": "8885020710427",
+        "type": "SPR",
+        "fullId": "s8885020710427"
+      },
+      {
+        "id": "8885020710465",
+        "type": "SPR",
+        "fullId": "s8885020710465"
+      },
+      {
+        "id": "8885020710465-1",
+        "type": "SPR",
+        "fullId": "s8885020710465-1"
+      }
+    ]
+  },
+  {
+    "url": "/cn/zh/cat/lancet",
+    "id": "lancet",
+    "name": "采血针",
+    "description": "浏览 BUZUD 采血针 相关产品。",
+    "total": 3,
+    "products": [
+      {
+        "id": "8885020711592",
+        "name": "BUZUD Disposable Safety Lancets Flex 3 23G",
+        "price": 22.7,
+        "image": "https://imgcdn2.buzud.com/202505/13/cb3c5b9707331492fd512ea0fdcda468.jpg",
+        "productType": "采血针",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-disposable-safety-lancets-flex-3-23g"
+      },
+      {
+        "id": "8885020711615",
+        "name": "BUZUD Disposable Safety Lancets Flex 3 28G",
+        "price": 22.7,
+        "image": "https://imgcdn2.buzud.com/202505/13/bb4fd415081da90b8d32b76ba1182110.jpg",
+        "productType": "采血针",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-disposable-safety-lancets-flex-3-28g"
+      },
+      {
+        "id": "8885020710748",
+        "name": "BUZUD Safe AQ UG Lancet 28G (for use with Safe AQ UG and GlucoInsight)",
+        "price": 6,
+        "image": "https://imgcdn2.buzud.com/202312/07/80467994cec98cbb5742b61bfe84760e.png",
+        "productType": "采血针",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-safe-aq-ug-lancet-28g-for-use-with-safe-aq-ug-and-glucoinsight"
+      }
+    ],
+    "blocks": [],
+    "productIds": [
+      {
+        "id": "8885020711592",
+        "type": "SPR",
+        "fullId": "s8885020711592"
+      },
+      {
+        "id": "8885020711615",
+        "type": "SPR",
+        "fullId": "s8885020711615"
+      },
+      {
+        "id": "8885020710748",
+        "type": "SPR",
+        "fullId": "s8885020710748"
+      }
+    ]
+  },
+  {
+    "url": "/cn/zh/cat/smart-watch",
+    "id": "smart-watch",
+    "name": "智能手表",
+    "description": "浏览 BUZUD 智能手表 相关产品。",
+    "total": 7,
+    "products": [
+      {
+        "id": "8885020710816",
+        "name": "Smartwatch Generous(Lightning Silver)",
+        "price": 668,
+        "image": "https://imgcdn2.buzud.com/202312/07/14a22e8d40348c5793782458e98dfdd4.png",
+        "productType": "智能手表",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "smartwatch-generous-lightning-silver"
+      },
+      {
+        "id": "8885020710786",
+        "name": "Smartwatch Generous(Dawn Gold)",
+        "price": 668,
+        "image": "https://imgcdn2.buzud.com/202312/07/14a22e8d40348c5793782458e98dfdd4.png",
+        "productType": "智能手表",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "smartwatch-generous-dawn-gold"
+      },
+      {
+        "id": "8885020710793",
+        "name": "Smartwatch Generous(Cosmic Black)",
+        "price": 668,
+        "image": "https://imgcdn2.buzud.com/202312/07/14a22e8d40348c5793782458e98dfdd4.png",
+        "productType": "智能手表",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "smartwatch-generous-cosmic-black"
+      },
+      {
+        "id": "8885020710823",
+        "name": "Smartwatch Generous(Rainbow Gold)",
+        "price": 668,
+        "image": "https://imgcdn2.buzud.com/202312/07/14a22e8d40348c5793782458e98dfdd4.png",
+        "productType": "智能手表",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "smartwatch-generous-rainbow-gold"
+      },
+      {
+        "id": "8885020710809",
+        "name": "Smartwatch Generous(Star Grey)",
+        "price": 668,
+        "image": "https://imgcdn2.buzud.com/202312/07/14a22e8d40348c5793782458e98dfdd4.png",
+        "productType": "智能手表",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "smartwatch-generous-star-grey"
+      },
+      {
+        "id": "8885020710830",
+        "name": "Smartwatch Generous(Star Silver)",
+        "price": 668,
+        "image": "https://imgcdn2.buzud.com/202312/07/14a22e8d40348c5793782458e98dfdd4.png",
+        "productType": "智能手表",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "smartwatch-generous-star-silver"
+      },
+      {
+        "id": "8885020712582",
+        "name": "BUZUD Watch Vibrance",
+        "price": 237,
+        "image": "https://imgcdn2.buzud.com/202510/24/589121537c3a75b674807ee977e042ae.jpg",
+        "productType": "智能手表",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-watch-vibrance"
+      }
+    ],
+    "blocks": [],
+    "productIds": [
+      {
+        "id": "8885020710816",
+        "type": "SPR",
+        "fullId": "s8885020710816"
+      },
+      {
+        "id": "8885020710786",
+        "type": "SPR",
+        "fullId": "s8885020710786"
+      },
+      {
+        "id": "8885020710793",
+        "type": "SPR",
+        "fullId": "s8885020710793"
+      },
+      {
+        "id": "8885020710823",
+        "type": "SPR",
+        "fullId": "s8885020710823"
+      },
+      {
+        "id": "8885020710809",
+        "type": "SPR",
+        "fullId": "s8885020710809"
+      },
+      {
+        "id": "8885020710830",
+        "type": "SPR",
+        "fullId": "s8885020710830"
+      },
+      {
+        "id": "8885020712582",
+        "type": "SPR",
+        "fullId": "s8885020712582"
+      }
+    ]
+  },
+  {
+    "url": "/cn/zh/cat/aed",
+    "id": "aed",
+    "name": "自动体外除颤器（AED）",
+    "description": "浏览 BUZUD 自动体外除颤器（AED） 相关产品。",
+    "total": 1,
+    "products": [
+      {
+        "id": "8885020712858",
+        "name": "Battery pack for BUZUD Automatic External Defibrillator 7000",
+        "price": 200,
+        "image": "https://imgcdn2.buzud.com/202312/07/2efa6d439747d943803201fb74205ea1.jpg",
+        "productType": "自动体外除颤器（AED）",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "battery-pack-for-buzud-automatic-external-defibrillator-7000"
+      }
+    ],
+    "blocks": [],
+    "productIds": [
+      {
+        "id": "8885020712858",
+        "type": "SPR",
+        "fullId": "s8885020712858"
+      }
+    ]
+  },
+  {
+    "url": "/cn/zh/cat/body-composition-scale",
+    "id": "body-composition-scale",
+    "name": "身体成分秤",
+    "description": "浏览 BUZUD 身体成分秤 相关产品。",
+    "total": 4,
+    "products": [
+      {
+        "id": "8885020711424",
+        "name": "BUZUD Home Body Composition Scale CF577",
+        "price": 397,
+        "image": "https://imgcdn2.buzud.com/202604/06/d2bb285e236948e95bf9c62fc5da7592.png",
+        "productType": "身体成分秤",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-home-body-composition-scale-cf577"
+      },
+      {
+        "id": "8885020712599",
+        "name": "BUZUD Ultrasonic Height and Weight Body Fat Scale CP30G",
+        "price": 990,
+        "image": "https://imgcdn2.buzud.com/202510/31/0a3a93c8052478790e4bd19f024ae873.png",
+        "productType": "身体成分秤",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-ultrasonic-height-and-weight-body-fat-scale-cp30g"
       },
       {
         "id": "8885020711448",
         "name": "BUZUD Home Body Composition Scale CF509",
-        "price": 37.0,
-        "image": "/images/products/buzud-8885020711448.png",
-        "productType": "智能体重秤",
-        "designText": "CF509",
+        "price": 37,
+        "image": "https://imgcdn2.buzud.com/202409/06/2a591c86aed145c6c5470b993b7116bc.jpg",
+        "productType": "身体成分秤",
+        "designText": null,
         "measureText": null,
         "url": null,
         "seoSlug": "buzud-home-body-composition-scale-cf509"
       },
       {
-        "id": "8885020711547",
-        "name": "BUZUD Pen Needles Plus Pro 32G 4mm",
-        "price": 26.0,
-        "image": "/images/products/buzud-8885020711547.png",
-        "productType": "注射针头",
-        "designText": "32G 4mm",
+        "id": "8885020711431",
+        "name": "BUZUD Home Body Composition Scale CF586",
+        "price": 167,
+        "image": "https://imgcdn2.buzud.com/202505/14/5bc04bb8072cf5ab580f679b38d0fbfc.png",
+        "productType": "身体成分秤",
+        "designText": null,
         "measureText": null,
         "url": null,
-        "seoSlug": "buzud-pen-needles-plus-pro-32g-4mm"
+        "seoSlug": "buzud-home-body-composition-scale-cf586"
       }
     ],
     "blocks": [],
     "productIds": [
       {
-        "id": "8885020711677",
+        "id": "8885020711424",
         "type": "SPR",
-        "fullId": "s8885020711677"
+        "fullId": "s8885020711424"
+      },
+      {
+        "id": "8885020712599",
+        "type": "SPR",
+        "fullId": "s8885020712599"
       },
       {
         "id": "8885020711448",
@@ -421,101 +2143,209 @@
         "fullId": "s8885020711448"
       },
       {
-        "id": "8885020711547",
+        "id": "8885020711431",
         "type": "SPR",
-        "fullId": "s8885020711547"
+        "fullId": "s8885020711431"
       }
     ]
   },
   {
-    "url": "/cn/zh/cat/insulin-pen-needles",
-    "id": "insulin-pen-needles",
-    "name": "胰岛素笔针",
-    "description": "用于配合兼容胰岛素注射笔的针头，提供更细、更短的注射体验。",
+    "url": "/cn/zh/cat/physical-therapy",
+    "id": "physical-therapy",
+    "name": "康复理疗",
+    "description": "浏览 BUZUD 康复理疗 相关产品。",
+    "total": 7,
+    "products": [
+      {
+        "id": "8885020711240",
+        "name": "BUZUD Hand Function Rehabilitation Training System SRH 200 Premium",
+        "price": 1980,
+        "image": "https://imgcdn2.buzud.com/202405/31/f241698240242a6acdb94995bfd70a16.jpg",
+        "productType": "康复理疗",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-hand-function-rehabilitation-training-system-srh-200-premium"
+      },
+      {
+        "id": "8885020711257",
+        "name": "BUZUD Hand Function Rehabilitation Training System SRH 300 Desktop",
+        "price": 4980,
+        "image": "https://imgcdn2.buzud.com/202312/07/0673788e61d13815b3498394397cafd4.jpg",
+        "productType": "康复理疗",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-hand-function-rehabilitation-training-system-srh-300-desktop"
+      },
+      {
+        "id": "8885020712971",
+        "name": "BUZUD Hand Function Rehabilitation Training System Glove (Large) - Driver (Left hand)",
+        "price": 787,
+        "image": "https://imgcdn2.buzud.com/202405/31/f241698240242a6acdb94995bfd70a16.jpg",
+        "productType": "康复理疗",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-hand-function-rehabilitation-training-system-srh-200-premium-glove-driver"
+      },
+      {
+        "id": "8885020711233",
+        "name": "BUZUD Hand Function Rehabilitation Training System SRH 200 Basic",
+        "price": 1280,
+        "image": "https://imgcdn2.buzud.com/202405/31/7d0f39bddf9f64decada3cd0a3e460c4.jpg",
+        "productType": "康复理疗",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-hand-function-rehabilitation-training-system-srh-200-basic"
+      },
+      {
+        "id": "8885020712957",
+        "name": "BUZUD Hand Function Rehabilitation Training System Glove (Large) - Passive (Left hand)",
+        "price": 587,
+        "image": "https://imgcdn2.buzud.com/202405/31/f241698240242a6acdb94995bfd70a16.jpg",
+        "productType": "康复理疗",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-hand-function-rehabilitation-training-system-srh-200-premium-glove-passive"
+      },
+      {
+        "id": "8885020712964",
+        "name": "BUZUD Hand Function Rehabilitation Training System Glove (Large) - Passive (Right hand)",
+        "price": 587,
+        "image": "https://imgcdn2.buzud.com/202607/28/f0c2882edae6cd9e1213bc589e5eb5f9.jpg",
+        "productType": "康复理疗",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-hand-function-rehabilitation-training-system-glove-large-passive-right-hand"
+      },
+      {
+        "id": "8885020712988",
+        "name": "BUZUD Hand Function Rehabilitation Training System Glove (Large) - Driver (Right hand)",
+        "price": 787,
+        "image": "https://imgcdn2.buzud.com/202607/28/f0c2882edae6cd9e1213bc589e5eb5f9.jpg",
+        "productType": "康复理疗",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-hand-function-rehabilitation-training-system-glove-large-driver-right-hand"
+      }
+    ],
+    "blocks": [],
+    "productIds": [
+      {
+        "id": "8885020711240",
+        "type": "SPR",
+        "fullId": "s8885020711240"
+      },
+      {
+        "id": "8885020711257",
+        "type": "SPR",
+        "fullId": "s8885020711257"
+      },
+      {
+        "id": "8885020712971",
+        "type": "SPR",
+        "fullId": "s8885020712971"
+      },
+      {
+        "id": "8885020711233",
+        "type": "SPR",
+        "fullId": "s8885020711233"
+      },
+      {
+        "id": "8885020712957",
+        "type": "SPR",
+        "fullId": "s8885020712957"
+      },
+      {
+        "id": "8885020712964",
+        "type": "SPR",
+        "fullId": "s8885020712964"
+      },
+      {
+        "id": "8885020712988",
+        "type": "SPR",
+        "fullId": "s8885020712988"
+      }
+    ]
+  },
+  {
+    "url": "/cn/zh/cat/pulse-oximeter",
+    "id": "pulse-oximeter",
+    "name": "脉搏血氧仪",
+    "description": "浏览 BUZUD 脉搏血氧仪 相关产品。",
     "total": 4,
     "products": [
       {
-        "id": "8885020711547",
-        "name": "BUZUD Pen Needles Plus Pro 32G 4mm",
-        "price": 26.0,
-        "image": "/images/products/buzud-8885020711547.png",
-        "productType": "注射针头",
-        "designText": "32G 4mm",
+        "id": "8885020711479",
+        "name": "BUZUD Fingertip Pulse Oximeter 70B",
+        "price": 57,
+        "image": "https://imgcdn2.buzud.com/202409/07/efa520a8c6e9dd7c366244e3535551fb.png",
+        "productType": "脉搏血氧仪",
+        "designText": null,
         "measureText": null,
         "url": null,
-        "seoSlug": "buzud-pen-needles-plus-pro-32g-4mm"
+        "seoSlug": "buzud-fingertip-pulse-oximeter-70b"
       },
       {
-        "id": "buzud-pen-needles-plus-pro-32g-6mm",
-        "name": "BUZUD 笔针 Plus Pro 32G 6mm",
-        "price": 26.0,
-        "image": "/images/products/buzud-pen-needles-plus-pro-32g-6mm.png",
-        "productType": "注射针头",
-        "designText": "32G 6mm",
+        "id": "8885020711486",
+        "name": "BUZUD Fingertip Pulse Oximeter 10I",
+        "price": 47,
+        "image": "https://imgcdn2.buzud.com/202409/07/028c536cb3ac0edaf993e61ad265ac66.png",
+        "productType": "脉搏血氧仪",
+        "designText": null,
         "measureText": null,
         "url": null,
-        "seoSlug": "buzud-pen-needles-plus-pro-32g-6mm"
+        "seoSlug": "buzud-fingertip-pulse-oximeter-10i"
       },
       {
-        "id": "buzud-safety-pen-needles-hs-pro-31g-5mm",
-        "name": "BUZUD 安全笔针 HS Pro 31G 5mm",
-        "price": 67.0,
-        "image": "/images/products/buzud-safety-pen-needles-hs-pro-31g-5mm.png",
-        "productType": "注射针头",
-        "designText": "31G 5mm",
+        "id": "8885020711462",
+        "name": "BUZUD Fingertip Pulse Oximeter 20D",
+        "price": 67,
+        "image": "https://imgcdn2.buzud.com/202409/07/5fa076b297b931f3a55af1047d68b89c.png",
+        "productType": "脉搏血氧仪",
+        "designText": null,
         "measureText": null,
         "url": null,
-        "seoSlug": "buzud-safety-pen-needles-hs-pro-31g-5mm"
+        "seoSlug": "buzud-fingertip-pulse-oximeter-20d"
       },
       {
-        "id": "buzud-pen-needles-plus-pro-32g-5mm",
-        "name": "BUZUD 笔针 Plus Pro 32G 5mm",
-        "price": 26.0,
-        "image": "/images/products/buzud-pen-needles-plus-pro-32g-5mm.png",
-        "productType": "注射针头",
-        "designText": "32G 5mm",
+        "id": "8885020711493",
+        "name": "BUZUD Fingertip Pulse Oximeter 70C",
+        "price": 37,
+        "image": "https://imgcdn2.buzud.com/202409/07/57f978d961816fee20258839bb27a75e.png",
+        "productType": "脉搏血氧仪",
+        "designText": null,
         "measureText": null,
         "url": null,
-        "seoSlug": "buzud-pen-needles-plus-pro-32g-5mm"
+        "seoSlug": "buzud-fingertip-pulse-oximeter-70c"
       }
     ],
-    "blocks": [
-      {
-        "type": "pub-text",
-        "title": "官方分类",
-        "texts": ["前往 BUZUD 官网查看胰岛素笔针分类及更多配件信息。"],
-        "images": [],
-        "links": [
-          {
-            "href": "https://www.buzud.com/en/shop/category/insulin-pen-needles",
-            "text": "胰岛素笔针"
-          }
-        ],
-        "columns": [],
-        "items": [],
-        "settings": null
-      }
-    ],
+    "blocks": [],
     "productIds": [
       {
-        "id": "8885020711547",
+        "id": "8885020711479",
         "type": "SPR",
-        "fullId": "s8885020711547"
+        "fullId": "s8885020711479"
       },
       {
-        "id": "buzud-pen-needles-plus-pro-32g-6mm",
+        "id": "8885020711486",
         "type": "SPR",
-        "fullId": "sbuzud-pen-needles-plus-pro-32g-6mm"
+        "fullId": "s8885020711486"
       },
       {
-        "id": "buzud-safety-pen-needles-hs-pro-31g-5mm",
+        "id": "8885020711462",
         "type": "SPR",
-        "fullId": "sbuzud-safety-pen-needles-hs-pro-31g-5mm"
+        "fullId": "s8885020711462"
       },
       {
-        "id": "buzud-pen-needles-plus-pro-32g-5mm",
+        "id": "8885020711493",
         "type": "SPR",
-        "fullId": "sbuzud-pen-needles-plus-pro-32g-5mm"
+        "fullId": "s8885020711493"
       }
     ]
   }
