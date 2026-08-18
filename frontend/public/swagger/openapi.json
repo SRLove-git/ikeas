@@ -2,8 +2,8 @@
   "openapi": "3.0.3",
   "info": {
     "title": "BUZUD 内容页接口（公司介绍 / 组织架构 / 联系我们）",
-    "version": "1.3.0",
-    "description": "公司介绍页、组织架构页与联系我们页（/cn/zh/company、/cn/zh/organization、/cn/zh/customer-service/contact-us/）及客户服务总览页（/cn/zh/customer-service/）的内容接口契约，供后端对接。\n\n鉴权说明：管理端接口（/api/admin/**）要求管理端登录会话，登录成功后由服务端写入 HttpOnly Cookie `ikea_admin_session`，请求无需携带 Authorization 头；公共只读接口（/api/v1/pages）无需鉴权。\n\n页面 key 为页面 URL 的 base64url 编码，例如 `/cn/zh/company` 的 key 为 `L2NuL3poL2NvbXBhbnk`；`/cn/zh/customer-service/` 的 key 为 `L2NuL3poL2N1c3RvbWVyLXNlcnZpY2Uv`。\n\nv1.3.0（客户服务总览页）变更：新增 5 种区块类型 `support-search-hero`（搜索 Hero：texts 第 1 项为眉题、第 2 项为副标题，links 为热门服务标签，settings.placeholder 为搜索占位文案）、`support-quick-services`（快捷服务图标卡片，items 为 { title, text, href, icon }）、`support-assurances`（服务保障图标卡，items 为 { title, text, icon }）、`support-faq`（可搜索问答折叠区，texts 按「问题、答案」成对排列，settings.sectionId=faq 供锚点定位）、`support-contact-banner`（获取帮助横幅，images 为背景图、links 为按钮）；ContactItem/图标枚举新增 shield、wrench、box、truck、gift、clock、badge。首页数据变更：heroSlides 轮播数组已改为 heroVideo 单视频对象（video/poster/href/alt），影响 GET /api/v1/homepage 与 /api/v1/homepage/{section} 的返回结构。\n\nv1.2.0（联系我们页）变更：PageData 新增 `subtitle` 字段（页面头部 Hero 副标题）；新增区块类型 `contact-channels`（联系渠道/门店图标卡片，items 为 ContactItem，含 `icon`）与 `contact-list`（联系事项列表行，items 为 ContactItem）；新增公共只读接口 GET /api/v1/pages，可通过 `?url=` 按页面地址取单页，供后端直接下发页面内容。"
+    "version": "1.4.0",
+    "description": "公司介绍页、组织架构页与联系我们页（/cn/zh/company、/cn/zh/organization、/cn/zh/customer-service/contact-us/）及客户服务总览页（/cn/zh/customer-service/）的内容接口契约，供后端对接。\n\n鉴权说明：管理端接口（/api/admin/**）要求管理端登录会话，登录成功后由服务端写入 HttpOnly Cookie `ikea_admin_session`，请求无需携带 Authorization 头；公共只读接口（/api/v1/pages）无需鉴权。\n\n页面 key 为页面 URL 的 base64url 编码，例如 `/cn/zh/company` 的 key 为 `L2NuL3poL2NvbXBhbnk`；`/cn/zh/customer-service/` 的 key 为 `L2NuL3poL2N1c3RvbWVyLXNlcnZpY2Uv`。\n\nv1.4.0（导航与下拉菜单）变更：新增 GET /api/v1/pages/families（内容页栏目统计）、GET /api/v1/menu-panels（顶部导航下拉菜单面板：公司介绍/组织架构/客户服务等，面板 links 支持 # 锚点定位页面区块，如 /cn/zh/company#company-about）、GET /api/v1/categories/menu（「所有商品」分类菜单，Mega 菜单左侧分类 + 右侧子分类）；homepage.navMenuItems 新增 menuPanelLabel 字段（绑定下拉面板 label，与 hasMegaMenu 二选一）；公司介绍/组织架构页区块新增 settings.sectionId 锚点，组织架构页 corporate-team-tabs 支持 #board-of-directors / #supervisory-board / #management-team 页签定位。\n\nv1.3.0（客户服务总览页）变更：新增 5 种区块类型 `support-search-hero`（搜索 Hero：texts 第 1 项为眉题、第 2 项为副标题，links 为热门服务标签，settings.placeholder 为搜索占位文案）、`support-quick-services`（快捷服务图标卡片，items 为 { title, text, href, icon }）、`support-assurances`（服务保障图标卡，items 为 { title, text, icon }）、`support-faq`（可搜索问答折叠区，texts 按「问题、答案」成对排列，settings.sectionId=faq 供锚点定位）、`support-contact-banner`（获取帮助横幅，images 为背景图、links 为按钮）；ContactItem/图标枚举新增 shield、wrench、box、truck、gift、clock、badge。首页数据变更：heroSlides 轮播数组已改为 heroVideo 单视频对象（video/poster/href/alt），影响 GET /api/v1/homepage 与 /api/v1/homepage/{section} 的返回结构。\n\nv1.2.0（联系我们页）变更：PageData 新增 `subtitle` 字段（页面头部 Hero 副标题）；新增区块类型 `contact-channels`（联系渠道/门店图标卡片，items 为 ContactItem，含 `icon`）与 `contact-list`（联系事项列表行，items 为 ContactItem）；新增公共只读接口 GET /api/v1/pages，可通过 `?url=` 按页面地址取单页，供后端直接下发页面内容。"
   },
   "servers": [
     {
@@ -23,6 +23,10 @@
     {
       "name": "首页接口",
       "description": "首页数据只读接口（HomepageController），heroSlides 已改为 heroVideo"
+    },
+    {
+      "name": "导航与菜单接口",
+      "description": "顶部导航下拉菜单面板与「所有商品」分类菜单只读接口（HomepageController / CatalogController）"
     }
   ],
   "paths": {
@@ -283,6 +287,78 @@
                         }
                       ]
                     }
+                  },
+                  "companyPage": {
+                    "summary": "公司介绍页（/cn/zh/company）",
+                    "value": {
+                      "url": "/cn/zh/company",
+                      "family": "company",
+                      "id": "cn--zh--buzud-company",
+                      "title": "公司介绍",
+                      "name": "CHUNG YIP HOLDING 公司介绍",
+                      "hero": null,
+                      "blocks": [
+                        {
+                          "type": "corporate-hero",
+                          "title": "让健康管理融入每个家庭",
+                          "texts": ["CHUNG YIP HOLDING 的愿景与使命（内容待补充）。"],
+                          "images": ["/images/cms/buzud-hero-1-wide.jpg"],
+                          "links": [
+                            { "href": "/cn/zh/all-products/", "text": "了解 BUZUD 健康产品" }
+                          ],
+                          "items": [],
+                          "productIds": [],
+                          "settings": { "traceId": "" }
+                        },
+                        {
+                          "type": "corporate-about",
+                          "title": "公司简介",
+                          "texts": [
+                            "CHUNG YIP HOLDING 是新加坡本土医疗设备与健康管理企业，旗下运营 BUZUD 系列健康产品，专注家庭健康自测与监测领域（简介内容待补充）。"
+                          ],
+                          "images": [],
+                          "links": [],
+                          "items": [],
+                          "productIds": [],
+                          "settings": {
+                            "traceId": "",
+                            "videoSrc": "",
+                            "videoPoster": "",
+                            "sectionId": "company-about"
+                          }
+                        },
+                        {
+                          "type": "corporate-stats",
+                          "title": "研究与创新",
+                          "texts": ["面向健康未来，我们将持续投入产品研发与技术创新（内容待补充）。"],
+                          "images": [],
+                          "links": [{ "href": "/cn/zh/all-products/", "text": "了解更多" }],
+                          "items": [{ "value": "—", "label": "研发投入占比（数据待补充）" }],
+                          "productIds": [],
+                          "settings": { "traceId": "", "sectionId": "company-innovation" }
+                        },
+                        {
+                          "type": "corporate-timeline",
+                          "title": "发展历程",
+                          "texts": [],
+                          "images": [],
+                          "links": [],
+                          "items": [{ "year": "2026", "title": "品牌发展", "text": "里程碑内容待补充。" }],
+                          "productIds": [],
+                          "settings": { "traceId": "", "sectionId": "company-timeline" }
+                        },
+                        {
+                          "type": "corporate-policy",
+                          "title": "质量与服务承诺",
+                          "texts": ["正品保障：所有产品均为新加坡官方认证医疗设备（内容待补充）。"],
+                          "images": [],
+                          "links": [],
+                          "items": [],
+                          "productIds": [],
+                          "settings": { "traceId": "", "sectionId": "company-policy" }
+                        }
+                      ]
+                    }
                   }
                 }
               }
@@ -293,6 +369,70 @@
             "content": {
               "application/json": {
                 "schema": { "$ref": "#/components/schemas/ApiError" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/pages/families": {
+      "get": {
+        "tags": ["内容页公共读取"],
+        "summary": "内容页栏目统计（family -> 页面数）",
+        "responses": {
+          "200": {
+            "description": "各栏目页面数量，如 company=2、customer-service=3",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": { "type": "integer" },
+                  "example": { "company": 2, "customer-service": 3 }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/menu-panels": {
+      "get": {
+        "tags": ["导航与菜单接口"],
+        "summary": "顶部导航下拉菜单面板列表",
+        "description": "返回顶部导航绑定下拉面板（公司介绍/组织架构/客户服务等）。导航项通过 homepage.navMenuItems[].menuPanelLabel 与面板 label 匹配；面板 links 支持 # 锚点定位页面区块。",
+        "responses": {
+          "200": {
+            "description": "菜单面板数组",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { "$ref": "#/components/schemas/MenuPanel" }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/categories/menu": {
+      "get": {
+        "tags": ["导航与菜单接口"],
+        "summary": "「所有商品」分类菜单（Mega 菜单）",
+        "responses": {
+          "200": {
+            "description": "分类菜单对象（categories 数组）",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "categories": {
+                      "type": "array",
+                      "items": { "$ref": "#/components/schemas/MenuCategory" }
+                    }
+                  }
+                }
               }
             }
           }
@@ -554,7 +694,7 @@
         "properties": {
           "type": {
             "type": "string",
-            "description": "区块类型：pub-text、corporate-hero、corporate-about、corporate-stats、corporate-timeline、corporate-policy、corporate-pic-text（图文版式：图片 + 治理文字 + 展开/收起）、corporate-team-tabs（成员分栏页签）、corporate-team（成员卡片网格）、contact-channels（联系渠道/门店图标卡片，items 为 ContactItem）、contact-list（联系事项列表行，items 为 ContactItem）、pub-expandable-area（问答折叠区，texts 按「问题、答案」成对排列）、support-search-hero（客户服务搜索 Hero：texts 第 1 项眉题、第 2 项副标题，links 热门服务标签，settings.placeholder 搜索占位）、support-quick-services（快捷服务图标卡片，items 为 { title, text, href, icon }）、support-assurances（服务保障图标卡，items 为 { title, text, icon }）、support-faq（可搜索问答折叠区，texts 按「问题、答案」成对排列，settings.sectionId=faq 供锚点定位）、support-contact-banner（获取帮助横幅：images 背景图，links 按钮）"
+            "description": "区块类型：pub-text、corporate-hero、corporate-about、corporate-stats、corporate-timeline、corporate-policy、corporate-text（公司/组织页文字区块）、corporate-pic-text（图文版式：图片 + 治理文字 + 展开/收起）、corporate-team-tabs（成员分栏页签）、corporate-team（成员卡片网格）、contact-channels（联系渠道/门店图标卡片，items 为 ContactItem）、contact-list（联系事项列表行，items 为 ContactItem）、pub-expandable-area（问答折叠区，texts 按「问题、答案」成对排列）、support-search-hero（客户服务搜索 Hero：texts 第 1 项眉题、第 2 项副标题，links 热门服务标签，settings.placeholder 搜索占位）、support-quick-services（快捷服务图标卡片，items 为 { title, text, href, icon }）、support-assurances（服务保障图标卡，items 为 { title, text, icon }）、support-faq（可搜索问答折叠区，texts 按「问题、答案」成对排列，settings.sectionId=faq 供锚点定位）、support-contact-banner（获取帮助横幅：images 背景图，links 按钮）；settings.sectionId 为区块锚点 id（公司页：company-about / company-innovation / company-cooperation / company-timeline / company-policy；组织页：organization-overview / organization-business-units）"
           },
           "title": { "type": ["string", "null"] },
           "texts": { "type": "array", "items": { "type": "string" } },
@@ -600,7 +740,8 @@
           "settings": {
             "type": "object",
             "nullable": true,
-            "additionalProperties": true
+            "additionalProperties": true,
+            "description": "区块扩展配置：traceId 埋点标识、videoSrc/videoPoster（corporate-about 品牌视频）、placeholder（support-search-hero / support-faq 搜索占位）、sectionId（区块锚点 id，供导航下拉 # 链接定位页面区块）"
           }
         }
       },
@@ -742,6 +883,65 @@
           "backgroundColor": { "type": ["string", "null"] }
         }
       },
+      "MenuLink": {
+        "type": "object",
+        "properties": {
+          "title": { "type": "string", "example": "公司简介" },
+          "href": {
+            "type": "string",
+            "description": "支持站内 # 锚点定位页面区块",
+            "example": "/cn/zh/company#company-about"
+          }
+        }
+      },
+      "MenuImageCard": {
+        "type": "object",
+        "properties": {
+          "title": { "type": "string" },
+          "href": { "type": "string" },
+          "image": { "type": ["string", "null"] },
+          "description": { "type": ["string", "null"] }
+        }
+      },
+      "MenuColumn": {
+        "type": "object",
+        "properties": {
+          "heading": { "type": ["string", "null"] },
+          "intro": { "type": ["string", "null"] },
+          "cards": { "type": "array", "items": { "$ref": "#/components/schemas/MenuImageCard" } },
+          "thumbnails": { "type": "array", "items": { "$ref": "#/components/schemas/MenuImageCard" } },
+          "links": { "type": "array", "items": { "$ref": "#/components/schemas/MenuLink" } }
+        }
+      },
+      "MenuPanel": {
+        "type": "object",
+        "required": ["label", "href", "columns"],
+        "description": "顶部导航下拉菜单面板（menu-panels.json）。导航项通过 homepage.navMenuItems[].menuPanelLabel 与 label 匹配；links 支持 # 锚点定位页面区块。",
+        "properties": {
+          "label": { "type": "string", "example": "公司介绍" },
+          "href": { "type": "string", "example": "/cn/zh/company" },
+          "columns": { "type": "array", "items": { "$ref": "#/components/schemas/MenuColumn" } }
+        }
+      },
+      "MenuSubCategory": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string", "example": "早孕检测" },
+          "url": { "type": "string", "example": "/cn/zh/p/buzud-pregnancy-rapid-test-8885020710595" },
+          "image": { "type": ["string", "null"] }
+        }
+      },
+      "MenuCategory": {
+        "type": "object",
+        "required": ["name", "url"],
+        "description": "「所有商品」分类菜单项（Mega 菜单左侧分类 + 右侧商品子分类）。",
+        "properties": {
+          "name": { "type": "string", "example": "快速检测试剂" },
+          "url": { "type": "string", "example": "/cn/zh/cat/buzud-rapid-tests" },
+          "image": { "type": ["string", "null"] },
+          "subs": { "type": "array", "items": { "$ref": "#/components/schemas/MenuSubCategory" } }
+        }
+      },
       "HeroVideo": {
         "type": "object",
         "required": ["poster"],
@@ -772,7 +972,16 @@
           },
           "navMenuItems": {
             "type": "array",
-            "items": { "type": "object", "additionalProperties": true }
+            "description": "顶部导航项。hasMegaMenu=true 时悬停展示「所有商品」分类菜单；menuPanelLabel 绑定下拉面板（对应 GET /api/v1/menu-panels 返回面板的 label），留空则不显示面板下拉。",
+            "items": {
+              "type": "object",
+              "properties": {
+                "label": { "type": "string", "example": "公司介绍" },
+                "href": { "type": "string", "example": "/cn/zh/company" },
+                "hasMegaMenu": { "type": "boolean", "example": false },
+                "menuPanelLabel": { "type": ["string", "null"], "example": "公司介绍" }
+              }
+            }
           },
           "promoCardItems": {
             "type": "array",

@@ -52,11 +52,22 @@ export function CorporateTeamTabs({ groups }: CorporateTeamTabsProps) {
   const active = groups.find((group) => group.id === activeId) ?? groups[0]
 
   useEffect(() => {
-    const hashId = window.location.hash.replace(/^#/, "")
-    if (groups.some((group) => group.id === hashId)) {
-      const timer = window.setTimeout(() => setActiveId(hashId), 0)
-      return () => window.clearTimeout(timer)
+    const applyHash = () => {
+      const hashId = window.location.hash.replace(/^#/, "")
+      if (!groups.some((group) => group.id === hashId)) return
+      setActiveId(hashId)
+      window.setTimeout(() => {
+        const section = document.getElementById(hashId)
+        if (!section) return
+        const header = document.querySelector(".i-layout__header")
+        const offset = header ? header.getBoundingClientRect().height : 0
+        const y = section.getBoundingClientRect().top + window.scrollY - offset - 12
+        window.scrollTo({ top: y, behavior: "smooth" })
+      }, 0)
     }
+    applyHash()
+    window.addEventListener("hashchange", applyHash)
+    return () => window.removeEventListener("hashchange", applyHash)
   }, [groups])
 
   useEffect(() => {

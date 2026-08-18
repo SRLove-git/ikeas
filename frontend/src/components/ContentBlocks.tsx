@@ -875,6 +875,10 @@ function CorporateHeroBlock({ block }: { block: ContentBlock }) {
 
 function CorporateAboutBlock({ block }: { block: ContentBlock }) {
   const settings = (block.settings ?? {}) as Record<string, unknown>
+  const sectionId =
+    typeof settings.sectionId === "string" && settings.sectionId.trim()
+      ? settings.sectionId.trim()
+      : null
   const poster = block.images[0] ?? null
   const videoSrc =
     typeof settings.videoSrc === "string" && settings.videoSrc.trim()
@@ -885,7 +889,7 @@ function CorporateAboutBlock({ block }: { block: ContentBlock }) {
       ? settings.videoPoster.trim()
       : poster
   return (
-    <div className="grid gap-6 lg:grid-cols-[280px_1fr] lg:gap-12">
+    <section id={sectionId ?? undefined} className="grid gap-6 lg:grid-cols-[280px_1fr] lg:gap-12">
       {block.title ? (
         <div className="lg:pt-1">
           <h2 className="text-xl font-bold leading-8 lg:text-2xl">{block.title}</h2>
@@ -933,14 +937,19 @@ function CorporateAboutBlock({ block }: { block: ContentBlock }) {
           )}
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 
 function CorporateTextBlock({ block }: { block: ContentBlock }) {
   const link = block.links[0] ?? null
+  const settings = (block.settings ?? {}) as Record<string, unknown>
+  const sectionId =
+    typeof settings.sectionId === "string" && settings.sectionId.trim()
+      ? settings.sectionId.trim()
+      : null
   return (
-    <div>
+    <section id={sectionId ?? undefined}>
       {block.title ? (
         <h2 className="text-xl font-bold leading-8 lg:text-2xl">{block.title}</h2>
       ) : null}
@@ -966,15 +975,20 @@ function CorporateTextBlock({ block }: { block: ContentBlock }) {
           </BlockLink>
         </div>
       ) : null}
-    </div>
+    </section>
   )
 }
 
 function CorporateStatsBlock({ block }: { block: ContentBlock }) {
   const items = (block.items ?? []) as unknown as Record<string, unknown>[]
   const link = block.links[0] ?? null
+  const settings = (block.settings ?? {}) as Record<string, unknown>
+  const sectionId =
+    typeof settings.sectionId === "string" && settings.sectionId.trim()
+      ? settings.sectionId.trim()
+      : null
   return (
-    <div>
+    <section id={sectionId ?? undefined}>
       {block.title ? (
         <h2 className="text-xl font-bold leading-8 lg:text-2xl">{block.title}</h2>
       ) : null}
@@ -1004,14 +1018,19 @@ function CorporateStatsBlock({ block }: { block: ContentBlock }) {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   )
 }
 
 function CorporateTimelineBlock({ block }: { block: ContentBlock }) {
   const items = (block.items ?? []) as unknown as Record<string, unknown>[]
+  const settings = (block.settings ?? {}) as Record<string, unknown>
+  const sectionId =
+    typeof settings.sectionId === "string" && settings.sectionId.trim()
+      ? settings.sectionId.trim()
+      : null
   return (
-    <div>
+    <section id={sectionId ?? undefined}>
       {block.title ? (
         <h2 className="text-xl font-bold leading-8 lg:text-2xl">{block.title}</h2>
       ) : null}
@@ -1030,13 +1049,18 @@ function CorporateTimelineBlock({ block }: { block: ContentBlock }) {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   )
 }
 
 function CorporatePolicyBlock({ block }: { block: ContentBlock }) {
+  const settings = (block.settings ?? {}) as Record<string, unknown>
+  const sectionId =
+    typeof settings.sectionId === "string" && settings.sectionId.trim()
+      ? settings.sectionId.trim()
+      : null
   return (
-    <div>
+    <section id={sectionId ?? undefined}>
       {block.title ? (
         <h2 className="text-xl font-bold leading-8 lg:text-2xl">{block.title}</h2>
       ) : null}
@@ -1050,7 +1074,7 @@ function CorporatePolicyBlock({ block }: { block: ContentBlock }) {
           ))}
         </ul>
       ) : null}
-    </div>
+    </section>
   )
 }
 
@@ -1160,14 +1184,21 @@ function CorporateTeamTabsBlock({ block }: { block: ContentBlock }) {
 
 function CorporatePicTextBlock({ block }: { block: ContentBlock }) {
   const link = block.links[0] ?? null
+  const settings = (block.settings ?? {}) as Record<string, unknown>
+  const sectionId =
+    typeof settings.sectionId === "string" && settings.sectionId.trim()
+      ? settings.sectionId.trim()
+      : null
   return (
-    <CorporatePicText
-      title={block.title ?? ""}
-      texts={block.texts}
-      linkHref={link?.href ?? undefined}
-      linkText={link?.text ?? undefined}
-      image={block.images[0] ?? null}
-    />
+    <section id={sectionId ?? undefined}>
+      <CorporatePicText
+        title={block.title ?? ""}
+        texts={block.texts}
+        linkHref={link?.href ?? undefined}
+        linkText={link?.text ?? undefined}
+        image={block.images[0] ?? null}
+      />
+    </section>
   )
 }
 

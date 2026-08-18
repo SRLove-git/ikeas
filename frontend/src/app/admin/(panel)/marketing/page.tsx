@@ -47,7 +47,15 @@ export default function MarketingPage() {
   };
 
   useEffect(() => {
-    void load();
+    void (async () => {
+      try {
+        const data = await adminFetch<Coupon[]>("/api/admin/server/marketing/coupons");
+        setCoupons(data);
+        setError(null);
+      } catch (e) {
+        setError((e as Error).message);
+      }
+    })();
   }, []);
 
   const createCoupon = async () => {

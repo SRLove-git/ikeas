@@ -28,10 +28,19 @@ export interface FeedProduct {
   image?: string
 }
 
+export interface NavMenuItem {
+  label: string
+  href: string
+  /** 显示「所有商品」分类 Mega 菜单 */
+  hasMegaMenu?: boolean
+  /** 绑定「导航菜单」中的下拉面板（按面板 label 匹配），留空则不显示面板下拉 */
+  menuPanelLabel?: string
+}
+
 export interface HomepageData {
   noticeMessages: { text: string; href: string }[]
   searchHints: string[]
-  navMenuItems: { label: string; href: string; hasMegaMenu?: boolean }[]
+  navMenuItems: NavMenuItem[]
   megaMenuCategories: { name: string; subCategories: string[] }[]
   heroVideo: HeroVideo
   promoCardItems: PromoTile[]

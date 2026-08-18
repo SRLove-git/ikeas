@@ -120,7 +120,17 @@ const SCHEMAS: Record<string, SectionSchema> = {
       fields: [
         { key: "label", label: "菜单名称", kind: { type: "text" } },
         { key: "href", label: "链接", kind: { type: "text" } },
-        { key: "hasMegaMenu", label: "显示下拉菜单", kind: { type: "boolean" } },
+        {
+          key: "hasMegaMenu",
+          label: "显示全部分类下拉（Mega 菜单）",
+          kind: { type: "boolean" },
+        },
+        {
+          key: "menuPanelLabel",
+          label: "下拉面板",
+          kind: { type: "text" },
+          hint: "填写「导航菜单」中菜单面板的名称（如：客户服务），留空则不显示面板下拉",
+        },
       ],
     },
   },

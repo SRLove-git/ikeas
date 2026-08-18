@@ -12,7 +12,7 @@ import type { MenuPanel as MenuPanelData } from "@/data/menu-panels"
 import type { Category } from "@/data/categories"
 
 interface HeaderProps {
-  menuItems: { label: string; href: string; hasMegaMenu?: boolean }[]
+  menuItems: { label: string; href: string; hasMegaMenu?: boolean; menuPanelLabel?: string }[]
   searchHints: string[]
   menuPanels: MenuPanelData[]
   categories: Category[]
@@ -243,7 +243,9 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
                     <li
                       key={item.label}
                       onMouseEnter={(event) => {
-                        const panel = menuPanels.find((p) => p.label === item.label)
+                        const panel = menuPanels.find(
+                          (p) => p.label === (item.menuPanelLabel ?? item.label),
+                        )
                         closeSearch()
                         setOpenMenu(item.hasMegaMenu ? item.label : null)
                         setOpenPanel(panel ? panel.label : null)

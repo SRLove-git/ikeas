@@ -38,7 +38,8 @@
         "settings": {
           "traceId": "",
           "videoSrc": "",
-          "videoPoster": ""
+          "videoPoster": "",
+          "sectionId": "company-about"
         }
       },
       {
@@ -74,7 +75,8 @@
         ],
         "productIds": [],
         "settings": {
-          "traceId": ""
+          "traceId": "",
+          "sectionId": "company-innovation"
         }
       },
       {
@@ -91,7 +93,8 @@
         "items": [],
         "productIds": [],
         "settings": {
-          "traceId": ""
+          "traceId": "",
+          "sectionId": "company-cooperation"
         }
       },
       {
@@ -119,7 +122,8 @@
         ],
         "productIds": [],
         "settings": {
-          "traceId": ""
+          "traceId": "",
+          "sectionId": "company-timeline"
         }
       },
       {
@@ -135,7 +139,8 @@
         "items": [],
         "productIds": [],
         "settings": {
-          "traceId": ""
+          "traceId": "",
+          "sectionId": "company-policy"
         }
       },
       {
@@ -184,7 +189,8 @@
         "items": [],
         "productIds": [],
         "settings": {
-          "traceId": "buzud-organization-pic-text"
+          "traceId": "buzud-organization-pic-text",
+          "sectionId": "organization-overview"
         }
       },
       {
@@ -320,7 +326,8 @@
         "items": [],
         "productIds": [],
         "settings": {
-          "traceId": ""
+          "traceId": "",
+          "sectionId": "organization-business-units"
         }
       },
       {
