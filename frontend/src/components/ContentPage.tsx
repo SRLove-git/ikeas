@@ -34,7 +34,20 @@ export function ContentPage({
           <span className="text-ikea-black">{title}</span>
         </nav>
 
-        <h1 className="text-center text-2xl font-bold leading-9 lg:text-3xl">{title}</h1>
+        {page.subtitle ? (
+          <header className="-mx-5 flex min-h-[260px] items-center bg-ikea-blue px-5 py-12 text-white lg:-mx-10">
+            <div className="mx-auto w-full max-w-3xl text-center">
+              <h1 className="text-2xl font-bold leading-9 lg:text-4xl lg:leading-[3rem]">
+                {title}
+              </h1>
+              <p className="mx-auto mt-4 max-w-2xl text-sm leading-6 text-white/80">
+                {page.subtitle}
+              </p>
+            </div>
+          </header>
+        ) : (
+          <h1 className="text-center text-2xl font-bold leading-9 lg:text-3xl">{title}</h1>
+        )}
 
         {page.hero ? (
           <div className="mt-6">

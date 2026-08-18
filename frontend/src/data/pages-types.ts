@@ -8,6 +8,7 @@ export interface ContentBlockItem {
   text: string;
   image: string | null;
   href: string | null;
+  icon?: string | null;
   backgroundColor?: string | null;
 }
 
@@ -37,6 +38,7 @@ export interface ContentPageData {
   title: string;
   name: string | null;
   hero: string | null;
+  subtitle?: string | null;
   blocks: ContentBlock[];
 }
 

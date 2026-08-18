@@ -534,35 +534,80 @@
     "hero": null,
     "blocks": [
       {
-        "type": "pub-page-title",
-        "title": null,
+        "type": "corporate-text",
+        "title": "快捷联系",
         "texts": [
-          "联系我们"
+          "选择最适合您的联系方式，我们将在工作时间内尽快回复。"
         ],
         "images": [],
         "links": [],
         "items": [],
         "productIds": [],
         "settings": {
-          "traceId": ""
+          "traceId": "buzud-contact-channels-intro"
         }
       },
       {
-        "type": "pub-text",
+        "type": "contact-channels",
         "title": null,
+        "texts": [],
+        "images": [],
+        "links": [],
+        "items": [
+          {
+            "title": "客服热线 / WhatsApp",
+            "text": "+65 6518 9979 / +65 6518 9269\n周一至周五 9am-8pm；周六周日 10am-7pm",
+            "image": null,
+            "href": "tel:+6565189979",
+            "icon": "phone",
+            "backgroundColor": null
+          },
+          {
+            "title": "在线客服 / 邮件",
+            "text": "customercare@buzud.com\n工作日在线回复，售后问题欢迎随时联系",
+            "image": null,
+            "href": "mailto:customercare@buzud.com",
+            "icon": "email",
+            "backgroundColor": null
+          },
+          {
+            "title": "到店体验",
+            "text": "新加坡三家体验门店\n健康检测与产品体验可预约",
+            "image": null,
+            "href": "/cn/zh/customer-service/contact-us/#stores",
+            "icon": "store",
+            "backgroundColor": null
+          },
+          {
+            "title": "意见反馈",
+            "text": "欢迎提出宝贵建议\n帮助我们持续改进产品与服务",
+            "image": null,
+            "href": "mailto:customercare@buzud.com?subject=%E6%84%8F%E8%A7%81%E5%8F%8D%E9%A6%88",
+            "icon": "feedback",
+            "backgroundColor": null
+          }
+        ],
+        "productIds": [],
+        "settings": {
+          "traceId": "buzud-contact-channels"
+        }
+      },
+      {
+        "type": "corporate-text",
+        "title": "门店与体验中心",
         "texts": [
-          "CHUNG YIP HOLDING 新加坡体验门店，欢迎到店体验健康检测与产品咨询。"
+          "欢迎到店体验健康检测与产品咨询，三家体验门店均提供专业服务。"
         ],
         "images": [],
         "links": [],
         "items": [],
         "productIds": [],
         "settings": {
-          "traceId": ""
+          "traceId": "buzud-contact-stores-intro"
         }
       },
       {
-        "type": "pub-assurances",
+        "type": "contact-channels",
         "title": null,
         "texts": [],
         "images": [],
@@ -571,50 +616,167 @@
           {
             "title": "Raffles Hospital",
             "text": "585 North Bridge Road, #01-02, Singapore 188770\n周一至周五 9am-8pm；周六周日 10am-7pm\n电话/WhatsApp: +65 6518 9979",
-            "image": "/images/products/buzud-8885020712582.png",
+            "image": null,
             "href": "tel:+6565189979",
+            "icon": "store",
             "backgroundColor": null
           },
           {
             "title": "Novena Square 2",
             "text": "10 Sinaran Dr, #03-21, Singapore 307506\n周一至周五 9am-8pm；周六周日 10am-7pm\n电话/WhatsApp: +65 6518 9269",
-            "image": "/images/products/buzud-8885020710595.png",
+            "image": null,
             "href": "tel:+6565189269",
+            "icon": "store",
             "backgroundColor": null
           },
           {
             "title": "PARKROYAL on Beach Road",
             "text": "7500 Beach Road, Level 4, Singapore 199591\n每日 11am-8pm\n电话/WhatsApp: +65 9888 3885",
-            "image": "/images/products/buzud-8885020711448.png",
+            "image": null,
             "href": "tel:+6598883885",
-            "backgroundColor": null
-          },
-          {
-            "title": "在线客服",
-            "text": "customercare@buzud.com\n工作日在线回复，售后问题欢迎随时联系",
-            "image": "/images/products/buzud-8885020711677.png",
-            "href": "mailto:customercare@buzud.com",
+            "icon": "store",
             "backgroundColor": null
           }
         ],
         "productIds": [],
         "settings": {
-          "traceId": ""
+          "traceId": "buzud-contact-stores",
+          "sectionId": "stores"
         }
       },
       {
-        "type": "pub-text",
+        "type": "contact-list",
+        "title": "其他联系事项",
+        "texts": [
+          "根据您的需求选择对应的联系渠道，我们承诺对您的咨询严格保密。"
+        ],
+        "images": [],
+        "links": [],
+        "items": [
+          {
+            "title": "商务合作",
+            "text": "欢迎渠道商、医疗机构与企业客户洽谈合作，请通过客服邮箱与我们联系。",
+            "image": null,
+            "href": "mailto:customercare@buzud.com?subject=%E5%95%86%E5%8A%A1%E5%90%88%E4%BD%9C",
+            "icon": "partner",
+            "backgroundColor": null
+          },
+          {
+            "title": "招聘与求职",
+            "text": "求职相关咨询请发送邮件至 careers@buzud.com。",
+            "image": null,
+            "href": "mailto:careers@buzud.com",
+            "icon": "careers",
+            "backgroundColor": null
+          },
+          {
+            "title": "意见反馈",
+            "text": "对我们的产品与网站有任何建议，欢迎留言告诉我们。",
+            "image": null,
+            "href": "mailto:customercare@buzud.com?subject=%E6%84%8F%E8%A7%81%E5%8F%8D%E9%A6%88",
+            "icon": "feedback",
+            "backgroundColor": null
+          },
+          {
+            "title": "举报与合规",
+            "text": "如发现涉嫌违规或不当行为，可通过客服邮箱向我们反映，我们承诺严格保密。",
+            "image": null,
+            "href": "mailto:customercare@buzud.com?subject=%E4%B8%BE%E6%8A%A5%E4%B8%8E%E5%90%88%E8%A7%84",
+            "icon": "report",
+            "backgroundColor": null
+          },
+          {
+            "title": "传真",
+            "text": "+65 6518 9959",
+            "image": null,
+            "href": "tel:+6565189959",
+            "icon": "fax",
+            "backgroundColor": null
+          }
+        ],
+        "productIds": [],
+        "settings": {
+          "traceId": "buzud-contact-matters"
+        }
+      },
+      {
+        "type": "contact-list",
+        "title": "更多帮助",
+        "texts": [
+          "以下页面可帮助您快速解决常见问题。"
+        ],
+        "images": [],
+        "links": [],
+        "items": [
+          {
+            "title": "客户服务总览",
+            "text": "健康讲座、订单与常见问题一站式服务",
+            "image": null,
+            "href": "/cn/zh/customer-service/",
+            "icon": "document",
+            "backgroundColor": null
+          },
+          {
+            "title": "送货服务",
+            "text": "本地及国际订单配送安排",
+            "image": null,
+            "href": "/cn/zh/customer-service/services/delivery/",
+            "icon": "document",
+            "backgroundColor": null
+          },
+          {
+            "title": "售后服务",
+            "text": "客服咨询、保修与退换货支持",
+            "image": null,
+            "href": "/cn/zh/customer-service/services/aftersales/",
+            "icon": "document",
+            "backgroundColor": null
+          },
+          {
+            "title": "尊享权益",
+            "text": "银行合作专属优惠与健康体验",
+            "image": null,
+            "href": "/cn/zh/customer-service/services/privileges/",
+            "icon": "document",
+            "backgroundColor": null
+          },
+          {
+            "title": "保修注册",
+            "text": "登记产品信息，享受官方质保",
+            "image": null,
+            "href": "/cn/zh/customer-service/warranty-registration/",
+            "icon": "document",
+            "backgroundColor": null
+          }
+        ],
+        "productIds": [],
+        "settings": {
+          "traceId": "buzud-contact-help"
+        }
+      },
+      {
+        "type": "pub-expandable-area",
         "title": null,
         "texts": [
-          "求职相关咨询请发送邮件至 careers@buzud.com。",
-          "传真：+65 6518 9959"
+          "订单多久可以送达？",
+          "订单通常会在 3-7 个工作日内送达，本地配送可联系门店客服确认具体时效。",
+          "如何联系 CHUNG YIP HOLDING 客服？",
+          "可拨打 +65 6518 9979 / +65 6518 9269，或发送邮件至 customercare@buzud.com，也可到访新加坡体验门店。",
+          "支持退换货吗？",
+          "保修期内外均提供维修与换货服务，如遇制造或质量问题，可携带产品与发票到门店处理。",
+          "如何使用银联卡优惠？",
+          "在 CHUNG YIP HOLDING 新加坡体验店使用银联卡支付享全店 88 折；线上支付时输入优惠码 unionvip 即可。",
+          "如何注册产品保修？",
+          "访问保修注册页面，填写产品信息即可完成登记。",
+          "门店提供哪些健康体验？",
+          "可享氧疗焕活、体成分分析、血糖/血脂/尿酸分析与血压检测等服务，欢迎到店预约体验。"
         ],
         "images": [],
         "links": [],
         "items": [],
         "productIds": [],
         "settings": {
-          "traceId": ""
+          "traceId": "buzud-contact-faq"
         }
       },
       {
@@ -634,6 +796,7 @@
           "traceId": "buzud-contact-cta"
         }
       }
-    ]
+    ],
+    "subtitle": "对 BUZUD 产品、售后服务、商务合作等有任何问题，请通过这些渠道与我们联系。"
   }
 ]

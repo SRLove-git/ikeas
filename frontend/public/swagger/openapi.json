@@ -1,9 +1,9 @@
 {
   "openapi": "3.0.3",
   "info": {
-    "title": "BUZUD 新页面（公司介绍/组织架构）内容接口",
-    "version": "1.1.0",
-    "description": "公司介绍页与组织架构页（/cn/zh/company、/cn/zh/organization）的内容接口契约，供后端对接。\n\n鉴权说明：接口要求管理端登录会话，登录成功后由服务端写入 HttpOnly Cookie `ikea_admin_session`，请求无需携带 Authorization 头。\n\n页面 key 为页面 URL 的 base64url 编码，例如 `/cn/zh/company` 的 key 为 `L2NuL3poL2NvbXBhbnk`。\n\n组织架构页（v1.1.0）新增区块类型：`corporate-pic-text`（左侧图片 + 右侧治理文字，支持展开/收起）与 `corporate-team-tabs`（吸顶成员分栏页签，items 为 TeamGroup 数组，成员信息嵌套在 members 字段）。"
+    "title": "BUZUD 内容页接口（公司介绍 / 组织架构 / 联系我们）",
+    "version": "1.2.0",
+    "description": "公司介绍页、组织架构页与联系我们页（/cn/zh/company、/cn/zh/organization、/cn/zh/customer-service/contact-us/）的内容接口契约，供后端对接。\n\n鉴权说明：管理端接口（/api/admin/**）要求管理端登录会话，登录成功后由服务端写入 HttpOnly Cookie `ikea_admin_session`，请求无需携带 Authorization 头；公共只读接口（/api/v1/pages）无需鉴权。\n\n页面 key 为页面 URL 的 base64url 编码，例如 `/cn/zh/company` 的 key 为 `L2NuL3poL2NvbXBhbnk`；`/cn/zh/customer-service/contact-us/` 的 key 为 `L2NuL3poL2N1c3RvbWVyLXNlcnZpY2UvY29udGFjdC11cy8`。\n\nv1.2.0（联系我们页）变更：PageData 新增 `subtitle` 字段（页面头部 Hero 副标题）；新增区块类型 `contact-channels`（联系渠道/门店图标卡片，items 为 ContactItem，含 `icon`）与 `contact-list`（联系事项列表行，items 为 ContactItem）；新增公共只读接口 GET /api/v1/pages，可通过 `?url=` 按页面地址取单页，供后端直接下发页面内容。"
   },
   "servers": [
     {
@@ -15,9 +15,160 @@
     {
       "name": "新页面内容",
       "description": "公司介绍与组织架构页面内容管理"
+    },
+    {
+      "name": "内容页公共读取",
+      "description": "后端内容页只读接口（PageController），供对外下发页面内容"
     }
   ],
   "paths": {
+    "/api/v1/pages": {
+      "get": {
+        "tags": ["内容页公共读取"],
+        "summary": "获取内容页（按 url 取单页，或按 family 取列表）",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": false,
+            "schema": { "type": "string" },
+            "description": "页面地址，例如 /cn/zh/customer-service/contact-us/；传入时返回单页 PageData"
+          },
+          {
+            "name": "family",
+            "in": "query",
+            "required": false,
+            "schema": { "type": "string", "enum": ["company", "customer-service"] },
+            "description": "栏目过滤，与 url 互斥"
+          },
+          {
+            "name": "depth",
+            "in": "query",
+            "required": false,
+            "schema": { "type": "integer" },
+            "description": "仅按 family 过滤时可选：只返回指定层级页面"
+          },
+          {
+            "name": "minDepth",
+            "in": "query",
+            "required": false,
+            "schema": { "type": "integer" },
+            "description": "仅按 family 过滤时可选：返回更深层级页面"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "按 url 返回单页 PageData；按 family 返回 PageData 数组",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "oneOf": [
+                    { "$ref": "#/components/schemas/PageData" },
+                    {
+                      "type": "array",
+                      "items": { "$ref": "#/components/schemas/PageData" }
+                    }
+                  ]
+                },
+                "examples": {
+                  "contactUs": {
+                    "summary": "联系我们页（/cn/zh/customer-service/contact-us/）",
+                    "value": {
+                      "url": "/cn/zh/customer-service/contact-us/",
+                      "family": "customer-service",
+                      "id": "cn--zh--buzud-contact-us",
+                      "title": "联系我们",
+                      "name": "联系我们",
+                      "hero": null,
+                      "subtitle": "对 BUZUD 产品、售后服务、商务合作等有任何问题，请通过这些渠道与我们联系。",
+                      "blocks": [
+                        {
+                          "type": "corporate-text",
+                          "title": "快捷联系",
+                          "texts": ["选择最适合您的联系方式，我们将在工作时间内尽快回复。"],
+                          "images": [],
+                          "links": [],
+                          "items": [],
+                          "productIds": [],
+                          "settings": { "traceId": "buzud-contact-channels-intro" }
+                        },
+                        {
+                          "type": "contact-channels",
+                          "title": null,
+                          "texts": [],
+                          "images": [],
+                          "links": [],
+                          "items": [
+                            {
+                              "title": "客服热线 / WhatsApp",
+                              "text": "+65 6518 9979 / +65 6518 9269\n周一至周五 9am-8pm；周六周日 10am-7pm",
+                              "image": null,
+                              "href": "tel:+6565189979",
+                              "icon": "phone",
+                              "backgroundColor": null
+                            },
+                            {
+                              "title": "在线客服 / 邮件",
+                              "text": "customercare@buzud.com\n工作日在线回复，售后问题欢迎随时联系",
+                              "image": null,
+                              "href": "mailto:customercare@buzud.com",
+                              "icon": "email",
+                              "backgroundColor": null
+                            }
+                          ],
+                          "productIds": [],
+                          "settings": { "traceId": "buzud-contact-channels" }
+                        },
+                        {
+                          "type": "contact-list",
+                          "title": "其他联系事项",
+                          "texts": ["根据您的需求选择对应的联系渠道，我们承诺对您的咨询严格保密。"],
+                          "images": [],
+                          "links": [],
+                          "items": [
+                            {
+                              "title": "招聘与求职",
+                              "text": "求职相关咨询请发送邮件至 careers@buzud.com。",
+                              "image": null,
+                              "href": "mailto:careers@buzud.com",
+                              "icon": "careers",
+                              "backgroundColor": null
+                            }
+                          ],
+                          "productIds": [],
+                          "settings": { "traceId": "buzud-contact-matters" }
+                        },
+                        {
+                          "type": "pub-expandable-area",
+                          "title": null,
+                          "texts": [
+                            "订单多久可以送达？",
+                            "订单通常会在 3-7 个工作日内送达，本地配送可联系门店客服确认具体时效。"
+                          ],
+                          "images": [],
+                          "links": [],
+                          "items": [],
+                          "productIds": [],
+                          "settings": { "traceId": "buzud-contact-faq" }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "页面不存在（url 未匹配）",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/ApiError" }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/admin/pages": {
       "get": {
         "tags": ["新页面内容"],
@@ -27,8 +178,8 @@
             "name": "family",
             "in": "query",
             "required": false,
-            "schema": { "type": "string", "enum": ["company"] },
-            "description": "栏目过滤，company = 公司介绍/组织架构"
+            "schema": { "type": "string", "enum": ["company", "customer-service"] },
+            "description": "栏目过滤，company = 公司介绍/组织架构；customer-service = 客户服务（含联系我们）"
           }
         ],
         "responses": {
@@ -85,7 +236,7 @@
             "in": "path",
             "required": true,
             "schema": { "type": "string" },
-            "description": "页面 URL 的 base64url，如 `/cn/zh/company` -> `L2NuL3poL2NvbXBhbnk`"
+            "description": "页面 URL 的 base64url，如 `/cn/zh/company` -> `L2NuL3poL2NvbXBhbnk`；`/cn/zh/customer-service/contact-us/` -> `L2NuL3poL2N1c3RvbWVyLXNlcnZpY2UvY29udGFjdC11cy8`"
           }
         ],
         "responses": {
@@ -219,7 +370,7 @@
         "properties": {
           "type": {
             "type": "string",
-            "description": "区块类型：pub-text、corporate-hero、corporate-about、corporate-stats、corporate-timeline、corporate-policy、corporate-pic-text（图文版式：图片 + 治理文字 + 展开/收起）、corporate-team-tabs（成员分栏页签）、corporate-team（成员卡片网格）"
+            "description": "区块类型：pub-text、corporate-hero、corporate-about、corporate-stats、corporate-timeline、corporate-policy、corporate-pic-text（图文版式：图片 + 治理文字 + 展开/收起）、corporate-team-tabs（成员分栏页签）、corporate-team（成员卡片网格）、contact-channels（联系渠道/门店图标卡片，items 为 ContactItem）、contact-list（联系事项列表行，items 为 ContactItem）、pub-expandable-area（问答折叠区，texts 按「问题、答案」成对排列）"
           },
           "title": { "type": ["string", "null"] },
           "texts": { "type": "array", "items": { "type": "string" } },
@@ -236,7 +387,7 @@
           },
           "items": {
             "type": "array",
-            "description": "items 结构随区块类型变化：corporate-team-tabs 为 TeamGroup 数组（含嵌套 members）；corporate-team 为成员卡片数组 { title=姓名, text=职务, image, href }；corporate-stats 为 { value, label }。",
+            "description": "items 结构随区块类型变化：corporate-team-tabs 为 TeamGroup 数组（含嵌套 members）；corporate-team 为成员卡片数组 { title=姓名, text=职务, image, href }；corporate-stats 为 { value, label }；contact-channels / contact-list 为 ContactItem 数组 { title, text, href, icon, image, backgroundColor }。",
             "items": {
               "type": "object",
               "additionalProperties": true
@@ -276,13 +427,18 @@
           "url": { "type": "string", "example": "/cn/zh/company" },
           "family": {
             "type": "string",
-            "enum": ["company"],
-            "description": "company = 公司介绍/组织架构"
+            "enum": ["company", "customer-service"],
+            "description": "company = 公司介绍/组织架构；customer-service = 客户服务（含联系我们）"
           },
           "id": { "type": ["string", "null"] },
           "title": { "type": "string", "example": "公司介绍" },
           "name": { "type": ["string", "null"] },
           "hero": { "type": ["string", "null"] },
+          "subtitle": {
+            "type": ["string", "null"],
+            "description": "页面头部 Hero 副标题（华为风格：标题 + 副文案垂直居中），当前仅联系我们页使用",
+            "example": "对 BUZUD 产品、售后服务、商务合作等有任何问题，请通过这些渠道与我们联系。"
+          },
           "blocks": {
             "type": "array",
             "items": { "$ref": "#/components/schemas/ContentBlock" }
@@ -357,6 +513,31 @@
             "type": "array",
             "items": { "$ref": "#/components/schemas/TeamMember" }
           }
+        }
+      },
+      "ContactItem": {
+        "type": "object",
+        "required": ["title", "text", "href"],
+        "description": "联系我们页的渠道卡片/列表行元素（contact-channels、contact-list 区块的 items）。",
+        "properties": {
+          "title": { "type": "string", "example": "客服热线 / WhatsApp" },
+          "text": {
+            "type": "string",
+            "description": "支持 \\n 换行，前端按行展示",
+            "example": "+65 6518 9979 / +65 6518 9269\n周一至周五 9am-8pm；周六周日 10am-7pm"
+          },
+          "image": { "type": ["string", "null"] },
+          "href": {
+            "type": ["string", "null"],
+            "description": "tel: / mailto: / 站内链接（含 # 锚点）",
+            "example": "tel:+6565189979"
+          },
+          "icon": {
+            "type": ["string", "null"],
+            "enum": ["phone", "email", "chat", "store", "feedback", "partner", "careers", "report", "fax", "document"],
+            "description": "渠道图标；省略时前端回退默认图标"
+          },
+          "backgroundColor": { "type": ["string", "null"] }
         }
       }
     }

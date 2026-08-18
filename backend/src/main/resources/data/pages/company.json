@@ -10,12 +10,8 @@
       {
         "type": "corporate-hero",
         "title": "让健康管理融入每个家庭",
-        "texts": [
-          "CHUNG YIP HOLDING 的愿景与使命（内容待补充）"
-        ],
-        "images": [
-          "/images/cms/buzud-hero-1-wide.jpg"
-        ],
+        "texts": ["CHUNG YIP HOLDING 的愿景与使命（内容待补充）"],
+        "images": ["/images/cms/buzud-hero-1-wide.jpg"],
         "links": [
           {
             "href": "/cn/zh/all-products/",
@@ -84,9 +80,7 @@
       {
         "type": "corporate-text",
         "title": "开放、合作、共赢",
-        "texts": [
-          "我们期待与行业伙伴、医疗机构与社区共同推动健康产业发展（内容待补充）。"
-        ],
+        "texts": ["我们期待与行业伙伴、医疗机构与社区共同推动健康产业发展（内容待补充）。"],
         "images": [],
         "links": [
           {
@@ -172,25 +166,155 @@
     "hero": null,
     "blocks": [
       {
-        "type": "pub-page-title",
-        "title": null,
+        "type": "corporate-pic-text",
+        "title": "组织架构",
         "texts": [
-          "组织架构"
+          "股东会是公司权力机构，对公司增资、利润分配、董事选举等重大事项作出决策。",
+          "董事会是公司战略与经营管理的最高责任机构，承担带领公司前进的使命，维护股东与顾客利益。",
+          "监事会是公司的监督机构，对董事与高级管理人员进行监督与评价，维护公司与股东利益。",
+          "管理团队由各职能负责人组成，负责日常经营、产品研发、门店与线上业务的落地执行。"
         ],
-        "images": [],
-        "links": [],
+        "images": ["/images/cms/buzud-hero-1-wide.jpg"],
+        "links": [
+          {
+            "href": "/cn/zh/company",
+            "text": "了解公司治理架构"
+          }
+        ],
         "items": [],
         "productIds": [],
         "settings": {
-          "traceId": ""
+          "traceId": "buzud-organization-pic-text"
         }
       },
       {
-        "type": "pub-text",
+        "type": "corporate-team-tabs",
         "title": null,
-        "texts": [
-          "CHUNG YIP HOLDING 围绕 BUZUD 健康产品品牌开展整体运营，通过品牌运营、新加坡体验门店、线上商城与客户服务团队，为顾客提供从选购、检测体验到售后保障的一站式服务。"
+        "texts": [],
+        "images": [],
+        "links": [],
+        "items": [
+          {
+            "id": "board-of-directors",
+            "title": "董事会",
+            "description": "负责公司战略决策与整体经营方向（成员信息待定）。",
+            "members": [
+              {
+                "name": "姓名待定",
+                "position": "董事长",
+                "image": null,
+                "href": null
+              },
+              {
+                "name": "姓名待定",
+                "position": "副董事长",
+                "image": null,
+                "href": null
+              },
+              {
+                "name": "姓名待定",
+                "position": "董事",
+                "image": null,
+                "href": null
+              },
+              {
+                "name": "姓名待定",
+                "position": "董事",
+                "image": null,
+                "href": null
+              }
+            ]
+          },
+          {
+            "id": "supervisory-board",
+            "title": "监事会",
+            "description": "负责监督公司经营与管理人员履职情况（成员信息待定）。",
+            "members": [
+              {
+                "name": "姓名待定",
+                "position": "监事长",
+                "image": null,
+                "href": null
+              },
+              {
+                "name": "姓名待定",
+                "position": "监事",
+                "image": null,
+                "href": null
+              },
+              {
+                "name": "姓名待定",
+                "position": "监事",
+                "image": null,
+                "href": null
+              }
+            ]
+          },
+          {
+            "id": "management-team",
+            "title": "管理团队",
+            "description": "负责公司日常经营与各业务单元的落地执行（成员信息待定）。",
+            "members": [
+              {
+                "name": "姓名待定",
+                "position": "首席执行官",
+                "image": null,
+                "href": null
+              },
+              {
+                "name": "姓名待定",
+                "position": "首席运营官",
+                "image": null,
+                "href": null
+              },
+              {
+                "name": "姓名待定",
+                "position": "首席财务官",
+                "image": null,
+                "href": null
+              },
+              {
+                "name": "姓名待定",
+                "position": "产品与供应链总监",
+                "image": null,
+                "href": null
+              },
+              {
+                "name": "姓名待定",
+                "position": "市场与品牌总监",
+                "image": null,
+                "href": null
+              },
+              {
+                "name": "姓名待定",
+                "position": "门店运营总监",
+                "image": null,
+                "href": null
+              },
+              {
+                "name": "姓名待定",
+                "position": "客户服务总监",
+                "image": null,
+                "href": null
+              },
+              {
+                "name": "姓名待定",
+                "position": "电商运营总监",
+                "image": null,
+                "href": null
+              }
+            ]
+          }
         ],
+        "productIds": [],
+        "settings": {
+          "traceId": "buzud-organization-teams"
+        }
+      },
+      {
+        "type": "corporate-text",
+        "title": "业务部门",
+        "texts": ["围绕 BUZUD 品牌建立四大业务单元，协同服务顾客。"],
         "images": [],
         "links": [],
         "items": [],
@@ -238,23 +362,6 @@
         "productIds": [],
         "settings": {
           "traceId": ""
-        }
-      },
-      {
-        "type": "pub-button-link",
-        "title": null,
-        "texts": [],
-        "images": [],
-        "links": [
-          {
-            "href": "/cn/zh/all-products/",
-            "text": "浏览全部商品"
-          }
-        ],
-        "items": [],
-        "productIds": [],
-        "settings": {
-          "traceId": "buzud-organization-cta"
         }
       }
     ]

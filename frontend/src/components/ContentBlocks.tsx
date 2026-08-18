@@ -1,4 +1,5 @@
 import Link from "next/link"
+import type { ReactNode } from "react"
 import type { ContentBlock, ContentBlockItem } from "@/data/pages-types"
 import { CorporatePicText } from "@/components/CorporatePicText"
 import { CorporateTeamTabs } from "@/components/CorporateTeamTabs"
@@ -717,12 +718,19 @@ function InspirationCardBlock({ block }: { block: ContentBlock }) {
 function ExpandableBlock({ block }: { block: ContentBlock }) {
   const items = pairItems(block, 8)
   const rows =
-    items.length > 0
-      ? items.map((item, i) => ({
-          title: item.text ?? block.texts[i] ?? `第 ${i + 1} 项`,
-          body: "",
+    block.texts.length >= 2 && block.links.length === 0 && block.images.length === 0
+      ? Array.from({ length: Math.ceil(block.texts.length / 2) }, (_, i) => ({
+          title: block.texts[i * 2],
+          body: block.texts[i * 2 + 1] ?? "",
         }))
-      : block.texts.slice(1).map((t, i) => ({ title: block.texts[0] ?? `第 ${i + 1} 项`, body: t }))
+      : items.length > 0
+        ? items.map((item, i) => ({
+            title: item.text ?? block.texts[i] ?? `第 ${i + 1} 项`,
+            body: "",
+          }))
+        : block.texts
+            .slice(1)
+            .map((t, i) => ({ title: block.texts[0] ?? `第 ${i + 1} 项`, body: t }))
   return (
     <div className="divide-y divide-ikea-gray-200 border-y border-ikea-gray-200">
       {rows.map((row, i) => (
@@ -1156,6 +1164,172 @@ function CorporatePicTextBlock({ block }: { block: ContentBlock }) {
   )
 }
 
+const CONTACT_ICONS: Record<string, ReactNode> = {
+  default: <path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm1 15h-2v-6h2zm0-8h-2V7h2z" />,
+  phone: (
+    <path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.2 1.2.4 2.5.6 3.8.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.2 1.1z" />
+  ),
+  email: (
+    <path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5z" />
+  ),
+  chat: (
+    <path d="M20 2H4a2 2 0 0 0-2 2v18l4-4h14a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zm-4 9H8v-2h8zm0-3H8V6h8z" />
+  ),
+  store: (
+    <path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z" />
+  ),
+  feedback: (
+    <path d="M20 2H4a2 2 0 0 0-2 2v18l4-4h14a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zM6 9h12v2H6zm8 5H6v-2h8z" />
+  ),
+  partner: (
+    <path d="M20 6h-4V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2H4a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2zM10 4h4v2h-4zm10 15H4v-2h16zm0-5H4v-2h16z" />
+  ),
+  careers: (
+    <path d="M15 12a4 4 0 1 0-4-4 4 4 0 0 0 4 4zm-9-2V7H4v3H1v2h3v3h2v-3h3v-2H6zm9 4c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
+  ),
+  report: (
+    <path d="M12 1 3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5zm-1 14h2v2h-2zm0-10h2v6h-2z" />
+  ),
+  fax: (
+    <path d="M19 8H5a3 3 0 0 0-3 3v6h4v4h12v-4h4v-6a3 3 0 0 0-3-3zm-3 11H8v-5h8zm3-7a1 1 0 1 1 1-1 1 1 0 0 1-1 1zm-1-9H6v4h12z" />
+  ),
+  document: (
+    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zm2 16H8v-2h8zm0-4H8v-2h8zm-2-8V3.5L18.5 8z" />
+  ),
+  arrow: <path d="m20 12-8-8-1.4 1.4L16.2 11H4v2h12.2l-5.6 5.6L12 20z" />,
+}
+
+function ContactIcon({
+  name,
+  className = "h-6 w-6",
+}: {
+  name?: string | null
+  className?: string
+}) {
+  return (
+    <svg viewBox="0 0 24 24" fill="currentColor" className={className} aria-hidden="true">
+      {CONTACT_ICONS[name ?? ""] ?? CONTACT_ICONS.default}
+    </svg>
+  )
+}
+
+type ContactItem = ContentBlockItem & { rawText?: string | null }
+
+function contactDetail(item: ContactItem): string {
+  return item.rawText ?? item.text ?? ""
+}
+
+function contactActionLabel(href: string): string {
+  if (href.startsWith("tel:")) return "拨打电话"
+  if (href.startsWith("mailto:")) return "发送邮件"
+  return "查看详情"
+}
+
+function ContactChannelsBlock({ block }: { block: ContentBlock }) {
+  const items = (block.items ?? []) as ContactItem[]
+  if (items.length === 0) return null
+  const settings = (block.settings ?? {}) as Record<string, unknown>
+  const sectionId =
+    typeof settings.sectionId === "string" && settings.sectionId.trim()
+      ? settings.sectionId.trim()
+      : null
+  const grid = items.length >= 4 ? "sm:grid-cols-2 lg:grid-cols-4" : "sm:grid-cols-2 lg:grid-cols-3"
+  return (
+    <section id={sectionId ?? undefined}>
+      {block.title ? (
+        <h2 className="text-xl font-bold leading-8 lg:text-2xl">{block.title}</h2>
+      ) : null}
+      {block.texts[0] ? (
+        <p className="mt-2 max-w-2xl text-sm leading-6 text-ikea-muted">{block.texts[0]}</p>
+      ) : null}
+      <div className={`mt-6 grid grid-cols-1 gap-5 ${grid}`}>
+        {items.map((item, i) => {
+          const href = item.href ?? "#"
+          return (
+            <BlockLink
+              key={i}
+              href={href}
+              className="group flex h-full flex-col border border-ikea-gray-200 bg-white p-6 transition-colors hover:border-ikea-blue hover:shadow-md"
+            >
+              <span className="flex h-12 w-12 items-center justify-center rounded-full bg-ikea-blue/10 text-ikea-blue">
+                <ContactIcon name={item.icon} />
+              </span>
+              {item.title ? (
+                <h3 className="mt-4 text-sm font-bold leading-5 group-hover:underline">
+                  {item.title}
+                </h3>
+              ) : null}
+              {contactDetail(item) ? (
+                <p className="mt-2 whitespace-pre-line text-xs leading-5 text-ikea-muted">
+                  {contactDetail(item)}
+                </p>
+              ) : null}
+              {href !== "#" ? (
+                <span className="mt-auto flex items-center gap-1 pt-4 text-xs font-bold text-ikea-blue">
+                  {contactActionLabel(href)}
+                  <ContactIcon name="arrow" className="h-4 w-4" />
+                </span>
+              ) : null}
+            </BlockLink>
+          )
+        })}
+      </div>
+    </section>
+  )
+}
+
+function ContactListBlock({ block }: { block: ContentBlock }) {
+  const items = (block.items ?? []) as ContactItem[]
+  if (!block.title && !block.texts[0] && items.length === 0) return null
+  const settings = (block.settings ?? {}) as Record<string, unknown>
+  const sectionId =
+    typeof settings.sectionId === "string" && settings.sectionId.trim()
+      ? settings.sectionId.trim()
+      : null
+  return (
+    <section id={sectionId ?? undefined}>
+      {block.title ? (
+        <h2 className="text-xl font-bold leading-8 lg:text-2xl">{block.title}</h2>
+      ) : null}
+      {block.texts[0] ? (
+        <p className="mt-2 max-w-2xl text-sm leading-6 text-ikea-muted">{block.texts[0]}</p>
+      ) : null}
+      {items.length > 0 ? (
+        <div className="mt-6 divide-y divide-ikea-gray-200 border-y border-ikea-gray-200">
+          {items.map((item, i) => {
+            const href = item.href ?? "#"
+            return (
+              <BlockLink key={i} href={href} className="group flex items-start gap-4 py-5">
+                <span className="mt-0.5 flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-ikea-gray-100 text-ikea-blue">
+                  <ContactIcon name={item.icon} className="h-5 w-5" />
+                </span>
+                <div className="min-w-0 flex-1">
+                  {item.title ? (
+                    <h3 className="text-sm font-bold leading-5 group-hover:underline">
+                      {item.title}
+                    </h3>
+                  ) : null}
+                  {contactDetail(item) ? (
+                    <p className="mt-1 whitespace-pre-line text-xs leading-5 text-ikea-muted">
+                      {contactDetail(item)}
+                    </p>
+                  ) : null}
+                </div>
+                {href !== "#" ? (
+                  <ContactIcon
+                    name="arrow"
+                    className="mt-1 h-4 w-4 shrink-0 text-ikea-muted transition-colors group-hover:text-ikea-blue"
+                  />
+                ) : null}
+              </BlockLink>
+            )
+          })}
+        </div>
+      ) : null}
+    </section>
+  )
+}
+
 function GenericBlock({ block }: { block: ContentBlock }) {
   const items = block.items ?? []
   if (items.length > 0) {
@@ -1204,6 +1378,7 @@ export function ContentBlocks({ blocks }: { blocks: ContentBlock[] }) {
       ...item,
       title: cleanTitle(item.title),
       text: cleanText(item.text),
+      rawText: item.text,
     })),
   }))
   return (
@@ -1279,6 +1454,10 @@ export function ContentBlocks({ blocks }: { blocks: ContentBlock[] }) {
             return <CorporateTeamBlock key={i} block={block} />
           case "corporate-team-tabs":
             return <CorporateTeamTabsBlock key={i} block={block} />
+          case "contact-channels":
+            return <ContactChannelsBlock key={i} block={block} />
+          case "contact-list":
+            return <ContactListBlock key={i} block={block} />
           default:
             return <GenericBlock key={i} block={block} />
         }
