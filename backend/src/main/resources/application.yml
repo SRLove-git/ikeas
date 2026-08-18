@@ -40,6 +40,15 @@ ikea:
     # Optional: serve /images, /seo and /fonts from the repo's public dir, e.g.
     # IKEA_STATIC_PUBLIC_DIR=../public. Leave empty to disable.
     public-dir: ${IKEA_STATIC_PUBLIC_DIR:}
+  oss:
+    # Aliyun OSS storage for admin uploads. Disabled by default until credentials are configured.
+    enabled: ${IKEA_OSS_ENABLED:false}
+    endpoint: ${IKEA_OSS_ENDPOINT:}
+    bucket: ${IKEA_OSS_BUCKET:}
+    access-key-id: ${IKEA_OSS_ACCESS_KEY_ID:}
+    access-key-secret: ${IKEA_OSS_ACCESS_KEY_SECRET:}
+    public-url-base: ${IKEA_OSS_PUBLIC_URL_BASE:}
+    max-size-bytes: ${IKEA_OSS_MAX_SIZE_BYTES:20971520}
   auth:
     # HMAC secret used to sign access JWTs. Must be at least 32 bytes in production.
     jwt-secret: ${IKEA_JWT_SECRET:change-me-to-a-long-random-secret-at-least-32-bytes}
