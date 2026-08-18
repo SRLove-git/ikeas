@@ -165,6 +165,13 @@
   }
 }
 
+/* Homepage hero video: fill the frame edge to edge. */
+.prod-intro .prod-products .prod video.product {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
 @layer utilities {
   .max-w-page {
     max-width: 1440px;

@@ -8,186 +8,249 @@
     "hero": null,
     "blocks": [
       {
-        "type": "pub-page-title",
-        "title": null,
+        "type": "support-search-hero",
+        "title": "如何帮助您？",
         "texts": [
-          "客户服务"
+          "BUZUD 客户服务",
+          "提供配送、售后、保修与健康体验等一站式支持，热门问题可在下方直接搜索。"
         ],
         "images": [],
-        "links": [],
+        "links": [
+          {
+            "href": "/cn/zh/customer-service/warranty-registration/",
+            "text": "保修注册"
+          },
+          {
+            "href": "/cn/zh/customer-service/services/delivery/",
+            "text": "送货服务"
+          },
+          {
+            "href": "/cn/zh/customer-service/services/aftersales/",
+            "text": "售后服务"
+          },
+          {
+            "href": "/cn/zh/customer-service/services/privileges/",
+            "text": "尊享权益"
+          },
+          {
+            "href": "/cn/zh/customer-service/contact-us/#stores",
+            "text": "门店查询"
+          }
+        ],
         "items": [],
         "productIds": [],
         "settings": {
-          "traceId": ""
+          "traceId": "buzud-support-hero",
+          "placeholder": "搜索常见问题，如：保修、配送、退换货"
         }
       },
       {
         "type": "pub-text",
-        "title": null,
-        "texts": [
-          "作为 CHUNG YIP HOLDING 客户服务的一部分，我们提供多元的售前与售后服务。每一位客户对我们都至关重要，我们始终致力于提供最优质的服务体验。"
-        ],
+        "title": "更多快捷服务",
+        "texts": [],
         "images": [],
         "links": [],
         "items": [],
         "productIds": [],
         "settings": {
-          "traceId": ""
+          "traceId": "buzud-support-quick-title"
         }
       },
       {
-        "type": "pub-visual-navigation",
-        "title": null,
-        "texts": [
-          "健康讲座",
-          "送货服务",
-          "售后服务",
-          "尊享权益"
-        ],
-        "images": [],
-        "links": [],
-        "items": [
-          {
-            "title": "健康讲座",
-            "text": "",
-            "image": "/images/products/buzud-8885020712582.png",
-            "href": "/cn/zh/customer-service/contact-us/",
-            "backgroundColor": null
-          },
-          {
-            "title": "送货服务",
-            "text": "",
-            "image": "/images/products/buzud-8885020711103.png",
-            "href": "/cn/zh/customer-service/services/delivery/",
-            "backgroundColor": null
-          },
-          {
-            "title": "售后服务",
-            "text": "",
-            "image": "/images/products/buzud-8885020711677.png",
-            "href": "/cn/zh/customer-service/services/aftersales/",
-            "backgroundColor": null
-          },
-          {
-            "title": "尊享权益",
-            "text": "",
-            "image": "/images/products/buzud-8885020711448.png",
-            "href": "/cn/zh/customer-service/services/privileges/",
-            "backgroundColor": null
-          }
-        ],
-        "productIds": [],
-        "settings": {
-          "traceId": ""
-        }
-      },
-      {
-        "type": "pub-assurances",
+        "type": "support-quick-services",
         "title": null,
         "texts": [],
         "images": [],
         "links": [],
         "items": [
           {
-            "title": "健康讲座",
-            "text": "定期举办讲座，科普健康管理知识",
-            "image": "/images/products/buzud-8885020712582.png",
-            "href": "/cn/zh/customer-service/contact-us/",
-            "backgroundColor": null
+            "title": "保修注册",
+            "text": "登记产品，享官方质保",
+            "href": "/cn/zh/customer-service/warranty-registration/",
+            "icon": "shield"
+          },
+          {
+            "title": "订单查询",
+            "text": "查看订单与配送状态",
+            "href": "/cn/zh/profile/my-orders/",
+            "icon": "box"
           },
           {
             "title": "送货服务",
-            "text": "本地及国际订单配送",
-            "image": "/images/products/buzud-8885020711103.png",
+            "text": "本地及海外配送",
             "href": "/cn/zh/customer-service/services/delivery/",
-            "backgroundColor": null
+            "icon": "truck"
           },
           {
             "title": "售后服务",
-            "text": "客服咨询、保修、退换货",
-            "image": "/images/products/buzud-8885020711677.png",
+            "text": "维修、换货与退换",
             "href": "/cn/zh/customer-service/services/aftersales/",
-            "backgroundColor": null
+            "icon": "wrench"
           },
           {
             "title": "尊享权益",
-            "text": "银行合作专属优惠与健康体验",
-            "image": "/images/products/buzud-8885020711448.png",
+            "text": "银联卡优惠与健康体验",
             "href": "/cn/zh/customer-service/services/privileges/",
-            "backgroundColor": null
+            "icon": "gift"
+          },
+          {
+            "title": "门店查询",
+            "text": "新加坡三家体验店",
+            "href": "/cn/zh/customer-service/contact-us/#stores",
+            "icon": "store"
+          },
+          {
+            "title": "联系我们",
+            "text": "热线、WhatsApp 与邮件",
+            "href": "/cn/zh/customer-service/contact-us/",
+            "icon": "phone"
+          },
+          {
+            "title": "常见问题",
+            "text": "快速查看 FAQ",
+            "href": "/cn/zh/customer-service/#faq",
+            "icon": "chat"
           }
         ],
         "productIds": [],
         "settings": {
-          "traceId": ""
+          "traceId": "buzud-support-quick"
         }
       },
       {
-        "type": "pub-page-title",
-        "title": null,
-        "texts": [
-          "常见问题"
-        ],
+        "type": "pub-text",
+        "title": "服务保障",
+        "texts": [],
         "images": [],
         "links": [],
         "items": [],
         "productIds": [],
         "settings": {
-          "traceId": ""
+          "traceId": "buzud-support-assurances-title"
         }
       },
       {
-        "type": "pub-expandable-area",
+        "type": "support-assurances",
         "title": null,
+        "texts": [],
+        "images": [],
+        "links": [],
+        "items": [
+          {
+            "title": "正品保障",
+            "text": "BUZUD 官方授权健康产品",
+            "icon": "shield"
+          },
+          {
+            "title": "官方质保",
+            "text": "注册保修即可享质保服务",
+            "icon": "badge"
+          },
+          {
+            "title": "快速响应",
+            "text": "工作日热线与邮件及时回复",
+            "icon": "clock"
+          },
+          {
+            "title": "专业售后",
+            "text": "体验店提供现场即时维修",
+            "icon": "wrench"
+          }
+        ],
+        "productIds": [],
+        "settings": {
+          "traceId": "buzud-support-assurances"
+        }
+      },
+      {
+        "type": "pub-text",
+        "title": "服务指南",
+        "texts": [],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": "buzud-support-guides-title"
+        }
+      },
+      {
+        "type": "pub-page-list",
+        "title": null,
+        "texts": [],
+        "images": [],
+        "links": [],
+        "items": [
+          {
+            "title": "送货服务",
+            "text": "",
+            "image": "/images/products/buzud-8885020711103.png",
+            "href": "/cn/zh/customer-service/services/delivery/"
+          },
+          {
+            "title": "售后服务",
+            "text": "",
+            "image": "/images/products/buzud-8885020711677.png",
+            "href": "/cn/zh/customer-service/services/aftersales/"
+          },
+          {
+            "title": "尊享权益",
+            "text": "",
+            "image": "/images/products/buzud-8885020711448.png",
+            "href": "/cn/zh/customer-service/services/privileges/"
+          }
+        ],
+        "productIds": [],
+        "settings": {
+          "traceId": "buzud-support-guides"
+        }
+      },
+      {
+        "type": "support-faq",
+        "title": "常见问题",
         "texts": [
           "订单多久可以送达？",
           "订单通常会在 3-7 个工作日内送达，本地配送可联系门店客服确认具体时效。",
-          "如何联系 CHUNG YIP HOLDING 客服？",
+          "如何联系 BUZUD 客服？",
           "可拨打 +65 6518 9979 / +65 6518 9269，或发送邮件至 customercare@buzud.com，也可到访新加坡体验门店。",
           "支持退换货吗？",
           "保修期内外均提供维修与换货服务，如遇制造或质量问题，可携带产品与发票到门店处理。",
+          "如何注册产品保修？",
+          "访问保修注册页面，填写产品信息即可完成登记，提交后请妥善保管发票。",
           "如何使用银联卡优惠？",
           "在 CHUNG YIP HOLDING 新加坡体验店使用银联卡支付享全店 88 折；线上支付时输入优惠码 unionvip 即可。",
-          "如何注册产品保修？",
-          "访问保修注册页面，填写产品信息即可完成登记。"
+          "门店提供哪些健康体验？",
+          "可享氧疗焕活、体成分分析、血糖/血脂/尿酸分析与血压检测等服务，欢迎到店预约体验。"
         ],
         "images": [],
         "links": [],
         "items": [],
         "productIds": [],
         "settings": {
-          "traceId": ""
+          "traceId": "buzud-support-faq",
+          "sectionId": "faq",
+          "placeholder": "搜索常见问题，如：保修、配送、退换货"
         }
       },
       {
-        "type": "pub-text",
-        "title": null,
-        "texts": [
-          "如需了解更多，欢迎联系我们。"
-        ],
-        "images": [],
-        "links": [],
-        "items": [],
-        "productIds": [],
-        "settings": {
-          "traceId": ""
-        }
-      },
-      {
-        "type": "pub-button-link",
-        "title": null,
-        "texts": [],
-        "images": [],
+        "type": "support-contact-banner",
+        "title": "获取帮助",
+        "texts": ["客服热线与在线客服将在工作时间内尽快为您解答，欢迎随时联系我们。"],
+        "images": ["/images/cms/buzud-hero-1-wide.jpg"],
         "links": [
           {
             "href": "/cn/zh/customer-service/contact-us/",
             "text": "联系我们"
+          },
+          {
+            "href": "tel:+6565189979",
+            "text": "拨打热线"
           }
         ],
         "items": [],
         "productIds": [],
         "settings": {
-          "traceId": ""
+          "traceId": "buzud-support-contact"
         }
       }
     ]
@@ -203,9 +266,7 @@
       {
         "type": "pub-page-title",
         "title": null,
-        "texts": [
-          "送货服务"
-        ],
+        "texts": ["送货服务"],
         "images": [],
         "links": [],
         "items": [],
@@ -273,9 +334,7 @@
       {
         "type": "pub-text",
         "title": null,
-        "texts": [
-          "需要安排配送？请联系我们的客服团队。"
-        ],
+        "texts": ["需要安排配送？请联系我们的客服团队。"],
         "images": [],
         "links": [],
         "items": [],
@@ -314,9 +373,7 @@
       {
         "type": "pub-page-title",
         "title": null,
-        "texts": [
-          "售后服务"
-        ],
+        "texts": ["售后服务"],
         "images": [],
         "links": [],
         "items": [],
@@ -383,9 +440,7 @@
       {
         "type": "pub-text",
         "title": null,
-        "texts": [
-          "记得在官网完成保修注册，享受官方质保保障。"
-        ],
+        "texts": ["记得在官网完成保修注册，享受官方质保保障。"],
         "images": [],
         "links": [],
         "items": [],
@@ -424,9 +479,7 @@
       {
         "type": "pub-page-title",
         "title": null,
-        "texts": [
-          "尊享权益"
-        ],
+        "texts": ["尊享权益"],
         "images": [],
         "links": [],
         "items": [],
@@ -454,9 +507,7 @@
       {
         "type": "pub-page-title",
         "title": null,
-        "texts": [
-          "健康体验项目"
-        ],
+        "texts": ["健康体验项目"],
         "images": [],
         "links": [],
         "items": [],
@@ -536,9 +587,7 @@
       {
         "type": "corporate-text",
         "title": "快捷联系",
-        "texts": [
-          "选择最适合您的联系方式，我们将在工作时间内尽快回复。"
-        ],
+        "texts": ["选择最适合您的联系方式，我们将在工作时间内尽快回复。"],
         "images": [],
         "links": [],
         "items": [],
@@ -595,9 +644,7 @@
       {
         "type": "corporate-text",
         "title": "门店与体验中心",
-        "texts": [
-          "欢迎到店体验健康检测与产品咨询，三家体验门店均提供专业服务。"
-        ],
+        "texts": ["欢迎到店体验健康检测与产品咨询，三家体验门店均提供专业服务。"],
         "images": [],
         "links": [],
         "items": [],
@@ -647,9 +694,7 @@
       {
         "type": "contact-list",
         "title": "其他联系事项",
-        "texts": [
-          "根据您的需求选择对应的联系渠道，我们承诺对您的咨询严格保密。"
-        ],
+        "texts": ["根据您的需求选择对应的联系渠道，我们承诺对您的咨询严格保密。"],
         "images": [],
         "links": [],
         "items": [
@@ -702,9 +747,7 @@
       {
         "type": "contact-list",
         "title": "更多帮助",
-        "texts": [
-          "以下页面可帮助您快速解决常见问题。"
-        ],
+        "texts": ["以下页面可帮助您快速解决常见问题。"],
         "images": [],
         "links": [],
         "items": [

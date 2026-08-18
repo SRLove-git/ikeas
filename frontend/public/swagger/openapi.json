@@ -2,8 +2,8 @@
   "openapi": "3.0.3",
   "info": {
     "title": "BUZUD 内容页接口（公司介绍 / 组织架构 / 联系我们）",
-    "version": "1.2.0",
-    "description": "公司介绍页、组织架构页与联系我们页（/cn/zh/company、/cn/zh/organization、/cn/zh/customer-service/contact-us/）的内容接口契约，供后端对接。\n\n鉴权说明：管理端接口（/api/admin/**）要求管理端登录会话，登录成功后由服务端写入 HttpOnly Cookie `ikea_admin_session`，请求无需携带 Authorization 头；公共只读接口（/api/v1/pages）无需鉴权。\n\n页面 key 为页面 URL 的 base64url 编码，例如 `/cn/zh/company` 的 key 为 `L2NuL3poL2NvbXBhbnk`；`/cn/zh/customer-service/contact-us/` 的 key 为 `L2NuL3poL2N1c3RvbWVyLXNlcnZpY2UvY29udGFjdC11cy8`。\n\nv1.2.0（联系我们页）变更：PageData 新增 `subtitle` 字段（页面头部 Hero 副标题）；新增区块类型 `contact-channels`（联系渠道/门店图标卡片，items 为 ContactItem，含 `icon`）与 `contact-list`（联系事项列表行，items 为 ContactItem）；新增公共只读接口 GET /api/v1/pages，可通过 `?url=` 按页面地址取单页，供后端直接下发页面内容。"
+    "version": "1.3.0",
+    "description": "公司介绍页、组织架构页与联系我们页（/cn/zh/company、/cn/zh/organization、/cn/zh/customer-service/contact-us/）及客户服务总览页（/cn/zh/customer-service/）的内容接口契约，供后端对接。\n\n鉴权说明：管理端接口（/api/admin/**）要求管理端登录会话，登录成功后由服务端写入 HttpOnly Cookie `ikea_admin_session`，请求无需携带 Authorization 头；公共只读接口（/api/v1/pages）无需鉴权。\n\n页面 key 为页面 URL 的 base64url 编码，例如 `/cn/zh/company` 的 key 为 `L2NuL3poL2NvbXBhbnk`；`/cn/zh/customer-service/` 的 key 为 `L2NuL3poL2N1c3RvbWVyLXNlcnZpY2Uv`。\n\nv1.3.0（客户服务总览页）变更：新增 5 种区块类型 `support-search-hero`（搜索 Hero：texts 第 1 项为眉题、第 2 项为副标题，links 为热门服务标签，settings.placeholder 为搜索占位文案）、`support-quick-services`（快捷服务图标卡片，items 为 { title, text, href, icon }）、`support-assurances`（服务保障图标卡，items 为 { title, text, icon }）、`support-faq`（可搜索问答折叠区，texts 按「问题、答案」成对排列，settings.sectionId=faq 供锚点定位）、`support-contact-banner`（获取帮助横幅，images 为背景图、links 为按钮）；ContactItem/图标枚举新增 shield、wrench、box、truck、gift、clock、badge。首页数据变更：heroSlides 轮播数组已改为 heroVideo 单视频对象（video/poster/href/alt），影响 GET /api/v1/homepage 与 /api/v1/homepage/{section} 的返回结构。\n\nv1.2.0（联系我们页）变更：PageData 新增 `subtitle` 字段（页面头部 Hero 副标题）；新增区块类型 `contact-channels`（联系渠道/门店图标卡片，items 为 ContactItem，含 `icon`）与 `contact-list`（联系事项列表行，items 为 ContactItem）；新增公共只读接口 GET /api/v1/pages，可通过 `?url=` 按页面地址取单页，供后端直接下发页面内容。"
   },
   "servers": [
     {
@@ -19,6 +19,10 @@
     {
       "name": "内容页公共读取",
       "description": "后端内容页只读接口（PageController），供对外下发页面内容"
+    },
+    {
+      "name": "首页接口",
+      "description": "首页数据只读接口（HomepageController），heroSlides 已改为 heroVideo"
     }
   ],
   "paths": {
@@ -153,6 +157,132 @@
                         }
                       ]
                     }
+                  },
+                  "customerService": {
+                    "summary": "客户服务总览页（/cn/zh/customer-service/）",
+                    "value": {
+                      "url": "/cn/zh/customer-service/",
+                      "family": "customer-service",
+                      "id": "cn--zh--buzud-customer-service",
+                      "title": "客户服务",
+                      "name": "客户服务",
+                      "hero": null,
+                      "blocks": [
+                        {
+                          "type": "support-search-hero",
+                          "title": "如何帮助您？",
+                          "texts": [
+                            "BUZUD 客户服务",
+                            "提供配送、售后、保修与健康体验等一站式支持，热门问题可在下方直接搜索。"
+                          ],
+                          "images": [],
+                          "links": [
+                            {
+                              "href": "/cn/zh/customer-service/warranty-registration/",
+                              "text": "保修注册"
+                            },
+                            {
+                              "href": "/cn/zh/customer-service/services/delivery/",
+                              "text": "送货服务"
+                            },
+                            {
+                              "href": "/cn/zh/customer-service/services/aftersales/",
+                              "text": "售后服务"
+                            },
+                            {
+                              "href": "/cn/zh/customer-service/services/privileges/",
+                              "text": "尊享权益"
+                            },
+                            {
+                              "href": "/cn/zh/customer-service/contact-us/#stores",
+                              "text": "门店查询"
+                            }
+                          ],
+                          "items": [],
+                          "productIds": [],
+                          "settings": {
+                            "traceId": "buzud-support-hero",
+                            "placeholder": "搜索常见问题，如：保修、配送、退换货"
+                          }
+                        },
+                        {
+                          "type": "support-quick-services",
+                          "title": null,
+                          "texts": [],
+                          "images": [],
+                          "links": [],
+                          "items": [
+                            {
+                              "title": "保修注册",
+                              "text": "登记产品，享官方质保",
+                              "href": "/cn/zh/customer-service/warranty-registration/",
+                              "icon": "shield"
+                            },
+                            {
+                              "title": "订单查询",
+                              "text": "查看订单与配送状态",
+                              "href": "/cn/zh/profile/my-orders/",
+                              "icon": "box"
+                            }
+                          ],
+                          "productIds": [],
+                          "settings": { "traceId": "buzud-support-quick" }
+                        },
+                        {
+                          "type": "support-assurances",
+                          "title": null,
+                          "texts": [],
+                          "images": [],
+                          "links": [],
+                          "items": [
+                            {
+                              "title": "正品保障",
+                              "text": "BUZUD 官方授权健康产品",
+                              "icon": "shield"
+                            },
+                            {
+                              "title": "官方质保",
+                              "text": "注册保修即可享质保服务",
+                              "icon": "badge"
+                            }
+                          ],
+                          "productIds": [],
+                          "settings": { "traceId": "buzud-support-assurances" }
+                        },
+                        {
+                          "type": "support-faq",
+                          "title": "常见问题",
+                          "texts": [
+                            "订单多久可以送达？",
+                            "订单通常会在 3-7 个工作日内送达，本地配送可联系门店客服确认具体时效。"
+                          ],
+                          "images": [],
+                          "links": [],
+                          "items": [],
+                          "productIds": [],
+                          "settings": {
+                            "traceId": "buzud-support-faq",
+                            "sectionId": "faq",
+                            "placeholder": "搜索常见问题，如：保修、配送、退换货"
+                          }
+                        },
+                        {
+                          "type": "support-contact-banner",
+                          "title": "获取帮助",
+                          "texts": [
+                            "客服热线与在线客服将在工作时间内尽快为您解答，欢迎随时联系我们。"
+                          ],
+                          "images": ["/images/cms/buzud-hero-1-wide.jpg"],
+                          "links": [
+                            { "href": "/cn/zh/customer-service/contact-us/", "text": "联系我们" },
+                            { "href": "tel:+6565189979", "text": "拨打热线" }
+                          ],
+                          "items": [],
+                          "productIds": [],
+                          "settings": { "traceId": "buzud-support-contact" }
+                        }
+                      ]
+                    }
                   }
                 }
               }
@@ -160,6 +290,60 @@
           },
           "404": {
             "description": "页面不存在（url 未匹配）",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/ApiError" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/homepage": {
+      "get": {
+        "tags": ["首页接口"],
+        "summary": "获取首页完整数据（首屏视频 heroVideo 等全部区块）",
+        "responses": {
+          "200": {
+            "description": "首页数据对象",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/HomepageData" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/homepage/{section}": {
+      "get": {
+        "tags": ["首页接口"],
+        "summary": "获取首页指定区块",
+        "parameters": [
+          {
+            "name": "section",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "string" },
+            "description": "区块名，例如 heroVideo、navMenuItems、promoCardItems、serviceColumns"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "区块数据（JSON）",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "oneOf": [
+                    { "$ref": "#/components/schemas/HeroVideo" },
+                    { "type": "object", "additionalProperties": true }
+                  ]
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "区块不存在",
             "content": {
               "application/json": {
                 "schema": { "$ref": "#/components/schemas/ApiError" }
@@ -370,7 +554,7 @@
         "properties": {
           "type": {
             "type": "string",
-            "description": "区块类型：pub-text、corporate-hero、corporate-about、corporate-stats、corporate-timeline、corporate-policy、corporate-pic-text（图文版式：图片 + 治理文字 + 展开/收起）、corporate-team-tabs（成员分栏页签）、corporate-team（成员卡片网格）、contact-channels（联系渠道/门店图标卡片，items 为 ContactItem）、contact-list（联系事项列表行，items 为 ContactItem）、pub-expandable-area（问答折叠区，texts 按「问题、答案」成对排列）"
+            "description": "区块类型：pub-text、corporate-hero、corporate-about、corporate-stats、corporate-timeline、corporate-policy、corporate-pic-text（图文版式：图片 + 治理文字 + 展开/收起）、corporate-team-tabs（成员分栏页签）、corporate-team（成员卡片网格）、contact-channels（联系渠道/门店图标卡片，items 为 ContactItem）、contact-list（联系事项列表行，items 为 ContactItem）、pub-expandable-area（问答折叠区，texts 按「问题、答案」成对排列）、support-search-hero（客户服务搜索 Hero：texts 第 1 项眉题、第 2 项副标题，links 热门服务标签，settings.placeholder 搜索占位）、support-quick-services（快捷服务图标卡片，items 为 { title, text, href, icon }）、support-assurances（服务保障图标卡，items 为 { title, text, icon }）、support-faq（可搜索问答折叠区，texts 按「问题、答案」成对排列，settings.sectionId=faq 供锚点定位）、support-contact-banner（获取帮助横幅：images 背景图，links 按钮）"
           },
           "title": { "type": ["string", "null"] },
           "texts": { "type": "array", "items": { "type": "string" } },
@@ -387,7 +571,7 @@
           },
           "items": {
             "type": "array",
-            "description": "items 结构随区块类型变化：corporate-team-tabs 为 TeamGroup 数组（含嵌套 members）；corporate-team 为成员卡片数组 { title=姓名, text=职务, image, href }；corporate-stats 为 { value, label }；contact-channels / contact-list 为 ContactItem 数组 { title, text, href, icon, image, backgroundColor }。",
+            "description": "items 结构随区块类型变化：corporate-team-tabs 为 TeamGroup 数组（含嵌套 members）；corporate-team 为成员卡片数组 { title=姓名, text=职务, image, href }；corporate-stats 为 { value, label }；contact-channels / contact-list 为 ContactItem 数组 { title, text, href, icon, image, backgroundColor }；support-quick-services 为 { title, text, href, icon }（icon 取值见 ContactItem.icon 枚举）；support-assurances 为 { title, text, icon }。",
             "items": {
               "type": "object",
               "additionalProperties": true
@@ -534,10 +718,70 @@
           },
           "icon": {
             "type": ["string", "null"],
-            "enum": ["phone", "email", "chat", "store", "feedback", "partner", "careers", "report", "fax", "document"],
-            "description": "渠道图标；省略时前端回退默认图标"
+            "enum": [
+              "phone",
+              "email",
+              "chat",
+              "store",
+              "feedback",
+              "partner",
+              "careers",
+              "report",
+              "fax",
+              "document",
+              "shield",
+              "wrench",
+              "box",
+              "truck",
+              "gift",
+              "clock",
+              "badge"
+            ],
+            "description": "渠道/服务图标；省略时前端回退默认图标。shield=保修/正品，wrench=售后维修，box=订单，truck=配送，gift=权益，clock=时效，badge=质保"
           },
           "backgroundColor": { "type": ["string", "null"] }
+        }
+      },
+      "HeroVideo": {
+        "type": "object",
+        "required": ["poster"],
+        "description": "首页首屏视频配置（heroVideo，原 heroSlides 轮播数组已移除）。video 为空/null 时前端展示「宣传视频即将上线」占位。",
+        "properties": {
+          "video": {
+            "type": ["string", "null"],
+            "description": "MP4 地址（如 /videos/buzud-home-1.mp4）；为空时展示占位",
+            "example": "/videos/buzud-home-1.mp4"
+          },
+          "poster": {
+            "type": "string",
+            "description": "封面图片，视频加载前或未配置视频时的兜底图",
+            "example": "/images/cms/buzud-home-1.png"
+          },
+          "href": { "type": ["string", "null"], "description": "首屏可点击跳转链接" },
+          "alt": { "type": ["string", "null"], "description": "替代文本/视频说明" }
+        }
+      },
+      "HomepageData": {
+        "type": "object",
+        "description": "首页完整数据对象（HomepageController 返回）。v1.3.0 起 heroSlides 轮播数组替换为 heroVideo 单视频对象。",
+        "properties": {
+          "heroVideo": { "$ref": "#/components/schemas/HeroVideo" },
+          "noticeMessages": {
+            "type": "array",
+            "items": { "type": "object", "additionalProperties": true }
+          },
+          "navMenuItems": {
+            "type": "array",
+            "items": { "type": "object", "additionalProperties": true }
+          },
+          "promoCardItems": {
+            "type": "array",
+            "items": { "type": "object", "additionalProperties": true }
+          },
+          "serviceColumns": {
+            "type": "array",
+            "items": { "type": "object", "additionalProperties": true }
+          }
         }
       }
     }

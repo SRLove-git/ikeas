@@ -2,7 +2,7 @@ import { Footer } from "@/components/Footer"
 import { FloatingWidgets } from "@/components/FloatingWidgets"
 import { CartDrawer } from "@/components/CartDrawer"
 import { Header } from "@/components/Header"
-import { HeroCarousel } from "@/components/HeroCarousel"
+import { HeroVideo } from "@/components/HeroVideo"
 import { InspirationTipsCard } from "@/components/InspirationTipsCard"
 import { NoticeBar } from "@/components/NoticeBar"
 import { ProductNotices } from "@/components/ProductNotices"
@@ -19,7 +19,7 @@ export default function Home() {
     assurances,
     footerFeaturedCards,
     footerLinkGroups,
-    heroSlides,
+    heroVideo,
     inspirationTipsCta,
     inspirationTipsItems,
     legalBar,
@@ -47,7 +47,12 @@ export default function Home() {
             categories={getMenuCategories()}
           />
           <div className="i-layout__body">
-            <HeroCarousel slides={heroSlides} />
+            <HeroVideo
+              video={heroVideo.video}
+              poster={heroVideo.poster}
+              href={heroVideo.href}
+              alt={heroVideo.alt}
+            />
             <div className="clearfix min-h-screen px-0 m-auto mb-8 space-y-8 text-left lg:mb-12 lg:space-y-12 max-w-page">
               <PromoInspirationCard title="CHUNG YIP HOLDING 精选" items={promoCardItems} />
               <ServiceColumns columns={serviceColumns} />

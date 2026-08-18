@@ -4,12 +4,19 @@ import type { ContentBlock, ContentBlockItem } from "@/data/pages-types"
 import { CorporatePicText } from "@/components/CorporatePicText"
 import { CorporateTeamTabs } from "@/components/CorporateTeamTabs"
 import { SiteImage } from "@/components/SiteImage"
+import { SupportFaq } from "@/components/support/SupportFaq"
+import {
+  ContactBannerBlock,
+  QuickServicesBlock,
+  SupportAssurancesBlock,
+} from "@/components/support/SupportBlocks"
+import { SupportSearchHero } from "@/components/support/SupportSearchHero"
 
 function isInternal(href: string) {
   return href.startsWith("/")
 }
 
-function BlockLink({
+export function BlockLink({
   href,
   children,
   className,
@@ -1381,10 +1388,46 @@ export function ContentBlocks({ blocks }: { blocks: ContentBlock[] }) {
       rawText: item.text,
     })),
   }))
+  const supportFaqTexts =
+    cleanedBlocks.find(
+      (block) => block.type === "support-faq" || block.type === "pub-expandable-area",
+    )?.texts ?? []
+  const blockSetting = (block: ContentBlock, key: string): string => {
+    const value = block.settings?.[key]
+    return typeof value === "string" ? value.trim() : ""
+  }
   return (
     <div className="space-y-10">
       {cleanedBlocks.map((block, i) => {
         switch (block.type) {
+          case "support-search-hero":
+            return (
+              <SupportSearchHero
+                key={i}
+                title={block.title}
+                eyebrow={block.texts[0] ?? null}
+                subtitle={block.texts[1] ?? null}
+                hotLinks={block.links}
+                placeholder={blockSetting(block, "placeholder") || undefined}
+                faqTexts={supportFaqTexts}
+              />
+            )
+          case "support-quick-services":
+            return <QuickServicesBlock key={i} block={block} />
+          case "support-assurances":
+            return <SupportAssurancesBlock key={i} block={block} />
+          case "support-faq":
+            return (
+              <SupportFaq
+                key={i}
+                title={block.title}
+                texts={block.texts}
+                placeholder={blockSetting(block, "placeholder") || undefined}
+                sectionId={blockSetting(block, "sectionId") || undefined}
+              />
+            )
+          case "support-contact-banner":
+            return <ContactBannerBlock key={i} block={block} />
           case "pub-hero":
           case "pub-standardised-hero":
             return <HeroBlock key={i} block={block} />

@@ -5,53 +5,53 @@
 import type {
   AssuranceItem,
   FooterLinkGroup,
-  HeroSlide,
+  HeroVideo,
   NoticeArticle,
   PillSliderItem,
   PromoTile,
   RankingCategory,
   ServiceColumnCard,
-} from "@/types";
-import { loadDataJson } from "@/lib/data-files";
+} from "@/types"
+import { loadDataJson } from "@/lib/data-files"
 
 export interface FeedProduct {
-  productId?: string;
-  left: string;
-  top: string;
-  href?: string;
-  tooltipPosition?: string;
-  title?: string;
-  desc?: string;
-  price?: string;
-  tags: string[];
-  tagStyle?: string;
-  image?: string;
+  productId?: string
+  left: string
+  top: string
+  href?: string
+  tooltipPosition?: string
+  title?: string
+  desc?: string
+  price?: string
+  tags: string[]
+  tagStyle?: string
+  image?: string
 }
 
 export interface HomepageData {
-  noticeMessages: { text: string; href: string }[];
-  searchHints: string[];
-  navMenuItems: { label: string; href: string; hasMegaMenu?: boolean }[];
-  megaMenuCategories: { name: string; subCategories: string[] }[];
-  heroSlides: HeroSlide[];
-  promoCardItems: PromoTile[];
-  inspirationTipsItems: PromoTile[];
-  inspirationTipsCta?: { label: string; href: string };
-  serviceColumns: ServiceColumnCard[];
-  rankingSections: RankingCategory[];
-  roomPillItems: PillSliderItem[];
-  roomPillCta: { label: string; href: string; color: string; textColor: string };
-  sustainabilityPillItems: PillSliderItem[];
-  sustainabilityPillCta: { label: string; href: string; color: string; textColor: string };
-  feedProducts: Record<string, FeedProduct[]>;
-  assurances: AssuranceItem[];
-  recallNotices: (NoticeArticle & { image: string })[];
-  footerLinkGroups: FooterLinkGroup[];
-  footerFeaturedCards: { title: string; description: string; ctaLabel: string; href: string }[];
-  socialIcons: { name: string; src: string }[];
-  legalBar: { edition: string; links: { label: string; href: string }[] };
+  noticeMessages: { text: string; href: string }[]
+  searchHints: string[]
+  navMenuItems: { label: string; href: string; hasMegaMenu?: boolean }[]
+  megaMenuCategories: { name: string; subCategories: string[] }[]
+  heroVideo: HeroVideo
+  promoCardItems: PromoTile[]
+  inspirationTipsItems: PromoTile[]
+  inspirationTipsCta?: { label: string; href: string }
+  serviceColumns: ServiceColumnCard[]
+  rankingSections: RankingCategory[]
+  roomPillItems: PillSliderItem[]
+  roomPillCta: { label: string; href: string; color: string; textColor: string }
+  sustainabilityPillItems: PillSliderItem[]
+  sustainabilityPillCta: { label: string; href: string; color: string; textColor: string }
+  feedProducts: Record<string, FeedProduct[]>
+  assurances: AssuranceItem[]
+  recallNotices: (NoticeArticle & { image: string })[]
+  footerLinkGroups: FooterLinkGroup[]
+  footerFeaturedCards: { title: string; description: string; ctaLabel: string; href: string }[]
+  socialIcons: { name: string; src: string }[]
+  legalBar: { edition: string; links: { label: string; href: string }[] }
 }
 
 export function homepage(): HomepageData {
-  return loadDataJson<HomepageData>("homepage.json");
+  return loadDataJson<HomepageData>("homepage.json")
 }

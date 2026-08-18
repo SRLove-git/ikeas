@@ -1,6 +1,6 @@
-"use client";
+"use client"
 
-import { useEffect, useState } from "react";
+import { useEffect, useState } from "react"
 import {
   adminFetch,
   Button,
@@ -13,29 +13,29 @@ import {
   StringListEditor,
   cn,
   useNotice,
-} from "@/components/admin/admin-ui";
+} from "@/components/admin/admin-ui"
 import {
   FeedProductsEditor,
   SchemaListForm,
   SchemaObjectForm,
   type Schema,
-} from "@/components/admin/HomepageForms";
+} from "@/components/admin/HomepageForms"
 
 type SectionSchema =
   | { kind: "strings" }
   | { kind: "object"; schema: Schema }
   | {
-      kind: "objects";
-      schema: Schema;
-      labelKey?: string;
-      newItem?: () => Record<string, unknown>;
+      kind: "objects"
+      schema: Schema
+      labelKey?: string
+      newItem?: () => Record<string, unknown>
     }
-  | { kind: "feed" };
+  | { kind: "feed" }
 
 interface SectionConfig {
-  key: string;
-  label: string;
-  description: string;
+  key: string
+  label: string
+  description: string
 }
 
 const SECTIONS: SectionConfig[] = [
@@ -43,7 +43,11 @@ const SECTIONS: SectionConfig[] = [
   { key: "searchHints", label: "搜索提示词", description: "搜索框滚动提示" },
   { key: "navMenuItems", label: "主导航", description: "顶部一级菜单项" },
   { key: "megaMenuCategories", label: "Mega 菜单分类", description: "所有商品下拉菜单分类" },
-  { key: "heroSlides", label: "Hero 轮播", description: "首页首屏大图轮播" },
+  {
+    key: "heroVideo",
+    label: "首屏视频",
+    description: "首页首屏自动播放宣传视频，未配置时展示占位",
+  },
   { key: "promoCardItems", label: "必逛好物", description: "促销推荐卡片" },
   { key: "inspirationTipsItems", label: "布置小贴士", description: "家居灵感提示卡片" },
   { key: "serviceColumns", label: "服务栏目", description: "服务介绍卡片" },
@@ -59,21 +63,14 @@ const SECTIONS: SectionConfig[] = [
   { key: "footerFeaturedCards", label: "页脚特色卡片", description: "页脚会员推广卡片" },
   { key: "socialIcons", label: "社交图标", description: "页脚社交图标" },
   { key: "legalBar", label: "版权与法律链接", description: "页脚版权与备案" },
-];
+]
 
 const LINK_SCHEMA: Schema = {
   fields: [
     { key: "label", label: "文字", kind: { type: "text" } },
     { key: "href", label: "链接", kind: { type: "text" } },
   ],
-};
-
-const CTA_SCHEMA: Schema = {
-  fields: [
-    { key: "label", label: "按钮文字", kind: { type: "text" } },
-    { key: "href", label: "链接", kind: { type: "text" } },
-  ],
-};
+}
 
 const PILL_SCHEMA: Schema = {
   fields: [
@@ -81,7 +78,7 @@ const PILL_SCHEMA: Schema = {
     { key: "image", label: "图片", kind: { type: "text" } },
     { key: "href", label: "链接", kind: { type: "text" } },
   ],
-};
+}
 
 const PILL_CTA_SCHEMA: Schema = {
   fields: [
@@ -90,7 +87,7 @@ const PILL_CTA_SCHEMA: Schema = {
     { key: "color", label: "背景色", kind: { type: "text" } },
     { key: "textColor", label: "文字颜色", kind: { type: "text" } },
   ],
-};
+}
 
 const RANKING_PRODUCT_SCHEMA: Schema = {
   fields: [
@@ -102,7 +99,7 @@ const RANKING_PRODUCT_SCHEMA: Schema = {
     { key: "badge", label: "角标", kind: { type: "text" } },
     { key: "href", label: "链接", kind: { type: "text" } },
   ],
-};
+}
 
 const SCHEMAS: Record<string, SectionSchema> = {
   noticeMessages: {
@@ -141,18 +138,19 @@ const SCHEMAS: Record<string, SectionSchema> = {
       ],
     },
   },
-  heroSlides: {
-    kind: "objects",
-    labelKey: "title",
+  heroVideo: {
+    kind: "object",
     schema: {
       fields: [
-        { key: "id", label: "ID", kind: { type: "text" } },
-        { key: "image", label: "图片", kind: { type: "text" } },
-        { key: "imageAlt", label: "图片替代文本", kind: { type: "text" } },
-        { key: "title", label: "标题", kind: { type: "text" } },
-        { key: "subtitle", label: "副标题", kind: { type: "text" } },
+        {
+          key: "video",
+          label: "视频（自动播放）",
+          kind: { type: "text" },
+          hint: "MP4 地址，留空时展示占位，如 /videos/buzud-home-1.mp4",
+        },
+        { key: "poster", label: "封面图片", kind: { type: "text" } },
         { key: "href", label: "链接", kind: { type: "text" } },
-        { key: "cta", label: "按钮", kind: { type: "object", schema: CTA_SCHEMA } },
+        { key: "alt", label: "替代文本", kind: { type: "text" } },
       ],
     },
   },
@@ -332,58 +330,58 @@ const SCHEMAS: Record<string, SectionSchema> = {
       ],
     },
   },
-};
+}
 
 export default function HomepageEditorPage() {
-  const { notice, show } = useNotice();
-  const [data, setData] = useState<Record<string, unknown> | null>(null);
-  const [selected, setSelected] = useState<string>(SECTIONS[0].key);
-  const [jsonMode, setJsonMode] = useState<Record<string, boolean>>({});
-  const [saving, setSaving] = useState(false);
+  const { notice, show } = useNotice()
+  const [data, setData] = useState<Record<string, unknown> | null>(null)
+  const [selected, setSelected] = useState<string>(SECTIONS[0].key)
+  const [jsonMode, setJsonMode] = useState<Record<string, boolean>>({})
+  const [saving, setSaving] = useState(false)
 
   useEffect(() => {
     void (async () => {
       try {
-        const homepage = await adminFetch<Record<string, unknown>>("/api/admin/homepage");
-        setData(homepage);
+        const homepage = await adminFetch<Record<string, unknown>>("/api/admin/homepage")
+        setData(homepage)
       } catch (e) {
-        show("error", (e as Error).message);
+        show("error", (e as Error).message)
       }
-    })();
-  }, [show]);
+    })()
+  }, [show])
 
-  if (!data) return <Loading />;
+  if (!data) return <Loading />
 
-  const config = SECTIONS.find((section) => section.key === selected)!;
-  const schema = SCHEMAS[selected];
-  const value = data[selected];
-  const useJson = jsonMode[selected] ?? false;
+  const config = SECTIONS.find((section) => section.key === selected)!
+  const schema = SCHEMAS[selected]
+  const value = data[selected]
+  const useJson = jsonMode[selected] ?? false
 
   const updateValue = (next: unknown) => {
-    setData((current) => (current ? { ...current, [selected]: next } : current));
-  };
+    setData((current) => (current ? { ...current, [selected]: next } : current))
+  }
 
   const save = async () => {
-    setSaving(true);
+    setSaving(true)
     try {
       await adminFetch("/api/admin/homepage", {
         method: "PUT",
         body: JSON.stringify({ updates: { [selected]: data[selected] } }),
-      });
-      show("success", `「${config.label}」已保存，首页立即生效`);
+      })
+      show("success", `「${config.label}」已保存，首页立即生效`)
     } catch (e) {
-      show("error", (e as Error).message);
+      show("error", (e as Error).message)
     } finally {
-      setSaving(false);
+      setSaving(false)
     }
-  };
+  }
 
   const renderBody = () => {
     if (useJson) {
-      return <JsonEditor value={value} onChange={updateValue} rows={16} />;
+      return <JsonEditor value={value} onChange={updateValue} rows={16} />
     }
     if (schema.kind === "strings" && Array.isArray(value)) {
-      return <StringListEditor value={value as string[]} onChange={updateValue} />;
+      return <StringListEditor value={value as string[]} onChange={updateValue} />
     }
     if (schema.kind === "object") {
       return (
@@ -396,7 +394,7 @@ export default function HomepageEditorPage() {
           schema={schema.schema}
           onChange={updateValue}
         />
-      );
+      )
     }
     if (schema.kind === "objects") {
       return (
@@ -407,10 +405,10 @@ export default function HomepageEditorPage() {
           labelKey={schema.labelKey}
           newItem={schema.newItem}
         />
-      );
+      )
     }
-    return <FeedProductsEditor value={value} onChange={updateValue} />;
-  };
+    return <FeedProductsEditor value={value} onChange={updateValue} />
+  }
 
   return (
     <div>
@@ -475,5 +473,5 @@ export default function HomepageEditorPage() {
         </Card>
       </div>
     </div>
-  );
+  )
 }

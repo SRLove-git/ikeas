@@ -1,0 +1,49 @@
+import Link from "next/link"
+
+interface HeroVideoProps {
+  video?: string | null
+  poster?: string | null
+  href?: string | null
+  alt?: string | null
+}
+
+export function HeroVideo({ video, poster, href, alt }: HeroVideoProps) {
+  const media = video ? (
+    <video
+      className="product"
+      src={video}
+      poster={poster ?? undefined}
+      muted
+      autoPlay
+      loop
+      playsInline
+      preload="metadata"
+      aria-label={alt ?? "BUZUD 宣传视频"}
+    />
+  ) : (
+    <div className="flex h-full w-full flex-col items-center justify-center gap-5 bg-ikea-blue text-white">
+      <span className="flex h-20 w-20 items-center justify-center rounded-full bg-white/15 ring-1 ring-white/30">
+        <svg viewBox="0 0 24 24" fill="currentColor" className="ml-1 h-9 w-9" aria-hidden="true">
+          <path d="M8 5v14l11-7z" />
+        </svg>
+      </span>
+      <p className="text-sm font-bold tracking-[0.3em]">宣传视频即将上线</p>
+    </div>
+  )
+
+  return (
+    <section className="prod-intro">
+      <div className="prod-products">
+        <div className="prod active">
+          {href ? (
+            <Link href={href} className="block h-full w-full" aria-label={alt ?? "BUZUD 宣传视频"}>
+              {media}
+            </Link>
+          ) : (
+            media
+          )}
+        </div>
+      </div>
+    </section>
+  )
+}
