@@ -1,0 +1,369 @@
+[
+  {
+    "url": "/cn/zh/company",
+    "family": "company",
+    "id": "cn--zh--buzud-company",
+    "title": "公司介绍",
+    "name": "CHUNG YIP HOLDING 公司介绍",
+    "hero": null,
+    "blocks": [
+      {
+        "type": "corporate-hero",
+        "title": "让健康管理融入每个家庭",
+        "texts": ["CHUNG YIP HOLDING 的愿景与使命（内容待补充）"],
+        "images": ["/images/cms/buzud-hero-1-wide.jpg"],
+        "links": [
+          {
+            "href": "/cn/zh/all-products/",
+            "text": "了解 BUZUD 健康产品"
+          }
+        ],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
+        }
+      },
+      {
+        "type": "corporate-about",
+        "title": "公司简介",
+        "texts": [
+          "CHUNG YIP HOLDING 是新加坡本土医疗设备与健康管理企业，旗下运营 BUZUD 系列健康产品，专注家庭健康自测与监测领域（简介内容待补充）。",
+          "更多公司信息、发展背景与业务介绍将在后续更新。"
+        ],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": "",
+          "videoSrc": "",
+          "videoPoster": ""
+        }
+      },
+      {
+        "type": "corporate-stats",
+        "title": "研究与创新",
+        "texts": [
+          "面向健康未来，我们将持续投入产品研发与技术创新，坚持以顾客需求为导向，不断提升产品的专业性与可靠性（内容待补充）。"
+        ],
+        "images": [],
+        "links": [
+          {
+            "href": "/cn/zh/all-products/",
+            "text": "了解更多"
+          }
+        ],
+        "items": [
+          {
+            "value": "—",
+            "label": "研发投入占比（数据待补充）"
+          },
+          {
+            "value": "—",
+            "label": "累计研发投入（数据待补充）"
+          },
+          {
+            "value": "—",
+            "label": "研发人员占比（数据待补充）"
+          },
+          {
+            "value": "—",
+            "label": "授权专利数量（数据待补充）"
+          }
+        ],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
+        }
+      },
+      {
+        "type": "corporate-text",
+        "title": "开放、合作、共赢",
+        "texts": ["我们期待与行业伙伴、医疗机构与社区共同推动健康产业发展（内容待补充）。"],
+        "images": [],
+        "links": [
+          {
+            "href": "/cn/zh/customer-service/contact-us/",
+            "text": "了解更多"
+          }
+        ],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
+        }
+      },
+      {
+        "type": "corporate-timeline",
+        "title": "发展历程",
+        "texts": [],
+        "images": [],
+        "links": [],
+        "items": [
+          {
+            "year": "2026",
+            "title": "品牌发展",
+            "text": "里程碑内容待补充。"
+          },
+          {
+            "year": "2025",
+            "title": "品牌发展",
+            "text": "里程碑内容待补充。"
+          },
+          {
+            "year": "2024",
+            "title": "品牌发展",
+            "text": "里程碑内容待补充。"
+          }
+        ],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
+        }
+      },
+      {
+        "type": "corporate-policy",
+        "title": "质量与服务承诺",
+        "texts": [
+          "正品保障：所有产品均为新加坡官方认证医疗设备（内容待补充）。",
+          "专业服务：提供售前咨询、体验检测与售后服务（内容待补充）。",
+          "持续改进：不断优化产品与顾客服务体验（内容待补充）。"
+        ],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
+        }
+      },
+      {
+        "type": "pub-button-link",
+        "title": null,
+        "texts": [],
+        "images": [],
+        "links": [
+          {
+            "href": "/cn/zh/customer-service/contact-us/",
+            "text": "联系我们"
+          }
+        ],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": "buzud-company-cta"
+        }
+      }
+    ]
+  },
+  {
+    "url": "/cn/zh/organization",
+    "family": "company",
+    "id": "cn--zh--buzud-organization",
+    "title": "组织架构",
+    "name": "CHUNG YIP HOLDING 组织架构",
+    "hero": null,
+    "blocks": [
+      {
+        "type": "corporate-pic-text",
+        "title": "组织架构",
+        "texts": [
+          "股东会是公司权力机构，对公司增资、利润分配、董事选举等重大事项作出决策。",
+          "董事会是公司战略与经营管理的最高责任机构，承担带领公司前进的使命，维护股东与顾客利益。",
+          "监事会是公司的监督机构，对董事与高级管理人员进行监督与评价，维护公司与股东利益。",
+          "管理团队由各职能负责人组成，负责日常经营、产品研发、门店与线上业务的落地执行。"
+        ],
+        "images": ["/images/cms/buzud-hero-1-wide.jpg"],
+        "links": [
+          {
+            "href": "/cn/zh/company",
+            "text": "了解公司治理架构"
+          }
+        ],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": "buzud-organization-pic-text"
+        }
+      },
+      {
+        "type": "corporate-team-tabs",
+        "title": null,
+        "texts": [],
+        "images": [],
+        "links": [],
+        "items": [
+          {
+            "id": "board-of-directors",
+            "title": "董事会",
+            "description": "负责公司战略决策与整体经营方向（成员信息待定）。",
+            "members": [
+              {
+                "name": "姓名待定",
+                "position": "董事长",
+                "image": null,
+                "href": null
+              },
+              {
+                "name": "姓名待定",
+                "position": "副董事长",
+                "image": null,
+                "href": null
+              },
+              {
+                "name": "姓名待定",
+                "position": "董事",
+                "image": null,
+                "href": null
+              },
+              {
+                "name": "姓名待定",
+                "position": "董事",
+                "image": null,
+                "href": null
+              }
+            ]
+          },
+          {
+            "id": "supervisory-board",
+            "title": "监事会",
+            "description": "负责监督公司经营与管理人员履职情况（成员信息待定）。",
+            "members": [
+              {
+                "name": "姓名待定",
+                "position": "监事长",
+                "image": null,
+                "href": null
+              },
+              {
+                "name": "姓名待定",
+                "position": "监事",
+                "image": null,
+                "href": null
+              },
+              {
+                "name": "姓名待定",
+                "position": "监事",
+                "image": null,
+                "href": null
+              }
+            ]
+          },
+          {
+            "id": "management-team",
+            "title": "管理团队",
+            "description": "负责公司日常经营与各业务单元的落地执行（成员信息待定）。",
+            "members": [
+              {
+                "name": "姓名待定",
+                "position": "首席执行官",
+                "image": null,
+                "href": null
+              },
+              {
+                "name": "姓名待定",
+                "position": "首席运营官",
+                "image": null,
+                "href": null
+              },
+              {
+                "name": "姓名待定",
+                "position": "首席财务官",
+                "image": null,
+                "href": null
+              },
+              {
+                "name": "姓名待定",
+                "position": "产品与供应链总监",
+                "image": null,
+                "href": null
+              },
+              {
+                "name": "姓名待定",
+                "position": "市场与品牌总监",
+                "image": null,
+                "href": null
+              },
+              {
+                "name": "姓名待定",
+                "position": "门店运营总监",
+                "image": null,
+                "href": null
+              },
+              {
+                "name": "姓名待定",
+                "position": "客户服务总监",
+                "image": null,
+                "href": null
+              },
+              {
+                "name": "姓名待定",
+                "position": "电商运营总监",
+                "image": null,
+                "href": null
+              }
+            ]
+          }
+        ],
+        "productIds": [],
+        "settings": {
+          "traceId": "buzud-organization-teams"
+        }
+      },
+      {
+        "type": "corporate-text",
+        "title": "业务部门",
+        "texts": ["围绕 BUZUD 品牌建立四大业务单元，协同服务顾客。"],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
+        }
+      },
+      {
+        "type": "pub-assurances",
+        "title": null,
+        "texts": [],
+        "images": [],
+        "links": [],
+        "items": [
+          {
+            "title": "品牌与运营",
+            "text": "负责 BUZUD 产品线规划与整体运营",
+            "image": "/images/products/buzud-8885020712582.png",
+            "href": "/cn/zh/company",
+            "backgroundColor": null
+          },
+          {
+            "title": "新加坡体验门店",
+            "text": "Raffles Hospital、Novena Square 2、PARKROYAL on Beach Road",
+            "image": "/images/products/buzud-8885020710151.png",
+            "href": "/cn/zh/customer-service/contact-us/",
+            "backgroundColor": null
+          },
+          {
+            "title": "线上商城",
+            "text": "在线选购、配送与订单服务",
+            "image": "/images/products/buzud-8885020710595.png",
+            "href": "/cn/zh/all-products/",
+            "backgroundColor": null
+          },
+          {
+            "title": "客户服务团队",
+            "text": "售前咨询、售后维修与保修支持",
+            "image": "/images/products/buzud-8885020711677.png",
+            "href": "/cn/zh/customer-service/",
+            "backgroundColor": null
+          }
+        ],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
+        }
+      }
+    ]
+  }
+]

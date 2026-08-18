@@ -1,5 +1,7 @@
 import Link from "next/link"
 import type { ContentBlock, ContentBlockItem } from "@/data/pages-types"
+import { CorporatePicText } from "@/components/CorporatePicText"
+import { CorporateTeamTabs } from "@/components/CorporateTeamTabs"
 import { SiteImage } from "@/components/SiteImage"
 
 function isInternal(href: string) {
@@ -810,6 +812,350 @@ function PlannerBlock({ block }: { block: ContentBlock }) {
   )
 }
 
+function CorporateHeroBlock({ block }: { block: ContentBlock }) {
+  const image = block.images[0] ?? null
+  const link = block.links[0] ?? null
+  return (
+    <section className="relative overflow-hidden bg-ikea-blue text-white">
+      {image ? (
+        <SiteImage
+          src={image}
+          alt={block.title ?? ""}
+          className="absolute inset-0 h-full w-full"
+          imgClassName="h-full object-cover"
+        />
+      ) : null}
+      {image ? <div className="absolute inset-0 bg-black/50" /> : null}
+      {!image ? (
+        <>
+          <div className="pointer-events-none absolute -right-20 -top-24 h-72 w-72 rounded-full bg-white/10" />
+          <div className="pointer-events-none absolute -bottom-32 right-24 h-80 w-80 rounded-full bg-white/5" />
+        </>
+      ) : null}
+      <div className="relative flex min-h-[320px] items-center lg:min-h-[440px]">
+        <div className="max-w-page mx-auto w-full px-5 py-16 lg:px-10 lg:py-24">
+          {block.title ? (
+            <h2 className="max-w-3xl text-2xl font-bold leading-9 lg:text-4xl lg:leading-[3rem]">
+              {block.title}
+            </h2>
+          ) : null}
+          {block.texts[0] ? (
+            <p className="mt-4 max-w-2xl text-sm leading-6 text-white/80">{block.texts[0]}</p>
+          ) : null}
+          {link?.href ? (
+            <div className="mt-7">
+              <BlockLink
+                href={link.href}
+                className="inline-flex h-11 items-center bg-white px-8 text-sm font-bold text-ikea-black transition-colors hover:bg-ikea-gray-100"
+              >
+                {link.text || "了解更多"}
+              </BlockLink>
+            </div>
+          ) : null}
+        </div>
+      </div>
+    </section>
+  )
+}
+
+function CorporateAboutBlock({ block }: { block: ContentBlock }) {
+  const settings = (block.settings ?? {}) as Record<string, unknown>
+  const poster = block.images[0] ?? null
+  const videoSrc =
+    typeof settings.videoSrc === "string" && settings.videoSrc.trim()
+      ? settings.videoSrc.trim()
+      : ""
+  const videoPoster =
+    typeof settings.videoPoster === "string" && settings.videoPoster.trim()
+      ? settings.videoPoster.trim()
+      : poster
+  return (
+    <div className="grid gap-6 lg:grid-cols-[280px_1fr] lg:gap-12">
+      {block.title ? (
+        <div className="lg:pt-1">
+          <h2 className="text-xl font-bold leading-8 lg:text-2xl">{block.title}</h2>
+        </div>
+      ) : null}
+      <div className="space-y-6">
+        {block.texts.length > 0 ? (
+          <div className="space-y-3">
+            {block.texts.map((t, i) => (
+              <p key={i} className="whitespace-pre-line text-sm leading-6 text-ikea-muted">
+                {t}
+              </p>
+            ))}
+          </div>
+        ) : null}
+        <div className="relative aspect-video w-full overflow-hidden rounded-lg bg-ikea-gray-100">
+          {videoSrc ? (
+            <video
+              src={videoSrc}
+              poster={videoPoster ?? undefined}
+              controls
+              playsInline
+              preload="metadata"
+              className="absolute inset-0 h-full w-full object-cover"
+            />
+          ) : (
+            <>
+              {videoPoster ? (
+                <SiteImage
+                  src={videoPoster}
+                  alt={block.title ?? ""}
+                  className="absolute inset-0 h-full w-full"
+                  imgClassName="h-full object-cover"
+                />
+              ) : null}
+              <div className="absolute inset-0 flex flex-col items-center justify-center gap-3 bg-black/25">
+                <span className="flex h-14 w-14 items-center justify-center rounded-full bg-white text-ikea-blue shadow-md">
+                  <svg viewBox="0 0 24 24" fill="currentColor" className="ml-1 h-6 w-6">
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
+                </span>
+                <span className="text-xs text-white">品牌视频内容待补充</span>
+              </div>
+            </>
+          )}
+        </div>
+      </div>
+    </div>
+  )
+}
+
+function CorporateTextBlock({ block }: { block: ContentBlock }) {
+  const link = block.links[0] ?? null
+  return (
+    <div>
+      {block.title ? (
+        <h2 className="text-xl font-bold leading-8 lg:text-2xl">{block.title}</h2>
+      ) : null}
+      {block.texts.length > 0 ? (
+        <div className="mt-4 space-y-3">
+          {block.texts.map((t, i) => (
+            <p key={i} className="max-w-3xl whitespace-pre-line text-sm leading-6 text-ikea-muted">
+              {t}
+            </p>
+          ))}
+        </div>
+      ) : null}
+      {link?.href ? (
+        <div className="mt-5">
+          <BlockLink
+            href={link.href}
+            className="inline-flex items-center gap-1 text-sm font-bold text-ikea-blue hover:underline"
+          >
+            {link.text || "了解更多"}
+            <svg viewBox="0 0 24 24" fill="currentColor" className="h-4 w-4">
+              <path d="m20 12-8-8-1.4 1.4L16.2 11H4v2h12.2l-5.6 5.6L12 20z" />
+            </svg>
+          </BlockLink>
+        </div>
+      ) : null}
+    </div>
+  )
+}
+
+function CorporateStatsBlock({ block }: { block: ContentBlock }) {
+  const items = (block.items ?? []) as unknown as Record<string, unknown>[]
+  const link = block.links[0] ?? null
+  return (
+    <div>
+      {block.title ? (
+        <h2 className="text-xl font-bold leading-8 lg:text-2xl">{block.title}</h2>
+      ) : null}
+      {block.texts[0] ? (
+        <p className="mt-4 max-w-3xl text-sm leading-6 text-ikea-muted">{block.texts[0]}</p>
+      ) : null}
+      {link?.href ? (
+        <div className="mt-5">
+          <BlockLink
+            href={link.href}
+            className="inline-flex items-center gap-1 text-sm font-bold text-ikea-blue hover:underline"
+          >
+            {link.text || "了解更多"}
+            <svg viewBox="0 0 24 24" fill="currentColor" className="h-4 w-4">
+              <path d="m20 12-8-8-1.4 1.4L16.2 11H4v2h12.2l-5.6 5.6L12 20z" />
+            </svg>
+          </BlockLink>
+        </div>
+      ) : null}
+      <div className="mt-10 grid gap-10 md:grid-cols-2">
+        {items.map((item, i) => (
+          <div key={i}>
+            <div className="text-4xl font-bold text-ikea-blue lg:text-5xl">
+              {String(item.value ?? "—")}
+            </div>
+            <div className="mt-2 text-sm leading-6 text-ikea-muted">{String(item.label ?? "")}</div>
+          </div>
+        ))}
+      </div>
+    </div>
+  )
+}
+
+function CorporateTimelineBlock({ block }: { block: ContentBlock }) {
+  const items = (block.items ?? []) as unknown as Record<string, unknown>[]
+  return (
+    <div>
+      {block.title ? (
+        <h2 className="text-xl font-bold leading-8 lg:text-2xl">{block.title}</h2>
+      ) : null}
+      <div className="mt-8 divide-y divide-ikea-gray-200 border-y border-ikea-gray-200">
+        {items.map((item, i) => (
+          <div key={i} className="py-7 lg:grid lg:grid-cols-[180px_1fr] lg:gap-10">
+            <div className="text-xl font-bold text-ikea-blue">{String(item.year ?? "")}</div>
+            <div>
+              {item.title ? (
+                <h3 className="font-bold text-ikea-black">{String(item.title)}</h3>
+              ) : null}
+              {item.text ? (
+                <p className="mt-1 text-sm leading-6 text-ikea-muted">{String(item.text)}</p>
+              ) : null}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  )
+}
+
+function CorporatePolicyBlock({ block }: { block: ContentBlock }) {
+  return (
+    <div>
+      {block.title ? (
+        <h2 className="text-xl font-bold leading-8 lg:text-2xl">{block.title}</h2>
+      ) : null}
+      {block.texts.length > 0 ? (
+        <ul className="mt-6 space-y-3">
+          {block.texts.map((t, i) => (
+            <li key={i} className="flex items-start gap-3 text-sm leading-6 text-ikea-muted">
+              <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-ikea-blue" />
+              {t}
+            </li>
+          ))}
+        </ul>
+      ) : null}
+    </div>
+  )
+}
+
+function CorporateTeamBlock({ block }: { block: ContentBlock }) {
+  const items = (block.items ?? []) as unknown as Record<string, unknown>[]
+  const link = block.links[0] ?? null
+  const settings = (block.settings ?? {}) as Record<string, unknown>
+  const sectionId =
+    typeof settings.sectionId === "string" && settings.sectionId.trim()
+      ? settings.sectionId.trim()
+      : null
+  if (items.length === 0) return null
+  return (
+    <section id={sectionId ?? undefined}>
+      <div className="flex flex-wrap items-end justify-between gap-4">
+        <div>
+          {block.title ? (
+            <h2 className="text-xl font-bold leading-8 lg:text-2xl">{block.title}</h2>
+          ) : null}
+          {block.texts[0] ? (
+            <p className="mt-2 max-w-2xl text-sm leading-6 text-ikea-muted">{block.texts[0]}</p>
+          ) : null}
+        </div>
+        {link?.href ? (
+          <BlockLink
+            href={link.href}
+            className="inline-flex items-center gap-1 text-sm font-bold text-ikea-blue hover:underline"
+          >
+            {link.text || "了解更多"}
+            <svg viewBox="0 0 24 24" fill="currentColor" className="h-4 w-4">
+              <path d="m20 12-8-8-1.4 1.4L16.2 11H4v2h12.2l-5.6 5.6L12 20z" />
+            </svg>
+          </BlockLink>
+        ) : null}
+      </div>
+      <div className="mt-8 grid grid-cols-2 gap-x-5 gap-y-10 md:grid-cols-3 xl:grid-cols-4">
+        {items.map((item, i) => {
+          const name = String(item.title ?? "姓名待定")
+          const position = String(item.text ?? "")
+          const image = typeof item.image === "string" && item.image.trim() ? item.image : null
+          const href = typeof item.href === "string" && item.href ? item.href : null
+          const card = (
+            <div className="group">
+              <div className="relative aspect-[4/5] overflow-hidden bg-ikea-gray-100">
+                {image ? (
+                  <SiteImage
+                    src={image}
+                    alt={name}
+                    className="h-full w-full"
+                    imgClassName="h-full object-cover"
+                  />
+                ) : (
+                  <div className="flex h-full w-full flex-col items-center justify-center gap-4 bg-ikea-gray-100">
+                    <span className="flex h-24 w-24 items-center justify-center rounded-full bg-ikea-gray-150 text-ikea-muted transition-transform duration-300 group-hover:scale-105">
+                      <svg viewBox="0 0 24 24" fill="currentColor" className="h-11 w-11">
+                        <path d="M12 12a4.5 4.5 0 1 0-4.5-4.5A4.5 4.5 0 0 0 12 12zm0 2c-3.9 0-7 2-7 4.4V20h14v-1.6c0-2.4-3.1-4.4-7-4.4z" />
+                      </svg>
+                    </span>
+                    <span className="text-xs text-ikea-muted">头像待定</span>
+                  </div>
+                )}
+              </div>
+              <div className="mt-3">
+                <div className="text-sm font-bold text-ikea-black">{name}</div>
+                {position ? <div className="mt-0.5 text-xs text-ikea-muted">{position}</div> : null}
+              </div>
+            </div>
+          )
+          return href ? (
+            <BlockLink key={i} href={href} className="block">
+              {card}
+            </BlockLink>
+          ) : (
+            <div key={i}>{card}</div>
+          )
+        })}
+      </div>
+    </section>
+  )
+}
+
+function CorporateTeamTabsBlock({ block }: { block: ContentBlock }) {
+  const raw = (block.items ?? []) as unknown as Record<string, unknown>[]
+  const groups = raw
+    .map((item) => {
+      const membersRaw = Array.isArray(item.members) ? item.members : []
+      const members = membersRaw.map((m) => {
+        const member = m as Record<string, unknown>
+        return {
+          name: String(member.name ?? member.title ?? "姓名待定"),
+          position: String(member.position ?? member.text ?? ""),
+          image: typeof member.image === "string" && member.image.trim() ? member.image : null,
+          href: typeof member.href === "string" && member.href ? member.href : null,
+        }
+      })
+      return {
+        id: String(item.id ?? ""),
+        title: String(item.title ?? ""),
+        description: String(item.description ?? ""),
+        members,
+      }
+    })
+    .filter((group) => group.id && group.title && group.members.length > 0)
+  if (groups.length === 0) return null
+  return <CorporateTeamTabs groups={groups} />
+}
+
+function CorporatePicTextBlock({ block }: { block: ContentBlock }) {
+  const link = block.links[0] ?? null
+  return (
+    <CorporatePicText
+      title={block.title ?? ""}
+      texts={block.texts}
+      linkHref={link?.href ?? undefined}
+      linkText={link?.text ?? undefined}
+      image={block.images[0] ?? null}
+    />
+  )
+}
+
 function GenericBlock({ block }: { block: ContentBlock }) {
   const items = block.items ?? []
   if (items.length > 0) {
@@ -915,6 +1261,24 @@ export function ContentBlocks({ blocks }: { blocks: ContentBlock[] }) {
             return <AssurancesBlock key={i} block={block} />
           case "pub-planner":
             return <PlannerBlock key={i} block={block} />
+          case "corporate-hero":
+            return <CorporateHeroBlock key={i} block={block} />
+          case "corporate-text":
+            return <CorporateTextBlock key={i} block={block} />
+          case "corporate-about":
+            return <CorporateAboutBlock key={i} block={block} />
+          case "corporate-stats":
+            return <CorporateStatsBlock key={i} block={block} />
+          case "corporate-timeline":
+            return <CorporateTimelineBlock key={i} block={block} />
+          case "corporate-policy":
+            return <CorporatePolicyBlock key={i} block={block} />
+          case "corporate-pic-text":
+            return <CorporatePicTextBlock key={i} block={block} />
+          case "corporate-team":
+            return <CorporateTeamBlock key={i} block={block} />
+          case "corporate-team-tabs":
+            return <CorporateTeamTabsBlock key={i} block={block} />
           default:
             return <GenericBlock key={i} block={block} />
         }

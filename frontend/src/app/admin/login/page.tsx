@@ -50,7 +50,7 @@ export default function AdminLoginPage() {
           <div className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-full bg-ikea-blue text-lg font-black text-white">
             宜
           </div>
-          <h1 className="text-lg font-bold text-ikea-black">BUZUD 内容管理后台</h1>
+          <h1 className="text-lg font-bold text-ikea-black">CHUNG YIP HOLDING 内容管理后台</h1>
           <p className="mt-1 text-xs text-ikea-muted">
             登录后可以管理商品、页面、首页、菜单、订单与用户
           </p>

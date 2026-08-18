@@ -85,7 +85,7 @@ export default function ChatPage() {
                   </div>
                   {message.reply ? (
                     <div className="mt-2 rounded-md bg-blue-50 px-3 py-2 text-sm text-ikea-blue">
-                      <span className="mr-1 font-medium">BUZUD 客服：</span>
+                      <span className="mr-1 font-medium">CHUNG YIP HOLDING 客服：</span>
                       {message.reply}
                     </div>
                   ) : null}

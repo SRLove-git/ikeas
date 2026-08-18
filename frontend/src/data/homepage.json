@@ -1,7 +1,7 @@
 {
   "noticeMessages": [
     {
-      "text": "欢迎来到 BUZUD 健康产品商城，正品保障，安心选购",
+      "text": "欢迎来到 CHUNG YIP HOLDING 健康产品商城，正品保障，安心选购",
       "href": "/cn/zh/all-products/"
     },
     {
@@ -18,41 +18,25 @@
   ],
   "navMenuItems": [
     {
-      "label": "所有商品",
+      "label": "所有产品",
       "href": "/cn/zh/all-products",
       "hasMegaMenu": true
     },
     {
-      "label": "胰岛素笔针",
-      "href": "/cn/zh/cat/insulin-pen-needles"
+      "label": "公司介绍",
+      "href": "/cn/zh/company"
     },
     {
-      "label": "简易氧气面罩",
-      "href": "/cn/zh/cat/simple-oxygen-mask"
-    },
-    {
-      "label": "便携式制氧机",
-      "href": "/cn/zh/cat/portable-oxygen-concentrator"
-    },
-    {
-      "label": "体温计",
-      "href": "/cn/zh/cat/thermometer"
-    },
-    {
-      "label": "助行器",
-      "href": "/cn/zh/cat/walking-aid"
-    },
-    {
-      "label": "检测试剂盒",
-      "href": "/cn/zh/cat/test-kit"
-    },
-    {
-      "label": "鼻氧管",
-      "href": "/cn/zh/cat/nasal-oxygen-cannula"
+      "label": "组织架构",
+      "href": "/cn/zh/organization"
     },
     {
       "label": "客户服务",
       "href": "/cn/zh/customer-service/"
+    },
+    {
+      "label": "联系我们",
+      "href": "/cn/zh/customer-service/contact-us/"
     }
   ],
   "megaMenuCategories": [
@@ -355,7 +339,7 @@
   ],
   "promoCardItems": [
     {
-      "eyebrow": "BUZUD",
+      "eyebrow": "CHUNG YIP HOLDING",
       "title": "快速检测试剂",
       "description": "9 件健康产品，点击选购",
       "ctaLabel": "立即选购",
@@ -365,7 +349,7 @@
       "textColor": "#ffffff"
     },
     {
-      "eyebrow": "BUZUD",
+      "eyebrow": "CHUNG YIP HOLDING",
       "title": "智能手表",
       "description": "5 件健康产品，点击选购",
       "ctaLabel": "立即选购",
@@ -375,7 +359,7 @@
       "textColor": "#ffffff"
     },
     {
-      "eyebrow": "BUZUD",
+      "eyebrow": "CHUNG YIP HOLDING",
       "title": "血压计",
       "description": "3 件健康产品，点击选购",
       "ctaLabel": "立即选购",
@@ -385,7 +369,7 @@
       "textColor": "#ffffff"
     },
     {
-      "eyebrow": "BUZUD",
+      "eyebrow": "CHUNG YIP HOLDING",
       "title": "血糖管理",
       "description": "3 件健康产品，点击选购",
       "ctaLabel": "立即选购",
@@ -395,7 +379,7 @@
       "textColor": "#ffffff"
     },
     {
-      "eyebrow": "BUZUD",
+      "eyebrow": "CHUNG YIP HOLDING",
       "title": "健康监测设备",
       "description": "3 件健康产品，点击选购",
       "ctaLabel": "立即选购",
@@ -1006,7 +990,7 @@
   ],
   "footerFeaturedCards": [
     {
-      "title": "体验 BUZUD 健康服务",
+      "title": "体验 CHUNG YIP HOLDING 健康服务",
       "description": "前往新加坡体验门店，享受健康检测、产品体验与一对一咨询。",
       "ctaLabel": "了解详情",
       "href": "/cn/zh/customer-service/contact-us/"
@@ -1014,7 +998,7 @@
   ],
   "socialIcons": [],
   "legalBar": {
-    "edition": "© BUZUD PTE. LTD. All Rights Reserved.",
+    "edition": "© CHUNG YIP HOLDING PTE. LTD. All Rights Reserved.",
     "links": [
       {
         "label": "隐私政策",

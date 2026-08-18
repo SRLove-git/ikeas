@@ -105,11 +105,11 @@ export default function LoginPage() {
       <header className="flex h-16 items-center justify-between px-6 lg:px-10">
         <Link href="/" className="flex items-center gap-2">
           <span className="text-lg font-bold tracking-wide">
-            BUZUD<span className="text-ikea-blue">·</span>健康产品商城
+            CHUNG YIP HOLDING<span className="text-ikea-blue">·</span>健康产品商城
           </span>
         </Link>
         <div className="flex items-center gap-6 text-sm">
-          <span className="font-bold">BUZUD</span>
+          <span className="font-bold">CHUNG YIP HOLDING</span>
           <span className="hidden text-ikea-muted md:inline">重新定义医疗健康，智能守护每一天</span>
           <Link
             href="/cn/zh/customer-service/contact-us/"
@@ -122,7 +122,7 @@ export default function LoginPage() {
 
       <div className="flex flex-1 items-center justify-center px-5 py-12">
         <div className="w-full max-w-[440px]">
-          <h1 className="text-center text-2xl font-bold leading-9">欢迎来到 BUZUD</h1>
+          <h1 className="text-center text-2xl font-bold leading-9">欢迎来到 CHUNG YIP HOLDING</h1>
 
           <div className="mt-8 flex gap-1 border-b border-ikea-gray-200">
             {tabs.map(([key, label]) => (
@@ -280,7 +280,7 @@ export default function LoginPage() {
       </div>
 
       <footer className="border-t border-ikea-gray-200 py-6 text-center text-xs text-ikea-muted">
-        © BUZUD PTE. LTD. All Rights Reserved.
+        © CHUNG YIP HOLDING PTE. LTD. All Rights Reserved.
       </footer>
     </main>
   )

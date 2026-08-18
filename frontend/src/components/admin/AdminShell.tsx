@@ -61,7 +61,7 @@ export function AdminShell({ children }: { children: React.ReactNode }) {
             B
           </div>
           <div>
-            <div className="text-sm font-bold text-white">BUZUD 内容管理后台</div>
+            <div className="text-sm font-bold text-white">CHUNG YIP HOLDING 内容管理后台</div>
             <div className="text-[10px] text-blue-200/70">CMS · 实时生效</div>
           </div>
         </div>

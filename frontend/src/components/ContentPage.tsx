@@ -34,7 +34,7 @@ export function ContentPage({
           <span className="text-ikea-black">{title}</span>
         </nav>
 
-        <h1 className="text-2xl font-bold leading-9 lg:text-3xl">{title}</h1>
+        <h1 className="text-center text-2xl font-bold leading-9 lg:text-3xl">{title}</h1>
 
         {page.hero ? (
           <div className="mt-6">

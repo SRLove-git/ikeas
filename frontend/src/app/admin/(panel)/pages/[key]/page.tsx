@@ -18,10 +18,11 @@ import {
 } from "@/components/admin/admin-ui"
 import { BlockEditor, type ContentBlock } from "@/components/admin/BlockEditor"
 
-const FAMILIES = ["customer-service", "root"]
+const FAMILIES = ["customer-service", "company", "root"]
 
 const FAMILY_LABEL: Record<string, string> = {
   "customer-service": "客户服务",
+  company: "公司介绍",
   root: "首页",
 }
 

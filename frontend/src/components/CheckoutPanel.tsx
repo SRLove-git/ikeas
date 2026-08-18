@@ -348,7 +348,7 @@ export function CheckoutPanel() {
                   {submitting ? "提交中…" : "提交订单"}
                 </button>
                 <p className="mt-3 text-center text-xs text-ikea-muted">
-                  提交后将由 BUZUD 商城后台生成订单
+                  提交后将由 CHUNG YIP HOLDING 商城后台生成订单
                 </p>
               </>
             )}

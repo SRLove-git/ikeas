@@ -116,7 +116,7 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
                           <img
                             className="disable-event"
                             src="/images/logo/logo.jpg"
-                            alt="BUZUD"
+                            alt="CHUNG YIP HOLDING"
                             width={48}
                             height={64}
                           />
@@ -180,10 +180,10 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
                               className="header-action-btn header-action-btn--login"
                             >
                               <UserIcon width={24} height={24} />
-                              <span>登录 BUZUD 账号</span>
+                              <span>登录 CHUNG YIP HOLDING 账号</span>
                             </Link>
                           )}
-                          <div className="i-tooltip__body">登录 BUZUD 账号</div>
+                          <div className="i-tooltip__body">登录 CHUNG YIP HOLDING 账号</div>
                         </span>
                       </span>
                       <span className="i-tooltip i-tooltip--bottom">
@@ -250,8 +250,10 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
                         moveActiveBar(event.currentTarget)
                       }}
                     >
-                      <span className="menu-label">{item.label}</span>
-                      {item.label === "所有商品" ? <span className="new_feature_mark" /> : null}
+                      <Link href={item.href} className="menu-label">
+                        {item.label}
+                      </Link>
+                      {item.label === "所有产品" ? <span className="new_feature_mark" /> : null}
                     </li>
                   ))}
                 </ul>

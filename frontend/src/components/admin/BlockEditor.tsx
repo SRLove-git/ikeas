@@ -1,27 +1,36 @@
-"use client";
+"use client"
 
-import { useState } from "react";
+import { useState } from "react"
 import {
   Button,
   JsonEditor,
   ObjectListEditor,
   StringListEditor,
   TextInput,
-} from "@/components/admin/admin-ui";
+} from "@/components/admin/admin-ui"
 
 export interface ContentBlock {
-  type: string;
-  title: string | null;
-  texts: string[];
-  images: string[];
-  links: { href: string; text: string }[];
-  columns: Record<string, unknown>[];
-  items: Record<string, unknown>[];
-  settings: Record<string, unknown> | null;
+  type: string
+  title: string | null
+  texts: string[]
+  images: string[]
+  links: { href: string; text: string }[]
+  columns: Record<string, unknown>[]
+  items: Record<string, unknown>[]
+  settings: Record<string, unknown> | null
 }
 
 const KNOWN_TYPES = [
   "carousel",
+  "corporate-about",
+  "corporate-hero",
+  "corporate-pic-text",
+  "corporate-policy",
+  "corporate-stats",
+  "corporate-team",
+  "corporate-team-tabs",
+  "corporate-text",
+  "corporate-timeline",
   "pub-inspiration-card",
   "pub-text",
   "pub-columns",
@@ -34,20 +43,20 @@ const KNOWN_TYPES = [
   "pub-video",
   "pub-accordion",
   "pub-faq",
-];
+]
 
 export function BlockEditor({
   blocks,
   onChange,
 }: {
-  blocks: ContentBlock[];
-  onChange: (blocks: ContentBlock[]) => void;
+  blocks: ContentBlock[]
+  onChange: (blocks: ContentBlock[]) => void
 }) {
-  const [collapsed, setCollapsed] = useState<Set<number>>(new Set());
+  const [collapsed, setCollapsed] = useState<Set<number>>(new Set())
 
   const update = (index: number, patch: Partial<ContentBlock>) => {
-    const copy = [...blocks];
-    const current = copy[index];
+    const copy = [...blocks]
+    const current = copy[index]
     copy[index] = {
       type: current.type ?? "",
       title: current.title ?? null,
@@ -58,16 +67,16 @@ export function BlockEditor({
       items: current.items ?? [],
       settings: current.settings ?? null,
       ...patch,
-    };
-    onChange(copy);
-  };
+    }
+    onChange(copy)
+  }
 
   const toggle = (index: number) => {
-    const next = new Set(collapsed);
-    if (next.has(index)) next.delete(index);
-    else next.add(index);
-    setCollapsed(next);
-  };
+    const next = new Set(collapsed)
+    if (next.has(index)) next.delete(index)
+    else next.add(index)
+    setCollapsed(next)
+  }
 
   return (
     <div className="space-y-4">
@@ -78,7 +87,7 @@ export function BlockEditor({
       ) : null}
 
       {blocks.map((block, index) => {
-        const isCollapsed = collapsed.has(index);
+        const isCollapsed = collapsed.has(index)
         return (
           <div key={index} className="rounded-md border border-ikea-gray-200">
             <div className="flex items-center justify-between gap-2 border-b border-ikea-gray-200 bg-ikea-gray-50 px-3 py-2">
@@ -100,11 +109,11 @@ export function BlockEditor({
                   variant="ghost"
                   disabled={index === 0}
                   onClick={() => {
-                    const copy = [...blocks];
-                    const temp = copy[index - 1];
-                    copy[index - 1] = copy[index];
-                    copy[index] = temp;
-                    onChange(copy);
+                    const copy = [...blocks]
+                    const temp = copy[index - 1]
+                    copy[index - 1] = copy[index]
+                    copy[index] = temp
+                    onChange(copy)
                   }}
                 >
                   上移
@@ -113,11 +122,11 @@ export function BlockEditor({
                   variant="ghost"
                   disabled={index === blocks.length - 1}
                   onClick={() => {
-                    const copy = [...blocks];
-                    const temp = copy[index + 1];
-                    copy[index + 1] = copy[index];
-                    copy[index] = temp;
-                    onChange(copy);
+                    const copy = [...blocks]
+                    const temp = copy[index + 1]
+                    copy[index + 1] = copy[index]
+                    copy[index] = temp
+                    onChange(copy)
                   }}
                 >
                   下移
@@ -160,7 +169,9 @@ export function BlockEditor({
                 </div>
 
                 <div>
-                  <div className="mb-1.5 text-xs font-medium text-ikea-muted">正文段落（texts）</div>
+                  <div className="mb-1.5 text-xs font-medium text-ikea-muted">
+                    正文段落（texts）
+                  </div>
                   <StringListEditor
                     value={block.texts ?? []}
                     onChange={(texts) => update(index, { texts })}
@@ -195,9 +206,7 @@ export function BlockEditor({
                   <ObjectListEditor
                     value={block.columns ?? []}
                     onChange={(columns) => update(index, { columns })}
-                    titleFor={(item) =>
-                      String(item.heading ?? item.text ?? "分栏")
-                    }
+                    titleFor={(item) => String(item.heading ?? item.text ?? "分栏")}
                   />
                 </div>
 
@@ -208,9 +217,7 @@ export function BlockEditor({
                   <ObjectListEditor
                     value={block.items ?? []}
                     onChange={(items) => update(index, { items })}
-                    titleFor={(item) =>
-                      String(item.title ?? item.text ?? item.name ?? "条目")
-                    }
+                    titleFor={(item) => String(item.title ?? item.text ?? item.name ?? "条目")}
                   />
                 </div>
 
@@ -229,7 +236,7 @@ export function BlockEditor({
               </div>
             ) : null}
           </div>
-        );
+        )
       })}
 
       <Button
@@ -253,5 +260,5 @@ export function BlockEditor({
         + 添加内容区块
       </Button>
     </div>
-  );
+  )
 }

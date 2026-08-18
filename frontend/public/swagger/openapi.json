@@ -1,0 +1,369 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "BUZUD 新页面（公司介绍/组织架构）内容接口",
+    "version": "1.1.0",
+    "description": "公司介绍页与组织架构页（/cn/zh/company、/cn/zh/organization）的内容接口契约，供后端对接。\n\n鉴权说明：接口要求管理端登录会话，登录成功后由服务端写入 HttpOnly Cookie `ikea_admin_session`，请求无需携带 Authorization 头。\n\n页面 key 为页面 URL 的 base64url 编码，例如 `/cn/zh/company` 的 key 为 `L2NuL3poL2NvbXBhbnk`。\n\n组织架构页（v1.1.0）新增区块类型：`corporate-pic-text`（左侧图片 + 右侧治理文字，支持展开/收起）与 `corporate-team-tabs`（吸顶成员分栏页签，items 为 TeamGroup 数组，成员信息嵌套在 members 字段）。"
+  },
+  "servers": [
+    {
+      "url": "/",
+      "description": "前端站点（开发默认 http://localhost:3000）"
+    }
+  ],
+  "tags": [
+    {
+      "name": "新页面内容",
+      "description": "公司介绍与组织架构页面内容管理"
+    }
+  ],
+  "paths": {
+    "/api/admin/pages": {
+      "get": {
+        "tags": ["新页面内容"],
+        "summary": "查询公司介绍/组织架构页面列表",
+        "parameters": [
+          {
+            "name": "family",
+            "in": "query",
+            "required": false,
+            "schema": { "type": "string", "enum": ["company"] },
+            "description": "栏目过滤，company = 公司介绍/组织架构"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "页面列表与栏目汇总",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/PageListResponse" }
+              }
+            }
+          },
+          "401": { "$ref": "#/components/responses/Unauthorized" }
+        }
+      },
+      "post": {
+        "tags": ["新页面内容"],
+        "summary": "创建内容页面",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": { "$ref": "#/components/schemas/PageData" }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "创建成功",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/PageData" }
+              }
+            }
+          },
+          "400": {
+            "description": "参数错误（如 URL 为空）",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/ApiError" }
+              }
+            }
+          },
+          "401": { "$ref": "#/components/responses/Unauthorized" }
+        }
+      }
+    },
+    "/api/admin/pages/{key}": {
+      "get": {
+        "tags": ["新页面内容"],
+        "summary": "获取公司介绍/组织架构页面详情",
+        "parameters": [
+          {
+            "name": "key",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "string" },
+            "description": "页面 URL 的 base64url，如 `/cn/zh/company` -> `L2NuL3poL2NvbXBhbnk`"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "页面区块数据",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/PageData" }
+              }
+            }
+          },
+          "404": {
+            "description": "页面不存在",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/ApiError" }
+              }
+            }
+          },
+          "401": { "$ref": "#/components/responses/Unauthorized" }
+        }
+      },
+      "put": {
+        "tags": ["新页面内容"],
+        "summary": "更新公司介绍/组织架构页面内容",
+        "parameters": [
+          {
+            "name": "key",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "string" }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": { "$ref": "#/components/schemas/PageData" }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "更新后的页面",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/PageData" }
+              }
+            }
+          },
+          "400": {
+            "description": "参数错误",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/ApiError" }
+              }
+            }
+          },
+          "401": { "$ref": "#/components/responses/Unauthorized" }
+        }
+      },
+      "delete": {
+        "tags": ["新页面内容"],
+        "summary": "删除公司介绍/组织架构页面",
+        "parameters": [
+          {
+            "name": "key",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "string" }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "删除成功",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/OkResponse" }
+              }
+            }
+          },
+          "404": {
+            "description": "页面不存在",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/ApiError" }
+              }
+            }
+          },
+          "401": { "$ref": "#/components/responses/Unauthorized" }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "cookieAuth": {
+        "type": "apiKey",
+        "in": "cookie",
+        "name": "ikea_admin_session",
+        "description": "管理端登录后由服务端写入的 HttpOnly 会话 Cookie。"
+      }
+    },
+    "responses": {
+      "Unauthorized": {
+        "description": "未登录或会话已过期",
+        "content": {
+          "application/json": {
+            "schema": { "$ref": "#/components/schemas/ApiError" }
+          }
+        }
+      }
+    },
+    "schemas": {
+      "ApiError": {
+        "type": "object",
+        "required": ["error"],
+        "properties": {
+          "error": { "type": "string" }
+        }
+      },
+      "OkResponse": {
+        "type": "object",
+        "properties": {
+          "ok": { "type": "boolean", "example": true }
+        }
+      },
+      "ContentBlock": {
+        "type": "object",
+        "required": ["type"],
+        "properties": {
+          "type": {
+            "type": "string",
+            "description": "区块类型：pub-text、corporate-hero、corporate-about、corporate-stats、corporate-timeline、corporate-policy、corporate-pic-text（图文版式：图片 + 治理文字 + 展开/收起）、corporate-team-tabs（成员分栏页签）、corporate-team（成员卡片网格）"
+          },
+          "title": { "type": ["string", "null"] },
+          "texts": { "type": "array", "items": { "type": "string" } },
+          "images": { "type": "array", "items": { "type": "string" } },
+          "links": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "href": { "type": "string" },
+                "text": { "type": "string" }
+              }
+            }
+          },
+          "items": {
+            "type": "array",
+            "description": "items 结构随区块类型变化：corporate-team-tabs 为 TeamGroup 数组（含嵌套 members）；corporate-team 为成员卡片数组 { title=姓名, text=职务, image, href }；corporate-stats 为 { value, label }。",
+            "items": {
+              "type": "object",
+              "additionalProperties": true
+            },
+            "example": [
+              {
+                "id": "board-of-directors",
+                "title": "董事会",
+                "description": "负责公司战略决策与整体经营方向（成员信息待定）。",
+                "members": [
+                  {
+                    "name": "姓名待定",
+                    "position": "董事长",
+                    "image": null,
+                    "href": null
+                  }
+                ]
+              }
+            ]
+          },
+          "columns": {
+            "type": "array",
+            "items": { "type": "object", "additionalProperties": true }
+          },
+          "productIds": { "type": "array", "items": { "type": "string" } },
+          "settings": {
+            "type": "object",
+            "nullable": true,
+            "additionalProperties": true
+          }
+        }
+      },
+      "PageData": {
+        "type": "object",
+        "required": ["url", "family", "title", "blocks"],
+        "properties": {
+          "url": { "type": "string", "example": "/cn/zh/company" },
+          "family": {
+            "type": "string",
+            "enum": ["company"],
+            "description": "company = 公司介绍/组织架构"
+          },
+          "id": { "type": ["string", "null"] },
+          "title": { "type": "string", "example": "公司介绍" },
+          "name": { "type": ["string", "null"] },
+          "hero": { "type": ["string", "null"] },
+          "blocks": {
+            "type": "array",
+            "items": { "$ref": "#/components/schemas/ContentBlock" }
+          }
+        }
+      },
+      "PageListResponse": {
+        "type": "object",
+        "properties": {
+          "items": {
+            "type": "array",
+            "items": { "$ref": "#/components/schemas/PageData" }
+          },
+          "total": { "type": "integer" },
+          "families": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": { "type": "string" },
+                "count": { "type": "integer" }
+              }
+            }
+          }
+        }
+      },
+      "TeamMember": {
+        "type": "object",
+        "required": ["name", "position"],
+        "description": "团队成员（当前姓名与头像均为占位）。",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "姓名，当前为占位「姓名待定」。",
+            "example": "姓名待定"
+          },
+          "position": {
+            "type": "string",
+            "description": "职务，如董事长、首席执行官。",
+            "example": "董事长"
+          },
+          "image": {
+            "type": ["string", "null"],
+            "description": "头像图片地址；null 时前端展示占位剪影。"
+          },
+          "href": {
+            "type": ["string", "null"],
+            "description": "个人详情链接，可空。"
+          }
+        }
+      },
+      "TeamGroup": {
+        "type": "object",
+        "required": ["id", "title", "members"],
+        "description": "成员分栏（corporate-team-tabs 区块的 items 元素）。",
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "分栏锚点 id，如 board-of-directors / supervisory-board / management-team。",
+            "example": "board-of-directors"
+          },
+          "title": {
+            "type": "string",
+            "description": "分栏名称，如董事会、监事会、管理团队。",
+            "example": "董事会"
+          },
+          "description": {
+            "type": "string",
+            "description": "分栏说明。"
+          },
+          "members": {
+            "type": "array",
+            "items": { "$ref": "#/components/schemas/TeamMember" }
+          }
+        }
+      }
+    }
+  },
+  "security": [
+    {
+      "cookieAuth": []
+    }
+  ]
+}

@@ -8,7 +8,7 @@
         "物流",
         "送货"
       ],
-      "reply": "BUZUD 为所有产品提供本地及海外*配送服务。订单通常会在 3-7 个工作日内送达，具体安排欢迎致电 +65 6518 9979 或联系门店工作人员。"
+      "reply": "CHUNG YIP HOLDING 为所有产品提供本地及海外*配送服务。订单通常会在 3-7 个工作日内送达，具体安排欢迎致电 +65 6518 9979 或联系门店工作人员。"
     },
     {
       "id": "aftersales",
@@ -19,7 +19,7 @@
         "维修",
         "售后"
       ],
-      "reply": "BUZUD 售后服务涵盖保修期内及保修期外的维修与换货。如遇制造或产品质量问题，可携带产品及发票至任意 BUZUD 体验门店，我们提供现场即时维修；无法当场修复时会提供临时替代设备或更换新品。"
+      "reply": "CHUNG YIP HOLDING 售后服务涵盖保修期内及保修期外的维修与换货。如遇制造或产品质量问题，可携带产品及发票至任意 CHUNG YIP HOLDING 体验门店，我们提供现场即时维修；无法当场修复时会提供临时替代设备或更换新品。"
     },
     {
       "id": "stores",
@@ -29,7 +29,7 @@
         "地址",
         "在哪里"
       ],
-      "reply": "BUZUD 新加坡体验门店：Raffles Hospital（585 North Bridge Road #01-02，+65 6518 9979）、Novena Square 2（10 Sinaran Dr #03-21，+65 6518 9269）、PARKROYAL on Beach Road（7500 Beach Road Level 4，+65 9888 3885）。营业时间详见「联系我们」页面。"
+      "reply": "CHUNG YIP HOLDING 新加坡体验门店：Raffles Hospital（585 North Bridge Road #01-02，+65 6518 9979）、Novena Square 2（10 Sinaran Dr #03-21，+65 6518 9269）、PARKROYAL on Beach Road（7500 Beach Road Level 4，+65 9888 3885）。营业时间详见「联系我们」页面。"
     },
     {
       "id": "warranty",
@@ -38,7 +38,7 @@
         "质保",
         "注册"
       ],
-      "reply": "您可以在 BUZUD 保修注册页面 /cn/zh/customer-service/warranty-registration/ 登记产品保修信息，享受官方质保保障。保修期内外我们均提供维修与换货服务。"
+      "reply": "您可以在 CHUNG YIP HOLDING 保修注册页面 /cn/zh/customer-service/warranty-registration/ 登记产品保修信息，享受官方质保保障。保修期内外我们均提供维修与换货服务。"
     },
     {
       "id": "promo",
@@ -49,7 +49,7 @@
         "unionvip",
         "88折"
       ],
-      "reply": "在 BUZUD 新加坡体验店使用银联卡支付享全店 88 折（12% OFF）；线上购物时使用银联卡支付并输入优惠码 unionvip 即可享受相同优惠。"
+      "reply": "在 CHUNG YIP HOLDING 新加坡体验店使用银联卡支付享全店 88 折（12% OFF）；线上购物时使用银联卡支付并输入优惠码 unionvip 即可享受相同优惠。"
     },
     {
       "id": "contact",
@@ -73,7 +73,7 @@
         "血糖",
         "手表"
       ],
-      "reply": "BUZUD 提供快速检测试剂、智能手表、血压计、血糖管理与健康监测设备等产品，全部为新加坡认证医疗设备，欢迎浏览「所有商品」选购。"
+      "reply": "CHUNG YIP HOLDING 提供快速检测试剂、智能手表、血压计、血糖管理与健康监测设备等产品，全部为新加坡认证医疗设备，欢迎浏览「所有商品」选购。"
     },
     {
       "id": "greeting",
@@ -83,8 +83,8 @@
         "hi",
         "hello"
       ],
-      "reply": "你好！我是 BUZUD 客服助手，很高兴为你服务。你可以问我配送、退换货、保修、门店或优惠相关的问题。"
+      "reply": "你好！我是 CHUNG YIP HOLDING 客服助手，很高兴为你服务。你可以问我配送、退换货、保修、门店或优惠相关的问题。"
     }
   ],
-  "defaultReply": "收到！我是 BUZUD 客服助手，目前可以回答配送、退换货、保修、门店与优惠相关问题。你也可以拨打 +65 6518 9979 或发送邮件至 customercare@buzud.com 联系人工客服。"
+  "defaultReply": "收到！我是 CHUNG YIP HOLDING 客服助手，目前可以回答配送、退换货、保修、门店与优惠相关问题。你也可以拨打 +65 6518 9979 或发送邮件至 customercare@buzud.com 联系人工客服。"
 }

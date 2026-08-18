@@ -28,6 +28,8 @@ export function familyLabel(family: string): string {
   switch (family) {
     case "customer-service":
       return "客户服务"
+    case "company":
+      return "公司介绍"
     default:
       return "首页"
   }
