@@ -11,4 +11,5 @@ public record ContentPage(
     String title,
     String name,
     String hero,
+    String subtitle,
     List<JsonNode> blocks) {}

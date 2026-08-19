@@ -70,14 +70,15 @@ public class DataStore {
   private final ContentPageEntityMapper contentPageEntityMapper;
   private final HomepageEntityMapper homepageEntityMapper;
 
-  private final List<CatalogCategory> catalogCategories;
-  private final List<CatalogCategory> channelCategories;
-  private final List<MenuCategory> menuCategories;
-  private final List<MenuPanel> menuPanels;
-  private final JsonNode homepage;
-  private final List<CatalogPage> catalogPages;
-  private final List<ContentPage> contentPages;
-  private final List<Product> allProducts;
+  private List<CatalogCategory> catalogCategories;
+  private List<CatalogCategory> channelCategories;
+  private List<MenuCategory> menuCategories;
+  private List<MenuPanel> menuPanels;
+  private JsonNode homepage;
+  private List<CatalogPage> catalogPages;
+  private List<ContentPage> contentPages;
+  private List<Product> allProducts;
+  private JsonNode menuAppPromotion;
 
   private final Map<String, CategoryMatch> categoryBySlug = new LinkedHashMap<>();
   private final Map<String, Product> productBySlug = new LinkedHashMap<>();
@@ -95,7 +96,7 @@ public class DataStore {
 
   private record MenuCategories(List<MenuCategory> categories) {}
 
-  private record MenuPanels(List<MenuPanel> menuPanels) {}
+  private record MenuPanels(List<MenuPanel> menuPanels, JsonNode appPromotion) {}
 
   private record LegacyPages(List<LegacyPage> contentPages) {}
 
@@ -133,6 +134,11 @@ public class DataStore {
     SeedData seed = readSeedData();
     transactionTemplate.executeWithoutResult(status -> seedDatabase(seed));
 
+    reloadFromDatabase();
+  }
+
+  /** Reloads all static content from PostgreSQL and rebuilds in-memory indexes. */
+  public synchronized void reloadFromDatabase() {
     CatalogData catalog = loadCatalogCategories();
     this.catalogCategories = catalog.catalogCategories();
     this.channelCategories = catalog.channelCategories();
@@ -142,6 +148,7 @@ public class DataStore {
     this.catalogPages = loadCatalogPages();
     this.allProducts = loadProducts();
     this.contentPages = loadContentPages();
+    this.menuAppPromotion = loadMenuAppPromotion();
     buildIndexes();
   }
 
@@ -165,6 +172,10 @@ public class DataStore {
 
   public JsonNode homepage() {
     return homepage;
+  }
+
+  public JsonNode menuAppPromotion() {
+    return menuAppPromotion;
   }
 
   public List<CatalogPage> catalogPages() {
@@ -280,95 +291,234 @@ public class DataStore {
 
   private SeedData readSeedData() throws IOException {
     CatalogData catalog = read(DATA + "catalog.json", CatalogData.class);
+    MenuPanels menuPanels = read(DATA + "menu-panels.json", MenuPanels.class);
+    this.menuAppPromotion = menuPanels.appPromotion();
     return new SeedData(
         List.copyOf(catalog.catalogCategories()),
         List.copyOf(catalog.channelCategories()),
         List.copyOf(read(DATA + "menu-categories.json", MenuCategories.class).categories()),
-        List.copyOf(read(DATA + "menu-panels.json", MenuPanels.class).menuPanels()),
+        List.copyOf(menuPanels.menuPanels()),
         read(DATA + "homepage.json", JsonNode.class),
         List.copyOf(read(DATA + "catalog-pages.json", new TypeReference<List<CatalogPage>>() {})),
         mergeContentPages(),
         loadProductsFromJson());
   }
 
+  private JsonNode loadMenuAppPromotion() {
+    return read(DATA + "menu-panels.json", new TypeReference<MenuPanels>() {}).appPromotion();
+  }
+
   private void seedDatabase(SeedData seed) {
-    if (productEntityMapper.selectCount(null) == 0) {
-      for (Product product : seed.products()) {
-        if (product.id() == null || product.slug() == null) {
-          continue;
-        }
-        ProductEntity entity = new ProductEntity();
+    syncProducts(seed.products());
+    syncCatalogCategories(seed.catalogCategories(), "catalog");
+    syncCatalogCategories(seed.channelCategories(), "channel");
+    syncMenuCategories(seed.menuCategories());
+    syncMenuPanels(seed.menuPanels());
+    syncCatalogPages(seed.catalogPages());
+    syncContentPages(seed.contentPages());
+    syncHomepage(seed.homepage());
+  }
+
+  private void syncProducts(List<Product> products) {
+    Map<String, ProductEntity> existing = new LinkedHashMap<>();
+    for (ProductEntity entity : productEntityMapper.selectList(null)) {
+      existing.put(entity.getProductId(), entity);
+    }
+
+    Set<String> seedIds = new HashSet<>();
+    for (Product product : products) {
+      if (product.id() == null || product.slug() == null) {
+        continue;
+      }
+      seedIds.add(product.id());
+      ProductEntity entity = existing.get(product.id());
+      if (entity == null) {
+        entity = new ProductEntity();
         entity.setProductId(product.id());
         entity.setSlug(product.slug());
         entity.setPayload(writeValue(product));
         productEntityMapper.insert(entity);
+      } else {
+        entity.setSlug(product.slug());
+        entity.setPayload(writeValue(product));
+        productEntityMapper.updateById(entity);
       }
     }
-
-    if (catalogCategoryEntityMapper.selectCount(null) == 0) {
-      seedCatalogCategories(seed.catalogCategories(), "catalog");
-      seedCatalogCategories(seed.channelCategories(), "channel");
-    }
-
-    if (menuCategoryEntityMapper.selectCount(null) == 0) {
-      for (MenuCategory category : seed.menuCategories()) {
-        MenuCategoryEntity entity = new MenuCategoryEntity();
-        entity.setName(category.name());
-        entity.setUrl(category.url());
-        entity.setPayload(writeValue(category));
-        menuCategoryEntityMapper.insert(entity);
+    for (Map.Entry<String, ProductEntity> entry : existing.entrySet()) {
+      if (!seedIds.contains(entry.getKey())) {
+        productEntityMapper.deleteById(entry.getValue().getId());
       }
-    }
-
-    if (menuPanelEntityMapper.selectCount(null) == 0) {
-      for (MenuPanel panel : seed.menuPanels()) {
-        MenuPanelEntity entity = new MenuPanelEntity();
-        entity.setLabel(panel.label());
-        entity.setHref(panel.href());
-        entity.setPayload(writeValue(panel));
-        menuPanelEntityMapper.insert(entity);
-      }
-    }
-
-    if (catalogPageEntityMapper.selectCount(null) == 0) {
-      for (CatalogPage page : seed.catalogPages()) {
-        CatalogPageEntity entity = new CatalogPageEntity();
-        entity.setUrl(page.url());
-        String slug = slugFromUrl(page.url());
-        entity.setSlug(slug == null ? (page.id() == null ? page.url() : page.id()) : slug);
-        entity.setPayload(writeValue(page));
-        catalogPageEntityMapper.insert(entity);
-      }
-    }
-
-    if (contentPageEntityMapper.selectCount(null) == 0) {
-      for (ContentPage page : seed.contentPages()) {
-        ContentPageEntity entity = new ContentPageEntity();
-        entity.setUrl(page.url());
-        entity.setFamily(page.family() == null ? "root" : page.family());
-        entity.setPayload(writeValue(page));
-        contentPageEntityMapper.insert(entity);
-      }
-    }
-
-    if (homepageEntityMapper.selectCount(null) == 0) {
-      HomepageEntity entity = new HomepageEntity();
-      entity.setSingletonKey(1);
-      entity.setPayload(writeValue(seed.homepage()));
-      homepageEntityMapper.insert(entity);
     }
   }
 
-  private void seedCatalogCategories(List<CatalogCategory> categories, String kind) {
+  private void syncCatalogCategories(List<CatalogCategory> categories, String kind) {
+    Map<String, CatalogCategoryEntity> existing = new LinkedHashMap<>();
+    for (CatalogCategoryEntity entity : catalogCategoryEntityMapper.selectList(null)) {
+      if (kind.equals(entity.getKind())) {
+        existing.put(entity.getSlug(), entity);
+      }
+    }
+
+    Set<String> seedKeys = new HashSet<>();
     for (CatalogCategory category : categories) {
       if (category.slug() == null) {
         continue;
       }
-      CatalogCategoryEntity entity = new CatalogCategoryEntity();
-      entity.setSlug(category.slug());
-      entity.setKind(kind);
-      entity.setPayload(writeValue(category));
-      catalogCategoryEntityMapper.insert(entity);
+      seedKeys.add(category.slug());
+      CatalogCategoryEntity entity = existing.get(category.slug());
+      if (entity == null) {
+        entity = new CatalogCategoryEntity();
+        entity.setSlug(category.slug());
+        entity.setKind(kind);
+        entity.setPayload(writeValue(category));
+        catalogCategoryEntityMapper.insert(entity);
+      } else {
+        entity.setPayload(writeValue(category));
+        catalogCategoryEntityMapper.updateById(entity);
+      }
+    }
+    for (Map.Entry<String, CatalogCategoryEntity> entry : existing.entrySet()) {
+      if (!seedKeys.contains(entry.getKey())) {
+        catalogCategoryEntityMapper.deleteById(entry.getValue().getId());
+      }
+    }
+  }
+
+  private void syncMenuCategories(List<MenuCategory> categories) {
+    Map<String, MenuCategoryEntity> existing = new LinkedHashMap<>();
+    for (MenuCategoryEntity entity : menuCategoryEntityMapper.selectList(null)) {
+      existing.put(entity.getUrl(), entity);
+    }
+
+    Set<String> seedKeys = new HashSet<>();
+    for (MenuCategory category : categories) {
+      seedKeys.add(category.url());
+      MenuCategoryEntity entity = existing.get(category.url());
+      if (entity == null) {
+        entity = new MenuCategoryEntity();
+        entity.setName(category.name());
+        entity.setUrl(category.url());
+        entity.setPayload(writeValue(category));
+        menuCategoryEntityMapper.insert(entity);
+      } else {
+        entity.setName(category.name());
+        entity.setPayload(writeValue(category));
+        menuCategoryEntityMapper.updateById(entity);
+      }
+    }
+    for (Map.Entry<String, MenuCategoryEntity> entry : existing.entrySet()) {
+      if (!seedKeys.contains(entry.getKey())) {
+        menuCategoryEntityMapper.deleteById(entry.getValue().getId());
+      }
+    }
+  }
+
+  private void syncMenuPanels(List<MenuPanel> panels) {
+    Map<String, MenuPanelEntity> existing = new LinkedHashMap<>();
+    for (MenuPanelEntity entity : menuPanelEntityMapper.selectList(null)) {
+      existing.put(entity.getLabel(), entity);
+    }
+
+    Set<String> seedKeys = new HashSet<>();
+    for (MenuPanel panel : panels) {
+      seedKeys.add(panel.label());
+      MenuPanelEntity entity = existing.get(panel.label());
+      if (entity == null) {
+        entity = new MenuPanelEntity();
+        entity.setLabel(panel.label());
+        entity.setHref(panel.href());
+        entity.setPayload(writeValue(panel));
+        menuPanelEntityMapper.insert(entity);
+      } else {
+        entity.setHref(panel.href());
+        entity.setPayload(writeValue(panel));
+        menuPanelEntityMapper.updateById(entity);
+      }
+    }
+    for (Map.Entry<String, MenuPanelEntity> entry : existing.entrySet()) {
+      if (!seedKeys.contains(entry.getKey())) {
+        menuPanelEntityMapper.deleteById(entry.getValue().getId());
+      }
+    }
+  }
+
+  private void syncCatalogPages(List<CatalogPage> pages) {
+    Map<String, CatalogPageEntity> existing = new LinkedHashMap<>();
+    for (CatalogPageEntity entity : catalogPageEntityMapper.selectList(null)) {
+      existing.put(normalizeUrl(entity.getUrl()), entity);
+    }
+
+    Set<String> seedKeys = new HashSet<>();
+    for (CatalogPage page : pages) {
+      String key = normalizeUrl(page.url());
+      seedKeys.add(key);
+      CatalogPageEntity entity = existing.get(key);
+      String slug = slugFromUrl(page.url());
+      String entitySlug = slug == null ? (page.id() == null ? page.url() : page.id()) : slug;
+      if (entity == null) {
+        entity = new CatalogPageEntity();
+        entity.setUrl(page.url());
+        entity.setSlug(entitySlug);
+        entity.setPayload(writeValue(page));
+        catalogPageEntityMapper.insert(entity);
+      } else {
+        entity.setUrl(page.url());
+        entity.setSlug(entitySlug);
+        entity.setPayload(writeValue(page));
+        catalogPageEntityMapper.updateById(entity);
+      }
+    }
+    for (Map.Entry<String, CatalogPageEntity> entry : existing.entrySet()) {
+      if (!seedKeys.contains(entry.getKey())) {
+        catalogPageEntityMapper.deleteById(entry.getValue().getId());
+      }
+    }
+  }
+
+  private void syncContentPages(List<ContentPage> pages) {
+    Map<String, ContentPageEntity> existing = new LinkedHashMap<>();
+    for (ContentPageEntity entity : contentPageEntityMapper.selectList(null)) {
+      existing.put(normalizeUrl(entity.getUrl()), entity);
+    }
+
+    Set<String> seedKeys = new HashSet<>();
+    for (ContentPage page : pages) {
+      String key = normalizeUrl(page.url());
+      seedKeys.add(key);
+      ContentPageEntity entity = existing.get(key);
+      String family = page.family() == null ? "root" : page.family();
+      if (entity == null) {
+        entity = new ContentPageEntity();
+        entity.setUrl(page.url());
+        entity.setFamily(family);
+        entity.setPayload(writeValue(page));
+        contentPageEntityMapper.insert(entity);
+      } else {
+        entity.setUrl(page.url());
+        entity.setFamily(family);
+        entity.setPayload(writeValue(page));
+        contentPageEntityMapper.updateById(entity);
+      }
+    }
+    for (Map.Entry<String, ContentPageEntity> entry : existing.entrySet()) {
+      if (!seedKeys.contains(entry.getKey())) {
+        contentPageEntityMapper.deleteById(entry.getValue().getId());
+      }
+    }
+  }
+
+  private void syncHomepage(JsonNode homepage) {
+    HomepageEntity entity =
+        homepageEntityMapper.selectOne(
+            Wrappers.lambdaQuery(HomepageEntity.class).eq(HomepageEntity::getSingletonKey, 1));
+    if (entity == null) {
+      entity = new HomepageEntity();
+      entity.setSingletonKey(1);
+      entity.setPayload(writeValue(homepage));
+      homepageEntityMapper.insert(entity);
+    } else {
+      entity.setPayload(writeValue(homepage));
+      homepageEntityMapper.updateById(entity);
     }
   }
 
@@ -517,10 +667,21 @@ public class DataStore {
     }
     String title = legacy.h1() != null && !legacy.h1().isEmpty() ? legacy.h1() : legacy.title();
     return new ContentPage(
-        legacy.url(), legacy.family(), null, title, legacy.title(), legacy.hero(), blocks);
+        legacy.url(), legacy.family(), null, title, legacy.title(), legacy.hero(), null, blocks);
   }
 
   private void buildIndexes() {
+    categoryBySlug.clear();
+    productBySlug.clear();
+    productById.clear();
+    productCategoryById.clear();
+    productCategoryNames.clear();
+    productAliasNames.clear();
+    catalogPageBySlug.clear();
+    catalogPageByUrl.clear();
+    contentPageByUrl.clear();
+    pagesByFamily.clear();
+
     // Product -> category attribution: catalog pages win, then categories
     // (mirrors findCategoryNameForProductId in src/lib/catalog.ts).
     for (CatalogPage page : catalogPages) {

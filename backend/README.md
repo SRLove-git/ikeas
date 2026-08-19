@@ -80,11 +80,14 @@ After re-running the frontend data export, regenerate the backend copy with:
 node scripts/export-server-data.mjs
 ```
 
-On first startup, Flyway creates the current schema (including `product`,
+On startup, Flyway creates the current schema (including `product`,
 `catalog_category`, `menu_category`, `menu_panel`, `catalog_page`,
-`content_page`, `homepage`, `cart_item`, and `chat_message`) and the
-application seeds these content tables from the bundled JSON files. After that,
-the REST API reads content from PostgreSQL via MyBatis-Plus. Shopping bag and
+`content_page`, `homepage`, `cart_item`, `chat_message`, `site_setting`,
+`changelog_entry`, and `chat_knowledge`) and the
+application reconciles these content tables from the bundled JSON files on
+every start (inserting/updating/soft-deleting rows to match the seed), so
+backend data does not go stale after `node scripts/export-server-data.mjs`.
+The REST API reads content from PostgreSQL via MyBatis-Plus. Shopping bag and
 customer-service chat history are also persisted in PostgreSQL instead of
 in-memory storage.
 
@@ -118,6 +121,32 @@ never reaches the browser.
 | `GET /api/v1/admin/orders/{orderNo}` | One order |
 | `PUT /api/v1/admin/orders/{orderNo}` | Update order status, shipping fields, or delivery fee |
 | `DELETE /api/v1/admin/orders/{orderNo}` | Soft-delete an order and its items |
+| `GET /api/v1/admin/pages` (also `/api/admin/pages`) | List CMS content pages (`family`, `q`) |
+| `POST /api/v1/admin/pages` (also `/api/admin/pages`) | Create a content page |
+| `GET /api/v1/admin/pages/{key}` (also `/api/admin/pages/{key}`) | One content page by base64url-encoded URL |
+| `PUT /api/v1/admin/pages/{key}` (also `/api/admin/pages/{key}`) | Update a content page |
+| `DELETE /api/v1/admin/pages/{key}` (also `/api/admin/pages/{key}`) | Soft-delete a content page |
+| `GET /api/v1/admin/homepage` (also `/api/admin/homepage`) | Current homepage payload |
+| `PUT /api/v1/admin/homepage` (also `/api/admin/homepage`) | Update known homepage fields (`{ "updates": { ... } }`) |
+| `GET /api/v1/admin/menu` (also `/api/admin/menu`) | Header menu panels and categories |
+| `PUT /api/v1/admin/menu` (also `/api/admin/menu`) | Replace menu panels/categories |
+| `GET /api/v1/admin/catalog-pages` (also `/api/admin/catalog-pages`) | List category landing pages |
+| `POST /api/v1/admin/catalog-pages` (also `/api/admin/catalog-pages`) | Create a category landing page |
+| `GET /api/v1/admin/catalog-pages/{slug}` (also `/api/admin/catalog-pages/{slug}`) | One landing page |
+| `PUT /api/v1/admin/catalog-pages/{slug}` (also `/api/admin/catalog-pages/{slug}`) | Update a landing page |
+| `DELETE /api/v1/admin/catalog-pages/{slug}` (also `/api/admin/catalog-pages/{slug}`) | Soft-delete a landing page |
+| `GET /api/v1/admin/categories` (also `/api/admin/categories`) | Catalog/channel categories |
+| `PUT /api/v1/admin/categories` (also `/api/admin/categories`) | Replace catalog/channel categories |
+| `GET /api/v1/admin/products` (also `/api/admin/products`) | List products (`q`, `page`, `pageSize`) |
+| `POST /api/v1/admin/products` (also `/api/admin/products`) | Create a product |
+| `GET /api/v1/admin/products/{id}` (also `/api/admin/products/{id}`) | One product with category links |
+| `PUT /api/v1/admin/products/{id}` (also `/api/admin/products/{id}`) | Update a product |
+| `DELETE /api/v1/admin/products/{id}` (also `/api/admin/products/{id}`) | Soft-delete a product |
+| `GET /api/v1/admin/settings` (also `/api/admin/settings`) | Site settings |
+| `PUT /api/v1/admin/settings` (also `/api/admin/settings`) | Replace site settings |
+| `GET /api/v1/admin/changelog` (also `/api/admin/changelog`) | Changelog entries |
+| `GET /api/v1/admin/chat-knowledge` (also `/api/admin/chat-knowledge`) | Chat knowledge base |
+| `PUT /api/v1/admin/chat-knowledge` (also `/api/admin/chat-knowledge`) | Replace chat knowledge base |
 
 ### Health & stats
 

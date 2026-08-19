@@ -18,6 +18,6 @@ public class WebConfig implements WebMvcConfigurer {
   public void addInterceptors(InterceptorRegistry registry) {
     registry
         .addInterceptor(adminKeyInterceptor)
-        .addPathPatterns("/api/v1/admin/**");
+        .addPathPatterns("/api/v1/admin/**", "/api/admin/**");
   }
 }
