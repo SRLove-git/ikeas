@@ -115,9 +115,9 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
                           {/* eslint-disable-next-line @next/next/no-img-element */}
                           <img
                             className="disable-event"
-                            src="/images/logo/logo.jpg"
+                            src="/images/logo/logo.png"
                             alt="CHUNG YIP HOLDING"
-                            width={48}
+                            width={78}
                             height={64}
                           />
                         </Link>
