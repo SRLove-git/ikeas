@@ -1,9 +1,9 @@
 "use client"
 
 import { useEffect, useState } from "react"
-import Link from "next/link"
 import { useRouter } from "next/navigation"
 import { useAuth } from "@/lib/auth"
+import { Breadcrumbs } from "@/components/Breadcrumbs"
 
 interface ShippingAddress {
   id: string
@@ -204,17 +204,7 @@ export function AddressBookPanel() {
   return (
     <div className="font-ikea min-h-screen bg-ikea-gray-100 text-ikea-black">
       <div className="max-w-page mx-auto px-5 py-10 lg:px-10">
-        <nav className="mb-6 flex items-center gap-2 text-sm text-ikea-muted">
-          <Link href="/" className="hover:text-ikea-black">
-            首页
-          </Link>
-          <span>/</span>
-          <Link href="/cn/zh/profile/" className="hover:text-ikea-black">
-            我的个人档案
-          </Link>
-          <span>/</span>
-          <span className="text-ikea-black">收货地址</span>
-        </nav>
+        <Breadcrumbs currentLabel="收货地址" />
 
         <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
           <h1 className="text-2xl font-bold leading-9">收货地址</h1>

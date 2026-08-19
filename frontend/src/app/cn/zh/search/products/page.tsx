@@ -13,6 +13,7 @@ import {
   type ProductSearchSort,
   type SearchProduct,
 } from "@/lib/product-search"
+import { Breadcrumbs } from "@/components/Breadcrumbs"
 
 export const dynamic = "force-dynamic"
 
@@ -159,13 +160,7 @@ export default async function SearchProductsPage({
     <SiteLayout>
       <div className="font-ikea min-h-screen bg-white text-ikea-black">
         <div className="max-w-page mx-auto px-5 py-8 lg:px-10">
-          <nav className="mb-8 flex items-center gap-2 text-sm text-ikea-muted">
-            <Link href="/" className="hover:text-ikea-black">
-              首页
-            </Link>
-            <span>/</span>
-            <span className="text-ikea-black">搜索</span>
-          </nav>
+          <Breadcrumbs currentLabel="搜索" className="mb-8" />
 
           <div className="flex flex-col gap-5 lg:flex-row lg:items-end lg:justify-between">
             <div>

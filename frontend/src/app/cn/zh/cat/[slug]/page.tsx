@@ -9,6 +9,7 @@ import { productSlugsWithDetails } from "@/lib/catalog"
 import { formatPrice } from "@/lib/catalog-format"
 import { ContentBlocks } from "@/components/ContentBlocks"
 import { SiteLayout } from "@/components/SiteLayout"
+import { Breadcrumbs } from "@/components/Breadcrumbs"
 
 export const dynamicParams = false
 
@@ -46,32 +47,13 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
     const { category, sub } = match
     const title = sub?.name ?? category.name
     const products = category.products
-    const parentHref = `/cn/zh/cat/${category.slug}`
     const landingPage = findCatalogPageBySlug(slug)
 
     return (
       <SiteLayout>
         <div className="font-ikea min-h-screen bg-white text-ikea-black">
           <div className="max-w-page mx-auto px-5 py-8 lg:px-10">
-            <nav className="mb-6 flex items-center gap-2 text-sm text-ikea-muted">
-              <Link href="/" className="hover:text-ikea-black">
-                首页
-              </Link>
-              <span>/</span>
-              <Link href="/cn/zh/all-products" className="hover:text-ikea-black">
-                所有商品
-              </Link>
-              {sub ? (
-                <>
-                  <span>/</span>
-                  <Link href={parentHref} className="hover:text-ikea-black">
-                    {category.name}
-                  </Link>
-                </>
-              ) : null}
-              <span>/</span>
-              <span className="text-ikea-black">{title}</span>
-            </nav>
+            <Breadcrumbs currentLabel={title} />
 
             <h1 className="text-2xl font-bold leading-9 lg:text-3xl">{title}</h1>
             <p className="mt-2 text-sm text-ikea-muted">共 {products.length} 件商品</p>
@@ -118,17 +100,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
     <SiteLayout>
       <div className="font-ikea min-h-screen bg-white text-ikea-black">
         <div className="max-w-page mx-auto px-5 py-8 lg:px-10">
-          <nav className="mb-6 flex items-center gap-2 text-sm text-ikea-muted">
-            <Link href="/" className="hover:text-ikea-black">
-              首页
-            </Link>
-            <span>/</span>
-            <Link href="/cn/zh/all-products" className="hover:text-ikea-black">
-              所有商品
-            </Link>
-            <span>/</span>
-            <span className="text-ikea-black">{page.name}</span>
-          </nav>
+          <Breadcrumbs currentLabel={page.name} />
 
           <h1 className="text-2xl font-bold leading-9 lg:text-3xl">{page.name}</h1>
           {page.description ? (

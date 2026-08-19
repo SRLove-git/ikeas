@@ -5,6 +5,7 @@ import { useEffect, useState } from "react"
 import { useRouter } from "next/navigation"
 import { SiteImage } from "@/components/SiteImage"
 import { useAuth } from "@/lib/auth"
+import { Breadcrumbs } from "@/components/Breadcrumbs"
 import { apiJson, type Cart } from "@/lib/api"
 import { formatPrice } from "@/lib/catalog-format"
 
@@ -126,13 +127,7 @@ export function CartPage() {
   return (
     <div className="font-ikea min-h-screen bg-white text-ikea-black">
       <div className="max-w-page mx-auto px-5 py-10 lg:px-10">
-        <nav className="mb-6 flex items-center gap-2 text-sm text-ikea-muted">
-          <Link href="/" className="hover:text-ikea-black">
-            首页
-          </Link>
-          <span>/</span>
-          <span className="text-ikea-black">购物袋</span>
-        </nav>
+        <Breadcrumbs currentLabel="购物袋" />
 
         <div className="flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
           <h1 className="text-2xl font-bold leading-9 lg:text-3xl">购物袋({totalQuantity})</h1>

@@ -5,6 +5,7 @@ import Link from "next/link"
 import { useRouter } from "next/navigation"
 import { useAuth } from "@/lib/auth"
 import { CartIcon, CompassIcon, HeartIcon, HomeIcon, TruckIcon } from "@/components/icons"
+import { Breadcrumbs } from "@/components/Breadcrumbs"
 
 type ProfileTab = "account" | "password"
 
@@ -111,13 +112,7 @@ export function ProfilePanel() {
   return (
     <div className="font-ikea min-h-screen bg-white text-ikea-black">
       <div className="max-w-page mx-auto px-5 py-10 lg:px-10">
-        <nav className="mb-6 flex items-center gap-2 text-sm text-ikea-muted">
-          <Link href="/" className="hover:text-ikea-black">
-            首页
-          </Link>
-          <span>/</span>
-          <span className="text-ikea-black">我的个人档案</span>
-        </nav>
+        <Breadcrumbs currentLabel="我的个人档案" />
 
         <section className="flex flex-col gap-6 border border-ikea-gray-200 p-6 md:flex-row md:items-center md:justify-between md:p-8">
           <div className="flex items-center gap-5">

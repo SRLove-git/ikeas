@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { catalogData } from "@/data/catalog";
 import { catalogPages } from "@/lib/catalog-pages";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
 
 export default function AllProductsPage() {
   const { catalogCategories } = catalogData();
@@ -29,13 +30,7 @@ export default function AllProductsPage() {
   return (
     <main className="font-ikea min-h-screen bg-white text-ikea-black">
       <div className="max-w-page mx-auto px-5 py-8 lg:px-10">
-        <nav className="mb-6 flex items-center gap-2 text-sm text-ikea-muted">
-          <Link href="/" className="hover:text-ikea-black">
-            首页
-          </Link>
-          <span>/</span>
-          <span className="text-ikea-black">所有商品</span>
-        </nav>
+        <Breadcrumbs currentLabel="所有商品" />
         <h1 className="text-2xl font-bold leading-9 lg:text-3xl">所有商品</h1>
 
         <div className="mt-5 grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-4">

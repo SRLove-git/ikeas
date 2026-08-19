@@ -3,6 +3,7 @@ import { SiteLayout } from "@/components/SiteLayout";
 import { SiteImage } from "@/components/SiteImage";
 import { allProducts } from "@/data/products-index";
 import { formatPrice } from "@/lib/catalog";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
 
 export default function ComparePage() {
   const items = allProducts().slice(0, 3);
@@ -19,13 +20,7 @@ export default function ComparePage() {
     <SiteLayout>
       <div className="font-ikea min-h-screen bg-white text-ikea-black">
         <div className="max-w-page mx-auto px-5 py-10 lg:px-10">
-          <nav className="mb-6 flex items-center gap-2 text-sm text-ikea-muted">
-            <Link href="/" className="hover:text-ikea-black">
-              首页
-            </Link>
-            <span>/</span>
-            <span className="text-ikea-black">商品对比</span>
-          </nav>
+          <Breadcrumbs currentLabel="商品对比" />
 
           <h1 className="text-2xl font-bold leading-9">商品对比</h1>
 

@@ -1,4 +1,3 @@
-import Link from "next/link"
 import { notFound } from "next/navigation"
 import { catalogData } from "@/data/catalog"
 import { findProductBySlug, formatPrice } from "@/lib/catalog"
@@ -9,6 +8,7 @@ import { SiteLayout } from "@/components/SiteLayout"
 import { BrowsingHistoryTracker } from "@/components/BrowsingHistoryTracker"
 import { allProducts } from "@/data/products-index"
 import type { CatalogProduct } from "@/data/catalog"
+import { Breadcrumbs } from "@/components/Breadcrumbs"
 
 export const dynamicParams = false
 
@@ -27,7 +27,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
   const match = findProductBySlug(slug)
   if (!match) notFound()
 
-  const { product, category } = match
+  const { product } = match
   const detail = product.detail
   const spec = [product.productType, product.designText].filter(Boolean).join(", ")
   const similar: CatalogProduct[] = allProducts()
@@ -64,27 +64,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
       <div className="font-ikea min-h-screen bg-white text-ikea-black">
         <div className="max-w-page mx-auto px-5 py-8 lg:px-10">
           <BrowsingHistoryTracker productId={product.id} />
-          <nav className="mb-4 flex flex-wrap items-center gap-2 text-sm text-ikea-muted">
-            <Link href="/" className="hover:text-ikea-black">
-              首页
-            </Link>
-            <span>/</span>
-            <Link href="/cn/zh/all-products" className="hover:text-ikea-black">
-              所有商品
-            </Link>
-            <span>/</span>
-            {category ? (
-              <Link href={category.href} className="hover:text-ikea-black">
-                {category.name}
-              </Link>
-            ) : (
-              <Link href="/cn/zh/all-products" className="hover:text-ikea-black">
-                所有商品
-              </Link>
-            )}
-            <span>/</span>
-            <span className="text-ikea-black">{product.name}</span>
-          </nav>
+          <Breadcrumbs currentLabel={product.name} className="mb-4" />
 
           <div className="grid gap-10 lg:grid-cols-2">
             <ProductGallery images={detail?.images ?? []} name={product.name} />

@@ -1,9 +1,9 @@
-import type { Metadata } from "next";
-import localFont from "next/font/local";
-import "./globals.css";
-import "./ikea-components.css";
-import { AuthProvider } from "@/lib/auth";
-import { getSettings } from "@/lib/admin-store";
+import type { Metadata } from "next"
+import localFont from "next/font/local"
+import "./globals.css"
+import "./ikea-components.css"
+import { AuthProvider } from "@/lib/auth"
+import { getSettings } from "@/lib/admin-store"
 
 const notoIkeaLatin = localFont({
   src: [
@@ -30,7 +30,7 @@ const notoIkeaLatin = localFont({
   ],
   variable: "--font-ikea-latin",
   display: "swap",
-});
+})
 
 const notoIkeaSc = localFont({
   src: [
@@ -47,23 +47,23 @@ const notoIkeaSc = localFont({
   ],
   variable: "--font-ikea-sc",
   display: "swap",
-});
+})
 
 export async function generateMetadata(): Promise<Metadata> {
-  const settings = getSettings();
+  const settings = getSettings()
   return {
     title: settings.siteName,
     description: settings.siteDescription,
     icons: {
       icon: "/seo/favicon.ico",
     },
-  };
+  }
 }
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode;
+  children: React.ReactNode
 }>) {
   return (
     <html
@@ -74,5 +74,5 @@ export default function RootLayout({
         <AuthProvider>{children}</AuthProvider>
       </body>
     </html>
-  );
+  )
 }

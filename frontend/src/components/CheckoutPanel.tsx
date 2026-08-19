@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { SiteImage } from "@/components/SiteImage";
 import { useAuth } from "@/lib/auth";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
 import {
   apiJson,
   type Cart,
@@ -166,13 +167,7 @@ export function CheckoutPanel() {
   return (
     <div className="font-ikea min-h-screen bg-ikea-gray-100 text-ikea-black">
       <div className="max-w-page mx-auto px-5 py-10 lg:px-10">
-        <nav className="mb-6 flex items-center gap-2 text-sm text-ikea-muted">
-          <Link href="/" className="hover:text-ikea-black">
-            首页
-          </Link>
-          <span>/</span>
-          <span className="text-ikea-black">结算</span>
-        </nav>
+        <Breadcrumbs currentLabel="结算" />
 
         <h1 className="text-2xl font-bold leading-9">结算</h1>
 

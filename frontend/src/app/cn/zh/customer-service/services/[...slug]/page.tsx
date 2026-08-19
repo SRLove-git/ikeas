@@ -32,7 +32,7 @@ export default async function ServiceSubPage({
 
   return (
     <SiteLayout>
-      <ContentPage page={page} parentLabel="客户服务" parentHref="/cn/zh/customer-service/services/" />
+      <ContentPage page={page} />
     </SiteLayout>
   );
 }

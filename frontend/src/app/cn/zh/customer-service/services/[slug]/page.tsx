@@ -28,7 +28,7 @@ export default async function ServicePage({
 
   return (
     <SiteLayout>
-      <ContentPage page={page} parentLabel="客户服务" parentHref="/cn/zh/landing-page/cn--zh--9bdb3af1c07611e8affa0d09be91682d" />
+      <ContentPage page={page} />
     </SiteLayout>
   );
 }
