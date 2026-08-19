@@ -4,6 +4,7 @@ import { loadDataJsonOptional } from "@/lib/data-files";
 const FAMILY_FILES = [
   "customer-service",
   "company",
+  "legal",
   "root",
 ] as const;
 

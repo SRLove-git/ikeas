@@ -1,9 +1,9 @@
 {
   "openapi": "3.0.3",
   "info": {
-    "title": "BUZUD 内容页接口（公司介绍 / 组织架构 / 联系我们）",
-    "version": "1.4.0",
-    "description": "公司介绍页、组织架构页与联系我们页（/cn/zh/company、/cn/zh/organization、/cn/zh/customer-service/contact-us/）及客户服务总览页（/cn/zh/customer-service/）的内容接口契约，供后端对接。\n\n鉴权说明：管理端接口（/api/admin/**）要求管理端登录会话，登录成功后由服务端写入 HttpOnly Cookie `ikea_admin_session`，请求无需携带 Authorization 头；公共只读接口（/api/v1/pages）无需鉴权。\n\n页面 key 为页面 URL 的 base64url 编码，例如 `/cn/zh/company` 的 key 为 `L2NuL3poL2NvbXBhbnk`；`/cn/zh/customer-service/` 的 key 为 `L2NuL3poL2N1c3RvbWVyLXNlcnZpY2Uv`。\n\nv1.4.0（导航与下拉菜单）变更：新增 GET /api/v1/pages/families（内容页栏目统计）、GET /api/v1/menu-panels（顶部导航下拉菜单面板：公司介绍/组织架构/客户服务等，面板 links 支持 # 锚点定位页面区块，如 /cn/zh/company#company-about）、GET /api/v1/categories/menu（「所有商品」分类菜单，Mega 菜单左侧分类 + 右侧子分类）；homepage.navMenuItems 新增 menuPanelLabel 字段（绑定下拉面板 label，与 hasMegaMenu 二选一）；公司介绍/组织架构页区块新增 settings.sectionId 锚点，组织架构页 corporate-team-tabs 支持 #board-of-directors / #supervisory-board / #management-team 页签定位。\n\nv1.3.0（客户服务总览页）变更：新增 5 种区块类型 `support-search-hero`（搜索 Hero：texts 第 1 项为眉题、第 2 项为副标题，links 为热门服务标签，settings.placeholder 为搜索占位文案）、`support-quick-services`（快捷服务图标卡片，items 为 { title, text, href, icon }）、`support-assurances`（服务保障图标卡，items 为 { title, text, icon }）、`support-faq`（可搜索问答折叠区，texts 按「问题、答案」成对排列，settings.sectionId=faq 供锚点定位）、`support-contact-banner`（获取帮助横幅，images 为背景图、links 为按钮）；ContactItem/图标枚举新增 shield、wrench、box、truck、gift、clock、badge。首页数据变更：heroSlides 轮播数组已改为 heroVideo 单视频对象（video/poster/href/alt），影响 GET /api/v1/homepage 与 /api/v1/homepage/{section} 的返回结构。\n\nv1.2.0（联系我们页）变更：PageData 新增 `subtitle` 字段（页面头部 Hero 副标题）；新增区块类型 `contact-channels`（联系渠道/门店图标卡片，items 为 ContactItem，含 `icon`）与 `contact-list`（联系事项列表行，items 为 ContactItem）；新增公共只读接口 GET /api/v1/pages，可通过 `?url=` 按页面地址取单页，供后端直接下发页面内容。"
+    "title": "BUZUD 内容页接口（公司介绍 / 组织架构 / 联系我们 / 法律与条款）",
+    "version": "1.5.0",
+    "description": "公司介绍页、组织架构页、联系我们页（/cn/zh/company、/cn/zh/organization、/cn/zh/customer-service/contact-us/）、客户服务总览页（/cn/zh/customer-service/）及法律与条款页（/cn/zh/privacy-policy、/cn/zh/conditions-of-use、/cn/zh/online-purchase-agreement）的内容接口契约，供后端对接。\n\n鉴权说明：管理端接口（/api/admin/**）要求管理端登录会话，登录成功后由服务端写入 HttpOnly Cookie `ikea_admin_session`，请求无需携带 Authorization 头；公共只读接口（/api/v1/pages）无需鉴权。\n\n页面 key 为页面 URL 的 base64url 编码，例如 `/cn/zh/company` 的 key 为 `L2NuL3poL2NvbXBhbnk`；`/cn/zh/customer-service/` 的 key 为 `L2NuL3poL2N1c3RvbWVyLXNlcnZpY2Uv`；`/cn/zh/privacy-policy` 的 key 为 `L2NuL3poL3ByaXZhY3ktcG9saWN5`。\n\nv1.5.0（法律与条款页面）变更：新增 legal 栏目（family=legal），包含隐私政策（/cn/zh/privacy-policy）、使用条款（/cn/zh/conditions-of-use）、在线购买协议（/cn/zh/online-purchase-agreement）三页；GET /api/v1/pages 的 family 参数与 PageData.family 枚举新增 legal；法律页全部由 pub-text 区块构成（title=章节标题，texts=章节正文），占位内容参考华为对应页面结构整理。\n\nv1.4.0（导航与下拉菜单）变更：新增 GET /api/v1/pages/families（内容页栏目统计）、GET /api/v1/menu-panels（顶部导航下拉菜单面板：公司介绍/组织架构/客户服务等，面板 links 支持 # 锚点定位页面区块，如 /cn/zh/company#company-about）、GET /api/v1/categories/menu（「所有商品」分类菜单，Mega 菜单左侧分类 + 右侧子分类）；homepage.navMenuItems 新增 menuPanelLabel 字段（绑定下拉面板 label，与 hasMegaMenu 二选一）；公司介绍/组织架构页区块新增 settings.sectionId 锚点，组织架构页 corporate-team-tabs 支持 #board-of-directors / #supervisory-board / #management-team 页签定位。\n\nv1.3.0（客户服务总览页）变更：新增 5 种区块类型 `support-search-hero`（搜索 Hero：texts 第 1 项为眉题、第 2 项为副标题，links 为热门服务标签，settings.placeholder 为搜索占位文案）、`support-quick-services`（快捷服务图标卡片，items 为 { title, text, href, icon }）、`support-assurances`（服务保障图标卡，items 为 { title, text, icon }）、`support-faq`（可搜索问答折叠区，texts 按「问题、答案」成对排列，settings.sectionId=faq 供锚点定位）、`support-contact-banner`（获取帮助横幅，images 为背景图、links 为按钮）；ContactItem/图标枚举新增 shield、wrench、box、truck、gift、clock、badge。首页数据变更：heroSlides 轮播数组已改为 heroVideo 单视频对象（video/poster/href/alt），影响 GET /api/v1/homepage 与 /api/v1/homepage/{section} 的返回结构。\n\nv1.2.0（联系我们页）变更：PageData 新增 `subtitle` 字段（页面头部 Hero 副标题）；新增区块类型 `contact-channels`（联系渠道/门店图标卡片，items 为 ContactItem，含 `icon`）与 `contact-list`（联系事项列表行，items 为 ContactItem）；新增公共只读接口 GET /api/v1/pages，可通过 `?url=` 按页面地址取单页，供后端直接下发页面内容。"
   },
   "servers": [
     {
@@ -14,7 +14,7 @@
   "tags": [
     {
       "name": "新页面内容",
-      "description": "公司介绍与组织架构页面内容管理"
+      "description": "内容页管理：公司介绍 / 组织架构 / 客户服务 / 法律与条款（管理端 API）"
     },
     {
       "name": "内容页公共读取",
@@ -46,8 +46,8 @@
             "name": "family",
             "in": "query",
             "required": false,
-            "schema": { "type": "string", "enum": ["company", "customer-service"] },
-            "description": "栏目过滤，与 url 互斥"
+            "schema": { "type": "string", "enum": ["company", "customer-service", "legal"] },
+            "description": "栏目过滤，与 url 互斥；company = 公司介绍/组织架构，customer-service = 客户服务（含联系我们），legal = 法律与条款（隐私政策/使用条款/在线购买协议）"
           },
           {
             "name": "depth",
@@ -359,6 +359,58 @@
                         }
                       ]
                     }
+                  },
+                  "privacyPolicy": {
+                    "summary": "隐私政策页（/cn/zh/privacy-policy，family=legal，示例为节选）",
+                    "value": {
+                      "url": "/cn/zh/privacy-policy",
+                      "family": "legal",
+                      "id": "buzud-privacy-policy",
+                      "title": "隐私政策",
+                      "name": "CHUNG YIP HOLDING 隐私政策",
+                      "hero": null,
+                      "subtitle": "本页面为参考公开资料整理的占位内容，正式隐私政策将在此发布。",
+                      "blocks": [
+                        {
+                          "type": "pub-text",
+                          "title": null,
+                          "texts": [
+                            "CHUNG YIP HOLDING PTE. LTD.（以下简称「我们」「BUZUD」或「本公司」）深知隐私对您的重要性，并会尊重您的隐私。请在向 BUZUD 提交个人信息之前，阅读、了解本《隐私政策》（下文简称「本政策」）。",
+                            "（占位内容：本政策参考公开资料整理，正式版本待公司确认后替换；公司注册信息、联系方式、生效日期等以正式版为准。）"
+                          ],
+                          "images": [],
+                          "links": [],
+                          "items": [],
+                          "productIds": [],
+                          "settings": { "traceId": "" }
+                        },
+                        {
+                          "type": "pub-text",
+                          "title": "1. 我们如何收集和使用您的个人信息",
+                          "texts": [
+                            "个人信息是指以电子或者其他方式记录的与已识别或者可识别的自然人有关的各种信息，不包括匿名化处理后的信息。您在注册账号或下单时，我们可能要求您提供姓名、账号、密码、邮箱、联系电话、收货地址等（占位内容，具体收集范围以正式版为准）。"
+                          ],
+                          "images": [],
+                          "links": [],
+                          "items": [],
+                          "productIds": [],
+                          "settings": { "traceId": "" }
+                        },
+                        {
+                          "type": "pub-text",
+                          "title": "10. 如何联系我们",
+                          "texts": [
+                            "联系邮箱：（占位内容，正式邮箱待确认）；公司地址：（占位内容，待确认）。",
+                            "最近更新日期：（占位内容，待确认）"
+                          ],
+                          "images": [],
+                          "links": [{ "href": "/cn/zh/customer-service/contact-us/", "text": "联系我们" }],
+                          "items": [],
+                          "productIds": [],
+                          "settings": { "traceId": "" }
+                        }
+                      ]
+                    }
                   }
                 }
               }
@@ -381,13 +433,13 @@
         "summary": "内容页栏目统计（family -> 页面数）",
         "responses": {
           "200": {
-            "description": "各栏目页面数量，如 company=2、customer-service=3",
+            "description": "各栏目页面数量，如 company=2、customer-service=3、legal=3",
             "content": {
               "application/json": {
                 "schema": {
                   "type": "object",
                   "additionalProperties": { "type": "integer" },
-                  "example": { "company": 2, "customer-service": 3 }
+                  "example": { "company": 2, "customer-service": 3, "legal": 3 }
                 }
               }
             }
@@ -496,14 +548,14 @@
     "/api/admin/pages": {
       "get": {
         "tags": ["新页面内容"],
-        "summary": "查询公司介绍/组织架构页面列表",
+        "summary": "查询内容页列表（公司介绍/组织架构/客户服务/法律与条款）",
         "parameters": [
           {
             "name": "family",
             "in": "query",
             "required": false,
-            "schema": { "type": "string", "enum": ["company", "customer-service"] },
-            "description": "栏目过滤，company = 公司介绍/组织架构；customer-service = 客户服务（含联系我们）"
+            "schema": { "type": "string", "enum": ["company", "customer-service", "legal"] },
+            "description": "栏目过滤：company = 公司介绍/组织架构；customer-service = 客户服务（含联系我们）；legal = 法律与条款（隐私政策/使用条款/在线购买协议）"
           }
         ],
         "responses": {
@@ -553,14 +605,14 @@
     "/api/admin/pages/{key}": {
       "get": {
         "tags": ["新页面内容"],
-        "summary": "获取公司介绍/组织架构页面详情",
+        "summary": "获取内容页详情",
         "parameters": [
           {
             "name": "key",
             "in": "path",
             "required": true,
             "schema": { "type": "string" },
-            "description": "页面 URL 的 base64url，如 `/cn/zh/company` -> `L2NuL3poL2NvbXBhbnk`；`/cn/zh/customer-service/contact-us/` -> `L2NuL3poL2N1c3RvbWVyLXNlcnZpY2UvY29udGFjdC11cy8`"
+            "description": "页面 URL 的 base64url，如 `/cn/zh/company` -> `L2NuL3poL2NvbXBhbnk`；`/cn/zh/customer-service/contact-us/` -> `L2NuL3poL2N1c3RvbWVyLXNlcnZpY2UvY29udGFjdC11cy8`；`/cn/zh/privacy-policy` -> `L2NuL3poL3ByaXZhY3ktcG9saWN5`"
           }
         ],
         "responses": {
@@ -585,7 +637,7 @@
       },
       "put": {
         "tags": ["新页面内容"],
-        "summary": "更新公司介绍/组织架构页面内容",
+        "summary": "更新内容页内容",
         "parameters": [
           {
             "name": "key",
@@ -624,7 +676,7 @@
       },
       "delete": {
         "tags": ["新页面内容"],
-        "summary": "删除公司介绍/组织架构页面",
+        "summary": "删除内容页",
         "parameters": [
           {
             "name": "key",
@@ -694,7 +746,7 @@
         "properties": {
           "type": {
             "type": "string",
-            "description": "区块类型：pub-text、corporate-hero、corporate-about、corporate-stats、corporate-timeline、corporate-policy、corporate-text（公司/组织页文字区块）、corporate-pic-text（图文版式：图片 + 治理文字 + 展开/收起）、corporate-team-tabs（成员分栏页签）、corporate-team（成员卡片网格）、contact-channels（联系渠道/门店图标卡片，items 为 ContactItem）、contact-list（联系事项列表行，items 为 ContactItem）、pub-expandable-area（问答折叠区，texts 按「问题、答案」成对排列）、support-search-hero（客户服务搜索 Hero：texts 第 1 项眉题、第 2 项副标题，links 热门服务标签，settings.placeholder 搜索占位）、support-quick-services（快捷服务图标卡片，items 为 { title, text, href, icon }）、support-assurances（服务保障图标卡，items 为 { title, text, icon }）、support-faq（可搜索问答折叠区，texts 按「问题、答案」成对排列，settings.sectionId=faq 供锚点定位）、support-contact-banner（获取帮助横幅：images 背景图，links 按钮）；settings.sectionId 为区块锚点 id（公司页：company-about / company-innovation / company-cooperation / company-timeline / company-policy；组织页：organization-overview / organization-business-units）"
+            "description": "区块类型：pub-text、corporate-hero、corporate-about、corporate-stats、corporate-timeline、corporate-policy、corporate-text（公司/组织页文字区块）、corporate-pic-text（图文版式：图片 + 治理文字 + 展开/收起）、corporate-team-tabs（成员分栏页签）、corporate-team（成员卡片网格）、contact-channels（联系渠道/门店图标卡片，items 为 ContactItem）、contact-list（联系事项列表行，items 为 ContactItem）、pub-expandable-area（问答折叠区，texts 按「问题、答案」成对排列）、support-search-hero（客户服务搜索 Hero：texts 第 1 项眉题、第 2 项副标题，links 热门服务标签，settings.placeholder 搜索占位）、support-quick-services（快捷服务图标卡片，items 为 { title, text, href, icon }）、support-assurances（服务保障图标卡，items 为 { title, text, icon }）、support-faq（可搜索问答折叠区，texts 按「问题、答案」成对排列，settings.sectionId=faq 供锚点定位）、support-contact-banner（获取帮助横幅：images 背景图，links 按钮）；settings.sectionId 为区块锚点 id（公司页：company-about / company-innovation / company-cooperation / company-timeline / company-policy；组织页：organization-overview / organization-business-units）；法律与条款页（legal）全部使用 pub-text 区块（title=章节标题，texts=章节正文）"
           },
           "title": { "type": ["string", "null"] },
           "texts": { "type": "array", "items": { "type": "string" } },
@@ -752,8 +804,8 @@
           "url": { "type": "string", "example": "/cn/zh/company" },
           "family": {
             "type": "string",
-            "enum": ["company", "customer-service"],
-            "description": "company = 公司介绍/组织架构；customer-service = 客户服务（含联系我们）"
+            "enum": ["company", "customer-service", "legal"],
+            "description": "company = 公司介绍/组织架构；customer-service = 客户服务（含联系我们）；legal = 法律与条款（隐私政策/使用条款/在线购买协议）"
           },
           "id": { "type": ["string", "null"] },
           "title": { "type": "string", "example": "公司介绍" },

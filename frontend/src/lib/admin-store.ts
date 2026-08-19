@@ -7,7 +7,7 @@ import { loadDataJson, loadDataJsonOptional } from "@/lib/data-files"
 // files the public site renders from, so admin edits take effect immediately.
 // ---------------------------------------------------------------------------
 
-const FAMILY_FILES = ["customer-service", "company", "root"] as const
+const FAMILY_FILES = ["customer-service", "company", "legal", "root"] as const
 
 const PRODUCT_PARTS = ["part-1", "part-2", "part-3", "part-4", "part-5", "part-6"] as const
 
