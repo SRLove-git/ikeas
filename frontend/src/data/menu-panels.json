@@ -355,40 +355,6 @@
           ]
         }
       ]
-    },
-    {
-      "label": "组织架构",
-      "href": "/cn/zh/organization",
-      "columns": [
-        {
-          "heading": "公司治理",
-          "intro": "了解公司治理架构与组织信息",
-          "cards": [],
-          "thumbnails": [],
-          "links": [
-            {
-              "title": "组织架构总览",
-              "href": "/cn/zh/organization#organization-overview"
-            },
-            {
-              "title": "董事会",
-              "href": "/cn/zh/organization#board-of-directors"
-            },
-            {
-              "title": "监事会",
-              "href": "/cn/zh/organization#supervisory-board"
-            },
-            {
-              "title": "管理团队",
-              "href": "/cn/zh/organization#management-team"
-            },
-            {
-              "title": "业务部门",
-              "href": "/cn/zh/organization#organization-business-units"
-            }
-          ]
-        }
-      ]
     }
   ],
   "appPromotion": {
