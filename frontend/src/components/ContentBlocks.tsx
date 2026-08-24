@@ -847,8 +847,8 @@ function CorporateHeroBlock({ block }: { block: ContentBlock }) {
           <div className="pointer-events-none absolute -bottom-32 right-24 h-80 w-80 rounded-full bg-white/5" />
         </>
       ) : null}
-      <div className="relative flex min-h-[320px] items-center lg:min-h-[440px]">
-        <div className="max-w-page mx-auto w-full px-5 py-16 lg:px-10 lg:py-24">
+      <div className="relative flex min-h-[320px] items-start lg:min-h-[440px]">
+        <div className="max-w-page mx-auto w-full px-5 py-10 lg:px-10 lg:py-16">
           {block.title ? (
             <h2 className="max-w-3xl text-2xl font-bold leading-9 lg:text-4xl lg:leading-[3rem]">
               {block.title}
@@ -858,7 +858,7 @@ function CorporateHeroBlock({ block }: { block: ContentBlock }) {
             <p className="mt-4 max-w-2xl text-sm leading-6 text-white/80">{block.texts[0]}</p>
           ) : null}
           {link?.href ? (
-            <div className="mt-7">
+            <div className="mt-12">
               <BlockLink
                 href={link.href}
                 className="inline-flex h-11 items-center bg-white px-8 text-sm font-bold text-ikea-black transition-colors hover:bg-ikea-gray-100"

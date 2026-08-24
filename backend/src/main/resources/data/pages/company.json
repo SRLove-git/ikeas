@@ -11,7 +11,7 @@
         "type": "corporate-hero",
         "title": "让健康管理融入每个家庭",
         "texts": ["CHUNG YIP 的愿景与使命（内容待补充）"],
-        "images": ["/images/cms/buzud-hero-1-wide.jpg"],
+        "images": ["/images/cms/buzud-hero-company.png"],
         "links": [
           {
             "href": "/cn/zh/all-products/",
@@ -95,35 +95,6 @@
         "settings": {
           "traceId": "",
           "sectionId": "company-cooperation"
-        }
-      },
-      {
-        "type": "corporate-timeline",
-        "title": "发展历程",
-        "texts": [],
-        "images": [],
-        "links": [],
-        "items": [
-          {
-            "year": "2026",
-            "title": "品牌发展",
-            "text": "里程碑内容待补充。"
-          },
-          {
-            "year": "2025",
-            "title": "品牌发展",
-            "text": "里程碑内容待补充。"
-          },
-          {
-            "year": "2024",
-            "title": "品牌发展",
-            "text": "里程碑内容待补充。"
-          }
-        ],
-        "productIds": [],
-        "settings": {
-          "traceId": "",
-          "sectionId": "company-timeline"
         }
       },
       {
