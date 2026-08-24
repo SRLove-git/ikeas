@@ -212,7 +212,7 @@
           "订单多久可以送达？",
           "订单通常会在 3-7 个工作日内送达，本地配送可联系门店客服确认具体时效。",
           "如何联系 BUZUD 客服？",
-          "可拨打 +65 6518 9979 / +65 6518 9269，或发送邮件至 customercare@buzud.com，也可到访新加坡体验门店。",
+          "可拨打 +65 6518 9979 / +65 6518 9269，或发送邮件至 customerservice@chungyip.com，也可到访新加坡体验门店。",
           "支持退换货吗？",
           "保修期内外均提供维修与换货服务，如遇制造或质量问题，可携带产品与发票到门店处理。",
           "如何注册产品保修？",
@@ -609,9 +609,9 @@
           },
           {
             "title": "在线客服 / 邮件",
-            "text": "customercare@buzud.com\n工作日在线回复，售后问题欢迎随时联系",
+            "text": "customerservice@chungyip.com\n工作日在线回复，售后问题欢迎随时联系",
             "image": null,
-            "href": "mailto:customercare@buzud.com",
+            "href": "mailto:customerservice@chungyip.com",
             "icon": "email",
             "backgroundColor": null
           },
@@ -627,7 +627,7 @@
             "title": "意见反馈",
             "text": "欢迎提出宝贵建议\n帮助我们持续改进产品与服务",
             "image": null,
-            "href": "mailto:customercare@buzud.com?subject=%E6%84%8F%E8%A7%81%E5%8F%8D%E9%A6%88",
+            "href": "mailto:customerservice@chungyip.com?subject=%E6%84%8F%E8%A7%81%E5%8F%8D%E9%A6%88",
             "icon": "feedback",
             "backgroundColor": null
           }
@@ -698,15 +698,15 @@
             "title": "商务合作",
             "text": "欢迎渠道商、医疗机构与企业客户洽谈合作，请通过客服邮箱与我们联系。",
             "image": null,
-            "href": "mailto:customercare@buzud.com?subject=%E5%95%86%E5%8A%A1%E5%90%88%E4%BD%9C",
+            "href": "mailto:customerservice@chungyip.com?subject=%E5%95%86%E5%8A%A1%E5%90%88%E4%BD%9C",
             "icon": "partner",
             "backgroundColor": null
           },
           {
             "title": "招聘与求职",
-            "text": "求职相关咨询请发送邮件至 careers@buzud.com。",
+            "text": "求职相关咨询请发送邮件至 careers@chungyip.com。",
             "image": null,
-            "href": "mailto:careers@buzud.com",
+            "href": "mailto:careers@chungyip.com",
             "icon": "careers",
             "backgroundColor": null
           },
@@ -714,7 +714,7 @@
             "title": "意见反馈",
             "text": "对我们的产品与网站有任何建议，欢迎留言告诉我们。",
             "image": null,
-            "href": "mailto:customercare@buzud.com?subject=%E6%84%8F%E8%A7%81%E5%8F%8D%E9%A6%88",
+            "href": "mailto:customerservice@chungyip.com?subject=%E6%84%8F%E8%A7%81%E5%8F%8D%E9%A6%88",
             "icon": "feedback",
             "backgroundColor": null
           },
@@ -722,7 +722,7 @@
             "title": "举报与合规",
             "text": "如发现涉嫌违规或不当行为，可通过客服邮箱向我们反映，我们承诺严格保密。",
             "image": null,
-            "href": "mailto:customercare@buzud.com?subject=%E4%B8%BE%E6%8A%A5%E4%B8%8E%E5%90%88%E8%A7%84",
+            "href": "mailto:customerservice@chungyip.com?subject=%E4%B8%BE%E6%8A%A5%E4%B8%8E%E5%90%88%E8%A7%84",
             "icon": "report",
             "backgroundColor": null
           },
@@ -800,7 +800,7 @@
           "订单多久可以送达？",
           "订单通常会在 3-7 个工作日内送达，本地配送可联系门店客服确认具体时效。",
           "如何联系 CHUNG YIP 客服？",
-          "可拨打 +65 6518 9979 / +65 6518 9269，或发送邮件至 customercare@buzud.com，也可到访新加坡体验门店。",
+          "可拨打 +65 6518 9979 / +65 6518 9269，或发送邮件至 customerservice@chungyip.com，也可到访新加坡体验门店。",
           "支持退换货吗？",
           "保修期内外均提供维修与换货服务，如遇制造或质量问题，可携带产品与发票到门店处理。",
           "如何注册产品保修？",
@@ -823,7 +823,7 @@
         "images": [],
         "links": [
           {
-            "href": "mailto:customercare@buzud.com",
+            "href": "mailto:customerservice@chungyip.com",
             "text": "发送邮件"
           }
         ],
