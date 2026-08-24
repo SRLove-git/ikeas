@@ -880,14 +880,6 @@ function CorporateAboutBlock({ block }: { block: ContentBlock }) {
       ? settings.sectionId.trim()
       : null
   const poster = block.images[0] ?? null
-  const videoSrc =
-    typeof settings.videoSrc === "string" && settings.videoSrc.trim()
-      ? settings.videoSrc.trim()
-      : ""
-  const videoPoster =
-    typeof settings.videoPoster === "string" && settings.videoPoster.trim()
-      ? settings.videoPoster.trim()
-      : poster
   return (
     <section id={sectionId ?? undefined} className="grid gap-6 lg:grid-cols-[280px_1fr] lg:gap-12">
       {block.title ? (
@@ -905,37 +897,16 @@ function CorporateAboutBlock({ block }: { block: ContentBlock }) {
             ))}
           </div>
         ) : null}
-        <div className="relative aspect-video w-full overflow-hidden rounded-lg bg-ikea-gray-100">
-          {videoSrc ? (
-            <video
-              src={videoSrc}
-              poster={videoPoster ?? undefined}
-              controls
-              playsInline
-              preload="metadata"
-              className="absolute inset-0 h-full w-full object-cover"
+        {poster ? (
+          <div className="relative aspect-video w-full overflow-hidden rounded-lg bg-ikea-gray-100">
+            <SiteImage
+              src={poster}
+              alt={block.title ?? ""}
+              className="absolute inset-0 h-full w-full"
+              imgClassName="h-full object-cover"
             />
-          ) : (
-            <>
-              {videoPoster ? (
-                <SiteImage
-                  src={videoPoster}
-                  alt={block.title ?? ""}
-                  className="absolute inset-0 h-full w-full"
-                  imgClassName="h-full object-cover"
-                />
-              ) : null}
-              <div className="absolute inset-0 flex flex-col items-center justify-center gap-3 bg-black/25">
-                <span className="flex h-14 w-14 items-center justify-center rounded-full bg-white text-ikea-blue shadow-md">
-                  <svg viewBox="0 0 24 24" fill="currentColor" className="ml-1 h-6 w-6">
-                    <path d="M8 5v14l11-7z" />
-                  </svg>
-                </span>
-                <span className="text-xs text-white">品牌视频内容待补充</span>
-              </div>
-            </>
-          )}
-        </div>
+          </div>
+        ) : null}
       </div>
     </section>
   )
