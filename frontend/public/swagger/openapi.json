@@ -295,13 +295,13 @@
                       "family": "company",
                       "id": "cn--zh--buzud-company",
                       "title": "公司介绍",
-                      "name": "CHUNG YIP HOLDING 公司介绍",
+                      "name": "CHUNG YIP 公司介绍",
                       "hero": null,
                       "blocks": [
                         {
                           "type": "corporate-hero",
                           "title": "让健康管理融入每个家庭",
-                          "texts": ["CHUNG YIP HOLDING 的愿景与使命（内容待补充）。"],
+                          "texts": ["CHUNG YIP 的愿景与使命（内容待补充）。"],
                           "images": ["/images/cms/buzud-hero-1-wide.jpg"],
                           "links": [
                             { "href": "/cn/zh/all-products/", "text": "了解 BUZUD 健康产品" }
@@ -314,7 +314,7 @@
                           "type": "corporate-about",
                           "title": "公司简介",
                           "texts": [
-                            "CHUNG YIP HOLDING 是新加坡本土医疗设备与健康管理企业，旗下运营 BUZUD 系列健康产品，专注家庭健康自测与监测领域（简介内容待补充）。"
+                            "CHUNG YIP 是新加坡本土医疗设备与健康管理企业，旗下运营 BUZUD 系列健康产品，专注家庭健康自测与监测领域（简介内容待补充）。"
                           ],
                           "images": [],
                           "links": [],
@@ -367,7 +367,7 @@
                       "family": "legal",
                       "id": "buzud-privacy-policy",
                       "title": "隐私政策",
-                      "name": "CHUNG YIP HOLDING 隐私政策",
+                      "name": "CHUNG YIP 隐私政策",
                       "hero": null,
                       "subtitle": "本页面为参考公开资料整理的占位内容，正式隐私政策将在此发布。",
                       "blocks": [

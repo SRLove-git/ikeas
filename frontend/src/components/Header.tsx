@@ -116,7 +116,7 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
                           <img
                             className="disable-event"
                             src="/images/logo/logo.png"
-                            alt="CHUNG YIP HOLDING"
+                            alt="CHUNG YIP"
                             width={78}
                             height={64}
                           />
@@ -180,10 +180,10 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
                               className="header-action-btn header-action-btn--login"
                             >
                               <UserIcon width={24} height={24} />
-                              <span>登录 CHUNG YIP HOLDING 账号</span>
+                              <span>登录 CHUNG YIP 账号</span>
                             </Link>
                           )}
-                          <div className="i-tooltip__body">登录 CHUNG YIP HOLDING 账号</div>
+                          <div className="i-tooltip__body">登录 CHUNG YIP 账号</div>
                         </span>
                       </span>
                       <span className="i-tooltip i-tooltip--bottom">

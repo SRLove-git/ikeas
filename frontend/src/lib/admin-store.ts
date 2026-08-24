@@ -471,10 +471,10 @@ export interface SiteSettings {
 }
 
 const DEFAULT_SETTINGS: SiteSettings = {
-  siteName: "CHUNG YIP HOLDING 健康产品商城 - 家庭健康自测与监测产品",
+  siteName: "CHUNG YIP 健康产品商城 - 家庭健康自测与监测产品",
   siteDescription:
-    "CHUNG YIP HOLDING 健康产品商城，提供快速检测试剂、智能手表、血压计、血糖管理等家庭健康自测与监测产品。",
-  adminTitle: "CHUNG YIP HOLDING 商城内容管理后台",
+    "CHUNG YIP 健康产品商城，提供快速检测试剂、智能手表、血压计、血糖管理等家庭健康自测与监测产品。",
+  adminTitle: "CHUNG YIP 商城内容管理后台",
   siteCopy: {
     notFound: {
       title: "404:哎呀,页面迷路了… 但别担心!",
@@ -483,7 +483,7 @@ const DEFAULT_SETTINGS: SiteSettings = {
     },
     survey: {
       title: "问卷调查",
-      body: "感谢您对 CHUNG YIP HOLDING 的关注。问卷服务即将上线，敬请期待。",
+      body: "感谢您对 CHUNG YIP 的关注。问卷服务即将上线，敬请期待。",
       buttonLabel: "返回首页",
     },
   },

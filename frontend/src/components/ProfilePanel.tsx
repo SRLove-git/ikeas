@@ -172,7 +172,7 @@ export function ProfilePanel() {
             },
             {
               title: "客服",
-              desc: "需要帮助？联系 CHUNG YIP HOLDING 客服",
+              desc: "需要帮助？联系 CHUNG YIP 客服",
               href: "/cn/zh/customer-service/",
               icon: CustomerServiceIcon,
             },
@@ -337,9 +337,9 @@ export function ProfilePanel() {
               </div>
               <div className="divide-y divide-ikea-gray-200">
                 <div className="flex flex-col gap-3 p-5 md:flex-row md:items-start md:justify-between md:gap-6 md:p-6">
-                  <p className="text-sm font-bold">CHUNG YIP HOLDING 会员营销短信</p>
+                  <p className="text-sm font-bold">CHUNG YIP 会员营销短信</p>
                   <p className="max-w-xl text-xs leading-5 text-ikea-muted">
-                    CHUNG YIP HOLDING 将向您发送 CHUNG YIP HOLDING 会员相关的折扣和活动信息短信。如果您不想接收此类信息，
+                    CHUNG YIP 将向您发送 CHUNG YIP 会员相关的折扣和活动信息短信。如果您不想接收此类信息，
                     <button
                       type="button"
                       onClick={() => setAccountNotice("短信营销设置暂未开放，请联系客服办理。")}
@@ -350,9 +350,9 @@ export function ProfilePanel() {
                   </p>
                 </div>
                 <div className="flex flex-col gap-3 p-5 md:flex-row md:items-start md:justify-between md:gap-6 md:p-6">
-                  <p className="text-sm font-bold">CHUNG YIP HOLDING 会员营销邮件</p>
+                  <p className="text-sm font-bold">CHUNG YIP 会员营销邮件</p>
                   <p className="max-w-xl text-xs leading-5 text-ikea-muted">
-                    CHUNG YIP HOLDING 将向您发送 CHUNG YIP HOLDING 会员相关的折扣和活动信息邮件。如果您不想接收此类信息，
+                    CHUNG YIP 将向您发送 CHUNG YIP 会员相关的折扣和活动信息邮件。如果您不想接收此类信息，
                     <button
                       type="button"
                       onClick={() => setAccountNotice("邮件营销设置暂未开放，请联系客服办理。")}
@@ -372,7 +372,7 @@ export function ProfilePanel() {
               <div className="flex flex-col gap-3 p-5 md:flex-row md:items-start md:justify-between md:gap-6 md:p-6">
                 <p className="text-sm font-bold">个性化推荐</p>
                 <p className="max-w-xl text-xs leading-5 text-ikea-muted">
-                  CHUNG YIP HOLDING
+                  CHUNG YIP
                   将为您推荐个性化内容，帮助您更好地挑选商品。如果您想关闭浏览器端的个性化推荐，
                   <button
                     type="button"
@@ -458,7 +458,7 @@ export function ProfilePanel() {
           />
           <aside className="absolute right-0 top-0 flex h-full w-full max-w-[440px] flex-col bg-white shadow-2xl">
             <div className="flex items-center justify-between border-b border-ikea-gray-200 px-6 py-4">
-              <h2 className="text-base font-bold">加入 CHUNG YIP HOLDING 会员俱乐部</h2>
+              <h2 className="text-base font-bold">加入 CHUNG YIP 会员俱乐部</h2>
               <button
                 type="button"
                 aria-label="关闭"
@@ -509,7 +509,7 @@ export function ProfilePanel() {
                     onChange={(event) => setMembershipConsent(event.target.checked)}
                     className="mt-0.5 h-4 w-4"
                   />
-                  我同意接收 CHUNG YIP HOLDING 会员相关折扣和活动信息。
+                  我同意接收 CHUNG YIP 会员相关折扣和活动信息。
                 </label>
               </div>
             </div>

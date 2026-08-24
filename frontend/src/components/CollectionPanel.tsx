@@ -205,7 +205,7 @@ export function CollectionPanel({ inspirationItems, catalogProducts }: Collectio
   if (!user) {
     return (
       <div className="font-ikea flex min-h-[60vh] flex-col items-center justify-center bg-white px-5 py-10 text-center text-ikea-black">
-        <h1 className="text-4xl font-bold leading-[1.4]">登录 CHUNG YIP HOLDING 账户</h1>
+        <h1 className="text-4xl font-bold leading-[1.4]">登录 CHUNG YIP 账户</h1>
         <p className="mt-8 text-base">查看收藏中的内容</p>
         <Link
           href="/cn/zh/profile/login/"

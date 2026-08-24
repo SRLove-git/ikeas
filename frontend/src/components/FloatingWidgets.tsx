@@ -15,7 +15,7 @@ export function FloatingWidgets() {
   const [showChat, setShowChat] = useState(false)
   const [showBackTop, setShowBackTop] = useState(false)
   const [chatMessages, setChatMessages] = useState<ChatMessage[]>([
-    { role: "bot", text: "你好！我是 CHUNG YIP HOLDING 客服助手，请问有什么可以帮你的？" },
+    { role: "bot", text: "你好！我是 CHUNG YIP 客服助手，请问有什么可以帮你的？" },
   ])
   const [chatInput, setChatInput] = useState("")
   const [sendingChat, setSendingChat] = useState(false)
@@ -60,7 +60,7 @@ export function FloatingWidgets() {
         <div className="cloud fixed inset-x-0 bottom-0 z-50 border-t border-ikea-gray-200 bg-white shadow-lg">
           <div className="flex flex-col items-start justify-between gap-3 px-5 py-4 sm:flex-row sm:items-center sm:px-10">
             <p className="text-sm text-ikea-black">
-              CHUNG YIP HOLDING 官网使用 Cookies 提升浏览体验。继续浏览即表示您接受我们的 Cookies 政策。
+              CHUNG YIP 官网使用 Cookies 提升浏览体验。继续浏览即表示您接受我们的 Cookies 政策。
             </p>
             <div className="flex shrink-0 items-center gap-3">
               <button type="button" className="text-sm underline underline-offset-2">
@@ -92,7 +92,7 @@ export function FloatingWidgets() {
       {showChat ? (
         <div className="fixed bottom-24 right-6 z-40 flex h-[420px] w-[320px] flex-col overflow-hidden rounded-lg border border-ikea-gray-200 bg-white shadow-2xl">
           <div className="flex items-center justify-between bg-ikea-black px-4 py-3 text-white">
-            <span className="text-sm font-bold">CHUNG YIP HOLDING 客服</span>
+            <span className="text-sm font-bold">CHUNG YIP 客服</span>
             <button type="button" aria-label="关闭" onClick={() => setShowChat(false)}>
               <CloseIcon width={18} height={18} />
             </button>
