@@ -268,6 +268,7 @@ function ColumnsBlock({ block }: { block: ContentBlock }) {
                   src={column.image}
                   alt={column.heading ?? ""}
                   className="aspect-[16/9] w-full"
+                  imgClassName="object-cover"
                 />
               </div>
             ) : null}

@@ -94,6 +94,12 @@
             "icon": "gift"
           },
           {
+            "title": "健康讲座",
+            "text": "门店健康知识讲座，欢迎咨询参加",
+            "href": "/cn/zh/customer-service/contact-us/",
+            "icon": "document"
+          },
+          {
             "title": "门店查询",
             "text": "新加坡三家体验店",
             "href": "/cn/zh/customer-service/contact-us/#stores",
@@ -601,9 +607,9 @@
         "items": [
           {
             "title": "客服热线 / WhatsApp",
-            "text": "+65 6518 9979 / +65 6518 9269\n周一至周五 9am-8pm；周六周日 10am-7pm",
+            "text": "+65 83811666\n周一至周五 9am-8pm；周六周日 10am-7pm",
             "image": null,
-            "href": "tel:+6565189979",
+            "href": "tel:+6583811666",
             "icon": "phone",
             "backgroundColor": null
           },
@@ -658,9 +664,9 @@
         "items": [
           {
             "title": "Raffles Hospital",
-            "text": "585 North Bridge Road, #01-02, Singapore 188770\n周一至周五 9am-8pm；周六周日 10am-7pm\n电话/WhatsApp: +65 83811666",
+            "text": "585 North Bridge Road, #01-02, Singapore 188770\n周一至周五 9am-8pm；周六周日 10am-7pm\n电话/WhatsApp: +65 6518 9979",
             "image": null,
-            "href": "tel:+6583811666",
+            "href": "tel:+6565189979",
             "icon": "store",
             "backgroundColor": null
           },
@@ -728,9 +734,9 @@
           },
           {
             "title": "传真",
-            "text": "+65 6518 9959",
+            "text": "+65 83811666",
             "image": null,
-            "href": "tel:+6565189959",
+            "href": "tel:+6583811666",
             "icon": "fax",
             "backgroundColor": null
           }
