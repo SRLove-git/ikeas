@@ -6,8 +6,8 @@ const builtFor = new Map<Locale, CatalogPageData[]>();
 const catalogPageBySlug = new Map<Locale, Map<string, CatalogPageData>>();
 
 function ensureIndexes(locale: Locale): void {
-  if (builtFor.has(locale)) return;
   const current = loadLocalizedData<CatalogPageData[]>("catalog-pages/all.json", locale);
+  if (builtFor.get(locale) === current) return;
   builtFor.set(locale, current);
   const bySlug = new Map<string, CatalogPageData>();
   for (const page of current) {

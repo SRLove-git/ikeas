@@ -15,7 +15,6 @@ const contentPageList = new Map<Locale, ContentPageData[]>();
 const contentPagesByUrlMap = new Map<Locale, Map<string, ContentPageData>>();
 
 function ensureIndexes(locale: Locale): void {
-  if (builtFor.has(locale)) return;
   const current = FAMILY_FILES.flatMap((family) =>
     locale === "en"
       ? loadDataJsonOptional<ContentPageData[]>(
@@ -24,6 +23,7 @@ function ensureIndexes(locale: Locale): void {
         )
       : loadDataJsonOptional<ContentPageData[]>(`pages/${family}.json`, EMPTY_PAGES),
   );
+  if (builtFor.get(locale) === current) return;
   builtFor.set(locale, current);
   const byUrl = new Map<string, ContentPageData>();
   for (const page of current) {

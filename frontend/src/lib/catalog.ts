@@ -21,7 +21,7 @@ export interface ProductMatch {
   category: { name: string; href: string } | null;
 }
 
-const builtFor = new Map<Locale, CatalogCategory[]>();
+const builtFor = new Map<Locale, ReturnType<typeof catalogData>>();
 const categoryBySlug = new Map<Locale, Map<string, CategoryMatch>>();
 const productBySlug = new Map<
   Locale,
@@ -29,10 +29,10 @@ const productBySlug = new Map<
 >();
 
 function ensureIndexes(locale: Locale): void {
-  if (builtFor.has(locale)) return;
   const current = catalogData(locale);
+  if (builtFor.get(locale) === current) return;
+  builtFor.set(locale, current);
   const collections = [...current.catalogCategories, ...current.channelCategories];
-  builtFor.set(locale, collections);
   const categories = new Map<string, CategoryMatch>();
   const products = new Map<string, { product: CatalogProduct; category: CatalogCategory }>();
   for (const category of collections) {
@@ -88,7 +88,11 @@ export function findCategoryNameForProductId(
     }
   }
   ensureIndexes(locale);
-  for (const category of builtFor.get(locale) ?? []) {
+  const current = builtFor.get(locale);
+  const collections = current
+    ? [...current.catalogCategories, ...current.channelCategories]
+    : [];
+  for (const category of collections) {
     if (category.products.some((p) => String(p.id) === id)) {
       return { name: category.name, href: getCollectionHref(category) };
     }

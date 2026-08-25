@@ -12,11 +12,10 @@ const productsBySlugMap = new Map<Locale, Map<string, ProductData>>();
 const productsByIdMap = new Map<Locale, Map<string, ProductData>>();
 
 function ensureIndexes(locale: Locale): void {
-  const cached = builtFor.get(locale);
-  if (cached) return;
   const current = PARTS.map((part) =>
     loadLocalizedData<ProductData[]>(`products/products-${part}.json`, locale),
   );
+  if (builtFor.get(locale) === current) return;
   builtFor.set(locale, current);
   const list = current.flat();
   allProductList.set(locale, list);
