@@ -14,6 +14,7 @@ import {
   type SearchProduct,
 } from "@/lib/product-search"
 import { Breadcrumbs } from "@/components/Breadcrumbs"
+import { getLocale, getServerT } from "@/i18n/server"
 
 export const dynamic = "force-dynamic"
 
@@ -72,7 +73,7 @@ function highlightMatch(text: string | null | undefined, query: string): ReactNo
 function SearchResultCard({ product, query }: { product: SearchProduct; query: string }) {
   const meta = [
     ...new Set([product.category, product.productType, product.designText].filter(Boolean)),
-  ].join(" 路 ")
+  ].join(" · ")
 
   return (
     <Link href={`/cn/zh/p/${product.slug}`} className="group flex flex-col">
@@ -131,20 +132,26 @@ export default async function SearchProductsPage({
   }>
 }) {
   const rawParams = await searchParams
+  const locale = await getLocale()
+  const t = await getServerT(locale)
   const q = firstParam(rawParams.q)
   const requestedCategory = firstParam(rawParams.category)
   const sort = parseSearchSort(firstParam(rawParams.sort))
   const requestedPage = Math.max(1, Number.parseInt(firstParam(rawParams.page) || "1", 10) || 1)
 
   const keyword = q.trim()
-  const categories = catalogPages().flatMap((page) =>
+  const categories = catalogPages(locale).flatMap((page) =>
     page.id ? [{ id: page.id, name: page.name }] : [],
   )
   const results = keyword
-    ? searchProducts(keyword, {
-        categorySlug: requestedCategory || undefined,
-        sort,
-      })
+    ? searchProducts(
+        keyword,
+        {
+          categorySlug: requestedCategory || undefined,
+          sort,
+        },
+        locale,
+      )
     : []
   const pagination = paginateSearchResults(results, requestedPage)
   const activeCategory = categories.find((category) => category.id === requestedCategory)
@@ -160,25 +167,28 @@ export default async function SearchProductsPage({
     <SiteLayout>
       <div className="font-ikea min-h-screen bg-white text-ikea-black">
         <div className="max-w-page mx-auto px-5 py-8 lg:px-10">
-          <Breadcrumbs currentLabel="搜索" className="mb-8" />
+          <Breadcrumbs currentLabel={t("search.breadcrumb")} className="mb-8" />
 
           <div className="flex flex-col gap-5 lg:flex-row lg:items-end lg:justify-between">
             <div>
               <h1 className="text-3xl font-bold leading-tight lg:text-4xl">
-                {keyword ? `“${q}”` : "搜索商品"}
+                {keyword ? t("search.titleKeyword", { q }) : t("search.titlePlaceholder")}
               </h1>
               <p className="mt-2 text-sm text-ikea-muted">
                 {keyword
                   ? activeCategory
-                    ? `在“${activeCategory.name}”分类下，共找到 ${pagination.total} 件商品`
-                    : `共找到 ${pagination.total} 件商品`
-                  : "输入关键词，搜索 BUZUD 商品"}
+                    ? t("search.resultCountInCategory", {
+                        category: activeCategory.name,
+                        count: pagination.total,
+                      })
+                    : t("search.resultCount", { count: pagination.total })
+                  : t("search.inputHint")}
               </p>
             </div>
 
             {keyword && results.length > 0 ? (
               <div className="flex flex-wrap items-center gap-2 text-sm">
-                <span className="mr-1 text-ikea-muted">排序：</span>
+                <span className="mr-1 text-ikea-muted">{t("search.sortBy")}</span>
                 {SEARCH_SORTS.map((item) => (
                   <Link
                     key={item.value}
@@ -192,7 +202,7 @@ export default async function SearchProductsPage({
                       sort === item.value ? "i-pill--active" : ""
                     }`}
                   >
-                    {item.label}
+                    {t(`search.sort.${item.value}`)}
                   </Link>
                 ))}
               </div>
@@ -208,8 +218,8 @@ export default async function SearchProductsPage({
               name="q"
               defaultValue={q}
               autoFocus={!keyword}
-              aria-label="搜索商品"
-              placeholder="搜索商品、系列或品类"
+              aria-label={t("search.aria")}
+              placeholder={t("search.placeholderExtended")}
               className="h-12 min-w-0 flex-1 bg-transparent text-lg font-bold text-ikea-black outline-none placeholder:text-ikea-gray-200"
             />
             {requestedCategory ? (
@@ -218,7 +228,7 @@ export default async function SearchProductsPage({
             {sort !== "relevance" ? <input type="hidden" name="sort" value={sort} /> : null}
             <button
               type="submit"
-              aria-label="搜索"
+              aria-label={t("search.submit")}
               className="flex h-12 shrink-0 items-center justify-center rounded-full border border-ikea-blue px-12 text-ikea-blue transition-colors hover:bg-ikea-gray-100"
             >
               <ArrowRightIcon className="h-5 w-5" />
@@ -227,12 +237,14 @@ export default async function SearchProductsPage({
 
           {keyword && categories.length > 0 ? (
             <div className="mt-6 flex flex-wrap items-center gap-2">
-              <span className="mr-1 text-sm font-bold text-ikea-muted">分类：</span>
+              <span className="mr-1 text-sm font-bold text-ikea-muted">
+                {t("search.categoryLabel")}
+              </span>
               <Link
                 href={buildSearchHref({ q: keyword, sort, page: 1 })}
                 className={`i-pill i-pill--small ${!requestedCategory ? "i-pill--active" : ""}`}
               >
-                全部
+                {t("search.all")}
               </Link>
               {categories.map((category) => (
                 <Link
@@ -263,9 +275,9 @@ export default async function SearchProductsPage({
                 </div>
               ) : (
                 <div className="mx-auto mt-20 max-w-xl text-center">
-                  <p className="text-2xl font-bold">暂无相关内容</p>
+                  <p className="text-2xl font-bold">{t("search.noResults")}</p>
                   <p className="mt-3 text-sm text-ikea-muted">
-                    没有找到与“{q}”相关的商品，请尝试其他关键词。
+                    {t("search.noResultsHint", { q })}
                   </p>
                   {activeCategory ? (
                     <div className="mt-6">
@@ -273,7 +285,7 @@ export default async function SearchProductsPage({
                         href={buildSearchHref({ q: keyword, sort, page: 1 })}
                         className="i-pill i-pill--small"
                       >
-                        清除分类筛选
+                        {t("search.clearCategory")}
                       </Link>
                     </div>
                   ) : null}
@@ -282,7 +294,7 @@ export default async function SearchProductsPage({
 
               {pagination.totalPages > 1 ? (
                 <nav
-                  aria-label="搜索结果分页"
+                  aria-label={t("search.paginationAria")}
                   className="mt-14 flex flex-wrap items-center justify-center gap-2"
                 >
                   {pagination.page > 1 ? (
@@ -293,10 +305,10 @@ export default async function SearchProductsPage({
                       })}
                       className="i-pill i-pill--small"
                     >
-                      上一页
+                      {t("search.prev")}
                     </Link>
                   ) : (
-                    <span className="i-pill i-pill--small opacity-40">上一页</span>
+                    <span className="i-pill i-pill--small opacity-40">{t("search.prev")}</span>
                   )}
                   {Array.from({ length: pagination.totalPages }, (_, index) => index + 1).map(
                     (page) => (
@@ -320,17 +332,17 @@ export default async function SearchProductsPage({
                       })}
                       className="i-pill i-pill--small"
                     >
-                      下一页
+                      {t("search.next")}
                     </Link>
                   ) : (
-                    <span className="i-pill i-pill--small opacity-40">下一页</span>
+                    <span className="i-pill i-pill--small opacity-40">{t("search.next")}</span>
                   )}
                 </nav>
               ) : null}
             </>
           ) : (
             <div className="mt-20 text-center">
-              <p className="text-sm text-ikea-muted">输入关键词，搜索 BUZUD 商品</p>
+              <p className="text-sm text-ikea-muted">{t("search.inputHint")}</p>
             </div>
           )}
         </div>

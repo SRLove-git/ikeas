@@ -1,0 +1,17 @@
+{
+  "siteName": "CHUNG YIP Health Products Mall - Home health testing and monitoring products",
+  "siteDescription": "CHUNG YIP Health Products Mall offers rapid test kits, smart watches, blood pressure monitors, blood glucose management and other home health testing and monitoring products.",
+  "adminTitle": "CHUNG YIP Mall Content Management",
+  "siteCopy": {
+    "notFound": {
+      "title": "404: Oops, this page got lost… but don't worry!",
+      "body": "We're searching every corner of the house, but it's still playing hide-and-seek. Treat this little detour as a chance to explore something new — after all, surprises often come when you least expect them!",
+      "buttonLabel": "Back to home"
+    },
+    "survey": {
+      "title": "Survey",
+      "body": "Thank you for your interest in CHUNG YIP. Our survey service is coming soon — stay tuned.",
+      "buttonLabel": "Back to home"
+    }
+  }
+}

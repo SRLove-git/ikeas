@@ -1,8 +1,10 @@
 "use client";
 
 import { Button } from "@/components/admin/admin-ui";
+import { useTranslation } from "react-i18next";
 
 export function LogoutButton() {
+  const { t } = useTranslation();
   return (
     <Button
       variant="secondary"
@@ -11,7 +13,7 @@ export function LogoutButton() {
         window.location.href = "/admin/login";
       }}
     >
-      退出登录
+      {t("admin.logout")}
     </Button>
   );
 }

@@ -2,6 +2,7 @@
 
 import Link from "next/link"
 import { useEffect, useState } from "react"
+import { useTranslation } from "react-i18next"
 import { CartIcon, HeartIcon, SearchIcon, UserIcon } from "@/components/icons"
 import { MegaMenu } from "@/components/MegaMenu"
 import { MenuPanel } from "@/components/MenuPanel"
@@ -19,6 +20,7 @@ interface HeaderProps {
 }
 
 export function Header({ menuItems, searchHints, menuPanels, categories }: HeaderProps) {
+  const { t } = useTranslation()
   const [openMenu, setOpenMenu] = useState<string | null>(null)
   const [openPanel, setOpenPanel] = useState<string | null>(null)
   const [hintIndex, setHintIndex] = useState(0)
@@ -111,7 +113,7 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
                   <div className="header_container_left">
                     <div className="header_container_center">
                       <div className="header_container_center_Logo">
-                        <Link href="/" aria-label="返回首页">
+                        <Link href="/" aria-label={t("header.backHome")}>
                           {/* eslint-disable-next-line @next/next/no-img-element */}
                           <img
                             className="disable-event"
@@ -180,10 +182,10 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
                               className="header-action-btn header-action-btn--login"
                             >
                               <UserIcon width={24} height={24} />
-                              <span>登录 CHUNG YIP 账号</span>
+                              <span>{t("header.loginAccount")}</span>
                             </Link>
                           )}
-                          <div className="i-tooltip__body">登录 CHUNG YIP 账号</div>
+                          <div className="i-tooltip__body">{t("header.loginAccount")}</div>
                         </span>
                       </span>
                       <span className="i-tooltip i-tooltip--bottom">
@@ -194,7 +196,7 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
                           >
                             <UserIcon width={24} height={24} />
                           </Link>
-                          <div className="i-tooltip__body">我的个人档案</div>
+                          <div className="i-tooltip__body">{t("header.myProfile")}</div>
                         </span>
                       </span>
                       <span className="i-tooltip i-tooltip--bottom">
@@ -205,7 +207,7 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
                           >
                             <HeartIcon width={24} height={24} />
                           </Link>
-                          <div className="i-tooltip__body">我的收藏</div>
+                          <div className="i-tooltip__body">{t("header.myCollection")}</div>
                         </span>
                       </span>
                       <span className="i-tooltip i-tooltip--bottom">
@@ -213,7 +215,7 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
                           <Link
                             href="/cn/zh/pay/cart/"
                             className="header-action-btn relative"
-                            aria-label="购物袋"
+                            aria-label={t("header.shoppingBag")}
                           >
                             <CartIcon width={24} height={24} />
                             {cartCount > 0 ? (
@@ -222,7 +224,7 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
                               </span>
                             ) : null}
                           </Link>
-                          <div className="i-tooltip__body">购物袋</div>
+                          <div className="i-tooltip__body">{t("header.shoppingBag")}</div>
                         </span>
                       </span>
                     </div>
@@ -255,7 +257,7 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
                       <Link href={item.href} className="menu-label">
                         {item.label}
                       </Link>
-                      {item.label === "所有产品" ? <span className="new_feature_mark" /> : null}
+                      {item.hasMegaMenu ? <span className="new_feature_mark" /> : null}
                     </li>
                   ))}
                 </ul>

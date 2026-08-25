@@ -2,6 +2,15 @@
   {
     "user": "admin",
     "action": "update",
+    "resource": "categories",
+    "target": "catalog",
+    "summary": "更新商品分类",
+    "id": "1787627501766-m33xeh",
+    "at": "2026-08-25T03:11:41.766Z"
+  },
+  {
+    "user": "admin",
+    "action": "update",
     "resource": "page",
     "target": "/cn/zh/company",
     "summary": "更新页面「公司介绍」开放合作/发展历程/质量承诺区块为华为式分区样式",

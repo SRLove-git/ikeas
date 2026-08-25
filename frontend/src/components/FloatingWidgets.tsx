@@ -1,6 +1,7 @@
 "use client"
 
 import { useEffect, useState } from "react"
+import { useTranslation } from "react-i18next"
 import { ChatIcon, CloseIcon } from "@/components/icons"
 import { ArrowUp } from "lucide-react"
 import { API_BASE } from "@/lib/api"
@@ -11,11 +12,12 @@ interface ChatMessage {
 }
 
 export function FloatingWidgets() {
+  const { t } = useTranslation()
   const [showCookieBar, setShowCookieBar] = useState(true)
   const [showChat, setShowChat] = useState(false)
   const [showBackTop, setShowBackTop] = useState(false)
   const [chatMessages, setChatMessages] = useState<ChatMessage[]>([
-    { role: "bot", text: "你好！我是 CHUNG YIP 客服助手，请问有什么可以帮你的？" },
+    { role: "bot", text: t("floating.chatGreeting") },
   ])
   const [chatInput, setChatInput] = useState("")
   const [sendingChat, setSendingChat] = useState(false)
@@ -45,10 +47,13 @@ export function FloatingWidgets() {
       const data = await res.json()
       setChatMessages((current) => [
         ...current,
-        { role: "bot", text: data.reply ?? "抱歉，我暂时无法回答这个问题。" },
+        { role: "bot", text: data.reply ?? t("floating.chatFallback") },
       ])
     } catch {
-      setChatMessages((current) => [...current, { role: "bot", text: "网络异常，请稍后再试。" }])
+      setChatMessages((current) => [
+        ...current,
+        { role: "bot", text: t("floating.chatNetworkError") },
+      ])
     } finally {
       setSendingChat(false)
     }
@@ -59,12 +64,10 @@ export function FloatingWidgets() {
       {showCookieBar ? (
         <div className="cloud fixed inset-x-0 bottom-0 z-50 border-t border-ikea-gray-200 bg-white shadow-lg">
           <div className="flex flex-col items-start justify-between gap-3 px-5 py-4 sm:flex-row sm:items-center sm:px-10">
-            <p className="text-sm text-ikea-black">
-              CHUNG YIP 官网使用 Cookies 提升浏览体验。继续浏览即表示您接受我们的 Cookies 政策。
-            </p>
+            <p className="text-sm text-ikea-black">{t("floating.cookieBar")}</p>
             <div className="flex shrink-0 items-center gap-3">
               <button type="button" className="text-sm underline underline-offset-2">
-                设置
+                {t("floating.cookieSettings")}
               </button>
               <button
                 type="button"
@@ -72,7 +75,7 @@ export function FloatingWidgets() {
                 onClick={() => setShowCookieBar(false)}
               >
                 <span className="i-btn__inner">
-                  <span className="i-btn__label">我接受</span>
+                  <span className="i-btn__label">{t("floating.cookieAccept")}</span>
                 </span>
               </button>
             </div>
@@ -82,7 +85,7 @@ export function FloatingWidgets() {
 
       <button
         type="button"
-        aria-label="客服"
+        aria-label={t("floating.customerServiceAria")}
         className="chat-menu fixed bottom-6 right-6 z-40 flex h-14 w-14 items-center justify-center rounded-full bg-ikea-blue text-white shadow-lg transition-transform hover:scale-105"
         onClick={() => setShowChat((current) => !current)}
       >
@@ -92,8 +95,8 @@ export function FloatingWidgets() {
       {showChat ? (
         <div className="fixed bottom-24 right-6 z-40 flex h-[420px] w-[320px] flex-col overflow-hidden rounded-lg border border-ikea-gray-200 bg-white shadow-2xl">
           <div className="flex items-center justify-between bg-ikea-black px-4 py-3 text-white">
-            <span className="text-sm font-bold">CHUNG YIP 客服</span>
-            <button type="button" aria-label="关闭" onClick={() => setShowChat(false)}>
+            <span className="text-sm font-bold">{t("floating.customerServiceTitle")}</span>
+            <button type="button" aria-label={t("common.close")} onClick={() => setShowChat(false)}>
               <CloseIcon width={18} height={18} />
             </button>
           </div>
@@ -117,14 +120,14 @@ export function FloatingWidgets() {
                 value={chatInput}
                 onChange={(event) => setChatInput(event.target.value)}
                 className="w-full rounded-full border border-ikea-gray-200 px-4 py-2 text-sm outline-none focus:border-ikea-blue"
-                placeholder="请输入您的问题"
+                placeholder={t("floating.chatPlaceholder")}
               />
               <button
                 type="submit"
                 disabled={sendingChat || !chatInput.trim()}
                 className="i-btn i-btn--small i-btn--primary shrink-0 rounded-full disabled:opacity-50"
               >
-                <span className="i-btn__label">发送</span>
+                <span className="i-btn__label">{t("floating.send")}</span>
               </button>
             </form>
           </div>
@@ -134,7 +137,7 @@ export function FloatingWidgets() {
       {showBackTop ? (
         <button
           type="button"
-          aria-label="回到顶部"
+          aria-label={t("common.backToTop")}
           onClick={backToTop}
           className="i-back-top fixed bottom-6 right-24 z-30 flex h-10 w-10 items-center justify-center rounded-full bg-ikea-black text-white shadow-md transition-opacity hover:opacity-80"
         >

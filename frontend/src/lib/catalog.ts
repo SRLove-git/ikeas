@@ -7,6 +7,7 @@ import { productsBySlug } from "@/data/products-index";
 import { catalogPages } from "@/lib/catalog-pages";
 import type { ProductData } from "@/data/pages-types";
 import { getCollectionHref } from "@/lib/catalog-format";
+import { DEFAULT_LOCALE, type Locale } from "@/i18n/config";
 
 export { formatPrice, getCollectionHref } from "@/lib/catalog-format";
 
@@ -20,37 +21,47 @@ export interface ProductMatch {
   category: { name: string; href: string } | null;
 }
 
-let builtFor: ReturnType<typeof catalogData> | null = null;
-let allCollections: CatalogCategory[] = [];
-let categoryBySlug = new Map<string, CategoryMatch>();
-let productBySlug = new Map<string, { product: CatalogProduct; category: CatalogCategory }>();
+const builtFor = new Map<Locale, CatalogCategory[]>();
+const categoryBySlug = new Map<Locale, Map<string, CategoryMatch>>();
+const productBySlug = new Map<
+  Locale,
+  Map<string, { product: CatalogProduct; category: CatalogCategory }>
+>();
 
-function ensureIndexes(): void {
-  const current = catalogData();
-  if (builtFor === current) return;
-  builtFor = current;
-  allCollections = [...current.catalogCategories, ...current.channelCategories];
-  categoryBySlug = new Map<string, CategoryMatch>();
-  productBySlug = new Map<string, { product: CatalogProduct; category: CatalogCategory }>();
-  for (const category of allCollections) {
-    categoryBySlug.set(category.slug, { category });
+function ensureIndexes(locale: Locale): void {
+  if (builtFor.has(locale)) return;
+  const current = catalogData(locale);
+  const collections = [...current.catalogCategories, ...current.channelCategories];
+  builtFor.set(locale, collections);
+  const categories = new Map<string, CategoryMatch>();
+  const products = new Map<string, { product: CatalogProduct; category: CatalogCategory }>();
+  for (const category of collections) {
+    categories.set(category.slug, { category });
     for (const sub of category.subs) {
-      categoryBySlug.set(sub.slug, { category, sub });
+      categories.set(sub.slug, { category, sub });
     }
     for (const product of category.products) {
-      productBySlug.set(product.slug, { product, category });
+      products.set(product.slug, { product, category });
     }
   }
+  categoryBySlug.set(locale, categories);
+  productBySlug.set(locale, products);
 }
 
-export function findCategoryBySlug(slug: string): CategoryMatch | undefined {
-  ensureIndexes();
-  return categoryBySlug.get(slug);
+export function findCategoryBySlug(
+  slug: string,
+  locale: Locale = DEFAULT_LOCALE,
+): CategoryMatch | undefined {
+  ensureIndexes(locale);
+  return categoryBySlug.get(locale)?.get(slug);
 }
 
-export function findProductBySlug(slug: string): ProductMatch | undefined {
-  ensureIndexes();
-  const match = productBySlug.get(slug);
+export function findProductBySlug(
+  slug: string,
+  locale: Locale = DEFAULT_LOCALE,
+): ProductMatch | undefined {
+  ensureIndexes(locale);
+  const match = productBySlug.get(locale)?.get(slug);
   if (match) {
     return {
       product: match.product,
@@ -60,23 +71,24 @@ export function findProductBySlug(slug: string): ProductMatch | undefined {
       },
     };
   }
-  const product = productsBySlug().get(slug);
+  const product = productsBySlug(locale).get(slug);
   if (product) {
-    return { product, category: findCategoryNameForProductId(product.id) };
+    return { product, category: findCategoryNameForProductId(product.id, locale) };
   }
   return undefined;
 }
 
 export function findCategoryNameForProductId(
   id: string,
+  locale: Locale = DEFAULT_LOCALE,
 ): { name: string; href: string } | null {
-  for (const page of catalogPages()) {
+  for (const page of catalogPages(locale)) {
     if (page.products.some((p) => p.id === id)) {
       return { name: page.name, href: page.url };
     }
   }
-  ensureIndexes();
-  for (const category of allCollections) {
+  ensureIndexes(locale);
+  for (const category of builtFor.get(locale) ?? []) {
     if (category.products.some((p) => String(p.id) === id)) {
       return { name: category.name, href: getCollectionHref(category) };
     }
@@ -84,7 +96,10 @@ export function findCategoryNameForProductId(
   return null;
 }
 
-export function productSlugsWithDetails(): Set<string> {
-  ensureIndexes();
-  return new Set([...productBySlug.keys(), ...productsBySlug().keys()]);
+export function productSlugsWithDetails(locale: Locale = DEFAULT_LOCALE): Set<string> {
+  ensureIndexes(locale);
+  return new Set([
+    ...(productBySlug.get(locale)?.keys() ?? []),
+    ...productsBySlug(locale).keys(),
+  ]);
 }

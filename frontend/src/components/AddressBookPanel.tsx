@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react"
 import { useRouter } from "next/navigation"
+import { useTranslation } from "react-i18next"
 import { useAuth } from "@/lib/auth"
 import { Breadcrumbs } from "@/components/Breadcrumbs"
 
@@ -59,6 +60,7 @@ function FieldError({ children }: { children: React.ReactNode }) {
 }
 
 export function AddressBookPanel() {
+  const { t } = useTranslation()
   const router = useRouter()
   const { user, ready } = useAuth()
   const [addresses, setAddresses] = useState<ShippingAddress[]>(() => readAddresses())
@@ -126,10 +128,10 @@ export function AddressBookPanel() {
       region?: string
       detail?: string
     } = {}
-    if (!form.name.trim()) nextErrors.name = "请输入姓名"
-    if (!form.phone.trim()) nextErrors.phone = "请输入手机号"
-    if (!form.region.trim()) nextErrors.region = "请选择正确的省/市/区"
-    if (!form.detail.trim()) nextErrors.detail = "请输入详细地址"
+    if (!form.name.trim()) nextErrors.name = t("address.errName")
+    if (!form.phone.trim()) nextErrors.phone = t("address.errPhone")
+    if (!form.region.trim()) nextErrors.region = t("address.errRegion")
+    if (!form.detail.trim()) nextErrors.detail = t("address.errDetail")
     setFormErrors(nextErrors)
     if (Object.keys(nextErrors).length > 0) {
       setNotice(null)
@@ -174,14 +176,14 @@ export function AddressBookPanel() {
     setAddresses(next)
     setDrawerOpen(false)
     setFormErrors({})
-    setNotice(editingId ? "收货地址已更新" : "收货地址已保存")
+    setNotice(editingId ? t("address.updated") : t("address.saved"))
   }
 
   const removeAddress = (id: string) => {
     const next = addresses.filter((address) => address.id !== id)
     writeAddresses(next)
     setAddresses(next)
-    setNotice("收货地址已删除")
+    setNotice(t("address.deleted"))
   }
 
   const setDefault = (id: string) => {
@@ -196,7 +198,7 @@ export function AddressBookPanel() {
   if (!ready || !user) {
     return (
       <div className="font-ikea flex min-h-[50vh] items-center justify-center text-sm text-ikea-muted">
-        加载中…
+        {t("common.loading")}
       </div>
     )
   }
@@ -204,17 +206,17 @@ export function AddressBookPanel() {
   return (
     <div className="font-ikea min-h-screen bg-ikea-gray-100 text-ikea-black">
       <div className="max-w-page mx-auto px-5 py-10 lg:px-10">
-        <Breadcrumbs currentLabel="收货地址" />
+        <Breadcrumbs currentLabel={t("address.title")} />
 
         <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
-          <h1 className="text-2xl font-bold leading-9">收货地址</h1>
+          <h1 className="text-2xl font-bold leading-9">{t("address.title")}</h1>
           {addresses.length > 0 ? (
             <button
               type="button"
               onClick={openCreate}
               className="i-btn i-btn--small i-btn--primary h-10 px-5 text-sm font-bold"
             >
-              +新建收货地址
+              {t("address.newAddress")}
             </button>
           ) : null}
         </div>
@@ -225,13 +227,13 @@ export function AddressBookPanel() {
 
         {addresses.length === 0 ? (
           <div className="empty-wrapper mt-12 flex flex-col items-center justify-center bg-white py-20">
-            <p className="text-sm text-ikea-muted">还没有收货地址</p>
+            <p className="text-sm text-ikea-muted">{t("address.empty")}</p>
             <button
               type="button"
               onClick={openCreate}
               className="i-btn i-btn--small i-btn--primary mt-6 h-10 px-6 text-sm font-bold"
             >
-              +新建收货地址
+              {t("address.newAddress")}
             </button>
           </div>
         ) : (
@@ -245,7 +247,7 @@ export function AddressBookPanel() {
                       <p className="text-sm text-ikea-muted">{address.phone}</p>
                       {address.isDefault ? (
                         <span className="rounded bg-ikea-gray-100 px-2 py-0.5 text-xs font-bold text-ikea-muted">
-                          默认
+                          {t("address.default")}
                         </span>
                       ) : null}
                     </div>
@@ -261,7 +263,7 @@ export function AddressBookPanel() {
                     onClick={() => openEdit(address)}
                     className="font-bold text-ikea-blue hover:underline"
                   >
-                    编辑
+                    {t("address.edit")}
                   </button>
                   {!address.isDefault ? (
                     <button
@@ -269,7 +271,7 @@ export function AddressBookPanel() {
                       onClick={() => setDefault(address.id)}
                       className="text-ikea-muted hover:text-ikea-black"
                     >
-                      设为默认
+                      {t("address.setDefault")}
                     </button>
                   ) : null}
                   <button
@@ -277,7 +279,7 @@ export function AddressBookPanel() {
                     onClick={() => removeAddress(address.id)}
                     className="ml-auto text-ikea-muted hover:text-red-600"
                   >
-                    删除
+                    {t("address.delete")}
                   </button>
                 </div>
               </section>
@@ -290,16 +292,18 @@ export function AddressBookPanel() {
         <div className="fixed inset-0 z-[1100]" role="dialog" aria-modal="true">
           <button
             type="button"
-            aria-label="关闭"
+            aria-label={t("common.close")}
             className="absolute inset-0 bg-black/50"
             onClick={() => setDrawerOpen(false)}
           />
           <aside className="absolute right-0 top-0 flex h-full w-full max-w-[440px] flex-col bg-white shadow-2xl">
             <div className="flex items-center justify-between border-b border-ikea-gray-200 px-6 py-4">
-              <h2 className="text-base font-bold">{editingId ? "编辑收货地址" : "新建收货地址"}</h2>
+              <h2 className="text-base font-bold">
+                {editingId ? t("address.editTitle") : t("address.newTitle")}
+              </h2>
               <button
                 type="button"
-                aria-label="关闭"
+                aria-label={t("common.close")}
                 className="flex h-8 w-8 items-center justify-center text-ikea-muted hover:text-ikea-black"
                 onClick={() => setDrawerOpen(false)}
               >
@@ -313,7 +317,7 @@ export function AddressBookPanel() {
               <div className="space-y-5">
                 <div>
                   <label htmlFor="address-name" className="block text-sm font-bold">
-                    收货人
+                    {t("address.recipient")}
                     <em className="ml-0.5 text-red-600">*</em>
                   </label>
                   <div
@@ -329,7 +333,7 @@ export function AddressBookPanel() {
                       onChange={(event) =>
                         setForm((current) => ({ ...current, name: event.target.value }))
                       }
-                      placeholder="请输入姓名"
+                      placeholder={t("address.namePlaceholder")}
                       className="h-full w-full px-4 text-sm outline-none"
                     />
                   </div>
@@ -338,7 +342,7 @@ export function AddressBookPanel() {
 
                 <div>
                   <label htmlFor="address-phone" className="block text-sm font-bold">
-                    手机号
+                    {t("address.phone")}
                     <em className="ml-0.5 text-red-600">*</em>
                   </label>
                   <div
@@ -359,7 +363,7 @@ export function AddressBookPanel() {
                       onChange={(event) =>
                         setForm((current) => ({ ...current, phone: event.target.value }))
                       }
-                      placeholder="请输入手机号"
+                      placeholder={t("address.phonePlaceholder")}
                       className="h-full flex-1 px-4 text-sm outline-none"
                     />
                   </div>
@@ -368,7 +372,7 @@ export function AddressBookPanel() {
 
                 <div>
                   <label htmlFor="address-region" className="block text-sm font-bold">
-                    选择省/市/区
+                    {t("address.region")}
                     <em className="ml-0.5 text-red-600">*</em>
                   </label>
                   <div
@@ -384,7 +388,7 @@ export function AddressBookPanel() {
                       onChange={(event) =>
                         setForm((current) => ({ ...current, region: event.target.value }))
                       }
-                      placeholder="请选择省份/地区"
+                      placeholder={t("address.regionPlaceholder")}
                       className="h-full w-full px-4 text-sm outline-none"
                     />
                   </div>
@@ -393,7 +397,7 @@ export function AddressBookPanel() {
 
                 <div>
                   <label htmlFor="address-detail" className="block text-sm font-bold">
-                    详细地址
+                    {t("address.detail")}
                     <em className="ml-0.5 text-red-600">*</em>
                   </label>
                   <div
@@ -409,7 +413,7 @@ export function AddressBookPanel() {
                       onChange={(event) =>
                         setForm((current) => ({ ...current, detail: event.target.value }))
                       }
-                      placeholder="请输入详细地址"
+                      placeholder={t("address.detailPlaceholder")}
                       className="h-11 w-full px-4 text-sm outline-none"
                     />
                   </div>
@@ -418,7 +422,7 @@ export function AddressBookPanel() {
 
                 <div className="flex items-center justify-between">
                   <label htmlFor="address-default" className="text-sm">
-                    设置为默认地址
+                    {t("address.setDefaultLabel")}
                   </label>
                   <button
                     id="address-default"
@@ -449,7 +453,7 @@ export function AddressBookPanel() {
                 className="i-btn i-btn--primary h-11 w-full text-sm font-bold text-white"
               >
                 <span className="i-btn__inner">
-                  <span className="i-btn__label">保存</span>
+                  <span className="i-btn__label">{t("address.save")}</span>
                 </span>
               </button>
             </div>

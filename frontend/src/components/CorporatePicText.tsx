@@ -2,6 +2,7 @@
 
 import Link from "next/link"
 import { useEffect, useRef, useState } from "react"
+import { useTranslation } from "react-i18next"
 import { SiteImage } from "@/components/SiteImage"
 
 interface CorporatePicTextProps {
@@ -25,6 +26,7 @@ export function CorporatePicText({
   linkText,
   image,
 }: CorporatePicTextProps) {
+  const { t } = useTranslation()
   const textBoxRef = useRef<HTMLDivElement>(null)
   const [expanded, setExpanded] = useState(false)
   const [hasOverflow, setHasOverflow] = useState(false)
@@ -75,7 +77,7 @@ export function CorporatePicText({
               href={linkHref}
               className="inline-flex items-center gap-1 pt-1 text-sm font-bold text-ikea-blue hover:underline"
             >
-              {linkText || "了解更多"}
+              {linkText || t("content.learnMore")}
               <svg viewBox="0 0 24 24" fill="currentColor" className="h-4 w-4">
                 <path d="m20 12-8-8-1.4 1.4L16.2 11H4v2h12.2l-5.6 5.6L12 20z" />
               </svg>
@@ -88,7 +90,7 @@ export function CorporatePicText({
             onClick={() => setExpanded((prev) => !prev)}
             className="mt-3 inline-flex items-center gap-1 self-start text-xs font-bold text-ikea-blue"
           >
-            {expanded ? "收起" : "展开更多"}
+            {expanded ? t("content.collapse") : t("content.expandMore")}
             <svg
               viewBox="0 0 24 24"
               fill="currentColor"

@@ -1,3 +1,6 @@
+"use client";
+
+import { useTranslation } from "react-i18next";
 import { ContentBlocks } from "@/components/ContentBlocks";
 import { SiteImage } from "@/components/SiteImage";
 import type { ContentPageData } from "@/data/pages-types";
@@ -8,7 +11,8 @@ interface ContentPageProps {
 }
 
 export function ContentPage({ page }: ContentPageProps) {
-  const title = page.title || page.name || "未命名页面";
+  const { t } = useTranslation();
+  const title = page.title || page.name || t("content.unnamedPage");
 
   return (
     <main className="font-ikea min-h-screen bg-white text-ikea-black">

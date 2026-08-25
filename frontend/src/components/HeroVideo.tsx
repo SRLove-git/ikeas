@@ -1,4 +1,7 @@
+"use client"
+
 import Link from "next/link"
+import { useTranslation } from "react-i18next"
 
 interface HeroVideoProps {
   video?: string | null
@@ -8,6 +11,8 @@ interface HeroVideoProps {
 }
 
 export function HeroVideo({ video, poster, href, alt }: HeroVideoProps) {
+  const { t } = useTranslation()
+  const fallbackAlt = t("home.promoVideoAria")
   const media = video ? (
     <video
       className="product"
@@ -18,7 +23,7 @@ export function HeroVideo({ video, poster, href, alt }: HeroVideoProps) {
       loop
       playsInline
       preload="metadata"
-      aria-label={alt ?? "BUZUD 宣传视频"}
+      aria-label={alt ?? fallbackAlt}
     />
   ) : (
     <div className="flex h-full w-full flex-col items-center justify-center gap-5 bg-ikea-blue text-white">
@@ -27,7 +32,7 @@ export function HeroVideo({ video, poster, href, alt }: HeroVideoProps) {
           <path d="M8 5v14l11-7z" />
         </svg>
       </span>
-      <p className="text-sm font-bold tracking-[0.3em]">宣传视频即将上线</p>
+      <p className="text-sm font-bold tracking-[0.3em]">{t("home.videoComingSoon")}</p>
     </div>
   )
 
@@ -36,7 +41,7 @@ export function HeroVideo({ video, poster, href, alt }: HeroVideoProps) {
       <div className="prod-products">
         <div className="prod active">
           {href ? (
-            <Link href={href} className="block h-full w-full" aria-label={alt ?? "BUZUD 宣传视频"}>
+            <Link href={href} className="block h-full w-full" aria-label={alt ?? fallbackAlt}>
               {media}
             </Link>
           ) : (

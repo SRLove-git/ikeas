@@ -1,6 +1,7 @@
 "use client"
 
 import { useEffect, useState } from "react"
+import { useTranslation } from "react-i18next"
 import {
   adminFetch,
   Button,
@@ -38,311 +39,317 @@ interface SectionConfig {
   description: string
 }
 
-const SECTIONS: SectionConfig[] = [
-  { key: "noticeMessages", label: "顶部通知", description: "公告栏消息" },
-  { key: "searchHints", label: "搜索提示词", description: "搜索框滚动提示" },
-  { key: "navMenuItems", label: "主导航", description: "顶部一级菜单项" },
-  { key: "megaMenuCategories", label: "Mega 菜单分类", description: "所有商品下拉菜单分类" },
-  {
-    key: "heroVideo",
-    label: "首屏视频",
-    description: "首页首屏自动播放宣传视频，未配置时展示占位",
-  },
-  { key: "promoCardItems", label: "必逛好物", description: "促销推荐卡片" },
-  { key: "inspirationTipsItems", label: "布置小贴士", description: "家居灵感提示卡片" },
-  { key: "serviceColumns", label: "服务栏目", description: "服务介绍卡片" },
-  { key: "rankingSections", label: "榜单排行", description: "热销榜等排行区块" },
-  { key: "roomPillItems", label: "房间探索胶囊", description: "从房间开始探索" },
-  { key: "roomPillCta", label: "房间探索 CTA", description: "房间胶囊底部按钮" },
-  { key: "sustainabilityPillItems", label: "可持续胶囊", description: "可持续生活胶囊" },
-  { key: "sustainabilityPillCta", label: "可持续 CTA", description: "可持续胶囊底部按钮" },
-  { key: "feedProducts", label: "灵感商品热点图", description: "按分类聚合的商品热点图" },
-  { key: "assurances", label: "服务保障", description: "放心购保障条目" },
-  { key: "recallNotices", label: "召回公告", description: "商品召回/通知文章" },
-  { key: "footerLinkGroups", label: "页脚链接组", description: "页脚常用链接" },
-  { key: "footerFeaturedCards", label: "页脚特色卡片", description: "页脚会员推广卡片" },
-  { key: "socialIcons", label: "社交图标", description: "页脚社交图标" },
-  { key: "legalBar", label: "版权与法律链接", description: "页脚版权与备案" },
-]
-
-const LINK_SCHEMA: Schema = {
-  fields: [
-    { key: "label", label: "文字", kind: { type: "text" } },
-    { key: "href", label: "链接", kind: { type: "text" } },
-  ],
-}
-
-const PILL_SCHEMA: Schema = {
-  fields: [
-    { key: "label", label: "名称", kind: { type: "text" } },
-    { key: "image", label: "图片", kind: { type: "text" } },
-    { key: "href", label: "链接", kind: { type: "text" } },
-  ],
-}
-
-const PILL_CTA_SCHEMA: Schema = {
-  fields: [
-    { key: "label", label: "按钮文字", kind: { type: "text" } },
-    { key: "href", label: "链接", kind: { type: "text" } },
-    { key: "color", label: "背景色", kind: { type: "text" } },
-    { key: "textColor", label: "文字颜色", kind: { type: "text" } },
-  ],
-}
-
-const RANKING_PRODUCT_SCHEMA: Schema = {
-  fields: [
-    { key: "name", label: "名称", kind: { type: "text" } },
-    { key: "price", label: "价格", kind: { type: "text" } },
-    { key: "originalPrice", label: "原价", kind: { type: "text" } },
-    { key: "image", label: "图片", kind: { type: "text" } },
-    { key: "icon", label: "图标", kind: { type: "text" } },
-    { key: "badge", label: "角标", kind: { type: "text" } },
-    { key: "href", label: "链接", kind: { type: "text" } },
-  ],
-}
-
-const SCHEMAS: Record<string, SectionSchema> = {
-  noticeMessages: {
-    kind: "objects",
-    labelKey: "text",
-    schema: {
-      fields: [
-        { key: "text", label: "公告内容", kind: { type: "text" } },
-        { key: "href", label: "链接", kind: { type: "text" } },
-      ],
+function buildConfigs(t: (key: string) => string) {
+  const SECTIONS: SectionConfig[] = [
+    { key: "noticeMessages", label: t("admin.homepage.section.topNotice"), description: t("admin.homepage.section.topNoticeDesc") },
+    { key: "searchHints", label: t("admin.homepage.section.searchHints"), description: t("admin.homepage.section.searchHintsDesc") },
+    { key: "navMenuItems", label: t("admin.homepage.section.navMenu"), description: t("admin.homepage.section.navMenuDesc") },
+    { key: "megaMenuCategories", label: t("admin.homepage.section.megaMenu"), description: t("admin.homepage.section.megaMenuDesc") },
+    {
+      key: "heroVideo",
+      label: t("admin.homepage.section.heroVideo"),
+      description: t("admin.homepage.section.heroVideoDesc"),
     },
-  },
-  searchHints: { kind: "strings" },
-  navMenuItems: {
-    kind: "objects",
-    labelKey: "label",
-    schema: {
-      fields: [
-        { key: "label", label: "菜单名称", kind: { type: "text" } },
-        { key: "href", label: "链接", kind: { type: "text" } },
-        {
-          key: "hasMegaMenu",
-          label: "显示全部分类下拉（Mega 菜单）",
-          kind: { type: "boolean" },
-        },
-        {
-          key: "menuPanelLabel",
-          label: "下拉面板",
-          kind: { type: "text" },
-          hint: "填写「导航菜单」中菜单面板的名称（如：客户服务），留空则不显示面板下拉",
-        },
-      ],
+    { key: "promoCardItems", label: t("admin.homepage.section.promo"), description: t("admin.homepage.section.promoDesc") },
+    { key: "inspirationTipsItems", label: t("admin.homepage.section.inspirationTips"), description: t("admin.homepage.section.inspirationTipsDesc") },
+    { key: "serviceColumns", label: t("admin.homepage.section.serviceColumns"), description: t("admin.homepage.section.serviceColumnsDesc") },
+    { key: "rankingSections", label: t("admin.homepage.section.rankings"), description: t("admin.homepage.section.rankingsDesc") },
+    { key: "roomPillItems", label: t("admin.homepage.section.roomPills"), description: t("admin.homepage.section.roomPillsDesc") },
+    { key: "roomPillCta", label: t("admin.homepage.section.roomPillCta"), description: t("admin.homepage.section.roomPillCtaDesc") },
+    { key: "sustainabilityPillItems", label: t("admin.homepage.section.sustainPills"), description: t("admin.homepage.section.sustainPillsDesc") },
+    { key: "sustainabilityPillCta", label: t("admin.homepage.section.sustainCta"), description: t("admin.homepage.section.sustainCtaDesc") },
+    { key: "feedProducts", label: t("admin.homepage.section.feed"), description: t("admin.homepage.section.feedDesc") },
+    { key: "assurances", label: t("admin.homepage.section.assurances"), description: t("admin.homepage.section.assurancesDesc") },
+    { key: "recallNotices", label: t("admin.homepage.section.recalls"), description: t("admin.homepage.section.recallsDesc") },
+    { key: "footerLinkGroups", label: t("admin.homepage.section.footerLinks"), description: t("admin.homepage.section.footerLinksDesc") },
+    { key: "footerFeaturedCards", label: t("admin.homepage.section.footerCards"), description: t("admin.homepage.section.footerCardsDesc") },
+    { key: "socialIcons", label: t("admin.homepage.section.socialIcons"), description: t("admin.homepage.section.socialIconsDesc") },
+    { key: "legalBar", label: t("admin.homepage.section.legalBar"), description: t("admin.homepage.section.legalBarDesc") },
+  ]
+
+  const LINK_SCHEMA: Schema = {
+    fields: [
+      { key: "label", label: t("admin.homepage.field.text"), kind: { type: "text" } },
+      { key: "href", label: t("admin.homepage.field.href"), kind: { type: "text" } },
+    ],
+  }
+
+  const PILL_SCHEMA: Schema = {
+    fields: [
+      { key: "label", label: t("admin.homepage.field.name"), kind: { type: "text" } },
+      { key: "image", label: t("admin.homepage.field.image"), kind: { type: "text" } },
+      { key: "href", label: t("admin.homepage.field.href"), kind: { type: "text" } },
+    ],
+  }
+
+  const PILL_CTA_SCHEMA: Schema = {
+    fields: [
+      { key: "label", label: t("admin.homepage.field.ctaLabel"), kind: { type: "text" } },
+      { key: "href", label: t("admin.homepage.field.href"), kind: { type: "text" } },
+      { key: "color", label: t("admin.homepage.field.bgColor"), kind: { type: "text" } },
+      { key: "textColor", label: t("admin.homepage.field.textColor"), kind: { type: "text" } },
+    ],
+  }
+
+  const RANKING_PRODUCT_SCHEMA: Schema = {
+    fields: [
+      { key: "name", label: t("admin.homepage.field.name"), kind: { type: "text" } },
+      { key: "price", label: t("admin.homepage.field.price"), kind: { type: "text" } },
+      { key: "originalPrice", label: t("admin.homepage.field.originalPrice"), kind: { type: "text" } },
+      { key: "image", label: t("admin.homepage.field.image"), kind: { type: "text" } },
+      { key: "icon", label: t("admin.homepage.field.icon"), kind: { type: "text" } },
+      { key: "badge", label: t("admin.homepage.field.badge"), kind: { type: "text" } },
+      { key: "href", label: t("admin.homepage.field.href"), kind: { type: "text" } },
+    ],
+  }
+
+  const SCHEMAS: Record<string, SectionSchema> = {
+    noticeMessages: {
+      kind: "objects",
+      labelKey: "text",
+      schema: {
+        fields: [
+          { key: "text", label: t("admin.homepage.field.noticeText"), kind: { type: "text" } },
+          { key: "href", label: t("admin.homepage.field.href"), kind: { type: "text" } },
+        ],
+      },
     },
-  },
-  megaMenuCategories: {
-    kind: "objects",
-    labelKey: "name",
-    schema: {
-      fields: [
-        { key: "name", label: "分类名称", kind: { type: "text" } },
-        {
-          key: "subCategories",
-          label: "子分类",
-          kind: { type: "stringList", placeholder: "子分类名称" },
-        },
-      ],
-    },
-  },
-  heroVideo: {
-    kind: "object",
-    schema: {
-      fields: [
-        {
-          key: "video",
-          label: "视频（自动播放）",
-          kind: { type: "text" },
-          hint: "MP4 地址，留空时展示占位，如 /videos/buzud-home-1.mp4",
-        },
-        { key: "poster", label: "封面图片", kind: { type: "text" } },
-        { key: "href", label: "链接", kind: { type: "text" } },
-        { key: "alt", label: "替代文本", kind: { type: "text" } },
-      ],
-    },
-  },
-  promoCardItems: {
-    kind: "objects",
-    labelKey: "title",
-    schema: {
-      fields: [
-        { key: "eyebrow", label: "眉题", kind: { type: "text" } },
-        { key: "title", label: "标题", kind: { type: "text" } },
-        { key: "description", label: "描述", kind: { type: "textarea" } },
-        { key: "badge", label: "角标", kind: { type: "text" } },
-        { key: "image", label: "图片", kind: { type: "text" } },
-        { key: "backgroundColor", label: "背景色", kind: { type: "text" } },
-        { key: "textColor", label: "文字颜色", kind: { type: "text" } },
-        { key: "ctaLabel", label: "按钮文字", kind: { type: "text" } },
-        { key: "ctaHref", label: "按钮链接", kind: { type: "text" } },
-        { key: "href", label: "整卡链接", kind: { type: "text" } },
-      ],
-    },
-  },
-  inspirationTipsItems: {
-    kind: "objects",
-    labelKey: "title",
-    schema: {
-      fields: [
-        { key: "eyebrow", label: "眉题", kind: { type: "text" } },
-        { key: "title", label: "标题", kind: { type: "text" } },
-        { key: "description", label: "描述", kind: { type: "textarea" } },
-        { key: "badge", label: "角标", kind: { type: "text" } },
-        { key: "image", label: "图片", kind: { type: "text" } },
-        {
-          key: "theme",
-          label: "主题色",
-          kind: {
-            type: "select",
-            options: [
-              { value: "yellow", label: "黄色" },
-              { value: "blue", label: "蓝色" },
-              { value: "red", label: "红色" },
-              { value: "beige", label: "米色" },
-              { value: "white", label: "白色" },
-            ],
+    searchHints: { kind: "strings" },
+    navMenuItems: {
+      kind: "objects",
+      labelKey: "label",
+      schema: {
+        fields: [
+          { key: "label", label: t("admin.homepage.field.menuName"), kind: { type: "text" } },
+          { key: "href", label: t("admin.homepage.field.href"), kind: { type: "text" } },
+          {
+            key: "hasMegaMenu",
+            label: t("admin.homepage.field.hasMegaMenu"),
+            kind: { type: "boolean" },
           },
-        },
-        { key: "ctaLabel", label: "按钮文字", kind: { type: "text" } },
-        { key: "ctaHref", label: "按钮链接", kind: { type: "text" } },
-      ],
-    },
-  },
-  serviceColumns: {
-    kind: "objects",
-    labelKey: "title",
-    schema: {
-      fields: [
-        { key: "title", label: "标题", kind: { type: "text" } },
-        { key: "description", label: "描述", kind: { type: "textarea" } },
-        { key: "backgroundImage", label: "背景图", kind: { type: "text" } },
-        { key: "ctaLabel", label: "按钮文字", kind: { type: "text" } },
-        { key: "ctaHref", label: "按钮链接", kind: { type: "text" } },
-      ],
-    },
-  },
-  rankingSections: {
-    kind: "objects",
-    labelKey: "name",
-    schema: {
-      fields: [
-        { key: "id", label: "ID", kind: { type: "text" } },
-        { key: "name", label: "榜单名称", kind: { type: "text" } },
-        { key: "backgroundColor", label: "背景色", kind: { type: "text" } },
-        {
-          key: "products",
-          label: "上榜商品",
-          kind: { type: "objectList", schema: RANKING_PRODUCT_SCHEMA },
-        },
-      ],
-    },
-  },
-  roomPillItems: { kind: "objects", labelKey: "label", schema: PILL_SCHEMA },
-  roomPillCta: { kind: "object", schema: PILL_CTA_SCHEMA },
-  sustainabilityPillItems: {
-    kind: "objects",
-    labelKey: "label",
-    schema: PILL_SCHEMA,
-  },
-  sustainabilityPillCta: { kind: "object", schema: PILL_CTA_SCHEMA },
-  feedProducts: { kind: "feed" },
-  assurances: {
-    kind: "objects",
-    labelKey: "title",
-    schema: {
-      fields: [
-        {
-          key: "icon",
-          label: "图标",
-          kind: {
-            type: "select",
-            options: [
-              { value: "truck", label: "配送" },
-              { value: "assembly", label: "组装" },
-              { value: "design", label: "设计" },
-              { value: "installation", label: "安装" },
-            ],
+          {
+            key: "menuPanelLabel",
+            label: t("admin.homepage.field.menuPanel"),
+            kind: { type: "text" },
+            hint: t("admin.homepage.field.menuPanelHint"),
           },
-        },
-        { key: "title", label: "标题", kind: { type: "text" } },
-        { key: "description", label: "描述", kind: { type: "textarea" } },
-        { key: "ctaLabel", label: "按钮文字", kind: { type: "text" } },
-        { key: "ctaHref", label: "按钮链接", kind: { type: "text" } },
-      ],
+        ],
+      },
     },
-  },
-  recallNotices: {
-    kind: "objects",
-    labelKey: "title",
-    schema: {
-      fields: [
-        { key: "title", label: "标题", kind: { type: "text" } },
-        { key: "date", label: "日期", kind: { type: "text" } },
-        { key: "href", label: "链接", kind: { type: "text" } },
-        { key: "image", label: "图片", kind: { type: "text" } },
-      ],
+    megaMenuCategories: {
+      kind: "objects",
+      labelKey: "name",
+      schema: {
+        fields: [
+          { key: "name", label: t("admin.homepage.field.categoryName"), kind: { type: "text" } },
+          {
+            key: "subCategories",
+            label: t("admin.homepage.field.subCategories"),
+            kind: { type: "stringList", placeholder: t("admin.homepage.field.subCategoryName") },
+          },
+        ],
+      },
     },
-  },
-  footerLinkGroups: {
-    kind: "objects",
-    labelKey: "title",
-    schema: {
-      fields: [
-        { key: "title", label: "组标题", kind: { type: "text" } },
-        {
-          key: "links",
-          label: "链接列表",
-          kind: { type: "objectList", schema: LINK_SCHEMA },
-        },
-      ],
+    heroVideo: {
+      kind: "object",
+      schema: {
+        fields: [
+          {
+            key: "video",
+            label: t("admin.homepage.field.video"),
+            kind: { type: "text" },
+            hint: t("admin.homepage.field.videoHint"),
+          },
+          { key: "poster", label: t("admin.homepage.field.poster"), kind: { type: "text" } },
+          { key: "href", label: t("admin.homepage.field.href"), kind: { type: "text" } },
+          { key: "alt", label: t("admin.homepage.field.altText"), kind: { type: "text" } },
+        ],
+      },
     },
-  },
-  footerFeaturedCards: {
-    kind: "objects",
-    labelKey: "title",
-    schema: {
-      fields: [
-        { key: "eyebrow", label: "眉题", kind: { type: "text" } },
-        { key: "title", label: "标题", kind: { type: "text" } },
-        { key: "description", label: "描述", kind: { type: "textarea" } },
-        { key: "image", label: "图片", kind: { type: "text" } },
-        {
-          key: "links",
-          label: "链接列表",
-          kind: { type: "objectList", schema: LINK_SCHEMA },
-        },
-      ],
+    promoCardItems: {
+      kind: "objects",
+      labelKey: "title",
+      schema: {
+        fields: [
+          { key: "eyebrow", label: t("admin.homepage.field.eyebrow"), kind: { type: "text" } },
+          { key: "title", label: t("admin.homepage.field.title"), kind: { type: "text" } },
+          { key: "description", label: t("admin.homepage.field.description"), kind: { type: "textarea" } },
+          { key: "badge", label: t("admin.homepage.field.badge"), kind: { type: "text" } },
+          { key: "image", label: t("admin.homepage.field.image"), kind: { type: "text" } },
+          { key: "backgroundColor", label: t("admin.homepage.field.bgColor"), kind: { type: "text" } },
+          { key: "textColor", label: t("admin.homepage.field.textColor"), kind: { type: "text" } },
+          { key: "ctaLabel", label: t("admin.homepage.field.ctaLabel"), kind: { type: "text" } },
+          { key: "ctaHref", label: t("admin.homepage.field.ctaHref"), kind: { type: "text" } },
+          { key: "href", label: t("admin.homepage.field.cardHref"), kind: { type: "text" } },
+        ],
+      },
     },
-  },
-  socialIcons: {
-    kind: "objects",
-    labelKey: "name",
-    schema: {
-      fields: [
-        { key: "name", label: "名称", kind: { type: "text" } },
-        { key: "src", label: "图标", kind: { type: "text" } },
-      ],
+    inspirationTipsItems: {
+      kind: "objects",
+      labelKey: "title",
+      schema: {
+        fields: [
+          { key: "eyebrow", label: t("admin.homepage.field.eyebrow"), kind: { type: "text" } },
+          { key: "title", label: t("admin.homepage.field.title"), kind: { type: "text" } },
+          { key: "description", label: t("admin.homepage.field.description"), kind: { type: "textarea" } },
+          { key: "badge", label: t("admin.homepage.field.badge"), kind: { type: "text" } },
+          { key: "image", label: t("admin.homepage.field.image"), kind: { type: "text" } },
+          {
+            key: "theme",
+            label: t("admin.homepage.field.theme"),
+            kind: {
+              type: "select",
+              options: [
+                { value: "yellow", label: t("admin.homepage.field.themeYellow") },
+                { value: "blue", label: t("admin.homepage.field.themeBlue") },
+                { value: "red", label: t("admin.homepage.field.themeRed") },
+                { value: "beige", label: t("admin.homepage.field.themeBeige") },
+                { value: "white", label: t("admin.homepage.field.themeWhite") },
+              ],
+            },
+          },
+          { key: "ctaLabel", label: t("admin.homepage.field.ctaLabel"), kind: { type: "text" } },
+          { key: "ctaHref", label: t("admin.homepage.field.ctaHref"), kind: { type: "text" } },
+        ],
+      },
     },
-  },
-  legalBar: {
-    kind: "object",
-    schema: {
-      fields: [
-        { key: "edition", label: "版权信息", kind: { type: "text" } },
-        {
-          key: "links",
-          label: "链接列表",
-          kind: { type: "objectList", schema: LINK_SCHEMA },
-        },
-      ],
+    serviceColumns: {
+      kind: "objects",
+      labelKey: "title",
+      schema: {
+        fields: [
+          { key: "title", label: t("admin.homepage.field.title"), kind: { type: "text" } },
+          { key: "description", label: t("admin.homepage.field.description"), kind: { type: "textarea" } },
+          { key: "backgroundImage", label: t("admin.homepage.field.backgroundImage"), kind: { type: "text" } },
+          { key: "ctaLabel", label: t("admin.homepage.field.ctaLabel"), kind: { type: "text" } },
+          { key: "ctaHref", label: t("admin.homepage.field.ctaHref"), kind: { type: "text" } },
+        ],
+      },
     },
-  },
+    rankingSections: {
+      kind: "objects",
+      labelKey: "name",
+      schema: {
+        fields: [
+          { key: "id", label: "ID", kind: { type: "text" } },
+          { key: "name", label: t("admin.homepage.field.rankingName"), kind: { type: "text" } },
+          { key: "backgroundColor", label: t("admin.homepage.field.bgColor"), kind: { type: "text" } },
+          {
+            key: "products",
+            label: t("admin.homepage.field.rankingProducts"),
+            kind: { type: "objectList", schema: RANKING_PRODUCT_SCHEMA },
+          },
+        ],
+      },
+    },
+    roomPillItems: { kind: "objects", labelKey: "label", schema: PILL_SCHEMA },
+    roomPillCta: { kind: "object", schema: PILL_CTA_SCHEMA },
+    sustainabilityPillItems: {
+      kind: "objects",
+      labelKey: "label",
+      schema: PILL_SCHEMA,
+    },
+    sustainabilityPillCta: { kind: "object", schema: PILL_CTA_SCHEMA },
+    feedProducts: { kind: "feed" },
+    assurances: {
+      kind: "objects",
+      labelKey: "title",
+      schema: {
+        fields: [
+          {
+            key: "icon",
+            label: t("admin.homepage.field.icon"),
+            kind: {
+              type: "select",
+              options: [
+                { value: "truck", label: t("admin.homepage.field.iconTruck") },
+                { value: "assembly", label: t("admin.homepage.field.iconAssembly") },
+                { value: "design", label: t("admin.homepage.field.iconDesign") },
+                { value: "installation", label: t("admin.homepage.field.iconInstallation") },
+              ],
+            },
+          },
+          { key: "title", label: t("admin.homepage.field.title"), kind: { type: "text" } },
+          { key: "description", label: t("admin.homepage.field.description"), kind: { type: "textarea" } },
+          { key: "ctaLabel", label: t("admin.homepage.field.ctaLabel"), kind: { type: "text" } },
+          { key: "ctaHref", label: t("admin.homepage.field.ctaHref"), kind: { type: "text" } },
+        ],
+      },
+    },
+    recallNotices: {
+      kind: "objects",
+      labelKey: "title",
+      schema: {
+        fields: [
+          { key: "title", label: t("admin.homepage.field.title"), kind: { type: "text" } },
+          { key: "date", label: t("admin.homepage.field.date"), kind: { type: "text" } },
+          { key: "href", label: t("admin.homepage.field.href"), kind: { type: "text" } },
+          { key: "image", label: t("admin.homepage.field.image"), kind: { type: "text" } },
+        ],
+      },
+    },
+    footerLinkGroups: {
+      kind: "objects",
+      labelKey: "title",
+      schema: {
+        fields: [
+          { key: "title", label: t("admin.homepage.field.groupTitle"), kind: { type: "text" } },
+          {
+            key: "links",
+            label: t("admin.homepage.field.linkList"),
+            kind: { type: "objectList", schema: LINK_SCHEMA },
+          },
+        ],
+      },
+    },
+    footerFeaturedCards: {
+      kind: "objects",
+      labelKey: "title",
+      schema: {
+        fields: [
+          { key: "eyebrow", label: t("admin.homepage.field.eyebrow"), kind: { type: "text" } },
+          { key: "title", label: t("admin.homepage.field.title"), kind: { type: "text" } },
+          { key: "description", label: t("admin.homepage.field.description"), kind: { type: "textarea" } },
+          { key: "image", label: t("admin.homepage.field.image"), kind: { type: "text" } },
+          {
+            key: "links",
+            label: t("admin.homepage.field.linkList"),
+            kind: { type: "objectList", schema: LINK_SCHEMA },
+          },
+        ],
+      },
+    },
+    socialIcons: {
+      kind: "objects",
+      labelKey: "name",
+      schema: {
+        fields: [
+          { key: "name", label: t("admin.homepage.field.name"), kind: { type: "text" } },
+          { key: "src", label: t("admin.homepage.field.icon"), kind: { type: "text" } },
+        ],
+      },
+    },
+    legalBar: {
+      kind: "object",
+      schema: {
+        fields: [
+          { key: "edition", label: t("admin.homepage.field.edition"), kind: { type: "text" } },
+          {
+            key: "links",
+            label: t("admin.homepage.field.linkList"),
+            kind: { type: "objectList", schema: LINK_SCHEMA },
+          },
+        ],
+      },
+    },
+  }
+
+  return { SECTIONS, SCHEMAS }
 }
 
 export default function HomepageEditorPage() {
+  const { t } = useTranslation()
+  const { SECTIONS, SCHEMAS } = buildConfigs(t)
   const { notice, show } = useNotice()
   const [data, setData] = useState<Record<string, unknown> | null>(null)
   const [selected, setSelected] = useState<string>(SECTIONS[0].key)
@@ -378,7 +385,7 @@ export default function HomepageEditorPage() {
         method: "PUT",
         body: JSON.stringify({ updates: { [selected]: data[selected] } }),
       })
-      show("success", `「${config.label}」已保存，首页立即生效`)
+      show("success", t("admin.homepage.saved", { label: config.label }))
     } catch (e) {
       show("error", (e as Error).message)
     } finally {
@@ -423,11 +430,11 @@ export default function HomepageEditorPage() {
   return (
     <div>
       <PageHeader
-        title="首页管理"
-        description="按区块以表单方式编辑首页内容（轮播、促销、榜单、页脚等），保存后即时生效。"
+        title={t("admin.homepage.title")}
+        description={t("admin.homepage.desc")}
         actions={
           <Button onClick={save} disabled={saving}>
-            {saving ? "保存中…" : "保存当前区块"}
+            {saving ? t("admin.common.saving") : t("admin.homepage.saveSection")}
           </Button>
         }
       />
@@ -456,7 +463,7 @@ export default function HomepageEditorPage() {
         </Card>
 
         <Card
-          title={`${config.label}（${config.key}）`}
+          title={t("admin.homepage.cardTitle", { label: config.label, key: config.key })}
           actions={
             <div className="flex items-center gap-3">
               <span className="text-xs text-ikea-muted">{config.description}</span>
@@ -469,7 +476,7 @@ export default function HomepageEditorPage() {
                   }))
                 }
               >
-                {useJson ? "切换为表单" : "JSON 模式"}
+                {useJson ? t("admin.homepage.switchForm") : t("admin.homepage.jsonMode")}
               </Button>
             </div>
           }
@@ -477,7 +484,7 @@ export default function HomepageEditorPage() {
           {renderBody()}
           {!Array.isArray(value) && typeof value !== "object" ? (
             <div className="mt-3">
-              <Notice kind="info">该区块内容不是数组或对象，已切换到 JSON 编辑。</Notice>
+              <Notice kind="info">{t("admin.homepage.notArrayNotice")}</Notice>
             </div>
           ) : null}
         </Card>

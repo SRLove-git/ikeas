@@ -13,8 +13,11 @@ import { VisualPillSlider } from "@/components/VisualPillSlider"
 import { homepage } from "@/data/homepage"
 import { getMenuPanels } from "@/data/menu-panels"
 import { getMenuCategories } from "@/data/categories"
+import { getLocale, getServerT } from "@/i18n/server"
 
-export default function Home() {
+export default async function Home() {
+  const locale = await getLocale()
+  const t = await getServerT(locale)
   const {
     assurances,
     footerFeaturedCards,
@@ -34,7 +37,7 @@ export default function Home() {
     socialIcons,
     sustainabilityPillCta,
     sustainabilityPillItems,
-  } = homepage()
+  } = homepage(locale)
   return (
     <main className="text-left">
       <div className="font-ikea">
@@ -43,8 +46,8 @@ export default function Home() {
           <Header
             menuItems={navMenuItems}
             searchHints={searchHints}
-            menuPanels={getMenuPanels()}
-            categories={getMenuCategories()}
+            menuPanels={getMenuPanels(locale)}
+            categories={getMenuCategories(locale)}
           />
           <div className="i-layout__body">
             <HeroVideo
@@ -54,16 +57,20 @@ export default function Home() {
               alt={heroVideo.alt}
             />
             <div className="clearfix min-h-screen px-0 m-auto mb-8 space-y-8 text-left lg:mb-12 lg:space-y-12 max-w-page">
-              <PromoInspirationCard title="CHUNG YIP 精选" items={promoCardItems} />
+              <PromoInspirationCard title={t("home.promoTitle")} items={promoCardItems} />
               <ServiceColumns columns={serviceColumns} />
-              <VisualPillSlider title="按分类选购" items={roomPillItems} cta={roomPillCta} />
+              <VisualPillSlider
+                title={t("home.shopByCategory")}
+                items={roomPillItems}
+                cta={roomPillCta}
+              />
               <InspirationTipsCard
-                title="健康生活小贴士"
+                title={t("home.healthyTips")}
                 items={inspirationTipsItems}
                 cta={inspirationTipsCta}
               />
               <VisualPillSlider
-                title="健康生活精选"
+                title={t("home.healthyLiving")}
                 items={sustainabilityPillItems}
                 cta={sustainabilityPillCta}
               />

@@ -1,6 +1,8 @@
 "use client";
 
 import { useCallback, useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
+import { useLocale } from "@/i18n/LanguageProvider";
 import {
   adminFetch,
   ConfirmButton,
@@ -21,6 +23,8 @@ interface User {
 }
 
 export default function UsersPage() {
+  const { t } = useTranslation();
+  const { locale } = useLocale();
   const { notice, show } = useNotice();
   const [users, setUsers] = useState<User[] | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -42,15 +46,15 @@ export default function UsersPage() {
 
   const remove = async (id: string) => {
     await adminFetch(`/api/admin/server/users/${id}`, { method: "DELETE" });
-    show("success", "用户已删除");
+    show("success", t("admin.users.deleted"));
     await load();
   };
 
   return (
     <div>
       <PageHeader
-        title="用户管理"
-        description="Spring Boot 后端注册的用户（登录账号）。"
+        title={t("admin.users.title")}
+        description={t("admin.users.desc")}
       />
       <NoticeArea notice={notice} />
       {error ? (
@@ -60,18 +64,20 @@ export default function UsersPage() {
       ) : null}
       <div className="overflow-hidden rounded-lg border border-ikea-gray-200 bg-white">
         {!users ? (
-          <Loading label="连接运营服务…" />
+          <Loading label={t("admin.users.loading")} />
         ) : users.length === 0 ? (
-          <EmptyState>暂无用户</EmptyState>
+          <EmptyState>{t("admin.users.empty")}</EmptyState>
         ) : (
           <table className="w-full text-left text-sm">
             <thead className="border-b border-ikea-gray-200 bg-ikea-gray-50 text-xs text-ikea-muted">
               <tr>
-                <th className="px-5 py-3 font-medium">用户</th>
-                <th className="px-5 py-3 font-medium">手机</th>
-                <th className="px-5 py-3 font-medium">邮箱</th>
-                <th className="px-5 py-3 font-medium">注册时间</th>
-                <th className="px-5 py-3 text-right font-medium">操作</th>
+                <th className="px-5 py-3 font-medium">{t("admin.users.colUser")}</th>
+                <th className="px-5 py-3 font-medium">{t("admin.users.colPhone")}</th>
+                <th className="px-5 py-3 font-medium">{t("admin.users.colEmail")}</th>
+                <th className="px-5 py-3 font-medium">{t("admin.users.colCreatedAt")}</th>
+                <th className="px-5 py-3 text-right font-medium">
+                  {t("admin.common.colActions")}
+                </th>
               </tr>
             </thead>
             <tbody className="divide-y divide-ikea-gray-200">
@@ -84,11 +90,11 @@ export default function UsersPage() {
                   <td className="px-5 py-3 text-xs">{user.phone ?? "—"}</td>
                   <td className="px-5 py-3 text-xs">{user.email ?? "—"}</td>
                   <td className="px-5 py-3 text-xs text-ikea-muted">
-                    {new Date(user.createdAt).toLocaleString("zh-CN")}
+                    {new Date(user.createdAt).toLocaleString(locale === "en" ? "en-SG" : "zh-CN")}
                   </td>
                   <td className="px-5 py-3 text-right">
                     <ConfirmButton onConfirm={() => remove(user.id)}>
-                      删除用户
+                      {t("admin.users.deleteUser")}
                     </ConfirmButton>
                   </td>
                 </tr>

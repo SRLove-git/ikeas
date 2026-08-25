@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef } from "react";
+import { useTranslation } from "react-i18next";
 import { ChevronLeftIcon, ChevronRightIcon } from "@/components/icons";
 import type { RankingCategory } from "@/types";
 
@@ -10,6 +11,7 @@ interface RankingSectionProps {
 
 export function RankingSection({ sections }: RankingSectionProps) {
   const viewRef = useRef<HTMLDivElement>(null);
+  const { t } = useTranslation();
 
   const scrollBy = (direction: 1 | -1) => {
     const el = viewRef.current;
@@ -27,11 +29,11 @@ export function RankingSection({ sections }: RankingSectionProps) {
               type="button"
               className="i-btn i-btn--small i-btn--icon-primary i-scrollbar-arrow__button"
               onClick={() => scrollBy(-1)}
-              aria-label="向左滚动"
+              aria-label={t("ranking.scrollLeft")}
             >
               <span className="i-btn__inner">
                 <ChevronLeftIcon />
-                <span className="i-btn__label">向左滚动</span>
+                <span className="i-btn__label">{t("ranking.scrollLeft")}</span>
               </span>
             </button>
           </div>
@@ -40,11 +42,11 @@ export function RankingSection({ sections }: RankingSectionProps) {
               type="button"
               className="i-btn i-btn--small i-btn--icon-primary i-scrollbar-arrow__button"
               onClick={() => scrollBy(1)}
-              aria-label="向右滚动"
+              aria-label={t("ranking.scrollRight")}
             >
               <span className="i-btn__inner">
                 <ChevronRightIcon />
-                <span className="i-btn__label">向右滚动</span>
+                <span className="i-btn__label">{t("ranking.scrollRight")}</span>
               </span>
             </button>
           </div>
@@ -65,11 +67,11 @@ export function RankingSection({ sections }: RankingSectionProps) {
                           }}
                         >
                           <div className="pub-ranking-item-header-desc">
-                            <span className="ranking-label">热销榜</span>
+                            <span className="ranking-label">{t("ranking.bestsellers")}</span>
                             <span className="ranking-name">{section.name}</span>
                           </div>
                           <div className="pub-ranking-item-header-nav">
-                            <button type="button" aria-label="查看更多">
+                            <button type="button" aria-label={t("ranking.viewMore")}>
                               <ChevronRightIcon width={20} height={20} />
                             </button>
                           </div>

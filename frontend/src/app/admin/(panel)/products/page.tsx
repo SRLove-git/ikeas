@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react"
 import Link from "next/link"
+import { useTranslation } from "react-i18next"
 import {
   adminFetch,
   Button,
@@ -26,6 +27,7 @@ interface Product {
 }
 
 export default function ProductsPage() {
+  const { t } = useTranslation()
   const [query, setQuery] = useState("")
   const [page, setPage] = useState(1)
   const [data, setData] = useState<{ items: Product[]; total: number } | null>(null)
@@ -52,11 +54,11 @@ export default function ProductsPage() {
   return (
     <div>
       <PageHeader
-        title="商品管理"
-        description="管理网站展示的全部商品（名称、价格、图片、标签、详情）。"
+        title={t("admin.products.title")}
+        description={t("admin.products.desc")}
         actions={
           <Link href="/admin/products/new">
-            <Button>新建商品</Button>
+            <Button>{t("admin.products.new")}</Button>
           </Link>
         }
       />
@@ -68,10 +70,12 @@ export default function ProductsPage() {
             setPage(1)
             setQuery(v)
           }}
-          placeholder="搜索名称 / ID / slug…"
+          placeholder={t("admin.products.searchPlaceholder")}
         />
         <span className="text-xs text-ikea-muted">
-          {data ? `共 ${data.total} 件商品` : "加载中…"}
+          {data
+            ? t("admin.products.count", { count: data.total })
+            : t("admin.ui.loading")}
         </span>
       </div>
 
@@ -85,17 +89,17 @@ export default function ProductsPage() {
         {!data ? (
           <Loading />
         ) : data.items.length === 0 ? (
-          <EmptyState>没有找到匹配的商品</EmptyState>
+          <EmptyState>{t("admin.products.empty")}</EmptyState>
         ) : (
           <>
             <table className="w-full text-left text-sm">
               <thead className="border-b border-ikea-gray-200 bg-ikea-gray-50 text-xs text-ikea-muted">
                 <tr>
-                  <th className="px-5 py-3 font-medium">商品</th>
+                  <th className="px-5 py-3 font-medium">{t("admin.products.colProduct")}</th>
                   <th className="px-5 py-3 font-medium">ID</th>
-                  <th className="px-5 py-3 font-medium">类型 / 设计</th>
-                  <th className="px-5 py-3 font-medium">价格</th>
-                  <th className="px-5 py-3 text-right font-medium">操作</th>
+                  <th className="px-5 py-3 font-medium">{t("admin.products.colTypeDesign")}</th>
+                  <th className="px-5 py-3 font-medium">{t("admin.products.colPrice")}</th>
+                  <th className="px-5 py-3 text-right font-medium">{t("admin.products.colActions")}</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-ikea-gray-200">
@@ -136,7 +140,7 @@ export default function ProductsPage() {
                         href={`/admin/products/${product.id}`}
                         className="text-xs font-medium text-ikea-blue hover:underline"
                       >
-                        编辑
+                        {t("admin.products.edit")}
                       </Link>
                     </td>
                   </tr>

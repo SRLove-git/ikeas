@@ -4,6 +4,8 @@ import "./globals.css"
 import "./ikea-components.css"
 import { AuthProvider } from "@/lib/auth"
 import { getSettings } from "@/lib/admin-store"
+import { LanguageProvider } from "@/i18n/LanguageProvider"
+import { getLocale } from "@/i18n/server"
 
 const notoIkeaLatin = localFont({
   src: [
@@ -50,7 +52,8 @@ const notoIkeaSc = localFont({
 })
 
 export async function generateMetadata(): Promise<Metadata> {
-  const settings = getSettings()
+  const locale = await getLocale()
+  const settings = getSettings(locale)
   return {
     title: settings.siteName,
     description: settings.siteDescription,
@@ -60,18 +63,21 @@ export async function generateMetadata(): Promise<Metadata> {
   }
 }
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode
 }>) {
+  const locale = await getLocale()
   return (
     <html
-      lang="zh-CN"
+      lang={locale}
       className={`${notoIkeaLatin.variable} ${notoIkeaSc.variable} h-full antialiased`}
     >
       <body className="font-ikea min-h-full flex flex-col">
-        <AuthProvider>{children}</AuthProvider>
+        <AuthProvider>
+          <LanguageProvider initialLocale={locale}>{children}</LanguageProvider>
+        </AuthProvider>
       </body>
     </html>
   )

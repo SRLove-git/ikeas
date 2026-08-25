@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { findContentPage, pagesByFamily } from "@/lib/pages";
 import { ContentPage } from "@/components/ContentPage";
 import { SiteLayout } from "@/components/SiteLayout";
+import { getLocale } from "@/i18n/server";
 
 export const dynamicParams = false;
 
@@ -27,7 +28,8 @@ export default async function ServiceSubPage({
 }) {
   const { slug } = await params;
   const url = `/cn/zh/customer-service/services/${slug.join("/")}`;
-  const page = findContentPage(url);
+  const locale = await getLocale();
+  const page = findContentPage(url, locale);
   if (!page) notFound();
 
   return (

@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { InfoIcon } from "@/components/icons";
+import { LanguageSwitch } from "@/i18n/LanguageSwitch";
 import type { NoticeItem } from "@/types";
 
 interface NoticeBarProps {
@@ -39,11 +40,7 @@ export function NoticeBar({ items }: NoticeBarProps) {
           </div>
         </div>
         <div className="language-switch-container">
-          <div className="nav-header-message-language-switch">
-            <span>中文</span>
-            <span className="lang-separator">|</span>
-            <span>EN</span>
-          </div>
+          <LanguageSwitch />
         </div>
       </div>
     </div>

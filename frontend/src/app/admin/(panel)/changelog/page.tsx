@@ -1,6 +1,8 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
+import { useLocale } from "@/i18n/LanguageProvider";
 import {
   adminFetch,
   EmptyState,
@@ -19,30 +21,30 @@ interface ChangelogEntry {
   summary: string;
 }
 
-const ACTION_LABEL: Record<string, string> = {
-  create: "创建",
-  update: "更新",
-  delete: "删除",
-};
-
 const ACTION_COLOR: Record<string, string> = {
   create: "bg-green-100 text-green-700",
   update: "bg-blue-100 text-blue-700",
   delete: "bg-red-100 text-red-700",
 };
 
-const RESOURCE_LABEL: Record<string, string> = {
-  product: "商品",
-  page: "页面",
-  homepage: "首页",
-  menu: "菜单",
-  categories: "分类",
-  "catalog-page": "落地页",
-  order: "订单",
-  settings: "设置",
-};
-
 export default function ChangelogPage() {
+  const { t } = useTranslation();
+  const { locale } = useLocale();
+  const ACTION_LABEL: Record<string, string> = {
+    create: t("admin.changelog.actionCreate"),
+    update: t("admin.changelog.actionUpdate"),
+    delete: t("admin.changelog.actionDelete"),
+  };
+  const RESOURCE_LABEL: Record<string, string> = {
+    product: t("admin.changelog.resourceProduct"),
+    page: t("admin.changelog.resourcePage"),
+    homepage: t("admin.changelog.resourceHomepage"),
+    menu: t("admin.changelog.resourceMenu"),
+    categories: t("admin.changelog.resourceCategories"),
+    "catalog-page": t("admin.changelog.resourceCatalogPage"),
+    order: t("admin.changelog.resourceOrder"),
+    settings: t("admin.changelog.resourceSettings"),
+  };
   const [items, setItems] = useState<ChangelogEntry[] | null>(null);
   const [error, setError] = useState<string | null>(null);
 
@@ -59,7 +61,10 @@ export default function ChangelogPage() {
 
   return (
     <div>
-      <PageHeader title="操作日志" description="后台所有内容修改的记录（最多保留 200 条）。" />
+      <PageHeader
+        title={t("admin.changelog.title")}
+        description={t("admin.changelog.desc")}
+      />
       {error ? (
         <div className="mb-4">
           <Notice kind="error">{error}</Notice>
@@ -69,22 +74,22 @@ export default function ChangelogPage() {
         {!items ? (
           <Loading />
         ) : items.length === 0 ? (
-          <EmptyState>暂无操作记录</EmptyState>
+          <EmptyState>{t("admin.changelog.empty")}</EmptyState>
         ) : (
           <table className="w-full text-left text-sm">
             <thead className="border-b border-ikea-gray-200 bg-ikea-gray-50 text-xs text-ikea-muted">
               <tr>
-                <th className="px-5 py-3 font-medium">时间</th>
-                <th className="px-5 py-3 font-medium">操作</th>
-                <th className="px-5 py-3 font-medium">对象</th>
-                <th className="px-5 py-3 font-medium">说明</th>
+                <th className="px-5 py-3 font-medium">{t("admin.changelog.colTime")}</th>
+                <th className="px-5 py-3 font-medium">{t("admin.changelog.colAction")}</th>
+                <th className="px-5 py-3 font-medium">{t("admin.changelog.colResource")}</th>
+                <th className="px-5 py-3 font-medium">{t("admin.changelog.colSummary")}</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-ikea-gray-200">
               {items.map((entry) => (
                 <tr key={entry.id} className="hover:bg-ikea-gray-50">
                   <td className="px-5 py-3 text-xs text-ikea-muted">
-                    {new Date(entry.at).toLocaleString("zh-CN")}
+                    {new Date(entry.at).toLocaleString(locale === "en" ? "en-SG" : "zh-CN")}
                   </td>
                   <td className="px-5 py-3">
                     <span

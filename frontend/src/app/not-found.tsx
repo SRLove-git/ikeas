@@ -1,9 +1,11 @@
 import Link from "next/link"
 import { SiteImage } from "@/components/SiteImage"
 import { getSettings } from "@/lib/admin-store"
+import { getLocale } from "@/i18n/server"
 
-export default function NotFound() {
-  const { siteCopy } = getSettings()
+export default async function NotFound() {
+  const locale = await getLocale()
+  const { siteCopy } = getSettings(locale)
   return (
     <main className="font-ikea flex min-h-screen items-center justify-center bg-white text-ikea-black">
       <div className="flex flex-col items-center px-6 py-16 text-center">

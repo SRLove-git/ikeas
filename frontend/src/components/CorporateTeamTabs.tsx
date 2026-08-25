@@ -3,6 +3,7 @@
 import Link from "next/link"
 import { useEffect, useRef, useState } from "react"
 import type { ReactNode } from "react"
+import { useTranslation } from "react-i18next"
 import { SiteImage } from "@/components/SiteImage"
 
 export interface TeamMember {
@@ -46,6 +47,7 @@ function MemberLink({ href, children }: { href?: string | null; children: ReactN
  * groups, rendering only the members of the selected group.
  */
 export function CorporateTeamTabs({ groups }: CorporateTeamTabsProps) {
+  const { t } = useTranslation()
   const barRef = useRef<HTMLDivElement>(null)
   const [activeId, setActiveId] = useState(groups[0]?.id ?? "")
   const [headerOffset, setHeaderOffset] = useState(0)
@@ -152,7 +154,7 @@ export function CorporateTeamTabs({ groups }: CorporateTeamTabsProps) {
                           <path d="M12 12a4.5 4.5 0 1 0-4.5-4.5A4.5 4.5 0 0 0 12 12zm0 2c-3.9 0-7 2-7 4.4V20h14v-1.6c0-2.4-3.1-4.4-7-4.4z" />
                         </svg>
                       </span>
-                      <span className="text-xs text-ikea-muted">头像待定</span>
+                      <span className="text-xs text-ikea-muted">{t("content.avatarPending")}</span>
                     </div>
                   )}
                 </div>

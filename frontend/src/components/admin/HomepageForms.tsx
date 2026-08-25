@@ -1,5 +1,6 @@
 "use client";
 
+import { useTranslation } from "react-i18next";
 import {
   Button,
   TextInput,
@@ -18,26 +19,6 @@ function asObject(value: unknown): Record<string, unknown> {
     : {};
 }
 
-const FEED_PRODUCT_SCHEMA: Schema = {
-  fields: [
-    { key: "productId", label: "商品 ID", kind: { type: "text" } },
-    { key: "title", label: "标题", kind: { type: "text" } },
-    { key: "desc", label: "描述", kind: { type: "text" } },
-    { key: "price", label: "价格", kind: { type: "text" }, hint: "如 SGD 4.80" },
-    { key: "href", label: "链接", kind: { type: "text" } },
-    { key: "image", label: "图片", kind: { type: "text" } },
-    { key: "left", label: "水平位置 left", kind: { type: "text" }, hint: "如 33%" },
-    { key: "top", label: "垂直位置 top", kind: { type: "text" }, hint: "如 36%" },
-    { key: "tooltipPosition", label: "提示位置", kind: { type: "text" }, hint: "如 is-top" },
-    {
-      key: "tags",
-      label: "标签",
-      kind: { type: "stringList", placeholder: "标签文字" },
-    },
-    { key: "tagStyle", label: "标签样式", kind: { type: "textarea" }, hint: "CSS 字符串，如 color: #fff; background-color: #0058a3;" },
-  ],
-};
-
 export function FeedProductsEditor({
   value,
   onChange,
@@ -45,6 +26,51 @@ export function FeedProductsEditor({
   value: unknown;
   onChange: (next: unknown) => void;
 }) {
+  const { t } = useTranslation();
+  const FEED_PRODUCT_SCHEMA: Schema = {
+    fields: [
+      { key: "productId", label: t("admin.products.id"), kind: { type: "text" } },
+      { key: "title", label: t("admin.homepageForms.title"), kind: { type: "text" } },
+      { key: "desc", label: t("admin.homepageForms.desc"), kind: { type: "text" } },
+      {
+        key: "price",
+        label: t("admin.products.price"),
+        kind: { type: "text" },
+        hint: t("admin.homepageForms.priceHint"),
+      },
+      { key: "href", label: t("admin.homepageForms.href"), kind: { type: "text" } },
+      { key: "image", label: t("admin.homepageForms.image"), kind: { type: "text" } },
+      {
+        key: "left",
+        label: t("admin.homepageForms.left"),
+        kind: { type: "text" },
+        hint: t("admin.homepageForms.leftHint"),
+      },
+      {
+        key: "top",
+        label: t("admin.homepageForms.top"),
+        kind: { type: "text" },
+        hint: t("admin.homepageForms.topHint"),
+      },
+      {
+        key: "tooltipPosition",
+        label: t("admin.homepageForms.tooltipPosition"),
+        kind: { type: "text" },
+        hint: t("admin.homepageForms.tooltipPositionHint"),
+      },
+      {
+        key: "tags",
+        label: t("admin.homepageForms.tags"),
+        kind: { type: "stringList", placeholder: t("admin.homepageForms.tagPlaceholder") },
+      },
+      {
+        key: "tagStyle",
+        label: t("admin.homepageForms.tagStyle"),
+        kind: { type: "textarea" },
+        hint: t("admin.homepageForms.tagStyleHint"),
+      },
+    ],
+  };
   const groups = Object.entries(asObject(value));
 
   const setGroup = (group: string, items: unknown) => {
@@ -69,7 +95,7 @@ export function FeedProductsEditor({
   return (
     <div className="space-y-4">
       {groups.length === 0 ? (
-        <p className="text-sm text-ikea-muted">还没有分组，先添加一个分组。</p>
+        <p className="text-sm text-ikea-muted">{t("admin.homepageForms.emptyGroups")}</p>
       ) : null}
       {groups.map(([group, items]) => (
         <div key={group} className="rounded-md border border-ikea-gray-200 p-3">
@@ -77,7 +103,7 @@ export function FeedProductsEditor({
             <div className="w-48">
               <TextInput
                 value={group}
-                aria-label="分组名称"
+                aria-label={t("admin.homepageForms.groupAria")}
                 onChange={(event) => renameGroup(group, event.target.value)}
               />
             </div>
@@ -95,7 +121,7 @@ export function FeedProductsEditor({
                   }
                 }}
               >
-                上移
+                {t("admin.ui.moveUp")}
               </Button>
               <Button
                 variant="ghost"
@@ -110,10 +136,10 @@ export function FeedProductsEditor({
                   }
                 }}
               >
-                下移
+                {t("admin.ui.moveDown")}
               </Button>
               <Button variant="ghost" onClick={() => removeGroup(group)}>
-                删除分组
+                {t("admin.homepageForms.deleteGroup")}
               </Button>
             </div>
           </div>
@@ -130,16 +156,16 @@ export function FeedProductsEditor({
         variant="secondary"
         onClick={() => {
           const copy = { ...asObject(value) };
-          let name = "新分组";
+          let name = t("admin.homepageForms.newGroup");
           let index = 1;
           while (copy[name]) {
-            name = `新分组 ${index++}`;
+            name = t("admin.homepageForms.newGroupN", { n: index++ });
           }
           copy[name] = [];
           onChange(copy);
         }}
       >
-        + 添加分组
+        {t("admin.homepageForms.addGroup")}
       </Button>
     </div>
   );

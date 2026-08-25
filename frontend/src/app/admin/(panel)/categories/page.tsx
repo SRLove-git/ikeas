@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import { useTranslation } from "react-i18next";
 import {
   adminFetch,
   Button,
@@ -26,21 +27,21 @@ interface CategoryItem {
   products: unknown[];
 }
 
-const SUB_SCHEMA: Schema = {
-  fields: [
-    { key: "name", label: "子分类名称", kind: { type: "text" } },
-    { key: "slug", label: "Slug", kind: { type: "text" } },
-    { key: "url", label: "URL", kind: { type: "text" } },
-    { key: "image", label: "图片 URL", kind: { type: "text" } },
-  ],
-};
-
 export default function CategoriesPage() {
+  const { t } = useTranslation();
   const { notice, show } = useNotice();
   const [kind, setKind] = useState<"catalog" | "channel">("catalog");
   const [categories, setCategories] = useState<Record<string, unknown> | null>(null);
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
   const [saving, setSaving] = useState(false);
+  const SUB_SCHEMA: Schema = {
+    fields: [
+      { key: "name", label: t("admin.categories.subName"), kind: { type: "text" } },
+      { key: "slug", label: "Slug", kind: { type: "text" } },
+      { key: "url", label: "URL", kind: { type: "text" } },
+      { key: "image", label: t("admin.categories.subImage"), kind: { type: "text" } },
+    ],
+  };
 
   useEffect(() => {
     void (async () => {
@@ -80,7 +81,7 @@ export default function CategoriesPage() {
         method: "PUT",
         body: JSON.stringify({ [key]: categories[key] }),
       });
-      show("success", "分类已保存");
+      show("success", t("admin.categories.saved"));
     } catch (e) {
       show("error", (e as Error).message);
     } finally {
@@ -91,8 +92,8 @@ export default function CategoriesPage() {
   return (
     <div>
       <PageHeader
-        title="分类管理"
-        description="管理商品分类与频道分类的名称、链接、图片和子分类。"
+        title={t("admin.categories.title")}
+        description={t("admin.categories.desc")}
       />
       <NoticeArea notice={notice} />
 
@@ -101,13 +102,17 @@ export default function CategoriesPage() {
           variant={kind === "catalog" ? "primary" : "secondary"}
           onClick={() => { setKind("catalog"); setSelectedIndex(null); }}
         >
-          商品分类（{(categories.catalogCategories as unknown[]).length}）
+          {t("admin.categories.catalogTab", {
+            count: (categories.catalogCategories as unknown[]).length,
+          })}
         </Button>
         <Button
           variant={kind === "channel" ? "primary" : "secondary"}
           onClick={() => { setKind("channel"); setSelectedIndex(null); }}
         >
-          频道分类（{(categories.channelCategories as unknown[]).length}）
+          {t("admin.categories.channelTab", {
+            count: (categories.channelCategories as unknown[]).length,
+          })}
         </Button>
       </div>
 
@@ -128,7 +133,10 @@ export default function CategoriesPage() {
                 >
                   <span className="block truncate font-medium">{category.name}</span>
                   <span className={cn("block truncate text-xs", selectedIndex === index ? "text-blue-100" : "text-ikea-muted")}>
-                    {category.products.length} 件商品 · {category.subs.length} 个子分类
+                    {t("admin.categories.itemMeta", {
+                      count: category.products.length,
+                      subs: category.subs.length,
+                    })}
                   </span>
                 </button>
               </li>
@@ -138,15 +146,15 @@ export default function CategoriesPage() {
 
         {selected ? (
           <Card
-            title={`编辑分类：${selected.name}`}
+            title={t("admin.categories.editTitle", { name: selected.name })}
             actions={
               <Button onClick={save} disabled={saving}>
-                {saving ? "保存中…" : "保存分类"}
+                {saving ? t("admin.common.saving") : t("admin.categories.saveCategory")}
               </Button>
             }
           >
             <div className="grid gap-4 sm:grid-cols-2">
-              <Field label="名称 *">
+              <Field label={t("admin.categories.name")}>
                 <TextInput
                   value={selected.name}
                   onChange={(e) => updateSelected({ name: e.target.value })}
@@ -164,7 +172,7 @@ export default function CategoriesPage() {
                   onChange={(e) => updateSelected({ url: e.target.value })}
                 />
               </Field>
-              <Field label="图片 URL" className="sm:col-span-2">
+              <Field label={t("admin.categories.imageUrl")} className="sm:col-span-2">
                 <TextInput
                   value={selected.image ?? ""}
                   onChange={(e) => updateSelected({ image: e.target.value || null })}
@@ -174,7 +182,7 @@ export default function CategoriesPage() {
 
             <div className="mt-6">
               <div className="mb-2 text-sm font-medium text-ikea-black">
-                子分类（{selected.subs.length}）
+                {t("admin.categories.subs", { count: selected.subs.length })}
               </div>
               <SchemaListForm
                 value={selected.subs}
@@ -183,25 +191,26 @@ export default function CategoriesPage() {
                 }
                 schema={SUB_SCHEMA}
                 labelKey="name"
-                titleFor={(item) => String(item.name ?? "未命名")}
+                titleFor={(item) => String(item.name ?? t("admin.ui.unnamed"))}
                 newItem={() => ({ name: "", slug: "", url: "", image: null })}
               />
             </div>
 
             <div className="mt-6 rounded-md border border-ikea-gray-200 bg-ikea-gray-50 p-4">
-              <div className="mb-1 text-xs font-medium text-ikea-muted">分类内商品</div>
+              <div className="mb-1 text-xs font-medium text-ikea-muted">
+                {t("admin.categories.productsIn")}
+              </div>
               <p className="text-xs text-ikea-muted">
-                该分类包含 {selected.products.length} 件商品。商品请在「商品管理」中维护；
-                如需调整分类下商品，可编辑下方 JSON（高级操作）。
+                {t("admin.categories.productsHint", { count: selected.products.length })}
               </p>
               <div className="mt-2 text-xs text-ikea-muted">
-                提示：商品编辑器中可修改商品所属分类字段。
+                {t("admin.categories.productsTip")}
               </div>
             </div>
           </Card>
         ) : (
           <Card>
-            <Notice kind="info">请从左侧选择要编辑的分类。</Notice>
+            <Notice kind="info">{t("admin.categories.selectHint")}</Notice>
           </Card>
         )}
       </div>

@@ -1,13 +1,17 @@
 import { contentPages, contentPagesByUrl } from "@/data/pages-index"
 import type { ContentPageData } from "@/data/pages-types"
+import { DEFAULT_LOCALE, type Locale } from "@/i18n/config"
 
-export function findContentPage(url: string): ContentPageData | undefined {
+export function findContentPage(
+  url: string,
+  locale: Locale = DEFAULT_LOCALE,
+): ContentPageData | undefined {
   const key = url.replace(/\/+$/, "")
-  return contentPagesByUrl().get(key)
+  return contentPagesByUrl(locale).get(key)
 }
 
-export function pagesByFamily(family: string): ContentPageData[] {
-  return contentPages().filter((page) => page.family === family)
+export function pagesByFamily(family: string, locale: Locale = DEFAULT_LOCALE): ContentPageData[] {
+  return contentPages(locale).filter((page) => page.family === family)
 }
 
 function segments(url: string): string[] {
@@ -15,29 +19,37 @@ function segments(url: string): string[] {
 }
 
 /** Pages whose path after /cn/zh/ has exactly `depth` segments. */
-export function pagesAtDepth(family: string, depth: number): ContentPageData[] {
-  return pagesByFamily(family).filter((p) => segments(p.url).length === depth)
+export function pagesAtDepth(
+  family: string,
+  depth: number,
+  locale: Locale = DEFAULT_LOCALE,
+): ContentPageData[] {
+  return pagesByFamily(family, locale).filter((p) => segments(p.url).length === depth)
 }
 
 /** Pages whose path after /cn/zh/ has more than `minDepth` segments. */
-export function pagesDeeper(family: string, minDepth: number): ContentPageData[] {
-  return pagesByFamily(family).filter((p) => segments(p.url).length > minDepth)
+export function pagesDeeper(
+  family: string,
+  minDepth: number,
+  locale: Locale = DEFAULT_LOCALE,
+): ContentPageData[] {
+  return pagesByFamily(family, locale).filter((p) => segments(p.url).length > minDepth)
 }
 
-export function familyLabel(family: string): string {
+export function familyLabel(family: string, locale: Locale = DEFAULT_LOCALE): string {
   switch (family) {
     case "customer-service":
-      return "客户服务"
+      return locale === "en" ? "Customer service" : "客户服务"
     case "company":
-      return "公司介绍"
+      return locale === "en" ? "Company" : "公司介绍"
     default:
-      return "首页"
+      return locale === "en" ? "Home" : "首页"
   }
 }
 
 /** A real URL to use as the breadcrumb parent for a family. */
-export function familyHomeUrl(family: string): string {
-  const first = pagesByFamily(family)[0]
+export function familyHomeUrl(family: string, locale: Locale = DEFAULT_LOCALE): string {
+  const first = pagesByFamily(family, locale)[0]
   return first?.url ?? "/"
 }
 

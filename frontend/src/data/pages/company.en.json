@@ -1,0 +1,146 @@
+[
+  {
+    "url": "/cn/zh/company",
+    "family": "company",
+    "id": "cn--zh--buzud-company",
+    "title": "About us",
+    "name": "About CHUNG YIP",
+    "hero": null,
+    "blocks": [
+      {
+        "type": "corporate-hero",
+        "title": "Bring health management into every home",
+        "texts": [
+          "CHUNG YIP's vision and mission"
+        ],
+        "images": [
+          "/images/cms/buzud-hero-company.png"
+        ],
+        "links": [
+          {
+            "href": "/cn/zh/all-products/",
+            "text": "Learn about CHUNG YIP's health philosophy"
+          }
+        ],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
+        }
+      },
+      {
+        "type": "corporate-about",
+        "title": "Company profile",
+        "texts": [
+          "CHUNG YIP HOLDING PTE. LTD. is a diversified investment management company headquartered in Singapore, committed to discovering high-potential assets, cutting-edge technology projects and long-term growth opportunities in the Asia-Pacific region. Guided by the core philosophy of “global vision, local execution,” we leverage Singapore's strategic position as an international financial centre and innovation hub to build a resilient, innovation-driven and future-oriented investment portfolio that creates sustainable long-term value for investors.",
+          "We adhere to a long-term investment philosophy, strategically focusing on high-growth areas such as industrial real estate, new building materials, education, AI-driven healthcare, digital infrastructure and intelligent software ecosystems, continuously building cross-industry, vertically integrated investment capabilities and resource integration expertise. At the same time, we place great importance on ESG-oriented sustainable development opportunities, promoting the deep integration of capital, technology and industry. With two decades of experience in the Asia-Pacific market, our professional team is committed to becoming a strategic bridge connecting capital, industry and innovative technology."
+        ],
+        "images": [
+          "/images/cms/buzud-about-image.png"
+        ],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": "",
+          "videoSrc": "",
+          "videoPoster": "",
+          "sectionId": "company-about"
+        }
+      },
+      {
+        "type": "corporate-text",
+        "title": null,
+        "texts": [],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": "",
+          "sectionId": "company-innovation"
+        }
+      },
+      {
+        "type": "pub-columns",
+        "title": null,
+        "texts": [],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "columns": [
+          {
+            "heading": "AI + education",
+            "text": "CHUNG YIP leverages its majority-owned Singapore Heng Xing International School to actively explore the deep integration of artificial intelligence technology and the education industry.",
+            "image": "/images/cms/buzud-ai-education.png",
+            "href": "https://www.esic.edu.sg/"
+          },
+          {
+            "heading": "AI + medical",
+            "text": "CHUNG YIP cooperates with BUZUD, a well-known home-grown Singaporean healthcare brand, to jointly explore innovative applications and solutions for artificial intelligence technology in the healthcare field.",
+            "image": "/images/cms/buzud-ai-medical.png",
+            "href": "https://www.buzud.com/en/solutions-medicare-plus"
+          }
+        ],
+        "settings": {
+          "traceId": ""
+        }
+      },
+      {
+        "type": "corporate-text",
+        "title": "Openness, cooperation and mutual benefit",
+        "texts": [
+          "We look forward to working with industry partners, healthcare institutions and the community to advance the health industry."
+        ],
+        "images": [],
+        "links": [
+          {
+            "href": "/cn/zh/customer-service/contact-us/",
+            "text": "Learn more"
+          }
+        ],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": "",
+          "sectionId": "company-cooperation"
+        }
+      },
+      {
+        "type": "corporate-policy",
+        "title": "Quality and service commitment",
+        "texts": [
+          "Genuine products guaranteed: all products are officially certified medical devices in Singapore.",
+          "Professional service: pre-sales consultation, experience testing and after-sales support.",
+          "Continuous improvement: constantly optimizing our products and customer service experience."
+        ],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": "",
+          "sectionId": "company-policy"
+        }
+      },
+      {
+        "type": "pub-button-link",
+        "title": null,
+        "texts": [],
+        "images": [],
+        "links": [
+          {
+            "href": "/cn/zh/customer-service/contact-us/",
+            "text": "Contact us"
+          }
+        ],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": "buzud-company-cta"
+        }
+      }
+    ]
+  }
+]

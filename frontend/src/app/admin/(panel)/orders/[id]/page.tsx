@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useParams, useRouter } from "next/navigation";
+import { useTranslation } from "react-i18next";
 import {
   adminFetch,
   BackLink,
@@ -66,34 +67,6 @@ interface OrderForm {
   items: AdminOrderItem[];
 }
 
-const STATUSES = [
-  { value: "1", label: "待付款" },
-  { value: "2", label: "待发货" },
-  { value: "3", label: "待收货" },
-  { value: "4", label: "已完成" },
-  { value: "5", label: "已取消" },
-  { value: "6", label: "退款中" },
-];
-
-function emptyForm(): OrderForm {
-  return {
-    orderNo: "",
-    createdAt: "",
-    userName: null,
-    userPhone: null,
-    status: 1,
-    statusLabel: "待付款",
-    subtotal: 0,
-    deliveryFee: 9.9,
-    totalAmount: 0,
-    customer: null,
-    phone: null,
-    address: null,
-    remark: null,
-    items: [],
-  };
-}
-
 function toForm(order: AdminOrder): OrderForm {
   return {
     orderNo: order.orderNo,
@@ -114,6 +87,31 @@ function toForm(order: AdminOrder): OrderForm {
 }
 
 export default function OrderEditorPage() {
+  const { t } = useTranslation();
+  const STATUSES = [
+    { value: "1", label: t("admin.orders.statusPending") },
+    { value: "2", label: t("admin.orders.statusToShip") },
+    { value: "3", label: t("admin.orders.statusToReceive") },
+    { value: "4", label: t("admin.orders.statusCompleted") },
+    { value: "5", label: t("admin.orders.statusCancelled") },
+    { value: "6", label: t("admin.orders.statusRefunding") },
+  ];
+  const emptyForm = (): OrderForm => ({
+    orderNo: "",
+    createdAt: "",
+    userName: null,
+    userPhone: null,
+    status: 1,
+    statusLabel: t("admin.orders.statusPending"),
+    subtotal: 0,
+    deliveryFee: 9.9,
+    totalAmount: 0,
+    customer: null,
+    phone: null,
+    address: null,
+    remark: null,
+    items: [],
+  });
   const params = useParams<{ id: string }>();
   const router = useRouter();
   const orderNo = params.id;
@@ -154,7 +152,7 @@ export default function OrderEditorPage() {
         }),
       });
       setForm(toForm(order));
-      show("success", "订单已保存");
+      show("success", t("admin.orders.saved"));
     } catch (e) {
       show("error", (e as Error).message);
     } finally {
@@ -165,46 +163,46 @@ export default function OrderEditorPage() {
   const remove = async () => {
     try {
       await adminFetch(`/api/admin/orders/${orderNo}`, { method: "DELETE" });
-      show("success", "订单已删除");
+      show("success", t("admin.orders.deleted"));
       router.replace("/admin/orders");
     } catch (e) {
       show("error", (e as Error).message);
     }
   };
 
-  if (loading) return <Loading label="加载订单…" />;
+  if (loading) return <Loading label={t("admin.orders.loadingOrder")} />;
 
   return (
     <div className="max-w-4xl">
-      <BackLink href="/admin/orders" label="返回订单列表" />
+      <BackLink href="/admin/orders" label={t("admin.orders.backToList")} />
       <PageHeader
-        title={`编辑订单：${form.orderNo}`}
+        title={t("admin.orders.editTitle", { no: form.orderNo })}
         actions={
           <>
-            <ConfirmButton onConfirm={remove}>删除订单</ConfirmButton>
+            <ConfirmButton onConfirm={remove}>{t("admin.orders.deleteOrder")}</ConfirmButton>
             <Button onClick={save} disabled={saving}>
-              {saving ? "保存中…" : "保存"}
+              {saving ? t("admin.common.saving") : t("admin.common.save")}
             </Button>
           </>
         }
       />
       <NoticeArea notice={notice} />
 
-      <Card title="订单信息" className="mb-6">
+      <Card title={t("admin.orders.orderInfo")} className="mb-6">
         <div className="grid gap-4 sm:grid-cols-2">
-          <Field label="订单号">
+          <Field label={t("admin.orders.orderNo")}>
             <TextInput value={form.orderNo} disabled />
           </Field>
-          <Field label="下单时间">
+          <Field label={t("admin.orders.createdAt")}>
             <TextInput value={form.createdAt} disabled />
           </Field>
-          <Field label="用户">
-            <TextInput value={form.userName ?? "未知用户"} disabled />
+          <Field label={t("admin.orders.user")}>
+            <TextInput value={form.userName ?? t("admin.orders.unknownUser")} disabled />
           </Field>
-          <Field label="用户手机号">
+          <Field label={t("admin.orders.userPhone")}>
             <TextInput value={form.userPhone ?? "—"} disabled />
           </Field>
-          <Field label="状态">
+          <Field label={t("admin.orders.status")}>
             <Select
               value={String(form.status)}
               onChange={(e) => {
@@ -213,7 +211,7 @@ export default function OrderEditorPage() {
                   status,
                   statusLabel:
                     STATUSES.find((item) => item.value === e.target.value)?.label ??
-                    "未知",
+                    t("admin.orders.unknownStatus"),
                 });
               }}
             >
@@ -224,7 +222,7 @@ export default function OrderEditorPage() {
               ))}
             </Select>
           </Field>
-          <Field label="配送费">
+          <Field label={t("admin.orders.deliveryFee")}>
             <NumberInput
               value={form.deliveryFee}
               onChange={(e) =>
@@ -232,25 +230,25 @@ export default function OrderEditorPage() {
               }
             />
           </Field>
-          <Field label="客户">
+          <Field label={t("admin.orders.customer")}>
             <TextInput
               value={form.customer ?? ""}
               onChange={(e) => update({ customer: e.target.value || null })}
             />
           </Field>
-          <Field label="手机号">
+          <Field label={t("admin.orders.phone")}>
             <TextInput
               value={form.phone ?? ""}
               onChange={(e) => update({ phone: e.target.value || null })}
             />
           </Field>
-          <Field label="收货地址" className="sm:col-span-2">
+          <Field label={t("admin.orders.address")} className="sm:col-span-2">
             <TextInput
               value={form.address ?? ""}
               onChange={(e) => update({ address: e.target.value || null })}
             />
           </Field>
-          <Field label="备注" className="sm:col-span-2">
+          <Field label={t("admin.orders.remark")} className="sm:col-span-2">
             <TextInput
               value={form.remark ?? ""}
               onChange={(e) => update({ remark: e.target.value || null })}
@@ -259,7 +257,7 @@ export default function OrderEditorPage() {
         </div>
       </Card>
 
-      <Card title={`订单商品（${form.items.length}）`}>
+      <Card title={t("admin.orders.itemsCard", { count: form.items.length })}>
         <div className="space-y-3">
           {form.items.map((item) => (
             <div
@@ -269,7 +267,7 @@ export default function OrderEditorPage() {
               <div>
                 <p className="text-sm font-medium text-ikea-black">{item.productName}</p>
                 <p className="mt-0.5 text-xs text-ikea-muted">
-                  {item.productId} · {item.quantity} 件
+                  {t("admin.orders.itemMeta", { id: item.productId, count: item.quantity })}
                 </p>
               </div>
               <p className="text-sm font-medium">{formatPrice(item.subtotal)}</p>

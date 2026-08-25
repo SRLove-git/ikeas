@@ -1,6 +1,7 @@
 "use client"
 
 import { useState } from "react"
+import { useTranslation } from "react-i18next"
 import { SiteImage } from "@/components/SiteImage"
 
 interface ProductGalleryProps {
@@ -9,6 +10,7 @@ interface ProductGalleryProps {
 }
 
 export function ProductGallery({ images, name }: ProductGalleryProps) {
+  const { t } = useTranslation()
   const [active, setActive] = useState(0)
   const valid = images.filter((img): img is string => Boolean(img))
 
@@ -38,7 +40,7 @@ export function ProductGallery({ images, name }: ProductGalleryProps) {
             <button
               key={img}
               type="button"
-              aria-label={`查看第 ${index + 1} 张图片`}
+              aria-label={t("product.viewImageN", { n: index + 1 })}
               className={`h-16 w-16 shrink-0 overflow-hidden rounded border-2 ${
                 index === active ? "border-ikea-blue" : "border-ikea-gray-200"
               }`}

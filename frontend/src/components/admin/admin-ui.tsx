@@ -1,6 +1,8 @@
 "use client";
 
 import { useCallback, useEffect, useRef, useState } from "react";
+import { useTranslation } from "react-i18next";
+import { getActiveLocale } from "@/i18n/client";
 
 // ---------------------------------------------------------------------------
 // Admin panel primitives (client components). Kept dependency-free on purpose.
@@ -19,13 +21,39 @@ export async function adminFetch<T>(
   });
   if (response.status === 401) {
     window.location.href = "/admin/login";
-    throw new Error("未登录");
+    throw new Error(adminErrorText("未登录"));
   }
   const body = await response.json().catch(() => null);
   if (!response.ok) {
-    throw new Error(body?.error ?? `请求失败 (${response.status})`);
+    throw new Error(
+      body?.error ? adminErrorText(body.error) : adminErrorText(`请求失败 (${response.status})`),
+    );
   }
   return body as T;
+}
+
+const ADMIN_ERROR_EN: Record<string, string> = {
+  "未登录": "Not logged in",
+  "未登录或会话已过期": "Not logged in or session expired",
+  "账号或密码错误": "Incorrect username or password",
+  "请求体不能为空": "Request body cannot be empty",
+  "缺少 updates": "Missing updates",
+  "订单不存在": "Order not found",
+  "商品不存在": "Product not found",
+  "商品名称不能为空": "Product name is required",
+  "页面 URL 不能为空": "Page URL is required",
+  "落地页不存在": "Landing page not found",
+};
+
+/** Localizes known frontend-generated admin error messages for English mode. */
+export function adminErrorText(message: string): string {
+  if (getActiveLocale() !== "en") return message;
+  if (Object.prototype.hasOwnProperty.call(ADMIN_ERROR_EN, message)) {
+    return ADMIN_ERROR_EN[message];
+  }
+  const requestFailed = /^请求失败 \((\d+)\)$/.exec(message);
+  if (requestFailed) return `Request failed (${requestFailed[1]})`;
+  return message;
 }
 
 export function cn(...classes: (string | false | null | undefined)[]): string {
@@ -214,8 +242,10 @@ export function Notice({
   );
 }
 
-export function Loading({ label = "加载中…" }: { label?: string }) {
-  return <div className="py-10 text-center text-sm text-ikea-muted">{label}</div>;
+export function Loading({ label }: { label?: string }) {
+  const { t } = useTranslation();
+  const resolved = label ?? t("admin.ui.loading");
+  return <div className="py-10 text-center text-sm text-ikea-muted">{resolved}</div>;
 }
 
 export function EmptyState({ children }: { children: React.ReactNode }) {
@@ -227,17 +257,19 @@ export function EmptyState({ children }: { children: React.ReactNode }) {
 export function SearchBox({
   value,
   onChange,
-  placeholder = "搜索…",
+  placeholder,
 }: {
   value: string;
   onChange: (value: string) => void;
   placeholder?: string;
 }) {
+  const { t } = useTranslation();
+  const resolvedPlaceholder = placeholder ?? t("admin.ui.search");
   return (
     <TextInput
       value={value}
       onChange={(event) => onChange(event.target.value)}
-      placeholder={placeholder}
+      placeholder={resolvedPlaceholder}
       className="w-64"
     />
   );
@@ -254,12 +286,13 @@ export function Pagination({
   total: number;
   onChange: (page: number) => void;
 }) {
+  const { t } = useTranslation();
   const pages = Math.max(1, Math.ceil(total / pageSize));
   if (pages <= 1) return null;
   return (
     <div className="flex items-center justify-between border-t border-ikea-gray-200 px-5 py-3 text-sm text-ikea-muted">
       <span>
-        共 {total} 条 · 第 {page}/{pages} 页
+        {t("admin.ui.paginationInfo", { total, page, pages })}
       </span>
       <div className="flex gap-2">
         <Button
@@ -267,14 +300,14 @@ export function Pagination({
           disabled={page <= 1}
           onClick={() => onChange(page - 1)}
         >
-          上一页
+          {t("admin.ui.prev")}
         </Button>
         <Button
           variant="secondary"
           disabled={page >= pages}
           onClick={() => onChange(page + 1)}
         >
-          下一页
+          {t("admin.ui.next")}
         </Button>
       </div>
     </div>
@@ -285,15 +318,17 @@ export function ConfirmButton({
   onConfirm,
   children,
   variant = "danger",
-  confirmText = "确定删除？此操作不可恢复。",
+  confirmText,
 }: {
   onConfirm: () => void | Promise<void>;
   children: React.ReactNode;
   variant?: ButtonVariant;
   confirmText?: string;
 }) {
+  const { t } = useTranslation();
   const [confirming, setConfirming] = useState(false);
   const [busy, setBusy] = useState(false);
+  const resolvedConfirmText = confirmText ?? t("admin.ui.confirmDelete");
 
   const handleClick = async () => {
     if (!confirming) {
@@ -319,7 +354,7 @@ export function ConfirmButton({
         void handleClick();
       }}
     >
-      {confirming ? confirmText : children}
+      {confirming ? resolvedConfirmText : children}
     </Button>
   );
 }
@@ -377,6 +412,7 @@ export function JsonEditor({
   rows?: number;
   label?: string;
 }) {
+  const { t } = useTranslation();
   const [draft, setDraft] = useState<{ text: string; source: string } | null>(null);
   const [error, setError] = useState<string | null>(null);
   const source = JSON.stringify(value, null, 2) ?? "null";
@@ -402,7 +438,11 @@ export function JsonEditor({
         onChange={(event) => commit(event.target.value)}
         className={cn(error && "border-red-400")}
       />
-      {error ? <div className="mt-1 text-xs text-red-600">JSON 无效：{error}</div> : null}
+      {error ? (
+        <div className="mt-1 text-xs text-red-600">
+          {t("admin.ui.jsonInvalid", { message: error })}
+        </div>
+      ) : null}
     </div>
   );
 }
@@ -410,12 +450,14 @@ export function JsonEditor({
 export function StringListEditor({
   value,
   onChange,
-  placeholder = "新项目",
+  placeholder,
 }: {
   value: string[];
   onChange: (value: string[]) => void;
   placeholder?: string;
 }) {
+  const { t } = useTranslation();
+  const resolvedPlaceholder = placeholder ?? t("admin.ui.newItem");
   const update = (index: number, next: string) => {
     const copy = [...value];
     copy[index] = next;
@@ -428,18 +470,18 @@ export function StringListEditor({
           <TextInput
             value={item}
             onChange={(event) => update(index, event.target.value)}
-            placeholder={placeholder}
+            placeholder={resolvedPlaceholder}
           />
           <Button
             variant="ghost"
             onClick={() => onChange(value.filter((_, i) => i !== index))}
           >
-            移除
+            {t("admin.ui.remove")}
           </Button>
         </div>
       ))}
       <Button variant="secondary" onClick={() => onChange([...value, ""])}>
-        + 添加
+        {t("admin.ui.add")}
       </Button>
     </div>
   );
@@ -456,6 +498,7 @@ export function ObjectListEditor({
   labelKey?: string;
   titleFor?: (item: Record<string, unknown>, index: number) => string;
 }) {
+  const { t } = useTranslation();
   const updateItem = (index: number, next: Record<string, unknown>) => {
     const copy = [...value];
     copy[index] = next;
@@ -468,7 +511,7 @@ export function ObjectListEditor({
         <div key={index} className="rounded-md border border-ikea-gray-200 p-3">
           <div className="mb-2 flex items-center justify-between gap-2">
             <span className="truncate text-xs font-bold text-ikea-black">
-              #{index + 1} {titleFor?.(item, index) ?? String(item[labelKey] ?? "未命名")}
+              #{index + 1} {titleFor?.(item, index) ?? String(item[labelKey] ?? t("admin.ui.unnamed"))}
             </span>
             <div className="flex shrink-0 items-center gap-1">
               <Button
@@ -482,7 +525,7 @@ export function ObjectListEditor({
                   onChange(copy);
                 }}
               >
-                上移
+                {t("admin.ui.moveUp")}
               </Button>
               <Button
                 variant="ghost"
@@ -495,13 +538,13 @@ export function ObjectListEditor({
                   onChange(copy);
                 }}
               >
-                下移
+                {t("admin.ui.moveDown")}
               </Button>
               <Button
                 variant="ghost"
                 onClick={() => onChange(value.filter((_, i) => i !== index))}
               >
-                删除
+                {t("admin.ui.delete")}
               </Button>
             </div>
           </div>
@@ -516,7 +559,7 @@ export function ObjectListEditor({
         variant="secondary"
         onClick={() => onChange([...value, { [labelKey]: "" }])}
       >
-        + 添加
+        {t("admin.ui.add")}
       </Button>
     </div>
   );

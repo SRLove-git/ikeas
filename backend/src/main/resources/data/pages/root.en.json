@@ -1,0 +1,58 @@
+[
+  {
+    "url": "/cn/zh",
+    "family": "root",
+    "id": "cn--zh--buzud-root",
+    "title": "CHUNG YIP Health Products Mall",
+    "name": "CHUNG YIP Home",
+    "hero": null,
+    "blocks": [
+      {
+        "type": "pub-page-title",
+        "title": null,
+        "texts": [
+          "CHUNG YIP Health Products Mall"
+        ],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
+        }
+      },
+      {
+        "type": "pub-text",
+        "title": null,
+        "texts": [
+          "CHUNG YIP is a home-grown Singaporean medical device and health management brand offering health products such as rapid test kits, smart watches, blood pressure monitors and blood glucose management devices.",
+          "This page is driven by the homepage data; visit / to view the mall homepage."
+        ],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
+        }
+      },
+      {
+        "type": "pub-button-link",
+        "title": null,
+        "texts": [],
+        "images": [],
+        "links": [
+          {
+            "href": "/cn/zh/all-products/",
+            "text": "Browse all products"
+          }
+        ],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
+        }
+      }
+    ]
+  }
+]

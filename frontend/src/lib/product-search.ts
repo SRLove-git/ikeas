@@ -3,6 +3,7 @@ import { catalogData } from "@/data/catalog"
 import { getMenuCategories } from "@/data/categories"
 import { catalogPages } from "@/lib/catalog-pages"
 import type { ProductData } from "@/data/pages-types"
+import { DEFAULT_LOCALE, type Locale } from "@/i18n/config"
 
 export type ProductSearchSort = "relevance" | "priceAsc" | "priceDesc" | "nameAsc"
 
@@ -37,7 +38,7 @@ function lastPathSegment(value: string | null | undefined): string {
   return (value ?? "").split("/").filter(Boolean).at(-1) ?? ""
 }
 
-function buildSearchMeta(): ProductSearchMeta {
+function buildSearchMeta(locale: Locale): ProductSearchMeta {
   const categoryNamesById = new Map<string, Set<string>>()
   const categorySlugById = new Map<string, string>()
   const aliasNamesById = new Map<string, Set<string>>()
@@ -58,7 +59,7 @@ function buildSearchMeta(): ProductSearchMeta {
     aliasNamesById.set(productId, names)
   }
 
-  for (const page of catalogPages()) {
+  for (const page of catalogPages(locale)) {
     const slug = lastPathSegment(page.url)
     for (const product of page.products) {
       addCategoryName(product.id, page.name)
@@ -66,7 +67,7 @@ function buildSearchMeta(): ProductSearchMeta {
     }
   }
 
-  const { catalogCategories, channelCategories } = catalogData()
+  const { catalogCategories, channelCategories } = catalogData(locale)
   for (const category of [...catalogCategories, ...channelCategories]) {
     for (const product of category.products) {
       addCategoryName(product.id, category.name)
@@ -76,8 +77,8 @@ function buildSearchMeta(): ProductSearchMeta {
     }
   }
 
-  const productSlugIndex = productsBySlug()
-  for (const menuCategory of getMenuCategories()) {
+  const productSlugIndex = productsBySlug(locale)
+  for (const menuCategory of getMenuCategories(locale)) {
     for (const sub of menuCategory.subs) {
       const product = productSlugIndex.get(lastPathSegment(sub.url))
       if (!product) continue
@@ -169,11 +170,12 @@ export function searchProducts(
     categorySlug?: string
     sort?: ProductSearchSort
   } = {},
+  locale: Locale = DEFAULT_LOCALE,
 ): SearchProduct[] {
-  const meta = buildSearchMeta()
+  const meta = buildSearchMeta(locale)
   const normalizedQuery = query.normalize("NFKC").toLowerCase().trim()
   const terms = tokenize(normalizedQuery)
-  const all = allProducts()
+  const all = allProducts(locale)
 
   const scored = terms.length
     ? all
@@ -205,7 +207,7 @@ export function searchProducts(
             (a.product.price ?? Number.MIN_SAFE_INTEGER)
           )
         case "nameAsc":
-          return a.product.name.localeCompare(b.product.name, "zh-CN")
+          return a.product.name.localeCompare(b.product.name, locale === "en" ? "en" : "zh-CN")
         case "relevance":
         default:
           return b.score - a.score || (a.product.price ?? 0) - (b.product.price ?? 0)

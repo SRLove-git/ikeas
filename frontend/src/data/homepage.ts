@@ -12,7 +12,8 @@ import type {
   RankingCategory,
   ServiceColumnCard,
 } from "@/types"
-import { loadDataJson } from "@/lib/data-files"
+import { loadLocalizedData } from "@/lib/data-files"
+import { DEFAULT_LOCALE, type Locale } from "@/i18n/config"
 
 export interface FeedProduct {
   productId?: string
@@ -61,6 +62,6 @@ export interface HomepageData {
   legalBar: { edition: string; links: { label: string; href: string }[] }
 }
 
-export function homepage(): HomepageData {
-  return loadDataJson<HomepageData>("homepage.json")
+export function homepage(locale: Locale = DEFAULT_LOCALE): HomepageData {
+  return loadLocalizedData<HomepageData>("homepage.json", locale)
 }

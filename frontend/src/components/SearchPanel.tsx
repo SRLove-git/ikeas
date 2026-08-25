@@ -2,6 +2,7 @@
 
 import Link from "next/link"
 import { useEffect } from "react"
+import { useTranslation } from "react-i18next"
 import { ArrowRightIcon, CloseIcon, SearchIcon } from "@/components/icons"
 import { SiteImage } from "@/components/SiteImage"
 import type { Category } from "@/data/categories"
@@ -23,6 +24,7 @@ export function SearchPanel({
   onSubmit,
   onClose,
 }: SearchPanelProps) {
+  const { t } = useTranslation()
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
       if (event.key === "Escape") onClose()
@@ -51,7 +53,7 @@ export function SearchPanel({
           <button
             type="button"
             onClick={onClose}
-            aria-label="关闭搜索"
+            aria-label={t("search.close")}
             className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full text-ikea-muted transition-colors hover:bg-ikea-gray-100 hover:text-ikea-black"
           >
             <CloseIcon className="h-6 w-6" />
@@ -63,14 +65,14 @@ export function SearchPanel({
               maxLength={36}
               value={query}
               onChange={(event) => onQueryChange(event.target.value)}
-              placeholder={searchHints[0] ?? "搜索商品"}
-              aria-label="搜索商品"
+              placeholder={searchHints[0] ?? t("search.placeholder")}
+              aria-label={t("search.aria")}
               className="h-12 w-full bg-transparent text-lg font-bold text-ikea-black outline-none placeholder:text-ikea-gray-200"
             />
           </div>
           <button
             type="submit"
-            aria-label="搜索"
+            aria-label={t("search.submit")}
             className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full text-ikea-blue transition-colors hover:bg-ikea-gray-100"
           >
             <ArrowRightIcon className="h-5 w-5" />
@@ -79,7 +81,7 @@ export function SearchPanel({
 
         <div className="mt-12 grid gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)_minmax(260px,360px)]">
           <section>
-            <h2 className="text-sm font-bold text-ikea-black">搜索建议</h2>
+            <h2 className="text-sm font-bold text-ikea-black">{t("search.suggestions")}</h2>
             <ul className="mt-3 space-y-1">
               {suggestions.length > 0 ? (
                 suggestions.map((suggestion) => (
@@ -95,13 +97,15 @@ export function SearchPanel({
                   </li>
                 ))
               ) : (
-                <li className="px-2 py-2 text-sm text-ikea-muted">暂无匹配的搜索建议</li>
+                <li className="px-2 py-2 text-sm text-ikea-muted">
+                  {t("search.noSuggestions")}
+                </li>
               )}
             </ul>
           </section>
 
           <section>
-            <h2 className="text-sm font-bold text-ikea-black">商品分类</h2>
+            <h2 className="text-sm font-bold text-ikea-black">{t("search.categories")}</h2>
             <ul className="mt-3 space-y-1">
               {categories.map((category) => (
                 <li key={category.name}>
@@ -119,7 +123,7 @@ export function SearchPanel({
           </section>
 
           <section>
-            <h2 className="text-sm font-bold text-ikea-black">热门分类</h2>
+            <h2 className="text-sm font-bold text-ikea-black">{t("search.hotCategories")}</h2>
             <div className="mt-3 grid grid-cols-3 gap-3">
               {hotCategories.map((category) => (
                 <Link

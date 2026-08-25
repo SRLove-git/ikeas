@@ -1,6 +1,7 @@
 import fs from "node:fs"
 import path from "node:path"
 import { loadDataJson, loadDataJsonOptional } from "@/lib/data-files"
+import { DEFAULT_LOCALE, type Locale } from "@/i18n/config"
 
 // ---------------------------------------------------------------------------
 // File-backed CMS store. Every operation reads/writes the same src/data/*.json
@@ -110,7 +111,14 @@ export function productCategories(idOrSlug: string): { name: string; href: strin
       result.push({ name: page.name, href: page.url })
     }
   }
-  return result
+  // A category and its landing page can share the same URL (e.g. /cn/zh/cat/test-kit);
+  // dedupe by href so list renders don't collide on React keys.
+  const seen = new Set<string>()
+  return result.filter((item) => {
+    if (seen.has(item.href)) return false
+    seen.add(item.href)
+    return true
+  })
 }
 
 export async function upsertProduct(
@@ -489,9 +497,12 @@ const DEFAULT_SETTINGS: SiteSettings = {
   },
 }
 
-export function getSettings(): SiteSettings {
+export function getSettings(locale: Locale = DEFAULT_LOCALE): SiteSettings {
   const saved = loadDataJson<Partial<SiteSettings>>("settings.json")
-  return { ...DEFAULT_SETTINGS, ...saved }
+  const base = { ...DEFAULT_SETTINGS, ...saved }
+  if (locale !== "en") return base
+  const en = loadDataJsonOptional<Partial<SiteSettings>>("settings.en.json", {})
+  return { ...base, ...en }
 }
 
 export async function updateSettings(input: Partial<SiteSettings>): Promise<SiteSettings> {

@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef } from "react";
+import { useTranslation } from "react-i18next";
 import {
   ArrowRightIcon,
   ChevronLeftIcon,
@@ -23,6 +24,7 @@ interface VisualPillSliderProps {
 
 export function VisualPillSlider({ title, items, cta }: VisualPillSliderProps) {
   const viewRef = useRef<HTMLDivElement>(null);
+  const { t } = useTranslation();
 
   const scrollBy = (direction: 1 | -1) => {
     const el = viewRef.current;
@@ -41,11 +43,11 @@ export function VisualPillSlider({ title, items, cta }: VisualPillSliderProps) {
             type="button"
             className="i-btn i-btn--small i-btn--icon-primary i-scrollbar-arrow__button"
             onClick={() => scrollBy(-1)}
-            aria-label="向左滚动"
+            aria-label={t("ranking.scrollLeft")}
           >
             <span className="i-btn__inner">
               <ChevronLeftIcon />
-              <span className="i-btn__label">向左滚动</span>
+              <span className="i-btn__label">{t("ranking.scrollLeft")}</span>
             </span>
           </button>
         </div>
@@ -54,11 +56,11 @@ export function VisualPillSlider({ title, items, cta }: VisualPillSliderProps) {
             type="button"
             className="i-btn i-btn--small i-btn--icon-primary i-scrollbar-arrow__button"
             onClick={() => scrollBy(1)}
-            aria-label="向右滚动"
+            aria-label={t("ranking.scrollRight")}
           >
             <span className="i-btn__inner">
               <ChevronRightIcon />
-              <span className="i-btn__label">向右滚动</span>
+              <span className="i-btn__label">{t("ranking.scrollRight")}</span>
             </span>
           </button>
         </div>

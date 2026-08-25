@@ -1,5 +1,6 @@
 "use client";
 
+import { useTranslation } from "react-i18next";
 import {
   Button,
   Field,
@@ -81,6 +82,7 @@ function FieldControl({
   value: unknown;
   onChange: (next: unknown) => void;
 }) {
+  const { t } = useTranslation();
   const fullWidth =
     field.kind.type === "stringList" ||
     field.kind.type === "objectList" ||
@@ -113,7 +115,7 @@ function FieldControl({
             onChange={(event) => onChange(event.target.checked)}
             className="h-4 w-4 accent-blue-600"
           />
-          <span className="text-sm text-ikea-muted">启用</span>
+          <span className="text-sm text-ikea-muted">{t("admin.schema.enabled")}</span>
         </label>
       ) : field.kind.type === "number" ? (
         <NumberInput
@@ -127,7 +129,7 @@ function FieldControl({
           value={asString(value)}
           onChange={(event) => onChange(event.target.value)}
         >
-          <option value="">请选择</option>
+          <option value="">{t("admin.schema.select")}</option>
           {field.kind.options.map((option) => (
             <option key={option.value} value={option.value}>
               {option.label}
@@ -138,7 +140,7 @@ function FieldControl({
         <StringListEditor
           value={Array.isArray(value) ? (value as string[]) : []}
           onChange={onChange}
-          placeholder={field.kind.placeholder ?? "新项目"}
+          placeholder={field.kind.placeholder ?? t("admin.ui.newItem")}
         />
       ) : field.kind.type === "object" ? (
         <div className="rounded-md border border-ikea-gray-200 bg-ikea-gray-50 p-3">
@@ -176,6 +178,7 @@ export function SchemaListForm({
   titleFor?: (item: Record<string, unknown>, index: number) => string;
   newItem?: () => Record<string, unknown>;
 }) {
+  const { t } = useTranslation();
   const items = asList(value);
 
   const update = (index: number, next: Record<string, unknown>) => {
@@ -189,7 +192,7 @@ export function SchemaListForm({
         item.name ??
         item.label ??
         item.text ??
-        "未命名",
+        t("admin.ui.unnamed"),
     );
 
   return (

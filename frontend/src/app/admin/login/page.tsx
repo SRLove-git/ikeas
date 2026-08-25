@@ -2,9 +2,12 @@
 
 import { useEffect, useState } from "react"
 import { useRouter } from "next/navigation"
-import { Button, Notice, TextInput } from "@/components/admin/admin-ui"
+import { useTranslation } from "react-i18next"
+import { LanguageSwitch } from "@/i18n/LanguageSwitch"
+import { adminErrorText, Button, Notice, TextInput } from "@/components/admin/admin-ui"
 
 export default function AdminLoginPage() {
+  const { t } = useTranslation()
   const router = useRouter()
   const [username, setUsername] = useState("")
   const [password, setPassword] = useState("")
@@ -32,28 +35,29 @@ export default function AdminLoginPage() {
       })
       const body = await response.json().catch(() => null)
       if (!response.ok) {
-        setError(body?.error ?? "登录失败")
+        setError(body?.error ? adminErrorText(body.error) : t("admin.login.loginFailed"))
         return
       }
       router.replace("/admin")
     } catch {
-      setError("无法连接后台服务")
+      setError(t("admin.login.cannotConnect"))
     } finally {
       setBusy(false)
     }
   }
 
   return (
-    <div className="flex min-h-screen items-center justify-center bg-blue-950 px-4">
+    <div className="relative flex min-h-screen items-center justify-center bg-blue-950 px-4">
+      <div className="absolute right-5 top-5 flex items-center gap-1 text-xs text-white/70">
+        <LanguageSwitch className="text-white/70" />
+      </div>
       <div className="w-full max-w-sm rounded-xl bg-white p-8 shadow-2xl">
         <div className="mb-6 text-center">
           <div className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-full bg-ikea-blue text-lg font-black text-white">
-            宜
+            {t("admin.login.logo")}
           </div>
-          <h1 className="text-lg font-bold text-ikea-black">CHUNG YIP 内容管理后台</h1>
-          <p className="mt-1 text-xs text-ikea-muted">
-            登录后可以管理商品、页面、首页、菜单、订单与用户
-          </p>
+          <h1 className="text-lg font-bold text-ikea-black">{t("admin.shell.brand")}</h1>
+          <p className="mt-1 text-xs text-ikea-muted">{t("admin.login.subtitle")}</p>
         </div>
         {error ? (
           <div className="mb-4">
@@ -62,7 +66,9 @@ export default function AdminLoginPage() {
         ) : null}
         <form onSubmit={submit} className="space-y-4">
           <div>
-            <label className="mb-1.5 block text-sm font-medium text-ikea-black">账号</label>
+            <label className="mb-1.5 block text-sm font-medium text-ikea-black">
+              {t("admin.login.username")}
+            </label>
             <TextInput
               value={username}
               onChange={(event) => setUsername(event.target.value)}
@@ -71,7 +77,9 @@ export default function AdminLoginPage() {
             />
           </div>
           <div>
-            <label className="mb-1.5 block text-sm font-medium text-ikea-black">密码</label>
+            <label className="mb-1.5 block text-sm font-medium text-ikea-black">
+              {t("admin.login.password")}
+            </label>
             <TextInput
               type="password"
               value={password}
@@ -81,11 +89,11 @@ export default function AdminLoginPage() {
             />
           </div>
           <Button type="submit" disabled={busy} className="w-full">
-            {busy ? "登录中…" : "登录"}
+            {busy ? t("admin.login.loggingIn") : t("admin.login.login")}
           </Button>
         </form>
         <p className="mt-4 text-center text-xs text-ikea-muted">
-          默认账号 admin / admin123（可通过环境变量 ADMIN_USERNAME、ADMIN_PASSWORD 修改）
+          {t("admin.login.demoHint")}
         </p>
       </div>
     </div>

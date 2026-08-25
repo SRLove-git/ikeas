@@ -2,6 +2,7 @@
 
 import Link from "next/link"
 import { useEffect, useMemo, useRef, useState } from "react"
+import { useTranslation } from "react-i18next"
 import { ChevronDownIcon, SearchIcon } from "@/components/icons"
 
 interface SupportFaqProps {
@@ -25,6 +26,7 @@ function buildRows(texts: string[]): FaqRow[] {
 }
 
 export function SupportFaq({ title, texts, placeholder, sectionId }: SupportFaqProps) {
+  const { t } = useTranslation()
   const rows = useMemo(() => buildRows(texts), [texts])
   const [query, setQuery] = useState("")
   const detailRefs = useRef<(HTMLDetailsElement | null)[]>([])
@@ -65,7 +67,7 @@ export function SupportFaq({ title, texts, placeholder, sectionId }: SupportFaqP
         <input
           value={query}
           onChange={(event) => setQuery(event.target.value)}
-          placeholder={placeholder ?? "搜索常见问题"}
+          placeholder={placeholder ?? t("support.faqPlaceholder")}
           className="h-11 w-full rounded-full border border-ikea-gray-200 bg-white pl-11 pr-4 text-sm text-ikea-black outline-none placeholder:text-ikea-muted/60 focus:border-ikea-blue"
         />
       </div>
@@ -93,12 +95,12 @@ export function SupportFaq({ title, texts, placeholder, sectionId }: SupportFaqP
 
       {q && visible.length === 0 ? (
         <div className="mt-6 rounded-lg bg-ikea-gray-100 p-6 text-center">
-          <p className="text-sm text-ikea-muted">未找到相关问题，欢迎直接联系我们获取帮助。</p>
+          <p className="text-sm text-ikea-muted">{t("support.faqNotFound")}</p>
           <Link
             href="/cn/zh/customer-service/contact-us/"
             className="mt-4 inline-flex h-10 items-center bg-ikea-blue px-6 text-xs font-bold text-white transition-colors hover:bg-ikea-black"
           >
-            联系客服
+            {t("support.contactSupport")}
           </Link>
         </div>
       ) : null}

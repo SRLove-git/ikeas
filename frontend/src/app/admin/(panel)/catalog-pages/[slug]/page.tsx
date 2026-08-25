@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react"
 import { useParams, useRouter } from "next/navigation"
+import { useTranslation } from "react-i18next"
 import {
   adminFetch,
   BackLink,
@@ -31,20 +32,6 @@ interface CatalogPageForm {
   productIds: string[]
 }
 
-const PAGE_PRODUCT_SCHEMA: Schema = {
-  fields: [
-    { key: "id", label: "商品 ID", kind: { type: "text" } },
-    { key: "name", label: "名称", kind: { type: "text" } },
-    { key: "price", label: "价格", kind: { type: "number" } },
-    { key: "image", label: "图片 URL", kind: { type: "text" } },
-    { key: "productType", label: "商品类型", kind: { type: "text" } },
-    { key: "designText", label: "设计/颜色", kind: { type: "text" } },
-    { key: "measureText", label: "尺寸文本", kind: { type: "text" } },
-    { key: "url", label: "URL", kind: { type: "text" } },
-    { key: "seoSlug", label: "SEO Slug", kind: { type: "text" } },
-  ],
-}
-
 function emptyForm(): CatalogPageForm {
   return {
     url: "",
@@ -58,6 +45,7 @@ function emptyForm(): CatalogPageForm {
 }
 
 export default function CatalogPageEditorPage() {
+  const { t } = useTranslation();
   const params = useParams<{ slug: string }>()
   const router = useRouter()
   const isNew = params.slug === "new"
@@ -65,6 +53,19 @@ export default function CatalogPageEditorPage() {
   const [form, setForm] = useState<CatalogPageForm>(emptyForm())
   const [loading, setLoading] = useState(!isNew)
   const [saving, setSaving] = useState(false)
+  const PAGE_PRODUCT_SCHEMA: Schema = {
+    fields: [
+      { key: "id", label: t("admin.products.id"), kind: { type: "text" } },
+      { key: "name", label: t("admin.catalogPages.colName"), kind: { type: "text" } },
+      { key: "price", label: t("admin.products.price"), kind: { type: "number" } },
+      { key: "image", label: t("admin.products.imageUrl"), kind: { type: "text" } },
+      { key: "productType", label: t("admin.products.productType"), kind: { type: "text" } },
+      { key: "designText", label: t("admin.products.designColor"), kind: { type: "text" } },
+      { key: "measureText", label: t("admin.catalogPages.measureText"), kind: { type: "text" } },
+      { key: "url", label: "URL", kind: { type: "text" } },
+      { key: "seoSlug", label: t("admin.catalogPages.seoSlug"), kind: { type: "text" } },
+    ],
+  };
 
   useEffect(() => {
     if (isNew) return
@@ -97,14 +98,14 @@ export default function CatalogPageEditorPage() {
           method: "POST",
           body: JSON.stringify(payload),
         })
-        show("success", "落地页创建成功")
+        show("success", t("admin.catalogPages.created"))
         router.replace("/admin/catalog-pages")
       } else {
         await adminFetch(`/api/admin/catalog-pages/${params.slug}`, {
           method: "PUT",
           body: JSON.stringify(payload),
         })
-        show("success", "落地页已保存")
+        show("success", t("admin.catalogPages.saved"))
       }
     } catch (e) {
       show("error", (e as Error).message)
@@ -116,7 +117,7 @@ export default function CatalogPageEditorPage() {
   const remove = async () => {
     try {
       await adminFetch(`/api/admin/catalog-pages/${params.slug}`, { method: "DELETE" })
-      show("success", "落地页已删除")
+      show("success", t("admin.catalogPages.deleted"))
       router.replace("/admin/catalog-pages")
     } catch (e) {
       show("error", (e as Error).message)
@@ -127,38 +128,44 @@ export default function CatalogPageEditorPage() {
 
   return (
     <div className="max-w-5xl">
-      <BackLink href="/admin/catalog-pages" label="返回落地页列表" />
+      <BackLink href="/admin/catalog-pages" label={t("admin.catalogPages.backToList")} />
       <PageHeader
-        title={isNew ? "新建落地页" : `编辑落地页：${form.name}`}
+        title={
+          isNew
+            ? t("admin.catalogPages.newTitle")
+            : t("admin.catalogPages.editTitle", { name: form.name })
+        }
         description={form.url}
         actions={
           <>
             {form.url ? (
               <a href={form.url} target="_blank" rel="noreferrer">
-                <Button variant="secondary">前台预览 ↗</Button>
+                <Button variant="secondary">{t("admin.products.preview")} ↗</Button>
               </a>
             ) : null}
-            {!isNew ? <ConfirmButton onConfirm={remove}>删除落地页</ConfirmButton> : null}
+            {!isNew ? (
+              <ConfirmButton onConfirm={remove}>{t("admin.catalogPages.deletePage")}</ConfirmButton>
+            ) : null}
             <Button onClick={save} disabled={saving}>
-              {saving ? "保存中…" : "保存"}
+              {saving ? t("admin.common.saving") : t("admin.common.save")}
             </Button>
           </>
         }
       />
       <NoticeArea notice={notice} />
 
-      <Card title="基本信息" className="mb-6">
+      <Card title={t("admin.products.basicInfo")} className="mb-6">
         <div className="grid gap-4 sm:grid-cols-2">
           <Field label="URL *" className="sm:col-span-2">
             <TextInput value={form.url} onChange={(e) => update({ url: e.target.value })} />
           </Field>
-          <Field label="名称 *">
+          <Field label={t("admin.catalogPages.name")}>
             <TextInput value={form.name} onChange={(e) => update({ name: e.target.value })} />
           </Field>
-          <Field label="商品总数（保存时自动计算）">
+          <Field label={t("admin.catalogPages.totalAuto")}>
             <NumberInput value={form.total} disabled />
           </Field>
-          <Field label="描述" className="sm:col-span-2">
+          <Field label={t("admin.products.description")} className="sm:col-span-2">
             <TextArea
               rows={3}
               value={form.description ?? ""}
@@ -168,14 +175,17 @@ export default function CatalogPageEditorPage() {
         </div>
       </Card>
 
-      <Card title={`推荐商品（${form.products.length}）`} className="mb-6">
+      <Card
+        title={t("admin.catalogPages.recommendedProducts", { count: form.products.length })}
+        className="mb-6"
+      >
         <SchemaListForm
           value={form.products}
           onChange={(products) => update({ products: products as Record<string, unknown>[] })}
           schema={PAGE_PRODUCT_SCHEMA}
           labelKey="name"
           titleFor={(item) =>
-            `${String(item.name ?? item.id ?? "未命名")}${
+            `${String(item.name ?? item.id ?? t("admin.ui.unnamed"))}${
               item.price
                 ? ` · ${formatPrice(typeof item.price === "number" ? item.price : null)}`
                 : ""
@@ -195,7 +205,7 @@ export default function CatalogPageEditorPage() {
         />
       </Card>
 
-      <Card title="内容区块">
+      <Card title={t("admin.catalogPages.contentBlocks")}>
         <BlockEditor blocks={form.blocks} onChange={(blocks) => update({ blocks })} />
       </Card>
     </div>

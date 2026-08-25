@@ -1,5 +1,8 @@
+"use client"
+
 import Link from "next/link"
 import type { ReactNode } from "react"
+import { useTranslation } from "react-i18next"
 import type { ContentBlock, ContentBlockItem } from "@/data/pages-types"
 import { CorporatePicText } from "@/components/CorporatePicText"
 import { CorporateTeamTabs } from "@/components/CorporateTeamTabs"
@@ -180,6 +183,7 @@ function pairItems(block: ContentBlock, max = 12): Item[] {
 }
 
 function HeroBlock({ block }: { block: ContentBlock }) {
+  const { t } = useTranslation()
   const image = block.images[0] ?? null
   const text = block.texts[0] ?? null
   const link = block.links[0] ?? null
@@ -204,7 +208,7 @@ function HeroBlock({ block }: { block: ContentBlock }) {
               href={link.href}
               className="i-btn i-btn--primary inline-flex h-10 items-center px-5 text-xs font-bold text-white"
             >
-              {link.text || "了解更多"}
+              {link.text || t("content.learnMore")}
             </BlockLink>
           </div>
         ) : null}
@@ -227,6 +231,7 @@ function ImageBlock({ block }: { block: ContentBlock }) {
 }
 
 function TextBlock({ block }: { block: ContentBlock }) {
+  const { t } = useTranslation()
   return (
     <div className="space-y-3">
       {block.title ? (
@@ -245,7 +250,7 @@ function TextBlock({ block }: { block: ContentBlock }) {
               href={l.href}
               className="text-sm font-bold text-ikea-blue underline underline-offset-4 hover:text-ikea-black"
             >
-              {l.text || "了解更多"}
+              {l.text || t("content.learnMore")}
             </BlockLink>
           ))}
         </div>
@@ -255,6 +260,7 @@ function TextBlock({ block }: { block: ContentBlock }) {
 }
 
 function ColumnsBlock({ block }: { block: ContentBlock }) {
+  const { t } = useTranslation()
   const columns = block.columns ?? []
   if (columns.length > 0) {
     return (
@@ -281,7 +287,7 @@ function ColumnsBlock({ block }: { block: ContentBlock }) {
                   href={column.href}
                   className="i-btn i-btn--small i-btn--primary inline-flex h-9 items-center px-5 text-xs font-bold text-white"
                 >
-                  了解详情
+                  {t("content.learnMore")}
                 </BlockLink>
               </div>
             ) : null}
@@ -334,7 +340,7 @@ function ColumnsBlock({ block }: { block: ContentBlock }) {
               href={col.link.href}
               className="text-sm font-bold text-ikea-blue underline underline-offset-4 hover:text-ikea-black"
             >
-              {col.link.text || "了解更多"}
+              {col.link.text || t("content.learnMore")}
             </BlockLink>
           ) : null}
         </div>
@@ -451,12 +457,13 @@ function ProductGridBlock({ block }: { block: ContentBlock }) {
 }
 
 function ButtonLinkBlock({ block }: { block: ContentBlock }) {
+  const { t } = useTranslation()
   const link = block.links[0]
   if (!link?.href) return null
   const candidates = block.texts
     .map((t) => cleanText(t))
     .filter((t) => t.length > 0 && t.length < 30 && !/^(\/|https?:|ikea:|[{])/.test(t))
-  const label = link.text || candidates.at(-1) || block.title || "了解更多"
+  const label = link.text || candidates.at(-1) || block.title || t("content.learnMore")
   return (
     <div className="flex justify-center">
       <BlockLink
@@ -583,6 +590,7 @@ function VideoLinkBlock({ block }: { block: ContentBlock }) {
 }
 
 function BannerBlock({ block }: { block: ContentBlock }) {
+  const { t } = useTranslation()
   const image = (block.items ?? [])[0]?.image ?? block.images[0] ?? null
   const link = block.links[0] ?? null
   return (
@@ -605,7 +613,7 @@ function BannerBlock({ block }: { block: ContentBlock }) {
             href={link.href}
             className="i-btn i-btn--primary inline-flex h-10 items-center px-5 text-xs font-bold text-white"
           >
-            {link.text || "了解更多"}
+            {link.text || t("content.learnMore")}
           </BlockLink>
         ) : null}
       </div>
@@ -646,17 +654,18 @@ function PillSliderBlock({ block }: { block: ContentBlock }) {
 }
 
 function RankingBlock({ block }: { block: ContentBlock }) {
+  const { t } = useTranslation()
   return (
     <section className="bg-ikea-gray-100 px-6 py-8">
       <div className="flex items-center justify-between">
         <h2 className="text-lg font-bold lg:text-xl">
-          {block.title ?? block.texts[0] ?? "热销榜单"}
+          {block.title ?? block.texts[0] ?? t("content.bestsellerRanking")}
         </h2>
         <BlockLink
           href={block.links[0]?.href ?? "/cn/zh/all-products/"}
           className="text-sm font-bold text-ikea-blue hover:underline"
         >
-          {block.links[0]?.text || "查看完整榜单"}
+          {block.links[0]?.text || t("content.viewFullRanking")}
         </BlockLink>
       </div>
       <div className="mt-6 grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-5">
@@ -667,7 +676,7 @@ function RankingBlock({ block }: { block: ContentBlock }) {
             style={{ backgroundColor: ["#5AA58A", "#5097BF", "#D4973B", "#A36C9F", "#B84A4A"][i] }}
           >
             <span className="text-2xl font-bold">{rank}</span>
-            <span className="mt-1 text-xs opacity-90">卧室热销</span>
+            <span className="mt-1 text-xs opacity-90">{t("content.bedroomBestseller")}</span>
           </div>
         ))}
       </div>
@@ -724,6 +733,7 @@ function InspirationCardBlock({ block }: { block: ContentBlock }) {
 }
 
 function ExpandableBlock({ block }: { block: ContentBlock }) {
+  const { t } = useTranslation()
   const items = pairItems(block, 8)
   const rows =
     block.texts.length >= 2 && block.links.length === 0 && block.images.length === 0
@@ -733,12 +743,15 @@ function ExpandableBlock({ block }: { block: ContentBlock }) {
         }))
       : items.length > 0
         ? items.map((item, i) => ({
-            title: item.text ?? block.texts[i] ?? `第 ${i + 1} 项`,
+            title: item.text ?? block.texts[i] ?? t("content.itemN", { n: i + 1 }),
             body: "",
           }))
         : block.texts
             .slice(1)
-            .map((t, i) => ({ title: block.texts[0] ?? `第 ${i + 1} 项`, body: t }))
+            .map((text, i) => ({
+              title: block.texts[0] ?? t("content.itemN", { n: i + 1 }),
+              body: text,
+            }))
   return (
     <div className="divide-y divide-ikea-gray-200 border-y border-ikea-gray-200">
       {rows.map((row, i) => (
@@ -761,6 +774,7 @@ function ExpandableBlock({ block }: { block: ContentBlock }) {
 }
 
 function PillNavBlock({ block }: { block: ContentBlock }) {
+  const { t } = useTranslation()
   if (block.links.length === 0) return null
   return (
     <div className="flex flex-wrap gap-2">
@@ -770,7 +784,7 @@ function PillNavBlock({ block }: { block: ContentBlock }) {
           href={l.href}
           className="i-pill i-pill--small inline-flex h-10 items-center border border-ikea-gray-150 px-5 text-sm font-bold text-ikea-black hover:border-ikea-black"
         >
-          {l.text || block.texts[i] || "查看"}
+          {l.text || block.texts[i] || t("content.view")}
         </BlockLink>
       ))}
     </div>
@@ -811,17 +825,18 @@ function AssurancesBlock({ block }: { block: ContentBlock }) {
 }
 
 function PlannerBlock({ block }: { block: ContentBlock }) {
+  const { t } = useTranslation()
   const link = block.links[0]
   return (
     <section className="flex flex-col items-center gap-4 border border-ikea-gray-200 bg-ikea-gray-100 px-6 py-14 text-center">
-      <h2 className="text-xl font-bold">{block.title ?? "规划工具"}</h2>
+      <h2 className="text-xl font-bold">{block.title ?? t("content.planningTool")}</h2>
       {block.texts[0] ? <p className="max-w-xl text-sm text-ikea-muted">{block.texts[0]}</p> : null}
       {link?.href ? (
         <BlockLink
           href={link.href}
           className="i-btn i-btn--emphasised inline-flex h-10 items-center bg-ikea-yellow px-6 text-xs font-bold text-ikea-black"
         >
-          {link.text || "开始规划"}
+          {link.text || t("content.startPlanning")}
         </BlockLink>
       ) : null}
     </section>
@@ -829,6 +844,7 @@ function PlannerBlock({ block }: { block: ContentBlock }) {
 }
 
 function CorporateHeroBlock({ block }: { block: ContentBlock }) {
+  const { t } = useTranslation()
   const image = block.images[0] ?? null
   const link = block.links[0] ?? null
   return (
@@ -864,7 +880,7 @@ function CorporateHeroBlock({ block }: { block: ContentBlock }) {
                 href={link.href}
                 className="inline-flex h-11 items-center bg-white px-8 text-sm font-bold text-ikea-black transition-colors hover:bg-ikea-gray-100"
               >
-                {link.text || "了解更多"}
+                {link.text || t("content.learnMore")}
               </BlockLink>
             </div>
           ) : null}
@@ -914,6 +930,7 @@ function CorporateAboutBlock({ block }: { block: ContentBlock }) {
 }
 
 function CorporateTextBlock({ block }: { block: ContentBlock }) {
+  const { t: translate } = useTranslation()
   const link = block.links[0] ?? null
   const settings = (block.settings ?? {}) as Record<string, unknown>
   const sectionId =
@@ -940,7 +957,7 @@ function CorporateTextBlock({ block }: { block: ContentBlock }) {
             href={link.href}
             className="inline-flex items-center gap-1 text-sm font-bold text-ikea-blue hover:underline"
           >
-            {link.text || "了解更多"}
+            {link.text || translate("content.learnMore")}
             <svg viewBox="0 0 24 24" fill="currentColor" className="h-4 w-4">
               <path d="m20 12-8-8-1.4 1.4L16.2 11H4v2h12.2l-5.6 5.6L12 20z" />
             </svg>
@@ -952,6 +969,7 @@ function CorporateTextBlock({ block }: { block: ContentBlock }) {
 }
 
 function CorporateStatsBlock({ block }: { block: ContentBlock }) {
+  const { t } = useTranslation()
   const items = (block.items ?? []) as unknown as Record<string, unknown>[]
   const link = block.links[0] ?? null
   const settings = (block.settings ?? {}) as Record<string, unknown>
@@ -973,7 +991,7 @@ function CorporateStatsBlock({ block }: { block: ContentBlock }) {
             href={link.href}
             className="inline-flex items-center gap-1 text-sm font-bold text-ikea-blue hover:underline"
           >
-            {link.text || "了解更多"}
+            {link.text || t("content.learnMore")}
             <svg viewBox="0 0 24 24" fill="currentColor" className="h-4 w-4">
               <path d="m20 12-8-8-1.4 1.4L16.2 11H4v2h12.2l-5.6 5.6L12 20z" />
             </svg>
@@ -1051,6 +1069,7 @@ function CorporatePolicyBlock({ block }: { block: ContentBlock }) {
 }
 
 function CorporateTeamBlock({ block }: { block: ContentBlock }) {
+  const { t } = useTranslation()
   const items = (block.items ?? []) as unknown as Record<string, unknown>[]
   const link = block.links[0] ?? null
   const settings = (block.settings ?? {}) as Record<string, unknown>
@@ -1075,7 +1094,7 @@ function CorporateTeamBlock({ block }: { block: ContentBlock }) {
             href={link.href}
             className="inline-flex items-center gap-1 text-sm font-bold text-ikea-blue hover:underline"
           >
-            {link.text || "了解更多"}
+            {link.text || t("content.learnMore")}
             <svg viewBox="0 0 24 24" fill="currentColor" className="h-4 w-4">
               <path d="m20 12-8-8-1.4 1.4L16.2 11H4v2h12.2l-5.6 5.6L12 20z" />
             </svg>
@@ -1084,7 +1103,7 @@ function CorporateTeamBlock({ block }: { block: ContentBlock }) {
       </div>
       <div className="mt-8 grid grid-cols-2 gap-x-5 gap-y-10 md:grid-cols-3 xl:grid-cols-4">
         {items.map((item, i) => {
-          const name = String(item.title ?? "姓名待定")
+          const name = String(item.title ?? t("content.namePending"))
           const position = String(item.text ?? "")
           const image = typeof item.image === "string" && item.image.trim() ? item.image : null
           const href = typeof item.href === "string" && item.href ? item.href : null
@@ -1105,7 +1124,7 @@ function CorporateTeamBlock({ block }: { block: ContentBlock }) {
                         <path d="M12 12a4.5 4.5 0 1 0-4.5-4.5A4.5 4.5 0 0 0 12 12zm0 2c-3.9 0-7 2-7 4.4V20h14v-1.6c0-2.4-3.1-4.4-7-4.4z" />
                       </svg>
                     </span>
-                    <span className="text-xs text-ikea-muted">头像待定</span>
+                    <span className="text-xs text-ikea-muted">{t("content.avatarPending")}</span>
                   </div>
                 )}
               </div>
@@ -1129,6 +1148,7 @@ function CorporateTeamBlock({ block }: { block: ContentBlock }) {
 }
 
 function CorporateTeamTabsBlock({ block }: { block: ContentBlock }) {
+  const { t } = useTranslation()
   const raw = (block.items ?? []) as unknown as Record<string, unknown>[]
   const groups = raw
     .map((item) => {
@@ -1136,7 +1156,7 @@ function CorporateTeamTabsBlock({ block }: { block: ContentBlock }) {
       const members = membersRaw.map((m) => {
         const member = m as Record<string, unknown>
         return {
-          name: String(member.name ?? member.title ?? "姓名待定"),
+          name: String(member.name ?? member.title ?? t("content.namePending")),
           position: String(member.position ?? member.text ?? ""),
           image: typeof member.image === "string" && member.image.trim() ? member.image : null,
           href: typeof member.href === "string" && member.href ? member.href : null,
@@ -1229,13 +1249,14 @@ function contactDetail(item: ContactItem): string {
   return item.rawText ?? item.text ?? ""
 }
 
-function contactActionLabel(href: string): string {
-  if (href.startsWith("tel:")) return "拨打电话"
-  if (href.startsWith("mailto:")) return "发送邮件"
-  return "查看详情"
+function contactActionLabel(href: string, t: (key: string) => string): string {
+  if (href.startsWith("tel:")) return t("content.call")
+  if (href.startsWith("mailto:")) return t("content.sendEmail")
+  return t("content.viewDetails")
 }
 
 function ContactChannelsBlock({ block }: { block: ContentBlock }) {
+  const { t } = useTranslation()
   const items = (block.items ?? []) as ContactItem[]
   if (items.length === 0) return null
   const settings = (block.settings ?? {}) as Record<string, unknown>
@@ -1276,7 +1297,7 @@ function ContactChannelsBlock({ block }: { block: ContentBlock }) {
               ) : null}
               {href !== "#" ? (
                 <span className="mt-auto flex items-center gap-1 pt-4 text-xs font-bold text-ikea-blue">
-                  {contactActionLabel(href)}
+                  {contactActionLabel(href, t)}
                   <ContactIcon name="arrow" className="h-4 w-4" />
                 </span>
               ) : null}
@@ -1341,6 +1362,7 @@ function ContactListBlock({ block }: { block: ContentBlock }) {
 }
 
 function GenericBlock({ block }: { block: ContentBlock }) {
+  const { t } = useTranslation()
   const items = block.items ?? []
   if (items.length > 0) {
     return (
@@ -1372,7 +1394,7 @@ function GenericBlock({ block }: { block: ContentBlock }) {
           href={l.href}
           className="text-sm font-bold text-ikea-blue underline underline-offset-4 hover:text-ikea-black"
         >
-          {l.text || "了解更多"}
+          {l.text || t("content.learnMore")}
         </BlockLink>
       ))}
     </div>

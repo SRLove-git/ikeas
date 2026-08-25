@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 import {
   adminFetch,
   ConfirmButton,
@@ -25,6 +26,7 @@ interface Cart {
 }
 
 export default function CartsPage() {
+  const { t } = useTranslation();
   const { notice, show } = useNotice();
   const [carts, setCarts] = useState<Cart[] | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -46,15 +48,15 @@ export default function CartsPage() {
 
   const clear = async (userId: string) => {
     await adminFetch(`/api/admin/server/carts/${userId}`, { method: "DELETE" });
-    show("success", "购物车已清空");
+    show("success", t("admin.carts.cleared"));
     await load();
   };
 
   return (
     <div>
       <PageHeader
-        title="购物车管理"
-        description="查看/清空用户购物袋（Spring Boot 内存存储，重启后重置）。"
+        title={t("admin.carts.title")}
+        description={t("admin.carts.desc")}
       />
       <NoticeArea notice={notice} />
       {error ? (
@@ -64,16 +66,18 @@ export default function CartsPage() {
       ) : null}
       <div className="overflow-hidden rounded-lg border border-ikea-gray-200 bg-white">
         {!carts ? (
-          <Loading label="连接运营服务…" />
+          <Loading label={t("admin.users.loading")} />
         ) : carts.length === 0 ? (
-          <EmptyState>暂无购物车数据</EmptyState>
+          <EmptyState>{t("admin.carts.empty")}</EmptyState>
         ) : (
           <table className="w-full text-left text-sm">
             <thead className="border-b border-ikea-gray-200 bg-ikea-gray-50 text-xs text-ikea-muted">
               <tr>
-                <th className="px-5 py-3 font-medium">用户</th>
-                <th className="px-5 py-3 font-medium">商品明细</th>
-                <th className="px-5 py-3 text-right font-medium">操作</th>
+                <th className="px-5 py-3 font-medium">{t("admin.carts.colUser")}</th>
+                <th className="px-5 py-3 font-medium">{t("admin.carts.colItems")}</th>
+                <th className="px-5 py-3 text-right font-medium">
+                  {t("admin.common.colActions")}
+                </th>
               </tr>
             </thead>
             <tbody className="divide-y divide-ikea-gray-200">
@@ -81,7 +85,7 @@ export default function CartsPage() {
                 <tr key={cart.userId} className="hover:bg-ikea-gray-50">
                   <td className="px-5 py-3">
                     <div className="font-medium text-ikea-black">
-                      {cart.user?.name ?? "未知用户"}
+                      {cart.user?.name ?? t("admin.orders.unknownUser")}
                     </div>
                     <div className="text-xs text-ikea-muted">{cart.userId}</div>
                   </td>
@@ -94,7 +98,7 @@ export default function CartsPage() {
                   </td>
                   <td className="px-5 py-3 text-right">
                     <ConfirmButton onConfirm={() => clear(cart.userId)}>
-                      清空购物车
+                      {t("admin.carts.clearCart")}
                     </ConfirmButton>
                   </td>
                 </tr>

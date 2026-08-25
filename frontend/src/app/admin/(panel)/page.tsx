@@ -2,6 +2,8 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import { useTranslation } from "react-i18next";
+import { useLocale } from "@/i18n/LanguageProvider";
 import {
   adminFetch,
   Card,
@@ -30,12 +32,6 @@ interface ChangelogEntry {
   summary: string;
 }
 
-const ACTION_LABEL: Record<string, string> = {
-  create: "创建",
-  update: "更新",
-  delete: "删除",
-};
-
 const ACTION_COLOR: Record<string, string> = {
   create: "bg-green-100 text-green-700",
   update: "bg-blue-100 text-blue-700",
@@ -49,50 +45,9 @@ interface ModuleEntry {
   count?: string;
 }
 
-function moduleGroups(stats: SiteStats): { title: string; description: string; items: ModuleEntry[] }[] {
-  return [
-    {
-      title: "商品中心",
-      description: "商品、分类与落地页",
-      items: [
-        { href: "/admin/products", label: "商品管理", description: "名称、价格、图片、标签、详情", count: String(stats.products) },
-        { href: "/admin/categories", label: "商品分类", description: "商品分类与频道分类" },
-        { href: "/admin/catalog-pages", label: "分类落地页", description: "分类页标题、描述与商品", count: String(stats.catalogPages) },
-      ],
-    },
-    {
-      title: "内容中心",
-      description: "首页、页面、菜单与客服知识",
-      items: [
-        { href: "/admin/homepage", label: "首页管理", description: "轮播、促销、榜单、页脚等区块" },
-        { href: "/admin/pages", label: "页面内容", description: "房间、灵感、活动、客服、门店等", count: String(stats.pages) },
-        { href: "/admin/menu", label: "导航菜单", description: "顶部下拉菜单与分类菜单" },
-        { href: "/admin/chat-knowledge", label: "客服知识库", description: "机器人自动回复规则" },
-      ],
-    },
-    {
-      title: "交易与客户",
-      description: "订单、用户与互动数据",
-      items: [
-        { href: "/admin/orders", label: "订单管理", description: "订单状态、商品与客户", count: String(stats.orders) },
-        { href: "/admin/users", label: "用户管理", description: "注册用户账号" },
-        { href: "/admin/carts", label: "购物车", description: "用户购物袋" },
-        { href: "/admin/favorites", label: "收藏", description: "用户收藏商品" },
-        { href: "/admin/chat", label: "客服聊天", description: "客服问答记录" },
-      ],
-    },
-    {
-      title: "系统设置",
-      description: "站点配置与审计",
-      items: [
-        { href: "/admin/settings", label: "网站设置", description: "站点名称、SEO 与页面文案" },
-        { href: "/admin/changelog", label: "操作日志", description: "后台修改记录" },
-      ],
-    },
-  ];
-}
-
 export default function AdminDashboardPage() {
+  const { t } = useTranslation();
+  const { locale } = useLocale();
   const [stats, setStats] = useState<SiteStats | null>(null);
   const [changelog, setChangelog] = useState<ChangelogEntry[]>([]);
   const [serverStats, setServerStats] = useState<Record<string, unknown> | null>(null);
@@ -124,25 +79,140 @@ export default function AdminDashboardPage() {
   if (error) {
     return (
       <div className="max-w-3xl">
-        <PageHeader title="仪表盘" />
+        <PageHeader title={t("admin.dashboard.title")} />
         <Notice kind="error">{error}</Notice>
       </div>
     );
   }
-  if (!stats) return <Loading label="正在加载统计数据…" />;
+  if (!stats) return <Loading label={t("admin.dashboard.loading")} />;
 
   const cards = [
-    { label: "商品总数", value: stats.products, href: "/admin/products" },
-    { label: "内容页面", value: stats.pages, href: "/admin/pages" },
-    { label: "分类落地页", value: stats.catalogPages, href: "/admin/catalog-pages" },
-    { label: "订单", value: stats.orders, href: "/admin/orders" },
+    { label: t("admin.dashboard.productTotal"), value: stats.products, href: "/admin/products" },
+    { label: t("admin.dashboard.contentPages"), value: stats.pages, href: "/admin/pages" },
+    {
+      label: t("admin.dashboard.catalogPages"),
+      value: stats.catalogPages,
+      href: "/admin/catalog-pages",
+    },
+    { label: t("admin.dashboard.orders"), value: stats.orders, href: "/admin/orders" },
+  ];
+
+  const actionLabel: Record<string, string> = {
+    create: t("admin.dashboard.actionCreate"),
+    update: t("admin.dashboard.actionUpdate"),
+    delete: t("admin.dashboard.actionDelete"),
+  };
+
+  const moduleGroups: {
+    title: string;
+    description: string;
+    items: ModuleEntry[];
+  }[] = [
+    {
+      title: t("admin.shell.products"),
+      description: t("admin.shell.productsDesc"),
+      items: [
+        {
+          href: "/admin/products",
+          label: t("admin.dashboard.mProducts"),
+          description: t("admin.dashboard.mProductsDesc"),
+          count: String(stats.products),
+        },
+        {
+          href: "/admin/categories",
+          label: t("admin.dashboard.mCategories"),
+          description: t("admin.dashboard.mCategoriesDesc"),
+        },
+        {
+          href: "/admin/catalog-pages",
+          label: t("admin.dashboard.mCatalogPages"),
+          description: t("admin.dashboard.mCatalogPagesDesc"),
+          count: String(stats.catalogPages),
+        },
+      ],
+    },
+    {
+      title: t("admin.shell.content"),
+      description: t("admin.shell.contentDesc"),
+      items: [
+        {
+          href: "/admin/homepage",
+          label: t("admin.dashboard.mHomepage"),
+          description: t("admin.dashboard.mHomepageDesc"),
+        },
+        {
+          href: "/admin/pages",
+          label: t("admin.dashboard.mPages"),
+          description: t("admin.dashboard.mPagesDesc"),
+          count: String(stats.pages),
+        },
+        {
+          href: "/admin/menu",
+          label: t("admin.dashboard.mMenu"),
+          description: t("admin.dashboard.mMenuDesc"),
+        },
+        {
+          href: "/admin/chat-knowledge",
+          label: t("admin.dashboard.mChatKnowledge"),
+          description: t("admin.dashboard.mChatKnowledgeDesc"),
+        },
+      ],
+    },
+    {
+      title: t("admin.shell.trading"),
+      description: t("admin.shell.tradingDesc"),
+      items: [
+        {
+          href: "/admin/orders",
+          label: t("admin.dashboard.mOrders"),
+          description: t("admin.dashboard.mOrdersDesc"),
+          count: String(stats.orders),
+        },
+        {
+          href: "/admin/users",
+          label: t("admin.dashboard.mUsers"),
+          description: t("admin.dashboard.mUsersDesc"),
+        },
+        {
+          href: "/admin/carts",
+          label: t("admin.dashboard.mCarts"),
+          description: t("admin.dashboard.mCartsDesc"),
+        },
+        {
+          href: "/admin/favorites",
+          label: t("admin.dashboard.mFavorites"),
+          description: t("admin.dashboard.mFavoritesDesc"),
+        },
+        {
+          href: "/admin/chat",
+          label: t("admin.dashboard.mChat"),
+          description: t("admin.dashboard.mChatDesc"),
+        },
+      ],
+    },
+    {
+      title: t("admin.shell.system"),
+      description: t("admin.shell.systemDesc"),
+      items: [
+        {
+          href: "/admin/settings",
+          label: t("admin.dashboard.mSettings"),
+          description: t("admin.dashboard.mSettingsDesc"),
+        },
+        {
+          href: "/admin/changelog",
+          label: t("admin.dashboard.mChangelog"),
+          description: t("admin.dashboard.mChangelogDesc"),
+        },
+      ],
+    },
   ];
 
   return (
     <div className="max-w-6xl">
       <PageHeader
-        title="仪表盘"
-        description="网站内容总览。所有修改即时写入内容数据库并在前台生效。"
+        title={t("admin.dashboard.title")}
+        description={t("admin.dashboard.desc")}
       />
 
       <div className="mb-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
@@ -151,7 +221,7 @@ export default function AdminDashboardPage() {
             <div className="rounded-lg border border-ikea-gray-200 bg-white p-5 transition hover:border-ikea-blue">
               <div className="text-xs text-ikea-muted">{card.label}</div>
               <div className="mt-1 text-3xl font-bold text-ikea-black">
-                {card.value.toLocaleString("zh-CN")}
+                {card.value.toLocaleString(locale === "en" ? "en-US" : "zh-CN")}
               </div>
             </div>
           </Link>
@@ -159,7 +229,7 @@ export default function AdminDashboardPage() {
       </div>
 
       <div className="mb-8 grid gap-6 lg:grid-cols-2">
-        {moduleGroups(stats).map((group) => (
+        {moduleGroups.map((group) => (
           <div key={group.title} className="rounded-lg border border-ikea-gray-200 bg-white p-5">
             <div className="mb-1 text-sm font-bold text-ikea-black">{group.title}</div>
             <div className="mb-4 text-xs text-ikea-muted">{group.description}</div>
@@ -188,37 +258,49 @@ export default function AdminDashboardPage() {
 
       <div className="mb-6 rounded-lg border border-ikea-gray-200 bg-white p-5">
         <div className="flex items-center justify-between">
-          <div className="text-sm font-bold text-ikea-black">运营服务（Spring Boot）</div>
+        <div className="text-sm font-bold text-ikea-black">{t("admin.dashboard.serverService")}</div>
           {serverStats ? (
             <span className="rounded-full bg-green-100 px-2.5 py-1 text-xs font-medium text-green-700">
-              在线 · {String(serverStats.users ?? "-")} 用户
+              {t("admin.dashboard.onlineUsers", { count: String(serverStats.users ?? "-") })}
             </span>
           ) : (
             <span className="rounded-full bg-amber-100 px-2.5 py-1 text-xs font-medium text-amber-700">
-              离线（用户/购物车/收藏/聊天功能不可用）
+              {t("admin.dashboard.offline")}
             </span>
           )}
         </div>
         {serverStats ? (
           <div className="mt-3 flex flex-wrap gap-x-6 gap-y-1 text-xs text-ikea-muted">
-            <span>用户 {String(serverStats.users ?? "-")}</span>
-            <span>购物车 {String(serverStats.carts ?? "-")}</span>
-            <span>收藏 {String(serverStats.favorites ?? "-")}</span>
-            <span>聊天记录 {String(serverStats.chatMessages ?? "-")}</span>
+            <span>
+              {t("admin.dashboard.serverUsers", { count: String(serverStats.users ?? "-") })}
+            </span>
+            <span>
+              {t("admin.dashboard.serverCarts", { count: String(serverStats.carts ?? "-") })}
+            </span>
+            <span>
+              {t("admin.dashboard.serverFavorites", {
+                count: String(serverStats.favorites ?? "-"),
+              })}
+            </span>
+            <span>
+              {t("admin.dashboard.serverChats", {
+                count: String(serverStats.chatMessages ?? "-"),
+              })}
+            </span>
           </div>
         ) : null}
       </div>
 
       <Card
-        title="最近操作"
+        title={t("admin.dashboard.recentActions")}
         actions={
           <Link href="/admin/changelog" className="text-xs text-ikea-blue hover:underline">
-            查看全部
+            {t("admin.dashboard.viewAll")}
           </Link>
         }
       >
         {changelog.length === 0 ? (
-          <EmptyState>还没有操作记录</EmptyState>
+          <EmptyState>{t("admin.dashboard.noActions")}</EmptyState>
         ) : (
           <ul className="divide-y divide-ikea-gray-200">
             {changelog.slice(0, 8).map((entry) => (
@@ -228,11 +310,11 @@ export default function AdminDashboardPage() {
                     ACTION_COLOR[entry.action] ?? "bg-ikea-gray-100 text-ikea-muted"
                   }`}
                 >
-                  {ACTION_LABEL[entry.action] ?? entry.action}
+                  {actionLabel[entry.action] ?? entry.action}
                 </span>
                 <span className="flex-1 truncate">{entry.summary}</span>
                 <span className="shrink-0 text-xs text-ikea-muted">
-                  {new Date(entry.at).toLocaleString("zh-CN")}
+                  {new Date(entry.at).toLocaleString(locale === "en" ? "en-SG" : "zh-CN")}
                 </span>
               </li>
             ))}

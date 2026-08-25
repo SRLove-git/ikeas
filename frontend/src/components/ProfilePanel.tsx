@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react"
 import Link from "next/link"
 import { useRouter } from "next/navigation"
+import { useTranslation } from "react-i18next"
 import { useAuth } from "@/lib/auth"
 import { CartIcon, CompassIcon, HeartIcon, HomeIcon, TruckIcon } from "@/components/icons"
 import { Breadcrumbs } from "@/components/Breadcrumbs"
@@ -71,6 +72,7 @@ function CustomerServiceIcon({
 }
 
 export function ProfilePanel() {
+  const { t } = useTranslation()
   const { user, ready, logout } = useAuth()
   const router = useRouter()
   const [activeTab, setActiveTab] = useState<ProfileTab>("account")
@@ -97,14 +99,14 @@ export function ProfilePanel() {
   }, [membershipDrawerOpen])
 
   const submitMembership = () => {
-    setMembershipNotice("会员申请已提交（演示环境）")
+    setMembershipNotice(t("profile.membershipSubmitted"))
     setMembershipDrawerOpen(false)
   }
 
   if (!ready || !user) {
     return (
       <div className="font-ikea flex min-h-[50vh] items-center justify-center text-sm text-ikea-muted">
-        加载中…
+        {t("profile.loading")}
       </div>
     )
   }
@@ -112,7 +114,7 @@ export function ProfilePanel() {
   return (
     <div className="font-ikea min-h-screen bg-white text-ikea-black">
       <div className="max-w-page mx-auto px-5 py-10 lg:px-10">
-        <Breadcrumbs currentLabel="我的个人档案" />
+        <Breadcrumbs currentLabel={t("profile.title")} />
 
         <section className="flex flex-col gap-6 border border-ikea-gray-200 p-6 md:flex-row md:items-center md:justify-between md:p-8">
           <div className="flex items-center gap-5">
@@ -131,7 +133,7 @@ export function ProfilePanel() {
                   }}
                   className="font-bold text-ikea-blue hover:underline"
                 >
-                  退出登录
+                  {t("profile.logout")}
                 </button>
               </div>
             </div>
@@ -141,38 +143,38 @@ export function ProfilePanel() {
         <div className="mt-6 grid gap-px overflow-hidden border border-ikea-gray-200 bg-ikea-gray-200 sm:grid-cols-2 lg:grid-cols-3">
           {[
             {
-              title: "我的订单",
-              desc: "查看历史订单和物流状态",
+              title: t("profile.orders"),
+              desc: t("profile.ordersDesc"),
               href: "/cn/zh/profile/my-orders/",
               icon: CartIcon,
             },
             {
-              title: "优惠券",
-              desc: "查看会员权益和专属优惠",
+              title: t("profile.coupons"),
+              desc: t("profile.couponsDesc"),
               href: "/cn/zh/customer-service/services/privileges/",
               icon: CompassIcon,
             },
             {
-              title: "我的收藏",
-              desc: "收藏的商品与心愿单",
+              title: t("profile.collection"),
+              desc: t("profile.collectionDesc"),
               href: "/cn/zh/profile/collection/",
               icon: HeartIcon,
             },
             {
-              title: "收货地址",
-              desc: "结算与配送信息",
+              title: t("profile.address"),
+              desc: t("profile.addressDesc"),
               href: "/cn/zh/profile/address/",
               icon: TruckIcon,
             },
             {
-              title: "我的足迹",
-              desc: "最近浏览过的商品",
+              title: t("profile.browsingHistory"),
+              desc: t("profile.browsingHistoryDesc"),
               href: "/cn/zh/profile/browsing-history/",
               icon: HomeIcon,
             },
             {
-              title: "客服",
-              desc: "需要帮助？联系 CHUNG YIP 客服",
+              title: t("profile.support"),
+              desc: t("profile.supportDesc"),
               href: "/cn/zh/customer-service/",
               icon: CustomerServiceIcon,
             },
@@ -195,8 +197,8 @@ export function ProfilePanel() {
 
         <div className="mt-8 grid grid-cols-2 border-b border-ikea-gray-200">
           {[
-            ["account", "账户信息"],
-            ["password", "修改密码"],
+            ["account", t("profile.tabAccount")],
+            ["password", t("profile.tabPassword")],
           ].map(([key, label]) => (
             <button
               key={key}
@@ -227,18 +229,18 @@ export function ProfilePanel() {
                       <PhoneIcon size={28} />
                     </span>
                     <div>
-                      <p className="text-sm font-bold">手机号</p>
+                      <p className="text-sm font-bold">{t("profile.phone")}</p>
                       <p className="mt-1 text-sm text-ikea-muted">
-                        {user.phone || "暂未绑定手机号"}
+                        {user.phone || t("profile.phoneUnbound")}
                       </p>
                     </div>
                   </div>
                   <button
                     type="button"
-                    onClick={() => setAccountNotice("手机号修改功能暂未开放，请联系客服办理。")}
+                    onClick={() => setAccountNotice(t("profile.phoneNotice"))}
                     className="text-sm font-bold text-ikea-blue hover:underline"
                   >
-                    修改
+                    {t("profile.edit")}
                   </button>
                 </div>
 
@@ -248,16 +250,18 @@ export function ProfilePanel() {
                       <EmailIcon size={28} />
                     </span>
                     <div>
-                      <p className="text-sm font-bold">邮箱</p>
-                      <p className="mt-1 text-sm text-ikea-muted">{user.email || "暂未绑定邮箱"}</p>
+                      <p className="text-sm font-bold">{t("profile.email")}</p>
+                      <p className="mt-1 text-sm text-ikea-muted">
+                        {user.email || t("profile.emailUnbound")}
+                      </p>
                     </div>
                   </div>
                   <button
                     type="button"
-                    onClick={() => setAccountNotice("邮箱绑定功能暂未开放，请联系客服办理。")}
+                    onClick={() => setAccountNotice(t("profile.emailNotice"))}
                     className="text-sm font-bold text-ikea-blue hover:underline"
                   >
-                    去绑定
+                    {t("profile.bind")}
                   </button>
                 </div>
 
@@ -267,16 +271,16 @@ export function ProfilePanel() {
                       <WeChatIcon size={28} />
                     </span>
                     <div>
-                      <p className="text-sm font-bold">微信</p>
-                      <p className="mt-1 text-sm text-ikea-muted">已绑定</p>
+                      <p className="text-sm font-bold">{t("profile.wechat")}</p>
+                      <p className="mt-1 text-sm text-ikea-muted">{t("profile.bound")}</p>
                     </div>
                   </div>
                   <button
                     type="button"
-                    onClick={() => setAccountNotice("微信解绑功能暂未开放，请联系客服办理。")}
+                    onClick={() => setAccountNotice(t("profile.wechatNotice"))}
                     className="text-sm font-bold text-ikea-blue hover:underline"
                   >
-                    解绑
+                    {t("profile.unbind")}
                   </button>
                 </div>
               </div>
@@ -295,8 +299,8 @@ export function ProfilePanel() {
             ) : null}
 
             <section className="mt-6 border border-ikea-gray-200 p-6 md:p-8">
-              <h2 className="text-xl font-bold">注销账户</h2>
-              <p className="mt-2 text-sm text-ikea-muted">如需注销账户，请通过以下方式联系我们</p>
+              <h2 className="text-xl font-bold">{t("profile.closeAccount")}</h2>
+              <p className="mt-2 text-sm text-ikea-muted">{t("profile.closeAccountDesc")}</p>
               <div className="mt-5 grid gap-4 md:grid-cols-2">
                 <Link
                   href="/cn/zh/customer-service/"
@@ -304,13 +308,13 @@ export function ProfilePanel() {
                 >
                   <span className="flex items-center gap-2 text-sm font-bold">
                     <CustomerServiceIcon size={20} />
-                    在线客服
+                    {t("profile.onlineSupport")}
                   </span>
                   <span className="mt-3 block text-xs leading-5 text-ikea-muted">
-                    可选智能或人工服务，点击右下角客服标志开始对话
+                    {t("profile.onlineSupportDesc")}
                   </span>
                   <span className="mt-1 block text-xs text-ikea-muted">
-                    周一至周日 09:00 - 22:00
+                    {t("profile.supportHours")}
                   </span>
                 </Link>
                 <a
@@ -319,13 +323,13 @@ export function ProfilePanel() {
                 >
                   <span className="flex items-center gap-2 text-sm font-bold">
                     <PhoneIcon size={20} />
-                    客服热线 +65 6518 9979
+                    {t("profile.hotline")}
                   </span>
                   <span className="mt-3 block text-xs leading-5 text-ikea-muted">
-                    语音自助服务：7×24 小时全天服务
+                    {t("profile.hotlineAuto")}
                   </span>
                   <span className="mt-1 block text-xs text-ikea-muted">
-                    人工服务：周一至周日 09:00 - 18:00
+                    {t("profile.hotlineHuman")}
                   </span>
                 </a>
               </div>
@@ -333,32 +337,32 @@ export function ProfilePanel() {
 
             <section className="mt-6 border border-ikea-gray-200">
               <div className="border-b border-ikea-gray-200 px-6 py-4">
-                <h2 className="text-base font-bold">通知设置</h2>
+                <h2 className="text-base font-bold">{t("profile.notificationSettings")}</h2>
               </div>
               <div className="divide-y divide-ikea-gray-200">
                 <div className="flex flex-col gap-3 p-5 md:flex-row md:items-start md:justify-between md:gap-6 md:p-6">
-                  <p className="text-sm font-bold">CHUNG YIP 会员营销短信</p>
+                  <p className="text-sm font-bold">{t("profile.smsMarketing")}</p>
                   <p className="max-w-xl text-xs leading-5 text-ikea-muted">
-                    CHUNG YIP 将向您发送 CHUNG YIP 会员相关的折扣和活动信息短信。如果您不想接收此类信息，
+                    {t("profile.smsMarketingDesc")}
                     <button
                       type="button"
-                      onClick={() => setAccountNotice("短信营销设置暂未开放，请联系客服办理。")}
+                      onClick={() => setAccountNotice(t("profile.smsMarketingNotice"))}
                       className="mx-0.5 text-ikea-blue underline underline-offset-2"
                     >
-                      点击这里
+                      {t("profile.clickHere")}
                     </button>
                   </p>
                 </div>
                 <div className="flex flex-col gap-3 p-5 md:flex-row md:items-start md:justify-between md:gap-6 md:p-6">
-                  <p className="text-sm font-bold">CHUNG YIP 会员营销邮件</p>
+                  <p className="text-sm font-bold">{t("profile.emailMarketing")}</p>
                   <p className="max-w-xl text-xs leading-5 text-ikea-muted">
-                    CHUNG YIP 将向您发送 CHUNG YIP 会员相关的折扣和活动信息邮件。如果您不想接收此类信息，
+                    {t("profile.emailMarketingDesc")}
                     <button
                       type="button"
-                      onClick={() => setAccountNotice("邮件营销设置暂未开放，请联系客服办理。")}
+                      onClick={() => setAccountNotice(t("profile.emailMarketingNotice"))}
                       className="mx-0.5 text-ikea-blue underline underline-offset-2"
                     >
-                      点击这里
+                      {t("profile.clickHere")}
                     </button>
                   </p>
                 </div>
@@ -367,19 +371,18 @@ export function ProfilePanel() {
 
             <section className="mt-6 border border-ikea-gray-200">
               <div className="border-b border-ikea-gray-200 px-6 py-4">
-                <h2 className="text-base font-bold">隐私设置</h2>
+                <h2 className="text-base font-bold">{t("profile.privacySettings")}</h2>
               </div>
               <div className="flex flex-col gap-3 p-5 md:flex-row md:items-start md:justify-between md:gap-6 md:p-6">
-                <p className="text-sm font-bold">个性化推荐</p>
+                <p className="text-sm font-bold">{t("profile.personalized")}</p>
                 <p className="max-w-xl text-xs leading-5 text-ikea-muted">
-                  CHUNG YIP
-                  将为您推荐个性化内容，帮助您更好地挑选商品。如果您想关闭浏览器端的个性化推荐，
+                  {t("profile.personalizedDesc")}
                   <button
                     type="button"
-                    onClick={() => setAccountNotice("个性化推荐设置暂未开放，请联系客服办理。")}
+                    onClick={() => setAccountNotice(t("profile.personalizedNotice"))}
                     className="mx-0.5 text-ikea-blue underline underline-offset-2"
                   >
-                    点击这里
+                    {t("profile.clickHere")}
                   </button>
                 </p>
               </div>
@@ -388,30 +391,34 @@ export function ProfilePanel() {
         ) : (
           <section className="mt-6 max-w-2xl">
             <div className="border border-ikea-gray-200 p-6 md:p-8">
-              <h2 className="text-xl font-bold">修改密码</h2>
-              <p className="mt-2 text-sm text-ikea-muted">为了账户安全，请定期更新密码。</p>
+              <h2 className="text-xl font-bold">{t("profile.changePassword")}</h2>
+              <p className="mt-2 text-sm text-ikea-muted">{t("profile.changePasswordHint")}</p>
               <div className="mt-6 space-y-4">
                 <label className="block">
-                  <span className="mb-1.5 block text-sm font-bold">当前密码</span>
+                  <span className="mb-1.5 block text-sm font-bold">
+                    {t("profile.currentPassword")}
+                  </span>
                   <input
                     type="password"
-                    placeholder="请输入当前密码"
+                    placeholder={t("profile.currentPasswordPlaceholder")}
                     className="h-11 w-full border border-ikea-gray-200 px-4 text-sm outline-none transition-colors focus:border-ikea-blue"
                   />
                 </label>
                 <label className="block">
-                  <span className="mb-1.5 block text-sm font-bold">新密码</span>
+                  <span className="mb-1.5 block text-sm font-bold">{t("profile.newPassword")}</span>
                   <input
                     type="password"
-                    placeholder="请输入新密码"
+                    placeholder={t("profile.newPasswordPlaceholder")}
                     className="h-11 w-full border border-ikea-gray-200 px-4 text-sm outline-none transition-colors focus:border-ikea-blue"
                   />
                 </label>
                 <label className="block">
-                  <span className="mb-1.5 block text-sm font-bold">确认新密码</span>
+                  <span className="mb-1.5 block text-sm font-bold">
+                    {t("profile.confirmPassword")}
+                  </span>
                   <input
                     type="password"
-                    placeholder="请再次输入新密码"
+                    placeholder={t("profile.confirmPasswordPlaceholder")}
                     className="h-11 w-full border border-ikea-gray-200 px-4 text-sm outline-none transition-colors focus:border-ikea-blue"
                   />
                 </label>
@@ -424,11 +431,11 @@ export function ProfilePanel() {
               <button
                 type="button"
                 onClick={() =>
-                  setPasswordNotice("演示环境暂不支持修改密码，请通过客服或线下门店办理。")
+                  setPasswordNotice(t("profile.passwordDemoNotice"))
                 }
                 className="relative z-10 mt-6 inline-flex h-11 items-center justify-center rounded-full border border-ikea-gray-200 bg-white px-8 text-sm font-bold text-ikea-black hover:bg-ikea-gray-100"
               >
-                保存修改
+                {t("profile.saveChanges")}
               </button>
             </div>
           </section>
@@ -443,7 +450,7 @@ export function ProfilePanel() {
             }}
             className="i-btn h-10 border border-ikea-gray-200 px-6 text-sm font-bold text-ikea-black hover:border-ikea-black"
           >
-            退出登录
+            {t("profile.logout")}
           </button>
         </div>
       </div>
@@ -452,16 +459,16 @@ export function ProfilePanel() {
         <div className="fixed inset-0 z-[1100]" role="dialog" aria-modal="true">
           <button
             type="button"
-            aria-label="关闭"
+            aria-label={t("common.close")}
             className="absolute inset-0 bg-black/50"
             onClick={() => setMembershipDrawerOpen(false)}
           />
           <aside className="absolute right-0 top-0 flex h-full w-full max-w-[440px] flex-col bg-white shadow-2xl">
             <div className="flex items-center justify-between border-b border-ikea-gray-200 px-6 py-4">
-              <h2 className="text-base font-bold">加入 CHUNG YIP 会员俱乐部</h2>
+              <h2 className="text-base font-bold">{t("profile.membershipTitle")}</h2>
               <button
                 type="button"
-                aria-label="关闭"
+                aria-label={t("common.close")}
                 className="flex h-8 w-8 items-center justify-center text-ikea-muted hover:text-ikea-black"
                 onClick={() => setMembershipDrawerOpen(false)}
               >
@@ -472,13 +479,11 @@ export function ProfilePanel() {
             </div>
 
             <div className="flex-1 overflow-y-auto px-6 py-5">
-              <p className="text-sm leading-6 text-ikea-muted">
-                我们想更懂你的健康需求，为你提供更适合的产品与优惠。现在加入会员，还可享受专属折扣和健康体验。
-              </p>
+              <p className="text-sm leading-6 text-ikea-muted">{t("profile.membershipIntro")}</p>
 
               <div className="mt-6 space-y-4">
                 <label className="block">
-                  <span className="mb-1.5 block text-sm font-bold">姓名</span>
+                  <span className="mb-1.5 block text-sm font-bold">{t("profile.name")}</span>
                   <input
                     value={membershipName}
                     onChange={(event) => setMembershipName(event.target.value)}
@@ -486,7 +491,7 @@ export function ProfilePanel() {
                   />
                 </label>
                 <label className="block">
-                  <span className="mb-1.5 block text-sm font-bold">手机号</span>
+                  <span className="mb-1.5 block text-sm font-bold">{t("profile.phone")}</span>
                   <input
                     value={membershipPhone}
                     onChange={(event) => setMembershipPhone(event.target.value)}
@@ -494,7 +499,7 @@ export function ProfilePanel() {
                   />
                 </label>
                 <label className="block">
-                  <span className="mb-1.5 block text-sm font-bold">邮箱</span>
+                  <span className="mb-1.5 block text-sm font-bold">{t("profile.email")}</span>
                   <input
                     type="email"
                     value={membershipEmail}
@@ -509,7 +514,7 @@ export function ProfilePanel() {
                     onChange={(event) => setMembershipConsent(event.target.checked)}
                     className="mt-0.5 h-4 w-4"
                   />
-                  我同意接收 CHUNG YIP 会员相关折扣和活动信息。
+                  {t("profile.consent")}
                 </label>
               </div>
             </div>
@@ -521,7 +526,7 @@ export function ProfilePanel() {
                 className="i-btn i-btn--primary h-11 w-full text-sm font-bold text-white"
               >
                 <span className="i-btn__inner">
-                  <span className="i-btn__label">立即加入</span>
+                  <span className="i-btn__label">{t("profile.joinNow")}</span>
                 </span>
               </button>
             </div>

@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { useParams, useRouter } from "next/navigation";
+import { useTranslation } from "react-i18next";
 import {
   adminFetch,
   BackLink,
@@ -41,14 +42,6 @@ interface ProductForm {
   };
 }
 
-const LABEL_SCHEMA: Schema = {
-  fields: [
-    { key: "text", label: "标签文字", kind: { type: "text" } },
-    { key: "backgroundColor", label: "背景色", kind: { type: "text" } },
-    { key: "textColor", label: "文字颜色", kind: { type: "text" } },
-  ],
-};
-
 function emptyProduct(): ProductForm {
   return {
     id: "",
@@ -72,9 +65,17 @@ function emptyProduct(): ProductForm {
 }
 
 export default function ProductEditorPage() {
+  const { t } = useTranslation();
   const params = useParams<{ id: string }>();
   const router = useRouter();
   const isNew = params.id === "new";
+  const LABEL_SCHEMA: Schema = {
+    fields: [
+      { key: "text", label: t("admin.products.labelText"), kind: { type: "text" } },
+      { key: "backgroundColor", label: t("admin.products.labelBg"), kind: { type: "text" } },
+      { key: "textColor", label: t("admin.products.labelTextColor"), kind: { type: "text" } },
+    ],
+  };
   const { notice, show } = useNotice();
   const [form, setForm] = useState<ProductForm>(emptyProduct());
   const [rawMode, setRawMode] = useState(false);
@@ -126,14 +127,14 @@ export default function ProductEditorPage() {
           method: "POST",
           body: JSON.stringify(payload),
         });
-        show("success", "商品创建成功");
+        show("success", t("admin.products.created"));
         router.replace("/admin/products");
       } else {
         await adminFetch(`/api/admin/products/${params.id}`, {
           method: "PUT",
           body: JSON.stringify(payload),
         });
-        show("success", "商品已保存");
+        show("success", t("admin.products.saved"));
       }
     } catch (e) {
       show("error", (e as Error).message);
@@ -145,7 +146,7 @@ export default function ProductEditorPage() {
   const remove = async () => {
     try {
       await adminFetch(`/api/admin/products/${params.id}`, { method: "DELETE" });
-      show("success", "商品已删除");
+      show("success", t("admin.products.deleted"));
       router.replace("/admin/products");
     } catch (e) {
       show("error", (e as Error).message);
@@ -156,22 +157,24 @@ export default function ProductEditorPage() {
 
   return (
     <div className="max-w-4xl">
-      <BackLink href="/admin/products" label="返回商品列表" />
+      <BackLink href="/admin/products" label={t("admin.products.backToList")} />
       <PageHeader
-        title={isNew ? "新建商品" : `编辑商品：${form.name}`}
-        description={isNew ? "创建一件新商品，保存后立即在前台生效。" : `ID: ${params.id}`}
+        title={isNew ? t("admin.products.newTitle") : t("admin.products.editTitle", { name: form.name })}
+        description={
+          isNew ? t("admin.products.newDesc") : `ID: ${params.id}`
+        }
         actions={
           <>
             {previewUrl ? (
               <a href={previewUrl} target="_blank" rel="noreferrer">
-                <Button variant="secondary">前台预览 ↗</Button>
+                <Button variant="secondary">{t("admin.products.preview")} ↗</Button>
               </a>
             ) : null}
             {!isNew ? (
-              <ConfirmButton onConfirm={remove}>删除商品</ConfirmButton>
+              <ConfirmButton onConfirm={remove}>{t("admin.products.deleteProduct")}</ConfirmButton>
             ) : null}
             <Button onClick={save} disabled={saving}>
-              {saving ? "保存中…" : "保存"}
+              {saving ? t("admin.products.saving") : t("admin.products.save")}
             </Button>
           </>
         }
@@ -180,12 +183,12 @@ export default function ProductEditorPage() {
       <NoticeArea notice={notice} />
 
       <div className="mb-4 flex items-center gap-2 text-sm">
-        <span className="text-ikea-muted">编辑模式：</span>
+        <span className="text-ikea-muted">{t("admin.products.editMode")}</span>
         <Button
           variant={rawMode ? "secondary" : "primary"}
           onClick={() => setRawMode(false)}
         >
-          表单编辑
+          {t("admin.products.formEdit")}
         </Button>
         <Button
           variant={rawMode ? "primary" : "secondary"}
@@ -194,51 +197,54 @@ export default function ProductEditorPage() {
             setRawMode(true);
           }}
         >
-          原始 JSON
+          {t("admin.products.rawJson")}
         </Button>
       </div>
 
       {rawMode ? (
-        <Card title="商品原始数据">
+        <Card title={t("admin.products.rawCard")}>
           <JsonEditor value={raw ?? form} onChange={setRaw} rows={24} />
         </Card>
       ) : (
         <>
-          <Card title="基本信息" className="mb-6">
+          <Card title={t("admin.products.basicInfo")} className="mb-6">
             <div className="grid gap-4 sm:grid-cols-2">
-              <Field label="商品名称 *">
+              <Field label={t("admin.products.name")}>
                 <TextInput
                   value={form.name}
                   onChange={(e) => update({ name: e.target.value })}
                 />
               </Field>
-              <Field label="商品 ID" hint={isNew ? "留空自动生成" : "创建后不可修改"}>
+              <Field
+                label={t("admin.products.id")}
+                hint={isNew ? t("admin.products.idAuto") : t("admin.products.idLocked")}
+              >
                 <TextInput
                   value={form.id}
                   disabled={!isNew}
                   onChange={(e) => update({ id: e.target.value })}
                 />
               </Field>
-              <Field label="Slug" hint="用于商品详情页 URL">
+              <Field label="Slug" hint={t("admin.products.slugHint")}>
                 <TextInput
                   value={form.slug}
                   onChange={(e) => update({ slug: e.target.value })}
                 />
               </Field>
-              <Field label="商品类型">
+              <Field label={t("admin.products.productType")}>
                 <TextInput
                   value={form.productType ?? ""}
                   onChange={(e) => update({ productType: e.target.value || null })}
                 />
               </Field>
-              <Field label="设计/颜色">
+              <Field label={t("admin.products.designColor")}>
                 <TextInput
                   value={form.designText ?? ""}
                   onChange={(e) => update({ designText: e.target.value || null })}
                 />
               </Field>
               <div className="grid grid-cols-2 gap-4">
-                <Field label="价格">
+                <Field label={t("admin.products.price")}>
                   <NumberInput
                     value={form.price ?? ""}
                     onChange={(e) =>
@@ -246,7 +252,7 @@ export default function ProductEditorPage() {
                     }
                   />
                 </Field>
-                <Field label="原价">
+                <Field label={t("admin.products.originalPrice")}>
                   <NumberInput
                     value={form.originalPrice ?? ""}
                     onChange={(e) =>
@@ -258,7 +264,7 @@ export default function ProductEditorPage() {
                   />
                 </Field>
               </div>
-              <Field label="主图 URL" className="sm:col-span-2">
+              <Field label={t("admin.products.imageUrl")} className="sm:col-span-2">
                 <TextInput
                   value={form.image ?? ""}
                   onChange={(e) => update({ image: e.target.value || null })}
@@ -267,7 +273,7 @@ export default function ProductEditorPage() {
               {categories.length > 0 ? (
                 <div className="sm:col-span-2">
                   <div className="mb-1.5 block text-sm font-medium text-ikea-black">
-                    所属分类
+                    {t("admin.products.categories")}
                   </div>
                   <div className="flex flex-wrap gap-1.5">
                     {categories.map((category) => (
@@ -287,7 +293,7 @@ export default function ProductEditorPage() {
             </div>
           </Card>
 
-          <Card title="标签" className="mb-6">
+          <Card title={t("admin.products.labels")} className="mb-6">
             <SchemaListForm
               value={form.labels}
               onChange={(labels) =>
@@ -296,46 +302,46 @@ export default function ProductEditorPage() {
               schema={LABEL_SCHEMA}
               labelKey="text"
               titleFor={(item) =>
-                `${String(item.text ?? "未命名")}${item.backgroundColor ? `（${item.backgroundColor}）` : ""}`
+                `${String(item.text ?? t("admin.ui.unnamed"))}${item.backgroundColor ? ` (${item.backgroundColor})` : ""}`
               }
               newItem={() => ({ text: "", backgroundColor: "", textColor: "" })}
             />
           </Card>
 
-          <Card title="商品详情" className="mb-6">
+          <Card title={t("admin.products.detail")} className="mb-6">
             <div className="space-y-6">
-              <Field label="详情图片（URL 列表）">
+              <Field label={t("admin.products.detailImages")}>
                 <StringListEditor
                   value={form.detail.images}
                   onChange={(images) => updateDetail({ images })}
                   placeholder="https://…"
                 />
               </Field>
-              <Field label="卖点（benefits）">
+              <Field label={t("admin.products.benefits")}>
                 <StringListEditor
                   value={form.detail.benefits}
                   onChange={(benefits) => updateDetail({ benefits })}
                 />
               </Field>
-              <Field label="尺寸">
+              <Field label={t("admin.products.dimension")}>
                 <TextInput
                   value={form.detail.dimension ?? ""}
                   onChange={(e) => updateDetail({ dimension: e.target.value || null })}
                 />
               </Field>
-              <Field label="材质（materials）">
+              <Field label={t("admin.products.materials")}>
                 <StringListEditor
                   value={form.detail.materials}
                   onChange={(materials) => updateDetail({ materials })}
                 />
               </Field>
-              <Field label="保养（care）">
+              <Field label={t("admin.products.care")}>
                 <StringListEditor
                   value={form.detail.care}
                   onChange={(care) => updateDetail({ care })}
                 />
               </Field>
-              <Field label="描述">
+              <Field label={t("admin.products.description")}>
                 <TextArea
                   rows={4}
                   value={form.detail.description ?? ""}

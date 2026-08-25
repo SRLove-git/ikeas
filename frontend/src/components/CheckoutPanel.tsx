@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 import { SiteImage } from "@/components/SiteImage";
 import { useAuth } from "@/lib/auth";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
@@ -33,6 +34,7 @@ interface MarketingAccount {
 }
 
 export function CheckoutPanel() {
+  const { t } = useTranslation();
   const router = useRouter();
   const { user, ready } = useAuth();
   const [cart, setCart] = useState<Cart | null>(null);
@@ -66,7 +68,7 @@ export function CheckoutPanel() {
         if (!cancelled) setCart(data);
       } catch (ex) {
         if (!cancelled) {
-          setError(ex instanceof Error ? ex.message : "加载购物袋失败");
+          setError(ex instanceof Error ? ex.message : t("checkout.loadFailed"));
         }
       } finally {
         if (!cancelled) setLoading(false);
@@ -77,7 +79,7 @@ export function CheckoutPanel() {
     return () => {
       cancelled = true;
     };
-  }, [ready, user, router]);
+  }, [ready, user, router, t]);
 
   useEffect(() => {
     if (!ready || !user) return;
@@ -121,11 +123,11 @@ export function CheckoutPanel() {
 
   const submit = async () => {
     if (!cart || cart.items.length === 0) {
-      setError("购物袋为空，无法提交订单");
+      setError(t("checkout.emptyCart"));
       return;
     }
     if (!form.customer.trim() || !form.phone.trim() || !form.region.trim() || !form.detail.trim()) {
-      setError("请完整填写收货人、手机号和收货地址");
+      setError(t("checkout.incomplete"));
       return;
     }
 
@@ -150,7 +152,7 @@ export function CheckoutPanel() {
         `/cn/zh/profile/my-orders/?created=${encodeURIComponent(order.orderNo)}`,
       );
     } catch (ex) {
-      setError(ex instanceof Error ? ex.message : "提交订单失败");
+      setError(ex instanceof Error ? ex.message : t("checkout.submitFailed"));
     } finally {
       setSubmitting(false);
     }
@@ -159,7 +161,7 @@ export function CheckoutPanel() {
   if (!ready || !user) {
     return (
       <div className="flex min-h-[50vh] items-center justify-center text-sm text-ikea-muted">
-        正在进入结算…
+        {t("checkout.entering")}
       </div>
     );
   }
@@ -167,59 +169,61 @@ export function CheckoutPanel() {
   return (
     <div className="font-ikea min-h-screen bg-ikea-gray-100 text-ikea-black">
       <div className="max-w-page mx-auto px-5 py-10 lg:px-10">
-        <Breadcrumbs currentLabel="结算" />
+        <Breadcrumbs currentLabel={t("checkout.breadcrumb")} />
 
-        <h1 className="text-2xl font-bold leading-9">结算</h1>
+        <h1 className="text-2xl font-bold leading-9">{t("checkout.title")}</h1>
 
         <div className="mt-8 grid gap-8 lg:grid-cols-[1fr_380px]">
           <div className="space-y-6">
             <div className="flex items-center gap-2 text-xs font-bold">
-              <span className="text-ikea-blue">1 收货信息</span>
+              <span className="text-ikea-blue">1 {t("checkout.stepShipping")}</span>
               <span className="text-ikea-gray-300">›</span>
-              <span className="text-ikea-muted">2 配送方式</span>
+              <span className="text-ikea-muted">2 {t("checkout.stepDelivery")}</span>
               <span className="text-ikea-gray-300">›</span>
-              <span className="text-ikea-muted">3 支付</span>
+              <span className="text-ikea-muted">3 {t("checkout.stepPayment")}</span>
             </div>
 
             <section className="bg-white p-6">
-              <h2 className="text-base font-bold">收货信息</h2>
+              <h2 className="text-base font-bold">{t("checkout.stepShipping")}</h2>
               <div className="mt-4 grid gap-4 sm:grid-cols-2">
                 <input
                   value={form.customer}
                   onChange={(event) => update("customer", event.target.value)}
-                  placeholder="收货人姓名"
+                  placeholder={t("checkout.customerPlaceholder")}
                   className="h-11 border border-ikea-gray-200 px-4 text-sm outline-none focus:border-ikea-blue"
                 />
                 <input
                   value={form.phone}
                   onChange={(event) => update("phone", event.target.value)}
-                  placeholder="手机号"
+                  placeholder={t("checkout.phonePlaceholder")}
                   className="h-11 border border-ikea-gray-200 px-4 text-sm outline-none focus:border-ikea-blue"
                 />
                 <input
                   value={form.region}
                   onChange={(event) => update("region", event.target.value)}
-                  placeholder="省 / 市 / 区"
+                  placeholder={t("checkout.regionPlaceholder")}
                   className="h-11 border border-ikea-gray-200 px-4 text-sm outline-none focus:border-ikea-blue sm:col-span-2"
                 />
                 <input
                   value={form.detail}
                   onChange={(event) => update("detail", event.target.value)}
-                  placeholder="详细地址"
+                  placeholder={t("checkout.detailPlaceholder")}
                   className="h-11 border border-ikea-gray-200 px-4 text-sm outline-none focus:border-ikea-blue sm:col-span-2"
                 />
               </div>
             </section>
 
             <section className="bg-white p-6">
-              <h2 className="text-base font-bold">配送方式</h2>
+              <h2 className="text-base font-bold">{t("checkout.stepDelivery")}</h2>
               <label className="mt-4 flex cursor-pointer items-center justify-between border border-ikea-gray-200 p-4">
                 <span className="flex items-center gap-3">
                   <input type="radio" name="delivery" defaultChecked className="accent-ikea-blue" />
                   <span>
-                    <span className="block text-sm font-bold">标准配送</span>
+                    <span className="block text-sm font-bold">
+                      {t("checkout.standardDelivery")}
+                    </span>
                     <span className="mt-0.5 block text-xs text-ikea-muted">
-                      预计 3-5 个工作日送达
+                      {t("checkout.standardDeliveryHint")}
                     </span>
                   </span>
                 </span>
@@ -229,18 +233,18 @@ export function CheckoutPanel() {
           </div>
 
           <aside className="h-fit bg-white p-6">
-            <h2 className="text-base font-bold">订单摘要</h2>
+            <h2 className="text-base font-bold">{t("checkout.orderSummary")}</h2>
 
             {loading ? (
-              <p className="py-10 text-center text-sm text-ikea-muted">加载购物袋…</p>
+              <p className="py-10 text-center text-sm text-ikea-muted">{t("checkout.loading")}</p>
             ) : items.length === 0 ? (
               <div className="py-10 text-center">
-                <p className="text-sm text-ikea-muted">购物袋还是空的</p>
+                <p className="text-sm text-ikea-muted">{t("checkout.empty")}</p>
                 <Link
                   href="/cn/zh/all-products/"
                   className="mt-3 inline-block text-sm font-bold text-ikea-blue hover:underline"
                 >
-                  去挑选商品
+                  {t("checkout.browseProducts")}
                 </Link>
               </div>
             ) : (
@@ -256,7 +260,9 @@ export function CheckoutPanel() {
                       />
                       <div className="flex flex-1 flex-col">
                         <span className="line-clamp-1 text-sm font-bold">{product.name}</span>
-                        <span className="mt-0.5 text-xs text-ikea-muted">数量 {quantity}</span>
+                        <span className="mt-0.5 text-xs text-ikea-muted">
+                          {t("checkout.quantity", { count: quantity })}
+                        </span>
                         <span className="mt-auto text-sm font-bold">
                           {formatPrice((product.price ?? 0) * quantity)}
                         </span>
@@ -267,13 +273,13 @@ export function CheckoutPanel() {
 
                 <div className="mt-6 space-y-3 border-t border-ikea-gray-200 pt-4">
                   <label className="block">
-                    <span className="text-xs font-bold text-ikea-muted">优惠券</span>
+                    <span className="text-xs font-bold text-ikea-muted">{t("checkout.coupon")}</span>
                     <select
                       value={couponCode}
                       onChange={(event) => setCouponCode(event.target.value)}
                       className="mt-1 h-10 w-full border border-ikea-gray-200 bg-white px-3 text-sm outline-none focus:border-ikea-blue"
                     >
-                      <option value="">不使用优惠券</option>
+                      <option value="">{t("checkout.noCoupon")}</option>
                       {marketing?.coupons.map((coupon) => (
                         <option key={coupon.id} value={coupon.code}>
                           {coupon.name}
@@ -285,7 +291,7 @@ export function CheckoutPanel() {
                   <div className="grid grid-cols-2 gap-3">
                     <label className="block">
                       <span className="text-xs font-bold text-ikea-muted">
-                        积分（可用 {marketing?.points ?? 0}）
+                        {t("checkout.points", { count: marketing?.points ?? 0 })}
                       </span>
                       <input
                         type="number"
@@ -298,7 +304,9 @@ export function CheckoutPanel() {
                     </label>
                     <label className="block">
                       <span className="text-xs font-bold text-ikea-muted">
-                        余额（可用 {formatPrice(marketing?.balance ?? 0)}）
+                        {t("checkout.balance", {
+                          value: formatPrice(marketing?.balance ?? 0),
+                        })}
                       </span>
                       <input
                         type="number"
@@ -315,21 +323,21 @@ export function CheckoutPanel() {
 
                 <div className="mt-6 space-y-2 border-t border-ikea-gray-200 pt-4 text-sm">
                   <div className="flex justify-between">
-                    <span className="text-ikea-muted">商品小计</span>
+                    <span className="text-ikea-muted">{t("checkout.subtotal")}</span>
                     <span>{formatPrice(subtotal)}</span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="text-ikea-muted">配送费</span>
+                    <span className="text-ikea-muted">{t("checkout.deliveryFee")}</span>
                     <span>{formatPrice(DELIVERY_FEE)}</span>
                   </div>
                   {discount > 0 ? (
                     <div className="flex justify-between text-green-700">
-                      <span>优惠合计</span>
+                      <span>{t("checkout.discount")}</span>
                       <span>-{formatPrice(discount)}</span>
                     </div>
                   ) : null}
                   <div className="flex justify-between border-t border-ikea-gray-200 pt-3 text-base font-bold">
-                    <span>合计</span>
+                    <span>{t("checkout.total")}</span>
                     <span>{formatPrice(total)}</span>
                   </div>
                 </div>
@@ -340,10 +348,10 @@ export function CheckoutPanel() {
                   disabled={submitting || loading || totalQuantity === 0}
                   className="i-btn i-btn--primary mt-6 h-11 w-full text-sm font-bold text-white disabled:cursor-not-allowed disabled:opacity-50"
                 >
-                  {submitting ? "提交中…" : "提交订单"}
+                  {submitting ? t("checkout.submitting") : t("checkout.submitOrder")}
                 </button>
                 <p className="mt-3 text-center text-xs text-ikea-muted">
-                  提交后将由 CHUNG YIP 商城后台生成订单
+                  {t("checkout.submitHint")}
                 </p>
               </>
             )}

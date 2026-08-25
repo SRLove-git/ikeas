@@ -9,6 +9,7 @@ import { BrowsingHistoryTracker } from "@/components/BrowsingHistoryTracker"
 import { allProducts } from "@/data/products-index"
 import type { CatalogProduct } from "@/data/catalog"
 import { Breadcrumbs } from "@/components/Breadcrumbs"
+import { getLocale, getServerT } from "@/i18n/server"
 
 export const dynamicParams = false
 
@@ -24,13 +25,15 @@ export function generateStaticParams() {
 
 export default async function ProductPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params
-  const match = findProductBySlug(slug)
+  const locale = await getLocale()
+  const t = await getServerT(locale)
+  const match = findProductBySlug(slug, locale)
   if (!match) notFound()
 
   const { product } = match
   const detail = product.detail
   const spec = [product.productType, product.designText].filter(Boolean).join(", ")
-  const similar: CatalogProduct[] = allProducts()
+  const similar: CatalogProduct[] = allProducts(locale)
     .filter(
       (candidate) => candidate.id !== product.id && candidate.productType === product.productType,
     )
@@ -91,7 +94,9 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
               {spec ? <p className="mt-1 text-sm text-ikea-muted">{spec}</p> : null}
 
               <p className="mt-5 text-2xl font-bold">{formatPrice(product.price)}</p>
-              <p className="mt-2 text-sm text-ikea-muted">商品编号 {product.id}</p>
+              <p className="mt-2 text-sm text-ikea-muted">
+                {t("product.itemNumber", { id: product.id })}
+              </p>
 
               <ProductActions productId={product.id} />
 
@@ -112,19 +117,19 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
             <div className="mt-14 grid gap-8 border-t border-ikea-gray-200 pt-10 md:grid-cols-2 lg:grid-cols-4">
               {detail.description ? (
                 <section>
-                  <h2 className="mb-3 text-base font-bold">产品描述</h2>
+                  <h2 className="mb-3 text-base font-bold">{t("product.description")}</h2>
                   <p className="text-sm leading-6 text-ikea-muted">{detail.description}</p>
                 </section>
               ) : null}
               {detail.dimension ? (
                 <section>
-                  <h2 className="mb-3 text-base font-bold">尺寸</h2>
+                  <h2 className="mb-3 text-base font-bold">{t("common.dimension")}</h2>
                   <p className="text-sm leading-6 text-ikea-muted">{detail.dimension}</p>
                 </section>
               ) : null}
               {detail.materials.length > 0 ? (
                 <section>
-                  <h2 className="mb-3 text-base font-bold">材质</h2>
+                  <h2 className="mb-3 text-base font-bold">{t("common.materials")}</h2>
                   <ul className="space-y-1 text-sm leading-6 text-ikea-muted">
                     {detail.materials.map((material) => (
                       <li key={material}>· {material}</li>
@@ -134,7 +139,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
               ) : null}
               {detail.care.length > 0 ? (
                 <section>
-                  <h2 className="mb-3 text-base font-bold">保养说明</h2>
+                  <h2 className="mb-3 text-base font-bold">{t("product.careInstructions")}</h2>
                   <ul className="space-y-1 text-sm leading-6 text-ikea-muted">
                     {detail.care.map((care) => (
                       <li key={care}>· {care}</li>
@@ -147,7 +152,9 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
 
           {similar.length > 0 ? (
             <div className="mt-14 border-t border-ikea-gray-200 pt-10">
-              <h2 className="text-xl font-bold">与「{product.name}」相似的商品</h2>
+              <h2 className="text-xl font-bold">
+                {t("product.similar", { name: product.name })}
+              </h2>
               <div className="mt-6 grid grid-cols-2 gap-x-4 gap-y-8 md:grid-cols-3 lg:grid-cols-4">
                 {similar.map((candidate) => (
                   <ProductCard key={candidate.id} product={candidate} />

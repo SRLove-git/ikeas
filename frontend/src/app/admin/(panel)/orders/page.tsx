@@ -2,6 +2,8 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import { useTranslation } from "react-i18next";
+import { useLocale } from "@/i18n/LanguageProvider";
 import {
   adminFetch,
   EmptyState,
@@ -48,13 +50,15 @@ function statusClassName(status: number): string {
   return "bg-ikea-gray-100 text-ikea-muted";
 }
 
-function formatDate(value: string): string {
+function formatDate(value: string, locale: string): string {
   const date = new Date(value);
   if (Number.isNaN(date.getTime())) return value;
-  return date.toLocaleString("zh-CN", { hour12: false });
+  return date.toLocaleString(locale === "en" ? "en-SG" : "zh-CN", { hour12: false });
 }
 
 export default function OrdersPage() {
+  const { t } = useTranslation();
+  const { locale } = useLocale();
   const [items, setItems] = useState<AdminOrder[] | null>(null);
   const [error, setError] = useState<string | null>(null);
 
@@ -72,8 +76,8 @@ export default function OrdersPage() {
   return (
     <div>
       <PageHeader
-        title="订单管理"
-        description="查看、修改或取消用户通过前台提交的后端订单。"
+        title={t("admin.orders.title")}
+        description={t("admin.orders.desc")}
       />
       {error ? (
         <div className="mb-4">
@@ -82,20 +86,22 @@ export default function OrdersPage() {
       ) : null}
       <div className="overflow-hidden rounded-lg border border-ikea-gray-200 bg-white">
         {!items ? (
-          <Loading label="连接订单服务…" />
+          <Loading label={t("admin.orders.loading")} />
         ) : items.length === 0 ? (
-          <EmptyState>暂无订单</EmptyState>
+          <EmptyState>{t("admin.orders.empty")}</EmptyState>
         ) : (
           <table className="w-full text-left text-sm">
             <thead className="border-b border-ikea-gray-200 bg-ikea-gray-50 text-xs text-ikea-muted">
               <tr>
-                <th className="px-5 py-3 font-medium">订单号</th>
-                <th className="px-5 py-3 font-medium">下单时间</th>
-                <th className="px-5 py-3 font-medium">用户</th>
-                <th className="px-5 py-3 font-medium">商品数</th>
-                <th className="px-5 py-3 font-medium">金额</th>
-                <th className="px-5 py-3 font-medium">状态</th>
-                <th className="px-5 py-3 text-right font-medium">操作</th>
+                <th className="px-5 py-3 font-medium">{t("admin.orders.colOrderNo")}</th>
+                <th className="px-5 py-3 font-medium">{t("admin.orders.colTime")}</th>
+                <th className="px-5 py-3 font-medium">{t("admin.orders.colUser")}</th>
+                <th className="px-5 py-3 font-medium">{t("admin.orders.colItems")}</th>
+                <th className="px-5 py-3 font-medium">{t("admin.orders.colAmount")}</th>
+                <th className="px-5 py-3 font-medium">{t("admin.orders.colStatus")}</th>
+                <th className="px-5 py-3 text-right font-medium">
+                  {t("admin.common.colActions")}
+                </th>
               </tr>
             </thead>
             <tbody className="divide-y divide-ikea-gray-200">
@@ -105,13 +111,15 @@ export default function OrdersPage() {
                     {order.orderNo}
                   </td>
                   <td className="px-5 py-3 text-xs text-ikea-muted">
-                    {formatDate(order.createdAt)}
+                    {formatDate(order.createdAt, locale)}
                   </td>
                   <td className="px-5 py-3 text-xs">
-                    {order.userName ?? "未知用户"}
+                    {order.userName ?? t("admin.orders.unknownUser")}
                   </td>
                   <td className="px-5 py-3 text-xs">
-                    {order.items.reduce((sum, item) => sum + item.quantity, 0)} 件
+                    {t("admin.orders.itemCount", {
+                      count: order.items.reduce((sum, item) => sum + item.quantity, 0),
+                    })}
                   </td>
                   <td className="px-5 py-3 text-xs font-medium">
                     {formatPrice(order.totalAmount)}
@@ -128,7 +136,7 @@ export default function OrdersPage() {
                       href={`/admin/orders/${order.orderNo}`}
                       className="text-xs font-medium text-ikea-blue hover:underline"
                     >
-                      编辑
+                      {t("admin.products.edit")}
                     </Link>
                   </td>
                 </tr>

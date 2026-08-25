@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import Link from "next/link"
+import { useTranslation } from "react-i18next"
 import { CartBagIcon } from "@/components/icons"
 import type { FeedProduct } from "@/data/homepage"
 
@@ -14,6 +15,7 @@ interface ProductInspirationProps {
 const PAGE_SIZE = 12
 
 export function ProductInspiration({ title, tabs, products }: ProductInspirationProps) {
+  const { t } = useTranslation()
   const [activeTab, setActiveTab] = useState(tabs[0] ?? "全部")
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE)
 
@@ -68,7 +70,7 @@ export function ProductInspiration({ title, tabs, products }: ProductInspiration
             onClick={loadMore}
           >
             <span className="i-btn__inner">
-              <span className="i-btn__label">加载更多内容</span>
+              <span className="i-btn__label">{t("home.loadMore")}</span>
             </span>
           </button>
         </div>
@@ -78,6 +80,7 @@ export function ProductInspiration({ title, tabs, products }: ProductInspiration
 }
 
 function ProductPinCard({ product }: { product: FeedProduct }) {
+  const { t } = useTranslation()
   const [showTooltip, setShowTooltip] = useState(false)
 
   const tagStyle = product.tagStyle
@@ -102,7 +105,7 @@ function ProductPinCard({ product }: { product: FeedProduct }) {
       <Link
         href={product.href ?? "#"}
         className="block h-full w-full"
-        aria-label={product.title ?? "产品"}
+        aria-label={product.title ?? t("common.product")}
       >
         <div className="i-aspect-ratio-box i-aspect-ratio-box--standard i-product-image-box h-full w-full overflow-visible">
           {product.image ? (
@@ -123,7 +126,7 @@ function ProductPinCard({ product }: { product: FeedProduct }) {
 
       <button
         type="button"
-        aria-label={product.title ?? "产品"}
+        aria-label={product.title ?? t("common.product")}
         className="absolute h-4 w-4 -translate-x-1/2 -translate-y-1/2 rounded-full border-2 border-ikea-black bg-white shadow-sm transition-transform hover:scale-125"
         style={{ left: product.left, top: product.top }}
         onClick={() => setShowTooltip((current) => !current)}
@@ -171,7 +174,7 @@ function ProductPinCard({ product }: { product: FeedProduct }) {
             <button
               type="button"
               className="i-btn i-btn--xsmall i-btn--icon-emphasised cartin-button flex h-8 w-8 items-center justify-center rounded-full bg-ikea-yellow text-ikea-black transition-colors hover:bg-ikea-yellow/85"
-              aria-label="加入购物袋"
+              aria-label={t("product.addToBag")}
             >
               <CartBagIcon width={20} height={20} />
             </button>

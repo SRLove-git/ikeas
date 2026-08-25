@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useState } from "react"
 import Link from "next/link"
+import { useTranslation } from "react-i18next"
 import { useAuth } from "@/lib/auth"
 import { Breadcrumbs } from "@/components/Breadcrumbs"
 import { apiJson, type Product } from "@/lib/api"
@@ -34,6 +35,7 @@ function inspirationKey(item: PromoTile): string {
 }
 
 export function CollectionPanel({ inspirationItems, catalogProducts }: CollectionPanelProps) {
+  const { t } = useTranslation()
   const { user, ready } = useAuth()
   const [items, setItems] = useState<Product[]>([])
   const [loading, setLoading] = useState(false)
@@ -57,11 +59,11 @@ export function CollectionPanel({ inspirationItems, catalogProducts }: Collectio
       const data = await apiJson<{ items: Product[] }>("/favorites")
       setItems(data.items)
     } catch (ex) {
-      setError(ex instanceof Error ? ex.message : "加载收藏失败")
+      setError(ex instanceof Error ? ex.message : t("collection.loadFailed"))
     } finally {
       setLoading(false)
     }
-  }, [])
+  }, [t])
 
   useEffect(() => {
     setInspirationIds(getSavedInspirationIds())
@@ -98,7 +100,7 @@ export function CollectionPanel({ inspirationItems, catalogProducts }: Collectio
       })
       setItems(data.items)
     } catch (ex) {
-      setError(ex instanceof Error ? ex.message : "取消收藏失败")
+      setError(ex instanceof Error ? ex.message : t("collection.removeFailed"))
     }
   }
 
@@ -108,7 +110,9 @@ export function CollectionPanel({ inspirationItems, catalogProducts }: Collectio
     const id = inspirationKey(item)
     const next = toggleSavedInspiration(id)
     setInspirationIds(next)
-    setNotice(next.includes(id) ? "已收藏家居灵感" : "已取消收藏家居灵感")
+    setNotice(
+      next.includes(id) ? t("collection.inspirationSaved") : t("collection.inspirationRemoved"),
+    )
   }
 
   const submitWishlist = () => {
@@ -119,7 +123,7 @@ export function CollectionPanel({ inspirationItems, catalogProducts }: Collectio
     setIsCreatingWishlist(false)
     const created = next[next.length - 1]
     if (created) setWishlistTargetId(created.id)
-    setNotice("心愿单已创建")
+    setNotice(t("collection.wishlistCreated"))
   }
 
   const openWishlistDrawer = (productId: string) => {
@@ -145,7 +149,7 @@ export function CollectionPanel({ inspirationItems, catalogProducts }: Collectio
     const targetId = wishlistTargetId ?? wishlists[0]?.id
     if (!targetId) return
     setWishlists(addToWishlist(targetId, productId))
-    setNotice("已加入心愿单")
+    setNotice(t("collection.addedToWishlist"))
 
     setWishlistDrawerOpen(false)
     setWishlistDrawerProductId(null)
@@ -155,14 +159,14 @@ export function CollectionPanel({ inspirationItems, catalogProducts }: Collectio
 
   const removeFromWishlistById = (wishlistId: string, productId: string) => {
     setWishlists(removeFromWishlist(wishlistId, productId))
-    setNotice("已从心愿单移除")
+    setNotice(t("collection.removedFromWishlist"))
   }
 
   const removeWishlist = (wishlistId: string) => {
     const next = deleteWishlist(wishlistId)
     setWishlists(next)
     setWishlistTargetId(null)
-    setNotice("心愿单已删除")
+    setNotice(t("collection.wishlistDeleted"))
   }
 
   const renderEmptyState = (
@@ -197,7 +201,7 @@ export function CollectionPanel({ inspirationItems, catalogProducts }: Collectio
   if (!ready) {
     return (
       <div className="font-ikea flex min-h-[50vh] items-center justify-center text-sm text-ikea-muted">
-        加载中…
+        {t("common.loading")}
       </div>
     )
   }
@@ -205,14 +209,14 @@ export function CollectionPanel({ inspirationItems, catalogProducts }: Collectio
   if (!user) {
     return (
       <div className="font-ikea flex min-h-[60vh] flex-col items-center justify-center bg-white px-5 py-10 text-center text-ikea-black">
-        <h1 className="text-4xl font-bold leading-[1.4]">登录 CHUNG YIP 账户</h1>
-        <p className="mt-8 text-base">查看收藏中的内容</p>
+        <h1 className="text-4xl font-bold leading-[1.4]">{t("collection.loginTitle")}</h1>
+        <p className="mt-8 text-base">{t("collection.loginDesc")}</p>
         <Link
           href="/cn/zh/profile/login/"
           className="i-btn i-btn--primary mt-8 h-12 px-8 text-sm font-bold text-white"
         >
           <span className="i-btn__inner">
-            <span className="i-btn__label">登录 / 注册</span>
+            <span className="i-btn__label">{t("collection.loginSubmit")}</span>
           </span>
         </Link>
         <div className="mt-10">
@@ -232,15 +236,17 @@ export function CollectionPanel({ inspirationItems, catalogProducts }: Collectio
   return (
     <div className="font-ikea min-h-screen bg-white text-ikea-black">
       <div className="max-w-page mx-auto px-5 py-10 lg:px-10">
-        <Breadcrumbs currentLabel="我的收藏" />
+        <Breadcrumbs currentLabel={t("collection.title")} />
 
-        <h1 className="text-2xl font-bold leading-9">我的收藏({items.length})</h1>
+        <h1 className="text-2xl font-bold leading-9">
+          {t("collection.titleWithCount", { count: items.length })}
+        </h1>
 
         <div className="mt-6 flex border-b border-ikea-gray-200">
           {(
             [
-              ["products", "商品"],
-              ["wishlist", "心愿单"],
+              ["products", t("collection.tabProducts")],
+              ["wishlist", t("collection.tabWishlist")],
             ] as [CollectionTab, string][]
           ).map(([key, label]) => (
             <button
@@ -271,7 +277,9 @@ export function CollectionPanel({ inspirationItems, catalogProducts }: Collectio
 
         {activeTab === "inspiration" ? (
           inspirationItems.length === 0 ? (
-            renderEmptyState("暂时没有健康灵感内容", "去逛逛", { href: "/cn/zh/all-products/" })
+            renderEmptyState(t("collection.emptyInspiration"), t("collection.browse"), {
+              href: "/cn/zh/all-products/",
+            })
           ) : (
             <div className="mt-5 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
               {inspirationItems.map((item) => {
@@ -294,7 +302,9 @@ export function CollectionPanel({ inspirationItems, catalogProducts }: Collectio
                     </Link>
                     <button
                       type="button"
-                      aria-label={saved ? "取消收藏灵感" : "收藏灵感"}
+                      aria-label={
+                        saved ? t("collection.unsaveInspiration") : t("collection.saveInspiration")
+                      }
                       onClick={() => toggleInspiration(item)}
                       className="absolute right-3 top-3 flex h-8 w-8 items-center justify-center rounded-full bg-white shadow"
                     >
@@ -319,7 +329,7 @@ export function CollectionPanel({ inspirationItems, catalogProducts }: Collectio
         ) : activeTab === "wishlist" ? (
           <div className="mt-5">
             {wishlists.length === 0 && !isCreatingWishlist ? (
-              renderEmptyState("您还没有创建心愿单", "新建心愿单", {
+              renderEmptyState(t("collection.noWishlist"), t("collection.newWishlist"), {
                 onClick: () => setIsCreatingWishlist(true),
               })
             ) : (
@@ -336,7 +346,7 @@ export function CollectionPanel({ inspirationItems, catalogProducts }: Collectio
                           submitWishlist()
                         }
                       }}
-                      placeholder="心愿单名称"
+                      placeholder={t("collection.wishlistNamePlaceholder")}
                       className="h-11 flex-1 border border-ikea-gray-200 px-4 text-sm outline-none focus:border-ikea-blue"
                     />
                     <button
@@ -344,14 +354,14 @@ export function CollectionPanel({ inspirationItems, catalogProducts }: Collectio
                       onClick={submitWishlist}
                       className="i-btn i-btn--small i-btn--primary h-11 px-5 text-sm font-bold"
                     >
-                      创建
+                      {t("collection.create")}
                     </button>
                     <button
                       type="button"
                       onClick={() => setIsCreatingWishlist(false)}
                       className="h-11 px-3 text-sm text-ikea-muted hover:text-ikea-black"
                     >
-                      取消
+                      {t("collection.cancel")}
                     </button>
                   </div>
                 ) : null}
@@ -362,7 +372,7 @@ export function CollectionPanel({ inspirationItems, catalogProducts }: Collectio
                     onClick={() => setIsCreatingWishlist(true)}
                     className="i-btn i-btn--small i-btn--secondary mb-6 h-10 px-5 text-sm font-bold"
                   >
-                    新建心愿单
+                    {t("collection.newWishlist")}
                   </button>
                 ) : null}
 
@@ -383,22 +393,22 @@ export function CollectionPanel({ inspirationItems, catalogProducts }: Collectio
                               setWishlists(renameWishlist(wishlist.id, event.target.value))
                             }
                             className="min-w-0 flex-1 rounded border border-transparent bg-transparent text-base font-bold outline-none hover:border-ikea-gray-200 focus:border-ikea-blue"
-                            aria-label="心愿单名称"
+                            aria-label={t("collection.wishlistNameAria")}
                           />
                           <span className="text-sm text-ikea-muted">
-                            {wishlistProducts.length} 件商品
+                            {t("common.items", { count: wishlistProducts.length })}
                           </span>
                           <button
                             type="button"
                             onClick={() => removeWishlist(wishlist.id)}
                             className="text-sm text-ikea-muted hover:text-red-600"
                           >
-                            删除心愿单
+                            {t("collection.deleteWishlist")}
                           </button>
                         </div>
                         {wishlistProducts.length === 0 ? (
                           <p className="py-10 text-center text-sm text-ikea-muted">
-                            在「商品」标签页点击「加入心愿单」即可添加商品
+                            {t("collection.wishlistEmptyHint")}
                           </p>
                         ) : (
                           <div className="mt-5 grid grid-cols-2 gap-x-4 gap-y-8 md:grid-cols-3 lg:grid-cols-4">
@@ -414,7 +424,7 @@ export function CollectionPanel({ inspirationItems, catalogProducts }: Collectio
                                 </Link>
                                 <button
                                   type="button"
-                                  aria-label="移出心愿单"
+                                  aria-label={t("collection.removeFromWishlistAria")}
                                   onClick={() => removeFromWishlistById(wishlist.id, product.id)}
                                   className="absolute right-2 top-2 flex h-8 w-8 items-center justify-center rounded-full bg-white text-ikea-muted shadow hover:text-red-600"
                                 >
@@ -439,9 +449,13 @@ export function CollectionPanel({ inspirationItems, catalogProducts }: Collectio
             )}
           </div>
         ) : loading ? (
-          <p className="py-16 text-center text-sm text-ikea-muted">加载收藏中…</p>
+          <p className="py-16 text-center text-sm text-ikea-muted">
+            {t("collection.loadingProducts")}
+          </p>
         ) : items.length === 0 ? (
-          renderEmptyState("您还没有收藏商品", "去逛逛", { href: "/cn/zh/all-products/" })
+          renderEmptyState(t("collection.emptyProducts"), t("collection.browse"), {
+            href: "/cn/zh/all-products/",
+          })
         ) : (
           <div className="mt-5 grid grid-cols-2 gap-x-4 gap-y-8 md:grid-cols-3 lg:grid-cols-4">
             {items.map((product) => (
@@ -456,7 +470,7 @@ export function CollectionPanel({ inspirationItems, catalogProducts }: Collectio
                 </Link>
                 <button
                   type="button"
-                  aria-label="取消收藏"
+                  aria-label={t("collection.removeFavoriteAria")}
                   onClick={() => void removeFavorite(product.id)}
                   className="absolute right-2 top-2 flex h-8 w-8 items-center justify-center rounded-full bg-white shadow"
                 >
@@ -474,7 +488,7 @@ export function CollectionPanel({ inspirationItems, catalogProducts }: Collectio
                   onClick={() => openWishlistDrawer(product.id)}
                   className="mt-3 rounded border border-ikea-gray-200 px-3 py-1.5 text-xs font-bold hover:border-ikea-black"
                 >
-                  加入心愿单
+                  {t("collection.addToWishlist")}
                 </button>
               </div>
             ))}
@@ -486,16 +500,16 @@ export function CollectionPanel({ inspirationItems, catalogProducts }: Collectio
         <div className="fixed inset-0 z-[1100]" role="dialog" aria-modal="true">
           <button
             type="button"
-            aria-label="关闭"
+            aria-label={t("common.close")}
             className="absolute inset-0 bg-black/50"
             onClick={() => setWishlistDrawerOpen(false)}
           />
           <aside className="absolute right-0 top-0 flex h-full w-full max-w-[420px] flex-col bg-white shadow-2xl">
             <div className="flex items-center justify-between border-b border-ikea-gray-200 px-6 py-4">
-              <h2 className="text-base font-bold">加入心愿单</h2>
+              <h2 className="text-base font-bold">{t("collection.addToWishlist")}</h2>
               <button
                 type="button"
-                aria-label="关闭"
+                aria-label={t("common.close")}
                 className="flex h-8 w-8 items-center justify-center text-ikea-muted hover:text-ikea-black"
                 onClick={() => setWishlistDrawerOpen(false)}
               >
@@ -514,7 +528,7 @@ export function CollectionPanel({ inspirationItems, catalogProducts }: Collectio
                 }}
                 className="flex items-center gap-2 text-sm font-bold text-ikea-blue hover:text-ikea-black"
               >
-                +新建心愿单
+                {t("collection.newWishlist")}
               </button>
 
               {wishlistDrawerCreating ? (
@@ -529,7 +543,7 @@ export function CollectionPanel({ inspirationItems, catalogProducts }: Collectio
                         createWishlistInDrawer()
                       }
                     }}
-                    placeholder="心愿单名称"
+                    placeholder={t("collection.wishlistNamePlaceholder")}
                     className="h-10 flex-1 border border-ikea-gray-200 px-3 text-sm outline-none focus:border-ikea-blue"
                   />
                   <button
@@ -537,21 +551,21 @@ export function CollectionPanel({ inspirationItems, catalogProducts }: Collectio
                     onClick={createWishlistInDrawer}
                     className="i-btn i-btn--small i-btn--primary h-10 px-4 text-sm font-bold"
                   >
-                    创建
+                    {t("collection.create")}
                   </button>
                   <button
                     type="button"
                     onClick={() => setWishlistDrawerCreating(false)}
                     className="h-10 px-2 text-sm text-ikea-muted hover:text-ikea-black"
                   >
-                    取消
+                    {t("collection.cancel")}
                   </button>
                 </div>
               ) : null}
 
               {wishlists.length === 0 ? (
                 <p className="mt-4 rounded bg-ikea-gray-100 px-4 py-3 text-sm text-ikea-muted">
-                  还没有心愿单，点击「新建心愿单」创建
+                  {t("collection.noWishlistHint")}
                 </p>
               ) : (
                 <ul className="mt-4 divide-y divide-ikea-gray-100">
@@ -573,7 +587,7 @@ export function CollectionPanel({ inspirationItems, catalogProducts }: Collectio
                               />
                             ) : (
                               <span className="flex h-full w-full items-center justify-center text-xs text-ikea-muted">
-                                无商品
+                                {t("collection.noProducts")}
                               </span>
                             )}
                           </span>
@@ -582,7 +596,7 @@ export function CollectionPanel({ inspirationItems, catalogProducts }: Collectio
                               {wishlist.name}
                             </span>
                             <span className="mt-0.5 block text-xs text-ikea-muted">
-                              {wishlist.productIds.length} 件商品
+                              {t("common.items", { count: wishlist.productIds.length })}
                             </span>
                           </span>
                           <span
@@ -616,7 +630,7 @@ export function CollectionPanel({ inspirationItems, catalogProducts }: Collectio
                 className="i-btn i-btn--primary h-11 w-full text-sm font-bold text-white"
               >
                 <span className="i-btn__inner">
-                  <span className="i-btn__label">加入心愿单</span>
+                  <span className="i-btn__label">{t("collection.addToWishlist")}</span>
                 </span>
               </button>
             </div>

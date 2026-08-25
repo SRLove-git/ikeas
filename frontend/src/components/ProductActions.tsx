@@ -2,10 +2,12 @@
 
 import { useEffect, useState } from "react"
 import { useRouter } from "next/navigation"
+import { useTranslation } from "react-i18next"
 import { apiJson, getToken, type Cart } from "@/lib/api"
 import { HeartIcon } from "@/components/icons"
 
 export function ProductActions({ productId }: { productId: string }) {
+  const { t } = useTranslation()
   const router = useRouter()
   const [bagState, setBagState] = useState<"idle" | "loading" | "added">("idle")
   const [favState, setFavState] = useState<"on" | "off">("off")
@@ -45,9 +47,9 @@ export function ProductActions({ productId }: { productId: string }) {
       const cart = await apiJson<Cart>("/cart")
       setBagState("added")
       window.dispatchEvent(new CustomEvent("ikea:cart-changed", { detail: cart.totalQuantity }))
-      setMessage("已加入购物袋")
+      setMessage(t("product.addedToBag"))
     } catch (ex) {
-      setMessage(ex instanceof Error ? ex.message : "加入购物袋失败")
+      setMessage(ex instanceof Error ? ex.message : t("product.operationFailed"))
       setBagState("idle")
     }
   }
@@ -69,9 +71,9 @@ export function ProductActions({ productId }: { productId: string }) {
         await apiJson(`/favorites/${productId}`, { method: "DELETE" })
       }
       setFavState(next ? "on" : "off")
-      setMessage(next ? "已加入收藏" : "已取消收藏")
+      setMessage(next ? t("product.addedFavorite") : t("product.removedFavorite"))
     } catch (ex) {
-      setMessage(ex instanceof Error ? ex.message : "操作失败")
+      setMessage(ex instanceof Error ? ex.message : t("product.operationFailed"))
     }
   }
 
@@ -86,10 +88,10 @@ export function ProductActions({ productId }: { productId: string }) {
         <span className="i-btn__inner">
           <span className="i-btn__label">
             {bagState === "loading"
-              ? "请稍候…"
+              ? t("product.adding")
               : bagState === "added"
-                ? "已加入购物袋"
-                : "加入购物袋"}
+                ? t("product.addedToBag")
+                : t("product.addToBag")}
           </span>
         </span>
       </button>
@@ -103,7 +105,7 @@ export function ProductActions({ productId }: { productId: string }) {
             <HeartIcon
               className={`h-4 w-4 ${favState === "on" ? "text-ikea-red" : "text-ikea-black"}`}
             />
-            <span>{favState === "on" ? "已收藏" : "加入收藏"}</span>
+            <span>{favState === "on" ? t("product.favorited") : t("product.addFavorite")}</span>
           </span>
         </span>
       </button>

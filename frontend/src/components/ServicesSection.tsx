@@ -1,5 +1,8 @@
+"use client"
+
 import { AssemblyIcon, DesignIcon, InstallationIcon, TruckIcon } from "@/components/icons"
 import Link from "next/link"
+import { useTranslation } from "react-i18next"
 import type { AssuranceItem } from "@/types"
 
 interface ServicesSectionProps {
@@ -14,10 +17,11 @@ const iconMap = {
 } as const
 
 export function ServicesSection({ assurances }: ServicesSectionProps) {
+  const { t } = useTranslation()
   return (
     <div className="services-section space-y-8 lg:space-y-12">
       <div className="rich-text__container rich-text__component">
-        <h2>我们的服务</h2>
+        <h2>{t("home.ourServices")}</h2>
       </div>
       <div className="pub-assurances">
         {assurances.map((item) => {
@@ -43,7 +47,7 @@ export function ServicesSection({ assurances }: ServicesSectionProps) {
       <div className="pub-button-link is-bolder">
         <Link href="/cn/zh/customer-service/" className="i-btn i-btn--small i-btn--secondary">
           <span className="i-btn__inner">
-            <span className="i-btn__label">查看所有服务</span>
+            <span className="i-btn__label">{t("home.viewAllServices")}</span>
           </span>
         </Link>
       </div>

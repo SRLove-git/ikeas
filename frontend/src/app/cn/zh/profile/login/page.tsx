@@ -3,18 +3,19 @@
 import { useState } from "react"
 import Link from "next/link"
 import { useRouter } from "next/navigation"
+import { useTranslation } from "react-i18next"
 import { useAuth } from "@/lib/auth"
 import { apiJson } from "@/lib/api"
 
 type LoginTab = "sms" | "email" | "username"
 
-const tabs: [LoginTab, string][] = [
-  ["sms", "短信登录"],
-  ["email", "邮箱登录"],
-  ["username", "用户名登录"],
-]
-
 export default function LoginPage() {
+  const { t } = useTranslation()
+  const tabs: [LoginTab, string][] = [
+    ["sms", t("login.tabSms")],
+    ["email", t("login.tabEmail")],
+    ["username", t("login.tabUsername")],
+  ]
   const [tab, setTab] = useState<LoginTab>("sms")
   const [agreed, setAgreed] = useState(false)
   const [submitted, setSubmitted] = useState(false)
@@ -34,7 +35,7 @@ export default function LoginPage() {
     setNotice(null)
 
     if (!/^1\d{10}$/.test(phone.trim())) {
-      setError("请输入正确的 11 位手机号")
+      setError(t("login.invalidPhone"))
       return
     }
 
@@ -43,15 +44,19 @@ export default function LoginPage() {
         method: "POST",
         body: JSON.stringify({ phone: phone.trim() }),
       })
-      setNotice(data.devCode ? `${data.message}（演示环境验证码：${data.devCode}）` : data.message)
+      setNotice(
+        data.devCode
+          ? t("login.codeSentNotice", { message: data.message, code: data.devCode })
+          : data.message,
+      )
     } catch (ex) {
-      setError(ex instanceof Error ? ex.message : "验证码发送失败")
+      setError(ex instanceof Error ? ex.message : t("login.codeSendFailed"))
     }
   }
 
   const submit = async () => {
     if (!agreed) {
-      setError("请先阅读并同意隐私政策和使用条款")
+      setError(t("login.needAgree"))
       return
     }
 
@@ -61,31 +66,31 @@ export default function LoginPage() {
     try {
       if (tab === "sms") {
         if (!/^1\d{10}$/.test(phone.trim())) {
-          setError("请输入正确的 11 位手机号")
+          setError(t("login.invalidPhone"))
           return
         }
         if (!code.trim()) {
-          setError("请输入验证码")
+          setError(t("login.enterCode"))
           return
         }
         await login({ mode: "sms", phone: phone.trim(), code: code.trim() })
       } else if (tab === "email") {
         if (!email.trim()) {
-          setError("请输入邮箱")
+          setError(t("login.enterEmail"))
           return
         }
         if (!password) {
-          setError("请输入密码")
+          setError(t("login.enterPassword"))
           return
         }
         await login({ mode: "password", account: email.trim(), password })
       } else {
         if (!username.trim()) {
-          setError("请输入用户名")
+          setError(t("login.enterUsername"))
           return
         }
         if (!password) {
-          setError("请输入密码")
+          setError(t("login.enterPassword"))
           return
         }
         await login({ mode: "password", account: username.trim(), password })
@@ -94,7 +99,7 @@ export default function LoginPage() {
       setSubmitted(true)
       setTimeout(() => router.replace("/cn/zh/profile/"), 500)
     } catch (ex) {
-      setError(ex instanceof Error ? ex.message : "登录失败，请稍后重试")
+      setError(ex instanceof Error ? ex.message : t("login.loginFailed"))
     } finally {
       setSubmitting(false)
     }
@@ -105,24 +110,25 @@ export default function LoginPage() {
       <header className="flex h-16 items-center justify-between px-6 lg:px-10">
         <Link href="/" className="flex items-center gap-2">
           <span className="text-lg font-bold tracking-wide">
-            CHUNG YIP<span className="text-ikea-blue">·</span>健康产品商城
+            CHUNG YIP<span className="text-ikea-blue">·</span>
+            {t("login.brand")}
           </span>
         </Link>
         <div className="flex items-center gap-6 text-sm">
           <span className="font-bold">CHUNG YIP</span>
-          <span className="hidden text-ikea-muted md:inline">重新定义医疗健康，智能守护每一天</span>
+          <span className="hidden text-ikea-muted md:inline">{t("login.brandTagline")}</span>
           <Link
             href="/cn/zh/customer-service/contact-us/"
             className="text-ikea-blue hover:underline"
           >
-            客服
+            {t("login.customerService")}
           </Link>
         </div>
       </header>
 
       <div className="flex flex-1 items-center justify-center px-5 py-12">
         <div className="w-full max-w-[440px]">
-          <h1 className="text-center text-2xl font-bold leading-9">欢迎来到 CHUNG YIP</h1>
+          <h1 className="text-center text-2xl font-bold leading-9">{t("login.welcome")}</h1>
 
           <div className="mt-8 flex gap-1 border-b border-ikea-gray-200">
             {tabs.map(([key, label]) => (
@@ -149,11 +155,11 @@ export default function LoginPage() {
             {tab === "sms" ? (
               <div className="space-y-4">
                 <label className="block">
-                  <span className="mb-1.5 block text-sm font-bold">手机号</span>
+                  <span className="mb-1.5 block text-sm font-bold">{t("login.phoneLabel")}</span>
                   <input
                     type="tel"
                     inputMode="numeric"
-                    placeholder="请输入手机号"
+                    placeholder={t("login.phonePlaceholder")}
                     value={phone}
                     onChange={(event) => setPhone(event.target.value)}
                     className="h-11 w-full border border-ikea-gray-200 px-4 text-sm outline-none transition-colors focus:border-ikea-blue"
@@ -161,11 +167,11 @@ export default function LoginPage() {
                 </label>
                 <div className="flex gap-3">
                   <label className="block flex-1">
-                    <span className="mb-1.5 block text-sm font-bold">验证码</span>
+                    <span className="mb-1.5 block text-sm font-bold">{t("login.codeLabel")}</span>
                     <input
                       type="text"
                       inputMode="numeric"
-                      placeholder="验证码"
+                      placeholder={t("login.codePlaceholder")}
                       value={code}
                       onChange={(event) => setCode(event.target.value)}
                       className="h-11 w-full border border-ikea-gray-200 px-4 text-sm outline-none transition-colors focus:border-ikea-blue"
@@ -176,7 +182,7 @@ export default function LoginPage() {
                     onClick={sendCode}
                     className="mt-[26px] h-11 shrink-0 border border-ikea-gray-200 px-5 text-xs font-bold text-ikea-blue hover:border-ikea-blue"
                   >
-                    获取验证码
+                    {t("login.getCode")}
                   </button>
                 </div>
               </div>
@@ -184,11 +190,13 @@ export default function LoginPage() {
               <div className="space-y-4">
                 <label className="block">
                   <span className="mb-1.5 block text-sm font-bold">
-                    {tab === "email" ? "邮箱" : "用户名"}
+                    {tab === "email" ? t("login.emailLabel") : t("login.usernameLabel")}
                   </span>
                   <input
                     type={tab === "email" ? "email" : "text"}
-                    placeholder={tab === "email" ? "请输入邮箱" : "请输入用户名"}
+                    placeholder={
+                      tab === "email" ? t("login.enterEmail") : t("login.enterUsername")
+                    }
                     value={tab === "email" ? email : username}
                     onChange={(event) => {
                       if (tab === "email") {
@@ -201,10 +209,12 @@ export default function LoginPage() {
                   />
                 </label>
                 <label className="block">
-                  <span className="mb-1.5 block text-sm font-bold">密码</span>
+                  <span className="mb-1.5 block text-sm font-bold">
+                    {t("login.passwordLabel")}
+                  </span>
                   <input
                     type="password"
-                    placeholder="密码"
+                    placeholder={t("login.passwordPlaceholder")}
                     value={password}
                     onChange={(event) => setPassword(event.target.value)}
                     onKeyDown={(event) => {
@@ -226,19 +236,19 @@ export default function LoginPage() {
                 className="mt-0.5 h-4 w-4 accent-ikea-blue"
               />
               <span>
-                我已阅读并同意
+                {t("login.agreePrefix")}
                 <Link
                   href="/cn/zh/customer-service/privacy-policy/"
                   className="mx-0.5 text-ikea-blue hover:underline"
                 >
-                  隐私政策
+                  {t("login.privacyPolicy")}
                 </Link>
-                和
+                {t("login.and")}
                 <Link
                   href="/cn/zh/customer-service/terms-conditions/"
                   className="mx-0.5 text-ikea-blue hover:underline"
                 >
-                  使用条款
+                  {t("login.termsOfUse")}
                 </Link>
               </span>
             </label>
@@ -251,14 +261,18 @@ export default function LoginPage() {
             >
               <span className="i-btn__inner">
                 <span className="i-btn__label">
-                  {submitting ? "请稍候…" : tab === "sms" ? "登录 / 注册" : "登录"}
+                  {submitting
+                    ? t("common.loading")
+                    : tab === "sms"
+                      ? t("login.submitSms")
+                      : t("login.submit")}
                 </span>
               </span>
             </button>
 
             {submitted ? (
               <p className="mt-4 rounded bg-ikea-gray-100 px-4 py-3 text-center text-xs text-ikea-muted">
-                登录成功，正在进入我的个人档案…
+                {t("login.success")}
               </p>
             ) : null}
             {error ? (
@@ -273,7 +287,7 @@ export default function LoginPage() {
             ) : null}
 
             <p className="mt-3 text-center text-xs text-ikea-muted">
-              演示账号：demo@ikea.cn（或 13800138000），密码 123456
+              {t("login.demoAccount")}
             </p>
           </div>
         </div>

@@ -1,9 +1,11 @@
 import { catalogData } from "@/data/catalog"
 import { BrowsingHistoryPanel } from "@/components/BrowsingHistoryPanel"
 import { SiteLayout } from "@/components/SiteLayout"
+import { getLocale } from "@/i18n/server"
 
-export default function BrowsingHistoryPage() {
-  const { catalogCategories } = catalogData()
+export default async function BrowsingHistoryPage() {
+  const locale = await getLocale()
+  const { catalogCategories } = catalogData(locale)
   const products = [
     ...new Map(
       catalogCategories

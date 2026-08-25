@@ -1,0 +1,2352 @@
+[
+  {
+    "url": "/cn/zh/cat/insulin-pen-needles",
+    "id": "insulin-pen-needles",
+    "name": "Insulin pen needles",
+    "description": "Browse BUZUD insulin pen needle products.",
+    "total": 3,
+    "products": [
+      {
+        "id": "8885020711530",
+        "name": "BUZUD Pen Needles Plus Pro 32G 6mm ",
+        "price": 26,
+        "image": "/images/products/buzud-8885020711530-1.png",
+        "productType": "Insulin pen needles",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-pen-needles-plus-pro-32g-6mm"
+      },
+      {
+        "id": "8885020711783",
+        "name": "BUZUD Safety Pen Needles HS Pro 31G 5mm",
+        "price": 67,
+        "image": "/images/products/buzud-8885020711783-1.png",
+        "productType": "Insulin pen needles",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-safety-pen-needles-hs-pro-31g-5mm"
+      },
+      {
+        "id": "8885020712827",
+        "name": "BUZUD Pen Needles Plus Pro 32G 5mm ",
+        "price": 26,
+        "image": "/images/products/buzud-8885020712827-1.png",
+        "productType": "Insulin pen needles",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-pen-needles-plus-pro-32g-5mm"
+      }
+    ],
+    "blocks": [],
+    "productIds": [
+      {
+        "id": "8885020711530",
+        "type": "SPR",
+        "fullId": "s8885020711530"
+      },
+      {
+        "id": "8885020711783",
+        "type": "SPR",
+        "fullId": "s8885020711783"
+      },
+      {
+        "id": "8885020712827",
+        "type": "SPR",
+        "fullId": "s8885020712827"
+      }
+    ]
+  },
+  {
+    "url": "/cn/zh/cat/simple-oxygen-mask",
+    "id": "simple-oxygen-mask",
+    "name": "Simple oxygen mask",
+    "description": "Browse BUZUD simple oxygen mask products.",
+    "total": 2,
+    "products": [
+      {
+        "id": "8885020710281",
+        "name": "Simple Oxygen Mask (adult)",
+        "price": 30,
+        "image": "/images/products/buzud-8885020710298-1.png",
+        "productType": "Simple oxygen mask",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "simple-oxygen-mask-adult"
+      },
+      {
+        "id": "8885020710298",
+        "name": "Simple Oxygen Mask (child)",
+        "price": 30,
+        "image": "/images/products/buzud-8885020710298-1.png",
+        "productType": "Simple oxygen mask",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "simple-oxygen-mask-child"
+      }
+    ],
+    "blocks": [],
+    "productIds": [
+      {
+        "id": "8885020710281",
+        "type": "SPR",
+        "fullId": "s8885020710281"
+      },
+      {
+        "id": "8885020710298",
+        "type": "SPR",
+        "fullId": "s8885020710298"
+      }
+    ]
+  },
+  {
+    "url": "/cn/zh/cat/portable-oxygen-concentrator",
+    "id": "portable-oxygen-concentrator",
+    "name": "Portable oxygen concentrator",
+    "description": "Browse BUZUD portable oxygen concentrator products.",
+    "total": 3,
+    "products": [
+      {
+        "id": "8885020711387",
+        "name": "BUZUD Portable Oxygen Concentrator 1000P (white)",
+        "price": 5280,
+        "image": "/images/products/buzud-8885020711387-1.jpg",
+        "productType": "Portable oxygen concentrator",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-portable-oxygen-concentrator-1000p-white"
+      },
+      {
+        "id": "8885020711370",
+        "name": "BUZUD Portable Oxygen Concentrator 1000P (red)",
+        "price": 5280,
+        "image": "/images/products/buzud-8885020711370-1.jpg",
+        "productType": "Portable oxygen concentrator",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-portable-oxygen-concentrator-1000p-red"
+      },
+      {
+        "id": "POC DYNAMIC 1000P BATTERY",
+        "name": "BUZUD Portable Oxygen Concentrator DYNAMIC 1000P Battery",
+        "price": 360,
+        "image": "/images/products/buzud-POC-DYNAMIC-1000P-BATTERY-1.jpg",
+        "productType": "Portable oxygen concentrator",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-portable-oxygen-concentrator-dynamic-1000p-battery"
+      }
+    ],
+    "blocks": [],
+    "productIds": [
+      {
+        "id": "8885020711387",
+        "type": "SPR",
+        "fullId": "s8885020711387"
+      },
+      {
+        "id": "8885020711370",
+        "type": "SPR",
+        "fullId": "s8885020711370"
+      },
+      {
+        "id": "POC DYNAMIC 1000P BATTERY",
+        "type": "SPR",
+        "fullId": "sPOC DYNAMIC 1000P BATTERY"
+      }
+    ]
+  },
+  {
+    "url": "/cn/zh/cat/insulin-cooler-box",
+    "id": "insulin-cooler-box",
+    "name": "Insulin cooling case",
+    "description": "Browse BUZUD insulin cooling case products.",
+    "total": 0,
+    "products": [],
+    "blocks": [],
+    "productIds": []
+  },
+  {
+    "url": "/cn/zh/cat/thermometer",
+    "id": "thermometer",
+    "name": "Thermometers",
+    "description": "Browse BUZUD thermometer products.",
+    "total": 4,
+    "products": [
+      {
+        "id": "8885020711288",
+        "name": "BUZUD Infrared Thermometer 20A",
+        "price": 68,
+        "image": "/images/products/buzud-8885020711288-1.jpg",
+        "productType": "Thermometers",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-infrared-thermometer-20a"
+      },
+      {
+        "id": "8885020711684-10",
+        "name": "Disposable Ear Probe YE20 (10 boxes)",
+        "price": 60,
+        "image": "/images/products/buzud-8885020711684-1.png",
+        "productType": "Thermometers",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "disposable-ear-probe-ye20-10-boxes"
+      },
+      {
+        "id": "8885020711677",
+        "name": "BUZUD Infrared Ear Thermometer BZD100",
+        "price": 87,
+        "image": "/images/products/buzud-8885020711677-1.jpg",
+        "productType": "Thermometers",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-infrared-ear-thermometer-bzd100"
+      },
+      {
+        "id": "8885020711684",
+        "name": "BUZUD Disposable Ear Probe YE20",
+        "price": 6,
+        "image": "/images/products/buzud-8885020711684-1.png",
+        "productType": "Thermometers",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-disposable-ear-probe-ye20"
+      }
+    ],
+    "blocks": [],
+    "productIds": [
+      {
+        "id": "8885020711288",
+        "type": "SPR",
+        "fullId": "s8885020711288"
+      },
+      {
+        "id": "8885020711684-10",
+        "type": "SPR",
+        "fullId": "s8885020711684-10"
+      },
+      {
+        "id": "8885020711677",
+        "type": "SPR",
+        "fullId": "s8885020711677"
+      },
+      {
+        "id": "8885020711684",
+        "type": "SPR",
+        "fullId": "s8885020711684"
+      }
+    ]
+  },
+  {
+    "url": "/cn/zh/cat/walking-aid",
+    "id": "walking-aid",
+    "name": "Walking aids",
+    "description": "Browse BUZUD walking aid products.",
+    "total": 10,
+    "products": [
+      {
+        "id": "8885020710977",
+        "name": "Walking Aid QK913L",
+        "price": 99,
+        "image": "/images/products/buzud-8885020711837-1.png",
+        "productType": "Walking aids",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "walking-aid-qk913l"
+      },
+      {
+        "id": "8885020711905",
+        "name": "Crutches (Standard)",
+        "price": 27,
+        "image": "/images/products/buzud-8885020711882-1.png",
+        "productType": "Walking aids",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "crutches-standard"
+      },
+      {
+        "id": "8885020711844",
+        "name": "Foldable Walking Frame (Youth)",
+        "price": 49,
+        "image": "/images/products/buzud-8885020711837-1.png",
+        "productType": "Walking aids",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "foldable-walking-frame-youth"
+      },
+      {
+        "id": "8885020711875",
+        "name": "Crutches (Paediatric)",
+        "price": 29,
+        "image": "/images/products/buzud-8885020711882-1.png",
+        "productType": "Walking aids",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "crutches-paediatric"
+      },
+      {
+        "id": "8885020711899",
+        "name": "Crutches (Tall)",
+        "price": 27,
+        "image": "/images/products/buzud-8885020711882-1.png",
+        "productType": "Walking aids",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "crutches-tall"
+      },
+      {
+        "id": "8885020711950",
+        "name": "Walker Boot, Short ",
+        "price": 200,
+        "image": "/images/products/buzud-8885020711950-1.jpg",
+        "productType": "Walking aids",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "walker-boot-short"
+      },
+      {
+        "id": "8885020711837",
+        "name": "Foldable Walking Frame (Adult)",
+        "price": 49,
+        "image": "/images/products/buzud-8885020711837-1.png",
+        "productType": "Walking aids",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "foldable-walking-frame-adult"
+      },
+      {
+        "id": "8885020711943",
+        "name": "Walker Boot, Standard - Medium",
+        "price": 240,
+        "image": "/images/products/buzud-8885020711943-1.jpg",
+        "productType": "Walking aids",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "walker-boot-standard-medium"
+      },
+      {
+        "id": "8885020711936",
+        "name": "Elbow Crutches",
+        "price": 21.6,
+        "image": "/images/products/buzud-8885020711936-1.png",
+        "productType": "Walking aids",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "elbow-crutches"
+      },
+      {
+        "id": "8885020711882",
+        "name": "Crutches (Youth)",
+        "price": 27,
+        "image": "/images/products/buzud-8885020711882-1.png",
+        "productType": "Walking aids",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "crutches-youth"
+      }
+    ],
+    "blocks": [],
+    "productIds": [
+      {
+        "id": "8885020710977",
+        "type": "SPR",
+        "fullId": "s8885020710977"
+      },
+      {
+        "id": "8885020711905",
+        "type": "SPR",
+        "fullId": "s8885020711905"
+      },
+      {
+        "id": "8885020711844",
+        "type": "SPR",
+        "fullId": "s8885020711844"
+      },
+      {
+        "id": "8885020711875",
+        "type": "SPR",
+        "fullId": "s8885020711875"
+      },
+      {
+        "id": "8885020711899",
+        "type": "SPR",
+        "fullId": "s8885020711899"
+      },
+      {
+        "id": "8885020711950",
+        "type": "SPR",
+        "fullId": "s8885020711950"
+      },
+      {
+        "id": "8885020711837",
+        "type": "SPR",
+        "fullId": "s8885020711837"
+      },
+      {
+        "id": "8885020711943",
+        "type": "SPR",
+        "fullId": "s8885020711943"
+      },
+      {
+        "id": "8885020711936",
+        "type": "SPR",
+        "fullId": "s8885020711936"
+      },
+      {
+        "id": "8885020711882",
+        "type": "SPR",
+        "fullId": "s8885020711882"
+      }
+    ]
+  },
+  {
+    "url": "/cn/zh/cat/test-kit",
+    "id": "test-kit",
+    "name": "Rapid test kits",
+    "description": "Browse BUZUD rapid test kit products.",
+    "total": 14,
+    "products": [
+      {
+        "id": "8885020710595",
+        "name": "HCG Pregnancy Rapid Test",
+        "price": 4.8,
+        "image": "/images/products/buzud-8885020710595-1.jpg",
+        "productType": "Rapid test kits",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "hcg-pregnancy-rapid-test"
+      },
+      {
+        "id": "8885020710588",
+        "name": "H.pylori Antigen Rapid Test",
+        "price": 18,
+        "image": "/images/products/buzud-8885020710588-1.png",
+        "productType": "Rapid test kits",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "h-pylori-antigen-rapid-test"
+      },
+      {
+        "id": "8885020710656",
+        "name": "BUZUD Urinary Tract Infections Test For Self-Testing",
+        "price": 16,
+        "image": "/images/products/buzud-8885020710656-1.png",
+        "productType": "Rapid test kits",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-urinary-tract-infections-test-for-self-testing"
+      },
+      {
+        "id": "8885020710601",
+        "name": "Onestep FSH Urine Test",
+        "price": 28,
+        "image": "/images/products/buzud-8885020710601-1.jpg",
+        "productType": "Rapid test kits",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "onestep-fsh-urine-test"
+      },
+      {
+        "id": "8885020710649",
+        "name": "Vaginal pH Rapid Test Panel",
+        "price": 16,
+        "image": "/images/products/buzud-8885020710649-1.jpg",
+        "productType": "Rapid test kits",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "vaginal-ph-rapid-test-panel"
+      },
+      {
+        "id": "8885020710618",
+        "name": "LH Ovulation Rapid Test",
+        "price": 5.8,
+        "image": "/images/products/buzud-8885020710618-1.jpg",
+        "productType": "Rapid test kits",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "lh-ovulation-rapid-test"
+      },
+      {
+        "id": "8885020710625",
+        "name": "One-step Fecal Occult Blood Test",
+        "price": 18,
+        "image": "/images/products/buzud-8885020710625-1.png",
+        "productType": "Rapid test kits",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "one-step-fecal-occult-blood-test"
+      },
+      {
+        "id": "8885020710663",
+        "name": "SP-10 Male Fertility Rapid Test Cassette",
+        "price": 35,
+        "image": "/images/products/buzud-8885020710663-1.png",
+        "productType": "Rapid test kits",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "sp-10-male-fertility-rapid-test-cassette"
+      },
+      {
+        "id": "8885020711745",
+        "name": "BUZUD Influenza A&B Ag Rapid Test (Cassette) (1 test/box)",
+        "price": 8.7,
+        "image": "/images/products/buzud-8885020712315-1.png",
+        "productType": "Rapid test kits",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-influenza-aandb-ag-rapid-test-cassette-1-test-box"
+      },
+      {
+        "id": "8885020712209",
+        "name": "COVID-19/Flu A&B/RSV/Adeno Ag Combo Rapid Test Cassette (Swab) (1 test/box)",
+        "price": 17,
+        "image": "/images/products/buzud-8885020712209-1.jpg",
+        "productType": "Rapid test kits",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "covid-19-flu-aandb-rsv-adeno-ag-combo-rapid-test-cassette-swab-1-test-box"
+      },
+      {
+        "id": "8885020711738",
+        "name": "TSH Rapid Test Cassette (Whole Blood)",
+        "price": 22,
+        "image": "/images/products/buzud-8885020711738-1.png",
+        "productType": "Rapid test kits",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "tsh-rapid-test-cassette-whole-blood"
+      },
+      {
+        "id": "8885020712315",
+        "name": "BUZUD Influenza A&B Ag Rapid Test (Cassette) (5 test/box)",
+        "price": 43.5,
+        "image": "/images/products/buzud-8885020712315-1.png",
+        "productType": "Rapid test kits",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-influenza-aandb-ag-rapid-test-cassette-5-test-box"
+      },
+      {
+        "id": "8885020712391",
+        "name": "COVID-19/Flu A&B/RSV/Adeno Ag Combo Rapid Test Cassette (Swab) (5 tests/box)",
+        "price": 85,
+        "image": "/images/products/buzud-8885020712391-1.jpg",
+        "productType": "Rapid test kits",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "covid-19-flu-aandb-rsv-adeno-ag-combo-rapid-test-cassette-swab-5-tests-box"
+      },
+      {
+        "id": "8885020712865",
+        "name": "COVID-19/Flu A&B/RSV/Adeno Ag Combo Rapid Test Cassette (Swab) (20 tests/box)",
+        "price": 340,
+        "image": "/images/products/buzud-8885020712865-1.jpg",
+        "productType": "Rapid test kits",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "covid-19-flu-aandb-rsv-adeno-ag-combo-rapid-test-cassette-swab-20-tests-box"
+      }
+    ],
+    "blocks": [],
+    "productIds": [
+      {
+        "id": "8885020710595",
+        "type": "SPR",
+        "fullId": "s8885020710595"
+      },
+      {
+        "id": "8885020710588",
+        "type": "SPR",
+        "fullId": "s8885020710588"
+      },
+      {
+        "id": "8885020710656",
+        "type": "SPR",
+        "fullId": "s8885020710656"
+      },
+      {
+        "id": "8885020710601",
+        "type": "SPR",
+        "fullId": "s8885020710601"
+      },
+      {
+        "id": "8885020710649",
+        "type": "SPR",
+        "fullId": "s8885020710649"
+      },
+      {
+        "id": "8885020710618",
+        "type": "SPR",
+        "fullId": "s8885020710618"
+      },
+      {
+        "id": "8885020710625",
+        "type": "SPR",
+        "fullId": "s8885020710625"
+      },
+      {
+        "id": "8885020710663",
+        "type": "SPR",
+        "fullId": "s8885020710663"
+      },
+      {
+        "id": "8885020711745",
+        "type": "SPR",
+        "fullId": "s8885020711745"
+      },
+      {
+        "id": "8885020712209",
+        "type": "SPR",
+        "fullId": "s8885020712209"
+      },
+      {
+        "id": "8885020711738",
+        "type": "SPR",
+        "fullId": "s8885020711738"
+      },
+      {
+        "id": "8885020712315",
+        "type": "SPR",
+        "fullId": "s8885020712315"
+      },
+      {
+        "id": "8885020712391",
+        "type": "SPR",
+        "fullId": "s8885020712391"
+      },
+      {
+        "id": "8885020712865",
+        "type": "SPR",
+        "fullId": "s8885020712865"
+      }
+    ]
+  },
+  {
+    "url": "/cn/zh/cat/nasal-oxygen-cannula",
+    "id": "nasal-oxygen-cannula",
+    "name": "Nasal oxygen tubes",
+    "description": "Browse BUZUD nasal oxygen tube products.",
+    "total": 2,
+    "products": [
+      {
+        "id": "8885020710250",
+        "name": "Nasal Oxygen Cannula (5m) ",
+        "price": 17.75,
+        "image": "/images/products/buzud-8885020710243-1.png",
+        "productType": "Nasal oxygen tubes",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "nasal-oxygen-cannula-5m"
+      },
+      {
+        "id": "8885020710243",
+        "name": "Nasal Oxygen Cannula (2m)",
+        "price": 13.5,
+        "image": "/images/products/buzud-8885020710243-1.png",
+        "productType": "Nasal oxygen tubes",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "nasal-oxygen-cannula-2m"
+      }
+    ],
+    "blocks": [],
+    "productIds": [
+      {
+        "id": "8885020710250",
+        "type": "SPR",
+        "fullId": "s8885020710250"
+      },
+      {
+        "id": "8885020710243",
+        "type": "SPR",
+        "fullId": "s8885020710243"
+      }
+    ]
+  },
+  {
+    "url": "/cn/zh/cat/oxygen-concentrator",
+    "id": "oxygen-concentrator",
+    "name": "Oxygen concentrators",
+    "description": "Browse BUZUD oxygen concentrator products.",
+    "total": 6,
+    "products": [
+      {
+        "id": "8885020710014",
+        "name": "BUZUD Oxygen Concentrator SZ-5BW-10L",
+        "price": 5270,
+        "image": "/images/products/buzud-8885020710014-1.jpg",
+        "productType": "Oxygen concentrators",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-oxygen-concentrator-sz-5bw-10l"
+      },
+      {
+        "id": "8885020710007",
+        "name": "BUZUD Oxygen Concentrator SZ-5BW-5L",
+        "price": 2890,
+        "image": "/images/products/buzud-8885020710007-1.jpg",
+        "productType": "Oxygen concentrators",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-oxygen-concentrator-sz-5bw-5l"
+      },
+      {
+        "id": "8885020711417",
+        "name": "BUZUD Oxygen Concentrator 10FW-D",
+        "price": 4870,
+        "image": "/images/products/buzud-8885020711417-1.jpg",
+        "productType": "Oxygen concentrators",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-oxygen-concentrator-10fw-d"
+      },
+      {
+        "id": "8885020711400",
+        "name": "BUZUD Oxygen Concentrator 10FW",
+        "price": 4650,
+        "image": "/images/products/buzud-8885020711400-1.png",
+        "productType": "Oxygen concentrators",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-oxygen-concentrator-10fw"
+      },
+      {
+        "id": "8885020710519",
+        "name": "BUZUD Home-Use Oxygen Concentrator PRAGMATIC",
+        "price": 2980,
+        "image": "/images/products/buzud-8885020710519-1.jpg",
+        "productType": "Oxygen concentrators",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-home-use-oxygen-concentrator-pragmatic"
+      },
+      {
+        "id": "8885020712995",
+        "name": "Filter for BUZUD Oxygen Concentrator SZ-5BW",
+        "price": 56.6,
+        "image": "/images/products/buzud-8885020712995-1.jpg",
+        "productType": "Oxygen concentrators",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "filter-for-buzud-oxygen-concentrator-sz-5bw"
+      }
+    ],
+    "blocks": [],
+    "productIds": [
+      {
+        "id": "8885020710014",
+        "type": "SPR",
+        "fullId": "s8885020710014"
+      },
+      {
+        "id": "8885020710007",
+        "type": "SPR",
+        "fullId": "s8885020710007"
+      },
+      {
+        "id": "8885020711417",
+        "type": "SPR",
+        "fullId": "s8885020711417"
+      },
+      {
+        "id": "8885020711400",
+        "type": "SPR",
+        "fullId": "s8885020711400"
+      },
+      {
+        "id": "8885020710519",
+        "type": "SPR",
+        "fullId": "s8885020710519"
+      },
+      {
+        "id": "8885020712995",
+        "type": "SPR",
+        "fullId": "s8885020712995"
+      }
+    ]
+  },
+  {
+    "url": "/cn/zh/cat/high-flow-nasal-cannula",
+    "id": "high-flow-nasal-cannula",
+    "name": "High-flow nasal oxygen tube",
+    "description": "Browse BUZUD high-flow nasal oxygen tube products.",
+    "total": 2,
+    "products": [
+      {
+        "id": "8885020710236",
+        "name": "High-Flow Nasal Cannula NeoHiF-i5",
+        "price": 39680,
+        "image": "/images/products/buzud-8885020710229-1.jpg",
+        "productType": "High-flow nasal oxygen tube",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "high-flow-nasal-cannula-neohif-i5"
+      },
+      {
+        "id": "8885020710229",
+        "name": "High-Flow Nasal Cannula NeoHiF-i7",
+        "price": 53780,
+        "image": "/images/products/buzud-8885020710229-1.jpg",
+        "productType": "High-flow nasal oxygen tube",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "high-flow-nasal-cannula-neohif-i7"
+      }
+    ],
+    "blocks": [],
+    "productIds": [
+      {
+        "id": "8885020710236",
+        "type": "SPR",
+        "fullId": "s8885020710236"
+      },
+      {
+        "id": "8885020710229",
+        "type": "SPR",
+        "fullId": "s8885020710229"
+      }
+    ]
+  },
+  {
+    "url": "/cn/zh/cat/blood-glucose-test-strip",
+    "id": "blood-glucose-test-strip",
+    "name": "Blood glucose test strips",
+    "description": "Browse BUZUD blood glucose test strip products.",
+    "total": 6,
+    "products": [
+      {
+        "id": "8885020710328",
+        "name": "BUZUD Blood Glucose Test Strip (for Safe AQ UG and GlucoInsight Lite)",
+        "price": 48,
+        "image": "/images/products/buzud-8885020710861-2.png",
+        "productType": "Blood glucose test strips",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-blood-glucose-test-strip-for-safe-aq-ug-and-glucoinsight-lite"
+      },
+      {
+        "id": "8885020710908",
+        "name": "BUZUD Blood Glucose Test Strip set (for Safe AQ UG and GlucoInsight Lite)",
+        "price": 50,
+        "image": "/images/products/buzud-8885020710861-4.png",
+        "productType": "Blood glucose test strips",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-blood-glucose-test-strip-set-for-safe-aq-ug-and-glucoinsight-lite"
+      },
+      {
+        "id": "8885020712193",
+        "name": "BUZUD Uric Acid test strips (for Glucose, Ketone and Uric Acid meter)",
+        "price": 86,
+        "image": "/images/products/buzud-8885020712193-1.png",
+        "productType": "Blood glucose test strips",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-uric-acid-test-strips-for-glucose-ketone-and-uric-acid-meter"
+      },
+      {
+        "id": "8885020712186",
+        "name": "BUZUD Ketone test strips (for Glucose, Ketone and Uric Acid meter)",
+        "price": 77,
+        "image": "/images/products/buzud-8885020712186-1.png",
+        "productType": "Blood glucose test strips",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-ketone-test-strips-for-glucose-ketone-and-uric-acid-meter"
+      },
+      {
+        "id": "8885020712377",
+        "name": "BUZUD GlucoInsight Lite Test Strip (for GlucoInsight Lite and Safe AQ UG)",
+        "price": 48,
+        "image": "/images/products/buzud-8885020712377-1.png",
+        "productType": "Blood glucose test strips",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-glucoinsight-lite-test-strip-for-glucoinsight-lite-and-safe-aq-ug"
+      },
+      {
+        "id": "8885020712179",
+        "name": "BUZUD Glucose test strips (for GlucoInsight Plus and Glucose, Ketone and Uric Acid Meter)",
+        "price": 37,
+        "image": "/images/products/buzud-8885020712179-1.png",
+        "productType": "Blood glucose test strips",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-glucose-test-strips-for-glucoinsight-plus-and-glucose-ketone-and-uric-acid-meter"
+      }
+    ],
+    "blocks": [],
+    "productIds": [
+      {
+        "id": "8885020710328",
+        "type": "SPR",
+        "fullId": "s8885020710328"
+      },
+      {
+        "id": "8885020710908",
+        "type": "SPR",
+        "fullId": "s8885020710908"
+      },
+      {
+        "id": "8885020712193",
+        "type": "SPR",
+        "fullId": "s8885020712193"
+      },
+      {
+        "id": "8885020712186",
+        "type": "SPR",
+        "fullId": "s8885020712186"
+      },
+      {
+        "id": "8885020712377",
+        "type": "SPR",
+        "fullId": "s8885020712377"
+      },
+      {
+        "id": "8885020712179",
+        "type": "SPR",
+        "fullId": "s8885020712179"
+      }
+    ]
+  },
+  {
+    "url": "/cn/zh/cat/cgms",
+    "id": "cgms",
+    "name": "Continuous Glucose Monitoring System (CGMS)",
+    "description": "Browse BUZUD Continuous Glucose Monitoring System (CGMS) products.",
+    "total": 4,
+    "products": [
+      {
+        "id": "8885020711356-0",
+        "name": "BUZUD Continuous Glucose Monitoring System 180 days Advanced Plan",
+        "price": 827,
+        "image": "/images/products/buzud-8885020711363-0-1.jpg",
+        "productType": "Continuous Glucose Monitoring System (CGMS)",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-continuous-glucose-monitoring-system-180-days-advanced-plan"
+      },
+      {
+        "id": "8885020711349-0",
+        "name": "BUZUD Continuous Glucose Monitoring System 90 days Starter Plan",
+        "price": 495.9,
+        "image": "/images/products/buzud-8885020711394-1.jpg",
+        "productType": "Continuous Glucose Monitoring System (CGMS)",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-continuous-glucose-monitoring-system-90-days-starter-plan"
+      },
+      {
+        "id": "8885020711363-0",
+        "name": "BUZUD Continuous Glucose Monitoring System 365 days Premium Plan",
+        "price": 1527,
+        "image": "/images/products/buzud-8885020711363-0-1.jpg",
+        "productType": "Continuous Glucose Monitoring System (CGMS)",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-continuous-glucose-monitoring-system-365-days-premium-plan"
+      },
+      {
+        "id": "8885020711394",
+        "name": "BUZUD Continuous Glucose Monitoring System Sensor 2.0",
+        "price": 87,
+        "image": "/images/products/buzud-8885020711394-1.jpg",
+        "productType": "Continuous Glucose Monitoring System (CGMS)",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-continuous-glucose-monitoring-system-sensor-2-0"
+      }
+    ],
+    "blocks": [],
+    "productIds": [
+      {
+        "id": "8885020711356-0",
+        "type": "SPR",
+        "fullId": "s8885020711356-0"
+      },
+      {
+        "id": "8885020711349-0",
+        "type": "SPR",
+        "fullId": "s8885020711349-0"
+      },
+      {
+        "id": "8885020711363-0",
+        "type": "SPR",
+        "fullId": "s8885020711363-0"
+      },
+      {
+        "id": "8885020711394",
+        "type": "SPR",
+        "fullId": "s8885020711394"
+      }
+    ]
+  },
+  {
+    "url": "/cn/zh/cat/oxygen-nebulizer-tubing-and-mouthpiece",
+    "id": "oxygen-nebulizer-tubing-and-mouthpiece",
+    "name": "Oxygen nebulization tubing and mouthpiece",
+    "description": "Browse BUZUD oxygen nebulization tubing and mouthpiece products.",
+    "total": 1,
+    "products": [
+      {
+        "id": "8885020710304",
+        "name": "Oxygen Nebulizer Tubing and Mouthpiece",
+        "price": 27.05,
+        "image": "/images/products/buzud-8885020710304-1.png",
+        "productType": "Oxygen nebulization tubing and mouthpiece",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "oxygen-nebulizer-tubing-and-mouthpiece"
+      }
+    ],
+    "blocks": [],
+    "productIds": [
+      {
+        "id": "8885020710304",
+        "type": "SPR",
+        "fullId": "s8885020710304"
+      }
+    ]
+  },
+  {
+    "url": "/cn/zh/cat/transfer-chair",
+    "id": "transfer-chair",
+    "name": "Transfer chairs",
+    "description": "Browse BUZUD transfer chair products.",
+    "total": 2,
+    "products": [
+      {
+        "id": "8885020712469",
+        "name": "BUZUD Manual Transfer Chair ",
+        "price": 1780,
+        "image": "/images/products/buzud-8885020712469-1.jpg",
+        "productType": "Transfer chairs",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-manual-transfer-chair"
+      },
+      {
+        "id": "8885020711264",
+        "name": "Electric Transfer Wheelchair DY077602",
+        "price": 1780,
+        "image": "/images/products/buzud-8885020711264-1.jpg",
+        "productType": "Transfer chairs",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "electric-transfer-wheelchair-dy077602"
+      }
+    ],
+    "blocks": [],
+    "productIds": [
+      {
+        "id": "8885020712469",
+        "type": "SPR",
+        "fullId": "s8885020712469"
+      },
+      {
+        "id": "8885020711264",
+        "type": "SPR",
+        "fullId": "s8885020711264"
+      }
+    ]
+  },
+  {
+    "url": "/cn/zh/cat/oxygen-tubing-splitter",
+    "id": "oxygen-tubing-splitter",
+    "name": "Oxygen splitter",
+    "description": "Browse BUZUD oxygen splitter products.",
+    "total": 0,
+    "products": [],
+    "blocks": [],
+    "productIds": []
+  },
+  {
+    "url": "/cn/zh/cat/uric-acid-test-strip",
+    "id": "uric-acid-test-strip",
+    "name": "Uric acid test strips",
+    "description": "Browse BUZUD uric acid test strip products.",
+    "total": 2,
+    "products": [
+      {
+        "id": "8885020710335",
+        "name": "BUZUD Safe AQ UG Uric Acid Test Strip",
+        "price": 86,
+        "image": "/images/products/buzud-8885020710861-3.png",
+        "productType": "Uric acid test strips",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-safe-aq-ug-uric-acid-test-strip"
+      },
+      {
+        "id": "8885020710892",
+        "name": "BUZUD Safe AQ UG Uric Acid Test Strip and Lancet set",
+        "price": 88,
+        "image": "/images/products/buzud-8885020710861-4.png",
+        "productType": "Uric acid test strips",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-safe-aq-ug-uric-acid-test-strip-and-lancet-set"
+      }
+    ],
+    "blocks": [],
+    "productIds": [
+      {
+        "id": "8885020710335",
+        "type": "SPR",
+        "fullId": "s8885020710335"
+      },
+      {
+        "id": "8885020710892",
+        "type": "SPR",
+        "fullId": "s8885020710892"
+      }
+    ]
+  },
+  {
+    "url": "/cn/zh/cat/lipid-monitor-test-strip",
+    "id": "lipid-monitor-test-strip",
+    "name": "Lipid test strips",
+    "description": "Browse BUZUD lipid test strip products.",
+    "total": 1,
+    "products": [
+      {
+        "id": "8885020711165",
+        "name": "BUZUD Blood Lipid Test Strip PFS 30 (20 strips/box)",
+        "price": 108,
+        "image": "/images/products/buzud-8885020711165-1.jpg",
+        "productType": "Lipid test strips",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-blood-lipid-test-strip-pfs-30-20-strips-box"
+      }
+    ],
+    "blocks": [],
+    "productIds": [
+      {
+        "id": "8885020711165",
+        "type": "SPR",
+        "fullId": "s8885020711165"
+      }
+    ]
+  },
+  {
+    "url": "/cn/zh/cat/ventilator",
+    "id": "ventilator",
+    "name": "Ventilators",
+    "description": "Browse BUZUD ventilator products.",
+    "total": 0,
+    "products": [],
+    "blocks": [],
+    "productIds": []
+  },
+  {
+    "url": "/cn/zh/cat/blood-analyzer",
+    "id": "blood-analyzer",
+    "name": "Blood analyzer",
+    "description": "Browse BUZUD blood analyzer products.",
+    "total": 8,
+    "products": [
+      {
+        "id": "8885020712339",
+        "name": "GlucoInsight Plus meter",
+        "price": 53,
+        "image": "/images/products/buzud-8885020712339-1.png",
+        "productType": "Blood analyzer",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "glucoinsight-plus-meter"
+      },
+      {
+        "id": "8885020710311",
+        "name": "BUZUD Safe AQ UG Blood Glucose and Uric Acid Monitoring System single",
+        "price": 98,
+        "image": "/images/products/buzud-8885020710861-1.png",
+        "productType": "Blood analyzer",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-safe-aq-ug-blood-glucose-and-uric-acid-monitoring-system-single"
+      },
+      {
+        "id": "8885020710885",
+        "name": "BUZUD Safe AQ UG Blood Glucose Monitoring System Set",
+        "price": 68,
+        "image": "/images/products/buzud-8885020710861-1.png",
+        "productType": "Blood analyzer",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-safe-aq-ug-blood-glucose-monitoring-system-set"
+      },
+      {
+        "id": "8885020710878",
+        "name": "BUZUD Safe AQ UG Uric Acid Monitoring System Set",
+        "price": 108,
+        "image": "/images/products/buzud-8885020710861-1.png",
+        "productType": "Blood analyzer",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-safe-aq-ug-uric-acid-monitoring-system-set"
+      },
+      {
+        "id": "8885020710861",
+        "name": "BUZUD Safe AQ UG Blood Glucose and Uric Acid Monitoring System Set",
+        "price": 168,
+        "image": "/images/products/buzud-8885020710861-1.png",
+        "productType": "Blood analyzer",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-safe-aq-ug-blood-glucose-and-uric-acid-monitoring-system-set"
+      },
+      {
+        "id": "8885020712384",
+        "name": "GlucoInsight Lite set",
+        "price": 58.8,
+        "image": "/images/products/buzud-8885020712384-1.png",
+        "productType": "Blood analyzer",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "glucoinsight-lite-set"
+      },
+      {
+        "id": "8885020712162",
+        "name": "BUZUD Glucose, Ketone and Uric Acid Meter set",
+        "price": 97,
+        "image": "/images/products/buzud-8885020712162-1.png",
+        "productType": "Blood analyzer",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-glucose-ketone-and-uric-acid-meter-set"
+      },
+      {
+        "id": "capillary tubes (10pcs)",
+        "name": "BUZUD Capillary Tubes (10pcs)",
+        "price": 5,
+        "image": "/images/products/buzud-capillary-tubes-10pcs-1.jpg",
+        "productType": "Blood analyzer",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-capillary-tubes-10pcs"
+      }
+    ],
+    "blocks": [],
+    "productIds": [
+      {
+        "id": "8885020712339",
+        "type": "SPR",
+        "fullId": "s8885020712339"
+      },
+      {
+        "id": "8885020710311",
+        "type": "SPR",
+        "fullId": "s8885020710311"
+      },
+      {
+        "id": "8885020710885",
+        "type": "SPR",
+        "fullId": "s8885020710885"
+      },
+      {
+        "id": "8885020710878",
+        "type": "SPR",
+        "fullId": "s8885020710878"
+      },
+      {
+        "id": "8885020710861",
+        "type": "SPR",
+        "fullId": "s8885020710861"
+      },
+      {
+        "id": "8885020712384",
+        "type": "SPR",
+        "fullId": "s8885020712384"
+      },
+      {
+        "id": "8885020712162",
+        "type": "SPR",
+        "fullId": "s8885020712162"
+      },
+      {
+        "id": "capillary tubes (10pcs)",
+        "type": "SPR",
+        "fullId": "scapillary tubes (10pcs)"
+      }
+    ]
+  },
+  {
+    "url": "/cn/zh/cat/blood-pressure-monitor",
+    "id": "blood-pressure-monitor",
+    "name": "Blood pressure monitors",
+    "description": "Browse BUZUD blood pressure monitor products.",
+    "total": 8,
+    "products": [
+      {
+        "id": "8885020711097",
+        "name": "BUZUD Blood Pressure Monitor 30S",
+        "price": 78,
+        "image": "/images/products/buzud-8885020711097-1.png",
+        "productType": "Blood pressure monitors",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-blood-pressure-monitor-30s"
+      },
+      {
+        "id": "8885020711103",
+        "name": "BUZUD Blood Pressure Monitor 30C",
+        "price": 85,
+        "image": "/images/products/buzud-8885020711103-1.png",
+        "productType": "Blood pressure monitors",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-blood-pressure-monitor-30c"
+      },
+      {
+        "id": "8885020711080",
+        "name": "BUZUD Blood Pressure Monitor 30M",
+        "price": 85,
+        "image": "/images/products/buzud-8885020711080-1.png",
+        "productType": "Blood pressure monitors",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-blood-pressure-monitor-30m"
+      },
+      {
+        "id": "8885020710168",
+        "name": "Upper Arm Blood Pressure Monitor U82RH",
+        "price": 82,
+        "image": "/images/products/buzud-8885020710168-1.jpg",
+        "productType": "Blood pressure monitors",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "upper-arm-blood-pressure-monitor-u82rh"
+      },
+      {
+        "id": "8885020712803",
+        "name": "Blood Pressure Arm Cuff ",
+        "price": 24,
+        "image": "/images/products/buzud-8885020712803-1.jpg",
+        "productType": "Blood pressure monitors",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "blood-pressure-arm-cuff"
+      },
+      {
+        "id": "8885020710151",
+        "name": "Upper Arm Blood Pressure Monitor C02",
+        "price": 85,
+        "image": "/images/products/buzud-8885020710151-1.jpg",
+        "productType": "Blood pressure monitors",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "upper-arm-blood-pressure-monitor-c02"
+      },
+      {
+        "id": "8885020712841",
+        "name": "BUZUD Blood Pressure Monitor 630CR",
+        "price": 137,
+        "image": "/images/products/buzud-8885020712841-1.jpg",
+        "productType": "Blood pressure monitors",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-blood-pressure-monitor-630cr"
+      },
+      {
+        "id": "8885020710151-1",
+        "name": "BUZUD Blood Pressure Monitor Power Cable",
+        "price": 15,
+        "image": "/images/products/buzud-8885020710151-1-1.jpg",
+        "productType": "Blood pressure monitors",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-blood-pressure-monitor-power-cable"
+      }
+    ],
+    "blocks": [],
+    "productIds": [
+      {
+        "id": "8885020711097",
+        "type": "SPR",
+        "fullId": "s8885020711097"
+      },
+      {
+        "id": "8885020711103",
+        "type": "SPR",
+        "fullId": "s8885020711103"
+      },
+      {
+        "id": "8885020711080",
+        "type": "SPR",
+        "fullId": "s8885020711080"
+      },
+      {
+        "id": "8885020710168",
+        "type": "SPR",
+        "fullId": "s8885020710168"
+      },
+      {
+        "id": "8885020712803",
+        "type": "SPR",
+        "fullId": "s8885020712803"
+      },
+      {
+        "id": "8885020710151",
+        "type": "SPR",
+        "fullId": "s8885020710151"
+      },
+      {
+        "id": "8885020712841",
+        "type": "SPR",
+        "fullId": "s8885020712841"
+      },
+      {
+        "id": "8885020710151-1",
+        "type": "SPR",
+        "fullId": "s8885020710151-1"
+      }
+    ]
+  },
+  {
+    "url": "/cn/zh/cat/alcohol-swab",
+    "id": "alcohol-swab",
+    "name": "Alcohol swabs",
+    "description": "Browse BUZUD alcohol swab products.",
+    "total": 1,
+    "products": [
+      {
+        "id": "8885020711660",
+        "name": "BUZUD Alcohol Swab",
+        "price": 3,
+        "image": "/images/products/buzud-8885020711660-1.png",
+        "productType": "Alcohol swabs",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-alcohol-swab"
+      }
+    ],
+    "blocks": [],
+    "productIds": [
+      {
+        "id": "8885020711660",
+        "type": "SPR",
+        "fullId": "s8885020711660"
+      }
+    ]
+  },
+  {
+    "url": "/cn/zh/cat/respiratory-care",
+    "id": "respiratory-care",
+    "name": "Respiratory care",
+    "description": "Browse BUZUD respiratory care products.",
+    "total": 1,
+    "products": [
+      {
+        "id": "8885020711707",
+        "name": "BUZUD Air-compressing Nebulizer 407A",
+        "price": 117,
+        "image": "/images/products/buzud-8885020711707-1.png",
+        "productType": "Respiratory care",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-air-compressing-nebulizer-407a"
+      }
+    ],
+    "blocks": [],
+    "productIds": [
+      {
+        "id": "8885020711707",
+        "type": "SPR",
+        "fullId": "s8885020711707"
+      }
+    ]
+  },
+  {
+    "url": "/cn/zh/cat/hearing-aid",
+    "id": "hearing-aid",
+    "name": "Hearing aids",
+    "description": "Browse BUZUD hearing aid products.",
+    "total": 6,
+    "products": [
+      {
+        "id": "8885020710694",
+        "name": "Hearing Aid A51(black)",
+        "price": 4376,
+        "image": "/images/products/buzud-8885020710700-1.png",
+        "productType": "Hearing aids",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "hearing-aid-a51-black"
+      },
+      {
+        "id": "8885020710687",
+        "name": "Hearing Aid W6(white)",
+        "price": 3176,
+        "image": "/images/products/buzud-8885020710670-1.png",
+        "productType": "Hearing aids",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "hearing-aid-w6-white"
+      },
+      {
+        "id": "8885020710670",
+        "name": "Hearing Aid W6(black)",
+        "price": 3176,
+        "image": "/images/products/buzud-8885020710670-1.png",
+        "productType": "Hearing aids",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "hearing-aid-w6-black"
+      },
+      {
+        "id": "8885020710731",
+        "name": "Hearing Aids D26",
+        "price": 1398,
+        "image": "/images/products/buzud-8885020710731-1.png",
+        "productType": "Hearing aids",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "hearing-aids-d26"
+      },
+      {
+        "id": "8885020710724",
+        "name": "Hearing Aid W3",
+        "price": 1798,
+        "image": "/images/products/buzud-8885020710724-1.png",
+        "productType": "Hearing aids",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "hearing-aid-w3"
+      },
+      {
+        "id": "8885020710700",
+        "name": "Hearing Aid A51(white)",
+        "price": 4376,
+        "image": "/images/products/buzud-8885020710700-1.png",
+        "productType": "Hearing aids",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "hearing-aid-a51-white"
+      }
+    ],
+    "blocks": [],
+    "productIds": [
+      {
+        "id": "8885020710694",
+        "type": "SPR",
+        "fullId": "s8885020710694"
+      },
+      {
+        "id": "8885020710687",
+        "type": "SPR",
+        "fullId": "s8885020710687"
+      },
+      {
+        "id": "8885020710670",
+        "type": "SPR",
+        "fullId": "s8885020710670"
+      },
+      {
+        "id": "8885020710731",
+        "type": "SPR",
+        "fullId": "s8885020710731"
+      },
+      {
+        "id": "8885020710724",
+        "type": "SPR",
+        "fullId": "s8885020710724"
+      },
+      {
+        "id": "8885020710700",
+        "type": "SPR",
+        "fullId": "s8885020710700"
+      }
+    ]
+  },
+  {
+    "url": "/cn/zh/cat/wheelchair",
+    "id": "wheelchair",
+    "name": "Wheelchairs",
+    "description": "Browse BUZUD wheelchair products.",
+    "total": 9,
+    "products": [
+      {
+        "id": "8885020710946",
+        "name": "BUZUD Pushchair QK805LABJ",
+        "price": 790,
+        "image": "/images/products/buzud-8885020710946-1.jpg",
+        "productType": "Wheelchairs",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-pushchair-qk805labj"
+      },
+      {
+        "id": "8885020710939",
+        "name": "Electric Wheelchair QK110",
+        "price": 3120,
+        "image": "/images/products/buzud-8885020710939-1-1.jpg",
+        "productType": "Wheelchairs",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "electric-wheelchair-qk110"
+      },
+      {
+        "id": "8885020710939-1",
+        "name": "Additional Battery for the Electric Wheelchair QK110",
+        "price": 460,
+        "image": "/images/products/buzud-8885020710939-1-1.jpg",
+        "productType": "Wheelchairs",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "additional-battery-for-the-electric-wheelchair-qk110"
+      },
+      {
+        "id": "8885020710960",
+        "name": "Steel Wheelchair QK902C",
+        "price": 545,
+        "image": "/images/products/buzud-8885020710960-1.png",
+        "productType": "Wheelchairs",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "steel-wheelchair-qk902c"
+      },
+      {
+        "id": "8885020712216",
+        "name": "BUZUD Pediatric tilt-in-space wheelchair with built-in-growth QK966M",
+        "price": 950,
+        "image": "/images/products/buzud-8885020712216-1.jpg",
+        "productType": "Wheelchairs",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-pediatric-tilt-in-space-wheelchair-with-built-in-growth-qk966m"
+      },
+      {
+        "id": "8885020711509",
+        "name": "Wheelchair with 12 inch wheel",
+        "price": 520,
+        "image": "/images/products/buzud-8885020711509-1.png",
+        "productType": "Wheelchairs",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "wheelchair-with-12-inch-wheel"
+      },
+      {
+        "id": "8885020710953",
+        "name": "Steel Wheelchair QK608GC",
+        "price": 748,
+        "image": "/images/products/buzud-8885020710953-1.jpg",
+        "productType": "Wheelchairs",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "steel-wheelchair-qk608gc"
+      },
+      {
+        "id": "8885020711516",
+        "name": "Wheelchair with 16 inch wheel\t\t",
+        "price": 570,
+        "image": "/images/products/buzud-8885020711516-1.png",
+        "productType": "Wheelchairs",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "wheelchair-with-16-inch-wheel"
+      },
+      {
+        "id": "8885020712223",
+        "name": "BUZUD Pediatric Tilt & Recline Wheelchair QK958L",
+        "price": 950,
+        "image": "/images/products/buzud-8885020712223-1.jpg",
+        "productType": "Wheelchairs",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-pediatric-tilt-and-recline-wheelchair-qk958l"
+      }
+    ],
+    "blocks": [],
+    "productIds": [
+      {
+        "id": "8885020710946",
+        "type": "SPR",
+        "fullId": "s8885020710946"
+      },
+      {
+        "id": "8885020710939",
+        "type": "SPR",
+        "fullId": "s8885020710939"
+      },
+      {
+        "id": "8885020710939-1",
+        "type": "SPR",
+        "fullId": "s8885020710939-1"
+      },
+      {
+        "id": "8885020710960",
+        "type": "SPR",
+        "fullId": "s8885020710960"
+      },
+      {
+        "id": "8885020712216",
+        "type": "SPR",
+        "fullId": "s8885020712216"
+      },
+      {
+        "id": "8885020711509",
+        "type": "SPR",
+        "fullId": "s8885020711509"
+      },
+      {
+        "id": "8885020710953",
+        "type": "SPR",
+        "fullId": "s8885020710953"
+      },
+      {
+        "id": "8885020711516",
+        "type": "SPR",
+        "fullId": "s8885020711516"
+      },
+      {
+        "id": "8885020712223",
+        "type": "SPR",
+        "fullId": "s8885020712223"
+      }
+    ]
+  },
+  {
+    "url": "/cn/zh/cat/patient-monitor",
+    "id": "patient-monitor",
+    "name": "Patient monitor",
+    "description": "Browse BUZUD patient monitor products.",
+    "total": 3,
+    "products": [
+      {
+        "id": "8885020710427",
+        "name": "Multi-Parameter Patient Monitor 8000C",
+        "price": 2980,
+        "image": "/images/products/buzud-8885020710427-1.jpg",
+        "productType": "Patient monitor",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "multi-parameter-patient-monitor"
+      },
+      {
+        "id": "8885020710465",
+        "name": "Health Monitor Checkme Lite",
+        "price": 958,
+        "image": "/images/products/buzud-8885020710465-1.jpg",
+        "productType": "Patient monitor",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "health-monitor-checkme-lite"
+      },
+      {
+        "id": "8885020710465-1",
+        "name": "Health Monitor Checkme Lite - set of disposable ECG patches (10/pouch)",
+        "price": 30,
+        "image": "/images/products/buzud-8885020710465-1-1.png",
+        "productType": "Patient monitor",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "health-monitor-checkme-lite-set-of-disposable-ecg-patches-10-pouch"
+      }
+    ],
+    "blocks": [],
+    "productIds": [
+      {
+        "id": "8885020710427",
+        "type": "SPR",
+        "fullId": "s8885020710427"
+      },
+      {
+        "id": "8885020710465",
+        "type": "SPR",
+        "fullId": "s8885020710465"
+      },
+      {
+        "id": "8885020710465-1",
+        "type": "SPR",
+        "fullId": "s8885020710465-1"
+      }
+    ]
+  },
+  {
+    "url": "/cn/zh/cat/lancet",
+    "id": "lancet",
+    "name": "Lancets",
+    "description": "Browse BUZUD lancet products.",
+    "total": 3,
+    "products": [
+      {
+        "id": "8885020711592",
+        "name": "BUZUD Disposable Safety Lancets Flex 3 23G",
+        "price": 22.7,
+        "image": "/images/products/buzud-8885020711592-1.jpg",
+        "productType": "Lancets",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-disposable-safety-lancets-flex-3-23g"
+      },
+      {
+        "id": "8885020711615",
+        "name": "BUZUD Disposable Safety Lancets Flex 3 28G",
+        "price": 22.7,
+        "image": "/images/products/buzud-8885020711615-1.jpg",
+        "productType": "Lancets",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-disposable-safety-lancets-flex-3-28g"
+      },
+      {
+        "id": "8885020710748",
+        "name": "BUZUD Safe AQ UG Lancet 28G (for use with Safe AQ UG and GlucoInsight)",
+        "price": 6,
+        "image": "/images/products/buzud-8885020710861-4.png",
+        "productType": "Lancets",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-safe-aq-ug-lancet-28g-for-use-with-safe-aq-ug-and-glucoinsight"
+      }
+    ],
+    "blocks": [],
+    "productIds": [
+      {
+        "id": "8885020711592",
+        "type": "SPR",
+        "fullId": "s8885020711592"
+      },
+      {
+        "id": "8885020711615",
+        "type": "SPR",
+        "fullId": "s8885020711615"
+      },
+      {
+        "id": "8885020710748",
+        "type": "SPR",
+        "fullId": "s8885020710748"
+      }
+    ]
+  },
+  {
+    "url": "/cn/zh/cat/smart-watch",
+    "id": "smart-watch",
+    "name": "Smart watches",
+    "description": "Browse BUZUD smart watch products.",
+    "total": 7,
+    "products": [
+      {
+        "id": "8885020710816",
+        "name": "Smartwatch Generous(Lightning Silver)",
+        "price": 668,
+        "image": "/images/products/buzud-8885020710830-1.png",
+        "productType": "Smart watches",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "smartwatch-generous-lightning-silver"
+      },
+      {
+        "id": "8885020710786",
+        "name": "Smartwatch Generous(Dawn Gold)",
+        "price": 668,
+        "image": "/images/products/buzud-8885020710830-1.png",
+        "productType": "Smart watches",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "smartwatch-generous-dawn-gold"
+      },
+      {
+        "id": "8885020710793",
+        "name": "Smartwatch Generous(Cosmic Black)",
+        "price": 668,
+        "image": "/images/products/buzud-8885020710830-1.png",
+        "productType": "Smart watches",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "smartwatch-generous-cosmic-black"
+      },
+      {
+        "id": "8885020710823",
+        "name": "Smartwatch Generous(Rainbow Gold)",
+        "price": 668,
+        "image": "/images/products/buzud-8885020710830-1.png",
+        "productType": "Smart watches",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "smartwatch-generous-rainbow-gold"
+      },
+      {
+        "id": "8885020710809",
+        "name": "Smartwatch Generous(Star Grey)",
+        "price": 668,
+        "image": "/images/products/buzud-8885020710830-1.png",
+        "productType": "Smart watches",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "smartwatch-generous-star-grey"
+      },
+      {
+        "id": "8885020710830",
+        "name": "Smartwatch Generous(Star Silver)",
+        "price": 668,
+        "image": "/images/products/buzud-8885020710830-1.png",
+        "productType": "Smart watches",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "smartwatch-generous-star-silver"
+      },
+      {
+        "id": "8885020712582",
+        "name": "BUZUD Watch Vibrance",
+        "price": 237,
+        "image": "/images/products/buzud-8885020712582-1.jpg",
+        "productType": "Smart watches",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-watch-vibrance"
+      }
+    ],
+    "blocks": [],
+    "productIds": [
+      {
+        "id": "8885020710816",
+        "type": "SPR",
+        "fullId": "s8885020710816"
+      },
+      {
+        "id": "8885020710786",
+        "type": "SPR",
+        "fullId": "s8885020710786"
+      },
+      {
+        "id": "8885020710793",
+        "type": "SPR",
+        "fullId": "s8885020710793"
+      },
+      {
+        "id": "8885020710823",
+        "type": "SPR",
+        "fullId": "s8885020710823"
+      },
+      {
+        "id": "8885020710809",
+        "type": "SPR",
+        "fullId": "s8885020710809"
+      },
+      {
+        "id": "8885020710830",
+        "type": "SPR",
+        "fullId": "s8885020710830"
+      },
+      {
+        "id": "8885020712582",
+        "type": "SPR",
+        "fullId": "s8885020712582"
+      }
+    ]
+  },
+  {
+    "url": "/cn/zh/cat/aed",
+    "id": "aed",
+    "name": "Automated External Defibrillator (AED)",
+    "description": "Browse BUZUD Automated External Defibrillator (AED) products.",
+    "total": 1,
+    "products": [
+      {
+        "id": "8885020712858",
+        "name": "Battery pack for BUZUD Automatic External Defibrillator 7000",
+        "price": 200,
+        "image": "/images/products/buzud-8885020712858-1.jpg",
+        "productType": "Automated External Defibrillator (AED)",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "battery-pack-for-buzud-automatic-external-defibrillator-7000"
+      }
+    ],
+    "blocks": [],
+    "productIds": [
+      {
+        "id": "8885020712858",
+        "type": "SPR",
+        "fullId": "s8885020712858"
+      }
+    ]
+  },
+  {
+    "url": "/cn/zh/cat/body-composition-scale",
+    "id": "body-composition-scale",
+    "name": "Body composition scale",
+    "description": "Browse BUZUD body composition scale products.",
+    "total": 4,
+    "products": [
+      {
+        "id": "8885020711424",
+        "name": "BUZUD Home Body Composition Scale CF577",
+        "price": 397,
+        "image": "/images/products/buzud-8885020711424-1.png",
+        "productType": "Body composition scale",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-home-body-composition-scale-cf577"
+      },
+      {
+        "id": "8885020712599",
+        "name": "BUZUD Ultrasonic Height and Weight Body Fat Scale CP30G",
+        "price": 990,
+        "image": "/images/products/buzud-8885020712599-1.png",
+        "productType": "Body composition scale",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-ultrasonic-height-and-weight-body-fat-scale-cp30g"
+      },
+      {
+        "id": "8885020711448",
+        "name": "BUZUD Home Body Composition Scale CF509",
+        "price": 37,
+        "image": "/images/products/buzud-8885020711448-1.jpg",
+        "productType": "Body composition scale",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-home-body-composition-scale-cf509"
+      },
+      {
+        "id": "8885020711431",
+        "name": "BUZUD Home Body Composition Scale CF586",
+        "price": 167,
+        "image": "/images/products/buzud-8885020711431-1.png",
+        "productType": "Body composition scale",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-home-body-composition-scale-cf586"
+      }
+    ],
+    "blocks": [],
+    "productIds": [
+      {
+        "id": "8885020711424",
+        "type": "SPR",
+        "fullId": "s8885020711424"
+      },
+      {
+        "id": "8885020712599",
+        "type": "SPR",
+        "fullId": "s8885020712599"
+      },
+      {
+        "id": "8885020711448",
+        "type": "SPR",
+        "fullId": "s8885020711448"
+      },
+      {
+        "id": "8885020711431",
+        "type": "SPR",
+        "fullId": "s8885020711431"
+      }
+    ]
+  },
+  {
+    "url": "/cn/zh/cat/physical-therapy",
+    "id": "physical-therapy",
+    "name": "Rehabilitation therapy",
+    "description": "Browse BUZUD rehabilitation therapy products.",
+    "total": 7,
+    "products": [
+      {
+        "id": "8885020711240",
+        "name": "BUZUD Hand Function Rehabilitation Training System SRH 200 Premium",
+        "price": 1980,
+        "image": "/images/products/buzud-8885020712957-1.jpg",
+        "productType": "Rehabilitation therapy",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-hand-function-rehabilitation-training-system-srh-200-premium"
+      },
+      {
+        "id": "8885020711257",
+        "name": "BUZUD Hand Function Rehabilitation Training System SRH 300 Desktop",
+        "price": 4980,
+        "image": "/images/products/buzud-8885020711257-1.jpg",
+        "productType": "Rehabilitation therapy",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-hand-function-rehabilitation-training-system-srh-300-desktop"
+      },
+      {
+        "id": "8885020712971",
+        "name": "BUZUD Hand Function Rehabilitation Training System Glove (Large) - Driver (Left hand)",
+        "price": 787,
+        "image": "/images/products/buzud-8885020712957-1.jpg",
+        "productType": "Rehabilitation therapy",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-hand-function-rehabilitation-training-system-srh-200-premium-glove-driver"
+      },
+      {
+        "id": "8885020711233",
+        "name": "BUZUD Hand Function Rehabilitation Training System SRH 200 Basic",
+        "price": 1280,
+        "image": "/images/products/buzud-8885020711233-1.jpg",
+        "productType": "Rehabilitation therapy",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-hand-function-rehabilitation-training-system-srh-200-basic"
+      },
+      {
+        "id": "8885020712957",
+        "name": "BUZUD Hand Function Rehabilitation Training System Glove (Large) - Passive (Left hand)",
+        "price": 587,
+        "image": "/images/products/buzud-8885020712957-1.jpg",
+        "productType": "Rehabilitation therapy",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-hand-function-rehabilitation-training-system-srh-200-premium-glove-passive"
+      },
+      {
+        "id": "8885020712964",
+        "name": "BUZUD Hand Function Rehabilitation Training System Glove (Large) - Passive (Right hand)",
+        "price": 587,
+        "image": "/images/products/buzud-8885020712988-1.jpg",
+        "productType": "Rehabilitation therapy",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-hand-function-rehabilitation-training-system-glove-large-passive-right-hand"
+      },
+      {
+        "id": "8885020712988",
+        "name": "BUZUD Hand Function Rehabilitation Training System Glove (Large) - Driver (Right hand)",
+        "price": 787,
+        "image": "/images/products/buzud-8885020712988-1.jpg",
+        "productType": "Rehabilitation therapy",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-hand-function-rehabilitation-training-system-glove-large-driver-right-hand"
+      }
+    ],
+    "blocks": [],
+    "productIds": [
+      {
+        "id": "8885020711240",
+        "type": "SPR",
+        "fullId": "s8885020711240"
+      },
+      {
+        "id": "8885020711257",
+        "type": "SPR",
+        "fullId": "s8885020711257"
+      },
+      {
+        "id": "8885020712971",
+        "type": "SPR",
+        "fullId": "s8885020712971"
+      },
+      {
+        "id": "8885020711233",
+        "type": "SPR",
+        "fullId": "s8885020711233"
+      },
+      {
+        "id": "8885020712957",
+        "type": "SPR",
+        "fullId": "s8885020712957"
+      },
+      {
+        "id": "8885020712964",
+        "type": "SPR",
+        "fullId": "s8885020712964"
+      },
+      {
+        "id": "8885020712988",
+        "type": "SPR",
+        "fullId": "s8885020712988"
+      }
+    ]
+  },
+  {
+    "url": "/cn/zh/cat/pulse-oximeter",
+    "id": "pulse-oximeter",
+    "name": "Pulse oximeter",
+    "description": "Browse BUZUD pulse oximeter products.",
+    "total": 4,
+    "products": [
+      {
+        "id": "8885020711479",
+        "name": "BUZUD Fingertip Pulse Oximeter 70B",
+        "price": 57,
+        "image": "/images/products/buzud-8885020711479-1.png",
+        "productType": "Pulse oximeter",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-fingertip-pulse-oximeter-70b"
+      },
+      {
+        "id": "8885020711486",
+        "name": "BUZUD Fingertip Pulse Oximeter 10I",
+        "price": 47,
+        "image": "/images/products/buzud-8885020711486-1.png",
+        "productType": "Pulse oximeter",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-fingertip-pulse-oximeter-10i"
+      },
+      {
+        "id": "8885020711462",
+        "name": "BUZUD Fingertip Pulse Oximeter 20D",
+        "price": 67,
+        "image": "/images/products/buzud-8885020711462-1.png",
+        "productType": "Pulse oximeter",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-fingertip-pulse-oximeter-20d"
+      },
+      {
+        "id": "8885020711493",
+        "name": "BUZUD Fingertip Pulse Oximeter 70C",
+        "price": 37,
+        "image": "/images/products/buzud-8885020711493-1.png",
+        "productType": "Pulse oximeter",
+        "designText": null,
+        "measureText": null,
+        "url": null,
+        "seoSlug": "buzud-fingertip-pulse-oximeter-70c"
+      }
+    ],
+    "blocks": [],
+    "productIds": [
+      {
+        "id": "8885020711479",
+        "type": "SPR",
+        "fullId": "s8885020711479"
+      },
+      {
+        "id": "8885020711486",
+        "type": "SPR",
+        "fullId": "s8885020711486"
+      },
+      {
+        "id": "8885020711462",
+        "type": "SPR",
+        "fullId": "s8885020711462"
+      },
+      {
+        "id": "8885020711493",
+        "type": "SPR",
+        "fullId": "s8885020711493"
+      }
+    ]
+  }
+]

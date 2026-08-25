@@ -1,6 +1,7 @@
 "use client"
 
 import { useCallback, useEffect, useState } from "react"
+import { useTranslation } from "react-i18next"
 import {
   adminFetch,
   ConfirmButton,
@@ -19,6 +20,7 @@ interface Favorite {
 }
 
 export default function FavoritesPage() {
+  const { t } = useTranslation()
   const { notice, show } = useNotice()
   const [favorites, setFavorites] = useState<Favorite[] | null>(null)
   const [error, setError] = useState<string | null>(null)
@@ -40,15 +42,15 @@ export default function FavoritesPage() {
 
   const clear = async (userId: string) => {
     await adminFetch(`/api/admin/server/favorites/${userId}`, { method: "DELETE" })
-    show("success", "收藏已清空")
+    show("success", t("admin.favorites.cleared"))
     await load()
   }
 
   return (
     <div>
       <PageHeader
-        title="收藏管理"
-        description="查看/清空用户收藏的商品（Spring Boot + PostgreSQL 持久化）。"
+        title={t("admin.favorites.title")}
+        description={t("admin.favorites.desc")}
       />
       <NoticeArea notice={notice} />
       {error ? (
@@ -58,16 +60,18 @@ export default function FavoritesPage() {
       ) : null}
       <div className="overflow-hidden rounded-lg border border-ikea-gray-200 bg-white">
         {!favorites ? (
-          <Loading label="连接运营服务…" />
+          <Loading label={t("admin.users.loading")} />
         ) : favorites.length === 0 ? (
-          <EmptyState>暂无收藏数据</EmptyState>
+          <EmptyState>{t("admin.favorites.empty")}</EmptyState>
         ) : (
           <table className="w-full text-left text-sm">
             <thead className="border-b border-ikea-gray-200 bg-ikea-gray-50 text-xs text-ikea-muted">
               <tr>
-                <th className="px-5 py-3 font-medium">用户</th>
-                <th className="px-5 py-3 font-medium">收藏商品</th>
-                <th className="px-5 py-3 text-right font-medium">操作</th>
+                <th className="px-5 py-3 font-medium">{t("admin.favorites.colUser")}</th>
+                <th className="px-5 py-3 font-medium">{t("admin.favorites.colProducts")}</th>
+                <th className="px-5 py-3 text-right font-medium">
+                  {t("admin.common.colActions")}
+                </th>
               </tr>
             </thead>
             <tbody className="divide-y divide-ikea-gray-200">
@@ -75,7 +79,7 @@ export default function FavoritesPage() {
                 <tr key={favorite.userId} className="hover:bg-ikea-gray-50">
                   <td className="px-5 py-3">
                     <div className="font-medium text-ikea-black">
-                      {favorite.user?.name ?? "未知用户"}
+                      {favorite.user?.name ?? t("admin.orders.unknownUser")}
                     </div>
                     <div className="text-xs text-ikea-muted">{favorite.userId}</div>
                   </td>
@@ -90,7 +94,9 @@ export default function FavoritesPage() {
                     ))}
                   </td>
                   <td className="px-5 py-3 text-right">
-                    <ConfirmButton onConfirm={() => clear(favorite.userId)}>清空收藏</ConfirmButton>
+                    <ConfirmButton onConfirm={() => clear(favorite.userId)}>
+                      {t("admin.favorites.clearFavorites")}
+                    </ConfirmButton>
                   </td>
                 </tr>
               ))}

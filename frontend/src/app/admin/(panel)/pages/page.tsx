@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react"
 import Link from "next/link"
+import { useTranslation } from "react-i18next"
 import {
   adminFetch,
   Button,
@@ -26,18 +27,18 @@ interface Families {
   count: number
 }
 
-const FAMILY_LABEL: Record<string, string> = {
-  "customer-service": "客户服务",
-  company: "公司介绍",
-  legal: "法律与条款",
-  root: "首页",
-}
-
 function keyFor(url: string): string {
   return btoa(unescape(encodeURIComponent(url)))
 }
 
 export default function PagesPage() {
+  const { t } = useTranslation()
+  const FAMILY_LABEL: Record<string, string> = {
+    "customer-service": t("admin.pages.familyCustomerService"),
+    company: t("admin.pages.familyCompany"),
+    legal: t("admin.pages.familyLegal"),
+    root: t("admin.pages.familyRoot"),
+  }
   const [family, setFamily] = useState("")
   const [query, setQuery] = useState("")
   const [families, setFamilies] = useState<Families[]>([])
@@ -61,26 +62,28 @@ export default function PagesPage() {
   return (
     <div>
       <PageHeader
-        title="页面内容"
-        description="管理全部内容页面（房间、灵感、活动、客服、门店、新闻等），可编辑区块化内容。"
+        title={t("admin.pages.title")}
+        description={t("admin.pages.desc")}
         actions={
           <Link href="/admin/pages/new">
-            <Button>新建页面</Button>
+            <Button>{t("admin.pages.new")}</Button>
           </Link>
         }
       />
 
       <div className="mb-4 flex flex-wrap items-center gap-3">
         <Select value={family} onChange={(e) => setFamily(e.target.value)} className="w-52">
-          <option value="">全部栏目</option>
+          <option value="">{t("admin.pages.allFamilies")}</option>
           {families.map((f) => (
             <option key={f.name} value={f.name}>
               {FAMILY_LABEL[f.name] ?? f.name}（{f.count}）
             </option>
           ))}
         </Select>
-        <SearchBox value={query} onChange={setQuery} placeholder="搜索标题 / URL…" />
-        <span className="text-xs text-ikea-muted">{items ? `共 ${items.length} 个页面` : ""}</span>
+        <SearchBox value={query} onChange={setQuery} placeholder={t("admin.pages.searchPlaceholder")} />
+        <span className="text-xs text-ikea-muted">
+          {items ? t("admin.pages.count", { count: items.length }) : ""}
+        </span>
       </div>
 
       {error ? (
@@ -93,15 +96,17 @@ export default function PagesPage() {
         {!items ? (
           <Loading />
         ) : items.length === 0 ? (
-          <EmptyState>没有找到页面</EmptyState>
+          <EmptyState>{t("admin.pages.empty")}</EmptyState>
         ) : (
           <table className="w-full text-left text-sm">
             <thead className="border-b border-ikea-gray-200 bg-ikea-gray-50 text-xs text-ikea-muted">
               <tr>
-                <th className="px-5 py-3 font-medium">标题</th>
-                <th className="px-5 py-3 font-medium">栏目</th>
+                <th className="px-5 py-3 font-medium">{t("admin.pages.colTitle")}</th>
+                <th className="px-5 py-3 font-medium">{t("admin.pages.colFamily")}</th>
                 <th className="px-5 py-3 font-medium">URL</th>
-                <th className="px-5 py-3 text-right font-medium">操作</th>
+                <th className="px-5 py-3 text-right font-medium">
+                  {t("admin.common.colActions")}
+                </th>
               </tr>
             </thead>
             <tbody className="divide-y divide-ikea-gray-200">
@@ -119,7 +124,7 @@ export default function PagesPage() {
                     </span>
                     {page.source === "legacy" ? (
                       <span className="ml-1.5 rounded bg-amber-100 px-2 py-0.5 text-xs text-amber-700">
-                        兜底
+                        {t("admin.pages.fallbackBadge")}
                       </span>
                     ) : null}
                   </td>
@@ -131,7 +136,7 @@ export default function PagesPage() {
                       href={`/admin/pages/${keyFor(page.url)}`}
                       className="text-xs font-medium text-ikea-blue hover:underline"
                     >
-                      编辑
+                      {t("admin.products.edit")}
                     </Link>
                   </td>
                 </tr>

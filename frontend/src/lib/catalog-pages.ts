@@ -1,32 +1,33 @@
 import type { CatalogPageData } from "@/data/pages-types";
-import { loadDataJson } from "@/lib/data-files";
+import { loadLocalizedData } from "@/lib/data-files";
+import { DEFAULT_LOCALE, type Locale } from "@/i18n/config";
 
-let builtFor: CatalogPageData[] | null = null;
-let catalogPageList: CatalogPageData[] = [];
-let catalogPageBySlug = new Map<string, CatalogPageData>();
+const builtFor = new Map<Locale, CatalogPageData[]>();
+const catalogPageBySlug = new Map<Locale, Map<string, CatalogPageData>>();
 
-function ensureIndexes(): void {
-  const current = loadDataJson<CatalogPageData[]>("catalog-pages/all.json");
-  if (builtFor === current) return;
-  builtFor = current;
-  catalogPageList = current;
-  catalogPageBySlug = new Map<string, CatalogPageData>();
+function ensureIndexes(locale: Locale): void {
+  if (builtFor.has(locale)) return;
+  const current = loadLocalizedData<CatalogPageData[]>("catalog-pages/all.json", locale);
+  builtFor.set(locale, current);
+  const bySlug = new Map<string, CatalogPageData>();
   for (const page of current) {
     const slug = page.url.split("/").filter(Boolean).at(-1) ?? "";
-    if (slug) catalogPageBySlug.set(slug, page);
+    if (slug) bySlug.set(slug, page);
   }
+  catalogPageBySlug.set(locale, bySlug);
 }
 
-export function catalogPages(): CatalogPageData[] {
-  ensureIndexes();
-  return catalogPageList;
+export function catalogPages(locale: Locale = DEFAULT_LOCALE): CatalogPageData[] {
+  ensureIndexes(locale);
+  return builtFor.get(locale) ?? [];
 }
 
 export function findCatalogPageBySlug(
   slug: string,
+  locale: Locale = DEFAULT_LOCALE,
 ): CatalogPageData | undefined {
-  ensureIndexes();
-  return catalogPageBySlug.get(slug);
+  ensureIndexes(locale);
+  return catalogPageBySlug.get(locale)?.get(slug);
 }
 
 /** Product page slug built the same way the live site builds it. */

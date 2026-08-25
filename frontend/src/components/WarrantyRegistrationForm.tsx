@@ -1,24 +1,48 @@
 "use client"
 
 import { useState } from "react"
+import { useTranslation } from "react-i18next"
 
 type RegistrationResponse = {
   id: string
 }
 
-const fields = [
-  ["customerName", "姓名", "请输入姓名", "text"],
-  ["phone", "手机号", "请输入手机号", "tel"],
-  ["email", "邮箱", "请输入邮箱", "email"],
-  ["purchaseDate", "购买日期", "请选择购买日期", "date"],
-  ["productName", "商品名称", "请输入商品名称", "text"],
-  ["model", "型号 / SKU", "请输入型号或 SKU", "text"],
-  ["invoiceNo", "发票号", "请输入发票号", "text"],
-] as const
-
-type FormKey = (typeof fields)[number][0] | "note"
+type FormKey =
+  | "customerName"
+  | "phone"
+  | "email"
+  | "purchaseDate"
+  | "productName"
+  | "model"
+  | "invoiceNo"
+  | "note"
 
 export function WarrantyRegistrationForm() {
+  const { t } = useTranslation()
+  const fields: [FormKey, string, string, string][] = [
+    ["customerName", t("warrantyForm.nameLabel"), t("warrantyForm.namePlaceholder"), "text"],
+    ["phone", t("warrantyForm.phoneLabel"), t("warrantyForm.phonePlaceholder"), "tel"],
+    ["email", t("warrantyForm.emailLabel"), t("warrantyForm.emailPlaceholder"), "email"],
+    [
+      "purchaseDate",
+      t("warrantyForm.purchaseDateLabel"),
+      t("warrantyForm.purchaseDatePlaceholder"),
+      "date",
+    ],
+    [
+      "productName",
+      t("warrantyForm.productNameLabel"),
+      t("warrantyForm.productNamePlaceholder"),
+      "text",
+    ],
+    ["model", t("warrantyForm.modelLabel"), t("warrantyForm.modelPlaceholder"), "text"],
+    [
+      "invoiceNo",
+      t("warrantyForm.invoiceNoLabel"),
+      t("warrantyForm.invoiceNoPlaceholder"),
+      "text",
+    ],
+  ]
   const [form, setForm] = useState<Record<FormKey, string>>({
     customerName: "",
     phone: "",
@@ -50,15 +74,15 @@ export function WarrantyRegistrationForm() {
         !form.productName.trim() ||
         !form.purchaseDate.trim()
       ) {
-        setError("请填写姓名、联系方式、商品名称和购买日期")
+        setError(t("warrantyForm.incomplete"))
         return
       }
       if (!/^1\d{10}$/.test(form.phone.trim())) {
-        setError("请输入正确的 11 位手机号")
+        setError(t("warrantyForm.invalidPhone"))
         return
       }
       if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email.trim())) {
-        setError("请输入正确的邮箱")
+        setError(t("warrantyForm.invalidEmail"))
         return
       }
 
@@ -71,12 +95,12 @@ export function WarrantyRegistrationForm() {
         | (RegistrationResponse & { error?: string })
         | null
       if (!response.ok || !data) {
-        setError(data?.error ?? "提交失败，请稍后重试")
+        setError(data?.error ?? t("warrantyForm.submitFailed"))
         return
       }
       setSuccessId(data.id)
     } catch (ex) {
-      setError(ex instanceof Error ? ex.message : "提交失败，请稍后重试")
+      setError(ex instanceof Error ? ex.message : t("warrantyForm.submitFailed"))
     } finally {
       setSubmitting(false)
     }
@@ -85,11 +109,11 @@ export function WarrantyRegistrationForm() {
   if (successId) {
     return (
       <div className="mt-8 rounded bg-ikea-gray-100 px-6 py-8 text-center">
-        <h2 className="text-xl font-bold">注册成功</h2>
+        <h2 className="text-xl font-bold">{t("warrantyForm.successTitle")}</h2>
         <p className="mt-2 text-sm text-ikea-muted">
-          您的保修登记编号为 {successId}，请截图或记录保存。
+          {t("warrantyForm.successBody", { id: successId })}
         </p>
-        <p className="mt-1 text-sm text-ikea-muted">如需人工协助，请联系 +65 6518 9979。</p>
+        <p className="mt-1 text-sm text-ikea-muted">{t("warrantyForm.successHelp")}</p>
       </div>
     )
   }
@@ -109,9 +133,9 @@ export function WarrantyRegistrationForm() {
         </label>
       ))}
       <label className="block md:col-span-2">
-        <span className="mb-1.5 block text-sm font-bold">备注</span>
+        <span className="mb-1.5 block text-sm font-bold">{t("warrantyForm.noteLabel")}</span>
         <textarea
-          placeholder="其他需要说明的信息（选填）"
+          placeholder={t("warrantyForm.notePlaceholder")}
           value={form.note}
           onChange={update("note")}
           rows={4}
@@ -133,7 +157,9 @@ export function WarrantyRegistrationForm() {
           className="i-btn i-btn--primary h-11 w-full text-sm font-bold text-white disabled:cursor-not-allowed disabled:opacity-40 md:w-auto md:px-16"
         >
           <span className="i-btn__inner">
-            <span className="i-btn__label">{submitting ? "提交中…" : "提交保修注册"}</span>
+            <span className="i-btn__label">
+              {submitting ? t("warrantyForm.submitting") : t("warrantyForm.submit")}
+            </span>
           </span>
         </button>
       </div>

@@ -2,6 +2,7 @@
 
 import Link from "next/link"
 import { useMemo, useRef, useState } from "react"
+import { useTranslation } from "react-i18next"
 import { SearchIcon } from "@/components/icons"
 
 interface HotLink {
@@ -26,6 +27,7 @@ export function SupportSearchHero({
   placeholder,
   faqTexts,
 }: SupportSearchHeroProps) {
+  const { t } = useTranslation()
   const questions = useMemo(() => {
     const out: string[] = []
     for (let i = 0; i + 1 < faqTexts.length; i += 2) {
@@ -110,7 +112,7 @@ export function SupportSearchHero({
                     setFocused(false)
                   }
                 }}
-                placeholder={placeholder ?? "搜索常见问题，如：保修、配送、退换货"}
+                placeholder={placeholder ?? t("support.searchPlaceholder")}
                 className="min-w-0 flex-1 bg-transparent text-sm text-ikea-black outline-none placeholder:text-ikea-muted/60"
               />
               <button
@@ -118,7 +120,7 @@ export function SupportSearchHero({
                 onClick={submit}
                 className="inline-flex h-10 shrink-0 items-center rounded-full bg-ikea-yellow px-5 text-xs font-bold text-ikea-black transition-colors hover:bg-ikea-black hover:text-white"
               >
-                搜索
+                {t("support.searchAria")}
               </button>
             </div>
 
@@ -148,22 +150,22 @@ export function SupportSearchHero({
 
             {focused && q && suggestions.length === 0 ? (
               <div className="absolute inset-x-0 top-full z-20 mt-2 rounded-xl bg-white p-5 text-left text-sm text-ikea-muted shadow-lg ring-1 ring-ikea-gray-200">
-                未找到匹配的常见问题，可
+                {t("support.noFaqPrefix")}
                 <Link
                   href="/cn/zh/customer-service/contact-us/"
                   className="mx-1 font-bold text-ikea-blue underline underline-offset-4"
                   onMouseDown={(event) => event.preventDefault()}
                 >
-                  联系客服
+                  {t("support.contactSupport")}
                 </Link>
-                获取帮助。
+                {t("support.getHelpSuffix")}
               </div>
             ) : null}
           </div>
 
           {hotLinks.length > 0 ? (
             <div className="mt-6 flex flex-wrap items-center justify-center gap-2">
-              <span className="text-xs text-white/70">热门服务：</span>
+              <span className="text-xs text-white/70">{t("support.hotServices")}</span>
               {hotLinks.map((link) => (
                 <Link
                   key={link.href}

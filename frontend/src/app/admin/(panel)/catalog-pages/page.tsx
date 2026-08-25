@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import { useTranslation } from "react-i18next";
 import {
   adminFetch,
   Button,
@@ -23,6 +24,7 @@ function slugOf(url: string): string {
 }
 
 export default function CatalogPagesPage() {
+  const { t } = useTranslation();
   const [items, setItems] = useState<CatalogPageItem[] | null>(null);
   const [error, setError] = useState<string | null>(null);
 
@@ -42,11 +44,11 @@ export default function CatalogPagesPage() {
   return (
     <div>
       <PageHeader
-        title="分类落地页"
-        description="管理分类页 / 频道页的标题、描述、区块与推荐商品。"
+        title={t("admin.catalogPages.title")}
+        description={t("admin.catalogPages.desc")}
         actions={
           <Link href="/admin/catalog-pages/new">
-            <Button>新建落地页</Button>
+            <Button>{t("admin.catalogPages.new")}</Button>
           </Link>
         }
       />
@@ -59,16 +61,18 @@ export default function CatalogPagesPage() {
         {!items ? (
           <Loading />
         ) : items.length === 0 ? (
-          <EmptyState>暂无落地页</EmptyState>
+          <EmptyState>{t("admin.catalogPages.empty")}</EmptyState>
         ) : (
           <table className="w-full text-left text-sm">
             <thead className="border-b border-ikea-gray-200 bg-ikea-gray-50 text-xs text-ikea-muted">
               <tr>
-                <th className="px-5 py-3 font-medium">名称</th>
-                <th className="px-5 py-3 font-medium">描述</th>
-                <th className="px-5 py-3 font-medium">商品数</th>
+                <th className="px-5 py-3 font-medium">{t("admin.catalogPages.colName")}</th>
+                <th className="px-5 py-3 font-medium">{t("admin.catalogPages.colDesc")}</th>
+                <th className="px-5 py-3 font-medium">{t("admin.catalogPages.colProducts")}</th>
                 <th className="px-5 py-3 font-medium">URL</th>
-                <th className="px-5 py-3 text-right font-medium">操作</th>
+                <th className="px-5 py-3 text-right font-medium">
+                  {t("admin.common.colActions")}
+                </th>
               </tr>
             </thead>
             <tbody className="divide-y divide-ikea-gray-200">
@@ -87,7 +91,7 @@ export default function CatalogPagesPage() {
                       href={`/admin/catalog-pages/${slugOf(page.url)}`}
                       className="text-xs font-medium text-ikea-blue hover:underline"
                     >
-                      编辑
+                      {t("admin.products.edit")}
                     </Link>
                   </td>
                 </tr>

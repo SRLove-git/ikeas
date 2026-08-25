@@ -1,0 +1,869 @@
+[
+  {
+    "url": "/cn/zh/customer-service",
+    "family": "customer-service",
+    "id": "cn--zh--buzud-customer-service",
+    "title": "Customer service",
+    "name": "Customer service",
+    "hero": null,
+    "blocks": [
+      {
+        "type": "support-search-hero",
+        "title": "How can we help you?",
+        "texts": [
+          "BUZUD Customer Service",
+          "We provide one-stop support for delivery, after-sales, warranty and health experiences. Popular questions can be searched directly below."
+        ],
+        "images": [],
+        "links": [
+          {
+            "href": "/cn/zh/customer-service/warranty-registration/",
+            "text": "Warranty registration"
+          },
+          {
+            "href": "/cn/zh/customer-service/services/delivery/",
+            "text": "Delivery service"
+          },
+          {
+            "href": "/cn/zh/customer-service/services/aftersales/",
+            "text": "After-sales service"
+          },
+          {
+            "href": "/cn/zh/customer-service/services/privileges/",
+            "text": "Exclusive benefits"
+          },
+          {
+            "href": "/cn/zh/customer-service/contact-us/#stores",
+            "text": "Store locator"
+          }
+        ],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": "buzud-support-hero",
+          "placeholder": "Search common questions, e.g. warranty, delivery, returns"
+        }
+      },
+      {
+        "type": "pub-text",
+        "title": "More quick services",
+        "texts": [],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": "buzud-support-quick-title"
+        }
+      },
+      {
+        "type": "support-quick-services",
+        "title": null,
+        "texts": [],
+        "images": [],
+        "links": [],
+        "items": [
+          {
+            "title": "Warranty registration",
+            "text": "Register your product for official warranty",
+            "href": "/cn/zh/customer-service/warranty-registration/",
+            "icon": "shield"
+          },
+          {
+            "title": "Order tracking",
+            "text": "Check order and delivery status",
+            "href": "/cn/zh/profile/my-orders/",
+            "icon": "box"
+          },
+          {
+            "title": "Delivery service",
+            "text": "Local and overseas delivery",
+            "href": "/cn/zh/customer-service/services/delivery/",
+            "icon": "truck"
+          },
+          {
+            "title": "After-sales service",
+            "text": "Repairs, exchanges and returns",
+            "href": "/cn/zh/customer-service/services/aftersales/",
+            "icon": "wrench"
+          },
+          {
+            "title": "Exclusive benefits",
+            "text": "Health experience programs",
+            "href": "/cn/zh/customer-service/services/privileges/",
+            "icon": "gift"
+          },
+          {
+            "title": "Health talks",
+            "text": "In-store health knowledge talks; inquiries and participation welcome",
+            "href": "/cn/zh/customer-service/contact-us/",
+            "icon": "document"
+          },
+          {
+            "title": "Store locator",
+            "text": "Three experience stores in Singapore",
+            "href": "/cn/zh/customer-service/contact-us/#stores",
+            "icon": "store"
+          },
+          {
+            "title": "Contact us",
+            "text": "Hotline, WhatsApp and email",
+            "href": "/cn/zh/customer-service/contact-us/",
+            "icon": "phone"
+          },
+          {
+            "title": "FAQs",
+            "text": "Quick access to FAQs",
+            "href": "/cn/zh/customer-service/#faq",
+            "icon": "chat"
+          }
+        ],
+        "productIds": [],
+        "settings": {
+          "traceId": "buzud-support-quick"
+        }
+      },
+      {
+        "type": "pub-text",
+        "title": "Service guarantee",
+        "texts": [],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": "buzud-support-assurances-title"
+        }
+      },
+      {
+        "type": "support-assurances",
+        "title": null,
+        "texts": [],
+        "images": [],
+        "links": [],
+        "items": [
+          {
+            "title": "Authenticity guarantee",
+            "text": "Officially authorized BUZUD health products",
+            "icon": "shield"
+          },
+          {
+            "title": "Official warranty",
+            "text": "Register your warranty to enjoy warranty service",
+            "icon": "badge"
+          },
+          {
+            "title": "Fast response",
+            "text": "Timely responses via hotline and email on business days",
+            "icon": "clock"
+          },
+          {
+            "title": "Professional after-sales",
+            "text": "Experience stores provide immediate on-site repairs",
+            "icon": "wrench"
+          }
+        ],
+        "productIds": [],
+        "settings": {
+          "traceId": "buzud-support-assurances"
+        }
+      },
+      {
+        "type": "pub-text",
+        "title": "Service guide",
+        "texts": [],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": "buzud-support-guides-title"
+        }
+      },
+      {
+        "type": "pub-page-list",
+        "title": null,
+        "texts": [],
+        "images": [],
+        "links": [],
+        "items": [
+          {
+            "title": "Delivery service",
+            "text": "",
+            "image": "/images/cms/buzud-service-delivery.png",
+            "href": "/cn/zh/customer-service/services/delivery/"
+          },
+          {
+            "title": "After-sales service",
+            "text": "",
+            "image": "/images/cms/buzud-service-aftersales.png",
+            "href": "/cn/zh/customer-service/services/aftersales/"
+          },
+          {
+            "title": "Exclusive benefits",
+            "text": "",
+            "image": "/images/cms/buzud-service-privileges.png",
+            "href": "/cn/zh/customer-service/services/privileges/"
+          }
+        ],
+        "productIds": [],
+        "settings": {
+          "traceId": "buzud-support-guides"
+        }
+      },
+      {
+        "type": "support-faq",
+        "title": "FAQs",
+        "texts": [
+          "How long does delivery take?",
+          "Orders are usually delivered within 3–7 business days. For local delivery, you can contact store customer service to confirm the specific timing.",
+          "How do I contact BUZUD customer service?",
+          "You can call +65 6518 9979 / +65 6518 9269, email customerservice@chungyip.com, or visit our experience stores in Singapore.",
+          "Do you support returns and exchanges?",
+          "Repair and exchange services are available both within and beyond the warranty period. In the event of manufacturing or quality issues, you can bring the product and invoice to a store for assistance.",
+          "How do I register product warranty?",
+          "Visit the warranty registration page, fill in the product information to complete registration, and keep your invoice safe after submitting.",
+          "What health experiences do stores offer?",
+          "You can enjoy services such as oxygen therapy revitalization, body composition analysis, blood glucose/lipid/uric acid analysis and blood pressure testing. Visit a store to book an experience."
+        ],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": "buzud-support-faq",
+          "sectionId": "faq",
+          "placeholder": "Search common questions, e.g. warranty, delivery, returns"
+        }
+      },
+      {
+        "type": "support-contact-banner",
+        "title": "Get help",
+        "texts": [
+          "Our customer service hotline and online agents will respond to you as soon as possible during working hours. Feel free to contact us anytime."
+        ],
+        "images": [
+          "/images/cms/buzud-hero-1-wide.jpg"
+        ],
+        "links": [
+          {
+            "href": "/cn/zh/customer-service/contact-us/",
+            "text": "Contact us"
+          },
+          {
+            "href": "tel:+6565189979",
+            "text": "Call the hotline"
+          }
+        ],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": "buzud-support-contact"
+        }
+      }
+    ]
+  },
+  {
+    "url": "/cn/zh/customer-service/services/delivery/",
+    "family": "customer-service",
+    "id": "cn--zh--buzud-delivery",
+    "title": "Delivery service",
+    "name": "Delivery service",
+    "hero": null,
+    "blocks": [
+      {
+        "type": "pub-page-title",
+        "title": null,
+        "texts": [
+          "Delivery service"
+        ],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
+        }
+      },
+      {
+        "type": "pub-text",
+        "title": null,
+        "texts": [
+          "We can arrange local and overseas* delivery for all our products. To learn more or arrange delivery, feel free to call us or consult our store staff.",
+          "*Overseas delivery covers most countries and regions, excluding countries subject to trade sanctions with Singapore."
+        ],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
+        }
+      },
+      {
+        "type": "pub-assurances",
+        "title": null,
+        "texts": [],
+        "images": [],
+        "links": [],
+        "items": [
+          {
+            "title": "Local delivery",
+            "text": "Islandwide delivery across Singapore",
+            "image": "/images/products/buzud-8885020711103.png",
+            "href": "/cn/zh/customer-service/services/delivery/",
+            "backgroundColor": null
+          },
+          {
+            "title": "Overseas delivery",
+            "text": "Covers most regions worldwide",
+            "image": "/images/products/buzud-8885020710595.png",
+            "href": "/cn/zh/customer-service/services/delivery/",
+            "backgroundColor": null
+          },
+          {
+            "title": "Store pickup inquiries",
+            "text": "Visit a store to arrange delivery and collection",
+            "image": "/images/products/buzud-8885020712582.png",
+            "href": "/cn/zh/customer-service/contact-us/",
+            "backgroundColor": null
+          },
+          {
+            "title": "Arranged by a specialist",
+            "text": "Call us or visit a store for personal assistance",
+            "image": "/images/products/buzud-8885020711448.png",
+            "href": "/cn/zh/customer-service/contact-us/",
+            "backgroundColor": null
+          }
+        ],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
+        }
+      },
+      {
+        "type": "pub-text",
+        "title": null,
+        "texts": [
+          "Need delivery arranged? Contact our customer service team."
+        ],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
+        }
+      },
+      {
+        "type": "pub-button-link",
+        "title": null,
+        "texts": [],
+        "images": [],
+        "links": [
+          {
+            "href": "/cn/zh/customer-service/contact-us/",
+            "text": "Contact customer service"
+          }
+        ],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": "buzud-delivery-cta"
+        }
+      }
+    ]
+  },
+  {
+    "url": "/cn/zh/customer-service/services/aftersales/",
+    "family": "customer-service",
+    "id": "cn--zh--buzud-aftersales",
+    "title": "After-sales service",
+    "name": "After-sales service",
+    "hero": null,
+    "blocks": [
+      {
+        "type": "pub-page-title",
+        "title": null,
+        "texts": [
+          "After-sales service"
+        ],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
+        }
+      },
+      {
+        "type": "pub-text",
+        "title": null,
+        "texts": [
+          "Our after-sales service covers repair and exchange services both within and beyond the warranty period. In the event of manufacturing or product quality issues, customers can contact us or bring any BUZUD product (together with the invoice) to a store for repair or exchange. We provide on-site immediate repair services; if the product cannot be repaired on the spot, we will provide a temporary replacement device, send the faulty product for repair, or replace it with a brand-new unit."
+        ],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
+        }
+      },
+      {
+        "type": "pub-assurances",
+        "title": null,
+        "texts": [],
+        "images": [],
+        "links": [],
+        "items": [
+          {
+            "title": "In-warranty repairs",
+            "text": "Free repair and exchange within the warranty period",
+            "image": "/images/products/buzud-8885020711677.png",
+            "href": "/cn/zh/customer-service/services/aftersales/",
+            "backgroundColor": null
+          },
+          {
+            "title": "Out-of-warranty repairs",
+            "text": "Out-of-warranty products can also be repaired or exchanged",
+            "image": "/images/products/buzud-8885020711097.png",
+            "href": "/cn/zh/customer-service/services/aftersales/",
+            "backgroundColor": null
+          },
+          {
+            "title": "Immediate on-site repair",
+            "text": "On-site repair services available at stores",
+            "image": "/images/products/buzud-8885020710151.png",
+            "href": "/cn/zh/customer-service/contact-us/",
+            "backgroundColor": null
+          },
+          {
+            "title": "Temporary replacement device",
+            "text": "Backup devices provided when on-site repair is not possible",
+            "image": "/images/products/buzud-8885020711448.png",
+            "href": "/cn/zh/customer-service/contact-us/",
+            "backgroundColor": null
+          }
+        ],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
+        }
+      },
+      {
+        "type": "pub-text",
+        "title": null,
+        "texts": [
+          "Remember to complete warranty registration on the official website to enjoy official warranty coverage."
+        ],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
+        }
+      },
+      {
+        "type": "pub-button-link",
+        "title": null,
+        "texts": [],
+        "images": [],
+        "links": [
+          {
+            "href": "/cn/zh/customer-service/warranty-registration/",
+            "text": "Go to warranty registration"
+          }
+        ],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": "buzud-warranty-cta"
+        }
+      }
+    ]
+  },
+  {
+    "url": "/cn/zh/customer-service/services/privileges/",
+    "family": "customer-service",
+    "id": "cn--zh--buzud-privileges",
+    "title": "Exclusive benefits",
+    "name": "Exclusive benefits",
+    "hero": null,
+    "blocks": [
+      {
+        "type": "pub-page-title",
+        "title": null,
+        "texts": [
+          "Exclusive benefits"
+        ],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
+        }
+      },
+      {
+        "type": "pub-text",
+        "title": null,
+        "texts": [
+          "Welcome to learn about CHUNG YIP's exclusive benefits. Visit a store to experience health monitoring services such as oxygen therapy revitalization, body composition analysis, blood glucose/lipid/uric acid analysis and blood pressure testing. Appointments are welcome."
+        ],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
+        }
+      },
+      {
+        "type": "pub-page-title",
+        "title": null,
+        "texts": [
+          "Health experience programs"
+        ],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
+        }
+      },
+      {
+        "type": "pub-assurances",
+        "title": null,
+        "texts": [],
+        "images": [],
+        "links": [],
+        "items": [
+          {
+            "title": "Experience A",
+            "text": "Oxygen therapy revitalization · Body composition analysis · Blood glucose + uric acid analysis · Blood pressure testing",
+            "image": "/images/products/buzud-8885020711448.png",
+            "href": "/cn/zh/customer-service/contact-us/",
+            "backgroundColor": null
+          },
+          {
+            "title": "Experience B",
+            "text": "Oxygen therapy revitalization · Body composition analysis · Blood glucose + lipid analysis · Blood pressure testing",
+            "image": "/images/products/buzud-8885020710151.png",
+            "href": "/cn/zh/customer-service/contact-us/",
+            "backgroundColor": null
+          },
+          {
+            "title": "Store address",
+            "text": "585 North Bridge Road #01-02 Raffles Hospital",
+            "image": "/images/products/buzud-8885020712582.png",
+            "href": "/cn/zh/customer-service/contact-us/",
+            "backgroundColor": null
+          },
+          {
+            "title": "Shop now",
+            "text": "Visit the mall to shop BUZUD health products",
+            "image": "/images/products/buzud-8885020710595.png",
+            "href": "/cn/zh/all-products/",
+            "backgroundColor": null
+          }
+        ],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
+        }
+      },
+      {
+        "type": "pub-button-link",
+        "title": null,
+        "texts": [],
+        "images": [],
+        "links": [
+          {
+            "href": "/cn/zh/all-products/",
+            "text": "Shop now"
+          }
+        ],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": "buzud-privileges-cta"
+        }
+      }
+    ]
+  },
+  {
+    "url": "/cn/zh/customer-service/contact-us/",
+    "family": "customer-service",
+    "id": "cn--zh--buzud-contact-us",
+    "title": "Contact us",
+    "name": "Contact us",
+    "hero": null,
+    "blocks": [
+      {
+        "type": "corporate-text",
+        "title": "Quick contact",
+        "texts": [
+          "Choose the contact method that suits you best; we will respond as soon as possible during working hours."
+        ],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": "buzud-contact-channels-intro"
+        }
+      },
+      {
+        "type": "contact-channels",
+        "title": null,
+        "texts": [],
+        "images": [],
+        "links": [],
+        "items": [
+          {
+            "title": "Customer service hotline / WhatsApp",
+            "text": "+65 83811666\nMon–Fri 9am–8pm; Sat–Sun 10am–7pm",
+            "image": null,
+            "href": "tel:+6583811666",
+            "icon": "phone",
+            "backgroundColor": null
+          },
+          {
+            "title": "Online chat / email",
+            "text": "customerservice@chungyip.com\nWe reply online on business days; feel free to contact us anytime about after-sales issues",
+            "image": null,
+            "href": "mailto:customerservice@chungyip.com",
+            "icon": "email",
+            "backgroundColor": null
+          },
+          {
+            "title": "In-store experience",
+            "text": "Three experience stores in Singapore\nHealth testing and product experiences available by appointment",
+            "image": null,
+            "href": "/cn/zh/customer-service/contact-us/#stores",
+            "icon": "store",
+            "backgroundColor": null
+          },
+          {
+            "title": "Feedback",
+            "text": "We welcome your valuable suggestions\nHelp us continuously improve our products and services",
+            "image": null,
+            "href": "mailto:customerservice@chungyip.com?subject=%E6%84%8F%E8%A7%81%E5%8F%8D%E9%A6%88",
+            "icon": "feedback",
+            "backgroundColor": null
+          }
+        ],
+        "productIds": [],
+        "settings": {
+          "traceId": "buzud-contact-channels"
+        }
+      },
+      {
+        "type": "corporate-text",
+        "title": "Stores and experience centres",
+        "texts": [
+          "Welcome to visit a store for health testing and product consultation — all three experience stores provide professional services."
+        ],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": "buzud-contact-stores-intro"
+        }
+      },
+      {
+        "type": "contact-channels",
+        "title": null,
+        "texts": [],
+        "images": [],
+        "links": [],
+        "items": [
+          {
+            "title": "Raffles Hospital",
+            "text": "585 North Bridge Road, #01-02, Singapore 188770\nMon–Fri 9am–8pm; Sat–Sun 10am–7pm\nTel/WhatsApp: +65 6518 9979",
+            "image": null,
+            "href": "tel:+6565189979",
+            "icon": "store",
+            "backgroundColor": null
+          },
+          {
+            "title": "Novena Square 2",
+            "text": "10 Sinaran Dr, #03-21, Singapore 307506\nMon–Fri 9am–8pm; Sat–Sun 10am–7pm\nTel/WhatsApp: +65 6518 9269",
+            "image": null,
+            "href": "tel:+6565189269",
+            "icon": "store",
+            "backgroundColor": null
+          },
+          {
+            "title": "PARKROYAL on Beach Road",
+            "text": "7500 Beach Road, Level 4, Singapore 199591\nDaily 11am–8pm\nTel/WhatsApp: +65 9888 3885",
+            "image": null,
+            "href": "tel:+6598883885",
+            "icon": "store",
+            "backgroundColor": null
+          }
+        ],
+        "productIds": [],
+        "settings": {
+          "traceId": "buzud-contact-stores",
+          "sectionId": "stores"
+        }
+      },
+      {
+        "type": "contact-list",
+        "title": "Other contact matters",
+        "texts": [
+          "Choose the contact channel that suits your needs. We promise to keep your inquiries strictly confidential."
+        ],
+        "images": [],
+        "links": [],
+        "items": [
+          {
+            "title": "Business cooperation",
+            "text": "Distributors, healthcare institutions and corporate customers are welcome to discuss cooperation; please contact us via the customer service email.",
+            "image": null,
+            "href": "mailto:customerservice@chungyip.com?subject=%E5%95%86%E5%8A%A1%E5%90%88%E4%BD%9C",
+            "icon": "partner",
+            "backgroundColor": null
+          },
+          {
+            "title": "Careers",
+            "text": "For job-related inquiries, please send an email to careers@chungyip.com.",
+            "image": null,
+            "href": "mailto:careers@chungyip.com",
+            "icon": "careers",
+            "backgroundColor": null
+          },
+          {
+            "title": "Feedback",
+            "text": "If you have any suggestions about our products or website, feel free to leave us a message.",
+            "image": null,
+            "href": "mailto:customerservice@chungyip.com?subject=%E6%84%8F%E8%A7%81%E5%8F%8D%E9%A6%88",
+            "icon": "feedback",
+            "backgroundColor": null
+          },
+          {
+            "title": "Reporting & compliance",
+            "text": "If you discover suspected violations or improper conduct, you can report them to us via the customer service email. We promise strict confidentiality.",
+            "image": null,
+            "href": "mailto:customerservice@chungyip.com?subject=%E4%B8%BE%E6%8A%A5%E4%B8%8E%E5%90%88%E8%A7%84",
+            "icon": "report",
+            "backgroundColor": null
+          },
+          {
+            "title": "Fax",
+            "text": "+65 83811666",
+            "image": null,
+            "href": "tel:+6583811666",
+            "icon": "fax",
+            "backgroundColor": null
+          }
+        ],
+        "productIds": [],
+        "settings": {
+          "traceId": "buzud-contact-matters"
+        }
+      },
+      {
+        "type": "contact-list",
+        "title": "More help",
+        "texts": [
+          "The pages below can help you quickly resolve common questions."
+        ],
+        "images": [],
+        "links": [],
+        "items": [
+          {
+            "title": "Customer service overview",
+            "text": "One-stop service for health talks, orders and FAQs",
+            "image": null,
+            "href": "/cn/zh/customer-service/",
+            "icon": "document",
+            "backgroundColor": null
+          },
+          {
+            "title": "Delivery service",
+            "text": "Delivery arrangements for local and international orders",
+            "image": null,
+            "href": "/cn/zh/customer-service/services/delivery/",
+            "icon": "document",
+            "backgroundColor": null
+          },
+          {
+            "title": "After-sales service",
+            "text": "Customer service inquiries, warranty and return/exchange support",
+            "image": null,
+            "href": "/cn/zh/customer-service/services/aftersales/",
+            "icon": "document",
+            "backgroundColor": null
+          },
+          {
+            "title": "Exclusive benefits",
+            "text": "Exclusive banking partner offers and health experiences",
+            "image": null,
+            "href": "/cn/zh/customer-service/services/privileges/",
+            "icon": "document",
+            "backgroundColor": null
+          },
+          {
+            "title": "Warranty registration",
+            "text": "Register your product to enjoy official warranty",
+            "image": null,
+            "href": "/cn/zh/customer-service/warranty-registration/",
+            "icon": "document",
+            "backgroundColor": null
+          }
+        ],
+        "productIds": [],
+        "settings": {
+          "traceId": "buzud-contact-help"
+        }
+      },
+      {
+        "type": "pub-expandable-area",
+        "title": null,
+        "texts": [
+          "How long does delivery take?",
+          "Orders are usually delivered within 3–7 business days. For local delivery, you can contact store customer service to confirm the specific timing.",
+          "How do I contact CHUNG YIP customer service?",
+          "You can call +65 6518 9979 / +65 6518 9269, email customerservice@chungyip.com, or visit our experience stores in Singapore.",
+          "Do you support returns and exchanges?",
+          "Repair and exchange services are available both within and beyond the warranty period. In the event of manufacturing or quality issues, you can bring the product and invoice to a store for assistance.",
+          "How do I register product warranty?",
+          "Visit the warranty registration page and fill in the product information to complete registration.",
+          "What health experiences do stores offer?",
+          "You can enjoy services such as oxygen therapy revitalization, body composition analysis, blood glucose/lipid/uric acid analysis and blood pressure testing. Visit a store to book an experience."
+        ],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": "buzud-contact-faq"
+        }
+      },
+      {
+        "type": "pub-button-link",
+        "title": null,
+        "texts": [],
+        "images": [],
+        "links": [
+          {
+            "href": "mailto:customerservice@chungyip.com",
+            "text": "Send email"
+          }
+        ],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": "buzud-contact-cta"
+        }
+      }
+    ],
+    "subtitle": "If you have any questions about BUZUD products, after-sales service or business cooperation, please contact us through these channels."
+  }
+]

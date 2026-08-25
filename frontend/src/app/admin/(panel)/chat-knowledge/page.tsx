@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 import {
   adminFetch,
   Button,
@@ -26,23 +27,23 @@ interface KnowledgeBase {
   defaultReply: string;
 }
 
-const RULE_SCHEMA: Schema = {
-  fields: [
-    { key: "id", label: "规则 ID", kind: { type: "text" } },
-    {
-      key: "keywords",
-      label: "关键词",
-      kind: { type: "stringList", placeholder: "触发关键词" },
-    },
-    { key: "reply", label: "回复内容", kind: { type: "textarea" } },
-  ],
-};
-
 export default function ChatKnowledgePage() {
+  const { t } = useTranslation();
   const { notice, show } = useNotice();
   const [data, setData] = useState<KnowledgeBase | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [saving, setSaving] = useState(false);
+  const RULE_SCHEMA: Schema = {
+    fields: [
+      { key: "id", label: t("admin.chatKnowledge.ruleId"), kind: { type: "text" } },
+      {
+        key: "keywords",
+        label: t("admin.chatKnowledge.keywords"),
+        kind: { type: "stringList", placeholder: t("admin.chatKnowledge.keywordPlaceholder") },
+      },
+      { key: "reply", label: t("admin.chatKnowledge.reply"), kind: { type: "textarea" } },
+    ],
+  };
 
   useEffect(() => {
     void (async () => {
@@ -58,7 +59,7 @@ export default function ChatKnowledgePage() {
   if (!data) {
     return error ? (
       <div className="max-w-3xl">
-        <PageHeader title="客服知识库" />
+        <PageHeader title={t("admin.chatKnowledge.title")} />
         <Notice kind="error">{error}</Notice>
       </div>
     ) : (
@@ -73,7 +74,7 @@ export default function ChatKnowledgePage() {
         method: "PUT",
         body: JSON.stringify(data),
       });
-      show("success", "客服知识库已保存");
+      show("success", t("admin.chatKnowledge.saved"));
     } catch (e) {
       show("error", (e as Error).message);
     } finally {
@@ -84,31 +85,36 @@ export default function ChatKnowledgePage() {
   return (
     <div className="max-w-4xl">
       <PageHeader
-        title="客服知识库"
-        description="定义客服机器人的自动回复规则（关键词命中即回复）。保存后运行 export 脚本并重启服务端生效，或配置 IKEA_CHAT_KNOWLEDGE_FILE 指向本文件实现热更新。"
+        title={t("admin.chatKnowledge.title")}
+        description={t("admin.chatKnowledge.desc")}
         actions={
           <Button onClick={save} disabled={saving}>
-            {saving ? "保存中…" : "保存知识库"}
+            {saving ? t("admin.common.saving") : t("admin.chatKnowledge.saveKnowledge")}
           </Button>
         }
       />
       <NoticeArea notice={notice} />
 
-      <Card title={`自动回复规则（${data.rules.length}）`} className="mb-6">
+      <Card
+        title={t("admin.chatKnowledge.rulesCard", { count: data.rules.length })}
+        className="mb-6"
+      >
         <SchemaListForm
           value={data.rules as unknown as Record<string, unknown>[]}
           onChange={(rules) => setData({ ...data, rules: rules as KnowledgeRule[] })}
           schema={RULE_SCHEMA}
           labelKey="id"
           titleFor={(rule) =>
-            `${String(rule.id ?? "未命名")}（${(rule.keywords as string[] | undefined)?.join(" / ") ?? ""}）`
+            `${String(rule.id ?? t("admin.ui.unnamed"))} (${
+              (rule.keywords as string[] | undefined)?.join(" / ") ?? ""
+            })`
           }
           newItem={() => ({ id: "", keywords: [], reply: "" })}
         />
       </Card>
 
-      <Card title="兜底回复（未命中任何规则时）">
-        <Field label="默认回复">
+      <Card title={t("admin.chatKnowledge.fallbackCard")}>
+        <Field label={t("admin.chatKnowledge.defaultReply")}>
           <TextArea
             rows={4}
             value={data.defaultReply}

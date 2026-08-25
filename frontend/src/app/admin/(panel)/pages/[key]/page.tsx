@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react"
 import { useParams, useRouter } from "next/navigation"
+import { useTranslation } from "react-i18next"
 import {
   adminFetch,
   BackLink,
@@ -19,13 +20,6 @@ import {
 import { BlockEditor, type ContentBlock } from "@/components/admin/BlockEditor"
 
 const FAMILIES = ["customer-service", "company", "legal", "root"]
-
-const FAMILY_LABEL: Record<string, string> = {
-  "customer-service": "客户服务",
-  company: "公司介绍",
-  legal: "法律与条款",
-  root: "首页",
-}
 
 interface PageForm {
   url: string
@@ -50,6 +44,13 @@ function emptyPage(): PageForm {
 }
 
 export default function PageEditorPage() {
+  const { t } = useTranslation()
+  const FAMILY_LABEL: Record<string, string> = {
+    "customer-service": t("admin.pages.familyCustomerService"),
+    company: t("admin.pages.familyCompany"),
+    legal: t("admin.pages.familyLegal"),
+    root: t("admin.pages.familyRoot"),
+  }
   const params = useParams<{ key: string }>()
   const router = useRouter()
   const isNew = params.key === "new"
@@ -84,14 +85,14 @@ export default function PageEditorPage() {
           method: "POST",
           body: JSON.stringify(form),
         })
-        show("success", "页面创建成功")
+        show("success", t("admin.pages.created"))
         router.replace("/admin/pages")
       } else {
         await adminFetch(`/api/admin/pages/${params.key}`, {
           method: "PUT",
           body: JSON.stringify(form),
         })
-        show("success", "页面已保存，前台立即生效")
+        show("success", t("admin.pages.saved"))
       }
     } catch (e) {
       show("error", (e as Error).message)
@@ -103,7 +104,7 @@ export default function PageEditorPage() {
   const remove = async () => {
     try {
       await adminFetch(`/api/admin/pages/${params.key}`, { method: "DELETE" })
-      show("success", "页面已删除")
+      show("success", t("admin.pages.deleted"))
       router.replace("/admin/pages")
     } catch (e) {
       show("error", (e as Error).message)
@@ -114,20 +115,22 @@ export default function PageEditorPage() {
 
   return (
     <div className="max-w-5xl">
-      <BackLink href="/admin/pages" label="返回页面列表" />
+      <BackLink href="/admin/pages" label={t("admin.pages.backToList")} />
       <PageHeader
-        title={isNew ? "新建页面" : `编辑页面：${form.title}`}
-        description={isNew ? "创建后按 URL 在前台生效。" : form.url}
+        title={isNew ? t("admin.pages.newTitle") : t("admin.pages.editTitle", { title: form.title })}
+        description={isNew ? t("admin.pages.newDesc") : form.url}
         actions={
           <>
             {form.url ? (
               <a href={form.url} target="_blank" rel="noreferrer">
-                <Button variant="secondary">前台预览 ↗</Button>
+                <Button variant="secondary">{t("admin.products.preview")} ↗</Button>
               </a>
             ) : null}
-            {!isNew ? <ConfirmButton onConfirm={remove}>删除页面</ConfirmButton> : null}
+            {!isNew ? (
+              <ConfirmButton onConfirm={remove}>{t("admin.pages.deletePage")}</ConfirmButton>
+            ) : null}
             <Button onClick={save} disabled={saving}>
-              {saving ? "保存中…" : "保存"}
+              {saving ? t("admin.common.saving") : t("admin.common.save")}
             </Button>
           </>
         }
@@ -135,15 +138,15 @@ export default function PageEditorPage() {
 
       <NoticeArea notice={notice} />
 
-      <Card title="页面信息" className="mb-6">
+      <Card title={t("admin.pages.info")} className="mb-6">
         <div className="grid gap-4 sm:grid-cols-2">
-          <Field label="URL *" hint="例如 /cn/zh/ideas/my-idea/" className="sm:col-span-2">
+          <Field label="URL *" hint={t("admin.pages.urlHint")} className="sm:col-span-2">
             <TextInput value={form.url} onChange={(e) => update({ url: e.target.value })} />
           </Field>
-          <Field label="标题 *">
+          <Field label={t("admin.pages.title")}>
             <TextInput value={form.title} onChange={(e) => update({ title: e.target.value })} />
           </Field>
-          <Field label="栏目（family）">
+          <Field label={t("admin.pages.family")}>
             <Select value={form.family} onChange={(e) => update({ family: e.target.value })}>
               {FAMILIES.map((family) => (
                 <option key={family} value={family}>
@@ -152,13 +155,13 @@ export default function PageEditorPage() {
               ))}
             </Select>
           </Field>
-          <Field label="英文名（name）">
+          <Field label={t("admin.pages.name")}>
             <TextInput
               value={form.name ?? ""}
               onChange={(e) => update({ name: e.target.value || null })}
             />
           </Field>
-          <Field label="Hero 图 URL">
+          <Field label={t("admin.pages.hero")}>
             <TextInput
               value={form.hero ?? ""}
               onChange={(e) => update({ hero: e.target.value || null })}
@@ -167,7 +170,7 @@ export default function PageEditorPage() {
         </div>
       </Card>
 
-      <Card title={`内容区块（${form.blocks.length}）`}>
+      <Card title={t("admin.pages.blocks", { count: form.blocks.length })}>
         <BlockEditor blocks={form.blocks} onChange={(blocks) => update({ blocks })} />
       </Card>
     </div>

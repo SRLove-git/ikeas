@@ -6,6 +6,7 @@ import {
   findContentPage,
   isHandledBySpecificRoute,
 } from "@/lib/pages";
+import { getLocale } from "@/i18n/server";
 
 export const dynamicParams = false;
 
@@ -27,7 +28,8 @@ export default async function CatchAllPage({
 }) {
   const { slug } = await params;
   const url = `/cn/zh/${slug.join("/")}`;
-  const page = findContentPage(url);
+  const locale = await getLocale();
+  const page = findContentPage(url, locale);
   if (!page) notFound();
 
   return (

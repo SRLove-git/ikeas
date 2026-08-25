@@ -2,9 +2,12 @@ import Link from "next/link";
 import { catalogData } from "@/data/catalog";
 import { catalogPages } from "@/lib/catalog-pages";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { getLocale, getServerT } from "@/i18n/server";
 
-export default function AllProductsPage() {
-  const { catalogCategories } = catalogData();
+export default async function AllProductsPage() {
+  const locale = await getLocale();
+  const t = await getServerT(locale);
+  const { catalogCategories } = catalogData(locale);
   const allCategories = [
     ...catalogCategories.map((category) => ({
       name: category.name,
@@ -12,7 +15,7 @@ export default function AllProductsPage() {
       image: category.image,
       count: category.products.length,
     })),
-    ...catalogPages()
+    ...catalogPages(locale)
       .filter(
         (page) =>
           !catalogCategories.some(
@@ -26,15 +29,17 @@ export default function AllProductsPage() {
         count: page.total,
       })),
   ];
+  // Guard against category/page URL collisions (same slug in both stores).
+  const uniqueCategories = [...new Map(allCategories.map((c) => [c.href, c])).values()];
 
   return (
     <main className="font-ikea min-h-screen bg-white text-ikea-black">
       <div className="max-w-page mx-auto px-5 py-8 lg:px-10">
-        <Breadcrumbs currentLabel="所有商品" />
-        <h1 className="text-2xl font-bold leading-9 lg:text-3xl">所有商品</h1>
+        <Breadcrumbs currentLabel={t("allProducts.currentLabel")} />
+        <h1 className="text-2xl font-bold leading-9 lg:text-3xl">{t("allProducts.title")}</h1>
 
         <div className="mt-5 grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-4">
-          {allCategories.map((category) => (
+          {uniqueCategories.map((category) => (
             <Link
               key={category.href}
               href={category.href}
@@ -56,7 +61,7 @@ export default function AllProductsPage() {
               <div className="mt-3 flex items-center justify-between">
                 <span className="text-sm font-bold">{category.name}</span>
                 <span className="text-xs text-ikea-muted">
-                  {category.count} 件
+                  {t("common.items", { count: category.count })}
                 </span>
               </div>
             </Link>

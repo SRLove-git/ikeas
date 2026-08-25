@@ -1,4 +1,7 @@
+"use client"
+
 import type { ContentBlock } from "@/data/pages-types"
+import { useTranslation } from "react-i18next"
 import { BlockLink } from "@/components/ContentBlocks"
 import { SiteImage } from "@/components/SiteImage"
 import { SupportIcon } from "@/components/support/SupportIcons"
@@ -50,6 +53,7 @@ export function SupportAssurancesBlock({ block }: { block: ContentBlock }) {
 }
 
 export function ContactBannerBlock({ block }: { block: ContentBlock }) {
+  const { t } = useTranslation()
   const links = block.links ?? []
   const image = block.images[0] ?? null
   return (
@@ -58,7 +62,7 @@ export function ContactBannerBlock({ block }: { block: ContentBlock }) {
         <>
           <SiteImage
             src={image}
-            alt={block.title ?? "获取帮助"}
+            alt={block.title ?? t("content.getHelp")}
             className="absolute inset-0 h-full w-full"
             imgClassName="h-full object-cover"
           />
@@ -92,7 +96,7 @@ export function ContactBannerBlock({ block }: { block: ContentBlock }) {
                       : "inline-flex h-11 items-center border border-white/60 px-8 text-sm font-bold text-white transition-colors hover:bg-white/10"
                   }
                 >
-                  {link.text || "联系我们"}
+                  {link.text || t("content.contactUs")}
                 </BlockLink>
               ))}
             </div>

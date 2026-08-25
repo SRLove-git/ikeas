@@ -7,8 +7,10 @@ import {
 } from "@/data/homepage";
 import { getMenuPanels } from "@/data/menu-panels";
 import { getMenuCategories } from "@/data/categories";
+import { getLocale } from "@/i18n/server";
 
-export function SiteLayout({ children }: { children: React.ReactNode }) {
+export async function SiteLayout({ children }: { children: React.ReactNode }) {
+  const locale = await getLocale();
   const {
     footerFeaturedCards,
     footerLinkGroups,
@@ -16,9 +18,9 @@ export function SiteLayout({ children }: { children: React.ReactNode }) {
     navMenuItems,
     searchHints,
     socialIcons,
-  } = homepage();
-  const menuPanels = getMenuPanels();
-  const categories = getMenuCategories();
+  } = homepage(locale);
+  const menuPanels = getMenuPanels(locale);
+  const categories = getMenuCategories(locale);
   return (
     <main className="text-left">
       <div className="font-ikea">

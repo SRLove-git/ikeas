@@ -1,6 +1,7 @@
 "use client"
 
 import { useState } from "react"
+import { useTranslation } from "react-i18next"
 import {
   Button,
   JsonEditor,
@@ -57,6 +58,7 @@ export function BlockEditor({
   blocks: ContentBlock[]
   onChange: (blocks: ContentBlock[]) => void
 }) {
+  const { t } = useTranslation()
   const [collapsed, setCollapsed] = useState<Set<number>>(new Set())
 
   const update = (index: number, patch: Partial<ContentBlock>) => {
@@ -87,7 +89,7 @@ export function BlockEditor({
     <div className="space-y-4">
       {blocks.length === 0 ? (
         <div className="rounded-md border border-dashed border-ikea-gray-300 p-6 text-center text-sm text-ikea-muted">
-          还没有内容区块，点击下方按钮添加
+          {t("admin.blockEditor.empty")}
         </div>
       ) : null}
 
@@ -103,7 +105,7 @@ export function BlockEditor({
               >
                 <span className="text-xs font-bold text-ikea-muted">#{index + 1}</span>
                 <span className="truncate text-sm font-medium text-ikea-black">
-                  {block.type || "未命名区块"}
+                  {block.type || t("admin.blockEditor.unnamedBlock")}
                 </span>
                 {block.title ? (
                   <span className="truncate text-xs text-ikea-muted">「{block.title}」</span>
@@ -121,7 +123,7 @@ export function BlockEditor({
                     onChange(copy)
                   }}
                 >
-                  上移
+                  {t("admin.ui.moveUp")}
                 </Button>
                 <Button
                   variant="ghost"
@@ -134,16 +136,16 @@ export function BlockEditor({
                     onChange(copy)
                   }}
                 >
-                  下移
+                  {t("admin.ui.moveDown")}
                 </Button>
                 <Button
                   variant="ghost"
                   onClick={() => onChange(blocks.filter((_, i) => i !== index))}
                 >
-                  删除
+                  {t("admin.ui.delete")}
                 </Button>
                 <Button variant="ghost" onClick={() => toggle(index)}>
-                  {isCollapsed ? "展开" : "收起"}
+                  {isCollapsed ? t("admin.blockEditor.expand") : t("admin.blockEditor.collapse")}
                 </Button>
               </div>
             </div>
@@ -152,7 +154,9 @@ export function BlockEditor({
               <div className="space-y-4 p-4">
                 <div className="grid gap-4 sm:grid-cols-2">
                   <div>
-                    <div className="mb-1.5 text-xs font-medium text-ikea-muted">区块类型</div>
+                    <div className="mb-1.5 text-xs font-medium text-ikea-muted">
+                      {t("admin.blockEditor.blockType")}
+                    </div>
                     <TextInput
                       list="admin-block-types"
                       value={block.type}
@@ -165,7 +169,9 @@ export function BlockEditor({
                     </datalist>
                   </div>
                   <div>
-                    <div className="mb-1.5 text-xs font-medium text-ikea-muted">标题</div>
+                    <div className="mb-1.5 text-xs font-medium text-ikea-muted">
+                      {t("admin.blockEditor.title")}
+                    </div>
                     <TextInput
                       value={block.title ?? ""}
                       onChange={(e) => update(index, { title: e.target.value || null })}
@@ -175,7 +181,7 @@ export function BlockEditor({
 
                 <div>
                   <div className="mb-1.5 text-xs font-medium text-ikea-muted">
-                    正文段落（texts）
+                    {t("admin.blockEditor.texts")}
                   </div>
                   <StringListEditor
                     value={block.texts ?? []}
@@ -184,7 +190,9 @@ export function BlockEditor({
                 </div>
 
                 <div>
-                  <div className="mb-1.5 text-xs font-medium text-ikea-muted">图片（images）</div>
+                  <div className="mb-1.5 text-xs font-medium text-ikea-muted">
+                    {t("admin.blockEditor.images")}
+                  </div>
                   <StringListEditor
                     value={block.images ?? []}
                     onChange={(images) => update(index, { images })}
@@ -193,7 +201,9 @@ export function BlockEditor({
                 </div>
 
                 <div>
-                  <div className="mb-1.5 text-xs font-medium text-ikea-muted">链接（links）</div>
+                  <div className="mb-1.5 text-xs font-medium text-ikea-muted">
+                    {t("admin.blockEditor.links")}
+                  </div>
                   <ObjectListEditor
                     value={block.links ?? []}
                     onChange={(links) =>
@@ -206,29 +216,33 @@ export function BlockEditor({
 
                 <div>
                   <div className="mb-1.5 text-xs font-medium text-ikea-muted">
-                    分栏（columns，标题/文字/图片/链接）
+                    {t("admin.blockEditor.columns")}
                   </div>
                   <ObjectListEditor
                     value={block.columns ?? []}
                     onChange={(columns) => update(index, { columns })}
-                    titleFor={(item) => String(item.heading ?? item.text ?? "分栏")}
+                    titleFor={(item) =>
+                      String(item.heading ?? item.text ?? t("admin.blockEditor.columnFallback"))
+                    }
                   />
                 </div>
 
                 <div>
                   <div className="mb-1.5 text-xs font-medium text-ikea-muted">
-                    条目（items，例如图片卡片/排行项）
+                    {t("admin.blockEditor.items")}
                   </div>
                   <ObjectListEditor
                     value={block.items ?? []}
                     onChange={(items) => update(index, { items })}
-                    titleFor={(item) => String(item.title ?? item.text ?? item.name ?? "条目")}
+                    titleFor={(item) =>
+                      String(item.title ?? item.text ?? item.name ?? t("admin.blockEditor.itemFallback"))
+                    }
                   />
                 </div>
 
                 <div>
                   <div className="mb-1.5 text-xs font-medium text-ikea-muted">
-                    设置（settings，高级）
+                    {t("admin.blockEditor.settings")}
                   </div>
                   <JsonEditor
                     value={block.settings}
@@ -262,7 +276,7 @@ export function BlockEditor({
           ])
         }
       >
-        + 添加内容区块
+        {t("admin.blockEditor.addBlock")}
       </Button>
     </div>
   )

@@ -10,6 +10,7 @@ import { formatPrice } from "@/lib/catalog-format"
 import { ContentBlocks } from "@/components/ContentBlocks"
 import { SiteLayout } from "@/components/SiteLayout"
 import { Breadcrumbs } from "@/components/Breadcrumbs"
+import { getLocale, getServerT } from "@/i18n/server"
 
 export const dynamicParams = false
 
@@ -41,13 +42,15 @@ export function generateStaticParams() {
 
 export default async function CategoryPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params
-  const match = findCategoryBySlug(slug)
+  const locale = await getLocale()
+  const t = await getServerT(locale)
+  const match = findCategoryBySlug(slug, locale)
 
   if (match) {
     const { category, sub } = match
     const title = sub?.name ?? category.name
     const products = category.products
-    const landingPage = findCatalogPageBySlug(slug)
+    const landingPage = findCatalogPageBySlug(slug, locale)
 
     return (
       <SiteLayout>
@@ -56,7 +59,9 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
             <Breadcrumbs currentLabel={title} />
 
             <h1 className="text-2xl font-bold leading-9 lg:text-3xl">{title}</h1>
-            <p className="mt-2 text-sm text-ikea-muted">共 {products.length} 件商品</p>
+            <p className="mt-2 text-sm text-ikea-muted">
+              {t("category.itemsCount", { count: products.length })}
+            </p>
 
             {category.subs.length > 0 ? (
               <div className="mt-6 flex flex-wrap gap-2">

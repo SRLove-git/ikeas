@@ -1,6 +1,8 @@
 "use client"
 
 import { useCallback, useEffect, useState } from "react"
+import { useTranslation } from "react-i18next"
+import { useLocale } from "@/i18n/LanguageProvider"
 import {
   adminFetch,
   Button,
@@ -22,6 +24,8 @@ interface ChatMessage {
 }
 
 export default function ChatPage() {
+  const { t } = useTranslation()
+  const { locale } = useLocale()
   const { notice, show } = useNotice()
   const [messages, setMessages] = useState<ChatMessage[] | null>(null)
   const [error, setError] = useState<string | null>(null)
@@ -43,18 +47,18 @@ export default function ChatPage() {
 
   const clear = async () => {
     await adminFetch("/api/admin/server/chat/messages", { method: "DELETE" })
-    show("success", "聊天记录已清空")
+    show("success", t("admin.chat.cleared"))
     await load()
   }
 
   return (
     <div>
       <PageHeader
-        title="客服聊天"
-        description="查看客服机器人的问答记录（Spring Boot 内存存储）。"
+        title={t("admin.chat.title")}
+        description={t("admin.chat.desc")}
         actions={
           <Button variant="secondary" onClick={() => void load()}>
-            刷新
+            {t("admin.chat.refresh")}
           </Button>
         }
       />
@@ -66,18 +70,24 @@ export default function ChatPage() {
       ) : null}
       <div className="overflow-hidden rounded-lg border border-ikea-gray-200 bg-white">
         {!messages ? (
-          <Loading label="连接运营服务…" />
+          <Loading label={t("admin.users.loading")} />
         ) : messages.length === 0 ? (
-          <EmptyState>暂无聊天记录</EmptyState>
+          <EmptyState>{t("admin.chat.empty")}</EmptyState>
         ) : (
           <>
             <div className="divide-y divide-ikea-gray-200">
               {messages.map((message, index) => (
                 <div key={message.id ?? index} className="p-5">
                   <div className="mb-1 flex items-center gap-2 text-xs text-ikea-muted">
-                    <span className="font-medium text-ikea-black">{message.user ?? "访客"}</span>
+                    <span className="font-medium text-ikea-black">
+                      {message.user ?? t("admin.chat.guest")}
+                    </span>
                     {message.at ? (
-                      <span>{new Date(message.at).toLocaleString("zh-CN")}</span>
+                      <span>
+                        {new Date(message.at).toLocaleString(
+                          locale === "en" ? "en-SG" : "zh-CN",
+                        )}
+                      </span>
                     ) : null}
                   </div>
                   <div className="rounded-md bg-ikea-gray-50 px-3 py-2 text-sm">
@@ -85,7 +95,7 @@ export default function ChatPage() {
                   </div>
                   {message.reply ? (
                     <div className="mt-2 rounded-md bg-blue-50 px-3 py-2 text-sm text-ikea-blue">
-                      <span className="mr-1 font-medium">CHUNG YIP 客服：</span>
+                      <span className="mr-1 font-medium">{t("admin.chat.replyPrefix")}</span>
                       {message.reply}
                     </div>
                   ) : null}
@@ -93,7 +103,7 @@ export default function ChatPage() {
               ))}
             </div>
             <div className="border-t border-ikea-gray-200 px-5 py-3 text-right">
-              <ConfirmButton onConfirm={clear}>清空全部记录</ConfirmButton>
+              <ConfirmButton onConfirm={clear}>{t("admin.chat.clearAll")}</ConfirmButton>
             </div>
           </>
         )}

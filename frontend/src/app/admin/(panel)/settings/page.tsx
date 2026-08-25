@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 import {
   adminFetch,
   Button,
@@ -25,6 +26,7 @@ interface Settings {
 }
 
 export default function SettingsPage() {
+  const { t } = useTranslation();
   const { notice, show } = useNotice();
   const [settings, setSettings] = useState<Settings | null>(null);
   const [saving, setSaving] = useState(false);
@@ -53,7 +55,7 @@ export default function SettingsPage() {
         method: "PUT",
         body: JSON.stringify(settings),
       });
-      show("success", "网站设置已保存");
+      show("success", t("admin.settings.saved"));
     } catch (e) {
       show("error", (e as Error).message);
     } finally {
@@ -64,31 +66,31 @@ export default function SettingsPage() {
   return (
     <div className="max-w-3xl">
       <PageHeader
-        title="网站设置"
-        description="站点名称、描述等基础配置（作用于浏览器标题与 SEO 描述）。"
+        title={t("admin.settings.title")}
+        description={t("admin.settings.desc")}
         actions={
           <Button onClick={save} disabled={saving}>
-            {saving ? "保存中…" : "保存设置"}
+            {saving ? t("admin.common.saving") : t("admin.settings.save")}
           </Button>
         }
       />
       <NoticeArea notice={notice} />
-      <Card title="基础信息">
+      <Card title={t("admin.settings.basicInfo")}>
         <div className="space-y-5">
-          <Field label="网站名称">
+          <Field label={t("admin.settings.siteName")}>
             <TextInput
               value={settings.siteName}
               onChange={(e) => update({ siteName: e.target.value })}
             />
           </Field>
-          <Field label="网站描述（SEO）">
+          <Field label={t("admin.settings.siteDescription")}>
             <TextArea
               rows={3}
               value={settings.siteDescription}
               onChange={(e) => update({ siteDescription: e.target.value })}
             />
           </Field>
-          <Field label="后台标题">
+          <Field label={t("admin.settings.adminTitle")}>
             <TextInput
               value={settings.adminTitle}
               onChange={(e) => update({ adminTitle: e.target.value })}
@@ -96,9 +98,9 @@ export default function SettingsPage() {
           </Field>
         </div>
       </Card>
-      <Card title="404 页面文案" className="mt-6">
+      <Card title={t("admin.settings.notFoundCopy")} className="mt-6">
         <div className="grid gap-4 sm:grid-cols-2">
-          <Field label="标题">
+          <Field label={t("admin.settings.title")}>
             <TextInput
               value={settings.siteCopy.notFound.title}
               onChange={(e) =>
@@ -111,7 +113,7 @@ export default function SettingsPage() {
               }
             />
           </Field>
-          <Field label="按钮文案">
+          <Field label={t("admin.settings.buttonLabel")}>
             <TextInput
               value={settings.siteCopy.notFound.buttonLabel}
               onChange={(e) =>
@@ -124,7 +126,7 @@ export default function SettingsPage() {
               }
             />
           </Field>
-          <Field label="正文" className="sm:col-span-2">
+          <Field label={t("admin.settings.body")} className="sm:col-span-2">
             <TextArea
               rows={3}
               value={settings.siteCopy.notFound.body}
@@ -140,9 +142,9 @@ export default function SettingsPage() {
           </Field>
         </div>
       </Card>
-      <Card title="问卷页面文案" className="mt-6">
+      <Card title={t("admin.settings.surveyCopy")} className="mt-6">
         <div className="grid gap-4 sm:grid-cols-2">
-          <Field label="标题">
+          <Field label={t("admin.settings.title")}>
             <TextInput
               value={settings.siteCopy.survey.title}
               onChange={(e) =>
@@ -155,7 +157,7 @@ export default function SettingsPage() {
               }
             />
           </Field>
-          <Field label="按钮文案">
+          <Field label={t("admin.settings.buttonLabel")}>
             <TextInput
               value={settings.siteCopy.survey.buttonLabel}
               onChange={(e) =>
@@ -168,7 +170,7 @@ export default function SettingsPage() {
               }
             />
           </Field>
-          <Field label="正文" className="sm:col-span-2">
+          <Field label={t("admin.settings.body")} className="sm:col-span-2">
             <TextArea
               rows={3}
               value={settings.siteCopy.survey.body}
@@ -185,8 +187,7 @@ export default function SettingsPage() {
         </div>
       </Card>
       <div className="mt-6 rounded-lg border border-ikea-gray-200 bg-ikea-gray-50 p-5 text-xs text-ikea-muted">
-        后台账号由环境变量控制：ADMIN_USERNAME / ADMIN_PASSWORD（默认 admin / admin123）。
-        运营服务（用户/购物车/收藏/聊天）管理密钥：IKEA_ADMIN_KEY（默认 ikea-admin）。
+        {t("admin.settings.envHint")}
       </div>
     </div>
   );

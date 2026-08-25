@@ -2,11 +2,13 @@
 
 import { useRouter } from "next/navigation"
 import { useCallback, useEffect, useState } from "react"
+import { useTranslation } from "react-i18next"
 import { SiteImage } from "@/components/SiteImage"
 import { useAuth } from "@/lib/auth"
 import { Breadcrumbs } from "@/components/Breadcrumbs"
 import { apiJson, type OrderResponse } from "@/lib/api"
 import { formatPrice } from "@/lib/catalog-format"
+import { useLocale } from "@/i18n/LanguageProvider"
 
 function statusClassName(status: number): string {
   if (status === 1) return "bg-amber-100 text-amber-700"
@@ -17,13 +19,15 @@ function statusClassName(status: number): string {
   return "bg-ikea-gray-100 text-ikea-muted"
 }
 
-function formatDate(value: string): string {
+function formatDate(value: string, locale: string): string {
   const date = new Date(value)
   if (Number.isNaN(date.getTime())) return value
-  return date.toLocaleString("zh-CN", { hour12: false })
+  return date.toLocaleString(locale === "en" ? "en-SG" : "zh-CN", { hour12: false })
 }
 
 export function MyOrdersPanel() {
+  const { t } = useTranslation()
+  const { locale } = useLocale()
   const router = useRouter()
   const { user, ready } = useAuth()
   const [orders, setOrders] = useState<OrderResponse[] | null>(null)
@@ -42,23 +46,23 @@ export function MyOrdersPanel() {
       const data = await apiJson<OrderResponse[]>("/orders")
       setOrders(data)
     } catch (ex) {
-      setError(ex instanceof Error ? ex.message : "加载订单失败")
+      setError(ex instanceof Error ? ex.message : t("orders.loadFailed"))
     } finally {
       setLoading(false)
     }
-  }, [])
+  }, [t])
 
   useEffect(() => {
     if (typeof window === "undefined") return
     const params = new URLSearchParams(window.location.search)
     const created = params.get("created")
     if (created) {
-      setNotice(`订单 ${created} 已提交成功`)
+      setNotice(t("orders.createdNotice", { no: created }))
       params.delete("created")
       const next = `${window.location.pathname}${params.size > 0 ? `?${params.toString()}` : ""}`
       window.history.replaceState({}, "", next)
     }
-  }, [])
+  }, [t])
 
   useEffect(() => {
     if (ready && !user) {
@@ -68,7 +72,7 @@ export function MyOrdersPanel() {
     if (ready && user) {
       void loadOrders()
     }
-  }, [ready, user, router, loadOrders])
+  }, [ready, user, router, loadOrders, t])
 
   const cancelOrder = async (orderNo: string) => {
     setCancelling(orderNo)
@@ -77,7 +81,7 @@ export function MyOrdersPanel() {
       await apiJson(`/orders/${orderNo}/cancel`, { method: "POST" })
       await loadOrders()
     } catch (ex) {
-      setError(ex instanceof Error ? ex.message : "取消订单失败")
+      setError(ex instanceof Error ? ex.message : t("orders.cancelFailed"))
     } finally {
       setCancelling(null)
     }
@@ -90,21 +94,21 @@ export function MyOrdersPanel() {
       await apiJson(`/orders/${orderNo}/pay`, { method: "POST" })
       await loadOrders()
     } catch (ex) {
-      setError(ex instanceof Error ? ex.message : "支付失败")
+      setError(ex instanceof Error ? ex.message : t("orders.payFailed"))
     } finally {
       setPaying(null)
     }
   }
 
   const requestRefund = async (orderNo: string) => {
-    if (!window.confirm("确定申请退款？退款申请提交后不可直接撤销。")) return
+    if (!window.confirm(t("orders.refundConfirm"))) return
     setRefunding(orderNo)
     setError(null)
     try {
       await apiJson(`/orders/${orderNo}/refund`, { method: "POST" })
       await loadOrders()
     } catch (ex) {
-      setError(ex instanceof Error ? ex.message : "退款申请失败")
+      setError(ex instanceof Error ? ex.message : t("orders.refundFailed"))
     } finally {
       setRefunding(null)
     }
@@ -116,7 +120,7 @@ export function MyOrdersPanel() {
   if (!ready || !user) {
     return (
       <div className="flex min-h-[50vh] items-center justify-center text-sm text-ikea-muted">
-        正在加载订单…
+        {t("orders.loadingPage")}
       </div>
     )
   }
@@ -124,9 +128,9 @@ export function MyOrdersPanel() {
   return (
     <div className="font-ikea min-h-screen bg-ikea-gray-100 text-ikea-black">
       <div className="max-w-page mx-auto px-5 py-10 lg:px-10">
-        <Breadcrumbs currentLabel="我的订单" />
+        <Breadcrumbs currentLabel={t("orders.title")} />
 
-        <h1 className="text-2xl font-bold leading-9">我的订单</h1>
+        <h1 className="text-2xl font-bold leading-9">{t("orders.title")}</h1>
 
         {notice ? (
           <div className="mt-6 rounded border border-green-200 bg-green-50 px-4 py-3 text-sm text-green-700">
@@ -142,13 +146,13 @@ export function MyOrdersPanel() {
         <div className="mt-6 flex border-b border-ikea-gray-200">
           {(
             [
-              [0, "全部"],
-              [1, "待付款"],
-              [2, "待发货"],
-              [3, "待收货"],
-              [4, "已完成"],
-              [6, "退款中"],
-              [7, "退款已驳回"],
+              [0, t("orders.filterAll")],
+              [1, t("orders.filterPendingPayment")],
+              [2, t("orders.filterToShip")],
+              [3, t("orders.filterToReceive")],
+              [4, t("orders.filterCompleted")],
+              [6, t("orders.filterRefunding")],
+              [7, t("orders.filterRefundRejected")],
             ] as [number, string][]
           ).map(([code, label]) => (
             <button
@@ -168,10 +172,10 @@ export function MyOrdersPanel() {
 
         <div className="mt-6">
           {loading ? (
-            <div className="py-16 text-center text-sm text-ikea-muted">加载订单中…</div>
+            <div className="py-16 text-center text-sm text-ikea-muted">{t("orders.loading")}</div>
           ) : filteredOrders.length === 0 ? (
             <div className="empty-wrapper flex items-center justify-center bg-white py-20">
-              <p className="text-sm text-ikea-muted">还没有相关订单</p>
+              <p className="text-sm text-ikea-muted">{t("orders.empty")}</p>
             </div>
           ) : (
             <div className="space-y-4">
@@ -179,8 +183,10 @@ export function MyOrdersPanel() {
                 <section key={order.orderNo} className="bg-white">
                   <div className="flex flex-wrap items-center justify-between gap-3 border-b border-ikea-gray-200 px-6 py-4">
                     <div className="text-sm">
-                      <span className="font-bold">订单号 {order.orderNo}</span>
-                      <span className="ml-3 text-ikea-muted">{formatDate(order.createdAt)}</span>
+                      <span className="font-bold">{t("orders.orderNo", { no: order.orderNo })}</span>
+                      <span className="ml-3 text-ikea-muted">
+                        {formatDate(order.createdAt, locale)}
+                      </span>
                     </div>
                     <span
                       className={`rounded px-2 py-0.5 text-xs font-bold ${statusClassName(order.status)}`}
@@ -211,9 +217,11 @@ export function MyOrdersPanel() {
 
                   <div className="flex flex-wrap items-center justify-between gap-3 border-t border-ikea-gray-200 px-6 py-4">
                     <div className="text-sm text-ikea-muted">
-                      共 {order.items.reduce((sum, item) => sum + item.quantity, 0)} 件商品，
+                      {t("orders.itemsCount", {
+                        count: order.items.reduce((sum, item) => sum + item.quantity, 0),
+                      })}
                       <span className="ml-1 font-bold text-ikea-black">
-                        实付 {formatPrice(order.totalAmount)}
+                        {t("orders.paid", { amount: formatPrice(order.totalAmount) })}
                       </span>
                     </div>
                     <div className="flex items-center gap-2">
@@ -225,7 +233,9 @@ export function MyOrdersPanel() {
                             onClick={() => void payOrder(order.orderNo)}
                             className="rounded bg-ikea-blue px-3 py-1 text-xs font-bold text-white hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-50"
                           >
-                            {paying === order.orderNo ? "支付中…" : "模拟支付"}
+                            {paying === order.orderNo
+                              ? t("orders.paying")
+                              : t("orders.simulatePay")}
                           </button>
                           <button
                             type="button"
@@ -233,7 +243,9 @@ export function MyOrdersPanel() {
                             onClick={() => void cancelOrder(order.orderNo)}
                             className="text-xs font-bold text-ikea-blue hover:underline disabled:cursor-not-allowed disabled:opacity-50"
                           >
-                            {cancelling === order.orderNo ? "取消中…" : "取消订单"}
+                            {cancelling === order.orderNo
+                              ? t("orders.cancelling")
+                              : t("orders.cancelOrder")}
                           </button>
                         </>
                       ) : order.status === 2 || order.status === 3 || order.status === 4 ? (
@@ -243,7 +255,9 @@ export function MyOrdersPanel() {
                           onClick={() => void requestRefund(order.orderNo)}
                           className="text-xs font-bold text-red-600 hover:underline disabled:cursor-not-allowed disabled:opacity-50"
                         >
-                          {refunding === order.orderNo ? "提交中…" : "申请退款"}
+                          {refunding === order.orderNo
+                            ? t("orders.submitting")
+                            : t("orders.requestRefund")}
                         </button>
                       ) : null}
                     </div>

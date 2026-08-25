@@ -1,3 +1,6 @@
+"use client"
+
+import { useTranslation } from "react-i18next";
 import { ChevronRightIcon } from "@/components/icons";
 import type { NoticeArticle } from "@/types";
 
@@ -6,9 +9,10 @@ interface ProductNoticesProps {
 }
 
 export function ProductNotices({ notices }: ProductNoticesProps) {
+  const { t } = useTranslation();
   return (
     <div className="pub-page-list">
-      <h2>产品信息及通知</h2>
+      <h2>{t("home.productInfoAndNotices")}</h2>
       <div className="pub-page-list-content is-list">
         {notices.map((notice) => (
           <a
