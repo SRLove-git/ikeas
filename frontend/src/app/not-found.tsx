@@ -10,7 +10,7 @@ export default async function NotFound() {
     <main className="font-ikea flex min-h-screen items-center justify-center bg-white text-ikea-black">
       <div className="flex flex-col items-center px-6 py-16 text-center">
         <SiteImage
-          src="/images/products/buzud-8885020712582.png"
+          src="https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712582.png"
           alt="404"
           className="w-[260px] lg:w-[360px]"
           imgClassName="h-auto object-contain"

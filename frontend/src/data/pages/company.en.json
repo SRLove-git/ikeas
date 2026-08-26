@@ -14,7 +14,7 @@
           "CHUNG YIP's vision and mission"
         ],
         "images": [
-          "/images/cms/buzud-hero-company.png"
+          "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-hero-company.png"
         ],
         "links": [
           {
@@ -36,7 +36,7 @@
           "We uphold a long-term investment philosophy, with a strategic focus on high-growth sectors including industrial real estate, new building materials, education, AI healthcare, digital infrastructure, and intelligent software ecosystems. We continuously develop cross-sector, vertically integrated investment capabilities and resource integration expertise. At the same time, we place strong emphasis on ESG-oriented sustainable development opportunities, promoting deeper integration between capital, technology, and industry. Leveraging our professional team’s twenty years of experience in the Asia-Pacific market, we are committed to becoming a strategic bridge connecting capital, industry, and innovative technology."
         ],
         "images": [
-          "/images/cms/buzud-about-image.png"
+          "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-about-image.png"
         ],
         "links": [],
         "items": [],
@@ -73,13 +73,13 @@
           {
             "heading": "AI + education",
             "text": "CHUNG YIP leverages its majority-owned Singapore Heng Xing International School to actively explore the deep integration of artificial intelligence technology and the education industry.",
-            "image": "/images/cms/buzud-ai-education.png",
+            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-ai-education.png",
             "href": "https://www.esic.edu.sg/"
           },
           {
             "heading": "AI + medical",
             "text": "CHUNG YIP cooperates with BUZUD, a well-known home-grown Singaporean healthcare brand, to jointly explore innovative applications and solutions for artificial intelligence technology in the healthcare field.",
-            "image": "/images/cms/buzud-ai-medical.png",
+            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-ai-medical.png",
             "href": "https://www.buzud.com/en/solutions-medicare-plus"
           }
         ],

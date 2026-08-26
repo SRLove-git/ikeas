@@ -176,7 +176,7 @@ export function CollectionPanel({ inspirationItems, catalogProducts }: Collectio
   ) => (
     <div className="flex flex-col items-center py-16 text-center">
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src="/images/collection-empty.svg" alt="" className="h-32 w-32" />
+      <img src="https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/collection-empty.svg" alt="" className="h-32 w-32" />
       <p className="mt-6 text-sm text-ikea-muted">{text}</p>
       {action?.href ? (
         <Link href={action.href} className="i-btn i-btn--small i-btn--primary mt-6">
@@ -222,7 +222,7 @@ export function CollectionPanel({ inspirationItems, catalogProducts }: Collectio
         <div className="mt-10">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/images/collection-login.svg"
+            src="https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/collection-login.svg"
             alt=""
             className="mx-auto w-[280px] sm:w-[400px]"
           />
