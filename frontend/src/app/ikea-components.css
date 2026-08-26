@@ -1237,9 +1237,9 @@ button.swiper-pagination-bullet{-webkit-appearance:none;-moz-appearance:none;app
 .nav-footer-container-other-share ul:after{clear:both;content:"";display:block}
 .nav-footer-container-other .lang-selector-container{position:relative}
 .nav-footer-container-other .lang-selector-container:hover{cursor:pointer}
-.nav-footer-container-other .lang-selector-container .lang-selector{-webkit-appearance:none;-moz-appearance:none;appearance:none;background:rgb(var(--colour-neutral-2,245,245,245));border:1px solid rgb(var(--colour-neutral-3,223,223,223));border-radius:4rem;box-sizing:border-box;color:rgb(var(--colour-text-and-icon-1,17,17,17));display:block;font-size:.75rem;font-weight:400;height:2.5rem;line-height:1.5;margin:0;outline:0;padding:.625rem 2.5rem .625rem 1.875rem;text-align:left;-moz-text-align-last:left;text-align-last:left;text-indent:0;width:6.25rem}
+.nav-footer-container-other .lang-selector-container .lang-selector{-webkit-appearance:none;-moz-appearance:none;appearance:none;background:rgb(var(--colour-neutral-2,245,245,245));border:1px solid rgb(var(--colour-neutral-3,223,223,223));border-radius:4rem;box-sizing:border-box;color:rgb(var(--colour-text-and-icon-1,17,17,17));display:block;font-size:.75rem;font-weight:400;height:2.5rem;line-height:1.5;margin:0;outline:0;padding:.625rem 2.25rem .625rem 1.25rem;text-align:left;-moz-text-align-last:left;text-align-last:left;text-indent:0;white-space:nowrap;width:8.25rem}
 .nav-footer-container-other .lang-selector-container .lang-selector:hover{background:rgb(var(--colour-neutral-3,223,223,223));cursor:pointer}
-.nav-footer-container-other .lang-selector-container span{font-size:1rem;font-weight:900;pointer-events:none;position:absolute;right:1.25rem;top:.625rem;transform:scaleX(1.8) rotate(90deg)}
+.nav-footer-container-other .lang-selector-container svg{color:rgb(var(--colour-text-and-icon-1,17,17,17));pointer-events:none;position:absolute;right:1rem;top:50%;transform:translateY(-50%)}
 .nav-footer-container-other-edition{color:rgb(var(--colour-text-and-icon-2,72,72,72));font-size:.75rem;line-height:1.125rem;margin:.3125rem 0 1.875rem;white-space:nowrap}
 .nav-footer-container-other-service{font-size:.75rem;margin:.3125rem 0 1.875rem 1.875rem}
 .nav-footer-container-other-service ul li{float:left;list-style:none}
