@@ -603,6 +603,10 @@ public class DataStore {
   private List<Product> loadProductsFromJson() throws IOException {
     List<Product> products = new ArrayList<>();
     for (Resource resource : sortedResources("products/*.json")) {
+      String filename = resource.getFilename();
+      if (filename != null && filename.endsWith(".en.json")) {
+        continue;
+      }
       products.addAll(read(resource, new TypeReference<List<Product>>() {}));
     }
     return List.copyOf(products);
