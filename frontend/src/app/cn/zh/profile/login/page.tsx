@@ -246,14 +246,14 @@ export default function LoginPage() {
               <span>
                 {t("login.agreePrefix")}
                 <Link
-                  href="/cn/zh/customer-service/privacy-policy/"
+                  href="/cn/zh/privacy-policy/"
                   className="mx-0.5 text-ikea-blue hover:underline"
                 >
                   {t("login.privacyPolicy")}
                 </Link>
                 {t("login.and")}
                 <Link
-                  href="/cn/zh/customer-service/terms-conditions/"
+                  href="/cn/zh/conditions-of-use/"
                   className="mx-0.5 text-ikea-blue hover:underline"
                 >
                   {t("login.termsOfUse")}
