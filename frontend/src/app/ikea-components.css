@@ -1690,6 +1690,17 @@ button.swiper-pagination-bullet{-webkit-appearance:none;-moz-appearance:none;app
   width: auto;
 }
 
+/* BUZUD 首页视频：手机端不硬铺高屏，按 16:9 完整显示，避免字幕被裁切 */
+@media (max-width: 767px) {
+  .prod-intro .prod-products {
+    height: auto;
+    aspect-ratio: 16 / 9;
+  }
+  .prod-intro .prod-products .prod video.product {
+    object-fit: contain;
+  }
+}
+
 /* BUZUD segmented pager: five touching bars, active segment cyan. */
 .prod-intro-pager {
   position: absolute;
