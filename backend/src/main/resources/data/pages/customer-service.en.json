@@ -402,9 +402,57 @@
       },
       {
         "type": "pub-text",
-        "title": null,
+        "title": "Warranty period",
         "texts": [
-          "Our after-sales service covers repair and exchange services both within and beyond the warranty period. In the event of manufacturing or product quality issues, customers can contact us or bring any BUZUD product (together with the invoice) to a store for repair or exchange. We provide on-site immediate repair services; if the product cannot be repaired on the spot, we will provide a temporary replacement device, send the faulty product for repair, or replace it with a brand-new unit."
+          "Electronic products (blood pressure monitors, smart watches, oxygen concentrators, pulse oximeters, thermometers, hearing aids, etc.): 12 months from the date of purchase.",
+          "Accessories and consumables (cuffs, power cables, test strips, lancets, etc.): as stated on the package or warranty card.",
+          "The exact warranty period follows the enclosed warranty card or product packaging."
+        ],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
+        }
+      },
+      {
+        "type": "pub-text",
+        "title": "What is covered",
+        "texts": [
+          "During the warranty period, failures caused by manufacturing or product quality issues under normal use are covered, with free repair or replacement upon presenting your warranty registration number, order number or invoice.",
+          "Not covered: damage caused by misuse, water, drops or impact, unauthorised disassembly, normal consumption of consumables, or failure to follow the instructions."
+        ],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
+        }
+      },
+      {
+        "type": "pub-text",
+        "title": "How to make a claim",
+        "texts": [
+          "Please bring or provide: warranty registration number, order number or invoice, and the faulty product with its packaging.",
+          "In-store inspection is usually completed on the spot; repairs that require returning to the factory generally take 3–7 business days, subject to actual conditions.",
+          "A temporary replacement device may be provided while repairs are being made."
+        ],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
+        }
+      },
+      {
+        "type": "pub-text",
+        "title": "Out-of-warranty repairs",
+        "texts": [
+          "Paid repairs are available for out-of-warranty items; you will be quoted before any work begins, and no undisclosed charges apply.",
+          "Hotline: +65 8381 1666 (Mon–Fri 9am–8pm; Sat–Sun 10am–7pm)."
         ],
         "images": [],
         "links": [],
@@ -420,36 +468,7 @@
         "texts": [],
         "images": [],
         "links": [],
-        "items": [
-          {
-            "title": "In-warranty repairs",
-            "text": "Free repair and exchange within the warranty period",
-            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711677.png",
-            "href": "/cn/zh/customer-service/services/aftersales/",
-            "backgroundColor": null
-          },
-          {
-            "title": "Out-of-warranty repairs",
-            "text": "Out-of-warranty products can also be repaired or exchanged",
-            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711097.png",
-            "href": "/cn/zh/customer-service/services/aftersales/",
-            "backgroundColor": null
-          },
-          {
-            "title": "Immediate on-site repair",
-            "text": "On-site repair services available at stores",
-            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710151.png",
-            "href": "/cn/zh/customer-service/contact-us/",
-            "backgroundColor": null
-          },
-          {
-            "title": "Temporary replacement device",
-            "text": "Backup devices provided when on-site repair is not possible",
-            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711448.png",
-            "href": "/cn/zh/customer-service/contact-us/",
-            "backgroundColor": null
-          }
-        ],
+        "items": [],
         "productIds": [],
         "settings": {
           "traceId": ""
@@ -459,7 +478,7 @@
         "type": "pub-text",
         "title": null,
         "texts": [
-          "Remember to complete warranty registration on the official website to enjoy official warranty coverage."
+          "Remember to register your warranty on our website to enjoy official warranty coverage."
         ],
         "images": [],
         "links": [],
@@ -476,14 +495,33 @@
         "images": [],
         "links": [
           {
-            "href": "/cn/zh/customer-service/warranty-registration/",
-            "text": "Go to warranty registration"
+            "text": "Register warranty",
+            "href": "/cn/zh/customer-service/warranty-registration/"
           }
         ],
         "items": [],
         "productIds": [],
         "settings": {
-          "traceId": "buzud-warranty-cta"
+          "traceId": ""
+        }
+      },
+      {
+        "type": "pub-text",
+        "title": null,
+        "texts": [
+          "Store addresses and opening hours are available on the “Contact us” page."
+        ],
+        "images": [],
+        "links": [
+          {
+            "text": "Contact us",
+            "href": "/cn/zh/customer-service/contact-us/"
+          }
+        ],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
         }
       }
     ]
