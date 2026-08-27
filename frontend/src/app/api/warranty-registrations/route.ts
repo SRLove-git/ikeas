@@ -22,7 +22,7 @@ export async function POST(request: Request) {
   if (!customerName || !phone || !email || !productName || !purchaseDate) {
     return badRequest("请填写姓名、联系方式、商品名称和购买日期");
   }
-  if (!/^1\d{10}$/.test(phone)) {
+  if (!/^[89]\d{7}$/.test(phone)) {
     return badRequest("手机号格式不正确");
   }
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {

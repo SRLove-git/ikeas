@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 public class SmsCodeService {
 
   private static final SecureRandom RANDOM = new SecureRandom();
-  private static final Pattern PHONE = Pattern.compile("^1\\d{10}$");
+  private static final Pattern PHONE = Pattern.compile("^[89]\\d{7}$");
   private static final long SMS_TTL_SECONDS = 5 * 60L;
 
   private record CodeEntry(String code, Instant expiresAt) {}

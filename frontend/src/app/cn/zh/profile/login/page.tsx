@@ -9,6 +9,9 @@ import { apiJson } from "@/lib/api"
 
 type LoginTab = "sms" | "email" | "username"
 
+/** 新加坡手机号：8 位，通常以 8 或 9 开头（不含 +65）。 */
+const SG_PHONE = /^[89]\d{7}$/
+
 export default function LoginPage() {
   const { t } = useTranslation()
   const tabs: [LoginTab, string][] = [
@@ -34,7 +37,7 @@ export default function LoginPage() {
     setError(null)
     setNotice(null)
 
-    if (!/^1\d{10}$/.test(phone.trim())) {
+    if (!SG_PHONE.test(phone.trim())) {
       setError(t("login.invalidPhone"))
       return
     }
@@ -61,7 +64,7 @@ export default function LoginPage() {
 
     try {
       if (tab === "sms") {
-        if (!/^1\d{10}$/.test(phone.trim())) {
+        if (!SG_PHONE.test(phone.trim())) {
           setError(t("login.invalidPhone"))
           return
         }
@@ -152,14 +155,23 @@ export default function LoginPage() {
               <div className="space-y-4">
                 <label className="block">
                   <span className="mb-1.5 block text-sm font-bold">{t("login.phoneLabel")}</span>
-                  <input
-                    type="tel"
-                    inputMode="numeric"
-                    placeholder={t("login.phonePlaceholder")}
-                    value={phone}
-                    onChange={(event) => setPhone(event.target.value)}
-                    className="h-11 w-full border border-ikea-gray-200 px-4 text-sm outline-none transition-colors focus:border-ikea-blue"
-                  />
+                  <div className="flex items-stretch">
+                    <span className="flex h-11 items-center border border-r-0 border-ikea-gray-200 bg-ikea-gray-50 px-3 text-sm font-bold text-ikea-muted">
+                      +65
+                    </span>
+                    <input
+                      type="tel"
+                      inputMode="numeric"
+                      autoComplete="tel-national"
+                      maxLength={8}
+                      placeholder={t("login.phonePlaceholder")}
+                      value={phone}
+                      onChange={(event) =>
+                        setPhone(event.target.value.replace(/\D/g, "").slice(0, 8))
+                      }
+                      className="h-11 w-full border border-ikea-gray-200 px-4 text-sm outline-none transition-colors focus:border-ikea-blue"
+                    />
+                  </div>
                 </label>
                 <div className="flex gap-3">
                   <label className="block flex-1">

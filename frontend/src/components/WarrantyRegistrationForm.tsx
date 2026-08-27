@@ -77,7 +77,7 @@ export function WarrantyRegistrationForm() {
         setError(t("warrantyForm.incomplete"))
         return
       }
-      if (!/^1\d{10}$/.test(form.phone.trim())) {
+      if (!/^[89]\d{7}$/.test(form.phone.trim())) {
         setError(t("warrantyForm.invalidPhone"))
         return
       }

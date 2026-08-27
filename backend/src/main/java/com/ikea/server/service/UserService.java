@@ -13,7 +13,7 @@ import org.springframework.transaction.annotation.Transactional;
 @Service
 public class UserService {
 
-  private static final Pattern PHONE = Pattern.compile("^1\\d{10}$");
+  private static final Pattern PHONE = Pattern.compile("^[89]\\d{7}$");
   private static final Pattern EMAIL =
       Pattern.compile("^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}$");
 
