@@ -1,0 +1,28 @@
+{
+  "brand": "CHUNG YIP HOLDING PTE. LTD.",
+  "brandRelation": "BUZUD 是 CHUNG YIP HOLDING PTE. LTD. 旗下的健康产品品牌；本网站由 CHUNG YIP HOLDING PTE. LTD. 运营，负责商品销售与售后服务。",
+  "hotline": "+65 8381 1666",
+  "hotlineTel": "+6583811666",
+  "whatsappUrl": "https://wa.me/6583811666",
+  "email": "customerservice@chungyip.com",
+  "stores": [
+    {
+      "name": "Raffles Hospital",
+      "address": "585 North Bridge Road, #01-02, Singapore 188770",
+      "phone": "+65 6518 9979",
+      "tel": "+6565189979"
+    },
+    {
+      "name": "Novena Square 2",
+      "address": "10 Sinaran Dr, #03-21, Singapore 307506",
+      "phone": "+65 6518 9269",
+      "tel": "+6565189269"
+    },
+    {
+      "name": "PARKROYAL on Beach Road",
+      "address": "7500 Beach Road, Level 4, Singapore 199591",
+      "phone": "+65 9888 3885",
+      "tel": "+6598883885"
+    }
+  ]
+}
