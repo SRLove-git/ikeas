@@ -71,7 +71,8 @@
     "clearSearch": "清空搜索",
     "browseAllProducts": "浏览所有商品",
     "hotWords": "热门搜索",
-    "recommended": "为您推荐"
+    "recommended": "为您推荐",
+    "viewAllResults": "查看「{{q}}」的全部搜索结果"
   },
   "footer": {
     "chooseLanguage": "选择语言"

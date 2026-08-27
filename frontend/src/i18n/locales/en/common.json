@@ -71,7 +71,8 @@
     "clearSearch": "Clear search",
     "browseAllProducts": "Browse all products",
     "hotWords": "Popular searches",
-    "recommended": "Recommended for you"
+    "recommended": "Recommended for you",
+    "viewAllResults": "View all results for “{{q}}”"
   },
   "footer": {
     "chooseLanguage": "Choose language"

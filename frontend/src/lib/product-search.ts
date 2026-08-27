@@ -87,6 +87,33 @@ function buildSearchMeta(locale: Locale): ProductSearchMeta {
     }
   }
 
+  // 常用简称/别名，保证提示与结果页用同一份数据（如 CGM、CGMS、blood glucose）
+  const ABBREVIATIONS: [RegExp, string][] = [
+    [/continuous glucose monitoring|cgms|动态血糖监测|血糖监测系统/i, "cgm"],
+    [/glucose|血糖|blood sugar|血液分析/i, "blood glucose"],
+    [/blood pressure|血压/i, "bp"],
+    [/pulse oximeter|血氧/i, "spo2"],
+    [/oxygen|制氧|氧/i, "o2"],
+    [/defibrillator|除颤/i, "aed"],
+    [/pregnancy|早孕|hcg/i, "hcg"],
+    [/h\. pylori|幽门/i, "hp"],
+  ]
+  for (const product of allProducts(locale)) {
+    const haystack = [
+      product.name,
+      product.productType,
+      product.designText,
+      ...(categoryNamesById.get(product.id) ?? []),
+    ]
+      .filter(Boolean)
+      .join(" ")
+    for (const [pattern, alias] of ABBREVIATIONS) {
+      if (pattern.test(haystack)) {
+        addAliasName(product.id, alias)
+      }
+    }
+  }
+
   return { categoryNamesById, categorySlugById, aliasNamesById }
 }
 

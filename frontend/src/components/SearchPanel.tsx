@@ -37,6 +37,9 @@ export function SearchPanel({
   const suggestions = keyword
     ? searchHints.filter((hint) => hint.toLowerCase().includes(keyword)).slice(0, 6)
     : searchHints.slice(0, 6)
+  const matchedCategories = keyword
+    ? categories.filter((category) => category.name.toLowerCase().includes(keyword)).slice(0, 4)
+    : []
   const hotCategories = categories.slice(0, 6)
 
   return (
@@ -97,9 +100,30 @@ export function SearchPanel({
                   </li>
                 ))
               ) : (
-                <li className="px-2 py-2 text-sm text-ikea-muted">
-                  {t("search.noSuggestions")}
-                </li>
+                <>
+                  <li>
+                    <Link
+                      href={`/cn/zh/search/products?q=${encodeURIComponent(query.trim())}`}
+                      onClick={onClose}
+                      className="flex items-center gap-3 rounded px-2 py-2 text-sm font-bold text-ikea-blue transition-colors hover:bg-ikea-gray-100"
+                    >
+                      <SearchIcon className="h-4 w-4" />
+                      <span>{t("search.viewAllResults", { q: query.trim() })}</span>
+                    </Link>
+                  </li>
+                  {matchedCategories.map((category) => (
+                    <li key={category.name}>
+                      <Link
+                        href={category.url}
+                        onClick={onClose}
+                        className="flex items-center justify-between gap-3 rounded px-2 py-2 text-sm text-ikea-muted transition-colors hover:bg-ikea-gray-100 hover:text-ikea-black"
+                      >
+                        <span>{category.name}</span>
+                        <ArrowRightIcon className="h-4 w-4" />
+                      </Link>
+                    </li>
+                  ))}
+                </>
               )}
             </ul>
           </section>
