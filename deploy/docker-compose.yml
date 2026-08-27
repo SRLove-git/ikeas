@@ -7,7 +7,7 @@ services:
       dockerfile: deploy/Dockerfile
       target: runner
       args:
-        NEXT_PUBLIC_API_BASE: ${NEXT_PUBLIC_API_BASE:-http://47.84.25.19:8081}
+        NEXT_PUBLIC_API_BASE: ${NEXT_PUBLIC_API_BASE:-https://medical-sg.com}
         NEXT_PUBLIC_BASE_PATH: ${NEXT_PUBLIC_BASE_PATH:-}
     image: buzud-frontend:latest
     container_name: buzud-frontend
@@ -17,7 +17,7 @@ services:
     environment:
       - NODE_ENV=production
       - NEXT_TELEMETRY_DISABLED=1
-      - NEXT_PUBLIC_API_BASE=${NEXT_PUBLIC_API_BASE:-http://47.84.25.19:8081}
+      - NEXT_PUBLIC_API_BASE=${NEXT_PUBLIC_API_BASE:-https://medical-sg.com}
       - NEXT_PUBLIC_BASE_PATH=${NEXT_PUBLIC_BASE_PATH:-}
     env_file:
       - path: ../.env.local
