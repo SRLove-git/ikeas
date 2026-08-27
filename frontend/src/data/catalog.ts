@@ -34,6 +34,7 @@ export interface CatalogProduct {
     resultReading?: string | null;
     precautions?: string | null;
     storage?: string | null;
+    hsaInfo?: string | null;
   } | null;
 }
 

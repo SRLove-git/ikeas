@@ -84,6 +84,8 @@ export interface ProductDetailData {
   precautions?: string | null;
   /** 储存与有效期 */
   storage?: string | null;
+  /** HSA 登记/豁免信息说明（以官方数据库为准） */
+  hsaInfo?: string | null;
 }
 
 export interface ProductData {

@@ -202,6 +202,20 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
                   <p className="text-sm leading-6 text-ikea-muted">{detail.storage}</p>
                 </section>
               ) : null}
+              {detail.hsaInfo ? (
+                <section>
+                  <h2 className="mb-3 text-base font-bold">{t("product.certification")}</h2>
+                  <p className="text-sm leading-6 text-ikea-muted">{detail.hsaInfo}</p>
+                  <a
+                    href="https://www.hsa.gov.sg/medical-devices/registration"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="mt-2 inline-block text-sm font-bold text-ikea-blue hover:underline"
+                  >
+                    {t("product.hsaLink")}
+                  </a>
+                </section>
+              ) : null}
             </div>
           ) : null}
 
