@@ -21,6 +21,33 @@ export function FloatingWidgets() {
   ])
   const [chatInput, setChatInput] = useState("")
   const [sendingChat, setSendingChat] = useState(false)
+  const [colliding, setColliding] = useState(false)
+
+  useEffect(() => {
+    // Cookie 条显示时把页面内容顶上去，避免盖住底部购买按钮
+    if (showCookieBar) {
+      document.body.style.paddingBottom = "56px"
+    } else {
+      document.body.style.paddingBottom = ""
+    }
+    return () => {
+      document.body.style.paddingBottom = ""
+    }
+  }, [showCookieBar])
+
+  useEffect(() => {
+    // 遇到带 data-avoid-floating 的交互区域（如加入购物袋）时自动上移悬浮客服按钮
+    const targets = Array.from(document.querySelectorAll("[data-avoid-floating]"))
+    if (targets.length === 0) return
+    const observer = new IntersectionObserver(
+      (entries) => {
+        setColliding(entries.some((entry) => entry.isIntersecting))
+      },
+      { rootMargin: "-72px 0px -72px 0px" },
+    )
+    targets.forEach((element) => observer.observe(element))
+    return () => observer.disconnect()
+  }, [])
 
   useEffect(() => {
     const onScroll = () => setShowBackTop(window.scrollY > 400)
@@ -63,19 +90,26 @@ export function FloatingWidgets() {
     <>
       {showCookieBar ? (
         <div className="cloud fixed inset-x-0 bottom-0 z-50 border-t border-ikea-gray-200 bg-white shadow-lg">
-          <div className="flex flex-col items-start justify-between gap-3 px-5 py-4 sm:flex-row sm:items-center sm:px-10">
-            <p className="text-sm text-ikea-black">{t("floating.cookieBar")}</p>
+          <div className="flex items-center justify-between gap-3 px-4 py-2.5 sm:px-10 sm:py-4">
+            <p className="line-clamp-1 text-xs text-ikea-black sm:text-sm">
+              {t("floating.cookieBar")}
+            </p>
             <div className="flex shrink-0 items-center gap-3">
-              <button type="button" className="text-sm underline underline-offset-2">
+              <button
+                type="button"
+                className="hidden text-xs underline underline-offset-2 sm:inline"
+              >
                 {t("floating.cookieSettings")}
               </button>
               <button
                 type="button"
-                className="i-btn i-btn--small i-btn--primary"
+                className="i-btn i-btn--small i-btn--primary whitespace-nowrap"
                 onClick={() => setShowCookieBar(false)}
               >
                 <span className="i-btn__inner">
-                  <span className="i-btn__label">{t("floating.cookieAccept")}</span>
+                  <span className="i-btn__label text-xs sm:text-sm">
+                    {t("floating.cookieAccept")}
+                  </span>
                 </span>
               </button>
             </div>
@@ -86,7 +120,9 @@ export function FloatingWidgets() {
       <button
         type="button"
         aria-label={t("floating.customerServiceAria")}
-        className="chat-menu fixed bottom-6 right-6 z-40 flex h-14 w-14 items-center justify-center rounded-full bg-ikea-blue text-white shadow-lg transition-transform hover:scale-105"
+        className={`chat-menu fixed right-6 z-40 flex h-14 w-14 items-center justify-center rounded-full bg-ikea-blue text-white shadow-lg transition-[bottom,transform] hover:scale-105 ${
+          colliding ? "bottom-28" : "bottom-6"
+        }`}
         onClick={() => setShowChat((current) => !current)}
       >
         <ChatIcon width={28} height={28} />

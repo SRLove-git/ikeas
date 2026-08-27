@@ -99,7 +99,7 @@ export function ProductActions({
   }
 
   return (
-    <div className="mt-6 flex flex-col gap-3 sm:flex-row">
+    <div className="mt-6 flex flex-col gap-3 sm:flex-row" data-avoid-floating>
       <button
         type="button"
         onClick={addToBag}
