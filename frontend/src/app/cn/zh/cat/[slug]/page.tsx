@@ -202,16 +202,20 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
                         imgClassName="h-full w-full object-contain object-center"
                       />
                     </div>
-                    <div className="flex flex-col pt-3">
-                      <h3 className="text-sm font-bold leading-[18px] text-ikea-black">
+                    <div className="flex flex-1 flex-col pt-3">
+                      <h3 className="line-clamp-2 min-h-[36px] text-sm font-bold leading-[18px] text-ikea-black">
                         {product.name}
                       </h3>
                       {product.measureText || product.designText ? (
-                        <p className="mt-0.5 text-xs leading-[18px] text-ikea-muted">
+                        <p className="mt-0.5 line-clamp-1 text-xs leading-[18px] text-ikea-muted">
                           {product.measureText || product.designText}
                         </p>
-                      ) : null}
-                      <p className="mt-1.5 text-sm text-ikea-black">{formatPrice(product.price)}</p>
+                      ) : (
+                        <p className="mt-0.5 h-[18px] text-xs leading-[18px] text-ikea-muted" />
+                      )}
+                      <p className="mt-auto pt-1.5 text-sm text-ikea-black">
+                        {formatPrice(product.price)}
+                      </p>
                     </div>
                   </>
                 )

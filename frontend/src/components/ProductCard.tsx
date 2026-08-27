@@ -27,7 +27,7 @@ export function ProductCard({ product }: ProductCardProps) {
         className="aspect-square w-full bg-white p-5 transition-transform duration-300 group-hover:scale-105"
         imgClassName="h-full w-full object-contain object-center drop-shadow-[0_8px_16px_rgba(17,17,17,0.12)]"
       />
-      <div className="flex flex-col pt-3">
+      <div className="flex flex-1 flex-col pt-3">
         {product.labels.length > 0 ? (
           <div className="mb-1.5 flex flex-wrap gap-1">
             {product.labels.map((label) => (
@@ -44,9 +44,15 @@ export function ProductCard({ product }: ProductCardProps) {
             ))}
           </div>
         ) : null}
-        <h3 className="text-sm font-bold leading-[18px] text-ikea-black">{product.name}</h3>
-        {spec ? <p className="mt-0.5 text-xs leading-[18px] text-ikea-muted">{spec}</p> : null}
-        <p className="mt-1.5 text-sm text-ikea-black">
+        <h3 className="line-clamp-2 min-h-[36px] text-sm font-bold leading-[18px] text-ikea-black">
+          {product.name}
+        </h3>
+        {spec ? (
+          <p className="mt-0.5 line-clamp-1 text-xs leading-[18px] text-ikea-muted">{spec}</p>
+        ) : (
+          <p className="mt-0.5 h-[18px] text-xs leading-[18px] text-ikea-muted" />
+        )}
+        <p className="mt-auto pt-1.5 text-sm text-ikea-black">
           {formatPrice(product.price)}
           {product.originalPrice != null ? (
             <span className="ml-2 text-xs text-ikea-muted line-through">
