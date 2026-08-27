@@ -41,20 +41,45 @@ export function generateStaticParams() {
   return params
 }
 
-export default async function CategoryPage({ params }: { params: Promise<{ slug: string }> }) {
+export default async function CategoryPage({
+  params,
+  searchParams,
+}: {
+  params: Promise<{ slug: string }>
+  searchParams: Promise<{ sort?: string; type?: string }>
+}) {
   const { slug } = await params
+  const { sort: rawSort, type: rawType } = await searchParams
   const locale = await getLocale()
   const t = await getServerT(locale)
   const match = findCategoryBySlug(slug, locale)
+  const hrefFor = (sort: string | undefined, type: string | null) => {
+    const params = new URLSearchParams()
+    if (sort) params.set("sort", sort)
+    if (type) params.set("type", type)
+    const query = params.toString()
+    return query ? `/cn/zh/cat/${slug}?${query}` : `/cn/zh/cat/${slug}`
+  }
 
   if (match) {
     const { category, sub } = match
     const title = sub?.name ?? category.name
-    const products = category.products
+    const products = [...category.products]
+    const types = [...new Set(products.map((p) => p.productType).filter(Boolean))] as string[]
     const landingPage = findCatalogPageBySlug(slug, locale)
     const suggestions = allProducts(locale).slice(0, 4)
 
-    const emptyState = products.length === 0 ? (
+    const sort = rawSort === "priceAsc" || rawSort === "priceDesc" || rawSort === "nameAsc" ? rawSort : null
+    const activeType = rawType && types.includes(rawType) ? rawType : null
+    const filtered = activeType ? products.filter((p) => p.productType === activeType) : products
+    const sorted = [...filtered].sort((a, b) => {
+      if (sort === "priceAsc") return (a.price ?? Number.MAX_SAFE_INTEGER) - (b.price ?? Number.MAX_SAFE_INTEGER)
+      if (sort === "priceDesc") return (b.price ?? Number.MIN_SAFE_INTEGER) - (a.price ?? Number.MIN_SAFE_INTEGER)
+      if (sort === "nameAsc") return a.name.localeCompare(b.name, locale === "en" ? "en" : "zh-CN")
+      return 0
+    })
+
+    const emptyState = sorted.length === 0 ? (
       <div className="mt-8 rounded border border-ikea-gray-200 bg-ikea-gray-50 px-6 py-10 text-center">
         <p className="text-sm font-bold">{t("category.emptyTitle")}</p>
         <p className="mt-2 text-sm text-ikea-muted">{t("category.emptyBody")}</p>
@@ -85,7 +110,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
 
             <h1 className="text-2xl font-bold leading-9 lg:text-3xl">{title}</h1>
             <p className="mt-2 text-sm text-ikea-muted">
-              {t("category.itemsCount", { count: products.length })}
+              {t("category.itemsCount", { count: sorted.length })}
             </p>
 
             {category.subs.length > 0 ? (
@@ -106,6 +131,46 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
               <p className="mt-5 text-sm leading-6 text-ikea-muted">{landingPage.description}</p>
             ) : null}
 
+            {types.length > 1 ? (
+              <div className="mt-5 flex flex-wrap items-center gap-2 text-sm">
+                <span className="mr-1 text-ikea-muted">{t("category.filterByType")}</span>
+                <Link
+                  href={hrefFor(sort ?? undefined, null)}
+                  className={`i-pill i-pill--small ${!activeType ? "i-pill--active" : ""}`}
+                >
+                  {t("category.allTypes")}
+                </Link>
+                {types.map((type) => (
+                  <Link
+                    key={type}
+                    href={hrefFor(sort ?? undefined, type)}
+                    className={`i-pill i-pill--small ${activeType === type ? "i-pill--active" : ""}`}
+                  >
+                    {type}
+                  </Link>
+                ))}
+              </div>
+            ) : null}
+
+            <div className="mt-5 flex flex-wrap items-center gap-2 text-sm">
+              <span className="mr-1 text-ikea-muted">{t("search.sortBy")}</span>
+              <Link
+                href={hrefFor(undefined, activeType)}
+                className={`i-pill i-pill--small ${!sort ? "i-pill--active" : ""}`}
+              >
+                {t("search.relevance")}
+              </Link>
+              {(["priceAsc", "priceDesc", "nameAsc"] as const).map((value) => (
+                <Link
+                  key={value}
+                  href={hrefFor(value, activeType)}
+                  className={`i-pill i-pill--small ${sort === value ? "i-pill--active" : ""}`}
+                >
+                  {t(`search.sort.${value}`)}
+                </Link>
+              ))}
+            </div>
+
             {landingPage && landingPage.blocks.length > 0 ? (
               <div className="mt-8">
                 <ContentBlocks blocks={landingPage.blocks} />
@@ -114,7 +179,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
 
             {emptyState ?? (
               <div className="mt-5 grid grid-cols-2 gap-x-4 gap-y-8 md:grid-cols-3 lg:grid-cols-4">
-                {products.map((product) => (
+                {sorted.map((product) => (
                   <ProductCard key={product.id} product={product} />
                 ))}
               </div>
