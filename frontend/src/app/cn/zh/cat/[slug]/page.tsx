@@ -10,6 +10,7 @@ import { formatPrice } from "@/lib/catalog-format"
 import { ContentBlocks } from "@/components/ContentBlocks"
 import { SiteLayout } from "@/components/SiteLayout"
 import { Breadcrumbs } from "@/components/Breadcrumbs"
+import { allProducts } from "@/data/products-index"
 import { getLocale, getServerT } from "@/i18n/server"
 
 export const dynamicParams = false
@@ -51,6 +52,30 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
     const title = sub?.name ?? category.name
     const products = category.products
     const landingPage = findCatalogPageBySlug(slug, locale)
+    const suggestions = allProducts(locale).slice(0, 4)
+
+    const emptyState = products.length === 0 ? (
+      <div className="mt-8 rounded border border-ikea-gray-200 bg-ikea-gray-50 px-6 py-10 text-center">
+        <p className="text-sm font-bold">{t("category.emptyTitle")}</p>
+        <p className="mt-2 text-sm text-ikea-muted">{t("category.emptyBody")}</p>
+        <div className="mt-6 flex flex-col justify-center gap-3 sm:flex-row">
+          <Link href="/cn/zh/all-products/" className="i-btn i-btn--primary flex h-11 items-center justify-center px-8 text-sm font-bold text-white">
+            {t("category.backAllProducts")}
+          </Link>
+          <Link href="/cn/zh/customer-service/contact-us/" className="i-btn i-btn--secondary flex h-11 items-center justify-center px-8 text-sm font-bold">
+            {t("category.contactService")}
+          </Link>
+        </div>
+        <p className="mt-8 text-xs font-bold text-ikea-muted">{t("category.suggestions")}</p>
+        <div className="mt-3 flex flex-wrap justify-center gap-2">
+          {suggestions.map((product) => (
+            <Link key={product.id} href={`/cn/zh/p/${product.slug}/`} className="i-pill i-pill--small">
+              {product.name}
+            </Link>
+          ))}
+        </div>
+      </div>
+    ) : null
 
     return (
       <SiteLayout>
@@ -87,11 +112,13 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
               </div>
             ) : null}
 
-            <div className="mt-5 grid grid-cols-2 gap-x-4 gap-y-8 md:grid-cols-3 lg:grid-cols-4">
-              {products.map((product) => (
-                <ProductCard key={product.id} product={product} />
-              ))}
-            </div>
+            {emptyState ?? (
+              <div className="mt-5 grid grid-cols-2 gap-x-4 gap-y-8 md:grid-cols-3 lg:grid-cols-4">
+                {products.map((product) => (
+                  <ProductCard key={product.id} product={product} />
+                ))}
+              </div>
+            )}
           </div>
         </div>
       </SiteLayout>
@@ -100,6 +127,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
 
   const page = findCatalogPageBySlug(slug)
   if (!page) notFound()
+  const suggestions = allProducts(locale).slice(0, 4)
 
   return (
     <SiteLayout>
@@ -126,46 +154,79 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
             </div>
           ) : null}
 
-          <div className="mt-5 grid grid-cols-2 gap-x-4 gap-y-8 md:grid-cols-3 lg:grid-cols-4">
-            {page.products.map((product) => {
-              const href = productHref(product)
-              const hasDetail = productSlugsWithDetails().has(
-                href.split("/").filter(Boolean).at(-1) ?? "",
-              )
-              const content = (
-                <>
-                  <div className="aspect-square w-full overflow-hidden bg-white">
-                    <SiteImage
-                      src={product.image}
-                      alt={product.name}
-                      className="h-full w-full p-4"
-                      imgClassName="h-full w-full object-contain object-center"
-                    />
-                  </div>
-                  <div className="flex flex-col pt-3">
-                    <h3 className="text-sm font-bold leading-[18px] text-ikea-black">
-                      {product.name}
-                    </h3>
-                    {product.measureText || product.designText ? (
-                      <p className="mt-0.5 text-xs leading-[18px] text-ikea-muted">
-                        {product.measureText || product.designText}
-                      </p>
-                    ) : null}
-                    <p className="mt-1.5 text-sm text-ikea-black">{formatPrice(product.price)}</p>
-                  </div>
-                </>
-              )
-              return hasDetail ? (
-                <Link key={product.id} href={href} className="group flex flex-col">
-                  {content}
+          {page.products.length === 0 ? (
+            <div className="mt-8 rounded border border-ikea-gray-200 bg-ikea-gray-50 px-6 py-10 text-center">
+              <p className="text-sm font-bold">{t("category.emptyTitle")}</p>
+              <p className="mt-2 text-sm text-ikea-muted">{t("category.emptyBody")}</p>
+              <div className="mt-6 flex flex-col justify-center gap-3 sm:flex-row">
+                <Link
+                  href="/cn/zh/all-products/"
+                  className="i-btn i-btn--primary flex h-11 items-center justify-center px-8 text-sm font-bold text-white"
+                >
+                  {t("category.backAllProducts")}
                 </Link>
-              ) : (
-                <div key={product.id} className="flex flex-col">
-                  {content}
-                </div>
-              )
-            })}
-          </div>
+                <Link
+                  href="/cn/zh/customer-service/contact-us/"
+                  className="i-btn i-btn--secondary flex h-11 items-center justify-center px-8 text-sm font-bold"
+                >
+                  {t("category.contactService")}
+                </Link>
+              </div>
+              <p className="mt-8 text-xs font-bold text-ikea-muted">{t("category.suggestions")}</p>
+              <div className="mt-3 flex flex-wrap justify-center gap-2">
+                {suggestions.map((product) => (
+                  <Link
+                    key={product.id}
+                    href={`/cn/zh/p/${product.slug}/`}
+                    className="i-pill i-pill--small"
+                  >
+                    {product.name}
+                  </Link>
+                ))}
+              </div>
+            </div>
+          ) : (
+            <div className="mt-5 grid grid-cols-2 gap-x-4 gap-y-8 md:grid-cols-3 lg:grid-cols-4">
+              {page.products.map((product) => {
+                const href = productHref(product)
+                const hasDetail = productSlugsWithDetails().has(
+                  href.split("/").filter(Boolean).at(-1) ?? "",
+                )
+                const content = (
+                  <>
+                    <div className="aspect-square w-full overflow-hidden bg-white">
+                      <SiteImage
+                        src={product.image}
+                        alt={product.name}
+                        className="h-full w-full p-4"
+                        imgClassName="h-full w-full object-contain object-center"
+                      />
+                    </div>
+                    <div className="flex flex-col pt-3">
+                      <h3 className="text-sm font-bold leading-[18px] text-ikea-black">
+                        {product.name}
+                      </h3>
+                      {product.measureText || product.designText ? (
+                        <p className="mt-0.5 text-xs leading-[18px] text-ikea-muted">
+                          {product.measureText || product.designText}
+                        </p>
+                      ) : null}
+                      <p className="mt-1.5 text-sm text-ikea-black">{formatPrice(product.price)}</p>
+                    </div>
+                  </>
+                )
+                return hasDetail ? (
+                  <Link key={product.id} href={href} className="group flex flex-col">
+                    {content}
+                  </Link>
+                ) : (
+                  <div key={product.id} className="flex flex-col">
+                    {content}
+                  </div>
+                )
+              })}
+            </div>
+          )}
         </div>
       </div>
     </SiteLayout>

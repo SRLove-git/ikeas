@@ -142,7 +142,9 @@
   },
   "allProducts": {
     "title": "所有商品",
-    "currentLabel": "所有商品"
+    "currentLabel": "所有商品",
+    "all": "全部",
+    "itemsCount": "共 {{count}} 件商品"
   },
   "compare": {
     "title": "商品对比",
@@ -1051,7 +1053,12 @@
   "category": {
     "itemsCount_one": "共 {{count}} 件商品",
     "itemsCount_other": "共 {{count}} 件商品",
-    "itemsCount": "共 {{count}} 件商品"
+    "itemsCount": "共 {{count}} 件商品",
+    "emptyTitle": "该分类暂无在售商品",
+    "emptyBody": "商品可能正在补货中，请浏览其他分类或联系客服。",
+    "backAllProducts": "浏览所有商品",
+    "contactService": "联系客服",
+    "suggestions": "为您推荐"
   },
   "ranking": {
     "bestsellers": "热销榜",

@@ -1,72 +1,108 @@
 import Link from "next/link";
-import { catalogData } from "@/data/catalog";
+import { catalogData, type CatalogProduct } from "@/data/catalog";
 import { catalogPages } from "@/lib/catalog-pages";
+import { allProducts } from "@/data/products-index";
+import { ProductCard } from "@/components/ProductCard";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { SiteLayout } from "@/components/SiteLayout";
 import { getLocale, getServerT } from "@/i18n/server";
 
-export default async function AllProductsPage() {
+function toCardProduct(product: {
+  id: string;
+  slug: string;
+  name: string;
+  productType: string | null;
+  designText: string | null;
+  price: number | null;
+  image: string | null;
+  labels: { text: string; backgroundColor: string | null; textColor: string | null }[];
+}): CatalogProduct {
+  return {
+    id: product.id,
+    slug: product.slug,
+    name: product.name,
+    productType: product.productType ?? undefined,
+    designText: product.designText ?? undefined,
+    price: product.price,
+    image: product.image,
+    labels: (product.labels ?? []).map((label) => ({
+      text: label.text,
+      backgroundColor: label.backgroundColor ?? undefined,
+      textColor: label.textColor ?? undefined,
+    })),
+    detail: null,
+  };
+}
+
+export default async function AllProductsPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ cat?: string }>;
+}) {
+  const { cat } = await searchParams;
   const locale = await getLocale();
   const t = await getServerT(locale);
   const { catalogCategories } = catalogData(locale);
-  const allCategories = [
-    ...catalogCategories.map((category) => ({
-      name: category.name,
-      href: `/cn/zh/cat/${category.slug}`,
-      image: category.image,
-      count: category.products.length,
-    })),
-    ...catalogPages(locale)
-      .filter(
-        (page) =>
-          !catalogCategories.some(
-            (category) => category.slug === page.url.split("/").filter(Boolean).at(-1),
-          ),
-      )
-      .map((page) => ({
-        name: page.name,
-        href: page.url,
-        image: page.products[0]?.image ?? null,
-        count: page.total,
-      })),
-  ];
-  // Guard against category/page URL collisions (same slug in both stores).
-  const uniqueCategories = [...new Map(allCategories.map((c) => [c.href, c])).values()];
+  const all = allProducts(locale);
+
+  // 分类筛选：只保留有在售商品的分类，空分类不再展示
+  const categoryMap = new Map<string, { name: string; products: CatalogProduct[] }>();
+  for (const category of catalogCategories) {
+    if (category.products.length > 0) {
+      categoryMap.set(category.slug, { name: category.name, products: category.products });
+    }
+  }
+  for (const page of catalogPages(locale)) {
+    const slug = page.url.split("/").filter(Boolean).at(-1) ?? "";
+    if (categoryMap.has(slug)) continue;
+    const ids = new Set(page.productIds ?? []);
+    const products = all.filter((product) => ids.has(product.id));
+    if (products.length > 0) {
+      categoryMap.set(slug, { name: page.name, products: products.map(toCardProduct) });
+    }
+  }
+
+  const filters = [...categoryMap.entries()].map(([slug, { name, products }]) => ({
+    slug,
+    name,
+    count: products.length,
+  }));
+  const active = cat && categoryMap.has(cat) ? cat : null;
+  const visible = active ? (categoryMap.get(active)?.products ?? []) : all.map(toCardProduct);
 
   return (
     <SiteLayout>
-      <div className="max-w-page mx-auto px-5 py-8 lg:px-10">
-        <Breadcrumbs currentLabel={t("allProducts.currentLabel")} />
-        <h1 className="text-2xl font-bold leading-9 lg:text-3xl">{t("allProducts.title")}</h1>
+      <div className="font-ikea min-h-screen bg-white text-ikea-black">
+        <div className="max-w-page mx-auto px-5 py-8 lg:px-10">
+          <Breadcrumbs currentLabel={t("allProducts.currentLabel")} />
+          <h1 className="text-2xl font-bold leading-9 lg:text-3xl">{t("allProducts.title")}</h1>
+          <p className="mt-2 text-sm text-ikea-muted">
+            {t("allProducts.itemsCount", { count: all.length })}
+          </p>
 
-        <div className="mt-5 grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-4">
-          {uniqueCategories.map((category) => (
+          <div className="mt-6 flex flex-wrap gap-2">
             <Link
-              key={category.href}
-              href={category.href}
-              className="group"
+              href="/cn/zh/all-products/"
+              className={`i-pill i-pill--small ${!active ? "i-pill--active" : ""}`}
             >
-              <div className="aspect-[4/3] w-full overflow-hidden bg-white">
-                {category.image ? (
-                  // eslint-disable-next-line @next/next/no-img-element
-                  <img
-                    src={category.image}
-                    alt={category.name}
-                    loading="lazy"
-                    className="h-full w-full object-contain object-center p-4 transition-transform duration-300 group-hover:scale-105"
-                  />
-                ) : (
-                  <div className="h-full w-full bg-ikea-gray-100" />
-                )}
-              </div>
-              <div className="mt-3 flex items-center justify-between">
-                <span className="text-sm font-bold">{category.name}</span>
-                <span className="text-xs text-ikea-muted">
-                  {t("common.items", { count: category.count })}
-                </span>
-              </div>
+              {t("allProducts.all")}
             </Link>
-          ))}
+            {filters.map((filter) => (
+              <Link
+                key={filter.slug}
+                href={`/cn/zh/all-products/?cat=${filter.slug}`}
+                className={`i-pill i-pill--small ${active === filter.slug ? "i-pill--active" : ""}`}
+              >
+                {filter.name}（{filter.count}）
+              </Link>
+            ))}
+          </div>
+
+          <div className="mt-6 grid grid-cols-2 gap-x-4 gap-y-8 md:grid-cols-3 lg:grid-cols-4">
+            {visible.map((product) => (
+              <ProductCard key={product.id} product={product} />
+            ))}
+          </div>
         </div>
       </div>
     </SiteLayout>

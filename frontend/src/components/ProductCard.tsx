@@ -1,10 +1,19 @@
 import Link from "next/link"
-import type { CatalogProduct } from "@/data/catalog"
 import { formatPrice } from "@/lib/catalog-format"
 import { SiteImage } from "@/components/SiteImage"
 
 interface ProductCardProps {
-  product: CatalogProduct
+  product: {
+    id: string
+    slug: string
+    name: string
+    productType?: string | null
+    designText?: string | null
+    price: number | null
+    originalPrice?: number | null
+    image: string | null
+    labels: { text: string; backgroundColor?: string | null; textColor?: string | null }[]
+  }
 }
 
 export function ProductCard({ product }: ProductCardProps) {
