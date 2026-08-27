@@ -1276,6 +1276,92 @@ function ContactChannelsBlock({ block }: { block: ContentBlock }) {
       <div className={`mt-6 grid grid-cols-1 gap-5 ${grid}`}>
         {items.map((item, i) => {
           const href = item.href ?? "#"
+          const detail = contactDetail(item)
+          const telHref = href.startsWith("tel:") ? href : null
+          const phoneNumber = telHref ? telHref.slice(4).replace(/[^\d]/g, "") : null
+          const addressLine =
+            detail
+              .split("\n")
+              .find((line) => line.includes("Singapore") || /\d{6}/.test(line)) ??
+            detail.split("\n")[0] ??
+            null
+          const isPhoneChannel = item.icon === "phone" && phoneNumber
+          const isStore = item.icon === "store" && telHref && addressLine
+
+          if (isPhoneChannel) {
+            return (
+              <div
+                key={i}
+                className="flex h-full flex-col border border-ikea-gray-200 bg-white p-6"
+              >
+                <span className="flex h-12 w-12 items-center justify-center rounded-full bg-ikea-blue/10 text-ikea-blue">
+                  <ContactIcon name={item.icon} />
+                </span>
+                {item.title ? (
+                  <h3 className="mt-4 text-sm font-bold leading-5">{item.title}</h3>
+                ) : null}
+                {detail ? (
+                  <p className="mt-2 whitespace-pre-line text-xs leading-5 text-ikea-muted">
+                    {detail}
+                  </p>
+                ) : null}
+                <div className="mt-auto flex flex-col gap-2 pt-4">
+                  <a
+                    href={telHref ?? "#"}
+                    className="i-btn i-btn--small i-btn--secondary flex h-9 items-center justify-center text-xs font-bold"
+                  >
+                    {t("content.call")}
+                  </a>
+                  <a
+                    href={`https://wa.me/${phoneNumber}`}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="i-btn i-btn--small i-btn--primary flex h-9 items-center justify-center text-xs font-bold text-white"
+                  >
+                    {t("content.whatsapp")}
+                  </a>
+                </div>
+              </div>
+            )
+          }
+
+          if (isStore) {
+            return (
+              <div
+                key={i}
+                className="flex h-full flex-col border border-ikea-gray-200 bg-white p-6"
+              >
+                <span className="flex h-12 w-12 items-center justify-center rounded-full bg-ikea-blue/10 text-ikea-blue">
+                  <ContactIcon name={item.icon} />
+                </span>
+                {item.title ? (
+                  <h3 className="mt-4 text-sm font-bold leading-5">{item.title}</h3>
+                ) : null}
+                {detail ? (
+                  <p className="mt-2 whitespace-pre-line text-xs leading-5 text-ikea-muted">
+                    {detail}
+                  </p>
+                ) : null}
+                <div className="mt-auto flex flex-col gap-2 pt-4">
+                  <a
+                    href={telHref ?? "#"}
+                    className="i-btn i-btn--small i-btn--secondary flex h-9 items-center justify-center text-xs font-bold"
+                  >
+                    {t("content.call")}
+                  </a>
+                  <a
+                    href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(addressLine)}`}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="i-btn i-btn--small i-btn--primary flex h-9 items-center justify-center text-xs font-bold text-white"
+                  >
+                    {t("content.mapDirections")}
+                  </a>
+                </div>
+              </div>
+            )
+          }
+
           return (
             <BlockLink
               key={i}
