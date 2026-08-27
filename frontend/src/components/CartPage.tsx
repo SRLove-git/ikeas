@@ -2,13 +2,13 @@
 
 import Link from "next/link"
 import { useEffect, useState } from "react"
-import { useRouter } from "next/navigation"
 import { useTranslation } from "react-i18next"
 import { SiteImage } from "@/components/SiteImage"
 import { useAuth } from "@/lib/auth"
 import { Breadcrumbs } from "@/components/Breadcrumbs"
 import { apiJson, type Cart } from "@/lib/api"
 import { formatPrice } from "@/lib/catalog-format"
+import { readLocalCart, updateLocalQuantity } from "@/lib/local-cart"
 
 const DELIVERY_FEE = 9.9
 
@@ -60,7 +60,6 @@ function QuantityField({
 
 export function CartPage() {
   const { t } = useTranslation()
-  const router = useRouter()
   const { user, ready } = useAuth()
   const [cart, setCart] = useState<Cart | null>(null)
   const [loading, setLoading] = useState(true)
@@ -68,17 +67,32 @@ export function CartPage() {
   const [updatingId, setUpdatingId] = useState<string | null>(null)
 
   useEffect(() => {
-    if (ready && !user) {
-      router.replace("/cn/zh/profile/login/")
-      return
-    }
-    if (!ready || !user) return
+    if (!ready) return
 
     let cancelled = false
     const loadCart = async () => {
       setLoading(true)
       setError(null)
       try {
+        if (!user) {
+          const local = readLocalCart()
+          if (!cancelled) {
+            setCart({
+              items: local,
+              totalQuantity: local.reduce((sum, item) => sum + item.quantity, 0),
+              totalPrice: local.reduce(
+                (sum, item) => sum + (item.product.price ?? 0) * item.quantity,
+                0,
+              ),
+            })
+            window.dispatchEvent(
+              new CustomEvent("ikea:cart-changed", {
+                detail: local.reduce((sum, item) => sum + item.quantity, 0),
+              }),
+            )
+          }
+          return
+        }
         const data = await apiJson<Cart>("/cart")
         if (!cancelled) {
           setCart(data)
@@ -95,7 +109,7 @@ export function CartPage() {
     return () => {
       cancelled = true
     }
-  }, [ready, user, router, t])
+  }, [ready, user, t])
 
   const items = cart?.items ?? []
   const subtotal = items.reduce((sum, item) => sum + (item.product.price ?? 0) * item.quantity, 0)
@@ -106,6 +120,18 @@ export function CartPage() {
     setUpdatingId(productId)
     setError(null)
     try {
+      if (!user) {
+        const local = updateLocalQuantity(productId, quantity)
+        setCart({
+          items: local,
+          totalQuantity: local.reduce((sum, item) => sum + item.quantity, 0),
+          totalPrice: local.reduce(
+            (sum, item) => sum + (item.product.price ?? 0) * item.quantity,
+            0,
+          ),
+        })
+        return
+      }
       const data = await apiJson<Cart>(`/cart/items/${productId}`, {
         method: "PATCH",
         body: JSON.stringify({ quantity }),
@@ -119,7 +145,7 @@ export function CartPage() {
     }
   }
 
-  if (!ready || !user) {
+  if (!ready) {
     return (
       <div className="flex min-h-[50vh] items-center justify-center text-sm text-ikea-muted">
         {t("cartPage.entering")}
@@ -136,7 +162,17 @@ export function CartPage() {
           <h1 className="text-2xl font-bold leading-9 lg:text-3xl">
             {t("cartPage.title", { count: totalQuantity })}
           </h1>
-          <p className="text-sm text-ikea-muted">{t("cartPage.hint")}</p>
+          <div className="text-right">
+            <p className="text-sm text-ikea-muted">{t("cartPage.hint")}</p>
+            {!user ? (
+              <p className="mt-1 text-xs text-ikea-muted">
+                {t("cartPage.guestHint")}{" "}
+                <Link href="/cn/zh/profile/login/" className="font-bold text-ikea-blue hover:underline">
+                  {t("cartPage.guestLogin")}
+                </Link>
+              </p>
+            ) : null}
+          </div>
         </div>
 
         <div className="mt-8 grid gap-8 lg:grid-cols-[1fr_380px]">

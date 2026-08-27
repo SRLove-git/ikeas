@@ -98,7 +98,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
                 {t("product.itemNumber", { id: product.id })}
               </p>
 
-              <ProductActions productId={product.id} />
+              <ProductActions productId={product.id} product={product} />
 
               {detail && detail.benefits.length > 0 ? (
                 <ul className="mt-8 space-y-2">

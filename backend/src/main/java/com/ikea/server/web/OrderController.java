@@ -27,7 +27,8 @@ public class OrderController {
   @PostMapping
   public OrderResponse create(
       HttpServletRequest request, @Valid @RequestBody CreateOrderRequest body) {
-    return orderService.create(userId(request), body);
+    // 游客结账：未登录时允许匿名下单（user_id 为空），订单信息以提交的联系方式为准
+    return orderService.create(optionalUserId(request), body);
   }
 
   @GetMapping
@@ -56,14 +57,19 @@ public class OrderController {
   }
 
   private static Long userId(HttpServletRequest request) {
-    String value = (String) request.getAttribute(SecurityConstants.USER_ID_ATTRIBUTE);
-    if (value == null) {
+    Long userId = optionalUserId(request);
+    if (userId == null) {
       throw new UnauthorizedException("请先登录");
     }
+    return userId;
+  }
+
+  private static Long optionalUserId(HttpServletRequest request) {
+    String value = (String) request.getAttribute(SecurityConstants.USER_ID_ATTRIBUTE);
     try {
-      return Long.valueOf(value);
+      return value == null ? null : Long.valueOf(value);
     } catch (NumberFormatException ex) {
-      throw new UnauthorizedException("登录状态无效");
+      return null;
     }
   }
 }

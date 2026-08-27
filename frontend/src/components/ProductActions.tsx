@@ -3,10 +3,20 @@
 import { useEffect, useState } from "react"
 import { useRouter } from "next/navigation"
 import { useTranslation } from "react-i18next"
-import { apiJson, getToken, type Cart } from "@/lib/api"
+import { apiJson, getToken, type Cart, type Product } from "@/lib/api"
 import { HeartIcon } from "@/components/icons"
+import { addLocalItem } from "@/lib/local-cart"
+import type { CatalogProduct } from "@/data/catalog"
 
-export function ProductActions({ productId }: { productId: string }) {
+export function ProductActions({
+  productId,
+  product,
+}: {
+  productId: string
+  product: Pick<CatalogProduct, "slug" | "name" | "price" | "image"> & {
+    productType?: string | null
+  }
+}) {
   const { t } = useTranslation()
   const router = useRouter()
   const [bagState, setBagState] = useState<"idle" | "loading" | "added">("idle")
@@ -34,7 +44,18 @@ export function ProductActions({ productId }: { productId: string }) {
 
   const addToBag = async () => {
     if (!getToken()) {
-      router.push("/cn/zh/profile/login/")
+      const snapshot: Product = {
+        id: productId,
+        slug: product.slug,
+        name: product.name,
+        productType: product.productType ?? null,
+        price: product.price,
+        image: product.image,
+        labels: [],
+      }
+      addLocalItem({ productId, quantity: 1, product: snapshot })
+      setBagState("added")
+      setMessage(t("product.addedToBag"))
       return
     }
     setBagState("loading")

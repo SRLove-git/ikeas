@@ -80,7 +80,6 @@ public class OrderService {
 
   @Transactional
   public OrderResponse create(Long userId, CreateOrderRequest request) {
-    requireUser(userId);
     List<CreateOrderItemRequest> requestedItems = resolveItems(userId, request);
     List<OrderItem> orderItems = buildOrderItems(requestedItems);
 
@@ -104,13 +103,18 @@ public class OrderService {
             .reduce(BigDecimal.ZERO, BigDecimal::add);
     BigDecimal deliveryFee = resolveDeliveryFee(request.deliveryFee());
     String orderNo = generateOrderNo();
-    RedemptionResponse redemption = marketingService.applyOrder(
-        userId,
-        request.couponCode(),
-        request.usePoints(),
-        request.useBalance(),
-        subtotal,
-        orderNo);
+    // 游客下单不参与积分/余额/优惠券抵扣（无账号上下文）
+    RedemptionResponse redemption =
+        userId == null
+            ? new RedemptionResponse(
+                BigDecimal.ZERO, BigDecimal.ZERO, BigDecimal.ZERO, BigDecimal.ZERO)
+            : marketingService.applyOrder(
+                userId,
+                request.couponCode(),
+                request.usePoints(),
+                request.useBalance(),
+                subtotal,
+                orderNo);
     BigDecimal discountAmount = redemption.totalDiscount();
     BigDecimal totalAmount = subtotal.add(deliveryFee).subtract(discountAmount);
     if (totalAmount.signum() < 0) {
@@ -148,7 +152,9 @@ public class OrderService {
       orderItemMapper.insert(item);
     }
 
-    if (request.fromCart() && (request.items() == null || request.items().isEmpty())) {
+    if (userId != null
+        && request.fromCart()
+        && (request.items() == null || request.items().isEmpty())) {
       cartStore.clear(String.valueOf(userId));
     }
 

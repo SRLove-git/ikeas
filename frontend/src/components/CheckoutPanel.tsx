@@ -13,6 +13,7 @@ import {
   type OrderResponse,
 } from "@/lib/api";
 import { formatPrice } from "@/lib/catalog-format";
+import { clearLocalCart, readLocalCart } from "@/lib/local-cart";
 
 const DELIVERY_FEE = 9.9;
 
@@ -42,6 +43,7 @@ export function CheckoutPanel() {
   const [error, setError] = useState<string | null>(null);
   const [submitting, setSubmitting] = useState(false);
   const [marketing, setMarketing] = useState<MarketingAccount | null>(null);
+  const [createdOrder, setCreatedOrder] = useState<OrderResponse | null>(null);
   const [couponCode, setCouponCode] = useState("");
   const [usePoints, setUsePoints] = useState(0);
   const [useBalance, setUseBalance] = useState(0);
@@ -53,17 +55,27 @@ export function CheckoutPanel() {
   });
 
   useEffect(() => {
-    if (ready && !user) {
-      router.replace("/cn/zh/profile/login/");
-      return;
-    }
-    if (!ready || !user) return;
+    if (!ready) return;
 
     let cancelled = false;
     const loadCart = async () => {
       setLoading(true);
       setError(null);
       try {
+        if (!user) {
+          const local = readLocalCart();
+          if (!cancelled) {
+            setCart({
+              items: local,
+              totalQuantity: local.reduce((sum, item) => sum + item.quantity, 0),
+              totalPrice: local.reduce(
+                (sum, item) => sum + (item.product.price ?? 0) * item.quantity,
+                0,
+              ),
+            });
+          }
+          return;
+        }
         const data = await apiJson<Cart>("/cart");
         if (!cancelled) setCart(data);
       } catch (ex) {
@@ -79,7 +91,7 @@ export function CheckoutPanel() {
     return () => {
       cancelled = true;
     };
-  }, [ready, user, router, t]);
+  }, [ready, user, t]);
 
   useEffect(() => {
     if (!ready || !user) return;
@@ -134,6 +146,26 @@ export function CheckoutPanel() {
     setSubmitting(true);
     setError(null);
     try {
+      if (!user) {
+        const order = await apiJson<OrderResponse>("/orders", {
+          method: "POST",
+          body: JSON.stringify({
+            fromCart: false,
+            items: cart.items.map((item) => ({
+              productId: item.productId,
+              quantity: item.quantity,
+            })),
+            deliveryFee: DELIVERY_FEE,
+            customer: form.customer.trim(),
+            phone: form.phone.trim(),
+            address: `${form.region.trim()} ${form.detail.trim()}`.trim(),
+            remark: "",
+          }),
+        });
+        clearLocalCart();
+        setCreatedOrder(order);
+        return;
+      }
       const order = await apiJson<OrderResponse>("/orders", {
         method: "POST",
         body: JSON.stringify({
@@ -158,10 +190,40 @@ export function CheckoutPanel() {
     }
   };
 
-  if (!ready || !user) {
+  if (!ready) {
     return (
       <div className="flex min-h-[50vh] items-center justify-center text-sm text-ikea-muted">
         {t("checkout.entering")}
+      </div>
+    );
+  }
+
+  if (createdOrder) {
+    return (
+      <div className="font-ikea min-h-screen bg-ikea-gray-100 text-ikea-black">
+        <div className="max-w-page mx-auto px-5 py-10 lg:px-10">
+          <Breadcrumbs currentLabel={t("checkout.breadcrumb")} />
+          <div className="mx-auto mt-10 max-w-xl rounded bg-white p-8 text-center">
+            <h1 className="text-xl font-bold leading-8">{t("checkout.guestSuccessTitle")}</h1>
+            <p className="mt-4 text-sm leading-relaxed text-ikea-muted">
+              {t("checkout.guestSuccessBody", { orderNo: createdOrder.orderNo })}
+            </p>
+            <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
+              <Link
+                href="/cn/zh/all-products/"
+                className="i-btn i-btn--primary flex h-11 items-center justify-center px-8 text-sm font-bold text-white"
+              >
+                {t("checkout.continueShopping")}
+              </Link>
+              <Link
+                href="/cn/zh/profile/login/"
+                className="i-btn i-btn--secondary flex h-11 items-center justify-center px-8 text-sm font-bold"
+              >
+                {t("checkout.loginToView")}
+              </Link>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
@@ -172,6 +234,12 @@ export function CheckoutPanel() {
         <Breadcrumbs currentLabel={t("checkout.breadcrumb")} />
 
         <h1 className="text-2xl font-bold leading-9">{t("checkout.title")}</h1>
+
+        {!user ? (
+          <p className="mt-4 rounded border border-ikea-blue/20 bg-ikea-blue/5 px-4 py-3 text-xs leading-relaxed text-ikea-black">
+            {t("checkout.guestNote")}
+          </p>
+        ) : null}
 
         <div className="mt-8 grid gap-8 lg:grid-cols-[1fr_380px]">
           <div className="space-y-6">
@@ -225,6 +293,12 @@ export function CheckoutPanel() {
                     <span className="mt-0.5 block text-xs text-ikea-muted">
                       {t("checkout.standardDeliveryHint")}
                     </span>
+                    <span className="mt-1 block text-xs text-ikea-muted">
+                      {t("checkout.etaHint")}{" "}
+                      <Link href="/cn/zh/customer-service/services/aftersales/" className="font-bold text-ikea-blue hover:underline">
+                        {t("checkout.returnsHint")}
+                      </Link>
+                    </span>
                   </span>
                 </span>
                 <span className="text-sm font-bold">{formatPrice(DELIVERY_FEE)}</span>
@@ -271,55 +345,57 @@ export function CheckoutPanel() {
                   ))}
                 </div>
 
-                <div className="mt-6 space-y-3 border-t border-ikea-gray-200 pt-4">
-                  <label className="block">
-                    <span className="text-xs font-bold text-ikea-muted">{t("checkout.coupon")}</span>
-                    <select
-                      value={couponCode}
-                      onChange={(event) => setCouponCode(event.target.value)}
-                      className="mt-1 h-10 w-full border border-ikea-gray-200 bg-white px-3 text-sm outline-none focus:border-ikea-blue"
-                    >
-                      <option value="">{t("checkout.noCoupon")}</option>
-                      {marketing?.coupons.map((coupon) => (
-                        <option key={coupon.id} value={coupon.code}>
-                          {coupon.name}
-                        </option>
-                      ))}
-                    </select>
-                  </label>
+                {user ? (
+                  <div className="mt-6 space-y-3 border-t border-ikea-gray-200 pt-4">
+                    <label className="block">
+                      <span className="text-xs font-bold text-ikea-muted">{t("checkout.coupon")}</span>
+                      <select
+                        value={couponCode}
+                        onChange={(event) => setCouponCode(event.target.value)}
+                        className="mt-1 h-10 w-full border border-ikea-gray-200 bg-white px-3 text-sm outline-none focus:border-ikea-blue"
+                      >
+                        <option value="">{t("checkout.noCoupon")}</option>
+                        {marketing?.coupons.map((coupon) => (
+                          <option key={coupon.id} value={coupon.code}>
+                            {coupon.name}
+                          </option>
+                        ))}
+                      </select>
+                    </label>
 
-                  <div className="grid grid-cols-2 gap-3">
-                    <label className="block">
-                      <span className="text-xs font-bold text-ikea-muted">
-                        {t("checkout.points", { count: marketing?.points ?? 0 })}
-                      </span>
-                      <input
-                        type="number"
-                        min={0}
-                        max={marketing?.points ?? 0}
-                        value={usePoints}
-                        onChange={(event) => setUsePoints(Number(event.target.value))}
-                        className="mt-1 h-10 w-full border border-ikea-gray-200 px-3 text-sm outline-none focus:border-ikea-blue"
-                      />
-                    </label>
-                    <label className="block">
-                      <span className="text-xs font-bold text-ikea-muted">
-                        {t("checkout.balance", {
-                          value: formatPrice(marketing?.balance ?? 0),
-                        })}
-                      </span>
-                      <input
-                        type="number"
-                        min={0}
-                        max={marketing?.balance ?? 0}
-                        step="0.01"
-                        value={useBalance}
-                        onChange={(event) => setUseBalance(Number(event.target.value))}
-                        className="mt-1 h-10 w-full border border-ikea-gray-200 px-3 text-sm outline-none focus:border-ikea-blue"
-                      />
-                    </label>
+                    <div className="grid grid-cols-2 gap-3">
+                      <label className="block">
+                        <span className="text-xs font-bold text-ikea-muted">
+                          {t("checkout.points", { count: marketing?.points ?? 0 })}
+                        </span>
+                        <input
+                          type="number"
+                          min={0}
+                          max={marketing?.points ?? 0}
+                          value={usePoints}
+                          onChange={(event) => setUsePoints(Number(event.target.value))}
+                          className="mt-1 h-10 w-full border border-ikea-gray-200 px-3 text-sm outline-none focus:border-ikea-blue"
+                        />
+                      </label>
+                      <label className="block">
+                        <span className="text-xs font-bold text-ikea-muted">
+                          {t("checkout.balance", {
+                            value: formatPrice(marketing?.balance ?? 0),
+                          })}
+                        </span>
+                        <input
+                          type="number"
+                          min={0}
+                          max={marketing?.balance ?? 0}
+                          step="0.01"
+                          value={useBalance}
+                          onChange={(event) => setUseBalance(Number(event.target.value))}
+                          className="mt-1 h-10 w-full border border-ikea-gray-200 px-3 text-sm outline-none focus:border-ikea-blue"
+                        />
+                      </label>
+                    </div>
                   </div>
-                </div>
+                ) : null}
 
                 <div className="mt-6 space-y-2 border-t border-ikea-gray-200 pt-4 text-sm">
                   <div className="flex justify-between">

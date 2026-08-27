@@ -273,7 +273,14 @@
     "loadFailed": "加载购物袋失败",
     "emptyCart": "购物袋为空，无法提交订单",
     "incomplete": "请完整填写收货人、手机号和收货地址",
-    "submitFailed": "提交订单失败"
+    "submitFailed": "提交订单失败",
+    "guestNote": "游客结账：订单以您填写的联系与配送信息为准，登录后可在「我的订单」中查看。",
+    "guestSuccessTitle": "订单已提交",
+    "guestSuccessBody": "订单号：{{orderNo}}。请保存订单号；登录后可在「我的订单」中查看该订单。",
+    "continueShopping": "继续购物",
+    "loginToView": "登录查看我的订单",
+    "etaHint": "预计送达：新加坡本地 2–4 个工作日。",
+    "returnsHint": "退换货与保修说明"
   },
   "cartPage": {
     "entering": "正在进入购物袋…",
@@ -289,7 +296,9 @@
     "remove": "移除",
     "checkoutNow": "立即结算({{count}})",
     "taxNote": "含税，不含配送费",
-    "updateFailed": "更新购物袋失败"
+    "updateFailed": "更新购物袋失败",
+    "guestHint": "当前以游客身份购物，登录后可跨设备同步购物袋。",
+    "guestLogin": "登录 / 注册"
   },
   "orders": {
     "loadingPage": "正在加载订单…",
@@ -693,7 +702,7 @@
       }
     },
     "pages": {
-      "title": "页面内容",
+      "title": "标题 *",
       "desc": "管理全部内容页面（房间、灵感、活动、客服、门店、新闻等），可编辑区块化内容。",
       "new": "新建页面",
       "allFamilies": "全部栏目",
@@ -714,7 +723,6 @@
       "deletePage": "删除页面",
       "info": "页面信息",
       "urlHint": "例如 /cn/zh/ideas/my-idea/",
-      "title": "标题 *",
       "family": "栏目（family）",
       "name": "英文名（name）",
       "hero": "Hero 图 URL",
@@ -868,7 +876,7 @@
       "saved": "客服知识库已保存"
     },
     "settings": {
-      "title": "网站设置",
+      "title": "标题",
       "desc": "站点名称、描述等基础配置（作用于浏览器标题与 SEO 描述）。",
       "save": "保存设置",
       "basicInfo": "基础信息",
@@ -877,7 +885,6 @@
       "adminTitle": "后台标题",
       "notFoundCopy": "404 页面文案",
       "surveyCopy": "问卷页面文案",
-      "title": "标题",
       "buttonLabel": "按钮文案",
       "body": "正文",
       "envHint": "后台账号由环境变量控制：ADMIN_USERNAME / ADMIN_PASSWORD（默认 admin / admin123）。运营服务（用户/购物车/收藏/聊天）管理密钥：IKEA_ADMIN_KEY（默认 ikea-admin）。",

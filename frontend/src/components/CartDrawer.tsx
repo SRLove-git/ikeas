@@ -6,6 +6,7 @@ import { useTranslation } from "react-i18next"
 import { SiteImage } from "@/components/SiteImage"
 import { formatPrice } from "@/lib/catalog-format"
 import { apiJson, getToken, type Cart, type CartItem } from "@/lib/api"
+import { readLocalCart, updateLocalQuantity } from "@/lib/local-cart"
 
 export function CartDrawer() {
   const { t } = useTranslation()
@@ -17,7 +18,13 @@ export function CartDrawer() {
 
   const loadCart = useCallback(async () => {
     if (!getToken()) {
-      setItems([])
+      const local = readLocalCart()
+      setItems(local)
+      window.dispatchEvent(
+        new CustomEvent("ikea:cart-changed", {
+          detail: local.reduce((sum, item) => sum + item.quantity, 0),
+        }),
+      )
       setLoading(false)
       return
     }
@@ -61,6 +68,11 @@ export function CartDrawer() {
     setUpdatingId(productId)
     setError(null)
     try {
+      if (!getToken()) {
+        setItems(updateLocalQuantity(productId, next))
+        setUpdatingId(null)
+        return
+      }
       const cart = await apiJson<Cart>(`/cart/items/${productId}`, {
         method: "PATCH",
         body: JSON.stringify({ quantity: next }),

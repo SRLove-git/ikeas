@@ -59,8 +59,13 @@ public class SecurityConfig {
                         "/api/v1/auth/logout",
                         "/api/v1/cart/**",
                         "/api/v1/favorites/**",
-                        "/api/v1/marketing/**",
-                        "/api/v1/orders/**",
+                        "/api/v1/marketing/**")
+                    .authenticated()
+                    .requestMatchers(HttpMethod.POST, "/api/v1/orders")
+                    .permitAll()
+                    .requestMatchers("/api/v1/orders", "/api/v1/orders/**")
+                    .authenticated()
+                    .requestMatchers(
                         "/api/v1/integration/**")
                     .authenticated()
                     .anyRequest()

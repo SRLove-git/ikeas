@@ -273,7 +273,14 @@
     "loadFailed": "Failed to load shopping bag",
     "emptyCart": "Your shopping bag is empty. Please add items before placing an order.",
     "incomplete": "Please fill in the recipient, mobile number and delivery address",
-    "submitFailed": "Failed to place order"
+    "submitFailed": "Failed to place order",
+    "guestNote": "Guest checkout: your order is based on the contact and delivery details you provide. Log in to view it under “My Orders”.",
+    "guestSuccessTitle": "Order submitted",
+    "guestSuccessBody": "Order number: {{orderNo}}. Please save it; after logging in you can view this order under “My Orders”.",
+    "continueShopping": "Continue shopping",
+    "loginToView": "Log in to view my orders",
+    "etaHint": "Estimated delivery: 2–4 business days within Singapore.",
+    "returnsHint": "Returns & warranty policy"
   },
   "cartPage": {
     "entering": "Taking you to your shopping bag…",
@@ -289,7 +296,9 @@
     "remove": "Remove",
     "checkoutNow": "Checkout ({{count}})",
     "taxNote": "Tax included, delivery not included",
-    "updateFailed": "Failed to update shopping bag"
+    "updateFailed": "Failed to update shopping bag",
+    "guestHint": "You are shopping as a guest. Log in to sync your bag across devices.",
+    "guestLogin": "Log in / Sign up"
   },
   "orders": {
     "loadingPage": "Loading your orders…",
@@ -693,7 +702,7 @@
       }
     },
     "pages": {
-      "title": "Pages",
+      "title": "Title *",
       "desc": "Manage all content pages (rooms, inspiration, campaigns, support, stores, news, etc.) with block-based editing.",
       "new": "New page",
       "allFamilies": "All sections",
@@ -714,7 +723,6 @@
       "deletePage": "Delete page",
       "info": "Page information",
       "urlHint": "e.g. /cn/zh/ideas/my-idea/",
-      "title": "Title *",
       "family": "Section (family)",
       "name": "English name (name)",
       "hero": "Hero image URL",
@@ -868,7 +876,7 @@
       "saved": "Knowledge base saved"
     },
     "settings": {
-      "title": "Site settings",
+      "title": "Title",
       "desc": "Basic configuration such as site name and description (used for browser title and SEO description).",
       "save": "Save settings",
       "basicInfo": "Basic information",
@@ -877,7 +885,6 @@
       "adminTitle": "Admin title",
       "notFoundCopy": "404 page copy",
       "surveyCopy": "Survey page copy",
-      "title": "Title",
       "buttonLabel": "Button text",
       "body": "Body",
       "envHint": "Admin credentials are controlled by environment variables: ADMIN_USERNAME / ADMIN_PASSWORD (default admin / admin123). Operations service (users/carts/favourites/chat) admin key: IKEA_ADMIN_KEY (default ikea-admin).",
