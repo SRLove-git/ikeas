@@ -2,6 +2,7 @@ import Link from "next/link";
 import { catalogData } from "@/data/catalog";
 import { catalogPages } from "@/lib/catalog-pages";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { SiteLayout } from "@/components/SiteLayout";
 import { getLocale, getServerT } from "@/i18n/server";
 
 export default async function AllProductsPage() {
@@ -33,7 +34,7 @@ export default async function AllProductsPage() {
   const uniqueCategories = [...new Map(allCategories.map((c) => [c.href, c])).values()];
 
   return (
-    <main className="font-ikea min-h-screen bg-white text-ikea-black">
+    <SiteLayout>
       <div className="max-w-page mx-auto px-5 py-8 lg:px-10">
         <Breadcrumbs currentLabel={t("allProducts.currentLabel")} />
         <h1 className="text-2xl font-bold leading-9 lg:text-3xl">{t("allProducts.title")}</h1>
@@ -68,6 +69,6 @@ export default async function AllProductsPage() {
           ))}
         </div>
       </div>
-    </main>
+    </SiteLayout>
   );
 }
