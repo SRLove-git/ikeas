@@ -239,8 +239,12 @@
       {
         "type": "support-contact-banner",
         "title": "获取帮助",
-        "texts": ["客服热线与在线客服将在工作时间内尽快为您解答，欢迎随时联系我们。"],
-        "images": ["https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-hero-1-wide.jpg"],
+        "texts": [
+          "客服热线与在线客服将在工作时间内尽快为您解答，欢迎随时联系我们。"
+        ],
+        "images": [
+          "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-hero-1-wide.jpg"
+        ],
         "links": [
           {
             "href": "/cn/zh/customer-service/contact-us/",
@@ -270,7 +274,9 @@
       {
         "type": "pub-page-title",
         "title": null,
-        "texts": ["送货服务"],
+        "texts": [
+          "送货服务"
+        ],
         "images": [],
         "links": [],
         "items": [],
@@ -281,10 +287,60 @@
       },
       {
         "type": "pub-text",
-        "title": null,
+        "title": "新加坡本地配送",
         "texts": [
-          "我们可为旗下所有产品安排本地及海外*配送服务。如需了解更多详情或安排配送，欢迎来电或咨询我们的门店工作人员。",
-          "*海外配送覆盖大多数国家与地区，不包括与新加坡存在贸易制裁限制的国家。"
+          "运费：新加坡本地配送运费为固定 SGD 9.9 / 单，以结算页实际展示为准。",
+          "免运门槛：目前暂无免运门槛。",
+          "时效：订单确认后预计 2–4 个工作日送达；偏远地区可能略长。",
+          "配送范围：仅限新加坡境内地址；收货时请当面检查商品包装。"
+        ],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
+        }
+      },
+      {
+        "type": "pub-text",
+        "title": "门店自提",
+        "texts": [
+          "支持到店自提，三家体验门店均提供健康检测与产品体验：",
+          "· Raffles Hospital：585 North Bridge Road, #01-02, Singapore 188770",
+          "· Novena Square 2：10 Sinaran Dr, #03-21, Singapore 307506",
+          "· PARKROYAL on Beach Road：7500 Beach Road, Level 4, Singapore 199591",
+          "下单前请通过客服确认门店库存与自提时间。"
+        ],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
+        }
+      },
+      {
+        "type": "pub-text",
+        "title": "海外配送",
+        "texts": [
+          "海外配送覆盖大多数国家与地区，不包括与新加坡存在贸易制裁限制的国家。",
+          "海外运费按目的地与包裹重量报价，请在下单前联系客服确认费用与预计送达时间。"
+        ],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
+        }
+      },
+      {
+        "type": "pub-text",
+        "title": "大件商品与特殊安排",
+        "texts": [
+          "轮椅、制氧机等大件商品可能产生额外配送费，且需要确认上楼与安装安排，请联系客服单独确认。",
+          "客服热线：+65 8381 1666（周一至周五 9am–8pm；周六周日 10am–7pm）。"
         ],
         "images": [],
         "links": [],
@@ -300,36 +356,7 @@
         "texts": [],
         "images": [],
         "links": [],
-        "items": [
-          {
-            "title": "本地配送",
-            "text": "新加坡全岛送货上门",
-            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711103.png",
-            "href": "/cn/zh/customer-service/services/delivery/",
-            "backgroundColor": null
-          },
-          {
-            "title": "海外配送",
-            "text": "覆盖全球大部分地区",
-            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710595.png",
-            "href": "/cn/zh/customer-service/services/delivery/",
-            "backgroundColor": null
-          },
-          {
-            "title": "门店自提咨询",
-            "text": "到店咨询配送与取货安排",
-            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712582.png",
-            "href": "/cn/zh/customer-service/contact-us/",
-            "backgroundColor": null
-          },
-          {
-            "title": "专人安排",
-            "text": "可电话联系或到店由专人协助",
-            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711448.png",
-            "href": "/cn/zh/customer-service/contact-us/",
-            "backgroundColor": null
-          }
-        ],
+        "items": [],
         "productIds": [],
         "settings": {
           "traceId": ""
@@ -338,30 +365,15 @@
       {
         "type": "pub-text",
         "title": null,
-        "texts": ["需要安排配送？请联系我们的客服团队。"],
+        "texts": [
+          "需要安排配送？请联系我们的客服团队。"
+        ],
         "images": [],
         "links": [],
         "items": [],
         "productIds": [],
         "settings": {
           "traceId": ""
-        }
-      },
-      {
-        "type": "pub-button-link",
-        "title": null,
-        "texts": [],
-        "images": [],
-        "links": [
-          {
-            "href": "/cn/zh/customer-service/contact-us/",
-            "text": "联系客服"
-          }
-        ],
-        "items": [],
-        "productIds": [],
-        "settings": {
-          "traceId": "buzud-delivery-cta"
         }
       }
     ]
@@ -377,7 +389,9 @@
       {
         "type": "pub-page-title",
         "title": null,
-        "texts": ["售后服务"],
+        "texts": [
+          "售后服务"
+        ],
         "images": [],
         "links": [],
         "items": [],
@@ -444,7 +458,9 @@
       {
         "type": "pub-text",
         "title": null,
-        "texts": ["记得在官网完成保修注册，享受官方质保保障。"],
+        "texts": [
+          "记得在官网完成保修注册，享受官方质保保障。"
+        ],
         "images": [],
         "links": [],
         "items": [],
@@ -483,7 +499,9 @@
       {
         "type": "pub-page-title",
         "title": null,
-        "texts": ["尊享权益"],
+        "texts": [
+          "尊享权益"
+        ],
         "images": [],
         "links": [],
         "items": [],
@@ -509,7 +527,9 @@
       {
         "type": "pub-page-title",
         "title": null,
-        "texts": ["健康体验项目"],
+        "texts": [
+          "健康体验项目"
+        ],
         "images": [],
         "links": [],
         "items": [],
@@ -589,7 +609,9 @@
       {
         "type": "corporate-text",
         "title": "快捷联系",
-        "texts": ["选择最适合您的联系方式，我们将在工作时间内尽快回复。"],
+        "texts": [
+          "选择最适合您的联系方式，我们将在工作时间内尽快回复。"
+        ],
         "images": [],
         "links": [],
         "items": [],
@@ -646,7 +668,9 @@
       {
         "type": "corporate-text",
         "title": "门店与体验中心",
-        "texts": ["欢迎到店体验健康检测与产品咨询，三家体验门店均提供专业服务。"],
+        "texts": [
+          "欢迎到店体验健康检测与产品咨询，三家体验门店均提供专业服务。"
+        ],
         "images": [],
         "links": [],
         "items": [],
@@ -696,7 +720,9 @@
       {
         "type": "contact-list",
         "title": "其他联系事项",
-        "texts": ["根据您的需求选择对应的联系渠道，我们承诺对您的咨询严格保密。"],
+        "texts": [
+          "根据您的需求选择对应的联系渠道，我们承诺对您的咨询严格保密。"
+        ],
         "images": [],
         "links": [],
         "items": [
@@ -749,7 +775,9 @@
       {
         "type": "contact-list",
         "title": "更多帮助",
-        "texts": ["以下页面可帮助您快速解决常见问题。"],
+        "texts": [
+          "以下页面可帮助您快速解决常见问题。"
+        ],
         "images": [],
         "links": [],
         "items": [
