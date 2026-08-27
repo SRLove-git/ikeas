@@ -1,5 +1,6 @@
 "use client"
 
+import { useEffect, useState } from "react"
 import Link from "next/link"
 import { useTranslation } from "react-i18next"
 
@@ -12,8 +13,19 @@ interface HeroVideoProps {
 
 export function HeroVideo({ video, poster, href, alt }: HeroVideoProps) {
   const { t } = useTranslation()
+  const [isMobile, setIsMobile] = useState(false)
   const fallbackAlt = t("home.promoVideoAria")
-  const media = video ? (
+
+  useEffect(() => {
+    const media = window.matchMedia("(max-width: 767px)")
+    const update = () => setIsMobile(media.matches)
+    update()
+    media.addEventListener("change", update)
+    return () => media.removeEventListener("change", update)
+  }, [])
+
+  // 手机端先显示压缩封面，不自动下载整段视频，提升首屏速度
+  const media = video && !isMobile ? (
     <video
       className="product"
       src={video}
@@ -24,6 +36,14 @@ export function HeroVideo({ video, poster, href, alt }: HeroVideoProps) {
       playsInline
       preload="metadata"
       aria-label={alt ?? fallbackAlt}
+    />
+  ) : poster ? (
+    // eslint-disable-next-line @next/next/no-img-element
+    <img
+      src={poster}
+      alt={alt ?? fallbackAlt}
+      className="product h-full w-full object-contain"
+      decoding="async"
     />
   ) : (
     <div className="flex h-full w-full flex-col items-center justify-center gap-5 bg-ikea-blue text-white">
