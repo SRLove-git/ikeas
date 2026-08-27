@@ -27,6 +27,7 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
   const [bar, setBar] = useState({ width: 0, left: 0, opacity: 0 })
   const [query, setQuery] = useState("")
   const [searchOpen, setSearchOpen] = useState(false)
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [cartCount, setCartCount] = useState(0)
   const { user } = useAuth()
 
@@ -90,6 +91,7 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
   }
   const openSearch = () => {
     closeMenu()
+    setMobileMenuOpen(false)
     setSearchOpen(true)
   }
   const closeSearch = () => setSearchOpen(false)
@@ -229,9 +231,43 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
                       </span>
                     </div>
                   </div>
+                  <button
+                    type="button"
+                    aria-label={t("header.menuLabel")}
+                    aria-expanded={mobileMenuOpen}
+                    className="ml-3 flex h-10 w-10 shrink-0 items-center justify-center text-ikea-black md:hidden"
+                    onClick={() => setMobileMenuOpen((current) => !current)}
+                  >
+                    {mobileMenuOpen ? (
+                      <svg viewBox="0 0 24 24" fill="currentColor" className="h-6 w-6" aria-hidden="true">
+                        <path d="m12 10.6 6-6 1.4 1.4-6 6 6 6-1.4 1.4-6-6-6 6L4.6 18l6-6-6-6L6 4.6z" />
+                      </svg>
+                    ) : (
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" className="h-6 w-6" aria-hidden="true">
+                        <path d="M4 6h16M4 12h16M4 18h16" />
+                      </svg>
+                    )}
+                  </button>
                 </div>
               </div>
-              <div className="header_container_menu_content">
+              {mobileMenuOpen ? (
+                <div className="border-t border-ikea-gray-200 bg-white px-5 py-3 md:hidden">
+                  <ul className="space-y-1">
+                    {menuItems.map((item) => (
+                      <li key={item.label}>
+                        <Link
+                          href={item.href}
+                          onClick={() => setMobileMenuOpen(false)}
+                          className="block py-2.5 text-sm font-bold text-ikea-black"
+                        >
+                          {item.label}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ) : null}
+              <div className="header_container_menu_content hidden md:block">
                 <ul className="header_container_center_ul" onMouseLeave={hideActiveBar}>
                   <span
                     className="active-bar"

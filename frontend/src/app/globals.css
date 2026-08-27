@@ -140,6 +140,7 @@
 
   body {
     margin: 0;
+    overflow-x: clip;
     font-size: 14px;
     line-height: 21px;
     color: #111111;

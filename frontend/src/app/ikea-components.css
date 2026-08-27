@@ -1590,7 +1590,7 @@ button.swiper-pagination-bullet{-webkit-appearance:none;-moz-appearance:none;app
   .nav-header_container .header_container_top .header_container_menu_content {
     height: 40px;
     justify-content: flex-start;
-    overflow-x: auto;
+    display: none; /* 手机端改用汉堡菜单，避免横向滚动 */
   }
 
   .nav-header_container .header_container_center_ul {
