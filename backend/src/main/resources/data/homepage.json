@@ -9,7 +9,16 @@
       "href": "/cn/zh/customer-service/contact-us/"
     }
   ],
-  "searchHints": ["早孕检测", "血压计", "智能手表", "血糖仪", "幽门螺杆菌"],
+  "searchHints": [
+    "早孕检测",
+    "血压计",
+    "智能手表",
+    "血糖仪",
+    "幽门螺杆菌",
+    "CGM 动态血糖监测",
+    "CGMS",
+    "血氧仪"
+  ],
   "navMenuItems": [
     {
       "label": "所有产品",
@@ -42,7 +51,10 @@
     },
     {
       "name": "简易氧气面罩",
-      "subCategories": ["Simple Oxygen Mask (adult)", "Simple Oxygen Mask (child)"]
+      "subCategories": [
+        "Simple Oxygen Mask (adult)",
+        "Simple Oxygen Mask (child)"
+      ]
     },
     {
       "name": "便携式制氧机",
@@ -97,7 +109,10 @@
     },
     {
       "name": "鼻氧管",
-      "subCategories": ["Nasal Oxygen Cannula (5m) ", "Nasal Oxygen Cannula (2m)"]
+      "subCategories": [
+        "Nasal Oxygen Cannula (5m) ",
+        "Nasal Oxygen Cannula (2m)"
+      ]
     },
     {
       "name": "制氧机",
@@ -112,7 +127,10 @@
     },
     {
       "name": "高流量鼻氧管",
-      "subCategories": ["High-Flow Nasal Cannula NeoHiF-i5", "High-Flow Nasal Cannula NeoHiF-i7"]
+      "subCategories": [
+        "High-Flow Nasal Cannula NeoHiF-i5",
+        "High-Flow Nasal Cannula NeoHiF-i7"
+      ]
     },
     {
       "name": "血糖试纸",
@@ -136,11 +154,16 @@
     },
     {
       "name": "氧气雾化管路及口含器",
-      "subCategories": ["Oxygen Nebulizer Tubing and Mouthpiece"]
+      "subCategories": [
+        "Oxygen Nebulizer Tubing and Mouthpiece"
+      ]
     },
     {
       "name": "转移椅",
-      "subCategories": ["BUZUD Manual Transfer Chair ", "Electric Transfer Wheelchair DY077602"]
+      "subCategories": [
+        "BUZUD Manual Transfer Chair ",
+        "Electric Transfer Wheelchair DY077602"
+      ]
     },
     {
       "name": "尿酸试纸",
@@ -151,7 +174,9 @@
     },
     {
       "name": "血脂检测试纸",
-      "subCategories": ["BUZUD Blood Lipid Test Strip PFS 30 (20 strips/box)"]
+      "subCategories": [
+        "BUZUD Blood Lipid Test Strip PFS 30 (20 strips/box)"
+      ]
     },
     {
       "name": "血液分析仪",
@@ -181,11 +206,15 @@
     },
     {
       "name": "酒精棉片",
-      "subCategories": ["BUZUD Alcohol Swab"]
+      "subCategories": [
+        "BUZUD Alcohol Swab"
+      ]
     },
     {
       "name": "呼吸护理",
-      "subCategories": ["BUZUD Air-compressing Nebulizer 407A"]
+      "subCategories": [
+        "BUZUD Air-compressing Nebulizer 407A"
+      ]
     },
     {
       "name": "助听器",
@@ -242,7 +271,9 @@
     },
     {
       "name": "自动体外除颤器（AED）",
-      "subCategories": ["Battery pack for BUZUD Automatic External Defibrillator 7000"]
+      "subCategories": [
+        "Battery pack for BUZUD Automatic External Defibrillator 7000"
+      ]
     },
     {
       "name": "身体成分秤",
@@ -651,7 +682,9 @@
         "title": "HCG Pregnancy Rapid Test",
         "desc": "快速检测试剂",
         "price": "SGD 4.80",
-        "tags": ["BUZUD"],
+        "tags": [
+          "BUZUD"
+        ],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710595.png"
       },
@@ -664,7 +697,9 @@
         "title": "LH Ovulation Rapid Test",
         "desc": "快速检测试剂",
         "price": "SGD 5.80",
-        "tags": ["BUZUD"],
+        "tags": [
+          "BUZUD"
+        ],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710618.png"
       },
@@ -677,7 +712,9 @@
         "title": "Vaginal pH Rapid Test Panel",
         "desc": "快速检测试剂",
         "price": "SGD 16.00",
-        "tags": ["BUZUD"],
+        "tags": [
+          "BUZUD"
+        ],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710649.png"
       },
@@ -690,7 +727,9 @@
         "title": "BUZUD Watch Vibrance",
         "desc": "智能手表",
         "price": "SGD 237.00",
-        "tags": ["BUZUD"],
+        "tags": [
+          "BUZUD"
+        ],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712582.png"
       },
@@ -703,7 +742,9 @@
         "title": "BUZUD Pen Needles Plus Pro 32G 6mm ",
         "desc": "胰岛素笔针",
         "price": "SGD 26.00",
-        "tags": ["BUZUD"],
+        "tags": [
+          "BUZUD"
+        ],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711530-1.png"
       },
@@ -716,7 +757,9 @@
         "title": "BUZUD Fingertip Pulse Oximeter 70B",
         "desc": "脉搏血氧仪",
         "price": "SGD 57.00",
-        "tags": ["BUZUD"],
+        "tags": [
+          "BUZUD"
+        ],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711479-1.png"
       },
@@ -729,7 +772,9 @@
         "title": "BUZUD Infrared Ear Thermometer BZD100",
         "desc": "体温计",
         "price": "SGD 87.00",
-        "tags": ["BUZUD"],
+        "tags": [
+          "BUZUD"
+        ],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711677-1.jpg"
       },
@@ -742,7 +787,9 @@
         "title": "BUZUD Home Body Composition Scale CF509",
         "desc": "身体成分秤",
         "price": "SGD 37.00",
-        "tags": ["BUZUD"],
+        "tags": [
+          "BUZUD"
+        ],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711448-1.jpg"
       },
@@ -755,7 +802,9 @@
         "title": "COVID-19/Flu A&B/RSV/Adeno Ag Combo Rapid Test Cassette (Swab) (1 test/box)",
         "desc": "快速检测试剂",
         "price": "SGD 17.00",
-        "tags": ["BUZUD"],
+        "tags": [
+          "BUZUD"
+        ],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712209.png"
       },
@@ -768,7 +817,9 @@
         "title": "H.pylori Antigen Rapid Test",
         "desc": "快速检测试剂",
         "price": "SGD 18.00",
-        "tags": ["BUZUD"],
+        "tags": [
+          "BUZUD"
+        ],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710588.png"
       },
@@ -781,7 +832,9 @@
         "title": "BUZUD Infrared Ear Thermometer BZD100",
         "desc": "体温计",
         "price": "SGD 87.00",
-        "tags": ["BUZUD"],
+        "tags": [
+          "BUZUD"
+        ],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711677.png"
       },
@@ -794,7 +847,9 @@
         "title": "BUZUD Home Body Composition Scale CF509",
         "desc": "智能体重秤",
         "price": "SGD 37.00",
-        "tags": ["BUZUD"],
+        "tags": [
+          "BUZUD"
+        ],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711448.png"
       }
