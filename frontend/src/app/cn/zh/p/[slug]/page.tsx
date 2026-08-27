@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation"
+import Link from "next/link"
 import { catalogData } from "@/data/catalog"
 import { findProductBySlug, formatPrice } from "@/lib/catalog"
 import { ProductGallery } from "@/components/ProductGallery"
@@ -100,6 +101,24 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
 
               <ProductActions productId={product.id} product={product} />
 
+              <div className="mt-6 space-y-1.5 text-xs leading-5 text-ikea-muted">
+                <p>{t("product.stockNote")}</p>
+                <div className="flex flex-wrap gap-x-4 gap-y-1">
+                  <Link
+                    href="/cn/zh/customer-service/services/delivery/"
+                    className="font-bold text-ikea-blue hover:underline"
+                  >
+                    {t("product.deliveryLink")}
+                  </Link>
+                  <Link
+                    href="/cn/zh/customer-service/services/aftersales/"
+                    className="font-bold text-ikea-blue hover:underline"
+                  >
+                    {t("product.returnsWarrantyLink")}
+                  </Link>
+                </div>
+              </div>
+
               {detail && detail.benefits.length > 0 ? (
                 <ul className="mt-8 space-y-2">
                   {detail.benefits.map((benefit) => (
@@ -115,6 +134,18 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
 
           {detail ? (
             <div className="mt-14 grid gap-8 border-t border-ikea-gray-200 pt-10 md:grid-cols-2 lg:grid-cols-4">
+              {detail.intendedFor ? (
+                <section>
+                  <h2 className="mb-3 text-base font-bold">{t("product.intendedFor")}</h2>
+                  <p className="text-sm leading-6 text-ikea-muted">{detail.intendedFor}</p>
+                </section>
+              ) : null}
+              {detail.packageCount ? (
+                <section>
+                  <h2 className="mb-3 text-base font-bold">{t("product.packageCount")}</h2>
+                  <p className="text-sm leading-6 text-ikea-muted">{detail.packageCount}</p>
+                </section>
+              ) : null}
               {detail.description ? (
                 <section>
                   <h2 className="mb-3 text-base font-bold">{t("product.description")}</h2>
@@ -145,6 +176,30 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
                       <li key={care}>· {care}</li>
                     ))}
                   </ul>
+                </section>
+              ) : null}
+              {detail.usage ? (
+                <section>
+                  <h2 className="mb-3 text-base font-bold">{t("product.usage")}</h2>
+                  <p className="text-sm leading-6 text-ikea-muted">{detail.usage}</p>
+                </section>
+              ) : null}
+              {detail.resultReading ? (
+                <section>
+                  <h2 className="mb-3 text-base font-bold">{t("product.resultReading")}</h2>
+                  <p className="text-sm leading-6 text-ikea-muted">{detail.resultReading}</p>
+                </section>
+              ) : null}
+              {detail.precautions ? (
+                <section>
+                  <h2 className="mb-3 text-base font-bold">{t("product.precautions")}</h2>
+                  <p className="text-sm leading-6 text-ikea-muted">{detail.precautions}</p>
+                </section>
+              ) : null}
+              {detail.storage ? (
+                <section>
+                  <h2 className="mb-3 text-base font-bold">{t("product.storage")}</h2>
+                  <p className="text-sm leading-6 text-ikea-muted">{detail.storage}</p>
                 </section>
               ) : null}
             </div>

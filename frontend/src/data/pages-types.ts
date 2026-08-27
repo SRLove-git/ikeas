@@ -72,6 +72,18 @@ export interface ProductDetailData {
   materials: string[];
   care: string[];
   description: string | null;
+  /** 适用人群 */
+  intendedFor?: string | null;
+  /** 包装数量 */
+  packageCount?: string | null;
+  /** 使用方法 */
+  usage?: string | null;
+  /** 结果说明 */
+  resultReading?: string | null;
+  /** 注意事项 */
+  precautions?: string | null;
+  /** 储存与有效期 */
+  storage?: string | null;
 }
 
 export interface ProductData {

@@ -190,19 +190,19 @@
           {
             "title": "送货服务",
             "text": "",
-            "image": "/images/cms/buzud-service-delivery.png",
+            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-service-delivery.png",
             "href": "/cn/zh/customer-service/services/delivery/"
           },
           {
             "title": "售后服务",
             "text": "",
-            "image": "/images/cms/buzud-service-aftersales.png",
+            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-service-aftersales.png",
             "href": "/cn/zh/customer-service/services/aftersales/"
           },
           {
             "title": "尊享权益",
             "text": "",
-            "image": "/images/cms/buzud-service-privileges.png",
+            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-service-privileges.png",
             "href": "/cn/zh/customer-service/services/privileges/"
           }
         ],
@@ -240,7 +240,7 @@
         "type": "support-contact-banner",
         "title": "获取帮助",
         "texts": ["客服热线与在线客服将在工作时间内尽快为您解答，欢迎随时联系我们。"],
-        "images": ["/images/cms/buzud-hero-1-wide.jpg"],
+        "images": ["https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-hero-1-wide.jpg"],
         "links": [
           {
             "href": "/cn/zh/customer-service/contact-us/",
@@ -304,28 +304,28 @@
           {
             "title": "本地配送",
             "text": "新加坡全岛送货上门",
-            "image": "/images/products/buzud-8885020711103.png",
+            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711103.png",
             "href": "/cn/zh/customer-service/services/delivery/",
             "backgroundColor": null
           },
           {
             "title": "海外配送",
             "text": "覆盖全球大部分地区",
-            "image": "/images/products/buzud-8885020710595.png",
+            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710595.png",
             "href": "/cn/zh/customer-service/services/delivery/",
             "backgroundColor": null
           },
           {
             "title": "门店自提咨询",
             "text": "到店咨询配送与取货安排",
-            "image": "/images/products/buzud-8885020712582.png",
+            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712582.png",
             "href": "/cn/zh/customer-service/contact-us/",
             "backgroundColor": null
           },
           {
             "title": "专人安排",
             "text": "可电话联系或到店由专人协助",
-            "image": "/images/products/buzud-8885020711448.png",
+            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711448.png",
             "href": "/cn/zh/customer-service/contact-us/",
             "backgroundColor": null
           }
@@ -410,28 +410,28 @@
           {
             "title": "保修期内维修",
             "text": "质保期内免费维修换货",
-            "image": "/images/products/buzud-8885020711677.png",
+            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711677.png",
             "href": "/cn/zh/customer-service/services/aftersales/",
             "backgroundColor": null
           },
           {
             "title": "保修期外维修",
             "text": "超保产品也可送修换货",
-            "image": "/images/products/buzud-8885020711097.png",
+            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711097.png",
             "href": "/cn/zh/customer-service/services/aftersales/",
             "backgroundColor": null
           },
           {
             "title": "现场即时维修",
             "text": "门店提供现场维修服务",
-            "image": "/images/products/buzud-8885020710151.png",
+            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710151.png",
             "href": "/cn/zh/customer-service/contact-us/",
             "backgroundColor": null
           },
           {
             "title": "临时替代设备",
             "text": "无法现场修复时提供备用机",
-            "image": "/images/products/buzud-8885020711448.png",
+            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711448.png",
             "href": "/cn/zh/customer-service/contact-us/",
             "backgroundColor": null
           }
@@ -528,28 +528,28 @@
           {
             "title": "体验 A",
             "text": "氧疗焕活 · 体成分分析 · 血糖+尿酸分析 · 血压检测",
-            "image": "/images/products/buzud-8885020711448.png",
+            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711448.png",
             "href": "/cn/zh/customer-service/contact-us/",
             "backgroundColor": null
           },
           {
             "title": "体验 B",
             "text": "氧疗焕活 · 体成分分析 · 血糖+血脂分析 · 血压检测",
-            "image": "/images/products/buzud-8885020710151.png",
+            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710151.png",
             "href": "/cn/zh/customer-service/contact-us/",
             "backgroundColor": null
           },
           {
             "title": "门店地址",
             "text": "585 North Bridge Road #01-02 Raffles Hospital",
-            "image": "/images/products/buzud-8885020712582.png",
+            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712582.png",
             "href": "/cn/zh/customer-service/contact-us/",
             "backgroundColor": null
           },
           {
             "title": "立即选购",
             "text": "前往商城选购 BUZUD 健康产品",
-            "image": "/images/products/buzud-8885020710595.png",
+            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710595.png",
             "href": "/cn/zh/all-products/",
             "backgroundColor": null
           }

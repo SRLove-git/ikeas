@@ -28,6 +28,12 @@ export interface CatalogProduct {
     materials: string[];
     care: string[];
     description?: string | null;
+    intendedFor?: string | null;
+    packageCount?: string | null;
+    usage?: string | null;
+    resultReading?: string | null;
+    precautions?: string | null;
+    storage?: string | null;
   } | null;
 }
 

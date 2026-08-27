@@ -6,7 +6,7 @@
     "title": "隐私政策",
     "name": "CHUNG YIP 隐私政策",
     "hero": null,
-    "subtitle": "本页面为参考公开资料整理的占位内容，正式隐私政策将在此发布。",
+    "subtitle": "CHUNG YIP 重视您的隐私。本政策说明 BUZUD 如何收集、使用、披露和保护您的个人信息，以及您享有的相关权利。",
     "blocks": [
       {
         "type": "pub-text",
@@ -14,27 +14,29 @@
         "texts": [
           "CHUNG YIP HOLDING PTE. LTD.（下文简称“我们”、“BUZUD”或“本公司”）深知隐私对您的重要性，并会尊重您的隐私。请在向 BUZUD 提交个人信息之前，阅读、了解本《隐私政策》（下文简称“本政策”）。本政策适用于显示本隐私政策或链接至本隐私政策的 BUZUD 网站和产品、服务。",
           "本政策阐述了 BUZUD 如何处理您的个人信息，但本政策可能并不涉及所有可能的数据处理情境。有关收集产品或服务特定数据的信息，可能由 BUZUD 在特定产品或服务发布的专门隐私通知或补充声明中阐述，或者在收集数据时提供的通知中发布。",
-          "我们制定本政策的目的在于帮助您了解以下内容：\n- 我们如何收集和使用您的个人信息\n- 我们如何使用 Cookie 和同类技术\n- 我们如何披露您的个人信息\n- 您在个人信息处理活动中的权利\n- 我们如何保护和留存您的个人信息\n- 我们如何处理儿童的个人信息\n- 第三方提供商及其服务\n- 您的个人信息如何在全球范围转移\n- 本政策如何更新\n- 如何联系我们",
-          "（占位内容：本政策参考公开资料整理，正式版本待公司确认后替换；公司注册信息、联系方式、生效日期等以正式版为准。）"
+          "我们制定本政策的目的在于帮助您了解以下内容：\n- 我们如何收集和使用您的个人信息\n- 我们如何使用 Cookie 和同类技术\n- 我们如何披露您的个人信息\n- 您在个人信息处理活动中的权利\n- 我们如何保护和留存您的个人信息\n- 我们如何处理儿童的个人信息\n- 第三方提供商及其服务\n- 您的个人信息如何在全球范围转移\n- 本政策如何更新\n- 如何联系我们"
         ],
         "images": [],
         "links": [],
         "items": [],
         "productIds": [],
-        "settings": { "traceId": "" }
+        "settings": {
+          "traceId": ""
+        }
       },
       {
         "type": "pub-text",
         "title": "1. 我们如何收集和使用您的个人信息",
         "texts": [
-          "个人信息是指以电子或者其他方式记录的与已识别或者可识别的自然人有关的各种信息，不包括匿名化处理后的信息。您在使用 BUZUD 产品和服务或者与我们互动时，我们可能会收集您的个人信息。您并非必须向我们提供个人信息，但在某些情况下，如果您选择不提供，BUZUD 可能无法为您提供相关产品或服务，也无法回应或解决您所遇到的问题。",
-          "（占位内容：以下章节为结构示意，具体收集范围以正式版本为准。）"
+          "个人信息是指以电子或者其他方式记录的与已识别或者可识别的自然人有关的各种信息，不包括匿名化处理后的信息。您在使用 BUZUD 产品和服务或者与我们互动时，我们可能会收集您的个人信息。您并非必须向我们提供个人信息，但在某些情况下，如果您选择不提供，BUZUD 可能无法为您提供相关产品或服务，也无法回应或解决您所遇到的问题。"
         ],
         "images": [],
         "links": [],
         "items": [],
         "productIds": [],
-        "settings": { "traceId": "" }
+        "settings": {
+          "traceId": ""
+        }
       },
       {
         "type": "pub-text",
@@ -48,7 +50,9 @@
         "links": [],
         "items": [],
         "productIds": [],
-        "settings": { "traceId": "" }
+        "settings": {
+          "traceId": ""
+        }
       },
       {
         "type": "pub-text",
@@ -64,7 +68,9 @@
         "links": [],
         "items": [],
         "productIds": [],
-        "settings": { "traceId": "" }
+        "settings": {
+          "traceId": ""
+        }
       },
       {
         "type": "pub-text",
@@ -78,7 +84,9 @@
         "links": [],
         "items": [],
         "productIds": [],
-        "settings": { "traceId": "" }
+        "settings": {
+          "traceId": ""
+        }
       },
       {
         "type": "pub-text",
@@ -94,7 +102,9 @@
         "links": [],
         "items": [],
         "productIds": [],
-        "settings": { "traceId": "" }
+        "settings": {
+          "traceId": ""
+        }
       },
       {
         "type": "pub-text",
@@ -108,7 +118,9 @@
         "links": [],
         "items": [],
         "productIds": [],
-        "settings": { "traceId": "" }
+        "settings": {
+          "traceId": ""
+        }
       },
       {
         "type": "pub-text",
@@ -121,20 +133,23 @@
         "links": [],
         "items": [],
         "productIds": [],
-        "settings": { "traceId": "" }
+        "settings": {
+          "traceId": ""
+        }
       },
       {
         "type": "pub-text",
         "title": "6. 我们如何处理儿童的个人信息",
         "texts": [
-          "我们的产品、网站和服务主要面向成人。如果没有父母或监护人的同意，儿童不得创建自己的用户账户。对于经父母同意而收集儿童个人信息的情况，我们只会在受到法律允许、父母或监护人明确同意或者保护儿童所必要的情况下使用或披露此数据。如果 BUZUD 发现自己在未事先获得可证实的父母同意的情况下收集了儿童的个人信息，则会设法尽快删除相关数据。",
-          "（占位内容：儿童的年龄界定以正式版本及适用法律为准。）"
+          "我们的产品、网站和服务主要面向成人。如果没有父母或监护人的同意，儿童不得创建自己的用户账户。对于经父母同意而收集儿童个人信息的情况，我们只会在受到法律允许、父母或监护人明确同意或者保护儿童所必要的情况下使用或披露此数据。如果 BUZUD 发现自己在未事先获得可证实的父母同意的情况下收集了儿童的个人信息，则会设法尽快删除相关数据。"
         ],
         "images": [],
         "links": [],
         "items": [],
         "productIds": [],
-        "settings": { "traceId": "" }
+        "settings": {
+          "traceId": ""
+        }
       },
       {
         "type": "pub-text",
@@ -147,21 +162,24 @@
         "links": [],
         "items": [],
         "productIds": [],
-        "settings": { "traceId": "" }
+        "settings": {
+          "traceId": ""
+        }
       },
       {
         "type": "pub-text",
         "title": "8. 您的个人信息如何在全球范围转移",
         "texts": [
           "BUZUD 是一家总部位于新加坡的公司，这意味着我们收集的您的个人信息可能会在您使用产品或服务所在国家/地区，或在本公司及其关联公司、子公司或服务提供商、业务合作伙伴设有机构的其他国家/地区进行处理。这些国家/地区的数据保护法可能不同。",
-          "在此类情况下，BUZUD 会采取措施确保我们收集的数据依据本政策和适用法律的要求进行处理，包括签署标准合同条款或请求您对跨境转移个人信息的同意，或者在跨境数据转移之前实施数据匿名等安全举措。",
-          "（占位内容：跨境数据存储与转移的具体安排以正式版本为准。）"
+          "在此类情况下，BUZUD 会采取措施确保我们收集的数据依据本政策和适用法律的要求进行处理，包括签署标准合同条款或请求您对跨境转移个人信息的同意，或者在跨境数据转移之前实施数据匿名等安全举措。"
         ],
         "images": [],
         "links": [],
         "items": [],
         "productIds": [],
-        "settings": { "traceId": "" }
+        "settings": {
+          "traceId": ""
+        }
       },
       {
         "type": "pub-text",
@@ -173,24 +191,29 @@
         "links": [],
         "items": [],
         "productIds": [],
-        "settings": { "traceId": "" }
+        "settings": {
+          "traceId": ""
+        }
       },
       {
         "type": "pub-text",
         "title": "10. 如何联系我们",
         "texts": [
           "如果您有任何隐私投诉或问题需要联系 BUZUD 数据保护官，请通过以下方式与我们联系：",
-          "联系邮箱：（占位内容，正式邮箱待确认）",
-          "联系电话：（占位内容）",
-          "公司地址：（占位内容，待确认）",
-          "一般情况下，我们将在十五个工作日内回复（回复时限以正式版本为准）。如果您对我们的回复不满意，特别是我们的个人信息处理行为损害了您的合法权益，您还可以向相关监管部门进行投诉或举报。",
-          "最近更新日期：（占位内容，待确认）"
+          "一般情况下，我们将在十五个工作日内回复（回复时限以正式版本为准）。如果您对我们的回复不满意，特别是我们的个人信息处理行为损害了您的合法权益，您还可以向相关监管部门进行投诉或举报。"
         ],
         "images": [],
-        "links": [{ "href": "/cn/zh/customer-service/contact-us/", "text": "联系我们" }],
+        "links": [
+          {
+            "href": "/cn/zh/customer-service/contact-us/",
+            "text": "联系我们"
+          }
+        ],
         "items": [],
         "productIds": [],
-        "settings": { "traceId": "" }
+        "settings": {
+          "traceId": ""
+        }
       }
     ]
   },
@@ -201,20 +224,21 @@
     "title": "使用条款",
     "name": "CHUNG YIP 使用条款",
     "hero": null,
-    "subtitle": "本页面为参考公开资料整理的占位内容，正式使用条款将在此发布。",
+    "subtitle": "本使用条款规定了您访问和使用 CHUNG YIP / BUZUD 网站及服务的条件。",
     "blocks": [
       {
         "type": "pub-text",
         "title": null,
         "texts": [
-          "本使用条款适用于 CHUNG YIP（BUZUD）健康产品商城网站。您使用本网站，即表示您同意本使用条款；如果您不同意，请勿使用本网站。在法律允许的范围内，BUZUD 保留自行决定任何时候变更本使用条款内容的权利，您有责任定期查看本使用条款的变更。您在变更信息发布之后继续使用本网站，即表示您同意且接受该变更。",
-          "（占位内容：本条款参考公开资料整理，正式版本待公司确认后替换；公司注册信息、联系方式、适用法律等以正式版为准。）"
+          "本使用条款适用于 CHUNG YIP（BUZUD）健康产品商城网站。您使用本网站，即表示您同意本使用条款；如果您不同意，请勿使用本网站。在法律允许的范围内，BUZUD 保留自行决定任何时候变更本使用条款内容的权利，您有责任定期查看本使用条款的变更。您在变更信息发布之后继续使用本网站，即表示您同意且接受该变更。"
         ],
         "images": [],
         "links": [],
         "items": [],
         "productIds": [],
-        "settings": { "traceId": "" }
+        "settings": {
+          "traceId": ""
+        }
       },
       {
         "type": "pub-text",
@@ -226,7 +250,9 @@
         "links": [],
         "items": [],
         "productIds": [],
-        "settings": { "traceId": "" }
+        "settings": {
+          "traceId": ""
+        }
       },
       {
         "type": "pub-text",
@@ -239,7 +265,9 @@
         "links": [],
         "items": [],
         "productIds": [],
-        "settings": { "traceId": "" }
+        "settings": {
+          "traceId": ""
+        }
       },
       {
         "type": "pub-text",
@@ -253,7 +281,9 @@
         "links": [],
         "items": [],
         "productIds": [],
-        "settings": { "traceId": "" }
+        "settings": {
+          "traceId": ""
+        }
       },
       {
         "type": "pub-text",
@@ -266,7 +296,9 @@
         "links": [],
         "items": [],
         "productIds": [],
-        "settings": { "traceId": "" }
+        "settings": {
+          "traceId": ""
+        }
       },
       {
         "type": "pub-text",
@@ -278,7 +310,9 @@
         "links": [],
         "items": [],
         "productIds": [],
-        "settings": { "traceId": "" }
+        "settings": {
+          "traceId": ""
+        }
       },
       {
         "type": "pub-text",
@@ -290,7 +324,9 @@
         "links": [],
         "items": [],
         "productIds": [],
-        "settings": { "traceId": "" }
+        "settings": {
+          "traceId": ""
+        }
       },
       {
         "type": "pub-text",
@@ -302,7 +338,9 @@
         "links": [],
         "items": [],
         "productIds": [],
-        "settings": { "traceId": "" }
+        "settings": {
+          "traceId": ""
+        }
       },
       {
         "type": "pub-text",
@@ -315,7 +353,9 @@
         "links": [],
         "items": [],
         "productIds": [],
-        "settings": { "traceId": "" }
+        "settings": {
+          "traceId": ""
+        }
       },
       {
         "type": "pub-text",
@@ -328,7 +368,9 @@
         "links": [],
         "items": [],
         "productIds": [],
-        "settings": { "traceId": "" }
+        "settings": {
+          "traceId": ""
+        }
       },
       {
         "type": "pub-text",
@@ -340,17 +382,23 @@
         "links": [],
         "items": [],
         "productIds": [],
-        "settings": { "traceId": "" }
+        "settings": {
+          "traceId": ""
+        }
       },
       {
         "type": "pub-text",
         "title": "11. 反馈",
-        "texts": ["您在本网站提供的任何反馈均视为非保密，BUZUD 可随时不受限制地使用该类信息。"],
+        "texts": [
+          "您在本网站提供的任何反馈均视为非保密，BUZUD 可随时不受限制地使用该类信息。"
+        ],
         "images": [],
         "links": [],
         "items": [],
         "productIds": [],
-        "settings": { "traceId": "" }
+        "settings": {
+          "traceId": ""
+        }
       },
       {
         "type": "pub-text",
@@ -363,19 +411,21 @@
         "links": [],
         "items": [],
         "productIds": [],
-        "settings": { "traceId": "" }
+        "settings": {
+          "traceId": ""
+        }
       },
       {
         "type": "pub-text",
         "title": "13. 适用法律和管辖",
-        "texts": [
-          "本条款的订立、执行、解释及争议的解决适用新加坡法律（占位内容：具体适用法律与管辖地以正式版本为准）。如双方就本条款的内容或其执行发生任何争议，双方应尽量友好协商解决；协商不成时，任何一方均可向有管辖权的人民法院或相关争议解决机构提起诉讼或仲裁。"
-        ],
+        "texts": [],
         "images": [],
         "links": [],
         "items": [],
         "productIds": [],
-        "settings": { "traceId": "" }
+        "settings": {
+          "traceId": ""
+        }
       },
       {
         "type": "pub-text",
@@ -387,20 +437,28 @@
         "links": [],
         "items": [],
         "productIds": [],
-        "settings": { "traceId": "" }
+        "settings": {
+          "traceId": ""
+        }
       },
       {
         "type": "pub-text",
         "title": "15. 联系我们",
         "texts": [
-          "如您对本使用条款有任何疑问，可联系我们获取进一步信息。",
-          "联系邮箱：（占位内容）"
+          "如您对本使用条款有任何疑问，可联系我们获取进一步信息。"
         ],
         "images": [],
-        "links": [{ "href": "/cn/zh/customer-service/contact-us/", "text": "联系我们" }],
+        "links": [
+          {
+            "href": "/cn/zh/customer-service/contact-us/",
+            "text": "联系我们"
+          }
+        ],
         "items": [],
         "productIds": [],
-        "settings": { "traceId": "" }
+        "settings": {
+          "traceId": ""
+        }
       }
     ]
   },
@@ -411,20 +469,21 @@
     "title": "在线购买协议",
     "name": "CHUNG YIP 在线购买协议",
     "hero": null,
-    "subtitle": "本页面为参考公开资料整理的占位内容，正式在线购买协议将在此发布。",
+    "subtitle": "本在线购买协议适用于您通过 BUZUD 网站购买商品的行为。",
     "blocks": [
       {
         "type": "pub-text",
         "title": null,
         "texts": [
-          "本协议是您与 CHUNG YIP（BUZUD）健康产品商城网站（以下简称“本网站”）所有者就使用本网站服务、在线购买 BUZUD 商品等相关事宜订立的契约。请您认真阅读并充分理解本协议，本协议构成对双方具有约束力的法律文件。您使用本网站就意味着您同意本协议；若您不同意本协议，您仍可浏览本网站中的内容，但无法享受本网站提供的在线购买等进一步的服务。",
-          "（占位内容：本协议参考公开资料整理，正式版本待公司确认后替换；具体价格、运费、退换规则、适用法律等以正式版为准。）"
+          "本协议是您与 CHUNG YIP（BUZUD）健康产品商城网站（以下简称“本网站”）所有者就使用本网站服务、在线购买 BUZUD 商品等相关事宜订立的契约。请您认真阅读并充分理解本协议，本协议构成对双方具有约束力的法律文件。您使用本网站就意味着您同意本协议；若您不同意本协议，您仍可浏览本网站中的内容，但无法享受本网站提供的在线购买等进一步的服务。"
         ],
         "images": [],
         "links": [],
         "items": [],
         "productIds": [],
-        "settings": { "traceId": "" }
+        "settings": {
+          "traceId": ""
+        }
       },
       {
         "type": "pub-text",
@@ -437,7 +496,9 @@
         "links": [],
         "items": [],
         "productIds": [],
-        "settings": { "traceId": "" }
+        "settings": {
+          "traceId": ""
+        }
       },
       {
         "type": "pub-text",
@@ -450,7 +511,9 @@
         "links": [],
         "items": [],
         "productIds": [],
-        "settings": { "traceId": "" }
+        "settings": {
+          "traceId": ""
+        }
       },
       {
         "type": "pub-text",
@@ -463,7 +526,9 @@
         "links": [],
         "items": [],
         "productIds": [],
-        "settings": { "traceId": "" }
+        "settings": {
+          "traceId": ""
+        }
       },
       {
         "type": "pub-text",
@@ -476,7 +541,9 @@
         "links": [],
         "items": [],
         "productIds": [],
-        "settings": { "traceId": "" }
+        "settings": {
+          "traceId": ""
+        }
       },
       {
         "type": "pub-text",
@@ -490,7 +557,9 @@
         "links": [],
         "items": [],
         "productIds": [],
-        "settings": { "traceId": "" }
+        "settings": {
+          "traceId": ""
+        }
       },
       {
         "type": "pub-text",
@@ -503,7 +572,9 @@
         "links": [],
         "items": [],
         "productIds": [],
-        "settings": { "traceId": "" }
+        "settings": {
+          "traceId": ""
+        }
       },
       {
         "type": "pub-text",
@@ -516,21 +587,29 @@
         "links": [],
         "items": [],
         "productIds": [],
-        "settings": { "traceId": "" }
+        "settings": {
+          "traceId": ""
+        }
       },
       {
         "type": "pub-text",
         "title": "8. 退换货与质保",
         "texts": [
           "BUZUD 依据适用的消费者保护法律及本网站的售后服务政策提供退换货与质保服务，具体退换货条件、期限与流程以正式版本及客户服务页面为准。",
-          "（占位内容：新加坡消费者保护法下的退货权利、冷静期、质保范围等以正式版本为准。）",
           "如您需要申请退换货或质保服务，可前往客户服务相关页面了解并提交申请。"
         ],
         "images": [],
-        "links": [{ "href": "/cn/zh/customer-service/services/aftersales/", "text": "售后服务" }],
+        "links": [
+          {
+            "href": "/cn/zh/customer-service/services/aftersales/",
+            "text": "售后服务"
+          }
+        ],
         "items": [],
         "productIds": [],
-        "settings": { "traceId": "" }
+        "settings": {
+          "traceId": ""
+        }
       },
       {
         "type": "pub-text",
@@ -542,7 +621,9 @@
         "links": [],
         "items": [],
         "productIds": [],
-        "settings": { "traceId": "" }
+        "settings": {
+          "traceId": ""
+        }
       },
       {
         "type": "pub-text",
@@ -554,7 +635,9 @@
         "links": [],
         "items": [],
         "productIds": [],
-        "settings": { "traceId": "" }
+        "settings": {
+          "traceId": ""
+        }
       },
       {
         "type": "pub-text",
@@ -567,7 +650,9 @@
         "links": [],
         "items": [],
         "productIds": [],
-        "settings": { "traceId": "" }
+        "settings": {
+          "traceId": ""
+        }
       },
       {
         "type": "pub-text",
@@ -579,32 +664,40 @@
         "links": [],
         "items": [],
         "productIds": [],
-        "settings": { "traceId": "" }
+        "settings": {
+          "traceId": ""
+        }
       },
       {
         "type": "pub-text",
         "title": "13. 适用法律及争议解决",
-        "texts": [
-          "本协议的成立、生效、履行、解释以及纠纷解决，适用新加坡法律（占位内容：具体适用法律与争议解决方式以正式版本为准）。您同意，若您与 BUZUD 发生任何纠纷或争议，首先应当友好协商解决；若协商解决不成的，按正式版本约定的方式提交有管辖权的法院或争议解决机构处理。"
-        ],
+        "texts": [],
         "images": [],
         "links": [],
         "items": [],
         "productIds": [],
-        "settings": { "traceId": "" }
+        "settings": {
+          "traceId": ""
+        }
       },
       {
         "type": "pub-text",
         "title": "14. 联系我们",
         "texts": [
-          "如您对本在线购买协议有任何疑问，或需要处理订单、配送、退换货等问题，可联系我们获取进一步信息。",
-          "联系邮箱：（占位内容）"
+          "如您对本在线购买协议有任何疑问，或需要处理订单、配送、退换货等问题，可联系我们获取进一步信息。"
         ],
         "images": [],
-        "links": [{ "href": "/cn/zh/customer-service/contact-us/", "text": "联系我们" }],
+        "links": [
+          {
+            "href": "/cn/zh/customer-service/contact-us/",
+            "text": "联系我们"
+          }
+        ],
         "items": [],
         "productIds": [],
-        "settings": { "traceId": "" }
+        "settings": {
+          "traceId": ""
+        }
       }
     ]
   }

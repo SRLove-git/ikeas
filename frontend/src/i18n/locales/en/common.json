@@ -123,7 +123,16 @@
     "description": "Description",
     "careInstructions": "Care instructions",
     "similar": "Products similar to “{{name}}”",
-    "viewImageN": "View image {{n}}"
+    "viewImageN": "View image {{n}}",
+    "stockNote": "In stock; estimated delivery 2–4 business days within Singapore.",
+    "deliveryLink": "Delivery info",
+    "returnsWarrantyLink": "Returns & warranty",
+    "intendedFor": "Intended for",
+    "packageCount": "Package contents",
+    "usage": "How to use",
+    "resultReading": "Reading results",
+    "precautions": "Precautions",
+    "storage": "Storage & shelf life"
   },
   "breadcrumbs": {
     "home": "Home"

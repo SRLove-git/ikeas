@@ -123,7 +123,16 @@
     "description": "产品描述",
     "careInstructions": "保养说明",
     "similar": "与「{{name}}」相似的商品",
-    "viewImageN": "查看第 {{n}} 张图片"
+    "viewImageN": "查看第 {{n}} 张图片",
+    "stockNote": "现货商品，新加坡本地预计 2–4 个工作日送达。",
+    "deliveryLink": "配送说明",
+    "returnsWarrantyLink": "退换与保修",
+    "intendedFor": "适用人群",
+    "packageCount": "包装数量",
+    "usage": "使用方法",
+    "resultReading": "结果说明",
+    "precautions": "注意事项",
+    "storage": "储存与有效期"
   },
   "breadcrumbs": {
     "home": "首页"

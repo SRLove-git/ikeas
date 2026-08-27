@@ -7,17 +7,23 @@
     "designText": null,
     "price": 4.8,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020710595-1.jpg",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710595-1.jpg",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020710595-1.jpg"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710595-1.jpg"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "需要居家快速检测的人群。",
+      "packageCount": "包装内含检测试剂，数量以实物包装为准。",
+      "usage": "请按随附说明书完成取样与检测，操作前请洗净双手。",
+      "resultReading": "在说明书规定时间内读取判读窗口并对照说明判断结果，超时结果无效。",
+      "precautions": "仅供自测使用，请勿重复使用；远离儿童；如有疑问请咨询医护人员。",
+      "storage": "常温避光、干燥保存，请在包装标注的有效期内使用。"
     }
   },
   {
@@ -28,17 +34,23 @@
     "designText": null,
     "price": 18,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020710588-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710588-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020710588-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710588-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "需要居家快速检测的人群。",
+      "packageCount": "包装内含检测试剂，数量以实物包装为准。",
+      "usage": "请按随附说明书完成取样与检测，操作前请洗净双手。",
+      "resultReading": "在说明书规定时间内读取判读窗口并对照说明判断结果，超时结果无效。",
+      "precautions": "仅供自测使用，请勿重复使用；远离儿童；如有疑问请咨询医护人员。",
+      "storage": "常温避光、干燥保存，请在包装标注的有效期内使用。"
     }
   },
   {
@@ -49,17 +61,23 @@
     "designText": null,
     "price": 668,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020710830-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710830-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020710830-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710830-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合关注日常健康数据的人群。",
+      "packageCount": "包装内含手表主机及配件，以实物为准。",
+      "usage": "首次使用请先充电，连接 App 完成配对后佩戴使用。",
+      "resultReading": "健康数据以设备与 App 显示为准，仅供日常参考。",
+      "precautions": "健康数据不构成医疗诊断；如有不适请及时就医。",
+      "storage": "避免高温潮湿环境，长期存放请定期充电。"
     }
   },
   {
@@ -70,17 +88,23 @@
     "designText": null,
     "price": 5270,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020710014-1.jpg",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710014-1.jpg",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020710014-1.jpg"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710014-1.jpg"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合遵医嘱需要家庭氧疗的人群。",
+      "packageCount": "包装内含制氧机主机及配件，以实物为准。",
+      "usage": "请按说明书安装并通电运行，使用前咨询医生。",
+      "resultReading": "流量与浓度以设备显示为准，请遵医嘱设置。",
+      "precautions": "氧疗请在医生指导下进行；使用时远离明火；大件商品配送安装请联系客服。",
+      "storage": "通风干燥处存放，避免潮湿与堵塞进出风口。"
     }
   },
   {
@@ -91,17 +115,22 @@
     "designText": null,
     "price": 108,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020711165-1.jpg",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711165-1.jpg",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020711165-1.jpg"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711165-1.jpg"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适用于配套 BUZUD 设备或耗材的用户。",
+      "packageCount": "包装内含配件/耗材，数量以实物包装为准。",
+      "usage": "请按随附说明书安装或更换，具体以说明书为准。",
+      "precautions": "请确认与您的设备型号匹配后再购买；如不确定请联系客服。",
+      "storage": "密封、干燥保存，请在有效期内使用。"
     }
   },
   {
@@ -112,17 +141,23 @@
     "designText": null,
     "price": 2890,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020710007-1.jpg",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710007-1.jpg",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020710007-1.jpg"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710007-1.jpg"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合遵医嘱需要家庭氧疗的人群。",
+      "packageCount": "包装内含制氧机主机及配件，以实物为准。",
+      "usage": "请按说明书安装并通电运行，使用前咨询医生。",
+      "resultReading": "流量与浓度以设备显示为准，请遵医嘱设置。",
+      "precautions": "氧疗请在医生指导下进行；使用时远离明火；大件商品配送安装请联系客服。",
+      "storage": "通风干燥处存放，避免潮湿与堵塞进出风口。"
     }
   },
   {
@@ -133,17 +168,22 @@
     "designText": null,
     "price": 1980,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020712957-1.jpg",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712957-1.jpg",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020712957-1.jpg"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712957-1.jpg"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合在医生或康复师指导下进行手部康复训练的人群。",
+      "packageCount": "包装内含训练主机/手套及配件，以实物为准。",
+      "usage": "请按随附说明书及康复师指导进行训练。",
+      "precautions": "请遵医嘱使用，避免过度训练；如有不适立即停止并咨询专业人员。",
+      "storage": "常温干燥保存。"
     }
   },
   {
@@ -154,17 +194,23 @@
     "designText": null,
     "price": 668,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020710830-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710830-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020710830-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710830-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合关注日常健康数据的人群。",
+      "packageCount": "包装内含手表主机及配件，以实物为准。",
+      "usage": "首次使用请先充电，连接 App 完成配对后佩戴使用。",
+      "resultReading": "健康数据以设备与 App 显示为准，仅供日常参考。",
+      "precautions": "健康数据不构成医疗诊断；如有不适请及时就医。",
+      "storage": "避免高温潮湿环境，长期存放请定期充电。"
     }
   },
   {
@@ -175,17 +221,23 @@
     "designText": null,
     "price": 16,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020710656-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710656-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020710656-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710656-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "需要居家快速检测的人群。",
+      "packageCount": "包装内含检测试剂，数量以实物包装为准。",
+      "usage": "请按随附说明书完成取样与检测，操作前请洗净双手。",
+      "resultReading": "在说明书规定时间内读取判读窗口并对照说明判断结果，超时结果无效。",
+      "precautions": "仅供自测使用，请勿重复使用；远离儿童；如有疑问请咨询医护人员。",
+      "storage": "常温避光、干燥保存，请在包装标注的有效期内使用。"
     }
   },
   {
@@ -196,17 +248,22 @@
     "designText": null,
     "price": 4980,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020711257-1.jpg",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711257-1.jpg",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020711257-1.jpg"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711257-1.jpg"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合在医生或康复师指导下进行手部康复训练的人群。",
+      "packageCount": "包装内含训练主机/手套及配件，以实物为准。",
+      "usage": "请按随附说明书及康复师指导进行训练。",
+      "precautions": "请遵医嘱使用，避免过度训练；如有不适立即停止并咨询专业人员。",
+      "storage": "常温干燥保存。"
     }
   },
   {
@@ -217,17 +274,22 @@
     "designText": null,
     "price": 4376,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020710700-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710700-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020710700-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710700-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合听力受损需要助听辅助的人群。",
+      "packageCount": "包装内含助听器及配件，以实物为准。",
+      "usage": "请按说明书佩戴并调节音量，初次使用建议咨询专业人员。",
+      "precautions": "请避免进水与摔落；如感不适请咨询验配师。",
+      "storage": "干燥盒内保存，长期不用请取出电池。"
     }
   },
   {
@@ -238,17 +300,22 @@
     "designText": null,
     "price": 790,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020710946-1.jpg",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710946-1.jpg",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020710946-1.jpg"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710946-1.jpg"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合行动不便需要辅助移动的人群。",
+      "packageCount": "包装内含轮椅整车 1 台，以实物为准。",
+      "usage": "按说明书展开并检查制动后使用，乘坐时请系好安全带（如有）。",
+      "precautions": "使用前请检查刹车与承重；大件商品配送与安装请联系客服。",
+      "storage": "干燥处存放，避免长期淋雨受潮。"
     }
   },
   {
@@ -259,17 +326,23 @@
     "designText": null,
     "price": 57,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020711479-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711479-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020711479-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711479-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合日常监测血氧饱和度的人群。",
+      "packageCount": "包装内含血氧仪主机 1 台及配件，以实物为准。",
+      "usage": "将手指放入指夹并保持静止，等待读数稳定，具体以说明书为准。",
+      "resultReading": "读数以设备屏幕显示为准，仅供日常健康参考。",
+      "precautions": "血氧数值仅供参考，不构成医疗诊断；如持续偏低请及时就医。",
+      "storage": "常温干燥保存，避免摔落与强磁环境。"
     }
   },
   {
@@ -280,17 +353,23 @@
     "designText": null,
     "price": 28,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020710601-1.jpg",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710601-1.jpg",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020710601-1.jpg"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710601-1.jpg"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "需要居家快速检测的人群。",
+      "packageCount": "包装内含检测试剂，数量以实物包装为准。",
+      "usage": "请按随附说明书完成取样与检测，操作前请洗净双手。",
+      "resultReading": "在说明书规定时间内读取判读窗口并对照说明判断结果，超时结果无效。",
+      "precautions": "仅供自测使用，请勿重复使用；远离儿童；如有疑问请咨询医护人员。",
+      "storage": "常温避光、干燥保存，请在包装标注的有效期内使用。"
     }
   },
   {
@@ -301,17 +380,22 @@
     "designText": null,
     "price": 26,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020711530-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711530-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020711530-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711530-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适用于配套 BUZUD 设备或耗材的用户。",
+      "packageCount": "包装内含配件/耗材，数量以实物包装为准。",
+      "usage": "请按随附说明书安装或更换，具体以说明书为准。",
+      "precautions": "请确认与您的设备型号匹配后再购买；如不确定请联系客服。",
+      "storage": "密封、干燥保存，请在有效期内使用。"
     }
   },
   {
@@ -322,17 +406,22 @@
     "designText": null,
     "price": 22.7,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020711592-1.jpg",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711592-1.jpg",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020711592-1.jpg"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711592-1.jpg"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适用于配套 BUZUD 设备或耗材的用户。",
+      "packageCount": "包装内含配件/耗材，数量以实物包装为准。",
+      "usage": "请按随附说明书安装或更换，具体以说明书为准。",
+      "precautions": "请确认与您的设备型号匹配后再购买；如不确定请联系客服。",
+      "storage": "密封、干燥保存，请在有效期内使用。"
     }
   },
   {
@@ -343,17 +432,22 @@
     "designText": null,
     "price": 27.05,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020710304-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710304-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020710304-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710304-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适用于配套 BUZUD 设备或耗材的用户。",
+      "packageCount": "包装内含配件/耗材，数量以实物包装为准。",
+      "usage": "请按随附说明书安装或更换，具体以说明书为准。",
+      "precautions": "请确认与您的设备型号匹配后再购买；如不确定请联系客服。",
+      "storage": "密封、干燥保存，请在有效期内使用。"
     }
   },
   {
@@ -364,17 +458,22 @@
     "designText": null,
     "price": 3176,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020710670-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710670-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020710670-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710670-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合听力受损需要助听辅助的人群。",
+      "packageCount": "包装内含助听器及配件，以实物为准。",
+      "usage": "请按说明书佩戴并调节音量，初次使用建议咨询专业人员。",
+      "precautions": "请避免进水与摔落；如感不适请咨询验配师。",
+      "storage": "干燥盒内保存，长期不用请取出电池。"
     }
   },
   {
@@ -385,17 +484,23 @@
     "designText": null,
     "price": 668,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020710830-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710830-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020710830-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710830-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合关注日常健康数据的人群。",
+      "packageCount": "包装内含手表主机及配件，以实物为准。",
+      "usage": "首次使用请先充电，连接 App 完成配对后佩戴使用。",
+      "resultReading": "健康数据以设备与 App 显示为准，仅供日常参考。",
+      "precautions": "健康数据不构成医疗诊断；如有不适请及时就医。",
+      "storage": "避免高温潮湿环境，长期存放请定期充电。"
     }
   },
   {
@@ -406,17 +511,23 @@
     "designText": null,
     "price": 47,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020711486-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711486-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020711486-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711486-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合日常监测血氧饱和度的人群。",
+      "packageCount": "包装内含血氧仪主机 1 台及配件，以实物为准。",
+      "usage": "将手指放入指夹并保持静止，等待读数稳定，具体以说明书为准。",
+      "resultReading": "读数以设备屏幕显示为准，仅供日常健康参考。",
+      "precautions": "血氧数值仅供参考，不构成医疗诊断；如持续偏低请及时就医。",
+      "storage": "常温干燥保存，避免摔落与强磁环境。"
     }
   },
   {
@@ -427,18 +538,23 @@
     "designText": null,
     "price": 39680,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020710229-1.jpg",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710229-1.jpg",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020710229-1.jpg",
-        "/images/products/buzud-8885020710229-2.jpg"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710229-1.jpg",
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710229-2.jpg"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适用于配套 BUZUD 设备或耗材的用户。",
+      "packageCount": "包装内含配件/耗材，数量以实物包装为准。",
+      "usage": "请按随附说明书安装或更换，具体以说明书为准。",
+      "precautions": "请确认与您的设备型号匹配后再购买；如不确定请联系客服。",
+      "storage": "密封、干燥保存，请在有效期内使用。"
     }
   },
   {
@@ -449,17 +565,23 @@
     "designText": null,
     "price": 67,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020711462-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711462-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020711462-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711462-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合日常监测血氧饱和度的人群。",
+      "packageCount": "包装内含血氧仪主机 1 台及配件，以实物为准。",
+      "usage": "将手指放入指夹并保持静止，等待读数稳定，具体以说明书为准。",
+      "resultReading": "读数以设备屏幕显示为准，仅供日常健康参考。",
+      "precautions": "血氧数值仅供参考，不构成医疗诊断；如持续偏低请及时就医。",
+      "storage": "常温干燥保存，避免摔落与强磁环境。"
     }
   },
   {
@@ -470,17 +592,22 @@
     "designText": null,
     "price": 3176,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020710670-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710670-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020710670-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710670-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合听力受损需要助听辅助的人群。",
+      "packageCount": "包装内含助听器及配件，以实物为准。",
+      "usage": "请按说明书佩戴并调节音量，初次使用建议咨询专业人员。",
+      "precautions": "请避免进水与摔落；如感不适请咨询验配师。",
+      "storage": "干燥盒内保存，长期不用请取出电池。"
     }
   },
   {
@@ -491,17 +618,23 @@
     "designText": null,
     "price": 4870,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020711417-1.jpg",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711417-1.jpg",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020711417-1.jpg"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711417-1.jpg"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合遵医嘱需要家庭氧疗的人群。",
+      "packageCount": "包装内含制氧机主机及配件，以实物为准。",
+      "usage": "请按说明书安装并通电运行，使用前咨询医生。",
+      "resultReading": "流量与浓度以设备显示为准，请遵医嘱设置。",
+      "precautions": "氧疗请在医生指导下进行；使用时远离明火；大件商品配送安装请联系客服。",
+      "storage": "通风干燥处存放，避免潮湿与堵塞进出风口。"
     }
   },
   {
@@ -512,17 +645,23 @@
     "designText": null,
     "price": 16,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020710649-1.jpg",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710649-1.jpg",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020710649-1.jpg"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710649-1.jpg"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "需要居家快速检测的人群。",
+      "packageCount": "包装内含检测试剂，数量以实物包装为准。",
+      "usage": "请按随附说明书完成取样与检测，操作前请洗净双手。",
+      "resultReading": "在说明书规定时间内读取判读窗口并对照说明判断结果，超时结果无效。",
+      "precautions": "仅供自测使用，请勿重复使用；远离儿童；如有疑问请咨询医护人员。",
+      "storage": "常温避光、干燥保存，请在包装标注的有效期内使用。"
     }
   },
   {
@@ -533,17 +672,22 @@
     "designText": null,
     "price": 1398,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020710731-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710731-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020710731-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710731-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合听力受损需要助听辅助的人群。",
+      "packageCount": "包装内含助听器及配件，以实物为准。",
+      "usage": "请按说明书佩戴并调节音量，初次使用建议咨询专业人员。",
+      "precautions": "请避免进水与摔落；如感不适请咨询验配师。",
+      "storage": "干燥盒内保存，长期不用请取出电池。"
     }
   },
   {
@@ -554,17 +698,22 @@
     "designText": null,
     "price": 787,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020712957-1.jpg",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712957-1.jpg",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020712957-1.jpg"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712957-1.jpg"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合在医生或康复师指导下进行手部康复训练的人群。",
+      "packageCount": "包装内含训练主机/手套及配件，以实物为准。",
+      "usage": "请按随附说明书及康复师指导进行训练。",
+      "precautions": "请遵医嘱使用，避免过度训练；如有不适立即停止并咨询专业人员。",
+      "storage": "常温干燥保存。"
     }
   },
   {
@@ -575,17 +724,22 @@
     "designText": null,
     "price": 30,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020710298-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710298-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020710298-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710298-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适用于配套 BUZUD 设备或耗材的用户。",
+      "packageCount": "包装内含配件/耗材，数量以实物包装为准。",
+      "usage": "请按随附说明书安装或更换，具体以说明书为准。",
+      "precautions": "请确认与您的设备型号匹配后再购买；如不确定请联系客服。",
+      "storage": "密封、干燥保存，请在有效期内使用。"
     }
   },
   {
@@ -596,17 +750,22 @@
     "designText": null,
     "price": 99,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020711837-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711837-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020711837-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711837-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合需要行走辅助的人群。",
+      "packageCount": "包装内含助行器 1 台，以实物为准。",
+      "usage": "按说明书调整高度并确认稳固后使用。",
+      "precautions": "使用前请检查锁扣与防滑脚垫；请勿超重使用。",
+      "storage": "干燥处存放。"
     }
   },
   {
@@ -617,17 +776,23 @@
     "designText": null,
     "price": 827,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020711363-0-1.jpg",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711363-0-1.jpg",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020711363-0-1.jpg"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711363-0-1.jpg"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合遵医嘱需要连续血糖监测的人群。",
+      "packageCount": "包装内含传感器及佩戴配件，数量以实物为准。",
+      "usage": "按说明书佩戴传感器并连接 App 查看数据。",
+      "resultReading": "血糖数据以 App 显示为准，请按医嘱解读。",
+      "precautions": "请在医生指导下使用；传感器为一次性用品，请勿重复使用。",
+      "storage": "密封包装保存，请在有效期内使用。"
     }
   },
   {
@@ -638,17 +803,22 @@
     "designText": null,
     "price": 1280,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020711233-1.jpg",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711233-1.jpg",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020711233-1.jpg"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711233-1.jpg"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合在医生或康复师指导下进行手部康复训练的人群。",
+      "packageCount": "包装内含训练主机/手套及配件，以实物为准。",
+      "usage": "请按随附说明书及康复师指导进行训练。",
+      "precautions": "请遵医嘱使用，避免过度训练；如有不适立即停止并咨询专业人员。",
+      "storage": "常温干燥保存。"
     }
   },
   {
@@ -659,17 +829,22 @@
     "designText": null,
     "price": 67,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020711783-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711783-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020711783-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711783-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适用于配套 BUZUD 设备或耗材的用户。",
+      "packageCount": "包装内含配件/耗材，数量以实物包装为准。",
+      "usage": "请按随附说明书安装或更换，具体以说明书为准。",
+      "precautions": "请确认与您的设备型号匹配后再购买；如不确定请联系客服。",
+      "storage": "密封、干燥保存，请在有效期内使用。"
     }
   },
   {
@@ -680,18 +855,23 @@
     "designText": null,
     "price": 53780,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020710229-1.jpg",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710229-1.jpg",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020710229-1.jpg",
-        "/images/products/buzud-8885020710229-2.jpg"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710229-1.jpg",
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710229-2.jpg"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适用于配套 BUZUD 设备或耗材的用户。",
+      "packageCount": "包装内含配件/耗材，数量以实物包装为准。",
+      "usage": "请按随附说明书安装或更换，具体以说明书为准。",
+      "precautions": "请确认与您的设备型号匹配后再购买；如不确定请联系客服。",
+      "storage": "密封、干燥保存，请在有效期内使用。"
     }
   },
   {
@@ -702,17 +882,23 @@
     "designText": null,
     "price": 495.9,
     "originalPrice": 522,
-    "image": "/images/products/buzud-8885020711394-1.jpg",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711394-1.jpg",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020711394-1.jpg"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711394-1.jpg"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合遵医嘱需要连续血糖监测的人群。",
+      "packageCount": "包装内含传感器及佩戴配件，数量以实物为准。",
+      "usage": "按说明书佩戴传感器并连接 App 查看数据。",
+      "resultReading": "血糖数据以 App 显示为准，请按医嘱解读。",
+      "precautions": "请在医生指导下使用；传感器为一次性用品，请勿重复使用。",
+      "storage": "密封包装保存，请在有效期内使用。"
     }
   },
   {
@@ -723,17 +909,22 @@
     "designText": null,
     "price": 30,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020710298-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710298-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020710298-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710298-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适用于配套 BUZUD 设备或耗材的用户。",
+      "packageCount": "包装内含配件/耗材，数量以实物包装为准。",
+      "usage": "请按随附说明书安装或更换，具体以说明书为准。",
+      "precautions": "请确认与您的设备型号匹配后再购买；如不确定请联系客服。",
+      "storage": "密封、干燥保存，请在有效期内使用。"
     }
   },
   {
@@ -744,17 +935,22 @@
     "designText": null,
     "price": 1798,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020710724-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710724-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020710724-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710724-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合听力受损需要助听辅助的人群。",
+      "packageCount": "包装内含助听器及配件，以实物为准。",
+      "usage": "请按说明书佩戴并调节音量，初次使用建议咨询专业人员。",
+      "precautions": "请避免进水与摔落；如感不适请咨询验配师。",
+      "storage": "干燥盒内保存，长期不用请取出电池。"
     }
   },
   {
@@ -765,17 +961,23 @@
     "designText": null,
     "price": 4650,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020711400-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711400-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020711400-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711400-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合遵医嘱需要家庭氧疗的人群。",
+      "packageCount": "包装内含制氧机主机及配件，以实物为准。",
+      "usage": "请按说明书安装并通电运行，使用前咨询医生。",
+      "resultReading": "流量与浓度以设备显示为准，请遵医嘱设置。",
+      "precautions": "氧疗请在医生指导下进行；使用时远离明火；大件商品配送安装请联系客服。",
+      "storage": "通风干燥处存放，避免潮湿与堵塞进出风口。"
     }
   },
   {
@@ -786,17 +988,23 @@
     "designText": null,
     "price": 5.8,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020710618-1.jpg",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710618-1.jpg",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020710618-1.jpg"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710618-1.jpg"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "需要居家快速检测的人群。",
+      "packageCount": "包装内含检测试剂，数量以实物包装为准。",
+      "usage": "请按随附说明书完成取样与检测，操作前请洗净双手。",
+      "resultReading": "在说明书规定时间内读取判读窗口并对照说明判断结果，超时结果无效。",
+      "precautions": "仅供自测使用，请勿重复使用；远离儿童；如有疑问请咨询医护人员。",
+      "storage": "常温避光、干燥保存，请在包装标注的有效期内使用。"
     }
   },
   {
@@ -807,17 +1015,22 @@
     "designText": null,
     "price": 22.7,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020711615-1.jpg",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711615-1.jpg",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020711615-1.jpg"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711615-1.jpg"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适用于配套 BUZUD 设备或耗材的用户。",
+      "packageCount": "包装内含配件/耗材，数量以实物包装为准。",
+      "usage": "请按随附说明书安装或更换，具体以说明书为准。",
+      "precautions": "请确认与您的设备型号匹配后再购买；如不确定请联系客服。",
+      "storage": "密封、干燥保存，请在有效期内使用。"
     }
   },
   {
@@ -828,17 +1041,23 @@
     "designText": null,
     "price": 2980,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020710427-1.jpg",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710427-1.jpg",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020710427-1.jpg"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710427-1.jpg"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合在专业人员指导下使用的家庭健康监测。",
+      "packageCount": "包装内含监护仪主机及配件，以实物为准。",
+      "usage": "请按随附说明书连接并佩戴传感器后使用。",
+      "resultReading": "数据以设备显示为准，异常时请及时咨询医生。",
+      "precautions": "设备数据仅供参考，紧急情况请立即就医。",
+      "storage": "常温干燥保存。"
     }
   },
   {
@@ -849,17 +1068,23 @@
     "designText": null,
     "price": 18,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020710625-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710625-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020710625-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710625-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "需要居家快速检测的人群。",
+      "packageCount": "包装内含检测试剂，数量以实物包装为准。",
+      "usage": "请按随附说明书完成取样与检测，操作前请洗净双手。",
+      "resultReading": "在说明书规定时间内读取判读窗口并对照说明判断结果，超时结果无效。",
+      "precautions": "仅供自测使用，请勿重复使用；远离儿童；如有疑问请咨询医护人员。",
+      "storage": "常温避光、干燥保存，请在包装标注的有效期内使用。"
     }
   },
   {
@@ -870,17 +1095,23 @@
     "designText": null,
     "price": 668,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020710830-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710830-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020710830-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710830-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合关注日常健康数据的人群。",
+      "packageCount": "包装内含手表主机及配件，以实物为准。",
+      "usage": "首次使用请先充电，连接 App 完成配对后佩戴使用。",
+      "resultReading": "健康数据以设备与 App 显示为准，仅供日常参考。",
+      "precautions": "健康数据不构成医疗诊断；如有不适请及时就医。",
+      "storage": "避免高温潮湿环境，长期存放请定期充电。"
     }
   },
   {
@@ -891,17 +1122,23 @@
     "designText": null,
     "price": 1527,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020711363-0-1.jpg",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711363-0-1.jpg",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020711363-0-1.jpg"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711363-0-1.jpg"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合遵医嘱需要连续血糖监测的人群。",
+      "packageCount": "包装内含传感器及佩戴配件，数量以实物为准。",
+      "usage": "按说明书佩戴传感器并连接 App 查看数据。",
+      "resultReading": "血糖数据以 App 显示为准，请按医嘱解读。",
+      "precautions": "请在医生指导下使用；传感器为一次性用品，请勿重复使用。",
+      "storage": "密封包装保存，请在有效期内使用。"
     }
   },
   {
@@ -912,17 +1149,23 @@
     "designText": null,
     "price": 668,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020710830-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710830-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020710830-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710830-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合关注日常健康数据的人群。",
+      "packageCount": "包装内含手表主机及配件，以实物为准。",
+      "usage": "首次使用请先充电，连接 App 完成配对后佩戴使用。",
+      "resultReading": "健康数据以设备与 App 显示为准，仅供日常参考。",
+      "precautions": "健康数据不构成医疗诊断；如有不适请及时就医。",
+      "storage": "避免高温潮湿环境，长期存放请定期充电。"
     }
   },
   {
@@ -933,17 +1176,23 @@
     "designText": null,
     "price": 668,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020710830-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710830-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020710830-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710830-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合关注日常健康数据的人群。",
+      "packageCount": "包装内含手表主机及配件，以实物为准。",
+      "usage": "首次使用请先充电，连接 App 完成配对后佩戴使用。",
+      "resultReading": "健康数据以设备与 App 显示为准，仅供日常参考。",
+      "precautions": "健康数据不构成医疗诊断；如有不适请及时就医。",
+      "storage": "避免高温潮湿环境，长期存放请定期充电。"
     }
   },
   {
@@ -954,17 +1203,22 @@
     "designText": null,
     "price": 587,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020712957-1.jpg",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712957-1.jpg",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020712957-1.jpg"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712957-1.jpg"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合在医生或康复师指导下进行手部康复训练的人群。",
+      "packageCount": "包装内含训练主机/手套及配件，以实物为准。",
+      "usage": "请按随附说明书及康复师指导进行训练。",
+      "precautions": "请遵医嘱使用，避免过度训练；如有不适立即停止并咨询专业人员。",
+      "storage": "常温干燥保存。"
     }
   },
   {
@@ -975,17 +1229,22 @@
     "designText": null,
     "price": 4376,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020710700-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710700-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020710700-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710700-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合听力受损需要助听辅助的人群。",
+      "packageCount": "包装内含助听器及配件，以实物为准。",
+      "usage": "请按说明书佩戴并调节音量，初次使用建议咨询专业人员。",
+      "precautions": "请避免进水与摔落；如感不适请咨询验配师。",
+      "storage": "干燥盒内保存，长期不用请取出电池。"
     }
   },
   {
@@ -996,17 +1255,22 @@
     "designText": null,
     "price": 17.75,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020710243-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710243-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020710243-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710243-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适用于配套 BUZUD 设备或耗材的用户。",
+      "packageCount": "包装内含配件/耗材，数量以实物包装为准。",
+      "usage": "请按随附说明书安装或更换，具体以说明书为准。",
+      "precautions": "请确认与您的设备型号匹配后再购买；如不确定请联系客服。",
+      "storage": "密封、干燥保存，请在有效期内使用。"
     }
   },
   {
@@ -1017,17 +1281,23 @@
     "designText": null,
     "price": 2980,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020710519-1.jpg",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710519-1.jpg",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020710519-1.jpg"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710519-1.jpg"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合遵医嘱需要家庭氧疗的人群。",
+      "packageCount": "包装内含制氧机主机及配件，以实物为准。",
+      "usage": "请按说明书安装并通电运行，使用前咨询医生。",
+      "resultReading": "流量与浓度以设备显示为准，请遵医嘱设置。",
+      "precautions": "氧疗请在医生指导下进行；使用时远离明火；大件商品配送安装请联系客服。",
+      "storage": "通风干燥处存放，避免潮湿与堵塞进出风口。"
     }
   },
   {
@@ -1038,17 +1308,22 @@
     "designText": null,
     "price": 3120,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020710939-1-1.jpg",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710939-1-1.jpg",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020710939-1-1.jpg"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710939-1-1.jpg"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合行动不便需要辅助移动的人群。",
+      "packageCount": "包装内含轮椅整车 1 台，以实物为准。",
+      "usage": "按说明书展开并检查制动后使用，乘坐时请系好安全带（如有）。",
+      "precautions": "使用前请检查刹车与承重；大件商品配送与安装请联系客服。",
+      "storage": "干燥处存放，避免长期淋雨受潮。"
     }
   },
   {
@@ -1059,17 +1334,22 @@
     "designText": null,
     "price": 460,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020710939-1-1.jpg",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710939-1-1.jpg",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020710939-1-1.jpg"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710939-1-1.jpg"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适用于配套 BUZUD 设备或耗材的用户。",
+      "packageCount": "包装内含配件/耗材，数量以实物包装为准。",
+      "usage": "请按随附说明书安装或更换，具体以说明书为准。",
+      "precautions": "请确认与您的设备型号匹配后再购买；如不确定请联系客服。",
+      "storage": "密封、干燥保存，请在有效期内使用。"
     }
   },
   {
@@ -1080,17 +1360,23 @@
     "designText": null,
     "price": 5280,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020711387-1.jpg",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711387-1.jpg",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020711387-1.jpg"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711387-1.jpg"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合遵医嘱需要移动氧疗的人群。",
+      "packageCount": "包装内含制氧机主机、电池及配件，以实物为准。",
+      "usage": "按说明书充电并安装电池后使用，具体以说明书为准。",
+      "resultReading": "流量与浓度以设备显示为准。",
+      "precautions": "请在医生指导下使用；避免液体泼溅；定期清洁过滤部件。",
+      "storage": "常温干燥保存，长期存放请定期充电。"
     }
   },
   {
@@ -1101,17 +1387,23 @@
     "designText": null,
     "price": 5280,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020711370-1.jpg",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711370-1.jpg",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020711370-1.jpg"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711370-1.jpg"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合遵医嘱需要移动氧疗的人群。",
+      "packageCount": "包装内含制氧机主机、电池及配件，以实物为准。",
+      "usage": "按说明书充电并安装电池后使用，具体以说明书为准。",
+      "resultReading": "流量与浓度以设备显示为准。",
+      "precautions": "请在医生指导下使用；避免液体泼溅；定期清洁过滤部件。",
+      "storage": "常温干燥保存，长期存放请定期充电。"
     }
   },
   {
@@ -1122,17 +1414,23 @@
     "designText": null,
     "price": 78,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020711097-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711097-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020711097-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711097-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合居家监测血压的成年人。",
+      "packageCount": "包装内含血压计主机、袖带及配件，以实物为准。",
+      "usage": "静坐 5 分钟后将袖带绑在上臂，按下开始键测量，具体以说明书为准。",
+      "resultReading": "测量结果以设备屏幕显示为准，建议多次测量取平均值。",
+      "precautions": "测量数据仅供健康参考，不用于自行诊断或调整用药；如有异常请咨询医生。",
+      "storage": "常温干燥保存，避免阳光直射与剧烈震动。"
     }
   },
   {
@@ -1143,17 +1441,23 @@
     "designText": null,
     "price": 958,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020710465-1.jpg",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710465-1.jpg",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020710465-1.jpg"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710465-1.jpg"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合在专业人员指导下使用的家庭健康监测。",
+      "packageCount": "包装内含监护仪主机及配件，以实物为准。",
+      "usage": "请按随附说明书连接并佩戴传感器后使用。",
+      "resultReading": "数据以设备显示为准，异常时请及时咨询医生。",
+      "precautions": "设备数据仅供参考，紧急情况请立即就医。",
+      "storage": "常温干燥保存。"
     }
   },
   {
@@ -1164,17 +1468,22 @@
     "designText": null,
     "price": 86,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020710861-3.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710861-3.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020710861-3.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710861-3.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适用于配套 BUZUD 设备或耗材的用户。",
+      "packageCount": "包装内含配件/耗材，数量以实物包装为准。",
+      "usage": "请按随附说明书安装或更换，具体以说明书为准。",
+      "precautions": "请确认与您的设备型号匹配后再购买；如不确定请联系客服。",
+      "storage": "密封、干燥保存，请在有效期内使用。"
     }
   },
   {
@@ -1185,17 +1494,22 @@
     "designText": null,
     "price": 13.5,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020710243-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710243-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020710243-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710243-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适用于配套 BUZUD 设备或耗材的用户。",
+      "packageCount": "包装内含配件/耗材，数量以实物包装为准。",
+      "usage": "请按随附说明书安装或更换，具体以说明书为准。",
+      "precautions": "请确认与您的设备型号匹配后再购买；如不确定请联系客服。",
+      "storage": "密封、干燥保存，请在有效期内使用。"
     }
   },
   {
@@ -1206,17 +1520,22 @@
     "designText": null,
     "price": 6,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020710861-4.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710861-4.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020710861-4.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710861-4.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适用于配套 BUZUD 设备或耗材的用户。",
+      "packageCount": "包装内含配件/耗材，数量以实物包装为准。",
+      "usage": "请按随附说明书安装或更换，具体以说明书为准。",
+      "precautions": "请确认与您的设备型号匹配后再购买；如不确定请联系客服。",
+      "storage": "密封、干燥保存，请在有效期内使用。"
     }
   },
   {
@@ -1227,18 +1546,23 @@
     "designText": null,
     "price": 88,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020710861-4.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710861-4.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020710861-4.png",
-        "/images/products/buzud-8885020710861-3.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710861-4.png",
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710861-3.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适用于配套 BUZUD 设备或耗材的用户。",
+      "packageCount": "包装内含配件/耗材，数量以实物包装为准。",
+      "usage": "请按随附说明书安装或更换，具体以说明书为准。",
+      "precautions": "请确认与您的设备型号匹配后再购买；如不确定请联系客服。",
+      "storage": "密封、干燥保存，请在有效期内使用。"
     }
   },
   {
@@ -1249,17 +1573,23 @@
     "designText": null,
     "price": 68,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020711288-1.jpg",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711288-1.jpg",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020711288-1.jpg"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711288-1.jpg"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合居家测量体温的人群。",
+      "packageCount": "包装内含体温计 1 支，以实物为准。",
+      "usage": "按说明书选择测量模式，对准额头或耳道进行测量。",
+      "resultReading": "读数以设备显示为准，建议在同一部位多次测量。",
+      "precautions": "请按说明书正确使用，避免接触液体；如有疑问咨询专业人士。",
+      "storage": "常温干燥保存，避免阳光直射。"
     }
   },
   {
@@ -1270,17 +1600,23 @@
     "designText": null,
     "price": 35,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020710663-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710663-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020710663-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710663-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "需要居家快速检测的人群。",
+      "packageCount": "包装内含检测试剂，数量以实物包装为准。",
+      "usage": "请按随附说明书完成取样与检测，操作前请洗净双手。",
+      "resultReading": "在说明书规定时间内读取判读窗口并对照说明判断结果，超时结果无效。",
+      "precautions": "仅供自测使用，请勿重复使用；远离儿童；如有疑问请咨询医护人员。",
+      "storage": "常温避光、干燥保存，请在包装标注的有效期内使用。"
     }
   },
   {
@@ -1291,17 +1627,23 @@
     "designText": null,
     "price": 85,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020711103-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711103-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020711103-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711103-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合居家监测血压的成年人。",
+      "packageCount": "包装内含血压计主机、袖带及配件，以实物为准。",
+      "usage": "静坐 5 分钟后将袖带绑在上臂，按下开始键测量，具体以说明书为准。",
+      "resultReading": "测量结果以设备屏幕显示为准，建议多次测量取平均值。",
+      "precautions": "测量数据仅供健康参考，不用于自行诊断或调整用药；如有异常请咨询医生。",
+      "storage": "常温干燥保存，避免阳光直射与剧烈震动。"
     }
   },
   {
@@ -1312,17 +1654,22 @@
     "designText": null,
     "price": 48,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020710861-2.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710861-2.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020710861-2.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710861-2.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适用于配套 BUZUD 设备或耗材的用户。",
+      "packageCount": "包装内含配件/耗材，数量以实物包装为准。",
+      "usage": "请按随附说明书安装或更换，具体以说明书为准。",
+      "precautions": "请确认与您的设备型号匹配后再购买；如不确定请联系客服。",
+      "storage": "密封、干燥保存，请在有效期内使用。"
     }
   },
   {
@@ -1333,18 +1680,23 @@
     "designText": null,
     "price": 50,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020710861-4.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710861-4.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020710861-4.png",
-        "/images/products/buzud-8885020710861-2.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710861-4.png",
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710861-2.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适用于配套 BUZUD 设备或耗材的用户。",
+      "packageCount": "包装内含配件/耗材，数量以实物包装为准。",
+      "usage": "请按随附说明书安装或更换，具体以说明书为准。",
+      "precautions": "请确认与您的设备型号匹配后再购买；如不确定请联系客服。",
+      "storage": "密封、干燥保存，请在有效期内使用。"
     }
   },
   {
@@ -1355,17 +1707,23 @@
     "designText": null,
     "price": 87,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020711394-1.jpg",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711394-1.jpg",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020711394-1.jpg"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711394-1.jpg"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合遵医嘱需要连续血糖监测的人群。",
+      "packageCount": "包装内含传感器及佩戴配件，数量以实物为准。",
+      "usage": "按说明书佩戴传感器并连接 App 查看数据。",
+      "resultReading": "血糖数据以 App 显示为准，请按医嘱解读。",
+      "precautions": "请在医生指导下使用；传感器为一次性用品，请勿重复使用。",
+      "storage": "密封包装保存，请在有效期内使用。"
     }
   },
   {
@@ -1376,17 +1734,23 @@
     "designText": null,
     "price": 8.7,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020712315-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712315-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020712315-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712315-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "需要居家快速检测的人群。",
+      "packageCount": "包装内含检测试剂，数量以实物包装为准。",
+      "usage": "请按随附说明书完成取样与检测，操作前请洗净双手。",
+      "resultReading": "在说明书规定时间内读取判读窗口并对照说明判断结果，超时结果无效。",
+      "precautions": "仅供自测使用，请勿重复使用；远离儿童；如有疑问请咨询医护人员。",
+      "storage": "常温避光、干燥保存，请在包装标注的有效期内使用。"
     }
   },
   {
@@ -1397,17 +1761,22 @@
     "designText": null,
     "price": 17,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020712209-1.jpg",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712209-1.jpg",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020712209-1.jpg"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712209-1.jpg"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适用于配套 BUZUD 设备或耗材的用户。",
+      "packageCount": "包装内含配件/耗材，数量以实物包装为准。",
+      "usage": "请按随附说明书安装或更换，具体以说明书为准。",
+      "precautions": "请确认与您的设备型号匹配后再购买；如不确定请联系客服。",
+      "storage": "密封、干燥保存，请在有效期内使用。"
     }
   },
   {
@@ -1418,17 +1787,23 @@
     "designText": null,
     "price": 37,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020711493-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711493-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020711493-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711493-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合日常监测血氧饱和度的人群。",
+      "packageCount": "包装内含血氧仪主机 1 台及配件，以实物为准。",
+      "usage": "将手指放入指夹并保持静止，等待读数稳定，具体以说明书为准。",
+      "resultReading": "读数以设备屏幕显示为准，仅供日常健康参考。",
+      "precautions": "血氧数值仅供参考，不构成医疗诊断；如持续偏低请及时就医。",
+      "storage": "常温干燥保存，避免摔落与强磁环境。"
     }
   },
   {
@@ -1439,17 +1814,23 @@
     "designText": null,
     "price": 53,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020712339-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712339-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020712339-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712339-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合居家监测血糖、尿酸等指标的人群。",
+      "packageCount": "包装内含检测主机及配件，以实物为准。",
+      "usage": "请按随附说明书完成开机、插条与采血检测。",
+      "resultReading": "读数以设备屏幕显示为准，请按医嘱解读。",
+      "precautions": "检测结果仅供健康参考，不用于自行诊断；如有异常请咨询医生。",
+      "storage": "常温干燥保存，避免高温与潮湿。"
     }
   },
   {
@@ -1460,17 +1841,23 @@
     "designText": null,
     "price": 98,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020710861-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710861-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020710861-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710861-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合居家监测血糖、尿酸等指标的人群。",
+      "packageCount": "包装内含检测主机及配件，以实物为准。",
+      "usage": "请按随附说明书完成开机、插条与采血检测。",
+      "resultReading": "读数以设备屏幕显示为准，请按医嘱解读。",
+      "precautions": "检测结果仅供健康参考，不用于自行诊断；如有异常请咨询医生。",
+      "storage": "常温干燥保存，避免高温与潮湿。"
     }
   },
   {
@@ -1481,17 +1868,23 @@
     "designText": null,
     "price": 85,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020711080-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711080-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020711080-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711080-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合居家监测血压的成年人。",
+      "packageCount": "包装内含血压计主机、袖带及配件，以实物为准。",
+      "usage": "静坐 5 分钟后将袖带绑在上臂，按下开始键测量，具体以说明书为准。",
+      "resultReading": "测量结果以设备屏幕显示为准，建议多次测量取平均值。",
+      "precautions": "测量数据仅供健康参考，不用于自行诊断或调整用药；如有异常请咨询医生。",
+      "storage": "常温干燥保存，避免阳光直射与剧烈震动。"
     }
   },
   {
@@ -1502,17 +1895,23 @@
     "designText": null,
     "price": 82,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020710168-1.jpg",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710168-1.jpg",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020710168-1.jpg"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710168-1.jpg"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合居家监测血压的成年人。",
+      "packageCount": "包装内含血压计主机、袖带及配件，以实物为准。",
+      "usage": "静坐 5 分钟后将袖带绑在上臂，按下开始键测量，具体以说明书为准。",
+      "resultReading": "测量结果以设备屏幕显示为准，建议多次测量取平均值。",
+      "precautions": "测量数据仅供健康参考，不用于自行诊断或调整用药；如有异常请咨询医生。",
+      "storage": "常温干燥保存，避免阳光直射与剧烈震动。"
     }
   },
   {
@@ -1523,19 +1922,25 @@
     "designText": null,
     "price": 68,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020710861-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710861-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020710861-1.png",
-        "/images/products/buzud-8885020710861-2.png",
-        "/images/products/buzud-8885020710861-4.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710861-1.png",
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710861-2.png",
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710861-4.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合居家监测血糖、尿酸等指标的人群。",
+      "packageCount": "包装内含检测主机及配件，以实物为准。",
+      "usage": "请按随附说明书完成开机、插条与采血检测。",
+      "resultReading": "读数以设备屏幕显示为准，请按医嘱解读。",
+      "precautions": "检测结果仅供健康参考，不用于自行诊断；如有异常请咨询医生。",
+      "storage": "常温干燥保存，避免高温与潮湿。"
     }
   },
   {
@@ -1546,17 +1951,22 @@
     "designText": null,
     "price": 545,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020710960-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710960-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020710960-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710960-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合行动不便需要辅助移动的人群。",
+      "packageCount": "包装内含轮椅整车 1 台，以实物为准。",
+      "usage": "按说明书展开并检查制动后使用，乘坐时请系好安全带（如有）。",
+      "precautions": "使用前请检查刹车与承重；大件商品配送与安装请联系客服。",
+      "storage": "干燥处存放，避免长期淋雨受潮。"
     }
   },
   {
@@ -1567,17 +1977,22 @@
     "designText": null,
     "price": 27,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020711882-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711882-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020711882-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711882-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合需要行走辅助的人群。",
+      "packageCount": "包装内含助行器 1 台，以实物为准。",
+      "usage": "按说明书调整高度并确认稳固后使用。",
+      "precautions": "使用前请检查锁扣与防滑脚垫；请勿超重使用。",
+      "storage": "干燥处存放。"
     }
   },
   {
@@ -1588,17 +2003,22 @@
     "designText": null,
     "price": 1780,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020712469-1.jpg",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712469-1.jpg",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020712469-1.jpg"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712469-1.jpg"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合行动不便需辅助转移的人群。",
+      "packageCount": "包装内含转移椅整车 1 台，以实物为准。",
+      "usage": "按说明书操作制动与折叠，由护理人员协助使用。",
+      "precautions": "使用前检查制动与承重；大件商品配送请联系客服。",
+      "storage": "干燥处存放。"
     }
   },
   {
@@ -1609,17 +2029,22 @@
     "designText": null,
     "price": 49,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020711837-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711837-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020711837-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711837-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合需要行走辅助的人群。",
+      "packageCount": "包装内含助行器 1 台，以实物为准。",
+      "usage": "按说明书调整高度并确认稳固后使用。",
+      "precautions": "使用前请检查锁扣与防滑脚垫；请勿超重使用。",
+      "storage": "干燥处存放。"
     }
   },
   {
@@ -1630,17 +2055,22 @@
     "designText": null,
     "price": 29,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020711882-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711882-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020711882-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711882-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合需要行走辅助的人群。",
+      "packageCount": "包装内含助行器 1 台，以实物为准。",
+      "usage": "按说明书调整高度并确认稳固后使用。",
+      "precautions": "使用前请检查锁扣与防滑脚垫；请勿超重使用。",
+      "storage": "干燥处存放。"
     }
   },
   {
@@ -1651,17 +2081,23 @@
     "designText": null,
     "price": 22,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020711738-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711738-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020711738-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711738-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "需要居家快速检测的人群。",
+      "packageCount": "包装内含检测试剂，数量以实物包装为准。",
+      "usage": "请按随附说明书完成取样与检测，操作前请洗净双手。",
+      "resultReading": "在说明书规定时间内读取判读窗口并对照说明判断结果，超时结果无效。",
+      "precautions": "仅供自测使用，请勿重复使用；远离儿童；如有疑问请咨询医护人员。",
+      "storage": "常温避光、干燥保存，请在包装标注的有效期内使用。"
     }
   },
   {
@@ -1672,17 +2108,22 @@
     "designText": null,
     "price": 117,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020711707-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711707-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020711707-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711707-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合遵医嘱需要雾化治疗的人群。",
+      "packageCount": "包装内含雾化器主机及配件，以实物为准。",
+      "usage": "按说明书加入药液并连接面罩/咬嘴后使用。",
+      "precautions": "请在医生指导下用药；每次使用后清洁部件。",
+      "storage": "干燥处存放，避免药液残留。"
     }
   },
   {
@@ -1693,19 +2134,25 @@
     "designText": null,
     "price": 108,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020710861-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710861-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020710861-1.png",
-        "/images/products/buzud-8885020710861-3.png",
-        "/images/products/buzud-8885020710861-4.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710861-1.png",
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710861-3.png",
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710861-4.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合居家监测血糖、尿酸等指标的人群。",
+      "packageCount": "包装内含检测主机及配件，以实物为准。",
+      "usage": "请按随附说明书完成开机、插条与采血检测。",
+      "resultReading": "读数以设备屏幕显示为准，请按医嘱解读。",
+      "precautions": "检测结果仅供健康参考，不用于自行诊断；如有异常请咨询医生。",
+      "storage": "常温干燥保存，避免高温与潮湿。"
     }
   },
   {
@@ -1716,17 +2163,22 @@
     "designText": null,
     "price": 1780,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020711264-1.jpg",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711264-1.jpg",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020711264-1.jpg"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711264-1.jpg"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合行动不便需辅助转移的人群。",
+      "packageCount": "包装内含转移椅整车 1 台，以实物为准。",
+      "usage": "按说明书操作制动与折叠，由护理人员协助使用。",
+      "precautions": "使用前检查制动与承重；大件商品配送请联系客服。",
+      "storage": "干燥处存放。"
     }
   },
   {
@@ -1737,17 +2189,23 @@
     "designText": null,
     "price": 24,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020712803-1.jpg",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712803-1.jpg",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020712803-1.jpg"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712803-1.jpg"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适用于配套 BUZUD 设备或耗材的用户。",
+      "packageCount": "包装内含配件/耗材，数量以实物包装为准。",
+      "usage": "请按随附说明书安装或更换，具体以说明书为准。",
+      "resultReading": "测量结果以设备屏幕显示为准，建议多次测量取平均值。",
+      "precautions": "请确认与您的设备型号匹配后再购买；如不确定请联系客服。",
+      "storage": "密封、干燥保存，请在有效期内使用。"
     }
   },
   {
@@ -1758,17 +2216,23 @@
     "designText": null,
     "price": 60,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020711684-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711684-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020711684-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711684-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合居家测量体温的人群。",
+      "packageCount": "包装内含体温计 1 支，以实物为准。",
+      "usage": "按说明书选择测量模式，对准额头或耳道进行测量。",
+      "resultReading": "读数以设备显示为准，建议在同一部位多次测量。",
+      "precautions": "请按说明书正确使用，避免接触液体；如有疑问咨询专业人士。",
+      "storage": "常温干燥保存，避免阳光直射。"
     }
   },
   {
@@ -1779,17 +2243,22 @@
     "designText": null,
     "price": 360,
     "originalPrice": null,
-    "image": "/images/products/buzud-POC-DYNAMIC-1000P-BATTERY-1.jpg",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-POC-DYNAMIC-1000P-BATTERY-1.jpg",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-POC-DYNAMIC-1000P-BATTERY-1.jpg"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-POC-DYNAMIC-1000P-BATTERY-1.jpg"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适用于配套 BUZUD 设备或耗材的用户。",
+      "packageCount": "包装内含配件/耗材，数量以实物包装为准。",
+      "usage": "请按随附说明书安装或更换，具体以说明书为准。",
+      "precautions": "请确认与您的设备型号匹配后再购买；如不确定请联系客服。",
+      "storage": "密封、干燥保存，请在有效期内使用。"
     }
   },
   {
@@ -1800,17 +2269,23 @@
     "designText": null,
     "price": 397,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020711424-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711424-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020711424-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711424-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合关注体重与身体成分数据的人群。",
+      "packageCount": "包装内含体脂秤 1 台，以实物为准。",
+      "usage": "放平后赤脚站上秤面，等待读数稳定，具体以说明书为准。",
+      "resultReading": "数据以设备与 App 显示为准，仅供日常参考。",
+      "precautions": "请勿在湿滑地面使用；数据不构成医疗诊断。",
+      "storage": "干燥处存放，避免长期受潮。"
     }
   },
   {
@@ -1821,17 +2296,23 @@
     "designText": null,
     "price": 990,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020712599-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712599-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020712599-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712599-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合关注体重与身体成分数据的人群。",
+      "packageCount": "包装内含体脂秤 1 台，以实物为准。",
+      "usage": "放平后赤脚站上秤面，等待读数稳定，具体以说明书为准。",
+      "resultReading": "数据以设备与 App 显示为准，仅供日常参考。",
+      "precautions": "请勿在湿滑地面使用；数据不构成医疗诊断。",
+      "storage": "干燥处存放，避免长期受潮。"
     }
   },
   {
@@ -1842,17 +2323,23 @@
     "designText": null,
     "price": 43.5,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020712315-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712315-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020712315-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712315-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "需要居家快速检测的人群。",
+      "packageCount": "包装内含检测试剂，数量以实物包装为准。",
+      "usage": "请按随附说明书完成取样与检测，操作前请洗净双手。",
+      "resultReading": "在说明书规定时间内读取判读窗口并对照说明判断结果，超时结果无效。",
+      "precautions": "仅供自测使用，请勿重复使用；远离儿童；如有疑问请咨询医护人员。",
+      "storage": "常温避光、干燥保存，请在包装标注的有效期内使用。"
     }
   },
   {
@@ -1863,17 +2350,22 @@
     "designText": null,
     "price": 27,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020711882-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711882-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020711882-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711882-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合需要行走辅助的人群。",
+      "packageCount": "包装内含助行器 1 台，以实物为准。",
+      "usage": "按说明书调整高度并确认稳固后使用。",
+      "precautions": "使用前请检查锁扣与防滑脚垫；请勿超重使用。",
+      "storage": "干燥处存放。"
     }
   },
   {
@@ -1884,17 +2376,22 @@
     "designText": null,
     "price": 200,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020711950-1.jpg",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711950-1.jpg",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020711950-1.jpg"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711950-1.jpg"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合需要行走辅助的人群。",
+      "packageCount": "包装内含助行器 1 台，以实物为准。",
+      "usage": "按说明书调整高度并确认稳固后使用。",
+      "precautions": "使用前请检查锁扣与防滑脚垫；请勿超重使用。",
+      "storage": "干燥处存放。"
     }
   },
   {
@@ -1905,17 +2402,22 @@
     "designText": null,
     "price": 49,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020711837-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711837-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020711837-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711837-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合需要行走辅助的人群。",
+      "packageCount": "包装内含助行器 1 台，以实物为准。",
+      "usage": "按说明书调整高度并确认稳固后使用。",
+      "precautions": "使用前请检查锁扣与防滑脚垫；请勿超重使用。",
+      "storage": "干燥处存放。"
     }
   },
   {
@@ -1926,17 +2428,22 @@
     "designText": null,
     "price": 950,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020712216-1.jpg",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712216-1.jpg",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020712216-1.jpg"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712216-1.jpg"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合行动不便需要辅助移动的人群。",
+      "packageCount": "包装内含轮椅整车 1 台，以实物为准。",
+      "usage": "按说明书展开并检查制动后使用，乘坐时请系好安全带（如有）。",
+      "precautions": "使用前请检查刹车与承重；大件商品配送与安装请联系客服。",
+      "storage": "干燥处存放，避免长期淋雨受潮。"
     }
   },
   {
@@ -1947,17 +2454,22 @@
     "designText": null,
     "price": 240,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020711943-1.jpg",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711943-1.jpg",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020711943-1.jpg"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711943-1.jpg"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合需要行走辅助的人群。",
+      "packageCount": "包装内含助行器 1 台，以实物为准。",
+      "usage": "按说明书调整高度并确认稳固后使用。",
+      "precautions": "使用前请检查锁扣与防滑脚垫；请勿超重使用。",
+      "storage": "干燥处存放。"
     }
   },
   {
@@ -1968,20 +2480,26 @@
     "designText": null,
     "price": 168,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020710861-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710861-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020710861-1.png",
-        "/images/products/buzud-8885020710861-2.png",
-        "/images/products/buzud-8885020710861-3.png",
-        "/images/products/buzud-8885020710861-4.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710861-1.png",
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710861-2.png",
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710861-3.png",
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710861-4.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合居家监测血糖、尿酸等指标的人群。",
+      "packageCount": "包装内含检测主机及配件，以实物为准。",
+      "usage": "请按随附说明书完成开机、插条与采血检测。",
+      "resultReading": "读数以设备屏幕显示为准，请按医嘱解读。",
+      "precautions": "检测结果仅供健康参考，不用于自行诊断；如有异常请咨询医生。",
+      "storage": "常温干燥保存，避免高温与潮湿。"
     }
   },
   {
@@ -1992,17 +2510,22 @@
     "designText": null,
     "price": 520,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020711509-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711509-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020711509-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711509-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合行动不便需要辅助移动的人群。",
+      "packageCount": "包装内含轮椅整车 1 台，以实物为准。",
+      "usage": "按说明书展开并检查制动后使用，乘坐时请系好安全带（如有）。",
+      "precautions": "使用前请检查刹车与承重；大件商品配送与安装请联系客服。",
+      "storage": "干燥处存放，避免长期淋雨受潮。"
     }
   },
   {
@@ -2013,17 +2536,22 @@
     "designText": null,
     "price": 748,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020710953-1.jpg",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710953-1.jpg",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020710953-1.jpg"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710953-1.jpg"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合行动不便需要辅助移动的人群。",
+      "packageCount": "包装内含轮椅整车 1 台，以实物为准。",
+      "usage": "按说明书展开并检查制动后使用，乘坐时请系好安全带（如有）。",
+      "precautions": "使用前请检查刹车与承重；大件商品配送与安装请联系客服。",
+      "storage": "干燥处存放，避免长期淋雨受潮。"
     }
   },
   {
@@ -2034,17 +2562,22 @@
     "designText": null,
     "price": 21.6,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020711936-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711936-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020711936-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711936-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合需要行走辅助的人群。",
+      "packageCount": "包装内含助行器 1 台，以实物为准。",
+      "usage": "按说明书调整高度并确认稳固后使用。",
+      "precautions": "使用前请检查锁扣与防滑脚垫；请勿超重使用。",
+      "storage": "干燥处存放。"
     }
   },
   {
@@ -2055,17 +2588,22 @@
     "designText": null,
     "price": 27,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020711882-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711882-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020711882-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711882-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合需要行走辅助的人群。",
+      "packageCount": "包装内含助行器 1 台，以实物为准。",
+      "usage": "按说明书调整高度并确认稳固后使用。",
+      "precautions": "使用前请检查锁扣与防滑脚垫；请勿超重使用。",
+      "storage": "干燥处存放。"
     }
   },
   {
@@ -2076,17 +2614,22 @@
     "designText": null,
     "price": 570,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020711516-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711516-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020711516-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711516-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合行动不便需要辅助移动的人群。",
+      "packageCount": "包装内含轮椅整车 1 台，以实物为准。",
+      "usage": "按说明书展开并检查制动后使用，乘坐时请系好安全带（如有）。",
+      "precautions": "使用前请检查刹车与承重；大件商品配送与安装请联系客服。",
+      "storage": "干燥处存放，避免长期淋雨受潮。"
     }
   },
   {
@@ -2097,17 +2640,23 @@
     "designText": null,
     "price": 37,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020711448-1.jpg",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711448-1.jpg",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020711448-1.jpg"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711448-1.jpg"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合关注体重与身体成分数据的人群。",
+      "packageCount": "包装内含体脂秤 1 台，以实物为准。",
+      "usage": "放平后赤脚站上秤面，等待读数稳定，具体以说明书为准。",
+      "resultReading": "数据以设备与 App 显示为准，仅供日常参考。",
+      "precautions": "请勿在湿滑地面使用；数据不构成医疗诊断。",
+      "storage": "干燥处存放，避免长期受潮。"
     }
   },
   {
@@ -2118,17 +2667,22 @@
     "designText": null,
     "price": 950,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020712223-1.jpg",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712223-1.jpg",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020712223-1.jpg"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712223-1.jpg"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合行动不便需要辅助移动的人群。",
+      "packageCount": "包装内含轮椅整车 1 台，以实物为准。",
+      "usage": "按说明书展开并检查制动后使用，乘坐时请系好安全带（如有）。",
+      "precautions": "使用前请检查刹车与承重；大件商品配送与安装请联系客服。",
+      "storage": "干燥处存放，避免长期淋雨受潮。"
     }
   },
   {
@@ -2139,17 +2693,22 @@
     "designText": null,
     "price": 86,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020712193-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712193-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020712193-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712193-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适用于配套 BUZUD 设备或耗材的用户。",
+      "packageCount": "包装内含配件/耗材，数量以实物包装为准。",
+      "usage": "请按随附说明书安装或更换，具体以说明书为准。",
+      "precautions": "请确认与您的设备型号匹配后再购买；如不确定请联系客服。",
+      "storage": "密封、干燥保存，请在有效期内使用。"
     }
   },
   {
@@ -2160,17 +2719,23 @@
     "designText": null,
     "price": 167,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020711431-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711431-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020711431-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711431-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合关注体重与身体成分数据的人群。",
+      "packageCount": "包装内含体脂秤 1 台，以实物为准。",
+      "usage": "放平后赤脚站上秤面，等待读数稳定，具体以说明书为准。",
+      "resultReading": "数据以设备与 App 显示为准，仅供日常参考。",
+      "precautions": "请勿在湿滑地面使用；数据不构成医疗诊断。",
+      "storage": "干燥处存放，避免长期受潮。"
     }
   },
   {
@@ -2181,17 +2746,23 @@
     "designText": null,
     "price": 58.8,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020712384-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712384-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020712384-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712384-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合居家监测血糖、尿酸等指标的人群。",
+      "packageCount": "包装内含检测主机及配件，以实物为准。",
+      "usage": "请按随附说明书完成开机、插条与采血检测。",
+      "resultReading": "读数以设备屏幕显示为准，请按医嘱解读。",
+      "precautions": "检测结果仅供健康参考，不用于自行诊断；如有异常请咨询医生。",
+      "storage": "常温干燥保存，避免高温与潮湿。"
     }
   },
   {
@@ -2202,17 +2773,22 @@
     "designText": null,
     "price": 85,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020712391-1.jpg",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712391-1.jpg",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020712391-1.jpg"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712391-1.jpg"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适用于配套 BUZUD 设备或耗材的用户。",
+      "packageCount": "包装内含配件/耗材，数量以实物包装为准。",
+      "usage": "请按随附说明书安装或更换，具体以说明书为准。",
+      "precautions": "请确认与您的设备型号匹配后再购买；如不确定请联系客服。",
+      "storage": "密封、干燥保存，请在有效期内使用。"
     }
   },
   {
@@ -2223,17 +2799,23 @@
     "designText": null,
     "price": 87,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020711677-1.jpg",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711677-1.jpg",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020711677-1.jpg"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711677-1.jpg"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合居家测量体温的人群。",
+      "packageCount": "包装内含体温计 1 支，以实物为准。",
+      "usage": "按说明书选择测量模式，对准额头或耳道进行测量。",
+      "resultReading": "读数以设备显示为准，建议在同一部位多次测量。",
+      "precautions": "请按说明书正确使用，避免接触液体；如有疑问咨询专业人士。",
+      "storage": "常温干燥保存，避免阳光直射。"
     }
   },
   {
@@ -2244,17 +2826,22 @@
     "designText": null,
     "price": 77,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020712186-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712186-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020712186-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712186-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适用于配套 BUZUD 设备或耗材的用户。",
+      "packageCount": "包装内含配件/耗材，数量以实物包装为准。",
+      "usage": "请按随附说明书安装或更换，具体以说明书为准。",
+      "precautions": "请确认与您的设备型号匹配后再购买；如不确定请联系客服。",
+      "storage": "密封、干燥保存，请在有效期内使用。"
     }
   },
   {
@@ -2265,17 +2852,23 @@
     "designText": null,
     "price": 237,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020712582-1.jpg",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712582-1.jpg",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020712582-1.jpg"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712582-1.jpg"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合关注日常健康数据的人群。",
+      "packageCount": "包装内含手表主机及配件，以实物为准。",
+      "usage": "首次使用请先充电，连接 App 完成配对后佩戴使用。",
+      "resultReading": "健康数据以设备与 App 显示为准，仅供日常参考。",
+      "precautions": "健康数据不构成医疗诊断；如有不适请及时就医。",
+      "storage": "避免高温潮湿环境，长期存放请定期充电。"
     }
   },
   {
@@ -2286,17 +2879,23 @@
     "designText": null,
     "price": 97,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020712162-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712162-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020712162-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712162-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合居家监测血糖、尿酸等指标的人群。",
+      "packageCount": "包装内含检测主机及配件，以实物为准。",
+      "usage": "请按随附说明书完成开机、插条与采血检测。",
+      "resultReading": "读数以设备屏幕显示为准，请按医嘱解读。",
+      "precautions": "检测结果仅供健康参考，不用于自行诊断；如有异常请咨询医生。",
+      "storage": "常温干燥保存，避免高温与潮湿。"
     }
   },
   {
@@ -2307,17 +2906,23 @@
     "designText": null,
     "price": 85,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020710151-1.jpg",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710151-1.jpg",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020710151-1.jpg"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710151-1.jpg"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合居家监测血压的成年人。",
+      "packageCount": "包装内含血压计主机、袖带及配件，以实物为准。",
+      "usage": "静坐 5 分钟后将袖带绑在上臂，按下开始键测量，具体以说明书为准。",
+      "resultReading": "测量结果以设备屏幕显示为准，建议多次测量取平均值。",
+      "precautions": "测量数据仅供健康参考，不用于自行诊断或调整用药；如有异常请咨询医生。",
+      "storage": "常温干燥保存，避免阳光直射与剧烈震动。"
     }
   },
   {
@@ -2328,17 +2933,22 @@
     "designText": null,
     "price": 48,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020712377-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712377-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020712377-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712377-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适用于配套 BUZUD 设备或耗材的用户。",
+      "packageCount": "包装内含配件/耗材，数量以实物包装为准。",
+      "usage": "请按随附说明书安装或更换，具体以说明书为准。",
+      "precautions": "请确认与您的设备型号匹配后再购买；如不确定请联系客服。",
+      "storage": "密封、干燥保存，请在有效期内使用。"
     }
   },
   {
@@ -2349,17 +2959,23 @@
     "designText": null,
     "price": 6,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020711684-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711684-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020711684-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711684-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合居家测量体温的人群。",
+      "packageCount": "包装内含体温计 1 支，以实物为准。",
+      "usage": "按说明书选择测量模式，对准额头或耳道进行测量。",
+      "resultReading": "读数以设备显示为准，建议在同一部位多次测量。",
+      "precautions": "请按说明书正确使用，避免接触液体；如有疑问咨询专业人士。",
+      "storage": "常温干燥保存，避免阳光直射。"
     }
   },
   {
@@ -2370,17 +2986,22 @@
     "designText": null,
     "price": 3,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020711660-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711660-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020711660-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711660-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适用于配套 BUZUD 设备或耗材的用户。",
+      "packageCount": "包装内含配件/耗材，数量以实物包装为准。",
+      "usage": "请按随附说明书安装或更换，具体以说明书为准。",
+      "precautions": "请确认与您的设备型号匹配后再购买；如不确定请联系客服。",
+      "storage": "密封、干燥保存，请在有效期内使用。"
     }
   },
   {
@@ -2391,17 +3012,22 @@
     "designText": null,
     "price": 37,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020712179-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712179-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020712179-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712179-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适用于配套 BUZUD 设备或耗材的用户。",
+      "packageCount": "包装内含配件/耗材，数量以实物包装为准。",
+      "usage": "请按随附说明书安装或更换，具体以说明书为准。",
+      "precautions": "请确认与您的设备型号匹配后再购买；如不确定请联系客服。",
+      "storage": "密封、干燥保存，请在有效期内使用。"
     }
   },
   {
@@ -2412,17 +3038,23 @@
     "designText": null,
     "price": 137,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020712841-1.jpg",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712841-1.jpg",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020712841-1.jpg"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712841-1.jpg"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合居家监测血压的成年人。",
+      "packageCount": "包装内含血压计主机、袖带及配件，以实物为准。",
+      "usage": "静坐 5 分钟后将袖带绑在上臂，按下开始键测量，具体以说明书为准。",
+      "resultReading": "测量结果以设备屏幕显示为准，建议多次测量取平均值。",
+      "precautions": "测量数据仅供健康参考，不用于自行诊断或调整用药；如有异常请咨询医生。",
+      "storage": "常温干燥保存，避免阳光直射与剧烈震动。"
     }
   },
   {
@@ -2433,17 +3065,22 @@
     "designText": null,
     "price": 587,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020712988-1.jpg",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712988-1.jpg",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020712988-1.jpg"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712988-1.jpg"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合在医生或康复师指导下进行手部康复训练的人群。",
+      "packageCount": "包装内含训练主机/手套及配件，以实物为准。",
+      "usage": "请按随附说明书及康复师指导进行训练。",
+      "precautions": "请遵医嘱使用，避免过度训练；如有不适立即停止并咨询专业人员。",
+      "storage": "常温干燥保存。"
     }
   },
   {
@@ -2454,17 +3091,22 @@
     "designText": null,
     "price": 200,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020712858-1.jpg",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712858-1.jpg",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020712858-1.jpg"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712858-1.jpg"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适用于配套 BUZUD 设备或耗材的用户。",
+      "packageCount": "包装内含配件/耗材，数量以实物包装为准。",
+      "usage": "请按随附说明书安装或更换，具体以说明书为准。",
+      "precautions": "请确认与您的设备型号匹配后再购买；如不确定请联系客服。",
+      "storage": "密封、干燥保存，请在有效期内使用。"
     }
   },
   {
@@ -2475,17 +3117,22 @@
     "designText": null,
     "price": 30,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020710465-1-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710465-1-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020710465-1-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710465-1-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适用于配套 BUZUD 设备或耗材的用户。",
+      "packageCount": "包装内含配件/耗材，数量以实物包装为准。",
+      "usage": "请按随附说明书安装或更换，具体以说明书为准。",
+      "precautions": "请确认与您的设备型号匹配后再购买；如不确定请联系客服。",
+      "storage": "密封、干燥保存，请在有效期内使用。"
     }
   },
   {
@@ -2496,17 +3143,22 @@
     "designText": null,
     "price": 26,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020712827-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712827-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020712827-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712827-1.png"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适用于配套 BUZUD 设备或耗材的用户。",
+      "packageCount": "包装内含配件/耗材，数量以实物包装为准。",
+      "usage": "请按随附说明书安装或更换，具体以说明书为准。",
+      "precautions": "请确认与您的设备型号匹配后再购买；如不确定请联系客服。",
+      "storage": "密封、干燥保存，请在有效期内使用。"
     }
   },
   {
@@ -2517,17 +3169,22 @@
     "designText": null,
     "price": 340,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020712865-1.jpg",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712865-1.jpg",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020712865-1.jpg"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712865-1.jpg"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适用于配套 BUZUD 设备或耗材的用户。",
+      "packageCount": "包装内含配件/耗材，数量以实物包装为准。",
+      "usage": "请按随附说明书安装或更换，具体以说明书为准。",
+      "precautions": "请确认与您的设备型号匹配后再购买；如不确定请联系客服。",
+      "storage": "密封、干燥保存，请在有效期内使用。"
     }
   },
   {
@@ -2538,17 +3195,22 @@
     "designText": null,
     "price": 787,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020712988-1.jpg",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712988-1.jpg",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020712988-1.jpg"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712988-1.jpg"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适合在医生或康复师指导下进行手部康复训练的人群。",
+      "packageCount": "包装内含训练主机/手套及配件，以实物为准。",
+      "usage": "请按随附说明书及康复师指导进行训练。",
+      "precautions": "请遵医嘱使用，避免过度训练；如有不适立即停止并咨询专业人员。",
+      "storage": "常温干燥保存。"
     }
   },
   {
@@ -2559,11 +3221,11 @@
     "designText": null,
     "price": 5,
     "originalPrice": null,
-    "image": "/images/products/buzud-StandardShip-1.png",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-StandardShip-1.png",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-StandardShip-1.png"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-StandardShip-1.png"
       ],
       "benefits": [],
       "dimension": null,
@@ -2580,17 +3242,23 @@
     "designText": null,
     "price": 15,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020710151-1-1.jpg",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710151-1-1.jpg",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020710151-1-1.jpg"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710151-1-1.jpg"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适用于配套 BUZUD 设备或耗材的用户。",
+      "packageCount": "包装内含配件/耗材，数量以实物包装为准。",
+      "usage": "请按随附说明书安装或更换，具体以说明书为准。",
+      "resultReading": "测量结果以设备屏幕显示为准，建议多次测量取平均值。",
+      "precautions": "请确认与您的设备型号匹配后再购买；如不确定请联系客服。",
+      "storage": "密封、干燥保存，请在有效期内使用。"
     }
   },
   {
@@ -2601,17 +3269,23 @@
     "designText": null,
     "price": 56.6,
     "originalPrice": null,
-    "image": "/images/products/buzud-8885020712995-1.jpg",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712995-1.jpg",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-8885020712995-1.jpg"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712995-1.jpg"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适用于配套 BUZUD 设备或耗材的用户。",
+      "packageCount": "包装内含配件/耗材，数量以实物包装为准。",
+      "usage": "请按随附说明书安装或更换，具体以说明书为准。",
+      "resultReading": "流量与浓度以设备显示为准，请遵医嘱设置。",
+      "precautions": "请确认与您的设备型号匹配后再购买；如不确定请联系客服。",
+      "storage": "密封、干燥保存，请在有效期内使用。"
     }
   },
   {
@@ -2622,17 +3296,22 @@
     "designText": null,
     "price": 5,
     "originalPrice": null,
-    "image": "/images/products/buzud-capillary-tubes-10pcs-1.jpg",
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-capillary-tubes-10pcs-1.jpg",
     "labels": [],
     "detail": {
       "images": [
-        "/images/products/buzud-capillary-tubes-10pcs-1.jpg"
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-capillary-tubes-10pcs-1.jpg"
       ],
       "benefits": [],
       "dimension": null,
       "materials": [],
       "care": [],
-      "description": null
+      "description": null,
+      "intendedFor": "适用于配套 BUZUD 设备或耗材的用户。",
+      "packageCount": "包装内含配件/耗材，数量以实物包装为准。",
+      "usage": "请按随附说明书安装或更换，具体以说明书为准。",
+      "precautions": "请确认与您的设备型号匹配后再购买；如不确定请联系客服。",
+      "storage": "密封、干燥保存，请在有效期内使用。"
     }
   }
 ]
