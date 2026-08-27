@@ -1,6 +1,7 @@
 "use client"
 
 import { useState } from "react"
+import Link from "next/link"
 import { useTranslation } from "react-i18next"
 
 type RegistrationResponse = {
@@ -19,6 +20,13 @@ type FormKey =
 
 export function WarrantyRegistrationForm() {
   const { t } = useTranslation()
+  const requiredKeys = new Set<FormKey>([
+    "customerName",
+    "phone",
+    "email",
+    "purchaseDate",
+    "productName",
+  ])
   const fields: [FormKey, string, string, string][] = [
     ["customerName", t("warrantyForm.nameLabel"), t("warrantyForm.namePlaceholder"), "text"],
     ["phone", t("warrantyForm.phoneLabel"), t("warrantyForm.phonePlaceholder"), "tel"],
@@ -122,7 +130,15 @@ export function WarrantyRegistrationForm() {
     <form className="mt-8 grid gap-5 md:grid-cols-2">
       {fields.map(([key, label, placeholder, type]) => (
         <label key={key} className="block">
-          <span className="mb-1.5 block text-sm font-bold">{label}</span>
+          <span className="mb-1.5 block text-sm font-bold">
+            {label}
+            {requiredKeys.has(key) ? (
+              <span className="text-red-600" aria-label={t("warrantyForm.required")}>
+                {" "}
+                *
+              </span>
+            ) : null}
+          </span>
           <input
             type={type}
             placeholder={placeholder}
@@ -133,7 +149,9 @@ export function WarrantyRegistrationForm() {
         </label>
       ))}
       <label className="block md:col-span-2">
-        <span className="mb-1.5 block text-sm font-bold">{t("warrantyForm.noteLabel")}</span>
+        <span className="mb-1.5 block text-sm font-bold">
+          {t("warrantyForm.noteLabel")}
+        </span>
         <textarea
           placeholder={t("warrantyForm.notePlaceholder")}
           value={form.note}
@@ -142,6 +160,16 @@ export function WarrantyRegistrationForm() {
           className="w-full border border-ikea-gray-200 px-4 py-3 text-sm outline-none transition-colors focus:border-ikea-blue"
         />
       </label>
+
+      <div className="md:col-span-2">
+        <p className="text-xs leading-relaxed text-ikea-muted">{t("warrantyForm.dataUsage")}</p>
+        <Link
+          href="/cn/zh/privacy-policy/"
+          className="mt-1 inline-block text-xs font-bold text-ikea-blue hover:underline"
+        >
+          {t("warrantyForm.privacyPolicy")}
+        </Link>
+      </div>
 
       {error ? (
         <p className="rounded bg-red-50 px-4 py-3 text-xs text-red-600 md:col-span-2">

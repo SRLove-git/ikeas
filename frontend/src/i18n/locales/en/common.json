@@ -412,9 +412,12 @@
     "submitFailed": "Submission failed, please try again later",
     "successTitle": "Registration successful",
     "successBody": "Your warranty registration number is {{id}}. Please take a screenshot or note it down.",
-    "successHelp": "For assistance, please call +65 6518 9979.",
+    "successHelp": "For assistance, contact our hotline +65 8381 1666.",
     "submitting": "Submitting…",
-    "submit": "Submit warranty registration"
+    "submit": "Submit warranty registration",
+    "required": "Required",
+    "dataUsage": "We collect the information above only to verify your purchase and provide warranty and after-sales services. It is stored and processed in accordance with our Privacy Policy. Questions? Contact +65 8381 1666 or customerservice@chungyip.com.",
+    "privacyPolicy": "View Privacy Policy"
   },
   "content": {
     "learnMore": "Learn more",
