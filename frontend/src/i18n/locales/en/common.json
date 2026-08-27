@@ -67,7 +67,11 @@
       "priceAsc": "Price: Low to High",
       "priceDesc": "Price: High to Low",
       "nameAsc": "Name"
-    }
+    },
+    "clearSearch": "Clear search",
+    "browseAllProducts": "Browse all products",
+    "hotWords": "Popular searches",
+    "recommended": "Recommended for you"
   },
   "footer": {
     "chooseLanguage": "Choose language"

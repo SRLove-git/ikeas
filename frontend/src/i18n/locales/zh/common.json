@@ -67,7 +67,11 @@
       "priceAsc": "价格从低到高",
       "priceDesc": "价格从高到低",
       "nameAsc": "名称"
-    }
+    },
+    "clearSearch": "清空搜索",
+    "browseAllProducts": "浏览所有商品",
+    "hotWords": "热门搜索",
+    "recommended": "为您推荐"
   },
   "footer": {
     "chooseLanguage": "选择语言"

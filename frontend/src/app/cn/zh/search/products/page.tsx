@@ -2,9 +2,12 @@ import Link from "next/link"
 import type { ReactNode } from "react"
 import { SiteLayout } from "@/components/SiteLayout"
 import { SiteImage } from "@/components/SiteImage"
+import { ProductCard } from "@/components/ProductCard"
 import { ArrowRightIcon } from "@/components/icons"
 import { formatPrice } from "@/lib/catalog"
 import { catalogPages } from "@/lib/catalog-pages"
+import { allProducts } from "@/data/products-index"
+import { homepage } from "@/data/homepage"
 import {
   SEARCH_SORTS,
   paginateSearchResults,
@@ -134,6 +137,7 @@ export default async function SearchProductsPage({
   const rawParams = await searchParams
   const locale = await getLocale()
   const t = await getServerT(locale)
+  const { searchHints } = homepage(locale)
   const q = firstParam(rawParams.q)
   const requestedCategory = firstParam(rawParams.category)
   const sort = parseSearchSort(firstParam(rawParams.sort))
@@ -235,7 +239,7 @@ export default async function SearchProductsPage({
             </button>
           </form>
 
-          {keyword && categories.length > 0 ? (
+          {keyword && results.length > 0 && categories.length > 0 ? (
             <div className="mt-6 flex flex-wrap items-center gap-2">
               <span className="mr-1 text-sm font-bold text-ikea-muted">
                 {t("search.categoryLabel")}
@@ -262,6 +266,66 @@ export default async function SearchProductsPage({
                   {category.name}
                 </Link>
               ))}
+            </div>
+          ) : null}
+
+          {keyword && pagination.items.length === 0 ? (
+            <div className="mt-8 rounded border border-ikea-gray-200 bg-ikea-gray-50 px-6 py-8 text-center">
+              <p className="text-lg font-bold">{t("search.noResults")}</p>
+              <p className="mt-2 text-sm text-ikea-muted">{t("search.noResultsHint", { q })}</p>
+              <div className="mt-5 flex flex-col justify-center gap-3 sm:flex-row">
+                <Link
+                  href="/cn/zh/search/products"
+                  className="i-btn i-btn--primary flex h-11 items-center justify-center px-8 text-sm font-bold text-white"
+                >
+                  {t("search.clearSearch")}
+                </Link>
+                <Link
+                  href="/cn/zh/all-products/"
+                  className="i-btn i-btn--secondary flex h-11 items-center justify-center px-8 text-sm font-bold"
+                >
+                  {t("search.browseAllProducts")}
+                </Link>
+              </div>
+              {activeCategory ? (
+                <div className="mt-4">
+                  <Link
+                    href={buildSearchHref({ q: keyword, sort, page: 1 })}
+                    className="text-xs font-bold text-ikea-blue hover:underline"
+                  >
+                    {t("search.clearCategory")}
+                  </Link>
+                </div>
+              ) : null}
+              {searchHints.length > 0 ? (
+                <>
+                  <p className="mt-8 text-xs font-bold text-ikea-muted">{t("search.hotWords")}</p>
+                  <div className="mt-3 flex flex-wrap justify-center gap-2">
+                    {searchHints.map((word) => (
+                      <Link
+                        key={word}
+                        href={`/cn/zh/search/products?q=${encodeURIComponent(word)}`}
+                        className="i-pill i-pill--small"
+                      >
+                        {word}
+                      </Link>
+                    ))}
+                  </div>
+                </>
+              ) : null}
+            </div>
+          ) : null}
+
+          {keyword && pagination.items.length === 0 && allProducts(locale).length > 0 ? (
+            <div className="mt-10">
+              <h2 className="text-lg font-bold">{t("search.recommended")}</h2>
+              <div className="mt-5 grid grid-cols-2 gap-x-5 gap-y-10 md:grid-cols-3 lg:grid-cols-4">
+                {allProducts(locale)
+                  .slice(0, 8)
+                  .map((product) => (
+                    <ProductCard key={product.id} product={product} />
+                  ))}
+              </div>
             </div>
           ) : null}
 
