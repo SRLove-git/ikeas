@@ -150,7 +150,6 @@
     "customerService": "Support",
     "welcome": "Welcome to CHUNG YIP",
     "invalidPhone": "Please enter a valid 11-digit mobile number",
-    "codeSentNotice": "{{message}} (demo verification code: {{code}})",
     "codeSendFailed": "Failed to send verification code",
     "needAgree": "Please read and agree to the privacy policy and terms of use first",
     "enterCode": "Please enter the verification code",
@@ -173,8 +172,7 @@
     "termsOfUse": "Terms of Use",
     "submitSms": "Log in / Sign up",
     "submit": "Log in",
-    "success": "Login successful. Taking you to your profile…",
-    "demoAccount": "Demo account: demo@ikea.cn (or 13800138000), password 123456"
+    "success": "Login successful. Taking you to your profile…"
   },
   "profile": {
     "loading": "Loading…",

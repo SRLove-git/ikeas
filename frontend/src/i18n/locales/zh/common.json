@@ -150,7 +150,6 @@
     "customerService": "客服",
     "welcome": "欢迎来到 CHUNG YIP",
     "invalidPhone": "请输入正确的 11 位手机号",
-    "codeSentNotice": "{{message}}（演示环境验证码：{{code}}）",
     "codeSendFailed": "验证码发送失败",
     "needAgree": "请先阅读并同意隐私政策和使用条款",
     "enterCode": "请输入验证码",
@@ -173,8 +172,7 @@
     "termsOfUse": "使用条款",
     "submitSms": "登录 / 注册",
     "submit": "登录",
-    "success": "登录成功，正在进入我的个人档案…",
-    "demoAccount": "演示账号：demo@ikea.cn（或 13800138000），密码 123456"
+    "success": "登录成功，正在进入我的个人档案…"
   },
   "profile": {
     "loading": "加载中…",

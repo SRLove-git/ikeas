@@ -40,15 +40,11 @@ export default function LoginPage() {
     }
 
     try {
-      const data = await apiJson<{ message: string; devCode?: string }>("/auth/sms/send", {
+      const data = await apiJson<{ message: string }>("/auth/sms/send", {
         method: "POST",
         body: JSON.stringify({ phone: phone.trim() }),
       })
-      setNotice(
-        data.devCode
-          ? t("login.codeSentNotice", { message: data.message, code: data.devCode })
-          : data.message,
-      )
+      setNotice(data.message)
     } catch (ex) {
       setError(ex instanceof Error ? ex.message : t("login.codeSendFailed"))
     }
@@ -286,9 +282,6 @@ export default function LoginPage() {
               </p>
             ) : null}
 
-            <p className="mt-3 text-center text-xs text-ikea-muted">
-              {t("login.demoAccount")}
-            </p>
           </div>
         </div>
       </div>

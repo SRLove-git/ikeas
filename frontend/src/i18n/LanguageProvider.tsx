@@ -66,6 +66,8 @@ export function LanguageProvider({
     const detected = detectBrowserLocale()
     if (!detected || detected === initialLocale) return
 
+    // 挂载时一次性把浏览器检测到的语言同步进 state（非级联渲染的常规 setState）。
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- 外部系统（浏览器语言）一次性同步
     setLocale(detected)
     document.documentElement.lang = detected
     document.cookie = `${LOCALE_STORAGE_KEY}=${detected}; path=/; max-age=31536000; samesite=lax`
