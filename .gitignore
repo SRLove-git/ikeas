@@ -49,5 +49,8 @@ next-env.d.ts
 # Local temp files
 temp/
 
+# TLS 私钥/证书（不进入仓库，部署时另行下发）
+deploy/nginx/certs/
+
 # Python virtualenv
 .venv/
