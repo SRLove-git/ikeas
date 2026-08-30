@@ -25,6 +25,10 @@ export function HeroVideo({ video, poster, href, alt }: HeroVideoProps) {
   }, [])
 
   // 手机端先显示压缩封面，不自动下载整段视频，提升首屏速度
+  const posterSrc =
+    poster && poster.includes("aliyuncs.com") && !poster.includes("x-oss-process")
+      ? `${poster}?x-oss-process=image/resize,w_1280,quality,q_82`
+      : poster
   const media = video && !isMobile ? (
     <video
       className="product"
@@ -40,7 +44,7 @@ export function HeroVideo({ video, poster, href, alt }: HeroVideoProps) {
   ) : poster ? (
     // eslint-disable-next-line @next/next/no-img-element
     <img
-      src={poster}
+      src={posterSrc ?? undefined}
       alt={alt ?? fallbackAlt}
       className="product h-full w-full object-contain"
       decoding="async"

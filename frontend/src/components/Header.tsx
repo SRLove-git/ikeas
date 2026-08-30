@@ -119,7 +119,7 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
                           {/* eslint-disable-next-line @next/next/no-img-element */}
                           <img
                             className="disable-event"
-                            src="https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/logo/logo.png"
+                            src="https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/logo/logo.png?x-oss-process=image/resize,w_240,quality,q_85"
                             alt="CHUNG YIP"
                             width={78}
                             height={64}

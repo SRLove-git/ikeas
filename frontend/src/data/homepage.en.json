@@ -308,7 +308,7 @@
   ],
   "heroVideo": {
     "video": "/videos/buzud-promo.mp4",
-    "poster": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-home-1.png",
+    "poster": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-home-1.jpg",
     "href": "/cn/zh/cat/smart-watch",
     "alt": "BUZUD promotional video"
   },
@@ -415,19 +415,19 @@
       "title": "Customer service and health talks",
       "description": "",
       "ctaHref": "/cn/zh/customer-service/",
-      "backgroundImage": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-service-aftersales.png"
+      "backgroundImage": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-service-aftersales.jpg"
     },
     {
       "title": "Delivery service",
       "description": "",
       "ctaHref": "/cn/zh/customer-service/services/delivery/",
-      "backgroundImage": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-service-delivery.png"
+      "backgroundImage": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-service-delivery.jpg"
     },
     {
       "title": "After-sales service and warranty",
       "description": "",
       "ctaHref": "/cn/zh/customer-service/services/aftersales/",
-      "backgroundImage": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-service-privileges.png"
+      "backgroundImage": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-service-privileges.jpg"
     }
   ],
   "rankingSections": [

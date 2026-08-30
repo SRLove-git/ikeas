@@ -11,6 +11,15 @@ interface SiteImageProps {
   aspectClassName?: string;
 }
 
+/** 阿里云 OSS 图片按需缩放压缩，减少移动端流量；已带处理参数或非 OSS 图片原样返回。 */
+function optimizedSrc(src: string): string {
+  if (src.includes("aliyuncs.com") && !src.includes("x-oss-process")) {
+    const separator = src.includes("?") ? "&" : "?"
+    return `${src}${separator}x-oss-process=image/resize,w_900,quality,q_80`
+  }
+  return src
+}
+
 /**
  * Renders an image from a local path or the original CDN URL. If the image
  * fails to load (or the URL is missing), a neutral IKEA-styled placeholder is
@@ -58,7 +67,7 @@ export function SiteImage({
       ) : (
         // eslint-disable-next-line @next/next/no-img-element
         <img
-          src={src}
+          src={optimizedSrc(src)}
           alt={alt}
           loading="lazy"
           onError={() => setFailed(true)}
