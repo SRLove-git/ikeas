@@ -158,7 +158,7 @@ export default async function CategoryPage({
                 href={hrefFor(undefined, activeType)}
                 className={`i-pill i-pill--small ${!sort ? "i-pill--active" : ""}`}
               >
-                {t("search.relevance")}
+                {t("search.sort.relevance")}
               </Link>
               {(["priceAsc", "priceDesc", "nameAsc"] as const).map((value) => (
                 <Link
