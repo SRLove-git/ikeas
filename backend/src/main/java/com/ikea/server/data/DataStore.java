@@ -445,16 +445,15 @@ public class DataStore {
   private void syncCatalogPages(List<CatalogPage> pages) {
     Map<String, CatalogPageEntity> existing = new LinkedHashMap<>();
     for (CatalogPageEntity entity : catalogPageEntityMapper.selectList(null)) {
-      existing.put(normalizeUrl(entity.getUrl()), entity);
+      existing.put(entity.getSlug(), entity);
     }
 
     Set<String> seedKeys = new HashSet<>();
     for (CatalogPage page : pages) {
-      String key = normalizeUrl(page.url());
-      seedKeys.add(key);
-      CatalogPageEntity entity = existing.get(key);
       String slug = slugFromUrl(page.url());
       String entitySlug = slug == null ? (page.id() == null ? page.url() : page.id()) : slug;
+      seedKeys.add(entitySlug);
+      CatalogPageEntity entity = existing.get(entitySlug);
       if (entity == null) {
         entity = new CatalogPageEntity();
         entity.setUrl(page.url());
