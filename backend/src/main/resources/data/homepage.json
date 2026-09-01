@@ -30,15 +30,19 @@
       "href": "/zh/company",
       "menuPanelLabel": ""
     },
-    {
-      "label": "客户服务",
-      "href": "/zh/customer-service/",
-      "menuPanelLabel": ""
-    },
-    {
-      "label": "联系我们",
-      "href": "/zh/customer-service/contact-us/"
-    }
+  {
+    "label": "客户服务",
+    "href": "/zh/customer-service/",
+    "menuPanelLabel": ""
+  },
+  {
+    "label": "预约",
+    "href": "/zh/booking/"
+  },
+  {
+    "label": "联系我们",
+    "href": "/zh/customer-service/contact-us/"
+  }
   ],
   "megaMenuCategories": [
     {
