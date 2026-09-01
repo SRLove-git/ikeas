@@ -21,6 +21,10 @@
             "text": "保修注册"
           },
           {
+            "href": "/cn/zh/booking/",
+            "text": "预约体验"
+          },
+          {
             "href": "/cn/zh/customer-service/services/delivery/",
             "text": "送货服务"
           },
@@ -68,6 +72,12 @@
             "text": "登记产品，享官方质保",
             "href": "/cn/zh/customer-service/warranty-registration/",
             "icon": "shield"
+          },
+          {
+            "title": "到店预约",
+            "text": "健康检测与产品体验预约",
+            "href": "/cn/zh/booking/",
+            "icon": "clock"
           },
           {
             "title": "订单查询",
@@ -857,6 +867,14 @@
             "image": null,
             "href": "/cn/zh/customer-service/warranty-registration/",
             "icon": "document",
+            "backgroundColor": null
+          },
+          {
+            "title": "到店预约",
+            "text": "预约门店健康检测与产品体验",
+            "image": null,
+            "href": "/cn/zh/booking/",
+            "icon": "clock",
             "backgroundColor": null
           }
         ],

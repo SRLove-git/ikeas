@@ -1,16 +1,21 @@
-import { Footer } from "@/components/Footer";
-import { Header } from "@/components/Header";
-import { FloatingWidgets } from "@/components/FloatingWidgets";
-import { CartDrawer } from "@/components/CartDrawer";
-import {
-  homepage,
-} from "@/data/homepage";
-import { getMenuPanels } from "@/data/menu-panels";
-import { getMenuCategories } from "@/data/categories";
-import { getLocale } from "@/i18n/server";
+import { Footer } from "@/components/Footer"
+import { Header } from "@/components/Header"
+import { FloatingWidgets } from "@/components/FloatingWidgets"
+import { CartDrawer } from "@/components/CartDrawer"
+import { homepage } from "@/data/homepage"
+import { getMenuPanels } from "@/data/menu-panels"
+import { getMenuCategories } from "@/data/categories"
+import { getLocale } from "@/i18n/server"
+import type { Locale } from "@/i18n/config"
 
-export async function SiteLayout({ children }: { children: React.ReactNode }) {
-  const locale = await getLocale();
+export async function SiteLayout({
+  children,
+  locale: forcedLocale,
+}: {
+  children: React.ReactNode
+  locale?: Locale
+}) {
+  const locale = forcedLocale ?? (await getLocale())
   const {
     footerFeaturedCards,
     footerLinkGroups,
@@ -18,9 +23,9 @@ export async function SiteLayout({ children }: { children: React.ReactNode }) {
     navMenuItems,
     searchHints,
     socialIcons,
-  } = homepage(locale);
-  const menuPanels = getMenuPanels(locale);
-  const categories = getMenuCategories(locale);
+  } = homepage(locale)
+  const menuPanels = getMenuPanels(locale)
+  const categories = getMenuCategories(locale)
   return (
     <main className="text-left">
       <div className="font-ikea">
@@ -43,5 +48,5 @@ export async function SiteLayout({ children }: { children: React.ReactNode }) {
         </div>
       </div>
     </main>
-  );
+  )
 }

@@ -21,6 +21,10 @@
             "text": "Warranty registration"
           },
           {
+            "href": "/cn/zh/booking/",
+            "text": "Book an appointment"
+          },
+          {
             "href": "/cn/zh/customer-service/services/delivery/",
             "text": "Delivery service"
           },
@@ -68,6 +72,12 @@
             "text": "Register your product for official warranty",
             "href": "/cn/zh/customer-service/warranty-registration/",
             "icon": "shield"
+          },
+          {
+            "title": "Book an appointment",
+            "text": "Health screening and product experiences",
+            "href": "/cn/zh/booking/",
+            "icon": "clock"
           },
           {
             "title": "Order tracking",
@@ -190,19 +200,19 @@
           {
             "title": "Delivery service",
             "text": "",
-            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-service-delivery.png",
+            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-service-delivery.jpg",
             "href": "/cn/zh/customer-service/services/delivery/"
           },
           {
             "title": "After-sales service",
             "text": "",
-            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-service-aftersales.png",
+            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-service-aftersales.jpg",
             "href": "/cn/zh/customer-service/services/aftersales/"
           },
           {
             "title": "Exclusive benefits",
             "text": "",
-            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-service-privileges.png",
+            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-service-privileges.jpg",
             "href": "/cn/zh/customer-service/services/privileges/"
           }
         ],
@@ -857,6 +867,14 @@
             "image": null,
             "href": "/cn/zh/customer-service/warranty-registration/",
             "icon": "document",
+            "backgroundColor": null
+          },
+          {
+            "title": "Book an appointment",
+            "text": "Book in-store health screening and product experiences",
+            "image": null,
+            "href": "/cn/zh/booking/",
+            "icon": "clock",
             "backgroundColor": null
           }
         ],

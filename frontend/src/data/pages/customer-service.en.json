@@ -21,6 +21,10 @@
             "text": "Warranty registration"
           },
           {
+            "href": "/cn/zh/booking/",
+            "text": "Book an appointment"
+          },
+          {
             "href": "/cn/zh/customer-service/services/delivery/",
             "text": "Delivery service"
           },
@@ -68,6 +72,12 @@
             "text": "Register your product for official warranty",
             "href": "/cn/zh/customer-service/warranty-registration/",
             "icon": "shield"
+          },
+          {
+            "title": "Book an appointment",
+            "text": "Health screening and product experiences",
+            "href": "/cn/zh/booking/",
+            "icon": "clock"
           },
           {
             "title": "Order tracking",
@@ -857,6 +867,14 @@
             "image": null,
             "href": "/cn/zh/customer-service/warranty-registration/",
             "icon": "document",
+            "backgroundColor": null
+          },
+          {
+            "title": "Book an appointment",
+            "text": "Book in-store health screening and product experiences",
+            "image": null,
+            "href": "/cn/zh/booking/",
+            "icon": "clock",
             "backgroundColor": null
           }
         ],
