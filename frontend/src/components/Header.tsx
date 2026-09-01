@@ -98,7 +98,7 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
   const submitSearch = (value: string) => {
     const q = value.trim()
     if (q) {
-      window.location.assign(`/cn/zh/search/products?q=${encodeURIComponent(q)}`)
+      window.location.assign(`/zh/search/products?q=${encodeURIComponent(q)}`)
       return
     }
     setSearchOpen(false)
@@ -170,7 +170,7 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
                         <span className="i-tooltip__custom-trigger-wrapper">
                           {user ? (
                             <Link
-                              href="/cn/zh/profile/"
+                              href="/zh/profile/"
                               className="header-action-btn header-action-btn--login"
                             >
                               <span className="flex h-6 w-6 items-center justify-center rounded-full bg-ikea-blue text-xs font-bold text-white">
@@ -180,7 +180,7 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
                             </Link>
                           ) : (
                             <Link
-                              href="/cn/zh/profile/login/"
+                              href="/zh/profile/login/"
                               className="header-action-btn header-action-btn--login"
                             >
                               <UserIcon width={24} height={24} />
@@ -193,7 +193,7 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
                       <span className="i-tooltip i-tooltip--bottom">
                         <span className="i-tooltip__custom-trigger-wrapper">
                           <Link
-                            href={user ? "/cn/zh/profile/" : "/cn/zh/profile/login/"}
+                            href={user ? "/zh/profile/" : "/zh/profile/login/"}
                             className="header-action-btn"
                           >
                             <UserIcon width={24} height={24} />
@@ -204,7 +204,7 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
                       <span className="i-tooltip i-tooltip--bottom">
                         <span className="i-tooltip__custom-trigger-wrapper">
                           <Link
-                            href={user ? "/cn/zh/profile/collection/" : "/cn/zh/profile/login/"}
+                            href={user ? "/zh/profile/collection/" : "/zh/profile/login/"}
                             className="header-action-btn"
                           >
                             <HeartIcon width={24} height={24} />
@@ -215,7 +215,7 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
                       <span className="i-tooltip i-tooltip--bottom">
                         <span className="i-tooltip__custom-trigger-wrapper">
                           <Link
-                            href="/cn/zh/pay/cart/"
+                            href="/zh/pay/cart/"
                             className="header-action-btn relative"
                             aria-label={t("header.shoppingBag")}
                           >
@@ -239,11 +239,24 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
                     onClick={() => setMobileMenuOpen((current) => !current)}
                   >
                     {mobileMenuOpen ? (
-                      <svg viewBox="0 0 24 24" fill="currentColor" className="h-6 w-6" aria-hidden="true">
+                      <svg
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        className="h-6 w-6"
+                        aria-hidden="true"
+                      >
                         <path d="m12 10.6 6-6 1.4 1.4-6 6 6 6-1.4 1.4-6-6-6 6L4.6 18l6-6-6-6L6 4.6z" />
                       </svg>
                     ) : (
-                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" className="h-6 w-6" aria-hidden="true">
+                      <svg
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        className="h-6 w-6"
+                        aria-hidden="true"
+                      >
                         <path d="M4 6h16M4 12h16M4 18h16" />
                       </svg>
                     )}

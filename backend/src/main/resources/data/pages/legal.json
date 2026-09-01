@@ -1,6 +1,6 @@
 [
   {
-    "url": "/cn/zh/privacy-policy",
+    "url": "/zh/privacy-policy",
     "family": "legal",
     "id": "buzud-privacy-policy",
     "title": "隐私政策",
@@ -205,7 +205,7 @@
         "images": [],
         "links": [
           {
-            "href": "/cn/zh/customer-service/contact-us/",
+            "href": "/zh/customer-service/contact-us/",
             "text": "联系我们"
           }
         ],
@@ -218,7 +218,7 @@
     ]
   },
   {
-    "url": "/cn/zh/conditions-of-use",
+    "url": "/zh/conditions-of-use",
     "family": "legal",
     "id": "buzud-conditions-of-use",
     "title": "使用条款",
@@ -389,9 +389,7 @@
       {
         "type": "pub-text",
         "title": "11. 反馈",
-        "texts": [
-          "您在本网站提供的任何反馈均视为非保密，BUZUD 可随时不受限制地使用该类信息。"
-        ],
+        "texts": ["您在本网站提供的任何反馈均视为非保密，BUZUD 可随时不受限制地使用该类信息。"],
         "images": [],
         "links": [],
         "items": [],
@@ -444,13 +442,11 @@
       {
         "type": "pub-text",
         "title": "15. 联系我们",
-        "texts": [
-          "如您对本使用条款有任何疑问，可联系我们获取进一步信息。"
-        ],
+        "texts": ["如您对本使用条款有任何疑问，可联系我们获取进一步信息。"],
         "images": [],
         "links": [
           {
-            "href": "/cn/zh/customer-service/contact-us/",
+            "href": "/zh/customer-service/contact-us/",
             "text": "联系我们"
           }
         ],
@@ -463,7 +459,7 @@
     ]
   },
   {
-    "url": "/cn/zh/online-purchase-agreement",
+    "url": "/zh/online-purchase-agreement",
     "family": "legal",
     "id": "buzud-online-purchase-agreement",
     "title": "在线购买协议",
@@ -601,7 +597,7 @@
         "images": [],
         "links": [
           {
-            "href": "/cn/zh/customer-service/services/aftersales/",
+            "href": "/zh/customer-service/services/aftersales/",
             "text": "售后服务"
           }
         ],
@@ -689,7 +685,7 @@
         "images": [],
         "links": [
           {
-            "href": "/cn/zh/customer-service/contact-us/",
+            "href": "/zh/customer-service/contact-us/",
             "text": "联系我们"
           }
         ],

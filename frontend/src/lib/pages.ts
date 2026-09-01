@@ -15,10 +15,10 @@ export function pagesByFamily(family: string, locale: Locale = DEFAULT_LOCALE): 
 }
 
 function segments(url: string): string[] {
-  return url.split("/").filter(Boolean).slice(2) // after /cn/zh/
+  return url.split("/").filter(Boolean).slice(2) // after /zh/
 }
 
-/** Pages whose path after /cn/zh/ has exactly `depth` segments. */
+/** Pages whose path after /zh/ has exactly `depth` segments. */
 export function pagesAtDepth(
   family: string,
   depth: number,
@@ -27,7 +27,7 @@ export function pagesAtDepth(
   return pagesByFamily(family, locale).filter((p) => segments(p.url).length === depth)
 }
 
-/** Pages whose path after /cn/zh/ has more than `minDepth` segments. */
+/** Pages whose path after /zh/ has more than `minDepth` segments. */
 export function pagesDeeper(
   family: string,
   minDepth: number,
@@ -57,23 +57,23 @@ export function familyHomeUrl(family: string, locale: Locale = DEFAULT_LOCALE): 
 // (counting all segments including "cn" and "zh"). Deeper URLs fall to the
 // generic catch-all route so article sub-pages never 404.
 const SPECIFIC_ROUTE_DEPTHS: [string, number][] = [
-  ["/cn/zh/rooms/", Infinity],
-  ["/cn/zh/ideas/", 4],
-  ["/cn/zh/campaigns/", 4],
-  ["/cn/zh/new/", 4],
-  ["/cn/zh/planners/", 4],
-  ["/cn/zh/landing-page/", 4],
-  ["/cn/zh/personalize-channel/", 4],
-  ["/cn/zh/ikea-business/", Infinity],
-  ["/cn/zh/cat/", Infinity],
-  ["/cn/zh/p/", Infinity],
-  ["/cn/zh/all-products/", 3],
+  ["/zh/rooms/", Infinity],
+  ["/zh/ideas/", 4],
+  ["/zh/campaigns/", 4],
+  ["/zh/new/", 4],
+  ["/zh/planners/", 4],
+  ["/zh/landing-page/", 4],
+  ["/zh/personalize-channel/", 4],
+  ["/zh/ikea-business/", Infinity],
+  ["/zh/cat/", Infinity],
+  ["/zh/p/", Infinity],
+  ["/zh/all-products/", 3],
 ]
 
 /** True when a more specific route already handles this URL. */
 export function isHandledBySpecificRoute(url: string): boolean {
-  if (url === "/cn/zh" || url === "/cn/zh/") return true
-  if (url.startsWith("/cn/zh/customer-service/services/")) return true
+  if (url === "/zh" || url === "/zh/") return true
+  if (url.startsWith("/zh/customer-service/services/")) return true
   const depth = url.split("/").filter(Boolean).length
   return SPECIFIC_ROUTE_DEPTHS.some(
     ([prefix, maxDepth]) => url.startsWith(prefix) && depth <= maxDepth,

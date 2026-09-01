@@ -198,7 +198,7 @@ export function BookingForm() {
       <div className="md:col-span-2">
         <p className="text-xs leading-relaxed text-ikea-muted">{t("bookingForm.dataUsage")}</p>
         <Link
-          href="/cn/zh/privacy-policy/"
+          href="/zh/privacy-policy/"
           className="mt-1 inline-block text-xs font-bold text-ikea-blue hover:underline"
         >
           {t("bookingForm.privacyPolicy")}

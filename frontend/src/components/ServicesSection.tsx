@@ -45,7 +45,7 @@ export function ServicesSection({ assurances }: ServicesSectionProps) {
         })}
       </div>
       <div className="pub-button-link is-bolder">
-        <Link href="/cn/zh/customer-service/" className="i-btn i-btn--small i-btn--secondary">
+        <Link href="/zh/customer-service/" className="i-btn i-btn--small i-btn--secondary">
           <span className="i-btn__inner">
             <span className="i-btn__label">{t("home.viewAllServices")}</span>
           </span>

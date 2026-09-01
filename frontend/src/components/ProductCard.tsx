@@ -20,7 +20,7 @@ export function ProductCard({ product }: ProductCardProps) {
   const spec = [product.productType, product.designText].filter(Boolean).join(", ")
 
   return (
-    <Link href={`/cn/zh/p/${product.slug}`} className="group flex flex-col">
+    <Link href={`/zh/p/${product.slug}`} className="group flex flex-col">
       <SiteImage
         src={product.image}
         alt={product.name}

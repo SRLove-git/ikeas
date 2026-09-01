@@ -83,7 +83,7 @@ export function AddressBookPanel() {
 
   useEffect(() => {
     if (ready && !user) {
-      router.replace("/cn/zh/profile/login/")
+      router.replace("/zh/profile/login/")
       return
     }
   }, [ready, user, router])

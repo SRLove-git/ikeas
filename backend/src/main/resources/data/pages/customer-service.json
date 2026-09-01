@@ -1,6 +1,6 @@
 [
   {
-    "url": "/cn/zh/customer-service",
+    "url": "/zh/customer-service",
     "family": "customer-service",
     "id": "cn--zh--buzud-customer-service",
     "title": "客户服务",
@@ -17,27 +17,27 @@
         "images": [],
         "links": [
           {
-            "href": "/cn/zh/customer-service/warranty-registration/",
+            "href": "/zh/customer-service/warranty-registration/",
             "text": "保修注册"
           },
           {
-            "href": "/cn/zh/booking/",
+            "href": "/zh/booking/",
             "text": "预约体验"
           },
           {
-            "href": "/cn/zh/customer-service/services/delivery/",
+            "href": "/zh/customer-service/services/delivery/",
             "text": "送货服务"
           },
           {
-            "href": "/cn/zh/customer-service/services/aftersales/",
+            "href": "/zh/customer-service/services/aftersales/",
             "text": "售后服务"
           },
           {
-            "href": "/cn/zh/customer-service/services/privileges/",
+            "href": "/zh/customer-service/services/privileges/",
             "text": "尊享权益"
           },
           {
-            "href": "/cn/zh/customer-service/contact-us/#stores",
+            "href": "/zh/customer-service/contact-us/#stores",
             "text": "门店查询"
           }
         ],
@@ -70,61 +70,61 @@
           {
             "title": "保修注册",
             "text": "登记产品，享官方质保",
-            "href": "/cn/zh/customer-service/warranty-registration/",
+            "href": "/zh/customer-service/warranty-registration/",
             "icon": "shield"
           },
           {
             "title": "到店预约",
             "text": "健康检测与产品体验预约",
-            "href": "/cn/zh/booking/",
+            "href": "/zh/booking/",
             "icon": "clock"
           },
           {
             "title": "订单查询",
             "text": "查看订单与配送状态",
-            "href": "/cn/zh/profile/my-orders/",
+            "href": "/zh/profile/my-orders/",
             "icon": "box"
           },
           {
             "title": "送货服务",
             "text": "本地及海外配送",
-            "href": "/cn/zh/customer-service/services/delivery/",
+            "href": "/zh/customer-service/services/delivery/",
             "icon": "truck"
           },
           {
             "title": "售后服务",
             "text": "维修、换货与退换",
-            "href": "/cn/zh/customer-service/services/aftersales/",
+            "href": "/zh/customer-service/services/aftersales/",
             "icon": "wrench"
           },
           {
             "title": "尊享权益",
             "text": "健康体验项目",
-            "href": "/cn/zh/customer-service/services/privileges/",
+            "href": "/zh/customer-service/services/privileges/",
             "icon": "gift"
           },
           {
             "title": "健康讲座",
             "text": "门店健康知识讲座，欢迎咨询参加",
-            "href": "/cn/zh/customer-service/contact-us/",
+            "href": "/zh/customer-service/contact-us/",
             "icon": "document"
           },
           {
             "title": "门店查询",
             "text": "新加坡三家体验店",
-            "href": "/cn/zh/customer-service/contact-us/#stores",
+            "href": "/zh/customer-service/contact-us/#stores",
             "icon": "store"
           },
           {
             "title": "联系我们",
             "text": "热线、WhatsApp 与邮件",
-            "href": "/cn/zh/customer-service/contact-us/",
+            "href": "/zh/customer-service/contact-us/",
             "icon": "phone"
           },
           {
             "title": "常见问题",
             "text": "快速查看 FAQ",
-            "href": "/cn/zh/customer-service/#faq",
+            "href": "/zh/customer-service/#faq",
             "icon": "chat"
           }
         ],
@@ -201,19 +201,19 @@
             "title": "送货服务",
             "text": "",
             "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-service-delivery.jpg",
-            "href": "/cn/zh/customer-service/services/delivery/"
+            "href": "/zh/customer-service/services/delivery/"
           },
           {
             "title": "售后服务",
             "text": "",
             "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-service-aftersales.jpg",
-            "href": "/cn/zh/customer-service/services/aftersales/"
+            "href": "/zh/customer-service/services/aftersales/"
           },
           {
             "title": "尊享权益",
             "text": "",
             "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-service-privileges.jpg",
-            "href": "/cn/zh/customer-service/services/privileges/"
+            "href": "/zh/customer-service/services/privileges/"
           }
         ],
         "productIds": [],
@@ -249,15 +249,13 @@
       {
         "type": "support-contact-banner",
         "title": "获取帮助",
-        "texts": [
-          "客服热线与在线客服将在工作时间内尽快为您解答，欢迎随时联系我们。"
-        ],
+        "texts": ["客服热线与在线客服将在工作时间内尽快为您解答，欢迎随时联系我们。"],
         "images": [
           "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-hero-1-wide.jpg"
         ],
         "links": [
           {
-            "href": "/cn/zh/customer-service/contact-us/",
+            "href": "/zh/customer-service/contact-us/",
             "text": "联系我们"
           },
           {
@@ -274,7 +272,7 @@
     ]
   },
   {
-    "url": "/cn/zh/customer-service/services/delivery/",
+    "url": "/zh/customer-service/services/delivery/",
     "family": "customer-service",
     "id": "cn--zh--buzud-delivery",
     "title": "送货服务",
@@ -284,9 +282,7 @@
       {
         "type": "pub-page-title",
         "title": null,
-        "texts": [
-          "送货服务"
-        ],
+        "texts": ["送货服务"],
         "images": [],
         "links": [],
         "items": [],
@@ -375,9 +371,7 @@
       {
         "type": "pub-text",
         "title": null,
-        "texts": [
-          "需要安排配送？请联系我们的客服团队。"
-        ],
+        "texts": ["需要安排配送？请联系我们的客服团队。"],
         "images": [],
         "links": [],
         "items": [],
@@ -389,7 +383,7 @@
     ]
   },
   {
-    "url": "/cn/zh/customer-service/services/aftersales/",
+    "url": "/zh/customer-service/services/aftersales/",
     "family": "customer-service",
     "id": "cn--zh--buzud-aftersales",
     "title": "售后服务",
@@ -399,9 +393,7 @@
       {
         "type": "pub-page-title",
         "title": null,
-        "texts": [
-          "售后服务"
-        ],
+        "texts": ["售后服务"],
         "images": [],
         "links": [],
         "items": [],
@@ -487,9 +479,7 @@
       {
         "type": "pub-text",
         "title": null,
-        "texts": [
-          "记得在官网完成保修注册，享受官方质保保障。"
-        ],
+        "texts": ["记得在官网完成保修注册，享受官方质保保障。"],
         "images": [],
         "links": [],
         "items": [],
@@ -506,7 +496,7 @@
         "links": [
           {
             "text": "前往保修注册",
-            "href": "/cn/zh/customer-service/warranty-registration/"
+            "href": "/zh/customer-service/warranty-registration/"
           }
         ],
         "items": [],
@@ -518,14 +508,12 @@
       {
         "type": "pub-text",
         "title": null,
-        "texts": [
-          "门店地址与营业时间请查看「联系我们」页面。"
-        ],
+        "texts": ["门店地址与营业时间请查看「联系我们」页面。"],
         "images": [],
         "links": [
           {
             "text": "联系我们",
-            "href": "/cn/zh/customer-service/contact-us/"
+            "href": "/zh/customer-service/contact-us/"
           }
         ],
         "items": [],
@@ -537,7 +525,7 @@
     ]
   },
   {
-    "url": "/cn/zh/customer-service/services/privileges/",
+    "url": "/zh/customer-service/services/privileges/",
     "family": "customer-service",
     "id": "cn--zh--buzud-privileges",
     "title": "尊享权益",
@@ -547,9 +535,7 @@
       {
         "type": "pub-page-title",
         "title": null,
-        "texts": [
-          "尊享权益"
-        ],
+        "texts": ["尊享权益"],
         "images": [],
         "links": [],
         "items": [],
@@ -575,9 +561,7 @@
       {
         "type": "pub-page-title",
         "title": null,
-        "texts": [
-          "健康体验项目"
-        ],
+        "texts": ["健康体验项目"],
         "images": [],
         "links": [],
         "items": [],
@@ -597,28 +581,28 @@
             "title": "体验 A",
             "text": "氧疗焕活 · 体成分分析 · 血糖+尿酸分析 · 血压检测",
             "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711448.png",
-            "href": "/cn/zh/customer-service/contact-us/",
+            "href": "/zh/customer-service/contact-us/",
             "backgroundColor": null
           },
           {
             "title": "体验 B",
             "text": "氧疗焕活 · 体成分分析 · 血糖+血脂分析 · 血压检测",
             "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710151.png",
-            "href": "/cn/zh/customer-service/contact-us/",
+            "href": "/zh/customer-service/contact-us/",
             "backgroundColor": null
           },
           {
             "title": "门店地址",
             "text": "585 North Bridge Road #01-02 Raffles Hospital",
             "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712582.png",
-            "href": "/cn/zh/customer-service/contact-us/",
+            "href": "/zh/customer-service/contact-us/",
             "backgroundColor": null
           },
           {
             "title": "立即选购",
             "text": "前往商城选购 BUZUD 健康产品",
             "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710595.png",
-            "href": "/cn/zh/all-products/",
+            "href": "/zh/all-products/",
             "backgroundColor": null
           }
         ],
@@ -634,7 +618,7 @@
         "images": [],
         "links": [
           {
-            "href": "/cn/zh/all-products/",
+            "href": "/zh/all-products/",
             "text": "立即选购"
           }
         ],
@@ -647,7 +631,7 @@
     ]
   },
   {
-    "url": "/cn/zh/customer-service/contact-us/",
+    "url": "/zh/customer-service/contact-us/",
     "family": "customer-service",
     "id": "cn--zh--buzud-contact-us",
     "title": "联系我们",
@@ -657,9 +641,7 @@
       {
         "type": "corporate-text",
         "title": "快捷联系",
-        "texts": [
-          "选择最适合您的联系方式，我们将在工作时间内尽快回复。"
-        ],
+        "texts": ["选择最适合您的联系方式，我们将在工作时间内尽快回复。"],
         "images": [],
         "links": [],
         "items": [],
@@ -695,7 +677,7 @@
             "title": "到店体验",
             "text": "新加坡三家体验门店\n健康检测与产品体验可预约",
             "image": null,
-            "href": "/cn/zh/customer-service/contact-us/#stores",
+            "href": "/zh/customer-service/contact-us/#stores",
             "icon": "store",
             "backgroundColor": null
           },
@@ -716,9 +698,7 @@
       {
         "type": "corporate-text",
         "title": "门店与体验中心",
-        "texts": [
-          "欢迎到店体验健康检测与产品咨询，三家体验门店均提供专业服务。"
-        ],
+        "texts": ["欢迎到店体验健康检测与产品咨询，三家体验门店均提供专业服务。"],
         "images": [],
         "links": [],
         "items": [],
@@ -768,9 +748,7 @@
       {
         "type": "contact-list",
         "title": "其他联系事项",
-        "texts": [
-          "根据您的需求选择对应的联系渠道，我们承诺对您的咨询严格保密。"
-        ],
+        "texts": ["根据您的需求选择对应的联系渠道，我们承诺对您的咨询严格保密。"],
         "images": [],
         "links": [],
         "items": [
@@ -823,9 +801,7 @@
       {
         "type": "contact-list",
         "title": "更多帮助",
-        "texts": [
-          "以下页面可帮助您快速解决常见问题。"
-        ],
+        "texts": ["以下页面可帮助您快速解决常见问题。"],
         "images": [],
         "links": [],
         "items": [
@@ -833,7 +809,7 @@
             "title": "客户服务总览",
             "text": "健康讲座、订单与常见问题一站式服务",
             "image": null,
-            "href": "/cn/zh/customer-service/",
+            "href": "/zh/customer-service/",
             "icon": "document",
             "backgroundColor": null
           },
@@ -841,7 +817,7 @@
             "title": "送货服务",
             "text": "本地及国际订单配送安排",
             "image": null,
-            "href": "/cn/zh/customer-service/services/delivery/",
+            "href": "/zh/customer-service/services/delivery/",
             "icon": "document",
             "backgroundColor": null
           },
@@ -849,7 +825,7 @@
             "title": "售后服务",
             "text": "客服咨询、保修与退换货支持",
             "image": null,
-            "href": "/cn/zh/customer-service/services/aftersales/",
+            "href": "/zh/customer-service/services/aftersales/",
             "icon": "document",
             "backgroundColor": null
           },
@@ -857,7 +833,7 @@
             "title": "尊享权益",
             "text": "银行合作专属优惠与健康体验",
             "image": null,
-            "href": "/cn/zh/customer-service/services/privileges/",
+            "href": "/zh/customer-service/services/privileges/",
             "icon": "document",
             "backgroundColor": null
           },
@@ -865,7 +841,7 @@
             "title": "保修注册",
             "text": "登记产品信息，享受官方质保",
             "image": null,
-            "href": "/cn/zh/customer-service/warranty-registration/",
+            "href": "/zh/customer-service/warranty-registration/",
             "icon": "document",
             "backgroundColor": null
           },
@@ -873,7 +849,7 @@
             "title": "到店预约",
             "text": "预约门店健康检测与产品体验",
             "image": null,
-            "href": "/cn/zh/booking/",
+            "href": "/zh/booking/",
             "icon": "clock",
             "backgroundColor": null
           }

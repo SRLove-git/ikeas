@@ -1,69 +1,65 @@
-"use client";
+"use client"
 
-import Link from "next/link";
-import { useRouter } from "next/navigation";
-import { useEffect, useState } from "react";
-import { useTranslation } from "react-i18next";
-import { SiteImage } from "@/components/SiteImage";
-import { useAuth } from "@/lib/auth";
-import { Breadcrumbs } from "@/components/Breadcrumbs";
-import {
-  apiJson,
-  type Cart,
-  type OrderResponse,
-} from "@/lib/api";
-import { formatPrice } from "@/lib/catalog-format";
-import { clearLocalCart, readLocalCart } from "@/lib/local-cart";
+import Link from "next/link"
+import { useRouter } from "next/navigation"
+import { useEffect, useState } from "react"
+import { useTranslation } from "react-i18next"
+import { SiteImage } from "@/components/SiteImage"
+import { useAuth } from "@/lib/auth"
+import { Breadcrumbs } from "@/components/Breadcrumbs"
+import { apiJson, type Cart, type OrderResponse } from "@/lib/api"
+import { formatPrice } from "@/lib/catalog-format"
+import { clearLocalCart, readLocalCart } from "@/lib/local-cart"
 
-const DELIVERY_FEE = 9.9;
+const DELIVERY_FEE = 9.9
 
 interface CouponView {
-  id: number;
-  code: string;
-  name: string;
-  type: number;
-  value: number;
-  minAmount: number;
-  status: number;
-  discountAmount: number;
+  id: number
+  code: string
+  name: string
+  type: number
+  value: number
+  minAmount: number
+  status: number
+  discountAmount: number
 }
 
 interface MarketingAccount {
-  points: number;
-  balance: number;
-  coupons: CouponView[];
+  points: number
+  balance: number
+  coupons: CouponView[]
 }
 
 export function CheckoutPanel() {
-  const { t } = useTranslation();
-  const router = useRouter();
-  const { user, ready } = useAuth();
-  const [cart, setCart] = useState<Cart | null>(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
-  const [submitting, setSubmitting] = useState(false);
-  const [marketing, setMarketing] = useState<MarketingAccount | null>(null);
-  const [createdOrder, setCreatedOrder] = useState<OrderResponse | null>(null);
-  const [couponCode, setCouponCode] = useState("");
-  const [usePoints, setUsePoints] = useState(0);
-  const [useBalance, setUseBalance] = useState(0);
+  const { t } = useTranslation()
+  const router = useRouter()
+  const { user, ready } = useAuth()
+  const [cart, setCart] = useState<Cart | null>(null)
+  const [loading, setLoading] = useState(true)
+  const [error, setError] = useState<string | null>(null)
+  const [submitting, setSubmitting] = useState(false)
+  const [marketing, setMarketing] = useState<MarketingAccount | null>(null)
+  const [createdOrder, setCreatedOrder] = useState<OrderResponse | null>(null)
+  const [couponCode, setCouponCode] = useState("")
+  const [usePoints, setUsePoints] = useState(0)
+  const [useBalance, setUseBalance] = useState(0)
   const [form, setForm] = useState({
     customer: "",
     phone: "",
     region: "",
     detail: "",
-  });
+  })
 
   useEffect(() => {
-    if (!ready) return;
+    if (!ready) return
 
-    let cancelled = false;
+    let cancelled = false
     const loadCart = async () => {
-      setLoading(true);
-      setError(null);
+      setLoading(true)
+      setError(null)
       try {
         if (!user) {
-          const local = readLocalCart();
+          const local = readLocalCart()
           if (!cancelled) {
             setCart({
               items: local,
@@ -72,79 +68,72 @@ export function CheckoutPanel() {
                 (sum, item) => sum + (item.product.price ?? 0) * item.quantity,
                 0,
               ),
-            });
+            })
           }
-          return;
+          return
         }
-        const data = await apiJson<Cart>("/cart");
-        if (!cancelled) setCart(data);
+        const data = await apiJson<Cart>("/cart")
+        if (!cancelled) setCart(data)
       } catch (ex) {
         if (!cancelled) {
-          setError(ex instanceof Error ? ex.message : t("checkout.loadFailed"));
+          setError(ex instanceof Error ? ex.message : t("checkout.loadFailed"))
         }
       } finally {
-        if (!cancelled) setLoading(false);
+        if (!cancelled) setLoading(false)
       }
-    };
+    }
 
-    void loadCart();
+    void loadCart()
     return () => {
-      cancelled = true;
-    };
-  }, [ready, user, t]);
+      cancelled = true
+    }
+  }, [ready, user, t])
 
   useEffect(() => {
-    if (!ready || !user) return;
-    let cancelled = false;
+    if (!ready || !user) return
+    let cancelled = false
     const loadMarketing = async () => {
       try {
-        const data = await apiJson<MarketingAccount>("/marketing/account");
-        if (!cancelled) setMarketing(data);
+        const data = await apiJson<MarketingAccount>("/marketing/account")
+        if (!cancelled) setMarketing(data)
       } catch {
-        if (!cancelled) setMarketing({ points: 0, balance: 0, coupons: [] });
+        if (!cancelled) setMarketing({ points: 0, balance: 0, coupons: [] })
       }
-    };
-    void loadMarketing();
+    }
+    void loadMarketing()
     return () => {
-      cancelled = true;
-    };
-  }, [ready, user]);
+      cancelled = true
+    }
+  }, [ready, user])
 
-  const items = cart?.items ?? [];
-  const subtotal = items.reduce(
-    (sum, item) => sum + (item.product.price ?? 0) * item.quantity,
-    0,
-  );
-  const totalQuantity = items.reduce((sum, item) => sum + item.quantity, 0);
-  const selectedCoupon =
-    marketing?.coupons.find((coupon) => coupon.code === couponCode) ?? null;
-  const pointDiscount = Math.min(usePoints, marketing?.points ?? 0) * 0.01;
-  const balanceUsed = Math.max(0, Math.min(useBalance, marketing?.balance ?? 0));
+  const items = cart?.items ?? []
+  const subtotal = items.reduce((sum, item) => sum + (item.product.price ?? 0) * item.quantity, 0)
+  const totalQuantity = items.reduce((sum, item) => sum + item.quantity, 0)
+  const selectedCoupon = marketing?.coupons.find((coupon) => coupon.code === couponCode) ?? null
+  const pointDiscount = Math.min(usePoints, marketing?.points ?? 0) * 0.01
+  const balanceUsed = Math.max(0, Math.min(useBalance, marketing?.balance ?? 0))
   const discount = Math.max(
     0,
-    Math.min(
-      subtotal,
-      (selectedCoupon?.discountAmount ?? 0) + pointDiscount + balanceUsed,
-    ),
-  );
-  const total = subtotal + DELIVERY_FEE - discount;
+    Math.min(subtotal, (selectedCoupon?.discountAmount ?? 0) + pointDiscount + balanceUsed),
+  )
+  const total = subtotal + DELIVERY_FEE - discount
 
   const update = (key: keyof typeof form, value: string) => {
-    setForm((current) => ({ ...current, [key]: value }));
-  };
+    setForm((current) => ({ ...current, [key]: value }))
+  }
 
   const submit = async () => {
     if (!cart || cart.items.length === 0) {
-      setError(t("checkout.emptyCart"));
-      return;
+      setError(t("checkout.emptyCart"))
+      return
     }
     if (!form.customer.trim() || !form.phone.trim() || !form.region.trim() || !form.detail.trim()) {
-      setError(t("checkout.incomplete"));
-      return;
+      setError(t("checkout.incomplete"))
+      return
     }
 
-    setSubmitting(true);
-    setError(null);
+    setSubmitting(true)
+    setError(null)
     try {
       if (!user) {
         const order = await apiJson<OrderResponse>("/orders", {
@@ -161,10 +150,10 @@ export function CheckoutPanel() {
             address: `${form.region.trim()} ${form.detail.trim()}`.trim(),
             remark: "",
           }),
-        });
-        clearLocalCart();
-        setCreatedOrder(order);
-        return;
+        })
+        clearLocalCart()
+        setCreatedOrder(order)
+        return
       }
       const order = await apiJson<OrderResponse>("/orders", {
         method: "POST",
@@ -179,23 +168,21 @@ export function CheckoutPanel() {
           address: `${form.region.trim()} ${form.detail.trim()}`.trim(),
           remark: "",
         }),
-      });
-      router.replace(
-        `/cn/zh/profile/my-orders/?created=${encodeURIComponent(order.orderNo)}`,
-      );
+      })
+      router.replace(`/zh/profile/my-orders/?created=${encodeURIComponent(order.orderNo)}`)
     } catch (ex) {
-      setError(ex instanceof Error ? ex.message : t("checkout.submitFailed"));
+      setError(ex instanceof Error ? ex.message : t("checkout.submitFailed"))
     } finally {
-      setSubmitting(false);
+      setSubmitting(false)
     }
-  };
+  }
 
   if (!ready) {
     return (
       <div className="flex min-h-[50vh] items-center justify-center text-sm text-ikea-muted">
         {t("checkout.entering")}
       </div>
-    );
+    )
   }
 
   if (createdOrder) {
@@ -210,13 +197,13 @@ export function CheckoutPanel() {
             </p>
             <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
               <Link
-                href="/cn/zh/all-products/"
+                href="/zh/all-products/"
                 className="i-btn i-btn--primary flex h-11 items-center justify-center px-8 text-sm font-bold text-white"
               >
                 {t("checkout.continueShopping")}
               </Link>
               <Link
-                href="/cn/zh/profile/login/"
+                href="/zh/profile/login/"
                 className="i-btn i-btn--secondary flex h-11 items-center justify-center px-8 text-sm font-bold"
               >
                 {t("checkout.loginToView")}
@@ -225,7 +212,7 @@ export function CheckoutPanel() {
           </div>
         </div>
       </div>
-    );
+    )
   }
 
   return (
@@ -295,7 +282,10 @@ export function CheckoutPanel() {
                     </span>
                     <span className="mt-1 block text-xs text-ikea-muted">
                       {t("checkout.etaHint")}{" "}
-                      <Link href="/cn/zh/customer-service/services/aftersales/" className="font-bold text-ikea-blue hover:underline">
+                      <Link
+                        href="/zh/customer-service/services/aftersales/"
+                        className="font-bold text-ikea-blue hover:underline"
+                      >
                         {t("checkout.returnsHint")}
                       </Link>
                     </span>
@@ -315,7 +305,7 @@ export function CheckoutPanel() {
               <div className="py-10 text-center">
                 <p className="text-sm text-ikea-muted">{t("checkout.empty")}</p>
                 <Link
-                  href="/cn/zh/all-products/"
+                  href="/zh/all-products/"
                   className="mt-3 inline-block text-sm font-bold text-ikea-blue hover:underline"
                 >
                   {t("checkout.browseProducts")}
@@ -348,7 +338,9 @@ export function CheckoutPanel() {
                 {user ? (
                   <div className="mt-6 space-y-3 border-t border-ikea-gray-200 pt-4">
                     <label className="block">
-                      <span className="text-xs font-bold text-ikea-muted">{t("checkout.coupon")}</span>
+                      <span className="text-xs font-bold text-ikea-muted">
+                        {t("checkout.coupon")}
+                      </span>
                       <select
                         value={couponCode}
                         onChange={(event) => setCouponCode(event.target.value)}
@@ -441,5 +433,5 @@ export function CheckoutPanel() {
         </div>
       </div>
     </div>
-  );
+  )
 }

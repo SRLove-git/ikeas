@@ -2,11 +2,11 @@
   "noticeMessages": [
     {
       "text": "欢迎来到 CHUNG YIP 健康产品商城，正品保障，安心选购",
-      "href": "/cn/zh/all-products/"
+      "href": "/zh/all-products/"
     },
     {
       "text": "新加坡本地品牌，商品认证信息以 HSA 官方数据库为准，门店提供健康体验",
-      "href": "/cn/zh/customer-service/contact-us/"
+      "href": "/zh/customer-service/contact-us/"
     }
   ],
   "searchHints": [
@@ -22,22 +22,22 @@
   "navMenuItems": [
     {
       "label": "所有产品",
-      "href": "/cn/zh/all-products",
+      "href": "/zh/all-products",
       "hasMegaMenu": true
     },
     {
       "label": "公司介绍",
-      "href": "/cn/zh/company",
+      "href": "/zh/company",
       "menuPanelLabel": ""
     },
     {
       "label": "客户服务",
-      "href": "/cn/zh/customer-service/",
+      "href": "/zh/customer-service/",
       "menuPanelLabel": ""
     },
     {
       "label": "联系我们",
-      "href": "/cn/zh/customer-service/contact-us/"
+      "href": "/zh/customer-service/contact-us/"
     }
   ],
   "megaMenuCategories": [
@@ -51,10 +51,7 @@
     },
     {
       "name": "简易氧气面罩",
-      "subCategories": [
-        "Simple Oxygen Mask (adult)",
-        "Simple Oxygen Mask (child)"
-      ]
+      "subCategories": ["Simple Oxygen Mask (adult)", "Simple Oxygen Mask (child)"]
     },
     {
       "name": "便携式制氧机",
@@ -109,10 +106,7 @@
     },
     {
       "name": "鼻氧管",
-      "subCategories": [
-        "Nasal Oxygen Cannula (5m) ",
-        "Nasal Oxygen Cannula (2m)"
-      ]
+      "subCategories": ["Nasal Oxygen Cannula (5m) ", "Nasal Oxygen Cannula (2m)"]
     },
     {
       "name": "制氧机",
@@ -127,10 +121,7 @@
     },
     {
       "name": "高流量鼻氧管",
-      "subCategories": [
-        "High-Flow Nasal Cannula NeoHiF-i5",
-        "High-Flow Nasal Cannula NeoHiF-i7"
-      ]
+      "subCategories": ["High-Flow Nasal Cannula NeoHiF-i5", "High-Flow Nasal Cannula NeoHiF-i7"]
     },
     {
       "name": "血糖试纸",
@@ -154,16 +145,11 @@
     },
     {
       "name": "氧气雾化管路及口含器",
-      "subCategories": [
-        "Oxygen Nebulizer Tubing and Mouthpiece"
-      ]
+      "subCategories": ["Oxygen Nebulizer Tubing and Mouthpiece"]
     },
     {
       "name": "转移椅",
-      "subCategories": [
-        "BUZUD Manual Transfer Chair ",
-        "Electric Transfer Wheelchair DY077602"
-      ]
+      "subCategories": ["BUZUD Manual Transfer Chair ", "Electric Transfer Wheelchair DY077602"]
     },
     {
       "name": "尿酸试纸",
@@ -174,9 +160,7 @@
     },
     {
       "name": "血脂检测试纸",
-      "subCategories": [
-        "BUZUD Blood Lipid Test Strip PFS 30 (20 strips/box)"
-      ]
+      "subCategories": ["BUZUD Blood Lipid Test Strip PFS 30 (20 strips/box)"]
     },
     {
       "name": "血液分析仪",
@@ -206,15 +190,11 @@
     },
     {
       "name": "酒精棉片",
-      "subCategories": [
-        "BUZUD Alcohol Swab"
-      ]
+      "subCategories": ["BUZUD Alcohol Swab"]
     },
     {
       "name": "呼吸护理",
-      "subCategories": [
-        "BUZUD Air-compressing Nebulizer 407A"
-      ]
+      "subCategories": ["BUZUD Air-compressing Nebulizer 407A"]
     },
     {
       "name": "助听器",
@@ -271,9 +251,7 @@
     },
     {
       "name": "自动体外除颤器（AED）",
-      "subCategories": [
-        "Battery pack for BUZUD Automatic External Defibrillator 7000"
-      ]
+      "subCategories": ["Battery pack for BUZUD Automatic External Defibrillator 7000"]
     },
     {
       "name": "身体成分秤",
@@ -309,7 +287,7 @@
   "heroVideo": {
     "video": "/videos/buzud-promo.mp4",
     "poster": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-home-1.jpg",
-    "href": "/cn/zh/cat/smart-watch",
+    "href": "/zh/cat/smart-watch",
     "alt": "BUZUD 宣传视频"
   },
   "promoCardItems": [
@@ -318,7 +296,7 @@
       "title": "快速检测试剂",
       "description": "",
       "ctaLabel": "立即选购",
-      "ctaHref": "/cn/zh/cat/test-kit",
+      "ctaHref": "/zh/cat/test-kit",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710595.png",
       "backgroundColor": "#00a19a",
       "textColor": "#ffffff"
@@ -328,7 +306,7 @@
       "title": "智能手表",
       "description": "",
       "ctaLabel": "立即选购",
-      "ctaHref": "/cn/zh/cat/smart-watch",
+      "ctaHref": "/zh/cat/smart-watch",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712582.png",
       "backgroundColor": "#0058a3",
       "textColor": "#ffffff"
@@ -338,7 +316,7 @@
       "title": "血压计",
       "description": "",
       "ctaLabel": "立即选购",
-      "ctaHref": "/cn/zh/cat/blood-pressure-monitor",
+      "ctaHref": "/zh/cat/blood-pressure-monitor",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710151.png",
       "backgroundColor": "#e2711d",
       "textColor": "#ffffff"
@@ -348,7 +326,7 @@
       "title": "血糖管理",
       "description": "",
       "ctaLabel": "立即选购",
-      "ctaHref": "/cn/zh/cat/cgms",
+      "ctaHref": "/zh/cat/cgms",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711394.png",
       "backgroundColor": "#00796b",
       "textColor": "#ffffff"
@@ -358,7 +336,7 @@
       "title": "健康监测设备",
       "description": "",
       "ctaLabel": "立即选购",
-      "ctaHref": "/cn/zh/cat/thermometer",
+      "ctaHref": "/zh/cat/thermometer",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711677.png",
       "backgroundColor": "#b23a48",
       "textColor": "#ffffff"
@@ -370,7 +348,7 @@
       "title": "HCG Pregnancy Rapid Test",
       "description": "用于女性尿液中的 HCG 检测，辅助判断是否怀孕。",
       "ctaLabel": "了解详情",
-      "ctaHref": "/cn/zh/p/hcg-pregnancy-rapid-test-8885020710595",
+      "ctaHref": "/zh/p/hcg-pregnancy-rapid-test-8885020710595",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710595.png",
       "backgroundColor": "#d6e9f4",
       "textColor": "#111111"
@@ -380,7 +358,7 @@
       "title": "LH Ovulation Rapid Test",
       "description": "检测尿液中的黄体生成素（LH）峰值，辅助预测排卵期。",
       "ctaLabel": "了解详情",
-      "ctaHref": "/cn/zh/p/lh-ovulation-rapid-test-8885020710618",
+      "ctaHref": "/zh/p/lh-ovulation-rapid-test-8885020710618",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710618.png",
       "backgroundColor": "#d6e9f4",
       "textColor": "#111111"
@@ -390,7 +368,7 @@
       "title": "Vaginal pH Rapid Test Panel",
       "description": "检测阴道分泌物的 pH 值，辅助筛查阴道微生态异常及感染风险。",
       "ctaLabel": "了解详情",
-      "ctaHref": "/cn/zh/p/vaginal-ph-rapid-test-panel-8885020710649",
+      "ctaHref": "/zh/p/vaginal-ph-rapid-test-panel-8885020710649",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710649.png",
       "backgroundColor": "#d6e9f4",
       "textColor": "#111111"
@@ -400,7 +378,7 @@
       "title": "BUZUD Watch Vibrance",
       "description": "智能健康手表，用于日常活动、心率、睡眠等健康数据监测。",
       "ctaLabel": "了解详情",
-      "ctaHref": "/cn/zh/p/buzud-watch-vibrance-8885020712582",
+      "ctaHref": "/zh/p/buzud-watch-vibrance-8885020712582",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712582.png",
       "backgroundColor": "#d6e9f4",
       "textColor": "#111111"
@@ -408,25 +386,25 @@
   ],
   "inspirationTipsCta": {
     "label": "加载更多内容",
-    "href": "/cn/zh/all-products/"
+    "href": "/zh/all-products/"
   },
   "serviceColumns": [
     {
       "title": "客户服务与健康讲座",
       "description": "",
-      "ctaHref": "/cn/zh/customer-service/",
+      "ctaHref": "/zh/customer-service/",
       "backgroundImage": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-service-aftersales.jpg"
     },
     {
       "title": "送货服务",
       "description": "",
-      "ctaHref": "/cn/zh/customer-service/services/delivery/",
+      "ctaHref": "/zh/customer-service/services/delivery/",
       "backgroundImage": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-service-delivery.jpg"
     },
     {
       "title": "售后服务与保修",
       "description": "",
-      "ctaHref": "/cn/zh/customer-service/services/aftersales/",
+      "ctaHref": "/zh/customer-service/services/aftersales/",
       "backgroundImage": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-service-privileges.jpg"
     }
   ],
@@ -609,32 +587,32 @@
     {
       "label": "快速检测试剂",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710595.png",
-      "href": "/cn/zh/cat/test-kit"
+      "href": "/zh/cat/test-kit"
     },
     {
       "label": "智能手表",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712582.png",
-      "href": "/cn/zh/cat/smart-watch"
+      "href": "/zh/cat/smart-watch"
     },
     {
       "label": "血压计",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710151.png",
-      "href": "/cn/zh/cat/blood-pressure-monitor"
+      "href": "/zh/cat/blood-pressure-monitor"
     },
     {
       "label": "血糖管理",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711394.png",
-      "href": "/cn/zh/cat/cgms"
+      "href": "/zh/cat/cgms"
     },
     {
       "label": "健康监测设备",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711677.png",
-      "href": "/cn/zh/cat/thermometer"
+      "href": "/zh/cat/thermometer"
     }
   ],
   "roomPillCta": {
     "label": "浏览全部商品",
-    "href": "/cn/zh/all-products/",
+    "href": "/zh/all-products/",
     "color": "#f5f5f5",
     "textColor": "#111111"
   },
@@ -642,32 +620,32 @@
     {
       "label": "BUZUD Watch Vibrance",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712582-1.jpg",
-      "href": "/cn/zh/p/buzud-watch-vibrance-8885020712582"
+      "href": "/zh/p/buzud-watch-vibrance-8885020712582"
     },
     {
       "label": "BUZUD Pen Needles Plus Pro 32G 6mm ",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711530-1.png",
-      "href": "/cn/zh/p/buzud-pen-needles-plus-pro-32g-6mm-8885020711530"
+      "href": "/zh/p/buzud-pen-needles-plus-pro-32g-6mm-8885020711530"
     },
     {
       "label": "BUZUD Fingertip Pulse Oximeter 70B",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711479-1.png",
-      "href": "/cn/zh/p/buzud-fingertip-pulse-oximeter-70b-8885020711479"
+      "href": "/zh/p/buzud-fingertip-pulse-oximeter-70b-8885020711479"
     },
     {
       "label": "BUZUD Infrared Ear Thermometer BZD100",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711677-1.jpg",
-      "href": "/cn/zh/p/buzud-infrared-ear-thermometer-bzd100-8885020711677"
+      "href": "/zh/p/buzud-infrared-ear-thermometer-bzd100-8885020711677"
     },
     {
       "label": "BUZUD Home Body Composition Scale CF509",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711448-1.jpg",
-      "href": "/cn/zh/p/buzud-home-body-composition-scale-cf509-8885020711448"
+      "href": "/zh/p/buzud-home-body-composition-scale-cf509-8885020711448"
     }
   ],
   "sustainabilityPillCta": {
     "label": "查看健康产品",
-    "href": "/cn/zh/all-products/",
+    "href": "/zh/all-products/",
     "color": "#f5f5f5",
     "textColor": "#111111"
   },
@@ -677,14 +655,12 @@
         "productId": "8885020710595",
         "left": "8%",
         "top": "10%",
-        "href": "/cn/zh/p/hcg-pregnancy-rapid-test-8885020710595",
+        "href": "/zh/p/hcg-pregnancy-rapid-test-8885020710595",
         "tooltipPosition": "is-top",
         "title": "HCG Pregnancy Rapid Test",
         "desc": "快速检测试剂",
         "price": "SGD 4.80",
-        "tags": [
-          "BUZUD"
-        ],
+        "tags": ["BUZUD"],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710595.png"
       },
@@ -692,14 +668,12 @@
         "productId": "8885020710618",
         "left": "32%",
         "top": "40%",
-        "href": "/cn/zh/p/lh-ovulation-rapid-test-8885020710618",
+        "href": "/zh/p/lh-ovulation-rapid-test-8885020710618",
         "tooltipPosition": "is-top",
         "title": "LH Ovulation Rapid Test",
         "desc": "快速检测试剂",
         "price": "SGD 5.80",
-        "tags": [
-          "BUZUD"
-        ],
+        "tags": ["BUZUD"],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710618.png"
       },
@@ -707,14 +681,12 @@
         "productId": "8885020710649",
         "left": "56%",
         "top": "70%",
-        "href": "/cn/zh/p/vaginal-ph-rapid-test-panel-8885020710649",
+        "href": "/zh/p/vaginal-ph-rapid-test-panel-8885020710649",
         "tooltipPosition": "is-top",
         "title": "Vaginal pH Rapid Test Panel",
         "desc": "快速检测试剂",
         "price": "SGD 16.00",
-        "tags": [
-          "BUZUD"
-        ],
+        "tags": ["BUZUD"],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710649.png"
       },
@@ -722,14 +694,12 @@
         "productId": "8885020712582",
         "left": "80%",
         "top": "10%",
-        "href": "/cn/zh/p/buzud-watch-vibrance-8885020712582",
+        "href": "/zh/p/buzud-watch-vibrance-8885020712582",
         "tooltipPosition": "is-top",
         "title": "BUZUD Watch Vibrance",
         "desc": "智能手表",
         "price": "SGD 237.00",
-        "tags": [
-          "BUZUD"
-        ],
+        "tags": ["BUZUD"],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712582.png"
       },
@@ -737,14 +707,12 @@
         "productId": "8885020711530",
         "left": "8%",
         "top": "40%",
-        "href": "/cn/zh/p/buzud-pen-needles-plus-pro-32g-6mm-8885020711530",
+        "href": "/zh/p/buzud-pen-needles-plus-pro-32g-6mm-8885020711530",
         "tooltipPosition": "is-top",
         "title": "BUZUD Pen Needles Plus Pro 32G 6mm ",
         "desc": "胰岛素笔针",
         "price": "SGD 26.00",
-        "tags": [
-          "BUZUD"
-        ],
+        "tags": ["BUZUD"],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711530-1.png"
       },
@@ -752,14 +720,12 @@
         "productId": "8885020711479",
         "left": "32%",
         "top": "70%",
-        "href": "/cn/zh/p/buzud-fingertip-pulse-oximeter-70b-8885020711479",
+        "href": "/zh/p/buzud-fingertip-pulse-oximeter-70b-8885020711479",
         "tooltipPosition": "is-top",
         "title": "BUZUD Fingertip Pulse Oximeter 70B",
         "desc": "脉搏血氧仪",
         "price": "SGD 57.00",
-        "tags": [
-          "BUZUD"
-        ],
+        "tags": ["BUZUD"],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711479-1.png"
       },
@@ -767,14 +733,12 @@
         "productId": "8885020711677",
         "left": "56%",
         "top": "10%",
-        "href": "/cn/zh/p/buzud-infrared-ear-thermometer-bzd100-8885020711677",
+        "href": "/zh/p/buzud-infrared-ear-thermometer-bzd100-8885020711677",
         "tooltipPosition": "is-top",
         "title": "BUZUD Infrared Ear Thermometer BZD100",
         "desc": "体温计",
         "price": "SGD 87.00",
-        "tags": [
-          "BUZUD"
-        ],
+        "tags": ["BUZUD"],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711677-1.jpg"
       },
@@ -782,14 +746,12 @@
         "productId": "8885020711448",
         "left": "80%",
         "top": "40%",
-        "href": "/cn/zh/p/buzud-home-body-composition-scale-cf509-8885020711448",
+        "href": "/zh/p/buzud-home-body-composition-scale-cf509-8885020711448",
         "tooltipPosition": "is-top",
         "title": "BUZUD Home Body Composition Scale CF509",
         "desc": "身体成分秤",
         "price": "SGD 37.00",
-        "tags": [
-          "BUZUD"
-        ],
+        "tags": ["BUZUD"],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711448-1.jpg"
       },
@@ -797,14 +759,12 @@
         "productId": "8885020712209",
         "left": "8%",
         "top": "70%",
-        "href": "/cn/zh/p/covid-19-flu-aandb-rsv-adeno-ag-combo-rapid-test-cassette-swab-1-test-box-8885020712209",
+        "href": "/zh/p/covid-19-flu-aandb-rsv-adeno-ag-combo-rapid-test-cassette-swab-1-test-box-8885020712209",
         "tooltipPosition": "is-top",
         "title": "COVID-19/Flu A&B/RSV/Adeno Ag Combo Rapid Test Cassette (Swab) (1 test/box)",
         "desc": "快速检测试剂",
         "price": "SGD 17.00",
-        "tags": [
-          "BUZUD"
-        ],
+        "tags": ["BUZUD"],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712209.png"
       },
@@ -812,14 +772,12 @@
         "productId": "8885020710588",
         "left": "32%",
         "top": "10%",
-        "href": "/cn/zh/p/h-pylori-antigen-rapid-test-8885020710588",
+        "href": "/zh/p/h-pylori-antigen-rapid-test-8885020710588",
         "tooltipPosition": "is-top",
         "title": "H.pylori Antigen Rapid Test",
         "desc": "快速检测试剂",
         "price": "SGD 18.00",
-        "tags": [
-          "BUZUD"
-        ],
+        "tags": ["BUZUD"],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710588.png"
       },
@@ -827,14 +785,12 @@
         "productId": "8885020711677",
         "left": "56%",
         "top": "40%",
-        "href": "/cn/zh/p/buzud-infrared-ear-thermometer-bzd100-8885020711677",
+        "href": "/zh/p/buzud-infrared-ear-thermometer-bzd100-8885020711677",
         "tooltipPosition": "is-top",
         "title": "BUZUD Infrared Ear Thermometer BZD100",
         "desc": "体温计",
         "price": "SGD 87.00",
-        "tags": [
-          "BUZUD"
-        ],
+        "tags": ["BUZUD"],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711677.png"
       },
@@ -842,14 +798,12 @@
         "productId": "8885020711448",
         "left": "80%",
         "top": "70%",
-        "href": "/cn/zh/p/buzud-home-body-composition-scale-cf509-8885020711448",
+        "href": "/zh/p/buzud-home-body-composition-scale-cf509-8885020711448",
         "tooltipPosition": "is-top",
         "title": "BUZUD Home Body Composition Scale CF509",
         "desc": "智能体重秤",
         "price": "SGD 37.00",
-        "tags": [
-          "BUZUD"
-        ],
+        "tags": ["BUZUD"],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711448.png"
       }
@@ -860,28 +814,28 @@
       "title": "送货服务",
       "description": "支持本地及海外配送，可联系门店或客服安排。",
       "ctaLabel": "了解详情",
-      "ctaHref": "/cn/zh/customer-service/services/delivery/",
+      "ctaHref": "/zh/customer-service/services/delivery/",
       "icon": "truck"
     },
     {
       "title": "售后服务",
       "description": "保修期内外均提供维修与换货服务，支持门店现场维修。",
       "ctaLabel": "了解详情",
-      "ctaHref": "/cn/zh/customer-service/services/aftersales/",
+      "ctaHref": "/zh/customer-service/services/aftersales/",
       "icon": "installation"
     },
     {
       "title": "保修注册",
       "description": "在官网登记产品保修信息，享受官方质保保障。",
       "ctaLabel": "前往注册",
-      "ctaHref": "/cn/zh/customer-service/warranty-registration/",
+      "ctaHref": "/zh/customer-service/warranty-registration/",
       "icon": "design"
     },
     {
       "title": "尊享权益",
       "description": "新加坡体验店健康体验项目，欢迎到店预约。",
       "ctaLabel": "查看权益",
-      "ctaHref": "/cn/zh/customer-service/services/privileges/",
+      "ctaHref": "/zh/customer-service/services/privileges/",
       "icon": "assembly"
     }
   ],
@@ -892,27 +846,27 @@
       "links": [
         {
           "label": "所有商品",
-          "href": "/cn/zh/all-products/"
+          "href": "/zh/all-products/"
         },
         {
           "label": "快速检测试剂",
-          "href": "/cn/zh/cat/test-kit"
+          "href": "/zh/cat/test-kit"
         },
         {
           "label": "智能手表",
-          "href": "/cn/zh/cat/smart-watch"
+          "href": "/zh/cat/smart-watch"
         },
         {
           "label": "血压计",
-          "href": "/cn/zh/cat/blood-pressure-monitor"
+          "href": "/zh/cat/blood-pressure-monitor"
         },
         {
           "label": "血糖管理",
-          "href": "/cn/zh/cat/cgms"
+          "href": "/zh/cat/cgms"
         },
         {
           "label": "健康监测设备",
-          "href": "/cn/zh/cat/thermometer"
+          "href": "/zh/cat/thermometer"
         }
       ]
     },
@@ -921,23 +875,23 @@
       "links": [
         {
           "label": "客户服务总览",
-          "href": "/cn/zh/customer-service/"
+          "href": "/zh/customer-service/"
         },
         {
           "label": "送货服务",
-          "href": "/cn/zh/customer-service/services/delivery/"
+          "href": "/zh/customer-service/services/delivery/"
         },
         {
           "label": "售后服务",
-          "href": "/cn/zh/customer-service/services/aftersales/"
+          "href": "/zh/customer-service/services/aftersales/"
         },
         {
           "label": "尊享权益",
-          "href": "/cn/zh/customer-service/services/privileges/"
+          "href": "/zh/customer-service/services/privileges/"
         },
         {
           "label": "联系我们",
-          "href": "/cn/zh/customer-service/contact-us/"
+          "href": "/zh/customer-service/contact-us/"
         }
       ]
     },
@@ -946,19 +900,19 @@
       "links": [
         {
           "label": "隐私政策",
-          "href": "/cn/zh/privacy-policy/"
+          "href": "/zh/privacy-policy/"
         },
         {
           "label": "使用条款",
-          "href": "/cn/zh/conditions-of-use/"
+          "href": "/zh/conditions-of-use/"
         },
         {
           "label": "在线购买协议",
-          "href": "/cn/zh/online-purchase-agreement/"
+          "href": "/zh/online-purchase-agreement/"
         },
         {
           "label": "保修注册",
-          "href": "/cn/zh/customer-service/warranty-registration/"
+          "href": "/zh/customer-service/warranty-registration/"
         }
       ]
     }
@@ -968,7 +922,7 @@
       "title": "体验 CHUNG YIP 健康服务",
       "description": "前往新加坡体验门店，享受健康检测、产品体验与一对一咨询。",
       "ctaLabel": "了解详情",
-      "href": "/cn/zh/customer-service/contact-us/"
+      "href": "/zh/customer-service/contact-us/"
     }
   ],
   "socialIcons": [],
@@ -977,15 +931,15 @@
     "links": [
       {
         "label": "隐私政策",
-        "href": "/cn/zh/privacy-policy/"
+        "href": "/zh/privacy-policy/"
       },
       {
         "label": "使用条款",
-        "href": "/cn/zh/conditions-of-use/"
+        "href": "/zh/conditions-of-use/"
       },
       {
         "label": "在线购买协议",
-        "href": "/cn/zh/online-purchase-agreement/"
+        "href": "/zh/online-purchase-agreement/"
       }
     ]
   }

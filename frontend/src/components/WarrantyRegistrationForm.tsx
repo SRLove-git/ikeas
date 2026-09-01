@@ -44,12 +44,7 @@ export function WarrantyRegistrationForm() {
       "text",
     ],
     ["model", t("warrantyForm.modelLabel"), t("warrantyForm.modelPlaceholder"), "text"],
-    [
-      "invoiceNo",
-      t("warrantyForm.invoiceNoLabel"),
-      t("warrantyForm.invoiceNoPlaceholder"),
-      "text",
-    ],
+    ["invoiceNo", t("warrantyForm.invoiceNoLabel"), t("warrantyForm.invoiceNoPlaceholder"), "text"],
   ]
   const [form, setForm] = useState<Record<FormKey, string>>({
     customerName: "",
@@ -66,8 +61,7 @@ export function WarrantyRegistrationForm() {
   const [successId, setSuccessId] = useState<string | null>(null)
 
   const update =
-    (key: FormKey) =>
-    (event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    (key: FormKey) => (event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
       setForm((current) => ({ ...current, [key]: event.target.value }))
     }
 
@@ -100,8 +94,7 @@ export function WarrantyRegistrationForm() {
         body: JSON.stringify(form),
       })
       const data = (await response.json().catch(() => null)) as
-        | (RegistrationResponse & { error?: string })
-        | null
+        (RegistrationResponse & { error?: string }) | null
       if (!response.ok || !data) {
         setError(data?.error ?? t("warrantyForm.submitFailed"))
         return
@@ -149,9 +142,7 @@ export function WarrantyRegistrationForm() {
         </label>
       ))}
       <label className="block md:col-span-2">
-        <span className="mb-1.5 block text-sm font-bold">
-          {t("warrantyForm.noteLabel")}
-        </span>
+        <span className="mb-1.5 block text-sm font-bold">{t("warrantyForm.noteLabel")}</span>
         <textarea
           placeholder={t("warrantyForm.notePlaceholder")}
           value={form.note}
@@ -164,7 +155,7 @@ export function WarrantyRegistrationForm() {
       <div className="md:col-span-2">
         <p className="text-xs leading-relaxed text-ikea-muted">{t("warrantyForm.dataUsage")}</p>
         <Link
-          href="/cn/zh/privacy-policy/"
+          href="/zh/privacy-policy/"
           className="mt-1 inline-block text-xs font-bold text-ikea-blue hover:underline"
         >
           {t("warrantyForm.privacyPolicy")}
@@ -172,9 +163,7 @@ export function WarrantyRegistrationForm() {
       </div>
 
       {error ? (
-        <p className="rounded bg-red-50 px-4 py-3 text-xs text-red-600 md:col-span-2">
-          {error}
-        </p>
+        <p className="rounded bg-red-50 px-4 py-3 text-xs text-red-600 md:col-span-2">{error}</p>
       ) : null}
 
       <div className="md:col-span-2">

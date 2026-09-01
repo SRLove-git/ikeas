@@ -1,6 +1,6 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from "next"
 
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH || undefined;
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || undefined
 
 const nextConfig: NextConfig = {
   ...(basePath ? { basePath } : {}),
@@ -15,36 +15,36 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       {
-        source: "/cn/zh/cat/buzud-rapid-tests",
-        destination: "/cn/zh/cat/test-kit",
+        source: "/zh/cat/buzud-rapid-tests",
+        destination: "/zh/cat/test-kit",
         permanent: true,
       },
       {
-        source: "/cn/zh/cat/buzud-watches",
-        destination: "/cn/zh/cat/smart-watch",
+        source: "/zh/cat/buzud-watches",
+        destination: "/zh/cat/smart-watch",
         permanent: true,
       },
       {
-        source: "/cn/zh/cat/buzud-blood-pressure-monitors",
-        destination: "/cn/zh/cat/blood-pressure-monitor",
+        source: "/zh/cat/buzud-blood-pressure-monitors",
+        destination: "/zh/cat/blood-pressure-monitor",
         permanent: true,
       },
       {
-        source: "/cn/zh/cat/buzud-glucose-management",
-        destination: "/cn/zh/cat/cgms",
+        source: "/zh/cat/buzud-glucose-management",
+        destination: "/zh/cat/cgms",
         permanent: true,
       },
       {
-        source: "/cn/zh/cat/buzud-health-devices",
-        destination: "/cn/zh/cat/thermometer",
+        source: "/zh/cat/buzud-health-devices",
+        destination: "/zh/cat/thermometer",
         permanent: true,
       },
       {
-        source: "/cn/zh/p/buzud-watch-vibrance-star-light-8885020712742",
-        destination: "/cn/zh/p/buzud-watch-vibrance-8885020712582",
+        source: "/zh/p/buzud-watch-vibrance-star-light-8885020712742",
+        destination: "/zh/p/buzud-watch-vibrance-8885020712582",
         permanent: true,
       },
-    ];
+    ]
   },
   async headers() {
     return [
@@ -54,8 +54,8 @@ const nextConfig: NextConfig = {
           { key: "Cache-Control", value: "public, max-age=86400, stale-while-revalidate=604800" },
         ],
       },
-    ];
+    ]
   },
-};
+}
 
-export default nextConfig;
+export default nextConfig

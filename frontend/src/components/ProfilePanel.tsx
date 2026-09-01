@@ -87,7 +87,7 @@ export function ProfilePanel() {
 
   useEffect(() => {
     if (ready && !user) {
-      router.replace("/cn/zh/profile/login/")
+      router.replace("/zh/profile/login/")
     }
   }, [ready, user, router])
 
@@ -129,7 +129,7 @@ export function ProfilePanel() {
                   type="button"
                   onClick={() => {
                     void logout()
-                    router.replace("/cn/zh/profile/login/")
+                    router.replace("/zh/profile/login/")
                   }}
                   className="font-bold text-ikea-blue hover:underline"
                 >
@@ -145,37 +145,37 @@ export function ProfilePanel() {
             {
               title: t("profile.orders"),
               desc: t("profile.ordersDesc"),
-              href: "/cn/zh/profile/my-orders/",
+              href: "/zh/profile/my-orders/",
               icon: CartIcon,
             },
             {
               title: t("profile.coupons"),
               desc: t("profile.couponsDesc"),
-              href: "/cn/zh/customer-service/services/privileges/",
+              href: "/zh/customer-service/services/privileges/",
               icon: CompassIcon,
             },
             {
               title: t("profile.collection"),
               desc: t("profile.collectionDesc"),
-              href: "/cn/zh/profile/collection/",
+              href: "/zh/profile/collection/",
               icon: HeartIcon,
             },
             {
               title: t("profile.address"),
               desc: t("profile.addressDesc"),
-              href: "/cn/zh/profile/address/",
+              href: "/zh/profile/address/",
               icon: TruckIcon,
             },
             {
               title: t("profile.browsingHistory"),
               desc: t("profile.browsingHistoryDesc"),
-              href: "/cn/zh/profile/browsing-history/",
+              href: "/zh/profile/browsing-history/",
               icon: HomeIcon,
             },
             {
               title: t("profile.support"),
               desc: t("profile.supportDesc"),
-              href: "/cn/zh/customer-service/",
+              href: "/zh/customer-service/",
               icon: CustomerServiceIcon,
             },
           ].map(({ title, desc, href, icon: Icon }) => (
@@ -303,7 +303,7 @@ export function ProfilePanel() {
               <p className="mt-2 text-sm text-ikea-muted">{t("profile.closeAccountDesc")}</p>
               <div className="mt-5 grid gap-4 md:grid-cols-2">
                 <Link
-                  href="/cn/zh/customer-service/"
+                  href="/zh/customer-service/"
                   className="border border-ikea-gray-200 p-5 transition-colors hover:border-ikea-black"
                 >
                   <span className="flex items-center gap-2 text-sm font-bold">
@@ -430,9 +430,7 @@ export function ProfilePanel() {
               ) : null}
               <button
                 type="button"
-                onClick={() =>
-                  setPasswordNotice(t("profile.passwordDemoNotice"))
-                }
+                onClick={() => setPasswordNotice(t("profile.passwordDemoNotice"))}
                 className="relative z-10 mt-6 inline-flex h-11 items-center justify-center rounded-full border border-ikea-gray-200 bg-white px-8 text-sm font-bold text-ikea-black hover:bg-ikea-gray-100"
               >
                 {t("profile.saveChanges")}
@@ -446,7 +444,7 @@ export function ProfilePanel() {
             type="button"
             onClick={() => {
               void logout()
-              router.replace("/cn/zh/profile/login/")
+              router.replace("/zh/profile/login/")
             }}
             className="i-btn h-10 border border-ikea-gray-200 px-6 text-sm font-bold text-ikea-black hover:border-ikea-black"
           >

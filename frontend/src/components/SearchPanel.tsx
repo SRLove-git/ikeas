@@ -90,7 +90,7 @@ export function SearchPanel({
                 suggestions.map((suggestion) => (
                   <li key={suggestion}>
                     <Link
-                      href={`/cn/zh/search/products?q=${encodeURIComponent(suggestion)}`}
+                      href={`/zh/search/products?q=${encodeURIComponent(suggestion)}`}
                       onClick={onClose}
                       className="flex items-center gap-3 rounded px-2 py-2 text-sm text-ikea-muted transition-colors hover:bg-ikea-gray-100 hover:text-ikea-black"
                     >
@@ -103,7 +103,7 @@ export function SearchPanel({
                 <>
                   <li>
                     <Link
-                      href={`/cn/zh/search/products?q=${encodeURIComponent(query.trim())}`}
+                      href={`/zh/search/products?q=${encodeURIComponent(query.trim())}`}
                       onClick={onClose}
                       className="flex items-center gap-3 rounded px-2 py-2 text-sm font-bold text-ikea-blue transition-colors hover:bg-ikea-gray-100"
                     >

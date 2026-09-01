@@ -152,7 +152,7 @@ export function SupportSearchHero({
               <div className="absolute inset-x-0 top-full z-20 mt-2 rounded-xl bg-white p-5 text-left text-sm text-ikea-muted shadow-lg ring-1 ring-ikea-gray-200">
                 {t("support.noFaqPrefix")}
                 <Link
-                  href="/cn/zh/customer-service/contact-us/"
+                  href="/zh/customer-service/contact-us/"
                   className="mx-1 font-bold text-ikea-blue underline underline-offset-4"
                   onMouseDown={(event) => event.preventDefault()}
                 >

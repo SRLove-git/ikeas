@@ -1,15 +1,15 @@
-import Link from "next/link";
-import { SiteLayout } from "@/components/SiteLayout";
-import { SiteImage } from "@/components/SiteImage";
-import { allProducts } from "@/data/products-index";
-import { formatPrice } from "@/lib/catalog";
-import { Breadcrumbs } from "@/components/Breadcrumbs";
-import { getLocale, getServerT } from "@/i18n/server";
+import Link from "next/link"
+import { SiteLayout } from "@/components/SiteLayout"
+import { SiteImage } from "@/components/SiteImage"
+import { allProducts } from "@/data/products-index"
+import { formatPrice } from "@/lib/catalog"
+import { Breadcrumbs } from "@/components/Breadcrumbs"
+import { getLocale, getServerT } from "@/i18n/server"
 
 export default async function ComparePage() {
-  const locale = await getLocale();
-  const t = await getServerT(locale);
-  const items = allProducts(locale).slice(0, 3);
+  const locale = await getLocale()
+  const t = await getServerT(locale)
+  const items = allProducts(locale).slice(0, 3)
   const rows: [string, (p: (typeof items)[number]) => string][] = [
     [t("common.price"), (p) => formatPrice(p.price)],
     [t("common.type"), (p) => p.productType ?? "—"],
@@ -17,7 +17,7 @@ export default async function ComparePage() {
     [t("common.dimension"), (p) => p.detail.dimension ?? "—"],
     [t("common.materials"), (p) => p.detail.materials[0] ?? "—"],
     [t("common.care"), (p) => p.detail.care[0] ?? "—"],
-  ];
+  ]
 
   return (
     <SiteLayout>
@@ -36,7 +36,7 @@ export default async function ComparePage() {
                   </th>
                   {items.map((product) => (
                     <th key={product.id} className="border border-ikea-gray-200 p-4">
-                      <Link href={`/cn/zh/p/${product.slug}/`} className="group">
+                      <Link href={`/zh/p/${product.slug}/`} className="group">
                         <SiteImage
                           src={product.image}
                           alt={product.name}
@@ -70,5 +70,5 @@ export default async function ComparePage() {
         </div>
       </div>
     </SiteLayout>
-  );
+  )
 }

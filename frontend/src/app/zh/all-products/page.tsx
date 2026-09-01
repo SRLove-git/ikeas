@@ -1,21 +1,21 @@
-import Link from "next/link";
-import { catalogData, type CatalogProduct } from "@/data/catalog";
-import { catalogPages } from "@/lib/catalog-pages";
-import { allProducts } from "@/data/products-index";
-import { ProductCard } from "@/components/ProductCard";
-import { Breadcrumbs } from "@/components/Breadcrumbs";
-import { SiteLayout } from "@/components/SiteLayout";
-import { getLocale, getServerT } from "@/i18n/server";
+import Link from "next/link"
+import { catalogData, type CatalogProduct } from "@/data/catalog"
+import { catalogPages } from "@/lib/catalog-pages"
+import { allProducts } from "@/data/products-index"
+import { ProductCard } from "@/components/ProductCard"
+import { Breadcrumbs } from "@/components/Breadcrumbs"
+import { SiteLayout } from "@/components/SiteLayout"
+import { getLocale, getServerT } from "@/i18n/server"
 
 function toCardProduct(product: {
-  id: string;
-  slug: string;
-  name: string;
-  productType: string | null;
-  designText: string | null;
-  price: number | null;
-  image: string | null;
-  labels: { text: string; backgroundColor: string | null; textColor: string | null }[];
+  id: string
+  slug: string
+  name: string
+  productType: string | null
+  designText: string | null
+  price: number | null
+  image: string | null
+  labels: { text: string; backgroundColor: string | null; textColor: string | null }[]
 }): CatalogProduct {
   return {
     id: product.id,
@@ -31,34 +31,34 @@ function toCardProduct(product: {
       textColor: label.textColor ?? undefined,
     })),
     detail: null,
-  };
+  }
 }
 
 export default async function AllProductsPage({
   searchParams,
 }: {
-  searchParams: Promise<{ cat?: string }>;
+  searchParams: Promise<{ cat?: string }>
 }) {
-  const { cat } = await searchParams;
-  const locale = await getLocale();
-  const t = await getServerT(locale);
-  const { catalogCategories } = catalogData(locale);
-  const all = allProducts(locale);
+  const { cat } = await searchParams
+  const locale = await getLocale()
+  const t = await getServerT(locale)
+  const { catalogCategories } = catalogData(locale)
+  const all = allProducts(locale)
 
   // 分类筛选：只保留有在售商品的分类，空分类不再展示
-  const categoryMap = new Map<string, { name: string; products: CatalogProduct[] }>();
+  const categoryMap = new Map<string, { name: string; products: CatalogProduct[] }>()
   for (const category of catalogCategories) {
     if (category.products.length > 0) {
-      categoryMap.set(category.slug, { name: category.name, products: category.products });
+      categoryMap.set(category.slug, { name: category.name, products: category.products })
     }
   }
   for (const page of catalogPages(locale)) {
-    const slug = page.url.split("/").filter(Boolean).at(-1) ?? "";
-    if (categoryMap.has(slug)) continue;
-    const ids = new Set(page.productIds ?? []);
-    const products = all.filter((product) => ids.has(product.id));
+    const slug = page.url.split("/").filter(Boolean).at(-1) ?? ""
+    if (categoryMap.has(slug)) continue
+    const ids = new Set(page.productIds ?? [])
+    const products = all.filter((product) => ids.has(product.id))
     if (products.length > 0) {
-      categoryMap.set(slug, { name: page.name, products: products.map(toCardProduct) });
+      categoryMap.set(slug, { name: page.name, products: products.map(toCardProduct) })
     }
   }
 
@@ -66,9 +66,9 @@ export default async function AllProductsPage({
     slug,
     name,
     count: products.length,
-  }));
-  const active = cat && categoryMap.has(cat) ? cat : null;
-  const visible = active ? (categoryMap.get(active)?.products ?? []) : all.map(toCardProduct);
+  }))
+  const active = cat && categoryMap.has(cat) ? cat : null
+  const visible = active ? (categoryMap.get(active)?.products ?? []) : all.map(toCardProduct)
 
   return (
     <SiteLayout>
@@ -82,7 +82,7 @@ export default async function AllProductsPage({
 
           <div className="mt-6 flex flex-wrap gap-2">
             <Link
-              href="/cn/zh/all-products/"
+              href="/zh/all-products/"
               className={`i-pill i-pill--small ${!active ? "i-pill--active" : ""}`}
             >
               {t("allProducts.all")}
@@ -90,7 +90,7 @@ export default async function AllProductsPage({
             {filters.map((filter) => (
               <Link
                 key={filter.slug}
-                href={`/cn/zh/all-products/?cat=${filter.slug}`}
+                href={`/zh/all-products/?cat=${filter.slug}`}
                 className={`i-pill i-pill--small ${active === filter.slug ? "i-pill--active" : ""}`}
               >
                 {filter.name}（{filter.count}）
@@ -106,5 +106,5 @@ export default async function AllProductsPage({
         </div>
       </div>
     </SiteLayout>
-  );
+  )
 }

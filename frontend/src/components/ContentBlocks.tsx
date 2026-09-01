@@ -662,7 +662,7 @@ function RankingBlock({ block }: { block: ContentBlock }) {
           {block.title ?? block.texts[0] ?? t("content.bestsellerRanking")}
         </h2>
         <BlockLink
-          href={block.links[0]?.href ?? "/cn/zh/all-products/"}
+          href={block.links[0]?.href ?? "/zh/all-products/"}
           className="text-sm font-bold text-ikea-blue hover:underline"
         >
           {block.links[0]?.text || t("content.viewFullRanking")}
@@ -746,12 +746,10 @@ function ExpandableBlock({ block }: { block: ContentBlock }) {
             title: item.text ?? block.texts[i] ?? t("content.itemN", { n: i + 1 }),
             body: "",
           }))
-        : block.texts
-            .slice(1)
-            .map((text, i) => ({
-              title: block.texts[0] ?? t("content.itemN", { n: i + 1 }),
-              body: text,
-            }))
+        : block.texts.slice(1).map((text, i) => ({
+            title: block.texts[0] ?? t("content.itemN", { n: i + 1 }),
+            body: text,
+          }))
   return (
     <div className="divide-y divide-ikea-gray-200 border-y border-ikea-gray-200">
       {rows.map((row, i) => (
@@ -1280,9 +1278,7 @@ function ContactChannelsBlock({ block }: { block: ContentBlock }) {
           const telHref = href.startsWith("tel:") ? href : null
           const phoneNumber = telHref ? telHref.slice(4).replace(/[^\d]/g, "") : null
           const addressLine =
-            detail
-              .split("\n")
-              .find((line) => line.includes("Singapore") || /\d{6}/.test(line)) ??
+            detail.split("\n").find((line) => line.includes("Singapore") || /\d{6}/.test(line)) ??
             detail.split("\n")[0] ??
             null
           const isPhoneChannel = item.icon === "phone" && phoneNumber

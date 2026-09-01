@@ -1,6 +1,6 @@
 [
   {
-    "url": "/cn/zh/customer-service",
+    "url": "/zh/customer-service",
     "family": "customer-service",
     "id": "cn--zh--buzud-customer-service",
     "title": "Customer service",
@@ -17,27 +17,27 @@
         "images": [],
         "links": [
           {
-            "href": "/cn/zh/customer-service/warranty-registration/",
+            "href": "/zh/customer-service/warranty-registration/",
             "text": "Warranty registration"
           },
           {
-            "href": "/cn/zh/booking/",
+            "href": "/zh/booking/",
             "text": "Book an appointment"
           },
           {
-            "href": "/cn/zh/customer-service/services/delivery/",
+            "href": "/zh/customer-service/services/delivery/",
             "text": "Delivery service"
           },
           {
-            "href": "/cn/zh/customer-service/services/aftersales/",
+            "href": "/zh/customer-service/services/aftersales/",
             "text": "After-sales service"
           },
           {
-            "href": "/cn/zh/customer-service/services/privileges/",
+            "href": "/zh/customer-service/services/privileges/",
             "text": "Exclusive benefits"
           },
           {
-            "href": "/cn/zh/customer-service/contact-us/#stores",
+            "href": "/zh/customer-service/contact-us/#stores",
             "text": "Store locator"
           }
         ],
@@ -70,61 +70,61 @@
           {
             "title": "Warranty registration",
             "text": "Register your product for official warranty",
-            "href": "/cn/zh/customer-service/warranty-registration/",
+            "href": "/zh/customer-service/warranty-registration/",
             "icon": "shield"
           },
           {
             "title": "Book an appointment",
             "text": "Health screening and product experiences",
-            "href": "/cn/zh/booking/",
+            "href": "/zh/booking/",
             "icon": "clock"
           },
           {
             "title": "Order tracking",
             "text": "Check order and delivery status",
-            "href": "/cn/zh/profile/my-orders/",
+            "href": "/zh/profile/my-orders/",
             "icon": "box"
           },
           {
             "title": "Delivery service",
             "text": "Local and overseas delivery",
-            "href": "/cn/zh/customer-service/services/delivery/",
+            "href": "/zh/customer-service/services/delivery/",
             "icon": "truck"
           },
           {
             "title": "After-sales service",
             "text": "Repairs, exchanges and returns",
-            "href": "/cn/zh/customer-service/services/aftersales/",
+            "href": "/zh/customer-service/services/aftersales/",
             "icon": "wrench"
           },
           {
             "title": "Exclusive benefits",
             "text": "Health experience programs",
-            "href": "/cn/zh/customer-service/services/privileges/",
+            "href": "/zh/customer-service/services/privileges/",
             "icon": "gift"
           },
           {
             "title": "Health talks",
             "text": "In-store health knowledge talks; inquiries and participation welcome",
-            "href": "/cn/zh/customer-service/contact-us/",
+            "href": "/zh/customer-service/contact-us/",
             "icon": "document"
           },
           {
             "title": "Store locator",
             "text": "Three experience stores in Singapore",
-            "href": "/cn/zh/customer-service/contact-us/#stores",
+            "href": "/zh/customer-service/contact-us/#stores",
             "icon": "store"
           },
           {
             "title": "Contact us",
             "text": "Hotline, WhatsApp and email",
-            "href": "/cn/zh/customer-service/contact-us/",
+            "href": "/zh/customer-service/contact-us/",
             "icon": "phone"
           },
           {
             "title": "FAQs",
             "text": "Quick access to FAQs",
-            "href": "/cn/zh/customer-service/#faq",
+            "href": "/zh/customer-service/#faq",
             "icon": "chat"
           }
         ],
@@ -201,19 +201,19 @@
             "title": "Delivery service",
             "text": "",
             "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-service-delivery.jpg",
-            "href": "/cn/zh/customer-service/services/delivery/"
+            "href": "/zh/customer-service/services/delivery/"
           },
           {
             "title": "After-sales service",
             "text": "",
             "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-service-aftersales.jpg",
-            "href": "/cn/zh/customer-service/services/aftersales/"
+            "href": "/zh/customer-service/services/aftersales/"
           },
           {
             "title": "Exclusive benefits",
             "text": "",
             "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-service-privileges.jpg",
-            "href": "/cn/zh/customer-service/services/privileges/"
+            "href": "/zh/customer-service/services/privileges/"
           }
         ],
         "productIds": [],
@@ -257,7 +257,7 @@
         ],
         "links": [
           {
-            "href": "/cn/zh/customer-service/contact-us/",
+            "href": "/zh/customer-service/contact-us/",
             "text": "Contact us"
           },
           {
@@ -274,7 +274,7 @@
     ]
   },
   {
-    "url": "/cn/zh/customer-service/services/delivery/",
+    "url": "/zh/customer-service/services/delivery/",
     "family": "customer-service",
     "id": "cn--zh--buzud-delivery",
     "title": "Delivery service",
@@ -284,9 +284,7 @@
       {
         "type": "pub-page-title",
         "title": null,
-        "texts": [
-          "Delivery"
-        ],
+        "texts": ["Delivery"],
         "images": [],
         "links": [],
         "items": [],
@@ -375,9 +373,7 @@
       {
         "type": "pub-text",
         "title": null,
-        "texts": [
-          "Need delivery arrangements? Contact our customer service team."
-        ],
+        "texts": ["Need delivery arrangements? Contact our customer service team."],
         "images": [],
         "links": [],
         "items": [],
@@ -389,7 +385,7 @@
     ]
   },
   {
-    "url": "/cn/zh/customer-service/services/aftersales/",
+    "url": "/zh/customer-service/services/aftersales/",
     "family": "customer-service",
     "id": "cn--zh--buzud-aftersales",
     "title": "After-sales service",
@@ -399,9 +395,7 @@
       {
         "type": "pub-page-title",
         "title": null,
-        "texts": [
-          "After-sales service"
-        ],
+        "texts": ["After-sales service"],
         "images": [],
         "links": [],
         "items": [],
@@ -506,7 +500,7 @@
         "links": [
           {
             "text": "Register warranty",
-            "href": "/cn/zh/customer-service/warranty-registration/"
+            "href": "/zh/customer-service/warranty-registration/"
           }
         ],
         "items": [],
@@ -518,14 +512,12 @@
       {
         "type": "pub-text",
         "title": null,
-        "texts": [
-          "Store addresses and opening hours are available on the “Contact us” page."
-        ],
+        "texts": ["Store addresses and opening hours are available on the “Contact us” page."],
         "images": [],
         "links": [
           {
             "text": "Contact us",
-            "href": "/cn/zh/customer-service/contact-us/"
+            "href": "/zh/customer-service/contact-us/"
           }
         ],
         "items": [],
@@ -537,7 +529,7 @@
     ]
   },
   {
-    "url": "/cn/zh/customer-service/services/privileges/",
+    "url": "/zh/customer-service/services/privileges/",
     "family": "customer-service",
     "id": "cn--zh--buzud-privileges",
     "title": "Exclusive benefits",
@@ -547,9 +539,7 @@
       {
         "type": "pub-page-title",
         "title": null,
-        "texts": [
-          "Exclusive benefits"
-        ],
+        "texts": ["Exclusive benefits"],
         "images": [],
         "links": [],
         "items": [],
@@ -575,9 +565,7 @@
       {
         "type": "pub-page-title",
         "title": null,
-        "texts": [
-          "Health experience programs"
-        ],
+        "texts": ["Health experience programs"],
         "images": [],
         "links": [],
         "items": [],
@@ -597,28 +585,28 @@
             "title": "Experience A",
             "text": "Oxygen therapy revitalization · Body composition analysis · Blood glucose + uric acid analysis · Blood pressure testing",
             "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711448.png",
-            "href": "/cn/zh/customer-service/contact-us/",
+            "href": "/zh/customer-service/contact-us/",
             "backgroundColor": null
           },
           {
             "title": "Experience B",
             "text": "Oxygen therapy revitalization · Body composition analysis · Blood glucose + lipid analysis · Blood pressure testing",
             "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710151.png",
-            "href": "/cn/zh/customer-service/contact-us/",
+            "href": "/zh/customer-service/contact-us/",
             "backgroundColor": null
           },
           {
             "title": "Store address",
             "text": "585 North Bridge Road #01-02 Raffles Hospital",
             "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712582.png",
-            "href": "/cn/zh/customer-service/contact-us/",
+            "href": "/zh/customer-service/contact-us/",
             "backgroundColor": null
           },
           {
             "title": "Shop now",
             "text": "Visit the mall to shop BUZUD health products",
             "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710595.png",
-            "href": "/cn/zh/all-products/",
+            "href": "/zh/all-products/",
             "backgroundColor": null
           }
         ],
@@ -634,7 +622,7 @@
         "images": [],
         "links": [
           {
-            "href": "/cn/zh/all-products/",
+            "href": "/zh/all-products/",
             "text": "Shop now"
           }
         ],
@@ -647,7 +635,7 @@
     ]
   },
   {
-    "url": "/cn/zh/customer-service/contact-us/",
+    "url": "/zh/customer-service/contact-us/",
     "family": "customer-service",
     "id": "cn--zh--buzud-contact-us",
     "title": "Contact us",
@@ -695,7 +683,7 @@
             "title": "In-store experience",
             "text": "Three experience stores in Singapore\nHealth testing and product experiences available by appointment",
             "image": null,
-            "href": "/cn/zh/customer-service/contact-us/#stores",
+            "href": "/zh/customer-service/contact-us/#stores",
             "icon": "store",
             "backgroundColor": null
           },
@@ -823,9 +811,7 @@
       {
         "type": "contact-list",
         "title": "More help",
-        "texts": [
-          "The pages below can help you quickly resolve common questions."
-        ],
+        "texts": ["The pages below can help you quickly resolve common questions."],
         "images": [],
         "links": [],
         "items": [
@@ -833,7 +819,7 @@
             "title": "Customer service overview",
             "text": "One-stop service for health talks, orders and FAQs",
             "image": null,
-            "href": "/cn/zh/customer-service/",
+            "href": "/zh/customer-service/",
             "icon": "document",
             "backgroundColor": null
           },
@@ -841,7 +827,7 @@
             "title": "Delivery service",
             "text": "Delivery arrangements for local and international orders",
             "image": null,
-            "href": "/cn/zh/customer-service/services/delivery/",
+            "href": "/zh/customer-service/services/delivery/",
             "icon": "document",
             "backgroundColor": null
           },
@@ -849,7 +835,7 @@
             "title": "After-sales service",
             "text": "Customer service inquiries, warranty and return/exchange support",
             "image": null,
-            "href": "/cn/zh/customer-service/services/aftersales/",
+            "href": "/zh/customer-service/services/aftersales/",
             "icon": "document",
             "backgroundColor": null
           },
@@ -857,7 +843,7 @@
             "title": "Exclusive benefits",
             "text": "Exclusive banking partner offers and health experiences",
             "image": null,
-            "href": "/cn/zh/customer-service/services/privileges/",
+            "href": "/zh/customer-service/services/privileges/",
             "icon": "document",
             "backgroundColor": null
           },
@@ -865,7 +851,7 @@
             "title": "Warranty registration",
             "text": "Register your product to enjoy official warranty",
             "image": null,
-            "href": "/cn/zh/customer-service/warranty-registration/",
+            "href": "/zh/customer-service/warranty-registration/",
             "icon": "document",
             "backgroundColor": null
           },
@@ -873,7 +859,7 @@
             "title": "Book an appointment",
             "text": "Book in-store health screening and product experiences",
             "image": null,
-            "href": "/cn/zh/booking/",
+            "href": "/zh/booking/",
             "icon": "clock",
             "backgroundColor": null
           }

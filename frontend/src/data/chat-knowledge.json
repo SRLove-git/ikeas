@@ -2,76 +2,37 @@
   "rules": [
     {
       "id": "delivery",
-      "keywords": [
-        "配送",
-        "快递",
-        "物流",
-        "送货"
-      ],
+      "keywords": ["配送", "快递", "物流", "送货"],
       "reply": "CHUNG YIP 为所有产品提供本地及海外*配送服务。订单通常会在 3-7 个工作日内送达，具体安排欢迎致电 +65 6518 9979 或联系门店工作人员。"
     },
     {
       "id": "aftersales",
-      "keywords": [
-        "退货",
-        "退换",
-        "换货",
-        "维修",
-        "售后"
-      ],
+      "keywords": ["退货", "退换", "换货", "维修", "售后"],
       "reply": "CHUNG YIP 售后服务涵盖保修期内及保修期外的维修与换货。如遇制造或产品质量问题，可携带产品及发票至任意 CHUNG YIP 体验门店，我们提供现场即时维修；无法当场修复时会提供临时替代设备或更换新品。"
     },
     {
       "id": "stores",
-      "keywords": [
-        "门店",
-        "体验店",
-        "地址",
-        "在哪里"
-      ],
+      "keywords": ["门店", "体验店", "地址", "在哪里"],
       "reply": "CHUNG YIP 新加坡体验门店：Raffles Hospital（585 North Bridge Road #01-02，+65 6518 9979）、Novena Square 2（10 Sinaran Dr #03-21，+65 6518 9269）、PARKROYAL on Beach Road（7500 Beach Road Level 4，+65 9888 3885）。营业时间详见「联系我们」页面。"
     },
     {
       "id": "warranty",
-      "keywords": [
-        "保修",
-        "质保",
-        "注册"
-      ],
-      "reply": "您可以在 CHUNG YIP 保修注册页面 /cn/zh/customer-service/warranty-registration/ 登记产品保修信息，享受官方质保保障。保修期内外我们均提供维修与换货服务。"
+      "keywords": ["保修", "质保", "注册"],
+      "reply": "您可以在 CHUNG YIP 保修注册页面 /zh/customer-service/warranty-registration/ 登记产品保修信息，享受官方质保保障。保修期内外我们均提供维修与换货服务。"
     },
     {
       "id": "contact",
-      "keywords": [
-        "联系",
-        "客服",
-        "电话",
-        "邮箱",
-        "whatsapp"
-      ],
+      "keywords": ["联系", "客服", "电话", "邮箱", "whatsapp"],
       "reply": "您可以致电/WhatsApp +65 6518 9979（Raffles Hospital）、+65 6518 9269（Novena Square 2）、+65 9888 3885（PARKROYAL），或发送邮件至 customerservice@chungyip.com。"
     },
     {
       "id": "products",
-      "keywords": [
-        "商品",
-        "产品",
-        "推荐",
-        "检测",
-        "血压",
-        "血糖",
-        "手表"
-      ],
+      "keywords": ["商品", "产品", "推荐", "检测", "血压", "血糖", "手表"],
       "reply": "CHUNG YIP 提供快速检测试剂、智能手表、血压计、血糖管理与健康监测设备等产品，每件商品的认证信息均以 HSA 官方数据库为准，可在商品详情页查看并核对，欢迎浏览「所有商品」选购。"
     },
     {
       "id": "greeting",
-      "keywords": [
-        "你好",
-        "在吗",
-        "hi",
-        "hello"
-      ],
+      "keywords": ["你好", "在吗", "hi", "hello"],
       "reply": "你好！我是 CHUNG YIP 客服助手，很高兴为你服务。你可以问我配送、退换货、保修、门店或优惠相关的问题。"
     }
   ],

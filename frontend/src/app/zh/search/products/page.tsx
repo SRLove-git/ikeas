@@ -49,7 +49,7 @@ function buildSearchHref({
   if (sort && sort !== "relevance") params.set("sort", sort)
   if (page && page > 1) params.set("page", String(page))
   const query = params.toString()
-  return query ? `/cn/zh/search/products?${query}` : "/cn/zh/search/products"
+  return query ? `/zh/search/products?${query}` : "/zh/search/products"
 }
 
 function highlightMatch(text: string | null | undefined, query: string): ReactNode {
@@ -79,7 +79,7 @@ function SearchResultCard({ product, query }: { product: SearchProduct; query: s
   ].join(" · ")
 
   return (
-    <Link href={`/cn/zh/p/${product.slug}`} className="group flex flex-col">
+    <Link href={`/zh/p/${product.slug}`} className="group flex flex-col">
       <div className="aspect-square overflow-hidden bg-white">
         <SiteImage
           src={product.image}
@@ -216,7 +216,7 @@ export default async function SearchProductsPage({
           <form
             role="search"
             className="mt-8 flex items-center gap-4 border-b border-ikea-gray-200 pb-3"
-            action="/cn/zh/search/products"
+            action="/zh/search/products"
           >
             <input
               name="q"
@@ -275,13 +275,13 @@ export default async function SearchProductsPage({
               <p className="mt-2 text-sm text-ikea-muted">{t("search.noResultsHint", { q })}</p>
               <div className="mt-5 flex flex-col justify-center gap-3 sm:flex-row">
                 <Link
-                  href="/cn/zh/search/products"
+                  href="/zh/search/products"
                   className="i-btn i-btn--primary flex h-11 items-center justify-center px-8 text-sm font-bold text-white"
                 >
                   {t("search.clearSearch")}
                 </Link>
                 <Link
-                  href="/cn/zh/all-products/"
+                  href="/zh/all-products/"
                   className="i-btn i-btn--secondary flex h-11 items-center justify-center px-8 text-sm font-bold"
                 >
                   {t("search.browseAllProducts")}
@@ -304,7 +304,7 @@ export default async function SearchProductsPage({
                     {searchHints.map((word) => (
                       <Link
                         key={word}
-                        href={`/cn/zh/search/products?q=${encodeURIComponent(word)}`}
+                        href={`/zh/search/products?q=${encodeURIComponent(word)}`}
                         className="i-pill i-pill--small"
                       >
                         {word}
@@ -340,9 +340,7 @@ export default async function SearchProductsPage({
               ) : (
                 <div className="mx-auto mt-20 max-w-xl text-center">
                   <p className="text-2xl font-bold">{t("search.noResults")}</p>
-                  <p className="mt-3 text-sm text-ikea-muted">
-                    {t("search.noResultsHint", { q })}
-                  </p>
+                  <p className="mt-3 text-sm text-ikea-muted">{t("search.noResultsHint", { q })}</p>
                   {activeCategory ? (
                     <div className="mt-6">
                       <Link

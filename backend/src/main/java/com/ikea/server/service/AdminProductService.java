@@ -181,12 +181,12 @@ public class AdminProductService {
     Map<String, String> result = new LinkedHashMap<>();
     for (CatalogCategory category : dataStore.catalogCategories()) {
       if (containsProduct(category.products(), productId)) {
-        result.put(category.name(), "/cn/zh/cat/" + category.slug());
+        result.put(category.name(), "/zh/cat/" + category.slug());
       }
     }
     for (CatalogCategory category : dataStore.channelCategories()) {
       if (containsProduct(category.products(), productId)) {
-        result.put(category.name(), "/cn/zh/cat/" + category.slug());
+        result.put(category.name(), "/zh/cat/" + category.slug());
       }
     }
     for (CatalogPage page : dataStore.catalogPages()) {

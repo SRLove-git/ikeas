@@ -1,6 +1,6 @@
 [
   {
-    "url": "/cn/zh/company",
+    "url": "/zh/company",
     "family": "company",
     "id": "cn--zh--buzud-company",
     "title": "公司介绍",
@@ -10,15 +10,13 @@
       {
         "type": "corporate-hero",
         "title": "让健康管理融入每个家庭",
-        "texts": [
-          "CHUNG YIP 的愿景与使命"
-        ],
+        "texts": ["CHUNG YIP 的愿景与使命"],
         "images": [
           "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-hero-company.jpg"
         ],
         "links": [
           {
-            "href": "/cn/zh/all-products/",
+            "href": "/zh/all-products/",
             "text": "了解CHUNG YIP健康理念"
           }
         ],
@@ -90,13 +88,11 @@
       {
         "type": "corporate-text",
         "title": "开放、合作、共赢",
-        "texts": [
-          "我们期待与行业伙伴、医疗机构与社区共同推动健康产业发展。"
-        ],
+        "texts": ["我们期待与行业伙伴、医疗机构与社区共同推动健康产业发展。"],
         "images": [],
         "links": [
           {
-            "href": "/cn/zh/customer-service/contact-us/",
+            "href": "/zh/customer-service/contact-us/",
             "text": "了解更多"
           }
         ],
@@ -131,7 +127,7 @@
         "images": [],
         "links": [
           {
-            "href": "/cn/zh/customer-service/contact-us/",
+            "href": "/zh/customer-service/contact-us/",
             "text": "联系我们"
           }
         ],

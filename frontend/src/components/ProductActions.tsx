@@ -77,7 +77,7 @@ export function ProductActions({
 
   const toggleFavorite = async () => {
     if (!getToken()) {
-      router.push("/cn/zh/profile/login/")
+      router.push("/zh/profile/login/")
       return
     }
     setMessage(null)

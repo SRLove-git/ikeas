@@ -61,7 +61,7 @@ export function BrowsingHistoryPanel({ products }: { products: CatalogProduct[] 
             <p className="i-empty-list__content mt-4 text-sm text-ikea-muted">
               {t("browsingHistory.empty")}
             </p>
-            <Link href="/cn/zh/all-products/" className="i-pill i-pill--small mt-6">
+            <Link href="/zh/all-products/" className="i-pill i-pill--small mt-6">
               {t("collection.browse")}
             </Link>
           </div>

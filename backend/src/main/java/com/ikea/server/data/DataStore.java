@@ -933,13 +933,13 @@ public class DataStore {
 
   private static String collectionHref(CatalogCategory category) {
     if (category.url() != null
-        && category.url().startsWith("/cn/zh/personalize-channel/")) {
+        && category.url().startsWith("/zh/personalize-channel/")) {
       return category.url();
     }
-    return "/cn/zh/cat/" + category.slug();
+    return "/zh/cat/" + category.slug();
   }
 
-  /** "/cn/zh/rooms/bedroom/" -> ["rooms", "bedroom"] */
+  /** "/zh/rooms/bedroom/" -> ["rooms", "bedroom"] */
   private static String[] segments(String url) {
     if (url == null) {
       return new String[0];

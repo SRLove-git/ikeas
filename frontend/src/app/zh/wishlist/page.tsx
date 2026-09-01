@@ -1,5 +1,5 @@
 import { redirect } from "next/navigation"
 
 export default function WishlistPage() {
-  redirect("/cn/zh/profile/collection/")
+  redirect("/zh/profile/collection/")
 }

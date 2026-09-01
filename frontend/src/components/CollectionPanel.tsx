@@ -176,7 +176,11 @@ export function CollectionPanel({ inspirationItems, catalogProducts }: Collectio
   ) => (
     <div className="flex flex-col items-center py-16 text-center">
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src="https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/collection-empty.svg" alt="" className="h-32 w-32" />
+      <img
+        src="https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/collection-empty.svg"
+        alt=""
+        className="h-32 w-32"
+      />
       <p className="mt-6 text-sm text-ikea-muted">{text}</p>
       {action?.href ? (
         <Link href={action.href} className="i-btn i-btn--small i-btn--primary mt-6">
@@ -212,7 +216,7 @@ export function CollectionPanel({ inspirationItems, catalogProducts }: Collectio
         <h1 className="text-4xl font-bold leading-[1.4]">{t("collection.loginTitle")}</h1>
         <p className="mt-8 text-base">{t("collection.loginDesc")}</p>
         <Link
-          href="/cn/zh/profile/login/"
+          href="/zh/profile/login/"
           className="i-btn i-btn--primary mt-8 h-12 px-8 text-sm font-bold text-white"
         >
           <span className="i-btn__inner">
@@ -278,7 +282,7 @@ export function CollectionPanel({ inspirationItems, catalogProducts }: Collectio
         {activeTab === "inspiration" ? (
           inspirationItems.length === 0 ? (
             renderEmptyState(t("collection.emptyInspiration"), t("collection.browse"), {
-              href: "/cn/zh/all-products/",
+              href: "/zh/all-products/",
             })
           ) : (
             <div className="mt-5 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
@@ -290,7 +294,7 @@ export function CollectionPanel({ inspirationItems, catalogProducts }: Collectio
                     key={id}
                     className="group relative overflow-hidden rounded border border-ikea-gray-200 bg-white"
                   >
-                    <Link href={item.ctaHref ?? item.href ?? "/cn/zh/all-products/"}>
+                    <Link href={item.ctaHref ?? item.href ?? "/zh/all-products/"}>
                       {item.image ? (
                         <SiteImage
                           src={item.image}
@@ -414,7 +418,7 @@ export function CollectionPanel({ inspirationItems, catalogProducts }: Collectio
                           <div className="mt-5 grid grid-cols-2 gap-x-4 gap-y-8 md:grid-cols-3 lg:grid-cols-4">
                             {wishlistProducts.map((product) => (
                               <div key={product.id} className="relative flex flex-col">
-                                <Link href={`/cn/zh/p/${product.slug}/`} className="block">
+                                <Link href={`/zh/p/${product.slug}/`} className="block">
                                   <SiteImage
                                     src={product.image}
                                     alt={product.name}
@@ -431,7 +435,7 @@ export function CollectionPanel({ inspirationItems, catalogProducts }: Collectio
                                   ×
                                 </button>
                                 <Link
-                                  href={`/cn/zh/p/${product.slug}/`}
+                                  href={`/zh/p/${product.slug}/`}
                                   className="mt-3 text-sm font-bold leading-5"
                                 >
                                   {product.name}
@@ -454,13 +458,13 @@ export function CollectionPanel({ inspirationItems, catalogProducts }: Collectio
           </p>
         ) : items.length === 0 ? (
           renderEmptyState(t("collection.emptyProducts"), t("collection.browse"), {
-            href: "/cn/zh/all-products/",
+            href: "/zh/all-products/",
           })
         ) : (
           <div className="mt-5 grid grid-cols-2 gap-x-4 gap-y-8 md:grid-cols-3 lg:grid-cols-4">
             {items.map((product) => (
               <div key={product.id} className="group relative flex flex-col">
-                <Link href={`/cn/zh/p/${product.slug}/`} className="block">
+                <Link href={`/zh/p/${product.slug}/`} className="block">
                   <SiteImage
                     src={product.image}
                     alt={product.name}
@@ -476,10 +480,7 @@ export function CollectionPanel({ inspirationItems, catalogProducts }: Collectio
                 >
                   <HeartIcon className="h-4 w-4 text-ikea-red" />
                 </button>
-                <Link
-                  href={`/cn/zh/p/${product.slug}/`}
-                  className="mt-3 text-sm font-bold leading-5"
-                >
+                <Link href={`/zh/p/${product.slug}/`} className="mt-3 text-sm font-bold leading-5">
                   {product.name}
                 </Link>
                 <p className="mt-1 text-sm">{formatPrice(product.price)}</p>

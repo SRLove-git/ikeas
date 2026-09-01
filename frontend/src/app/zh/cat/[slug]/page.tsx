@@ -58,7 +58,7 @@ export default async function CategoryPage({
     if (sort) params.set("sort", sort)
     if (type) params.set("type", type)
     const query = params.toString()
-    return query ? `/cn/zh/cat/${slug}?${query}` : `/cn/zh/cat/${slug}`
+    return query ? `/zh/cat/${slug}?${query}` : `/zh/cat/${slug}`
   }
 
   if (match) {
@@ -69,38 +69,52 @@ export default async function CategoryPage({
     const landingPage = findCatalogPageBySlug(slug, locale)
     const suggestions = allProducts(locale).slice(0, 4)
 
-    const sort = rawSort === "priceAsc" || rawSort === "priceDesc" || rawSort === "nameAsc" ? rawSort : null
+    const sort =
+      rawSort === "priceAsc" || rawSort === "priceDesc" || rawSort === "nameAsc" ? rawSort : null
     const activeType = rawType && types.includes(rawType) ? rawType : null
     const filtered = activeType ? products.filter((p) => p.productType === activeType) : products
     const sorted = [...filtered].sort((a, b) => {
-      if (sort === "priceAsc") return (a.price ?? Number.MAX_SAFE_INTEGER) - (b.price ?? Number.MAX_SAFE_INTEGER)
-      if (sort === "priceDesc") return (b.price ?? Number.MIN_SAFE_INTEGER) - (a.price ?? Number.MIN_SAFE_INTEGER)
+      if (sort === "priceAsc")
+        return (a.price ?? Number.MAX_SAFE_INTEGER) - (b.price ?? Number.MAX_SAFE_INTEGER)
+      if (sort === "priceDesc")
+        return (b.price ?? Number.MIN_SAFE_INTEGER) - (a.price ?? Number.MIN_SAFE_INTEGER)
       if (sort === "nameAsc") return a.name.localeCompare(b.name, locale === "en" ? "en" : "zh-CN")
       return 0
     })
 
-    const emptyState = sorted.length === 0 ? (
-      <div className="mt-8 rounded border border-ikea-gray-200 bg-ikea-gray-50 px-6 py-10 text-center">
-        <p className="text-sm font-bold">{t("category.emptyTitle")}</p>
-        <p className="mt-2 text-sm text-ikea-muted">{t("category.emptyBody")}</p>
-        <div className="mt-6 flex flex-col justify-center gap-3 sm:flex-row">
-          <Link href="/cn/zh/all-products/" className="i-btn i-btn--primary flex h-11 items-center justify-center px-8 text-sm font-bold text-white">
-            {t("category.backAllProducts")}
-          </Link>
-          <Link href="/cn/zh/customer-service/contact-us/" className="i-btn i-btn--secondary flex h-11 items-center justify-center px-8 text-sm font-bold">
-            {t("category.contactService")}
-          </Link>
-        </div>
-        <p className="mt-8 text-xs font-bold text-ikea-muted">{t("category.suggestions")}</p>
-        <div className="mt-3 flex flex-wrap justify-center gap-2">
-          {suggestions.map((product) => (
-            <Link key={product.id} href={`/cn/zh/p/${product.slug}/`} className="i-pill i-pill--small">
-              {product.name}
+    const emptyState =
+      sorted.length === 0 ? (
+        <div className="mt-8 rounded border border-ikea-gray-200 bg-ikea-gray-50 px-6 py-10 text-center">
+          <p className="text-sm font-bold">{t("category.emptyTitle")}</p>
+          <p className="mt-2 text-sm text-ikea-muted">{t("category.emptyBody")}</p>
+          <div className="mt-6 flex flex-col justify-center gap-3 sm:flex-row">
+            <Link
+              href="/zh/all-products/"
+              className="i-btn i-btn--primary flex h-11 items-center justify-center px-8 text-sm font-bold text-white"
+            >
+              {t("category.backAllProducts")}
             </Link>
-          ))}
+            <Link
+              href="/zh/customer-service/contact-us/"
+              className="i-btn i-btn--secondary flex h-11 items-center justify-center px-8 text-sm font-bold"
+            >
+              {t("category.contactService")}
+            </Link>
+          </div>
+          <p className="mt-8 text-xs font-bold text-ikea-muted">{t("category.suggestions")}</p>
+          <div className="mt-3 flex flex-wrap justify-center gap-2">
+            {suggestions.map((product) => (
+              <Link
+                key={product.id}
+                href={`/zh/p/${product.slug}/`}
+                className="i-pill i-pill--small"
+              >
+                {product.name}
+              </Link>
+            ))}
+          </div>
         </div>
-      </div>
-    ) : null
+      ) : null
 
     return (
       <SiteLayout>
@@ -118,7 +132,7 @@ export default async function CategoryPage({
                 {category.subs.map((s) => (
                   <Link
                     key={s.slug}
-                    href={`/cn/zh/cat/${s.slug}`}
+                    href={`/zh/cat/${s.slug}`}
                     className={`i-pill i-pill--small ${s.slug === slug ? "i-pill--active" : ""}`}
                   >
                     {s.name}
@@ -225,13 +239,13 @@ export default async function CategoryPage({
               <p className="mt-2 text-sm text-ikea-muted">{t("category.emptyBody")}</p>
               <div className="mt-6 flex flex-col justify-center gap-3 sm:flex-row">
                 <Link
-                  href="/cn/zh/all-products/"
+                  href="/zh/all-products/"
                   className="i-btn i-btn--primary flex h-11 items-center justify-center px-8 text-sm font-bold text-white"
                 >
                   {t("category.backAllProducts")}
                 </Link>
                 <Link
-                  href="/cn/zh/customer-service/contact-us/"
+                  href="/zh/customer-service/contact-us/"
                   className="i-btn i-btn--secondary flex h-11 items-center justify-center px-8 text-sm font-bold"
                 >
                   {t("category.contactService")}
@@ -242,7 +256,7 @@ export default async function CategoryPage({
                 {suggestions.map((product) => (
                   <Link
                     key={product.id}
-                    href={`/cn/zh/p/${product.slug}/`}
+                    href={`/zh/p/${product.slug}/`}
                     className="i-pill i-pill--small"
                   >
                     {product.name}

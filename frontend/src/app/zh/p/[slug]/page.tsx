@@ -105,13 +105,13 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
                 <p>{t("product.stockNote")}</p>
                 <div className="flex flex-wrap gap-x-4 gap-y-1">
                   <Link
-                    href="/cn/zh/customer-service/services/delivery/"
+                    href="/zh/customer-service/services/delivery/"
                     className="font-bold text-ikea-blue hover:underline"
                   >
                     {t("product.deliveryLink")}
                   </Link>
                   <Link
-                    href="/cn/zh/customer-service/services/aftersales/"
+                    href="/zh/customer-service/services/aftersales/"
                     className="font-bold text-ikea-blue hover:underline"
                   >
                     {t("product.returnsWarrantyLink")}
@@ -221,9 +221,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
 
           {similar.length > 0 ? (
             <div className="mt-14 border-t border-ikea-gray-200 pt-10">
-              <h2 className="text-xl font-bold">
-                {t("product.similar", { name: product.name })}
-              </h2>
+              <h2 className="text-xl font-bold">{t("product.similar", { name: product.name })}</h2>
               <div className="mt-6 grid grid-cols-2 gap-x-4 gap-y-8 md:grid-cols-3 lg:grid-cols-4">
                 {similar.map((candidate) => (
                   <ProductCard key={candidate.id} product={candidate} />

@@ -97,7 +97,7 @@ export function SupportFaq({ title, texts, placeholder, sectionId }: SupportFaqP
         <div className="mt-6 rounded-lg bg-ikea-gray-100 p-6 text-center">
           <p className="text-sm text-ikea-muted">{t("support.faqNotFound")}</p>
           <Link
-            href="/cn/zh/customer-service/contact-us/"
+            href="/zh/customer-service/contact-us/"
             className="mt-4 inline-flex h-10 items-center bg-ikea-blue px-6 text-xs font-bold text-white transition-colors hover:bg-ikea-black"
           >
             {t("support.contactSupport")}

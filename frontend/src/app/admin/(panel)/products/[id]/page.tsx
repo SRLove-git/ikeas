@@ -1,8 +1,8 @@
-"use client";
+"use client"
 
-import { useEffect, useMemo, useState } from "react";
-import { useParams, useRouter } from "next/navigation";
-import { useTranslation } from "react-i18next";
+import { useEffect, useMemo, useState } from "react"
+import { useParams, useRouter } from "next/navigation"
+import { useTranslation } from "react-i18next"
 import {
   adminFetch,
   BackLink,
@@ -19,27 +19,27 @@ import {
   TextArea,
   TextInput,
   useNotice,
-} from "@/components/admin/admin-ui";
-import { SchemaListForm, type Schema } from "@/components/admin/SchemaForms";
+} from "@/components/admin/admin-ui"
+import { SchemaListForm, type Schema } from "@/components/admin/SchemaForms"
 
 interface ProductForm {
-  id: string;
-  slug: string;
-  name: string;
-  productType?: string | null;
-  designText?: string | null;
-  price?: number | null;
-  originalPrice?: number | null;
-  image?: string | null;
-  labels: Record<string, unknown>[];
+  id: string
+  slug: string
+  name: string
+  productType?: string | null
+  designText?: string | null
+  price?: number | null
+  originalPrice?: number | null
+  image?: string | null
+  labels: Record<string, unknown>[]
   detail: {
-    images: string[];
-    benefits: string[];
-    dimension?: string | null;
-    materials: string[];
-    care: string[];
-    description?: string | null;
-  };
+    images: string[]
+    benefits: string[]
+    dimension?: string | null
+    materials: string[]
+    care: string[]
+    description?: string | null
+  }
 }
 
 function emptyProduct(): ProductForm {
@@ -61,108 +61,106 @@ function emptyProduct(): ProductForm {
       care: [],
       description: null,
     },
-  };
+  }
 }
 
 export default function ProductEditorPage() {
-  const { t } = useTranslation();
-  const params = useParams<{ id: string }>();
-  const router = useRouter();
-  const isNew = params.id === "new";
+  const { t } = useTranslation()
+  const params = useParams<{ id: string }>()
+  const router = useRouter()
+  const isNew = params.id === "new"
   const LABEL_SCHEMA: Schema = {
     fields: [
       { key: "text", label: t("admin.products.labelText"), kind: { type: "text" } },
       { key: "backgroundColor", label: t("admin.products.labelBg"), kind: { type: "text" } },
       { key: "textColor", label: t("admin.products.labelTextColor"), kind: { type: "text" } },
     ],
-  };
-  const { notice, show } = useNotice();
-  const [form, setForm] = useState<ProductForm>(emptyProduct());
-  const [rawMode, setRawMode] = useState(false);
-  const [raw, setRaw] = useState<unknown>(null);
-  const [loading, setLoading] = useState(!isNew);
-  const [saving, setSaving] = useState(false);
-  const [categories, setCategories] = useState<{ name: string; href: string }[]>([]);
+  }
+  const { notice, show } = useNotice()
+  const [form, setForm] = useState<ProductForm>(emptyProduct())
+  const [rawMode, setRawMode] = useState(false)
+  const [raw, setRaw] = useState<unknown>(null)
+  const [loading, setLoading] = useState(!isNew)
+  const [saving, setSaving] = useState(false)
+  const [categories, setCategories] = useState<{ name: string; href: string }[]>([])
 
   useEffect(() => {
-    if (isNew) return;
+    if (isNew) return
     void (async () => {
       try {
         const product = await adminFetch<Record<string, unknown>>(
           `/api/admin/products/${params.id}`,
-        );
-        setCategories(
-          (product.categories as { name: string; href: string }[] | undefined) ?? [],
-        );
-        delete product.categories;
-        setForm(product as unknown as ProductForm);
-        setRaw(product);
+        )
+        setCategories((product.categories as { name: string; href: string }[] | undefined) ?? [])
+        delete product.categories
+        setForm(product as unknown as ProductForm)
+        setRaw(product)
       } catch (e) {
-        show("error", (e as Error).message);
+        show("error", (e as Error).message)
       } finally {
-        setLoading(false);
+        setLoading(false)
       }
-    })();
-  }, [isNew, params.id, show]);
+    })()
+  }, [isNew, params.id, show])
 
   const update = (patch: Partial<ProductForm>) => {
-    setForm((current) => ({ ...current, ...patch }));
-  };
+    setForm((current) => ({ ...current, ...patch }))
+  }
 
   const updateDetail = (patch: Partial<ProductForm["detail"]>) => {
-    setForm((current) => ({ ...current, detail: { ...current.detail, ...patch } }));
-  };
+    setForm((current) => ({ ...current, detail: { ...current.detail, ...patch } }))
+  }
 
   const previewUrl = useMemo(() => {
-    const slug = form.slug?.trim();
-    return slug ? `/cn/zh/p/${slug}/` : null;
-  }, [form.slug]);
+    const slug = form.slug?.trim()
+    return slug ? `/zh/p/${slug}/` : null
+  }, [form.slug])
 
   const save = async () => {
-    setSaving(true);
+    setSaving(true)
     try {
-      const payload = rawMode ? raw : form;
+      const payload = rawMode ? raw : form
       if (isNew) {
         await adminFetch("/api/admin/products", {
           method: "POST",
           body: JSON.stringify(payload),
-        });
-        show("success", t("admin.products.created"));
-        router.replace("/admin/products");
+        })
+        show("success", t("admin.products.created"))
+        router.replace("/admin/products")
       } else {
         await adminFetch(`/api/admin/products/${params.id}`, {
           method: "PUT",
           body: JSON.stringify(payload),
-        });
-        show("success", t("admin.products.saved"));
+        })
+        show("success", t("admin.products.saved"))
       }
     } catch (e) {
-      show("error", (e as Error).message);
+      show("error", (e as Error).message)
     } finally {
-      setSaving(false);
+      setSaving(false)
     }
-  };
+  }
 
   const remove = async () => {
     try {
-      await adminFetch(`/api/admin/products/${params.id}`, { method: "DELETE" });
-      show("success", t("admin.products.deleted"));
-      router.replace("/admin/products");
+      await adminFetch(`/api/admin/products/${params.id}`, { method: "DELETE" })
+      show("success", t("admin.products.deleted"))
+      router.replace("/admin/products")
     } catch (e) {
-      show("error", (e as Error).message);
+      show("error", (e as Error).message)
     }
-  };
+  }
 
-  if (loading) return <Loading />;
+  if (loading) return <Loading />
 
   return (
     <div className="max-w-4xl">
       <BackLink href="/admin/products" label={t("admin.products.backToList")} />
       <PageHeader
-        title={isNew ? t("admin.products.newTitle") : t("admin.products.editTitle", { name: form.name })}
-        description={
-          isNew ? t("admin.products.newDesc") : `ID: ${params.id}`
+        title={
+          isNew ? t("admin.products.newTitle") : t("admin.products.editTitle", { name: form.name })
         }
+        description={isNew ? t("admin.products.newDesc") : `ID: ${params.id}`}
         actions={
           <>
             {previewUrl ? (
@@ -184,17 +182,14 @@ export default function ProductEditorPage() {
 
       <div className="mb-4 flex items-center gap-2 text-sm">
         <span className="text-ikea-muted">{t("admin.products.editMode")}</span>
-        <Button
-          variant={rawMode ? "secondary" : "primary"}
-          onClick={() => setRawMode(false)}
-        >
+        <Button variant={rawMode ? "secondary" : "primary"} onClick={() => setRawMode(false)}>
           {t("admin.products.formEdit")}
         </Button>
         <Button
           variant={rawMode ? "primary" : "secondary"}
           onClick={() => {
-            setRaw(form);
-            setRawMode(true);
+            setRaw(form)
+            setRawMode(true)
           }}
         >
           {t("admin.products.rawJson")}
@@ -210,10 +205,7 @@ export default function ProductEditorPage() {
           <Card title={t("admin.products.basicInfo")} className="mb-6">
             <div className="grid gap-4 sm:grid-cols-2">
               <Field label={t("admin.products.name")}>
-                <TextInput
-                  value={form.name}
-                  onChange={(e) => update({ name: e.target.value })}
-                />
+                <TextInput value={form.name} onChange={(e) => update({ name: e.target.value })} />
               </Field>
               <Field
                 label={t("admin.products.id")}
@@ -226,10 +218,7 @@ export default function ProductEditorPage() {
                 />
               </Field>
               <Field label="Slug" hint={t("admin.products.slugHint")}>
-                <TextInput
-                  value={form.slug}
-                  onChange={(e) => update({ slug: e.target.value })}
-                />
+                <TextInput value={form.slug} onChange={(e) => update({ slug: e.target.value })} />
               </Field>
               <Field label={t("admin.products.productType")}>
                 <TextInput
@@ -257,8 +246,7 @@ export default function ProductEditorPage() {
                     value={form.originalPrice ?? ""}
                     onChange={(e) =>
                       update({
-                        originalPrice:
-                          e.target.value === "" ? null : Number(e.target.value),
+                        originalPrice: e.target.value === "" ? null : Number(e.target.value),
                       })
                     }
                   />
@@ -296,9 +284,7 @@ export default function ProductEditorPage() {
           <Card title={t("admin.products.labels")} className="mb-6">
             <SchemaListForm
               value={form.labels}
-              onChange={(labels) =>
-                update({ labels: labels as Record<string, unknown>[] })
-              }
+              onChange={(labels) => update({ labels: labels as Record<string, unknown>[] })}
               schema={LABEL_SCHEMA}
               labelKey="text"
               titleFor={(item) =>
@@ -353,5 +339,5 @@ export default function ProductEditorPage() {
         </>
       )}
     </div>
-  );
+  )
 }

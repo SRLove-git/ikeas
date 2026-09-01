@@ -167,7 +167,10 @@ export function CartPage() {
             {!user ? (
               <p className="mt-1 text-xs text-ikea-muted">
                 {t("cartPage.guestHint")}{" "}
-                <Link href="/cn/zh/profile/login/" className="font-bold text-ikea-blue hover:underline">
+                <Link
+                  href="/zh/profile/login/"
+                  className="font-bold text-ikea-blue hover:underline"
+                >
                   {t("cartPage.guestLogin")}
                 </Link>
               </p>
@@ -184,7 +187,7 @@ export function CartPage() {
             ) : items.length === 0 ? (
               <div className="py-16 text-center">
                 <p className="text-sm text-ikea-muted">{t("cartPage.empty")}</p>
-                <Link href="/cn/zh/all-products/" className="i-pill i-pill--small mt-6">
+                <Link href="/zh/all-products/" className="i-pill i-pill--small mt-6">
                   {t("cartPage.browseProducts")}
                 </Link>
               </div>
@@ -195,7 +198,7 @@ export function CartPage() {
                     key={productId}
                     className="flex gap-4 border border-ikea-gray-200 bg-white p-5"
                   >
-                    <Link href={`/cn/zh/p/${product.slug}/`} className="w-28 shrink-0">
+                    <Link href={`/zh/p/${product.slug}/`} className="w-28 shrink-0">
                       <SiteImage
                         src={product.image}
                         alt={product.name}
@@ -205,7 +208,7 @@ export function CartPage() {
                     </Link>
                     <div className="flex min-w-0 flex-1 flex-col">
                       <Link
-                        href={`/cn/zh/p/${product.slug}/`}
+                        href={`/zh/p/${product.slug}/`}
                         className="line-clamp-2 text-sm font-bold leading-5 hover:underline"
                       >
                         {product.name}
@@ -284,7 +287,7 @@ export function CartPage() {
                   </div>
                 </div>
                 <Link
-                  href="/cn/zh/checkout/"
+                  href="/zh/checkout/"
                   className="i-btn i-btn--primary mt-6 flex h-11 w-full items-center justify-center text-sm font-bold text-white"
                 >
                   {t("cartPage.checkoutNow", { count: totalQuantity })}

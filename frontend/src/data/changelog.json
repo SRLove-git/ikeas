@@ -12,7 +12,7 @@
     "user": "admin",
     "action": "update",
     "resource": "page",
-    "target": "/cn/zh/company",
+    "target": "/zh/company",
     "summary": "更新页面「公司介绍」开放合作/发展历程/质量承诺区块为华为式分区样式",
     "id": "1786627331061-company-sections",
     "at": "2026-08-18T17:02:00.000Z"
@@ -21,7 +21,7 @@
     "user": "admin",
     "action": "update",
     "resource": "page",
-    "target": "/cn/zh/company",
+    "target": "/zh/company",
     "summary": "更新页面「公司介绍」研究与创新区块为华为式版式（标题+副标题+了解更多+2x2 大数字格）",
     "id": "1786627331061-company-stats",
     "at": "2026-08-18T16:58:00.000Z"
@@ -30,7 +30,7 @@
     "user": "admin",
     "action": "update",
     "resource": "page",
-    "target": "/cn/zh/company",
+    "target": "/zh/company",
     "summary": "更新页面「公司介绍」首屏为华为式版式（背景图+垂直居中+白色按钮）",
     "id": "1786627331061-company-hero",
     "at": "2026-08-18T16:55:00.000Z"
@@ -39,7 +39,7 @@
     "user": "admin",
     "action": "update",
     "resource": "page",
-    "target": "/cn/zh/company",
+    "target": "/zh/company",
     "summary": "更新页面「公司介绍」公司简介区块为华为式左右布局（左标题/右正文+视频占位）",
     "id": "1786627331061-company-about",
     "at": "2026-08-18T16:50:00.000Z"
@@ -48,7 +48,7 @@
     "user": "admin",
     "action": "update",
     "resource": "page",
-    "target": "/cn/zh/company",
+    "target": "/zh/company",
     "summary": "更新页面「公司介绍」（参考华为公司信息页版式，占位内容）",
     "id": "1786627331061-company-design",
     "at": "2026-08-18T16:45:00.000Z"
@@ -66,7 +66,7 @@
     "user": "admin",
     "action": "create",
     "resource": "page",
-    "target": "/cn/zh/company",
+    "target": "/zh/company",
     "summary": "创建页面「公司介绍」",
     "id": "1786627331061-page1",
     "at": "2026-08-18T16:42:11.061Z"
@@ -75,7 +75,7 @@
     "user": "admin",
     "action": "create",
     "resource": "page",
-    "target": "/cn/zh/organization",
+    "target": "/zh/organization",
     "summary": "创建页面「组织架构」",
     "id": "1786627331061-page2",
     "at": "2026-08-18T16:42:11.061Z"
@@ -84,7 +84,7 @@
     "user": "admin",
     "action": "update",
     "resource": "page",
-    "target": "/cn/zh/rooms/childrens-room/gallery/",
+    "target": "/zh/rooms/childrens-room/gallery/",
     "summary": "更新页面「儿童房设计灵感（测试提升）」",
     "id": "1786185985059-1h956l",
     "at": "2026-08-08T10:46:25.059Z"
@@ -111,7 +111,7 @@
     "user": "admin",
     "action": "update",
     "resource": "page",
-    "target": "/cn/zh/rooms/bedroom/gallery/",
+    "target": "/zh/rooms/bedroom/gallery/",
     "summary": "更新页面「探索卧室灵感（后台测试）」",
     "id": "1786185883033-uyf6qg",
     "at": "2026-08-08T10:44:43.033Z"

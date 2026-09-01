@@ -99,7 +99,7 @@ export function productCategories(idOrSlug: string): { name: string; href: strin
   }>("catalog.json")
   for (const category of [...catalog.catalogCategories, ...catalog.channelCategories]) {
     if (category.products.some((p) => String(p.id) === idOrSlug || p.slug === idOrSlug)) {
-      result.push({ name: category.name, href: `/cn/zh/cat/${category.slug}` })
+      result.push({ name: category.name, href: `/zh/cat/${category.slug}` })
     }
   }
   const pages =
@@ -111,7 +111,7 @@ export function productCategories(idOrSlug: string): { name: string; href: strin
       result.push({ name: page.name, href: page.url })
     }
   }
-  // A category and its landing page can share the same URL (e.g. /cn/zh/cat/test-kit);
+  // A category and its landing page can share the same URL (e.g. /zh/cat/test-kit);
   // dedupe by href so list renders don't collide on React keys.
   const seen = new Set<string>()
   return result.filter((item) => {

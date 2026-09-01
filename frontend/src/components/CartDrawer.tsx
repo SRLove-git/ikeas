@@ -123,7 +123,7 @@ export function CartDrawer() {
             items.map(({ productId, product, quantity }) => (
               <div key={productId} className="flex gap-4 border-b border-ikea-gray-100 py-4">
                 <Link
-                  href={`/cn/zh/p/${product.slug}/`}
+                  href={`/zh/p/${product.slug}/`}
                   className="w-24 shrink-0"
                   onClick={() => setOpen(false)}
                 >
@@ -136,7 +136,7 @@ export function CartDrawer() {
                 </Link>
                 <div className="flex flex-1 flex-col">
                   <Link
-                    href={`/cn/zh/p/${product.slug}/`}
+                    href={`/zh/p/${product.slug}/`}
                     className="text-sm font-bold leading-5 hover:underline"
                     onClick={() => setOpen(false)}
                   >
@@ -184,7 +184,7 @@ export function CartDrawer() {
           </div>
           <p className="mt-1 text-xs text-ikea-muted">{t("cart.taxNote")}</p>
           <Link
-            href="/cn/zh/checkout/"
+            href="/zh/checkout/"
             onClick={() => setOpen(false)}
             className="i-btn i-btn--primary mt-4 flex h-11 w-full items-center justify-center text-sm font-bold text-white"
           >

@@ -86,13 +86,13 @@ def main() -> None:
 
     # 1. Top navigation bar.
     nav_items = [
-        {"label": "所有商品", "href": "/cn/zh/all-products", "hasMegaMenu": True},
-        {"label": "快速检测", "href": "/cn/zh/cat/buzud-rapid-tests"},
-        {"label": "智能手表", "href": "/cn/zh/cat/buzud-watches"},
-        {"label": "血压计", "href": "/cn/zh/cat/buzud-blood-pressure-monitors"},
-        {"label": "血糖管理", "href": "/cn/zh/cat/buzud-glucose-management"},
-        {"label": "健康设备", "href": "/cn/zh/cat/buzud-health-devices"},
-        {"label": "客户服务", "href": "/cn/zh/customer-service/"},
+        {"label": "所有商品", "href": "/zh/all-products", "hasMegaMenu": True},
+        {"label": "快速检测", "href": "/zh/cat/buzud-rapid-tests"},
+        {"label": "智能手表", "href": "/zh/cat/buzud-watches"},
+        {"label": "血压计", "href": "/zh/cat/buzud-blood-pressure-monitors"},
+        {"label": "血糖管理", "href": "/zh/cat/buzud-glucose-management"},
+        {"label": "健康设备", "href": "/zh/cat/buzud-health-devices"},
+        {"label": "客户服务", "href": "/zh/customer-service/"},
     ]
 
     # 2. Mega-menu categories (name + sub-category names, for the admin editor).
@@ -123,14 +123,14 @@ def main() -> None:
             subs.append(
                 {
                     "name": sub_name,
-                    "url": f"/cn/zh/p/{product['slug']}",
+                    "url": f"/zh/p/{product['slug']}",
                     "image": product["image"],
                 }
             )
         categories.append(
             {
                 "name": cat["name"],
-                "url": f"/cn/zh/cat/{cat['slug']}",
+                "url": f"/zh/cat/{cat['slug']}",
                 "image": image,
                 "subs": subs,
             }

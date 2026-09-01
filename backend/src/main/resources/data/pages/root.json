@@ -1,6 +1,6 @@
 [
   {
-    "url": "/cn/zh",
+    "url": "/zh",
     "family": "root",
     "id": "cn--zh--buzud-root",
     "title": "CHUNG YIP 健康产品商城",
@@ -10,9 +10,7 @@
       {
         "type": "pub-page-title",
         "title": null,
-        "texts": [
-          "CHUNG YIP 健康产品商城"
-        ],
+        "texts": ["CHUNG YIP 健康产品商城"],
         "images": [],
         "links": [],
         "items": [],
@@ -43,7 +41,7 @@
         "images": [],
         "links": [
           {
-            "href": "/cn/zh/all-products/",
+            "href": "/zh/all-products/",
             "text": "浏览全部商品"
           }
         ],

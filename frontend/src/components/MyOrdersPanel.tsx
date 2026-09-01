@@ -66,7 +66,7 @@ export function MyOrdersPanel() {
 
   useEffect(() => {
     if (ready && !user) {
-      router.replace("/cn/zh/profile/login/")
+      router.replace("/zh/profile/login/")
       return
     }
     if (ready && user) {
@@ -183,7 +183,9 @@ export function MyOrdersPanel() {
                 <section key={order.orderNo} className="bg-white">
                   <div className="flex flex-wrap items-center justify-between gap-3 border-b border-ikea-gray-200 px-6 py-4">
                     <div className="text-sm">
-                      <span className="font-bold">{t("orders.orderNo", { no: order.orderNo })}</span>
+                      <span className="font-bold">
+                        {t("orders.orderNo", { no: order.orderNo })}
+                      </span>
                       <span className="ml-3 text-ikea-muted">
                         {formatDate(order.createdAt, locale)}
                       </span>

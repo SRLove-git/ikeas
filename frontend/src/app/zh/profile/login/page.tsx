@@ -96,7 +96,7 @@ export default function LoginPage() {
       }
 
       setSubmitted(true)
-      setTimeout(() => router.replace("/cn/zh/profile/"), 500)
+      setTimeout(() => router.replace("/zh/profile/"), 500)
     } catch (ex) {
       setError(ex instanceof Error ? ex.message : t("login.loginFailed"))
     } finally {
@@ -116,10 +116,7 @@ export default function LoginPage() {
         <div className="flex items-center gap-6 text-sm">
           <span className="font-bold">CHUNG YIP</span>
           <span className="hidden text-ikea-muted md:inline">{t("login.brandTagline")}</span>
-          <Link
-            href="/cn/zh/customer-service/contact-us/"
-            className="text-ikea-blue hover:underline"
-          >
+          <Link href="/zh/customer-service/contact-us/" className="text-ikea-blue hover:underline">
             {t("login.customerService")}
           </Link>
         </div>
@@ -202,9 +199,7 @@ export default function LoginPage() {
                   </span>
                   <input
                     type={tab === "email" ? "email" : "text"}
-                    placeholder={
-                      tab === "email" ? t("login.enterEmail") : t("login.enterUsername")
-                    }
+                    placeholder={tab === "email" ? t("login.enterEmail") : t("login.enterUsername")}
                     value={tab === "email" ? email : username}
                     onChange={(event) => {
                       if (tab === "email") {
@@ -217,9 +212,7 @@ export default function LoginPage() {
                   />
                 </label>
                 <label className="block">
-                  <span className="mb-1.5 block text-sm font-bold">
-                    {t("login.passwordLabel")}
-                  </span>
+                  <span className="mb-1.5 block text-sm font-bold">{t("login.passwordLabel")}</span>
                   <input
                     type="password"
                     placeholder={t("login.passwordPlaceholder")}
@@ -245,15 +238,12 @@ export default function LoginPage() {
               />
               <span>
                 {t("login.agreePrefix")}
-                <Link
-                  href="/cn/zh/privacy-policy/"
-                  className="mx-0.5 text-ikea-blue hover:underline"
-                >
+                <Link href="/zh/privacy-policy/" className="mx-0.5 text-ikea-blue hover:underline">
                   {t("login.privacyPolicy")}
                 </Link>
                 {t("login.and")}
                 <Link
-                  href="/cn/zh/conditions-of-use/"
+                  href="/zh/conditions-of-use/"
                   className="mx-0.5 text-ikea-blue hover:underline"
                 >
                   {t("login.termsOfUse")}
@@ -293,7 +283,6 @@ export default function LoginPage() {
                 {notice}
               </p>
             ) : null}
-
           </div>
         </div>
       </div>
