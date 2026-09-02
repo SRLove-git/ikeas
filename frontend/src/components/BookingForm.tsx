@@ -19,7 +19,7 @@ type FormKey =
   | "note"
 
 export function BookingForm() {
-  const { t, i18n } = useTranslation()
+  const { t } = useTranslation()
   const requiredKeys = new Set<FormKey>([
     "customerName",
     "phone",
@@ -69,6 +69,10 @@ export function BookingForm() {
       }
       if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email.trim())) {
         setError(t("bookingForm.invalidEmail"))
+        return
+      }
+      if (!/^\d{4}-\d{2}-\d{2}$/.test(form.preferredDate.trim())) {
+        setError(t("bookingForm.invalidDate"))
         return
       }
 
@@ -163,8 +167,9 @@ export function BookingForm() {
           </span>
           {key === "preferredDate" ? (
             <input
-              type="date"
-              lang={i18n.language}
+              type="text"
+              inputMode="numeric"
+              placeholder={t("bookingForm.preferredDatePlaceholder")}
               value={form[key]}
               onChange={update(key)}
               className="h-11 w-full border border-ikea-gray-200 px-4 text-sm outline-none transition-colors focus:border-ikea-blue"
