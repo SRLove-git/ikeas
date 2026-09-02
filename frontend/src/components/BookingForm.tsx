@@ -19,7 +19,7 @@ type FormKey =
   | "note"
 
 export function BookingForm() {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
   const requiredKeys = new Set<FormKey>([
     "customerName",
     "phone",
@@ -164,6 +164,7 @@ export function BookingForm() {
           {key === "preferredDate" ? (
             <input
               type="date"
+              lang={i18n.language}
               value={form[key]}
               onChange={update(key)}
               className="h-11 w-full border border-ikea-gray-200 px-4 text-sm outline-none transition-colors focus:border-ikea-blue"

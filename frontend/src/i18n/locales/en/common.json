@@ -446,11 +446,11 @@
     "submitFailed": "Submission failed, please try again later",
     "successTitle": "Registration successful",
     "successBody": "Your warranty registration number is {{id}}. Please take a screenshot or note it down.",
-    "successHelp": "For assistance, contact our hotline +65 8381 1666.",
+    "successHelp": "For assistance, contact our hotline +65 83811666.",
     "submitting": "Submitting…",
     "submit": "Submit warranty registration",
     "required": "Required",
-    "dataUsage": "We collect the information above only to verify your purchase and provide warranty and after-sales services. It is stored and processed in accordance with our Privacy Policy. Questions? Contact +65 8381 1666 or customerservice@chungyip.com.",
+    "dataUsage": "We collect the information above only to verify your purchase and provide warranty and after-sales services. It is stored and processed in accordance with our Privacy Policy. Questions? Contact +65 83811666 or customerservice@chungyip.com.",
     "privacyPolicy": "View Privacy Policy"
   },
   "bookingForm": {
@@ -472,8 +472,8 @@
     "storeRaffles": "Raffles Hospital",
     "storeNovena": "Novena Square 2",
     "storeParkroyal": "PARKROYAL on Beach Road",
-    "preferredDateLabel": "Preferred date",
-    "preferredDatePlaceholder": "Select a date",
+    "preferredDateLabel": "Appointment date",
+    "preferredDatePlaceholder": "Select appointment date",
     "timeSlotLabel": "Time slot",
     "timeSlotPlaceholder": "Select a time slot",
     "slotMorning": "Morning (09:00-12:00)",
@@ -487,11 +487,11 @@
     "submitFailed": "Submission failed, please try again later",
     "successTitle": "Appointment submitted",
     "successBody": "Your appointment reference is {{id}}. Please save or take a screenshot of it.",
-    "successHelp": "Our team will confirm by phone or email within 1 business day. For enquiries, call +65 8381 1666.",
+    "successHelp": "Our team will confirm by phone or email within 1 business day. For enquiries, call +65 83811666.",
     "submitting": "Submitting…",
     "submit": "Submit booking",
     "required": "Required",
-    "dataUsage": "We collect this information only to arrange your in-store health experience and follow-up service. It is stored and processed in accordance with our Privacy Policy. Questions? Contact +65 8381 1666 or customerservice@chungyip.com.",
+    "dataUsage": "We collect this information only to arrange your in-store health experience and follow-up service. It is stored and processed in accordance with our Privacy Policy. Questions? Contact +65 83811666 or customerservice@chungyip.com.",
     "privacyPolicy": "View Privacy Policy"
   },
   "content": {
