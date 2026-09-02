@@ -16,7 +16,7 @@ const PAGE_SIZE = 12
 
 export function ProductInspiration({ title, tabs, products }: ProductInspirationProps) {
   const { t } = useTranslation()
-  const [activeTab, setActiveTab] = useState(tabs[0] ?? "全部")
+  const [activeTab, setActiveTab] = useState(tabs[0] ?? t("search.all"))
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE)
 
   const items = products[activeTab] ?? []

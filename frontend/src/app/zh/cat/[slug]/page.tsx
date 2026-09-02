@@ -218,7 +218,9 @@ export default async function CategoryPage({
           {page.description ? (
             <p className="mt-2 text-sm leading-6 text-ikea-muted">{page.description}</p>
           ) : null}
-          <p className="mt-2 text-sm text-ikea-muted">共 {page.total} 件商品</p>
+          <p className="mt-2 text-sm text-ikea-muted">
+            {t("category.itemsCount", { count: page.total })}
+          </p>
 
           {page.blocks.length > 0 ? (
             <div className="mt-6 flex flex-wrap gap-2">
@@ -227,7 +229,7 @@ export default async function CategoryPage({
                 .slice(0, 12)
                 .map((link, i) => (
                   <Link key={`${link.href}-${i}`} href={link.href} className="i-pill i-pill--small">
-                    {link.text || "查看"}
+                    {link.text || t("content.view")}
                   </Link>
                 ))}
             </div>
