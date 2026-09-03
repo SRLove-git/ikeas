@@ -4,7 +4,6 @@ import { CartDrawer } from "@/components/CartDrawer"
 import { Header } from "@/components/Header"
 import { HeroVideo } from "@/components/HeroVideo"
 import { InspirationTipsCard } from "@/components/InspirationTipsCard"
-import { NoticeBar } from "@/components/NoticeBar"
 import { ProductNotices } from "@/components/ProductNotices"
 import { PromoInspirationCard } from "@/components/PromoInspirationCard"
 import { ServiceColumns } from "@/components/ServiceColumns"
@@ -29,7 +28,6 @@ export default async function Home() {
     inspirationTipsItems,
     legalBar,
     navMenuItems,
-    noticeMessages,
     promoCardItems,
     recallNotices,
     roomPillCta,
@@ -64,7 +62,6 @@ export default async function Home() {
     <main className="text-left">
       <div className="font-ikea">
         <div className="i-layout">
-          <NoticeBar items={noticeMessages} />
           <Header
             menuItems={navMenuItems}
             searchHints={searchHints}

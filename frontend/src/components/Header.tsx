@@ -7,6 +7,7 @@ import { CartIcon, HeartIcon, SearchIcon, UserIcon } from "@/components/icons"
 import { MegaMenu } from "@/components/MegaMenu"
 import { MenuPanel } from "@/components/MenuPanel"
 import { SearchPanel } from "@/components/SearchPanel"
+import { LanguageSwitch } from "@/i18n/LanguageSwitch"
 import { useAuth } from "@/lib/auth"
 import { apiJson, getToken, type Cart } from "@/lib/api"
 import type { MenuPanel as MenuPanelData } from "@/data/menu-panels"
@@ -28,6 +29,7 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
   const [query, setQuery] = useState("")
   const [searchOpen, setSearchOpen] = useState(false)
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [moreOpen, setMoreOpen] = useState(false)
   const [cartCount, setCartCount] = useState(0)
   const { user } = useAuth()
 
@@ -91,6 +93,7 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
   }
   const openSearch = () => {
     closeMenu()
+    setMoreOpen(false)
     setMobileMenuOpen(false)
     setSearchOpen(true)
   }
@@ -128,6 +131,89 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
                       </div>
                     </div>
                   </div>
+                  <nav className="header-nav hidden lg:block" aria-label={t("header.menuLabel")}>
+                    <ul className="header_container_center_ul" onMouseLeave={hideActiveBar}>
+                      <span
+                        className="active-bar"
+                        style={{
+                          width: bar.width,
+                          transform: `translateX(${bar.left}px)`,
+                          opacity: bar.opacity,
+                        }}
+                      />
+                      {menuItems.map((item) => (
+                        <li
+                          key={item.label}
+                          onMouseEnter={(event) => {
+                            const panel = menuPanels.find(
+                              (p) => p.label === (item.menuPanelLabel ?? item.label),
+                            )
+                            closeSearch()
+                            setMoreOpen(false)
+                            setOpenMenu(item.hasMegaMenu ? item.label : null)
+                            setOpenPanel(panel ? panel.label : null)
+                            moveActiveBar(event.currentTarget)
+                          }}
+                        >
+                          <Link href={item.href} className="menu-label">
+                            {item.label}
+                          </Link>
+                          {item.hasMegaMenu ? <span className="new_feature_mark" /> : null}
+                        </li>
+                      ))}
+                      {menuItems.length > 1 ? (
+                        <li
+                          className="header-nav-more"
+                          onMouseEnter={(event) => {
+                            closeSearch()
+                            closeMenu()
+                            setMoreOpen(true)
+                            moveActiveBar(event.currentTarget)
+                          }}
+                          onMouseLeave={() => setMoreOpen(false)}
+                        >
+                          <button
+                            type="button"
+                            className="menu-label header-nav-more-trigger"
+                            aria-haspopup="true"
+                            aria-expanded={moreOpen}
+                            onClick={() => setMoreOpen((current) => !current)}
+                          >
+                            {t("header.more")}
+                            <svg
+                              viewBox="0 0 24 24"
+                              className={`header-nav-more-chevron ${moreOpen ? "header-nav-more-chevron--open" : ""}`}
+                              aria-hidden="true"
+                            >
+                              <path
+                                d="m6 9 6 6 6-6"
+                                fill="none"
+                                stroke="currentColor"
+                                strokeWidth="2"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                              />
+                            </svg>
+                          </button>
+                          {moreOpen ? (
+                            <ul className="header-nav-more-dropdown">
+                              {menuItems.slice(1).map((item) => (
+                                <li key={item.label}>
+                                  <Link
+                                    href={item.href}
+                                    className="header-nav-more-link"
+                                    onClick={() => setMoreOpen(false)}
+                                  >
+                                    {item.label}
+                                  </Link>
+                                </li>
+                              ))}
+                            </ul>
+                          ) : null}
+                        </li>
+                      ) : null}
+                    </ul>
+                  </nav>
                   <div className="search-bar-container">
                     <form
                       className="s-header"
@@ -165,47 +251,14 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
                     </form>
                   </div>
                   <div className="header_container_right">
-                    <div className="header_container_right_img">
-                      <span className="i-tooltip i-tooltip--bottom">
-                        <span className="i-tooltip__custom-trigger-wrapper">
-                          {user ? (
-                            <Link
-                              href="/zh/profile/"
-                              className="header-action-btn header-action-btn--login"
-                            >
-                              <span className="flex h-6 w-6 items-center justify-center rounded-full bg-ikea-blue text-xs font-bold text-white">
-                                {user.name.slice(-1)}
-                              </span>
-                              <span>{user.name}</span>
-                            </Link>
-                          ) : (
-                            <Link
-                              href="/zh/profile/login/"
-                              className="header-action-btn header-action-btn--login"
-                            >
-                              <UserIcon width={24} height={24} />
-                              <span>{t("header.loginAccount")}</span>
-                            </Link>
-                          )}
-                          <div className="i-tooltip__body">{t("header.loginAccount")}</div>
-                        </span>
-                      </span>
-                      <span className="i-tooltip i-tooltip--bottom">
-                        <span className="i-tooltip__custom-trigger-wrapper">
-                          <Link
-                            href={user ? "/zh/profile/" : "/zh/profile/login/"}
-                            className="header-action-btn"
-                          >
-                            <UserIcon width={24} height={24} />
-                          </Link>
-                          <div className="i-tooltip__body">{t("header.myProfile")}</div>
-                        </span>
-                      </span>
+                    <div className="header_container_right_img header-right-cluster">
+                      <LanguageSwitch className="header-lang-switch" />
+                      <span className="header-right-divider hidden md:block" aria-hidden="true" />
                       <span className="i-tooltip i-tooltip--bottom">
                         <span className="i-tooltip__custom-trigger-wrapper">
                           <Link
                             href={user ? "/zh/profile/collection/" : "/zh/profile/login/"}
-                            className="header-action-btn"
+                            className="header-action-btn header-action-btn--compact"
                           >
                             <HeartIcon width={24} height={24} />
                           </Link>
@@ -216,7 +269,7 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
                         <span className="i-tooltip__custom-trigger-wrapper">
                           <Link
                             href="/zh/pay/cart/"
-                            className="header-action-btn relative"
+                            className="header-action-btn header-action-btn--compact relative"
                             aria-label={t("header.shoppingBag")}
                           >
                             <CartIcon width={24} height={24} />
@@ -229,13 +282,37 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
                           <div className="i-tooltip__body">{t("header.shoppingBag")}</div>
                         </span>
                       </span>
+                      <span className="i-tooltip i-tooltip--bottom">
+                        <span className="i-tooltip__custom-trigger-wrapper">
+                          {user ? (
+                            <Link href="/zh/profile/" className="header-action-btn">
+                              <span className="flex h-6 w-6 items-center justify-center rounded-full bg-ikea-blue text-xs font-bold text-white">
+                                {user.name.slice(-1)}
+                              </span>
+                              <span className="header-user-text hidden md:inline">
+                                {user.name}
+                              </span>
+                            </Link>
+                          ) : (
+                            <Link href="/zh/profile/login/" className="header-action-btn">
+                              <UserIcon width={24} height={24} />
+                              <span className="header-user-text hidden md:inline">
+                                {t("header.login")}
+                              </span>
+                            </Link>
+                          )}
+                          <div className="i-tooltip__body">
+                            {user ? t("header.myProfile") : t("header.loginAccount")}
+                          </div>
+                        </span>
+                      </span>
                     </div>
                   </div>
                   <button
                     type="button"
                     aria-label={t("header.menuLabel")}
                     aria-expanded={mobileMenuOpen}
-                    className="ml-3 flex h-10 w-10 shrink-0 items-center justify-center text-ikea-black md:hidden"
+                    className="ml-3 flex h-10 w-10 shrink-0 items-center justify-center text-ikea-black lg:hidden"
                     onClick={() => setMobileMenuOpen((current) => !current)}
                   >
                     {mobileMenuOpen ? (
@@ -245,7 +322,7 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
                         className="h-6 w-6"
                         aria-hidden="true"
                       >
-                        <path d="m12 10.6 6-6 1.4 1.4-6 6 6 6-1.4 1.4-6-6-6 6L4.6 18l6-6-6-6L6 4.6z" />
+                        <path d="m12 10.6 6-6 1.4 1.4-6 6 6-1.4 1.4-6-6-6 6L4.6 18l6-6-6-6L6 4.6z" />
                       </svg>
                     ) : (
                       <svg
@@ -264,7 +341,7 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
                 </div>
               </div>
               {mobileMenuOpen ? (
-                <div className="border-t border-ikea-gray-200 bg-white px-5 py-3 md:hidden">
+                <div className="border-t border-ikea-gray-200 bg-white px-5 py-3 lg:hidden">
                   <ul className="space-y-1">
                     {menuItems.map((item) => (
                       <li key={item.label}>
@@ -280,37 +357,6 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
                   </ul>
                 </div>
               ) : null}
-              <div className="header_container_menu_content hidden md:block">
-                <ul className="header_container_center_ul" onMouseLeave={hideActiveBar}>
-                  <span
-                    className="active-bar"
-                    style={{
-                      width: bar.width,
-                      transform: `translateX(${bar.left}px)`,
-                      opacity: bar.opacity,
-                    }}
-                  />
-                  {menuItems.map((item) => (
-                    <li
-                      key={item.label}
-                      onMouseEnter={(event) => {
-                        const panel = menuPanels.find(
-                          (p) => p.label === (item.menuPanelLabel ?? item.label),
-                        )
-                        closeSearch()
-                        setOpenMenu(item.hasMegaMenu ? item.label : null)
-                        setOpenPanel(panel ? panel.label : null)
-                        moveActiveBar(event.currentTarget)
-                      }}
-                    >
-                      <Link href={item.href} className="menu-label">
-                        {item.label}
-                      </Link>
-                      {item.hasMegaMenu ? <span className="new_feature_mark" /> : null}
-                    </li>
-                  ))}
-                </ul>
-              </div>
             </div>
           </div>
           {openMenu || activePanel || searchOpen ? (

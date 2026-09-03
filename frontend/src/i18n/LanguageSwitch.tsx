@@ -8,7 +8,7 @@ interface LanguageSwitchProps {
   className?: string
 }
 
-/** Compact 中文 | EN switch used by the storefront notice bar and the admin shell. */
+/** Compact 中文 | EN switch used by the storefront header and the admin shell. */
 export function LanguageSwitch({ className }: LanguageSwitchProps) {
   const { t } = useTranslation()
   const { locale, changeLanguage } = useLocale()
