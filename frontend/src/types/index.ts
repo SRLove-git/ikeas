@@ -105,12 +105,6 @@ export interface AssuranceItem {
   ctaHref?: string
 }
 
-export interface NoticeArticle {
-  title: string
-  date?: string
-  href?: string
-}
-
 export interface FooterLinkGroup {
   title: string
   links: { label: string; href?: string }[]

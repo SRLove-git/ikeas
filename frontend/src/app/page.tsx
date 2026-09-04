@@ -4,7 +4,6 @@ import { CartDrawer } from "@/components/CartDrawer"
 import { Header } from "@/components/Header"
 import { HeroVideo } from "@/components/HeroVideo"
 import { InspirationTipsCard } from "@/components/InspirationTipsCard"
-import { ProductNotices } from "@/components/ProductNotices"
 import { PromoInspirationCard } from "@/components/PromoInspirationCard"
 import { ServiceColumns } from "@/components/ServiceColumns"
 import { ServicesSection } from "@/components/ServicesSection"
@@ -29,7 +28,6 @@ export default async function Home() {
     legalBar,
     navMenuItems,
     promoCardItems,
-    recallNotices,
     roomPillCta,
     roomPillItems,
     searchHints,
@@ -89,7 +87,6 @@ export default async function Home() {
                 cta={sustainabilityPillCta}
               />
               <ServicesSection assurances={assurances} />
-              <ProductNotices notices={recallNotices} />
             </div>
           </div>
           <Footer

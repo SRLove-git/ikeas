@@ -6,7 +6,6 @@ import type {
   AssuranceItem,
   FooterLinkGroup,
   HeroVideo,
-  NoticeArticle,
   PillSliderItem,
   PromoTile,
   RankingCategory,
@@ -55,7 +54,6 @@ export interface HomepageData {
   sustainabilityPillCta: { label: string; href: string; color: string; textColor: string }
   feedProducts: Record<string, FeedProduct[]>
   assurances: AssuranceItem[]
-  recallNotices: (NoticeArticle & { image: string })[]
   footerLinkGroups: FooterLinkGroup[]
   footerFeaturedCards: { title: string; description: string; ctaLabel: string; href: string }[]
   socialIcons: { name: string; src: string }[]

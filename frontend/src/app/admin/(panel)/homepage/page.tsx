@@ -60,7 +60,6 @@ function buildConfigs(t: (key: string) => string) {
     { key: "sustainabilityPillCta", label: t("admin.homepage.section.sustainCta"), description: t("admin.homepage.section.sustainCtaDesc") },
     { key: "feedProducts", label: t("admin.homepage.section.feed"), description: t("admin.homepage.section.feedDesc") },
     { key: "assurances", label: t("admin.homepage.section.assurances"), description: t("admin.homepage.section.assurancesDesc") },
-    { key: "recallNotices", label: t("admin.homepage.section.recalls"), description: t("admin.homepage.section.recallsDesc") },
     { key: "footerLinkGroups", label: t("admin.homepage.section.footerLinks"), description: t("admin.homepage.section.footerLinksDesc") },
     { key: "footerFeaturedCards", label: t("admin.homepage.section.footerCards"), description: t("admin.homepage.section.footerCardsDesc") },
     { key: "socialIcons", label: t("admin.homepage.section.socialIcons"), description: t("admin.homepage.section.socialIconsDesc") },
@@ -275,18 +274,6 @@ function buildConfigs(t: (key: string) => string) {
           { key: "description", label: t("admin.homepage.field.description"), kind: { type: "textarea" } },
           { key: "ctaLabel", label: t("admin.homepage.field.ctaLabel"), kind: { type: "text" } },
           { key: "ctaHref", label: t("admin.homepage.field.ctaHref"), kind: { type: "text" } },
-        ],
-      },
-    },
-    recallNotices: {
-      kind: "objects",
-      labelKey: "title",
-      schema: {
-        fields: [
-          { key: "title", label: t("admin.homepage.field.title"), kind: { type: "text" } },
-          { key: "date", label: t("admin.homepage.field.date"), kind: { type: "text" } },
-          { key: "href", label: t("admin.homepage.field.href"), kind: { type: "text" } },
-          { key: "image", label: t("admin.homepage.field.image"), kind: { type: "text" } },
         ],
       },
     },
