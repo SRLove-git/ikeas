@@ -13,6 +13,8 @@ export interface CategorySub {
 
 export interface Category {
   name: string
+  /** 所属分组（Mega 菜单第一级），见 menu-categories.json */
+  group?: string
   url: string
   image: string | null
   subs: CategorySub[]

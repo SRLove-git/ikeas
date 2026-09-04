@@ -2,6 +2,7 @@
   "categories": [
     {
       "name": "Insulin pen needles",
+      "group": "Diabetes care",
       "url": "/zh/cat/insulin-pen-needles",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/categories/f81692114023d8c93114db987305b8ec.jpg",
       "subs": [
@@ -24,6 +25,7 @@
     },
     {
       "name": "Simple oxygen mask",
+      "group": "Respiratory & oxygen therapy",
       "url": "/zh/cat/simple-oxygen-mask",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/categories/004227a0754dabc16869fa70e63f384c.png",
       "subs": [
@@ -41,6 +43,7 @@
     },
     {
       "name": "Portable oxygen concentrator",
+      "group": "Respiratory & oxygen therapy",
       "url": "/zh/cat/portable-oxygen-concentrator",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/categories/e9821d1424c09c342757c7a7ee7d8e97.png",
       "subs": [
@@ -63,6 +66,7 @@
     },
     {
       "name": "Thermometers",
+      "group": "Health monitoring",
       "url": "/zh/cat/thermometer",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/categories/cfecbfe93c7144636dd06eed6f7518b0.png",
       "subs": [
@@ -90,6 +94,7 @@
     },
     {
       "name": "Walking aids",
+      "group": "Mobility & hearing aids",
       "url": "/zh/cat/walking-aid",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/categories/938977b9b13ff60ed07859d8a9cb218d.png",
       "subs": [
@@ -147,6 +152,7 @@
     },
     {
       "name": "Rapid test kits",
+      "group": "Testing & analysis",
       "url": "/zh/cat/test-kit",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/categories/f07c7dfd3ce5f05724a80371b2586b76.png",
       "subs": [
@@ -224,6 +230,7 @@
     },
     {
       "name": "Nasal oxygen tubes",
+      "group": "Respiratory & oxygen therapy",
       "url": "/zh/cat/nasal-oxygen-cannula",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/categories/967812ec1c131b7fd9f535e0ddf0760f.png",
       "subs": [
@@ -241,6 +248,7 @@
     },
     {
       "name": "Oxygen concentrators",
+      "group": "Respiratory & oxygen therapy",
       "url": "/zh/cat/oxygen-concentrator",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/categories/16951d1567ac77fa8ae06c6c0adcfbb8.png",
       "subs": [
@@ -278,6 +286,7 @@
     },
     {
       "name": "High-flow nasal oxygen tube",
+      "group": "Respiratory & oxygen therapy",
       "url": "/zh/cat/high-flow-nasal-cannula",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/categories/2583dce1012394ee16233da889be24e6.png",
       "subs": [
@@ -295,6 +304,7 @@
     },
     {
       "name": "Blood glucose test strips",
+      "group": "Diabetes care",
       "url": "/zh/cat/blood-glucose-test-strip",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/categories/fca43c5a16717f2f2ecbf85c019dabbf.png",
       "subs": [
@@ -332,6 +342,7 @@
     },
     {
       "name": "Continuous Glucose Monitoring System (CGMS)",
+      "group": "Diabetes care",
       "url": "/zh/cat/cgms",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/categories/d822344d0fd8d2edca08398e67ecfbdb.jpg",
       "subs": [
@@ -359,6 +370,7 @@
     },
     {
       "name": "Oxygen nebulization tubing and mouthpiece",
+      "group": "Respiratory & oxygen therapy",
       "url": "/zh/cat/oxygen-nebulizer-tubing-and-mouthpiece",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/categories/2583dce1012394ee16233da889be24e6.png",
       "subs": [
@@ -371,6 +383,7 @@
     },
     {
       "name": "Transfer chairs",
+      "group": "Mobility & hearing aids",
       "url": "/zh/cat/transfer-chair",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/categories/be4f22879de40b95af01e3e4d2dcef16.png",
       "subs": [
@@ -388,6 +401,7 @@
     },
     {
       "name": "Uric acid test strips",
+      "group": "Testing & analysis",
       "url": "/zh/cat/uric-acid-test-strip",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/categories/30228b31a61136974f91881207f27e0b.png",
       "subs": [
@@ -405,6 +419,7 @@
     },
     {
       "name": "Lipid test strips",
+      "group": "Testing & analysis",
       "url": "/zh/cat/lipid-monitor-test-strip",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/categories/f28b936a8a5f88a3d196048132d98773.png",
       "subs": [
@@ -417,6 +432,7 @@
     },
     {
       "name": "Blood analyzer",
+      "group": "Testing & analysis",
       "url": "/zh/cat/blood-analyzer",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/categories/291f10a023b99dabe8b24285f96cee06.png",
       "subs": [
@@ -464,6 +480,7 @@
     },
     {
       "name": "Blood pressure monitors",
+      "group": "Health monitoring",
       "url": "/zh/cat/blood-pressure-monitor",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/categories/df2358058e0e324e301f062e8f2ee663.png",
       "subs": [
@@ -511,6 +528,7 @@
     },
     {
       "name": "Alcohol swabs",
+      "group": "Testing & analysis",
       "url": "/zh/cat/alcohol-swab",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711660-1.png",
       "subs": [
@@ -523,6 +541,7 @@
     },
     {
       "name": "Respiratory care",
+      "group": "Respiratory & oxygen therapy",
       "url": "/zh/cat/respiratory-care",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711707-1.png",
       "subs": [
@@ -535,6 +554,7 @@
     },
     {
       "name": "Hearing aids",
+      "group": "Mobility & hearing aids",
       "url": "/zh/cat/hearing-aid",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/categories/4f5005041a68520a2fc021aaf8f6d839.png",
       "subs": [
@@ -572,6 +592,7 @@
     },
     {
       "name": "Wheelchairs",
+      "group": "Mobility & hearing aids",
       "url": "/zh/cat/wheelchair",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/categories/47f04e2593fe8f8d986d2acddd853c31.png",
       "subs": [
@@ -624,6 +645,7 @@
     },
     {
       "name": "Patient monitor",
+      "group": "Health monitoring",
       "url": "/zh/cat/patient-monitor",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/categories/ff0f21e2154731bd0478af85ce076e5b.png",
       "subs": [
@@ -646,6 +668,7 @@
     },
     {
       "name": "Lancets",
+      "group": "Diabetes care",
       "url": "/zh/cat/lancet",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/categories/f529f9aca2ee1a457389530e8e5a82c2.png",
       "subs": [
@@ -668,6 +691,7 @@
     },
     {
       "name": "Smart watches",
+      "group": "Health monitoring",
       "url": "/zh/cat/smart-watch",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/categories/57f70a238f8d254e0466abafea0c910b.png",
       "subs": [
@@ -710,6 +734,7 @@
     },
     {
       "name": "Automated External Defibrillator (AED)",
+      "group": "Rehab & emergency",
       "url": "/zh/cat/aed",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/categories/babb2a538f432ddff807f51fb5fd524e.png",
       "subs": [
@@ -722,6 +747,7 @@
     },
     {
       "name": "Body composition scale",
+      "group": "Health monitoring",
       "url": "/zh/cat/body-composition-scale",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/categories/7c3c9dd44378b7ca20a3ee4593d149bf.png",
       "subs": [
@@ -749,6 +775,7 @@
     },
     {
       "name": "Rehabilitation therapy",
+      "group": "Rehab & emergency",
       "url": "/zh/cat/physical-therapy",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/categories/3bf5e5f25de7d3c6ff2ad8b1ea755315.png",
       "subs": [
@@ -791,6 +818,7 @@
     },
     {
       "name": "Pulse oximeter",
+      "group": "Health monitoring",
       "url": "/zh/cat/pulse-oximeter",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/categories/119c93394faaabb886965e81d76a7e5d.png",
       "subs": [

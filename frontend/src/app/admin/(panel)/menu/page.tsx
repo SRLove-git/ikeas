@@ -87,6 +87,7 @@ export default function MenuPage() {
   const CATEGORY_SCHEMA: Schema = {
     fields: [
       { key: "name", label: t("admin.menu.field.categoryName"), kind: { type: "text" } },
+      { key: "group", label: t("admin.menu.field.group"), kind: { type: "text" } },
       { key: "url", label: t("admin.menu.field.href"), kind: { type: "text" } },
       { key: "image", label: t("admin.menu.field.image"), kind: { type: "text" } },
       {

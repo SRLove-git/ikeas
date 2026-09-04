@@ -31,7 +31,8 @@
     "searchAria": "Search",
     "allProducts": "All products",
     "newMark": "New",
-    "menuLabel": "Menu"
+    "menuLabel": "Menu",
+    "groupOther": "Other"
   },
   "notice": {
     "chinese": "中文",
@@ -832,6 +833,7 @@
         "columns": "Columns",
         "subName": "Subcategory name",
         "categoryName": "Category name",
+        "group": "Group",
         "subs": "Subcategories",
         "menuName": "Menu name",
         "hasMegaMenu": "All-categories dropdown (mega menu)",

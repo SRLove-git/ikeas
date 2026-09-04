@@ -31,7 +31,8 @@
     "searchAria": "搜索",
     "allProducts": "所有产品",
     "newMark": "新品",
-    "menuLabel": "菜单"
+    "menuLabel": "菜单",
+    "groupOther": "其他"
   },
   "notice": {
     "chinese": "中文",
@@ -832,6 +833,7 @@
         "columns": "栏目",
         "subName": "子分类名称",
         "categoryName": "分类名称",
+        "group": "分组",
         "subs": "子分类",
         "menuName": "菜单名称",
         "hasMegaMenu": "全部分类下拉（Mega 菜单）",

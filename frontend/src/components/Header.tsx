@@ -91,6 +91,17 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
     setOpenMenu(null)
     setOpenPanel(null)
   }
+  const activateNavItem = (
+    item: HeaderProps["menuItems"][number],
+    li: HTMLLIElement | null,
+  ) => {
+    const panel = menuPanels.find((p) => p.label === (item.menuPanelLabel ?? item.label))
+    closeSearch()
+    setMoreOpen(false)
+    setOpenMenu(item.hasMegaMenu ? item.label : null)
+    setOpenPanel(panel ? panel.label : null)
+    if (li) moveActiveBar(li)
+  }
   const openSearch = () => {
     closeMenu()
     setMoreOpen(false)
@@ -144,18 +155,19 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
                       {menuItems.map((item) => (
                         <li
                           key={item.label}
-                          onMouseEnter={(event) => {
-                            const panel = menuPanels.find(
-                              (p) => p.label === (item.menuPanelLabel ?? item.label),
-                            )
-                            closeSearch()
-                            setMoreOpen(false)
-                            setOpenMenu(item.hasMegaMenu ? item.label : null)
-                            setOpenPanel(panel ? panel.label : null)
-                            moveActiveBar(event.currentTarget)
-                          }}
+                          onMouseEnter={(event) => activateNavItem(item, event.currentTarget)}
                         >
-                          <Link href={item.href} className="menu-label">
+                          <Link
+                            href={item.href}
+                            className="menu-label"
+                            onFocus={(event) => activateNavItem(item, event.currentTarget.closest("li"))}
+                            onClick={(event) => {
+                              if (!item.hasMegaMenu) return
+                              // 悬停已展开同一个 Mega 菜单，点击不再跳转到另一个商品列表页
+                              event.preventDefault()
+                              activateNavItem(item, event.currentTarget.closest("li"))
+                            }}
+                          >
                             {item.label}
                           </Link>
                           {item.hasMegaMenu ? <span className="new_feature_mark" /> : null}
