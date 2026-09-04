@@ -23,7 +23,7 @@ export default async function Home() {
     assurances,
     footerFeaturedCards,
     footerLinkGroups,
-    heroVideo,
+    heroVideos,
     inspirationTipsCta,
     inspirationTipsItems,
     legalBar,
@@ -69,12 +69,7 @@ export default async function Home() {
             categories={getMenuCategories(locale)}
           />
           <div className="i-layout__body">
-            <HeroVideo
-              video={heroVideo.video}
-              poster={heroVideo.poster}
-              href={heroVideo.href}
-              alt={heroVideo.alt}
-            />
+            <HeroVideo items={heroVideos} />
             <div className="clearfix min-h-screen px-0 m-auto mb-8 space-y-8 text-left lg:mb-12 lg:space-y-12 max-w-page">
               <PromoInspirationCard title={t("home.promoTitle")} items={promoItems} />
               <ServiceColumns columns={serviceColumns} />

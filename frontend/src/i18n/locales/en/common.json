@@ -692,7 +692,7 @@
         "megaMenu": "Mega menu categories",
         "megaMenuDesc": "All-products dropdown categories",
         "heroVideo": "Hero video",
-        "heroVideoDesc": "Autoplaying promotional video on the first screen; placeholder when unset",
+        "heroVideoDesc": "Hero video cards on the first screen; posters shown by default, videos play on hover (desktop); two configured items display side by side",
         "promo": "Must-haves",
         "promoDesc": "Promotional recommendation cards",
         "inspirationTips": "Inspiration tips",

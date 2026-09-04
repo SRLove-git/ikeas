@@ -43,7 +43,7 @@ export interface HomepageData {
   searchHints: string[]
   navMenuItems: NavMenuItem[]
   megaMenuCategories: { name: string; subCategories: string[] }[]
-  heroVideo: HeroVideo
+  heroVideos: HeroVideo[]
   promoCardItems: PromoTile[]
   inspirationTipsItems: PromoTile[]
   inspirationTipsCta?: { label: string; href: string }

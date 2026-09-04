@@ -288,12 +288,20 @@
       ]
     }
   ],
-  "heroVideo": {
-    "video": "/videos/buzud-promo.mp4",
-    "poster": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-home-1.jpg",
-    "href": "/zh/cat/smart-watch",
-    "alt": "BUZUD promotional video"
-  },
+  "heroVideos": [
+    {
+      "video": "/videos/buzud-promo.mp4",
+      "poster": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-home-1.jpg",
+      "href": "/zh/cat/smart-watch",
+      "alt": "BUZUD promotional video"
+    },
+    {
+      "video": "/videos/buzud-promo.mp4",
+      "poster": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711394.png",
+      "href": "/zh/cat/cgms",
+      "alt": "BUZUD continuous glucose monitoring"
+    }
+  ],
   "promoCardItems": [
     {
       "eyebrow": "CHUNG YIP",

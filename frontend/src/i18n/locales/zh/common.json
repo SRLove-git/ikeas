@@ -692,7 +692,7 @@
         "megaMenu": "Mega 菜单分类",
         "megaMenuDesc": "所有商品下拉菜单分类",
         "heroVideo": "首屏视频",
-        "heroVideoDesc": "首页首屏自动播放宣传视频，未配置时展示占位",
+        "heroVideoDesc": "首页首屏宣传视频卡片，封面常态展示，桌面端悬停播放，配置 2 个时并排展示",
         "promo": "必逛好物",
         "promoDesc": "促销推荐卡片",
         "inspirationTips": "布置小贴士",

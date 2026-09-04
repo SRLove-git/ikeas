@@ -46,7 +46,7 @@ function buildConfigs(t: (key: string) => string) {
     { key: "navMenuItems", label: t("admin.homepage.section.navMenu"), description: t("admin.homepage.section.navMenuDesc") },
     { key: "megaMenuCategories", label: t("admin.homepage.section.megaMenu"), description: t("admin.homepage.section.megaMenuDesc") },
     {
-      key: "heroVideo",
+      key: "heroVideos",
       label: t("admin.homepage.section.heroVideo"),
       description: t("admin.homepage.section.heroVideoDesc"),
     },
@@ -150,8 +150,10 @@ function buildConfigs(t: (key: string) => string) {
         ],
       },
     },
-    heroVideo: {
-      kind: "object",
+    heroVideos: {
+      kind: "objects",
+      labelKey: "alt",
+      newItem: () => ({ video: "", poster: "", href: "", alt: "" }),
       schema: {
         fields: [
           {
