@@ -61,17 +61,14 @@ export function InspirationTipsCard({
                         <h3>{item.title}</h3>
                         {item.description ? <p>{item.description}</p> : null}
                       </div>
-                      <div className="desc-operation">
-                        <button
-                          type="button"
-                          className="i-btn i-btn--small i-btn--icon-primary"
-                          aria-label={item.title}
-                        >
-                          <span className="i-btn__inner">
-                            <ArrowRightIcon width={20} height={20} />
+                      {item.ctaLabel ? (
+                        <div className="desc-operation">
+                          <span className="inspiration-tips-cta">
+                            {item.ctaLabel}
+                            <ArrowRightIcon width={16} height={16} />
                           </span>
-                        </button>
-                      </div>
+                        </div>
+                      ) : null}
                     </div>
                   </a>
                 </div>

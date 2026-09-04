@@ -643,3 +643,58 @@
     display: none;
   }
 }
+
+/* ---------------------------------------------------------------------------
+ * BUZUD compact inspiration-tips cards ("健康生活小贴士")
+ * Removes the 80px dead space under the text and swaps the circular arrow
+ * button for a "了解详情 →" text link.  Selectors carry extra specificity to
+ * outrank the legacy rules in ikea-components.css.
+ * ------------------------------------------------------------------------- */
+.pub-inspiration-card.is-standard .pub-inspiration-card__desc {
+  padding: 20px 24px 24px;
+}
+
+.pub-inspiration-card.is-standard .pub-inspiration-card__desc .desc-title {
+  margin-bottom: 16px;
+}
+
+.pub-inspiration-card.is-standard .pub-inspiration-card__desc .desc-title h3 {
+  font-size: 18px;
+}
+
+.inspiration-tips-cta {
+  align-items: center;
+  display: inline-flex;
+  font-size: 14px;
+  font-weight: 700;
+  gap: 6px;
+}
+
+.inspiration-tips-cta svg {
+  transition: transform 0.2s ease;
+}
+
+.pub-inspiration-card__link:hover .inspiration-tips-cta {
+  text-decoration: underline;
+}
+
+.pub-inspiration-card__link:hover .inspiration-tips-cta svg {
+  transform: translateX(3px);
+}
+
+@media screen and (max-width: 768px) {
+  .pub-inspiration-card.is-standard .pub-inspiration-card__desc {
+    padding: 15px;
+  }
+
+  .pub-inspiration-card.is-standard .pub-inspiration-card__desc .desc-title {
+    margin-bottom: 12px;
+  }
+
+  /* The legacy mobile rules force white text onto the pastel tile; inherit
+     the card's configured text colour instead. */
+  .pub-inspiration-card.is-standard .pub-inspiration-card__desc .desc-title h3,
+  .pub-inspiration-card.is-standard .pub-inspiration-card__desc .desc-title p {
+    color: inherit;
+  }
+}
