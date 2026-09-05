@@ -5,14 +5,9 @@ import type { PromoTile } from "@/types";
 interface InspirationTipsCardProps {
   title: string;
   items: PromoTile[];
-  cta?: { label: string; href: string };
 }
 
-export function InspirationTipsCard({
-  title,
-  items,
-  cta,
-}: InspirationTipsCardProps) {
+export function InspirationTipsCard({ title, items }: InspirationTipsCardProps) {
   return (
     <section className="pub-inspiration-card is-standard">
       <h2>{title}</h2>
@@ -77,18 +72,6 @@ export function InspirationTipsCard({
           </div>
         </div>
       </div>
-      {cta ? (
-        <div className="flex justify-center">
-          <a
-            href={cta.href}
-            className="i-btn i-btn--small i-btn--primary mt-4"
-          >
-            <span className="i-btn__inner">
-              <span className="i-btn__label">{cta.label}</span>
-            </span>
-          </a>
-        </div>
-      ) : null}
     </section>
   );
 }

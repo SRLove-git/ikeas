@@ -270,7 +270,7 @@ export function CheckoutPanel() {
 
             <section className="bg-white p-6">
               <h2 className="text-base font-bold">{t("checkout.stepDelivery")}</h2>
-              <label className="mt-4 flex cursor-pointer items-center justify-between border border-ikea-gray-200 p-4">
+              <label className="mt-4 flex cursor-pointer items-center justify-between rounded-lg border border-ikea-gray-200 p-4">
                 <span className="flex items-center gap-3">
                   <input type="radio" name="delivery" defaultChecked className="accent-ikea-blue" />
                   <span>

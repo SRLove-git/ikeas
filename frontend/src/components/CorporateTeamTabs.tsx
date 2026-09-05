@@ -139,7 +139,7 @@ export function CorporateTeamTabs({ groups }: CorporateTeamTabsProps) {
           {active.members.map((member, i) => (
             <MemberLink key={i} href={member.href}>
               <div className="group">
-                <div className="relative aspect-[4/5] overflow-hidden bg-ikea-gray-100">
+                <div className="relative aspect-[4/5] overflow-hidden rounded-lg bg-ikea-gray-100">
                   {member.image ? (
                     <SiteImage
                       src={member.image}

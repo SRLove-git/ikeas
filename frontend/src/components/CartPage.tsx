@@ -196,7 +196,7 @@ export function CartPage() {
                 {items.map(({ productId, product, quantity }) => (
                   <div
                     key={productId}
-                    className="flex gap-4 border border-ikea-gray-200 bg-white p-5"
+                    className="flex gap-4 rounded-lg border border-ikea-gray-200 bg-white p-5"
                   >
                     <Link href={`/zh/p/${product.slug}/`} className="w-28 shrink-0">
                       <SiteImage
@@ -267,7 +267,7 @@ export function CartPage() {
             )}
           </section>
 
-          <aside className="h-fit border border-ikea-gray-200 bg-white p-6">
+          <aside className="h-fit rounded-lg border border-ikea-gray-200 bg-white p-6">
             <h2 className="text-base font-bold">{t("checkout.orderSummary")}</h2>
 
             {items.length > 0 ? (

@@ -284,50 +284,11 @@
       ]
     },
     {
-      "label": "客户服务",
+      "label": "服务与支持",
       "href": "/zh/customer-service/",
       "columns": [
         {
-          "heading": null,
-          "intro": "售前售后全程支持",
-          "cards": [
-            {
-              "title": "客户服务总览",
-              "href": "/zh/customer-service/",
-              "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712582.png"
-            },
-            {
-              "title": "送货服务",
-              "href": "/zh/customer-service/services/delivery/",
-              "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-service-delivery.jpg"
-            },
-            {
-              "title": "售后服务",
-              "href": "/zh/customer-service/services/aftersales/",
-              "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-service-aftersales.jpg"
-            },
-            {
-              "title": "尊享权益",
-              "href": "/zh/customer-service/services/privileges/",
-              "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-service-privileges.jpg"
-            }
-          ],
-          "thumbnails": [],
-          "links": [
-            {
-              "title": "联系我们",
-              "href": "/zh/customer-service/contact-us/"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "label": "公司介绍",
-      "href": "/zh/company",
-      "columns": [
-        {
-          "heading": "公司概览",
+          "heading": "公司介绍",
           "intro": "了解 CHUNG YIP 与 BUZUD",
           "cards": [],
           "thumbnails": [],
@@ -347,6 +308,50 @@
             {
               "title": "质量与服务承诺",
               "href": "/zh/company#company-policy"
+            }
+          ]
+        },
+        {
+          "heading": "客户服务",
+          "intro": null,
+          "cards": [],
+          "thumbnails": [],
+          "links": [
+            {
+              "title": "客户服务总览",
+              "href": "/zh/customer-service/"
+            },
+            {
+              "title": "送货服务",
+              "href": "/zh/customer-service/services/delivery/"
+            },
+            {
+              "title": "售后服务",
+              "href": "/zh/customer-service/services/aftersales/"
+            },
+            {
+              "title": "尊享权益",
+              "href": "/zh/customer-service/services/privileges/"
+            }
+          ]
+        },
+        {
+          "heading": "预约体验",
+          "intro": null,
+          "cards": [],
+          "thumbnails": [],
+          "links": [
+            {
+              "title": "预约到店体验",
+              "href": "/zh/booking/"
+            },
+            {
+              "title": "保修注册",
+              "href": "/zh/customer-service/warranty-registration/"
+            },
+            {
+              "title": "查看门店",
+              "href": "/zh/customer-service/contact-us/#stores"
             }
           ]
         }

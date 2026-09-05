@@ -21,28 +21,14 @@
   ],
   "navMenuItems": [
     {
-      "label": "All products",
-      "href": "/zh/all-products",
-      "hasMegaMenu": true
+      "label": "Support",
+      "href": "/zh/customer-service/",
+      "menuPanelLabel": "Support"
     },
     {
-      "label": "About us",
-      "href": "/zh/company",
-      "menuPanelLabel": ""
-    },
-  {
-    "label": "Customer service",
-    "href": "/zh/customer-service/",
-    "menuPanelLabel": ""
-  },
-  {
-    "label": "Booking",
-    "href": "/en/booking/"
-  },
-  {
-    "label": "Contact us",
-    "href": "/zh/customer-service/contact-us/"
-  }
+      "label": "Contact us",
+      "href": "/zh/customer-service/contact-us/"
+    }
   ],
   "megaMenuCategories": [
     {
@@ -55,7 +41,10 @@
     },
     {
       "name": "Simple oxygen mask",
-      "subCategories": ["Simple Oxygen Mask (adult)", "Simple Oxygen Mask (child)"]
+      "subCategories": [
+        "Simple Oxygen Mask (adult)",
+        "Simple Oxygen Mask (child)"
+      ]
     },
     {
       "name": "Portable oxygen concentrator",
@@ -110,7 +99,10 @@
     },
     {
       "name": "Nasal oxygen tubes",
-      "subCategories": ["Nasal Oxygen Cannula (5m) ", "Nasal Oxygen Cannula (2m)"]
+      "subCategories": [
+        "Nasal Oxygen Cannula (5m) ",
+        "Nasal Oxygen Cannula (2m)"
+      ]
     },
     {
       "name": "Oxygen concentrators",
@@ -125,7 +117,10 @@
     },
     {
       "name": "High-flow nasal oxygen tube",
-      "subCategories": ["High-Flow Nasal Cannula NeoHiF-i5", "High-Flow Nasal Cannula NeoHiF-i7"]
+      "subCategories": [
+        "High-Flow Nasal Cannula NeoHiF-i5",
+        "High-Flow Nasal Cannula NeoHiF-i7"
+      ]
     },
     {
       "name": "Blood glucose test strips",
@@ -149,11 +144,16 @@
     },
     {
       "name": "Oxygen nebulization tubing and mouthpiece",
-      "subCategories": ["Oxygen Nebulizer Tubing and Mouthpiece"]
+      "subCategories": [
+        "Oxygen Nebulizer Tubing and Mouthpiece"
+      ]
     },
     {
       "name": "Transfer chairs",
-      "subCategories": ["BUZUD Manual Transfer Chair ", "Electric Transfer Wheelchair DY077602"]
+      "subCategories": [
+        "BUZUD Manual Transfer Chair ",
+        "Electric Transfer Wheelchair DY077602"
+      ]
     },
     {
       "name": "Uric acid test strips",
@@ -164,7 +164,9 @@
     },
     {
       "name": "Lipid test strips",
-      "subCategories": ["BUZUD Blood Lipid Test Strip PFS 30 (20 strips/box)"]
+      "subCategories": [
+        "BUZUD Blood Lipid Test Strip PFS 30 (20 strips/box)"
+      ]
     },
     {
       "name": "Blood analyzer",
@@ -194,11 +196,15 @@
     },
     {
       "name": "Alcohol swabs",
-      "subCategories": ["BUZUD Alcohol Swab"]
+      "subCategories": [
+        "BUZUD Alcohol Swab"
+      ]
     },
     {
       "name": "Respiratory care",
-      "subCategories": ["BUZUD Air-compressing Nebulizer 407A"]
+      "subCategories": [
+        "BUZUD Air-compressing Nebulizer 407A"
+      ]
     },
     {
       "name": "Hearing aids",
@@ -255,7 +261,9 @@
     },
     {
       "name": "Automated External Defibrillator (AED)",
-      "subCategories": ["Battery pack for BUZUD Automatic External Defibrillator 7000"]
+      "subCategories": [
+        "Battery pack for BUZUD Automatic External Defibrillator 7000"
+      ]
     },
     {
       "name": "Body composition scale",
@@ -384,30 +392,6 @@
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712582.png",
       "backgroundColor": "#fbe9de",
       "textColor": "#111111"
-    }
-  ],
-  "inspirationTipsCta": {
-    "label": "Load more content",
-    "href": "/zh/all-products/"
-  },
-  "serviceColumns": [
-    {
-      "title": "Customer service and health talks",
-      "description": "",
-      "ctaHref": "/zh/customer-service/",
-      "backgroundImage": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-service-aftersales.jpg"
-    },
-    {
-      "title": "Delivery service",
-      "description": "",
-      "ctaHref": "/zh/customer-service/services/delivery/",
-      "backgroundImage": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-service-delivery.jpg"
-    },
-    {
-      "title": "After-sales service and warranty",
-      "description": "",
-      "ctaHref": "/zh/customer-service/services/aftersales/",
-      "backgroundImage": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-service-privileges.jpg"
     }
   ],
   "rankingSections": [
@@ -662,7 +646,9 @@
         "title": "HCG Pregnancy Rapid Test",
         "desc": "Rapid test kits",
         "price": "SGD 4.80",
-        "tags": ["BUZUD"],
+        "tags": [
+          "BUZUD"
+        ],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710595.png"
       },
@@ -675,7 +661,9 @@
         "title": "LH Ovulation Rapid Test",
         "desc": "Rapid test kits",
         "price": "SGD 5.80",
-        "tags": ["BUZUD"],
+        "tags": [
+          "BUZUD"
+        ],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710618.png"
       },
@@ -688,7 +676,9 @@
         "title": "Vaginal pH Rapid Test Panel",
         "desc": "Rapid test kits",
         "price": "SGD 16.00",
-        "tags": ["BUZUD"],
+        "tags": [
+          "BUZUD"
+        ],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710649.png"
       },
@@ -701,7 +691,9 @@
         "title": "BUZUD Watch Vibrance",
         "desc": "Smart watches",
         "price": "SGD 237.00",
-        "tags": ["BUZUD"],
+        "tags": [
+          "BUZUD"
+        ],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712582.png"
       },
@@ -714,7 +706,9 @@
         "title": "BUZUD Pen Needles Plus Pro 32G 6mm ",
         "desc": "Insulin pen needles",
         "price": "SGD 26.00",
-        "tags": ["BUZUD"],
+        "tags": [
+          "BUZUD"
+        ],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711530-1.png"
       },
@@ -727,7 +721,9 @@
         "title": "BUZUD Fingertip Pulse Oximeter 70B",
         "desc": "Pulse oximeter",
         "price": "SGD 57.00",
-        "tags": ["BUZUD"],
+        "tags": [
+          "BUZUD"
+        ],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711479-1.png"
       },
@@ -740,7 +736,9 @@
         "title": "BUZUD Infrared Ear Thermometer BZD100",
         "desc": "Thermometers",
         "price": "SGD 87.00",
-        "tags": ["BUZUD"],
+        "tags": [
+          "BUZUD"
+        ],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711677-1.jpg"
       },
@@ -753,7 +751,9 @@
         "title": "BUZUD Home Body Composition Scale CF509",
         "desc": "Body composition scale",
         "price": "SGD 37.00",
-        "tags": ["BUZUD"],
+        "tags": [
+          "BUZUD"
+        ],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711448-1.jpg"
       },
@@ -766,7 +766,9 @@
         "title": "COVID-19/Flu A&B/RSV/Adeno Ag Combo Rapid Test Cassette (Swab) (1 test/box)",
         "desc": "Rapid test kits",
         "price": "SGD 17.00",
-        "tags": ["BUZUD"],
+        "tags": [
+          "BUZUD"
+        ],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712209.png"
       },
@@ -779,7 +781,9 @@
         "title": "H.pylori Antigen Rapid Test",
         "desc": "Rapid test kits",
         "price": "SGD 18.00",
-        "tags": ["BUZUD"],
+        "tags": [
+          "BUZUD"
+        ],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710588.png"
       },
@@ -792,7 +796,9 @@
         "title": "BUZUD Infrared Ear Thermometer BZD100",
         "desc": "Thermometers",
         "price": "SGD 87.00",
-        "tags": ["BUZUD"],
+        "tags": [
+          "BUZUD"
+        ],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711677.png"
       },
@@ -805,42 +811,14 @@
         "title": "BUZUD Home Body Composition Scale CF509",
         "desc": "Smart body weight scale",
         "price": "SGD 37.00",
-        "tags": ["BUZUD"],
+        "tags": [
+          "BUZUD"
+        ],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711448.png"
       }
     ]
   },
-  "assurances": [
-    {
-      "title": "Delivery service",
-      "description": "Local and overseas delivery available; contact a store or customer service to arrange.",
-      "ctaLabel": "Learn more",
-      "ctaHref": "/zh/customer-service/services/delivery/",
-      "icon": "truck"
-    },
-    {
-      "title": "After-sales service",
-      "description": "Repair and exchange services are available both within and beyond the warranty period, including on-site repair at stores.",
-      "ctaLabel": "Learn more",
-      "ctaHref": "/zh/customer-service/services/aftersales/",
-      "icon": "installation"
-    },
-    {
-      "title": "Warranty registration",
-      "description": "Register your product warranty on the official website to enjoy official warranty coverage.",
-      "ctaLabel": "Register now",
-      "ctaHref": "/zh/customer-service/warranty-registration/",
-      "icon": "design"
-    },
-    {
-      "title": "Exclusive benefits",
-      "description": "Health experience programs at our Singapore experience stores; appointments are welcome.",
-      "ctaLabel": "View benefits",
-      "ctaHref": "/zh/customer-service/services/privileges/",
-      "icon": "assembly"
-    }
-  ],
   "footerLinkGroups": [
     {
       "title": "Product categories",

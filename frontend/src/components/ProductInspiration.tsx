@@ -66,7 +66,7 @@ export function ProductInspiration({ title, tabs, products }: ProductInspiration
         <div className="flex justify-center">
           <button
             type="button"
-            className="i-btn i-btn--small i-btn--primary mt-4"
+            className="i-btn i-btn--small i-btn--secondary mt-8"
             onClick={loadMore}
           >
             <span className="i-btn__inner">

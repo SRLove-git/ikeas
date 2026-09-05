@@ -1,10 +1,10 @@
 "use client"
 
 import Link from "next/link"
-import { useEffect, useState } from "react"
+import { useEffect, useMemo, useState } from "react"
 import { useTranslation } from "react-i18next"
 import { CartIcon, HeartIcon, SearchIcon, UserIcon } from "@/components/icons"
-import { MegaMenu } from "@/components/MegaMenu"
+import { MegaMenu, toPath, type CategoryGroup } from "@/components/MegaMenu"
 import { MenuPanel } from "@/components/MenuPanel"
 import { SearchPanel } from "@/components/SearchPanel"
 import { LanguageSwitch } from "@/i18n/LanguageSwitch"
@@ -24,7 +24,6 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
   const { t } = useTranslation()
   const [openMenu, setOpenMenu] = useState<string | null>(null)
   const [openPanel, setOpenPanel] = useState<string | null>(null)
-  const [hintIndex, setHintIndex] = useState(0)
   const [bar, setBar] = useState({ width: 0, left: 0, opacity: 0 })
   const [query, setQuery] = useState("")
   const [searchOpen, setSearchOpen] = useState(false)
@@ -33,13 +32,19 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
   const [cartCount, setCartCount] = useState(0)
   const { user } = useAuth()
 
-  useEffect(() => {
-    if (searchHints.length < 2) return
-    const id = window.setInterval(() => {
-      setHintIndex((current) => (current + 1) % searchHints.length)
-    }, 3000)
-    return () => window.clearInterval(id)
-  }, [searchHints.length])
+  const groups: CategoryGroup[] = useMemo(() => {
+    const result: CategoryGroup[] = []
+    for (const category of categories) {
+      const name = category.group?.trim() || t("header.groupOther")
+      const group = result.find((candidate) => candidate.name === name)
+      if (group) {
+        group.categories.push(category)
+      } else {
+        result.push({ name, categories: [category] })
+      }
+    }
+    return result
+  }, [categories, t])
 
   useEffect(() => {
     let cancelled = false
@@ -87,9 +92,17 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
   const hideActiveBar = () => setBar((prev) => ({ ...prev, opacity: 0 }))
 
   const activePanel = menuPanels.find((panel) => panel.label === openPanel)
+  const activeGroup = groups.find((group) => group.name === openMenu)
   const closeMenu = () => {
     setOpenMenu(null)
     setOpenPanel(null)
+  }
+  const openGroupMenu = (name: string, li: HTMLLIElement | null) => {
+    closeSearch()
+    setMoreOpen(false)
+    setOpenMenu(name)
+    setOpenPanel(null)
+    if (li) moveActiveBar(li)
   }
   const activateNavItem = (
     item: HeaderProps["menuItems"][number],
@@ -98,8 +111,14 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
     const panel = menuPanels.find((p) => p.label === (item.menuPanelLabel ?? item.label))
     closeSearch()
     setMoreOpen(false)
-    setOpenMenu(item.hasMegaMenu ? item.label : null)
+    setOpenMenu(null)
     setOpenPanel(panel ? panel.label : null)
+    if (li) moveActiveBar(li)
+  }
+  const closeAllMenus = (li: HTMLLIElement | null) => {
+    closeSearch()
+    setMoreOpen(false)
+    closeMenu()
     if (li) moveActiveBar(li)
   }
   const openSearch = () => {
@@ -117,6 +136,16 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
     }
     setSearchOpen(false)
   }
+
+  const productsEntry = { label: t("header.allProducts"), href: "/zh/all-products/" }
+  const moreEntries = [
+    productsEntry,
+    ...groups.map((group) => ({
+      label: group.name,
+      href: toPath(group.categories[0]?.url ?? "/zh/all-products/"),
+    })),
+    ...menuItems.map((item) => ({ label: item.label, href: item.href })),
+  ]
 
   return (
     <div className="i-layout__header i-layout__header--sticky">
@@ -152,6 +181,35 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
                           opacity: bar.opacity,
                         }}
                       />
+                      <li onMouseEnter={(event) => closeAllMenus(event.currentTarget)}>
+                        <Link
+                          href={productsEntry.href}
+                          className="menu-label"
+                          onFocus={(event) => closeAllMenus(event.currentTarget.closest("li"))}
+                        >
+                          {productsEntry.label}
+                        </Link>
+                      </li>
+                      {groups.map((group) => (
+                        <li
+                          key={`group-${group.name}`}
+                          onMouseEnter={(event) => openGroupMenu(group.name, event.currentTarget)}
+                        >                          <Link
+                            href={toPath(group.categories[0]?.url ?? "/zh/all-products/")}
+                            className="menu-label"
+                            onFocus={(event) =>
+                              openGroupMenu(group.name, event.currentTarget.closest("li"))
+                            }
+                            onClick={(event) => {
+                              // 分组本身没有落地页，点击展开下拉而不是跳到首个分类
+                              event.preventDefault()
+                              openGroupMenu(group.name, event.currentTarget.closest("li"))
+                            }}
+                          >
+                            {group.name}
+                          </Link>
+                        </li>
+                      ))}
                       {menuItems.map((item) => (
                         <li
                           key={item.label}
@@ -161,19 +219,12 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
                             href={item.href}
                             className="menu-label"
                             onFocus={(event) => activateNavItem(item, event.currentTarget.closest("li"))}
-                            onClick={(event) => {
-                              if (!item.hasMegaMenu) return
-                              // 悬停已展开同一个 Mega 菜单，点击不再跳转到另一个商品列表页
-                              event.preventDefault()
-                              activateNavItem(item, event.currentTarget.closest("li"))
-                            }}
                           >
                             {item.label}
                           </Link>
-                          {item.hasMegaMenu ? <span className="new_feature_mark" /> : null}
                         </li>
                       ))}
-                      {menuItems.length > 1 ? (
+                      {moreEntries.length > 1 ? (
                         <li
                           className="header-nav-more"
                           onMouseEnter={(event) => {
@@ -209,14 +260,14 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
                           </button>
                           {moreOpen ? (
                             <ul className="header-nav-more-dropdown">
-                              {menuItems.slice(1).map((item) => (
-                                <li key={item.label}>
+                              {moreEntries.slice(1).map((entry) => (
+                                <li key={entry.label}>
                                   <Link
-                                    href={item.href}
+                                    href={entry.href}
                                     className="header-nav-more-link"
                                     onClick={() => setMoreOpen(false)}
                                   >
-                                    {item.label}
+                                    {entry.label}
                                   </Link>
                                 </li>
                               ))}
@@ -226,46 +277,18 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
                       ) : null}
                     </ul>
                   </nav>
-                  <div className="search-bar-container">
-                    <form
-                      className="s-header"
-                      role="search"
-                      onSubmit={(event) => {
-                        event.preventDefault()
-                        submitSearch(query)
-                      }}
-                    >
-                      <input
-                        className="s-input"
-                        type="text"
-                        aria-label="search"
-                        placeholder=""
-                        value={query}
-                        onChange={(event) => setQuery(event.target.value)}
-                        onFocus={openSearch}
-                        onClick={openSearch}
-                      />
-                      <span className="search-icon">
-                        <SearchIcon width={24} height={24} />
-                      </span>
-                      <div className="s-header-notice">
-                        <div className="i-notice">
-                          <div
-                            className="i-notice-hints"
-                            style={{ transform: `translateY(-${hintIndex * 30}px)` }}
-                          >
-                            {searchHints.map((hint) => (
-                              <p key={hint}>{hint}</p>
-                            ))}
-                          </div>
-                        </div>
-                      </div>
-                    </form>
-                  </div>
                   <div className="header_container_right">
                     <div className="header_container_right_img header-right-cluster">
                       <LanguageSwitch className="header-lang-switch" />
                       <span className="header-right-divider hidden md:block" aria-hidden="true" />
+                      <button
+                        type="button"
+                        className="header-action-btn header-action-btn--compact"
+                        onClick={openSearch}
+                        aria-label={t("search.aria")}
+                      >
+                        <SearchIcon width={24} height={24} />
+                      </button>
                       <span className="i-tooltip i-tooltip--bottom">
                         <span className="i-tooltip__custom-trigger-wrapper">
                           <Link
@@ -301,14 +324,14 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
                               <span className="flex h-6 w-6 items-center justify-center rounded-full bg-ikea-blue text-xs font-bold text-white">
                                 {user.name.slice(-1)}
                               </span>
-                              <span className="header-user-text hidden md:inline">
+                              <span className="header-user-text hidden">
                                 {user.name}
                               </span>
                             </Link>
                           ) : (
                             <Link href="/zh/profile/login/" className="header-action-btn">
                               <UserIcon width={24} height={24} />
-                              <span className="header-user-text hidden md:inline">
+                              <span className="header-user-text hidden">
                                 {t("header.login")}
                               </span>
                             </Link>
@@ -355,6 +378,26 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
               {mobileMenuOpen ? (
                 <div className="border-t border-ikea-gray-200 bg-white px-5 py-3 lg:hidden">
                   <ul className="space-y-1">
+                    <li>
+                      <Link
+                        href={productsEntry.href}
+                        onClick={() => setMobileMenuOpen(false)}
+                        className="block py-2.5 text-sm font-bold text-ikea-black"
+                      >
+                        {productsEntry.label}
+                      </Link>
+                    </li>
+                    {groups.map((group) => (
+                      <li key={`m-group-${group.name}`}>
+                        <Link
+                          href={toPath(group.categories[0]?.url ?? "/zh/all-products/")}
+                          onClick={() => setMobileMenuOpen(false)}
+                          className="block py-2.5 text-sm font-bold text-ikea-black"
+                        >
+                          {group.name}
+                        </Link>
+                      </li>
+                    ))}
                     {menuItems.map((item) => (
                       <li key={item.label}>
                         <Link
@@ -395,9 +438,9 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
               />
             </div>
           ) : null}
-          {openMenu ? (
+          {activeGroup ? (
             <div className="mega-menu-layer" onMouseLeave={() => setOpenMenu(null)}>
-              <MegaMenu categories={categories} />
+              <MegaMenu group={activeGroup} />
             </div>
           ) : null}
           {activePanel ? (

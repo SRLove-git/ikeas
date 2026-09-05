@@ -5,8 +5,6 @@ import { Header } from "@/components/Header"
 import { HeroVideo } from "@/components/HeroVideo"
 import { InspirationTipsCard } from "@/components/InspirationTipsCard"
 import { PromoInspirationCard } from "@/components/PromoInspirationCard"
-import { ServiceColumns } from "@/components/ServiceColumns"
-import { ServicesSection } from "@/components/ServicesSection"
 import { VisualPillSlider } from "@/components/VisualPillSlider"
 import { homepage } from "@/data/homepage"
 import { catalogData } from "@/data/catalog"
@@ -19,11 +17,9 @@ export default async function Home() {
   const locale = await getLocale()
   const t = await getServerT(locale)
   const {
-    assurances,
     footerFeaturedCards,
     footerLinkGroups,
     heroVideos,
-    inspirationTipsCta,
     inspirationTipsItems,
     legalBar,
     navMenuItems,
@@ -31,7 +27,6 @@ export default async function Home() {
     roomPillCta,
     roomPillItems,
     searchHints,
-    serviceColumns,
     socialIcons,
     sustainabilityPillCta,
     sustainabilityPillItems,
@@ -70,7 +65,6 @@ export default async function Home() {
             <HeroVideo items={heroVideos} />
             <div className="clearfix min-h-screen px-0 m-auto mb-8 space-y-8 text-left lg:mb-12 lg:space-y-12 max-w-page">
               <PromoInspirationCard title={t("home.promoTitle")} items={promoItems} />
-              <ServiceColumns columns={serviceColumns} />
               <VisualPillSlider
                 title={t("home.shopByCategory")}
                 items={roomPillItems}
@@ -79,14 +73,12 @@ export default async function Home() {
               <InspirationTipsCard
                 title={t("home.healthyTips")}
                 items={inspirationTipsItems}
-                cta={inspirationTipsCta}
               />
               <VisualPillSlider
                 title={t("home.healthyLiving")}
                 items={sustainabilityPillItems}
                 cta={sustainabilityPillCta}
               />
-              <ServicesSection assurances={assurances} />
             </div>
           </div>
           <Footer

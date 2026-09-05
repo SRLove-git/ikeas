@@ -284,50 +284,11 @@
       ]
     },
     {
-      "label": "Customer service",
+      "label": "Support",
       "href": "/zh/customer-service/",
       "columns": [
         {
-          "heading": null,
-          "intro": "Full support before and after purchase",
-          "cards": [
-            {
-              "title": "Customer service overview",
-              "href": "/zh/customer-service/",
-              "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712582.png"
-            },
-            {
-              "title": "Delivery service",
-              "href": "/zh/customer-service/services/delivery/",
-              "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-service-delivery.jpg"
-            },
-            {
-              "title": "After-sales service",
-              "href": "/zh/customer-service/services/aftersales/",
-              "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-service-aftersales.jpg"
-            },
-            {
-              "title": "Exclusive benefits",
-              "href": "/zh/customer-service/services/privileges/",
-              "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-service-privileges.jpg"
-            }
-          ],
-          "thumbnails": [],
-          "links": [
-            {
-              "title": "Contact us",
-              "href": "/zh/customer-service/contact-us/"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "label": "About us",
-      "href": "/zh/company",
-      "columns": [
-        {
-          "heading": "Company overview",
+          "heading": "About us",
           "intro": "Learn about CHUNG YIP and BUZUD",
           "cards": [],
           "thumbnails": [],
@@ -347,6 +308,50 @@
             {
               "title": "Quality and service commitment",
               "href": "/zh/company#company-policy"
+            }
+          ]
+        },
+        {
+          "heading": "Customer service",
+          "intro": null,
+          "cards": [],
+          "thumbnails": [],
+          "links": [
+            {
+              "title": "Customer service overview",
+              "href": "/zh/customer-service/"
+            },
+            {
+              "title": "Delivery service",
+              "href": "/zh/customer-service/services/delivery/"
+            },
+            {
+              "title": "After-sales service",
+              "href": "/zh/customer-service/services/aftersales/"
+            },
+            {
+              "title": "Privileges",
+              "href": "/zh/customer-service/services/privileges/"
+            }
+          ]
+        },
+        {
+          "heading": "Book a visit",
+          "intro": null,
+          "cards": [],
+          "thumbnails": [],
+          "links": [
+            {
+              "title": "Book an in-store experience",
+              "href": "/zh/booking/"
+            },
+            {
+              "title": "Warranty registration",
+              "href": "/zh/customer-service/warranty-registration/"
+            },
+            {
+              "title": "Store locations",
+              "href": "/zh/customer-service/contact-us/#stores"
             }
           ]
         }

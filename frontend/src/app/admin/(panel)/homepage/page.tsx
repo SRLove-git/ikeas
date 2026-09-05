@@ -52,14 +52,12 @@ function buildConfigs(t: (key: string) => string) {
     },
     { key: "promoCardItems", label: t("admin.homepage.section.promo"), description: t("admin.homepage.section.promoDesc") },
     { key: "inspirationTipsItems", label: t("admin.homepage.section.inspirationTips"), description: t("admin.homepage.section.inspirationTipsDesc") },
-    { key: "serviceColumns", label: t("admin.homepage.section.serviceColumns"), description: t("admin.homepage.section.serviceColumnsDesc") },
     { key: "rankingSections", label: t("admin.homepage.section.rankings"), description: t("admin.homepage.section.rankingsDesc") },
     { key: "roomPillItems", label: t("admin.homepage.section.roomPills"), description: t("admin.homepage.section.roomPillsDesc") },
     { key: "roomPillCta", label: t("admin.homepage.section.roomPillCta"), description: t("admin.homepage.section.roomPillCtaDesc") },
     { key: "sustainabilityPillItems", label: t("admin.homepage.section.sustainPills"), description: t("admin.homepage.section.sustainPillsDesc") },
     { key: "sustainabilityPillCta", label: t("admin.homepage.section.sustainCta"), description: t("admin.homepage.section.sustainCtaDesc") },
     { key: "feedProducts", label: t("admin.homepage.section.feed"), description: t("admin.homepage.section.feedDesc") },
-    { key: "assurances", label: t("admin.homepage.section.assurances"), description: t("admin.homepage.section.assurancesDesc") },
     { key: "footerLinkGroups", label: t("admin.homepage.section.footerLinks"), description: t("admin.homepage.section.footerLinksDesc") },
     { key: "footerFeaturedCards", label: t("admin.homepage.section.footerCards"), description: t("admin.homepage.section.footerCardsDesc") },
     { key: "socialIcons", label: t("admin.homepage.section.socialIcons"), description: t("admin.homepage.section.socialIconsDesc") },
@@ -214,19 +212,6 @@ function buildConfigs(t: (key: string) => string) {
         ],
       },
     },
-    serviceColumns: {
-      kind: "objects",
-      labelKey: "title",
-      schema: {
-        fields: [
-          { key: "title", label: t("admin.homepage.field.title"), kind: { type: "text" } },
-          { key: "description", label: t("admin.homepage.field.description"), kind: { type: "textarea" } },
-          { key: "backgroundImage", label: t("admin.homepage.field.backgroundImage"), kind: { type: "text" } },
-          { key: "ctaLabel", label: t("admin.homepage.field.ctaLabel"), kind: { type: "text" } },
-          { key: "ctaHref", label: t("admin.homepage.field.ctaHref"), kind: { type: "text" } },
-        ],
-      },
-    },
     rankingSections: {
       kind: "objects",
       labelKey: "name",
@@ -252,31 +237,6 @@ function buildConfigs(t: (key: string) => string) {
     },
     sustainabilityPillCta: { kind: "object", schema: PILL_CTA_SCHEMA },
     feedProducts: { kind: "feed" },
-    assurances: {
-      kind: "objects",
-      labelKey: "title",
-      schema: {
-        fields: [
-          {
-            key: "icon",
-            label: t("admin.homepage.field.icon"),
-            kind: {
-              type: "select",
-              options: [
-                { value: "truck", label: t("admin.homepage.field.iconTruck") },
-                { value: "assembly", label: t("admin.homepage.field.iconAssembly") },
-                { value: "design", label: t("admin.homepage.field.iconDesign") },
-                { value: "installation", label: t("admin.homepage.field.iconInstallation") },
-              ],
-            },
-          },
-          { key: "title", label: t("admin.homepage.field.title"), kind: { type: "text" } },
-          { key: "description", label: t("admin.homepage.field.description"), kind: { type: "textarea" } },
-          { key: "ctaLabel", label: t("admin.homepage.field.ctaLabel"), kind: { type: "text" } },
-          { key: "ctaHref", label: t("admin.homepage.field.ctaHref"), kind: { type: "text" } },
-        ],
-      },
-    },
     footerLinkGroups: {
       kind: "objects",
       labelKey: "title",

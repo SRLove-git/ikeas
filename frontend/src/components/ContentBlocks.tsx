@@ -221,7 +221,7 @@ function ImageBlock({ block }: { block: ContentBlock }) {
   const image = block.images[0] ?? null
   const caption = block.texts.find((t) => t.length < 120) ?? block.title
   return (
-    <figure className="overflow-hidden bg-ikea-gray-100">
+    <figure className="overflow-hidden rounded-lg bg-ikea-gray-100">
       {image ? <SiteImage src={image} alt={caption ?? ""} className="aspect-[4/3] w-full" /> : null}
       {caption ? (
         <figcaption className="px-4 py-3 text-xs text-ikea-muted">{caption}</figcaption>
@@ -403,7 +403,7 @@ function GalleryBlock({ block, index = 0 }: { block: ContentBlock; index?: numbe
   return (
     <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
       {paired.map((item, i) => (
-        <div key={i} className="group overflow-hidden bg-ikea-gray-100">
+        <div key={i} className="group overflow-hidden rounded-lg bg-ikea-gray-100">
           {item.image ? (
             <SiteImage
               src={item.image}
@@ -430,7 +430,7 @@ function ProductGridBlock({ block }: { block: ContentBlock }) {
       <div className="grid grid-cols-2 gap-x-4 gap-y-8 md:grid-cols-3 lg:grid-cols-4">
         {items.map((item, i) => (
           <BlockLink key={i} href={item.href ?? "#"} className="group">
-            <div className="overflow-hidden bg-ikea-gray-100">
+            <div className="overflow-hidden rounded-lg bg-ikea-gray-100">
               {item.image ? (
                 <SiteImage
                   src={item.image}
@@ -507,7 +507,7 @@ function PageListBlock({ block }: { block: ContentBlock }) {
       <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
         {items.map((item, i) => (
           <BlockLink key={i} href={item.href ?? "#"} className="group block">
-            <div className="overflow-hidden bg-ikea-gray-100">
+            <div className="overflow-hidden rounded-lg bg-ikea-gray-100">
               <SiteImage
                 src={item.image}
                 alt={item.title}
@@ -539,7 +539,7 @@ function PageListBlock({ block }: { block: ContentBlock }) {
         <BlockLink
           key={i}
           href={item.href ?? "#"}
-          className="group flex items-center gap-4 border border-ikea-gray-200 p-4 hover:border-ikea-black"
+          className="group flex items-center gap-4 rounded-lg border border-ikea-gray-200 p-4 hover:border-ikea-black"
         >
           {item.image ? (
             <SiteImage
@@ -570,7 +570,7 @@ function VideoLinkBlock({ block }: { block: ContentBlock }) {
   return (
     <BlockLink
       href={link?.href ?? "#"}
-      className="group relative block overflow-hidden bg-ikea-gray-100"
+      className="group relative block overflow-hidden rounded-lg bg-ikea-gray-100"
     >
       {image ? <SiteImage src={image} alt={text ?? ""} className="aspect-video w-full" /> : null}
       <div className="absolute inset-0 flex items-center justify-center">
@@ -672,7 +672,7 @@ function RankingBlock({ block }: { block: ContentBlock }) {
         {["#1", "#2", "#3", "#4", "#5"].map((rank, i) => (
           <div
             key={rank}
-            className="flex aspect-square flex-col items-center justify-center text-white"
+            className="flex aspect-square flex-col items-center justify-center rounded-lg text-white"
             style={{ backgroundColor: ["#5AA58A", "#5097BF", "#D4973B", "#A36C9F", "#B84A4A"][i] }}
           >
             <span className="text-2xl font-bold">{rank}</span>
@@ -692,7 +692,7 @@ function ImageWithTextBoxBlock({ block }: { block: ContentBlock }) {
   return (
     <BlockLink href={link ?? "#"} className="group relative block">
       <SiteImage src={image} alt={title ?? ""} className="aspect-[16/9] w-full" />
-      <div className="absolute bottom-0 left-0 m-5 max-w-xs bg-white p-4 shadow-md">
+      <div className="absolute bottom-0 left-0 m-5 max-w-xs rounded-lg bg-white p-4 shadow-md">
         {title ? <h3 className="text-base font-bold group-hover:underline">{title}</h3> : null}
         {item?.text || block.texts[0] ? (
           <p className="mt-1 text-xs leading-5 text-ikea-muted">{item?.text || block.texts[0]}</p>
@@ -711,7 +711,7 @@ function InspirationCardBlock({ block }: { block: ContentBlock }) {
       <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
         {items.map((item, i) => (
           <BlockLink key={i} href={item.href ?? "#"} className="group">
-            <div className="overflow-hidden bg-ikea-gray-100">
+            <div className="overflow-hidden rounded-lg bg-ikea-gray-100">
               {item.image ? (
                 <SiteImage
                   src={item.image}
@@ -826,7 +826,7 @@ function PlannerBlock({ block }: { block: ContentBlock }) {
   const { t } = useTranslation()
   const link = block.links[0]
   return (
-    <section className="flex flex-col items-center gap-4 border border-ikea-gray-200 bg-ikea-gray-100 px-6 py-14 text-center">
+    <section className="flex flex-col items-center gap-4 rounded-lg border border-ikea-gray-200 bg-ikea-gray-100 px-6 py-14 text-center">
       <h2 className="text-xl font-bold">{block.title ?? t("content.planningTool")}</h2>
       {block.texts[0] ? <p className="max-w-xl text-sm text-ikea-muted">{block.texts[0]}</p> : null}
       {link?.href ? (
@@ -1107,7 +1107,7 @@ function CorporateTeamBlock({ block }: { block: ContentBlock }) {
           const href = typeof item.href === "string" && item.href ? item.href : null
           const card = (
             <div className="group">
-              <div className="relative aspect-[4/5] overflow-hidden bg-ikea-gray-100">
+              <div className="relative aspect-[4/5] overflow-hidden rounded-lg bg-ikea-gray-100">
                 {image ? (
                   <SiteImage
                     src={image}
@@ -1288,7 +1288,7 @@ function ContactChannelsBlock({ block }: { block: ContentBlock }) {
             return (
               <div
                 key={i}
-                className="flex h-full flex-col border border-ikea-gray-200 bg-white p-6"
+                className="flex h-full flex-col rounded-lg border border-ikea-gray-200 bg-white p-6"
               >
                 <span className="flex h-12 w-12 items-center justify-center rounded-full bg-ikea-blue/10 text-ikea-blue">
                   <ContactIcon name={item.icon} />
@@ -1325,7 +1325,7 @@ function ContactChannelsBlock({ block }: { block: ContentBlock }) {
             return (
               <div
                 key={i}
-                className="flex h-full flex-col border border-ikea-gray-200 bg-white p-6"
+                className="flex h-full flex-col rounded-lg border border-ikea-gray-200 bg-white p-6"
               >
                 <span className="flex h-12 w-12 items-center justify-center rounded-full bg-ikea-blue/10 text-ikea-blue">
                   <ContactIcon name={item.icon} />
@@ -1362,7 +1362,7 @@ function ContactChannelsBlock({ block }: { block: ContentBlock }) {
             <BlockLink
               key={i}
               href={href}
-              className="group flex h-full flex-col border border-ikea-gray-200 bg-white p-6 transition-colors hover:border-ikea-blue hover:shadow-md"
+              className="group flex h-full flex-col rounded-lg border border-ikea-gray-200 bg-white p-6 transition-colors hover:border-ikea-blue hover:shadow-md"
             >
               <span className="flex h-12 w-12 items-center justify-center rounded-full bg-ikea-blue/10 text-ikea-blue">
                 <ContactIcon name={item.icon} />

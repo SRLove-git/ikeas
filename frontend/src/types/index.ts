@@ -29,14 +29,6 @@ export interface PromoTile {
   href?: string
 }
 
-export interface ServiceColumnCard {
-  title: string
-  description: string
-  ctaLabel?: string
-  ctaHref?: string
-  backgroundImage?: string
-}
-
 export interface FeedProduct {
   productId?: string
   left: string
@@ -95,14 +87,6 @@ export interface ProductCard {
   tag?: string
   tagType?: ProductTagType
   href?: string
-}
-
-export interface AssuranceItem {
-  icon: "truck" | "assembly" | "design" | "installation"
-  title: string
-  description: string
-  ctaLabel: string
-  ctaHref?: string
 }
 
 export interface FooterLinkGroup {

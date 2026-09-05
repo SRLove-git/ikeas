@@ -7,6 +7,9 @@ const nextConfig: NextConfig = {
   /* config options here */
   output: "standalone",
   trailingSlash: true,
+  // Allow accessing the dev server via 127.0.0.1 as well as localhost; Next
+  // otherwise blocks the JS chunks, leaving pages without hydration.
+  allowedDevOrigins: ["127.0.0.1", "localhost"],
   // Include the CMS content database in the standalone output so the server
   // can read (and the admin panel can edit) it at runtime.
   outputFileTracingIncludes: {

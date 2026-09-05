@@ -52,7 +52,7 @@ export function CorporatePicText({
 
   return (
     <div className="grid items-stretch gap-8 lg:grid-cols-2 lg:gap-12">
-      <div className="overflow-hidden bg-ikea-gray-100">
+      <div className="overflow-hidden rounded-lg bg-ikea-gray-100">
         <SiteImage
           src={image}
           alt={title}

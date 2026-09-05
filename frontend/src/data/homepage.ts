@@ -3,13 +3,11 @@
 // immediately (no rebuild or restart needed).
 
 import type {
-  AssuranceItem,
   FooterLinkGroup,
   HeroVideo,
   PillSliderItem,
   PromoTile,
   RankingCategory,
-  ServiceColumnCard,
 } from "@/types"
 import { loadLocalizedData } from "@/lib/data-files"
 import { DEFAULT_LOCALE, type Locale } from "@/i18n/config"
@@ -45,15 +43,12 @@ export interface HomepageData {
   heroVideos: HeroVideo[]
   promoCardItems: PromoTile[]
   inspirationTipsItems: PromoTile[]
-  inspirationTipsCta?: { label: string; href: string }
-  serviceColumns: ServiceColumnCard[]
   rankingSections: RankingCategory[]
   roomPillItems: PillSliderItem[]
   roomPillCta: { label: string; href: string; color: string; textColor: string }
   sustainabilityPillItems: PillSliderItem[]
   sustainabilityPillCta: { label: string; href: string; color: string; textColor: string }
   feedProducts: Record<string, FeedProduct[]>
-  assurances: AssuranceItem[]
   footerLinkGroups: FooterLinkGroup[]
   footerFeaturedCards: { title: string; description: string; ctaLabel: string; href: string }[]
   socialIcons: { name: string; src: string }[]

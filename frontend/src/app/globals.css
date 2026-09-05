@@ -8,8 +8,8 @@
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans:
-    "Noto IKEA Latin", "Noto Ikea SC", "Noto Sans SC", "Noto Sans", Roboto, "Open Sans", system-ui,
-    sans-serif;
+    var(--font-ikea-latin), var(--font-ikea-sc), "Noto Sans SC", "Noto Sans", system-ui,
+    -apple-system, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
   --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, monospace;
   --font-heading: var(--font-sans);
   --color-ikea-yellow: #ffdb00;
@@ -51,13 +51,15 @@
   --color-popover: var(--popover);
   --color-card-foreground: var(--card-foreground);
   --color-card: var(--card);
-  --radius-sm: calc(var(--radius) * 0.6);
-  --radius-md: calc(var(--radius) * 0.8);
-  --radius-lg: var(--radius);
-  --radius-xl: calc(var(--radius) * 1.4);
-  --radius-2xl: calc(var(--radius) * 1.8);
-  --radius-3xl: calc(var(--radius) * 2.2);
-  --radius-4xl: calc(var(--radius) * 2.6);
+  --radius-xs: 0.125rem;
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-2xl: 1.25rem;
+  --radius-3xl: 1.5rem;
+  --radius-4xl: 1.75rem;
+  --radius-pill: 9999px;
 }
 
 :root {
@@ -84,7 +86,7 @@
   --chart-3: #cc0008;
   --chart-4: #ca5008;
   --chart-5: #f5deb3;
-  --radius: 0.625rem;
+  --radius: 0.75rem;
   --sidebar: #ffffff;
   --sidebar-foreground: #111111;
   --sidebar-primary: #0058a3;
@@ -182,15 +184,7 @@
   }
 
   .font-ikea {
-    font-family:
-      "Noto IKEA Latin",
-      "Noto Ikea SC",
-      "Noto Sans SC",
-      "Noto Sans",
-      Roboto,
-      "Open Sans",
-      -apple-system,
-      sans-serif;
+    font-family: var(--font-sans);
   }
 
   .i-pill {
@@ -198,7 +192,7 @@
     align-items: center;
     justify-content: center;
     white-space: nowrap;
-    border-radius: 9999px;
+    border-radius: var(--radius-pill);
     font-weight: 700;
     transition:
       background-color 0.2s ease,
@@ -226,7 +220,7 @@
     align-items: center;
     justify-content: center;
     gap: 8px;
-    border-radius: 64px;
+    border-radius: var(--radius-pill);
     font-weight: 700;
     line-height: 1;
     transition: background-color 0.2s ease;
@@ -356,7 +350,7 @@
 .header-action-btn {
   align-items: center;
   background: #ffffff;
-  border-radius: 24px;
+  border-radius: var(--radius-pill);
   display: flex;
   height: 48px;
   justify-content: center;
@@ -440,7 +434,7 @@
   align-items: center;
   background: #f5f5f5;
   border: none;
-  border-radius: 64px;
+  border-radius: var(--radius-pill);
   color: #111111;
   display: flex;
   font-size: 18px;
@@ -482,6 +476,7 @@
   align-items: center;
   align-self: stretch;
   margin-left: 32px;
+  margin-right: auto;
 }
 
 .header-nav .header_container_center_ul {
@@ -520,7 +515,7 @@
 }
 
 .header-nav .header_container_center_ul > li + li {
-  margin-left: 28px;
+  margin-left: 22px;
 }
 
 .header-nav .header_container_center_ul > li > .menu-label {
@@ -562,7 +557,7 @@
 .header-nav-more-dropdown {
   background: #ffffff;
   border: 1px solid #dfdfdf;
-  border-radius: 8px;
+  border-radius: var(--radius-md);
   box-shadow: 0 8px 24px rgba(17, 17, 17, 0.12);
   left: 0;
   list-style: none;
@@ -575,7 +570,7 @@
 }
 
 .header-nav-more-link {
-  border-radius: 6px;
+  border-radius: var(--radius-md);
   color: #111111;
   display: block;
   font-size: 14px;
@@ -625,6 +620,14 @@
   color: #484848;
   font-size: 12px;
   white-space: nowrap;
+}
+
+/* 1024–1366px: tighten header padding so all nav entries still fit;
+   below 1280px the overflow folds into "更多". */
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .nav-header .nav-header_container .header_container_top {
+    padding: 0 24px;
+  }
 }
 
 /* 1024–1279px: keep the first nav entry inline, fold the rest into "更多" */
@@ -782,7 +785,7 @@
 
 .mega-menu-3col__product {
   align-items: center;
-  border-radius: 4px;
+  border-radius: var(--radius-lg);
   color: #111111;
   display: flex;
   padding: 10px 8px;
@@ -815,3 +818,128 @@
   line-height: 21px;
 }
 
+
+/* ---------------------------------------------------------------------------
+ * Apple-style dropdown entrance: subtle slide-down + fade on the panel,
+ * with content items staggering in (respects reduced-motion).
+ * ------------------------------------------------------------------------- */
+.mega-menu-layer .header_container_bottom {
+  animation: menu-panel-enter 0.28s cubic-bezier(0.2, 0, 0, 1) both;
+  transform-origin: top center;
+}
+
+.menu-panel-apple h3,
+.menu-panel-apple p,
+.menu-panel-apple li,
+.menu-panel-apple .group {
+  animation: menu-panel-item-enter 0.32s cubic-bezier(0.2, 0, 0, 1) both;
+}
+
+.menu-panel-apple li:nth-child(1) {
+  animation-delay: 40ms;
+}
+
+.menu-panel-apple li:nth-child(2) {
+  animation-delay: 70ms;
+}
+
+.menu-panel-apple li:nth-child(3) {
+  animation-delay: 100ms;
+}
+
+.menu-panel-apple li:nth-child(4) {
+  animation-delay: 130ms;
+}
+
+.menu-panel-apple li:nth-child(n + 5) {
+  animation-delay: 160ms;
+}
+
+@keyframes menu-panel-enter {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes menu-panel-item-enter {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mega-menu-layer .header_container_bottom,
+  .menu-panel-apple h3,
+  .menu-panel-apple p,
+  .menu-panel-apple li,
+  .menu-panel-apple .group {
+    animation: none;
+  }
+}
+
+/* ---------------------------------------------------------------------------
+ * Samsung-offer inspired polish:
+ * - Promo cards ("CHUNG YIP 精选"): light rounded product tile with plain
+ *   dark text below, replacing the saturated colour blocks and arrow button.
+ * - Services section: soft blue rounded icon tiles like Samsung's 官方直购.
+ * ------------------------------------------------------------------------- */
+.promo-card-samsung .pub-inspiration-card__desc .desc-title h3 {
+  color: #111111;
+}
+
+.promo-card-samsung .pub-inspiration-card__desc .desc-title p {
+  color: #484848;
+}
+
+/* Stacked inspiration cards (健康贴士): the tinted tile and its solid desc
+ * block form a single card — round the whole card so the seam between them
+ * stays a clean straight line. Promo cards (transparent desc, standalone
+ * tile) keep the rounded tile instead. */
+.pub-inspiration-card.is-standard:not(.promo-card-samsung) .pub-inspiration-card__link {
+  overflow: hidden;
+  border-radius: var(--radius-lg);
+}
+
+.pub-inspiration-card.is-standard:not(.promo-card-samsung) .i-tile-media {
+  border-radius: 0;
+}
+
+/* Pill-slider CTA tile and hover veil follow the same radius as the tiles. */
+.pub-visual-pill-slider .visualpillslider-color {
+  border-radius: var(--radius-lg);
+}
+
+.pub-visual-pill-slider .visualpillslider-li:hover .visualpillslider-item-image::before {
+  border-radius: var(--radius-lg);
+}
+
+.services-section .pub-assurances-item__icon {
+  align-items: center;
+  background: #e9f1fa;
+  border-radius: var(--radius-lg);
+  color: #0058a3;
+  display: inline-flex;
+  flex: 0 0 48px;
+  height: 48px;
+  justify-content: center;
+  margin: 0 auto 12px;
+  width: 48px;
+}
+
+@media (max-width: 768px) {
+  .services-section .pub-assurances-item__icon {
+    margin: 0 12px 0 0;
+  }
+}

@@ -116,7 +116,7 @@ export function ProfilePanel() {
       <div className="max-w-page mx-auto px-5 py-10 lg:px-10">
         <Breadcrumbs currentLabel={t("profile.title")} />
 
-        <section className="flex flex-col gap-6 border border-ikea-gray-200 p-6 md:flex-row md:items-center md:justify-between md:p-8">
+        <section className="flex flex-col gap-6 rounded-lg border border-ikea-gray-200 p-6 md:flex-row md:items-center md:justify-between md:p-8">
           <div className="flex items-center gap-5">
             <span className="flex h-20 w-20 items-center justify-center rounded-full bg-ikea-blue text-3xl font-bold text-white">
               {user.name.slice(-1)}
@@ -140,7 +140,7 @@ export function ProfilePanel() {
           </div>
         </section>
 
-        <div className="mt-6 grid gap-px overflow-hidden border border-ikea-gray-200 bg-ikea-gray-200 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-6 grid gap-px overflow-hidden rounded-lg border border-ikea-gray-200 bg-ikea-gray-200 sm:grid-cols-2 lg:grid-cols-3">
           {[
             {
               title: t("profile.orders"),
@@ -221,7 +221,7 @@ export function ProfilePanel() {
 
         {activeTab === "account" ? (
           <>
-            <section className="mt-6 border border-ikea-gray-200">
+            <section className="mt-6 rounded-lg border border-ikea-gray-200">
               <div className="divide-y divide-ikea-gray-200">
                 <div className="flex items-center justify-between gap-6 p-5 md:p-6">
                   <div className="flex items-center gap-4">
@@ -298,13 +298,13 @@ export function ProfilePanel() {
               </p>
             ) : null}
 
-            <section className="mt-6 border border-ikea-gray-200 p-6 md:p-8">
+            <section className="mt-6 rounded-lg border border-ikea-gray-200 p-6 md:p-8">
               <h2 className="text-xl font-bold">{t("profile.closeAccount")}</h2>
               <p className="mt-2 text-sm text-ikea-muted">{t("profile.closeAccountDesc")}</p>
               <div className="mt-5 grid gap-4 md:grid-cols-2">
                 <Link
                   href="/zh/customer-service/"
-                  className="border border-ikea-gray-200 p-5 transition-colors hover:border-ikea-black"
+                  className="rounded-lg border border-ikea-gray-200 p-5 transition-colors hover:border-ikea-black"
                 >
                   <span className="flex items-center gap-2 text-sm font-bold">
                     <CustomerServiceIcon size={20} />
@@ -319,7 +319,7 @@ export function ProfilePanel() {
                 </Link>
                 <a
                   href="tel:+6565189979"
-                  className="border border-ikea-gray-200 p-5 transition-colors hover:border-ikea-black"
+                  className="rounded-lg border border-ikea-gray-200 p-5 transition-colors hover:border-ikea-black"
                 >
                   <span className="flex items-center gap-2 text-sm font-bold">
                     <PhoneIcon size={20} />
@@ -335,7 +335,7 @@ export function ProfilePanel() {
               </div>
             </section>
 
-            <section className="mt-6 border border-ikea-gray-200">
+            <section className="mt-6 rounded-lg border border-ikea-gray-200">
               <div className="border-b border-ikea-gray-200 px-6 py-4">
                 <h2 className="text-base font-bold">{t("profile.notificationSettings")}</h2>
               </div>
@@ -369,7 +369,7 @@ export function ProfilePanel() {
               </div>
             </section>
 
-            <section className="mt-6 border border-ikea-gray-200">
+            <section className="mt-6 rounded-lg border border-ikea-gray-200">
               <div className="border-b border-ikea-gray-200 px-6 py-4">
                 <h2 className="text-base font-bold">{t("profile.privacySettings")}</h2>
               </div>
@@ -390,7 +390,7 @@ export function ProfilePanel() {
           </>
         ) : (
           <section className="mt-6 max-w-2xl">
-            <div className="border border-ikea-gray-200 p-6 md:p-8">
+            <div className="rounded-lg border border-ikea-gray-200 p-6 md:p-8">
               <h2 className="text-xl font-bold">{t("profile.changePassword")}</h2>
               <p className="mt-2 text-sm text-ikea-muted">{t("profile.changePasswordHint")}</p>
               <div className="mt-6 space-y-4">

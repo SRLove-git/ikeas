@@ -11,18 +11,30 @@ function isExternal(href: string) {
 }
 
 export function MenuPanel({ panel }: MenuPanelProps) {
+  const multiColumn = panel.columns.length > 1
   return (
     <div className="header_container_bottom">
-      <div className="max-w-page mx-auto px-10 py-8">
-        <div className="grid grid-cols-1 gap-10">
+      <div className="menu-panel-apple mx-auto max-w-5xl px-8 py-10">
+        <div className={`grid grid-cols-1 gap-10 ${multiColumn ? "md:grid-cols-3" : ""}`}>
           {panel.columns.map((column, columnIndex) => {
+            const sideBySide =
+              !multiColumn && column.cards.length === 0 && column.thumbnails.length === 0
             return (
-              <div key={columnIndex} className="min-w-0">
-                {column.heading ? (
-                  <h3 className="mb-1 text-base font-bold">{column.heading}</h3>
-                ) : null}
-                {column.intro ? (
-                  <p className="mb-4 text-xs text-ikea-muted">{column.intro}</p>
+              <div
+                key={columnIndex}
+                className={`min-w-0 ${sideBySide ? "md:flex md:items-start md:gap-16" : ""}`}
+              >
+                {column.heading || column.intro ? (
+                  <div className={sideBySide ? "md:w-48 md:shrink-0" : ""}>
+                    {column.heading ? (
+                      <h3 className="mb-1.5 text-xs font-semibold tracking-wide text-ikea-muted">
+                        {column.heading}
+                      </h3>
+                    ) : null}
+                    {column.intro ? (
+                      <p className="mb-4 text-xs text-ikea-muted/80">{column.intro}</p>
+                    ) : null}
+                  </div>
                 ) : null}
 
                 {column.cards.length > 0 ? (
@@ -98,7 +110,13 @@ export function MenuPanel({ panel }: MenuPanelProps) {
                 ) : null}
 
                 {column.links.length > 0 ? (
-                  <ul className="mt-2 space-y-1">
+                  <ul
+                    className={
+                      sideBySide
+                        ? "mt-2 grid flex-1 grid-cols-2 gap-x-10 gap-y-1 md:mt-0 lg:grid-cols-4"
+                        : "mt-2 space-y-1"
+                    }
+                  >
                     {column.links.map((link, index) => (
                       <li key={index}>
                         {isExternal(link.href) ? (
@@ -106,14 +124,14 @@ export function MenuPanel({ panel }: MenuPanelProps) {
                             href={link.href}
                             target="_blank"
                             rel="noreferrer"
-                            className="block py-1.5 text-sm text-ikea-muted transition-colors hover:text-ikea-black"
+                            className="block py-1.5 text-sm font-medium text-ikea-black transition-colors hover:text-ikea-blue hover:underline"
                           >
                             {link.title}
                           </a>
                         ) : (
                           <Link
                             href={link.href}
-                            className="block py-1.5 text-sm text-ikea-muted transition-colors hover:text-ikea-black"
+                            className="block py-1.5 text-sm font-medium text-ikea-black transition-colors hover:text-ikea-blue hover:underline"
                           >
                             {link.title}
                           </Link>
