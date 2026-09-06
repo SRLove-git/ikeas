@@ -27,7 +27,8 @@
     },
     {
       "label": "联系我们",
-      "href": "/zh/customer-service/contact-us/"
+      "href": "/zh/customer-service/contact-us/",
+      "menuPanelLabel": "联系我们"
     }
   ],
   "megaMenuCategories": [

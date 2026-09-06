@@ -9,13 +9,22 @@ interface MenuPanelProps {
 function isExternal(href: string) {
   return /^https?:\/\//.test(href);
 }
+function isTelMail(href: string) {
+  return /^(tel:|mailto:)/.test(href);
+}
 
 export function MenuPanel({ panel }: MenuPanelProps) {
   const multiColumn = panel.columns.length > 1
   return (
     <div className="header_container_bottom">
       <div className="menu-panel-apple mx-auto max-w-5xl px-8 py-10">
-        <div className={`grid grid-cols-1 gap-10 ${multiColumn ? "md:grid-cols-3" : ""}`}>
+        <div className={`grid grid-cols-1 gap-10 ${
+          panel.columns.length >= 3
+            ? "md:grid-cols-3"
+            : panel.columns.length === 2
+              ? "md:grid-cols-2"
+              : ""
+        }`}>
           {panel.columns.map((column, columnIndex) => {
             const sideBySide =
               !multiColumn && column.cards.length === 0 && column.thumbnails.length === 0
@@ -64,6 +73,10 @@ export function MenuPanel({ panel }: MenuPanelProps) {
                         >
                           {content}
                         </a>
+                      ) : isTelMail(card.href) ? (
+                        <a key={index} href={card.href} className="w-40 shrink-0">
+                          {content}
+                        </a>
                       ) : (
                         <Link key={index} href={card.href} className="w-40 shrink-0">
                           {content}
@@ -82,6 +95,18 @@ export function MenuPanel({ panel }: MenuPanelProps) {
                             href={item.href}
                             target="_blank"
                             rel="noreferrer"
+                            className="flex items-center gap-3 py-1.5 transition-colors hover:text-ikea-blue"
+                          >
+                            <SiteImage
+                              src={item.image}
+                              alt=""
+                              className="h-9 w-9 shrink-0"
+                            />
+                            <span className="text-sm font-bold">{item.title}</span>
+                          </a>
+                        ) : isTelMail(item.href) ? (
+                          <a
+                            href={item.href}
                             className="flex items-center gap-3 py-1.5 transition-colors hover:text-ikea-blue"
                           >
                             <SiteImage
@@ -124,6 +149,13 @@ export function MenuPanel({ panel }: MenuPanelProps) {
                             href={link.href}
                             target="_blank"
                             rel="noreferrer"
+                            className="block py-1.5 text-sm font-medium text-ikea-black transition-colors hover:text-ikea-blue hover:underline"
+                          >
+                            {link.title}
+                          </a>
+                        ) : isTelMail(link.href) ? (
+                          <a
+                            href={link.href}
                             className="block py-1.5 text-sm font-medium text-ikea-black transition-colors hover:text-ikea-blue hover:underline"
                           >
                             {link.title}

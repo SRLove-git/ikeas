@@ -356,6 +356,60 @@
           ]
         }
       ]
+    },
+    {
+      "label": "Contact us",
+      "href": "/zh/customer-service/contact-us/",
+      "columns": [
+        {
+          "heading": "Quick contact",
+          "intro": "Multiple ways to reach us",
+          "cards": [],
+          "thumbnails": [],
+          "links": [
+            {
+              "title": "Hotline / WhatsApp",
+              "href": "tel:+6583811666"
+            },
+            {
+              "title": "Customer email",
+              "href": "mailto:customerservice@chungyip.com"
+            },
+            {
+              "title": "Feedback",
+              "href": "mailto:customerservice@chungyip.com?subject=Feedback"
+            },
+            {
+              "title": "Business cooperation",
+              "href": "mailto:customerservice@chungyip.com?subject=Business%20cooperation"
+            }
+          ]
+        },
+        {
+          "heading": "Store locations",
+          "intro": "Visit us in person",
+          "cards": [],
+          "thumbnails": [],
+          "links": [
+            {
+              "title": "Raffles Hospital store",
+              "href": "tel:+6565189979"
+            },
+            {
+              "title": "Novena Square 2 store",
+              "href": "tel:+6565189269"
+            },
+            {
+              "title": "PARKROYAL on Beach Road store",
+              "href": "tel:+6598883885"
+            },
+            {
+              "title": "View all stores",
+              "href": "/zh/customer-service/contact-us/#stores"
+            }
+          ]
+        }
+      ]
     }
   ],
   "appPromotion": {

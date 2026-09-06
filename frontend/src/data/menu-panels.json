@@ -356,6 +356,60 @@
           ]
         }
       ]
+    },
+    {
+      "label": "联系我们",
+      "href": "/zh/customer-service/contact-us/",
+      "columns": [
+        {
+          "heading": "快捷联系",
+          "intro": "多种方式与我们取得联系",
+          "cards": [],
+          "thumbnails": [],
+          "links": [
+            {
+              "title": "客服热线 / WhatsApp",
+              "href": "tel:+6583811666"
+            },
+            {
+              "title": "客服邮箱",
+              "href": "mailto:customerservice@chungyip.com"
+            },
+            {
+              "title": "意见反馈",
+              "href": "mailto:customerservice@chungyip.com?subject=%E6%84%8F%E8%A7%81%E5%8F%8D%E9%A6%88"
+            },
+            {
+              "title": "商务合作",
+              "href": "mailto:customerservice@chungyip.com?subject=%E5%95%86%E5%8A%A1%E5%90%88%E4%BD%9C"
+            }
+          ]
+        },
+        {
+          "heading": "门店地址",
+          "intro": "欢迎到店体验",
+          "cards": [],
+          "thumbnails": [],
+          "links": [
+            {
+              "title": "Raffles Hospital 门店",
+              "href": "tel:+6565189979"
+            },
+            {
+              "title": "Novena Square 2 门店",
+              "href": "tel:+6565189269"
+            },
+            {
+              "title": "PARKROYAL on Beach Road 门店",
+              "href": "tel:+6598883885"
+            },
+            {
+              "title": "查看所有门店",
+              "href": "/zh/customer-service/contact-us/#stores"
+            }
+          ]
+        }
+      ]
     }
   ],
   "appPromotion": {
