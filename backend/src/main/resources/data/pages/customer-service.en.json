@@ -284,7 +284,9 @@
       {
         "type": "pub-page-title",
         "title": null,
-        "texts": ["Delivery"],
+        "texts": [
+          "Delivery"
+        ],
         "images": [],
         "links": [],
         "items": [],
@@ -373,7 +375,9 @@
       {
         "type": "pub-text",
         "title": null,
-        "texts": ["Need delivery arrangements? Contact our customer service team."],
+        "texts": [
+          "Need delivery arrangements? Contact our customer service team."
+        ],
         "images": [],
         "links": [],
         "items": [],
@@ -395,7 +399,9 @@
       {
         "type": "pub-page-title",
         "title": null,
-        "texts": ["After-sales service"],
+        "texts": [
+          "After-sales service"
+        ],
         "images": [],
         "links": [],
         "items": [],
@@ -512,7 +518,9 @@
       {
         "type": "pub-text",
         "title": null,
-        "texts": ["Store addresses and opening hours are available on the “Contact us” page."],
+        "texts": [
+          "Store addresses and opening hours are available on the “Contact us” page."
+        ],
         "images": [],
         "links": [
           {
@@ -539,7 +547,9 @@
       {
         "type": "pub-page-title",
         "title": null,
-        "texts": ["Exclusive benefits"],
+        "texts": [
+          "Exclusive benefits"
+        ],
         "images": [],
         "links": [],
         "items": [],
@@ -565,7 +575,9 @@
       {
         "type": "pub-page-title",
         "title": null,
-        "texts": ["Health experience programs"],
+        "texts": [
+          "Health experience programs"
+        ],
         "images": [],
         "links": [],
         "items": [],
@@ -584,28 +596,28 @@
           {
             "title": "Experience A",
             "text": "Oxygen therapy revitalization · Body composition analysis · Blood glucose + uric acid analysis · Blood pressure testing",
-            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711448.png",
+            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711448-1.png",
             "href": "/zh/customer-service/contact-us/",
             "backgroundColor": null
           },
           {
             "title": "Experience B",
             "text": "Oxygen therapy revitalization · Body composition analysis · Blood glucose + lipid analysis · Blood pressure testing",
-            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710151.png",
+            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710151-1.png",
             "href": "/zh/customer-service/contact-us/",
             "backgroundColor": null
           },
           {
             "title": "Store address",
             "text": "585 North Bridge Road #01-02 Raffles Hospital",
-            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712582.png",
+            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712582-1.png",
             "href": "/zh/customer-service/contact-us/",
             "backgroundColor": null
           },
           {
             "title": "Shop now",
             "text": "Visit the mall to shop BUZUD health products",
-            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710595.png",
+            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710595-1.png",
             "href": "/zh/all-products/",
             "backgroundColor": null
           }
@@ -811,7 +823,9 @@
       {
         "type": "contact-list",
         "title": "More help",
-        "texts": ["The pages below can help you quickly resolve common questions."],
+        "texts": [
+          "The pages below can help you quickly resolve common questions."
+        ],
         "images": [],
         "links": [],
         "items": [
