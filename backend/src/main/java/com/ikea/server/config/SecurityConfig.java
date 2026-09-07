@@ -59,12 +59,23 @@ public class SecurityConfig {
                         "/api/v1/auth/logout",
                         "/api/v1/cart/**",
                         "/api/v1/favorites/**",
-                        "/api/v1/marketing/**")
+                        "/api/v1/marketing/**",
+                        "/api/v1/referrals/**",
+                        "/api/v1/invoices/**",
+                        "/api/v1/stock-alerts",
+                        "/api/v1/after-sales/**",
+                        "/api/v1/support-tickets/**")
                     .authenticated()
                     .requestMatchers(HttpMethod.POST, "/api/v1/orders")
                     .permitAll()
+                    .requestMatchers(HttpMethod.POST, "/api/v1/reviews")
+                    .authenticated()
                     .requestMatchers("/api/v1/orders", "/api/v1/orders/**")
                     .authenticated()
+                    .requestMatchers("/api/v1/payment/orders/**")
+                    .authenticated()
+                    .requestMatchers("/api/v1/payment/stripe/webhook")
+                    .permitAll()
                     .requestMatchers(
                         "/api/v1/integration/**")
                     .authenticated()

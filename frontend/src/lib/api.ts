@@ -94,6 +94,82 @@ export interface OrderResponse {
   updatedAt: string
 }
 
+export interface PaymentOptions {
+  mockOnly: boolean
+  stripePublicKey: string
+}
+
+export interface CreatePaymentResponse {
+  mockOnly: boolean
+  channel: string
+  payUrl: string | null
+}
+
+export interface LogisticsView {
+  carrier: string | null
+  trackingNo: string | null
+  status: string | null
+  traces: string[]
+  updatedAt: string | null
+}
+
+export interface InvoiceReceiptView {
+  id: number
+  orderNo: string
+  kind: number
+  companyName: string | null
+  taxNumber: string | null
+  email: string | null
+  status: number
+  fileUrl: string | null
+  errorMessage: string | null
+  createdAt: string
+}
+
+export interface StockAlertView {
+  id: number
+  productId: string
+  contact: string
+  status: number
+  notifiedAt: string | null
+  createdAt: string
+}
+
+export interface AfterSaleView {
+  id: number
+  orderNo: string
+  type: number
+  reason: string | null
+  status: number
+  omsReturnNo: string | null
+  createdAt: string
+}
+
+export interface OrderFulfillmentView {
+  logistics: LogisticsView | null
+  latestInvoice: InvoiceReceiptView | null
+  stockAlert: StockAlertView | null
+  afterSale: AfterSaleView | null
+}
+
+export interface ReferralRewardView {
+  id: number
+  couponName: string
+  value: number | null
+  minAmount: number | null
+  earnedAt: string | null
+  inviteeName: string
+}
+
+export interface ReferralSummary {
+  code: string
+  referralCount: number
+  issuedCouponCount: number
+  nextMilestone: number
+  progress: number
+  rewards: ReferralRewardView[]
+}
+
 export class ApiError extends Error {
   status: number
 

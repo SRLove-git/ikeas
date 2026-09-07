@@ -13,6 +13,8 @@ public class MemberAccount {
   @TableId(type = IdType.INPUT) private Long userId;
   private Integer points;
   private BigDecimal balance;
+  private Integer level;
+  private BigDecimal totalSpent;
   @Version private Integer version;
   private LocalDateTime createdAt;
   private LocalDateTime updatedAt;
@@ -23,6 +25,10 @@ public class MemberAccount {
   public void setPoints(Integer points) { this.points = points; }
   public BigDecimal getBalance() { return balance; }
   public void setBalance(BigDecimal balance) { this.balance = balance; }
+  public Integer getLevel() { return level; }
+  public void setLevel(Integer level) { this.level = level; }
+  public BigDecimal getTotalSpent() { return totalSpent; }
+  public void setTotalSpent(BigDecimal totalSpent) { this.totalSpent = totalSpent; }
   public Integer getVersion() { return version; }
   public void setVersion(Integer version) { this.version = version; }
   public LocalDateTime getCreatedAt() { return createdAt; }

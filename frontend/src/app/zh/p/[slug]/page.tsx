@@ -4,6 +4,7 @@ import { catalogData } from "@/data/catalog"
 import { findProductBySlug, formatPrice } from "@/lib/catalog"
 import { ProductGallery } from "@/components/ProductGallery"
 import { ProductActions } from "@/components/ProductActions"
+import { ProductReviews } from "@/components/ProductReviews"
 import { ProductCard } from "@/components/ProductCard"
 import { SiteLayout } from "@/components/SiteLayout"
 import { BrowsingHistoryTracker } from "@/components/BrowsingHistoryTracker"
@@ -26,9 +27,15 @@ export function generateStaticParams() {
 
 export default async function ProductPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params
+  let normalizedSlug = slug
+  try {
+    normalizedSlug = decodeURIComponent(slug)
+  } catch {
+    // Keep the raw path segment when the URL is not valid percent-encoding.
+  }
   const locale = await getLocale()
   const t = await getServerT(locale)
-  const match = findProductBySlug(slug, locale)
+  const match = findProductBySlug(normalizedSlug, locale)
   if (!match) notFound()
 
   const { product } = match
@@ -229,6 +236,8 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
               </div>
             </div>
           ) : null}
+
+          <ProductReviews productId={product.id} />
         </div>
       </div>
     </SiteLayout>

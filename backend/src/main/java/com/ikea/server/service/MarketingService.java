@@ -2,6 +2,7 @@ package com.ikea.server.service;
 
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import com.ikea.server.dto.marketing.MarketingDtos.AccountResponse;
+import com.ikea.server.dto.marketing.MarketingDtos.RechargeResponse;
 import com.ikea.server.dto.marketing.MarketingDtos.ClaimResponse;
 import com.ikea.server.dto.marketing.MarketingDtos.CouponView;
 import com.ikea.server.dto.marketing.MarketingDtos.RedemptionResponse;
@@ -48,7 +49,16 @@ public class MarketingService {
 
   public AccountResponse account(Long userId, BigDecimal subtotal) {
     MemberAccount account = account(userId);
-    return new AccountResponse(account.getPoints(), account.getBalance(), coupons(userId, subtotal));
+    refreshLevel(account);
+    memberAccountMapper.updateById(account);
+    return new AccountResponse(
+        account.getPoints(),
+        account.getBalance(),
+        account.getLevel(),
+        levelName(account.getLevel()),
+        account.getTotalSpent(),
+        nextLevelSpend(account.getLevel(), account.getTotalSpent()),
+        coupons(userId, subtotal));
   }
 
   public ClaimResponse claim(Long userId, String code) {
@@ -115,6 +125,39 @@ public class MarketingService {
       balanceLogMapper.insert(balanceLog(userId, balance, "admin", "管理后台调整"));
     }
     return account;
+  }
+
+  /**
+   * 余额充值：mock 模式直接入账，真实支付场景应改为创建充值支付单后回调入账。
+   */
+  @Transactional
+  public RechargeResponse recharge(Long userId, BigDecimal amount) {
+    BigDecimal value = money(amount);
+    if (value.signum() <= 0) {
+      throw new IllegalArgumentException("充值金额必须大于 0");
+    }
+    MemberAccount account = account(userId);
+    account.setBalance(money(account.getBalance().add(value)));
+    memberAccountMapper.updateById(account);
+    balanceLogMapper.insert(balanceLog(userId, value, "recharge", "余额充值"));
+    return new RechargeResponse(account.getBalance());
+  }
+
+  /**
+   * 订单支付成功后累加积分与累计消费，并按累计消费刷新会员等级。
+   */
+  @Transactional
+  public void earnForPaidOrder(Long userId, BigDecimal paidAmount, String orderNo) {
+    if (userId == null || paidAmount == null) {
+      return;
+    }
+    MemberAccount account = account(userId);
+    int earned = Math.max(1, paidAmount.setScale(0, RoundingMode.DOWN).intValue());
+    account.setPoints(account.getPoints() + earned);
+    account.setTotalSpent(money(account.getTotalSpent().add(paidAmount)));
+    refreshLevel(account);
+    memberAccountMapper.updateById(account);
+    pointLogMapper.insert(pointLog(userId, earned, "order", "下单得积分 " + orderNo));
   }
 
   @Transactional
@@ -242,8 +285,34 @@ public class MarketingService {
     account.setUserId(userId);
     account.setPoints(0);
     account.setBalance(BigDecimal.ZERO);
+    account.setLevel(1);
+    account.setTotalSpent(BigDecimal.ZERO);
     memberAccountMapper.insert(account);
     return account;
+  }
+
+  private void refreshLevel(MemberAccount account) {
+    BigDecimal total = money(account.getTotalSpent());
+    int level = total.compareTo(new BigDecimal("1000")) >= 0
+        ? 3
+        : total.compareTo(new BigDecimal("300")) >= 0 ? 2 : 1;
+    account.setLevel(level);
+  }
+
+  private static String levelName(int level) {
+    return switch (level) {
+      case 3 -> "金卡会员";
+      case 2 -> "银卡会员";
+      default -> "普通会员";
+    };
+  }
+
+  private static BigDecimal nextLevelSpend(int level, BigDecimal totalSpent) {
+    if (level >= 3) {
+      return BigDecimal.ZERO;
+    }
+    BigDecimal threshold = level == 1 ? new BigDecimal("300") : new BigDecimal("1000");
+    return money(threshold.subtract(totalSpent).max(BigDecimal.ZERO));
   }
 
   private PointLog pointLog(Long userId, int amount, String type, String remark) {

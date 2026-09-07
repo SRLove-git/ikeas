@@ -9,4 +9,5 @@ public record RegisterRequest(
     @NotBlank(message = "密码不能为空")
         @Size(min = 6, max = 64, message = "密码长度需为 6-64 位")
         String password,
-    @Size(max = 64, message = "昵称长度不能超过 64 位") String name) {}
+    @Size(max = 64, message = "昵称长度不能超过 64 位") String name,
+    @Size(max = 32, message = "邀请码长度不能超过 32 位") String referralCode) {}

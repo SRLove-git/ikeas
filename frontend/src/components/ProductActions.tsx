@@ -22,6 +22,7 @@ export function ProductActions({
   const [bagState, setBagState] = useState<"idle" | "loading" | "added">("idle")
   const [favState, setFavState] = useState<"on" | "off">("off")
   const [message, setMessage] = useState<string | null>(null)
+  const [stockAlertLoading, setStockAlertLoading] = useState(false)
 
   useEffect(() => {
     if (!getToken()) {
@@ -98,6 +99,31 @@ export function ProductActions({
     }
   }
 
+  const registerStockAlert = async () => {
+    if (!getToken()) {
+      router.push("/zh/profile/login/")
+      return
+    }
+    const contact = window.prompt("到货后接收提醒的手机号或邮箱") ?? ""
+    if (!contact.trim()) {
+      setMessage("请填写联系方式")
+      return
+    }
+    setStockAlertLoading(true)
+    setMessage(null)
+    try {
+      await apiJson("/stock-alerts", {
+        method: "POST",
+        body: JSON.stringify({ productId, contact: contact.trim() }),
+      })
+      setMessage("已登记到货提醒，有货时会通知您")
+    } catch (ex) {
+      setMessage(ex instanceof Error ? ex.message : "登记失败")
+    } finally {
+      setStockAlertLoading(false)
+    }
+  }
+
   return (
     <div className="mt-6 flex flex-col gap-3 sm:flex-row" data-avoid-floating>
       <button
@@ -127,6 +153,18 @@ export function ProductActions({
               className={`h-4 w-4 ${favState === "on" ? "text-ikea-red" : "text-ikea-black"}`}
             />
             <span>{favState === "on" ? t("product.favorited") : t("product.addFavorite")}</span>
+          </span>
+        </span>
+      </button>
+      <button
+        type="button"
+        onClick={registerStockAlert}
+        disabled={stockAlertLoading}
+        className="i-btn i-btn--small i-btn--secondary h-11 px-8 text-sm disabled:opacity-60"
+      >
+        <span className="i-btn__inner">
+          <span className="i-btn__label">
+            {stockAlertLoading ? "登记中..." : "到货提醒"}
           </span>
         </span>
       </button>

@@ -33,6 +33,7 @@ public class AuthService {
   private final UserService userService;
   private final TokenService tokenService;
   private final SmsCodeService smsCodeService;
+  private final ReferralService referralService;
   private final PasswordEncoder passwordEncoder;
   private final JwtEncoder jwtEncoder;
   private final long accessTokenTtlSeconds;
@@ -41,12 +42,14 @@ public class AuthService {
       UserService userService,
       TokenService tokenService,
       SmsCodeService smsCodeService,
+      ReferralService referralService,
       PasswordEncoder passwordEncoder,
       JwtEncoder jwtEncoder,
       @Value("${ikea.auth.access-token-ttl:900}") long accessTokenTtlSeconds) {
     this.userService = userService;
     this.tokenService = tokenService;
     this.smsCodeService = smsCodeService;
+    this.referralService = referralService;
     this.passwordEncoder = passwordEncoder;
     this.jwtEncoder = jwtEncoder;
     this.accessTokenTtlSeconds = accessTokenTtlSeconds;
@@ -81,6 +84,7 @@ public class AuthService {
     user.setRole(SecurityConstants.ROLE_CUSTOMER);
     user.setStatus(1);
     userService.save(user);
+    referralService.recordReferral(request.referralCode(), user.getId());
     return issueTokenPair(user);
   }
 
@@ -99,11 +103,15 @@ public class AuthService {
   @Transactional
   public AuthResponse smsLogin(SmsLoginRequest request) {
     smsCodeService.verifyAndConsume(request.phone(), request.code());
-    AppUser user =
-        userService
-            .findByPhone(request.phone())
-            .orElseGet(() -> createPhoneUser(request.phone()));
+    AppUser user = userService.findByPhone(request.phone()).orElse(null);
+    boolean created = user == null;
+    if (created) {
+      user = createPhoneUser(request.phone());
+    }
     ensureActive(user);
+    if (created) {
+      referralService.recordReferral(request.referralCode(), user.getId());
+    }
     return issueTokenPair(user);
   }
 

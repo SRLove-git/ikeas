@@ -27,6 +27,11 @@ public final class OmsSigner {
     return hex(sha256(body == null ? "" : body));
   }
 
+  /** 直接对原始字符串做 HMAC-SHA256，返回小写 hex（OMS → 商城回调签名）。 */
+  public static String hmacSha256Hex(String secret, String value) {
+    return hex(hmacSha256(secret, value));
+  }
+
   public static String nonce() {
     byte[] bytes = new byte[16];
     RANDOM.nextBytes(bytes);

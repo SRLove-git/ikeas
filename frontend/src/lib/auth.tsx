@@ -17,6 +17,7 @@ export interface LoginInput {
   code?: string
   account?: string
   password?: string
+  referralCode?: string
 }
 
 interface AuthContextValue {
@@ -60,13 +61,18 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       input.mode === "sms"
         ? await apiJson<AuthResponse>("/auth/sms/login", {
             method: "POST",
-            body: JSON.stringify({ phone: input.phone, code: input.code }),
+            body: JSON.stringify({
+              phone: input.phone,
+              code: input.code,
+              referralCode: input.referralCode ?? null,
+            }),
           })
         : await apiJson<AuthResponse>("/auth/login", {
             method: "POST",
             body: JSON.stringify({
               account: input.account,
               password: input.password,
+              referralCode: input.referralCode ?? null,
             }),
           })
     setAuthTokens(response.token, response.refreshToken ?? null)

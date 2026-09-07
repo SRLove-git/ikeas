@@ -331,6 +331,55 @@ public class OrderService {
       order.setStatus(OrderStatus.PENDING_SHIPMENT.code());
       orderMapper.updateById(order);
     }
+    marketingService.earnForPaidOrder(userId, order.getTotalAmount(), orderNo);
+    return toResponse(order, itemsOf(order.getId()));
+  }
+
+  /**
+   * 真实收银台支付成功回调：金额校验后推进本地状态；对接开启时同步通知 OMS 扣减库存。
+   */
+  @Transactional
+  public OrderResponse markPaidByGateway(
+      String orderNo, String channel, String channelTxnNo, BigDecimal amount, String currency) {
+    Order order =
+        orderMapper.selectOne(
+            Wrappers.lambdaQuery(Order.class).eq(Order::getOrderNo, orderNo));
+    if (order == null) {
+      throw new ResourceNotFoundException("Order not found: " + orderNo);
+    }
+    if (order.getStatus() != OrderStatus.PENDING_PAYMENT.code()) {
+      if (order.getStatus() != OrderStatus.PENDING_SHIPMENT.code()) {
+        throw new IllegalArgumentException("当前订单状态不允许支付");
+      }
+      return toResponse(order, itemsOf(order.getId()));
+    }
+    BigDecimal total = normalizeMoney(order.getTotalAmount());
+    if (amount == null || total.compareTo(normalizeMoney(amount)) != 0) {
+      throw new IllegalArgumentException("支付金额与订单应付金额不一致");
+    }
+    if (currency != null
+        && !currency.isBlank()
+        && !currency.equalsIgnoreCase(order.getCurrency())) {
+      throw new IllegalArgumentException("支付币种与订单币种不一致");
+    }
+
+    if (omsChannel.isEnabled()) {
+      try {
+        omsOrderSyncService.notifyPaymentSuccess(
+            orderNo, generatePaymentNo(), total, channel);
+        order =
+            orderMapper.selectOne(
+                Wrappers.lambdaQuery(Order.class).eq(Order::getOrderNo, orderNo));
+      } catch (Exception ex) {
+        log.warn("OMS 支付通知失败，本地订单先推进为待发货 orderNo={}", orderNo, ex);
+        order.setStatus(OrderStatus.PENDING_SHIPMENT.code());
+        orderMapper.updateById(order);
+      }
+    } else {
+      order.setStatus(OrderStatus.PENDING_SHIPMENT.code());
+      orderMapper.updateById(order);
+    }
+    marketingService.earnForPaidOrder(order.getUserId(), total, orderNo);
     return toResponse(order, itemsOf(order.getId()));
   }
 

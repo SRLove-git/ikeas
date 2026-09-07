@@ -26,6 +26,9 @@ public interface OmsChannel {
   /** 商城用户申请退款，OMS 侧创建售后/退款申请单。 */
   void requestRefund(String externalOrderNo);
 
+  /** 商城用户申请售后（1=退款 2=退货 3=换货 4=维修）。 */
+  void requestAfterSale(String externalOrderNo, Integer type, String reason);
+
   /** 查询商城订单在 OMS 侧的最新售后/退款状态。 */
   ReturnOrderOutcome queryReturnOrder(String externalOrderNo);
 

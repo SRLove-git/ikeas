@@ -6,6 +6,7 @@ import { useRouter } from "next/navigation"
 import { useTranslation } from "react-i18next"
 import { useAuth } from "@/lib/auth"
 import { apiJson } from "@/lib/api"
+import { clearReferralCode, getReferralCode } from "@/lib/referral"
 
 type LoginTab = "sms" | "email" | "username"
 
@@ -61,6 +62,7 @@ export default function LoginPage() {
 
     setError(null)
     setSubmitting(true)
+    const referralCode = getReferralCode() ?? undefined
 
     try {
       if (tab === "sms") {
@@ -72,7 +74,12 @@ export default function LoginPage() {
           setError(t("login.enterCode"))
           return
         }
-        await login({ mode: "sms", phone: phone.trim(), code: code.trim() })
+        await login({
+          mode: "sms",
+          phone: phone.trim(),
+          code: code.trim(),
+          referralCode,
+        })
       } else if (tab === "email") {
         if (!email.trim()) {
           setError(t("login.enterEmail"))
@@ -82,7 +89,12 @@ export default function LoginPage() {
           setError(t("login.enterPassword"))
           return
         }
-        await login({ mode: "password", account: email.trim(), password })
+        await login({
+          mode: "password",
+          account: email.trim(),
+          password,
+          referralCode,
+        })
       } else {
         if (!username.trim()) {
           setError(t("login.enterUsername"))
@@ -92,9 +104,15 @@ export default function LoginPage() {
           setError(t("login.enterPassword"))
           return
         }
-        await login({ mode: "password", account: username.trim(), password })
+        await login({
+          mode: "password",
+          account: username.trim(),
+          password,
+          referralCode,
+        })
       }
 
+      clearReferralCode()
       setSubmitted(true)
       setTimeout(() => router.replace("/zh/profile/"), 500)
     } catch (ex) {

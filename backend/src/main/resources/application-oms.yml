@@ -3,6 +3,7 @@ ikea:
     # 本地联调 profile：SPRING_PROFILES_ACTIVE=oms 时启用对接。
     # 默认配置仍为 false，商城可独立运行；此文件只负责显式开启本地联调。
     enabled: ${BUZUD_OMS_ENABLED:true}
+    callback-secret: ${BUZUD_OMS_CALLBACK_SECRET:demo-mall-callback-secret-change-me}
     gateway-url: ${BUZUD_OMS_GATEWAY_URL:http://localhost:8080}
     app-id: ${BUZUD_OMS_APP_ID:demo-mall}
     app-secret: ${BUZUD_OMS_APP_SECRET:demo-mall-secret-change-me}

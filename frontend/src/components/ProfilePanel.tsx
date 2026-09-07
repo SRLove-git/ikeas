@@ -5,10 +5,21 @@ import Link from "next/link"
 import { useRouter } from "next/navigation"
 import { useTranslation } from "react-i18next"
 import { useAuth } from "@/lib/auth"
-import { CartIcon, CompassIcon, HeartIcon, HomeIcon, TruckIcon } from "@/components/icons"
+import { apiJson } from "@/lib/api"
+import { CartIcon, CompassIcon, GiftIcon, HeartIcon, HomeIcon, TruckIcon } from "@/components/icons"
 import { Breadcrumbs } from "@/components/Breadcrumbs"
 
 type ProfileTab = "account" | "password"
+
+interface MarketingAccount {
+  points: number
+  balance: number
+  level: number
+  levelName: string
+  totalSpent: number
+  nextLevelSpend: number
+  coupons: unknown[]
+}
 
 function PhoneIcon({ size = 24 }: { size?: number }) {
   return (
@@ -84,6 +95,10 @@ export function ProfilePanel() {
   const [membershipEmail, setMembershipEmail] = useState("")
   const [membershipConsent, setMembershipConsent] = useState(false)
   const [membershipNotice, setMembershipNotice] = useState<string | null>(null)
+  const [marketing, setMarketing] = useState<MarketingAccount | null>(null)
+  const [rechargeAmount, setRechargeAmount] = useState("")
+  const [rechargeSubmitting, setRechargeSubmitting] = useState(false)
+  const [marketingNotice, setMarketingNotice] = useState<string | null>(null)
 
   useEffect(() => {
     if (ready && !user) {
@@ -97,6 +112,46 @@ export function ProfilePanel() {
       document.body.style.overflow = ""
     }
   }, [membershipDrawerOpen])
+
+  useEffect(() => {
+    if (!ready || !user) return
+    let cancelled = false
+    apiJson<MarketingAccount>("/marketing/account")
+      .then((data) => {
+        if (!cancelled) setMarketing(data)
+      })
+      .catch(() => {
+        if (!cancelled) setMarketing(null)
+      })
+    return () => {
+      cancelled = true
+    }
+  }, [ready, user])
+
+  const recharge = async () => {
+    const amount = Number(rechargeAmount)
+    if (!Number.isFinite(amount) || amount <= 0) {
+      setMarketingNotice("请输入有效充值金额")
+      return
+    }
+    setRechargeSubmitting(true)
+    setMarketingNotice(null)
+    try {
+      const updated = await apiJson<{ balance: number }>("/marketing/recharge", {
+        method: "POST",
+        body: JSON.stringify({ amount }),
+      })
+      setMarketing((current) =>
+        current ? { ...current, balance: updated.balance } : current,
+      )
+      setRechargeAmount("")
+      setMarketingNotice("充值成功")
+    } catch (ex) {
+      setMarketingNotice(ex instanceof Error ? ex.message : "充值失败")
+    } finally {
+      setRechargeSubmitting(false)
+    }
+  }
 
   const submitMembership = () => {
     setMembershipNotice(t("profile.membershipSubmitted"))
@@ -140,6 +195,37 @@ export function ProfilePanel() {
           </div>
         </section>
 
+        {marketing ? (
+          <section className="mt-6 rounded-lg border border-ikea-gray-200 p-6">
+            <div className="flex flex-wrap items-center justify-between gap-4">
+              <div>
+                <p className="text-sm text-ikea-muted">会员等级</p>
+                <p className="mt-1 text-lg font-bold">{marketing.levelName}</p>
+                <p className="mt-2 text-xs text-ikea-muted">
+                  积分 {marketing.points} · 余额 SGD {marketing.balance.toFixed(2)}
+                </p>
+              </div>
+              <div className="flex items-end gap-2">
+                <input
+                  value={rechargeAmount}
+                  onChange={(event) => setRechargeAmount(event.target.value)}
+                  placeholder="充值金额"
+                  className="h-10 w-32 border border-ikea-gray-200 px-3 text-sm outline-none focus:border-ikea-blue"
+                />
+                <button
+                  type="button"
+                  disabled={rechargeSubmitting}
+                  onClick={() => void recharge()}
+                  className="h-10 rounded bg-ikea-blue px-4 text-sm font-bold text-white disabled:opacity-50"
+                >
+                  充值
+                </button>
+              </div>
+            </div>
+            {marketingNotice ? <p className="mt-2 text-sm text-ikea-blue">{marketingNotice}</p> : null}
+          </section>
+        ) : null}
+
         <div className="mt-6 grid gap-px overflow-hidden rounded-lg border border-ikea-gray-200 bg-ikea-gray-200 sm:grid-cols-2 lg:grid-cols-3">
           {[
             {
@@ -153,6 +239,12 @@ export function ProfilePanel() {
               desc: t("profile.couponsDesc"),
               href: "/zh/customer-service/services/privileges/",
               icon: CompassIcon,
+            },
+            {
+              title: t("profile.referral"),
+              desc: t("profile.referralDesc"),
+              href: "/zh/profile/referral/",
+              icon: GiftIcon,
             },
             {
               title: t("profile.collection"),
@@ -175,7 +267,7 @@ export function ProfilePanel() {
             {
               title: t("profile.support"),
               desc: t("profile.supportDesc"),
-              href: "/zh/customer-service/",
+              href: "/zh/profile/support-tickets/",
               icon: CustomerServiceIcon,
             },
           ].map(({ title, desc, href, icon: Icon }) => (

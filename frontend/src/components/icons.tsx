@@ -1,6 +1,6 @@
-import type { SVGProps } from "react";
+import type { SVGProps } from "react"
 
-type IconProps = SVGProps<SVGSVGElement>;
+type IconProps = SVGProps<SVGSVGElement>
 
 function baseProps(props: IconProps): IconProps {
   return {
@@ -11,7 +11,7 @@ function baseProps(props: IconProps): IconProps {
     height: "1em",
     "aria-hidden": true,
     ...props,
-  };
+  }
 }
 
 export function InfoIcon(props: IconProps) {
@@ -24,7 +24,7 @@ export function InfoIcon(props: IconProps) {
         clipRule="evenodd"
       ></path>
     </svg>
-  );
+  )
 }
 
 export function SearchIcon(props: IconProps) {
@@ -36,7 +36,7 @@ export function SearchIcon(props: IconProps) {
         clipRule="evenodd"
       ></path>
     </svg>
-  );
+  )
 }
 
 export function UserIcon(props: IconProps) {
@@ -48,7 +48,7 @@ export function UserIcon(props: IconProps) {
         clipRule="evenodd"
       ></path>
     </svg>
-  );
+  )
 }
 
 export function HeartIcon(props: IconProps) {
@@ -60,7 +60,7 @@ export function HeartIcon(props: IconProps) {
         clipRule="evenodd"
       ></path>
     </svg>
-  );
+  )
 }
 
 export function CartIcon(props: IconProps) {
@@ -72,7 +72,7 @@ export function CartIcon(props: IconProps) {
         clipRule="evenodd"
       ></path>
     </svg>
-  );
+  )
 }
 
 export function CartBagIcon(props: IconProps) {
@@ -84,7 +84,7 @@ export function CartBagIcon(props: IconProps) {
         clipRule="evenodd"
       ></path>
     </svg>
-  );
+  )
 }
 
 export function CloseIcon(props: IconProps) {
@@ -96,7 +96,7 @@ export function CloseIcon(props: IconProps) {
         clipRule="evenodd"
       ></path>
     </svg>
-  );
+  )
 }
 
 export function ChevronLeftIcon(props: IconProps) {
@@ -108,7 +108,7 @@ export function ChevronLeftIcon(props: IconProps) {
         clipRule="evenodd"
       ></path>
     </svg>
-  );
+  )
 }
 
 export function ChevronRightIcon(props: IconProps) {
@@ -120,7 +120,7 @@ export function ChevronRightIcon(props: IconProps) {
         clipRule="evenodd"
       ></path>
     </svg>
-  );
+  )
 }
 
 export function ArrowRightIcon(props: IconProps) {
@@ -132,7 +132,7 @@ export function ArrowRightIcon(props: IconProps) {
         clipRule="evenodd"
       ></path>
     </svg>
-  );
+  )
 }
 
 export function ChevronDownIcon(props: IconProps) {
@@ -144,7 +144,7 @@ export function ChevronDownIcon(props: IconProps) {
         clipRule="evenodd"
       ></path>
     </svg>
-  );
+  )
 }
 
 export function ChatIcon(props: IconProps) {
@@ -165,7 +165,7 @@ export function ChatIcon(props: IconProps) {
         clipRule="evenodd"
       ></path>
     </svg>
-  );
+  )
 }
 
 export function TruckIcon(props: IconProps) {
@@ -177,7 +177,7 @@ export function TruckIcon(props: IconProps) {
         clipRule="evenodd"
       ></path>
     </svg>
-  );
+  )
 }
 
 export function AssemblyIcon(props: IconProps) {
@@ -189,7 +189,7 @@ export function AssemblyIcon(props: IconProps) {
         clipRule="evenodd"
       ></path>
     </svg>
-  );
+  )
 }
 
 export function DesignIcon(props: IconProps) {
@@ -202,7 +202,7 @@ export function DesignIcon(props: IconProps) {
       ></path>
       <path d="M4 21.0009h16v-2H4v2z"></path>
     </svg>
-  );
+  )
 }
 
 export function InstallationIcon(props: IconProps) {
@@ -214,7 +214,7 @@ export function InstallationIcon(props: IconProps) {
         clipRule="evenodd"
       ></path>
     </svg>
-  );
+  )
 }
 
 export function HamburgerIcon(props: IconProps) {
@@ -226,7 +226,7 @@ export function HamburgerIcon(props: IconProps) {
         clipRule="evenodd"
       ></path>
     </svg>
-  );
+  )
 }
 
 export function HomeIcon(props: IconProps) {
@@ -238,7 +238,7 @@ export function HomeIcon(props: IconProps) {
         clipRule="evenodd"
       ></path>
     </svg>
-  );
+  )
 }
 
 export function CategoryIcon(props: IconProps) {
@@ -246,7 +246,7 @@ export function CategoryIcon(props: IconProps) {
     <svg {...baseProps(props)}>
       <path d="M4 4h7v7H4V4zm2 2v3h3V6H6zm7-2h7v7h-7V4zm2 2v3h3V6h-3zM4 13h7v7H4v-7zm2 2v3h3v-3H6zm7-2h7v7h-7v-7zm2 2v3h3v-3h-3z"></path>
     </svg>
-  );
+  )
 }
 
 export function CompassIcon(props: IconProps) {
@@ -258,7 +258,7 @@ export function CompassIcon(props: IconProps) {
         clipRule="evenodd"
       ></path>
     </svg>
-  );
+  )
 }
 
 export function ChevronUpIcon(props: IconProps) {
@@ -266,7 +266,19 @@ export function ChevronUpIcon(props: IconProps) {
     <svg {...baseProps(props)}>
       <path d="M12 8.59 18.41 15l1.41-1.41L12 5.76 4.18 13.59 5.59 15 12 8.59z"></path>
     </svg>
-  );
+  )
+}
+
+export function GiftIcon(props: IconProps) {
+  return (
+    <svg {...baseProps(props)}>
+      <path
+        fillRule="evenodd"
+        d="M4 7h4.0547c.1078-1.116.6808-2.1692 1.6254-2.8585C10.8294 3.3371 12.4704 3.1285 13.976 4.1205 15.3232 5.0111 16 6.1844 16 7h4v3h-1v10H5V10H4V7zm7 0c0-1.05.1612-1.6817.3974-2.0271.4745-.6937 1.3938-1.1747 2.0249-.9771.8574.2685 1.3029 1.0027 1.3182 1.9427.0109.6711-.2344 1.0615-.7405 1.0615h-3zM8.9729 7h-2.0354c-.4096 0-.6179-.2581-.6166-.7425.0021-.8168.3502-1.5025 1.0298-1.8024.6635-.293 1.4348.031 1.9213.5733.3929.4382.6472 1.0622.701 1.9716zM6 12h4v-2H6v2zm6 0h4v-2h-4v2zm4 2h-4v6h4v-6zm-6 6v-6H6v6h4z"
+        clipRule="evenodd"
+      ></path>
+    </svg>
+  )
 }
 
 export function GlobeIcon(props: IconProps) {
@@ -278,5 +290,5 @@ export function GlobeIcon(props: IconProps) {
         clipRule="evenodd"
       ></path>
     </svg>
-  );
+  )
 }

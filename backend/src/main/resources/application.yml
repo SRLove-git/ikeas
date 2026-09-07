@@ -64,9 +64,23 @@ ikea:
   order:
     # Default delivery fee in SGD when the client does not pass one.
     default-delivery-fee: ${IKEA_DEFAULT_DELIVERY_FEE:9.9}
+  payment:
+    # 商城收银台：true=本地模拟支付；false=尝试使用 Stripe 托管结算页。
+    mock-only: ${IKEA_PAYMENT_MOCK_ONLY:true}
+    stripe:
+      public-key: ${IKEA_STRIPE_PUBLIC_KEY:}
+      secret-key: ${IKEA_STRIPE_SECRET_KEY:}
+      webhook-secret: ${IKEA_STRIPE_WEBHOOK_SECRET:}
+      api-base-url: ${IKEA_STRIPE_API_BASE_URL:https://api.stripe.com}
+      return-url-base: ${IKEA_STRIPE_RETURN_URL_BASE:http://localhost:3000}
+      success-path: ${IKEA_STRIPE_SUCCESS_PATH:/zh/profile/my-orders?payment=success}
+      cancel-path: ${IKEA_STRIPE_CANCEL_PATH:/zh/pay/cart?payment=cancel}
+  notification:
+    stock-webhook-url: ${IKEA_NOTIFICATION_STOCK_WEBHOOK_URL:}
   oms:
     # OMS 对接开关（对接规范 §4.1）：默认 false = 商城独立运行，不装配 OMS 组件。
     enabled: ${BUZUD_OMS_ENABLED:false}
+    callback-secret: ${BUZUD_OMS_CALLBACK_SECRET:demo-mall-callback-secret-change-me}
     gateway-url: ${BUZUD_OMS_GATEWAY_URL:http://localhost:8080}
     app-id: ${BUZUD_OMS_APP_ID:}
     # 生产环境通过 K8s Secret/配置中心注入，禁止进入前端构建产物。

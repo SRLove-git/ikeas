@@ -79,9 +79,15 @@ public class OmsOpenApiChannel implements OmsChannel {
 
   @Override
   public void requestRefund(String externalOrderNo) {
+    requestAfterSale(externalOrderNo, 1, "商城用户申请退款");
+  }
+
+  @Override
+  public void requestAfterSale(String externalOrderNo, Integer type, String reason) {
     client.post(
         RETURN_ORDERS_PATH,
-        new com.ikea.server.integration.oms.OmsDtos.OpenReturnOrderRequest(externalOrderNo, 1, "商城用户申请退款"),
+        new com.ikea.server.integration.oms.OmsDtos.OpenReturnOrderRequest(
+            externalOrderNo, type == null ? 1 : type, reason),
         Void.class);
   }
 

@@ -7,6 +7,7 @@ import com.ikea.server.entity.Order;
 import com.ikea.server.entity.OmsOrderMapping;
 import com.ikea.server.mapper.OrderMapper;
 import com.ikea.server.mapper.OmsOrderMappingMapper;
+import com.ikea.server.service.FulfillmentService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
@@ -19,13 +20,41 @@ public class OmsCallbackService {
 
   private final OrderMapper orderMapper;
   private final OmsOrderMappingMapper mappingMapper;
+  private final FulfillmentService fulfillmentService;
 
-  public OmsCallbackService(OrderMapper orderMapper, OmsOrderMappingMapper mappingMapper) {
+  public OmsCallbackService(
+      OrderMapper orderMapper,
+      OmsOrderMappingMapper mappingMapper,
+      FulfillmentService fulfillmentService) {
     this.orderMapper = orderMapper;
     this.mappingMapper = mappingMapper;
+    this.fulfillmentService = fulfillmentService;
   }
 
   public void handle(OmsCallbackRequest request) {
+    if (hasText(request.carrier())
+        || hasText(request.trackingNo())
+        || hasText(request.logisticsStatus())
+        || hasText(request.trace())) {
+      Order logisticsOrder = resolveOrder(request);
+      if (logisticsOrder != null) {
+        fulfillmentService.upsertLogistics(
+            logisticsOrder.getOrderNo(),
+            request.carrier(),
+            request.trackingNo(),
+            request.logisticsStatus(),
+            request.trace());
+      }
+    }
+    if ("aftersale.updated".equals(request.eventType())
+        && hasText(request.externalOrderNo())) {
+      Order afterSaleOrder = resolveOrder(request);
+      if (afterSaleOrder != null) {
+        fulfillmentService.syncAfterSaleStatus(
+            afterSaleOrder.getOrderNo(), request.omsReturnNo(), request.afterSaleStatus());
+      }
+    }
+
     Order order = resolveOrder(request);
     if (order == null) {
       log.warn("商城回调无法匹配本地订单 eventType={} orderNo={} externalOrderNo={}",
@@ -41,6 +70,10 @@ public class OmsCallbackService {
     orderMapper.updateById(order);
     log.info("商城回调状态更新 orderNo={} eventType={} from={} to={}",
         order.getOrderNo(), request.eventType(), from, target);
+  }
+
+  private static boolean hasText(String value) {
+    return value != null && !value.isBlank();
   }
 
   private Order resolveOrder(OmsCallbackRequest request) {

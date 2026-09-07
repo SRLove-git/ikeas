@@ -40,6 +40,11 @@ public class DisabledOmsChannel implements OmsChannel {
   }
 
   @Override
+  public void requestAfterSale(String externalOrderNo, Integer type, String reason) {
+    throw new IllegalStateException("OMS 对接未启用");
+  }
+
+  @Override
   public ReturnOrderOutcome queryReturnOrder(String externalOrderNo) {
     throw new IllegalStateException("OMS 对接未启用");
   }

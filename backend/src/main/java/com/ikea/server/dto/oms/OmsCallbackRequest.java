@@ -6,4 +6,9 @@ public record OmsCallbackRequest(
     String externalOrderNo,
     Integer status,
     String returnNo,
-    Integer afterSaleStatus) {}
+    Integer afterSaleStatus,
+    String carrier,
+    String trackingNo,
+    String logisticsStatus,
+    String trace,
+    String omsReturnNo) {}

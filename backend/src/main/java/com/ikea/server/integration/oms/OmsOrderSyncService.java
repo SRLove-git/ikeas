@@ -172,6 +172,15 @@ public class OmsOrderSyncService {
     channel.requestRefund(order.getOrderNo());
   }
 
+  /** 商城自助售后联动：退款/退货/换货/维修统一映射到 OMS 售后开放接口。 */
+  public void requestAfterSale(Order order, Integer type, String reason) {
+    if (!channel.isEnabled()) {
+      return;
+    }
+    ensureOrderSynced(order.getOrderNo());
+    channel.requestAfterSale(order.getOrderNo(), type, reason);
+  }
+
   /** 定时任务：重试待同步订单（§4.3-2）。对接关闭时直接跳过。 */
   @Scheduled(
       initialDelayString = "30000",

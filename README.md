@@ -4,9 +4,10 @@
 
 ## 功能
 
-- 前台：首页、所有商品、5 个商品分类页、商品详情、搜索、购物袋、收藏、订单、个人中心、结算、客户服务内容页
+- 前台：首页、所有商品、5 个商品分类页、商品详情、搜索、购物袋、收藏、订单、个人中心、结算、客户服务内容页；我的订单支持物流轨迹、收据/发票申请、到货提醒与自助退货/换货/维修；商品页支持评价/评分；个人中心支持会员等级、积分、余额充值与客服工单
 - 管理后台（`/admin`）：首页各区块、分类、导航菜单、商品、落地页、订单、客服知识库，均支持表单化编辑，保存后前台即时生效
 - 后端 API：商品/目录/首页/菜单/内容页、登录（短信/密码）、购物袋、收藏、客服聊天
+- 交易履约：商城收银台支持 Stripe 国际卡（Visa/Mastercard），未配置时保留模拟支付；OMS 支付中心补充微信/支付宝真实适配器；OMS 短信/邮件/微信、物流轨迹、第三方平台均提供配置驱动真实通道
 
 ## 技术栈
 
@@ -95,6 +96,20 @@ npm run check        # lint + typecheck + build
 node scripts/export-server-data.mjs
 # 重启后端服务使其生效
 ```
+
+### 真实支付与环境变量
+
+商城默认 `IKEA_PAYMENT_MOCK_ONLY=true` 走本地模拟支付；配置以下环境变量后开启 Stripe 收银台：
+
+```bash
+IKEA_PAYMENT_MOCK_ONLY=false
+IKEA_STRIPE_PUBLIC_KEY=pk_live_xxx
+IKEA_STRIPE_SECRET_KEY=sk_live_xxx
+IKEA_STRIPE_WEBHOOK_SECRET=whsec_xxx
+IKEA_STRIPE_RETURN_URL_BASE=https://medical-sg.com
+```
+
+OMS 真实渠道通过各自服务环境变量注入：`OMS_PAYMENT_WECHAT_*`、`OMS_PAYMENT_ALIPAY_*`、`OMS_INTEGRATION_NOTIFICATION_*`、`OMS_INTEGRATION_LOGISTICS_*`、`OMS_INTEGRATION_PLATFORM_*`。
 
 ## 商品目录变更
 

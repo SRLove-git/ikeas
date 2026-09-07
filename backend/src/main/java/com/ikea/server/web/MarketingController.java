@@ -4,6 +4,8 @@ import com.ikea.server.constant.SecurityConstants;
 import com.ikea.server.dto.marketing.MarketingDtos.AccountResponse;
 import com.ikea.server.dto.marketing.MarketingDtos.ClaimRequest;
 import com.ikea.server.dto.marketing.MarketingDtos.ClaimResponse;
+import com.ikea.server.dto.marketing.MarketingDtos.RechargeRequest;
+import com.ikea.server.dto.marketing.MarketingDtos.RechargeResponse;
 import com.ikea.server.service.MarketingService;
 import jakarta.servlet.http.HttpServletRequest;
 import java.math.BigDecimal;
@@ -38,6 +40,11 @@ public class MarketingController {
   @PostMapping("/coupons/claim")
   public ClaimResponse claim(HttpServletRequest request, @RequestBody ClaimRequest body) {
     return marketingService.claim(userId(request), body.code());
+  }
+
+  @PostMapping("/recharge")
+  public RechargeResponse recharge(HttpServletRequest request, @RequestBody RechargeRequest body) {
+    return marketingService.recharge(userId(request), body.amount());
   }
 
   private static Long userId(HttpServletRequest request) {

@@ -9,7 +9,13 @@ public final class MarketingDtos {
   private MarketingDtos() {}
 
   public record AccountResponse(
-      int points, BigDecimal balance, List<CouponView> coupons) {}
+      int points,
+      BigDecimal balance,
+      int level,
+      String levelName,
+      BigDecimal totalSpent,
+      BigDecimal nextLevelSpend,
+      List<CouponView> coupons) {}
 
   public record CouponView(
       Long id,
@@ -42,4 +48,8 @@ public final class MarketingDtos {
       LocalDateTime validTo) {}
 
   public record AdminAdjustRequest(Integer points, BigDecimal balance) {}
+
+  public record RechargeRequest(BigDecimal amount) {}
+
+  public record RechargeResponse(BigDecimal balance) {}
 }
