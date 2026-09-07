@@ -862,21 +862,23 @@ function CorporateHeroBlock({ block }: { block: ContentBlock }) {
           <div className="pointer-events-none absolute -bottom-32 right-24 h-80 w-80 rounded-full bg-white/5" />
         </>
       ) : null}
-      <div className="relative flex min-h-[320px] items-start lg:min-h-[440px]">
+      <div className="relative flex min-h-[320px] items-center lg:min-h-[440px]">
         <div className="max-w-page mx-auto w-full px-5 py-10 lg:px-10 lg:py-16">
           {block.title ? (
-            <h2 className="max-w-3xl text-2xl font-bold leading-9 lg:text-4xl lg:leading-[3rem]">
+            <h2 className="max-w-3xl text-balance text-2xl font-bold leading-8 tracking-tight lg:text-4xl lg:leading-[1.15]">
               {block.title}
             </h2>
           ) : null}
           {block.texts[0] ? (
-            <p className="mt-4 max-w-2xl text-sm leading-6 text-white/80">{block.texts[0]}</p>
+            <p className="mt-5 max-w-2xl text-pretty text-base leading-7 text-white/85">
+              {block.texts[0]}
+            </p>
           ) : null}
           {link?.href ? (
-            <div className="mt-12">
+            <div className="mt-8 lg:mt-10">
               <BlockLink
                 href={link.href}
-                className="inline-flex h-11 items-center bg-white px-8 text-sm font-bold text-ikea-black transition-colors hover:bg-ikea-gray-100"
+                className="inline-flex h-11 items-center bg-white px-8 text-sm font-bold text-ikea-black shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:bg-ikea-gray-100"
               >
                 {link.text || t("content.learnMore")}
               </BlockLink>
