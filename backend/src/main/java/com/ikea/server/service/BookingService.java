@@ -12,7 +12,7 @@ import java.util.List;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-/** 到店体检预约：顾客凭线下体检券下单，管理端确认、完成或取消。 */
+/** 到店体验预约：顾客凭线下体检券下单，管理端确认、完成或取消。 */
 @Service
 public class BookingService {
 

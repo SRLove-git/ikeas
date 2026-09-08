@@ -551,7 +551,8 @@
         "items": [],
         "productIds": [],
         "settings": {
-          "traceId": ""
+          "traceId": "",
+          "headingLevel": "h2"
         }
       },
       {
@@ -574,12 +575,17 @@
         "texts": [
           "健康体验项目"
         ],
-        "images": [],
+        "images": [
+          "/images/customer-service/health-experience-imdec-2026-01.jpg",
+          "/images/customer-service/health-experience-imdec-2026-02.jpg",
+          "/images/customer-service/health-experience-imdec-2026-03.jpg"
+        ],
         "links": [],
         "items": [],
         "productIds": [],
         "settings": {
-          "traceId": ""
+          "traceId": "",
+          "headingLevel": "h2"
         }
       },
       {
@@ -592,28 +598,28 @@
           {
             "title": "体验 A",
             "text": "氧疗焕活 · 体成分分析 · 血糖+尿酸分析 · 血压检测",
-            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711448-1.png",
+            "image": "/images/customer-service/experience-a-generated.png",
             "href": "/zh/customer-service/contact-us/",
             "backgroundColor": null
           },
           {
             "title": "体验 B",
             "text": "氧疗焕活 · 体成分分析 · 血糖+血脂分析 · 血压检测",
-            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710151-1.png",
+            "image": "/images/customer-service/experience-b-generated.png",
             "href": "/zh/customer-service/contact-us/",
             "backgroundColor": null
           },
           {
             "title": "门店地址",
             "text": "585 North Bridge Road #01-02 Raffles Hospital",
-            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712582-1.png",
+            "image": "/images/customer-service/store-location-generated.png",
             "href": "/zh/customer-service/contact-us/",
             "backgroundColor": null
           },
           {
             "title": "立即选购",
             "text": "前往商城选购 BUZUD 健康产品",
-            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710595-1.png",
+            "image": "/images/customer-service/shop-now-generated.png",
             "href": "/zh/all-products/",
             "backgroundColor": null
           }

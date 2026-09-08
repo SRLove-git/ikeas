@@ -90,10 +90,10 @@
     "loadMore": "加载更多内容",
     "promoCount": "{{count}} 件健康产品，点击选购",
     "bookingEyebrow": "到店健康体验",
-    "bookingTitle": "体检预约",
+    "bookingTitle": "体验预约",
     "bookingDescription": "到店即可体验氧疗焕活、体成分分析、血糖/血脂/尿酸分析与血压检测，提前预约省时又安心。",
     "bookingCta": "立即预约体检",
-    "bookingImageAlt": "到店体检预约",
+    "bookingImageAlt": "到店体验预约",
     "bookingServiceOxygen": "氧疗焕活",
     "bookingServiceBody": "体成分分析",
     "bookingServiceBlood": "血糖/血脂/尿酸分析",
@@ -171,8 +171,8 @@
     "intro": "登记您的 BUZUD 产品信息，即可享受官方质保服务。提交后请妥善保管发票，维修或换货时需一并提供。"
   },
   "booking": {
-    "title": "体检预约",
-    "currentLabel": "体检预约",
+    "title": "体验预约",
+    "currentLabel": "体验预约",
     "intro": "预约新加坡体验门店的体检项目与产品体验服务，请填写实体体检券上的券码。"
   },
   "login": {
@@ -1188,7 +1188,7 @@
     },
     "bookings": {
       "title": "预约管理",
-      "desc": "查看并处理顾客提交的到店体检预约。",
+      "desc": "查看并处理顾客提交的到店体验预约。",
       "listTitle": "预约列表",
       "empty": "暂无预约记录",
       "loadFailed": "加载预约列表失败",

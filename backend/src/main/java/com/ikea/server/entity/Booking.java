@@ -10,7 +10,7 @@ import com.baomidou.mybatisplus.annotation.Version;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
-/** 到店体检预约。状态：0=待确认，1=已确认，2=已完成，3=已取消。 */
+/** 到店体验预约。状态：0=待确认，1=已确认，2=已完成，3=已取消。 */
 @TableName("booking")
 public class Booking {
 

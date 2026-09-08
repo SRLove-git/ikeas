@@ -21,7 +21,7 @@
   ],
   "navMenuItems": [
     {
-      "label": "体检预约",
+      "label": "体验预约",
       "href": "/zh/booking/"
     },
     {
@@ -287,7 +287,7 @@
       "alt": "BUZUD 宣传视频"
     },
     {
-      "video": "/videos/buzud-promo.mp4",
+      "video": "/videos/buzud-imdec-2026-494x278.mp4",
       "poster": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711394-1.png",
       "href": "/zh/cat/cgms",
       "alt": "BUZUD 动态血糖监测"
@@ -592,9 +592,9 @@
       "href": "/zh/p/buzud-watch-vibrance-8885020712582"
     },
     {
-      "label": "BUZUD Pen Needles Plus Pro 32G 6mm ",
-      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711530-1.png?v=2",
-      "href": "/zh/p/buzud-pen-needles-plus-pro-32g-6mm-8885020711530"
+      "label": "BUZUD Blood Pressure Monitor 30S",
+      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711097-1.png",
+      "href": "/zh/p/buzud-blood-pressure-monitor-30s-8885020711097"
     },
     {
       "label": "BUZUD Fingertip Pulse Oximeter 70B",
