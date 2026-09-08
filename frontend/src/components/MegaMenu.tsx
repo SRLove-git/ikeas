@@ -1,6 +1,5 @@
 "use client"
 
-import { useState } from "react"
 import Link from "next/link"
 import type { Category } from "@/data/categories"
 
@@ -14,55 +13,57 @@ export function toPath(url: string): string {
 }
 
 export function MegaMenu({ group }: { group: CategoryGroup }) {
-  const [activeCategory, setActiveCategory] = useState(0)
-  const active = group.categories[activeCategory] ?? group.categories[0]
-
   return (
     <div className="header_container_bottom">
       <div className="header_container_bottom_content">
         <div className="nav-header-card-container">
-          <div className="mega-menu-3col">
-            <div className="mega-menu-3col__categories">
-              <ul>
-                {group.categories.map((category, index) => (
-                  <li key={category.name}>
-                    <Link
-                      href={toPath(category.url)}
-                      className={`mega-menu-3col__item ${index === activeCategory ? "is-active" : ""}`}
-                      onMouseEnter={() => setActiveCategory(index)}
-                      onFocus={() => setActiveCategory(index)}
-                    >
-                      {category.name}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            {active ? (
-              <div className="mega-menu-3col__products">
-                <Link href={toPath(active.url)} className="mega-menu-3col__products-title">
-                  {active.name}
-                </Link>
-                <div className="mega-menu-3col__products-grid">
-                  {active.subs.map((sub) => (
-                    <Link key={sub.name} href={toPath(sub.url)} className="mega-menu-3col__product">
-                      <span className="mega-menu-3col__product-img">
-                        {sub.image ? (
-                          // eslint-disable-next-line @next/next/no-img-element
-                          <img
-                            src={sub.image}
-                            alt={sub.name}
-                            className="i-object-contain"
-                            loading="lazy"
-                          />
-                        ) : null}
-                      </span>
-                      <span className="mega-menu-3col__product-name">{sub.name}</span>
-                    </Link>
-                  ))}
-                </div>
+          <div className="mega-menu-directory">
+            <div className="mega-menu-directory__header">
+              <div>
+                <p className="mega-menu-directory__eyebrow">产品分类</p>
+                <h2 className="mega-menu-directory__title">{group.name}</h2>
               </div>
-            ) : null}
+              <Link href="/zh/all-products/" className="mega-menu-directory__see-all">
+                查看全部分类
+              </Link>
+            </div>
+            <div className="mega-menu-directory__grid">
+              {group.categories.map((category) => {
+                const image = category.image ?? category.subs[0]?.image ?? null
+                const productCount = category.subs.length
+
+                return (
+                  <Link
+                    key={category.name}
+                    href={toPath(category.url)}
+                    className="mega-menu-directory__item"
+                  >
+                    <span className="mega-menu-directory__thumb">
+                      {image ? (
+                        // eslint-disable-next-line @next/next/no-img-element
+                        <img
+                          src={image}
+                          alt={category.name}
+                          className="i-object-contain"
+                          loading="lazy"
+                        />
+                      ) : (
+                        <span className="mega-menu-directory__fallback" aria-hidden="true">
+                          {category.name.slice(0, 1)}
+                        </span>
+                      )}
+                    </span>
+                    <span className="mega-menu-directory__content">
+                      <span className="mega-menu-directory__name">{category.name}</span>
+                      <span className="mega-menu-directory__meta">{productCount} 款产品</span>
+                    </span>
+                    <span className="mega-menu-directory__arrow" aria-hidden="true">
+                      →
+                    </span>
+                  </Link>
+                )
+              })}
+            </div>
           </div>
         </div>
       </div>

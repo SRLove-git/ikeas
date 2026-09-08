@@ -703,121 +703,146 @@
 }
 
 /* ---------------------------------------------------------------------------
- * BUZUD three-level mega menu (group -> category -> products)
+ * BUZUD category-directory mega menu (compact grouped links)
  * ------------------------------------------------------------------------- */
-.mega-menu-3col {
-  display: flex;
+.mega-menu-directory {
   max-height: 80vh;
-}
-
-.mega-menu-3col__groups {
-  border-right: 1px solid #f5f5f5;
-  flex: 0 0 190px;
   overflow-y: auto;
-  padding: 20px 0;
+  padding: 32px 0 40px;
 }
 
-.mega-menu-3col__categories {
-  border-right: 1px solid #f5f5f5;
-  flex: 0 0 240px;
-  overflow-y: auto;
-  padding: 20px 0;
-}
-
-.mega-menu-3col__item {
-  align-items: center;
-  background: none;
-  border: 0;
-  color: #111111;
-  cursor: pointer;
+.mega-menu-directory__header {
+  align-items: flex-end;
   display: flex;
-  font: inherit;
-  font-size: 14px;
-  font-weight: 700;
   justify-content: space-between;
-  padding: 10px 20px;
-  text-align: left;
-  text-decoration: none;
-  width: 100%;
+  margin-bottom: 20px;
 }
 
-.mega-menu-3col__item:hover,
-.mega-menu-3col__item.is-active {
+.mega-menu-directory__eyebrow {
   color: #0058a3;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  line-height: 18px;
+  margin-bottom: 4px;
+  text-transform: uppercase;
 }
 
-.mega-menu-3col__chevron {
-  height: 14px;
-  opacity: 0;
-  width: 14px;
-}
-
-.mega-menu-3col__item.is-active .mega-menu-3col__chevron {
-  opacity: 1;
-}
-
-.mega-menu-3col__products {
-  flex: 1;
-  min-width: 0;
-  overflow-y: auto;
-  padding: 20px 0 40px;
-}
-
-.mega-menu-3col__products-title {
+.mega-menu-directory__title {
   color: #111111;
-  display: block;
+  font-size: 26px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 34px;
+  margin: 0;
+}
+
+.mega-menu-directory__see-all {
+  color: #0058a3;
   font-size: 14px;
   font-weight: 700;
-  padding: 10px 0 0 40px;
+  line-height: 22px;
+  padding-bottom: 2px;
   text-decoration: none;
 }
 
-.mega-menu-3col__products-title:hover {
+.mega-menu-directory__see-all:hover {
   text-decoration: underline;
 }
 
-.mega-menu-3col__products-grid {
+.mega-menu-directory__grid {
   display: grid;
-  gap: 8px 24px;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  padding: 12px 40px 0;
+  gap: 10px 24px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
-.mega-menu-3col__product {
+.mega-menu-directory__item {
   align-items: center;
+  background: #ffffff;
+  border: 1px solid #f0f0f0;
   border-radius: var(--radius-lg);
   color: #111111;
   display: flex;
-  padding: 10px 8px;
+  gap: 14px;
+  min-height: 68px;
+  padding: 10px 12px;
   text-decoration: none;
-  transition: background-color 0.25s ease;
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.2s ease;
 }
 
-.mega-menu-3col__product:hover {
-  background: #f5f5f5;
+.mega-menu-directory__item:hover {
+  background: #f8fafc;
+  border-color: #dbe7f2;
+  transform: translateY(-1px);
 }
 
-.mega-menu-3col__product-img {
-  flex: 0 0 64px;
-  height: 64px;
-  margin-right: 16px;
+.mega-menu-directory__item:focus-visible {
+  outline: 2px solid #0058a3;
+  outline-offset: 2px;
+}
+
+.mega-menu-directory__thumb {
+  align-items: center;
+  background: #f7f7f7;
+  border-radius: 12px;
+  display: flex;
+  flex: 0 0 52px;
+  height: 52px;
+  justify-content: center;
   overflow: hidden;
-  position: relative;
-  width: 64px;
+  width: 52px;
 }
 
-.mega-menu-3col__product-img img {
+.mega-menu-directory__thumb img {
   height: 100%;
   mix-blend-mode: darken;
-  object-fit: cover;
+  object-fit: contain;
   width: 100%;
 }
 
-.mega-menu-3col__product-name {
-  font-size: 14px;
-  line-height: 21px;
+.mega-menu-directory__fallback {
+  color: #8c8c8c;
+  font-size: 18px;
+  font-weight: 800;
 }
 
+.mega-menu-directory__content {
+  flex: 1;
+  min-width: 0;
+}
+
+.mega-menu-directory__name {
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.mega-menu-directory__meta {
+  color: #757575;
+  display: block;
+  font-size: 12px;
+  line-height: 18px;
+  margin-top: 2px;
+}
+
+.mega-menu-directory__arrow {
+  color: #0058a3;
+  flex: 0 0 auto;
+  font-size: 16px;
+  line-height: 20px;
+  transition: transform 0.2s ease;
+}
+
+.mega-menu-directory__item:hover .mega-menu-directory__arrow {
+  transform: translateX(3px);
+}
 
 /* ---------------------------------------------------------------------------
  * Apple-style dropdown entrance: subtle slide-down + fade on the panel,
