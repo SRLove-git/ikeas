@@ -5,7 +5,7 @@ import Link from "next/link"
 import { useRouter } from "next/navigation"
 import { useTranslation } from "react-i18next"
 import { useAuth } from "@/lib/auth"
-import { API_BASE, apiJson, getToken } from "@/lib/api"
+import { apiJson } from "@/lib/api"
 import { CartIcon, CompassIcon, GiftIcon, HeartIcon, HomeIcon, TruckIcon } from "@/components/icons"
 import { Breadcrumbs } from "@/components/Breadcrumbs"
 
@@ -19,17 +19,6 @@ interface MarketingAccount {
   totalSpent: number
   nextLevelSpend: number
   coupons: unknown[]
-}
-
-interface PhysicalVoucher {
-  id: string
-  code: string
-  type: number
-  status: number
-  validUntil?: string | null
-  orderNo?: string | null
-  usedBookingId?: string | null
-  createdAt: string
 }
 
 function PhoneIcon({ size = 24 }: { size?: number }) {
@@ -99,17 +88,9 @@ export function ProfilePanel() {
   const [membershipConsent, setMembershipConsent] = useState(false)
   const [membershipNotice, setMembershipNotice] = useState<string | null>(null)
   const [marketing, setMarketing] = useState<MarketingAccount | null>(null)
-  const [vouchers, setVouchers] = useState<PhysicalVoucher[]>([])
   const [rechargeAmount, setRechargeAmount] = useState("")
   const [rechargeSubmitting, setRechargeSubmitting] = useState(false)
   const [marketingNotice, setMarketingNotice] = useState<string | null>(null)
-  const [voucherNotice, setVoucherNotice] = useState<string | null>(null)
-  const [downloadingPdf, setDownloadingPdf] = useState(false)
-  const [autoRedeeming, setAutoRedeeming] = useState(false)
-  const [autoRedeemResult, setAutoRedeemResult] = useState<{
-    experienceCode: string
-    usedPointCodes: string[]
-  } | null>(null)
 
   useEffect(() => {
     if (ready && !user) {
@@ -139,13 +120,6 @@ export function ProfilePanel() {
     }
   }, [ready, user])
 
-  useEffect(() => {
-    if (!ready || !user) return
-    apiJson<PhysicalVoucher[]>("/experience-vouchers/mine")
-      .then((data) => setVouchers(data))
-      .catch(() => setVouchers([]))
-  }, [ready, user])
-
   const recharge = async () => {
     const amount = Number(rechargeAmount)
     if (!Number.isFinite(amount) || amount <= 0) {
@@ -168,53 +142,6 @@ export function ProfilePanel() {
       setMarketingNotice(ex instanceof Error ? ex.message : "充值失败")
     } finally {
       setRechargeSubmitting(false)
-    }
-  }
-
-  const downloadPointsPdf = async () => {
-    setDownloadingPdf(true)
-    setVoucherNotice(null)
-    try {
-      const response = await fetch(
-        `${API_BASE}/api/v1/experience-vouchers/mine.pdf`,
-        { headers: { Authorization: `Bearer ${getToken() ?? ""}` } },
-      )
-      if (!response.ok) {
-        throw new Error(`Request failed (${response.status})`)
-      }
-      const blob = await response.blob()
-      const url = URL.createObjectURL(blob)
-      const link = document.createElement("a")
-      const disposition = response.headers.get("content-disposition") ?? ""
-      const match = /filename="?([^"]+)"?/.exec(disposition)
-      link.href = url
-      link.download = match?.[1] ?? "buzud-points-cards.pdf"
-      link.click()
-      URL.revokeObjectURL(url)
-    } catch (ex) {
-      setVoucherNotice(ex instanceof Error ? ex.message : "下载失败")
-    } finally {
-      setDownloadingPdf(false)
-    }
-  }
-
-  const autoRedeemPoints = async () => {
-    setAutoRedeeming(true)
-    setVoucherNotice(null)
-    setAutoRedeemResult(null)
-    try {
-      const result = await apiJson<{ experienceCode: string; usedPointCodes: string[] }>(
-        "/experience-vouchers/auto-redeem-points",
-        { method: "POST" },
-      )
-      setAutoRedeemResult(result)
-      setVoucherNotice(t("profile.voucherAutoRedeemSuccess", { code: result.experienceCode }))
-      const updated = await apiJson<PhysicalVoucher[]>("/experience-vouchers/mine")
-      setVouchers(updated)
-    } catch (ex) {
-      setVoucherNotice(ex instanceof Error ? ex.message : t("profile.voucherAutoRedeemFailed"))
-    } finally {
-      setAutoRedeeming(false)
     }
   }
 
@@ -291,74 +218,6 @@ export function ProfilePanel() {
           </section>
         ) : null}
 
-        {vouchers.length > 0 ? (
-          <section className="mt-6 rounded-lg border border-ikea-gray-200 p-6">
-            <div className="flex flex-wrap items-center justify-between gap-3">
-              <h2 className="text-base font-bold">{t("profile.vouchers")}</h2>
-              <div className="flex flex-wrap items-center gap-2">
-                {vouchers.filter((voucher) => voucher.type === 2 && voucher.status === 0).length >=
-                3 ? (
-                  <button
-                    type="button"
-                    disabled={autoRedeeming}
-                    onClick={() => void autoRedeemPoints()}
-                    className="i-btn i-btn--primary h-9 px-4 text-sm font-bold text-white disabled:opacity-50"
-                  >
-                    {autoRedeeming
-                      ? t("profile.voucherAutoRedeeming")
-                      : t("profile.voucherAutoRedeem")}
-                  </button>
-                ) : null}
-                {vouchers.some((voucher) => voucher.type === 2) ? (
-                  <button
-                    type="button"
-                    disabled={downloadingPdf}
-                    onClick={() => void downloadPointsPdf()}
-                    className="i-btn i-btn--secondary h-9 px-4 text-sm font-bold text-ikea-black disabled:opacity-50"
-                  >
-                    {t("profile.voucherDownloadPdf")}
-                  </button>
-                ) : null}
-              </div>
-            </div>
-            {voucherNotice ? (
-              <p className="mt-2 text-sm text-ikea-blue">{voucherNotice}</p>
-            ) : null}
-            {autoRedeemResult ? (
-              <div className="mt-2 rounded-md bg-ikea-gray-50 px-4 py-3 text-sm">
-                <p className="font-bold">{t("profile.voucherAutoRedeemedTitle")}</p>
-                <p className="mt-1 font-mono text-xs font-bold text-ikea-blue">
-                  {autoRedeemResult.experienceCode}
-                </p>
-                <p className="mt-1 text-xs text-ikea-muted">
-                  {t("profile.voucherAutoRedeemedUsed", {
-                    codes: autoRedeemResult.usedPointCodes.join(", "),
-                  })}
-                </p>
-              </div>
-            ) : null}
-            <div className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-              {vouchers.map((voucher) => (
-                <div key={voucher.id} className="rounded-md border border-ikea-gray-200 p-3">
-                  <p className="font-mono text-sm font-bold">{voucher.code}</p>
-                  <p className="mt-1 text-xs text-ikea-muted">
-                    {voucher.type === 2 ? t("profile.pointsVoucher") : t("profile.experienceVoucher")}
-                  </p>
-                  <p className="mt-1 text-xs text-ikea-muted">
-                    {voucher.status === 0
-                      ? t("profile.voucherUnused")
-                      : voucher.status === 1
-                        ? t("profile.voucherUsed")
-                        : voucher.status === 3
-                          ? t("profile.voucherInvalid")
-                          : t("profile.voucherDisabled")}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </section>
-        ) : null}
-
         <div className="mt-6 grid gap-px overflow-hidden rounded-lg border border-ikea-gray-200 bg-ikea-gray-200 sm:grid-cols-2 lg:grid-cols-3">
           {[
             {
@@ -372,6 +231,12 @@ export function ProfilePanel() {
               desc: t("profile.couponsDesc"),
               href: "/zh/profile/coupons/",
               icon: CompassIcon,
+            },
+            {
+              title: t("profile.vouchers"),
+              desc: t("profile.vouchersDesc"),
+              href: "/zh/profile/vouchers/",
+              icon: GiftIcon,
             },
             {
               title: t("profile.referral"),
