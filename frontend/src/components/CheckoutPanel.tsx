@@ -10,6 +10,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs"
 import { apiJson, type Cart, type OrderResponse } from "@/lib/api"
 import { formatPrice } from "@/lib/catalog-format"
 import { clearLocalCart, readLocalCart } from "@/lib/local-cart"
+import { readShippingAddresses, type ShippingAddress } from "@/lib/address-book"
 
 const DELIVERY_FEE = 9.9
 
@@ -48,6 +49,39 @@ export function CheckoutPanel() {
     region: "",
     detail: "",
   })
+  const [savedAddresses, setSavedAddresses] = useState<ShippingAddress[]>([])
+  const [selectedAddressId, setSelectedAddressId] = useState("")
+
+  useEffect(() => {
+    const addresses = readShippingAddresses()
+    setSavedAddresses(addresses)
+    const preferred = addresses.find((address) => address.isDefault) ?? addresses[0]
+    if (preferred && !form.customer && !form.phone && !form.region && !form.detail) {
+      setSelectedAddressId(preferred.id)
+      setForm({
+        customer: preferred.name,
+        phone: preferred.phone,
+        region: preferred.region,
+        detail: preferred.detail,
+      })
+    }
+  }, [])
+
+  const applySavedAddress = (addressId: string) => {
+    setSelectedAddressId(addressId)
+    if (!addressId) {
+      setForm({ customer: "", phone: "", region: "", detail: "" })
+      return
+    }
+    const address = savedAddresses.find((item) => item.id === addressId)
+    if (!address) return
+    setForm({
+      customer: address.name,
+      phone: address.phone,
+      region: address.region,
+      detail: address.detail,
+    })
+  }
 
   useEffect(() => {
     if (!ready) return
@@ -237,6 +271,21 @@ export function CheckoutPanel() {
 
             <section className="bg-white p-6">
               <h2 className="text-base font-bold">{t("checkout.stepShipping")}</h2>
+              {savedAddresses.length > 0 ? (
+                <select
+                  value={selectedAddressId}
+                  onChange={(event) => applySavedAddress(event.target.value)}
+                  className="mt-4 h-11 w-full border border-ikea-gray-200 bg-white px-4 text-sm outline-none focus:border-ikea-blue"
+                >
+                  <option value="">{t("checkout.manualAddress")}</option>
+                  {savedAddresses.map((address) => (
+                    <option key={address.id} value={address.id}>
+                      {address.name} · {address.phone} · {address.region} {address.detail}
+                      {address.isDefault ? ` (${t("address.default")})` : ""}
+                    </option>
+                  ))}
+                </select>
+              ) : null}
               <div className="mt-4 grid gap-4 sm:grid-cols-2">
                 <input
                   value={form.customer}
