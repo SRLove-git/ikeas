@@ -25,4 +25,7 @@ public final class ExperienceVoucherDtos {
   public record RedeemVoucherRequest(String code, List<String> codes, String bookingId) {}
 
   public record RedeemVoucherResponse(String code, String bookingId) {}
+
+  public record AutoRedeemPointsResponse(
+      String experienceCode, List<String> usedPointCodes, String message) {}
 }

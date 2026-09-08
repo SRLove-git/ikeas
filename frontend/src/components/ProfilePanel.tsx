@@ -105,6 +105,11 @@ export function ProfilePanel() {
   const [marketingNotice, setMarketingNotice] = useState<string | null>(null)
   const [voucherNotice, setVoucherNotice] = useState<string | null>(null)
   const [downloadingPdf, setDownloadingPdf] = useState(false)
+  const [autoRedeeming, setAutoRedeeming] = useState(false)
+  const [autoRedeemResult, setAutoRedeemResult] = useState<{
+    experienceCode: string
+    usedPointCodes: string[]
+  } | null>(null)
 
   useEffect(() => {
     if (ready && !user) {
@@ -193,6 +198,26 @@ export function ProfilePanel() {
     }
   }
 
+  const autoRedeemPoints = async () => {
+    setAutoRedeeming(true)
+    setVoucherNotice(null)
+    setAutoRedeemResult(null)
+    try {
+      const result = await apiJson<{ experienceCode: string; usedPointCodes: string[] }>(
+        "/experience-vouchers/auto-redeem-points",
+        { method: "POST" },
+      )
+      setAutoRedeemResult(result)
+      setVoucherNotice(t("profile.voucherAutoRedeemSuccess", { code: result.experienceCode }))
+      const updated = await apiJson<PhysicalVoucher[]>("/experience-vouchers/mine")
+      setVouchers(updated)
+    } catch (ex) {
+      setVoucherNotice(ex instanceof Error ? ex.message : t("profile.voucherAutoRedeemFailed"))
+    } finally {
+      setAutoRedeeming(false)
+    }
+  }
+
   const submitMembership = () => {
     setMembershipNotice(t("profile.membershipSubmitted"))
     setMembershipDrawerOpen(false)
@@ -270,19 +295,47 @@ export function ProfilePanel() {
           <section className="mt-6 rounded-lg border border-ikea-gray-200 p-6">
             <div className="flex flex-wrap items-center justify-between gap-3">
               <h2 className="text-base font-bold">{t("profile.vouchers")}</h2>
-              {vouchers.some((voucher) => voucher.type === 2) ? (
-                <button
-                  type="button"
-                  disabled={downloadingPdf}
-                  onClick={() => void downloadPointsPdf()}
-                  className="i-btn i-btn--secondary h-9 px-4 text-sm font-bold text-ikea-black disabled:opacity-50"
-                >
-                  {t("profile.voucherDownloadPdf")}
-                </button>
-              ) : null}
+              <div className="flex flex-wrap items-center gap-2">
+                {vouchers.filter((voucher) => voucher.type === 2 && voucher.status === 0).length >=
+                3 ? (
+                  <button
+                    type="button"
+                    disabled={autoRedeeming}
+                    onClick={() => void autoRedeemPoints()}
+                    className="i-btn i-btn--primary h-9 px-4 text-sm font-bold text-white disabled:opacity-50"
+                  >
+                    {autoRedeeming
+                      ? t("profile.voucherAutoRedeeming")
+                      : t("profile.voucherAutoRedeem")}
+                  </button>
+                ) : null}
+                {vouchers.some((voucher) => voucher.type === 2) ? (
+                  <button
+                    type="button"
+                    disabled={downloadingPdf}
+                    onClick={() => void downloadPointsPdf()}
+                    className="i-btn i-btn--secondary h-9 px-4 text-sm font-bold text-ikea-black disabled:opacity-50"
+                  >
+                    {t("profile.voucherDownloadPdf")}
+                  </button>
+                ) : null}
+              </div>
             </div>
             {voucherNotice ? (
               <p className="mt-2 text-sm text-ikea-blue">{voucherNotice}</p>
+            ) : null}
+            {autoRedeemResult ? (
+              <div className="mt-2 rounded-md bg-ikea-gray-50 px-4 py-3 text-sm">
+                <p className="font-bold">{t("profile.voucherAutoRedeemedTitle")}</p>
+                <p className="mt-1 font-mono text-xs font-bold text-ikea-blue">
+                  {autoRedeemResult.experienceCode}
+                </p>
+                <p className="mt-1 text-xs text-ikea-muted">
+                  {t("profile.voucherAutoRedeemedUsed", {
+                    codes: autoRedeemResult.usedPointCodes.join(", "),
+                  })}
+                </p>
+              </div>
             ) : null}
             <div className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
               {vouchers.map((voucher) => (

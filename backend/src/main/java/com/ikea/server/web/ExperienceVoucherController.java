@@ -1,6 +1,7 @@
 package com.ikea.server.web;
 
 import com.ikea.server.constant.SecurityConstants;
+import com.ikea.server.dto.experience.ExperienceVoucherDtos.AutoRedeemPointsResponse;
 import com.ikea.server.dto.experience.ExperienceVoucherDtos.RedeemVoucherRequest;
 import com.ikea.server.dto.experience.ExperienceVoucherDtos.RedeemVoucherResponse;
 import com.ikea.server.dto.experience.ExperienceVoucherDtos.ValidateVoucherRequest;
@@ -66,6 +67,11 @@ public class ExperienceVoucherController {
       return new RedeemVoucherResponse(codes, bookingId);
     }
     return voucherService.redeem(request.code(), request.bookingId());
+  }
+
+  @PostMapping("/auto-redeem-points")
+  public AutoRedeemPointsResponse autoRedeemPoints(HttpServletRequest request) {
+    return voucherService.autoRedeemPoints(userId(request));
   }
 
   private static Long userId(HttpServletRequest request) {

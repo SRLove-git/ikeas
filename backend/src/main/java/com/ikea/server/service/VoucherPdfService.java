@@ -51,13 +51,18 @@ public class VoucherPdfService {
   private static final DateTimeFormatter VALID_UNTIL = DateTimeFormatter.ofPattern("yyyy-MM-dd");
 
   private final String bookingUrl;
+  private final String pointsRedeemUrl;
   private final PDType1Font codeFont;
 
   public VoucherPdfService(
-      @Value("${ikea.voucher.booking-url:https://medical-sg.com/en/booking/}") String bookingUrl) {
+      @Value("${ikea.voucher.booking-url:https://medical-sg.com/en/booking/}") String bookingUrl,
+      @Value("${ikea.voucher.points-redeem-url:https://medical-sg.com/zh/profile/}") String pointsRedeemUrl) {
     this.bookingUrl = bookingUrl == null || bookingUrl.isBlank()
         ? "https://medical-sg.com/en/booking/"
         : bookingUrl;
+    this.pointsRedeemUrl = pointsRedeemUrl == null || pointsRedeemUrl.isBlank()
+        ? "https://medical-sg.com/zh/profile/"
+        : pointsRedeemUrl;
     this.codeFont = new PDType1Font(Standard14Fonts.FontName.HELVETICA_BOLD);
   }
 
@@ -113,7 +118,7 @@ public class VoucherPdfService {
         new PDPageContentStream(
             document, page, PDPageContentStream.AppendMode.APPEND, true, true)) {
       cover(cs, POINTS_QR_X, POINTS_QR_Y, POINTS_QR_SIZE, POINTS_QR_SIZE);
-      drawQr(cs, bookingUrlFor(code), POINTS_QR_X, POINTS_QR_Y, POINTS_QR_SIZE);
+      drawQr(cs, pointsRedeemUrlFor(code), POINTS_QR_X, POINTS_QR_Y, POINTS_QR_SIZE);
       drawCentered(cs, codeFont, 9, code, POINTS_CODE_X, POINTS_CODE_Y);
     }
   }
@@ -185,6 +190,13 @@ public class VoucherPdfService {
   private String bookingUrlFor(String code) {
     return bookingUrl
         + (bookingUrl.contains("?") ? "&" : "?")
+        + "voucher="
+        + URLEncoder.encode(code, StandardCharsets.UTF_8);
+  }
+
+  private String pointsRedeemUrlFor(String code) {
+    return pointsRedeemUrl
+        + (pointsRedeemUrl.contains("?") ? "&" : "?")
         + "voucher="
         + URLEncoder.encode(code, StandardCharsets.UTF_8);
   }

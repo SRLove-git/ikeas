@@ -4,6 +4,7 @@ import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import com.ikea.server.dto.experience.ExperienceVoucherDtos.AdminCreateVouchersRequest;
 import com.ikea.server.dto.experience.ExperienceVoucherDtos.AdminGenerateVouchersRequest;
 import com.ikea.server.dto.experience.ExperienceVoucherDtos.AdminUpdateVoucherRequest;
+import com.ikea.server.dto.experience.ExperienceVoucherDtos.AutoRedeemPointsResponse;
 import com.ikea.server.dto.experience.ExperienceVoucherDtos.RedeemVoucherResponse;
 import com.ikea.server.dto.experience.ExperienceVoucherDtos.ValidateVoucherResponse;
 import com.ikea.server.entity.ExperienceVoucher;
@@ -86,6 +87,48 @@ public class ExperienceVoucherService {
         .stream()
         .map(ExperienceVoucher::getCode)
         .toList();
+  }
+
+  /** 自动兑换：将当前用户名下 3 张未使用的积分券合并成 1 张体验券。 */
+  @Transactional
+  public AutoRedeemPointsResponse autoRedeemPoints(Long userId) {
+    if (userId == null) {
+      throw new IllegalArgumentException("请先登录");
+    }
+    List<ExperienceVoucher> points =
+        voucherMapper.selectList(
+            Wrappers.lambdaQuery(ExperienceVoucher.class)
+                .eq(ExperienceVoucher::getUserId, userId)
+                .eq(ExperienceVoucher::getType, TYPE_POINTS)
+                .eq(ExperienceVoucher::getStatus, STATUS_UNUSED)
+                .eq(ExperienceVoucher::getDeleted, 0)
+                .orderByAsc(ExperienceVoucher::getCreatedAt)
+                .last("LIMIT 3"));
+    if (points.size() < 3) {
+      throw new IllegalArgumentException("需要 3 张未使用的积分券才能兑换体验券");
+    }
+
+    String exchangeNo = "AUTO-EXCHANGE-" + System.currentTimeMillis();
+    for (ExperienceVoucher point : points) {
+      point.setStatus(STATUS_USED);
+      point.setUsedBookingId(exchangeNo);
+      point.setUsedAt(LocalDateTime.now(ZoneOffset.UTC));
+      voucherMapper.updateById(point);
+    }
+
+    ExperienceVoucher experience =
+        newVoucher(
+            TYPE_EXPERIENCE,
+            newUniqueCode(TYPE_EXPERIENCE),
+            "3 张积分券自动兑换",
+            null,
+            "EXCHANGE-" + System.currentTimeMillis());
+    experience.setUserId(userId);
+    voucherMapper.insert(experience);
+    return new AutoRedeemPointsResponse(
+        experience.getCode(),
+        points.stream().map(ExperienceVoucher::getCode).toList(),
+        "已自动兑换为 1 张体验券");
   }
 
   @Transactional

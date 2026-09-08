@@ -14,7 +14,10 @@ class VoucherPdfServiceTest {
 
   @Test
   void generatePointsAndExperiencePdf() throws Exception {
-    VoucherPdfService service = new VoucherPdfService("https://medical-sg.com/en/booking/");
+    VoucherPdfService service =
+        new VoucherPdfService(
+            "https://medical-sg.com/en/booking/",
+            "https://medical-sg.com/zh/profile/");
 
     ExperienceVoucher points = voucher("BZP-TEST-001", 2, null);
     ExperienceVoucher experience = voucher("BZE-TEST-001", 1, LocalDateTime.now().plusDays(30));
