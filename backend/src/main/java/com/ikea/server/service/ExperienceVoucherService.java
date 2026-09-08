@@ -75,6 +75,19 @@ public class ExperienceVoucherService {
             .orderByDesc(ExperienceVoucher::getCreatedAt));
   }
 
+  public List<String> listUserPointsVoucherCodes(Long userId) {
+    return voucherMapper.selectList(
+            Wrappers.lambdaQuery(ExperienceVoucher.class)
+                .eq(ExperienceVoucher::getUserId, userId)
+                .eq(ExperienceVoucher::getType, TYPE_POINTS)
+                .eq(ExperienceVoucher::getDeleted, 0)
+                .orderByAsc(ExperienceVoucher::getStatus)
+                .orderByDesc(ExperienceVoucher::getCreatedAt))
+        .stream()
+        .map(ExperienceVoucher::getCode)
+        .toList();
+  }
+
   @Transactional
   public List<ExperienceVoucher> createVouchers(AdminCreateVouchersRequest request) {
     List<String> codes = normalizeCodes(request == null ? null : request.codes());
@@ -275,6 +288,34 @@ public class ExperienceVoucherService {
     voucher.setOrderNo(safeOrderNo);
     voucherMapper.insert(voucher);
     return voucher;
+  }
+
+  /** 邀请奖励：好友通过邀请链接注册成功后，给邀请人发放 3 张积分券，幂等。 */
+  @Transactional
+  public List<ExperienceVoucher> issueReferralPoints(Long userId, String batchNo, String remark) {
+    if (userId == null) {
+      throw new IllegalArgumentException("请先登录");
+    }
+    String safeBatchNo = normalizeBatchNo(batchNo);
+    List<ExperienceVoucher> existing =
+        voucherMapper.selectList(
+            Wrappers.lambdaQuery(ExperienceVoucher.class)
+                .eq(ExperienceVoucher::getBatchNo, safeBatchNo)
+                .eq(ExperienceVoucher::getType, TYPE_POINTS)
+                .eq(ExperienceVoucher::getDeleted, 0));
+    if (!existing.isEmpty()) {
+      return existing;
+    }
+
+    List<ExperienceVoucher> vouchers = new ArrayList<>();
+    for (int i = 0; i < 3; i++) {
+      ExperienceVoucher voucher =
+          newVoucher(TYPE_POINTS, newUniqueCode(TYPE_POINTS), remark, null, safeBatchNo);
+      voucher.setUserId(userId);
+      voucherMapper.insert(voucher);
+      vouchers.add(voucher);
+    }
+    return vouchers;
   }
 
   /** 订单退款或作废后，将对应未使用积分券置为已作废。 */

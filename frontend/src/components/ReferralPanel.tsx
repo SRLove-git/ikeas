@@ -1,13 +1,20 @@
 "use client"
 
 import { useEffect, useState } from "react"
+import Link from "next/link"
 import { useRouter } from "next/navigation"
 import { useTranslation } from "react-i18next"
 import { Breadcrumbs } from "@/components/Breadcrumbs"
 import { GiftIcon } from "@/components/icons"
 import { useAuth } from "@/lib/auth"
-import { apiJson, type ReferralSummary } from "@/lib/api"
+import { API_BASE, apiJson, getToken, type ReferralSummary } from "@/lib/api"
 import { formatPrice } from "@/lib/catalog-format"
+
+interface PointsVoucher {
+  id: string
+  code: string
+  type: number
+}
 
 export function ReferralPanel() {
   const { t } = useTranslation()
@@ -16,6 +23,8 @@ export function ReferralPanel() {
   const [summary, setSummary] = useState<ReferralSummary | null>(null)
   const [error, setError] = useState<string | null>(null)
   const [copied, setCopied] = useState(false)
+  const [pointsVouchers, setPointsVouchers] = useState<PointsVoucher[]>([])
+  const [shareNotice, setShareNotice] = useState<string | null>(null)
 
   useEffect(() => {
     if (!ready) return
@@ -38,7 +47,20 @@ export function ReferralPanel() {
         }
       }
     }
+    const loadPointsVouchers = async () => {
+      try {
+        const vouchers = await apiJson<PointsVoucher[]>("/experience-vouchers/mine")
+        if (!cancelled) {
+          setPointsVouchers(vouchers.filter((voucher) => voucher.type === 2))
+        }
+      } catch {
+        if (!cancelled) {
+          setPointsVouchers([])
+        }
+      }
+    }
     void load()
+    void loadPointsVouchers()
     return () => {
       cancelled = true
     }
@@ -79,6 +101,28 @@ export function ReferralPanel() {
       setCopied(true)
     }
     window.setTimeout(() => setCopied(false), 2000)
+  }
+
+  const downloadPointsPdf = async () => {
+    try {
+      const response = await fetch(`${API_BASE}/api/v1/experience-vouchers/mine.pdf`, {
+        headers: { Authorization: `Bearer ${getToken() ?? ""}` },
+      })
+      if (!response.ok) {
+        throw new Error(`Request failed (${response.status})`)
+      }
+      const blob = await response.blob()
+      const url = URL.createObjectURL(blob)
+      const link = document.createElement("a")
+      const disposition = response.headers.get("content-disposition") ?? ""
+      const match = /filename="?([^"]+)"?/.exec(disposition)
+      link.href = url
+      link.download = match?.[1] ?? "buzud-points-cards.pdf"
+      link.click()
+      URL.revokeObjectURL(url)
+    } catch (ex) {
+      setShareNotice(ex instanceof Error ? ex.message : t("referral.loadFailed"))
+    }
   }
 
   const share = async () => {
@@ -205,6 +249,46 @@ export function ReferralPanel() {
                     {summary.issuedCouponCount}
                   </p>
                   <p className="mt-1 text-xs text-ikea-muted">{t("referral.couponCountHint")}</p>
+                </div>
+
+                <div className="rounded-lg border border-ikea-gray-200 p-6">
+                  <p className="text-sm font-bold">{t("referral.sharePointsTitle")}</p>
+                  <p className="mt-2 text-xs leading-5 text-ikea-muted">
+                    {t("referral.sharePointsHint")}
+                  </p>
+                  {pointsVouchers.length > 0 ? (
+                    <div className="mt-4 space-y-3">
+                      <div className="space-y-2">
+                        {pointsVouchers.map((voucher) => (
+                          <p
+                            key={voucher.id}
+                            className="rounded-md border border-ikea-gray-200 bg-ikea-gray-50 px-3 py-2 font-mono text-xs font-bold"
+                          >
+                            {voucher.code}
+                          </p>
+                        ))}
+                      </div>
+                      <p className="text-xs leading-5 text-ikea-muted">
+                        {t("referral.sharePointsCount", { count: pointsVouchers.length })}
+                      </p>
+                      <button
+                        type="button"
+                        onClick={() => void downloadPointsPdf()}
+                        className="i-btn i-btn--secondary h-11 w-full px-4 text-sm font-bold text-ikea-black"
+                      >
+                        {t("referral.sharePointsDownload")}
+                      </button>
+                      <Link
+                        href="/zh/profile/"
+                        className="block text-center text-xs font-bold text-ikea-blue hover:underline"
+                      >
+                        {t("referral.sharePointsGoVouchers")}
+                      </Link>
+                    </div>
+                  ) : null}
+                  {shareNotice ? (
+                    <p className="mt-3 text-xs leading-5 text-ikea-blue">{shareNotice}</p>
+                  ) : null}
                 </div>
               </aside>
             </div>

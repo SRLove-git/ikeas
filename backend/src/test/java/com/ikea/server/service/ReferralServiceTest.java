@@ -6,6 +6,7 @@ import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
+import static org.mockito.ArgumentMatchers.startsWith;
 
 import com.baomidou.mybatisplus.core.conditions.Wrapper;
 import com.ikea.server.entity.AppUser;
@@ -31,6 +32,7 @@ class ReferralServiceTest {
   private CouponMapper couponMapper;
   private UserCouponMapper userCouponMapper;
   private UserService userService;
+  private ExperienceVoucherService experienceVoucherService;
   private ReferralService referralService;
 
   @BeforeEach
@@ -40,13 +42,15 @@ class ReferralServiceTest {
     couponMapper = mock(CouponMapper.class);
     userCouponMapper = mock(UserCouponMapper.class);
     userService = mock(UserService.class);
+    experienceVoucherService = mock(ExperienceVoucherService.class);
     referralService =
         new ReferralService(
             referralMapper,
             referralRewardMapper,
             couponMapper,
             userCouponMapper,
-            userService);
+            userService,
+            experienceVoucherService);
   }
 
   @Test
@@ -68,6 +72,10 @@ class ReferralServiceTest {
 
     assertEquals(true, recorded);
     verify(referralMapper).insert(any(Referral.class));
+    verify(experienceVoucherService).issueReferralPoints(
+        org.mockito.ArgumentMatchers.eq(100L),
+        startsWith("REF-"),
+        org.mockito.ArgumentMatchers.eq("邀请好友注册奖励"));
 
     ArgumentCaptor<ReferralReward> rewardCaptor = ArgumentCaptor.forClass(ReferralReward.class);
     verify(referralRewardMapper).insert(rewardCaptor.capture());

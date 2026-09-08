@@ -9,6 +9,10 @@ import com.ikea.server.entity.ExperienceVoucher;
 import com.ikea.server.service.ExperienceVoucherService;
 import jakarta.servlet.http.HttpServletRequest;
 import java.util.List;
+import org.springframework.http.ContentDisposition;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -33,6 +37,24 @@ public class ExperienceVoucherController {
   @GetMapping("/mine")
   public List<ExperienceVoucher> mine(HttpServletRequest request) {
     return voucherService.listUserVouchers(userId(request));
+  }
+
+  /** 导出当前登录用户自己的积分券 PDF（使用积分券 A4 模板叠加券码与二维码）。 */
+  @GetMapping("/mine.pdf")
+  public ResponseEntity<byte[]> minePdf(HttpServletRequest request) {
+    Long uid = userId(request);
+    List<String> codes = voucherService.listUserPointsVoucherCodes(uid);
+    if (codes.isEmpty()) {
+      throw new IllegalArgumentException("您还没有可导出的积分券");
+    }
+    byte[] pdf = voucherService.generatePdf(codes);
+    String filename = voucherService.pdfFilename(codes);
+    return ResponseEntity.ok()
+        .header(
+            HttpHeaders.CONTENT_DISPOSITION,
+            ContentDisposition.attachment().filename(filename).build().toString())
+        .contentType(MediaType.APPLICATION_PDF)
+        .body(pdf);
   }
 
   @PostMapping("/redeem")

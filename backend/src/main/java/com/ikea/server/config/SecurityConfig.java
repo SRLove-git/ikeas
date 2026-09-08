@@ -65,6 +65,7 @@ public class SecurityConfig {
                         "/api/v1/favorites/**",
                         "/api/v1/marketing/**",
                         "/api/v1/experience-vouchers/mine",
+                        "/api/v1/experience-vouchers/mine.pdf",
                         "/api/v1/referrals/**",
                         "/api/v1/invoices/**",
                         "/api/v1/stock-alerts",

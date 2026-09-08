@@ -33,18 +33,21 @@ public class ReferralService {
   private final CouponMapper couponMapper;
   private final UserCouponMapper userCouponMapper;
   private final UserService userService;
+  private final ExperienceVoucherService experienceVoucherService;
 
   public ReferralService(
       ReferralMapper referralMapper,
       ReferralRewardMapper referralRewardMapper,
       CouponMapper couponMapper,
       UserCouponMapper userCouponMapper,
-      UserService userService) {
+      UserService userService,
+      ExperienceVoucherService experienceVoucherService) {
     this.referralMapper = referralMapper;
     this.referralRewardMapper = referralRewardMapper;
     this.couponMapper = couponMapper;
     this.userCouponMapper = userCouponMapper;
     this.userService = userService;
+    this.experienceVoucherService = experienceVoucherService;
   }
 
   public String referralCode(Long userId) {
@@ -78,6 +81,10 @@ public class ReferralService {
     } catch (DuplicateKeyException ex) {
       return false;
     }
+
+    // 好友通过邀请链接真实注册成功后，给邀请人发放 3 张积分券（3 张可兑换 1 张体验券）。
+    experienceVoucherService.issueReferralPoints(
+        inviterId, "REF-" + referral.getId(), "邀请好友注册奖励");
 
     int referralCount = countReferrals(inviterId);
     grantCoupon(inviterId, inviteeId, REFER_COUPON);

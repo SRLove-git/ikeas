@@ -5,7 +5,7 @@ import Link from "next/link"
 import { useRouter } from "next/navigation"
 import { useTranslation } from "react-i18next"
 import { useAuth } from "@/lib/auth"
-import { apiJson } from "@/lib/api"
+import { API_BASE, apiJson, getToken } from "@/lib/api"
 import { CartIcon, CompassIcon, GiftIcon, HeartIcon, HomeIcon, TruckIcon } from "@/components/icons"
 import { Breadcrumbs } from "@/components/Breadcrumbs"
 
@@ -103,6 +103,8 @@ export function ProfilePanel() {
   const [rechargeAmount, setRechargeAmount] = useState("")
   const [rechargeSubmitting, setRechargeSubmitting] = useState(false)
   const [marketingNotice, setMarketingNotice] = useState<string | null>(null)
+  const [voucherNotice, setVoucherNotice] = useState<string | null>(null)
+  const [downloadingPdf, setDownloadingPdf] = useState(false)
 
   useEffect(() => {
     if (ready && !user) {
@@ -161,6 +163,33 @@ export function ProfilePanel() {
       setMarketingNotice(ex instanceof Error ? ex.message : "充值失败")
     } finally {
       setRechargeSubmitting(false)
+    }
+  }
+
+  const downloadPointsPdf = async () => {
+    setDownloadingPdf(true)
+    setVoucherNotice(null)
+    try {
+      const response = await fetch(
+        `${API_BASE}/api/v1/experience-vouchers/mine.pdf`,
+        { headers: { Authorization: `Bearer ${getToken() ?? ""}` } },
+      )
+      if (!response.ok) {
+        throw new Error(`Request failed (${response.status})`)
+      }
+      const blob = await response.blob()
+      const url = URL.createObjectURL(blob)
+      const link = document.createElement("a")
+      const disposition = response.headers.get("content-disposition") ?? ""
+      const match = /filename="?([^"]+)"?/.exec(disposition)
+      link.href = url
+      link.download = match?.[1] ?? "buzud-points-cards.pdf"
+      link.click()
+      URL.revokeObjectURL(url)
+    } catch (ex) {
+      setVoucherNotice(ex instanceof Error ? ex.message : "下载失败")
+    } finally {
+      setDownloadingPdf(false)
     }
   }
 
@@ -239,7 +268,22 @@ export function ProfilePanel() {
 
         {vouchers.length > 0 ? (
           <section className="mt-6 rounded-lg border border-ikea-gray-200 p-6">
-            <h2 className="text-base font-bold">{t("profile.vouchers")}</h2>
+            <div className="flex flex-wrap items-center justify-between gap-3">
+              <h2 className="text-base font-bold">{t("profile.vouchers")}</h2>
+              {vouchers.some((voucher) => voucher.type === 2) ? (
+                <button
+                  type="button"
+                  disabled={downloadingPdf}
+                  onClick={() => void downloadPointsPdf()}
+                  className="i-btn i-btn--secondary h-9 px-4 text-sm font-bold text-ikea-black disabled:opacity-50"
+                >
+                  {t("profile.voucherDownloadPdf")}
+                </button>
+              ) : null}
+            </div>
+            {voucherNotice ? (
+              <p className="mt-2 text-sm text-ikea-blue">{voucherNotice}</p>
+            ) : null}
             <div className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
               {vouchers.map((voucher) => (
                 <div key={voucher.id} className="rounded-md border border-ikea-gray-200 p-3">
