@@ -1,27 +1,18 @@
 {
   "brand": "CHUNG YIP HOLDING PTE. LTD.",
-  "hotline": "+65 83811666",
-  "hotlineTel": "+6583811666",
-  "whatsappUrl": "https://wa.me/6583811666",
   "email": "customerservice@chungyip.com",
   "stores": [
     {
       "name": "Raffles Hospital",
-      "address": "585 North Bridge Road, #01-02, Singapore 188770",
-      "phone": "+65 6518 9979",
-      "tel": "+6565189979"
+      "address": "585 North Bridge Road, #01-02, Singapore 188770"
     },
     {
       "name": "Novena Square 2",
-      "address": "10 Sinaran Dr, #03-21, Singapore 307506",
-      "phone": "+65 6518 9269",
-      "tel": "+6565189269"
+      "address": "10 Sinaran Dr, #03-21, Singapore 307506"
     },
     {
       "name": "PARKROYAL on Beach Road",
-      "address": "7500 Beach Road, Level 4, Singapore 199591",
-      "phone": "+65 9888 3885",
-      "tel": "+6598883885"
+      "address": "7500 Beach Road, Level 4, Singapore 199591"
     }
   ]
 }

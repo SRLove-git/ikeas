@@ -79,24 +79,106 @@ public class MarketingService {
     return new ClaimResponse(coupon.getCode(), coupon.getName());
   }
 
-  public List<Coupon> listCoupons() {
-    return couponMapper.selectList(Wrappers.lambdaQuery(Coupon.class)
-        .eq(Coupon::getDeleted, 0)
-        .orderByDesc(Coupon::getId));
+  public List<Coupon> listCoupons(String keyword, Integer status) {
+    var query =
+        Wrappers.lambdaQuery(Coupon.class).eq(Coupon::getDeleted, 0);
+    if (keyword != null && !keyword.isBlank()) {
+      query.and(
+          wrapper ->
+              wrapper
+                  .like(Coupon::getCode, keyword)
+                  .or()
+                  .like(Coupon::getName, keyword));
+    }
+    if (status != null) {
+      query.eq(Coupon::getStatus, status);
+    }
+    return couponMapper.selectList(query.orderByDesc(Coupon::getId));
   }
 
   public Coupon createCoupon(AdminCouponRequest request) {
+    if (request == null || request.type() == null || (request.type() != 1 && request.type() != 2)) {
+      throw new IllegalArgumentException("优惠券类型不正确");
+    }
+    if (request.value() == null || request.value().signum() < 0) {
+      throw new IllegalArgumentException("优惠券面额或折扣不能小于 0");
+    }
+    if (request.minAmount() == null || request.minAmount().signum() < 0) {
+      throw new IllegalArgumentException("最低消费金额不能小于 0");
+    }
+    if (request.status() == null || (request.status() != 0 && request.status() != 1)) {
+      throw new IllegalArgumentException("优惠券状态不正确");
+    }
+    String code = requiredCode(request.code());
+    Long codeExists =
+        couponMapper.selectCount(
+            Wrappers.lambdaQuery(Coupon.class)
+                .eq(Coupon::getCode, code)
+                .eq(Coupon::getDeleted, 0));
+    if (codeExists != null && codeExists > 0) {
+      throw new IllegalArgumentException("优惠券编码已存在");
+    }
     Coupon coupon = new Coupon();
-    coupon.setCode(request.code());
-    coupon.setName(request.name());
-    coupon.setType(request.type() == null ? 1 : request.type());
-    coupon.setValue(request.value() == null ? BigDecimal.ZERO : request.value());
-    coupon.setMinAmount(request.minAmount() == null ? BigDecimal.ZERO : request.minAmount());
-    coupon.setStatus(request.status() == null ? 1 : request.status());
+    coupon.setCode(code);
+    coupon.setName(requiredName(request.name()));
+    coupon.setType(request.type());
+    coupon.setValue(request.value());
+    coupon.setMinAmount(request.minAmount());
+    coupon.setStatus(request.status());
     coupon.setValidFrom(request.validFrom());
     coupon.setValidTo(request.validTo());
     couponMapper.insert(coupon);
     return coupon;
+  }
+
+  @Transactional
+  public Coupon updateCoupon(Long id, AdminCouponRequest request) {
+    Coupon coupon = couponMapper.selectById(id);
+    if (coupon == null || coupon.getDeleted() != null && coupon.getDeleted() == 1) {
+      throw new IllegalArgumentException("优惠券不存在");
+    }
+    String code = requiredCode(request == null ? null : request.code());
+    Long codeExists =
+        couponMapper.selectCount(
+            Wrappers.lambdaQuery(Coupon.class)
+                .eq(Coupon::getCode, code)
+                .eq(Coupon::getDeleted, 0)
+                .ne(Coupon::getId, id));
+    if (codeExists != null && codeExists > 0) {
+      throw new IllegalArgumentException("优惠券编码已存在");
+    }
+    if (request.type() == null || (request.type() != 1 && request.type() != 2)) {
+      throw new IllegalArgumentException("优惠券类型不正确");
+    }
+    if (request.value() == null || request.value().signum() < 0) {
+      throw new IllegalArgumentException("优惠券面额或折扣不能小于 0");
+    }
+    if (request.minAmount() == null || request.minAmount().signum() < 0) {
+      throw new IllegalArgumentException("最低消费金额不能小于 0");
+    }
+    if (request.status() == null || (request.status() != 0 && request.status() != 1)) {
+      throw new IllegalArgumentException("优惠券状态不正确");
+    }
+
+    coupon.setCode(code);
+    coupon.setName(requiredName(request.name()));
+    coupon.setType(request.type());
+    coupon.setValue(request.value());
+    coupon.setMinAmount(request.minAmount());
+    coupon.setStatus(request.status());
+    coupon.setValidFrom(request.validFrom());
+    coupon.setValidTo(request.validTo());
+    couponMapper.updateById(coupon);
+    return coupon;
+  }
+
+  @Transactional
+  public void deleteCoupon(Long id) {
+    Coupon coupon = couponMapper.selectById(id);
+    if (coupon == null || coupon.getDeleted() != null && coupon.getDeleted() == 1) {
+      throw new IllegalArgumentException("优惠券不存在");
+    }
+    couponMapper.deleteById(id);
   }
 
   public void updateCouponStatus(Long couponId, Integer status) {
@@ -261,6 +343,25 @@ public class MarketingService {
       throw new IllegalArgumentException("优惠券不存在");
     }
     return coupon;
+  }
+
+  private String requiredCode(String code) {
+    String normalized = code == null ? "" : code.trim().toUpperCase();
+    if (normalized.isBlank()) {
+      throw new IllegalArgumentException("优惠券编码不能为空");
+    }
+    if (normalized.length() > 64) {
+      throw new IllegalArgumentException("优惠券编码不能超过 64 位");
+    }
+    return normalized;
+  }
+
+  private String requiredName(String name) {
+    String normalized = name == null ? "" : name.trim();
+    if (normalized.isBlank()) {
+      throw new IllegalArgumentException("优惠券名称不能为空");
+    }
+    return normalized;
   }
 
   private void validateCoupon(Coupon coupon) {

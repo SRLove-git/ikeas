@@ -117,9 +117,9 @@
           },
           {
             "title": "联系我们",
-            "text": "热线、WhatsApp 与邮件",
+            "text": "客服邮箱",
             "href": "/zh/customer-service/contact-us/",
-            "icon": "phone"
+            "icon": "email"
           },
           {
             "title": "常见问题",
@@ -164,7 +164,7 @@
           },
           {
             "title": "快速响应",
-            "text": "工作日热线与邮件及时回复",
+            "text": "工作日邮件及时回复",
             "icon": "clock"
           },
           {
@@ -228,7 +228,7 @@
           "订单多久可以送达？",
           "订单通常会在 3-7 个工作日内送达，本地配送可联系门店客服确认具体时效。",
           "如何联系 BUZUD 客服？",
-          "可拨打 +65 6518 9979 / +65 6518 9269，或发送邮件至 customerservice@chungyip.com，也可到访新加坡体验门店。",
+          "可发送邮件至 customerservice@chungyip.com，也可到访新加坡体验门店。",
           "支持退换货吗？",
           "保修期内外均提供维修与换货服务，如遇制造或质量问题，可携带产品与发票到门店处理。",
           "如何注册产品保修？",
@@ -250,7 +250,7 @@
         "type": "support-contact-banner",
         "title": "获取帮助",
         "texts": [
-          "客服热线与在线客服将在工作时间内尽快为您解答，欢迎随时联系我们。"
+          "客服邮箱与在线客服将在工作时间内尽快为您解答，欢迎随时联系我们。"
         ],
         "images": [
           "/images/cms/buzud-support-banner-v2.png"
@@ -259,10 +259,6 @@
           {
             "href": "/zh/customer-service/contact-us/",
             "text": "联系我们"
-          },
-          {
-            "href": "tel:+6565189979",
-            "text": "拨打热线"
           }
         ],
         "items": [],
@@ -350,7 +346,7 @@
         "title": "大件商品与特殊安排",
         "texts": [
           "轮椅、制氧机等大件商品可能产生额外配送费，且需要确认上楼与安装安排，请联系客服单独确认。",
-          "客服热线：+65 83811666（周一至周五 9am–8pm；周六周日 10am–7pm）。"
+          "客服邮箱：customerservice@chungyip.com（工作日邮件回复）。"
         ],
         "images": [],
         "links": [],
@@ -462,7 +458,7 @@
         "title": "过保维修",
         "texts": [
           "过保商品可提供付费维修，费用在维修前与您确认报价，不收取未告知的费用。",
-          "客服热线：+65 83811666（周一至周五 9am–8pm；周六周日 10am–7pm）。"
+          "客服邮箱：customerservice@chungyip.com（工作日邮件回复）。"
         ],
         "images": [],
         "links": [],
@@ -676,16 +672,8 @@
         "links": [],
         "items": [
           {
-            "title": "客服热线 / WhatsApp",
-            "text": "+65 83811666\n周一至周五 9am-8pm；周六周日 10am-7pm",
-            "image": null,
-            "href": "tel:+6583811666",
-            "icon": "phone",
-            "backgroundColor": null
-          },
-          {
-            "title": "在线客服 / 邮件",
-            "text": "customerservice@chungyip.com\n工作日在线回复，售后问题欢迎随时联系",
+            "title": "客服邮箱",
+            "text": "customerservice@chungyip.com\n工作日邮件回复，售后问题欢迎随时联系",
             "image": null,
             "href": "mailto:customerservice@chungyip.com",
             "icon": "email",
@@ -736,25 +724,25 @@
         "items": [
           {
             "title": "Raffles Hospital",
-            "text": "585 North Bridge Road, #01-02, Singapore 188770\n周一至周五 9am-8pm；周六周日 10am-7pm\n电话/WhatsApp: +65 6518 9979",
+            "text": "585 North Bridge Road, #01-02, Singapore 188770\n周一至周五 9am-8pm；周六周日 10am-7pm",
             "image": null,
-            "href": "tel:+6565189979",
+            "href": "/zh/customer-service/contact-us/#stores",
             "icon": "store",
             "backgroundColor": null
           },
           {
             "title": "Novena Square 2",
-            "text": "10 Sinaran Dr, #03-21, Singapore 307506\n周一至周五 9am-8pm；周六周日 10am-7pm\n电话/WhatsApp: +65 6518 9269",
+            "text": "10 Sinaran Dr, #03-21, Singapore 307506\n周一至周五 9am-8pm；周六周日 10am-7pm",
             "image": null,
-            "href": "tel:+6565189269",
+            "href": "/zh/customer-service/contact-us/#stores",
             "icon": "store",
             "backgroundColor": null
           },
           {
             "title": "PARKROYAL on Beach Road",
-            "text": "7500 Beach Road, Level 4, Singapore 199591\n每日 11am-8pm\n电话/WhatsApp: +65 9888 3885",
+            "text": "7500 Beach Road, Level 4, Singapore 199591\n每日 11am-8pm",
             "image": null,
-            "href": "tel:+6598883885",
+            "href": "/zh/customer-service/contact-us/#stores",
             "icon": "store",
             "backgroundColor": null
           }
@@ -804,14 +792,6 @@
             "image": null,
             "href": "mailto:customerservice@chungyip.com?subject=%E4%B8%BE%E6%8A%A5%E4%B8%8E%E5%90%88%E8%A7%84",
             "icon": "report",
-            "backgroundColor": null
-          },
-          {
-            "title": "传真",
-            "text": "+65 83811666",
-            "image": null,
-            "href": "tel:+6583811666",
-            "icon": "fax",
             "backgroundColor": null
           }
         ],
@@ -890,7 +870,7 @@
           "订单多久可以送达？",
           "订单通常会在 3-7 个工作日内送达，本地配送可联系门店客服确认具体时效。",
           "如何联系 CHUNG YIP 客服？",
-          "可拨打 +65 6518 9979 / +65 6518 9269，或发送邮件至 customerservice@chungyip.com，也可到访新加坡体验门店。",
+          "可发送邮件至 customerservice@chungyip.com，也可到访新加坡体验门店。",
           "支持退换货吗？",
           "保修期内外均提供维修与换货服务，如遇制造或质量问题，可携带产品与发票到门店处理。",
           "如何注册产品保修？",

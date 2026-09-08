@@ -8,11 +8,13 @@ import com.ikea.server.service.MarketingService;
 import java.util.List;
 import java.util.Map;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PatchMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -26,8 +28,10 @@ public class AdminMarketingController {
   }
 
   @GetMapping("/coupons")
-  public List<Coupon> coupons() {
-    return marketingService.listCoupons();
+  public List<Coupon> coupons(
+      @RequestParam(required = false) String q,
+      @RequestParam(required = false) Integer status) {
+    return marketingService.listCoupons(q, status);
   }
 
   @PostMapping("/coupons")
@@ -35,10 +39,21 @@ public class AdminMarketingController {
     return marketingService.createCoupon(request);
   }
 
+  @PatchMapping("/coupons/{id}")
+  public Coupon updateCoupon(@PathVariable Long id, @RequestBody AdminCouponRequest request) {
+    return marketingService.updateCoupon(id, request);
+  }
+
   @PatchMapping("/coupons/{id}/status")
   public Map<String, Boolean> updateCouponStatus(
       @PathVariable Long id, @RequestBody Map<String, Integer> body) {
     marketingService.updateCouponStatus(id, body.get("status"));
+    return Map.of("ok", true);
+  }
+
+  @DeleteMapping("/coupons/{id}")
+  public Map<String, Boolean> deleteCoupon(@PathVariable Long id) {
+    marketingService.deleteCoupon(id);
     return Map.of("ok", true);
   }
 

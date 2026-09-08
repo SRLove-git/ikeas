@@ -3,7 +3,7 @@
     {
       "id": "delivery",
       "keywords": ["配送", "快递", "物流", "送货"],
-      "reply": "CHUNG YIP 为所有产品提供本地及海外*配送服务。订单通常会在 3-7 个工作日内送达，具体安排欢迎致电 +65 6518 9979 或联系门店工作人员。"
+      "reply": "CHUNG YIP 为所有产品提供本地及海外*配送服务。订单通常会在 3-7 个工作日内送达，具体安排欢迎发送邮件至 customerservice@chungyip.com 或联系门店工作人员。"
     },
     {
       "id": "aftersales",
@@ -13,7 +13,7 @@
     {
       "id": "stores",
       "keywords": ["门店", "体验店", "地址", "在哪里"],
-      "reply": "CHUNG YIP 新加坡体验门店：Raffles Hospital（585 North Bridge Road #01-02，+65 6518 9979）、Novena Square 2（10 Sinaran Dr #03-21，+65 6518 9269）、PARKROYAL on Beach Road（7500 Beach Road Level 4，+65 9888 3885）。营业时间详见「联系我们」页面。"
+      "reply": "CHUNG YIP 新加坡体验门店：Raffles Hospital（585 North Bridge Road #01-02）、Novena Square 2（10 Sinaran Dr #03-21）、PARKROYAL on Beach Road（7500 Beach Road Level 4）。营业时间详见「联系我们」页面。"
     },
     {
       "id": "warranty",
@@ -22,8 +22,8 @@
     },
     {
       "id": "contact",
-      "keywords": ["联系", "客服", "电话", "邮箱", "whatsapp"],
-      "reply": "您可以致电/WhatsApp +65 6518 9979（Raffles Hospital）、+65 6518 9269（Novena Square 2）、+65 9888 3885（PARKROYAL），或发送邮件至 customerservice@chungyip.com。"
+      "keywords": ["联系", "客服", "邮箱"],
+      "reply": "您可以通过客服邮箱 customerservice@chungyip.com 联系我们，也可到访新加坡体验门店。"
     },
     {
       "id": "products",
@@ -36,5 +36,5 @@
       "reply": "你好！我是 CHUNG YIP 客服助手，很高兴为你服务。你可以问我配送、退换货、保修、门店或优惠相关的问题。"
     }
   ],
-  "defaultReply": "收到！我是 CHUNG YIP 客服助手，目前可以回答配送、退换货、保修、门店与优惠相关问题。你也可以拨打 +65 6518 9979 或发送邮件至 customerservice@chungyip.com 联系人工客服。"
+  "defaultReply": "收到！我是 CHUNG YIP 客服助手，目前可以回答配送、退换货、保修、门店与优惠相关问题。你也可以发送邮件至 customerservice@chungyip.com 联系人工客服。"
 }

@@ -410,11 +410,11 @@ export function ProfilePanel() {
                   </span>
                 </Link>
                 <a
-                  href="tel:+6565189979"
+                  href="mailto:customerservice@chungyip.com"
                   className="rounded-lg border border-ikea-gray-200 p-5 transition-colors hover:border-ikea-black"
                 >
                   <span className="flex items-center gap-2 text-sm font-bold">
-                    <PhoneIcon size={20} />
+                    <EmailIcon size={20} />
                     {t("profile.hotline")}
                   </span>
                   <span className="mt-3 block text-xs leading-5 text-ikea-muted">
