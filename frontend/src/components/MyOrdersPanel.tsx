@@ -12,7 +12,7 @@ import {
   type OrderFulfillmentView,
   type OrderResponse,
 } from "@/lib/api"
-import { API_BASE } from "@/lib/api"
+import { API_BASE, getToken } from "@/lib/api"
 import { formatPrice } from "@/lib/catalog-format"
 import { useLocale } from "@/i18n/LanguageProvider"
 
@@ -166,6 +166,31 @@ export function MyOrdersPanel() {
       setError(ex instanceof Error ? ex.message : "申请单据失败")
     } finally {
       setInvoiceSubmitting(null)
+    }
+  }
+
+  const downloadInvoice = async (invoice: {
+    fileUrl: string
+    orderNo: string
+    kind: number
+  }) => {
+    setError(null)
+    try {
+      const response = await fetch(`${API_BASE}${invoice.fileUrl}`, {
+        headers: { Authorization: `Bearer ${getToken() ?? ""}` },
+      })
+      if (!response.ok) {
+        throw new Error(`下载失败 (${response.status})`)
+      }
+      const blob = await response.blob()
+      const url = URL.createObjectURL(blob)
+      const link = document.createElement("a")
+      link.href = url
+      link.download = `BUZUD-${invoice.orderNo}${invoice.kind === 2 ? "-invoice" : "-receipt"}.txt`
+      link.click()
+      URL.revokeObjectURL(url)
+    } catch (ex) {
+      setError(ex instanceof Error ? ex.message : "下载失败")
     }
   }
 
@@ -331,14 +356,19 @@ export function MyOrdersPanel() {
                           <div className="text-xs">
                             已申请{invoice.kind === 2 ? "发票" : "收据"}：
                             {invoice.fileUrl ? (
-                              <a
-                                href={`${API_BASE}${invoice.fileUrl}`}
-                                target="_blank"
-                                rel="noreferrer"
+                              <button
+                                type="button"
+                                onClick={() =>
+                                  void downloadInvoice({
+                                    fileUrl: invoice.fileUrl!,
+                                    orderNo: invoice.orderNo,
+                                    kind: invoice.kind,
+                                  })
+                                }
                                 className="font-bold text-ikea-blue hover:underline"
                               >
                                 下载
-                              </a>
+                              </button>
                             ) : (
                               <span className="text-ikea-muted">处理中</span>
                             )}
