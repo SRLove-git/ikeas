@@ -40,7 +40,6 @@ export function CheckoutPanel() {
   const [submitting, setSubmitting] = useState(false)
   const [marketing, setMarketing] = useState<MarketingAccount | null>(null)
   const [createdOrder, setCreatedOrder] = useState<OrderResponse | null>(null)
-  const [couponCode, setCouponCode] = useState("")
   const [usePoints, setUsePoints] = useState(0)
   const [useBalance, setUseBalance] = useState(0)
   const [form, setForm] = useState({
@@ -109,12 +108,11 @@ export function CheckoutPanel() {
   const items = cart?.items ?? []
   const subtotal = items.reduce((sum, item) => sum + (item.product.price ?? 0) * item.quantity, 0)
   const totalQuantity = items.reduce((sum, item) => sum + item.quantity, 0)
-  const selectedCoupon = marketing?.coupons.find((coupon) => coupon.code === couponCode) ?? null
   const pointDiscount = Math.min(usePoints, marketing?.points ?? 0) * 0.01
   const balanceUsed = Math.max(0, Math.min(useBalance, marketing?.balance ?? 0))
   const discount = Math.max(
     0,
-    Math.min(subtotal, (selectedCoupon?.discountAmount ?? 0) + pointDiscount + balanceUsed),
+    Math.min(subtotal, pointDiscount + balanceUsed),
   )
   const total = subtotal + DELIVERY_FEE - discount
 
@@ -160,7 +158,6 @@ export function CheckoutPanel() {
         body: JSON.stringify({
           fromCart: true,
           deliveryFee: DELIVERY_FEE,
-          couponCode: couponCode || null,
           usePoints,
           useBalance,
           customer: form.customer.trim(),
@@ -337,24 +334,6 @@ export function CheckoutPanel() {
 
                 {user ? (
                   <div className="mt-6 space-y-3 border-t border-ikea-gray-200 pt-4">
-                    <label className="block">
-                      <span className="text-xs font-bold text-ikea-muted">
-                        {t("checkout.coupon")}
-                      </span>
-                      <select
-                        value={couponCode}
-                        onChange={(event) => setCouponCode(event.target.value)}
-                        className="mt-1 h-10 w-full border border-ikea-gray-200 bg-white px-3 text-sm outline-none focus:border-ikea-blue"
-                      >
-                        <option value="">{t("checkout.noCoupon")}</option>
-                        {marketing?.coupons.map((coupon) => (
-                          <option key={coupon.id} value={coupon.code}>
-                            {coupon.name}
-                          </option>
-                        ))}
-                      </select>
-                    </label>
-
                     <div className="grid grid-cols-2 gap-3">
                       <label className="block">
                         <span className="text-xs font-bold text-ikea-muted">
