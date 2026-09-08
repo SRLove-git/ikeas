@@ -492,10 +492,33 @@ function QuoteBlock({ block }: { block: ContentBlock }) {
 }
 
 function PageTitleBlock({ block }: { block: ContentBlock }) {
+  const text = block.texts[0] ?? null
+  const useSecondaryHeading = block.settings?.headingLevel === "h2"
   return (
     <div>
-      <h1 className="text-2xl font-bold leading-9 lg:text-3xl">{block.title}</h1>
-      {block.texts[0] ? <p className="mt-2 text-sm text-ikea-muted">{block.texts[0]}</p> : null}
+      {block.title ? (
+        <h1 className="text-2xl font-bold leading-9 lg:text-3xl">{block.title}</h1>
+      ) : null}
+      {text ? (
+        useSecondaryHeading ? (
+          <h2 className="text-xl font-bold leading-8 lg:text-2xl">{text}</h2>
+        ) : (
+          <p className="mt-2 text-sm text-ikea-muted">{text}</p>
+        )
+      ) : null}
+      {block.images.length > 0 ? (
+        <div className="mt-6 grid gap-4 md:grid-cols-3">
+          {block.images.map((image, index) => (
+            <SiteImage
+              key={image}
+              src={image}
+              alt={`${block.texts[0] ?? block.title ?? ""} ${index + 1}`.trim()}
+              className="aspect-[3/2] w-full rounded-xl"
+              imgClassName="object-cover"
+            />
+          ))}
+        </div>
+      ) : null}
     </div>
   )
 }
@@ -948,6 +971,19 @@ function CorporateTextBlock({ block }: { block: ContentBlock }) {
             <p key={i} className="max-w-3xl whitespace-pre-line text-sm leading-6 text-ikea-muted">
               {t}
             </p>
+          ))}
+        </div>
+      ) : null}
+      {block.images.length > 0 ? (
+        <div className="mt-6 grid gap-4 md:grid-cols-3">
+          {block.images.map((image, index) => (
+            <SiteImage
+              key={image}
+              src={image}
+              alt={`${block.title ?? ""} ${index + 1}`.trim()}
+              className="aspect-[3/2] w-full rounded-xl"
+              imgClassName="object-cover"
+            />
           ))}
         </div>
       ) : null}
