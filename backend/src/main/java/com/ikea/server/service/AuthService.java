@@ -30,6 +30,7 @@ public class AuthService {
   private final TokenService tokenService;
   private final EmailCodeService emailCodeService;
   private final ReferralService referralService;
+  private final MarketingService marketingService;
   private final PasswordEncoder passwordEncoder;
   private final JwtEncoder jwtEncoder;
   private final long accessTokenTtlSeconds;
@@ -39,6 +40,7 @@ public class AuthService {
       TokenService tokenService,
       EmailCodeService emailCodeService,
       ReferralService referralService,
+      MarketingService marketingService,
       PasswordEncoder passwordEncoder,
       JwtEncoder jwtEncoder,
       @Value("${ikea.auth.access-token-ttl:900}") long accessTokenTtlSeconds) {
@@ -46,6 +48,7 @@ public class AuthService {
     this.tokenService = tokenService;
     this.emailCodeService = emailCodeService;
     this.referralService = referralService;
+    this.marketingService = marketingService;
     this.passwordEncoder = passwordEncoder;
     this.jwtEncoder = jwtEncoder;
     this.accessTokenTtlSeconds = accessTokenTtlSeconds;
@@ -85,6 +88,7 @@ public class AuthService {
     user.setStatus(1);
     userService.save(user);
     referralService.recordReferral(request.referralCode(), user.getId());
+    marketingService.grantEmailCouponsForUser(verificationEmail, user.getId());
     return issueTokenPair(user);
   }
 

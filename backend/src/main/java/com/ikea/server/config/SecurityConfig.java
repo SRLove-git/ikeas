@@ -54,6 +54,10 @@ public class SecurityConfig {
                         "/api/v1/auth/password/reset",
                         "/api/v1/auth/refresh")
                     .permitAll()
+                    .requestMatchers(HttpMethod.POST, "/api/v1/marketing/coupons/claim-by-email")
+                    .permitAll()
+                    .requestMatchers("/api/v1/marketing/coupons/*/qr.png")
+                    .permitAll()
                     .requestMatchers(
                         "/api/v1/auth/me",
                         "/api/v1/auth/logout",

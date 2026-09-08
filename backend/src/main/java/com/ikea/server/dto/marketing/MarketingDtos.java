@@ -31,6 +31,15 @@ public final class MarketingDtos {
 
   public record ClaimResponse(String code, String name) {}
 
+  public record EmailCouponClaimRequest(String email, String code) {}
+
+  public record EmailCouponClaimResponse(
+      String code,
+      String name,
+      boolean alreadyClaimed,
+      boolean linkedToAccount,
+      String message) {}
+
   public record RedemptionResponse(
       BigDecimal couponDiscount,
       BigDecimal pointDiscount,

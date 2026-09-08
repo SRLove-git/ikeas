@@ -90,6 +90,7 @@ services:
       - BUZUD_OMS_APP_ID=${BUZUD_OMS_APP_ID:-}
       - BUZUD_OMS_APP_SECRET=${BUZUD_OMS_APP_SECRET:-}
       - BUZUD_OMS_MERCHANT_ID=${BUZUD_OMS_MERCHANT_ID:-}
+      - BUZUD_MARKETING_PUBLIC_BASE_URL=${BUZUD_MARKETING_PUBLIC_BASE_URL:-https://medical-sg.com}
     depends_on:
       db:
         condition: service_healthy

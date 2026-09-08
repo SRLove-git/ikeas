@@ -56,6 +56,7 @@ IKEA_STATIC_PUBLIC_DIR=../frontend/public java -jar target/ikea-server-0.1.0.jar
 | `IKEA_MAIL_USERNAME`     | _(empty)_                                             | SMTP username                                                                             |
 | `IKEA_MAIL_PASSWORD`     | _(empty)_                                             | SMTP password                                                                             |
 | `IKEA_MAIL_FROM`         | `CHUNG YIP <no-reply@medical-sg.com>`                 | Sender address for registration email codes                                               |
+| `BUZUD_MARKETING_PUBLIC_BASE_URL` | `https://medical-sg.com`                   | Public frontend URL encoded into coupon QR codes                                         |
 
 ### Demo account
 

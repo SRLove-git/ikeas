@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react"
 import { useTranslation } from "react-i18next"
+import Image from "next/image"
 import {
   adminFetch,
   Button,
@@ -10,6 +11,7 @@ import {
   Notice,
   PageHeader,
 } from "@/components/admin/admin-ui"
+import { API_BASE } from "@/lib/api"
 
 interface Coupon {
   id: number
@@ -40,6 +42,8 @@ export default function MarketingPage() {
     validTo: "",
   })
   const [adjust, setAdjust] = useState({ userId: "", points: "", balance: "" })
+  const [qrCoupon, setQrCoupon] = useState<Coupon | null>(null)
+  const [copiedQr, setCopiedQr] = useState(false)
 
   const load = async () => {
     try {
@@ -200,6 +204,17 @@ export default function MarketingPage() {
     }
   }
 
+  const claimUrl = qrCoupon
+    ? `${typeof window === "undefined" ? "" : window.location.origin}/zh/coupon?code=${encodeURIComponent(qrCoupon.code)}`
+    : ""
+
+  const copyClaimUrl = async () => {
+    if (!claimUrl) return
+    await navigator.clipboard.writeText(claimUrl)
+    setCopiedQr(true)
+    window.setTimeout(() => setCopiedQr(false), 1500)
+  }
+
   return (
     <div>
       <PageHeader title={t("admin.marketing.title")} description={t("admin.marketing.desc")} />
@@ -273,6 +288,12 @@ export default function MarketingPage() {
                         : t("admin.marketing.disabled")}
                     </td>
                     <td className="px-5 py-3 text-right">
+                      <Button
+                        variant="secondary"
+                        onClick={() => setQrCoupon(qrCoupon?.id === coupon.id ? null : coupon)}
+                      >
+                        {t("admin.marketing.qrCode")}
+                      </Button>{" "}
                       <Button variant="secondary" onClick={() => startEdit(coupon)}>
                         {t("admin.marketing.edit")}
                       </Button>{" "}
@@ -290,6 +311,44 @@ export default function MarketingPage() {
               </tbody>
             </table>
           )}
+          {qrCoupon ? (
+            <div className="border-t border-ikea-gray-200 bg-ikea-gray-50 px-5 py-5">
+              <div className="flex flex-col gap-5 sm:flex-row">
+                <Image
+                  src={`${API_BASE}/api/v1/marketing/coupons/${qrCoupon.id}/qr.png`}
+                  alt={`${qrCoupon.code} QR code`}
+                  width={192}
+                  height={192}
+                  unoptimized
+                  className="h-48 w-48 rounded border border-ikea-gray-200 bg-white p-2"
+                />
+                <div className="min-w-0 flex-1">
+                  <h3 className="text-sm font-bold">{t("admin.marketing.couponQr")}</h3>
+                  <p className="mt-2 text-xs leading-5 text-ikea-muted">
+                    {t("admin.marketing.couponQrHint")}
+                  </p>
+                  <p className="mt-3 break-all rounded border border-ikea-gray-200 bg-white px-3 py-2 text-xs">
+                    {claimUrl}
+                  </p>
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    <Button variant="secondary" onClick={() => void copyClaimUrl()}>
+                      {copiedQr
+                        ? t("admin.marketing.copiedClaimLink")
+                        : t("admin.marketing.copyClaimLink")}
+                    </Button>
+                    <a
+                      href={claimUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="inline-flex h-9 items-center justify-center rounded-md bg-ikea-blue px-3.5 text-sm font-medium text-white hover:bg-blue-800"
+                    >
+                      {t("admin.marketing.openClaimPage")}
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ) : null}
         </section>
 
         <div className="space-y-6">

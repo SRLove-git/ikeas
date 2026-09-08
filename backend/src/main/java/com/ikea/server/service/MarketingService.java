@@ -2,18 +2,22 @@ package com.ikea.server.service;
 
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import com.ikea.server.dto.marketing.MarketingDtos.AccountResponse;
+import com.ikea.server.dto.marketing.MarketingDtos.EmailCouponClaimResponse;
 import com.ikea.server.dto.marketing.MarketingDtos.RechargeResponse;
 import com.ikea.server.dto.marketing.MarketingDtos.ClaimResponse;
 import com.ikea.server.dto.marketing.MarketingDtos.CouponView;
 import com.ikea.server.dto.marketing.MarketingDtos.RedemptionResponse;
 import com.ikea.server.dto.marketing.MarketingDtos.AdminCouponRequest;
+import com.ikea.server.entity.AppUser;
 import com.ikea.server.entity.BalanceLog;
 import com.ikea.server.entity.Coupon;
+import com.ikea.server.entity.EmailCouponClaim;
 import com.ikea.server.entity.MemberAccount;
 import com.ikea.server.entity.PointLog;
 import com.ikea.server.entity.UserCoupon;
 import com.ikea.server.mapper.BalanceLogMapper;
 import com.ikea.server.mapper.CouponMapper;
+import com.ikea.server.mapper.EmailCouponClaimMapper;
 import com.ikea.server.mapper.MemberAccountMapper;
 import com.ikea.server.mapper.PointLogMapper;
 import com.ikea.server.mapper.UserCouponMapper;
@@ -22,29 +26,55 @@ import java.math.RoundingMode;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.regex.Pattern;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.dao.DuplicateKeyException;
+import org.springframework.mail.SimpleMailMessage;
+import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 @Service
 public class MarketingService {
 
+  private static final Logger log = LoggerFactory.getLogger(MarketingService.class);
+  private static final Pattern EMAIL =
+      Pattern.compile("^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}$");
+
   private final CouponMapper couponMapper;
   private final UserCouponMapper userCouponMapper;
   private final MemberAccountMapper memberAccountMapper;
   private final PointLogMapper pointLogMapper;
   private final BalanceLogMapper balanceLogMapper;
+  private final EmailCouponClaimMapper emailCouponClaimMapper;
+  private final UserService userService;
+  private final JavaMailSender mailSender;
+  private final String smtpHost;
+  private final String emailFrom;
 
   public MarketingService(
       CouponMapper couponMapper,
       UserCouponMapper userCouponMapper,
       MemberAccountMapper memberAccountMapper,
       PointLogMapper pointLogMapper,
-      BalanceLogMapper balanceLogMapper) {
+      BalanceLogMapper balanceLogMapper,
+      EmailCouponClaimMapper emailCouponClaimMapper,
+      UserService userService,
+      JavaMailSender mailSender,
+      @Value("${spring.mail.host:}") String smtpHost,
+      @Value("${ikea.auth.email-from:CHUNG YIP <no-reply@medical-sg.com>}") String emailFrom) {
     this.couponMapper = couponMapper;
     this.userCouponMapper = userCouponMapper;
     this.memberAccountMapper = memberAccountMapper;
     this.pointLogMapper = pointLogMapper;
     this.balanceLogMapper = balanceLogMapper;
+    this.emailCouponClaimMapper = emailCouponClaimMapper;
+    this.userService = userService;
+    this.mailSender = mailSender;
+    this.smtpHost = smtpHost;
+    this.emailFrom = emailFrom;
   }
 
   public AccountResponse account(Long userId, BigDecimal subtotal) {
@@ -79,6 +109,75 @@ public class MarketingService {
     return new ClaimResponse(coupon.getCode(), coupon.getName());
   }
 
+  /**
+   * 扫码领券：以邮箱为领取标识。同一个邮箱对同一张券只登记一次；
+   * 若该邮箱已经注册，则同时把券直接放入用户账户。
+   */
+  @Transactional
+  public EmailCouponClaimResponse claimByEmail(String rawEmail, String couponCode) {
+    String email = normalizeEmail(rawEmail);
+    if (email == null || !EMAIL.matcher(email).matches()) {
+      throw new IllegalArgumentException("邮箱格式不正确");
+    }
+    Coupon coupon = couponByCode(couponCode);
+    validateCoupon(coupon);
+
+    boolean alreadyClaimed = findEmailClaim(email, coupon.getId()) != null;
+    if (!alreadyClaimed) {
+      EmailCouponClaim claim = new EmailCouponClaim();
+      claim.setEmail(email);
+      claim.setCouponId(coupon.getId());
+      claim.setStatus(1);
+      try {
+        emailCouponClaimMapper.insert(claim);
+      } catch (DuplicateKeyException ex) {
+        alreadyClaimed = true;
+      }
+    }
+
+    boolean linkedToAccount = linkClaimedCouponToExistingAccount(email, coupon);
+    sendCouponEmail(email, coupon, alreadyClaimed);
+    return new EmailCouponClaimResponse(
+        coupon.getCode(),
+        coupon.getName(),
+        alreadyClaimed,
+        linkedToAccount,
+        claimMessage(alreadyClaimed, linkedToAccount));
+  }
+
+  /** 用户在注册/首次登录时，用邮箱领取过的优惠券自动补发到账户。 */
+  @Transactional
+  public void grantEmailCouponsForUser(String rawEmail, Long userId) {
+    String email = normalizeEmail(rawEmail);
+    if (email == null || userId == null) {
+      return;
+    }
+    List<EmailCouponClaim> claims =
+        emailCouponClaimMapper.selectList(
+            Wrappers.lambdaQuery(EmailCouponClaim.class)
+                .eq(EmailCouponClaim::getEmail, email)
+                .eq(EmailCouponClaim::getStatus, 1));
+    for (EmailCouponClaim claim : claims) {
+      Coupon coupon = couponMapper.selectById(claim.getCouponId());
+      if (coupon == null || !isCouponValid(coupon)) {
+        continue;
+      }
+      Long exists =
+          userCouponMapper.selectCount(
+              Wrappers.lambdaQuery(UserCoupon.class)
+                  .eq(UserCoupon::getUserId, userId)
+                  .eq(UserCoupon::getCouponId, coupon.getId())
+                  .eq(UserCoupon::getStatus, 1));
+      if (exists == null || exists == 0) {
+        UserCoupon userCoupon = new UserCoupon();
+        userCoupon.setUserId(userId);
+        userCoupon.setCouponId(coupon.getId());
+        userCoupon.setStatus(1);
+        userCouponMapper.insert(userCoupon);
+      }
+    }
+  }
+
   public List<Coupon> listCoupons(String keyword, Integer status) {
     var query =
         Wrappers.lambdaQuery(Coupon.class).eq(Coupon::getDeleted, 0);
@@ -94,6 +193,14 @@ public class MarketingService {
       query.eq(Coupon::getStatus, status);
     }
     return couponMapper.selectList(query.orderByDesc(Coupon::getId));
+  }
+
+  public Coupon couponById(Long id) {
+    Coupon coupon = couponMapper.selectById(id);
+    if (coupon == null || coupon.getDeleted() != null && coupon.getDeleted() == 1) {
+      throw new IllegalArgumentException("优惠券不存在");
+    }
+    return coupon;
   }
 
   public Coupon createCoupon(AdminCouponRequest request) {
@@ -332,6 +439,70 @@ public class MarketingService {
       return subtotal.multiply(coupon.getValue()).divide(new BigDecimal("100"), 2, RoundingMode.DOWN);
     }
     return coupon.getValue().min(subtotal);
+  }
+
+  private EmailCouponClaim findEmailClaim(String email, Long couponId) {
+    return emailCouponClaimMapper.selectOne(
+        Wrappers.lambdaQuery(EmailCouponClaim.class)
+            .eq(EmailCouponClaim::getEmail, email)
+            .eq(EmailCouponClaim::getCouponId, couponId)
+            .eq(EmailCouponClaim::getStatus, 1)
+            .last("LIMIT 1"));
+  }
+
+  private boolean linkClaimedCouponToExistingAccount(String email, Coupon coupon) {
+    AppUser user = userService.findByEmail(email).orElse(null);
+    if (user == null) {
+      return false;
+    }
+    Long exists =
+        userCouponMapper.selectCount(
+            Wrappers.lambdaQuery(UserCoupon.class)
+                .eq(UserCoupon::getUserId, user.getId())
+                .eq(UserCoupon::getCouponId, coupon.getId())
+                .eq(UserCoupon::getStatus, 1));
+    if (exists == null || exists == 0) {
+      UserCoupon userCoupon = new UserCoupon();
+      userCoupon.setUserId(user.getId());
+      userCoupon.setCouponId(coupon.getId());
+      userCoupon.setStatus(1);
+      userCouponMapper.insert(userCoupon);
+    }
+    return true;
+  }
+
+  private void sendCouponEmail(String email, Coupon coupon, boolean alreadyClaimed) {
+    if (smtpHost == null || smtpHost.isBlank()) {
+      log.warn("SMTP host is not configured; skipping coupon email for {}", email);
+      return;
+    }
+    SimpleMailMessage message = new SimpleMailMessage();
+    message.setFrom(emailFrom);
+    message.setTo(email);
+    message.setSubject(alreadyClaimed ? "您已领取过 BUZUD 优惠券" : "您已领取 BUZUD 优惠券");
+    message.setText(
+        "优惠券：" + coupon.getName() + "\n"
+            + "券码：" + coupon.getCode() + "\n\n"
+            + "登录 BUZUD 商城后可在结算时使用。使用该邮箱注册或登录，优惠券会自动到账。");
+    try {
+      mailSender.send(message);
+    } catch (RuntimeException ex) {
+      log.error("Failed to send coupon email to {}", email, ex);
+    }
+  }
+
+  private static String claimMessage(boolean alreadyClaimed, boolean linkedToAccount) {
+    if (alreadyClaimed) {
+      return "该邮箱已领取过此优惠券，请勿重复领取。";
+    }
+    if (linkedToAccount) {
+      return "优惠券已放入您的账户，登录后即可在结算时使用。";
+    }
+    return "优惠券已领取。使用该邮箱注册或登录后，优惠券会自动到账。";
+  }
+
+  private static String normalizeEmail(String email) {
+    return UserService.normalizeAccount(email);
   }
 
   private Coupon couponByCode(String code) {
