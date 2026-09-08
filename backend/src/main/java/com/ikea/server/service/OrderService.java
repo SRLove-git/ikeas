@@ -55,6 +55,7 @@ public class OrderService {
   private final OmsOrderSyncService omsOrderSyncService;
   private final OmsProductSyncService omsProductSyncService;
   private final MarketingService marketingService;
+  private final ExperienceVoucherService experienceVoucherService;
   private final BigDecimal defaultDeliveryFee;
 
   public OrderService(
@@ -66,6 +67,7 @@ public class OrderService {
       OmsOrderSyncService omsOrderSyncService,
       OmsProductSyncService omsProductSyncService,
       MarketingService marketingService,
+      ExperienceVoucherService experienceVoucherService,
       @Value("${ikea.order.default-delivery-fee:9.9}") String defaultDeliveryFee) {
     this.orderMapper = orderMapper;
     this.orderItemMapper = orderItemMapper;
@@ -75,6 +77,7 @@ public class OrderService {
     this.omsOrderSyncService = omsOrderSyncService;
     this.omsProductSyncService = omsProductSyncService;
     this.marketingService = marketingService;
+    this.experienceVoucherService = experienceVoucherService;
     this.defaultDeliveryFee = new BigDecimal(defaultDeliveryFee);
   }
 
@@ -95,6 +98,13 @@ public class OrderService {
                           skuByProduct.get(item.getProductId()), item.getQuantity()))
               .toList();
       omsProductSyncService.ensureStockAvailable(lines);
+      // 价格权威以 OMS 为准（对接规范 §6.4）：优先采用 OMS SKU 快照价，快照缺失时回退本地价
+      for (OrderItem item : orderItems) {
+        BigDecimal omsPrice = omsProductSyncService.priceFor(skuByProduct.get(item.getProductId()));
+        if (omsPrice != null && omsPrice.signum() >= 0) {
+          item.setUnitPrice(normalizeMoney(omsPrice));
+        }
+      }
     }
 
     BigDecimal subtotal =
@@ -247,6 +257,11 @@ public class OrderService {
       order.setRemark(trimToNull(request.remark()));
     }
     orderMapper.updateById(order);
+    if (request.status() != null
+        && (request.status() == OrderStatus.CANCELLED.code()
+            || request.status() == OrderStatus.REFUNDING.code())) {
+      experienceVoucherService.invalidateByOrderNo(order.getOrderNo());
+    }
     return toAdminRow(order, itemsOf(order.getId()));
   }
 
@@ -256,6 +271,7 @@ public class OrderService {
     for (OrderItem item : itemsOf(order.getId())) {
       orderItemMapper.deleteById(item.getId());
     }
+    experienceVoucherService.invalidateByOrderNo(order.getOrderNo());
     return orderMapper.deleteById(order.getId()) > 0;
   }
 
@@ -332,6 +348,8 @@ public class OrderService {
       orderMapper.updateById(order);
     }
     marketingService.earnForPaidOrder(userId, order.getTotalAmount(), orderNo);
+    experienceVoucherService.issuePointVoucherForOrder(
+        order.getUserId(), orderNo, order.getTotalAmount());
     return toResponse(order, itemsOf(order.getId()));
   }
 
@@ -380,6 +398,7 @@ public class OrderService {
       orderMapper.updateById(order);
     }
     marketingService.earnForPaidOrder(order.getUserId(), total, orderNo);
+    experienceVoucherService.issuePointVoucherForOrder(order.getUserId(), orderNo, total);
     return toResponse(order, itemsOf(order.getId()));
   }
 
@@ -409,6 +428,7 @@ public class OrderService {
 
     order.setStatus(OrderStatus.REFUNDING.code());
     orderMapper.updateById(order);
+    experienceVoucherService.invalidateByOrderNo(order.getOrderNo());
 
     if (omsChannel.isEnabled()) {
       try {

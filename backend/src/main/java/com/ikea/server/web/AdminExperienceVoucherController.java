@@ -1,11 +1,17 @@
 package com.ikea.server.web;
 
 import com.ikea.server.dto.experience.ExperienceVoucherDtos.AdminCreateVouchersRequest;
+import com.ikea.server.dto.experience.ExperienceVoucherDtos.AdminGenerateVouchersRequest;
 import com.ikea.server.dto.experience.ExperienceVoucherDtos.AdminUpdateVoucherRequest;
+import com.ikea.server.dto.experience.ExperienceVoucherDtos.GeneratePdfRequest;
 import com.ikea.server.entity.ExperienceVoucher;
 import com.ikea.server.service.ExperienceVoucherService;
 import java.util.List;
 import java.util.Map;
+import org.springframework.http.ContentDisposition;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PatchMapping;
@@ -29,13 +35,33 @@ public class AdminExperienceVoucherController {
   @GetMapping
   public List<ExperienceVoucher> vouchers(
       @RequestParam(required = false) String q,
-      @RequestParam(required = false) Integer status) {
-    return voucherService.listVouchers(q, status);
+      @RequestParam(required = false) Integer status,
+      @RequestParam(required = false) Integer type) {
+    return voucherService.listVouchers(q, status, type);
   }
 
   @PostMapping
   public List<ExperienceVoucher> createVouchers(@RequestBody AdminCreateVouchersRequest request) {
     return voucherService.createVouchers(request);
+  }
+
+  @PostMapping("/generate")
+  public List<ExperienceVoucher> generateVouchers(
+      @RequestBody AdminGenerateVouchersRequest request) {
+    return voucherService.generateVouchers(request);
+  }
+
+  @PostMapping("/pdf")
+  public ResponseEntity<byte[]> generatePdf(@RequestBody GeneratePdfRequest request) {
+    List<String> codes = request == null ? List.of() : request.codes();
+    byte[] pdf = voucherService.generatePdf(codes);
+    String filename = voucherService.pdfFilename(codes);
+    return ResponseEntity.ok()
+        .header(
+            HttpHeaders.CONTENT_DISPOSITION,
+            ContentDisposition.attachment().filename(filename).build().toString())
+        .contentType(MediaType.APPLICATION_PDF)
+        .body(pdf);
   }
 
   @PatchMapping("/{id}")

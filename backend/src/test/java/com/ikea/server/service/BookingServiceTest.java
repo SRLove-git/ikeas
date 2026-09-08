@@ -54,12 +54,12 @@ class BookingServiceTest {
   void createBookingShouldRejectMissingRequiredFields() {
     CreateBookingRequest request =
         new CreateBookingRequest(
-            "", "81234567", "a@b.com", "CODE1", "体检套餐", "门店", "2026-09-10", "上午", null);
+            "", "81234567", "a@b.com", "CODE1", null, "体检套餐", "门店", "2026-09-10", "上午", null);
 
     IllegalArgumentException e =
         assertThrows(IllegalArgumentException.class, () -> bookingService.createBooking(request));
 
-    assertEquals("请填写姓名、联系方式、体检券码、服务项目、门店与预约日期", e.getMessage());
+    assertEquals("请填写姓名、联系方式、券码、服务项目、门店与预约日期", e.getMessage());
     verify(bookingMapper, never()).insert(any(Booking.class));
   }
 
@@ -129,7 +129,11 @@ class BookingServiceTest {
   @Test
   void releaseByBookingIdShouldUseExplicitNullUpdateWrapper() {
     ExperienceVoucherMapper voucherMapper = mock(ExperienceVoucherMapper.class);
-    ExperienceVoucherService realVoucherService = new ExperienceVoucherService(voucherMapper);
+    ExperienceVoucherService realVoucherService =
+        new ExperienceVoucherService(
+            voucherMapper,
+            mock(VoucherPdfService.class),
+            "https://medical-sg.com/en/booking/");
 
     realVoucherService.releaseByBookingId("BK-100");
 
@@ -172,7 +176,7 @@ class BookingServiceTest {
 
   private static CreateBookingRequest validRequest(String phone, String email, String date) {
     return new CreateBookingRequest(
-        "张三", phone, email, "code1", "体检套餐", "门店", date, "上午", "备注");
+        "张三", phone, email, "code1", null, "体检套餐", "门店", date, "上午", "备注");
   }
 
   private static Booking booking(Long id, Integer status) {

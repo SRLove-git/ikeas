@@ -7,6 +7,7 @@ import com.ikea.server.integration.oms.OmsChannel.OmsProduct;
 import com.ikea.server.integration.oms.OmsChannel.OmsProductPage;
 import com.ikea.server.integration.oms.OmsChannel.OmsStock;
 import com.ikea.server.mapper.OmsSkuMappingMapper;
+import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.time.ZoneOffset;
 import java.util.List;
@@ -143,6 +144,18 @@ public class OmsProductSyncService {
             line.quantity());
       }
     }
+  }
+
+  /**
+   * 返回 OMS 侧最近一次同步的 SKU 售价快照；未同步返回 null，由调用方回退本地价
+   * （对接规范 §6.4：已对接时价格权威为 OMS SKU 价）。
+   */
+  public BigDecimal priceFor(Long skuId) {
+    if (!channel.isEnabled() || skuId == null) {
+      return null;
+    }
+    OmsSkuMapping mapping = findBySkuId(skuId);
+    return mapping == null ? null : mapping.getSyncPrice();
   }
 
   private OmsSkuMapping findBySkuId(Long skuId) {

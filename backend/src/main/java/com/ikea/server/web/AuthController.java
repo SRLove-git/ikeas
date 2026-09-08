@@ -2,13 +2,13 @@ package com.ikea.server.web;
 
 import com.ikea.server.constant.SecurityConstants;
 import com.ikea.server.dto.auth.AuthResponse;
+import com.ikea.server.dto.auth.EmailCodeSendRequest;
+import com.ikea.server.dto.auth.EmailCodeSendResponse;
 import com.ikea.server.dto.auth.LoginRequest;
 import com.ikea.server.dto.auth.MessageResponse;
 import com.ikea.server.dto.auth.RefreshTokenRequest;
 import com.ikea.server.dto.auth.RegisterRequest;
-import com.ikea.server.dto.auth.SmsLoginRequest;
-import com.ikea.server.dto.auth.SmsSendRequest;
-import com.ikea.server.dto.auth.SmsSendResponse;
+import com.ikea.server.dto.auth.ResetPasswordRequest;
 import com.ikea.server.model.User;
 import com.ikea.server.service.AuthService;
 import jakarta.servlet.http.HttpServletRequest;
@@ -29,20 +29,21 @@ public class AuthController {
     this.authService = authService;
   }
 
-  @PostMapping("/sms/send")
-  public SmsSendResponse sendSmsCode(@Valid @RequestBody SmsSendRequest request) {
-    String devCode = authService.sendSmsCode(request.phone());
-    return new SmsSendResponse("验证码已发送", devCode);
-  }
-
-  @PostMapping("/sms/login")
-  public AuthResponse smsLogin(@Valid @RequestBody SmsLoginRequest request) {
-    return authService.smsLogin(request);
+  @PostMapping("/email/send")
+  public EmailCodeSendResponse sendEmailCode(@Valid @RequestBody EmailCodeSendRequest request) {
+    String devCode = authService.sendEmailCode(request.email());
+    return new EmailCodeSendResponse("验证码已发送", devCode);
   }
 
   @PostMapping("/login")
   public AuthResponse login(@Valid @RequestBody LoginRequest request) {
     return authService.login(request);
+  }
+
+  @PostMapping("/password/reset")
+  public MessageResponse resetPassword(@Valid @RequestBody ResetPasswordRequest request) {
+    authService.resetPassword(request);
+    return new MessageResponse("密码已重置，请使用新密码登录");
   }
 
   @PostMapping("/register")

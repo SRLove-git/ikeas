@@ -21,6 +21,17 @@ interface MarketingAccount {
   coupons: unknown[]
 }
 
+interface PhysicalVoucher {
+  id: string
+  code: string
+  type: number
+  status: number
+  validUntil?: string | null
+  orderNo?: string | null
+  usedBookingId?: string | null
+  createdAt: string
+}
+
 function PhoneIcon({ size = 24 }: { size?: number }) {
   return (
     <svg viewBox="0 0 24 24" fill="currentColor" width={size} height={size} aria-hidden="true">
@@ -41,14 +52,6 @@ function EmailIcon({ size = 24 }: { size?: number }) {
         d="M3.004 4h-1v16h19.9973l.0002-.9998.0024-14L22.0041 4H3.0039zm1 3.2081V18h15.9976l.0019-10.789-7.4216 5.1768-.5718.3988-.572-.3985-7.4342-5.18zM18.2438 6H5.7684l6.2411 4.3486L18.2439 6z"
         clipRule="evenodd"
       />
-    </svg>
-  )
-}
-
-function WeChatIcon({ size = 24 }: { size?: number }) {
-  return (
-    <svg viewBox="0 0 24 24" fill="currentColor" width={size} height={size} aria-hidden="true">
-      <path d="M9.5 3C5.91 3 3 5.91 3 9.5c0 1.87.78 3.56 2.05 4.78L4.5 17l2.8-1.18c.68.2 1.41.31 2.2.31h.12a5.45 5.45 0 0 1-.12-1.13c0-3.04 2.46-5.5 5.5-5.5.2 0 .39.01.58.03C14.82 5.74 12.39 3 9.5 3zM7 6.5h5v1H7v-1zm0 2.5h5v1H7V9zm7.5 1.5a4.5 4.5 0 1 0 0 9c.55 0 1.08-.1 1.57-.27l2.38 1-1.06-2.05A4.5 4.5 0 0 0 14.5 10.5zm-1.8 2.4h3v1h-3v-1zm0 2.2h3v1h-3v-1z" />
     </svg>
   )
 }
@@ -96,6 +99,7 @@ export function ProfilePanel() {
   const [membershipConsent, setMembershipConsent] = useState(false)
   const [membershipNotice, setMembershipNotice] = useState<string | null>(null)
   const [marketing, setMarketing] = useState<MarketingAccount | null>(null)
+  const [vouchers, setVouchers] = useState<PhysicalVoucher[]>([])
   const [rechargeAmount, setRechargeAmount] = useState("")
   const [rechargeSubmitting, setRechargeSubmitting] = useState(false)
   const [marketingNotice, setMarketingNotice] = useState<string | null>(null)
@@ -126,6 +130,13 @@ export function ProfilePanel() {
     return () => {
       cancelled = true
     }
+  }, [ready, user])
+
+  useEffect(() => {
+    if (!ready || !user) return
+    apiJson<PhysicalVoucher[]>("/experience-vouchers/mine")
+      .then((data) => setVouchers(data))
+      .catch(() => setVouchers([]))
   }, [ready, user])
 
   const recharge = async () => {
@@ -223,6 +234,31 @@ export function ProfilePanel() {
               </div>
             </div>
             {marketingNotice ? <p className="mt-2 text-sm text-ikea-blue">{marketingNotice}</p> : null}
+          </section>
+        ) : null}
+
+        {vouchers.length > 0 ? (
+          <section className="mt-6 rounded-lg border border-ikea-gray-200 p-6">
+            <h2 className="text-base font-bold">{t("profile.vouchers")}</h2>
+            <div className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+              {vouchers.map((voucher) => (
+                <div key={voucher.id} className="rounded-md border border-ikea-gray-200 p-3">
+                  <p className="font-mono text-sm font-bold">{voucher.code}</p>
+                  <p className="mt-1 text-xs text-ikea-muted">
+                    {voucher.type === 2 ? t("profile.pointsVoucher") : t("profile.experienceVoucher")}
+                  </p>
+                  <p className="mt-1 text-xs text-ikea-muted">
+                    {voucher.status === 0
+                      ? t("profile.voucherUnused")
+                      : voucher.status === 1
+                        ? t("profile.voucherUsed")
+                        : voucher.status === 3
+                          ? t("profile.voucherInvalid")
+                          : t("profile.voucherDisabled")}
+                  </p>
+                </div>
+              ))}
+            </div>
           </section>
         ) : null}
 
@@ -354,25 +390,6 @@ export function ProfilePanel() {
                     className="text-sm font-bold text-ikea-blue hover:underline"
                   >
                     {t("profile.bind")}
-                  </button>
-                </div>
-
-                <div className="flex items-center justify-between gap-6 p-5 md:p-6">
-                  <div className="flex items-center gap-4">
-                    <span className="text-ikea-blue">
-                      <WeChatIcon size={28} />
-                    </span>
-                    <div>
-                      <p className="text-sm font-bold">{t("profile.wechat")}</p>
-                      <p className="mt-1 text-sm text-ikea-muted">{t("profile.bound")}</p>
-                    </div>
-                  </div>
-                  <button
-                    type="button"
-                    onClick={() => setAccountNotice(t("profile.wechatNotice"))}
-                    className="text-sm font-bold text-ikea-blue hover:underline"
-                  >
-                    {t("profile.unbind")}
                   </button>
                 </div>
               </div>

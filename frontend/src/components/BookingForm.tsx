@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import Link from "next/link"
 import { useTranslation } from "react-i18next"
 
@@ -45,6 +45,14 @@ export function BookingForm() {
   const [error, setError] = useState<string | null>(null)
   const [successId, setSuccessId] = useState<string | null>(null)
 
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search)
+    const voucher = params.get("voucher")
+    if (voucher) {
+      setForm((current) => ({ ...current, voucherCode: voucher.trim().toUpperCase() }))
+    }
+  }, [])
+
   const update =
     (key: FormKey) =>
     (event: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
@@ -59,7 +67,6 @@ export function BookingForm() {
         !form.customerName.trim() ||
         !form.phone.trim() ||
         !form.email.trim() ||
-        !form.voucherCode.trim() ||
         !form.serviceType ||
         !form.store ||
         !form.preferredDate.trim()
@@ -79,11 +86,16 @@ export function BookingForm() {
         setError(t("bookingForm.invalidDate"))
         return
       }
+      const voucherCodes = parseVoucherCodes(form.voucherCode)
+      if (voucherCodes.length !== 1 && voucherCodes.length !== 3) {
+        setError(t("bookingForm.voucherCountInvalid"))
+        return
+      }
 
       const response = await fetch("/api/bookings", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(form),
+        body: JSON.stringify({ ...form, voucherCodes }),
       })
       const data = (await response.json().catch(() => null)) as
         (BookingResponse & { error?: string }) | null
@@ -236,5 +248,16 @@ export function BookingForm() {
         </button>
       </div>
     </form>
+  )
+}
+
+function parseVoucherCodes(value: string): string[] {
+  return Array.from(
+    new Set(
+      value
+        .split(/[\n,，\s]+/)
+        .map((code) => code.trim().toUpperCase())
+        .filter(Boolean),
+    ),
   )
 }

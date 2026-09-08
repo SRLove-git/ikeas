@@ -13,7 +13,19 @@ export async function POST(request: Request) {
   const customerName = typeof body.customerName === "string" ? body.customerName.trim() : ""
   const phone = typeof body.phone === "string" ? body.phone.trim() : ""
   const email = typeof body.email === "string" ? body.email.trim() : ""
-  const voucherCode = typeof body.voucherCode === "string" ? body.voucherCode.trim() : ""
+  const rawVoucherCodes = Array.isArray(body.voucherCodes)
+    ? body.voucherCodes
+    : typeof body.voucherCode === "string"
+      ? [body.voucherCode]
+      : []
+  const voucherCodes = Array.from(
+    new Set(
+      rawVoucherCodes
+        .map((value) => (typeof value === "string" ? value.trim().toUpperCase() : ""))
+        .filter(Boolean),
+    ),
+  )
+  const voucherCode = voucherCodes[0] ?? ""
   const serviceType = typeof body.serviceType === "string" ? body.serviceType.trim() : ""
   const store = typeof body.store === "string" ? body.store.trim() : ""
   const preferredDate = typeof body.preferredDate === "string" ? body.preferredDate.trim() : ""
@@ -24,12 +36,12 @@ export async function POST(request: Request) {
     !customerName ||
     !phone ||
     !email ||
-    !voucherCode ||
+    (voucherCodes.length !== 1 && voucherCodes.length !== 3) ||
     !serviceType ||
     !store ||
     !preferredDate
   ) {
-    return badRequest("请填写姓名、联系方式、体检券码、服务项目、门店与预约日期")
+    return badRequest("请填写姓名、联系方式、券码、服务项目、门店与预约日期")
   }
   if (!/^[89]\d{7}$/.test(phone)) {
     return badRequest("手机号格式不正确")
@@ -47,6 +59,7 @@ export async function POST(request: Request) {
         phone,
         email,
         voucherCode,
+        voucherCodes,
         serviceType,
         store,
         preferredDate,

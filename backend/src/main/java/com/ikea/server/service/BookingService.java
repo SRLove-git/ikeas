@@ -6,6 +6,8 @@ import com.ikea.server.entity.Booking;
 import com.ikea.server.mapper.BookingMapper;
 import java.time.LocalDate;
 import java.time.format.DateTimeParseException;
+import java.util.ArrayList;
+import java.util.LinkedHashSet;
 import java.util.List;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -30,7 +32,8 @@ public class BookingService {
     String customerName = trim(request == null ? null : request.customerName());
     String phone = trim(request == null ? null : request.phone());
     String email = trim(request == null ? null : request.email());
-    String voucherCode = trim(request == null ? null : request.voucherCode()).toUpperCase();
+    List<String> voucherCodes = normalizeVoucherCodes(request);
+    String voucherCode = voucherCodes.isEmpty() ? "" : voucherCodes.get(0);
     String serviceType = trim(request == null ? null : request.serviceType());
     String store = trim(request == null ? null : request.store());
     String preferredDate = trim(request == null ? null : request.preferredDate());
@@ -38,11 +41,11 @@ public class BookingService {
     if (customerName.isBlank()
         || phone.isBlank()
         || email.isBlank()
-        || voucherCode.isBlank()
+        || voucherCodes.isEmpty()
         || serviceType.isBlank()
         || store.isBlank()
         || preferredDate.isBlank()) {
-      throw new IllegalArgumentException("请填写姓名、联系方式、体检券码、服务项目、门店与预约日期");
+      throw new IllegalArgumentException("请填写姓名、联系方式、券码、服务项目、门店与预约日期");
     }
     if (!phone.matches(PHONE_PATTERN)) {
       throw new IllegalArgumentException("手机号格式不正确");
@@ -58,7 +61,16 @@ public class BookingService {
     }
 
     String bookingNo = "BK-" + System.currentTimeMillis();
-    voucherService.redeemForBooking(voucherCode, bookingNo);
+    String codesText;
+    if (voucherCodes.size() == 1) {
+      voucherService.redeemForBooking(voucherCodes.get(0), bookingNo);
+      codesText = voucherCodes.get(0);
+    } else if (voucherCodes.size() == 3) {
+      codesText = voucherService.redeemPointVouchersForBooking(voucherCodes, bookingNo);
+      voucherCode = voucherCodes.get(0);
+    } else {
+      throw new IllegalArgumentException("请提供 1 张体验券或 3 张积分券");
+    }
 
     Booking booking = new Booking();
     booking.setBookingNo(bookingNo);
@@ -66,6 +78,7 @@ public class BookingService {
     booking.setPhone(phone);
     booking.setEmail(email);
     booking.setVoucherCode(voucherCode);
+    booking.setVoucherCodes(codesText);
     booking.setServiceType(serviceType);
     booking.setStore(store);
     booking.setPreferredDate(date);
@@ -91,7 +104,9 @@ public class BookingService {
                   .or()
                   .like(Booking::getEmail, like)
                   .or()
-                  .like(Booking::getVoucherCode, like.toUpperCase()));
+                  .like(Booking::getVoucherCode, like.toUpperCase())
+                  .or()
+                  .like(Booking::getVoucherCodes, like.toUpperCase()));
     }
     if (status != null) {
       query.eq(Booking::getStatus, status);
@@ -133,5 +148,21 @@ public class BookingService {
 
   private String trim(String value) {
     return value == null ? "" : value.trim();
+  }
+
+  private List<String> normalizeVoucherCodes(CreateBookingRequest request) {
+    LinkedHashSet<String> unique = new LinkedHashSet<>();
+    if (request != null && request.voucherCodes() != null && !request.voucherCodes().isEmpty()) {
+      for (String code : request.voucherCodes()) {
+        String normalized = trim(code).toUpperCase();
+        if (!normalized.isBlank()) {
+          unique.add(normalized);
+        }
+      }
+    }
+    if (unique.isEmpty() && request != null && !trim(request.voucherCode()).isBlank()) {
+      unique.add(trim(request.voucherCode()).toUpperCase());
+    }
+    return new ArrayList<>(unique);
   }
 }

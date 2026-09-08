@@ -50,8 +50,8 @@ public class SecurityConfig {
                     .requestMatchers(
                         "/api/v1/auth/login",
                         "/api/v1/auth/register",
-                        "/api/v1/auth/sms/send",
-                        "/api/v1/auth/sms/login",
+                        "/api/v1/auth/email/send",
+                        "/api/v1/auth/password/reset",
                         "/api/v1/auth/refresh")
                     .permitAll()
                     .requestMatchers(
@@ -60,6 +60,7 @@ public class SecurityConfig {
                         "/api/v1/cart/**",
                         "/api/v1/favorites/**",
                         "/api/v1/marketing/**",
+                        "/api/v1/experience-vouchers/mine",
                         "/api/v1/referrals/**",
                         "/api/v1/invoices/**",
                         "/api/v1/stock-alerts",

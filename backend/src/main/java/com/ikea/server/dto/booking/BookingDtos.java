@@ -1,5 +1,7 @@
 package com.ikea.server.dto.booking;
 
+import java.util.List;
+
 public final class BookingDtos {
 
   private BookingDtos() {}
@@ -9,6 +11,7 @@ public final class BookingDtos {
       String phone,
       String email,
       String voucherCode,
+      List<String> voucherCodes,
       String serviceType,
       String store,
       String preferredDate,

@@ -51,16 +51,22 @@ IKEA_STATIC_PUBLIC_DIR=../frontend/public java -jar target/ikea-server-0.1.0.jar
 | `IKEA_JWT_SECRET`        | `change-me-to-a-long-random-secret-at-least-32-bytes` | HMAC secret used to sign access JWTs. Set a long random value outside local development. |
 | `IKEA_ACCESS_TOKEN_TTL`  | `900`                                                 | Access-token lifetime in seconds                                                         |
 | `IKEA_REFRESH_TOKEN_TTL` | `2592000`                                             | Refresh-token lifetime in seconds                                                        |
-| `IKEA_EXPOSE_SMS_CODE`   | `true`                                                | Demo mode: return the SMS code in the API response                                       |
+| `IKEA_MAIL_HOST`         | _(empty)_                                             | SMTP host used to send registration email codes; empty = return `devCode` in the API     |
+| `IKEA_MAIL_PORT`         | `587`                                                 | SMTP port                                                                                 |
+| `IKEA_MAIL_USERNAME`     | _(empty)_                                             | SMTP username                                                                             |
+| `IKEA_MAIL_PASSWORD`     | _(empty)_                                             | SMTP password                                                                             |
+| `IKEA_MAIL_FROM`         | `CHUNG YIP <no-reply@medical-sg.com>`                 | Sender address for registration email codes                                               |
 
 ### Demo account
 
 The server seeds one account on startup:
 
-- Account: `demo@ikea.cn` or phone `13800138000`
+- Account: `demo@ikea.cn`
 - Password: `123456`
 
-First-time SMS logins auto-register the phone number.
+Registration requires an email verification code. If `IKEA_MAIL_HOST` is not
+configured, the code is returned as `devCode` by `/api/v1/auth/email/send` for
+local development.
 
 ## Data
 
@@ -204,15 +210,14 @@ each matched product.
 
 ### Auth (Bearer token)
 
-| Endpoint                      | Description                                                                   |
-| ----------------------------- | ----------------------------------------------------------------------------- |
-| `POST /api/v1/auth/sms/send`  | `{ phone }` → sends a code (returned as `devCode` in demo mode)               |
-| `POST /api/v1/auth/sms/login` | `{ phone, code }` → logs in or auto-registers                                 |
-| `POST /api/v1/auth/login`     | `{ account, password }` → password login                                      |
-| `POST /api/v1/auth/register`  | `{ account, password, name? }` → creates an account                           |
-| `POST /api/v1/auth/refresh`   | `{ refreshToken }` → rotates the refresh token and returns a new access token |
-| `GET /api/v1/auth/me`         | Current user (requires `Authorization: Bearer <token>`)                       |
-| `POST /api/v1/auth/logout`    | Invalidates the token                                                         |
+| Endpoint                      | Description                                                                                  |
+| ----------------------------- | -------------------------------------------------------------------------------------------- |
+| `POST /api/v1/auth/email/send`| `{ email }` → sends a registration code (returned as `devCode` without SMTP)                  |
+| `POST /api/v1/auth/login`     | `{ account, password }` → password login by email or username                                |
+| `POST /api/v1/auth/register`  | `{ account, password, email?, emailCode, name?, referralCode? }` → verified registration      |
+| `POST /api/v1/auth/refresh`   | `{ refreshToken }` → rotates the refresh token and returns a new access token                 |
+| `GET /api/v1/auth/me`         | Current user (requires `Authorization: Bearer <token>`)                                      |
+| `POST /api/v1/auth/logout`    | Invalidates the token                                                                         |
 
 Successful login/register/SMS-login responses contain:
 

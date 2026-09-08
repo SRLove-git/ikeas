@@ -13,7 +13,6 @@ import org.springframework.transaction.annotation.Transactional;
 @Service
 public class UserService {
 
-  private static final Pattern PHONE = Pattern.compile("^[89]\\d{7}$");
   private static final Pattern EMAIL =
       Pattern.compile("^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}$");
 
@@ -31,9 +30,6 @@ public class UserService {
     String normalized = normalizeAccount(account);
     if (normalized == null) {
       return Optional.empty();
-    }
-    if (PHONE.matcher(normalized).matches()) {
-      return findByPhone(normalized);
     }
     if (EMAIL.matcher(normalized).matches()) {
       return findByEmail(normalized);

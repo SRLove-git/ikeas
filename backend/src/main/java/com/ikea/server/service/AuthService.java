@@ -4,13 +4,11 @@ import com.ikea.server.constant.SecurityConstants;
 import com.ikea.server.dto.auth.AuthResponse;
 import com.ikea.server.dto.auth.LoginRequest;
 import com.ikea.server.dto.auth.RegisterRequest;
-import com.ikea.server.dto.auth.SmsLoginRequest;
+import com.ikea.server.dto.auth.ResetPasswordRequest;
 import com.ikea.server.entity.AppUser;
 import com.ikea.server.entity.UserToken;
 import com.ikea.server.model.User;
-import java.security.SecureRandom;
 import java.time.Instant;
-import java.util.HexFormat;
 import java.util.regex.Pattern;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.crypto.password.PasswordEncoder;
@@ -28,11 +26,9 @@ public class AuthService {
   private static final Pattern PHONE = Pattern.compile("^[89]\\d{7}$");
   private static final Pattern EMAIL =
       Pattern.compile("^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}$");
-  private static final SecureRandom RANDOM = new SecureRandom();
-
   private final UserService userService;
   private final TokenService tokenService;
-  private final SmsCodeService smsCodeService;
+  private final EmailCodeService emailCodeService;
   private final ReferralService referralService;
   private final PasswordEncoder passwordEncoder;
   private final JwtEncoder jwtEncoder;
@@ -41,22 +37,22 @@ public class AuthService {
   public AuthService(
       UserService userService,
       TokenService tokenService,
-      SmsCodeService smsCodeService,
+      EmailCodeService emailCodeService,
       ReferralService referralService,
       PasswordEncoder passwordEncoder,
       JwtEncoder jwtEncoder,
       @Value("${ikea.auth.access-token-ttl:900}") long accessTokenTtlSeconds) {
     this.userService = userService;
     this.tokenService = tokenService;
-    this.smsCodeService = smsCodeService;
+    this.emailCodeService = emailCodeService;
     this.referralService = referralService;
     this.passwordEncoder = passwordEncoder;
     this.jwtEncoder = jwtEncoder;
     this.accessTokenTtlSeconds = accessTokenTtlSeconds;
   }
 
-  public String sendSmsCode(String phone) {
-    return smsCodeService.send(phone);
+  public String sendEmailCode(String email) {
+    return emailCodeService.send(email);
   }
 
   @Transactional
@@ -65,8 +61,16 @@ public class AuthService {
     if (account == null) {
       throw new IllegalArgumentException("账号不能为空");
     }
+    if (PHONE.matcher(account).matches()) {
+      throw new IllegalArgumentException("请使用邮箱或用户名注册");
+    }
+    String verificationEmail = resolveVerificationEmail(account, request.email());
+    emailCodeService.verifyAndConsume(verificationEmail, request.emailCode());
     if (userService.existsByAccount(account)) {
       throw new IllegalArgumentException("账号已存在: " + request.account());
+    }
+    if (userService.existsByEmail(verificationEmail)) {
+      throw new IllegalArgumentException("该邮箱已注册");
     }
 
     AppUser user = new AppUser();
@@ -75,11 +79,7 @@ public class AuthService {
         request.name() == null || request.name().isBlank()
             ? defaultDisplayName(account)
             : request.name().trim());
-    if (PHONE.matcher(account).matches()) {
-      user.setPhone(account);
-    } else if (EMAIL.matcher(account).matches()) {
-      user.setEmail(account);
-    }
+    user.setEmail(verificationEmail);
     user.setPasswordHash(passwordEncoder.encode(request.password()));
     user.setRole(SecurityConstants.ROLE_CUSTOMER);
     user.setStatus(1);
@@ -89,9 +89,16 @@ public class AuthService {
   }
 
   public AuthResponse login(LoginRequest request) {
+    String account = UserService.normalizeAccount(request.account());
+    if (account == null) {
+      throw new AuthException("账号不能为空");
+    }
+    if (PHONE.matcher(account).matches()) {
+      throw new AuthException("请使用邮箱或用户名登录");
+    }
     AppUser user =
         userService
-            .findByAccount(request.account())
+            .findByAccount(account)
             .orElseThrow(() -> new AuthException("账号或密码错误"));
     if (!passwordEncoder.matches(request.password(), user.getPasswordHash())) {
       throw new AuthException("账号或密码错误");
@@ -101,18 +108,18 @@ public class AuthService {
   }
 
   @Transactional
-  public AuthResponse smsLogin(SmsLoginRequest request) {
-    smsCodeService.verifyAndConsume(request.phone(), request.code());
-    AppUser user = userService.findByPhone(request.phone()).orElse(null);
-    boolean created = user == null;
-    if (created) {
-      user = createPhoneUser(request.phone());
+  public void resetPassword(ResetPasswordRequest request) {
+    String email = UserService.normalizeAccount(request.email());
+    if (email == null || !EMAIL.matcher(email).matches()) {
+      throw new IllegalArgumentException("邮箱格式不正确");
     }
-    ensureActive(user);
-    if (created) {
-      referralService.recordReferral(request.referralCode(), user.getId());
-    }
-    return issueTokenPair(user);
+    emailCodeService.verifyAndConsume(email, request.emailCode());
+    AppUser user =
+        userService
+            .findByEmail(email)
+            .orElseThrow(() -> new IllegalArgumentException("该邮箱未注册"));
+    user.setPasswordHash(passwordEncoder.encode(request.newPassword()));
+    userService.save(user);
   }
 
   public AuthResponse refresh(String refreshToken) {
@@ -185,30 +192,21 @@ public class AuthService {
         user.getCreatedAt() == null ? null : user.getCreatedAt().toString());
   }
 
+  private static String resolveVerificationEmail(String account, String email) {
+    if (EMAIL.matcher(account).matches()) {
+      return account;
+    }
+    String normalizedEmail = UserService.normalizeAccount(email);
+    if (normalizedEmail == null || !EMAIL.matcher(normalizedEmail).matches()) {
+      throw new IllegalArgumentException("请填写注册邮箱");
+    }
+    return normalizedEmail;
+  }
+
   private static String defaultDisplayName(String account) {
     if (account == null || account.isBlank()) {
       return "用户";
     }
-    return PHONE.matcher(account).matches()
-        ? "用户" + account.substring(account.length() - 4)
-        : account;
-  }
-
-  private static String randomPassword() {
-    byte[] bytes = new byte[12];
-    RANDOM.nextBytes(bytes);
-    return HexFormat.of().formatHex(bytes);
-  }
-
-  private AppUser createPhoneUser(String phone) {
-    AppUser user = new AppUser();
-    user.setUsername(phone);
-    user.setName(defaultDisplayName(phone));
-    user.setPhone(phone);
-    user.setPasswordHash(passwordEncoder.encode(randomPassword()));
-    user.setRole(SecurityConstants.ROLE_CUSTOMER);
-    user.setStatus(1);
-    userService.save(user);
-    return user;
+    return account;
   }
 }

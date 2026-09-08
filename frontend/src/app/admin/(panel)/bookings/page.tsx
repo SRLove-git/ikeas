@@ -13,12 +13,13 @@ import {
 } from "@/components/admin/admin-ui"
 
 interface Booking {
-  id: number
+  id: string
   bookingNo: string
   customerName: string
   phone: string
   email: string
   voucherCode: string
+  voucherCodes?: string | null
   serviceType: string
   store: string
   preferredDate: string
@@ -178,7 +179,7 @@ export default function BookingsPage() {
                   <td className="px-5 py-3">{booking.customerName}</td>
                   <td className="px-5 py-3">{booking.phone}</td>
                   <td className="px-5 py-3">{booking.email}</td>
-                  <td className="px-5 py-3">{booking.voucherCode}</td>
+                  <td className="px-5 py-3">{booking.voucherCodes ?? booking.voucherCode}</td>
                   <td className="px-5 py-3">{booking.serviceType}</td>
                   <td className="px-5 py-3">{booking.store}</td>
                   <td className="px-5 py-3">{booking.preferredDate}</td>

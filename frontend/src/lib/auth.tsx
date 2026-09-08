@@ -12,11 +12,17 @@ import {
 } from "@/lib/api"
 
 export interface LoginInput {
-  mode: "sms" | "password"
-  phone?: string
-  code?: string
-  account?: string
-  password?: string
+  account: string
+  password: string
+  referralCode?: string
+}
+
+export interface RegisterInput {
+  account: string
+  password: string
+  email: string
+  emailCode: string
+  name?: string
   referralCode?: string
 }
 
@@ -24,6 +30,7 @@ interface AuthContextValue {
   user: User | null
   ready: boolean
   login: (input: LoginInput) => Promise<User>
+  register: (input: RegisterInput) => Promise<User>
   logout: () => Promise<void>
 }
 
@@ -56,29 +63,44 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     }
   }, [])
 
-  const login = useCallback(async (input: LoginInput) => {
-    const response: AuthResponse =
-      input.mode === "sms"
-        ? await apiJson<AuthResponse>("/auth/sms/login", {
-            method: "POST",
-            body: JSON.stringify({
-              phone: input.phone,
-              code: input.code,
-              referralCode: input.referralCode ?? null,
-            }),
-          })
-        : await apiJson<AuthResponse>("/auth/login", {
-            method: "POST",
-            body: JSON.stringify({
-              account: input.account,
-              password: input.password,
-              referralCode: input.referralCode ?? null,
-            }),
-          })
+  const startSession = useCallback((response: AuthResponse) => {
     setAuthTokens(response.token, response.refreshToken ?? null)
     setUser(response.user)
     return response.user
   }, [])
+
+  const login = useCallback(
+    async (input: LoginInput) => {
+      const response = await apiJson<AuthResponse>("/auth/login", {
+        method: "POST",
+        body: JSON.stringify({
+          account: input.account,
+          password: input.password,
+          referralCode: input.referralCode ?? null,
+        }),
+      })
+      return startSession(response)
+    },
+    [startSession],
+  )
+
+  const register = useCallback(
+    async (input: RegisterInput) => {
+      const response = await apiJson<AuthResponse>("/auth/register", {
+        method: "POST",
+        body: JSON.stringify({
+          account: input.account,
+          password: input.password,
+          email: input.email,
+          emailCode: input.emailCode,
+          name: input.name ?? null,
+          referralCode: input.referralCode ?? null,
+        }),
+      })
+      return startSession(response)
+    },
+    [startSession],
+  )
 
   const logout = useCallback(async () => {
     try {
@@ -92,7 +114,9 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   }, [])
 
   return (
-    <AuthContext.Provider value={{ user, ready, login, logout }}>{children}</AuthContext.Provider>
+    <AuthContext.Provider value={{ user, ready, login, register, logout }}>
+      {children}
+    </AuthContext.Provider>
   )
 }
 

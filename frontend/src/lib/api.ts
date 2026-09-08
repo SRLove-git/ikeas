@@ -9,8 +9,7 @@ const REFRESH_TOKEN_KEY = "ikea_refresh_token"
 const REFRESH_EXCLUDED_PATHS = new Set([
   "/auth/login",
   "/auth/register",
-  "/auth/sms/login",
-  "/auth/sms/send",
+  "/auth/email/send",
   "/auth/refresh",
 ])
 

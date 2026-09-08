@@ -21,6 +21,7 @@ public class Booking {
   private String phone;
   private String email;
   private String voucherCode;
+  private String voucherCodes;
   private String serviceType;
   private String store;
   private LocalDate preferredDate;
@@ -44,6 +45,8 @@ public class Booking {
   public void setEmail(String email) { this.email = email; }
   public String getVoucherCode() { return voucherCode; }
   public void setVoucherCode(String voucherCode) { this.voucherCode = voucherCode; }
+  public String getVoucherCodes() { return voucherCodes; }
+  public void setVoucherCodes(String voucherCodes) { this.voucherCodes = voucherCodes; }
   public String getServiceType() { return serviceType; }
   public void setServiceType(String serviceType) { this.serviceType = serviceType; }
   public String getStore() { return store; }

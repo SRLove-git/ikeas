@@ -123,8 +123,19 @@ public class OmsOrderSyncService {
     if (!channel.isEnabled()) {
       throw new IllegalStateException("OMS 对接未启用，无法发送支付成功通知");
     }
-    ensureOrderSynced(orderNo);
-    channel.notifyPayment(orderNo, paymentNo, amount, channelName);
+    OmsOrderOutcome outcome = ensureOrderSynced(orderNo);
+    BigDecimal omsAmount = outcome.totalAmount();
+    if (omsAmount == null || omsAmount.signum() < 0) {
+      throw new IllegalStateException("OMS 订单应付金额缺失: " + orderNo);
+    }
+    if (amount != null && amount.compareTo(omsAmount) != 0) {
+      log.warn(
+          "本地应付金额与 OMS 应付金额不一致，以 OMS 为准 orderNo={} local={} oms={}",
+          orderNo,
+          amount,
+          omsAmount);
+    }
+    channel.notifyPayment(orderNo, paymentNo, omsAmount, channelName);
 
     Order order = requireOrder(orderNo);
     if (order.getStatus() != null && order.getStatus() == OrderStatus.PENDING_PAYMENT.code()) {
@@ -298,10 +309,10 @@ public class OmsOrderSyncService {
   }
 
   /** 支付通知前置：确保 OMS 订单存在；不存在则补单（幂等），补单失败抛异常（§4.3-3）。 */
-  private OmsOrderMapping ensureOrderSynced(String orderNo) {
+  private OmsOrderOutcome ensureOrderSynced(String orderNo) {
     OmsOrderMapping mapping = mappingFor(orderNo);
     if (mapping != null && mapping.getSyncStatus() == SYNC_DONE && mapping.getOmsOrderNo() != null) {
-      return mapping;
+      return channel.queryOrder(orderNo);
     }
     Order order = requireOrder(orderNo);
     OmsOrderOutcome outcome = channel.createOrder(buildInput(order));
@@ -318,7 +329,7 @@ public class OmsOrderSyncService {
     mapping.setLastError(null);
     mapping.setNextRetryAt(null);
     orderMappingMapper.updateById(mapping);
-    return mapping;
+    return outcome;
   }
 
   private OmsOrderInput buildInput(Order order) {

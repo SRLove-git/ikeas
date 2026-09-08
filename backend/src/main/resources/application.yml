@@ -9,6 +9,18 @@ spring:
     username: ${DB_USER:buzud}
     password: ${DB_PASSWORD:buzud}
     driver-class-name: org.postgresql.Driver
+  mail:
+    host: smtpdm.aliyun.com
+    port: 465
+    username: no-reply@mail.medical-sg.com
+    password: ${IKEA_MAIL_PASSWORD:}
+    default-encoding: UTF-8
+    properties:
+      mail:
+        smtp:
+          auth: true
+          ssl:
+            enable: true
   flyway:
     enabled: true
     locations: classpath:db/migration
@@ -56,14 +68,17 @@ ikea:
     access-token-ttl: ${IKEA_ACCESS_TOKEN_TTL:900}
     # Refresh token lifetime in seconds (default 30 days).
     refresh-token-ttl: ${IKEA_REFRESH_TOKEN_TTL:2592000}
-    # Demo mode: return the SMS code in the API response (IKEA_EXPOSE_SMS_CODE=false to hide).
-    expose-sms-code: ${IKEA_EXPOSE_SMS_CODE:true}
+    # Sender address for registration verification emails.
+    email-from: ${IKEA_MAIL_FROM:CHUNG YIP <no-reply@mail.medical-sg.com>}
   admin:
     # Shared key for /api/v1/admin/** endpoints, sent as X-Admin-Key (IKEA_ADMIN_KEY).
     key: ${IKEA_ADMIN_KEY:ikea-admin}
   order:
     # Default delivery fee in SGD when the client does not pass one.
     default-delivery-fee: ${IKEA_DEFAULT_DELIVERY_FEE:9.9}
+  voucher:
+    # 打印券二维码指向的预约页，通常生产环境保持 medical-sg.com。
+    booking-url: ${BUZUD_VOUCHER_BOOKING_URL:https://medical-sg.com/en/booking/}
   payment:
     # 商城收银台：true=本地模拟支付；false=尝试使用 Stripe 托管结算页。
     mock-only: ${IKEA_PAYMENT_MOCK_ONLY:true}
@@ -81,6 +96,7 @@ ikea:
     # OMS 对接开关（对接规范 §4.1）：默认 false = 商城独立运行，不装配 OMS 组件。
     enabled: ${BUZUD_OMS_ENABLED:false}
     callback-secret: ${BUZUD_OMS_CALLBACK_SECRET:demo-mall-callback-secret-change-me}
+    callback-timestamp-window-seconds: ${BUZUD_OMS_CALLBACK_TIMESTAMP_WINDOW_SECONDS:300}
     gateway-url: ${BUZUD_OMS_GATEWAY_URL:http://localhost:8080}
     app-id: ${BUZUD_OMS_APP_ID:}
     # 生产环境通过 K8s Secret/配置中心注入，禁止进入前端构建产物。
@@ -105,3 +121,9 @@ ikea:
   chat-knowledge:
     # Optional external chat knowledge JSON (IKEA_CHAT_KNOWLEDGE_FILE), reloaded on change.
     file: ${IKEA_CHAT_KNOWLEDGE_FILE:}
+
+oms:
+  integration:
+    notification:
+      provider: smtp
+      reply-to: support@medical-sg.com

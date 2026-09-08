@@ -61,6 +61,17 @@ export async function POST(
     },
     body: raw,
   });
+  const contentType = response.headers.get("content-type") ?? "";
+  if (contentType.includes("application/pdf")) {
+    return new Response(response.body, {
+      status: response.status,
+      headers: {
+        "Content-Type": "application/pdf",
+        "Content-Disposition":
+          response.headers.get("content-disposition") ?? "attachment; filename=vouchers.pdf",
+      },
+    });
+  }
   const body = await response.json().catch(() => null);
   return Response.json(body, { status: response.status });
 }

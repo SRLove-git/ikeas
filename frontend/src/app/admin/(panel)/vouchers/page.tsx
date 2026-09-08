@@ -14,9 +14,13 @@ import {
 } from "@/components/admin/admin-ui"
 
 interface HealthCheckVoucher {
-  id: number
+  id: string
   code: string
+  type: number
   status: number
+  validUntil?: string | null
+  batchNo?: string | null
+  orderNo?: string | null
   usedBookingId?: string | null
   usedAt?: string | null
   remark?: string | null
@@ -26,7 +30,12 @@ interface HealthCheckVoucher {
 function statusLabelKey(status: number): string {
   if (status === 1) return "admin.vouchers.statusUsed"
   if (status === 2) return "admin.vouchers.statusDisabled"
+  if (status === 3) return "admin.vouchers.statusInvalid"
   return "admin.vouchers.statusUnused"
+}
+
+function typeLabelKey(type: number): string {
+  return type === 2 ? "admin.vouchers.typePoints" : "admin.vouchers.typeExperience"
 }
 
 export default function VouchersPage() {
@@ -35,8 +44,15 @@ export default function VouchersPage() {
   const [error, setError] = useState<string | null>(null)
   const [query, setQuery] = useState("")
   const [statusFilter, setStatusFilter] = useState("")
+  const [typeFilter, setTypeFilter] = useState("")
+  const [selected, setSelected] = useState<string[]>([])
   const [codes, setCodes] = useState("")
   const [remark, setRemark] = useState("")
+  const [batchCount, setBatchCount] = useState("100")
+  const [batchType, setBatchType] = useState("2")
+  const [batchValidUntil, setBatchValidUntil] = useState("")
+  const [batchBatchNo, setBatchBatchNo] = useState("")
+  const [generatingPdf, setGeneratingPdf] = useState(false)
   const [editing, setEditing] = useState<HealthCheckVoucher | null>(null)
   const [editRemark, setEditRemark] = useState("")
 
@@ -45,6 +61,7 @@ export default function VouchersPage() {
       const params = new URLSearchParams()
       if (query.trim()) params.set("q", query.trim())
       if (statusFilter) params.set("status", statusFilter)
+      if (typeFilter) params.set("type", typeFilter)
       const suffix = params.toString() ? `?${params.toString()}` : ""
       const data = await adminFetch<HealthCheckVoucher[]>(
         `/api/admin/server/experience-vouchers${suffix}`,
@@ -63,6 +80,7 @@ export default function VouchersPage() {
         const data = await adminFetch<HealthCheckVoucher[]>("/api/admin/server/experience-vouchers")
         if (!cancelled) {
           setVouchers(data)
+          setSelected([])
           setError(null)
         }
       } catch (e) {
@@ -93,6 +111,68 @@ export default function VouchersPage() {
       await load()
     } catch (e) {
       setError((e as Error).message)
+    }
+  }
+
+  const generateVouchers = async () => {
+    try {
+      const count = Number(batchCount)
+      if (!Number.isInteger(count) || count <= 0 || count > 1000) {
+        setError(t("admin.vouchers.invalidCount"))
+        return
+      }
+      await adminFetch("/api/admin/server/experience-vouchers/generate", {
+        method: "POST",
+        body: JSON.stringify({
+          count,
+          type: Number(batchType),
+          validUntil: batchValidUntil || null,
+          batchNo: batchBatchNo.trim() || null,
+        }),
+      })
+      setBatchBatchNo("")
+      await load()
+    } catch (e) {
+      setError((e as Error).message)
+    }
+  }
+
+  const toggleSelected = (code: string) => {
+    setSelected((current) =>
+      current.includes(code) ? current.filter((item) => item !== code) : [...current, code],
+    )
+  }
+
+  const downloadPdf = async () => {
+    try {
+      const targets = selected.length ? selected : vouchers?.slice(0, 100).map((v) => v.code) ?? []
+      if (!targets.length) {
+        setError(t("admin.vouchers.emptyInput"))
+        return
+      }
+      setGeneratingPdf(true)
+      const response = await fetch("/api/admin/server/experience-vouchers/pdf", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ codes: targets }),
+      })
+      if (!response.ok) {
+        const body = (await response.json().catch(() => null)) as { error?: string } | null
+        throw new Error(body?.error ?? `Request failed (${response.status})`)
+      }
+      const blob = await response.blob()
+      const url = URL.createObjectURL(blob)
+      const link = document.createElement("a")
+      const disposition = response.headers.get("content-disposition") ?? ""
+      const match = /filename="?([^"]+)"?/.exec(disposition)
+      link.href = url
+      link.download = match?.[1] ?? "vouchers.pdf"
+      link.click()
+      URL.revokeObjectURL(url)
+    } catch (e) {
+      setError((e as Error).message)
+    } finally {
+      setGeneratingPdf(false)
     }
   }
 
@@ -147,11 +227,13 @@ export default function VouchersPage() {
 
   const exportCsv = () => {
     if (!vouchers?.length) return
-    const header = ["Code", "Status", "Booking ID", "Used at", "Remark"]
+    const header = ["Code", "Type", "Status", "Booking ID", "Order No", "Used at", "Remark"]
     const rows = vouchers.map((voucher) => [
       voucher.code,
+      voucher.type === 2 ? "points" : "experience",
       voucher.status === 1 ? "used" : voucher.status === 2 ? "disabled" : "unused",
       voucher.usedBookingId ?? "",
+      voucher.orderNo ?? "",
       voucher.usedAt ?? "",
       voucher.remark ?? "",
     ])
@@ -195,9 +277,22 @@ export default function VouchersPage() {
                 <option value="0">{t("admin.vouchers.statusUnused")}</option>
                 <option value="1">{t("admin.vouchers.statusUsed")}</option>
                 <option value="2">{t("admin.vouchers.statusDisabled")}</option>
+                <option value="3">{t("admin.vouchers.statusInvalid")}</option>
+              </select>
+              <select
+                value={typeFilter}
+                onChange={(event) => setTypeFilter(event.target.value)}
+                className="h-9 rounded-md border border-ikea-gray-200 bg-white px-3 text-sm outline-none focus:border-ikea-blue"
+              >
+                <option value="">{t("admin.vouchers.allTypes")}</option>
+                <option value="1">{t("admin.vouchers.typeExperience")}</option>
+                <option value="2">{t("admin.vouchers.typePoints")}</option>
               </select>
               <Button variant="secondary" onClick={() => void load()}>
                 {t("admin.vouchers.search")}
+              </Button>
+              <Button variant="secondary" disabled={generatingPdf} onClick={() => void downloadPdf()}>
+                {generatingPdf ? t("admin.vouchers.generatingPdf") : t("admin.vouchers.downloadPdf")}
               </Button>
               <Button variant="secondary" onClick={exportCsv}>
                 {t("admin.vouchers.exportCsv")}
@@ -212,9 +307,12 @@ export default function VouchersPage() {
             <table className="w-full text-left text-sm">
               <thead className="bg-ikea-gray-50 text-xs text-ikea-muted">
                 <tr>
+                  <th className="px-4 py-3 font-medium">{t("admin.vouchers.colSelect")}</th>
                   <th className="px-5 py-3 font-medium">{t("admin.vouchers.colCode")}</th>
+                  <th className="px-5 py-3 font-medium">{t("admin.vouchers.colType")}</th>
                   <th className="px-5 py-3 font-medium">{t("admin.vouchers.colStatus")}</th>
                   <th className="px-5 py-3 font-medium">{t("admin.vouchers.colBooking")}</th>
+                  <th className="px-5 py-3 font-medium">{t("admin.vouchers.colOrder")}</th>
                   <th className="px-5 py-3 font-medium">{t("admin.vouchers.colRemark")}</th>
                   <th className="px-5 py-3 text-right font-medium">
                     {t("admin.common.colActions")}
@@ -224,15 +322,25 @@ export default function VouchersPage() {
               <tbody className="divide-y divide-ikea-gray-200">
                 {vouchers.map((voucher) => (
                   <tr key={voucher.id} className="hover:bg-ikea-gray-50">
+                    <td className="px-4 py-3">
+                      <input
+                        type="checkbox"
+                        checked={selected.includes(voucher.code)}
+                        onChange={() => toggleSelected(voucher.code)}
+                        className="h-4 w-4"
+                      />
+                    </td>
                     <td className="px-5 py-3 font-medium">{voucher.code}</td>
+                    <td className="px-5 py-3">{t(typeLabelKey(voucher.type))}</td>
                     <td className="px-5 py-3">{t(statusLabelKey(voucher.status))}</td>
                     <td className="px-5 py-3">{voucher.usedBookingId ?? "—"}</td>
+                    <td className="px-5 py-3">{voucher.orderNo ?? "—"}</td>
                     <td className="px-5 py-3">{voucher.remark || "—"}</td>
                     <td className="px-5 py-3 text-right">
                       <Button variant="secondary" onClick={() => startEdit(voucher)}>
                         {t("admin.vouchers.edit")}
                       </Button>{" "}
-                      {voucher.status === 1 ? null : (
+                      {voucher.status === 1 || voucher.status === 3 ? null : (
                         <>
                           <Button variant="secondary" onClick={() => void toggleVoucher(voucher)}>
                             {voucher.status === 2
@@ -289,6 +397,41 @@ export default function VouchersPage() {
                 placeholder={t("admin.vouchers.remarkPlaceholder")}
               />
               <Button onClick={() => void createVouchers()}>{t("admin.vouchers.create")}</Button>
+              <div className="border-t border-ikea-gray-200 pt-4">
+                <h3 className="text-sm font-bold">{t("admin.vouchers.batchGenerateTitle")}</h3>
+                <div className="mt-3 grid gap-3 sm:grid-cols-2">
+                  <TextInput
+                    type="number"
+                    min="1"
+                    max="1000"
+                    value={batchCount}
+                    onChange={(event) => setBatchCount(event.target.value)}
+                    placeholder={t("admin.vouchers.batchCountPlaceholder")}
+                  />
+                  <select
+                    value={batchType}
+                    onChange={(event) => setBatchType(event.target.value)}
+                    className="h-9 rounded-md border border-ikea-gray-200 bg-white px-3 text-sm outline-none focus:border-ikea-blue"
+                  >
+                    <option value="1">{t("admin.vouchers.typeExperience")}</option>
+                    <option value="2">{t("admin.vouchers.typePoints")}</option>
+                  </select>
+                  <TextInput
+                    type="date"
+                    value={batchValidUntil}
+                    onChange={(event) => setBatchValidUntil(event.target.value)}
+                    placeholder={t("admin.vouchers.validUntilPlaceholder")}
+                  />
+                  <TextInput
+                    value={batchBatchNo}
+                    onChange={(event) => setBatchBatchNo(event.target.value)}
+                    placeholder={t("admin.vouchers.batchNoPlaceholder")}
+                  />
+                </div>
+                <Button className="mt-3" onClick={() => void generateVouchers()}>
+                  {t("admin.vouchers.batchGenerate")}
+                </Button>
+              </div>
             </div>
           </section>
         )}
