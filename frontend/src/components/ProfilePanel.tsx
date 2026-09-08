@@ -370,7 +370,7 @@ export function ProfilePanel() {
             {
               title: t("profile.coupons"),
               desc: t("profile.couponsDesc"),
-              href: "/zh/customer-service/services/privileges/",
+              href: "/zh/profile/coupons/",
               icon: CompassIcon,
             },
             {
