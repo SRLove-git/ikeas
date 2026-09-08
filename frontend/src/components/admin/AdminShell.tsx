@@ -46,7 +46,11 @@ export function AdminShell({ children }: { children: React.ReactNode }) {
     {
       title: t("admin.shell.marketing"),
       description: t("admin.shell.marketingDesc"),
-      items: [{ href: "/admin/marketing", label: t("admin.shell.marketingAndMembers") }],
+      items: [
+        { href: "/admin/marketing", label: t("admin.shell.marketingAndMembers") },
+        { href: "/admin/vouchers", label: t("admin.shell.vouchers") },
+        { href: "/admin/bookings", label: t("admin.shell.bookings") },
+      ],
     },
     {
       title: t("admin.shell.system"),

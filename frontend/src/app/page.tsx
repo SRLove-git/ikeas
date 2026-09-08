@@ -2,6 +2,7 @@ import { Footer } from "@/components/Footer"
 import { FloatingWidgets } from "@/components/FloatingWidgets"
 import { CartDrawer } from "@/components/CartDrawer"
 import { Header } from "@/components/Header"
+import { BookingHighlight } from "@/components/BookingHighlight"
 import { HeroVideo } from "@/components/HeroVideo"
 import { InspirationTipsCard } from "@/components/InspirationTipsCard"
 import { PromoInspirationCard } from "@/components/PromoInspirationCard"
@@ -43,8 +44,7 @@ export default async function Home() {
         count = category.products.length
       } else {
         const page = catalogPages(locale).find(
-          (candidate) =>
-            candidate.url.split("/").filter(Boolean).at(-1) === slug,
+          (candidate) => candidate.url.split("/").filter(Boolean).at(-1) === slug,
         )
         count = page ? (page.productIds ?? []).length : null
       }
@@ -63,17 +63,29 @@ export default async function Home() {
           />
           <div className="i-layout__body">
             <HeroVideo items={heroVideos} />
-            <div className="clearfix min-h-screen px-0 m-auto mb-8 space-y-8 text-left lg:mb-12 lg:space-y-12 max-w-page">
+            <div className="clearfix min-h-screen px-0 m-auto mt-4 mb-8 space-y-8 text-left lg:mt-6 lg:mb-12 lg:space-y-12 max-w-page">
+              <BookingHighlight
+                eyebrow={t("home.bookingEyebrow")}
+                title={t("home.bookingTitle")}
+                description={t("home.bookingDescription")}
+                cta={t("home.bookingCta")}
+                imageAlt={t("home.bookingImageAlt")}
+                services={[
+                  t("home.bookingServiceOxygen"),
+                  t("home.bookingServiceBody"),
+                  t("home.bookingServiceBlood"),
+                  t("home.bookingServicePressure"),
+                ]}
+                image="https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711448-1.png"
+                href="/zh/booking/"
+              />
               <PromoInspirationCard title={t("home.promoTitle")} items={promoItems} />
               <VisualPillSlider
                 title={t("home.shopByCategory")}
                 items={roomPillItems}
                 cta={roomPillCta}
               />
-              <InspirationTipsCard
-                title={t("home.healthyTips")}
-                items={inspirationTipsItems}
-              />
+              <InspirationTipsCard title={t("home.healthyTips")} items={inspirationTipsItems} />
               <VisualPillSlider
                 title={t("home.healthyLiving")}
                 items={sustainabilityPillItems}

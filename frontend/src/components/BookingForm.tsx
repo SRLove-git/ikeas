@@ -12,6 +12,7 @@ type FormKey =
   | "customerName"
   | "phone"
   | "email"
+  | "voucherCode"
   | "serviceType"
   | "store"
   | "preferredDate"
@@ -24,6 +25,7 @@ export function BookingForm() {
     "customerName",
     "phone",
     "email",
+    "voucherCode",
     "serviceType",
     "store",
     "preferredDate",
@@ -32,6 +34,7 @@ export function BookingForm() {
     customerName: "",
     phone: "",
     email: "",
+    voucherCode: "",
     serviceType: "",
     store: "",
     preferredDate: "",
@@ -56,6 +59,7 @@ export function BookingForm() {
         !form.customerName.trim() ||
         !form.phone.trim() ||
         !form.email.trim() ||
+        !form.voucherCode.trim() ||
         !form.serviceType ||
         !form.store ||
         !form.preferredDate.trim()
@@ -111,6 +115,7 @@ export function BookingForm() {
     ["customerName", t("bookingForm.nameLabel"), t("bookingForm.namePlaceholder"), "text"],
     ["phone", t("bookingForm.phoneLabel"), t("bookingForm.phonePlaceholder"), "tel"],
     ["email", t("bookingForm.emailLabel"), t("bookingForm.emailPlaceholder"), "email"],
+    ["voucherCode", t("bookingForm.voucherLabel"), t("bookingForm.voucherPlaceholder"), "text"],
   ]
   const selectOptions: Partial<Record<FormKey, string[]>> = {
     serviceType: [
@@ -121,6 +126,7 @@ export function BookingForm() {
       t("bookingForm.serviceOther"),
     ],
     store: [
+      t("bookingForm.storeSagoStreet"),
       t("bookingForm.storeRaffles"),
       t("bookingForm.storeNovena"),
       t("bookingForm.storeParkroyal"),

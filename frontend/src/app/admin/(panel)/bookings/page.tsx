@@ -1,0 +1,230 @@
+"use client"
+
+import { useEffect, useState } from "react"
+import { useTranslation } from "react-i18next"
+import { useLocale } from "@/i18n/LanguageProvider"
+import {
+  adminFetch,
+  Button,
+  EmptyState,
+  Loading,
+  Notice,
+  PageHeader,
+} from "@/components/admin/admin-ui"
+
+interface Booking {
+  id: number
+  bookingNo: string
+  customerName: string
+  phone: string
+  email: string
+  voucherCode: string
+  serviceType: string
+  store: string
+  preferredDate: string
+  timeSlot?: string | null
+  note?: string | null
+  status: number
+  createdAt: string
+  updatedAt: string
+}
+
+function statusLabelKey(status: number): string {
+  if (status === 1) return "admin.bookings.statusConfirmed"
+  if (status === 2) return "admin.bookings.statusCompleted"
+  if (status === 3) return "admin.bookings.statusCancelled"
+  return "admin.bookings.statusPending"
+}
+
+function statusClassName(status: number): string {
+  if (status === 1) return "bg-blue-100 text-blue-700"
+  if (status === 2) return "bg-green-100 text-green-700"
+  if (status === 3) return "bg-ikea-gray-100 text-ikea-muted"
+  return "bg-amber-100 text-amber-700"
+}
+
+function formatDate(value: string, locale: string): string {
+  const date = new Date(value)
+  if (Number.isNaN(date.getTime())) return value
+  return date.toLocaleString(locale === "en" ? "en-SG" : "zh-CN", { hour12: false })
+}
+
+export default function BookingsPage() {
+  const { t } = useTranslation()
+  const { locale } = useLocale()
+  const [bookings, setBookings] = useState<Booking[] | null>(null)
+  const [error, setError] = useState<string | null>(null)
+  const [query, setQuery] = useState("")
+  const [statusFilter, setStatusFilter] = useState("")
+
+  const load = async () => {
+    try {
+      const params = new URLSearchParams()
+      if (query.trim()) params.set("q", query.trim())
+      if (statusFilter) params.set("status", statusFilter)
+      const suffix = params.toString() ? `?${params.toString()}` : ""
+      const data = await adminFetch<Booking[]>(`/api/admin/server/bookings${suffix}`)
+      setBookings(data)
+      setError(null)
+    } catch (e) {
+      setError(`${t("admin.bookings.loadFailed")}：${(e as Error).message}`)
+    }
+  }
+
+  useEffect(() => {
+    let cancelled = false
+    void (async () => {
+      try {
+        const data = await adminFetch<Booking[]>("/api/admin/server/bookings")
+        if (!cancelled) {
+          setBookings(data)
+          setError(null)
+        }
+      } catch (e) {
+        if (!cancelled) setError((e as Error).message)
+      }
+    })()
+    return () => {
+      cancelled = true
+    }
+  }, [])
+
+  const updateStatus = async (booking: Booking, status: number) => {
+    try {
+      await adminFetch(`/api/admin/server/bookings/${booking.id}/status`, {
+        method: "PATCH",
+        body: JSON.stringify({ status }),
+      })
+      await load()
+    } catch (e) {
+      setError((e as Error).message)
+    }
+  }
+
+  const deleteBooking = async (booking: Booking) => {
+    if (!window.confirm(t("admin.bookings.confirmDelete"))) return
+    try {
+      await adminFetch(`/api/admin/server/bookings/${booking.id}`, {
+        method: "DELETE",
+      })
+      await load()
+    } catch (e) {
+      setError((e as Error).message)
+    }
+  }
+
+  return (
+    <div>
+      <PageHeader title={t("admin.bookings.title")} description={t("admin.bookings.desc")} />
+
+      {error ? <Notice kind="error">{error}</Notice> : null}
+
+      <section className="mt-6 overflow-x-auto rounded-lg border border-ikea-gray-200 bg-white">
+        <div className="border-b border-ikea-gray-200 px-5 py-4">
+          <h2 className="text-base font-bold">{t("admin.bookings.listTitle")}</h2>
+          <div className="mt-3 flex flex-col gap-2 md:flex-row">
+            <input
+              value={query}
+              onChange={(event) => setQuery(event.target.value)}
+              onKeyDown={(event) => {
+                if (event.key === "Enter") void load()
+              }}
+              placeholder={t("admin.bookings.placeholderSearch")}
+              className="h-9 w-full rounded-md border border-ikea-gray-200 px-3 text-sm outline-none focus:border-ikea-blue md:max-w-xs"
+            />
+            <select
+              value={statusFilter}
+              onChange={(event) => setStatusFilter(event.target.value)}
+              className="h-9 rounded-md border border-ikea-gray-200 bg-white px-3 text-sm outline-none focus:border-ikea-blue"
+            >
+              <option value="">{t("admin.bookings.allStatuses")}</option>
+              <option value="0">{t("admin.bookings.statusPending")}</option>
+              <option value="1">{t("admin.bookings.statusConfirmed")}</option>
+              <option value="2">{t("admin.bookings.statusCompleted")}</option>
+              <option value="3">{t("admin.bookings.statusCancelled")}</option>
+            </select>
+            <Button variant="secondary" onClick={() => void load()}>
+              {t("admin.bookings.search")}
+            </Button>
+          </div>
+        </div>
+        {!bookings ? (
+          <Loading />
+        ) : bookings.length === 0 ? (
+          <EmptyState>{t("admin.bookings.empty")}</EmptyState>
+        ) : (
+          <table className="w-full text-left text-sm">
+            <thead className="bg-ikea-gray-50 text-xs text-ikea-muted">
+              <tr>
+                <th className="px-5 py-3 font-medium">{t("admin.bookings.colBookingNo")}</th>
+                <th className="px-5 py-3 font-medium">{t("admin.bookings.colName")}</th>
+                <th className="px-5 py-3 font-medium">{t("admin.bookings.colPhone")}</th>
+                <th className="px-5 py-3 font-medium">{t("admin.bookings.colEmail")}</th>
+                <th className="px-5 py-3 font-medium">{t("admin.bookings.colVoucher")}</th>
+                <th className="px-5 py-3 font-medium">{t("admin.bookings.colService")}</th>
+                <th className="px-5 py-3 font-medium">{t("admin.bookings.colStore")}</th>
+                <th className="px-5 py-3 font-medium">{t("admin.bookings.colDate")}</th>
+                <th className="px-5 py-3 font-medium">{t("admin.bookings.colTimeSlot")}</th>
+                <th className="px-5 py-3 font-medium">{t("admin.bookings.colNote")}</th>
+                <th className="px-5 py-3 font-medium">{t("admin.bookings.colStatus")}</th>
+                <th className="px-5 py-3 font-medium">{t("admin.bookings.colCreatedAt")}</th>
+                <th className="px-5 py-3 text-right font-medium">{t("admin.common.colActions")}</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-ikea-gray-200">
+              {bookings.map((booking) => (
+                <tr key={booking.id} className="hover:bg-ikea-gray-50">
+                  <td className="px-5 py-3 font-medium">{booking.bookingNo}</td>
+                  <td className="px-5 py-3">{booking.customerName}</td>
+                  <td className="px-5 py-3">{booking.phone}</td>
+                  <td className="px-5 py-3">{booking.email}</td>
+                  <td className="px-5 py-3">{booking.voucherCode}</td>
+                  <td className="px-5 py-3">{booking.serviceType}</td>
+                  <td className="px-5 py-3">{booking.store}</td>
+                  <td className="px-5 py-3">{booking.preferredDate}</td>
+                  <td className="px-5 py-3">{booking.timeSlot || "—"}</td>
+                  <td className="px-5 py-3">{booking.note || "—"}</td>
+                  <td className="px-5 py-3">
+                    <span
+                      className={`rounded px-2 py-0.5 text-xs font-medium ${statusClassName(booking.status)}`}
+                    >
+                      {t(statusLabelKey(booking.status))}
+                    </span>
+                  </td>
+                  <td className="px-5 py-3">{formatDate(booking.createdAt, locale)}</td>
+                  <td className="px-5 py-3 text-right">
+                    {booking.status === 0 ? (
+                      <>
+                        <Button variant="secondary" onClick={() => void updateStatus(booking, 1)}>
+                          {t("admin.bookings.confirm")}
+                        </Button>{" "}
+                        <Button variant="secondary" onClick={() => void updateStatus(booking, 3)}>
+                          {t("admin.bookings.cancel")}
+                        </Button>{" "}
+                      </>
+                    ) : null}
+                    {booking.status === 1 ? (
+                      <>
+                        <Button variant="secondary" onClick={() => void updateStatus(booking, 2)}>
+                          {t("admin.bookings.complete")}
+                        </Button>{" "}
+                        <Button variant="secondary" onClick={() => void updateStatus(booking, 3)}>
+                          {t("admin.bookings.cancel")}
+                        </Button>{" "}
+                      </>
+                    ) : null}
+                    {booking.status === 2 ? null : (
+                      <Button variant="danger" onClick={() => void deleteBooking(booking)}>
+                        {t("admin.bookings.delete")}
+                      </Button>
+                    )}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        )}
+      </section>
+    </div>
+  )
+}
