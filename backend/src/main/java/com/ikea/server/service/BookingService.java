@@ -3,6 +3,7 @@ package com.ikea.server.service;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import com.ikea.server.dto.booking.BookingDtos.CreateBookingRequest;
 import com.ikea.server.entity.Booking;
+import com.ikea.server.entity.Coupon;
 import com.ikea.server.mapper.BookingMapper;
 import java.time.LocalDate;
 import java.time.format.DateTimeParseException;
@@ -21,17 +22,23 @@ public class BookingService {
 
   private final BookingMapper bookingMapper;
   private final ExperienceVoucherService voucherService;
+  private final MarketingService marketingService;
 
-  public BookingService(BookingMapper bookingMapper, ExperienceVoucherService voucherService) {
+  public BookingService(
+      BookingMapper bookingMapper,
+      ExperienceVoucherService voucherService,
+      MarketingService marketingService) {
     this.bookingMapper = bookingMapper;
     this.voucherService = voucherService;
+    this.marketingService = marketingService;
   }
 
   @Transactional
-  public Booking createBooking(CreateBookingRequest request) {
+  public Booking createBooking(CreateBookingRequest request, Long userId) {
     String customerName = trim(request == null ? null : request.customerName());
     String phone = trim(request == null ? null : request.phone());
     String email = trim(request == null ? null : request.email());
+    Long couponId = request == null ? null : request.couponId();
     List<String> voucherCodes = normalizeVoucherCodes(request);
     String voucherCode = voucherCodes.isEmpty() ? "" : voucherCodes.get(0);
     String serviceType = trim(request == null ? null : request.serviceType());
@@ -41,7 +48,7 @@ public class BookingService {
     if (customerName.isBlank()
         || phone.isBlank()
         || email.isBlank()
-        || voucherCodes.isEmpty()
+        || (couponId == null && voucherCodes.isEmpty())
         || serviceType.isBlank()
         || store.isBlank()
         || preferredDate.isBlank()) {
@@ -62,7 +69,12 @@ public class BookingService {
 
     String bookingNo = "BK-" + System.currentTimeMillis();
     String codesText;
-    if (voucherCodes.size() == 1) {
+    if (couponId != null) {
+      Coupon coupon = marketingService.couponById(couponId);
+      marketingService.redeemCouponForBooking(userId, couponId, bookingNo);
+      voucherCode = coupon.getCode();
+      codesText = coupon.getCode();
+    } else if (voucherCodes.size() == 1) {
       voucherService.redeemForBooking(voucherCodes.get(0), bookingNo);
       codesText = voucherCodes.get(0);
     } else if (voucherCodes.size() == 3) {

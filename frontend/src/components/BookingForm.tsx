@@ -3,9 +3,13 @@
 import { useEffect, useState } from "react"
 import Link from "next/link"
 import { useTranslation } from "react-i18next"
+import { useAuth } from "@/lib/auth"
+import { apiJson } from "@/lib/api"
 
-type BookingResponse = {
+type CouponOption = {
   id: string
+  code: string
+  name: string
 }
 
 type FormKey =
@@ -21,11 +25,11 @@ type FormKey =
 
 export function BookingForm() {
   const { t } = useTranslation()
+  const { user } = useAuth()
   const requiredKeys = new Set<FormKey>([
     "customerName",
     "phone",
     "email",
-    "voucherCode",
     "serviceType",
     "store",
     "preferredDate",
@@ -44,6 +48,8 @@ export function BookingForm() {
   const [submitting, setSubmitting] = useState(false)
   const [error, setError] = useState<string | null>(null)
   const [successId, setSuccessId] = useState<string | null>(null)
+  const [coupons, setCoupons] = useState<CouponOption[]>([])
+  const [selectedCouponId, setSelectedCouponId] = useState("")
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search)
@@ -52,6 +58,22 @@ export function BookingForm() {
       setForm((current) => ({ ...current, voucherCode: voucher.trim().toUpperCase() }))
     }
   }, [])
+
+  useEffect(() => {
+    if (!user) return
+    let cancelled = false
+    void (async () => {
+      try {
+        const data = await apiJson<CouponOption[]>("/marketing/coupons")
+        if (!cancelled) setCoupons(data)
+      } catch {
+        if (!cancelled) setCoupons([])
+      }
+    })()
+    return () => {
+      cancelled = true
+    }
+  }, [user])
 
   const update =
     (key: FormKey) =>
@@ -87,23 +109,32 @@ export function BookingForm() {
         return
       }
       const voucherCodes = parseVoucherCodes(form.voucherCode)
-      if (voucherCodes.length !== 1 && voucherCodes.length !== 3) {
+      if (!selectedCouponId && voucherCodes.length !== 1 && voucherCodes.length !== 3) {
         setError(t("bookingForm.voucherCountInvalid"))
         return
       }
 
-      const response = await fetch("/api/bookings", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ ...form, voucherCodes }),
-      })
-      const data = (await response.json().catch(() => null)) as
-        (BookingResponse & { error?: string }) | null
-      if (!response.ok || !data) {
-        setError(data?.error ?? t("bookingForm.submitFailed"))
-        return
+      const payload: Record<string, unknown> = {
+        customerName: form.customerName.trim(),
+        phone: form.phone.trim(),
+        email: form.email.trim(),
+        serviceType: form.serviceType,
+        store: form.store,
+        preferredDate: form.preferredDate.trim(),
+        timeSlot: form.timeSlot,
+        note: form.note,
       }
-      setSuccessId(data.id)
+      if (selectedCouponId) {
+        payload.couponId = selectedCouponId
+      } else {
+        payload.voucherCodes = voucherCodes
+      }
+
+      const data = await apiJson<{ bookingNo: string }>("/bookings", {
+        method: "POST",
+        body: JSON.stringify(payload),
+      })
+      setSuccessId(data.bookingNo)
     } catch (ex) {
       setError(ex instanceof Error ? ex.message : t("bookingForm.submitFailed"))
     } finally {
@@ -127,7 +158,6 @@ export function BookingForm() {
     ["customerName", t("bookingForm.nameLabel"), t("bookingForm.namePlaceholder"), "text"],
     ["phone", t("bookingForm.phoneLabel"), t("bookingForm.phonePlaceholder"), "tel"],
     ["email", t("bookingForm.emailLabel"), t("bookingForm.emailPlaceholder"), "email"],
-    ["voucherCode", t("bookingForm.voucherLabel"), t("bookingForm.voucherPlaceholder"), "text"],
   ]
   const selectOptions: Partial<Record<FormKey, string[]>> = {
     serviceType: [
@@ -172,6 +202,42 @@ export function BookingForm() {
           />
         </label>
       ))}
+      {coupons.length > 0 ? (
+        <label className="block md:col-span-2">
+          <span className="mb-1.5 block text-sm font-bold">{t("bookingForm.couponLabel")}</span>
+          <select
+            value={selectedCouponId}
+            onChange={(event) => setSelectedCouponId(event.target.value)}
+            className="h-11 w-full border border-ikea-gray-200 bg-white px-4 text-sm outline-none transition-colors focus:border-ikea-blue"
+          >
+            <option value="">{t("bookingForm.couponPlaceholder")}</option>
+            {coupons.map((coupon) => (
+              <option key={coupon.id} value={coupon.id}>
+                {coupon.name}
+              </option>
+            ))}
+          </select>
+        </label>
+      ) : null}
+      <label className="block md:col-span-2">
+        <span className="mb-1.5 block text-sm font-bold">
+          {t("bookingForm.voucherLabel")}
+          {!selectedCouponId ? (
+            <span className="text-red-600" aria-label={t("bookingForm.required")}>
+              {" "}
+              *
+            </span>
+          ) : null}
+        </span>
+        <input
+          type="text"
+          placeholder={t("bookingForm.voucherPlaceholder")}
+          value={form.voucherCode}
+          disabled={Boolean(selectedCouponId)}
+          onChange={update("voucherCode")}
+          className="h-11 w-full border border-ikea-gray-200 px-4 text-sm outline-none transition-colors focus:border-ikea-blue disabled:bg-ikea-gray-50 disabled:text-ikea-muted"
+        />
+      </label>
       {(["serviceType", "store", "preferredDate", "timeSlot"] as FormKey[]).map((key) => (
         <label key={key} className="block">
           <span className="mb-1.5 block text-sm font-bold">

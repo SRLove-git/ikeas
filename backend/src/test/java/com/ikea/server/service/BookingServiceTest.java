@@ -33,6 +33,7 @@ class BookingServiceTest {
 
   private BookingMapper bookingMapper;
   private ExperienceVoucherService voucherService;
+  private MarketingService marketingService;
   private BookingService bookingService;
 
   @BeforeAll
@@ -47,17 +48,18 @@ class BookingServiceTest {
   void setUp() {
     bookingMapper = mock(BookingMapper.class);
     voucherService = mock(ExperienceVoucherService.class);
-    bookingService = new BookingService(bookingMapper, voucherService);
+    marketingService = mock(MarketingService.class);
+    bookingService = new BookingService(bookingMapper, voucherService, marketingService);
   }
 
   @Test
   void createBookingShouldRejectMissingRequiredFields() {
     CreateBookingRequest request =
         new CreateBookingRequest(
-            "", "81234567", "a@b.com", "CODE1", null, "体检套餐", "门店", "2026-09-10", "上午", null);
+            "", "81234567", "a@b.com", "CODE1", null, null, "体检套餐", "门店", "2026-09-10", "上午", null);
 
     IllegalArgumentException e =
-        assertThrows(IllegalArgumentException.class, () -> bookingService.createBooking(request));
+        assertThrows(IllegalArgumentException.class, () -> bookingService.createBooking(request, null));
 
     assertEquals("请填写姓名、联系方式、券码、服务项目、门店与预约日期", e.getMessage());
     verify(bookingMapper, never()).insert(any(Booking.class));
@@ -68,7 +70,7 @@ class BookingServiceTest {
     CreateBookingRequest request = validRequest("71234567", "a@b.com", "2026-09-10");
 
     IllegalArgumentException e =
-        assertThrows(IllegalArgumentException.class, () -> bookingService.createBooking(request));
+        assertThrows(IllegalArgumentException.class, () -> bookingService.createBooking(request, null));
 
     assertEquals("手机号格式不正确", e.getMessage());
     verify(bookingMapper, never()).insert(any(Booking.class));
@@ -79,7 +81,7 @@ class BookingServiceTest {
     CreateBookingRequest request = validRequest("81234567", "a@b.com", "2026/09/10");
 
     IllegalArgumentException e =
-        assertThrows(IllegalArgumentException.class, () -> bookingService.createBooking(request));
+        assertThrows(IllegalArgumentException.class, () -> bookingService.createBooking(request, null));
 
     assertEquals("预约日期格式不正确", e.getMessage());
     verify(bookingMapper, never()).insert(any(Booking.class));
@@ -93,7 +95,7 @@ class BookingServiceTest {
         .redeemForBooking(eq("CODE1"), anyString());
 
     IllegalArgumentException e =
-        assertThrows(IllegalArgumentException.class, () -> bookingService.createBooking(request));
+        assertThrows(IllegalArgumentException.class, () -> bookingService.createBooking(request, null));
 
     assertEquals("体检券已使用", e.getMessage());
     verify(bookingMapper, never()).insert(any(Booking.class));
@@ -103,7 +105,7 @@ class BookingServiceTest {
   void createBookingShouldInsertAndRedeemVoucher() {
     CreateBookingRequest request = validRequest("81234567", "a@b.com", "2026-09-10");
 
-    Booking booking = bookingService.createBooking(request);
+    Booking booking = bookingService.createBooking(request, null);
 
     ArgumentCaptor<Booking> captor = ArgumentCaptor.forClass(Booking.class);
     verify(bookingMapper).insert(captor.capture());
@@ -176,7 +178,7 @@ class BookingServiceTest {
 
   private static CreateBookingRequest validRequest(String phone, String email, String date) {
     return new CreateBookingRequest(
-        "张三", phone, email, "code1", null, "体检套餐", "门店", date, "上午", "备注");
+        "张三", phone, email, "code1", null, null, "体检套餐", "门店", date, "上午", "备注");
   }
 
   private static Booking booking(Long id, Integer status) {

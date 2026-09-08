@@ -12,6 +12,7 @@ public final class BookingDtos {
       String email,
       String voucherCode,
       List<String> voucherCodes,
+      Long couponId,
       String serviceType,
       String store,
       String preferredDate,

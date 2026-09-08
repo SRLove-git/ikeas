@@ -203,6 +203,27 @@ public class MarketingService {
     return coupon;
   }
 
+  /** 体验预约时核销用户账下的一张优惠券（等价于一张体验券）。 */
+  @Transactional
+  public void redeemCouponForBooking(Long userId, Long couponId, String bookingNo) {
+    if (userId == null || couponId == null) {
+      throw new IllegalArgumentException("请先登录并选择优惠券");
+    }
+    UserCoupon userCoupon =
+        userCouponMapper.selectOne(
+            Wrappers.lambdaQuery(UserCoupon.class)
+                .eq(UserCoupon::getUserId, userId)
+                .eq(UserCoupon::getCouponId, couponId)
+                .eq(UserCoupon::getStatus, 1)
+                .last("LIMIT 1"));
+    if (userCoupon == null) {
+      throw new IllegalArgumentException("优惠券不可用或未领取");
+    }
+    userCoupon.setStatus(2);
+    userCoupon.setUsedOrderNo(bookingNo);
+    userCouponMapper.updateById(userCoupon);
+  }
+
   public Coupon createCoupon(AdminCouponRequest request) {
     if (request == null || request.type() == null || (request.type() != 1 && request.type() != 2)) {
       throw new IllegalArgumentException("优惠券类型不正确");
