@@ -258,16 +258,6 @@ export function ReferralPanel() {
                   </p>
                   {pointsVouchers.length > 0 ? (
                     <div className="mt-4 space-y-3">
-                      <div className="space-y-2">
-                        {pointsVouchers.map((voucher) => (
-                          <p
-                            key={voucher.id}
-                            className="rounded-md border border-ikea-gray-200 bg-ikea-gray-50 px-3 py-2 font-mono text-xs font-bold"
-                          >
-                            {voucher.code}
-                          </p>
-                        ))}
-                      </div>
                       <p className="text-xs leading-5 text-ikea-muted">
                         {t("referral.sharePointsCount", { count: pointsVouchers.length })}
                       </p>
@@ -279,7 +269,7 @@ export function ReferralPanel() {
                         {t("referral.sharePointsDownload")}
                       </button>
                       <Link
-                        href="/zh/profile/"
+                        href="/zh/profile/vouchers/"
                         className="block text-center text-xs font-bold text-ikea-blue hover:underline"
                       >
                         {t("referral.sharePointsGoVouchers")}
