@@ -78,7 +78,7 @@ ikea:
     default-delivery-fee: ${IKEA_DEFAULT_DELIVERY_FEE:9.9}
   voucher:
     # 打印券二维码指向的预约页，通常生产环境保持 medical-sg.com。
-    booking-url: ${BUZUD_VOUCHER_BOOKING_URL:https://medical-sg.com/en/booking/}
+    booking-url: ${BUZUD_VOUCHER_BOOKING_URL:https://medical-sg.com/zh/booking/}
   marketing:
     # 扫码领券二维码指向的前台域名，部署时配置为公网地址。
     public-base-url: ${BUZUD_MARKETING_PUBLIC_BASE_URL:https://medical-sg.com}

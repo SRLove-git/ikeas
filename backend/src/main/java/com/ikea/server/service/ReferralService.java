@@ -82,7 +82,7 @@ public class ReferralService {
       return false;
     }
 
-    // 好友通过邀请链接真实注册成功后，给邀请人发放 3 张积分券（3 张可兑换 1 张体验券）。
+    // 好友通过邀请链接真实注册成功后，给邀请人发放 1 张积分券（3 张可兑换 1 张体验券）。
     experienceVoucherService.issueReferralPoints(
         inviterId, "REF-" + referral.getId(), "邀请好友注册奖励");
 

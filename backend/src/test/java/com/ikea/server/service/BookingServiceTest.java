@@ -135,7 +135,9 @@ class BookingServiceTest {
         new ExperienceVoucherService(
             voucherMapper,
             mock(VoucherPdfService.class),
-            "https://medical-sg.com/en/booking/");
+            "https://medical-sg.com/zh/booking/",
+            mock(org.springframework.mail.javamail.JavaMailSender.class),
+            "no-reply@example.com");
 
     realVoucherService.releaseByBookingId("BK-100");
 

@@ -4,17 +4,20 @@ import com.ikea.server.constant.SecurityConstants;
 import com.ikea.server.dto.experience.ExperienceVoucherDtos.AutoRedeemPointsResponse;
 import com.ikea.server.dto.experience.ExperienceVoucherDtos.RedeemVoucherRequest;
 import com.ikea.server.dto.experience.ExperienceVoucherDtos.RedeemVoucherResponse;
+import com.ikea.server.dto.experience.ExperienceVoucherDtos.SendVoucherEmailRequest;
 import com.ikea.server.dto.experience.ExperienceVoucherDtos.ValidateVoucherRequest;
 import com.ikea.server.dto.experience.ExperienceVoucherDtos.ValidateVoucherResponse;
 import com.ikea.server.entity.ExperienceVoucher;
 import com.ikea.server.service.ExperienceVoucherService;
 import jakarta.servlet.http.HttpServletRequest;
 import java.util.List;
+import java.util.Map;
 import org.springframework.http.ContentDisposition;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -72,6 +75,15 @@ public class ExperienceVoucherController {
   @PostMapping("/auto-redeem-points")
   public AutoRedeemPointsResponse autoRedeemPoints(HttpServletRequest request) {
     return voucherService.autoRedeemPoints(userId(request));
+  }
+
+  @PostMapping("/{code}/email")
+  public Map<String, Boolean> sendVoucherEmail(
+      @PathVariable String code,
+      @RequestBody SendVoucherEmailRequest body,
+      HttpServletRequest request) {
+    voucherService.sendExperiencePdfToEmail(userId(request), code, body.email());
+    return Map.of("ok", true);
   }
 
   private static Long userId(HttpServletRequest request) {

@@ -9,6 +9,7 @@ import com.ikea.server.dto.experience.ExperienceVoucherDtos.RedeemVoucherRespons
 import com.ikea.server.dto.experience.ExperienceVoucherDtos.ValidateVoucherResponse;
 import com.ikea.server.entity.ExperienceVoucher;
 import com.ikea.server.mapper.ExperienceVoucherMapper;
+import jakarta.mail.internet.MimeMessage;
 import java.math.BigDecimal;
 import java.security.SecureRandom;
 import java.time.LocalDateTime;
@@ -17,7 +18,11 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.LinkedHashSet;
 import java.util.List;
+import java.util.regex.Pattern;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.core.io.ByteArrayResource;
+import org.springframework.mail.javamail.JavaMailSender;
+import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -37,19 +42,27 @@ public class ExperienceVoucherService {
   private static final DateTimeFormatter BATCH_TIME = DateTimeFormatter.ofPattern("yyyyMMdd-HHmmss");
   private static final String CODE_ALPHABET = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789";
   private static final SecureRandom RANDOM = new SecureRandom();
+  private static final Pattern EMAIL =
+      Pattern.compile("^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}$");
 
   private final ExperienceVoucherMapper voucherMapper;
   private final VoucherPdfService voucherPdfService;
   private final String bookingUrl;
+  private final JavaMailSender mailSender;
+  private final String emailFrom;
 
   public ExperienceVoucherService(
       ExperienceVoucherMapper voucherMapper,
       VoucherPdfService voucherPdfService,
-      @Value("${ikea.voucher.booking-url:https://medical-sg.com/en/booking/}") String bookingUrl) {
+      @Value("${ikea.voucher.booking-url:https://medical-sg.com/en/booking/}") String bookingUrl,
+      JavaMailSender mailSender,
+      @Value("${ikea.auth.email-from:CHUNG YIP <no-reply@mail.medical-sg.com>}") String emailFrom) {
     this.voucherMapper = voucherMapper;
     this.voucherPdfService = voucherPdfService;
     this.bookingUrl =
         bookingUrl == null || bookingUrl.isBlank() ? "https://medical-sg.com/en/booking/" : bookingUrl;
+    this.mailSender = mailSender;
+    this.emailFrom = emailFrom;
   }
 
   public List<ExperienceVoucher> listVouchers(String keyword, Integer status, Integer type) {
@@ -129,6 +142,25 @@ public class ExperienceVoucherService {
         experience.getCode(),
         points.stream().map(ExperienceVoucher::getCode).toList(),
         "已自动兑换为 1 张体验券");
+  }
+
+  /** 将当前用户名下的体验券生成 PDF 并发送到指定邮箱。 */
+  public void sendExperiencePdfToEmail(Long userId, String code, String email) {
+    String safeEmail = normalizeEmail(email);
+    ExperienceVoucher voucher = voucherByCode(code);
+    if (voucher == null
+        || voucher.getType() == null
+        || voucher.getType() != TYPE_EXPERIENCE) {
+      throw new IllegalArgumentException("体验券不存在");
+    }
+    if (voucher.getUserId() != null
+        && userId != null
+        && !voucher.getUserId().equals(userId)) {
+      throw new IllegalArgumentException("无权操作该体验券");
+    }
+
+    byte[] pdf = voucherPdfService.generate(List.of(voucher));
+    sendVoucherEmail(safeEmail, voucher.getCode(), pdf);
   }
 
   @Transactional
@@ -333,7 +365,7 @@ public class ExperienceVoucherService {
     return voucher;
   }
 
-  /** 邀请奖励：好友通过邀请链接注册成功后，给邀请人发放 3 张积分券，幂等。 */
+  /** 邀请奖励：好友通过邀请链接注册成功后，给邀请人发放 1 张积分券，幂等。 */
   @Transactional
   public List<ExperienceVoucher> issueReferralPoints(Long userId, String batchNo, String remark) {
     if (userId == null) {
@@ -351,7 +383,7 @@ public class ExperienceVoucherService {
     }
 
     List<ExperienceVoucher> vouchers = new ArrayList<>();
-    for (int i = 0; i < 3; i++) {
+    for (int i = 0; i < 1; i++) {
       ExperienceVoucher voucher =
           newVoucher(TYPE_POINTS, newUniqueCode(TYPE_POINTS), remark, null, safeBatchNo);
       voucher.setUserId(userId);
@@ -550,6 +582,14 @@ public class ExperienceVoucherService {
     return orderNo == null ? "" : orderNo.trim();
   }
 
+  private String normalizeEmail(String email) {
+    String value = email == null ? "" : email.trim().toLowerCase();
+    if (!EMAIL.matcher(value).matches()) {
+      throw new IllegalArgumentException("邮箱格式不正确");
+    }
+    return value;
+  }
+
   private int normalizeType(Integer type) {
     int normalized = type == null ? TYPE_EXPERIENCE : type;
     if (normalized != TYPE_EXPERIENCE && normalized != TYPE_POINTS) {
@@ -563,5 +603,25 @@ public class ExperienceVoucherService {
         + (bookingUrl.contains("?") ? "&" : "?")
         + "voucher="
         + java.net.URLEncoder.encode(code, java.nio.charset.StandardCharsets.UTF_8);
+  }
+
+  private void sendVoucherEmail(String email, String code, byte[] pdf) {
+    try {
+      MimeMessage message = mailSender.createMimeMessage();
+      MimeMessageHelper helper =
+          new MimeMessageHelper(message, true, java.nio.charset.StandardCharsets.UTF_8.name());
+      helper.setFrom(emailFrom);
+      helper.setTo(email);
+      helper.setSubject("您的 BUZUD 体验券");
+      helper.setText(
+          "感谢您选择 BUZUD。附件是您的体验券 PDF，"
+              + "扫描券上的二维码即可跳转到预约页面完成预约。\n\n体验券码：" + code,
+          false);
+      helper.addAttachment(
+          "BUZUD-Experience-Voucher-" + code + ".pdf", new ByteArrayResource(pdf));
+      mailSender.send(message);
+    } catch (Exception ex) {
+      throw new IllegalStateException("体验券邮件发送失败，请稍后重试", ex);
+    }
   }
 }

@@ -28,4 +28,6 @@ public final class ExperienceVoucherDtos {
 
   public record AutoRedeemPointsResponse(
       String experienceCode, List<String> usedPointCodes, String message) {}
+
+  public record SendVoucherEmailRequest(String email) {}
 }

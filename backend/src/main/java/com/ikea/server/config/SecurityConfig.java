@@ -67,6 +67,7 @@ public class SecurityConfig {
                         "/api/v1/experience-vouchers/mine",
                         "/api/v1/experience-vouchers/mine.pdf",
                         "/api/v1/experience-vouchers/auto-redeem-points",
+                        "/api/v1/experience-vouchers/*/email",
                         "/api/v1/referrals/**",
                         "/api/v1/invoices/**",
                         "/api/v1/stock-alerts",

@@ -41,6 +41,7 @@ export function MyVouchersPanel() {
     experienceCode: string
     usedPointCodes: string[]
   } | null>(null)
+  const [sendingEmailCode, setSendingEmailCode] = useState<string | null>(null)
 
   useEffect(() => {
     if (ready && !user) {
@@ -106,6 +107,24 @@ export function MyVouchersPanel() {
       setVoucherNotice(ex instanceof Error ? ex.message : t("profile.voucherAutoRedeemFailed"))
     } finally {
       setAutoRedeeming(false)
+    }
+  }
+
+  const sendVoucherEmail = async (voucher: PhysicalVoucher) => {
+    const email = window.prompt(t("profile.voucherEmailPrompt"))
+    if (!email || !email.trim()) return
+    setSendingEmailCode(voucher.code)
+    setVoucherNotice(null)
+    try {
+      await apiJson(`/experience-vouchers/${encodeURIComponent(voucher.code)}/email`, {
+        method: "POST",
+        body: JSON.stringify({ email: email.trim() }),
+      })
+      setVoucherNotice(t("profile.voucherEmailSuccess", { email: email.trim() }))
+    } catch (ex) {
+      setVoucherNotice(ex instanceof Error ? ex.message : t("profile.voucherAutoRedeemFailed"))
+    } finally {
+      setSendingEmailCode(null)
     }
   }
 
@@ -180,22 +199,37 @@ export function MyVouchersPanel() {
           </div>
         ) : (
           <div className="mt-6 overflow-hidden rounded-lg border border-ikea-gray-200 bg-white">
-            <div className="hidden grid-cols-[1fr_120px_120px] gap-4 border-b border-ikea-gray-100 bg-ikea-gray-50 px-5 py-3 text-xs font-bold text-ikea-muted md:grid">
+            <div className="hidden grid-cols-[1fr_120px_120px_140px] gap-4 border-b border-ikea-gray-100 bg-ikea-gray-50 px-5 py-3 text-xs font-bold text-ikea-muted md:grid">
               <span>{t("profile.voucherCode")}</span>
               <span>{t("profile.voucherType")}</span>
               <span>{t("profile.voucherStatus")}</span>
+              <span className="text-right">{t("profile.voucherActions")}</span>
             </div>
             <div className="divide-y divide-ikea-gray-100">
               {vouchers.map((voucher) => (
                 <div
                   key={voucher.id}
-                  className="grid gap-2 px-5 py-3 text-sm md:grid-cols-[1fr_120px_120px] md:items-center md:gap-4"
+                  className="grid gap-2 px-5 py-3 text-sm md:grid-cols-[1fr_120px_120px_140px] md:items-center md:gap-4"
                 >
                   <span className="break-all font-mono text-xs font-bold">{voucher.code}</span>
                   <span className="text-ikea-muted">
                     {voucher.type === 2 ? t("profile.pointsVoucher") : t("profile.experienceVoucher")}
                   </span>
                   <span className="text-ikea-muted">{voucherStatusLabel(t, voucher)}</span>
+                  <span className="md:text-right">
+                    {voucher.type === 1 && voucher.status === 0 ? (
+                      <button
+                        type="button"
+                        disabled={sendingEmailCode === voucher.code}
+                        onClick={() => void sendVoucherEmail(voucher)}
+                        className="text-xs font-bold text-ikea-blue hover:underline disabled:opacity-50"
+                      >
+                        {sendingEmailCode === voucher.code
+                          ? t("profile.voucherEmailSending")
+                          : t("profile.voucherSendEmail")}
+                      </button>
+                    ) : null}
+                  </span>
                 </div>
               ))}
             </div>

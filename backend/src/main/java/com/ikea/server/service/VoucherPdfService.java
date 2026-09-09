@@ -55,10 +55,10 @@ public class VoucherPdfService {
   private final PDType1Font codeFont;
 
   public VoucherPdfService(
-      @Value("${ikea.voucher.booking-url:https://medical-sg.com/en/booking/}") String bookingUrl,
+      @Value("${ikea.voucher.booking-url:https://medical-sg.com/zh/booking/}") String bookingUrl,
       @Value("${ikea.voucher.points-redeem-url:https://medical-sg.com/zh/profile/}") String pointsRedeemUrl) {
     this.bookingUrl = bookingUrl == null || bookingUrl.isBlank()
-        ? "https://medical-sg.com/en/booking/"
+        ? "https://medical-sg.com/zh/booking/"
         : bookingUrl;
     this.pointsRedeemUrl = pointsRedeemUrl == null || pointsRedeemUrl.isBlank()
         ? "https://medical-sg.com/zh/profile/"
