@@ -7,6 +7,7 @@ import com.ikea.server.dto.experience.ExperienceVoucherDtos.AdminUpdateVoucherRe
 import com.ikea.server.dto.experience.ExperienceVoucherDtos.AutoRedeemPointsResponse;
 import com.ikea.server.dto.experience.ExperienceVoucherDtos.RedeemVoucherResponse;
 import com.ikea.server.dto.experience.ExperienceVoucherDtos.ValidateVoucherResponse;
+import com.ikea.server.dto.experience.ExperienceVoucherDtos.VoucherClaimView;
 import com.ikea.server.entity.ExperienceVoucher;
 import com.ikea.server.entity.VoucherEmailClaim;
 import com.ikea.server.mapper.ExperienceVoucherMapper;
@@ -124,6 +125,26 @@ public class ExperienceVoucherService {
         .stream()
         .map(ExperienceVoucher::getCode)
         .toList();
+  }
+
+  /** 列出通过核销码领取体验券的邮箱列表（含领取的券码与时间）。 */
+  public List<VoucherClaimView> listVoucherClaims() {
+    List<VoucherEmailClaim> claims =
+        voucherEmailClaimMapper.selectList(
+            Wrappers.lambdaQuery(VoucherEmailClaim.class)
+                .eq(VoucherEmailClaim::getDeleted, 0)
+                .orderByDesc(VoucherEmailClaim::getCreatedAt));
+    List<VoucherClaimView> views = new ArrayList<>();
+    for (VoucherEmailClaim claim : claims) {
+      ExperienceVoucher voucher =
+          claim.getVoucherId() == null ? null : voucherMapper.selectById(claim.getVoucherId());
+      views.add(
+          new VoucherClaimView(
+              claim.getEmail(),
+              voucher == null ? "" : voucher.getCode(),
+              claim.getCreatedAt()));
+    }
+    return views;
   }
 
   /** 自动兑换：将当前用户名下 3 张未使用的积分券合并成 1 张体验券。 */

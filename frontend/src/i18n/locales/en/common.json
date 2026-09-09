@@ -1260,7 +1260,13 @@
       "placeholderUserId": "User ID",
       "placeholderPoints": "Points delta (can be negative)",
       "placeholderBalance": "Balance delta (can be negative)",
-      "saveAdjust": "Save adjustment"
+      "saveAdjust": "Save adjustment",
+      "voucherClaims": "Experience voucher claim emails",
+      "refresh": "Refresh",
+      "emptyClaims": "No claims yet",
+      "colEmail": "Email",
+      "colVoucher": "Voucher code",
+      "colTime": "Claimed at"
     },
     "vouchers": {
       "title": "Experience / points vouchers",

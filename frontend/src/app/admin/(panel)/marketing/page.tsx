@@ -25,6 +25,12 @@ interface Coupon {
   validTo: string
 }
 
+interface VoucherClaim {
+  email: string
+  code: string
+  createdAt: string
+}
+
 export default function MarketingPage() {
   const { t } = useTranslation()
   const [coupons, setCoupons] = useState<Coupon[] | null>(null)
@@ -44,6 +50,7 @@ export default function MarketingPage() {
   const [adjust, setAdjust] = useState({ userId: "", points: "", balance: "" })
   const [qrCoupon, setQrCoupon] = useState<Coupon | null>(null)
   const [copiedQr, setCopiedQr] = useState(false)
+  const [claims, setClaims] = useState<VoucherClaim[] | null>(null)
 
   const load = async () => {
     try {
@@ -59,6 +66,15 @@ export default function MarketingPage() {
     }
   }
 
+  const loadClaims = async () => {
+    try {
+      const data = await adminFetch<VoucherClaim[]>("/api/admin/server/experience-vouchers/claims")
+      setClaims(data)
+    } catch (e) {
+      setError((e as Error).message)
+    }
+  }
+
   useEffect(() => {
     void (async () => {
       try {
@@ -67,6 +83,16 @@ export default function MarketingPage() {
         setError(null)
       } catch (e) {
         setError((e as Error).message)
+      }
+    })()
+    void (async () => {
+      try {
+        const data = await adminFetch<VoucherClaim[]>(
+          "/api/admin/server/experience-vouchers/claims",
+        )
+        setClaims(data)
+      } catch {
+        setClaims([])
       }
     })()
   }, [])
@@ -445,6 +471,43 @@ export default function MarketingPage() {
             </div>
           </section>
         </div>
+
+        <section className="mt-6 overflow-hidden rounded-lg border border-ikea-gray-200 bg-white">
+          <div className="flex items-center justify-between border-b border-ikea-gray-200 px-5 py-4">
+            <h2 className="text-base font-bold">{t("admin.marketing.voucherClaims")}</h2>
+            <Button variant="secondary" onClick={() => void loadClaims()}>
+              {t("admin.marketing.refresh")}
+            </Button>
+          </div>
+          {!claims ? (
+            <Loading />
+          ) : claims.length === 0 ? (
+            <EmptyState>{t("admin.marketing.emptyClaims")}</EmptyState>
+          ) : (
+            <div className="max-h-[420px] overflow-auto">
+              <table className="w-full text-left text-sm">
+                <thead className="bg-ikea-gray-50 text-xs text-ikea-muted">
+                  <tr>
+                    <th className="px-5 py-3 font-medium">{t("admin.marketing.colEmail")}</th>
+                    <th className="px-5 py-3 font-medium">{t("admin.marketing.colVoucher")}</th>
+                    <th className="px-5 py-3 font-medium">{t("admin.marketing.colTime")}</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-ikea-gray-200">
+                  {claims.map((claim, index) => (
+                    <tr key={`${claim.email}-${index}`} className="hover:bg-ikea-gray-50">
+                      <td className="px-5 py-3">{claim.email}</td>
+                      <td className="px-5 py-3 font-mono text-xs font-bold">{claim.code}</td>
+                      <td className="px-5 py-3 text-ikea-muted">
+                        {claim.createdAt ? new Date(claim.createdAt).toLocaleString("zh-CN") : "—"}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          )}
+        </section>
       </div>
     </div>
   )

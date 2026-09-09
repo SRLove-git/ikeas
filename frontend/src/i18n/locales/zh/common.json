@@ -1260,7 +1260,13 @@
       "placeholderUserId": "用户 ID",
       "placeholderPoints": "积分增量（可为负数）",
       "placeholderBalance": "余额增量（可为负数）",
-      "saveAdjust": "保存调整"
+      "saveAdjust": "保存调整",
+      "voucherClaims": "体验券申请邮箱",
+      "refresh": "刷新",
+      "emptyClaims": "暂无申请记录",
+      "colEmail": "邮箱",
+      "colVoucher": "券码",
+      "colTime": "申请时间"
     },
     "vouchers": {
       "title": "体验券 / 积分券",

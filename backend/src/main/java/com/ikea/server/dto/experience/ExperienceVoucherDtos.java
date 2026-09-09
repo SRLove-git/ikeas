@@ -32,4 +32,6 @@ public final class ExperienceVoucherDtos {
   public record SendVoucherEmailRequest(String email) {}
 
   public record ClaimVoucherBySecretRequest(String email, String secret) {}
+
+  public record VoucherClaimView(String email, String code, LocalDateTime createdAt) {}
 }

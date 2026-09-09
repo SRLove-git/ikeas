@@ -4,6 +4,7 @@ import com.ikea.server.dto.experience.ExperienceVoucherDtos.AdminCreateVouchersR
 import com.ikea.server.dto.experience.ExperienceVoucherDtos.AdminGenerateVouchersRequest;
 import com.ikea.server.dto.experience.ExperienceVoucherDtos.AdminUpdateVoucherRequest;
 import com.ikea.server.dto.experience.ExperienceVoucherDtos.GeneratePdfRequest;
+import com.ikea.server.dto.experience.ExperienceVoucherDtos.VoucherClaimView;
 import com.ikea.server.entity.ExperienceVoucher;
 import com.ikea.server.service.ExperienceVoucherService;
 import java.util.List;
@@ -38,6 +39,11 @@ public class AdminExperienceVoucherController {
       @RequestParam(required = false) Integer status,
       @RequestParam(required = false) Integer type) {
     return voucherService.listVouchers(q, status, type);
+  }
+
+  @GetMapping("/claims")
+  public List<VoucherClaimView> claims() {
+    return voucherService.listVoucherClaims();
   }
 
   @PostMapping
