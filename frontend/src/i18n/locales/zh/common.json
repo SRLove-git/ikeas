@@ -752,7 +752,7 @@
       "login": "登录",
       "loginFailed": "登录失败",
       "cannotConnect": "无法连接后台服务",
-      "demoHint": "默认账号 admin / admin123（可通过环境变量 ADMIN_USERNAME、ADMIN_PASSWORD 修改）"
+    "demoHint": "请输入管理员账号和密码登录"
     },
     "dashboard": {
       "title": "仪表盘",

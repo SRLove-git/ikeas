@@ -752,7 +752,7 @@
       "login": "Sign in",
       "loginFailed": "Sign-in failed",
       "cannotConnect": "Unable to reach the admin service",
-      "demoHint": "Default credentials: admin / admin123 (configurable via ADMIN_USERNAME and ADMIN_PASSWORD environment variables)"
+    "demoHint": "Enter your admin username and password to sign in"
     },
     "dashboard": {
       "title": "Dashboard",

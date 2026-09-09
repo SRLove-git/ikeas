@@ -21,6 +21,9 @@ services:
       - NEXT_PUBLIC_API_BASE=${NEXT_PUBLIC_API_BASE:-https://medical-sg.com}
       - NEXT_PUBLIC_BASE_PATH=${NEXT_PUBLIC_BASE_PATH:-}
       - NEXT_PUBLIC_AUTH_LOGIN_ENABLED=${NEXT_PUBLIC_AUTH_LOGIN_ENABLED:-true}
+      - ADMIN_USERNAME=${ADMIN_USERNAME:-admin}
+      - ADMIN_PASSWORD=${ADMIN_PASSWORD:-admin123}
+      - ADMIN_SECRET=${ADMIN_SECRET:-ikea-admin-secret}
     env_file:
       - path: ../.env.local
         required: false

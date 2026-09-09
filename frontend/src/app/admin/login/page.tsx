@@ -85,7 +85,6 @@ export default function AdminLoginPage() {
               value={password}
               onChange={(event) => setPassword(event.target.value)}
               autoComplete="current-password"
-              placeholder="admin123"
             />
           </div>
           <Button type="submit" disabled={busy} className="w-full">
