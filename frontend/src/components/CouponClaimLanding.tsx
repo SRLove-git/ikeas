@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useState } from "react"
+import { useState } from "react"
 import Link from "next/link"
 import { useTranslation } from "react-i18next"
 import { API_BASE } from "@/lib/api"
@@ -8,30 +8,20 @@ import { GiftIcon } from "@/components/icons"
 
 interface ClaimResult {
   code: string
-  name: string
-  alreadyClaimed: boolean
-  linkedToAccount: boolean
-  message: string
 }
 
 export function CouponClaimLanding() {
   const { t } = useTranslation()
-  const [couponCode, setCouponCode] = useState("")
+  const [secret, setSecret] = useState("")
   const [email, setEmail] = useState("")
   const [submitting, setSubmitting] = useState(false)
   const [result, setResult] = useState<ClaimResult | null>(null)
   const [error, setError] = useState<string | null>(null)
 
-  useEffect(() => {
-    const params = new URLSearchParams(window.location.search)
-    const code = params.get("code") ?? ""
-    setCouponCode(code.trim().toUpperCase())
-  }, [])
-
   const submit = async () => {
     setError(null)
-    if (!couponCode) {
-      setError(t("couponClaim.missingCode"))
+    if (!secret.trim()) {
+      setError(t("couponClaim.missingSecret"))
       return
     }
     const normalizedEmail = email.trim().toLowerCase()
@@ -41,20 +31,20 @@ export function CouponClaimLanding() {
     }
     setSubmitting(true)
     try {
-      const response = await fetch(`${API_BASE}/api/v1/marketing/coupons/claim-by-email`, {
+      const response = await fetch(`${API_BASE}/api/v1/experience-vouchers/claim-by-secret`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email: normalizedEmail, code: couponCode }),
+        body: JSON.stringify({ email: normalizedEmail, secret: secret.trim() }),
       })
       const body = (await response.json().catch(() => null)) as
-        (ClaimResult & { error?: string }) | null
+        (ClaimResult & { message?: string }) | null
       if (!response.ok) {
-        throw new Error(body?.message ?? body?.error ?? t("couponClaim.genericFailed"))
+        throw new Error(body?.message ?? t("couponClaim.failed"))
       }
       if (body) {
         setResult(body)
       } else {
-        setError(t("couponClaim.genericFailed"))
+        setError(t("couponClaim.failed"))
       }
     } catch (e) {
       setError((e as Error).message || t("couponClaim.failed"))
@@ -74,23 +64,18 @@ export function CouponClaimLanding() {
 
         {result ? (
           <div className="mt-8 rounded-lg border border-ikea-gray-200 bg-ikea-gray-50 p-6 text-left">
-            <h2 className="text-base font-bold">
-              {result.alreadyClaimed
-                ? t("couponClaim.alreadyTitle")
-                : t("couponClaim.successTitle")}
-            </h2>
-            <p className="mt-2 text-sm leading-6 text-ikea-muted">{result.message}</p>
+            <h2 className="text-base font-bold">{t("couponClaim.successTitle")}</h2>
+            <p className="mt-2 text-sm leading-6 text-ikea-muted">{t("couponClaim.successHint")}</p>
             <div className="mt-5 rounded-md border border-dashed border-ikea-gray-300 bg-white p-4">
-              <p className="text-xs text-ikea-muted">{t("couponClaim.codeLabel")}</p>
+              <p className="text-xs text-ikea-muted">{t("couponClaim.voucherCodeLabel")}</p>
               <p className="mt-1 font-mono text-xl font-bold text-ikea-blue">{result.code}</p>
-              <p className="mt-1 text-sm">{result.name}</p>
             </div>
             <div className="mt-6 flex flex-col justify-center gap-3 sm:flex-row">
               <Link
-                href="/zh/profile/login/"
+                href="/zh/booking/"
                 className="i-btn i-btn--primary flex h-11 items-center justify-center px-8 text-sm font-bold text-white"
               >
-                {t("couponClaim.login")}
+                {t("couponClaim.goBooking")}
               </Link>
               <Link
                 href="/zh/all-products/"
@@ -102,25 +87,23 @@ export function CouponClaimLanding() {
           </div>
         ) : (
           <div className="mx-auto mt-8 max-w-md">
-            {!couponCode ? (
-              <div className="text-left">
-                <label className="block text-sm font-bold">{t("couponClaim.couponCode")}</label>
-                <input
-                  value={couponCode}
-                  onChange={(event) => setCouponCode(event.target.value.trim().toUpperCase())}
-                  placeholder={t("couponClaim.codePlaceholder")}
-                  className="mt-2 h-11 w-full rounded border border-ikea-gray-200 px-3 font-mono text-sm uppercase outline-none focus:border-ikea-blue"
-                />
-              </div>
-            ) : null}
+            <div className="text-left">
+              <label className="block text-sm font-bold">{t("couponClaim.secretLabel")}</label>
+              <input
+                value={secret}
+                onChange={(event) => setSecret(event.target.value)}
+                placeholder={t("couponClaim.secretPlaceholder")}
+                className="mt-2 h-11 w-full rounded border border-ikea-gray-200 px-3 text-sm outline-none focus:border-ikea-blue"
+              />
+            </div>
             <div className="mt-4 text-left">
               <label className="block text-sm font-bold">{t("couponClaim.emailLabel")}</label>
               <input
                 type="email"
                 value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                onKeyDown={(e) => {
-                  if (e.key === "Enter" && !submitting) void submit()
+                onChange={(event) => setEmail(event.target.value)}
+                onKeyDown={(event) => {
+                  if (event.key === "Enter" && !submitting) void submit()
                 }}
                 placeholder={t("couponClaim.emailPlaceholder")}
                 className="mt-2 h-11 w-full rounded border border-ikea-gray-200 px-3 text-sm outline-none focus:border-ikea-blue"

@@ -30,4 +30,6 @@ public final class ExperienceVoucherDtos {
       String experienceCode, List<String> usedPointCodes, String message) {}
 
   public record SendVoucherEmailRequest(String email) {}
+
+  public record ClaimVoucherBySecretRequest(String email, String secret) {}
 }

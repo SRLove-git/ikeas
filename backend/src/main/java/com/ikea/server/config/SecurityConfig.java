@@ -56,6 +56,8 @@ public class SecurityConfig {
                     .permitAll()
                     .requestMatchers(HttpMethod.POST, "/api/v1/marketing/coupons/claim-by-email")
                     .permitAll()
+                    .requestMatchers(HttpMethod.POST, "/api/v1/experience-vouchers/claim-by-secret")
+                    .permitAll()
                     .requestMatchers("/api/v1/marketing/coupons/*/qr.png")
                     .permitAll()
                     .requestMatchers(

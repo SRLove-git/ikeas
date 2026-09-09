@@ -8,7 +8,9 @@ import com.ikea.server.dto.experience.ExperienceVoucherDtos.AutoRedeemPointsResp
 import com.ikea.server.dto.experience.ExperienceVoucherDtos.RedeemVoucherResponse;
 import com.ikea.server.dto.experience.ExperienceVoucherDtos.ValidateVoucherResponse;
 import com.ikea.server.entity.ExperienceVoucher;
+import com.ikea.server.entity.VoucherEmailClaim;
 import com.ikea.server.mapper.ExperienceVoucherMapper;
+import com.ikea.server.mapper.VoucherEmailClaimMapper;
 import jakarta.mail.internet.MimeMessage;
 import java.math.BigDecimal;
 import java.security.SecureRandom;
@@ -50,19 +52,25 @@ public class ExperienceVoucherService {
   private final String bookingUrl;
   private final JavaMailSender mailSender;
   private final String emailFrom;
+  private final VoucherEmailClaimMapper voucherEmailClaimMapper;
+  private final AdminSettingsService adminSettingsService;
 
   public ExperienceVoucherService(
       ExperienceVoucherMapper voucherMapper,
       VoucherPdfService voucherPdfService,
-      @Value("${ikea.voucher.booking-url:https://medical-sg.com/en/booking/}") String bookingUrl,
+      @Value("${ikea.voucher.booking-url:https://medical-sg.com/zh/booking/}") String bookingUrl,
       JavaMailSender mailSender,
-      @Value("${ikea.auth.email-from:CHUNG YIP <no-reply@mail.medical-sg.com>}") String emailFrom) {
+      @Value("${ikea.auth.email-from:CHUNG YIP <no-reply@mail.medical-sg.com>}") String emailFrom,
+      VoucherEmailClaimMapper voucherEmailClaimMapper,
+      AdminSettingsService adminSettingsService) {
     this.voucherMapper = voucherMapper;
     this.voucherPdfService = voucherPdfService;
     this.bookingUrl =
-        bookingUrl == null || bookingUrl.isBlank() ? "https://medical-sg.com/en/booking/" : bookingUrl;
+        bookingUrl == null || bookingUrl.isBlank() ? "https://medical-sg.com/zh/booking/" : bookingUrl;
     this.mailSender = mailSender;
     this.emailFrom = emailFrom;
+    this.voucherEmailClaimMapper = voucherEmailClaimMapper;
+    this.adminSettingsService = adminSettingsService;
   }
 
   public List<ExperienceVoucher> listVouchers(String keyword, Integer status, Integer type) {
@@ -161,6 +169,50 @@ public class ExperienceVoucherService {
 
     byte[] pdf = voucherPdfService.generate(List.of(voucher));
     sendVoucherEmail(safeEmail, voucher.getCode(), pdf);
+  }
+
+  /** 线下会议：用户输入密钥 + 邮箱领取一张体验券（同一邮箱 + 同一密钥只领一次）。 */
+  @Transactional
+  public ExperienceVoucher claimBySecret(String email, String secret) {
+    String safeEmail = normalizeEmail(email);
+    String configuredSecret = currentClaimSecret();
+    if (configuredSecret == null || configuredSecret.isBlank()) {
+      throw new IllegalArgumentException("领取密钥尚未配置");
+    }
+    String normalizedSecret = secret == null ? "" : secret.trim();
+    if (normalizedSecret.isEmpty() || !configuredSecret.equals(normalizedSecret)) {
+      throw new IllegalArgumentException("密钥不正确");
+    }
+
+    Long exists =
+        voucherEmailClaimMapper.selectCount(
+            Wrappers.lambdaQuery(VoucherEmailClaim.class)
+                .eq(VoucherEmailClaim::getEmail, safeEmail)
+                .eq(VoucherEmailClaim::getSecret, normalizedSecret)
+                .eq(VoucherEmailClaim::getDeleted, 0));
+    if (exists != null && exists > 0) {
+      throw new IllegalArgumentException("该邮箱已用此密钥领取过");
+    }
+
+    ExperienceVoucher voucher =
+        newVoucher(
+            TYPE_EXPERIENCE,
+            newUniqueCode(TYPE_EXPERIENCE),
+            "线下会议密钥领取",
+            null,
+            "SECRET-" + normalizedSecret);
+    voucherMapper.insert(voucher);
+
+    VoucherEmailClaim claim = new VoucherEmailClaim();
+    claim.setEmail(safeEmail);
+    claim.setVoucherId(voucher.getId());
+    claim.setSecret(normalizedSecret);
+    claim.setStatus(1);
+    voucherEmailClaimMapper.insert(claim);
+
+    byte[] pdf = voucherPdfService.generate(List.of(voucher));
+    sendVoucherEmail(safeEmail, voucher.getCode(), pdf);
+    return voucher;
   }
 
   @Transactional
@@ -588,6 +640,15 @@ public class ExperienceVoucherService {
       throw new IllegalArgumentException("邮箱格式不正确");
     }
     return value;
+  }
+
+  private String currentClaimSecret() {
+    com.fasterxml.jackson.databind.JsonNode settings = adminSettingsService.get();
+    if (settings == null) {
+      return "";
+    }
+    com.fasterxml.jackson.databind.JsonNode secret = settings.get("voucherClaimSecret");
+    return secret == null || secret.isNull() ? "" : secret.asText("");
   }
 
   private int normalizeType(Integer type) {

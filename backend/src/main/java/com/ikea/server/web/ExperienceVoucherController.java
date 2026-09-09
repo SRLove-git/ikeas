@@ -2,6 +2,7 @@ package com.ikea.server.web;
 
 import com.ikea.server.constant.SecurityConstants;
 import com.ikea.server.dto.experience.ExperienceVoucherDtos.AutoRedeemPointsResponse;
+import com.ikea.server.dto.experience.ExperienceVoucherDtos.ClaimVoucherBySecretRequest;
 import com.ikea.server.dto.experience.ExperienceVoucherDtos.RedeemVoucherRequest;
 import com.ikea.server.dto.experience.ExperienceVoucherDtos.RedeemVoucherResponse;
 import com.ikea.server.dto.experience.ExperienceVoucherDtos.SendVoucherEmailRequest;
@@ -36,6 +37,13 @@ public class ExperienceVoucherController {
   @PostMapping("/validate")
   public ValidateVoucherResponse validate(@RequestBody ValidateVoucherRequest request) {
     return voucherService.validate(request.code());
+  }
+
+  @PostMapping("/claim-by-secret")
+  public Map<String, String> claimBySecret(@RequestBody ClaimVoucherBySecretRequest request) {
+    ExperienceVoucher voucher =
+        voucherService.claimBySecret(request.email(), request.secret());
+    return Map.of("code", voucher.getCode());
   }
 
   @GetMapping("/mine")
