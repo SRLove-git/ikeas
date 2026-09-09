@@ -23,7 +23,10 @@ import com.ikea.server.mapper.PointLogMapper;
 import com.ikea.server.mapper.UserCouponMapper;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
+import java.security.SecureRandom;
 import java.time.LocalDateTime;
+import java.time.ZoneOffset;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Pattern;
@@ -42,6 +45,9 @@ public class MarketingService {
   private static final Logger log = LoggerFactory.getLogger(MarketingService.class);
   private static final Pattern EMAIL =
       Pattern.compile("^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}$");
+  private static final SecureRandom RANDOM = new SecureRandom();
+  private static final String CODE_ALPHABET = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789";
+  private static final DateTimeFormatter CODE_TIME = DateTimeFormatter.ofPattern("yyyyMMdd-HHmmss");
 
   private final CouponMapper couponMapper;
   private final UserCouponMapper userCouponMapper;
@@ -237,7 +243,10 @@ public class MarketingService {
     if (request.status() == null || (request.status() != 0 && request.status() != 1)) {
       throw new IllegalArgumentException("优惠券状态不正确");
     }
-    String code = requiredCode(request.code());
+    String code =
+        request.code() == null || request.code().isBlank()
+            ? generateCouponCode()
+            : requiredCode(request.code());
     Long codeExists =
         couponMapper.selectCount(
             Wrappers.lambdaQuery(Coupon.class)
@@ -535,6 +544,30 @@ public class MarketingService {
       throw new IllegalArgumentException("优惠券不存在");
     }
     return coupon;
+  }
+
+  private String generateCouponCode() {
+    for (int attempt = 0; attempt < 20; attempt++) {
+      String code =
+          "CPN-" + CODE_TIME.format(LocalDateTime.now(ZoneOffset.UTC)) + "-" + randomCode(6);
+      Long exists =
+          couponMapper.selectCount(
+              Wrappers.lambdaQuery(Coupon.class)
+                  .eq(Coupon::getCode, code)
+                  .eq(Coupon::getDeleted, 0));
+      if (exists == null || exists == 0) {
+        return code;
+      }
+    }
+    throw new IllegalStateException("无法生成唯一优惠券编码");
+  }
+
+  private String randomCode(int length) {
+    StringBuilder value = new StringBuilder();
+    for (int i = 0; i < length; i++) {
+      value.append(CODE_ALPHABET.charAt(RANDOM.nextInt(CODE_ALPHABET.length())));
+    }
+    return value.toString();
   }
 
   private String requiredCode(String code) {

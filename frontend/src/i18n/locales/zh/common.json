@@ -1168,7 +1168,7 @@
       "enable": "启用",
       "disable": "停用",
       "newCoupon": "新建优惠券",
-      "placeholderCode": "券码",
+      "placeholderCode": "券码（留空自动生成）",
       "placeholderValue": "面额 / 折扣百分比",
       "placeholderMin": "最低消费金额",
       "placeholderValidFrom": "生效时间",

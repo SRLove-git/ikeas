@@ -1168,7 +1168,7 @@
       "enable": "Enable",
       "disable": "Disable",
       "newCoupon": "New coupon",
-      "placeholderCode": "Coupon code",
+      "placeholderCode": "Coupon code (leave blank to auto-generate)",
       "placeholderValue": "Value / discount percentage",
       "placeholderMin": "Minimum spend",
       "placeholderValidFrom": "Valid from",
