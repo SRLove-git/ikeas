@@ -102,15 +102,6 @@ export function CouponClaimLanding() {
           </div>
         ) : (
           <div className="mx-auto mt-8 max-w-md">
-            <div className="text-left">
-              <label className="block text-sm font-bold">{t("couponClaim.codeLabel")}</label>
-              <input
-                value={couponCode}
-                readOnly={Boolean(couponCode)}
-                disabled={Boolean(couponCode)}
-                className="mt-2 h-11 w-full rounded border border-ikea-gray-200 bg-ikea-gray-50 px-3 font-mono text-sm uppercase outline-none focus:border-ikea-blue"
-              />
-            </div>
             <div className="mt-4 text-left">
               <label className="block text-sm font-bold">{t("couponClaim.emailLabel")}</label>
               <input
