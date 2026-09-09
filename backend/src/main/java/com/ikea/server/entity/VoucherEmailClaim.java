@@ -19,6 +19,8 @@ public class VoucherEmailClaim {
   private String email;
   private Long voucherId;
   private String secret;
+  private String ip;
+  private String deviceId;
   private Integer status;
 
   @TableLogic private Integer deleted;
@@ -37,6 +39,10 @@ public class VoucherEmailClaim {
   public void setVoucherId(Long voucherId) { this.voucherId = voucherId; }
   public String getSecret() { return secret; }
   public void setSecret(String secret) { this.secret = secret; }
+  public String getIp() { return ip; }
+  public void setIp(String ip) { this.ip = ip; }
+  public String getDeviceId() { return deviceId; }
+  public void setDeviceId(String deviceId) { this.deviceId = deviceId; }
   public Integer getStatus() { return status; }
   public void setStatus(Integer status) { this.status = status; }
   public Integer getDeleted() { return deleted; }

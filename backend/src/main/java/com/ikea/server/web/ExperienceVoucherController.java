@@ -40,9 +40,11 @@ public class ExperienceVoucherController {
   }
 
   @PostMapping("/claim-by-secret")
-  public Map<String, String> claimBySecret(@RequestBody ClaimVoucherBySecretRequest request) {
+  public Map<String, String> claimBySecret(
+      @RequestBody ClaimVoucherBySecretRequest request, HttpServletRequest httpRequest) {
+    String ip = resolveClientIp(httpRequest);
     ExperienceVoucher voucher =
-        voucherService.claimBySecret(request.email(), request.secret());
+        voucherService.claimBySecret(request.email(), request.secret(), request.deviceId(), ip);
     return Map.of("code", voucher.getCode());
   }
 
@@ -100,5 +102,13 @@ public class ExperienceVoucherController {
       throw new UnauthorizedException("请先登录");
     }
     return Long.valueOf(value);
+  }
+
+  private static String resolveClientIp(HttpServletRequest request) {
+    String forwarded = request.getHeader("X-Forwarded-For");
+    if (forwarded != null && !forwarded.isBlank()) {
+      return forwarded.split(",")[0].trim();
+    }
+    return request.getRemoteAddr();
   }
 }

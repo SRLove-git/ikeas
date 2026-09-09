@@ -210,7 +210,7 @@ public class ExperienceVoucherService {
 
   /** 线下会议：用户输入密钥 + 邮箱领取一张体验券（同一邮箱 + 同一密钥只领一次）。 */
   @Transactional
-  public ExperienceVoucher claimBySecret(String email, String secret) {
+  public ExperienceVoucher claimBySecret(String email, String secret, String deviceId, String ip) {
     String safeEmail = normalizeEmail(email);
     String seed = currentClaimSecret();
     if (seed == null || seed.isBlank()) {
@@ -230,6 +230,30 @@ public class ExperienceVoucherService {
                   .eq(VoucherEmailClaim::getDeleted, 0));
       if (claimed != null && claimed >= limit) {
         throw new IllegalArgumentException("体验券已领完，感谢参与");
+      }
+    }
+
+    String safeIp = normalizeIp(ip);
+    if (!safeIp.isBlank()) {
+      Long ipCount =
+          voucherEmailClaimMapper.selectCount(
+              Wrappers.lambdaQuery(VoucherEmailClaim.class)
+                  .eq(VoucherEmailClaim::getIp, safeIp)
+                  .eq(VoucherEmailClaim::getDeleted, 0));
+      if (ipCount != null && ipCount > 0) {
+        throw new IllegalArgumentException("该 IP 已领取过");
+      }
+    }
+
+    String safeDeviceId = normalizeDeviceId(deviceId);
+    if (!safeDeviceId.isBlank()) {
+      Long deviceCount =
+          voucherEmailClaimMapper.selectCount(
+              Wrappers.lambdaQuery(VoucherEmailClaim.class)
+                  .eq(VoucherEmailClaim::getDeviceId, safeDeviceId)
+                  .eq(VoucherEmailClaim::getDeleted, 0));
+      if (deviceCount != null && deviceCount > 0) {
+        throw new IllegalArgumentException("该设备已领取过");
       }
     }
 
@@ -257,6 +281,8 @@ public class ExperienceVoucherService {
     claim.setEmail(safeEmail);
     claim.setVoucherId(voucher.getId());
     claim.setSecret(seed);
+    claim.setIp(safeIp.isBlank() ? null : safeIp);
+    claim.setDeviceId(safeDeviceId.isBlank() ? null : safeDeviceId);
     claim.setStatus(1);
     voucherEmailClaimMapper.insert(claim);
 
@@ -690,6 +716,16 @@ public class ExperienceVoucherService {
       throw new IllegalArgumentException("邮箱格式不正确");
     }
     return value;
+  }
+
+  private String normalizeIp(String ip) {
+    String value = ip == null ? "" : ip.trim();
+    return value.length() > 64 ? value.substring(0, 64) : value;
+  }
+
+  private String normalizeDeviceId(String deviceId) {
+    String value = deviceId == null ? "" : deviceId.trim();
+    return value.length() > 64 ? value.substring(0, 64) : value;
   }
 
   private String currentClaimSecret() {

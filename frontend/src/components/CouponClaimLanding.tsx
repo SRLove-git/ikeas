@@ -10,6 +10,21 @@ interface ClaimResult {
   code: string
 }
 
+const DEVICE_KEY = "buzud.deviceId"
+
+function getDeviceId(): string {
+  if (typeof window === "undefined") return ""
+  let id = window.localStorage.getItem(DEVICE_KEY)
+  if (!id) {
+    id =
+      typeof crypto !== "undefined" && "randomUUID" in crypto
+        ? crypto.randomUUID()
+        : `${Date.now()}-${Math.random().toString(16).slice(2)}`
+    window.localStorage.setItem(DEVICE_KEY, id)
+  }
+  return id
+}
+
 export function CouponClaimLanding() {
   const { t } = useTranslation()
   const [secret, setSecret] = useState("")
@@ -34,7 +49,11 @@ export function CouponClaimLanding() {
       const response = await fetch(`${API_BASE}/api/v1/experience-vouchers/claim-by-secret`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email: normalizedEmail, secret: secret.trim() }),
+        body: JSON.stringify({
+          email: normalizedEmail,
+          secret: secret.trim(),
+          deviceId: getDeviceId(),
+        }),
       })
       const body = (await response.json().catch(() => null)) as
         (ClaimResult & { message?: string }) | null
