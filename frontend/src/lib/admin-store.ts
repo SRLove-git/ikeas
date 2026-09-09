@@ -155,17 +155,182 @@ export async function upsertProduct(
 export async function deleteProduct(idOrSlug: string): Promise<boolean> {
   return withWriteLock(() => {
     const parts = loadProductParts()
+    const target = parts.flat().find((p) => p.id === idOrSlug || p.slug === idOrSlug)
+    if (!target) return false
+    const productId = target.id
+    const slug = target.slug
+    const name = typeof target.name === "string" ? target.name : ""
+
     let removed = false
-    for (const part of parts) {
-      const index = part.findIndex((p) => p.id === idOrSlug || p.slug === idOrSlug)
-      if (index >= 0) {
-        part.splice(index, 1)
+    removed = removeFromProductParts(productId, slug) || removed
+    removed = removeFromCatalog(productId, slug) || removed
+    removed = removeFromMenuCategories(slug, name) || removed
+    removed = removeFromHomepage(slug, name) || removed
+    removed = removeFromCatalogPages(productId, slug) || removed
+    return removed
+  })
+}
+
+function removeFromProductParts(productId: string, slug: string): boolean {
+  let removed = false
+  for (const part of PRODUCT_PARTS) {
+    for (const rel of [`products/products-${part}.json`, `products/products-${part}.en.json`]) {
+      const items = loadDataJsonOptional<AdminProduct[]>(rel, [])
+      const next = items.filter((p) => p.id !== productId && p.slug !== slug)
+      if (next.length !== items.length) {
+        writeJson(rel, next)
         removed = true
       }
     }
-    if (removed) saveProductParts(parts)
-    return removed
-  })
+  }
+  return removed
+}
+
+function removeFromCatalog(productId: string, slug: string): boolean {
+  let removed = false
+  for (const rel of ["catalog.json", "catalog.en.json"]) {
+    const catalog = loadDataJsonOptional<{
+      catalogCategories: { products?: { id: string; slug: string }[] }[]
+      channelCategories: { products?: { id: string; slug: string }[] }[]
+    }>(rel, null as never)
+    if (!catalog) continue
+    let changed = false
+    for (const category of [
+      ...(catalog.catalogCategories ?? []),
+      ...(catalog.channelCategories ?? []),
+    ]) {
+      if (Array.isArray(category.products)) {
+        const next = category.products.filter(
+          (p) => p.id !== productId && p.slug !== slug,
+        )
+        if (next.length !== category.products.length) {
+          category.products = next
+          changed = true
+        }
+      }
+    }
+    if (changed) {
+      writeJson(rel, catalog)
+      removed = true
+    }
+  }
+  return removed
+}
+
+function removeFromMenuCategories(slug: string, name: string): boolean {
+  let removed = false
+  for (const rel of ["menu-categories.json", "menu-categories.en.json"]) {
+    const menu = loadDataJsonOptional<{
+      categories: { subs?: { name?: string; url?: string }[] }[]
+    }>(rel, null as never)
+    if (!menu) continue
+    let changed = false
+    for (const category of menu.categories ?? []) {
+      if (Array.isArray(category.subs)) {
+        const next = category.subs.filter(
+          (sub) => !(sub.url && sub.url.includes(slug)) && sub.name !== name,
+        )
+        if (next.length !== category.subs.length) {
+          category.subs = next
+          changed = true
+        }
+      }
+    }
+    if (changed) {
+      writeJson(rel, menu)
+      removed = true
+    }
+  }
+  return removed
+}
+
+function removeFromHomepage(slug: string, name: string): boolean {
+  let removed = false
+  for (const rel of ["homepage.json", "homepage.en.json"]) {
+    const homepage = loadDataJsonOptional<Record<string, unknown>>(rel, null as never)
+    if (!homepage) continue
+    let changed = false
+
+    const megaMenuCategories = homepage.megaMenuCategories as
+      | { subCategories?: string[] }[]
+      | undefined
+    for (const category of megaMenuCategories ?? []) {
+      if (Array.isArray(category.subCategories)) {
+        const next = category.subCategories.filter((s) => s !== name)
+        if (next.length !== category.subCategories.length) {
+          category.subCategories = next
+          changed = true
+        }
+      }
+    }
+
+    const feedProducts = homepage.feedProducts as
+      | Record<string, { href?: string }[]>
+      | undefined
+    if (feedProducts && typeof feedProducts === "object") {
+      for (const key of Object.keys(feedProducts)) {
+        const items = feedProducts[key]
+        if (Array.isArray(items)) {
+          const next = items.filter((p) => !(p.href && p.href.includes(slug)))
+          if (next.length !== items.length) {
+            feedProducts[key] = next
+            changed = true
+          }
+        }
+      }
+    }
+
+    const rankingSections = homepage.rankingSections as
+      | { products?: { name?: string }[] }[]
+      | undefined
+    for (const section of rankingSections ?? []) {
+      if (Array.isArray(section.products)) {
+        const next = section.products.filter((p) => p.name !== name)
+        if (next.length !== section.products.length) {
+          section.products = next
+          changed = true
+        }
+      }
+    }
+
+    if (changed) {
+      writeJson(rel, homepage)
+      removed = true
+    }
+  }
+  return removed
+}
+
+function removeFromCatalogPages(productId: string, slug: string): boolean {
+  let removed = false
+  for (const rel of ["catalog-pages/all.json", "catalog-pages/all.en.json"]) {
+    const pages = loadDataJsonOptional<
+      { products?: { id?: string }[]; productIds?: string[] }[]
+    >(rel, null as never)
+    if (!Array.isArray(pages)) continue
+    let changed = false
+    for (const page of pages) {
+      if (Array.isArray(page.products)) {
+        const next = page.products.filter((p) => p.id !== productId)
+        if (next.length !== page.products.length) {
+          page.products = next
+          changed = true
+        }
+      }
+      if (Array.isArray(page.productIds)) {
+        const next = page.productIds.filter((id) => id !== productId)
+        if (next.length !== page.productIds.length) {
+          page.productIds = next
+          changed = true
+        }
+      }
+    }
+    if (changed) {
+      writeJson(rel, pages)
+      removed = true
+    }
+  }
+  return removed
 }
 
 // ---------------------------------------------------------------------------
