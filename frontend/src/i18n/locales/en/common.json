@@ -420,6 +420,24 @@
     "invalidEmail": "Enter a valid email",
     "failed": "Failed to claim. Please try again later."
   },
+  "staffRedeem": {
+    "title": "Redeem booking",
+    "intro": "For store staff only. Enter the redeem secret and a customer's voucher code or booking number to redeem the booking.",
+    "secretLabel": "Redeem secret",
+    "secretPlaceholder": "Enter redeem secret",
+    "codeLabel": "Voucher code / booking number",
+    "codePlaceholder": "Enter voucher code or booking number",
+    "submit": "Redeem",
+    "submitting": "Redeeming…",
+    "missingSecret": "Please enter the redeem secret",
+    "missingCode": "Please enter a voucher code or booking number",
+    "success": "Redeemed",
+    "bookingNo": "Booking number",
+    "customer": "Customer",
+    "service": "Service",
+    "store": "Store",
+    "failed": "Failed to redeem. Please try again later."
+  },
   "cartPage": {
     "entering": "Taking you to your shopping bag…",
     "breadcrumb": "Shopping bag",
@@ -1066,6 +1084,8 @@
       "adminTitle": "Admin title",
       "voucherClaimSecret": "Experience voucher claim secret",
       "voucherClaimSecretHint": "Used for offline events: users enter this secret + email to claim a voucher. Change it per day/event.",
+      "redeemSecret": "Booking redeem secret",
+      "redeemSecretHint": "Used by store staff on the standalone redeem page.",
       "notFoundCopy": "404 page copy",
       "surveyCopy": "Survey page copy",
       "buttonLabel": "Button text",

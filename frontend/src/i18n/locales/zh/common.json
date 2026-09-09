@@ -420,6 +420,24 @@
     "invalidEmail": "请输入正确的邮箱",
     "failed": "领取失败，请稍后重试"
   },
+  "staffRedeem": {
+    "title": "预约核销",
+    "intro": "门店工作人员专用。输入核销密钥和顾客的券码或预约编号，即可核销预约。",
+    "secretLabel": "核销密钥",
+    "secretPlaceholder": "请输入核销密钥",
+    "codeLabel": "券码 / 预约编号",
+    "codePlaceholder": "输入券码或预约编号",
+    "submit": "核销",
+    "submitting": "核销中…",
+    "missingSecret": "请输入核销密钥",
+    "missingCode": "请输入券码或预约编号",
+    "success": "核销成功",
+    "bookingNo": "预约编号",
+    "customer": "顾客",
+    "service": "服务项目",
+    "store": "门店",
+    "failed": "核销失败，请稍后重试"
+  },
   "cartPage": {
     "entering": "正在进入购物袋…",
     "breadcrumb": "购物袋",
@@ -1066,6 +1084,8 @@
       "adminTitle": "后台标题",
       "voucherClaimSecret": "体验券领取密钥",
       "voucherClaimSecretHint": "线下活动发放体验券时使用，用户凭此密钥 + 邮箱领取。每天/每场活动可在这里更换。",
+      "redeemSecret": "预约核销密钥",
+      "redeemSecretHint": "门店工作人员独立核销页面使用，凭此密钥核销预约。",
       "notFoundCopy": "404 页面文案",
       "surveyCopy": "问卷页面文案",
       "buttonLabel": "按钮文案",
