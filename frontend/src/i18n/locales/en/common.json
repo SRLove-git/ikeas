@@ -440,6 +440,14 @@
     "customer": "Customer",
     "service": "Service",
     "store": "Store",
+    "listTitle": "Redeem list",
+    "refresh": "Refresh",
+    "loading": "Loading…",
+    "listEmpty": "No bookings yet",
+    "statusPending": "Pending",
+    "statusConfirmed": "Confirmed",
+    "statusCompleted": "Redeemed",
+    "statusCancelled": "Cancelled",
     "failed": "Failed to redeem. Please try again later."
   },
   "cartPage": {

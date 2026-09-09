@@ -19,6 +19,21 @@ interface BookingResult {
   status: number
 }
 
+interface BookingItem {
+  id: string
+  bookingNo: string
+  customerName: string
+  phone: string
+  voucherCode: string
+  voucherCodes?: string | null
+  serviceType: string
+  store: string
+  preferredDate: string
+  timeSlot?: string | null
+  status: number
+  createdAt: string
+}
+
 export function StaffRedeemPanel() {
   const { t } = useTranslation()
   const [secret, setSecret] = useState(() => {
@@ -31,6 +46,9 @@ export function StaffRedeemPanel() {
   const [error, setError] = useState<string | null>(null)
   const [scanning, setScanning] = useState(false)
   const [scanError, setScanError] = useState<string | null>(null)
+  const [bookings, setBookings] = useState<BookingItem[]>([])
+  const [loadingList, setLoadingList] = useState(false)
+  const [listError, setListError] = useState<string | null>(null)
   const videoRef = useRef<HTMLVideoElement | null>(null)
   const streamRef = useRef<MediaStream | null>(null)
   const rafRef = useRef<number | null>(null)
@@ -123,6 +141,30 @@ export function StaffRedeemPanel() {
     }
   }, [])
 
+  const loadBookings = async () => {
+    if (!secret.trim()) {
+      setListError(t("staffRedeem.missingSecret"))
+      return
+    }
+    setLoadingList(true)
+    setListError(null)
+    try {
+      const response = await fetch(
+        `${API_BASE}/api/v1/staff/bookings?secret=${encodeURIComponent(secret.trim())}`,
+      )
+      const body = (await response.json().catch(() => null)) as
+        (BookingItem[] & { message?: string }) | null
+      if (!response.ok) {
+        throw new Error((body as { message?: string } | null)?.message ?? t("staffRedeem.failed"))
+      }
+      setBookings(Array.isArray(body) ? body : [])
+    } catch (e) {
+      setListError((e as Error).message || t("staffRedeem.failed"))
+    } finally {
+      setLoadingList(false)
+    }
+  }
+
   const submit = async () => {
     setError(null)
     setResult(null)
@@ -134,12 +176,16 @@ export function StaffRedeemPanel() {
       setError(t("staffRedeem.missingCode"))
       return
     }
+    await doRedeem(code.trim())
+  }
+
+  const doRedeem = async (value: string) => {
     setSubmitting(true)
     try {
       const response = await fetch(`${API_BASE}/api/v1/staff/redeem`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ secret: secret.trim(), code: code.trim() }),
+        body: JSON.stringify({ secret: secret.trim(), code: value }),
       })
       const body = (await response.json().catch(() => null)) as
         (BookingResult & { message?: string }) | null
@@ -150,6 +196,7 @@ export function StaffRedeemPanel() {
         setResult(body)
         window.sessionStorage.setItem(SECRET_STORAGE_KEY, secret.trim())
         setCode("")
+        await loadBookings()
       }
     } catch (e) {
       setError((e as Error).message || t("staffRedeem.failed"))
@@ -261,6 +308,82 @@ export function StaffRedeemPanel() {
               </dl>
             </div>
           ) : null}
+
+          <div className="mt-8 border-t border-ikea-gray-200 pt-6">
+            <div className="flex items-center justify-between gap-3">
+              <h2 className="text-base font-bold">{t("staffRedeem.listTitle")}</h2>
+              <button
+                type="button"
+                onClick={() => void loadBookings()}
+                disabled={loadingList}
+                className="text-sm font-bold text-ikea-blue hover:underline disabled:opacity-50"
+              >
+                {t("staffRedeem.refresh")}
+              </button>
+            </div>
+            {listError ? (
+              <p className="mt-3 rounded bg-amber-50 px-4 py-3 text-sm text-amber-700">{listError}</p>
+            ) : null}
+            {loadingList ? (
+              <p className="mt-4 py-6 text-center text-sm text-ikea-muted">{t("staffRedeem.loading")}</p>
+            ) : bookings.length === 0 ? (
+              <p className="mt-4 py-6 text-center text-sm text-ikea-muted">{t("staffRedeem.listEmpty")}</p>
+            ) : (
+              <ul className="mt-4 space-y-3">
+                {bookings.map((booking) => (
+                  <li
+                    key={booking.id}
+                    className="rounded-lg border border-ikea-gray-200 p-4 text-sm"
+                  >
+                    <div className="flex items-start justify-between gap-3">
+                      <div className="min-w-0">
+                        <p className="font-mono text-xs font-bold">{booking.bookingNo}</p>
+                        <p className="mt-1 text-ikea-muted">
+                          {booking.customerName} · {booking.serviceType}
+                        </p>
+                        <p className="mt-0.5 text-xs text-ikea-muted">
+                          {booking.preferredDate}
+                          {booking.timeSlot ? ` · ${booking.timeSlot}` : ""}
+                        </p>
+                        <p className="mt-0.5 text-xs text-ikea-muted">
+                          {booking.voucherCodes ?? booking.voucherCode}
+                        </p>
+                      </div>
+                      <div className="flex shrink-0 flex-col items-end gap-2">
+                        <span
+                          className={`rounded px-2 py-0.5 text-xs font-bold ${
+                            booking.status === 2
+                              ? "bg-green-100 text-green-700"
+                              : booking.status === 3
+                                ? "bg-ikea-gray-100 text-ikea-muted"
+                                : "bg-amber-100 text-amber-700"
+                          }`}
+                        >
+                          {booking.status === 2
+                            ? t("staffRedeem.statusCompleted")
+                            : booking.status === 3
+                              ? t("staffRedeem.statusCancelled")
+                              : booking.status === 1
+                                ? t("staffRedeem.statusConfirmed")
+                                : t("staffRedeem.statusPending")}
+                        </span>
+                        {booking.status === 0 || booking.status === 1 ? (
+                          <button
+                            type="button"
+                            disabled={submitting}
+                            onClick={() => void doRedeem(booking.bookingNo)}
+                            className="rounded bg-ikea-blue px-3 py-1 text-xs font-bold text-white hover:opacity-90 disabled:opacity-50"
+                          >
+                            {t("staffRedeem.submit")}
+                          </button>
+                        ) : null}
+                      </div>
+                    </div>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </div>
         </div>
       </div>
     </div>

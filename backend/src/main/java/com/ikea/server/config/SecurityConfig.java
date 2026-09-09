@@ -60,6 +60,8 @@ public class SecurityConfig {
                     .permitAll()
                     .requestMatchers(HttpMethod.POST, "/api/v1/staff/redeem")
                     .permitAll()
+                    .requestMatchers(HttpMethod.GET, "/api/v1/staff/bookings")
+                    .permitAll()
                     .requestMatchers("/api/v1/marketing/coupons/*/qr.png")
                     .permitAll()
                     .requestMatchers(

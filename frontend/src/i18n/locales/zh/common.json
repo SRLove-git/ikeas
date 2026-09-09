@@ -440,6 +440,14 @@
     "customer": "顾客",
     "service": "服务项目",
     "store": "门店",
+    "listTitle": "核销列表",
+    "refresh": "刷新",
+    "loading": "加载中…",
+    "listEmpty": "暂无预约",
+    "statusPending": "待确认",
+    "statusConfirmed": "已确认",
+    "statusCompleted": "已核销",
+    "statusCancelled": "已取消",
     "failed": "核销失败，请稍后重试"
   },
   "cartPage": {
