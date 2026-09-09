@@ -32,7 +32,7 @@ public class VoucherPdfService {
   private static final String POINTS_TEMPLATE =
       "/voucher-templates/BUZUD_Points_Card_2SETS_A4.pdf";
   private static final String EXPERIENCE_TEMPLATE =
-      "/voucher-templates/BUZUD_Experience_Voucher_2UP_A4.pdf";
+      "/voucher-templates/BUZUD_Experience_Voucher_A4.pdf";
 
   private static final float POINTS_QR_X = 663.945f;
   private static final float POINTS_QR_Y = 298.64f;
@@ -40,13 +40,13 @@ public class VoucherPdfService {
   private static final float POINTS_CODE_X = 720.945f;
   private static final float POINTS_CODE_Y = 240.5f;
 
-  private static final float EXPERIENCE_QR_X = 665.945f;
-  private static final float EXPERIENCE_QR_Y = 292.64f;
-  private static final float EXPERIENCE_QR_SIZE = 110f;
-  private static final float EXPERIENCE_CODE_X = 716.945f;
-  private static final float EXPERIENCE_CODE_Y = 347.5f;
-  private static final float EXPERIENCE_VALID_X = 716.945f;
-  private static final float EXPERIENCE_VALID_Y = 320f;
+  private static final float EXPERIENCE_QR_X = 430f;
+  private static final float EXPERIENCE_QR_Y = 635f;
+  private static final float EXPERIENCE_QR_SIZE = 118f;
+  private static final float EXPERIENCE_CODE_X = 245f;
+  private static final float EXPERIENCE_CODE_Y = 104f;
+  private static final float EXPERIENCE_VALID_X = 107f;
+  private static final float EXPERIENCE_VALID_Y = 55f;
 
   private static final DateTimeFormatter VALID_UNTIL = DateTimeFormatter.ofPattern("yyyy-MM-dd");
 
@@ -74,14 +74,14 @@ public class VoucherPdfService {
         String templatePath = points ? POINTS_TEMPLATE : EXPERIENCE_TEMPLATE;
         PDDocument template = loadTemplate(templatePath);
         templates.add(template);
-        PDPage front = output.importPage(template.getPage(0));
-        PDPage back = output.importPage(template.getPage(1));
 
         if (points) {
+          PDPage front = output.importPage(template.getPage(0));
+          PDPage back = output.importPage(template.getPage(1));
           overlayPointsFront(output, front, voucher.getCode());
         } else {
-          overlayExperienceFront(output, front, voucher.getCode());
-          overlayExperienceBack(output, back, voucher.getCode(), voucher.getValidUntil());
+          PDPage page = output.importPage(template.getPage(0));
+          overlayExperienceFront(output, page, voucher.getCode(), voucher.getValidUntil());
         }
       }
       output.save(bytes);
@@ -123,26 +123,26 @@ public class VoucherPdfService {
     }
   }
 
-  private void overlayExperienceFront(PDDocument document, PDPage page, String code)
+  private void overlayExperienceFront(
+      PDDocument document,
+      PDPage page,
+      String code,
+      java.time.LocalDateTime validUntil)
       throws IOException {
     try (PDPageContentStream cs =
         new PDPageContentStream(
             document, page, PDPageContentStream.AppendMode.APPEND, true, true)) {
       cover(cs, EXPERIENCE_QR_X, EXPERIENCE_QR_Y, EXPERIENCE_QR_SIZE, EXPERIENCE_QR_SIZE);
       drawQr(cs, bookingUrlFor(code), EXPERIENCE_QR_X, EXPERIENCE_QR_Y, EXPERIENCE_QR_SIZE);
-    }
-  }
-
-  private void overlayExperienceBack(
-      PDDocument document, PDPage page, String code, java.time.LocalDateTime validUntil)
-      throws IOException {
-    try (PDPageContentStream cs =
-        new PDPageContentStream(
-            document, page, PDPageContentStream.AppendMode.APPEND, true, true)) {
-      drawCentered(cs, codeFont, 9, code, EXPERIENCE_CODE_X, EXPERIENCE_CODE_Y);
+      drawCentered(cs, codeFont, 11, code, EXPERIENCE_CODE_X, EXPERIENCE_CODE_Y);
       if (validUntil != null) {
-        drawCentered(cs, codeFont, 9, VALID_UNTIL.format(validUntil),
-            EXPERIENCE_VALID_X, EXPERIENCE_VALID_Y);
+        drawCentered(
+            cs,
+            codeFont,
+            9,
+            VALID_UNTIL.format(validUntil),
+            EXPERIENCE_VALID_X,
+            EXPERIENCE_VALID_Y);
       }
     }
   }
