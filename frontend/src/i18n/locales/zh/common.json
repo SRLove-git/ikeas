@@ -425,6 +425,8 @@
     "intro": "门店工作人员专用。输入核销密钥和顾客的券码或预约编号，即可核销预约。",
     "secretLabel": "核销密钥",
     "secretPlaceholder": "请输入核销密钥",
+    "secretRemembered": "密钥已记住",
+    "changeSecret": "更换密钥",
     "codeLabel": "券码 / 预约编号",
     "codePlaceholder": "输入券码或预约编号",
     "scan": "扫码核销",

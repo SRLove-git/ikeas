@@ -425,6 +425,8 @@
     "intro": "For store staff only. Enter the redeem secret and a customer's voucher code or booking number to redeem the booking.",
     "secretLabel": "Redeem secret",
     "secretPlaceholder": "Enter redeem secret",
+    "secretRemembered": "Secret key remembered",
+    "changeSecret": "Change secret",
     "codeLabel": "Voucher code / booking number",
     "codePlaceholder": "Enter voucher code or booking number",
     "scan": "Scan to redeem",

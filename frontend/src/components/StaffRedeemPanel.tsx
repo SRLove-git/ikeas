@@ -48,8 +48,9 @@ export function StaffRedeemPanel() {
   const { t } = useTranslation()
   const [secret, setSecret] = useState(() => {
     if (typeof window === "undefined") return ""
-    return window.sessionStorage.getItem(SECRET_STORAGE_KEY) ?? ""
+    return window.localStorage.getItem(SECRET_STORAGE_KEY) ?? ""
   })
+  const [showSecret, setShowSecret] = useState(false)
   const [code, setCode] = useState("")
   const [submitting, setSubmitting] = useState(false)
   const [redeemedNo, setRedeemedNo] = useState<string | null>(null)
@@ -143,6 +144,12 @@ export function StaffRedeemPanel() {
   }
 
   useEffect(() => {
+    const params = new URLSearchParams(window.location.search)
+    const key = params.get("key")?.trim()
+    if (key) {
+      setSecret(key)
+      window.localStorage.setItem(SECRET_STORAGE_KEY, key)
+    }
     return () => {
       if (rafRef.current != null) cancelAnimationFrame(rafRef.current)
       if (streamRef.current) {
@@ -200,7 +207,7 @@ export function StaffRedeemPanel() {
       }
       if (body) {
         setRedeemedNo(body.bookingNo)
-        window.sessionStorage.setItem(SECRET_STORAGE_KEY, secret.trim())
+        window.localStorage.setItem(SECRET_STORAGE_KEY, secret.trim())
         setCode("")
         await loadBookings()
       }
@@ -218,8 +225,8 @@ export function StaffRedeemPanel() {
         <p className="mt-2 text-sm leading-6 text-ikea-muted">{t("staffRedeem.intro")}</p>
 
         <div className="mt-6 rounded-lg bg-white p-6 shadow-sm">
-          <div className="grid gap-4 md:grid-cols-[1fr_1fr_auto]">
-            <label className="block">
+          {!secret || showSecret ? (
+            <label className="mb-4 block max-w-xs">
               <span className="text-sm font-bold">{t("staffRedeem.secretLabel")}</span>
               <input
                 type="password"
@@ -229,6 +236,19 @@ export function StaffRedeemPanel() {
                 className="mt-1.5 h-11 w-full border border-ikea-gray-200 px-4 text-sm outline-none focus:border-ikea-blue"
               />
             </label>
+          ) : (
+            <div className="mb-4 flex items-center justify-between gap-3">
+              <p className="text-sm text-ikea-muted">{t("staffRedeem.secretRemembered")}</p>
+              <button
+                type="button"
+                onClick={() => setShowSecret(true)}
+                className="text-sm font-bold text-ikea-blue hover:underline"
+              >
+                {t("staffRedeem.changeSecret")}
+              </button>
+            </div>
+          )}
+          <div className="grid gap-4 md:grid-cols-[1fr_auto]">
             <label className="block">
               <span className="text-sm font-bold">{t("staffRedeem.codeLabel")}</span>
               <input
