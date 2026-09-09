@@ -448,6 +448,18 @@
     "statusConfirmed": "Confirmed",
     "statusCompleted": "Redeemed",
     "statusCancelled": "Cancelled",
+    "redeemSuccess": "Redeemed: {{no}}",
+    "colBookingNo": "Booking no.",
+    "colName": "Name",
+    "colPhone": "Phone",
+    "colVoucher": "Voucher",
+    "colService": "Service",
+    "colStore": "Store",
+    "colDate": "Date",
+    "colTimeSlot": "Time slot",
+    "colStatus": "Status",
+    "colCreatedAt": "Created at",
+    "colActions": "Actions",
     "failed": "Failed to redeem. Please try again later."
   },
   "cartPage": {

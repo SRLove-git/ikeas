@@ -7,31 +7,41 @@ import jsQR from "jsqr"
 
 const SECRET_STORAGE_KEY = "buzud.staff.redeemSecret"
 
-interface BookingResult {
-  bookingNo: string
-  customerName: string
-  phone: string
-  email: string
-  serviceType: string
-  store: string
-  preferredDate: string
-  timeSlot?: string | null
-  status: number
-}
-
 interface BookingItem {
   id: string
   bookingNo: string
   customerName: string
   phone: string
+  email: string
   voucherCode: string
   voucherCodes?: string | null
   serviceType: string
   store: string
   preferredDate: string
   timeSlot?: string | null
+  note?: string | null
   status: number
   createdAt: string
+}
+
+function statusLabelKey(status: number): string {
+  if (status === 1) return "staffRedeem.statusConfirmed"
+  if (status === 2) return "staffRedeem.statusCompleted"
+  if (status === 3) return "staffRedeem.statusCancelled"
+  return "staffRedeem.statusPending"
+}
+
+function statusClassName(status: number): string {
+  if (status === 1) return "bg-blue-100 text-blue-700"
+  if (status === 2) return "bg-green-100 text-green-700"
+  if (status === 3) return "bg-ikea-gray-100 text-ikea-muted"
+  return "bg-amber-100 text-amber-700"
+}
+
+function formatDate(value: string): string {
+  const date = new Date(value)
+  if (Number.isNaN(date.getTime())) return value
+  return date.toLocaleString("zh-CN", { hour12: false })
 }
 
 export function StaffRedeemPanel() {
@@ -42,7 +52,7 @@ export function StaffRedeemPanel() {
   })
   const [code, setCode] = useState("")
   const [submitting, setSubmitting] = useState(false)
-  const [result, setResult] = useState<BookingResult | null>(null)
+  const [redeemedNo, setRedeemedNo] = useState<string | null>(null)
   const [error, setError] = useState<string | null>(null)
   const [scanning, setScanning] = useState(false)
   const [scanError, setScanError] = useState<string | null>(null)
@@ -85,7 +95,7 @@ export function StaffRedeemPanel() {
   const startScanning = async () => {
     setScanError(null)
     setError(null)
-    setResult(null)
+    setRedeemedNo(null)
     if (typeof navigator === "undefined" || !navigator.mediaDevices?.getUserMedia) {
       setScanError(t("staffRedeem.scanUnsupported"))
       return
@@ -115,9 +125,9 @@ export function StaffRedeemPanel() {
             inversionAttempts: "dontInvert",
           })
           if (decoded) {
-            const code = extractCode(decoded.data)
-            if (code) {
-              setCode(code)
+            const extracted = extractCode(decoded.data)
+            if (extracted) {
+              setCode(extracted)
               stopScanning()
               return
             }
@@ -165,35 +175,31 @@ export function StaffRedeemPanel() {
     }
   }
 
-  const submit = async () => {
+  const doRedeem = async (value: string) => {
     setError(null)
-    setResult(null)
+    setRedeemedNo(null)
     if (!secret.trim()) {
       setError(t("staffRedeem.missingSecret"))
       return
     }
-    if (!code.trim()) {
+    if (!value.trim()) {
       setError(t("staffRedeem.missingCode"))
       return
     }
-    await doRedeem(code.trim())
-  }
-
-  const doRedeem = async (value: string) => {
     setSubmitting(true)
     try {
       const response = await fetch(`${API_BASE}/api/v1/staff/redeem`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ secret: secret.trim(), code: value }),
+        body: JSON.stringify({ secret: secret.trim(), code: value.trim() }),
       })
       const body = (await response.json().catch(() => null)) as
-        (BookingResult & { message?: string }) | null
+        (BookingItem & { message?: string }) | null
       if (!response.ok) {
         throw new Error(body?.message ?? t("staffRedeem.failed"))
       }
       if (body) {
-        setResult(body)
+        setRedeemedNo(body.bookingNo)
         window.sessionStorage.setItem(SECRET_STORAGE_KEY, secret.trim())
         setCode("")
         await loadBookings()
@@ -206,13 +212,13 @@ export function StaffRedeemPanel() {
   }
 
   return (
-    <div className="font-ikea flex min-h-screen items-center justify-center bg-ikea-gray-100 px-5 py-10 text-ikea-black">
-      <div className="w-full max-w-lg">
-        <div className="rounded-lg bg-white p-8 shadow-sm">
-          <h1 className="text-2xl font-bold leading-9">{t("staffRedeem.title")}</h1>
-          <p className="mt-2 text-sm leading-6 text-ikea-muted">{t("staffRedeem.intro")}</p>
+    <div className="font-ikea min-h-screen bg-ikea-gray-100 px-5 py-8 text-ikea-black">
+      <div className="mx-auto max-w-6xl">
+        <h1 className="text-2xl font-bold leading-9">{t("staffRedeem.title")}</h1>
+        <p className="mt-2 text-sm leading-6 text-ikea-muted">{t("staffRedeem.intro")}</p>
 
-          <div className="mt-6 space-y-4">
+        <div className="mt-6 rounded-lg bg-white p-6 shadow-sm">
+          <div className="grid gap-4 md:grid-cols-[1fr_1fr_auto]">
             <label className="block">
               <span className="text-sm font-bold">{t("staffRedeem.secretLabel")}</span>
               <input
@@ -229,144 +235,121 @@ export function StaffRedeemPanel() {
                 value={code}
                 onChange={(event) => setCode(event.target.value)}
                 onKeyDown={(event) => {
-                  if (event.key === "Enter" && !submitting) void submit()
+                  if (event.key === "Enter" && !submitting) void doRedeem(code)
                 }}
                 placeholder={t("staffRedeem.codePlaceholder")}
                 className="mt-1.5 h-11 w-full border border-ikea-gray-200 px-4 text-sm uppercase outline-none focus:border-ikea-blue"
               />
             </label>
-
-            {scanning ? (
-              <div className="space-y-2">
-                <video
-                  ref={videoRef}
-                  playsInline
-                  muted
-                  autoPlay
-                  className="aspect-square w-full rounded border border-ikea-gray-200 bg-black object-cover"
-                />
-                <button
-                  type="button"
-                  onClick={stopScanning}
-                  className="w-full rounded bg-ikea-gray-200 px-4 py-2 text-sm font-bold hover:bg-ikea-gray-300"
-                >
-                  {t("staffRedeem.stopScan")}
-                </button>
-              </div>
-            ) : (
+            <div className="flex items-end gap-2">
               <button
                 type="button"
-                onClick={() => void startScanning()}
-                className="h-11 w-full rounded border border-ikea-blue px-4 text-sm font-bold text-ikea-blue hover:bg-ikea-blue/5"
+                onClick={() => void doRedeem(code)}
+                disabled={submitting}
+                className="i-btn i-btn--primary h-11 px-6 text-sm font-bold text-white disabled:opacity-40"
               >
-                {t("staffRedeem.scan")}
+                {submitting ? t("staffRedeem.submitting") : t("staffRedeem.submit")}
               </button>
-            )}
-
-            {scanError ? (
-              <p className="rounded bg-amber-50 px-4 py-3 text-sm text-amber-700">{scanError}</p>
-            ) : null}
-
-            {error ? (
-              <p className="rounded bg-red-50 px-4 py-3 text-sm text-red-600">{error}</p>
-            ) : null}
-
-            <button
-              type="button"
-              disabled={submitting}
-              onClick={() => void submit()}
-              className="i-btn i-btn--primary h-11 w-full text-sm font-bold text-white disabled:cursor-not-allowed disabled:opacity-40"
-            >
-              <span className="i-btn__inner">
-                <span className="i-btn__label">
-                  {submitting ? t("staffRedeem.submitting") : t("staffRedeem.submit")}
-                </span>
-              </span>
-            </button>
+              {!scanning ? (
+                <button
+                  type="button"
+                  onClick={() => void startScanning()}
+                  className="h-11 rounded border border-ikea-blue px-4 text-sm font-bold text-ikea-blue hover:bg-ikea-blue/5"
+                >
+                  {t("staffRedeem.scan")}
+                </button>
+              ) : null}
+            </div>
           </div>
 
-          {result ? (
-            <div className="mt-6 rounded-lg border border-green-200 bg-green-50 p-5 text-sm">
-              <p className="font-bold text-green-700">{t("staffRedeem.success")}</p>
-              <dl className="mt-3 space-y-2">
-                <div className="flex justify-between gap-4">
-                  <dt className="text-ikea-muted">{t("staffRedeem.bookingNo")}</dt>
-                  <dd className="font-mono font-bold">{result.bookingNo}</dd>
-                </div>
-                <div className="flex justify-between gap-4">
-                  <dt className="text-ikea-muted">{t("staffRedeem.customer")}</dt>
-                  <dd>{result.customerName}</dd>
-                </div>
-                <div className="flex justify-between gap-4">
-                  <dt className="text-ikea-muted">{t("staffRedeem.service")}</dt>
-                  <dd>{result.serviceType}</dd>
-                </div>
-                <div className="flex justify-between gap-4">
-                  <dt className="text-ikea-muted">{t("staffRedeem.store")}</dt>
-                  <dd>{result.store}</dd>
-                </div>
-              </dl>
+          {scanning ? (
+            <div className="mt-4 space-y-2">
+              <video
+                ref={videoRef}
+                playsInline
+                muted
+                autoPlay
+                className="aspect-video w-full max-w-md rounded border border-ikea-gray-200 bg-black object-cover"
+              />
+              <button
+                type="button"
+                onClick={stopScanning}
+                className="rounded bg-ikea-gray-200 px-4 py-2 text-sm font-bold hover:bg-ikea-gray-300"
+              >
+                {t("staffRedeem.stopScan")}
+              </button>
             </div>
           ) : null}
 
-          <div className="mt-8 border-t border-ikea-gray-200 pt-6">
-            <div className="flex items-center justify-between gap-3">
-              <h2 className="text-base font-bold">{t("staffRedeem.listTitle")}</h2>
-              <button
-                type="button"
-                onClick={() => void loadBookings()}
-                disabled={loadingList}
-                className="text-sm font-bold text-ikea-blue hover:underline disabled:opacity-50"
-              >
-                {t("staffRedeem.refresh")}
-              </button>
-            </div>
-            {listError ? (
-              <p className="mt-3 rounded bg-amber-50 px-4 py-3 text-sm text-amber-700">{listError}</p>
-            ) : null}
-            {loadingList ? (
-              <p className="mt-4 py-6 text-center text-sm text-ikea-muted">{t("staffRedeem.loading")}</p>
-            ) : bookings.length === 0 ? (
-              <p className="mt-4 py-6 text-center text-sm text-ikea-muted">{t("staffRedeem.listEmpty")}</p>
-            ) : (
-              <ul className="mt-4 space-y-3">
-                {bookings.map((booking) => (
-                  <li
-                    key={booking.id}
-                    className="rounded-lg border border-ikea-gray-200 p-4 text-sm"
-                  >
-                    <div className="flex items-start justify-between gap-3">
-                      <div className="min-w-0">
-                        <p className="font-mono text-xs font-bold">{booking.bookingNo}</p>
-                        <p className="mt-1 text-ikea-muted">
-                          {booking.customerName} · {booking.serviceType}
-                        </p>
-                        <p className="mt-0.5 text-xs text-ikea-muted">
-                          {booking.preferredDate}
-                          {booking.timeSlot ? ` · ${booking.timeSlot}` : ""}
-                        </p>
-                        <p className="mt-0.5 text-xs text-ikea-muted">
-                          {booking.voucherCodes ?? booking.voucherCode}
-                        </p>
-                      </div>
-                      <div className="flex shrink-0 flex-col items-end gap-2">
+          {scanError ? (
+            <p className="mt-3 rounded bg-amber-50 px-4 py-3 text-sm text-amber-700">{scanError}</p>
+          ) : null}
+          {error ? (
+            <p className="mt-3 rounded bg-red-50 px-4 py-3 text-sm text-red-600">{error}</p>
+          ) : null}
+          {redeemedNo ? (
+            <p className="mt-3 rounded bg-green-50 px-4 py-3 text-sm text-green-700">
+              {t("staffRedeem.redeemSuccess", { no: redeemedNo })}
+            </p>
+          ) : null}
+        </div>
+
+        <div className="mt-6 overflow-hidden rounded-lg border border-ikea-gray-200 bg-white">
+          <div className="flex items-center justify-between border-b border-ikea-gray-200 px-5 py-4">
+            <h2 className="text-base font-bold">{t("staffRedeem.listTitle")}</h2>
+            <button
+              type="button"
+              onClick={() => void loadBookings()}
+              disabled={loadingList}
+              className="text-sm font-bold text-ikea-blue hover:underline disabled:opacity-50"
+            >
+              {t("staffRedeem.refresh")}
+            </button>
+          </div>
+          {listError ? (
+            <p className="px-5 py-6 text-center text-sm text-amber-700">{listError}</p>
+          ) : loadingList ? (
+            <p className="px-5 py-10 text-center text-sm text-ikea-muted">{t("staffRedeem.loading")}</p>
+          ) : bookings.length === 0 ? (
+            <p className="px-5 py-10 text-center text-sm text-ikea-muted">{t("staffRedeem.listEmpty")}</p>
+          ) : (
+            <div className="overflow-x-auto">
+              <table className="w-full text-left text-sm">
+                <thead className="bg-ikea-gray-50 text-xs text-ikea-muted">
+                  <tr>
+                    <th className="px-5 py-3 font-medium">{t("staffRedeem.colBookingNo")}</th>
+                    <th className="px-5 py-3 font-medium">{t("staffRedeem.colName")}</th>
+                    <th className="px-5 py-3 font-medium">{t("staffRedeem.colPhone")}</th>
+                    <th className="px-5 py-3 font-medium">{t("staffRedeem.colVoucher")}</th>
+                    <th className="px-5 py-3 font-medium">{t("staffRedeem.colService")}</th>
+                    <th className="px-5 py-3 font-medium">{t("staffRedeem.colStore")}</th>
+                    <th className="px-5 py-3 font-medium">{t("staffRedeem.colDate")}</th>
+                    <th className="px-5 py-3 font-medium">{t("staffRedeem.colTimeSlot")}</th>
+                    <th className="px-5 py-3 font-medium">{t("staffRedeem.colStatus")}</th>
+                    <th className="px-5 py-3 font-medium">{t("staffRedeem.colCreatedAt")}</th>
+                    <th className="px-5 py-3 text-right font-medium">{t("staffRedeem.colActions")}</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-ikea-gray-200">
+                  {bookings.map((booking) => (
+                    <tr key={booking.id} className="hover:bg-ikea-gray-50">
+                      <td className="px-5 py-3 font-mono text-xs font-bold">{booking.bookingNo}</td>
+                      <td className="px-5 py-3">{booking.customerName}</td>
+                      <td className="px-5 py-3">{booking.phone}</td>
+                      <td className="px-5 py-3">{booking.voucherCodes ?? booking.voucherCode}</td>
+                      <td className="px-5 py-3">{booking.serviceType}</td>
+                      <td className="px-5 py-3">{booking.store}</td>
+                      <td className="px-5 py-3">{booking.preferredDate}</td>
+                      <td className="px-5 py-3">{booking.timeSlot || "—"}</td>
+                      <td className="px-5 py-3">
                         <span
-                          className={`rounded px-2 py-0.5 text-xs font-bold ${
-                            booking.status === 2
-                              ? "bg-green-100 text-green-700"
-                              : booking.status === 3
-                                ? "bg-ikea-gray-100 text-ikea-muted"
-                                : "bg-amber-100 text-amber-700"
-                          }`}
+                          className={`rounded px-2 py-0.5 text-xs font-medium ${statusClassName(booking.status)}`}
                         >
-                          {booking.status === 2
-                            ? t("staffRedeem.statusCompleted")
-                            : booking.status === 3
-                              ? t("staffRedeem.statusCancelled")
-                              : booking.status === 1
-                                ? t("staffRedeem.statusConfirmed")
-                                : t("staffRedeem.statusPending")}
+                          {t(statusLabelKey(booking.status))}
                         </span>
+                      </td>
+                      <td className="px-5 py-3">{formatDate(booking.createdAt)}</td>
+                      <td className="px-5 py-3 text-right">
                         {booking.status === 0 || booking.status === 1 ? (
                           <button
                             type="button"
@@ -377,13 +360,13 @@ export function StaffRedeemPanel() {
                             {t("staffRedeem.submit")}
                           </button>
                         ) : null}
-                      </div>
-                    </div>
-                  </li>
-                ))}
-              </ul>
-            )}
-          </div>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          )}
         </div>
       </div>
     </div>

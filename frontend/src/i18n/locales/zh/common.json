@@ -448,6 +448,18 @@
     "statusConfirmed": "已确认",
     "statusCompleted": "已核销",
     "statusCancelled": "已取消",
+    "redeemSuccess": "核销成功：{{no}}",
+    "colBookingNo": "预约编号",
+    "colName": "姓名",
+    "colPhone": "电话",
+    "colVoucher": "券码",
+    "colService": "服务项目",
+    "colStore": "门店",
+    "colDate": "日期",
+    "colTimeSlot": "时段",
+    "colStatus": "状态",
+    "colCreatedAt": "创建时间",
+    "colActions": "操作",
     "failed": "核销失败，请稍后重试"
   },
   "cartPage": {
