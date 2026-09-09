@@ -98,7 +98,7 @@ export function BookingForm() {
         setError(t("bookingForm.incomplete"))
         return
       }
-      if (!/^[89]\d{7}$/.test(form.phone.trim())) {
+      if (!/^\+?[0-9][0-9\s-]{5,19}$/.test(form.phone.trim())) {
         setError(t("bookingForm.invalidPhone"))
         return
       }
@@ -167,14 +167,9 @@ export function BookingForm() {
     ],
     store: [
       t("bookingForm.storeSagoStreet"),
-      t("bookingForm.storeRaffles"),
-      t("bookingForm.storeNovena"),
-      t("bookingForm.storeParkroyal"),
     ],
     timeSlot: [
       t("bookingForm.slotMorning"),
-      t("bookingForm.slotAfternoon"),
-      t("bookingForm.slotEvening"),
     ],
   }
 
@@ -251,9 +246,7 @@ export function BookingForm() {
           </span>
           {key === "preferredDate" ? (
             <input
-              type="text"
-              inputMode="numeric"
-              placeholder={t("bookingForm.preferredDatePlaceholder")}
+              type="date"
               value={form[key]}
               onChange={update(key)}
               className="h-11 w-full border border-ikea-gray-200 px-4 text-sm outline-none transition-colors focus:border-ikea-blue"

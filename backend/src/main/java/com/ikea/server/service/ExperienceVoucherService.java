@@ -413,11 +413,23 @@ public class ExperienceVoucherService {
 
   /** 预约下单时核销单张体验券。 */
   @Transactional
-  public void redeemForBooking(String code, String bookingNo) {
+  public void redeemForBooking(String code, String bookingNo, String email) {
     String normalizedCode = normalizeCode(code);
     ExperienceVoucher voucher = voucherByCode(normalizedCode);
     if (voucher == null || voucher.getType() == null || voucher.getType() != TYPE_EXPERIENCE) {
       throw new IllegalArgumentException("体验券不存在或类型不正确");
+    }
+    VoucherEmailClaim claim =
+        voucherEmailClaimMapper.selectOne(
+            Wrappers.lambdaQuery(VoucherEmailClaim.class)
+                .eq(VoucherEmailClaim::getVoucherId, voucher.getId())
+                .eq(VoucherEmailClaim::getDeleted, 0)
+                .last("LIMIT 1"));
+    if (claim != null && claim.getEmail() != null && !claim.getEmail().isBlank()) {
+      String normalizedEmail = email == null ? "" : email.trim().toLowerCase();
+      if (!claim.getEmail().equalsIgnoreCase(normalizedEmail)) {
+        throw new IllegalArgumentException("邮箱与体验券申请邮箱不一致");
+      }
     }
     redeemSingle(normalizedCode, normalizeBookingId(bookingNo));
   }

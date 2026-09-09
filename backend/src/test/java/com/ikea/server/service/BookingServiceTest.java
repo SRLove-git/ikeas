@@ -92,7 +92,7 @@ class BookingServiceTest {
     CreateBookingRequest request = validRequest("81234567", "a@b.com", "2026-09-10");
     doThrow(new IllegalArgumentException("体检券已使用"))
         .when(voucherService)
-        .redeemForBooking(eq("CODE1"), anyString());
+        .redeemForBooking(eq("CODE1"), anyString(), eq("a@b.com"));
 
     IllegalArgumentException e =
         assertThrows(IllegalArgumentException.class, () -> bookingService.createBooking(request, null));
@@ -113,7 +113,7 @@ class BookingServiceTest {
     assertEquals(0, captor.getValue().getStatus());
     // 请求里是小写 code1，入库与核销都应归一化为大写
     assertEquals("CODE1", captor.getValue().getVoucherCode());
-    verify(voucherService).redeemForBooking("CODE1", booking.getBookingNo());
+    verify(voucherService).redeemForBooking("CODE1", booking.getBookingNo(), "a@b.com");
   }
 
   @Test

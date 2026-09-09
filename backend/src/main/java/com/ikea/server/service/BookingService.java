@@ -17,7 +17,7 @@ import org.springframework.transaction.annotation.Transactional;
 @Service
 public class BookingService {
 
-  private static final String PHONE_PATTERN = "^[89]\\d{7}$";
+  private static final String PHONE_PATTERN = "^\\+?[0-9][0-9\\s-]{5,19}$";
   private static final String EMAIL_PATTERN = "^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$";
 
   private final BookingMapper bookingMapper;
@@ -75,7 +75,7 @@ public class BookingService {
       voucherCode = coupon.getCode();
       codesText = coupon.getCode();
     } else if (voucherCodes.size() == 1) {
-      voucherService.redeemForBooking(voucherCodes.get(0), bookingNo);
+      voucherService.redeemForBooking(voucherCodes.get(0), bookingNo, email);
       codesText = voucherCodes.get(0);
     } else if (voucherCodes.size() == 3) {
       codesText = voucherService.redeemPointVouchersForBooking(voucherCodes, bookingNo);
