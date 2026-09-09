@@ -9,7 +9,6 @@ import {
   Loading,
   Notice,
   PageHeader,
-  TextArea,
   TextInput,
 } from "@/components/admin/admin-ui"
 
@@ -46,8 +45,6 @@ export default function VouchersPage() {
   const [statusFilter, setStatusFilter] = useState("")
   const [typeFilter, setTypeFilter] = useState("")
   const [selected, setSelected] = useState<string[]>([])
-  const [codes, setCodes] = useState("")
-  const [remark, setRemark] = useState("")
   const [batchCount, setBatchCount] = useState("100")
   const [batchType, setBatchType] = useState("2")
   const [batchValidUntil, setBatchValidUntil] = useState("")
@@ -91,28 +88,6 @@ export default function VouchersPage() {
       cancelled = true
     }
   }, [])
-
-  const createVouchers = async () => {
-    try {
-      const parsed = codes
-        .split(/[\n,，\s]+/)
-        .map((code) => code.trim())
-        .filter(Boolean)
-      if (parsed.length === 0) {
-        setError(t("admin.vouchers.emptyInput"))
-        return
-      }
-      await adminFetch("/api/admin/server/experience-vouchers", {
-        method: "POST",
-        body: JSON.stringify({ codes: parsed, remark }),
-      })
-      setCodes("")
-      setRemark("")
-      await load()
-    } catch (e) {
-      setError((e as Error).message)
-    }
-  }
 
   const generateVouchers = async () => {
     try {
@@ -380,59 +355,42 @@ export default function VouchersPage() {
           </section>
         ) : (
           <section className="rounded-lg border border-ikea-gray-200 bg-white p-5">
-            <h2 className="text-base font-bold">{t("admin.vouchers.enterTitle")}</h2>
+            <h2 className="text-base font-bold">{t("admin.vouchers.batchGenerateTitle")}</h2>
             <p className="mt-1 text-xs leading-5 text-ikea-muted">
-              {t("admin.vouchers.enterDesc")}
+              {t("admin.vouchers.batchGenerateDesc")}
             </p>
-            <div className="mt-4 space-y-3">
-              <TextArea
-                rows={10}
-                value={codes}
-                onChange={(event) => setCodes(event.target.value)}
-                placeholder={t("admin.vouchers.codesPlaceholder")}
+            <div className="mt-4 grid gap-3 sm:grid-cols-2">
+              <TextInput
+                type="number"
+                min="1"
+                max="1000"
+                value={batchCount}
+                onChange={(event) => setBatchCount(event.target.value)}
+                placeholder={t("admin.vouchers.batchCountPlaceholder")}
+              />
+              <select
+                value={batchType}
+                onChange={(event) => setBatchType(event.target.value)}
+                className="h-9 rounded-md border border-ikea-gray-200 bg-white px-3 text-sm outline-none focus:border-ikea-blue"
+              >
+                <option value="1">{t("admin.vouchers.typeExperience")}</option>
+                <option value="2">{t("admin.vouchers.typePoints")}</option>
+              </select>
+              <TextInput
+                type="date"
+                value={batchValidUntil}
+                onChange={(event) => setBatchValidUntil(event.target.value)}
+                placeholder={t("admin.vouchers.validUntilPlaceholder")}
               />
               <TextInput
-                value={remark}
-                onChange={(event) => setRemark(event.target.value)}
-                placeholder={t("admin.vouchers.remarkPlaceholder")}
+                value={batchBatchNo}
+                onChange={(event) => setBatchBatchNo(event.target.value)}
+                placeholder={t("admin.vouchers.batchNoPlaceholder")}
               />
-              <Button onClick={() => void createVouchers()}>{t("admin.vouchers.create")}</Button>
-              <div className="border-t border-ikea-gray-200 pt-4">
-                <h3 className="text-sm font-bold">{t("admin.vouchers.batchGenerateTitle")}</h3>
-                <div className="mt-3 grid gap-3 sm:grid-cols-2">
-                  <TextInput
-                    type="number"
-                    min="1"
-                    max="1000"
-                    value={batchCount}
-                    onChange={(event) => setBatchCount(event.target.value)}
-                    placeholder={t("admin.vouchers.batchCountPlaceholder")}
-                  />
-                  <select
-                    value={batchType}
-                    onChange={(event) => setBatchType(event.target.value)}
-                    className="h-9 rounded-md border border-ikea-gray-200 bg-white px-3 text-sm outline-none focus:border-ikea-blue"
-                  >
-                    <option value="1">{t("admin.vouchers.typeExperience")}</option>
-                    <option value="2">{t("admin.vouchers.typePoints")}</option>
-                  </select>
-                  <TextInput
-                    type="date"
-                    value={batchValidUntil}
-                    onChange={(event) => setBatchValidUntil(event.target.value)}
-                    placeholder={t("admin.vouchers.validUntilPlaceholder")}
-                  />
-                  <TextInput
-                    value={batchBatchNo}
-                    onChange={(event) => setBatchBatchNo(event.target.value)}
-                    placeholder={t("admin.vouchers.batchNoPlaceholder")}
-                  />
-                </div>
-                <Button className="mt-3" onClick={() => void generateVouchers()}>
-                  {t("admin.vouchers.batchGenerate")}
-                </Button>
-              </div>
             </div>
+            <Button className="mt-3" onClick={() => void generateVouchers()}>
+              {t("admin.vouchers.batchGenerate")}
+            </Button>
           </section>
         )}
       </div>

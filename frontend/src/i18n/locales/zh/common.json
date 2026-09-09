@@ -1198,7 +1198,7 @@
     },
     "vouchers": {
       "title": "体验券 / 积分券",
-      "desc": "管理线下实体体验券与积分券，支持批量生成、录入券码和导出打印 PDF。",
+      "desc": "管理线下实体体验券与积分券，支持按数量批量生成券码和导出打印 PDF。",
       "listTitle": "实体券列表",
       "empty": "暂无实体券",
       "colSelect": "选择",
@@ -1236,6 +1236,7 @@
       "downloadPdf": "下载打印 PDF",
       "generatingPdf": "生成中…",
       "batchGenerateTitle": "批量生成券码",
+      "batchGenerateDesc": "按数量自动生成体验券或积分券，无需手动录入券码。",
       "batchCountPlaceholder": "生成数量（1-1000）",
       "validUntilPlaceholder": "有效期至（选填）",
       "batchNoPlaceholder": "批次号（选填）",

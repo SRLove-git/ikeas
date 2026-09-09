@@ -1198,7 +1198,7 @@
     },
     "vouchers": {
       "title": "Experience / points vouchers",
-      "desc": "Manage physical experience vouchers and points cards, with bulk generation, code entry, and print-ready PDF export.",
+      "desc": "Manage physical experience vouchers and points cards, with quantity-based code generation and print-ready PDF export.",
       "listTitle": "Voucher list",
       "empty": "No vouchers yet",
       "colSelect": "Select",
@@ -1236,6 +1236,7 @@
       "downloadPdf": "Download print PDF",
       "generatingPdf": "Generating…",
       "batchGenerateTitle": "Generate codes in bulk",
+      "batchGenerateDesc": "Auto-generate experience or points vouchers by quantity. No manual code entry required.",
       "batchCountPlaceholder": "Count (1-1000)",
       "validUntilPlaceholder": "Valid until (optional)",
       "batchNoPlaceholder": "Batch number (optional)",
