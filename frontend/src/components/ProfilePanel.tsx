@@ -88,9 +88,6 @@ export function ProfilePanel() {
   const [membershipConsent, setMembershipConsent] = useState(false)
   const [membershipNotice, setMembershipNotice] = useState<string | null>(null)
   const [marketing, setMarketing] = useState<MarketingAccount | null>(null)
-  const [rechargeAmount, setRechargeAmount] = useState("")
-  const [rechargeSubmitting, setRechargeSubmitting] = useState(false)
-  const [marketingNotice, setMarketingNotice] = useState<string | null>(null)
 
   useEffect(() => {
     if (ready && !user) {
@@ -119,31 +116,6 @@ export function ProfilePanel() {
       cancelled = true
     }
   }, [ready, user])
-
-  const recharge = async () => {
-    const amount = Number(rechargeAmount)
-    if (!Number.isFinite(amount) || amount <= 0) {
-      setMarketingNotice("请输入有效充值金额")
-      return
-    }
-    setRechargeSubmitting(true)
-    setMarketingNotice(null)
-    try {
-      const updated = await apiJson<{ balance: number }>("/marketing/recharge", {
-        method: "POST",
-        body: JSON.stringify({ amount }),
-      })
-      setMarketing((current) =>
-        current ? { ...current, balance: updated.balance } : current,
-      )
-      setRechargeAmount("")
-      setMarketingNotice("充值成功")
-    } catch (ex) {
-      setMarketingNotice(ex instanceof Error ? ex.message : "充值失败")
-    } finally {
-      setRechargeSubmitting(false)
-    }
-  }
 
   const submitMembership = () => {
     setMembershipNotice(t("profile.membershipSubmitted"))
@@ -197,24 +169,10 @@ export function ProfilePanel() {
                   积分 {marketing.points} · 余额 SGD {marketing.balance.toFixed(2)}
                 </p>
               </div>
-              <div className="flex items-end gap-2">
-                <input
-                  value={rechargeAmount}
-                  onChange={(event) => setRechargeAmount(event.target.value)}
-                  placeholder="充值金额"
-                  className="h-10 w-32 border border-ikea-gray-200 px-3 text-sm outline-none focus:border-ikea-blue"
-                />
-                <button
-                  type="button"
-                  disabled={rechargeSubmitting}
-                  onClick={() => void recharge()}
-                  className="h-10 rounded bg-ikea-blue px-4 text-sm font-bold text-white disabled:opacity-50"
-                >
-                  充值
-                </button>
+              <div className="text-right">
+                <p className="text-xs text-ikea-muted">{t("profile.rechargeClosed")}</p>
               </div>
             </div>
-            {marketingNotice ? <p className="mt-2 text-sm text-ikea-blue">{marketingNotice}</p> : null}
           </section>
         ) : null}
 

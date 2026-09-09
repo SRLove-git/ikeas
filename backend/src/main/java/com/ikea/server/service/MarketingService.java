@@ -347,19 +347,11 @@ public class MarketingService {
   }
 
   /**
-   * 余额充值：mock 模式直接入账，真实支付场景应改为创建充值支付单后回调入账。
+   * 余额充值：尚未对接支付，暂不开放（避免直接入账造成未支付即到账）。
    */
   @Transactional
   public RechargeResponse recharge(Long userId, BigDecimal amount) {
-    BigDecimal value = money(amount);
-    if (value.signum() <= 0) {
-      throw new IllegalArgumentException("充值金额必须大于 0");
-    }
-    MemberAccount account = account(userId);
-    account.setBalance(money(account.getBalance().add(value)));
-    memberAccountMapper.updateById(account);
-    balanceLogMapper.insert(balanceLog(userId, value, "recharge", "余额充值"));
-    return new RechargeResponse(account.getBalance());
+    throw new IllegalArgumentException("充值功能暂未开放，支付对接中");
   }
 
   /**
