@@ -462,6 +462,13 @@
     "colStatus": "Status",
     "colCreatedAt": "Created at",
     "colActions": "Actions",
+    "claimSecretTitle": "Experience voucher claim secret",
+    "currentSecret": "Current secret",
+    "newSecretPlaceholder": "Enter new secret",
+    "updateSecret": "Update",
+    "updating": "Updating…",
+    "secretEmpty": "Please enter a new secret",
+    "secretUpdated": "Secret updated",
     "failed": "Failed to redeem. Please try again later."
   },
   "cartPage": {

@@ -53,6 +53,10 @@ export function StaffRedeemPanel() {
   const [bookings, setBookings] = useState<BookingItem[]>([])
   const [loadingList, setLoadingList] = useState(false)
   const [listError, setListError] = useState<string | null>(null)
+  const [claimSecret, setClaimSecret] = useState("")
+  const [newSecret, setNewSecret] = useState("")
+  const [savingSecret, setSavingSecret] = useState(false)
+  const [secretNotice, setSecretNotice] = useState<string | null>(null)
   const videoRef = useRef<HTMLVideoElement | null>(null)
   const streamRef = useRef<MediaStream | null>(null)
   const rafRef = useRef<number | null>(null)
@@ -137,6 +141,15 @@ export function StaffRedeemPanel() {
   }
 
   useEffect(() => {
+    void (async () => {
+      try {
+        const response = await fetch(`${API_BASE}/api/v1/staff/claim-secret`)
+        const body = (await response.json().catch(() => null)) as { secret?: string } | null
+        if (response.ok && body) setClaimSecret(body.secret ?? "")
+      } catch {
+        // 获取失败时静默，不影响核销。
+      }
+    })()
     return () => {
       if (rafRef.current != null) cancelAnimationFrame(rafRef.current)
       if (streamRef.current) {
@@ -160,6 +173,33 @@ export function StaffRedeemPanel() {
       setListError((e as Error).message || t("staffRedeem.failed"))
     } finally {
       setLoadingList(false)
+    }
+  }
+
+  const saveClaimSecret = async () => {
+    if (!newSecret.trim()) {
+      setSecretNotice(t("staffRedeem.secretEmpty"))
+      return
+    }
+    setSavingSecret(true)
+    setSecretNotice(null)
+    try {
+      const response = await fetch(`${API_BASE}/api/v1/staff/claim-secret`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ secret: newSecret.trim() }),
+      })
+      const body = (await response.json().catch(() => null)) as { secret?: string; message?: string } | null
+      if (!response.ok) {
+        throw new Error(body?.message ?? t("staffRedeem.failed"))
+      }
+      setClaimSecret(body?.secret ?? newSecret.trim())
+      setNewSecret("")
+      setSecretNotice(t("staffRedeem.secretUpdated"))
+    } catch (e) {
+      setSecretNotice((e as Error).message || t("staffRedeem.failed"))
+    } finally {
+      setSavingSecret(false)
     }
   }
 
@@ -265,6 +305,35 @@ export function StaffRedeemPanel() {
               {t("staffRedeem.redeemSuccess", { no: redeemedNo })}
             </p>
           ) : null}
+
+          <div className="mt-5 border-t border-ikea-gray-200 pt-5">
+            <h3 className="text-sm font-bold">{t("staffRedeem.claimSecretTitle")}</h3>
+            <div className="mt-3 flex flex-col gap-3 sm:flex-row sm:items-end">
+              <div className="flex-1">
+                <p className="text-xs text-ikea-muted">{t("staffRedeem.currentSecret")}</p>
+                <p className="mt-1 font-mono text-lg font-bold text-ikea-blue">
+                  {claimSecret || "—"}
+                </p>
+              </div>
+              <input
+                value={newSecret}
+                onChange={(event) => setNewSecret(event.target.value)}
+                placeholder={t("staffRedeem.newSecretPlaceholder")}
+                className="h-11 flex-1 border border-ikea-gray-200 px-4 text-sm outline-none focus:border-ikea-blue"
+              />
+              <button
+                type="button"
+                onClick={() => void saveClaimSecret()}
+                disabled={savingSecret}
+                className="h-11 rounded bg-ikea-blue px-5 text-sm font-bold text-white hover:opacity-90 disabled:opacity-50"
+              >
+                {savingSecret ? t("staffRedeem.updating") : t("staffRedeem.updateSecret")}
+              </button>
+            </div>
+            {secretNotice ? (
+              <p className="mt-3 rounded bg-blue-50 px-4 py-3 text-sm text-ikea-blue">{secretNotice}</p>
+            ) : null}
+          </div>
         </div>
 
         <div className="mt-6 overflow-hidden rounded-lg border border-ikea-gray-200 bg-white">
