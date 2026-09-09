@@ -1,8 +1,9 @@
 "use client"
 
-import { useState } from "react"
+import { useEffect, useRef, useState } from "react"
 import { useTranslation } from "react-i18next"
 import { API_BASE } from "@/lib/api"
+import jsQR from "jsqr"
 
 const SECRET_STORAGE_KEY = "buzud.staff.redeemSecret"
 
@@ -28,6 +29,99 @@ export function StaffRedeemPanel() {
   const [submitting, setSubmitting] = useState(false)
   const [result, setResult] = useState<BookingResult | null>(null)
   const [error, setError] = useState<string | null>(null)
+  const [scanning, setScanning] = useState(false)
+  const [scanError, setScanError] = useState<string | null>(null)
+  const videoRef = useRef<HTMLVideoElement | null>(null)
+  const streamRef = useRef<MediaStream | null>(null)
+  const rafRef = useRef<number | null>(null)
+
+  const stopScanning = () => {
+    if (rafRef.current != null) {
+      cancelAnimationFrame(rafRef.current)
+      rafRef.current = null
+    }
+    if (streamRef.current) {
+      streamRef.current.getTracks().forEach((track) => track.stop())
+      streamRef.current = null
+    }
+    setScanning(false)
+  }
+
+  const extractCode = (raw: string): string | null => {
+    const value = raw.trim()
+    if (!value) return null
+    if (/^https?:\/\//i.test(value)) {
+      try {
+        const url = new URL(value)
+        return url.searchParams.get("voucher") ?? url.searchParams.get("code") ?? null
+      } catch {
+        return null
+      }
+    }
+    if (/^(BZE|BZP|BK)-/i.test(value)) {
+      return value.toUpperCase()
+    }
+    return null
+  }
+
+  const startScanning = async () => {
+    setScanError(null)
+    setError(null)
+    setResult(null)
+    if (typeof navigator === "undefined" || !navigator.mediaDevices?.getUserMedia) {
+      setScanError(t("staffRedeem.scanUnsupported"))
+      return
+    }
+    try {
+      const stream = await navigator.mediaDevices.getUserMedia({
+        video: { facingMode: "environment" },
+        audio: false,
+      })
+      streamRef.current = stream
+      setScanning(true)
+
+      const tick = () => {
+        const video = videoRef.current
+        if (!video || video.readyState !== video.HAVE_ENOUGH_DATA) {
+          rafRef.current = requestAnimationFrame(tick)
+          return
+        }
+        const canvas = document.createElement("canvas")
+        canvas.width = video.videoWidth
+        canvas.height = video.videoHeight
+        const ctx = canvas.getContext("2d")
+        if (ctx) {
+          ctx.drawImage(video, 0, 0, canvas.width, canvas.height)
+          const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height)
+          const decoded = jsQR(imageData.data, imageData.width, imageData.height, {
+            inversionAttempts: "dontInvert",
+          })
+          if (decoded) {
+            const code = extractCode(decoded.data)
+            if (code) {
+              setCode(code)
+              stopScanning()
+              return
+            }
+          }
+        }
+        rafRef.current = requestAnimationFrame(tick)
+      }
+      rafRef.current = requestAnimationFrame(tick)
+    } catch {
+      setScanError(t("staffRedeem.scanDenied"))
+      setScanning(false)
+    }
+  }
+
+  useEffect(() => {
+    return () => {
+      if (rafRef.current != null) cancelAnimationFrame(rafRef.current)
+      if (streamRef.current) {
+        streamRef.current.getTracks().forEach((track) => track.stop())
+      }
+    }
+  }, [])
 
   const submit = async () => {
     setError(null)
@@ -94,6 +188,37 @@ export function StaffRedeemPanel() {
                 className="mt-1.5 h-11 w-full border border-ikea-gray-200 px-4 text-sm uppercase outline-none focus:border-ikea-blue"
               />
             </label>
+
+            {scanning ? (
+              <div className="space-y-2">
+                <video
+                  ref={videoRef}
+                  playsInline
+                  muted
+                  autoPlay
+                  className="aspect-square w-full rounded border border-ikea-gray-200 bg-black object-cover"
+                />
+                <button
+                  type="button"
+                  onClick={stopScanning}
+                  className="w-full rounded bg-ikea-gray-200 px-4 py-2 text-sm font-bold hover:bg-ikea-gray-300"
+                >
+                  {t("staffRedeem.stopScan")}
+                </button>
+              </div>
+            ) : (
+              <button
+                type="button"
+                onClick={() => void startScanning()}
+                className="h-11 w-full rounded border border-ikea-blue px-4 text-sm font-bold text-ikea-blue hover:bg-ikea-blue/5"
+              >
+                {t("staffRedeem.scan")}
+              </button>
+            )}
+
+            {scanError ? (
+              <p className="rounded bg-amber-50 px-4 py-3 text-sm text-amber-700">{scanError}</p>
+            ) : null}
 
             {error ? (
               <p className="rounded bg-red-50 px-4 py-3 text-sm text-red-600">{error}</p>
