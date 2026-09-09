@@ -732,19 +732,16 @@ public class ExperienceVoucherService {
 
       byte[] png = renderVoucherPng(pdf);
       String site = siteUrl();
-      StringBuilder html = new StringBuilder();
-      html.append("<html><body style=\"font-family:sans-serif;color:#111;\">");
-      html.append("<p>感谢您选择 BUZUD，以下是您的体验券。</p>");
-      html.append("<p>体验券码：<strong>").append(escapeHtml(code)).append("</strong></p>");
+      String text =
+          "感谢您选择 BUZUD，以下是您的体验券。\n\n"
+              + "体验券码：" + code + "\n"
+              + "官网：" + site + "\n\n"
+              + "请扫描券上的二维码完成预约。";
+      helper.setText(text, false);
       if (png.length > 0) {
-        helper.addInline("voucher-image", new ByteArrayResource(png), "image/png");
-        html.append(
-            "<p><img src=\"cid:voucher-image\" style=\"max-width:600px;width:100%;border:1px solid #e5e7eb;border-radius:8px;\" /></p>");
+        helper.addAttachment(
+            "BUZUD-Experience-Voucher-" + code + ".png", new ByteArrayResource(png));
       }
-      html.append("<p>扫描券上的二维码即可完成预约。</p>");
-      html.append("<p>官网：<a href=\"").append(site).append("\">").append(site).append("</a></p>");
-      html.append("</body></html>");
-      helper.setText(html.toString(), true);
       helper.addAttachment(
           "BUZUD-Experience-Voucher-" + code + ".pdf", new ByteArrayResource(pdf));
       mailSender.send(message);
@@ -774,9 +771,4 @@ public class ExperienceVoucherService {
     }
   }
 
-  private static String escapeHtml(String value) {
-    return value == null
-        ? ""
-        : value.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;");
-  }
 }
