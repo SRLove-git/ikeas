@@ -139,7 +139,8 @@ class BookingServiceTest {
             mock(org.springframework.mail.javamail.JavaMailSender.class),
             "no-reply@example.com",
             mock(com.ikea.server.mapper.VoucherEmailClaimMapper.class),
-            mock(com.ikea.server.service.AdminSettingsService.class));
+            mock(com.ikea.server.service.AdminSettingsService.class),
+            mock(com.ikea.server.service.UserService.class));
 
     realVoucherService.releaseByBookingId("BK-100");
 

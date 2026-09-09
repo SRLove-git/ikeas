@@ -54,6 +54,7 @@ public class ExperienceVoucherService {
   private final String emailFrom;
   private final VoucherEmailClaimMapper voucherEmailClaimMapper;
   private final AdminSettingsService adminSettingsService;
+  private final UserService userService;
 
   public ExperienceVoucherService(
       ExperienceVoucherMapper voucherMapper,
@@ -62,7 +63,8 @@ public class ExperienceVoucherService {
       JavaMailSender mailSender,
       @Value("${ikea.auth.email-from:CHUNG YIP <no-reply@mail.medical-sg.com>}") String emailFrom,
       VoucherEmailClaimMapper voucherEmailClaimMapper,
-      AdminSettingsService adminSettingsService) {
+      AdminSettingsService adminSettingsService,
+      UserService userService) {
     this.voucherMapper = voucherMapper;
     this.voucherPdfService = voucherPdfService;
     this.bookingUrl =
@@ -71,6 +73,7 @@ public class ExperienceVoucherService {
     this.emailFrom = emailFrom;
     this.voucherEmailClaimMapper = voucherEmailClaimMapper;
     this.adminSettingsService = adminSettingsService;
+    this.userService = userService;
   }
 
   public List<ExperienceVoucher> listVouchers(String keyword, Integer status, Integer type) {
@@ -201,6 +204,7 @@ public class ExperienceVoucherService {
             "线下会议密钥领取",
             null,
             "SECRET-" + normalizedSecret);
+    userService.findByEmail(safeEmail).ifPresent(user -> voucher.setUserId(user.getId()));
     voucherMapper.insert(voucher);
 
     VoucherEmailClaim claim = new VoucherEmailClaim();
