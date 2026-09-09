@@ -1,10 +1,9 @@
 import Link from "next/link"
 import { notFound } from "next/navigation"
-import { catalogData } from "@/data/catalog"
 import { findCategoryBySlug } from "@/lib/catalog"
 import { ProductCard } from "@/components/ProductCard"
 import { SiteImage } from "@/components/SiteImage"
-import { catalogPages, findCatalogPageBySlug, productHref } from "@/lib/catalog-pages"
+import { findCatalogPageBySlug, productHref } from "@/lib/catalog-pages"
 import { productSlugsWithDetails } from "@/lib/catalog"
 import { formatPrice } from "@/lib/catalog-format"
 import { ContentBlocks } from "@/components/ContentBlocks"
@@ -13,33 +12,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs"
 import { allProducts } from "@/data/products-index"
 import { getLocale, getServerT } from "@/i18n/server"
 
-export const dynamicParams = false
-
-export function generateStaticParams() {
-  const params: { slug: string }[] = []
-  const seen = new Set<string>()
-  const { catalogCategories } = catalogData()
-  for (const category of catalogCategories) {
-    if (!seen.has(category.slug)) {
-      seen.add(category.slug)
-      params.push({ slug: category.slug })
-    }
-    for (const sub of category.subs) {
-      if (!seen.has(sub.slug)) {
-        seen.add(sub.slug)
-        params.push({ slug: sub.slug })
-      }
-    }
-  }
-  for (const page of catalogPages()) {
-    const slug = page.url.split("/").filter(Boolean).at(-1) ?? ""
-    if (slug && !seen.has(slug)) {
-      seen.add(slug)
-      params.push({ slug })
-    }
-  }
-  return params
-}
+export const dynamic = "force-dynamic"
 
 export default async function CategoryPage({
   params,

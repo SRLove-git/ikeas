@@ -1,6 +1,5 @@
 import { notFound } from "next/navigation"
 import Link from "next/link"
-import { catalogData } from "@/data/catalog"
 import { findProductBySlug, formatPrice } from "@/lib/catalog"
 import { ProductGallery } from "@/components/ProductGallery"
 import { ProductActions } from "@/components/ProductActions"
@@ -13,17 +12,7 @@ import type { CatalogProduct } from "@/data/catalog"
 import { Breadcrumbs } from "@/components/Breadcrumbs"
 import { getLocale, getServerT } from "@/i18n/server"
 
-export const dynamicParams = false
-
-export function generateStaticParams() {
-  const slugs = new Set<string>()
-  const { catalogCategories, channelCategories } = catalogData()
-  for (const category of [...catalogCategories, ...channelCategories]) {
-    for (const product of category.products) slugs.add(product.slug)
-  }
-  for (const product of allProducts()) slugs.add(product.slug)
-  return [...slugs].map((slug) => ({ slug }))
-}
+export const dynamic = "force-dynamic"
 
 export default async function ProductPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params
