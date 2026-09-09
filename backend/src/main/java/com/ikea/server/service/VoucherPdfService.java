@@ -30,15 +30,15 @@ import org.springframework.stereotype.Service;
 public class VoucherPdfService {
 
   private static final String POINTS_TEMPLATE =
-      "/voucher-templates/BUZUD_Points_Card_2SETS_A4.pdf";
+      "/voucher-templates/BUZUD_Points_Card_Poster_A4.pdf";
   private static final String EXPERIENCE_TEMPLATE =
       "/voucher-templates/BUZUD_Experience_Voucher_A4.pdf";
 
-  private static final float POINTS_QR_X = 663.945f;
-  private static final float POINTS_QR_Y = 298.64f;
-  private static final float POINTS_QR_SIZE = 102f;
-  private static final float POINTS_CODE_X = 720.945f;
-  private static final float POINTS_CODE_Y = 240.5f;
+  private static final float POINTS_QR_X = 426f;
+  private static final float POINTS_QR_Y = 618f;
+  private static final float POINTS_QR_SIZE = 124f;
+  private static final float POINTS_CODE_X = 300f;
+  private static final float POINTS_CODE_Y = 285f;
 
   private static final float EXPERIENCE_QR_X = 430f;
   private static final float EXPERIENCE_QR_Y = 635f;
@@ -76,9 +76,8 @@ public class VoucherPdfService {
         templates.add(template);
 
         if (points) {
-          PDPage front = output.importPage(template.getPage(0));
-          PDPage back = output.importPage(template.getPage(1));
-          overlayPointsFront(output, front, voucher.getCode());
+          PDPage page = output.importPage(template.getPage(0));
+          overlayPointsFront(output, page, voucher.getCode());
         } else {
           PDPage page = output.importPage(template.getPage(0));
           overlayExperienceFront(output, page, voucher.getCode(), voucher.getValidUntil());
