@@ -1129,7 +1129,7 @@
       "voucherClaimSecret": "体验券领取密钥",
       "voucherClaimSecretHint": "线下活动发放体验券时使用，用户凭此密钥 + 邮箱领取。每天/每场活动可在这里更换。",
       "voucherClaimLimit": "体验券领取人数上限",
-      "voucherClaimLimitHint": "设置为 0 表示不限人数；达到上限后将无法继续领取。",
+      "voucherClaimLimitHint": "每天最多领取该数量的体验券，设置为 0 表示不限。",
       "notFoundCopy": "404 页面文案",
       "surveyCopy": "问卷页面文案",
       "buttonLabel": "按钮文案",

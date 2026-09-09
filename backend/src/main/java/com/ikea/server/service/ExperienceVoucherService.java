@@ -21,6 +21,7 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
 import java.time.Instant;
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.ZoneOffset;
 import java.time.format.DateTimeFormatter;
@@ -223,13 +224,15 @@ public class ExperienceVoucherService {
 
     int limit = currentClaimLimit();
     if (limit > 0) {
+      LocalDateTime todayStart = LocalDate.now().atStartOfDay();
       Long claimed =
           voucherEmailClaimMapper.selectCount(
               Wrappers.lambdaQuery(VoucherEmailClaim.class)
                   .eq(VoucherEmailClaim::getStatus, 1)
-                  .eq(VoucherEmailClaim::getDeleted, 0));
+                  .eq(VoucherEmailClaim::getDeleted, 0)
+                  .ge(VoucherEmailClaim::getCreatedAt, todayStart));
       if (claimed != null && claimed >= limit) {
-        throw new IllegalArgumentException("体验券已领完，感谢参与");
+        throw new IllegalArgumentException("今日体验券已领完，感谢参与");
       }
     }
 
