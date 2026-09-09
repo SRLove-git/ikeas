@@ -264,7 +264,6 @@ public class ExperienceVoucherService {
         voucherEmailClaimMapper.selectCount(
             Wrappers.lambdaQuery(VoucherEmailClaim.class)
                 .eq(VoucherEmailClaim::getEmail, safeEmail)
-                .eq(VoucherEmailClaim::getSecret, seed)
                 .eq(VoucherEmailClaim::getDeleted, 0));
     if (exists != null && exists > 0) {
       throw new IllegalArgumentException("该邮箱已领取过");
