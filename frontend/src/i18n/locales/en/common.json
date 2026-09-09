@@ -1128,6 +1128,8 @@
       "adminTitle": "Admin title",
       "voucherClaimSecret": "Experience voucher claim secret",
       "voucherClaimSecretHint": "Used for offline events: users enter this secret + email to claim a voucher. Change it per day/event.",
+      "voucherClaimLimit": "Experience voucher claim limit",
+      "voucherClaimLimitHint": "Set 0 for unlimited. Claiming stops once the limit is reached.",
       "notFoundCopy": "404 page copy",
       "surveyCopy": "Survey page copy",
       "buttonLabel": "Button text",

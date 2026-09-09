@@ -20,6 +20,7 @@ interface Settings {
   siteDescription: string;
   adminTitle: string;
   voucherClaimSecret: string;
+  voucherClaimLimit: number;
   siteCopy: {
     notFound: { title: string; body: string; buttonLabel: string };
     survey: { title: string; body: string; buttonLabel: string };
@@ -35,8 +36,19 @@ export default function SettingsPage() {
   useEffect(() => {
     void (async () => {
       try {
-        const data = await adminFetch<Settings>("/api/admin/settings");
-        setSettings(data);
+        const [fileSettings, serverSettings] = await Promise.all([
+          adminFetch<Settings>("/api/admin/settings"),
+          adminFetch<{ voucherClaimSecret?: string; voucherClaimLimit?: number }>(
+            "/api/admin/server/settings",
+          ).catch(() => null),
+        ]);
+        setSettings({
+          ...fileSettings,
+          voucherClaimSecret:
+            serverSettings?.voucherClaimSecret ?? fileSettings.voucherClaimSecret ?? "",
+          voucherClaimLimit:
+            serverSettings?.voucherClaimLimit ?? fileSettings.voucherClaimLimit ?? 0,
+        });
       } catch (e) {
         show("error", (e as Error).message);
       }
@@ -55,6 +67,13 @@ export default function SettingsPage() {
       await adminFetch("/api/admin/settings", {
         method: "PUT",
         body: JSON.stringify(settings),
+      });
+      await adminFetch("/api/admin/server/settings", {
+        method: "PUT",
+        body: JSON.stringify({
+          voucherClaimSecret: settings.voucherClaimSecret ?? "",
+          voucherClaimLimit: settings.voucherClaimLimit ?? 0,
+        }),
       });
       show("success", t("admin.settings.saved"));
     } catch (e) {
@@ -101,6 +120,16 @@ export default function SettingsPage() {
             <TextInput
               value={settings.voucherClaimSecret ?? ""}
               onChange={(e) => update({ voucherClaimSecret: e.target.value })}
+            />
+          </Field>
+          <Field label={t("admin.settings.voucherClaimLimit")} hint={t("admin.settings.voucherClaimLimitHint")}>
+            <TextInput
+              type="number"
+              min={0}
+              value={String(settings.voucherClaimLimit ?? 0)}
+              onChange={(e) =>
+                update({ voucherClaimLimit: Math.max(0, Number(e.target.value) || 0) })
+              }
             />
           </Field>
         </div>

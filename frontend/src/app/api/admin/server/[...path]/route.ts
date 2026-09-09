@@ -96,3 +96,24 @@ export async function PATCH(
   const body = await response.json().catch(() => null);
   return Response.json(body, { status: response.status });
 }
+
+export async function PUT(
+  request: Request,
+  { params }: { params: Promise<{ path: string[] }> },
+) {
+  const guard = await adminGuard();
+  if (guard) return guard;
+  const { path } = await params;
+  const raw = await request.text();
+  const target = `${API_BASE}/api/v1/admin/${path.join("/")}`;
+  const response = await fetch(target, {
+    method: "PUT",
+    headers: {
+      "Content-Type": "application/json",
+      "X-Admin-Key": adminKey(),
+    },
+    body: raw,
+  });
+  const body = await response.json().catch(() => null);
+  return Response.json(body, { status: response.status });
+}

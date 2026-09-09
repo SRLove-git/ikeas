@@ -200,6 +200,18 @@ public class ExperienceVoucherService {
       throw new IllegalArgumentException("核销码不正确或已过期");
     }
 
+    int limit = currentClaimLimit();
+    if (limit > 0) {
+      Long claimed =
+          voucherEmailClaimMapper.selectCount(
+              Wrappers.lambdaQuery(VoucherEmailClaim.class)
+                  .eq(VoucherEmailClaim::getStatus, 1)
+                  .eq(VoucherEmailClaim::getDeleted, 0));
+      if (claimed != null && claimed >= limit) {
+        throw new IllegalArgumentException("体验券已领完，感谢参与");
+      }
+    }
+
     Long exists =
         voucherEmailClaimMapper.selectCount(
             Wrappers.lambdaQuery(VoucherEmailClaim.class)
@@ -666,6 +678,18 @@ public class ExperienceVoucherService {
     }
     com.fasterxml.jackson.databind.JsonNode secret = settings.get("voucherClaimSecret");
     return secret == null || secret.isNull() ? "" : secret.asText("");
+  }
+
+  private int currentClaimLimit() {
+    com.fasterxml.jackson.databind.JsonNode settings = adminSettingsService.get();
+    if (settings == null) {
+      return 0;
+    }
+    com.fasterxml.jackson.databind.JsonNode limit = settings.get("voucherClaimLimit");
+    if (limit == null || limit.isNull() || !limit.isNumber()) {
+      return 0;
+    }
+    return limit.asInt(0);
   }
 
   private long currentClaimCounter() {
