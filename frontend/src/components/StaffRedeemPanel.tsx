@@ -53,7 +53,8 @@ export function StaffRedeemPanel() {
   const [bookings, setBookings] = useState<BookingItem[]>([])
   const [loadingList, setLoadingList] = useState(false)
   const [listError, setListError] = useState<string | null>(null)
-  const [claimSecret, setClaimSecret] = useState("")
+  const [claimCode, setClaimCode] = useState("")
+  const [claimRemaining, setClaimRemaining] = useState(30)
   const [newSecret, setNewSecret] = useState("")
   const [savingSecret, setSavingSecret] = useState(false)
   const [secretNotice, setSecretNotice] = useState<string | null>(null)
@@ -141,16 +142,33 @@ export function StaffRedeemPanel() {
   }
 
   useEffect(() => {
-    void (async () => {
+    const loadCode = async () => {
       try {
-        const response = await fetch(`${API_BASE}/api/v1/staff/claim-secret`)
-        const body = (await response.json().catch(() => null)) as { secret?: string } | null
-        if (response.ok && body) setClaimSecret(body.secret ?? "")
+        const response = await fetch(`${API_BASE}/api/v1/staff/claim-code`)
+        const body = (await response.json().catch(() => null)) as {
+          code?: string
+          remainingSeconds?: number
+        } | null
+        if (response.ok && body?.code) {
+          setClaimCode(body.code)
+          setClaimRemaining(body.remainingSeconds ?? 30)
+        }
       } catch {
         // 获取失败时静默，不影响核销。
       }
-    })()
+    }
+    void loadCode()
+    const timer = window.setInterval(() => {
+      setClaimRemaining((prev) => {
+        if (prev <= 1) {
+          void loadCode()
+          return 30
+        }
+        return prev - 1
+      })
+    }, 1000)
     return () => {
+      window.clearInterval(timer)
       if (rafRef.current != null) cancelAnimationFrame(rafRef.current)
       if (streamRef.current) {
         streamRef.current.getTracks().forEach((track) => track.stop())
@@ -193,9 +211,17 @@ export function StaffRedeemPanel() {
       if (!response.ok) {
         throw new Error(body?.message ?? t("staffRedeem.failed"))
       }
-      setClaimSecret(body?.secret ?? newSecret.trim())
       setNewSecret("")
       setSecretNotice(t("staffRedeem.secretUpdated"))
+      const codeResponse = await fetch(`${API_BASE}/api/v1/staff/claim-code`)
+      const codeBody = (await codeResponse.json().catch(() => null)) as {
+        code?: string
+        remainingSeconds?: number
+      } | null
+      if (codeResponse.ok && codeBody?.code) {
+        setClaimCode(codeBody.code)
+        setClaimRemaining(codeBody.remainingSeconds ?? 30)
+      }
     } catch (e) {
       setSecretNotice((e as Error).message || t("staffRedeem.failed"))
     } finally {
@@ -309,11 +335,16 @@ export function StaffRedeemPanel() {
           <div className="mt-5 border-t border-ikea-gray-200 pt-5">
             <h3 className="text-sm font-bold">{t("staffRedeem.claimSecretTitle")}</h3>
             <div className="mt-3 flex flex-col gap-3 sm:flex-row sm:items-end">
-              <div className="flex-1">
-                <p className="text-xs text-ikea-muted">{t("staffRedeem.currentSecret")}</p>
-                <p className="mt-1 font-mono text-lg font-bold text-ikea-blue">
-                  {claimSecret || "—"}
-                </p>
+              <div className="min-w-[200px] flex-1">
+                <p className="text-xs text-ikea-muted">{t("claimCode.codeLabel")}</p>
+                <div className="mt-1 flex items-baseline gap-2">
+                  <p className="font-mono text-2xl font-bold tracking-wider text-ikea-blue">
+                    {claimCode || "------"}
+                  </p>
+                  <span className="text-sm font-bold tabular-nums text-ikea-muted">
+                    {claimRemaining}s
+                  </span>
+                </div>
               </div>
               <input
                 value={newSecret}
