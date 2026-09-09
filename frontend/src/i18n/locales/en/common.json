@@ -1387,6 +1387,11 @@
     "filterByType": "Filter by type",
     "allTypes": "All types"
   },
+  "megaMenu": {
+    "eyebrow": "Categories",
+    "seeAll": "View all categories",
+    "productCount": "{{count}} products"
+  },
   "ranking": {
     "bestsellers": "Bestsellers",
     "scrollLeft": "Scroll left",

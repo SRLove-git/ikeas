@@ -1387,6 +1387,11 @@
     "filterByType": "按类型筛选",
     "allTypes": "全部类型"
   },
+  "megaMenu": {
+    "eyebrow": "产品分类",
+    "seeAll": "查看全部分类",
+    "productCount": "{{count}} 款产品"
+  },
   "ranking": {
     "bestsellers": "热销榜",
     "scrollLeft": "向左滚动",

@@ -1,6 +1,7 @@
 "use client"
 
 import Link from "next/link"
+import { useTranslation } from "react-i18next"
 import type { Category } from "@/data/categories"
 
 export interface CategoryGroup {
@@ -13,6 +14,7 @@ export function toPath(url: string): string {
 }
 
 export function MegaMenu({ group }: { group: CategoryGroup }) {
+  const { t } = useTranslation()
   return (
     <div className="header_container_bottom">
       <div className="header_container_bottom_content">
@@ -20,11 +22,11 @@ export function MegaMenu({ group }: { group: CategoryGroup }) {
           <div className="mega-menu-directory">
             <div className="mega-menu-directory__header">
               <div>
-                <p className="mega-menu-directory__eyebrow">产品分类</p>
+                <p className="mega-menu-directory__eyebrow">{t("megaMenu.eyebrow")}</p>
                 <h2 className="mega-menu-directory__title">{group.name}</h2>
               </div>
               <Link href="/zh/all-products/" className="mega-menu-directory__see-all">
-                查看全部分类
+                {t("megaMenu.seeAll")}
               </Link>
             </div>
             <div className="mega-menu-directory__grid">
@@ -55,7 +57,9 @@ export function MegaMenu({ group }: { group: CategoryGroup }) {
                     </span>
                     <span className="mega-menu-directory__content">
                       <span className="mega-menu-directory__name">{category.name}</span>
-                      <span className="mega-menu-directory__meta">{productCount} 款产品</span>
+                      <span className="mega-menu-directory__meta">
+                        {t("megaMenu.productCount", { count: productCount })}
+                      </span>
                     </span>
                     <span className="mega-menu-directory__arrow" aria-hidden="true">
                       →
