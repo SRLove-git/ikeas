@@ -102,6 +102,17 @@ export function CouponClaimLanding() {
           </div>
         ) : (
           <div className="mx-auto mt-8 max-w-md">
+            {!couponCode ? (
+              <div className="text-left">
+                <label className="block text-sm font-bold">{t("couponClaim.couponCode")}</label>
+                <input
+                  value={couponCode}
+                  onChange={(event) => setCouponCode(event.target.value.trim().toUpperCase())}
+                  placeholder={t("couponClaim.codePlaceholder")}
+                  className="mt-2 h-11 w-full rounded border border-ikea-gray-200 px-3 font-mono text-sm uppercase outline-none focus:border-ikea-blue"
+                />
+              </div>
+            ) : null}
             <div className="mt-4 text-left">
               <label className="block text-sm font-bold">{t("couponClaim.emailLabel")}</label>
               <input
