@@ -5,8 +5,6 @@ import { useTranslation } from "react-i18next"
 import { API_BASE } from "@/lib/api"
 import jsQR from "jsqr"
 
-const SECRET_STORAGE_KEY = "buzud.staff.redeemSecret"
-
 interface BookingItem {
   id: string
   bookingNo: string
@@ -46,10 +44,6 @@ function formatDate(value: string): string {
 
 export function StaffRedeemPanel() {
   const { t } = useTranslation()
-  const [secret, setSecret] = useState(() => {
-    if (typeof window === "undefined") return ""
-    return window.localStorage.getItem(SECRET_STORAGE_KEY) ?? ""
-  })
   const [code, setCode] = useState("")
   const [submitting, setSubmitting] = useState(false)
   const [redeemedNo, setRedeemedNo] = useState<string | null>(null)
@@ -143,12 +137,6 @@ export function StaffRedeemPanel() {
   }
 
   useEffect(() => {
-    const params = new URLSearchParams(window.location.search)
-    const key = params.get("key")?.trim()
-    if (key) {
-      setSecret(key)
-      window.localStorage.setItem(SECRET_STORAGE_KEY, key)
-    }
     return () => {
       if (rafRef.current != null) cancelAnimationFrame(rafRef.current)
       if (streamRef.current) {
@@ -158,16 +146,10 @@ export function StaffRedeemPanel() {
   }, [])
 
   const loadBookings = async () => {
-    if (!secret.trim()) {
-      setListError(t("staffRedeem.missingSecret"))
-      return
-    }
     setLoadingList(true)
     setListError(null)
     try {
-      const response = await fetch(
-        `${API_BASE}/api/v1/staff/bookings?secret=${encodeURIComponent(secret.trim())}`,
-      )
+      const response = await fetch(`${API_BASE}/api/v1/staff/bookings`)
       const body = (await response.json().catch(() => null)) as
         (BookingItem[] & { message?: string }) | null
       if (!response.ok) {
@@ -184,10 +166,6 @@ export function StaffRedeemPanel() {
   const doRedeem = async (value: string) => {
     setError(null)
     setRedeemedNo(null)
-    if (!secret.trim()) {
-      setError(t("staffRedeem.missingSecret"))
-      return
-    }
     if (!value.trim()) {
       setError(t("staffRedeem.missingCode"))
       return
@@ -197,7 +175,7 @@ export function StaffRedeemPanel() {
       const response = await fetch(`${API_BASE}/api/v1/staff/redeem`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ secret: secret.trim(), code: value.trim() }),
+        body: JSON.stringify({ code: value.trim() }),
       })
       const body = (await response.json().catch(() => null)) as
         (BookingItem & { message?: string }) | null
@@ -206,7 +184,6 @@ export function StaffRedeemPanel() {
       }
       if (body) {
         setRedeemedNo(body.bookingNo)
-        window.localStorage.setItem(SECRET_STORAGE_KEY, secret.trim())
         setCode("")
         await loadBookings()
       }

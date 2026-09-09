@@ -21,5 +21,5 @@ public final class BookingDtos {
 
   public record AdminUpdateBookingStatusRequest(Integer status) {}
 
-  public record StaffRedeemRequest(String secret, String code) {}
+  public record StaffRedeemRequest(String code) {}
 }

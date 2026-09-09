@@ -1110,8 +1110,6 @@
       "adminTitle": "Admin title",
       "voucherClaimSecret": "Experience voucher claim secret",
       "voucherClaimSecretHint": "Used for offline events: users enter this secret + email to claim a voucher. Change it per day/event.",
-      "redeemSecret": "Booking redeem secret",
-      "redeemSecretHint": "Used by store staff on the standalone redeem page.",
       "notFoundCopy": "404 page copy",
       "surveyCopy": "Survey page copy",
       "buttonLabel": "Button text",

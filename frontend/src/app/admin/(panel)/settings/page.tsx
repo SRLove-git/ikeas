@@ -20,7 +20,6 @@ interface Settings {
   siteDescription: string;
   adminTitle: string;
   voucherClaimSecret: string;
-  redeemSecret: string;
   siteCopy: {
     notFound: { title: string; body: string; buttonLabel: string };
     survey: { title: string; body: string; buttonLabel: string };
@@ -102,12 +101,6 @@ export default function SettingsPage() {
             <TextInput
               value={settings.voucherClaimSecret ?? ""}
               onChange={(e) => update({ voucherClaimSecret: e.target.value })}
-            />
-          </Field>
-          <Field label={t("admin.settings.redeemSecret")} hint={t("admin.settings.redeemSecretHint")}>
-            <TextInput
-              value={settings.redeemSecret ?? ""}
-              onChange={(e) => update({ redeemSecret: e.target.value })}
             />
           </Field>
         </div>
