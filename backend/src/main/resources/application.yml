@@ -68,6 +68,8 @@ ikea:
     access-token-ttl: ${IKEA_ACCESS_TOKEN_TTL:900}
     # Refresh token lifetime in seconds (default 30 days).
     refresh-token-ttl: ${IKEA_REFRESH_TOKEN_TTL:2592000}
+    # 登录/注册开关：线下活动阶段可关闭。
+    login-enabled: ${IKEA_AUTH_LOGIN_ENABLED:true}
     # Sender address for registration verification emails.
     email-from: ${IKEA_MAIL_FROM:CHUNG YIP <no-reply@mail.medical-sg.com>}
   admin:

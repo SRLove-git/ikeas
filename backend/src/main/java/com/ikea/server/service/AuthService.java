@@ -34,6 +34,7 @@ public class AuthService {
   private final PasswordEncoder passwordEncoder;
   private final JwtEncoder jwtEncoder;
   private final long accessTokenTtlSeconds;
+  private final boolean loginEnabled;
 
   public AuthService(
       UserService userService,
@@ -43,7 +44,8 @@ public class AuthService {
       MarketingService marketingService,
       PasswordEncoder passwordEncoder,
       JwtEncoder jwtEncoder,
-      @Value("${ikea.auth.access-token-ttl:900}") long accessTokenTtlSeconds) {
+      @Value("${ikea.auth.access-token-ttl:900}") long accessTokenTtlSeconds,
+      @Value("${ikea.auth.login-enabled:true}") boolean loginEnabled) {
     this.userService = userService;
     this.tokenService = tokenService;
     this.emailCodeService = emailCodeService;
@@ -52,6 +54,7 @@ public class AuthService {
     this.passwordEncoder = passwordEncoder;
     this.jwtEncoder = jwtEncoder;
     this.accessTokenTtlSeconds = accessTokenTtlSeconds;
+    this.loginEnabled = loginEnabled;
   }
 
   public String sendEmailCode(String email) {
@@ -60,6 +63,7 @@ public class AuthService {
 
   @Transactional
   public AuthResponse register(RegisterRequest request) {
+    ensureLoginEnabled();
     String account = UserService.normalizeAccount(request.account());
     if (account == null) {
       throw new IllegalArgumentException("账号不能为空");
@@ -93,6 +97,7 @@ public class AuthService {
   }
 
   public AuthResponse login(LoginRequest request) {
+    ensureLoginEnabled();
     String account = UserService.normalizeAccount(request.account());
     if (account == null) {
       throw new AuthException("账号不能为空");
@@ -182,6 +187,12 @@ public class AuthService {
   private static void ensureActive(AppUser user) {
     if (!Integer.valueOf(1).equals(user.getStatus())) {
       throw new AuthException("账号已停用");
+    }
+  }
+
+  private void ensureLoginEnabled() {
+    if (!loginEnabled) {
+      throw new AuthException("登录功能暂未开放");
     }
   }
 

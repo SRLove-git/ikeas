@@ -9,6 +9,7 @@ services:
       args:
         NEXT_PUBLIC_API_BASE: ${NEXT_PUBLIC_API_BASE:-https://medical-sg.com}
         NEXT_PUBLIC_BASE_PATH: ${NEXT_PUBLIC_BASE_PATH:-}
+        NEXT_PUBLIC_AUTH_LOGIN_ENABLED: ${NEXT_PUBLIC_AUTH_LOGIN_ENABLED:-true}
     image: buzud-frontend:latest
     container_name: buzud-frontend
     restart: unless-stopped
@@ -19,6 +20,7 @@ services:
       - NEXT_TELEMETRY_DISABLED=1
       - NEXT_PUBLIC_API_BASE=${NEXT_PUBLIC_API_BASE:-https://medical-sg.com}
       - NEXT_PUBLIC_BASE_PATH=${NEXT_PUBLIC_BASE_PATH:-}
+      - NEXT_PUBLIC_AUTH_LOGIN_ENABLED=${NEXT_PUBLIC_AUTH_LOGIN_ENABLED:-true}
     env_file:
       - path: ../.env.local
         required: false
@@ -87,6 +89,7 @@ services:
       - DB_PASSWORD=${DB_PASSWORD:-buzud}
       - IKEA_JWT_SECRET=${IKEA_JWT_SECRET:-change-me-to-a-long-random-secret-at-least-32-bytes}
       - IKEA_MAIL_PASSWORD=${IKEA_MAIL_PASSWORD:-}
+      - IKEA_AUTH_LOGIN_ENABLED=${IKEA_AUTH_LOGIN_ENABLED:-true}
       - BUZUD_OMS_ENABLED=${BUZUD_OMS_ENABLED:-false}
       - BUZUD_OMS_GATEWAY_URL=${BUZUD_OMS_GATEWAY_URL:-http://localhost:8080}
       - BUZUD_OMS_APP_ID=${BUZUD_OMS_APP_ID:-}

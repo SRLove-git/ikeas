@@ -176,6 +176,9 @@
     "intro": "Book a health check-up or product experience at our Singapore experience stores. Please enter the code printed on your physical voucher."
   },
   "login": {
+    "closedTitle": "Login temporarily unavailable",
+    "closedBody": "Login and registration are temporarily unavailable. You can still browse products and book an experience online.",
+    "backHome": "Back to home",
     "tabLogin": "Log in",
     "tabRegister": "Sign up",
     "tabForgotPassword": "Forgot password",

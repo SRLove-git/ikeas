@@ -10,6 +10,7 @@
 ARG NODE_VERSION=24.14.1-slim
 ARG NEXT_PUBLIC_API_BASE=http://47.84.25.19:8081
 ARG NEXT_PUBLIC_BASE_PATH=
+ARG NEXT_PUBLIC_AUTH_LOGIN_ENABLED=true
 
 FROM node:${NODE_VERSION} AS dependencies
 
@@ -41,6 +42,7 @@ FROM node:${NODE_VERSION} AS builder
 
 ARG NEXT_PUBLIC_API_BASE
 ARG NEXT_PUBLIC_BASE_PATH
+ARG NEXT_PUBLIC_AUTH_LOGIN_ENABLED
 
 # Set working directory
 WORKDIR /app
@@ -54,6 +56,7 @@ COPY frontend/ .
 ENV NODE_ENV=production
 ENV NEXT_PUBLIC_API_BASE=$NEXT_PUBLIC_API_BASE
 ENV NEXT_PUBLIC_BASE_PATH=$NEXT_PUBLIC_BASE_PATH
+ENV NEXT_PUBLIC_AUTH_LOGIN_ENABLED=$NEXT_PUBLIC_AUTH_LOGIN_ENABLED
 
 # Next.js collects completely anonymous telemetry data about general usage.
 # Learn more here: https://nextjs.org/telemetry
@@ -84,6 +87,7 @@ FROM node:${NODE_VERSION} AS runner
 
 ARG NEXT_PUBLIC_API_BASE
 ARG NEXT_PUBLIC_BASE_PATH
+ARG NEXT_PUBLIC_AUTH_LOGIN_ENABLED
 
 # Set working directory
 WORKDIR /app
@@ -94,6 +98,7 @@ ENV PORT=3000
 ENV HOSTNAME="0.0.0.0"
 ENV NEXT_PUBLIC_API_BASE=$NEXT_PUBLIC_API_BASE
 ENV NEXT_PUBLIC_BASE_PATH=$NEXT_PUBLIC_BASE_PATH
+ENV NEXT_PUBLIC_AUTH_LOGIN_ENABLED=$NEXT_PUBLIC_AUTH_LOGIN_ENABLED
 
 # Next.js collects completely anonymous telemetry data about general usage.
 # Learn more here: https://nextjs.org/telemetry

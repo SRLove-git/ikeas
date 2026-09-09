@@ -15,6 +15,7 @@ const SG_PHONE = /^[89]\d{7}$/
 
 export default function LoginPage() {
   const { t } = useTranslation()
+  const loginEnabled = process.env.NEXT_PUBLIC_AUTH_LOGIN_ENABLED !== "false"
   const modes: [AuthMode, string][] = [
     ["login", t("login.tabLogin")],
     ["register", t("login.tabRegister")],
@@ -38,6 +39,23 @@ export default function LoginPage() {
   const router = useRouter()
 
   const recipientEmail = EMAIL.test(account.trim()) ? account.trim() : verificationEmail.trim()
+
+  if (!loginEnabled) {
+    return (
+      <main className="font-ikea flex min-h-screen items-center justify-center bg-white px-5 text-ikea-black">
+        <div className="w-full max-w-md text-center">
+          <h1 className="text-2xl font-bold leading-9">{t("login.closedTitle")}</h1>
+          <p className="mt-3 text-sm leading-6 text-ikea-muted">{t("login.closedBody")}</p>
+          <Link
+            href="/"
+            className="mt-8 inline-flex h-11 items-center justify-center rounded bg-ikea-blue px-8 text-sm font-bold text-white"
+          >
+            {t("login.backHome")}
+          </Link>
+        </div>
+      </main>
+    )
+  }
 
   useEffect(() => {
     if (countdown <= 0) return

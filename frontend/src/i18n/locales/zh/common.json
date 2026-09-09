@@ -176,6 +176,9 @@
     "intro": "预约新加坡体验门店的体检项目与产品体验服务，请填写实体体检券上的券码。"
   },
   "login": {
+    "closedTitle": "登录功能暂未开放",
+    "closedBody": "登录与注册功能暂未开放，敬请期待。您仍可浏览商品并在线预约体验。",
+    "backHome": "返回首页",
     "tabLogin": "登录",
     "tabRegister": "注册",
     "tabForgotPassword": "忘记密码",
