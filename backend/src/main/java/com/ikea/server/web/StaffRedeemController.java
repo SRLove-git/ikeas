@@ -59,7 +59,7 @@ public class StaffRedeemController {
     return Map.of(
         "code", experienceVoucherService.currentClaimCode(),
         "remainingSeconds", experienceVoucherService.claimCodeRemainingSeconds(),
-        "totalSeconds", 39);
+        "totalSeconds", 30);
   }
 
   @PostMapping("/claim-secret")
