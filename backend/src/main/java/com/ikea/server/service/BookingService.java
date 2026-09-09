@@ -145,6 +145,39 @@ public class BookingService {
     }
   }
 
+  /** 工作人员核销：按券码或预约编号找到预约并标记为已完成。 */
+  @Transactional
+  public Booking redeemByCode(String code) {
+    String normalized = code == null ? "" : code.trim().toUpperCase();
+    if (normalized.isBlank()) {
+      throw new IllegalArgumentException("请输入券码或预约编号");
+    }
+    Booking booking =
+        bookingMapper.selectOne(
+            Wrappers.lambdaQuery(Booking.class)
+                .eq(Booking::getDeleted, 0)
+                .and(
+                    q ->
+                        q.eq(Booking::getVoucherCode, normalized)
+                            .or()
+                            .like(Booking::getVoucherCodes, normalized)
+                            .or()
+                            .eq(Booking::getBookingNo, normalized))
+                .last("LIMIT 1"));
+    if (booking == null) {
+      throw new IllegalArgumentException("未找到该券码对应的预约");
+    }
+    if (booking.getStatus() != null && booking.getStatus() == 2) {
+      throw new IllegalArgumentException("该预约已核销");
+    }
+    if (booking.getStatus() != null && booking.getStatus() == 3) {
+      throw new IllegalArgumentException("该预约已取消");
+    }
+    booking.setStatus(2);
+    bookingMapper.updateById(booking);
+    return booking;
+  }
+
   @Transactional
   public void deleteBooking(Long id) {
     Booking booking = bookingMapper.selectById(id);

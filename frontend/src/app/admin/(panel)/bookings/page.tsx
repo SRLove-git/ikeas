@@ -57,6 +57,9 @@ export default function BookingsPage() {
   const [error, setError] = useState<string | null>(null)
   const [query, setQuery] = useState("")
   const [statusFilter, setStatusFilter] = useState("")
+  const [redeemCode, setRedeemCode] = useState("")
+  const [redeeming, setRedeeming] = useState(false)
+  const [redeemNotice, setRedeemNotice] = useState<string | null>(null)
 
   const load = async () => {
     try {
@@ -114,11 +117,56 @@ export default function BookingsPage() {
     }
   }
 
+  const redeem = async () => {
+    if (!redeemCode.trim()) {
+      setRedeemNotice(t("admin.bookings.redeemEmpty"))
+      return
+    }
+    setRedeeming(true)
+    setRedeemNotice(null)
+    setError(null)
+    try {
+      const booking = await adminFetch<Booking>("/api/admin/server/bookings/redeem", {
+        method: "POST",
+        body: JSON.stringify({ code: redeemCode.trim() }),
+      })
+      setRedeemNotice(t("admin.bookings.redeemSuccess", { no: booking.bookingNo }))
+      setRedeemCode("")
+      await load()
+    } catch (e) {
+      setRedeemNotice((e as Error).message)
+    } finally {
+      setRedeeming(false)
+    }
+  }
+
   return (
     <div>
       <PageHeader title={t("admin.bookings.title")} description={t("admin.bookings.desc")} />
 
       {error ? <Notice kind="error">{error}</Notice> : null}
+
+      <section className="mt-6 rounded-lg border border-ikea-blue/20 bg-ikea-blue/5 p-5">
+        <h2 className="text-base font-bold">{t("admin.bookings.redeemTitle")}</h2>
+        <p className="mt-1 text-xs leading-5 text-ikea-muted">{t("admin.bookings.redeemHint")}</p>
+        <div className="mt-4 flex flex-col gap-2 sm:flex-row">
+          <input
+            value={redeemCode}
+            onChange={(event) => setRedeemCode(event.target.value)}
+            onKeyDown={(event) => {
+              if (event.key === "Enter" && !redeeming) void redeem()
+            }}
+            placeholder={t("admin.bookings.redeemPlaceholder")}
+            className="h-10 flex-1 rounded-md border border-ikea-gray-200 bg-white px-3 text-sm outline-none focus:border-ikea-blue"
+          />
+          <Button onClick={() => void redeem()} disabled={redeeming}>
+            {redeeming ? t("admin.bookings.redeeming") : t("admin.bookings.redeem")}
+          </Button>
+        </div>
+        {redeemNotice ? (
+          <p className="mt-3 text-sm text-ikea-blue">{redeemNotice}</p>
+        ) : null}
+      </section>
 
       <section className="mt-6 overflow-x-auto rounded-lg border border-ikea-gray-200 bg-white">
         <div className="border-b border-ikea-gray-200 px-5 py-4">
