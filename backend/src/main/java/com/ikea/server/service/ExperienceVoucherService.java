@@ -13,7 +13,11 @@ import com.ikea.server.mapper.ExperienceVoucherMapper;
 import com.ikea.server.mapper.VoucherEmailClaimMapper;
 import jakarta.mail.internet.MimeMessage;
 import java.math.BigDecimal;
+import java.nio.charset.StandardCharsets;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
+import java.time.Instant;
 import java.time.LocalDateTime;
 import java.time.ZoneOffset;
 import java.time.format.DateTimeFormatter;
@@ -39,6 +43,9 @@ public class ExperienceVoucherService {
   public static final int STATUS_USED = 1;
   public static final int STATUS_DISABLED = 2;
   public static final int STATUS_INVALID = 3;
+
+  private static final int CLAIM_CODE_TTL_SECONDS = 39;
+  private static final int CLAIM_CODE_LENGTH = 6;
 
   private static final BigDecimal POINTS_ISSUE_THRESHOLD = new BigDecimal("60.00");
   private static final DateTimeFormatter BATCH_TIME = DateTimeFormatter.ofPattern("yyyyMMdd-HHmmss");
@@ -178,39 +185,39 @@ public class ExperienceVoucherService {
   @Transactional
   public ExperienceVoucher claimBySecret(String email, String secret) {
     String safeEmail = normalizeEmail(email);
-    String configuredSecret = currentClaimSecret();
-    if (configuredSecret == null || configuredSecret.isBlank()) {
-      throw new IllegalArgumentException("领取密钥尚未配置");
+    String seed = currentClaimSecret();
+    if (seed == null || seed.isBlank()) {
+      throw new IllegalArgumentException("核销码尚未配置");
     }
-    String normalizedSecret = secret == null ? "" : secret.trim();
-    if (normalizedSecret.isEmpty() || !configuredSecret.equals(normalizedSecret)) {
-      throw new IllegalArgumentException("密钥不正确");
+    String normalizedSecret = secret == null ? "" : secret.trim().toUpperCase();
+    if (!isValidDynamicCode(seed, normalizedSecret)) {
+      throw new IllegalArgumentException("核销码不正确或已过期");
     }
 
     Long exists =
         voucherEmailClaimMapper.selectCount(
             Wrappers.lambdaQuery(VoucherEmailClaim.class)
                 .eq(VoucherEmailClaim::getEmail, safeEmail)
-                .eq(VoucherEmailClaim::getSecret, normalizedSecret)
+                .eq(VoucherEmailClaim::getSecret, seed)
                 .eq(VoucherEmailClaim::getDeleted, 0));
     if (exists != null && exists > 0) {
-      throw new IllegalArgumentException("该邮箱已用此密钥领取过");
+      throw new IllegalArgumentException("该邮箱已领取过");
     }
 
     ExperienceVoucher voucher =
         newVoucher(
             TYPE_EXPERIENCE,
             newUniqueCode(TYPE_EXPERIENCE),
-            "线下会议密钥领取",
+            "线下会议核销码领取",
             null,
-            "SECRET-" + normalizedSecret);
+            "SECRET-" + seed);
     userService.findByEmail(safeEmail).ifPresent(user -> voucher.setUserId(user.getId()));
     voucherMapper.insert(voucher);
 
     VoucherEmailClaim claim = new VoucherEmailClaim();
     claim.setEmail(safeEmail);
     claim.setVoucherId(voucher.getId());
-    claim.setSecret(normalizedSecret);
+    claim.setSecret(seed);
     claim.setStatus(1);
     voucherEmailClaimMapper.insert(claim);
 
@@ -653,6 +660,44 @@ public class ExperienceVoucherService {
     }
     com.fasterxml.jackson.databind.JsonNode secret = settings.get("voucherClaimSecret");
     return secret == null || secret.isNull() ? "" : secret.asText("");
+  }
+
+  private long currentClaimCounter() {
+    return Instant.now().getEpochSecond() / CLAIM_CODE_TTL_SECONDS;
+  }
+
+  private String dynamicClaimCode(String seed, long counter) {
+    try {
+      MessageDigest md = MessageDigest.getInstance("SHA-256");
+      byte[] hash = md.digest((seed + ":" + counter).getBytes(StandardCharsets.UTF_8));
+      StringBuilder value = new StringBuilder(CLAIM_CODE_LENGTH);
+      for (int i = 0; i < CLAIM_CODE_LENGTH; i++) {
+        int b = hash[i] & 0xFF;
+        value.append(CODE_ALPHABET.charAt(b % CODE_ALPHABET.length()));
+      }
+      return value.toString();
+    } catch (NoSuchAlgorithmException ex) {
+      throw new IllegalStateException("生成动态核销码失败", ex);
+    }
+  }
+
+  private boolean isValidDynamicCode(String seed, String code) {
+    if (code == null || code.isBlank()) {
+      return false;
+    }
+    long counter = currentClaimCounter();
+    return dynamicClaimCode(seed, counter).equals(code)
+        || dynamicClaimCode(seed, counter - 1).equals(code);
+  }
+
+  public String currentClaimCode() {
+    String seed = currentClaimSecret();
+    return seed.isBlank() ? "" : dynamicClaimCode(seed, currentClaimCounter());
+  }
+
+  public int claimCodeRemainingSeconds() {
+    long now = Instant.now().getEpochSecond();
+    return (int) (CLAIM_CODE_TTL_SECONDS - (now % CLAIM_CODE_TTL_SECONDS));
   }
 
   private int normalizeType(Integer type) {

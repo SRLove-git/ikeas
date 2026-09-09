@@ -7,6 +7,7 @@ import com.ikea.server.dto.booking.BookingDtos.StaffRedeemRequest;
 import com.ikea.server.entity.Booking;
 import com.ikea.server.service.AdminSettingsService;
 import com.ikea.server.service.BookingService;
+import com.ikea.server.service.ExperienceVoucherService;
 import java.util.List;
 import java.util.Map;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -23,14 +24,17 @@ public class StaffRedeemController {
   private final BookingService bookingService;
   private final AdminSettingsService adminSettingsService;
   private final ObjectMapper mapper;
+  private final ExperienceVoucherService experienceVoucherService;
 
   public StaffRedeemController(
       BookingService bookingService,
       AdminSettingsService adminSettingsService,
-      ObjectMapper mapper) {
+      ObjectMapper mapper,
+      ExperienceVoucherService experienceVoucherService) {
     this.bookingService = bookingService;
     this.adminSettingsService = adminSettingsService;
     this.mapper = mapper;
+    this.experienceVoucherService = experienceVoucherService;
   }
 
   @PostMapping("/redeem")
@@ -48,6 +52,14 @@ public class StaffRedeemController {
     JsonNode settings = adminSettingsService.get();
     JsonNode secret = settings == null ? null : settings.get("voucherClaimSecret");
     return Map.of("secret", secret == null || secret.isNull() ? "" : secret.asText(""));
+  }
+
+  @GetMapping("/claim-code")
+  public Map<String, Object> claimCode() {
+    return Map.of(
+        "code", experienceVoucherService.currentClaimCode(),
+        "remainingSeconds", experienceVoucherService.claimCodeRemainingSeconds(),
+        "totalSeconds", 39);
   }
 
   @PostMapping("/claim-secret")

@@ -475,6 +475,13 @@
     "secretUpdated": "密钥已更新",
     "failed": "核销失败，请稍后重试"
   },
+  "claimCode": {
+    "title": "核销码",
+    "hint": "核销码每 39 秒自动刷新，请及时使用",
+    "seconds": "秒",
+    "codeLabel": "当前核销码",
+    "loading": "加载中…"
+  },
   "cartPage": {
     "entering": "正在进入购物袋…",
     "breadcrumb": "购物袋",

@@ -475,6 +475,13 @@
     "secretUpdated": "Secret updated",
     "failed": "Failed to redeem. Please try again later."
   },
+  "claimCode": {
+    "title": "Redemption code",
+    "hint": "The redemption code refreshes every 39 seconds. Use it promptly.",
+    "seconds": "sec",
+    "codeLabel": "Current redemption code",
+    "loading": "Loading…"
+  },
   "cartPage": {
     "entering": "Taking you to your shopping bag…",
     "breadcrumb": "Shopping bag",
