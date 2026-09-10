@@ -640,7 +640,7 @@
     "privacyPolicy": "查看隐私政策"
   },
   "bookingForm": {
-    "dailyLimit": "一天 {{limit}} 个名额",
+    "dailyLimit": "今日 {{limit}} 个名额",
     "remainingQuota": "剩余 {{count}} 个",
     "nameLabel": "姓名",
     "namePlaceholder": "请输入姓名",
@@ -669,6 +669,8 @@
     "preferredDateLabel": "预约日期",
     "preferredDatePlaceholder": "YYYY-MM-DD",
     "invalidDate": "请输入 YYYY-MM-DD 格式的日期",
+    "weekendUnavailable": "周六、周日不可预约，请选择周一至周五",
+    "weekdayHint": "仅周一至周五可预约",
     "timeSlotLabel": "预约时段",
     "timeSlotPlaceholder": "请选择时段",
     "slotMorning": "上午（10:00-12:00）",

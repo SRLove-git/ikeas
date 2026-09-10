@@ -640,7 +640,7 @@
     "privacyPolicy": "View Privacy Policy"
   },
   "bookingForm": {
-    "dailyLimit": "{{limit}} slots per day",
+    "dailyLimit": "{{limit}} slots today",
     "remainingQuota": "{{count}} left",
     "nameLabel": "Full name",
     "namePlaceholder": "Enter your name",
@@ -669,6 +669,8 @@
     "preferredDateLabel": "Appointment date",
     "preferredDatePlaceholder": "YYYY-MM-DD",
     "invalidDate": "Please enter the date as YYYY-MM-DD",
+    "weekendUnavailable": "Weekends are unavailable, please choose Monday to Friday",
+    "weekdayHint": "Weekdays only (Monday to Friday)",
     "timeSlotLabel": "Time slot",
     "timeSlotPlaceholder": "Select a time slot",
     "slotMorning": "Morning (10:00-12:00)",

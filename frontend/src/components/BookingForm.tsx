@@ -30,6 +30,21 @@ type FormKey =
   | "timeSlot"
   | "note"
 
+function todayLocal(): string {
+  const now = new Date()
+  const year = now.getFullYear()
+  const month = String(now.getMonth() + 1).padStart(2, "0")
+  const day = String(now.getDate()).padStart(2, "0")
+  return `${year}-${month}-${day}`
+}
+
+function isWeekday(value: string): boolean {
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(value)) return false
+  const date = new Date(`${value}T00:00:00`)
+  const day = date.getDay()
+  return day !== 0 && day !== 6
+}
+
 export function BookingForm() {
   const { t } = useTranslation()
   const { user } = useAuth()
@@ -56,6 +71,7 @@ export function BookingForm() {
   const [successId, setSuccessId] = useState<string | null>(null)
   const [accountVouchers, setAccountVouchers] = useState<AccountVoucher[]>([])
   const [quota, setQuota] = useState<BookingQuota | null>(null)
+  const [dateError, setDateError] = useState<string | null>(null)
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search)
@@ -85,11 +101,9 @@ export function BookingForm() {
 
   useEffect(() => {
     let cancelled = false
-    const date = form.preferredDate.trim() || undefined
-    const query = date ? `?date=${encodeURIComponent(date)}` : ""
     void (async () => {
       try {
-        const response = await fetch(`${API_BASE}/api/v1/bookings/quota${query}`)
+        const response = await fetch(`${API_BASE}/api/v1/bookings/quota`)
         const body = (await response.json().catch(() => null)) as BookingQuota | null
         if (response.ok && body && !cancelled) setQuota(body)
       } catch {
@@ -99,7 +113,7 @@ export function BookingForm() {
     return () => {
       cancelled = true
     }
-  }, [form.preferredDate])
+  }, [])
 
   const update =
     (key: FormKey) =>
@@ -131,6 +145,10 @@ export function BookingForm() {
       }
       if (!/^\d{4}-\d{2}-\d{2}$/.test(form.preferredDate.trim())) {
         setError(t("bookingForm.invalidDate"))
+        return
+      }
+      if (!isWeekday(form.preferredDate.trim())) {
+        setError(t("bookingForm.weekendUnavailable"))
         return
       }
       const voucherCodes = parseVoucherCodes(form.voucherCode)
@@ -287,12 +305,25 @@ export function BookingForm() {
             ) : null}
           </span>
           {key === "preferredDate" ? (
-            <input
-              type="date"
-              value={form[key]}
-              onChange={update(key)}
-              className="h-11 w-full border border-ikea-gray-200 px-4 text-sm outline-none transition-colors focus:border-ikea-blue"
-            />
+            <>
+              <input
+                type="date"
+                min={todayLocal()}
+                value={form[key]}
+                onChange={(event) => {
+                  const value = event.target.value
+                  setForm((current) => ({ ...current, preferredDate: value }))
+                  setDateError(value && !isWeekday(value) ? t("bookingForm.weekendUnavailable") : null)
+                }}
+                className="h-11 w-full border border-ikea-gray-200 px-4 text-sm outline-none transition-colors focus:border-ikea-blue"
+              />
+              <span className="mt-1 block text-xs text-ikea-muted">
+                {t("bookingForm.weekdayHint")}
+              </span>
+              {dateError ? (
+                <span className="mt-1 block text-xs text-red-600">{dateError}</span>
+              ) : null}
+            </>
           ) : (
             <select
               value={form[key]}

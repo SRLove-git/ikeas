@@ -5,7 +5,6 @@ import com.ikea.server.dto.booking.BookingDtos.CreateBookingRequest;
 import com.ikea.server.entity.Booking;
 import com.ikea.server.service.BookingService;
 import jakarta.servlet.http.HttpServletRequest;
-import java.time.LocalDate;
 import java.util.Map;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -13,7 +12,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -27,10 +25,8 @@ public class BookingController {
   }
 
   @GetMapping("/quota")
-  public Map<String, Integer> quota(@RequestParam(required = false) String date) {
-    LocalDate target =
-        date == null || date.isBlank() ? LocalDate.now() : LocalDate.parse(date);
-    return bookingService.bookingQuota(target);
+  public Map<String, Integer> quota() {
+    return bookingService.bookingQuota();
   }
 
   @PostMapping
