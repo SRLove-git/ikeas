@@ -63,9 +63,6 @@ export function StaffRedeemPanel() {
   const [listError, setListError] = useState<string | null>(null)
   const [claimCode, setClaimCode] = useState("")
   const [claimRemaining, setClaimRemaining] = useState(30)
-  const [newSecret, setNewSecret] = useState("")
-  const [savingSecret, setSavingSecret] = useState(false)
-  const [secretNotice, setSecretNotice] = useState<string | null>(null)
   const [quotaDate, setQuotaDate] = useState(() => todayLocal())
   const [quota, setQuota] = useState<{
     limit: number
@@ -241,41 +238,6 @@ export function StaffRedeemPanel() {
     }
   }
 
-  const saveClaimSecret = async () => {
-    if (!newSecret.trim()) {
-      setSecretNotice(t("staffRedeem.secretEmpty"))
-      return
-    }
-    setSavingSecret(true)
-    setSecretNotice(null)
-    try {
-      const response = await fetch(`${API_BASE}/api/v1/staff/claim-secret`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ secret: newSecret.trim() }),
-      })
-      const body = (await response.json().catch(() => null)) as { secret?: string; message?: string } | null
-      if (!response.ok) {
-        throw new Error(body?.message ?? t("staffRedeem.failed"))
-      }
-      setNewSecret("")
-      setSecretNotice(t("staffRedeem.secretUpdated"))
-      const codeResponse = await fetch(`${API_BASE}/api/v1/staff/claim-code`)
-      const codeBody = (await codeResponse.json().catch(() => null)) as {
-        code?: string
-        remainingSeconds?: number
-      } | null
-      if (codeResponse.ok && codeBody?.code) {
-        setClaimCode(codeBody.code)
-        setClaimRemaining(codeBody.remainingSeconds ?? 30)
-      }
-    } catch (e) {
-      setSecretNotice((e as Error).message || t("staffRedeem.failed"))
-    } finally {
-      setSavingSecret(false)
-    }
-  }
-
   const doRedeem = async (value: string) => {
     setError(null)
     setRedeemedNo(null)
@@ -414,36 +376,17 @@ export function StaffRedeemPanel() {
 
           <div className="mt-5 border-t border-ikea-gray-200 pt-5">
             <h3 className="text-sm font-bold">{t("staffRedeem.claimSecretTitle")}</h3>
-            <div className="mt-3 flex flex-col gap-3 sm:flex-row sm:items-end">
-              <div className="min-w-[200px] flex-1">
-                <p className="text-xs text-ikea-muted">{t("claimCode.codeLabel")}</p>
-                <div className="mt-1 flex items-baseline gap-2">
-                  <p className="font-mono text-2xl font-bold tracking-wider text-ikea-blue">
-                    {claimCode || "------"}
-                  </p>
-                  <span className="text-sm font-bold tabular-nums text-ikea-muted">
-                    {claimRemaining}s
-                  </span>
-                </div>
+            <div className="mt-3">
+              <p className="text-xs text-ikea-muted">{t("claimCode.codeLabel")}</p>
+              <div className="mt-1 flex items-baseline gap-2">
+                <p className="font-mono text-2xl font-bold tracking-wider text-ikea-blue">
+                  {claimCode || "------"}
+                </p>
+                <span className="text-sm font-bold tabular-nums text-ikea-muted">
+                  {claimRemaining}s
+                </span>
               </div>
-              <input
-                value={newSecret}
-                onChange={(event) => setNewSecret(event.target.value)}
-                placeholder={t("staffRedeem.newSecretPlaceholder")}
-                className="h-11 flex-1 border border-ikea-gray-200 px-4 text-sm outline-none focus:border-ikea-blue"
-              />
-              <button
-                type="button"
-                onClick={() => void saveClaimSecret()}
-                disabled={savingSecret}
-                className="h-11 rounded bg-ikea-blue px-5 text-sm font-bold text-white hover:opacity-90 disabled:opacity-50"
-              >
-                {savingSecret ? t("staffRedeem.updating") : t("staffRedeem.updateSecret")}
-              </button>
             </div>
-            {secretNotice ? (
-              <p className="mt-3 rounded bg-blue-50 px-4 py-3 text-sm text-ikea-blue">{secretNotice}</p>
-            ) : null}
           </div>
         </div>
 
