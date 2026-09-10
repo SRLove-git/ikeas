@@ -774,7 +774,7 @@ public class ExperienceVoucherService {
       StringBuilder value = new StringBuilder(CLAIM_CODE_LENGTH);
       for (int i = 0; i < CLAIM_CODE_LENGTH; i++) {
         int b = hash[i] & 0xFF;
-        value.append(CODE_ALPHABET.charAt(b % CODE_ALPHABET.length()));
+        value.append(b % 10);
       }
       return value.toString();
     } catch (NoSuchAlgorithmException ex) {
