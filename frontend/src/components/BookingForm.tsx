@@ -29,7 +29,6 @@ export function BookingForm() {
   const { user } = useAuth()
   const requiredKeys = new Set<FormKey>([
     "customerName",
-    "phone",
     "email",
     "serviceType",
     "store",
@@ -89,7 +88,6 @@ export function BookingForm() {
     try {
       if (
         !form.customerName.trim() ||
-        !form.phone.trim() ||
         !form.email.trim() ||
         !form.serviceType ||
         !form.store ||
@@ -98,7 +96,7 @@ export function BookingForm() {
         setError(t("bookingForm.incomplete"))
         return
       }
-      if (!/^\+?[0-9][0-9\s-]{5,19}$/.test(form.phone.trim())) {
+      if (form.phone.trim() && !/^\+?[0-9][0-9\s-]{5,19}$/.test(form.phone.trim())) {
         setError(t("bookingForm.invalidPhone"))
         return
       }

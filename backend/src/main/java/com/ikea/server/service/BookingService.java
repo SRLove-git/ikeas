@@ -46,15 +46,14 @@ public class BookingService {
     String preferredDate = trim(request == null ? null : request.preferredDate());
 
     if (customerName.isBlank()
-        || phone.isBlank()
         || email.isBlank()
         || (couponId == null && voucherCodes.isEmpty())
         || serviceType.isBlank()
         || store.isBlank()
         || preferredDate.isBlank()) {
-      throw new IllegalArgumentException("请填写姓名、联系方式、券码、服务项目、门店与预约日期");
+      throw new IllegalArgumentException("请填写姓名、邮箱、券码、服务项目、门店与预约日期");
     }
-    if (!phone.matches(PHONE_PATTERN)) {
+    if (!phone.isBlank() && !phone.matches(PHONE_PATTERN)) {
       throw new IllegalArgumentException("手机号格式不正确");
     }
     if (!email.matches(EMAIL_PATTERN)) {
