@@ -236,28 +236,7 @@ public class ExperienceVoucherService {
     }
 
     String safeIp = normalizeIp(ip);
-    if (!safeIp.isBlank()) {
-      Long ipCount =
-          voucherEmailClaimMapper.selectCount(
-              Wrappers.lambdaQuery(VoucherEmailClaim.class)
-                  .eq(VoucherEmailClaim::getIp, safeIp)
-                  .eq(VoucherEmailClaim::getDeleted, 0));
-      if (ipCount != null && ipCount > 0) {
-        throw new IllegalArgumentException("该 IP 已领取过");
-      }
-    }
-
     String safeDeviceId = normalizeDeviceId(deviceId);
-    if (!safeDeviceId.isBlank()) {
-      Long deviceCount =
-          voucherEmailClaimMapper.selectCount(
-              Wrappers.lambdaQuery(VoucherEmailClaim.class)
-                  .eq(VoucherEmailClaim::getDeviceId, safeDeviceId)
-                  .eq(VoucherEmailClaim::getDeleted, 0));
-      if (deviceCount != null && deviceCount > 0) {
-        throw new IllegalArgumentException("该设备已领取过");
-      }
-    }
 
     Long exists =
         voucherEmailClaimMapper.selectCount(
