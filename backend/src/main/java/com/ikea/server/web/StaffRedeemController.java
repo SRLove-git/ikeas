@@ -9,10 +9,14 @@ import com.ikea.server.service.AdminSettingsService;
 import com.ikea.server.service.BookingService;
 import com.ikea.server.service.ExperienceVoucherService;
 import java.nio.charset.StandardCharsets;
+import java.time.LocalDate;
 import java.util.List;
 import java.util.Map;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -79,6 +83,39 @@ public class StaffRedeemController {
   @GetMapping("/claim-quota")
   public Map<String, Integer> claimQuota() {
     return experienceVoucherService.claimQuota();
+  }
+
+  /** 门店工作人员在核销页查看/设置每个预约日期的名额。 */
+  @GetMapping("/booking-daily-limit")
+  public Map<String, Object> bookingDailyLimit() {
+    return bookingService.dailyLimitConfig();
+  }
+
+  @PutMapping("/booking-daily-limit")
+  public Map<String, Object> updateBookingDailyLimit(@RequestBody Map<String, Integer> body) {
+    Integer limit = body == null ? null : body.get("limit");
+    if (limit == null) {
+      throw new IllegalArgumentException("名额不能为空");
+    }
+    bookingService.updateDailyBookingLimit(limit);
+    return bookingService.dailyLimitConfig();
+  }
+
+  @PutMapping("/booking-daily-limit/{date}")
+  public Map<String, Object> updateBookingDailyLimitForDate(
+      @PathVariable String date, @RequestBody Map<String, Integer> body) {
+    Integer limit = body == null ? null : body.get("limit");
+    if (limit == null) {
+      throw new IllegalArgumentException("名额不能为空");
+    }
+    bookingService.updateDailyBookingLimitForDate(LocalDate.parse(date), limit);
+    return bookingService.dailyLimitConfig();
+  }
+
+  @DeleteMapping("/booking-daily-limit/{date}")
+  public Map<String, Object> deleteBookingDailyLimitForDate(@PathVariable String date) {
+    bookingService.deleteDailyBookingLimitForDate(LocalDate.parse(date));
+    return bookingService.dailyLimitConfig();
   }
 
   @PostMapping("/claim-secret")

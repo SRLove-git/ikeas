@@ -69,6 +69,9 @@ export function StaffRedeemPanel() {
     booked: number
     remaining: number
   } | null>(null)
+  const [quotaLimitInput, setQuotaLimitInput] = useState("")
+  const [savingQuota, setSavingQuota] = useState(false)
+  const [quotaNotice, setQuotaNotice] = useState<string | null>(null)
   const videoRef = useRef<HTMLVideoElement | null>(null)
   const streamRef = useRef<MediaStream | null>(null)
   const rafRef = useRef<number | null>(null)
@@ -210,6 +213,7 @@ export function StaffRedeemPanel() {
             booked: body.booked ?? 0,
             remaining: body.remaining ?? 0,
           })
+          setQuotaLimitInput(String(body.limit))
         }
       } catch {
         if (!cancelled) setQuota(null)
@@ -219,6 +223,53 @@ export function StaffRedeemPanel() {
       cancelled = true
     }
   }, [quotaDate])
+
+  const saveQuotaForDate = async () => {
+    const value = Number(quotaLimitInput)
+    if (!Number.isInteger(value) || value <= 0) {
+      setQuotaNotice(t("staffRedeem.quotaInvalid"))
+      return
+    }
+    setSavingQuota(true)
+    setQuotaNotice(null)
+    try {
+      const response = await fetch(
+        `${API_BASE}/api/v1/staff/booking-daily-limit/${encodeURIComponent(quotaDate)}`,
+        {
+          method: "PUT",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ limit: value }),
+        },
+      )
+      const body = (await response.json().catch(() => null)) as {
+        message?: string
+      } | null
+      if (!response.ok) {
+        throw new Error(body?.message ?? t("staffRedeem.failed"))
+      }
+      setQuotaNotice(t("staffRedeem.quotaSaved"))
+      const quotaResponse = await fetch(
+        `${API_BASE}/api/v1/bookings/quota?date=${encodeURIComponent(quotaDate)}`,
+      )
+      const quotaBody = (await quotaResponse.json().catch(() => null)) as {
+        limit?: number
+        booked?: number
+        remaining?: number
+      } | null
+      if (quotaResponse.ok && quotaBody?.limit != null) {
+        setQuota({
+          limit: quotaBody.limit,
+          booked: quotaBody.booked ?? 0,
+          remaining: quotaBody.remaining ?? 0,
+        })
+        setQuotaLimitInput(String(quotaBody.limit))
+      }
+    } catch (e) {
+      setQuotaNotice((e as Error).message || t("staffRedeem.failed"))
+    } finally {
+      setSavingQuota(false)
+    }
+  }
 
   const loadBookings = async () => {
     setLoadingList(true)
@@ -306,6 +357,28 @@ export function StaffRedeemPanel() {
               </div>
             </div>
           ) : null}
+          <div className="mt-4 flex flex-col gap-2 border-t border-ikea-gray-100 pt-4 sm:flex-row sm:items-end">
+            <div className="min-w-0 flex-1">
+              <p className="text-xs font-bold text-ikea-muted">{t("staffRedeem.quotaSetLabel")}</p>
+              <input
+                type="number"
+                min={1}
+                value={quotaLimitInput}
+                onChange={(event) => setQuotaLimitInput(event.target.value)}
+                placeholder={t("staffRedeem.quotaPlaceholder")}
+                className="mt-1 h-10 w-full rounded-md border border-ikea-gray-200 px-3 text-sm outline-none focus:border-ikea-blue sm:max-w-xs"
+              />
+            </div>
+            <button
+              type="button"
+              onClick={() => void saveQuotaForDate()}
+              disabled={savingQuota}
+              className="h-10 rounded bg-ikea-blue px-5 text-sm font-bold text-white hover:opacity-90 disabled:opacity-50"
+            >
+              {savingQuota ? t("staffRedeem.quotaSaving") : t("staffRedeem.quotaSave")}
+            </button>
+          </div>
+          {quotaNotice ? <p className="mt-3 text-sm text-ikea-blue">{quotaNotice}</p> : null}
         </div>
 
         <div className="mt-6 rounded-lg bg-white p-6 shadow-sm">
