@@ -7,9 +7,6 @@ import com.ikea.server.entity.Coupon;
 import com.ikea.server.mapper.BookingMapper;
 import java.time.DayOfWeek;
 import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.ZoneId;
-import java.time.ZoneOffset;
 import java.time.format.DateTimeParseException;
 import java.util.ArrayList;
 import java.util.LinkedHashSet;
@@ -25,7 +22,6 @@ public class BookingService {
   private static final String PHONE_PATTERN = "^\\+?[0-9][0-9\\s-]{5,19}$";
   private static final String EMAIL_PATTERN = "^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$";
   private static final int DAILY_BOOKING_LIMIT = 6;
-  private static final ZoneId BUSINESS_ZONE = ZoneId.of("Asia/Singapore");
 
   private final BookingMapper bookingMapper;
   private final ExperienceVoucherService voucherService;
@@ -76,8 +72,8 @@ public class BookingService {
     if (!isWeekday(date)) {
       throw new IllegalArgumentException("周六、周日不可预约，请选择周一至周五");
     }
-    if (countBookingsToday() >= DAILY_BOOKING_LIMIT) {
-      throw new IllegalArgumentException("今日预约已满，请明天再试");
+    if (countBookingsOnDate(date) >= DAILY_BOOKING_LIMIT) {
+      throw new IllegalArgumentException("该日期已约满，请选择其他日期");
     }
 
     String bookingNo = "BK-" + System.currentTimeMillis();
@@ -120,24 +116,19 @@ public class BookingService {
     return day != DayOfWeek.SATURDAY && day != DayOfWeek.SUNDAY;
   }
 
-  /** 统计今天（按新加坡时区，不含已取消）创建的预约数量，用于“今天最多约 6 人”限流。 */
-  public int countBookingsToday() {
-    LocalDateTime todayStartUtc =
-        LocalDate.now(BUSINESS_ZONE)
-            .atStartOfDay(BUSINESS_ZONE)
-            .withZoneSameInstant(ZoneOffset.UTC)
-            .toLocalDateTime();
+  /** 统计指定预约日期（不含已取消）的预约数量，用于“每个日期最多约 6 人”限流。 */
+  public int countBookingsOnDate(LocalDate date) {
     Long count =
         bookingMapper.selectCount(
             Wrappers.lambdaQuery(Booking.class)
                 .eq(Booking::getDeleted, 0)
-                .ge(Booking::getCreatedAt, todayStartUtc)
+                .eq(Booking::getPreferredDate, date)
                 .ne(Booking::getStatus, 3));
     return count == null ? 0 : count.intValue();
   }
 
-  public Map<String, Integer> bookingQuota() {
-    int booked = countBookingsToday();
+  public Map<String, Integer> bookingQuota(LocalDate date) {
+    int booked = countBookingsOnDate(date);
     return Map.of(
         "limit", DAILY_BOOKING_LIMIT,
         "booked", booked,

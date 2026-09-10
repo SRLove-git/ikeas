@@ -101,9 +101,11 @@ export function BookingForm() {
 
   useEffect(() => {
     let cancelled = false
+    const date = form.preferredDate.trim() || undefined
+    const query = date ? `?date=${encodeURIComponent(date)}` : ""
     void (async () => {
       try {
-        const response = await fetch(`${API_BASE}/api/v1/bookings/quota`)
+        const response = await fetch(`${API_BASE}/api/v1/bookings/quota${query}`)
         const body = (await response.json().catch(() => null)) as BookingQuota | null
         if (response.ok && body && !cancelled) setQuota(body)
       } catch {
@@ -113,7 +115,7 @@ export function BookingForm() {
     return () => {
       cancelled = true
     }
-  }, [])
+  }, [form.preferredDate])
 
   const update =
     (key: FormKey) =>

@@ -640,7 +640,7 @@
     "privacyPolicy": "查看隐私政策"
   },
   "bookingForm": {
-    "dailyLimit": "今日 {{limit}} 个名额",
+    "dailyLimit": "该日期 {{limit}} 个名额",
     "remainingQuota": "剩余 {{count}} 个",
     "nameLabel": "姓名",
     "namePlaceholder": "请输入姓名",

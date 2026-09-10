@@ -640,7 +640,7 @@
     "privacyPolicy": "View Privacy Policy"
   },
   "bookingForm": {
-    "dailyLimit": "{{limit}} slots today",
+    "dailyLimit": "{{limit}} slots for this date",
     "remainingQuota": "{{count}} left",
     "nameLabel": "Full name",
     "namePlaceholder": "Enter your name",
