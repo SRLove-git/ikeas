@@ -34,6 +34,7 @@ class BookingServiceTest {
   private BookingMapper bookingMapper;
   private ExperienceVoucherService voucherService;
   private MarketingService marketingService;
+  private AdminSettingsService adminSettingsService;
   private BookingService bookingService;
 
   @BeforeAll
@@ -49,7 +50,9 @@ class BookingServiceTest {
     bookingMapper = mock(BookingMapper.class);
     voucherService = mock(ExperienceVoucherService.class);
     marketingService = mock(MarketingService.class);
-    bookingService = new BookingService(bookingMapper, voucherService, marketingService);
+    adminSettingsService = mock(AdminSettingsService.class);
+    bookingService =
+        new BookingService(bookingMapper, voucherService, marketingService, adminSettingsService);
   }
 
   @Test
@@ -171,14 +174,13 @@ class BookingServiceTest {
   }
 
   @Test
-  void deleteBookingShouldRejectFinishedBooking() {
+  void deleteBookingShouldAllowCompletedBooking() {
     when(bookingMapper.selectById(1L)).thenReturn(booking(1L, 2));
 
-    IllegalArgumentException e =
-        assertThrows(IllegalArgumentException.class, () -> bookingService.deleteBooking(1L));
+    bookingService.deleteBooking(1L);
 
-    assertEquals("已完成的预约不能删除", e.getMessage());
-    verify(bookingMapper, never()).deleteById(any(Long.class));
+    verify(bookingMapper).deleteById(1L);
+    verify(voucherService).releaseByBookingId("BK-100");
   }
 
   private static CreateBookingRequest validRequest(String phone, String email, String date) {

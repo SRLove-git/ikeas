@@ -1,6 +1,7 @@
 package com.ikea.server.service;
 
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
+import com.fasterxml.jackson.databind.JsonNode;
 import com.ikea.server.dto.booking.BookingDtos.CreateBookingRequest;
 import com.ikea.server.entity.Booking;
 import com.ikea.server.entity.Coupon;
@@ -21,19 +22,22 @@ public class BookingService {
 
   private static final String PHONE_PATTERN = "^\\+?[0-9][0-9\\s-]{5,19}$";
   private static final String EMAIL_PATTERN = "^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$";
-  private static final int DAILY_BOOKING_LIMIT = 6;
+  private static final int DEFAULT_DAILY_BOOKING_LIMIT = 6;
 
   private final BookingMapper bookingMapper;
   private final ExperienceVoucherService voucherService;
   private final MarketingService marketingService;
+  private final AdminSettingsService adminSettingsService;
 
   public BookingService(
       BookingMapper bookingMapper,
       ExperienceVoucherService voucherService,
-      MarketingService marketingService) {
+      MarketingService marketingService,
+      AdminSettingsService adminSettingsService) {
     this.bookingMapper = bookingMapper;
     this.voucherService = voucherService;
     this.marketingService = marketingService;
+    this.adminSettingsService = adminSettingsService;
   }
 
   @Transactional
@@ -72,7 +76,7 @@ public class BookingService {
     if (!isWeekday(date)) {
       throw new IllegalArgumentException("周六、周日不可预约，请选择周一至周五");
     }
-    if (countBookingsOnDate(date) >= DAILY_BOOKING_LIMIT) {
+    if (countBookingsOnDate(date) >= currentDailyBookingLimit()) {
       throw new IllegalArgumentException("该日期已约满，请选择其他日期");
     }
 
@@ -129,10 +133,22 @@ public class BookingService {
 
   public Map<String, Integer> bookingQuota(LocalDate date) {
     int booked = countBookingsOnDate(date);
+    int limit = currentDailyBookingLimit();
     return Map.of(
-        "limit", DAILY_BOOKING_LIMIT,
+        "limit", limit,
         "booked", booked,
-        "remaining", Math.max(0, DAILY_BOOKING_LIMIT - booked));
+        "remaining", Math.max(0, limit - booked));
+  }
+
+  /** 每个预约日期的名额上限，可在后台网站设置中配置 bookingDailyLimit。 */
+  private int currentDailyBookingLimit() {
+    JsonNode settings = adminSettingsService.get();
+    JsonNode limit = settings == null ? null : settings.get("bookingDailyLimit");
+    if (limit == null || limit.isNull() || !limit.isNumber()) {
+      return DEFAULT_DAILY_BOOKING_LIMIT;
+    }
+    int value = limit.asInt(DEFAULT_DAILY_BOOKING_LIMIT);
+    return value > 0 ? value : DEFAULT_DAILY_BOOKING_LIMIT;
   }
 
   public List<Booking> listBookings(String keyword, Integer status) {

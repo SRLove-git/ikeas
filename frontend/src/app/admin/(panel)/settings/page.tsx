@@ -22,6 +22,7 @@ interface Settings {
   voucherClaimSecret: string;
   voucherClaimLimit: number;
   staffAccessPassword: string;
+  bookingDailyLimit: number;
   siteCopy: {
     notFound: { title: string; body: string; buttonLabel: string };
     survey: { title: string; body: string; buttonLabel: string };
@@ -43,6 +44,7 @@ export default function SettingsPage() {
             voucherClaimSecret?: string;
             voucherClaimLimit?: number;
             staffAccessPassword?: string;
+            bookingDailyLimit?: number;
           }>(
             "/api/admin/server/settings",
           ).catch(() => null),
@@ -55,6 +57,8 @@ export default function SettingsPage() {
             serverSettings?.voucherClaimLimit ?? fileSettings.voucherClaimLimit ?? 0,
           staffAccessPassword:
             serverSettings?.staffAccessPassword ?? fileSettings.staffAccessPassword ?? "",
+          bookingDailyLimit:
+            serverSettings?.bookingDailyLimit ?? fileSettings.bookingDailyLimit ?? 6,
         });
       } catch (e) {
         show("error", (e as Error).message);
@@ -81,6 +85,7 @@ export default function SettingsPage() {
           voucherClaimSecret: settings.voucherClaimSecret ?? "",
           voucherClaimLimit: settings.voucherClaimLimit ?? 0,
           staffAccessPassword: settings.staffAccessPassword ?? "",
+          bookingDailyLimit: settings.bookingDailyLimit ?? 6,
         }),
       });
       show("success", t("admin.settings.saved"));
@@ -145,6 +150,16 @@ export default function SettingsPage() {
               type="password"
               value={settings.staffAccessPassword ?? ""}
               onChange={(e) => update({ staffAccessPassword: e.target.value })}
+            />
+          </Field>
+          <Field label={t("admin.settings.bookingDailyLimit")} hint={t("admin.settings.bookingDailyLimitHint")}>
+            <TextInput
+              type="number"
+              min={1}
+              value={String(settings.bookingDailyLimit ?? 6)}
+              onChange={(e) =>
+                update({ bookingDailyLimit: Math.max(1, Number(e.target.value) || 1) })
+              }
             />
           </Field>
         </div>

@@ -5,6 +5,7 @@
   "voucherClaimSecret": "BUZUD",
   "voucherClaimLimit": 0,
   "staffAccessPassword": "chungyip123#",
+  "bookingDailyLimit": 6,
   "siteCopy": {
     "notFound": {
       "title": "404:哎呀,页面迷路了… 但别担心!",

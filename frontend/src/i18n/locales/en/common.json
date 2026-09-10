@@ -1146,6 +1146,8 @@
       "voucherClaimLimitHint": "At most this many vouchers can be claimed per day. Set 0 for unlimited.",
       "staffAccessPassword": "Secret page access password",
       "staffAccessPasswordHint": "Required to access the redemption secret pages (/staff/redeem, /redeem/code).",
+      "bookingDailyLimit": "Slots per appointment date",
+      "bookingDailyLimitHint": "Maximum bookings allowed for each appointment date (currently weekdays only).",
       "notFoundCopy": "404 page copy",
       "surveyCopy": "Survey page copy",
       "buttonLabel": "Button text",
