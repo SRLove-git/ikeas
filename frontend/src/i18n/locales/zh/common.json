@@ -1282,8 +1282,11 @@
       "emptyClaims": "暂无申请记录",
       "colEmail": "邮箱",
       "colVoucher": "券码",
-      "colTime": "申请时间"
-    },
+      "colTime": "申请时间",
+      "bookingRedemptionTitle": "体验券预约核销",
+      "bookingRedemptionHint": "查看并处理顾客提交的到店体验预约，支持按券码或预约编号一键核销。",
+      "bookingQuota": "今日名额：已约 {{booked}}/{{limit}}，剩余 {{remaining}}"
+  },
     "vouchers": {
       "title": "体验券 / 积分券",
       "desc": "管理线下实体体验券与积分券，支持按数量批量生成券码和导出打印 PDF。",

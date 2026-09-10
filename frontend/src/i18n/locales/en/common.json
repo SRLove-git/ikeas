@@ -1282,8 +1282,11 @@
       "emptyClaims": "No claims yet",
       "colEmail": "Email",
       "colVoucher": "Voucher code",
-      "colTime": "Claimed at"
-    },
+      "colTime": "Claimed at",
+      "bookingRedemptionTitle": "Experience voucher booking & redemption",
+      "bookingRedemptionHint": "Review and process customer in-store experience bookings, and redeem by voucher code or booking number.",
+      "bookingQuota": "Today's quota: {{booked}}/{{limit}} booked, {{remaining}} left"
+  },
     "vouchers": {
       "title": "Experience / points vouchers",
       "desc": "Manage physical experience vouchers and points cards, with quantity-based code generation and print-ready PDF export.",
