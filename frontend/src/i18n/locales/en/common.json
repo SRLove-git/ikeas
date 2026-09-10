@@ -437,6 +437,8 @@
   "staffRedeem": {
     "title": "Redeem booking",
     "intro": "For store staff only. Enter the redeem secret and a customer's voucher code or booking number to redeem the booking.",
+    "quotaTitle": "Booking quota",
+    "quotaHint": "View remaining booking slots for the selected date.",
     "secretLabel": "Redeem secret",
     "secretPlaceholder": "Enter redeem secret",
     "secretRemembered": "Secret key remembered",

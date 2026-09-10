@@ -5,6 +5,14 @@ import { useTranslation } from "react-i18next"
 import { API_BASE } from "@/lib/api"
 import jsQR from "jsqr"
 
+function todayLocal(): string {
+  const now = new Date()
+  const year = now.getFullYear()
+  const month = String(now.getMonth() + 1).padStart(2, "0")
+  const day = String(now.getDate()).padStart(2, "0")
+  return `${year}-${month}-${day}`
+}
+
 interface BookingItem {
   id: string
   bookingNo: string
@@ -58,6 +66,12 @@ export function StaffRedeemPanel() {
   const [newSecret, setNewSecret] = useState("")
   const [savingSecret, setSavingSecret] = useState(false)
   const [secretNotice, setSecretNotice] = useState<string | null>(null)
+  const [quotaDate, setQuotaDate] = useState(() => todayLocal())
+  const [quota, setQuota] = useState<{
+    limit: number
+    booked: number
+    remaining: number
+  } | null>(null)
   const videoRef = useRef<HTMLVideoElement | null>(null)
   const streamRef = useRef<MediaStream | null>(null)
   const rafRef = useRef<number | null>(null)
@@ -176,6 +190,39 @@ export function StaffRedeemPanel() {
     }
   }, [])
 
+  useEffect(() => {
+    const date = quotaDate.trim()
+    if (!date) {
+      setQuota(null)
+      return
+    }
+    let cancelled = false
+    void (async () => {
+      try {
+        const response = await fetch(
+          `${API_BASE}/api/v1/bookings/quota?date=${encodeURIComponent(date)}`,
+        )
+        const body = (await response.json().catch(() => null)) as {
+          limit?: number
+          booked?: number
+          remaining?: number
+        } | null
+        if (response.ok && body?.limit != null && !cancelled) {
+          setQuota({
+            limit: body.limit,
+            booked: body.booked ?? 0,
+            remaining: body.remaining ?? 0,
+          })
+        }
+      } catch {
+        if (!cancelled) setQuota(null)
+      }
+    })()
+    return () => {
+      cancelled = true
+    }
+  }, [quotaDate])
+
   const loadBookings = async () => {
     setLoadingList(true)
     setListError(null)
@@ -265,6 +312,39 @@ export function StaffRedeemPanel() {
       <div className="mx-auto max-w-6xl">
         <h1 className="text-2xl font-bold leading-9">{t("staffRedeem.title")}</h1>
         <p className="mt-2 text-sm leading-6 text-ikea-muted">{t("staffRedeem.intro")}</p>
+
+        <div className="mt-6 rounded-lg border border-ikea-gray-200 bg-white p-5">
+          <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+            <div>
+              <h2 className="text-base font-bold">{t("staffRedeem.quotaTitle")}</h2>
+              <p className="mt-1 text-xs leading-5 text-ikea-muted">{t("staffRedeem.quotaHint")}</p>
+            </div>
+            <input
+              type="date"
+              value={quotaDate}
+              onChange={(event) => setQuotaDate(event.target.value)}
+              className="h-10 rounded-md border border-ikea-gray-200 bg-white px-3 text-sm outline-none focus:border-ikea-blue"
+            />
+          </div>
+          {quota && quota.limit > 0 ? (
+            <div className="mt-4">
+              <div className="flex items-center justify-between text-xs">
+                <span className="text-ikea-muted">
+                  {t("bookingForm.dailyLimit", { limit: quota.limit })}
+                </span>
+                <span className="font-bold text-green-600">
+                  {t("bookingForm.remainingQuota", { count: quota.remaining })}
+                </span>
+              </div>
+              <div className="mt-2 h-2.5 w-full overflow-hidden rounded-full bg-ikea-gray-200">
+                <div
+                  className="h-full rounded-full bg-green-500 transition-all duration-500"
+                  style={{ width: `${(quota.remaining / quota.limit) * 100}%` }}
+                />
+              </div>
+            </div>
+          ) : null}
+        </div>
 
         <div className="mt-6 rounded-lg bg-white p-6 shadow-sm">
           <div className="grid gap-4 md:grid-cols-[1fr_auto]">
