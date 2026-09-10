@@ -13,8 +13,6 @@ import com.ikea.server.entity.VoucherEmailClaim;
 import com.ikea.server.mapper.ExperienceVoucherMapper;
 import com.ikea.server.mapper.VoucherEmailClaimMapper;
 import jakarta.mail.internet.MimeMessage;
-import java.awt.image.BufferedImage;
-import java.io.ByteArrayOutputStream;
 import java.math.BigDecimal;
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
@@ -31,10 +29,6 @@ import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.regex.Pattern;
-import javax.imageio.ImageIO;
-import org.apache.pdfbox.Loader;
-import org.apache.pdfbox.pdmodel.PDDocument;
-import org.apache.pdfbox.rendering.PDFRenderer;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.ByteArrayResource;
 import org.springframework.mail.javamail.JavaMailSender;
@@ -861,7 +855,6 @@ public class ExperienceVoucherService {
       helper.setTo(email);
       helper.setSubject("您的 BUZUD 体验券");
 
-      byte[] png = renderVoucherPng(pdf);
       String site = siteUrl();
       String text =
           "感谢您选择 BUZUD，以下是您的体验券。\n\n"
@@ -869,27 +862,11 @@ public class ExperienceVoucherService {
               + "官网：" + site + "\n\n"
               + "请扫描券上的二维码完成预约。";
       helper.setText(text, false);
-      if (png.length > 0) {
-        helper.addAttachment(
-            "BUZUD-Experience-Voucher-" + code + ".png", new ByteArrayResource(png));
-      }
       helper.addAttachment(
           "BUZUD-Experience-Voucher-" + code + ".pdf", new ByteArrayResource(pdf));
       mailSender.send(message);
     } catch (Exception ex) {
       throw new IllegalStateException("体验券邮件发送失败，请稍后重试", ex);
-    }
-  }
-
-  private byte[] renderVoucherPng(byte[] pdf) {
-    try (PDDocument document = Loader.loadPDF(pdf)) {
-      PDFRenderer renderer = new PDFRenderer(document);
-      BufferedImage image = renderer.renderImageWithDPI(0, 150);
-      ByteArrayOutputStream out = new ByteArrayOutputStream();
-      ImageIO.write(image, "png", out);
-      return out.toByteArray();
-    } catch (Exception ex) {
-      return new byte[0];
     }
   }
 
