@@ -66,6 +66,8 @@ public class SecurityConfig {
                     .permitAll()
                     .requestMatchers(HttpMethod.GET, "/api/v1/staff/claim-code")
                     .permitAll()
+                    .requestMatchers(HttpMethod.GET, "/api/v1/staff/claim-quota")
+                    .permitAll()
                     .requestMatchers(HttpMethod.POST, "/api/v1/staff/claim-secret")
                     .permitAll()
                     .requestMatchers("/api/v1/marketing/coupons/*/qr.png")

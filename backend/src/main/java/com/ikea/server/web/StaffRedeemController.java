@@ -62,6 +62,11 @@ public class StaffRedeemController {
         "totalSeconds", 30);
   }
 
+  @GetMapping("/claim-quota")
+  public Map<String, Integer> claimQuota() {
+    return experienceVoucherService.claimQuota();
+  }
+
   @PostMapping("/claim-secret")
   public Map<String, String> updateClaimSecret(@RequestBody Map<String, String> body) {
     String secret = body == null || body.get("secret") == null ? "" : body.get("secret").trim();

@@ -820,6 +820,23 @@ public class ExperienceVoucherService {
     return (int) (CLAIM_CODE_TTL_SECONDS - (now % CLAIM_CODE_TTL_SECONDS));
   }
 
+  public Map<String, Integer> claimQuota() {
+    int limit = currentClaimLimit();
+    int claimed = 0;
+    if (limit > 0) {
+      LocalDateTime todayStart = LocalDate.now().atStartOfDay();
+      Long count =
+          voucherEmailClaimMapper.selectCount(
+              Wrappers.lambdaQuery(VoucherEmailClaim.class)
+                  .eq(VoucherEmailClaim::getStatus, 1)
+                  .eq(VoucherEmailClaim::getDeleted, 0)
+                  .ge(VoucherEmailClaim::getCreatedAt, todayStart));
+      claimed = count == null ? 0 : count.intValue();
+    }
+    int remaining = limit > 0 ? Math.max(0, limit - claimed) : -1;
+    return Map.of("limit", limit, "claimed", claimed, "remaining", remaining);
+  }
+
   private int normalizeType(Integer type) {
     int normalized = type == null ? TYPE_EXPERIENCE : type;
     if (normalized != TYPE_EXPERIENCE && normalized != TYPE_POINTS) {
