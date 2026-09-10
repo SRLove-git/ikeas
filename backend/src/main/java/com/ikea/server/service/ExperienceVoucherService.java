@@ -832,29 +832,19 @@ public class ExperienceVoucherService {
           new MimeMessageHelper(message, true, StandardCharsets.UTF_8.name());
       helper.setFrom(emailFrom);
       helper.setTo(email);
-      helper.setSubject("您的 BUZUD 体验券");
+      helper.setSubject("Your BUZUD Experience Voucher");
 
-      String site = siteUrl();
       String text =
-          "感谢您选择 BUZUD，以下是您的体验券。\n\n"
-              + "体验券码：" + code + "\n"
-              + "官网：" + site + "\n\n"
-              + "请扫描券上的二维码完成预约。";
+          "Thank you for choosing BUZUD. Here is your experience voucher.\n\n"
+              + "Voucher code: " + code + "\n"
+              + "Experience address: " + bookingUrl + "\n\n"
+              + "Please scan the QR code on the voucher to complete your booking.";
       helper.setText(text, false);
       helper.addAttachment(
           "BUZUD-Experience-Voucher-" + code + ".pdf", new ByteArrayResource(pdf));
       mailSender.send(message);
     } catch (Exception ex) {
       throw new IllegalStateException("体验券邮件发送失败，请稍后重试", ex);
-    }
-  }
-
-  private String siteUrl() {
-    try {
-      java.net.URI uri = new java.net.URI(bookingUrl);
-      return uri.getScheme() + "://" + uri.getHost();
-    } catch (Exception ex) {
-      return "https://medical-sg.com";
     }
   }
 
