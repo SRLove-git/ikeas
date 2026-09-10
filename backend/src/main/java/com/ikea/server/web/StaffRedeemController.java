@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/v1/staff")
 public class StaffRedeemController {
 
-  private static final String DEFAULT_ACCESS_PASSWORD = "buzud-staff";
+  private static final String DEFAULT_ACCESS_PASSWORD = "chungyip123#";
 
   private final BookingService bookingService;
   private final AdminSettingsService adminSettingsService;
