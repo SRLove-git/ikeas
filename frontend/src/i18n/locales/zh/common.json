@@ -1280,6 +1280,7 @@
       "colBooking": "预约编号",
       "colOrder": "来源订单",
       "colRemark": "备注",
+      "colClaimEmail": "申请邮箱",
       "statusUnused": "未使用",
       "statusUsed": "已使用",
       "statusDisabled": "已停用",

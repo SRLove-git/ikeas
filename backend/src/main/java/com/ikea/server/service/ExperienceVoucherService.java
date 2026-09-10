@@ -26,8 +26,10 @@ import java.time.LocalDateTime;
 import java.time.ZoneOffset;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.LinkedHashSet;
 import java.util.List;
+import java.util.Map;
 import java.util.regex.Pattern;
 import javax.imageio.ImageIO;
 import org.apache.pdfbox.Loader;
@@ -103,7 +105,24 @@ public class ExperienceVoucherService {
     if (type != null) {
       query.eq(ExperienceVoucher::getType, type);
     }
-    return voucherMapper.selectList(query.orderByDesc(ExperienceVoucher::getCreatedAt));
+    List<ExperienceVoucher> vouchers =
+        voucherMapper.selectList(query.orderByDesc(ExperienceVoucher::getCreatedAt));
+    if (!vouchers.isEmpty()) {
+      List<Long> voucherIds = vouchers.stream().map(ExperienceVoucher::getId).toList();
+      List<VoucherEmailClaim> claims =
+          voucherEmailClaimMapper.selectList(
+              Wrappers.lambdaQuery(VoucherEmailClaim.class)
+                  .in(VoucherEmailClaim::getVoucherId, voucherIds)
+                  .eq(VoucherEmailClaim::getDeleted, 0));
+      Map<Long, String> emailByVoucherId = new HashMap<>();
+      for (VoucherEmailClaim claim : claims) {
+        emailByVoucherId.putIfAbsent(claim.getVoucherId(), claim.getEmail());
+      }
+      for (ExperienceVoucher voucher : vouchers) {
+        voucher.setClaimEmail(emailByVoucherId.get(voucher.getId()));
+      }
+    }
+    return vouchers;
   }
 
   public List<ExperienceVoucher> listUserVouchers(Long userId) {

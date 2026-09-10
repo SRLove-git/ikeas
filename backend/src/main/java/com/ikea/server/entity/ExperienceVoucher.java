@@ -26,6 +26,7 @@ public class ExperienceVoucher {
   private String usedBookingId;
   private LocalDateTime usedAt;
   private String remark;
+  @TableField(exist = false) private String claimEmail;
   @TableLogic private Integer deleted;
   @Version private Integer version;
   @TableField(fill = FieldFill.INSERT) private LocalDateTime createdAt;
@@ -55,6 +56,8 @@ public class ExperienceVoucher {
   public void setUsedAt(LocalDateTime usedAt) { this.usedAt = usedAt; }
   public String getRemark() { return remark; }
   public void setRemark(String remark) { this.remark = remark; }
+  public String getClaimEmail() { return claimEmail; }
+  public void setClaimEmail(String claimEmail) { this.claimEmail = claimEmail; }
   public Integer getDeleted() { return deleted; }
   public void setDeleted(Integer deleted) { this.deleted = deleted; }
   public Integer getVersion() { return version; }

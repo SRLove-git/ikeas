@@ -23,6 +23,7 @@ interface HealthCheckVoucher {
   usedBookingId?: string | null
   usedAt?: string | null
   remark?: string | null
+  claimEmail?: string | null
   createdAt: string
 }
 
@@ -289,6 +290,7 @@ export default function VouchersPage() {
                   <th className="px-5 py-3 font-medium">{t("admin.vouchers.colBooking")}</th>
                   <th className="px-5 py-3 font-medium">{t("admin.vouchers.colOrder")}</th>
                   <th className="px-5 py-3 font-medium">{t("admin.vouchers.colRemark")}</th>
+                  <th className="px-5 py-3 font-medium">{t("admin.vouchers.colClaimEmail")}</th>
                   <th className="px-5 py-3 text-right font-medium">
                     {t("admin.common.colActions")}
                   </th>
@@ -311,6 +313,7 @@ export default function VouchersPage() {
                     <td className="px-5 py-3">{voucher.usedBookingId ?? "—"}</td>
                     <td className="px-5 py-3">{voucher.orderNo ?? "—"}</td>
                     <td className="px-5 py-3">{voucher.remark || "—"}</td>
+                    <td className="px-5 py-3">{voucher.claimEmail || "—"}</td>
                     <td className="px-5 py-3 text-right">
                       <Button variant="secondary" onClick={() => startEdit(voucher)}>
                         {t("admin.vouchers.edit")}
