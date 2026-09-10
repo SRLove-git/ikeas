@@ -226,9 +226,6 @@ public class BookingService {
     if (booking == null || booking.getDeleted() != null && booking.getDeleted() == 1) {
       throw new IllegalArgumentException("预约不存在");
     }
-    if (booking.getStatus() != null && booking.getStatus() == 2) {
-      throw new IllegalArgumentException("已完成的预约不能删除");
-    }
     bookingMapper.deleteById(id);
     voucherService.releaseByBookingId(booking.getBookingNo());
   }

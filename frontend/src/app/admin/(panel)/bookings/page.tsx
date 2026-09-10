@@ -262,11 +262,9 @@ export default function BookingsPage() {
                         </Button>{" "}
                       </>
                     ) : null}
-                    {booking.status === 2 ? null : (
-                      <Button variant="danger" onClick={() => void deleteBooking(booking)}>
-                        {t("admin.bookings.delete")}
-                      </Button>
-                    )}
+                    <Button variant="danger" onClick={() => void deleteBooking(booking)}>
+                      {t("admin.bookings.delete")}
+                    </Button>
                   </td>
                 </tr>
               ))}
