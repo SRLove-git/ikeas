@@ -424,6 +424,16 @@
     "invalidEmail": "请输入正确的邮箱",
     "failed": "领取失败，请稍后重试"
   },
+  "accessGate": {
+    "title": "请验证访问密码",
+    "hint": "该页面显示会刷新的核销密钥，访问前请输入访问密码。",
+    "passwordLabel": "访问密码",
+    "passwordPlaceholder": "请输入访问密码",
+    "submit": "验证并进入",
+    "submitting": "验证中…",
+    "missing": "请输入访问密码",
+    "failed": "验证失败，请稍后重试"
+  },
   "staffRedeem": {
     "title": "预约核销",
     "intro": "门店工作人员专用。输入核销密钥和顾客的券码或预约编号，即可核销预约。",
@@ -1132,6 +1142,8 @@
       "voucherClaimSecretHint": "线下活动发放体验券时使用，用户凭此密钥 + 邮箱领取。每天/每场活动可在这里更换。",
       "voucherClaimLimit": "体验券领取人数上限",
       "voucherClaimLimitHint": "每天最多领取该数量的体验券，设置为 0 表示不限。",
+      "staffAccessPassword": "密钥页面访问密码",
+      "staffAccessPasswordHint": "访问核销密钥刷新页面（/staff/redeem、/redeem/code）时需要输入该密码。",
       "notFoundCopy": "404 页面文案",
       "surveyCopy": "问卷页面文案",
       "buttonLabel": "按钮文案",

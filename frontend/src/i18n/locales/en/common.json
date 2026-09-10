@@ -424,6 +424,16 @@
     "invalidEmail": "Enter a valid email",
     "failed": "Failed to claim. Please try again later."
   },
+  "accessGate": {
+    "title": "Enter the access password",
+    "hint": "This page displays the rotating redemption secret key. Enter the access password to continue.",
+    "passwordLabel": "Access password",
+    "passwordPlaceholder": "Enter access password",
+    "submit": "Verify and enter",
+    "submitting": "Verifying…",
+    "missing": "Please enter the access password",
+    "failed": "Verification failed. Please try again later."
+  },
   "staffRedeem": {
     "title": "Redeem booking",
     "intro": "For store staff only. Enter the redeem secret and a customer's voucher code or booking number to redeem the booking.",
@@ -1132,6 +1142,8 @@
       "voucherClaimSecretHint": "Used for offline events: users enter this secret + email to claim a voucher. Change it per day/event.",
       "voucherClaimLimit": "Experience voucher claim limit",
       "voucherClaimLimitHint": "At most this many vouchers can be claimed per day. Set 0 for unlimited.",
+      "staffAccessPassword": "Secret page access password",
+      "staffAccessPasswordHint": "Required to access the redemption secret pages (/staff/redeem, /redeem/code).",
       "notFoundCopy": "404 page copy",
       "surveyCopy": "Survey page copy",
       "buttonLabel": "Button text",

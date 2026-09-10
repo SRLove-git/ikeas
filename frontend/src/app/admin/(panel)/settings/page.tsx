@@ -21,6 +21,7 @@ interface Settings {
   adminTitle: string;
   voucherClaimSecret: string;
   voucherClaimLimit: number;
+  staffAccessPassword: string;
   siteCopy: {
     notFound: { title: string; body: string; buttonLabel: string };
     survey: { title: string; body: string; buttonLabel: string };
@@ -38,7 +39,11 @@ export default function SettingsPage() {
       try {
         const [fileSettings, serverSettings] = await Promise.all([
           adminFetch<Settings>("/api/admin/settings"),
-          adminFetch<{ voucherClaimSecret?: string; voucherClaimLimit?: number }>(
+          adminFetch<{
+            voucherClaimSecret?: string;
+            voucherClaimLimit?: number;
+            staffAccessPassword?: string;
+          }>(
             "/api/admin/server/settings",
           ).catch(() => null),
         ]);
@@ -48,6 +53,8 @@ export default function SettingsPage() {
             serverSettings?.voucherClaimSecret ?? fileSettings.voucherClaimSecret ?? "",
           voucherClaimLimit:
             serverSettings?.voucherClaimLimit ?? fileSettings.voucherClaimLimit ?? 0,
+          staffAccessPassword:
+            serverSettings?.staffAccessPassword ?? fileSettings.staffAccessPassword ?? "",
         });
       } catch (e) {
         show("error", (e as Error).message);
@@ -73,6 +80,7 @@ export default function SettingsPage() {
         body: JSON.stringify({
           voucherClaimSecret: settings.voucherClaimSecret ?? "",
           voucherClaimLimit: settings.voucherClaimLimit ?? 0,
+          staffAccessPassword: settings.staffAccessPassword ?? "",
         }),
       });
       show("success", t("admin.settings.saved"));
@@ -130,6 +138,13 @@ export default function SettingsPage() {
               onChange={(e) =>
                 update({ voucherClaimLimit: Math.max(0, Number(e.target.value) || 0) })
               }
+            />
+          </Field>
+          <Field label={t("admin.settings.staffAccessPassword")} hint={t("admin.settings.staffAccessPasswordHint")}>
+            <TextInput
+              type="password"
+              value={settings.staffAccessPassword ?? ""}
+              onChange={(e) => update({ staffAccessPassword: e.target.value })}
             />
           </Field>
         </div>
