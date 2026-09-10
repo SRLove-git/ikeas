@@ -2,6 +2,7 @@ package com.ikea.server.web;
 
 import com.ikea.server.entity.Booking;
 import com.ikea.server.service.BookingService;
+import java.time.LocalDate;
 import java.util.List;
 import java.util.Map;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -33,18 +34,35 @@ public class AdminBookingController {
   }
 
   @GetMapping("/daily-limit")
-  public Map<String, Integer> dailyLimit() {
-    return Map.of("limit", bookingService.getDailyBookingLimit());
+  public Map<String, Object> dailyLimit() {
+    return bookingService.dailyLimitConfig();
   }
 
   @PutMapping("/daily-limit")
-  public Map<String, Integer> updateDailyLimit(@RequestBody Map<String, Integer> body) {
+  public Map<String, Object> updateDailyLimit(@RequestBody Map<String, Integer> body) {
     Integer limit = body == null ? null : body.get("limit");
     if (limit == null) {
       throw new IllegalArgumentException("名额不能为空");
     }
     bookingService.updateDailyBookingLimit(limit);
-    return Map.of("limit", bookingService.getDailyBookingLimit());
+    return bookingService.dailyLimitConfig();
+  }
+
+  @PutMapping("/daily-limit/{date}")
+  public Map<String, Object> updateDateLimit(
+      @PathVariable String date, @RequestBody Map<String, Integer> body) {
+    Integer limit = body == null ? null : body.get("limit");
+    if (limit == null) {
+      throw new IllegalArgumentException("名额不能为空");
+    }
+    bookingService.updateDailyBookingLimitForDate(LocalDate.parse(date), limit);
+    return bookingService.dailyLimitConfig();
+  }
+
+  @DeleteMapping("/daily-limit/{date}")
+  public Map<String, Object> deleteDateLimit(@PathVariable String date) {
+    bookingService.deleteDailyBookingLimitForDate(LocalDate.parse(date));
+    return bookingService.dailyLimitConfig();
   }
 
   @PatchMapping("/{id}/status")

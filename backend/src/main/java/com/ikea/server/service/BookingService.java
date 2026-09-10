@@ -12,6 +12,7 @@ import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.time.format.DateTimeParseException;
 import java.util.ArrayList;
+import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Map;
@@ -78,7 +79,7 @@ public class BookingService {
     if (!isWeekday(date)) {
       throw new IllegalArgumentException("周六、周日不可预约，请选择周一至周五");
     }
-    if (countBookingsOnDate(date) >= currentDailyBookingLimit()) {
+    if (countBookingsOnDate(date) >= effectiveDailyLimit(date)) {
       throw new IllegalArgumentException("该日期已约满，请选择其他日期");
     }
 
@@ -135,15 +136,15 @@ public class BookingService {
 
   public Map<String, Integer> bookingQuota(LocalDate date) {
     int booked = countBookingsOnDate(date);
-    int limit = currentDailyBookingLimit();
+    int limit = effectiveDailyLimit(date);
     return Map.of(
         "limit", limit,
         "booked", booked,
         "remaining", Math.max(0, limit - booked));
   }
 
-  /** 每个预约日期的名额上限，可在后台网站设置中配置 bookingDailyLimit。 */
-  private int currentDailyBookingLimit() {
+  /** 默认每个预约日期的名额上限，可在后台预约管理中配置 bookingDailyLimit。 */
+  private int defaultDailyBookingLimit() {
     JsonNode settings = adminSettingsService.get();
     JsonNode limit = settings == null ? null : settings.get("bookingDailyLimit");
     if (limit == null || limit.isNull() || !limit.isNumber()) {
@@ -153,11 +154,43 @@ public class BookingService {
     return value > 0 ? value : DEFAULT_DAILY_BOOKING_LIMIT;
   }
 
-  public int getDailyBookingLimit() {
-    return currentDailyBookingLimit();
+  /** 指定日期的实际名额：优先取该日期的专属名额，否则取默认名额。 */
+  public int effectiveDailyLimit(LocalDate date) {
+    int defaultLimit = defaultDailyBookingLimit();
+    JsonNode settings = adminSettingsService.get();
+    JsonNode overrides = settings == null ? null : settings.get("bookingDateLimits");
+    if (overrides != null && overrides.isObject()) {
+      JsonNode value = overrides.get(date.toString());
+      if (value != null && value.isNumber() && value.asInt(0) > 0) {
+        return value.asInt(defaultLimit);
+      }
+    }
+    return defaultLimit;
   }
 
-  /** 更新每个预约日期的名额上限，保留其它网站设置。 */
+  /** 后台展示：默认名额 + 各日期的专属名额。 */
+  public Map<String, Object> dailyLimitConfig() {
+    int defaultLimit = defaultDailyBookingLimit();
+    Map<String, Integer> overrides = new LinkedHashMap<>();
+    JsonNode settings = adminSettingsService.get();
+    JsonNode overridesNode = settings == null ? null : settings.get("bookingDateLimits");
+    if (overridesNode != null && overridesNode.isObject()) {
+      overridesNode
+          .fields()
+          .forEachRemaining(
+              entry -> {
+                if (entry.getValue() != null && entry.getValue().isNumber()) {
+                  overrides.put(entry.getKey(), entry.getValue().asInt());
+                }
+              });
+    }
+    Map<String, Object> result = new LinkedHashMap<>();
+    result.put("default", defaultLimit);
+    result.put("overrides", overrides);
+    return result;
+  }
+
+  /** 更新默认每个预约日期的名额上限，保留其它网站设置。 */
   @Transactional
   public void updateDailyBookingLimit(int limit) {
     if (limit <= 0) {
@@ -169,6 +202,41 @@ public class BookingService {
             ? JsonNodeFactory.instance.objectNode()
             : (ObjectNode) current.deepCopy();
     node.put("bookingDailyLimit", limit);
+    adminSettingsService.update(node);
+  }
+
+  /** 为指定日期设置专属名额，保留其它网站设置。 */
+  @Transactional
+  public void updateDailyBookingLimitForDate(LocalDate date, int limit) {
+    if (limit <= 0) {
+      throw new IllegalArgumentException("名额必须大于 0");
+    }
+    JsonNode current = adminSettingsService.get();
+    ObjectNode node =
+        current == null || current.isNull()
+            ? JsonNodeFactory.instance.objectNode()
+            : (ObjectNode) current.deepCopy();
+    ObjectNode overrides =
+        node.has("bookingDateLimits") && node.get("bookingDateLimits").isObject()
+            ? (ObjectNode) node.get("bookingDateLimits")
+            : JsonNodeFactory.instance.objectNode();
+    overrides.put(date.toString(), limit);
+    node.set("bookingDateLimits", overrides);
+    adminSettingsService.update(node);
+  }
+
+  /** 删除指定日期的专属名额，回落到默认名额。 */
+  @Transactional
+  public void deleteDailyBookingLimitForDate(LocalDate date) {
+    JsonNode current = adminSettingsService.get();
+    if (current == null || current.isNull()) {
+      return;
+    }
+    ObjectNode node = (ObjectNode) current.deepCopy();
+    JsonNode overridesNode = node.get("bookingDateLimits");
+    if (overridesNode != null && overridesNode.isObject()) {
+      ((ObjectNode) overridesNode).remove(date.toString());
+    }
     adminSettingsService.update(node);
   }
 

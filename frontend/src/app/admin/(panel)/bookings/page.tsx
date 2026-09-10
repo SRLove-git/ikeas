@@ -30,6 +30,11 @@ interface Booking {
   updatedAt: string
 }
 
+interface DailyLimitConfig {
+  default?: number
+  overrides?: Record<string, number>
+}
+
 function statusLabelKey(status: number): string {
   if (status === 1) return "admin.bookings.statusConfirmed"
   if (status === 2) return "admin.bookings.statusCompleted"
@@ -61,6 +66,9 @@ export default function BookingsPage() {
   const [redeeming, setRedeeming] = useState(false)
   const [redeemNotice, setRedeemNotice] = useState<string | null>(null)
   const [dailyLimit, setDailyLimit] = useState("")
+  const [overrideDate, setOverrideDate] = useState("")
+  const [overrideLimit, setOverrideLimit] = useState("")
+  const [overrides, setOverrides] = useState<Record<string, number>>({})
   const [savingLimit, setSavingLimit] = useState(false)
   const [limitNotice, setLimitNotice] = useState<string | null>(null)
 
@@ -80,14 +88,22 @@ export default function BookingsPage() {
 
   const loadDailyLimit = async () => {
     try {
-      const data = await adminFetch<{ limit?: number }>("/api/admin/server/bookings/daily-limit")
-      setDailyLimit(String(data.limit ?? ""))
+      const data = await adminFetch<DailyLimitConfig>(
+        "/api/admin/server/bookings/daily-limit",
+      )
+      setDailyLimit(String(data.default ?? 6))
+      setOverrides(data.overrides ?? {})
     } catch (e) {
       setError((e as Error).message)
     }
   }
 
-  const saveDailyLimit = async () => {
+  const applyLimitConfig = (data: DailyLimitConfig) => {
+    setDailyLimit(String(data.default ?? 6))
+    setOverrides(data.overrides ?? {})
+  }
+
+  const saveDefaultLimit = async () => {
     const value = Number(dailyLimit)
     if (!Number.isInteger(value) || value <= 0) {
       setLimitNotice(t("admin.bookings.dailyLimitInvalid"))
@@ -96,15 +112,62 @@ export default function BookingsPage() {
     setSavingLimit(true)
     setLimitNotice(null)
     try {
-      const data = await adminFetch<{ limit?: number }>(
+      const data = await adminFetch<DailyLimitConfig>(
         "/api/admin/server/bookings/daily-limit",
         {
           method: "PUT",
           body: JSON.stringify({ limit: value }),
         },
       )
-      setDailyLimit(String(data.limit ?? value))
+      applyLimitConfig(data)
       setLimitNotice(t("admin.bookings.dailyLimitSaved"))
+    } catch (e) {
+      setLimitNotice((e as Error).message)
+    } finally {
+      setSavingLimit(false)
+    }
+  }
+
+  const saveOverrideLimit = async () => {
+    if (!overrideDate) {
+      setLimitNotice(t("admin.bookings.dailyLimitDateEmpty"))
+      return
+    }
+    const value = Number(overrideLimit)
+    if (!Number.isInteger(value) || value <= 0) {
+      setLimitNotice(t("admin.bookings.dailyLimitInvalid"))
+      return
+    }
+    setSavingLimit(true)
+    setLimitNotice(null)
+    try {
+      const data = await adminFetch<DailyLimitConfig>(
+        `/api/admin/server/bookings/daily-limit/${overrideDate}`,
+        {
+          method: "PUT",
+          body: JSON.stringify({ limit: value }),
+        },
+      )
+      applyLimitConfig(data)
+      setOverrideDate("")
+      setOverrideLimit("")
+      setLimitNotice(t("admin.bookings.dailyLimitSaved"))
+    } catch (e) {
+      setLimitNotice((e as Error).message)
+    } finally {
+      setSavingLimit(false)
+    }
+  }
+
+  const deleteOverride = async (date: string) => {
+    setSavingLimit(true)
+    setLimitNotice(null)
+    try {
+      const data = await adminFetch<DailyLimitConfig>(
+        `/api/admin/server/bookings/daily-limit/${date}`,
+        { method: "DELETE" },
+      )
+      applyLimitConfig(data)
     } catch (e) {
       setLimitNotice((e as Error).message)
     } finally {
@@ -190,19 +253,71 @@ export default function BookingsPage() {
       <section className="mt-6 rounded-lg border border-ikea-gray-200 bg-white p-5">
         <h2 className="text-base font-bold">{t("admin.bookings.dailyLimitTitle")}</h2>
         <p className="mt-1 text-xs leading-5 text-ikea-muted">{t("admin.bookings.dailyLimitHint")}</p>
-        <div className="mt-4 flex flex-col gap-2 sm:flex-row sm:items-end">
-          <input
-            type="number"
-            min={1}
-            value={dailyLimit}
-            onChange={(event) => setDailyLimit(event.target.value)}
-            placeholder={t("admin.bookings.dailyLimitPlaceholder")}
-            className="h-10 w-full rounded-md border border-ikea-gray-200 px-3 text-sm outline-none focus:border-ikea-blue sm:max-w-xs"
-          />
-          <Button onClick={() => void saveDailyLimit()} disabled={savingLimit}>
-            {savingLimit ? t("admin.common.saving") : t("admin.bookings.dailyLimitSave")}
-          </Button>
+
+        <div className="mt-4 border-b border-ikea-gray-100 pb-4">
+          <p className="text-xs font-bold text-ikea-muted">{t("admin.bookings.dailyLimitDefaultLabel")}</p>
+          <div className="mt-2 flex flex-col gap-2 sm:flex-row sm:items-end">
+            <input
+              type="number"
+              min={1}
+              value={dailyLimit}
+              onChange={(event) => setDailyLimit(event.target.value)}
+              placeholder={t("admin.bookings.dailyLimitPlaceholder")}
+              className="h-10 w-full rounded-md border border-ikea-gray-200 px-3 text-sm outline-none focus:border-ikea-blue sm:max-w-xs"
+            />
+            <Button onClick={() => void saveDefaultLimit()} disabled={savingLimit}>
+              {savingLimit ? t("admin.common.saving") : t("admin.bookings.dailyLimitSave")}
+            </Button>
+          </div>
         </div>
+
+        <div className="mt-4">
+          <p className="text-xs font-bold text-ikea-muted">{t("admin.bookings.dailyLimitDateLabel")}</p>
+          <div className="mt-2 flex flex-col gap-2 sm:flex-row sm:items-end">
+            <input
+              type="date"
+              value={overrideDate}
+              onChange={(event) => setOverrideDate(event.target.value)}
+              className="h-10 rounded-md border border-ikea-gray-200 px-3 text-sm outline-none focus:border-ikea-blue"
+            />
+            <input
+              type="number"
+              min={1}
+              value={overrideLimit}
+              onChange={(event) => setOverrideLimit(event.target.value)}
+              placeholder={t("admin.bookings.dailyLimitPlaceholder")}
+              className="h-10 w-full rounded-md border border-ikea-gray-200 px-3 text-sm outline-none focus:border-ikea-blue sm:max-w-xs"
+            />
+            <Button onClick={() => void saveOverrideLimit()} disabled={savingLimit}>
+              {t("admin.bookings.dailyLimitDateSave")}
+            </Button>
+          </div>
+        </div>
+
+        <div className="mt-4">
+          <p className="text-xs font-bold text-ikea-muted">{t("admin.bookings.dailyLimitOverridesTitle")}</p>
+          {Object.keys(overrides).length === 0 ? (
+            <p className="mt-2 text-sm text-ikea-muted">{t("admin.bookings.dailyLimitNoOverrides")}</p>
+          ) : (
+            <ul className="mt-2 divide-y divide-ikea-gray-100 rounded-md border border-ikea-gray-100">
+              {Object.entries(overrides)
+                .sort(([a], [b]) => a.localeCompare(b))
+                .map(([date, limit]) => (
+                  <li
+                    key={date}
+                    className="flex items-center justify-between gap-3 px-3 py-2 text-sm"
+                  >
+                    <span className="font-medium">{date}</span>
+                    <span className="font-bold text-ikea-blue">{limit}</span>
+                    <Button variant="danger" onClick={() => void deleteOverride(date)}>
+                      {t("admin.bookings.dailyLimitDateDelete")}
+                    </Button>
+                  </li>
+                ))}
+            </ul>
+          )}
+        </div>
+
         {limitNotice ? (
           <p className="mt-3 text-sm text-ikea-blue">{limitNotice}</p>
         ) : null}
