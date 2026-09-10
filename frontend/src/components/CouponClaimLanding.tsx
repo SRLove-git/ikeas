@@ -107,15 +107,6 @@ export function CouponClaimLanding() {
         ) : (
           <div className="mx-auto mt-8 max-w-md">
             <div className="text-left">
-              <label className="block text-sm font-bold">{t("couponClaim.secretLabel")}</label>
-              <input
-                value={secret}
-                onChange={(event) => setSecret(event.target.value)}
-                placeholder={t("couponClaim.secretPlaceholder")}
-                className="mt-2 h-11 w-full rounded border border-ikea-gray-200 px-3 text-sm outline-none focus:border-ikea-blue"
-              />
-            </div>
-            <div className="mt-4 text-left">
               <label className="block text-sm font-bold">{t("couponClaim.emailLabel")}</label>
               <input
                 type="email"
@@ -125,6 +116,15 @@ export function CouponClaimLanding() {
                   if (event.key === "Enter" && !submitting) void submit()
                 }}
                 placeholder={t("couponClaim.emailPlaceholder")}
+                className="mt-2 h-11 w-full rounded border border-ikea-gray-200 px-3 text-sm outline-none focus:border-ikea-blue"
+              />
+            </div>
+            <div className="mt-4 text-left">
+              <label className="block text-sm font-bold">{t("couponClaim.secretLabel")}</label>
+              <input
+                value={secret}
+                onChange={(event) => setSecret(event.target.value)}
+                placeholder={t("couponClaim.secretPlaceholder")}
                 className="mt-2 h-11 w-full rounded border border-ikea-gray-200 px-3 text-sm outline-none focus:border-ikea-blue"
               />
             </div>
