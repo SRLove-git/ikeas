@@ -2,6 +2,8 @@ package com.ikea.server.service;
 
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.node.JsonNodeFactory;
+import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.ikea.server.dto.booking.BookingDtos.CreateBookingRequest;
 import com.ikea.server.entity.Booking;
 import com.ikea.server.entity.Coupon;
@@ -149,6 +151,25 @@ public class BookingService {
     }
     int value = limit.asInt(DEFAULT_DAILY_BOOKING_LIMIT);
     return value > 0 ? value : DEFAULT_DAILY_BOOKING_LIMIT;
+  }
+
+  public int getDailyBookingLimit() {
+    return currentDailyBookingLimit();
+  }
+
+  /** 更新每个预约日期的名额上限，保留其它网站设置。 */
+  @Transactional
+  public void updateDailyBookingLimit(int limit) {
+    if (limit <= 0) {
+      throw new IllegalArgumentException("名额必须大于 0");
+    }
+    JsonNode current = adminSettingsService.get();
+    ObjectNode node =
+        current == null || current.isNull()
+            ? JsonNodeFactory.instance.objectNode()
+            : (ObjectNode) current.deepCopy();
+    node.put("bookingDailyLimit", limit);
+    adminSettingsService.update(node);
   }
 
   public List<Booking> listBookings(String keyword, Integer status) {

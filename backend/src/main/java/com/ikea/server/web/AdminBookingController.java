@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PatchMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -29,6 +30,21 @@ public class AdminBookingController {
       @RequestParam(required = false) String q,
       @RequestParam(required = false) Integer status) {
     return bookingService.listBookings(q, status);
+  }
+
+  @GetMapping("/daily-limit")
+  public Map<String, Integer> dailyLimit() {
+    return Map.of("limit", bookingService.getDailyBookingLimit());
+  }
+
+  @PutMapping("/daily-limit")
+  public Map<String, Integer> updateDailyLimit(@RequestBody Map<String, Integer> body) {
+    Integer limit = body == null ? null : body.get("limit");
+    if (limit == null) {
+      throw new IllegalArgumentException("名额不能为空");
+    }
+    bookingService.updateDailyBookingLimit(limit);
+    return Map.of("limit", bookingService.getDailyBookingLimit());
   }
 
   @PatchMapping("/{id}/status")

@@ -60,6 +60,9 @@ export default function BookingsPage() {
   const [redeemCode, setRedeemCode] = useState("")
   const [redeeming, setRedeeming] = useState(false)
   const [redeemNotice, setRedeemNotice] = useState<string | null>(null)
+  const [dailyLimit, setDailyLimit] = useState("")
+  const [savingLimit, setSavingLimit] = useState(false)
+  const [limitNotice, setLimitNotice] = useState<string | null>(null)
 
   const load = async () => {
     try {
@@ -72,6 +75,40 @@ export default function BookingsPage() {
       setError(null)
     } catch (e) {
       setError(`${t("admin.bookings.loadFailed")}：${(e as Error).message}`)
+    }
+  }
+
+  const loadDailyLimit = async () => {
+    try {
+      const data = await adminFetch<{ limit?: number }>("/api/admin/server/bookings/daily-limit")
+      setDailyLimit(String(data.limit ?? ""))
+    } catch (e) {
+      setError((e as Error).message)
+    }
+  }
+
+  const saveDailyLimit = async () => {
+    const value = Number(dailyLimit)
+    if (!Number.isInteger(value) || value <= 0) {
+      setLimitNotice(t("admin.bookings.dailyLimitInvalid"))
+      return
+    }
+    setSavingLimit(true)
+    setLimitNotice(null)
+    try {
+      const data = await adminFetch<{ limit?: number }>(
+        "/api/admin/server/bookings/daily-limit",
+        {
+          method: "PUT",
+          body: JSON.stringify({ limit: value }),
+        },
+      )
+      setDailyLimit(String(data.limit ?? value))
+      setLimitNotice(t("admin.bookings.dailyLimitSaved"))
+    } catch (e) {
+      setLimitNotice((e as Error).message)
+    } finally {
+      setSavingLimit(false)
     }
   }
 
@@ -91,6 +128,10 @@ export default function BookingsPage() {
     return () => {
       cancelled = true
     }
+  }, [])
+
+  useEffect(() => {
+    void loadDailyLimit()
   }, [])
 
   const updateStatus = async (booking: Booking, status: number) => {
@@ -145,6 +186,27 @@ export default function BookingsPage() {
       <PageHeader title={t("admin.bookings.title")} description={t("admin.bookings.desc")} />
 
       {error ? <Notice kind="error">{error}</Notice> : null}
+
+      <section className="mt-6 rounded-lg border border-ikea-gray-200 bg-white p-5">
+        <h2 className="text-base font-bold">{t("admin.bookings.dailyLimitTitle")}</h2>
+        <p className="mt-1 text-xs leading-5 text-ikea-muted">{t("admin.bookings.dailyLimitHint")}</p>
+        <div className="mt-4 flex flex-col gap-2 sm:flex-row sm:items-end">
+          <input
+            type="number"
+            min={1}
+            value={dailyLimit}
+            onChange={(event) => setDailyLimit(event.target.value)}
+            placeholder={t("admin.bookings.dailyLimitPlaceholder")}
+            className="h-10 w-full rounded-md border border-ikea-gray-200 px-3 text-sm outline-none focus:border-ikea-blue sm:max-w-xs"
+          />
+          <Button onClick={() => void saveDailyLimit()} disabled={savingLimit}>
+            {savingLimit ? t("admin.common.saving") : t("admin.bookings.dailyLimitSave")}
+          </Button>
+        </div>
+        {limitNotice ? (
+          <p className="mt-3 text-sm text-ikea-blue">{limitNotice}</p>
+        ) : null}
+      </section>
 
       <section className="mt-6 rounded-lg border border-ikea-blue/20 bg-ikea-blue/5 p-5">
         <h2 className="text-base font-bold">{t("admin.bookings.redeemTitle")}</h2>
