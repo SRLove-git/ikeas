@@ -380,6 +380,11 @@ public class ExperienceVoucherService {
       throw new IllegalArgumentException("券已使用，不能删除");
     }
     voucherMapper.deleteById(id);
+    // 同步删除该券的申请邮箱记录，释放该邮箱，使其可以重新申请。
+    voucherEmailClaimMapper.delete(
+        Wrappers.lambdaQuery(VoucherEmailClaim.class)
+            .eq(VoucherEmailClaim::getVoucherId, id)
+            .eq(VoucherEmailClaim::getDeleted, 0));
   }
 
   public ValidateVoucherResponse validate(String code) {
