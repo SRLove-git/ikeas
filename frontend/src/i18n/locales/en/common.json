@@ -466,7 +466,7 @@
     "colStatus": "Status",
     "colCreatedAt": "Created at",
     "colActions": "Actions",
-    "claimSecretTitle": "Redemption code",
+    "claimSecretTitle": "Secret key",
     "currentSecret": "Current secret",
     "newSecretPlaceholder": "Enter new base secret",
     "updateSecret": "Update base secret",
@@ -476,10 +476,10 @@
     "failed": "Failed to redeem. Please try again later."
   },
   "claimCode": {
-    "title": "Redemption code",
-    "hint": "The redemption code refreshes every 30 seconds. Use it promptly.",
+    "title": "Secret key",
+    "hint": "The secret key refreshes every 30 seconds. Use it promptly.",
     "seconds": "sec",
-    "codeLabel": "Current redemption code",
+    "codeLabel": "Current secret key",
     "loading": "Loading…"
   },
   "cartPage": {
