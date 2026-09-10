@@ -376,144 +376,9 @@ export function StaffRedeemPanel() {
         <h1 className="text-2xl font-bold leading-9">{t("staffRedeem.title")}</h1>
         <p className="mt-2 text-sm leading-6 text-ikea-muted">{t("staffRedeem.intro")}</p>
 
-        <div className="mt-6 rounded-lg border border-ikea-gray-200 bg-white p-5">
-          <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-            <div>
-              <h2 className="text-base font-bold">{t("staffRedeem.quotaTitle")}</h2>
-              <p className="mt-1 text-xs leading-5 text-ikea-muted">{t("staffRedeem.quotaHint")}</p>
-            </div>
-            <input
-              type="date"
-              value={quotaDate}
-              onChange={(event) => setQuotaDate(event.target.value)}
-              className="h-10 rounded-md border border-ikea-gray-200 bg-white px-3 text-sm outline-none focus:border-ikea-blue"
-            />
-          </div>
-          {quota && quota.limit > 0 ? (
-            <div className="mt-4">
-              <div className="flex items-center justify-between text-xs">
-                <span className="text-ikea-muted">
-                  {t("bookingForm.dailyLimit", { limit: quota.limit })}
-                </span>
-                <span className="font-bold text-green-600">
-                  {t("bookingForm.remainingQuota", { count: quota.remaining })}
-                </span>
-              </div>
-              <div className="mt-2 h-2.5 w-full overflow-hidden rounded-full bg-ikea-gray-200">
-                <div
-                  className="h-full rounded-full bg-green-500 transition-all duration-500"
-                  style={{ width: `${(quota.remaining / quota.limit) * 100}%` }}
-                />
-              </div>
-            </div>
-          ) : null}
-          <div className="mt-4 flex flex-col gap-2 border-t border-ikea-gray-100 pt-4 sm:flex-row sm:items-end">
-            <div className="min-w-0 flex-1">
-              <p className="text-xs font-bold text-ikea-muted">{t("staffRedeem.quotaSetLabel")}</p>
-              <input
-                type="number"
-                min={1}
-                value={quotaLimitInput}
-                onChange={(event) => setQuotaLimitInput(event.target.value)}
-                placeholder={t("staffRedeem.quotaPlaceholder")}
-                className="mt-1 h-10 w-full rounded-md border border-ikea-gray-200 px-3 text-sm outline-none focus:border-ikea-blue sm:max-w-xs"
-              />
-            </div>
-            <button
-              type="button"
-              onClick={() => void saveQuotaForDate()}
-              disabled={savingQuota}
-              className="h-10 rounded bg-ikea-blue px-5 text-sm font-bold text-white hover:opacity-90 disabled:opacity-50"
-            >
-              {savingQuota ? t("staffRedeem.quotaSaving") : t("staffRedeem.quotaSave")}
-            </button>
-          </div>
-          {quotaNotice ? <p className="mt-3 text-sm text-ikea-blue">{quotaNotice}</p> : null}
-        </div>
-
-        <div className="mt-6 rounded-lg bg-white p-6 shadow-sm">
-          <div className="grid gap-4 md:grid-cols-[1fr_auto]">
-            <label className="block">
-              <span className="text-sm font-bold">{t("staffRedeem.codeLabel")}</span>
-              <input
-                value={code}
-                onChange={(event) => setCode(event.target.value)}
-                onKeyDown={(event) => {
-                  if (event.key === "Enter" && !submitting) void doRedeem(code)
-                }}
-                placeholder={t("staffRedeem.codePlaceholder")}
-                className="mt-1.5 h-11 w-full border border-ikea-gray-200 px-4 text-sm uppercase outline-none focus:border-ikea-blue"
-              />
-            </label>
-            <div className="flex items-end gap-2">
-              <button
-                type="button"
-                onClick={() => void doRedeem(code)}
-                disabled={submitting}
-                className="i-btn i-btn--primary h-11 px-6 text-sm font-bold text-white disabled:opacity-40"
-              >
-                {submitting ? t("staffRedeem.submitting") : t("staffRedeem.submit")}
-              </button>
-              {!scanning ? (
-                <button
-                  type="button"
-                  onClick={() => void startScanning()}
-                  className="h-11 rounded border border-ikea-blue px-4 text-sm font-bold text-ikea-blue hover:bg-ikea-blue/5"
-                >
-                  {t("staffRedeem.scan")}
-                </button>
-              ) : null}
-            </div>
-          </div>
-
-          {scanning ? (
-            <div className="mt-4 space-y-2">
-              <video
-                ref={videoRef}
-                playsInline
-                muted
-                autoPlay
-                className="aspect-video w-full max-w-md rounded border border-ikea-gray-200 bg-black object-cover"
-              />
-              <button
-                type="button"
-                onClick={stopScanning}
-                className="rounded bg-ikea-gray-200 px-4 py-2 text-sm font-bold hover:bg-ikea-gray-300"
-              >
-                {t("staffRedeem.stopScan")}
-              </button>
-            </div>
-          ) : null}
-
-          {scanError ? (
-            <p className="mt-3 rounded bg-amber-50 px-4 py-3 text-sm text-amber-700">{scanError}</p>
-          ) : null}
-          {error ? (
-            <p className="mt-3 rounded bg-red-50 px-4 py-3 text-sm text-red-600">{error}</p>
-          ) : null}
-          {redeemedNo ? (
-            <p className="mt-3 rounded bg-green-50 px-4 py-3 text-sm text-green-700">
-              {t("staffRedeem.redeemSuccess", { no: redeemedNo })}
-            </p>
-          ) : null}
-
-          <div className="mt-5 border-t border-ikea-gray-200 pt-5">
-            <h3 className="text-sm font-bold">{t("staffRedeem.claimSecretTitle")}</h3>
-            <div className="mt-3">
-              <p className="text-xs text-ikea-muted">{t("claimCode.codeLabel")}</p>
-              <div className="mt-1 flex items-baseline gap-2">
-                <p className="font-mono text-2xl font-bold tracking-wider text-ikea-blue">
-                  {claimCode || "------"}
-                </p>
-                <span className="text-sm font-bold tabular-nums text-ikea-muted">
-                  {claimRemaining}s
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="mt-6 overflow-hidden rounded-lg border border-ikea-gray-200 bg-white">
+        <div className="mt-6 grid gap-6 xl:grid-cols-[1fr_360px] xl:items-start">
+          <div className="space-y-6">
+            <div className="overflow-hidden rounded-lg border border-ikea-gray-200 bg-white">
           <div className="flex items-center justify-between border-b border-ikea-gray-200 px-5 py-4">
             <h2 className="text-base font-bold">{t("staffRedeem.listTitle")}</h2>
             <button
@@ -586,9 +451,9 @@ export function StaffRedeemPanel() {
               </table>
             </div>
           )}
-        </div>
+            </div>
 
-        <div className="mt-6 overflow-hidden rounded-lg border border-ikea-gray-200 bg-white">
+            <div className="overflow-hidden rounded-lg border border-ikea-gray-200 bg-white">
           <div className="flex flex-col gap-3 border-b border-ikea-gray-200 px-5 py-4 sm:flex-row sm:items-center sm:justify-between">
             <h2 className="text-base font-bold">{t("staffRedeem.voucherListTitle")}</h2>
             <div className="flex items-center gap-2">
@@ -657,6 +522,147 @@ export function StaffRedeemPanel() {
               </div>
             )
           })()}
+            </div>
+          </div>
+
+          <div className="space-y-6">
+            <div className="rounded-lg border border-ikea-gray-200 bg-white p-5">
+              <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+                <div>
+                  <h2 className="text-base font-bold">{t("staffRedeem.quotaTitle")}</h2>
+                  <p className="mt-1 text-xs leading-5 text-ikea-muted">{t("staffRedeem.quotaHint")}</p>
+                </div>
+                <input
+                  type="date"
+                  value={quotaDate}
+                  onChange={(event) => setQuotaDate(event.target.value)}
+                  className="h-10 rounded-md border border-ikea-gray-200 bg-white px-3 text-sm outline-none focus:border-ikea-blue"
+                />
+              </div>
+              {quota && quota.limit > 0 ? (
+                <div className="mt-4">
+                  <div className="flex items-center justify-between text-xs">
+                    <span className="text-ikea-muted">
+                      {t("bookingForm.dailyLimit", { limit: quota.limit })}
+                    </span>
+                    <span className="font-bold text-green-600">
+                      {t("bookingForm.remainingQuota", { count: quota.remaining })}
+                    </span>
+                  </div>
+                  <div className="mt-2 h-2.5 w-full overflow-hidden rounded-full bg-ikea-gray-200">
+                    <div
+                      className="h-full rounded-full bg-green-500 transition-all duration-500"
+                      style={{ width: `${(quota.remaining / quota.limit) * 100}%` }}
+                    />
+                  </div>
+                </div>
+              ) : null}
+              <div className="mt-4 flex flex-col gap-2 border-t border-ikea-gray-100 pt-4 sm:flex-row sm:items-end">
+                <div className="min-w-0 flex-1">
+                  <p className="text-xs font-bold text-ikea-muted">{t("staffRedeem.quotaSetLabel")}</p>
+                  <input
+                    type="number"
+                    min={1}
+                    value={quotaLimitInput}
+                    onChange={(event) => setQuotaLimitInput(event.target.value)}
+                    placeholder={t("staffRedeem.quotaPlaceholder")}
+                    className="mt-1 h-10 w-full rounded-md border border-ikea-gray-200 px-3 text-sm outline-none focus:border-ikea-blue sm:max-w-xs"
+                  />
+                </div>
+                <button
+                  type="button"
+                  onClick={() => void saveQuotaForDate()}
+                  disabled={savingQuota}
+                  className="h-10 rounded bg-ikea-blue px-5 text-sm font-bold text-white hover:opacity-90 disabled:opacity-50"
+                >
+                  {savingQuota ? t("staffRedeem.quotaSaving") : t("staffRedeem.quotaSave")}
+                </button>
+              </div>
+              {quotaNotice ? <p className="mt-3 text-sm text-ikea-blue">{quotaNotice}</p> : null}
+            </div>
+
+            <div className="rounded-lg bg-white p-6 shadow-sm">
+              <div className="grid gap-4 md:grid-cols-[1fr_auto]">
+                <label className="block">
+                  <span className="text-sm font-bold">{t("staffRedeem.codeLabel")}</span>
+                  <input
+                    value={code}
+                    onChange={(event) => setCode(event.target.value)}
+                    onKeyDown={(event) => {
+                      if (event.key === "Enter" && !submitting) void doRedeem(code)
+                    }}
+                    placeholder={t("staffRedeem.codePlaceholder")}
+                    className="mt-1.5 h-11 w-full border border-ikea-gray-200 px-4 text-sm uppercase outline-none focus:border-ikea-blue"
+                  />
+                </label>
+                <div className="flex items-end gap-2">
+                  <button
+                    type="button"
+                    onClick={() => void doRedeem(code)}
+                    disabled={submitting}
+                    className="i-btn i-btn--primary h-11 px-6 text-sm font-bold text-white disabled:opacity-40"
+                  >
+                    {submitting ? t("staffRedeem.submitting") : t("staffRedeem.submit")}
+                  </button>
+                  {!scanning ? (
+                    <button
+                      type="button"
+                      onClick={() => void startScanning()}
+                      className="h-11 rounded border border-ikea-blue px-4 text-sm font-bold text-ikea-blue hover:bg-ikea-blue/5"
+                    >
+                      {t("staffRedeem.scan")}
+                    </button>
+                  ) : null}
+                </div>
+              </div>
+
+              {scanning ? (
+                <div className="mt-4 space-y-2">
+                  <video
+                    ref={videoRef}
+                    playsInline
+                    muted
+                    autoPlay
+                    className="aspect-video w-full max-w-md rounded border border-ikea-gray-200 bg-black object-cover"
+                  />
+                  <button
+                    type="button"
+                    onClick={stopScanning}
+                    className="rounded bg-ikea-gray-200 px-4 py-2 text-sm font-bold hover:bg-ikea-gray-300"
+                  >
+                    {t("staffRedeem.stopScan")}
+                  </button>
+                </div>
+              ) : null}
+
+              {scanError ? (
+                <p className="mt-3 rounded bg-amber-50 px-4 py-3 text-sm text-amber-700">{scanError}</p>
+              ) : null}
+              {error ? (
+                <p className="mt-3 rounded bg-red-50 px-4 py-3 text-sm text-red-600">{error}</p>
+              ) : null}
+              {redeemedNo ? (
+                <p className="mt-3 rounded bg-green-50 px-4 py-3 text-sm text-green-700">
+                  {t("staffRedeem.redeemSuccess", { no: redeemedNo })}
+                </p>
+              ) : null}
+
+              <div className="mt-5 border-t border-ikea-gray-200 pt-5">
+                <h3 className="text-sm font-bold">{t("staffRedeem.claimSecretTitle")}</h3>
+                <div className="mt-3">
+                  <p className="text-xs text-ikea-muted">{t("claimCode.codeLabel")}</p>
+                  <div className="mt-1 flex items-baseline gap-2">
+                    <p className="font-mono text-2xl font-bold tracking-wider text-ikea-blue">
+                      {claimCode || "------"}
+                    </p>
+                    <span className="text-sm font-bold tabular-nums text-ikea-muted">
+                      {claimRemaining}s
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
