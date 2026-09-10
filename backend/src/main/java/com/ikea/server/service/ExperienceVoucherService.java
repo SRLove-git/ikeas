@@ -154,11 +154,25 @@ public class ExperienceVoucherService {
           claim.getVoucherId() == null ? null : voucherMapper.selectById(claim.getVoucherId());
       views.add(
           new VoucherClaimView(
+              claim.getId(),
               claim.getEmail(),
               voucher == null ? "" : voucher.getCode(),
               claim.getCreatedAt()));
     }
     return views;
+  }
+
+  /** 删除一条体验券申请邮箱记录（逻辑删除）。 */
+  @Transactional
+  public void deleteVoucherClaim(Long id) {
+    if (id == null) {
+      throw new IllegalArgumentException("申请记录不存在");
+    }
+    VoucherEmailClaim claim = voucherEmailClaimMapper.selectById(id);
+    if (claim == null || (claim.getDeleted() != null && claim.getDeleted() == 1)) {
+      throw new IllegalArgumentException("申请记录不存在");
+    }
+    voucherEmailClaimMapper.deleteById(id);
   }
 
   /** 自动兑换：将当前用户名下 3 张未使用的积分券合并成 1 张体验券。 */

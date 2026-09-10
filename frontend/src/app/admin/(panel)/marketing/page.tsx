@@ -26,6 +26,7 @@ interface Coupon {
 }
 
 interface VoucherClaim {
+  id: string
   email: string
   code: string
   createdAt: string
@@ -116,6 +117,18 @@ export default function MarketingPage() {
     try {
       const data = await adminFetch<VoucherClaim[]>("/api/admin/server/experience-vouchers/claims")
       setClaims(data)
+    } catch (e) {
+      setError((e as Error).message)
+    }
+  }
+
+  const deleteClaim = async (claim: VoucherClaim) => {
+    if (!window.confirm(t("admin.marketing.confirmDeleteClaim"))) return
+    try {
+      await adminFetch(`/api/admin/server/experience-vouchers/claims/${claim.id}`, {
+        method: "DELETE",
+      })
+      await loadClaims()
     } catch (e) {
       setError((e as Error).message)
     }
@@ -618,6 +631,9 @@ export default function MarketingPage() {
                     <th className="px-5 py-3 font-medium">{t("admin.marketing.colEmail")}</th>
                     <th className="px-5 py-3 font-medium">{t("admin.marketing.colVoucher")}</th>
                     <th className="px-5 py-3 font-medium">{t("admin.marketing.colTime")}</th>
+                    <th className="px-5 py-3 text-right font-medium">
+                      {t("admin.common.colActions")}
+                    </th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-ikea-gray-200">
@@ -627,6 +643,11 @@ export default function MarketingPage() {
                       <td className="px-5 py-3 font-mono text-xs font-bold">{claim.code}</td>
                       <td className="px-5 py-3 text-ikea-muted">
                         {claim.createdAt ? new Date(claim.createdAt).toLocaleString("zh-CN") : "—"}
+                      </td>
+                      <td className="px-5 py-3 text-right">
+                        <Button variant="danger" onClick={() => void deleteClaim(claim)}>
+                          {t("admin.marketing.delete")}
+                        </Button>
                       </td>
                     </tr>
                   ))}

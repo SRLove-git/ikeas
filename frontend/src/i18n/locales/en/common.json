@@ -1280,6 +1280,7 @@
       "voucherClaims": "Experience voucher claim emails",
       "refresh": "Refresh",
       "emptyClaims": "No claims yet",
+      "confirmDeleteClaim": "Delete this claim record?",
       "colEmail": "Email",
       "colVoucher": "Voucher code",
       "colTime": "Claimed at",

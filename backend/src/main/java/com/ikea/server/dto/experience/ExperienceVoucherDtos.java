@@ -33,5 +33,5 @@ public final class ExperienceVoucherDtos {
 
   public record ClaimVoucherBySecretRequest(String email, String secret, String deviceId) {}
 
-  public record VoucherClaimView(String email, String code, LocalDateTime createdAt) {}
+  public record VoucherClaimView(Long id, String email, String code, LocalDateTime createdAt) {}
 }

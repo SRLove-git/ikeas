@@ -46,6 +46,12 @@ public class AdminExperienceVoucherController {
     return voucherService.listVoucherClaims();
   }
 
+  @DeleteMapping("/claims/{id}")
+  public Map<String, Boolean> deleteClaim(@PathVariable Long id) {
+    voucherService.deleteVoucherClaim(id);
+    return Map.of("ok", true);
+  }
+
   @PostMapping
   public List<ExperienceVoucher> createVouchers(@RequestBody AdminCreateVouchersRequest request) {
     return voucherService.createVouchers(request);
