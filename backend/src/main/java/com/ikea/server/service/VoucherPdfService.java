@@ -43,12 +43,19 @@ public class VoucherPdfService {
   private static final float EXPERIENCE_QR_X = 430f;
   private static final float EXPERIENCE_QR_Y = 635f;
   private static final float EXPERIENCE_QR_SIZE = 118f;
-  private static final float EXPERIENCE_CODE_X = 245f;
-  private static final float EXPERIENCE_CODE_Y = 104f;
-  private static final float EXPERIENCE_VALID_X = 107f;
+  // The voucher number belongs to the left information card. Keep it on its own line below
+  // the bilingual label so production-length codes cannot spill into the disclaimer card.
+  private static final float EXPERIENCE_CODE_X = 139f;
+  private static final float EXPERIENCE_CODE_Y = 89f;
+  private static final float EXPERIENCE_CODE_MAX_WIDTH = 174f;
+  private static final float EXPERIENCE_VALID_X = 139f;
   private static final float EXPERIENCE_VALID_Y = 55f;
+  private static final float EXPERIENCE_VALID_COVER_X = 112f;
+  private static final float EXPERIENCE_VALID_COVER_Y = 50f;
+  private static final float EXPERIENCE_VALID_COVER_WIDTH = 54f;
+  private static final float EXPERIENCE_VALID_COVER_HEIGHT = 16f;
 
-  private static final DateTimeFormatter VALID_UNTIL = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+  private static final DateTimeFormatter VALID_UNTIL = DateTimeFormatter.ofPattern("yyyy.MM.dd");
 
   private final String bookingUrl;
   private final String pointsRedeemUrl;
@@ -133,8 +140,21 @@ public class VoucherPdfService {
             document, page, PDPageContentStream.AppendMode.APPEND, true, true)) {
       cover(cs, EXPERIENCE_QR_X, EXPERIENCE_QR_Y, EXPERIENCE_QR_SIZE, EXPERIENCE_QR_SIZE);
       drawQr(cs, bookingUrlFor(code), EXPERIENCE_QR_X, EXPERIENCE_QR_Y, EXPERIENCE_QR_SIZE);
-      drawCentered(cs, codeFont, 11, code, EXPERIENCE_CODE_X, EXPERIENCE_CODE_Y);
+      drawCenteredFitted(
+          cs,
+          codeFont,
+          8,
+          code,
+          EXPERIENCE_CODE_X,
+          EXPERIENCE_CODE_Y,
+          EXPERIENCE_CODE_MAX_WIDTH);
       if (validUntil != null) {
+        cover(
+            cs,
+            EXPERIENCE_VALID_COVER_X,
+            EXPERIENCE_VALID_COVER_Y,
+            EXPERIENCE_VALID_COVER_WIDTH,
+            EXPERIENCE_VALID_COVER_HEIGHT);
         drawCentered(
             cs,
             codeFont,
@@ -163,6 +183,23 @@ public class VoucherPdfService {
     cs.newLineAtOffset(centerX - width / 2f, baselineY);
     cs.showText(text);
     cs.endText();
+  }
+
+  private void drawCenteredFitted(
+      PDPageContentStream cs,
+      PDType1Font font,
+      float preferredSize,
+      String text,
+      float centerX,
+      float baselineY,
+      float maxWidth)
+      throws IOException {
+    float unscaledWidth = font.getStringWidth(text) / 1000f;
+    float fittedSize =
+        unscaledWidth <= 0
+            ? preferredSize
+            : Math.min(preferredSize, maxWidth / unscaledWidth);
+    drawCentered(cs, font, fittedSize, text, centerX, baselineY);
   }
 
   private void drawQr(PDPageContentStream cs, String content, float x, float y, float size) {

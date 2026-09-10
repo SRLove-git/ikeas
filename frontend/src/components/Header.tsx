@@ -1,12 +1,13 @@
 "use client"
 
 import Link from "next/link"
-import { useEffect, useMemo, useState } from "react"
+import { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react"
 import { useTranslation } from "react-i18next"
 import { CartIcon, HeartIcon, SearchIcon, UserIcon } from "@/components/icons"
 import { MegaMenu, toPath, type CategoryGroup } from "@/components/MegaMenu"
 import { MenuPanel } from "@/components/MenuPanel"
 import { SearchPanel } from "@/components/SearchPanel"
+import { useLocale } from "@/i18n/LanguageProvider"
 import { LanguageSwitch } from "@/i18n/LanguageSwitch"
 import { useAuth } from "@/lib/auth"
 import { apiJson, getToken, type Cart } from "@/lib/api"
@@ -21,7 +22,10 @@ interface HeaderProps {
 }
 
 export function Header({ menuItems, searchHints, menuPanels, categories }: HeaderProps) {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
+  const { locale } = useLocale()
+  const topContentInnerRef = useRef<HTMLDivElement>(null)
+  const navRef = useRef<HTMLElement>(null)
   const [openMenu, setOpenMenu] = useState<string | null>(null)
   const [openPanel, setOpenPanel] = useState<string | null>(null)
   const [bar, setBar] = useState({ width: 0, left: 0, opacity: 0 })
@@ -29,8 +33,88 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
   const [searchOpen, setSearchOpen] = useState(false)
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [moreOpen, setMoreOpen] = useState(false)
+  const [navCompact, setNavCompact] = useState(false)
   const [cartCount, setCartCount] = useState(0)
   const { user } = useAuth()
+
+  // The legacy CSS folds overflow into the "更多" dropdown only below 1280px.
+  // Longer English labels overflow the fixed-width row above that breakpoint
+  // and the flex layout squeezes the logo to zero. Measure the real row
+  // requirements (without letting flex shrink anything) and fold into the
+  // existing dropdown whenever the inline entries cannot fit.
+  useLayoutEffect(() => {
+    const inner = topContentInnerRef.current
+    const nav = navRef.current
+    if (!inner || !nav) return
+
+    const measure = () => {
+      if (window.innerWidth < 1280) {
+        setNavCompact(false)
+        return
+      }
+      // Show every inline entry while measuring, regardless of the current
+      // compact state (inline styles override the compact class without
+      // touching the class React renders), then freeze shrink so the row
+      // reports its true width.
+      const moreItem = nav.querySelector<HTMLLIElement>(
+        ":scope > .header_container_center_ul > li.header-nav-more",
+      )
+      const hiddenItems = Array.from(
+        nav.querySelectorAll<HTMLLIElement>(
+          ":scope > .header_container_center_ul > li:nth-of-type(n + 2):not(.header-nav-more)",
+        ),
+      )
+      const moreOriginalDisplay = moreItem?.style.display ?? null
+      const hiddenOriginalDisplays = hiddenItems.map((item) => item.style.display)
+      if (moreItem) moreItem.style.display = "none"
+      hiddenItems.forEach((item) => {
+        item.style.display = "block"
+      })
+      const children = Array.from(inner.children).filter(
+        (child): child is HTMLElement =>
+          child instanceof HTMLElement && getComputedStyle(child).display !== "none",
+      )
+      const originalStyles = children.map((child) => ({
+        flexShrink: child.style.flexShrink,
+        minWidth: child.style.minWidth,
+        overflow: child.style.overflow,
+      }))
+      children.forEach((child) => {
+        if (child === nav) {
+          // Let the nav take the space that remains after the logo and the
+          // right-side cluster, then check whether its own entries overflow.
+          child.style.flexShrink = "1"
+          child.style.minWidth = "0"
+          child.style.overflow = "hidden"
+        } else {
+          child.style.flexShrink = "0"
+        }
+      })
+      const needsCompact = nav.scrollWidth > nav.clientWidth
+      children.forEach((child, index) => {
+        const original = originalStyles[index]
+        child.style.flexShrink = original.flexShrink
+        child.style.minWidth = original.minWidth
+        child.style.overflow = original.overflow
+      })
+      hiddenItems.forEach((item, index) => {
+        item.style.display = hiddenOriginalDisplays[index]
+      })
+      if (moreItem) moreItem.style.display = moreOriginalDisplay ?? ""
+      setNavCompact(needsCompact)
+    }
+
+    measure()
+    window.addEventListener("resize", measure)
+    document.fonts?.addEventListener("loadingdone", measure)
+    const observer = typeof ResizeObserver !== "undefined" ? new ResizeObserver(measure) : null
+    observer?.observe(inner)
+    return () => {
+      window.removeEventListener("resize", measure)
+      document.fonts?.removeEventListener("loadingdone", measure)
+      observer?.disconnect()
+    }
+  }, [locale, i18n.language])
 
   const groups: CategoryGroup[] = useMemo(() => {
     const result: CategoryGroup[] = []
@@ -154,7 +238,7 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
           <div className="move-hover">
             <div className="header_container_top">
               <div className="header_container_top_content">
-                <div className="header_container_top_content__inner">
+                <div className="header_container_top_content__inner" ref={topContentInnerRef}>
                   <div className="header_container_left">
                     <div className="header_container_center">
                       <div className="header_container_center_Logo">
@@ -171,7 +255,11 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
                       </div>
                     </div>
                   </div>
-                  <nav className="header-nav hidden lg:block" aria-label={t("header.menuLabel")}>
+                  <nav
+                    ref={navRef}
+                    className={`header-nav hidden lg:block ${navCompact ? "header-nav--compact" : ""}`}
+                    aria-label={t("header.menuLabel")}
+                  >
                     <ul className="header_container_center_ul" onMouseLeave={hideActiveBar}>
                       <span
                         className="active-bar"

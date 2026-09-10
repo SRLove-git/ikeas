@@ -19,15 +19,16 @@ class VoucherPdfServiceTest {
             "https://medical-sg.com/en/booking/",
             "https://medical-sg.com/zh/profile/");
 
-    ExperienceVoucher points = voucher("BZP-TEST-001", 2, null);
-    ExperienceVoucher experience = voucher("BZE-TEST-001", 1, LocalDateTime.now().plusDays(30));
+    ExperienceVoucher points = voucher("BZP-20260910-142611-U4RF9J", 2, null);
+    ExperienceVoucher experience =
+        voucher("BZE-20260910-142611-U4RF9J", 1, LocalDateTime.now().plusDays(30));
 
     byte[] pdf = service.generate(List.of(points, experience));
 
     assertTrue(pdf.length > 1000);
     assertEquals('%', (char) pdf[0]);
     assertEquals('P', (char) pdf[1]);
-    Files.write(Path.of("target/voucher-pdf-test.pdf"), pdf);
+    Files.write(Path.of("target/voucher-pdf-test.pdf"), service.generate(List.of(experience)));
   }
 
   private static ExperienceVoucher voucher(String code, int type, LocalDateTime validUntil) {

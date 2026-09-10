@@ -40,6 +40,12 @@ export default function LoginPage() {
 
   const recipientEmail = EMAIL.test(account.trim()) ? account.trim() : verificationEmail.trim()
 
+  useEffect(() => {
+    if (countdown <= 0) return
+    const timer = setTimeout(() => setCountdown((current) => current - 1), 1000)
+    return () => clearTimeout(timer)
+  }, [countdown])
+
   if (!loginEnabled) {
     return (
       <main className="font-ikea flex min-h-screen items-center justify-center bg-white px-5 text-ikea-black">
@@ -56,12 +62,6 @@ export default function LoginPage() {
       </main>
     )
   }
-
-  useEffect(() => {
-    if (countdown <= 0) return
-    const timer = setTimeout(() => setCountdown((current) => current - 1), 1000)
-    return () => clearTimeout(timer)
-  }, [countdown])
 
   const validateAccount = (value: string): string | null => {
     const trimmed = value.trim()

@@ -647,6 +647,17 @@
   }
 }
 
+/* When measured navigation cannot fit on one row (e.g. longer English labels
+   above the 1280px breakpoint), fold every entry after the first into the
+   existing "更多" dropdown instead of letting flex squeeze the logo. */
+.header-nav--compact .header_container_center_ul > li:nth-of-type(n + 2):not(.header-nav-more) {
+  display: none;
+}
+
+.header-nav--compact .header-nav-more {
+  display: block;
+}
+
 /* ---------------------------------------------------------------------------
  * BUZUD compact inspiration-tips cards ("健康生活小贴士")
  * Removes the 80px dead space under the text and swaps the circular arrow
