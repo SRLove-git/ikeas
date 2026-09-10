@@ -30,6 +30,17 @@ interface BookingItem {
   createdAt: string
 }
 
+interface VoucherItem {
+  id: string
+  code: string
+  type: number
+  status: number
+  usedBookingId?: string | null
+  remark?: string | null
+  claimEmail?: string | null
+  createdAt: string
+}
+
 function statusLabelKey(status: number): string {
   if (status === 1) return "staffRedeem.statusConfirmed"
   if (status === 2) return "staffRedeem.statusCompleted"
@@ -50,6 +61,17 @@ function formatDate(value: string): string {
   return date.toLocaleString("zh-CN", { hour12: false })
 }
 
+function voucherStatusLabelKey(status: number): string {
+  if (status === 1) return "admin.vouchers.statusUsed"
+  if (status === 2) return "admin.vouchers.statusDisabled"
+  if (status === 3) return "admin.vouchers.statusInvalid"
+  return "admin.vouchers.statusUnused"
+}
+
+function voucherTypeLabelKey(type: number): string {
+  return type === 2 ? "admin.vouchers.typePoints" : "admin.vouchers.typeExperience"
+}
+
 export function StaffRedeemPanel() {
   const { t } = useTranslation()
   const [code, setCode] = useState("")
@@ -61,6 +83,10 @@ export function StaffRedeemPanel() {
   const [bookings, setBookings] = useState<BookingItem[]>([])
   const [loadingList, setLoadingList] = useState(false)
   const [listError, setListError] = useState<string | null>(null)
+  const [vouchers, setVouchers] = useState<VoucherItem[]>([])
+  const [loadingVouchers, setLoadingVouchers] = useState(false)
+  const [voucherError, setVoucherError] = useState<string | null>(null)
+  const [voucherQuery, setVoucherQuery] = useState("")
   const [claimCode, setClaimCode] = useState("")
   const [claimRemaining, setClaimRemaining] = useState(30)
   const [quotaDate, setQuotaDate] = useState(() => todayLocal())
@@ -288,6 +314,30 @@ export function StaffRedeemPanel() {
       setLoadingList(false)
     }
   }
+
+  const loadVouchers = async () => {
+    setLoadingVouchers(true)
+    setVoucherError(null)
+    try {
+      const response = await fetch(`${API_BASE}/api/v1/staff/vouchers`)
+      const body = (await response.json().catch(() => null)) as
+        (VoucherItem[] & { message?: string }) | null
+      if (!response.ok) {
+        throw new Error((body as { message?: string } | null)?.message ?? t("staffRedeem.failed"))
+      }
+      setVouchers(Array.isArray(body) ? body : [])
+    } catch (e) {
+      setVoucherError((e as Error).message || t("staffRedeem.failed"))
+    } finally {
+      setLoadingVouchers(false)
+    }
+  }
+
+  useEffect(() => {
+    void loadBookings()
+    void loadVouchers()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
 
   const doRedeem = async (value: string) => {
     setError(null)
@@ -536,6 +586,77 @@ export function StaffRedeemPanel() {
               </table>
             </div>
           )}
+        </div>
+
+        <div className="mt-6 overflow-hidden rounded-lg border border-ikea-gray-200 bg-white">
+          <div className="flex flex-col gap-3 border-b border-ikea-gray-200 px-5 py-4 sm:flex-row sm:items-center sm:justify-between">
+            <h2 className="text-base font-bold">{t("staffRedeem.voucherListTitle")}</h2>
+            <div className="flex items-center gap-2">
+              <input
+                value={voucherQuery}
+                onChange={(event) => setVoucherQuery(event.target.value)}
+                placeholder={t("staffRedeem.voucherSearchPlaceholder")}
+                className="h-9 w-full rounded-md border border-ikea-gray-200 px-3 text-sm outline-none focus:border-ikea-blue sm:w-64"
+              />
+              <button
+                type="button"
+                onClick={() => void loadVouchers()}
+                disabled={loadingVouchers}
+                className="text-sm font-bold text-ikea-blue hover:underline disabled:opacity-50"
+              >
+                {t("staffRedeem.refresh")}
+              </button>
+            </div>
+          </div>
+          {voucherError ? (
+            <p className="px-5 py-6 text-center text-sm text-amber-700">{voucherError}</p>
+          ) : loadingVouchers ? (
+            <p className="px-5 py-10 text-center text-sm text-ikea-muted">{t("staffRedeem.loading")}</p>
+          ) : (() => {
+            const query = voucherQuery.trim().toLowerCase()
+            const filtered = vouchers.filter((voucher) => {
+              if (!query) return true
+              return (
+                voucher.code.toLowerCase().includes(query) ||
+                (voucher.claimEmail ?? "").toLowerCase().includes(query)
+              )
+            })
+            if (filtered.length === 0) {
+              return (
+                <p className="px-5 py-10 text-center text-sm text-ikea-muted">
+                  {t("staffRedeem.voucherEmpty")}
+                </p>
+              )
+            }
+            return (
+              <div className="overflow-x-auto">
+                <table className="w-full text-left text-sm">
+                  <thead className="bg-ikea-gray-50 text-xs text-ikea-muted">
+                    <tr>
+                      <th className="px-5 py-3 font-medium">{t("staffRedeem.voucherColCode")}</th>
+                      <th className="px-5 py-3 font-medium">{t("staffRedeem.voucherColType")}</th>
+                      <th className="px-5 py-3 font-medium">{t("staffRedeem.voucherColStatus")}</th>
+                      <th className="px-5 py-3 font-medium">{t("staffRedeem.voucherColClaimEmail")}</th>
+                      <th className="px-5 py-3 font-medium">{t("staffRedeem.voucherColBooking")}</th>
+                      <th className="px-5 py-3 font-medium">{t("staffRedeem.voucherColCreatedAt")}</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-ikea-gray-200">
+                    {filtered.map((voucher) => (
+                      <tr key={voucher.id} className="hover:bg-ikea-gray-50">
+                        <td className="px-5 py-3 font-mono text-xs font-bold">{voucher.code}</td>
+                        <td className="px-5 py-3">{t(voucherTypeLabelKey(voucher.type))}</td>
+                        <td className="px-5 py-3">{t(voucherStatusLabelKey(voucher.status))}</td>
+                        <td className="px-5 py-3">{voucher.claimEmail || "—"}</td>
+                        <td className="px-5 py-3">{voucher.usedBookingId || "—"}</td>
+                        <td className="px-5 py-3">{formatDate(voucher.createdAt)}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            )
+          })()}
         </div>
       </div>
     </div>

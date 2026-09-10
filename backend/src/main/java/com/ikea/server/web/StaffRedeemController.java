@@ -5,6 +5,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.ikea.server.dto.booking.BookingDtos.StaffRedeemRequest;
 import com.ikea.server.entity.Booking;
+import com.ikea.server.entity.ExperienceVoucher;
 import com.ikea.server.service.AdminSettingsService;
 import com.ikea.server.service.BookingService;
 import com.ikea.server.service.ExperienceVoucherService;
@@ -63,6 +64,12 @@ public class StaffRedeemController {
   @GetMapping("/bookings")
   public List<Booking> bookings() {
     return bookingService.listBookings(null, null);
+  }
+
+  /** 门店工作人员查看实体券码列表。 */
+  @GetMapping("/vouchers")
+  public List<ExperienceVoucher> vouchers() {
+    return experienceVoucherService.listVouchers(null, null, null);
   }
 
   @GetMapping("/claim-secret")
