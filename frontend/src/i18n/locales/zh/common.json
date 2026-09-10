@@ -409,8 +409,6 @@
   "couponClaim": {
     "title": "领体验券",
     "intro": "输入工作人员提供的密钥和您的邮箱，即可领取一张体验券。体验券将发送到您的邮箱。",
-    "quotaLabel": "一天 {{limit}} 个名额",
-    "remaining": "剩余 {{count}} 个",
     "secretLabel": "密钥",
     "secretPlaceholder": "请输入领取密钥",
     "missingSecret": "请输入密钥",
@@ -632,6 +630,8 @@
     "privacyPolicy": "查看隐私政策"
   },
   "bookingForm": {
+    "dailyLimit": "一天 {{limit}} 个名额",
+    "remainingQuota": "剩余 {{count}} 个",
     "nameLabel": "姓名",
     "namePlaceholder": "请输入姓名",
     "phoneLabel": "手机号",

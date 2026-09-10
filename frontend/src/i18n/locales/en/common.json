@@ -409,8 +409,6 @@
   "couponClaim": {
     "title": "Claim experience voucher",
     "intro": "Enter the secret key provided by staff and your email to claim an experience voucher. It will be sent to your email.",
-    "quotaLabel": "{{limit}} slots per day",
-    "remaining": "{{count}} left",
     "secretLabel": "Secret key",
     "secretPlaceholder": "Enter secret key",
     "missingSecret": "Please enter the secret key",
@@ -632,6 +630,8 @@
     "privacyPolicy": "View Privacy Policy"
   },
   "bookingForm": {
+    "dailyLimit": "{{limit}} slots per day",
+    "remainingQuota": "{{count}} left",
     "nameLabel": "Full name",
     "namePlaceholder": "Enter your name",
     "phoneLabel": "Mobile number",

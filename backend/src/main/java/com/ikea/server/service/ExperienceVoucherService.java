@@ -235,20 +235,6 @@ public class ExperienceVoucherService {
       throw new IllegalArgumentException("核销码不正确或已过期");
     }
 
-    int limit = currentClaimLimit();
-    if (limit > 0) {
-      LocalDateTime todayStart = LocalDate.now().atStartOfDay();
-      Long claimed =
-          voucherEmailClaimMapper.selectCount(
-              Wrappers.lambdaQuery(VoucherEmailClaim.class)
-                  .eq(VoucherEmailClaim::getStatus, 1)
-                  .eq(VoucherEmailClaim::getDeleted, 0)
-                  .ge(VoucherEmailClaim::getCreatedAt, todayStart));
-      if (claimed != null && claimed >= limit) {
-        throw new IllegalArgumentException("今日体验券已领完，感谢参与");
-      }
-    }
-
     String safeIp = normalizeIp(ip);
     if (!safeIp.isBlank()) {
       Long ipCount =

@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useState } from "react"
+import { useState } from "react"
 import Link from "next/link"
 import { useTranslation } from "react-i18next"
 import { API_BASE } from "@/lib/api"
@@ -8,12 +8,6 @@ import { GiftIcon } from "@/components/icons"
 
 interface ClaimResult {
   code: string
-}
-
-interface ClaimQuota {
-  limit: number
-  claimed: number
-  remaining: number
 }
 
 const DEVICE_KEY = "buzud.deviceId"
@@ -38,19 +32,6 @@ export function CouponClaimLanding() {
   const [submitting, setSubmitting] = useState(false)
   const [result, setResult] = useState<ClaimResult | null>(null)
   const [error, setError] = useState<string | null>(null)
-  const [quota, setQuota] = useState<ClaimQuota | null>(null)
-
-  useEffect(() => {
-    void (async () => {
-      try {
-        const response = await fetch(`${API_BASE}/api/v1/staff/claim-quota`)
-        const body = (await response.json().catch(() => null)) as ClaimQuota | null
-        if (response.ok && body) setQuota(body)
-      } catch {
-        // 获取失败时不展示名额。
-      }
-    })()
-  }, [])
 
   const submit = async () => {
     setError(null)
@@ -99,25 +80,6 @@ export function CouponClaimLanding() {
         </span>
         <h1 className="mt-6 text-2xl font-bold leading-9">{t("couponClaim.title")}</h1>
         <p className="mt-3 text-sm leading-6 text-ikea-muted">{t("couponClaim.intro")}</p>
-
-        {quota && quota.limit > 0 ? (
-          <div className="mx-auto mt-5 max-w-sm">
-            <div className="flex items-center justify-between text-xs">
-              <span className="text-ikea-muted">
-                {t("couponClaim.quotaLabel", { limit: quota.limit })}
-              </span>
-              <span className="font-bold text-green-600">
-                {t("couponClaim.remaining", { count: quota.remaining })}
-              </span>
-            </div>
-            <div className="mt-2 h-2.5 w-full overflow-hidden rounded-full bg-ikea-gray-200">
-              <div
-                className="h-full rounded-full bg-green-500 transition-all duration-500"
-                style={{ width: `${(quota.remaining / quota.limit) * 100}%` }}
-              />
-            </div>
-          </div>
-        ) : null}
 
         {result ? (
           <div className="mt-8 rounded-lg border border-ikea-gray-200 bg-ikea-gray-50 p-6 text-left">

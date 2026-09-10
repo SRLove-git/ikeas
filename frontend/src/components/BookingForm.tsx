@@ -4,13 +4,19 @@ import { useEffect, useState } from "react"
 import Link from "next/link"
 import { useTranslation } from "react-i18next"
 import { useAuth } from "@/lib/auth"
-import { apiJson } from "@/lib/api"
+import { API_BASE, apiJson } from "@/lib/api"
 
 type AccountVoucher = {
   id: string
   code: string
   type: number
   status: number
+}
+
+type BookingQuota = {
+  limit: number
+  booked: number
+  remaining: number
 }
 
 type FormKey =
@@ -49,6 +55,7 @@ export function BookingForm() {
   const [error, setError] = useState<string | null>(null)
   const [successId, setSuccessId] = useState<string | null>(null)
   const [accountVouchers, setAccountVouchers] = useState<AccountVoucher[]>([])
+  const [quota, setQuota] = useState<BookingQuota | null>(null)
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search)
@@ -75,6 +82,24 @@ export function BookingForm() {
       cancelled = true
     }
   }, [user])
+
+  useEffect(() => {
+    let cancelled = false
+    const date = form.preferredDate.trim() || undefined
+    const query = date ? `?date=${encodeURIComponent(date)}` : ""
+    void (async () => {
+      try {
+        const response = await fetch(`${API_BASE}/api/v1/bookings/quota${query}`)
+        const body = (await response.json().catch(() => null)) as BookingQuota | null
+        if (response.ok && body && !cancelled) setQuota(body)
+      } catch {
+        if (!cancelled) setQuota(null)
+      }
+    })()
+    return () => {
+      cancelled = true
+    }
+  }, [form.preferredDate])
 
   const update =
     (key: FormKey) =>
@@ -172,7 +197,26 @@ export function BookingForm() {
   }
 
   return (
-    <form className="mt-8 grid gap-5 md:grid-cols-2">
+    <>
+      {quota && quota.limit > 0 ? (
+        <div className="mt-6 rounded-lg border border-ikea-gray-200 bg-ikea-gray-50 p-4">
+          <div className="flex items-center justify-between text-xs">
+            <span className="text-ikea-muted">
+              {t("bookingForm.dailyLimit", { limit: quota.limit })}
+            </span>
+            <span className="font-bold text-green-600">
+              {t("bookingForm.remainingQuota", { count: quota.remaining })}
+            </span>
+          </div>
+          <div className="mt-2 h-2.5 w-full overflow-hidden rounded-full bg-ikea-gray-200">
+            <div
+              className="h-full rounded-full bg-green-500 transition-all duration-500"
+              style={{ width: `${(quota.remaining / quota.limit) * 100}%` }}
+            />
+          </div>
+        </div>
+      ) : null}
+      <form className="mt-8 grid gap-5 md:grid-cols-2">
       {textFields.map(([key, label, placeholder, type]) => (
         <label key={key} className="block">
           <span className="mb-1.5 block text-sm font-bold">
@@ -304,7 +348,8 @@ export function BookingForm() {
           </span>
         </button>
       </div>
-    </form>
+      </form>
+    </>
   )
 }
 
