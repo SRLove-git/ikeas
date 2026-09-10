@@ -101,23 +101,21 @@ export function CouponClaimLanding() {
         <p className="mt-3 text-sm leading-6 text-ikea-muted">{t("couponClaim.intro")}</p>
 
         {quota && quota.limit > 0 ? (
-          <div className="mx-auto mt-5 flex max-w-md items-center justify-center gap-3">
-            <span className="text-xs text-ikea-muted">
-              {t("couponClaim.quotaLabel", { limit: quota.limit })}
-            </span>
-            <div className="flex items-end gap-1">
-              {Array.from({ length: quota.limit }).map((_, index) => (
-                <div
-                  key={index}
-                  className={`w-3 rounded-[2px] ${
-                    index < quota.claimed ? "h-3 bg-ikea-gray-200" : "h-5 bg-green-500"
-                  }`}
-                />
-              ))}
+          <div className="mx-auto mt-5 max-w-sm">
+            <div className="flex items-center justify-between text-xs">
+              <span className="text-ikea-muted">
+                {t("couponClaim.quotaLabel", { limit: quota.limit })}
+              </span>
+              <span className="font-bold text-green-600">
+                {t("couponClaim.remaining", { count: quota.remaining })}
+              </span>
             </div>
-            <span className="text-xs font-bold text-green-600">
-              {t("couponClaim.remaining", { count: quota.remaining })}
-            </span>
+            <div className="mt-2 h-2.5 w-full overflow-hidden rounded-full bg-ikea-gray-200">
+              <div
+                className="h-full rounded-full bg-green-500 transition-all duration-500"
+                style={{ width: `${(quota.remaining / quota.limit) * 100}%` }}
+              />
+            </div>
           </div>
         ) : null}
 
