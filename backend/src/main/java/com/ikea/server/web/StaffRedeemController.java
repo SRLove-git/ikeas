@@ -84,7 +84,7 @@ public class StaffRedeemController {
     return Map.of(
         "code", experienceVoucherService.currentClaimCode(),
         "remainingSeconds", experienceVoucherService.claimCodeRemainingSeconds(),
-        "totalSeconds", 30);
+        "totalSeconds", 24 * 60 * 60);
   }
 
   @GetMapping("/claim-quota")

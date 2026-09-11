@@ -48,7 +48,7 @@ public class ExperienceVoucherService {
   public static final int STATUS_DISABLED = 2;
   public static final int STATUS_INVALID = 3;
 
-  private static final int CLAIM_CODE_TTL_SECONDS = 30;
+  private static final int CLAIM_CODE_TTL_SECONDS = 24 * 60 * 60;
   private static final int CLAIM_CODE_LENGTH = 6;
 
   private static final BigDecimal POINTS_ISSUE_THRESHOLD = new BigDecimal("60.00");

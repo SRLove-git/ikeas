@@ -4,9 +4,19 @@ import { useEffect, useRef, useState } from "react"
 import { useTranslation } from "react-i18next"
 import { API_BASE } from "@/lib/api"
 
-const TOTAL_SECONDS = 30
+const TOTAL_SECONDS = 24 * 60 * 60
 const RADIUS = 96
 const CIRCUMFERENCE = 2 * Math.PI * RADIUS
+
+function formatDuration(totalSeconds: number): string {
+  const s = Math.max(0, Math.floor(totalSeconds))
+  const hours = Math.floor(s / 3600)
+  const minutes = Math.floor((s % 3600) / 60)
+  const seconds = s % 60
+  const pad = (value: number) => String(value).padStart(2, "0")
+  if (hours > 0) return `${hours}:${pad(minutes)}:${pad(seconds)}`
+  return `${pad(minutes)}:${pad(seconds)}`
+}
 
 export function ClaimCodePanel() {
   const { t } = useTranslation()
@@ -52,7 +62,7 @@ export function ClaimCodePanel() {
 
   const progress = Math.max(0, Math.min(1, remaining / TOTAL_SECONDS))
   const dashOffset = CIRCUMFERENCE * (1 - progress)
-  const urgent = remaining <= 5
+  const urgent = remaining <= 3600
 
   return (
     <div className="font-ikea flex min-h-screen items-center justify-center bg-gradient-to-b from-slate-50 to-blue-50/40 px-5 py-10 text-ikea-black">
@@ -94,14 +104,14 @@ export function ClaimCodePanel() {
           </svg>
           <div className="absolute inset-0 flex flex-col items-center justify-center">
             <span
-              className={`text-6xl font-bold tabular-nums leading-none ${
+              className={`text-3xl font-bold tabular-nums leading-none ${
                 urgent ? "text-red-500" : "text-ikea-black"
               }`}
             >
-              {remaining}
+              {formatDuration(remaining)}
             </span>
             <span className="mt-2 text-xs uppercase tracking-wider text-ikea-muted">
-              {t("claimCode.seconds")}
+              {t("claimCode.remaining")}
             </span>
           </div>
         </div>

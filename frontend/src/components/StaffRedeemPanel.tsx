@@ -13,6 +13,16 @@ function todayLocal(): string {
   return `${year}-${month}-${day}`
 }
 
+function formatDuration(totalSeconds: number): string {
+  const s = Math.max(0, Math.floor(totalSeconds))
+  const hours = Math.floor(s / 3600)
+  const minutes = Math.floor((s % 3600) / 60)
+  const seconds = s % 60
+  const pad = (value: number) => String(value).padStart(2, "0")
+  if (hours > 0) return `${hours}:${pad(minutes)}:${pad(seconds)}`
+  return `${pad(minutes)}:${pad(seconds)}`
+}
+
 interface BookingItem {
   id: string
   bookingNo: string
@@ -88,7 +98,7 @@ export function StaffRedeemPanel() {
   const [voucherError, setVoucherError] = useState<string | null>(null)
   const [voucherQuery, setVoucherQuery] = useState("")
   const [claimCode, setClaimCode] = useState("")
-  const [claimRemaining, setClaimRemaining] = useState(30)
+  const [claimRemaining, setClaimRemaining] = useState(24 * 60 * 60)
   const [quotaDate, setQuotaDate] = useState(() => todayLocal())
   const [quota, setQuota] = useState<{
     limit: number
@@ -191,7 +201,7 @@ export function StaffRedeemPanel() {
         } | null
         if (response.ok && body?.code) {
           setClaimCode(body.code)
-          setClaimRemaining(body.remainingSeconds ?? 30)
+          setClaimRemaining(body.remainingSeconds ?? 24 * 60 * 60)
         }
       } catch {
         // 获取失败时静默，不影响核销。
@@ -202,7 +212,7 @@ export function StaffRedeemPanel() {
       setClaimRemaining((prev) => {
         if (prev <= 1) {
           void loadCode()
-          return 30
+          return 24 * 60 * 60
         }
         return prev - 1
       })
@@ -656,7 +666,7 @@ export function StaffRedeemPanel() {
                       {claimCode || "------"}
                     </p>
                     <span className="text-sm font-bold tabular-nums text-ikea-muted">
-                      {claimRemaining}s
+                      {formatDuration(claimRemaining)}
                     </span>
                   </div>
                 </div>

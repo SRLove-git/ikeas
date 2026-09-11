@@ -504,8 +504,9 @@
   },
   "claimCode": {
     "title": "Secret key",
-    "hint": "The secret key refreshes every 30 seconds. Use it promptly.",
+    "hint": "The secret key refreshes every 24 hours. Use it promptly.",
     "seconds": "sec",
+    "remaining": "Remaining time",
     "codeLabel": "Current secret key",
     "loading": "Loading…"
   },
