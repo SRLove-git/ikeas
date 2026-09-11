@@ -253,7 +253,7 @@
           "客服邮箱与在线客服将在工作时间内尽快为您解答，欢迎随时联系我们。"
         ],
         "images": [
-          "/images/cms/buzud-support-banner-v2.png"
+          "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-support-banner-v2.png"
         ],
         "links": [
           {
@@ -576,9 +576,9 @@
           "健康体验项目"
         ],
         "images": [
-          "/images/customer-service/health-experience-imdec-2026-01.jpg",
-          "/images/customer-service/health-experience-imdec-2026-02.jpg",
-          "/images/customer-service/health-experience-imdec-2026-03.jpg"
+          "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/customer-service/health-experience-imdec-2026-01.jpg",
+          "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/customer-service/health-experience-imdec-2026-02.jpg",
+          "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/customer-service/health-experience-imdec-2026-03.jpg"
         ],
         "links": [],
         "items": [],
@@ -598,28 +598,28 @@
           {
             "title": "体验 A",
             "text": "氧疗焕活 · 体成分分析 · 血糖+尿酸分析 · 血压检测",
-            "image": "/images/customer-service/experience-a-generated.png",
+            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/customer-service/experience-a-generated.png",
             "href": "/zh/customer-service/contact-us/",
             "backgroundColor": null
           },
           {
             "title": "体验 B",
             "text": "氧疗焕活 · 体成分分析 · 血糖+血脂分析 · 血压检测",
-            "image": "/images/customer-service/experience-b-generated.png",
+            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/customer-service/experience-b-generated.png",
             "href": "/zh/customer-service/contact-us/",
             "backgroundColor": null
           },
           {
             "title": "门店地址",
             "text": "585 North Bridge Road #01-02 Raffles Hospital",
-            "image": "/images/customer-service/store-location-generated.png",
+            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/customer-service/store-location-generated.png",
             "href": "/zh/customer-service/contact-us/",
             "backgroundColor": null
           },
           {
             "title": "立即选购",
             "text": "前往商城选购 BUZUD 健康产品",
-            "image": "/images/customer-service/shop-now-generated.png",
+            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/customer-service/shop-now-generated.png",
             "href": "/zh/all-products/",
             "backgroundColor": null
           }

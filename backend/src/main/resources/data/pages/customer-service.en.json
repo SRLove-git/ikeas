@@ -253,7 +253,7 @@
           "Our customer service email and online agents will respond to you as soon as possible during working hours. Feel free to contact us anytime."
         ],
         "images": [
-          "/images/cms/buzud-support-banner-v2.png"
+          "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-support-banner-v2.png"
         ],
         "links": [
           {
@@ -576,9 +576,9 @@
           "Health experience programs"
         ],
         "images": [
-          "/images/customer-service/health-experience-imdec-2026-01.jpg",
-          "/images/customer-service/health-experience-imdec-2026-02.jpg",
-          "/images/customer-service/health-experience-imdec-2026-03.jpg"
+          "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/customer-service/health-experience-imdec-2026-01.jpg",
+          "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/customer-service/health-experience-imdec-2026-02.jpg",
+          "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/customer-service/health-experience-imdec-2026-03.jpg"
         ],
         "links": [],
         "items": [],
@@ -598,28 +598,28 @@
           {
             "title": "Experience A",
             "text": "Oxygen therapy revitalization · Body composition analysis · Blood glucose + uric acid analysis · Blood pressure testing",
-            "image": "/images/customer-service/experience-a-generated.png",
+            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/customer-service/experience-a-generated.png",
             "href": "/zh/customer-service/contact-us/",
             "backgroundColor": null
           },
           {
             "title": "Experience B",
             "text": "Oxygen therapy revitalization · Body composition analysis · Blood glucose + lipid analysis · Blood pressure testing",
-            "image": "/images/customer-service/experience-b-generated.png",
+            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/customer-service/experience-b-generated.png",
             "href": "/zh/customer-service/contact-us/",
             "backgroundColor": null
           },
           {
             "title": "Store address",
             "text": "585 North Bridge Road #01-02 Raffles Hospital",
-            "image": "/images/customer-service/store-location-generated.png",
+            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/customer-service/store-location-generated.png",
             "href": "/zh/customer-service/contact-us/",
             "backgroundColor": null
           },
           {
             "title": "Shop now",
             "text": "Visit the mall to shop BUZUD health products",
-            "image": "/images/customer-service/shop-now-generated.png",
+            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/customer-service/shop-now-generated.png",
             "href": "/zh/all-products/",
             "backgroundColor": null
           }
