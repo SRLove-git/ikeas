@@ -32,7 +32,7 @@ public class VoucherPdfService {
   private static final String POINTS_TEMPLATE =
       "/voucher-templates/BUZUD_Points_Card_Poster_A4.pdf";
   private static final String EXPERIENCE_TEMPLATE =
-      "/voucher-templates/BUZUD_Experience_Voucher_A4.pdf";
+      "/voucher-templates/BUZUD_Experience_Voucher_2UP_A4.pdf";
 
   private static final float POINTS_QR_X = 426f;
   private static final float POINTS_QR_Y = 618f;
@@ -40,20 +40,15 @@ public class VoucherPdfService {
   private static final float POINTS_CODE_X = 300f;
   private static final float POINTS_CODE_Y = 285f;
 
-  private static final float EXPERIENCE_QR_X = 430f;
-  private static final float EXPERIENCE_QR_Y = 635f;
-  private static final float EXPERIENCE_QR_SIZE = 118f;
-  // The voucher number belongs to the left information card. Keep it on its own line below
-  // the bilingual label so production-length codes cannot spill into the disclaimer card.
-  private static final float EXPERIENCE_CODE_X = 139f;
-  private static final float EXPERIENCE_CODE_Y = 89f;
-  private static final float EXPERIENCE_CODE_MAX_WIDTH = 174f;
-  private static final float EXPERIENCE_VALID_X = 139f;
-  private static final float EXPERIENCE_VALID_Y = 55f;
-  private static final float EXPERIENCE_VALID_COVER_X = 112f;
-  private static final float EXPERIENCE_VALID_COVER_Y = 50f;
-  private static final float EXPERIENCE_VALID_COVER_WIDTH = 54f;
-  private static final float EXPERIENCE_VALID_COVER_HEIGHT = 16f;
+  private static final float EXPERIENCE_QR_X = 672.9f;
+  private static final float EXPERIENCE_QR_Y = 299.68f;
+  private static final float EXPERIENCE_QR_SIZE = 96f;
+  // 背面（第 2 页）：券编号与有效期，值右对齐到「Voucher No. / Valid Until」标签右侧。
+  private static final float EXPERIENCE_BACK_CODE_X = 724f;
+  private static final float EXPERIENCE_BACK_CODE_Y = 355f;
+  private static final float EXPERIENCE_BACK_CODE_MAX_WIDTH = 112f;
+  private static final float EXPERIENCE_BACK_VALID_X = 720f;
+  private static final float EXPERIENCE_BACK_VALID_Y = 327f;
 
   private static final DateTimeFormatter VALID_UNTIL = DateTimeFormatter.ofPattern("yyyy.MM.dd");
 
@@ -86,8 +81,10 @@ public class VoucherPdfService {
           PDPage page = output.importPage(template.getPage(0));
           overlayPointsFront(output, page, voucher.getCode());
         } else {
-          PDPage page = output.importPage(template.getPage(0));
-          overlayExperienceFront(output, page, voucher.getCode(), voucher.getValidUntil());
+          PDPage front = output.importPage(template.getPage(0));
+          overlayExperienceFront(output, front, voucher.getCode());
+          PDPage back = output.importPage(template.getPage(1));
+          overlayExperienceBack(output, back, voucher.getCode(), voucher.getValidUntil());
         }
       }
       output.save(bytes);
@@ -129,7 +126,17 @@ public class VoucherPdfService {
     }
   }
 
-  private void overlayExperienceFront(
+  private void overlayExperienceFront(PDDocument document, PDPage page, String code)
+      throws IOException {
+    try (PDPageContentStream cs =
+        new PDPageContentStream(
+            document, page, PDPageContentStream.AppendMode.APPEND, true, true)) {
+      cover(cs, EXPERIENCE_QR_X, EXPERIENCE_QR_Y, EXPERIENCE_QR_SIZE, EXPERIENCE_QR_SIZE);
+      drawQr(cs, bookingUrlFor(code), EXPERIENCE_QR_X, EXPERIENCE_QR_Y, EXPERIENCE_QR_SIZE);
+    }
+  }
+
+  private void overlayExperienceBack(
       PDDocument document,
       PDPage page,
       String code,
@@ -138,30 +145,22 @@ public class VoucherPdfService {
     try (PDPageContentStream cs =
         new PDPageContentStream(
             document, page, PDPageContentStream.AppendMode.APPEND, true, true)) {
-      cover(cs, EXPERIENCE_QR_X, EXPERIENCE_QR_Y, EXPERIENCE_QR_SIZE, EXPERIENCE_QR_SIZE);
-      drawQr(cs, bookingUrlFor(code), EXPERIENCE_QR_X, EXPERIENCE_QR_Y, EXPERIENCE_QR_SIZE);
-      drawCenteredFitted(
+      drawLeftFitted(
           cs,
           codeFont,
-          8,
+          7,
           code,
-          EXPERIENCE_CODE_X,
-          EXPERIENCE_CODE_Y,
-          EXPERIENCE_CODE_MAX_WIDTH);
+          EXPERIENCE_BACK_CODE_X,
+          EXPERIENCE_BACK_CODE_Y,
+          EXPERIENCE_BACK_CODE_MAX_WIDTH);
       if (validUntil != null) {
-        cover(
-            cs,
-            EXPERIENCE_VALID_COVER_X,
-            EXPERIENCE_VALID_COVER_Y,
-            EXPERIENCE_VALID_COVER_WIDTH,
-            EXPERIENCE_VALID_COVER_HEIGHT);
-        drawCentered(
+        drawLeft(
             cs,
             codeFont,
             9,
             VALID_UNTIL.format(validUntil),
-            EXPERIENCE_VALID_X,
-            EXPERIENCE_VALID_Y);
+            EXPERIENCE_BACK_VALID_X,
+            EXPERIENCE_BACK_VALID_Y);
       }
     }
   }
@@ -183,6 +182,32 @@ public class VoucherPdfService {
     cs.newLineAtOffset(centerX - width / 2f, baselineY);
     cs.showText(text);
     cs.endText();
+  }
+
+  private void drawLeft(
+      PDPageContentStream cs, PDType1Font font, float size, String text, float x, float baselineY)
+      throws IOException {
+    cs.beginText();
+    cs.setFont(font, size);
+    cs.setNonStrokingColor(Color.BLACK);
+    cs.newLineAtOffset(x, baselineY);
+    cs.showText(text);
+    cs.endText();
+  }
+
+  private void drawLeftFitted(
+      PDPageContentStream cs,
+      PDType1Font font,
+      float preferredSize,
+      String text,
+      float x,
+      float baselineY,
+      float maxWidth)
+      throws IOException {
+    float unscaledWidth = font.getStringWidth(text) / 1000f;
+    float fittedSize =
+        unscaledWidth <= 0 ? preferredSize : Math.min(preferredSize, maxWidth / unscaledWidth);
+    drawLeft(cs, font, fittedSize, text, x, baselineY);
   }
 
   private void drawCenteredFitted(

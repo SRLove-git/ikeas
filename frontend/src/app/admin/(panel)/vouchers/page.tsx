@@ -38,6 +38,10 @@ function typeLabelKey(type: number): string {
   return type === 2 ? "admin.vouchers.typePoints" : "admin.vouchers.typeExperience"
 }
 
+function sourceOf(voucher: HealthCheckVoucher): "online" | "offline" {
+  return (voucher.batchNo ?? "").toUpperCase().startsWith("SECRET") ? "online" : "offline"
+}
+
 export default function VouchersPage() {
   const { t } = useTranslation()
   const [vouchers, setVouchers] = useState<HealthCheckVoucher[] | null>(null)
@@ -45,9 +49,10 @@ export default function VouchersPage() {
   const [query, setQuery] = useState("")
   const [statusFilter, setStatusFilter] = useState("")
   const [typeFilter, setTypeFilter] = useState("")
+  const [sourceFilter, setSourceFilter] = useState("")
   const [selected, setSelected] = useState<string[]>([])
   const [batchCount, setBatchCount] = useState("100")
-  const [batchType, setBatchType] = useState("2")
+  const [batchType, setBatchType] = useState("1")
   const [batchValidUntil, setBatchValidUntil] = useState("")
   const [batchBatchNo, setBatchBatchNo] = useState("")
   const [generatingPdf, setGeneratingPdf] = useState(false)
@@ -224,6 +229,12 @@ export default function VouchersPage() {
     URL.revokeObjectURL(url)
   }
 
+  const displayVouchers = vouchers
+    ? sourceFilter
+      ? vouchers.filter((voucher) => sourceOf(voucher) === sourceFilter)
+      : vouchers
+    : null
+
   return (
     <div>
       <PageHeader title={t("admin.vouchers.title")} description={t("admin.vouchers.desc")} />
@@ -264,6 +275,15 @@ export default function VouchersPage() {
                 <option value="1">{t("admin.vouchers.typeExperience")}</option>
                 <option value="2">{t("admin.vouchers.typePoints")}</option>
               </select>
+              <select
+                value={sourceFilter}
+                onChange={(event) => setSourceFilter(event.target.value)}
+                className="h-9 rounded-md border border-ikea-gray-200 bg-white px-3 text-sm outline-none focus:border-ikea-blue"
+              >
+                <option value="">{t("admin.vouchers.allSources")}</option>
+                <option value="offline">{t("admin.vouchers.sourceOffline")}</option>
+                <option value="online">{t("admin.vouchers.sourceOnline")}</option>
+              </select>
               <Button variant="secondary" onClick={() => void load()}>
                 {t("admin.vouchers.search")}
               </Button>
@@ -275,9 +295,9 @@ export default function VouchersPage() {
               </Button>
             </div>
           </div>
-          {!vouchers ? (
+          {!displayVouchers ? (
             <Loading />
-          ) : vouchers.length === 0 ? (
+          ) : displayVouchers.length === 0 ? (
             <EmptyState>{t("admin.vouchers.empty")}</EmptyState>
           ) : (
             <table className="w-full text-left text-sm">
@@ -286,6 +306,7 @@ export default function VouchersPage() {
                   <th className="px-4 py-3 font-medium">{t("admin.vouchers.colSelect")}</th>
                   <th className="px-5 py-3 font-medium">{t("admin.vouchers.colCode")}</th>
                   <th className="px-5 py-3 font-medium">{t("admin.vouchers.colType")}</th>
+                  <th className="px-5 py-3 font-medium">{t("admin.vouchers.colSource")}</th>
                   <th className="px-5 py-3 font-medium">{t("admin.vouchers.colStatus")}</th>
                   <th className="px-5 py-3 font-medium">{t("admin.vouchers.colBooking")}</th>
                   <th className="px-5 py-3 font-medium">{t("admin.vouchers.colOrder")}</th>
@@ -297,7 +318,7 @@ export default function VouchersPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-ikea-gray-200">
-                {vouchers.map((voucher) => (
+                {displayVouchers.map((voucher) => (
                   <tr key={voucher.id} className="hover:bg-ikea-gray-50">
                     <td className="px-4 py-3">
                       <input
@@ -309,6 +330,13 @@ export default function VouchersPage() {
                     </td>
                     <td className="px-5 py-3 font-medium">{voucher.code}</td>
                     <td className="px-5 py-3">{t(typeLabelKey(voucher.type))}</td>
+                    <td className="px-5 py-3">
+                      {t(
+                        sourceOf(voucher) === "online"
+                          ? "admin.vouchers.sourceOnline"
+                          : "admin.vouchers.sourceOffline",
+                      )}
+                    </td>
                     <td className="px-5 py-3">{t(statusLabelKey(voucher.status))}</td>
                     <td className="px-5 py-3">{voucher.usedBookingId ?? "—"}</td>
                     <td className="px-5 py-3">{voucher.orderNo ?? "—"}</td>
