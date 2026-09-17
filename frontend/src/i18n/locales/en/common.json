@@ -697,7 +697,7 @@
     "slotEvening": "Evening (18:00-20:00)",
     "noteLabel": "Notes",
     "notePlaceholder": "Anything else we should know (optional)",
-    "incomplete": "Please fill in your name, contact details, voucher code(s), service, store and preferred date",
+    "incomplete": "Please fill in your name, email, service, store and preferred date",
     "invalidPhone": "Please enter a valid phone number",
     "invalidEmail": "Please enter a valid email address",
     "submitFailed": "Submission failed, please try again later",
