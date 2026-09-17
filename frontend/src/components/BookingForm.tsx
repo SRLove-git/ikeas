@@ -218,11 +218,6 @@ export function BookingForm() {
           />
         </label>
       ))}
-      <div className="md:col-span-2">
-        <p className="rounded border border-ikea-blue/20 bg-ikea-blue/5 px-4 py-3 text-sm text-ikea-blue">
-          {t("bookingForm.bringVoucherNotice")}
-        </p>
-      </div>
       {(["serviceType", "store", "preferredDate", "timeSlot"] as FormKey[]).map((key) => (
         <label key={key} className="block">
           <span className="mb-1.5 block text-sm font-bold">

@@ -13,7 +13,9 @@ export default async function BookingPage() {
 
         <div className="max-w-3xl">
           <h1 className="text-2xl font-bold leading-9 lg:text-3xl">{t("booking.title")}</h1>
-          <p className="mt-4 text-sm leading-6 text-ikea-muted">{t("booking.intro")}</p>
+          <p className="mt-4 rounded-lg border border-amber-200 bg-amber-50 px-4 py-3 text-sm font-bold leading-6 text-amber-900">
+            {t("booking.intro")}
+          </p>
           <BookingForm />
         </div>
       </div>
