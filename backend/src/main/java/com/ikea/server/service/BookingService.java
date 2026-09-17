@@ -8,6 +8,8 @@ import com.ikea.server.dto.booking.BookingDtos.CreateBookingRequest;
 import com.ikea.server.entity.Booking;
 import com.ikea.server.entity.Coupon;
 import com.ikea.server.mapper.BookingMapper;
+import jakarta.mail.internet.MimeMessage;
+import java.nio.charset.StandardCharsets;
 import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.time.format.DateTimeParseException;
@@ -16,12 +18,19 @@ import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Map;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.mail.javamail.JavaMailSender;
+import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 /** 到店体验预约：顾客凭线下体检券下单，管理端确认、完成或取消。 */
 @Service
 public class BookingService {
+
+  private static final Logger log = LoggerFactory.getLogger(BookingService.class);
 
   private static final String PHONE_PATTERN = "^\\+?[0-9][0-9\\s-]{5,19}$";
   private static final String EMAIL_PATTERN = "^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$";
@@ -31,16 +40,22 @@ public class BookingService {
   private final ExperienceVoucherService voucherService;
   private final MarketingService marketingService;
   private final AdminSettingsService adminSettingsService;
+  private final JavaMailSender mailSender;
+  private final String emailFrom;
 
   public BookingService(
       BookingMapper bookingMapper,
       ExperienceVoucherService voucherService,
       MarketingService marketingService,
-      AdminSettingsService adminSettingsService) {
+      AdminSettingsService adminSettingsService,
+      JavaMailSender mailSender,
+      @Value("${ikea.auth.email-from:CHUNG YIP <no-reply@mail.medical-sg.com>}") String emailFrom) {
     this.bookingMapper = bookingMapper;
     this.voucherService = voucherService;
     this.marketingService = marketingService;
     this.adminSettingsService = adminSettingsService;
+    this.mailSender = mailSender;
+    this.emailFrom = emailFrom;
   }
 
   @Transactional
@@ -114,8 +129,38 @@ public class BookingService {
     booking.setNote(trim(request.note()));
     booking.setStatus(0);
     bookingMapper.insert(booking);
+    sendBookingConfirmationEmail(booking);
 
     return booking;
+  }
+
+  private void sendBookingConfirmationEmail(Booking booking) {
+    try {
+      MimeMessage message = mailSender.createMimeMessage();
+      MimeMessageHelper helper =
+          new MimeMessageHelper(message, true, StandardCharsets.UTF_8.name());
+      helper.setFrom(emailFrom);
+      helper.setTo(booking.getEmail());
+      helper.setSubject("预约成功 - CHUNG YIP 健康体验");
+
+      String text =
+          "尊敬的 " + trim(booking.getCustomerName()) + "：\n\n"
+              + "您的体验预约已提交成功，以下是预约信息：\n\n"
+              + "预约编号：" + booking.getBookingNo() + "\n"
+              + "服务项目：" + trim(booking.getServiceType()) + "\n"
+              + "门店：" + trim(booking.getStore()) + "\n"
+              + "预约日期：" + (booking.getPreferredDate() == null ? "" : booking.getPreferredDate()) + "\n"
+              + "预约时段：" + trim(booking.getTimeSlot()) + "\n"
+              + (booking.getNote() == null || booking.getNote().isBlank() ? "" : "备注：" + booking.getNote() + "\n")
+              + "\n来店时请携带并出示体检券。\n\n"
+              + "感谢您的预约。\n"
+              + "CHUNG YIP HOLDING";
+      helper.setText(text, false);
+      mailSender.send(message);
+    } catch (Exception ex) {
+      // 邮件发送失败不影响预约创建，仅记录日志。
+      log.warn("预约确认邮件发送失败, bookingNo={}", booking.getBookingNo(), ex);
+    }
   }
 
   private boolean isWeekday(LocalDate date) {

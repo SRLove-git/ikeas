@@ -28,6 +28,7 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.ArgumentCaptor;
+import org.springframework.mail.javamail.JavaMailSender;
 
 class BookingServiceTest {
 
@@ -35,6 +36,7 @@ class BookingServiceTest {
   private ExperienceVoucherService voucherService;
   private MarketingService marketingService;
   private AdminSettingsService adminSettingsService;
+  private JavaMailSender mailSender;
   private BookingService bookingService;
 
   @BeforeAll
@@ -51,8 +53,15 @@ class BookingServiceTest {
     voucherService = mock(ExperienceVoucherService.class);
     marketingService = mock(MarketingService.class);
     adminSettingsService = mock(AdminSettingsService.class);
+    mailSender = mock(JavaMailSender.class);
     bookingService =
-        new BookingService(bookingMapper, voucherService, marketingService, adminSettingsService);
+        new BookingService(
+            bookingMapper,
+            voucherService,
+            marketingService,
+            adminSettingsService,
+            mailSender,
+            "no-reply@example.com");
   }
 
   @Test
