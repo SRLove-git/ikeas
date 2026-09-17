@@ -64,13 +64,13 @@ class BookingServiceTest {
     IllegalArgumentException e =
         assertThrows(IllegalArgumentException.class, () -> bookingService.createBooking(request, null));
 
-    assertEquals("请填写姓名、联系方式、券码、服务项目、门店与预约日期", e.getMessage());
+    assertEquals("请填写姓名、邮箱、服务项目、门店与预约日期", e.getMessage());
     verify(bookingMapper, never()).insert(any(Booking.class));
   }
 
   @Test
   void createBookingShouldRejectInvalidPhone() {
-    CreateBookingRequest request = validRequest("71234567", "a@b.com", "2026-09-10");
+    CreateBookingRequest request = validRequest("123", "a@b.com", "2026-09-10");
 
     IllegalArgumentException e =
         assertThrows(IllegalArgumentException.class, () -> bookingService.createBooking(request, null));

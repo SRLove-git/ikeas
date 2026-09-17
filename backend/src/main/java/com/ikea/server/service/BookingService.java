@@ -57,11 +57,10 @@ public class BookingService {
 
     if (customerName.isBlank()
         || email.isBlank()
-        || (couponId == null && voucherCodes.isEmpty())
         || serviceType.isBlank()
         || store.isBlank()
         || preferredDate.isBlank()) {
-      throw new IllegalArgumentException("请填写姓名、邮箱、券码、服务项目、门店与预约日期");
+      throw new IllegalArgumentException("请填写姓名、邮箱、服务项目、门店与预约日期");
     }
     if (!phone.isBlank() && !phone.matches(PHONE_PATTERN)) {
       throw new IllegalArgumentException("手机号格式不正确");
@@ -84,7 +83,7 @@ public class BookingService {
     }
 
     String bookingNo = "BK-" + System.currentTimeMillis();
-    String codesText;
+    String codesText = "";
     if (couponId != null) {
       Coupon coupon = marketingService.couponById(couponId);
       marketingService.redeemCouponForBooking(userId, couponId, bookingNo);
@@ -96,9 +95,10 @@ public class BookingService {
     } else if (voucherCodes.size() == 3) {
       codesText = voucherService.redeemPointVouchersForBooking(voucherCodes, bookingNo);
       voucherCode = voucherCodes.get(0);
-    } else {
+    } else if (!voucherCodes.isEmpty()) {
       throw new IllegalArgumentException("请提供 1 张体验券或 3 张积分券");
     }
+    // 无需券码时直接预约，到店出示体检券核销。
 
     Booking booking = new Booking();
     booking.setBookingNo(bookingNo);

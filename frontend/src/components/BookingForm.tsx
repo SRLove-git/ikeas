@@ -3,15 +3,7 @@
 import { useEffect, useState } from "react"
 import Link from "next/link"
 import { useTranslation } from "react-i18next"
-import { useAuth } from "@/lib/auth"
 import { API_BASE, apiJson } from "@/lib/api"
-
-type AccountVoucher = {
-  id: string
-  code: string
-  type: number
-  status: number
-}
 
 type BookingQuota = {
   limit: number
@@ -23,7 +15,6 @@ type FormKey =
   | "customerName"
   | "phone"
   | "email"
-  | "voucherCode"
   | "serviceType"
   | "store"
   | "preferredDate"
@@ -47,7 +38,6 @@ function isWeekday(value: string): boolean {
 
 export function BookingForm() {
   const { t } = useTranslation()
-  const { user } = useAuth()
   const requiredKeys = new Set<FormKey>([
     "customerName",
     "email",
@@ -59,7 +49,6 @@ export function BookingForm() {
     customerName: "",
     phone: "",
     email: "",
-    voucherCode: "",
     serviceType: "",
     store: "",
     preferredDate: "",
@@ -69,35 +58,8 @@ export function BookingForm() {
   const [submitting, setSubmitting] = useState(false)
   const [error, setError] = useState<string | null>(null)
   const [successId, setSuccessId] = useState<string | null>(null)
-  const [accountVouchers, setAccountVouchers] = useState<AccountVoucher[]>([])
   const [quota, setQuota] = useState<BookingQuota | null>(null)
   const [dateError, setDateError] = useState<string | null>(null)
-
-  useEffect(() => {
-    const params = new URLSearchParams(window.location.search)
-    const voucher = params.get("voucher")
-    if (voucher) {
-      setForm((current) => ({ ...current, voucherCode: voucher.trim().toUpperCase() }))
-    }
-  }, [])
-
-  useEffect(() => {
-    if (!user) return
-    let cancelled = false
-    void (async () => {
-      try {
-        const data = await apiJson<AccountVoucher[]>("/experience-vouchers/mine")
-        if (!cancelled) {
-          setAccountVouchers(data.filter((voucher) => voucher.type === 1 && voucher.status === 0))
-        }
-      } catch {
-        if (!cancelled) setAccountVouchers([])
-      }
-    })()
-    return () => {
-      cancelled = true
-    }
-  }, [user])
 
   useEffect(() => {
     const date = form.preferredDate.trim()
@@ -158,11 +120,6 @@ export function BookingForm() {
         setError(t("bookingForm.weekendUnavailable"))
         return
       }
-      const voucherCodes = parseVoucherCodes(form.voucherCode)
-      if (voucherCodes.length !== 1 && voucherCodes.length !== 3) {
-        setError(t("bookingForm.voucherCountInvalid"))
-        return
-      }
 
       const payload: Record<string, unknown> = {
         customerName: form.customerName.trim(),
@@ -174,7 +131,6 @@ export function BookingForm() {
         timeSlot: form.timeSlot,
         note: form.note,
       }
-      payload.voucherCodes = voucherCodes
 
       const data = await apiJson<{ bookingNo: string }>("/bookings", {
         method: "POST",
@@ -262,44 +218,11 @@ export function BookingForm() {
           />
         </label>
       ))}
-      {accountVouchers.length > 0 ? (
-        <label className="block md:col-span-2">
-          <span className="mb-1.5 block text-sm font-bold">{t("bookingForm.couponLabel")}</span>
-          <select
-            value=""
-            onChange={(event) => {
-              const code = event.target.value
-              if (code) {
-                setForm((current) => ({ ...current, voucherCode: code }))
-              }
-            }}
-            className="h-11 w-full border border-ikea-gray-200 bg-white px-4 text-sm outline-none transition-colors focus:border-ikea-blue"
-          >
-            <option value="">{t("bookingForm.couponPlaceholder")}</option>
-            {accountVouchers.map((voucher) => (
-              <option key={voucher.id} value={voucher.code}>
-                {voucher.code}
-              </option>
-            ))}
-          </select>
-        </label>
-      ) : null}
-      <label className="block md:col-span-2">
-        <span className="mb-1.5 block text-sm font-bold">
-          {t("bookingForm.voucherLabel")}
-          <span className="text-red-600" aria-label={t("bookingForm.required")}>
-            {" "}
-            *
-          </span>
-        </span>
-        <input
-          type="text"
-          placeholder={t("bookingForm.voucherPlaceholder")}
-          value={form.voucherCode}
-          onChange={update("voucherCode")}
-          className="h-11 w-full border border-ikea-gray-200 px-4 text-sm outline-none transition-colors focus:border-ikea-blue"
-        />
-      </label>
+      <div className="md:col-span-2">
+        <p className="rounded border border-ikea-blue/20 bg-ikea-blue/5 px-4 py-3 text-sm text-ikea-blue">
+          {t("bookingForm.bringVoucherNotice")}
+        </p>
+      </div>
       {(["serviceType", "store", "preferredDate", "timeSlot"] as FormKey[]).map((key) => (
         <label key={key} className="block">
           <span className="mb-1.5 block text-sm font-bold">
@@ -388,16 +311,5 @@ export function BookingForm() {
       </div>
       </form>
     </>
-  )
-}
-
-function parseVoucherCodes(value: string): string[] {
-  return Array.from(
-    new Set(
-      value
-        .split(/[\n,，\s]+/)
-        .map((code) => code.trim().toUpperCase())
-        .filter(Boolean),
-    ),
   )
 }
