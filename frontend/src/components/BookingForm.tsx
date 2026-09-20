@@ -44,10 +44,15 @@ function upcomingWeekdays(count: number): string[] {
   return days
 }
 
-function weekdayLabel(dateStr: string, lang: string): string {
+function weekdayShort(dateStr: string, lang: string): string {
   const date = new Date(`${dateStr}T00:00:00`)
   const names = lang.startsWith("en") ? WEEKDAYS_EN : WEEKDAYS_ZH
-  return `${toLocalDateString(date).replace(/-/g, "/")} ${names[date.getDay()]}`
+  return names[date.getDay()]
+}
+
+function monthDay(dateStr: string): string {
+  const date = new Date(`${dateStr}T00:00:00`)
+  return `${date.getMonth() + 1}/${date.getDate()}`
 }
 
 function isWeekday(value: string): boolean {
@@ -250,25 +255,38 @@ export function BookingForm() {
             ) : null}
           </span>
           {key === "preferredDate" ? (
-            <>
-              <select
-                value={form[key]}
-                onChange={(event) => {
-                  setForm((current) => ({ ...current, preferredDate: event.target.value }))
-                }}
-                className="h-11 w-full border border-ikea-gray-200 bg-white px-4 text-sm outline-none transition-colors focus:border-ikea-blue"
-              >
-                <option value="">{t("bookingForm.preferredDatePlaceholder")}</option>
-                {upcomingWeekdays(60).map((date) => (
-                  <option key={date} value={date}>
-                    {weekdayLabel(date, i18n.language)}
-                  </option>
-                ))}
-              </select>
-              <span className="mt-1 block text-xs text-ikea-muted">
+            <div>
+              <div className="-mx-1 flex gap-2 overflow-x-auto px-1 pb-2">
+                {upcomingWeekdays(30).map((date) => {
+                  const selected = form[key] === date
+                  return (
+                    <button
+                      key={date}
+                      type="button"
+                      onClick={() =>
+                        setForm((current) => ({
+                          ...current,
+                          preferredDate: selected ? "" : date,
+                        }))
+                      }
+                      className={`flex h-16 w-16 shrink-0 flex-col items-center justify-center rounded-xl border text-sm transition-colors ${
+                        selected
+                          ? "border-ikea-blue bg-ikea-blue text-white"
+                          : "border-ikea-gray-200 bg-white text-ikea-black hover:border-ikea-blue"
+                      }`}
+                    >
+                      <span className="text-xs opacity-80">
+                        {weekdayShort(date, i18n.language)}
+                      </span>
+                      <span className="mt-0.5 font-bold">{monthDay(date)}</span>
+                    </button>
+                  )
+                })}
+              </div>
+              <span className="mt-2 block text-xs text-ikea-muted">
                 {t("bookingForm.weekdayHint")}
               </span>
-            </>
+            </div>
           ) : (
             <select
               value={form[key]}
