@@ -28,6 +28,14 @@ function toLocalDateString(date: Date): string {
   return `${year}-${month}-${day}`
 }
 
+function dateLabel(dateStr: string, lang: string): string {
+  const date = new Date(`${dateStr}T00:00:00`)
+  const names = lang.startsWith("en")
+    ? ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
+    : ["周日", "周一", "周二", "周三", "周四", "周五", "周六"]
+  return `${toLocalDateString(date).replace(/-/g, "/")} ${names[date.getDay()]}`
+}
+
 function BookingDatePicker({
   value,
   lang,
@@ -121,6 +129,51 @@ function BookingDatePicker({
           )
         })}
       </div>
+    </div>
+  )
+}
+
+function BookingDateField({
+  value,
+  lang,
+  placeholder,
+  onChange,
+}: {
+  value: string
+  lang: string
+  placeholder: string
+  onChange: (date: string) => void
+}) {
+  const [open, setOpen] = useState(false)
+
+  return (
+    <div className="relative">
+      <input
+        type="text"
+        readOnly
+        value={value ? dateLabel(value, lang) : ""}
+        placeholder={placeholder}
+        onClick={() => setOpen((current) => !current)}
+        className="h-11 w-full cursor-pointer border border-ikea-gray-200 px-4 pr-10 text-sm outline-none transition-colors focus:border-ikea-blue"
+      />
+      <span className="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-ikea-muted">
+        ▾
+      </span>
+      {open ? (
+        <>
+          <div className="fixed inset-0 z-10" onClick={() => setOpen(false)} />
+          <div className="absolute left-0 right-0 top-full z-20 mt-1 w-full min-w-[280px]">
+            <BookingDatePicker
+              value={value}
+              lang={lang}
+              onChange={(date) => {
+                onChange(date)
+                setOpen(false)
+              }}
+            />
+          </div>
+        </>
+      ) : null}
     </div>
   )
 }
@@ -326,9 +379,10 @@ export function BookingForm() {
           </span>
           {key === "preferredDate" ? (
             <div>
-              <BookingDatePicker
+              <BookingDateField
                 value={form[key]}
                 lang={i18n.language}
+                placeholder={t("bookingForm.preferredDatePlaceholder")}
                 onChange={(date) => setForm((current) => ({ ...current, preferredDate: date }))}
               />
               <span className="mt-2 block text-xs text-ikea-muted">
