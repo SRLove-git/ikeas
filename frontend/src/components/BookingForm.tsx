@@ -21,9 +21,6 @@ type FormKey =
   | "timeSlot"
   | "note"
 
-const WEEKDAYS_ZH = ["周日", "周一", "周二", "周三", "周四", "周五", "周六"]
-const WEEKDAYS_EN = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
-
 function toLocalDateString(date: Date): string {
   const year = date.getFullYear()
   const month = String(date.getMonth() + 1).padStart(2, "0")
@@ -31,28 +28,101 @@ function toLocalDateString(date: Date): string {
   return `${year}-${month}-${day}`
 }
 
-function upcomingWeekdays(count: number): string[] {
-  const days: string[] = []
-  const cursor = new Date()
-  while (days.length < count) {
-    const weekday = cursor.getDay()
-    if (weekday !== 0 && weekday !== 6) {
-      days.push(toLocalDateString(cursor))
-    }
-    cursor.setDate(cursor.getDate() + 1)
-  }
-  return days
-}
+function BookingDatePicker({
+  value,
+  lang,
+  onChange,
+}: {
+  value: string
+  lang: string
+  onChange: (date: string) => void
+}) {
+  const today = new Date()
+  today.setHours(0, 0, 0, 0)
+  const [view, setView] = useState<Date>(() => {
+    const base = value ? new Date(`${value}T00:00:00`) : new Date()
+    return new Date(base.getFullYear(), base.getMonth(), 1)
+  })
 
-function weekdayShort(dateStr: string, lang: string): string {
-  const date = new Date(`${dateStr}T00:00:00`)
-  const names = lang.startsWith("en") ? WEEKDAYS_EN : WEEKDAYS_ZH
-  return names[date.getDay()]
-}
+  const year = view.getFullYear()
+  const month = view.getMonth()
+  const firstWeekday = new Date(year, month, 1).getDay()
+  const daysInMonth = new Date(year, month + 1, 0).getDate()
 
-function monthDay(dateStr: string): string {
-  const date = new Date(`${dateStr}T00:00:00`)
-  return `${date.getMonth() + 1}/${date.getDate()}`
+  const cells: (Date | null)[] = []
+  for (let i = 0; i < firstWeekday; i++) cells.push(null)
+  for (let d = 1; d <= daysInMonth; d++) cells.push(new Date(year, month, d))
+
+  const headers = lang.startsWith("en")
+    ? ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
+    : ["日", "一", "二", "三", "四", "五", "六"]
+
+  const monthLabel = lang.startsWith("en")
+    ? `${view.toLocaleString("en-SG", { month: "long" })} ${year}`
+    : `${year}年${month + 1}月`
+
+  const canGoPrev =
+    year > today.getFullYear() || (year === today.getFullYear() && month > today.getMonth())
+
+  return (
+    <div className="rounded-xl border border-ikea-gray-200 p-3">
+      <div className="mb-2 flex items-center justify-between">
+        <button
+          type="button"
+          onClick={() => setView(new Date(year, month - 1, 1))}
+          disabled={!canGoPrev}
+          className="flex h-8 w-8 items-center justify-center rounded-lg text-ikea-muted hover:bg-ikea-gray-100 disabled:opacity-30"
+          aria-label="prev"
+        >
+          ‹
+        </button>
+        <span className="text-sm font-bold">{monthLabel}</span>
+        <button
+          type="button"
+          onClick={() => setView(new Date(year, month + 1, 1))}
+          className="flex h-8 w-8 items-center justify-center rounded-lg text-ikea-muted hover:bg-ikea-gray-100"
+          aria-label="next"
+        >
+          ›
+        </button>
+      </div>
+      <div className="grid grid-cols-7 gap-1 text-center text-xs text-ikea-muted">
+        {headers.map((header) => (
+          <span key={header} className="py-1">
+            {header}
+          </span>
+        ))}
+      </div>
+      <div className="grid grid-cols-7 gap-1">
+        {cells.map((cell, index) => {
+          if (!cell) return <span key={`empty-${index}`} />
+          const weekday = cell.getDay()
+          const isWeekend = weekday === 0 || weekday === 6
+          const isPast = cell < today
+          const disabled = isWeekend || isPast
+          const dateStr = toLocalDateString(cell)
+          const selected = value === dateStr
+          return (
+            <button
+              key={dateStr}
+              type="button"
+              disabled={disabled}
+              onClick={() => onChange(dateStr)}
+              className={`flex h-9 items-center justify-center rounded-lg text-sm transition-colors ${
+                selected
+                  ? "bg-ikea-blue font-bold text-white"
+                  : disabled
+                    ? "text-ikea-gray-300"
+                    : "text-ikea-black hover:bg-ikea-gray-100"
+              }`}
+            >
+              {cell.getDate()}
+            </button>
+          )
+        })}
+      </div>
+    </div>
+  )
 }
 
 function isWeekday(value: string): boolean {
@@ -256,33 +326,11 @@ export function BookingForm() {
           </span>
           {key === "preferredDate" ? (
             <div>
-              <div className="-mx-1 flex gap-2 overflow-x-auto px-1 pb-2">
-                {upcomingWeekdays(30).map((date) => {
-                  const selected = form[key] === date
-                  return (
-                    <button
-                      key={date}
-                      type="button"
-                      onClick={() =>
-                        setForm((current) => ({
-                          ...current,
-                          preferredDate: selected ? "" : date,
-                        }))
-                      }
-                      className={`flex h-16 w-16 shrink-0 flex-col items-center justify-center rounded-xl border text-sm transition-colors ${
-                        selected
-                          ? "border-ikea-blue bg-ikea-blue text-white"
-                          : "border-ikea-gray-200 bg-white text-ikea-black hover:border-ikea-blue"
-                      }`}
-                    >
-                      <span className="text-xs opacity-80">
-                        {weekdayShort(date, i18n.language)}
-                      </span>
-                      <span className="mt-0.5 font-bold">{monthDay(date)}</span>
-                    </button>
-                  )
-                })}
-              </div>
+              <BookingDatePicker
+                value={form[key]}
+                lang={i18n.language}
+                onChange={(date) => setForm((current) => ({ ...current, preferredDate: date }))}
+              />
               <span className="mt-2 block text-xs text-ikea-muted">
                 {t("bookingForm.weekdayHint")}
               </span>
