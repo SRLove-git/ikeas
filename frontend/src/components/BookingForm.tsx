@@ -120,7 +120,7 @@ function BookingDatePicker({
                 selected
                   ? "bg-ikea-blue font-bold text-white"
                   : disabled
-                    ? "text-ikea-gray-300"
+                    ? "bg-ikea-gray-100 text-ikea-gray-300"
                     : "text-ikea-black hover:bg-ikea-gray-100"
               }`}
             >
