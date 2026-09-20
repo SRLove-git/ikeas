@@ -21,12 +21,33 @@ type FormKey =
   | "timeSlot"
   | "note"
 
-function todayLocal(): string {
-  const now = new Date()
-  const year = now.getFullYear()
-  const month = String(now.getMonth() + 1).padStart(2, "0")
-  const day = String(now.getDate()).padStart(2, "0")
+const WEEKDAYS_ZH = ["周日", "周一", "周二", "周三", "周四", "周五", "周六"]
+const WEEKDAYS_EN = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
+
+function toLocalDateString(date: Date): string {
+  const year = date.getFullYear()
+  const month = String(date.getMonth() + 1).padStart(2, "0")
+  const day = String(date.getDate()).padStart(2, "0")
   return `${year}-${month}-${day}`
+}
+
+function upcomingWeekdays(count: number): string[] {
+  const days: string[] = []
+  const cursor = new Date()
+  while (days.length < count) {
+    const weekday = cursor.getDay()
+    if (weekday !== 0 && weekday !== 6) {
+      days.push(toLocalDateString(cursor))
+    }
+    cursor.setDate(cursor.getDate() + 1)
+  }
+  return days
+}
+
+function weekdayLabel(dateStr: string, lang: string): string {
+  const date = new Date(`${dateStr}T00:00:00`)
+  const names = lang.startsWith("en") ? WEEKDAYS_EN : WEEKDAYS_ZH
+  return `${toLocalDateString(date).replace(/-/g, "/")} ${names[date.getDay()]}`
 }
 
 function isWeekday(value: string): boolean {
@@ -37,7 +58,7 @@ function isWeekday(value: string): boolean {
 }
 
 export function BookingForm() {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
   const requiredKeys = new Set<FormKey>([
     "customerName",
     "email",
@@ -59,7 +80,6 @@ export function BookingForm() {
   const [error, setError] = useState<string | null>(null)
   const [successId, setSuccessId] = useState<string | null>(null)
   const [quota, setQuota] = useState<BookingQuota | null>(null)
-  const [dateError, setDateError] = useState<string | null>(null)
 
   useEffect(() => {
     const date = form.preferredDate.trim()
@@ -231,23 +251,23 @@ export function BookingForm() {
           </span>
           {key === "preferredDate" ? (
             <>
-              <input
-                type="date"
-                min={todayLocal()}
+              <select
                 value={form[key]}
                 onChange={(event) => {
-                  const value = event.target.value
-                  setForm((current) => ({ ...current, preferredDate: value }))
-                  setDateError(value && !isWeekday(value) ? t("bookingForm.weekendUnavailable") : null)
+                  setForm((current) => ({ ...current, preferredDate: event.target.value }))
                 }}
-                className="h-11 w-full border border-ikea-gray-200 px-4 text-sm outline-none transition-colors focus:border-ikea-blue"
-              />
+                className="h-11 w-full border border-ikea-gray-200 bg-white px-4 text-sm outline-none transition-colors focus:border-ikea-blue"
+              >
+                <option value="">{t("bookingForm.preferredDatePlaceholder")}</option>
+                {upcomingWeekdays(60).map((date) => (
+                  <option key={date} value={date}>
+                    {weekdayLabel(date, i18n.language)}
+                  </option>
+                ))}
+              </select>
               <span className="mt-1 block text-xs text-ikea-muted">
                 {t("bookingForm.weekdayHint")}
               </span>
-              {dateError ? (
-                <span className="mt-1 block text-xs text-red-600">{dateError}</span>
-              ) : null}
             </>
           ) : (
             <select
