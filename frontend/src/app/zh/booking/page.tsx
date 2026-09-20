@@ -24,9 +24,8 @@ export default async function BookingPage() {
                 <GiftIcon width={22} height={22} />
               </span>
               <div className="min-w-0">
-                <p className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-ikea-blue">
+                <p className="text-xs font-bold uppercase tracking-wider text-ikea-blue">
                   {t("booking.introLabel")}
-                  <span aria-hidden="true" className="h-0.5 w-6 rounded-full bg-ikea-yellow" />
                 </p>
                 <p className="mt-1 text-sm font-medium leading-6 text-ikea-black">
                   {t("booking.intro")}
