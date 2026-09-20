@@ -73,7 +73,7 @@ function BookingDatePicker({
     year > today.getFullYear() || (year === today.getFullYear() && month > today.getMonth())
 
   return (
-    <div className="rounded-xl border border-ikea-gray-200 p-3">
+    <div className="rounded-xl border border-ikea-gray-200 bg-white p-3 shadow-lg">
       <div className="mb-2 flex items-center justify-between">
         <button
           type="button"
@@ -147,7 +147,7 @@ function BookingDateField({
   const [open, setOpen] = useState(false)
 
   return (
-    <div className="relative">
+    <div className={`relative ${open ? "z-30" : ""}`}>
       <input
         type="text"
         readOnly
