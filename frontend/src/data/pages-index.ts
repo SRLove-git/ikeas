@@ -1,6 +1,6 @@
 import type { ContentPageData } from "./pages-types";
 import { loadDataJsonOptional } from "@/lib/data-files";
-import { DEFAULT_LOCALE, type Locale } from "@/i18n/config";
+import { DEFAULT_LOCALE, localeFileSuffixes, type Locale } from "@/i18n/config";
 
 const FAMILY_FILES = [
   "customer-service",
@@ -14,15 +14,17 @@ const builtFor = new Map<Locale, ContentPageData[]>();
 const contentPageList = new Map<Locale, ContentPageData[]>();
 const contentPagesByUrlMap = new Map<Locale, Map<string, ContentPageData>>();
 
+function loadFamilyPages(family: string, locale: Locale): ContentPageData[] {
+  for (const suffix of localeFileSuffixes(locale)) {
+    const rel = suffix ? `pages/${family}.${suffix}.json` : `pages/${family}.json`;
+    const data = loadDataJsonOptional<ContentPageData[]>(rel, EMPTY_PAGES);
+    if (data !== EMPTY_PAGES) return data;
+  }
+  return EMPTY_PAGES;
+}
+
 function ensureIndexes(locale: Locale): void {
-  const current = FAMILY_FILES.flatMap((family) =>
-    locale === "en"
-      ? loadDataJsonOptional<ContentPageData[]>(
-          `pages/${family}.en.json`,
-          loadDataJsonOptional<ContentPageData[]>(`pages/${family}.json`, EMPTY_PAGES),
-        )
-      : loadDataJsonOptional<ContentPageData[]>(`pages/${family}.json`, EMPTY_PAGES),
-  );
+  const current = FAMILY_FILES.flatMap((family) => loadFamilyPages(family, locale));
   if (builtFor.get(locale) === current) return;
   builtFor.set(locale, current);
   const byUrl = new Map<string, ContentPageData>();

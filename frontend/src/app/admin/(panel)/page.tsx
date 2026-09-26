@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useTranslation } from "react-i18next";
 import { useLocale } from "@/i18n/LanguageProvider";
+import { intlLocale } from "@/i18n/config";
 import {
   adminFetch,
   Card,
@@ -221,7 +222,7 @@ export default function AdminDashboardPage() {
             <div className="rounded-lg border border-ikea-gray-200 bg-white p-5 transition hover:border-ikea-blue">
               <div className="text-xs text-ikea-muted">{card.label}</div>
               <div className="mt-1 text-3xl font-bold text-ikea-black">
-                {card.value.toLocaleString(locale === "en" ? "en-US" : "zh-CN")}
+                {card.value.toLocaleString(intlLocale(locale))}
               </div>
             </div>
           </Link>
@@ -314,7 +315,7 @@ export default function AdminDashboardPage() {
                 </span>
                 <span className="flex-1 truncate">{entry.summary}</span>
                 <span className="shrink-0 text-xs text-ikea-muted">
-                  {new Date(entry.at).toLocaleString(locale === "en" ? "en-SG" : "zh-CN")}
+                  {new Date(entry.at).toLocaleString(intlLocale(locale))}
                 </span>
               </li>
             ))}

@@ -5,10 +5,14 @@ import { initReactI18next } from "react-i18next"
 import { DEFAULT_LOCALE, normalizeLocale, type Locale } from "./config"
 import zh from "./locales/zh/common.json"
 import en from "./locales/en/common.json"
+import ms from "./locales/ms/common.json"
+import id from "./locales/id/common.json"
 
 const resources = {
   "zh-CN": { common: zh },
   en: { common: en },
+  ms: { common: ms },
+  id: { common: id },
 } as const
 
 // Module-level mirror of the active locale, so non-component helpers
@@ -35,7 +39,7 @@ export function createClientI18n(lng: Locale): I18nInstance {
     resources,
     lng,
     fallbackLng: DEFAULT_LOCALE,
-    supportedLngs: ["zh-CN", "en"],
+    supportedLngs: ["zh-CN", "en", "ms", "id"],
     defaultNS: "common",
     ns: ["common"],
     interpolation: {

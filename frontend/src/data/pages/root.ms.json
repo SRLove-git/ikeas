@@ -1,0 +1,58 @@
+[
+  {
+    "url": "/zh",
+    "family": "root",
+    "id": "cn--zh--buzud-root",
+    "title": "Pusat Beli-belah Produk Kesihatan CHUNG YIP",
+    "name": "Utama CHUNG YIP",
+    "hero": null,
+    "blocks": [
+      {
+        "type": "pub-page-title",
+        "title": null,
+        "texts": [
+          "Pusat Beli-belah Produk Kesihatan CHUNG YIP"
+        ],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
+        }
+      },
+      {
+        "type": "pub-text",
+        "title": null,
+        "texts": [
+          "CHUNG YIP ialah jenama peranti perubatan dan pengurusan kesihatan buatan Singapura yang menawarkan produk kesihatan seperti kit ujian pantas, jam tangan pintar, monitor tekanan darah dan peranti pengurusan glukosa darah.",
+          "Halaman ini didorong oleh data laman utama; lawati / untuk melihat laman utama pusat beli-belah."
+        ],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
+        }
+      },
+      {
+        "type": "pub-button-link",
+        "title": null,
+        "texts": [],
+        "images": [],
+        "links": [
+          {
+            "href": "/zh/all-products/",
+            "text": "Semak semua produk"
+          }
+        ],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
+        }
+      }
+    ]
+  }
+]

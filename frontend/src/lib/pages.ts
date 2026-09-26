@@ -39,11 +39,11 @@ export function pagesDeeper(
 export function familyLabel(family: string, locale: Locale = DEFAULT_LOCALE): string {
   switch (family) {
     case "customer-service":
-      return locale === "en" ? "Customer service" : "客户服务"
+      return locale === "zh-CN" ? "客户服务" : "Customer service"
     case "company":
-      return locale === "en" ? "Company" : "公司介绍"
+      return locale === "zh-CN" ? "公司介绍" : "Company"
     default:
-      return locale === "en" ? "Home" : "首页"
+      return locale === "zh-CN" ? "首页" : "Home"
   }
 }
 

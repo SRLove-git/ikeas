@@ -234,7 +234,7 @@ export function searchProducts(
             (a.product.price ?? Number.MIN_SAFE_INTEGER)
           )
         case "nameAsc":
-          return a.product.name.localeCompare(b.product.name, locale === "en" ? "en" : "zh-CN")
+          return a.product.name.localeCompare(b.product.name, locale)
         case "relevance":
         default:
           return b.score - a.score || (a.product.price ?? 0) - (b.product.price ?? 0)

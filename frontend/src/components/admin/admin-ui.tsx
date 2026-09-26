@@ -45,9 +45,9 @@ const ADMIN_ERROR_EN: Record<string, string> = {
   "落地页不存在": "Landing page not found",
 };
 
-/** Localizes known frontend-generated admin error messages for English mode. */
+/** Localizes known frontend-generated admin error messages for non-Chinese modes. */
 export function adminErrorText(message: string): string {
-  if (getActiveLocale() !== "en") return message;
+  if (getActiveLocale() === "zh-CN") return message;
   if (Object.prototype.hasOwnProperty.call(ADMIN_ERROR_EN, message)) {
     return ADMIN_ERROR_EN[message];
   }

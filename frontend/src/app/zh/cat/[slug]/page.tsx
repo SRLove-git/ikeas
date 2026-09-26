@@ -51,7 +51,7 @@ export default async function CategoryPage({
         return (a.price ?? Number.MAX_SAFE_INTEGER) - (b.price ?? Number.MAX_SAFE_INTEGER)
       if (sort === "priceDesc")
         return (b.price ?? Number.MIN_SAFE_INTEGER) - (a.price ?? Number.MIN_SAFE_INTEGER)
-      if (sort === "nameAsc") return a.name.localeCompare(b.name, locale === "en" ? "en" : "zh-CN")
+      if (sort === "nameAsc") return a.name.localeCompare(b.name, locale)
       return 0
     })
 

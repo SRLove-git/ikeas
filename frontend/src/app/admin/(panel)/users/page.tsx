@@ -3,6 +3,7 @@
 import { useCallback, useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useLocale } from "@/i18n/LanguageProvider";
+import { intlLocale } from "@/i18n/config";
 import {
   adminFetch,
   ConfirmButton,
@@ -90,7 +91,7 @@ export default function UsersPage() {
                   <td className="px-5 py-3 text-xs">{user.phone ?? "—"}</td>
                   <td className="px-5 py-3 text-xs">{user.email ?? "—"}</td>
                   <td className="px-5 py-3 text-xs text-ikea-muted">
-                    {new Date(user.createdAt).toLocaleString(locale === "en" ? "en-SG" : "zh-CN")}
+                    {new Date(user.createdAt).toLocaleString(intlLocale(locale))}
                   </td>
                   <td className="px-5 py-3 text-right">
                     <ConfirmButton onConfirm={() => remove(user.id)}>

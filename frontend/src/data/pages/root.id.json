@@ -1,0 +1,58 @@
+[
+  {
+    "url": "/zh",
+    "family": "root",
+    "id": "cn--zh--buzud-root",
+    "title": "Mall Produk Kesehatan CHUNG YIP",
+    "name": "Beranda CHUNG YIP",
+    "hero": null,
+    "blocks": [
+      {
+        "type": "pub-page-title",
+        "title": null,
+        "texts": [
+          "Mall Produk Kesehatan CHUNG YIP"
+        ],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
+        }
+      },
+      {
+        "type": "pub-text",
+        "title": null,
+        "texts": [
+          "CHUNG YIP adalah merek perangkat medis dan manajemen kesehatan buatan Singapura yang menawarkan produk kesehatan seperti kit tes cepat, jam tangan pintar, monitor tekanan darah, dan perangkat manajemen glukosa darah.",
+          "Halaman ini digerakkan oleh data beranda; kunjungi / untuk melihat beranda mall."
+        ],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
+        }
+      },
+      {
+        "type": "pub-button-link",
+        "title": null,
+        "texts": [],
+        "images": [],
+        "links": [
+          {
+            "href": "/zh/all-products/",
+            "text": "Lihat semua produk"
+          }
+        ],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
+        }
+      }
+    ]
+  }
+]

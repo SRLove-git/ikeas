@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useLocale } from "@/i18n/LanguageProvider";
+import { intlLocale } from "@/i18n/config";
 import {
   adminFetch,
   EmptyState,
@@ -89,7 +90,7 @@ export default function ChangelogPage() {
               {items.map((entry) => (
                 <tr key={entry.id} className="hover:bg-ikea-gray-50">
                   <td className="px-5 py-3 text-xs text-ikea-muted">
-                    {new Date(entry.at).toLocaleString(locale === "en" ? "en-SG" : "zh-CN")}
+                    {new Date(entry.at).toLocaleString(intlLocale(locale))}
                   </td>
                   <td className="px-5 py-3">
                     <span

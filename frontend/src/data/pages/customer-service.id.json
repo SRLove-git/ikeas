@@ -1,0 +1,918 @@
+[
+  {
+    "url": "/zh/customer-service",
+    "family": "customer-service",
+    "id": "cn--zh--buzud-customer-service",
+    "title": "Layanan pelanggan",
+    "name": "Layanan pelanggan",
+    "hero": null,
+    "blocks": [
+      {
+        "type": "support-search-hero",
+        "title": "Ada yang bisa kami bantu?",
+        "texts": [
+          "Layanan Pelanggan CHUNG YIP",
+          "Kami menyediakan dukungan terpadu untuk pengiriman, purna jual, garansi, dan pengalaman kesehatan. Pertanyaan populer dapat langsung dicari di bawah."
+        ],
+        "images": [],
+        "links": [
+          {
+            "href": "/zh/customer-service/warranty-registration/",
+            "text": "Registrasi garansi"
+          },
+          {
+            "href": "/zh/booking/",
+            "text": "Pesan janji temu"
+          },
+          {
+            "href": "/zh/customer-service/services/delivery/",
+            "text": "Layanan pengiriman"
+          },
+          {
+            "href": "/zh/customer-service/services/aftersales/",
+            "text": "Layanan purna jual"
+          },
+          {
+            "href": "/zh/customer-service/services/privileges/",
+            "text": "Manfaat eksklusif"
+          },
+          {
+            "href": "/zh/customer-service/contact-us/#stores",
+            "text": "Pencari toko"
+          }
+        ],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": "buzud-support-hero",
+          "placeholder": "Cari pertanyaan umum, mis. garansi, pengiriman, pengembalian"
+        }
+      },
+      {
+        "type": "pub-text",
+        "title": "Layanan cepat lainnya",
+        "texts": [],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": "buzud-support-quick-title"
+        }
+      },
+      {
+        "type": "support-quick-services",
+        "title": null,
+        "texts": [],
+        "images": [],
+        "links": [],
+        "items": [
+          {
+            "title": "Registrasi garansi",
+            "text": "Daftarkan produk Anda untuk garansi resmi",
+            "href": "/zh/customer-service/warranty-registration/",
+            "icon": "shield"
+          },
+          {
+            "title": "Pesan janji temu",
+            "text": "Skrining kesehatan dan pengalaman produk",
+            "href": "/zh/booking/",
+            "icon": "clock"
+          },
+          {
+            "title": "Pelacakan pesanan",
+            "text": "Periksa status pesanan dan pengiriman",
+            "href": "/zh/profile/my-orders/",
+            "icon": "box"
+          },
+          {
+            "title": "Layanan pengiriman",
+            "text": "Pengiriman lokal dan luar negeri",
+            "href": "/zh/customer-service/services/delivery/",
+            "icon": "truck"
+          },
+          {
+            "title": "Layanan purna jual",
+            "text": "Perbaikan, penukaran, dan pengembalian",
+            "href": "/zh/customer-service/services/aftersales/",
+            "icon": "wrench"
+          },
+          {
+            "title": "Manfaat eksklusif",
+            "text": "Program pengalaman kesehatan",
+            "href": "/zh/customer-service/services/privileges/",
+            "icon": "gift"
+          },
+          {
+            "title": "Kuliah kesehatan",
+            "text": "Kuliah pengetahuan kesehatan di toko; pertanyaan dan partisipasi dipersilakan",
+            "href": "/zh/customer-service/contact-us/",
+            "icon": "document"
+          },
+          {
+            "title": "Pencari toko",
+            "text": "Tiga toko pengalaman di Singapura",
+            "href": "/zh/customer-service/contact-us/#stores",
+            "icon": "store"
+          },
+          {
+            "title": "Hubungi kami",
+            "text": "Email layanan pelanggan",
+            "href": "/zh/customer-service/contact-us/",
+            "icon": "email"
+          },
+          {
+            "title": "FAQs",
+            "text": "Akses cepat ke FAQ",
+            "href": "/zh/customer-service/#faq",
+            "icon": "chat"
+          }
+        ],
+        "productIds": [],
+        "settings": {
+          "traceId": "buzud-support-quick"
+        }
+      },
+      {
+        "type": "pub-text",
+        "title": "Jaminan layanan",
+        "texts": [],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": "buzud-support-assurances-title"
+        }
+      },
+      {
+        "type": "support-assurances",
+        "title": null,
+        "texts": [],
+        "images": [],
+        "links": [],
+        "items": [
+          {
+            "title": "Jaminan keaslian",
+            "text": "Produk kesehatan BUZUD resmi yang diotorisasi",
+            "icon": "shield"
+          },
+          {
+            "title": "Garansi resmi",
+            "text": "Daftarkan garansi Anda untuk menikmati layanan garansi",
+            "icon": "badge"
+          },
+          {
+            "title": "Respons cepat",
+            "text": "Respons tepat waktu melalui email pada hari kerja",
+            "icon": "clock"
+          },
+          {
+            "title": "Purna jual profesional",
+            "text": "Toko pengalaman menyediakan perbaikan langsung di tempat",
+            "icon": "wrench"
+          }
+        ],
+        "productIds": [],
+        "settings": {
+          "traceId": "buzud-support-assurances"
+        }
+      },
+      {
+        "type": "pub-text",
+        "title": "Panduan layanan",
+        "texts": [],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": "buzud-support-guides-title"
+        }
+      },
+      {
+        "type": "pub-page-list",
+        "title": null,
+        "texts": [],
+        "images": [],
+        "links": [],
+        "items": [
+          {
+            "title": "Layanan pengiriman",
+            "text": "",
+            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-service-delivery.jpg",
+            "href": "/zh/customer-service/services/delivery/"
+          },
+          {
+            "title": "Layanan purna jual",
+            "text": "",
+            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-service-aftersales.jpg",
+            "href": "/zh/customer-service/services/aftersales/"
+          },
+          {
+            "title": "Manfaat eksklusif",
+            "text": "",
+            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-service-privileges.jpg",
+            "href": "/zh/customer-service/services/privileges/"
+          }
+        ],
+        "productIds": [],
+        "settings": {
+          "traceId": "buzud-support-guides"
+        }
+      },
+      {
+        "type": "support-faq",
+        "title": "FAQs",
+        "texts": [
+          "Berapa lama waktu pengiriman?",
+          "Pesanan biasanya dikirim dalam 3–7 hari kerja. Untuk pengiriman lokal, Anda dapat menghubungi layanan pelanggan toko untuk mengonfirmasi waktu spesifik.",
+          "Bagaimana cara menghubungi layanan pelanggan BUZUD?",
+          "Anda dapat mengirim email ke customerservice@chungyip.com atau mengunjungi toko pengalaman kami di Singapura.",
+          "Apakah Anda mendukung pengembalian dan penukaran?",
+          "Layanan perbaikan dan penukaran tersedia selama dan setelah masa garansi. Jika terjadi masalah produksi atau kualitas, Anda dapat membawa produk dan faktur ke toko untuk mendapatkan bantuan.",
+          "Bagaimana cara mendaftar garansi produk?",
+          "Kunjungi halaman registrasi garansi, isi informasi produk untuk menyelesaikan pendaftaran, dan simpan faktur Anda dengan aman setelah mengirim.",
+          "Pengalaman kesehatan apa yang ditawarkan di toko?",
+          "Anda dapat menikmati layanan seperti terapi oksigen, analisis komposisi tubuh, analisis glukosa darah/lipid/asam urat, dan pemeriksaan tekanan darah. Kunjungi toko untuk memesan pengalaman."
+        ],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": "buzud-support-faq",
+          "sectionId": "faq",
+          "placeholder": "Cari pertanyaan umum, mis. garansi, pengiriman, pengembalian"
+        }
+      },
+      {
+        "type": "support-contact-banner",
+        "title": "Dapatkan bantuan",
+        "texts": [
+          "Email layanan pelanggan dan agen online kami akan merespons Anda secepat mungkin selama jam kerja. Jangan ragu menghubungi kami kapan saja."
+        ],
+        "images": [
+          "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-support-banner-v3.png"
+        ],
+        "links": [
+          {
+            "href": "/zh/customer-service/contact-us/",
+            "text": "Hubungi kami"
+          }
+        ],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": "buzud-support-contact"
+        }
+      }
+    ]
+  },
+  {
+    "url": "/zh/customer-service/services/delivery/",
+    "family": "customer-service",
+    "id": "cn--zh--buzud-delivery",
+    "title": "Layanan pengiriman",
+    "name": "Layanan pengiriman",
+    "hero": null,
+    "blocks": [
+      {
+        "type": "pub-page-title",
+        "title": null,
+        "texts": [
+          "Pengiriman"
+        ],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
+        }
+      },
+      {
+        "type": "pub-text",
+        "title": "Pengiriman lokal di Singapura",
+        "texts": [
+          "Biaya pengiriman: SGD 9,9 per pesanan di Singapura, seperti yang ditampilkan saat checkout.",
+          "Ambang gratis ongkir: saat ini tidak ada.",
+          "Perkiraan waktu: 2–4 hari kerja setelah konfirmasi pesanan; daerah terpencil mungkin membutuhkan waktu sedikit lebih lama.",
+          "Cakupan: alamat Singapura saja. Silakan periksa paket saat pengiriman."
+        ],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
+        }
+      },
+      {
+        "type": "pub-text",
+        "title": "Ambil di toko",
+        "texts": [
+          "Pengambilan di tiga toko pengalaman kami tersedia:",
+          "· Rumah Sakit Raffles: 585 North Bridge Road, #01-02, Singapura 188770",
+          "· Novena Square 2: 10 Sinaran Dr, #03-21, Singapura 307506",
+          "· PARKROYAL on Beach Road: 7500 Beach Road, Lantai 4, Singapura 199591",
+          "Silakan konfirmasikan stok dan waktu pengambilan dengan layanan pelanggan sebelum memesan."
+        ],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
+        }
+      },
+      {
+        "type": "pub-text",
+        "title": "Pengiriman luar negeri",
+        "texts": [
+          "Pengiriman luar negeri mencakup sebagian besar negara dan wilayah, kecuali negara yang dikenai sanksi perdagangan dengan Singapura.",
+          "Pengiriman luar negeri dihitung berdasarkan tujuan dan berat paket; silakan konfirmasikan biaya dan perkiraan waktu dengan layanan pelanggan sebelum memesan."
+        ],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
+        }
+      },
+      {
+        "type": "pub-text",
+        "title": "Barang besar & pengaturan khusus",
+        "texts": [
+          "Barang besar seperti kursi roda dan konsentrator oksigen mungkin dikenai biaya pengiriman tambahan dan memerlukan konfirmasi akses lantai serta pemasangan; silakan konfirmasikan dengan layanan pelanggan.",
+          "Email layanan pelanggan: customerservice@chungyip.com (balasan email pada hari kerja)."
+        ],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
+        }
+      },
+      {
+        "type": "pub-assurances",
+        "title": null,
+        "texts": [],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
+        }
+      },
+      {
+        "type": "pub-text",
+        "title": null,
+        "texts": [
+          "Perlu pengaturan pengiriman? Hubungi tim layanan pelanggan kami."
+        ],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
+        }
+      }
+    ]
+  },
+  {
+    "url": "/zh/customer-service/services/aftersales/",
+    "family": "customer-service",
+    "id": "cn--zh--buzud-aftersales",
+    "title": "Layanan purna jual",
+    "name": "Layanan purna jual",
+    "hero": null,
+    "blocks": [
+      {
+        "type": "pub-page-title",
+        "title": null,
+        "texts": [
+          "Layanan purna jual"
+        ],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
+        }
+      },
+      {
+        "type": "pub-text",
+        "title": "Masa garansi",
+        "texts": [
+          "Produk elektronik (monitor tekanan darah, jam tangan pintar, konsentrator oksigen, oksimeter denyut, termometer, alat bantu dengar, dll.): 12 bulan sejak tanggal pembelian.",
+          "Aksesori dan bahan habis pakai (manset, kabel daya, strip tes, lanset, dll.): sebagaimana tertera pada kemasan atau kartu garansi.",
+          "Masa garansi pastinya mengikuti kartu garansi atau kemasan produk yang disertakan."
+        ],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
+        }
+      },
+      {
+        "type": "pub-text",
+        "title": "Apa yang ditanggung",
+        "texts": [
+          "Selama masa garansi, kegagalan yang disebabkan oleh masalah produksi atau kualitas produk pada penggunaan normal ditanggung, dengan perbaikan atau penggantian gratis setelah menunjukkan nomor registrasi garansi, nomor pesanan, atau faktur Anda.",
+          "Tidak ditanggung: kerusakan akibat penyalahgunaan, air, terjatuh atau benturan, pembongkaran tanpa izin, konsumsi normal bahan habis pakai, atau kegagalan mengikuti petunjuk."
+        ],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
+        }
+      },
+      {
+        "type": "pub-text",
+        "title": "Cara mengajukan klaim",
+        "texts": [
+          "Silakan bawa atau berikan: nomor registrasi garansi, nomor pesanan atau faktur, dan produk yang rusak beserta kemasannya.",
+          "Pemeriksaan di toko biasanya selesai di tempat; perbaikan yang memerlukan pengembalian ke pabrik umumnya memakan waktu 3–7 hari kerja, tergantung kondisi aktual.",
+          "Perangkat pengganti sementara mungkin disediakan selama perbaikan berlangsung."
+        ],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
+        }
+      },
+      {
+        "type": "pub-text",
+        "title": "Perbaikan di luar garansi",
+        "texts": [
+          "Perbaikan berbayar tersedia untuk barang di luar garansi; Anda akan diberi penawaran harga sebelum pekerjaan dimulai, dan tidak ada biaya tersembunyi.",
+          "Email layanan pelanggan: customerservice@chungyip.com (balasan email pada hari kerja)."
+        ],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
+        }
+      },
+      {
+        "type": "pub-assurances",
+        "title": null,
+        "texts": [],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
+        }
+      },
+      {
+        "type": "pub-text",
+        "title": null,
+        "texts": [
+          "Ingat untuk mendaftarkan garansi Anda di situs web kami untuk menikmati perlindungan garansi resmi."
+        ],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
+        }
+      },
+      {
+        "type": "pub-button-link",
+        "title": null,
+        "texts": [],
+        "images": [],
+        "links": [
+          {
+            "text": "Daftar garansi",
+            "href": "/zh/customer-service/warranty-registration/"
+          }
+        ],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
+        }
+      },
+      {
+        "type": "pub-text",
+        "title": null,
+        "texts": [
+          "Alamat toko dan jam buka tersedia di halaman “Hubungi kami”."
+        ],
+        "images": [],
+        "links": [
+          {
+            "text": "Hubungi kami",
+            "href": "/zh/customer-service/contact-us/"
+          }
+        ],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
+        }
+      }
+    ]
+  },
+  {
+    "url": "/zh/customer-service/services/privileges/",
+    "family": "customer-service",
+    "id": "cn--zh--buzud-privileges",
+    "title": "Manfaat eksklusif",
+    "name": "Manfaat eksklusif",
+    "hero": null,
+    "blocks": [
+      {
+        "type": "pub-page-title",
+        "title": null,
+        "texts": [
+          "Manfaat eksklusif"
+        ],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": "",
+          "headingLevel": "h2"
+        }
+      },
+      {
+        "type": "pub-text",
+        "title": null,
+        "texts": [
+          "Selamat datang untuk mempelajari manfaat eksklusif CHUNG YIP. Kunjungi toko untuk merasakan layanan pemantauan kesehatan seperti terapi oksigen, analisis komposisi tubuh, analisis glukosa darah/lipid/asam urat, dan pemeriksaan tekanan darah. Janji temu dipersilakan."
+        ],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
+        }
+      },
+      {
+        "type": "pub-page-title",
+        "title": null,
+        "texts": [
+          "Program pengalaman kesehatan"
+        ],
+        "images": [
+          "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/customer-service/health-experience-imdec-2026-01.jpg",
+          "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/customer-service/health-experience-imdec-2026-02.jpg",
+          "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/customer-service/health-experience-imdec-2026-03.jpg",
+          "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/customer-service/health-experience-imdec-2026-04.jpg",
+          "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/customer-service/health-experience-imdec-2026-05.jpg",
+          "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/customer-service/health-experience-imdec-2026-06.jpg"
+        ],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": "",
+          "headingLevel": "h2"
+        }
+      },
+      {
+        "type": "pub-assurances",
+        "title": null,
+        "texts": [],
+        "images": [],
+        "links": [],
+        "items": [
+          {
+            "title": "Pengalaman A",
+            "text": "Terapi oksigen · Analisis komposisi tubuh · Analisis glukosa darah + asam urat · Pemeriksaan tekanan darah",
+            "image": null,
+            "href": "/zh/customer-service/contact-us/",
+            "backgroundColor": null
+          },
+          {
+            "title": "Pengalaman B",
+            "text": "Terapi oksigen · Analisis komposisi tubuh · Analisis glukosa darah + lipid · Pemeriksaan tekanan darah",
+            "image": null,
+            "href": "/zh/customer-service/contact-us/",
+            "backgroundColor": null
+          },
+          {
+            "title": "Alamat toko",
+            "text": "585 North Bridge Road #01-02 Raffles Hospital",
+            "image": null,
+            "href": "/zh/customer-service/contact-us/",
+            "backgroundColor": null
+          },
+          {
+            "title": "Belanja sekarang",
+            "text": "Kunjungi mal untuk berbelanja produk kesehatan BUZUD",
+            "image": null,
+            "href": "/zh/all-products/",
+            "backgroundColor": null
+          }
+        ],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
+        }
+      },
+      {
+        "type": "pub-button-link",
+        "title": null,
+        "texts": [],
+        "images": [],
+        "links": [
+          {
+            "href": "/zh/all-products/",
+            "text": "Belanja sekarang"
+          }
+        ],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": "buzud-privileges-cta"
+        }
+      }
+    ]
+  },
+  {
+    "url": "/zh/customer-service/contact-us/",
+    "family": "customer-service",
+    "id": "cn--zh--buzud-contact-us",
+    "title": "Hubungi kami",
+    "name": "Hubungi kami",
+    "hero": null,
+    "blocks": [
+      {
+        "type": "corporate-text",
+        "title": "Kontak cepat",
+        "texts": [
+          "Pilih metode kontak yang paling sesuai; kami akan merespons secepat mungkin selama jam kerja."
+        ],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": "buzud-contact-channels-intro"
+        }
+      },
+      {
+        "type": "contact-channels",
+        "title": null,
+        "texts": [],
+        "images": [],
+        "links": [],
+        "items": [
+          {
+            "title": "Email layanan pelanggan",
+            "text": "customerservice@chungyip.com\nBalasan email pada hari kerja; jangan ragu menghubungi kami kapan saja tentang masalah purna jual",
+            "image": null,
+            "href": "mailto:customerservice@chungyip.com",
+            "icon": "email",
+            "backgroundColor": null
+          },
+          {
+            "title": "Pengalaman di toko",
+            "text": "Tiga toko pengalaman di Singapura\nPengujian kesehatan dan pengalaman produk tersedia berdasarkan janji temu",
+            "image": null,
+            "href": "/zh/customer-service/contact-us/#stores",
+            "icon": "store",
+            "backgroundColor": null
+          },
+          {
+            "title": "Masukan",
+            "text": "Kami menyambut saran berharga Anda\nBantu kami terus meningkatkan produk dan layanan kami",
+            "image": null,
+            "href": "mailto:customerservice@chungyip.com?subject=%E6%84%8F%E8%A7%81%E5%8F%8D%E9%A6%88",
+            "icon": "feedback",
+            "backgroundColor": null
+          }
+        ],
+        "productIds": [],
+        "settings": {
+          "traceId": "buzud-contact-channels"
+        }
+      },
+      {
+        "type": "corporate-text",
+        "title": "Toko dan pusat pengalaman",
+        "texts": [
+          "Selamat datang untuk mengunjungi toko untuk pengujian kesehatan dan konsultasi produk — ketiga toko pengalaman menyediakan layanan profesional."
+        ],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": "buzud-contact-stores-intro"
+        }
+      },
+      {
+        "type": "contact-channels",
+        "title": null,
+        "texts": [],
+        "images": [],
+        "links": [],
+        "items": [
+          {
+            "title": "Raffles Hospital",
+            "text": "585 North Bridge Road, #01-02, Singapore 188770\nMon–Fri 9am–8pm; Sat–Sun 10am–7pm",
+            "image": null,
+            "href": "/zh/customer-service/contact-us/#stores",
+            "icon": "store",
+            "backgroundColor": null
+          },
+          {
+            "title": "Novena Square 2",
+            "text": "10 Sinaran Dr, #03-21, Singapore 307506\nMon–Fri 9am–8pm; Sat–Sun 10am–7pm",
+            "image": null,
+            "href": "/zh/customer-service/contact-us/#stores",
+            "icon": "store",
+            "backgroundColor": null
+          },
+          {
+            "title": "PARKROYAL on Beach Road",
+            "text": "7500 Beach Road, Level 4, Singapore 199591\nDaily 11am–8pm",
+            "image": null,
+            "href": "/zh/customer-service/contact-us/#stores",
+            "icon": "store",
+            "backgroundColor": null
+          }
+        ],
+        "productIds": [],
+        "settings": {
+          "traceId": "buzud-contact-stores",
+          "sectionId": "stores"
+        }
+      },
+      {
+        "type": "contact-list",
+        "title": "Hal kontak lainnya",
+        "texts": [
+          "Pilih saluran kontak yang sesuai dengan kebutuhan Anda. Kami berjanji menjaga kerahasiaan pertanyaan Anda."
+        ],
+        "images": [],
+        "links": [],
+        "items": [
+          {
+            "title": "Kerja sama bisnis",
+            "text": "Distributor, institusi kesehatan, dan pelanggan korporat dipersilakan membahas kerja sama; silakan hubungi kami melalui email layanan pelanggan.",
+            "image": null,
+            "href": "mailto:customerservice@chungyip.com?subject=%E5%95%86%E5%8A%A1%E5%90%88%E4%BD%9C",
+            "icon": "partner",
+            "backgroundColor": null
+          },
+          {
+            "title": "Karier",
+            "text": "Untuk pertanyaan terkait pekerjaan, silakan kirim email ke careers@chungyip.com.",
+            "image": null,
+            "href": "mailto:careers@chungyip.com",
+            "icon": "careers",
+            "backgroundColor": null
+          },
+          {
+            "title": "Masukan",
+            "text": "Jika Anda memiliki saran tentang produk atau situs web kami, jangan ragu meninggalkan pesan.",
+            "image": null,
+            "href": "mailto:customerservice@chungyip.com?subject=%E6%84%8F%E8%A7%81%E5%8F%8D%E9%A6%88",
+            "icon": "feedback",
+            "backgroundColor": null
+          },
+          {
+            "title": "Pelaporan & kepatuhan",
+            "text": "Jika Anda menemukan dugaan pelanggaran atau perilaku tidak pantas, Anda dapat melaporkannya melalui email layanan pelanggan. Kami berjanji menjaga kerahasiaan.",
+            "image": null,
+            "href": "mailto:customerservice@chungyip.com?subject=%E4%B8%BE%E6%8A%A5%E4%B8%8E%E5%90%88%E8%A7%84",
+            "icon": "report",
+            "backgroundColor": null
+          }
+        ],
+        "productIds": [],
+        "settings": {
+          "traceId": "buzud-contact-matters"
+        }
+      },
+      {
+        "type": "contact-list",
+        "title": "Bantuan lainnya",
+        "texts": [
+          "Halaman di bawah dapat membantu Anda menyelesaikan pertanyaan umum dengan cepat."
+        ],
+        "images": [],
+        "links": [],
+        "items": [
+          {
+            "title": "Gambaran umum layanan pelanggan",
+            "text": "Layanan terpadu untuk kuliah kesehatan, pesanan, dan FAQ",
+            "image": null,
+            "href": "/zh/customer-service/",
+            "icon": "document",
+            "backgroundColor": null
+          },
+          {
+            "title": "Layanan pengiriman",
+            "text": "Pengaturan pengiriman untuk pesanan lokal dan internasional",
+            "image": null,
+            "href": "/zh/customer-service/services/delivery/",
+            "icon": "document",
+            "backgroundColor": null
+          },
+          {
+            "title": "Layanan purna jual",
+            "text": "Pertanyaan layanan pelanggan, garansi, dan dukungan pengembalian/penukaran",
+            "image": null,
+            "href": "/zh/customer-service/services/aftersales/",
+            "icon": "document",
+            "backgroundColor": null
+          },
+          {
+            "title": "Manfaat eksklusif",
+            "text": "Penawaran mitra perbankan eksklusif dan pengalaman kesehatan",
+            "image": null,
+            "href": "/zh/customer-service/services/privileges/",
+            "icon": "document",
+            "backgroundColor": null
+          },
+          {
+            "title": "Registrasi garansi",
+            "text": "Daftarkan produk Anda untuk menikmati garansi resmi",
+            "image": null,
+            "href": "/zh/customer-service/warranty-registration/",
+            "icon": "document",
+            "backgroundColor": null
+          },
+          {
+            "title": "Pesan janji temu",
+            "text": "Pesan skrining kesehatan dan pengalaman produk di toko",
+            "image": null,
+            "href": "/zh/booking/",
+            "icon": "clock",
+            "backgroundColor": null
+          }
+        ],
+        "productIds": [],
+        "settings": {
+          "traceId": "buzud-contact-help"
+        }
+      },
+      {
+        "type": "pub-expandable-area",
+        "title": null,
+        "texts": [
+          "Berapa lama waktu pengiriman?",
+          "Pesanan biasanya dikirim dalam 3–7 hari kerja. Untuk pengiriman lokal, Anda dapat menghubungi layanan pelanggan toko untuk mengonfirmasi waktu spesifik.",
+          "Bagaimana cara menghubungi layanan pelanggan CHUNG YIP?",
+          "Anda dapat mengirim email ke customerservice@chungyip.com atau mengunjungi toko pengalaman kami di Singapura.",
+          "Apakah Anda mendukung pengembalian dan penukaran?",
+          "Layanan perbaikan dan penukaran tersedia selama dan setelah masa garansi. Jika terjadi masalah produksi atau kualitas, Anda dapat membawa produk dan faktur ke toko untuk mendapatkan bantuan.",
+          "Bagaimana cara mendaftar garansi produk?",
+          "Kunjungi halaman registrasi garansi dan isi informasi produk untuk menyelesaikan pendaftaran.",
+          "Pengalaman kesehatan apa yang ditawarkan di toko?",
+          "Anda dapat menikmati layanan seperti terapi oksigen, analisis komposisi tubuh, analisis glukosa darah/lipid/asam urat, dan pemeriksaan tekanan darah. Kunjungi toko untuk memesan pengalaman."
+        ],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": "buzud-contact-faq"
+        }
+      },
+      {
+        "type": "pub-button-link",
+        "title": null,
+        "texts": [],
+        "images": [],
+        "links": [
+          {
+            "href": "mailto:customerservice@chungyip.com",
+            "text": "Kirim email"
+          }
+        ],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": "buzud-contact-cta"
+        }
+      }
+    ],
+    "subtitle": "Jika Anda memiliki pertanyaan tentang produk BUZUD, layanan purna jual, atau kerja sama bisnis, silakan hubungi kami melalui saluran ini."
+  }
+]

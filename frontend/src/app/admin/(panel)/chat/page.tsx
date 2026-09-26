@@ -3,6 +3,7 @@
 import { useCallback, useEffect, useState } from "react"
 import { useTranslation } from "react-i18next"
 import { useLocale } from "@/i18n/LanguageProvider"
+import { intlLocale } from "@/i18n/config"
 import {
   adminFetch,
   Button,
@@ -84,9 +85,7 @@ export default function ChatPage() {
                     </span>
                     {message.at ? (
                       <span>
-                        {new Date(message.at).toLocaleString(
-                          locale === "en" ? "en-SG" : "zh-CN",
-                        )}
+                        {new Date(message.at).toLocaleString(intlLocale(locale))}
                       </span>
                     ) : null}
                   </div>

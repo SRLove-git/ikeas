@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react"
 import { useTranslation } from "react-i18next"
 import { useLocale } from "@/i18n/LanguageProvider"
+import { intlLocale, type Locale } from "@/i18n/config"
 import {
   adminFetch,
   Button,
@@ -49,10 +50,10 @@ function statusClassName(status: number): string {
   return "bg-amber-100 text-amber-700"
 }
 
-function formatDate(value: string, locale: string): string {
+function formatDate(value: string, locale: Locale): string {
   const date = new Date(value)
   if (Number.isNaN(date.getTime())) return value
-  return date.toLocaleString(locale === "en" ? "en-SG" : "zh-CN", { hour12: false })
+  return date.toLocaleString(intlLocale(locale), { hour12: false })
 }
 
 export default function BookingsPage() {

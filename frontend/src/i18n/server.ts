@@ -3,28 +3,39 @@ import { createInstance } from "i18next"
 import {
   DEFAULT_LOCALE,
   LOCALE_STORAGE_KEY,
+  isLocale,
+  localeFromHost,
   normalizeLocale,
   type Locale,
 } from "./config"
 import zh from "./locales/zh/common.json"
 import en from "./locales/en/common.json"
+import ms from "./locales/ms/common.json"
+import id from "./locales/id/common.json"
 
 const resources = {
   "zh-CN": { common: zh },
   en: { common: en },
+  ms: { common: ms },
+  id: { common: id },
 } as const
 
-/** Current locale for server-rendered data, from cookie → Accept-Language → default. */
+/**
+ * Current locale for server-rendered data, resolved with this priority:
+ * cookie (explicit choice) → domain suffix → Accept-Language → default.
+ */
 export async function getLocale(): Promise<Locale> {
   try {
     const store = await cookies()
     const cookie = store.get(LOCALE_STORAGE_KEY)?.value
-    if (cookie === "en" || cookie === "zh-CN") return cookie
+    if (isLocale(cookie)) return cookie
   } catch {
     // no cookie store (build-time / static generation) — fall through
   }
   try {
     const headerList = await headers()
+    const hostLocale = localeFromHost(headerList.get("host"))
+    if (hostLocale) return hostLocale
     return normalizeLocale(headerList.get("accept-language"))
   } catch {
     return DEFAULT_LOCALE

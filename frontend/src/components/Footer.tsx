@@ -3,6 +3,7 @@
 import { useTranslation } from "react-i18next";
 import { ChevronDownIcon } from "@/components/icons";
 import { useLocale } from "@/i18n/LanguageProvider";
+import type { Locale } from "@/i18n/config";
 import type { FooterLinkGroup } from "@/types";
 
 interface FooterProps {
@@ -85,10 +86,12 @@ export function Footer({
                   className="lang-selector"
                   aria-label={t("footer.chooseLanguage")}
                   value={locale}
-                  onChange={(event) => changeLanguage(event.target.value as "zh-CN" | "en")}
+                  onChange={(event) => changeLanguage(event.target.value as Locale)}
                 >
                   <option value="zh-CN">中文</option>
                   <option value="en">English</option>
+                  <option value="ms">Bahasa Melayu</option>
+                  <option value="id">Bahasa Indonesia</option>
                 </select>
                 <ChevronDownIcon width={16} height={16} />
               </div>

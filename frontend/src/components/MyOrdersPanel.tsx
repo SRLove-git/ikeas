@@ -15,6 +15,7 @@ import {
 import { API_BASE, getToken } from "@/lib/api"
 import { formatPrice } from "@/lib/catalog-format"
 import { useLocale } from "@/i18n/LanguageProvider"
+import { intlLocale, type Locale } from "@/i18n/config"
 
 function statusClassName(status: number): string {
   if (status === 1) return "bg-amber-100 text-amber-700"
@@ -25,10 +26,10 @@ function statusClassName(status: number): string {
   return "bg-ikea-gray-100 text-ikea-muted"
 }
 
-function formatDate(value: string, locale: string): string {
+function formatDate(value: string, locale: Locale): string {
   const date = new Date(value)
   if (Number.isNaN(date.getTime())) return value
-  return date.toLocaleString(locale === "en" ? "en-SG" : "zh-CN", { hour12: false })
+  return date.toLocaleString(intlLocale(locale), { hour12: false })
 }
 
 export function MyOrdersPanel() {

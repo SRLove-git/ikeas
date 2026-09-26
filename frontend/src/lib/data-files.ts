@@ -1,6 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
-import { DEFAULT_LOCALE, type Locale } from "@/i18n/config";
+import { DEFAULT_LOCALE, localeFileSuffixes, type Locale } from "@/i18n/config";
 
 /**
  * Runtime JSON store used by the CMS data modules.
@@ -47,17 +47,18 @@ export function loadDataJson<T>(rel: string): T {
 }
 
 /**
- * Locale-aware JSON store. English content lives in parallel `<name>.en.json`
- * files next to the Chinese source of truth; Chinese is the fallback whenever
- * an English file is missing.
+ * Locale-aware JSON store. Translated content lives in parallel
+ * `<name>.<suffix>.json` files next to the Chinese source of truth; missing
+ * translations fall back through the locale's suffix chain (e.g. Malay falls
+ * back to English, then Chinese).
  */
 export function loadLocalizedData<T>(rel: string, locale: Locale = DEFAULT_LOCALE): T {
-  if (locale === "en") {
-    const enRel = rel.replace(/\.json$/, ".en.json");
+  for (const suffix of localeFileSuffixes(locale)) {
+    const localizedRel = suffix ? rel.replace(/\.json$/, `.${suffix}.json`) : rel;
     try {
-      return loadDataJson<T>(enRel);
+      return loadDataJson<T>(localizedRel);
     } catch {
-      // no English copy yet — fall back to the Chinese source
+      // try the next suffix in the fallback chain
     }
   }
   return loadDataJson<T>(rel);

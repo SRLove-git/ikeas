@@ -1,7 +1,7 @@
 import fs from "node:fs"
 import path from "node:path"
 import { loadDataJson, loadDataJsonOptional } from "@/lib/data-files"
-import { DEFAULT_LOCALE, type Locale } from "@/i18n/config"
+import { DEFAULT_LOCALE, localeFileSuffixes, type Locale } from "@/i18n/config"
 
 // ---------------------------------------------------------------------------
 // File-backed CMS store. Every operation reads/writes the same src/data/*.json
@@ -665,9 +665,16 @@ const DEFAULT_SETTINGS: SiteSettings = {
 export function getSettings(locale: Locale = DEFAULT_LOCALE): SiteSettings {
   const saved = loadDataJson<Partial<SiteSettings>>("settings.json")
   const base = { ...DEFAULT_SETTINGS, ...saved }
-  if (locale !== "en") return base
-  const en = loadDataJsonOptional<Partial<SiteSettings>>("settings.en.json", {})
-  return { ...base, ...en }
+  for (const suffix of localeFileSuffixes(locale)) {
+    if (!suffix) continue
+    try {
+      const localized = loadDataJson<Partial<SiteSettings>>(`settings.${suffix}.json`)
+      return { ...base, ...localized }
+    } catch {
+      // missing localized settings — continue down the fallback chain
+    }
+  }
+  return base
 }
 
 export async function updateSettings(input: Partial<SiteSettings>): Promise<SiteSettings> {

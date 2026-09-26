@@ -7,13 +7,18 @@ import { createClientI18n } from "./client"
 import {
   DEFAULT_LOCALE,
   LOCALE_STORAGE_KEY,
+  localeFromHost,
   normalizeLocale,
   type Locale,
 } from "./config"
 
-/** Best-effort detection of the visitor's browser/system language. */
+/** Best-effort detection of the visitor's locale: domain suffix first, then browser. */
 function detectBrowserLocale(): Locale | undefined {
   if (typeof navigator === "undefined") return undefined
+  // Mirror the server's domain-suffix resolution so a Malaysian/Indonesian
+  // domain is never overridden by an unrelated browser language.
+  const fromHost = localeFromHost(window.location.hostname)
+  if (fromHost) return fromHost
   const candidates: string[] = []
   if (Array.isArray(navigator.languages)) candidates.push(...navigator.languages)
   if (navigator.language) candidates.push(navigator.language)
