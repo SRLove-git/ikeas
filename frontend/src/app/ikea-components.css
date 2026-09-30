@@ -1248,6 +1248,10 @@ button.swiper-pagination-bullet{-webkit-appearance:none;-moz-appearance:none;app
 @media screen and (max-width:1000px) {
 .nav-footer{padding:8% 8% 0}
 }
+@media screen and (max-width:1023px) {
+.nav-header_container{min-width:0}
+.nav-header_container .header_container_top{padding:0 16px}
+}
 .nav-header{background-color:wheat;-webkit-font-smoothing:antialiased}
 .nav-header .nav-header-mask{background:rgba(var(--colour-neutral-7,17,17,17),.4);height:100vh;left:0;overflow:hidden;position:fixed;width:100%;z-index:1001}
 .nav-header .s-header-notice{cursor:pointer;height:30px;left:0;line-height:21px;padding-left:55px;position:absolute;text-align:left;top:7px;width:100%}
