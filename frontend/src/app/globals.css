@@ -177,7 +177,7 @@
 
 @layer utilities {
   .max-w-page {
-    max-width: 1440px;
+    max-width: 1680px;
     margin-inline: auto;
     padding-left: clamp(20px, 5vw, 80px);
     padding-right: clamp(20px, 5vw, 80px);
