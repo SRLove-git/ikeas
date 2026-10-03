@@ -319,41 +319,6 @@ public class OrderService {
   }
 
   /**
-   * 模拟支付：待付款 → 待发货。对接开启时同时向 OMS 发送支付成功通知
-   * （对接规范 §7.2）；未对接时仅推进本地状态。
-   */
-  @Transactional
-  public OrderResponse pay(Long userId, String orderNo) {
-    requireUser(userId);
-    Order order =
-        orderMapper.selectOne(
-            Wrappers.lambdaQuery(Order.class)
-                .eq(Order::getUserId, userId)
-                .eq(Order::getOrderNo, orderNo));
-    if (order == null) {
-      throw new ResourceNotFoundException("Order not found: " + orderNo);
-    }
-    if (order.getStatus() != OrderStatus.PENDING_PAYMENT.code()) {
-      throw new IllegalArgumentException("仅待付款订单可以支付");
-    }
-
-    if (omsChannel.isEnabled()) {
-      omsOrderSyncService.notifyPaymentSuccess(
-          orderNo, generatePaymentNo(), order.getTotalAmount(), "mock");
-      order =
-          orderMapper.selectOne(
-              Wrappers.lambdaQuery(Order.class).eq(Order::getOrderNo, orderNo));
-    } else {
-      order.setStatus(OrderStatus.PENDING_SHIPMENT.code());
-      orderMapper.updateById(order);
-    }
-    marketingService.earnForPaidOrder(userId, order.getTotalAmount(), orderNo);
-    experienceVoucherService.issuePointVoucherForOrder(
-        order.getUserId(), orderNo, order.getTotalAmount());
-    return toResponse(order, itemsOf(order.getId()));
-  }
-
-  /**
    * 真实收银台支付成功回调：金额校验后推进本地状态；对接开启时同步通知 OMS 扣减库存。
    */
   @Transactional

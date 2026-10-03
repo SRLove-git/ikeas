@@ -129,8 +129,7 @@ export function MyOrdersPanel() {
         { method: "POST" },
       )
       if (payment.mockOnly) {
-        await apiJson(`/orders/${orderNo}/pay`, { method: "POST" })
-        await loadOrders()
+        setError(t("orders.paymentUnavailable"))
         return
       }
       if (payment.payUrl) {

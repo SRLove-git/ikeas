@@ -538,6 +538,7 @@
     "loadFailed": "Gagal memuat pesanan",
     "cancelFailed": "Gagal membatalkan pesanan",
     "payFailed": "Pembayaran gagal",
+    "paymentUnavailable": "Pembayaran sementara tidak tersedia. Silakan coba lagi nanti atau hubungi layanan pelanggan.",
     "refundConfirm": "Ajukan pengembalian dana? Setelah dikirim, permintaan pengembalian dana tidak dapat ditarik secara langsung.",
     "refundFailed": "Gagal mengirim permintaan pengembalian dana",
     "filterAll": "Semua",

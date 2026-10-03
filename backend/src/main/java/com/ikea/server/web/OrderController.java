@@ -46,11 +46,6 @@ public class OrderController {
     return orderService.cancel(userId(request), orderNo);
   }
 
-  @PostMapping("/{orderNo}/pay")
-  public OrderResponse pay(HttpServletRequest request, @PathVariable String orderNo) {
-    return orderService.pay(userId(request), orderNo);
-  }
-
   @PostMapping("/{orderNo}/refund")
   public OrderResponse refund(HttpServletRequest request, @PathVariable String orderNo) {
     return orderService.refund(userId(request), orderNo);
