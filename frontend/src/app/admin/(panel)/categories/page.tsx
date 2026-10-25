@@ -1,11 +1,13 @@
-"use client";
+"use client"
 
-import { useEffect, useMemo, useState } from "react";
-import { useTranslation } from "react-i18next";
+import { useEffect, useMemo, useState } from "react"
+import { useTranslation } from "react-i18next"
 import {
   adminFetch,
   Button,
   Card,
+  EditorActionBar,
+  EditorTabs,
   Field,
   Loading,
   Notice,
@@ -14,26 +16,26 @@ import {
   TextInput,
   cn,
   useNotice,
-} from "@/components/admin/admin-ui";
-import { SchemaListForm, type Schema } from "@/components/admin/SchemaForms";
+} from "@/components/admin/admin-ui"
+import { SchemaListForm, type Schema } from "@/components/admin/SchemaForms"
 
 interface CategoryItem {
-  id: string;
-  name: string;
-  slug: string;
-  url: string;
-  image: string | null;
-  subs: Record<string, unknown>[];
-  products: unknown[];
+  id: string
+  name: string
+  slug: string
+  url: string
+  image: string | null
+  subs: Record<string, unknown>[]
+  products: unknown[]
 }
 
 export default function CategoriesPage() {
-  const { t } = useTranslation();
-  const { notice, show } = useNotice();
-  const [kind, setKind] = useState<"catalog" | "channel">("catalog");
-  const [categories, setCategories] = useState<Record<string, unknown> | null>(null);
-  const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
-  const [saving, setSaving] = useState(false);
+  const { t } = useTranslation()
+  const { notice, show } = useNotice()
+  const [kind, setKind] = useState<"catalog" | "channel">("catalog")
+  const [categories, setCategories] = useState<Record<string, unknown> | null>(null)
+  const [selectedIndex, setSelectedIndex] = useState<number | null>(null)
+  const [saving, setSaving] = useState(false)
   const SUB_SCHEMA: Schema = {
     fields: [
       { key: "name", label: t("admin.categories.subName"), kind: { type: "text" } },
@@ -41,83 +43,87 @@ export default function CategoriesPage() {
       { key: "url", label: "URL", kind: { type: "text" } },
       { key: "image", label: t("admin.categories.subImage"), kind: { type: "text" } },
     ],
-  };
+  }
 
   useEffect(() => {
     void (async () => {
       try {
-        const data = await adminFetch<Record<string, unknown>>("/api/admin/categories");
-        setCategories(data);
+        const data = await adminFetch<Record<string, unknown>>("/api/admin/categories")
+        setCategories(data)
       } catch (e) {
-        show("error", (e as Error).message);
+        show("error", (e as Error).message)
       }
-    })();
-  }, [show]);
+    })()
+  }, [show])
 
   const list = useMemo(() => {
-    if (!categories) return [];
+    if (!categories) return []
     return (categories[kind === "catalog" ? "catalogCategories" : "channelCategories"] ??
-      []) as CategoryItem[];
-  }, [categories, kind]);
+      []) as CategoryItem[]
+  }, [categories, kind])
 
-  if (!categories) return <Loading />;
+  if (!categories) return <Loading />
 
-  const selected = selectedIndex === null ? null : list[selectedIndex] ?? null;
+  const selected = selectedIndex === null ? null : (list[selectedIndex] ?? null)
 
   const updateSelected = (patch: Partial<CategoryItem>) => {
-    if (selectedIndex === null) return;
-    const key = kind === "catalog" ? "catalogCategories" : "channelCategories";
-    const copy = [...list];
-    copy[selectedIndex] = { ...copy[selectedIndex], ...patch } as CategoryItem;
-    setCategories({ ...categories, [key]: copy });
-  };
+    if (selectedIndex === null) return
+    const key = kind === "catalog" ? "catalogCategories" : "channelCategories"
+    const copy = [...list]
+    copy[selectedIndex] = { ...copy[selectedIndex], ...patch } as CategoryItem
+    setCategories({ ...categories, [key]: copy })
+  }
 
   const save = async () => {
-    if (selectedIndex === null) return;
-    setSaving(true);
+    if (selectedIndex === null) return
+    setSaving(true)
     try {
-      const key = kind === "catalog" ? "catalogCategories" : "channelCategories";
+      const key = kind === "catalog" ? "catalogCategories" : "channelCategories"
       await adminFetch("/api/admin/categories", {
         method: "PUT",
         body: JSON.stringify({ [key]: categories[key] }),
-      });
-      show("success", t("admin.categories.saved"));
+      })
+      show("success", t("admin.categories.saved"))
     } catch (e) {
-      show("error", (e as Error).message);
+      show("error", (e as Error).message)
     } finally {
-      setSaving(false);
+      setSaving(false)
     }
-  };
+  }
 
   return (
-    <div>
-      <PageHeader
-        title={t("admin.categories.title")}
-        description={t("admin.categories.desc")}
-      />
+    <div className="max-w-6xl pb-6">
+      <PageHeader title={t("admin.categories.title")} description={t("admin.categories.desc")} />
       <NoticeArea notice={notice} />
 
-      <div className="mb-4 flex gap-2">
-        <Button
-          variant={kind === "catalog" ? "primary" : "secondary"}
-          onClick={() => { setKind("catalog"); setSelectedIndex(null); }}
-        >
-          {t("admin.categories.catalogTab", {
-            count: (categories.catalogCategories as unknown[]).length,
-          })}
-        </Button>
-        <Button
-          variant={kind === "channel" ? "primary" : "secondary"}
-          onClick={() => { setKind("channel"); setSelectedIndex(null); }}
-        >
-          {t("admin.categories.channelTab", {
-            count: (categories.channelCategories as unknown[]).length,
-          })}
-        </Button>
-      </div>
+      <EditorTabs
+        activeKey={kind}
+        items={[
+          {
+            key: "catalog",
+            label: t("admin.categories.catalogTab", {
+              count: (categories.catalogCategories as unknown[]).length,
+            }),
+            onClick: () => {
+              setKind("catalog")
+              setSelectedIndex(null)
+            },
+          },
+          {
+            key: "channel",
+            label: t("admin.categories.channelTab", {
+              count: (categories.channelCategories as unknown[]).length,
+            }),
+            onClick: () => {
+              setKind("channel")
+              setSelectedIndex(null)
+            },
+          },
+        ]}
+      />
 
       <div className="grid gap-6 lg:grid-cols-[300px_1fr]">
-        <Card className="self-start">
+        <Card className="max-h-[420px] self-start overflow-y-auto lg:max-h-[calc(100vh-220px)]">
           <ul className="-mx-2 space-y-0.5">
             {list.map((category, index) => (
               <li key={category.id ?? category.slug}>
@@ -127,12 +133,17 @@ export default function CategoriesPage() {
                   className={cn(
                     "w-full rounded-md px-3 py-2 text-left text-sm transition-colors",
                     selectedIndex === index
-                      ? "bg-ikea-blue text-white"
+                      ? "bg-[#fff2ee] text-[#ee4d2d]"
                       : "text-ikea-black hover:bg-ikea-gray-100",
                   )}
                 >
                   <span className="block truncate font-medium">{category.name}</span>
-                  <span className={cn("block truncate text-xs", selectedIndex === index ? "text-blue-100" : "text-ikea-muted")}>
+                  <span
+                    className={cn(
+                      "block truncate text-xs",
+                      selectedIndex === index ? "text-[#d86850]" : "text-ikea-muted",
+                    )}
+                  >
                     {t("admin.categories.itemMeta", {
                       count: category.products.length,
                       subs: category.subs.length,
@@ -145,14 +156,7 @@ export default function CategoriesPage() {
         </Card>
 
         {selected ? (
-          <Card
-            title={t("admin.categories.editTitle", { name: selected.name })}
-            actions={
-              <Button onClick={save} disabled={saving}>
-                {saving ? t("admin.common.saving") : t("admin.categories.saveCategory")}
-              </Button>
-            }
-          >
+          <Card title={t("admin.categories.editTitle", { name: selected.name })}>
             <div className="grid gap-4 sm:grid-cols-2">
               <Field label={t("admin.categories.name")}>
                 <TextInput
@@ -186,9 +190,7 @@ export default function CategoriesPage() {
               </div>
               <SchemaListForm
                 value={selected.subs}
-                onChange={(subs) =>
-                  updateSelected({ subs: subs as Record<string, unknown>[] })
-                }
+                onChange={(subs) => updateSelected({ subs: subs as Record<string, unknown>[] })}
                 schema={SUB_SCHEMA}
                 labelKey="name"
                 titleFor={(item) => String(item.name ?? t("admin.ui.unnamed"))}
@@ -214,6 +216,13 @@ export default function CategoriesPage() {
           </Card>
         )}
       </div>
+      {selected ? (
+        <EditorActionBar message={selected.url}>
+          <Button onClick={save} disabled={saving}>
+            {saving ? t("admin.common.saving") : t("admin.categories.saveCategory")}
+          </Button>
+        </EditorActionBar>
+      ) : null}
     </div>
-  );
+  )
 }

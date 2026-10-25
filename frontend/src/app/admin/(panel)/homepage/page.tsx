@@ -6,6 +6,7 @@ import {
   adminFetch,
   Button,
   Card,
+  EditorActionBar,
   JsonEditor,
   Loading,
   Notice,
@@ -41,27 +42,91 @@ interface SectionConfig {
 
 function buildConfigs(t: (key: string) => string) {
   const SECTIONS: SectionConfig[] = [
-    { key: "noticeMessages", label: t("admin.homepage.section.topNotice"), description: t("admin.homepage.section.topNoticeDesc") },
-    { key: "searchHints", label: t("admin.homepage.section.searchHints"), description: t("admin.homepage.section.searchHintsDesc") },
-    { key: "navMenuItems", label: t("admin.homepage.section.navMenu"), description: t("admin.homepage.section.navMenuDesc") },
-    { key: "megaMenuCategories", label: t("admin.homepage.section.megaMenu"), description: t("admin.homepage.section.megaMenuDesc") },
+    {
+      key: "noticeMessages",
+      label: t("admin.homepage.section.topNotice"),
+      description: t("admin.homepage.section.topNoticeDesc"),
+    },
+    {
+      key: "searchHints",
+      label: t("admin.homepage.section.searchHints"),
+      description: t("admin.homepage.section.searchHintsDesc"),
+    },
+    {
+      key: "navMenuItems",
+      label: t("admin.homepage.section.navMenu"),
+      description: t("admin.homepage.section.navMenuDesc"),
+    },
+    {
+      key: "megaMenuCategories",
+      label: t("admin.homepage.section.megaMenu"),
+      description: t("admin.homepage.section.megaMenuDesc"),
+    },
     {
       key: "heroVideos",
       label: t("admin.homepage.section.heroVideo"),
       description: t("admin.homepage.section.heroVideoDesc"),
     },
-    { key: "promoCardItems", label: t("admin.homepage.section.promo"), description: t("admin.homepage.section.promoDesc") },
-    { key: "inspirationTipsItems", label: t("admin.homepage.section.inspirationTips"), description: t("admin.homepage.section.inspirationTipsDesc") },
-    { key: "rankingSections", label: t("admin.homepage.section.rankings"), description: t("admin.homepage.section.rankingsDesc") },
-    { key: "roomPillItems", label: t("admin.homepage.section.roomPills"), description: t("admin.homepage.section.roomPillsDesc") },
-    { key: "roomPillCta", label: t("admin.homepage.section.roomPillCta"), description: t("admin.homepage.section.roomPillCtaDesc") },
-    { key: "sustainabilityPillItems", label: t("admin.homepage.section.sustainPills"), description: t("admin.homepage.section.sustainPillsDesc") },
-    { key: "sustainabilityPillCta", label: t("admin.homepage.section.sustainCta"), description: t("admin.homepage.section.sustainCtaDesc") },
-    { key: "feedProducts", label: t("admin.homepage.section.feed"), description: t("admin.homepage.section.feedDesc") },
-    { key: "footerLinkGroups", label: t("admin.homepage.section.footerLinks"), description: t("admin.homepage.section.footerLinksDesc") },
-    { key: "footerFeaturedCards", label: t("admin.homepage.section.footerCards"), description: t("admin.homepage.section.footerCardsDesc") },
-    { key: "socialIcons", label: t("admin.homepage.section.socialIcons"), description: t("admin.homepage.section.socialIconsDesc") },
-    { key: "legalBar", label: t("admin.homepage.section.legalBar"), description: t("admin.homepage.section.legalBarDesc") },
+    {
+      key: "promoCardItems",
+      label: t("admin.homepage.section.promo"),
+      description: t("admin.homepage.section.promoDesc"),
+    },
+    {
+      key: "inspirationTipsItems",
+      label: t("admin.homepage.section.inspirationTips"),
+      description: t("admin.homepage.section.inspirationTipsDesc"),
+    },
+    {
+      key: "rankingSections",
+      label: t("admin.homepage.section.rankings"),
+      description: t("admin.homepage.section.rankingsDesc"),
+    },
+    {
+      key: "roomPillItems",
+      label: t("admin.homepage.section.roomPills"),
+      description: t("admin.homepage.section.roomPillsDesc"),
+    },
+    {
+      key: "roomPillCta",
+      label: t("admin.homepage.section.roomPillCta"),
+      description: t("admin.homepage.section.roomPillCtaDesc"),
+    },
+    {
+      key: "sustainabilityPillItems",
+      label: t("admin.homepage.section.sustainPills"),
+      description: t("admin.homepage.section.sustainPillsDesc"),
+    },
+    {
+      key: "sustainabilityPillCta",
+      label: t("admin.homepage.section.sustainCta"),
+      description: t("admin.homepage.section.sustainCtaDesc"),
+    },
+    {
+      key: "feedProducts",
+      label: t("admin.homepage.section.feed"),
+      description: t("admin.homepage.section.feedDesc"),
+    },
+    {
+      key: "footerLinkGroups",
+      label: t("admin.homepage.section.footerLinks"),
+      description: t("admin.homepage.section.footerLinksDesc"),
+    },
+    {
+      key: "footerFeaturedCards",
+      label: t("admin.homepage.section.footerCards"),
+      description: t("admin.homepage.section.footerCardsDesc"),
+    },
+    {
+      key: "socialIcons",
+      label: t("admin.homepage.section.socialIcons"),
+      description: t("admin.homepage.section.socialIconsDesc"),
+    },
+    {
+      key: "legalBar",
+      label: t("admin.homepage.section.legalBar"),
+      description: t("admin.homepage.section.legalBarDesc"),
+    },
   ]
 
   const LINK_SCHEMA: Schema = {
@@ -92,7 +157,11 @@ function buildConfigs(t: (key: string) => string) {
     fields: [
       { key: "name", label: t("admin.homepage.field.name"), kind: { type: "text" } },
       { key: "price", label: t("admin.homepage.field.price"), kind: { type: "text" } },
-      { key: "originalPrice", label: t("admin.homepage.field.originalPrice"), kind: { type: "text" } },
+      {
+        key: "originalPrice",
+        label: t("admin.homepage.field.originalPrice"),
+        kind: { type: "text" },
+      },
       { key: "image", label: t("admin.homepage.field.image"), kind: { type: "text" } },
       { key: "icon", label: t("admin.homepage.field.icon"), kind: { type: "text" } },
       { key: "badge", label: t("admin.homepage.field.badge"), kind: { type: "text" } },
@@ -172,10 +241,18 @@ function buildConfigs(t: (key: string) => string) {
         fields: [
           { key: "eyebrow", label: t("admin.homepage.field.eyebrow"), kind: { type: "text" } },
           { key: "title", label: t("admin.homepage.field.title"), kind: { type: "text" } },
-          { key: "description", label: t("admin.homepage.field.description"), kind: { type: "textarea" } },
+          {
+            key: "description",
+            label: t("admin.homepage.field.description"),
+            kind: { type: "textarea" },
+          },
           { key: "badge", label: t("admin.homepage.field.badge"), kind: { type: "text" } },
           { key: "image", label: t("admin.homepage.field.image"), kind: { type: "text" } },
-          { key: "backgroundColor", label: t("admin.homepage.field.bgColor"), kind: { type: "text" } },
+          {
+            key: "backgroundColor",
+            label: t("admin.homepage.field.bgColor"),
+            kind: { type: "text" },
+          },
           { key: "textColor", label: t("admin.homepage.field.textColor"), kind: { type: "text" } },
           { key: "ctaLabel", label: t("admin.homepage.field.ctaLabel"), kind: { type: "text" } },
           { key: "ctaHref", label: t("admin.homepage.field.ctaHref"), kind: { type: "text" } },
@@ -190,7 +267,11 @@ function buildConfigs(t: (key: string) => string) {
         fields: [
           { key: "eyebrow", label: t("admin.homepage.field.eyebrow"), kind: { type: "text" } },
           { key: "title", label: t("admin.homepage.field.title"), kind: { type: "text" } },
-          { key: "description", label: t("admin.homepage.field.description"), kind: { type: "textarea" } },
+          {
+            key: "description",
+            label: t("admin.homepage.field.description"),
+            kind: { type: "textarea" },
+          },
           { key: "badge", label: t("admin.homepage.field.badge"), kind: { type: "text" } },
           { key: "image", label: t("admin.homepage.field.image"), kind: { type: "text" } },
           {
@@ -219,7 +300,11 @@ function buildConfigs(t: (key: string) => string) {
         fields: [
           { key: "id", label: "ID", kind: { type: "text" } },
           { key: "name", label: t("admin.homepage.field.rankingName"), kind: { type: "text" } },
-          { key: "backgroundColor", label: t("admin.homepage.field.bgColor"), kind: { type: "text" } },
+          {
+            key: "backgroundColor",
+            label: t("admin.homepage.field.bgColor"),
+            kind: { type: "text" },
+          },
           {
             key: "products",
             label: t("admin.homepage.field.rankingProducts"),
@@ -258,7 +343,11 @@ function buildConfigs(t: (key: string) => string) {
         fields: [
           { key: "eyebrow", label: t("admin.homepage.field.eyebrow"), kind: { type: "text" } },
           { key: "title", label: t("admin.homepage.field.title"), kind: { type: "text" } },
-          { key: "description", label: t("admin.homepage.field.description"), kind: { type: "textarea" } },
+          {
+            key: "description",
+            label: t("admin.homepage.field.description"),
+            kind: { type: "textarea" },
+          },
           { key: "image", label: t("admin.homepage.field.image"), kind: { type: "text" } },
           {
             key: "links",
@@ -377,20 +466,12 @@ export default function HomepageEditorPage() {
   }
 
   return (
-    <div>
-      <PageHeader
-        title={t("admin.homepage.title")}
-        description={t("admin.homepage.desc")}
-        actions={
-          <Button onClick={save} disabled={saving}>
-            {saving ? t("admin.common.saving") : t("admin.homepage.saveSection")}
-          </Button>
-        }
-      />
+    <div className="max-w-6xl pb-6">
+      <PageHeader title={t("admin.homepage.title")} description={t("admin.homepage.desc")} />
       <NoticeArea notice={notice} />
 
       <div className="grid gap-6 lg:grid-cols-[260px_1fr]">
-        <Card className="self-start">
+        <Card className="max-h-[420px] self-start overflow-y-auto lg:max-h-[calc(100vh-220px)]">
           <ul className="-mx-2 space-y-0.5">
             {SECTIONS.map((section) => (
               <li key={section.key}>
@@ -400,7 +481,7 @@ export default function HomepageEditorPage() {
                   className={cn(
                     "w-full rounded-md px-3 py-2 text-left text-sm transition-colors",
                     selected === section.key
-                      ? "bg-ikea-blue text-white"
+                      ? "bg-[#fff2ee] font-medium text-[#ee4d2d]"
                       : "text-ikea-black hover:bg-ikea-gray-100",
                   )}
                 >
@@ -438,6 +519,11 @@ export default function HomepageEditorPage() {
           ) : null}
         </Card>
       </div>
+      <EditorActionBar message={config.description}>
+        <Button onClick={save} disabled={saving}>
+          {saving ? t("admin.common.saving") : t("admin.homepage.saveSection")}
+        </Button>
+      </EditorActionBar>
     </div>
   )
 }

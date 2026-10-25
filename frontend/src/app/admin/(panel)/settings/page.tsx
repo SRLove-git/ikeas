@@ -1,11 +1,13 @@
-"use client";
+"use client"
 
-import { useEffect, useState } from "react";
-import { useTranslation } from "react-i18next";
+import { useEffect, useState } from "react"
+import { useTranslation } from "react-i18next"
 import {
   adminFetch,
   Button,
   Card,
+  EditorActionBar,
+  EditorTabs,
   Field,
   Loading,
   NoticeArea,
@@ -13,26 +15,26 @@ import {
   TextArea,
   TextInput,
   useNotice,
-} from "@/components/admin/admin-ui";
+} from "@/components/admin/admin-ui"
 
 interface Settings {
-  siteName: string;
-  siteDescription: string;
-  adminTitle: string;
-  voucherClaimSecret: string;
-  voucherClaimLimit: number;
-  staffAccessPassword: string;
+  siteName: string
+  siteDescription: string
+  adminTitle: string
+  voucherClaimSecret: string
+  voucherClaimLimit: number
+  staffAccessPassword: string
   siteCopy: {
-    notFound: { title: string; body: string; buttonLabel: string };
-    survey: { title: string; body: string; buttonLabel: string };
-  };
+    notFound: { title: string; body: string; buttonLabel: string }
+    survey: { title: string; body: string; buttonLabel: string }
+  }
 }
 
 export default function SettingsPage() {
-  const { t } = useTranslation();
-  const { notice, show } = useNotice();
-  const [settings, setSettings] = useState<Settings | null>(null);
-  const [saving, setSaving] = useState(false);
+  const { t } = useTranslation()
+  const { notice, show } = useNotice()
+  const [settings, setSettings] = useState<Settings | null>(null)
+  const [saving, setSaving] = useState(false)
 
   useEffect(() => {
     void (async () => {
@@ -40,13 +42,11 @@ export default function SettingsPage() {
         const [fileSettings, serverSettings] = await Promise.all([
           adminFetch<Settings>("/api/admin/settings"),
           adminFetch<{
-            voucherClaimSecret?: string;
-            voucherClaimLimit?: number;
-            staffAccessPassword?: string;
-          }>(
-            "/api/admin/server/settings",
-          ).catch(() => null),
-        ]);
+            voucherClaimSecret?: string
+            voucherClaimLimit?: number
+            staffAccessPassword?: string
+          }>("/api/admin/server/settings").catch(() => null),
+        ])
         setSettings({
           ...fileSettings,
           voucherClaimSecret:
@@ -55,26 +55,26 @@ export default function SettingsPage() {
             serverSettings?.voucherClaimLimit ?? fileSettings.voucherClaimLimit ?? 0,
           staffAccessPassword:
             serverSettings?.staffAccessPassword ?? fileSettings.staffAccessPassword ?? "",
-        });
+        })
       } catch (e) {
-        show("error", (e as Error).message);
+        show("error", (e as Error).message)
       }
-    })();
-  }, [show]);
+    })()
+  }, [show])
 
-  if (!settings) return <Loading />;
+  if (!settings) return <Loading />
 
   const update = (patch: Partial<Settings>) => {
-    setSettings((current) => (current ? { ...current, ...patch } : current));
-  };
+    setSettings((current) => (current ? { ...current, ...patch } : current))
+  }
 
   const save = async () => {
-    setSaving(true);
+    setSaving(true)
     try {
       await adminFetch("/api/admin/settings", {
         method: "PUT",
         body: JSON.stringify(settings),
-      });
+      })
       await adminFetch("/api/admin/server/settings", {
         method: "PUT",
         body: JSON.stringify({
@@ -82,28 +82,27 @@ export default function SettingsPage() {
           voucherClaimLimit: settings.voucherClaimLimit ?? 0,
           staffAccessPassword: settings.staffAccessPassword ?? "",
         }),
-      });
-      show("success", t("admin.settings.saved"));
+      })
+      show("success", t("admin.settings.saved"))
     } catch (e) {
-      show("error", (e as Error).message);
+      show("error", (e as Error).message)
     } finally {
-      setSaving(false);
+      setSaving(false)
     }
-  };
+  }
 
   return (
-    <div className="max-w-3xl">
-      <PageHeader
-        title={t("admin.settings.title")}
-        description={t("admin.settings.desc")}
-        actions={
-          <Button onClick={save} disabled={saving}>
-            {saving ? t("admin.common.saving") : t("admin.settings.save")}
-          </Button>
-        }
-      />
+    <div className="max-w-6xl pb-6">
+      <PageHeader title={t("admin.settings.title")} description={t("admin.settings.desc")} />
       <NoticeArea notice={notice} />
-      <Card title={t("admin.settings.basicInfo")}>
+      <EditorTabs
+        items={[
+          { key: "basic", label: t("admin.settings.basicInfo"), href: "#basic" },
+          { key: "not-found", label: t("admin.settings.notFoundCopy"), href: "#not-found" },
+          { key: "survey", label: t("admin.settings.surveyCopy"), href: "#survey" },
+        ]}
+      />
+      <Card id="basic" title={t("admin.settings.basicInfo")}>
         <div className="space-y-5">
           <Field label={t("admin.settings.siteName")}>
             <TextInput
@@ -124,13 +123,19 @@ export default function SettingsPage() {
               onChange={(e) => update({ adminTitle: e.target.value })}
             />
           </Field>
-          <Field label={t("admin.settings.voucherClaimSecret")} hint={t("admin.settings.voucherClaimSecretHint")}>
+          <Field
+            label={t("admin.settings.voucherClaimSecret")}
+            hint={t("admin.settings.voucherClaimSecretHint")}
+          >
             <TextInput
               value={settings.voucherClaimSecret ?? ""}
               onChange={(e) => update({ voucherClaimSecret: e.target.value })}
             />
           </Field>
-          <Field label={t("admin.settings.voucherClaimLimit")} hint={t("admin.settings.voucherClaimLimitHint")}>
+          <Field
+            label={t("admin.settings.voucherClaimLimit")}
+            hint={t("admin.settings.voucherClaimLimitHint")}
+          >
             <TextInput
               type="number"
               min={0}
@@ -140,7 +145,10 @@ export default function SettingsPage() {
               }
             />
           </Field>
-          <Field label={t("admin.settings.staffAccessPassword")} hint={t("admin.settings.staffAccessPasswordHint")}>
+          <Field
+            label={t("admin.settings.staffAccessPassword")}
+            hint={t("admin.settings.staffAccessPasswordHint")}
+          >
             <TextInput
               type="password"
               value={settings.staffAccessPassword ?? ""}
@@ -149,7 +157,7 @@ export default function SettingsPage() {
           </Field>
         </div>
       </Card>
-      <Card title={t("admin.settings.notFoundCopy")} className="mt-6">
+      <Card id="not-found" title={t("admin.settings.notFoundCopy")} className="mt-6">
         <div className="grid gap-4 sm:grid-cols-2">
           <Field label={t("admin.settings.title")}>
             <TextInput
@@ -193,7 +201,7 @@ export default function SettingsPage() {
           </Field>
         </div>
       </Card>
-      <Card title={t("admin.settings.surveyCopy")} className="mt-6">
+      <Card id="survey" title={t("admin.settings.surveyCopy")} className="mt-6">
         <div className="grid gap-4 sm:grid-cols-2">
           <Field label={t("admin.settings.title")}>
             <TextInput
@@ -240,6 +248,11 @@ export default function SettingsPage() {
       <div className="mt-6 rounded-lg border border-ikea-gray-200 bg-ikea-gray-50 p-5 text-xs text-ikea-muted">
         {t("admin.settings.envHint")}
       </div>
+      <EditorActionBar message={t("admin.settings.desc")}>
+        <Button onClick={save} disabled={saving}>
+          {saving ? t("admin.common.saving") : t("admin.settings.save")}
+        </Button>
+      </EditorActionBar>
     </div>
-  );
+  )
 }

@@ -9,6 +9,8 @@ import {
   Button,
   Card,
   ConfirmButton,
+  EditorActionBar,
+  EditorTabs,
   Field,
   Loading,
   NoticeArea,
@@ -114,31 +116,36 @@ export default function PageEditorPage() {
   if (loading) return <Loading />
 
   return (
-    <div className="max-w-5xl">
+    <div className="max-w-6xl pb-6">
       <BackLink href="/admin/pages" label={t("admin.pages.backToList")} />
       <PageHeader
-        title={isNew ? t("admin.pages.newTitle") : t("admin.pages.editTitle", { title: form.title })}
+        title={
+          isNew ? t("admin.pages.newTitle") : t("admin.pages.editTitle", { title: form.title })
+        }
         description={isNew ? t("admin.pages.newDesc") : form.url}
         actions={
-          <>
-            {form.url ? (
-              <a href={form.url} target="_blank" rel="noreferrer">
-                <Button variant="secondary">{t("admin.products.preview")} ↗</Button>
-              </a>
-            ) : null}
-            {!isNew ? (
-              <ConfirmButton onConfirm={remove}>{t("admin.pages.deletePage")}</ConfirmButton>
-            ) : null}
-            <Button onClick={save} disabled={saving}>
-              {saving ? t("admin.common.saving") : t("admin.common.save")}
-            </Button>
-          </>
+          form.url ? (
+            <a href={form.url} target="_blank" rel="noreferrer">
+              <Button variant="secondary">{t("admin.products.preview")} ↗</Button>
+            </a>
+          ) : null
         }
       />
 
       <NoticeArea notice={notice} />
 
-      <Card title={t("admin.pages.info")} className="mb-6">
+      <EditorTabs
+        items={[
+          { key: "info", label: t("admin.pages.info"), href: "#info" },
+          {
+            key: "blocks",
+            label: t("admin.pages.blocks", { count: form.blocks.length }),
+            href: "#blocks",
+          },
+        ]}
+      />
+
+      <Card id="info" title={t("admin.pages.info")} className="mb-6">
         <div className="grid gap-4 sm:grid-cols-2">
           <Field label="URL *" hint={t("admin.pages.urlHint")} className="sm:col-span-2">
             <TextInput value={form.url} onChange={(e) => update({ url: e.target.value })} />
@@ -170,9 +177,18 @@ export default function PageEditorPage() {
         </div>
       </Card>
 
-      <Card title={t("admin.pages.blocks", { count: form.blocks.length })}>
+      <Card id="blocks" title={t("admin.pages.blocks", { count: form.blocks.length })}>
         <BlockEditor blocks={form.blocks} onChange={(blocks) => update({ blocks })} />
       </Card>
+
+      <EditorActionBar message={form.url}>
+        {!isNew ? (
+          <ConfirmButton onConfirm={remove}>{t("admin.pages.deletePage")}</ConfirmButton>
+        ) : null}
+        <Button onClick={save} disabled={saving}>
+          {saving ? t("admin.common.saving") : t("admin.common.save")}
+        </Button>
+      </EditorActionBar>
     </div>
   )
 }

@@ -9,6 +9,8 @@ import {
   Button,
   Card,
   ConfirmButton,
+  EditorActionBar,
+  EditorTabs,
   Field,
   Loading,
   NoticeArea,
@@ -45,7 +47,7 @@ function emptyForm(): CatalogPageForm {
 }
 
 export default function CatalogPageEditorPage() {
-  const { t } = useTranslation();
+  const { t } = useTranslation()
   const params = useParams<{ slug: string }>()
   const router = useRouter()
   const isNew = params.slug === "new"
@@ -65,7 +67,7 @@ export default function CatalogPageEditorPage() {
       { key: "url", label: "URL", kind: { type: "text" } },
       { key: "seoSlug", label: t("admin.catalogPages.seoSlug"), kind: { type: "text" } },
     ],
-  };
+  }
 
   useEffect(() => {
     if (isNew) return
@@ -127,7 +129,7 @@ export default function CatalogPageEditorPage() {
   if (loading) return <Loading />
 
   return (
-    <div className="max-w-5xl">
+    <div className="max-w-6xl pb-6">
       <BackLink href="/admin/catalog-pages" label={t("admin.catalogPages.backToList")} />
       <PageHeader
         title={
@@ -137,24 +139,28 @@ export default function CatalogPageEditorPage() {
         }
         description={form.url}
         actions={
-          <>
-            {form.url ? (
-              <a href={form.url} target="_blank" rel="noreferrer">
-                <Button variant="secondary">{t("admin.products.preview")} ↗</Button>
-              </a>
-            ) : null}
-            {!isNew ? (
-              <ConfirmButton onConfirm={remove}>{t("admin.catalogPages.deletePage")}</ConfirmButton>
-            ) : null}
-            <Button onClick={save} disabled={saving}>
-              {saving ? t("admin.common.saving") : t("admin.common.save")}
-            </Button>
-          </>
+          form.url ? (
+            <a href={form.url} target="_blank" rel="noreferrer">
+              <Button variant="secondary">{t("admin.products.preview")} ↗</Button>
+            </a>
+          ) : null
         }
       />
       <NoticeArea notice={notice} />
 
-      <Card title={t("admin.products.basicInfo")} className="mb-6">
+      <EditorTabs
+        items={[
+          { key: "basic", label: t("admin.products.basicInfo"), href: "#basic" },
+          {
+            key: "products",
+            label: t("admin.catalogPages.recommendedProducts", { count: form.products.length }),
+            href: "#products",
+          },
+          { key: "content", label: t("admin.catalogPages.contentBlocks"), href: "#content" },
+        ]}
+      />
+
+      <Card id="basic" title={t("admin.products.basicInfo")} className="mb-6">
         <div className="grid gap-4 sm:grid-cols-2">
           <Field label="URL *" className="sm:col-span-2">
             <TextInput value={form.url} onChange={(e) => update({ url: e.target.value })} />
@@ -176,6 +182,7 @@ export default function CatalogPageEditorPage() {
       </Card>
 
       <Card
+        id="products"
         title={t("admin.catalogPages.recommendedProducts", { count: form.products.length })}
         className="mb-6"
       >
@@ -205,9 +212,18 @@ export default function CatalogPageEditorPage() {
         />
       </Card>
 
-      <Card title={t("admin.catalogPages.contentBlocks")}>
+      <Card id="content" title={t("admin.catalogPages.contentBlocks")}>
         <BlockEditor blocks={form.blocks} onChange={(blocks) => update({ blocks })} />
       </Card>
+
+      <EditorActionBar message={form.url}>
+        {!isNew ? (
+          <ConfirmButton onConfirm={remove}>{t("admin.catalogPages.deletePage")}</ConfirmButton>
+        ) : null}
+        <Button onClick={save} disabled={saving}>
+          {saving ? t("admin.common.saving") : t("admin.common.save")}
+        </Button>
+      </EditorActionBar>
     </div>
   )
 }

@@ -1,37 +1,39 @@
-"use client";
+"use client"
 
-import { useEffect, useState } from "react";
-import { useTranslation } from "react-i18next";
+import { useEffect, useState } from "react"
+import { useTranslation } from "react-i18next"
 import {
   adminFetch,
   Button,
   Card,
+  EditorActionBar,
+  EditorTabs,
   Loading,
   NoticeArea,
   PageHeader,
   useNotice,
-} from "@/components/admin/admin-ui";
-import { SchemaListForm, type Schema } from "@/components/admin/SchemaForms";
+} from "@/components/admin/admin-ui"
+import { SchemaListForm, type Schema } from "@/components/admin/SchemaForms"
 
 interface MenuData {
-  menuPanels: { menuPanels: Record<string, unknown>[]; appPromotion?: Record<string, unknown> };
-  menuCategories: { categories: Record<string, unknown>[] };
-  navMenuItems: Record<string, unknown>[];
+  menuPanels: { menuPanels: Record<string, unknown>[]; appPromotion?: Record<string, unknown> }
+  menuCategories: { categories: Record<string, unknown>[] }
+  navMenuItems: Record<string, unknown>[]
 }
 
 export default function MenuPage() {
-  const { t } = useTranslation();
-  const { notice, show } = useNotice();
-  const [tab, setTab] = useState<"nav" | "panels" | "categories">("nav");
-  const [data, setData] = useState<MenuData | null>(null);
-  const [saving, setSaving] = useState(false);
+  const { t } = useTranslation()
+  const { notice, show } = useNotice()
+  const [tab, setTab] = useState<"nav" | "panels" | "categories">("nav")
+  const [data, setData] = useState<MenuData | null>(null)
+  const [saving, setSaving] = useState(false)
 
   const MENU_LINK_SCHEMA: Schema = {
     fields: [
       { key: "title", label: t("admin.menu.field.text"), kind: { type: "text" } },
       { key: "href", label: t("admin.menu.field.href"), kind: { type: "text" } },
     ],
-  };
+  }
 
   const MENU_CARD_SCHEMA: Schema = {
     fields: [
@@ -40,7 +42,7 @@ export default function MenuPage() {
       { key: "image", label: t("admin.menu.field.image"), kind: { type: "text" } },
       { key: "description", label: t("admin.menu.field.description"), kind: { type: "text" } },
     ],
-  };
+  }
 
   const MENU_COLUMN_SCHEMA: Schema = {
     fields: [
@@ -62,7 +64,7 @@ export default function MenuPage() {
         kind: { type: "objectList", schema: MENU_LINK_SCHEMA },
       },
     ],
-  };
+  }
 
   const PANEL_SCHEMA: Schema = {
     fields: [
@@ -74,7 +76,7 @@ export default function MenuPage() {
         kind: { type: "objectList", schema: MENU_COLUMN_SCHEMA },
       },
     ],
-  };
+  }
 
   const MENU_SUB_SCHEMA: Schema = {
     fields: [
@@ -82,7 +84,7 @@ export default function MenuPage() {
       { key: "url", label: t("admin.menu.field.href"), kind: { type: "text" } },
       { key: "image", label: t("admin.menu.field.image"), kind: { type: "text" } },
     ],
-  };
+  }
 
   const CATEGORY_SCHEMA: Schema = {
     fields: [
@@ -96,7 +98,7 @@ export default function MenuPage() {
         kind: { type: "objectList", schema: MENU_SUB_SCHEMA },
       },
     ],
-  };
+  }
 
   const navItemSchema = (panelOptions: { value: string; label: string }[]): Schema => ({
     fields: [
@@ -113,7 +115,7 @@ export default function MenuPage() {
         kind: { type: "select", options: panelOptions },
       },
     ],
-  });
+  })
 
   useEffect(() => {
     void (async () => {
@@ -121,42 +123,42 @@ export default function MenuPage() {
         const [menu, homepage] = await Promise.all([
           adminFetch<MenuData>("/api/admin/menu"),
           adminFetch<Record<string, unknown>>("/api/admin/homepage"),
-        ]);
+        ])
         setData({
           ...menu,
           navMenuItems: Array.isArray(homepage.navMenuItems)
             ? (homepage.navMenuItems as Record<string, unknown>[])
             : [],
-        });
+        })
       } catch (e) {
-        show("error", (e as Error).message);
+        show("error", (e as Error).message)
       }
-    })();
-  }, [show]);
+    })()
+  }, [show])
 
-  if (!data) return <Loading />;
+  if (!data) return <Loading />
 
   const setPanels = (panels: Record<string, unknown>[]) => {
-    setData({ ...data, menuPanels: { ...data.menuPanels, menuPanels: panels } });
-  };
+    setData({ ...data, menuPanels: { ...data.menuPanels, menuPanels: panels } })
+  }
 
   const setCategories = (categories: Record<string, unknown>[]) => {
-    setData({ ...data, menuCategories: { ...data.menuCategories, categories } });
-  };
+    setData({ ...data, menuCategories: { ...data.menuCategories, categories } })
+  }
 
   const setNavItems = (navMenuItems: Record<string, unknown>[]) => {
-    setData({ ...data, navMenuItems });
-  };
+    setData({ ...data, navMenuItems })
+  }
 
   const save = async () => {
-    setSaving(true);
+    setSaving(true)
     try {
       if (tab === "nav") {
         await adminFetch("/api/admin/homepage", {
           method: "PUT",
           body: JSON.stringify({ updates: { navMenuItems: data.navMenuItems } }),
-        });
-        show("success", t("admin.menu.navSaved"));
+        })
+        show("success", t("admin.menu.navSaved"))
       } else {
         await adminFetch("/api/admin/menu", {
           method: "PUT",
@@ -165,66 +167,54 @@ export default function MenuPage() {
               ? { menuPanels: data.menuPanels }
               : { menuCategories: data.menuCategories },
           ),
-        });
-        show("success", t("admin.menu.menuSaved"));
+        })
+        show("success", t("admin.menu.menuSaved"))
       }
     } catch (e) {
-      show("error", (e as Error).message);
+      show("error", (e as Error).message)
     } finally {
-      setSaving(false);
+      setSaving(false)
     }
-  };
+  }
 
-  const panels = data.menuPanels.menuPanels;
-  const categories = data.menuCategories.categories;
-  const navItems = data.navMenuItems;
+  const panels = data.menuPanels.menuPanels
+  const categories = data.menuCategories.categories
+  const navItems = data.navMenuItems
   const panelOptions = panels
     .map((panel) => String((panel as { label?: unknown }).label ?? ""))
     .filter(Boolean)
-    .map((label) => ({ value: label, label }));
+    .map((label) => ({ value: label, label }))
 
   return (
-    <div>
-      <PageHeader
-        title={t("admin.menu.title")}
-        description={t("admin.menu.desc")}
-        actions={
-          <Button onClick={save} disabled={saving}>
-            {saving ? t("admin.common.saving") : t("admin.menu.saveTab")}
-          </Button>
-        }
-      />
+    <div className="max-w-6xl pb-6">
+      <PageHeader title={t("admin.menu.title")} description={t("admin.menu.desc")} />
       <NoticeArea notice={notice} />
 
-      <div className="mb-4 flex gap-2">
-        <Button
-          variant={tab === "nav" ? "primary" : "secondary"}
-          onClick={() => setTab("nav")}
-        >
-          {t("admin.menu.tabNav", { count: navItems.length })}
-        </Button>
-        <Button
-          variant={tab === "panels" ? "primary" : "secondary"}
-          onClick={() => setTab("panels")}
-        >
-          {t("admin.menu.tabPanels", { count: panels.length })}
-        </Button>
-        <Button
-          variant={tab === "categories" ? "primary" : "secondary"}
-          onClick={() => setTab("categories")}
-        >
-          {t("admin.menu.tabCategories", { count: categories.length })}
-        </Button>
-      </div>
+      <EditorTabs
+        activeKey={tab}
+        items={[
+          {
+            key: "nav",
+            label: t("admin.menu.tabNav", { count: navItems.length }),
+            onClick: () => setTab("nav"),
+          },
+          {
+            key: "panels",
+            label: t("admin.menu.tabPanels", { count: panels.length }),
+            onClick: () => setTab("panels"),
+          },
+          {
+            key: "categories",
+            label: t("admin.menu.tabCategories", { count: categories.length }),
+            onClick: () => setTab("categories"),
+          },
+        ]}
+      />
 
       {tab === "nav" ? (
         <Card
           title={t("admin.menu.navCard")}
-          actions={
-            <span className="text-xs text-ikea-muted">
-              {t("admin.menu.navHint")}
-            </span>
-          }
+          actions={<span className="text-xs text-ikea-muted">{t("admin.menu.navHint")}</span>}
         >
           <SchemaListForm
             value={navItems}
@@ -252,7 +242,9 @@ export default function MenuPage() {
       ) : (
         <Card
           title={t("admin.menu.categoriesCard")}
-          actions={<span className="text-xs text-ikea-muted">{t("admin.menu.categoriesHint")}</span>}
+          actions={
+            <span className="text-xs text-ikea-muted">{t("admin.menu.categoriesHint")}</span>
+          }
         >
           <SchemaListForm
             value={categories}
@@ -264,6 +256,11 @@ export default function MenuPage() {
           />
         </Card>
       )}
+      <EditorActionBar message={t("admin.menu.desc")}>
+        <Button onClick={save} disabled={saving}>
+          {saving ? t("admin.common.saving") : t("admin.menu.saveTab")}
+        </Button>
+      </EditorActionBar>
     </div>
-  );
+  )
 }

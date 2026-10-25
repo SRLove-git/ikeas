@@ -1,14 +1,16 @@
-"use client";
+"use client"
 
-import { useEffect, useState } from "react";
-import { useParams, useRouter } from "next/navigation";
-import { useTranslation } from "react-i18next";
+import { useEffect, useState } from "react"
+import { useParams, useRouter } from "next/navigation"
+import { useTranslation } from "react-i18next"
 import {
   adminFetch,
   BackLink,
   Button,
   Card,
   ConfirmButton,
+  EditorActionBar,
+  EditorTabs,
   Field,
   Loading,
   NoticeArea,
@@ -17,54 +19,54 @@ import {
   Select,
   TextInput,
   useNotice,
-} from "@/components/admin/admin-ui";
-import { formatPrice } from "@/lib/catalog-format";
+} from "@/components/admin/admin-ui"
+import { formatPrice } from "@/lib/catalog-format"
 
 interface AdminOrderItem {
-  productId: string;
-  productName: string;
-  image: string | null;
-  unitPrice: number;
-  quantity: number;
-  subtotal: number;
+  productId: string
+  productName: string
+  image: string | null
+  unitPrice: number
+  quantity: number
+  subtotal: number
 }
 
 interface AdminOrder {
-  id: number;
-  orderNo: string;
-  userId: number;
-  userName: string | null;
-  userPhone: string | null;
-  status: number;
-  statusLabel: string;
-  currency: string;
-  subtotal: number;
-  deliveryFee: number;
-  totalAmount: number;
-  customer: string | null;
-  phone: string | null;
-  address: string | null;
-  remark: string | null;
-  items: AdminOrderItem[];
-  createdAt: string;
-  updatedAt: string;
+  id: number
+  orderNo: string
+  userId: number
+  userName: string | null
+  userPhone: string | null
+  status: number
+  statusLabel: string
+  currency: string
+  subtotal: number
+  deliveryFee: number
+  totalAmount: number
+  customer: string | null
+  phone: string | null
+  address: string | null
+  remark: string | null
+  items: AdminOrderItem[]
+  createdAt: string
+  updatedAt: string
 }
 
 interface OrderForm {
-  orderNo: string;
-  createdAt: string;
-  userName: string | null;
-  userPhone: string | null;
-  status: number;
-  statusLabel: string;
-  subtotal: number;
-  deliveryFee: number;
-  totalAmount: number;
-  customer: string | null;
-  phone: string | null;
-  address: string | null;
-  remark: string | null;
-  items: AdminOrderItem[];
+  orderNo: string
+  createdAt: string
+  userName: string | null
+  userPhone: string | null
+  status: number
+  statusLabel: string
+  subtotal: number
+  deliveryFee: number
+  totalAmount: number
+  customer: string | null
+  phone: string | null
+  address: string | null
+  remark: string | null
+  items: AdminOrderItem[]
 }
 
 function toForm(order: AdminOrder): OrderForm {
@@ -83,11 +85,11 @@ function toForm(order: AdminOrder): OrderForm {
     address: order.address,
     remark: order.remark,
     items: order.items,
-  };
+  }
 }
 
 export default function OrderEditorPage() {
-  const { t } = useTranslation();
+  const { t } = useTranslation()
   const STATUSES = [
     { value: "1", label: t("admin.orders.statusPending") },
     { value: "2", label: t("admin.orders.statusToShip") },
@@ -95,7 +97,7 @@ export default function OrderEditorPage() {
     { value: "4", label: t("admin.orders.statusCompleted") },
     { value: "5", label: t("admin.orders.statusCancelled") },
     { value: "6", label: t("admin.orders.statusRefunding") },
-  ];
+  ]
   const emptyForm = (): OrderForm => ({
     orderNo: "",
     createdAt: "",
@@ -111,34 +113,34 @@ export default function OrderEditorPage() {
     address: null,
     remark: null,
     items: [],
-  });
-  const params = useParams<{ id: string }>();
-  const router = useRouter();
-  const orderNo = params.id;
-  const { notice, show } = useNotice();
-  const [form, setForm] = useState<OrderForm>(emptyForm());
-  const [loading, setLoading] = useState(true);
-  const [saving, setSaving] = useState(false);
+  })
+  const params = useParams<{ id: string }>()
+  const router = useRouter()
+  const orderNo = params.id
+  const { notice, show } = useNotice()
+  const [form, setForm] = useState<OrderForm>(emptyForm())
+  const [loading, setLoading] = useState(true)
+  const [saving, setSaving] = useState(false)
 
   useEffect(() => {
     void (async () => {
       try {
-        const order = await adminFetch<AdminOrder>(`/api/admin/orders/${orderNo}`);
-        setForm(toForm(order));
+        const order = await adminFetch<AdminOrder>(`/api/admin/orders/${orderNo}`)
+        setForm(toForm(order))
       } catch (e) {
-        show("error", (e as Error).message);
+        show("error", (e as Error).message)
       } finally {
-        setLoading(false);
+        setLoading(false)
       }
-    })();
-  }, [orderNo, show]);
+    })()
+  }, [orderNo, show])
 
   const update = (patch: Partial<OrderForm>) => {
-    setForm((current) => ({ ...current, ...patch }));
-  };
+    setForm((current) => ({ ...current, ...patch }))
+  }
 
   const save = async () => {
-    setSaving(true);
+    setSaving(true)
     try {
       const order = await adminFetch<AdminOrder>(`/api/admin/orders/${orderNo}`, {
         method: "PUT",
@@ -150,45 +152,46 @@ export default function OrderEditorPage() {
           address: form.address ?? "",
           remark: form.remark ?? "",
         }),
-      });
-      setForm(toForm(order));
-      show("success", t("admin.orders.saved"));
+      })
+      setForm(toForm(order))
+      show("success", t("admin.orders.saved"))
     } catch (e) {
-      show("error", (e as Error).message);
+      show("error", (e as Error).message)
     } finally {
-      setSaving(false);
+      setSaving(false)
     }
-  };
+  }
 
   const remove = async () => {
     try {
-      await adminFetch(`/api/admin/orders/${orderNo}`, { method: "DELETE" });
-      show("success", t("admin.orders.deleted"));
-      router.replace("/admin/orders");
+      await adminFetch(`/api/admin/orders/${orderNo}`, { method: "DELETE" })
+      show("success", t("admin.orders.deleted"))
+      router.replace("/admin/orders")
     } catch (e) {
-      show("error", (e as Error).message);
+      show("error", (e as Error).message)
     }
-  };
+  }
 
-  if (loading) return <Loading label={t("admin.orders.loadingOrder")} />;
+  if (loading) return <Loading label={t("admin.orders.loadingOrder")} />
 
   return (
-    <div className="max-w-4xl">
+    <div className="max-w-6xl pb-6">
       <BackLink href="/admin/orders" label={t("admin.orders.backToList")} />
-      <PageHeader
-        title={t("admin.orders.editTitle", { no: form.orderNo })}
-        actions={
-          <>
-            <ConfirmButton onConfirm={remove}>{t("admin.orders.deleteOrder")}</ConfirmButton>
-            <Button onClick={save} disabled={saving}>
-              {saving ? t("admin.common.saving") : t("admin.common.save")}
-            </Button>
-          </>
-        }
-      />
+      <PageHeader title={t("admin.orders.editTitle", { no: form.orderNo })} />
       <NoticeArea notice={notice} />
 
-      <Card title={t("admin.orders.orderInfo")} className="mb-6">
+      <EditorTabs
+        items={[
+          { key: "info", label: t("admin.orders.orderInfo"), href: "#info" },
+          {
+            key: "items",
+            label: t("admin.orders.itemsCard", { count: form.items.length }),
+            href: "#items",
+          },
+        ]}
+      />
+
+      <Card id="info" title={t("admin.orders.orderInfo")} className="mb-6">
         <div className="grid gap-4 sm:grid-cols-2">
           <Field label={t("admin.orders.orderNo")}>
             <TextInput value={form.orderNo} disabled />
@@ -206,13 +209,13 @@ export default function OrderEditorPage() {
             <Select
               value={String(form.status)}
               onChange={(e) => {
-                const status = Number(e.target.value);
+                const status = Number(e.target.value)
                 update({
                   status,
                   statusLabel:
                     STATUSES.find((item) => item.value === e.target.value)?.label ??
                     t("admin.orders.unknownStatus"),
-                });
+                })
               }}
             >
               {STATUSES.map((status) => (
@@ -257,7 +260,7 @@ export default function OrderEditorPage() {
         </div>
       </Card>
 
-      <Card title={t("admin.orders.itemsCard", { count: form.items.length })}>
+      <Card id="items" title={t("admin.orders.itemsCard", { count: form.items.length })}>
         <div className="space-y-3">
           {form.items.map((item) => (
             <div
@@ -275,6 +278,12 @@ export default function OrderEditorPage() {
           ))}
         </div>
       </Card>
+      <EditorActionBar message={form.statusLabel}>
+        <ConfirmButton onConfirm={remove}>{t("admin.orders.deleteOrder")}</ConfirmButton>
+        <Button onClick={save} disabled={saving}>
+          {saving ? t("admin.common.saving") : t("admin.common.save")}
+        </Button>
+      </EditorActionBar>
     </div>
-  );
+  )
 }
