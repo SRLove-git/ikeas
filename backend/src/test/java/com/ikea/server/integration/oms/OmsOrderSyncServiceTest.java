@@ -142,6 +142,8 @@ class OmsOrderSyncServiceTest {
     mapping.setSyncStatus(OmsOrderSyncService.SYNC_DONE);
     when(orderMappingMapper.selectOne(any(Wrapper.class))).thenReturn(mapping);
     when(orderMapper.selectOne(any(Wrapper.class))).thenReturn(order);
+    when(channel.queryOrder("B004"))
+        .thenReturn(new OmsOrderOutcome("O102", 1, new BigDecimal("109.90"), "SGD"));
 
     service.notifyPaymentSuccess("B004", "MP002", new BigDecimal("109.90"), "alipay");
 
