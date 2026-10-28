@@ -51,6 +51,13 @@ public class PaymentGatewayService {
       "BIF", "CLP", "DJF", "GNF", "JPY", "KMF", "KRW", "MGA", "PYG",
       "RWF", "UGX", "VND", "VUV", "XAF", "XOF", "XPF");
   private static final Set<String> THREE_DECIMAL_CURRENCIES = Set.of("BHD", "JOD", "KWD", "OMR", "TND");
+  private static final Map<String, String> YEAHPAY_PAYMENT_METHODS = Map.of(
+      "visa", "VISA",
+      "mastercard", "MASTER",
+      "amex", "AMEX",
+      "unionpay", "UnionPay",
+      "applepay", "ApplePay",
+      "googlepay", "GooglePay");
 
   private final OrderMapper orderMapper;
   private final OrderService orderService;
@@ -109,11 +116,15 @@ public class PaymentGatewayService {
     }
 
     String normalized = channel == null || channel.isBlank() ? "card" : channel.toLowerCase();
-    if (!Set.of("card", "visa", "mastercard", "yeahpay", "stripe").contains(normalized)) {
-      throw new IllegalArgumentException("当前商城收银台仅支持国际卡支付，请配置渠道后扩展");
+    if (!Set.of(
+            "card", "visa", "mastercard", "amex", "unionpay", "applepay", "googlepay",
+            "yeahpay", "stripe")
+        .contains(normalized)) {
+      throw new IllegalArgumentException("不支持的支付方式");
     }
     boolean explicitlyStripe = "stripe".equals(normalized);
     boolean explicitlyYeahPay = "yeahpay".equals(normalized);
+    String yeahPayMethod = YEAHPAY_PAYMENT_METHODS.get(normalized);
     if (!explicitlyStripe && yeahPayClient.isConfigured()) {
       String currency = hasText(order.getCurrency()) ? normalizeCurrency(order.getCurrency()) : "SGD";
       String checkoutUrl =
@@ -121,10 +132,11 @@ public class PaymentGatewayService {
               order.getOrderNo(),
               currency,
               toMinorUnit(order.getTotalAmount(), currency),
-              "BUZUD Order " + order.getOrderNo());
+              "BUZUD Order " + order.getOrderNo(),
+              yeahPayMethod);
       return new CreatePaymentResponse(false, "yeahpay", checkoutUrl);
     }
-    if (explicitlyYeahPay) {
+    if (explicitlyYeahPay || yeahPayMethod != null) {
       throw new UnauthorizedException("YeahPay 尚未启用或凭据配置不完整");
     }
     if (!stripeConfigured()) {

@@ -71,13 +71,14 @@ class YeahPayClientTest {
     YeahPayClient client = new YeahPayClient(properties, mapper);
 
     String checkoutUrl =
-        client.createHostedCheckout("ORD-1001", "SGD", 1234, "BUZUD Order ORD-1001");
+        client.createHostedCheckout("ORD-1001", "SGD", 1234, "BUZUD Order ORD-1001", "VISA");
 
     assertEquals("https://payment.yeahpay.net/checkout/test-session", checkoutUrl);
     JsonNode request = mapper.readTree(receivedBody);
     assertEquals("merchant-test", request.path("merchantId").asText());
     assertEquals("ORD-1001", request.path("orderId").asText());
     assertEquals("1234", request.path("amount").asText());
+    assertEquals("VISA", request.path("payWay").asText());
     assertEquals(
         "https://medical-sg.com/api/v1/payment/yeahpay/webhook",
         request.path("notifyUrl").asText());

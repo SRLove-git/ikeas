@@ -1,5 +1,6 @@
 "use client"
 
+import { ShieldCheck, X } from "lucide-react"
 import { useRouter } from "next/navigation"
 import { useCallback, useEffect, useState } from "react"
 import { useTranslation } from "react-i18next"
@@ -16,6 +17,22 @@ import { API_BASE, getToken } from "@/lib/api"
 import { formatPrice } from "@/lib/catalog-format"
 import { useLocale } from "@/i18n/LanguageProvider"
 import { intlLocale, type Locale } from "@/i18n/config"
+
+type PaymentMethodId = "visa" | "mastercard" | "amex" | "unionpay" | "applepay" | "googlepay"
+
+const PAYMENT_METHODS: {
+  id: PaymentMethodId
+  label: string
+  type: "card" | "wallet"
+  badgeClassName: string
+}[] = [
+  { id: "visa", label: "VISA", type: "card", badgeClassName: "text-[#1a1f71]" },
+  { id: "mastercard", label: "Mastercard", type: "card", badgeClassName: "text-[#eb001b]" },
+  { id: "amex", label: "AMERICAN EXPRESS", type: "card", badgeClassName: "text-[#006fcf]" },
+  { id: "unionpay", label: "UnionPay", type: "card", badgeClassName: "text-[#007b84]" },
+  { id: "applepay", label: "Apple Pay", type: "wallet", badgeClassName: "text-black" },
+  { id: "googlepay", label: "Google Pay", type: "wallet", badgeClassName: "text-[#4285f4]" },
+]
 
 function statusClassName(status: number): string {
   if (status === 1) return "bg-amber-100 text-amber-700"
@@ -43,6 +60,8 @@ export function MyOrdersPanel() {
   const [notice, setNotice] = useState<string | null>(null)
   const [cancelling, setCancelling] = useState<string | null>(null)
   const [paying, setPaying] = useState<string | null>(null)
+  const [paymentOrderNo, setPaymentOrderNo] = useState<string | null>(null)
+  const [paymentMethod, setPaymentMethod] = useState<PaymentMethodId>("visa")
   const [filterStatus, setFilterStatus] = useState(0)
   const [fulfillments, setFulfillments] = useState<Record<string, OrderFulfillmentView | null>>({})
   const [invoiceSubmitting, setInvoiceSubmitting] = useState<string | null>(null)
@@ -120,12 +139,12 @@ export function MyOrdersPanel() {
     }
   }
 
-  const payOrder = async (orderNo: string) => {
+  const payOrder = async (orderNo: string, method: PaymentMethodId) => {
     setPaying(orderNo)
     setError(null)
     try {
       const payment = await apiJson<CreatePaymentResponse>(
-        `/payment/orders/${orderNo}?channel=card`,
+        `/payment/orders/${orderNo}?channel=${encodeURIComponent(method)}`,
         { method: "POST" },
       )
       if (payment.mockOnly) {
@@ -145,8 +164,8 @@ export function MyOrdersPanel() {
   }
 
   const requestInvoice = async (orderNo: string, kind: 1 | 2) => {
-    const companyName = kind === 2 ? window.prompt("公司名称（发票抬头）") ?? "" : ""
-    const taxNumber = kind === 2 ? window.prompt("税号 / UEN（如无请留空）") ?? "" : ""
+    const companyName = kind === 2 ? (window.prompt("公司名称（发票抬头）") ?? "") : ""
+    const taxNumber = kind === 2 ? (window.prompt("税号 / UEN（如无请留空）") ?? "") : ""
     const email = window.prompt("接收邮箱") ?? ""
     setInvoiceSubmitting(orderNo)
     setError(null)
@@ -169,11 +188,7 @@ export function MyOrdersPanel() {
     }
   }
 
-  const downloadInvoice = async (invoice: {
-    fileUrl: string
-    orderNo: string
-    kind: number
-  }) => {
+  const downloadInvoice = async (invoice: { fileUrl: string; orderNo: string; kind: number }) => {
     setError(null)
     try {
       const response = await fetch(`${API_BASE}${invoice.fileUrl}`, {
@@ -393,12 +408,13 @@ export function MyOrdersPanel() {
                           <button
                             type="button"
                             disabled={paying === order.orderNo || cancelling === order.orderNo}
-                            onClick={() => void payOrder(order.orderNo)}
+                            onClick={() => {
+                              setPaymentMethod("visa")
+                              setPaymentOrderNo(order.orderNo)
+                            }}
                             className="rounded bg-ikea-blue px-3 py-1 text-xs font-bold text-white hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-50"
                           >
-                            {paying === order.orderNo
-                              ? t("orders.paying")
-                              : "去支付"}
+                            {paying === order.orderNo ? t("orders.paying") : t("orders.payNow")}
                           </button>
                           <button
                             type="button"
@@ -490,6 +506,93 @@ export function MyOrdersPanel() {
           )}
         </div>
       </div>
+
+      {paymentOrderNo ? (
+        <div
+          className="fixed inset-0 z-[100] flex items-end justify-center bg-black/45 p-0 sm:items-center sm:p-6"
+          onMouseDown={(event) => {
+            if (event.target === event.currentTarget && paying !== paymentOrderNo) {
+              setPaymentOrderNo(null)
+            }
+          }}
+        >
+          <section
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="payment-method-title"
+            className="w-full max-w-xl rounded-t-2xl bg-white shadow-2xl sm:rounded-2xl"
+          >
+            <div className="flex items-start justify-between border-b border-ikea-gray-200 px-5 py-4 sm:px-6">
+              <div>
+                <h2 id="payment-method-title" className="text-lg font-bold">
+                  {t("orders.paymentTitle")}
+                </h2>
+                <p className="mt-1 text-sm text-ikea-muted">{t("orders.paymentSubtitle")}</p>
+              </div>
+              <button
+                type="button"
+                aria-label={t("orders.closePayment")}
+                disabled={paying === paymentOrderNo}
+                onClick={() => setPaymentOrderNo(null)}
+                className="rounded-full p-2 text-ikea-muted transition-colors hover:bg-ikea-gray-100 hover:text-ikea-black disabled:opacity-40"
+              >
+                <X size={18} aria-hidden="true" />
+              </button>
+            </div>
+
+            <div className="grid grid-cols-2 gap-3 px-5 py-5 sm:grid-cols-3 sm:px-6">
+              {PAYMENT_METHODS.map((method) => {
+                const selected = paymentMethod === method.id
+                return (
+                  <button
+                    key={method.id}
+                    type="button"
+                    aria-pressed={selected}
+                    disabled={paying === paymentOrderNo}
+                    onClick={() => setPaymentMethod(method.id)}
+                    className={`min-h-24 rounded-xl border-2 p-3 text-left transition-all disabled:opacity-50 ${
+                      selected
+                        ? "border-ikea-blue bg-blue-50 shadow-sm"
+                        : "border-ikea-gray-200 bg-white hover:border-ikea-blue/50"
+                    }`}
+                  >
+                    <span
+                      className={`block text-sm font-black tracking-tight ${method.badgeClassName}`}
+                    >
+                      {method.label}
+                    </span>
+                    <span className="mt-3 block text-xs text-ikea-muted">
+                      {method.type === "card"
+                        ? t("orders.paymentMethodCard")
+                        : t("orders.paymentMethodWallet")}
+                    </span>
+                  </button>
+                )
+              })}
+            </div>
+
+            <div className="border-t border-ikea-gray-200 px-5 py-4 sm:px-6">
+              {error ? (
+                <div className="mb-4 rounded-lg border border-red-200 bg-red-50 px-3 py-2 text-xs text-red-600">
+                  {error}
+                </div>
+              ) : null}
+              <div className="mb-4 flex items-center gap-2 text-xs text-ikea-muted">
+                <ShieldCheck size={16} className="text-green-600" aria-hidden="true" />
+                <span>{t("orders.paymentSecurity")}</span>
+              </div>
+              <button
+                type="button"
+                disabled={paying === paymentOrderNo}
+                onClick={() => void payOrder(paymentOrderNo, paymentMethod)}
+                className="h-12 w-full rounded-full bg-ikea-blue px-6 text-sm font-bold text-white transition-opacity hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-50"
+              >
+                {paying === paymentOrderNo ? t("orders.paying") : t("orders.paymentContinue")}
+              </button>
+            </div>
+          </section>
+        </div>
+      ) : null}
     </div>
   )
 }

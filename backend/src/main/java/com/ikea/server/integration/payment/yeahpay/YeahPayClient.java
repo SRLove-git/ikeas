@@ -45,7 +45,7 @@ public class YeahPayClient {
   }
 
   public String createHostedCheckout(
-      String orderNo, String currency, long amountMinor, String description) {
+      String orderNo, String currency, long amountMinor, String description, String payWay) {
     properties.validateForUse();
 
     Map<String, Object> goods = new LinkedHashMap<>();
@@ -66,6 +66,9 @@ public class YeahPayClient {
     body.put("callback", appendOrderNo(properties.getCallbackUrl(), orderNo));
     body.put("notifyUrl", properties.getNotifyUrl());
     body.put("lang", properties.getLang());
+    if (hasText(payWay)) {
+      body.put("payWay", payWay);
+    }
 
     JsonNode response = post(HOSTED_CHECKOUT_PATH, body);
     String checkoutUrl = response.path("data").path("url").asText(null);

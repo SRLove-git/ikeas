@@ -21,6 +21,8 @@ import com.ikea.server.mapper.OrderMapper;
 import java.math.BigDecimal;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvSource;
 
 class PaymentGatewayServiceTest {
 
@@ -55,13 +57,42 @@ class PaymentGatewayServiceTest {
     order.setTotalAmount(new BigDecimal("12.34"));
     when(orderMapper.selectOne(any(Wrapper.class))).thenReturn(order);
     when(yeahPayClient.isConfigured()).thenReturn(true);
-    when(yeahPayClient.createHostedCheckout(any(), any(), eq(1234L), any()))
+    when(yeahPayClient.createHostedCheckout(any(), any(), eq(1234L), any(), any()))
         .thenReturn("https://payment.yeahpay.net/checkout/test-session");
 
     CreatePaymentResponse result = service.createPayment(42L, "ORD-1001", "card");
 
     assertEquals("yeahpay", result.channel());
     verify(orderMapper).selectOne(any(Wrapper.class));
+  }
+
+  @ParameterizedTest
+  @CsvSource({
+    "visa,VISA",
+    "mastercard,MASTER",
+    "amex,AMEX",
+    "unionpay,UnionPay",
+    "applepay,ApplePay",
+    "googlepay,GooglePay"
+  })
+  void createPaymentShouldMapWalletAndCardChannelsToYeahPayCodes(
+      String channel, String yeahPayCode) {
+    Order order = new Order();
+    order.setOrderNo("ORD-1002");
+    order.setUserId(42L);
+    order.setStatus(OrderStatus.PENDING_PAYMENT.code());
+    order.setCurrency("SGD");
+    order.setTotalAmount(new BigDecimal("12.34"));
+    when(orderMapper.selectOne(any(Wrapper.class))).thenReturn(order);
+    when(yeahPayClient.isConfigured()).thenReturn(true);
+    when(yeahPayClient.createHostedCheckout(any(), any(), eq(1234L), any(), eq(yeahPayCode)))
+        .thenReturn("https://payment.yeahpay.net/checkout/method-session");
+
+    CreatePaymentResponse result = service.createPayment(42L, "ORD-1002", channel);
+
+    assertEquals("yeahpay", result.channel());
+    verify(yeahPayClient)
+        .createHostedCheckout("ORD-1002", "SGD", 1234L, "BUZUD Order ORD-1002", yeahPayCode);
   }
 
   @Test
