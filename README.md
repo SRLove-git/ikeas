@@ -99,7 +99,21 @@ node scripts/export-server-data.mjs
 
 ### 真实支付与环境变量
 
-商城默认 `IKEA_PAYMENT_MOCK_ONLY=true` 走本地模拟支付；配置以下环境变量后开启 Stripe 收银台：
+商城默认 `IKEA_PAYMENT_MOCK_ONLY=true` 走本地模拟支付。YeahPay 启用前必须完成 API 开通、生产服务器出口 IP 白名单和 HTTPS 回调登记：
+
+```bash
+IKEA_PAYMENT_MOCK_ONLY=false
+IKEA_YEAHPAY_ENABLED=true
+IKEA_YEAHPAY_APP_ID=...
+IKEA_YEAHPAY_API_KEY=...
+IKEA_YEAHPAY_MERCHANT_ID=...
+IKEA_YEAHPAY_CALLBACK_URL=https://medical-sg.com/zh/profile/my-orders?payment=success
+IKEA_YEAHPAY_NOTIFY_URL=https://medical-sg.com/api/v1/payment/yeahpay/webhook
+```
+
+以上密钥只允许注入服务器 Secret/环境变量，不得写入仓库或前端构建产物。支付页回跳仅用于页面提示，订单只能由验签后的服务端回调推进。
+
+如仍需使用 Stripe 兼容通道：
 
 ```bash
 IKEA_PAYMENT_MOCK_ONLY=false

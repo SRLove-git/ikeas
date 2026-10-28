@@ -538,6 +538,7 @@
     "loadFailed": "Failed to load orders",
     "cancelFailed": "Failed to cancel order",
     "payFailed": "Payment failed",
+    "paymentConfirming": "Back at the store. Waiting for the payment provider to confirm the order status.",
     "paymentUnavailable": "Payment is temporarily unavailable. Please try again later or contact customer service.",
     "refundConfirm": "Request a refund? Once submitted, a refund request cannot be withdrawn directly.",
     "refundFailed": "Failed to submit refund request",

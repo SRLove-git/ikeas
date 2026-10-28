@@ -538,6 +538,7 @@
     "loadFailed": "Gagal memuatkan pesanan",
     "cancelFailed": "Gagal membatalkan pesanan",
     "payFailed": "Pembayaran gagal",
+    "paymentConfirming": "Kembali ke kedai. Menunggu penyedia pembayaran mengesahkan status pesanan.",
     "paymentUnavailable": "Pembayaran buat sementara waktu tidak tersedia. Sila cuba lagi kemudian atau hubungi khidmat pelanggan.",
     "refundConfirm": "Minta bayaran balik? Setelah dihantar, permintaan bayaran balik tidak boleh ditarik balik secara langsung.",
     "refundFailed": "Gagal menghantar permintaan bayaran balik",

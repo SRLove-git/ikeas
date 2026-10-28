@@ -346,21 +346,34 @@ public class OrderService {
       throw new IllegalArgumentException("支付币种与订单币种不一致");
     }
 
+    int transitioned =
+        orderMapper.update(
+            null,
+            Wrappers.lambdaUpdate(Order.class)
+                .eq(Order::getOrderNo, orderNo)
+                .eq(Order::getStatus, OrderStatus.PENDING_PAYMENT.code())
+                .set(Order::getStatus, OrderStatus.PENDING_SHIPMENT.code()));
+    if (transitioned != 1) {
+      Order current =
+          orderMapper.selectOne(
+              Wrappers.lambdaQuery(Order.class).eq(Order::getOrderNo, orderNo));
+      if (current != null && current.getStatus() == OrderStatus.PENDING_SHIPMENT.code()) {
+        return toResponse(current, itemsOf(current.getId()));
+      }
+      throw new IllegalArgumentException("订单支付状态转换冲突");
+    }
+    order.setStatus(OrderStatus.PENDING_SHIPMENT.code());
+
     if (omsChannel.isEnabled()) {
       try {
         omsOrderSyncService.notifyPaymentSuccess(
-            orderNo, generatePaymentNo(), total, channel);
+            orderNo, channelTxnNo, total, channel);
         order =
             orderMapper.selectOne(
                 Wrappers.lambdaQuery(Order.class).eq(Order::getOrderNo, orderNo));
       } catch (Exception ex) {
-        log.warn("OMS 支付通知失败，本地订单先推进为待发货 orderNo={}", orderNo, ex);
-        order.setStatus(OrderStatus.PENDING_SHIPMENT.code());
-        orderMapper.updateById(order);
+        log.warn("OMS 支付通知失败，本地订单已推进为待发货 orderNo={}", orderNo, ex);
       }
-    } else {
-      order.setStatus(OrderStatus.PENDING_SHIPMENT.code());
-      orderMapper.updateById(order);
     }
     marketingService.earnForPaidOrder(order.getUserId(), total, orderNo);
     experienceVoucherService.issuePointVoucherForOrder(order.getUserId(), orderNo, total);

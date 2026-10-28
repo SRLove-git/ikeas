@@ -85,8 +85,22 @@ ikea:
     # 扫码领券二维码指向的前台域名，部署时配置为公网地址。
     public-base-url: ${BUZUD_MARKETING_PUBLIC_BASE_URL:https://medical-sg.com}
   payment:
-    # 商城收银台：true=本地模拟支付；false=尝试使用 Stripe 托管结算页。
+    # 商城收银台：true=本地模拟支付；false=尝试真实托管收银台。
     mock-only: ${IKEA_PAYMENT_MOCK_ONLY:true}
+    yeahpay:
+      # 需同时完成 YeahPay API 开通、服务器出口 IP 白名单和回调登记。
+      enabled: ${IKEA_YEAHPAY_ENABLED:false}
+      app-id: ${IKEA_YEAHPAY_APP_ID:}
+      api-key: ${IKEA_YEAHPAY_API_KEY:}
+      merchant-id: ${IKEA_YEAHPAY_MERCHANT_ID:}
+      api-base-url: ${IKEA_YEAHPAY_API_BASE_URL:https://open-api.yeahpay.sg/acceptance/acceptance-open-api}
+      signature-domain: ${IKEA_YEAHPAY_SIGNATURE_DOMAIN:https://open-api.yeahpay.sg/acceptance}
+      callback-url: ${IKEA_YEAHPAY_CALLBACK_URL:https://medical-sg.com/zh/profile/my-orders?payment=success}
+      notify-url: ${IKEA_YEAHPAY_NOTIFY_URL:https://medical-sg.com/api/v1/payment/yeahpay/webhook}
+      lang: ${IKEA_YEAHPAY_LANG:en}
+      connect-timeout-ms: ${IKEA_YEAHPAY_CONNECT_TIMEOUT_MS:10000}
+      read-timeout-ms: ${IKEA_YEAHPAY_READ_TIMEOUT_MS:20000}
+      callback-replay-window-seconds: ${IKEA_YEAHPAY_CALLBACK_REPLAY_WINDOW_SECONDS:300}
     stripe:
       public-key: ${IKEA_STRIPE_PUBLIC_KEY:}
       secret-key: ${IKEA_STRIPE_SECRET_KEY:}

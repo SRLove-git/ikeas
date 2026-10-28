@@ -538,6 +538,7 @@
     "loadFailed": "加载订单失败",
     "cancelFailed": "取消订单失败",
     "payFailed": "支付失败",
+    "paymentConfirming": "已返回商城，正在等待支付渠道确认订单结果",
     "paymentUnavailable": "支付功能暂未开放，请稍后再试或联系客服",
     "refundConfirm": "确定申请退款？退款申请提交后不可直接撤销。",
     "refundFailed": "退款申请失败",

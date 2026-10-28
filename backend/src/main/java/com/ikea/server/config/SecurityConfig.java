@@ -98,6 +98,8 @@ public class SecurityConfig {
                     .authenticated()
                     .requestMatchers("/api/v1/payment/stripe/webhook")
                     .permitAll()
+                    .requestMatchers("/api/v1/payment/yeahpay/webhook")
+                    .permitAll()
                     .requestMatchers(
                         "/api/v1/integration/**")
                     .authenticated()

@@ -7,6 +7,9 @@ import com.ikea.server.constant.OrderStatus;
 import com.ikea.server.dto.payment.PaymentDtos.CreatePaymentResponse;
 import com.ikea.server.dto.payment.PaymentDtos.PaymentOptions;
 import com.ikea.server.entity.Order;
+import com.ikea.server.integration.payment.yeahpay.YeahPayClient;
+import com.ikea.server.integration.payment.yeahpay.YeahPayProperties;
+import com.ikea.server.integration.payment.yeahpay.YeahPaySigner;
 import com.ikea.server.mapper.OrderMapper;
 import com.ikea.server.web.ResourceNotFoundException;
 import com.ikea.server.web.UnauthorizedException;
@@ -32,9 +35,10 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 /**
- * 商城收银台：真实模式下使用 Stripe 托管结算页（Visa/Mastercard 等国际卡），
+ * 商城收银台：真实模式下优先使用 YeahPay 托管收银台，并保留 Stripe 兼容，
  * 未配置密钥或 mock-only=true 时保留本地模拟支付，保证演示链路可跑。
  */
 @Service
@@ -50,6 +54,9 @@ public class PaymentGatewayService {
 
   private final OrderMapper orderMapper;
   private final OrderService orderService;
+  private final YeahPayClient yeahPayClient;
+  private final YeahPayProperties yeahPayProperties;
+  private final PaymentPersistenceService paymentPersistenceService;
   private final HttpClient httpClient = HttpClient.newBuilder()
       .connectTimeout(Duration.ofSeconds(10))
       .build();
@@ -78,27 +85,50 @@ public class PaymentGatewayService {
   @Value("${ikea.payment.stripe.cancel-path:/zh/pay/cart?payment=cancel}")
   private String cancelPath;
 
-  public PaymentGatewayService(OrderMapper orderMapper, OrderService orderService) {
+  public PaymentGatewayService(
+      OrderMapper orderMapper,
+      OrderService orderService,
+      YeahPayClient yeahPayClient,
+      YeahPayProperties yeahPayProperties,
+      PaymentPersistenceService paymentPersistenceService) {
     this.orderMapper = orderMapper;
     this.orderService = orderService;
+    this.yeahPayClient = yeahPayClient;
+    this.yeahPayProperties = yeahPayProperties;
+    this.paymentPersistenceService = paymentPersistenceService;
   }
 
   public PaymentOptions options() {
     return new PaymentOptions(mockOnly, stripePublicKey);
   }
 
-  public CreatePaymentResponse createPayment(String orderNo, String channel) {
-    Order order = requirePendingOrder(orderNo);
+  public CreatePaymentResponse createPayment(Long userId, String orderNo, String channel) {
+    Order order = requirePendingOrder(userId, orderNo);
     if (mockOnly) {
       return new CreatePaymentResponse(true, "mock", null);
     }
 
     String normalized = channel == null || channel.isBlank() ? "card" : channel.toLowerCase();
-    if (!Set.of("card", "visa", "mastercard").contains(normalized)) {
+    if (!Set.of("card", "visa", "mastercard", "yeahpay", "stripe").contains(normalized)) {
       throw new IllegalArgumentException("当前商城收银台仅支持国际卡支付，请配置渠道后扩展");
     }
+    boolean explicitlyStripe = "stripe".equals(normalized);
+    boolean explicitlyYeahPay = "yeahpay".equals(normalized);
+    if (!explicitlyStripe && yeahPayClient.isConfigured()) {
+      String currency = hasText(order.getCurrency()) ? normalizeCurrency(order.getCurrency()) : "SGD";
+      String checkoutUrl =
+          yeahPayClient.createHostedCheckout(
+              order.getOrderNo(),
+              currency,
+              toMinorUnit(order.getTotalAmount(), currency),
+              "BUZUD Order " + order.getOrderNo());
+      return new CreatePaymentResponse(false, "yeahpay", checkoutUrl);
+    }
+    if (explicitlyYeahPay) {
+      throw new UnauthorizedException("YeahPay 尚未启用或凭据配置不完整");
+    }
     if (!stripeConfigured()) {
-      throw new UnauthorizedException("国际卡支付尚未配置 Stripe 密钥");
+      throw new UnauthorizedException("YeahPay 与 Stripe 均未完成服务器凭据配置");
     }
 
     String sessionUrl = createCheckoutSession(order);
@@ -136,10 +166,122 @@ public class PaymentGatewayService {
     }
   }
 
-  private Order requirePendingOrder(String orderNo) {
+  /** YeahPay 异步通知：先校验头部、时间窗和原始 JSON 签名，再处理成功交易。 */
+  @Transactional
+  public String handleYeahPayWebhook(
+      String payload,
+      String version,
+      String timestamp,
+      String algorithm,
+      String signature,
+      String appId,
+      String nonce) {
+    yeahPayProperties.validateForUse();
+    validateYeahPayHeaders(version, timestamp, algorithm, signature, appId, nonce);
+    if (!YeahPaySigner.verify(
+        signature,
+        yeahPayProperties.getNotifyUrl(),
+        appId,
+        timestamp,
+        version,
+        nonce,
+        payload,
+        yeahPayProperties.getApiKey())) {
+      throw new IllegalArgumentException("YeahPay webhook 签名校验失败");
+    }
+
+    try {
+      JsonNode root = MAPPER.readTree(payload);
+      String merchantId = root.path("merchantId").asText(null);
+      if (!yeahPayProperties.getMerchantId().equals(merchantId)) {
+        throw new IllegalArgumentException("YeahPay webhook merchantId 不匹配");
+      }
+      if (root.path("status").asInt(-1) != 2) {
+        return "success";
+      }
+
+      String orderNo = firstText(root, "thirdOrderId", "merchantReferenceNumber", "orderId");
+      String transactionNo = firstText(root, "leshuaOrderId", "channelOrderId");
+      String currency = root.path("currency").asText(null);
+      JsonNode amountNode = root.path("amount");
+      if (!hasText(orderNo)
+          || !hasText(transactionNo)
+          || !hasText(currency)
+          || amountNode.isMissingNode()
+          || amountNode.isNull()) {
+        throw new IllegalArgumentException("YeahPay webhook 缺少必要交易字段");
+      }
+
+      long amountMinor = amountNode.isNumber()
+          ? amountNode.longValue()
+          : Long.parseLong(amountNode.asText());
+      if (!paymentPersistenceService.recordCallbackIfAbsent(
+          "yeahpay", timestamp, nonce, orderNo, transactionNo)) {
+        return "success";
+      }
+      paymentPersistenceService.recordSuccessfulTransaction(
+          "yeahpay", orderNo, transactionNo, amountMinor, currency);
+      orderService.markPaidByGateway(
+          orderNo,
+          "yeahpay",
+          transactionNo,
+          fromMinorUnit(amountMinor, currency),
+          currency);
+      return "success";
+    } catch (RuntimeException ex) {
+      log.warn("处理 YeahPay webhook 失败", ex);
+      throw ex;
+    } catch (Exception ex) {
+      log.warn("处理 YeahPay webhook 失败", ex);
+      throw new IllegalStateException("处理 YeahPay webhook 失败: " + ex.getMessage(), ex);
+    }
+  }
+
+  private void validateYeahPayHeaders(
+      String version,
+      String timestamp,
+      String algorithm,
+      String signature,
+      String appId,
+      String nonce) {
+    if (!YeahPaySigner.VERSION.equals(version)
+        || !YeahPaySigner.ALGORITHM.equalsIgnoreCase(algorithm)
+        || !hasText(signature)
+        || !yeahPayProperties.getAppId().equals(appId)
+        || !hasText(nonce)) {
+      throw new IllegalArgumentException("YeahPay webhook 请求头缺失或非法");
+    }
+    long callbackTimestamp;
+    try {
+      callbackTimestamp = Long.parseLong(timestamp);
+    } catch (NumberFormatException ex) {
+      throw new IllegalArgumentException("YeahPay webhook 时间戳非法", ex);
+    }
+    long maxAge = yeahPayProperties.getCallbackReplayWindowSeconds() * 1000L;
+    if (Math.abs(System.currentTimeMillis() - callbackTimestamp) > maxAge) {
+      throw new IllegalArgumentException("YeahPay webhook 时间戳过期");
+    }
+  }
+
+  private static String firstText(JsonNode root, String... fields) {
+    for (String field : fields) {
+      String value = root.path(field).asText(null);
+      if (hasText(value)) {
+        return value;
+      }
+    }
+    return null;
+  }
+
+  private Order requirePendingOrder(Long userId, String orderNo) {
+    if (userId == null) {
+      throw new UnauthorizedException("请先登录");
+    }
     Order order = orderMapper.selectOne(
-        Wrappers.lambdaQuery(Order.class).eq(Order::getOrderNo, orderNo));
-    if (order == null) {
+        Wrappers.lambdaQuery(Order.class)
+            .eq(Order::getOrderNo, orderNo)
+            .eq(Order::getUserId, userId));
+    if (order == null || order.getUserId() == null || !order.getUserId().equals(userId)) {
       throw new ResourceNotFoundException("Order not found: " + orderNo);
     }
     if (order.getStatus() == null || order.getStatus() != OrderStatus.PENDING_PAYMENT.code()) {

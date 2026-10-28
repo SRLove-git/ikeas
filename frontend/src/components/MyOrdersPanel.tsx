@@ -87,7 +87,7 @@ export function MyOrdersPanel() {
       params.delete("created")
     }
     if (payment === "success") {
-      setNotice("支付成功，订单状态将自动更新")
+      setNotice(t("orders.paymentConfirming"))
       params.delete("payment")
       params.delete("orderNo")
     }
