@@ -11,6 +11,7 @@ import java.time.Duration;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 /** YeahPay 托管收银台 HTTP 客户端。 */
@@ -23,6 +24,7 @@ public class YeahPayClient {
   private final ObjectMapper mapper;
   private final HttpClient httpClient;
 
+  @Autowired
   public YeahPayClient(YeahPayProperties properties, ObjectMapper mapper) {
     this(
         properties,
