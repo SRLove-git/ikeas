@@ -355,6 +355,8 @@
     "balance": "Balance ({{value}} available)",
     "subtotal": "Subtotal",
     "deliveryFee": "Delivery fee",
+    "shippingLoading": "Loading…",
+    "shippingUnavailable": "J&T shipping is temporarily unavailable. Please try again later.",
     "discount": "Discount",
     "total": "Total",
     "submitting": "Submitting…",

@@ -355,6 +355,8 @@
     "balance": "余额（可用 {{value}}）",
     "subtotal": "商品小计",
     "deliveryFee": "配送费",
+    "shippingLoading": "正在获取…",
+    "shippingUnavailable": "暂时无法获取 J&T 运费，请稍后重试",
     "discount": "优惠合计",
     "total": "合计",
     "submitting": "提交中…",

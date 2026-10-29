@@ -34,7 +34,6 @@ import java.util.Map;
 import java.util.concurrent.ThreadLocalRandom;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -56,7 +55,7 @@ public class OrderService {
   private final OmsProductSyncService omsProductSyncService;
   private final MarketingService marketingService;
   private final ExperienceVoucherService experienceVoucherService;
-  private final BigDecimal defaultDeliveryFee;
+  private final ShippingService shippingService;
 
   public OrderService(
       OrderMapper orderMapper,
@@ -68,7 +67,7 @@ public class OrderService {
       OmsProductSyncService omsProductSyncService,
       MarketingService marketingService,
       ExperienceVoucherService experienceVoucherService,
-      @Value("${ikea.order.default-delivery-fee:9.9}") String defaultDeliveryFee) {
+      ShippingService shippingService) {
     this.orderMapper = orderMapper;
     this.orderItemMapper = orderItemMapper;
     this.dataStore = dataStore;
@@ -78,7 +77,7 @@ public class OrderService {
     this.omsProductSyncService = omsProductSyncService;
     this.marketingService = marketingService;
     this.experienceVoucherService = experienceVoucherService;
-    this.defaultDeliveryFee = new BigDecimal(defaultDeliveryFee);
+    this.shippingService = shippingService;
   }
 
   @Transactional
@@ -111,7 +110,8 @@ public class OrderService {
         orderItems.stream()
             .map(item -> item.getUnitPrice().multiply(BigDecimal.valueOf(item.getQuantity())))
             .reduce(BigDecimal.ZERO, BigDecimal::add);
-    BigDecimal deliveryFee = resolveDeliveryFee(request.deliveryFee());
+    // 配送费由服务器的 J&T 报价配置决定，绝不信任客户端传入金额。
+    BigDecimal deliveryFee = shippingService.standardDeliveryFee();
     String orderNo = generateOrderNo();
     // 游客下单不参与积分/余额/优惠券抵扣（无账号上下文）
     RedemptionResponse redemption =
@@ -466,16 +466,6 @@ public class OrderService {
       items.add(item);
     }
     return items;
-  }
-
-  private BigDecimal resolveDeliveryFee(BigDecimal deliveryFee) {
-    if (deliveryFee == null) {
-      return defaultDeliveryFee == null ? BigDecimal.valueOf(9.9) : defaultDeliveryFee;
-    }
-    if (deliveryFee.compareTo(BigDecimal.ZERO) < 0) {
-      throw new IllegalArgumentException("配送费不能为负数");
-    }
-    return deliveryFee;
   }
 
   private List<OrderItem> itemsOf(Long orderId) {

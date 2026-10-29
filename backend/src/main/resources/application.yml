@@ -75,9 +75,12 @@ ikea:
   admin:
     # Shared key for /api/v1/admin/** endpoints, sent as X-Admin-Key (IKEA_ADMIN_KEY).
     key: ${IKEA_ADMIN_KEY:ikea-admin}
-  order:
-    # Default delivery fee in SGD when the client does not pass one.
-    default-delivery-fee: ${IKEA_DEFAULT_DELIVERY_FEE:9.9}
+  shipping:
+    # J&T Singapore standard service shown at cart/checkout and enforced at order creation.
+    # Update this value from the merchant VIP "Freight inquiry" result when the contract rate changes.
+    carrier: ${IKEA_SHIPPING_CARRIER:J&T Express Singapore}
+    service-code: ${IKEA_SHIPPING_SERVICE_CODE:EXPRESS}
+    standard-delivery-fee: ${IKEA_JT_STANDARD_DELIVERY_FEE:4.90}
   voucher:
     # 打印券二维码指向的预约页，通常生产环境保持 medical-sg.com。
     booking-url: ${BUZUD_VOUCHER_BOOKING_URL:https://medical-sg.com/zh/booking/}

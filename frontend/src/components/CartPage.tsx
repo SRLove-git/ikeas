@@ -9,8 +9,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs"
 import { apiJson, type Cart } from "@/lib/api"
 import { formatPrice } from "@/lib/catalog-format"
 import { readLocalCart, updateLocalQuantity } from "@/lib/local-cart"
-
-const DELIVERY_FEE = 9.9
+import { useShippingQuote } from "@/hooks/useShippingQuote"
 
 function QuantityField({
   productId,
@@ -65,6 +64,7 @@ export function CartPage() {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
   const [updatingId, setUpdatingId] = useState<string | null>(null)
+  const shipping = useShippingQuote()
 
   useEffect(() => {
     if (!ready) return
@@ -114,7 +114,8 @@ export function CartPage() {
   const items = cart?.items ?? []
   const subtotal = items.reduce((sum, item) => sum + (item.product.price ?? 0) * item.quantity, 0)
   const totalQuantity = items.reduce((sum, item) => sum + item.quantity, 0)
-  const total = subtotal + DELIVERY_FEE
+  const deliveryFee = shipping.quote?.deliveryFee ?? 0
+  const total = subtotal + deliveryFee
 
   const updateQuantity = async (productId: string, quantity: number) => {
     setUpdatingId(productId)
@@ -278,8 +279,16 @@ export function CartPage() {
                     <span>{formatPrice(subtotal)}</span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="text-ikea-muted">{t("checkout.deliveryFee")}</span>
-                    <span>{formatPrice(DELIVERY_FEE)}</span>
+                    <span className="text-ikea-muted">
+                      {shipping.quote?.carrier ?? "J&T Express Singapore"}
+                    </span>
+                    <span>
+                      {shipping.loading
+                        ? t("checkout.shippingLoading")
+                        : shipping.quote
+                          ? formatPrice(deliveryFee)
+                          : "—"}
+                    </span>
                   </div>
                   <div className="flex justify-between border-t border-ikea-gray-200 pt-3 text-base font-bold">
                     <span>{t("checkout.total")}</span>
@@ -288,10 +297,18 @@ export function CartPage() {
                 </div>
                 <Link
                   href="/zh/checkout/"
-                  className="i-btn i-btn--primary mt-6 flex h-11 w-full items-center justify-center text-sm font-bold text-white"
+                  aria-disabled={!shipping.quote}
+                  className={`i-btn i-btn--primary mt-6 flex h-11 w-full items-center justify-center text-sm font-bold text-white ${
+                    shipping.quote ? "" : "pointer-events-none opacity-50"
+                  }`}
                 >
                   {t("cartPage.checkoutNow", { count: totalQuantity })}
                 </Link>
+                {shipping.error ? (
+                  <p className="mt-3 text-center text-xs text-red-600">
+                    {t("checkout.shippingUnavailable")}
+                  </p>
+                ) : null}
                 <p className="mt-3 text-center text-xs text-ikea-muted">{t("cartPage.taxNote")}</p>
               </>
             ) : null}

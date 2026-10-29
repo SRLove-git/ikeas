@@ -280,9 +280,7 @@
       {
         "type": "pub-page-title",
         "title": null,
-        "texts": [
-          "Delivery"
-        ],
+        "texts": ["Delivery"],
         "images": [],
         "links": [],
         "items": [],
@@ -295,7 +293,7 @@
         "type": "pub-text",
         "title": "Local delivery within Singapore",
         "texts": [
-          "Delivery fee: SGD 9.9 per order within Singapore, as shown at checkout.",
+          "Delivery fee: Singapore orders are shipped by J&T Express at the current server-configured J&T standard rate shown at checkout.",
           "Free-delivery threshold: none at present.",
           "Estimated time: 2–4 business days after order confirmation; remote areas may take slightly longer.",
           "Coverage: Singapore addresses only. Please inspect the package upon delivery."
@@ -371,9 +369,7 @@
       {
         "type": "pub-text",
         "title": null,
-        "texts": [
-          "Need delivery arrangements? Contact our customer service team."
-        ],
+        "texts": ["Need delivery arrangements? Contact our customer service team."],
         "images": [],
         "links": [],
         "items": [],
@@ -395,9 +391,7 @@
       {
         "type": "pub-page-title",
         "title": null,
-        "texts": [
-          "After-sales service"
-        ],
+        "texts": ["After-sales service"],
         "images": [],
         "links": [],
         "items": [],
@@ -514,9 +508,7 @@
       {
         "type": "pub-text",
         "title": null,
-        "texts": [
-          "Store addresses and opening hours are available on the “Contact us” page."
-        ],
+        "texts": ["Store addresses and opening hours are available on the “Contact us” page."],
         "images": [],
         "links": [
           {
@@ -543,9 +535,7 @@
       {
         "type": "pub-page-title",
         "title": null,
-        "texts": [
-          "Exclusive benefits"
-        ],
+        "texts": ["Exclusive benefits"],
         "images": [],
         "links": [],
         "items": [],
@@ -572,9 +562,7 @@
       {
         "type": "pub-page-title",
         "title": null,
-        "texts": [
-          "Health experience programs"
-        ],
+        "texts": ["Health experience programs"],
         "images": [
           "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/customer-service/health-experience-imdec-2026-01.jpg",
           "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/customer-service/health-experience-imdec-2026-02.jpg",
@@ -812,9 +800,7 @@
       {
         "type": "contact-list",
         "title": "More help",
-        "texts": [
-          "The pages below can help you quickly resolve common questions."
-        ],
+        "texts": ["The pages below can help you quickly resolve common questions."],
         "images": [],
         "links": [],
         "items": [

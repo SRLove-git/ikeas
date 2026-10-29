@@ -355,6 +355,8 @@
     "balance": "Saldo ({{value}} tersedia)",
     "subtotal": "Subtotal",
     "deliveryFee": "Biaya pengiriman",
+    "shippingLoading": "Memuat…",
+    "shippingUnavailable": "Pengiriman J&T sementara tidak tersedia. Silakan coba lagi.",
     "discount": "Diskon",
     "total": "Total",
     "submitting": "Mengirim…",

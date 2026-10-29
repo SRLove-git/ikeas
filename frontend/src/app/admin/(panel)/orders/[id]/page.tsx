@@ -106,7 +106,7 @@ export default function OrderEditorPage() {
     status: 1,
     statusLabel: t("admin.orders.statusPending"),
     subtotal: 0,
-    deliveryFee: 9.9,
+    deliveryFee: 4.9,
     totalAmount: 0,
     customer: null,
     phone: null,

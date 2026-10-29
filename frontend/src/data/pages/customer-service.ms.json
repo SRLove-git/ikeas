@@ -280,9 +280,7 @@
       {
         "type": "pub-page-title",
         "title": null,
-        "texts": [
-          "Penghantaran"
-        ],
+        "texts": ["Penghantaran"],
         "images": [],
         "links": [],
         "items": [],
@@ -295,7 +293,7 @@
         "type": "pub-text",
         "title": "Penghantaran tempatan dalam Singapura",
         "texts": [
-          "Yuran penghantaran: SGD 9.9 setiap pesanan dalam Singapura, seperti yang ditunjukkan semasa daftar keluar.",
+          "Yuran penghantaran: Pesanan di Singapura dihantar oleh J&T Express pada kadar standard J&T semasa yang dipaparkan semasa daftar keluar.",
           "Ambang penghantaran percuma: tiada buat masa ini.",
           "Anggaran masa: 2–4 hari bekerja selepas pengesahan pesanan; kawasan terpencil mungkin mengambil masa sedikit lebih lama.",
           "Liputan: alamat Singapura sahaja. Sila periksa bungkusan semasa penghantaran."
@@ -371,9 +369,7 @@
       {
         "type": "pub-text",
         "title": null,
-        "texts": [
-          "Perlu aturan penghantaran? Hubungi pasukan perkhidmatan pelanggan kami."
-        ],
+        "texts": ["Perlu aturan penghantaran? Hubungi pasukan perkhidmatan pelanggan kami."],
         "images": [],
         "links": [],
         "items": [],
@@ -395,9 +391,7 @@
       {
         "type": "pub-page-title",
         "title": null,
-        "texts": [
-          "Perkhidmatan selepas jualan"
-        ],
+        "texts": ["Perkhidmatan selepas jualan"],
         "images": [],
         "links": [],
         "items": [],
@@ -514,9 +508,7 @@
       {
         "type": "pub-text",
         "title": null,
-        "texts": [
-          "Alamat kedai dan waktu buka tersedia pada halaman “Hubungi kami”."
-        ],
+        "texts": ["Alamat kedai dan waktu buka tersedia pada halaman “Hubungi kami”."],
         "images": [],
         "links": [
           {
@@ -543,9 +535,7 @@
       {
         "type": "pub-page-title",
         "title": null,
-        "texts": [
-          "Manfaat eksklusif"
-        ],
+        "texts": ["Manfaat eksklusif"],
         "images": [],
         "links": [],
         "items": [],
@@ -572,9 +562,7 @@
       {
         "type": "pub-page-title",
         "title": null,
-        "texts": [
-          "Program pengalaman kesihatan"
-        ],
+        "texts": ["Program pengalaman kesihatan"],
         "images": [
           "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/customer-service/health-experience-imdec-2026-01.jpg",
           "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/customer-service/health-experience-imdec-2026-02.jpg",
@@ -812,9 +800,7 @@
       {
         "type": "contact-list",
         "title": "Lebih banyak bantuan",
-        "texts": [
-          "Halaman di bawah dapat membantu anda menyelesaikan soalan lazim dengan cepat."
-        ],
+        "texts": ["Halaman di bawah dapat membantu anda menyelesaikan soalan lazim dengan cepat."],
         "images": [],
         "links": [],
         "items": [

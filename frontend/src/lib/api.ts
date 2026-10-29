@@ -98,6 +98,14 @@ export interface PaymentOptions {
   stripePublicKey: string
 }
 
+export interface ShippingQuote {
+  carrier: string
+  serviceCode: string
+  currency: string
+  deliveryFee: number
+  pricingModel: string
+}
+
 export interface CreatePaymentResponse {
   mockOnly: boolean
   channel: string

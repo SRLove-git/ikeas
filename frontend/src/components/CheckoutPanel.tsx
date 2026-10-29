@@ -11,8 +11,7 @@ import { apiJson, type Cart, type OrderResponse } from "@/lib/api"
 import { formatPrice } from "@/lib/catalog-format"
 import { clearLocalCart, readLocalCart } from "@/lib/local-cart"
 import { readShippingAddresses, type ShippingAddress } from "@/lib/address-book"
-
-const DELIVERY_FEE = 9.9
+import { useShippingQuote } from "@/hooks/useShippingQuote"
 
 interface CouponView {
   id: number
@@ -51,6 +50,7 @@ export function CheckoutPanel() {
   })
   const [savedAddresses, setSavedAddresses] = useState<ShippingAddress[]>([])
   const [selectedAddressId, setSelectedAddressId] = useState("")
+  const shipping = useShippingQuote()
 
   useEffect(() => {
     const addresses = readShippingAddresses()
@@ -144,11 +144,9 @@ export function CheckoutPanel() {
   const totalQuantity = items.reduce((sum, item) => sum + item.quantity, 0)
   const pointDiscount = Math.min(usePoints, marketing?.points ?? 0) * 0.01
   const balanceUsed = Math.max(0, Math.min(useBalance, marketing?.balance ?? 0))
-  const discount = Math.max(
-    0,
-    Math.min(subtotal, pointDiscount + balanceUsed),
-  )
-  const total = subtotal + DELIVERY_FEE - discount
+  const discount = Math.max(0, Math.min(subtotal, pointDiscount + balanceUsed))
+  const deliveryFee = shipping.quote?.deliveryFee ?? 0
+  const total = subtotal + deliveryFee - discount
 
   const update = (key: keyof typeof form, value: string) => {
     setForm((current) => ({ ...current, [key]: value }))
@@ -161,6 +159,10 @@ export function CheckoutPanel() {
     }
     if (!form.customer.trim() || !form.phone.trim() || !form.region.trim() || !form.detail.trim()) {
       setError(t("checkout.incomplete"))
+      return
+    }
+    if (!shipping.quote) {
+      setError(t("checkout.shippingUnavailable"))
       return
     }
 
@@ -176,7 +178,6 @@ export function CheckoutPanel() {
               productId: item.productId,
               quantity: item.quantity,
             })),
-            deliveryFee: DELIVERY_FEE,
             customer: form.customer.trim(),
             phone: form.phone.trim(),
             address: `${form.region.trim()} ${form.detail.trim()}`.trim(),
@@ -191,7 +192,6 @@ export function CheckoutPanel() {
         method: "POST",
         body: JSON.stringify({
           fromCart: true,
-          deliveryFee: DELIVERY_FEE,
           usePoints,
           useBalance,
           customer: form.customer.trim(),
@@ -321,6 +321,7 @@ export function CheckoutPanel() {
                   <input type="radio" name="delivery" defaultChecked className="accent-ikea-blue" />
                   <span>
                     <span className="block text-sm font-bold">
+                      {shipping.quote?.carrier ?? "J&T Express Singapore"} ·{" "}
                       {t("checkout.standardDelivery")}
                     </span>
                     <span className="mt-0.5 block text-xs text-ikea-muted">
@@ -337,7 +338,13 @@ export function CheckoutPanel() {
                     </span>
                   </span>
                 </span>
-                <span className="text-sm font-bold">{formatPrice(DELIVERY_FEE)}</span>
+                <span className="text-sm font-bold">
+                  {shipping.loading
+                    ? t("checkout.shippingLoading")
+                    : shipping.quote
+                      ? formatPrice(deliveryFee)
+                      : "—"}
+                </span>
               </label>
             </section>
           </div>
@@ -424,7 +431,13 @@ export function CheckoutPanel() {
                   </div>
                   <div className="flex justify-between">
                     <span className="text-ikea-muted">{t("checkout.deliveryFee")}</span>
-                    <span>{formatPrice(DELIVERY_FEE)}</span>
+                    <span>
+                      {shipping.loading
+                        ? t("checkout.shippingLoading")
+                        : shipping.quote
+                          ? formatPrice(deliveryFee)
+                          : "—"}
+                    </span>
                   </div>
                   {discount > 0 ? (
                     <div className="flex justify-between text-green-700">
@@ -441,7 +454,13 @@ export function CheckoutPanel() {
                 <button
                   type="button"
                   onClick={() => void submit()}
-                  disabled={submitting || loading || totalQuantity === 0}
+                  disabled={
+                    submitting ||
+                    loading ||
+                    shipping.loading ||
+                    !shipping.quote ||
+                    totalQuantity === 0
+                  }
                   className="i-btn i-btn--primary mt-6 h-11 w-full text-sm font-bold text-white disabled:cursor-not-allowed disabled:opacity-50"
                 >
                   {submitting ? t("checkout.submitting") : t("checkout.submitOrder")}
@@ -449,6 +468,11 @@ export function CheckoutPanel() {
                 <p className="mt-3 text-center text-xs text-ikea-muted">
                   {t("checkout.submitHint")}
                 </p>
+                {shipping.error ? (
+                  <p className="mt-3 text-center text-xs text-red-600">
+                    {t("checkout.shippingUnavailable")}
+                  </p>
+                ) : null}
               </>
             )}
 
