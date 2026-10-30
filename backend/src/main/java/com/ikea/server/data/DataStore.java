@@ -309,14 +309,32 @@ public class DataStore {
   }
 
   private void seedDatabase(SeedData seed) {
-    syncProducts(seed.products());
-    syncCatalogCategories(seed.catalogCategories(), "catalog");
-    syncCatalogCategories(seed.channelCategories(), "channel");
-    syncMenuCategories(seed.menuCategories());
-    syncMenuPanels(seed.menuPanels());
-    syncCatalogPages(seed.catalogPages());
-    syncContentPages(seed.contentPages());
-    syncHomepage(seed.homepage());
+    // Classpath JSON is a first-start seed, not the source of truth after an
+    // administrator has edited the PostgreSQL-backed catalog. Reapplying it
+    // on every restart used to overwrite live CMS prices with the value baked
+    // into the application image.
+    if (productEntityMapper.selectCount(null) == 0) {
+      syncProducts(seed.products());
+    }
+    if (catalogCategoryEntityMapper.selectCount(null) == 0) {
+      syncCatalogCategories(seed.catalogCategories(), "catalog");
+      syncCatalogCategories(seed.channelCategories(), "channel");
+    }
+    if (menuCategoryEntityMapper.selectCount(null) == 0) {
+      syncMenuCategories(seed.menuCategories());
+    }
+    if (menuPanelEntityMapper.selectCount(null) == 0) {
+      syncMenuPanels(seed.menuPanels());
+    }
+    if (catalogPageEntityMapper.selectCount(null) == 0) {
+      syncCatalogPages(seed.catalogPages());
+    }
+    if (contentPageEntityMapper.selectCount(null) == 0) {
+      syncContentPages(seed.contentPages());
+    }
+    if (homepageEntityMapper.selectCount(null) == 0) {
+      syncHomepage(seed.homepage());
+    }
   }
 
   private void syncProducts(List<Product> products) {

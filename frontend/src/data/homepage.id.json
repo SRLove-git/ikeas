@@ -407,7 +407,7 @@
       "products": [
         {
           "name": "HCG Pregnancy Rapid Test",
-          "price": "4.80",
+          "price": "0.01",
           "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710595-1.png",
           "icon": null
         },
@@ -650,7 +650,7 @@
         "tooltipPosition": "is-top",
         "title": "HCG Pregnancy Rapid Test",
         "desc": "Kit tes cepat",
-        "price": "SGD 4.80",
+        "price": "SGD 0.01",
         "tags": [
           "BUZUD"
         ],
