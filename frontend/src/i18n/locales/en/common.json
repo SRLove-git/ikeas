@@ -562,6 +562,7 @@
     "paymentSubtitle": "Complete your payment securely with YeahPay",
     "paymentMethodCard": "Credit or debit card",
     "paymentMethodWallet": "Mobile wallet",
+    "paymentMethodUnavailable": "Not enabled for this merchant",
     "paymentSecurity": "Encrypted secure checkout powered by YeahPay",
     "paymentContinue": "Continue to secure payment",
     "closePayment": "Close payment method selection",

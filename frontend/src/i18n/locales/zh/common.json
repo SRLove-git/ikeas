@@ -562,6 +562,7 @@
     "paymentSubtitle": "通过 YeahPay 安全完成付款",
     "paymentMethodCard": "信用卡或借记卡",
     "paymentMethodWallet": "手机钱包",
+    "paymentMethodUnavailable": "商户暂未开通",
     "paymentSecurity": "YeahPay 提供加密安全收银服务",
     "paymentContinue": "继续安全支付",
     "closePayment": "关闭支付方式选择",

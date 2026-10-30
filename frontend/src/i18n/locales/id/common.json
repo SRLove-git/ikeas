@@ -562,6 +562,7 @@
     "paymentSubtitle": "Selesaikan pembayaran Anda dengan aman melalui YeahPay",
     "paymentMethodCard": "Kartu kredit atau debit",
     "paymentMethodWallet": "Dompet seluler",
+    "paymentMethodUnavailable": "Belum diaktifkan untuk merchant ini",
     "paymentSecurity": "Pembayaran aman terenkripsi yang didukung YeahPay",
     "paymentContinue": "Lanjutkan ke pembayaran aman",
     "closePayment": "Tutup pilihan metode pembayaran",

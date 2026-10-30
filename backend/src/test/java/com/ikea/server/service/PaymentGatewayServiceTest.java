@@ -13,12 +13,15 @@ import static org.mockito.Mockito.when;
 import com.baomidou.mybatisplus.core.conditions.Wrapper;
 import com.ikea.server.constant.OrderStatus;
 import com.ikea.server.dto.payment.PaymentDtos.CreatePaymentResponse;
+import com.ikea.server.entity.AppUser;
 import com.ikea.server.entity.Order;
 import com.ikea.server.integration.payment.yeahpay.YeahPayClient;
+import com.ikea.server.integration.payment.yeahpay.YeahPayClient.PcCheckoutDetails;
 import com.ikea.server.integration.payment.yeahpay.YeahPayProperties;
 import com.ikea.server.integration.payment.yeahpay.YeahPaySigner;
 import com.ikea.server.mapper.OrderMapper;
 import java.math.BigDecimal;
+import java.util.Optional;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -31,6 +34,7 @@ class PaymentGatewayServiceTest {
   private YeahPayClient yeahPayClient;
   private YeahPayProperties properties;
   private PaymentPersistenceService paymentPersistenceService;
+  private UserService userService;
   private PaymentGatewayService service;
 
   @BeforeEach
@@ -40,9 +44,15 @@ class PaymentGatewayServiceTest {
     yeahPayClient = mock(YeahPayClient.class);
     properties = configuredProperties();
     paymentPersistenceService = mock(PaymentPersistenceService.class);
+    userService = mock(UserService.class);
     service =
         new PaymentGatewayService(
-            orderMapper, orderService, yeahPayClient, properties, paymentPersistenceService);
+            orderMapper,
+            orderService,
+            yeahPayClient,
+            properties,
+            paymentPersistenceService,
+            userService);
     when(paymentPersistenceService.recordCallbackIfAbsent(any(), any(), any(), any(), any()))
         .thenReturn(true);
   }
@@ -93,6 +103,45 @@ class PaymentGatewayServiceTest {
     assertEquals("yeahpay", result.channel());
     verify(yeahPayClient)
         .createHostedCheckout("ORD-1002", "SGD", 1234L, "BUZUD Order ORD-1002", yeahPayCode);
+  }
+
+  @Test
+  void createPaymentShouldUsePcCheckoutWithConsumerAndDeliveryDetails() {
+    Order order = new Order();
+    order.setOrderNo("ORD-PC-1001");
+    order.setUserId(42L);
+    order.setStatus(OrderStatus.PENDING_PAYMENT.code());
+    order.setCurrency("SGD");
+    order.setTotalAmount(new BigDecimal("12.34"));
+    order.setCustomer("Jamie Tan");
+    order.setAddress("10 Anson Road, Singapore 079903");
+
+    AppUser user = new AppUser();
+    user.setId(42L);
+    user.setEmail("jamie@example.com");
+    when(orderMapper.selectOne(any(Wrapper.class))).thenReturn(order);
+    when(userService.findById(42L)).thenReturn(Optional.of(user));
+    when(yeahPayClient.isConfigured()).thenReturn(true);
+    when(yeahPayClient.createPcHostedCheckout(any(), any(), eq(1234L), any(), any(), any()))
+        .thenReturn("https://payment.yeahpay.net/checkout/pc-session");
+
+    CreatePaymentResponse result =
+        service.createPayment(42L, "ORD-PC-1001", "visa", "pc");
+
+    assertEquals("yeahpay", result.channel());
+    verify(yeahPayClient)
+        .createPcHostedCheckout(
+            "ORD-PC-1001",
+            "SGD",
+            1234L,
+            "BUZUD Order ORD-PC-1001",
+            "VISA",
+            new PcCheckoutDetails(
+                "42",
+                "Jamie Tan",
+                "jamie@example.com",
+                "10 Anson Road, Singapore 079903",
+                "079903"));
   }
 
   @Test

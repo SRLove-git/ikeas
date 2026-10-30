@@ -44,6 +44,24 @@ class YeahPayClientTest {
             output.write(response);
           }
         });
+    server.createContext(
+        "/acceptance-open-api/cardOrder/getPcRedirectUrl",
+        exchange -> {
+          receivedBody =
+              new String(exchange.getRequestBody().readAllBytes(), StandardCharsets.UTF_8);
+          receivedTimestamp = exchange.getRequestHeaders().getFirst("timestamp");
+          receivedNonce = exchange.getRequestHeaders().getFirst("nonce");
+          receivedSignature = exchange.getRequestHeaders().getFirst("signature");
+          String json =
+              "{\"code\":\"0\",\"data\":{\"url\":"
+                  + "\"https://payment.yeahpay.net/checkout/pc-test-session\"}}";
+          byte[] response = json.getBytes(StandardCharsets.UTF_8);
+          exchange.getResponseHeaders().set("Content-Type", "application/json");
+          exchange.sendResponseHeaders(200, response.length);
+          try (var output = exchange.getResponseBody()) {
+            output.write(response);
+          }
+        });
     server.start();
 
     String origin = "http://localhost:" + server.getAddress().getPort();
@@ -87,6 +105,46 @@ class YeahPayClientTest {
     String expected =
         YeahPaySigner.sign(
             "/acceptance-open-api/cardOrder/getRedirectUrl",
+            "app-test",
+            receivedTimestamp,
+            YeahPaySigner.VERSION,
+            receivedNonce,
+            receivedBody,
+            "test-api-key");
+    assertEquals(expected, receivedSignature);
+  }
+
+  @Test
+  void createPcHostedCheckoutShouldUseDesktopEndpointAndSendRequiredCustomerDetails()
+      throws Exception {
+    YeahPayClient client = new YeahPayClient(properties, mapper);
+
+    String checkoutUrl =
+        client.createPcHostedCheckout(
+            "ORD-PC-1001",
+            "SGD",
+            1234,
+            "BUZUD Order ORD-PC-1001",
+            "VISA",
+            new YeahPayClient.PcCheckoutDetails(
+                "42",
+                "Jamie Tan",
+                "jamie@example.com",
+                "10 Anson Road, Singapore 079903",
+                "079903"));
+
+    assertEquals("https://payment.yeahpay.net/checkout/pc-test-session", checkoutUrl);
+    JsonNode request = mapper.readTree(receivedBody);
+    assertEquals("PHYSICAL", request.path("busiType").asText());
+    assertEquals("079903", mapper.readTree(request.path("logisticsInfo").asText())
+        .path("postal_code").asText());
+    assertEquals("jamie@example.com", mapper.readTree(request.path("consumerInfo").asText())
+        .path("email").asText());
+    assertEquals("other", request.path("target").asText());
+
+    String expected =
+        YeahPaySigner.sign(
+            "/acceptance-open-api/cardOrder/getPcRedirectUrl",
             "app-test",
             receivedTimestamp,
             YeahPaySigner.VERSION,

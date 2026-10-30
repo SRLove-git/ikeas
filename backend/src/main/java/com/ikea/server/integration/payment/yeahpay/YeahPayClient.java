@@ -19,6 +19,10 @@ import org.springframework.stereotype.Component;
 public class YeahPayClient {
 
   static final String HOSTED_CHECKOUT_PATH = "/cardOrder/getRedirectUrl";
+  static final String PC_HOSTED_CHECKOUT_PATH = "/cardOrder/getPcRedirectUrl";
+
+  public record PcCheckoutDetails(
+      String consumerId, String customerName, String email, String address, String postalCode) {}
 
   private final YeahPayProperties properties;
   private final ObjectMapper mapper;
@@ -48,6 +52,65 @@ public class YeahPayClient {
       String orderNo, String currency, long amountMinor, String description, String payWay) {
     properties.validateForUse();
 
+    Map<String, Object> body =
+        checkoutBody(orderNo, currency, amountMinor, description, payWay, true);
+    return checkoutUrl(post(HOSTED_CHECKOUT_PATH, body));
+  }
+
+  public String createPcHostedCheckout(
+      String orderNo,
+      String currency,
+      long amountMinor,
+      String description,
+      String payWay,
+      PcCheckoutDetails details) {
+    properties.validateForUse();
+    validatePcCheckoutDetails(details);
+
+    Map<String, Object> body =
+        checkoutBody(orderNo, currency, amountMinor, description, payWay, false);
+    String[] names = details.customerName().trim().split("\\s+", 2);
+    String firstName = names[0];
+    String lastName = names.length > 1 ? names[1] : names[0];
+
+    Map<String, Object> consumerInfo = new LinkedHashMap<>();
+    consumerInfo.put("last_name", lastName);
+    consumerInfo.put("first_name", firstName);
+    consumerInfo.put("email", details.email());
+    consumerInfo.put("consumer_id", details.consumerId());
+
+    Map<String, Object> logisticsInfo = new LinkedHashMap<>();
+    logisticsInfo.put("country_code", "SG");
+    logisticsInfo.put("city", "Singapore");
+    logisticsInfo.put("province", "Singapore");
+    logisticsInfo.put("street", details.address());
+    logisticsInfo.put("postal_code", details.postalCode());
+
+    Map<String, Object> billInfo = new LinkedHashMap<>();
+    billInfo.put("last_name", lastName);
+    billInfo.put("first_name", firstName);
+    billInfo.put("email", details.email());
+    billInfo.put("country_code", "SG");
+    billInfo.put("city", "Singapore");
+    billInfo.put("street", details.address());
+    billInfo.put("postal_code", details.postalCode());
+
+    body.put("countdown", 3);
+    body.put("target", "other");
+    body.put("logisticsInfo", toJson(logisticsInfo));
+    body.put("consumerInfo", toJson(consumerInfo));
+    body.put("billInfo", toJson(billInfo));
+    return checkoutUrl(post(PC_HOSTED_CHECKOUT_PATH, body));
+  }
+
+  private Map<String, Object> checkoutBody(
+      String orderNo,
+      String currency,
+      long amountMinor,
+      String description,
+      String payWay,
+      boolean includeMerchantReferenceNumber) {
+
     Map<String, Object> goods = new LinkedHashMap<>();
     goods.put("name", description);
     goods.put("number", 1);
@@ -57,7 +120,9 @@ public class YeahPayClient {
     Map<String, Object> body = new LinkedHashMap<>();
     body.put("merchantId", properties.getMerchantId());
     body.put("orderId", orderNo);
-    body.put("merchantReferenceNumber", orderNo);
+    if (includeMerchantReferenceNumber) {
+      body.put("merchantReferenceNumber", orderNo);
+    }
     body.put("busiType", "PHYSICAL");
     body.put("currency", currency);
     body.put("amount", String.valueOf(amountMinor));
@@ -69,8 +134,10 @@ public class YeahPayClient {
     if (hasText(payWay)) {
       body.put("payWay", payWay);
     }
+    return body;
+  }
 
-    JsonNode response = post(HOSTED_CHECKOUT_PATH, body);
+  private String checkoutUrl(JsonNode response) {
     String checkoutUrl = response.path("data").path("url").asText(null);
     if (!hasText(checkoutUrl)) {
       checkoutUrl = response.path("url").asText(null);
@@ -78,11 +145,25 @@ public class YeahPayClient {
     if (!hasText(checkoutUrl)) {
       String code = response.path("code").asText("");
       String message = response.path("message").asText("");
+      if ("Merchant payment unavailable".equalsIgnoreCase(message.trim())) {
+        throw new IllegalStateException("当前商户尚未开通该支付方式，请选择其他支付方式");
+      }
       throw new IllegalStateException(
           "YeahPay 未返回收银台地址 code=" + code + " message=" + truncate(message));
     }
     validateCheckoutUrl(checkoutUrl);
     return checkoutUrl;
+  }
+
+  private static void validatePcCheckoutDetails(PcCheckoutDetails details) {
+    if (details == null
+        || !hasText(details.consumerId())
+        || !hasText(details.customerName())
+        || !hasText(details.email())
+        || !hasText(details.address())
+        || details.postalCode() == null) {
+      throw new IllegalArgumentException("PC 收银台缺少消费者或配送信息");
+    }
   }
 
   JsonNode post(String path, Object requestBody) {

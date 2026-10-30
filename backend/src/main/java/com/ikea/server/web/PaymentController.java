@@ -35,8 +35,9 @@ public class PaymentController {
   public CreatePaymentResponse create(
       @PathVariable String orderNo,
       @RequestParam(defaultValue = "card") String channel,
+      @RequestParam(defaultValue = "h5") String checkout,
       HttpServletRequest request) {
-    return paymentGatewayService.createPayment(userId(request), orderNo, channel);
+    return paymentGatewayService.createPayment(userId(request), orderNo, channel, checkout);
   }
 
   @PostMapping("/stripe/webhook")

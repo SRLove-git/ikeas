@@ -6,8 +6,10 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.ikea.server.constant.OrderStatus;
 import com.ikea.server.dto.payment.PaymentDtos.CreatePaymentResponse;
 import com.ikea.server.dto.payment.PaymentDtos.PaymentOptions;
+import com.ikea.server.entity.AppUser;
 import com.ikea.server.entity.Order;
 import com.ikea.server.integration.payment.yeahpay.YeahPayClient;
+import com.ikea.server.integration.payment.yeahpay.YeahPayClient.PcCheckoutDetails;
 import com.ikea.server.integration.payment.yeahpay.YeahPayProperties;
 import com.ikea.server.integration.payment.yeahpay.YeahPaySigner;
 import com.ikea.server.mapper.OrderMapper;
@@ -29,6 +31,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;
 import org.slf4j.Logger;
@@ -47,6 +51,9 @@ public class PaymentGatewayService {
   private static final Logger log = LoggerFactory.getLogger(PaymentGatewayService.class);
   private static final ObjectMapper MAPPER = new ObjectMapper();
   private static final int WEBHOOK_REPLAY_WINDOW_SECONDS = 300;
+  private static final Pattern EMAIL_PATTERN =
+      Pattern.compile("^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}$");
+  private static final Pattern SINGAPORE_POSTAL_CODE = Pattern.compile("(?<!\\d)(\\d{6})(?!\\d)");
   private static final Set<String> ZERO_DECIMAL_CURRENCIES = Set.of(
       "BIF", "CLP", "DJF", "GNF", "JPY", "KMF", "KRW", "MGA", "PYG",
       "RWF", "UGX", "VND", "VUV", "XAF", "XOF", "XPF");
@@ -64,6 +71,7 @@ public class PaymentGatewayService {
   private final YeahPayClient yeahPayClient;
   private final YeahPayProperties yeahPayProperties;
   private final PaymentPersistenceService paymentPersistenceService;
+  private final UserService userService;
   private final HttpClient httpClient = HttpClient.newBuilder()
       .connectTimeout(Duration.ofSeconds(10))
       .build();
@@ -97,12 +105,14 @@ public class PaymentGatewayService {
       OrderService orderService,
       YeahPayClient yeahPayClient,
       YeahPayProperties yeahPayProperties,
-      PaymentPersistenceService paymentPersistenceService) {
+      PaymentPersistenceService paymentPersistenceService,
+      UserService userService) {
     this.orderMapper = orderMapper;
     this.orderService = orderService;
     this.yeahPayClient = yeahPayClient;
     this.yeahPayProperties = yeahPayProperties;
     this.paymentPersistenceService = paymentPersistenceService;
+    this.userService = userService;
   }
 
   public PaymentOptions options() {
@@ -110,6 +120,11 @@ public class PaymentGatewayService {
   }
 
   public CreatePaymentResponse createPayment(Long userId, String orderNo, String channel) {
+    return createPayment(userId, orderNo, channel, "h5");
+  }
+
+  public CreatePaymentResponse createPayment(
+      Long userId, String orderNo, String channel, String checkoutMode) {
     Order order = requirePendingOrder(userId, orderNo);
     if (mockOnly) {
       return new CreatePaymentResponse(true, "mock", null);
@@ -127,13 +142,27 @@ public class PaymentGatewayService {
     String yeahPayMethod = YEAHPAY_PAYMENT_METHODS.get(normalized);
     if (!explicitlyStripe && yeahPayClient.isConfigured()) {
       String currency = hasText(order.getCurrency()) ? normalizeCurrency(order.getCurrency()) : "SGD";
-      String checkoutUrl =
-          yeahPayClient.createHostedCheckout(
-              order.getOrderNo(),
-              currency,
-              toMinorUnit(order.getTotalAmount(), currency),
-              "BUZUD Order " + order.getOrderNo(),
-              yeahPayMethod);
+      long amountMinor = toMinorUnit(order.getTotalAmount(), currency);
+      String description = "BUZUD Order " + order.getOrderNo();
+      String checkoutUrl;
+      if ("pc".equalsIgnoreCase(checkoutMode)) {
+        checkoutUrl =
+            yeahPayClient.createPcHostedCheckout(
+                order.getOrderNo(),
+                currency,
+                amountMinor,
+                description,
+                yeahPayMethod,
+                pcCheckoutDetails(userId, order));
+      } else if (checkoutMode == null
+          || checkoutMode.isBlank()
+          || "h5".equalsIgnoreCase(checkoutMode)) {
+        checkoutUrl =
+            yeahPayClient.createHostedCheckout(
+                order.getOrderNo(), currency, amountMinor, description, yeahPayMethod);
+      } else {
+        throw new IllegalArgumentException("不支持的收银台类型");
+      }
       return new CreatePaymentResponse(false, "yeahpay", checkoutUrl);
     }
     if (explicitlyYeahPay || yeahPayMethod != null) {
@@ -145,6 +174,48 @@ public class PaymentGatewayService {
 
     String sessionUrl = createCheckoutSession(order);
     return new CreatePaymentResponse(false, "stripe", sessionUrl);
+  }
+
+  private PcCheckoutDetails pcCheckoutDetails(Long userId, Order order) {
+    AppUser user =
+        userService.findById(userId).orElseThrow(() -> new UnauthorizedException("用户信息不存在"));
+    String customerName = firstNonBlank(order.getCustomer(), user.getName(), user.getUsername());
+    if (!hasText(customerName)) {
+      throw new IllegalArgumentException("请先补充收货人姓名后再支付");
+    }
+
+    String email = firstValidEmail(user.getEmail(), user.getUsername());
+    if (!hasText(email)) {
+      throw new IllegalArgumentException("请先在账户资料中补充有效邮箱后再支付");
+    }
+
+    String address = order.getAddress();
+    if (!hasText(address)) {
+      throw new IllegalArgumentException("订单缺少收货地址，暂时无法打开收银台");
+    }
+    Matcher postalCode = SINGAPORE_POSTAL_CODE.matcher(address);
+    String postalCodeValue = postalCode.find() ? postalCode.group(1) : "";
+
+    return new PcCheckoutDetails(
+        String.valueOf(userId), customerName, email, address, postalCodeValue);
+  }
+
+  private static String firstNonBlank(String... values) {
+    for (String value : values) {
+      if (hasText(value)) {
+        return value.trim();
+      }
+    }
+    return null;
+  }
+
+  private static String firstValidEmail(String... values) {
+    for (String value : values) {
+      if (hasText(value) && EMAIL_PATTERN.matcher(value.trim()).matches()) {
+        return value.trim();
+      }
+    }
+    return null;
   }
 
   public String handleStripeWebhook(String payload, String signatureHeader) {

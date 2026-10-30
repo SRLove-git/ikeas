@@ -25,13 +25,50 @@ const PAYMENT_METHODS: {
   label: string
   type: "card" | "wallet"
   badgeClassName: string
+  enabled: boolean
 }[] = [
-  { id: "visa", label: "VISA", type: "card", badgeClassName: "text-[#1a1f71]" },
-  { id: "mastercard", label: "Mastercard", type: "card", badgeClassName: "text-[#eb001b]" },
-  { id: "amex", label: "AMERICAN EXPRESS", type: "card", badgeClassName: "text-[#006fcf]" },
-  { id: "unionpay", label: "UnionPay", type: "card", badgeClassName: "text-[#007b84]" },
-  { id: "applepay", label: "Apple Pay", type: "wallet", badgeClassName: "text-black" },
-  { id: "googlepay", label: "Google Pay", type: "wallet", badgeClassName: "text-[#4285f4]" },
+  {
+    id: "visa",
+    label: "VISA",
+    type: "card",
+    badgeClassName: "text-[#1a1f71]",
+    enabled: true,
+  },
+  {
+    id: "mastercard",
+    label: "Mastercard",
+    type: "card",
+    badgeClassName: "text-[#eb001b]",
+    enabled: true,
+  },
+  {
+    id: "amex",
+    label: "AMERICAN EXPRESS",
+    type: "card",
+    badgeClassName: "text-[#006fcf]",
+    enabled: true,
+  },
+  {
+    id: "unionpay",
+    label: "UnionPay",
+    type: "card",
+    badgeClassName: "text-[#007b84]",
+    enabled: false,
+  },
+  {
+    id: "applepay",
+    label: "Apple Pay",
+    type: "wallet",
+    badgeClassName: "text-black",
+    enabled: true,
+  },
+  {
+    id: "googlepay",
+    label: "Google Pay",
+    type: "wallet",
+    badgeClassName: "text-[#4285f4]",
+    enabled: true,
+  },
 ]
 
 function statusClassName(status: number): string {
@@ -143,8 +180,9 @@ export function MyOrdersPanel() {
     setPaying(orderNo)
     setError(null)
     try {
+      const checkoutMode = window.matchMedia("(max-width: 767px)").matches ? "h5" : "pc"
       const payment = await apiJson<CreatePaymentResponse>(
-        `/payment/orders/${orderNo}?channel=${encodeURIComponent(method)}`,
+        `/payment/orders/${orderNo}?channel=${encodeURIComponent(method)}&checkout=${checkoutMode}`,
         { method: "POST" },
       )
       if (payment.mockOnly) {
@@ -548,7 +586,7 @@ export function MyOrdersPanel() {
                     key={method.id}
                     type="button"
                     aria-pressed={selected}
-                    disabled={paying === paymentOrderNo}
+                    disabled={paying === paymentOrderNo || !method.enabled}
                     onClick={() => setPaymentMethod(method.id)}
                     className={`min-h-24 rounded-xl border-2 p-3 text-left transition-all disabled:opacity-50 ${
                       selected
@@ -562,9 +600,11 @@ export function MyOrdersPanel() {
                       {method.label}
                     </span>
                     <span className="mt-3 block text-xs text-ikea-muted">
-                      {method.type === "card"
-                        ? t("orders.paymentMethodCard")
-                        : t("orders.paymentMethodWallet")}
+                      {!method.enabled
+                        ? t("orders.paymentMethodUnavailable")
+                        : method.type === "card"
+                          ? t("orders.paymentMethodCard")
+                          : t("orders.paymentMethodWallet")}
                     </span>
                   </button>
                 )
