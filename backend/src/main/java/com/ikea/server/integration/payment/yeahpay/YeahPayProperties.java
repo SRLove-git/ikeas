@@ -1,5 +1,9 @@
 package com.ikea.server.integration.payment.yeahpay;
 
+import java.util.Arrays;
+import java.util.List;
+import java.util.Locale;
+import java.util.Set;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
@@ -7,6 +11,9 @@ import org.springframework.stereotype.Component;
 @Component
 @ConfigurationProperties(prefix = "ikea.payment.yeahpay")
 public class YeahPayProperties {
+
+  private static final Set<String> SUPPORTED_METHODS =
+      Set.of("visa", "mastercard", "amex", "unionpay", "applepay", "googlepay");
 
   private boolean enabled;
   private boolean pcCheckoutEnabled = false;
@@ -20,6 +27,7 @@ public class YeahPayProperties {
       "https://medical-sg.com/zh/profile/my-orders?payment=success";
   private String notifyUrl = "https://medical-sg.com/api/v1/payment/yeahpay/webhook";
   private String lang = "en";
+  private String enabledMethods = "visa,mastercard,amex";
   private int connectTimeoutMs = 10000;
   private int readTimeoutMs = 20000;
   private int callbackReplayWindowSeconds = 300;
@@ -104,6 +112,26 @@ public class YeahPayProperties {
     this.lang = lang;
   }
 
+  public String getEnabledMethods() {
+    return enabledMethods;
+  }
+
+  public void setEnabledMethods(String enabledMethods) {
+    this.enabledMethods = enabledMethods;
+  }
+
+  public List<String> enabledPaymentMethods() {
+    if (enabledMethods == null || enabledMethods.isBlank()) {
+      return List.of();
+    }
+    return Arrays.stream(enabledMethods.split(","))
+        .map(String::trim)
+        .filter(value -> !value.isEmpty())
+        .map(value -> value.toLowerCase(Locale.ROOT))
+        .distinct()
+        .toList();
+  }
+
   public int getConnectTimeoutMs() {
     return connectTimeoutMs;
   }
@@ -129,6 +157,7 @@ public class YeahPayProperties {
   }
 
   public boolean isConfigured() {
+    List<String> methods = enabledPaymentMethods();
     return enabled
         && hasText(appId)
         && hasText(apiKey)
@@ -136,7 +165,9 @@ public class YeahPayProperties {
         && hasText(apiBaseUrl)
         && hasText(signatureDomain)
         && hasText(callbackUrl)
-        && hasText(notifyUrl);
+        && hasText(notifyUrl)
+        && !methods.isEmpty()
+        && SUPPORTED_METHODS.containsAll(methods);
   }
 
   public void validateForUse() {

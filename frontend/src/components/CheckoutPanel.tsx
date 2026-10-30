@@ -9,7 +9,6 @@ import { useAuth } from "@/lib/auth"
 import { Breadcrumbs } from "@/components/Breadcrumbs"
 import { apiJson, type Cart, type OrderResponse } from "@/lib/api"
 import { formatPrice } from "@/lib/catalog-format"
-import { clearLocalCart, readLocalCart } from "@/lib/local-cart"
 import { readShippingAddresses, type ShippingAddress } from "@/lib/address-book"
 import { useShippingQuote } from "@/hooks/useShippingQuote"
 
@@ -39,7 +38,6 @@ export function CheckoutPanel() {
   const [error, setError] = useState<string | null>(null)
   const [submitting, setSubmitting] = useState(false)
   const [marketing, setMarketing] = useState<MarketingAccount | null>(null)
-  const [createdOrder, setCreatedOrder] = useState<OrderResponse | null>(null)
   const [usePoints, setUsePoints] = useState(0)
   const [useBalance, setUseBalance] = useState(0)
   const [form, setForm] = useState({
@@ -56,7 +54,7 @@ export function CheckoutPanel() {
     const addresses = readShippingAddresses()
     setSavedAddresses(addresses)
     const preferred = addresses.find((address) => address.isDefault) ?? addresses[0]
-    if (preferred && !form.customer && !form.phone && !form.region && !form.detail) {
+    if (preferred) {
       setSelectedAddressId(preferred.id)
       setForm({
         customer: preferred.name,
@@ -85,26 +83,16 @@ export function CheckoutPanel() {
 
   useEffect(() => {
     if (!ready) return
+    if (!user) {
+      setLoading(false)
+      return
+    }
 
     let cancelled = false
     const loadCart = async () => {
       setLoading(true)
       setError(null)
       try {
-        if (!user) {
-          const local = readLocalCart()
-          if (!cancelled) {
-            setCart({
-              items: local,
-              totalQuantity: local.reduce((sum, item) => sum + item.quantity, 0),
-              totalPrice: local.reduce(
-                (sum, item) => sum + (item.product.price ?? 0) * item.quantity,
-                0,
-              ),
-            })
-          }
-          return
-        }
         const data = await apiJson<Cart>("/cart")
         if (!cancelled) setCart(data)
       } catch (ex) {
@@ -121,6 +109,11 @@ export function CheckoutPanel() {
       cancelled = true
     }
   }, [ready, user, t])
+
+  useEffect(() => {
+    if (!ready || user || typeof window === "undefined") return
+    window.sessionStorage.setItem("buzud_auth_return_to", window.location.pathname)
+  }, [ready, user])
 
   useEffect(() => {
     if (!ready || !user) return
@@ -170,22 +163,7 @@ export function CheckoutPanel() {
     setError(null)
     try {
       if (!user) {
-        const order = await apiJson<OrderResponse>("/orders", {
-          method: "POST",
-          body: JSON.stringify({
-            fromCart: false,
-            items: cart.items.map((item) => ({
-              productId: item.productId,
-              quantity: item.quantity,
-            })),
-            customer: form.customer.trim(),
-            phone: form.phone.trim(),
-            address: `${form.region.trim()} ${form.detail.trim()}`.trim(),
-            remark: "",
-          }),
-        })
-        clearLocalCart()
-        setCreatedOrder(order)
+        router.push("/zh/profile/login/")
         return
       }
       const order = await apiJson<OrderResponse>("/orders", {
@@ -216,30 +194,22 @@ export function CheckoutPanel() {
     )
   }
 
-  if (createdOrder) {
+  if (!user) {
     return (
       <div className="font-ikea min-h-screen bg-ikea-gray-100 text-ikea-black">
         <div className="max-w-page mx-auto px-5 py-10 lg:px-10">
           <Breadcrumbs currentLabel={t("checkout.breadcrumb")} />
           <div className="mx-auto mt-10 max-w-xl rounded bg-white p-8 text-center">
-            <h1 className="text-xl font-bold leading-8">{t("checkout.guestSuccessTitle")}</h1>
+            <h1 className="text-xl font-bold leading-8">{t("checkout.loginRequiredTitle")}</h1>
             <p className="mt-4 text-sm leading-relaxed text-ikea-muted">
-              {t("checkout.guestSuccessBody", { orderNo: createdOrder.orderNo })}
+              {t("checkout.loginRequiredBody")}
             </p>
-            <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
-              <Link
-                href="/zh/all-products/"
-                className="i-btn i-btn--primary flex h-11 items-center justify-center px-8 text-sm font-bold text-white"
-              >
-                {t("checkout.continueShopping")}
-              </Link>
-              <Link
-                href="/zh/profile/login/"
-                className="i-btn i-btn--secondary flex h-11 items-center justify-center px-8 text-sm font-bold"
-              >
-                {t("checkout.loginToView")}
-              </Link>
-            </div>
+            <Link
+              href="/zh/profile/login/"
+              className="i-btn i-btn--primary mt-8 inline-flex h-11 items-center justify-center px-8 text-sm font-bold text-white"
+            >
+              {t("checkout.loginRequiredAction")}
+            </Link>
           </div>
         </div>
       </div>
@@ -252,12 +222,6 @@ export function CheckoutPanel() {
         <Breadcrumbs currentLabel={t("checkout.breadcrumb")} />
 
         <h1 className="text-2xl font-bold leading-9">{t("checkout.title")}</h1>
-
-        {!user ? (
-          <p className="mt-4 rounded border border-ikea-blue/20 bg-ikea-blue/5 px-4 py-3 text-xs leading-relaxed text-ikea-black">
-            {t("checkout.guestNote")}
-          </p>
-        ) : null}
 
         <div className="mt-8 grid gap-8 lg:grid-cols-[1fr_380px]">
           <div className="space-y-6">

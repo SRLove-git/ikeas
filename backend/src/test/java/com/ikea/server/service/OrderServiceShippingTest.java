@@ -7,6 +7,7 @@ import static org.mockito.Mockito.when;
 
 import com.ikea.server.data.CartStore;
 import com.ikea.server.data.DataStore;
+import com.ikea.server.dto.marketing.MarketingDtos.RedemptionResponse;
 import com.ikea.server.dto.order.CreateOrderItemRequest;
 import com.ikea.server.dto.order.CreateOrderRequest;
 import com.ikea.server.entity.Order;
@@ -29,6 +30,7 @@ class OrderServiceShippingTest {
     OrderItemMapper orderItemMapper = mock(OrderItemMapper.class);
     DataStore dataStore = mock(DataStore.class);
     OmsChannel omsChannel = mock(OmsChannel.class);
+    MarketingService marketingService = mock(MarketingService.class);
     ShippingService shippingService =
         new ShippingService("J&T Express Singapore", "EXPRESS", "4.90");
     Product product =
@@ -46,6 +48,10 @@ class OrderServiceShippingTest {
             List.of());
     when(dataStore.findProductById("P1")).thenReturn(product);
     when(omsChannel.isEnabled()).thenReturn(false);
+    when(marketingService.applyOrder(any(), any(), any(), any(), any(), any()))
+        .thenReturn(
+            new RedemptionResponse(
+                BigDecimal.ZERO, BigDecimal.ZERO, BigDecimal.ZERO, BigDecimal.ZERO));
     when(orderMapper.insert(any(Order.class)))
         .thenAnswer(
             invocation -> {
@@ -65,7 +71,7 @@ class OrderServiceShippingTest {
             omsChannel,
             mock(OmsOrderSyncService.class),
             mock(OmsProductSyncService.class),
-            mock(MarketingService.class),
+            marketingService,
             mock(ExperienceVoucherService.class),
             shippingService);
     CreateOrderRequest request =
@@ -81,7 +87,7 @@ class OrderServiceShippingTest {
             null,
             null);
 
-    var response = service.create(null, request);
+    var response = service.create(1L, request);
 
     assertEquals(new BigDecimal("4.90"), response.deliveryFee());
     assertEquals(new BigDecimal("14.90"), response.totalAmount());

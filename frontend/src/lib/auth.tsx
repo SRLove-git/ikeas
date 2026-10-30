@@ -10,6 +10,7 @@ import {
   type AuthResponse,
   type User,
 } from "@/lib/api"
+import { clearLocalCart, readLocalCart } from "@/lib/local-cart"
 
 export interface LoginInput {
   account: string
@@ -35,6 +36,18 @@ interface AuthContextValue {
 }
 
 const AuthContext = createContext<AuthContextValue | null>(null)
+
+async function mergeLocalCartIntoAccount(): Promise<void> {
+  const items = readLocalCart()
+  if (items.length === 0) return
+  await apiJson("/cart/merge", {
+    method: "POST",
+    body: JSON.stringify({
+      items: items.map((item) => ({ productId: item.productId, quantity: item.quantity })),
+    }),
+  })
+  clearLocalCart()
+}
 
 export function AuthProvider({ children }: { children: React.ReactNode }) {
   const [user, setUser] = useState<User | null>(null)
@@ -63,8 +76,13 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     }
   }, [])
 
-  const startSession = useCallback((response: AuthResponse) => {
+  const startSession = useCallback(async (response: AuthResponse) => {
     setAuthTokens(response.token, response.refreshToken ?? null)
+    try {
+      await mergeLocalCartIntoAccount()
+    } catch {
+      // 登录仍然成功；保留本地购物袋，避免合并失败时丢失商品。
+    }
     setUser(response.user)
     return response.user
   }, [])

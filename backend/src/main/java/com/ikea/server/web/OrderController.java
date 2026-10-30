@@ -27,8 +27,7 @@ public class OrderController {
   @PostMapping
   public OrderResponse create(
       HttpServletRequest request, @Valid @RequestBody CreateOrderRequest body) {
-    // 游客结账：未登录时允许匿名下单（user_id 为空），订单信息以提交的联系方式为准
-    return orderService.create(optionalUserId(request), body);
+    return orderService.create(userId(request), body);
   }
 
   @GetMapping

@@ -13,6 +13,7 @@ import com.ikea.server.mapper.CartItemMapper;
 import java.time.LocalDateTime;
 import java.time.ZoneOffset;
 import java.util.List;
+import java.util.Map;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.ArgumentCaptor;
@@ -66,6 +67,18 @@ class CartStoreTest {
     cartStore.clear("1");
 
     verify(cartItemMapper).delete(any(Wrapper.class));
+  }
+
+  @Test
+  void mergeMaxShouldBeIdempotentAcrossRepeatedLoginSyncs() {
+    CartItemEntity existing = item("P1", 5, "2026-08-15T00:00:00");
+    when(cartItemMapper.selectList(any(Wrapper.class))).thenReturn(List.of(existing));
+    when(cartItemMapper.selectOne(any(Wrapper.class))).thenReturn(existing);
+
+    cartStore.mergeMax("1", Map.of("P1", 7));
+    cartStore.mergeMax("1", Map.of("P1", 7));
+
+    assertEquals(7, existing.getQuantity());
   }
 
   @Test

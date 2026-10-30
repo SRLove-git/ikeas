@@ -82,6 +82,7 @@ public class OrderService {
 
   @Transactional
   public OrderResponse create(Long userId, CreateOrderRequest request) {
+    requireUser(userId);
     List<CreateOrderItemRequest> requestedItems = resolveItems(userId, request);
     List<OrderItem> orderItems = buildOrderItems(requestedItems);
 
@@ -113,18 +114,14 @@ public class OrderService {
     // 配送费由服务器的 J&T 报价配置决定，绝不信任客户端传入金额。
     BigDecimal deliveryFee = shippingService.standardDeliveryFee();
     String orderNo = generateOrderNo();
-    // 游客下单不参与积分/余额/优惠券抵扣（无账号上下文）
     RedemptionResponse redemption =
-        userId == null
-            ? new RedemptionResponse(
-                BigDecimal.ZERO, BigDecimal.ZERO, BigDecimal.ZERO, BigDecimal.ZERO)
-            : marketingService.applyOrder(
-                userId,
-                request.couponCode(),
-                request.usePoints(),
-                request.useBalance(),
-                subtotal,
-                orderNo);
+        marketingService.applyOrder(
+            userId,
+            request.couponCode(),
+            request.usePoints(),
+            request.useBalance(),
+            subtotal,
+            orderNo);
     BigDecimal discountAmount = redemption.totalDiscount();
     BigDecimal totalAmount = subtotal.add(deliveryFee).subtract(discountAmount);
     if (totalAmount.signum() < 0) {
@@ -381,8 +378,8 @@ public class OrderService {
   }
 
   /**
-   * 申请退款：已支付、待收货或已完成订单 → 退款中。当前版本先在本地记录状态，
-   * 供客服/管理后台跟进；OMS 开放 API 尚未提供退款联动接口，后续接入时再补齐。
+   * 申请退款：已支付、待收货或已完成订单 → 退款审核中。当前版本只创建人工审核状态，
+   * 不表示 YeahPay/Stripe 已退回资金；完成支付渠道退款后再由客服/管理后台推进结果。
    */
   @Transactional
   public OrderResponse refund(Long userId, String orderNo) {

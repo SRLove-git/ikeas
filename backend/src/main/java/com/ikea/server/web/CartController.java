@@ -9,6 +9,7 @@ import com.ikea.server.model.Product;
 import jakarta.servlet.http.HttpServletRequest;
 import java.math.BigDecimal;
 import java.util.ArrayList;
+import java.util.LinkedHashMap;
 import java.util.List;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -35,6 +36,8 @@ public class CartController {
 
   public record UpdateQuantityRequest(Integer quantity) {}
 
+  public record MergeCartRequest(List<AddItemRequest> items) {}
+
   @GetMapping
   public Cart cart(HttpServletRequest request) {
     return buildCart(userId(request));
@@ -44,6 +47,21 @@ public class CartController {
   public Cart addItem(HttpServletRequest request, @RequestBody AddItemRequest body) {
     Product product = requireProduct(body.productId());
     cartStore.add(userId(request), product.id(), body.quantity() == null ? 1 : body.quantity());
+    return buildCart(userId(request));
+  }
+
+  @PostMapping("/merge")
+  public Cart merge(HttpServletRequest request, @RequestBody MergeCartRequest body) {
+    if (body == null || body.items() == null || body.items().size() > 100) {
+      throw new IllegalArgumentException("购物袋合并请求无效");
+    }
+    LinkedHashMap<String, Integer> quantities = new LinkedHashMap<>();
+    for (AddItemRequest item : body.items()) {
+      Product product = requireProduct(item.productId());
+      int quantity = item.quantity() == null ? 1 : item.quantity();
+      quantities.merge(product.id(), Math.max(1, Math.min(quantity, 99)), Math::max);
+    }
+    cartStore.mergeMax(userId(request), quantities);
     return buildCart(userId(request));
   }
 

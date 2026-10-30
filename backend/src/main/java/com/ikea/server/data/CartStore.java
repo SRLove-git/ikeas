@@ -99,6 +99,24 @@ public class CartStore {
     cartItemMapper.updateById(item);
   }
 
+  /**
+   * 将游客本地购物袋幂等合并到登录账户。相同商品取两端较大数量，重复请求不会累加。
+   */
+  @Transactional
+  public void mergeMax(String userId, Map<String, Integer> quantities) {
+    requireUserId(userId);
+    if (quantities == null || quantities.isEmpty()) {
+      return;
+    }
+    LinkedHashMap<String, CartEntry> existing = cartFor(userId);
+    for (Map.Entry<String, Integer> entry : quantities.entrySet()) {
+      int localQuantity = Math.max(1, Math.min(entry.getValue(), 99));
+      CartEntry current = existing.get(entry.getKey());
+      int mergedQuantity = current == null ? localQuantity : Math.max(current.quantity(), localQuantity);
+      setQuantity(userId, entry.getKey(), mergedQuantity);
+    }
+  }
+
   @Transactional
   public void remove(String userId, String productId) {
     Long parsedUserId = parseUserId(userId);

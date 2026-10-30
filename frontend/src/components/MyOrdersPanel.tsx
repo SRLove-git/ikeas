@@ -11,6 +11,7 @@ import {
   apiJson,
   type CreatePaymentResponse,
   type OrderFulfillmentView,
+  type PaymentOptions,
   type OrderResponse,
 } from "@/lib/api"
 import { API_BASE, getToken } from "@/lib/api"
@@ -25,49 +26,42 @@ const PAYMENT_METHODS: {
   label: string
   type: "card" | "wallet"
   badgeClassName: string
-  enabled: boolean
 }[] = [
   {
     id: "visa",
     label: "VISA",
     type: "card",
     badgeClassName: "text-[#1a1f71]",
-    enabled: true,
   },
   {
     id: "mastercard",
     label: "Mastercard",
     type: "card",
     badgeClassName: "text-[#eb001b]",
-    enabled: true,
   },
   {
     id: "amex",
     label: "AMERICAN EXPRESS",
     type: "card",
     badgeClassName: "text-[#006fcf]",
-    enabled: true,
   },
   {
     id: "unionpay",
     label: "UnionPay",
     type: "card",
     badgeClassName: "text-[#007b84]",
-    enabled: false,
   },
   {
     id: "applepay",
     label: "Apple Pay",
     type: "wallet",
     badgeClassName: "text-black",
-    enabled: true,
   },
   {
     id: "googlepay",
     label: "Google Pay",
     type: "wallet",
     badgeClassName: "text-[#4285f4]",
-    enabled: true,
   },
 ]
 
@@ -99,6 +93,8 @@ export function MyOrdersPanel() {
   const [paying, setPaying] = useState<string | null>(null)
   const [paymentOrderNo, setPaymentOrderNo] = useState<string | null>(null)
   const [paymentMethod, setPaymentMethod] = useState<PaymentMethodId>("visa")
+  const [paymentOptions, setPaymentOptions] = useState<PaymentOptions | null>(null)
+  const [confirmingOrderNo, setConfirmingOrderNo] = useState<string | null>(null)
   const [filterStatus, setFilterStatus] = useState(0)
   const [fulfillments, setFulfillments] = useState<Record<string, OrderFulfillmentView | null>>({})
   const [invoiceSubmitting, setInvoiceSubmitting] = useState<string | null>(null)
@@ -106,6 +102,9 @@ export function MyOrdersPanel() {
   const [afterSaleType, setAfterSaleType] = useState(1)
   const [afterSaleReason, setAfterSaleReason] = useState("")
   const [afterSaleSubmitting, setAfterSaleSubmitting] = useState(false)
+  const firstEnabledPaymentMethod = PAYMENT_METHODS.find((method) =>
+    paymentOptions?.enabledMethods.includes(method.id),
+  )
 
   const loadOrders = useCallback(async () => {
     setLoading(true)
@@ -144,6 +143,7 @@ export function MyOrdersPanel() {
     }
     if (payment === "success") {
       setNotice(t("orders.paymentConfirming"))
+      setConfirmingOrderNo(params.get("orderNo"))
       params.delete("payment")
       params.delete("orderNo")
     }
@@ -152,6 +152,66 @@ export function MyOrdersPanel() {
       window.history.replaceState({}, "", next)
     }
   }, [t])
+
+  useEffect(() => {
+    if (!ready || !user) return
+    let cancelled = false
+    apiJson<PaymentOptions>("/payment/options")
+      .then((options) => {
+        if (cancelled) return
+        setPaymentOptions(options)
+        const firstEnabled = PAYMENT_METHODS.find((method) =>
+          options.enabledMethods.includes(method.id),
+        )
+        if (firstEnabled) setPaymentMethod(firstEnabled.id)
+      })
+      .catch(() => {
+        if (!cancelled) setPaymentOptions(null)
+      })
+    return () => {
+      cancelled = true
+    }
+  }, [ready, user])
+
+  useEffect(() => {
+    if (!ready || !user || !confirmingOrderNo) return
+    let cancelled = false
+    let attempts = 0
+    let timer: ReturnType<typeof setTimeout> | null = null
+
+    const finish = (message: string) => {
+      if (timer) clearInterval(timer)
+      setConfirmingOrderNo(null)
+      setNotice(message)
+    }
+
+    const poll = async () => {
+      attempts += 1
+      try {
+        const data = await apiJson<OrderResponse[]>("/orders")
+        if (cancelled) return
+        setOrders(data)
+        const order = data.find((item) => item.orderNo === confirmingOrderNo)
+        if (order && [2, 3, 4, 6, 7].includes(order.status)) {
+          finish(t("orders.paymentConfirmed"))
+          return
+        }
+      } catch {
+        // 临时网络错误继续轮询，直到达到超时上限。
+      }
+      if (!cancelled && attempts >= 15) {
+        finish(t("orders.paymentConfirmationTimeout"))
+        return
+      }
+      if (!cancelled) timer = setTimeout(() => void poll(), 2000)
+    }
+
+    void poll()
+    return () => {
+      cancelled = true
+      if (timer) clearInterval(timer)
+    }
+  }, [ready, user, confirmingOrderNo, t])
 
   useEffect(() => {
     if (ready && !user) {
@@ -176,7 +236,7 @@ export function MyOrdersPanel() {
     }
   }
 
-  const payOrder = async (orderNo: string, method: PaymentMethodId) => {
+  const payOrder = async (orderNo: string, method: PaymentMethodId | "card") => {
     setPaying(orderNo)
     setError(null)
     try {
@@ -186,6 +246,12 @@ export function MyOrdersPanel() {
       )
       if (payment.mockOnly) {
         setError(t("orders.paymentUnavailable"))
+        return
+      }
+      if (payment.completed) {
+        setPaymentOrderNo(null)
+        setNotice(t("orders.paymentConfirmed"))
+        await loadOrders()
         return
       }
       if (payment.payUrl) {
@@ -436,7 +502,9 @@ export function MyOrdersPanel() {
                         count: order.items.reduce((sum, item) => sum + item.quantity, 0),
                       })}
                       <span className="ml-1 font-bold text-ikea-black">
-                        {t("orders.paid", { amount: formatPrice(order.totalAmount) })}
+                        {t(order.status === 1 ? "orders.amountDue" : "orders.paid", {
+                          amount: formatPrice(order.totalAmount),
+                        })}
                       </span>
                     </div>
                     <div className="flex flex-wrap items-center gap-2">
@@ -444,9 +512,18 @@ export function MyOrdersPanel() {
                         <>
                           <button
                             type="button"
-                            disabled={paying === order.orderNo || cancelling === order.orderNo}
+                            disabled={
+                              paying === order.orderNo ||
+                              cancelling === order.orderNo ||
+                              (order.totalAmount !== 0 && !firstEnabledPaymentMethod)
+                            }
                             onClick={() => {
-                              setPaymentMethod("visa")
+                              if (order.totalAmount === 0) {
+                                void payOrder(order.orderNo, "card")
+                                return
+                              }
+                              if (!firstEnabledPaymentMethod) return
+                              setPaymentMethod(firstEnabledPaymentMethod.id)
                               setPaymentOrderNo(order.orderNo)
                             }}
                             className="rounded bg-ikea-blue px-3 py-1 text-xs font-bold text-white hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-50"
@@ -580,12 +657,13 @@ export function MyOrdersPanel() {
             <div className="grid grid-cols-2 gap-3 px-5 py-5 sm:grid-cols-3 sm:px-6">
               {PAYMENT_METHODS.map((method) => {
                 const selected = paymentMethod === method.id
+                const enabled = paymentOptions?.enabledMethods.includes(method.id) ?? false
                 return (
                   <button
                     key={method.id}
                     type="button"
                     aria-pressed={selected}
-                    disabled={paying === paymentOrderNo || !method.enabled}
+                    disabled={paying === paymentOrderNo || !enabled}
                     onClick={() => setPaymentMethod(method.id)}
                     className={`min-h-24 rounded-xl border-2 p-3 text-left transition-all disabled:opacity-50 ${
                       selected
@@ -599,7 +677,7 @@ export function MyOrdersPanel() {
                       {method.label}
                     </span>
                     <span className="mt-3 block text-xs text-ikea-muted">
-                      {!method.enabled
+                      {!enabled
                         ? t("orders.paymentMethodUnavailable")
                         : method.type === "card"
                           ? t("orders.paymentMethodCard")
@@ -609,6 +687,11 @@ export function MyOrdersPanel() {
                 )
               })}
             </div>
+            {!firstEnabledPaymentMethod ? (
+              <p className="px-5 pb-5 text-sm text-red-600 sm:px-6">
+                {t("orders.paymentUnavailable")}
+              </p>
+            ) : null}
 
             <div className="border-t border-ikea-gray-200 px-5 py-4 sm:px-6">
               {error ? (
@@ -622,7 +705,10 @@ export function MyOrdersPanel() {
               </div>
               <button
                 type="button"
-                disabled={paying === paymentOrderNo}
+                disabled={
+                  paying === paymentOrderNo ||
+                  !(paymentOptions?.enabledMethods.includes(paymentMethod) ?? false)
+                }
                 onClick={() => void payOrder(paymentOrderNo, paymentMethod)}
                 className="h-12 w-full rounded-full bg-ikea-blue px-6 text-sm font-bold text-white transition-opacity hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-50"
               >

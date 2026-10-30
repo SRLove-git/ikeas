@@ -110,9 +110,12 @@ IKEA_YEAHPAY_API_KEY=...
 IKEA_YEAHPAY_MERCHANT_ID=...
 IKEA_YEAHPAY_CALLBACK_URL=https://medical-sg.com/zh/profile/my-orders?payment=success
 IKEA_YEAHPAY_NOTIFY_URL=https://medical-sg.com/api/v1/payment/yeahpay/webhook
+IKEA_YEAHPAY_ENABLED_METHODS=visa,mastercard,amex
 ```
 
 以上密钥只允许注入服务器 Secret/环境变量，不得写入仓库或前端构建产物。支付页回跳仅用于页面提示，订单只能由验签后的服务端回调推进。
+
+`IKEA_YEAHPAY_ENABLED_METHODS` 必须只填写商户后台已开通的方式。可选值为 `visa`、`mastercard`、`amex`、`unionpay`、`applepay`、`googlepay`；未列出的方式不会在前台开放。
 
 `IKEA_YEAHPAY_PC_CHECKOUT_ENABLED` 默认关闭，桌面端和移动端均使用 H5 收银台；旧前端发送的 `checkout=pc` 请求也会转为 H5，无需补齐 PC 专用消费者信息。确认 PC 收银台可用后，可显式设为 `true` 重新接受 PC 收银台请求。
 
@@ -127,6 +130,8 @@ IKEA_STRIPE_RETURN_URL_BASE=https://medical-sg.com
 ```
 
 OMS 真实渠道通过各自服务环境变量注入：`OMS_PAYMENT_WECHAT_*`、`OMS_PAYMENT_ALIPAY_*`、`OMS_INTEGRATION_NOTIFICATION_*`、`OMS_INTEGRATION_LOGISTICS_*`、`OMS_INTEGRATION_PLATFORM_*`。
+
+当前商城退款入口提交的是人工审核申请，并不会自动调用 YeahPay/Stripe 退款。完成渠道退款 API 对接和回调确认前，不得将“退款审核中”视为资金已退回。
 
 ## 商品目录变更
 

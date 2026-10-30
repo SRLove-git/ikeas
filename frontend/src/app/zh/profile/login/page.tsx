@@ -161,7 +161,13 @@ export default function LoginPage() {
 
       clearReferralCode()
       setSubmitted(true)
-      setTimeout(() => router.replace("/zh/profile/"), 500)
+      const requestedPath = window.sessionStorage.getItem("buzud_auth_return_to")
+      window.sessionStorage.removeItem("buzud_auth_return_to")
+      const target =
+        requestedPath?.startsWith("/") && !requestedPath.startsWith("//")
+          ? requestedPath
+          : "/zh/profile/"
+      setTimeout(() => router.replace(target), 500)
     } catch (ex) {
       setError(
         ex instanceof Error
@@ -391,7 +397,10 @@ export default function LoginPage() {
                 />
                 <span>
                   {t("login.agreePrefix")}
-                  <Link href="/zh/privacy-policy/" className="mx-0.5 text-ikea-blue hover:underline">
+                  <Link
+                    href="/zh/privacy-policy/"
+                    className="mx-0.5 text-ikea-blue hover:underline"
+                  >
                     {t("login.privacyPolicy")}
                   </Link>
                   {t("login.and")}

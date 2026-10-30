@@ -89,7 +89,7 @@ public class SecurityConfig {
                         "/api/v1/support-tickets/**")
                     .authenticated()
                     .requestMatchers(HttpMethod.POST, "/api/v1/orders")
-                    .permitAll()
+                    .authenticated()
                     .requestMatchers(HttpMethod.POST, "/api/v1/reviews")
                     .authenticated()
                     .requestMatchers("/api/v1/orders", "/api/v1/orders/**")

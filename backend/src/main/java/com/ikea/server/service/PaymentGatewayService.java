@@ -51,6 +51,7 @@ public class PaymentGatewayService {
   private static final Logger log = LoggerFactory.getLogger(PaymentGatewayService.class);
   private static final ObjectMapper MAPPER = new ObjectMapper();
   private static final int WEBHOOK_REPLAY_WINDOW_SECONDS = 300;
+  private static final List<String> STRIPE_CARD_METHODS = List.of("visa", "mastercard", "amex");
   private static final Pattern EMAIL_PATTERN =
       Pattern.compile("^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}$");
   private static final Pattern SINGAPORE_POSTAL_CODE = Pattern.compile("(?<!\\d)(\\d{6})(?!\\d)");
@@ -116,7 +117,18 @@ public class PaymentGatewayService {
   }
 
   public PaymentOptions options() {
-    return new PaymentOptions(mockOnly, stripePublicKey);
+    if (mockOnly) {
+      return new PaymentOptions(true, stripePublicKey, "mock", List.of());
+    }
+    if (yeahPayClient.isConfigured()) {
+      return new PaymentOptions(
+          false, stripePublicKey, "yeahpay", yeahPayProperties.enabledPaymentMethods());
+    }
+    if (stripeConfigured()) {
+      return new PaymentOptions(
+          false, stripePublicKey, "stripe", STRIPE_CARD_METHODS);
+    }
+    return new PaymentOptions(false, stripePublicKey, "unavailable", List.of());
   }
 
   public CreatePaymentResponse createPayment(Long userId, String orderNo, String channel) {
@@ -126,11 +138,23 @@ public class PaymentGatewayService {
   public CreatePaymentResponse createPayment(
       Long userId, String orderNo, String channel, String checkoutMode) {
     Order order = requirePendingOrder(userId, orderNo);
+    String currency = hasText(order.getCurrency()) ? normalizeCurrency(order.getCurrency()) : "SGD";
+    if (order.getTotalAmount() == null || order.getTotalAmount().signum() < 0) {
+      throw new IllegalArgumentException("订单应付金额无效");
+    }
+    if (order.getTotalAmount().signum() == 0) {
+      orderService.markPaidByGateway(
+          order.getOrderNo(), "internal", "ZERO-" + order.getOrderNo(), BigDecimal.ZERO, currency);
+      return new CreatePaymentResponse(false, "internal", null, true);
+    }
     if (mockOnly) {
-      return new CreatePaymentResponse(true, "mock", null);
+      return new CreatePaymentResponse(true, "mock", null, false);
     }
 
-    String normalized = channel == null || channel.isBlank() ? "card" : channel.toLowerCase();
+    String normalized =
+        channel == null || channel.isBlank()
+            ? "card"
+            : channel.toLowerCase(java.util.Locale.ROOT);
     if (!Set.of(
             "card", "visa", "mastercard", "amex", "unionpay", "applepay", "googlepay",
             "yeahpay", "stripe")
@@ -141,40 +165,67 @@ public class PaymentGatewayService {
     boolean explicitlyYeahPay = "yeahpay".equals(normalized);
     String yeahPayMethod = YEAHPAY_PAYMENT_METHODS.get(normalized);
     if (!explicitlyStripe && yeahPayClient.isConfigured()) {
-      String currency = hasText(order.getCurrency()) ? normalizeCurrency(order.getCurrency()) : "SGD";
+      List<String> enabledMethods = yeahPayProperties.enabledPaymentMethods();
+      String yeahPayChannel = normalized;
+      if (yeahPayMethod == null) {
+        yeahPayChannel = enabledMethods.get(0);
+        yeahPayMethod = YEAHPAY_PAYMENT_METHODS.get(yeahPayChannel);
+      }
+      if (!enabledMethods.contains(yeahPayChannel)) {
+        throw new IllegalArgumentException("该支付方式尚未为当前商户启用");
+      }
       long amountMinor = toMinorUnit(order.getTotalAmount(), currency);
       String description = "BUZUD Order " + order.getOrderNo();
-      String checkoutUrl;
-      if ("pc".equalsIgnoreCase(checkoutMode) && yeahPayProperties.isPcCheckoutEnabled()) {
-        checkoutUrl =
-            yeahPayClient.createPcHostedCheckout(
-                order.getOrderNo(),
-                currency,
-                amountMinor,
-                description,
-                yeahPayMethod,
-                pcCheckoutDetails(userId, order));
-      } else if (checkoutMode == null
-          || checkoutMode.isBlank()
-          || "h5".equalsIgnoreCase(checkoutMode)
-          || "pc".equalsIgnoreCase(checkoutMode)) {
-        checkoutUrl =
-            yeahPayClient.createHostedCheckout(
-                order.getOrderNo(), currency, amountMinor, description, yeahPayMethod);
-      } else {
-        throw new IllegalArgumentException("不支持的收银台类型");
+      reservePaymentAttempt(order.getOrderNo(), "yeahpay", yeahPayChannel);
+      try {
+        String checkoutUrl;
+        if ("pc".equalsIgnoreCase(checkoutMode) && yeahPayProperties.isPcCheckoutEnabled()) {
+          checkoutUrl =
+              yeahPayClient.createPcHostedCheckout(
+                  order.getOrderNo(),
+                  currency,
+                  amountMinor,
+                  description,
+                  yeahPayMethod,
+                  pcCheckoutDetails(userId, order));
+        } else if (checkoutMode == null
+            || checkoutMode.isBlank()
+            || "h5".equalsIgnoreCase(checkoutMode)
+            || "pc".equalsIgnoreCase(checkoutMode)) {
+          checkoutUrl =
+              yeahPayClient.createHostedCheckout(
+                  order.getOrderNo(), currency, amountMinor, description, yeahPayMethod);
+        } else {
+          throw new IllegalArgumentException("不支持的收银台类型");
+        }
+        return new CreatePaymentResponse(false, "yeahpay", checkoutUrl, false);
+      } catch (RuntimeException ex) {
+        paymentPersistenceService.markPaymentAttemptFailed(order.getOrderNo(), "yeahpay");
+        throw ex;
       }
-      return new CreatePaymentResponse(false, "yeahpay", checkoutUrl);
     }
-    if (explicitlyYeahPay || yeahPayMethod != null) {
+    if (explicitlyYeahPay
+        || (yeahPayMethod != null && !STRIPE_CARD_METHODS.contains(normalized))) {
       throw new UnauthorizedException("YeahPay 尚未启用或凭据配置不完整");
     }
     if (!stripeConfigured()) {
       throw new UnauthorizedException("YeahPay 与 Stripe 均未完成服务器凭据配置");
     }
 
-    String sessionUrl = createCheckoutSession(order);
-    return new CreatePaymentResponse(false, "stripe", sessionUrl);
+    reservePaymentAttempt(order.getOrderNo(), "stripe", normalized);
+    try {
+      String sessionUrl = createCheckoutSession(order);
+      return new CreatePaymentResponse(false, "stripe", sessionUrl, false);
+    } catch (RuntimeException ex) {
+      paymentPersistenceService.markPaymentAttemptFailed(order.getOrderNo(), "stripe");
+      throw ex;
+    }
+  }
+
+  private void reservePaymentAttempt(String orderNo, String provider, String channel) {
+    if (!paymentPersistenceService.reservePaymentAttempt(orderNo, provider, channel)) {
+      throw new IllegalArgumentException("该订单已有有效支付会话，请勿重复发起；15 分钟后可重试");
+    }
   }
 
   private PcCheckoutDetails pcCheckoutDetails(Long userId, Order order) {
@@ -219,6 +270,7 @@ public class PaymentGatewayService {
     return null;
   }
 
+  @Transactional
   public String handleStripeWebhook(String payload, String signatureHeader) {
     if (!stripeConfigured()) {
       throw new UnauthorizedException("Stripe webhook 未配置");
@@ -226,6 +278,7 @@ public class PaymentGatewayService {
     verifySignature(payload, signatureHeader);
     try {
       JsonNode root = MAPPER.readTree(payload);
+      String eventId = root.path("id").asText(null);
       String type = root.path("type").asText();
       if (!"checkout.session.completed".equals(type)) {
         return "ignored";
@@ -234,11 +287,25 @@ public class PaymentGatewayService {
       String orderNo = session.path("client_reference_id").asText(null);
       String paymentIntent = session.path("payment_intent").asText(null);
       String currency = session.path("currency").asText(null);
+      String paymentStatus = session.path("payment_status").asText(null);
       long amountMinor = session.path("amount_total").asLong(0);
-      if (!hasText(orderNo) || !hasText(paymentIntent) || !hasText(currency)) {
+      if (!"paid".equals(paymentStatus)) {
+        return "ignored";
+      }
+      if (!hasText(eventId)
+          || !hasText(orderNo)
+          || !hasText(paymentIntent)
+          || !hasText(currency)) {
         log.warn("Stripe webhook 缺少必要字段 orderNo={} paymentIntent={}", orderNo, paymentIntent);
         return "ignored";
       }
+      if (!paymentPersistenceService.recordCallbackIfAbsent(
+          "stripe", eventId, orderNo, paymentIntent)) {
+        return "ok";
+      }
+      paymentPersistenceService.recordSuccessfulTransaction(
+          "stripe", orderNo, paymentIntent, amountMinor, currency);
+      paymentPersistenceService.markPaymentAttemptSucceeded(orderNo, "stripe");
       BigDecimal amount = fromMinorUnit(amountMinor, currency);
       orderService.markPaidByGateway(orderNo, "stripe", paymentIntent, amount, currency);
       return "ok";
@@ -300,11 +367,12 @@ public class PaymentGatewayService {
           ? amountNode.longValue()
           : Long.parseLong(amountNode.asText());
       if (!paymentPersistenceService.recordCallbackIfAbsent(
-          "yeahpay", timestamp, nonce, orderNo, transactionNo)) {
+          "yeahpay", timestamp + "\n" + nonce, orderNo, transactionNo)) {
         return "success";
       }
       paymentPersistenceService.recordSuccessfulTransaction(
           "yeahpay", orderNo, transactionNo, amountMinor, currency);
+      paymentPersistenceService.markPaymentAttemptSucceeded(orderNo, "yeahpay");
       orderService.markPaidByGateway(
           orderNo,
           "yeahpay",
@@ -394,7 +462,7 @@ public class PaymentGatewayService {
         String.valueOf(toMinorUnit(order.getTotalAmount(), order.getCurrency())));
     params.put("line_items[0][price_data][product_data][name]", "BUZUD Order " + order.getOrderNo());
 
-    JsonNode body = post("/v1/checkout/sessions", params);
+    JsonNode body = post("/v1/checkout/sessions", params, "checkout-" + order.getOrderNo());
     String url = body.path("url").asText(null);
     if (!hasText(url)) {
       throw new IllegalStateException("Stripe 未返回结算页地址");
@@ -406,11 +474,12 @@ public class PaymentGatewayService {
     return hasText(stripeSecretKey) && hasText(stripeWebhookSecret);
   }
 
-  private JsonNode post(String path, Map<String, String> params) {
+  private JsonNode post(String path, Map<String, String> params, String idempotencyKey) {
     try {
       HttpRequest request = HttpRequest.newBuilder()
           .uri(URI.create(stripeApiBaseUrl + path))
           .header("Authorization", "Bearer " + stripeSecretKey)
+          .header("Idempotency-Key", idempotencyKey)
           .header("Content-Type", "application/x-www-form-urlencoded")
           .timeout(Duration.ofSeconds(20))
           .POST(HttpRequest.BodyPublishers.ofString(encodeForm(params), StandardCharsets.UTF_8))

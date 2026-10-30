@@ -96,6 +96,8 @@ export interface OrderResponse {
 export interface PaymentOptions {
   mockOnly: boolean
   stripePublicKey: string
+  provider: "mock" | "yeahpay" | "stripe" | "unavailable"
+  enabledMethods: string[]
 }
 
 export interface ShippingQuote {
@@ -110,6 +112,7 @@ export interface CreatePaymentResponse {
   mockOnly: boolean
   channel: string
   payUrl: string | null
+  completed: boolean
 }
 
 export interface LogisticsView {
