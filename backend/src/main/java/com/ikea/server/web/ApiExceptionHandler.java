@@ -1,5 +1,7 @@
 package com.ikea.server.web;
 
+import com.ikea.server.integration.payment.yeahpay.YeahPayClient.RejectedRequestException;
+import com.ikea.server.service.AuthException;
 import jakarta.servlet.http.HttpServletRequest;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,7 +14,6 @@ import org.springframework.web.servlet.resource.NoResourceFoundException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.method.annotation.MethodArgumentTypeMismatchException;
-import com.ikea.server.service.AuthException;
 
 @RestControllerAdvice
 public class ApiExceptionHandler {
@@ -67,6 +68,21 @@ public class ApiExceptionHandler {
       DataIntegrityViolationException ex, HttpServletRequest request) {
     log.warn("Data integrity violation for {}", request.getRequestURI(), ex);
     return build(HttpStatus.CONFLICT, "账号已存在或数据冲突", request);
+  }
+
+  @ExceptionHandler(RejectedRequestException.class)
+  public ResponseEntity<ApiError> handlePaymentProviderRejected(
+      RejectedRequestException ex, HttpServletRequest request) {
+    // Keep the provider code/trace in server logs for support, but do not leak
+    // the provider response or credentials to the browser.
+    log.warn(
+        "Payment provider rejected request for {}: {}",
+        request.getRequestURI(),
+        ex.getMessage());
+    return build(
+        HttpStatus.BAD_GATEWAY,
+        "支付渠道暂不可用，请选择其他支付方式或稍后再试",
+        request);
   }
 
   @ExceptionHandler({IllegalArgumentException.class, MethodArgumentTypeMismatchException.class})

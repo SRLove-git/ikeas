@@ -218,6 +218,10 @@ public class YeahPayClient {
     body.put("amount", String.valueOf(amountMinor));
     body.put("currency", currency);
     body.put("jspayFlag", jsPayFlag);
+    // YeahPay's Singapore unified-order sample includes the region even for
+    // NATIVE QR payments. Without it, the provider cannot consistently route
+    // WeChat Pay and Alipay for a Singapore MID.
+    body.put("region", "SG");
     body.put("body", description);
     body.put("notifyUrl", properties.getNotifyUrl());
     if ("MWEB".equals(jsPayFlag)) {

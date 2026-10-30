@@ -211,6 +211,7 @@ class YeahPayClientTest {
     assertEquals("D1234567890123456789012345678901", request.path("thirdOrderId").asText());
     assertEquals("1234", request.path("amount").asText());
     assertEquals("NATIVE", request.path("jspayFlag").asText());
+    assertEquals("SG", request.path("region").asText());
     assertEquals(properties.getNotifyUrl(), request.path("notifyUrl").asText());
     assertEquals(
         YeahPaySigner.sign(
