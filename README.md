@@ -104,7 +104,7 @@ node scripts/export-server-data.mjs
 ```bash
 IKEA_PAYMENT_MOCK_ONLY=false
 IKEA_YEAHPAY_ENABLED=true
-IKEA_YEAHPAY_PC_CHECKOUT_ENABLED=true
+IKEA_YEAHPAY_PC_CHECKOUT_ENABLED=false
 IKEA_YEAHPAY_APP_ID=...
 IKEA_YEAHPAY_API_KEY=...
 IKEA_YEAHPAY_MERCHANT_ID=...
@@ -119,7 +119,7 @@ IKEA_YEAHPAY_ENABLED_METHODS=paynow,wechatpay,visa,mastercard,amex
 
 `IKEA_YEAHPAY_ENABLED_METHODS` 必须只填写商户后台已开通的方式。可选值为 `paynow`、`wechatpay`、`alipay`、`visa`、`mastercard`、`amex`、`unionpay`、`applepay`、`googlepay`；未列出的方式不会在前台开放。
 
-`IKEA_YEAHPAY_PC_CHECKOUT_ENABLED` 默认关闭；经商户能力验证后可设为 `true`。前端在桌面浏览器选择微信支付时发送 `checkout=pc`，打开可供手机微信扫码的 PC 收银台；移动浏览器仍使用 H5 收银台。开关为 `false` 时，后端会安全回退到 H5。
+`IKEA_YEAHPAY_PC_CHECKOUT_ENABLED` 默认关闭，仅用于经单独验证的 PC 卡收银台。桌面浏览器选择微信支付时，商城会将已校验的 YeahPay 微信 H5 收银台地址在本地渲染为二维码，供手机微信扫码；移动浏览器仍直接打开 H5 收银台。
 
 如仍需使用 Stripe 兼容通道：
 

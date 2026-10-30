@@ -45,7 +45,7 @@ function isMobileBrowser(): boolean {
 
 function checkoutModeFor(method: PaymentMethodId | "card", flow: WalletFlow): string {
   if (DIRECT_WALLET_METHODS.includes(method as PaymentMethodId)) return flow
-  // Desktop WeChat must use YeahPay's PC checkout so that it renders a QR code.
+  // Ask the backend for a desktop presentation; it returns the validated H5 URL as a QR code.
   if (method === "wechatpay" && !isMobileBrowser()) return "pc"
   return "h5"
 }

@@ -292,10 +292,8 @@ class PaymentGatewayServiceTest {
     return stripeHttpClient;
   }
 
-  @ParameterizedTest
-  @CsvSource({"visa,VISA", "wechatpay,WXZF"})
-  void createPaymentShouldUsePcCheckoutWithConsumerAndDeliveryDetails(
-      String channel, String yeahPayCode) {
+  @Test
+  void createPaymentShouldUsePcCheckoutWithConsumerAndDeliveryDetails() {
     properties.setPcCheckoutEnabled(true);
     Order order = new Order();
     order.setOrderNo("ORD-PC-1001");
@@ -316,7 +314,7 @@ class PaymentGatewayServiceTest {
         .thenReturn("https://payment.yeahpay.net/checkout/pc-session");
 
     CreatePaymentResponse result =
-        service.createPayment(42L, "ORD-PC-1001", channel, "pc");
+        service.createPayment(42L, "ORD-PC-1001", "visa", "pc");
 
     assertEquals("yeahpay", result.channel());
     verify(yeahPayClient)
@@ -325,7 +323,7 @@ class PaymentGatewayServiceTest {
             "SGD",
             1234L,
             "BUZUD Order ORD-PC-1001",
-            yeahPayCode,
+            "VISA",
             new PcCheckoutDetails(
                 "42",
                 "Jamie Tan",
@@ -333,6 +331,33 @@ class PaymentGatewayServiceTest {
                 "10 Anson Road, Singapore 079903",
                 "079903"));
     verify(yeahPayClient, never()).createHostedCheckout(any(), any(), anyLong(), any(), any());
+  }
+
+  @Test
+  void desktopWechatShouldRenderHostedH5CheckoutAsLocalQr() {
+    properties.setPcCheckoutEnabled(true);
+    Order order = new Order();
+    order.setOrderNo("ORD-PC-WECHAT");
+    order.setUserId(42L);
+    order.setStatus(OrderStatus.PENDING_PAYMENT.code());
+    order.setCurrency("SGD");
+    order.setTotalAmount(new BigDecimal("12.34"));
+    when(orderMapper.selectOne(any(Wrapper.class))).thenReturn(order);
+    when(yeahPayClient.isConfigured()).thenReturn(true);
+    when(yeahPayClient.createHostedCheckout(any(), any(), eq(1234L), any(), eq("WXZF")))
+        .thenReturn("https://payment.yeahpay.net/checkout/wechat-h5");
+
+    CreatePaymentResponse result =
+        service.createPayment(42L, "ORD-PC-WECHAT", "wechatpay", "pc");
+
+    assertEquals("wechatpay", result.channel());
+    assertNull(result.payUrl());
+    assertEquals("https://payment.yeahpay.net/checkout/wechat-h5", result.qrCode());
+    verify(paymentPersistenceService).savePaymentPresentation(
+        eq("ORD-PC-WECHAT"), eq("yeahpay"), eq(result.qrCode()), eq("qr"), any());
+    verify(yeahPayClient, never())
+        .createPcHostedCheckout(any(), any(), anyLong(), any(), any(), any());
+    verifyNoInteractions(userService);
   }
 
   @ParameterizedTest

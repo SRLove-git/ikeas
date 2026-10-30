@@ -224,7 +224,10 @@ public class PaymentGatewayService {
       boolean directWallet = YEAHPAY_DIRECT_WALLET_CHANNELS.contains(yeahPayChannel);
       boolean directOnline = directWallet && "online".equalsIgnoreCase(checkoutMode);
       String directPresentation = directOnline ? "redirect" : "qr";
-      boolean usePcCheckout = !directWallet && "pc".equalsIgnoreCase(checkoutMode)
+      boolean desktopWechatQr = "wechatpay".equals(yeahPayChannel)
+          && "pc".equalsIgnoreCase(checkoutMode);
+      boolean usePcCheckout = !directWallet && !desktopWechatQr
+          && "pc".equalsIgnoreCase(checkoutMode)
           && yeahPayProperties.isPcCheckoutEnabled();
       // 本地校验失败未发出渠道请求，不应留下无法确认的支付会话。
       PcCheckoutDetails pcDetails = usePcCheckout ? pcCheckoutDetails(userId, order) : null;
@@ -295,6 +298,14 @@ public class PaymentGatewayService {
           checkoutUrl =
               yeahPayClient.createHostedCheckout(
                   order.getOrderNo(), currency, amountMinor, description, yeahPayMethod);
+        }
+        if (desktopWechatQr) {
+          // YeahPay's PC page can reject otherwise valid WXZF sessions. Render the validated H5
+          // checkout URL as a QR code locally so desktop users can open it inside mobile WeChat.
+          paymentPersistenceService.savePaymentPresentation(
+              orderNo, "yeahpay", checkoutUrl, "qr", reserved.createdAt());
+          return new CreatePaymentResponse(
+              false, yeahPayChannel, null, checkoutUrl, false);
         }
         paymentPersistenceService.saveCheckoutUrl(
             orderNo, "yeahpay", checkoutUrl, reserved.createdAt());
