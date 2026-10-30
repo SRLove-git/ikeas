@@ -8,9 +8,11 @@ import com.ikea.server.dto.payment.PaymentDtos.CreatePaymentResponse;
 import com.ikea.server.dto.payment.PaymentDtos.PaymentOptions;
 import com.ikea.server.dto.payment.PaymentDtos.PaymentStatusResponse;
 import com.ikea.server.service.PaymentPersistenceService.PaymentAttempt;
+import com.ikea.server.service.PaymentPersistenceService.ProviderOrder;
 import com.ikea.server.entity.AppUser;
 import com.ikea.server.entity.Order;
 import com.ikea.server.integration.payment.yeahpay.YeahPayClient;
+import com.ikea.server.integration.payment.yeahpay.YeahPayClient.DirectPaymentResult;
 import com.ikea.server.integration.payment.yeahpay.YeahPayClient.PcCheckoutDetails;
 import com.ikea.server.integration.payment.yeahpay.YeahPayProperties;
 import com.ikea.server.integration.payment.yeahpay.YeahPaySigner;
@@ -33,6 +35,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+import java.util.UUID;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import javax.crypto.Mac;
@@ -68,6 +71,10 @@ public class PaymentGatewayService {
       "unionpay", "UnionPay",
       "applepay", "ApplePay",
       "googlepay", "GooglePay");
+  private static final Map<String, String> YEAHPAY_DIRECT_WALLETS = Map.of(
+      "paynow", "PayNowPay",
+      "wechatpay", "WXZF",
+      "alipay", "ZFBZF");
 
   private final OrderMapper orderMapper;
   private final OrderService orderService;
@@ -154,10 +161,10 @@ public class PaymentGatewayService {
     if (order.getTotalAmount().signum() == 0) {
       orderService.markPaidByGateway(
           order.getOrderNo(), "internal", "ZERO-" + order.getOrderNo(), BigDecimal.ZERO, currency);
-      return new CreatePaymentResponse(false, "internal", null, true);
+      return new CreatePaymentResponse(false, "internal", null, null, true);
     }
     if (mockOnly) {
-      return new CreatePaymentResponse(true, "mock", null, false);
+      return new CreatePaymentResponse(true, "mock", null, null, false);
     }
 
     String normalized =
@@ -165,29 +172,43 @@ public class PaymentGatewayService {
             ? "card"
             : channel.toLowerCase(java.util.Locale.ROOT);
     if (!Set.of(
-            "card", "visa", "mastercard", "amex", "unionpay", "applepay", "googlepay",
+            "card", "paynow", "wechatpay", "alipay",
+            "visa", "mastercard", "amex", "unionpay", "applepay", "googlepay",
             "yeahpay", "stripe")
         .contains(normalized)) {
       throw new IllegalArgumentException("不支持的支付方式");
     }
     boolean explicitlyStripe = "stripe".equals(normalized);
     boolean explicitlyYeahPay = "yeahpay".equals(normalized);
-    String yeahPayMethod = YEAHPAY_PAYMENT_METHODS.get(normalized);
+    String yeahPayMethod = firstNonBlank(
+        YEAHPAY_DIRECT_WALLETS.get(normalized), YEAHPAY_PAYMENT_METHODS.get(normalized));
     if (!explicitlyStripe && yeahPayClient.isConfigured()) {
       List<String> enabledMethods = yeahPayProperties.enabledPaymentMethods();
       String yeahPayChannel = normalized;
       if (yeahPayMethod == null) {
-        yeahPayChannel = enabledMethods.get(0);
-        yeahPayMethod = YEAHPAY_PAYMENT_METHODS.get(yeahPayChannel);
+        yeahPayChannel = enabledMethods.stream()
+            .filter(method -> !"card".equals(normalized)
+                || YEAHPAY_PAYMENT_METHODS.containsKey(method))
+            .findFirst()
+            .orElseThrow(() -> new IllegalArgumentException("商户暂未开通可用的卡支付方式"));
+        yeahPayMethod = firstNonBlank(
+            YEAHPAY_DIRECT_WALLETS.get(yeahPayChannel),
+            YEAHPAY_PAYMENT_METHODS.get(yeahPayChannel));
       }
       if (!enabledMethods.contains(yeahPayChannel)) {
         throw new IllegalArgumentException("该支付方式尚未为当前商户启用");
       }
       if (hasText(checkoutMode)
-          && !"h5".equalsIgnoreCase(checkoutMode) && !"pc".equalsIgnoreCase(checkoutMode)) {
+          && !"h5".equalsIgnoreCase(checkoutMode)
+          && !"pc".equalsIgnoreCase(checkoutMode)
+          && !"qr".equalsIgnoreCase(checkoutMode)
+          && !"online".equalsIgnoreCase(checkoutMode)) {
         throw new IllegalArgumentException("不支持的收银台类型");
       }
-      boolean usePcCheckout = "pc".equalsIgnoreCase(checkoutMode)
+      boolean directWallet = YEAHPAY_DIRECT_WALLETS.containsKey(yeahPayChannel);
+      boolean directOnline = directWallet && "online".equalsIgnoreCase(checkoutMode);
+      String directPresentation = directOnline ? "redirect" : "qr";
+      boolean usePcCheckout = !directWallet && "pc".equalsIgnoreCase(checkoutMode)
           && yeahPayProperties.isPcCheckoutEnabled();
       // 本地校验失败未发出渠道请求，不应留下无法确认的支付会话。
       PcCheckoutDetails pcDetails = usePcCheckout ? pcCheckoutDetails(userId, order) : null;
@@ -195,13 +216,19 @@ public class PaymentGatewayService {
       if (previous != null && "yeahpay".equals(previous.provider())) {
         PaymentStatusResponse refreshed = paymentReconciliationService.refresh(userId, orderNo);
         if ("paid".equals(refreshed.status())) {
-          return new CreatePaymentResponse(false, "yeahpay", null, true);
+          return new CreatePaymentResponse(false, "yeahpay", null, null, true);
         }
         if (!refreshed.retryAllowed()) {
           PaymentAttempt current = paymentPersistenceService.findAttempt(orderNo).orElse(null);
           if (current != null && current.status() == 0 && "yeahpay".equals(current.provider())
               && hasText(current.checkoutUrl()) && yeahPayChannel.equals(current.channel())) {
-            return new CreatePaymentResponse(false, "yeahpay", current.checkoutUrl(), false);
+            boolean qr = "qr".equals(current.presentation());
+            return new CreatePaymentResponse(
+                false,
+                qr ? yeahPayChannel : "yeahpay",
+                qr ? null : current.checkoutUrl(),
+                qr ? current.checkoutUrl() : null,
+                false);
           }
           throw new IllegalArgumentException("支付状态尚未确认，请先更新支付状态或联系客服");
         }
@@ -212,6 +239,32 @@ public class PaymentGatewayService {
       PaymentAttempt reserved = paymentPersistenceService.findAttempt(orderNo)
           .orElseThrow(() -> new IllegalStateException("支付会话未保存，请稍后查询订单状态"));
       try {
+        if (directWallet) {
+          String providerOrderNo = directProviderOrderNo();
+          paymentPersistenceService.saveProviderOrder(
+              orderNo,
+              "yeahpay",
+              providerOrderNo,
+              yeahPayChannel,
+              directPresentation,
+              reserved.createdAt());
+          DirectPaymentResult direct = yeahPayClient.createDirectWalletPayment(
+              providerOrderNo,
+              orderNo,
+              currency,
+              amountMinor,
+              description,
+              yeahPayMethod,
+              directOnline ? "MWEB" : "NATIVE");
+          paymentPersistenceService.savePaymentPresentation(
+              orderNo, "yeahpay", direct.tdCode(), directPresentation, reserved.createdAt());
+          return new CreatePaymentResponse(
+              false,
+              yeahPayChannel,
+              directOnline ? direct.tdCode() : null,
+              directOnline ? null : direct.tdCode(),
+              false);
+        }
         String checkoutUrl;
         if (usePcCheckout) {
           checkoutUrl =
@@ -229,7 +282,7 @@ public class PaymentGatewayService {
         }
         paymentPersistenceService.saveCheckoutUrl(
             orderNo, "yeahpay", checkoutUrl, reserved.createdAt());
-        return new CreatePaymentResponse(false, "yeahpay", checkoutUrl, false);
+        return new CreatePaymentResponse(false, "yeahpay", checkoutUrl, null, false);
       } catch (YeahPayClient.RejectedRequestException ex) {
         paymentPersistenceService.markPaymentAttemptFailed(order.getOrderNo(), "yeahpay");
         throw ex;
@@ -246,7 +299,7 @@ public class PaymentGatewayService {
     reservePaymentAttempt(order.getOrderNo(), "stripe", normalized);
     try {
       String sessionUrl = createCheckoutSession(order);
-      return new CreatePaymentResponse(false, "stripe", sessionUrl, false);
+      return new CreatePaymentResponse(false, "stripe", sessionUrl, null, false);
     } catch (RuntimeException ex) {
       paymentPersistenceService.markPaymentAttemptFailed(order.getOrderNo(), "stripe");
       throw ex;
@@ -383,11 +436,11 @@ public class PaymentGatewayService {
         return "success";
       }
 
-      String orderNo = firstText(root, "thirdOrderId", "merchantReferenceNumber", "orderId");
+      String providerOrderNo = firstText(root, "thirdOrderId", "merchantReferenceNumber", "orderId");
       String transactionNo = firstText(root, "leshuaOrderId", "channelOrderId");
       String currency = root.path("currency").asText(null);
       JsonNode amountNode = root.path("amount");
-      if (!hasText(orderNo)
+      if (!hasText(providerOrderNo)
           || !hasText(transactionNo)
           || !hasText(currency)
           || amountNode.isMissingNode()
@@ -399,7 +452,13 @@ public class PaymentGatewayService {
       if (amountMinor < 0) {
         throw new IllegalArgumentException("YeahPay webhook 金额非法");
       }
-      paymentPersistenceService.findAttemptForUpdate(orderNo);
+      ProviderOrder providerOrder = paymentPersistenceService
+          .findProviderOrder("yeahpay", providerOrderNo).orElse(null);
+      String orderNo = providerOrder == null ? providerOrderNo : providerOrder.orderNo();
+      PaymentAttempt attempt = paymentPersistenceService.findAttemptForUpdate(orderNo).orElse(null);
+      String settledChannel = providerOrder != null
+          ? providerOrder.channel()
+          : attempt == null ? "yeahpay" : attempt.channel();
       if (!paymentPersistenceService.recordCallbackIfAbsent(
           "yeahpay", timestamp + "\n" + nonce, orderNo, transactionNo)) {
         return "success";
@@ -409,7 +468,7 @@ public class PaymentGatewayService {
       paymentPersistenceService.markPaymentAttemptSucceeded(orderNo, "yeahpay");
       orderService.markPaidByGateway(
           orderNo,
-          "yeahpay",
+          omsPaymentChannel(settledChannel),
           transactionNo,
           fromMinorUnit(amountMinor, currency),
           currency);
@@ -421,6 +480,23 @@ public class PaymentGatewayService {
       log.warn("处理 YeahPay webhook 失败", ex);
       throw new IllegalStateException("处理 YeahPay webhook 失败: " + ex.getMessage(), ex);
     }
+  }
+
+  private static String directProviderOrderNo() {
+    return "D" + UUID.randomUUID().toString().replace("-", "").substring(0, 31);
+  }
+
+  static String omsPaymentChannel(String channel) {
+    if ("paynow".equalsIgnoreCase(channel)) {
+      return "paynow";
+    }
+    if ("wechatpay".equalsIgnoreCase(channel)) {
+      return "wechat";
+    }
+    if ("alipay".equalsIgnoreCase(channel)) {
+      return "alipay";
+    }
+    return "yeahpay";
   }
 
   private void validateYeahPayHeaders(

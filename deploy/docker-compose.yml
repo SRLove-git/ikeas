@@ -107,7 +107,7 @@ services:
       - IKEA_YEAHPAY_CALLBACK_URL=${IKEA_YEAHPAY_CALLBACK_URL:-https://medical-sg.com/zh/profile/my-orders?payment=success}
       - IKEA_YEAHPAY_NOTIFY_URL=${IKEA_YEAHPAY_NOTIFY_URL:-https://medical-sg.com/api/v1/payment/yeahpay/webhook}
       - IKEA_YEAHPAY_LANG=${IKEA_YEAHPAY_LANG:-en}
-      - IKEA_YEAHPAY_ENABLED_METHODS=${IKEA_YEAHPAY_ENABLED_METHODS:-visa,mastercard,amex}
+      - IKEA_YEAHPAY_ENABLED_METHODS=${IKEA_YEAHPAY_ENABLED_METHODS:-paynow,wechatpay,alipay,visa,mastercard,amex}
       - BUZUD_OMS_ENABLED=${BUZUD_OMS_ENABLED:-false}
       - BUZUD_OMS_CALLBACK_SECRET=${BUZUD_OMS_CALLBACK_SECRET:-}
       - BUZUD_OMS_GATEWAY_URL=${BUZUD_OMS_GATEWAY_URL:-http://localhost:8080}

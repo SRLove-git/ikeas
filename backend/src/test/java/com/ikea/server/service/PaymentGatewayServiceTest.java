@@ -17,9 +17,11 @@ import com.ikea.server.constant.OrderStatus;
 import com.ikea.server.dto.payment.PaymentDtos.CreatePaymentResponse;
 import com.ikea.server.dto.payment.PaymentDtos.PaymentStatusResponse;
 import com.ikea.server.service.PaymentPersistenceService.PaymentAttempt;
+import com.ikea.server.service.PaymentPersistenceService.ProviderOrder;
 import com.ikea.server.entity.AppUser;
 import com.ikea.server.entity.Order;
 import com.ikea.server.integration.payment.yeahpay.YeahPayClient;
+import com.ikea.server.integration.payment.yeahpay.YeahPayClient.DirectPaymentResult;
 import com.ikea.server.integration.payment.yeahpay.YeahPayClient.PcCheckoutDetails;
 import com.ikea.server.integration.payment.yeahpay.YeahPayProperties;
 import com.ikea.server.integration.payment.yeahpay.YeahPaySigner;
@@ -127,6 +129,91 @@ class PaymentGatewayServiceTest {
     assertEquals("yeahpay", result.channel());
     verify(yeahPayClient)
         .createHostedCheckout("ORD-1002", "SGD", 1234L, "BUZUD Order ORD-1002", yeahPayCode);
+  }
+
+  @ParameterizedTest
+  @CsvSource({"paynow,PayNowPay", "wechatpay,WXZF", "alipay,ZFBZF"})
+  void createPaymentShouldUseDirectUnifiedOrderForElectronicWallets(
+      String channel, String yeahPayCode) {
+    properties.setEnabledMethods("paynow,wechatpay,alipay");
+    Order order = new Order();
+    order.setOrderNo("ORD-WALLET");
+    order.setUserId(42L);
+    order.setStatus(OrderStatus.PENDING_PAYMENT.code());
+    order.setCurrency("SGD");
+    order.setTotalAmount(new BigDecimal("12.34"));
+    when(orderMapper.selectOne(any(Wrapper.class))).thenReturn(order);
+    when(yeahPayClient.isConfigured()).thenReturn(true);
+    when(yeahPayClient.createDirectWalletPayment(
+            any(), eq("ORD-WALLET"), eq("SGD"), eq(1234L), any(),
+            eq(yeahPayCode), eq("NATIVE")))
+        .thenReturn(new DirectPaymentResult("QR-PAYLOAD", "YP-DIRECT"));
+
+    CreatePaymentResponse result = service.createPayment(42L, "ORD-WALLET", channel, "qr");
+
+    assertEquals(channel, result.channel());
+    assertEquals("QR-PAYLOAD", result.qrCode());
+    assertEquals(null, result.payUrl());
+    ArgumentCaptor<String> providerOrderNo = ArgumentCaptor.forClass(String.class);
+    verify(paymentPersistenceService).saveProviderOrder(
+        eq("ORD-WALLET"), eq("yeahpay"), providerOrderNo.capture(), eq(channel), eq("qr"), any());
+    assertTrue(providerOrderNo.getValue().matches("D[A-Fa-f0-9]{31}"));
+    verify(yeahPayClient).createDirectWalletPayment(
+        providerOrderNo.getValue(), "ORD-WALLET", "SGD", 1234L,
+        "BUZUD Order ORD-WALLET", yeahPayCode, "NATIVE");
+    verify(paymentPersistenceService).savePaymentPresentation(
+        eq("ORD-WALLET"), eq("yeahpay"), eq("QR-PAYLOAD"), eq("qr"), any());
+    verify(yeahPayClient, never()).createHostedCheckout(any(), any(), anyLong(), any(), any());
+  }
+
+  @Test
+  void createDirectOnlineWalletShouldReturnProviderUrlInsteadOfQrPayload() {
+    properties.setEnabledMethods("alipay");
+    Order order = new Order();
+    order.setOrderNo("ORD-ONLINE");
+    order.setUserId(42L);
+    order.setStatus(OrderStatus.PENDING_PAYMENT.code());
+    order.setCurrency("SGD");
+    order.setTotalAmount(new BigDecimal("12.34"));
+    when(orderMapper.selectOne(any(Wrapper.class))).thenReturn(order);
+    when(yeahPayClient.isConfigured()).thenReturn(true);
+    when(yeahPayClient.createDirectWalletPayment(
+            any(), eq("ORD-ONLINE"), eq("SGD"), eq(1234L), any(),
+            eq("ZFBZF"), eq("MWEB")))
+        .thenReturn(new DirectPaymentResult(
+            "https://payment.yeahpay.net/wallet/session", "YP-ONLINE"));
+
+    CreatePaymentResponse result =
+        service.createPayment(42L, "ORD-ONLINE", "alipay", "online");
+
+    assertEquals("https://payment.yeahpay.net/wallet/session", result.payUrl());
+    assertEquals(null, result.qrCode());
+    verify(paymentPersistenceService).savePaymentPresentation(
+        eq("ORD-ONLINE"), eq("yeahpay"), eq(result.payUrl()), eq("redirect"), any());
+  }
+
+  @Test
+  void directWalletWebhookShouldResolveProviderOrderAndNotifyOmsWithWalletChannel() {
+    String timestamp = String.valueOf(System.currentTimeMillis());
+    String nonce = "WalletNonce12345";
+    String payload =
+        "{\"merchantId\":\"merchant-test\",\"status\":2,"
+            + "\"thirdOrderId\":\"DPROVIDER1\",\"leshuaOrderId\":\"YP-WALLET-1\","
+            + "\"currency\":\"SGD\",\"amount\":1234}";
+    String signature = YeahPaySigner.sign(
+        properties.getNotifyUrl(), properties.getAppId(), timestamp,
+        YeahPaySigner.VERSION, nonce, payload, properties.getApiKey());
+    when(paymentPersistenceService.findProviderOrder("yeahpay", "DPROVIDER1"))
+        .thenReturn(Optional.of(new ProviderOrder("ORD-LOCAL-1", "wechatpay")));
+
+    assertEquals("success", service.handleYeahPayWebhook(
+        payload, YeahPaySigner.VERSION, timestamp, YeahPaySigner.ALGORITHM,
+        signature, properties.getAppId(), nonce));
+
+    verify(paymentPersistenceService).recordSuccessfulTransaction(
+        "yeahpay", "ORD-LOCAL-1", "YP-WALLET-1", 1234L, "SGD");
+    verify(orderService).markPaidByGateway(
+        "ORD-LOCAL-1", "wechat", "YP-WALLET-1", new BigDecimal("12.34"), "SGD");
   }
 
   @ParameterizedTest
@@ -624,7 +711,8 @@ class PaymentGatewayServiceTest {
     result.setAppId("app-test");
     result.setApiKey("test-api-key");
     result.setMerchantId("merchant-test");
-    result.setEnabledMethods("visa,mastercard,amex,unionpay,applepay,googlepay");
+    result.setEnabledMethods(
+        "paynow,wechatpay,alipay,visa,mastercard,amex,unionpay,applepay,googlepay");
     result.setCallbackUrl("https://medical-sg.com/zh/profile/my-orders?payment=success");
     result.setNotifyUrl("https://medical-sg.com/api/v1/payment/yeahpay/webhook");
     return result;

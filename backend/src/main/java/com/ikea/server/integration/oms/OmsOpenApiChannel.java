@@ -13,6 +13,8 @@ import com.ikea.server.integration.oms.OmsDtos.OmsResult;
 import java.math.BigDecimal;
 import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
+import java.time.LocalDateTime;
+import java.time.ZoneOffset;
 import java.util.List;
 
 /** OMS Open API 适配器实现：唯一解析 OMS 契约 DTO 的类（防腐层边界，对接规范 §8.3）。 */
@@ -65,7 +67,8 @@ public class OmsOpenApiChannel implements OmsChannel {
   public void notifyPayment(
       String externalOrderNo, String paymentNo, BigDecimal amount, String channel) {
     OpenPaymentNotifyRequest request =
-        new OpenPaymentNotifyRequest(paymentNo, amount, channel, null, null);
+        new OpenPaymentNotifyRequest(
+            paymentNo, amount, channel, paymentNo, LocalDateTime.now(ZoneOffset.UTC));
     client.post(
         ORDERS_PATH + "/" + externalOrderNo + "/payment-notify",
         request,

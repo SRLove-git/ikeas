@@ -14,16 +14,20 @@ import java.util.Map;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-/** YeahPay 托管收银台 HTTP 客户端。 */
+/** YeahPay 托管收银台与电子钱包直连 HTTP 客户端。 */
 @Component
 public class YeahPayClient {
 
   static final String HOSTED_CHECKOUT_PATH = "/cardOrder/getRedirectUrl";
   static final String PC_HOSTED_CHECKOUT_PATH = "/cardOrder/getPcRedirectUrl";
+  static final String UNIFIED_ORDER_PATH = "/order/unifiedOrder";
   static final String QUERY_ORDER_PATH = "/order/queryOrder";
 
   public record PcCheckoutDetails(
       String consumerId, String customerName, String email, String address, String postalCode) {}
+
+  /** tdCode 是需要由商城本地生成二维码的支付内容。 */
+  public record DirectPaymentResult(String tdCode, String transactionNo) {}
 
   /** 渠道查单结果。found=false 只表示未查到订单，不代表支付失败。 */
   public record QueryOrderResult(
@@ -116,6 +120,60 @@ public class YeahPayClient {
     Map<String, Object> body =
         checkoutBody(orderNo, currency, amountMinor, description, payWay, true);
     return checkoutUrl(post(HOSTED_CHECKOUT_PATH, body));
+  }
+
+  /** 创建消费者主扫电子钱包订单，不采集或传输银行卡信息。 */
+  public DirectPaymentResult createDirectWalletPayment(
+      String providerOrderNo,
+      String orderNo,
+      String currency,
+      long amountMinor,
+      String description,
+      String payWay,
+      String jsPayFlag) {
+    properties.validateForUse();
+    if (!hasText(providerOrderNo) || !hasText(orderNo)
+        || !hasText(currency) || !hasText(description)
+        || !hasText(payWay) || amountMinor <= 0
+        || !("NATIVE".equals(jsPayFlag) || "MWEB".equals(jsPayFlag))) {
+      throw new IllegalArgumentException("直连钱包请求参数不完整");
+    }
+
+    Map<String, Object> body = new LinkedHashMap<>();
+    body.put("payWay", payWay);
+    body.put("merchantId", properties.getMerchantId());
+    body.put("thirdOrderId", providerOrderNo);
+    body.put("amount", String.valueOf(amountMinor));
+    body.put("currency", currency);
+    body.put("jspayFlag", jsPayFlag);
+    body.put("body", description);
+    body.put("notifyUrl", properties.getNotifyUrl());
+    if ("MWEB".equals(jsPayFlag)) {
+      body.put("jumpUrl", appendOrderNo(properties.getCallbackUrl(), orderNo));
+    }
+
+    JsonNode response = post(UNIFIED_ORDER_PATH, body);
+    String code = responseCode(response);
+    requireSuccessfulCode(response, code);
+    String traceId = traceId(response);
+    JsonNode data = response.path("data");
+    if (!data.isObject()) {
+      throw responseError("直连钱包响应缺少 data 对象", code, traceId);
+    }
+    String tdCode = optionalText(data, "tdCode", code, traceId);
+    if (!hasText(tdCode)
+        || tdCode.length() > 4096
+        || tdCode.chars().anyMatch(Character::isISOControl)) {
+      throw responseError("直连钱包未返回有效 tdCode", code, traceId);
+    }
+    if ("MWEB".equals(jsPayFlag)) {
+      validateDirectOnlineUrl(tdCode);
+    }
+    String transactionNo = optionalText(data, "leshuaOrderId", code, traceId);
+    if (transactionNo == null) {
+      transactionNo = optionalText(data, "channelOrderId", code, traceId);
+    }
+    return new DirectPaymentResult(tdCode, transactionNo);
   }
 
   public String createPcHostedCheckout(
@@ -373,6 +431,20 @@ public class YeahPayClient {
         || host == null
         || !(isDomain(host, "yeahpay.sg") || isDomain(host, "yeahpay.net"))) {
       throw new IllegalStateException("YeahPay 收银台地址不属于允许的 HTTPS YeahPay 域名");
+    }
+  }
+
+  static void validateDirectOnlineUrl(String paymentUrl) {
+    URI uri;
+    try {
+      uri = URI.create(paymentUrl);
+    } catch (IllegalArgumentException ex) {
+      throw new IllegalStateException("YeahPay 返回了非法的在线支付地址", ex);
+    }
+    if (!"https".equalsIgnoreCase(uri.getScheme())
+        || !hasText(uri.getHost())
+        || uri.getUserInfo() != null) {
+      throw new IllegalStateException("YeahPay 在线支付地址必须是不含凭据的 HTTPS 地址");
     }
   }
 

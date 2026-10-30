@@ -202,6 +202,23 @@ class PaymentReconciliationServiceTest {
         .markPaidByGateway("ORD-QUERY", "yeahpay", "YP-123", new BigDecimal("12.34"), "SGD");
   }
 
+  @Test
+  void directWalletAttemptQueriesProviderOrderAndSettlesWithOmsWalletChannel() {
+    PaymentAttempt directAttempt = new PaymentAttempt(
+        "ORD-QUERY", "yeahpay", "paynow", 0, "QR-PAYLOAD", null, null,
+        LocalDateTime.now(ZoneOffset.UTC).minusMinutes(5), "DPROVIDER1", "qr");
+    when(persistence.findAttemptForUpdate("ORD-QUERY"))
+        .thenReturn(Optional.of(directAttempt));
+    when(client.queryOrder("DPROVIDER1")).thenReturn(new QueryOrderResult(
+        true, 2, "merchant-test", "DPROVIDER1", "YP-PAYNOW", 1234L, "SGD", "0", "trace"));
+
+    assertEquals(new PaymentStatusResponse("paid", false), service.refresh(42L, "ORD-QUERY"));
+
+    verify(client).queryOrder("DPROVIDER1");
+    verify(orderService).markPaidByGateway(
+        "ORD-QUERY", "paynow", "YP-PAYNOW", new BigDecimal("12.34"), "SGD");
+  }
+
   @ParameterizedTest
   @ValueSource(strings = {"merchant", "order", "currency", "amount", "transaction"})
   void invalidSuccessIdentityOrAmountCannotSettleAnOrder(String mismatch) {

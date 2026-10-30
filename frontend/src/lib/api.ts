@@ -112,6 +112,7 @@ export interface CreatePaymentResponse {
   mockOnly: boolean
   channel: string
   payUrl: string | null
+  qrCode: string | null
   completed: boolean
 }
 

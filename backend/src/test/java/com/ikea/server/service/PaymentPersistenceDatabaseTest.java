@@ -69,7 +69,8 @@ class PaymentPersistenceDatabaseTest {
     ResourceDatabasePopulator migrations = new ResourceDatabasePopulator(
         new ClassPathResource("db/migration/V22__payment_transactions.sql"),
         new ClassPathResource("db/migration/V23__payment_safety.sql"),
-        new ClassPathResource("db/migration/V24__payment_reconciliation.sql"));
+        new ClassPathResource("db/migration/V24__payment_reconciliation.sql"),
+        new ClassPathResource("db/migration/V25__yeahpay_direct_wallets.sql"));
     migrations.setSqlScriptEncoding("UTF-8");
     migrations.execute(dataSource);
     jdbc = new JdbcTemplate(dataSource);
@@ -79,7 +80,9 @@ class PaymentPersistenceDatabaseTest {
 
   @BeforeEach
   void clearOnlyIsolatedTestTables() {
-    jdbc.execute("TRUNCATE TABLE payment_callback_event, payment_transaction, payment_attempt");
+    jdbc.execute(
+        "TRUNCATE TABLE payment_callback_event, payment_transaction, "
+            + "payment_provider_order, payment_attempt");
   }
 
   @AfterAll
@@ -112,6 +115,24 @@ class PaymentPersistenceDatabaseTest {
         "SELECT query_code, query_trace_id FROM payment_attempt WHERE order_no = ?", "ORD-FIELDS");
     assertEquals("0", diagnostic.get("query_code"));
     assertEquals("trace-fields", diagnostic.get("query_trace_id"));
+  }
+
+  @Test
+  void directWalletProviderOrderAndQrPresentationRoundTripThroughPostgres() {
+    assertTrue(persistence.reservePaymentAttempt("ORD-WALLET", "yeahpay", "paynow"));
+    PaymentAttempt initial = persistence.findAttempt("ORD-WALLET").orElseThrow();
+    persistence.saveProviderOrder(
+        "ORD-WALLET", "yeahpay", "DPROVIDER1", "paynow", "qr", initial.createdAt());
+    persistence.savePaymentPresentation(
+        "ORD-WALLET", "yeahpay", "QR-PAYLOAD", "qr", initial.createdAt());
+
+    PaymentAttempt stored = persistence.findAttempt("ORD-WALLET").orElseThrow();
+    assertEquals("DPROVIDER1", stored.providerOrderNo());
+    assertEquals("qr", stored.presentation());
+    assertEquals("QR-PAYLOAD", stored.checkoutUrl());
+    assertEquals(
+        new PaymentPersistenceService.ProviderOrder("ORD-WALLET", "paynow"),
+        persistence.findProviderOrder("yeahpay", "DPROVIDER1").orElseThrow());
   }
 
   @Test

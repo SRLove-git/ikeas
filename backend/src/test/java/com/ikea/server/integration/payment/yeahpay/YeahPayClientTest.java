@@ -30,6 +30,7 @@ class YeahPayClientTest {
   private volatile String receivedSignature;
   private volatile String receivedMethod;
   private volatile String checkoutResponse;
+  private volatile String directResponse;
   private volatile String queryResponse;
   private volatile int httpStatus;
 
@@ -40,6 +41,9 @@ class YeahPayClientTest {
     checkoutResponse =
         "{\"code\":\"0\",\"data\":{\"url\":"
             + "\"https://payment.yeahpay.net/checkout/test-session\"}}";
+    directResponse =
+        "{\"code\":\"0\",\"data\":{\"tdCode\":\"000201010212PAYNOW-TEST\","
+            + "\"leshuaOrderId\":\"YP-DIRECT-1\"}}";
     server.createContext(
         "/acceptance-open-api/cardOrder/getRedirectUrl",
         exchange -> respond(exchange, checkoutResponse));
@@ -50,6 +54,9 @@ class YeahPayClientTest {
                   + "\"https://payment.yeahpay.net/checkout/pc-test-session\"}}"));
     server.createContext(
         "/acceptance-open-api/order/queryOrder", exchange -> respond(exchange, queryResponse));
+    server.createContext(
+        "/acceptance-open-api/order/unifiedOrder",
+        exchange -> respond(exchange, directResponse));
     server.start();
 
     String origin = "http://localhost:" + server.getAddress().getPort();
@@ -154,6 +161,67 @@ class YeahPayClientTest {
             receivedBody,
             "test-api-key");
     assertEquals(expected, receivedSignature);
+  }
+
+  @Test
+  void createDirectWalletShouldSendNativeUnifiedOrderAndReturnQrPayload() throws Exception {
+    YeahPayClient.DirectPaymentResult result = new YeahPayClient(properties, mapper)
+        .createDirectWalletPayment(
+            "D1234567890123456789012345678901",
+            "ORD-1001",
+            "SGD",
+            1234,
+            "BUZUD Order ORD-1001",
+            "PayNowPay",
+            "NATIVE");
+
+    assertEquals("000201010212PAYNOW-TEST", result.tdCode());
+    assertEquals("YP-DIRECT-1", result.transactionNo());
+    JsonNode request = mapper.readTree(receivedBody);
+    assertEquals("PayNowPay", request.path("payWay").asText());
+    assertEquals("merchant-test", request.path("merchantId").asText());
+    assertEquals("D1234567890123456789012345678901", request.path("thirdOrderId").asText());
+    assertEquals("1234", request.path("amount").asText());
+    assertEquals("NATIVE", request.path("jspayFlag").asText());
+    assertEquals(properties.getNotifyUrl(), request.path("notifyUrl").asText());
+    assertEquals(
+        YeahPaySigner.sign(
+            "/acceptance-open-api/order/unifiedOrder",
+            "app-test",
+            receivedTimestamp,
+            YeahPaySigner.VERSION,
+            receivedNonce,
+            receivedBody,
+            "test-api-key"),
+        receivedSignature);
+  }
+
+  @Test
+  void createDirectWalletShouldRejectMissingQrPayloadWithoutClaimingBusinessRejection() {
+    directResponse = "{\"code\":0,\"data\":{}}";
+
+    IllegalStateException error = assertThrows(
+        IllegalStateException.class,
+        () -> new YeahPayClient(properties, mapper).createDirectWalletPayment(
+            "D123", "ORD-1001", "SGD", 1234, "Test order", "PayNowPay", "NATIVE"));
+
+    assertFalse(error instanceof YeahPayClient.RejectedRequestException);
+  }
+
+  @Test
+  void createDirectOnlinePaymentShouldRequireAnHttpsUrlAndSendMwebFlag() throws Exception {
+    directResponse =
+        "{\"code\":0,\"data\":{\"tdCode\":"
+            + "\"https://payment.yeahpay.net/wallet/session\"}}";
+
+    YeahPayClient.DirectPaymentResult result = new YeahPayClient(properties, mapper)
+        .createDirectWalletPayment(
+            "D123", "ORD-1001", "SGD", 1234, "Test order", "ZFBZF", "MWEB");
+
+    assertEquals("https://payment.yeahpay.net/wallet/session", result.tdCode());
+    assertEquals("MWEB", mapper.readTree(receivedBody).path("jspayFlag").asText());
+    assertTrue(mapper.readTree(receivedBody).path("jumpUrl").asText()
+        .endsWith("&orderNo=ORD-1001"));
   }
 
   @Test

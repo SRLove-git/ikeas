@@ -4,6 +4,7 @@ import { ShieldCheck, X } from "lucide-react"
 import { useRouter } from "next/navigation"
 import { useCallback, useEffect, useRef, useState } from "react"
 import { useTranslation } from "react-i18next"
+import QRCode from "react-qr-code"
 import { SiteImage } from "@/components/SiteImage"
 import { useAuth } from "@/lib/auth"
 import { Breadcrumbs } from "@/components/Breadcrumbs"
@@ -21,7 +22,19 @@ import { paymentStatusView } from "@/lib/payment-status"
 import { useLocale } from "@/i18n/LanguageProvider"
 import { intlLocale, type Locale } from "@/i18n/config"
 
-type PaymentMethodId = "visa" | "mastercard" | "amex" | "unionpay" | "applepay" | "googlepay"
+type PaymentMethodId =
+  | "paynow"
+  | "wechatpay"
+  | "alipay"
+  | "visa"
+  | "mastercard"
+  | "amex"
+  | "unionpay"
+  | "applepay"
+  | "googlepay"
+type WalletFlow = "qr" | "online"
+
+const DIRECT_WALLET_METHODS: PaymentMethodId[] = ["paynow", "wechatpay", "alipay"]
 
 const PAYMENT_METHODS: {
   id: PaymentMethodId
@@ -29,6 +42,24 @@ const PAYMENT_METHODS: {
   type: "card" | "wallet"
   badgeClassName: string
 }[] = [
+  {
+    id: "paynow",
+    label: "PayNow",
+    type: "wallet",
+    badgeClassName: "text-[#7b1fa2]",
+  },
+  {
+    id: "wechatpay",
+    label: "WeChat Pay",
+    type: "wallet",
+    badgeClassName: "text-[#07c160]",
+  },
+  {
+    id: "alipay",
+    label: "Alipay",
+    type: "wallet",
+    badgeClassName: "text-[#1677ff]",
+  },
   {
     id: "visa",
     label: "VISA",
@@ -95,6 +126,12 @@ export function MyOrdersPanel() {
   const [paying, setPaying] = useState<string | null>(null)
   const [paymentOrderNo, setPaymentOrderNo] = useState<string | null>(null)
   const [paymentMethod, setPaymentMethod] = useState<PaymentMethodId>("visa")
+  const [walletFlow, setWalletFlow] = useState<WalletFlow>("qr")
+  const [qrPayment, setQrPayment] = useState<{
+    orderNo: string
+    channel: string
+    code: string
+  } | null>(null)
   const [paymentOptions, setPaymentOptions] = useState<PaymentOptions | null>(null)
   const [confirmingOrderNo, setConfirmingOrderNo] = useState<string | null>(null)
   const [refreshingOrderNo, setRefreshingOrderNo] = useState<string | null>(null)
@@ -214,6 +251,9 @@ export function MyOrdersPanel() {
           no: confirmingOrderNo,
           message: t(view.messageKey),
         })
+        if (result.status === "paid") {
+          setQrPayment((current) => (current?.orderNo === confirmingOrderNo ? null : current))
+        }
         if (!view.keepPolling || attempts >= 4) {
           finish(message)
           return
@@ -286,6 +326,9 @@ export function MyOrdersPanel() {
       const data = await apiJson<OrderResponse[]>("/orders", { signal: controller.signal })
       if (controller.signal.aborted) return
       setOrders(data)
+      if (result.status === "paid") {
+        setQrPayment((current) => (current?.orderNo === orderNo ? null : current))
+      }
       setNotice(
         t("orders.paymentStatusNotice", {
           no: orderNo,
@@ -308,12 +351,18 @@ export function MyOrdersPanel() {
     }
   }
 
-  const payOrder = async (orderNo: string, method: PaymentMethodId | "card") => {
+  const payOrder = async (
+    orderNo: string,
+    method: PaymentMethodId | "card",
+    flow: WalletFlow = "qr",
+  ) => {
     setPaying(orderNo)
     setError(null)
     try {
       const payment = await apiJson<CreatePaymentResponse>(
-        `/payment/orders/${orderNo}?channel=${encodeURIComponent(method)}&checkout=h5`,
+        `/payment/orders/${orderNo}?channel=${encodeURIComponent(method)}&checkout=${
+          DIRECT_WALLET_METHODS.includes(method as PaymentMethodId) ? flow : "h5"
+        }`,
         { method: "POST" },
       )
       if (payment.mockOnly) {
@@ -330,7 +379,14 @@ export function MyOrdersPanel() {
         window.location.href = payment.payUrl
         return
       }
-      throw new Error("支付地址为空")
+      if (payment.qrCode) {
+        setPaymentOrderNo(null)
+        setQrPayment({ orderNo, channel: payment.channel, code: payment.qrCode })
+        setConfirmingOrderNo(orderNo)
+        setNotice(t("orders.qrWaiting"))
+        return
+      }
+      throw new Error(t("orders.paymentCodeMissing"))
     } catch (ex) {
       setError(ex instanceof Error ? ex.message : t("orders.payFailed"))
     } finally {
@@ -792,6 +848,26 @@ export function MyOrdersPanel() {
             ) : null}
 
             <div className="border-t border-ikea-gray-200 px-5 py-4 sm:px-6">
+              {DIRECT_WALLET_METHODS.includes(paymentMethod) ? (
+                <div className="mb-4 grid grid-cols-2 gap-2 rounded-xl bg-ikea-gray-100 p-1">
+                  {(["qr", "online"] as WalletFlow[]).map((flow) => (
+                    <button
+                      key={flow}
+                      type="button"
+                      aria-pressed={walletFlow === flow}
+                      disabled={paying === paymentOrderNo}
+                      onClick={() => setWalletFlow(flow)}
+                      className={`rounded-lg px-3 py-2 text-xs font-bold transition-colors ${
+                        walletFlow === flow
+                          ? "bg-white text-ikea-blue shadow-sm"
+                          : "text-ikea-muted hover:text-ikea-black"
+                      }`}
+                    >
+                      {t(flow === "qr" ? "orders.walletFlowQr" : "orders.walletFlowOnline")}
+                    </button>
+                  ))}
+                </div>
+              ) : null}
               {error ? (
                 <div className="mb-4 rounded-lg border border-red-200 bg-red-50 px-3 py-2 text-xs text-red-600">
                   {error}
@@ -807,10 +883,72 @@ export function MyOrdersPanel() {
                   paying === paymentOrderNo ||
                   !(paymentOptions?.enabledMethods.includes(paymentMethod) ?? false)
                 }
-                onClick={() => void payOrder(paymentOrderNo, paymentMethod)}
+                onClick={() => void payOrder(paymentOrderNo, paymentMethod, walletFlow)}
                 className="h-12 w-full rounded-full bg-ikea-blue px-6 text-sm font-bold text-white transition-opacity hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-50"
               >
                 {paying === paymentOrderNo ? t("orders.paying") : t("orders.paymentContinue")}
+              </button>
+            </div>
+          </section>
+        </div>
+      ) : null}
+
+      {qrPayment ? (
+        <div className="fixed inset-0 z-[110] flex items-end justify-center bg-black/45 p-0 sm:items-center sm:p-6">
+          <section
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="wallet-qr-title"
+            className="w-full max-w-md rounded-t-2xl bg-white shadow-2xl sm:rounded-2xl"
+          >
+            <div className="flex items-start justify-between border-b border-ikea-gray-200 px-5 py-4 sm:px-6">
+              <div>
+                <h2 id="wallet-qr-title" className="text-lg font-bold">
+                  {t("orders.qrTitle", {
+                    method:
+                      PAYMENT_METHODS.find((method) => method.id === qrPayment.channel)?.label ??
+                      qrPayment.channel,
+                  })}
+                </h2>
+                <p className="mt-1 text-sm text-ikea-muted">
+                  {t("orders.qrOrder", { no: qrPayment.orderNo })}
+                </p>
+              </div>
+              <button
+                type="button"
+                aria-label={t("orders.closePayment")}
+                onClick={() => {
+                  setQrPayment(null)
+                  setConfirmingOrderNo(null)
+                }}
+                className="rounded-full p-2 text-ikea-muted transition-colors hover:bg-ikea-gray-100 hover:text-ikea-black"
+              >
+                <X size={18} aria-hidden="true" />
+              </button>
+            </div>
+            <div className="px-6 py-6 text-center">
+              <div className="mx-auto w-fit rounded-2xl border border-ikea-gray-200 bg-white p-4 shadow-sm">
+                <QRCode value={qrPayment.code} size={224} level="M" />
+              </div>
+              <p className="mt-5 text-sm font-bold">{t("orders.qrScanHint")}</p>
+              <p className="mt-2 text-xs leading-5 text-ikea-muted">{t("orders.qrSafetyHint")}</p>
+              <div className="mt-5 flex items-center justify-center gap-2 text-xs text-ikea-muted">
+                <span className="h-2 w-2 animate-pulse rounded-full bg-amber-500" />
+                {confirmingOrderNo === qrPayment.orderNo
+                  ? t("orders.qrChecking")
+                  : t("orders.paymentPending")}
+              </div>
+            </div>
+            <div className="border-t border-ikea-gray-200 px-5 py-4 sm:px-6">
+              <button
+                type="button"
+                disabled={refreshingOrderNo === qrPayment.orderNo}
+                onClick={() => void refreshPaymentStatus(qrPayment.orderNo)}
+                className="h-12 w-full rounded-full bg-ikea-blue px-6 text-sm font-bold text-white transition-opacity hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-50"
+              >
+                {refreshingOrderNo === qrPayment.orderNo
+                  ? t("orders.refreshingPaymentStatus")
+                  : t("orders.qrPaidCheck")}
               </button>
             </div>
           </section>

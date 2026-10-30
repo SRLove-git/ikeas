@@ -118,7 +118,7 @@ public class PaymentReconciliationService {
 
     QueryOrderResult query;
     try {
-      query = yeahPayClient.queryOrder(orderNo);
+      query = yeahPayClient.queryOrder(providerOrderNo(attempt));
     } catch (RuntimeException ex) {
       // 仅捕获外部查单异常；持久化及结算在此 catch 之外，失败时由事务回滚。
       log.warn("支付查单不可用 orderNo={} errorType={}", orderNo, ex.getClass().getSimpleName());
@@ -130,7 +130,7 @@ public class PaymentReconciliationService {
       return result("unknown", false);
     }
 
-    boolean completeIdentity = validateOrderIdentity(order, query);
+    boolean completeIdentity = validateOrderIdentity(order, attempt, query);
     Integer providerStatus = query.status();
     if (providerStatus == null || !completeIdentity) {
       persistence.recordQueryResult(orderNo, "unknown", query.code(), query.traceId());
@@ -145,7 +145,7 @@ public class PaymentReconciliationService {
       persistence.markPaymentAttemptSucceeded(orderNo, "yeahpay");
       orderService.markPaidByGateway(
           orderNo,
-          "yeahpay",
+          PaymentGatewayService.omsPaymentChannel(attempt.channel()),
           query.transactionNo(),
           BigDecimal.valueOf(query.amountMinor(), 2),
           query.currency());
@@ -172,12 +172,14 @@ public class PaymentReconciliationService {
   }
 
   /** 查询允许部分字段缺省，但任何已返回的身份/金额都不得与商城订单冲突。 */
-  private boolean validateOrderIdentity(Order order, QueryOrderResult query) {
+  private boolean validateOrderIdentity(
+      Order order, PaymentAttempt attempt, QueryOrderResult query) {
     if (hasText(query.merchantId())
         && !query.merchantId().equals(yeahPayProperties.getMerchantId())) {
       throw new IllegalArgumentException("支付查询商户不匹配");
     }
-    if (hasText(query.thirdOrderId()) && !query.thirdOrderId().equals(order.getOrderNo())) {
+    if (hasText(query.thirdOrderId())
+        && !query.thirdOrderId().equals(providerOrderNo(attempt))) {
       throw new IllegalArgumentException("支付查询订单号不匹配");
     }
     if (hasText(query.currency()) && !query.currency().equalsIgnoreCase(order.getCurrency())) {
@@ -194,6 +196,10 @@ public class PaymentReconciliationService {
         && hasText(query.thirdOrderId())
         && hasText(query.currency())
         && query.amountMinor() != null;
+  }
+
+  private static String providerOrderNo(PaymentAttempt attempt) {
+    return hasText(attempt.providerOrderNo()) ? attempt.providerOrderNo() : attempt.orderNo();
   }
 
   private static boolean hasRecentQuery(PaymentAttempt attempt) {

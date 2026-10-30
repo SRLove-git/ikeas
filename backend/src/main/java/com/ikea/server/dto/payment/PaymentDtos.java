@@ -13,7 +13,7 @@ public final class PaymentDtos {
       List<String> enabledMethods) {}
 
   public record CreatePaymentResponse(
-      boolean mockOnly, String channel, String payUrl, boolean completed) {}
+      boolean mockOnly, String channel, String payUrl, String qrCode, boolean completed) {}
 
   public record PaymentStatusResponse(String status, boolean retryAllowed) {}
 }

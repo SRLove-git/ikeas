@@ -10,6 +10,7 @@ import java.util.Optional;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 /** 支付交易与回调事件的持久化去重层。 */
 @Service
@@ -66,6 +67,8 @@ public class PaymentPersistenceService {
                 query_code = NULL,
                 query_trace_id = NULL,
                 last_checked_at = NULL,
+                provider_order_no = NULL,
+                presentation = NULL,
                 created_at = CURRENT_TIMESTAMP,
                 updated_at = CURRENT_TIMESTAMP
             WHERE payment_attempt.status = ?
@@ -86,7 +89,24 @@ public class PaymentPersistenceService {
 
   public record PaymentAttempt(
       String orderNo, String provider, String channel, int status, String checkoutUrl,
-      String queryStatus, LocalDateTime lastCheckedAt, LocalDateTime createdAt) {}
+      String queryStatus, LocalDateTime lastCheckedAt, LocalDateTime createdAt,
+      String providerOrderNo, String presentation) {
+    public PaymentAttempt(
+        String orderNo,
+        String provider,
+        String channel,
+        int status,
+        String checkoutUrl,
+        String queryStatus,
+        LocalDateTime lastCheckedAt,
+        LocalDateTime createdAt) {
+      this(
+          orderNo, provider, channel, status, checkoutUrl, queryStatus,
+          lastCheckedAt, createdAt, null, null);
+    }
+  }
+
+  public record ProviderOrder(String orderNo, String channel) {}
 
   public Optional<PaymentAttempt> findAttempt(String orderNo) {
     return readAttempt(orderNo, false);
@@ -100,14 +120,48 @@ public class PaymentPersistenceService {
   private Optional<PaymentAttempt> readAttempt(String orderNo, boolean lock) {
     String sql = """
         SELECT order_no, provider, channel, status, checkout_url, query_status,
-               last_checked_at, created_at
+               last_checked_at, created_at, provider_order_no, presentation
         FROM payment_attempt WHERE order_no = ?
         """ + (lock ? " FOR UPDATE" : "");
     return jdbcTemplate.query(sql, (rs, row) -> new PaymentAttempt(
         rs.getString("order_no"), rs.getString("provider"), rs.getString("channel"),
         rs.getInt("status"), rs.getString("checkout_url"), rs.getString("query_status"),
         rs.getObject("last_checked_at", LocalDateTime.class),
-        rs.getObject("created_at", LocalDateTime.class)), orderNo).stream().findFirst();
+        rs.getObject("created_at", LocalDateTime.class), rs.getString("provider_order_no"),
+        rs.getString("presentation")), orderNo).stream().findFirst();
+  }
+
+  /** 在请求渠道前先持久化唯一单号，确保超时后仍可查单与接收回调。 */
+  @Transactional
+  public void saveProviderOrder(
+      String orderNo,
+      String provider,
+      String providerOrderNo,
+      String channel,
+      String presentation,
+      LocalDateTime createdAt) {
+    int updated = jdbcTemplate.update("""
+        UPDATE payment_attempt
+        SET provider_order_no = ?, presentation = ?, updated_at = CURRENT_TIMESTAMP
+        WHERE order_no = ? AND provider = ? AND status = ? AND created_at = ?
+        """, providerOrderNo, presentation, orderNo, provider, ATTEMPT_PENDING, createdAt);
+    if (updated != 1) {
+      throw new IllegalStateException("支付会话已变更，请重新查询订单状态");
+    }
+    jdbcTemplate.update("""
+        INSERT INTO payment_provider_order
+          (provider, provider_order_no, order_no, channel)
+        VALUES (?, ?, ?, ?)
+        """, provider, providerOrderNo, orderNo, channel);
+  }
+
+  public Optional<ProviderOrder> findProviderOrder(String provider, String providerOrderNo) {
+    return jdbcTemplate.query("""
+        SELECT order_no, channel FROM payment_provider_order
+        WHERE provider = ? AND provider_order_no = ?
+        """, (rs, row) -> new ProviderOrder(
+            rs.getString("order_no"), rs.getString("channel")), provider, providerOrderNo)
+        .stream().findFirst();
   }
 
   public void saveCheckoutUrl(String orderNo, String provider, String checkoutUrl,
@@ -116,6 +170,18 @@ public class PaymentPersistenceService {
         UPDATE payment_attempt SET checkout_url = ?, updated_at = CURRENT_TIMESTAMP
         WHERE order_no = ? AND provider = ? AND status = ? AND created_at = ?
         """, checkoutUrl, orderNo, provider, ATTEMPT_PENDING, createdAt);
+  }
+
+  public void savePaymentPresentation(
+      String orderNo, String provider, String value, String presentation, LocalDateTime createdAt) {
+    int updated = jdbcTemplate.update("""
+        UPDATE payment_attempt
+        SET checkout_url = ?, presentation = ?, updated_at = CURRENT_TIMESTAMP
+        WHERE order_no = ? AND provider = ? AND status = ? AND created_at = ?
+        """, value, presentation, orderNo, provider, ATTEMPT_PENDING, createdAt);
+    if (updated != 1) {
+      throw new IllegalStateException("支付会话已变更，请重新查询订单状态");
+    }
   }
 
   public void recordQueryResult(String orderNo, String status, String code, String traceId) {

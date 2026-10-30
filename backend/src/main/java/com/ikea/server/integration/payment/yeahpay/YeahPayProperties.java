@@ -13,7 +13,9 @@ import org.springframework.stereotype.Component;
 public class YeahPayProperties {
 
   private static final Set<String> SUPPORTED_METHODS =
-      Set.of("visa", "mastercard", "amex", "unionpay", "applepay", "googlepay");
+      Set.of(
+          "paynow", "wechatpay", "alipay",
+          "visa", "mastercard", "amex", "unionpay", "applepay", "googlepay");
 
   private boolean enabled;
   private boolean pcCheckoutEnabled = false;
@@ -27,7 +29,7 @@ public class YeahPayProperties {
       "https://medical-sg.com/zh/profile/my-orders?payment=success";
   private String notifyUrl = "https://medical-sg.com/api/v1/payment/yeahpay/webhook";
   private String lang = "en";
-  private String enabledMethods = "visa,mastercard,amex";
+  private String enabledMethods = "paynow,wechatpay,alipay,visa,mastercard,amex";
   private int connectTimeoutMs = 10000;
   private int readTimeoutMs = 20000;
   private int callbackReplayWindowSeconds = 300;
