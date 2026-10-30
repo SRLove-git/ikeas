@@ -180,9 +180,8 @@ export function MyOrdersPanel() {
     setPaying(orderNo)
     setError(null)
     try {
-      const checkoutMode = window.matchMedia("(max-width: 767px)").matches ? "h5" : "pc"
       const payment = await apiJson<CreatePaymentResponse>(
-        `/payment/orders/${orderNo}?channel=${encodeURIComponent(method)}&checkout=${checkoutMode}`,
+        `/payment/orders/${orderNo}?channel=${encodeURIComponent(method)}&checkout=h5`,
         { method: "POST" },
       )
       if (payment.mockOnly) {

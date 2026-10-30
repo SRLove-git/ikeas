@@ -9,6 +9,7 @@ import org.springframework.stereotype.Component;
 public class YeahPayProperties {
 
   private boolean enabled;
+  private boolean pcCheckoutEnabled = false;
   private String appId = "";
   private String apiKey = "";
   private String merchantId = "";
@@ -29,6 +30,14 @@ public class YeahPayProperties {
 
   public void setEnabled(boolean enabled) {
     this.enabled = enabled;
+  }
+
+  public boolean isPcCheckoutEnabled() {
+    return pcCheckoutEnabled;
+  }
+
+  public void setPcCheckoutEnabled(boolean pcCheckoutEnabled) {
+    this.pcCheckoutEnabled = pcCheckoutEnabled;
   }
 
   public String getAppId() {

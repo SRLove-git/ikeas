@@ -145,7 +145,7 @@ public class PaymentGatewayService {
       long amountMinor = toMinorUnit(order.getTotalAmount(), currency);
       String description = "BUZUD Order " + order.getOrderNo();
       String checkoutUrl;
-      if ("pc".equalsIgnoreCase(checkoutMode)) {
+      if ("pc".equalsIgnoreCase(checkoutMode) && yeahPayProperties.isPcCheckoutEnabled()) {
         checkoutUrl =
             yeahPayClient.createPcHostedCheckout(
                 order.getOrderNo(),
@@ -156,7 +156,8 @@ public class PaymentGatewayService {
                 pcCheckoutDetails(userId, order));
       } else if (checkoutMode == null
           || checkoutMode.isBlank()
-          || "h5".equalsIgnoreCase(checkoutMode)) {
+          || "h5".equalsIgnoreCase(checkoutMode)
+          || "pc".equalsIgnoreCase(checkoutMode)) {
         checkoutUrl =
             yeahPayClient.createHostedCheckout(
                 order.getOrderNo(), currency, amountMinor, description, yeahPayMethod);

@@ -93,6 +93,8 @@ ikea:
     yeahpay:
       # 需同时完成 YeahPay API 开通、服务器出口 IP 白名单和回调登记。
       enabled: ${IKEA_YEAHPAY_ENABLED:false}
+      # 默认统一使用 H5；确认 PC 收银台可用后才显式开启。
+      pc-checkout-enabled: ${IKEA_YEAHPAY_PC_CHECKOUT_ENABLED:false}
       app-id: ${IKEA_YEAHPAY_APP_ID:}
       api-key: ${IKEA_YEAHPAY_API_KEY:}
       merchant-id: ${IKEA_YEAHPAY_MERCHANT_ID:}

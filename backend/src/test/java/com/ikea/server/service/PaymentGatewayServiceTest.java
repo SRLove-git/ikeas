@@ -8,6 +8,7 @@ import static org.mockito.ArgumentMatchers.eq;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.never;
 import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.verifyNoInteractions;
 import static org.mockito.Mockito.when;
 
 import com.baomidou.mybatisplus.core.conditions.Wrapper;
@@ -107,6 +108,7 @@ class PaymentGatewayServiceTest {
 
   @Test
   void createPaymentShouldUsePcCheckoutWithConsumerAndDeliveryDetails() {
+    properties.setPcCheckoutEnabled(true);
     Order order = new Order();
     order.setOrderNo("ORD-PC-1001");
     order.setUserId(42L);
@@ -142,6 +144,40 @@ class PaymentGatewayServiceTest {
                 "jamie@example.com",
                 "10 Anson Road, Singapore 079903",
                 "079903"));
+    verify(yeahPayClient, never()).createHostedCheckout(any(), any(), anyLong(), any(), any());
+  }
+
+  @ParameterizedTest
+  @CsvSource({
+    "visa,VISA",
+    "mastercard,MASTER",
+    "amex,AMEX",
+    "applepay,ApplePay",
+    "googlepay,GooglePay"
+  })
+  void createPaymentShouldRouteCachedPcRequestsToH5ByDefaultWithoutConsumerLookup(
+      String channel, String yeahPayCode) {
+    Order order = new Order();
+    order.setOrderNo("ORD-H5-1001");
+    order.setUserId(42L);
+    order.setStatus(OrderStatus.PENDING_PAYMENT.code());
+    order.setCurrency("SGD");
+    order.setTotalAmount(new BigDecimal("12.34"));
+    // Deliberately omit PC-only consumer details to cover existing orders and cached clients.
+    when(orderMapper.selectOne(any(Wrapper.class))).thenReturn(order);
+    when(yeahPayClient.isConfigured()).thenReturn(true);
+    when(yeahPayClient.createHostedCheckout(any(), any(), eq(1234L), any(), eq(yeahPayCode)))
+        .thenReturn("https://payment.yeahpay.net/checkout/h5/#/checkstand?token=test");
+
+    CreatePaymentResponse result = service.createPayment(42L, "ORD-H5-1001", channel, "pc");
+
+    assertEquals("yeahpay", result.channel());
+    assertEquals("https://payment.yeahpay.net/checkout/h5/#/checkstand?token=test", result.payUrl());
+    verify(yeahPayClient)
+        .createHostedCheckout("ORD-H5-1001", "SGD", 1234L, "BUZUD Order ORD-H5-1001", yeahPayCode);
+    verify(yeahPayClient, never())
+        .createPcHostedCheckout(any(), any(), anyLong(), any(), any(), any());
+    verifyNoInteractions(userService);
   }
 
   @Test

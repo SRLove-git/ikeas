@@ -104,6 +104,7 @@ node scripts/export-server-data.mjs
 ```bash
 IKEA_PAYMENT_MOCK_ONLY=false
 IKEA_YEAHPAY_ENABLED=true
+IKEA_YEAHPAY_PC_CHECKOUT_ENABLED=false
 IKEA_YEAHPAY_APP_ID=...
 IKEA_YEAHPAY_API_KEY=...
 IKEA_YEAHPAY_MERCHANT_ID=...
@@ -112,6 +113,8 @@ IKEA_YEAHPAY_NOTIFY_URL=https://medical-sg.com/api/v1/payment/yeahpay/webhook
 ```
 
 以上密钥只允许注入服务器 Secret/环境变量，不得写入仓库或前端构建产物。支付页回跳仅用于页面提示，订单只能由验签后的服务端回调推进。
+
+`IKEA_YEAHPAY_PC_CHECKOUT_ENABLED` 默认关闭，桌面端和移动端均使用 H5 收银台；旧前端发送的 `checkout=pc` 请求也会转为 H5，无需补齐 PC 专用消费者信息。确认 PC 收银台可用后，可显式设为 `true` 重新接受 PC 收银台请求。
 
 如仍需使用 Stripe 兼容通道：
 
