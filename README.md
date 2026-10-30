@@ -104,22 +104,22 @@ node scripts/export-server-data.mjs
 ```bash
 IKEA_PAYMENT_MOCK_ONLY=false
 IKEA_YEAHPAY_ENABLED=true
-IKEA_YEAHPAY_PC_CHECKOUT_ENABLED=false
+IKEA_YEAHPAY_PC_CHECKOUT_ENABLED=true
 IKEA_YEAHPAY_APP_ID=...
 IKEA_YEAHPAY_API_KEY=...
 IKEA_YEAHPAY_MERCHANT_ID=...
 IKEA_YEAHPAY_CALLBACK_URL=https://medical-sg.com/zh/profile/my-orders?payment=success
 IKEA_YEAHPAY_NOTIFY_URL=https://medical-sg.com/api/v1/payment/yeahpay/webhook
-IKEA_YEAHPAY_ENABLED_METHODS=visa,mastercard,amex
+IKEA_YEAHPAY_ENABLED_METHODS=paynow,wechatpay,visa,mastercard,amex
 ```
 
 以上密钥只允许注入服务器 Secret/环境变量，不得写入仓库或前端构建产物。支付页回跳仅触发状态查询，订单只能由验签后的服务端回调或核验商户、订单、金额、币种后的服务端查单结果推进。
 
 订单页支持“更新支付状态”，支付返回后也会有限次数自动查单。YeahPay 支付通知仅推送成功结果；失败、关闭通过 `/order/queryOrder` 核实。查单返回 `10012`（订单不存在）、网络异常或字段不匹配均不能判定支付失败，也不会自动解锁新支付。详见 [支付确认与重试](docs/yeahpay-payment-reconciliation.md)。
 
-`IKEA_YEAHPAY_ENABLED_METHODS` 必须只填写商户后台已开通的方式。可选值为 `visa`、`mastercard`、`amex`、`unionpay`、`applepay`、`googlepay`；未列出的方式不会在前台开放。
+`IKEA_YEAHPAY_ENABLED_METHODS` 必须只填写商户后台已开通的方式。可选值为 `paynow`、`wechatpay`、`alipay`、`visa`、`mastercard`、`amex`、`unionpay`、`applepay`、`googlepay`；未列出的方式不会在前台开放。
 
-`IKEA_YEAHPAY_PC_CHECKOUT_ENABLED` 默认关闭，桌面端和移动端均使用 H5 收银台；旧前端发送的 `checkout=pc` 请求也会转为 H5，无需补齐 PC 专用消费者信息。确认 PC 收银台可用后，可显式设为 `true` 重新接受 PC 收银台请求。
+`IKEA_YEAHPAY_PC_CHECKOUT_ENABLED` 默认关闭；经商户能力验证后可设为 `true`。前端在桌面浏览器选择微信支付时发送 `checkout=pc`，打开可供手机微信扫码的 PC 收银台；移动浏览器仍使用 H5 收银台。开关为 `false` 时，后端会安全回退到 H5。
 
 如仍需使用 Stripe 兼容通道：
 

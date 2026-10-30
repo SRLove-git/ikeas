@@ -292,8 +292,10 @@ class PaymentGatewayServiceTest {
     return stripeHttpClient;
   }
 
-  @Test
-  void createPaymentShouldUsePcCheckoutWithConsumerAndDeliveryDetails() {
+  @ParameterizedTest
+  @CsvSource({"visa,VISA", "wechatpay,WXZF"})
+  void createPaymentShouldUsePcCheckoutWithConsumerAndDeliveryDetails(
+      String channel, String yeahPayCode) {
     properties.setPcCheckoutEnabled(true);
     Order order = new Order();
     order.setOrderNo("ORD-PC-1001");
@@ -314,7 +316,7 @@ class PaymentGatewayServiceTest {
         .thenReturn("https://payment.yeahpay.net/checkout/pc-session");
 
     CreatePaymentResponse result =
-        service.createPayment(42L, "ORD-PC-1001", "visa", "pc");
+        service.createPayment(42L, "ORD-PC-1001", channel, "pc");
 
     assertEquals("yeahpay", result.channel());
     verify(yeahPayClient)
@@ -323,7 +325,7 @@ class PaymentGatewayServiceTest {
             "SGD",
             1234L,
             "BUZUD Order ORD-PC-1001",
-            "VISA",
+            yeahPayCode,
             new PcCheckoutDetails(
                 "42",
                 "Jamie Tan",

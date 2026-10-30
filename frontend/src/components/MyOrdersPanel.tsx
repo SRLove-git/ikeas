@@ -36,6 +36,20 @@ type WalletFlow = "qr" | "online"
 
 const DIRECT_WALLET_METHODS: PaymentMethodId[] = ["paynow"]
 
+function isMobileBrowser(): boolean {
+  if (typeof navigator === "undefined") return true
+  const userAgent = navigator.userAgent
+  const iPadDesktopMode = /Macintosh/i.test(userAgent) && navigator.maxTouchPoints > 1
+  return iPadDesktopMode || /Android|iPhone|iPad|iPod|IEMobile|Opera Mini|Mobile/i.test(userAgent)
+}
+
+function checkoutModeFor(method: PaymentMethodId | "card", flow: WalletFlow): string {
+  if (DIRECT_WALLET_METHODS.includes(method as PaymentMethodId)) return flow
+  // Desktop WeChat must use YeahPay's PC checkout so that it renders a QR code.
+  if (method === "wechatpay" && !isMobileBrowser()) return "pc"
+  return "h5"
+}
+
 const PAYMENT_METHODS: {
   id: PaymentMethodId
   label: string
@@ -360,9 +374,10 @@ export function MyOrdersPanel() {
     setError(null)
     try {
       const payment = await apiJson<CreatePaymentResponse>(
-        `/payment/orders/${orderNo}?channel=${encodeURIComponent(method)}&checkout=${
-          DIRECT_WALLET_METHODS.includes(method as PaymentMethodId) ? flow : "h5"
-        }`,
+        `/payment/orders/${orderNo}?channel=${encodeURIComponent(method)}&checkout=${checkoutModeFor(
+          method,
+          flow,
+        )}`,
         { method: "POST" },
       )
       if (payment.mockOnly) {

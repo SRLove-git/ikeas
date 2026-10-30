@@ -9,12 +9,13 @@
 | 商城渠道 | YeahPay `payWay` | 路由 | OMS `channel` |
 | --- | --- | --- | --- |
 | `paynow` | `PayNowPay` | `unifiedOrder` 直连（`NATIVE` / `MWEB`） | `paynow` |
-| `wechatpay` | `WXZF` | YeahPay 托管收银台 | `wechat` |
+| `wechatpay` | `WXZF` | YeahPay 托管收银台（PC 二维码 / 移动 H5） | `wechat` |
 | `alipay` | `ZFBZF` | YeahPay 托管收银台 | `alipay` |
 
 PayNow `NATIVE` 响应中的 `data.tdCode` 由商城前端在本地生成 SVG 二维码；
 `MWEB` 响应必须是不含凭据的 HTTPS 地址，然后才允许浏览器跳转。
 微信支付和支付宝按 MID 实际开通能力使用托管收银台，不调用会被拒绝的直连通道。
+桌面浏览器选择微信支付时使用 `getPcRedirectUrl`，移动浏览器使用 `getRedirectUrl`。
 
 ## 订单与幂等
 
@@ -39,6 +40,7 @@ PayNow `NATIVE` 响应中的 `data.tdCode` 由商城前端在本地生成 SVG �
 ```dotenv
 IKEA_PAYMENT_MOCK_ONLY=false
 IKEA_YEAHPAY_ENABLED=true
+IKEA_YEAHPAY_PC_CHECKOUT_ENABLED=true
 IKEA_YEAHPAY_ENABLED_METHODS=paynow,wechatpay,alipay,visa,mastercard,amex
 IKEA_YEAHPAY_NOTIFY_URL=https://medical-sg.com/api/v1/payment/yeahpay/webhook
 ```
