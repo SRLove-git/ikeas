@@ -2,7 +2,7 @@
 
 import { ShieldCheck, X } from "lucide-react"
 import { useRouter } from "next/navigation"
-import { useCallback, useEffect, useState } from "react"
+import { useCallback, useEffect, useRef, useState } from "react"
 import { useTranslation } from "react-i18next"
 import { SiteImage } from "@/components/SiteImage"
 import { useAuth } from "@/lib/auth"
@@ -12,10 +12,12 @@ import {
   type CreatePaymentResponse,
   type OrderFulfillmentView,
   type PaymentOptions,
+  type PaymentStatusResponse,
   type OrderResponse,
 } from "@/lib/api"
 import { API_BASE, getToken } from "@/lib/api"
 import { formatPrice } from "@/lib/catalog-format"
+import { paymentStatusView } from "@/lib/payment-status"
 import { useLocale } from "@/i18n/LanguageProvider"
 import { intlLocale, type Locale } from "@/i18n/config"
 
@@ -95,6 +97,8 @@ export function MyOrdersPanel() {
   const [paymentMethod, setPaymentMethod] = useState<PaymentMethodId>("visa")
   const [paymentOptions, setPaymentOptions] = useState<PaymentOptions | null>(null)
   const [confirmingOrderNo, setConfirmingOrderNo] = useState<string | null>(null)
+  const [refreshingOrderNo, setRefreshingOrderNo] = useState<string | null>(null)
+  const paymentRefreshController = useRef<AbortController | null>(null)
   const [filterStatus, setFilterStatus] = useState(0)
   const [fulfillments, setFulfillments] = useState<Record<string, OrderFulfillmentView | null>>({})
   const [invoiceSubmitting, setInvoiceSubmitting] = useState<string | null>(null)
@@ -141,13 +145,16 @@ export function MyOrdersPanel() {
       setNotice(t("orders.createdNotice", { no: created }))
       params.delete("created")
     }
-    if (payment === "success") {
-      setNotice(t("orders.paymentConfirming"))
-      setConfirmingOrderNo(params.get("orderNo"))
+    const returnedFromPayment =
+      payment !== null && ["success", "failed", "cancel"].includes(payment)
+    if (returnedFromPayment) {
+      const orderNo = params.get("orderNo")
+      setNotice(t(orderNo ? "orders.paymentConfirming" : "orders.paymentStatusUnknown"))
+      setConfirmingOrderNo(orderNo)
       params.delete("payment")
       params.delete("orderNo")
     }
-    if (created || payment === "success") {
+    if (created || returnedFromPayment) {
       const next = `${window.location.pathname}${params.size > 0 ? `?${params.toString()}` : ""}`
       window.history.replaceState({}, "", next)
     }
@@ -178,40 +185,68 @@ export function MyOrdersPanel() {
     let cancelled = false
     let attempts = 0
     let timer: ReturnType<typeof setTimeout> | null = null
+    let requestController: AbortController | null = null
 
     const finish = (message: string) => {
-      if (timer) clearInterval(timer)
+      if (timer) clearTimeout(timer)
       setConfirmingOrderNo(null)
       setNotice(message)
     }
 
     const poll = async () => {
       attempts += 1
+      requestController = new AbortController()
+      const requestTimeout = setTimeout(() => requestController?.abort(), 25000)
       try {
-        const data = await apiJson<OrderResponse[]>("/orders")
+        const result = await apiJson<PaymentStatusResponse>(
+          `/payment/orders/${encodeURIComponent(confirmingOrderNo)}/refresh`,
+          { method: "POST", signal: requestController.signal },
+        )
+        if (cancelled) return
+        const data = await apiJson<OrderResponse[]>("/orders", { signal: requestController.signal })
         if (cancelled) return
         setOrders(data)
-        const order = data.find((item) => item.orderNo === confirmingOrderNo)
-        if (order && [2, 3, 4, 6, 7].includes(order.status)) {
-          finish(t("orders.paymentConfirmed"))
+        const view = paymentStatusView(
+          result,
+          data.find((order) => order.orderNo === confirmingOrderNo)?.status,
+        )
+        const message = t("orders.paymentStatusNotice", {
+          no: confirmingOrderNo,
+          message: t(view.messageKey),
+        })
+        if (!view.keepPolling || attempts >= 4) {
+          finish(message)
           return
         }
+        setNotice(message)
       } catch {
-        // 临时网络错误继续轮询，直到达到超时上限。
+        if (cancelled) return
+        if (attempts >= 4) {
+          finish(t("orders.paymentStatusUnavailable"))
+          return
+        }
+        setNotice(t("orders.paymentStatusUnavailable"))
+      } finally {
+        clearTimeout(requestTimeout)
       }
-      if (!cancelled && attempts >= 15) {
-        finish(t("orders.paymentConfirmationTimeout"))
-        return
-      }
-      if (!cancelled) timer = setTimeout(() => void poll(), 2000)
+      if (!cancelled) timer = setTimeout(() => void poll(), 10000)
     }
 
     void poll()
     return () => {
       cancelled = true
-      if (timer) clearInterval(timer)
+      requestController?.abort()
+      if (timer) clearTimeout(timer)
     }
   }, [ready, user, confirmingOrderNo, t])
+
+  useEffect(() => {
+    return () => {
+      const controller = paymentRefreshController.current
+      paymentRefreshController.current = null
+      controller?.abort()
+    }
+  }, [user?.id])
 
   useEffect(() => {
     if (ready && !user) {
@@ -233,6 +268,43 @@ export function MyOrdersPanel() {
       setError(ex instanceof Error ? ex.message : t("orders.cancelFailed"))
     } finally {
       setCancelling(null)
+    }
+  }
+
+  const refreshPaymentStatus = async (orderNo: string) => {
+    paymentRefreshController.current?.abort()
+    const controller = new AbortController()
+    paymentRefreshController.current = controller
+    const requestTimeout = setTimeout(() => controller.abort(), 25000)
+    setRefreshingOrderNo(orderNo)
+    setError(null)
+    try {
+      const result = await apiJson<PaymentStatusResponse>(
+        `/payment/orders/${encodeURIComponent(orderNo)}/refresh`,
+        { method: "POST", signal: controller.signal },
+      )
+      const data = await apiJson<OrderResponse[]>("/orders", { signal: controller.signal })
+      if (controller.signal.aborted) return
+      setOrders(data)
+      setNotice(
+        t("orders.paymentStatusNotice", {
+          no: orderNo,
+          message: t(
+            paymentStatusView(result, data.find((order) => order.orderNo === orderNo)?.status)
+              .messageKey,
+          ),
+        }),
+      )
+    } catch {
+      if (paymentRefreshController.current === controller) {
+        setNotice(t("orders.paymentStatusUnavailable"))
+      }
+    } finally {
+      clearTimeout(requestTimeout)
+      if (paymentRefreshController.current === controller) {
+        paymentRefreshController.current = null
+        setRefreshingOrderNo(null)
+      }
     }
   }
 
@@ -354,7 +426,10 @@ export function MyOrdersPanel() {
         <h1 className="text-2xl font-bold leading-9">{t("orders.title")}</h1>
 
         {notice ? (
-          <div className="mt-6 rounded border border-green-200 bg-green-50 px-4 py-3 text-sm text-green-700">
+          <div
+            role="status"
+            className="mt-6 rounded border border-blue-200 bg-blue-50 px-4 py-3 text-sm text-blue-800"
+          >
             {notice}
           </div>
         ) : null}
@@ -515,6 +590,8 @@ export function MyOrdersPanel() {
                             disabled={
                               paying === order.orderNo ||
                               cancelling === order.orderNo ||
+                              refreshingOrderNo === order.orderNo ||
+                              confirmingOrderNo === order.orderNo ||
                               (order.totalAmount !== 0 && !firstEnabledPaymentMethod)
                             }
                             onClick={() => {
@@ -532,7 +609,28 @@ export function MyOrdersPanel() {
                           </button>
                           <button
                             type="button"
-                            disabled={cancelling === order.orderNo || paying === order.orderNo}
+                            disabled={
+                              refreshingOrderNo !== null ||
+                              confirmingOrderNo !== null ||
+                              cancelling === order.orderNo ||
+                              paying === order.orderNo
+                            }
+                            onClick={() => void refreshPaymentStatus(order.orderNo)}
+                            className="text-xs font-bold text-ikea-blue hover:underline disabled:cursor-not-allowed disabled:opacity-50"
+                          >
+                            {refreshingOrderNo === order.orderNo ||
+                            confirmingOrderNo === order.orderNo
+                              ? t("orders.refreshingPaymentStatus")
+                              : t("orders.refreshPaymentStatus")}
+                          </button>
+                          <button
+                            type="button"
+                            disabled={
+                              cancelling === order.orderNo ||
+                              paying === order.orderNo ||
+                              refreshingOrderNo === order.orderNo ||
+                              confirmingOrderNo === order.orderNo
+                            }
                             onClick={() => void cancelOrder(order.orderNo)}
                             className="text-xs font-bold text-ikea-blue hover:underline disabled:cursor-not-allowed disabled:opacity-50"
                           >

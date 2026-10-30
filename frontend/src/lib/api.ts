@@ -115,6 +115,11 @@ export interface CreatePaymentResponse {
   completed: boolean
 }
 
+export interface PaymentStatusResponse {
+  status: "paid" | "pending" | "failed" | "closed" | "unknown" | "not_started" | "unavailable"
+  retryAllowed: boolean
+}
+
 export interface LogisticsView {
   carrier: string | null
   trackingNo: string | null

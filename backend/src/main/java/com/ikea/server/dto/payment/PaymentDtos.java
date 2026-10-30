@@ -14,4 +14,6 @@ public final class PaymentDtos {
 
   public record CreatePaymentResponse(
       boolean mockOnly, String channel, String payUrl, boolean completed) {}
+
+  public record PaymentStatusResponse(String status, boolean retryAllowed) {}
 }

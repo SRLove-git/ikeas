@@ -99,7 +99,7 @@ node scripts/export-server-data.mjs
 
 ### 真实支付与环境变量
 
-商城默认 `IKEA_PAYMENT_MOCK_ONLY=true` 走本地模拟支付。YeahPay 启用前必须完成 API 开通、生产服务器出口 IP 白名单和 HTTPS 回调登记：
+商城默认 `IKEA_PAYMENT_MOCK_ONLY=true` 走本地模拟支付。YeahPay 启用前必须完成 API 开通、生产服务器出口 IP 白名单，并提供可公网访问的 HTTPS 支付回调地址（通过每次下单的 `notifyUrl` 发送）：
 
 ```bash
 IKEA_PAYMENT_MOCK_ONLY=false
@@ -113,7 +113,9 @@ IKEA_YEAHPAY_NOTIFY_URL=https://medical-sg.com/api/v1/payment/yeahpay/webhook
 IKEA_YEAHPAY_ENABLED_METHODS=visa,mastercard,amex
 ```
 
-以上密钥只允许注入服务器 Secret/环境变量，不得写入仓库或前端构建产物。支付页回跳仅用于页面提示，订单只能由验签后的服务端回调推进。
+以上密钥只允许注入服务器 Secret/环境变量，不得写入仓库或前端构建产物。支付页回跳仅触发状态查询，订单只能由验签后的服务端回调或核验商户、订单、金额、币种后的服务端查单结果推进。
+
+订单页支持“更新支付状态”，支付返回后也会有限次数自动查单。YeahPay 支付通知仅推送成功结果；失败、关闭通过 `/order/queryOrder` 核实。查单返回 `10012`（订单不存在）、网络异常或字段不匹配均不能判定支付失败，也不会自动解锁新支付。详见 [支付确认与重试](docs/yeahpay-payment-reconciliation.md)。
 
 `IKEA_YEAHPAY_ENABLED_METHODS` 必须只填写商户后台已开通的方式。可选值为 `visa`、`mastercard`、`amex`、`unionpay`、`applepay`、`googlepay`；未列出的方式不会在前台开放。
 

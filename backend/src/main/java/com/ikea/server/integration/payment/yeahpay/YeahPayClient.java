@@ -20,9 +20,29 @@ public class YeahPayClient {
 
   static final String HOSTED_CHECKOUT_PATH = "/cardOrder/getRedirectUrl";
   static final String PC_HOSTED_CHECKOUT_PATH = "/cardOrder/getPcRedirectUrl";
+  static final String QUERY_ORDER_PATH = "/order/queryOrder";
 
   public record PcCheckoutDetails(
       String consumerId, String customerName, String email, String address, String postalCode) {}
+
+  /** 渠道查单结果。found=false 只表示未查到订单，不代表支付失败。 */
+  public record QueryOrderResult(
+      boolean found,
+      Integer status,
+      String merchantId,
+      String thirdOrderId,
+      String transactionNo,
+      Long amountMinor,
+      String currency,
+      String code,
+      String traceId) {}
+
+  /** 渠道明确返回业务拒绝；区别于网络故障或无法确认结果的响应。 */
+  public static final class RejectedRequestException extends IllegalStateException {
+    public RejectedRequestException(String message) {
+      super(message);
+    }
+  }
 
   private final YeahPayProperties properties;
   private final ObjectMapper mapper;
@@ -46,6 +66,47 @@ public class YeahPayClient {
 
   public boolean isConfigured() {
     return properties.isConfigured();
+  }
+
+  /** 使用商户订单号只读查询渠道状态；接口异常不得降级为支付失败。 */
+  public QueryOrderResult queryOrder(String orderNo) {
+    properties.validateForUse();
+    if (!hasText(orderNo)) {
+      throw new IllegalArgumentException("支付查询缺少订单号");
+    }
+    JsonNode response = post(
+        QUERY_ORDER_PATH,
+        Map.of("merchantId", properties.getMerchantId(), "thirdOrderId", orderNo));
+    String code = responseCode(response);
+    String traceId = traceId(response);
+    if ("10012".equals(code)) {
+      return new QueryOrderResult(false, null, null, null, null, null, null, code, traceId);
+    }
+    requireSuccessfulCode(response, code);
+    JsonNode data = response.path("data");
+    if (!data.isObject()) {
+      throw responseError("查单响应缺少 data 对象", code, traceId);
+    }
+    Long statusValue = nonNegativeInteger(data, "status", code, traceId);
+    if (statusValue == null || statusValue > Integer.MAX_VALUE) {
+      throw responseError("查单响应 status 非法", code, traceId);
+    }
+    String merchantId = optionalText(data, "merchantId", code, traceId);
+    String thirdOrderId = optionalText(data, "thirdOrderId", code, traceId);
+    String transactionNo = optionalText(data, "leshuaOrderId", code, traceId);
+    if (transactionNo == null) {
+      transactionNo = optionalText(data, "channelOrderId", code, traceId);
+    }
+    Long amountMinor = nonNegativeInteger(data, "amount", code, traceId);
+    String currency = optionalText(data, "currency", code, traceId);
+    int status = statusValue.intValue();
+    if (status == 2
+        && (merchantId == null || thirdOrderId == null || transactionNo == null
+            || amountMinor == null || currency == null)) {
+      throw responseError("查单成功交易缺少必要字段", code, traceId);
+    }
+    return new QueryOrderResult(
+        true, status, merchantId, thirdOrderId, transactionNo, amountMinor, currency, code, traceId);
   }
 
   public String createHostedCheckout(
@@ -138,21 +199,82 @@ public class YeahPayClient {
   }
 
   private String checkoutUrl(JsonNode response) {
-    String checkoutUrl = response.path("data").path("url").asText(null);
+    String code = responseCode(response);
+    requireSuccessfulCode(response, code);
+    String traceId = traceId(response);
+    String checkoutUrl = optionalText(response.path("data"), "url", code, traceId);
     if (!hasText(checkoutUrl)) {
-      checkoutUrl = response.path("url").asText(null);
+      checkoutUrl = optionalText(response, "url", code, traceId);
     }
     if (!hasText(checkoutUrl)) {
-      String code = response.path("code").asText("");
-      String message = response.path("message").asText("");
-      if ("Merchant payment unavailable".equalsIgnoreCase(message.trim())) {
-        throw new IllegalStateException("当前商户尚未开通该支付方式，请选择其他支付方式");
-      }
-      throw new IllegalStateException(
-          "YeahPay 未返回收银台地址 code=" + code + " message=" + truncate(message));
+      throw responseError("未返回收银台地址", code, traceId);
     }
     validateCheckoutUrl(checkoutUrl);
     return checkoutUrl;
+  }
+
+  private static String responseCode(JsonNode response) {
+    JsonNode code = response == null ? null : response.get("code");
+    if (code == null || !(code.isTextual() || code.isIntegralNumber())
+        || !code.asText().matches("-?(0|[1-9][0-9]{0,9})")) {
+      throw responseError("响应业务码缺失或非法", "invalid", traceId(response));
+    }
+    return code.asText();
+  }
+
+  private static void requireSuccessfulCode(JsonNode response, String code) {
+    // 公共响应规范使用 0，收银台接口表使用 200；线上均需兼容。
+    if ("0".equals(code) || "200".equals(code)) {
+      return;
+    }
+    String message = response.path("message").asText("");
+    String reason = "Merchant payment unavailable".equalsIgnoreCase(message.trim())
+        ? "当前商户尚未开通该支付方式，请选择其他支付方式"
+        : "接口返回失败";
+    throw new RejectedRequestException(responseErrorMessage(reason, code, traceId(response)));
+  }
+
+  private static String optionalText(JsonNode data, String field, String code, String traceId) {
+    JsonNode value = data.get(field);
+    if (value == null || value.isNull()) {
+      return null;
+    }
+    if (!value.isTextual() || !hasText(value.textValue())) {
+      throw responseError("响应字段 " + field + " 非法", code, traceId);
+    }
+    return value.textValue();
+  }
+
+  private static Long nonNegativeInteger(
+      JsonNode data, String field, String code, String traceId) {
+    JsonNode value = data.get(field);
+    if (value == null || value.isNull()) {
+      return null;
+    }
+    if (!(value.isIntegralNumber() || value.isTextual())
+        || !value.asText().matches("0|[1-9][0-9]*")) {
+      throw responseError("响应字段 " + field + " 必须为非负整数", code, traceId);
+    }
+    try {
+      return Long.parseLong(value.asText());
+    } catch (NumberFormatException ex) {
+      throw responseError("响应字段 " + field + " 超出整数范围", code, traceId);
+    }
+  }
+
+  private static String traceId(JsonNode response) {
+    JsonNode trace = response == null ? null : response.get("traceId");
+    return trace != null && trace.isTextual()
+        && trace.textValue().matches("[A-Za-z0-9._:-]{1,128}") ? trace.textValue() : null;
+  }
+
+  private static IllegalStateException responseError(String reason, String code, String traceId) {
+    return new IllegalStateException(responseErrorMessage(reason, code, traceId));
+  }
+
+  private static String responseErrorMessage(String reason, String code, String traceId) {
+    return "YeahPay " + reason + " code=" + code
+        + (traceId == null ? "" : " traceId=" + traceId);
   }
 
   private static void validatePcCheckoutDetails(PcCheckoutDetails details) {
@@ -201,11 +323,8 @@ public class YeahPayClient {
       HttpResponse<String> response =
           httpClient.send(request, HttpResponse.BodyHandlers.ofString());
       if (response.statusCode() < 200 || response.statusCode() >= 300) {
-        throw new IllegalStateException(
-            "YeahPay 请求失败 status="
-                + response.statusCode()
-                + " body="
-                + truncate(response.body()));
+        // 错误响应也可能包含收银台令牌，不将原始内容放入异常或日志。
+        throw new IllegalStateException("YeahPay 请求失败 status=" + response.statusCode());
       }
       return mapper.readTree(response.body());
     } catch (InterruptedException ex) {
@@ -266,10 +385,4 @@ public class YeahPayClient {
     return value != null && !value.isBlank();
   }
 
-  private static String truncate(String value) {
-    if (value == null) {
-      return "";
-    }
-    return value.length() > 500 ? value.substring(0, 500) : value;
-  }
 }

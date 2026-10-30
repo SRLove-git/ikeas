@@ -15,6 +15,8 @@ import static org.mockito.Mockito.when;
 import com.baomidou.mybatisplus.core.conditions.Wrapper;
 import com.ikea.server.constant.OrderStatus;
 import com.ikea.server.dto.payment.PaymentDtos.CreatePaymentResponse;
+import com.ikea.server.dto.payment.PaymentDtos.PaymentStatusResponse;
+import com.ikea.server.service.PaymentPersistenceService.PaymentAttempt;
 import com.ikea.server.entity.AppUser;
 import com.ikea.server.entity.Order;
 import com.ikea.server.integration.payment.yeahpay.YeahPayClient;
@@ -29,6 +31,7 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.nio.charset.StandardCharsets;
 import java.time.Instant;
+import java.time.LocalDateTime;
 import java.util.HexFormat;
 import java.util.Optional;
 import javax.crypto.Mac;
@@ -49,6 +52,7 @@ class PaymentGatewayServiceTest {
   private YeahPayProperties properties;
   private PaymentPersistenceService paymentPersistenceService;
   private UserService userService;
+  private PaymentReconciliationService reconciliationService;
   private PaymentGatewayService service;
 
   @BeforeEach
@@ -59,6 +63,7 @@ class PaymentGatewayServiceTest {
     properties = configuredProperties();
     paymentPersistenceService = mock(PaymentPersistenceService.class);
     userService = mock(UserService.class);
+    reconciliationService = mock(PaymentReconciliationService.class);
     service =
         new PaymentGatewayService(
             orderMapper,
@@ -66,7 +71,11 @@ class PaymentGatewayServiceTest {
             yeahPayClient,
             properties,
             paymentPersistenceService,
-            userService);
+            userService,
+            reconciliationService);
+    when(paymentPersistenceService.findAttempt(any())).thenReturn(
+        Optional.empty(), Optional.of(new PaymentAttempt("ORD", "yeahpay", "visa", 0,
+            null, null, null, LocalDateTime.of(2026, 10, 30, 12, 0))));
     when(paymentPersistenceService.recordCallbackIfAbsent(any(), any(), any(), any()))
         .thenReturn(true);
     when(paymentPersistenceService.reservePaymentAttempt(any(), any(), any())).thenReturn(true);
@@ -330,8 +339,10 @@ class PaymentGatewayServiceTest {
     verify(yeahPayClient, never()).createHostedCheckout(any(), any(), anyLong(), any(), any());
   }
 
-  @Test
-  void webhookShouldVerifySignatureAndMarkMatchingSuccessfulOrderPaid() {
+  @ParameterizedTest
+  @org.junit.jupiter.params.provider.NullSource
+  @ValueSource(strings = {"SHA-512"})
+  void webhookShouldVerifySignatureAndMarkMatchingSuccessfulOrderPaid(String algorithm) {
     String timestamp = String.valueOf(System.currentTimeMillis());
     String nonce = "AbCdEf1234567890";
     String payload =
@@ -353,7 +364,7 @@ class PaymentGatewayServiceTest {
             payload,
             YeahPaySigner.VERSION,
             timestamp,
-            YeahPaySigner.ALGORITHM,
+            algorithm,
             signature,
             properties.getAppId(),
             nonce);
@@ -463,6 +474,148 @@ class PaymentGatewayServiceTest {
                 signature,
                 properties.getAppId(),
                 nonce));
+  }
+
+  @Test
+  void unknownPaymentShouldResumeTheExistingCheckoutWithoutCreatingAnother() {
+    preparePendingOrder();
+    when(paymentPersistenceService.findAttempt("ORD-RETRY")).thenReturn(Optional.of(attempt("https://payment.yeahpay.net/checkout/existing")));
+    when(reconciliationService.refresh(42L, "ORD-RETRY"))
+        .thenReturn(new PaymentStatusResponse("unknown", false));
+
+    CreatePaymentResponse result = service.createPayment(42L, "ORD-RETRY", "visa");
+
+    assertEquals("https://payment.yeahpay.net/checkout/existing", result.payUrl());
+    verify(paymentPersistenceService, never()).reservePaymentAttempt(any(), any(), any());
+    verify(yeahPayClient, never()).createHostedCheckout(any(), any(), anyLong(), any(), any());
+  }
+
+  @Test
+  void unknownPaymentWithoutSavedCheckoutShouldNotStartAnotherPayment() {
+    preparePendingOrder();
+    when(paymentPersistenceService.findAttempt("ORD-RETRY")).thenReturn(Optional.of(attempt(null)));
+    when(reconciliationService.refresh(42L, "ORD-RETRY"))
+        .thenReturn(new PaymentStatusResponse("unknown", false));
+
+    assertThrows(IllegalArgumentException.class,
+        () -> service.createPayment(42L, "ORD-RETRY", "visa"));
+    verify(paymentPersistenceService, never()).reservePaymentAttempt(any(), any(), any());
+    verify(yeahPayClient, never()).createHostedCheckout(any(), any(), anyLong(), any(), any());
+  }
+
+  @Test
+  void confirmedPaidOrderShouldCompleteWithoutOpeningAnotherCheckout() {
+    preparePendingOrder();
+    when(paymentPersistenceService.findAttempt("ORD-RETRY")).thenReturn(Optional.of(attempt(null)));
+    when(reconciliationService.refresh(42L, "ORD-RETRY"))
+        .thenReturn(new PaymentStatusResponse("paid", false));
+
+    assertTrue(service.createPayment(42L, "ORD-RETRY", "visa").completed());
+    verify(paymentPersistenceService, never()).reservePaymentAttempt(any(), any(), any());
+  }
+
+  @Test
+  void confirmedFailedOrderShouldAllowNewCheckoutAndSaveItsAddress() {
+    preparePendingOrder();
+    when(paymentPersistenceService.findAttempt("ORD-RETRY")).thenReturn(Optional.of(attempt(null)));
+    when(reconciliationService.refresh(42L, "ORD-RETRY"))
+        .thenReturn(new PaymentStatusResponse("failed", true));
+    String url = "https://payment.yeahpay.net/checkout/new";
+    when(yeahPayClient.createHostedCheckout(any(), any(), anyLong(), any(), any())).thenReturn(url);
+
+    assertEquals(url, service.createPayment(42L, "ORD-RETRY", "visa").payUrl());
+    verify(paymentPersistenceService).saveCheckoutUrl("ORD-RETRY", "yeahpay", url, attempt(null).createdAt());
+  }
+
+  @Test
+  void networkErrorMustNotReleaseAnAmbiguousCheckoutAttempt() {
+    preparePendingOrder();
+    when(yeahPayClient.createHostedCheckout(any(), any(), anyLong(), any(), any()))
+        .thenThrow(new IllegalStateException("timeout"));
+
+    assertThrows(IllegalStateException.class,
+        () -> service.createPayment(42L, "ORD-RETRY", "visa"));
+    verify(paymentPersistenceService, never()).markPaymentAttemptFailed(any(), any());
+  }
+
+  @Test
+  void explicitProviderRejectionShouldReleaseTheCheckoutAttempt() {
+    preparePendingOrder();
+    when(yeahPayClient.createHostedCheckout(any(), any(), anyLong(), any(), any()))
+        .thenThrow(new YeahPayClient.RejectedRequestException("code=400"));
+
+    assertThrows(YeahPayClient.RejectedRequestException.class,
+        () -> service.createPayment(42L, "ORD-RETRY", "visa"));
+    verify(paymentPersistenceService).markPaymentAttemptFailed("ORD-RETRY", "yeahpay");
+  }
+
+  @Test
+  void webhookMustRejectAnExplicitUnsupportedAlgorithm() {
+    assertThrows(IllegalArgumentException.class, () -> service.handleYeahPayWebhook(
+        "{}", "1.0", String.valueOf(System.currentTimeMillis()), "SHA-256", "signature",
+        properties.getAppId(), "nonce"));
+    verifyNoInteractions(orderService);
+  }
+
+  @Test
+  void webhookMustNotTruncateFractionalMinorUnits() {
+    String timestamp = String.valueOf(System.currentTimeMillis());
+    String payload = "{\"merchantId\":\"merchant-test\",\"status\":2,\"thirdOrderId\":\"ORD-1\","
+        + "\"leshuaOrderId\":\"YP-1\",\"currency\":\"SGD\",\"amount\":1234.5}";
+    String signature = YeahPaySigner.sign(properties.getNotifyUrl(), properties.getAppId(),
+        timestamp, "1.0", "nonce", payload, properties.getApiKey());
+    assertThrows(IllegalArgumentException.class, () -> service.handleYeahPayWebhook(
+        payload, "1.0", timestamp, null, signature, properties.getAppId(), "nonce"));
+    verifyNoInteractions(orderService);
+  }
+
+  private void preparePendingOrder() {
+    Order order = new Order();
+    order.setOrderNo("ORD-RETRY");
+    order.setUserId(42L);
+    order.setStatus(OrderStatus.PENDING_PAYMENT.code());
+    order.setCurrency("SGD");
+    order.setTotalAmount(new BigDecimal("12.34"));
+    when(orderMapper.selectOne(any(Wrapper.class))).thenReturn(order);
+    when(yeahPayClient.isConfigured()).thenReturn(true);
+  }
+
+  @Test
+  void invalidCheckoutModeShouldNotReserveAnAttempt() {
+    preparePendingOrder();
+    assertThrows(IllegalArgumentException.class,
+        () -> service.createPayment(42L, "ORD-RETRY", "visa", "invalid"));
+    verify(paymentPersistenceService, never()).reservePaymentAttempt(any(), any(), any());
+    verifyNoInteractions(reconciliationService);
+  }
+
+  @Test
+  void invalidPcCustomerDetailsShouldNotReserveAnAttempt() {
+    preparePendingOrder();
+    properties.setPcCheckoutEnabled(true);
+    when(userService.findById(42L)).thenReturn(Optional.of(new AppUser()));
+    assertThrows(IllegalArgumentException.class,
+        () -> service.createPayment(42L, "ORD-RETRY", "visa", "pc"));
+    verify(paymentPersistenceService, never()).reservePaymentAttempt(any(), any(), any());
+  }
+
+  @Test
+  void concurrentRetryMustResumeCurrentCheckoutRatherThanOldSnapshot() {
+    preparePendingOrder();
+    when(paymentPersistenceService.findAttempt("ORD-RETRY"))
+        .thenReturn(Optional.of(attempt("https://payment.yeahpay.net/checkout/old")),
+            Optional.of(attempt("https://payment.yeahpay.net/checkout/current")));
+    when(reconciliationService.refresh(42L, "ORD-RETRY"))
+        .thenReturn(new PaymentStatusResponse("pending", false));
+
+    assertEquals("https://payment.yeahpay.net/checkout/current",
+        service.createPayment(42L, "ORD-RETRY", "visa").payUrl());
+    verify(paymentPersistenceService, never()).reservePaymentAttempt(any(), any(), any());
+  }
+
+  private static PaymentAttempt attempt(String url) {
+    return new PaymentAttempt("ORD-RETRY", "yeahpay", "visa", 0, url, null, null,
+        LocalDateTime.of(2026, 10, 30, 12, 0));
   }
 
   private static YeahPayProperties configuredProperties() {

@@ -6,6 +6,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.ikea.server.constant.OrderStatus;
 import com.ikea.server.dto.payment.PaymentDtos.CreatePaymentResponse;
 import com.ikea.server.dto.payment.PaymentDtos.PaymentOptions;
+import com.ikea.server.dto.payment.PaymentDtos.PaymentStatusResponse;
+import com.ikea.server.service.PaymentPersistenceService.PaymentAttempt;
 import com.ikea.server.entity.AppUser;
 import com.ikea.server.entity.Order;
 import com.ikea.server.integration.payment.yeahpay.YeahPayClient;
@@ -73,6 +75,7 @@ public class PaymentGatewayService {
   private final YeahPayProperties yeahPayProperties;
   private final PaymentPersistenceService paymentPersistenceService;
   private final UserService userService;
+  private final PaymentReconciliationService paymentReconciliationService;
   private final HttpClient httpClient = HttpClient.newBuilder()
       .connectTimeout(Duration.ofSeconds(10))
       .build();
@@ -107,13 +110,19 @@ public class PaymentGatewayService {
       YeahPayClient yeahPayClient,
       YeahPayProperties yeahPayProperties,
       PaymentPersistenceService paymentPersistenceService,
-      UserService userService) {
+      UserService userService,
+      PaymentReconciliationService paymentReconciliationService) {
     this.orderMapper = orderMapper;
     this.orderService = orderService;
     this.yeahPayClient = yeahPayClient;
     this.yeahPayProperties = yeahPayProperties;
     this.paymentPersistenceService = paymentPersistenceService;
     this.userService = userService;
+    this.paymentReconciliationService = paymentReconciliationService;
+  }
+
+  public PaymentStatusResponse refreshPayment(Long userId, String orderNo) {
+    return paymentReconciliationService.refresh(userId, orderNo);
   }
 
   public PaymentOptions options() {
@@ -174,12 +183,37 @@ public class PaymentGatewayService {
       if (!enabledMethods.contains(yeahPayChannel)) {
         throw new IllegalArgumentException("该支付方式尚未为当前商户启用");
       }
+      if (hasText(checkoutMode)
+          && !"h5".equalsIgnoreCase(checkoutMode) && !"pc".equalsIgnoreCase(checkoutMode)) {
+        throw new IllegalArgumentException("不支持的收银台类型");
+      }
+      boolean usePcCheckout = "pc".equalsIgnoreCase(checkoutMode)
+          && yeahPayProperties.isPcCheckoutEnabled();
+      // 本地校验失败未发出渠道请求，不应留下无法确认的支付会话。
+      PcCheckoutDetails pcDetails = usePcCheckout ? pcCheckoutDetails(userId, order) : null;
+      PaymentAttempt previous = paymentPersistenceService.findAttempt(orderNo).orElse(null);
+      if (previous != null && "yeahpay".equals(previous.provider())) {
+        PaymentStatusResponse refreshed = paymentReconciliationService.refresh(userId, orderNo);
+        if ("paid".equals(refreshed.status())) {
+          return new CreatePaymentResponse(false, "yeahpay", null, true);
+        }
+        if (!refreshed.retryAllowed()) {
+          PaymentAttempt current = paymentPersistenceService.findAttempt(orderNo).orElse(null);
+          if (current != null && current.status() == 0 && "yeahpay".equals(current.provider())
+              && hasText(current.checkoutUrl()) && yeahPayChannel.equals(current.channel())) {
+            return new CreatePaymentResponse(false, "yeahpay", current.checkoutUrl(), false);
+          }
+          throw new IllegalArgumentException("支付状态尚未确认，请先更新支付状态或联系客服");
+        }
+      }
       long amountMinor = toMinorUnit(order.getTotalAmount(), currency);
       String description = "BUZUD Order " + order.getOrderNo();
       reservePaymentAttempt(order.getOrderNo(), "yeahpay", yeahPayChannel);
+      PaymentAttempt reserved = paymentPersistenceService.findAttempt(orderNo)
+          .orElseThrow(() -> new IllegalStateException("支付会话未保存，请稍后查询订单状态"));
       try {
         String checkoutUrl;
-        if ("pc".equalsIgnoreCase(checkoutMode) && yeahPayProperties.isPcCheckoutEnabled()) {
+        if (usePcCheckout) {
           checkoutUrl =
               yeahPayClient.createPcHostedCheckout(
                   order.getOrderNo(),
@@ -187,19 +221,16 @@ public class PaymentGatewayService {
                   amountMinor,
                   description,
                   yeahPayMethod,
-                  pcCheckoutDetails(userId, order));
-        } else if (checkoutMode == null
-            || checkoutMode.isBlank()
-            || "h5".equalsIgnoreCase(checkoutMode)
-            || "pc".equalsIgnoreCase(checkoutMode)) {
+                  pcDetails);
+        } else {
           checkoutUrl =
               yeahPayClient.createHostedCheckout(
                   order.getOrderNo(), currency, amountMinor, description, yeahPayMethod);
-        } else {
-          throw new IllegalArgumentException("不支持的收银台类型");
         }
+        paymentPersistenceService.saveCheckoutUrl(
+            orderNo, "yeahpay", checkoutUrl, reserved.createdAt());
         return new CreatePaymentResponse(false, "yeahpay", checkoutUrl, false);
-      } catch (RuntimeException ex) {
+      } catch (YeahPayClient.RejectedRequestException ex) {
         paymentPersistenceService.markPaymentAttemptFailed(order.getOrderNo(), "yeahpay");
         throw ex;
       }
@@ -224,7 +255,7 @@ public class PaymentGatewayService {
 
   private void reservePaymentAttempt(String orderNo, String provider, String channel) {
     if (!paymentPersistenceService.reservePaymentAttempt(orderNo, provider, channel)) {
-      throw new IllegalArgumentException("该订单已有有效支付会话，请勿重复发起；15 分钟后可重试");
+      throw new IllegalArgumentException("该订单已有支付会话，请先更新支付状态后继续支付");
     }
   }
 
@@ -299,6 +330,7 @@ public class PaymentGatewayService {
         log.warn("Stripe webhook 缺少必要字段 orderNo={} paymentIntent={}", orderNo, paymentIntent);
         return "ignored";
       }
+      paymentPersistenceService.findAttemptForUpdate(orderNo);
       if (!paymentPersistenceService.recordCallbackIfAbsent(
           "stripe", eventId, orderNo, paymentIntent)) {
         return "ok";
@@ -363,9 +395,11 @@ public class PaymentGatewayService {
         throw new IllegalArgumentException("YeahPay webhook 缺少必要交易字段");
       }
 
-      long amountMinor = amountNode.isNumber()
-          ? amountNode.longValue()
-          : Long.parseLong(amountNode.asText());
+      long amountMinor = Long.parseLong(amountNode.asText());
+      if (amountMinor < 0) {
+        throw new IllegalArgumentException("YeahPay webhook 金额非法");
+      }
+      paymentPersistenceService.findAttemptForUpdate(orderNo);
       if (!paymentPersistenceService.recordCallbackIfAbsent(
           "yeahpay", timestamp + "\n" + nonce, orderNo, transactionNo)) {
         return "success";
@@ -397,7 +431,7 @@ public class PaymentGatewayService {
       String appId,
       String nonce) {
     if (!YeahPaySigner.VERSION.equals(version)
-        || !YeahPaySigner.ALGORITHM.equalsIgnoreCase(algorithm)
+        || (algorithm != null && !YeahPaySigner.ALGORITHM.equalsIgnoreCase(algorithm))
         || !hasText(signature)
         || !yeahPayProperties.getAppId().equals(appId)
         || !hasText(nonce)) {

@@ -3,8 +3,10 @@ package com.ikea.server.service;
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
+import java.time.LocalDateTime;
 import java.util.HexFormat;
 import java.util.Map;
+import java.util.Optional;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Service;
@@ -46,7 +48,7 @@ public class PaymentPersistenceService {
   }
 
   /**
-   * 为订单预留一个短时支付会话。已成功或仍在有效期内的会话不能被覆盖，避免重复创建收银台。
+   * YeahPay 会话只有确认失败才允许重建；时间经过不代表渠道会话已失效。
    */
   public boolean reservePaymentAttempt(String orderNo, String provider, String channel) {
     int changed =
@@ -59,10 +61,16 @@ public class PaymentPersistenceService {
             SET provider = EXCLUDED.provider,
                 channel = EXCLUDED.channel,
                 status = EXCLUDED.status,
+                checkout_url = NULL,
+                query_status = NULL,
+                query_code = NULL,
+                query_trace_id = NULL,
+                last_checked_at = NULL,
                 created_at = CURRENT_TIMESTAMP,
                 updated_at = CURRENT_TIMESTAMP
             WHERE payment_attempt.status = ?
-               OR (payment_attempt.status = ?
+               OR (payment_attempt.provider = 'stripe' AND EXCLUDED.provider = 'stripe'
+                   AND payment_attempt.status = ?
                    AND payment_attempt.updated_at
                        < CURRENT_TIMESTAMP - (? * INTERVAL '1 minute'))
             """,
@@ -74,6 +82,63 @@ public class PaymentPersistenceService {
             ATTEMPT_PENDING,
             ATTEMPT_TTL_MINUTES);
     return changed == 1;
+  }
+
+  public record PaymentAttempt(
+      String orderNo, String provider, String channel, int status, String checkoutUrl,
+      String queryStatus, LocalDateTime lastCheckedAt, LocalDateTime createdAt) {}
+
+  public Optional<PaymentAttempt> findAttempt(String orderNo) {
+    return readAttempt(orderNo, false);
+  }
+
+  /** 必须在事务中调用；串行处理同一会话的查询、回调和重试。 */
+  public Optional<PaymentAttempt> findAttemptForUpdate(String orderNo) {
+    return readAttempt(orderNo, true);
+  }
+
+  private Optional<PaymentAttempt> readAttempt(String orderNo, boolean lock) {
+    String sql = """
+        SELECT order_no, provider, channel, status, checkout_url, query_status,
+               last_checked_at, created_at
+        FROM payment_attempt WHERE order_no = ?
+        """ + (lock ? " FOR UPDATE" : "");
+    return jdbcTemplate.query(sql, (rs, row) -> new PaymentAttempt(
+        rs.getString("order_no"), rs.getString("provider"), rs.getString("channel"),
+        rs.getInt("status"), rs.getString("checkout_url"), rs.getString("query_status"),
+        rs.getObject("last_checked_at", LocalDateTime.class),
+        rs.getObject("created_at", LocalDateTime.class)), orderNo).stream().findFirst();
+  }
+
+  public void saveCheckoutUrl(String orderNo, String provider, String checkoutUrl,
+      LocalDateTime createdAt) {
+    jdbcTemplate.update("""
+        UPDATE payment_attempt SET checkout_url = ?, updated_at = CURRENT_TIMESTAMP
+        WHERE order_no = ? AND provider = ? AND status = ? AND created_at = ?
+        """, checkoutUrl, orderNo, provider, ATTEMPT_PENDING, createdAt);
+  }
+
+  public void recordQueryResult(String orderNo, String status, String code, String traceId) {
+    jdbcTemplate.update("""
+        UPDATE payment_attempt
+        SET query_status = ?, query_code = ?, query_trace_id = ?,
+            last_checked_at = (clock_timestamp() AT TIME ZONE 'UTC')
+        WHERE order_no = ? AND provider = 'yeahpay'
+        """, status, code, traceId, orderNo);
+  }
+
+  public Optional<String> findLastFailedTransactionNo(String orderNo) {
+    return jdbcTemplate.query("""
+        SELECT last_failed_txn_no FROM payment_attempt
+        WHERE order_no = ? AND last_failed_txn_no IS NOT NULL
+        """, (rs, row) -> rs.getString("last_failed_txn_no"), orderNo).stream().findFirst();
+  }
+
+  public void rememberFailedTransactionNo(String orderNo, String transactionNo) {
+    jdbcTemplate.update("""
+        UPDATE payment_attempt SET last_failed_txn_no = ?
+        WHERE order_no = ? AND provider = 'yeahpay' AND status = ?
+        """, transactionNo, orderNo, ATTEMPT_PENDING);
   }
 
   public void markPaymentAttemptSucceeded(String orderNo, String provider) {

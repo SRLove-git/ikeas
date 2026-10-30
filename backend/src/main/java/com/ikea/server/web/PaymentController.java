@@ -3,6 +3,7 @@ package com.ikea.server.web;
 import com.ikea.server.constant.SecurityConstants;
 import com.ikea.server.dto.payment.PaymentDtos.CreatePaymentResponse;
 import com.ikea.server.dto.payment.PaymentDtos.PaymentOptions;
+import com.ikea.server.dto.payment.PaymentDtos.PaymentStatusResponse;
 import com.ikea.server.service.PaymentGatewayService;
 import jakarta.servlet.http.HttpServletRequest;
 import java.util.Map;
@@ -38,6 +39,11 @@ public class PaymentController {
       @RequestParam(defaultValue = "h5") String checkout,
       HttpServletRequest request) {
     return paymentGatewayService.createPayment(userId(request), orderNo, channel, checkout);
+  }
+
+  @PostMapping("/orders/{orderNo}/refresh")
+  public PaymentStatusResponse refresh(@PathVariable String orderNo, HttpServletRequest request) {
+    return paymentGatewayService.refreshPayment(userId(request), orderNo);
   }
 
   @PostMapping("/stripe/webhook")
