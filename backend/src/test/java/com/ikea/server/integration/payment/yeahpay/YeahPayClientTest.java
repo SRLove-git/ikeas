@@ -13,6 +13,7 @@ import com.sun.net.httpserver.HttpServer;
 import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.nio.charset.StandardCharsets;
+import java.util.List;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -32,6 +33,7 @@ class YeahPayClientTest {
   private volatile String checkoutResponse;
   private volatile String directResponse;
   private volatile String queryResponse;
+  private volatile String tradeTypeResponse;
   private volatile int httpStatus;
 
   @BeforeEach
@@ -44,6 +46,9 @@ class YeahPayClientTest {
     directResponse =
         "{\"code\":\"0\",\"data\":{\"tdCode\":\"000201010212PAYNOW-TEST\","
             + "\"leshuaOrderId\":\"YP-DIRECT-1\"}}";
+    tradeTypeResponse = "{\"code\":0,\"message\":\"ok\",\"data\":["
+        + "{\"tradeCode\":\"PayNowPay\"},{\"tradeCode\":\"WXZF\"},"
+        + "{\"tradeCode\":\"MASTER\"},{\"tradeCode\":\"CLICKTOPAY\"}]}";
     server.createContext(
         "/acceptance-open-api/cardOrder/getRedirectUrl",
         exchange -> respond(exchange, checkoutResponse));
@@ -52,6 +57,9 @@ class YeahPayClientTest {
         exchange -> respond(exchange,
               "{\"code\":\"0\",\"data\":{\"url\":"
                   + "\"https://payment.yeahpay.net/checkout/pc-test-session\"}}"));
+    server.createContext(
+        "/acceptance-open-api/cardOrder/getTradeType",
+        exchange -> respond(exchange, tradeTypeResponse));
     server.createContext(
         "/acceptance-open-api/order/queryOrder", exchange -> respond(exchange, queryResponse));
     server.createContext(
@@ -69,6 +77,26 @@ class YeahPayClientTest {
     properties.setSignatureDomain(origin);
     properties.setCallbackUrl("https://medical-sg.com/zh/profile/my-orders?payment=success");
     properties.setNotifyUrl("https://medical-sg.com/api/v1/payment/yeahpay/webhook");
+  }
+
+  @Test
+  void enabledPaymentMethodsShouldMapOnlySupportedStorefrontMethods() throws Exception {
+    YeahPayClient client = new YeahPayClient(properties, mapper);
+
+    assertEquals(List.of("paynow", "wechatpay", "mastercard"),
+        client.enabledPaymentMethods());
+    assertEquals("POST", receivedMethod);
+    assertEquals("merchant-test", mapper.readTree(receivedBody).path("merchantId").asText());
+    assertEquals(
+        YeahPaySigner.sign(
+            "/acceptance-open-api/cardOrder/getTradeType",
+            "app-test",
+            receivedTimestamp,
+            YeahPaySigner.VERSION,
+            receivedNonce,
+            receivedBody,
+            "test-api-key"),
+        receivedSignature);
   }
 
   private void respond(HttpExchange exchange, String json) throws IOException {

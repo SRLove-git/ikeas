@@ -8,8 +8,11 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.time.Duration;
+import java.time.Instant;
+import java.util.LinkedHashSet;
 import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Locale;
 import java.util.Map;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -20,8 +23,10 @@ public class YeahPayClient {
 
   static final String HOSTED_CHECKOUT_PATH = "/cardOrder/getRedirectUrl";
   static final String PC_HOSTED_CHECKOUT_PATH = "/cardOrder/getPcRedirectUrl";
+  static final String TRADE_TYPE_PATH = "/cardOrder/getTradeType";
   static final String UNIFIED_ORDER_PATH = "/order/unifiedOrder";
   static final String QUERY_ORDER_PATH = "/order/queryOrder";
+  private static final Duration ENABLED_METHODS_CACHE_TTL = Duration.ofMinutes(5);
 
   public record PcCheckoutDetails(
       String consumerId, String customerName, String email, String address, String postalCode) {}
@@ -51,6 +56,10 @@ public class YeahPayClient {
   private final YeahPayProperties properties;
   private final ObjectMapper mapper;
   private final HttpClient httpClient;
+  private final Object enabledMethodsLock = new Object();
+  private volatile EnabledMethodsCache enabledMethodsCache;
+
+  private record EnabledMethodsCache(List<String> methods, Instant expiresAt) {}
 
   @Autowired
   public YeahPayClient(YeahPayProperties properties, ObjectMapper mapper) {
@@ -70,6 +79,69 @@ public class YeahPayClient {
 
   public boolean isConfigured() {
     return properties.isConfigured();
+  }
+
+  /** 查询当前 MID 实际开通的收银台方式；短时缓存并在临时故障时沿用上次成功结果。 */
+  public List<String> enabledPaymentMethods() {
+    properties.validateForUse();
+    Instant now = Instant.now();
+    EnabledMethodsCache cached = enabledMethodsCache;
+    if (cached != null && now.isBefore(cached.expiresAt())) {
+      return cached.methods();
+    }
+    synchronized (enabledMethodsLock) {
+      cached = enabledMethodsCache;
+      now = Instant.now();
+      if (cached != null && now.isBefore(cached.expiresAt())) {
+        return cached.methods();
+      }
+      try {
+        JsonNode response = post(
+            TRADE_TYPE_PATH, Map.of("merchantId", properties.getMerchantId()));
+        String code = responseCode(response);
+        requireSuccessfulCode(response, code);
+        JsonNode data = response.path("data");
+        if (!data.isArray()) {
+          throw responseError("支付方式响应缺少 data 数组", code, traceId(response));
+        }
+        LinkedHashSet<String> methods = new LinkedHashSet<>();
+        for (JsonNode item : data) {
+          JsonNode tradeCode = item.get("tradeCode");
+          if (tradeCode != null && tradeCode.isTextual()) {
+            String method = storefrontMethod(tradeCode.textValue());
+            if (method != null) {
+              methods.add(method);
+            }
+          }
+        }
+        List<String> result = List.copyOf(methods);
+        enabledMethodsCache = new EnabledMethodsCache(result, now.plus(ENABLED_METHODS_CACHE_TTL));
+        return result;
+      } catch (RuntimeException ex) {
+        if (cached != null) {
+          return cached.methods();
+        }
+        throw ex;
+      }
+    }
+  }
+
+  private static String storefrontMethod(String tradeCode) {
+    if (!hasText(tradeCode)) {
+      return null;
+    }
+    return switch (tradeCode.trim().toUpperCase(Locale.ROOT)) {
+      case "PAYNOWPAY" -> "paynow";
+      case "WXZF" -> "wechatpay";
+      case "ZFBZF" -> "alipay";
+      case "VISA" -> "visa";
+      case "MASTER" -> "mastercard";
+      case "AMEX" -> "amex";
+      case "UNIONPAY" -> "unionpay";
+      case "APPLEPAY" -> "applepay";
+      case "GOOGLEPAY" -> "googlepay";
+      default -> null;
+    };
   }
 
   /** 使用商户订单号只读查询渠道状态；接口异常不得降级为支付失败。 */

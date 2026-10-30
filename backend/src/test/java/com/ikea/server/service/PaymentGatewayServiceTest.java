@@ -16,6 +16,7 @@ import static org.mockito.Mockito.when;
 import com.baomidou.mybatisplus.core.conditions.Wrapper;
 import com.ikea.server.constant.OrderStatus;
 import com.ikea.server.dto.payment.PaymentDtos.CreatePaymentResponse;
+import com.ikea.server.dto.payment.PaymentDtos.PaymentOptions;
 import com.ikea.server.dto.payment.PaymentDtos.PaymentStatusResponse;
 import com.ikea.server.service.PaymentPersistenceService.PaymentAttempt;
 import com.ikea.server.service.PaymentPersistenceService.ProviderOrder;
@@ -36,6 +37,7 @@ import java.nio.charset.StandardCharsets;
 import java.time.Instant;
 import java.time.LocalDateTime;
 import java.util.HexFormat;
+import java.util.List;
 import java.util.Optional;
 import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;
@@ -82,6 +84,21 @@ class PaymentGatewayServiceTest {
     when(paymentPersistenceService.recordCallbackIfAbsent(any(), any(), any(), any()))
         .thenReturn(true);
     when(paymentPersistenceService.reservePaymentAttempt(any(), any(), any())).thenReturn(true);
+    when(yeahPayClient.enabledPaymentMethods())
+        .thenReturn(properties.enabledPaymentMethods());
+  }
+
+  @Test
+  void paymentOptionsShouldIntersectConfiguredAndMerchantEnabledMethods() {
+    properties.setEnabledMethods("paynow,wechatpay,visa");
+    when(yeahPayClient.isConfigured()).thenReturn(true);
+    when(yeahPayClient.enabledPaymentMethods())
+        .thenReturn(List.of("paynow", "wechatpay", "visa", "applepay"));
+
+    PaymentOptions options = service.options();
+
+    assertEquals("yeahpay", options.provider());
+    assertEquals(List.of("paynow", "wechatpay", "visa"), options.enabledMethods());
   }
 
   @Test

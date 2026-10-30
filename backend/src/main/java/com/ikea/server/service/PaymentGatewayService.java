@@ -138,13 +138,25 @@ public class PaymentGatewayService {
     }
     if (yeahPayClient.isConfigured()) {
       return new PaymentOptions(
-          false, stripePublicKey, "yeahpay", yeahPayProperties.enabledPaymentMethods());
+          false, stripePublicKey, "yeahpay", activeYeahPayMethods());
     }
     if (stripeConfigured()) {
       return new PaymentOptions(
           false, stripePublicKey, "stripe", STRIPE_CARD_METHODS);
     }
     return new PaymentOptions(false, stripePublicKey, "unavailable", List.of());
+  }
+
+  private List<String> activeYeahPayMethods() {
+    try {
+      Set<String> providerMethods = Set.copyOf(yeahPayClient.enabledPaymentMethods());
+      return yeahPayProperties.enabledPaymentMethods().stream()
+          .filter(providerMethods::contains)
+          .toList();
+    } catch (RuntimeException ex) {
+      log.warn("查询 YeahPay 已开通支付方式失败 errorType={}", ex.getClass().getSimpleName());
+      return List.of();
+    }
   }
 
   public CreatePaymentResponse createPayment(Long userId, String orderNo, String channel) {
@@ -183,7 +195,7 @@ public class PaymentGatewayService {
     String yeahPayMethod = firstNonBlank(
         YEAHPAY_DIRECT_WALLETS.get(normalized), YEAHPAY_PAYMENT_METHODS.get(normalized));
     if (!explicitlyStripe && yeahPayClient.isConfigured()) {
-      List<String> enabledMethods = yeahPayProperties.enabledPaymentMethods();
+      List<String> enabledMethods = activeYeahPayMethods();
       String yeahPayChannel = normalized;
       if (yeahPayMethod == null) {
         yeahPayChannel = enabledMethods.stream()

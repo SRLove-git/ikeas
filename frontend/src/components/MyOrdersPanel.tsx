@@ -809,15 +809,16 @@ export function MyOrdersPanel() {
             </div>
 
             <div className="grid grid-cols-2 gap-3 px-5 py-5 sm:grid-cols-3 sm:px-6">
-              {PAYMENT_METHODS.map((method) => {
+              {PAYMENT_METHODS.filter((method) =>
+                paymentOptions?.enabledMethods.includes(method.id),
+              ).map((method) => {
                 const selected = paymentMethod === method.id
-                const enabled = paymentOptions?.enabledMethods.includes(method.id) ?? false
                 return (
                   <button
                     key={method.id}
                     type="button"
                     aria-pressed={selected}
-                    disabled={paying === paymentOrderNo || !enabled}
+                    disabled={paying === paymentOrderNo}
                     onClick={() => setPaymentMethod(method.id)}
                     className={`min-h-24 rounded-xl border-2 p-3 text-left transition-all disabled:opacity-50 ${
                       selected
@@ -831,11 +832,9 @@ export function MyOrdersPanel() {
                       {method.label}
                     </span>
                     <span className="mt-3 block text-xs text-ikea-muted">
-                      {!enabled
-                        ? t("orders.paymentMethodUnavailable")
-                        : method.type === "card"
-                          ? t("orders.paymentMethodCard")
-                          : t("orders.paymentMethodWallet")}
+                      {method.type === "card"
+                        ? t("orders.paymentMethodCard")
+                        : t("orders.paymentMethodWallet")}
                     </span>
                   </button>
                 )
