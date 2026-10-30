@@ -221,11 +221,11 @@ public class PaymentGatewayService {
         if (!refreshed.retryAllowed()) {
           PaymentAttempt current = paymentPersistenceService.findAttempt(orderNo).orElse(null);
           if (current != null && current.status() == 0 && "yeahpay".equals(current.provider())
-              && hasText(current.checkoutUrl()) && yeahPayChannel.equals(current.channel())) {
+              && hasText(current.checkoutUrl())) {
             boolean qr = "qr".equals(current.presentation());
             return new CreatePaymentResponse(
                 false,
-                qr ? yeahPayChannel : "yeahpay",
+                qr ? current.channel() : "yeahpay",
                 qr ? null : current.checkoutUrl(),
                 qr ? current.checkoutUrl() : null,
                 false);

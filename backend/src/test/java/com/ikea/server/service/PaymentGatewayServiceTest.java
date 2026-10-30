@@ -1,6 +1,7 @@
 package com.ikea.server.service;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.mockito.ArgumentMatchers.any;
@@ -575,6 +576,29 @@ class PaymentGatewayServiceTest {
     assertEquals("https://payment.yeahpay.net/checkout/existing", result.payUrl());
     verify(paymentPersistenceService, never()).reservePaymentAttempt(any(), any(), any());
     verify(yeahPayClient, never()).createHostedCheckout(any(), any(), anyLong(), any(), any());
+  }
+
+  @Test
+  void pendingPaymentShouldResumeItsSavedQrWhenAnotherChannelIsRequested() {
+    preparePendingOrder();
+    PaymentAttempt payNowAttempt = new PaymentAttempt(
+        "ORD-RETRY", "yeahpay", "paynow", 0, "https://qr.example/paynow", "pending",
+        LocalDateTime.of(2026, 10, 30, 12, 0),
+        LocalDateTime.of(2026, 10, 30, 11, 59), "provider-order-1", "qr");
+    when(paymentPersistenceService.findAttempt("ORD-RETRY"))
+        .thenReturn(Optional.of(payNowAttempt), Optional.of(payNowAttempt));
+    when(reconciliationService.refresh(42L, "ORD-RETRY"))
+        .thenReturn(new PaymentStatusResponse("pending", false));
+
+    CreatePaymentResponse result =
+        service.createPayment(42L, "ORD-RETRY", "wechatpay", "qr");
+
+    assertEquals("paynow", result.channel());
+    assertEquals("https://qr.example/paynow", result.qrCode());
+    assertNull(result.payUrl());
+    verify(paymentPersistenceService, never()).reservePaymentAttempt(any(), any(), any());
+    verify(yeahPayClient, never())
+        .createDirectWalletPayment(any(), any(), any(), anyLong(), any(), any(), any());
   }
 
   @Test
