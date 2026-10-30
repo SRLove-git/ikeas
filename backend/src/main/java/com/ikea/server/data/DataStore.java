@@ -709,6 +709,14 @@ public class DataStore {
       }
     }
 
+    // The product table is the canonical source for current commercial data.
+    // Category payloads still provide membership and category attribution, but
+    // must not overwrite a product updated through the admin editor.
+    for (Product product : allProducts) {
+      productBySlug.putIfAbsent(product.slug(), product);
+      productById.putIfAbsent(product.id(), product);
+    }
+
     List<CatalogCategory> collections = new ArrayList<>(catalogCategories);
     collections.addAll(channelCategories);
     for (CatalogCategory category : collections) {
@@ -734,12 +742,6 @@ public class DataStore {
           }
         }
       }
-    }
-
-    // Detail-page products (products-part-N.json) fill the remaining slots.
-    for (Product product : allProducts) {
-      productBySlug.putIfAbsent(product.slug(), product);
-      productById.putIfAbsent(product.id(), product);
     }
 
     // Navigation sub-category names are useful aliases: e.g. "早孕检测" should

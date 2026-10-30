@@ -2,6 +2,14 @@ import fs from "node:fs"
 import path from "node:path"
 import { loadDataJson, loadDataJsonOptional } from "@/lib/data-files"
 import { DEFAULT_LOCALE, localeFileSuffixes, type Locale } from "@/i18n/config"
+import {
+  syncProductInCatalog,
+  syncProductInCatalogPages,
+  syncProductList,
+  type CatalogPageRecord,
+  type CatalogRecord,
+  type SyncProduct,
+} from "@/lib/product-sync"
 
 // ---------------------------------------------------------------------------
 // File-backed CMS store. Every operation reads/writes the same src/data/*.json
@@ -11,9 +19,18 @@ import { DEFAULT_LOCALE, localeFileSuffixes, type Locale } from "@/i18n/config"
 const FAMILY_FILES = ["customer-service", "company", "legal", "root"] as const
 
 const PRODUCT_PARTS = ["part-1", "part-2", "part-3", "part-4", "part-5", "part-6"] as const
+const DATA_SUFFIXES = ["", "en", "ms", "id"] as const
+
+function localizedRel(rel: string, suffix: (typeof DATA_SUFFIXES)[number]): string {
+  return suffix ? rel.replace(/\.json$/, `.${suffix}.json`) : rel
+}
 
 function dataRoot(): string {
-  const candidates = [path.join(process.cwd(), "src", "data"), path.join(process.cwd(), "data")]
+  const candidates = [
+    process.env.CMS_DATA_ROOT?.trim(),
+    path.join(process.cwd(), "src", "data"),
+    path.join(process.cwd(), "data"),
+  ].filter((candidate): candidate is string => Boolean(candidate))
   for (const candidate of candidates) {
     try {
       if (fs.statSync(candidate).isDirectory()) return candidate
@@ -41,7 +58,7 @@ function writeJson(rel: string, value: unknown): void {
 
 // Simple in-process write lock so concurrent admin saves never interleave.
 let writeQueue: Promise<unknown> = Promise.resolve()
-function withWriteLock<T>(fn: () => T): Promise<T> {
+function withWriteLock<T>(fn: () => T | Promise<T>): Promise<T> {
   const run = writeQueue.then(fn, fn)
   writeQueue = run.catch(() => undefined)
   return run
@@ -60,6 +77,44 @@ interface AdminProduct {
   slug: string
   name: string
   [key: string]: unknown
+}
+
+type ProductExternalSync = (product: AdminProduct) => Promise<void>
+
+function productMutationRels(): string[] {
+  const rels = new Set<string>()
+  for (const part of PRODUCT_PARTS) {
+    for (const suffix of DATA_SUFFIXES) {
+      rels.add(localizedRel(`products/products-${part}.json`, suffix))
+    }
+  }
+  for (const base of [
+    "catalog.json",
+    "catalog-pages/all.json",
+    "menu-categories.json",
+    "homepage.json",
+  ]) {
+    for (const suffix of DATA_SUFFIXES) rels.add(localizedRel(base, suffix))
+  }
+  return [...rels]
+}
+
+function snapshotFiles(rels: string[]): Map<string, string> {
+  const snapshots = new Map<string, string>()
+  for (const rel of rels) {
+    try {
+      snapshots.set(rel, fs.readFileSync(filePath(rel), "utf8"))
+    } catch {
+      // Missing locale variants are valid fallbacks and are never created here.
+    }
+  }
+  return snapshots
+}
+
+function restoreFiles(snapshots: Map<string, string>): void {
+  for (const [rel, raw] of snapshots) {
+    fs.writeFileSync(filePath(rel), raw, "utf8")
+  }
 }
 
 function loadProductParts(): AdminProduct[][] {
@@ -124,8 +179,10 @@ export function productCategories(idOrSlug: string): { name: string; href: strin
 export async function upsertProduct(
   input: Record<string, unknown>,
   existingId?: string,
+  externalSync?: ProductExternalSync,
 ): Promise<AdminProduct> {
-  return withWriteLock(() => {
+  return withWriteLock(async () => {
+    const snapshots = snapshotFiles(productMutationRels())
     const parts = loadProductParts()
     const all = parts.flat()
     const product = input as AdminProduct
@@ -133,27 +190,93 @@ export async function upsertProduct(
       throw new Error("商品名称不能为空")
     }
 
-    if (existingId) {
-      const target = all.find((p) => p.id === existingId)
-      if (!target) throw new Error("商品不存在")
-      Object.assign(target, product)
-      target.id = existingId
+    try {
+      let target: AdminProduct
+      if (existingId) {
+        const existing = all.find((candidate) => candidate.id === existingId)
+        if (!existing) throw new Error("商品不存在")
+        Object.assign(existing, product)
+        existing.id = existingId
+        target = existing
+      } else {
+        if (!product.id) product.id = String(Date.now())
+        if (!product.slug) {
+          product.slug = `${String(product.name).replace(/\s+/g, "-")}-${product.id}`
+        }
+        target = product
+        parts[parts.length - 1].push(target)
+      }
+
       saveProductParts(parts)
+      syncProductCopies(target, existingId)
+      await externalSync?.(target)
       return target
+    } catch (error) {
+      restoreFiles(snapshots)
+      throw error
     }
-    if (!product.id) product.id = String(Date.now())
-    if (!product.slug) {
-      product.slug = `${String(product.name).replace(/\s+/g, "-")}-${product.id}`
-    }
-    const target = product
-    parts[parts.length - 1].push(target)
-    saveProductParts(parts)
-    return target
   })
 }
 
-export async function deleteProduct(idOrSlug: string): Promise<boolean> {
-  return withWriteLock(() => {
+function syncProductCopies(product: AdminProduct, existingId?: string): void {
+  const syncProduct = product as SyncProduct
+  const catalog = loadDataJson<CatalogRecord>("catalog.json")
+  if (syncProductInCatalog(catalog, syncProduct, { existingIdOrSlug: existingId }) > 0) {
+    writeJson("catalog.json", catalog)
+  }
+
+  const pages = loadDataJson<CatalogPageRecord[]>("catalog-pages/all.json")
+  if (syncProductInCatalogPages(pages, syncProduct, { existingIdOrSlug: existingId }) > 0) {
+    writeJson("catalog-pages/all.json", pages)
+  }
+
+  for (const suffix of DATA_SUFFIXES.slice(1)) {
+    for (const part of PRODUCT_PARTS) {
+      const rel = localizedRel(`products/products-${part}.json`, suffix)
+      const localized = loadDataJsonOptional<AdminProduct[] | null>(rel, null)
+      if (
+        localized &&
+        syncProductList(localized, syncProduct, {
+          existingIdOrSlug: existingId,
+          localized: true,
+        }) > 0
+      ) {
+        writeJson(rel, localized)
+      }
+    }
+
+    const catalogRel = localizedRel("catalog.json", suffix)
+    const localizedCatalog = loadDataJsonOptional<CatalogRecord | null>(catalogRel, null)
+    if (
+      localizedCatalog &&
+      syncProductInCatalog(localizedCatalog, syncProduct, {
+        existingIdOrSlug: existingId,
+        localized: true,
+      }) > 0
+    ) {
+      writeJson(catalogRel, localizedCatalog)
+    }
+
+    const pagesRel = localizedRel("catalog-pages/all.json", suffix)
+    const localizedPages = loadDataJsonOptional<CatalogPageRecord[] | null>(pagesRel, null)
+    if (
+      localizedPages &&
+      syncProductInCatalogPages(localizedPages, syncProduct, {
+        existingIdOrSlug: existingId,
+        localized: true,
+      }) > 0
+    ) {
+      writeJson(pagesRel, localizedPages)
+    }
+  }
+}
+
+export async function deleteProduct(
+  idOrSlug: string,
+  externalSync?: () => Promise<void>,
+): Promise<boolean> {
+  return withWriteLock(async () => {
+    const snapshots = snapshotFiles(productMutationRels())
     const parts = loadProductParts()
     const target = parts.flat().find((p) => p.id === idOrSlug || p.slug === idOrSlug)
     if (!target) return false
@@ -161,20 +284,27 @@ export async function deleteProduct(idOrSlug: string): Promise<boolean> {
     const slug = target.slug
     const name = typeof target.name === "string" ? target.name : ""
 
-    let removed = false
-    removed = removeFromProductParts(productId, slug) || removed
-    removed = removeFromCatalog(productId, slug) || removed
-    removed = removeFromMenuCategories(slug, name) || removed
-    removed = removeFromHomepage(slug, name) || removed
-    removed = removeFromCatalogPages(productId, slug) || removed
-    return removed
+    try {
+      let removed = false
+      removed = removeFromProductParts(productId, slug) || removed
+      removed = removeFromCatalog(productId, slug) || removed
+      removed = removeFromMenuCategories(slug, name) || removed
+      removed = removeFromHomepage(slug, name) || removed
+      removed = removeFromCatalogPages(productId) || removed
+      if (removed) await externalSync?.()
+      return removed
+    } catch (error) {
+      restoreFiles(snapshots)
+      throw error
+    }
   })
 }
 
 function removeFromProductParts(productId: string, slug: string): boolean {
   let removed = false
   for (const part of PRODUCT_PARTS) {
-    for (const rel of [`products/products-${part}.json`, `products/products-${part}.en.json`]) {
+    for (const suffix of DATA_SUFFIXES) {
+      const rel = localizedRel(`products/products-${part}.json`, suffix)
       const items = loadDataJsonOptional<AdminProduct[]>(rel, [])
       const next = items.filter((p) => p.id !== productId && p.slug !== slug)
       if (next.length !== items.length) {
@@ -188,7 +318,8 @@ function removeFromProductParts(productId: string, slug: string): boolean {
 
 function removeFromCatalog(productId: string, slug: string): boolean {
   let removed = false
-  for (const rel of ["catalog.json", "catalog.en.json"]) {
+  for (const suffix of DATA_SUFFIXES) {
+    const rel = localizedRel("catalog.json", suffix)
     const catalog = loadDataJsonOptional<{
       catalogCategories: { products?: { id: string; slug: string }[] }[]
       channelCategories: { products?: { id: string; slug: string }[] }[]
@@ -200,9 +331,7 @@ function removeFromCatalog(productId: string, slug: string): boolean {
       ...(catalog.channelCategories ?? []),
     ]) {
       if (Array.isArray(category.products)) {
-        const next = category.products.filter(
-          (p) => p.id !== productId && p.slug !== slug,
-        )
+        const next = category.products.filter((p) => p.id !== productId && p.slug !== slug)
         if (next.length !== category.products.length) {
           category.products = next
           changed = true
@@ -219,7 +348,8 @@ function removeFromCatalog(productId: string, slug: string): boolean {
 
 function removeFromMenuCategories(slug: string, name: string): boolean {
   let removed = false
-  for (const rel of ["menu-categories.json", "menu-categories.en.json"]) {
+  for (const suffix of DATA_SUFFIXES) {
+    const rel = localizedRel("menu-categories.json", suffix)
     const menu = loadDataJsonOptional<{
       categories: { subs?: { name?: string; url?: string }[] }[]
     }>(rel, null as never)
@@ -246,14 +376,14 @@ function removeFromMenuCategories(slug: string, name: string): boolean {
 
 function removeFromHomepage(slug: string, name: string): boolean {
   let removed = false
-  for (const rel of ["homepage.json", "homepage.en.json"]) {
+  for (const suffix of DATA_SUFFIXES) {
+    const rel = localizedRel("homepage.json", suffix)
     const homepage = loadDataJsonOptional<Record<string, unknown>>(rel, null as never)
     if (!homepage) continue
     let changed = false
 
     const megaMenuCategories = homepage.megaMenuCategories as
-      | { subCategories?: string[] }[]
-      | undefined
+      { subCategories?: string[] }[] | undefined
     for (const category of megaMenuCategories ?? []) {
       if (Array.isArray(category.subCategories)) {
         const next = category.subCategories.filter((s) => s !== name)
@@ -264,9 +394,7 @@ function removeFromHomepage(slug: string, name: string): boolean {
       }
     }
 
-    const feedProducts = homepage.feedProducts as
-      | Record<string, { href?: string }[]>
-      | undefined
+    const feedProducts = homepage.feedProducts as Record<string, { href?: string }[]> | undefined
     if (feedProducts && typeof feedProducts === "object") {
       for (const key of Object.keys(feedProducts)) {
         const items = feedProducts[key]
@@ -281,8 +409,7 @@ function removeFromHomepage(slug: string, name: string): boolean {
     }
 
     const rankingSections = homepage.rankingSections as
-      | { products?: { name?: string }[] }[]
-      | undefined
+      { products?: { name?: string }[] }[] | undefined
     for (const section of rankingSections ?? []) {
       if (Array.isArray(section.products)) {
         const next = section.products.filter((p) => p.name !== name)
@@ -301,12 +428,14 @@ function removeFromHomepage(slug: string, name: string): boolean {
   return removed
 }
 
-function removeFromCatalogPages(productId: string, slug: string): boolean {
+function removeFromCatalogPages(productId: string): boolean {
   let removed = false
-  for (const rel of ["catalog-pages/all.json", "catalog-pages/all.en.json"]) {
-    const pages = loadDataJsonOptional<
-      { products?: { id?: string }[]; productIds?: string[] }[]
-    >(rel, null as never)
+  for (const suffix of DATA_SUFFIXES) {
+    const rel = localizedRel("catalog-pages/all.json", suffix)
+    const pages = loadDataJsonOptional<{ products?: { id?: string }[]; productIds?: string[] }[]>(
+      rel,
+      null as never,
+    )
     if (!Array.isArray(pages)) continue
     let changed = false
     for (const page of pages) {

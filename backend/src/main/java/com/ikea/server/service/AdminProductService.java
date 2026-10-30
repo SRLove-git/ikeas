@@ -6,7 +6,11 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.ikea.server.data.DataStore;
+import com.ikea.server.entity.CatalogCategoryEntity;
+import com.ikea.server.entity.CatalogPageEntity;
 import com.ikea.server.entity.ProductEntity;
+import com.ikea.server.mapper.CatalogCategoryEntityMapper;
+import com.ikea.server.mapper.CatalogPageEntityMapper;
 import com.ikea.server.mapper.ProductEntityMapper;
 import com.ikea.server.model.CatalogCategory;
 import com.ikea.server.model.CatalogPage;
@@ -27,12 +31,20 @@ public class AdminProductService {
   private final ObjectMapper mapper;
   private final DataStore dataStore;
   private final ProductEntityMapper productMapper;
+  private final CatalogCategoryEntityMapper catalogCategoryMapper;
+  private final CatalogPageEntityMapper catalogPageMapper;
 
   public AdminProductService(
-      ObjectMapper mapper, DataStore dataStore, ProductEntityMapper productMapper) {
+      ObjectMapper mapper,
+      DataStore dataStore,
+      ProductEntityMapper productMapper,
+      CatalogCategoryEntityMapper catalogCategoryMapper,
+      CatalogPageEntityMapper catalogPageMapper) {
     this.mapper = mapper;
     this.dataStore = dataStore;
     this.productMapper = productMapper;
+    this.catalogCategoryMapper = catalogCategoryMapper;
+    this.catalogPageMapper = catalogPageMapper;
   }
 
   public Map<String, Object> listProducts(String query, int page, int pageSize) {
@@ -93,13 +105,14 @@ public class AdminProductService {
             ? findProductEntity(id, slug)
             : findProductEntity(existingIdOrSlug, existingIdOrSlug);
 
+    Product saved;
     if (entity == null) {
       id = id == null || id.isBlank() ? String.valueOf(System.currentTimeMillis()) : id;
       slug =
           slug == null || slug.isBlank()
               ? slugFromName(product.name(), id)
               : slug;
-      Product saved = new Product(
+      saved = new Product(
           id,
           slug,
           product.name(),
@@ -119,7 +132,7 @@ public class AdminProductService {
     } else {
       id = id == null || id.isBlank() ? entity.getProductId() : id;
       slug = slug == null || slug.isBlank() ? entity.getSlug() : slug;
-      Product saved = new Product(
+      saved = new Product(
           id,
           slug,
           product.name(),
@@ -137,9 +150,10 @@ public class AdminProductService {
       productMapper.updateById(entity);
     }
 
+    syncProductReferences(saved, existingIdOrSlug);
     dataStore.reloadFromDatabase();
-    Product saved = dataStore.findProductById(id);
-    if (saved == null) {
+    Product reloaded = dataStore.findProductById(id);
+    if (reloaded == null) {
       throw new IllegalStateException("商品保存后无法读取: " + id);
     }
     return getProduct(id);
@@ -151,6 +165,7 @@ public class AdminProductService {
     if (entity == null) {
       return false;
     }
+    removeProductReferences(entity.getProductId(), entity.getSlug());
     productMapper.deleteById(entity.getId());
     dataStore.reloadFromDatabase();
     return true;
@@ -175,6 +190,133 @@ public class AdminProductService {
                   }
                 })
             .last("limit 1"));
+  }
+
+  private void syncProductReferences(Product product, String existingIdOrSlug) {
+    ObjectNode productNode = mapper.valueToTree(product);
+    productNode.remove("categoryNames");
+
+    for (CatalogCategoryEntity entity : catalogCategoryMapper.selectList(null)) {
+      ObjectNode payload = readObject(entity.getPayload());
+      JsonNode products = payload.get("products");
+      if (!(products instanceof ArrayNode array)) {
+        continue;
+      }
+      boolean changed = false;
+      for (int index = 0; index < array.size(); index++) {
+        if (matchesProduct(array.get(index), product.id(), product.slug(), existingIdOrSlug)) {
+          array.set(index, productNode.deepCopy());
+          changed = true;
+        }
+      }
+      if (changed) {
+        entity.setPayload(writeValue(payload));
+        catalogCategoryMapper.updateById(entity);
+      }
+    }
+
+    for (CatalogPageEntity entity : catalogPageMapper.selectList(null)) {
+      ObjectNode payload = readObject(entity.getPayload());
+      JsonNode products = payload.get("products");
+      if (!(products instanceof ArrayNode array)) {
+        continue;
+      }
+      boolean changed = false;
+      for (JsonNode candidate : array) {
+        if (!(candidate instanceof ObjectNode target)
+            || !matchesProduct(target, product.id(), product.slug(), existingIdOrSlug)) {
+          continue;
+        }
+        putNullable(target, "name", product.name());
+        target.set("price", mapper.valueToTree(product.price()));
+        putNullable(target, "image", product.image());
+        putNullable(target, "productType", product.productType());
+        putNullable(target, "designText", product.designText());
+        putNullable(target, "seoSlug", catalogPageSeoSlug(product));
+        changed = true;
+      }
+      if (changed) {
+        entity.setPayload(writeValue(payload));
+        catalogPageMapper.updateById(entity);
+      }
+    }
+  }
+
+  private void removeProductReferences(String productId, String slug) {
+    for (CatalogCategoryEntity entity : catalogCategoryMapper.selectList(null)) {
+      ObjectNode payload = readObject(entity.getPayload());
+      JsonNode products = payload.get("products");
+      if (products instanceof ArrayNode array && removeMatches(array, productId, slug)) {
+        entity.setPayload(writeValue(payload));
+        catalogCategoryMapper.updateById(entity);
+      }
+    }
+
+    for (CatalogPageEntity entity : catalogPageMapper.selectList(null)) {
+      ObjectNode payload = readObject(entity.getPayload());
+      boolean changed = false;
+      if (payload.get("products") instanceof ArrayNode products) {
+        changed = removeMatches(products, productId, slug);
+      }
+      if (payload.get("productIds") instanceof ArrayNode productIds) {
+        for (int index = productIds.size() - 1; index >= 0; index--) {
+          JsonNode candidate = productIds.get(index);
+          String candidateId = candidate.isObject() ? candidate.path("id").asText("") : candidate.asText("");
+          if (productId.equals(candidateId)) {
+            productIds.remove(index);
+            changed = true;
+          }
+        }
+      }
+      if (changed) {
+        entity.setPayload(writeValue(payload));
+        catalogPageMapper.updateById(entity);
+      }
+    }
+  }
+
+  private boolean removeMatches(ArrayNode array, String productId, String slug) {
+    boolean changed = false;
+    for (int index = array.size() - 1; index >= 0; index--) {
+      if (matchesProduct(array.get(index), productId, slug, null)) {
+        array.remove(index);
+        changed = true;
+      }
+    }
+    return changed;
+  }
+
+  private static boolean matchesProduct(
+      JsonNode candidate, String productId, String slug, String existingIdOrSlug) {
+    String candidateId = candidate.path("id").asText("");
+    String candidateSlug = candidate.path("slug").asText("");
+    return productId.equals(candidateId)
+        || slug.equals(candidateSlug)
+        || (existingIdOrSlug != null
+            && (existingIdOrSlug.equals(candidateId) || existingIdOrSlug.equals(candidateSlug)));
+  }
+
+  private static String catalogPageSeoSlug(Product product) {
+    String suffix = "-" + product.id();
+    return product.slug().endsWith(suffix)
+        ? product.slug().substring(0, product.slug().length() - suffix.length())
+        : product.slug();
+  }
+
+  private ObjectNode readObject(String payload) {
+    try {
+      return (ObjectNode) mapper.readTree(payload);
+    } catch (Exception ex) {
+      throw new IllegalArgumentException("商品关联数据解析失败", ex);
+    }
+  }
+
+  private static void putNullable(ObjectNode target, String field, String value) {
+    if (value == null) {
+      target.putNull(field);
+    } else {
+      target.put(field, value);
+    }
   }
 
   private Map<String, String> categoriesFor(String productId) {
