@@ -75,6 +75,10 @@ public class PaymentGatewayService {
       "paynow", "PayNowPay",
       "wechatpay", "WXZF",
       "alipay", "ZFBZF");
+  // The merchant's hosted checkout advertises WeChat Pay and Alipay, while the
+  // direct unified-order route rejects them. Keep only PayNow on the direct QR
+  // integration and send the other wallets through the hosted checkout.
+  private static final Set<String> YEAHPAY_DIRECT_WALLET_CHANNELS = Set.of("paynow");
 
   private final OrderMapper orderMapper;
   private final OrderService orderService;
@@ -217,7 +221,7 @@ public class PaymentGatewayService {
           && !"online".equalsIgnoreCase(checkoutMode)) {
         throw new IllegalArgumentException("不支持的收银台类型");
       }
-      boolean directWallet = YEAHPAY_DIRECT_WALLETS.containsKey(yeahPayChannel);
+      boolean directWallet = YEAHPAY_DIRECT_WALLET_CHANNELS.contains(yeahPayChannel);
       boolean directOnline = directWallet && "online".equalsIgnoreCase(checkoutMode);
       String directPresentation = directOnline ? "redirect" : "qr";
       boolean usePcCheckout = !directWallet && "pc".equalsIgnoreCase(checkoutMode)

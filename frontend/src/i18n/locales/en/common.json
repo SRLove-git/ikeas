@@ -574,7 +574,7 @@
     "paying": "Paying…",
     "payNow": "Pay now",
     "paymentTitle": "Choose a payment method",
-    "paymentSubtitle": "Wallets use the YeahPay direct API; card payments open a secure checkout",
+    "paymentSubtitle": "Wallet and card payments are securely processed by YeahPay",
     "paymentMethodCard": "Credit or debit card",
     "paymentMethodWallet": "Mobile wallet",
     "paymentMethodUnavailable": "Not enabled for this merchant",

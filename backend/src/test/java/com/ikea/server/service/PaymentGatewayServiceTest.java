@@ -127,7 +127,9 @@ class PaymentGatewayServiceTest {
     "amex,AMEX",
     "unionpay,UnionPay",
     "applepay,ApplePay",
-    "googlepay,GooglePay"
+    "googlepay,GooglePay",
+    "wechatpay,WXZF",
+    "alipay,ZFBZF"
   })
   void createPaymentShouldMapWalletAndCardChannelsToYeahPayCodes(
       String channel, String yeahPayCode) {
@@ -149,10 +151,8 @@ class PaymentGatewayServiceTest {
         .createHostedCheckout("ORD-1002", "SGD", 1234L, "BUZUD Order ORD-1002", yeahPayCode);
   }
 
-  @ParameterizedTest
-  @CsvSource({"paynow,PayNowPay", "wechatpay,WXZF", "alipay,ZFBZF"})
-  void createPaymentShouldUseDirectUnifiedOrderForElectronicWallets(
-      String channel, String yeahPayCode) {
+  @Test
+  void createPaymentShouldUseDirectUnifiedOrderForPayNow() {
     properties.setEnabledMethods("paynow,wechatpay,alipay");
     Order order = new Order();
     order.setOrderNo("ORD-WALLET");
@@ -164,29 +164,29 @@ class PaymentGatewayServiceTest {
     when(yeahPayClient.isConfigured()).thenReturn(true);
     when(yeahPayClient.createDirectWalletPayment(
             any(), eq("ORD-WALLET"), eq("SGD"), eq(1234L), any(),
-            eq(yeahPayCode), eq("NATIVE")))
+            eq("PayNowPay"), eq("NATIVE")))
         .thenReturn(new DirectPaymentResult("QR-PAYLOAD", "YP-DIRECT"));
 
-    CreatePaymentResponse result = service.createPayment(42L, "ORD-WALLET", channel, "qr");
+    CreatePaymentResponse result = service.createPayment(42L, "ORD-WALLET", "paynow", "qr");
 
-    assertEquals(channel, result.channel());
+    assertEquals("paynow", result.channel());
     assertEquals("QR-PAYLOAD", result.qrCode());
     assertEquals(null, result.payUrl());
     ArgumentCaptor<String> providerOrderNo = ArgumentCaptor.forClass(String.class);
     verify(paymentPersistenceService).saveProviderOrder(
-        eq("ORD-WALLET"), eq("yeahpay"), providerOrderNo.capture(), eq(channel), eq("qr"), any());
+        eq("ORD-WALLET"), eq("yeahpay"), providerOrderNo.capture(), eq("paynow"), eq("qr"), any());
     assertTrue(providerOrderNo.getValue().matches("D[A-Fa-f0-9]{31}"));
     verify(yeahPayClient).createDirectWalletPayment(
         providerOrderNo.getValue(), "ORD-WALLET", "SGD", 1234L,
-        "BUZUD Order ORD-WALLET", yeahPayCode, "NATIVE");
+        "BUZUD Order ORD-WALLET", "PayNowPay", "NATIVE");
     verify(paymentPersistenceService).savePaymentPresentation(
         eq("ORD-WALLET"), eq("yeahpay"), eq("QR-PAYLOAD"), eq("qr"), any());
     verify(yeahPayClient, never()).createHostedCheckout(any(), any(), anyLong(), any(), any());
   }
 
   @Test
-  void createDirectOnlineWalletShouldReturnProviderUrlInsteadOfQrPayload() {
-    properties.setEnabledMethods("alipay");
+  void createDirectOnlinePayNowShouldReturnProviderUrlInsteadOfQrPayload() {
+    properties.setEnabledMethods("paynow");
     Order order = new Order();
     order.setOrderNo("ORD-ONLINE");
     order.setUserId(42L);
@@ -197,12 +197,12 @@ class PaymentGatewayServiceTest {
     when(yeahPayClient.isConfigured()).thenReturn(true);
     when(yeahPayClient.createDirectWalletPayment(
             any(), eq("ORD-ONLINE"), eq("SGD"), eq(1234L), any(),
-            eq("ZFBZF"), eq("MWEB")))
+            eq("PayNowPay"), eq("MWEB")))
         .thenReturn(new DirectPaymentResult(
             "https://payment.yeahpay.net/wallet/session", "YP-ONLINE"));
 
     CreatePaymentResponse result =
-        service.createPayment(42L, "ORD-ONLINE", "alipay", "online");
+        service.createPayment(42L, "ORD-ONLINE", "paynow", "online");
 
     assertEquals("https://payment.yeahpay.net/wallet/session", result.payUrl());
     assertEquals(null, result.qrCode());

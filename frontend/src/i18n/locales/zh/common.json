@@ -574,7 +574,7 @@
     "paying": "支付中…",
     "payNow": "去支付",
     "paymentTitle": "选择支付方式",
-    "paymentSubtitle": "电子钱包使用 YeahPay API 直连，卡支付进入安全收银台",
+    "paymentSubtitle": "电子钱包与卡支付由 YeahPay 安全处理",
     "paymentMethodCard": "信用卡或借记卡",
     "paymentMethodWallet": "手机钱包",
     "paymentMethodUnavailable": "商户暂未开通",

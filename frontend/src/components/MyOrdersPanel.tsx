@@ -34,7 +34,7 @@ type PaymentMethodId =
   | "googlepay"
 type WalletFlow = "qr" | "online"
 
-const DIRECT_WALLET_METHODS: PaymentMethodId[] = ["paynow", "wechatpay", "alipay"]
+const DIRECT_WALLET_METHODS: PaymentMethodId[] = ["paynow"]
 
 const PAYMENT_METHODS: {
   id: PaymentMethodId

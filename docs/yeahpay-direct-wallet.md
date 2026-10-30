@@ -1,22 +1,24 @@
-# YeahPay 电子钱包直连与 OMS 入账
+# YeahPay 电子钱包与 OMS 入账
 
 实现依据：[YeahPay Trade API](https://payment.yeahpay.net/api/#/apiDocCenter?type=trade-api) 的
-`POST /order/unifiedOrder` 和 `POST /order/queryOrder`。
+`POST /order/unifiedOrder`、`POST /cardOrder/getRedirectUrl` 和
+`POST /order/queryOrder`。
 
 ## 支付方式
 
-| 商城渠道 | YeahPay `payWay` | 扫码 | 本机在线支付 | OMS `channel` |
-| --- | --- | --- | --- | --- |
-| `paynow` | `PayNowPay` | `jspayFlag=NATIVE` | `jspayFlag=MWEB` | `paynow` |
-| `wechatpay` | `WXZF` | `jspayFlag=NATIVE` | `jspayFlag=MWEB` | `wechat` |
-| `alipay` | `ZFBZF` | `jspayFlag=NATIVE` | `jspayFlag=MWEB` | `alipay` |
+| 商城渠道 | YeahPay `payWay` | 路由 | OMS `channel` |
+| --- | --- | --- | --- |
+| `paynow` | `PayNowPay` | `unifiedOrder` 直连（`NATIVE` / `MWEB`） | `paynow` |
+| `wechatpay` | `WXZF` | YeahPay 托管收银台 | `wechat` |
+| `alipay` | `ZFBZF` | YeahPay 托管收银台 | `alipay` |
 
-`NATIVE` 响应中的 `data.tdCode` 由商城前端在本地生成 SVG 二维码；
+PayNow `NATIVE` 响应中的 `data.tdCode` 由商城前端在本地生成 SVG 二维码；
 `MWEB` 响应必须是不含凭据的 HTTPS 地址，然后才允许浏览器跳转。
+微信支付和支付宝按 MID 实际开通能力使用托管收银台，不调用会被拒绝的直连通道。
 
 ## 订单与幂等
 
-- 每次直连请求生成独立的 32 位 `thirdOrderId`，不复用商城订单号。
+- 每次 PayNow 直连请求生成独立的 32 位 `thirdOrderId`，不复用商城订单号。
 - `payment_provider_order` 保留渠道单号到商城订单号及钱包类型的映射。
 - 一个商城订单只能写入一笔成功交易；回调、主动查单和重试共用同一个订单锁。
 - 网络超时只记为未知，不会当作失败解锁重复付款。

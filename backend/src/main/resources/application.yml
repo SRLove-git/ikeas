@@ -103,7 +103,7 @@ ikea:
       callback-url: ${IKEA_YEAHPAY_CALLBACK_URL:https://medical-sg.com/zh/profile/my-orders?payment=success}
       notify-url: ${IKEA_YEAHPAY_NOTIFY_URL:https://medical-sg.com/api/v1/payment/yeahpay/webhook}
       lang: ${IKEA_YEAHPAY_LANG:en}
-      # 只向前端开放商户已实际开通的方式。前三项使用 unifiedOrder 直连二维码。
+      # 只向前端开放商户已实际开通的方式。PayNow 直连，微信/支付宝使用托管收银台。
       enabled-methods: ${IKEA_YEAHPAY_ENABLED_METHODS:paynow,wechatpay,alipay,visa,mastercard,amex}
       connect-timeout-ms: ${IKEA_YEAHPAY_CONNECT_TIMEOUT_MS:10000}
       read-timeout-ms: ${IKEA_YEAHPAY_READ_TIMEOUT_MS:20000}
