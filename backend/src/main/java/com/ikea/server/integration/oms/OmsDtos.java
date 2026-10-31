@@ -35,7 +35,12 @@ public final class OmsDtos {
   public record OpenOrderItem(Long skuId, int quantity) {}
 
   public record OpenPaymentNotifyRequest(
-      String paymentNo, BigDecimal amount, String channel, String channelTxnNo, LocalDateTime paidAt) {}
+      String paymentNo,
+      BigDecimal amount,
+      String channel,
+      String channelTxnNo,
+      String providerOrderNo,
+      LocalDateTime paidAt) {}
 
   public record OpenReturnOrderRequest(String externalOrderNo, Integer type, String reason) {}
 

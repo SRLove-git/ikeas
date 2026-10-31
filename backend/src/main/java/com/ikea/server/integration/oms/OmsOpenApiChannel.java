@@ -66,9 +66,24 @@ public class OmsOpenApiChannel implements OmsChannel {
   @Override
   public void notifyPayment(
       String externalOrderNo, String paymentNo, BigDecimal amount, String channel) {
+    notifyPayment(externalOrderNo, paymentNo, amount, channel, externalOrderNo);
+  }
+
+  @Override
+  public void notifyPayment(
+      String externalOrderNo,
+      String paymentNo,
+      BigDecimal amount,
+      String channel,
+      String providerOrderNo) {
     OpenPaymentNotifyRequest request =
         new OpenPaymentNotifyRequest(
-            paymentNo, amount, channel, paymentNo, LocalDateTime.now(ZoneOffset.UTC));
+            paymentNo,
+            amount,
+            channel,
+            paymentNo,
+            providerOrderNo,
+            LocalDateTime.now(ZoneOffset.UTC));
     client.post(
         ORDERS_PATH + "/" + externalOrderNo + "/payment-notify",
         request,

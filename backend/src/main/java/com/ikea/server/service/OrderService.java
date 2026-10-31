@@ -321,6 +321,29 @@ public class OrderService {
   @Transactional
   public OrderResponse markPaidByGateway(
       String orderNo, String channel, String channelTxnNo, BigDecimal amount, String currency) {
+    return markPaidByGatewayInternal(
+        orderNo, channel, channelTxnNo, orderNo, amount, currency);
+  }
+
+  @Transactional
+  public OrderResponse markPaidByGateway(
+      String orderNo,
+      String channel,
+      String channelTxnNo,
+      String providerOrderNo,
+      BigDecimal amount,
+      String currency) {
+    return markPaidByGatewayInternal(
+        orderNo, channel, channelTxnNo, providerOrderNo, amount, currency);
+  }
+
+  private OrderResponse markPaidByGatewayInternal(
+      String orderNo,
+      String channel,
+      String channelTxnNo,
+      String providerOrderNo,
+      BigDecimal amount,
+      String currency) {
     Order order =
         orderMapper.selectOne(
             Wrappers.lambdaQuery(Order.class).eq(Order::getOrderNo, orderNo));
@@ -364,7 +387,7 @@ public class OrderService {
     if (omsChannel.isEnabled()) {
       try {
         omsOrderSyncService.notifyPaymentSuccess(
-            orderNo, channelTxnNo, total, channel);
+            orderNo, channelTxnNo, total, channel, providerOrderNo);
         order =
             orderMapper.selectOne(
                 Wrappers.lambdaQuery(Order.class).eq(Order::getOrderNo, orderNo));

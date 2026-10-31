@@ -20,6 +20,19 @@ public interface OmsChannel {
   /** 支付成功通知（paymentNo 幂等，amount 必须等于 OMS 应付金额）。 */
   void notifyPayment(String externalOrderNo, String paymentNo, BigDecimal amount, String channel);
 
+  /**
+   * 支付成功通知，并传递渠道侧商户订单号。YeahPay 退款同时需要 providerOrderNo
+   * （thirdOrderId）和 paymentNo（leshuaOrderId）。
+   */
+  default void notifyPayment(
+      String externalOrderNo,
+      String paymentNo,
+      BigDecimal amount,
+      String channel,
+      String providerOrderNo) {
+    notifyPayment(externalOrderNo, paymentNo, amount, channel);
+  }
+
   /** 取消待支付订单。 */
   void cancelOrder(String externalOrderNo);
 

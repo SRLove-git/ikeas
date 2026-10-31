@@ -19,7 +19,8 @@ class OmsOpenApiChannelTest {
     OmsHttpClient client = mock(OmsHttpClient.class);
     OmsOpenApiChannel channel = new OmsOpenApiChannel(new OmsProperties(), client);
 
-    channel.notifyPayment("ORD-1001", "YP-9001", new BigDecimal("12.34"), "paynow");
+    channel.notifyPayment(
+        "ORD-1001", "YP-9001", new BigDecimal("12.34"), "paynow", "D-ORDER-1001");
 
     ArgumentCaptor<Object> body = ArgumentCaptor.forClass(Object.class);
     verify(client).post(
@@ -29,6 +30,7 @@ class OmsOpenApiChannelTest {
     OpenPaymentNotifyRequest request = (OpenPaymentNotifyRequest) body.getValue();
     assertEquals("YP-9001", request.paymentNo());
     assertEquals("YP-9001", request.channelTxnNo());
+    assertEquals("D-ORDER-1001", request.providerOrderNo());
     assertEquals("paynow", request.channel());
     assertEquals(new BigDecimal("12.34"), request.amount());
     assertNotNull(request.paidAt());

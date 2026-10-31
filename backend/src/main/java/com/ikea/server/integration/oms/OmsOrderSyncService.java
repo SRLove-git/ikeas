@@ -120,6 +120,24 @@ public class OmsOrderSyncService {
    */
   public void notifyPaymentSuccess(
       String orderNo, String paymentNo, BigDecimal amount, String channelName) {
+    notifyPaymentSuccessInternal(orderNo, paymentNo, amount, channelName, null);
+  }
+
+  public void notifyPaymentSuccess(
+      String orderNo,
+      String paymentNo,
+      BigDecimal amount,
+      String channelName,
+      String providerOrderNo) {
+    notifyPaymentSuccessInternal(orderNo, paymentNo, amount, channelName, providerOrderNo);
+  }
+
+  private void notifyPaymentSuccessInternal(
+      String orderNo,
+      String paymentNo,
+      BigDecimal amount,
+      String channelName,
+      String providerOrderNo) {
     if (!channel.isEnabled()) {
       throw new IllegalStateException("OMS 对接未启用，无法发送支付成功通知");
     }
@@ -135,7 +153,11 @@ public class OmsOrderSyncService {
           amount,
           omsAmount);
     }
-    channel.notifyPayment(orderNo, paymentNo, omsAmount, channelName);
+    if (providerOrderNo == null || providerOrderNo.isBlank()) {
+      channel.notifyPayment(orderNo, paymentNo, omsAmount, channelName);
+    } else {
+      channel.notifyPayment(orderNo, paymentNo, omsAmount, channelName, providerOrderNo);
+    }
 
     Order order = requireOrder(orderNo);
     if (order.getStatus() != null && order.getStatus() == OrderStatus.PENDING_PAYMENT.code()) {

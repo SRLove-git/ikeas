@@ -231,7 +231,7 @@ class PaymentGatewayServiceTest {
     verify(paymentPersistenceService).recordSuccessfulTransaction(
         "yeahpay", "ORD-LOCAL-1", "YP-WALLET-1", 1234L, "SGD");
     verify(orderService).markPaidByGateway(
-        "ORD-LOCAL-1", "wechat", "YP-WALLET-1", new BigDecimal("12.34"), "SGD");
+        "ORD-LOCAL-1", "wechat", "YP-WALLET-1", "DPROVIDER1", new BigDecimal("12.34"), "SGD");
   }
 
   @ParameterizedTest
@@ -506,7 +506,7 @@ class PaymentGatewayServiceTest {
         .recordSuccessfulTransaction("yeahpay", "ORD-1001", "YP-9001", 1234L, "SGD");
     verify(orderService)
         .markPaidByGateway(
-            "ORD-1001", "yeahpay", "YP-9001", new BigDecimal("12.34"), "SGD");
+            "ORD-1001", "yeahpay", "YP-9001", "ORD-1001", new BigDecimal("12.34"), "SGD");
   }
 
   @Test

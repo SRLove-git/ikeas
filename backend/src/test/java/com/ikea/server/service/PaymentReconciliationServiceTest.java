@@ -199,7 +199,8 @@ class PaymentReconciliationServiceTest {
         .recordSuccessfulTransaction("yeahpay", "ORD-QUERY", "YP-123", 1234L, "SGD");
     verify(persistence).markPaymentAttemptSucceeded("ORD-QUERY", "yeahpay");
     verify(orderService)
-        .markPaidByGateway("ORD-QUERY", "yeahpay", "YP-123", new BigDecimal("12.34"), "SGD");
+        .markPaidByGateway(
+            "ORD-QUERY", "yeahpay", "YP-123", "ORD-QUERY", new BigDecimal("12.34"), "SGD");
   }
 
   @Test
@@ -216,7 +217,7 @@ class PaymentReconciliationServiceTest {
 
     verify(client).queryOrder("DPROVIDER1");
     verify(orderService).markPaidByGateway(
-        "ORD-QUERY", "paynow", "YP-PAYNOW", new BigDecimal("12.34"), "SGD");
+        "ORD-QUERY", "paynow", "YP-PAYNOW", "DPROVIDER1", new BigDecimal("12.34"), "SGD");
   }
 
   @ParameterizedTest
@@ -301,7 +302,7 @@ class PaymentReconciliationServiceTest {
   void settlementFailureEscapesForTransactionRollback() {
     when(client.queryOrder("ORD-QUERY")).thenReturn(query(2));
     doThrow(new IllegalStateException("database failure"))
-        .when(orderService).markPaidByGateway(any(), any(), any(), any(), any());
+        .when(orderService).markPaidByGateway(any(), any(), any(), any(), any(), any());
     assertThrows(IllegalStateException.class, () -> service.refresh(42L, "ORD-QUERY"));
     verify(persistence, never()).recordQueryResult("ORD-QUERY", "paid", "0", "trace");
     verify(persistence, never()).recordQueryResult("ORD-QUERY", "unavailable", "QUERY_ERROR", null);

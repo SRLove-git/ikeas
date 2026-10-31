@@ -497,6 +497,7 @@ public class PaymentGatewayService {
           orderNo,
           omsPaymentChannel(settledChannel),
           transactionNo,
+          providerOrderNo,
           fromMinorUnit(amountMinor, currency),
           currency);
       return "success";

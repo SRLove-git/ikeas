@@ -147,6 +147,7 @@ public class PaymentReconciliationService {
           orderNo,
           PaymentGatewayService.omsPaymentChannel(attempt.channel()),
           query.transactionNo(),
+          query.thirdOrderId(),
           BigDecimal.valueOf(query.amountMinor(), 2),
           query.currency());
       persistence.recordQueryResult(orderNo, "paid", query.code(), query.traceId());
