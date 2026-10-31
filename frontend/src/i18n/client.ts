@@ -17,19 +17,19 @@ const resources = {
 
 // Module-level mirror of the active locale, so non-component helpers
 // (e.g. adminFetch) can localize error strings without a React context.
-let activeLocale: Locale = DEFAULT_LOCALE;
+let activeLocale: Locale = DEFAULT_LOCALE
 
 export function getActiveLocale(): Locale {
-  return activeLocale;
+  return activeLocale
 }
 
 /**
  * Creates a client i18next instance locked to the locale the server resolved
- * for this request (cookie → Accept-Language → default), so server-rendered
+ * for this request (cookie → domain suffix → English default), so server-rendered
  * HTML and the first client render are always in the same language.
  */
 export function createClientI18n(lng: Locale): I18nInstance {
-  activeLocale = lng;
+  activeLocale = lng
   const instance = createInstance()
   instance.use(initReactI18next)
   instance.on("languageChanged", (next) => {
@@ -39,7 +39,7 @@ export function createClientI18n(lng: Locale): I18nInstance {
     resources,
     lng,
     fallbackLng: DEFAULT_LOCALE,
-    supportedLngs: ["zh-CN", "en", "ms", "id"],
+    supportedLngs: ["en", "zh-CN", "ms", "id"],
     defaultNS: "common",
     ns: ["common"],
     interpolation: {

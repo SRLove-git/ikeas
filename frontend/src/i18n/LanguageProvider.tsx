@@ -4,33 +4,7 @@ import { createContext, useCallback, useContext, useEffect, useMemo, useState } 
 import { I18nextProvider } from "react-i18next"
 import { useRouter } from "next/navigation"
 import { createClientI18n } from "./client"
-import {
-  DEFAULT_LOCALE,
-  LOCALE_STORAGE_KEY,
-  localeFromHost,
-  normalizeLocale,
-  type Locale,
-} from "./config"
-
-/** Best-effort detection of the visitor's locale: domain suffix first, then browser. */
-function detectBrowserLocale(): Locale | undefined {
-  if (typeof navigator === "undefined") return undefined
-  // Mirror the server's domain-suffix resolution so a Malaysian/Indonesian
-  // domain is never overridden by an unrelated browser language.
-  const fromHost = localeFromHost(window.location.hostname)
-  if (fromHost) return fromHost
-  const candidates: string[] = []
-  if (Array.isArray(navigator.languages)) candidates.push(...navigator.languages)
-  if (navigator.language) candidates.push(navigator.language)
-  // Older IE exposes the system language here; harmless elsewhere.
-  const userLanguage = (navigator as Navigator & { userLanguage?: string }).userLanguage
-  if (userLanguage) candidates.push(userLanguage)
-  for (const candidate of candidates) {
-    const locale = normalizeLocale(candidate)
-    if (locale) return locale
-  }
-  return undefined
-}
+import { DEFAULT_LOCALE, LOCALE_STORAGE_KEY, type Locale } from "./config"
 
 interface LanguageContextValue {
   locale: Locale
@@ -56,28 +30,6 @@ export function LanguageProvider({
   useEffect(() => {
     document.documentElement.lang = initialLocale
   }, [initialLocale])
-
-  // Auto-detect the system/browser language on first visit only. Once the
-  // visitor has a stored preference (cookie) we leave their explicit choice
-  // untouched; the server normally already resolves the right locale via the
-  // `Accept-Language` header, so this is a client-side safety net for cases
-  // where that header is missing or the page was served from a static cache.
-  useEffect(() => {
-    const hasStoredPreference = document.cookie
-      .split("; ")
-      .some((entry) => entry.startsWith(`${LOCALE_STORAGE_KEY}=`))
-    if (hasStoredPreference) return
-
-    const detected = detectBrowserLocale()
-    if (!detected || detected === initialLocale) return
-
-    // 挂载时一次性把浏览器检测到的语言同步进 state（非级联渲染的常规 setState）。
-    // eslint-disable-next-line react-hooks/set-state-in-effect -- 外部系统（浏览器语言）一次性同步
-    setLocale(detected)
-    document.documentElement.lang = detected
-    document.cookie = `${LOCALE_STORAGE_KEY}=${detected}; path=/; max-age=31536000; samesite=lax`
-    void i18n.changeLanguage(detected).then(() => router.refresh())
-  }, [initialLocale, i18n, router])
 
   const changeLanguage = useCallback(
     (next: Locale) => {

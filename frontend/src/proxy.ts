@@ -3,7 +3,7 @@ import type { NextRequest } from "next/server"
 import { LOCALE_STORAGE_KEY } from "@/i18n/config"
 
 /**
- * Locale path structure: `/zh/*` is the canonical Chinese storefront and
+ * Locale path structure: `/zh/*` is the storefront's shared internal route and
  * `/en/*`, `/ms/*`, `/id/*` render the same pages in English, Malay, and
  * Indonesian. Each locale path rewrites to `/zh/*` while pinning the locale
  * cookie, so server rendering and client hydration both resolve to the
@@ -25,7 +25,8 @@ export function proxy(request: NextRequest) {
 
   for (const { prefix, locale } of localePrefixes) {
     if (pathname === prefix || pathname.startsWith(`${prefix}/`)) {
-      const target = pathname === prefix ? "/zh" : pathname.replace(prefix, "/zh")
+      const target =
+        pathname === prefix || pathname === `${prefix}/` ? "/" : pathname.replace(prefix, "/zh")
       const response = NextResponse.rewrite(new URL(target, request.url))
       response.cookies.set(LOCALE_STORAGE_KEY, locale, {
         path: "/",
@@ -40,14 +41,5 @@ export function proxy(request: NextRequest) {
 }
 
 export const config = {
-  matcher: [
-    "/en/:path*",
-    "/ms/:path*",
-    "/id/:path*",
-    "/cn/:path*",
-    "/en",
-    "/ms",
-    "/id",
-    "/cn",
-  ],
+  matcher: ["/en/:path*", "/ms/:path*", "/id/:path*", "/cn/:path*", "/en", "/ms", "/id", "/cn"],
 }

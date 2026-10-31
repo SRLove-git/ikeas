@@ -8,7 +8,7 @@ interface LanguageSwitchProps {
   className?: string
 }
 
-/** Compact 中文 | EN | MS | ID switch used by the storefront header and admin shell. */
+/** Compact EN | 中文 | MS | ID switch used by the storefront header and admin shell. */
 export function LanguageSwitch({ className }: LanguageSwitchProps) {
   const { t } = useTranslation()
   const { locale, changeLanguage } = useLocale()
@@ -22,7 +22,7 @@ export function LanguageSwitch({ className }: LanguageSwitchProps) {
 
   return (
     <div className={`nav-header-message-language-switch ${className ?? ""}`}>
-      {(["zh-CN", "en", "ms", "id"] as const).map((code, index) => (
+      {(["en", "zh-CN", "ms", "id"] as const).map((code, index) => (
         <span key={code} className="inline-flex items-center">
           {index > 0 ? <span className="lang-separator mx-1 opacity-50">|</span> : null}
           <button

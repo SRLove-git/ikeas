@@ -5,40 +5,13 @@ import { useRouter } from "next/navigation"
 import { useTranslation } from "react-i18next"
 import { useAuth } from "@/lib/auth"
 import { Breadcrumbs } from "@/components/Breadcrumbs"
-
-interface ShippingAddress {
-  id: string
-  name: string
-  phone: string
-  region: string
-  detail: string
-  isDefault: boolean
-}
-
-const ADDRESS_KEY = "buzud_shipping_addresses"
-
-function newId(): string {
-  if (typeof crypto !== "undefined" && "randomUUID" in crypto) {
-    return crypto.randomUUID()
-  }
-  return `${Date.now()}-${Math.random().toString(16).slice(2)}`
-}
-
-function readAddresses(): ShippingAddress[] {
-  if (typeof window === "undefined") return []
-  try {
-    const raw = window.localStorage.getItem(ADDRESS_KEY)
-    const parsed = raw ? (JSON.parse(raw) as ShippingAddress[]) : []
-    return Array.isArray(parsed) ? parsed : []
-  } catch {
-    return []
-  }
-}
-
-function writeAddresses(addresses: ShippingAddress[]) {
-  if (typeof window === "undefined") return
-  window.localStorage.setItem(ADDRESS_KEY, JSON.stringify(addresses))
-}
+import {
+  createShippingAddressId,
+  isSingaporePostalCode,
+  readShippingAddresses,
+  writeShippingAddresses,
+  type ShippingAddress,
+} from "@/lib/address-book"
 
 function FieldError({ children }: { children: React.ReactNode }) {
   return (
@@ -63,21 +36,21 @@ export function AddressBookPanel() {
   const { t } = useTranslation()
   const router = useRouter()
   const { user, ready } = useAuth()
-  const [addresses, setAddresses] = useState<ShippingAddress[]>(() => readAddresses())
+  const [addresses, setAddresses] = useState<ShippingAddress[]>(() => readShippingAddresses())
   const [drawerOpen, setDrawerOpen] = useState(false)
   const [editingId, setEditingId] = useState<string | null>(null)
   const [notice, setNotice] = useState<string | null>(null)
   const [form, setForm] = useState({
     name: "",
     phone: "",
-    region: "",
+    postalCode: "",
     detail: "",
     isDefault: false,
   })
   const [formErrors, setFormErrors] = useState<{
     name?: string
     phone?: string
-    region?: string
+    postalCode?: string
     detail?: string
   }>({})
 
@@ -101,7 +74,7 @@ export function AddressBookPanel() {
     setForm({
       name: user?.name ?? "",
       phone: user?.phone ?? "",
-      region: "",
+      postalCode: "",
       detail: "",
       isDefault: addresses.length === 0,
     })
@@ -114,7 +87,7 @@ export function AddressBookPanel() {
     setForm({
       name: address.name,
       phone: address.phone,
-      region: address.region,
+      postalCode: address.postalCode,
       detail: address.detail,
       isDefault: address.isDefault,
     })
@@ -125,12 +98,14 @@ export function AddressBookPanel() {
     const nextErrors: {
       name?: string
       phone?: string
-      region?: string
+      postalCode?: string
       detail?: string
     } = {}
     if (!form.name.trim()) nextErrors.name = t("address.errName")
     if (!form.phone.trim()) nextErrors.phone = t("address.errPhone")
-    if (!form.region.trim()) nextErrors.region = t("address.errRegion")
+    if (!isSingaporePostalCode(form.postalCode)) {
+      nextErrors.postalCode = t("address.errPostalCode")
+    }
     if (!form.detail.trim()) nextErrors.detail = t("address.errDetail")
     setFormErrors(nextErrors)
     if (Object.keys(nextErrors).length > 0) {
@@ -147,7 +122,7 @@ export function AddressBookPanel() {
               ...form,
               name: form.name.trim(),
               phone: form.phone.trim(),
-              region: form.region.trim(),
+              postalCode: form.postalCode.trim(),
               detail: form.detail.trim(),
             }
           : form.isDefault
@@ -162,17 +137,17 @@ export function AddressBookPanel() {
       next = [
         ...base,
         {
-          id: newId(),
+          id: createShippingAddressId(),
           name: form.name.trim(),
           phone: form.phone.trim(),
-          region: form.region.trim(),
+          postalCode: form.postalCode.trim(),
           detail: form.detail.trim(),
           isDefault: form.isDefault,
         },
       ]
     }
 
-    writeAddresses(next)
+    writeShippingAddresses(next)
     setAddresses(next)
     setDrawerOpen(false)
     setFormErrors({})
@@ -181,7 +156,7 @@ export function AddressBookPanel() {
 
   const removeAddress = (id: string) => {
     const next = addresses.filter((address) => address.id !== id)
-    writeAddresses(next)
+    writeShippingAddresses(next)
     setAddresses(next)
     setNotice(t("address.deleted"))
   }
@@ -191,7 +166,7 @@ export function AddressBookPanel() {
       ...address,
       isDefault: address.id === id,
     }))
-    writeAddresses(next)
+    writeShippingAddresses(next)
     setAddresses(next)
   }
 
@@ -252,7 +227,7 @@ export function AddressBookPanel() {
                       ) : null}
                     </div>
                     <p className="mt-2 text-sm leading-6 text-ikea-muted">
-                      {address.region} {address.detail}
+                      {address.postalCode} {address.detail}
                     </p>
                   </div>
                 </div>
@@ -371,28 +346,35 @@ export function AddressBookPanel() {
                 </div>
 
                 <div>
-                  <label htmlFor="address-region" className="block text-sm font-bold">
-                    {t("address.region")}
+                  <label htmlFor="address-postal-code" className="block text-sm font-bold">
+                    {t("address.postalCode")}
                     <em className="ml-0.5 text-red-600">*</em>
                   </label>
                   <div
                     className={`mt-1.5 h-11 border ${
-                      formErrors.region
+                      formErrors.postalCode
                         ? "border-red-500"
                         : "border-ikea-gray-200 focus-within:border-ikea-blue"
                     }`}
                   >
                     <input
-                      id="address-region"
-                      value={form.region}
+                      id="address-postal-code"
+                      type="text"
+                      inputMode="numeric"
+                      autoComplete="postal-code"
+                      maxLength={6}
+                      value={form.postalCode}
                       onChange={(event) =>
-                        setForm((current) => ({ ...current, region: event.target.value }))
+                        setForm((current) => ({
+                          ...current,
+                          postalCode: event.target.value.replace(/\D/g, "").slice(0, 6),
+                        }))
                       }
-                      placeholder={t("address.regionPlaceholder")}
+                      placeholder={t("address.postalCodePlaceholder")}
                       className="h-full w-full px-4 text-sm outline-none"
                     />
                   </div>
-                  {formErrors.region ? <FieldError>{formErrors.region}</FieldError> : null}
+                  {formErrors.postalCode ? <FieldError>{formErrors.postalCode}</FieldError> : null}
                 </div>
 
                 <div>

@@ -9,7 +9,11 @@ import { useAuth } from "@/lib/auth"
 import { Breadcrumbs } from "@/components/Breadcrumbs"
 import { apiJson, type Cart, type OrderResponse } from "@/lib/api"
 import { formatPrice } from "@/lib/catalog-format"
-import { readShippingAddresses, type ShippingAddress } from "@/lib/address-book"
+import {
+  isSingaporePostalCode,
+  readShippingAddresses,
+  type ShippingAddress,
+} from "@/lib/address-book"
 import { useShippingQuote } from "@/hooks/useShippingQuote"
 
 interface CouponView {
@@ -43,7 +47,7 @@ export function CheckoutPanel() {
   const [form, setForm] = useState({
     customer: "",
     phone: "",
-    region: "",
+    postalCode: "",
     detail: "",
   })
   const [savedAddresses, setSavedAddresses] = useState<ShippingAddress[]>([])
@@ -59,7 +63,7 @@ export function CheckoutPanel() {
       setForm({
         customer: preferred.name,
         phone: preferred.phone,
-        region: preferred.region,
+        postalCode: preferred.postalCode,
         detail: preferred.detail,
       })
     }
@@ -68,7 +72,7 @@ export function CheckoutPanel() {
   const applySavedAddress = (addressId: string) => {
     setSelectedAddressId(addressId)
     if (!addressId) {
-      setForm({ customer: "", phone: "", region: "", detail: "" })
+      setForm({ customer: "", phone: "", postalCode: "", detail: "" })
       return
     }
     const address = savedAddresses.find((item) => item.id === addressId)
@@ -76,7 +80,7 @@ export function CheckoutPanel() {
     setForm({
       customer: address.name,
       phone: address.phone,
-      region: address.region,
+      postalCode: address.postalCode,
       detail: address.detail,
     })
   }
@@ -150,8 +154,17 @@ export function CheckoutPanel() {
       setError(t("checkout.emptyCart"))
       return
     }
-    if (!form.customer.trim() || !form.phone.trim() || !form.region.trim() || !form.detail.trim()) {
+    if (
+      !form.customer.trim() ||
+      !form.phone.trim() ||
+      !form.postalCode.trim() ||
+      !form.detail.trim()
+    ) {
       setError(t("checkout.incomplete"))
+      return
+    }
+    if (!isSingaporePostalCode(form.postalCode)) {
+      setError(t("checkout.invalidPostalCode"))
       return
     }
     if (!shipping.quote) {
@@ -174,7 +187,7 @@ export function CheckoutPanel() {
           useBalance,
           customer: form.customer.trim(),
           phone: form.phone.trim(),
-          address: `${form.region.trim()} ${form.detail.trim()}`.trim(),
+          address: `${form.postalCode.trim()} ${form.detail.trim()}`,
           remark: "",
         }),
       })
@@ -244,7 +257,7 @@ export function CheckoutPanel() {
                   <option value="">{t("checkout.manualAddress")}</option>
                   {savedAddresses.map((address) => (
                     <option key={address.id} value={address.id}>
-                      {address.name} · {address.phone} · {address.region} {address.detail}
+                      {address.name} · {address.phone} · {address.postalCode} {address.detail}
                       {address.isDefault ? ` (${t("address.default")})` : ""}
                     </option>
                   ))}
@@ -264,9 +277,15 @@ export function CheckoutPanel() {
                   className="h-11 border border-ikea-gray-200 px-4 text-sm outline-none focus:border-ikea-blue"
                 />
                 <input
-                  value={form.region}
-                  onChange={(event) => update("region", event.target.value)}
-                  placeholder={t("checkout.regionPlaceholder")}
+                  type="text"
+                  inputMode="numeric"
+                  autoComplete="postal-code"
+                  maxLength={6}
+                  value={form.postalCode}
+                  onChange={(event) =>
+                    update("postalCode", event.target.value.replace(/\D/g, "").slice(0, 6))
+                  }
+                  placeholder={t("checkout.postalCodePlaceholder")}
                   className="h-11 border border-ikea-gray-200 px-4 text-sm outline-none focus:border-ikea-blue sm:col-span-2"
                 />
                 <input

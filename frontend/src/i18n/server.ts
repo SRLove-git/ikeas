@@ -1,13 +1,6 @@
 import { cookies, headers } from "next/headers"
 import { createInstance } from "i18next"
-import {
-  DEFAULT_LOCALE,
-  LOCALE_STORAGE_KEY,
-  isLocale,
-  localeFromHost,
-  normalizeLocale,
-  type Locale,
-} from "./config"
+import { DEFAULT_LOCALE, LOCALE_STORAGE_KEY, isLocale, localeFromHost, type Locale } from "./config"
 import zh from "./locales/zh/common.json"
 import en from "./locales/en/common.json"
 import ms from "./locales/ms/common.json"
@@ -22,7 +15,7 @@ const resources = {
 
 /**
  * Current locale for server-rendered data, resolved with this priority:
- * cookie (explicit choice) → domain suffix → Accept-Language → default.
+ * cookie (explicit choice) → domain suffix → English default.
  */
 export async function getLocale(): Promise<Locale> {
   try {
@@ -36,7 +29,7 @@ export async function getLocale(): Promise<Locale> {
     const headerList = await headers()
     const hostLocale = localeFromHost(headerList.get("host"))
     if (hostLocale) return hostLocale
-    return normalizeLocale(headerList.get("accept-language"))
+    return DEFAULT_LOCALE
   } catch {
     return DEFAULT_LOCALE
   }
@@ -46,7 +39,9 @@ export async function getLocale(): Promise<Locale> {
  * Server-side `t` bound to the request locale. Creates a throwaway instance
  * per request so concurrent renders never race on shared language state.
  */
-export async function getServerT(locale?: Locale): Promise<(key: string, vars?: Record<string, unknown>) => string> {
+export async function getServerT(
+  locale?: Locale,
+): Promise<(key: string, vars?: Record<string, unknown>) => string> {
   const resolved = locale ?? (await getLocale())
   const instance = createInstance()
   await instance.init({

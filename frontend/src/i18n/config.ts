@@ -1,19 +1,14 @@
-export const SUPPORTED_LOCALES = ["zh-CN", "en", "ms", "id"] as const
+export const SUPPORTED_LOCALES = ["en", "zh-CN", "ms", "id"] as const
 
 export type Locale = (typeof SUPPORTED_LOCALES)[number]
 
-export const DEFAULT_LOCALE: Locale = "zh-CN"
+export const DEFAULT_LOCALE: Locale = "en"
 
 /** Cookie + localStorage key shared by the client switcher and server locale reader. */
 export const LOCALE_STORAGE_KEY = "buzud.locale"
 
 export function isLocale(value: unknown): value is Locale {
-  return (
-    value === "zh-CN" ||
-    value === "en" ||
-    value === "ms" ||
-    value === "id"
-  )
+  return value === "zh-CN" || value === "en" || value === "ms" || value === "id"
 }
 
 /** Maps a detected i18next language string to one of our supported locales. */
@@ -27,8 +22,14 @@ export function normalizeLocale(value: string | undefined | null): Locale {
     return "ms"
   }
   // Indonesian (Bahasa Indonesia): id, in, id-id, in-id, ...
-  if (first === "id" || first.startsWith("id-") || first.startsWith("id_") ||
-      first === "in" || first.startsWith("in-") || first.startsWith("in_")) {
+  if (
+    first === "id" ||
+    first.startsWith("id-") ||
+    first.startsWith("id_") ||
+    first === "in" ||
+    first.startsWith("in-") ||
+    first.startsWith("in_")
+  ) {
     return "id"
   }
   // English variants: en, en-us, en-gb, en-sg, ...

@@ -18,16 +18,6 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       {
-        source: "/en",
-        destination: "/zh",
-        permanent: false,
-      },
-      {
-        source: "/en/:path*",
-        destination: "/zh/:path*",
-        permanent: false,
-      },
-      {
         source: "/zh/cat/buzud-rapid-tests",
         destination: "/zh/cat/test-kit",
         permanent: true,
