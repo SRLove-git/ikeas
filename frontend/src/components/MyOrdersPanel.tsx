@@ -32,7 +32,6 @@ type PaymentMethodId =
   | "unionpay"
   | "applepay"
   | "googlepay"
-type WalletFlow = "qr" | "online"
 
 const DIRECT_WALLET_METHODS: PaymentMethodId[] = ["paynow"]
 
@@ -43,8 +42,8 @@ function isMobileBrowser(): boolean {
   return iPadDesktopMode || /Android|iPhone|iPad|iPod|IEMobile|Opera Mini|Mobile/i.test(userAgent)
 }
 
-function checkoutModeFor(method: PaymentMethodId | "card", flow: WalletFlow): string {
-  if (DIRECT_WALLET_METHODS.includes(method as PaymentMethodId)) return flow
+function checkoutModeFor(method: PaymentMethodId | "card"): string {
+  if (DIRECT_WALLET_METHODS.includes(method as PaymentMethodId)) return "qr"
   // Ask the backend for a desktop presentation; it returns the validated H5 URL as a QR code.
   if (method === "wechatpay" && !isMobileBrowser()) return "pc"
   return "h5"
@@ -140,7 +139,6 @@ export function MyOrdersPanel() {
   const [paying, setPaying] = useState<string | null>(null)
   const [paymentOrderNo, setPaymentOrderNo] = useState<string | null>(null)
   const [paymentMethod, setPaymentMethod] = useState<PaymentMethodId>("visa")
-  const [walletFlow, setWalletFlow] = useState<WalletFlow>("qr")
   const [qrPayment, setQrPayment] = useState<{
     orderNo: string
     channel: string
@@ -368,7 +366,6 @@ export function MyOrdersPanel() {
   const payOrder = async (
     orderNo: string,
     method: PaymentMethodId | "card",
-    flow: WalletFlow = "qr",
   ) => {
     setPaying(orderNo)
     setError(null)
@@ -376,7 +373,6 @@ export function MyOrdersPanel() {
       const payment = await apiJson<CreatePaymentResponse>(
         `/payment/orders/${orderNo}?channel=${encodeURIComponent(method)}&checkout=${checkoutModeFor(
           method,
-          flow,
         )}`,
         { method: "POST" },
       )
@@ -862,26 +858,6 @@ export function MyOrdersPanel() {
             ) : null}
 
             <div className="border-t border-ikea-gray-200 px-5 py-4 sm:px-6">
-              {DIRECT_WALLET_METHODS.includes(paymentMethod) ? (
-                <div className="mb-4 grid grid-cols-2 gap-2 rounded-xl bg-ikea-gray-100 p-1">
-                  {(["qr", "online"] as WalletFlow[]).map((flow) => (
-                    <button
-                      key={flow}
-                      type="button"
-                      aria-pressed={walletFlow === flow}
-                      disabled={paying === paymentOrderNo}
-                      onClick={() => setWalletFlow(flow)}
-                      className={`rounded-lg px-3 py-2 text-xs font-bold transition-colors ${
-                        walletFlow === flow
-                          ? "bg-white text-ikea-blue shadow-sm"
-                          : "text-ikea-muted hover:text-ikea-black"
-                      }`}
-                    >
-                      {t(flow === "qr" ? "orders.walletFlowQr" : "orders.walletFlowOnline")}
-                    </button>
-                  ))}
-                </div>
-              ) : null}
               {error ? (
                 <div className="mb-4 rounded-lg border border-red-200 bg-red-50 px-3 py-2 text-xs text-red-600">
                   {error}
@@ -897,7 +873,7 @@ export function MyOrdersPanel() {
                   paying === paymentOrderNo ||
                   !(paymentOptions?.enabledMethods.includes(paymentMethod) ?? false)
                 }
-                onClick={() => void payOrder(paymentOrderNo, paymentMethod, walletFlow)}
+                onClick={() => void payOrder(paymentOrderNo, paymentMethod)}
                 className="h-12 w-full rounded-full bg-ikea-blue px-6 text-sm font-bold text-white transition-opacity hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-50"
               >
                 {paying === paymentOrderNo ? t("orders.paying") : t("orders.paymentContinue")}
