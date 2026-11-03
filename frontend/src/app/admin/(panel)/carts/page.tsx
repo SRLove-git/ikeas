@@ -85,7 +85,7 @@ export default function CartsPage() {
                 <tr key={cart.userId} className="hover:bg-ikea-gray-50">
                   <td className="px-5 py-3">
                     <div className="font-medium text-ikea-black">
-                      {cart.user?.name ?? t("admin.orders.unknownUser")}
+                      {cart.user?.name ?? t("admin.common.unknownUser")}
                     </div>
                     <div className="text-xs text-ikea-muted">{cart.userId}</div>
                   </td>

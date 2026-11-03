@@ -715,50 +715,6 @@ export async function deleteCatalogPage(slug: string): Promise<boolean> {
 }
 
 // ---------------------------------------------------------------------------
-// Orders
-// ---------------------------------------------------------------------------
-
-export function listOrders(): Record<string, unknown>[] {
-  return loadDataJson<Record<string, unknown>[]>("orders.json")
-}
-
-export function getOrder(id: string): Record<string, unknown> | undefined {
-  return listOrders().find((order) => order.id === id)
-}
-
-export async function upsertOrder(
-  input: Record<string, unknown>,
-  existingId?: string,
-): Promise<Record<string, unknown>> {
-  return withWriteLock(() => {
-    const orders = listOrders()
-    const target = existingId ? orders.find((order) => order.id === existingId) : undefined
-    if (existingId && !target) throw new Error("订单不存在")
-    if (target) {
-      Object.assign(target, input)
-    } else {
-      if (!input.id) input.id = String(Date.now())
-      input.createdAt = input.createdAt ?? nowIso()
-      orders.push(input)
-    }
-    input.updatedAt = nowIso()
-    writeJson("orders.json", orders)
-    return target ?? input
-  })
-}
-
-export async function deleteOrder(id: string): Promise<boolean> {
-  return withWriteLock(() => {
-    const orders = listOrders()
-    const index = orders.findIndex((order) => order.id === id)
-    if (index < 0) return false
-    orders.splice(index, 1)
-    writeJson("orders.json", orders)
-    return true
-  })
-}
-
-// ---------------------------------------------------------------------------
 // Settings
 // ---------------------------------------------------------------------------
 
@@ -861,7 +817,6 @@ export function siteStats(): Record<string, unknown> {
     pages: pageCount,
     pageFamilies: pageFamilies(),
     catalogPages: listCatalogPages().length,
-    orders: listOrders().length,
     menuPanels: (getMenu().menuPanels as { menuPanels?: unknown[] })?.menuPanels?.length ?? 0,
     updatedAt: nowIso(),
   }

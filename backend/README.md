@@ -124,10 +124,6 @@ never reaches the browser.
 | `DELETE /api/v1/admin/favorites/{userId}`                                            | Clear a user's favorites                                |
 | `GET /api/v1/admin/chat/messages`                                                    | Customer-service chat history                           |
 | `DELETE /api/v1/admin/chat/messages`                                                 | Clear chat history                                      |
-| `GET /api/v1/admin/orders`                                                           | All orders with user and item summaries                 |
-| `GET /api/v1/admin/orders/{orderNo}`                                                 | One order                                               |
-| `PUT /api/v1/admin/orders/{orderNo}`                                                 | Update order status, shipping fields, or delivery fee   |
-| `DELETE /api/v1/admin/orders/{orderNo}`                                              | Soft-delete an order and its items                      |
 | `GET /api/v1/admin/pages` (also `/api/admin/pages`)                                  | List CMS content pages (`family`, `q`)                  |
 | `POST /api/v1/admin/pages` (also `/api/admin/pages`)                                 | Create a content page                                   |
 | `GET /api/v1/admin/pages/{key}` (also `/api/admin/pages/{key}`)                      | One content page by base64url-encoded URL               |

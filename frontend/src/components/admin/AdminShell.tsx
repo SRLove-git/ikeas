@@ -36,7 +36,6 @@ export function AdminShell({ children }: { children: React.ReactNode }) {
       title: t("admin.shell.trading"),
       description: t("admin.shell.tradingDesc"),
       items: [
-        { href: "/admin/orders", label: t("admin.shell.orderManagement") },
         { href: "/admin/users", label: t("admin.shell.userManagement") },
         { href: "/admin/carts", label: t("admin.shell.carts") },
         { href: "/admin/favorites", label: t("admin.shell.favorites") },

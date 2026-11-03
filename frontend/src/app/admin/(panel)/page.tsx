@@ -19,7 +19,6 @@ interface SiteStats {
   pages: number;
   pageFamilies: { name: string; count: number }[];
   catalogPages: number;
-  orders: number;
   updatedAt: string;
 }
 
@@ -95,7 +94,6 @@ export default function AdminDashboardPage() {
       value: stats.catalogPages,
       href: "/admin/catalog-pages",
     },
-    { label: t("admin.dashboard.orders"), value: stats.orders, href: "/admin/orders" },
   ];
 
   const actionLabel: Record<string, string> = {
@@ -164,12 +162,6 @@ export default function AdminDashboardPage() {
       description: t("admin.shell.tradingDesc"),
       items: [
         {
-          href: "/admin/orders",
-          label: t("admin.dashboard.mOrders"),
-          description: t("admin.dashboard.mOrdersDesc"),
-          count: String(stats.orders),
-        },
-        {
           href: "/admin/users",
           label: t("admin.dashboard.mUsers"),
           description: t("admin.dashboard.mUsersDesc"),
@@ -216,7 +208,7 @@ export default function AdminDashboardPage() {
         description={t("admin.dashboard.desc")}
       />
 
-      <div className="mb-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="mb-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {cards.map((card) => (
           <Link key={card.label} href={card.href}>
             <div className="rounded-lg border border-ikea-gray-200 bg-white p-5 transition hover:border-ikea-blue">
