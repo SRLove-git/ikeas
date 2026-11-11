@@ -116,6 +116,10 @@ RUN chown node:node .next
 # https://nextjs.org/docs/advanced-features/output-file-tracing
 COPY --from=builder --chown=node:node /app/.next/standalone ./
 COPY --from=builder --chown=node:node /app/.next/static ./.next/static
+# Keep an immutable seed outside the CMS bind mount. On startup, newly added
+# data directories/files are copied into the persistent store without
+# overwriting content edited through the admin panel.
+COPY --from=builder --chown=node:node /app/src/data ./data-seed
 
 # If you want to persist the fetch cache generated during the build so that
 # cached responses are available immediately on startup, uncomment this line:
@@ -128,4 +132,4 @@ USER node
 EXPOSE 3000
 
 # Start Next.js standalone server
-CMD ["node", "server.js"]
+CMD ["sh", "-c", "mkdir -p /app/src/data && cp -Rn /app/data-seed/. /app/src/data/ && exec node server.js"]

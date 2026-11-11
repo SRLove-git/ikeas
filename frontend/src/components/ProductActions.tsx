@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react"
 import { useRouter } from "next/navigation"
 import { useTranslation } from "react-i18next"
-import { apiJson, getToken, type Cart, type Product } from "@/lib/api"
+import { apiJson, getToken, type Cart, type Product, type ProductAvailability } from "@/lib/api"
 import { HeartIcon } from "@/components/icons"
 import { addLocalItem } from "@/lib/local-cart"
 import type { CatalogProduct } from "@/data/catalog"
@@ -23,6 +23,24 @@ export function ProductActions({
   const [favState, setFavState] = useState<"on" | "off">("off")
   const [message, setMessage] = useState<string | null>(null)
   const [stockAlertLoading, setStockAlertLoading] = useState(false)
+  const [availability, setAvailability] = useState<ProductAvailability | "checking" | "unknown">(
+    "checking",
+  )
+
+  useEffect(() => {
+    let cancelled = false
+    setAvailability("checking")
+    apiJson<ProductAvailability>(`/products/${encodeURIComponent(productId)}/availability`)
+      .then((result) => {
+        if (!cancelled) setAvailability(result)
+      })
+      .catch(() => {
+        if (!cancelled) setAvailability("unknown")
+      })
+    return () => {
+      cancelled = true
+    }
+  }, [productId])
 
   useEffect(() => {
     if (!getToken()) {
@@ -124,21 +142,38 @@ export function ProductActions({
     }
   }
 
+  const unavailableLabel =
+    availability !== "checking" && availability !== "unknown" && !availability.sellable
+      ? availability.reason === "OUT_OF_STOCK"
+        ? t("product.outOfStock")
+        : availability.reason === "OMS_SKU_UNMAPPED"
+          ? t("product.notReadyForSale")
+          : t("product.priceUnavailable")
+      : null
+  const addDisabled =
+    bagState === "loading" ||
+    availability === "checking" ||
+    (availability !== "unknown" && !availability.sellable)
+
   return (
     <div className="mt-6 flex flex-col gap-3 sm:flex-row" data-avoid-floating>
       <button
         type="button"
         onClick={addToBag}
-        disabled={bagState === "loading"}
+        disabled={addDisabled}
         className="i-btn i-btn--small i-btn--primary h-11 px-8 text-sm disabled:opacity-60"
       >
         <span className="i-btn__inner">
           <span className="i-btn__label">
-            {bagState === "loading"
-              ? t("product.adding")
-              : bagState === "added"
-                ? t("product.addedToBag")
-                : t("product.addToBag")}
+            {availability === "checking"
+              ? t("product.checkingAvailability")
+              : unavailableLabel
+                ? unavailableLabel
+                : bagState === "loading"
+                  ? t("product.adding")
+                  : bagState === "added"
+                    ? t("product.addedToBag")
+                    : t("product.addToBag")}
           </span>
         </span>
       </button>
@@ -163,9 +198,7 @@ export function ProductActions({
         className="i-btn i-btn--small i-btn--secondary h-11 px-8 text-sm disabled:opacity-60"
       >
         <span className="i-btn__inner">
-          <span className="i-btn__label">
-            {stockAlertLoading ? "登记中..." : "到货提醒"}
-          </span>
+          <span className="i-btn__label">{stockAlertLoading ? "登记中..." : "到货提醒"}</span>
         </span>
       </button>
       {message ? <p className="text-sm text-ikea-blue">{message}</p> : null}

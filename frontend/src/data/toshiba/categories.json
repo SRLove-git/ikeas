@@ -1,0 +1,174 @@
+[
+  {
+    "slug": "kwh",
+    "name": "厨卫电器",
+    "nameEn": "Kitchen & Bath",
+    "subs": [
+      {
+        "slug": "water-purifier",
+        "name": "净水器",
+        "nameEn": "Water Purifier"
+      },
+      {
+        "slug": "dishwasher",
+        "name": "洗碗机",
+        "nameEn": "Dishwasher"
+      },
+      {
+        "slug": "water-heater",
+        "name": "热水器",
+        "nameEn": "Water Heater"
+      }
+    ]
+  },
+  {
+    "slug": "laundry",
+    "name": "洗护家电",
+    "nameEn": "Laundry & Cleaning",
+    "subs": [
+      {
+        "slug": "japandi",
+        "name": "Japandi 套系",
+        "nameEn": "Japandi Series"
+      },
+      {
+        "slug": "front-load",
+        "name": "滚筒洗衣机",
+        "nameEn": "Front Load Washer"
+      },
+      {
+        "slug": "top-load",
+        "name": "波轮洗衣机",
+        "nameEn": "Top Load Washer"
+      },
+      {
+        "slug": "dryer",
+        "name": "干衣机",
+        "nameEn": "Dryer"
+      },
+      {
+        "slug": "vacuum",
+        "name": "吸尘器",
+        "nameEn": "Vacuum Cleaner"
+      }
+    ]
+  },
+  {
+    "slug": "kitchen",
+    "name": "厨房电器",
+    "nameEn": "Kitchen Appliances",
+    "subs": [
+      {
+        "slug": "microwave",
+        "name": "微波炉",
+        "nameEn": "Microwave Oven"
+      },
+      {
+        "slug": "steam-oven",
+        "name": "蒸烤箱",
+        "nameEn": "Steam Oven"
+      },
+      {
+        "slug": "oven",
+        "name": "电烤箱",
+        "nameEn": "Electric Oven"
+      },
+      {
+        "slug": "built-in-oven",
+        "name": "嵌入式烤箱",
+        "nameEn": "Built-in Oven"
+      }
+    ]
+  },
+  {
+    "slug": "fridge",
+    "name": "冰箱",
+    "nameEn": "Refrigerators",
+    "subs": [
+      {
+        "slug": "tmf",
+        "name": "三门/多门 TMF",
+        "nameEn": "Top Mount Freezer"
+      },
+      {
+        "slug": "bmf",
+        "name": "两门 BMF",
+        "nameEn": "Bottom Mount Freezer"
+      },
+      {
+        "slug": "multi",
+        "name": "多门 Multi-Door",
+        "nameEn": "Multi-Door"
+      },
+      {
+        "slug": "sbs",
+        "name": "对开门 SBS",
+        "nameEn": "Side by Side"
+      }
+    ]
+  },
+  {
+    "slug": "small",
+    "name": "小家电",
+    "nameEn": "Small Appliances",
+    "subs": [
+      {
+        "slug": "rice-cooker",
+        "name": "电饭煲",
+        "nameEn": "Rice Cooker"
+      },
+      {
+        "slug": "fan",
+        "name": "风扇",
+        "nameEn": "Fan"
+      },
+      {
+        "slug": "kettle",
+        "name": "电水壶",
+        "nameEn": "Kettle"
+      },
+      {
+        "slug": "air-fryer",
+        "name": "空气炸锅",
+        "nameEn": "Air Fryer"
+      },
+      {
+        "slug": "air-purifier",
+        "name": "空气净化器",
+        "nameEn": "Air Purifier"
+      },
+      {
+        "slug": "blender",
+        "name": "破壁机",
+        "nameEn": "Blender"
+      },
+      {
+        "slug": "multi-cooker",
+        "name": "多功能锅",
+        "nameEn": "Multi Cooker"
+      },
+      {
+        "slug": "thermo-pot",
+        "name": "电热瓶/电压力锅",
+        "nameEn": "Thermo Pot"
+      },
+      {
+        "slug": "induction-cooker",
+        "name": "电磁炉",
+        "nameEn": "Induction Cooker"
+      }
+    ]
+  },
+  {
+    "slug": "air",
+    "name": "环境电器",
+    "nameEn": "Air & Environment",
+    "subs": [
+      {
+        "slug": "dehumidifier",
+        "name": "除湿机",
+        "nameEn": "Dehumidifier"
+      }
+    ]
+  }
+]

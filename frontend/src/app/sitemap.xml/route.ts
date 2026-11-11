@@ -1,14 +1,15 @@
 import { productsBySlug } from "@/data/products-index"
 import { catalogData } from "@/data/catalog"
 import { catalogPages } from "@/lib/catalog-pages"
+import { productHref } from "@/lib/product-url"
 
 export async function GET() {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://medical-sg.com"
   const now = new Date().toISOString()
-  const productUrls = Array.from(productsBySlug().keys())
+  const productUrls = Array.from(productsBySlug().values())
     .map(
-      (slug) =>
-        `<url><loc>${baseUrl}/zh/p/${slug}/</loc><lastmod>${now}</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>`,
+      (product) =>
+        `<url><loc>${baseUrl}${productHref(product)}</loc><lastmod>${now}</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>`,
     )
     .join("")
   const categoryUrls = [...catalogData().catalogCategories, ...catalogPages()]
@@ -28,6 +29,8 @@ export async function GET() {
     "/zh/customer-service/warranty-registration/",
     "/zh/booking/",
     "/en/booking/",
+    "/zh/midea/",
+    "/zh/toshiba/",
     "/zh/privacy-policy/",
     "/zh/conditions-of-use/",
     "/zh/online-purchase-agreement/",

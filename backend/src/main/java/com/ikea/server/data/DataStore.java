@@ -195,6 +195,18 @@ public class DataStore {
     return List.copyOf(productBySlug.values());
   }
 
+  /** Category names attributed to a product; used by support search to match category wording. */
+  public Set<String> categoryNamesFor(String productId) {
+    Set<String> names = productCategoryNames.get(productId);
+    return names == null ? Set.of() : Set.copyOf(names);
+  }
+
+  /** Navigation aliases (menu/sub-category names) attributed to a product. */
+  public Set<String> aliasesFor(String productId) {
+    Set<String> aliases = productAliasNames.get(productId);
+    return aliases == null ? Set.of() : Set.copyOf(aliases);
+  }
+
   // ------------------------------------------------------------- lookups
 
   public CategoryMatch findCategoryBySlug(String slug) {
@@ -315,6 +327,9 @@ public class DataStore {
     // into the application image.
     if (productEntityMapper.selectCount(null) == 0) {
       syncProducts(seed.products());
+    } else {
+      seedBrandProductsIfAbsent(seed.products(), "midea-");
+      seedBrandProductsIfAbsent(seed.products(), "toshiba-");
     }
     if (catalogCategoryEntityMapper.selectCount(null) == 0) {
       syncCatalogCategories(seed.catalogCategories(), "catalog");
@@ -334,6 +349,34 @@ public class DataStore {
     }
     if (homepageEntityMapper.selectCount(null) == 0) {
       syncHomepage(seed.homepage());
+    }
+  }
+
+  /**
+   * Existing installations already contain the original catalogue, so the
+   * first brand-commerce release must append its products without overwriting
+   * administrator-edited products. Once a brand has been seeded, the brand
+   * admin API keeps its frontend JSON and backend product row synchronized.
+   */
+  private void seedBrandProductsIfAbsent(List<Product> products, String idPrefix) {
+    long existing =
+        productEntityMapper.selectCount(
+            Wrappers.lambdaQuery(ProductEntity.class)
+                .likeRight(ProductEntity::getProductId, idPrefix));
+    if (existing > 0) {
+      return;
+    }
+    for (Product product : products) {
+      if (product.id() == null
+          || product.slug() == null
+          || !product.id().startsWith(idPrefix)) {
+        continue;
+      }
+      ProductEntity entity = new ProductEntity();
+      entity.setProductId(product.id());
+      entity.setSlug(product.slug());
+      entity.setPayload(writeValue(product));
+      productEntityMapper.insert(entity);
     }
   }
 
@@ -733,6 +776,22 @@ public class DataStore {
     for (Product product : allProducts) {
       productBySlug.putIfAbsent(product.slug(), product);
       productById.putIfAbsent(product.id(), product);
+      if (product.id() != null && product.categoryNames() != null) {
+        Set<String> names =
+            productCategoryNames.computeIfAbsent(product.id(), ignored -> new HashSet<>());
+        product.categoryNames().forEach(name -> addNonBlank(names, name));
+        if (!product.categoryNames().isEmpty()) {
+          String brandName = product.categoryNames().getFirst();
+          String brandPath =
+              product.id().startsWith("midea-")
+                  ? "/zh/midea/"
+                  : product.id().startsWith("toshiba-") ? "/zh/toshiba/" : null;
+          if (brandPath != null) {
+            productCategoryById.putIfAbsent(
+                product.id(), new CategoryRef(brandName, brandPath));
+          }
+        }
+      }
     }
 
     List<CatalogCategory> collections = new ArrayList<>(catalogCategories);

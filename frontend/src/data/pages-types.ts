@@ -1,101 +1,107 @@
 export interface ContentBlockLink {
-  href: string;
-  text: string;
+  href: string
+  text: string
 }
 
 export interface ContentBlockItem {
-  title: string;
-  text: string;
-  image: string | null;
-  href: string | null;
-  icon?: string | null;
-  backgroundColor?: string | null;
+  title: string
+  text: string
+  image: string | null
+  href: string | null
+  icon?: string | null
+  backgroundColor?: string | null
 }
 
 export interface ContentColumn {
-  heading: string | null;
-  text: string | null;
-  image: string | null;
-  href: string | null;
+  heading: string | null
+  text: string | null
+  image: string | null
+  href: string | null
 }
 
 export interface ContentBlock {
-  type: string;
-  title: string | null;
-  texts: string[];
-  images: string[];
-  links: ContentBlockLink[];
-  items?: ContentBlockItem[];
-  columns?: ContentColumn[];
-  productIds?: string[];
-  settings: Record<string, unknown> | null;
+  type: string
+  title: string | null
+  texts: string[]
+  images: string[]
+  links: ContentBlockLink[]
+  items?: ContentBlockItem[]
+  columns?: ContentColumn[]
+  productIds?: string[]
+  settings: Record<string, unknown> | null
 }
 
 export interface ContentPageData {
-  url: string;
-  family: string;
-  id: string | null;
-  title: string;
-  name: string | null;
-  hero: string | null;
-  subtitle?: string | null;
-  blocks: ContentBlock[];
+  url: string
+  family: string
+  id: string | null
+  title: string
+  name: string | null
+  hero: string | null
+  subtitle?: string | null
+  blocks: ContentBlock[]
 }
 
 export interface CatalogPageProduct {
-  id: string;
-  name: string;
-  price: number | null;
-  image: string | null;
-  productType: string | null;
-  designText: string | null;
-  measureText: string | null;
-  url: string | null;
-  seoSlug: string | null;
+  id: string
+  name: string
+  price: number | null
+  image: string | null
+  productType: string | null
+  designText: string | null
+  measureText: string | null
+  url: string | null
+  seoSlug: string | null
 }
 
 export interface CatalogPageData {
-  url: string;
-  id: string | null;
-  name: string;
-  description: string | null;
-  total: number;
-  products: CatalogPageProduct[];
-  blocks: ContentBlock[];
-  productIds: string[];
+  url: string
+  id: string | null
+  name: string
+  description: string | null
+  total: number
+  products: CatalogPageProduct[]
+  blocks: ContentBlock[]
+  productIds: string[]
 }
 
 export interface ProductDetailData {
-  images: string[];
-  benefits: string[];
-  dimension: string | null;
-  materials: string[];
-  care: string[];
-  description: string | null;
+  images: string[]
+  benefits: string[]
+  /** 品牌家电容量 */
+  capacity?: string | null
+  dimension: string | null
+  /** 品牌家电能效或水效等级 */
+  energy?: string | null
+  materials: string[]
+  care: string[]
+  description: string | null
   /** 适用人群 */
-  intendedFor?: string | null;
+  intendedFor?: string | null
   /** 包装数量 */
-  packageCount?: string | null;
+  packageCount?: string | null
   /** 使用方法 */
-  usage?: string | null;
+  usage?: string | null
   /** 结果说明 */
-  resultReading?: string | null;
+  resultReading?: string | null
   /** 注意事项 */
-  precautions?: string | null;
+  precautions?: string | null
   /** 储存与有效期 */
-  storage?: string | null;
+  storage?: string | null
   /** HSA 登记/豁免信息说明（以官方数据库为准） */
-  hsaInfo?: string | null;
+  hsaInfo?: string | null
 }
 
 export interface ProductData {
-  id: string;
-  slug: string;
-  name: string;
-  productType: string | null;
-  designText: string | null;
-  price: number | null;
-  image: string | null;
-  labels: { text: string; backgroundColor: string | null; textColor: string | null }[];
-  detail: ProductDetailData;
+  id: string
+  slug: string
+  name: string
+  productType: string | null
+  designText: string | null
+  price: number | null
+  originalPrice?: number | null
+  image: string | null
+  labels: { text: string; backgroundColor: string | null; textColor: string | null }[]
+  detail: ProductDetailData
+  categoryNames?: string[]
 }

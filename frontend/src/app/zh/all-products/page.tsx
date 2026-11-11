@@ -6,6 +6,7 @@ import { ProductCard } from "@/components/ProductCard"
 import { Breadcrumbs } from "@/components/Breadcrumbs"
 import { SiteLayout } from "@/components/SiteLayout"
 import { getLocale, getServerT } from "@/i18n/server"
+import { mideaCommerceProducts, toshibaCommerceProducts } from "@/data/brand-commerce"
 
 function toCardProduct(product: {
   id: string
@@ -61,6 +62,14 @@ export default async function AllProductsPage({
       categoryMap.set(slug, { name: page.name, products: products.map(toCardProduct) })
     }
   }
+  categoryMap.set("midea", {
+    name: locale === "zh-CN" ? "美的 Midea" : "Midea",
+    products: mideaCommerceProducts(locale).map(toCardProduct),
+  })
+  categoryMap.set("toshiba", {
+    name: locale === "zh-CN" ? "东芝 Toshiba" : "Toshiba",
+    products: toshibaCommerceProducts(locale).map(toCardProduct),
+  })
 
   const filters = [...categoryMap.entries()].map(([slug, { name, products }]) => ({
     slug,

@@ -2,6 +2,7 @@ import Link from "next/link"
 import type { ReactNode } from "react"
 import { SiteLayout } from "@/components/SiteLayout"
 import { SiteImage } from "@/components/SiteImage"
+import { productHref } from "@/lib/product-url"
 import { ProductCard } from "@/components/ProductCard"
 import { ArrowRightIcon } from "@/components/icons"
 import { formatPrice } from "@/lib/catalog"
@@ -79,7 +80,7 @@ function SearchResultCard({ product, query }: { product: SearchProduct; query: s
   ].join(" · ")
 
   return (
-    <Link href={`/zh/p/${product.slug}`} className="group flex flex-col">
+    <Link href={productHref(product)} className="group flex flex-col">
       <div className="aspect-square overflow-hidden bg-white">
         <SiteImage
           src={product.image}

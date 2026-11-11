@@ -6,6 +6,7 @@ import com.ikea.server.model.CategoryRef;
 import com.ikea.server.model.Paged;
 import com.ikea.server.model.Product;
 import com.ikea.server.model.ProductMatch;
+import com.ikea.server.service.ProductAvailabilityService;
 import java.util.List;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -18,9 +19,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class ProductController {
 
   private final DataStore store;
+  private final ProductAvailabilityService availabilityService;
 
-  public ProductController(DataStore store) {
+  public ProductController(DataStore store, ProductAvailabilityService availabilityService) {
     this.store = store;
+    this.availabilityService = availabilityService;
   }
 
   /** List / search products. Supports q, categorySlug, page and size. */
@@ -59,6 +62,15 @@ public class ProductController {
       throw new ResourceNotFoundException("Product not found: " + id);
     }
     return new ProductMatch(product, categoryOf(product));
+  }
+
+  @GetMapping("/products/{id}/availability")
+  public ProductAvailabilityService.Availability productAvailability(@PathVariable String id) {
+    Product product = store.findProductById(id);
+    if (product == null) {
+      throw new ResourceNotFoundException("Product not found: " + id);
+    }
+    return availabilityService.availability(product);
   }
 
   private CategoryRef categoryOf(Product product) {

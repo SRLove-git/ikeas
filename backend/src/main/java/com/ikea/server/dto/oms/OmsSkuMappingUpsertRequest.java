@@ -5,7 +5,7 @@ import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Positive;
 import jakarta.validation.constraints.Size;
 
-/** OMS SKU 映射新增/更新请求（productId 为 BUZUD 商品 ID）。 */
+/** OMS SKU 映射新增/更新请求（productId 为统一商城商品 ID）。 */
 public record OmsSkuMappingUpsertRequest(
     @NotBlank(message = "productId 不能为空") String productId,
     @NotNull(message = "omsSkuId 不能为空") @Positive(message = "omsSkuId 必须为正整数")

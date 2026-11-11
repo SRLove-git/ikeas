@@ -10,6 +10,7 @@ import { apiJson, type Cart } from "@/lib/api"
 import { formatPrice } from "@/lib/catalog-format"
 import { readLocalCart, updateLocalQuantity } from "@/lib/local-cart"
 import { useShippingQuote } from "@/hooks/useShippingQuote"
+import { productHref } from "@/lib/product-url"
 
 function QuantityField({
   productId,
@@ -199,7 +200,7 @@ export function CartPage() {
                     key={productId}
                     className="flex gap-4 rounded-lg border border-ikea-gray-200 bg-white p-5"
                   >
-                    <Link href={`/zh/p/${product.slug}/`} className="w-28 shrink-0">
+                    <Link href={productHref(product)} className="w-28 shrink-0">
                       <SiteImage
                         src={product.image}
                         alt={product.name}
@@ -209,7 +210,7 @@ export function CartPage() {
                     </Link>
                     <div className="flex min-w-0 flex-1 flex-col">
                       <Link
-                        href={`/zh/p/${product.slug}/`}
+                        href={productHref(product)}
                         className="line-clamp-2 text-sm font-bold leading-5 hover:underline"
                       >
                         {product.name}

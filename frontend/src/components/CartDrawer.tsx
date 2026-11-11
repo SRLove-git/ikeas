@@ -7,6 +7,7 @@ import { SiteImage } from "@/components/SiteImage"
 import { formatPrice } from "@/lib/catalog-format"
 import { apiJson, getToken, type Cart, type CartItem } from "@/lib/api"
 import { readLocalCart, updateLocalQuantity } from "@/lib/local-cart"
+import { productHref } from "@/lib/product-url"
 
 export function CartDrawer() {
   const { t } = useTranslation()
@@ -123,7 +124,7 @@ export function CartDrawer() {
             items.map(({ productId, product, quantity }) => (
               <div key={productId} className="flex gap-4 border-b border-ikea-gray-100 py-4">
                 <Link
-                  href={`/zh/p/${product.slug}/`}
+                  href={productHref(product)}
                   className="w-24 shrink-0"
                   onClick={() => setOpen(false)}
                 >
@@ -136,7 +137,7 @@ export function CartDrawer() {
                 </Link>
                 <div className="flex flex-1 flex-col">
                   <Link
-                    href={`/zh/p/${product.slug}/`}
+                    href={productHref(product)}
                     className="text-sm font-bold leading-5 hover:underline"
                     onClick={() => setOpen(false)}
                   >

@@ -33,6 +33,7 @@
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
     "test:product-sync": "node --test tests/product-sync.test.mjs",
+    "test:brand-commerce": "node --test tests/brand-commerce.test.mjs",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "check": "npm run lint && npm run typecheck && npm run build"

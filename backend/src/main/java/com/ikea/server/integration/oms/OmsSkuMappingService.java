@@ -13,12 +13,12 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
 /**
- * BUZUD 商品与 OMS SKU 映射的统一管理服务（对接规范 §6.1）。
+ * 商城商品与 OMS SKU 映射的统一管理服务（对接规范 §6.1）。
  *
  * <p>所有映射读写都经过这里，保证以下规范：
  * <ul>
- *   <li>productId 必须是 BUZUD 商品目录中真实存在的商品；</li>
- *   <li>omsSkuId 必须为正整数，且一个 OMS SKU 只能映射一个 BUZUD 商品；</li>
+ *   <li>productId 必须是统一商品目录中真实存在的商品；</li>
+ *   <li>omsSkuId 必须为正整数，且一个 OMS SKU 只能映射一个商城商品；</li>
  *   <li>写入采用 upsert，重复导入不会产生重复数据；</li>
  *   <li>删除使用 MyBatis-Plus 逻辑删除，保留审计痕迹。</li>
  * </ul>
@@ -120,7 +120,7 @@ public class OmsSkuMappingService {
     }
     Product product = dataStore.findProductById(normalized);
     if (product == null) {
-      throw new IllegalArgumentException("BUZUD 商品不存在: " + normalized);
+      throw new IllegalArgumentException("商城商品不存在: " + normalized);
     }
     return normalized;
   }
@@ -140,7 +140,7 @@ public class OmsSkuMappingService {
                 .ne(OmsSkuMapping::getProductId, excludeProductId));
     if (!conflicts.isEmpty()) {
       throw new IllegalArgumentException(
-          "OMS SKU " + omsSkuId + " 已映射到 BUZUD 商品 "
+          "OMS SKU " + omsSkuId + " 已映射到商城商品 "
               + conflicts.stream()
                   .map(OmsSkuMapping::getProductId)
                   .distinct()

@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { SiteLayout } from "@/components/SiteLayout"
+import { productHref } from "@/lib/product-url"
 import { SiteImage } from "@/components/SiteImage"
 import { allProducts } from "@/data/products-index"
 import { formatPrice } from "@/lib/catalog"
@@ -36,7 +37,7 @@ export default async function ComparePage() {
                   </th>
                   {items.map((product) => (
                     <th key={product.id} className="border border-ikea-gray-200 p-4">
-                      <Link href={`/zh/p/${product.slug}/`} className="group">
+                      <Link href={productHref(product)} className="group">
                         <SiteImage
                           src={product.image}
                           alt={product.name}

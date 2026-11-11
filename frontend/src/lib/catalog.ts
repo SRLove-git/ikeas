@@ -1,67 +1,63 @@
-import {
-  catalogData,
-  type CatalogCategory,
-  type CatalogProduct,
-} from "@/data/catalog";
-import { productsBySlug } from "@/data/products-index";
-import { catalogPages } from "@/lib/catalog-pages";
-import type { ProductData } from "@/data/pages-types";
-import { getCollectionHref } from "@/lib/catalog-format";
-import { DEFAULT_LOCALE, type Locale } from "@/i18n/config";
+import { catalogData, type CatalogCategory, type CatalogProduct } from "@/data/catalog"
+import { productsBySlug } from "@/data/products-index"
+import { catalogPages } from "@/lib/catalog-pages"
+import type { ProductData } from "@/data/pages-types"
+import { getCollectionHref } from "@/lib/catalog-format"
+import { DEFAULT_LOCALE, type Locale } from "@/i18n/config"
 
-export { formatPrice, getCollectionHref } from "@/lib/catalog-format";
+export { formatPrice, getCollectionHref } from "@/lib/catalog-format"
 
 export interface CategoryMatch {
-  category: CatalogCategory;
-  sub?: { name: string; slug: string; url: string; image: string | null };
+  category: CatalogCategory
+  sub?: { name: string; slug: string; url: string; image: string | null }
 }
 
 export interface ProductMatch {
-  product: CatalogProduct | ProductData;
-  category: { name: string; href: string } | null;
+  product: CatalogProduct | ProductData
+  category: { name: string; href: string } | null
 }
 
-const builtFor = new Map<Locale, ReturnType<typeof catalogData>>();
-const categoryBySlug = new Map<Locale, Map<string, CategoryMatch>>();
+const builtFor = new Map<Locale, ReturnType<typeof catalogData>>()
+const categoryBySlug = new Map<Locale, Map<string, CategoryMatch>>()
 const productBySlug = new Map<
   Locale,
   Map<string, { product: CatalogProduct; category: CatalogCategory }>
->();
+>()
 
 function ensureIndexes(locale: Locale): void {
-  const current = catalogData(locale);
-  if (builtFor.get(locale) === current) return;
-  builtFor.set(locale, current);
-  const collections = [...current.catalogCategories, ...current.channelCategories];
-  const categories = new Map<string, CategoryMatch>();
-  const products = new Map<string, { product: CatalogProduct; category: CatalogCategory }>();
+  const current = catalogData(locale)
+  if (builtFor.get(locale) === current) return
+  builtFor.set(locale, current)
+  const collections = [...current.catalogCategories, ...current.channelCategories]
+  const categories = new Map<string, CategoryMatch>()
+  const products = new Map<string, { product: CatalogProduct; category: CatalogCategory }>()
   for (const category of collections) {
-    categories.set(category.slug, { category });
+    categories.set(category.slug, { category })
     for (const sub of category.subs) {
-      categories.set(sub.slug, { category, sub });
+      categories.set(sub.slug, { category, sub })
     }
     for (const product of category.products) {
-      products.set(product.slug, { product, category });
+      products.set(product.slug, { product, category })
     }
   }
-  categoryBySlug.set(locale, categories);
-  productBySlug.set(locale, products);
+  categoryBySlug.set(locale, categories)
+  productBySlug.set(locale, products)
 }
 
 export function findCategoryBySlug(
   slug: string,
   locale: Locale = DEFAULT_LOCALE,
 ): CategoryMatch | undefined {
-  ensureIndexes(locale);
-  return categoryBySlug.get(locale)?.get(slug);
+  ensureIndexes(locale)
+  return categoryBySlug.get(locale)?.get(slug)
 }
 
 export function findProductBySlug(
   slug: string,
   locale: Locale = DEFAULT_LOCALE,
 ): ProductMatch | undefined {
-  ensureIndexes(locale);
-  const match = productBySlug.get(locale)?.get(slug);
+  ensureIndexes(locale)
+  const match = productBySlug.get(locale)?.get(slug)
   if (match) {
     return {
       product: match.product,
@@ -69,41 +65,42 @@ export function findProductBySlug(
         name: match.category.name,
         href: getCollectionHref(match.category),
       },
-    };
+    }
   }
-  const product = productsBySlug(locale).get(slug);
+  const product = productsBySlug(locale).get(slug)
   if (product) {
-    return { product, category: findCategoryNameForProductId(product.id, locale) };
+    return { product, category: findCategoryNameForProductId(product.id, locale) }
   }
-  return undefined;
+  return undefined
 }
 
 export function findCategoryNameForProductId(
   id: string,
   locale: Locale = DEFAULT_LOCALE,
 ): { name: string; href: string } | null {
+  if (id.startsWith("midea-")) {
+    return { name: locale === "zh-CN" ? "美的 Midea" : "Midea", href: "/zh/midea/" }
+  }
+  if (id.startsWith("toshiba-")) {
+    return { name: locale === "zh-CN" ? "东芝 Toshiba" : "Toshiba", href: "/zh/toshiba/" }
+  }
   for (const page of catalogPages(locale)) {
     if (page.products.some((p) => p.id === id)) {
-      return { name: page.name, href: page.url };
+      return { name: page.name, href: page.url }
     }
   }
-  ensureIndexes(locale);
-  const current = builtFor.get(locale);
-  const collections = current
-    ? [...current.catalogCategories, ...current.channelCategories]
-    : [];
+  ensureIndexes(locale)
+  const current = builtFor.get(locale)
+  const collections = current ? [...current.catalogCategories, ...current.channelCategories] : []
   for (const category of collections) {
     if (category.products.some((p) => String(p.id) === id)) {
-      return { name: category.name, href: getCollectionHref(category) };
+      return { name: category.name, href: getCollectionHref(category) }
     }
   }
-  return null;
+  return null
 }
 
 export function productSlugsWithDetails(locale: Locale = DEFAULT_LOCALE): Set<string> {
-  ensureIndexes(locale);
-  return new Set([
-    ...(productBySlug.get(locale)?.keys() ?? []),
-    ...productsBySlug(locale).keys(),
-  ]);
+  ensureIndexes(locale)
+  return new Set([...(productBySlug.get(locale)?.keys() ?? []), ...productsBySlug(locale).keys()])
 }

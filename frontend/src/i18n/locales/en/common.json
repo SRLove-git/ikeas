@@ -102,6 +102,12 @@
     "bookingServicePressure": "Blood pressure"
   },
   "floating": {
+    "orderContext": "Order number (optional; sign in to look up)",
+    "humanSupport": "Contact human support",
+    "productsLink": "Browse products",
+    "couponLink": "Visit coupon centre",
+    "myCouponsLink": "View my coupons",
+    "warrantyLink": "Register warranty",
     "cookieBar": "The CHUNG YIP website uses cookies to improve your browsing experience. By continuing to browse, you accept our cookie policy.",
     "cookieSettings": "Settings",
     "cookieAccept": "Accept",
@@ -111,7 +117,8 @@
     "chatFallback": "Sorry, I can't answer that right now.",
     "chatNetworkError": "Network error. Please try again later.",
     "chatPlaceholder": "Type your question",
-    "send": "Send"
+    "send": "Send",
+    "buyNow": "Buy now"
   },
   "cart": {
     "title": "Shopping bag ({{count}})",
@@ -132,6 +139,10 @@
     "addToBag": "Add to bag",
     "adding": "One moment…",
     "addedToBag": "Added to bag",
+    "checkingAvailability": "Checking stock…",
+    "outOfStock": "Out of stock",
+    "notReadyForSale": "Not available to buy",
+    "priceUnavailable": "Price pending",
     "addFavorite": "Save to favourites",
     "favorited": "Saved",
     "addedFavorite": "Added to favourites",
@@ -823,7 +834,8 @@
       "system": "System",
       "systemDesc": "Site configuration & audit",
       "siteSettings": "Site settings",
-      "changelog": "Activity log"
+      "changelog": "Activity log",
+      "brandCatalog": "Brand catalogs (Toshiba / Midea)"
     },
     "login": {
       "logo": "B",
@@ -1468,5 +1480,37 @@
     "scrollLeft": "Scroll left",
     "scrollRight": "Scroll right",
     "viewMore": "View more"
+  },
+  "toshiba": {
+    "eyebrow": "Toshiba · Singapore",
+    "title": "Toshiba Home Appliances",
+    "modelsCount": "{{count}} models",
+    "modelsSuffix": "{{count}} models",
+    "model": "Model {{model}}",
+    "modelLabel": "Model",
+    "backAll": "Back to all Toshiba products",
+    "enquire": "Enquire to buy",
+    "related": "Similar products",
+    "priceNote": "Recommended selling price (RSP) incl. GST. Delivery and installation not included.",
+    "modelUnit": "{{count}} models",
+    "capacity": "Capacity",
+    "dimension": "Dimensions (W×D×H)",
+    "energy": "Energy rating"
+  },
+  "midea": {
+    "eyebrow": "Midea · Singapore",
+    "title": "Midea Home Appliances",
+    "modelsCount": "{{count}} models",
+    "modelsSuffix": "{{count}} models",
+    "model": "Model {{model}}",
+    "modelLabel": "Model",
+    "backAll": "Back to all Midea products",
+    "enquire": "Enquire to buy",
+    "related": "Similar products",
+    "priceNote": "Recommended selling price (RSP) incl. GST. Delivery and installation not included.",
+    "modelUnit": "{{count}} models",
+    "capacity": "Capacity",
+    "dimension": "Dimensions (W×D×H)",
+    "energy": "Energy rating"
   }
 }

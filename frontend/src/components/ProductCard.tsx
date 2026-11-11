@@ -1,6 +1,7 @@
 import Link from "next/link"
 import { formatPrice } from "@/lib/catalog-format"
 import { SiteImage } from "@/components/SiteImage"
+import { productHref } from "@/lib/product-url"
 
 interface ProductCardProps {
   product: {
@@ -20,7 +21,7 @@ export function ProductCard({ product }: ProductCardProps) {
   const spec = [product.productType, product.designText].filter(Boolean).join(", ")
 
   return (
-    <Link href={`/zh/p/${product.slug}`} className="group flex flex-col">
+    <Link href={productHref(product)} className="group flex flex-col">
       <SiteImage
         src={product.image}
         alt={product.name}

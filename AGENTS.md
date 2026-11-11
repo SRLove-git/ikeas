@@ -14,7 +14,7 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 要点：
 
-- 商品目录只保留 23 个 BUZUD 商品，价格单位为 SGD；禁止混入原模板的 IKEA 商品数据。
+- 商品目录包含现有 BUZUD 健康商品，以及独立维护的美的、东芝家电目录；价格单位统一为 SGD，禁止混入原模板的 IKEA 商品数据。
 - 数据文件：`frontend/src/data/` 为唯一编辑入口，后端 `backend/src/main/resources/data/` 通过 `node scripts/export-server-data.mjs` 同步，数据变更后需重启后端。
 - 前端命令在 `frontend/` 目录下执行，后端命令在 `backend/` 目录下执行。
 - 管理后台 `/admin/` 已全部表单化，默认账号 `admin / admin123`。

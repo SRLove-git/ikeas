@@ -843,6 +843,322 @@
           "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711493-1.png"
         }
       ]
+    },
+    {
+      "name": "Kitchen & Bath",
+      "group": "Peralatan Rumah",
+      "url": "/zh/toshiba#kwh",
+      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-twp-w2255tsg-w-1.png",
+      "subs": [
+        {
+          "name": "Toshiba Water Purifier TWP-W2255TSG(W)",
+          "url": "/zh/toshiba/p/twp-w2255tsg-w",
+          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-twp-w2255tsg-w-1.png"
+        },
+        {
+          "name": "Toshiba Dishwasher 13 Place DW-13F1(G)-SG",
+          "url": "/zh/toshiba/p/dw-13f1-g-sg",
+          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-dw-13f1-g-sg-1.jpg"
+        },
+        {
+          "name": "Toshiba Dishwasher 14 Place DW-14F7(SS)-SG",
+          "url": "/zh/toshiba/p/dw-14f7-ss-sg",
+          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-dw-14f7-ss-sg-1.png"
+        },
+        {
+          "name": "Toshiba Water Heater TWH-33EXNSG(T)",
+          "url": "/zh/toshiba/p/twh-33exnsg-t",
+          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-twh-33exnsg-t-1.png"
+        }
+      ]
+    },
+    {
+      "name": "Laundry & Care",
+      "group": "Peralatan Rumah",
+      "url": "/zh/toshiba#laundry",
+      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-tw-t37bzp105mws-wt-1.png",
+      "subs": [
+        {
+          "name": "Japandi T37 10.5kg Front Load Washer",
+          "url": "/zh/toshiba/p/tw-t37bzp105mws-wt",
+          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-tw-t37bzp105mws-wt-1.png"
+        },
+        {
+          "name": "Japandi T37 8kg Dryer",
+          "url": "/zh/toshiba/p/td-t37bs80hws-wt",
+          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-td-t37bs80hws-wt-1.png"
+        },
+        {
+          "name": "Japandi T39 12&7kg Washer Dryer",
+          "url": "/zh/toshiba/p/twd-t39bzu120mws-wt",
+          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-twd-t39bzu120mws-wt-1.png"
+        },
+        {
+          "name": "Japandi T40 10&8kg Laundry Station (洗+干)",
+          "url": "/zh/toshiba/p/twd-t40bzu110mws-wt",
+          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-twd-t40bzu110mws-wt-1.png"
+        }
+      ]
+    },
+    {
+      "name": "Kitchen Appliances",
+      "group": "Peralatan Rumah",
+      "url": "/zh/toshiba#kitchen",
+      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-eb-t500apw-1.png",
+      "subs": [
+        {
+          "name": "Toshiba 50L Built-in Oven EB-T500APW",
+          "url": "/zh/toshiba/p/eb-t500apw",
+          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-eb-t500apw-1.png"
+        },
+        {
+          "name": "Toshiba 30L Superheated Steam MWO",
+          "url": "/zh/toshiba/p/er-td5000sg-yk",
+          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-er-td5000sg-yk-1.png"
+        },
+        {
+          "name": "Toshiba 42L Microwave Oven",
+          "url": "/zh/toshiba/p/ml-ec42s-bs",
+          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-ml-ec42s-bs-1.jpg"
+        },
+        {
+          "name": "Toshiba 30L Microwave & Grill",
+          "url": "/zh/toshiba/p/ml2-eg30pe-bs",
+          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-ml2-eg30pe-bs-1.png"
+        }
+      ]
+    },
+    {
+      "name": "Refrigerators",
+      "group": "Peralatan Rumah",
+      "url": "/zh/toshiba#fridge",
+      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-gr-rb405we-pmx-06s-1.png",
+      "subs": [
+        {
+          "name": "Toshiba 2-door 405L (3 ticks)",
+          "url": "/zh/toshiba/p/gr-rb405we-pmx-06s",
+          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-gr-rb405we-pmx-06s-1.png"
+        },
+        {
+          "name": "Toshiba 515L Multi-Door",
+          "url": "/zh/toshiba/p/gr-rf665wia-pgx-22",
+          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-gr-rf665wia-pgx-22-1.png"
+        },
+        {
+          "name": "Toshiba Multi-Door",
+          "url": "/zh/toshiba/p/gr-rf677wi-pmx-06",
+          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-gr-rf677wi-pmx-06-1.jpg"
+        },
+        {
+          "name": "Toshiba Japandi 524L Multi-Door",
+          "url": "/zh/toshiba/p/gr-rf691wi-pgx-67",
+          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-gr-rf691wi-pgx-67-1.png"
+        }
+      ]
+    },
+    {
+      "name": "Small Appliances",
+      "group": "Peralatan Rumah",
+      "url": "/zh/toshiba#small",
+      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-af-74cs1trsg-b-1.png",
+      "subs": [
+        {
+          "name": "Toshiba 7.4L Air Fryer",
+          "url": "/zh/toshiba/p/af-74cs1trsg-b",
+          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-af-74cs1trsg-b-1.png"
+        },
+        {
+          "name": "Toshiba 3.0L Electric Pot",
+          "url": "/zh/toshiba/p/plk-30fleis",
+          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-plk-30fleis-1.jpg"
+        },
+        {
+          "name": "Toshiba 4.5L Electric Pot",
+          "url": "/zh/toshiba/p/plk-45sfeis",
+          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-plk-45sfeis-1.jpg"
+        },
+        {
+          "name": "Toshiba 2.5L Thermo Pot",
+          "url": "/zh/toshiba/p/tp-25drvsg-w",
+          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-tp-25drvsg-w-1.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Air Treatment",
+      "group": "Peralatan Rumah",
+      "url": "/zh/toshiba#air",
+      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-rad-dib28sg-1.png",
+      "subs": [
+        {
+          "name": "Toshiba Dehumidifier RAD-DIB28SG",
+          "url": "/zh/toshiba/p/rad-dib28sg",
+          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-rad-dib28sg-1.png"
+        }
+      ]
+    },
+    {
+      "name": "Kitchen & Bath",
+      "group": "Midea",
+      "url": "/zh/midea#kwh",
+      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/midea-mbi-90f140bk-sg-1.png",
+      "subs": [
+        {
+          "name": "Midea Hood",
+          "url": "/zh/midea/p/mbi-90f140bk-sg",
+          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/midea-mbi-90f140bk-sg-1.png"
+        },
+        {
+          "name": "Midea Hood",
+          "url": "/zh/midea/p/mbi-90m79sk-sg-mbi-90m79bk-sg",
+          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/midea-mbi-90m79sk-sg-mbi-90m79bk-sg-1.png"
+        },
+        {
+          "name": "Midea Cook Hob",
+          "url": "/zh/midea/p/mbi-sn20lpg-sg-gl-mbi-sn20tg-sg-gl",
+          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/midea-mbi-sn20lpg-sg-gl-mbi-sn20tg-sg-gl-1.png"
+        },
+        {
+          "name": "Midea Cook Hob",
+          "url": "/zh/midea/p/mbi-sn30lpg-sg-gl-mbi-sn30tg-sg-gl",
+          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/midea-mbi-sn30lpg-sg-gl-mbi-sn30tg-sg-gl-1.png"
+        }
+      ]
+    },
+    {
+      "name": "Refrigerators",
+      "group": "Midea",
+      "url": "/zh/midea#fridge",
+      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/midea-mdrd143fgb-sg-1.jpg",
+      "subs": [
+        {
+          "name": "Midea Bar Refrigerator",
+          "url": "/zh/midea/p/mdrd143fgb-sg",
+          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/midea-mdrd143fgb-sg-1.jpg"
+        },
+        {
+          "name": "Midea Bar Refrigerator",
+          "url": "/zh/midea/p/mdrd88fgd01-sg",
+          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/midea-mdrd88fgd01-sg-1.jpg"
+        },
+        {
+          "name": "Midea Bottom Mount Freezer 320L",
+          "url": "/zh/midea/p/mdrb470mgd28",
+          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/midea-mdrb470mgd28-1.png"
+        },
+        {
+          "name": "Midea Traditonal channel",
+          "url": "/zh/midea/p/mdrc154fzb01my",
+          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/midea-mdrc154fzb01my-1.png"
+        }
+      ]
+    },
+    {
+      "name": "Laundry & Care",
+      "group": "Midea",
+      "url": "/zh/midea#laundry",
+      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/midea-mvc-at2-1.png",
+      "subs": [
+        {
+          "name": "Midea Floor Waher",
+          "url": "/zh/midea/p/mvc-at2",
+          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/midea-mvc-at2-1.png"
+        },
+        {
+          "name": "Midea floor washer",
+          "url": "/zh/midea/p/mvc-x10",
+          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/midea-mvc-x10-1.jpg"
+        },
+        {
+          "name": "Midea 190W Deep Floor Washer",
+          "url": "/zh/midea/p/mwd-20p",
+          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/midea-mwd-20p-1.png"
+        },
+        {
+          "name": "Midea Launch Demo-&Channel",
+          "url": "/zh/midea/p/mwd-40p",
+          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/midea-mwd-40p-1.png"
+        }
+      ]
+    },
+    {
+      "name": "Kitchen Appliances",
+      "group": "Midea",
+      "url": "/zh/midea#kitchen",
+      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/midea-eg-p06sg-1.png",
+      "subs": [
+        {
+          "name": "Midea Smokeless radiant grill",
+          "url": "/zh/midea/p/eg-p06sg",
+          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/midea-eg-p06sg-1.png"
+        },
+        {
+          "name": "Midea 21L OVEN __Channel 21L",
+          "url": "/zh/midea/p/am820c2ra",
+          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/midea-am820c2ra-1.jpg"
+        },
+        {
+          "name": "Midea 23L Microwave oven channel - shopee 23L",
+          "url": "/zh/midea/p/am823abv",
+          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/midea-am823abv-1.jpg"
+        },
+        {
+          "name": "Midea 20L Microwave oven channel 20L",
+          "url": "/zh/midea/p/mm720cj9",
+          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/midea-mm720cj9-1.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Small Appliances",
+      "group": "Midea",
+      "url": "/zh/midea#small",
+      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/midea-map250gubpwh-1.jpg",
+      "subs": [
+        {
+          "name": "Midea Air Purifier",
+          "url": "/zh/midea/p/map250gubpwh",
+          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/midea-map250gubpwh-1.jpg"
+        },
+        {
+          "name": "Midea MAP400GPBPWHAir Purifier",
+          "url": "/zh/midea/p/map400gpbpwh",
+          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/midea-map400gpbpwh-1.png"
+        },
+        {
+          "name": "Midea Intrinity Fan FS07-26VSG",
+          "url": "/zh/midea/p/fs07-26vsg",
+          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/midea-fs07-26vsg-1.png"
+        },
+        {
+          "name": "Midea Circulation Fan FS14-26SG",
+          "url": "/zh/midea/p/fs14-26sg",
+          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/midea-fs14-26sg-1.png"
+        }
+      ]
+    },
+    {
+      "name": "Cleaning",
+      "group": "Midea",
+      "url": "/zh/midea#clean",
+      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/midea-ms8plusapbk-1.jpg",
+      "subs": [
+        {
+          "name": "Midea Robot Vacuum Cleaner",
+          "url": "/zh/midea/p/ms8plusapbk",
+          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/midea-ms8plusapbk-1.jpg"
+        },
+        {
+          "name": "Midea MV12UltrasGBK",
+          "url": "/zh/midea/p/mv12ultrasgbk",
+          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/midea-mv12ultrasgbk-1.jpg"
+        },
+        {
+          "name": "Midea Robotic Vacuum Cleaner",
+          "url": "/zh/midea/p/mvc-i5c",
+          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/midea-mvc-i5c-1.jpg"
+        }
+      ]
     }
   ]
 }

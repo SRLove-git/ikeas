@@ -102,6 +102,12 @@
     "bookingServicePressure": "血压检测"
   },
   "floating": {
+    "orderContext": "关联订单号（选填，查询需登录）",
+    "humanSupport": "联系人工客服",
+    "productsLink": "查看商品",
+    "couponLink": "前往领券中心",
+    "myCouponsLink": "查看我的优惠券",
+    "warrantyLink": "前往保修注册",
     "cookieBar": "CHUNG YIP 官网使用 Cookies 提升浏览体验。继续浏览即表示您接受我们的 Cookies 政策。",
     "cookieSettings": "设置",
     "cookieAccept": "我接受",
@@ -111,7 +117,8 @@
     "chatFallback": "抱歉，我暂时无法回答这个问题。",
     "chatNetworkError": "网络异常，请稍后再试。",
     "chatPlaceholder": "请输入您的问题",
-    "send": "发送"
+    "send": "发送",
+    "buyNow": "去购买"
   },
   "cart": {
     "title": "购物袋({{count}})",
@@ -132,6 +139,10 @@
     "addToBag": "加入购物袋",
     "adding": "请稍候…",
     "addedToBag": "已加入购物袋",
+    "checkingAvailability": "检查库存…",
+    "outOfStock": "暂时缺货",
+    "notReadyForSale": "暂不可购买",
+    "priceUnavailable": "价格待确认",
     "addFavorite": "加入收藏",
     "favorited": "已收藏",
     "addedFavorite": "已加入收藏",
@@ -823,7 +834,8 @@
       "system": "系统设置",
       "systemDesc": "站点配置与审计",
       "siteSettings": "网站设置",
-      "changelog": "操作日志"
+      "changelog": "操作日志",
+      "brandCatalog": "品牌目录（东芝 / 美的）"
     },
     "login": {
       "logo": "宜",
@@ -1468,5 +1480,37 @@
     "scrollLeft": "向左滚动",
     "scrollRight": "向右滚动",
     "viewMore": "查看更多"
+  },
+  "toshiba": {
+    "eyebrow": "Toshiba · Singapore",
+    "title": "东芝家电",
+    "modelsCount": "{{count}} 个型号",
+    "modelsSuffix": "{{count}} 个型号",
+    "model": "型号 {{model}}",
+    "modelLabel": "型号",
+    "backAll": "返回全部东芝商品",
+    "enquire": "咨询购买",
+    "related": "同类商品",
+    "priceNote": "含 GST 建议零售价（RSP），不含安装与配送费用。",
+    "modelUnit": "{{count}} 个型号",
+    "capacity": "容量",
+    "dimension": "外形尺寸（宽×深×高）",
+    "energy": "能效等级"
+  },
+  "midea": {
+    "eyebrow": "Midea · Singapore",
+    "title": "美的家电",
+    "modelsCount": "{{count}} 个型号",
+    "modelsSuffix": "{{count}} 个型号",
+    "model": "型号 {{model}}",
+    "modelLabel": "型号",
+    "backAll": "返回全部美的商品",
+    "enquire": "咨询购买",
+    "related": "同类商品",
+    "priceNote": "含 GST 建议零售价（RSP），不含安装与配送费用。",
+    "modelUnit": "{{count}} 个型号",
+    "capacity": "容量",
+    "dimension": "外形尺寸（宽×深×高）",
+    "energy": "能效等级"
   }
 }

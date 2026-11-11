@@ -18,6 +18,7 @@ export function AdminShell({ children }: { children: React.ReactNode }) {
       description: t("admin.shell.productsDesc"),
       items: [
         { href: "/admin/products", label: t("admin.shell.productManagement") },
+        { href: "/admin/brands", label: t("admin.shell.brandCatalog") },
         { href: "/admin/categories", label: t("admin.shell.categories") },
         { href: "/admin/catalog-pages", label: t("admin.shell.catalogPages") },
       ],

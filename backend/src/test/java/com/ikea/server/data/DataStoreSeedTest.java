@@ -1,8 +1,11 @@
 package com.ikea.server.data;
 
 import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.ArgumentMatchers.isNull;
+import static org.mockito.ArgumentMatchers.notNull;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.never;
+import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
@@ -43,7 +46,8 @@ class DataStoreSeedTest {
     ContentPageEntityMapper contentPages = mock(ContentPageEntityMapper.class);
     HomepageEntityMapper homepage = mock(HomepageEntityMapper.class);
 
-    when(products.selectCount(null)).thenReturn(1L);
+    when(products.selectCount(isNull())).thenReturn(1L);
+    when(products.selectCount(notNull())).thenReturn(1L);
     when(categories.selectCount(null)).thenReturn(1L);
     when(menuCategories.selectCount(null)).thenReturn(1L);
     when(menuPanels.selectCount(null)).thenReturn(1L);
@@ -74,5 +78,44 @@ class DataStoreSeedTest {
     verify(contentPages, never()).insert(any(ContentPageEntity.class));
     verify(homepage, never()).insert(any(HomepageEntity.class));
     verify(transactionManager).commit(any(TransactionStatus.class));
+  }
+
+  @Test
+  void existingStoreReceivesBrandProductsOnce() throws Exception {
+    PlatformTransactionManager transactionManager = mock(PlatformTransactionManager.class);
+    when(transactionManager.getTransaction(any(TransactionDefinition.class)))
+        .thenReturn(mock(TransactionStatus.class));
+
+    ProductEntityMapper products = mock(ProductEntityMapper.class);
+    CatalogCategoryEntityMapper categories = mock(CatalogCategoryEntityMapper.class);
+    MenuCategoryEntityMapper menuCategories = mock(MenuCategoryEntityMapper.class);
+    MenuPanelEntityMapper menuPanels = mock(MenuPanelEntityMapper.class);
+    CatalogPageEntityMapper catalogPages = mock(CatalogPageEntityMapper.class);
+    ContentPageEntityMapper contentPages = mock(ContentPageEntityMapper.class);
+    HomepageEntityMapper homepage = mock(HomepageEntityMapper.class);
+
+    when(products.selectCount(isNull())).thenReturn(1L);
+    when(products.selectCount(notNull())).thenReturn(0L);
+    when(categories.selectCount(null)).thenReturn(1L);
+    when(menuCategories.selectCount(null)).thenReturn(1L);
+    when(menuPanels.selectCount(null)).thenReturn(1L);
+    when(catalogPages.selectCount(null)).thenReturn(1L);
+    when(contentPages.selectCount(null)).thenReturn(1L);
+    when(homepage.selectCount(null)).thenReturn(1L);
+
+    ObjectMapper objectMapper =
+        new ObjectMapper().configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
+    new DataStore(
+        objectMapper,
+        transactionManager,
+        products,
+        categories,
+        menuCategories,
+        menuPanels,
+        catalogPages,
+        contentPages,
+        homepage);
+
+    verify(products, times(223)).insert(any(ProductEntity.class));
   }
 }

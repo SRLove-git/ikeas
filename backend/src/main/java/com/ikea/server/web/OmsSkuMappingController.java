@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
  * OMS SKU 映射管理接口（受 /api/v1/admin/** 的 X-Admin-Key 保护）。
  *
  * <p>提供列表、幂等新增/更新、逻辑删除，供后台或导入脚本维护
- * BUZUD productId ↔ OMS skuId 映射。
+ * 商城 productId ↔ OMS skuId 映射。
  */
 @RestController
 @RequestMapping("/api/v1/admin/oms/sku-mappings")

@@ -102,6 +102,12 @@
     "bookingServicePressure": "Tekanan darah"
   },
   "floating": {
+    "orderContext": "Nomor pesanan (opsional; masuk untuk memeriksa)",
+    "humanSupport": "Hubungi petugas layanan pelanggan",
+    "productsLink": "Lihat produk",
+    "couponLink": "Buka pusat kupon",
+    "myCouponsLink": "Lihat kupon saya",
+    "warrantyLink": "Daftarkan garansi",
     "cookieBar": "Situs web CHUNG YIP menggunakan cookie untuk meningkatkan pengalaman menjelajah Anda. Dengan terus menjelajah, Anda menerima kebijakan cookie kami.",
     "cookieSettings": "Pengaturan",
     "cookieAccept": "Terima",
@@ -111,7 +117,8 @@
     "chatFallback": "Maaf, saya tidak dapat menjawabnya saat ini.",
     "chatNetworkError": "Kesalahan jaringan. Silakan coba lagi nanti.",
     "chatPlaceholder": "Ketik pertanyaan Anda",
-    "send": "Kirim"
+    "send": "Kirim",
+    "buyNow": "Beli sekarang"
   },
   "cart": {
     "title": "Tas belanja ({{count}})",
@@ -132,6 +139,10 @@
     "addToBag": "Tambah ke tas",
     "adding": "Sebentar…",
     "addedToBag": "Ditambahkan ke tas",
+    "checkingAvailability": "Memeriksa stok…",
+    "outOfStock": "Stok habis",
+    "notReadyForSale": "Belum tersedia untuk dibeli",
+    "priceUnavailable": "Harga belum dikonfirmasi",
     "addFavorite": "Simpan ke favorit",
     "favorited": "Tersimpan",
     "addedFavorite": "Ditambahkan ke favorit",
@@ -823,7 +834,8 @@
       "system": "Sistem",
       "systemDesc": "Konfigurasi situs & audit",
       "siteSettings": "Pengaturan situs",
-      "changelog": "Log aktivitas"
+      "changelog": "Log aktivitas",
+      "brandCatalog": "Katalog merek (Toshiba / Midea)"
     },
     "login": {
       "logo": "B",
@@ -1468,5 +1480,37 @@
     "scrollLeft": "Gulir ke kiri",
     "scrollRight": "Gulir ke kanan",
     "viewMore": "Lihat lebih banyak"
+  },
+  "toshiba": {
+    "eyebrow": "Toshiba · Singapura",
+    "title": "Peralatan Rumah Toshiba",
+    "modelsCount": "{{count}} model",
+    "modelsSuffix": "{{count}} model",
+    "model": "Model {{model}}",
+    "modelLabel": "Model",
+    "backAll": "Kembali ke semua produk Toshiba",
+    "enquire": "Tanya untuk membeli",
+    "related": "Produk serupa",
+    "priceNote": "Harga jual yang disarankan (RSP) termasuk GST. Pengiriman dan pemasangan tidak termasuk.",
+    "modelUnit": "{{count}} model",
+    "capacity": "Kapasitas",
+    "dimension": "Dimensi (L×D×T)",
+    "energy": "Peringkat energi"
+  },
+  "midea": {
+    "eyebrow": "Midea · Singapura",
+    "title": "Peralatan Rumah Midea",
+    "modelsCount": "{{count}} model",
+    "modelsSuffix": "{{count}} model",
+    "model": "Model {{model}}",
+    "modelLabel": "Model",
+    "backAll": "Kembali ke semua produk Midea",
+    "enquire": "Tanya untuk membeli",
+    "related": "Produk serupa",
+    "priceNote": "Harga jual yang disarankan (RSP) termasuk GST. Pengiriman dan pemasangan tidak termasuk.",
+    "modelUnit": "{{count}} model",
+    "capacity": "Kapasitas",
+    "dimension": "Dimensi (L×D×T)",
+    "energy": "Peringkat energi"
   }
 }
