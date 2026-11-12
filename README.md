@@ -56,6 +56,8 @@ cd backend && ./mvnw spring-boot:run  # http://localhost:8080
 docker compose -f deploy/docker-compose.yml up -d db   # PostgreSQL 16，端口 5432
 ```
 
+容器发布端口默认只绑定 `127.0.0.1`。若生产反向代理从指定的 Docker 宿主网关访问，可分别设置 `APP_BIND_ADDRESS`、`SERVER_BIND_ADDRESS`；数据库建议保持 `DB_BIND_ADDRESS=127.0.0.1`。
+
 默认连接参数（可用环境变量覆盖）：`DB_HOST=localhost`、`DB_PORT=5432`、`DB_NAME=buzud`、`DB_USER=buzud`、`DB_PASSWORD=buzud`。后端启动时 Flyway 自动执行 `backend/src/main/resources/db/migration/` 下的迁移脚本，并将 `backend/src/main/resources/data/` 中的静态内容作为首次种子写入数据库。
 
 ## 对接 OMS（本地联调）

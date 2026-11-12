@@ -14,7 +14,7 @@ services:
     container_name: buzud-frontend
     restart: unless-stopped
     ports:
-      - "${PORT:-3000}:3000"
+      - "${APP_BIND_ADDRESS:-127.0.0.1}:${PORT:-3000}:3000"
     environment:
       - NODE_ENV=production
       - NEXT_TELEMETRY_DISABLED=1
@@ -74,7 +74,7 @@ services:
     container_name: buzud-server
     restart: unless-stopped
     ports:
-      - "${SERVER_PORT:-8080}:8080"
+      - "${SERVER_BIND_ADDRESS:-127.0.0.1}:${SERVER_PORT:-8080}:8080"
     environment:
       - IKEA_STATIC_PUBLIC_DIR=${IKEA_STATIC_PUBLIC_DIR:-/app/frontend/public}
       - CORS_ALLOWED_ORIGINS=${CORS_ALLOWED_ORIGINS:-http://localhost:3000,http://localhost:3001,http://47.84.25.19:3001}
@@ -136,7 +136,7 @@ services:
       - POSTGRES_USER=buzud
       - POSTGRES_PASSWORD=${DB_PASSWORD:-buzud}
     ports:
-      - "${DB_PORT:-5432}:5432"
+      - "${DB_BIND_ADDRESS:-127.0.0.1}:${DB_PORT:-5432}:5432"
     volumes:
       - buzud_pgdata:/var/lib/postgresql/data
     healthcheck:
