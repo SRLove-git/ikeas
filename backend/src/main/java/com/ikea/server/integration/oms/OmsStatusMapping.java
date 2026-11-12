@@ -9,7 +9,7 @@ import java.util.Map;
  */
 public final class OmsStatusMapping {
 
-  /** OMS 1 待支付 2 已支付 3 已审核 4 已发货 5 已签收 6 已完成 7 已取消。 */
+  /** OMS 1 待支付 2 已支付 3 已审核 4 已发货 5 已签收 6 已完成 7 已取消 8 退款中。 */
   private static final Map<Integer, Integer> OMS_TO_LOCAL =
       Map.of(
           1, OrderStatus.PENDING_PAYMENT.code(),
@@ -18,7 +18,8 @@ public final class OmsStatusMapping {
           4, OrderStatus.PENDING_RECEIPT.code(),
           5, OrderStatus.PENDING_RECEIPT.code(),
           6, OrderStatus.COMPLETED.code(),
-          7, OrderStatus.CANCELLED.code());
+          7, OrderStatus.CANCELLED.code(),
+          8, OrderStatus.REFUNDING.code());
 
   private OmsStatusMapping() {}
 

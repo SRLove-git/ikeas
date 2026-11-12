@@ -186,6 +186,22 @@ class OmsOrderSyncServiceTest {
   }
 
   @Test
+  void pollShouldMoveOrderToRefundingForOmsStatusEight() {
+    Order order = order(OrderStatus.PENDING_SHIPMENT.code(), "B006R");
+    OmsOrderMapping mapping = syncedMapping("B006R", "O104R", 2);
+    when(orderMappingMapper.selectList(any(Wrapper.class))).thenReturn(List.of(mapping));
+    when(orderMapper.selectOne(any(Wrapper.class))).thenReturn(order);
+    when(channel.queryOrder("B006R"))
+        .thenReturn(new OmsOrderOutcome("O104R", 8, new BigDecimal("109.90"), "SGD"));
+
+    service.pollOrderStatus();
+
+    assertEquals(OrderStatus.REFUNDING.code(), order.getStatus());
+    verify(orderMapper).updateById(order);
+    assertEquals(8, mapping.getOmsStatus());
+  }
+
+  @Test
   void cancelShouldNotCallOmsWhenNotSynced() {
     Order order = order(OrderStatus.CANCELLED.code(), "B007");
     when(orderMappingMapper.selectOne(any(Wrapper.class))).thenReturn(null);
