@@ -51,17 +51,21 @@ export interface Product {
 
 export interface ProductAvailability {
   sellable: boolean
-  reason: "AVAILABLE" | "PRICE_UNAVAILABLE" | "OMS_SKU_UNMAPPED" | "OUT_OF_STOCK"
+  reason:
+    | "AVAILABLE"
+    | "PRICE_UNAVAILABLE"
+    | "OMS_SKU_UNMAPPED"
+    | "OMS_SNAPSHOT_UNAVAILABLE"
+    | "OUT_OF_STOCK"
   price: number | null
-  stock: number | null
-  omsEnabled: boolean
-  mapped: boolean
 }
 
 export interface CartItem {
   productId: string
   quantity: number
   product: Product
+  sellable?: boolean
+  availabilityReason?: ProductAvailability["reason"]
 }
 
 export interface Cart {

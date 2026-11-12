@@ -48,6 +48,9 @@ public interface OmsChannel {
   /** 在售 SKU 分页查询（含实时可售库存，对接规范 §5.2）。 */
   OmsProductPage productsOnSale(String keyword, int page, int size);
 
+  /** 按 SKU ID 查找单个在售商品；不存在或已下架时返回 null。 */
+  OmsProduct productOnSale(Long skuId);
+
   /** 单个 SKU 实时库存查询。 */
   OmsStock availableStock(Long skuId);
 

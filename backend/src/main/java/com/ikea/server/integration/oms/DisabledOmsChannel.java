@@ -55,6 +55,11 @@ public class DisabledOmsChannel implements OmsChannel {
   }
 
   @Override
+  public OmsProduct productOnSale(Long skuId) {
+    throw new IllegalStateException("OMS 对接未启用");
+  }
+
+  @Override
   public OmsStock availableStock(Long skuId) {
     throw new IllegalStateException("OMS 对接未启用");
   }

@@ -1,4 +1,4 @@
-import type { CartItem } from "@/lib/api"
+import { apiJson, type CartItem, type ProductAvailability } from "@/lib/api"
 
 const LOCAL_CART_KEY = "buzud_local_cart"
 
@@ -21,9 +21,7 @@ export function readLocalCart(): CartItem[] {
 export function writeLocalCart(items: CartItem[]): CartItem[] {
   if (typeof window !== "undefined") {
     window.localStorage.setItem(LOCAL_CART_KEY, JSON.stringify(items))
-    window.dispatchEvent(
-      new CustomEvent("ikea:cart-changed", { detail: cartChangedDetail(items) }),
-    )
+    window.dispatchEvent(new CustomEvent("ikea:cart-changed", { detail: cartChangedDetail(items) }))
   }
   return items
 }
@@ -39,15 +37,42 @@ export function addLocalItem(item: CartItem): CartItem[] {
   return writeLocalCart(items)
 }
 
+/** Refresh guest-cart prices and sellability from the same public snapshot used at checkout. */
+export async function refreshLocalCartAvailability(items: CartItem[]): Promise<CartItem[]> {
+  const refreshed = await Promise.all(
+    items.map(async (item) => {
+      try {
+        const availability = await apiJson<ProductAvailability>(
+          `/products/${encodeURIComponent(item.productId)}/availability`,
+        )
+        return {
+          ...item,
+          product: {
+            ...item.product,
+            price: availability.price ?? item.product.price,
+          },
+          sellable: availability.sellable,
+          availabilityReason: availability.reason,
+        }
+      } catch {
+        return {
+          ...item,
+          sellable: false,
+          availabilityReason: "OMS_SNAPSHOT_UNAVAILABLE" as const,
+        }
+      }
+    }),
+  )
+  return writeLocalCart(refreshed)
+}
+
 export function updateLocalQuantity(productId: string, quantity: number): CartItem[] {
   const items = readLocalCart()
   const next =
     quantity <= 0
       ? items.filter((entry) => entry.productId !== productId)
       : items.map((entry) =>
-          entry.productId === productId
-            ? { ...entry, quantity: Math.min(99, quantity) }
-            : entry,
+          entry.productId === productId ? { ...entry, quantity: Math.min(99, quantity) } : entry,
         )
   return writeLocalCart(next)
 }

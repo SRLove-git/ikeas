@@ -133,7 +133,8 @@
     "checkout": "Daftar keluar",
     "continueShopping": "Teruskan membeli-belah",
     "loadFailed": "Gagal memuatkan beg beli-belah",
-    "updateFailed": "Gagal mengemas kini kuantiti"
+    "updateFailed": "Gagal mengemas kini kuantiti",
+    "unavailableItems": "Sesetengah item belum tersedia. Keluarkan sebelum pembayaran."
   },
   "product": {
     "addToBag": "Tambah ke beg",
@@ -143,6 +144,7 @@
     "outOfStock": "Kehabisan stok",
     "notReadyForSale": "Belum tersedia untuk dibeli",
     "priceUnavailable": "Harga belum disahkan",
+    "availabilityUnavailable": "Status jualan belum disahkan",
     "addFavorite": "Simpan ke kegemaran",
     "favorited": "Disimpan",
     "addedFavorite": "Ditambah ke kegemaran",

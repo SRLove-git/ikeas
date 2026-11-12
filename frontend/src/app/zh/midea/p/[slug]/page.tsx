@@ -73,14 +73,17 @@ export default async function MideaProductPage({ params }: { params: Promise<{ s
                 {t("midea.model", { model: product.model })}
               </p>
 
-              <div className="mt-6 flex items-baseline gap-3">
-                <span className="text-3xl font-bold">{formatPrice(product.price)}</span>
-                {product.originalPrice && product.originalPrice > (product.price ?? 0) ? (
-                  <span className="text-base text-ikea-muted line-through">
-                    {formatPrice(product.originalPrice)}
-                  </span>
-                ) : null}
-              </div>
+              <ProductActions
+                productId={product.id}
+                product={{
+                  slug: product.slug,
+                  name: product.name,
+                  price: product.price,
+                  originalPrice: product.originalPrice,
+                  image: product.image,
+                  productType: `Midea · ${product.model}`,
+                }}
+              />
               <p className="mt-2 text-xs text-ikea-muted">{t("midea.priceNote")}</p>
 
               <dl className="mt-8 divide-y divide-ikea-gray-200 border-y border-ikea-gray-200 text-sm">
@@ -94,16 +97,6 @@ export default async function MideaProductPage({ params }: { params: Promise<{ s
 
               <p className="mt-6 text-sm leading-6 text-ikea-muted">{product.detail.description}</p>
 
-              <ProductActions
-                productId={product.id}
-                product={{
-                  slug: product.slug,
-                  name: product.name,
-                  price: product.price,
-                  image: product.image,
-                  productType: `Midea · ${product.model}`,
-                }}
-              />
               <Link
                 href="/zh/midea/"
                 className="mt-3 text-sm font-bold text-ikea-blue hover:underline"

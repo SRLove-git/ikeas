@@ -143,6 +143,31 @@ public class OmsOpenApiChannel implements OmsChannel {
   }
 
   @Override
+  public OmsProduct productOnSale(Long skuId) {
+    if (skuId == null || skuId <= 0) {
+      return null;
+    }
+    int page = 1;
+    int pageSize = 100;
+    long seen = 0;
+    while (true) {
+      OmsProductPage result = productsOnSale("", page, pageSize);
+      for (OmsProduct product : result.items()) {
+        if (skuId.equals(product.skuId())) {
+          return product;
+        }
+      }
+      seen += result.items().size();
+      if (result.items().isEmpty()
+          || result.items().size() < pageSize
+          || seen >= result.total()) {
+        return null;
+      }
+      page++;
+    }
+  }
+
+  @Override
   public OmsStock availableStock(Long skuId) {
     OmsResult<OpenStockResponse> result =
         client.get(SKUS_PATH + "/" + skuId + "/stock", OpenStockResponse.class);

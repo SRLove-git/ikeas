@@ -5,6 +5,8 @@ import com.ikea.server.data.DataStore;
 import com.ikea.server.entity.OmsSkuMapping;
 import com.ikea.server.mapper.OmsSkuMappingMapper;
 import com.ikea.server.model.Product;
+import java.time.LocalDateTime;
+import java.time.ZoneOffset;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
@@ -30,10 +32,13 @@ public class OmsSkuMappingService {
 
   private final OmsSkuMappingMapper mappingMapper;
   private final DataStore dataStore;
+  private final OmsChannel omsChannel;
 
-  public OmsSkuMappingService(OmsSkuMappingMapper mappingMapper, DataStore dataStore) {
+  public OmsSkuMappingService(
+      OmsSkuMappingMapper mappingMapper, DataStore dataStore, OmsChannel omsChannel) {
     this.mappingMapper = mappingMapper;
     this.dataStore = dataStore;
+    this.omsChannel = omsChannel;
   }
 
   public List<OmsSkuMapping> list() {
@@ -56,18 +61,17 @@ public class OmsSkuMappingService {
 
     OmsSkuMapping existing = getByProductId(normalizedProductId);
     ensureSkuIdAvailable(normalizedSkuId, normalizedProductId);
+    OmsChannel.OmsProduct verifiedProduct = verifyOmsProduct(normalizedSkuId, normalizedSkuNo);
 
     if (existing == null) {
       OmsSkuMapping mapping = new OmsSkuMapping();
       mapping.setProductId(normalizedProductId);
-      mapping.setOmsSkuId(normalizedSkuId);
-      mapping.setOmsSkuNo(normalizedSkuNo);
+      applyVerifiedSnapshot(mapping, normalizedSkuId, normalizedSkuNo, verifiedProduct);
       mappingMapper.insert(mapping);
       return mapping;
     }
 
-    existing.setOmsSkuId(normalizedSkuId);
-    existing.setOmsSkuNo(normalizedSkuNo);
+    applyVerifiedSnapshot(existing, normalizedSkuId, normalizedSkuNo, verifiedProduct);
     mappingMapper.updateById(existing);
     return existing;
   }
@@ -146,6 +150,48 @@ public class OmsSkuMappingService {
                   .distinct()
                   .collect(Collectors.joining(", ")));
     }
+  }
+
+  private OmsChannel.OmsProduct verifyOmsProduct(Long omsSkuId, String requestedSkuNo) {
+    if (!omsChannel.isEnabled()) {
+      return null;
+    }
+    OmsChannel.OmsProduct product;
+    try {
+      product = omsChannel.productOnSale(omsSkuId);
+    } catch (RuntimeException ex) {
+      throw new IllegalArgumentException("OMS SKU 在线校验失败，请稍后重试", ex);
+    }
+    if (product == null || !omsSkuId.equals(product.skuId())) {
+      throw new IllegalArgumentException("OMS 中不存在该在售 SKU: " + omsSkuId);
+    }
+    if (product.price() == null || product.price().signum() <= 0) {
+      throw new IllegalArgumentException("OMS SKU 售价无效: " + omsSkuId);
+    }
+    if (requestedSkuNo != null && !requestedSkuNo.equals(product.skuNo())) {
+      throw new IllegalArgumentException(
+          "OMS SKU 编号不匹配，实际编号为 " + product.skuNo());
+    }
+    return product;
+  }
+
+  private static void applyVerifiedSnapshot(
+      OmsSkuMapping mapping,
+      Long omsSkuId,
+      String requestedSkuNo,
+      OmsChannel.OmsProduct verifiedProduct) {
+    mapping.setOmsSkuId(omsSkuId);
+    if (verifiedProduct == null) {
+      mapping.setOmsSkuNo(requestedSkuNo);
+      mapping.setSyncPrice(null);
+      mapping.setSyncStock(null);
+      mapping.setLastSyncAt(null);
+      return;
+    }
+    mapping.setOmsSkuNo(verifiedProduct.skuNo());
+    mapping.setSyncPrice(verifiedProduct.price());
+    mapping.setSyncStock(verifiedProduct.availableStock());
+    mapping.setLastSyncAt(LocalDateTime.now(ZoneOffset.UTC));
   }
 
   private static String normalize(String value, int maxLength) {

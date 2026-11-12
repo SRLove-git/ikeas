@@ -6,6 +6,7 @@ import com.ikea.server.constant.SecurityConstants;
 import com.ikea.server.model.Cart;
 import com.ikea.server.model.CartItem;
 import com.ikea.server.model.Product;
+import com.ikea.server.service.ProductAvailabilityService;
 import jakarta.servlet.http.HttpServletRequest;
 import java.math.BigDecimal;
 import java.util.ArrayList;
@@ -26,10 +27,15 @@ public class CartController {
 
   private final CartStore cartStore;
   private final DataStore dataStore;
+  private final ProductAvailabilityService availabilityService;
 
-  public CartController(CartStore cartStore, DataStore dataStore) {
+  public CartController(
+      CartStore cartStore,
+      DataStore dataStore,
+      ProductAvailabilityService availabilityService) {
     this.cartStore = cartStore;
     this.dataStore = dataStore;
+    this.availabilityService = availabilityService;
   }
 
   public record AddItemRequest(String productId, Integer quantity) {}
@@ -45,7 +51,7 @@ public class CartController {
 
   @PostMapping("/items")
   public Cart addItem(HttpServletRequest request, @RequestBody AddItemRequest body) {
-    Product product = requireProduct(body.productId());
+    Product product = requireSellableProduct(body.productId());
     cartStore.add(userId(request), product.id(), body.quantity() == null ? 1 : body.quantity());
     return buildCart(userId(request));
   }
@@ -57,7 +63,7 @@ public class CartController {
     }
     LinkedHashMap<String, Integer> quantities = new LinkedHashMap<>();
     for (AddItemRequest item : body.items()) {
-      Product product = requireProduct(item.productId());
+      Product product = requireSellableProduct(item.productId());
       int quantity = item.quantity() == null ? 1 : item.quantity();
       quantities.merge(product.id(), Math.max(1, Math.min(quantity, 99)), Math::max);
     }
@@ -99,11 +105,20 @@ public class CartController {
         continue;
       }
       int quantity = entry.getValue().quantity();
-      items.add(new CartItem(entry.getKey(), quantity, product));
+      ProductAvailabilityService.Availability availability =
+          availabilityService.availability(product);
+      Product pricedProduct = availabilityService.withEffectivePrice(product, availability);
+      items.add(
+          new CartItem(
+              entry.getKey(),
+              quantity,
+              pricedProduct,
+              availability.sellable(),
+              availability.reason()));
       totalQuantity += quantity;
-      if (product.price() != null) {
+      if (pricedProduct.price() != null) {
         totalPrice =
-            totalPrice.add(product.price().multiply(BigDecimal.valueOf(quantity)));
+            totalPrice.add(pricedProduct.price().multiply(BigDecimal.valueOf(quantity)));
       }
     }
     return new Cart(items, totalQuantity, totalPrice);
@@ -113,6 +128,16 @@ public class CartController {
     Product product = dataStore.findProductById(productId);
     if (product == null) {
       throw new ResourceNotFoundException("Product not found: " + productId);
+    }
+    return product;
+  }
+
+  private Product requireSellableProduct(String productId) {
+    Product product = requireProduct(productId);
+    ProductAvailabilityService.Availability availability =
+        availabilityService.availability(product);
+    if (!availability.sellable()) {
+      throw new IllegalArgumentException("商品当前不可购买: " + availability.reason());
     }
     return product;
   }

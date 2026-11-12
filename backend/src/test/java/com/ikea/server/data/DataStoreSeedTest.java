@@ -25,6 +25,7 @@ import com.ikea.server.mapper.HomepageEntityMapper;
 import com.ikea.server.mapper.MenuCategoryEntityMapper;
 import com.ikea.server.mapper.MenuPanelEntityMapper;
 import com.ikea.server.mapper.ProductEntityMapper;
+import java.util.concurrent.atomic.AtomicInteger;
 import org.junit.jupiter.api.Test;
 import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.TransactionDefinition;
@@ -81,7 +82,7 @@ class DataStoreSeedTest {
   }
 
   @Test
-  void existingStoreReceivesBrandProductsOnce() throws Exception {
+  void existingStoreReceivesOnlyMissingBrandProducts() throws Exception {
     PlatformTransactionManager transactionManager = mock(PlatformTransactionManager.class);
     when(transactionManager.getTransaction(any(TransactionDefinition.class)))
         .thenReturn(mock(TransactionStatus.class));
@@ -95,7 +96,9 @@ class DataStoreSeedTest {
     HomepageEntityMapper homepage = mock(HomepageEntityMapper.class);
 
     when(products.selectCount(isNull())).thenReturn(1L);
-    when(products.selectCount(notNull())).thenReturn(0L);
+    AtomicInteger brandChecks = new AtomicInteger();
+    when(products.selectCount(notNull()))
+        .thenAnswer(ignored -> brandChecks.getAndIncrement() == 0 ? 1L : 0L);
     when(categories.selectCount(null)).thenReturn(1L);
     when(menuCategories.selectCount(null)).thenReturn(1L);
     when(menuPanels.selectCount(null)).thenReturn(1L);
@@ -116,6 +119,6 @@ class DataStoreSeedTest {
         contentPages,
         homepage);
 
-    verify(products, times(223)).insert(any(ProductEntity.class));
+    verify(products, times(222)).insert(any(ProductEntity.class));
   }
 }

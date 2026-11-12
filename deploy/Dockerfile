@@ -120,6 +120,7 @@ COPY --from=builder --chown=node:node /app/.next/static ./.next/static
 # data directories/files are copied into the persistent store without
 # overwriting content edited through the admin panel.
 COPY --from=builder --chown=node:node /app/src/data ./data-seed
+COPY --chown=node:node deploy/cms-migrations/001-merge-brand-menu.mjs ./cms-migrations/001-merge-brand-menu.mjs
 
 # If you want to persist the fetch cache generated during the build so that
 # cached responses are available immediately on startup, uncomment this line:
@@ -132,4 +133,4 @@ USER node
 EXPOSE 3000
 
 # Start Next.js standalone server
-CMD ["sh", "-c", "mkdir -p /app/src/data && cp -Rn /app/data-seed/. /app/src/data/ && exec node server.js"]
+CMD ["sh", "-c", "node /app/cms-migrations/001-merge-brand-menu.mjs && exec node server.js"]

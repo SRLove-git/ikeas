@@ -133,7 +133,8 @@
     "checkout": "Checkout",
     "continueShopping": "Continue shopping",
     "loadFailed": "Failed to load shopping bag",
-    "updateFailed": "Failed to update quantity"
+    "updateFailed": "Failed to update quantity",
+    "unavailableItems": "Some items are unavailable. Remove them before checkout."
   },
   "product": {
     "addToBag": "Add to bag",
@@ -143,6 +144,7 @@
     "outOfStock": "Out of stock",
     "notReadyForSale": "Not available to buy",
     "priceUnavailable": "Price pending",
+    "availabilityUnavailable": "Availability pending",
     "addFavorite": "Save to favourites",
     "favorited": "Saved",
     "addedFavorite": "Added to favourites",

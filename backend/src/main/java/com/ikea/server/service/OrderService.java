@@ -96,12 +96,13 @@ public class OrderService {
                           skuByProduct.get(item.getProductId()), item.getQuantity()))
               .toList();
       omsProductSyncService.ensureStockAvailable(lines);
-      // 价格权威以 OMS 为准（对接规范 §6.4）：优先采用 OMS SKU 快照价，快照缺失时回退本地价
+      // 价格权威以 OMS 为准（对接规范 §6.4）：快照缺失时拒绝下单，不回退本地价。
       for (OrderItem item : orderItems) {
         BigDecimal omsPrice = omsProductSyncService.priceFor(skuByProduct.get(item.getProductId()));
-        if (omsPrice != null && omsPrice.signum() >= 0) {
-          item.setUnitPrice(normalizeMoney(omsPrice));
+        if (omsPrice == null || omsPrice.signum() <= 0) {
+          throw new IllegalArgumentException("商品 OMS 售价尚未验证: " + item.getProductId());
         }
+        item.setUnitPrice(normalizeMoney(omsPrice));
       }
     }
 

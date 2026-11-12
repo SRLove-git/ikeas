@@ -59,6 +59,7 @@ interface OmsMapping {
   omsSkuNo: string | null
   syncPrice: number | null
   syncStock: number | null
+  lastSyncAt: string | null
 }
 
 interface OmsDraft {
@@ -651,25 +652,29 @@ export default function BrandProductsPage() {
                       />
                     </td>
                     <td className="px-3 py-2">
-                      {item.price !== null &&
-                      item.price > 0 &&
-                      mapping &&
-                      (mapping.syncStock === null || mapping.syncStock > 0) ? (
+                      {mapping &&
+                      mapping.lastSyncAt &&
+                      mapping.syncPrice !== null &&
+                      mapping.syncPrice > 0 &&
+                      mapping.syncStock !== null &&
+                      mapping.syncStock > 0 ? (
                         <div>
                           <span className="font-bold text-green-700">可销售</span>
                           <p className="mt-1 text-[11px] text-ikea-muted">
-                            {mapping.syncStock === null
-                              ? "库存待同步"
-                              : `库存 ${mapping.syncStock}`}
+                            OMS S${mapping.syncPrice.toFixed(2)} · 库存 {mapping.syncStock}
                           </p>
                         </div>
                       ) : (
                         <span className="font-bold text-amber-700">
-                          {item.price === null || item.price <= 0
-                            ? "缺少售价"
-                            : !mapping
-                              ? "未映射 OMS"
-                              : "OMS 库存为 0"}
+                          {!mapping
+                            ? "未映射 OMS"
+                            : !mapping.lastSyncAt ||
+                                mapping.syncPrice === null ||
+                                mapping.syncStock === null
+                              ? "等待 OMS 验证"
+                              : mapping.syncPrice <= 0
+                                ? "OMS 售价无效"
+                                : "OMS 库存为 0"}
                         </span>
                       )}
                     </td>

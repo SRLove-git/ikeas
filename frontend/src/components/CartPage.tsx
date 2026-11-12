@@ -8,7 +8,7 @@ import { useAuth } from "@/lib/auth"
 import { Breadcrumbs } from "@/components/Breadcrumbs"
 import { apiJson, type Cart } from "@/lib/api"
 import { formatPrice } from "@/lib/catalog-format"
-import { readLocalCart, updateLocalQuantity } from "@/lib/local-cart"
+import { readLocalCart, refreshLocalCartAvailability, updateLocalQuantity } from "@/lib/local-cart"
 import { useShippingQuote } from "@/hooks/useShippingQuote"
 import { productHref } from "@/lib/product-url"
 
@@ -76,7 +76,7 @@ export function CartPage() {
       setError(null)
       try {
         if (!user) {
-          const local = readLocalCart()
+          const local = await refreshLocalCartAvailability(readLocalCart())
           if (!cancelled) {
             setCart({
               items: local,
@@ -115,6 +115,7 @@ export function CartPage() {
   const items = cart?.items ?? []
   const subtotal = items.reduce((sum, item) => sum + (item.product.price ?? 0) * item.quantity, 0)
   const totalQuantity = items.reduce((sum, item) => sum + item.quantity, 0)
+  const hasUnavailable = items.some((item) => item.sellable === false)
   const deliveryFee = shipping.quote?.deliveryFee ?? 0
   const total = subtotal + deliveryFee
 
@@ -195,7 +196,7 @@ export function CartPage() {
               </div>
             ) : (
               <div className="space-y-4">
-                {items.map(({ productId, product, quantity }) => (
+                {items.map(({ productId, product, quantity, sellable }) => (
                   <div
                     key={productId}
                     className="flex gap-4 rounded-lg border border-ikea-gray-200 bg-white p-5"
@@ -221,6 +222,11 @@ export function CartPage() {
                       <p className="mt-2 text-sm text-ikea-muted">
                         {t("cartPage.unitPrice", { price: formatPrice(product.price) })}
                       </p>
+                      {sellable === false ? (
+                        <p className="mt-1 text-xs font-bold text-amber-700">
+                          {t("product.notReadyForSale")}
+                        </p>
+                      ) : null}
 
                       <div className="mt-auto flex flex-wrap items-center justify-between gap-4 pt-4">
                         <div className="flex items-center border border-ikea-gray-200">
@@ -298,9 +304,9 @@ export function CartPage() {
                 </div>
                 <Link
                   href="/zh/checkout/"
-                  aria-disabled={!shipping.quote}
+                  aria-disabled={!shipping.quote || hasUnavailable}
                   className={`i-btn i-btn--primary mt-6 flex h-11 w-full items-center justify-center text-sm font-bold text-white ${
-                    shipping.quote ? "" : "pointer-events-none opacity-50"
+                    shipping.quote && !hasUnavailable ? "" : "pointer-events-none opacity-50"
                   }`}
                 >
                   {t("cartPage.checkoutNow", { count: totalQuantity })}
@@ -308,6 +314,11 @@ export function CartPage() {
                 {shipping.error ? (
                   <p className="mt-3 text-center text-xs text-red-600">
                     {t("checkout.shippingUnavailable")}
+                  </p>
+                ) : null}
+                {hasUnavailable ? (
+                  <p className="mt-3 text-center text-xs text-amber-700">
+                    {t("cart.unavailableItems")}
                   </p>
                 ) : null}
                 <p className="mt-3 text-center text-xs text-ikea-muted">{t("cartPage.taxNote")}</p>

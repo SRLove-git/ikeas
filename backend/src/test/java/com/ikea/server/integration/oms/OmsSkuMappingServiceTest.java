@@ -14,6 +14,7 @@ import com.ikea.server.data.DataStore;
 import com.ikea.server.entity.OmsSkuMapping;
 import com.ikea.server.mapper.OmsSkuMappingMapper;
 import com.ikea.server.model.Product;
+import java.math.BigDecimal;
 import java.util.List;
 import java.util.Map;
 import org.junit.jupiter.api.BeforeEach;
@@ -25,13 +26,15 @@ class OmsSkuMappingServiceTest {
 
   private OmsSkuMappingMapper mappingMapper;
   private DataStore dataStore;
+  private OmsChannel omsChannel;
   private OmsSkuMappingService service;
 
   @BeforeEach
   void setUp() {
     mappingMapper = org.mockito.Mockito.mock(OmsSkuMappingMapper.class);
     dataStore = org.mockito.Mockito.mock(DataStore.class);
-    service = new OmsSkuMappingService(mappingMapper, dataStore);
+    omsChannel = org.mockito.Mockito.mock(OmsChannel.class);
+    service = new OmsSkuMappingService(mappingMapper, dataStore, omsChannel);
     when(dataStore.findProductById("P1")).thenReturn(product("P1"));
     when(dataStore.findProductById("P2")).thenReturn(product("P2"));
   }
@@ -88,6 +91,60 @@ class OmsSkuMappingServiceTest {
             () -> service.upsert("UNKNOWN", 1001L, "SKU001"));
 
     assertTrue(ex.getMessage().contains("UNKNOWN"));
+    verify(mappingMapper, never()).insert(any(OmsSkuMapping.class));
+  }
+
+  @Test
+  void enabledOmsShouldRejectSkuThatIsNotOnSale() {
+    when(omsChannel.isEnabled()).thenReturn(true);
+    when(omsChannel.productOnSale(1001L)).thenReturn(null);
+    when(mappingMapper.selectOne(any(Wrapper.class))).thenReturn(null);
+    when(mappingMapper.selectList(any(Wrapper.class))).thenReturn(List.of());
+
+    IllegalArgumentException ex =
+        assertThrows(
+            IllegalArgumentException.class,
+            () -> service.upsert("P1", 1001L, "SKU001"));
+
+    assertTrue(ex.getMessage().contains("不存在"));
+    verify(mappingMapper, never()).insert(any(OmsSkuMapping.class));
+  }
+
+  @Test
+  void enabledOmsShouldPersistVerifiedSnapshot() {
+    when(omsChannel.isEnabled()).thenReturn(true);
+    when(omsChannel.productOnSale(1001L))
+        .thenReturn(
+            new OmsChannel.OmsProduct(
+                1001L, "SKU001", "OMS product", new BigDecimal("188.00"), 7));
+    when(mappingMapper.selectOne(any(Wrapper.class))).thenReturn(null);
+    when(mappingMapper.selectList(any(Wrapper.class))).thenReturn(List.of());
+
+    service.upsert("P1", 1001L, "SKU001");
+
+    ArgumentCaptor<OmsSkuMapping> captor = ArgumentCaptor.forClass(OmsSkuMapping.class);
+    verify(mappingMapper).insert(captor.capture());
+    assertEquals(new BigDecimal("188.00"), captor.getValue().getSyncPrice());
+    assertEquals(7, captor.getValue().getSyncStock());
+    assertTrue(captor.getValue().getLastSyncAt() != null);
+  }
+
+  @Test
+  void enabledOmsShouldRejectMismatchedSkuNumber() {
+    when(omsChannel.isEnabled()).thenReturn(true);
+    when(omsChannel.productOnSale(1001L))
+        .thenReturn(
+            new OmsChannel.OmsProduct(
+                1001L, "REAL-SKU", "OMS product", new BigDecimal("188.00"), 7));
+    when(mappingMapper.selectOne(any(Wrapper.class))).thenReturn(null);
+    when(mappingMapper.selectList(any(Wrapper.class))).thenReturn(List.of());
+
+    IllegalArgumentException ex =
+        assertThrows(
+            IllegalArgumentException.class,
+            () -> service.upsert("P1", 1001L, "WRONG-SKU"));
+
+    assertTrue(ex.getMessage().contains("REAL-SKU"));
     verify(mappingMapper, never()).insert(any(OmsSkuMapping.class));
   }
 

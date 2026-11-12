@@ -6,7 +6,7 @@ import { useTranslation } from "react-i18next"
 import { SiteImage } from "@/components/SiteImage"
 import { formatPrice } from "@/lib/catalog-format"
 import { apiJson, getToken, type Cart, type CartItem } from "@/lib/api"
-import { readLocalCart, updateLocalQuantity } from "@/lib/local-cart"
+import { readLocalCart, refreshLocalCartAvailability, updateLocalQuantity } from "@/lib/local-cart"
 import { productHref } from "@/lib/product-url"
 
 export function CartDrawer() {
@@ -19,7 +19,8 @@ export function CartDrawer() {
 
   const loadCart = useCallback(async () => {
     if (!getToken()) {
-      const local = readLocalCart()
+      setLoading(true)
+      const local = await refreshLocalCartAvailability(readLocalCart())
       setItems(local)
       window.dispatchEvent(
         new CustomEvent("ikea:cart-changed", {
@@ -89,6 +90,7 @@ export function CartDrawer() {
 
   const subtotal = items.reduce((sum, item) => sum + (item.product.price ?? 0) * item.quantity, 0)
   const totalQuantity = items.reduce((sum, item) => sum + item.quantity, 0)
+  const hasUnavailable = items.some((item) => item.sellable === false)
 
   return (
     <div className="fixed inset-0 z-[1200]" role="dialog" aria-modal="true">
@@ -121,7 +123,7 @@ export function CartDrawer() {
           ) : items.length === 0 ? (
             <p className="py-10 text-center text-sm text-ikea-muted">{t("cart.empty")}</p>
           ) : (
-            items.map(({ productId, product, quantity }) => (
+            items.map(({ productId, product, quantity, sellable }) => (
               <div key={productId} className="flex gap-4 border-b border-ikea-gray-100 py-4">
                 <Link
                   href={productHref(product)}
@@ -146,6 +148,11 @@ export function CartDrawer() {
                   <p className="mt-0.5 text-xs text-ikea-muted">
                     {product.productType || t("cart.productTypeFallback")}
                   </p>
+                  {sellable === false ? (
+                    <p className="mt-1 text-xs font-bold text-amber-700">
+                      {t("product.notReadyForSale")}
+                    </p>
+                  ) : null}
                   <div className="mt-auto flex items-center justify-between pt-2">
                     <span className="flex items-center border border-ikea-gray-200 text-xs">
                       <button
@@ -187,10 +194,16 @@ export function CartDrawer() {
           <Link
             href="/zh/checkout/"
             onClick={() => setOpen(false)}
-            className="i-btn i-btn--primary mt-4 flex h-11 w-full items-center justify-center text-sm font-bold text-white"
+            aria-disabled={hasUnavailable}
+            className={`i-btn i-btn--primary mt-4 flex h-11 w-full items-center justify-center text-sm font-bold text-white ${
+              hasUnavailable ? "pointer-events-none opacity-50" : ""
+            }`}
           >
             {t("cart.checkout")}
           </Link>
+          {hasUnavailable ? (
+            <p className="mt-2 text-center text-xs text-amber-700">{t("cart.unavailableItems")}</p>
+          ) : null}
           <button
             type="button"
             onClick={() => setOpen(false)}

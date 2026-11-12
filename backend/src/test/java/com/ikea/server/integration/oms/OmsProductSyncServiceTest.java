@@ -1,6 +1,7 @@
 package com.ikea.server.integration.oms;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.never;
@@ -15,6 +16,7 @@ import com.ikea.server.integration.oms.OmsChannel.OmsProductPage;
 import com.ikea.server.integration.oms.OmsChannel.OmsStock;
 import com.ikea.server.mapper.OmsSkuMappingMapper;
 import java.math.BigDecimal;
+import java.time.LocalDateTime;
 import java.util.List;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -108,6 +110,17 @@ class OmsProductSyncServiceTest {
     service.refreshSnapshots();
 
     verify(skuMappingMapper, never()).updateById(any(OmsSkuMapping.class));
+  }
+
+  @Test
+  void priceForShouldRequireCompleteVerifiedSnapshot() {
+    OmsSkuMapping incomplete = mapping(1001L, null, new BigDecimal("9.90"));
+    when(skuMappingMapper.selectOne(any(Wrapper.class))).thenReturn(incomplete);
+    assertNull(service.priceFor(1001L));
+
+    incomplete.setSyncStock(3);
+    incomplete.setLastSyncAt(LocalDateTime.now());
+    assertEquals(new BigDecimal("9.90"), service.priceFor(1001L));
   }
 
   private static OmsSkuMapping mapping(Long omsSkuId, Integer syncStock, BigDecimal syncPrice) {

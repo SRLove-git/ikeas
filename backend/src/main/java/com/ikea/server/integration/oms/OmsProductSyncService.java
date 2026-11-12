@@ -155,7 +155,13 @@ public class OmsProductSyncService {
       return null;
     }
     OmsSkuMapping mapping = findBySkuId(skuId);
-    return mapping == null ? null : mapping.getSyncPrice();
+    if (mapping == null
+        || mapping.getLastSyncAt() == null
+        || mapping.getSyncPrice() == null
+        || mapping.getSyncStock() == null) {
+      return null;
+    }
+    return mapping.getSyncPrice();
   }
 
   private OmsSkuMapping findBySkuId(Long skuId) {

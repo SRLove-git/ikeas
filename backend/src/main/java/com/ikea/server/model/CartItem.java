@@ -1,3 +1,8 @@
 package com.ikea.server.model;
 
-public record CartItem(String productId, int quantity, Product product) {}
+public record CartItem(
+    String productId,
+    int quantity,
+    Product product,
+    boolean sellable,
+    String availabilityReason) {}

@@ -9,6 +9,7 @@ import com.ikea.server.data.DataStore;
 import com.ikea.server.entity.CatalogCategoryEntity;
 import com.ikea.server.entity.CatalogPageEntity;
 import com.ikea.server.entity.ProductEntity;
+import com.ikea.server.integration.oms.OmsSkuMappingService;
 import com.ikea.server.mapper.CatalogCategoryEntityMapper;
 import com.ikea.server.mapper.CatalogPageEntityMapper;
 import com.ikea.server.mapper.ProductEntityMapper;
@@ -33,18 +34,21 @@ public class AdminProductService {
   private final ProductEntityMapper productMapper;
   private final CatalogCategoryEntityMapper catalogCategoryMapper;
   private final CatalogPageEntityMapper catalogPageMapper;
+  private final OmsSkuMappingService omsSkuMappingService;
 
   public AdminProductService(
       ObjectMapper mapper,
       DataStore dataStore,
       ProductEntityMapper productMapper,
       CatalogCategoryEntityMapper catalogCategoryMapper,
-      CatalogPageEntityMapper catalogPageMapper) {
+      CatalogPageEntityMapper catalogPageMapper,
+      OmsSkuMappingService omsSkuMappingService) {
     this.mapper = mapper;
     this.dataStore = dataStore;
     this.productMapper = productMapper;
     this.catalogCategoryMapper = catalogCategoryMapper;
     this.catalogPageMapper = catalogPageMapper;
+    this.omsSkuMappingService = omsSkuMappingService;
   }
 
   public Map<String, Object> listProducts(String query, int page, int pageSize) {
@@ -165,6 +169,7 @@ public class AdminProductService {
     if (entity == null) {
       return false;
     }
+    omsSkuMappingService.deleteByProductId(entity.getProductId());
     removeProductReferences(entity.getProductId(), entity.getSlug());
     productMapper.deleteById(entity.getId());
     dataStore.reloadFromDatabase();

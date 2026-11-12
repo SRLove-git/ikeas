@@ -357,19 +357,21 @@ public class DataStore {
    * first brand-commerce release must append its products without overwriting
    * administrator-edited products. Once a brand has been seeded, the brand
    * admin API keeps its frontend JSON and backend product row synchronized.
+   * Each product is checked independently so a later release can add missing
+   * brand models without replacing administrator-edited rows.
    */
   private void seedBrandProductsIfAbsent(List<Product> products, String idPrefix) {
-    long existing =
-        productEntityMapper.selectCount(
-            Wrappers.lambdaQuery(ProductEntity.class)
-                .likeRight(ProductEntity::getProductId, idPrefix));
-    if (existing > 0) {
-      return;
-    }
     for (Product product : products) {
       if (product.id() == null
           || product.slug() == null
           || !product.id().startsWith(idPrefix)) {
+        continue;
+      }
+      long existing =
+          productEntityMapper.selectCount(
+              Wrappers.lambdaQuery(ProductEntity.class)
+                  .eq(ProductEntity::getProductId, product.id()));
+      if (existing > 0) {
         continue;
       }
       ProductEntity entity = new ProductEntity();

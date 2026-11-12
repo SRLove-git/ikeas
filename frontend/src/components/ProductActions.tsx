@@ -7,13 +7,14 @@ import { apiJson, getToken, type Cart, type Product, type ProductAvailability } 
 import { HeartIcon } from "@/components/icons"
 import { addLocalItem } from "@/lib/local-cart"
 import type { CatalogProduct } from "@/data/catalog"
+import { formatPrice } from "@/lib/catalog-format"
 
 export function ProductActions({
   productId,
   product,
 }: {
   productId: string
-  product: Pick<CatalogProduct, "slug" | "name" | "price" | "image"> & {
+  product: Pick<CatalogProduct, "slug" | "name" | "price" | "originalPrice" | "image"> & {
     productType?: string | null
   }
 }) {
@@ -62,17 +63,27 @@ export function ProductActions({
   }, [productId])
 
   const addToBag = async () => {
+    if (availability === "checking" || availability === "unknown" || !availability.sellable) {
+      return
+    }
     if (!getToken()) {
       const snapshot: Product = {
         id: productId,
         slug: product.slug,
         name: product.name,
         productType: product.productType ?? null,
-        price: product.price,
+        price: availability.price ?? product.price,
+        originalPrice: product.originalPrice,
         image: product.image,
         labels: [],
       }
-      addLocalItem({ productId, quantity: 1, product: snapshot })
+      addLocalItem({
+        productId,
+        quantity: 1,
+        product: snapshot,
+        sellable: true,
+        availabilityReason: "AVAILABLE",
+      })
       setBagState("added")
       setMessage(t("product.addedToBag"))
       return
@@ -143,65 +154,89 @@ export function ProductActions({
   }
 
   const unavailableLabel =
-    availability !== "checking" && availability !== "unknown" && !availability.sellable
-      ? availability.reason === "OUT_OF_STOCK"
-        ? t("product.outOfStock")
-        : availability.reason === "OMS_SKU_UNMAPPED"
-          ? t("product.notReadyForSale")
-          : t("product.priceUnavailable")
-      : null
+    availability === "unknown"
+      ? t("product.availabilityUnavailable")
+      : availability !== "checking" && !availability.sellable
+        ? availability.reason === "OUT_OF_STOCK"
+          ? t("product.outOfStock")
+          : availability.reason === "OMS_SKU_UNMAPPED"
+            ? t("product.notReadyForSale")
+            : availability.reason === "OMS_SNAPSHOT_UNAVAILABLE"
+              ? t("product.availabilityUnavailable")
+              : t("product.priceUnavailable")
+        : null
   const addDisabled =
     bagState === "loading" ||
     availability === "checking" ||
-    (availability !== "unknown" && !availability.sellable)
+    availability === "unknown" ||
+    !availability.sellable
+  const effectivePrice =
+    availability !== "checking" && availability !== "unknown" && availability.price !== null
+      ? availability.price
+      : product.price
+  const showOriginalPrice =
+    product.originalPrice !== null &&
+    product.originalPrice !== undefined &&
+    effectivePrice !== null &&
+    product.originalPrice > effectivePrice
 
   return (
-    <div className="mt-6 flex flex-col gap-3 sm:flex-row" data-avoid-floating>
-      <button
-        type="button"
-        onClick={addToBag}
-        disabled={addDisabled}
-        className="i-btn i-btn--small i-btn--primary h-11 px-8 text-sm disabled:opacity-60"
-      >
-        <span className="i-btn__inner">
-          <span className="i-btn__label">
-            {availability === "checking"
-              ? t("product.checkingAvailability")
-              : unavailableLabel
-                ? unavailableLabel
-                : bagState === "loading"
-                  ? t("product.adding")
-                  : bagState === "added"
-                    ? t("product.addedToBag")
-                    : t("product.addToBag")}
+    <div className="mt-6" data-avoid-floating>
+      <div className="flex items-baseline gap-3">
+        <span className="text-3xl font-bold">{formatPrice(effectivePrice)}</span>
+        {showOriginalPrice ? (
+          <span className="text-base text-ikea-muted line-through">
+            {formatPrice(product.originalPrice ?? null)}
           </span>
-        </span>
-      </button>
-      <button
-        type="button"
-        onClick={toggleFavorite}
-        className="i-btn i-btn--small i-btn--secondary h-11 px-8 text-sm"
-      >
-        <span className="i-btn__inner">
-          <span className="i-btn__label inline-flex items-center gap-2">
-            <HeartIcon
-              className={`h-4 w-4 ${favState === "on" ? "text-ikea-red" : "text-ikea-black"}`}
-            />
-            <span>{favState === "on" ? t("product.favorited") : t("product.addFavorite")}</span>
+        ) : null}
+      </div>
+      <div className="mt-4 flex flex-col gap-3 sm:flex-row">
+        <button
+          type="button"
+          onClick={addToBag}
+          disabled={addDisabled}
+          className="i-btn i-btn--small i-btn--primary h-11 px-8 text-sm disabled:opacity-60"
+        >
+          <span className="i-btn__inner">
+            <span className="i-btn__label">
+              {availability === "checking"
+                ? t("product.checkingAvailability")
+                : unavailableLabel
+                  ? unavailableLabel
+                  : bagState === "loading"
+                    ? t("product.adding")
+                    : bagState === "added"
+                      ? t("product.addedToBag")
+                      : t("product.addToBag")}
+            </span>
           </span>
-        </span>
-      </button>
-      <button
-        type="button"
-        onClick={registerStockAlert}
-        disabled={stockAlertLoading}
-        className="i-btn i-btn--small i-btn--secondary h-11 px-8 text-sm disabled:opacity-60"
-      >
-        <span className="i-btn__inner">
-          <span className="i-btn__label">{stockAlertLoading ? "登记中..." : "到货提醒"}</span>
-        </span>
-      </button>
-      {message ? <p className="text-sm text-ikea-blue">{message}</p> : null}
+        </button>
+        <button
+          type="button"
+          onClick={toggleFavorite}
+          className="i-btn i-btn--small i-btn--secondary h-11 px-8 text-sm"
+        >
+          <span className="i-btn__inner">
+            <span className="i-btn__label inline-flex items-center gap-2">
+              <HeartIcon
+                className={`h-4 w-4 ${favState === "on" ? "text-ikea-red" : "text-ikea-black"}`}
+              />
+              <span>{favState === "on" ? t("product.favorited") : t("product.addFavorite")}</span>
+            </span>
+          </span>
+        </button>
+        <button
+          type="button"
+          onClick={registerStockAlert}
+          disabled={stockAlertLoading}
+          className="i-btn i-btn--small i-btn--secondary h-11 px-8 text-sm disabled:opacity-60"
+        >
+          <span className="i-btn__inner">
+            <span className="i-btn__label">{stockAlertLoading ? "登记中..." : "到货提醒"}</span>
+          </span>
+        </button>
+      </div>
+      {message ? <p className="mt-3 text-sm text-ikea-blue">{message}</p> : null}
     </div>
   )
 }

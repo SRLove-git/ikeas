@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation"
 import Link from "next/link"
-import { findProductBySlug, formatPrice } from "@/lib/catalog"
+import { findProductBySlug } from "@/lib/catalog"
 import { ProductGallery } from "@/components/ProductGallery"
 import { ProductActions } from "@/components/ProductActions"
 import { ProductReviews } from "@/components/ProductReviews"
@@ -90,12 +90,10 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
               <h1 className="text-2xl font-bold leading-9 lg:text-3xl">{product.name}</h1>
               {spec ? <p className="mt-1 text-sm text-ikea-muted">{spec}</p> : null}
 
-              <p className="mt-5 text-2xl font-bold">{formatPrice(product.price)}</p>
+              <ProductActions productId={product.id} product={product} />
               <p className="mt-2 text-sm text-ikea-muted">
                 {t("product.itemNumber", { id: product.id })}
               </p>
-
-              <ProductActions productId={product.id} product={product} />
 
               <div className="mt-6 space-y-1.5 text-xs leading-5 text-ikea-muted">
                 <p>{t("product.stockNote")}</p>

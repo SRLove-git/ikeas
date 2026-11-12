@@ -133,7 +133,8 @@
     "checkout": "Checkout",
     "continueShopping": "Lanjutkan belanja",
     "loadFailed": "Gagal memuat tas belanja",
-    "updateFailed": "Gagal memperbarui jumlah"
+    "updateFailed": "Gagal memperbarui jumlah",
+    "unavailableItems": "Beberapa barang belum tersedia. Hapus sebelum checkout."
   },
   "product": {
     "addToBag": "Tambah ke tas",
@@ -143,6 +144,7 @@
     "outOfStock": "Stok habis",
     "notReadyForSale": "Belum tersedia untuk dibeli",
     "priceUnavailable": "Harga belum dikonfirmasi",
+    "availabilityUnavailable": "Status penjualan belum dikonfirmasi",
     "addFavorite": "Simpan ke favorit",
     "favorited": "Tersimpan",
     "addedFavorite": "Ditambahkan ke favorit",

@@ -133,7 +133,8 @@
     "checkout": "去结算",
     "continueShopping": "继续购物",
     "loadFailed": "加载购物袋失败",
-    "updateFailed": "更新数量失败"
+    "updateFailed": "更新数量失败",
+    "unavailableItems": "购物袋中有商品暂不可售，请移除后再结算"
   },
   "product": {
     "addToBag": "加入购物袋",
@@ -143,6 +144,7 @@
     "outOfStock": "暂时缺货",
     "notReadyForSale": "暂不可购买",
     "priceUnavailable": "价格待确认",
+    "availabilityUnavailable": "销售状态待确认",
     "addFavorite": "加入收藏",
     "favorited": "已收藏",
     "addedFavorite": "已加入收藏",

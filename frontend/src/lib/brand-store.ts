@@ -169,47 +169,40 @@ export async function updateBrandProduct(
     }
 
     const image = patch.image === undefined ? undefined : toText(patch.image)
-    const originalZh = structuredClone(zh)
-    const originalEn = structuredClone(en)
-
-    try {
-      if (name) target.name = name
-      if (price !== undefined) target.price = price
-      if (originalPrice !== undefined) target.originalPrice = originalPrice
-      if (image !== undefined) {
-        target.image = image
-        target.detail.images = image
-          ? [image, ...target.detail.images.filter((url) => url !== image)]
-          : []
-      }
-      if (patch.capacity !== undefined) target.detail.capacity = toText(patch.capacity)
-      if (patch.dimension !== undefined) target.detail.dimension = toText(patch.dimension)
-      if (patch.energy !== undefined) target.detail.energy = toText(patch.energy)
-
-      // 英文包同步同样的数值字段与名称
-      const enTarget = en.find((item) => item.slug === slug)
-      if (enTarget) {
-        if (price !== undefined) enTarget.price = price
-        if (originalPrice !== undefined) enTarget.originalPrice = originalPrice
-        if (image !== undefined) {
-          enTarget.image = target.image
-          enTarget.detail.images = target.detail.images
-        }
-        if (patch.capacity !== undefined) enTarget.detail.capacity = target.detail.capacity
-        if (patch.dimension !== undefined) enTarget.detail.dimension = target.detail.dimension
-        if (patch.energy !== undefined) enTarget.detail.energy = target.detail.energy
-        if (name) enTarget.name = name
-      }
-
-      writeFile(zhFile, zh)
-      writeFile(enFile, en)
-      await externalSync?.(target)
-      return target
-    } catch (error) {
-      writeFile(zhFile, originalZh)
-      writeFile(enFile, originalEn)
-      throw error
+    if (name) target.name = name
+    if (price !== undefined) target.price = price
+    if (originalPrice !== undefined) target.originalPrice = originalPrice
+    if (image !== undefined) {
+      target.image = image
+      target.detail.images = image
+        ? [image, ...target.detail.images.filter((url) => url !== image)]
+        : []
     }
+    if (patch.capacity !== undefined) target.detail.capacity = toText(patch.capacity)
+    if (patch.dimension !== undefined) target.detail.dimension = toText(patch.dimension)
+    if (patch.energy !== undefined) target.detail.energy = toText(patch.energy)
+
+    // 英文包同步同样的数值字段与名称
+    const enTarget = en.find((item) => item.slug === slug)
+    if (enTarget) {
+      if (price !== undefined) enTarget.price = price
+      if (originalPrice !== undefined) enTarget.originalPrice = originalPrice
+      if (image !== undefined) {
+        enTarget.image = target.image
+        enTarget.detail.images = target.detail.images
+      }
+      if (patch.capacity !== undefined) enTarget.detail.capacity = target.detail.capacity
+      if (patch.dimension !== undefined) enTarget.detail.dimension = target.detail.dimension
+      if (patch.energy !== undefined) enTarget.detail.energy = target.detail.energy
+      if (name) enTarget.name = name
+    }
+
+    // 先写入可幂等重试的后端。若响应丢失，再次保存会完成收敛，
+    // 不会因回滚前端文件而制造一个更难识别的分裂状态。
+    await externalSync?.(target)
+    writeFile(zhFile, zh)
+    writeFile(enFile, en)
+    return target
   })
 }
 
@@ -286,9 +279,6 @@ export async function createBrandProduct(
     const enFile = fileFor(brand, "en")
     const zh = readFile<BrandProduct[]>(zhFile)
     const en = readFile<BrandProduct[]>(enFile)
-    const originalZh = structuredClone(zh)
-    const originalEn = structuredClone(en)
-
     const normalized = model.toLowerCase()
     if (zh.some((item) => item.model.toLowerCase() === normalized)) {
       throw new Error(`型号 ${model} 已存在`)
@@ -341,18 +331,12 @@ export async function createBrandProduct(
       },
     }
 
-    try {
-      zh.push(zhRecord)
-      en.push(enRecord)
-      writeFile(zhFile, zh)
-      writeFile(enFile, en)
-      await externalSync?.(zhRecord)
-      return zhRecord
-    } catch (error) {
-      writeFile(zhFile, originalZh)
-      writeFile(enFile, originalEn)
-      throw error
-    }
+    await externalSync?.(zhRecord)
+    zh.push(zhRecord)
+    en.push(enRecord)
+    writeFile(zhFile, zh)
+    writeFile(enFile, en)
+    return zhRecord
   })
 }
 
@@ -367,21 +351,14 @@ export async function deleteBrandProduct(
     const enFile = fileFor(brand, "en")
     const zh = readFile<BrandProduct[]>(zhFile)
     const en = readFile<BrandProduct[]>(enFile)
-    const originalZh = structuredClone(zh)
-    const originalEn = structuredClone(en)
     const index = zh.findIndex((item) => item.slug === slug)
     if (index < 0) throw new Error("商品不存在")
-    const [removed] = zh.splice(index, 1)
+    const removed = zh[index]
     const nextEn = en.filter((item) => item.slug !== slug)
-    try {
-      writeFile(zhFile, zh)
-      writeFile(enFile, nextEn)
-      await externalSync?.(removed)
-      return removed
-    } catch (error) {
-      writeFile(zhFile, originalZh)
-      writeFile(enFile, originalEn)
-      throw error
-    }
+    await externalSync?.(removed)
+    zh.splice(index, 1)
+    writeFile(zhFile, zh)
+    writeFile(enFile, nextEn)
+    return removed
   })
 }

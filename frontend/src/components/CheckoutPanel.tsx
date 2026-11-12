@@ -139,6 +139,7 @@ export function CheckoutPanel() {
   const items = cart?.items ?? []
   const subtotal = items.reduce((sum, item) => sum + (item.product.price ?? 0) * item.quantity, 0)
   const totalQuantity = items.reduce((sum, item) => sum + item.quantity, 0)
+  const hasUnavailable = items.some((item) => item.sellable === false)
   const pointDiscount = Math.min(usePoints, marketing?.points ?? 0) * 0.01
   const balanceUsed = Math.max(0, Math.min(useBalance, marketing?.balance ?? 0))
   const discount = Math.max(0, Math.min(subtotal, pointDiscount + balanceUsed))
@@ -152,6 +153,10 @@ export function CheckoutPanel() {
   const submit = async () => {
     if (!cart || cart.items.length === 0) {
       setError(t("checkout.emptyCart"))
+      return
+    }
+    if (hasUnavailable) {
+      setError(t("cart.unavailableItems"))
       return
     }
     if (
@@ -350,7 +355,7 @@ export function CheckoutPanel() {
             ) : (
               <>
                 <div className="mt-4 space-y-4">
-                  {items.map(({ product, quantity }) => (
+                  {items.map(({ product, quantity, sellable }) => (
                     <div key={product.id} className="flex gap-3">
                       <SiteImage
                         src={product.image}
@@ -366,6 +371,11 @@ export function CheckoutPanel() {
                         <span className="mt-auto text-sm font-bold">
                           {formatPrice((product.price ?? 0) * quantity)}
                         </span>
+                        {sellable === false ? (
+                          <span className="mt-1 text-xs font-bold text-amber-700">
+                            {t("product.notReadyForSale")}
+                          </span>
+                        ) : null}
                       </div>
                     </div>
                   ))}
@@ -442,6 +452,7 @@ export function CheckoutPanel() {
                     loading ||
                     shipping.loading ||
                     !shipping.quote ||
+                    hasUnavailable ||
                     totalQuantity === 0
                   }
                   className="i-btn i-btn--primary mt-6 h-11 w-full text-sm font-bold text-white disabled:cursor-not-allowed disabled:opacity-50"
@@ -454,6 +465,11 @@ export function CheckoutPanel() {
                 {shipping.error ? (
                   <p className="mt-3 text-center text-xs text-red-600">
                     {t("checkout.shippingUnavailable")}
+                  </p>
+                ) : null}
+                {hasUnavailable ? (
+                  <p className="mt-3 text-center text-xs text-amber-700">
+                    {t("cart.unavailableItems")}
                   </p>
                 ) : null}
               </>
