@@ -780,12 +780,17 @@
     "subSlug": "dryer",
     "price": 1699,
     "originalPrice": null,
-    "image": null,
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-t25-series-1.png",
     "labels": [],
     "sourceFile": "(见干衣机/T25 series)",
     "note": "待核",
     "detail": {
-      "images": [],
+      "images": [
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-t25-series-1.png",
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-t25-series-2.png",
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-t25-series-3.png",
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-t25-series-4.png"
+      ],
       "benefits": [],
       "dimension": "595*675*845",
       "materials": [],
@@ -1007,12 +1012,17 @@
     "subSlug": "front-load",
     "price": 1199,
     "originalPrice": null,
-    "image": null,
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-t25-series-2-1.png",
     "labels": [],
     "sourceFile": "Toshiba T25 9.5 10.5Kg ... LAUNCH MEMO_*.docx",
     "note": "10.5kg 为 1349",
     "detail": {
-      "images": [],
+      "images": [
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-t25-series-2-1.png",
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-t25-series-2-2.png",
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-t25-series-2-3.png",
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-t25-series-2-4.png"
+      ],
       "benefits": [],
       "dimension": "595(宽)*570(深)*850(高)",
       "materials": [],
@@ -1031,12 +1041,17 @@
     "subSlug": "front-load",
     "price": 2199,
     "originalPrice": null,
-    "image": null,
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-t27-10-5kg-1.png",
     "labels": [],
     "sourceFile": "Toshiba T27 10.5Kg COMBO Washing Machine LAUNCH MEMO_*.docx",
     "note": "",
     "detail": {
-      "images": [],
+      "images": [
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-t27-10-5kg-1.png",
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-t27-10-5kg-2.png",
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-t27-10-5kg-3.png",
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-t27-10-5kg-4.png"
+      ],
       "benefits": [],
       "dimension": "595(宽)*570(深)*850(高)",
       "materials": [],
@@ -1566,12 +1581,14 @@
     "subSlug": "oven",
     "price": 189,
     "originalPrice": null,
-    "image": null,
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-tl-mc35z-1.png",
     "labels": [],
     "sourceFile": "TOSHIBA TL-MC35Z 35L ... LAUNCH MEMO_All Channel.docx",
     "note": "",
     "detail": {
-      "images": [],
+      "images": [
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-tl-mc35z-1.png"
+      ],
       "benefits": [],
       "dimension": null,
       "materials": [],
@@ -1873,12 +1890,17 @@
     "subSlug": "multi",
     "price": 3499,
     "originalPrice": null,
-    "image": null,
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-gr-rm631we-pgx-b1-1.png",
     "labels": [],
     "sourceFile": "Toshiba Multi-Door 488L GR-RM631WE-PGX_Launch Memo (All Channels) new.pdf",
     "note": "",
     "detail": {
-      "images": [],
+      "images": [
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-gr-rm631we-pgx-b1-1.png",
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-gr-rm631we-pgx-b1-2.png",
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-gr-rm631we-pgx-b1-3.png",
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-gr-rm631we-pgx-b1-4.png"
+      ],
       "benefits": [],
       "dimension": null,
       "materials": [],
@@ -1954,12 +1976,17 @@
     "subSlug": "multi",
     "price": 3599,
     "originalPrice": null,
-    "image": null,
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-gr-rm838we-pgx-1.png",
     "labels": [],
     "sourceFile": "RM838 6D Launch Memo_all channels.pdf",
     "note": "",
     "detail": {
-      "images": [],
+      "images": [
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-gr-rm838we-pgx-1.png",
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-gr-rm838we-pgx-2.png",
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-gr-rm838we-pgx-3.jpg",
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-gr-rm838we-pgx-4.jpg"
+      ],
       "benefits": [],
       "dimension": "685*748*1855",
       "materials": [],
@@ -2297,12 +2324,16 @@
     "subSlug": "tmf",
     "price": 1259,
     "originalPrice": null,
-    "image": null,
+    "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-gr-rt624we-pmx-06s-1.jpg",
     "labels": [],
     "sourceFile": "Toshiba TMF 461L GR-RT624WE-PMX(06S)_Launch Memo (Modern/Traditional).pdf",
     "note": "",
     "detail": {
-      "images": [],
+      "images": [
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-gr-rt624we-pmx-06s-1.jpg",
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-gr-rt624we-pmx-06s-2.jpg",
+        "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-gr-rt624we-pmx-06s-3.jpg"
+      ],
       "benefits": [],
       "dimension": "700×691×1880",
       "materials": [],
