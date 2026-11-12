@@ -4,6 +4,11 @@ server:
 spring:
   application:
     name: ikea-server
+  servlet:
+    multipart:
+      # Keep the framework limit aligned with the OSS service's default 20 MB limit.
+      max-file-size: ${IKEA_OSS_MAX_FILE_SIZE:20MB}
+      max-request-size: ${IKEA_OSS_MAX_REQUEST_SIZE:21MB}
   datasource:
     url: jdbc:postgresql://${DB_HOST:localhost}:${DB_PORT:5432}/${DB_NAME:buzud}
     username: ${DB_USER:buzud}

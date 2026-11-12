@@ -9,6 +9,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.http.converter.HttpMessageNotReadableException;
 import org.springframework.dao.DataIntegrityViolationException;
+import org.springframework.web.multipart.MaxUploadSizeExceededException;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.servlet.resource.NoResourceFoundException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -61,6 +62,12 @@ public class ApiExceptionHandler {
   public ResponseEntity<ApiError> handleUnreadable(
       HttpMessageNotReadableException ex, HttpServletRequest request) {
     return build(HttpStatus.BAD_REQUEST, "请求体格式不正确", request);
+  }
+
+  @ExceptionHandler(MaxUploadSizeExceededException.class)
+  public ResponseEntity<ApiError> handleUploadTooLarge(
+      MaxUploadSizeExceededException ex, HttpServletRequest request) {
+    return build(HttpStatus.PAYLOAD_TOO_LARGE, "上传文件超过允许的大小", request);
   }
 
   @ExceptionHandler(DataIntegrityViolationException.class)
