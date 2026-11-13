@@ -123,6 +123,7 @@ export default async function MideaProductPage({ params }: { params: Promise<{ s
                       alt={item.model}
                       className="aspect-square w-full bg-white p-5"
                       imgClassName="h-full w-full object-contain object-center"
+                      sizes="(max-width: 639px) calc(50vw - 30px), (max-width: 1023px) calc(33.333vw - 30px), 300px"
                     />
                     <p className="pt-3 text-[11px] font-bold uppercase tracking-wide text-ikea-muted">
                       {item.model}

@@ -33,6 +33,9 @@ export function ProductGallery({ images, name }: ProductGalleryProps) {
         alt={name}
         className="aspect-square w-full bg-white p-6"
         imgClassName="h-full w-full object-contain object-center drop-shadow-[0_8px_16px_rgba(17,17,17,0.12)]"
+        sizes="(max-width: 1023px) calc(100vw - 40px), 620px"
+        loading={active === 0 ? "eager" : "lazy"}
+        fetchPriority={active === 0 ? "high" : "auto"}
       />
       {valid.length > 1 ? (
         <div className="mt-3 flex gap-2 overflow-x-auto no-scrollbar">
@@ -51,6 +54,7 @@ export function ProductGallery({ images, name }: ProductGalleryProps) {
                 alt=""
                 className="h-full w-full"
                 imgClassName="h-full w-full object-contain object-center"
+                sizes="64px"
               />
             </button>
           ))}

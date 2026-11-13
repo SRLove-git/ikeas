@@ -21,6 +21,7 @@ function ToshibaCard({ product }: { product: ToshibaProduct }) {
         alt={product.model}
         className="aspect-square w-full bg-white p-5 transition-transform duration-300 group-hover:scale-105"
         imgClassName="h-full w-full object-contain object-center drop-shadow-[0_8px_16px_rgba(17,17,17,0.12)]"
+        sizes="(max-width: 639px) calc(50vw - 30px), (max-width: 1023px) calc(33.333vw - 30px), 300px"
       />
       <div className="flex flex-1 flex-col pt-3">
         <p className="text-[11px] font-bold uppercase tracking-wide text-ikea-muted">

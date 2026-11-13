@@ -103,7 +103,12 @@ def remote_to_key(url: str) -> str:
 def upload_file(bucket, local_path: Path, key: str):
     ctype = content_type(local_path)
     bucket.put_object_from_file(
-        key, str(local_path), headers={"Content-Type": ctype}
+        key,
+        str(local_path),
+        headers={
+            "Content-Type": ctype,
+            "Cache-Control": "public, max-age=31536000, immutable",
+        },
     )
     return key
 
@@ -114,7 +119,14 @@ def upload_remote(bucket, url: str):
     with urllib.request.urlopen(req, timeout=60) as resp:
         data = resp.read()
     ctype = resp.headers.get("Content-Type") or mimetypes.guess_type(key)[0] or "application/octet-stream"
-    bucket.put_object(key, data, headers={"Content-Type": ctype})
+    bucket.put_object(
+        key,
+        data,
+        headers={
+            "Content-Type": ctype,
+            "Cache-Control": "public, max-age=31536000, immutable",
+        },
+    )
     return url, key
 
 
