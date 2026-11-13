@@ -622,19 +622,9 @@
   },
   "sustainabilityPillItems": [
     {
-      "label": "Kulkas Toshiba 515L",
-      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-gr-rf665wia-pgx-22-1.png",
-      "href": "/zh/toshiba/p/gr-rf665wia-pgx-22"
-    },
-    {
       "label": "BUZUD Watch Vibrance",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712582-1.png",
       "href": "/zh/p/buzud-watch-vibrance-8885020712582"
-    },
-    {
-      "label": "Robot Pembersih Midea MS8 Plus",
-      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/midea-ms8plusapbk-1.jpg",
-      "href": "/zh/midea/p/ms8plusapbk"
     },
     {
       "label": "BUZUD Blood Pressure Monitor 30S",
@@ -642,19 +632,9 @@
       "href": "/zh/p/buzud-blood-pressure-monitor-30s-8885020711097"
     },
     {
-      "label": "Air Fryer Toshiba 7.4L",
-      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-af-74cs1trsg-b-1.png",
-      "href": "/zh/toshiba/p/af-74cs1trsg-b"
-    },
-    {
       "label": "BUZUD Fingertip Pulse Oximeter 70B",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711479-1.png",
       "href": "/zh/p/buzud-fingertip-pulse-oximeter-70b-8885020711479"
-    },
-    {
-      "label": "Penjernih Udara Midea MAP400G",
-      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/midea-map400gpbpwh-1.png",
-      "href": "/zh/midea/p/map400gpbpwh"
     },
     {
       "label": "BUZUD Infrared Ear Thermometer BZD100",
@@ -673,6 +653,38 @@
     "color": "#f5f5f5",
     "textColor": "#111111"
   },
+  "appliancePillItems": [
+    {
+      "label": "Kulkas Toshiba 515L",
+      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-gr-rf665wia-pgx-22-1.png",
+      "href": "/zh/toshiba/p/gr-rf665wia-pgx-22"
+    },
+    {
+      "label": "Robot Pembersih Midea MS8 Plus",
+      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/midea-ms8plusapbk-1.jpg",
+      "href": "/zh/midea/p/ms8plusapbk"
+    },
+    {
+      "label": "Mesin Cuci Toshiba Japandi T37",
+      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-tw-t37bzp105mws-wt-1.png",
+      "href": "/zh/toshiba/p/tw-t37bzp105mws-wt"
+    },
+    {
+      "label": "Penjernih Udara Midea MAP400G",
+      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/midea-map400gpbpwh-1.png",
+      "href": "/zh/midea/p/map400gpbpwh"
+    },
+    {
+      "label": "Air Fryer Toshiba 7.4L",
+      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-af-74cs1trsg-b-1.png",
+      "href": "/zh/toshiba/p/af-74cs1trsg-b"
+    },
+    {
+      "label": "Oven Mikro Midea AM820C2RA",
+      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/midea-am820c2ra-1.jpg",
+      "href": "/zh/midea/p/am820c2ra"
+    }
+  ],
   "feedProducts": {
     "全部": [
       {

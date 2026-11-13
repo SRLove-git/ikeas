@@ -19,6 +19,7 @@ export default async function Home() {
   const locale = await getLocale()
   const t = await getServerT(locale)
   const {
+    appliancePillItems,
     footerFeaturedCards,
     footerLinkGroups,
     heroVideos,
@@ -104,6 +105,7 @@ export default async function Home() {
                 items={sustainabilityPillItems}
                 cta={sustainabilityPillCta}
               />
+              <VisualPillSlider title={t("home.applianceLiving")} items={appliancePillItems} />
             </div>
           </div>
           <Footer

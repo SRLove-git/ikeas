@@ -103,6 +103,11 @@ function buildConfigs(t: (key: string) => string) {
       description: t("admin.homepage.section.sustainCtaDesc"),
     },
     {
+      key: "appliancePillItems",
+      label: t("admin.homepage.section.appliancePills"),
+      description: t("admin.homepage.section.appliancePillsDesc"),
+    },
+    {
       key: "feedProducts",
       label: t("admin.homepage.section.feed"),
       description: t("admin.homepage.section.feedDesc"),
@@ -321,6 +326,7 @@ function buildConfigs(t: (key: string) => string) {
       schema: PILL_SCHEMA,
     },
     sustainabilityPillCta: { kind: "object", schema: PILL_CTA_SCHEMA },
+    appliancePillItems: { kind: "objects", labelKey: "label", schema: PILL_SCHEMA },
     feedProducts: { kind: "feed" },
     footerLinkGroups: {
       kind: "objects",

@@ -48,6 +48,7 @@ export interface HomepageData {
   roomPillCta: { label: string; href: string; color: string; textColor: string }
   sustainabilityPillItems: PillSliderItem[]
   sustainabilityPillCta: { label: string; href: string; color: string; textColor: string }
+  appliancePillItems: PillSliderItem[]
   feedProducts: Record<string, FeedProduct[]>
   footerLinkGroups: FooterLinkGroup[]
   footerFeaturedCards: { title: string; description: string; ctaLabel: string; href: string }[]
