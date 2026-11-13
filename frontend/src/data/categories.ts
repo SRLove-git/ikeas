@@ -13,8 +13,10 @@ export interface CategorySub {
 
 export interface Category {
   name: string
-  /** 所属分组（Mega 菜单第一级），见 menu-categories.json */
+  /** 所属分组（Mega 菜单第一级：医疗 / 家电），见 menu-categories.json */
   group?: string
+  /** 一级分组下的细分（如 健康检测与管理 / 呼吸与辅助设备 / 东芝 / 美的） */
+  subgroup?: string
   url: string
   image: string | null
   subs: CategorySub[]

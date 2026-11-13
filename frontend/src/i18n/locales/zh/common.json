@@ -86,11 +86,12 @@
     "promoTitle": "CHUNG YIP 精选",
     "shopByCategory": "按分类选购",
     "healthyTips": "健康生活小贴士",
-    "healthyLiving": "健康生活精选",
+    "healthyLiving": "健康与家电精选",
     "videoComingSoon": "宣传视频即将上线",
     "promoVideoAria": "BUZUD 宣传视频",
     "loadMore": "加载更多内容",
     "promoCount": "{{count}} 件健康产品，点击选购",
+    "promoApplianceCount": "{{count}} 件家电产品，点击选购",
     "bookingEyebrow": "到店健康体验",
     "bookingTitle": "体验预约",
     "bookingDescription": "到店即可体验氧疗焕活、体成分分析、血糖/血脂/尿酸分析与血压检测，提前预约省时又安心。",
@@ -1092,7 +1093,12 @@
         "columns": "栏目",
         "subName": "子分类名称",
         "categoryName": "分类名称",
-        "group": "分组",
+        "group": "一级分类",
+        "groupHint": "导航栏只保留「医疗」和「家电」两个一级分类",
+        "groupMedical": "医疗",
+        "groupAppliance": "家电",
+        "subgroup": "二级分类",
+        "subgroupHint": "一级分类下的细分，如健康检测与管理、呼吸与辅助设备、东芝、美的",
         "subs": "子分类",
         "menuName": "菜单名称",
         "hasMegaMenu": "全部分类下拉（Mega 菜单）",
@@ -1475,7 +1481,9 @@
   "megaMenu": {
     "eyebrow": "产品分类",
     "seeAll": "查看全部分类",
-    "productCount": "{{count}} 款产品"
+    "productCount": "{{count}} 款产品",
+    "categoryCount": "{{count}} 个分类",
+    "otherSection": "其他分类"
   },
   "ranking": {
     "bestsellers": "热销榜",

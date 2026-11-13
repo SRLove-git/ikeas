@@ -13,6 +13,7 @@ import { useAuth } from "@/lib/auth"
 import { apiJson, getToken, type Cart } from "@/lib/api"
 import type { MenuPanel as MenuPanelData } from "@/data/menu-panels"
 import type { Category } from "@/data/categories"
+import { groupCategorySections } from "@/lib/menu-sections"
 
 interface HeaderProps {
   menuItems: { label: string; href: string; hasMegaMenu?: boolean; menuPanelLabel?: string }[]
@@ -188,10 +189,7 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
     setOpenPanel(null)
     if (li) moveActiveBar(li)
   }
-  const activateNavItem = (
-    item: HeaderProps["menuItems"][number],
-    li: HTMLLIElement | null,
-  ) => {
+  const activateNavItem = (item: HeaderProps["menuItems"][number], li: HTMLLIElement | null) => {
     const panel = menuPanels.find((p) => p.label === (item.menuPanelLabel ?? item.label))
     closeSearch()
     setMoreOpen(false)
@@ -222,11 +220,16 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
   }
 
   const productsEntry = { label: t("header.allProducts"), href: "/zh/all-products/" }
-  const moreEntries = [
+  const moreEntries: {
+    label: string
+    href: string
+    sections?: ReturnType<typeof groupCategorySections>
+  }[] = [
     productsEntry,
     ...groups.map((group) => ({
       label: group.name,
       href: toPath(group.categories[0]?.url ?? "/zh/all-products/"),
+      sections: groupCategorySections(group.categories),
     })),
     ...menuItems.map((item) => ({ label: item.label, href: item.href })),
   ]
@@ -282,7 +285,8 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
                         <li
                           key={`group-${group.name}`}
                           onMouseEnter={(event) => openGroupMenu(group.name, event.currentTarget)}
-                        >                          <Link
+                        >
+                          <Link
                             href={toPath(group.categories[0]?.url ?? "/zh/all-products/")}
                             className="menu-label"
                             onFocus={(event) =>
@@ -306,7 +310,9 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
                           <Link
                             href={item.href}
                             className="menu-label"
-                            onFocus={(event) => activateNavItem(item, event.currentTarget.closest("li"))}
+                            onFocus={(event) =>
+                              activateNavItem(item, event.currentTarget.closest("li"))
+                            }
                           >
                             {item.label}
                           </Link>
@@ -349,14 +355,44 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
                           {moreOpen ? (
                             <ul className="header-nav-more-dropdown">
                               {moreEntries.slice(1).map((entry) => (
-                                <li key={entry.label}>
-                                  <Link
-                                    href={entry.href}
-                                    className="header-nav-more-link"
-                                    onClick={() => setMoreOpen(false)}
-                                  >
-                                    {entry.label}
-                                  </Link>
+                                <li
+                                  key={entry.label}
+                                  className={entry.sections ? "header-nav-more-group" : undefined}
+                                >
+                                  {entry.sections ? (
+                                    <p className="header-nav-more-heading">{entry.label}</p>
+                                  ) : (
+                                    <Link
+                                      href={entry.href}
+                                      className="header-nav-more-link"
+                                      onClick={() => setMoreOpen(false)}
+                                    >
+                                      {entry.label}
+                                    </Link>
+                                  )}
+                                  {entry.sections?.map((section, index) => (
+                                    <div
+                                      key={section.name ?? `more-section-${index}`}
+                                      className="header-nav-more-section"
+                                    >
+                                      {section.name ? (
+                                        <p className="header-nav-more-subheading">{section.name}</p>
+                                      ) : null}
+                                      <ul className="header-nav-more-sublist">
+                                        {section.categories.map((category) => (
+                                          <li key={`${category.name}-${category.url}`}>
+                                            <Link
+                                              href={toPath(category.url)}
+                                              className="header-nav-more-link header-nav-more-link--sub"
+                                              onClick={() => setMoreOpen(false)}
+                                            >
+                                              {category.name}
+                                            </Link>
+                                          </li>
+                                        ))}
+                                      </ul>
+                                    </div>
+                                  ))}
                                 </li>
                               ))}
                             </ul>
@@ -412,16 +448,12 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
                               <span className="flex h-6 w-6 items-center justify-center rounded-full bg-ikea-blue text-xs font-bold text-white">
                                 {user.name.slice(-1)}
                               </span>
-                              <span className="header-user-text hidden">
-                                {user.name}
-                              </span>
+                              <span className="header-user-text hidden">{user.name}</span>
                             </Link>
                           ) : (
                             <Link href="/zh/profile/login/" className="header-action-btn">
                               <UserIcon width={24} height={24} />
-                              <span className="header-user-text hidden">
-                                {t("header.login")}
-                              </span>
+                              <span className="header-user-text hidden">{t("header.login")}</span>
                             </Link>
                           )}
                           <div className="i-tooltip__body">
@@ -475,17 +507,56 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
                         {productsEntry.label}
                       </Link>
                     </li>
-                    {groups.map((group) => (
-                      <li key={`m-group-${group.name}`}>
-                        <Link
-                          href={toPath(group.categories[0]?.url ?? "/zh/all-products/")}
-                          onClick={() => setMobileMenuOpen(false)}
-                          className="block py-2.5 text-sm font-bold text-ikea-black"
-                        >
-                          {group.name}
-                        </Link>
-                      </li>
-                    ))}
+                    {groups.map((group) => {
+                      const sections = groupCategorySections(group.categories)
+                      return (
+                        <li key={`m-group-${group.name}`}>
+                          <details className="mobile-nav-group">
+                            <summary className="flex cursor-pointer list-none items-center justify-between py-2.5 text-sm font-bold text-ikea-black">
+                              {group.name}
+                              <svg
+                                viewBox="0 0 24 24"
+                                className="mobile-nav-chevron h-4 w-4"
+                                aria-hidden="true"
+                              >
+                                <path
+                                  d="m6 9 6 6 6-6"
+                                  fill="none"
+                                  stroke="currentColor"
+                                  strokeWidth="2"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                />
+                              </svg>
+                            </summary>
+                            <div className="pb-2 pl-1">
+                              {sections.map((section, index) => (
+                                <div key={section.name ?? `mobile-section-${index}`}>
+                                  {section.name ? (
+                                    <p className="px-2 pt-1 text-xs font-semibold uppercase tracking-wide text-ikea-muted">
+                                      {section.name}
+                                    </p>
+                                  ) : null}
+                                  <ul>
+                                    {section.categories.map((category) => (
+                                      <li key={`${category.name}-${category.url}`}>
+                                        <Link
+                                          href={toPath(category.url)}
+                                          onClick={() => setMobileMenuOpen(false)}
+                                          className="block rounded px-2 py-1.5 text-sm text-ikea-black hover:bg-ikea-gray-100"
+                                        >
+                                          {category.name}
+                                        </Link>
+                                      </li>
+                                    ))}
+                                  </ul>
+                                </div>
+                              ))}
+                            </div>
+                          </details>
+                        </li>
+                      )
+                    })}
                     {menuItems.map((item) => (
                       <li key={item.label}>
                         <Link

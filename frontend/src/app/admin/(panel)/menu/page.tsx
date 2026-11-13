@@ -89,7 +89,24 @@ export default function MenuPage() {
   const CATEGORY_SCHEMA: Schema = {
     fields: [
       { key: "name", label: t("admin.menu.field.categoryName"), kind: { type: "text" } },
-      { key: "group", label: t("admin.menu.field.group"), kind: { type: "text" } },
+      {
+        key: "group",
+        label: t("admin.menu.field.group"),
+        hint: t("admin.menu.field.groupHint"),
+        kind: {
+          type: "select",
+          options: [
+            { value: "医疗", label: t("admin.menu.field.groupMedical") },
+            { value: "家电", label: t("admin.menu.field.groupAppliance") },
+          ],
+        },
+      },
+      {
+        key: "subgroup",
+        label: t("admin.menu.field.subgroup"),
+        hint: t("admin.menu.field.subgroupHint"),
+        kind: { type: "text" },
+      },
       { key: "url", label: t("admin.menu.field.href"), kind: { type: "text" } },
       { key: "image", label: t("admin.menu.field.image"), kind: { type: "text" } },
       {

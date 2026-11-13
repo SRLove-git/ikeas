@@ -46,10 +46,7 @@
     },
     {
       "name": "Topeng oksigen ringkas",
-      "subCategories": [
-        "Simple Oxygen Mask (adult)",
-        "Simple Oxygen Mask (child)"
-      ]
+      "subCategories": ["Simple Oxygen Mask (adult)", "Simple Oxygen Mask (child)"]
     },
     {
       "name": "Penumpu oksigen mudah alih",
@@ -104,10 +101,7 @@
     },
     {
       "name": "Tiub oksigen hidung",
-      "subCategories": [
-        "Nasal Oxygen Cannula (5m) ",
-        "Nasal Oxygen Cannula (2m)"
-      ]
+      "subCategories": ["Nasal Oxygen Cannula (5m) ", "Nasal Oxygen Cannula (2m)"]
     },
     {
       "name": "Penumpu oksigen",
@@ -122,10 +116,7 @@
     },
     {
       "name": "Tiub oksigen hidung aliran tinggi",
-      "subCategories": [
-        "High-Flow Nasal Cannula NeoHiF-i5",
-        "High-Flow Nasal Cannula NeoHiF-i7"
-      ]
+      "subCategories": ["High-Flow Nasal Cannula NeoHiF-i5", "High-Flow Nasal Cannula NeoHiF-i7"]
     },
     {
       "name": "Jalur ujian glukosa darah",
@@ -149,16 +140,11 @@
     },
     {
       "name": "Tiub nebulisasi oksigen dan corong mulut",
-      "subCategories": [
-        "Oxygen Nebulizer Tubing and Mouthpiece"
-      ]
+      "subCategories": ["Oxygen Nebulizer Tubing and Mouthpiece"]
     },
     {
       "name": "Kerusi pindah",
-      "subCategories": [
-        "BUZUD Manual Transfer Chair ",
-        "Electric Transfer Wheelchair DY077602"
-      ]
+      "subCategories": ["BUZUD Manual Transfer Chair ", "Electric Transfer Wheelchair DY077602"]
     },
     {
       "name": "Jalur ujian asid urik",
@@ -169,9 +155,7 @@
     },
     {
       "name": "Jalur ujian lipid",
-      "subCategories": [
-        "BUZUD Blood Lipid Test Strip PFS 30 (20 strips/box)"
-      ]
+      "subCategories": ["BUZUD Blood Lipid Test Strip PFS 30 (20 strips/box)"]
     },
     {
       "name": "Penganalisis darah",
@@ -201,15 +185,11 @@
     },
     {
       "name": "Sapuan alkohol",
-      "subCategories": [
-        "BUZUD Alcohol Swab"
-      ]
+      "subCategories": ["BUZUD Alcohol Swab"]
     },
     {
       "name": "Penjagaan pernafasan",
-      "subCategories": [
-        "BUZUD Air-compressing Nebulizer 407A"
-      ]
+      "subCategories": ["BUZUD Air-compressing Nebulizer 407A"]
     },
     {
       "name": "Alat bantu pendengaran",
@@ -266,9 +246,7 @@
     },
     {
       "name": "Defibrilator Luaran Automatik (AED)",
-      "subCategories": [
-        "Battery pack for BUZUD Automatic External Defibrillator 7000"
-      ]
+      "subCategories": ["Battery pack for BUZUD Automatic External Defibrillator 7000"]
     },
     {
       "name": "Penimbang komposisi badan",
@@ -324,6 +302,26 @@
       "ctaHref": "/zh/cat/test-kit",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710595-1.png",
       "backgroundColor": "#00a19a",
+      "textColor": "#ffffff"
+    },
+    {
+      "eyebrow": "CHUNG YIP",
+      "title": "Peralatan Toshiba",
+      "description": "",
+      "ctaLabel": "Beli sekarang",
+      "ctaHref": "/zh/toshiba",
+      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-gr-rf665wia-pgx-22-1.png",
+      "backgroundColor": "#3949ab",
+      "textColor": "#ffffff"
+    },
+    {
+      "eyebrow": "CHUNG YIP",
+      "title": "Peralatan Midea",
+      "description": "",
+      "ctaLabel": "Beli sekarang",
+      "ctaHref": "/zh/midea",
+      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/midea-ms8plusapbk-1.jpg",
+      "backgroundColor": "#00838f",
       "textColor": "#ffffff"
     },
     {
@@ -581,6 +579,16 @@
       "href": "/zh/cat/test-kit"
     },
     {
+      "label": "Peti sejuk",
+      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-gr-rf665wia-pgx-22-1.png",
+      "href": "/zh/toshiba#fridge"
+    },
+    {
+      "label": "Peralatan basuh",
+      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-tw-t37bzp105mws-wt-1.png",
+      "href": "/zh/toshiba#laundry"
+    },
+    {
       "label": "Jam tangan pintar",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712582-1.png",
       "href": "/zh/cat/smart-watch"
@@ -589,6 +597,11 @@
       "label": "Monitor tekanan darah",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710151-1.png",
       "href": "/zh/cat/blood-pressure-monitor"
+    },
+    {
+      "label": "Peralatan dapur",
+      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-ml-ec42s-bs-1.jpg",
+      "href": "/zh/toshiba#kitchen"
     },
     {
       "label": "Pengurusan glukosa darah",
@@ -609,9 +622,19 @@
   },
   "sustainabilityPillItems": [
     {
+      "label": "Peti Sejuk Toshiba 515L",
+      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-gr-rf665wia-pgx-22-1.png",
+      "href": "/zh/toshiba/p/gr-rf665wia-pgx-22"
+    },
+    {
       "label": "BUZUD Watch Vibrance",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712582-1.png",
       "href": "/zh/p/buzud-watch-vibrance-8885020712582"
+    },
+    {
+      "label": "Robot Pembersih Midea MS8 Plus",
+      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/midea-ms8plusapbk-1.jpg",
+      "href": "/zh/midea/p/ms8plusapbk"
     },
     {
       "label": "BUZUD Blood Pressure Monitor 30S",
@@ -619,9 +642,19 @@
       "href": "/zh/p/buzud-blood-pressure-monitor-30s-8885020711097"
     },
     {
+      "label": "Penggoreng Udara Toshiba 7.4L",
+      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-af-74cs1trsg-b-1.png",
+      "href": "/zh/toshiba/p/af-74cs1trsg-b"
+    },
+    {
       "label": "BUZUD Fingertip Pulse Oximeter 70B",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711479-1.png",
       "href": "/zh/p/buzud-fingertip-pulse-oximeter-70b-8885020711479"
+    },
+    {
+      "label": "Penulen Udara Midea MAP400G",
+      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/midea-map400gpbpwh-1.png",
+      "href": "/zh/midea/p/map400gpbpwh"
     },
     {
       "label": "BUZUD Infrared Ear Thermometer BZD100",
@@ -651,9 +684,7 @@
         "title": "HCG Pregnancy Rapid Test",
         "desc": "Kit ujian pantas",
         "price": "SGD 0.01",
-        "tags": [
-          "BUZUD"
-        ],
+        "tags": ["BUZUD"],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710595-1.png"
       },
@@ -666,9 +697,7 @@
         "title": "LH Ovulation Rapid Test",
         "desc": "Kit ujian pantas",
         "price": "SGD 5.80",
-        "tags": [
-          "BUZUD"
-        ],
+        "tags": ["BUZUD"],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710618-1.png"
       },
@@ -681,9 +710,7 @@
         "title": "Vaginal pH Rapid Test Panel",
         "desc": "Kit ujian pantas",
         "price": "SGD 16.00",
-        "tags": [
-          "BUZUD"
-        ],
+        "tags": ["BUZUD"],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710649-1.png"
       },
@@ -696,9 +723,7 @@
         "title": "BUZUD Watch Vibrance",
         "desc": "Jam tangan pintar",
         "price": "SGD 237.00",
-        "tags": [
-          "BUZUD"
-        ],
+        "tags": ["BUZUD"],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712582-1.png"
       },
@@ -711,9 +736,7 @@
         "title": "BUZUD Pen Needles Plus Pro 32G 6mm ",
         "desc": "Jarum pen insulin",
         "price": "SGD 26.00",
-        "tags": [
-          "BUZUD"
-        ],
+        "tags": ["BUZUD"],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711530-1.png?v=2"
       },
@@ -726,9 +749,7 @@
         "title": "BUZUD Fingertip Pulse Oximeter 70B",
         "desc": "Oksimeter nadi",
         "price": "SGD 57.00",
-        "tags": [
-          "BUZUD"
-        ],
+        "tags": ["BUZUD"],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711479-1.png"
       },
@@ -741,9 +762,7 @@
         "title": "BUZUD Infrared Ear Thermometer BZD100",
         "desc": "Termometer",
         "price": "SGD 87.00",
-        "tags": [
-          "BUZUD"
-        ],
+        "tags": ["BUZUD"],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711677-1.png"
       },
@@ -756,9 +775,7 @@
         "title": "BUZUD Home Body Composition Scale CF509",
         "desc": "Penimbang komposisi badan",
         "price": "SGD 37.00",
-        "tags": [
-          "BUZUD"
-        ],
+        "tags": ["BUZUD"],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711448-1.png"
       },
@@ -771,9 +788,7 @@
         "title": "COVID-19/Flu A&B/RSV/Adeno Ag Combo Rapid Test Cassette (Swab) (1 test/box)",
         "desc": "Kit ujian pantas",
         "price": "SGD 17.00",
-        "tags": [
-          "BUZUD"
-        ],
+        "tags": ["BUZUD"],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712209-1.png"
       },
@@ -786,9 +801,7 @@
         "title": "H.pylori Antigen Rapid Test",
         "desc": "Kit ujian pantas",
         "price": "SGD 18.00",
-        "tags": [
-          "BUZUD"
-        ],
+        "tags": ["BUZUD"],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710588-1.png"
       },
@@ -801,9 +814,7 @@
         "title": "BUZUD Infrared Ear Thermometer BZD100",
         "desc": "Termometer",
         "price": "SGD 87.00",
-        "tags": [
-          "BUZUD"
-        ],
+        "tags": ["BUZUD"],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711677-1.png"
       },
@@ -816,9 +827,7 @@
         "title": "BUZUD Home Body Composition Scale CF509",
         "desc": "Penimbang berat badan pintar",
         "price": "SGD 37.00",
-        "tags": [
-          "BUZUD"
-        ],
+        "tags": ["BUZUD"],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
         "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711448-1.png"
       }

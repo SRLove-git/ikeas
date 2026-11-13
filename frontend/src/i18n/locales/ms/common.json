@@ -86,11 +86,12 @@
     "promoTitle": "Pilihan CHUNG YIP",
     "shopByCategory": "Beli-belah mengikut kategori",
     "healthyTips": "Petua hidup sihat",
-    "healthyLiving": "Pilihan hidup sihat",
+    "healthyLiving": "Pilihan kesihatan & rumah",
     "videoComingSoon": "Video promosi akan datang",
     "promoVideoAria": "Video promosi BUZUD",
     "loadMore": "Muat lagi",
     "promoCount": "{{count}} produk kesihatan, beli sekarang",
+    "promoApplianceCount": "{{count}} peralatan rumah, beli sekarang",
     "bookingEyebrow": "Pengalaman kesihatan di kedai",
     "bookingTitle": "Tempahan pemeriksaan kesihatan",
     "bookingDescription": "Tempah terapi oksigen, analisis komposisi badan, analisis glukosa darah/lipid/asid urik dan ujian tekanan darah sebelum lawatan anda.",
@@ -1092,7 +1093,12 @@
         "columns": "Lajur",
         "subName": "Nama subkategori",
         "categoryName": "Nama kategori",
-        "group": "Kumpulan",
+        "group": "Kumpulan utama",
+        "groupHint": "Navigasi hanya memaparkan dua kumpulan utama: Perubatan dan Peralatan Rumah",
+        "groupMedical": "Perubatan",
+        "groupAppliance": "Peralatan Rumah",
+        "subgroup": "Subkumpulan",
+        "subgroupHint": "Bahagian dalam kumpulan utama, cth. Ujian Kesihatan, Pernafasan, Toshiba, Midea",
         "subs": "Subkategori",
         "menuName": "Nama menu",
         "hasMegaMenu": "Lungsur semua kategori (menu mega)",
@@ -1475,7 +1481,9 @@
   "megaMenu": {
     "eyebrow": "Kategori",
     "seeAll": "Lihat semua kategori",
-    "productCount": "{{count}} produk"
+    "productCount": "{{count}} produk",
+    "categoryCount": "{{count}} kategori",
+    "otherSection": "Lain-lain"
   },
   "ranking": {
     "bestsellers": "Jualan terbaik",

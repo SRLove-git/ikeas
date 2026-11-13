@@ -9,6 +9,7 @@ import { PromoInspirationCard } from "@/components/PromoInspirationCard"
 import { VisualPillSlider } from "@/components/VisualPillSlider"
 import { homepage } from "@/data/homepage"
 import { catalogData } from "@/data/catalog"
+import { mideaCommerceProducts, toshibaCommerceProducts } from "@/data/brand-commerce"
 import { catalogPages } from "@/lib/catalog-pages"
 import { getMenuPanels } from "@/data/menu-panels"
 import { getMenuCategories } from "@/data/categories"
@@ -33,8 +34,15 @@ export default async function Home() {
     sustainabilityPillItems,
   } = homepage(locale)
   const { catalogCategories, channelCategories } = catalogData(locale)
+  // Home appliances live in their own brand catalogues, so resolve the promo
+  // card counts from the brand commerce snapshots as well.
+  const brandProductCount = {
+    midea: mideaCommerceProducts(locale).length,
+    toshiba: toshibaCommerceProducts(locale).length,
+  }
   const promoItems = promoCardItems.map((item) => {
     const slug = (item.ctaHref ?? item.href ?? "").split("/").filter(Boolean).at(-1)
+    const brandSlug = slug === "midea" || slug === "toshiba" ? slug : null
     let count: number | null = null
     if (slug) {
       const category = [...catalogCategories, ...channelCategories].find(
@@ -47,9 +55,14 @@ export default async function Home() {
           (candidate) => candidate.url.split("/").filter(Boolean).at(-1) === slug,
         )
         count = page ? (page.productIds ?? []).length : null
+        if (count == null && brandSlug) count = brandProductCount[brandSlug]
       }
     }
-    return count != null ? { ...item, description: t("home.promoCount", { count }) } : item
+    if (count == null) return item
+    return {
+      ...item,
+      description: t(brandSlug ? "home.promoApplianceCount" : "home.promoCount", { count }),
+    }
   })
   return (
     <main className="text-left">

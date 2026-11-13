@@ -306,6 +306,26 @@
     },
     {
       "eyebrow": "CHUNG YIP",
+      "title": "东芝家电",
+      "description": "",
+      "ctaLabel": "立即选购",
+      "ctaHref": "/zh/toshiba",
+      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-gr-rf665wia-pgx-22-1.png",
+      "backgroundColor": "#3949ab",
+      "textColor": "#ffffff"
+    },
+    {
+      "eyebrow": "CHUNG YIP",
+      "title": "美的家电",
+      "description": "",
+      "ctaLabel": "立即选购",
+      "ctaHref": "/zh/midea",
+      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/midea-ms8plusapbk-1.jpg",
+      "backgroundColor": "#00838f",
+      "textColor": "#ffffff"
+    },
+    {
+      "eyebrow": "CHUNG YIP",
       "title": "智能手表",
       "description": "",
       "ctaLabel": "立即选购",
@@ -559,6 +579,16 @@
       "href": "/zh/cat/test-kit"
     },
     {
+      "label": "冰箱",
+      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-gr-rf665wia-pgx-22-1.png",
+      "href": "/zh/toshiba#fridge"
+    },
+    {
+      "label": "洗护家电",
+      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-tw-t37bzp105mws-wt-1.png",
+      "href": "/zh/toshiba#laundry"
+    },
+    {
       "label": "智能手表",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712582-1.png",
       "href": "/zh/cat/smart-watch"
@@ -567,6 +597,11 @@
       "label": "血压计",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710151-1.png",
       "href": "/zh/cat/blood-pressure-monitor"
+    },
+    {
+      "label": "厨房电器",
+      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-ml-ec42s-bs-1.jpg",
+      "href": "/zh/toshiba#kitchen"
     },
     {
       "label": "血糖管理",
@@ -587,9 +622,19 @@
   },
   "sustainabilityPillItems": [
     {
+      "label": "东芝 515L 多门冰箱",
+      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-gr-rf665wia-pgx-22-1.png",
+      "href": "/zh/toshiba/p/gr-rf665wia-pgx-22"
+    },
+    {
       "label": "BUZUD Watch Vibrance",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712582-1.png",
       "href": "/zh/p/buzud-watch-vibrance-8885020712582"
+    },
+    {
+      "label": "美的扫地机器人 MS8 Plus",
+      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/midea-ms8plusapbk-1.jpg",
+      "href": "/zh/midea/p/ms8plusapbk"
     },
     {
       "label": "BUZUD Blood Pressure Monitor 30S",
@@ -597,9 +642,19 @@
       "href": "/zh/p/buzud-blood-pressure-monitor-30s-8885020711097"
     },
     {
+      "label": "东芝 7.4L 空气炸锅",
+      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-af-74cs1trsg-b-1.png",
+      "href": "/zh/toshiba/p/af-74cs1trsg-b"
+    },
+    {
       "label": "BUZUD Fingertip Pulse Oximeter 70B",
       "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711479-1.png",
       "href": "/zh/p/buzud-fingertip-pulse-oximeter-70b-8885020711479"
+    },
+    {
+      "label": "美的空气净化器 MAP400G",
+      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/midea-map400gpbpwh-1.png",
+      "href": "/zh/midea/p/map400gpbpwh"
     },
     {
       "label": "BUZUD Infrared Ear Thermometer BZD100",

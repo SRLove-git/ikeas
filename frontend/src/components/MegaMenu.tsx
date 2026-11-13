@@ -3,6 +3,7 @@
 import Link from "next/link"
 import { useTranslation } from "react-i18next"
 import type { Category } from "@/data/categories"
+import { groupCategorySections } from "@/lib/menu-sections"
 
 export interface CategoryGroup {
   name: string
@@ -15,6 +16,10 @@ export function toPath(url: string): string {
 
 export function MegaMenu({ group }: { group: CategoryGroup }) {
   const { t } = useTranslation()
+  const sections = groupCategorySections(group.categories)
+  // Only label the sections when the data actually defines subgroups.
+  const showSectionTitles = sections.some((section) => section.name !== null)
+
   return (
     <div className="header_container_bottom">
       <div className="header_container_bottom_content">
@@ -29,44 +34,63 @@ export function MegaMenu({ group }: { group: CategoryGroup }) {
                 {t("megaMenu.seeAll")}
               </Link>
             </div>
-            <div className="mega-menu-directory__grid">
-              {group.categories.map((category) => {
-                const image = category.image ?? category.subs[0]?.image ?? null
-                const productCount = category.subs.length
-
-                return (
-                  <Link
-                    key={category.name}
-                    href={toPath(category.url)}
-                    className="mega-menu-directory__item"
-                  >
-                    <span className="mega-menu-directory__thumb">
-                      {image ? (
-                        // eslint-disable-next-line @next/next/no-img-element
-                        <img
-                          src={image}
-                          alt={category.name}
-                          className="i-object-contain"
-                          loading="lazy"
-                        />
-                      ) : (
-                        <span className="mega-menu-directory__fallback" aria-hidden="true">
-                          {category.name.slice(0, 1)}
-                        </span>
-                      )}
-                    </span>
-                    <span className="mega-menu-directory__content">
-                      <span className="mega-menu-directory__name">{category.name}</span>
-                      <span className="mega-menu-directory__meta">
-                        {t("megaMenu.productCount", { count: productCount })}
+            <div className="mega-menu-directory__sections">
+              {sections.map((section, index) => (
+                <section
+                  key={section.name ?? `section-${index}`}
+                  className="mega-menu-directory__section"
+                >
+                  {showSectionTitles ? (
+                    <div className="mega-menu-directory__section-head">
+                      <h3 className="mega-menu-directory__section-title">
+                        {section.name ?? t("megaMenu.otherSection")}
+                      </h3>
+                      <span className="mega-menu-directory__section-count">
+                        {t("megaMenu.categoryCount", { count: section.categories.length })}
                       </span>
-                    </span>
-                    <span className="mega-menu-directory__arrow" aria-hidden="true">
-                      →
-                    </span>
-                  </Link>
-                )
-              })}
+                    </div>
+                  ) : null}
+                  <div className="mega-menu-directory__grid">
+                    {section.categories.map((category) => {
+                      const image = category.image ?? category.subs[0]?.image ?? null
+                      const productCount = category.subs.length
+
+                      return (
+                        <Link
+                          key={`${section.name ?? "section"}-${category.name}-${category.url}`}
+                          href={toPath(category.url)}
+                          className="mega-menu-directory__item"
+                        >
+                          <span className="mega-menu-directory__thumb">
+                            {image ? (
+                              // eslint-disable-next-line @next/next/no-img-element
+                              <img
+                                src={image}
+                                alt={category.name}
+                                className="i-object-contain"
+                                loading="lazy"
+                              />
+                            ) : (
+                              <span className="mega-menu-directory__fallback" aria-hidden="true">
+                                {category.name.slice(0, 1)}
+                              </span>
+                            )}
+                          </span>
+                          <span className="mega-menu-directory__content">
+                            <span className="mega-menu-directory__name">{category.name}</span>
+                            <span className="mega-menu-directory__meta">
+                              {t("megaMenu.productCount", { count: productCount })}
+                            </span>
+                          </span>
+                          <span className="mega-menu-directory__arrow" aria-hidden="true">
+                            →
+                          </span>
+                        </Link>
+                      )
+                    })}
+                  </div>
+                </section>
+              ))}
             </div>
           </div>
         </div>
