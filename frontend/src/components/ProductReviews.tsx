@@ -1,6 +1,7 @@
 "use client"
 
 import { useCallback, useEffect, useState } from "react"
+import { useTranslation } from "react-i18next"
 import { apiJson, getToken } from "@/lib/api"
 
 interface ReviewView {
@@ -22,6 +23,7 @@ interface ProductReviews {
 }
 
 export function ProductReviews({ productId }: { productId: string }) {
+  const { t } = useTranslation()
   const [data, setData] = useState<ProductReviews | null>(null)
   const [rating, setRating] = useState(5)
   const [content, setContent] = useState("")
@@ -57,7 +59,7 @@ export function ProductReviews({ productId }: { productId: string }) {
       setRating(5)
       await load()
     } catch (ex) {
-      setMessage(ex instanceof Error ? ex.message : "提交评价失败")
+      setMessage(ex instanceof Error ? ex.message : t("product.reviewsSubmitFailed"))
     } finally {
       setSubmitting(false)
     }
@@ -66,12 +68,14 @@ export function ProductReviews({ productId }: { productId: string }) {
   return (
     <section className="mt-14 border-t border-ikea-gray-200 pt-10">
       <h2 className="text-xl font-bold">
-        商品评价 {data ? `(${data.count})` : ""}
-        {data && data.count > 0 ? ` · ${data.averageRating} 分` : ""}
+        {t("product.reviewsTitle")} {data ? `(${data.count})` : ""}
+        {data && data.count > 0
+          ? ` · ${t("product.reviewsAverage", { score: data.averageRating })}`
+          : ""}
       </h2>
 
       <div className="mt-5 rounded border border-ikea-gray-200 bg-ikea-gray-50 p-5">
-        <label className="text-sm font-bold">评分</label>
+        <label className="text-sm font-bold">{t("product.reviewsRating")}</label>
         <select
           value={rating}
           onChange={(event) => setRating(Number(event.target.value))}
@@ -79,14 +83,14 @@ export function ProductReviews({ productId }: { productId: string }) {
         >
           {[5, 4, 3, 2, 1].map((value) => (
             <option key={value} value={value}>
-              {value} 星
+              {t("product.reviewsStar", { count: value })}
             </option>
           ))}
         </select>
         <textarea
           value={content}
           onChange={(event) => setContent(event.target.value)}
-          placeholder="分享你的使用体验"
+          placeholder={t("product.reviewsPlaceholder")}
           className="mt-3 min-h-24 w-full border border-ikea-gray-200 bg-white px-3 py-2 text-sm outline-none"
         />
         <button
@@ -95,7 +99,7 @@ export function ProductReviews({ productId }: { productId: string }) {
           onClick={() => void submit()}
           className="mt-3 rounded bg-ikea-blue px-4 py-2 text-sm font-bold text-white disabled:cursor-not-allowed disabled:opacity-50"
         >
-          提交评价
+          {t("product.reviewsSubmit")}
         </button>
         {message ? <p className="mt-2 text-sm text-ikea-blue">{message}</p> : null}
       </div>
@@ -105,7 +109,9 @@ export function ProductReviews({ productId }: { productId: string }) {
           <article key={review.id} className="rounded border border-ikea-gray-200 p-5">
             <div className="flex items-center justify-between gap-3">
               <span className="text-sm font-bold">{review.userName}</span>
-              <span className="text-sm font-bold text-ikea-blue">{review.rating} 星</span>
+              <span className="text-sm font-bold text-ikea-blue">
+                {t("product.reviewsStar", { count: review.rating })}
+              </span>
             </div>
             <p className="mt-2 text-sm leading-6 text-ikea-muted">{review.content}</p>
           </article>

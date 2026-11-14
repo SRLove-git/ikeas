@@ -167,7 +167,20 @@
     "precautions": "注意事项",
     "storage": "储存与有效期",
     "certification": "认证与注册信息",
-    "hsaLink": "HSA 官方数据库查询"
+    "hsaLink": "HSA 官方数据库查询",
+    "stockAlert": "到货提醒",
+    "stockAlertRegistering": "登记中...",
+    "stockAlertContactPrompt": "到货后接收提醒的手机号或邮箱",
+    "stockAlertContactRequired": "请填写联系方式",
+    "stockAlertSuccess": "已登记到货提醒，有货时会通知您",
+    "stockAlertFailed": "登记失败",
+    "reviewsTitle": "商品评价",
+    "reviewsAverage": "{{score}} 分",
+    "reviewsRating": "评分",
+    "reviewsStar": "{{count}} 星",
+    "reviewsPlaceholder": "分享你的使用体验",
+    "reviewsSubmit": "提交评价",
+    "reviewsSubmitFailed": "提交评价失败"
   },
   "breadcrumbs": {
     "home": "首页"

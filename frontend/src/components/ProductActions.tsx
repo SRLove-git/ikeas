@@ -133,9 +133,9 @@ export function ProductActions({
       router.push("/zh/profile/login/")
       return
     }
-    const contact = window.prompt("到货后接收提醒的手机号或邮箱") ?? ""
+    const contact = window.prompt(t("product.stockAlertContactPrompt")) ?? ""
     if (!contact.trim()) {
-      setMessage("请填写联系方式")
+      setMessage(t("product.stockAlertContactRequired"))
       return
     }
     setStockAlertLoading(true)
@@ -145,9 +145,9 @@ export function ProductActions({
         method: "POST",
         body: JSON.stringify({ productId, contact: contact.trim() }),
       })
-      setMessage("已登记到货提醒，有货时会通知您")
+      setMessage(t("product.stockAlertSuccess"))
     } catch (ex) {
-      setMessage(ex instanceof Error ? ex.message : "登记失败")
+      setMessage(ex instanceof Error ? ex.message : t("product.stockAlertFailed"))
     } finally {
       setStockAlertLoading(false)
     }
@@ -232,7 +232,9 @@ export function ProductActions({
           className="i-btn i-btn--small i-btn--secondary h-11 px-8 text-sm disabled:opacity-60"
         >
           <span className="i-btn__inner">
-            <span className="i-btn__label">{stockAlertLoading ? "登记中..." : "到货提醒"}</span>
+            <span className="i-btn__label">
+              {stockAlertLoading ? t("product.stockAlertRegistering") : t("product.stockAlert")}
+            </span>
           </span>
         </button>
       </div>

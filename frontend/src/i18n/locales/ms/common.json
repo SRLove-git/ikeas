@@ -167,7 +167,20 @@
     "precautions": "Langkah berjaga-jaga",
     "storage": "Penyimpanan & jangka hayat",
     "certification": "Pensijilan & pendaftaran",
-    "hsaLink": "Semak pangkalan data rasmi HSA"
+    "hsaLink": "Semak pangkalan data rasmi HSA",
+    "stockAlert": "Peringatan stok",
+    "stockAlertRegistering": "Mendaftar...",
+    "stockAlertContactPrompt": "Nombor telefon atau e-mel untuk menerima pemberitahuan stok",
+    "stockAlertContactRequired": "Sila masukkan maklumat hubungan",
+    "stockAlertSuccess": "Peringatan stok telah didaftarkan. Kami akan memberitahu anda apabila stok tersedia.",
+    "stockAlertFailed": "Pendaftaran gagal",
+    "reviewsTitle": "Ulasan pelanggan",
+    "reviewsAverage": "{{score}} / 5",
+    "reviewsRating": "Penilaian",
+    "reviewsStar": "{{count}} / 5",
+    "reviewsPlaceholder": "Kongsi pengalaman anda",
+    "reviewsSubmit": "Hantar ulasan",
+    "reviewsSubmitFailed": "Gagal menghantar ulasan"
   },
   "breadcrumbs": {
     "home": "Utama"

@@ -171,7 +171,20 @@
     "precautions": "Precautions",
     "storage": "Storage & shelf life",
     "certification": "Certification & registration",
-    "hsaLink": "Check HSA official database"
+    "hsaLink": "Check HSA official database",
+    "stockAlert": "Notify me",
+    "stockAlertRegistering": "Registering…",
+    "stockAlertContactPrompt": "Phone or email to receive the restock notification",
+    "stockAlertContactRequired": "Please enter your contact details",
+    "stockAlertSuccess": "Stock alert registered. We'll notify you when it's back in stock.",
+    "stockAlertFailed": "Registration failed",
+    "reviewsTitle": "Customer reviews",
+    "reviewsAverage": "{{score}} / 5",
+    "reviewsRating": "Rating",
+    "reviewsStar": "{{count}} / 5",
+    "reviewsPlaceholder": "Share your experience",
+    "reviewsSubmit": "Submit review",
+    "reviewsSubmitFailed": "Failed to submit review"
   },
   "breadcrumbs": {
     "home": "Home"

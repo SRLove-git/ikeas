@@ -167,7 +167,20 @@
     "precautions": "Tindakan pencegahan",
     "storage": "Penyimpanan & masa simpan",
     "certification": "Sertifikasi & registrasi",
-    "hsaLink": "Periksa database resmi HSA"
+    "hsaLink": "Periksa database resmi HSA",
+    "stockAlert": "Peringatan stok",
+    "stockAlertRegistering": "Mendaftarkan...",
+    "stockAlertContactPrompt": "Nomor telepon atau email untuk menerima pemberitahuan stok",
+    "stockAlertContactRequired": "Silakan masukkan informasi kontak",
+    "stockAlertSuccess": "Peringatan stok telah didaftarkan. Kami akan memberi tahu Anda saat stok tersedia.",
+    "stockAlertFailed": "Pendaftaran gagal",
+    "reviewsTitle": "Ulasan pelanggan",
+    "reviewsAverage": "{{score}} / 5",
+    "reviewsRating": "Penilaian",
+    "reviewsStar": "{{count}} / 5",
+    "reviewsPlaceholder": "Bagikan pengalaman Anda",
+    "reviewsSubmit": "Kirim ulasan",
+    "reviewsSubmitFailed": "Gagal mengirim ulasan"
   },
   "breadcrumbs": {
     "home": "Beranda"
