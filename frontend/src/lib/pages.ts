@@ -37,14 +37,27 @@ export function pagesDeeper(
 }
 
 export function familyLabel(family: string, locale: Locale = DEFAULT_LOCALE): string {
-  switch (family) {
-    case "customer-service":
-      return locale === "zh-CN" ? "客户服务" : "Customer service"
-    case "company":
-      return locale === "zh-CN" ? "公司介绍" : "Company"
-    default:
-      return locale === "zh-CN" ? "首页" : "Home"
+  const labels: Record<string, Record<Locale, string>> = {
+    "customer-service": {
+      "zh-CN": "客户服务",
+      en: "Customer service",
+      ms: "Perkhidmatan pelanggan",
+      id: "Layanan pelanggan",
+    },
+    company: {
+      "zh-CN": "公司介绍",
+      en: "Company",
+      ms: "Syarikat",
+      id: "Perusahaan",
+    },
+    home: {
+      "zh-CN": "首页",
+      en: "Home",
+      ms: "Utama",
+      id: "Beranda",
+    },
   }
+  return labels[family]?.[locale] ?? labels.home[locale]
 }
 
 /** A real URL to use as the breadcrumb parent for a family. */

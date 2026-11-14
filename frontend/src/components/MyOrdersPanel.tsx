@@ -120,6 +120,16 @@ function statusClassName(status: number): string {
   return "bg-ikea-gray-100 text-ikea-muted"
 }
 
+const ORDER_STATUS_LABEL_KEYS: Record<number, string> = {
+  1: "orders.filterPendingPayment",
+  2: "orders.filterToShip",
+  3: "orders.filterToReceive",
+  4: "orders.filterCompleted",
+  5: "orders.statusCancelled",
+  6: "orders.filterRefunding",
+  7: "orders.filterRefundRejected",
+}
+
 function formatDate(value: string, locale: Locale): string {
   const date = new Date(value)
   if (Number.isNaN(date.getTime())) return value
@@ -363,10 +373,7 @@ export function MyOrdersPanel() {
     }
   }
 
-  const payOrder = async (
-    orderNo: string,
-    method: PaymentMethodId | "card",
-  ) => {
+  const payOrder = async (orderNo: string, method: PaymentMethodId | "card") => {
     setPaying(orderNo)
     setError(null)
     try {
@@ -406,9 +413,9 @@ export function MyOrdersPanel() {
   }
 
   const requestInvoice = async (orderNo: string, kind: 1 | 2) => {
-    const companyName = kind === 2 ? (window.prompt("公司名称（发票抬头）") ?? "") : ""
-    const taxNumber = kind === 2 ? (window.prompt("税号 / UEN（如无请留空）") ?? "") : ""
-    const email = window.prompt("接收邮箱") ?? ""
+    const companyName = kind === 2 ? (window.prompt(t("orders.invoiceCompanyPrompt")) ?? "") : ""
+    const taxNumber = kind === 2 ? (window.prompt(t("orders.invoiceTaxPrompt")) ?? "") : ""
+    const email = window.prompt(t("orders.invoiceEmailPrompt")) ?? ""
     setInvoiceSubmitting(orderNo)
     setError(null)
     try {
@@ -424,7 +431,7 @@ export function MyOrdersPanel() {
       })
       await loadOrders()
     } catch (ex) {
-      setError(ex instanceof Error ? ex.message : "申请单据失败")
+      setError(ex instanceof Error ? ex.message : t("orders.invoiceSubmitFailed"))
     } finally {
       setInvoiceSubmitting(null)
     }
@@ -437,7 +444,7 @@ export function MyOrdersPanel() {
         headers: { Authorization: `Bearer ${getToken() ?? ""}` },
       })
       if (!response.ok) {
-        throw new Error(`下载失败 (${response.status})`)
+        throw new Error(t("orders.invoiceDownloadFailed", { status: response.status }))
       }
       const blob = await response.blob()
       const url = URL.createObjectURL(blob)
@@ -447,7 +454,7 @@ export function MyOrdersPanel() {
       link.click()
       URL.revokeObjectURL(url)
     } catch (ex) {
-      setError(ex instanceof Error ? ex.message : "下载失败")
+      setError(ex instanceof Error ? ex.message : t("orders.invoiceDownloadGenericFailed"))
     }
   }
 
@@ -468,7 +475,7 @@ export function MyOrdersPanel() {
       setAfterSaleType(1)
       await loadOrders()
     } catch (ex) {
-      setError(ex instanceof Error ? ex.message : "申请售后失败")
+      setError(ex instanceof Error ? ex.message : t("orders.afterSaleSubmitFailed"))
     } finally {
       setAfterSaleSubmitting(false)
     }
@@ -556,7 +563,7 @@ export function MyOrdersPanel() {
                     <span
                       className={`rounded px-2 py-0.5 text-xs font-bold ${statusClassName(order.status)}`}
                     >
-                      {order.statusLabel}
+                      {t(ORDER_STATUS_LABEL_KEYS[order.status] ?? "orders.statusUnknown")}
                     </span>
                   </div>
 
@@ -591,7 +598,8 @@ export function MyOrdersPanel() {
                           <div className="rounded bg-ikea-gray-50 p-3 text-xs">
                             <div className="flex flex-wrap items-center justify-between gap-2">
                               <span className="font-bold">
-                                物流：{logistics.carrier ?? "-"} {logistics.trackingNo ?? ""}
+                                {t("orders.logistics")}
+                                {logistics.carrier ?? "-"} {logistics.trackingNo ?? ""}
                               </span>
                               <span className="text-ikea-muted">{logistics.status ?? ""}</span>
                             </div>
@@ -607,14 +615,21 @@ export function MyOrdersPanel() {
 
                         {afterSale ? (
                           <div className="rounded bg-amber-50 p-3 text-xs">
-                            售后申请：{afterSale.omsReturnNo ?? `#${afterSale.id}`} · 状态{" "}
-                            {afterSale.status}
+                            {t("orders.afterSale")}
+                            {afterSale.omsReturnNo ?? `#${afterSale.id}`} ·{" "}
+                            {t("orders.afterSaleStatus")} {afterSale.status}
                           </div>
                         ) : null}
 
                         {invoice ? (
                           <div className="text-xs">
-                            已申请{invoice.kind === 2 ? "发票" : "收据"}：
+                            {t("orders.invoiceRequested", {
+                              kind: t(
+                                invoice.kind === 2
+                                  ? "orders.invoiceKindInvoice"
+                                  : "orders.invoiceKindReceipt",
+                              ),
+                            })}
                             {invoice.fileUrl ? (
                               <button
                                 type="button"
@@ -627,10 +642,10 @@ export function MyOrdersPanel() {
                                 }
                                 className="font-bold text-ikea-blue hover:underline"
                               >
-                                下载
+                                {t("orders.download")}
                               </button>
                             ) : (
-                              <span className="text-ikea-muted">处理中</span>
+                              <span className="text-ikea-muted">{t("orders.processing")}</span>
                             )}
                           </div>
                         ) : null}
@@ -716,7 +731,7 @@ export function MyOrdersPanel() {
                             onClick={() => void requestInvoice(order.orderNo, 1)}
                             className="text-xs font-bold text-ikea-blue hover:underline disabled:cursor-not-allowed disabled:opacity-50"
                           >
-                            申请收据
+                            {t("orders.requestReceipt")}
                           </button>
                           <button
                             type="button"
@@ -724,7 +739,7 @@ export function MyOrdersPanel() {
                             onClick={() => void requestInvoice(order.orderNo, 2)}
                             className="text-xs font-bold text-ikea-blue hover:underline disabled:cursor-not-allowed disabled:opacity-50"
                           >
-                            申请发票
+                            {t("orders.requestInvoice")}
                           </button>
                           {fulfillments[order.orderNo]?.afterSale ? null : (
                             <button
@@ -733,7 +748,7 @@ export function MyOrdersPanel() {
                               onClick={() => setAfterSaleForm(order.orderNo)}
                               className="text-xs font-bold text-red-600 hover:underline disabled:cursor-not-allowed disabled:opacity-50"
                             >
-                              申请售后
+                              {t("orders.requestAfterSale")}
                             </button>
                           )}
                         </>
@@ -743,21 +758,21 @@ export function MyOrdersPanel() {
 
                   {afterSaleForm === order.orderNo ? (
                     <div className="border-t border-ikea-gray-200 bg-ikea-gray-50 px-6 py-4">
-                      <label className="text-xs font-bold">售后类型</label>
+                      <label className="text-xs font-bold">{t("orders.afterSaleType")}</label>
                       <select
                         value={afterSaleType}
                         onChange={(event) => setAfterSaleType(Number(event.target.value))}
                         className="mt-2 h-10 w-full border border-ikea-gray-200 bg-white px-3 text-sm outline-none"
                       >
-                        <option value={1}>仅退款</option>
-                        <option value={2}>退货退款</option>
-                        <option value={3}>换货</option>
-                        <option value={4}>维修</option>
+                        <option value={1}>{t("orders.afterSaleTypeRefundOnly")}</option>
+                        <option value={2}>{t("orders.afterSaleTypeReturnRefund")}</option>
+                        <option value={3}>{t("orders.afterSaleTypeExchange")}</option>
+                        <option value={4}>{t("orders.afterSaleTypeRepair")}</option>
                       </select>
                       <textarea
                         value={afterSaleReason}
                         onChange={(event) => setAfterSaleReason(event.target.value)}
-                        placeholder="请描述售后原因"
+                        placeholder={t("orders.afterSaleReasonPlaceholder")}
                         className="mt-2 min-h-20 w-full border border-ikea-gray-200 bg-white px-3 py-2 text-sm outline-none"
                       />
                       <div className="mt-3 flex gap-2">
@@ -767,14 +782,14 @@ export function MyOrdersPanel() {
                           onClick={() => void submitAfterSale(order.orderNo)}
                           className="rounded bg-ikea-blue px-3 py-1 text-xs font-bold text-white disabled:opacity-50"
                         >
-                          提交申请
+                          {t("orders.submitApplication")}
                         </button>
                         <button
                           type="button"
                           onClick={() => setAfterSaleForm(null)}
                           className="text-xs font-bold text-ikea-muted hover:underline"
                         >
-                          取消
+                          {t("orders.cancelAction")}
                         </button>
                       </div>
                     </div>

@@ -81,11 +81,11 @@ function newId(): string {
   return `${Date.now()}-${Math.random().toString(16).slice(2)}`
 }
 
-export function createWishlist(name: string): Wishlist[] {
+export function createWishlist(name: string, fallbackName = "My wishlist"): Wishlist[] {
   const lists = getWishlists()
   const list: Wishlist = {
     id: newId(),
-    name: name.trim() || "我的心愿单",
+    name: name.trim() || fallbackName,
     productIds: [],
     createdAt: new Date().toISOString(),
   }

@@ -360,7 +360,12 @@
     "name": "Name",
     "consent": "I agree to receive CHUNG YIP member discounts and campaign information.",
     "joinNow": "Join now",
-    "membershipSubmitted": "Membership application submitted (demo environment)"
+    "membershipSubmitted": "Membership application submitted (demo environment)",
+    "level": "Membership tier",
+    "pointsBalance": "Points {{points}} · Balance SGD {{balance}}",
+    "levelGold": "Gold member",
+    "levelSilver": "Silver member",
+    "levelStandard": "Standard member"
   },
   "checkout": {
     "entering": "Taking you to checkout…",
@@ -628,7 +633,35 @@
     "cancelling": "Cancelling…",
     "cancelOrder": "Cancel order",
     "submitting": "Submitting…",
-    "requestRefund": "Request refund"
+    "requestRefund": "Request refund",
+    "logistics": "Logistics:",
+    "afterSale": "After-sales request:",
+    "afterSaleStatus": "Status",
+    "invoiceRequested": "{{kind}} requested:",
+    "invoiceKindInvoice": "Invoice",
+    "invoiceKindReceipt": "Receipt",
+    "download": "Download",
+    "processing": "Processing",
+    "requestReceipt": "Request receipt",
+    "requestInvoice": "Request invoice",
+    "requestAfterSale": "Request after-sales service",
+    "afterSaleType": "After-sales type",
+    "afterSaleTypeRefundOnly": "Refund only",
+    "afterSaleTypeReturnRefund": "Return & refund",
+    "afterSaleTypeExchange": "Exchange",
+    "afterSaleTypeRepair": "Repair",
+    "afterSaleReasonPlaceholder": "Describe the reason for your after-sales request",
+    "submitApplication": "Submit request",
+    "cancelAction": "Cancel",
+    "invoiceCompanyPrompt": "Company name (invoice title)",
+    "invoiceTaxPrompt": "Tax ID / UEN (leave blank if not applicable)",
+    "invoiceEmailPrompt": "Receiving email",
+    "invoiceSubmitFailed": "Failed to request document",
+    "invoiceDownloadFailed": "Download failed ({{status}})",
+    "invoiceDownloadGenericFailed": "Download failed",
+    "afterSaleSubmitFailed": "Failed to submit after-sales request",
+    "statusCancelled": "Cancelled",
+    "statusUnknown": "Unknown"
   },
   "address": {
     "title": "Delivery addresses",
@@ -692,7 +725,8 @@
     "removeFavoriteAria": "Remove from favourites",
     "addToWishlist": "Add to wishlist",
     "noProducts": "No products",
-    "noWishlistHint": "No wishlists yet — click “New wishlist” to create one"
+    "noWishlistHint": "No wishlists yet — click “New wishlist” to create one",
+    "defaultWishlistName": "My wishlist"
   },
   "browsingHistory": {
     "title": "Browsing history",
@@ -1546,5 +1580,16 @@
     "capacity": "Capacity",
     "dimension": "Dimensions (W×D×H)",
     "energy": "Energy rating"
+  },
+  "supportTickets": {
+    "title": "Support tickets",
+    "submitFailed": "Failed to submit ticket",
+    "subjectPlaceholder": "Subject",
+    "orderNoPlaceholder": "Related order number (optional)",
+    "afterSaleNoPlaceholder": "Related after-sales number (optional)",
+    "messagePlaceholder": "Describe your issue",
+    "submit": "Submit ticket",
+    "replyPrefix": "Support reply:",
+    "processing": "Processing"
   }
 }

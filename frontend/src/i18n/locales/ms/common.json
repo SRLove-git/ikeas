@@ -356,7 +356,12 @@
     "name": "Nama",
     "consent": "Saya bersetuju menerima maklumat diskaun dan kempen ahli CHUNG YIP.",
     "joinNow": "Sertai sekarang",
-    "membershipSubmitted": "Permohonan keahlian dihantar (persekitaran demo)"
+    "membershipSubmitted": "Permohonan keahlian dihantar (persekitaran demo)",
+    "level": "Tahap keahlian",
+    "pointsBalance": "Mata {{points}} · Baki SGD {{balance}}",
+    "levelGold": "Ahli Emas",
+    "levelSilver": "Ahli Perak",
+    "levelStandard": "Ahli Biasa"
   },
   "checkout": {
     "entering": "Membawa anda ke daftar keluar…",
@@ -624,7 +629,35 @@
     "cancelling": "Membatalkan…",
     "cancelOrder": "Batalkan pesanan",
     "submitting": "Menghantar…",
-    "requestRefund": "Minta bayaran balik"
+    "requestRefund": "Minta bayaran balik",
+    "logistics": "Logistik:",
+    "afterSale": "Permohonan selepas jualan:",
+    "afterSaleStatus": "Status",
+    "invoiceRequested": "{{kind}} telah diminta:",
+    "invoiceKindInvoice": "Invois",
+    "invoiceKindReceipt": "Resit",
+    "download": "Muat turun",
+    "processing": "Sedang diproses",
+    "requestReceipt": "Minta resit",
+    "requestInvoice": "Minta invois",
+    "requestAfterSale": "Minta perkhidmatan selepas jualan",
+    "afterSaleType": "Jenis selepas jualan",
+    "afterSaleTypeRefundOnly": "Bayaran balik sahaja",
+    "afterSaleTypeReturnRefund": "Pulangan & bayaran balik",
+    "afterSaleTypeExchange": "Tukar",
+    "afterSaleTypeRepair": "Pembaikan",
+    "afterSaleReasonPlaceholder": "Terangkan sebab permohonan selepas jualan",
+    "submitApplication": "Hantar permohonan",
+    "cancelAction": "Batal",
+    "invoiceCompanyPrompt": "Nama syarikat (tajuk invois)",
+    "invoiceTaxPrompt": "No. cukai / UEN (biarkan kosong jika tiada)",
+    "invoiceEmailPrompt": "E-mel penerima",
+    "invoiceSubmitFailed": "Gagal meminta dokumen",
+    "invoiceDownloadFailed": "Muat turun gagal ({{status}})",
+    "invoiceDownloadGenericFailed": "Muat turun gagal",
+    "afterSaleSubmitFailed": "Gagal menghantar permohonan selepas jualan",
+    "statusCancelled": "Dibatalkan",
+    "statusUnknown": "Tidak diketahui"
   },
   "address": {
     "title": "Alamat penghantaran",
@@ -688,7 +721,8 @@
     "removeFavoriteAria": "Buang daripada kegemaran",
     "addToWishlist": "Tambah ke senarai keinginan",
     "noProducts": "Tiada produk",
-    "noWishlistHint": "Tiada senarai keinginan lagi — klik “Senarai keinginan baharu” untuk mencipta satu"
+    "noWishlistHint": "Tiada senarai keinginan lagi — klik “Senarai keinginan baharu” untuk mencipta satu",
+    "defaultWishlistName": "Senarai hasrat saya"
   },
   "browsingHistory": {
     "title": "Sejarah semak imbas",
@@ -1538,5 +1572,16 @@
     "capacity": "Kapasiti",
     "dimension": "Dimensi (L×D×T)",
     "energy": "Penarafan tenaga"
+  },
+  "supportTickets": {
+    "title": "Tiket sokongan",
+    "submitFailed": "Gagal menghantar tiket",
+    "subjectPlaceholder": "Subjek",
+    "orderNoPlaceholder": "Nombor pesanan berkaitan (pilihan)",
+    "afterSaleNoPlaceholder": "Nombor selepas jualan berkaitan (pilihan)",
+    "messagePlaceholder": "Terangkan masalah anda",
+    "submit": "Hantar tiket",
+    "replyPrefix": "Balasan sokongan:",
+    "processing": "Sedang diproses"
   }
 }

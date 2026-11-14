@@ -30,10 +30,8 @@ function toLocalDateString(date: Date): string {
 
 function dateLabel(dateStr: string, lang: string): string {
   const date = new Date(`${dateStr}T00:00:00`)
-  const names = lang.startsWith("en")
-    ? ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
-    : ["周日", "周一", "周二", "周三", "周四", "周五", "周六"]
-  return `${toLocalDateString(date).replace(/-/g, "/")} ${names[date.getDay()]}`
+  const weekday = new Intl.DateTimeFormat(lang, { weekday: "short" }).format(date)
+  return `${toLocalDateString(date).replace(/-/g, "/")} ${weekday}`
 }
 
 function BookingDatePicker({
@@ -61,13 +59,16 @@ function BookingDatePicker({
   for (let i = 0; i < firstWeekday; i++) cells.push(null)
   for (let d = 1; d <= daysInMonth; d++) cells.push(new Date(year, month, d))
 
-  const headers = lang.startsWith("en")
-    ? ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
-    : ["日", "一", "二", "三", "四", "五", "六"]
+  // Sunday-first weekday headers, localised through Intl for every locale.
+  const weekdayFormat = new Intl.DateTimeFormat(lang, { weekday: "short" })
+  const headers = Array.from({ length: 7 }, (_, index) =>
+    weekdayFormat.format(new Date(2024, 0, 7 + index)),
+  )
 
-  const monthLabel = lang.startsWith("en")
-    ? `${view.toLocaleString("en-SG", { month: "long" })} ${year}`
-    : `${year}年${month + 1}月`
+  const monthLabel = new Intl.DateTimeFormat(lang, {
+    month: "long",
+    year: "numeric",
+  }).format(view)
 
   const canGoPrev =
     year > today.getFullYear() || (year === today.getFullYear() && month > today.getMonth())
@@ -317,12 +318,8 @@ export function BookingForm() {
       t("bookingForm.serviceBloodPressure"),
       t("bookingForm.serviceOther"),
     ],
-    store: [
-      t("bookingForm.storeSagoStreet"),
-    ],
-    timeSlot: [
-      t("bookingForm.slotMorning"),
-    ],
+    store: [t("bookingForm.storeSagoStreet")],
+    timeSlot: [t("bookingForm.slotMorning")],
   }
 
   return (
@@ -346,104 +343,104 @@ export function BookingForm() {
         </div>
       ) : null}
       <form className="mt-8 grid gap-5 md:grid-cols-2">
-      {textFields.map(([key, label, placeholder, type]) => (
-        <label key={key} className="block">
-          <span className="mb-1.5 block text-sm font-bold">
-            {label}
-            {requiredKeys.has(key) ? (
-              <span className="text-red-600" aria-label={t("bookingForm.required")}>
-                {" "}
-                *
-              </span>
-            ) : null}
-          </span>
-          <input
-            type={type}
-            placeholder={placeholder}
-            value={form[key]}
-            onChange={update(key)}
-            className="h-11 w-full border border-ikea-gray-200 px-4 text-sm outline-none transition-colors focus:border-ikea-blue"
-          />
-        </label>
-      ))}
-      {(["serviceType", "store", "preferredDate", "timeSlot"] as FormKey[]).map((key) => (
-        <label key={key} className="block">
-          <span className="mb-1.5 block text-sm font-bold">
-            {t(`bookingForm.${key}Label`)}
-            {requiredKeys.has(key) ? (
-              <span className="text-red-600" aria-label={t("bookingForm.required")}>
-                {" "}
-                *
-              </span>
-            ) : null}
-          </span>
-          {key === "preferredDate" ? (
-            <div>
-              <BookingDateField
-                value={form[key]}
-                lang={i18n.language}
-                placeholder={t("bookingForm.preferredDatePlaceholder")}
-                onChange={(date) => setForm((current) => ({ ...current, preferredDate: date }))}
-              />
-              <span className="mt-2 block text-xs text-ikea-muted">
-                {t("bookingForm.weekdayHint")}
-              </span>
-            </div>
-          ) : (
-            <select
+        {textFields.map(([key, label, placeholder, type]) => (
+          <label key={key} className="block">
+            <span className="mb-1.5 block text-sm font-bold">
+              {label}
+              {requiredKeys.has(key) ? (
+                <span className="text-red-600" aria-label={t("bookingForm.required")}>
+                  {" "}
+                  *
+                </span>
+              ) : null}
+            </span>
+            <input
+              type={type}
+              placeholder={placeholder}
               value={form[key]}
               onChange={update(key)}
-              className="h-11 w-full border border-ikea-gray-200 bg-white px-4 text-sm outline-none transition-colors focus:border-ikea-blue"
-            >
-              <option value="">{t(`bookingForm.${key}Placeholder`)}</option>
-              {(selectOptions[key] ?? []).map((option) => (
-                <option key={option} value={option}>
-                  {option}
-                </option>
-              ))}
-            </select>
-          )}
-        </label>
-      ))}
-      <label className="block md:col-span-2">
-        <span className="mb-1.5 block text-sm font-bold">{t("bookingForm.noteLabel")}</span>
-        <textarea
-          placeholder={t("bookingForm.notePlaceholder")}
-          value={form.note}
-          onChange={update("note")}
-          rows={4}
-          className="w-full border border-ikea-gray-200 px-4 py-3 text-sm outline-none transition-colors focus:border-ikea-blue"
-        />
-      </label>
-
-      <div className="md:col-span-2">
-        <p className="text-xs leading-relaxed text-ikea-muted">{t("bookingForm.dataUsage")}</p>
-        <Link
-          href="/zh/privacy-policy/"
-          className="mt-1 inline-block text-xs font-bold text-ikea-blue hover:underline"
-        >
-          {t("bookingForm.privacyPolicy")}
-        </Link>
-      </div>
-
-      {error ? (
-        <p className="rounded bg-red-50 px-4 py-3 text-xs text-red-600 md:col-span-2">{error}</p>
-      ) : null}
-
-      <div className="md:col-span-2">
-        <button
-          type="button"
-          disabled={submitting}
-          onClick={() => void submit()}
-          className="i-btn i-btn--primary h-11 w-full text-sm font-bold text-white disabled:cursor-not-allowed disabled:opacity-40 md:w-auto md:px-16"
-        >
-          <span className="i-btn__inner">
-            <span className="i-btn__label">
-              {submitting ? t("bookingForm.submitting") : t("bookingForm.submit")}
+              className="h-11 w-full border border-ikea-gray-200 px-4 text-sm outline-none transition-colors focus:border-ikea-blue"
+            />
+          </label>
+        ))}
+        {(["serviceType", "store", "preferredDate", "timeSlot"] as FormKey[]).map((key) => (
+          <label key={key} className="block">
+            <span className="mb-1.5 block text-sm font-bold">
+              {t(`bookingForm.${key}Label`)}
+              {requiredKeys.has(key) ? (
+                <span className="text-red-600" aria-label={t("bookingForm.required")}>
+                  {" "}
+                  *
+                </span>
+              ) : null}
             </span>
-          </span>
-        </button>
-      </div>
+            {key === "preferredDate" ? (
+              <div>
+                <BookingDateField
+                  value={form[key]}
+                  lang={i18n.language}
+                  placeholder={t("bookingForm.preferredDatePlaceholder")}
+                  onChange={(date) => setForm((current) => ({ ...current, preferredDate: date }))}
+                />
+                <span className="mt-2 block text-xs text-ikea-muted">
+                  {t("bookingForm.weekdayHint")}
+                </span>
+              </div>
+            ) : (
+              <select
+                value={form[key]}
+                onChange={update(key)}
+                className="h-11 w-full border border-ikea-gray-200 bg-white px-4 text-sm outline-none transition-colors focus:border-ikea-blue"
+              >
+                <option value="">{t(`bookingForm.${key}Placeholder`)}</option>
+                {(selectOptions[key] ?? []).map((option) => (
+                  <option key={option} value={option}>
+                    {option}
+                  </option>
+                ))}
+              </select>
+            )}
+          </label>
+        ))}
+        <label className="block md:col-span-2">
+          <span className="mb-1.5 block text-sm font-bold">{t("bookingForm.noteLabel")}</span>
+          <textarea
+            placeholder={t("bookingForm.notePlaceholder")}
+            value={form.note}
+            onChange={update("note")}
+            rows={4}
+            className="w-full border border-ikea-gray-200 px-4 py-3 text-sm outline-none transition-colors focus:border-ikea-blue"
+          />
+        </label>
+
+        <div className="md:col-span-2">
+          <p className="text-xs leading-relaxed text-ikea-muted">{t("bookingForm.dataUsage")}</p>
+          <Link
+            href="/zh/privacy-policy/"
+            className="mt-1 inline-block text-xs font-bold text-ikea-blue hover:underline"
+          >
+            {t("bookingForm.privacyPolicy")}
+          </Link>
+        </div>
+
+        {error ? (
+          <p className="rounded bg-red-50 px-4 py-3 text-xs text-red-600 md:col-span-2">{error}</p>
+        ) : null}
+
+        <div className="md:col-span-2">
+          <button
+            type="button"
+            disabled={submitting}
+            onClick={() => void submit()}
+            className="i-btn i-btn--primary h-11 w-full text-sm font-bold text-white disabled:cursor-not-allowed disabled:opacity-40 md:w-auto md:px-16"
+          >
+            <span className="i-btn__inner">
+              <span className="i-btn__label">
+                {submitting ? t("bookingForm.submitting") : t("bookingForm.submit")}
+              </span>
+            </span>
+          </button>
+        </div>
       </form>
     </>
   )

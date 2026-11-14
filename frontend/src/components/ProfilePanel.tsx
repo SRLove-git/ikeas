@@ -163,10 +163,21 @@ export function ProfilePanel() {
           <section className="mt-6 rounded-lg border border-ikea-gray-200 p-6">
             <div className="flex flex-wrap items-center justify-between gap-4">
               <div>
-                <p className="text-sm text-ikea-muted">会员等级</p>
-                <p className="mt-1 text-lg font-bold">{marketing.levelName}</p>
+                <p className="text-sm text-ikea-muted">{t("profile.level")}</p>
+                <p className="mt-1 text-lg font-bold">
+                  {t(
+                    marketing.level >= 3
+                      ? "profile.levelGold"
+                      : marketing.level === 2
+                        ? "profile.levelSilver"
+                        : "profile.levelStandard",
+                  )}
+                </p>
                 <p className="mt-2 text-xs text-ikea-muted">
-                  积分 {marketing.points} · 余额 SGD {marketing.balance.toFixed(2)}
+                  {t("profile.pointsBalance", {
+                    points: marketing.points,
+                    balance: marketing.balance.toFixed(2),
+                  })}
                 </p>
               </div>
               <div className="text-right">

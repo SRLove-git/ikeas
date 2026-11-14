@@ -1,6 +1,7 @@
 "use client"
 
 import { useEffect, useState } from "react"
+import { useTranslation } from "react-i18next"
 import { apiJson } from "@/lib/api"
 
 interface TicketView {
@@ -19,6 +20,7 @@ interface TicketView {
 }
 
 export function SupportTicketsPanel() {
+  const { t } = useTranslation()
   const [tickets, setTickets] = useState<TicketView[]>([])
   const [subject, setSubject] = useState("")
   const [message, setMessage] = useState("")
@@ -58,7 +60,7 @@ export function SupportTicketsPanel() {
       setAfterSaleNo("")
       await load()
     } catch (ex) {
-      setNotice(ex instanceof Error ? ex.message : "提交工单失败")
+      setNotice(ex instanceof Error ? ex.message : t("supportTickets.submitFailed"))
     } finally {
       setSubmitting(false)
     }
@@ -67,33 +69,33 @@ export function SupportTicketsPanel() {
   return (
     <div className="font-ikea min-h-screen bg-white text-ikea-black">
       <div className="max-w-page mx-auto px-5 py-10 lg:px-10">
-        <h1 className="text-2xl font-bold">客服工单</h1>
+        <h1 className="text-2xl font-bold">{t("supportTickets.title")}</h1>
 
         <section className="mt-6 rounded border border-ikea-gray-200 bg-ikea-gray-50 p-5">
           <div className="grid gap-3 sm:grid-cols-2">
             <input
               value={subject}
               onChange={(event) => setSubject(event.target.value)}
-              placeholder="主题"
+              placeholder={t("supportTickets.subjectPlaceholder")}
               className="h-10 border border-ikea-gray-200 bg-white px-3 text-sm outline-none"
             />
             <input
               value={orderNo}
               onChange={(event) => setOrderNo(event.target.value)}
-              placeholder="关联订单号（可选）"
+              placeholder={t("supportTickets.orderNoPlaceholder")}
               className="h-10 border border-ikea-gray-200 bg-white px-3 text-sm outline-none"
             />
             <input
               value={afterSaleNo}
               onChange={(event) => setAfterSaleNo(event.target.value)}
-              placeholder="关联售后单号（可选）"
+              placeholder={t("supportTickets.afterSaleNoPlaceholder")}
               className="h-10 border border-ikea-gray-200 bg-white px-3 text-sm outline-none sm:col-span-2"
             />
           </div>
           <textarea
             value={message}
             onChange={(event) => setMessage(event.target.value)}
-            placeholder="请描述您遇到的问题"
+            placeholder={t("supportTickets.messagePlaceholder")}
             className="mt-3 min-h-32 w-full border border-ikea-gray-200 bg-white px-3 py-2 text-sm outline-none"
           />
           <button
@@ -102,7 +104,7 @@ export function SupportTicketsPanel() {
             onClick={() => void submit()}
             className="mt-3 rounded bg-ikea-blue px-4 py-2 text-sm font-bold text-white disabled:opacity-50"
           >
-            提交工单
+            {t("supportTickets.submit")}
           </button>
           {notice ? <p className="mt-2 text-sm text-ikea-blue">{notice}</p> : null}
         </section>
@@ -117,10 +119,10 @@ export function SupportTicketsPanel() {
               <p className="mt-2 text-sm leading-6 text-ikea-muted">{ticket.message}</p>
               {ticket.reply ? (
                 <p className="mt-3 rounded bg-ikea-gray-50 p-3 text-sm leading-6">
-                  客服回复：{ticket.reply}
+                  {t("supportTickets.replyPrefix")} {ticket.reply}
                 </p>
               ) : (
-                <p className="mt-3 text-xs text-ikea-muted">处理中</p>
+                <p className="mt-3 text-xs text-ikea-muted">{t("supportTickets.processing")}</p>
               )}
             </article>
           ))}

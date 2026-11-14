@@ -117,7 +117,7 @@ export function CollectionPanel({ inspirationItems, catalogProducts }: Collectio
 
   const submitWishlist = () => {
     if (!wishlistName.trim()) return
-    const next = createWishlist(wishlistName)
+    const next = createWishlist(wishlistName, t("collection.defaultWishlistName"))
     setWishlists(next)
     setWishlistName("")
     setIsCreatingWishlist(false)
@@ -134,7 +134,7 @@ export function CollectionPanel({ inspirationItems, catalogProducts }: Collectio
   }
 
   const createWishlistInDrawer = () => {
-    const next = createWishlist(wishlistDrawerNewName)
+    const next = createWishlist(wishlistDrawerNewName, t("collection.defaultWishlistName"))
     const created = next[next.length - 1]
     setWishlists(next)
     if (created) setWishlistTargetId(created.id)

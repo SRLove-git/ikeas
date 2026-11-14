@@ -356,7 +356,12 @@
     "name": "姓名",
     "consent": "我同意接收 CHUNG YIP 会员相关折扣和活动信息。",
     "joinNow": "立即加入",
-    "membershipSubmitted": "会员申请已提交（演示环境）"
+    "membershipSubmitted": "会员申请已提交（演示环境）",
+    "level": "会员等级",
+    "pointsBalance": "积分 {{points}} · 余额 SGD {{balance}}",
+    "levelGold": "金卡会员",
+    "levelSilver": "银卡会员",
+    "levelStandard": "普通会员"
   },
   "checkout": {
     "entering": "正在进入结算…",
@@ -624,7 +629,35 @@
     "cancelling": "取消中…",
     "cancelOrder": "取消订单",
     "submitting": "提交中…",
-    "requestRefund": "申请退款"
+    "requestRefund": "申请退款",
+    "logistics": "物流：",
+    "afterSale": "售后申请：",
+    "afterSaleStatus": "状态",
+    "invoiceRequested": "已申请{{kind}}：",
+    "invoiceKindInvoice": "发票",
+    "invoiceKindReceipt": "收据",
+    "download": "下载",
+    "processing": "处理中",
+    "requestReceipt": "申请收据",
+    "requestInvoice": "申请发票",
+    "requestAfterSale": "申请售后",
+    "afterSaleType": "售后类型",
+    "afterSaleTypeRefundOnly": "仅退款",
+    "afterSaleTypeReturnRefund": "退货退款",
+    "afterSaleTypeExchange": "换货",
+    "afterSaleTypeRepair": "维修",
+    "afterSaleReasonPlaceholder": "请描述售后原因",
+    "submitApplication": "提交申请",
+    "cancelAction": "取消",
+    "invoiceCompanyPrompt": "公司名称（发票抬头）",
+    "invoiceTaxPrompt": "税号 / UEN（如无请留空）",
+    "invoiceEmailPrompt": "接收邮箱",
+    "invoiceSubmitFailed": "申请单据失败",
+    "invoiceDownloadFailed": "下载失败 ({{status}})",
+    "invoiceDownloadGenericFailed": "下载失败",
+    "afterSaleSubmitFailed": "申请售后失败",
+    "statusCancelled": "已取消",
+    "statusUnknown": "未知状态"
   },
   "address": {
     "title": "收货地址",
@@ -688,7 +721,8 @@
     "removeFavoriteAria": "取消收藏",
     "addToWishlist": "加入心愿单",
     "noProducts": "无商品",
-    "noWishlistHint": "还没有心愿单，点击「新建心愿单」创建"
+    "noWishlistHint": "还没有心愿单，点击「新建心愿单」创建",
+    "defaultWishlistName": "我的心愿单"
   },
   "browsingHistory": {
     "title": "我的足迹",
@@ -1538,5 +1572,16 @@
     "capacity": "容量",
     "dimension": "外形尺寸（宽×深×高）",
     "energy": "能效等级"
+  },
+  "supportTickets": {
+    "title": "客服工单",
+    "submitFailed": "提交工单失败",
+    "subjectPlaceholder": "主题",
+    "orderNoPlaceholder": "关联订单号（可选）",
+    "afterSaleNoPlaceholder": "关联售后单号（可选）",
+    "messagePlaceholder": "请描述您遇到的问题",
+    "submit": "提交工单",
+    "replyPrefix": "客服回复：",
+    "processing": "处理中"
   }
 }

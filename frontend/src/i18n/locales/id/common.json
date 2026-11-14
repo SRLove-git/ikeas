@@ -356,7 +356,12 @@
     "name": "Nama",
     "consent": "Saya setuju menerima informasi diskon dan kampanye anggota CHUNG YIP.",
     "joinNow": "Bergabung sekarang",
-    "membershipSubmitted": "Pengajuan keanggotaan terkirim (lingkungan demo)"
+    "membershipSubmitted": "Pengajuan keanggotaan terkirim (lingkungan demo)",
+    "level": "Tingkat keanggotaan",
+    "pointsBalance": "Poin {{points}} · Saldo SGD {{balance}}",
+    "levelGold": "Anggota Emas",
+    "levelSilver": "Anggota Perak",
+    "levelStandard": "Anggota Reguler"
   },
   "checkout": {
     "entering": "Mengarahkan Anda ke checkout…",
@@ -624,7 +629,35 @@
     "cancelling": "Membatalkan…",
     "cancelOrder": "Batalkan pesanan",
     "submitting": "Mengirim…",
-    "requestRefund": "Ajukan pengembalian dana"
+    "requestRefund": "Ajukan pengembalian dana",
+    "logistics": "Logistik:",
+    "afterSale": "Permintaan purna jual:",
+    "afterSaleStatus": "Status",
+    "invoiceRequested": "{{kind}} telah diminta:",
+    "invoiceKindInvoice": "Faktur",
+    "invoiceKindReceipt": "Kuitansi",
+    "download": "Unduh",
+    "processing": "Sedang diproses",
+    "requestReceipt": "Minta kuitansi",
+    "requestInvoice": "Minta faktur",
+    "requestAfterSale": "Minta layanan purna jual",
+    "afterSaleType": "Jenis purna jual",
+    "afterSaleTypeRefundOnly": "Hanya pengembalian dana",
+    "afterSaleTypeReturnRefund": "Pengembalian & pengembalian dana",
+    "afterSaleTypeExchange": "Tukar",
+    "afterSaleTypeRepair": "Perbaikan",
+    "afterSaleReasonPlaceholder": "Jelaskan alasan permintaan purna jual",
+    "submitApplication": "Kirim permintaan",
+    "cancelAction": "Batal",
+    "invoiceCompanyPrompt": "Nama perusahaan (judul faktur)",
+    "invoiceTaxPrompt": "NPWP / UEN (kosongkan jika tidak ada)",
+    "invoiceEmailPrompt": "Email penerima",
+    "invoiceSubmitFailed": "Gagal meminta dokumen",
+    "invoiceDownloadFailed": "Unduhan gagal ({{status}})",
+    "invoiceDownloadGenericFailed": "Unduhan gagal",
+    "afterSaleSubmitFailed": "Gagal mengirim permintaan purna jual",
+    "statusCancelled": "Dibatalkan",
+    "statusUnknown": "Tidak diketahui"
   },
   "address": {
     "title": "Alamat pengiriman",
@@ -688,7 +721,8 @@
     "removeFavoriteAria": "Hapus dari favorit",
     "addToWishlist": "Tambah ke wishlist",
     "noProducts": "Tidak ada produk",
-    "noWishlistHint": "Belum ada wishlist — klik “Wishlist baru” untuk membuatnya"
+    "noWishlistHint": "Belum ada wishlist — klik “Wishlist baru” untuk membuatnya",
+    "defaultWishlistName": "Daftar keinginan saya"
   },
   "browsingHistory": {
     "title": "Riwayat penjelajahan",
@@ -1538,5 +1572,16 @@
     "capacity": "Kapasitas",
     "dimension": "Dimensi (L×D×T)",
     "energy": "Peringkat energi"
+  },
+  "supportTickets": {
+    "title": "Tiket dukungan",
+    "submitFailed": "Gagal mengirim tiket",
+    "subjectPlaceholder": "Subjek",
+    "orderNoPlaceholder": "Nomor pesanan terkait (opsional)",
+    "afterSaleNoPlaceholder": "Nomor purna jual terkait (opsional)",
+    "messagePlaceholder": "Jelaskan masalah Anda",
+    "submit": "Kirim tiket",
+    "replyPrefix": "Balasan dukungan:",
+    "processing": "Sedang diproses"
   }
 }
