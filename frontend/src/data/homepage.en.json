@@ -21,10 +21,6 @@
   ],
   "navMenuItems": [
     {
-      "label": "Booking",
-      "href": "/zh/booking/"
-    },
-    {
       "label": "Support",
       "href": "/zh/customer-service/",
       "menuPanelLabel": "Support"

@@ -21,10 +21,6 @@
   ],
   "navMenuItems": [
     {
-      "label": "体验预约",
-      "href": "/zh/booking/"
-    },
-    {
       "label": "服务与支持",
       "href": "/zh/customer-service/",
       "menuPanelLabel": "服务与支持"

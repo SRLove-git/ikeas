@@ -336,15 +336,11 @@
           ]
         },
         {
-          "heading": "Pesan kunjungan",
+          "heading": "Layanan di toko",
           "intro": null,
           "cards": [],
           "thumbnails": [],
           "links": [
-            {
-              "title": "Pesan pengalaman di toko",
-              "href": "/zh/booking/"
-            },
             {
               "title": "Registrasi garansi",
               "href": "/zh/customer-service/warranty-registration/"

@@ -21,10 +21,6 @@
   ],
   "navMenuItems": [
     {
-      "label": "Pemesanan",
-      "href": "/zh/booking/"
-    },
-    {
       "label": "Dukungan",
       "href": "/zh/customer-service/",
       "menuPanelLabel": "Dukungan"

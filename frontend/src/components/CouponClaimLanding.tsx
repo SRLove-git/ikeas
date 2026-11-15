@@ -89,13 +89,7 @@ export function CouponClaimLanding() {
               <p className="text-xs text-ikea-muted">{t("couponClaim.voucherCodeLabel")}</p>
               <p className="mt-1 font-mono text-xl font-bold text-ikea-blue">{result.code}</p>
             </div>
-            <div className="mt-6 flex flex-col justify-center gap-3 sm:flex-row">
-              <Link
-                href="/zh/booking/"
-                className="i-btn i-btn--primary flex h-11 items-center justify-center px-8 text-sm font-bold text-white"
-              >
-                {t("couponClaim.goBooking")}
-              </Link>
+            <div className="mt-6 flex justify-center">
               <Link
                 href="/zh/all-products/"
                 className="i-btn i-btn--secondary flex h-11 items-center justify-center px-8 text-sm font-bold"

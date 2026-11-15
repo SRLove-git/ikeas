@@ -51,6 +51,7 @@ interface Item {
 }
 
 const PLACEHOLDER_TITLES = new Set(["alt for image", "名称"])
+const EXPERIENCE_BOOKING_HREF = "/zh/booking/"
 
 function cleanText(text: string | null | undefined): string {
   const entities: Record<string, string> = {
@@ -1526,12 +1527,15 @@ export function ContentBlocks({ blocks }: { blocks: ContentBlock[] }) {
     ...block,
     title: cleanTitle(block.title) || null,
     texts: block.texts.map((t) => cleanText(t)).filter(Boolean),
-    items: (block.items ?? []).map((item) => ({
-      ...item,
-      title: cleanTitle(item.title),
-      text: cleanText(item.text),
-      rawText: item.text,
-    })),
+    links: block.links.filter((link) => link.href !== EXPERIENCE_BOOKING_HREF),
+    items: (block.items ?? [])
+      .filter((item) => item.href !== EXPERIENCE_BOOKING_HREF)
+      .map((item) => ({
+        ...item,
+        title: cleanTitle(item.title),
+        text: cleanText(item.text),
+        rawText: item.text,
+      })),
   }))
   const supportFaqTexts =
     cleanedBlocks.find(

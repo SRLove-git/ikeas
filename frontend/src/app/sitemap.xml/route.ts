@@ -27,8 +27,6 @@ export async function GET() {
     "/zh/customer-service/services/delivery/",
     "/zh/customer-service/services/aftersales/",
     "/zh/customer-service/warranty-registration/",
-    "/zh/booking/",
-    "/en/booking/",
     "/zh/midea/",
     "/zh/toshiba/",
     "/zh/privacy-policy/",
