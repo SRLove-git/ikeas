@@ -278,13 +278,13 @@
   "heroVideos": [
     {
       "video": "/videos/toshiba-er-td5000-promo.mp4",
-      "poster": "/videos/toshiba-er-td5000-poster.jpg",
+      "poster": "/videos/toshiba-er-td5000-cover-v2.jpg",
       "href": "/zh/toshiba/p/er-td5000sg-yk",
       "alt": "Video promosi oven uap superpanas Toshiba ER-TD5000"
     },
     {
       "video": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/videos/buzud-imdec-2026-494x278.mp4",
-      "poster": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711394-1.png",
+      "poster": "/videos/buzud-imdec-2026-cover-v2.jpg",
       "href": "/zh/cat/cgms",
       "alt": "Pemantauan glukosa berkelanjutan BUZUD"
     }
