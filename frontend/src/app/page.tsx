@@ -15,6 +15,8 @@ import { getMenuPanels } from "@/data/menu-panels"
 import { getMenuCategories } from "@/data/categories"
 import { getLocale, getServerT } from "@/i18n/server"
 
+const showExperienceBooking = process.env.NEXT_PUBLIC_SHOW_EXPERIENCE_BOOKING === "true"
+
 export default async function Home() {
   const locale = await getLocale()
   const t = await getServerT(locale)
@@ -78,21 +80,23 @@ export default async function Home() {
           <div className="i-layout__body">
             <HeroVideo items={heroVideos} />
             <div className="clearfix min-h-screen px-0 m-auto mt-4 mb-8 space-y-8 text-left lg:mt-6 lg:mb-12 lg:space-y-12 max-w-page">
-              <BookingHighlight
-                eyebrow={t("home.bookingEyebrow")}
-                title={t("home.bookingTitle")}
-                description={t("home.bookingDescription")}
-                cta={t("home.bookingCta")}
-                imageAlt={t("home.bookingImageAlt")}
-                services={[
-                  t("home.bookingServiceOxygen"),
-                  t("home.bookingServiceBody"),
-                  t("home.bookingServiceBlood"),
-                  t("home.bookingServicePressure"),
-                ]}
-                image="https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711448-1.png"
-                href="/zh/booking/"
-              />
+              {showExperienceBooking ? (
+                <BookingHighlight
+                  eyebrow={t("home.bookingEyebrow")}
+                  title={t("home.bookingTitle")}
+                  description={t("home.bookingDescription")}
+                  cta={t("home.bookingCta")}
+                  imageAlt={t("home.bookingImageAlt")}
+                  services={[
+                    t("home.bookingServiceOxygen"),
+                    t("home.bookingServiceBody"),
+                    t("home.bookingServiceBlood"),
+                    t("home.bookingServicePressure"),
+                  ]}
+                  image="https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711448-1.png"
+                  href="/zh/booking/"
+                />
+              ) : null}
               <PromoInspirationCard title={t("home.promoTitle")} items={promoItems} />
               <VisualPillSlider
                 title={t("home.shopByCategory")}
