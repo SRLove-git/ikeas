@@ -316,7 +316,7 @@
       "description": "",
       "ctaLabel": "Beli sekarang",
       "ctaHref": "/zh/midea",
-      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/midea-ms8plusapbk-1.jpg",
+      "image": "/images/products/midea-ms8plusapbk-1.png",
       "backgroundColor": "#00838f",
       "textColor": "#ffffff"
     },
@@ -596,7 +596,7 @@
     },
     {
       "label": "Peralatan dapur",
-      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/toshiba-ml-ec42s-bs-1.jpg",
+      "image": "/images/products/toshiba-ml-ec42s-bs-1.png",
       "href": "/zh/toshiba#kitchen"
     },
     {
@@ -657,7 +657,7 @@
     },
     {
       "label": "Robot Pembersih Midea MS8 Plus",
-      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/midea-ms8plusapbk-1.jpg",
+      "image": "/images/products/midea-ms8plusapbk-1.png",
       "href": "/zh/midea/p/ms8plusapbk"
     },
     {
@@ -677,7 +677,7 @@
     },
     {
       "label": "Ketuhar Mikro Midea AM820C2RA",
-      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/midea-am820c2ra-1.jpg",
+      "image": "/images/products/midea-am820c2ra-1.png",
       "href": "/zh/midea/p/am820c2ra"
     }
   ],
