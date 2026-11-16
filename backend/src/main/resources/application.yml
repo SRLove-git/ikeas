@@ -17,7 +17,7 @@ spring:
   mail:
     host: smtpdm.aliyun.com
     port: 465
-    username: no-reply@mail.medical-sg.com
+    username: ${IKEA_MAIL_USERNAME:no-reply@mail.life-sg.com}
     password: ${IKEA_MAIL_PASSWORD:}
     default-encoding: UTF-8
     properties:
@@ -52,7 +52,7 @@ mybatis-plus:
 ikea:
   cors:
     # Comma-separated origins allowed to call the API.
-    allowed-origins: ${CORS_ALLOWED_ORIGINS:http://localhost:3000,http://localhost:3001}
+    allowed-origins: ${CORS_ALLOWED_ORIGINS:http://localhost:3000,http://localhost:3001,https://life-sg.com,https://www.life-sg.com}
   static:
     # Optional: serve /images, /seo and /fonts from the repo's public dir, e.g.
     # IKEA_STATIC_PUBLIC_DIR=../public. Leave empty to disable.
@@ -76,7 +76,7 @@ ikea:
     # 登录/注册开关：线下活动阶段可关闭。
     login-enabled: ${IKEA_AUTH_LOGIN_ENABLED:true}
     # Sender address for registration verification emails.
-    email-from: ${IKEA_MAIL_FROM:CHUNG YIP <no-reply@mail.medical-sg.com>}
+    email-from: ${IKEA_MAIL_FROM:CHUNG YIP <no-reply@mail.life-sg.com>}
   admin:
     # Shared key for /api/v1/admin/** endpoints, sent as X-Admin-Key (IKEA_ADMIN_KEY).
     key: ${IKEA_ADMIN_KEY:ikea-admin}
@@ -87,11 +87,12 @@ ikea:
     service-code: ${IKEA_SHIPPING_SERVICE_CODE:EXPRESS}
     standard-delivery-fee: ${IKEA_JT_STANDARD_DELIVERY_FEE:4.90}
   voucher:
-    # 打印券二维码指向的预约页，通常生产环境保持 medical-sg.com。
-    booking-url: ${BUZUD_VOUCHER_BOOKING_URL:https://medical-sg.com/zh/booking/}
+    # 打印券二维码指向的预约页与积分兑换页。
+    booking-url: ${BUZUD_VOUCHER_BOOKING_URL:https://life-sg.com/zh/booking/}
+    points-redeem-url: ${BUZUD_VOUCHER_POINTS_REDEEM_URL:https://life-sg.com/zh/profile/}
   marketing:
     # 扫码领券二维码指向的前台域名，部署时配置为公网地址。
-    public-base-url: ${BUZUD_MARKETING_PUBLIC_BASE_URL:https://medical-sg.com}
+    public-base-url: ${BUZUD_MARKETING_PUBLIC_BASE_URL:https://life-sg.com}
   payment:
     # 商城收银台：true=本地模拟支付；false=尝试真实托管收银台。
     mock-only: ${IKEA_PAYMENT_MOCK_ONLY:true}
@@ -105,8 +106,8 @@ ikea:
       merchant-id: ${IKEA_YEAHPAY_MERCHANT_ID:}
       api-base-url: ${IKEA_YEAHPAY_API_BASE_URL:https://open-api.yeahpay.sg/acceptance/acceptance-open-api}
       signature-domain: ${IKEA_YEAHPAY_SIGNATURE_DOMAIN:https://open-api.yeahpay.sg/acceptance}
-      callback-url: ${IKEA_YEAHPAY_CALLBACK_URL:https://medical-sg.com/zh/profile/my-orders?payment=success}
-      notify-url: ${IKEA_YEAHPAY_NOTIFY_URL:https://medical-sg.com/api/v1/payment/yeahpay/webhook}
+      callback-url: ${IKEA_YEAHPAY_CALLBACK_URL:https://life-sg.com/zh/profile/my-orders?payment=success}
+      notify-url: ${IKEA_YEAHPAY_NOTIFY_URL:https://life-sg.com/api/v1/payment/yeahpay/webhook}
       lang: ${IKEA_YEAHPAY_LANG:en}
       # 只向前端开放商户已实际开通的方式。PayNow 直连，微信/支付宝使用托管收银台。
       enabled-methods: ${IKEA_YEAHPAY_ENABLED_METHODS:paynow,wechatpay,alipay,visa,mastercard,amex}
@@ -118,7 +119,7 @@ ikea:
       secret-key: ${IKEA_STRIPE_SECRET_KEY:}
       webhook-secret: ${IKEA_STRIPE_WEBHOOK_SECRET:}
       api-base-url: ${IKEA_STRIPE_API_BASE_URL:https://api.stripe.com}
-      return-url-base: ${IKEA_STRIPE_RETURN_URL_BASE:http://localhost:3000}
+      return-url-base: ${IKEA_STRIPE_RETURN_URL_BASE:https://life-sg.com}
       success-path: ${IKEA_STRIPE_SUCCESS_PATH:/zh/profile/my-orders?payment=success}
       cancel-path: ${IKEA_STRIPE_CANCEL_PATH:/zh/pay/cart?payment=cancel}
   notification:
@@ -157,4 +158,4 @@ oms:
   integration:
     notification:
       provider: smtp
-      reply-to: support@medical-sg.com
+      reply-to: ${OMS_INTEGRATION_NOTIFICATION_REPLY_TO:support@life-sg.com}

@@ -26,8 +26,8 @@ public class YeahPayProperties {
       "https://open-api.yeahpay.sg/acceptance/acceptance-open-api";
   private String signatureDomain = "https://open-api.yeahpay.sg/acceptance";
   private String callbackUrl =
-      "https://medical-sg.com/zh/profile/my-orders?payment=success";
-  private String notifyUrl = "https://medical-sg.com/api/v1/payment/yeahpay/webhook";
+      "https://life-sg.com/zh/profile/my-orders?payment=success";
+  private String notifyUrl = "https://life-sg.com/api/v1/payment/yeahpay/webhook";
   private String lang = "en";
   private String enabledMethods = "paynow,wechatpay,alipay,visa,mastercard,amex";
   private int connectTimeoutMs = 10000;

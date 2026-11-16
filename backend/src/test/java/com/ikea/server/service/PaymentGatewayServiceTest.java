@@ -781,8 +781,8 @@ class PaymentGatewayServiceTest {
     result.setMerchantId("merchant-test");
     result.setEnabledMethods(
         "paynow,wechatpay,alipay,visa,mastercard,amex,unionpay,applepay,googlepay");
-    result.setCallbackUrl("https://medical-sg.com/zh/profile/my-orders?payment=success");
-    result.setNotifyUrl("https://medical-sg.com/api/v1/payment/yeahpay/webhook");
+    result.setCallbackUrl("https://life-sg.com/zh/profile/my-orders?payment=success");
+    result.setNotifyUrl("https://life-sg.com/api/v1/payment/yeahpay/webhook");
     return result;
   }
 }

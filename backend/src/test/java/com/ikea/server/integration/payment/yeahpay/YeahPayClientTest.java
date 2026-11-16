@@ -75,8 +75,8 @@ class YeahPayClientTest {
     properties.setMerchantId("merchant-test");
     properties.setApiBaseUrl(origin + "/acceptance-open-api");
     properties.setSignatureDomain(origin);
-    properties.setCallbackUrl("https://medical-sg.com/zh/profile/my-orders?payment=success");
-    properties.setNotifyUrl("https://medical-sg.com/api/v1/payment/yeahpay/webhook");
+    properties.setCallbackUrl("https://life-sg.com/zh/profile/my-orders?payment=success");
+    properties.setNotifyUrl("https://life-sg.com/api/v1/payment/yeahpay/webhook");
   }
 
   @Test
@@ -135,7 +135,7 @@ class YeahPayClientTest {
     assertEquals("1234", request.path("amount").asText());
     assertEquals("VISA", request.path("payWay").asText());
     assertEquals(
-        "https://medical-sg.com/api/v1/payment/yeahpay/webhook",
+        "https://life-sg.com/api/v1/payment/yeahpay/webhook",
         request.path("notifyUrl").asText());
     assertTrue(request.path("callback").asText().endsWith("&orderNo=ORD-1001"));
 

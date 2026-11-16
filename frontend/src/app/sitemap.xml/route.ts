@@ -4,7 +4,7 @@ import { catalogPages } from "@/lib/catalog-pages"
 import { productHref } from "@/lib/product-url"
 
 export async function GET() {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://medical-sg.com"
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://life-sg.com"
   const now = new Date().toISOString()
   const productUrls = Array.from(productsBySlug().values())
     .map(

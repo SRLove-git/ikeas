@@ -46,17 +46,17 @@ IKEA_STATIC_PUBLIC_DIR=../frontend/public java -jar target/ikea-server-0.1.0.jar
 | Variable                 | Default                                               | Description                                                                              |
 | ------------------------ | ----------------------------------------------------- | ---------------------------------------------------------------------------------------- |
 | `SERVER_PORT`            | `8080`                                                | HTTP port                                                                                |
-| `CORS_ALLOWED_ORIGINS`   | `http://localhost:3000,http://localhost:3001`         | Comma-separated allowed origins                                                          |
+| `CORS_ALLOWED_ORIGINS`   | Localhost plus `https://life-sg.com` and `https://www.life-sg.com` | Comma-separated allowed origins                                              |
 | `IKEA_STATIC_PUBLIC_DIR` | _(empty)_                                             | Path to the repo's `public/` dir to serve static assets                                  |
 | `IKEA_JWT_SECRET`        | `change-me-to-a-long-random-secret-at-least-32-bytes` | HMAC secret used to sign access JWTs. Set a long random value outside local development. |
 | `IKEA_ACCESS_TOKEN_TTL`  | `900`                                                 | Access-token lifetime in seconds                                                         |
 | `IKEA_REFRESH_TOKEN_TTL` | `2592000`                                             | Refresh-token lifetime in seconds                                                        |
 | `IKEA_MAIL_HOST`         | _(empty)_                                             | SMTP host used to send registration email codes; empty = return `devCode` in the API     |
 | `IKEA_MAIL_PORT`         | `587`                                                 | SMTP port                                                                                 |
-| `IKEA_MAIL_USERNAME`     | _(empty)_                                             | SMTP username                                                                             |
+| `IKEA_MAIL_USERNAME`     | `no-reply@mail.life-sg.com`                           | SMTP username                                                                             |
 | `IKEA_MAIL_PASSWORD`     | _(empty)_                                             | SMTP password                                                                             |
-| `IKEA_MAIL_FROM`         | `CHUNG YIP <no-reply@medical-sg.com>`                 | Sender address for registration email codes                                               |
-| `BUZUD_MARKETING_PUBLIC_BASE_URL` | `https://medical-sg.com`                   | Public frontend URL encoded into coupon QR codes                                         |
+| `IKEA_MAIL_FROM`         | `CHUNG YIP <no-reply@mail.life-sg.com>`                | Sender address for registration email codes                                               |
+| `BUZUD_MARKETING_PUBLIC_BASE_URL` | `https://life-sg.com`                      | Public frontend URL encoded into coupon QR codes                                         |
 
 ### Demo account
 

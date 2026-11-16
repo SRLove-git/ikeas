@@ -7,7 +7,8 @@ services:
       dockerfile: deploy/Dockerfile
       target: runner
       args:
-        NEXT_PUBLIC_API_BASE: ${NEXT_PUBLIC_API_BASE:-https://medical-sg.com}
+        NEXT_PUBLIC_API_BASE: ${NEXT_PUBLIC_API_BASE:-https://life-sg.com}
+        NEXT_PUBLIC_SITE_URL: ${NEXT_PUBLIC_SITE_URL:-https://life-sg.com}
         NEXT_PUBLIC_BASE_PATH: ${NEXT_PUBLIC_BASE_PATH:-}
         NEXT_PUBLIC_AUTH_LOGIN_ENABLED: ${NEXT_PUBLIC_AUTH_LOGIN_ENABLED:-true}
     image: buzud-frontend:latest
@@ -18,7 +19,8 @@ services:
     environment:
       - NODE_ENV=production
       - NEXT_TELEMETRY_DISABLED=1
-      - NEXT_PUBLIC_API_BASE=${NEXT_PUBLIC_API_BASE:-https://medical-sg.com}
+      - NEXT_PUBLIC_API_BASE=${NEXT_PUBLIC_API_BASE:-https://life-sg.com}
+      - NEXT_PUBLIC_SITE_URL=${NEXT_PUBLIC_SITE_URL:-https://life-sg.com}
       - NEXT_PUBLIC_BASE_PATH=${NEXT_PUBLIC_BASE_PATH:-}
       - NEXT_PUBLIC_AUTH_LOGIN_ENABLED=${NEXT_PUBLIC_AUTH_LOGIN_ENABLED:-true}
       - ADMIN_USERNAME=${ADMIN_USERNAME:-admin}
@@ -77,7 +79,7 @@ services:
       - "${SERVER_BIND_ADDRESS:-127.0.0.1}:${SERVER_PORT:-8080}:8080"
     environment:
       - IKEA_STATIC_PUBLIC_DIR=${IKEA_STATIC_PUBLIC_DIR:-/app/frontend/public}
-      - CORS_ALLOWED_ORIGINS=${CORS_ALLOWED_ORIGINS:-http://localhost:3000,http://localhost:3001,http://47.84.25.19:3001}
+      - CORS_ALLOWED_ORIGINS=${CORS_ALLOWED_ORIGINS:-http://localhost:3000,http://localhost:3001,http://47.84.25.19:3001,https://life-sg.com,https://www.life-sg.com}
       - IKEA_OSS_ENABLED=${IKEA_OSS_ENABLED:-false}
       - IKEA_OSS_ENDPOINT=${IKEA_OSS_ENDPOINT:-}
       - IKEA_OSS_BUCKET=${IKEA_OSS_BUCKET:-}
@@ -91,7 +93,9 @@ services:
       - DB_USER=buzud
       - DB_PASSWORD=${DB_PASSWORD:-buzud}
       - IKEA_JWT_SECRET=${IKEA_JWT_SECRET:-change-me-to-a-long-random-secret-at-least-32-bytes}
+      - IKEA_MAIL_USERNAME=${IKEA_MAIL_USERNAME:-no-reply@mail.life-sg.com}
       - IKEA_MAIL_PASSWORD=${IKEA_MAIL_PASSWORD:-}
+      - 'IKEA_MAIL_FROM=${IKEA_MAIL_FROM:-CHUNG YIP <no-reply@mail.life-sg.com>}'
       - IKEA_AUTH_LOGIN_ENABLED=${IKEA_AUTH_LOGIN_ENABLED:-true}
       - IKEA_SHIPPING_CARRIER=${IKEA_SHIPPING_CARRIER:-J&T Express Singapore}
       - IKEA_SHIPPING_SERVICE_CODE=${IKEA_SHIPPING_SERVICE_CODE:-EXPRESS}
@@ -104,17 +108,21 @@ services:
       - IKEA_YEAHPAY_MERCHANT_ID=${IKEA_YEAHPAY_MERCHANT_ID:-}
       - IKEA_YEAHPAY_API_BASE_URL=${IKEA_YEAHPAY_API_BASE_URL:-https://open-api.yeahpay.sg/acceptance/acceptance-open-api}
       - IKEA_YEAHPAY_SIGNATURE_DOMAIN=${IKEA_YEAHPAY_SIGNATURE_DOMAIN:-https://open-api.yeahpay.sg/acceptance}
-      - IKEA_YEAHPAY_CALLBACK_URL=${IKEA_YEAHPAY_CALLBACK_URL:-https://medical-sg.com/zh/profile/my-orders?payment=success}
-      - IKEA_YEAHPAY_NOTIFY_URL=${IKEA_YEAHPAY_NOTIFY_URL:-https://medical-sg.com/api/v1/payment/yeahpay/webhook}
+      - IKEA_YEAHPAY_CALLBACK_URL=${IKEA_YEAHPAY_CALLBACK_URL:-https://life-sg.com/zh/profile/my-orders?payment=success}
+      - IKEA_YEAHPAY_NOTIFY_URL=${IKEA_YEAHPAY_NOTIFY_URL:-https://life-sg.com/api/v1/payment/yeahpay/webhook}
       - IKEA_YEAHPAY_LANG=${IKEA_YEAHPAY_LANG:-en}
       - IKEA_YEAHPAY_ENABLED_METHODS=${IKEA_YEAHPAY_ENABLED_METHODS:-paynow,wechatpay,alipay,visa,mastercard,amex}
+      - IKEA_STRIPE_RETURN_URL_BASE=${IKEA_STRIPE_RETURN_URL_BASE:-https://life-sg.com}
       - BUZUD_OMS_ENABLED=${BUZUD_OMS_ENABLED:-false}
       - BUZUD_OMS_CALLBACK_SECRET=${BUZUD_OMS_CALLBACK_SECRET:-}
       - BUZUD_OMS_GATEWAY_URL=${BUZUD_OMS_GATEWAY_URL:-http://localhost:8080}
       - BUZUD_OMS_APP_ID=${BUZUD_OMS_APP_ID:-}
       - BUZUD_OMS_APP_SECRET=${BUZUD_OMS_APP_SECRET:-}
       - BUZUD_OMS_MERCHANT_ID=${BUZUD_OMS_MERCHANT_ID:-}
-      - BUZUD_MARKETING_PUBLIC_BASE_URL=${BUZUD_MARKETING_PUBLIC_BASE_URL:-https://medical-sg.com}
+      - BUZUD_VOUCHER_BOOKING_URL=${BUZUD_VOUCHER_BOOKING_URL:-https://life-sg.com/zh/booking/}
+      - BUZUD_VOUCHER_POINTS_REDEEM_URL=${BUZUD_VOUCHER_POINTS_REDEEM_URL:-https://life-sg.com/zh/profile/}
+      - BUZUD_MARKETING_PUBLIC_BASE_URL=${BUZUD_MARKETING_PUBLIC_BASE_URL:-https://life-sg.com}
+      - OMS_INTEGRATION_NOTIFICATION_REPLY_TO=${OMS_INTEGRATION_NOTIFICATION_REPLY_TO:-support@life-sg.com}
     depends_on:
       db:
         condition: service_healthy

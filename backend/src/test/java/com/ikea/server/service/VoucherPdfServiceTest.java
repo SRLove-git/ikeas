@@ -16,8 +16,8 @@ class VoucherPdfServiceTest {
   void generatePointsAndExperiencePdf() throws Exception {
     VoucherPdfService service =
         new VoucherPdfService(
-            "https://medical-sg.com/en/booking/",
-            "https://medical-sg.com/zh/profile/");
+            "https://life-sg.com/en/booking/",
+            "https://life-sg.com/zh/profile/");
 
     ExperienceVoucher points = voucher("BZP-20260910-142611-U4RF9J", 2, null);
     ExperienceVoucher experience =

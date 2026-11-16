@@ -49,7 +49,7 @@ public class BookingService {
       MarketingService marketingService,
       AdminSettingsService adminSettingsService,
       JavaMailSender mailSender,
-      @Value("${ikea.auth.email-from:CHUNG YIP <no-reply@mail.medical-sg.com>}") String emailFrom) {
+      @Value("${ikea.auth.email-from:CHUNG YIP <no-reply@mail.life-sg.com>}") String emailFrom) {
     this.bookingMapper = bookingMapper;
     this.voucherService = voucherService;
     this.marketingService = marketingService;

@@ -110,8 +110,8 @@ IKEA_YEAHPAY_PC_CHECKOUT_ENABLED=false
 IKEA_YEAHPAY_APP_ID=...
 IKEA_YEAHPAY_API_KEY=...
 IKEA_YEAHPAY_MERCHANT_ID=...
-IKEA_YEAHPAY_CALLBACK_URL=https://medical-sg.com/zh/profile/my-orders?payment=success
-IKEA_YEAHPAY_NOTIFY_URL=https://medical-sg.com/api/v1/payment/yeahpay/webhook
+IKEA_YEAHPAY_CALLBACK_URL=https://life-sg.com/zh/profile/my-orders?payment=success
+IKEA_YEAHPAY_NOTIFY_URL=https://life-sg.com/api/v1/payment/yeahpay/webhook
 IKEA_YEAHPAY_ENABLED_METHODS=paynow,wechatpay,visa,mastercard,amex
 ```
 
@@ -130,7 +130,7 @@ IKEA_PAYMENT_MOCK_ONLY=false
 IKEA_STRIPE_PUBLIC_KEY=pk_live_xxx
 IKEA_STRIPE_SECRET_KEY=sk_live_xxx
 IKEA_STRIPE_WEBHOOK_SECRET=whsec_xxx
-IKEA_STRIPE_RETURN_URL_BASE=https://medical-sg.com
+IKEA_STRIPE_RETURN_URL_BASE=https://life-sg.com
 ```
 
 OMS 真实渠道通过各自服务环境变量注入：`OMS_PAYMENT_WECHAT_*`、`OMS_PAYMENT_ALIPAY_*`、`OMS_INTEGRATION_NOTIFICATION_*`、`OMS_INTEGRATION_LOGISTICS_*`、`OMS_INTEGRATION_PLATFORM_*`。

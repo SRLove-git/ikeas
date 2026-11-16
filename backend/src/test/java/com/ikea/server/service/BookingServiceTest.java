@@ -147,7 +147,7 @@ class BookingServiceTest {
         new ExperienceVoucherService(
             voucherMapper,
             mock(VoucherPdfService.class),
-            "https://medical-sg.com/zh/booking/",
+            "https://life-sg.com/zh/booking/",
             mock(org.springframework.mail.javamail.JavaMailSender.class),
             "no-reply@example.com",
             mock(com.ikea.server.mapper.VoucherEmailClaimMapper.class),

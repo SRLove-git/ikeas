@@ -106,7 +106,7 @@ public class PaymentGatewayService {
   @Value("${ikea.payment.stripe.api-base-url:https://api.stripe.com}")
   private String stripeApiBaseUrl;
 
-  @Value("${ikea.payment.stripe.return-url-base:http://localhost:3000}")
+  @Value("${ikea.payment.stripe.return-url-base:https://life-sg.com}")
   private String returnUrlBase;
 
   @Value("${ikea.payment.stripe.success-path:/zh/profile/my-orders?payment=success}")

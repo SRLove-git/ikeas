@@ -44,7 +44,7 @@ IKEA_PAYMENT_MOCK_ONLY=false
 IKEA_YEAHPAY_ENABLED=true
 IKEA_YEAHPAY_PC_CHECKOUT_ENABLED=false
 IKEA_YEAHPAY_ENABLED_METHODS=paynow,wechatpay,alipay,visa,mastercard,amex
-IKEA_YEAHPAY_NOTIFY_URL=https://medical-sg.com/api/v1/payment/yeahpay/webhook
+IKEA_YEAHPAY_NOTIFY_URL=https://life-sg.com/api/v1/payment/yeahpay/webhook
 ```
 
 API 凭据、商户 MID、出口 IP 白名单和每个 `payWay` 的收单权限必须在 YeahPay 商户后台完成。

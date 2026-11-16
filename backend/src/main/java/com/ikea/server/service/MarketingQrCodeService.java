@@ -22,7 +22,7 @@ public class MarketingQrCodeService {
   private final String publicBaseUrl;
 
   public MarketingQrCodeService(
-      @Value("${ikea.marketing.public-base-url:https://medical-sg.com}") String publicBaseUrl) {
+      @Value("${ikea.marketing.public-base-url:https://life-sg.com}") String publicBaseUrl) {
     this.publicBaseUrl = publicBaseUrl.endsWith("/")
         ? publicBaseUrl.substring(0, publicBaseUrl.length() - 1)
         : publicBaseUrl;

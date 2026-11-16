@@ -70,16 +70,16 @@ public class ExperienceVoucherService {
   public ExperienceVoucherService(
       ExperienceVoucherMapper voucherMapper,
       VoucherPdfService voucherPdfService,
-      @Value("${ikea.voucher.booking-url:https://medical-sg.com/zh/booking/}") String bookingUrl,
+      @Value("${ikea.voucher.booking-url:https://life-sg.com/zh/booking/}") String bookingUrl,
       JavaMailSender mailSender,
-      @Value("${ikea.auth.email-from:CHUNG YIP <no-reply@mail.medical-sg.com>}") String emailFrom,
+      @Value("${ikea.auth.email-from:CHUNG YIP <no-reply@mail.life-sg.com>}") String emailFrom,
       VoucherEmailClaimMapper voucherEmailClaimMapper,
       AdminSettingsService adminSettingsService,
       UserService userService) {
     this.voucherMapper = voucherMapper;
     this.voucherPdfService = voucherPdfService;
     this.bookingUrl =
-        bookingUrl == null || bookingUrl.isBlank() ? "https://medical-sg.com/zh/booking/" : bookingUrl;
+        bookingUrl == null || bookingUrl.isBlank() ? "https://life-sg.com/zh/booking/" : bookingUrl;
     this.mailSender = mailSender;
     this.emailFrom = emailFrom;
     this.voucherEmailClaimMapper = voucherEmailClaimMapper;
