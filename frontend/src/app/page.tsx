@@ -15,7 +15,7 @@ import { mideaCommerceProducts, toshibaCommerceProducts } from "@/data/brand-com
 import { catalogPages } from "@/lib/catalog-pages"
 import { getMenuPanels } from "@/data/menu-panels"
 import { getMenuCategories } from "@/data/categories"
-import { SITE_SCOPE, isAppliancePath } from "@/lib/site-scope"
+import { PORTAL_URL, SITE_SCOPE, isAppliancePath } from "@/lib/site-scope"
 import { getLocale, getServerT } from "@/i18n/server"
 
 const showExperienceBooking = process.env.NEXT_PUBLIC_SHOW_EXPERIENCE_BOOKING === "true"
@@ -28,6 +28,7 @@ export default async function Home() {
   if (SITE_SCOPE === "home") return <HomeSiteHome />
 
   const locale = await getLocale()
+  const isZh = locale === "zh-CN"
   const t = await getServerT(locale)
   const {
     footerFeaturedCards,
@@ -90,7 +91,37 @@ export default async function Home() {
             scope={SITE_SCOPE}
           />
           <div className="i-layout__body">
-            <HeroVideo items={heroVideos.filter((item) => !isAppliancePath(item.href ?? ""))} />
+            <section className="mx-auto max-w-page pt-5 lg:pt-7">
+              <div className="flex flex-col gap-5 border-b border-ikea-gray-200 pb-6 md:flex-row md:items-end md:justify-between">
+                <div>
+                  <p className="text-[11px] font-bold uppercase tracking-[0.22em] text-ikea-muted">
+                    {isZh ? "医疗健康 · BUZUD" : "Medical & Health · BUZUD"}
+                  </p>
+                  <h1 className="mt-2 max-w-3xl text-3xl font-bold leading-tight tracking-tight sm:text-4xl lg:text-5xl">
+                    {isZh
+                      ? "专业健康管理，从家开始"
+                      : "Professional health support, closer to home"}
+                  </h1>
+                </div>
+                <div className="max-w-lg md:text-right">
+                  <p className="text-sm leading-6 text-ikea-muted">
+                    {isZh
+                      ? "从日常监测、呼吸护理到康复辅助，精选适合家庭与专业场景的健康产品。"
+                      : "From daily monitoring and respiratory care to rehabilitation support, find health products for home and professional use."}
+                  </p>
+                  <a
+                    href={PORTAL_URL}
+                    className="mt-3 inline-flex text-xs font-bold text-ikea-black underline decoration-1 underline-offset-4 hover:text-ikea-blue"
+                  >
+                    {isZh ? "返回 CHUNG YIP 总入口 →" : "Back to CHUNG YIP portal →"}
+                  </a>
+                </div>
+              </div>
+            </section>
+            <HeroVideo
+              compact
+              items={heroVideos.filter((item) => !isAppliancePath(item.href ?? ""))}
+            />
             <div className="clearfix min-h-screen px-0 m-auto mt-4 mb-8 space-y-8 text-left lg:mt-6 lg:mb-12 lg:space-y-12 max-w-page">
               {showExperienceBooking ? (
                 <BookingHighlight

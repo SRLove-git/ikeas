@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { BrandMark } from "@/components/BrandMark"
 import { LanguageSwitch } from "@/i18n/LanguageSwitch"
 import { getLocale } from "@/i18n/server"
 import { HOME_URL, MEDICAL_URL, PORTAL_URL } from "@/lib/site-scope"
@@ -155,12 +156,11 @@ export async function PortalHome() {
   const copy = locale === "zh-CN" ? ZH : EN
 
   return (
-    <div className="font-ikea min-h-screen bg-white text-ikea-black">
+    <div className="font-ikea min-h-screen overflow-x-clip bg-white text-ikea-black">
       <header className="sticky top-0 z-30 border-b border-ikea-gray-200 bg-white/95 backdrop-blur">
-        <div className="mx-auto flex h-16 max-w-page items-center justify-between gap-4 px-5 lg:h-20 lg:px-10">
-          <Link href="/" className="flex items-center gap-3" aria-label="CHUNG YIP">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/images/logo/logo.png" alt="CHUNG YIP" className="h-9 w-auto lg:h-10" />
+        <div className="mx-auto flex h-16 max-w-page min-w-0 items-center justify-between gap-3 lg:h-20">
+          <Link href="/" className="min-w-0 shrink-0" aria-label="CHUNG YIP">
+            <BrandMark scope="portal" />
           </Link>
           <nav className="hidden items-center gap-6 text-sm font-bold md:flex">
             <a href={MEDICAL_URL} className="hover:underline">
@@ -180,7 +180,7 @@ export async function PortalHome() {
             <LanguageSwitch />
             <Link
               href="/zh/profile/login/"
-              className="i-btn i-btn--primary hidden h-10 px-5 text-xs sm:inline-flex"
+              className="hidden h-10 items-center justify-center whitespace-nowrap rounded-full bg-ikea-black px-5 text-xs font-bold text-white transition-colors hover:bg-[#333333] sm:inline-flex"
             >
               {copy.memberLogin}
             </Link>
@@ -189,35 +189,71 @@ export async function PortalHome() {
       </header>
 
       <main>
-        <section className="border-b border-ikea-gray-200 bg-gradient-to-b from-ikea-gray-100/80 to-white">
-          <div className="mx-auto max-w-page px-5 py-14 lg:px-10 lg:py-20">
-            <p className="text-[11px] font-bold uppercase tracking-[0.28em] text-ikea-muted">
-              {copy.heroEyebrow}
-            </p>
-            <h1 className="mt-4 max-w-3xl text-4xl font-bold leading-[1.08] tracking-tight lg:text-6xl">
-              {copy.heroTitle}
-            </h1>
-            <p className="mt-5 max-w-2xl text-base leading-7 text-ikea-muted lg:text-lg">
-              {copy.heroBody}
-            </p>
-            <div className="mt-8 flex flex-wrap gap-3">
-              <a href={MEDICAL_URL} className="i-btn i-btn--primary h-12 px-7 text-sm">
-                {copy.heroCtaMedical}
+        <section className="border-b border-ikea-gray-200 bg-[#f7f7f5]">
+          <div className="mx-auto grid max-w-page gap-10 py-12 lg:grid-cols-[1fr_0.72fr] lg:items-center lg:py-16">
+            <div className="min-w-0">
+              <p className="text-[11px] font-bold uppercase tracking-[0.28em] text-ikea-muted">
+                {copy.heroEyebrow}
+              </p>
+              <h1 className="mt-4 max-w-3xl text-4xl font-bold leading-[1.06] tracking-tight sm:text-5xl lg:text-6xl">
+                {copy.heroTitle}
+              </h1>
+              <p className="mt-5 max-w-2xl text-base leading-7 text-ikea-muted lg:text-lg">
+                {copy.heroBody}
+              </p>
+              <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+                <a
+                  href={MEDICAL_URL}
+                  className="inline-flex h-12 items-center justify-center rounded-full bg-ikea-black px-7 text-sm font-bold text-white transition-colors hover:bg-[#333333]"
+                >
+                  {copy.heroCtaMedical}
+                </a>
+                <a
+                  href={HOME_URL}
+                  className="inline-flex h-12 items-center justify-center rounded-full border border-ikea-black px-7 text-sm font-bold text-ikea-black transition-colors hover:bg-ikea-gray-200"
+                >
+                  {copy.heroCtaHome}
+                </a>
+              </div>
+            </div>
+            <div className="hidden overflow-hidden rounded-[28px] bg-ikea-black p-7 text-white lg:block">
+              <a href={MEDICAL_URL} className="group flex items-center justify-between gap-6 py-2">
+                <span>
+                  <span className="block text-[10px] font-bold tracking-[0.2em] text-white/50">
+                    01 · MEDICAL
+                  </span>
+                  <span className="mt-2 block text-xl font-bold">{copy.medical.title}</span>
+                </span>
+                <span className="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-white text-lg text-ikea-black transition-transform group-hover:translate-x-1">
+                  →
+                </span>
               </a>
-              <a href={HOME_URL} className="i-btn i-btn--secondary h-12 px-7 text-sm">
-                {copy.heroCtaHome}
+              <div className="my-5 h-px bg-white/15" />
+              <a href={HOME_URL} className="group flex items-center justify-between gap-6 py-2">
+                <span>
+                  <span className="block text-[10px] font-bold tracking-[0.2em] text-white/50">
+                    02 · HOME
+                  </span>
+                  <span className="mt-2 block text-xl font-bold">{copy.home.title}</span>
+                </span>
+                <span className="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-white text-lg text-ikea-black transition-transform group-hover:translate-x-1">
+                  →
+                </span>
               </a>
+              <p className="mt-7 rounded-2xl bg-white/10 px-4 py-3 text-xs leading-5 text-white/70">
+                {copy.memberTitle} · {copy.memberNote}
+              </p>
             </div>
           </div>
         </section>
 
-        <section className="mx-auto max-w-page px-5 py-12 lg:px-10 lg:py-16">
+        <section className="mx-auto max-w-page py-12 lg:py-16">
           <div className="grid gap-5 lg:grid-cols-2">
             <a
               href={MEDICAL_URL}
-              className="group relative min-h-[360px] overflow-hidden rounded-2xl bg-[#e8f0f6] p-7 transition-shadow hover:shadow-xl lg:min-h-[440px] lg:p-10"
+              className="group relative min-h-[500px] overflow-hidden rounded-2xl bg-[#e8f0f6] px-6 pt-7 pb-48 transition-shadow hover:shadow-xl sm:min-h-[400px] sm:p-8 lg:min-h-[440px] lg:p-10"
             >
-              <div className="relative z-10 flex h-full max-w-[62%] flex-col">
+              <div className="relative z-10 flex h-full max-w-full flex-col sm:max-w-[62%]">
                 <p className="text-[11px] font-bold uppercase tracking-[0.2em] text-ikea-blue">
                   {copy.medical.kicker}
                 </p>
@@ -228,7 +264,7 @@ export async function PortalHome() {
                     <li key={point}>· {point}</li>
                   ))}
                 </ul>
-                <span className="i-btn i-btn--primary mt-auto h-11 w-fit px-6 text-xs">
+                <span className="mt-6 inline-flex h-11 w-fit items-center justify-center rounded-full bg-ikea-black px-6 text-xs font-bold text-white sm:mt-auto">
                   {copy.medical.cta}
                 </span>
               </div>
@@ -236,15 +272,15 @@ export async function PortalHome() {
               <img
                 src="https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711387-1.png"
                 alt="BUZUD portable oxygen concentrator"
-                className="pointer-events-none absolute -right-4 bottom-0 h-[72%] w-[52%] object-contain object-bottom drop-shadow-[0_20px_35px_rgba(0,88,163,0.18)] transition-transform duration-500 group-hover:scale-105"
+                className="pointer-events-none absolute -right-8 bottom-0 h-48 w-[68%] object-contain object-right-bottom drop-shadow-[0_20px_35px_rgba(0,88,163,0.18)] transition-transform duration-500 group-hover:scale-105 sm:-right-4 sm:h-[72%] sm:w-[52%]"
               />
             </a>
 
             <a
               href={HOME_URL}
-              className="group relative min-h-[360px] overflow-hidden rounded-2xl bg-[#f4efe8] p-7 transition-shadow hover:shadow-xl lg:min-h-[440px] lg:p-10"
+              className="group relative min-h-[500px] overflow-hidden rounded-2xl bg-[#f4efe8] px-6 pt-7 pb-48 transition-shadow hover:shadow-xl sm:min-h-[400px] sm:p-8 lg:min-h-[440px] lg:p-10"
             >
-              <div className="relative z-10 flex h-full max-w-[62%] flex-col">
+              <div className="relative z-10 flex h-full max-w-full flex-col sm:max-w-[62%]">
                 <p className="text-[11px] font-bold uppercase tracking-[0.2em] text-ikea-orange">
                   {copy.home.kicker}
                 </p>
@@ -255,7 +291,7 @@ export async function PortalHome() {
                     <li key={point}>· {point}</li>
                   ))}
                 </ul>
-                <span className="i-btn i-btn--primary mt-auto h-11 w-fit px-6 text-xs">
+                <span className="mt-6 inline-flex h-11 w-fit items-center justify-center rounded-full bg-ikea-black px-6 text-xs font-bold text-white sm:mt-auto">
                   {copy.home.cta}
                 </span>
               </div>
@@ -263,7 +299,7 @@ export async function PortalHome() {
               <img
                 src="https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/midea-mdrf632fid46sg-1.png"
                 alt="Midea refrigerator"
-                className="pointer-events-none absolute -right-2 bottom-0 h-[70%] w-[52%] object-contain object-bottom drop-shadow-[0_20px_35px_rgba(17,17,17,0.16)] transition-transform duration-500 group-hover:scale-105"
+                className="pointer-events-none absolute -right-5 bottom-0 h-48 w-[62%] object-contain object-right-bottom drop-shadow-[0_20px_35px_rgba(17,17,17,0.16)] transition-transform duration-500 group-hover:scale-105 sm:-right-2 sm:h-[70%] sm:w-[52%]"
               />
             </a>
           </div>
@@ -280,12 +316,15 @@ export async function PortalHome() {
               <p className="mt-4 text-xs text-white/50">{copy.memberNote}</p>
             </div>
             <div className="flex flex-wrap gap-3 lg:justify-end">
-              <Link href="/zh/profile/login/" className="i-btn i-btn--emphasised h-12 px-7 text-sm">
+              <Link
+                href="/zh/profile/login/"
+                className="inline-flex h-12 items-center justify-center rounded-full bg-ikea-yellow px-7 text-sm font-bold text-ikea-black transition-colors hover:bg-[#f2cf00]"
+              >
                 {copy.memberLogin}
               </Link>
               <Link
                 href="/zh/profile/my-orders/"
-                className="i-btn i-btn--secondary-inverse h-12 px-7 text-sm"
+                className="inline-flex h-12 items-center justify-center rounded-full border border-white px-7 text-sm font-bold text-white transition-colors hover:bg-white/10"
               >
                 {copy.memberOrders}
               </Link>
@@ -309,8 +348,7 @@ export async function PortalHome() {
       <footer className="border-t border-ikea-gray-200 bg-ikea-gray-100/60">
         <div className="mx-auto grid max-w-page gap-8 px-5 py-12 sm:grid-cols-2 lg:grid-cols-4 lg:px-10">
           <div>
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/images/logo/logo.png" alt="CHUNG YIP" className="h-9 w-auto" />
+            <BrandMark scope="portal" />
             <p className="mt-4 max-w-xs text-xs leading-5 text-ikea-muted">
               {copy.footer.copyright}
             </p>

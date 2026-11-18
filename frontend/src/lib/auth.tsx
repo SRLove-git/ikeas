@@ -11,6 +11,7 @@ import {
   type User,
 } from "@/lib/api"
 import { clearLocalCart, readLocalCart } from "@/lib/local-cart"
+import { setSupportChatIdentity } from "@/lib/support-chat-session"
 
 export interface LoginInput {
   account: string
@@ -63,7 +64,10 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       }
       try {
         const me = await apiJson<User>("/auth/me")
-        if (!cancelled) setUser(me)
+        if (!cancelled) {
+          setSupportChatIdentity(me.id)
+          setUser(me)
+        }
       } catch {
         clearAuthTokens()
       } finally {
@@ -77,7 +81,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   }, [])
 
   const startSession = useCallback(async (response: AuthResponse) => {
-    setAuthTokens(response.token, response.refreshToken ?? null)
+    setAuthTokens(response.token, response.refreshToken ?? null, response.user.id)
     try {
       await mergeLocalCartIntoAccount()
     } catch {

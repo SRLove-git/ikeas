@@ -270,6 +270,14 @@
   }
 }
 
+/* Hover tooltips are not useful on touch-sized screens and their absolutely
+   positioned labels can widen the storefront header beyond the viewport. */
+@media (max-width: 767px) {
+  .header-right-cluster .i-tooltip__body {
+    display: none;
+  }
+}
+
 /* Direct <img> children of IKEA aspect-ratio boxes must fill the box */
 .i-aspect-ratio-box > img {
   position: absolute;

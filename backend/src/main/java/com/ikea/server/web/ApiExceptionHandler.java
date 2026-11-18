@@ -2,6 +2,8 @@ package com.ikea.server.web;
 
 import com.ikea.server.integration.payment.yeahpay.YeahPayClient.RejectedRequestException;
 import com.ikea.server.service.AuthException;
+import com.ikea.server.service.ChatRequestGuard.CapacityExceededException;
+import com.ikea.server.service.ChatRequestGuard.RateLimitExceededException;
 import jakarta.servlet.http.HttpServletRequest;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -45,6 +47,18 @@ public class ApiExceptionHandler {
   public ResponseEntity<ApiError> handleAuth(
       AuthException ex, HttpServletRequest request) {
     return build(HttpStatus.UNAUTHORIZED, ex.getMessage(), request);
+  }
+
+  @ExceptionHandler(RateLimitExceededException.class)
+  public ResponseEntity<ApiError> handleChatRateLimit(
+      RateLimitExceededException ex, HttpServletRequest request) {
+    return build(HttpStatus.TOO_MANY_REQUESTS, ex.getMessage(), request);
+  }
+
+  @ExceptionHandler(CapacityExceededException.class)
+  public ResponseEntity<ApiError> handleChatCapacity(
+      CapacityExceededException ex, HttpServletRequest request) {
+    return build(HttpStatus.SERVICE_UNAVAILABLE, ex.getMessage(), request);
   }
 
   @ExceptionHandler(MethodArgumentNotValidException.class)

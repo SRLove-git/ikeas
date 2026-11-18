@@ -19,7 +19,7 @@ export function SsoExchangeClient({ code, next }: { code: string; next: string }
     started.current = true
     exchangeSsoCode(code)
       .then((session) => {
-        setAuthTokens(session.token, session.refreshToken ?? null)
+        setAuthTokens(session.token, session.refreshToken ?? null, session.user.id)
         window.location.replace(safeNext(next))
       })
       .catch((ex: unknown) => {

@@ -1,6 +1,5 @@
 import Link from "next/link"
 import { SiteLayout } from "@/components/SiteLayout"
-import { HeroVideo } from "@/components/HeroVideo"
 import { ProductCard } from "@/components/ProductCard"
 import { SiteImage } from "@/components/SiteImage"
 import { homeSiteData } from "@/data/home-site"
@@ -15,31 +14,76 @@ export async function HomeSiteHome() {
   const locale = await getLocale()
   const data = homeSiteData(locale)
   const isZh = locale === "zh-CN"
+  const heroProducts = data.featured.slice(0, 2)
 
   return (
     <SiteLayout>
       <div className="font-ikea min-h-screen bg-white text-ikea-black">
-        <div className="max-w-page mx-auto px-5 pt-5 lg:px-10">
-          <div className="flex flex-wrap items-end justify-between gap-4 border-b border-ikea-gray-200 pb-5">
-            <div>
-              <p className="text-[11px] font-bold uppercase tracking-[0.22em] text-ikea-muted">
-                {isZh ? "家庭生活 · 东芝 × 美的" : "Home & Living · Toshiba × Midea"}
-              </p>
-              <h1 className="mt-2 text-3xl font-bold leading-tight lg:text-4xl">
-                {isZh ? "让好家电，成为家的日常" : "Appliances that make home feel effortless"}
-              </h1>
+        <section className="mx-auto max-w-page pt-5 lg:pt-7">
+          <div className="relative overflow-hidden rounded-[28px] bg-[#f3efe9]">
+            <div className="grid min-h-[610px] lg:min-h-[520px] lg:grid-cols-[0.9fr_1.1fr]">
+              <div className="relative z-10 flex flex-col items-start justify-center px-6 py-10 sm:px-10 lg:px-12 lg:py-14">
+                <p className="text-[11px] font-bold uppercase tracking-[0.22em] text-ikea-muted">
+                  {isZh ? "家庭生活 · 东芝 × 美的" : "Home & Living · Toshiba × Midea"}
+                </p>
+                <h1 className="mt-4 max-w-xl text-4xl font-bold leading-[1.08] tracking-tight sm:text-5xl lg:text-6xl">
+                  {isZh ? "让好家电，成为家的日常" : "Appliances that make home feel effortless"}
+                </h1>
+                <p className="mt-5 max-w-lg text-base leading-7 text-ikea-muted">
+                  {isZh
+                    ? "冰箱、洗护、厨房与清洁电器，官方渠道正品保障，全岛配送与安装支持。"
+                    : "Refrigeration, laundry, kitchen and cleaning appliances — genuine products, islandwide delivery and installation support."}
+                </p>
+                <div className="mt-8 flex flex-wrap gap-3">
+                  <Link
+                    href="/zh/all-products/"
+                    className="inline-flex h-12 items-center justify-center rounded-full bg-ikea-black px-7 text-sm font-bold text-white transition-colors hover:bg-[#333333]"
+                  >
+                    {isZh ? "选购全部家电" : "Shop all appliances"}
+                  </Link>
+                  <Link
+                    href="/zh/toshiba/"
+                    className="inline-flex h-12 items-center justify-center rounded-full border border-ikea-black px-6 text-sm font-bold text-ikea-black transition-colors hover:bg-white/60"
+                  >
+                    Toshiba
+                  </Link>
+                  <Link
+                    href="/zh/midea/"
+                    className="inline-flex h-12 items-center justify-center rounded-full border border-ikea-black px-6 text-sm font-bold text-ikea-black transition-colors hover:bg-white/60"
+                  >
+                    Midea
+                  </Link>
+                </div>
+                <p className="mt-6 text-xs font-bold tracking-[0.04em] text-ikea-muted">
+                  {isZh
+                    ? "官方正品 · 全岛配送 · 安装与售后支持"
+                    : "Genuine · Islandwide delivery · Installation & support"}
+                </p>
+              </div>
+              <div className="relative min-h-[280px] overflow-hidden lg:min-h-full">
+                {heroProducts.map((product, index) => (
+                  <SiteImage
+                    key={product.id}
+                    src={product.image}
+                    alt={product.name}
+                    className={`absolute bg-transparent ${
+                      index === 0
+                        ? "right-[32%] bottom-0 h-[92%] w-[58%]"
+                        : "-right-[5%] bottom-[-3%] h-[72%] w-[52%]"
+                    }`}
+                    imgClassName="h-full w-full object-contain object-bottom drop-shadow-[0_24px_38px_rgba(17,17,17,0.18)]"
+                    sizes="(max-width: 1023px) 55vw, 420px"
+                    loading="eager"
+                    fetchPriority={index === 0 ? "high" : "auto"}
+                  />
+                ))}
+                <span className="absolute right-5 bottom-5 rounded-full bg-white/85 px-4 py-2 text-[10px] font-bold tracking-[0.16em] text-ikea-black backdrop-blur sm:right-8 sm:bottom-8">
+                  TOSHIBA × MIDEA
+                </span>
+              </div>
             </div>
-            <p className="max-w-md text-sm leading-6 text-ikea-muted">
-              {isZh
-                ? "冰箱、洗护、厨房与清洁电器，官方渠道正品保障，全岛配送与安装支持。"
-                : "Refrigeration, laundry, kitchen and cleaning appliances — genuine products, islandwide delivery and installation support."}
-            </p>
           </div>
-        </div>
-
-        <div className="mx-auto max-w-page px-5 pt-6 lg:px-10">
-          <HeroVideo items={[data.hero]} />
-        </div>
+        </section>
 
         <section className="mx-auto max-w-page px-5 py-12 lg:px-10 lg:py-16">
           <div className="grid gap-5 md:grid-cols-2">
@@ -57,7 +101,7 @@ export async function HomeSiteHome() {
                     {brand.name}
                   </h2>
                   <p className="mt-3 text-sm leading-6 text-ikea-muted">{brand.tagline}</p>
-                  <span className="i-btn i-btn--primary mt-6 h-10 px-6 text-xs">
+                  <span className="mt-6 inline-flex h-10 items-center justify-center rounded-full bg-ikea-black px-6 text-xs font-bold text-white">
                     {isZh ? `进入 ${brand.name} 专区` : `Shop ${brand.name}`}
                   </span>
                 </div>
@@ -86,7 +130,7 @@ export async function HomeSiteHome() {
                 {isZh ? "查看全部家电" : "All appliances"}
               </Link>
             </div>
-            <div className="mt-7 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
+            <div className="mt-7 grid grid-cols-2 gap-4 sm:grid-cols-4 lg:grid-cols-7">
               {data.categories.map((category) => (
                 <Link key={category.label} href={category.href} className="group">
                   <div className="aspect-square overflow-hidden rounded-xl bg-white p-4">
@@ -158,7 +202,10 @@ export async function HomeSiteHome() {
                 ? "也在寻找健康检测与医疗设备？"
                 : "Also looking for health testing and medical devices?"}
             </p>
-            <a href={MEDICAL_URL} className="i-btn i-btn--secondary h-10 px-6 text-xs">
+            <a
+              href={MEDICAL_URL}
+              className="inline-flex h-10 items-center justify-center rounded-full border border-ikea-black px-6 text-xs font-bold text-ikea-black transition-colors hover:bg-ikea-gray-100"
+            >
               {isZh ? "前往医疗健康站 medical-sg.com" : "Visit medical-sg.com"}
             </a>
           </div>

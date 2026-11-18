@@ -158,6 +158,13 @@ ikea:
   chat-knowledge:
     # Optional external chat knowledge JSON (IKEA_CHAT_KNOWLEDGE_FILE), reloaded on change.
     file: ${IKEA_CHAT_KNOWLEDGE_FILE:}
+  chat:
+    rate-limit:
+      anonymous-per-minute: ${IKEA_CHAT_ANONYMOUS_PER_MINUTE:10}
+      authenticated-per-minute: ${IKEA_CHAT_AUTHENTICATED_PER_MINUTE:30}
+      global-per-minute: ${IKEA_CHAT_GLOBAL_PER_MINUTE:120}
+    # Reject excess requests immediately instead of occupying servlet threads during AI calls.
+    max-concurrent: ${IKEA_CHAT_MAX_CONCURRENT:8}
 
 oms:
   integration:

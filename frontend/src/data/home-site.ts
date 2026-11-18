@@ -90,8 +90,8 @@ export function homeSiteData(locale: Locale = DEFAULT_LOCALE): HomeSiteData {
 
   return {
     hero: {
-      video: "/videos/toshiba-er-td5000-promo.mp4",
-      poster: "/videos/toshiba-er-td5000-cover-v3.png",
+      video: "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/videos/toshiba-er-td5000-promo.mp4",
+      poster: "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/videos/toshiba-er-td5000-cover-v3.png",
       href: "/zh/toshiba/p/er-td5000sg-yk/",
       alt: isZh
         ? "东芝 ER-TD5000 过热水蒸气烤箱宣传视频"

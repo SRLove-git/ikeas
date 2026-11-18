@@ -7,6 +7,7 @@ import type { HeroVideo } from "@/types"
 
 interface HeroVideoProps {
   items: HeroVideo[]
+  compact?: boolean
 }
 
 const playVideo = (host: HTMLElement) => {
@@ -22,7 +23,7 @@ const stopVideo = (host: HTMLElement) => {
   }
 }
 
-export function HeroVideo({ items }: HeroVideoProps) {
+export function HeroVideo({ items, compact = false }: HeroVideoProps) {
   const { t } = useTranslation()
   const [isMobile, setIsMobile] = useState(false)
   const fallbackAlt = t("home.promoVideoAria")
@@ -52,7 +53,9 @@ export function HeroVideo({ items }: HeroVideoProps) {
           return (
             <div
               key={`${href ?? "hero"}-${index}`}
-              className="group relative aspect-video overflow-hidden rounded-xl bg-ikea-gray-100 shadow-sm transition-shadow duration-300 hover:shadow-lg"
+              className={`group relative overflow-hidden rounded-xl bg-ikea-gray-100 shadow-sm transition-shadow duration-300 hover:shadow-lg ${
+                compact ? "aspect-video md:aspect-[16/7]" : "aspect-video"
+              }`}
               onMouseEnter={(event) => playVideo(event.currentTarget)}
               onMouseLeave={(event) => stopVideo(event.currentTarget)}
               onFocus={(event) => playVideo(event.currentTarget)}
@@ -63,9 +66,9 @@ export function HeroVideo({ items }: HeroVideoProps) {
                 <img
                   src={posterSrc ?? undefined}
                   alt={alt ?? fallbackAlt}
-                  className={`absolute inset-0 h-full w-full object-cover transition-opacity duration-300 ${
-                    hoverPlayable ? "group-hover:opacity-0 group-focus-within:opacity-0" : ""
-                  }`}
+                  className={`absolute inset-0 h-full w-full transition-opacity duration-300 ${
+                    compact ? "object-contain" : "object-cover"
+                  } ${hoverPlayable ? "group-hover:opacity-0 group-focus-within:opacity-0" : ""}`}
                   decoding="async"
                 />
               ) : (
@@ -85,7 +88,9 @@ export function HeroVideo({ items }: HeroVideoProps) {
               )}
               {hoverPlayable ? (
                 <video
-                  className="absolute inset-0 h-full w-full object-cover opacity-0 transition-opacity duration-300 group-hover:opacity-100 group-focus-within:opacity-100"
+                  className={`absolute inset-0 h-full w-full opacity-0 transition-opacity duration-300 group-hover:opacity-100 group-focus-within:opacity-100 ${
+                    compact ? "object-contain" : "object-cover"
+                  }`}
                   src={video ?? undefined}
                   poster={poster ?? undefined}
                   muted

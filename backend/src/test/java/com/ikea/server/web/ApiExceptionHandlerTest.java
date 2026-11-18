@@ -7,6 +7,8 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
 import com.ikea.server.integration.payment.yeahpay.YeahPayClient.RejectedRequestException;
+import com.ikea.server.service.ChatRequestGuard.CapacityExceededException;
+import com.ikea.server.service.ChatRequestGuard.RateLimitExceededException;
 import jakarta.servlet.http.HttpServletRequest;
 import org.junit.jupiter.api.Test;
 import org.springframework.http.HttpStatus;
@@ -43,5 +45,29 @@ class ApiExceptionHandlerTest {
     assertTrue(body.contains("支付渠道暂不可用"));
     assertFalse(body.contains("-5087"));
     assertFalse(body.contains("provider-trace"));
+  }
+
+  @Test
+  void chatRateLimitShouldReturnTooManyRequests() {
+    HttpServletRequest request = mock(HttpServletRequest.class);
+    when(request.getRequestURI()).thenReturn("/api/v1/chat/messages");
+
+    ResponseEntity<?> response = new ApiExceptionHandler().handleChatRateLimit(
+        new RateLimitExceededException("请求过于频繁"), request);
+
+    assertEquals(HttpStatus.TOO_MANY_REQUESTS, response.getStatusCode());
+    assertTrue(String.valueOf(response.getBody()).contains("请求过于频繁"));
+  }
+
+  @Test
+  void chatCapacityShouldReturnServiceUnavailable() {
+    HttpServletRequest request = mock(HttpServletRequest.class);
+    when(request.getRequestURI()).thenReturn("/api/v1/chat/messages");
+
+    ResponseEntity<?> response = new ApiExceptionHandler().handleChatCapacity(
+        new CapacityExceededException("智能客服当前繁忙"), request);
+
+    assertEquals(HttpStatus.SERVICE_UNAVAILABLE, response.getStatusCode());
+    assertTrue(String.valueOf(response.getBody()).contains("智能客服当前繁忙"));
   }
 }

@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation"
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react"
 import { useTranslation } from "react-i18next"
 import { CartIcon, HeartIcon, SearchIcon, UserIcon } from "@/components/icons"
+import { BrandMark } from "@/components/BrandMark"
 import { MegaMenu, toPath, type CategoryGroup } from "@/components/MegaMenu"
 import { MenuPanel } from "@/components/MenuPanel"
 import { SearchPanel } from "@/components/SearchPanel"
@@ -45,14 +46,7 @@ function PortalHeader() {
         <div className="nav-header_container">
           <div className="mx-auto flex max-w-page flex-wrap items-center justify-between gap-4 px-5 py-3 lg:px-10">
             <Link href="/" aria-label={t("header.backHome")} className="shrink-0">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                className="disable-event h-14 w-auto"
-                src="/images/logo/logo.png"
-                alt="CHUNG YIP"
-                width={78}
-                height={64}
-              />
+              <BrandMark scope="portal" />
             </Link>
             <nav
               className="flex flex-wrap items-center gap-x-5 gap-y-2 text-sm font-bold text-ikea-black"
@@ -316,15 +310,12 @@ function StoreHeader({
                   <div className="header_container_left">
                     <div className="header_container_center">
                       <div className="header_container_center_Logo">
-                        <Link href="/" aria-label={t("header.backHome")}>
-                          {/* eslint-disable-next-line @next/next/no-img-element */}
-                          <img
-                            className="disable-event"
-                            src="/images/logo/logo.png"
-                            alt="CHUNG YIP"
-                            width={78}
-                            height={64}
-                          />
+                        <Link
+                          href="/"
+                          aria-label={t("header.backHome")}
+                          className="hidden sm:inline-flex"
+                        >
+                          <BrandMark scope={scope} compactOnMobile />
                         </Link>
                       </div>
                     </div>

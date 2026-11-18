@@ -1,5 +1,7 @@
 // Client/server helpers for the Spring Boot backend (server/).
 
+import { setSupportChatIdentity } from "@/lib/support-chat-session"
+
 export const API_BASE = process.env.NEXT_PUBLIC_API_BASE ?? "http://localhost:8080"
 export const API_V1 = `${API_BASE}/api/v1`
 
@@ -238,12 +240,18 @@ export function setRefreshToken(token: string | null) {
   }
 }
 
-export function setAuthTokens(accessToken: string, refreshToken?: string | null) {
+export function setAuthTokens(
+  accessToken: string,
+  refreshToken: string | null | undefined,
+  userId: string,
+) {
+  setSupportChatIdentity(userId)
   setToken(accessToken)
   setRefreshToken(refreshToken ?? null)
 }
 
 export function clearAuthTokens() {
+  setSupportChatIdentity(null)
   setToken(null)
   setRefreshToken(null)
 }
@@ -277,8 +285,13 @@ async function refreshAccessToken(): Promise<AuthResponse | null> {
           clearAuthTokens()
           return null
         }
-        setAuthTokens(body.token, body.refreshToken ?? null)
-        return body as AuthResponse
+        const refreshed = body as AuthResponse
+        if (!refreshed.user?.id) {
+          clearAuthTokens()
+          return null
+        }
+        setAuthTokens(refreshed.token, refreshed.refreshToken ?? null, refreshed.user.id)
+        return refreshed
       } catch {
         clearAuthTokens()
         return null

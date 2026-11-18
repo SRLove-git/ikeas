@@ -2,6 +2,24 @@
   {
     "user": "admin",
     "action": "update",
+    "resource": "brand-product:midea",
+    "target": "mf110",
+    "summary": "更新美的商品「MF110」",
+    "id": "1794375418527-pcn1ts",
+    "at": "2026-11-11T05:36:58.527Z"
+  },
+  {
+    "user": "admin",
+    "action": "update",
+    "resource": "brand-product:midea",
+    "target": "mf110",
+    "summary": "更新美的商品「MF110」",
+    "id": "1794375414778-x2h8nd",
+    "at": "2026-11-11T05:36:54.778Z"
+  },
+  {
+    "user": "admin",
+    "action": "update",
     "resource": "categories",
     "target": "catalog",
     "summary": "更新商品分类",

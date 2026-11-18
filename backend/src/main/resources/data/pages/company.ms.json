@@ -1,0 +1,150 @@
+[
+  {
+    "url": "/zh/company",
+    "family": "company",
+    "id": "cn--zh--buzud-company",
+    "title": "Tentang kami",
+    "name": "Tentang CHUNG YIP",
+    "hero": null,
+    "blocks": [
+      {
+        "type": "corporate-hero",
+        "title": "Bawa pengurusan kesihatan ke setiap rumah",
+        "texts": [
+          "Visi dan misi CHUNG YIP"
+        ],
+        "images": [
+          "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-hero-company.jpg"
+        ],
+        "links": [
+          {
+            "href": "/zh/all-products/",
+            "text": "Ketahui falsafah kesihatan CHUNG YIP"
+          }
+        ],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": ""
+        }
+      },
+      {
+        "type": "corporate-about",
+        "title": "Profil syarikat",
+        "texts": [
+          "CHUNG YIP HOLDING PTE ialah firma pengurusan pelaburan terpelbagai yang berpangkalan di Singapura, khusus untuk mengenal pasti aset berpotensi tinggi, projek teknologi perintis dan peluang pertumbuhan jangka panjang di seluruh rantau Asia-Pasifik. Berpandukan falsafah teras kami iaitu “Visi Global, Pelaksanaan Setempat,” kami memanfaatkan kedudukan strategik Singapura sebagai pusat kewangan global dan hab inovasi untuk membina portfolio berdaya tahan, didorong inovasi dan berorientasikan masa hadapan yang menyampaikan nilai jangka panjang yang mampan untuk pelabur.",
+          "Kami berpegang kepada falsafah pelaburan jangka panjang, dengan fokus strategik pada sektor pertumbuhan tinggi termasuk hartanah perindustrian, bahan binaan baharu, pendidikan, penjagaan kesihatan AI, infrastruktur digital dan ekosistem perisian pintar. Kami terus membangunkan keupayaan pelaburan merentas sektor, bersepadu menegak dan kepakaran integrasi sumber. Pada masa yang sama, kami memberi penekanan yang kuat terhadap peluang pembangunan mampan berorientasikan ESG, mempromosikan integrasi yang lebih mendalam antara modal, teknologi dan industri. Dengan memanfaatkan pengalaman dua puluh tahun pasukan profesional kami di pasaran Asia-Pasifik, kami komited untuk menjadi jambatan strategik yang menghubungkan modal, industri dan teknologi inovatif."
+        ],
+        "images": [
+          "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-about-image.jpg"
+        ],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": "",
+          "videoSrc": "",
+          "videoPoster": "",
+          "sectionId": "company-about"
+        }
+      },
+      {
+        "type": "corporate-text",
+        "title": null,
+        "texts": [],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": "",
+          "sectionId": "company-innovation"
+        }
+      },
+      {
+        "type": "pub-columns",
+        "title": null,
+        "texts": [],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "columns": [
+          {
+            "heading": "AI + Pendidikan",
+            "text": "CHUNG YIP memanfaatkan Sekolah Antarabangsa Heng Xing Singapura milik majoritinya untuk meneroka secara aktif integrasi mendalam teknologi kecerdasan buatan dan industri pendidikan.",
+            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-ai-education.jpg",
+            "href": "https://www.esic.edu.sg/"
+          },
+          {
+            "heading": "AI + Perubatan",
+            "text": "CHUNG YIP bekerjasama dengan BUZUD, jenama penjagaan kesihatan buatan Singapura yang terkenal, untuk meneroka secara bersama aplikasi dan penyelesaian inovatif bagi teknologi kecerdasan buatan dalam bidang penjagaan kesihatan.",
+            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-ai-medical.jpg",
+            "href": "https://www.buzud.com/en/solutions-medicare-plus"
+          }
+        ],
+        "settings": {
+          "traceId": ""
+        }
+      },
+      {
+        "type": "corporate-text",
+        "title": "Keterbukaan, kerjasama dan manfaat bersama",
+        "texts": [
+          "Kami berharap dapat bekerjasama dengan rakan industri, institusi penjagaan kesihatan dan komuniti untuk memajukan industri kesihatan."
+        ],
+        "images": [
+          "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/company/cooperation-imdec-2026-01.jpg",
+          "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/company/cooperation-imdec-2026-02.jpg",
+          "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/company/cooperation-imdec-2026-03.jpg"
+        ],
+        "links": [
+          {
+            "href": "/zh/customer-service/contact-us/",
+            "text": "Ketahui lebih lanjut"
+          }
+        ],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": "",
+          "sectionId": "company-cooperation"
+        }
+      },
+      {
+        "type": "corporate-policy",
+        "title": "Komitmen kualiti dan perkhidmatan",
+        "texts": [
+          "Produk tulen dijamin: status pendaftaran/pengecualian HSA bagi setiap produk yang dijual boleh disemak pada halaman butirannya dan disahkan terhadap pangkalan data rasmi HSA.",
+          "Perkhidmatan profesional: konsultasi pra-jualan, ujian pengalaman dan sokongan selepas jualan.",
+          "Penambahbaikan berterusan: sentiasa mengoptimumkan produk dan pengalaman perkhidmatan pelanggan kami."
+        ],
+        "images": [],
+        "links": [],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": "",
+          "sectionId": "company-policy"
+        }
+      },
+      {
+        "type": "pub-button-link",
+        "title": null,
+        "texts": [],
+        "images": [],
+        "links": [
+          {
+            "href": "/zh/customer-service/contact-us/",
+            "text": "Hubungi kami"
+          }
+        ],
+        "items": [],
+        "productIds": [],
+        "settings": {
+          "traceId": "buzud-company-cta"
+        }
+      }
+    ]
+  }
+]
