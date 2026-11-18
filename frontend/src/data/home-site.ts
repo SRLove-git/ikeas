@@ -74,7 +74,7 @@ export function homeSiteData(locale: Locale = DEFAULT_LOCALE): HomeSiteData {
       pickImage(mideaProducts.filter((product) => product.brandCategorySlug === slug))
     categories.push({
       label: category.name,
-      href: `#${slug}`,
+      href: `/zh/${toshibaCategory ? "toshiba" : "midea"}/#${slug}`,
       image,
     })
   }
