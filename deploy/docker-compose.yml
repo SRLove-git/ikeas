@@ -52,8 +52,8 @@ services:
       args:
         <<: *frontend-build-args
         NEXT_PUBLIC_SITE_SCOPE: medical
-        NEXT_PUBLIC_SITE_URL: ${NEXT_PUBLIC_SITE_URL:-https://medical-sg.com}
-        NEXT_PUBLIC_API_BASE: ${NEXT_PUBLIC_API_BASE:-https://medical-sg.com}
+        NEXT_PUBLIC_SITE_URL: https://medical-sg.com
+        NEXT_PUBLIC_API_BASE: https://medical-sg.com
     image: buzud-frontend-medical:latest
     container_name: buzud-frontend-medical
     ports:
@@ -61,8 +61,8 @@ services:
     environment:
       <<: *frontend-environment
       NEXT_PUBLIC_SITE_SCOPE: medical
-      NEXT_PUBLIC_SITE_URL: ${NEXT_PUBLIC_SITE_URL:-https://medical-sg.com}
-      NEXT_PUBLIC_API_BASE: ${NEXT_PUBLIC_API_BASE:-https://medical-sg.com}
+      NEXT_PUBLIC_SITE_URL: https://medical-sg.com
+      NEXT_PUBLIC_API_BASE: https://medical-sg.com
 
   app-home:
     <<: *frontend-common
@@ -73,8 +73,8 @@ services:
       args:
         <<: *frontend-build-args
         NEXT_PUBLIC_SITE_SCOPE: home
-        NEXT_PUBLIC_SITE_URL: ${NEXT_PUBLIC_HOME_URL:-https://home-sg.com}
-        NEXT_PUBLIC_API_BASE: ${NEXT_PUBLIC_HOME_URL:-https://home-sg.com}
+        NEXT_PUBLIC_SITE_URL: https://home-sg.com
+        NEXT_PUBLIC_API_BASE: https://home-sg.com
     image: buzud-frontend-home:latest
     container_name: buzud-frontend-home
     ports:
@@ -82,8 +82,8 @@ services:
     environment:
       <<: *frontend-environment
       NEXT_PUBLIC_SITE_SCOPE: home
-      NEXT_PUBLIC_SITE_URL: ${NEXT_PUBLIC_HOME_URL:-https://home-sg.com}
-      NEXT_PUBLIC_API_BASE: ${NEXT_PUBLIC_HOME_URL:-https://home-sg.com}
+      NEXT_PUBLIC_SITE_URL: https://home-sg.com
+      NEXT_PUBLIC_API_BASE: https://home-sg.com
 
   app-portal:
     <<: *frontend-common
@@ -94,8 +94,8 @@ services:
       args:
         <<: *frontend-build-args
         NEXT_PUBLIC_SITE_SCOPE: portal
-        NEXT_PUBLIC_SITE_URL: ${NEXT_PUBLIC_PORTAL_URL:-https://life-sg.com}
-        NEXT_PUBLIC_API_BASE: ${NEXT_PUBLIC_PORTAL_URL:-https://life-sg.com}
+        NEXT_PUBLIC_SITE_URL: https://life-sg.com
+        NEXT_PUBLIC_API_BASE: https://life-sg.com
     image: buzud-frontend-portal:latest
     container_name: buzud-frontend-portal
     ports:
@@ -103,8 +103,8 @@ services:
     environment:
       <<: *frontend-environment
       NEXT_PUBLIC_SITE_SCOPE: portal
-      NEXT_PUBLIC_SITE_URL: ${NEXT_PUBLIC_PORTAL_URL:-https://life-sg.com}
-      NEXT_PUBLIC_API_BASE: ${NEXT_PUBLIC_PORTAL_URL:-https://life-sg.com}
+      NEXT_PUBLIC_SITE_URL: https://life-sg.com
+      NEXT_PUBLIC_API_BASE: https://life-sg.com
 
   dev:
     build:
