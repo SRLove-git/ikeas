@@ -19,8 +19,15 @@ import {
 import { API_BASE, getToken } from "@/lib/api"
 import { formatPrice } from "@/lib/catalog-format"
 import { paymentStatusView } from "@/lib/payment-status"
+import { SITE_SCOPE } from "@/lib/site-scope"
 import { useLocale } from "@/i18n/LanguageProvider"
 import { intlLocale, type Locale } from "@/i18n/config"
+
+/**
+ * medical/home only list their own sales channel; the portal (life-sg.com)
+ * aggregates every order for the unified account centre.
+ */
+const ORDERS_PATH = SITE_SCOPE === "portal" ? "/orders" : `/orders?channel=${SITE_SCOPE}`
 
 type PaymentMethodId =
   | "paynow"
@@ -173,7 +180,7 @@ export function MyOrdersPanel() {
     setLoading(true)
     setError(null)
     try {
-      const data = await apiJson<OrderResponse[]>("/orders")
+      const data = await apiJson<OrderResponse[]>(ORDERS_PATH)
       setOrders(data)
       const next: Record<string, OrderFulfillmentView | null> = {}
       await Promise.all(
@@ -262,7 +269,9 @@ export function MyOrdersPanel() {
           { method: "POST", signal: requestController.signal },
         )
         if (cancelled) return
-        const data = await apiJson<OrderResponse[]>("/orders", { signal: requestController.signal })
+        const data = await apiJson<OrderResponse[]>(ORDERS_PATH, {
+          signal: requestController.signal,
+        })
         if (cancelled) return
         setOrders(data)
         const view = paymentStatusView(
@@ -345,7 +354,7 @@ export function MyOrdersPanel() {
         `/payment/orders/${encodeURIComponent(orderNo)}/refresh`,
         { method: "POST", signal: controller.signal },
       )
-      const data = await apiJson<OrderResponse[]>("/orders", { signal: controller.signal })
+      const data = await apiJson<OrderResponse[]>(ORDERS_PATH, { signal: controller.signal })
       if (controller.signal.aborted) return
       setOrders(data)
       if (result.status === "paid") {

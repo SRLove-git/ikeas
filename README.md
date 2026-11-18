@@ -1,6 +1,14 @@
 # BUZUD 健康产品商城
 
-基于 Next.js 16 + Spring Boot 3.5 的 BUZUD 品牌健康产品商城。当前商品目录为零售价清单中的 23 个家庭健康自测与监测产品（快速检测试剂、智能手表、血压计、血糖管理、健康监测设备），价格以 SGD 显示。
+基于 Next.js 16 + Spring Boot 3.5 的 CHUNG YIP 多品牌商城，2026-11 起拆分为三个域名、共享一套后端与会员体系：
+
+| 域名 | 定位 |
+| --- | --- |
+| `medical-sg.com` | 医疗健康站（BUZUD 医疗/健康商品） |
+| `home-sg.com` | 家庭生活站（东芝 / 美的家电） |
+| `life-sg.com` | 品牌门户 + 统一登录/会员/订单中心 |
+
+三站共用 PostgreSQL、订单、支付、库存与 OMS；会员登录由门户统一发起跨站 SSO。完整拆分说明、部署步骤与验收清单见 [`docs/site-split.md`](docs/site-split.md)。商品价格统一以 SGD 显示。
 
 ## 功能
 

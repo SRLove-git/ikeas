@@ -3,6 +3,7 @@ import { SiteLayout } from "@/components/SiteLayout"
 import { productHref } from "@/lib/product-url"
 import { SiteImage } from "@/components/SiteImage"
 import { allProducts } from "@/data/products-index"
+import { productVisibleInScope } from "@/lib/site-scope"
 import { formatPrice } from "@/lib/catalog"
 import { Breadcrumbs } from "@/components/Breadcrumbs"
 import { getLocale, getServerT } from "@/i18n/server"
@@ -10,7 +11,9 @@ import { getLocale, getServerT } from "@/i18n/server"
 export default async function ComparePage() {
   const locale = await getLocale()
   const t = await getServerT(locale)
-  const items = allProducts(locale).slice(0, 3)
+  const items = allProducts(locale)
+    .filter((product) => productVisibleInScope(product))
+    .slice(0, 3)
   const rows: [string, (p: (typeof items)[number]) => string][] = [
     [t("common.price"), (p) => formatPrice(p.price)],
     [t("common.type"), (p) => p.productType ?? "—"],

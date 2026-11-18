@@ -1,5 +1,6 @@
-import { redirect } from "next/navigation"
+import { permanentRedirect } from "next/navigation"
+import { SITE_SCOPE, absoluteUrl } from "@/lib/site-scope"
 
 export default function ToshibaRedirectPage() {
-  redirect("/zh/toshiba/")
+  permanentRedirect(SITE_SCOPE === "home" ? "/zh/toshiba/" : absoluteUrl("home", "/zh/toshiba/"))
 }

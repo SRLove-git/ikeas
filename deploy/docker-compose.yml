@@ -1,44 +1,110 @@
 name: buzud
 
+# ===== 三站点前端 =====
+# 同一份代码、同一套后端/数据库，按 NEXT_PUBLIC_SITE_SCOPE 构建三个镜像：
+#   app        -> medical-sg.com  医疗站（医疗组商品）
+#   app-home   -> home-sg.com     家庭站（东芝/美的家电）
+#   app-portal -> life-sg.com     品牌门户 + 统一会员/订单中心
+# 账号、订单、支付、库存全部走同一个 buzud-server / PostgreSQL / OMS。
+
+x-frontend-build-args: &frontend-build-args
+  NEXT_PUBLIC_BASE_PATH: ${NEXT_PUBLIC_BASE_PATH:-}
+  NEXT_PUBLIC_AUTH_LOGIN_ENABLED: ${NEXT_PUBLIC_AUTH_LOGIN_ENABLED:-true}
+  NEXT_PUBLIC_MEDICAL_URL: ${NEXT_PUBLIC_MEDICAL_URL:-https://medical-sg.com}
+  NEXT_PUBLIC_HOME_URL: ${NEXT_PUBLIC_HOME_URL:-https://home-sg.com}
+  NEXT_PUBLIC_PORTAL_URL: ${NEXT_PUBLIC_PORTAL_URL:-https://life-sg.com}
+
+x-frontend-common: &frontend-common
+  restart: unless-stopped
+  env_file:
+    - path: ../.env.local
+      required: false
+    - path: ../.env
+      required: false
+  volumes:
+    - /opt/buzud/cms-data:/app/src/data
+  healthcheck:
+    test: ["CMD-SHELL", "node -e \"fetch('http://127.0.0.1:3000/').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))\""]
+    interval: 30s
+    timeout: 10s
+    retries: 3
+    start_period: 10s
+
+x-frontend-environment: &frontend-environment
+  NODE_ENV: production
+  NEXT_TELEMETRY_DISABLED: "1"
+  NEXT_PUBLIC_BASE_PATH: ${NEXT_PUBLIC_BASE_PATH:-}
+  NEXT_PUBLIC_AUTH_LOGIN_ENABLED: ${NEXT_PUBLIC_AUTH_LOGIN_ENABLED:-true}
+  NEXT_PUBLIC_MEDICAL_URL: ${NEXT_PUBLIC_MEDICAL_URL:-https://medical-sg.com}
+  NEXT_PUBLIC_HOME_URL: ${NEXT_PUBLIC_HOME_URL:-https://home-sg.com}
+  NEXT_PUBLIC_PORTAL_URL: ${NEXT_PUBLIC_PORTAL_URL:-https://life-sg.com}
+  ADMIN_USERNAME: ${ADMIN_USERNAME:-admin}
+  ADMIN_PASSWORD: ${ADMIN_PASSWORD:-admin123}
+  ADMIN_SECRET: ${ADMIN_SECRET:-ikea-admin-secret}
+
 services:
   app:
+    <<: *frontend-common
     build:
       context: ..
       dockerfile: deploy/Dockerfile
       target: runner
       args:
-        NEXT_PUBLIC_API_BASE: ${NEXT_PUBLIC_API_BASE:-https://life-sg.com}
-        NEXT_PUBLIC_SITE_URL: ${NEXT_PUBLIC_SITE_URL:-https://life-sg.com}
-        NEXT_PUBLIC_BASE_PATH: ${NEXT_PUBLIC_BASE_PATH:-}
-        NEXT_PUBLIC_AUTH_LOGIN_ENABLED: ${NEXT_PUBLIC_AUTH_LOGIN_ENABLED:-true}
-    image: buzud-frontend:latest
-    container_name: buzud-frontend
-    restart: unless-stopped
+        <<: *frontend-build-args
+        NEXT_PUBLIC_SITE_SCOPE: medical
+        NEXT_PUBLIC_SITE_URL: ${NEXT_PUBLIC_SITE_URL:-https://medical-sg.com}
+        NEXT_PUBLIC_API_BASE: ${NEXT_PUBLIC_API_BASE:-https://medical-sg.com}
+    image: buzud-frontend-medical:latest
+    container_name: buzud-frontend-medical
     ports:
-      - "${APP_BIND_ADDRESS:-127.0.0.1}:${PORT:-3000}:3000"
+      - "${APP_BIND_ADDRESS:-127.0.0.1}:${PORT:-3100}:3000"
     environment:
-      - NODE_ENV=production
-      - NEXT_TELEMETRY_DISABLED=1
-      - NEXT_PUBLIC_API_BASE=${NEXT_PUBLIC_API_BASE:-https://life-sg.com}
-      - NEXT_PUBLIC_SITE_URL=${NEXT_PUBLIC_SITE_URL:-https://life-sg.com}
-      - NEXT_PUBLIC_BASE_PATH=${NEXT_PUBLIC_BASE_PATH:-}
-      - NEXT_PUBLIC_AUTH_LOGIN_ENABLED=${NEXT_PUBLIC_AUTH_LOGIN_ENABLED:-true}
-      - ADMIN_USERNAME=${ADMIN_USERNAME:-admin}
-      - ADMIN_PASSWORD=${ADMIN_PASSWORD:-admin123}
-      - ADMIN_SECRET=${ADMIN_SECRET:-ikea-admin-secret}
-    env_file:
-      - path: ../.env.local
-        required: false
-      - path: ../.env
-        required: false
-    volumes:
-      - /opt/buzud/cms-data:/app/src/data
-    healthcheck:
-      test: ["CMD-SHELL", "node -e \"fetch('http://127.0.0.1:3000/').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))\""]
-      interval: 30s
-      timeout: 10s
-      retries: 3
-      start_period: 10s
+      <<: *frontend-environment
+      NEXT_PUBLIC_SITE_SCOPE: medical
+      NEXT_PUBLIC_SITE_URL: ${NEXT_PUBLIC_SITE_URL:-https://medical-sg.com}
+      NEXT_PUBLIC_API_BASE: ${NEXT_PUBLIC_API_BASE:-https://medical-sg.com}
+
+  app-home:
+    <<: *frontend-common
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+      target: runner
+      args:
+        <<: *frontend-build-args
+        NEXT_PUBLIC_SITE_SCOPE: home
+        NEXT_PUBLIC_SITE_URL: ${NEXT_PUBLIC_HOME_URL:-https://home-sg.com}
+        NEXT_PUBLIC_API_BASE: ${NEXT_PUBLIC_HOME_URL:-https://home-sg.com}
+    image: buzud-frontend-home:latest
+    container_name: buzud-frontend-home
+    ports:
+      - "${APP_BIND_ADDRESS:-127.0.0.1}:${HOME_APP_PORT:-3101}:3000"
+    environment:
+      <<: *frontend-environment
+      NEXT_PUBLIC_SITE_SCOPE: home
+      NEXT_PUBLIC_SITE_URL: ${NEXT_PUBLIC_HOME_URL:-https://home-sg.com}
+      NEXT_PUBLIC_API_BASE: ${NEXT_PUBLIC_HOME_URL:-https://home-sg.com}
+
+  app-portal:
+    <<: *frontend-common
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+      target: runner
+      args:
+        <<: *frontend-build-args
+        NEXT_PUBLIC_SITE_SCOPE: portal
+        NEXT_PUBLIC_SITE_URL: ${NEXT_PUBLIC_PORTAL_URL:-https://life-sg.com}
+        NEXT_PUBLIC_API_BASE: ${NEXT_PUBLIC_PORTAL_URL:-https://life-sg.com}
+    image: buzud-frontend-portal:latest
+    container_name: buzud-frontend-portal
+    ports:
+      - "${APP_BIND_ADDRESS:-127.0.0.1}:${PORTAL_APP_PORT:-3102}:3000"
+    environment:
+      <<: *frontend-environment
+      NEXT_PUBLIC_SITE_SCOPE: portal
+      NEXT_PUBLIC_SITE_URL: ${NEXT_PUBLIC_PORTAL_URL:-https://life-sg.com}
+      NEXT_PUBLIC_API_BASE: ${NEXT_PUBLIC_PORTAL_URL:-https://life-sg.com}
 
   dev:
     build:
@@ -79,7 +145,7 @@ services:
       - "${SERVER_BIND_ADDRESS:-127.0.0.1}:${SERVER_PORT:-8080}:8080"
     environment:
       - IKEA_STATIC_PUBLIC_DIR=${IKEA_STATIC_PUBLIC_DIR:-/app/frontend/public}
-      - CORS_ALLOWED_ORIGINS=${CORS_ALLOWED_ORIGINS:-http://localhost:3000,http://localhost:3001,http://47.84.25.19:3001,https://life-sg.com,https://www.life-sg.com}
+      - CORS_ALLOWED_ORIGINS=${CORS_ALLOWED_ORIGINS:-http://localhost:3000,http://localhost:3001,http://47.84.25.19:3001,https://life-sg.com,https://www.life-sg.com,https://medical-sg.com,https://www.medical-sg.com,https://home-sg.com,https://www.home-sg.com}
       - IKEA_OSS_ENABLED=${IKEA_OSS_ENABLED:-false}
       - IKEA_OSS_ENDPOINT=${IKEA_OSS_ENDPOINT:-}
       - IKEA_OSS_BUCKET=${IKEA_OSS_BUCKET:-}
@@ -113,13 +179,16 @@ services:
       - IKEA_YEAHPAY_LANG=${IKEA_YEAHPAY_LANG:-en}
       - IKEA_YEAHPAY_ENABLED_METHODS=${IKEA_YEAHPAY_ENABLED_METHODS:-paynow,wechatpay,alipay,visa,mastercard,amex}
       - IKEA_STRIPE_RETURN_URL_BASE=${IKEA_STRIPE_RETURN_URL_BASE:-https://life-sg.com}
+      - BUZUD_SITE_MEDICAL_URL=${BUZUD_SITE_MEDICAL_URL:-https://medical-sg.com}
+      - BUZUD_SITE_HOME_URL=${BUZUD_SITE_HOME_URL:-https://home-sg.com}
+      - BUZUD_SITE_PORTAL_URL=${BUZUD_SITE_PORTAL_URL:-https://life-sg.com}
       - BUZUD_OMS_ENABLED=${BUZUD_OMS_ENABLED:-false}
       - BUZUD_OMS_CALLBACK_SECRET=${BUZUD_OMS_CALLBACK_SECRET:-}
       - BUZUD_OMS_GATEWAY_URL=${BUZUD_OMS_GATEWAY_URL:-http://localhost:8080}
       - BUZUD_OMS_APP_ID=${BUZUD_OMS_APP_ID:-}
       - BUZUD_OMS_APP_SECRET=${BUZUD_OMS_APP_SECRET:-}
       - BUZUD_OMS_MERCHANT_ID=${BUZUD_OMS_MERCHANT_ID:-}
-      - BUZUD_VOUCHER_BOOKING_URL=${BUZUD_VOUCHER_BOOKING_URL:-https://life-sg.com/zh/booking/}
+      - BUZUD_VOUCHER_BOOKING_URL=${BUZUD_VOUCHER_BOOKING_URL:-https://medical-sg.com/zh/booking/}
       - BUZUD_VOUCHER_POINTS_REDEEM_URL=${BUZUD_VOUCHER_POINTS_REDEEM_URL:-https://life-sg.com/zh/profile/}
       - BUZUD_MARKETING_PUBLIC_BASE_URL=${BUZUD_MARKETING_PUBLIC_BASE_URL:-https://life-sg.com}
       - OMS_INTEGRATION_NOTIFICATION_REPLY_TO=${OMS_INTEGRATION_NOTIFICATION_REPLY_TO:-support@life-sg.com}

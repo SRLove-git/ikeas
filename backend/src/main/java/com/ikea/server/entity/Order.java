@@ -21,6 +21,7 @@ public class Order {
   private Long userId;
   private Integer status;
   private String currency;
+  private String salesChannel;
   private BigDecimal subtotal;
   private BigDecimal deliveryFee;
   private BigDecimal totalAmount;
@@ -83,6 +84,14 @@ public class Order {
 
   public void setCurrency(String currency) {
     this.currency = currency;
+  }
+
+  public String getSalesChannel() {
+    return salesChannel;
+  }
+
+  public void setSalesChannel(String salesChannel) {
+    this.salesChannel = salesChannel;
   }
 
   public BigDecimal getSubtotal() {

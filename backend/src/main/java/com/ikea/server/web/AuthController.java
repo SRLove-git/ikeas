@@ -9,8 +9,12 @@ import com.ikea.server.dto.auth.MessageResponse;
 import com.ikea.server.dto.auth.RefreshTokenRequest;
 import com.ikea.server.dto.auth.RegisterRequest;
 import com.ikea.server.dto.auth.ResetPasswordRequest;
+import com.ikea.server.dto.auth.SsoCodeRequest;
+import com.ikea.server.dto.auth.SsoCodeResponse;
+import com.ikea.server.dto.auth.SsoExchangeRequest;
 import com.ikea.server.model.User;
 import com.ikea.server.service.AuthService;
+import com.ikea.server.service.SsoService;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.validation.Valid;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -24,9 +28,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class AuthController {
 
   private final AuthService authService;
+  private final SsoService ssoService;
 
-  public AuthController(AuthService authService) {
+  public AuthController(AuthService authService, SsoService ssoService) {
     this.authService = authService;
+    this.ssoService = ssoService;
   }
 
   @PostMapping("/email/send")
@@ -65,6 +71,17 @@ public class AuthController {
   public MessageResponse logout(HttpServletRequest request) {
     authService.logout(userId(request));
     return new MessageResponse("已退出登录");
+  }
+
+  @PostMapping("/sso/code")
+  public SsoCodeResponse ssoCode(
+      HttpServletRequest request, @Valid @RequestBody SsoCodeRequest body) {
+    return ssoService.issueCode(userId(request), body.target());
+  }
+
+  @PostMapping("/sso/exchange")
+  public AuthResponse ssoExchange(@Valid @RequestBody SsoExchangeRequest body) {
+    return ssoService.exchange(body.code());
   }
 
   private static Long userId(HttpServletRequest request) {

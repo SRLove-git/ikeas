@@ -152,6 +152,14 @@ public class AuthService {
     return toUser(user);
   }
 
+  /** 为已存在的用户签发新的 access/refresh 令牌对（跨站 SSO 兑换复用同一套签发逻辑）。 */
+  public AuthResponse issueTokensForUser(Long userId) {
+    AppUser user =
+        userService.findById(userId).orElseThrow(() -> new AuthException("用户不存在"));
+    ensureActive(user);
+    return issueTokenPair(user);
+  }
+
   public void logout(Long userId) {
     if (userId != null) {
       tokenService.revokeAllForUser(userId);

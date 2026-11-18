@@ -6,11 +6,13 @@ import { useTranslation } from "react-i18next"
 import { ArrowRightIcon, CloseIcon, SearchIcon } from "@/components/icons"
 import { SiteImage } from "@/components/SiteImage"
 import type { Category } from "@/data/categories"
+import { SITE_SCOPE, type SiteScope } from "@/lib/site-scope"
 
 interface SearchPanelProps {
   query: string
   searchHints: string[]
   categories: Category[]
+  scope?: SiteScope
   onQueryChange: (value: string) => void
   onSubmit: (value: string) => void
   onClose: () => void
@@ -20,6 +22,7 @@ export function SearchPanel({
   query,
   searchHints,
   categories,
+  scope = SITE_SCOPE,
   onQueryChange,
   onSubmit,
   onClose,
@@ -33,10 +36,14 @@ export function SearchPanel({
     return () => window.removeEventListener("keydown", handleKeyDown)
   }, [onClose])
 
+  // Appliance searches use brand/category names rather than the medical
+  // homepage hint list, so suggestions can never lead to the other catalogue.
+  const hints =
+    scope === "home" ? categories.slice(0, 6).map((category) => category.name) : searchHints
   const keyword = query.trim().toLowerCase()
   const suggestions = keyword
-    ? searchHints.filter((hint) => hint.toLowerCase().includes(keyword)).slice(0, 6)
-    : searchHints.slice(0, 6)
+    ? hints.filter((hint) => hint.toLowerCase().includes(keyword)).slice(0, 6)
+    : hints.slice(0, 6)
   const matchedCategories = keyword
     ? categories.filter((category) => category.name.toLowerCase().includes(keyword)).slice(0, 4)
     : []

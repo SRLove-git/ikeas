@@ -52,7 +52,8 @@ public class SecurityConfig {
                         "/api/v1/auth/register",
                         "/api/v1/auth/email/send",
                         "/api/v1/auth/password/reset",
-                        "/api/v1/auth/refresh")
+                        "/api/v1/auth/refresh",
+                        "/api/v1/auth/sso/exchange")
                     .permitAll()
                     .requestMatchers(HttpMethod.POST, "/api/v1/marketing/coupons/claim-by-email")
                     .permitAll()
@@ -75,6 +76,7 @@ public class SecurityConfig {
                     .requestMatchers(
                         "/api/v1/auth/me",
                         "/api/v1/auth/logout",
+                        "/api/v1/auth/sso/code",
                         "/api/v1/cart/**",
                         "/api/v1/favorites/**",
                         "/api/v1/marketing/**",
@@ -111,7 +113,11 @@ public class SecurityConfig {
 
   @Bean
   public CorsConfigurationSource corsConfigurationSource(
-      @Value("${ikea.cors.allowed-origins:http://localhost:3000,http://localhost:3001}")
+      @Value(
+              "${ikea.cors.allowed-origins:http://localhost:3000,http://localhost:3001,"
+                  + "https://medical-sg.com,https://www.medical-sg.com,"
+                  + "https://home-sg.com,https://www.home-sg.com,"
+                  + "https://life-sg.com,https://www.life-sg.com}")
           String allowedOrigins) {
     CorsConfiguration configuration = new CorsConfiguration();
     configuration.setAllowedOrigins(

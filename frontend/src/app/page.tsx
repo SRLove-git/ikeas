@@ -7,21 +7,29 @@ import { HeroVideo } from "@/components/HeroVideo"
 import { InspirationTipsCard } from "@/components/InspirationTipsCard"
 import { PromoInspirationCard } from "@/components/PromoInspirationCard"
 import { VisualPillSlider } from "@/components/VisualPillSlider"
+import { HomeSiteHome } from "@/components/home-site/HomeSiteHome"
+import { PortalHome } from "@/components/portal/PortalHome"
 import { homepage } from "@/data/homepage"
 import { catalogData } from "@/data/catalog"
 import { mideaCommerceProducts, toshibaCommerceProducts } from "@/data/brand-commerce"
 import { catalogPages } from "@/lib/catalog-pages"
 import { getMenuPanels } from "@/data/menu-panels"
 import { getMenuCategories } from "@/data/categories"
+import { SITE_SCOPE, isAppliancePath } from "@/lib/site-scope"
 import { getLocale, getServerT } from "@/i18n/server"
 
 const showExperienceBooking = process.env.NEXT_PUBLIC_SHOW_EXPERIENCE_BOOKING === "true"
 
 export default async function Home() {
+  // Deployment scope landing branches. The dedicated home/portal agents own
+  // `<HomeSiteHome />` and `<PortalHome />`; keep this switch tiny so their
+  // implementations can evolve independently.
+  if (SITE_SCOPE === "portal") return <PortalHome />
+  if (SITE_SCOPE === "home") return <HomeSiteHome />
+
   const locale = await getLocale()
   const t = await getServerT(locale)
   const {
-    appliancePillItems,
     footerFeaturedCards,
     footerLinkGroups,
     heroVideos,
@@ -43,30 +51,33 @@ export default async function Home() {
     midea: mideaCommerceProducts(locale).length,
     toshiba: toshibaCommerceProducts(locale).length,
   }
-  const promoItems = promoCardItems.map((item) => {
-    const slug = (item.ctaHref ?? item.href ?? "").split("/").filter(Boolean).at(-1)
-    const brandSlug = slug === "midea" || slug === "toshiba" ? slug : null
-    let count: number | null = null
-    if (slug) {
-      const category = [...catalogCategories, ...channelCategories].find(
-        (candidate) => candidate.slug === slug,
-      )
-      if (category) {
-        count = category.products.length
-      } else {
-        const page = catalogPages(locale).find(
-          (candidate) => candidate.url.split("/").filter(Boolean).at(-1) === slug,
+  const promoItems = promoCardItems
+    // The medical homepage never promotes appliance catalogues.
+    .filter((item) => !isAppliancePath(item.ctaHref ?? item.href ?? ""))
+    .map((item) => {
+      const slug = (item.ctaHref ?? item.href ?? "").split("/").filter(Boolean).at(-1)
+      const brandSlug = slug === "midea" || slug === "toshiba" ? slug : null
+      let count: number | null = null
+      if (slug) {
+        const category = [...catalogCategories, ...channelCategories].find(
+          (candidate) => candidate.slug === slug,
         )
-        count = page ? (page.productIds ?? []).length : null
-        if (count == null && brandSlug) count = brandProductCount[brandSlug]
+        if (category) {
+          count = category.products.length
+        } else {
+          const page = catalogPages(locale).find(
+            (candidate) => candidate.url.split("/").filter(Boolean).at(-1) === slug,
+          )
+          count = page ? (page.productIds ?? []).length : null
+          if (count == null && brandSlug) count = brandProductCount[brandSlug]
+        }
       }
-    }
-    if (count == null) return item
-    return {
-      ...item,
-      description: t(brandSlug ? "home.promoApplianceCount" : "home.promoCount", { count }),
-    }
-  })
+      if (count == null) return item
+      return {
+        ...item,
+        description: t(brandSlug ? "home.promoApplianceCount" : "home.promoCount", { count }),
+      }
+    })
   return (
     <main className="text-left">
       <div className="font-ikea">
@@ -76,9 +87,10 @@ export default async function Home() {
             searchHints={searchHints}
             menuPanels={getMenuPanels(locale)}
             categories={getMenuCategories(locale)}
+            scope={SITE_SCOPE}
           />
           <div className="i-layout__body">
-            <HeroVideo items={heroVideos} />
+            <HeroVideo items={heroVideos.filter((item) => !isAppliancePath(item.href ?? ""))} />
             <div className="clearfix min-h-screen px-0 m-auto mt-4 mb-8 space-y-8 text-left lg:mt-6 lg:mb-12 lg:space-y-12 max-w-page">
               {showExperienceBooking ? (
                 <BookingHighlight
@@ -100,7 +112,7 @@ export default async function Home() {
               <PromoInspirationCard title={t("home.promoTitle")} items={promoItems} />
               <VisualPillSlider
                 title={t("home.shopByCategory")}
-                items={roomPillItems}
+                items={roomPillItems.filter((item) => !isAppliancePath(item.href ?? ""))}
                 cta={roomPillCta}
               />
               <InspirationTipsCard title={t("home.healthyTips")} items={inspirationTipsItems} />
@@ -109,7 +121,6 @@ export default async function Home() {
                 items={sustainabilityPillItems}
                 cta={sustainabilityPillCta}
               />
-              <VisualPillSlider title={t("home.applianceLiving")} items={appliancePillItems} />
             </div>
           </div>
           <Footer
@@ -117,6 +128,7 @@ export default async function Home() {
             featured={footerFeaturedCards}
             socialIcons={socialIcons}
             legal={legalBar}
+            scope={SITE_SCOPE}
           />
           <FloatingWidgets />
           <CartDrawer />

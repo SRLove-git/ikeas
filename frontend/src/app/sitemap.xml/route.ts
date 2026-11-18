@@ -1,45 +1,80 @@
-import { productsBySlug } from "@/data/products-index"
-import { catalogData } from "@/data/catalog"
-import { catalogPages } from "@/lib/catalog-pages"
+import { allProducts } from "@/data/products-index"
+import { getMenuCategories } from "@/data/categories"
 import { productHref } from "@/lib/product-url"
+import { SITE_SCOPE, SITE_URL, productVisibleInScope } from "@/lib/site-scope"
+
+function escapeXml(value: string): string {
+  return value
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&apos;")
+}
+
+function withTrailingSlash(path: string): string {
+  return path.endsWith("/") ? path : `${path}/`
+}
+
+function urlEntry(loc: string, changefreq: string, priority: string, lastmod?: string): string {
+  return `<url><loc>${escapeXml(loc)}</loc>${
+    lastmod ? `<lastmod>${lastmod}</lastmod>` : ""
+  }<changefreq>${changefreq}</changefreq><priority>${priority}</priority></url>`
+}
+
+function xmlResponse(entries: string[]): Response {
+  const xml = `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${entries.join(
+    "",
+  )}</urlset>`
+  return new Response(xml, {
+    headers: { "Content-Type": "application/xml; charset=utf-8" },
+  })
+}
+
+export const dynamic = "force-dynamic"
 
 export async function GET() {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://life-sg.com"
   const now = new Date().toISOString()
-  const productUrls = Array.from(productsBySlug().values())
-    .map(
-      (product) =>
-        `<url><loc>${baseUrl}${productHref(product)}</loc><lastmod>${now}</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>`,
-    )
-    .join("")
-  const categoryUrls = [...catalogData().catalogCategories, ...catalogPages()]
-    .map((page) => {
-      const slug = page.url?.split("/").filter(Boolean).at(-1)
-      return slug
-        ? `<url><loc>${baseUrl}/zh/cat/${slug}/</loc><lastmod>${now}</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>`
-        : ""
-    })
-    .join("")
-  const staticUrls = [
+
+  // Each domain publishes its own sitemap; the portal only lists its landing
+  // page so every <loc> stays on the same host.
+  if (SITE_SCOPE === "portal") {
+    return xmlResponse([urlEntry(`${SITE_URL}/`, "daily", "1.0", now)])
+  }
+
+  const sharedPaths = [
+    "/zh/all-products/",
     "/zh/company/",
     "/zh/customer-service/",
     "/zh/customer-service/contact-us/",
     "/zh/customer-service/services/delivery/",
     "/zh/customer-service/services/aftersales/",
     "/zh/customer-service/warranty-registration/",
-    "/zh/midea/",
-    "/zh/toshiba/",
     "/zh/privacy-policy/",
     "/zh/conditions-of-use/",
     "/zh/online-purchase-agreement/",
   ]
-    .map(
-      (path) =>
-        `<url><loc>${baseUrl}${path}</loc><lastmod>${now}</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>`,
-    )
-    .join("")
-  const xml = `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>${baseUrl}/zh/</loc><changefreq>daily</changefreq><priority>1.0</priority></url><url><loc>${baseUrl}/zh/all-products/</loc><changefreq>daily</changefreq><priority>0.9</priority></url>${categoryUrls}${staticUrls}${productUrls}</urlset>`
-  return new Response(xml, {
-    headers: { "Content-Type": "application/xml; charset=utf-8" },
-  })
+
+  const categoryPaths =
+    SITE_SCOPE === "home"
+      ? ["/zh/toshiba/", "/zh/midea/"]
+      : Array.from(
+          new Set(
+            getMenuCategories()
+              .map((category) => category.url)
+              .filter((url) => url.startsWith("/zh/cat/"))
+              .map(withTrailingSlash),
+          ),
+        )
+
+  const productPaths = allProducts()
+    .filter((product) => productVisibleInScope(product))
+    .map((product) => productHref(product))
+
+  return xmlResponse([
+    urlEntry(`${SITE_URL}/`, "daily", "1.0", now),
+    ...categoryPaths.map((path) => urlEntry(`${SITE_URL}${path}`, "weekly", "0.7", now)),
+    ...sharedPaths.map((path) => urlEntry(`${SITE_URL}${path}`, "monthly", "0.5", now)),
+    ...productPaths.map((path) => urlEntry(`${SITE_URL}${path}`, "weekly", "0.8", now)),
+  ])
 }

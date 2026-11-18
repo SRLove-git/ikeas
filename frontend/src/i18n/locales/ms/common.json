@@ -32,7 +32,12 @@
     "allProducts": "Semua produk",
     "newMark": "Baharu",
     "menuLabel": "Menu",
-    "groupOther": "Lain-lain"
+    "groupOther": "Lain-lain",
+    "siteSwitcher": "Penukar laman",
+    "medicalSite": "Perubatan & kesihatan",
+    "homeSite": "Rumah & kehidupan",
+    "memberCenter": "Pusat ahli",
+    "customerService": "Perkhidmatan pelanggan"
   },
   "notice": {
     "chinese": "中文",
@@ -80,7 +85,8 @@
     "viewAllResults": "Lihat semua hasil untuk “{{q}}”"
   },
   "footer": {
-    "chooseLanguage": "Pilih bahasa"
+    "chooseLanguage": "Pilih bahasa",
+    "ourSites": "Laman kami"
   },
   "home": {
     "promoTitle": "Pilihan CHUNG YIP",

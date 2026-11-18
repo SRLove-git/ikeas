@@ -15,6 +15,7 @@ import {
   type ShippingAddress,
 } from "@/lib/address-book"
 import { useShippingQuote } from "@/hooks/useShippingQuote"
+import { SITE_SCOPE } from "@/lib/site-scope"
 
 interface CouponView {
   id: number
@@ -188,6 +189,7 @@ export function CheckoutPanel() {
         method: "POST",
         body: JSON.stringify({
           fromCart: true,
+          siteScope: SITE_SCOPE,
           usePoints,
           useBalance,
           customer: form.customer.trim(),

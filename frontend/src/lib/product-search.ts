@@ -1,7 +1,9 @@
 import { allProducts, productsBySlug } from "@/data/products-index"
 import { catalogData } from "@/data/catalog"
 import { getMenuCategories } from "@/data/categories"
+import { allBrandCommerceProducts } from "@/data/brand-commerce"
 import { catalogPages } from "@/lib/catalog-pages"
+import { productVisibleInScope } from "@/lib/site-scope"
 import type { ProductData } from "@/data/pages-types"
 import { DEFAULT_LOCALE, type Locale } from "@/i18n/config"
 
@@ -57,6 +59,13 @@ function buildSearchMeta(locale: Locale): ProductSearchMeta {
     const names = aliasNamesById.get(productId) ?? new Set<string>()
     names.add(text)
     aliasNamesById.set(productId, names)
+  }
+
+  // Appliance products are not part of catalog.json, so index their brand
+  // names and brand slugs (used by the search category filter) explicitly.
+  for (const product of allBrandCommerceProducts(locale)) {
+    addCategoryName(product.id, product.categoryNames?.[0])
+    categorySlugById.set(product.id, product.brand)
   }
 
   for (const page of catalogPages(locale)) {
@@ -202,7 +211,9 @@ export function searchProducts(
   const meta = buildSearchMeta(locale)
   const normalizedQuery = query.normalize("NFKC").toLowerCase().trim()
   const terms = tokenize(normalizedQuery)
-  const all = allProducts(locale)
+  // Search is catalogue-scoped: medical searches never surface appliances and
+  // home searches never surface BUZUD health products.
+  const all = allProducts(locale).filter((product) => productVisibleInScope(product))
 
   const scored = terms.length
     ? all

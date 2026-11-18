@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { notFound } from "next/navigation"
+import { notFound, permanentRedirect } from "next/navigation"
 import type { Metadata } from "next"
 import { SiteLayout } from "@/components/SiteLayout"
 import { SiteImage } from "@/components/SiteImage"
@@ -9,6 +9,7 @@ import { BrowsingHistoryTracker } from "@/components/BrowsingHistoryTracker"
 import { Breadcrumbs } from "@/components/Breadcrumbs"
 import { formatPrice } from "@/lib/catalog-format"
 import { allToshibaProducts, toshibaCatalog, toshibaProductBySlug } from "@/data/toshiba"
+import { SITE_SCOPE, absoluteUrl } from "@/lib/site-scope"
 import { getLocale, getServerT } from "@/i18n/server"
 
 export const dynamic = "force-dynamic"
@@ -36,6 +37,9 @@ export default async function ToshibaProductPage({
   params: Promise<{ slug: string }>
 }) {
   const { slug } = await params
+  if (SITE_SCOPE !== "home") {
+    permanentRedirect(absoluteUrl("home", `/zh/toshiba/p/${slug}/`))
+  }
   const locale = await getLocale()
   const t = await getServerT(locale)
   const product = toshibaProductBySlug(slug, locale)

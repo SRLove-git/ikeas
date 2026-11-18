@@ -3,6 +3,7 @@
 // as BUZUD categories under frontend/src/data/menu-categories.json.)
 
 import { loadLocalizedData } from "@/lib/data-files"
+import { categoryVisibleInScope } from "@/lib/site-scope"
 import { DEFAULT_LOCALE, type Locale } from "@/i18n/config"
 
 export interface CategorySub {
@@ -24,5 +25,7 @@ export interface Category {
 
 export function getMenuCategories(locale: Locale = DEFAULT_LOCALE): Category[] {
   const data = loadLocalizedData<{ categories: Category[] }>("menu-categories.json", locale)
-  return data.categories
+  // Each deployment only exposes its own CMS group (医疗 / 家电); the portal
+  // shell intentionally has no product navigation.
+  return data.categories.filter((category) => categoryVisibleInScope(category))
 }

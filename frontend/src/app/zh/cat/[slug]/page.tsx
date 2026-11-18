@@ -1,15 +1,17 @@
 import Link from "next/link"
-import { notFound } from "next/navigation"
+import { notFound, permanentRedirect } from "next/navigation"
 import { findCategoryBySlug } from "@/lib/catalog"
 import { ProductCard } from "@/components/ProductCard"
 import { SiteImage } from "@/components/SiteImage"
 import { findCatalogPageBySlug, productHref } from "@/lib/catalog-pages"
+import { productHref as productUrl } from "@/lib/product-url"
 import { productSlugsWithDetails } from "@/lib/catalog"
 import { formatPrice } from "@/lib/catalog-format"
 import { ContentBlocks } from "@/components/ContentBlocks"
 import { SiteLayout } from "@/components/SiteLayout"
 import { Breadcrumbs } from "@/components/Breadcrumbs"
 import { allProducts } from "@/data/products-index"
+import { SITE_SCOPE, absoluteUrl, productVisibleInScope } from "@/lib/site-scope"
 import { getLocale, getServerT } from "@/i18n/server"
 
 export const dynamic = "force-dynamic"
@@ -23,7 +25,31 @@ export default async function CategoryPage({
 }) {
   const { slug } = await params
   const { sort: rawSort, type: rawType } = await searchParams
+  const query = new URLSearchParams()
+  if (rawSort) query.set("sort", rawSort)
+  if (rawType) query.set("type", rawType)
+  const queryString = query.toString() ? `?${query.toString()}` : ""
+  const path = `/zh/cat/${slug}/${queryString}`
+
+  // Category pages belong to the medical catalogue. Home visitors are sent to
+  // the canonical medical-sg.com page (308) so SEO signals stay on one domain.
+  if (SITE_SCOPE === "home") {
+    permanentRedirect(absoluteUrl("medical", path))
+  }
+
   const locale = await getLocale()
+  if (SITE_SCOPE === "portal") {
+    // The portal has no categories: resolve the slug and forward to the site
+    // that owns it.
+    if (findCategoryBySlug(slug, locale) || findCatalogPageBySlug(slug, locale)) {
+      permanentRedirect(absoluteUrl("medical", path))
+    }
+    if (slug === "toshiba" || slug === "midea") {
+      permanentRedirect(absoluteUrl("home", `/zh/${slug}/`))
+    }
+    notFound()
+  }
+
   const t = await getServerT(locale)
   const match = findCategoryBySlug(slug, locale)
   const hrefFor = (sort: string | undefined, type: string | null) => {
@@ -40,7 +66,9 @@ export default async function CategoryPage({
     const products = [...category.products]
     const types = [...new Set(products.map((p) => p.productType).filter(Boolean))] as string[]
     const landingPage = findCatalogPageBySlug(slug, locale)
-    const suggestions = allProducts(locale).slice(0, 4)
+    const suggestions = allProducts(locale)
+      .filter((product) => productVisibleInScope(product))
+      .slice(0, 4)
 
     const sort =
       rawSort === "priceAsc" || rawSort === "priceDesc" || rawSort === "nameAsc" ? rawSort : null
@@ -77,11 +105,7 @@ export default async function CategoryPage({
           <p className="mt-8 text-xs font-bold text-ikea-muted">{t("category.suggestions")}</p>
           <div className="mt-3 flex flex-wrap justify-center gap-2">
             {suggestions.map((product) => (
-              <Link
-                key={product.id}
-                href={`/zh/p/${product.slug}/`}
-                className="i-pill i-pill--small"
-              >
+              <Link key={product.id} href={productUrl(product)} className="i-pill i-pill--small">
                 {product.name}
               </Link>
             ))}
@@ -179,7 +203,9 @@ export default async function CategoryPage({
 
   const page = findCatalogPageBySlug(slug)
   if (!page) notFound()
-  const suggestions = allProducts(locale).slice(0, 4)
+  const suggestions = allProducts(locale)
+    .filter((product) => productVisibleInScope(product))
+    .slice(0, 4)
 
   return (
     <SiteLayout>
@@ -231,7 +257,7 @@ export default async function CategoryPage({
                 {suggestions.map((product) => (
                   <Link
                     key={product.id}
-                    href={`/zh/p/${product.slug}/`}
+                    href={productUrl(product)}
                     className="i-pill i-pill--small"
                   >
                     {product.name}

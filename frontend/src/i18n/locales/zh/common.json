@@ -32,7 +32,12 @@
     "allProducts": "所有产品",
     "newMark": "新品",
     "menuLabel": "菜单",
-    "groupOther": "其他"
+    "groupOther": "其他",
+    "siteSwitcher": "切换站点",
+    "medicalSite": "医疗健康",
+    "homeSite": "家庭生活",
+    "memberCenter": "会员中心",
+    "customerService": "客户服务"
   },
   "notice": {
     "chinese": "中文",
@@ -80,7 +85,8 @@
     "viewAllResults": "查看「{{q}}」的全部搜索结果"
   },
   "footer": {
-    "chooseLanguage": "选择语言"
+    "chooseLanguage": "选择语言",
+    "ourSites": "我们的站点"
   },
   "home": {
     "promoTitle": "CHUNG YIP 精选",

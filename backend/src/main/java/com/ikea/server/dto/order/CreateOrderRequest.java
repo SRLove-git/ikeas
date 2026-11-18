@@ -15,4 +15,5 @@ public record CreateOrderRequest(
     @Size(max = 512, message = "订单备注不能超过 512 位") String remark,
     String couponCode,
     Integer usePoints,
-    BigDecimal useBalance) {}
+    BigDecimal useBalance,
+    String siteScope) {}

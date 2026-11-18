@@ -73,6 +73,7 @@ class OrderServiceOmsPriceTest {
             "",
             null,
             null,
+            null,
             null);
 
     assertThrows(IllegalArgumentException.class, () -> service.create(1L, request));

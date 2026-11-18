@@ -3,6 +3,7 @@ package com.ikea.server.service;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import com.ikea.server.constant.OrderConstants;
 import com.ikea.server.constant.OrderStatus;
+import com.ikea.server.constant.SalesChannel;
 import com.ikea.server.data.CartStore;
 import com.ikea.server.data.DataStore;
 import com.ikea.server.dto.order.CreateOrderItemRequest;
@@ -83,6 +84,9 @@ public class OrderService {
     requireUser(userId);
     List<CreateOrderItemRequest> requestedItems = resolveItems(userId, request);
     List<OrderItem> orderItems = buildOrderItems(requestedItems);
+    String salesChannel =
+        SalesChannel.resolve(
+            request.siteScope(), orderItems.stream().map(OrderItem::getProductId).toList());
 
     // 对接开启时前置校验商品映射与可售库存（对接规范 §6.1 / §4.2 / 验收 T04）
     if (omsChannel.isEnabled()) {
@@ -132,6 +136,7 @@ public class OrderService {
     order.setUserId(userId);
     order.setStatus(OrderStatus.PENDING_PAYMENT.code());
     order.setCurrency(OrderConstants.CURRENCY_SGD);
+    order.setSalesChannel(salesChannel);
     order.setSubtotal(normalizeMoney(subtotal));
     order.setDeliveryFee(normalizeMoney(deliveryFee));
     order.setTotalAmount(normalizeMoney(totalAmount));
@@ -178,12 +183,32 @@ public class OrderService {
 
   @Transactional(readOnly = true)
   public List<OrderResponse> list(Long userId) {
+    return list(userId, null);
+  }
+
+  /**
+   * 查询当前用户订单；channel 为空表示门户聚合查询全部渠道，非法值直接拒绝。
+   */
+  @Transactional(readOnly = true)
+  public List<OrderResponse> list(Long userId, String channel) {
     requireUser(userId);
-    List<Order> orders =
-        orderMapper.selectList(
-            Wrappers.lambdaQuery(Order.class)
-                .eq(Order::getUserId, userId)
-                .orderByDesc(Order::getCreatedAt));
+    String salesChannel = normalizeChannelFilter(channel);
+    com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper<Order> query =
+        Wrappers.lambdaQuery(Order.class)
+            .eq(Order::getUserId, userId)
+            .orderByDesc(Order::getCreatedAt);
+    if (SalesChannel.MEDICAL.equals(salesChannel)) {
+      // 拆分前的历史订单没有 sales_channel，仍归入医疗站，避免用户看不到旧订单。
+      query.and(
+          wrapper ->
+              wrapper
+                  .eq(Order::getSalesChannel, SalesChannel.MEDICAL)
+                  .or()
+                  .isNull(Order::getSalesChannel));
+    } else if (salesChannel != null) {
+      query.eq(Order::getSalesChannel, salesChannel);
+    }
+    List<Order> orders = orderMapper.selectList(query);
     if (orders.isEmpty()) {
       return List.of();
     }
@@ -437,6 +462,7 @@ public class OrderService {
         order.getStatus(),
         status == null ? "未知" : status.label(),
         order.getCurrency(),
+        order.getSalesChannel(),
         normalizeMoney(order.getSubtotal()),
         normalizeMoney(order.getDeliveryFee()),
         normalizeMoney(order.getTotalAmount()),
@@ -482,6 +508,17 @@ public class OrderService {
       return BigDecimal.ZERO.setScale(2, RoundingMode.HALF_UP);
     }
     return value.setScale(2, RoundingMode.HALF_UP);
+  }
+
+  private static String normalizeChannelFilter(String channel) {
+    if (channel == null || channel.isBlank()) {
+      return null;
+    }
+    String trimmed = channel.trim();
+    if (!SalesChannel.isSupported(trimmed)) {
+      throw new IllegalArgumentException("不支持的销售渠道: " + channel);
+    }
+    return trimmed;
   }
 
   private static String trimToNull(String value) {

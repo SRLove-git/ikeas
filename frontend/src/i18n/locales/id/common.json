@@ -32,7 +32,12 @@
     "allProducts": "Semua produk",
     "newMark": "Baru",
     "menuLabel": "Menu",
-    "groupOther": "Lainnya"
+    "groupOther": "Lainnya",
+    "siteSwitcher": "Pengalih situs",
+    "medicalSite": "Medis & kesehatan",
+    "homeSite": "Rumah & kehidupan",
+    "memberCenter": "Pusat anggota",
+    "customerService": "Layanan pelanggan"
   },
   "notice": {
     "chinese": "中文",
@@ -80,7 +85,8 @@
     "viewAllResults": "Lihat semua hasil untuk “{{q}}”"
   },
   "footer": {
-    "chooseLanguage": "Pilih bahasa"
+    "chooseLanguage": "Pilih bahasa",
+    "ourSites": "Situs kami"
   },
   "home": {
     "promoTitle": "Pilihan CHUNG YIP",

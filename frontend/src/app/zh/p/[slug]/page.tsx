@@ -1,6 +1,7 @@
-import { notFound } from "next/navigation"
+import { notFound, permanentRedirect } from "next/navigation"
 import Link from "next/link"
 import { findProductBySlug } from "@/lib/catalog"
+import { productHref } from "@/lib/product-url"
 import { ProductGallery } from "@/components/ProductGallery"
 import { ProductActions } from "@/components/ProductActions"
 import { ProductReviews } from "@/components/ProductReviews"
@@ -9,6 +10,7 @@ import { SiteLayout } from "@/components/SiteLayout"
 import { BrowsingHistoryTracker } from "@/components/BrowsingHistoryTracker"
 import { allProducts } from "@/data/products-index"
 import type { CatalogProduct } from "@/data/catalog"
+import { SITE_SCOPE, absoluteUrl, productVisibleInScope, siteForProduct } from "@/lib/site-scope"
 import { Breadcrumbs } from "@/components/Breadcrumbs"
 import { getLocale, getServerT } from "@/i18n/server"
 
@@ -25,12 +27,32 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
   const locale = await getLocale()
   const t = await getServerT(locale)
   const match = findProductBySlug(normalizedSlug, locale)
+  const path = `/zh/p/${normalizedSlug}/`
+
+  // `/zh/p/...` is the medical product route. Cross-domain moves use 308 so
+  // link equity follows the canonical storefront.
+  if (SITE_SCOPE === "portal") {
+    if (match) {
+      permanentRedirect(absoluteUrl(siteForProduct(match.product), productHref(match.product)))
+    }
+    permanentRedirect(absoluteUrl("medical", path))
+  }
+  if (SITE_SCOPE === "home") {
+    if (match && siteForProduct(match.product) === "home") {
+      permanentRedirect(productHref(match.product))
+    }
+    permanentRedirect(absoluteUrl("medical", path))
+  }
   if (!match) notFound()
+  if (siteForProduct(match.product) === "home") {
+    permanentRedirect(absoluteUrl("home", productHref(match.product)))
+  }
 
   const { product } = match
   const detail = product.detail
   const spec = [product.productType, product.designText].filter(Boolean).join(", ")
   const similar: CatalogProduct[] = allProducts(locale)
+    .filter((candidate) => productVisibleInScope(candidate))
     .filter(
       (candidate) => candidate.id !== product.id && candidate.productType === product.productType,
     )

@@ -1,8 +1,10 @@
 import Link from "next/link"
+import { permanentRedirect } from "next/navigation"
 import { SiteLayout } from "@/components/SiteLayout"
 import { SiteImage } from "@/components/SiteImage"
 import { formatPrice } from "@/lib/catalog-format"
 import { mideaCatalog, type MideaProduct } from "@/data/midea"
+import { SITE_SCOPE, absoluteUrl } from "@/lib/site-scope"
 import { getLocale, getServerT } from "@/i18n/server"
 
 export const dynamic = "force-dynamic"
@@ -44,6 +46,9 @@ function MideaCard({ product }: { product: MideaProduct }) {
 }
 
 export default async function MideaPage() {
+  if (SITE_SCOPE !== "home") {
+    permanentRedirect(absoluteUrl("home", "/zh/midea/"))
+  }
   const locale = await getLocale()
   const t = await getServerT(locale)
   const categories = mideaCatalog(locale)

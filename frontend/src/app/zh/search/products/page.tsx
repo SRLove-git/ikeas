@@ -9,6 +9,7 @@ import { formatPrice } from "@/lib/catalog"
 import { catalogPages } from "@/lib/catalog-pages"
 import { allProducts } from "@/data/products-index"
 import { homepage } from "@/data/homepage"
+import { SITE_SCOPE, productVisibleInScope } from "@/lib/site-scope"
 import {
   SEARCH_SORTS,
   paginateSearchResults,
@@ -145,9 +146,20 @@ export default async function SearchProductsPage({
   const requestedPage = Math.max(1, Number.parseInt(firstParam(rawParams.page) || "1", 10) || 1)
 
   const keyword = q.trim()
-  const categories = catalogPages(locale).flatMap((page) =>
-    page.id ? [{ id: page.id, name: page.name }] : [],
-  )
+  const scopedProducts = allProducts(locale).filter((product) => productVisibleInScope(product))
+  const categories =
+    SITE_SCOPE === "home"
+      ? [
+          { id: "toshiba", name: locale === "zh-CN" ? "东芝 Toshiba" : "Toshiba" },
+          { id: "midea", name: locale === "zh-CN" ? "美的 Midea" : "Midea" },
+        ]
+      : SITE_SCOPE === "portal"
+        ? []
+        : catalogPages(locale).flatMap((page) =>
+            page.id ? [{ id: page.id, name: page.name }] : [],
+          )
+  const scopeHints =
+    SITE_SCOPE === "home" ? categories.map((category) => category.name) : searchHints
   const results = keyword
     ? searchProducts(
         keyword,
@@ -298,11 +310,11 @@ export default async function SearchProductsPage({
                   </Link>
                 </div>
               ) : null}
-              {searchHints.length > 0 ? (
+              {scopeHints.length > 0 ? (
                 <>
                   <p className="mt-8 text-xs font-bold text-ikea-muted">{t("search.hotWords")}</p>
                   <div className="mt-3 flex flex-wrap justify-center gap-2">
-                    {searchHints.map((word) => (
+                    {scopeHints.map((word) => (
                       <Link
                         key={word}
                         href={`/zh/search/products?q=${encodeURIComponent(word)}`}
@@ -317,15 +329,13 @@ export default async function SearchProductsPage({
             </div>
           ) : null}
 
-          {keyword && pagination.items.length === 0 && allProducts(locale).length > 0 ? (
+          {keyword && pagination.items.length === 0 && scopedProducts.length > 0 ? (
             <div className="mt-10">
               <h2 className="text-lg font-bold">{t("search.recommended")}</h2>
               <div className="mt-5 grid grid-cols-2 gap-x-5 gap-y-10 md:grid-cols-3 lg:grid-cols-4">
-                {allProducts(locale)
-                  .slice(0, 8)
-                  .map((product) => (
-                    <ProductCard key={product.id} product={product} />
-                  ))}
+                {scopedProducts.slice(0, 8).map((product) => (
+                  <ProductCard key={product.id} product={product} />
+                ))}
               </div>
             </div>
           ) : null}

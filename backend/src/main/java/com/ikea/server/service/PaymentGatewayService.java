@@ -3,6 +3,7 @@ package com.ikea.server.service;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.ikea.server.config.SiteUrlProperties;
 import com.ikea.server.constant.OrderStatus;
 import com.ikea.server.dto.payment.PaymentDtos.CreatePaymentResponse;
 import com.ikea.server.dto.payment.PaymentDtos.PaymentOptions;
@@ -84,6 +85,7 @@ public class PaymentGatewayService {
   private final OrderService orderService;
   private final YeahPayClient yeahPayClient;
   private final YeahPayProperties yeahPayProperties;
+  private final SiteUrlProperties siteUrlProperties;
   private final PaymentPersistenceService paymentPersistenceService;
   private final UserService userService;
   private final PaymentReconciliationService paymentReconciliationService;
@@ -107,7 +109,7 @@ public class PaymentGatewayService {
   private String stripeApiBaseUrl;
 
   @Value("${ikea.payment.stripe.return-url-base:https://life-sg.com}")
-  private String returnUrlBase;
+  private String returnUrlBase = "https://life-sg.com";
 
   @Value("${ikea.payment.stripe.success-path:/zh/profile/my-orders?payment=success}")
   private String successPath;
@@ -120,6 +122,7 @@ public class PaymentGatewayService {
       OrderService orderService,
       YeahPayClient yeahPayClient,
       YeahPayProperties yeahPayProperties,
+      SiteUrlProperties siteUrlProperties,
       PaymentPersistenceService paymentPersistenceService,
       UserService userService,
       PaymentReconciliationService paymentReconciliationService) {
@@ -127,6 +130,7 @@ public class PaymentGatewayService {
     this.orderService = orderService;
     this.yeahPayClient = yeahPayClient;
     this.yeahPayProperties = yeahPayProperties;
+    this.siteUrlProperties = siteUrlProperties;
     this.paymentPersistenceService = paymentPersistenceService;
     this.userService = userService;
     this.paymentReconciliationService = paymentReconciliationService;
@@ -254,6 +258,7 @@ public class PaymentGatewayService {
       }
       long amountMinor = toMinorUnit(order.getTotalAmount(), currency);
       String description = "BUZUD Order " + order.getOrderNo();
+      String callbackUrl = perOrderYeahPayCallbackUrl(order);
       reservePaymentAttempt(order.getOrderNo(), "yeahpay", yeahPayChannel);
       PaymentAttempt reserved = paymentPersistenceService.findAttempt(orderNo)
           .orElseThrow(() -> new IllegalStateException("支付会话未保存，请稍后查询订单状态"));
@@ -274,7 +279,8 @@ public class PaymentGatewayService {
               amountMinor,
               description,
               yeahPayMethod,
-              directOnline ? "MWEB" : "NATIVE");
+              directOnline ? "MWEB" : "NATIVE",
+              callbackUrl);
           paymentPersistenceService.savePaymentPresentation(
               orderNo, "yeahpay", direct.tdCode(), directPresentation, reserved.createdAt());
           return new CreatePaymentResponse(
@@ -293,11 +299,17 @@ public class PaymentGatewayService {
                   amountMinor,
                   description,
                   yeahPayMethod,
-                  pcDetails);
+                  pcDetails,
+                  callbackUrl);
         } else {
           checkoutUrl =
               yeahPayClient.createHostedCheckout(
-                  order.getOrderNo(), currency, amountMinor, description, yeahPayMethod);
+                  order.getOrderNo(),
+                  currency,
+                  amountMinor,
+                  description,
+                  yeahPayMethod,
+                  callbackUrl);
         }
         if (desktopWechatQr) {
           // YeahPay's PC page can reject otherwise valid WXZF sessions. Render the validated H5
@@ -580,16 +592,60 @@ public class PaymentGatewayService {
     return order;
   }
 
+  /** Stripe 回跳域名：home/medical 使用对应站点，其余回退到 return-url-base。 */
+  String paymentReturnBase(String salesChannel) {
+    String siteBase = siteUrlProperties.baseUrlFor(salesChannel);
+    return stripTrailingSlash(hasText(siteBase) ? siteBase : returnUrlBase);
+  }
+
+  /**
+   * YeahPay 浏览器回跳地址：有渠道站点时只替换已配置 callback-url 的域名，
+   * 保留原有路径与查询参数；无渠道返回 null，由客户端回退到配置值。
+   */
+  private String perOrderYeahPayCallbackUrl(Order order) {
+    String siteBase = siteUrlProperties.baseUrlFor(order.getSalesChannel());
+    if (!hasText(siteBase)) {
+      return null;
+    }
+    return replaceUrlOrigin(yeahPayProperties.getCallbackUrl(), siteBase);
+  }
+
+  private static String replaceUrlOrigin(String configuredUrl, String siteBase) {
+    if (!hasText(configuredUrl)) {
+      throw new IllegalStateException("YeahPay callback-url 未配置");
+    }
+    URI uri;
+    try {
+      uri = URI.create(configuredUrl);
+    } catch (IllegalArgumentException ex) {
+      throw new IllegalStateException("YeahPay callback-url 配置非法", ex);
+    }
+    StringBuilder callback = new StringBuilder(stripTrailingSlash(siteBase));
+    callback.append(hasText(uri.getRawPath()) ? uri.getRawPath() : "/");
+    if (uri.getRawQuery() != null) {
+      callback.append('?').append(uri.getRawQuery());
+    }
+    if (uri.getRawFragment() != null) {
+      callback.append('#').append(uri.getRawFragment());
+    }
+    return callback.toString();
+  }
+
+  private static String stripTrailingSlash(String url) {
+    return url == null ? null : url.replaceAll("/+$", "");
+  }
+
   private String createCheckoutSession(Order order) {
+    String returnBase = paymentReturnBase(order.getSalesChannel());
     Map<String, String> params = new HashMap<>();
     params.put("mode", "payment");
     params.put("client_reference_id", order.getOrderNo());
     params.put(
         "success_url",
-        returnUrlBase + successPath + "&orderNo=" + encode(order.getOrderNo()));
+        returnBase + successPath + "&orderNo=" + encode(order.getOrderNo()));
     params.put(
         "cancel_url",
-        returnUrlBase + cancelPath + "&orderNo=" + encode(order.getOrderNo()));
+        returnBase + cancelPath + "&orderNo=" + encode(order.getOrderNo()));
     params.put("payment_method_types[0]", "card");
     params.put("line_items[0][quantity]", "1");
     params.put(

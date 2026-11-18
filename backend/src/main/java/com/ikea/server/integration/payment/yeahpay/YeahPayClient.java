@@ -187,10 +187,24 @@ public class YeahPayClient {
 
   public String createHostedCheckout(
       String orderNo, String currency, long amountMinor, String description, String payWay) {
+    return createHostedCheckout(
+        orderNo, currency, amountMinor, description, payWay, null);
+  }
+
+  /**
+   * 创建托管收银台；callbackUrl 为本次订单的浏览器回跳地址，为空时回退到配置的 callback-url。
+   */
+  public String createHostedCheckout(
+      String orderNo,
+      String currency,
+      long amountMinor,
+      String description,
+      String payWay,
+      String callbackUrl) {
     properties.validateForUse();
 
     Map<String, Object> body =
-        checkoutBody(orderNo, currency, amountMinor, description, payWay, true);
+        checkoutBody(orderNo, currency, amountMinor, description, payWay, true, callbackUrl);
     return checkoutUrl(post(HOSTED_CHECKOUT_PATH, body));
   }
 
@@ -203,6 +217,20 @@ public class YeahPayClient {
       String description,
       String payWay,
       String jsPayFlag) {
+    return createDirectWalletPayment(
+        providerOrderNo, orderNo, currency, amountMinor, description, payWay, jsPayFlag, null);
+  }
+
+  /** 创建直连钱包订单；MWEB 回跳使用 callbackUrl，为空时回退到配置的 callback-url。 */
+  public DirectPaymentResult createDirectWalletPayment(
+      String providerOrderNo,
+      String orderNo,
+      String currency,
+      long amountMinor,
+      String description,
+      String payWay,
+      String jsPayFlag,
+      String callbackUrl) {
     properties.validateForUse();
     if (!hasText(providerOrderNo) || !hasText(orderNo)
         || !hasText(currency) || !hasText(description)
@@ -225,7 +253,7 @@ public class YeahPayClient {
     body.put("body", description);
     body.put("notifyUrl", properties.getNotifyUrl());
     if ("MWEB".equals(jsPayFlag)) {
-      body.put("jumpUrl", appendOrderNo(properties.getCallbackUrl(), orderNo));
+      body.put("jumpUrl", appendOrderNo(resolveCallbackUrl(callbackUrl), orderNo));
     }
 
     JsonNode response = post(UNIFIED_ORDER_PATH, body);
@@ -259,11 +287,24 @@ public class YeahPayClient {
       String description,
       String payWay,
       PcCheckoutDetails details) {
+    return createPcHostedCheckout(
+        orderNo, currency, amountMinor, description, payWay, details, null);
+  }
+
+  /** 创建 PC 托管收银台；callbackUrl 为空时回退到配置的 callback-url。 */
+  public String createPcHostedCheckout(
+      String orderNo,
+      String currency,
+      long amountMinor,
+      String description,
+      String payWay,
+      PcCheckoutDetails details,
+      String callbackUrl) {
     properties.validateForUse();
     validatePcCheckoutDetails(details);
 
     Map<String, Object> body =
-        checkoutBody(orderNo, currency, amountMinor, description, payWay, false);
+        checkoutBody(orderNo, currency, amountMinor, description, payWay, false, callbackUrl);
     String[] names = details.customerName().trim().split("\\s+", 2);
     String firstName = names[0];
     String lastName = names.length > 1 ? names[1] : names[0];
@@ -304,7 +345,8 @@ public class YeahPayClient {
       long amountMinor,
       String description,
       String payWay,
-      boolean includeMerchantReferenceNumber) {
+      boolean includeMerchantReferenceNumber,
+      String callbackUrl) {
 
     Map<String, Object> goods = new LinkedHashMap<>();
     goods.put("name", description);
@@ -323,7 +365,7 @@ public class YeahPayClient {
     body.put("amount", String.valueOf(amountMinor));
     body.put("goodsList", toJson(List.of(goods)));
     body.put("timestamp", YeahPaySigner.timestamp());
-    body.put("callback", appendOrderNo(properties.getCallbackUrl(), orderNo));
+    body.put("callback", appendOrderNo(resolveCallbackUrl(callbackUrl), orderNo));
     body.put("notifyUrl", properties.getNotifyUrl());
     body.put("lang", properties.getLang());
     if (hasText(payWay)) {
@@ -487,6 +529,10 @@ public class YeahPayClient {
 
   private static String joinUrl(String baseUrl, String path) {
     return baseUrl.replaceAll("/+$", "") + "/" + path.replaceAll("^/+", "");
+  }
+
+  private String resolveCallbackUrl(String perOrderCallbackUrl) {
+    return hasText(perOrderCallbackUrl) ? perOrderCallbackUrl : properties.getCallbackUrl();
   }
 
   private static String appendOrderNo(String url, String orderNo) {

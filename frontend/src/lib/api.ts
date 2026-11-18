@@ -94,6 +94,8 @@ export interface OrderResponse {
   status: number
   statusLabel: string
   currency: string
+  /** 下单站点：medical = 医疗站，home = 家庭站，null = 拆分前的历史订单。 */
+  salesChannel: "medical" | "home" | null
   subtotal: number
   deliveryFee: number
   totalAmount: number
@@ -306,6 +308,27 @@ export async function apiFetch(path: string, options: RequestInit = {}): Promise
   }
 
   return response
+}
+
+export interface SsoCodeResponse {
+  code: string
+  expiresIn: number
+}
+
+/** 为另一个站点申请一次性 SSO 授权码（需当前站点已登录）。 */
+export function requestSsoCode(target: "medical" | "home"): Promise<SsoCodeResponse> {
+  return apiJson<SsoCodeResponse>("/auth/sso/code", {
+    method: "POST",
+    body: JSON.stringify({ target }),
+  })
+}
+
+/** 用一次性授权码换取当前站点的登录令牌。 */
+export function exchangeSsoCode(code: string): Promise<AuthResponse> {
+  return apiJson<AuthResponse>("/auth/sso/exchange", {
+    method: "POST",
+    body: JSON.stringify({ code }),
+  })
 }
 
 export async function apiJson<T>(path: string, options?: RequestInit): Promise<T> {

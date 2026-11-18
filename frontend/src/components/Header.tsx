@@ -1,6 +1,7 @@
 "use client"
 
 import Link from "next/link"
+import { usePathname } from "next/navigation"
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react"
 import { useTranslation } from "react-i18next"
 import { CartIcon, HeartIcon, SearchIcon, UserIcon } from "@/components/icons"
@@ -14,17 +15,81 @@ import { apiJson, getToken, type Cart } from "@/lib/api"
 import type { MenuPanel as MenuPanelData } from "@/data/menu-panels"
 import type { Category } from "@/data/categories"
 import { groupCategorySections } from "@/lib/menu-sections"
+import { HOME_URL, MEDICAL_URL, SITE_SCOPE, crossSiteUrl, type SiteScope } from "@/lib/site-scope"
 
 interface HeaderProps {
   menuItems: { label: string; href: string; hasMegaMenu?: boolean; menuPanelLabel?: string }[]
   searchHints: string[]
   menuPanels: MenuPanelData[]
   categories: Category[]
+  /** Deployment variant; defaults to the build-time NEXT_PUBLIC_SITE_SCOPE. */
+  scope?: SiteScope
 }
 
-export function Header({ menuItems, searchHints, menuPanels, categories }: HeaderProps) {
+/**
+ * Deployment-aware header. The portal gets a minimal shell (no catalogue
+ * search, cart or mega menu); medical/home keep the existing storefront
+ * header plus a compact cross-site entry.
+ */
+export function Header(props: HeaderProps) {
+  const scope = props.scope ?? SITE_SCOPE
+  if (scope === "portal") return <PortalHeader />
+  return <StoreHeader {...props} scope={scope} />
+}
+
+function PortalHeader() {
+  const { t } = useTranslation()
+  return (
+    <div className="i-layout__header i-layout__header--sticky">
+      <div className="nav-header">
+        <div className="nav-header_container">
+          <div className="mx-auto flex max-w-page flex-wrap items-center justify-between gap-4 px-5 py-3 lg:px-10">
+            <Link href="/" aria-label={t("header.backHome")} className="shrink-0">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                className="disable-event h-14 w-auto"
+                src="/images/logo/logo.png"
+                alt="CHUNG YIP"
+                width={78}
+                height={64}
+              />
+            </Link>
+            <nav
+              className="flex flex-wrap items-center gap-x-5 gap-y-2 text-sm font-bold text-ikea-black"
+              aria-label={t("header.menuLabel")}
+            >
+              <a href={MEDICAL_URL} className="hover:text-ikea-blue">
+                {t("header.medicalSite")}
+              </a>
+              <a href={HOME_URL} className="hover:text-ikea-blue">
+                {t("header.homeSite")}
+              </a>
+              <Link href="/zh/profile/" className="hover:text-ikea-blue">
+                {t("header.memberCenter")}
+              </Link>
+              <Link href="/zh/customer-service/" className="hover:text-ikea-blue">
+                {t("header.customerService")}
+              </Link>
+              <span className="header-right-divider hidden md:block" aria-hidden="true" />
+              <LanguageSwitch className="header-lang-switch" />
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+function StoreHeader({
+  menuItems,
+  searchHints,
+  menuPanels,
+  categories,
+  scope = SITE_SCOPE,
+}: HeaderProps) {
   const { t, i18n } = useTranslation()
   const { locale } = useLocale()
+  const pathname = usePathname()
   const topContentInnerRef = useRef<HTMLDivElement>(null)
   const navRef = useRef<HTMLElement>(null)
   const [openMenu, setOpenMenu] = useState<string | null>(null)
@@ -37,6 +102,12 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
   const [navCompact, setNavCompact] = useState(false)
   const [cartCount, setCartCount] = useState(0)
   const { user } = useAuth()
+  // Storefronts only advertise the sibling catalogue; the portal has its own
+  // header and never renders this branch.
+  const otherSites: ("medical" | "home")[] = scope === "medical" ? ["home"] : ["medical"]
+  // Carry the current page through the login page so the portal SSO entry can
+  // return visitors to the page they were browsing.
+  const loginHref = `/zh/profile/login/?return=${encodeURIComponent(pathname || "/")}`
 
   // The legacy CSS folds overflow into the "更多" dropdown only below 1280px.
   // Longer English labels overflow the fixed-width row above that breakpoint
@@ -403,6 +474,29 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
                   </nav>
                   <div className="header_container_right">
                     <div className="header_container_right_img header-right-cluster">
+                      <nav
+                        className="hidden items-center gap-2 text-xs font-bold text-ikea-muted xl:flex"
+                        aria-label={t("header.siteSwitcher")}
+                      >
+                        {otherSites.map((site) => (
+                          <a
+                            key={site}
+                            href={crossSiteUrl(site, "/")}
+                            className="hover:text-ikea-black"
+                          >
+                            {t(site === "medical" ? "header.medicalSite" : "header.homeSite")}
+                          </a>
+                        ))}
+                        <span className="text-ikea-gray-200" aria-hidden="true">
+                          |
+                        </span>
+                        <a
+                          href={crossSiteUrl("portal", "/zh/profile/")}
+                          className="hover:text-ikea-black"
+                        >
+                          {t("header.memberCenter")}
+                        </a>
+                      </nav>
                       <LanguageSwitch className="header-lang-switch" />
                       <span className="header-right-divider hidden md:block" aria-hidden="true" />
                       <button
@@ -416,7 +510,7 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
                       <span className="i-tooltip i-tooltip--bottom">
                         <span className="i-tooltip__custom-trigger-wrapper">
                           <Link
-                            href={user ? "/zh/profile/collection/" : "/zh/profile/login/"}
+                            href={user ? "/zh/profile/collection/" : loginHref}
                             className="header-action-btn header-action-btn--compact"
                           >
                             <HeartIcon width={24} height={24} />
@@ -451,7 +545,7 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
                               <span className="header-user-text hidden">{user.name}</span>
                             </Link>
                           ) : (
-                            <Link href="/zh/profile/login/" className="header-action-btn">
+                            <Link href={loginHref} className="header-action-btn">
                               <UserIcon width={24} height={24} />
                               <span className="header-user-text hidden">{t("header.login")}</span>
                             </Link>
@@ -568,6 +662,24 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
                         </Link>
                       </li>
                     ))}
+                    {otherSites.map((site) => (
+                      <li key={`mobile-site-${site}`}>
+                        <a
+                          href={crossSiteUrl(site, "/")}
+                          className="block py-2.5 text-sm font-bold text-ikea-black"
+                        >
+                          {t(site === "medical" ? "header.medicalSite" : "header.homeSite")}
+                        </a>
+                      </li>
+                    ))}
+                    <li>
+                      <a
+                        href={crossSiteUrl("portal", "/zh/profile/")}
+                        className="block py-2.5 text-sm font-bold text-ikea-black"
+                      >
+                        {t("header.memberCenter")}
+                      </a>
+                    </li>
                   </ul>
                 </div>
               ) : null}
@@ -591,6 +703,7 @@ export function Header({ menuItems, searchHints, menuPanels, categories }: Heade
                 query={query}
                 searchHints={searchHints}
                 categories={categories}
+                scope={scope}
                 onQueryChange={setQuery}
                 onSubmit={submitSearch}
                 onClose={closeSearch}

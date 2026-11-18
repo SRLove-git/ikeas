@@ -6,6 +6,7 @@ import { AuthProvider } from "@/lib/auth"
 import { getSettings } from "@/lib/admin-store"
 import { LanguageProvider } from "@/i18n/LanguageProvider"
 import { getLocale } from "@/i18n/server"
+import { SITE_SCOPE, SITE_URL } from "@/lib/site-scope"
 
 const notoIkeaLatin = localFont({
   src: [
@@ -54,9 +55,35 @@ const notoIkeaSc = localFont({
 export async function generateMetadata(): Promise<Metadata> {
   const locale = await getLocale()
   const settings = getSettings(locale)
+  const isZh = locale === "zh-CN"
+  // Each deployment has its own brand positioning: the medical catalogue, the
+  // home-appliance catalogue, and the group portal.
+  const title =
+    SITE_SCOPE === "home"
+      ? isZh
+        ? "CHUNG YIP 家庭生活 - 东芝与美的家电"
+        : "CHUNG YIP Home & Living - Toshiba & Midea Appliances"
+      : SITE_SCOPE === "portal"
+        ? isZh
+          ? "CHUNG YIP - 健康与生活，一站直达"
+          : "CHUNG YIP - Health and home, one destination"
+        : settings.siteName
+  const description =
+    SITE_SCOPE === "home"
+      ? isZh
+        ? "东芝与美的冰箱、洗护、厨房、环境与清洁电器，官方渠道正品保障，全岛配送与安装支持。"
+        : "Toshiba and Midea refrigeration, laundry, kitchen, air and cleaning appliances with islandwide delivery and installation support."
+      : SITE_SCOPE === "portal"
+        ? isZh
+          ? "CHUNG YIP 品牌门户：统一会员账号，连接医疗健康站与家庭生活站。"
+          : "CHUNG YIP group portal: one membership connecting our medical and home stores."
+        : settings.siteDescription
   return {
-    title: settings.siteName,
-    description: settings.siteDescription,
+    // Deployment-specific origin so canonical/OG URLs point at the right
+    // domain (medical-sg.com / home-sg.com / life-sg.com).
+    metadataBase: new URL(SITE_URL),
+    title,
+    description,
     icons: {
       icon: "/seo/favicon.ico",
     },

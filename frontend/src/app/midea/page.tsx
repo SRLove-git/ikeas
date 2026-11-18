@@ -1,5 +1,6 @@
-import { redirect } from "next/navigation"
+import { permanentRedirect } from "next/navigation"
+import { SITE_SCOPE, absoluteUrl } from "@/lib/site-scope"
 
 export default function MideaRedirectPage() {
-  redirect("/zh/midea/")
+  permanentRedirect(SITE_SCOPE === "home" ? "/zh/midea/" : absoluteUrl("home", "/zh/midea/"))
 }

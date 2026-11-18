@@ -32,7 +32,12 @@
     "allProducts": "All products",
     "newMark": "New",
     "menuLabel": "Menu",
-    "groupOther": "Other"
+    "groupOther": "Other",
+    "siteSwitcher": "Site switcher",
+    "medicalSite": "Medical & health",
+    "homeSite": "Home & living",
+    "memberCenter": "Member centre",
+    "customerService": "Customer service"
   },
   "notice": {
     "chinese": "中文",
@@ -80,7 +85,8 @@
     "viewAllResults": "View all results for “{{q}}”"
   },
   "footer": {
-    "chooseLanguage": "Choose language"
+    "chooseLanguage": "Choose language",
+    "ourSites": "Our sites"
   },
   "home": {
     "promoTitle": "CHUNG YIP Picks",

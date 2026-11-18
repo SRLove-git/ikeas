@@ -14,6 +14,7 @@ import static org.mockito.Mockito.verifyNoInteractions;
 import static org.mockito.Mockito.when;
 
 import com.baomidou.mybatisplus.core.conditions.Wrapper;
+import com.ikea.server.config.SiteUrlProperties;
 import com.ikea.server.constant.OrderStatus;
 import com.ikea.server.dto.payment.PaymentDtos.CreatePaymentResponse;
 import com.ikea.server.dto.payment.PaymentDtos.PaymentOptions;
@@ -55,6 +56,7 @@ class PaymentGatewayServiceTest {
   private OrderService orderService;
   private YeahPayClient yeahPayClient;
   private YeahPayProperties properties;
+  private SiteUrlProperties siteUrlProperties;
   private PaymentPersistenceService paymentPersistenceService;
   private UserService userService;
   private PaymentReconciliationService reconciliationService;
@@ -66,6 +68,7 @@ class PaymentGatewayServiceTest {
     orderService = mock(OrderService.class);
     yeahPayClient = mock(YeahPayClient.class);
     properties = configuredProperties();
+    siteUrlProperties = new SiteUrlProperties();
     paymentPersistenceService = mock(PaymentPersistenceService.class);
     userService = mock(UserService.class);
     reconciliationService = mock(PaymentReconciliationService.class);
@@ -75,6 +78,7 @@ class PaymentGatewayServiceTest {
             orderService,
             yeahPayClient,
             properties,
+            siteUrlProperties,
             paymentPersistenceService,
             userService,
             reconciliationService);
@@ -111,7 +115,7 @@ class PaymentGatewayServiceTest {
     order.setTotalAmount(new BigDecimal("12.34"));
     when(orderMapper.selectOne(any(Wrapper.class))).thenReturn(order);
     when(yeahPayClient.isConfigured()).thenReturn(true);
-    when(yeahPayClient.createHostedCheckout(any(), any(), eq(1234L), any(), any()))
+    when(yeahPayClient.createHostedCheckout(any(), any(), eq(1234L), any(), any(), any()))
         .thenReturn("https://payment.yeahpay.net/checkout/test-session");
 
     CreatePaymentResponse result = service.createPayment(42L, "ORD-1001", "card");
@@ -141,14 +145,14 @@ class PaymentGatewayServiceTest {
     order.setTotalAmount(new BigDecimal("12.34"));
     when(orderMapper.selectOne(any(Wrapper.class))).thenReturn(order);
     when(yeahPayClient.isConfigured()).thenReturn(true);
-    when(yeahPayClient.createHostedCheckout(any(), any(), eq(1234L), any(), eq(yeahPayCode)))
+    when(yeahPayClient.createHostedCheckout(any(), any(), eq(1234L), any(), eq(yeahPayCode), any()))
         .thenReturn("https://payment.yeahpay.net/checkout/method-session");
 
     CreatePaymentResponse result = service.createPayment(42L, "ORD-1002", channel);
 
     assertEquals("yeahpay", result.channel());
     verify(yeahPayClient)
-        .createHostedCheckout("ORD-1002", "SGD", 1234L, "BUZUD Order ORD-1002", yeahPayCode);
+        .createHostedCheckout("ORD-1002", "SGD", 1234L, "BUZUD Order ORD-1002", yeahPayCode, null);
   }
 
   @Test
@@ -164,7 +168,7 @@ class PaymentGatewayServiceTest {
     when(yeahPayClient.isConfigured()).thenReturn(true);
     when(yeahPayClient.createDirectWalletPayment(
             any(), eq("ORD-WALLET"), eq("SGD"), eq(1234L), any(),
-            eq("PayNowPay"), eq("NATIVE")))
+            eq("PayNowPay"), eq("NATIVE"), any()))
         .thenReturn(new DirectPaymentResult("QR-PAYLOAD", "YP-DIRECT"));
 
     CreatePaymentResponse result = service.createPayment(42L, "ORD-WALLET", "paynow", "qr");
@@ -178,10 +182,10 @@ class PaymentGatewayServiceTest {
     assertTrue(providerOrderNo.getValue().matches("D[A-Fa-f0-9]{31}"));
     verify(yeahPayClient).createDirectWalletPayment(
         providerOrderNo.getValue(), "ORD-WALLET", "SGD", 1234L,
-        "BUZUD Order ORD-WALLET", "PayNowPay", "NATIVE");
+        "BUZUD Order ORD-WALLET", "PayNowPay", "NATIVE", null);
     verify(paymentPersistenceService).savePaymentPresentation(
         eq("ORD-WALLET"), eq("yeahpay"), eq("QR-PAYLOAD"), eq("qr"), any());
-    verify(yeahPayClient, never()).createHostedCheckout(any(), any(), anyLong(), any(), any());
+    verify(yeahPayClient, never()).createHostedCheckout(any(), any(), anyLong(), any(), any(), any());
   }
 
   @Test
@@ -197,7 +201,7 @@ class PaymentGatewayServiceTest {
     when(yeahPayClient.isConfigured()).thenReturn(true);
     when(yeahPayClient.createDirectWalletPayment(
             any(), eq("ORD-ONLINE"), eq("SGD"), eq(1234L), any(),
-            eq("PayNowPay"), eq("MWEB")))
+            eq("PayNowPay"), eq("MWEB"), any()))
         .thenReturn(new DirectPaymentResult(
             "https://payment.yeahpay.net/wallet/session", "YP-ONLINE"));
 
@@ -259,7 +263,7 @@ class PaymentGatewayServiceTest {
     assertEquals(
         "checkout-ORD-STRIPE-CARD",
         request.getValue().headers().firstValue("Idempotency-Key").orElseThrow());
-    verify(yeahPayClient, never()).createHostedCheckout(any(), any(), anyLong(), any(), any());
+    verify(yeahPayClient, never()).createHostedCheckout(any(), any(), anyLong(), any(), any(), any());
   }
 
   @ParameterizedTest
@@ -273,6 +277,65 @@ class PaymentGatewayServiceTest {
 
     verify(paymentPersistenceService, never()).reservePaymentAttempt(any(), any(), any());
     verifyNoInteractions(stripeHttpClient);
+  }
+
+  @Test
+  void paymentReturnBaseShouldFollowTheOrderChannelAndFallBackForUnknownChannels() {
+    assertEquals("https://home-sg.com", service.paymentReturnBase("home"));
+    assertEquals("https://medical-sg.com", service.paymentReturnBase("medical"));
+    assertEquals("https://life-sg.com", service.paymentReturnBase(null));
+    assertEquals("https://life-sg.com", service.paymentReturnBase("portal"));
+  }
+
+  @Test
+  void homeOrderShouldPassItsOwnDomainAsTheYeahPayBrowserCallback() {
+    Order order = new Order();
+    order.setOrderNo("ORD-HOME-CALLBACK");
+    order.setUserId(42L);
+    order.setStatus(OrderStatus.PENDING_PAYMENT.code());
+    order.setCurrency("SGD");
+    order.setTotalAmount(new BigDecimal("12.34"));
+    order.setSalesChannel("home");
+    when(orderMapper.selectOne(any(Wrapper.class))).thenReturn(order);
+    when(yeahPayClient.isConfigured()).thenReturn(true);
+    when(yeahPayClient.createHostedCheckout(any(), any(), eq(1234L), any(), any(), any()))
+        .thenReturn("https://payment.yeahpay.net/checkout/home-session");
+
+    service.createPayment(42L, "ORD-HOME-CALLBACK", "visa");
+
+    verify(yeahPayClient)
+        .createHostedCheckout(
+            "ORD-HOME-CALLBACK",
+            "SGD",
+            1234L,
+            "BUZUD Order ORD-HOME-CALLBACK",
+            "VISA",
+            "https://home-sg.com/zh/profile/my-orders?payment=success");
+  }
+
+  @Test
+  void legacyOrderWithoutChannelShouldKeepTheConfiguredYeahPayCallback() {
+    Order order = new Order();
+    order.setOrderNo("ORD-LEGACY-CALLBACK");
+    order.setUserId(42L);
+    order.setStatus(OrderStatus.PENDING_PAYMENT.code());
+    order.setCurrency("SGD");
+    order.setTotalAmount(new BigDecimal("12.34"));
+    when(orderMapper.selectOne(any(Wrapper.class))).thenReturn(order);
+    when(yeahPayClient.isConfigured()).thenReturn(true);
+    when(yeahPayClient.createHostedCheckout(any(), any(), eq(1234L), any(), any(), any()))
+        .thenReturn("https://payment.yeahpay.net/checkout/legacy-session");
+
+    service.createPayment(42L, "ORD-LEGACY-CALLBACK", "visa");
+
+    verify(yeahPayClient)
+        .createHostedCheckout(
+            "ORD-LEGACY-CALLBACK",
+            "SGD",
+            1234L,
+            "BUZUD Order ORD-LEGACY-CALLBACK",
+            "VISA",
+            null);
   }
 
   private HttpClient configureStripeOnly() {
@@ -310,7 +373,7 @@ class PaymentGatewayServiceTest {
     when(orderMapper.selectOne(any(Wrapper.class))).thenReturn(order);
     when(userService.findById(42L)).thenReturn(Optional.of(user));
     when(yeahPayClient.isConfigured()).thenReturn(true);
-    when(yeahPayClient.createPcHostedCheckout(any(), any(), eq(1234L), any(), any(), any()))
+    when(yeahPayClient.createPcHostedCheckout(any(), any(), eq(1234L), any(), any(), any(), any()))
         .thenReturn("https://payment.yeahpay.net/checkout/pc-session");
 
     CreatePaymentResponse result =
@@ -329,8 +392,9 @@ class PaymentGatewayServiceTest {
                 "Jamie Tan",
                 "jamie@example.com",
                 "10 Anson Road, Singapore 079903",
-                "079903"));
-    verify(yeahPayClient, never()).createHostedCheckout(any(), any(), anyLong(), any(), any());
+                "079903"),
+            null);
+    verify(yeahPayClient, never()).createHostedCheckout(any(), any(), anyLong(), any(), any(), any());
   }
 
   @Test
@@ -344,7 +408,7 @@ class PaymentGatewayServiceTest {
     order.setTotalAmount(new BigDecimal("12.34"));
     when(orderMapper.selectOne(any(Wrapper.class))).thenReturn(order);
     when(yeahPayClient.isConfigured()).thenReturn(true);
-    when(yeahPayClient.createHostedCheckout(any(), any(), eq(1234L), any(), eq("WXZF")))
+    when(yeahPayClient.createHostedCheckout(any(), any(), eq(1234L), any(), eq("WXZF"), any()))
         .thenReturn("https://payment.yeahpay.net/checkout/wechat-h5");
 
     CreatePaymentResponse result =
@@ -356,7 +420,7 @@ class PaymentGatewayServiceTest {
     verify(paymentPersistenceService).savePaymentPresentation(
         eq("ORD-PC-WECHAT"), eq("yeahpay"), eq(result.qrCode()), eq("qr"), any());
     verify(yeahPayClient, never())
-        .createPcHostedCheckout(any(), any(), anyLong(), any(), any(), any());
+        .createPcHostedCheckout(any(), any(), anyLong(), any(), any(), any(), any());
     verifyNoInteractions(userService);
   }
 
@@ -379,7 +443,7 @@ class PaymentGatewayServiceTest {
     // Deliberately omit PC-only consumer details to cover existing orders and cached clients.
     when(orderMapper.selectOne(any(Wrapper.class))).thenReturn(order);
     when(yeahPayClient.isConfigured()).thenReturn(true);
-    when(yeahPayClient.createHostedCheckout(any(), any(), eq(1234L), any(), eq(yeahPayCode)))
+    when(yeahPayClient.createHostedCheckout(any(), any(), eq(1234L), any(), eq(yeahPayCode), any()))
         .thenReturn("https://payment.yeahpay.net/checkout/h5/#/checkstand?token=test");
 
     CreatePaymentResponse result = service.createPayment(42L, "ORD-H5-1001", channel, "pc");
@@ -387,9 +451,10 @@ class PaymentGatewayServiceTest {
     assertEquals("yeahpay", result.channel());
     assertEquals("https://payment.yeahpay.net/checkout/h5/#/checkstand?token=test", result.payUrl());
     verify(yeahPayClient)
-        .createHostedCheckout("ORD-H5-1001", "SGD", 1234L, "BUZUD Order ORD-H5-1001", yeahPayCode);
+        .createHostedCheckout(
+            "ORD-H5-1001", "SGD", 1234L, "BUZUD Order ORD-H5-1001", yeahPayCode, null);
     verify(yeahPayClient, never())
-        .createPcHostedCheckout(any(), any(), anyLong(), any(), any(), any());
+        .createPcHostedCheckout(any(), any(), anyLong(), any(), any(), any(), any());
     verifyNoInteractions(userService);
   }
 
@@ -449,7 +514,7 @@ class PaymentGatewayServiceTest {
     assertThrows(
         IllegalArgumentException.class,
         () -> service.createPayment(42L, "ORD-DUPLICATE", "visa"));
-    verify(yeahPayClient, never()).createHostedCheckout(any(), any(), anyLong(), any(), any());
+    verify(yeahPayClient, never()).createHostedCheckout(any(), any(), anyLong(), any(), any(), any());
   }
 
   @Test
@@ -468,7 +533,7 @@ class PaymentGatewayServiceTest {
         IllegalArgumentException.class,
         () -> service.createPayment(42L, "ORD-METHOD", "googlepay"));
     verify(paymentPersistenceService, never()).reservePaymentAttempt(any(), any(), any());
-    verify(yeahPayClient, never()).createHostedCheckout(any(), any(), anyLong(), any(), any());
+    verify(yeahPayClient, never()).createHostedCheckout(any(), any(), anyLong(), any(), any(), any());
   }
 
   @ParameterizedTest
@@ -619,7 +684,7 @@ class PaymentGatewayServiceTest {
 
     assertEquals("https://payment.yeahpay.net/checkout/existing", result.payUrl());
     verify(paymentPersistenceService, never()).reservePaymentAttempt(any(), any(), any());
-    verify(yeahPayClient, never()).createHostedCheckout(any(), any(), anyLong(), any(), any());
+    verify(yeahPayClient, never()).createHostedCheckout(any(), any(), anyLong(), any(), any(), any());
   }
 
   @Test
@@ -642,7 +707,7 @@ class PaymentGatewayServiceTest {
     assertNull(result.payUrl());
     verify(paymentPersistenceService, never()).reservePaymentAttempt(any(), any(), any());
     verify(yeahPayClient, never())
-        .createDirectWalletPayment(any(), any(), any(), anyLong(), any(), any(), any());
+        .createDirectWalletPayment(any(), any(), any(), anyLong(), any(), any(), any(), any());
   }
 
   @Test
@@ -655,7 +720,7 @@ class PaymentGatewayServiceTest {
     assertThrows(IllegalArgumentException.class,
         () -> service.createPayment(42L, "ORD-RETRY", "visa"));
     verify(paymentPersistenceService, never()).reservePaymentAttempt(any(), any(), any());
-    verify(yeahPayClient, never()).createHostedCheckout(any(), any(), anyLong(), any(), any());
+    verify(yeahPayClient, never()).createHostedCheckout(any(), any(), anyLong(), any(), any(), any());
   }
 
   @Test
@@ -676,7 +741,7 @@ class PaymentGatewayServiceTest {
     when(reconciliationService.refresh(42L, "ORD-RETRY"))
         .thenReturn(new PaymentStatusResponse("failed", true));
     String url = "https://payment.yeahpay.net/checkout/new";
-    when(yeahPayClient.createHostedCheckout(any(), any(), anyLong(), any(), any())).thenReturn(url);
+    when(yeahPayClient.createHostedCheckout(any(), any(), anyLong(), any(), any(), any())).thenReturn(url);
 
     assertEquals(url, service.createPayment(42L, "ORD-RETRY", "visa").payUrl());
     verify(paymentPersistenceService).saveCheckoutUrl("ORD-RETRY", "yeahpay", url, attempt(null).createdAt());
@@ -685,7 +750,7 @@ class PaymentGatewayServiceTest {
   @Test
   void networkErrorMustNotReleaseAnAmbiguousCheckoutAttempt() {
     preparePendingOrder();
-    when(yeahPayClient.createHostedCheckout(any(), any(), anyLong(), any(), any()))
+    when(yeahPayClient.createHostedCheckout(any(), any(), anyLong(), any(), any(), any()))
         .thenThrow(new IllegalStateException("timeout"));
 
     assertThrows(IllegalStateException.class,
@@ -696,7 +761,7 @@ class PaymentGatewayServiceTest {
   @Test
   void explicitProviderRejectionShouldReleaseTheCheckoutAttempt() {
     preparePendingOrder();
-    when(yeahPayClient.createHostedCheckout(any(), any(), anyLong(), any(), any()))
+    when(yeahPayClient.createHostedCheckout(any(), any(), anyLong(), any(), any(), any()))
         .thenThrow(new YeahPayClient.RejectedRequestException("code=400"));
 
     assertThrows(YeahPayClient.RejectedRequestException.class,

@@ -152,6 +152,85 @@ class YeahPayClientTest {
   }
 
   @Test
+  void createHostedCheckoutShouldUsePerOrderCallbackOriginAndKeepCanonicalNotifyUrl()
+      throws Exception {
+    String checkoutUrl =
+        new YeahPayClient(properties, mapper)
+            .createHostedCheckout(
+                "ORD-1001",
+                "SGD",
+                1234,
+                "Test order",
+                "VISA",
+                "https://home-sg.com/zh/profile/my-orders?payment=success");
+
+    assertEquals("https://payment.yeahpay.net/checkout/test-session", checkoutUrl);
+    JsonNode request = mapper.readTree(receivedBody);
+    assertEquals(
+        "https://home-sg.com/zh/profile/my-orders?payment=success&orderNo=ORD-1001",
+        request.path("callback").asText());
+    assertEquals(properties.getNotifyUrl(), request.path("notifyUrl").asText());
+  }
+
+  @Test
+  void explicitNullCallbackShouldFallBackToTheConfiguredCallback() throws Exception {
+    new YeahPayClient(properties, mapper)
+        .createHostedCheckout("ORD-1001", "SGD", 1234, "Test order", "VISA", null);
+
+    assertEquals(
+        properties.getCallbackUrl() + "&orderNo=ORD-1001",
+        mapper.readTree(receivedBody).path("callback").asText());
+  }
+
+  @Test
+  void mwebJumpUrlShouldUseThePerOrderCallbackOrigin() throws Exception {
+    directResponse =
+        "{\"code\":0,\"data\":{\"tdCode\":"
+            + "\"https://payment.yeahpay.net/wallet/session\"}}";
+
+    new YeahPayClient(properties, mapper)
+        .createDirectWalletPayment(
+            "D123",
+            "ORD-1001",
+            "SGD",
+            1234,
+            "Test order",
+            "ZFBZF",
+            "MWEB",
+            "https://medical-sg.com/zh/profile/my-orders?payment=success");
+
+    assertEquals(
+        "https://medical-sg.com/zh/profile/my-orders?payment=success&orderNo=ORD-1001",
+        mapper.readTree(receivedBody).path("jumpUrl").asText());
+    assertEquals(properties.getNotifyUrl(),
+        mapper.readTree(receivedBody).path("notifyUrl").asText());
+  }
+
+  @Test
+  void createPcHostedCheckoutShouldUseThePerOrderCallbackOrigin() throws Exception {
+    new YeahPayClient(properties, mapper)
+        .createPcHostedCheckout(
+            "ORD-PC-1001",
+            "SGD",
+            1234,
+            "BUZUD Order ORD-PC-1001",
+            "VISA",
+            new YeahPayClient.PcCheckoutDetails(
+                "42",
+                "Jamie Tan",
+                "jamie@example.com",
+                "10 Anson Road, Singapore 079903",
+                "079903"),
+            "https://home-sg.com/zh/profile/my-orders?payment=success");
+
+    assertEquals(
+        "https://home-sg.com/zh/profile/my-orders?payment=success&orderNo=ORD-PC-1001",
+        mapper.readTree(receivedBody).path("callback").asText());
+    assertEquals(properties.getNotifyUrl(),
+        mapper.readTree(receivedBody).path("notifyUrl").asText());
+  }
+
+  @Test
   void createPcHostedCheckoutShouldUseDesktopEndpointAndSendRequiredCustomerDetails()
       throws Exception {
     YeahPayClient client = new YeahPayClient(properties, mapper);
