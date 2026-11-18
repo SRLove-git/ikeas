@@ -382,7 +382,7 @@
     "detailPlaceholder": "Alamat terperinci (blok, jalan dan nombor unit)",
     "manualAddress": "Masukkan alamat baharu",
     "standardDelivery": "Penghantaran standard",
-    "standardDeliveryHint": "Anggaran penghantaran dalam 3–5 hari bekerja",
+    "standardDeliveryHint": "Anggaran penghantaran dalam 2–4 hari bekerja, dengan penjejakan selepas dihantar",
     "orderSummary": "Ringkasan pesanan",
     "loading": "Memuatkan beg beli-belah anda…",
     "empty": "Beg beli-belah anda kosong",
@@ -415,7 +415,12 @@
     "loginRequiredBody": "Untuk melindungi pesanan dan pembayaran, anda perlu log masuk sebelum daftar keluar. Bakul tempatan akan digabungkan ke akaun anda.",
     "loginRequiredAction": "Log masuk dan teruskan",
     "etaHint": "Anggaran penghantaran: 2–4 hari bekerja di Singapura.",
-    "returnsHint": "Dasar pulangan & jaminan"
+    "returnsHint": "Dasar pulangan & jaminan",
+    "securePayment": "Pembayaran selamat YeahPay",
+    "paymentLoading": "Memuatkan kaedah pembayaran yang tersedia…",
+    "paymentUnavailable": "Kaedah pembayaran tidak tersedia buat sementara waktu. Sila cuba lagi.",
+    "submitAndPay": "Buat pesanan dan teruskan pembayaran",
+    "submitAndPayHint": "Pengesahan selamat untuk kaedah pilihan anda dibuka selepas pesanan dibuat. Bayaran direkodkan hanya selepas pengesahan penyedia."
   },
   "referral": {
     "title": "Jemput & peroleh",
@@ -637,6 +642,9 @@
     "submitting": "Menghantar…",
     "requestRefund": "Minta bayaran balik",
     "logistics": "Logistik:",
+    "trackParcel": "Jejak di J&T",
+    "logisticsUpdated": "Logistik dikemas kini: {{time}}",
+    "logisticsAwaitingUpdate": "Menunggu kemas kini pengangkut",
     "afterSale": "Permohonan selepas jualan:",
     "afterSaleStatus": "Status",
     "invoiceRequested": "{{kind}} telah diminta:",

@@ -25,7 +25,7 @@ export interface HomeSiteBrand {
 }
 
 export interface HomeSiteData {
-  hero: { video?: string; poster: string; href: string; alt: string }
+  heroVideos: Array<{ video?: string; poster: string; href: string; alt: string }>
   categories: HomeSiteCategoryTile[]
   brands: HomeSiteBrand[]
   featured: BrandCommerceProduct[]
@@ -89,14 +89,26 @@ export function homeSiteData(locale: Locale = DEFAULT_LOCALE): HomeSiteData {
   }
 
   return {
-    hero: {
-      video: "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/videos/toshiba-er-td5000-promo.mp4",
-      poster: "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/videos/toshiba-er-td5000-cover-v3.png",
-      href: "/zh/toshiba/p/er-td5000sg-yk/",
-      alt: isZh
-        ? "东芝 ER-TD5000 过热水蒸气烤箱宣传视频"
-        : "Toshiba ER-TD5000 superheated steam oven",
-    },
+    heroVideos: [
+      {
+        video:
+          "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/videos/toshiba-er-td5000-promo.mp4",
+        poster:
+          "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/videos/toshiba-er-td5000-cover-v3.png",
+        href: "/zh/toshiba/p/er-td5000sg-yk/",
+        alt: isZh
+          ? "东芝 ER-TD5000 过热水蒸气烤箱宣传视频"
+          : "Toshiba ER-TD5000 superheated steam oven",
+      },
+      {
+        video:
+          "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/videos/midea-am820c2ra-promo.mp4",
+        poster:
+          "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/videos/midea-am820c2ra-poster.jpg",
+        href: "/zh/midea/p/am820c2ra/",
+        alt: isZh ? "美的 AM820C2RA 微波炉宣传视频" : "Midea AM820C2RA microwave oven",
+      },
+    ],
     categories,
     brands: [
       {

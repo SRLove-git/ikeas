@@ -7,7 +7,7 @@ import { useTranslation } from "react-i18next"
 import { SiteImage } from "@/components/SiteImage"
 import { useAuth } from "@/lib/auth"
 import { Breadcrumbs } from "@/components/Breadcrumbs"
-import { apiJson, type Cart, type OrderResponse } from "@/lib/api"
+import { apiJson, type Cart, type OrderResponse, type PaymentOptions } from "@/lib/api"
 import { formatPrice } from "@/lib/catalog-format"
 import {
   isSingaporePostalCode,
@@ -15,6 +15,7 @@ import {
   type ShippingAddress,
 } from "@/lib/address-book"
 import { useShippingQuote } from "@/hooks/useShippingQuote"
+import { PAYMENT_METHODS, type PaymentMethodId } from "@/lib/payment-methods"
 import { SITE_SCOPE } from "@/lib/site-scope"
 
 interface CouponView {
@@ -53,6 +54,9 @@ export function CheckoutPanel() {
   })
   const [savedAddresses, setSavedAddresses] = useState<ShippingAddress[]>([])
   const [selectedAddressId, setSelectedAddressId] = useState("")
+  const [paymentOptions, setPaymentOptions] = useState<PaymentOptions | null>(null)
+  const [paymentMethod, setPaymentMethod] = useState<PaymentMethodId | null>(null)
+  const [paymentLoading, setPaymentLoading] = useState(true)
   const shipping = useShippingQuote()
 
   useEffect(() => {
@@ -137,6 +141,32 @@ export function CheckoutPanel() {
     }
   }, [ready, user])
 
+  useEffect(() => {
+    if (!ready || !user) return
+    let cancelled = false
+    setPaymentLoading(true)
+    apiJson<PaymentOptions>("/payment/options")
+      .then((options) => {
+        if (cancelled) return
+        setPaymentOptions(options)
+        const firstEnabled = PAYMENT_METHODS.find((method) =>
+          options.enabledMethods.includes(method.id),
+        )
+        setPaymentMethod(firstEnabled?.id ?? null)
+      })
+      .catch(() => {
+        if (cancelled) return
+        setPaymentOptions(null)
+        setPaymentMethod(null)
+      })
+      .finally(() => {
+        if (!cancelled) setPaymentLoading(false)
+      })
+    return () => {
+      cancelled = true
+    }
+  }, [ready, user])
+
   const items = cart?.items ?? []
   const subtotal = items.reduce((sum, item) => sum + (item.product.price ?? 0) * item.quantity, 0)
   const totalQuantity = items.reduce((sum, item) => sum + item.quantity, 0)
@@ -177,6 +207,10 @@ export function CheckoutPanel() {
       setError(t("checkout.shippingUnavailable"))
       return
     }
+    if (!paymentOptions || paymentOptions.mockOnly || !paymentMethod) {
+      setError(t("checkout.paymentUnavailable"))
+      return
+    }
 
     setSubmitting(true)
     setError(null)
@@ -198,7 +232,11 @@ export function CheckoutPanel() {
           remark: "",
         }),
       })
-      router.replace(`/zh/profile/my-orders/?created=${encodeURIComponent(order.orderNo)}`)
+      router.replace(
+        `/zh/profile/my-orders/?created=${encodeURIComponent(order.orderNo)}&pay=${encodeURIComponent(
+          paymentMethod,
+        )}`,
+      )
     } catch (ex) {
       setError(ex instanceof Error ? ex.message : t("checkout.submitFailed"))
     } finally {
@@ -337,6 +375,63 @@ export function CheckoutPanel() {
                 </span>
               </label>
             </section>
+
+            <section className="bg-white p-6">
+              <div className="flex items-start justify-between gap-4">
+                <div>
+                  <h2 className="text-base font-bold">{t("checkout.stepPayment")}</h2>
+                  <p className="mt-1 text-xs leading-5 text-ikea-muted">
+                    {t("orders.paymentSubtitle")}
+                  </p>
+                </div>
+                {paymentOptions?.provider === "yeahpay" ? (
+                  <span className="rounded-full bg-green-50 px-3 py-1 text-[11px] font-bold text-green-700">
+                    {t("checkout.securePayment")}
+                  </span>
+                ) : null}
+              </div>
+
+              {paymentLoading ? (
+                <p className="mt-4 text-sm text-ikea-muted">{t("checkout.paymentLoading")}</p>
+              ) : paymentOptions &&
+                !paymentOptions.mockOnly &&
+                paymentOptions.provider !== "unavailable" &&
+                paymentOptions.enabledMethods.length > 0 ? (
+                <div className="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-3">
+                  {PAYMENT_METHODS.filter((method) =>
+                    paymentOptions.enabledMethods.includes(method.id),
+                  ).map((method) => {
+                    const selected = paymentMethod === method.id
+                    return (
+                      <button
+                        key={method.id}
+                        type="button"
+                        aria-pressed={selected}
+                        onClick={() => setPaymentMethod(method.id)}
+                        className={`min-h-20 rounded-xl border-2 p-3 text-left transition-colors ${
+                          selected
+                            ? "border-ikea-blue bg-blue-50"
+                            : "border-ikea-gray-200 hover:border-ikea-blue/50"
+                        }`}
+                      >
+                        <span className={`block text-sm font-black ${method.badgeClassName}`}>
+                          {method.label}
+                        </span>
+                        <span className="mt-2 block text-xs text-ikea-muted">
+                          {method.type === "card"
+                            ? t("orders.paymentMethodCard")
+                            : t("orders.paymentMethodWallet")}
+                        </span>
+                      </button>
+                    )
+                  })}
+                </div>
+              ) : (
+                <p className="mt-4 rounded-lg bg-red-50 px-4 py-3 text-sm text-red-600">
+                  {t("checkout.paymentUnavailable")}
+                </p>
+              )}
+            </section>
           </div>
 
           <aside className="h-fit bg-white p-6">
@@ -454,15 +549,19 @@ export function CheckoutPanel() {
                     loading ||
                     shipping.loading ||
                     !shipping.quote ||
+                    paymentLoading ||
+                    !paymentOptions ||
+                    paymentOptions.mockOnly ||
+                    !paymentMethod ||
                     hasUnavailable ||
                     totalQuantity === 0
                   }
                   className="i-btn i-btn--primary mt-6 h-11 w-full text-sm font-bold text-white disabled:cursor-not-allowed disabled:opacity-50"
                 >
-                  {submitting ? t("checkout.submitting") : t("checkout.submitOrder")}
+                  {submitting ? t("checkout.submitting") : t("checkout.submitAndPay")}
                 </button>
                 <p className="mt-3 text-center text-xs text-ikea-muted">
-                  {t("checkout.submitHint")}
+                  {t("checkout.submitAndPayHint")}
                 </p>
                 {shipping.error ? (
                   <p className="mt-3 text-center text-xs text-red-600">

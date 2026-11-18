@@ -19,6 +19,12 @@ import {
 import { API_BASE, getToken } from "@/lib/api"
 import { formatPrice } from "@/lib/catalog-format"
 import { paymentStatusView } from "@/lib/payment-status"
+import {
+  checkoutModeFor,
+  isPaymentMethodId,
+  PAYMENT_METHODS,
+  type PaymentMethodId,
+} from "@/lib/payment-methods"
 import { SITE_SCOPE } from "@/lib/site-scope"
 import { useLocale } from "@/i18n/LanguageProvider"
 import { intlLocale, type Locale } from "@/i18n/config"
@@ -28,95 +34,6 @@ import { intlLocale, type Locale } from "@/i18n/config"
  * aggregates every order for the unified account centre.
  */
 const ORDERS_PATH = SITE_SCOPE === "portal" ? "/orders" : `/orders?channel=${SITE_SCOPE}`
-
-type PaymentMethodId =
-  | "paynow"
-  | "wechatpay"
-  | "alipay"
-  | "visa"
-  | "mastercard"
-  | "amex"
-  | "unionpay"
-  | "applepay"
-  | "googlepay"
-
-const DIRECT_WALLET_METHODS: PaymentMethodId[] = ["paynow"]
-
-function isMobileBrowser(): boolean {
-  if (typeof navigator === "undefined") return true
-  const userAgent = navigator.userAgent
-  const iPadDesktopMode = /Macintosh/i.test(userAgent) && navigator.maxTouchPoints > 1
-  return iPadDesktopMode || /Android|iPhone|iPad|iPod|IEMobile|Opera Mini|Mobile/i.test(userAgent)
-}
-
-function checkoutModeFor(method: PaymentMethodId | "card"): string {
-  if (DIRECT_WALLET_METHODS.includes(method as PaymentMethodId)) return "qr"
-  // Ask the backend for a desktop presentation; it returns the validated H5 URL as a QR code.
-  if (method === "wechatpay" && !isMobileBrowser()) return "pc"
-  return "h5"
-}
-
-const PAYMENT_METHODS: {
-  id: PaymentMethodId
-  label: string
-  type: "card" | "wallet"
-  badgeClassName: string
-}[] = [
-  {
-    id: "paynow",
-    label: "PayNow",
-    type: "wallet",
-    badgeClassName: "text-[#7b1fa2]",
-  },
-  {
-    id: "wechatpay",
-    label: "WeChat Pay",
-    type: "wallet",
-    badgeClassName: "text-[#07c160]",
-  },
-  {
-    id: "alipay",
-    label: "Alipay",
-    type: "wallet",
-    badgeClassName: "text-[#1677ff]",
-  },
-  {
-    id: "visa",
-    label: "VISA",
-    type: "card",
-    badgeClassName: "text-[#1a1f71]",
-  },
-  {
-    id: "mastercard",
-    label: "Mastercard",
-    type: "card",
-    badgeClassName: "text-[#eb001b]",
-  },
-  {
-    id: "amex",
-    label: "AMERICAN EXPRESS",
-    type: "card",
-    badgeClassName: "text-[#006fcf]",
-  },
-  {
-    id: "unionpay",
-    label: "UnionPay",
-    type: "card",
-    badgeClassName: "text-[#007b84]",
-  },
-  {
-    id: "applepay",
-    label: "Apple Pay",
-    type: "wallet",
-    badgeClassName: "text-black",
-  },
-  {
-    id: "googlepay",
-    label: "Google Pay",
-    type: "wallet",
-    badgeClassName: "text-[#4285f4]",
-  },
-]
 
 function statusClassName(status: number): string {
   if (status === 1) return "bg-amber-100 text-amber-700"
@@ -206,10 +123,16 @@ export function MyOrdersPanel() {
     if (typeof window === "undefined") return
     const params = new URLSearchParams(window.location.search)
     const created = params.get("created")
+    const requestedPaymentMethod = params.get("pay")
     const payment = params.get("payment")
     if (created) {
       setNotice(t("orders.createdNotice", { no: created }))
       params.delete("created")
+      if (isPaymentMethodId(requestedPaymentMethod)) {
+        setPaymentMethod(requestedPaymentMethod)
+        setPaymentOrderNo(created)
+      }
+      params.delete("pay")
     }
     const returnedFromPayment =
       payment !== null && ["success", "failed", "cancel"].includes(payment)
@@ -236,7 +159,11 @@ export function MyOrdersPanel() {
         const firstEnabled = PAYMENT_METHODS.find((method) =>
           options.enabledMethods.includes(method.id),
         )
-        if (firstEnabled) setPaymentMethod(firstEnabled.id)
+        if (firstEnabled) {
+          setPaymentMethod((current) =>
+            options.enabledMethods.includes(current) ? current : firstEnabled.id,
+          )
+        }
       })
       .catch(() => {
         if (!cancelled) setPaymentOptions(null)
@@ -619,6 +546,26 @@ export function MyOrdersPanel() {
                                 ))}
                               </ul>
                             ) : null}
+                            <div className="mt-3 flex flex-wrap items-center justify-between gap-2 border-t border-ikea-gray-200 pt-2">
+                              <span className="text-ikea-muted">
+                                {logistics.updatedAt
+                                  ? t("orders.logisticsUpdated", {
+                                      time: formatDate(logistics.updatedAt, locale),
+                                    })
+                                  : t("orders.logisticsAwaitingUpdate")}
+                              </span>
+                              {logistics.trackingNo &&
+                              logistics.carrier?.toLowerCase().includes("j&t") ? (
+                                <a
+                                  href="https://www.jtexpress.sg/trackmyparcel"
+                                  target="_blank"
+                                  rel="noreferrer"
+                                  className="font-bold text-ikea-blue hover:underline"
+                                >
+                                  {t("orders.trackParcel")}
+                                </a>
+                              ) : null}
+                            </div>
                           </div>
                         ) : null}
 

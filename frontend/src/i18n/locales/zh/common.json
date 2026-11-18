@@ -382,7 +382,7 @@
     "detailPlaceholder": "详细地址（楼栋、街道及门牌/单元号）",
     "manualAddress": "手动输入新地址",
     "standardDelivery": "标准配送",
-    "standardDeliveryHint": "预计 3-5 个工作日送达",
+    "standardDeliveryHint": "预计 2–4 个工作日送达，发货后可查询物流",
     "orderSummary": "订单摘要",
     "loading": "加载购物袋…",
     "empty": "购物袋还是空的",
@@ -415,7 +415,12 @@
     "loginRequiredBody": "为保护订单和支付安全，结算前需要登录。登录后，本地购物袋会自动合并到账号。",
     "loginRequiredAction": "登录并继续结算",
     "etaHint": "预计送达：新加坡本地 2–4 个工作日。",
-    "returnsHint": "退换货与保修说明"
+    "returnsHint": "退换货与保修说明",
+    "securePayment": "YeahPay 安全支付",
+    "paymentLoading": "正在获取可用支付方式…",
+    "paymentUnavailable": "暂时无法获取支付方式，请稍后重试",
+    "submitAndPay": "下单并继续支付",
+    "submitAndPayHint": "订单创建后将进入所选方式的安全支付确认，只有渠道确认成功后才会入账"
   },
   "referral": {
     "title": "邀请有礼",
@@ -637,6 +642,9 @@
     "submitting": "提交中…",
     "requestRefund": "申请退款",
     "logistics": "物流：",
+    "trackParcel": "前往 J&T 官网查件",
+    "logisticsUpdated": "物流更新：{{time}}",
+    "logisticsAwaitingUpdate": "等待承运商更新",
     "afterSale": "售后申请：",
     "afterSaleStatus": "状态",
     "invoiceRequested": "已申请{{kind}}：",

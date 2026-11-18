@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { HeroVideo } from "@/components/HeroVideo"
 import { SiteLayout } from "@/components/SiteLayout"
 import { ProductCard } from "@/components/ProductCard"
 import { SiteImage } from "@/components/SiteImage"
@@ -84,6 +85,10 @@ export async function HomeSiteHome() {
             </div>
           </div>
         </section>
+
+        <div className="mx-auto max-w-page px-5 pt-8 lg:px-10 lg:pt-10">
+          <HeroVideo items={data.heroVideos} />
+        </div>
 
         <section className="mx-auto max-w-page px-5 py-12 lg:px-10 lg:py-16">
           <div className="grid gap-5 md:grid-cols-2">

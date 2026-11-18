@@ -386,7 +386,7 @@
     "detailPlaceholder": "Detailed address (block, street and unit number)",
     "manualAddress": "Enter a new address",
     "standardDelivery": "Standard delivery",
-    "standardDeliveryHint": "Estimated delivery in 3–5 business days",
+    "standardDeliveryHint": "Estimated delivery in 2–4 business days, with tracking after dispatch",
     "orderSummary": "Order summary",
     "loading": "Loading your shopping bag…",
     "empty": "Your shopping bag is empty",
@@ -419,7 +419,12 @@
     "loginRequiredBody": "To protect your order and payment, you must log in before checkout. Your local shopping bag will be merged into your account.",
     "loginRequiredAction": "Log in and continue",
     "etaHint": "Estimated delivery: 2–4 business days within Singapore.",
-    "returnsHint": "Returns & warranty policy"
+    "returnsHint": "Returns & warranty policy",
+    "securePayment": "Secure YeahPay checkout",
+    "paymentLoading": "Loading available payment methods…",
+    "paymentUnavailable": "Payment methods are temporarily unavailable. Please try again later.",
+    "submitAndPay": "Place order and continue to pay",
+    "submitAndPayHint": "A secure confirmation for your chosen method opens after the order is created. Payment is recorded only after provider confirmation."
   },
   "referral": {
     "title": "Invite & earn",
@@ -641,6 +646,9 @@
     "submitting": "Submitting…",
     "requestRefund": "Request refund",
     "logistics": "Logistics:",
+    "trackParcel": "Track on J&T",
+    "logisticsUpdated": "Logistics updated: {{time}}",
+    "logisticsAwaitingUpdate": "Waiting for carrier update",
     "afterSale": "After-sales request:",
     "afterSaleStatus": "Status",
     "invoiceRequested": "{{kind}} requested:",

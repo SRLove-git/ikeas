@@ -382,7 +382,7 @@
     "detailPlaceholder": "Alamat lengkap (blok, jalan, dan nomor unit)",
     "manualAddress": "Masukkan alamat baru",
     "standardDelivery": "Pengiriman standar",
-    "standardDeliveryHint": "Perkiraan pengiriman dalam 3–5 hari kerja",
+    "standardDeliveryHint": "Perkiraan pengiriman dalam 2–4 hari kerja, dengan pelacakan setelah dikirim",
     "orderSummary": "Ringkasan pesanan",
     "loading": "Memuat tas belanja Anda…",
     "empty": "Tas belanja Anda kosong",
@@ -415,7 +415,12 @@
     "loginRequiredBody": "Untuk melindungi pesanan dan pembayaran, Anda harus masuk sebelum checkout. Keranjang lokal akan digabungkan ke akun Anda.",
     "loginRequiredAction": "Masuk dan lanjutkan",
     "etaHint": "Perkiraan pengiriman: 2–4 hari kerja di Singapura.",
-    "returnsHint": "Kebijakan pengembalian & garansi"
+    "returnsHint": "Kebijakan pengembalian & garansi",
+    "securePayment": "Pembayaran aman YeahPay",
+    "paymentLoading": "Memuat metode pembayaran yang tersedia…",
+    "paymentUnavailable": "Metode pembayaran sementara tidak tersedia. Silakan coba lagi.",
+    "submitAndPay": "Buat pesanan dan lanjutkan pembayaran",
+    "submitAndPayHint": "Konfirmasi aman untuk metode pilihan Anda dibuka setelah pesanan dibuat. Pembayaran dicatat hanya setelah konfirmasi penyedia."
   },
   "referral": {
     "title": "Undang & dapatkan",
@@ -637,6 +642,9 @@
     "submitting": "Mengirim…",
     "requestRefund": "Ajukan pengembalian dana",
     "logistics": "Logistik:",
+    "trackParcel": "Lacak di J&T",
+    "logisticsUpdated": "Logistik diperbarui: {{time}}",
+    "logisticsAwaitingUpdate": "Menunggu pembaruan kurir",
     "afterSale": "Permintaan purna jual:",
     "afterSaleStatus": "Status",
     "invoiceRequested": "{{kind}} telah diminta:",
