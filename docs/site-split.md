@@ -205,10 +205,6 @@ docker exec buzud-postgres psql -U buzud -d buzud \
 - 三台前端容器：`buzud-frontend-medical` (3100)、`buzud-frontend-home` (3101)、`buzud-frontend-portal` (3102)，均为 healthy
 - `buzud-server` 已重建，Flyway `V27 site channel and sso` 执行成功；`orders.sales_channel` 与 `sso_code` 已存在
 - 已验收：三站首页、医疗站/家庭站目录与商品页、门户登录页/会员页、跨域 SSO code 签发与兑换、订单渠道参数、站点隔离 308 跳转、三站 sitemap/robots 域名
-- **待办**：`www.medical-sg.com` 尚未解析到 `47.84.25.19`。DNS 生效后重签包含 `www` 的证书：
-  ```bash
-  /root/.acme.sh/acme.sh --issue --standalone --httpport 8099 \
-    -d medical-sg.com -d www.medical-sg.com --keylength ec-256 \
-    --reloadcmd "/opt/diy/docker/nginx/reload-certs.sh"
-  ```
-  然后执行 `docker exec diy-nginx-lb nginx -s reload`。
+- 2026-11-18：`www.medical-sg.com` 已解析到 `47.84.25.19`，并已重签包含
+  `medical-sg.com` + `www.medical-sg.com` 的证书；`https://www.medical-sg.com/` 返回
+  301 → `https://medical-sg.com/`。
