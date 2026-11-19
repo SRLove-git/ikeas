@@ -194,7 +194,6 @@ docker exec buzud-postgres psql -U buzud -d buzud \
 ## 9. 已知限制 / 后续
 
 - 购物袋与收藏是账号级共享，未按站点隔离；在家庭站也能看到医疗商品购物袋。若要求严格隔离，需要给 `cart` 增加 channel 维度。
-- 管理后台 `/admin/` 在三个域名都可访问（同一套管理员账号）；如需收敛，可在 nginx 只放行门户域名。
 - `sso_code` 目前没有定期清理与按用户限流，上线后建议加定时任务与限流。
 - `ikea.auth.login-enabled=false` 目前不会阻止 SSO exchange，需确认风控语义。
 - OMS 订单回调暂未携带 `sales_channel`，如 OMS 需要分渠道报表需追加字段。

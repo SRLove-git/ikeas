@@ -134,7 +134,10 @@ export default function CatalogPageEditorPage() {
 
   return (
     <div className="max-w-6xl pb-6">
-      <BackLink href={adminPath(site, "catalog-pages")} label={t("admin.catalogPages.backToList")} />
+      <BackLink
+        href={adminPath(site, "catalog-pages")}
+        label={t("admin.catalogPages.backToList")}
+      />
       <PageHeader
         title={
           isNew
