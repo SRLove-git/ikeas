@@ -27,6 +27,8 @@ interface HeaderProps {
   scope?: SiteScope
 }
 
+const ALL_PRODUCTS_MENU = "__all-products__"
+
 /**
  * Deployment-aware header. The portal gets a minimal shell (no catalogue
  * search, cart or mega menu); medical/home keep the existing storefront
@@ -182,19 +184,11 @@ function StoreHeader({
     }
   }, [locale, i18n.language])
 
-  const groups: CategoryGroup[] = useMemo(() => {
-    const result: CategoryGroup[] = []
-    for (const category of categories) {
-      const name = category.group?.trim() || t("header.groupOther")
-      const group = result.find((candidate) => candidate.name === name)
-      if (group) {
-        group.categories.push(category)
-      } else {
-        result.push({ name, categories: [category] })
-      }
-    }
-    return result
-  }, [categories, t])
+  const allProductsGroup: CategoryGroup = useMemo(
+    () => ({ name: t("header.allProducts"), categories }),
+    [categories, t],
+  )
+  const allProductSections = useMemo(() => groupCategorySections(categories), [categories])
 
   useEffect(() => {
     let cancelled = false
@@ -242,7 +236,7 @@ function StoreHeader({
   const hideActiveBar = () => setBar((prev) => ({ ...prev, opacity: 0 }))
 
   const activePanel = menuPanels.find((panel) => panel.label === openPanel)
-  const activeGroup = groups.find((group) => group.name === openMenu)
+  const activeGroup = openMenu === ALL_PRODUCTS_MENU ? allProductsGroup : null
   const closeMenu = () => {
     setOpenMenu(null)
     setOpenPanel(null)
@@ -260,12 +254,6 @@ function StoreHeader({
     setMoreOpen(false)
     setOpenMenu(null)
     setOpenPanel(panel ? panel.label : null)
-    if (li) moveActiveBar(li)
-  }
-  const closeAllMenus = (li: HTMLLIElement | null) => {
-    closeSearch()
-    setMoreOpen(false)
-    closeMenu()
     if (li) moveActiveBar(li)
   }
   const openSearch = () => {
@@ -289,15 +277,7 @@ function StoreHeader({
     label: string
     href: string
     sections?: ReturnType<typeof groupCategorySections>
-  }[] = [
-    productsEntry,
-    ...groups.map((group) => ({
-      label: group.name,
-      href: toPath(group.categories[0]?.url ?? "/zh/all-products/"),
-      sections: groupCategorySections(group.categories),
-    })),
-    ...menuItems.map((item) => ({ label: item.label, href: item.href })),
-  ]
+  }[] = [productsEntry, ...menuItems.map((item) => ({ label: item.label, href: item.href }))]
 
   return (
     <div className="i-layout__header i-layout__header--sticky">
@@ -334,36 +314,41 @@ function StoreHeader({
                           opacity: bar.opacity,
                         }}
                       />
-                      <li onMouseEnter={(event) => closeAllMenus(event.currentTarget)}>
+                      <li
+                        onMouseEnter={(event) =>
+                          openGroupMenu(ALL_PRODUCTS_MENU, event.currentTarget)
+                        }
+                      >
                         <Link
                           href={productsEntry.href}
-                          className="menu-label"
-                          onFocus={(event) => closeAllMenus(event.currentTarget.closest("li"))}
+                          className="menu-label header-nav-more-trigger"
+                          aria-haspopup="true"
+                          aria-expanded={openMenu === ALL_PRODUCTS_MENU}
+                          onFocus={(event) =>
+                            openGroupMenu(ALL_PRODUCTS_MENU, event.currentTarget.closest("li"))
+                          }
+                          onClick={(event) => {
+                            event.preventDefault()
+                            openGroupMenu(ALL_PRODUCTS_MENU, event.currentTarget.closest("li"))
+                          }}
                         >
                           {productsEntry.label}
+                          <svg
+                            viewBox="0 0 24 24"
+                            className={`header-nav-more-chevron ${openMenu === ALL_PRODUCTS_MENU ? "header-nav-more-chevron--open" : ""}`}
+                            aria-hidden="true"
+                          >
+                            <path
+                              d="m6 9 6 6 6-6"
+                              fill="none"
+                              stroke="currentColor"
+                              strokeWidth="2"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                            />
+                          </svg>
                         </Link>
                       </li>
-                      {groups.map((group) => (
-                        <li
-                          key={`group-${group.name}`}
-                          onMouseEnter={(event) => openGroupMenu(group.name, event.currentTarget)}
-                        >
-                          <Link
-                            href={toPath(group.categories[0]?.url ?? "/zh/all-products/")}
-                            className="menu-label"
-                            onFocus={(event) =>
-                              openGroupMenu(group.name, event.currentTarget.closest("li"))
-                            }
-                            onClick={(event) => {
-                              // 分组本身没有落地页，点击展开下拉而不是跳到首个分类
-                              event.preventDefault()
-                              openGroupMenu(group.name, event.currentTarget.closest("li"))
-                            }}
-                          >
-                            {group.name}
-                          </Link>
-                        </li>
-                      ))}
                       {menuItems.map((item) => (
                         <li
                           key={item.label}
@@ -584,64 +569,57 @@ function StoreHeader({
                 <div className="border-t border-ikea-gray-200 bg-white px-5 py-3 lg:hidden">
                   <ul className="space-y-1">
                     <li>
-                      <Link
-                        href={productsEntry.href}
-                        onClick={() => setMobileMenuOpen(false)}
-                        className="block py-2.5 text-sm font-bold text-ikea-black"
-                      >
-                        {productsEntry.label}
-                      </Link>
-                    </li>
-                    {groups.map((group) => {
-                      const sections = groupCategorySections(group.categories)
-                      return (
-                        <li key={`m-group-${group.name}`}>
-                          <details className="mobile-nav-group">
-                            <summary className="flex cursor-pointer list-none items-center justify-between py-2.5 text-sm font-bold text-ikea-black">
-                              {group.name}
-                              <svg
-                                viewBox="0 0 24 24"
-                                className="mobile-nav-chevron h-4 w-4"
-                                aria-hidden="true"
-                              >
-                                <path
-                                  d="m6 9 6 6 6-6"
-                                  fill="none"
-                                  stroke="currentColor"
-                                  strokeWidth="2"
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                />
-                              </svg>
-                            </summary>
-                            <div className="pb-2 pl-1">
-                              {sections.map((section, index) => (
-                                <div key={section.name ?? `mobile-section-${index}`}>
-                                  {section.name ? (
-                                    <p className="px-2 pt-1 text-xs font-semibold uppercase tracking-wide text-ikea-muted">
-                                      {section.name}
-                                    </p>
-                                  ) : null}
-                                  <ul>
-                                    {section.categories.map((category) => (
-                                      <li key={`${category.name}-${category.url}`}>
-                                        <Link
-                                          href={toPath(category.url)}
-                                          onClick={() => setMobileMenuOpen(false)}
-                                          className="block rounded px-2 py-1.5 text-sm text-ikea-black hover:bg-ikea-gray-100"
-                                        >
-                                          {category.name}
-                                        </Link>
-                                      </li>
-                                    ))}
-                                  </ul>
-                                </div>
-                              ))}
+                      <details className="mobile-nav-group">
+                        <summary className="flex cursor-pointer list-none items-center justify-between py-2.5 text-sm font-bold text-ikea-black">
+                          {productsEntry.label}
+                          <svg
+                            viewBox="0 0 24 24"
+                            className="mobile-nav-chevron h-4 w-4"
+                            aria-hidden="true"
+                          >
+                            <path
+                              d="m6 9 6 6 6-6"
+                              fill="none"
+                              stroke="currentColor"
+                              strokeWidth="2"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                            />
+                          </svg>
+                        </summary>
+                        <div className="max-h-[60vh] overflow-y-auto pb-2 pl-1">
+                          <Link
+                            href={productsEntry.href}
+                            onClick={() => setMobileMenuOpen(false)}
+                            className="block rounded px-2 py-2 text-sm font-bold text-ikea-blue hover:bg-ikea-gray-100"
+                          >
+                            {t("megaMenu.seeAll")}
+                          </Link>
+                          {allProductSections.map((section, index) => (
+                            <div key={section.name ?? `mobile-section-${index}`}>
+                              {section.name ? (
+                                <p className="px-2 pt-2 text-xs font-semibold uppercase tracking-wide text-ikea-muted">
+                                  {section.name}
+                                </p>
+                              ) : null}
+                              <ul>
+                                {section.categories.map((category) => (
+                                  <li key={`${category.name}-${category.url}`}>
+                                    <Link
+                                      href={toPath(category.url)}
+                                      onClick={() => setMobileMenuOpen(false)}
+                                      className="block rounded px-2 py-1.5 text-sm text-ikea-black hover:bg-ikea-gray-100"
+                                    >
+                                      {category.name}
+                                    </Link>
+                                  </li>
+                                ))}
+                              </ul>
                             </div>
-                          </details>
-                        </li>
-                      )
-                    })}
+                          ))}
+                        </div>
+                      </details>
+                    </li>
                     {menuItems.map((item) => (
                       <li key={item.label}>
                         <Link
