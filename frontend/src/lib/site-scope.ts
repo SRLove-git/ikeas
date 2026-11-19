@@ -79,27 +79,18 @@ export function productVisibleInScope(
 }
 
 export interface ScopedCategory {
-  /** Localized CMS menu group, e.g. 医疗 / Medical or 家电 / Home Appliances. */
+  /** CMS menu group: 医疗 / 家电. */
   group?: string | null
-  /** Canonical catalogue route; preferred for locale-independent scoping. */
-  url?: string | null
 }
 
-const MEDICAL_GROUP_NAMES = new Set(["医疗", "Medical", "Perubatan", "Medis"])
-const HOME_GROUP_NAMES = new Set(["家电", "Home Appliances", "Peralatan Rumah"])
-
-/** Catalogue visibility follows the route first, with localized groups as fallback. */
+/** Catalogue visibility follows the CMS menu `group` field. */
 export function categoryVisibleInScope(
   category: ScopedCategory | null | undefined,
   scope: SiteScope = SITE_SCOPE,
 ): boolean {
   if (!category) return false
-  if (category.url) {
-    if (scope === "medical") return isMedicalCatalogPath(category.url)
-    if (scope === "home") return isAppliancePath(category.url)
-  }
-  if (scope === "medical") return MEDICAL_GROUP_NAMES.has(category.group?.trim() ?? "")
-  if (scope === "home") return HOME_GROUP_NAMES.has(category.group?.trim() ?? "")
+  if (scope === "medical") return category.group === "医疗"
+  if (scope === "home") return category.group === "家电"
   return false
 }
 
