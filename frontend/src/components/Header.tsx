@@ -6,7 +6,7 @@ import { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react"
 import { useTranslation } from "react-i18next"
 import { CartIcon, HeartIcon, SearchIcon, UserIcon } from "@/components/icons"
 import { BrandMark } from "@/components/BrandMark"
-import { MegaMenu, toPath, type CategoryGroup } from "@/components/MegaMenu"
+import { AllProductsMegaMenu, MegaMenu, toPath, type CategoryGroup } from "@/components/MegaMenu"
 import { MenuPanel } from "@/components/MenuPanel"
 import { SearchPanel } from "@/components/SearchPanel"
 import { useLocale } from "@/i18n/LanguageProvider"
@@ -26,6 +26,8 @@ interface HeaderProps {
   /** Deployment variant; defaults to the build-time NEXT_PUBLIC_SITE_SCOPE. */
   scope?: SiteScope
 }
+
+const ALL_PRODUCTS_MENU = "__all-products__"
 
 /**
  * Deployment-aware header. The portal gets a minimal shell (no catalogue
@@ -185,7 +187,10 @@ function StoreHeader({
   const groups: CategoryGroup[] = useMemo(() => {
     const result: CategoryGroup[] = []
     for (const category of categories) {
-      const name = category.group?.trim() || t("header.groupOther")
+      // The split storefront data keeps a broad site scope in `group`
+      // (medical / home appliances), while `subgroup` preserves the original
+      // customer-facing navigation categories.
+      const name = category.subgroup?.trim() || category.group?.trim() || t("header.groupOther")
       const group = result.find((candidate) => candidate.name === name)
       if (group) {
         group.categories.push(category)
@@ -262,12 +267,6 @@ function StoreHeader({
     setOpenPanel(panel ? panel.label : null)
     if (li) moveActiveBar(li)
   }
-  const closeAllMenus = (li: HTMLLIElement | null) => {
-    closeSearch()
-    setMoreOpen(false)
-    closeMenu()
-    if (li) moveActiveBar(li)
-  }
   const openSearch = () => {
     closeMenu()
     setMoreOpen(false)
@@ -294,7 +293,10 @@ function StoreHeader({
     ...groups.map((group) => ({
       label: group.name,
       href: toPath(group.categories[0]?.url ?? "/zh/all-products/"),
-      sections: groupCategorySections(group.categories),
+      sections: groupCategorySections(group.categories).map((section) => ({
+        ...section,
+        name: section.name === group.name ? null : section.name,
+      })),
     })),
     ...menuItems.map((item) => ({ label: item.label, href: item.href })),
   ]
@@ -334,11 +336,21 @@ function StoreHeader({
                           opacity: bar.opacity,
                         }}
                       />
-                      <li onMouseEnter={(event) => closeAllMenus(event.currentTarget)}>
+                      <li
+                        onMouseEnter={(event) =>
+                          openGroupMenu(ALL_PRODUCTS_MENU, event.currentTarget)
+                        }
+                      >
                         <Link
                           href={productsEntry.href}
                           className="menu-label"
-                          onFocus={(event) => closeAllMenus(event.currentTarget.closest("li"))}
+                          onFocus={(event) =>
+                            openGroupMenu(ALL_PRODUCTS_MENU, event.currentTarget.closest("li"))
+                          }
+                          onClick={(event) => {
+                            event.preventDefault()
+                            openGroupMenu(ALL_PRODUCTS_MENU, event.currentTarget.closest("li"))
+                          }}
                         >
                           {productsEntry.label}
                         </Link>
@@ -704,6 +716,11 @@ function StoreHeader({
           {activeGroup ? (
             <div className="mega-menu-layer" onMouseLeave={() => setOpenMenu(null)}>
               <MegaMenu group={activeGroup} />
+            </div>
+          ) : null}
+          {openMenu === ALL_PRODUCTS_MENU ? (
+            <div className="mega-menu-layer" onMouseLeave={() => setOpenMenu(null)}>
+              <AllProductsMegaMenu groups={groups} />
             </div>
           ) : null}
           {activePanel ? (
