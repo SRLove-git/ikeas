@@ -1,5 +1,7 @@
 "use client";
 
+import { useAdminSite } from "@/components/admin/useAdminSite"
+import { adminPath } from "@/lib/admin-sites"
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useTranslation } from "react-i18next";
@@ -24,6 +26,7 @@ function slugOf(url: string): string {
 }
 
 export default function CatalogPagesPage() {
+  const site = useAdminSite()
   const { t } = useTranslation();
   const [items, setItems] = useState<CatalogPageItem[] | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -47,7 +50,7 @@ export default function CatalogPagesPage() {
         title={t("admin.catalogPages.title")}
         description={t("admin.catalogPages.desc")}
         actions={
-          <Link href="/admin/catalog-pages/new">
+          <Link href={adminPath(site, "catalog-pages/new")}>
             <Button>{t("admin.catalogPages.new")}</Button>
           </Link>
         }
@@ -88,7 +91,7 @@ export default function CatalogPagesPage() {
                   </td>
                   <td className="px-5 py-3 text-right">
                     <Link
-                      href={`/admin/catalog-pages/${slugOf(page.url)}`}
+                      href={adminPath(site, `catalog-pages/${slugOf(page.url)}`)}
                       className="text-xs font-medium text-ikea-blue hover:underline"
                     >
                       {t("admin.products.edit")}

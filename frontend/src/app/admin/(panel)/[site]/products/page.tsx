@@ -1,5 +1,7 @@
 "use client"
 
+import { useAdminSite } from "@/components/admin/useAdminSite"
+import { adminPath } from "@/lib/admin-sites"
 import { useEffect, useState } from "react"
 import Link from "next/link"
 import { useTranslation } from "react-i18next"
@@ -27,6 +29,7 @@ interface Product {
 }
 
 export default function ProductsPage() {
+  const site = useAdminSite()
   const { t } = useTranslation()
   const [query, setQuery] = useState("")
   const [page, setPage] = useState(1)
@@ -57,7 +60,7 @@ export default function ProductsPage() {
         title={t("admin.products.title")}
         description={t("admin.products.desc")}
         actions={
-          <Link href="/admin/products/new">
+          <Link href={adminPath(site, "products/new")}>
             <Button>{t("admin.products.new")}</Button>
           </Link>
         }
@@ -137,7 +140,7 @@ export default function ProductsPage() {
                     </td>
                     <td className="px-5 py-3 text-right">
                       <Link
-                        href={`/admin/products/${product.id}`}
+                        href={adminPath(site, `products/${product.id}`)}
                         className="text-xs font-medium text-ikea-blue hover:underline"
                       >
                         {t("admin.products.edit")}

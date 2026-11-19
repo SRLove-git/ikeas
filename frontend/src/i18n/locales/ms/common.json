@@ -868,6 +868,23 @@
       "unknownUser": "Pengguna tidak diketahui"
     },
     "logout": "Log keluar",
+    "workspace": {
+      "site": "Urus laman",
+      "portal": "Portal",
+      "home": "Kediaman",
+      "medical": "Kesihatan",
+      "current": "Laman semasa",
+      "shared": "Dikongsi semua laman",
+      "template": "Templat halaman bersama",
+      "intro": "Edit pengenalan dalam bahasa Inggeris dan Cina pada halaman utama laman ini.",
+      "eyebrow": "Label atas",
+      "title": "Tajuk",
+      "description": "Penerangan",
+      "save": "Simpan halaman utama",
+      "saved": "Halaman utama disimpan",
+      "failed": "Gagal menyimpan. Sila cuba lagi.",
+      "conflict": "Kandungan telah berubah. Muat semula sebelum menyunting."
+    },
     "shell": {
       "brand": "Pengurusan Kandungan CHUNG YIP",
       "liveBadge": "CMS · langsung",

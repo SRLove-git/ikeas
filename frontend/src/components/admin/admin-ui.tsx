@@ -17,7 +17,7 @@ export async function adminFetch<T>(path: string, options: RequestInit = {}): Pr
     },
   })
   if (response.status === 401) {
-    window.location.href = "/admin/login"
+    window.location.href = `/admin/login/?next=${encodeURIComponent(window.location.pathname)}`
     throw new Error(adminErrorText("未登录"))
   }
   const body = await response.json().catch(() => null)

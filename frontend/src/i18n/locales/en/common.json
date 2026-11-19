@@ -872,6 +872,23 @@
       "unknownUser": "Unknown user"
     },
     "logout": "Log out",
+    "workspace": {
+      "site": "Manage site",
+      "portal": "Portal",
+      "home": "Home & Living",
+      "medical": "Medical & Health",
+      "current": "Current site",
+      "shared": "Shared across sites",
+      "template": "Shared page template",
+      "intro": "Edit the English and Chinese introduction on this site’s homepage.",
+      "eyebrow": "Eyebrow",
+      "title": "Headline",
+      "description": "Description",
+      "save": "Save homepage",
+      "saved": "Homepage saved",
+      "failed": "Save failed. Please try again.",
+      "conflict": "The content has changed. Refresh before editing again."
+    },
     "shell": {
       "brand": "CHUNG YIP Content Management",
       "liveBadge": "CMS · live",

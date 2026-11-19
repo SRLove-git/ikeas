@@ -1,14 +1,12 @@
 import Link from "next/link"
 import { BrandMark } from "@/components/BrandMark"
 import { LanguageSwitch } from "@/i18n/LanguageSwitch"
+import { getSiteIntro } from "@/lib/site-intro"
 import { getLocale } from "@/i18n/server"
 import { HOME_URL, MEDICAL_URL, PORTAL_URL } from "@/lib/site-scope"
 
 interface PortalCopy {
   nav: { medical: string; home: string; account: string; support: string }
-  heroEyebrow: string
-  heroTitle: string
-  heroBody: string
   heroCtaMedical: string
   heroCtaHome: string
   medical: { kicker: string; title: string; body: string; cta: string; points: string[] }
@@ -39,10 +37,6 @@ interface PortalCopy {
 
 const ZH: PortalCopy = {
   nav: { medical: "医疗健康", home: "家庭生活", account: "会员中心", support: "客户服务" },
-  heroEyebrow: "CHUNG YIP · BUZUD",
-  heroTitle: "健康与生活，一站直达",
-  heroBody:
-    "同一份会员账号，连接专业医疗健康与家庭生活两大站点。无论自测监测还是家电焕新，都在这里找到入口。",
   heroCtaMedical: "进入医疗健康站",
   heroCtaHome: "进入家庭生活站",
   medical: {
@@ -94,10 +88,6 @@ const EN: PortalCopy = {
     account: "My Account",
     support: "Support",
   },
-  heroEyebrow: "CHUNG YIP · BUZUD",
-  heroTitle: "Health and home, one destination",
-  heroBody:
-    "One membership connects our medical and home stores. Whether you are monitoring your health or refreshing your home, start here.",
   heroCtaMedical: "Enter medical store",
   heroCtaHome: "Enter home store",
   medical: {
@@ -153,6 +143,7 @@ const EN: PortalCopy = {
  */
 export async function PortalHome() {
   const locale = await getLocale()
+  const intro = getSiteIntro("portal")[locale === "zh-CN" ? "zh" : "en"]
   const copy = locale === "zh-CN" ? ZH : EN
 
   return (
@@ -193,13 +184,13 @@ export async function PortalHome() {
           <div className="mx-auto grid max-w-page gap-10 py-12 lg:grid-cols-[1fr_0.72fr] lg:items-center lg:py-16">
             <div className="min-w-0">
               <p className="text-[11px] font-bold uppercase tracking-[0.28em] text-ikea-muted">
-                {copy.heroEyebrow}
+                {intro.eyebrow}
               </p>
               <h1 className="mt-4 max-w-3xl text-4xl font-bold leading-[1.06] tracking-tight sm:text-5xl lg:text-6xl">
-                {copy.heroTitle}
+                {intro.title}
               </h1>
               <p className="mt-5 max-w-2xl text-base leading-7 text-ikea-muted lg:text-lg">
-                {copy.heroBody}
+                {intro.description}
               </p>
               <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
                 <a

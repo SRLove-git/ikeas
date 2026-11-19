@@ -1,5 +1,7 @@
 "use client";
 
+import { useAdminSite } from "@/components/admin/useAdminSite"
+import { adminPath } from "@/lib/admin-sites"
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useTranslation } from "react-i18next";
@@ -46,6 +48,7 @@ interface ModuleEntry {
 }
 
 export default function AdminDashboardPage() {
+  const site = useAdminSite()
   const { t } = useTranslation();
   const { locale } = useLocale();
   const [stats, setStats] = useState<SiteStats | null>(null);
@@ -87,12 +90,12 @@ export default function AdminDashboardPage() {
   if (!stats) return <Loading label={t("admin.dashboard.loading")} />;
 
   const cards = [
-    { label: t("admin.dashboard.productTotal"), value: stats.products, href: "/admin/products" },
-    { label: t("admin.dashboard.contentPages"), value: stats.pages, href: "/admin/pages" },
+    { label: t("admin.dashboard.productTotal"), value: stats.products, href: adminPath(site, "products") },
+    { label: t("admin.dashboard.contentPages"), value: stats.pages, href: adminPath(site, "pages") },
     {
       label: t("admin.dashboard.catalogPages"),
       value: stats.catalogPages,
-      href: "/admin/catalog-pages",
+      href: adminPath(site, "catalog-pages"),
     },
   ];
 
@@ -112,18 +115,18 @@ export default function AdminDashboardPage() {
       description: t("admin.shell.productsDesc"),
       items: [
         {
-          href: "/admin/products",
+          href: adminPath(site, "products"),
           label: t("admin.dashboard.mProducts"),
           description: t("admin.dashboard.mProductsDesc"),
           count: String(stats.products),
         },
         {
-          href: "/admin/categories",
+          href: adminPath(site, "categories"),
           label: t("admin.dashboard.mCategories"),
           description: t("admin.dashboard.mCategoriesDesc"),
         },
         {
-          href: "/admin/catalog-pages",
+          href: adminPath(site, "catalog-pages"),
           label: t("admin.dashboard.mCatalogPages"),
           description: t("admin.dashboard.mCatalogPagesDesc"),
           count: String(stats.catalogPages),
@@ -135,23 +138,23 @@ export default function AdminDashboardPage() {
       description: t("admin.shell.contentDesc"),
       items: [
         {
-          href: "/admin/homepage",
+          href: adminPath(site, "homepage"),
           label: t("admin.dashboard.mHomepage"),
           description: t("admin.dashboard.mHomepageDesc"),
         },
         {
-          href: "/admin/pages",
+          href: adminPath(site, "pages"),
           label: t("admin.dashboard.mPages"),
           description: t("admin.dashboard.mPagesDesc"),
           count: String(stats.pages),
         },
         {
-          href: "/admin/menu",
+          href: adminPath(site, "menu"),
           label: t("admin.dashboard.mMenu"),
           description: t("admin.dashboard.mMenuDesc"),
         },
         {
-          href: "/admin/chat-knowledge",
+          href: adminPath(site, "chat-knowledge"),
           label: t("admin.dashboard.mChatKnowledge"),
           description: t("admin.dashboard.mChatKnowledgeDesc"),
         },
@@ -162,22 +165,22 @@ export default function AdminDashboardPage() {
       description: t("admin.shell.tradingDesc"),
       items: [
         {
-          href: "/admin/users",
+          href: adminPath(site, "users"),
           label: t("admin.dashboard.mUsers"),
           description: t("admin.dashboard.mUsersDesc"),
         },
         {
-          href: "/admin/carts",
+          href: adminPath(site, "carts"),
           label: t("admin.dashboard.mCarts"),
           description: t("admin.dashboard.mCartsDesc"),
         },
         {
-          href: "/admin/favorites",
+          href: adminPath(site, "favorites"),
           label: t("admin.dashboard.mFavorites"),
           description: t("admin.dashboard.mFavoritesDesc"),
         },
         {
-          href: "/admin/chat",
+          href: adminPath(site, "chat"),
           label: t("admin.dashboard.mChat"),
           description: t("admin.dashboard.mChatDesc"),
         },
@@ -188,12 +191,12 @@ export default function AdminDashboardPage() {
       description: t("admin.shell.systemDesc"),
       items: [
         {
-          href: "/admin/settings",
+          href: adminPath(site, "settings"),
           label: t("admin.dashboard.mSettings"),
           description: t("admin.dashboard.mSettingsDesc"),
         },
         {
-          href: "/admin/changelog",
+          href: adminPath(site, "changelog"),
           label: t("admin.dashboard.mChangelog"),
           description: t("admin.dashboard.mChangelogDesc"),
         },
@@ -287,7 +290,7 @@ export default function AdminDashboardPage() {
       <Card
         title={t("admin.dashboard.recentActions")}
         actions={
-          <Link href="/admin/changelog" className="text-xs text-ikea-blue hover:underline">
+          <Link href={adminPath(site, "changelog")} className="text-xs text-ikea-blue hover:underline">
             {t("admin.dashboard.viewAll")}
           </Link>
         }

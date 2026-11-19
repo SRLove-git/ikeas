@@ -868,6 +868,23 @@
       "unknownUser": "未知用户"
     },
     "logout": "退出登录",
+    "workspace": {
+      "site": "管理站点",
+      "portal": "总门户",
+      "home": "家庭站",
+      "medical": "医疗站",
+      "current": "当前站点",
+      "shared": "三站共享",
+      "template": "共用页面模板",
+      "intro": "编辑本网站首页首屏显示的中英文文案。",
+      "eyebrow": "眉题",
+      "title": "主标题",
+      "description": "简介",
+      "save": "保存首页",
+      "saved": "首页已保存",
+      "failed": "保存失败，请重试。",
+      "conflict": "内容已被其他人修改。请刷新后再编辑。"
+    },
     "shell": {
       "brand": "CHUNG YIP 内容管理后台",
       "liveBadge": "CMS · 实时生效",

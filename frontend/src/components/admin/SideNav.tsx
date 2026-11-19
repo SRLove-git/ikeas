@@ -16,7 +16,7 @@ export interface NavGroup {
   items: NavItem[];
 }
 
-export function SideNav({ groups }: { groups: NavGroup[] }) {
+export function SideNav({ groups, onNavigate }: { groups: NavGroup[]; onNavigate: () => void }) {
   const pathname = usePathname();
   return (
     <nav className="flex-1 space-y-5 overflow-y-auto px-3 py-5">
@@ -32,14 +32,12 @@ export function SideNav({ groups }: { groups: NavGroup[] }) {
           </div>
           <ul className="space-y-0.5">
             {group.items.map((item) => {
-              const active =
-                pathname === item.href ||
-                (item.href !== "/admin" && pathname.startsWith(`${item.href}/`)) ||
-                (item.href !== "/admin" && pathname.startsWith(item.href));
+              const active = pathname === item.href || pathname.startsWith(item.href);
               return (
                 <li key={item.href}>
                   <Link
                     href={item.href}
+                    onClick={onNavigate}
                     className={cn(
                       "flex items-center justify-between rounded-md px-2.5 py-2 text-sm transition-colors",
                       active

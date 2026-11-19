@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react"
 import { useRouter } from "next/navigation"
 import { useTranslation } from "react-i18next"
+import { loginDestination } from "@/lib/admin-sites"
 import { LanguageSwitch } from "@/i18n/LanguageSwitch"
 import { adminErrorText, Button, Notice, TextInput } from "@/components/admin/admin-ui"
 
@@ -18,7 +19,8 @@ export default function AdminLoginPage() {
     void fetch("/api/admin/auth/me")
       .then((response) => response.json())
       .then((data) => {
-        if (data.user) router.replace("/admin")
+        if (data.user)
+          router.replace(loginDestination(new URLSearchParams(window.location.search).get("next")))
       })
       .catch(() => undefined)
   }, [router])
@@ -38,7 +40,7 @@ export default function AdminLoginPage() {
         setError(body?.error ? adminErrorText(body.error) : t("admin.login.loginFailed"))
         return
       }
-      router.replace("/admin")
+      router.replace(loginDestination(new URLSearchParams(window.location.search).get("next")))
     } catch {
       setError(t("admin.login.cannotConnect"))
     } finally {
@@ -91,9 +93,7 @@ export default function AdminLoginPage() {
             {busy ? t("admin.login.loggingIn") : t("admin.login.login")}
           </Button>
         </form>
-        <p className="mt-4 text-center text-xs text-ikea-muted">
-          {t("admin.login.demoHint")}
-        </p>
+        <p className="mt-4 text-center text-xs text-ikea-muted">{t("admin.login.demoHint")}</p>
       </div>
     </div>
   )

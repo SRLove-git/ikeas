@@ -1,5 +1,8 @@
 "use client"
 
+import { useAdminSite } from "@/components/admin/useAdminSite"
+import { absoluteUrl } from "@/lib/site-scope"
+import { adminPath } from "@/lib/admin-sites"
 import { useEffect, useMemo, useState } from "react"
 import { useParams, useRouter } from "next/navigation"
 import { useTranslation } from "react-i18next"
@@ -279,6 +282,7 @@ function ProductPreview({
 }
 
 export default function ProductEditorPage() {
+  const site = useAdminSite()
   const { t, i18n } = useTranslation()
   const params = useParams<{ id: string }>()
   const router = useRouter()
@@ -345,7 +349,7 @@ export default function ProductEditorPage() {
       if (isNew) {
         await adminFetch("/api/admin/products", { method: "POST", body: JSON.stringify(payload) })
         show("success", t("admin.products.created"))
-        router.replace("/admin/products")
+        router.replace(adminPath(site, "products"))
       } else {
         await adminFetch(`/api/admin/products/${params.id}`, {
           method: "PUT",
@@ -364,7 +368,7 @@ export default function ProductEditorPage() {
     try {
       await adminFetch(`/api/admin/products/${params.id}`, { method: "DELETE" })
       show("success", t("admin.products.deleted"))
-      router.replace("/admin/products")
+      router.replace(adminPath(site, "products"))
     } catch (error) {
       show("error", (error as Error).message)
     }
@@ -384,7 +388,7 @@ export default function ProductEditorPage() {
 
   return (
     <div className="-mx-3 -mt-2 pb-4 2xl:-mx-4">
-      <BackLink href="/admin/products" label={t("admin.products.backToList")} />
+      <BackLink href={adminPath(site, "products")} label={t("admin.products.backToList")} />
       <PageHeader
         title={isNew ? t("admin.products.newTitle") : form.name || t("admin.products.newTitle")}
         description={isNew ? t("admin.products.newDesc") : `ID: ${params.id}`}
@@ -394,7 +398,7 @@ export default function ProductEditorPage() {
               <CircleCheck className="h-3.5 w-3.5" /> {tr("已加载商品", "Product loaded")}
             </span>
             {previewUrl ? (
-              <a href={previewUrl} target="_blank" rel="noreferrer">
+              <a href={absoluteUrl(site, previewUrl)} target="_blank" rel="noreferrer">
                 <Button variant="secondary">{t("admin.products.preview")} ↗</Button>
               </a>
             ) : null}
@@ -617,7 +621,7 @@ export default function ProductEditorPage() {
                       {categories.map((category) => (
                         <a
                           key={category.href}
-                          href={category.href}
+                          href={absoluteUrl(site, category.href)}
                           target="_blank"
                           rel="noreferrer"
                           className="inline-flex items-center gap-1 rounded-full border border-[#dbe2ea] bg-[#f6f9fc] px-3 py-1.5 text-xs text-[#3671a8] hover:border-[#a9c5df]"
@@ -783,7 +787,7 @@ export default function ProductEditorPage() {
               {t("admin.products.deleteProduct")}
             </ConfirmButton>
           ) : null}
-          <Button variant="secondary" onClick={() => router.push("/admin/products")}>
+          <Button variant="secondary" onClick={() => router.push(adminPath(site, "products"))}>
             {tr("取消", "Cancel")}
           </Button>
           <Button

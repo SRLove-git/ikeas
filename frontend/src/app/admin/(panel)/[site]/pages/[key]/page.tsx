@@ -1,5 +1,8 @@
 "use client"
 
+import { useAdminSite } from "@/components/admin/useAdminSite"
+import { absoluteUrl } from "@/lib/site-scope"
+import { adminPath } from "@/lib/admin-sites"
 import { useEffect, useState } from "react"
 import { useParams, useRouter } from "next/navigation"
 import { useTranslation } from "react-i18next"
@@ -46,6 +49,7 @@ function emptyPage(): PageForm {
 }
 
 export default function PageEditorPage() {
+  const site = useAdminSite()
   const { t } = useTranslation()
   const FAMILY_LABEL: Record<string, string> = {
     "customer-service": t("admin.pages.familyCustomerService"),
@@ -88,7 +92,7 @@ export default function PageEditorPage() {
           body: JSON.stringify(form),
         })
         show("success", t("admin.pages.created"))
-        router.replace("/admin/pages")
+        router.replace(adminPath(site, "pages"))
       } else {
         await adminFetch(`/api/admin/pages/${params.key}`, {
           method: "PUT",
@@ -107,7 +111,7 @@ export default function PageEditorPage() {
     try {
       await adminFetch(`/api/admin/pages/${params.key}`, { method: "DELETE" })
       show("success", t("admin.pages.deleted"))
-      router.replace("/admin/pages")
+      router.replace(adminPath(site, "pages"))
     } catch (e) {
       show("error", (e as Error).message)
     }
@@ -117,7 +121,7 @@ export default function PageEditorPage() {
 
   return (
     <div className="max-w-6xl pb-6">
-      <BackLink href="/admin/pages" label={t("admin.pages.backToList")} />
+      <BackLink href={adminPath(site, "pages")} label={t("admin.pages.backToList")} />
       <PageHeader
         title={
           isNew ? t("admin.pages.newTitle") : t("admin.pages.editTitle", { title: form.title })
@@ -125,7 +129,7 @@ export default function PageEditorPage() {
         description={isNew ? t("admin.pages.newDesc") : form.url}
         actions={
           form.url ? (
-            <a href={form.url} target="_blank" rel="noreferrer">
+            <a href={absoluteUrl(site, form.url)} target="_blank" rel="noreferrer">
               <Button variant="secondary">{t("admin.products.preview")} ↗</Button>
             </a>
           ) : null

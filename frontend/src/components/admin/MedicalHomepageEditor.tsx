@@ -391,9 +391,21 @@ function buildConfigs(t: (key: string) => string) {
   return { SECTIONS, SCHEMAS }
 }
 
-export default function HomepageEditorPage() {
+// These blocks are rendered on the medical landing page. Navigation, footer
+// and other reusable template content are maintained in the shared editor.
+const landingBlocks = new Set([
+  "heroVideos",
+  "promoCardItems",
+  "roomPillItems",
+  "roomPillCta",
+  "sustainabilityPillItems",
+  "sustainabilityPillCta",
+])
+
+export function MedicalHomepageEditor({ shared = false }: { shared?: boolean }) {
   const { t } = useTranslation()
-  const { SECTIONS, SCHEMAS } = buildConfigs(t)
+  const { SECTIONS: allSections, SCHEMAS } = buildConfigs(t)
+  const SECTIONS = allSections.filter(({ key }) => landingBlocks.has(key) !== shared)
   const { notice, show } = useNotice()
   const [data, setData] = useState<Record<string, unknown> | null>(null)
   const [selected, setSelected] = useState<string>(SECTIONS[0].key)
@@ -473,7 +485,10 @@ export default function HomepageEditorPage() {
 
   return (
     <div className="max-w-6xl pb-6">
-      <PageHeader title={t("admin.homepage.title")} description={t("admin.homepage.desc")} />
+      <PageHeader
+        title={t(shared ? "admin.workspace.template" : "admin.homepage.title")}
+        description={t("admin.homepage.desc")}
+      />
       <NoticeArea notice={notice} />
 
       <div className="grid gap-6 lg:grid-cols-[260px_1fr]">

@@ -1,5 +1,7 @@
 "use client"
 
+import { useAdminSite } from "@/components/admin/useAdminSite"
+import { adminPath } from "@/lib/admin-sites"
 import { useEffect, useState } from "react"
 import Link from "next/link"
 import { useTranslation } from "react-i18next"
@@ -32,6 +34,7 @@ function keyFor(url: string): string {
 }
 
 export default function PagesPage() {
+  const site = useAdminSite()
   const { t } = useTranslation()
   const FAMILY_LABEL: Record<string, string> = {
     "customer-service": t("admin.pages.familyCustomerService"),
@@ -65,7 +68,7 @@ export default function PagesPage() {
         title={t("admin.pages.title")}
         description={t("admin.pages.desc")}
         actions={
-          <Link href="/admin/pages/new">
+          <Link href={adminPath(site, "pages/new")}>
             <Button>{t("admin.pages.new")}</Button>
           </Link>
         }
@@ -133,7 +136,7 @@ export default function PagesPage() {
                   </td>
                   <td className="px-5 py-3 text-right">
                     <Link
-                      href={`/admin/pages/${keyFor(page.url)}`}
+                      href={adminPath(site, `pages/${keyFor(page.url)}`)}
                       className="text-xs font-medium text-ikea-blue hover:underline"
                     >
                       {t("admin.products.edit")}

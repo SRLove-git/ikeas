@@ -208,3 +208,11 @@ docker exec buzud-postgres psql -U buzud -d buzud \
 - 2026-11-18：`www.medical-sg.com` 已解析到 `47.84.25.19`，并已重签包含
   `medical-sg.com` + `www.medical-sg.com` 的证书；`https://www.medical-sg.com/` 返回
   301 → `https://medical-sg.com/`。
+
+## 统一内容管理后台
+
+三个站点共用门户的 `https://life-sg.com/admin/` 和管理员会话。从家庭或医疗站进入旧后台地址时，浏览器会转到门户，并保留目标站点。管理员用顶部「管理站点」切换。当前站点写在 URL 中，刷新、书签和同时打开多个标签页都能保留各自的站点。
+
+- 门户和家庭站分别维护中英文首页首屏文案，存储在共享 CMS 卷的 `site-intros/portal.json` 和 `site-intros/home.json`。现有马来文和印尼文首页首屏沿用英文文案。
+- 家庭站使用东芝、美的品牌目录，医疗站使用医疗商品与首页区块。
+- 页面模板、分类、菜单、会员、交易运营和营销等跨站数据在「三站共享」下管理。订单履约继续由 OMS 管理。

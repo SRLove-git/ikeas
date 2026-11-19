@@ -1,3 +1,5 @@
+import { randomUUID } from "node:crypto"
+import { getSiteIntro, type IntroSite, type SiteIntro } from "@/lib/site-intro"
 import fs from "node:fs"
 import path from "node:path"
 import { loadDataJson, loadDataJsonOptional } from "@/lib/data-files"
@@ -586,6 +588,21 @@ export function pageFamilies(): { name: string; count: number }[] {
 // ---------------------------------------------------------------------------
 // Homepage
 // ---------------------------------------------------------------------------
+
+export function updateSiteIntro(site: IntroSite, expected: SiteIntro, value: SiteIntro) {
+  return withWriteLock(() => {
+    if (JSON.stringify(getSiteIntro(site)) !== JSON.stringify(expected)) return false
+    const target = filePath(`site-intros/${site}.json`)
+    const temporary = `${target}.${randomUUID()}.tmp`
+    try {
+      fs.writeFileSync(temporary, `${JSON.stringify(value, null, 2)}\n`, "utf8")
+      fs.renameSync(temporary, target)
+    } finally {
+      fs.rmSync(temporary, { force: true })
+    }
+    return true
+  })
+}
 
 export function getHomepage(): Record<string, unknown> {
   return loadDataJson<Record<string, unknown>>("homepage.json")

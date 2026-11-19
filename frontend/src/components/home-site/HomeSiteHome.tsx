@@ -3,6 +3,7 @@ import { HeroVideo } from "@/components/HeroVideo"
 import { SiteLayout } from "@/components/SiteLayout"
 import { ProductCard } from "@/components/ProductCard"
 import { SiteImage } from "@/components/SiteImage"
+import { getSiteIntro } from "@/lib/site-intro"
 import { homeSiteData } from "@/data/home-site"
 import { getLocale } from "@/i18n/server"
 import { MEDICAL_URL } from "@/lib/site-scope"
@@ -15,6 +16,7 @@ export async function HomeSiteHome() {
   const locale = await getLocale()
   const data = homeSiteData(locale)
   const isZh = locale === "zh-CN"
+  const intro = getSiteIntro("home")[isZh ? "zh" : "en"]
   const heroProducts = data.featured.slice(0, 2)
 
   return (
@@ -25,15 +27,13 @@ export async function HomeSiteHome() {
             <div className="grid min-h-[610px] lg:min-h-[520px] lg:grid-cols-[0.9fr_1.1fr]">
               <div className="relative z-10 flex flex-col items-start justify-center px-6 py-10 sm:px-10 lg:px-12 lg:py-14">
                 <p className="text-[11px] font-bold uppercase tracking-[0.22em] text-ikea-muted">
-                  {isZh ? "家庭生活 · 东芝 × 美的" : "Home & Living · Toshiba × Midea"}
+                  {intro.eyebrow}
                 </p>
                 <h1 className="mt-4 max-w-xl text-4xl font-bold leading-[1.08] tracking-tight sm:text-5xl lg:text-6xl">
-                  {isZh ? "让好家电，成为家的日常" : "Appliances that make home feel effortless"}
+                  {intro.title}
                 </h1>
                 <p className="mt-5 max-w-lg text-base leading-7 text-ikea-muted">
-                  {isZh
-                    ? "冰箱、洗护、厨房与清洁电器，官方渠道正品保障，全岛配送与安装支持。"
-                    : "Refrigeration, laundry, kitchen and cleaning appliances — genuine products, islandwide delivery and installation support."}
+                  {intro.description}
                 </p>
                 <div className="mt-8 flex flex-wrap gap-3">
                   <Link

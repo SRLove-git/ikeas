@@ -1,5 +1,8 @@
 "use client"
 
+import { useAdminSite } from "@/components/admin/useAdminSite"
+import { absoluteUrl } from "@/lib/site-scope"
+import { adminPath } from "@/lib/admin-sites"
 import { useEffect, useState } from "react"
 import { useParams, useRouter } from "next/navigation"
 import { useTranslation } from "react-i18next"
@@ -47,6 +50,7 @@ function emptyForm(): CatalogPageForm {
 }
 
 export default function CatalogPageEditorPage() {
+  const site = useAdminSite()
   const { t } = useTranslation()
   const params = useParams<{ slug: string }>()
   const router = useRouter()
@@ -101,7 +105,7 @@ export default function CatalogPageEditorPage() {
           body: JSON.stringify(payload),
         })
         show("success", t("admin.catalogPages.created"))
-        router.replace("/admin/catalog-pages")
+        router.replace(adminPath(site, "catalog-pages"))
       } else {
         await adminFetch(`/api/admin/catalog-pages/${params.slug}`, {
           method: "PUT",
@@ -120,7 +124,7 @@ export default function CatalogPageEditorPage() {
     try {
       await adminFetch(`/api/admin/catalog-pages/${params.slug}`, { method: "DELETE" })
       show("success", t("admin.catalogPages.deleted"))
-      router.replace("/admin/catalog-pages")
+      router.replace(adminPath(site, "catalog-pages"))
     } catch (e) {
       show("error", (e as Error).message)
     }
@@ -130,7 +134,7 @@ export default function CatalogPageEditorPage() {
 
   return (
     <div className="max-w-6xl pb-6">
-      <BackLink href="/admin/catalog-pages" label={t("admin.catalogPages.backToList")} />
+      <BackLink href={adminPath(site, "catalog-pages")} label={t("admin.catalogPages.backToList")} />
       <PageHeader
         title={
           isNew
@@ -140,7 +144,7 @@ export default function CatalogPageEditorPage() {
         description={form.url}
         actions={
           form.url ? (
-            <a href={form.url} target="_blank" rel="noreferrer">
+            <a href={absoluteUrl(site, form.url)} target="_blank" rel="noreferrer">
               <Button variant="secondary">{t("admin.products.preview")} ↗</Button>
             </a>
           ) : null

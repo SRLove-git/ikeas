@@ -868,6 +868,23 @@
       "unknownUser": "Pengguna tidak dikenal"
     },
     "logout": "Keluar",
+    "workspace": {
+      "site": "Kelola situs",
+      "portal": "Portal",
+      "home": "Rumah tangga",
+      "medical": "Kesehatan",
+      "current": "Situs saat ini",
+      "shared": "Bersama di semua situs",
+      "template": "Templat halaman bersama",
+      "intro": "Edit pengantar dalam bahasa Inggris dan Mandarin pada beranda situs ini.",
+      "eyebrow": "Label atas",
+      "title": "Judul utama",
+      "description": "Deskripsi",
+      "save": "Simpan beranda",
+      "saved": "Beranda disimpan",
+      "failed": "Gagal menyimpan. Coba lagi.",
+      "conflict": "Konten telah berubah. Muat ulang sebelum mengedit."
+    },
     "shell": {
       "brand": "Manajemen Konten CHUNG YIP",
       "liveBadge": "CMS · langsung",
