@@ -1,220 +1,132 @@
-import Link from "next/link"
 import { HeroVideo } from "@/components/HeroVideo"
+import { InspirationTipsCard } from "@/components/InspirationTipsCard"
+import { PromoInspirationCard } from "@/components/PromoInspirationCard"
 import { SiteLayout } from "@/components/SiteLayout"
-import { ProductCard } from "@/components/ProductCard"
-import { SiteImage } from "@/components/SiteImage"
-import { getSiteIntro } from "@/lib/site-intro"
+import { VisualPillSlider } from "@/components/VisualPillSlider"
 import { homeSiteData } from "@/data/home-site"
 import { getLocale } from "@/i18n/server"
-import { MEDICAL_URL } from "@/lib/site-scope"
+import { formatPrice } from "@/lib/catalog-format"
+import { productHref } from "@/lib/product-url"
+import { getSiteIntro } from "@/lib/site-intro"
+import { PORTAL_URL } from "@/lib/site-scope"
+import type { PillSliderItem, PromoTile } from "@/types"
+
+const tileColors = ["#dcebe7", "#dbe6ef", "#f3e5dc"] as const
 
 /**
- * home-sg.com 首页：只展示东芝 / 美的家电。
- * 医疗商品全部由 medical-sg.com 承载，这里不出现任何医疗目录入口。
+ * home-sg.com keeps its Toshiba / Midea catalogue content while sharing the
+ * same homepage hierarchy and reusable UI components as medical-sg.com.
  */
 export async function HomeSiteHome() {
   const locale = await getLocale()
   const data = homeSiteData(locale)
   const isZh = locale === "zh-CN"
   const intro = getSiteIntro("home")[isZh ? "zh" : "en"]
-  const heroProducts = data.featured.slice(0, 2)
+
+  const promoItems: PromoTile[] = [
+    ...data.brands.map((brand, index) => ({
+      title: brand.name,
+      description: isZh
+        ? `${brand.tagline} · ${brand.count} 款在售`
+        : `${brand.tagline} · ${brand.count} products`,
+      href: brand.href,
+      image: brand.image ?? undefined,
+      backgroundColor: tileColors[index] ?? tileColors[0],
+      textColor: "#111111",
+    })),
+    {
+      title: isZh ? "全部家电" : "All appliances",
+      description: isZh
+        ? `${data.totalProducts} 款东芝与美的家电`
+        : `${data.totalProducts} Toshiba and Midea appliances`,
+      href: "/zh/all-products/",
+      image: data.featured[0]?.image ?? undefined,
+      backgroundColor: tileColors[2],
+      textColor: "#111111",
+    },
+  ]
+
+  const categoryItems: PillSliderItem[] = data.categories.map((category) => ({
+    label: category.label,
+    href: category.href,
+    image: category.image ?? undefined,
+  }))
+
+  const featuredItems: PromoTile[] = data.featured.slice(0, 3).map((product, index) => ({
+    title: product.name,
+    description: [product.productType, product.model, formatPrice(product.price)]
+      .filter(Boolean)
+      .join(" · "),
+    ctaLabel: isZh ? "查看详情" : "View product",
+    href: productHref(product),
+    image: product.image ?? undefined,
+    backgroundColor: tileColors[index] ?? tileColors[0],
+    textColor: "#111111",
+  }))
+
+  const popularItems: PillSliderItem[] = data.featured.slice(3).map((product) => ({
+    label: product.name,
+    href: productHref(product),
+    image: product.image ?? undefined,
+  }))
 
   return (
-    <SiteLayout>
-      <div className="font-ikea min-h-screen bg-white text-ikea-black">
+    <SiteLayout locale={locale}>
+      <div className="i-layout__body">
         <section className="mx-auto max-w-page pt-5 lg:pt-7">
-          <div className="relative overflow-hidden rounded-[28px] bg-[#f3efe9]">
-            <div className="grid min-h-[610px] lg:min-h-[520px] lg:grid-cols-[0.9fr_1.1fr]">
-              <div className="relative z-10 flex flex-col items-start justify-center px-6 py-10 sm:px-10 lg:px-12 lg:py-14">
-                <p className="text-[11px] font-bold uppercase tracking-[0.22em] text-ikea-muted">
-                  {intro.eyebrow}
-                </p>
-                <h1 className="mt-4 max-w-xl text-4xl font-bold leading-[1.08] tracking-tight sm:text-5xl lg:text-6xl">
-                  {intro.title}
-                </h1>
-                <p className="mt-5 max-w-lg text-base leading-7 text-ikea-muted">
-                  {intro.description}
-                </p>
-                <div className="mt-8 flex flex-wrap gap-3">
-                  <Link
-                    href="/zh/all-products/"
-                    className="inline-flex h-12 items-center justify-center rounded-full bg-ikea-black px-7 text-sm font-bold text-white transition-colors hover:bg-[#333333]"
-                  >
-                    {isZh ? "选购全部家电" : "Shop all appliances"}
-                  </Link>
-                  <Link
-                    href="/zh/toshiba/"
-                    className="inline-flex h-12 items-center justify-center rounded-full border border-ikea-black px-6 text-sm font-bold text-ikea-black transition-colors hover:bg-white/60"
-                  >
-                    Toshiba
-                  </Link>
-                  <Link
-                    href="/zh/midea/"
-                    className="inline-flex h-12 items-center justify-center rounded-full border border-ikea-black px-6 text-sm font-bold text-ikea-black transition-colors hover:bg-white/60"
-                  >
-                    Midea
-                  </Link>
-                </div>
-                <p className="mt-6 text-xs font-bold tracking-[0.04em] text-ikea-muted">
-                  {isZh
-                    ? "官方正品 · 全岛配送 · 安装与售后支持"
-                    : "Genuine · Islandwide delivery · Installation & support"}
-                </p>
-              </div>
-              <div className="relative min-h-[280px] overflow-hidden lg:min-h-full">
-                {heroProducts.map((product, index) => (
-                  <SiteImage
-                    key={product.id}
-                    src={product.image}
-                    alt={product.name}
-                    className={`absolute bg-transparent ${
-                      index === 0
-                        ? "right-[32%] bottom-0 h-[92%] w-[58%]"
-                        : "-right-[5%] bottom-[-3%] h-[72%] w-[52%]"
-                    }`}
-                    imgClassName="h-full w-full object-contain object-bottom drop-shadow-[0_24px_38px_rgba(17,17,17,0.18)]"
-                    sizes="(max-width: 1023px) 55vw, 420px"
-                    loading="eager"
-                    fetchPriority={index === 0 ? "high" : "auto"}
-                  />
-                ))}
-                <span className="absolute right-5 bottom-5 rounded-full bg-white/85 px-4 py-2 text-[10px] font-bold tracking-[0.16em] text-ikea-black backdrop-blur sm:right-8 sm:bottom-8">
-                  TOSHIBA × MIDEA
-                </span>
-              </div>
+          <div className="flex flex-col gap-5 border-b border-ikea-gray-200 pb-6 md:flex-row md:items-end md:justify-between">
+            <div>
+              <p className="text-[11px] font-bold uppercase tracking-[0.22em] text-ikea-muted">
+                {intro.eyebrow}
+              </p>
+              <h1 className="mt-2 max-w-3xl text-3xl font-bold leading-tight tracking-tight sm:text-4xl lg:text-5xl">
+                {intro.title}
+              </h1>
+            </div>
+            <div className="max-w-lg md:text-right">
+              <p className="text-sm leading-6 text-ikea-muted">{intro.description}</p>
+              <a
+                href={PORTAL_URL}
+                className="mt-3 inline-flex text-xs font-bold text-ikea-black underline decoration-1 underline-offset-4 hover:text-ikea-blue"
+              >
+                {isZh ? "返回 CHUNG YIP 总入口 →" : "Back to CHUNG YIP portal →"}
+              </a>
             </div>
           </div>
         </section>
 
-        <div className="mx-auto max-w-page px-5 pt-8 lg:px-10 lg:pt-10">
-          <HeroVideo items={data.heroVideos} />
+        <HeroVideo items={data.heroVideos} />
+
+        <div className="clearfix m-auto mt-4 mb-8 min-h-screen max-w-page space-y-8 px-0 text-left lg:mt-6 lg:mb-12 lg:space-y-12">
+          <PromoInspirationCard
+            title={isZh ? "CHUNG YIP 精选" : "CHUNG YIP Picks"}
+            items={promoItems}
+          />
+          <VisualPillSlider
+            title={isZh ? "按空间挑选" : "Shop by category"}
+            items={categoryItems}
+            cta={{
+              label: isZh ? "查看全部家电" : "Browse all appliances",
+              href: "/zh/all-products/",
+              color: "#0058a3",
+              textColor: "#ffffff",
+            }}
+          />
+          <InspirationTipsCard
+            title={isZh ? "本周精选" : "Featured this week"}
+            items={featuredItems}
+          />
+          <VisualPillSlider
+            title={isZh ? "家电精选" : "Home appliance picks"}
+            items={popularItems}
+            cta={{
+              label: isZh ? "选购所有家电" : "Shop all appliances",
+              href: "/zh/all-products/",
+              color: "#111111",
+              textColor: "#ffffff",
+            }}
+          />
         </div>
-
-        <section className="mx-auto max-w-page px-5 py-12 lg:px-10 lg:py-16">
-          <div className="grid gap-5 md:grid-cols-2">
-            {data.brands.map((brand) => (
-              <Link
-                key={brand.id}
-                href={brand.href}
-                className="group relative overflow-hidden rounded-2xl bg-ikea-gray-100 p-6 transition-shadow hover:shadow-lg lg:p-9"
-              >
-                <div className="relative z-10 max-w-[58%]">
-                  <p className="text-[11px] font-bold uppercase tracking-[0.2em] text-ikea-muted">
-                    {brand.count} {isZh ? "款在售" : "products"}
-                  </p>
-                  <h2 className="mt-2 text-3xl font-bold uppercase tracking-tight lg:text-4xl">
-                    {brand.name}
-                  </h2>
-                  <p className="mt-3 text-sm leading-6 text-ikea-muted">{brand.tagline}</p>
-                  <span className="mt-6 inline-flex h-10 items-center justify-center rounded-full bg-ikea-black px-6 text-xs font-bold text-white">
-                    {isZh ? `进入 ${brand.name} 专区` : `Shop ${brand.name}`}
-                  </span>
-                </div>
-                <SiteImage
-                  src={brand.image}
-                  alt={brand.name}
-                  className="pointer-events-none absolute -right-6 -bottom-8 h-[78%] w-[52%] bg-transparent"
-                  imgClassName="h-full w-full object-contain object-bottom drop-shadow-[0_16px_28px_rgba(17,17,17,0.18)] transition-transform duration-500 group-hover:scale-105"
-                  sizes="(max-width: 767px) 50vw, 360px"
-                />
-              </Link>
-            ))}
-          </div>
-        </section>
-
-        <section className="bg-ikea-gray-100/70 py-12 lg:py-16">
-          <div className="mx-auto max-w-page px-5 lg:px-10">
-            <div className="flex items-baseline justify-between gap-4">
-              <h2 className="text-2xl font-bold lg:text-3xl">
-                {isZh ? "按空间挑选" : "Shop by category"}
-              </h2>
-              <Link
-                href="/zh/all-products/"
-                className="text-xs font-bold text-ikea-muted underline-offset-4 hover:text-ikea-black hover:underline"
-              >
-                {isZh ? "查看全部家电" : "All appliances"}
-              </Link>
-            </div>
-            <div className="mt-7 grid grid-cols-2 gap-4 sm:grid-cols-4 lg:grid-cols-7">
-              {data.categories.map((category) => (
-                <Link key={category.label} href={category.href} className="group">
-                  <div className="aspect-square overflow-hidden rounded-xl bg-white p-4">
-                    <SiteImage
-                      src={category.image}
-                      alt={category.label}
-                      className="h-full w-full bg-transparent"
-                      imgClassName="h-full w-full object-contain object-center transition-transform duration-300 group-hover:scale-105"
-                      sizes="(max-width: 639px) 45vw, 180px"
-                    />
-                  </div>
-                  <p className="mt-2 text-sm font-bold group-hover:underline">{category.label}</p>
-                </Link>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        <section className="mx-auto max-w-page px-5 py-12 lg:px-10 lg:py-16">
-          <div className="flex items-baseline justify-between gap-4">
-            <h2 className="text-2xl font-bold lg:text-3xl">
-              {isZh ? "本周精选" : "Featured this week"}
-            </h2>
-            <p className="text-xs text-ikea-muted">
-              {isZh
-                ? `共 ${data.totalProducts} 款家电在售`
-                : `${data.totalProducts} appliances available`}
-            </p>
-          </div>
-          <div className="mt-7 grid grid-cols-2 gap-x-4 gap-y-10 md:grid-cols-3 lg:grid-cols-4">
-            {data.featured.map((product) => (
-              <ProductCard key={product.id} product={product} />
-            ))}
-          </div>
-        </section>
-
-        <section className="mx-auto max-w-page px-5 pb-14 lg:px-10">
-          <div className="grid gap-4 rounded-2xl bg-ikea-black p-7 text-white md:grid-cols-3 lg:p-10">
-            {(isZh
-              ? [
-                  { title: "官方正品", body: "东芝与美的授权渠道，整机保修按品牌政策执行。" },
-                  { title: "全岛配送", body: "新加坡本地配送，大家电可预约送货与安装。" },
-                  { title: "售后无忧", body: "统一客服与保修登记，订单状态随时可查。" },
-                ]
-              : [
-                  {
-                    title: "Genuine products",
-                    body: "Authorised Toshiba and Midea channels with brand warranty.",
-                  },
-                  {
-                    title: "Islandwide delivery",
-                    body: "Local delivery with scheduled installation for large appliances.",
-                  },
-                  {
-                    title: "After-sales support",
-                    body: "One support team, warranty registration and live order tracking.",
-                  },
-                ]
-            ).map((item) => (
-              <div key={item.title}>
-                <h3 className="text-lg font-bold">{item.title}</h3>
-                <p className="mt-2 text-sm leading-6 text-white/70">{item.body}</p>
-              </div>
-            ))}
-          </div>
-          <div className="mt-8 flex flex-col items-center justify-between gap-3 border-t border-ikea-gray-200 pt-8 text-center sm:flex-row sm:text-left">
-            <p className="text-sm text-ikea-muted">
-              {isZh
-                ? "也在寻找健康检测与医疗设备？"
-                : "Also looking for health testing and medical devices?"}
-            </p>
-            <a
-              href={MEDICAL_URL}
-              className="inline-flex h-10 items-center justify-center rounded-full border border-ikea-black px-6 text-xs font-bold text-ikea-black transition-colors hover:bg-ikea-gray-100"
-            >
-              {isZh ? "前往医疗健康站 medical-sg.com" : "Visit medical-sg.com"}
-            </a>
-          </div>
-        </section>
       </div>
     </SiteLayout>
   )
