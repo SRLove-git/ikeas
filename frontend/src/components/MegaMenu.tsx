@@ -1,6 +1,7 @@
 "use client"
 
 import Link from "next/link"
+import { useState } from "react"
 import { useTranslation } from "react-i18next"
 import type { Category } from "@/data/categories"
 import { groupCategorySections } from "@/lib/menu-sections"
@@ -12,6 +13,30 @@ export interface CategoryGroup {
 
 export function toPath(url: string): string {
   return url.replace(/^https:\/\/www\.ikea\.cn/, "")
+}
+
+function CategoryThumbnail({ image, name }: { image: string | null; name: string }) {
+  const [failed, setFailed] = useState(false)
+
+  if (!image || failed) {
+    return (
+      <span className="mega-menu-directory__fallback" aria-hidden="true">
+        {name.slice(0, 1)}
+      </span>
+    )
+  }
+
+  return (
+    // eslint-disable-next-line @next/next/no-img-element
+    <img
+      src={image}
+      alt={name}
+      className="i-object-contain"
+      loading="eager"
+      decoding="async"
+      onError={() => setFailed(true)}
+    />
+  )
 }
 
 export function MegaMenu({ group }: { group: CategoryGroup }) {
@@ -62,19 +87,7 @@ export function MegaMenu({ group }: { group: CategoryGroup }) {
                           className="mega-menu-directory__item"
                         >
                           <span className="mega-menu-directory__thumb">
-                            {image ? (
-                              // eslint-disable-next-line @next/next/no-img-element
-                              <img
-                                src={image}
-                                alt={category.name}
-                                className="i-object-contain"
-                                loading="lazy"
-                              />
-                            ) : (
-                              <span className="mega-menu-directory__fallback" aria-hidden="true">
-                                {category.name.slice(0, 1)}
-                              </span>
-                            )}
+                            <CategoryThumbnail image={image} name={category.name} />
                           </span>
                           <span className="mega-menu-directory__content">
                             <span className="mega-menu-directory__name">{category.name}</span>
