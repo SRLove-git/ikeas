@@ -277,14 +277,14 @@
   ],
   "heroVideos": [
     {
-      "video": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/videos/toshiba-er-td5000-promo.mp4",
-      "poster": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/videos/toshiba-er-td5000-cover-v3.png",
-      "href": "/zh/toshiba/p/er-td5000sg-yk",
-      "alt": "Toshiba ER-TD5000 superheated steam oven video"
+      "video": "/videos/buzud-promo.mp4",
+      "poster": "/images/cms/buzud-home-1.jpg",
+      "href": "/zh/cat/smart-watch",
+      "alt": "BUZUD promotional video"
     },
     {
       "video": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/videos/buzud-imdec-2026-494x278.mp4",
-      "poster": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711394-1.png",
+      "poster": "/images/products/buzud-8885020711394-1.png",
       "href": "/zh/cat/cgms",
       "alt": "BUZUD continuous glucose monitoring"
     }

@@ -118,10 +118,7 @@ export default async function Home() {
                 </div>
               </div>
             </section>
-            <HeroVideo
-              compact
-              items={heroVideos.filter((item) => !isAppliancePath(item.href ?? ""))}
-            />
+            <HeroVideo items={heroVideos.filter((item) => !isAppliancePath(item.href ?? ""))} />
             <div className="clearfix min-h-screen px-0 m-auto mt-4 mb-8 space-y-8 text-left lg:mt-6 lg:mb-12 lg:space-y-12 max-w-page">
               {showExperienceBooking ? (
                 <BookingHighlight
