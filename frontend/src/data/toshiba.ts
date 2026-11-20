@@ -75,8 +75,23 @@ export interface ToshibaCategory {
   productCount: number
 }
 
+function useLocalProductImage(product: ToshibaProduct): ToshibaProduct {
+  const image = `/images/products/${product.id}-local.webp`
+
+  return {
+    ...product,
+    image,
+    detail: {
+      ...product.detail,
+      images: [image],
+    },
+  }
+}
+
 export function allToshibaProducts(locale: Locale = DEFAULT_LOCALE): ToshibaProduct[] {
-  return loadLocalizedData<ToshibaProduct[]>("toshiba/products.json", locale)
+  return loadLocalizedData<ToshibaProduct[]>("toshiba/products.json", locale).map(
+    useLocalProductImage,
+  )
 }
 
 export function toshibaProductBySlug(
