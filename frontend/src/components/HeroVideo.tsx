@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useState } from "react"
+import { useEffect, useState, type MouseEvent } from "react"
 import Link from "next/link"
 import { useTranslation } from "react-i18next"
 import type { HeroVideo } from "@/types"
@@ -26,8 +26,24 @@ const stopVideo = (host: HTMLElement) => {
 export function HeroVideo({ items, compact = false }: HeroVideoProps) {
   const { t } = useTranslation()
   const [isMobile, setIsMobile] = useState(false)
+  const [activeVideo, setActiveVideo] = useState<number | null>(null)
   const [videoStatus, setVideoStatus] = useState<Record<number, "ready" | "failed">>({})
   const fallbackAlt = t("home.promoVideoAria")
+
+  const startVideo = (event: MouseEvent<HTMLButtonElement>, index: number) => {
+    const host = event.currentTarget.parentElement
+    const video = host?.querySelector("video")
+    if (!video) return
+
+    setActiveVideo(index)
+    video.muted = false
+    void video.play().catch(() => {
+      // Some browsers reject audio playback even after a direct click. Keep the
+      // controls visible and fall back to muted playback instead of doing nothing.
+      video.muted = true
+      void video.play().catch(() => undefined)
+    })
+  }
 
   useEffect(() => {
     const media = window.matchMedia("(max-width: 767px)")
@@ -48,8 +64,9 @@ export function HeroVideo({ items, compact = false }: HeroVideoProps) {
             poster && poster.includes("aliyuncs.com") && !poster.includes("x-oss-process")
               ? `${poster}?x-oss-process=image/resize,w_1280,quality,q_82`
               : poster
-          // 手机端不自动下载整段视频，只展示封面（点击卡片直接跳转）
-          const hoverPlayable = Boolean(video) && !isMobile
+          const videoAvailable = Boolean(video)
+          const hoverPlayable = videoAvailable && !isMobile
+          const manuallyPlaying = activeVideo === index
           const videoReady = videoStatus[index] === "ready"
           const videoFailed = videoStatus[index] === "failed"
 
@@ -59,10 +76,18 @@ export function HeroVideo({ items, compact = false }: HeroVideoProps) {
               className={`group relative overflow-hidden rounded-xl bg-ikea-gray-100 shadow-sm transition-shadow duration-300 hover:shadow-lg ${
                 compact ? "aspect-video md:aspect-[16/7]" : "aspect-video"
               }`}
-              onMouseEnter={(event) => playVideo(event.currentTarget)}
-              onMouseLeave={(event) => stopVideo(event.currentTarget)}
-              onFocus={(event) => playVideo(event.currentTarget)}
-              onBlur={(event) => stopVideo(event.currentTarget)}
+              onMouseEnter={(event) => {
+                if (!manuallyPlaying) playVideo(event.currentTarget)
+              }}
+              onMouseLeave={(event) => {
+                if (!manuallyPlaying) stopVideo(event.currentTarget)
+              }}
+              onFocus={(event) => {
+                if (!manuallyPlaying && !isMobile) playVideo(event.currentTarget)
+              }}
+              onBlur={(event) => {
+                if (!manuallyPlaying) stopVideo(event.currentTarget)
+              }}
             >
               {poster ? (
                 // eslint-disable-next-line @next/next/no-img-element
@@ -71,7 +96,13 @@ export function HeroVideo({ items, compact = false }: HeroVideoProps) {
                   alt={alt ?? fallbackAlt}
                   className={`absolute inset-0 h-full w-full transition-opacity duration-300 ${
                     compact ? "object-contain" : "object-cover"
-                  } ${hoverPlayable && videoReady ? "group-hover:opacity-0 group-focus-within:opacity-0" : ""}`}
+                  } ${
+                    manuallyPlaying
+                      ? "opacity-0"
+                      : hoverPlayable && videoReady
+                        ? "group-hover:opacity-0 group-focus-within:opacity-0"
+                        : ""
+                  }`}
                   decoding="async"
                 />
               ) : (
@@ -89,15 +120,20 @@ export function HeroVideo({ items, compact = false }: HeroVideoProps) {
                   <p className="text-sm font-bold tracking-[0.3em]">{t("home.videoComingSoon")}</p>
                 </div>
               )}
-              {hoverPlayable ? (
+              {videoAvailable ? (
                 <video
                   className={`absolute inset-0 h-full w-full opacity-0 transition-opacity duration-300 ${
-                    videoReady ? "group-hover:opacity-100 group-focus-within:opacity-100" : ""
+                    manuallyPlaying
+                      ? "pointer-events-auto z-20 opacity-100"
+                      : videoReady && hoverPlayable
+                        ? "pointer-events-none group-hover:opacity-100 group-focus-within:opacity-100"
+                        : "pointer-events-none"
                   } ${compact ? "object-contain" : "object-cover"}`}
                   src={video ?? undefined}
                   poster={posterSrc ?? undefined}
-                  muted
-                  loop
+                  muted={!manuallyPlaying}
+                  loop={!manuallyPlaying}
+                  controls={manuallyPlaying}
                   playsInline
                   preload="metadata"
                   aria-label={alt ?? fallbackAlt}
@@ -106,24 +142,26 @@ export function HeroVideo({ items, compact = false }: HeroVideoProps) {
                       current[index] === "ready" ? current : { ...current, [index]: "ready" },
                     )
                   }
-                  onError={() =>
+                  onError={() => {
+                    setActiveVideo((active) => (active === index ? null : active))
                     setVideoStatus((current) =>
                       current[index] === "failed" ? current : { ...current, [index]: "failed" },
                     )
-                  }
+                  }}
+                  onEnded={() => setActiveVideo((active) => (active === index ? null : active))}
                 />
               ) : null}
-              {hoverPlayable && !videoFailed ? (
-                <span
-                  className="pointer-events-none absolute inset-0 flex items-center justify-center transition-opacity duration-300 group-hover:opacity-0 group-focus-within:opacity-0"
-                  aria-hidden="true"
+              {videoAvailable && !videoFailed && !manuallyPlaying ? (
+                <button
+                  type="button"
+                  aria-label={`${t("home.playVideo")}: ${alt ?? fallbackAlt}`}
+                  className="absolute left-1/2 top-1/2 z-30 flex h-14 w-14 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-black/50 text-white shadow-lg backdrop-blur-sm transition-transform hover:scale-105 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ikea-blue"
+                  onClick={(event) => startVideo(event, index)}
                 >
-                  <span className="flex h-14 w-14 items-center justify-center rounded-full bg-black/45 text-white backdrop-blur-sm">
-                    <svg viewBox="0 0 24 24" fill="currentColor" className="ml-1 h-6 w-6">
-                      <path d="M8 5v14l11-7z" />
-                    </svg>
-                  </span>
-                </span>
+                  <svg viewBox="0 0 24 24" fill="currentColor" className="ml-1 h-6 w-6">
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
+                </button>
               ) : null}
               {href ? (
                 <Link

@@ -99,8 +99,7 @@ export function homeSiteData(locale: Locale = DEFAULT_LOCALE): HomeSiteData {
           : "Toshiba ER-TD5000 superheated steam oven",
       },
       {
-        video:
-          "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/videos/midea-am820c2ra-promo.mp4",
+        video: "/videos/midea-am820c2ra-promo.mp4",
         poster: "/images/products/midea-am820c2ra-1.png",
         href: "/zh/midea/p/am820c2ra/",
         alt: isZh ? "美的 AM820C2RA 微波炉宣传视频" : "Midea AM820C2RA microwave oven",
