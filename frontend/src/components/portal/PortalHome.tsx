@@ -149,11 +149,11 @@ export async function PortalHome() {
   return (
     <div className="font-ikea min-h-screen overflow-x-clip bg-white text-ikea-black">
       <header className="sticky top-0 z-30 border-b border-ikea-gray-200 bg-white/95 backdrop-blur">
-        <div className="mx-auto flex h-16 max-w-page min-w-0 items-center justify-between gap-3 lg:h-20">
+        <div className="mx-auto flex h-16 max-w-page min-w-0 items-center gap-3 lg:h-20">
           <Link href="/" className="min-w-0 shrink-0" aria-label="CHUNG YIP">
             <BrandMark scope="portal" />
           </Link>
-          <nav className="hidden items-center gap-6 text-sm font-bold md:flex">
+          <nav className="ml-8 hidden items-center gap-6 text-sm font-bold md:flex lg:ml-12">
             <a href={MEDICAL_URL} className="hover:underline">
               {copy.nav.medical}
             </a>
@@ -167,7 +167,7 @@ export async function PortalHome() {
               {copy.nav.support}
             </Link>
           </nav>
-          <div className="flex items-center gap-3">
+          <div className="ml-auto flex items-center gap-3">
             <LanguageSwitch />
             <Link
               href="/zh/profile/login/"
