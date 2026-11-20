@@ -67,7 +67,6 @@ export function HeroVideo({ items, compact = false }: HeroVideoProps) {
           const videoAvailable = Boolean(video)
           const hoverPlayable = videoAvailable && !isMobile
           const manuallyPlaying = activeVideo === index
-          const videoReady = videoStatus[index] === "ready"
           const videoFailed = videoStatus[index] === "failed"
 
           return (
@@ -99,7 +98,7 @@ export function HeroVideo({ items, compact = false }: HeroVideoProps) {
                   } ${
                     manuallyPlaying
                       ? "opacity-0"
-                      : hoverPlayable && videoReady
+                      : hoverPlayable && !videoFailed
                         ? "group-hover:opacity-0 group-focus-within:opacity-0"
                         : ""
                   }`}
@@ -125,7 +124,7 @@ export function HeroVideo({ items, compact = false }: HeroVideoProps) {
                   className={`absolute inset-0 h-full w-full opacity-0 transition-opacity duration-300 ${
                     manuallyPlaying
                       ? "pointer-events-auto z-20 opacity-100"
-                      : videoReady && hoverPlayable
+                      : hoverPlayable && !videoFailed
                         ? "pointer-events-none group-hover:opacity-100 group-focus-within:opacity-100"
                         : "pointer-events-none"
                   } ${compact ? "object-contain" : "object-cover"}`}
