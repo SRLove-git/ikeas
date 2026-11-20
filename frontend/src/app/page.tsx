@@ -133,7 +133,7 @@ export default async function Home() {
                     t("home.bookingServiceBlood"),
                     t("home.bookingServicePressure"),
                   ]}
-                  image="https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711448-1.png"
+                  image="/images/products/buzud-8885020711448-1.png"
                   href="/zh/booking/"
                 />
               ) : null}

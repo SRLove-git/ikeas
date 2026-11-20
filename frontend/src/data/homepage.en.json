@@ -326,7 +326,7 @@
       "description": "",
       "ctaLabel": "Shop now",
       "ctaHref": "/zh/cat/smart-watch",
-      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712582-1.png",
+      "image": "/images/products/buzud-8885020712582-1.png",
       "backgroundColor": "#0058a3",
       "textColor": "#ffffff"
     },
@@ -336,7 +336,7 @@
       "description": "",
       "ctaLabel": "Shop now",
       "ctaHref": "/zh/cat/blood-pressure-monitor",
-      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710151-1.png",
+      "image": "/images/products/buzud-8885020710151-1.png",
       "backgroundColor": "#e2711d",
       "textColor": "#ffffff"
     },
@@ -346,7 +346,7 @@
       "description": "",
       "ctaLabel": "Shop now",
       "ctaHref": "/zh/cat/cgms",
-      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711394-1.png",
+      "image": "/images/products/buzud-8885020711394-1.png",
       "backgroundColor": "#00796b",
       "textColor": "#ffffff"
     },
@@ -356,7 +356,7 @@
       "description": "",
       "ctaLabel": "Shop now",
       "ctaHref": "/zh/cat/thermometer",
-      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711677-1.png",
+      "image": "/images/products/buzud-8885020711677-1.png",
       "backgroundColor": "#b23a48",
       "textColor": "#ffffff"
     }
@@ -368,7 +368,7 @@
       "description": "One-piece upper-arm design with one-button measurement for daily blood pressure tracking at home.",
       "ctaLabel": "Learn more",
       "ctaHref": "/zh/p/upper-arm-blood-pressure-monitor-c02-8885020710151",
-      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710151-1.png",
+      "image": "/images/products/buzud-8885020710151-1.png",
       "backgroundColor": "#dcebf7",
       "textColor": "#111111"
     },
@@ -378,7 +378,7 @@
       "description": "Infrared ear measurement with one-second readings for the whole family's temperature checks.",
       "ctaLabel": "Learn more",
       "ctaHref": "/zh/p/buzud-infrared-ear-thermometer-bzd100-8885020711677",
-      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711677-1.png",
+      "image": "/images/products/buzud-8885020711677-1.png",
       "backgroundColor": "#e4f0e6",
       "textColor": "#111111"
     },
@@ -388,7 +388,7 @@
       "description": "Smart health watch for monitoring daily activity, heart rate, sleep and other health data.",
       "ctaLabel": "Learn more",
       "ctaHref": "/zh/p/buzud-watch-vibrance-8885020712582",
-      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712582-1.png",
+      "image": "/images/products/buzud-8885020712582-1.png",
       "backgroundColor": "#fbe9de",
       "textColor": "#111111"
     }
@@ -402,55 +402,55 @@
         {
           "name": "HCG Pregnancy Rapid Test",
           "price": "0.01",
-          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710595-1.png",
+          "image": "/images/products/buzud-8885020710595-1.png",
           "icon": null
         },
         {
           "name": "LH Ovulation Rapid Test",
           "price": "5.80",
-          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710618-1.png",
+          "image": "/images/products/buzud-8885020710618-1.png",
           "icon": null
         },
         {
           "name": "Vaginal pH Rapid Test Panel",
           "price": "16.00",
-          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710649-1.png",
+          "image": "/images/products/buzud-8885020710649-1.png",
           "icon": null
         },
         {
           "name": "COVID-19/Flu A&B/RSV/Adeno Ag Combo Rapid Test Cassette (Swab) (1 test/box)",
           "price": "17.00",
-          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712209-1.png",
+          "image": "/images/products/buzud-8885020712209-1.png",
           "icon": null
         },
         {
           "name": "H.pylori Antigen Rapid Test",
           "price": "18.00",
-          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710588-1.png",
+          "image": "/images/products/buzud-8885020710588-1.png",
           "icon": null
         },
         {
           "name": "BUZUD Urinary Tract Infections Test For Self-Testing",
           "price": "16.00",
-          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710656-1.png",
+          "image": "/images/products/buzud-8885020710656-1.png",
           "icon": null
         },
         {
           "name": "BUZUD Influenza A&B Ag Rapid Test (Cassette) (5 test/box)",
           "price": "43.50",
-          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712315-1.png",
+          "image": "/images/products/buzud-8885020712315-1.png",
           "icon": null
         },
         {
           "name": "One-step Fecal Occult Blood Test",
           "price": "18.00",
-          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710625-1.png",
+          "image": "/images/products/buzud-8885020710625-1.png",
           "icon": null
         },
         {
           "name": "SP-10 Male Fertility Rapid Test Cassette",
           "price": "35.00",
-          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710663.png",
+          "image": "/images/products/buzud-8885020710663.png",
           "icon": null
         }
       ]
@@ -463,31 +463,31 @@
         {
           "name": "BUZUD Watch Vibrance",
           "price": "237.00",
-          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712582-1.png",
+          "image": "/images/products/buzud-8885020712582-1.png",
           "icon": null
         },
         {
           "name": "BUZUD Watch Vibrance Green",
           "price": "237.00",
-          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712728.png",
+          "image": "/images/products/buzud-8885020712728.png",
           "icon": null
         },
         {
           "name": "BUZUD Watch Vibrance Pink",
           "price": "237.00",
-          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712735.png",
+          "image": "/images/products/buzud-8885020712735.png",
           "icon": null
         },
         {
           "name": "BUZUD Watch Vibrance Star Light",
           "price": "237.00",
-          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712742.png",
+          "image": "/images/products/buzud-8885020712742.png",
           "icon": null
         },
         {
           "name": "BUZUD Watch Vibrance Violet",
           "price": "237.00",
-          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712759.png",
+          "image": "/images/products/buzud-8885020712759.png",
           "icon": null
         }
       ]
@@ -500,19 +500,19 @@
         {
           "name": "Upper Arm Blood Pressure Monitor C02",
           "price": "85.00",
-          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710151-1.png",
+          "image": "/images/products/buzud-8885020710151-1.png",
           "icon": null
         },
         {
           "name": "BUZUD Blood Pressure Monitor 30C",
           "price": "85.00",
-          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711103.png",
+          "image": "/images/products/buzud-8885020711103.png",
           "icon": null
         },
         {
           "name": "BUZUD Blood Pressure Monitor 30S",
           "price": "78.00",
-          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711097.png",
+          "image": "/images/products/buzud-8885020711097.png",
           "icon": null
         }
       ]
@@ -525,19 +525,19 @@
         {
           "name": "BUZUD Continuous Glucose Monitoring System Sensor 2.0",
           "price": "87.00",
-          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711394-1.png",
+          "image": "/images/products/buzud-8885020711394-1.png",
           "icon": null
         },
         {
           "name": "GlucoInsight Plus meter",
           "price": "53.00",
-          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712339.png",
+          "image": "/images/products/buzud-8885020712339.png",
           "icon": null
         },
         {
           "name": "GlucoInsight Lite set",
           "price": "58.80",
-          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712384-1.png",
+          "image": "/images/products/buzud-8885020712384-1.png",
           "icon": null
         }
       ]
@@ -550,19 +550,19 @@
         {
           "name": "BUZUD Infrared Ear Thermometer BZD100",
           "price": "87.00",
-          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711677-1.png",
+          "image": "/images/products/buzud-8885020711677-1.png",
           "icon": null
         },
         {
           "name": "BUZUD Home Body Composition Scale CF509",
           "price": "37.00",
-          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711448-1.png",
+          "image": "/images/products/buzud-8885020711448-1.png",
           "icon": null
         },
         {
           "name": "BUZUD Pen Needles Plus Pro 32G 4mm",
           "price": "26.00",
-          "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711547.png",
+          "image": "/images/products/buzud-8885020711547.png",
           "icon": null
         }
       ]
@@ -571,7 +571,7 @@
   "roomPillItems": [
     {
       "label": "Rapid test kits",
-      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710595-1.png",
+      "image": "/images/products/buzud-8885020710595-1.png",
       "href": "/zh/cat/test-kit"
     },
     {
@@ -586,12 +586,12 @@
     },
     {
       "label": "Smart watches",
-      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712582-1.png",
+      "image": "/images/products/buzud-8885020712582-1.png",
       "href": "/zh/cat/smart-watch"
     },
     {
       "label": "Blood pressure monitors",
-      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710151-1.png",
+      "image": "/images/products/buzud-8885020710151-1.png",
       "href": "/zh/cat/blood-pressure-monitor"
     },
     {
@@ -601,12 +601,12 @@
     },
     {
       "label": "Blood glucose management",
-      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711394-1.png",
+      "image": "/images/products/buzud-8885020711394-1.png",
       "href": "/zh/cat/cgms"
     },
     {
       "label": "Health monitoring devices",
-      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711677-1.png",
+      "image": "/images/products/buzud-8885020711677-1.png",
       "href": "/zh/cat/thermometer"
     }
   ],
@@ -619,27 +619,27 @@
   "sustainabilityPillItems": [
     {
       "label": "BUZUD Watch Vibrance",
-      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712582-1.png",
+      "image": "/images/products/buzud-8885020712582-1.png",
       "href": "/zh/p/buzud-watch-vibrance-8885020712582"
     },
     {
       "label": "BUZUD Blood Pressure Monitor 30S",
-      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711097-1.png",
+      "image": "/images/products/buzud-8885020711097-1.png",
       "href": "/zh/p/buzud-blood-pressure-monitor-30s-8885020711097"
     },
     {
       "label": "BUZUD Fingertip Pulse Oximeter 70B",
-      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711479-1.png",
+      "image": "/images/products/buzud-8885020711479-1.png",
       "href": "/zh/p/buzud-fingertip-pulse-oximeter-70b-8885020711479"
     },
     {
       "label": "BUZUD Infrared Ear Thermometer BZD100",
-      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711677-1.png",
+      "image": "/images/products/buzud-8885020711677-1.png",
       "href": "/zh/p/buzud-infrared-ear-thermometer-bzd100-8885020711677"
     },
     {
       "label": "BUZUD Home Body Composition Scale CF509",
-      "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711448-1.png",
+      "image": "/images/products/buzud-8885020711448-1.png",
       "href": "/zh/p/buzud-home-body-composition-scale-cf509-8885020711448"
     }
   ],
@@ -694,7 +694,7 @@
         "price": "SGD 0.01",
         "tags": ["BUZUD"],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
-        "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710595-1.png"
+        "image": "/images/products/buzud-8885020710595-1.png"
       },
       {
         "productId": "8885020710618",
@@ -707,7 +707,7 @@
         "price": "SGD 5.80",
         "tags": ["BUZUD"],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
-        "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710618-1.png"
+        "image": "/images/products/buzud-8885020710618-1.png"
       },
       {
         "productId": "8885020710649",
@@ -720,7 +720,7 @@
         "price": "SGD 16.00",
         "tags": ["BUZUD"],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
-        "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710649-1.png"
+        "image": "/images/products/buzud-8885020710649-1.png"
       },
       {
         "productId": "8885020712582",
@@ -733,7 +733,7 @@
         "price": "SGD 237.00",
         "tags": ["BUZUD"],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
-        "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712582-1.png"
+        "image": "/images/products/buzud-8885020712582-1.png"
       },
       {
         "productId": "8885020711530",
@@ -746,7 +746,7 @@
         "price": "SGD 26.00",
         "tags": ["BUZUD"],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
-        "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711530-1.png?v=2"
+        "image": "/images/products/buzud-8885020711530-1.png?v=2"
       },
       {
         "productId": "8885020711479",
@@ -759,7 +759,7 @@
         "price": "SGD 57.00",
         "tags": ["BUZUD"],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
-        "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711479-1.png"
+        "image": "/images/products/buzud-8885020711479-1.png"
       },
       {
         "productId": "8885020711677",
@@ -772,7 +772,7 @@
         "price": "SGD 87.00",
         "tags": ["BUZUD"],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
-        "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711677-1.png"
+        "image": "/images/products/buzud-8885020711677-1.png"
       },
       {
         "productId": "8885020711448",
@@ -785,7 +785,7 @@
         "price": "SGD 37.00",
         "tags": ["BUZUD"],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
-        "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711448-1.png"
+        "image": "/images/products/buzud-8885020711448-1.png"
       },
       {
         "productId": "8885020712209",
@@ -798,7 +798,7 @@
         "price": "SGD 17.00",
         "tags": ["BUZUD"],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
-        "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020712209-1.png"
+        "image": "/images/products/buzud-8885020712209-1.png"
       },
       {
         "productId": "8885020710588",
@@ -811,7 +811,7 @@
         "price": "SGD 18.00",
         "tags": ["BUZUD"],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
-        "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020710588-1.png"
+        "image": "/images/products/buzud-8885020710588-1.png"
       },
       {
         "productId": "8885020711677",
@@ -824,7 +824,7 @@
         "price": "SGD 87.00",
         "tags": ["BUZUD"],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
-        "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711677-1.png"
+        "image": "/images/products/buzud-8885020711677-1.png"
       },
       {
         "productId": "8885020711448",
@@ -837,7 +837,7 @@
         "price": "SGD 37.00",
         "tags": ["BUZUD"],
         "tagStyle": "color: rgb(255, 255, 255); border-color: rgb(0, 88, 163); background-color: rgb(0, 88, 163); font-weight: bold;",
-        "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711448-1.png"
+        "image": "/images/products/buzud-8885020711448-1.png"
       }
     ]
   },

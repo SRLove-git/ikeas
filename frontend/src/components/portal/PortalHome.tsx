@@ -261,7 +261,7 @@ export async function PortalHome() {
               </div>
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/buzud-8885020711387-1.png"
+                src="/images/products/buzud-8885020711387-1.png"
                 alt="BUZUD portable oxygen concentrator"
                 className="pointer-events-none absolute -right-8 bottom-0 h-48 w-[68%] object-contain object-right-bottom drop-shadow-[0_20px_35px_rgba(0,88,163,0.18)] transition-transform duration-500 group-hover:scale-105 sm:-right-4 sm:h-[72%] sm:w-[52%]"
               />
@@ -288,7 +288,7 @@ export async function PortalHome() {
               </div>
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/products/midea-mdrf632fid46sg-1.png"
+                src="/images/products/midea-mdrf632fid46sg-local.webp"
                 alt="Midea refrigerator"
                 className="pointer-events-none absolute -right-5 bottom-0 h-48 w-[62%] object-contain object-right-bottom drop-shadow-[0_20px_35px_rgba(17,17,17,0.16)] transition-transform duration-500 group-hover:scale-105 sm:-right-2 sm:h-[70%] sm:w-[52%]"
               />

@@ -63,10 +63,10 @@ interface MideaCategoryRaw {
 
 const LOCAL_PRODUCT_IMAGES: Record<string, string> = {
   "midea-am820c2ra": "/images/products/midea-am820c2ra-1.png",
-  "midea-am823abv": "/images/products/midea-am823abv-1.jpg",
+  "midea-am823abv": "/images/products/midea-am823abv-1.png",
   "midea-mm720cj9": "/images/products/midea-mm720cj9-1.png",
-  "midea-mmo-am920mz": "/images/products/midea-mmo-am920mz-1.jpg",
-  "midea-mmo-eg925mx": "/images/products/midea-mmo-eg925mx-1.jpg",
+  "midea-mmo-am920mz": "/images/products/midea-mmo-am920mz-1.png",
+  "midea-mmo-eg925mx": "/images/products/midea-mmo-eg925mx-1.png",
 }
 
 function useLocalProductImage(product: MideaProduct): MideaProduct {
