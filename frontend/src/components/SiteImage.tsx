@@ -15,6 +15,13 @@ interface SiteImageProps {
 }
 
 const OSS_IMAGE_WIDTHS = [160, 320, 480, 640, 900, 1200] as const
+const LOCAL_PRODUCT_IMAGE_VERSION = "alpha-20261120"
+
+function versionedLocalProductSrc(src: string): string {
+  if (!src.startsWith("/images/products/")) return src
+  const separator = src.includes("?") ? "&" : "?"
+  return `${src}${separator}asset=${LOCAL_PRODUCT_IMAGE_VERSION}`
+}
 
 function canOptimize(src: string): boolean {
   const path = src.split("?", 1)[0].toLowerCase()
@@ -31,7 +38,7 @@ function optimizedSrc(src: string, width = 900): string {
     const separator = src.includes("?") ? "&" : "?"
     return `${src}${separator}x-oss-process=image/resize,w_${width},limit_1/format,webp/quality,q_78`
   }
-  return src
+  return versionedLocalProductSrc(src)
 }
 
 function optimizedSrcSet(src: string): string | undefined {
