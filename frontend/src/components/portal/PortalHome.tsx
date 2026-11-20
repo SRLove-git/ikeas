@@ -261,7 +261,7 @@ export async function PortalHome() {
               </div>
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/images/products/buzud-8885020711387-1.png"
+                src="/images/products/buzud-8885020710465-1.png"
                 alt=""
                 aria-hidden="true"
                 className="pointer-events-none absolute -right-8 bottom-0 h-48 w-[68%] object-contain object-right-bottom drop-shadow-[0_20px_35px_rgba(0,88,163,0.18)] transition-transform duration-500 group-hover:scale-105 sm:-right-4 sm:h-[72%] sm:w-[52%]"
