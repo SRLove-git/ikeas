@@ -26,6 +26,7 @@ const stopVideo = (host: HTMLElement) => {
 export function HeroVideo({ items, compact = false }: HeroVideoProps) {
   const { t } = useTranslation()
   const [isMobile, setIsMobile] = useState(false)
+  const [videoStatus, setVideoStatus] = useState<Record<number, "ready" | "failed">>({})
   const fallbackAlt = t("home.promoVideoAria")
 
   useEffect(() => {
@@ -49,6 +50,8 @@ export function HeroVideo({ items, compact = false }: HeroVideoProps) {
               : poster
           // 手机端不自动下载整段视频，只展示封面（点击卡片直接跳转）
           const hoverPlayable = Boolean(video) && !isMobile
+          const videoReady = videoStatus[index] === "ready"
+          const videoFailed = videoStatus[index] === "failed"
 
           return (
             <div
@@ -68,7 +71,7 @@ export function HeroVideo({ items, compact = false }: HeroVideoProps) {
                   alt={alt ?? fallbackAlt}
                   className={`absolute inset-0 h-full w-full transition-opacity duration-300 ${
                     compact ? "object-contain" : "object-cover"
-                  } ${hoverPlayable ? "group-hover:opacity-0 group-focus-within:opacity-0" : ""}`}
+                  } ${hoverPlayable && videoReady ? "group-hover:opacity-0 group-focus-within:opacity-0" : ""}`}
                   decoding="async"
                 />
               ) : (
@@ -88,19 +91,29 @@ export function HeroVideo({ items, compact = false }: HeroVideoProps) {
               )}
               {hoverPlayable ? (
                 <video
-                  className={`absolute inset-0 h-full w-full opacity-0 transition-opacity duration-300 group-hover:opacity-100 group-focus-within:opacity-100 ${
-                    compact ? "object-contain" : "object-cover"
-                  }`}
+                  className={`absolute inset-0 h-full w-full opacity-0 transition-opacity duration-300 ${
+                    videoReady ? "group-hover:opacity-100 group-focus-within:opacity-100" : ""
+                  } ${compact ? "object-contain" : "object-cover"}`}
                   src={video ?? undefined}
-                  poster={poster ?? undefined}
+                  poster={posterSrc ?? undefined}
                   muted
                   loop
                   playsInline
                   preload="metadata"
                   aria-label={alt ?? fallbackAlt}
+                  onCanPlay={() =>
+                    setVideoStatus((current) =>
+                      current[index] === "ready" ? current : { ...current, [index]: "ready" },
+                    )
+                  }
+                  onError={() =>
+                    setVideoStatus((current) =>
+                      current[index] === "failed" ? current : { ...current, [index]: "failed" },
+                    )
+                  }
                 />
               ) : null}
-              {hoverPlayable ? (
+              {hoverPlayable && !videoFailed ? (
                 <span
                   className="pointer-events-none absolute inset-0 flex items-center justify-center transition-opacity duration-300 group-hover:opacity-0 group-focus-within:opacity-0"
                   aria-hidden="true"
