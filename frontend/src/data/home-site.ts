@@ -100,7 +100,7 @@ export function homeSiteData(locale: Locale = DEFAULT_LOCALE): HomeSiteData {
       },
       {
         video: "/videos/midea-am820c2ra-promo.mp4",
-        poster: "/images/products/midea-am820c2ra-1.png",
+        poster: "/videos/midea-am820c2ra-cover.png",
         href: "/zh/midea/p/am820c2ra/",
         alt: isZh ? "美的 AM820C2RA 微波炉宣传视频" : "Midea AM820C2RA microwave oven",
       },
