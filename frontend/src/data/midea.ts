@@ -61,6 +61,28 @@ interface MideaCategoryRaw {
   subs: MideaSubCategoryRaw[]
 }
 
+const LOCAL_PRODUCT_IMAGES: Record<string, string> = {
+  "midea-am820c2ra": "/images/products/midea-am820c2ra-1.png",
+  "midea-am823abv": "/images/products/midea-am823abv-1.jpg",
+  "midea-mm720cj9": "/images/products/midea-mm720cj9-1.png",
+  "midea-mmo-am920mz": "/images/products/midea-mmo-am920mz-1.jpg",
+  "midea-mmo-eg925mx": "/images/products/midea-mmo-eg925mx-1.jpg",
+}
+
+function useLocalProductImage(product: MideaProduct): MideaProduct {
+  const image = LOCAL_PRODUCT_IMAGES[product.id]
+  if (!image) return product
+
+  return {
+    ...product,
+    image,
+    detail: {
+      ...product.detail,
+      images: [image],
+    },
+  }
+}
+
 export interface MideaSubCategory {
   slug: string
   name: string
@@ -76,7 +98,7 @@ export interface MideaCategory {
 }
 
 export function allMideaProducts(locale: Locale = DEFAULT_LOCALE): MideaProduct[] {
-  return loadLocalizedData<MideaProduct[]>("midea/products.json", locale)
+  return loadLocalizedData<MideaProduct[]>("midea/products.json", locale).map(useLocalProductImage)
 }
 
 export function mideaProductBySlug(
