@@ -70,8 +70,7 @@ const LOCAL_PRODUCT_IMAGES: Record<string, string> = {
 }
 
 function useLocalProductImage(product: MideaProduct): MideaProduct {
-  const image = LOCAL_PRODUCT_IMAGES[product.id]
-  if (!image) return product
+  const image = LOCAL_PRODUCT_IMAGES[product.id] ?? `/images/products/${product.id}-local.webp`
 
   return {
     ...product,
