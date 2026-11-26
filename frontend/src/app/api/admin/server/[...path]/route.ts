@@ -5,7 +5,7 @@ import { adminGuard } from "@/lib/admin-auth";
  * Spring Boot backend, injecting the admin key server-side so it never leaks
  * into the browser.
  */
-const API_BASE = process.env.NEXT_PUBLIC_API_BASE ?? "http://localhost:8080";
+const API_BASE = process.env.COMMERCE_API_BASE_URL ?? "http://buzud-api:8090";
 
 /** 统一转发到后端；后端不可达时返回可读的错误而不是 500。 */
 async function forward(target: string, init: RequestInit): Promise<Response> {
@@ -13,7 +13,7 @@ async function forward(target: string, init: RequestInit): Promise<Response> {
     return await fetch(target, { ...init, cache: "no-store" })
   } catch {
     return Response.json(
-      { error: "后端服务不可达，请先启动 Spring Boot（或检查 NEXT_PUBLIC_API_BASE）" },
+      { error: "后端服务不可达，请检查 COMMERCE_API_BASE_URL 与后端状态" },
       { status: 502 },
     )
   }

@@ -8,6 +8,7 @@ import { useAuth } from "@/lib/auth"
 import { apiJson } from "@/lib/api"
 import { CartIcon, CompassIcon, GiftIcon, HeartIcon, HomeIcon, TruckIcon } from "@/components/icons"
 import { Breadcrumbs } from "@/components/Breadcrumbs"
+import { SITE_SCOPE } from "@/lib/site-scope"
 
 type ProfileTab = "account" | "password"
 
@@ -78,6 +79,12 @@ export function ProfilePanel() {
   const { t } = useTranslation()
   const { user, ready, logout } = useAuth()
   const router = useRouter()
+  const loginHref =
+    SITE_SCOPE === "portal" &&
+    typeof window !== "undefined" &&
+    window.location.pathname.startsWith("/en/")
+      ? "/en/profile/login/"
+      : "/zh/profile/login/"
   const [activeTab, setActiveTab] = useState<ProfileTab>("account")
   const [accountNotice, setAccountNotice] = useState<string | null>(null)
   const [passwordNotice, setPasswordNotice] = useState<string | null>(null)
@@ -91,9 +98,9 @@ export function ProfilePanel() {
 
   useEffect(() => {
     if (ready && !user) {
-      router.replace("/zh/profile/login/")
+      router.replace(loginHref)
     }
-  }, [ready, user, router])
+  }, [ready, user, router, loginHref])
 
   useEffect(() => {
     document.body.style.overflow = membershipDrawerOpen ? "hidden" : ""
@@ -148,7 +155,7 @@ export function ProfilePanel() {
                   type="button"
                   onClick={() => {
                     void logout()
-                    router.replace("/zh/profile/login/")
+                    router.replace(loginHref)
                   }}
                   className="font-bold text-ikea-blue hover:underline"
                 >
@@ -484,7 +491,7 @@ export function ProfilePanel() {
             type="button"
             onClick={() => {
               void logout()
-              router.replace("/zh/profile/login/")
+              router.replace(loginHref)
             }}
             className="i-btn h-10 border border-ikea-gray-200 px-6 text-sm font-bold text-ikea-black hover:border-ikea-black"
           >

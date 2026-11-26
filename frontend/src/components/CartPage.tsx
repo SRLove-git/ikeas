@@ -11,6 +11,7 @@ import { formatPrice } from "@/lib/catalog-format"
 import { readLocalCart, refreshLocalCartAvailability, updateLocalQuantity } from "@/lib/local-cart"
 import { useShippingQuote } from "@/hooks/useShippingQuote"
 import { productHref } from "@/lib/product-url"
+import { SITE_SCOPE } from "@/lib/site-scope"
 
 function QuantityField({
   productId,
@@ -61,6 +62,12 @@ function QuantityField({
 export function CartPage() {
   const { t } = useTranslation()
   const { user, ready } = useAuth()
+  const loginHref =
+    SITE_SCOPE === "portal" &&
+    typeof window !== "undefined" &&
+    window.location.pathname.startsWith("/en/")
+      ? "/en/profile/login/"
+      : "/zh/profile/login/"
   const [cart, setCart] = useState<Cart | null>(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
@@ -171,7 +178,7 @@ export function CartPage() {
               <p className="mt-1 text-xs text-ikea-muted">
                 {t("cartPage.guestHint")}{" "}
                 <Link
-                  href="/zh/profile/login/"
+                  href={loginHref}
                   className="font-bold text-ikea-blue hover:underline"
                 >
                   {t("cartPage.guestLogin")}

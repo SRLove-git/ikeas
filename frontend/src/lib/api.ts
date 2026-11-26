@@ -2,7 +2,10 @@
 
 import { setSupportChatIdentity } from "@/lib/support-chat-session"
 
-export const API_BASE = process.env.NEXT_PUBLIC_API_BASE ?? "http://localhost:8080"
+// This module is consumed by browser components. Always use the current origin
+// so requests pass through the storefront gateway at /api/v1. Backend-only
+// routes use COMMERCE_API_BASE_URL instead and must never leak into client JS.
+export const API_BASE = ""
 export const API_V1 = `${API_BASE}/api/v1`
 
 const TOKEN_KEY = "ikea_token"

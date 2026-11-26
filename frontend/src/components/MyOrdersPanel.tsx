@@ -63,6 +63,12 @@ function formatDate(value: string, locale: Locale): string {
 export function MyOrdersPanel() {
   const { t } = useTranslation()
   const { locale } = useLocale()
+  const loginHref =
+    SITE_SCOPE === "portal" &&
+    typeof window !== "undefined" &&
+    window.location.pathname.startsWith("/en/")
+      ? "/en/profile/login/"
+      : "/zh/profile/login/"
   const router = useRouter()
   const { user, ready } = useAuth()
   const [orders, setOrders] = useState<OrderResponse[] | null>(null)
@@ -248,13 +254,13 @@ export function MyOrdersPanel() {
 
   useEffect(() => {
     if (ready && !user) {
-      router.replace("/zh/profile/login/")
+      router.replace(loginHref)
       return
     }
     if (ready && user) {
       void loadOrders()
     }
-  }, [ready, user, router, loadOrders, t])
+  }, [ready, user, router, loadOrders, t, loginHref])
 
   const cancelOrder = async (orderNo: string) => {
     setCancelling(orderNo)

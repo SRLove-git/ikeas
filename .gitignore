@@ -57,3 +57,6 @@ deploy/nginx/certs/
 
 # 打包的图片/资源压缩包（体积大，不进入仓库）
 *.zip
+
+# Portal design exploration artifacts (lighthouse runs, before/after dumps)
+portal-direction-a/

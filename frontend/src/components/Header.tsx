@@ -473,7 +473,9 @@ function StoreHeader({
                           {t("header.memberCenter")}
                         </a>
                       </nav>
-                      <LanguageSwitch className="header-lang-switch" />
+                      <span className="header-language-group">
+                        <LanguageSwitch className="header-lang-switch" />
+                      </span>
                       <span className="header-right-divider hidden md:block" aria-hidden="true" />
                       <button
                         type="button"

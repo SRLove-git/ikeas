@@ -7,6 +7,31 @@ export const DEFAULT_LOCALE: Locale = "en"
 /** Cookie + localStorage key shared by the client switcher and server locale reader. */
 export const LOCALE_STORAGE_KEY = "buzud.locale"
 
+/** Request header pinned by Proxy when a public locale URL is rewritten. */
+export const LOCALE_REQUEST_HEADER = "x-chung-yip-locale"
+export const PORTAL_PATH_REQUEST_HEADER = "x-chung-yip-portal-path"
+
+/** Portal locales with complete, indexable landing-page copy. */
+export const PORTAL_LOCALE_PATHS = {
+  en: "/en/",
+  "zh-CN": "/zh/",
+} as const satisfies Partial<Record<Locale, string>>
+
+/** Converts a portal-internal storefront path to the visible locale prefix. */
+export function portalLocalizedHref(locale: Locale, href: string): string {
+  if (!href.startsWith("/")) return href
+  const prefix = locale === "zh-CN" ? "/zh" : "/en"
+  const suffix = href === "/zh" || href === "/zh/" ? "/" : href.replace(/^\/zh(?=\/)/, "")
+  return `${prefix}${suffix}`
+}
+
+/** Switches an existing public portal path to the requested indexed locale. */
+export function portalAlternatePath(pathname: string, locale: "en" | "zh-CN"): string {
+  const prefix = locale === "zh-CN" ? "/zh" : "/en"
+  const suffix = pathname.replace(/^\/(?:en|zh)(?=\/|$)/, "") || "/"
+  return `${prefix}${suffix.startsWith("/") ? suffix : `/${suffix}`}`
+}
+
 export function isLocale(value: unknown): value is Locale {
   return value === "zh-CN" || value === "en" || value === "ms" || value === "id"
 }

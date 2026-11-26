@@ -1,3 +1,4 @@
+import type { Metadata } from "next"
 import { Footer } from "@/components/Footer"
 import { FloatingWidgets } from "@/components/FloatingWidgets"
 import { CartDrawer } from "@/components/CartDrawer"
@@ -15,10 +16,53 @@ import { mideaCommerceProducts, toshibaCommerceProducts } from "@/data/brand-com
 import { catalogPages } from "@/lib/catalog-pages"
 import { getMenuPanels } from "@/data/menu-panels"
 import { getMenuCategories } from "@/data/categories"
-import { PORTAL_URL, SITE_SCOPE, isAppliancePath } from "@/lib/site-scope"
+import { SITE_SCOPE, isAppliancePath } from "@/lib/site-scope"
+import { getSiteIntro } from "@/lib/site-intro"
+import { PORTAL_LOCALE_PATHS } from "@/i18n/config"
 import { getLocale, getServerT } from "@/i18n/server"
 
 const showExperienceBooking = process.env.NEXT_PUBLIC_SHOW_EXPERIENCE_BOOKING === "true"
+
+export async function generateMetadata(): Promise<Metadata> {
+  if (SITE_SCOPE !== "portal") return {}
+
+  const locale = await getLocale()
+  const isZh = locale === "zh-CN"
+  const intro = getSiteIntro("portal")[isZh ? "zh" : "en"]
+  const pathname = isZh ? PORTAL_LOCALE_PATHS["zh-CN"] : PORTAL_LOCALE_PATHS.en
+  const title = `CHUNG YIP - ${intro.title}`
+  const description = isZh
+    ? "CHUNG YIP 旗下医疗健康与家庭生活双站入口。"
+    : "CHUNG YIP Singapore connects health monitoring, respiratory care and home appliances, with delivery and warranty support."
+
+  return {
+    title,
+    description,
+    alternates: {
+      canonical: pathname,
+      languages: {
+        en: PORTAL_LOCALE_PATHS.en,
+        "zh-CN": PORTAL_LOCALE_PATHS["zh-CN"],
+        "x-default": PORTAL_LOCALE_PATHS.en,
+      },
+    },
+    openGraph: {
+      type: "website",
+      url: pathname,
+      title,
+      description,
+      siteName: "CHUNG YIP",
+      locale: isZh ? "zh_SG" : "en_SG",
+      images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: title }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: ["/opengraph-image"],
+    },
+  }
+}
 
 export default async function Home() {
   // Deployment scope landing branches. The dedicated home/portal agents own
@@ -92,30 +136,15 @@ export default async function Home() {
           />
           <div className="i-layout__body">
             <section className="mx-auto max-w-page pt-5 lg:pt-7">
-              <div className="flex flex-col gap-5 border-b border-ikea-gray-200 pb-6 md:flex-row md:items-end md:justify-between">
-                <div>
-                  <p className="text-[11px] font-bold uppercase tracking-[0.22em] text-ikea-muted">
-                    {isZh ? "医疗健康 · BUZUD" : "Medical & Health · BUZUD"}
-                  </p>
-                  <h1 className="mt-2 max-w-3xl text-3xl font-bold leading-tight tracking-tight sm:text-4xl lg:text-5xl">
-                    {isZh
-                      ? "专业健康管理，从家开始"
-                      : "Professional health support, closer to home"}
-                  </h1>
-                </div>
-                <div className="max-w-lg md:text-right">
-                  <p className="text-sm leading-6 text-ikea-muted">
-                    {isZh
-                      ? "从日常监测、呼吸护理到康复辅助，精选适合家庭与专业场景的健康产品。"
-                      : "From daily monitoring and respiratory care to rehabilitation support, find health products for home and professional use."}
-                  </p>
-                  <a
-                    href={PORTAL_URL}
-                    className="mt-3 inline-flex text-xs font-bold text-ikea-black underline decoration-1 underline-offset-4 hover:text-ikea-blue"
-                  >
-                    {isZh ? "返回 CHUNG YIP 总入口 →" : "Back to CHUNG YIP portal →"}
-                  </a>
-                </div>
+              <div className="border-b border-ikea-gray-200 pb-6">
+                <p className="text-[11px] font-bold uppercase tracking-[0.22em] text-ikea-muted">
+                  {isZh ? "医疗健康 · BUZUD" : "Medical & Health · BUZUD"}
+                </p>
+                <h1 className="mt-2 max-w-3xl text-3xl font-bold leading-tight tracking-tight sm:text-4xl lg:text-5xl">
+                  {isZh
+                    ? "专业健康管理，从家开始"
+                    : "Professional health support, closer to home"}
+                </h1>
               </div>
             </section>
             <HeroVideo items={heroVideos.filter((item) => !isAppliancePath(item.href ?? ""))} />

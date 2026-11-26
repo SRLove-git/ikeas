@@ -1,6 +1,13 @@
 import { cookies, headers } from "next/headers"
 import { createInstance } from "i18next"
-import { DEFAULT_LOCALE, LOCALE_STORAGE_KEY, isLocale, localeFromHost, type Locale } from "./config"
+import {
+  DEFAULT_LOCALE,
+  LOCALE_REQUEST_HEADER,
+  LOCALE_STORAGE_KEY,
+  isLocale,
+  localeFromHost,
+  type Locale,
+} from "./config"
 import zh from "./locales/zh/common.json"
 import en from "./locales/en/common.json"
 import ms from "./locales/ms/common.json"
@@ -15,9 +22,16 @@ const resources = {
 
 /**
  * Current locale for server-rendered data, resolved with this priority:
- * cookie (explicit choice) → domain suffix → English default.
+ * locale URL pinned by Proxy → cookie → domain suffix → English default.
  */
 export async function getLocale(): Promise<Locale> {
+  try {
+    const headerList = await headers()
+    const routeLocale = headerList.get(LOCALE_REQUEST_HEADER)
+    if (isLocale(routeLocale)) return routeLocale
+  } catch {
+    // no request headers (build-time / static generation) — fall through
+  }
   try {
     const store = await cookies()
     const cookie = store.get(LOCALE_STORAGE_KEY)?.value

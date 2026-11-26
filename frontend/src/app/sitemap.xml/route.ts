@@ -16,14 +16,28 @@ function withTrailingSlash(path: string): string {
   return path.endsWith("/") ? path : `${path}/`
 }
 
-function urlEntry(loc: string, changefreq: string, priority: string, lastmod?: string): string {
-  return `<url><loc>${escapeXml(loc)}</loc>${
+interface SitemapAlternate {
+  hrefLang: string
+  href: string
+}
+
+function urlEntry(
+  loc: string,
+  changefreq: string,
+  priority: string,
+  lastmod?: string,
+  alternates: SitemapAlternate[] = [],
+): string {
+  const alternateLinks = alternates
+    .map(({ hrefLang, href }) => `<xhtml:link rel="alternate" hreflang="${escapeXml(hrefLang)}" href="${escapeXml(href)}" />`)
+    .join("")
+  return `<url><loc>${escapeXml(loc)}</loc>${alternateLinks}${
     lastmod ? `<lastmod>${lastmod}</lastmod>` : ""
   }<changefreq>${changefreq}</changefreq><priority>${priority}</priority></url>`
 }
 
 function xmlResponse(entries: string[]): Response {
-  const xml = `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${entries.join(
+  const xml = `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">${entries.join(
     "",
   )}</urlset>`
   return new Response(xml, {
@@ -36,10 +50,33 @@ export const dynamic = "force-dynamic"
 export async function GET() {
   const now = new Date().toISOString()
 
-  // Each domain publishes its own sitemap; the portal only lists its landing
-  // page so every <loc> stays on the same host.
+  // The portal publishes only the two landing-page locales with complete copy.
   if (SITE_SCOPE === "portal") {
-    return xmlResponse([urlEntry(`${SITE_URL}/`, "daily", "1.0", now)])
+    const portalPaths = [
+      "",
+      "customer-service/",
+      "customer-service/contact-us/",
+      "customer-service/services/delivery/",
+      "customer-service/warranty-registration/",
+      "privacy-policy/",
+      "conditions-of-use/",
+    ]
+    return xmlResponse(
+      portalPaths.flatMap((path) => {
+        const english = `${SITE_URL}/en/${path}`
+        const chinese = `${SITE_URL}/zh/${path}`
+        const alternates: SitemapAlternate[] = [
+          { hrefLang: "en", href: english },
+          { hrefLang: "zh-CN", href: chinese },
+          { hrefLang: "x-default", href: english },
+        ]
+        const priority = path ? "0.6" : "1.0"
+        return [
+          urlEntry(english, "weekly", priority, undefined, alternates),
+          urlEntry(chinese, "weekly", priority, undefined, alternates),
+        ]
+      }),
+    )
   }
 
   const sharedPaths = [

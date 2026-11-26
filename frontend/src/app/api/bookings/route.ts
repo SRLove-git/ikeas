@@ -1,4 +1,4 @@
-const API_BASE = process.env.NEXT_PUBLIC_API_BASE ?? "http://localhost:8080"
+const API_BASE = process.env.COMMERCE_API_BASE_URL ?? "http://buzud-api:8090"
 
 function badRequest(message: string): Response {
   return Response.json({ error: message }, { status: 400 })
