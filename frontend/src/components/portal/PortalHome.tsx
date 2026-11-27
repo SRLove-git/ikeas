@@ -210,7 +210,14 @@ export async function PortalHome() {
         <header className="portal-header fixed inset-x-0 top-0 z-40 border-b border-white/10 bg-[#0d0d0d]/95">
           <div className="mx-auto flex h-[76px] max-w-[1800px] items-center px-5 sm:px-8 lg:px-12">
             <Link href={currentLocaleHref} className="portal-wordmark" aria-label="CHUNG YIP home">
-              <i /> CHUNG YIP
+              <Image
+                src="/images/logo/logo.png"
+                alt="CHUNG YIP"
+                width={480}
+                height={334}
+                priority
+                className="portal-wordmark__logo"
+              />
             </Link>
 
             <nav

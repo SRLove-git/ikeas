@@ -1283,19 +1283,14 @@ html[data-portal-flip="true"] body {
 .portal-wordmark {
   display: inline-flex;
   align-items: center;
-  gap: 12px;
   color: #fff;
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 0.26em;
   white-space: nowrap;
 }
 
-.portal-wordmark i {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: #dce9e5;
+.portal-wordmark__logo {
+  width: auto;
+  height: 44px;
+  object-fit: contain;
 }
 
 .portal-header {
@@ -2237,10 +2232,8 @@ html[data-portal-flip="true"] body {
     height: 68px;
   }
 
-  .portal-wordmark {
-    gap: 9px;
-    font-size: 10px;
-    letter-spacing: 0.2em;
+  .portal-wordmark__logo {
+    height: 30px;
   }
 
   .portal-hero {
@@ -2513,10 +2506,6 @@ html[data-portal-flip="true"] body {
   color: var(--ink);
 }
 
-.portal-rn .portal-wordmark i {
-  background: var(--slate);
-}
-
 .portal-rn .portal-header nav a,
 .portal-rn .portal-header-icon {
   color: rgba(13, 13, 13, 0.58);
@@ -2671,4 +2660,42 @@ html[data-portal-flip="true"] body {
 
 .portal-rn .portal-flip-card__image {
   filter: drop-shadow(0 14px 18px rgba(0, 0, 0, 0.34));
+}
+
+/* White theme: mobile menu + hamburger were white-on-white.
+   The panel is portalled to <body>, so these are not scoped to .portal-rn. */
+.portal-rn .portal-menu-button {
+  color: var(--ink);
+}
+
+.portal-mobile-menu {
+  background: #fff;
+  color: var(--ink);
+}
+
+.portal-mobile-menu > div {
+  border-color: rgba(13, 13, 13, 0.14) !important;
+}
+
+.portal-mobile-menu nav a {
+  border-bottom-color: rgba(13, 13, 13, 0.14);
+  color: var(--ink);
+}
+
+.portal-mobile-menu nav a > span:first-child {
+  color: rgba(13, 13, 13, 0.4);
+}
+
+.portal-mobile-menu nav a > span:last-child {
+  color: rgba(13, 13, 13, 0.45);
+}
+
+.portal-mobile-menu__utility,
+.portal-mobile-menu .portal-mobile-language,
+.portal-mobile-menu .portal-mobile-language .lang-switch-btn {
+  color: rgba(13, 13, 13, 0.6);
+}
+
+.portal-mobile-menu .portal-mobile-language .lang-switch-btn--active {
+  color: var(--ink);
 }
