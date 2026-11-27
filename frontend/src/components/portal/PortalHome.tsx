@@ -17,10 +17,16 @@ interface PortalCopy {
   eyebrow: string
   medical: { label: string; title: string; cta: string; points: string[] }
   home: { label: string; title: string; cta: string; points: string[] }
-  member: { label: string; title: string; login: string; orders: string }
-  services: {
+  member: {
     label: string
     title: string
+    groupLabel: string
+    railLabel: string
+    login: string
+    orders: string
+  }
+  services: {
+    groupLabel: string
     items: { number: string; title: string; href: string; link: string }[]
   }
   footer: { copyright: string; privacy: string; terms: string; email: string }
@@ -56,14 +62,15 @@ const ZH: PortalCopy = {
     points: ["厨房家电", "洗护清洁", "舒适环境"],
   },
   member: {
-    label: "03 / MEMBER",
+    label: "04 / ACCOUNT & SUPPORT",
     title: "会员、订单与服务，集中在一处",
+    groupLabel: "账户",
+    railLabel: "账户与支持",
     login: "登录或注册",
     orders: "查看订单",
   },
   services: {
-    label: "04 / SERVICE & TRUST",
-    title: "需要帮助时，直接找到对应入口",
+    groupLabel: "客户服务",
     items: [
       {
         number: "01",
@@ -123,14 +130,15 @@ const EN: PortalCopy = {
     points: ["Kitchen", "Laundry & cleaning", "Home comfort"],
   },
   member: {
-    label: "03 / MEMBER",
+    label: "04 / ACCOUNT & SUPPORT",
     title: "Membership, orders and service in one place",
+    groupLabel: "Account",
+    railLabel: "Account & support",
     login: "Sign in or register",
     orders: "View orders",
   },
   services: {
-    label: "04 / SERVICE & TRUST",
-    title: "Go straight to the service you need",
+    groupLabel: "Customer care",
     items: [
       {
         number: "01",
@@ -186,8 +194,7 @@ export async function PortalHome() {
     { number: "01", label: "CHUNG YIP" },
     { number: "02", label: copy.nav.medical },
     { number: "03", label: copy.nav.home },
-    { number: "04", label: copy.nav.account },
-    { number: "05", label: copy.nav.support },
+    { number: "04", label: copy.member.railLabel },
   ]
 
   return (
@@ -436,12 +443,12 @@ export async function PortalHome() {
 
           <section
             id="portal-act-04"
-            className="portal-act portal-member"
+            className="portal-act portal-account"
             data-portal-act="04"
             aria-labelledby="portal-act-04-title"
           >
-            <div className="portal-member__inner">
-              <div>
+            <div className="portal-account__inner">
+              <div className="portal-account__head">
                 <p className="portal-eyebrow" data-portal-reveal data-delay="0">
                   {copy.member.label}
                 </p>
@@ -456,13 +463,13 @@ export async function PortalHome() {
                   </h2>
                 </div>
               </div>
-              <div className="portal-member__detail">
-                <div>
+
+              <div className="portal-account__group" data-portal-reveal data-delay="140">
+                <p className="portal-account__label">{copy.member.groupLabel}</p>
+                <div className="portal-account__links">
                   <Link
                     href={localizedHref("/zh/profile/login/")}
                     className="portal-text-link portal-text-link--light"
-                    data-portal-reveal
-                    data-delay="210"
                   >
                     {copy.member.login}
                     <Arrow />
@@ -470,62 +477,33 @@ export async function PortalHome() {
                   <Link
                     href={localizedHref("/zh/profile/my-orders/")}
                     className="portal-text-link portal-text-link--light"
-                    data-portal-reveal
-                    data-delay="280"
                   >
                     {copy.member.orders}
                     <Arrow />
                   </Link>
                 </div>
               </div>
-            </div>
-          </section>
 
-          <section
-            id="portal-act-05"
-            className="portal-act portal-services"
-            data-portal-act="05"
-            aria-labelledby="portal-act-05-title"
-          >
-            <div className="portal-services__heading">
-              <p className="portal-eyebrow portal-eyebrow--dark" data-portal-reveal data-delay="0">
-                {copy.services.label}
-              </p>
-              <div
-                className="portal-title-mask"
-                data-portal-title-mask
-                data-portal-reveal
-                data-delay="70"
-              >
-                <h2 id="portal-act-05-title" data-portal-title>
-                  {copy.services.title}
-                </h2>
+              <div className="portal-account__group" data-portal-reveal data-delay="210">
+                <p className="portal-account__label">{copy.services.groupLabel}</p>
+                <div className="portal-account__rows">
+                  {copy.services.items.map((item) => (
+                    <a key={item.number} href={localizedHref(item.href)} aria-label={item.link}>
+                      <span>{item.number}</span>
+                      <strong>{item.title}</strong>
+                      <em>
+                        {item.link}
+                        <Arrow />
+                      </em>
+                    </a>
+                  ))}
+                </div>
               </div>
-            </div>
-            <div className="portal-services__list">
-              {copy.services.items.map((item, index) => (
-                <a
-                  key={item.number}
-                  href={localizedHref(item.href)}
-                  className="group"
-                  aria-label={item.link}
-                  data-portal-reveal
-                  data-delay={140 + index * 70}
-                >
-                  <span>{item.number}</span>
-                  <div>
-                    <h3>{item.title}</h3>
-                  </div>
-                  <strong>
-                    {item.link}
-                    <Arrow />
-                  </strong>
-                </a>
-              ))}
-            </div>
-            <div className="portal-contact-strip" data-portal-reveal data-delay="350">
-              <span>{contact.stores[0].address}</span>
-              <a href={`mailto:${contact.email}`}>{contact.email}</a>
+
+              <div className="portal-contact-strip" data-portal-reveal data-delay="300">
+                <span>{contact.stores[0].address}</span>
+                <a href={`mailto:${contact.email}`}>{contact.email}</a>
+              </div>
             </div>
           </section>
         </main>
