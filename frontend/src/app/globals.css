@@ -2487,3 +2487,188 @@ html[data-portal-flip="true"] body {
     margin: 0 12px 0 0;
   }
 }
+
+
+/* ---------------------------------------------------------------
+   White surface theme
+   Every portal act (hero / medical / home / account / footer) sits on
+   white; the floating product cards keep their dark panels so the
+   cut-out product photography still has something to sit against.
+   --------------------------------------------------------------- */
+.portal-rn {
+  background: #fff;
+  color: var(--ink);
+}
+
+/* Header ------------------------------------------------------- */
+.portal-rn .portal-header {
+  border-bottom-color: rgba(13, 13, 13, 0.12);
+  background: rgba(255, 255, 255, 0.94);
+}
+
+.portal-rn .portal-wordmark,
+.portal-rn .portal-header nav a:hover,
+.portal-rn .portal-header-icon:hover,
+.portal-rn .portal-header-login:hover {
+  color: var(--ink);
+}
+
+.portal-rn .portal-wordmark i {
+  background: var(--slate);
+}
+
+.portal-rn .portal-header nav a,
+.portal-rn .portal-header-icon {
+  color: rgba(13, 13, 13, 0.58);
+}
+
+.portal-rn .portal-header-login {
+  border-bottom-color: rgba(13, 13, 13, 0.5);
+  color: rgba(13, 13, 13, 0.74);
+}
+
+.portal-rn .portal-language .lang-switch-btn,
+.portal-rn .portal-mobile-language .lang-switch-btn {
+  color: rgba(13, 13, 13, 0.55);
+}
+
+.portal-rn .portal-language .lang-switch-btn--active,
+.portal-rn .portal-mobile-language .lang-switch-btn--active {
+  color: var(--ink);
+}
+
+.portal-rn .portal-language.nav-header-message-language-switch,
+.portal-rn .portal-mobile-language.nav-header-message-language-switch {
+  color: rgba(13, 13, 13, 0.55);
+}
+
+/* Hero ---------------------------------------------------------- */
+.portal-rn .portal-hero {
+  background: #fff;
+}
+
+.portal-rn .portal-hero__title,
+.portal-rn .portal-destinations strong {
+  color: var(--ink);
+}
+
+.portal-rn .portal-eyebrow {
+  color: rgba(13, 13, 13, 0.58);
+}
+
+.portal-rn .portal-hero__description {
+  color: rgba(13, 13, 13, 0.62);
+}
+
+.portal-rn .portal-hero__primary a {
+  border-bottom-color: rgba(13, 13, 13, 0.4);
+  color: rgba(13, 13, 13, 0.78);
+}
+
+.portal-rn .portal-destinations {
+  border-top-color: rgba(13, 13, 13, 0.16);
+}
+
+.portal-rn .portal-destinations a {
+  color: var(--ink);
+}
+
+.portal-rn .portal-destinations a + a {
+  border-left-color: rgba(13, 13, 13, 0.16);
+}
+
+.portal-rn .portal-destinations span {
+  color: rgba(13, 13, 13, 0.5);
+}
+
+.portal-rn .portal-flip-deck__hint {
+  color: rgba(13, 13, 13, 0.42);
+}
+
+/* Acts 02 / 03 -------------------------------------------------- */
+.portal-rn .portal-world--medical,
+.portal-rn .portal-world--home {
+  background: #fff;
+}
+
+/* Act 04 -------------------------------------------------------- */
+.portal-rn .portal-account {
+  background: #fff;
+  color: var(--ink);
+}
+
+.portal-rn .portal-account__label {
+  border-bottom-color: rgba(13, 13, 13, 0.18);
+  color: rgba(13, 13, 13, 0.55);
+}
+
+.portal-rn .portal-account__rows > a {
+  border-bottom-color: rgba(13, 13, 13, 0.14);
+}
+
+.portal-rn .portal-account__rows > a > span {
+  color: rgba(13, 13, 13, 0.45);
+}
+
+.portal-rn .portal-account__rows em,
+.portal-rn .portal-contact-strip {
+  color: rgba(13, 13, 13, 0.62);
+}
+
+.portal-rn .portal-account__rows > a::before {
+  background: rgba(13, 13, 13, 0.04);
+}
+
+.portal-rn .portal-contact-strip {
+  border-top-color: rgba(13, 13, 13, 0.14);
+}
+
+.portal-rn .portal-contact-strip a {
+  border-bottom-color: rgba(13, 13, 13, 0.3);
+}
+
+.portal-rn .portal-text-link--light {
+  color: var(--ink);
+}
+
+/* Footer -------------------------------------------------------- */
+.portal-rn .portal-footer {
+  border-top-color: rgba(13, 13, 13, 0.12);
+  background: #fff;
+  color: rgba(13, 13, 13, 0.55);
+}
+
+.portal-rn .portal-footer a:hover,
+.portal-rn .portal-footer a:focus-visible {
+  color: var(--ink);
+}
+
+/* Mobile menu + skip link --------------------------------------- */
+.portal-rn .portal-mobile-menu {
+  background: #fff;
+  color: var(--ink);
+}
+
+.portal-rn .portal-mobile-menu__close {
+  color: var(--ink);
+}
+
+.portal-rn .portal-skip-link {
+  background: var(--ink);
+  color: #fff;
+}
+
+.portal-rn .portal-flip-deck__viewport {
+  -webkit-mask-image: linear-gradient(180deg, transparent 0%, #000 8%, #000 92%, transparent 100%);
+  mask-image: linear-gradient(180deg, transparent 0%, #000 8%, #000 92%, transparent 100%);
+}
+
+.portal-rn .portal-flip-card__panel {
+  box-shadow:
+    0 28px 48px -26px rgba(13, 13, 13, 0.38),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+.portal-rn .portal-flip-card__image {
+  filter: drop-shadow(0 14px 18px rgba(0, 0, 0, 0.34));
+}
