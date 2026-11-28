@@ -5,7 +5,7 @@ import styles from "./PortalOpening.module.css"
 
 let playedInDocument = false
 
-export function PortalOpening({ title }: { title: string }) {
+export function PortalOpening() {
   const curtainRef = useRef<HTMLDivElement>(null)
   const started = useRef(false)
 
@@ -57,11 +57,5 @@ export function PortalOpening({ title }: { title: string }) {
     return () => controller.abort()
   }, [])
 
-  return (
-    <div ref={curtainRef} className={styles.curtain} data-portal-opening aria-hidden="true">
-      <div className={styles.lockup}>
-        <span className={styles.title}>{title}</span>
-      </div>
-    </div>
-  )
+  return <div ref={curtainRef} className={styles.curtain} data-portal-opening aria-hidden="true" />
 }

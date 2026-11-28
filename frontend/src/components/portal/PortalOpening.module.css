@@ -4,103 +4,86 @@
 
 @media (scripting: enabled) and (prefers-reduced-motion: no-preference) {
   .stage:not(:has(:target)):has(.curtain:not([hidden])) {
-    --opening-length: 2400ms;
-
     .curtain {
       display: block;
       position: absolute;
       inset: 0;
       z-index: 4;
-      overflow: hidden;
-      background:
-        linear-gradient(
-          to bottom,
-          #030b17 0%,
-          #030b17 69%,
-          rgb(3 11 23 / 95%) 74%,
-          transparent 81%
-        ),
-        #030b17 url("/images/cms/buzud-hero-company.jpg") center bottom / cover no-repeat;
+      background: #030b17;
       pointer-events: none;
-      animation: uncover var(--opening-length) linear both;
+      animation: clearVeil 1700ms var(--portal-ease-enter) both;
+    }
+
+    [data-company-visual] img {
+      animation: settlePlanet 1700ms var(--portal-ease-enter) both;
+    }
+
+    [data-portal-company] h1 {
+      animation: enterTitle 900ms 130ms var(--portal-ease-enter) both;
     }
 
     :global(.portal-header) {
-      animation: revealHeader var(--opening-length) linear both;
+      animation: enterHeader 500ms 550ms var(--portal-ease-enter) both;
     }
 
     nav:has([data-portal-progress-item]) {
-      animation: showIndex var(--opening-length) linear both;
+      animation: enterIndex 500ms 780ms var(--portal-ease-enter) both;
     }
 
     :global(.portal-footer) {
       visibility: hidden;
     }
-
-    .lockup {
-      position: absolute;
-      top: clamp(160px, 25svh, 280px);
-      inset-inline: var(--portal-gutter);
-      text-align: center;
-      animation: lockupIn 540ms cubic-bezier(0.16, 0.79, 0.28, 1) both;
-    }
-
-    .title {
-      display: block;
-      color: #f4f8fa;
-      font-family: var(--font-portal-serif-latin), Georgia, serif;
-      font-size: clamp(46px, 7.5vw, 112px);
-      line-height: 1.06;
-      letter-spacing: -0.045em;
-      animation: lockupIn 500ms 230ms ease-out both;
-    }
   }
 }
 
-@keyframes lockupIn {
+@keyframes clearVeil {
   from {
+    opacity: 0.24;
+  }
+  78%,
+  to {
     opacity: 0;
-    translate: 0 0.38em;
+  }
+}
+
+@keyframes settlePlanet {
+  from {
+    opacity: 0.78;
+    transform: scale(1.035);
   }
   to {
     opacity: 1;
-    translate: 0 0;
-  }
-}
-@keyframes uncover {
-  0%,
-  66% {
-    clip-path: inset(0);
-    animation-timing-function: cubic-bezier(0.67, 0.04, 0.23, 1);
-  }
-  100% {
-    clip-path: inset(0 0 0 100%);
-  }
-}
-@keyframes revealHeader {
-  0%,
-  66% {
-    clip-path: inset(0 100% 0 0);
-    animation-timing-function: cubic-bezier(0.67, 0.04, 0.23, 1);
-  }
-  100% {
-    clip-path: inset(0);
-  }
-}
-@keyframes showIndex {
-  0%,
-  92% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
+    transform: scale(1);
   }
 }
 
-@media (max-width: 1023px), (pointer: coarse) {
-  .stage:not(:has(:target)):has(.curtain:not([hidden])) {
-    .title {
-      font-size: clamp(46px, 11.5vw, 72px);
-    }
+@keyframes enterTitle {
+  from {
+    opacity: 0;
+    transform: translateY(0.24em);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes enterHeader {
+  from {
+    opacity: 0;
+    transform: translateY(-12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes enterIndex {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }

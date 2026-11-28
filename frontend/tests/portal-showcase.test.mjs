@@ -57,6 +57,7 @@ test("portal earth hero", { skip: !origin && "set PORTAL_TEST_ORIGIN" }, async (
         await page.$eval(`${company} h1`, (el) => el.parentElement.innerText.trim()),
         "One earth, One business.",
       )
+      assert.equal(await page.$eval(opening, (el) => el.textContent.trim()), "")
 
       const photo = await page.$eval(`${company} img`, async (img) => {
         await img.decode()

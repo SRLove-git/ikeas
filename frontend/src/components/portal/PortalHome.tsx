@@ -271,7 +271,7 @@ export async function PortalHome() {
             aria-labelledby="portal-act-01-title"
             tabIndex={-1}
           >
-            <PortalOpening title="One earth, One business." />
+            <PortalOpening />
             <div className={hero.frame} data-portal-company>
               <div className={hero.visual} data-company-visual>
                 <Image
