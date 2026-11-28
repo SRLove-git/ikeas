@@ -117,14 +117,11 @@
 
   .stores[data-stores-pending] :global(.portal-destinations) {
     visibility: hidden;
-    opacity: 0;
-    transform: translateY(105%);
+    transform: translateY(110%);
   }
 
   .stores:not([data-stores-pending]) :global(.portal-destinations) {
-    transition:
-      transform var(--portal-d3) var(--portal-ease-enter),
-      opacity var(--portal-d2) ease-out;
+    transition: transform 880ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .stores:has(a:focus-visible) :global(.portal-destinations) {
