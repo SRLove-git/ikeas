@@ -104,10 +104,6 @@
   font-size: min(7.6vw, 12svh, 9.5rem);
 }
 
-.stage[data-portal-flip="true"] [data-locale="en"] :global(.portal-account) h2 {
-  font-size: min(6.4vw, 10.5svh, 7.2rem);
-}
-
 .stage[data-portal-flip-direction] [data-portal-flip-state="active"] :global(.portal-world__copy),
 .stage[data-portal-flip-direction]
   [data-portal-flip-state="active"]
