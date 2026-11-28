@@ -2,9 +2,12 @@
 
 import { useEffect, type ReactNode } from "react"
 import { useReveal } from "@/hooks/useReveal"
+import chapters from "./portal-chapters.module.css"
 
 const REDUCED_MOTION_QUERY = "(prefers-reduced-motion: reduce)"
 const DESKTOP_MIN_WIDTH = 1024
+const FLIP_VIEWPORT_QUERY =
+  "(min-width: 1024px) and (min-height: 700px) and (hover: hover) and (pointer: fine)"
 const HEADER_HIDE_SCROLL_Y = 120
 const WORLD_ZOOM_THRESHOLD = 0.35
 const WORLD_PARALLAX_PX = 20
@@ -36,23 +39,19 @@ export function PortalMotion({ children }: PortalMotionProps) {
 
     const header = root.querySelector<HTMLElement>(".portal-header")
     const footer = root.querySelector<HTMLElement>(".portal-footer")
+    const stores = root.querySelector<HTMLElement>("[data-portal-stores]")
+    const storeLinks = stores?.querySelector<HTMLElement>("#portal-store-links")
+    const storeCue = stores?.querySelector<HTMLButtonElement>("[data-store-cue]")
     const acts = Array.from(root.querySelectorAll<HTMLElement>("[data-portal-act]"))
     const progressItems = Array.from(
-      root.querySelectorAll<HTMLElement>("[data-portal-progress-item]"),
+      root.querySelectorAll<HTMLAnchorElement>("[data-portal-progress-item]"),
     )
     const worlds = Array.from(root.querySelectorAll<HTMLElement>(".portal-world"))
     const worldVisuals = worlds
       .map((world) => world.querySelector<HTMLElement>(".portal-world__visual"))
       .filter((visual): visual is HTMLElement => visual !== null)
-    const introElements = Array.from(
-      root.querySelectorAll<HTMLElement>(
-        ".portal-hero__intro-item, .portal-hero__title-line > span, .portal-flip-deck",
-      ),
-    )
     const reducedMotionQuery = window.matchMedia(REDUCED_MOTION_QUERY)
-    const originalActTabIndexes = new Map(
-      acts.map((act) => [act, act.getAttribute("tabindex")] as const),
-    )
+    const flipViewport = window.matchMedia(FLIP_VIEWPORT_QUERY)
 
     let lastScrollY = Math.max(window.scrollY, 0)
     let scrollFrame: number | null = null
@@ -63,7 +62,19 @@ export function PortalMotion({ children }: PortalMotionProps) {
     let flipEnabled = false
     let flipLocked = false
     let wheelAccumulator = 0
+    let consumingStoreGesture = false
     let activeFlipIndex = 0
+
+    const showStores = (focusLink = false) => {
+      if (!stores?.hasAttribute("data-stores-pending") || !storeLinks) return false
+      const moveFocus = focusLink || document.activeElement === storeCue
+      stores.removeAttribute("data-stores-pending")
+      storeLinks.inert = false
+      if (moveFocus) storeLinks.querySelector("a")?.focus({ preventScroll: true })
+      return true
+    }
+
+    const handleStoreCue = () => showStores(true)
 
     const showHeader = () => {
       header?.classList.remove("is-hidden")
@@ -96,11 +107,9 @@ export function PortalMotion({ children }: PortalMotionProps) {
 
     const setProgressActive = (activeAct: string | undefined) => {
       progressItems.forEach((item) => {
-        if (item.dataset.portalProgressItem === activeAct) {
-          item.dataset.active = "true"
-        } else {
-          delete item.dataset.active
-        }
+        if (item.dataset.portalProgressItem === activeAct)
+          item.setAttribute("aria-current", "location")
+        else item.removeAttribute("aria-current")
       })
     }
 
@@ -154,6 +163,14 @@ export function PortalMotion({ children }: PortalMotionProps) {
     const updateViewportMotion = () => {
       scrollFrame = null
       const currentScrollY = Math.max(window.scrollY, 0)
+      if (
+        !flipEnabled &&
+        currentScrollY > 0 &&
+        stores?.hasAttribute("data-stores-pending") &&
+        stores.getBoundingClientRect().top < window.innerHeight
+      ) {
+        showStores()
+      }
       updateHeader(currentScrollY)
       updateProgress()
       updateWorldParallax()
@@ -214,13 +231,17 @@ export function PortalMotion({ children }: PortalMotionProps) {
     const applyFlipState = (nextIndex: number, moveFocus = false) => {
       const boundedIndex = clamp(nextIndex, 0, Math.max(acts.length - 1, 0))
       const outgoingAct = acts[activeFlipIndex]
-      const shouldMoveFocus = moveFocus || (outgoingAct?.contains(document.activeElement) ?? false)
+      const shouldMoveFocus =
+        moveFocus ||
+        outgoingAct?.contains(document.activeElement) ||
+        footer?.contains(document.activeElement)
 
       activeFlipIndex = boundedIndex
       const activeAct = acts[activeFlipIndex]
       const activeNumber = activeAct?.dataset.portalAct
 
       acts.forEach((act, index) => {
+        act.toggleAttribute("data-portal-leaving", act === outgoingAct && act !== activeAct)
         act.dataset.portalFlipState =
           index < activeFlipIndex ? "previous" : index > activeFlipIndex ? "next" : "active"
         act.inert = index !== activeFlipIndex
@@ -244,12 +265,6 @@ export function PortalMotion({ children }: PortalMotionProps) {
         else footer.setAttribute("aria-hidden", "true")
       }
 
-      window.dispatchEvent(
-        new CustomEvent("portal:act-flip", {
-          detail: { index: activeFlipIndex, act: activeNumber },
-        }),
-      )
-
       if (shouldMoveFocus) {
         activeAct?.focus({ preventScroll: true })
       }
@@ -260,6 +275,7 @@ export function PortalMotion({ children }: PortalMotionProps) {
       if (wheelResetTimer !== null) window.clearTimeout(wheelResetTimer)
       flipLockTimer = null
       wheelResetTimer = null
+      consumingStoreGesture = false
     }
 
     const lockFlip = () => {
@@ -268,18 +284,22 @@ export function PortalMotion({ children }: PortalMotionProps) {
       flipLockTimer = window.setTimeout(() => {
         flipLocked = false
         flipLockTimer = null
+        delete root.dataset.portalFlipDirection
+        root.querySelector("[data-portal-leaving]")?.removeAttribute("data-portal-leaving")
       }, FLIP_LOCK_MS)
     }
 
     const goToFlipAct = (nextIndex: number, moveFocus = false) => {
       const boundedIndex = clamp(nextIndex, 0, Math.max(acts.length - 1, 0))
-      if (!flipEnabled || flipLocked || boundedIndex === activeFlipIndex) return
+      if (!flipEnabled || boundedIndex === activeFlipIndex) return
       lockFlip()
       root.dataset.portalFlipDirection = boundedIndex > activeFlipIndex ? "forward" : "backward"
       applyFlipState(boundedIndex, moveFocus)
     }
 
-    const enableFlip = () => {
+    const hashIndex = () => acts.findIndex((act) => `#${act.id}` === window.location.hash)
+
+    const enableFlip = (initial: boolean) => {
       if (flipEnabled || acts.length === 0) return
 
       const viewportAnchor = window.innerHeight * 0.5
@@ -289,10 +309,10 @@ export function PortalMotion({ children }: PortalMotionProps) {
       })
 
       flipEnabled = true
-      activeFlipIndex = nearestIndex
+      const linkedIndex = initial ? hashIndex() : -1
+      activeFlipIndex = linkedIndex >= 0 ? linkedIndex : nearestIndex
       root.dataset.portalFlip = "true"
       document.documentElement.dataset.portalFlip = "true"
-      acts.forEach((act) => act.setAttribute("tabindex", "-1"))
       window.scrollTo({ top: 0, behavior: "instant" })
       showHeader()
       clearWorldParallax()
@@ -316,11 +336,9 @@ export function PortalMotion({ children }: PortalMotionProps) {
 
       acts.forEach((act) => {
         delete act.dataset.portalFlipState
+        act.removeAttribute("data-portal-leaving")
         act.inert = false
         act.removeAttribute("aria-hidden")
-        const originalTabIndex = originalActTabIndexes.get(act)
-        if (originalTabIndex == null) act.removeAttribute("tabindex")
-        else act.setAttribute("tabindex", originalTabIndex)
       })
 
       if (footer) {
@@ -334,35 +352,81 @@ export function PortalMotion({ children }: PortalMotionProps) {
       }
     }
 
-    const syncFlipMode = () => {
-      const shouldFlip = window.innerWidth >= DESKTOP_MIN_WIDTH && !reducedMotionQuery.matches
-
-      if (shouldFlip) enableFlip()
+    const syncFlipMode = (initial = false) => {
+      if (flipViewport.matches && !reducedMotionQuery.matches) enableFlip(initial)
       else disableFlip()
     }
 
+    const followChapterLink = (event: MouseEvent) => {
+      if (
+        !flipEnabled ||
+        event.button !== 0 ||
+        event.ctrlKey ||
+        event.metaKey ||
+        event.shiftKey ||
+        event.altKey
+      )
+        return
+      const link = event.currentTarget as HTMLAnchorElement
+      const nextIndex = acts.findIndex((act) => `#${act.id}` === link.hash)
+      if (nextIndex < 0) return
+      event.preventDefault()
+      if (location.hash !== link.hash) window.history.pushState(null, "", link.hash)
+      if (nextIndex === activeFlipIndex) acts[nextIndex].focus({ preventScroll: true })
+      else goToFlipAct(nextIndex, true)
+    }
+
+    const followLocation = () => {
+      if (!flipEnabled) return
+      const nextIndex = window.location.hash ? hashIndex() : 0
+      if (nextIndex >= 0) goToFlipAct(nextIndex, true)
+    }
+
+    const stepChapter = (nextIndex: number, moveFocus = false) => {
+      goToFlipAct(nextIndex, moveFocus)
+      if (hashIndex() >= 0) {
+        window.history.replaceState(window.history.state, "", `#${acts[activeFlipIndex].id}`)
+      }
+    }
+
     const handleWheel = (event: WheelEvent) => {
-      if (!flipEnabled || event.ctrlKey) return
+      if (
+        !flipEnabled ||
+        event.defaultPrevented ||
+        event.ctrlKey ||
+        Math.abs(event.deltaX) > Math.abs(event.deltaY)
+      )
+        return
       event.preventDefault()
       if (flipLocked) return
 
-      wheelAccumulator += event.deltaY
+      const unit = event.deltaMode === 1 ? 16 : event.deltaMode === 2 ? window.innerHeight : 1
+      if (wheelAccumulator * event.deltaY < 0) wheelAccumulator = 0
+      wheelAccumulator += event.deltaY * unit
       if (wheelResetTimer !== null) window.clearTimeout(wheelResetTimer)
       wheelResetTimer = window.setTimeout(() => {
         wheelAccumulator = 0
+        consumingStoreGesture = false
         wheelResetTimer = null
       }, FLIP_IDLE_RESET_MS)
 
+      if (consumingStoreGesture) return
       if (Math.abs(wheelAccumulator) < FLIP_WHEEL_THRESHOLD) return
       const direction = wheelAccumulator > 0 ? 1 : -1
       wheelAccumulator = 0
-      goToFlipAct(activeFlipIndex + direction)
+      if (direction > 0 && activeFlipIndex === 0 && showStores()) {
+        // The remaining momentum of this same swipe belongs to the reveal.
+        consumingStoreGesture = true
+        return
+      }
+      stepChapter(activeFlipIndex + direction)
     }
 
     const handleKeyDown = (event: KeyboardEvent) => {
       if (
         !flipEnabled ||
         event.defaultPrevented ||
+        event.repeat ||
         event.metaKey ||
         event.ctrlKey ||
         event.altKey
@@ -370,9 +434,19 @@ export function PortalMotion({ children }: PortalMotionProps) {
         return
       }
       if (isEditableTarget(event.target)) return
+      if (
+        event.key === " " &&
+        event.target instanceof Element &&
+        event.target.closest("button, [role=button]")
+      )
+        return
 
       let nextIndex: number | null = null
       if (event.key === "ArrowDown" || event.key === "PageDown" || event.key === " ") {
+        if (!event.shiftKey && activeFlipIndex === 0 && showStores(true)) {
+          event.preventDefault()
+          return
+        }
         nextIndex = activeFlipIndex + (event.shiftKey ? -1 : 1)
       } else if (event.key === "ArrowUp" || event.key === "PageUp") {
         nextIndex = activeFlipIndex - 1
@@ -386,7 +460,7 @@ export function PortalMotion({ children }: PortalMotionProps) {
       const boundedIndex = clamp(nextIndex, 0, acts.length - 1)
       if (boundedIndex === activeFlipIndex) return
       event.preventDefault()
-      goToFlipAct(boundedIndex, true)
+      stepChapter(boundedIndex, true)
     }
 
     const scheduleMotionRefresh = () => {
@@ -403,6 +477,7 @@ export function PortalMotion({ children }: PortalMotionProps) {
     const handleReducedMotionChange = () => {
       syncFlipMode()
       if (reducedMotionQuery.matches) {
+        showStores()
         showHeader()
         clearWorldParallax()
       }
@@ -414,21 +489,24 @@ export function PortalMotion({ children }: PortalMotionProps) {
       showHeader()
     }
 
-    const handleIntroAnimationEnd = (event: AnimationEvent) => {
-      if (event.target !== event.currentTarget || !event.animationName.startsWith("portal-")) return
-      const element = event.currentTarget as HTMLElement
-      element.classList.add("portal-animation-complete")
+    if (storeCue && storeLinks) {
+      if (!reducedMotionQuery.matches && !window.location.hash && !lastScrollY) {
+        stores?.setAttribute("data-stores-pending", "")
+        storeLinks.inert = true
+      } else {
+        showStores()
+      }
     }
-
-    introElements.forEach((element) => {
-      element.addEventListener("animationend", handleIntroAnimationEnd)
-    })
-    syncFlipMode()
+    storeCue?.addEventListener("click", handleStoreCue)
+    syncFlipMode(true)
     setupWorldObserver()
     updateViewportMotion()
 
     window.addEventListener("wheel", handleWheel, { passive: false })
     window.addEventListener("keydown", handleKeyDown)
+    window.addEventListener("hashchange", followLocation)
+    progressItems.forEach((link) => link.addEventListener("click", followChapterLink))
+    flipViewport.addEventListener("change", scheduleMotionRefresh)
     window.addEventListener("scroll", scheduleViewportMotion, { passive: true })
     window.addEventListener("resize", scheduleMotionRefresh, { passive: true })
     header?.addEventListener("focusin", handleHeaderFocus)
@@ -437,12 +515,15 @@ export function PortalMotion({ children }: PortalMotionProps) {
     return () => {
       window.removeEventListener("wheel", handleWheel)
       window.removeEventListener("keydown", handleKeyDown)
+      window.removeEventListener("hashchange", followLocation)
+      progressItems.forEach((link) => link.removeEventListener("click", followChapterLink))
+      flipViewport.removeEventListener("change", scheduleMotionRefresh)
       window.removeEventListener("scroll", scheduleViewportMotion)
       window.removeEventListener("resize", scheduleMotionRefresh)
       header?.removeEventListener("focusin", handleHeaderFocus)
-      introElements.forEach((element) => {
-        element.removeEventListener("animationend", handleIntroAnimationEnd)
-      })
+      storeCue?.removeEventListener("click", handleStoreCue)
+      stores?.removeAttribute("data-stores-pending")
+      if (storeLinks) storeLinks.inert = false
       reducedMotionQuery.removeEventListener("change", handleReducedMotionChange)
 
       if (scrollFrame !== null) window.cancelAnimationFrame(scrollFrame)
@@ -458,7 +539,7 @@ export function PortalMotion({ children }: PortalMotionProps) {
   }, [rootRef])
 
   return (
-    <div ref={rootRef} className="portal-motion">
+    <div ref={rootRef} className={`portal-motion ${chapters.stage}`}>
       {children}
     </div>
   )

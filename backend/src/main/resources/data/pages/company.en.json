@@ -11,9 +11,7 @@
         "type": "corporate-hero",
         "title": "Bring health management into every home",
         "texts": ["CHUNG YIP's vision and mission"],
-        "images": [
-          "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-hero-company.jpg"
-        ],
+        "images": ["/images/cms/buzud-hero-company.jpg"],
         "links": [
           {
             "href": "/zh/all-products/",
@@ -33,9 +31,7 @@
           "CHUNG YIP HOLDING PTE is a Singapore-based diversified investment management firm dedicated to identifying high-potential assets, frontier technology projects, and long-term growth opportunities across the Asia-Pacific region. Guided by our core philosophy of “Global Vision, Local Execution,” we leverage Singapore’s strategic position as a global financial center and innovation hub to build resilient, innovation-driven, and future-oriented portfolios that deliver sustainable long-term value for investors.",
           "We uphold a long-term investment philosophy, with a strategic focus on high-growth sectors including industrial real estate, new building materials, education, AI healthcare, digital infrastructure, and intelligent software ecosystems. We continuously develop cross-sector, vertically integrated investment capabilities and resource integration expertise. At the same time, we place strong emphasis on ESG-oriented sustainable development opportunities, promoting deeper integration between capital, technology, and industry. Leveraging our professional team’s twenty years of experience in the Asia-Pacific market, we are committed to becoming a strategic bridge connecting capital, industry, and innovative technology."
         ],
-        "images": [
-          "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-about-image.jpg"
-        ],
+        "images": ["/images/cms/buzud-about-image.jpg"],
         "links": [],
         "items": [],
         "productIds": [],
@@ -71,13 +67,13 @@
           {
             "heading": "AI + Education",
             "text": "CHUNG YIP leverages its majority-owned Singapore Heng Xing International School to actively explore the deep integration of artificial intelligence technology and the education industry.",
-            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-ai-education.jpg",
+            "image": "/images/cms/buzud-ai-education.jpg",
             "href": "https://www.esic.edu.sg/"
           },
           {
             "heading": "AI + Medical",
             "text": "CHUNG YIP cooperates with BUZUD, a well-known home-grown Singaporean healthcare brand, to jointly explore innovative applications and solutions for artificial intelligence technology in the healthcare field.",
-            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-ai-medical.jpg",
+            "image": "/images/cms/buzud-ai-medical.jpg",
             "href": "https://www.buzud.com/en/solutions-medicare-plus"
           }
         ],
@@ -92,9 +88,9 @@
           "We look forward to working with industry partners, healthcare institutions and the community to advance the health industry."
         ],
         "images": [
-          "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/company/cooperation-imdec-2026-01.jpg",
-          "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/company/cooperation-imdec-2026-02.jpg",
-          "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/company/cooperation-imdec-2026-03.jpg"
+          "/_next/image/?url=%2Fimages%2Fcompany%2Fcooperation-imdec-2026-01.jpg&w=1200&q=75",
+          "/images/company/cooperation-imdec-2026-02.jpg",
+          "/_next/image/?url=%2Fimages%2Fcompany%2Fcooperation-imdec-2026-03.jpg&w=1200&q=75"
         ],
         "links": [
           {

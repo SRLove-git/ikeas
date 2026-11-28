@@ -3,13 +3,17 @@ import Link from "next/link"
 import { CartIcon, SearchIcon } from "@/components/icons"
 import { PortalMobileNav } from "@/components/portal/PortalMobileNav"
 import { PortalMotion } from "@/components/portal/PortalMotion"
-import { PortalFlipDeck } from "@/components/portal/PortalFlipDeck"
+import hero from "./PortalCompanyHero.module.css"
+import { PortalOpening } from "./PortalOpening"
+import opening from "./PortalOpening.module.css"
+import chapters from "./portal-chapters.module.css"
 import contact from "@/data/contact.json"
 import { LanguageSwitch } from "@/i18n/LanguageSwitch"
 import { PORTAL_LOCALE_PATHS, portalLocalizedHref } from "@/i18n/config"
 import { getLocale } from "@/i18n/server"
-import { getSiteIntro } from "@/lib/site-intro"
 import { HOME_URL, MEDICAL_URL } from "@/lib/site-scope"
+
+const OPENING_TITLE = "One earth, One business."
 
 interface PortalCopy {
   nav: { medical: string; home: string; account: string; orders: string; support: string }
@@ -18,7 +22,6 @@ interface PortalCopy {
   home: { label: string; title: string; cta: string; points: string[] }
   member: {
     label: string
-    title: string
     groupLabel: string
     railLabel: string
     login: string
@@ -61,7 +64,6 @@ const ZH: PortalCopy = {
   },
   member: {
     label: "04 / ACCOUNT & SUPPORT",
-    title: "会员、订单与服务，集中在一处",
     groupLabel: "账户",
     railLabel: "账户与支持",
     login: "登录或注册",
@@ -128,7 +130,6 @@ const EN: PortalCopy = {
   },
   member: {
     label: "04 / ACCOUNT & SUPPORT",
-    title: "Membership, orders and service in one place",
     groupLabel: "Account",
     railLabel: "Account & support",
     login: "Sign in or register",
@@ -177,16 +178,9 @@ function Arrow() {
 export async function PortalHome() {
   const locale = await getLocale()
   const isZh = locale === "zh-CN"
-  const intro = getSiteIntro("portal")[isZh ? "zh" : "en"]
   const copy = isZh ? ZH : EN
   const currentLocaleHref = isZh ? PORTAL_LOCALE_PATHS["zh-CN"] : PORTAL_LOCALE_PATHS.en
   const localizedHref = (href: string) => portalLocalizedHref(locale, href)
-  const titleParts = intro.title.split(isZh ? "，" : ",")
-  const titleLead = titleParts[0] + (titleParts.length > 1 ? (isZh ? "，" : ", ") : "")
-  const titleTail = titleParts
-    .slice(1)
-    .join(isZh ? "，" : ",")
-    .trim()
   const acts = [
     { number: "01", label: "CHUNG YIP" },
     { number: "02", label: copy.nav.medical },
@@ -197,7 +191,7 @@ export async function PortalHome() {
   return (
     <PortalMotion>
       <div
-        className="portal-rn min-h-screen overflow-x-clip bg-[#0d0d0d] text-[#f2f0ea]"
+        className={`portal-rn min-h-screen overflow-x-clip bg-[#0d0d0d] text-[#f2f0ea] ${opening.stage}`}
         data-locale={isZh ? "zh" : "en"}
       >
         <a href="#portal-main" className="portal-skip-link">
@@ -206,7 +200,7 @@ export async function PortalHome() {
 
         <header className="portal-header fixed inset-x-0 top-0 z-40 border-b border-white/10 bg-[#0d0d0d]/95">
           <div className="mx-auto flex h-[76px] max-w-[1800px] items-center px-5 sm:px-8 lg:px-12">
-            <Link href={currentLocaleHref} className="portal-wordmark" aria-label="CHUNG YIP home">
+            <a href={currentLocaleHref} className="portal-wordmark" aria-label="CHUNG YIP home">
               <Image
                 src="/images/logo/logo.png"
                 alt="CHUNG YIP"
@@ -215,7 +209,7 @@ export async function PortalHome() {
                 priority
                 className="portal-wordmark__logo"
               />
-            </Link>
+            </a>
 
             <nav
               className="mx-auto hidden items-center gap-9 text-[11px] font-medium tracking-[0.16em] text-white/60 lg:flex"
@@ -271,62 +265,85 @@ export async function PortalHome() {
           </div>
         </header>
 
-        <aside className="portal-act-progress" aria-hidden="true">
-          <ol>
-            {acts.map((act, index) => (
-              <li
-                key={act.number}
-                data-portal-progress-item={act.number}
-                data-active={index === 0 ? "true" : undefined}
-              >
-                <span>{act.number}</span>
-                <i />
-                <strong>{act.label}</strong>
-              </li>
-            ))}
-          </ol>
-        </aside>
-
-        <main id="portal-main">
-          <section id="portal-act-01" className="portal-act portal-hero" data-portal-act="01">
-            <div className="portal-hero__inner">
-              <div className="portal-hero__copy">
-                <h1 className="portal-hero__title">
-                  <span className="portal-hero__title-line" data-delay="80">
-                    <span>{titleLead}</span>
-                  </span>
-                  {titleTail ? (
-                    <span className="portal-hero__title-line" data-delay="160">
-                      <span className={isZh ? undefined : "portal-hero__title-italic"}>
-                        {titleTail}
-                      </span>
-                    </span>
-                  ) : null}
+        <main id="portal-main" tabIndex={-1}>
+          <section
+            id="portal-act-01"
+            className={`portal-act portal-hero ${hero.section}`}
+            data-portal-act="01"
+            aria-labelledby="portal-act-01-title"
+            tabIndex={-1}
+          >
+            <div className={hero.frame} data-portal-company>
+              <div className={hero.visual} data-company-visual>
+                <Image
+                  src="/images/cms/buzud-hero-company.jpg"
+                  alt={isZh ? "从太空俯瞰地球" : "Earth seen from space"}
+                  fill
+                  sizes="100vw"
+                  unoptimized
+                  loading="eager"
+                  fetchPriority="high"
+                />
+              </div>
+              <PortalOpening />
+              <div className={hero.feature}>
+                <h1
+                  id="portal-act-01-title"
+                  className={hero.name}
+                  data-opening-title={OPENING_TITLE}
+                >
+                  {OPENING_TITLE}
                 </h1>
               </div>
-
-              <div className="portal-destinations portal-hero__intro-item" data-delay="340">
-                <a className="group" href={MEDICAL_URL}>
-                  <span>01</span>
-                  <strong>{copy.medical.cta}</strong>
-                  <Arrow />
-                </a>
-                <a className="group" href={HOME_URL}>
-                  <span>02</span>
-                  <strong>{copy.home.cta}</strong>
-                  <Arrow />
-                </a>
+              <div className={hero.stores} data-portal-stores data-stores-pending="">
+                <button
+                  className={hero.storeCue}
+                  type="button"
+                  data-store-cue
+                  aria-controls="portal-store-links"
+                  aria-label={isZh ? "显示医疗和家电商城入口" : "Show the medical and home stores"}
+                >
+                  <span aria-hidden="true">↓</span>
+                </button>
+                <div id="portal-store-links" className="portal-destinations">
+                  <a className="group" href={MEDICAL_URL}>
+                    <span>01</span>
+                    <strong>{copy.medical.cta}</strong>
+                    <Arrow />
+                  </a>
+                  <a className="group" href={HOME_URL}>
+                    <span>02</span>
+                    <strong>{copy.home.cta}</strong>
+                    <Arrow />
+                  </a>
+                </div>
               </div>
-
-              <PortalFlipDeck isZh={isZh} />
             </div>
           </section>
+
+          <nav className={chapters.index} aria-label={isZh ? "首页章节" : "Page sections"}>
+            <ol>
+              {acts.map((act, index) => (
+                <li key={act.number}>
+                  <a
+                    href={`#portal-act-${act.number}`}
+                    data-portal-progress-item={act.number}
+                    aria-current={index === 0 ? "location" : undefined}
+                  >
+                    <span className={chapters.label}>{act.label}</span>
+                    <i className={chapters.mark} aria-hidden="true" />
+                  </a>
+                </li>
+              ))}
+            </ol>
+          </nav>
 
           <section
             id="portal-act-02"
             className="portal-act portal-world portal-world--medical"
             data-portal-act="02"
             aria-labelledby="portal-act-02-title"
+            tabIndex={-1}
           >
             <div className="portal-world__inner">
               <div className="portal-world__copy">
@@ -390,6 +407,7 @@ export async function PortalHome() {
             className="portal-act portal-world portal-world--home"
             data-portal-act="03"
             aria-labelledby="portal-act-03-title"
+            tabIndex={-1}
           >
             <div className="portal-world__inner portal-world__inner--reverse">
               <div
@@ -444,22 +462,18 @@ export async function PortalHome() {
             className="portal-act portal-account"
             data-portal-act="04"
             aria-labelledby="portal-act-04-title"
+            tabIndex={-1}
           >
             <div className="portal-account__inner">
               <div className="portal-account__head">
-                <p className="portal-eyebrow" data-portal-reveal data-delay="0">
-                  {copy.member.label}
-                </p>
-                <div
-                  className="portal-title-mask"
-                  data-portal-title-mask
+                <h2
+                  id="portal-act-04-title"
+                  className="portal-eyebrow"
                   data-portal-reveal
-                  data-delay="70"
+                  data-delay="0"
                 >
-                  <h2 id="portal-act-04-title" data-portal-title>
-                    {copy.member.title}
-                  </h2>
-                </div>
+                  {copy.member.label}
+                </h2>
               </div>
 
               <div className="portal-account__group" data-portal-reveal data-delay="140">
@@ -499,7 +513,6 @@ export async function PortalHome() {
               </div>
 
               <div className="portal-contact-strip" data-portal-reveal data-delay="300">
-                <span>{contact.stores[0].address}</span>
                 <a href={`mailto:${contact.email}`}>{contact.email}</a>
               </div>
             </div>

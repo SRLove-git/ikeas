@@ -30,10 +30,8 @@ export async function generateMetadata(): Promise<Metadata> {
   const isZh = locale === "zh-CN"
   const intro = getSiteIntro("portal")[isZh ? "zh" : "en"]
   const pathname = isZh ? PORTAL_LOCALE_PATHS["zh-CN"] : PORTAL_LOCALE_PATHS.en
-  const title = `CHUNG YIP - ${intro.title}`
-  const description = isZh
-    ? "CHUNG YIP 旗下医疗健康与家庭生活双站入口。"
-    : "CHUNG YIP Singapore connects health monitoring, respiratory care and home appliances, with delivery and warranty support."
+  const title = `${intro.title} | ${intro.eyebrow}`
+  const description = intro.description
 
   return {
     title,

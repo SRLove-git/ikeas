@@ -1,0 +1,111 @@
+.curtain {
+  display: none;
+}
+
+@media (scripting: enabled) and (prefers-reduced-motion: no-preference) {
+  .stage:not(:has(:target)):has(.curtain:not([hidden])) {
+    .curtain {
+      display: block;
+      position: absolute;
+      inset: 0 calc(-1 * var(--portal-gutter));
+      z-index: 1;
+      background: rgb(3 11 23 / 52%);
+      pointer-events: none;
+      animation: openingWipe 2300ms linear both;
+    }
+
+    .curtain::after {
+      position: absolute;
+      inset: 0 auto 0 0;
+      width: 3px;
+      background: #5ca4cd;
+      clip-path: inset(100% 0 0);
+      content: "";
+      animation: progressFill 1100ms linear both;
+    }
+
+    [data-company-visual] img {
+      animation: settlePlanet 2300ms var(--portal-ease-enter) both;
+    }
+
+    [data-portal-company] h1 {
+      position: relative;
+      color: transparent;
+      -webkit-text-stroke: 1px rgb(244 248 250 / 88%);
+    }
+
+    [data-portal-company] h1::after {
+      position: absolute;
+      inset: 0;
+      display: block;
+      color: #f4f8fa;
+      -webkit-text-stroke: 0;
+      clip-path: inset(100% 0 0);
+      content: attr(data-opening-title);
+      pointer-events: none;
+      animation: fillTitle 1080ms 160ms var(--portal-ease-enter) both;
+    }
+
+    :global(.portal-header) {
+      animation: revealHeader 1050ms 1200ms cubic-bezier(0.77, 0, 0.175, 1) both;
+    }
+
+    nav:has([data-portal-progress-item]) {
+      animation: enterIndex 420ms 1840ms var(--portal-ease-enter) both;
+    }
+
+    :global(.portal-footer) {
+      visibility: hidden;
+    }
+  }
+}
+
+@keyframes openingWipe {
+  0%,
+  52% {
+    clip-path: inset(0);
+    animation-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  }
+  to {
+    clip-path: inset(0 0 0 100%);
+  }
+}
+
+@keyframes progressFill {
+  to {
+    clip-path: inset(0);
+  }
+}
+
+@keyframes fillTitle {
+  to {
+    clip-path: inset(0);
+  }
+}
+
+@keyframes settlePlanet {
+  from {
+    transform: scale(1.045);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes revealHeader {
+  from {
+    clip-path: inset(0 100% 0 0);
+  }
+  to {
+    clip-path: inset(0);
+  }
+}
+
+@keyframes enterIndex {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

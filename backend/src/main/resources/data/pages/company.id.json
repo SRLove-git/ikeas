@@ -10,12 +10,8 @@
       {
         "type": "corporate-hero",
         "title": "Hadirkan manajemen kesehatan ke setiap rumah",
-        "texts": [
-          "Visi dan misi CHUNG YIP"
-        ],
-        "images": [
-          "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-hero-company.jpg"
-        ],
+        "texts": ["Visi dan misi CHUNG YIP"],
+        "images": ["/images/cms/buzud-hero-company.jpg"],
         "links": [
           {
             "href": "/zh/all-products/",
@@ -35,9 +31,7 @@
           "CHUNG YIP HOLDING PTE adalah firma manajemen investasi terdiversifikasi yang berbasis di Singapura, berdedikasi untuk mengidentifikasi aset berpotensi tinggi, proyek teknologi terdepan, dan peluang pertumbuhan jangka panjang di seluruh kawasan Asia-Pasifik. Dipandu oleh filosofi inti kami yaitu “Visi Global, Eksekusi Lokal,” kami memanfaatkan posisi strategis Singapura sebagai pusat keuangan global dan pusat inovasi untuk membangun portofolio yang tangguh, berbasis inovasi, dan berorientasi masa depan yang memberikan nilai jangka panjang yang berkelanjutan bagi investor.",
           "Kami menjunjung filosofi investasi jangka panjang, dengan fokus strategis pada sektor pertumbuhan tinggi termasuk real estat industri, bahan bangunan baru, pendidikan, layanan kesehatan AI, infrastruktur digital, dan ekosistem perangkat lunak cerdas. Kami terus mengembangkan kemampuan investasi lintas sektor yang terintegrasi vertikal dan keahlian integrasi sumber daya. Pada saat yang sama, kami sangat menekankan peluang pembangunan berkelanjutan berorientasi ESG, mendorong integrasi yang lebih dalam antara modal, teknologi, dan industri. Dengan memanfaatkan dua puluh tahun pengalaman tim profesional kami di pasar Asia-Pasifik, kami berkomitmen menjadi jembatan strategis yang menghubungkan modal, industri, dan teknologi inovatif."
         ],
-        "images": [
-          "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-about-image.jpg"
-        ],
+        "images": ["/images/cms/buzud-about-image.jpg"],
         "links": [],
         "items": [],
         "productIds": [],
@@ -73,13 +67,13 @@
           {
             "heading": "AI + Pendidikan",
             "text": "CHUNG YIP memanfaatkan Sekolah Internasional Heng Xing Singapura yang mayoritas sahamnya dimilikinya untuk secara aktif mengeksplorasi integrasi mendalam teknologi kecerdasan buatan dan industri pendidikan.",
-            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-ai-education.jpg",
+            "image": "/images/cms/buzud-ai-education.jpg",
             "href": "https://www.esic.edu.sg/"
           },
           {
             "heading": "AI + Medis",
             "text": "CHUNG YIP bekerja sama dengan BUZUD, merek layanan kesehatan buatan Singapura yang terkenal, untuk bersama-sama mengeksplorasi aplikasi dan solusi inovatif teknologi kecerdasan buatan di bidang layanan kesehatan.",
-            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-ai-medical.jpg",
+            "image": "/images/cms/buzud-ai-medical.jpg",
             "href": "https://www.buzud.com/en/solutions-medicare-plus"
           }
         ],
@@ -94,9 +88,9 @@
           "Kami berharap dapat bekerja sama dengan mitra industri, institusi kesehatan, dan masyarakat untuk memajukan industri kesehatan."
         ],
         "images": [
-          "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/company/cooperation-imdec-2026-01.jpg",
-          "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/company/cooperation-imdec-2026-02.jpg",
-          "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/company/cooperation-imdec-2026-03.jpg"
+          "/_next/image/?url=%2Fimages%2Fcompany%2Fcooperation-imdec-2026-01.jpg&w=1200&q=75",
+          "/images/company/cooperation-imdec-2026-02.jpg",
+          "/_next/image/?url=%2Fimages%2Fcompany%2Fcooperation-imdec-2026-03.jpg&w=1200&q=75"
         ],
         "links": [
           {
