@@ -11,7 +11,6 @@ import contact from "@/data/contact.json"
 import { LanguageSwitch } from "@/i18n/LanguageSwitch"
 import { PORTAL_LOCALE_PATHS, portalLocalizedHref } from "@/i18n/config"
 import { getLocale } from "@/i18n/server"
-import { getSiteIntro } from "@/lib/site-intro"
 import { HOME_URL, MEDICAL_URL } from "@/lib/site-scope"
 
 interface PortalCopy {
@@ -180,7 +179,6 @@ function Arrow() {
 export async function PortalHome() {
   const locale = await getLocale()
   const isZh = locale === "zh-CN"
-  const intro = getSiteIntro("portal")[isZh ? "zh" : "en"]
   const copy = isZh ? ZH : EN
   const currentLocaleHref = isZh ? PORTAL_LOCALE_PATHS["zh-CN"] : PORTAL_LOCALE_PATHS.en
   const localizedHref = (href: string) => portalLocalizedHref(locale, href)
@@ -271,40 +269,28 @@ export async function PortalHome() {
         <main id="portal-main" tabIndex={-1}>
           <section
             id="portal-act-01"
-            className="portal-act portal-hero"
+            className={`portal-act portal-hero ${hero.section}`}
             data-portal-act="01"
             aria-labelledby="portal-act-01-title"
             tabIndex={-1}
           >
-            <PortalOpening title={intro.eyebrow} />
+            <PortalOpening title="One earth, One business." />
             <div className={hero.frame} data-portal-company>
+              <div className={hero.visual} data-company-visual>
+                <Image
+                  src="/images/cms/buzud-hero-company.jpg"
+                  alt={isZh ? "从太空俯瞰地球" : "Earth seen from space"}
+                  fill
+                  sizes="100vw"
+                  unoptimized
+                  loading="eager"
+                  fetchPriority="high"
+                />
+              </div>
               <div className={hero.feature}>
-                <div className={hero.copy}>
-                  <p className={hero.eyebrow}>{intro.eyebrow}</p>
-                  <h1 id="portal-act-01-title" className={hero.name}>
-                    {intro.title}
-                  </h1>
-                  <p className={hero.description}>{intro.description}</p>
-                  <Link className={hero.profile} href={localizedHref("/zh/company/")}>
-                    {isZh ? "了解公司业务" : "Explore our company"}
-                    <Arrow />
-                  </Link>
-                </div>
-                <div className={hero.visual} data-company-visual>
-                  <Image
-                    src="/images/cms/buzud-about-image.jpg"
-                    alt={
-                      isZh
-                        ? "带有 CHUNG YIP HOLDING 名称的新加坡滨海湾夜景"
-                        : "Singapore’s Marina Bay skyline with the CHUNG YIP HOLDING name"
-                    }
-                    width={2164}
-                    height={1440}
-                    unoptimized
-                    loading="eager"
-                    fetchPriority="high"
-                  />
-                </div>
+                <h1 id="portal-act-01-title" className={hero.name}>
+                  One earth, One business.
+                </h1>
               </div>
               <div className={hero.stores} data-portal-stores>
                 <button
@@ -312,8 +298,8 @@ export async function PortalHome() {
                   type="button"
                   data-store-cue
                   aria-controls="portal-store-links"
+                  aria-label={isZh ? "显示医疗和家电商城入口" : "Show the medical and home stores"}
                 >
-                  {isZh ? "下滑查看商城" : "Scroll to explore the stores"}
                   <span aria-hidden="true">↓</span>
                 </button>
                 <div id="portal-store-links" className="portal-destinations">

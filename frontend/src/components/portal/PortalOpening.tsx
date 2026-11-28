@@ -60,9 +60,6 @@ export function PortalOpening({ title }: { title: string }) {
   return (
     <div ref={curtainRef} className={styles.curtain} data-portal-opening aria-hidden="true">
       <div className={styles.lockup}>
-        <span className={styles.wordmark} data-brand="CHUNG YIP">
-          CHUNG YIP
-        </span>
         <span className={styles.title}>{title}</span>
       </div>
     </div>

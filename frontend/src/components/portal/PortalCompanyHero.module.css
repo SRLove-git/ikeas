@@ -1,85 +1,63 @@
+.section:global(.portal-hero) {
+  background: #030b17;
+}
+
 .frame {
+  position: relative;
   display: flex;
   flex: 1;
   flex-direction: column;
   width: 100%;
   max-width: var(--portal-frame);
   margin-inline: auto;
-  color: #172720;
-}
-
-.feature {
-  display: grid;
-  flex: 1;
-  grid-template-columns: minmax(0, 0.88fr) minmax(0, 1.12fr);
-  align-items: center;
-  column-gap: clamp(32px, 5vw, 96px);
-  padding-block: clamp(28px, 5vh, 72px);
-}
-
-.copy {
-  min-width: 0;
-}
-
-.eyebrow {
-  margin: 0 0 clamp(14px, 2.2vh, 26px);
-  color: #355748;
-  font-size: clamp(11px, 0.9vw, 14px);
-  font-weight: 600;
-  line-height: 1.5;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-}
-
-.name {
-  margin: 0;
-  font-family: var(--font-portal-serif-latin), var(--font-portal-serif-sc), Georgia, serif;
-  font-size: clamp(56px, 6.3vw, 112px);
-  font-weight: 400;
-  line-height: 1.03;
-  letter-spacing: -0.06em;
-  overflow-wrap: break-word;
-}
-
-.description {
-  max-width: 43ch;
-  margin-top: clamp(18px, 2.8vh, 32px);
-  color: #37483f;
-  font-size: clamp(16px, 1.23vw, 21px);
-  line-height: 1.65;
-  text-wrap: pretty;
-}
-
-.profile {
-  display: inline-flex;
-  min-height: 44px;
-  width: fit-content;
-  align-items: center;
-  gap: 1.2em;
-  margin-top: clamp(12px, 2.4vh, 26px);
-  border-bottom: 1px solid currentColor;
-  color: #214c3d;
-  font-size: 14px;
-  font-weight: 600;
-}
-
-.profile:hover :global(.portal-arrow),
-.profile:focus-visible :global(.portal-arrow) {
-  transform: translateX(4px);
+  color: #f4f8fa;
+  isolation: isolate;
 }
 
 .visual {
-  width: 100%;
-  max-width: min(850px, 78vh);
-  justify-self: end;
+  position: absolute;
+  inset: 0 calc(-1 * var(--portal-gutter));
+  z-index: -1;
   overflow: hidden;
-  background: #142528;
+  background: #030b17;
+}
+
+.visual::after {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    #030b17 0%,
+    #030b17 69%,
+    rgb(3 11 23 / 95%) 74%,
+    transparent 81%
+  );
+  content: "";
 }
 
 .visual img {
-  display: block;
-  width: 100%;
-  height: auto;
+  object-fit: cover;
+  object-position: center bottom;
+}
+
+.feature {
+  display: flex;
+  flex: 1;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: clamp(90px, 16svh, 180px);
+  text-align: center;
+}
+
+.name {
+  max-width: 16ch;
+  margin: 0;
+  font-family: var(--font-portal-serif-latin), Georgia, serif;
+  font-size: clamp(46px, 7.5vw, 112px);
+  font-weight: 400;
+  line-height: 1.06;
+  letter-spacing: -0.045em;
+  text-wrap: balance;
 }
 
 .stores {
@@ -89,6 +67,21 @@
 
 .stores :global(.portal-destinations) {
   margin: 0;
+  background: rgb(3 11 23 / 84%);
+}
+
+.frame :global(.portal-destinations),
+.frame :global(.portal-destinations a + a) {
+  border-color: rgb(255 255 255 / 24%);
+}
+
+.frame :global(.portal-destinations a),
+.frame :global(.portal-destinations strong) {
+  color: #f4f8fa;
+}
+
+.frame :global(.portal-destinations span) {
+  color: rgb(244 248 250 / 70%);
 }
 
 .storeCue {
@@ -96,18 +89,17 @@
   position: absolute;
   inset: 0;
   width: fit-content;
+  min-width: 44px;
   min-height: 44px;
   align-items: center;
-  gap: 10px;
+  justify-content: center;
   margin: auto;
-  padding-inline: 12px;
-  color: #355748;
-  font-size: 13px;
+  color: #f4f8fa;
   cursor: pointer;
 }
 
 .storeCue span {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -138,32 +130,11 @@
 
 @media (max-width: 767px) {
   .feature {
-    grid-template-columns: minmax(0, 1fr);
-    align-content: center;
-    gap: clamp(18px, 3.3svh, 32px);
-    padding-block: clamp(18px, 3.5svh, 34px);
+    padding-top: clamp(80px, 14svh, 125px);
   }
 
   .name {
-    font-size: clamp(48px, 11vw, 72px);
-  }
-
-  .eyebrow {
-    margin-bottom: 8px;
-  }
-
-  .description {
-    margin-top: 12px;
-    font-size: 15px;
-    line-height: 1.55;
-  }
-
-  .profile {
-    margin-top: 7px;
-  }
-
-  .visual {
-    max-width: min(100%, 56svh);
-    justify-self: center;
+    max-width: 12ch;
+    font-size: clamp(46px, 11.5vw, 72px);
   }
 }

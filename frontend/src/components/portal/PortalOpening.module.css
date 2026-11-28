@@ -12,19 +12,17 @@
       inset: 0;
       z-index: 4;
       overflow: hidden;
-      background: #102c26;
+      background:
+        linear-gradient(
+          to bottom,
+          #030b17 0%,
+          #030b17 69%,
+          rgb(3 11 23 / 95%) 74%,
+          transparent 81%
+        ),
+        #030b17 url("/images/cms/buzud-hero-company.jpg") center bottom / cover no-repeat;
       pointer-events: none;
       animation: uncover var(--opening-length) linear both;
-    }
-
-    .curtain::before {
-      position: absolute;
-      inset: 0 auto 0 0;
-      width: 4px;
-      background: #97c6b0;
-      transform-origin: bottom;
-      content: "";
-      animation: edgeIn 1050ms 140ms cubic-bezier(0.34, 0.03, 0.25, 1) both;
     }
 
     :global(.portal-header) {
@@ -39,45 +37,21 @@
       visibility: hidden;
     }
 
-    [data-company-visual] {
-      animation: companyImageIn var(--opening-length) linear both;
-    }
-
     .lockup {
       position: absolute;
-      top: clamp(74px, 20svh, 200px);
-      left: max(var(--portal-gutter), calc((100% - var(--portal-frame)) / 2));
-      max-width: 46%;
+      top: clamp(160px, 25svh, 280px);
+      inset-inline: var(--portal-gutter);
+      text-align: center;
       animation: lockupIn 540ms cubic-bezier(0.16, 0.79, 0.28, 1) both;
-    }
-
-    .wordmark {
-      position: relative;
-      display: block;
-      width: max-content;
-      font:
-        400 clamp(50px, 7.4vw, 124px)/1.14 var(--font-portal-serif-latin),
-        Georgia,
-        serif;
-      letter-spacing: -0.065em;
-      color: transparent;
-      -webkit-text-stroke: 1px #93b8a9;
-    }
-    .wordmark::after {
-      position: absolute;
-      inset: 0;
-      color: #e4f1e5;
-      -webkit-text-stroke: 0;
-      content: attr(data-brand);
-      animation: fillWord 840ms 260ms cubic-bezier(0.55, 0.06, 0.24, 1) both;
     }
 
     .title {
       display: block;
-      margin-top: clamp(8px, 1.2vw, 18px);
-      color: #bcd7ca;
-      font-size: clamp(13px, 1.2vw, 19px);
-      line-height: 1.4;
+      color: #f4f8fa;
+      font-family: var(--font-portal-serif-latin), Georgia, serif;
+      font-size: clamp(46px, 7.5vw, 112px);
+      line-height: 1.06;
+      letter-spacing: -0.045em;
       animation: lockupIn 500ms 230ms ease-out both;
     }
   }
@@ -91,34 +65,6 @@
   to {
     opacity: 1;
     translate: 0 0;
-  }
-}
-@keyframes fillWord {
-  from {
-    clip-path: inset(100% 0 0);
-  }
-  to {
-    clip-path: inset(0);
-  }
-}
-@keyframes edgeIn {
-  from {
-    transform: scaleY(0);
-  }
-  to {
-    transform: scaleY(1);
-  }
-}
-@keyframes companyImageIn {
-  0%,
-  62% {
-    clip-path: inset(0 100% 0 0);
-    transform: translateY(14px);
-    animation-timing-function: cubic-bezier(0.22, 0.7, 0.18, 1);
-  }
-  100% {
-    clip-path: inset(0);
-    transform: none;
   }
 }
 @keyframes uncover {
@@ -153,12 +99,8 @@
 
 @media (max-width: 1023px), (pointer: coarse) {
   .stage:not(:has(:target)):has(.curtain:not([hidden])) {
-    .lockup {
-      top: max(30px, 7svh);
-      max-width: 88%;
-    }
-    .wordmark {
-      font-size: clamp(44px, 12vw, 82px);
+    .title {
+      font-size: clamp(46px, 11.5vw, 72px);
     }
   }
 }

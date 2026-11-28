@@ -28,7 +28,7 @@ function visibleStoreCountIs(selector, count) {
   )
 }
 
-test("portal company introduction", { skip: !origin && "set PORTAL_TEST_ORIGIN" }, async (t) => {
+test("portal earth hero", { skip: !origin && "set PORTAL_TEST_ORIGIN" }, async (t) => {
   const browser = await puppeteer.launch(
     process.env.CHROME_PATH ? { executablePath: process.env.CHROME_PATH } : { channel: "chrome" },
   )
@@ -47,24 +47,27 @@ test("portal company introduction", { skip: !origin && "set PORTAL_TEST_ORIGIN" 
   }
 
   for (const locale of ["en", "zh"]) {
-    await t.test(`company introduction, photo and destinations on /${locale}/`, async (t) => {
+    await t.test(`earth image, slogan and destinations on /${locale}/`, async (t) => {
       const page = await newPage(t)
       await open(page, `/${locale}/`)
       await page.waitForSelector(opening, { hidden: true })
       const heading = await page.$eval(`${company} h1`, (el) => el.innerText.replace(/\s+/g, " "))
-      assert.equal(heading.trim(), "CHUNG YIP")
+      assert.equal(heading.trim(), "One earth, One business.")
+      assert.equal(
+        await page.$eval(`${company} h1`, (el) => el.parentElement.innerText.trim()),
+        "One earth, One business.",
+      )
 
       const photo = await page.$eval(`${company} img`, async (img) => {
         await img.decode()
         return { url: img.currentSrc, width: img.naturalWidth }
       })
-      assert.equal(photo.url, new URL("/images/cms/buzud-about-image.jpg", origin).href)
+      assert.equal(photo.url, new URL("/images/cms/buzud-hero-company.jpg", origin).href)
       assert.ok(photo.width > 0)
 
       const links = await page.$$eval("#portal-act-01 a[href]", (anchors) =>
         anchors.map((a) => a.href),
       )
-      assert.ok(links.includes(new URL(`/${locale}/company/`, origin).href))
       for (const store of [
         process.env.NEXT_PUBLIC_MEDICAL_URL || "https://medical-sg.com",
         process.env.NEXT_PUBLIC_HOME_URL || "https://home-sg.com",
@@ -143,8 +146,7 @@ test("portal company introduction", { skip: !origin && "set PORTAL_TEST_ORIGIN" 
         await open(page, "/en/")
         await page.waitForSelector(opening, { hidden: true })
         if (key === "Enter") {
-          await page.focus(`${company} a[href="/en/company/"]`)
-          await page.keyboard.press("Tab")
+          await page.focus("[data-store-cue]")
           assert.equal(
             await page.$eval("[data-store-cue]", (el) => el === document.activeElement),
             true,
