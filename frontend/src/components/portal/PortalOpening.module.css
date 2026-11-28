@@ -1,0 +1,193 @@
+.curtain {
+  display: none;
+}
+
+@media (scripting: enabled) and (prefers-reduced-motion: no-preference) {
+  .stage:not(:has(:target)):has(.curtain:not([hidden])) {
+    --opening-length: 2400ms;
+    --reel-x: 15%;
+    --reel-y: -218%;
+
+    .curtain {
+      display: block;
+      position: absolute;
+      inset: 0;
+      z-index: 4;
+      overflow: hidden;
+      background: #102c26;
+      pointer-events: none;
+      animation: uncover var(--opening-length) linear both;
+    }
+
+    .curtain::before {
+      position: absolute;
+      inset: 0 auto 0 0;
+      width: 4px;
+      background: #97c6b0;
+      transform-origin: bottom;
+      content: "";
+      animation: edgeIn 1050ms 140ms cubic-bezier(0.34, 0.03, 0.25, 1) both;
+    }
+
+    :global(.portal-header) {
+      animation: revealHeader var(--opening-length) linear both;
+    }
+
+    nav:has([data-portal-progress-item]) {
+      animation: showIndex var(--opening-length) linear both;
+    }
+
+    :global(.portal-footer) {
+      visibility: hidden;
+    }
+
+    [data-product-gallery] {
+      z-index: 5;
+    }
+
+    [data-product-gallery] > a {
+      --at-rest: 0;
+      --gray: 1;
+      animation: firstReel var(--opening-length) linear both;
+    }
+    [data-product-gallery] > a[data-stage="near"] {
+      --at-rest: 0.4;
+    }
+    [data-product-gallery] > a[data-stage="active"] {
+      --at-rest: 1;
+      --gray: 0;
+    }
+
+    .lockup {
+      position: absolute;
+      top: clamp(74px, 20svh, 200px);
+      left: max(var(--portal-gutter), calc((100% - var(--portal-frame)) / 2));
+      max-width: 46%;
+      animation: lockupIn 540ms cubic-bezier(0.16, 0.79, 0.28, 1) both;
+    }
+
+    .wordmark {
+      position: relative;
+      display: block;
+      width: max-content;
+      font:
+        400 clamp(50px, 7.4vw, 124px)/1.14 var(--font-portal-serif-latin),
+        Georgia,
+        serif;
+      letter-spacing: -0.065em;
+      color: transparent;
+      -webkit-text-stroke: 1px #93b8a9;
+    }
+    .wordmark::after {
+      position: absolute;
+      inset: 0;
+      color: #e4f1e5;
+      -webkit-text-stroke: 0;
+      content: attr(data-brand);
+      animation: fillWord 840ms 260ms cubic-bezier(0.55, 0.06, 0.24, 1) both;
+    }
+
+    .title {
+      display: block;
+      margin-top: clamp(8px, 1.2vw, 18px);
+      color: #bcd7ca;
+      font-size: clamp(13px, 1.2vw, 19px);
+      line-height: 1.4;
+      animation: lockupIn 500ms 230ms ease-out both;
+    }
+  }
+}
+
+@keyframes lockupIn {
+  from {
+    opacity: 0;
+    translate: 0 0.38em;
+  }
+  to {
+    opacity: 1;
+    translate: 0 0;
+  }
+}
+@keyframes fillWord {
+  from {
+    clip-path: inset(100% 0 0);
+  }
+  to {
+    clip-path: inset(0);
+  }
+}
+@keyframes edgeIn {
+  from {
+    transform: scaleY(0);
+  }
+  to {
+    transform: scaleY(1);
+  }
+}
+@keyframes firstReel {
+  0%,
+  23% {
+    translate: var(--reel-x) var(--reel-y);
+    opacity: 0;
+    filter: grayscale(0);
+    animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  }
+  40% {
+    translate: calc(var(--reel-x) * 0.85) calc(var(--reel-y) * 0.85);
+    opacity: 1;
+    filter: grayscale(0);
+    animation-timing-function: cubic-bezier(0.15, 0.66, 0.2, 1);
+  }
+  85%,
+  100% {
+    translate: 0 0;
+    opacity: var(--at-rest);
+    filter: grayscale(var(--gray));
+  }
+}
+@keyframes uncover {
+  0%,
+  66% {
+    clip-path: inset(0);
+    animation-timing-function: cubic-bezier(0.67, 0.04, 0.23, 1);
+  }
+  100% {
+    clip-path: inset(0 0 0 100%);
+  }
+}
+@keyframes revealHeader {
+  0%,
+  66% {
+    clip-path: inset(0 100% 0 0);
+    animation-timing-function: cubic-bezier(0.67, 0.04, 0.23, 1);
+  }
+  100% {
+    clip-path: inset(0);
+  }
+}
+@keyframes showIndex {
+  0%,
+  92% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 1023px), (pointer: coarse) {
+  .stage:not(:has(:target)):has(.curtain:not([hidden])) {
+    --reel-x: -208%;
+    --reel-y: 0%;
+    .lockup {
+      top: max(30px, 7svh);
+      max-width: 88%;
+    }
+    .wordmark {
+      font-size: clamp(44px, 12vw, 82px);
+    }
+    [data-product-gallery] > a[data-stage="near"] {
+      --at-rest: 0.52;
+    }
+  }
+}

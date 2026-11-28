@@ -4,6 +4,9 @@ import { CartIcon, SearchIcon } from "@/components/icons"
 import { PortalMobileNav } from "@/components/portal/PortalMobileNav"
 import { PortalMotion } from "@/components/portal/PortalMotion"
 import { PortalFlipDeck } from "@/components/portal/PortalFlipDeck"
+import { PortalOpening } from "./PortalOpening"
+import opening from "./PortalOpening.module.css"
+import chapters from "./portal-chapters.module.css"
 import contact from "@/data/contact.json"
 import { LanguageSwitch } from "@/i18n/LanguageSwitch"
 import { PORTAL_LOCALE_PATHS, portalLocalizedHref } from "@/i18n/config"
@@ -197,7 +200,7 @@ export async function PortalHome() {
   return (
     <PortalMotion>
       <div
-        className="portal-rn min-h-screen overflow-x-clip bg-[#0d0d0d] text-[#f2f0ea]"
+        className={`portal-rn min-h-screen overflow-x-clip bg-[#0d0d0d] text-[#f2f0ea] ${opening.stage}`}
         data-locale={isZh ? "zh" : "en"}
       >
         <a href="#portal-main" className="portal-skip-link">
@@ -206,7 +209,7 @@ export async function PortalHome() {
 
         <header className="portal-header fixed inset-x-0 top-0 z-40 border-b border-white/10 bg-[#0d0d0d]/95">
           <div className="mx-auto flex h-[76px] max-w-[1800px] items-center px-5 sm:px-8 lg:px-12">
-            <Link href={currentLocaleHref} className="portal-wordmark" aria-label="CHUNG YIP home">
+            <a href={currentLocaleHref} className="portal-wordmark" aria-label="CHUNG YIP home">
               <Image
                 src="/images/logo/logo.png"
                 alt="CHUNG YIP"
@@ -215,7 +218,7 @@ export async function PortalHome() {
                 priority
                 className="portal-wordmark__logo"
               />
-            </Link>
+            </a>
 
             <nav
               className="mx-auto hidden items-center gap-9 text-[11px] font-medium tracking-[0.16em] text-white/60 lg:flex"
@@ -271,27 +274,19 @@ export async function PortalHome() {
           </div>
         </header>
 
-        <aside className="portal-act-progress" aria-hidden="true">
-          <ol>
-            {acts.map((act, index) => (
-              <li
-                key={act.number}
-                data-portal-progress-item={act.number}
-                data-active={index === 0 ? "true" : undefined}
-              >
-                <span>{act.number}</span>
-                <i />
-                <strong>{act.label}</strong>
-              </li>
-            ))}
-          </ol>
-        </aside>
-
-        <main id="portal-main">
-          <section id="portal-act-01" className="portal-act portal-hero" data-portal-act="01">
-            <div className="portal-hero__inner">
-              <div className="portal-hero__copy">
-                <h1 className="portal-hero__title">
+        <main id="portal-main" tabIndex={-1}>
+          <section
+            id="portal-act-01"
+            className="portal-act portal-hero"
+            data-portal-act="01"
+            aria-labelledby="portal-act-01-title"
+            tabIndex={-1}
+          >
+            <PortalOpening title={intro.title} />
+            <PortalFlipDeck
+              isZh={isZh}
+              heading={
+                <h1 id="portal-act-01-title" className="portal-hero__title">
                   <span className="portal-hero__title-line" data-delay="80">
                     <span>{titleLead}</span>
                   </span>
@@ -303,8 +298,8 @@ export async function PortalHome() {
                     </span>
                   ) : null}
                 </h1>
-              </div>
-
+              }
+            >
               <div className="portal-destinations portal-hero__intro-item" data-delay="340">
                 <a className="group" href={MEDICAL_URL}>
                   <span>01</span>
@@ -317,16 +312,32 @@ export async function PortalHome() {
                   <Arrow />
                 </a>
               </div>
-
-              <PortalFlipDeck isZh={isZh} />
-            </div>
+            </PortalFlipDeck>
           </section>
+
+          <nav className={chapters.index} aria-label={isZh ? "首页章节" : "Page sections"}>
+            <ol>
+              {acts.map((act, index) => (
+                <li key={act.number}>
+                  <a
+                    href={`#portal-act-${act.number}`}
+                    data-portal-progress-item={act.number}
+                    aria-current={index === 0 ? "location" : undefined}
+                  >
+                    <span className={chapters.label}>{act.label}</span>
+                    <i className={chapters.mark} aria-hidden="true" />
+                  </a>
+                </li>
+              ))}
+            </ol>
+          </nav>
 
           <section
             id="portal-act-02"
             className="portal-act portal-world portal-world--medical"
             data-portal-act="02"
             aria-labelledby="portal-act-02-title"
+            tabIndex={-1}
           >
             <div className="portal-world__inner">
               <div className="portal-world__copy">
@@ -390,6 +401,7 @@ export async function PortalHome() {
             className="portal-act portal-world portal-world--home"
             data-portal-act="03"
             aria-labelledby="portal-act-03-title"
+            tabIndex={-1}
           >
             <div className="portal-world__inner portal-world__inner--reverse">
               <div
@@ -444,6 +456,7 @@ export async function PortalHome() {
             className="portal-act portal-account"
             data-portal-act="04"
             aria-labelledby="portal-act-04-title"
+            tabIndex={-1}
           >
             <div className="portal-account__inner">
               <div className="portal-account__head">
