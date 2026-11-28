@@ -3,7 +3,7 @@ import Link from "next/link"
 import { CartIcon, SearchIcon } from "@/components/icons"
 import { PortalMobileNav } from "@/components/portal/PortalMobileNav"
 import { PortalMotion } from "@/components/portal/PortalMotion"
-import { PortalFlipDeck } from "@/components/portal/PortalFlipDeck"
+import hero from "./PortalCompanyHero.module.css"
 import { PortalOpening } from "./PortalOpening"
 import opening from "./PortalOpening.module.css"
 import chapters from "./portal-chapters.module.css"
@@ -184,12 +184,6 @@ export async function PortalHome() {
   const copy = isZh ? ZH : EN
   const currentLocaleHref = isZh ? PORTAL_LOCALE_PATHS["zh-CN"] : PORTAL_LOCALE_PATHS.en
   const localizedHref = (href: string) => portalLocalizedHref(locale, href)
-  const titleParts = intro.title.split(isZh ? "，" : ",")
-  const titleLead = titleParts[0] + (titleParts.length > 1 ? (isZh ? "，" : ", ") : "")
-  const titleTail = titleParts
-    .slice(1)
-    .join(isZh ? "，" : ",")
-    .trim()
   const acts = [
     { number: "01", label: "CHUNG YIP" },
     { number: "02", label: copy.nav.medical },
@@ -282,24 +276,36 @@ export async function PortalHome() {
             aria-labelledby="portal-act-01-title"
             tabIndex={-1}
           >
-            <PortalOpening title={intro.title} />
-            <PortalFlipDeck
-              isZh={isZh}
-              heading={
-                <h1 id="portal-act-01-title" className="portal-hero__title">
-                  <span className="portal-hero__title-line" data-delay="80">
-                    <span>{titleLead}</span>
-                  </span>
-                  {titleTail ? (
-                    <span className="portal-hero__title-line" data-delay="160">
-                      <span className={isZh ? undefined : "portal-hero__title-italic"}>
-                        {titleTail}
-                      </span>
-                    </span>
-                  ) : null}
-                </h1>
-              }
-            >
+            <PortalOpening title={intro.eyebrow} />
+            <div className={hero.frame} data-portal-company>
+              <div className={hero.feature}>
+                <div className={hero.copy}>
+                  <p className={hero.eyebrow}>{intro.eyebrow}</p>
+                  <h1 id="portal-act-01-title" className={hero.name}>
+                    {intro.title}
+                  </h1>
+                  <p className={hero.description}>{intro.description}</p>
+                  <Link className={hero.profile} href={localizedHref("/zh/company/")}>
+                    {isZh ? "了解公司业务" : "Explore our company"}
+                    <Arrow />
+                  </Link>
+                </div>
+                <div className={hero.visual} data-company-visual>
+                  <Image
+                    src="/images/cms/buzud-about-image.jpg"
+                    alt={
+                      isZh
+                        ? "带有 CHUNG YIP HOLDING 名称的新加坡滨海湾夜景"
+                        : "Singapore’s Marina Bay skyline with the CHUNG YIP HOLDING name"
+                    }
+                    width={2164}
+                    height={1440}
+                    unoptimized
+                    loading="eager"
+                    fetchPriority="high"
+                  />
+                </div>
+              </div>
               <div className="portal-destinations portal-hero__intro-item" data-delay="340">
                 <a className="group" href={MEDICAL_URL}>
                   <span>01</span>
@@ -312,7 +318,7 @@ export async function PortalHome() {
                   <Arrow />
                 </a>
               </div>
-            </PortalFlipDeck>
+            </div>
           </section>
 
           <nav className={chapters.index} aria-label={isZh ? "首页章节" : "Page sections"}>

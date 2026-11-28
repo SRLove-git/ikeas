@@ -5,8 +5,6 @@
 @media (scripting: enabled) and (prefers-reduced-motion: no-preference) {
   .stage:not(:has(:target)):has(.curtain:not([hidden])) {
     --opening-length: 2400ms;
-    --reel-x: 15%;
-    --reel-y: -218%;
 
     .curtain {
       display: block;
@@ -41,21 +39,8 @@
       visibility: hidden;
     }
 
-    [data-product-gallery] {
-      z-index: 5;
-    }
-
-    [data-product-gallery] > a {
-      --at-rest: 0;
-      --gray: 1;
-      animation: firstReel var(--opening-length) linear both;
-    }
-    [data-product-gallery] > a[data-stage="near"] {
-      --at-rest: 0.4;
-    }
-    [data-product-gallery] > a[data-stage="active"] {
-      --at-rest: 1;
-      --gray: 0;
+    [data-company-visual] {
+      animation: companyImageIn var(--opening-length) linear both;
     }
 
     .lockup {
@@ -124,25 +109,16 @@
     transform: scaleY(1);
   }
 }
-@keyframes firstReel {
+@keyframes companyImageIn {
   0%,
-  23% {
-    translate: var(--reel-x) var(--reel-y);
-    opacity: 0;
-    filter: grayscale(0);
-    animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  62% {
+    clip-path: inset(0 100% 0 0);
+    transform: translateY(14px);
+    animation-timing-function: cubic-bezier(0.22, 0.7, 0.18, 1);
   }
-  40% {
-    translate: calc(var(--reel-x) * 0.85) calc(var(--reel-y) * 0.85);
-    opacity: 1;
-    filter: grayscale(0);
-    animation-timing-function: cubic-bezier(0.15, 0.66, 0.2, 1);
-  }
-  85%,
   100% {
-    translate: 0 0;
-    opacity: var(--at-rest);
-    filter: grayscale(var(--gray));
+    clip-path: inset(0);
+    transform: none;
   }
 }
 @keyframes uncover {
@@ -177,17 +153,12 @@
 
 @media (max-width: 1023px), (pointer: coarse) {
   .stage:not(:has(:target)):has(.curtain:not([hidden])) {
-    --reel-x: -208%;
-    --reel-y: 0%;
     .lockup {
       top: max(30px, 7svh);
       max-width: 88%;
     }
     .wordmark {
       font-size: clamp(44px, 12vw, 82px);
-    }
-    [data-product-gallery] > a[data-stage="near"] {
-      --at-rest: 0.52;
     }
   }
 }

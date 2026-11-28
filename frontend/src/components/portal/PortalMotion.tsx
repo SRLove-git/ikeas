@@ -247,12 +247,6 @@ export function PortalMotion({ children }: PortalMotionProps) {
         else footer.setAttribute("aria-hidden", "true")
       }
 
-      window.dispatchEvent(
-        new CustomEvent("portal:act-flip", {
-          detail: { index: activeFlipIndex, act: activeNumber },
-        }),
-      )
-
       if (shouldMoveFocus) {
         activeAct?.focus({ preventScroll: true })
       }
