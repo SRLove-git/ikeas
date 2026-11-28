@@ -1413,11 +1413,11 @@ html[data-portal-flip="true"] body {
 }
 
 .portal-hero__title {
-  max-width: 920px;
+  max-width: 900px;
   margin-top: clamp(24px, 3.8vh, 42px);
   color: var(--portal-paper);
-  font-size: clamp(4.5rem, 9vw, 10rem);
-  line-height: 0.88;
+  font-size: clamp(3.4rem, 7vw, 7.6rem);
+  line-height: 0.9;
   letter-spacing: -0.03em;
 }
 
@@ -1449,9 +1449,9 @@ html[data-portal-flip="true"] body {
 }
 
 .portal-rn[data-locale="zh"] .portal-hero__title {
-  max-width: 780px;
-  font-size: clamp(3.2rem, 5.4vw, 5.6rem);
-  line-height: 1.2;
+  max-width: 640px;
+  font-size: clamp(2.5rem, 4.2vw, 4.4rem);
+  line-height: 1.24;
   letter-spacing: 0.01em;
 }
 
