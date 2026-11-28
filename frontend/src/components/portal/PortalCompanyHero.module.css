@@ -82,9 +82,58 @@
   height: auto;
 }
 
-.frame :global(.portal-destinations) {
+.stores {
+  position: relative;
   flex-shrink: 0;
+}
+
+.stores :global(.portal-destinations) {
   margin: 0;
+}
+
+.storeCue {
+  display: none;
+  position: absolute;
+  inset: 0;
+  width: fit-content;
+  min-height: 44px;
+  align-items: center;
+  gap: 10px;
+  margin: auto;
+  padding-inline: 12px;
+  color: #355748;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.storeCue span {
+  font-size: 20px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .stores {
+    overflow: clip;
+    overflow-clip-margin: 4px;
+  }
+
+  .stores[data-stores-pending] .storeCue {
+    display: flex;
+  }
+
+  .stores[data-stores-pending] :global(.portal-destinations) {
+    opacity: 0;
+    transform: translateY(105%);
+  }
+
+  .stores:not([data-stores-pending]) :global(.portal-destinations) {
+    transition:
+      transform var(--portal-d3) var(--portal-ease-enter),
+      opacity var(--portal-d2) ease-out;
+  }
+
+  .stores:has(a:focus-visible) :global(.portal-destinations) {
+    transition: none;
+  }
 }
 
 @media (max-width: 767px) {

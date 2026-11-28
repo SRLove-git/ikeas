@@ -39,6 +39,9 @@ export function PortalMotion({ children }: PortalMotionProps) {
 
     const header = root.querySelector<HTMLElement>(".portal-header")
     const footer = root.querySelector<HTMLElement>(".portal-footer")
+    const stores = root.querySelector<HTMLElement>("[data-portal-stores]")
+    const storeLinks = stores?.querySelector<HTMLElement>("#portal-store-links")
+    const storeCue = stores?.querySelector<HTMLButtonElement>("[data-store-cue]")
     const acts = Array.from(root.querySelectorAll<HTMLElement>("[data-portal-act]"))
     const progressItems = Array.from(
       root.querySelectorAll<HTMLAnchorElement>("[data-portal-progress-item]"),
@@ -47,11 +50,6 @@ export function PortalMotion({ children }: PortalMotionProps) {
     const worldVisuals = worlds
       .map((world) => world.querySelector<HTMLElement>(".portal-world__visual"))
       .filter((visual): visual is HTMLElement => visual !== null)
-    const introElements = Array.from(
-      root.querySelectorAll<HTMLElement>(
-        ".portal-hero__intro-item, .portal-hero__title-line > span",
-      ),
-    )
     const reducedMotionQuery = window.matchMedia(REDUCED_MOTION_QUERY)
     const flipViewport = window.matchMedia(FLIP_VIEWPORT_QUERY)
 
@@ -64,7 +62,19 @@ export function PortalMotion({ children }: PortalMotionProps) {
     let flipEnabled = false
     let flipLocked = false
     let wheelAccumulator = 0
+    let consumingStoreGesture = false
     let activeFlipIndex = 0
+
+    const showStores = (focusLink = false) => {
+      if (!stores?.hasAttribute("data-stores-pending") || !storeLinks) return false
+      const moveFocus = focusLink || document.activeElement === storeCue
+      stores.removeAttribute("data-stores-pending")
+      storeLinks.inert = false
+      if (moveFocus) storeLinks.querySelector("a")?.focus({ preventScroll: true })
+      return true
+    }
+
+    const handleStoreCue = () => showStores(true)
 
     const showHeader = () => {
       header?.classList.remove("is-hidden")
@@ -153,6 +163,14 @@ export function PortalMotion({ children }: PortalMotionProps) {
     const updateViewportMotion = () => {
       scrollFrame = null
       const currentScrollY = Math.max(window.scrollY, 0)
+      if (
+        !flipEnabled &&
+        currentScrollY > 0 &&
+        stores?.hasAttribute("data-stores-pending") &&
+        stores.getBoundingClientRect().top < window.innerHeight
+      ) {
+        showStores()
+      }
       updateHeader(currentScrollY)
       updateProgress()
       updateWorldParallax()
@@ -257,6 +275,7 @@ export function PortalMotion({ children }: PortalMotionProps) {
       if (wheelResetTimer !== null) window.clearTimeout(wheelResetTimer)
       flipLockTimer = null
       wheelResetTimer = null
+      consumingStoreGesture = false
     }
 
     const lockFlip = () => {
@@ -387,12 +406,19 @@ export function PortalMotion({ children }: PortalMotionProps) {
       if (wheelResetTimer !== null) window.clearTimeout(wheelResetTimer)
       wheelResetTimer = window.setTimeout(() => {
         wheelAccumulator = 0
+        consumingStoreGesture = false
         wheelResetTimer = null
       }, FLIP_IDLE_RESET_MS)
 
+      if (consumingStoreGesture) return
       if (Math.abs(wheelAccumulator) < FLIP_WHEEL_THRESHOLD) return
       const direction = wheelAccumulator > 0 ? 1 : -1
       wheelAccumulator = 0
+      if (direction > 0 && activeFlipIndex === 0 && showStores()) {
+        // The remaining momentum of this same swipe belongs to the reveal.
+        consumingStoreGesture = true
+        return
+      }
       stepChapter(activeFlipIndex + direction)
     }
 
@@ -417,6 +443,10 @@ export function PortalMotion({ children }: PortalMotionProps) {
 
       let nextIndex: number | null = null
       if (event.key === "ArrowDown" || event.key === "PageDown" || event.key === " ") {
+        if (!event.shiftKey && activeFlipIndex === 0 && showStores(true)) {
+          event.preventDefault()
+          return
+        }
         nextIndex = activeFlipIndex + (event.shiftKey ? -1 : 1)
       } else if (event.key === "ArrowUp" || event.key === "PageUp") {
         nextIndex = activeFlipIndex - 1
@@ -447,6 +477,7 @@ export function PortalMotion({ children }: PortalMotionProps) {
     const handleReducedMotionChange = () => {
       syncFlipMode()
       if (reducedMotionQuery.matches) {
+        showStores()
         showHeader()
         clearWorldParallax()
       }
@@ -458,15 +489,17 @@ export function PortalMotion({ children }: PortalMotionProps) {
       showHeader()
     }
 
-    const handleIntroAnimationEnd = (event: AnimationEvent) => {
-      if (event.target !== event.currentTarget || !event.animationName.startsWith("portal-")) return
-      const element = event.currentTarget as HTMLElement
-      element.classList.add("portal-animation-complete")
+    if (
+      storeCue &&
+      storeLinks &&
+      !reducedMotionQuery.matches &&
+      !window.location.hash &&
+      !lastScrollY
+    ) {
+      stores?.setAttribute("data-stores-pending", "")
+      storeLinks.inert = true
     }
-
-    introElements.forEach((element) => {
-      element.addEventListener("animationend", handleIntroAnimationEnd)
-    })
+    storeCue?.addEventListener("click", handleStoreCue)
     syncFlipMode(true)
     setupWorldObserver()
     updateViewportMotion()
@@ -490,9 +523,9 @@ export function PortalMotion({ children }: PortalMotionProps) {
       window.removeEventListener("scroll", scheduleViewportMotion)
       window.removeEventListener("resize", scheduleMotionRefresh)
       header?.removeEventListener("focusin", handleHeaderFocus)
-      introElements.forEach((element) => {
-        element.removeEventListener("animationend", handleIntroAnimationEnd)
-      })
+      storeCue?.removeEventListener("click", handleStoreCue)
+      stores?.removeAttribute("data-stores-pending")
+      if (storeLinks) storeLinks.inert = false
       reducedMotionQuery.removeEventListener("change", handleReducedMotionChange)
 
       if (scrollFrame !== null) window.cancelAnimationFrame(scrollFrame)

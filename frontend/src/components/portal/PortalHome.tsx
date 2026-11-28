@@ -306,17 +306,28 @@ export async function PortalHome() {
                   />
                 </div>
               </div>
-              <div className="portal-destinations portal-hero__intro-item" data-delay="340">
-                <a className="group" href={MEDICAL_URL}>
-                  <span>01</span>
-                  <strong>{copy.medical.cta}</strong>
-                  <Arrow />
-                </a>
-                <a className="group" href={HOME_URL}>
-                  <span>02</span>
-                  <strong>{copy.home.cta}</strong>
-                  <Arrow />
-                </a>
+              <div className={hero.stores} data-portal-stores>
+                <button
+                  className={hero.storeCue}
+                  type="button"
+                  data-store-cue
+                  aria-controls="portal-store-links"
+                >
+                  {isZh ? "下滑查看商城" : "Scroll to explore the stores"}
+                  <span aria-hidden="true">↓</span>
+                </button>
+                <div id="portal-store-links" className="portal-destinations">
+                  <a className="group" href={MEDICAL_URL}>
+                    <span>01</span>
+                    <strong>{copy.medical.cta}</strong>
+                    <Arrow />
+                  </a>
+                  <a className="group" href={HOME_URL}>
+                    <span>02</span>
+                    <strong>{copy.home.cta}</strong>
+                    <Arrow />
+                  </a>
+                </div>
               </div>
             </div>
           </section>
