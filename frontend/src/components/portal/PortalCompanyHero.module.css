@@ -105,7 +105,7 @@
   font-size: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+@media (scripting: enabled) and (prefers-reduced-motion: no-preference) {
   .stores {
     overflow: clip;
     overflow-clip-margin: 4px;
@@ -116,6 +116,7 @@
   }
 
   .stores[data-stores-pending] :global(.portal-destinations) {
+    visibility: hidden;
     opacity: 0;
     transform: translateY(105%);
   }

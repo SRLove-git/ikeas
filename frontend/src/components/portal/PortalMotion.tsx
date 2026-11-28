@@ -489,15 +489,13 @@ export function PortalMotion({ children }: PortalMotionProps) {
       showHeader()
     }
 
-    if (
-      storeCue &&
-      storeLinks &&
-      !reducedMotionQuery.matches &&
-      !window.location.hash &&
-      !lastScrollY
-    ) {
-      stores?.setAttribute("data-stores-pending", "")
-      storeLinks.inert = true
+    if (storeCue && storeLinks) {
+      if (!reducedMotionQuery.matches && !window.location.hash && !lastScrollY) {
+        stores?.setAttribute("data-stores-pending", "")
+        storeLinks.inert = true
+      } else {
+        showStores()
+      }
     }
     storeCue?.addEventListener("click", handleStoreCue)
     syncFlipMode(true)

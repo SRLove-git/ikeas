@@ -79,6 +79,37 @@ test("portal earth hero", { skip: !origin && "set PORTAL_TEST_ORIGIN" }, async (
   }
 
   await t.test(
+    "store entries start folded before hydration and stay available without JS",
+    async (t) => {
+      const beforeHydration = await newPage(t)
+      await beforeHydration.setRequestInterception(true)
+      beforeHydration.on("request", (request) => {
+        if (request.resourceType() === "script") request.abort()
+        else request.continue()
+      })
+      await beforeHydration.goto(new URL("/en/", origin).href, { waitUntil: "domcontentloaded" })
+      assert.deepEqual(
+        await beforeHydration.evaluate(() => ({
+          pending: document
+            .querySelector("[data-portal-stores]")
+            ?.hasAttribute("data-stores-pending"),
+          visibility: getComputedStyle(document.querySelector("#portal-store-links")).visibility,
+          hydrated: document.querySelector(".portal-motion-ready") !== null,
+        })),
+        { pending: true, visibility: "hidden", hydrated: false },
+      )
+
+      const withoutJs = await newPage(t)
+      await withoutJs.setJavaScriptEnabled(false)
+      await withoutJs.goto(new URL("/en/", origin).href, { waitUntil: "domcontentloaded" })
+      assert.equal(
+        await withoutJs.$eval("#portal-store-links", (el) => getComputedStyle(el).visibility),
+        "visible",
+      )
+    },
+  )
+
+  await t.test(
     "the first wheel slides both store links up and the next gesture opens Medical",
     async (t) => {
       const page = await newPage(t)

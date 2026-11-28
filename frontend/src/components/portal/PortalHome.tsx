@@ -295,7 +295,7 @@ export async function PortalHome() {
                   {OPENING_TITLE}
                 </h1>
               </div>
-              <div className={hero.stores} data-portal-stores>
+              <div className={hero.stores} data-portal-stores data-stores-pending="">
                 <button
                   className={hero.storeCue}
                   type="button"
