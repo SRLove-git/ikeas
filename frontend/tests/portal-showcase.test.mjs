@@ -118,6 +118,14 @@ test("portal earth hero", { skip: !origin && "set PORTAL_TEST_ORIGIN" }, async (
       await open(page, "/en/")
       await page.waitForSelector(opening, { visible: true })
       assert.ok(await page.$eval(opening, (el) => el.getAnimations().length > 0))
+      assert.match(
+        await page.$eval(opening, (el) => getComputedStyle(el).animationName),
+        /openingWipe/,
+      )
+      assert.equal(
+        await page.$eval(`${company} h1`, (el) => getComputedStyle(el).webkitTextStrokeWidth),
+        "1px",
+      )
       await cdp.send("Animation.setPlaybackRate", { playbackRate: 1 })
       await page.waitForSelector(opening, { hidden: true })
 

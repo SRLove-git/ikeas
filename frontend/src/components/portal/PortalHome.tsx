@@ -13,6 +13,8 @@ import { PORTAL_LOCALE_PATHS, portalLocalizedHref } from "@/i18n/config"
 import { getLocale } from "@/i18n/server"
 import { HOME_URL, MEDICAL_URL } from "@/lib/site-scope"
 
+const OPENING_TITLE = "One earth, One business."
+
 interface PortalCopy {
   nav: { medical: string; home: string; account: string; orders: string; support: string }
   utilities: { menu: string; close: string; search: string; cart: string; login: string }
@@ -271,7 +273,6 @@ export async function PortalHome() {
             aria-labelledby="portal-act-01-title"
             tabIndex={-1}
           >
-            <PortalOpening />
             <div className={hero.frame} data-portal-company>
               <div className={hero.visual} data-company-visual>
                 <Image
@@ -284,9 +285,14 @@ export async function PortalHome() {
                   fetchPriority="high"
                 />
               </div>
+              <PortalOpening />
               <div className={hero.feature}>
-                <h1 id="portal-act-01-title" className={hero.name}>
-                  One earth, One business.
+                <h1
+                  id="portal-act-01-title"
+                  className={hero.name}
+                  data-opening-title={OPENING_TITLE}
+                >
+                  {OPENING_TITLE}
                 </h1>
               </div>
               <div className={hero.stores} data-portal-stores>

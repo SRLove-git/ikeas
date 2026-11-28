@@ -41,6 +41,8 @@
 }
 
 .feature {
+  position: relative;
+  z-index: 2;
   display: flex;
   flex: 1;
   align-items: flex-start;
@@ -62,6 +64,7 @@
 
 .stores {
   position: relative;
+  z-index: 2;
   flex-shrink: 0;
 }
 

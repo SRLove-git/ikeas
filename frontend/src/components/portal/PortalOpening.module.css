@@ -7,27 +7,51 @@
     .curtain {
       display: block;
       position: absolute;
-      inset: 0;
-      z-index: 4;
-      background: #030b17;
+      inset: 0 calc(-1 * var(--portal-gutter));
+      z-index: 1;
+      background: rgb(3 11 23 / 52%);
       pointer-events: none;
-      animation: clearVeil 1700ms var(--portal-ease-enter) both;
+      animation: openingWipe 2300ms linear both;
+    }
+
+    .curtain::after {
+      position: absolute;
+      inset: 0 auto 0 0;
+      width: 3px;
+      background: #5ca4cd;
+      clip-path: inset(100% 0 0);
+      content: "";
+      animation: progressFill 1100ms linear both;
     }
 
     [data-company-visual] img {
-      animation: settlePlanet 1700ms var(--portal-ease-enter) both;
+      animation: settlePlanet 2300ms var(--portal-ease-enter) both;
     }
 
     [data-portal-company] h1 {
-      animation: enterTitle 900ms 130ms var(--portal-ease-enter) both;
+      position: relative;
+      color: transparent;
+      -webkit-text-stroke: 1px rgb(244 248 250 / 88%);
+    }
+
+    [data-portal-company] h1::after {
+      position: absolute;
+      inset: 0;
+      display: block;
+      color: #f4f8fa;
+      -webkit-text-stroke: 0;
+      clip-path: inset(100% 0 0);
+      content: attr(data-opening-title);
+      pointer-events: none;
+      animation: fillTitle 1080ms 160ms var(--portal-ease-enter) both;
     }
 
     :global(.portal-header) {
-      animation: enterHeader 500ms 550ms var(--portal-ease-enter) both;
+      animation: revealHeader 1050ms 1200ms cubic-bezier(0.77, 0, 0.175, 1) both;
     }
 
     nav:has([data-portal-progress-item]) {
-      animation: enterIndex 500ms 780ms var(--portal-ease-enter) both;
+      animation: enterIndex 420ms 1840ms var(--portal-ease-enter) both;
     }
 
     :global(.portal-footer) {
@@ -36,46 +60,44 @@
   }
 }
 
-@keyframes clearVeil {
-  from {
-    opacity: 0.24;
+@keyframes openingWipe {
+  0%,
+  52% {
+    clip-path: inset(0);
+    animation-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
   }
-  78%,
   to {
-    opacity: 0;
+    clip-path: inset(0 0 0 100%);
+  }
+}
+
+@keyframes progressFill {
+  to {
+    clip-path: inset(0);
+  }
+}
+
+@keyframes fillTitle {
+  to {
+    clip-path: inset(0);
   }
 }
 
 @keyframes settlePlanet {
   from {
-    opacity: 0.78;
-    transform: scale(1.035);
+    transform: scale(1.045);
   }
   to {
-    opacity: 1;
     transform: scale(1);
   }
 }
 
-@keyframes enterTitle {
+@keyframes revealHeader {
   from {
-    opacity: 0;
-    transform: translateY(0.24em);
+    clip-path: inset(0 100% 0 0);
   }
   to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes enterHeader {
-  from {
-    opacity: 0;
-    transform: translateY(-12px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
+    clip-path: inset(0);
   }
 }
 
