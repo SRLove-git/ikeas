@@ -36,15 +36,8 @@ export function PortalMobileNav({
 }: PortalMobileNavProps) {
   const localizedHref = (href: string) => portalLocalizedHref(locale, href)
   const [open, setOpen] = useState(false)
-  // The header owns a transform (hide on scroll), which would trap a fixed
-  // overlay inside the 68px header box — so the panel is portalled to <body>.
-  const [mounted, setMounted] = useState(false)
   const triggerRef = useRef<HTMLButtonElement>(null)
   const panelRef = useRef<HTMLDivElement>(null)
-
-  useEffect(() => {
-    setMounted(true)
-  }, [])
 
   useEffect(() => {
     if (!open) return
@@ -100,7 +93,9 @@ export function PortalMobileNav({
         <span />
       </button>
 
-      {mounted && open
+      {/* The header owns a transform (hide on scroll), which would trap a fixed
+          overlay inside the 68px header box — so the panel is portalled. */}
+      {open
         ? createPortal(
             <div
               id="portal-mobile-menu"

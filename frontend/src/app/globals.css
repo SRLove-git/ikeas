@@ -1459,14 +1459,6 @@ html[data-portal-flip="true"] body {
   letter-spacing: 0.14em;
 }
 
-.portal-hero__description {
-  max-width: 590px;
-  margin-top: 24px;
-  color: rgba(242, 240, 234, 0.64);
-  font-size: 17px;
-  line-height: 1.75;
-}
-
 .portal-hero__primary {
   display: flex;
   flex-wrap: wrap;
@@ -1630,29 +1622,6 @@ html[data-portal-flip="true"] body {
   pointer-events: none;
 }
 
-.portal-flip-deck__hint {
-  position: absolute;
-  z-index: 2;
-  bottom: 0;
-  left: 0;
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  color: rgba(242, 240, 234, 0.38);
-  font-size: 9px;
-  font-weight: 600;
-  letter-spacing: 0.22em;
-  text-transform: uppercase;
-  pointer-events: none;
-}
-
-.portal-flip-deck__hint i {
-  display: block;
-  width: 34px;
-  height: 1px;
-  background: currentColor;
-}
-
 .portal-destinations {
   display: grid;
   width: 100%;
@@ -1711,16 +1680,8 @@ html[data-portal-flip="true"] body {
   transform: translateX(6px);
 }
 
-.portal-hero__eyebrow {
-  animation: portal-hero-rise-12 var(--portal-d3) var(--portal-ease-enter) backwards;
-}
-
 .portal-hero__intro-item {
   animation: portal-hero-rise-14 var(--portal-d3) var(--portal-ease-enter) backwards;
-}
-
-.portal-hero__intro-item[data-delay="260"] {
-  animation-delay: 260ms;
 }
 
 .portal-hero__intro-item[data-delay="340"] {
@@ -2256,19 +2217,9 @@ html[data-portal-flip="true"] body {
     line-height: 1.28;
   }
 
-  .portal-hero__description {
-    margin-top: 24px;
-    font-size: 16px;
-    line-height: 1.8;
-  }
-
   .portal-flip-deck {
     --deck-card-size: clamp(150px, 45vw, 215px);
     min-height: 340px;
-  }
-
-  .portal-flip-deck__hint {
-    display: none;
   }
 
   .portal-destinations {
@@ -2410,7 +2361,6 @@ html[data-portal-flip="true"] body {
     transform: translateY(0) !important;
   }
 
-  .portal-hero__eyebrow,
   .portal-hero__intro-item,
   .portal-hero__title-line > span,
   .portal-flip-deck {
@@ -2545,10 +2495,6 @@ html[data-portal-flip="true"] body {
   color: rgba(13, 13, 13, 0.58);
 }
 
-.portal-rn .portal-hero__description {
-  color: rgba(13, 13, 13, 0.62);
-}
-
 .portal-rn .portal-hero__primary a {
   border-bottom-color: rgba(13, 13, 13, 0.4);
   color: rgba(13, 13, 13, 0.78);
@@ -2568,10 +2514,6 @@ html[data-portal-flip="true"] body {
 
 .portal-rn .portal-destinations span {
   color: rgba(13, 13, 13, 0.5);
-}
-
-.portal-rn .portal-flip-deck__hint {
-  color: rgba(13, 13, 13, 0.42);
 }
 
 /* Acts 02 / 03 -------------------------------------------------- */

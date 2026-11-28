@@ -46,7 +46,7 @@ export function PortalMotion({ children }: PortalMotionProps) {
       .filter((visual): visual is HTMLElement => visual !== null)
     const introElements = Array.from(
       root.querySelectorAll<HTMLElement>(
-        ".portal-hero__eyebrow, .portal-hero__intro-item, .portal-hero__title-line > span, .portal-flip-deck",
+        ".portal-hero__intro-item, .portal-hero__title-line > span, .portal-flip-deck",
       ),
     )
     const reducedMotionQuery = window.matchMedia(REDUCED_MOTION_QUERY)

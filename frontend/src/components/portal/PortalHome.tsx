@@ -14,7 +14,6 @@ import { HOME_URL, MEDICAL_URL } from "@/lib/site-scope"
 interface PortalCopy {
   nav: { medical: string; home: string; account: string; orders: string; support: string }
   utilities: { menu: string; close: string; search: string; cart: string; login: string }
-  eyebrow: string
   medical: { label: string; title: string; cta: string; points: string[] }
   home: { label: string; title: string; cta: string; points: string[] }
   member: {
@@ -48,7 +47,6 @@ const ZH: PortalCopy = {
     cart: "购物袋",
     login: "登录 / 注册",
   },
-  eyebrow: "01 — 同一集团 · 两种生活 · 新加坡",
   medical: {
     label: "01 / MEDICAL & HEALTH",
     title: "医疗健康",
@@ -116,7 +114,6 @@ const EN: PortalCopy = {
     cart: "Shopping bag",
     login: "Sign in / Register",
   },
-  eyebrow: "01 — ONE GROUP · TWO WORLDS · SINGAPORE",
   medical: {
     label: "01 / MEDICAL & HEALTH",
     title: "Medical & Health",
@@ -294,9 +291,6 @@ export async function PortalHome() {
           <section id="portal-act-01" className="portal-act portal-hero" data-portal-act="01">
             <div className="portal-hero__inner">
               <div className="portal-hero__copy">
-                <p className="portal-eyebrow portal-hero__eyebrow" data-delay="0">
-                  {copy.eyebrow}
-                </p>
                 <h1 className="portal-hero__title">
                   <span className="portal-hero__title-line" data-delay="80">
                     <span>{titleLead}</span>
@@ -309,9 +303,6 @@ export async function PortalHome() {
                     </span>
                   ) : null}
                 </h1>
-                <p className="portal-hero__description portal-hero__intro-item" data-delay="260">
-                  {intro.description}
-                </p>
               </div>
 
               <div className="portal-destinations portal-hero__intro-item" data-delay="340">

@@ -506,10 +506,6 @@ export function PortalFlipDeck({ isZh }: PortalFlipDeckProps) {
           </div>
         </div>
       </div>
-      <span className="portal-flip-deck__hint" aria-hidden="true">
-        <i />
-        {isZh ? "滚动 · 点击 · 翻转" : "Scroll · click · flip"}
-      </span>
     </div>
   )
 }
