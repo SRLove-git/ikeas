@@ -1300,8 +1300,7 @@ html[data-portal-flip="true"] body {
 
 .portal-display,
 .portal-hero__title,
-.portal-world h2,
-.portal-account h2 {
+.portal-world h2 {
   font-family:
     var(--font-portal-serif-latin), var(--font-portal-serif-sc), Georgia, "Times New Roman",
     "Songti SC", STSong, serif;
@@ -1624,21 +1623,6 @@ html[data-portal-flip="true"] body {
   grid-column: 1 / -1;
 }
 
-.portal-account h2 {
-  max-width: 1040px;
-  margin-top: 24px;
-  font-size: clamp(3.6rem, 6.4vw, 7.2rem);
-  line-height: 0.96;
-  text-wrap: balance;
-  letter-spacing: -0.03em;
-}
-
-.portal-rn[data-locale="zh"] .portal-account h2 {
-  font-size: clamp(2.9rem, 4.8vw, 5rem);
-  line-height: 1.2;
-  letter-spacing: 0.01em;
-}
-
 .portal-account__label {
   padding-bottom: 12px;
   border-bottom: 1px solid rgba(242, 240, 234, 0.24);
@@ -1700,7 +1684,7 @@ html[data-portal-flip="true"] body {
 .portal-contact-strip {
   display: flex;
   grid-column: 1 / -1;
-  justify-content: space-between;
+  justify-content: flex-end;
   gap: 30px;
   border-top: 1px solid rgba(242, 240, 234, 0.2);
   padding-top: 20px;
@@ -2035,16 +2019,6 @@ html[data-portal-flip="true"] body {
 
   .portal-account__inner {
     row-gap: 30px;
-  }
-
-  .portal-account h2,
-  .portal-rn[data-locale="zh"] .portal-account h2 {
-    margin-top: 20px;
-    font-size: clamp(2.5rem, 11vw, 4rem);
-  }
-
-  .portal-rn[data-locale="zh"] .portal-account h2 {
-    font-size: clamp(2.3rem, 10vw, 3.4rem);
   }
 
   .portal-account__rows > a {

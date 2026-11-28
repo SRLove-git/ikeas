@@ -20,7 +20,6 @@ interface PortalCopy {
   home: { label: string; title: string; cta: string; points: string[] }
   member: {
     label: string
-    title: string
     groupLabel: string
     railLabel: string
     login: string
@@ -63,7 +62,6 @@ const ZH: PortalCopy = {
   },
   member: {
     label: "04 / ACCOUNT & SUPPORT",
-    title: "会员、订单与服务，集中在一处",
     groupLabel: "账户",
     railLabel: "账户与支持",
     login: "登录或注册",
@@ -130,7 +128,6 @@ const EN: PortalCopy = {
   },
   member: {
     label: "04 / ACCOUNT & SUPPORT",
-    title: "Membership, orders and service in one place",
     groupLabel: "Account",
     railLabel: "Account & support",
     login: "Sign in or register",
@@ -463,19 +460,14 @@ export async function PortalHome() {
           >
             <div className="portal-account__inner">
               <div className="portal-account__head">
-                <p className="portal-eyebrow" data-portal-reveal data-delay="0">
-                  {copy.member.label}
-                </p>
-                <div
-                  className="portal-title-mask"
-                  data-portal-title-mask
+                <h2
+                  id="portal-act-04-title"
+                  className="portal-eyebrow"
                   data-portal-reveal
-                  data-delay="70"
+                  data-delay="0"
                 >
-                  <h2 id="portal-act-04-title" data-portal-title>
-                    {copy.member.title}
-                  </h2>
-                </div>
+                  {copy.member.label}
+                </h2>
               </div>
 
               <div className="portal-account__group" data-portal-reveal data-delay="140">
@@ -515,7 +507,6 @@ export async function PortalHome() {
               </div>
 
               <div className="portal-contact-strip" data-portal-reveal data-delay="300">
-                <span>{contact.stores[0].address}</span>
                 <a href={`mailto:${contact.email}`}>{contact.email}</a>
               </div>
             </div>
