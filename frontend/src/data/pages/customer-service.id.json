@@ -200,19 +200,19 @@
           {
             "title": "Layanan pengiriman",
             "text": "",
-            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-service-delivery.jpg",
+            "image": "/images/cms/buzud-service-delivery.jpg",
             "href": "/zh/customer-service/services/delivery/"
           },
           {
             "title": "Layanan purna jual",
             "text": "",
-            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-service-aftersales.jpg",
+            "image": "/images/cms/buzud-service-aftersales.jpg",
             "href": "/zh/customer-service/services/aftersales/"
           },
           {
             "title": "Manfaat eksklusif",
             "text": "",
-            "image": "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-service-privileges.jpg",
+            "image": "/images/cms/buzud-service-privileges.jpg",
             "href": "/zh/customer-service/services/privileges/"
           }
         ],
@@ -252,9 +252,7 @@
         "texts": [
           "Email layanan pelanggan dan agen online kami akan merespons Anda secepat mungkin selama jam kerja. Jangan ragu menghubungi kami kapan saja."
         ],
-        "images": [
-          "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/cms/buzud-support-banner-v3.png"
-        ],
+        "images": ["/images/cms/buzud-support-banner-v2.png"],
         "links": [
           {
             "href": "/zh/customer-service/contact-us/",
@@ -564,12 +562,12 @@
         "title": null,
         "texts": ["Program pengalaman kesehatan"],
         "images": [
-          "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/customer-service/health-experience-imdec-2026-01.jpg",
-          "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/customer-service/health-experience-imdec-2026-02.jpg",
-          "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/customer-service/health-experience-imdec-2026-03.jpg",
-          "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/customer-service/health-experience-imdec-2026-04.jpg",
-          "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/customer-service/health-experience-imdec-2026-05.jpg",
-          "https://medical-sg.oss-ap-southeast-1.aliyuncs.com/images/customer-service/health-experience-imdec-2026-06.jpg"
+          "/images/customer-service/health-experience-imdec-2026-01.jpg",
+          "/_next/image/?url=%2Fimages%2Fcustomer-service%2Fhealth-experience-imdec-2026-02.jpg&w=1200&q=75",
+          "/images/customer-service/health-experience-imdec-2026-03.jpg",
+          "/_next/image/?url=%2Fimages%2Fcompany%2Fcooperation-imdec-2026-01.jpg&w=1200&q=75",
+          "/images/company/cooperation-imdec-2026-02.jpg",
+          "/_next/image/?url=%2Fimages%2Fcompany%2Fcooperation-imdec-2026-03.jpg&w=1200&q=75"
         ],
         "links": [],
         "items": [],
