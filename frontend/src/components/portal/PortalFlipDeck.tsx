@@ -1,6 +1,5 @@
 "use client"
 
-import Image from "next/image"
 import {
   useEffect,
   useLayoutEffect,
@@ -76,6 +75,13 @@ const limit = (value: number) => Math.max(0, Math.min(lastIndex, value))
 function productUrl(product: (typeof products)[number], isZh: boolean) {
   const origin = product.path.startsWith("p/") ? MEDICAL_URL : HOME_URL
   return `${origin}/${isZh ? "zh" : "en"}/${product.path}/`
+}
+
+function retryProductPhoto(photo: HTMLImageElement | null) {
+  // A request can fail before the gallery hydrates. Recheck it when attaching the ref.
+  if (photo?.complete && photo.naturalWidth === 0) {
+    photo.previousElementSibling?.removeAttribute("srcset")
+  }
 }
 
 export function PortalFlipDeck({
@@ -304,6 +310,7 @@ export function PortalFlipDeck({
         {products.map((item, i) => {
           const offset = i - index
           const current = offset === 0
+          const imagePath = `/images/portal/card-${item.image}`
           return (
             <a
               key={item.image}
@@ -332,18 +339,24 @@ export function PortalFlipDeck({
                 select(i)
               }}
             >
-              <div className={styles.plate}>
-                <Image
-                  src={`/images/portal/card-${item.image}.png`}
+              <picture className={styles.plate}>
+                <source
+                  type="image/webp"
+                  srcSet={`${imagePath}-480.webp 480w, ${imagePath}-900.webp 900w`}
+                  sizes="(max-width: 1023px) 60vw, 34vw"
+                />
+                <img
+                  src={`${imagePath}.png`}
                   alt=""
                   width={900}
                   height={900}
-                  sizes="(max-width: 1023px) 60vw, 34vw"
-                  loading={i < 2 ? "eager" : "lazy"}
-                  fetchPriority={i === 0 ? "high" : undefined}
+                  loading="eager"
+                  fetchPriority={current ? "high" : Math.abs(offset) === 1 ? "auto" : "low"}
+                  ref={retryProductPhoto}
+                  onError={(event) => retryProductPhoto(event.currentTarget)}
                   draggable={false}
                 />
-              </div>
+              </picture>
             </a>
           )
         })}

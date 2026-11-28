@@ -34,6 +34,40 @@ test("portal product gallery", { skip: !origin && "set PORTAL_TEST_ORIGIN" }, as
     )
   }
 
+  await t.test("all six product photos decode, including a failed WebP request", async () => {
+    const page = await browser.newPage()
+    try {
+      await page.setViewport({ width: 1230, height: 799, deviceScaleFactor: 2 })
+      await page.setRequestInterception(true)
+      page.on("request", (request) => {
+        const path = new URL(request.url()).pathname
+        if (path.startsWith("/_next/image") || /\/card-bp-\d+\.webp$/.test(path)) {
+          void request.abort()
+        } else {
+          void request.continue()
+        }
+      })
+      await page.goto(new URL("/en/", origin).href, { waitUntil: "domcontentloaded" })
+      await page.waitForSelector(".portal-motion-ready")
+      await page.waitForFunction(() => {
+        const photos = [...document.querySelectorAll("[data-product-gallery] img")]
+        return photos.length === 6 && photos.every((img) => img.complete && img.naturalWidth > 0)
+      })
+      const sources = await page.$$eval("[data-product-gallery] img", async (photos) => {
+        await Promise.all(photos.map((img) => img.decode()))
+        return photos.map((img) => new URL(img.currentSrc).pathname)
+      })
+      assert.deepEqual(
+        sources,
+        ["wheelchair", "oven", "bp", "fridge", "oximeter", "dishwasher"].map((name) =>
+          name === "bp" ? "/images/portal/card-bp.png" : `/images/portal/card-${name}-900.webp`,
+        ),
+      )
+    } finally {
+      await page.close()
+    }
+  })
+
   await t.test(
     "the opening hands off to the gallery and can be dismissed on the first gesture",
     async () => {
